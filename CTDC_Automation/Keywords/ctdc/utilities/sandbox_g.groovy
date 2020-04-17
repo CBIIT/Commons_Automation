@@ -27,7 +27,7 @@ public class sandbox_g {
 		String[] indivStr = DelimitedStr.split("-");
 		System.out.println ("The individual array of strings is :"+indivStr)
 		System.out.println("Second element in the array is :"+indivStr[1])
-	    String[] nums = indivStr[1].split();
+		String[] nums = indivStr[1].split();
 		System.out.println ("The individual second array of strings is :"+nums)
 		int iter = Integer.parseInt(nums[0]);   //Integer result = Integer.valueOf(number);  In summary, parseInt(String) returns a primitive int, whereas valueOf(String) returns a new Integer() object.
 		int totalRec = Integer.parseInt(nums[2])

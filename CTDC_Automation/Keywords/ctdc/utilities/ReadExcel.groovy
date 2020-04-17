@@ -1,5 +1,4 @@
 package ctdc.utilities
-
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -22,7 +21,6 @@ import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.By as By
 import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.chrome.ChromeDriver as ChromeDriver
-import org.openqa.selenium.firefox.FirefoxDriver as FirefoxDriver
 import org.openqa.selenium.chrome.ChromeOptions as ChromeOptions
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import java.util.*
@@ -39,13 +37,6 @@ import java.io.IOException;
 import java.util.Iterator;
 import java.util.ArrayList;
 
-import java.nio.Buffer;
-import java.nio.ByteBuffer;
-import java.nio.file.FileSystem;
-import java.nio.file.LinkOption;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-
 import org.apache.poi.ss.usermodel.Cell
 import org.apache.poi.ss.usermodel.Row
 import org.apache.poi.ss.usermodel.Workbook
@@ -54,11 +45,19 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
+import java.nio.Buffer;
+import java.nio.ByteBuffer;
+import java.nio.file.FileSystem;
+import java.nio.file.LinkOption;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import ctdc.utilities.ConnectDB
 
 public class ReadExcel {
 
@@ -72,21 +71,21 @@ public class ReadExcel {
 
 		// An excel file name. You can create a file name with a fullSystem.out.println("sjhdajdakjsd")
 
-		System.out.println("00000000")
 
-
-		// filepath information
+		// path information.  Committed on April 17 
 
 		Path filepath = Paths.get(System.getProperty("user.dir"), "TestData", "Input_TestData.xlsx");
 		System.out.println("This is the full filepath after converting to string :"+filepath.toString());
-
+		//String filename = ("C:\\Data\\readInput.xlsx")
 		// Create an ArrayList to store the data read from excel sheet.
 		List<List<XSSFCell>> sheetData = new ArrayList<>();
+
+		//try (FileInputStream fis = new FileInputStream(filename)) {
+		// Create an excel workbook from the file system.
 		FileInputStream fis = new FileInputStream(filepath.toString());
-		XSSFWorkbook workbook = new XSSFWorkbook(fis); // Create an excel workbook from the file system.
+		//FileInputStream fis = new FileInputStream(filepath)
+		XSSFWorkbook workbook = new XSSFWorkbook(fis);
 
-
-		System.out.println("333333333")
 		// Get the first sheet on the workbook.
 		XSSFSheet sheet = workbook.getSheetAt(0);
 
@@ -133,169 +132,67 @@ public class ReadExcel {
 	public static void Neo4j() {
 
 
-		// ---------------------------------
-		//"MATCH (n:case) RETURN n LIMIT 25"
+		//String query = "MATCH (t:clinical_trial)<--(a:arm)<--(:assignment_report)-[*]->(c:case) WITH DISTINCT c AS c, t ,a  OPTIONAL MATCH (c)<-[*]-(f:file)  Return c.case_id  As case_id,t.clinical_trial_designation as clinical_trial_code,a.arm_id As arm_id, a.arm_drug As arm_drug, a.pubmed_id As pubmed_id, c.disease As disease, c.gender As gender, c.race As race, c.ethnicity As ethnicity, t.clinical_trial_id As clinical_trial_id, a.arm_id+'_'+ a.arm_drug As trial_arm, COLLECT(DISTINCT(f.file_type)) AS file_types, COLLECT(DISTINCT(f.file_format)) AS file_formats, COLLECT(DISTINCT(f)) AS files";
+		//String neo4jServer = "bolt://ncidb-q325-c.nci.nih.gov:7687";
+		//String userName="neo4j";
+		//String pwd="icdcDBneo4j0";
+		//String output="C:\\laxmi\\TEST5.xlsx";
+		//''executor.run(neo4jServer,userName,pwd, query,output);
 
-		//output= 'C:\laxmi\
 
-		String query ="MATCH (t:clinical_trial)<--(a:arm)<--(:assignment_report)-[*]->(c:case) WITH DISTINCT c AS c, t ,a  OPTIONAL MATCH (c)<-[*]-(f:file)  Return c.case_id  As case_id,t.clinical_trial_designation as clinical_trial_code,a.arm_id As arm_id, a.arm_drug As arm_drug, a.pubmed_id As pubmed_id, c.disease As disease, c.gender As gender, c.race As race, c.ethnicity As ethnicity, t.clinical_trial_id As clinical_trial_id, a.arm_id+'_'+ a.arm_drug As trial_arm, COLLECT(DISTINCT(f.file_type)) AS file_types, COLLECT(DISTINCT(f.file_format)) AS file_formats, COLLECT(DISTINCT(f)) AS files";
-		//String neo4jServer = "bolt://ncias-q2251-c.nci.nih.gov/";
-		String neo4jServer = "bolt://ncias-d2267-c.nci.nih.gov/" ;
 
-		String userName="neo4j";
-		String pwd="icdcDBneo4j0";
-		String output="C:\\Users\\radhakrishnang2\\Desktop\\DataCommons_Automation\\CTDC_Automation\\TestData\\DatafromNeo4j.xlsx" ;
-		//executor.run(neo4jServer,userName,pwd, query,output);
 
-		//----------------
+		System.out.println ( " the data for NE4J  :  " +  GlobalVariable.G_Query +   GlobalVariable.G_UserId +   GlobalVariable.G_Password +  GlobalVariable.G_ResultPath + GlobalVariable.G_server )
+		String query =GlobalVariable.G_Query
+		String userName= GlobalVariable.G_UserId
+		String pwd= GlobalVariable.G_Password
+		String output= GlobalVariable.G_ResultPath
+		String neo4jServer = GlobalVariable.G_server
+		//String query=
+		//"MATCH (t:clinical_trial)<--(a:arm)<--(:assignment_report)-[*]->(c:case) WITH DISTINCT c AS c, t ,a  OPTIONAL MATCH (c)<-[*]-(f:file)  Return c.case_id  As case_id,t.clinical_trial_designation as clinical_trial_code,a.arm_id As arm_id, a.arm_drug As arm_drug, a.pubmed_id As pubmed_id, c.disease As disease, c.gender As gender, c.race As race, c.ethnicity As ethnicity, t.clinical_trial_id As clinical_trial_id, a.arm_id+'_'+ a.arm_drug As trial_arm, COLLECT(DISTINCT(f.file_type)) AS file_types, COLLECT(DISTINCT(f.file_format)) AS file_formats, COLLECT(DISTINCT(f)) AS files";
+		//		String neo4jServer =   "bolt://ncidb-q325-c.nci.nih.gov"
 
-		CypherExecutor Test1 = new CypherExecutor()
-
+		//		// "bolt://ncias-q2251-c.nci.nih.gov/";
+		//		//String neo4jServer = GlobalVariable.G_server    //  "bolt://ncias-d2267-c.nci.nih.gov/" ;
+		//
+		//		String userName= "neo4j";
+		//		String pwd= "icdcDBneo4j0";
+		//		String output= "C:\\laxmi\\TEST5.xlsx" ;
+		//		//executor.run(neo4jServer,userName,pwd, query,output);
+		//		//----------------
+		//
+		ConnectDB Test1 = new ConnectDB()
+		//		//		Test1.run(neo4jServer,userName,pwd, query,output)
 		Test1.run(neo4jServer,userName,pwd, query,output)
 
 
+		//		Test
+		//
 	}
-
-	@Keyword
-
-	public  void RunTestcase(String name) {
-
-
-
-
-		Path filepath = Paths.get(System.getProperty("user.dir"), "TestData", "Input_TestData.xlsx");
-		FileInputStream fis = new FileInputStream(filepath.toString());
-
-		//		System.out.println ( " My first variable GlobalVariable.G_InputExcelFileName "  + GlobalVariable.G_InputExcelFileName)
-		//		FileInputStream fis = new FileInputStream(GlobalVariable.G_InputExcelFileName);
-		XSSFWorkbook workbook = new XSSFWorkbook(fis); // Create an excel workbook from the file system.
-
-		ArrayList<String> xlContents = new ArrayList<String>();
-
-		int numberOfSheets = workbook.getNumberOfSheets();
-		Workbook workbook1 = (Workbook) workbook;
-
-		for (int i = 0; i < numberOfSheets; i++) {
-			XSSFSheet aSheet = workbook.getSheetAt(i);
-			System.out.println(aSheet.getSheetName());  // prints all the sheet names
-			int numOfRows = aSheet.getLastRowNum() - aSheet.getFirstRowNum();
-			System.out.println("Number of rows in Sheet: " + aSheet.getSheetName() + " = " + numOfRows );
-			Iterator<Row> rows = aSheet.iterator();
-			Row currRow = rows.next();
-			while( rows.hasNext() ){
-				Iterator<Cell> ce = currRow.cellIterator();
-				while( ce.hasNext() ){
-					Cell value = ce.next();
-
-					//--------------------------
-					System.out.println( "Before  case value " : value )
-					//data.get(0).stringCellValue.equals("CTDC-43123")
-					switch( value )
-					{
-
-						case("Browser"):
-							System.out.println( "inside case")
-						//Do Test here
-							System.out.println (  "Browser in excel is : " +ce.get(1).stringCellValue )
-							break;
-						case("server"):
-							break;
-						//Do Test here
-						case("user_Id"):
-						//Do Test here
-						case("Password"):
-						//Do Test here
-						case("location_path"):
-						//Do Test here
-						case("Page"):
-						//Do Test here
-						case("ObjectType"):
-						//Do Test here
-						case("propertyName"):
-						//Do Test here
-						case("propertyvalue"):
-						//Do Test here
-						case("action"):
-						//Do Test here
-						case("Query"):
-						//Do Test here
-						case("Function"):
-						//Do Test here
-						case("Run"):
-						//Do Test here
-
-						case("Otherimportantuser"):
-						//Do Test here
-							break;
-					}
-
-
-
-					//----------------------
-
-
-					System.out.println("Cell value is: " + value);
-					xlContents.add(value);
-				}
-				currRow = rows.next();
-			}
-
-		}
-		System.out.println("This is the value of the arraylist named xlContents: " + xlContents);
-		System.out.println("This is the element at index 0:"+ xlContents.get(0));
-
-		/*GlobalVariable.
-		 //System.out.println("name hjjjj")
-		 GlobalVariable.G_Browser =name
-		 G_BrowserDriverPath
-		 G_Browser
-		 G_Urlname
-		 <name>G_Object</name>
-		 <name>G_Action</name>
-		 <name>G_server</name>
-		 <name>G_UserId</name>
-		 <name>G_Password</name>
-		 <name>G_ResultPath</name>
-		 <name>G_Page</name>
-		 <name>G_propertyName</name>
-		 <name>G_propertyvalue</name>
-		 <name>G_Query</name>
-		 <name>G_Run</name>
-		 System.out.println( "This is the string coming in: " + GlobalVariable.G_Browser );
-		 //System.Out.println ("the excel name : " + ExcelName ) */
-	}
-
-	/*	@Keyword
-	 public  void glo() {
-	 //System.out.println("name hjjjj")
-	 //'GlobalVariable.G_Browser =name
-	 System.out.println( "This is the string coming in: from glo " + GlobalVariable.G_Browser );
-	 //System.Out.println ("the excel name : " + ExcelName )
-	 } */
 
 
 	@Keyword
 
 	public static  void initialLoad() {
 
-		Path driverPath = Paths.get(System.getProperty("user.dir"), "chromedriver.exe");
-		System.out.println("This is the full filepath of browser driver after converting to string :"+driverPath.toString());
-		System.setProperty('webdriver.chrome.driver', driverPath.toString())
-		//System.setProperty("webdriver.chrome.driver", GlobalVariable.G_BrowserDriverPath);  //path of browser driver is in global variable under profiles
+		System.setProperty('webdriver.chrome.driver',  GlobalVariable.G_BrowserDriverPath )
 		//GlobalVariable.G_Driver = new ChromeDriver()
-		WebDriver driver = new ChromeDriver()
 
+		//System.out.println ( "*********************************INITIAL LOAD working *****************************")
 
-		System.out.println ( "*********************************INITIAL LOAD working *****************************")
-
+		//String filename = (GlobalVariable.G_InputExcelFileName)
 		Path filepath = Paths.get(System.getProperty("user.dir"), "TestData", "Input_TestData.xlsx");
+		GlobalVariable.G_InputExcelFileName=filepath.toString()
+
+		String filename = (GlobalVariable.G_InputExcelFileName)
 		System.out.println("This is the full filepath after converting to string :"+filepath.toString());
+
+		System.out.println("This is the full filepath from GLOBAL :"+  GlobalVariable.G_InputExcelFileName );
 
 		// Create an ArrayList to store the data read from excel sheet.
 		List<List<XSSFCell>> sheetData = new ArrayList<>();
 		FileInputStream fis = new FileInputStream(filepath.toString());
-		XSSFWorkbook workbook = new XSSFWorkbook(fis); // Create an excel workbook from the file system.
-
+		XSSFWorkbook workbook = new XSSFWorkbook(fis);
 		// Get the  sheets on the workbook.
 		int numberOfSheets = workbook.getNumberOfSheets();
 		//for (int s = 0 ; s< numberOfSheets; s++){
@@ -425,46 +322,6 @@ public class ReadExcel {
 						GlobalVariable.G_Urlname = sheetData.get(i).get(j).getStringCellValue()
 					//Do Test here
 						break;
-					//case("propertyName"):
-					//System.out.println( "inside case Propertyname" )
-					//System.out.println(sheetData.get(i).get(j).getStringCellValue())
-					//GlobalVariable.G_propertyName = sheetData.get(i).get(j).getStringCellValue()
-					//Do Test here
-					//break;
-					//case("propertyvalue"):
-					//System.out.println( "inside case propertyvalue")
-					//System.out.println(sheetData.get(i).get(j).getStringCellValue())
-					//GlobalVariable.G_propertyvalue = sheetData.get(i).get(j).getStringCellValue()
-					//Do Test here
-					//break;
-					//case("action"):
-					//System.out.println( "inside case action")
-					//System.out.println(sheetData.get(i).get(j).getStringCellValue())
-					//GlobalVariable.G_Action = sheetData.get(i).get(j).getStringCellValue()
-					//Do Test here
-					//break;
-					//case("Query"):
-					//System.out.println( "inside case query")
-					//System.out.println(sheetData.get(i).get(j).getStringCellValue())
-					//GlobalVariable.G_Query = sheetData.get(i).get(j).getStringCellValue()
-					//Do Test here
-					//break;
-					//case("Function"):
-					//System.out.println( "inside case Function")
-					//System.out.println(sheetData.get(i).get(j).getStringCellValue())
-					//GlobalVariable.G_Function = sheetData.get(i).get(j).getStringCellValue()
-					//Do Test here
-					//break;
-					//case("Run"):
-					//System.out.println( "inside case Run")
-					//System.out.println(sheetData.get(i).get(j).getStringCellValue())
-					//GlobalVariable.G_Run = sheetData.get(i).get(j).getStringCellValue()
-					//Do Test here
-					//break;
-					//case("Otherimportuser"):
-					//Do Test here
-					//break;
-
 					default :
 						System.out.println ( " here at the last ")
 						break;
@@ -509,10 +366,11 @@ public class ReadExcel {
 	}
 
 
-
-
-
 }
+
+
+
+
 
 
 
