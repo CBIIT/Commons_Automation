@@ -17,6 +17,5 @@ import internal.GlobalVariable as GlobalVariable
 
 //CustomKeywords.'ctdc.utilities.RunTestcase.Run'()
 //CustomKeywords.'ctdc.utilities.RunTestcase.Run'('Input_TestData_CanineWorkflow.xlsx')
+CustomKeywords.'ctdc.utilities.RunTestcase.Run'('TC_Canine_Filter_1.xlsx', 'Password_canine.xlsx')
 
-CustomKeywords.'ctdc.utilities.RunTestcase.Run'('Input_TestData_CanineWorkflow.xlsx', 'Passwordfile.xlsx')
-CustomKeywords.'ctdc.utilities.sandbox_g.comparison'()
