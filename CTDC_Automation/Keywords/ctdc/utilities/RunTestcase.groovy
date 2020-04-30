@@ -148,7 +148,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-//import static org.junit.Assert.*;
+import static org.junit.Assert.*;
 import internal.GlobalVariable
 import ctdc.utilities.ReadExcel   //to use various functions from the class: ExcelToArray
 
@@ -158,31 +158,29 @@ public class RunTestcase implements Comparator<List<XSSFCell>>{
 	public int compare( List<XSSFCell> l1, List<XSSFCell> l2 ){
 		return l1.get(0).getStringCellValue() .compareTo( l2.get(0).getStringCellValue() )
 	}
-	// implements Comparator<List<XSSFCell>>{
-	//	public int compare( List<XSSFCell> l1, List<XSSFCell> l2 ){
-	//	return l1.get(0).getStringCellValue() .compareTo( l2.get(0).getStringCellValue() )
-	//}
 
-	public static WebDriver driver = new ChromeDriver()
+
+	public static WebDriver driver
 
 	@Keyword
 	public  void Run( String InputExcelname,String pwd_file) {
 
+		Thread.sleep(2000)
 		Path filepath = Paths.get(System.getProperty("user.dir"), "TestData", InputExcelname); // give the Input Excel Name in manual mode in TC
 		System.out.println("This is the full filepath after converting to string :"+filepath.toString());
 		Path file_pwd = Paths.get(System.getProperty("user.dir"), "TestData", pwd_file); // give the Input Excel Name in manual mode in TC
 		GlobalVariable.G_pwd_file=file_pwd.toString()
 		GlobalVariable.G_InputExcelFileName=filepath.toString()
+
 		List<List<XSSFCell>> sheetData = new ArrayList<>();
 		FileInputStream fis = new FileInputStream(filepath.toString());
 		XSSFWorkbook workbook = new XSSFWorkbook(fis); // Create an excel workbook from the file system.
 		int numberOfSheets = workbook.getNumberOfSheets();  	// Get the  sheets on the workbook
-		//for (int s = 0 ; s< numberOfSheets; s++){
+
 		int countrow = 0
 		int countcol= 0
 
-		//Workbook workbook1 = (Workbook) workbook;
-		//System.out.println( numberOfSheets)
+
 		XSSFSheet sheet = workbook.getSheetAt(0);  //
 		countrow = sheet.lastRowNum- sheet.firstRowNum;
 		System.out.println ( "Row count is  : " + countrow);
@@ -204,7 +202,7 @@ public class RunTestcase implements Comparator<List<XSSFCell>>{
 	}
 
 
-	private static void excelparsing(List<List<XSSFCell>> sheetData, WebDriver driver) {//this is initializing second sheet - test case
+	private static void excelparsing(List<List<XSSFCell>> sheetData, WebDriver Dr2) {//this is initializing second sheet - test case
 		int countrow = 0   // Iterates the data and print it out to the console.
 		countrow = sheetData.size();
 		System.out.println ( " sheetdata size countrow " + countrow )   //delete
@@ -217,13 +215,8 @@ public class RunTestcase implements Comparator<List<XSSFCell>>{
 
 				XSSFCell cell = datarow.get(jj);
 
-				System.out.println ("Before Switch value  : " + sheetData.get(0).get(jj).getStringCellValue().trim()  )
-				System.out.println ( "Value in column :" + sheetData.get(ii).get(jj).getStringCellValue())
 				switch(sheetData.get(0).get(jj).getStringCellValue().trim() )
 				{
-					case("Browser"):
-					//				System.out.println ("Inside Browser Switch Case")
-					//browser switch case is a separate function. refer and correct this chunk
 
 					case("propertyName"):
 						GlobalVariable.G_propertyName = sheetData.get(ii).get(jj).getStringCellValue()
@@ -247,8 +240,11 @@ public class RunTestcase implements Comparator<List<XSSFCell>>{
 					case("Page"):
 						GlobalVariable.G_Page = sheetData.get(ii).get(jj).getStringCellValue().trim()
 						if( GlobalVariable.G_Page=="na"){
+
+
 						}
 						else {
+
 							driver.get(GlobalVariable.G_Page)
 						}
 						break;
@@ -258,7 +254,14 @@ public class RunTestcase implements Comparator<List<XSSFCell>>{
 						{
 							case("InitialLoad"):
 								ReadExcel.initialLoad()
-								ReadExcel.PrintG()
+								driver=browserDriver (GlobalVariable.G_Browser)
+								if( GlobalVariable.G_Page=="na"){
+								}
+								else {
+
+									driver.get(GlobalVariable.G_Page)
+								}
+
 								break;
 							case ("Dbconnect"):
 								System.out.println  (" In dataload")
@@ -266,22 +269,18 @@ public class RunTestcase implements Comparator<List<XSSFCell>>{
 								break;
 							case ("action_click"):
 								driver.manage().window().maximize()
-							//Thread.sleep(3000)
+
 								driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
 								driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-							//WebUI.waitForPageLoad(5)
+
 								WebDriverWait wait = new WebDriverWait(driver, 30);
 								WebElement ElementFromExcel
 								ElementFromExcel = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(GlobalVariable.G_locatorvalue)))
-							//Thread.sleep(3000)
-							//driver.findElement(By.xpath( GlobalVariable.G_locatorvalue)).click()
+
 								ElementFromExcel.click()
 								Thread.sleep(3000)
 								System.out.println( " clicked on :" + GlobalVariable.G_locatorvalue )
-							//driver.manage().window().maximize()
-							//WebDriverWait wait = new WebDriverWait(driver, 30);
-							//driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
-							//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
 								break;
 							case("Select_case_checkbox"):
 								String one_all = sheetData.get(ii).get(2).getStringCellValue().trim()
@@ -291,7 +290,7 @@ public class RunTestcase implements Comparator<List<XSSFCell>>{
 							case("webdata"):
 								List<String> WData = new ArrayList<String>();
 								WData=ReadCasesTable(driver)
-							//GlobalVariable.G_Run = sheetData.get(ii).get(jj).getStringCellValue()
+
 								break;
 
 							case("compare"):
@@ -299,23 +298,9 @@ public class RunTestcase implements Comparator<List<XSSFCell>>{
 								break;
 							case("StoreGlobal"):
 
-							//							//XSSFCell cell = sheetData.get(ii).createCell(j);
-							//										XSSFCell  cell = sheetData.get(ii).get(6).row.getCell(j).getCellTypeEnum();
-							//
-							//							switch(cell) {
-							//								case ("NUMERIC"):
-							//									GlobalVariable.(sheetData.get(ii).get(3).getStringCellValue()) =sheetData.get(ii).get(6).getNumericCellValue();
-							//									//System.out.print(intVal);
-							//									break;
-							//								case ("STRING"):
-							//									GlobalVariable.(sheetData.get(ii).get(3).getStringCellValue()) = sheetData.get(ii).get(6).getStringCellValue();
-							//									//System.out.print(stringVal);
-							//									break;
-							//							}
+
 								GlobalVariable.(sheetData.get(ii).get(3).getStringCellValue())=sheetData.get(ii).get(6).getStringCellValue()
-							//System.out.println GlobalVariable.(sheetData.get(ii).get(3).getStringCellValue())
-							//System.out.println GlobalVariable.G_cannine_caseTbl
-							//System.out.println GlobalVariable.G_cannine_caseTblBdy
+
 								break;
 							case("verify"):
 								verify_text(driver,"American Staffordshire Terrier" , GlobalVariable.G_locatorvalue  )
@@ -355,14 +340,14 @@ public class RunTestcase implements Comparator<List<XSSFCell>>{
 				System.out.println(" In the function dumbo1 "  + one_path )
 
 
-			//System.out.println
+
 				driver.findElement(By.xpath(one_path)).click()  //driver.findElement(By.xpath('//a[contains( text(),caseID)]//parent::div//parent::td//preceding-sibling::td'))
 				break;
 			case ("all"):
 				System.out.println(" In the function dumbo ALL")
 				driver.findElement(By.xpath("//div[text()=\"Case ID\"]//parent::span//parent::th//preceding-sibling::th")).click()
 				break;
-			////div[text()="Case ID"]//parent::span//parent::th//preceding-sibling::th
+
 		}
 	}
 
@@ -410,14 +395,12 @@ public class RunTestcase implements Comparator<List<XSSFCell>>{
 				int tblcol=Integer.parseInt(GlobalVariable.G_rowcount);
 
 				for (int j = 3; j < tblcol; j = j + 2) {
-					//	            String a = driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + j + "]")).getText()
-					//					System.out.println("This is the single row : "+a)
+
 					data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + j + "]")).getText()) +"||")
-					//String b = driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" +  + "]")).getText()
-					//					System.out.println("this is the value of j column iterator :"+ j)
+
 				}
 				webData.add(data)
-				//ReadExcel.getElementID ( Table , 'COTC007B0101' ,driver )
+
 			}
 			System.out.println("Size of Web Data list with header in current page is : " + webData.size())
 			for(int index = 0; index < webData.size(); index++) {
@@ -426,9 +409,9 @@ public class RunTestcase implements Comparator<List<XSSFCell>>{
 			if (nextButton.getAttribute("disabled")) break;
 			nextButton.click()
 		}
-		//nextButton.click()
+
 		GlobalVariable.G_CaseData= webData;
-		//System.out.println("This is the value stored in global variable g_casedata : "+GlobalVariable.G_CaseData)
+
 		writeToExcel();
 	}
 
@@ -466,9 +449,7 @@ public class RunTestcase implements Comparator<List<XSSFCell>>{
 		{
 			ie.printStackTrace();
 		}
-		/*					for( int j = 0; j < (writeData.get(i)).size(); j++ ){
-		 System.out.println("Elements of each row: " + writeData.get(i).get(j))
-		 }*/
+
 	}//excel method ends here
 
 
@@ -531,63 +512,26 @@ public class RunTestcase implements Comparator<List<XSSFCell>>{
 	public static void compareLists() {
 		List<List<XSSFCell>> UIData = new ArrayList<>()
 		List<List<XSSFCell>> neo4jData = new ArrayList<>()
-		//read ui results table data and store in 2d array
-		//Path UIfilepath = Paths.get(System.getProperty("user.dir"), "TestData", "CanineDataWebData_1.xlsx");
 		String UIfilename =  GlobalVariable.G_WebExcel.toString()   //UIfilepath.toString()
 		System.out.println("This is the full uifilepath after converting to string :"+UIfilename);
 		UIData = ReadExcel.Test(UIfilename)  //change the function name Test in parent class and here
 		System.out.println ("This is the row size of the UIdata : "+ UIData.size());
 		Collections.sort( UIData , new RunTestcase() )
 
-		//System.out.println ("Before sorting: This is the contents of UIdata : "+ UIData);
-		//System.out.println ("After Sorting: This is the contents of UIdata : "+ UIData);
-
-		//Path neo4jfilepath =  Paths.get(System.getProperty("user.dir"), "TestData", "CanineDatafromNeo4j_1.xlsx");
-		//String neo4jFilename = neo4jfilepath.toString()
-		//System.out.println("This is the full neo4jfilename and path after converting to string :"+neo4jFilename);
 		neo4jData =   ReadExcel.Test(GlobalVariable.G_ResultPath.toString())   //ReadExcel.Test(neo4jFilename)
 		System.out.println ("This is the row size of the ne04jdata : "+neo4jData.size());   //gayathri changed to GlobalVariable.G_DBdata.size()  from neo4jData.size()
 		Collections.sort( neo4jData , new RunTestcase() )
-		//readInputExcel rdExl = new readInputExcel() //only if the parent method is not declared static, creating object for readInputExcel class to access its 'Test' method to read xl
-		//System.out.println ("Before Sorting: This is the contents of ne04jdata : "+neo4jData);
-		//System.out.println ("After Sorting: This is the contents of Neo4JData : "+ neo4jData );
 
 		compareTwoLists(UIData,neo4jData)
 	}
 
 
-	//************************************************************************
-	/*	@Keyword
-	 public static void CompareCode_L(List<List<String>> readWebData,List<List<String>> readExcel) {
-	 //			ReadWebData readWebData = new ReadWebData();
-	 //			ReadExcel readExcel = new ReadExcel();
-	 //			List<String> webData = readWebData.readWebData();
-	 //			List<String> excelData = readExcel.readExcel();
-	 String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
-	 String filename = "All_cases_results_"+timeStamp+".txt";
-	 File file;
-	 file = new File(filename);
-	 System.out.println("Web Data size: " + readWebData.size());  //it worked
-	 System.out.println("Excel Data size: " + readExcel.size());
-	 for (int i = 0; i<readWebData.size(); i++) {
-	 //if ((readWebData.get(i).trim()) == (readExcel.get(i).trim()) ) {  //with trim
-	 if ( (readWebData.get(i)) == (readExcel.get(i)) ) {
-	 //System.out.println("PASSED: " + webData.get(i));
-	 writeResults (file, "PASSED: " + readWebData.get(i)+ "\n");
-	 }
-	 else{
-	 //System.out.println("FAILED: " + "WEB: " + webData.get(i) + " EXCEL: " + excelData.get(i)+ "\n");
-	 writeResults(file, "FAILED: " + "WEB: " + readWebData.get(i) + " EXCEL: " + readExcel.get(i)+ "\n");
-	 }
-	 }
-	 }*/
+
 
 
 	public static void writeResults(File f, String st){
 
-		//DateFormat df = new SimpleDateFormat("yyyy-MM-dd_hh:mm:ss");
-		//df.setTimeZone(TimeZone.getTimeZone("EST"));
-		//String filename = df.format(new Date());
+
 		OutputStream os = null;
 		try {
 			// below true flag tells OutputStream to append
@@ -609,45 +553,31 @@ public class RunTestcase implements Comparator<List<XSSFCell>>{
 
 
 
+	@Keyword
+	public static WebDriver browserDriver(String browserName) {
 
-
-
-	//***********************************************
-
-
-
-
-
-
-
-
-
-
-
-	//} //class ends here
-
-	//	@Keyword
-	public static browserDriver(String browserName) {
+		WebDriver dr
 		switch(browserName)
 		{
 			case("Chrome"):
-				System.out.println ("Setting browser driver as Chromedriver")
+				driver = new ChromeDriver()
 				Path driverPath = Paths.get(System.getProperty("user.dir"), "chromedriver.exe");
-				System.out.println("This is the full filepath of chrome driver after converting to string :"+driverPath.toString());
 				System.setProperty('webdriver.chrome.driver', driverPath.toString())
-				WebDriver driver = new ChromeDriver()  //resolve this issue
+				System.out.println ( "  new driver done !!")
+				dr=driver
 				break;
 
 			case("Firefox"):
-				System.out.println ("Setting browser driver as Gecko driver (Firefox)")
 				Path driverPath = Paths.get(System.getProperty("user.dir"), "geckodriver.exe");
-				System.out.println("This is the full filepath of geckodriver (for firefox) after converting to string :"+driverPath.toString());
 				System.setProperty('webdriver.gecko.driver', driverPath.toString())
-				WebDriver driver = new FirefoxDriver()  //resolve this issue
+				driver = new FirefoxDriver()  //resolve this issue
+				dr=driver
+			//	browserDriver=dvr
 				break;
 
 			default:
 				System.out.println ("Nothing in Browser column")
+				dr=driver
 				break;
 		}
 	}
