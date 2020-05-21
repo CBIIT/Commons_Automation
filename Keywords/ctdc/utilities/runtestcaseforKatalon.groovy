@@ -317,58 +317,58 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 	public static Select_case_checkbox( String caseID,String count){
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		//String one_path ="//a[contains( text(),'"+ caseID +"')]//parent::div//parent::td//preceding-sibling::td/div/span/span/input"
-		
-		
+
+
 		System.out.println(" In the function  " + count + "caseid : "  + caseID )
 
 		switch(count){
 			case("one"):
 			//System.out.println("in case 1")
-			String one_path ="//a[contains( text(),'"+ caseID +"')]//parent::div//parent::td//preceding-sibling::td/div/span/span/input"
-			
-				//String one_path ="//a[contains( text(),"+ caseID +")]//parent::div//parent::td//preceding-sibling::td"
-				//String one_path ="//a[contains( text(),"+ caseID +")]//parent::div//parent::td//preceding-sibling::td"
+				String one_path ="//a[contains( text(),'"+ caseID +"')]//parent::div//parent::td//preceding-sibling::td/div/span/span/input"
+
+			//String one_path ="//a[contains( text(),"+ caseID +")]//parent::div//parent::td//preceding-sibling::td"
+			//String one_path ="//a[contains( text(),"+ caseID +")]//parent::div//parent::td//preceding-sibling::td"
 			//System.out.println(" In the function dumbo1 "  + one_path )
 				WebElement checkbox =driver.findElement(By.xpath(one_path))
 				js.executeScript("arguments[0].click();", checkbox)
-				//driver.findElement(By.xpath(one_path)).click()  //driver.findElement(By.xpath('//a[contains( text(),caseID)]//parent::div//parent::td//preceding-sibling::td'))
+			//driver.findElement(By.xpath(one_path)).click()  //driver.findElement(By.xpath('//a[contains( text(),caseID)]//parent::div//parent::td//preceding-sibling::td'))
 				break;
 			case ("all"):
 			////String str= givexpath(tbl1)
 				String all_path ="//div[@id=\'table_cases\']//thead/tr/th/div/span/span/input"
-				
+
 				System.out.println ("All Path :" + all_path )
-				//String all_path ="//div[text()=\'Case ID\']//parent::span//parent::th//preceding-sibling::th/div/span/span/input"
+			//String all_path ="//div[text()=\'Case ID\']//parent::span//parent::th//preceding-sibling::th/div/span/span/input"
 				WebElement checkbox =driver.findElement(By.xpath(all_path))
 				js.executeScript("arguments[0].click();", checkbox)
 			//driver.findElement(By.xpath( "//div[@id=\"table_cases\"]//thead/tr/th[1]/div/span"  )).click()
 			//div[@id="table_cases"]//thead/tr/th[1]/div/span
 
 				break;
-				case ("allM"):
-				////String str= givexpath(tbl1)
-					//String all_path ="//div[@id=\'table_cases\']//thead/tr/th/div/span/span/input"
-					String all_M="//div[text()=\'Case ID\']//parent::div//parent::div//parent::span//parent::th//preceding-sibling::th/div/span/span/input"
-					System.out.println ("All Path :" + all_M )
-					//String all_path ="//div[text()=\'Case ID\']//parent::span//parent::th//preceding-sibling::th/div/span/span/input"
-					WebElement checkbox =driver.findElement(By.xpath(all_M))
-					js.executeScript("arguments[0].click();", checkbox)
-				//driver.findElement(By.xpath( "//div[@id=\"table_cases\"]//thead/tr/th[1]/div/span"  )).click()
-				//div[@id="table_cases"]//thead/tr/th[1]/div/span
-	
-					break;
-					case ("caseM"):
-					////String str= givexpath(tbl1)
-						//String all_path ="//div[@id=\'table_cases\']//thead/tr/th/div/span/span/input"
-						String all_M="//div[text()='" + caseID + "']//parent::div//parent::div//parent::span//parent::th//preceding-sibling::th/div/span/span/input"
-						System.out.println ("All Path :" + all_M )
-						//String all_path ="//div[text()=\'Case ID\']//parent::span//parent::th//preceding-sibling::th/div/span/span/input"
-						WebElement checkbox =driver.findElement(By.xpath(all_M))
-						js.executeScript("arguments[0].click();", checkbox)
-					//driver.findElement(By.xpath( "//div[@id=\"table_cases\"]//thead/tr/th[1]/div/span"  )).click()
-					//div[@id="table_cases"]//thead/tr/th[1]/div/span
-		
-						break;
+			case ("allM"):
+			////String str= givexpath(tbl1)
+			//String all_path ="//div[@id=\'table_cases\']//thead/tr/th/div/span/span/input"
+				String all_M="//div[text()=\'Case ID\']//parent::div//parent::div//parent::span//parent::th//preceding-sibling::th/div/span/span/input"
+				System.out.println ("All Path :" + all_M )
+			//String all_path ="//div[text()=\'Case ID\']//parent::span//parent::th//preceding-sibling::th/div/span/span/input"
+				WebElement checkbox =driver.findElement(By.xpath(all_M))
+				js.executeScript("arguments[0].click();", checkbox)
+			//driver.findElement(By.xpath( "//div[@id=\"table_cases\"]//thead/tr/th[1]/div/span"  )).click()
+			//div[@id="table_cases"]//thead/tr/th[1]/div/span
+
+				break;
+			case ("caseM"):
+			////String str= givexpath(tbl1)
+			//String all_path ="//div[@id=\'table_cases\']//thead/tr/th/div/span/span/input"
+				String all_M="//div[text()='" + caseID + "']//parent::div//parent::div//parent::span//parent::th//preceding-sibling::th/div/span/span/input"
+				System.out.println ("All Path :" + all_M )
+			//String all_path ="//div[text()=\'Case ID\']//parent::span//parent::th//preceding-sibling::th/div/span/span/input"
+				WebElement checkbox =driver.findElement(By.xpath(all_M))
+				js.executeScript("arguments[0].click();", checkbox)
+			//driver.findElement(By.xpath( "//div[@id=\"table_cases\"]//thead/tr/th[1]/div/span"  )).click()
+			//div[@id="table_cases"]//thead/tr/th[1]/div/span
+
+				break;
 		}
 	}
 
@@ -389,24 +389,24 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 
 		}
 	}
-	
-	
+
+
 	@Keyword
 	public static JsFunc()
-{
-String caseID ='COTC007B0203'
+	{
+		String caseID ='COTC007B0203'
 
-	JavascriptExecutor js = (JavascriptExecutor)driver;
+		JavascriptExecutor js = (JavascriptExecutor)driver;
 
-	String one_path ="//a[contains( text(),'"+ caseID +"')]//parent::div//parent::td//preceding-sibling::td/div/span/span/input"
-	
-	System.out.println ("one_path :" + one_path)
-	//System.out.println(" In the function dumbo1 "  + one_path )
-	WebElement checkbox =driver.findElement(By.xpath(one_path))
+		String one_path ="//a[contains( text(),'"+ caseID +"')]//parent::div//parent::td//preceding-sibling::td/div/span/span/input"
+
+		System.out.println ("one_path :" + one_path)
+		//System.out.println(" In the function dumbo1 "  + one_path )
+		WebElement checkbox =driver.findElement(By.xpath(one_path))
 
 		//driver.findElement(By.xpath(one_path)).click()
-	
+
 		js.executeScript("arguments[0].click();", checkbox)
-			
-}
+
+	}
 }  //class ends here
