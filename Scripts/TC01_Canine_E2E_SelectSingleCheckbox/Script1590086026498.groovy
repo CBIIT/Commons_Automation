@@ -14,30 +14,39 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.isDriverOpen'()
+
+WebUI.closeBrowser()
+
 WebUI.openBrowser('')
 
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.browserDriver'('')
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('Password_canine.xlsx')
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC02_Canine_Filter_StudyType-Transcriptomics.xlsx')
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Canine_Cases_Btn'), 5)
+
 WebUI.click(findTestObject('Object Repository/Canine/Canine_Cases_Btn'))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Canine_CasesTable'), 5)
+WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/StudyType/Canine_Filter_StudyType'), 5)
 
 WebUI.click(findTestObject('Object Repository/Canine/Filter/StudyType/Canine_Filter_StudyType'))
 
-WebUI.click(findTestObject('Object Repository/Canine/Filter/StudyType/Canine_Filter_StudyType-Transcrip_Chkbx'))
+WebUI.click(findTestObject('Canine/Filter/StudyType/Canine_Filter_StudyType-Transcrip_Chkbx'))
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.Select_case_checkbox'('NCATS-COP01CCB010072', 'one')
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.Select_case_checkbox'('NCATS-COP01CCB010031', 'one')
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Canine_SaveToMycases'), 5)
-WebUI.click(findTestObject('Object Repository/Canine/Canine_SaveToMycases'))
+WebUI.click(findTestObject('Canine/Canine_SaveToMycases'))
 
-WebUI.click(findTestObject('Object Repository/Canine/Canine_MyCases'))
+WebUI.click(findTestObject('Canine/Canine_MyCases'))
+
+WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Canine_GoToFiles'), 5)
 
 WebUI.click(findTestObject('Object Repository/Canine/Canine_GoToFiles'))
 
-WebUI.click(findTestObject('Object Repository/Canine/Canine_SelectAll'))
+WebUI.maximizeWindow()
+
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.Select_case_checkbox'('', 'allM')
+
+//WebUI.click(findTestObject('Canine/Canine_SelectAll'))
+WebUI.click(findTestObject('Canine/Canine_DownloadManifest'))
 

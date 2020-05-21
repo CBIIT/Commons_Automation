@@ -41,15 +41,15 @@
       <testCaseId>Test Cases/Canine_TestCases/Breed/TC05_Canine_Filter_Breed-Beagle</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>df0a7ffd-89e4-4a98-8098-a6911dd1704c</guid>
+      <guid>e3fc7ac3-6967-41be-9498-62ea2720b147</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/END_TO_END_ALL</testCaseId>
+      <testCaseId>Test Cases/TC01_Canine_E2E_SelectAll</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>7583ac98-e171-4290-9bba-61ee8cd3e903</guid>
+      <guid>debe9ac8-5676-4ad9-8ba5-463f2df05556</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Canine_TestCases/TC02_Canine_END_TO_END_SelectSingleCaseID</testCaseId>
+      <testCaseId>Test Cases/TC01_Canine_E2E_SelectSingleCheckbox</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
