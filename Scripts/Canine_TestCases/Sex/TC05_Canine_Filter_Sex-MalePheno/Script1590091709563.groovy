@@ -44,13 +44,13 @@ WebUI.openBrowser('')
 
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.browserDriver'('')
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC06_Canine_Filter_Gender-SpayedFemale.xlsx')
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC05_Canine_Filter_Gender-MalePheno.xlsx')
 
 WebUI.click(findTestObject('Object Repository/Canine/Canine_Cases_Btn'))
 
-WebUI.click( findTestObject('Object Repository/Canine/Filter/Gender/GENDER_Ddn')  )
+WebUI.click( findTestObject('Canine/Filter/Sex/SEX_Ddn')  )
 
-WebUI.click( findTestObject('Object Repository/Canine/Filter/Gender/SpayedFemale_Chkbx') )
+WebUI.click( findTestObject('Canine/Filter/Sex/MalePhenotype_Chkbx') )
 
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.ReadCasesTableKatalon'('Object Repository/Canine/Canine_CasesTable', 
     'Object Repository/Canine/Canine_TableHeader', 'Object Repository/Canine/Canine_NextBtn')

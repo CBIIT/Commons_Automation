@@ -374,37 +374,37 @@
       <guid>c6512cc2-792e-4578-99cb-dfbaf3fefe34</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Canine_TestCases/Gender/TC01_Canine_Filter_Gender-CastratedMale</testCaseId>
+      <testCaseId>Test Cases/Canine_TestCases/Sex/TC01_Canine_Filter_Sex-CastratedMale</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>44fafb8f-8a81-4611-b903-6607603dc7ba</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Canine_TestCases/Gender/TC02_Canine_Filter_Gender-Female</testCaseId>
+      <testCaseId>Test Cases/Canine_TestCases/Sex/TC02_Canine_Filter_Sex-Female</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>92fbddc3-1f52-40c2-ba75-50181ffd090c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Canine_TestCases/Gender/TC03_Canine_Filter_Gender-FemalePheno</testCaseId>
+      <testCaseId>Test Cases/Canine_TestCases/Sex/TC03_Canine_Filter_Sex-FemalePheno</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>ee66d90c-1d52-41cd-ae80-9d93ff4366b9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Canine_TestCases/Gender/TC04_Canine_Filter_Gender-Male</testCaseId>
+      <testCaseId>Test Cases/Canine_TestCases/Sex/TC04_Canine_Filter_Sex-Male</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>41396f42-9690-4bf7-be3d-e5c641f2e882</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Canine_TestCases/Gender/TC05_Canine_Filter_Gender-MalePheno</testCaseId>
+      <testCaseId>Test Cases/Canine_TestCases/Sex/TC05_Canine_Filter_Sex-MalePheno</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>04537421-2461-40ce-b973-a5b2c3155cc2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Canine_TestCases/Gender/TC06_Canine_Filter_Gender-SpayedFemale</testCaseId>
+      <testCaseId>Test Cases/Canine_TestCases/Sex/TC06_Canine_Filter_Sex-SpayedFemale</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>465632c3-973f-41ec-8130-819894240df8</guid>

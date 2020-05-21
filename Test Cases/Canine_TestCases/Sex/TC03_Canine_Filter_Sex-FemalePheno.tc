@@ -6,8 +6,8 @@
 3. User selects the desired diagnosis type
 4. User compares the results displayed in the UI with the results queried from Neo4j database for the seleted dataset.
 </description>
-   <name>TC05_Canine_Filter_Gender-MalePheno</name>
+   <name>TC03_Canine_Filter_Sex-FemalePheno</name>
    <tag>Filter</tag>
    <comment></comment>
-   <testCaseGuid>0ef8ad5d-82d1-409d-9d46-c86fffc4c47f</testCaseGuid>
+   <testCaseGuid>a9607bcf-7a79-4c33-9ebf-4df6a5a2dc6f</testCaseGuid>
 </TestCaseEntity>
