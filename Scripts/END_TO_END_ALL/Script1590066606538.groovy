@@ -14,7 +14,6 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.closeBrowser()
 
@@ -40,7 +39,8 @@ WebUI.maximizeWindow()
 
 not_run: WebUI.click(findTestObject('Canine/Canine_SelectAll'))
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.Select_case_checkbox'('', 'all')
+WebUI.executeJavaScript('document.evaluate(\'//*[@id="table_cases"]/div/div[2]/table/thead/tr/th[1]/div/span/span[1]/input\', document, null,XPathResult.FIRST_ORDERED_NODE_TYPE,null).singleNodeValue.click()', 
+    null)
 
 WebUI.click(findTestObject('Canine/Canine_SaveToMycases'))
 
@@ -52,7 +52,7 @@ WebUI.click(findTestObject('Object Repository/Canine/Canine_GoToFiles'))
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/Canine/Canine_MyCasesFiles_SelectAll'))
+not_run: WebUI.click(findTestObject('Object Repository/Canine/Canine_MyCasesFiles_SelectAll'))
 
 //WebUI.click(findTestObject('Canine/Canine_SelectAll'))
 WebUI.click(findTestObject('Canine/Canine_DownloadManifest'))

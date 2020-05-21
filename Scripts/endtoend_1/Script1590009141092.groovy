@@ -14,7 +14,6 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.closeBrowser()
 
@@ -52,7 +51,7 @@ WebUI.click(findTestObject('Object Repository/Canine/Canine_GoToFiles'))
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/Canine/Canine_MyCasesFiles_SelectAll'))
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.Select_case_checkbox'('', 'allM')
 
 //WebUI.click(findTestObject('Canine/Canine_SelectAll'))
 WebUI.click(findTestObject('Canine/Canine_DownloadManifest'))
