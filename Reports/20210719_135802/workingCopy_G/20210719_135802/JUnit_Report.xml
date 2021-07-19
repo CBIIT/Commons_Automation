@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="workingCopy_G" time="477.216" tests="2" failures="0" errors="0">
+   <testsuite name="workingCopy_G" tests="2" failures="0" errors="0" time="477.216" skipped="0" timestamp="2021-07-19 13:58:08" hostname="radhakrishnang2 - NCI-02150368-L.nci.nih.gov" id="Test Suites/workingCopy_G">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\radhakrishnang2\\Desktop\\updated code\\Commons_Automation\\Reports\\20210719_135802\\workingCopy_G\\20210719_135802"/>
+         <property name="logFiles" value="C:\\Users\\radhakrishnang2\\Desktop\\updated code\\Commons_Automation\\Reports\\20210719_135802\\workingCopy_G\\20210719_135802\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="radhakrishnang2 - NCI-02150368-L.nci.nih.gov"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.0.5.208"/>
+         <property name="browser" value="Chrome 91.0.4472.124"/>
+         <property name="hostAddress" value="10.243.11.197"/>
+         <property name="sessionId" value="0b9456476cc92dcf2ba09d291785bc2d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Canine_TestCases/StudyCombinations/Study-Combinations-UBC01/TC01_Canine_StudyUBC-Breed_Diagnosis_PrimDiseaseSite" time="171.067" classname="Test Cases/Canine_TestCases/StudyCombinations/Study-Combinations-UBC01/TC01_Canine_StudyUBC-Breed_Diagnosis_PrimDiseaseSite" status="PASSED">
+         <system-out><![CDATA[2021-07-19 13:58:10 - [TEST_CASE][PASSED] - Test Cases/Canine_TestCases/StudyCombinations/Study-Combinations-UBC01/TC01_Canine_StudyUBC-Breed_Diagnosis_PrimDiseaseSite: Test Cases/Canine_TestCases/StudyCombinations/Study-Combinations-UBC01/TC01_Canine_StudyUBC-Breed_Diagnosis_PrimDiseaseSite
+
+2021-07-19 13:58:10 - [TEST_STEP][PASSED] - Start listener action : getTestScriptName: null
+
+2021-07-19 13:58:10 - [TEST_STEP][PASSED] - TestCaseId = testCaseContext.getTestCaseId(): null
+
+2021-07-19 13:58:10 - [TEST_STEP][PASSED] - out.println("**********this is the value of test case id string******** " + testCaseContext.getTestCaseId()): null
+
+2021-07-19 13:58:10 - [TEST_STEP][PASSED] - G_currentTCName = TestCaseId.substring(TestCaseId.lastIndexOf("TC")): null
+
+2021-07-19 13:58:10 - [TEST_STEP][PASSED] - out.println("This is the test case name : " + G_currentTCName): null
+
+2021-07-19 13:58:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-07-19 13:58:12 - [MESSAGE][PASSED] - Browser is closed
+
+2021-07-19 13:58:12 - [TEST_STEP][PASSED] - "Driver opened by Katalon is used in Selenium from this step.": null
+
+2021-07-19 13:58:12 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.RunKatalon("TC01_Canine_StudyUBC-Breed_Diagnosis_PrimDiseaseSite.xlsx"): Data loaded from input file for the test case. 
+
+2021-07-19 13:58:12 - [MESSAGE][PASSED] - Test case file loaded This is the full filepath after converting to string :C:\Users\radhakrishnang2\Desktop\updated code\Commons_Automation\InputFiles\TC01_Canine_StudyUBC-Breed_Diagnosis_PrimDiseaseSite.xlsx
+
+2021-07-19 13:58:12 - [MESSAGE][INFO] - Global variable set for password file is :  C:\Users\radhakrishnang2\Desktop\updated code\Commons_Automation\InputFiles\TC01_Canine_StudyUBC-Breed_Diagnosis_PrimDiseaseSite.xlsx
+
+2021-07-19 13:58:16 - [MESSAGE][PASSED] - Data loaded from input file for the test case. 
+
+2021-07-19 13:58:42 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Canine/NavBar/Canine_Cases_Btn"), 20): Object 'Object Repository/Canine/NavBar/Canine_Cases_Btn' is present
+
+2021-07-19 13:58:42 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/NavBar/Canine_Cases_Btn' is present
+
+2021-07-19 13:58:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Canine/NavBar/Canine_Cases_Btn"), 5): Object 'Object Repository/Canine/NavBar/Canine_Cases_Btn' is present
+
+2021-07-19 13:58:42 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/NavBar/Canine_Cases_Btn' is present
+
+2021-07-19 13:58:42 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab("Canine/NavBar/Canine_Cases_Btn"): ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 13:58:42 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 13:58:42 - [TEST_STEP][PASSED] - out.println("Clicked Cases button"): null
+
+2021-07-19 13:58:42 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Canine/Filter/FilterByCases_Facet"), 20): Object 'Object Repository/Canine/Filter/FilterByCases_Facet' is present
+
+2021-07-19 13:58:43 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/Filter/FilterByCases_Facet' is present
+
+2021-07-19 13:58:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Canine/Filter/FilterByCases_Facet"), 5): Object 'Object Repository/Canine/Filter/FilterByCases_Facet' is present
+
+2021-07-19 13:58:43 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/Filter/FilterByCases_Facet' is present
+
+2021-07-19 13:58:43 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab("Object Repository/Canine/Filter/FilterByCases_Facet"): ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 13:58:43 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 13:58:43 - [TEST_STEP][PASSED] - out.println("Filter by Cases facet clicked"): null
+
+2021-07-19 13:58:43 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Canine/Filter/Study/Canine_Filter_Study"), 30): Object 'Object Repository/Canine/Filter/Study/Canine_Filter_Study' is present
+
+2021-07-19 13:58:44 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/Filter/Study/Canine_Filter_Study' is present
+
+2021-07-19 13:58:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Canine/Filter/Study/Canine_Filter_Study"), 5): Object 'Object Repository/Canine/Filter/Study/Canine_Filter_Study' is present
+
+2021-07-19 13:58:44 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/Filter/Study/Canine_Filter_Study' is present
+
+2021-07-19 13:58:44 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab("Object Repository/Canine/Filter/Study/Canine_Filter_Study"): ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 13:58:44 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 13:58:44 - [TEST_STEP][PASSED] - out.println("Study filter clicked"): null
+
+2021-07-19 13:58:44 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Canine/Filter/Study/Canine_Filter_Study-UBC_Chkbx"), 30): Object 'Object Repository/Canine/Filter/Study/Canine_Filter_Study-UBC_Chkbx' is present
+
+2021-07-19 13:58:44 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/Filter/Study/Canine_Filter_Study-UBC_Chkbx' is present
+
+2021-07-19 13:58:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Canine/Filter/Study/Canine_Filter_Study-UBC_Chkbx"), 5): Object 'Object Repository/Canine/Filter/Study/Canine_Filter_Study-UBC_Chkbx' is present
+
+2021-07-19 13:58:44 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/Filter/Study/Canine_Filter_Study-UBC_Chkbx' is present
+
+2021-07-19 13:58:44 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab("Object Repository/Canine/Filter/Study/Canine_Filter_Study-UBC_Chkbx"): ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 13:58:45 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 13:58:45 - [TEST_STEP][PASSED] - out.println("study clicked"): null
+
+2021-07-19 13:58:45 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.readStatBarCanine("Object Repository/Canine/StatBar/Canine_StatBar-Studies", "Object Repository/Canine/StatBar/Canine_StatBar-Cases", "Object Repository/Canine/StatBar/Canine_StatBar-Samples", "Object Repository/Canine/StatBar/Canine_StatBar-Files", "Object Repository/Canine/StatBar/Canine_StatBar-Aliquots"): ctdc.utilities.runtestcaseforKatalon.readStatBarCanine is PASSED
+
+2021-07-19 13:59:00 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.readStatBarCanine is PASSED
+
+2021-07-19 13:59:00 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Canine/Filter/Breed/BREED_Ddn"), 30): Object 'Object Repository/Canine/Filter/Breed/BREED_Ddn' is present
+
+2021-07-19 13:59:00 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/Filter/Breed/BREED_Ddn' is present
+
+2021-07-19 13:59:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Canine/Filter/Breed/BREED_Ddn"), 5): Object 'Object Repository/Canine/Filter/Breed/BREED_Ddn' is present
+
+2021-07-19 13:59:00 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/Filter/Breed/BREED_Ddn' is present
+
+2021-07-19 13:59:00 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab("Object Repository/Canine/Filter/Breed/BREED_Ddn"): ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 13:59:01 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 13:59:01 - [TEST_STEP][PASSED] - out.println("Breed drop down clicked"): null
+
+2021-07-19 13:59:01 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Canine/Filter/Breed/Beagle_Chkbx"), 30): Object 'Object Repository/Canine/Filter/Breed/Beagle_Chkbx' is present
+
+2021-07-19 13:59:01 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/Filter/Breed/Beagle_Chkbx' is present
+
+2021-07-19 13:59:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Canine/Filter/Breed/Beagle_Chkbx"), 5): Object 'Object Repository/Canine/Filter/Breed/Beagle_Chkbx' is present
+
+2021-07-19 13:59:01 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/Filter/Breed/Beagle_Chkbx' is present
+
+2021-07-19 13:59:01 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab("Object Repository/Canine/Filter/Breed/Beagle_Chkbx"): ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 13:59:01 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 13:59:01 - [TEST_STEP][PASSED] - out.println("Breed clicked"): null
+
+2021-07-19 13:59:01 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.readStatBarCanine("Object Repository/Canine/StatBar/Canine_StatBar-Studies", "Object Repository/Canine/StatBar/Canine_StatBar-Cases", "Object Repository/Canine/StatBar/Canine_StatBar-Samples", "Object Repository/Canine/StatBar/Canine_StatBar-Files", "Object Repository/Canine/StatBar/Canine_StatBar-Aliquots"): ctdc.utilities.runtestcaseforKatalon.readStatBarCanine is PASSED
+
+2021-07-19 13:59:16 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.readStatBarCanine is PASSED
+
+2021-07-19 13:59:16 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Canine/Filter/Breed/Mixed_Chkbx"), 30): Object 'Object Repository/Canine/Filter/Breed/Mixed_Chkbx' is present
+
+2021-07-19 13:59:16 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/Filter/Breed/Mixed_Chkbx' is present
+
+2021-07-19 13:59:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Canine/Filter/Breed/Mixed_Chkbx"), 5): Object 'Object Repository/Canine/Filter/Breed/Mixed_Chkbx' is present
+
+2021-07-19 13:59:16 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/Filter/Breed/Mixed_Chkbx' is present
+
+2021-07-19 13:59:16 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab("Object Repository/Canine/Filter/Breed/Mixed_Chkbx"): ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 13:59:17 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 13:59:17 - [TEST_STEP][PASSED] - out.println("Breed clicked"): null
+
+2021-07-19 13:59:17 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.readStatBarCanine("Object Repository/Canine/StatBar/Canine_StatBar-Studies", "Object Repository/Canine/StatBar/Canine_StatBar-Cases", "Object Repository/Canine/StatBar/Canine_StatBar-Samples", "Object Repository/Canine/StatBar/Canine_StatBar-Files", "Object Repository/Canine/StatBar/Canine_StatBar-Aliquots"): ctdc.utilities.runtestcaseforKatalon.readStatBarCanine is PASSED
+
+2021-07-19 13:59:32 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.readStatBarCanine is PASSED
+
+2021-07-19 13:59:32 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab("Object Repository/Canine/Filter/Breed/BREED_Ddn"): ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 13:59:32 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 13:59:32 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Canine/Filter/Diagnosis/DIAGNOSIS_Ddn"), 30): Object 'Object Repository/Canine/Filter/Diagnosis/DIAGNOSIS_Ddn' is present
+
+2021-07-19 13:59:32 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/Filter/Diagnosis/DIAGNOSIS_Ddn' is present
+
+2021-07-19 13:59:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Canine/Filter/Diagnosis/DIAGNOSIS_Ddn"), 5): Object 'Object Repository/Canine/Filter/Diagnosis/DIAGNOSIS_Ddn' is present
+
+2021-07-19 13:59:33 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/Filter/Diagnosis/DIAGNOSIS_Ddn' is present
+
+2021-07-19 13:59:33 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab("Object Repository/Canine/Filter/Diagnosis/DIAGNOSIS_Ddn"): ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 13:59:33 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 13:59:33 - [TEST_STEP][PASSED] - out.println("Diagnosis Ddn clicked"): null
+
+2021-07-19 13:59:33 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Canine/Filter/Diagnosis/BladderCancer_Chkbx"), 30): Object 'Object Repository/Canine/Filter/Diagnosis/BladderCancer_Chkbx' is present
+
+2021-07-19 13:59:33 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/Filter/Diagnosis/BladderCancer_Chkbx' is present
+
+2021-07-19 13:59:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Canine/Filter/Diagnosis/BladderCancer_Chkbx"), 5): Object 'Object Repository/Canine/Filter/Diagnosis/BladderCancer_Chkbx' is present
+
+2021-07-19 13:59:33 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/Filter/Diagnosis/BladderCancer_Chkbx' is present
+
+2021-07-19 13:59:33 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab("Object Repository/Canine/Filter/Diagnosis/BladderCancer_Chkbx"): ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 13:59:33 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 13:59:33 - [TEST_STEP][PASSED] - out.println("Diagnosis clicked"): null
+
+2021-07-19 13:59:33 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.readStatBarCanine("Object Repository/Canine/StatBar/Canine_StatBar-Studies", "Object Repository/Canine/StatBar/Canine_StatBar-Cases", "Object Repository/Canine/StatBar/Canine_StatBar-Samples", "Object Repository/Canine/StatBar/Canine_StatBar-Files", "Object Repository/Canine/StatBar/Canine_StatBar-Aliquots"): ctdc.utilities.runtestcaseforKatalon.readStatBarCanine is PASSED
+
+2021-07-19 13:59:49 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.readStatBarCanine is PASSED
+
+2021-07-19 13:59:49 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-07-19 13:59:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-07-19 13:59:52 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Canine/Filter/Diagnosis/HealthyControl_Chkbx"), 30): Object 'Object Repository/Canine/Filter/Diagnosis/HealthyControl_Chkbx' is present
+
+2021-07-19 13:59:52 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/Filter/Diagnosis/HealthyControl_Chkbx' is present
+
+2021-07-19 13:59:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Canine/Filter/Diagnosis/HealthyControl_Chkbx"), 5): Object 'Object Repository/Canine/Filter/Diagnosis/HealthyControl_Chkbx' is present
+
+2021-07-19 13:59:52 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/Filter/Diagnosis/HealthyControl_Chkbx' is present
+
+2021-07-19 13:59:52 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab("Object Repository/Canine/Filter/Diagnosis/HealthyControl_Chkbx"): ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 13:59:52 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 13:59:52 - [TEST_STEP][PASSED] - out.println("Diagnosis healthy control clicked"): null
+
+2021-07-19 13:59:52 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.readStatBarCanine("Object Repository/Canine/StatBar/Canine_StatBar-Studies", "Object Repository/Canine/StatBar/Canine_StatBar-Cases", "Object Repository/Canine/StatBar/Canine_StatBar-Samples", "Object Repository/Canine/StatBar/Canine_StatBar-Files", "Object Repository/Canine/StatBar/Canine_StatBar-Aliquots"): ctdc.utilities.runtestcaseforKatalon.readStatBarCanine is PASSED
+
+2021-07-19 14:00:07 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.readStatBarCanine is PASSED
+
+2021-07-19 14:00:07 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab("Object Repository/Canine/Filter/Diagnosis/DIAGNOSIS_Ddn"): ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 14:00:08 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 14:00:08 - [TEST_STEP][PASSED] - out.println("Diagnosis ddn again clicked"): null
+
+2021-07-19 14:00:08 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Canine/Filter/PrimDiseaseSite/PRIMARYDISEASESITE_Ddn"), 30): Object 'Object Repository/Canine/Filter/PrimDiseaseSite/PRIMARYDISEASESITE_Ddn' is present
+
+2021-07-19 14:00:08 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/Filter/PrimDiseaseSite/PRIMARYDISEASESITE_Ddn' is present
+
+2021-07-19 14:00:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Canine/Filter/PrimDiseaseSite/PRIMARYDISEASESITE_Ddn"), 5): Object 'Object Repository/Canine/Filter/PrimDiseaseSite/PRIMARYDISEASESITE_Ddn' is present
+
+2021-07-19 14:00:08 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/Filter/PrimDiseaseSite/PRIMARYDISEASESITE_Ddn' is present
+
+2021-07-19 14:00:08 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab("Object Repository/Canine/Filter/PrimDiseaseSite/PRIMARYDISEASESITE_Ddn"): ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 14:00:08 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 14:00:08 - [TEST_STEP][PASSED] - out.println("primary disease ddn"): null
+
+2021-07-19 14:00:08 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Canine/Filter/PrimDiseaseSite/BladderUrethra_Chkbx"), 30): Object 'Object Repository/Canine/Filter/PrimDiseaseSite/BladderUrethra_Chkbx' is present
+
+2021-07-19 14:00:08 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/Filter/PrimDiseaseSite/BladderUrethra_Chkbx' is present
+
+2021-07-19 14:00:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Canine/Filter/PrimDiseaseSite/BladderUrethra_Chkbx"), 5): Object 'Object Repository/Canine/Filter/PrimDiseaseSite/BladderUrethra_Chkbx' is present
+
+2021-07-19 14:00:08 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/Filter/PrimDiseaseSite/BladderUrethra_Chkbx' is present
+
+2021-07-19 14:00:08 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Canine/Filter/PrimDiseaseSite/BladderUrethra_Chkbx"), 30): Object 'Object Repository/Canine/Filter/PrimDiseaseSite/BladderUrethra_Chkbx' is clickable
+
+2021-07-19 14:00:08 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/Filter/PrimDiseaseSite/BladderUrethra_Chkbx' is clickable
+
+2021-07-19 14:00:08 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab("Object Repository/Canine/Filter/PrimDiseaseSite/BladderUrethra_Chkbx"): ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 14:00:08 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 14:00:08 - [TEST_STEP][PASSED] - out.println("prim disease site - bladder urethra chkbx clicked"): null
+
+2021-07-19 14:00:08 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.readStatBarCanine("Object Repository/Canine/StatBar/Canine_StatBar-Studies", "Object Repository/Canine/StatBar/Canine_StatBar-Cases", "Object Repository/Canine/StatBar/Canine_StatBar-Samples", "Object Repository/Canine/StatBar/Canine_StatBar-Files", "Object Repository/Canine/StatBar/Canine_StatBar-Aliquots"): ctdc.utilities.runtestcaseforKatalon.readStatBarCanine is PASSED
+
+2021-07-19 14:00:24 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.readStatBarCanine is PASSED
+
+2021-07-19 14:00:24 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Canine/Filter/PrimDiseaseSite/BladderProstate_Chkbx"), 30): Object 'Object Repository/Canine/Filter/PrimDiseaseSite/BladderProstate_Chkbx' is present
+
+2021-07-19 14:00:24 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/Filter/PrimDiseaseSite/BladderProstate_Chkbx' is present
+
+2021-07-19 14:00:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Canine/Filter/PrimDiseaseSite/BladderProstate_Chkbx"), 5): Object 'Object Repository/Canine/Filter/PrimDiseaseSite/BladderProstate_Chkbx' is present
+
+2021-07-19 14:00:24 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/Filter/PrimDiseaseSite/BladderProstate_Chkbx' is present
+
+2021-07-19 14:00:24 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab("Object Repository/Canine/Filter/PrimDiseaseSite/BladderProstate_Chkbx"): ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 14:00:24 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 14:00:24 - [TEST_STEP][PASSED] - out.println("prim disease site - bladder prostate chkbx clicked"): null
+
+2021-07-19 14:00:24 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.readStatBarCanine("Object Repository/Canine/StatBar/Canine_StatBar-Studies", "Object Repository/Canine/StatBar/Canine_StatBar-Cases", "Object Repository/Canine/StatBar/Canine_StatBar-Samples", "Object Repository/Canine/StatBar/Canine_StatBar-Files", "Object Repository/Canine/StatBar/Canine_StatBar-Aliquots"): ctdc.utilities.runtestcaseforKatalon.readStatBarCanine is PASSED
+
+2021-07-19 14:00:40 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.readStatBarCanine is PASSED
+
+2021-07-19 14:00:40 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab("Object Repository/Canine/Filter/PrimDiseaseSite/PRIMARYDISEASESITE_Ddn"): ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 14:00:40 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 14:00:40 - [TEST_STEP][PASSED] - out.println("prim disease site ddn again clicked"): null
+
+2021-07-19 14:00:40 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Canine/CanineResults_Cases_Tab"), 30): Object 'Object Repository/Canine/CanineResults_Cases_Tab' is present
+
+2021-07-19 14:00:40 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/CanineResults_Cases_Tab' is present
+
+2021-07-19 14:00:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Canine/CanineResults_Cases_Tab"), 5): Object 'Object Repository/Canine/CanineResults_Cases_Tab' is present
+
+2021-07-19 14:00:40 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/CanineResults_Cases_Tab' is present
+
+2021-07-19 14:00:40 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab("Object Repository/Canine/CanineResults_Cases_Tab"): ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 14:00:40 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 14:00:40 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.multiFunction("ICDC", G_StatBar_Cases, "Object Repository/Canine/Canine_CasesTable", "Object Repository/Canine/Canine_TableHeader", "Object Repository/Canine/Canine_CasesTabNextBtn", G_WebTabnameCases, G_CypherTabnameCases, G_QueryCasesTab): Statbar Arms count matches
+
+2021-07-19 14:01:01 - [MESSAGE][PASSED] - Statbar Files count matches
+
+2021-07-19 14:01:01 - [MESSAGE][PASSED] - Statbar Samples count matches
+
+2021-07-19 14:01:01 - [MESSAGE][PASSED] - Statbar Cases count matches
+
+2021-07-19 14:01:01 - [MESSAGE][PASSED] - Statbar Arms count matches]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Canine_TestCases/StudyCombinations/Study-Combinations-UBC01/TC02_Canine_StudyUBC-Breed_Diagnosis_PrimDiseaseSite" time="303.091" classname="Test Cases/Canine_TestCases/StudyCombinations/Study-Combinations-UBC01/TC02_Canine_StudyUBC-Breed_Diagnosis_PrimDiseaseSite" status="PASSED">
+         <system-out><![CDATA[2021-07-19 14:01:01 - [TEST_CASE][PASSED] - Test Cases/Canine_TestCases/StudyCombinations/Study-Combinations-UBC01/TC02_Canine_StudyUBC-Breed_Diagnosis_PrimDiseaseSite: Test Cases/Canine_TestCases/StudyCombinations/Study-Combinations-UBC01/TC02_Canine_StudyUBC-Breed_Diagnosis_PrimDiseaseSite
+
+2021-07-19 14:01:01 - [TEST_STEP][PASSED] - Start listener action : getTestScriptName: null
+
+2021-07-19 14:01:01 - [TEST_STEP][PASSED] - TestCaseId = testCaseContext.getTestCaseId(): null
+
+2021-07-19 14:01:01 - [TEST_STEP][PASSED] - out.println("**********this is the value of test case id string******** " + testCaseContext.getTestCaseId()): null
+
+2021-07-19 14:01:01 - [TEST_STEP][PASSED] - G_currentTCName = TestCaseId.substring(TestCaseId.lastIndexOf("TC")): null
+
+2021-07-19 14:01:01 - [TEST_STEP][PASSED] - out.println("This is the test case name : " + G_currentTCName): null
+
+2021-07-19 14:01:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-07-19 14:01:02 - [MESSAGE][PASSED] - Browser is closed
+
+2021-07-19 14:01:02 - [TEST_STEP][PASSED] - "Driver opened by Katalon is used in Selenium from this step.": null
+
+2021-07-19 14:01:02 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.RunKatalon("TC02_Canine_StudyUBC-Breed_Diagnosis_PrimDiseaseSite.xlsx"): Data loaded from input file for the test case. 
+
+2021-07-19 14:01:02 - [MESSAGE][PASSED] - Test case file loaded This is the full filepath after converting to string :C:\Users\radhakrishnang2\Desktop\updated code\Commons_Automation\InputFiles\TC02_Canine_StudyUBC-Breed_Diagnosis_PrimDiseaseSite.xlsx
+
+2021-07-19 14:01:02 - [MESSAGE][INFO] - Global variable set for password file is :  C:\Users\radhakrishnang2\Desktop\updated code\Commons_Automation\InputFiles\TC02_Canine_StudyUBC-Breed_Diagnosis_PrimDiseaseSite.xlsx
+
+2021-07-19 14:01:06 - [MESSAGE][PASSED] - Data loaded from input file for the test case. 
+
+2021-07-19 14:01:18 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Canine/NavBar/Canine_Cases_Btn"), 3): Object 'Object Repository/Canine/NavBar/Canine_Cases_Btn' is present
+
+2021-07-19 14:01:18 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/NavBar/Canine_Cases_Btn' is present
+
+2021-07-19 14:01:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Canine/NavBar/Canine_Cases_Btn"), 5): Object 'Object Repository/Canine/NavBar/Canine_Cases_Btn' is present
+
+2021-07-19 14:01:18 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/NavBar/Canine_Cases_Btn' is present
+
+2021-07-19 14:01:18 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab("Canine/NavBar/Canine_Cases_Btn"): ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 14:01:18 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 14:01:18 - [TEST_STEP][PASSED] - out.println("Canine cases button"): null
+
+2021-07-19 14:01:18 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.readStatBarCanine("Object Repository/Canine/StatBar/Canine_StatBar-Studies", "Object Repository/Canine/StatBar/Canine_StatBar-Cases", "Object Repository/Canine/StatBar/Canine_StatBar-Samples", "Object Repository/Canine/StatBar/Canine_StatBar-Files", "Object Repository/Canine/StatBar/Canine_StatBar-Aliquots"): ctdc.utilities.runtestcaseforKatalon.readStatBarCanine is PASSED
+
+2021-07-19 14:01:34 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.readStatBarCanine is PASSED
+
+2021-07-19 14:01:34 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Canine/Filter/FilterByCases_Facet"), 3): Object 'Object Repository/Canine/Filter/FilterByCases_Facet' is present
+
+2021-07-19 14:01:34 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/Filter/FilterByCases_Facet' is present
+
+2021-07-19 14:01:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Canine/Filter/FilterByCases_Facet"), 5): Object 'Object Repository/Canine/Filter/FilterByCases_Facet' is present
+
+2021-07-19 14:01:34 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/Filter/FilterByCases_Facet' is present
+
+2021-07-19 14:01:34 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab("Object Repository/Canine/Filter/FilterByCases_Facet"): ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 14:01:34 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 14:01:34 - [TEST_STEP][PASSED] - out.println("Filter cases by fact"): null
+
+2021-07-19 14:01:34 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.readStatBarCanine("Object Repository/Canine/StatBar/Canine_StatBar-Studies", "Object Repository/Canine/StatBar/Canine_StatBar-Cases", "Object Repository/Canine/StatBar/Canine_StatBar-Samples", "Object Repository/Canine/StatBar/Canine_StatBar-Files", "Object Repository/Canine/StatBar/Canine_StatBar-Aliquots"): ctdc.utilities.runtestcaseforKatalon.readStatBarCanine is PASSED
+
+2021-07-19 14:01:50 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.readStatBarCanine is PASSED
+
+2021-07-19 14:01:50 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Canine/Filter/Study/Canine_Filter_Study"), 5): Object 'Object Repository/Canine/Filter/Study/Canine_Filter_Study' is present
+
+2021-07-19 14:01:50 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/Filter/Study/Canine_Filter_Study' is present
+
+2021-07-19 14:01:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Canine/Filter/Study/Canine_Filter_Study"), 5): Object 'Object Repository/Canine/Filter/Study/Canine_Filter_Study' is present
+
+2021-07-19 14:01:50 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/Filter/Study/Canine_Filter_Study' is present
+
+2021-07-19 14:01:50 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab("Object Repository/Canine/Filter/Study/Canine_Filter_Study"): ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 14:01:50 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 14:01:50 - [TEST_STEP][PASSED] - out.println("Canine Filter Study"): null
+
+2021-07-19 14:01:50 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.readStatBarCanine("Object Repository/Canine/StatBar/Canine_StatBar-Studies", "Object Repository/Canine/StatBar/Canine_StatBar-Cases", "Object Repository/Canine/StatBar/Canine_StatBar-Samples", "Object Repository/Canine/StatBar/Canine_StatBar-Files", "Object Repository/Canine/StatBar/Canine_StatBar-Aliquots"): ctdc.utilities.runtestcaseforKatalon.readStatBarCanine is PASSED
+
+2021-07-19 14:02:05 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.readStatBarCanine is PASSED
+
+2021-07-19 14:02:05 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Canine/Filter/Study/Canine_Filter_Study-UBC_Chkbx"), 5): Object 'Object Repository/Canine/Filter/Study/Canine_Filter_Study-UBC_Chkbx' is present
+
+2021-07-19 14:02:05 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/Filter/Study/Canine_Filter_Study-UBC_Chkbx' is present
+
+2021-07-19 14:02:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Canine/Filter/Study/Canine_Filter_Study-UBC_Chkbx"), 5): Object 'Object Repository/Canine/Filter/Study/Canine_Filter_Study-UBC_Chkbx' is present
+
+2021-07-19 14:02:06 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/Filter/Study/Canine_Filter_Study-UBC_Chkbx' is present
+
+2021-07-19 14:02:06 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab("Object Repository/Canine/Filter/Study/Canine_Filter_Study-UBC_Chkbx"): ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 14:02:06 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 14:02:06 - [TEST_STEP][PASSED] - out.println("Canine Filter study UBC_Chkbox"): null
+
+2021-07-19 14:02:06 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.readStatBarCanine("Object Repository/Canine/StatBar/Canine_StatBar-Studies", "Object Repository/Canine/StatBar/Canine_StatBar-Cases", "Object Repository/Canine/StatBar/Canine_StatBar-Samples", "Object Repository/Canine/StatBar/Canine_StatBar-Files", "Object Repository/Canine/StatBar/Canine_StatBar-Aliquots"): ctdc.utilities.runtestcaseforKatalon.readStatBarCanine is PASSED
+
+2021-07-19 14:02:21 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.readStatBarCanine is PASSED
+
+2021-07-19 14:02:21 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Canine/Filter/Breed/BREED_Ddn"), 5): Object 'Object Repository/Canine/Filter/Breed/BREED_Ddn' is present
+
+2021-07-19 14:02:21 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/Filter/Breed/BREED_Ddn' is present
+
+2021-07-19 14:02:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Canine/Filter/Breed/BREED_Ddn"), 5): Object 'Object Repository/Canine/Filter/Breed/BREED_Ddn' is present
+
+2021-07-19 14:02:21 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/Filter/Breed/BREED_Ddn' is present
+
+2021-07-19 14:02:21 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab("Object Repository/Canine/Filter/Breed/BREED_Ddn"): ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 14:02:21 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 14:02:21 - [TEST_STEP][PASSED] - out.println("Breed Ddn"): null
+
+2021-07-19 14:02:21 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.readStatBarCanine("Object Repository/Canine/StatBar/Canine_StatBar-Studies", "Object Repository/Canine/StatBar/Canine_StatBar-Cases", "Object Repository/Canine/StatBar/Canine_StatBar-Samples", "Object Repository/Canine/StatBar/Canine_StatBar-Files", "Object Repository/Canine/StatBar/Canine_StatBar-Aliquots"): ctdc.utilities.runtestcaseforKatalon.readStatBarCanine is PASSED
+
+2021-07-19 14:02:37 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.readStatBarCanine is PASSED
+
+2021-07-19 14:02:37 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Canine/Filter/Breed/BorderCol_Chkbx"), 5): Object 'Object Repository/Canine/Filter/Breed/BorderCol_Chkbx' is present
+
+2021-07-19 14:02:37 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/Filter/Breed/BorderCol_Chkbx' is present
+
+2021-07-19 14:02:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Canine/Filter/Breed/BorderCol_Chkbx"), 5): Object 'Object Repository/Canine/Filter/Breed/BorderCol_Chkbx' is present
+
+2021-07-19 14:02:37 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/Filter/Breed/BorderCol_Chkbx' is present
+
+2021-07-19 14:02:37 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab("Object Repository/Canine/Filter/Breed/BorderCol_Chkbx"): ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 14:02:37 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 14:02:37 - [TEST_STEP][PASSED] - out.println("Border Col Chkbox"): null
+
+2021-07-19 14:02:37 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.readStatBarCanine("Object Repository/Canine/StatBar/Canine_StatBar-Studies", "Object Repository/Canine/StatBar/Canine_StatBar-Cases", "Object Repository/Canine/StatBar/Canine_StatBar-Samples", "Object Repository/Canine/StatBar/Canine_StatBar-Files", "Object Repository/Canine/StatBar/Canine_StatBar-Aliquots"): ctdc.utilities.runtestcaseforKatalon.readStatBarCanine is PASSED
+
+2021-07-19 14:02:52 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.readStatBarCanine is PASSED
+
+2021-07-19 14:02:52 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Canine/Filter/Breed/Chihuahua_Chkbx"), 5): Object 'Object Repository/Canine/Filter/Breed/Chihuahua_Chkbx' is present
+
+2021-07-19 14:02:53 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/Filter/Breed/Chihuahua_Chkbx' is present
+
+2021-07-19 14:02:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Canine/Filter/Breed/Chihuahua_Chkbx"), 5): Object 'Object Repository/Canine/Filter/Breed/Chihuahua_Chkbx' is present
+
+2021-07-19 14:02:53 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/Filter/Breed/Chihuahua_Chkbx' is present
+
+2021-07-19 14:02:53 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab("Object Repository/Canine/Filter/Breed/Chihuahua_Chkbx"): ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 14:02:53 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 14:02:53 - [TEST_STEP][PASSED] - out.println("Chihuahua Chkbox"): null
+
+2021-07-19 14:02:53 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.readStatBarCanine("Object Repository/Canine/StatBar/Canine_StatBar-Studies", "Object Repository/Canine/StatBar/Canine_StatBar-Cases", "Object Repository/Canine/StatBar/Canine_StatBar-Samples", "Object Repository/Canine/StatBar/Canine_StatBar-Files", "Object Repository/Canine/StatBar/Canine_StatBar-Aliquots"): ctdc.utilities.runtestcaseforKatalon.readStatBarCanine is PASSED
+
+2021-07-19 14:03:08 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.readStatBarCanine is PASSED
+
+2021-07-19 14:03:08 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Canine/Filter/Breed/Maltese_Chkbx"), 5): Object 'Object Repository/Canine/Filter/Breed/Maltese_Chkbx' is present
+
+2021-07-19 14:03:08 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/Filter/Breed/Maltese_Chkbx' is present
+
+2021-07-19 14:03:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Canine/Filter/Breed/Maltese_Chkbx"), 5): Object 'Object Repository/Canine/Filter/Breed/Maltese_Chkbx' is present
+
+2021-07-19 14:03:08 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/Filter/Breed/Maltese_Chkbx' is present
+
+2021-07-19 14:03:08 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab("Object Repository/Canine/Filter/Breed/Maltese_Chkbx"): ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 14:03:09 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 14:03:09 - [TEST_STEP][PASSED] - out.println("Maltese Chkbox"): null
+
+2021-07-19 14:03:09 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.readStatBarCanine("Object Repository/Canine/StatBar/Canine_StatBar-Studies", "Object Repository/Canine/StatBar/Canine_StatBar-Cases", "Object Repository/Canine/StatBar/Canine_StatBar-Samples", "Object Repository/Canine/StatBar/Canine_StatBar-Files", "Object Repository/Canine/StatBar/Canine_StatBar-Aliquots"): ctdc.utilities.runtestcaseforKatalon.readStatBarCanine is PASSED
+
+2021-07-19 14:03:24 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.readStatBarCanine is PASSED
+
+2021-07-19 14:03:24 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Canine/Filter/Breed/ScottTerr_Chkbx"), 5): Object 'Object Repository/Canine/Filter/Breed/ScottTerr_Chkbx' is present
+
+2021-07-19 14:03:24 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/Filter/Breed/ScottTerr_Chkbx' is present
+
+2021-07-19 14:03:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Canine/Filter/Breed/ScottTerr_Chkbx"), 5): Object 'Object Repository/Canine/Filter/Breed/ScottTerr_Chkbx' is present
+
+2021-07-19 14:03:24 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/Filter/Breed/ScottTerr_Chkbx' is present
+
+2021-07-19 14:03:24 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab("Object Repository/Canine/Filter/Breed/ScottTerr_Chkbx"): ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 14:03:24 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 14:03:24 - [TEST_STEP][PASSED] - out.println("ScottTerr Chkbx"): null
+
+2021-07-19 14:03:24 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.readStatBarCanine("Object Repository/Canine/StatBar/Canine_StatBar-Studies", "Object Repository/Canine/StatBar/Canine_StatBar-Cases", "Object Repository/Canine/StatBar/Canine_StatBar-Samples", "Object Repository/Canine/StatBar/Canine_StatBar-Files", "Object Repository/Canine/StatBar/Canine_StatBar-Aliquots"): ctdc.utilities.runtestcaseforKatalon.readStatBarCanine is PASSED
+
+2021-07-19 14:03:40 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.readStatBarCanine is PASSED
+
+2021-07-19 14:03:40 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab("Object Repository/Canine/Filter/Breed/BREED_Ddn"): ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 14:03:40 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 14:03:40 - [TEST_STEP][PASSED] - out.println("Breed_Ddn"): null
+
+2021-07-19 14:03:40 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.readStatBarCanine("Object Repository/Canine/StatBar/Canine_StatBar-Studies", "Object Repository/Canine/StatBar/Canine_StatBar-Cases", "Object Repository/Canine/StatBar/Canine_StatBar-Samples", "Object Repository/Canine/StatBar/Canine_StatBar-Files", "Object Repository/Canine/StatBar/Canine_StatBar-Aliquots"): ctdc.utilities.runtestcaseforKatalon.readStatBarCanine is PASSED
+
+2021-07-19 14:03:55 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.readStatBarCanine is PASSED
+
+2021-07-19 14:03:55 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Canine/Filter/Diagnosis/DIAGNOSIS_Ddn"), 5): Object 'Object Repository/Canine/Filter/Diagnosis/DIAGNOSIS_Ddn' is present
+
+2021-07-19 14:03:55 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/Filter/Diagnosis/DIAGNOSIS_Ddn' is present
+
+2021-07-19 14:03:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Canine/Filter/Diagnosis/DIAGNOSIS_Ddn"), 5): Object 'Object Repository/Canine/Filter/Diagnosis/DIAGNOSIS_Ddn' is present
+
+2021-07-19 14:03:55 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/Filter/Diagnosis/DIAGNOSIS_Ddn' is present
+
+2021-07-19 14:03:55 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab("Object Repository/Canine/Filter/Diagnosis/DIAGNOSIS_Ddn"): ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 14:03:56 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 14:03:56 - [TEST_STEP][PASSED] - out.println("Diagnosis Ddn"): null
+
+2021-07-19 14:03:56 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.readStatBarCanine("Object Repository/Canine/StatBar/Canine_StatBar-Studies", "Object Repository/Canine/StatBar/Canine_StatBar-Cases", "Object Repository/Canine/StatBar/Canine_StatBar-Samples", "Object Repository/Canine/StatBar/Canine_StatBar-Files", "Object Repository/Canine/StatBar/Canine_StatBar-Aliquots"): ctdc.utilities.runtestcaseforKatalon.readStatBarCanine is PASSED
+
+2021-07-19 14:04:11 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.readStatBarCanine is PASSED
+
+2021-07-19 14:04:11 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Canine/Filter/Diagnosis/BladderCancer_Chkbx"), 5): Object 'Object Repository/Canine/Filter/Diagnosis/BladderCancer_Chkbx' is present
+
+2021-07-19 14:04:11 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/Filter/Diagnosis/BladderCancer_Chkbx' is present
+
+2021-07-19 14:04:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Canine/Filter/Diagnosis/BladderCancer_Chkbx"), 5): Object 'Object Repository/Canine/Filter/Diagnosis/BladderCancer_Chkbx' is present
+
+2021-07-19 14:04:11 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/Filter/Diagnosis/BladderCancer_Chkbx' is present
+
+2021-07-19 14:04:11 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab("Object Repository/Canine/Filter/Diagnosis/BladderCancer_Chkbx"): ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 14:04:11 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 14:04:11 - [TEST_STEP][PASSED] - out.println("BladderCancer Chkbox"): null
+
+2021-07-19 14:04:11 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.readStatBarCanine("Object Repository/Canine/StatBar/Canine_StatBar-Studies", "Object Repository/Canine/StatBar/Canine_StatBar-Cases", "Object Repository/Canine/StatBar/Canine_StatBar-Samples", "Object Repository/Canine/StatBar/Canine_StatBar-Files", "Object Repository/Canine/StatBar/Canine_StatBar-Aliquots"): ctdc.utilities.runtestcaseforKatalon.readStatBarCanine is PASSED
+
+2021-07-19 14:04:27 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.readStatBarCanine is PASSED
+
+2021-07-19 14:04:27 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab("Object Repository/Canine/Filter/Diagnosis/DIAGNOSIS_Ddn"): ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 14:04:27 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 14:04:27 - [TEST_STEP][PASSED] - out.println("Diagnosis Ddn again"): null
+
+2021-07-19 14:04:27 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.readStatBarCanine("Object Repository/Canine/StatBar/Canine_StatBar-Studies", "Object Repository/Canine/StatBar/Canine_StatBar-Cases", "Object Repository/Canine/StatBar/Canine_StatBar-Samples", "Object Repository/Canine/StatBar/Canine_StatBar-Files", "Object Repository/Canine/StatBar/Canine_StatBar-Aliquots"): ctdc.utilities.runtestcaseforKatalon.readStatBarCanine is PASSED
+
+2021-07-19 14:04:42 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.readStatBarCanine is PASSED
+
+2021-07-19 14:04:42 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Canine/Filter/PrimDiseaseSite/PRIMARYDISEASESITE_Ddn"), 5): Object 'Object Repository/Canine/Filter/PrimDiseaseSite/PRIMARYDISEASESITE_Ddn' is present
+
+2021-07-19 14:04:42 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/Filter/PrimDiseaseSite/PRIMARYDISEASESITE_Ddn' is present
+
+2021-07-19 14:04:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Canine/Filter/PrimDiseaseSite/PRIMARYDISEASESITE_Ddn"), 5): Object 'Object Repository/Canine/Filter/PrimDiseaseSite/PRIMARYDISEASESITE_Ddn' is present
+
+2021-07-19 14:04:42 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/Filter/PrimDiseaseSite/PRIMARYDISEASESITE_Ddn' is present
+
+2021-07-19 14:04:42 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab("Object Repository/Canine/Filter/PrimDiseaseSite/PRIMARYDISEASESITE_Ddn"): ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 14:04:43 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 14:04:43 - [TEST_STEP][PASSED] - out.println("Primary Diseasesite Ddn"): null
+
+2021-07-19 14:04:43 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.readStatBarCanine("Object Repository/Canine/StatBar/Canine_StatBar-Studies", "Object Repository/Canine/StatBar/Canine_StatBar-Cases", "Object Repository/Canine/StatBar/Canine_StatBar-Samples", "Object Repository/Canine/StatBar/Canine_StatBar-Files", "Object Repository/Canine/StatBar/Canine_StatBar-Aliquots"): ctdc.utilities.runtestcaseforKatalon.readStatBarCanine is PASSED
+
+2021-07-19 14:04:58 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.readStatBarCanine is PASSED
+
+2021-07-19 14:04:58 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Canine/Filter/PrimDiseaseSite/BladderUrethra_Chkbx"), 5): Object 'Object Repository/Canine/Filter/PrimDiseaseSite/BladderUrethra_Chkbx' is present
+
+2021-07-19 14:04:58 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/Filter/PrimDiseaseSite/BladderUrethra_Chkbx' is present
+
+2021-07-19 14:04:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Canine/Filter/PrimDiseaseSite/BladderUrethra_Chkbx"), 5): Object 'Object Repository/Canine/Filter/PrimDiseaseSite/BladderUrethra_Chkbx' is present
+
+2021-07-19 14:04:58 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/Filter/PrimDiseaseSite/BladderUrethra_Chkbx' is present
+
+2021-07-19 14:04:58 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Canine/Filter/PrimDiseaseSite/BladderUrethra_Chkbx"), 5): Object 'Object Repository/Canine/Filter/PrimDiseaseSite/BladderUrethra_Chkbx' is present
+
+2021-07-19 14:04:58 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/Filter/PrimDiseaseSite/BladderUrethra_Chkbx' is present
+
+2021-07-19 14:04:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Canine/Filter/PrimDiseaseSite/BladderUrethra_Chkbx"), 5): Object 'Object Repository/Canine/Filter/PrimDiseaseSite/BladderUrethra_Chkbx' is present
+
+2021-07-19 14:04:58 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/Filter/PrimDiseaseSite/BladderUrethra_Chkbx' is present
+
+2021-07-19 14:04:58 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab("Object Repository/Canine/Filter/PrimDiseaseSite/BladderUrethra_Chkbx"): ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 14:04:59 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 14:04:59 - [TEST_STEP][PASSED] - out.println("Bladder Urethra chkbox"): null
+
+2021-07-19 14:04:59 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.readStatBarCanine("Object Repository/Canine/StatBar/Canine_StatBar-Studies", "Object Repository/Canine/StatBar/Canine_StatBar-Cases", "Object Repository/Canine/StatBar/Canine_StatBar-Samples", "Object Repository/Canine/StatBar/Canine_StatBar-Files", "Object Repository/Canine/StatBar/Canine_StatBar-Aliquots"): ctdc.utilities.runtestcaseforKatalon.readStatBarCanine is PASSED
+
+2021-07-19 14:05:14 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.readStatBarCanine is PASSED
+
+2021-07-19 14:05:14 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Canine/Filter/PrimDiseaseSite/BladderUrethraProstate_Chkbx"), 5): Object 'Object Repository/Canine/Filter/PrimDiseaseSite/BladderUrethraProstate_Chkbx' is present
+
+2021-07-19 14:05:14 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/Filter/PrimDiseaseSite/BladderUrethraProstate_Chkbx' is present
+
+2021-07-19 14:05:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Canine/Filter/PrimDiseaseSite/BladderUrethraProstate_Chkbx"), 5): Object 'Object Repository/Canine/Filter/PrimDiseaseSite/BladderUrethraProstate_Chkbx' is present
+
+2021-07-19 14:05:14 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/Filter/PrimDiseaseSite/BladderUrethraProstate_Chkbx' is present
+
+2021-07-19 14:05:14 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab("Object Repository/Canine/Filter/PrimDiseaseSite/BladderUrethraProstate_Chkbx"): ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 14:05:14 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 14:05:14 - [TEST_STEP][PASSED] - out.println("Bladder Urethra Proststare chkbx"): null
+
+2021-07-19 14:05:14 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.readStatBarCanine("Object Repository/Canine/StatBar/Canine_StatBar-Studies", "Object Repository/Canine/StatBar/Canine_StatBar-Cases", "Object Repository/Canine/StatBar/Canine_StatBar-Samples", "Object Repository/Canine/StatBar/Canine_StatBar-Files", "Object Repository/Canine/StatBar/Canine_StatBar-Aliquots"): ctdc.utilities.runtestcaseforKatalon.readStatBarCanine is PASSED
+
+2021-07-19 14:05:30 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.readStatBarCanine is PASSED
+
+2021-07-19 14:05:30 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab("Object Repository/Canine/Filter/PrimDiseaseSite/PRIMARYDISEASESITE_Ddn"): ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 14:05:30 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 14:05:30 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.readStatBarCanine("Object Repository/Canine/StatBar/Canine_StatBar-Studies", "Object Repository/Canine/StatBar/Canine_StatBar-Cases", "Object Repository/Canine/StatBar/Canine_StatBar-Samples", "Object Repository/Canine/StatBar/Canine_StatBar-Files", "Object Repository/Canine/StatBar/Canine_StatBar-Aliquots"): ctdc.utilities.runtestcaseforKatalon.readStatBarCanine is PASSED
+
+2021-07-19 14:05:45 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.readStatBarCanine is PASSED
+
+2021-07-19 14:05:45 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Canine/CanineResults_Cases_Tab"), 5): Object 'Object Repository/Canine/CanineResults_Cases_Tab' is present
+
+2021-07-19 14:05:45 - [MESSAGE][PASSED] - Object 'Object Repository/Canine/CanineResults_Cases_Tab' is present
+
+2021-07-19 14:05:45 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab("Object Repository/Canine/CanineResults_Cases_Tab"): ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 14:05:45 - [MESSAGE][PASSED] - ctdc.utilities.runtestcaseforKatalon.clickTab is PASSED
+
+2021-07-19 14:05:45 - [TEST_STEP][PASSED] - ctdc.utilities.runtestcaseforKatalon.multiFunction("ICDC", G_StatBar_Cases, "Object Repository/Canine/Canine_CasesTable", "Object Repository/Canine/Canine_TableHeader", "Object Repository/Canine/Canine_CasesTabNextBtn", G_WebTabnameCases, G_CypherTabnameCases, G_QueryCasesTab): Statbar Arms count matches
+
+2021-07-19 14:06:04 - [MESSAGE][PASSED] - Statbar Files count matches
+
+2021-07-19 14:06:04 - [MESSAGE][PASSED] - Statbar Samples count matches
+
+2021-07-19 14:06:04 - [MESSAGE][PASSED] - Statbar Cases count matches
+
+2021-07-19 14:06:04 - [MESSAGE][PASSED] - Statbar Arms count matches]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-07-19 13:58:08 - [TEST_SUITE][PASSED] - workingCopy_G: Test Cases/Canine_TestCases/StudyCombinations/Study-Combinations-UBC01/TC02_Canine_StudyUBC-Breed_Diagnosis_PrimDiseaseSite]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
