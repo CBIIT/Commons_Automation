@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[contains(text(),'Bladder, Urethra, Prostate')]</value>
+         <value>//*[@id='checkbox_Primary Disease Site_Bladder, Urethra, Prostate']</value>
       </entry>
       <entry>
          <key>BASIC</key>
