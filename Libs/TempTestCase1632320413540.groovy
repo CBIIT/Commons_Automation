@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\sohilz2\\AppData\\Local\\Temp\\2\\Katalon\\Test Cases\\TO_BE_FIXED\\TC01_Canine_CaseFiles_Study-COTB\\20210921_190236\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\sohilz2\\AppData\\Local\\Temp\\2\\Katalon\\Test Cases\\TO_BE_FIXED\\TC01_Canine_Filter_SampleType-PrimMaligTumTissue\\20210922_102013\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/TO_BE_FIXED/TC01_Canine_CaseFiles_Study-COTB', new TestCaseBinding('Test Cases/TO_BE_FIXED/TC01_Canine_CaseFiles_Study-COTB',[:]), FailureHandling.STOP_ON_FAILURE , true, true)
+        TestCaseMain.runTestCase('Test Cases/TO_BE_FIXED/TC01_Canine_Filter_SampleType-PrimMaligTumTissue', new TestCaseBinding('Test Cases/TO_BE_FIXED/TC01_Canine_Filter_SampleType-PrimMaligTumTissue',[:]), FailureHandling.STOP_ON_FAILURE , true, true)
     
