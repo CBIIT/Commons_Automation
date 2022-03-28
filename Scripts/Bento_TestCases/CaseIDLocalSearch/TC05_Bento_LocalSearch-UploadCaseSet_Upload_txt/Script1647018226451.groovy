@@ -63,7 +63,7 @@ CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repositor
 Thread.sleep(5000)
 System.out.println('clicked the browse button')
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.BentoLocalFindFileUpld'()
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.BentoLocalFindFileUpld'('txt')
 System.out.println('uploaded the csv file')
 
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Bento/Cases_page/Bento_LocalSearch_Upld_Submit_Btn')

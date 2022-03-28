@@ -557,7 +557,7 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 			//nxtBtn =  driver.findElement(By.xpath(givexpath('Object Repository/Bento/Bento_CasesTabNextBtn')));
 			columns_count = (colHeader.size())-1
 			hdrdata = ""
-			for(int c=1;c<=columns_count;c++){   
+			for(int c=1;c<=columns_count;c++){
 				hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
 				System.out.println ("This is the value of header data from the else condition: "+hdrdata)
 			}
@@ -965,17 +965,25 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 	}
 
 	@Keyword
-	public void BentoLocalFindFileUpld() {
+	public void BentoLocalFindFileUpld(String fileType) {
+		String filetp = fileType
 		String fileUpldXpath = givexpath('Object Repository/Bento/Cases_page/Bento_LocalSearch_Upld_WndwsFileUpload');
 		WebElement flUpld=driver.findElement(By.xpath(fileUpldXpath));
 		// windows file upload with file path
-		//Path inpFile = Paths.get(System.getProperty("user.dir"), "InputFiles", "BentoUploadCaseSet.csv");
-		Path inpFile = Paths.get(System.getProperty("user.dir"), "InputFiles", "BentoUploadCaseSet.txt");
+		if(filetp=='CSV') {
+			Path inpFile = Paths.get(System.getProperty("user.dir"), "InputFiles", "BentoUploadCaseSet.csv");
+		}else if (filetp =='txt') {
+			Path inpFile = Paths.get(System.getProperty("user.dir"), "InputFiles", "BentoUploadCaseSet.txt");
+		}else {
+			System.out.prinltn ("ERROR:*******************Filetype not specified*********************")
+		}
+
+
 		String inpFileStr = inpFile.toString();
 		flUpld.sendKeys(inpFileStr);
 		Thread.sleep(3000)
 		System.out.println("This is the value of the input file for case id local find upload : "+inpFileStr)
-		 
+
 	}
 
 
@@ -1206,13 +1214,13 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 			System.out.println("This is the value of Samples Count from Neo4j result "+statData.get(0).get(1).getStringCellValue())
 			System.out.println("This is the value of Cases Count from Neo4j result "+statData.get(0).get(2).getStringCellValue())
 			System.out.println("This is the value of Studies Count from Neo4j result "+statData.get(0).get(3).getStringCellValue())
-			//System.out.println("This is the value of StudyFiles Count from Neo4j result "+statData.get(0).get(4).getStringCellValue())
+			System.out.println("This is the value of StudyFiles Count from Neo4j result "+statData.get(0).get(4).getStringCellValue())
 			//assert statData.get(0).get(0).getStringCellValue()==GlobalVariable.G_StatBar_Files :KeywordUtil.markFailed("Mismatch in Stat Bar Files count")
 			(statData.get(0).get(0).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Files)) ? KeywordUtil.markPassed("Statbar Case Files count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Case Files count")
 			(statData.get(0).get(1).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Samples)) ? KeywordUtil.markPassed("Statbar Samples count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Samples count")
 			(statData.get(0).get(2).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Cases)) ? KeywordUtil.markPassed("Statbar Cases count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Cases count")
 			(statData.get(0).get(3).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Studies)) ? KeywordUtil.markPassed("Statbar Studies count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Studies count")
-			//(statData.get(0).get(4).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_StudyFiles)) ? KeywordUtil.markPassed("Statbar Study Files count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Study Files count")
+			(statData.get(0).get(4).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_StudyFiles)) ? KeywordUtil.markPassed("Statbar Study Files count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Study Files count")
 
 		}
 		else if (getAppName=='CTDC') {
