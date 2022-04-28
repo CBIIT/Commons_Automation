@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Trials_CasesTabNextBtn</name>
+   <name>Trials_FilesTabNextBtn</name>
    <tag></tag>
-   <elementGuidId>ede69bde-7f3a-4999-b044-924bccbbb842</elementGuidId>
+   <elementGuidId>9d3730f4-e5cc-499d-bb66-0c5ae3bfaa4b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

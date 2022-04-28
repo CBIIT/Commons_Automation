@@ -388,6 +388,15 @@ Profile ICDC_STAGE : This variable contains the output tab name for stat bar cou
     public static Object G_CaseDetailStatTabname
      
     /**
+     * <p>Profile BENTO_PERF : This variable contains the neo4j query to fetch case detail level stat data
+Profile BENTO_QA : This variable contains the neo4j query to fetch case detail level stat data
+Profile CDS_DEV : This variable contains the neo4j query to fetch case detail level stat data
+Profile CTDC_DEV : This variable contains the neo4j query to fetch case detail level stat data
+Profile GMB_DEV : This variable contains the neo4j query to fetch case detail level stat data</p>
+     */
+    public static Object G_CaseDetailQ
+     
+    /**
      * <p></p>
      */
     public static Object G_CaseDetailsQFirstPart
@@ -396,15 +405,6 @@ Profile ICDC_STAGE : This variable contains the output tab name for stat bar cou
      * <p></p>
      */
     public static Object G_CaseDetailsQSecondPart
-     
-    /**
-     * <p>Profile BENTO_PERF : This variable contains the neo4j query to fetch case detail level stat data
-Profile BENTO_QA : This variable contains the neo4j query to fetch case detail level stat data
-Profile CDS_DEV : This variable contains the neo4j query to fetch case detail level stat data
-Profile CTDC_DEV : This variable contains the neo4j query to fetch case detail level stat data
-Profile GMB_DEV : This variable contains the neo4j query to fetch case detail level stat data</p>
-     */
-    public static Object G_CaseDetailQ
      
     /**
      * <p></p>
@@ -481,6 +481,7 @@ Profile GMB_DEV : This variable contains the neo4j query to fetch case detail le
 Profile BENTO_PERF : This is the variable holding the filename and full path of the converted .xlsx file
 Profile BENTO_QA : This variable contains the current test case name
 Profile CDS_DEV : This variable contains the current test case name
+Profile CTDC_DEV : Name of the current test script
 Profile GMB_DEV : This variable contains the current test case name
 Profile ICDC_BENTO : Name of the current test script
 Profile ICDC_PROD : Name of the current test script
@@ -490,6 +491,7 @@ Profile ICDC_STAGE : Name of the current test script</p>
      
     /**
      * <p>Profile ICDC_QA : This flag specifies whether the script needs manifest file rename or not.
+Profile CTDC_DEV : This flag specifies whether the script needs manifest file rename or not.
 Profile ICDC_BENTO : This flag specifies whether the script needs manifest file rename or not.
 Profile ICDC_PROD : This flag specifies whether the script needs manifest file rename or not.
 Profile ICDC_STAGE : This flag specifies whether the script needs manifest file rename or not.</p>
@@ -501,6 +503,7 @@ Profile ICDC_STAGE : This flag specifies whether the script needs manifest file 
 Profile BENTO_PERF : This is the value of browser chosen at runtime to execute the test script
 Profile BENTO_QA : This is the value of browser chosen at runtime to execute the test script
 Profile CDS_DEV : This is the value of browser chosen at runtime to execute the test script
+Profile CTDC_DEV : This is the value of browser chosen at runtime to execute the test script
 Profile GMB_DEV : This is the value of browser chosen at runtime to execute the test script
 Profile ICDC_BENTO : This is the value of browser chosen at runtime to execute the test script
 Profile ICDC_PROD : This is the value of browser chosen at runtime to execute the test script
@@ -510,6 +513,7 @@ Profile ICDC_STAGE : This is the value of browser chosen at runtime to execute t
      
     /**
      * <p>Profile ICDC_QA : Path where manifest is saved
+Profile CTDC_DEV : Path where manifest is saved
 Profile ICDC_BENTO : Path where manifest is saved
 Profile ICDC_PROD : Path where manifest is saved
 Profile ICDC_STAGE : Path where manifest is saved</p>
@@ -518,6 +522,7 @@ Profile ICDC_STAGE : Path where manifest is saved</p>
      
     /**
      * <p>Profile ICDC_QA : This contains the name of the recent manifest with timestamp which is to be renamed
+Profile CTDC_DEV : This contains the name of the recent manifest with timestamp which is to be renamed
 Profile ICDC_BENTO : This contains the name of the recent manifest with timestamp which is to be renamed
 Profile ICDC_PROD : This contains the name of the recent manifest with timestamp which is to be renamed
 Profile ICDC_STAGE : This contains the name of the recent manifest with timestamp which is to be renamed</p>
@@ -572,12 +577,14 @@ Profile GMB_DEV : contains the renamed manifest file's full path + name with csv
     public static Object G_cartQuery
      
     /**
-     * <p>Profile ICDC_QA : This variable holds the xpath of table which is to be read only for specific columns</p>
+     * <p>Profile ICDC_QA : This variable holds the xpath of table which is to be read only for specific columns
+Profile CTDC_DEV : This variable holds the xpath of table which is to be read only for specific columns</p>
      */
     public static Object G_customTblBdy
      
     /**
-     * <p>Profile ICDC_QA : This variable contains the xpath of table body to be read by chosen column headers</p>
+     * <p>Profile ICDC_QA : This variable contains the xpath of table body to be read by chosen column headers
+Profile CTDC_DEV : This variable contains the xpath of table body to be read by chosen column headers</p>
      */
     public static Object G_customTblHdr
      
@@ -590,12 +597,14 @@ Profile GMB_DEV : contains the renamed manifest file's full path + name with csv
      * <p>Profile ICDC_QA : this holds the file name after csv to xls conversion of the downloaded manifest
 Profile BENTO_QA : This is the variable holding the filename and full path of the converted .xls file
 Profile CDS_DEV : This is the variable holding the filename and full path of the converted .xls file
+Profile CTDC_DEV : this holds the file name after csv to xls conversion of the downloaded manifest
 Profile GMB_DEV : This is the variable holding the filename and full path of the converted .xls file</p>
      */
     public static Object G_excelFileName
      
     /**
-     * <p>Profile ICDC_QA : This variable holds the full path and filename of a manifest convereted from xls to xlsx</p>
+     * <p>Profile ICDC_QA : This variable holds the full path and filename of a manifest convereted from xls to xlsx
+Profile CTDC_DEV : This variable holds the full path and filename of a manifest convereted from xls to xlsx</p>
      */
     public static Object G_xlsxFileName
      
@@ -647,11 +656,6 @@ Profile GMB_DEV : This is the variable holding the filename and full path of the
     public static Object G_WebTabNameMyCart
      
     /**
-     * <p></p>
-     */
-    public static Object G_CypherTabname
-     
-    /**
      * <p>Profile CTDC_DEV : This variable holds the value of Trials count from Stat Bar in UI.</p>
      */
     public static Object G_TStatBar_Trials
@@ -665,11 +669,6 @@ Profile GMB_DEV : This is the variable holding the filename and full path of the
      * <p>Profile CTDC_DEV : This variable holds the value of Files count from Stat Bar in UI.</p>
      */
     public static Object G_TStatBar_Files
-     
-    /**
-     * <p></p>
-     */
-    public static Object G_WebTabname
      
 
     static {
@@ -724,9 +723,9 @@ Profile GMB_DEV : This is the variable holding the filename and full path of the
             G_rowcountFiles = selectedVariables['G_rowcountFiles']
             G_MainPgNextBtn = selectedVariables['G_MainPgNextBtn']
             G_CaseDetailStatTabname = selectedVariables['G_CaseDetailStatTabname']
+            G_CaseDetailQ = selectedVariables['G_CaseDetailQ']
             G_CaseDetailsQFirstPart = selectedVariables['G_CaseDetailsQFirstPart']
             G_CaseDetailsQSecondPart = selectedVariables['G_CaseDetailsQSecondPart']
-            G_CaseDetailQ = selectedVariables['G_CaseDetailQ']
             G_caseDetailsTabName = selectedVariables['G_caseDetailsTabName']
             G_WebTabnameSamples = selectedVariables['G_WebTabnameSamples']
             G_WebTabnameFiles = selectedVariables['G_WebTabnameFiles']
@@ -767,11 +766,9 @@ Profile GMB_DEV : This is the variable holding the filename and full path of the
             cvsFileName = selectedVariables['cvsFileName']
             G_xlsxFilename = selectedVariables['G_xlsxFilename']
             G_WebTabNameMyCart = selectedVariables['G_WebTabNameMyCart']
-            G_CypherTabname = selectedVariables['G_CypherTabname']
             G_TStatBar_Trials = selectedVariables['G_TStatBar_Trials']
             G_TStatBar_Cases = selectedVariables['G_TStatBar_Cases']
             G_TStatBar_Files = selectedVariables['G_TStatBar_Files']
-            G_WebTabname = selectedVariables['G_WebTabname']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

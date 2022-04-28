@@ -71,5 +71,14 @@ CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.multiFunction'('CTDC',Globa
 	GlobalVariable.G_CypherTabnameCases,GlobalVariable.G_QueryCasesTab)
 
 
+//CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.multiFunction'('CTDC',GlobalVariable.G_TStatBar_Files,'Object Repository/Trials/Cases_page/Trials_FilesTable',
+//	'Object Repository/Trials/Cases_page/Trials_CasesTableHeader', 'Object Repository/Trials/Cases_page/Trials_CasesTabNextBtn', GlobalVariable.G_WebTabnameCases,
+//	GlobalVariable.G_CypherTabnameCases,GlobalVariable.G_QueryCasesTab)
+
+ 
+//
+//findTestObject('Object Repository/Trials/Cases_page/Trials_FilesTable_Hdr')findTestObject('Object Repository/Trials/Cases_page/Trials_File_NextBtn')
+
+
 WebUI.closeBrowser()
 

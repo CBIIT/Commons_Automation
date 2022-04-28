@@ -154,7 +154,7 @@ public class ReadExcel {
 		String output= GlobalVariable.G_ResultPath
 		String neo4jServer = GlobalVariable.G_server
 		String statTabName = GlobalVariable.G_StatTabname
-		String cartTabName = GlobalVariable.G_CypherTabnameMyCart
+	//	String cartTabName = GlobalVariable.G_CypherTabnameCasesMyCart
 		String caseDetailTabName = GlobalVariable.G_CaseDetailStatTabname  //added for case detail
 		String cypherTabName = dbSheetName
 
@@ -173,7 +173,7 @@ public class ReadExcel {
 
 		Test1.run(neo4jServer,userName,pwd,statQuery,output,statTabName)  //this is for the stat bar counts
 
-		Test1.run(neo4jServer,userName,pwd,myCartQuery,output,cartTabName) //this is for cart table data
+		//Test1.run(neo4jServer,userName,pwd,myCartQuery,output,cartTabName) //this is for cart table data
 
 		//Test1.run(neo4jServer,userName,pwd,caseDetailQuery,output,caseDetailTabName) // added for case detail page's table
 	}

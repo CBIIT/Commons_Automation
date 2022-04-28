@@ -558,7 +558,7 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 			System.out.println ("This is the value of TRIALS switch string returned by getcurrentpage function: "+switchTrials)
 			nxtBtn =  driver.findElement(By.xpath(givexpath('Object Repository/Trials/Cases_page/Trials_CasesTabNextBtn')));
 			columns_count = (colHeader.size())-1
-			for(int c=0;c<columns_count;c++){  //comment this after case detail troubleshoot  //single case
+			for(int c=1;c<=columns_count;c++){  //comment this after case detail troubleshoot  //single case
 				hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
 			}
 		}else if(((driver.getCurrentUrl()).contains("bento-tools.org"))&&((driver.getCurrentUrl()).contains("/explore"))){
@@ -572,9 +572,9 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 				if((colHeader.get(c).getAttribute("innerText"))!="Access"){    //if column header = 'Access' ignore adding it to the hdrdata string
 					System.out.println ("This is the value of col header index : "+c)
 					//hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
-			
-				hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
-				System.out.println ("This is the value of header data from the else condition: "+hdrdata)
+
+					hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
+					System.out.println ("This is the value of header data from the else condition: "+hdrdata)
 				}
 			}
 		}else if(((driver.getCurrentUrl()).contains("bento-tools.org"))&&((driver.getCurrentUrl()).contains("/case/"))){
@@ -615,7 +615,9 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 			System.out.println("Header data of the table is :" + wTableHdrData.get(index))
 		}
 		System.out.println("Val of statistics before while loop: "+statValue);
-		//-----------------------------------COLLECTING THE TABLE BODY DATA--------------------------------------------------------------------------------------
+
+		//###################################################################################################################################################
+		//-----------------------------------COLLECTING THE  BODY DATA--------------------------------------------------------------------------------------
 
 		if (statValue !=0) {
 			while(true)
@@ -623,7 +625,7 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 				wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(GlobalVariable.G_cannine_caseTblBdy)));   //the name is misleading but it is only a placeholder for all the applications
 				scrolltoViewjs(driver.findElement(By.xpath(GlobalVariable.G_cannine_caseTblBdy)))
 				TableBdy =driver.findElement(By.xpath(GlobalVariable.G_cannine_caseTblBdy))
-				//clickElement(driver.findElement(By.xpath(TableBdy)));
+				//clickElement(driver.findElement(By.xpath(TaTABLEbleBdy)));
 				System.out.println("finding the num of rows in the result page")
 
 				Thread.sleep(5000)
@@ -746,20 +748,22 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 								break;
 							case("/cases"):  //should be cases next btn ********** // trialcommons- all cases
 								int tblcol=GlobalVariable.G_rowcount_Katalon;
-								System.out.println("This is the value of the variable tblcol : "+tblcol);
-								if((tbl_main).equals('//*[@id="file_tab_table"]')){
-									tblcol=tblcol-2
-									System.out.println("This is the count of tblcol in Bento:"+tblcol)
-								}
+								System.out.println("This is the value of the variable tblcol : "+tblcol); //8 cols in cases tab
 								if((statValue)==0){
 									System.out.println("inside the if loop for statvalue equal to 0 : already collected the header data")
 								}else{
-									System.out.println("This is the count of tblcol inside Trials :"+tblcol)
-									for (int j = 2; j < tblcol; j = j + 1) {
+									System.out.println("This is the count of tblcol inside Trials :"+tblcol)   // 8 cols
+									data = ""
+									for (int j = 2; j <= tblcol+1; j = j + 1) {   //j is 1 to 8
 										System.out.println("Value of i is: "+i)
 										System.out.println("Value of j is: "+j)
-										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + j + "]")).getAttribute("innerText")) +"||")
-										System.out.println("This is the value of data :"+data)
+										System.out.println('This is the value of data before appending i and j : '+ data)
+										//System.out.println ("This is the value of tblbdy : "+tbl_bdy)
+										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + j + "]/div[2]")).getAttribute("innerText")) +"||")
+										 
+										//data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + j + "]")).getAttribute("innerText")) +"||")
+										//   /tr[1]/*[2]
+										System.out.println("This is the value of data : "+data)
 									}
 								}
 								break;
@@ -797,16 +801,16 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 									System.out.println("Value of i is: "+i)
 									System.out.println("Value of j is: "+j)
 									if((colHeader.get(j).getAttribute("innerText"))!="Access") {     //********************************************************** for removing the data from Access column
-										 System.out.println("This is the name of column header  :"+colHeader.get(j).getAttribute("innerText"))
+										System.out.println("This is the name of column header  :"+colHeader.get(j).getAttribute("innerText"))
 										// data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/*[2]")).getAttribute("innerText")) +"||")
 										//data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + j + "]/*[2]")).getAttribute("innerText")) +"||")
 										//System.out.println("This is the value of data :"+data)
-									
-									System.out.println("This is the value of data before calculating the index for innertext of the td: "+data)
-									data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/*[2]")).getAttribute("innerText")) +"||")
-									//data = data+((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + j + "]")).getAttribute("innerText")) +"||")
-									System.out.println("This is the value of data : "+data)
-									 }
+
+										System.out.println("This is the value of data before calculating the index for innertext of the td: "+data)
+										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/*[2]")).getAttribute("innerText")) +"||")
+										//data = data+((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + j + "]")).getAttribute("innerText")) +"||")
+										System.out.println("This is the value of data : "+data)
+									}
 								}
 								break;
 							case("/fileCentricCart"):
@@ -1224,7 +1228,7 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 		List<List<XSSFCell>> neo4jData = new ArrayList<>()
 		String UIfilename =  GlobalVariable.G_WebExcel.toString()   //UIfilepath.toString()
 		System.out.println("This is the full uifilepath after converting to string :"+UIfilename);
-		//UIData = ReadExcel.readExceltoWeblist(UIfilename,GlobalVariable.G_WebTabnameCasesCasesCases)  //change the function name Test in parent class and here
+		//UIData = ReadExcel.readExceltoWeblist(UIfilename,GlobalVariable.G_WebTabnameCasesCasesCasesCases)  //change the function name Test in parent class and here
 		UIData = ReadExcel.readExceltoWeblist(UIfilename,webSheetName)
 
 
@@ -1235,7 +1239,7 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 
 		String neo4jfilename=  GlobalVariable.G_ResultPath.toString()
 		System.out.println("This is the full neo4j filepath after converting to string :"+neo4jfilename);
-		//neo4jData = ReadExcel.readExceltoWeblist(neo4jfilename,GlobalVariable.G_CypherTabnameCasesCasesCases)  //change the function name Test in parent class and here
+		//neo4jData = ReadExcel.readExceltoWeblist(neo4jfilename,GlobalVariable.G_CypherTabnameCasesCasesCasesCases)  //change the function name Test in parent class and here
 		neo4jData = ReadExcel.readExceltoWeblist(neo4jfilename,neoSheetName)
 
 		System.out.println ("This is the row size of the Neo4jdata : "+ neo4jData.size());
@@ -1270,7 +1274,7 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 		GlobalVariable.G_xlsxFilename = xlsxfilename.toString()
 		//System.out.println("This is the file name of xlsx manifest: "+manifestFileName);
 		//		System.out.println("This is the full neo4j filepath after converting to string :"+manifestFileName);
-		//neo4jData = ReadExcel.readExceltoWeblist(neo4jfilename,GlobalVariable.G_CypherTabnameCasesCasesCases)  //change the function name Test in parent class and here
+		//neo4jData = ReadExcel.readExceltoWeblist(neo4jfilename,GlobalVariable.G_CypherTabnameCasesCasesCasesCases)  //change the function name Test in parent class and here
 		manifestData = ReadExcel.readExceltoWeblist(GlobalVariable.G_xlsxFilename, manifestSheetName)
 
 		System.out.println ("This is the row size of the Neo4jdata : "+ manifestData.size());
