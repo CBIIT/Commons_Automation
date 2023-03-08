@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Programs_table_NxtButton</name>
+   <tag></tag>
+   <elementGuidId>a11e4867-cd74-407f-9216-6fa8fb84a276</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;table_programs&quot;]/div/div/div/table/tfoot/tr/td/div/div[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;table_programs&quot;]/div/div/div/table/tfoot/tr/td/div/div[3]</value>
+      <webElementGuid>6080c21b-80d8-4f01-bb65-da454299a913</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

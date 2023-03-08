@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Programs_table</name>
+   <tag></tag>
+   <elementGuidId>a98a3986-ef8d-4168-9d42-a77844fcccbb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id=&quot;table_programs&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@id=&quot;table_programs&quot;]</value>
+      <webElementGuid>27653b1c-a2f7-4dc2-8a5c-b81a9d94611b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
