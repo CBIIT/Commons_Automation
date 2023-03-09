@@ -17,12 +17,6 @@ import org.apache.poi.ss.usermodel.Cell
 
 import org.openqa.selenium.WebElement
 
-import com.kms.katalon.core.testobject.TestObject
-
-import com.applitools.eyes.selenium.Eyes
-
-import com.applitools.eyes.RectangleSize
-
 
 
 def static "ctdc.utilities.ExtraFunctions.compareLists_1D"() {
@@ -651,6 +645,62 @@ def static "ctdc.utilities.FileOperations.deleteFiles"() {
     (new ctdc.utilities.FileOperations()).deleteFiles()
 }
 
+ /**
+	 * This function reads the results table and writes the web and database data to excel
+	 * This function also verifies the stat-bar counts and compares the web and database excels
+	 * @param appName
+	 * @param statVal
+	 * @param tbl
+	 * @param tblHdr
+	 * @param nxtBtn
+	 * @param webdataSheetName
+	 * @param dbdataSheetName
+	 * @param tabQuery
+	 * @throws IOException
+	 */ 
+def static "ctdc.utilities.functions.multiFunction"(
+    	String appName	
+     , 	String statVal	
+     , 	String tbl	
+     , 	String tblHdr	
+     , 	String nxtBtn	
+     , 	String webdataSheetName	
+     , 	String dbdataSheetName	
+     , 	String tabQuery	) {
+    (new ctdc.utilities.functions()).multiFunction(
+        	appName
+         , 	statVal
+         , 	tbl
+         , 	tblHdr
+         , 	nxtBtn
+         , 	webdataSheetName
+         , 	dbdataSheetName
+         , 	tabQuery)
+}
+
+ /**
+	 * This function reads cases table
+	 * @param statVal1
+	 * @param tbl1
+	 * @param hdr1
+	 * @param nxtb1
+	 * @param webSheetName
+	 * @throws IOException
+	 */ 
+def static "ctdc.utilities.functions.ReadCasesTableKatalon"(
+    	String statVal1	
+     , 	String tbl1	
+     , 	String hdr1	
+     , 	String nxtb1	
+     , 	String webSheetName	) {
+    (new ctdc.utilities.functions()).ReadCasesTableKatalon(
+        	statVal1
+         , 	tbl1
+         , 	hdr1
+         , 	nxtb1
+         , 	webSheetName)
+}
+
 
 def static "ctdc.utilities.CustomBrowserDriver.createWebDriver"() {
     (new ctdc.utilities.CustomBrowserDriver()).createWebDriver()
@@ -693,61 +743,4 @@ def static "ctdc.utilities.sandbox.clicking"() {
 
 def static "ctdc.utilities.sandbox.tablesize"() {
     (new ctdc.utilities.sandbox()).tablesize()
-}
-
-
-def static "com.kms.katalon.keyword.applitools.BasicKeywords.checkTestObject"(
-    	TestObject testObject	
-     , 	String testName	) {
-    (new com.kms.katalon.keyword.applitools.BasicKeywords()).checkTestObject(
-        	testObject
-         , 	testName)
-}
-
-
-def static "com.kms.katalon.keyword.applitools.BasicKeywords.checkElement"(
-    	Eyes eyes	
-     , 	WebElement element	) {
-    (new com.kms.katalon.keyword.applitools.BasicKeywords()).checkElement(
-        	eyes
-         , 	element)
-}
-
-
-def static "com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow"(
-    	String testName	) {
-    (new com.kms.katalon.keyword.applitools.BasicKeywords()).checkWindow(
-        	testName)
-}
-
-
-def static "com.kms.katalon.keyword.applitools.EyesKeywords.eyesOpen"(
-    	String testName	
-     , 	RectangleSize viewportSize	) {
-    (new com.kms.katalon.keyword.applitools.EyesKeywords()).eyesOpen(
-        	testName
-         , 	viewportSize)
-}
-
-
-def static "com.kms.katalon.keyword.applitools.EyesKeywords.eyesClose"(
-    	Eyes eyes	) {
-    (new com.kms.katalon.keyword.applitools.EyesKeywords()).eyesClose(
-        	eyes)
-}
-
-
-def static "com.kms.katalon.keyword.applitools.EyesKeywords.eyesInit"() {
-    (new com.kms.katalon.keyword.applitools.EyesKeywords()).eyesInit()
-}
-
-
-def static "com.kms.katalon.keyword.applitools.EyesKeywords.eyesOpenWithBaseline"(
-    	String baselineName	
-     , 	String testName	
-     , 	RectangleSize viewportSize	) {
-    (new com.kms.katalon.keyword.applitools.EyesKeywords()).eyesOpenWithBaseline(
-        	baselineName
-         , 	testName
-         , 	viewportSize)
 }
