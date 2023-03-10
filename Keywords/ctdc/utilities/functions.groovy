@@ -119,6 +119,7 @@ class functions extends runtestcaseforKatalon implements Comparator<List<XSSFCel
 		//Add app name below
 		String switchCanine
 		String switchString
+		String switchBento
 		WebElement nextButton
 		WebElement nxtBtn
 		WebElement resultTab
@@ -195,6 +196,59 @@ class functions extends runtestcaseforKatalon implements Comparator<List<XSSFCel
 		System.out.println("Val of statistics before while loop: "+statValue);
 
 
+		//Bento table header
+		if(((driver.getCurrentUrl()).contains("bento-tools.org"))&&((driver.getCurrentUrl()).contains("/explore"))){
+			switchBento = getPageSwitch();
+			switchString = "Bento";
+			System.out.println ("This is the value of Bento switch string-Case returned by getcurrentpage function: "+switchBento) //this is for bento cases page
+			columns_count = (colHeader.size())-1
+			hdrdata = ""
+			for(int c=1;c<=columns_count;c++){
+				if((colHeader.get(c).getAttribute("innerText"))!="Access"){    //if column header = 'Access' ignore adding it to the hdrdata string
+					System.out.println ("This is the value of col header index: "+c)
+					hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
+					System.out.println ("This is the value of header data from the else condition: "+hdrdata)
+				}
+			}
+		}else if(((driver.getCurrentUrl()).contains("bento-tools.org"))&&((driver.getCurrentUrl()).contains("/programs/"))){
+			switchBento = getPageSwitch();
+			switchString = "Bento";
+			System.out.println ("This is the value of Bento switch string-Cases returned by getcurrentpage function: "+switchBento)
+
+			columns_count = (colHeader.size())
+			for(int c=1;c<=columns_count;c++){  //comment this after case detail troubleshoot  //single case
+				hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
+			}
+		}
+		else if (((driver.getCurrentUrl()).contains("bento-tools.org"))&&((driver.getCurrentUrl()).contains("/fileCentricCart"))){
+			switchBento = getPageSwitch();
+			switchString = "Bento";
+			System.out.println ("This is the value of BENTO switch string returned by getcurrentpage function: "+switchBento)
+			nxtBtn =  driver.findElement(By.xpath(givexpath(nxtb1)));
+			System.out.println("This is the value of next button from Bento mycart switch: "+nxtBtn)
+			if(statValue==0){
+				System.out.println ("No files in the cart")
+			}else{
+				columns_count = (colHeader.size())-1
+				for(int c=0;c<columns_count;c++){
+					hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
+				} // for loop ends
+			}// else for stat val ends   prevents writing header to xl when data is empty so xl comparison goes through fine.
+		}
+
+	//	wTableHdrData.add(hdrdata);
+
+		System.out.println("No.of columns in the current result tab is : "+columns_count)
+		System.out.println("Complete list of column headers in current result tab is : "+wTableHdrData)
+
+		for(int index = 0; index < wTableHdrData.size(); index++) {
+			System.out.println("Header data of the table is :" + wTableHdrData.get(index))
+		}
+		System.out.println("Val of statistics before while loop: "+statValue);
+
+
+
+
 		//*********** COLLECTING THE TABLE BODY DATA ***********
 		int counter=1;
 		if (statValue !=0) {
@@ -251,6 +305,63 @@ class functions extends runtestcaseforKatalon implements Comparator<List<XSSFCel
 						} //Canine switch ends here
 					}//Canine if ends here
 
+
+					//@@@@@@@@@@@@@@@@ Bento table data collection starts here  @@@@@@@@@@@@@@@
+					if(switchString == "Bento"){
+						//	data = ""
+						System.out.println("inside Bento switch structure");
+						switch(switchBento){
+							case("/programs/"):
+								System.out.println("Inside Bento switch for single case")
+								data = ""
+								int tblcol=GlobalVariable.G_rowcountFiles
+								System.out.println ("This is the value of columns_count variable : "+columns_count) // 6 for files table in case detail page
+								System.out.println ("This is the value of tblcol variable : "+tblcol)  //8
+								for (int j = 2; j < tblcol; j = j + 1) {
+									System.out.println("Value of i is: "+i)
+									System.out.println("Value of j is: "+j)
+
+									data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + j + "]")).getAttribute("innerText")) +"||")
+									System.out.println("This is the value of data :"+data)
+								}
+								break;
+							//							case("/explore"):
+							//								System.out.println("Inside Bento switch for all cases")
+							//								int tblcol=GlobalVariable.G_rowcount_Katalon;
+							//								data = ""
+							//								System.out.println("This is the value of data before calculating the innertext of the td: "+data)
+							//								System.out.println ("This is the value of columns_count variable : "+columns_count) // 6 for files table in case detail page
+							//								System.out.println ("This is the value of tblcol variable : "+tblcol)
+							//								for (int j = 1; j <columns_count+1; j = j + 1) {
+							//									System.out.println("Value of i is: "+i)
+							//									System.out.println("Value of j is: "+j)
+							//									if((colHeader.get(j).getAttribute("innerText"))!="Access") {
+							//										System.out.println("This is the name of column header  :"+colHeader.get(j).getAttribute("innerText"))
+							//										System.out.println("This is the value of data before calculating the index for innertext of the td: "+data)
+							//										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/*[2]")).getAttribute("innerText")) +"||")
+							//										System.out.println("This is the value of data : "+data)
+							//									}
+							//								}
+							//								break;
+							//							case("/fileCentricCart"):
+							//								int tblcol=GlobalVariable.G_rowcount_Katalon;
+							//								for (int j = 1; j < columns_count+tblcol; j = j + 1) {
+							//									System.out.println("Value of i is: "+i)
+							//									System.out.println("Value of j is: "+j)
+							//									data = data+((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + j + "]")).getAttribute("innerText")) +"||")
+							//									System.out.println("This is the value of data : "+data)
+							//								}
+							//								break;
+							default:
+								System.out.println("Bento Case switch did not match")
+								break;
+						}
+					}
+					//					System.out.println("===================  Verification of the data: ===================== "+ data)
+					//
+					//					wTableBodyData.add(data)
+
+
 					System.out.println("===================  Verification of the data: ===================== \n"+ data)
 					wTableBodyData.add(data)
 				}//for loop ends
@@ -261,6 +372,10 @@ class functions extends runtestcaseforKatalon implements Comparator<List<XSSFCel
 					System.out.println("Table body data from current page is: " + wTableBodyData.get(index))
 				}
 				GlobalVariable.G_CaseData= wTableHdrData + wTableBodyData;
+
+
+
+
 
 				//********************* CLICKING THE NEXT BUTTON IN RESULTS FOR NEXT PAGE *********************
 				scrolltoViewjs(nextButton)

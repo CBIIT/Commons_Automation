@@ -35,7 +35,7 @@ WebUI.closeBrowser()
 
  
 'This step takes the Query from input excel and fetches data from Neo4j database. \r\nSaves the results from neo4j and application in the same name mentioned in the input excel. '
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC20_Canine_StudyMGT-SampleSite_SamType_SamplePath.xlsx')   //changed for MGT
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC29_Canine_StudyMGT-SamType_SamplePath_FileType.xlsx')   //changed for MGT
 
 'Clicks on the Cases button in the Navbar of ICDC\'s homepage.'
 WebUI.waitForElementPresent(findTestObject('Canine/NavBar/Canine_Cases_Btn'), 20)
@@ -59,12 +59,6 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/Stud
 WebUI.verifyElementPresent(findTestObject('Object Repository/Canine/Filter/Study/Canine_Filter_Study-MGT01_Chkbx'), 5)  //changed for MGT
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Filter/Study/Canine_Filter_Study-MGT01_Chkbx') //changed for MGT
  
-'Clicks on the Filter \'Sample Site\' from left pane'
-WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/SampleSite/SAMPLE_SITE_Ddn'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/Canine/Filter/SampleSite/SAMPLE_SITE_Ddn')
-
-'Selects the specific check box from \'Sample Site\' filter.'
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Canine/Filter/SampleSite/MammaryGland_Chkbx')
 WebUI.delay(3)
 
 'Clicks on the Filter \'Sample Type\' from left pane'
@@ -74,7 +68,6 @@ CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object
 'Selects the specific check box from \'Sample Type\' filter.'
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Canine/Filter/SampleType/NormalTissue_Chkbx')
 
-
 'Clicks on the Filter \'Sample Pathology\' from left pane'
 WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/SamplePathology/SAMPLEPATHOLOGY_Ddn'), 5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/Canine/Filter/SamplePathology/SAMPLEPATHOLOGY_Ddn')
@@ -82,7 +75,13 @@ CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object
 'Selects the specific check box from \'Sample Pathology\' filter.'
 WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/SamplePathology/SampPath_NotApplicable_Chkbx'), 5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/Canine/Filter/SamplePathology/SampPath_NotApplicable_Chkbx')
+WebUI.delay(3)
+'Clicks on the Filter \'File type\' from left pane'
+WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/FileType/FILETYPE_Ddn'), 5)
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/Canine/Filter/FileType/FILETYPE_Ddn')
 
+'Selects the specific check box from \'File type\' filter.'
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Canine/Filter/FileType/RNASeqFile_Chkbx')
 
 
 //Reading statbar 

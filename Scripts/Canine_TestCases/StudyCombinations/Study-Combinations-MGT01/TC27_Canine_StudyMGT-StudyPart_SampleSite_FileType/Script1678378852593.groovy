@@ -33,9 +33,9 @@ WebUI.closeBrowser()
 
 'Driver opened by Katalon is used in Selenium from this step.'
 
- 
+ //StudyMGT-StudyPart_SampleSite_FileType
 'This step takes the Query from input excel and fetches data from Neo4j database. \r\nSaves the results from neo4j and application in the same name mentioned in the input excel. '
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC20_Canine_StudyMGT-SampleSite_SamType_SamplePath.xlsx')   //changed for MGT
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC27_Canine_StudyMGT-StudyPart_SampleSite_FileType.xlsx')   //changed for MGT
 
 'Clicks on the Cases button in the Navbar of ICDC\'s homepage.'
 WebUI.waitForElementPresent(findTestObject('Canine/NavBar/Canine_Cases_Btn'), 20)
@@ -44,9 +44,6 @@ System.out.println ("Closed the popup window");
 WebUI.waitForElementPresent(findTestObject('Canine/NavBar/Canine_Cases_Btn'), 20)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Canine/NavBar/Canine_Cases_Btn')
 
-//WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/FilterByCases_Facet'), 20)
-//WebUI.verifyElementPresent(findTestObject('Object Repository/Canine/Filter/FilterByCases_Facet'), 5)
-//CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Filter/FilterByCases_Facet')
 
 'Clicks on the Filter \'Study\' from left pane'
 WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/Study/Canine_Filter_Study'), 30)
@@ -58,6 +55,19 @@ CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repositor
 WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/Study/Canine_Filter_Study-MGT01_Chkbx'), 30)  //changed for MGT
 WebUI.verifyElementPresent(findTestObject('Object Repository/Canine/Filter/Study/Canine_Filter_Study-MGT01_Chkbx'), 5)  //changed for MGT
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Filter/Study/Canine_Filter_Study-MGT01_Chkbx') //changed for MGT
+
+'Clicks on the Filter \'Study Participation\' from left pane'
+WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/StudyParticipation/StudyParticipation_Ddn'), 30)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Canine/Filter/StudyParticipation/StudyParticipation_Ddn'), 5)
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/Canine/Filter/StudyParticipation/StudyParticipation_Ddn')
+
+'Selects the specific check box from \'Study Participation\' filter.'
+WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/StudyParticipation/SingleStudy_Chkbx'), 30)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Canine/Filter/StudyParticipation/SingleStudy_Chkbx'), 5)
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/Canine/Filter/StudyParticipation/SingleStudy_Chkbx')
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Filter/StudyParticipation/StudyParticipation_Ddn')
+
+WebUI.delay(3)
  
 'Clicks on the Filter \'Sample Site\' from left pane'
 WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/SampleSite/SAMPLE_SITE_Ddn'), 5)
@@ -67,21 +77,12 @@ CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Canine/Filter/SampleSite/MammaryGland_Chkbx')
 WebUI.delay(3)
 
-'Clicks on the Filter \'Sample Type\' from left pane'
-WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/SampleType/SAMPLETYPE_Ddn'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/Canine/Filter/SampleType/SAMPLETYPE_Ddn')
+'Clicks on the Filter \'File type\' from left pane'
+WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/FileType/FILETYPE_Ddn'), 5)
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/Canine/Filter/FileType/FILETYPE_Ddn')
 
-'Selects the specific check box from \'Sample Type\' filter.'
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Canine/Filter/SampleType/NormalTissue_Chkbx')
-
-
-'Clicks on the Filter \'Sample Pathology\' from left pane'
-WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/SamplePathology/SAMPLEPATHOLOGY_Ddn'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/Canine/Filter/SamplePathology/SAMPLEPATHOLOGY_Ddn')
-
-'Selects the specific check box from \'Sample Pathology\' filter.'
-WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/SamplePathology/SampPath_NotApplicable_Chkbx'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/Canine/Filter/SamplePathology/SampPath_NotApplicable_Chkbx')
+'Selects the specific check box from \'File type\' filter.'
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Canine/Filter/FileType/IndexFile_Chkbx')
 
 
 
@@ -100,11 +101,11 @@ CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.multiFunction'('ICDC', Glob
 
 
 //clicking the Samples tab
-WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/CanineResults_Samples_Tab'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/CanineResults_Samples_Tab')
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.multiFunction'('ICDC', GlobalVariable.G_StatBar_Samples, 'Object Repository/Canine/Canine_Samples_Table',
-	'Object Repository/Canine/Canine_Samples_TableHdr', 'Object Repository/Canine/Canine_SamplesTabNextBtn', GlobalVariable.G_WebTabnameSamples,
-	GlobalVariable.G_CypherTabnameSamples, GlobalVariable.G_QuerySamplesTab)
+//WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/CanineResults_Samples_Tab'), 5)
+//CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/CanineResults_Samples_Tab')
+//CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.multiFunction'('ICDC', GlobalVariable.G_StatBar_Samples, 'Object Repository/Canine/Canine_Samples_Table',
+//	'Object Repository/Canine/Canine_Samples_TableHdr', 'Object Repository/Canine/Canine_SamplesTabNextBtn', GlobalVariable.G_WebTabnameSamples,
+//	GlobalVariable.G_CypherTabnameSamples, GlobalVariable.G_QuerySamplesTab)
  
 ////clicking the Case Files tab
 WebUI.waitForElementPresent(findTestObject('Canine/CanineResults_CaseFiles_Tab'), 5)
