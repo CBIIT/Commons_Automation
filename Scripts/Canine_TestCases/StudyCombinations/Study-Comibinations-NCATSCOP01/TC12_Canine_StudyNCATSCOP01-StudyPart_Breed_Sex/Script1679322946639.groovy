@@ -33,10 +33,10 @@ WebUI.closeBrowser()
 
 'Driver opened by Katalon is used in Selenium from this step.'
 
-////Study NCATSCOP01 - Breed in (Beagle,Boxer) and Primary Diseasesite in (LymphNode)
+////Study NCATSCOP01 - StudyPart_Breed_Sex
  
 'This step takes the Query from input excel and fetches data from Neo4j database. \r\nSaves the results from neo4j and application in the same name mentioned in the input excel. '
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC01_Canine_StudyNCATSCOP01-Breed_PrimDiseaseSite.xlsx')   //changed for NCATS
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC12_Canine_StudyNCATSCOP01-StudyPart_Breed_Sex.xlsx')   //changed for NCATS
 
 'Clicks on the "Continue" button in ICDC\'s homepage.'
 
@@ -61,32 +61,32 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Canine/Filter/Study
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Filter/Study/Canine_Filter_Study-NCATS_Chkbx') //changed for NCATS
  
  
+'Selects the specific check box from \'StudyParticipation\' filter.'
+
+WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/StudyParticipation/StudyParticipation_Ddn'), 5)
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/Canine/Filter/StudyParticipation/StudyParticipation_Ddn')
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Canine/Filter/StudyParticipation/MultiStudy_Chkbx')
+ 
+
+WebUI.delay(3)
+'Clicks on the Filter \'Breed\' from left pane'
 WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/Breed/BREED_Ddn'), 30)
 WebUI.verifyElementPresent(findTestObject('Object Repository/Canine/Filter/Breed/BREED_Ddn'), 5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/Canine/Filter/Breed/BREED_Ddn')
 
-Thread.sleep(2000);
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/Breed/Beagle_Chkbx'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Canine/Filter/Breed/Beagle_Chkbx'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/Canine/Filter/Breed/Beagle_Chkbx')
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/Breed/Boxer_Chkbx'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Canine/Filter/Breed/Boxer_Chkbx'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/Canine/Filter/Breed/Boxer_Chkbx')
+'Selects the specific check box from \'Breed\' filter.'
+WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/Breed/GermanShphd_Chkbx'), 30)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Canine/Filter/Breed/GermanShphd_Chkbx'), 5)
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/Canine/Filter/Breed/GermanShphd_Chkbx')
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Filter/Breed/BREED_Ddn')
- 
-Thread.sleep(2000);
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/PrimDiseaseSite/PRIMARYDISEASESITE_Ddn'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Canine/Filter/PrimDiseaseSite/PRIMARYDISEASESITE_Ddn'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/Canine/Filter/PrimDiseaseSite/PRIMARYDISEASESITE_Ddn')
-WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/PrimDiseaseSite/LymphNode_Chkbx'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Canine/Filter/PrimDiseaseSite/LymphNode_Chkbx'), 5)
-WebUI.waitForElementClickable(findTestObject('Object Repository/Canine/Filter/PrimDiseaseSite/LymphNode_Chkbx'), 30)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/Canine/Filter/PrimDiseaseSite/LymphNode_Chkbx')
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Filter/PrimDiseaseSite/PRIMARYDISEASESITE_Ddn')
 
+'Clicks on the Filter \'Sex\' from left pane'
+WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/Sex/SEX_Ddn'), 5)
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/Canine/Filter/Sex/SEX_Ddn')
+
+'Selects the specific check box from \'Sex\' filter.'
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Canine/Filter/Sex/Female_Chkbx')
  
 //Reading statbar 
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.readStatBarCanine'('Object Repository/Canine/StatBar/Canine_StatBar-Programs','Object Repository/Canine/StatBar/Canine_StatBar-Studies',
@@ -95,11 +95,11 @@ CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.readStatBarCanine'('Object 
 
 
 ////clicking the Cases tab
-WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/CanineResults_Cases_Tab'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/CanineResults_Cases_Tab')
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.multiFunction'('ICDC', GlobalVariable.G_StatBar_Cases, 'Object Repository/Canine/Canine_CasesTable',
-	'Object Repository/Canine/Canine_TableHeader', 'Object Repository/Canine/Canine_CasesTabNextBtn', GlobalVariable.G_WebTabnameCases,
-	GlobalVariable.G_CypherTabnameCases, GlobalVariable.G_QueryCasesTab)
+//WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/CanineResults_Cases_Tab'), 5)
+//CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/CanineResults_Cases_Tab')
+//CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.multiFunction'('ICDC', GlobalVariable.G_StatBar_Cases, 'Object Repository/Canine/Canine_CasesTable',
+//	'Object Repository/Canine/Canine_TableHeader', 'Object Repository/Canine/Canine_CasesTabNextBtn', GlobalVariable.G_WebTabnameCases,
+//	GlobalVariable.G_CypherTabnameCases, GlobalVariable.G_QueryCasesTab)
 
 
 //clicking the Samples tab

@@ -651,7 +651,19 @@ def static "ctdc.utilities.FileOperations.deleteFiles"() {
     (new ctdc.utilities.FileOperations()).deleteFiles()
 }
 
-
+ /**
+	 * This function reads the results table and writes the web and database data to excel
+	 * This function also verifies the stat-bar counts and compares the web and database excels
+	 * @param appName
+	 * @param statVal
+	 * @param tbl
+	 * @param tblHdr
+	 * @param nxtBtn
+	 * @param webdataSheetName
+	 * @param dbdataSheetName
+	 * @param tabQuery
+	 * @throws IOException
+	 */ 
 def static "ctdc.utilities.functions.multiFunction"(
     	String appName	
      , 	String statVal	
@@ -672,7 +684,15 @@ def static "ctdc.utilities.functions.multiFunction"(
          , 	tabQuery)
 }
 
-
+ /**
+	 * This function reads cases table
+	 * @param statVal1
+	 * @param tbl1
+	 * @param hdr1
+	 * @param nxtb1
+	 * @param webSheetName
+	 * @throws IOException
+	 */ 
 def static "ctdc.utilities.functions.ReadTabKatalon"(
     	String statVal1	
      , 	String tbl1	
@@ -741,13 +761,6 @@ def static "com.kms.katalon.keyword.applitools.BasicKeywords.checkElement"(
 }
 
 
-def static "com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow"(
-    	String testName	) {
-    (new com.kms.katalon.keyword.applitools.BasicKeywords()).checkWindow(
-        	testName)
-}
-
-
 def static "com.kms.katalon.keyword.applitools.BasicKeywords.checkTestObject"(
     	TestObject testObject	
      , 	String testName	) {
@@ -757,14 +770,10 @@ def static "com.kms.katalon.keyword.applitools.BasicKeywords.checkTestObject"(
 }
 
 
-def static "com.kms.katalon.keyword.applitools.EyesKeywords.eyesOpenWithBaseline"(
-    	String baselineName	
-     , 	String testName	
-     , 	RectangleSize viewportSize	) {
-    (new com.kms.katalon.keyword.applitools.EyesKeywords()).eyesOpenWithBaseline(
-        	baselineName
-         , 	testName
-         , 	viewportSize)
+def static "com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow"(
+    	String testName	) {
+    (new com.kms.katalon.keyword.applitools.BasicKeywords()).checkWindow(
+        	testName)
 }
 
 
@@ -777,13 +786,24 @@ def static "com.kms.katalon.keyword.applitools.EyesKeywords.eyesOpen"(
 }
 
 
+def static "com.kms.katalon.keyword.applitools.EyesKeywords.eyesClose"(
+    	Eyes eyes	) {
+    (new com.kms.katalon.keyword.applitools.EyesKeywords()).eyesClose(
+        	eyes)
+}
+
+
 def static "com.kms.katalon.keyword.applitools.EyesKeywords.eyesInit"() {
     (new com.kms.katalon.keyword.applitools.EyesKeywords()).eyesInit()
 }
 
 
-def static "com.kms.katalon.keyword.applitools.EyesKeywords.eyesClose"(
-    	Eyes eyes	) {
-    (new com.kms.katalon.keyword.applitools.EyesKeywords()).eyesClose(
-        	eyes)
+def static "com.kms.katalon.keyword.applitools.EyesKeywords.eyesOpenWithBaseline"(
+    	String baselineName	
+     , 	String testName	
+     , 	RectangleSize viewportSize	) {
+    (new com.kms.katalon.keyword.applitools.EyesKeywords()).eyesOpenWithBaseline(
+        	baselineName
+         , 	testName
+         , 	viewportSize)
 }

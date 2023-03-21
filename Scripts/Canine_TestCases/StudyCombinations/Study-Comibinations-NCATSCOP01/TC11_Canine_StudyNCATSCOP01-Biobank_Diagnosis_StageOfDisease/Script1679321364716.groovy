@@ -33,10 +33,10 @@ WebUI.closeBrowser()
 
 'Driver opened by Katalon is used in Selenium from this step.'
 
-////Study NCATSCOP01 - Breed in (Beagle,Boxer) and Primary Diseasesite in (LymphNode)
+////Study NCATSCOP01 - -Biobank_Diagnosis_StageOfDisease
  
 'This step takes the Query from input excel and fetches data from Neo4j database. \r\nSaves the results from neo4j and application in the same name mentioned in the input excel. '
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC01_Canine_StudyNCATSCOP01-Breed_PrimDiseaseSite.xlsx')   //changed for NCATS
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC11_Canine_StudyNCATSCOP01-Biobank_Diagnosis_StageOfDisease.xlsx')   //changed for NCATS
 
 'Clicks on the "Continue" button in ICDC\'s homepage.'
 
@@ -59,35 +59,40 @@ CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repositor
 WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/Study/Canine_Filter_Study-NCATS_Chkbx'), 30)  //changed for NCATS
 WebUI.verifyElementPresent(findTestObject('Object Repository/Canine/Filter/Study/Canine_Filter_Study-NCATS_Chkbx'), 5)  //changed for NCATS
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Filter/Study/Canine_Filter_Study-NCATS_Chkbx') //changed for NCATS
+
+WebUI.delay(3)
+
+'Clicks on the Filter \'Biobank\' from left pane'
+WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/Biobank/Biobank_Ddn'), 30)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Canine/Filter/Biobank/Biobank_Ddn'), 5)
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Filter/Biobank/Biobank_Ddn')
  
- 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/Breed/BREED_Ddn'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Canine/Filter/Breed/BREED_Ddn'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/Canine/Filter/Breed/BREED_Ddn')
+'Selects the specific check box from \'Biobank\' filter.'
+WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/Biobank/CCOGC_Chkbx'), 30)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Canine/Filter/Biobank/CCOGC_Chkbx'), 5)
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Filter/Biobank/CCOGC_Chkbx')
 
-Thread.sleep(2000);
+WebUI.delay(3)
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/Breed/Beagle_Chkbx'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Canine/Filter/Breed/Beagle_Chkbx'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/Canine/Filter/Breed/Beagle_Chkbx')
+'Selects the specific check box from \'Diagnosis\' filter.'
+WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/Diagnosis/DIAGNOSIS_Ddn'), 30)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Canine/Filter/Diagnosis/DIAGNOSIS_Ddn'), 5)
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/Canine/Filter/Diagnosis/DIAGNOSIS_Ddn')
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/Breed/Boxer_Chkbx'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Canine/Filter/Breed/Boxer_Chkbx'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/Canine/Filter/Breed/Boxer_Chkbx')
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Filter/Breed/BREED_Ddn')
- 
-Thread.sleep(2000);
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/PrimDiseaseSite/PRIMARYDISEASESITE_Ddn'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Canine/Filter/PrimDiseaseSite/PRIMARYDISEASESITE_Ddn'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/Canine/Filter/PrimDiseaseSite/PRIMARYDISEASESITE_Ddn')
-WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/PrimDiseaseSite/LymphNode_Chkbx'), 30)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Canine/Filter/PrimDiseaseSite/LymphNode_Chkbx'), 5)
-WebUI.waitForElementClickable(findTestObject('Object Repository/Canine/Filter/PrimDiseaseSite/LymphNode_Chkbx'), 30)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/Canine/Filter/PrimDiseaseSite/LymphNode_Chkbx')
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Filter/PrimDiseaseSite/PRIMARYDISEASESITE_Ddn')
+WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/Diagnosis/BCellLymphoma_Chkbx'), 30)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Canine/Filter/Diagnosis/BCellLymphoma_Chkbx'), 5)
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/Canine/Filter/Diagnosis/BCellLymphoma_Chkbx')
 
- 
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Filter/Diagnosis/DIAGNOSIS_Ddn')
+WebUI.delay(3)
+'Clicks on the Filter \'StageofDisease\' from left pane'
+WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/StageOfDisease/STAGEOFDISEASE_Ddn'), 5)
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/Canine/Filter/StageOfDisease/STAGEOFDISEASE_Ddn')
+
+'Selects the specific check box from \'StageofDisease\' filter.'
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Canine/Filter/StageOfDisease/2_Chkbx')
+
 //Reading statbar 
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.readStatBarCanine'('Object Repository/Canine/StatBar/Canine_StatBar-Programs','Object Repository/Canine/StatBar/Canine_StatBar-Studies',
 	'Object Repository/Canine/StatBar/Canine_StatBar-Cases', 'Object Repository/Canine/StatBar/Canine_StatBar-Samples',
