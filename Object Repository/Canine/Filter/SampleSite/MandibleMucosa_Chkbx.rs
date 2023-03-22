@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Study_Chkbx</name>
+   <name>MandibleMucosa_Chkbx</name>
    <tag></tag>
-   <elementGuidId>f8db9301-780a-459a-bccd-9120d1ecb27c</elementGuidId>
+   <elementGuidId>23ef3ce7-917d-4d54-a2e5-7e21cdbc5e36</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_File Association_study&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Sample Site_Mandible, Mucosa&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_File Association_study&quot;]</value>
-      <webElementGuid>816215eb-27e8-4620-b707-7247cf1d51d5</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Sample Site_Mandible, Mucosa&quot;]</value>
+      <webElementGuid>cd4b5008-9c9e-4a32-aee5-b1b1096e71ae</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
