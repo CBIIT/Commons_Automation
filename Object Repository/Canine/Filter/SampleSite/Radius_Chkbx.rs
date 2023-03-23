@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Lymphoma_Chkbx</name>
+   <name>Radius_Chkbx</name>
    <tag></tag>
-   <elementGuidId>19a056da-2c99-4500-8d9f-a26b8cd7a919</elementGuidId>
+   <elementGuidId>4b62ed0e-0665-4555-afab-27553302f706</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Sample Pathology_Lymphoma&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Sample Site_Radius&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Sample Pathology_Lymphoma&quot;]</value>
-      <webElementGuid>4fac8d6c-7ad8-430a-bb62-07d7893e242a</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Sample Site_Radius&quot;]</value>
+      <webElementGuid>ad77fdd6-7c25-461e-87ea-a858a82ad023</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

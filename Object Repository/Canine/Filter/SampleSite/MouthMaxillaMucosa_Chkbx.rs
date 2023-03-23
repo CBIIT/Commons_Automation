@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Lymphoma_Chkbx</name>
+   <name>MouthMaxillaMucosa_Chkbx</name>
    <tag></tag>
-   <elementGuidId>19a056da-2c99-4500-8d9f-a26b8cd7a919</elementGuidId>
+   <elementGuidId>557f6bac-c16b-4182-8433-a944f0e9fe5c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Sample Pathology_Lymphoma&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Sample Site_Mouth, Maxilla, Mucosa&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Sample Pathology_Lymphoma&quot;]</value>
-      <webElementGuid>4fac8d6c-7ad8-430a-bb62-07d7893e242a</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Sample Site_Mouth, Maxilla, Mucosa&quot;]</value>
+      <webElementGuid>603ae4df-f37b-4f2e-8fb2-beaf82db9488</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
