@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC08_Canine_Filter_FileFormat-docx</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <testCaseGuid>dd9b8d4b-5d5e-4399-a4ad-4f8b7082cff4</testCaseGuid>
+</TestCaseEntity>

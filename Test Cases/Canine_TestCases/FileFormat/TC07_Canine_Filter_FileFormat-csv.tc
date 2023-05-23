@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC07_Canine_Filter_FileFormat-csv</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <testCaseGuid>35f3d443-eaca-41e9-a52a-0be1c43cb1d3</testCaseGuid>
+</TestCaseEntity>
