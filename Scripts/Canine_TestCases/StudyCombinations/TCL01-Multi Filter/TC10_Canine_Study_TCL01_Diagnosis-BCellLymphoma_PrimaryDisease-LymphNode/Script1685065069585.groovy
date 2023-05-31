@@ -29,7 +29,7 @@ import java.nio.file.Paths as Paths
 WebUI.closeBrowser()
 
 'This step takes the Query from input excel and fetches data from Neo4j database. \r\nSaves the results from neo4j and application in the same name mentioned in the input excel. '
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC11_Canine_Study_TCL01_Diagnosis-BladderCancer_PrimaryDisease-Bone.xlsx')
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC10_Canine_Study_TCL01_Diagnosis-BCellLymphoma_PrimaryDisease-LymphNode.xlsx')
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Canine_PopUp_Continue_Btn')
 System.out.println ("Closed the popup window");
 

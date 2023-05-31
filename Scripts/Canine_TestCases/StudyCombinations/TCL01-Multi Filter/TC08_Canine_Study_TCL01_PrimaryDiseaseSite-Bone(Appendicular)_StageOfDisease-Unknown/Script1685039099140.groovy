@@ -54,7 +54,7 @@ CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object
 'Selects the specific check box from \'PrimaryDiseaseSite\' filter.'
 WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/PrimDiseaseSite/PRIMARYDISEASESITE_Ddn'), 5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/Canine/Filter/PrimDiseaseSite/PRIMARYDISEASESITE_Ddn')
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/Canine/Filter/PrimDiseaseSite/Bone_Chkbx')
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/Canine/Filter/PrimDiseaseSite/BoneApendicular_Chkbx')
 
 
 'Reads data from stat bar'
