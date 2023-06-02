@@ -43,7 +43,7 @@ import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
   */
 WebUI.closeBrowser()
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC06_Canine_Filter_SamplePatho-Oligodendro.xlsx')
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC07_Canine_Filter_SamplePatho-Osteosarcoma.xlsx')
 
 'Clicks on the Cases button in the Navbar of ICDC\'s homepage.'
 
@@ -60,7 +60,7 @@ CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Canine/NavBar/Ca
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/SamplePathology/SAMPLEPATHOLOGY_Ddn'), 5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Filter/SamplePathology/SAMPLEPATHOLOGY_Ddn')
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/Canine/Filter/SamplePathology/Oligodendro_Chkbx')
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/Canine/Filter/SamplePathology/Osteosarcoma_Chkbx')
   
 //CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.canineUIValidation'()
  //CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.footerVal'()
