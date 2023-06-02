@@ -3,11 +3,11 @@
    <description></description>
    <name>Unknown_Chkbx</name>
    <tag></tag>
-   <elementGuidId>d1dc276a-bf81-4a1b-929b-f64743c7ec6c</elementGuidId>
+   <elementGuidId>89712bd4-6bb4-45e8-8777-f09f803a94a7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id='checkbox_Response to Treatment_Unknown']</value>
+         <value>//*[@id=&quot;checkbox_Response to Treatment_Unknown&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id='checkbox_Response to Treatment_Unknown']</value>
+      <value>//*[@id=&quot;checkbox_Response to Treatment_Unknown&quot;]</value>
+      <webElementGuid>e306dab6-a66b-4ad4-a4e5-a7eb9281107c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
