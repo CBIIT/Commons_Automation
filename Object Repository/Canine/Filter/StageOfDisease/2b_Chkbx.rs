@@ -3,7 +3,7 @@
    <description></description>
    <name>2b_Chkbx</name>
    <tag></tag>
-   <elementGuidId>07c32808-70a9-460c-b676-3dce9b31d05a</elementGuidId>
+   <elementGuidId>ab0ebe6e-8eea-48e0-aecc-f4529ec6b477</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -18,5 +18,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;checkbox_Stage of Disease_IIb&quot;]</value>
+      <webElementGuid>a67f398d-91ae-4400-864e-9eb945b2b22b</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
