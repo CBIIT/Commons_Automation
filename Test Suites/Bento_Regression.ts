@@ -452,4 +452,46 @@
       <testCaseId>Test Cases/Bento_TestCases/TumorSize/TC06_Bento_Filter_TumorSize-NotReported</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>ab0738f2-b195-47d9-a117-4e2a8d45ece0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Bento_TestCases/RecurrenceScore/TC05_Bento_Filter_RecurrScore-26-30</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1d6e96e3-272a-4a0f-bd4c-0c8961499258</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Bento_TestCases/RecurrenceScore/TC06_Bento_Filter_RecurrScore-6-10</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>50d72912-b99e-45ac-9a83-f7613d3dbee6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Bento_TestCases/RecurrenceScore/TC07_Bento_Filter_RecurrScore-21-25</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>95fac63a-4456-40ba-a942-2e581c1fdc62</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Bento_TestCases/RecurrenceScore/TC08_Bento_Filter_RecurrScore-31-35</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dbfe0183-fbbb-44ac-92ac-978aab0e33e2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Bento_TestCases/RecurrenceScore/TC09_Bento_Filter_RecurrScore-36-40</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>20672b3e-e318-4034-8a7d-3b396cea582b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Bento_TestCases/RecurrenceScore/TC10_Bento_Filter_RecurrScore-41-50</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
