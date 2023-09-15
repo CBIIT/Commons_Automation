@@ -15,7 +15,7 @@
       <guid>72095966-4f39-4017-8e87-b56b440d5076</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/TO_BE_FIXED/TC01_Canine_Biobank-CCOGC</testCaseId>
+      <testCaseId>Test Cases/Canine_TestCases/Biobank/TC01_Canine_Biobank-CCOGC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
