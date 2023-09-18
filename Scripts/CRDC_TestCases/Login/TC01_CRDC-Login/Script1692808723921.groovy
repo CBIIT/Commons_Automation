@@ -44,10 +44,7 @@ WebUI.closeBrowser()
 //WebUI.openBrowser(GlobalVariable.G_Urlname)
 CustomKeywords.'ctdc.utilities.functions.navigateToCrdc'()
 
-WebUI.maximizeWindow()
-
 CustomKeywords.'ctdc.utilities.functions.loginToCrdc'()
-
 
 
 

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>AdditionalContact_SameAsPrincipal-ChkBx</name>
+   <name>LastUpdated-Date</name>
    <tag></tag>
-   <elementGuidId>63789175-d337-4d40-918c-7347672c0a5f</elementGuidId>
+   <elementGuidId>e87ddf08-1737-41b4-b142-60d5304b6b6e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class='PrivateSwitchBase-input css-1m9pwf3' and @type='checkbox']</value>
+         <value>//*[@data-testid='status-bar-last-updated']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class='PrivateSwitchBase-input css-1m9pwf3' and @type='checkbox']</value>
-      <webElementGuid>04f85da4-df98-407e-bec7-b5a05409d992</webElementGuid>
+      <value>//*[@data-testid='status-bar-last-updated']</value>
+      <webElementGuid>6bfaca3f-bcb1-4c72-bb4e-0e38390dab32</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

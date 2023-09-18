@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Start_a_SubmissionRequest-Btn</name>
+   <name>SameAsPrincipal-ChkBx</name>
    <tag></tag>
-   <elementGuidId>2a120d53-a216-4f5c-9932-e8f63f39a273</elementGuidId>
+   <elementGuidId>76da1ca7-4187-4e44-b827-c55264d5c7eb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;:r3:&quot;]</value>
+         <value>//*[@class='PrivateSwitchBase-input css-1m9pwf3' and @type='checkbox']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;:r3:&quot;]</value>
-      <webElementGuid>6663140b-b26e-4916-a33d-efbb2d60186e</webElementGuid>
+      <value>//*[@class='PrivateSwitchBase-input css-1m9pwf3' and @type='checkbox']</value>
+      <webElementGuid>c8c1070d-4f0b-4538-b86e-14956d05af6d</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

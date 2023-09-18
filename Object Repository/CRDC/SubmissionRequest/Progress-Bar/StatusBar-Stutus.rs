@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Start_a_SubmissionRequest-Btn</name>
+   <name>StatusBar-Stutus</name>
    <tag></tag>
-   <elementGuidId>2a120d53-a216-4f5c-9932-e8f63f39a273</elementGuidId>
+   <elementGuidId>daf70179-cace-454b-8bc0-ed2f75c78d31</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;:r3:&quot;]</value>
+         <value>//*[@data-testid='status-bar-status']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;:r3:&quot;]</value>
-      <webElementGuid>6663140b-b26e-4916-a33d-efbb2d60186e</webElementGuid>
+      <value>//*[@data-testid='status-bar-status']</value>
+      <webElementGuid>7a964f83-504f-4781-a5fd-c4906ed9bfc2</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

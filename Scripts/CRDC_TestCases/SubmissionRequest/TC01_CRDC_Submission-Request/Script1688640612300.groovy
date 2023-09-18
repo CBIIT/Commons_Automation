@@ -43,82 +43,31 @@ WebUI.closeBrowser()
 
 CustomKeywords.'ctdc.utilities.functions.navigateToCrdc'()
 
-WebUI.maximizeWindow()
-
 CustomKeywords.'ctdc.utilities.functions.loginToCrdc'()
 
-WebUI.waitForElementPresent(findTestObject('CRDC/NavBar/SubmissionRequest-Tab'), 5)
-WebUI.click(findTestObject('CRDC/NavBar/SubmissionRequest-Tab'))
-
+//WebUI.waitForElementPresent(findTestObject('CRDC/NavBar/WarningBanner_Continue-Btn'), 5)
+//WebUI.click(findTestObject('CRDC/NavBar/WarningBanner_Continue-Btn'))
+//WebUI.waitForElementPresent(findTestObject('CRDC/NavBar/SubmissionRequest-Tab'), 5)
+//WebUI.click(findTestObject('CRDC/NavBar/SubmissionRequest-Tab'))
 WebUI.waitForElementPresent(findTestObject('CRDC/NavBar/Start_a_SubmissionRequest-Btn'), 5)
+
 WebUI.click(findTestObject('CRDC/NavBar/Start_a_SubmissionRequest-Btn'), FailureHandling.STOP_ON_FAILURE)
 
-CustomKeywords.'ctdc.utilities.functions.enterPiInfo'(1)
+CustomKeywords.'ctdc.utilities.functions.verifyStatusBar'('NEW')
 
-CustomKeywords.'ctdc.utilities.functions.enterPrimaryContactInfo'(1)
+CustomKeywords.'ctdc.utilities.functions.enterPiInfo'(1, 1, 1, 1, 5, 1)
+
+CustomKeywords.'ctdc.utilities.functions.enterPrimaryContactInfo'(2, 2, 2, 2, 10, 2)
+
+CustomKeywords.'ctdc.utilities.functions.enterAdditionalContactInfo'(2, 1, 2, 2, 11, 2)
 
 WebUI.waitForElementPresent(findTestObject('CRDC/SubmissionRequest/Save-Btn'), 5)
-WebUI.click(findTestObject('CRDC/SubmissionRequest/Save-Btn'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('CRDC/SubmissionRequest/Save-Btn'))
 
+WebUI.waitForElementPresent(findTestObject('CRDC/SubmissionRequest/Next-Btn'), 5)
 
+WebUI.click(findTestObject('CRDC/SubmissionRequest/Next-Btn'))
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-////CustomKeywords.'ctdc.utilities.functions.navigateToCrdcQuetionnier'();
-//WebUI.openBrowser(GlobalVariable.G_Urlname)
-//
-//WebUI.maximizeWindow()
-//
-//WebUI.waitForElementPresent(findTestObject('CRDC/NavBar/SubmissionRequest-Tab'), 3)
-//
-//WebUI.click(findTestObject('CRDC/NavBar/SubmissionRequest-Tab'))
-//
-//WebUI.waitForElementPresent(findTestObject('CRDC/NavBar/Start_a_SubmissionRequest-Btn'), 3)
-//
-//WebUI.click(findTestObject('CRDC/NavBar/Start_a_SubmissionRequest-Btn'))
-//
-//WebUI.waitForElementPresent(findTestObject('CRDC/NavBar/RemoveLaterApplicationApproved'), 3)
-//
-//WebUI.click(findTestObject('CRDC/NavBar/RemoveLaterApplicationApproved'))
-//
-//CustomKeywords.'ctdc.utilities.functions.enterPiInfo'(1)
-//
-//CustomKeywords.'ctdc.utilities.functions.enterPrimaryContactInfo'(1)
-//
-//CustomKeywords.'ctdc.utilities.functions.enterAdditionalContactInfo'(1)
-//
-//WebUI.waitForElementPresent(findTestObject('CRDC/SubmissionRequest/Next-Btn'), 3)
-//
-//WebUI.click(findTestObject('CRDC/SubmissionRequest/Next-Btn'))
+WebUI.delay(5)
 

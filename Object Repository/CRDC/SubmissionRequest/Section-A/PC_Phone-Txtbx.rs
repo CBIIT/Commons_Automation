@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>PrimContact_SameAsPrincipal-ChkBx</name>
+   <name>PC_Phone-Txtbx</name>
    <tag></tag>
-   <elementGuidId>76da1ca7-4187-4e44-b827-c55264d5c7eb</elementGuidId>
+   <elementGuidId>bc04890f-af6b-4327-a39e-9267a03d29dd</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class='PrivateSwitchBase-input css-1m9pwf3' and @type='checkbox']</value>
+         <value>//*[@id=&quot;section-a-primary-contact-phone-number&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class='PrivateSwitchBase-input css-1m9pwf3' and @type='checkbox']</value>
-      <webElementGuid>c8c1070d-4f0b-4538-b86e-14956d05af6d</webElementGuid>
+      <value>//*[@id=&quot;section-a-primary-contact-phone-number&quot;]</value>
+      <webElementGuid>3e4d992d-37c4-491a-a656-c8e126646e5c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
