@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>PrimContact_Institution-Dd</name>
+   <name>SameAsPrincipaInvestigtr-ChkBx</name>
    <tag></tag>
-   <elementGuidId>ba7aecb9-73a1-42b9-9544-ca621c77fdac</elementGuidId>
+   <elementGuidId>63789175-d337-4d40-918c-7347672c0a5f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;section-a-primary-contact-institution&quot;]</value>
+         <value>//*[@class='PrivateSwitchBase-input css-1m9pwf3' and @type='checkbox']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;section-a-primary-contact-institution&quot;]</value>
-      <webElementGuid>b085329f-d2ed-4980-80c0-8499faafb764</webElementGuid>
+      <value>//*[@class='PrivateSwitchBase-input css-1m9pwf3' and @type='checkbox']</value>
+      <webElementGuid>04f85da4-df98-407e-bec7-b5a05409d992</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

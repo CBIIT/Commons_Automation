@@ -50,8 +50,6 @@ import org.openqa.selenium.OutputType;
 //import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.Cookie as Cookie
 import ctdc.utilities.runtestcaseforKatalon as webUIHelper
-import org.openqa.selenium.support.ui.ExpectedConditions
-import org.openqa.selenium.support.ui.WebDriverWait
 
 
 public class DataValidation extends runtestcaseforKatalon{

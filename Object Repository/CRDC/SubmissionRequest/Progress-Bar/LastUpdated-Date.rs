@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>PrimContact_Position-Txtbx</name>
+   <name>LastUpdated-Date</name>
    <tag></tag>
-   <elementGuidId>46015813-4e08-41e4-9670-07650c0a6d85</elementGuidId>
+   <elementGuidId>154f24ed-d786-4095-ad93-cbf780a23ca4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;section-a-primary-contact-position&quot;]</value>
+         <value>//*[@data-testid='status-bar-last-updated']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;section-a-primary-contact-position&quot;]</value>
-      <webElementGuid>8f886878-90cb-484b-ab44-4cf58b7c0620</webElementGuid>
+      <value>//*[@data-testid='status-bar-last-updated']</value>
+      <webElementGuid>a31d4236-ed00-435b-af25-b202276b20ef</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

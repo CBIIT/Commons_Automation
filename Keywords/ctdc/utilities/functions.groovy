@@ -1,4 +1,3 @@
-
 package ctdc.utilities
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -43,6 +42,8 @@ import org.openqa.selenium.chrome.ChromeDriver
 import org.openqa.selenium.chrome.ChromeOptions
 import java.util.Iterator;
 import java.util.Set;
+import java.util.Date;
+import java.text.SimpleDateFormat;
 
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -316,58 +317,52 @@ class functions extends runtestcaseforKatalon implements Comparator<List<XSSFCel
 
 	}//ReadCasesTableKatalon function ends
 
+
 	//*************** CRDC functions start here ****************
 
 	@Keyword
 	public static void navigateToCrdc() {
 		driver = CustomBrowserDriver.createWebDriver();
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.get(GlobalVariable.G_Urlname);
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		WebUI.waitForPageLoad(10)
 	}
-
-	final static String dataFile='CRDC/SubmReqts/Section-A';
-	final static String sectionA='CRDC/SubmissionRequest/Section-A/';
+	
 	/**
-	 * 
-	 * @param dataFileRowNum Please add data file row number to be read
-	 * @throws IOException
+	 * This function gets the system's current date
+	 * @param format i.e MM/DD/YYYY
+	 * @return formated date
+	 */
+	public static String getCurrentDate(String format) {
+		SimpleDateFormat dateFormat = new SimpleDateFormat(format);
+		Date currentDate = new Date();
+		String formattedDate = dateFormat.format(currentDate);
+		return formattedDate;
+	}
+	
+	
+	/**
+	 * This function validates CRDC Submission Request status bar
+	 * @param Status to be validated i.e New, Submitted
 	 */
 	@Keyword
-	public static void enterPiInfo(int dataFileRowNum) throws IOException {
-
-		//		WebElement piFirstName=driver.findElement(By.xpath('//*[@id="section-a-pi-first-name"]'));
-		//		piFirstName.click();
-		//		piFirstName.clear();
-		//		piFirstName.sendKeys(findTestData('CRDC/Section-A').getValue('pi-first-name', dataFileRowNum));
-
-
-		WebUI.clearText(findTestObject(sectionA+'PI_FirstName-Txtbx'));
-		Thread.sleep(5000);
-		WebUI.setText(findTestObject('CRDC/SubmissionRequest/Section-A/PI_FirstName-Txtbx'), findTestData(dataFile).getValue(
-				'pi-first-name', dataFileRowNum));
-
-		//Thread.sleep(5000);
-
-		WebUI.clearText(findTestObject('CRDC/SubmissionRequest/Section-A/PI_LastName-Txtbx'));
-		WebUI.setText(findTestObject('CRDC/SubmissionRequest/Section-A/PI_LastName-Txtbx'), findTestData(dataFile).getValue(
-				'pi-last-name', dataFileRowNum));
-
-		WebUI.clearText(findTestObject('CRDC/SubmissionRequest/Section-A/PI_Position-Txtbx'));
-		WebUI.setText(findTestObject('CRDC/SubmissionRequest/Section-A/PI_Position-Txtbx'), findTestData(dataFile).getValue(
-				'position', dataFileRowNum));
-
-		WebUI.clearText(findTestObject('CRDC/SubmissionRequest/Section-A/PI_Email-Txtbx'));
-		WebUI.setText(findTestObject('CRDC/SubmissionRequest/Section-A/PI_Email-Txtbx'), findTestData(dataFile).getValue(
-				'pi-email', dataFileRowNum));
-
-		WebUI.clearText(findTestObject('CRDC/SubmissionRequest/Section-A/PI_Institution-Dd'));
-		WebUI.setText(findTestObject('CRDC/SubmissionRequest/Section-A/PI_Institution-Dd'), findTestData(dataFile).getValue(
-				'pi-institution', dataFileRowNum));
-
-		WebUI.clearText(findTestObject('CRDC/SubmissionRequest/Section-A/PI_InstitutionAddress-Txtbx'));
-		WebUI.setText(findTestObject('CRDC/SubmissionRequest/Section-A/PI_InstitutionAddress-Txtbx'), findTestData(dataFile).getValue(
-				'pi-institution-address', dataFileRowNum));
+	public static void verifyStatusBar(String expStatus) {
+		String actualStatus = WebUI.getText(findTestObject('CRDC/SubmissionRequest/Status-Bar/StatusBar-Stutus'))
+		String actualDate = WebUI.getText(findTestObject('CRDC/SubmissionRequest/Status-Bar/LastUpdated-Date'))
+		System.out.println("Actual Status is: " + actualStatus +"\nExpected Status is: "+expStatus);
+		System.out.println("Actual Date is: " + actualDate +"\nExpected Date is: "+getCurrentDate("M/d/yyyy"));
+		WebUI.verifyMatch(actualStatus, expStatus, false)
+		WebUI.verifyMatch(actualDate, getCurrentDate("M/d/yyyy"), false)
+	}
+	
+	
+	/**
+	 * This function clears text from a text field
+	 * @return String
+	 */
+	public static String clearText() {
+		return Keys.chord(Keys.CONTROL, "a") + Keys.DELETE;
 	}
 
 	/**
@@ -376,32 +371,51 @@ class functions extends runtestcaseforKatalon implements Comparator<List<XSSFCel
 	 * @throws IOException
 	 */
 	@Keyword
-	public static void enterPrimaryContactInfo(int dataFileRowNum) {
+	public static void enterPiInfo(int fNameRowNum, int lNameRowNum, int positnRowNum, int emailRowNum, int institRowNum, int institAddRowNum) throws IOException {
+		
+		String path = "CRDC/SubmissionRequest/Section-A/";
+		String filePath = "CRDC/SubmissionRequest/Section-A/principal-investigator";
+		
+		WebUI.setText(findTestObject(path+'PI_FirstName-Txtbx'), clearText() + findTestData(filePath).getValue('pi-first-name', fNameRowNum));
 
-		Thread.sleep(3000);
-		WebUI.clearText(findTestObject('CRDC/SubmissionRequest/Section-A/PrimContact_FirstName-Txtbx'));
-		WebUI.setText(findTestObject('CRDC/SubmissionRequest/Section-A/PrimContact_FirstName-Txtbx'), findTestData(dataFile).getValue(
-				'pc-first-name', dataFileRowNum));
+		WebUI.setText(findTestObject(path+'PI_LastName-Txtbx'), clearText() + findTestData(filePath).getValue('pi-last-name', lNameRowNum));
 
-		WebUI.clearText(findTestObject('CRDC/SubmissionRequest/Section-A/PrimContact_LastName-Txtbx'));
-		WebUI.setText(findTestObject('CRDC/SubmissionRequest/Section-A/PrimContact_LastName-Txtbx'), findTestData(dataFile).getValue(
-				'pc-last-name', dataFileRowNum));
+		WebUI.setText(findTestObject(path+'PI_Position-Txtbx'), clearText() + findTestData(filePath).getValue('position', positnRowNum));
 
-		WebUI.clearText(findTestObject('CRDC/SubmissionRequest/Section-A/PrimContact_Position-Txtbx'));
-		WebUI.setText(findTestObject('CRDC/SubmissionRequest/Section-A/PrimContact_Position-Txtbx'), findTestData(dataFile).getValue(
-				'pc-position', dataFileRowNum));
+		WebUI.setText(findTestObject(path+'PI_Email-Txtbx'), clearText() + findTestData(filePath).getValue('pi-email', emailRowNum));
 
-		WebUI.clearText(findTestObject('CRDC/SubmissionRequest/Section-A/PrimContact_Email-Txtbx'));
-		WebUI.setText(findTestObject('CRDC/SubmissionRequest/Section-A/PrimContact_Email-Txtbx'), findTestData(dataFile).getValue(
-				'pc-email', dataFileRowNum));
+		WebUI.setText(findTestObject(path+'PI_Institution-Dd'), clearText() + findTestData(filePath).getValue('pi-institution', institRowNum));
+		
+		WebUI.setText(findTestObject(path+'PI_InstitAddress-Txtbx'), clearText() + findTestData(filePath).getValue('pi-instit-address', institAddRowNum));
+		
+		System.out.println("Successfully entered PI information");
+		
+	}
 
-		WebUI.clearText(findTestObject('CRDC/SubmissionRequest/Section-A/PrimContact_Institution-Dd'));
-		WebUI.setText(findTestObject('CRDC/SubmissionRequest/Section-A/PrimContact_Institution-Dd'), findTestData(dataFile).getValue(
-				'pc-institution', dataFileRowNum));
+	/**
+	 *
+	 * @param dataFileRowNum Please add data file row number to be read
+	 * @throws IOException
+	 */
+	@Keyword
+	public static void enterPrimaryContactInfo(int fNameRowNum, int lNameRowNum, int positnRowNum, int emailRowNum, int institRowNum, int phRowNum) {
 
-		WebUI.clearText(findTestObject('CRDC/SubmissionRequest/Section-A/PrimContact_Phone-Txtbx'));
-		WebUI.setText(findTestObject('CRDC/SubmissionRequest/Section-A/PrimContact_Phone-Txtbx'), findTestData(dataFile).getValue(
-				'pc-phone', dataFileRowNum));
+		String path = "CRDC/SubmissionRequest/Section-A/";
+		String filePath = "CRDC/SubmissionRequest/Section-A/primary-contact";
+		
+		WebUI.setText(findTestObject(path+'PC_FirstName-Txtbx'), clearText() + findTestData(filePath).getValue('pc-first-name', fNameRowNum));
+
+		WebUI.setText(findTestObject(path+'PC_LastName-Txtbx'), clearText() + findTestData(filePath).getValue('pc-last-name', lNameRowNum));
+
+		WebUI.setText(findTestObject(path+'PC_Position-Txtbx'), clearText() + findTestData(filePath).getValue('pc-position', positnRowNum));
+
+		WebUI.setText(findTestObject(path+'PC_Email-Txtbx'), clearText() + findTestData(filePath).getValue('pc-email', emailRowNum));
+
+		WebUI.setText(findTestObject(path+'PC_Institution-Dd'), clearText() + findTestData(filePath).getValue('pc-institution', institRowNum));
+		
+		WebUI.setText(findTestObject(path+'PC_Phone-Txtbx'), clearText() + findTestData(filePath).getValue('pc-phone', phRowNum));
+		
+		System.out.println("Successfully entered primary contact information");
 	}
 
 
@@ -411,33 +425,27 @@ class functions extends runtestcaseforKatalon implements Comparator<List<XSSFCel
 	 * @throws IOException
 	 */
 	@Keyword
-	public static void enterAdditionalContactInfo(int dataFileRowNum) {
+	public static void enterAdditionalContactInfo(int fNameRowNum, int lNameRowNum, int positnRowNum, int emailRowNum, int institRowNum, int phRowNum) {
+		
+		String path = "CRDC/SubmissionRequest/Section-A/";
+		String filePath = "CRDC/SubmissionRequest/Section-A/additional-contact";
+		
+		WebUI.waitForElementPresent(findTestObject(path+'AddContact-Btn'), 5)
+		WebUI.click(findTestObject(path+'AddContact-Btn'))
 
-		Thread.sleep(5000);
-		WebUI.clearText(findTestObject('CRDC/SubmissionRequest/Section-A/AdditionalContact_FirstName-Txtbx'));
-		Thread.sleep(5000);
-		WebUI.setText(findTestObject('CRDC/SubmissionRequest/Section-A/AdditionalContact_FirstName-Txtbx'), findTestData(dataFile).getValue(
-				'ac-first-name', dataFileRowNum));
+		WebUI.setText(findTestObject(path+'AC_FirstName-Txtbx'), clearText() + findTestData(filePath).getValue('ac-first-name', fNameRowNum));
 
-		WebUI.clearText(findTestObject('CRDC/SubmissionRequest/Section-A/AdditionalContact_LastName-Txtbx'));
-		WebUI.setText(findTestObject('CRDC/SubmissionRequest/Section-A/AdditionalContact_LastName-Txtbx'), findTestData(dataFile).getValue(
-				'ac-last-name', dataFileRowNum));
+		WebUI.setText(findTestObject(path+'AC_LastName-Txtbx'), clearText() + findTestData(filePath).getValue('ac-last-name', lNameRowNum));
 
-		WebUI.clearText(findTestObject('CRDC/SubmissionRequest/Section-A/AdditionalContact_Position-Txtbx'));
-		WebUI.setText(findTestObject('CRDC/SubmissionRequest/Section-A/AdditionalContact_Position-Txtbx'), findTestData(dataFile).getValue(
-				'ac-position', dataFileRowNum));
+		WebUI.setText(findTestObject(path+'AC_Position-Txtbx'), clearText() + findTestData(filePath).getValue('ac-position', positnRowNum));
 
-		WebUI.clearText(findTestObject('CRDC/SubmissionRequest/Section-A/AdditionalContact_Email-Txtbx'));
-		WebUI.setText(findTestObject('CRDC/SubmissionRequest/Section-A/AdditionalContact_Email-Txtbx'), findTestData(dataFile).getValue(
-				'ac-email', dataFileRowNum));
+		WebUI.setText(findTestObject(path+'AC_Email-Txtbx'), clearText() + findTestData(filePath).getValue('ac-email', emailRowNum));
 
-		WebUI.clearText(findTestObject('CRDC/SubmissionRequest/Section-A/AdditionalContact_Institution-Dd'));
-		WebUI.setText(findTestObject('CRDC/SubmissionRequest/Section-A/AdditionalContact_Institution-Dd'), findTestData(dataFile).getValue(
-				'ac-institution', dataFileRowNum));
-
-		WebUI.clearText(findTestObject('CRDC/SubmissionRequest/Section-A/AdditionalContact_Phone-Txtbx'));
-		WebUI.setText(findTestObject('CRDC/SubmissionRequest/Section-A/AdditionalContact_Phone-Txtbx'), findTestData(dataFile).getValue(
-				'ac-phone', dataFileRowNum));
+		WebUI.setText(findTestObject(path+'AC_Institution-Dd'), clearText() + findTestData(filePath).getValue('ac-institution', institRowNum));
+		
+		WebUI.setText(findTestObject(path+'AC_Phone-Txtbx'), clearText() + findTestData(filePath).getValue('ac-phone', phRowNum));
+		
+		System.out.println("Successfully entered additional contact information");
 	}
 
 
@@ -453,63 +461,63 @@ class functions extends runtestcaseforKatalon implements Comparator<List<XSSFCel
 		WebUI.waitForElementPresent(findTestObject('CRDC/NavBar/WarningBanner_Continue-Btn'), 5)
 		WebUI.click(findTestObject('CRDC/NavBar/WarningBanner_Continue-Btn'))
 
-		WebUI.waitForElementPresent(findTestObject('CRDC/Login/Login-Dd'), 5)
-		WebUI.click(findTestObject('CRDC/Login/Login-Dd'))
+		WebUI.waitForElementPresent(findTestObject('CRDC/Login/LoginPageLogin-Btn'), 5)
+		WebUI.click(findTestObject('CRDC/Login/LoginPageLogin-Btn'))
 
 		WebUI.waitForElementPresent(findTestObject('CRDC/Login/Login.gov-Btn'), 5)
 		WebUI.click(findTestObject('CRDC/Login/Login.gov-Btn'))
 
 		WebUI.waitForElementPresent(findTestObject('CRDC/Login/Login.gov_UserEmail-TxtBx'), 5)
 		WebUI.setText(findTestObject('CRDC/Login/Login.gov_UserEmail-TxtBx'), GlobalVariable.userEmail)
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 
 		WebUI.waitForElementPresent(findTestObject('CRDC/Login/Login.gov_UserPass-TxtBx'), 5)
 		WebUI.setText(findTestObject('CRDC/Login/Login.gov_UserPass-TxtBx'), GlobalVariable.userPassword)
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 
 		WebUI.waitForElementPresent(findTestObject('CRDC/Login/Login.gov_SignIn-Btn'), 5)
 		WebUI.click(findTestObject('CRDC/Login/Login.gov_SignIn-Btn'))
 
-		for (int i=1; i<=3; i++) {
-
-			WebUI.waitForElementPresent(findTestObject('CRDC/Login/Login.gov_BackupSecurityCode-TxtBx'), 5)
-
-			WebUI.setText(findTestObject('CRDC/Login/Login.gov_BackupSecurityCode-TxtBx'),
-					findTestData('CRDC/Login/LoginData').getValue('sec-backup-codes', i))
-			System.out.println("Entering backup code: " + findTestData('CRDC/Login/LoginData').getValue('sec-backup-codes', i));
-
-			WebUI.waitForElementPresent(findTestObject('CRDC/Login/Login.gov_OneTimeCode_Submit-Btn'), 5)
-			WebUI.click(findTestObject('CRDC/Login/Login.gov_OneTimeCode_Submit-Btn'))
-
-			Thread.sleep(3000);
-			String url = WebUI.getUrl();
-
-			if (url.contains("idp.int.identity")) {
-
-				System.out.println("Current URL is: "+ url);
-				System.out.println("Old code detected, Trying new code...");
-
-			} else {
-				System.out.println("Valid Code, Continuing with Consent");
-				break;
-			}
-		}
+//		for (int i=1; i<=3; i++) {
+//
+//			WebUI.waitForElementPresent(findTestObject('CRDC/Login/Login.gov_BackupSecurityCode-TxtBx'), 5)
+//
+//			WebUI.setText(findTestObject('CRDC/Login/Login.gov_BackupSecurityCode-TxtBx'),
+//					findTestData('CRDC/Login/LoginData').getValue('sec-backup-codes', i))
+//			System.out.println("Entering backup code: " + findTestData('CRDC/Login/LoginData').getValue('sec-backup-codes', i));
+//
+//			WebUI.waitForElementPresent(findTestObject('CRDC/Login/Login.gov_OneTimeCode_Submit-Btn'), 5)
+//			WebUI.click(findTestObject('CRDC/Login/Login.gov_OneTimeCode_Submit-Btn'))
+//
+//			Thread.sleep(3000);
+//			String url = WebUI.getUrl();
+//
+//			if (url.contains("idp.int.identity")) {
+//
+//				System.out.println("Current URL is: "+ url);
+//				System.out.println("Old code detected, Trying new code...");
+//
+//			} else {
+//				System.out.println("Valid Code, Continuing with Consent");
+//				break;
+//			}
+//		}
 
 
 		WebUI.waitForElementPresent(findTestObject('CRDC/Login/Login.gov_ConsentGrant-Btn'), 5)
 		WebUI.click(findTestObject('CRDC/Login/Login.gov_ConsentGrant-Btn'))
 
-		if(WebUI.getUrl().contains("hub")) {
-			WebUI.waitForElementPresent(findTestObject('CRDC/Login/UserProfile-Dd'), 5)
-			WebUI.verifyElementPresent(findTestObject('CRDC/Login/UserProfile-Dd'), 5)
-			String userName = WebUI.getText(findTestObject('CRDC/Login/UserProfile-Dd'));
-
-			if(userName.contains("KATALON"))
-				System.out.println("User " + userName + " sucessfully logged in");
-			System.out.println("Current URL is: "+ WebUI.getUrl());
-		}else {
-			System.err.println("Landed on the wrong page!");
-		}
+//		if(WebUI.getUrl().contains("hub")) {
+//			WebUI.waitForElementPresent(findTestObject('CRDC/Login/UserProfile-Dd'), 5)
+//			WebUI.verifyElementPresent(findTestObject('CRDC/Login/UserProfile-Dd'), 5)
+//			String userName = WebUI.getText(findTestObject('CRDC/Login/UserProfile-Dd'));
+//
+//			if(userName.contains("KATALON"))
+//				System.out.println("User " + userName + " sucessfully logged in");
+//			System.out.println("Current URL is: "+ WebUI.getUrl());
+//		}else {
+//			System.err.println("Landed on the wrong page!");
+//		}
 
 
 

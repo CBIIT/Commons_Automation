@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>AdditionalContact_Institution-Dd</name>
+   <name>Full-History-Btn</name>
    <tag></tag>
-   <elementGuidId>592bbb53-f1a3-444b-a526-32e141b69688</elementGuidId>
+   <elementGuidId>06343978-445c-43b7-b020-f1290e200c38</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;section-aadditionalContacts-0-institution&quot;]</value>
+         <value>//*[@id='status-bar-full-history-button']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;section-aadditionalContacts-0-institution&quot;]</value>
-      <webElementGuid>47798dd0-28e9-4cd9-966e-c72875c77d95</webElementGuid>
+      <value>//*[@id='status-bar-full-history-button']</value>
+      <webElementGuid>a0e0500f-a219-4a8c-b86c-9e2a275f3043</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
