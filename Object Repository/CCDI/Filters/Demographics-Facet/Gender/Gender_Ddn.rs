@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Gender_Ddn</name>
+   <tag></tag>
+   <elementGuidId>ea971a09-3935-45f2-9db5-b6dff4b7848d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//*[@id='Gender'])[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//*[@id='Gender'])[1]</value>
+      <webElementGuid>c3c1b353-97bd-48e9-a95b-254c02ad346b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
