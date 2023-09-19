@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CCDI_Participants_TblHdr</name>
+   <tag></tag>
+   <elementGuidId>d9ec37f8-f348-458c-811b-865fab478e71</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;participant_tab_table&quot;]//thead</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;participant_tab_table&quot;]//thead</value>
+      <webElementGuid>8ae3db40-5539-42d6-83cb-3ddcfbddaf1e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
