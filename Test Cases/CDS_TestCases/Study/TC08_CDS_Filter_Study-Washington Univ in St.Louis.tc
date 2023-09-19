@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC09_CDS_Filter_Study-Discovery_CCS</name>
+   <name>TC08_CDS_Filter_Study-Washington Univ in St.Louis</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>f4f29a3a-3000-4a6f-aecf-a7cae85f0d17</testCaseGuid>
+   <testCaseGuid>c3e8ee49-3ce0-45c8-9783-3d3cb6302396</testCaseGuid>
 </TestCaseEntity>

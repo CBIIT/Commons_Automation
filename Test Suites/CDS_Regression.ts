@@ -449,7 +449,7 @@
       <guid>dd8ff04a-4ee8-453a-8843-5c52712cd9a6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/Study/TC01_CDS_Filter_Study-GECCO-OICR</testCaseId>
+      <testCaseId>Test Cases/CDS_TestCases/Study/TC01_CDS_Filter_Study-GECCO-OICR - removed</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -498,14 +498,14 @@
       <guid>75be1370-4bb5-48c7-83e4-62110e51e357</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/Study/TC08_CDS_Filter_Study-Detection_CCS</testCaseId>
+      <testCaseId>Test Cases/CDS_TestCases/Study/TC08_CDS_Filter_Study-Detection_CCS- removed</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>cac3116e-6ba7-4d86-8158-6e6739d3b2d9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/Study/TC09_CDS_Filter_Study-Discovery_CCS</testCaseId>
+      <testCaseId>Test Cases/CDS_TestCases/Study/TC09_CDS_Filter_Study-Discovery_CCS - removed</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>CDS_Data-Btn</name>
+   <name>CDS-Study-WashingtonUniv_St.Louis-Chkbx</name>
    <tag></tag>
-   <elementGuidId>a28d8eda-8c35-4e89-9f5d-4b9398d43124</elementGuidId>
+   <elementGuidId>10d01887-bf93-4676-a241-3e736ad0b46a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[contains(@href,'#/data')]</value>
+         <value>//*[@id=&quot;checkbox_Study_Washington University in St. Louis ccRCC snRNA-seq and snATAC-seq study&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[contains(@href,'#/data')]</value>
-      <webElementGuid>00230a11-89b0-49fa-a997-68905c401fa5</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Study_Washington University in St. Louis ccRCC snRNA-seq and snATAC-seq study&quot;]</value>
+      <webElementGuid>d7d454af-17f1-4841-a7a1-8d0602a6fc09</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
