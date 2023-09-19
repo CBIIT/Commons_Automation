@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//div[@id='Gender'])[1]</value>
+         <value>(//*[@id='Gender'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//div[@id='Gender'])[1]</value>
-      <webElementGuid>362b0300-9551-4236-bfbe-7205bb55747a</webElementGuid>
+      <value>(//*[@id='Gender'])[1]</value>
+      <webElementGuid>c3c1b353-97bd-48e9-a95b-254c02ad346b</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
