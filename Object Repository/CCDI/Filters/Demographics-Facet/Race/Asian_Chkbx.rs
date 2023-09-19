@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>CCDI_Participants_TblNextBtn</name>
+   <name>Asian_Chkbx</name>
    <tag></tag>
-   <elementGuidId>0b574b94-93cd-4891-aebd-75c0531284b2</elementGuidId>
+   <elementGuidId>19f9d485-e9bc-4ffc-bc36-e890b7e2b7da</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;participant_tab_table&quot;]/div[3]/div/div/div[3]/button[2]</value>
+         <value>//*[@id=&quot;checkbox_Race_Asian&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;participant_tab_table&quot;]/div[3]/div/div/div[3]/button[2]</value>
-      <webElementGuid>eb53979c-b061-4b51-8980-223a6d3c86f4</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Race_Asian&quot;]</value>
+      <webElementGuid>a016981e-c2dd-4c00-818b-e53cf78e4f25</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
