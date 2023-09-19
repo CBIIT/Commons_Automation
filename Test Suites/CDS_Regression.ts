@@ -879,4 +879,32 @@
       <testCaseId>Test Cases/CDS_TestCases/Multifilter/TC07_CDS_study-CIDR_LibraryStrategy-NotSpecifiedindata_Gender-Male_SampleTumor-Normal_PHS Accession</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>22e59460-8a3e-40c8-ad15-36f1b458fe7b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/PHS_Accession/TC14_CDS_Filter_PHSAccession-phs001287</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7aec78c1-7718-4a20-9ff2-f750f4c580a1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/PHS_Accession/TC15_CDS_Filter_PHSAccession-phs002599</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>20bfb9f7-45a5-4fc3-b6b4-b6a01d1cfb81</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Study/TC08_CDS_Filter_Study-Washington Univ in St.Louis</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d0a68b51-50dc-4ffb-8e2c-8d6deecf09ff</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Study/TC09_CDS_Filter_Study-NCI_CCSG_CCDI</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
