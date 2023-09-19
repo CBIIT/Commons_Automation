@@ -7,17 +7,17 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//input[contains(@id,'checkbox_Study_UCSF Database for the Advancement of JMML')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Study_UCSF Database for the Advancement of JMML - Integration of Metadata with &quot;&quot;Omic&quot;&quot; Data&quot;]</value>
-      <webElementGuid>2fdc7905-4564-4d50-a690-a4791b24bed7</webElementGuid>
+      <value>//input[contains(@id,'checkbox_Study_UCSF Database for the Advancement of JMML')]</value>
+      <webElementGuid>9690f639-b715-4b01-9ecc-7d19db43369d</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
