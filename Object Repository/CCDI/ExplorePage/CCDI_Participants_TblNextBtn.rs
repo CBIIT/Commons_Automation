@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CCDI_Participants_TblNextBtn</name>
+   <tag></tag>
+   <elementGuidId>0b574b94-93cd-4891-aebd-75c0531284b2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;participant_tab_table&quot;]/div[3]/div/div/div[3]/button[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;participant_tab_table&quot;]/div[3]/div/div/div[3]/button[2]</value>
+      <webElementGuid>eb53979c-b061-4b51-8980-223a6d3c86f4</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
