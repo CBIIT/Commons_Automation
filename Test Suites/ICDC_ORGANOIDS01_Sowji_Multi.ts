@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>f2854e1e-0716-429e-acbd-a60b0bf5c9ea</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Canine_TestCases/StudyCombinations/Study-Combinations-ORGANOIDS01/TC01_Canine_StudyORGANOIDS01-Diagnosis_Sex</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -42,7 +42,7 @@
    <testCaseLink>
       <guid>67afeb09-54e3-4e9d-884e-773f6754cdb2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Canine_TestCases/StudyCombinations/Study-Combinations-ORGANOIDS01/TC05_Canine_StudyORGANOIDS01-NeuterStatus-FileType-FileFormat</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
