@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>StudyName-Txtbx</name>
+   <name>ExpectedPubDate-Clndr</name>
    <tag></tag>
-   <elementGuidId>932bbd9e-b6f4-404d-852d-255aea4e98fc</elementGuidId>
+   <elementGuidId>7c754728-a27d-45c3-bf1b-acf10a12022b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;section-b-study-name&quot;]</value>
+         <value>//*[@id=&quot;section-b-planned-publication-0-expected-publication-date&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;section-b-study-name&quot;]</value>
-      <webElementGuid>75d00bd0-71d1-4ffc-9ee0-54b3cc312856</webElementGuid>
+      <value>//*[@id=&quot;section-b-planned-publication-0-expected-publication-date&quot;]</value>
+      <webElementGuid>3a1b47e9-7e60-413e-b2a7-bd59c43df0d9</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

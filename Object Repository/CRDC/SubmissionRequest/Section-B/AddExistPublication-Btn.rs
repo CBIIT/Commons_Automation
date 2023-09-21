@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>StudyAcronym-Txtbx</name>
+   <name>AddExistPublication-Btn</name>
    <tag></tag>
-   <elementGuidId>546b09b4-6de6-4576-8806-bcbbb99a319a</elementGuidId>
+   <elementGuidId>b2bd4e13-f145-453d-b2e4-8b3a28504762</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;section-b-study-abbreviation-or-acronym&quot;]</value>
+         <value>//*[@id=&quot;section-b-add-publication-button&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;section-b-study-abbreviation-or-acronym&quot;]</value>
-      <webElementGuid>cdbb4c6c-0045-41ac-9787-8ee8ce717614</webElementGuid>
+      <value>//*[@id=&quot;section-b-add-publication-button&quot;]</value>
+      <webElementGuid>b07570e4-6203-4552-b2cf-16fe3b494c6f</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

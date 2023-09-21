@@ -69,5 +69,17 @@ WebUI.waitForElementPresent(findTestObject('CRDC/SubmissionRequest/Next-Btn'), 5
 
 WebUI.click(findTestObject('CRDC/SubmissionRequest/Next-Btn'))
 
+CustomKeywords.'ctdc.utilities.functions.enterProgramInfo'('Other', 6, 6, 6)
+
+CustomKeywords.'ctdc.utilities.functions.enterStudyInfo'(1, 1, 1)
+
+CustomKeywords.'ctdc.utilities.functions.enterFundingAgencyAndDbGaPInfo'(1, 1 , 1, 1, 1)
+
+CustomKeywords.'ctdc.utilities.functions.enterPublicationsInfo'(1, 1, 1, 1)
+
+CustomKeywords.'ctdc.utilities.functions.enterRepositoryInfo'('Clinical', 1, 1, 1)
+
 WebUI.delay(5)
+
+
 

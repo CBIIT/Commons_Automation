@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>AddPublication-Btn</name>
+   <name>Program-dd-values</name>
    <tag></tag>
-   <elementGuidId>b2bd4e13-f145-453d-b2e4-8b3a28504762</elementGuidId>
+   <elementGuidId>74ad69b6-37e9-4b5f-be72-ac54d8084777</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;section-b-add-publication-button&quot;]</value>
+         <value>//*[contains(text(),'Other')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;section-b-add-publication-button&quot;]</value>
-      <webElementGuid>b07570e4-6203-4552-b2cf-16fe3b494c6f</webElementGuid>
+      <value>//*[contains(text(),'Other')]</value>
+      <webElementGuid>bccc0d52-dfbc-4dac-bee7-3e4871acaf1c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

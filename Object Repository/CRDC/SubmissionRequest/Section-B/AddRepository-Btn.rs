@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;:ru:&quot;]/div[6]/div[1]/div/div/div/button</value>
+         <value>//*[@id=&quot;section-b-add-repository-button&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;:ru:&quot;]/div[6]/div[1]/div/div/div/button</value>
-      <webElementGuid>662fde2d-713a-42cc-9537-74abee697239</webElementGuid>
+      <value>//*[@id=&quot;section-b-add-repository-button&quot;]</value>
+      <webElementGuid>bd8d9ccc-72d3-475f-8333-edbac5eaae35</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
