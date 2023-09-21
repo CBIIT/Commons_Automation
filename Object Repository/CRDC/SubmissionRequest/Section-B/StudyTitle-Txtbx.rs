@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>dbGapRegistered-TogleBtn</name>
+   <name>StudyTitle-Txtbx</name>
    <tag></tag>
-   <elementGuidId>12e6585c-813d-4187-9eac-2106f65d467b</elementGuidId>
+   <elementGuidId>f83bb264-f68b-4e91-a760-56fb7bdff8f7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;section-b-dbGaP-registration&quot;]</value>
+         <value>//*[@id=&quot;section-b-study-title&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;section-b-dbGaP-registration&quot;]</value>
-      <webElementGuid>8916c38b-7965-45f9-9581-78927110f651</webElementGuid>
+      <value>//*[@id=&quot;section-b-study-title&quot;]</value>
+      <webElementGuid>4f7e7862-6a2f-42ea-9f61-bbfa4686f571</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

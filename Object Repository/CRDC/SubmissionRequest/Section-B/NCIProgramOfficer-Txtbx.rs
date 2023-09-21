@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>NCIProgramOfficerName-Txtbx</name>
+   <name>NCIProgramOfficer-Txtbx</name>
    <tag></tag>
    <elementGuidId>0d4a7cee-9374-43ac-a748-9f75de9aa549</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;:r8s:&quot;]</value>
+         <value>//*[@id=&quot;section-b-nci-program-officer&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;:r8s:&quot;]</value>
-      <webElementGuid>09098cb3-9935-4449-9c48-3e260be8cca7</webElementGuid>
+      <value>//*[@id=&quot;section-b-nci-program-officer&quot;]</value>
+      <webElementGuid>44ab5722-869a-4def-b150-a038b810fe73</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

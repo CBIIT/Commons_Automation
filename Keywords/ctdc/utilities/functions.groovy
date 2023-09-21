@@ -328,7 +328,7 @@ class functions extends runtestcaseforKatalon implements Comparator<List<XSSFCel
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		WebUI.waitForPageLoad(10)
 	}
-	
+
 	/**
 	 * This function gets the system's current date
 	 * @param format i.e MM/DD/YYYY
@@ -340,8 +340,8 @@ class functions extends runtestcaseforKatalon implements Comparator<List<XSSFCel
 		String formattedDate = dateFormat.format(currentDate);
 		return formattedDate;
 	}
-	
-	
+
+
 	/**
 	 * This function validates CRDC Submission Request status bar
 	 * @param Status to be validated i.e New, Submitted
@@ -355,8 +355,8 @@ class functions extends runtestcaseforKatalon implements Comparator<List<XSSFCel
 		WebUI.verifyMatch(actualStatus, expStatus, false)
 		WebUI.verifyMatch(actualDate, getCurrentDate("M/d/yyyy"), false)
 	}
-	
-	
+
+
 	/**
 	 * This function clears text from a text field
 	 * @return String
@@ -366,90 +366,201 @@ class functions extends runtestcaseforKatalon implements Comparator<List<XSSFCel
 	}
 
 	/**
-	 *
 	 * @param dataFileRowNum Please add data file row number to be read
-	 * @throws IOException
 	 */
 	@Keyword
-	public static void enterPiInfo(int fNameRowNum, int lNameRowNum, int positnRowNum, int emailRowNum, int institRowNum, int institAddRowNum) throws IOException {
-		
+	public static void enterPiInfo(int fNameRN, int lNameRN, int positnRN, int emailRN, int institRN, int instAddRN){
+
 		String path = "CRDC/SubmissionRequest/Section-A/";
 		String filePath = "CRDC/SubmissionRequest/Section-A/principal-investigator";
-		
-		WebUI.setText(findTestObject(path+'PI_FirstName-Txtbx'), clearText() + findTestData(filePath).getValue('pi-first-name', fNameRowNum));
-
-		WebUI.setText(findTestObject(path+'PI_LastName-Txtbx'), clearText() + findTestData(filePath).getValue('pi-last-name', lNameRowNum));
-
-		WebUI.setText(findTestObject(path+'PI_Position-Txtbx'), clearText() + findTestData(filePath).getValue('position', positnRowNum));
-
-		WebUI.setText(findTestObject(path+'PI_Email-Txtbx'), clearText() + findTestData(filePath).getValue('pi-email', emailRowNum));
-
-		WebUI.setText(findTestObject(path+'PI_Institution-Dd'), clearText() + findTestData(filePath).getValue('pi-institution', institRowNum));
-		
-		WebUI.setText(findTestObject(path+'PI_InstitAddress-Txtbx'), clearText() + findTestData(filePath).getValue('pi-instit-address', institAddRowNum));
-		
+		WebUI.setText(findTestObject(path+'PI_FirstName-Txtbx'), clearText() + findTestData(filePath).getValue('pi-first-name', fNameRN));
+		WebUI.setText(findTestObject(path+'PI_LastName-Txtbx'), clearText() + findTestData(filePath).getValue('pi-last-name', lNameRN));
+		WebUI.setText(findTestObject(path+'PI_Position-Txtbx'), clearText() + findTestData(filePath).getValue('position', positnRN));
+		WebUI.setText(findTestObject(path+'PI_Email-Txtbx'), clearText() + findTestData(filePath).getValue('pi-email', emailRN));
+		WebUI.setText(findTestObject(path+'PI_Institution-Dd'), clearText() + findTestData(filePath).getValue('pi-institution', institRN));
+		WebUI.setText(findTestObject(path+'PI_InstitAddress-Txtbx'), clearText() + findTestData(filePath).getValue('pi-instit-address', instAddRN));
 		System.out.println("Successfully entered PI information");
-		
 	}
 
+
 	/**
-	 *
 	 * @param dataFileRowNum Please add data file row number to be read
-	 * @throws IOException
 	 */
 	@Keyword
-	public static void enterPrimaryContactInfo(int fNameRowNum, int lNameRowNum, int positnRowNum, int emailRowNum, int institRowNum, int phRowNum) {
+	public static void enterPrimaryContactInfo(int fNameRN, int lNameRN, int positnRN, int emailRN, int institRN, int phoneRN){
 
 		String path = "CRDC/SubmissionRequest/Section-A/";
 		String filePath = "CRDC/SubmissionRequest/Section-A/primary-contact";
-		
-		WebUI.setText(findTestObject(path+'PC_FirstName-Txtbx'), clearText() + findTestData(filePath).getValue('pc-first-name', fNameRowNum));
-
-		WebUI.setText(findTestObject(path+'PC_LastName-Txtbx'), clearText() + findTestData(filePath).getValue('pc-last-name', lNameRowNum));
-
-		WebUI.setText(findTestObject(path+'PC_Position-Txtbx'), clearText() + findTestData(filePath).getValue('pc-position', positnRowNum));
-
-		WebUI.setText(findTestObject(path+'PC_Email-Txtbx'), clearText() + findTestData(filePath).getValue('pc-email', emailRowNum));
-
-		WebUI.setText(findTestObject(path+'PC_Institution-Dd'), clearText() + findTestData(filePath).getValue('pc-institution', institRowNum));
-		
-		WebUI.setText(findTestObject(path+'PC_Phone-Txtbx'), clearText() + findTestData(filePath).getValue('pc-phone', phRowNum));
-		
+		WebUI.setText(findTestObject(path+'PC_FirstName-Txtbx'), findTestData(filePath).getValue('pc-first-name', fNameRN));
+		WebUI.setText(findTestObject(path+'PC_LastName-Txtbx'), findTestData(filePath).getValue('pc-last-name', lNameRN));
+		WebUI.setText(findTestObject(path+'PC_Position-Txtbx'), findTestData(filePath).getValue('pc-position', positnRN));
+		WebUI.setText(findTestObject(path+'PC_Email-Txtbx'), findTestData(filePath).getValue('pc-email', emailRN));
+		WebUI.setText(findTestObject(path+'PC_Institution-Dd'), findTestData(filePath).getValue('pc-institution', institRN));
+		WebUI.setText(findTestObject(path+'PC_Phone-Txtbx'), findTestData(filePath).getValue('pc-phone', phoneRN));
 		System.out.println("Successfully entered primary contact information");
 	}
 
 
 	/**
-	 *
 	 * @param dataFileRowNum Please add data file row number to be read
-	 * @throws IOException
 	 */
 	@Keyword
-	public static void enterAdditionalContactInfo(int fNameRowNum, int lNameRowNum, int positnRowNum, int emailRowNum, int institRowNum, int phRowNum) {
-		
+	public static void enterAdditionalContactInfo(int fNameRN, int lNameRN, int positnRN, int emailRN, int institRN, int phoneRN) {
+
 		String path = "CRDC/SubmissionRequest/Section-A/";
 		String filePath = "CRDC/SubmissionRequest/Section-A/additional-contact";
-		
 		WebUI.waitForElementPresent(findTestObject(path+'AddContact-Btn'), 5)
 		WebUI.click(findTestObject(path+'AddContact-Btn'))
-
-		WebUI.setText(findTestObject(path+'AC_FirstName-Txtbx'), clearText() + findTestData(filePath).getValue('ac-first-name', fNameRowNum));
-
-		WebUI.setText(findTestObject(path+'AC_LastName-Txtbx'), clearText() + findTestData(filePath).getValue('ac-last-name', lNameRowNum));
-
-		WebUI.setText(findTestObject(path+'AC_Position-Txtbx'), clearText() + findTestData(filePath).getValue('ac-position', positnRowNum));
-
-		WebUI.setText(findTestObject(path+'AC_Email-Txtbx'), clearText() + findTestData(filePath).getValue('ac-email', emailRowNum));
-
-		WebUI.setText(findTestObject(path+'AC_Institution-Dd'), clearText() + findTestData(filePath).getValue('ac-institution', institRowNum));
-		
-		WebUI.setText(findTestObject(path+'AC_Phone-Txtbx'), clearText() + findTestData(filePath).getValue('ac-phone', phRowNum));
-		
+		WebUI.setText(findTestObject(path+'AC_FirstName-Txtbx'), findTestData(filePath).getValue('ac-first-name', fNameRN));
+		WebUI.setText(findTestObject(path+'AC_LastName-Txtbx'), findTestData(filePath).getValue('ac-last-name', lNameRN));
+		WebUI.setText(findTestObject(path+'AC_Position-Txtbx'), findTestData(filePath).getValue('ac-position', positnRN));
+		WebUI.setText(findTestObject(path+'AC_Email-Txtbx'), findTestData(filePath).getValue('ac-email', emailRN));
+		WebUI.setText(findTestObject(path+'AC_Institution-Dd'), findTestData(filePath).getValue('ac-institution', institRN));
+		WebUI.setText(findTestObject(path+'AC_Phone-Txtbx'), findTestData(filePath).getValue('ac-phone', phoneRN));
 		System.out.println("Successfully entered additional contact information");
 	}
 
+	/**
+	 * @param dataFileRowNum Please add data file row number to be read
+	 */
+	@Keyword
+	public static void enterProgramInfo(String ddValue, int progTitleRN, int progAbbRN, int progDesRN) {
+
+		Thread.sleep(1000);
+		String path = "CRDC/SubmissionRequest/Section-B/";
+		String filePath = "CRDC/SubmissionRequest/Section-B/program-study";
+
+	
+		WebUI.waitForElementPresent(findTestObject(path+'Program-Dd'), 5)
+		WebUI.click(findTestObject(path+'Program-Dd'))
+		Thread.sleep(1000);
+
+		//String xpath = findTestObject(path+"Program-dd-value"+ddValue+"')]");
+		//System.out.println(xpath);
+		//WebUI.waitForElementPresent(findTestObject(element), 5)
+		WebUI.click(findTestObject(path+"Program-dd-values")) //This is working as expected
+		//WebUI.click(findTestObject('//*[normalize-space(text())='${program-dd-values}']'))
+		//*[normalize-space(text())='${dashboard}']
+
+		//		Actions actions = new Actions(driver)
+		//		WebElement ddV = driver.findElement(By.xpath(xpath))
+		//		//actions.moveToElement(element).build().perform()
+		//		actions.moveToElement(ddV).click().build().perform()
+		//		ddV.click();
 
 
+		if(ddValue.equals("Other")) {
+
+			WebUI.setText(findTestObject(path+'ProgramTitle-TxtBx'), findTestData(filePath).getValue('program-title', progTitleRN)+getCurrentDate("M-d-yyyy-HH:mm"));
+			WebUI.setText(findTestObject(path+'ProgramAbbreviation-Txtbx'), findTestData(filePath).getValue('prog-abbreviation', progAbbRN)+getCurrentDate("M-d-yyyy-HH-mm"));
+			WebUI.setText(findTestObject(path+'ProgramDescription-Txtbx'), findTestData(filePath).getValue('prog-description', progDesRN));
+
+		}
+
+		//		WebUI.setText(findTestObject(path+'AC_Email-Txtbx'), clearText() + findTestData(filePath).getValue('ac-email', emailRN));
+		//		WebUI.setText(findTestObject(path+'AC_Institution-Dd'), clearText() + findTestData(filePath).getValue('ac-institution', institRN));
+		//		WebUI.setText(findTestObject(path+'AC_Phone-Txtbx'), clearText() + findTestData(filePath).getValue('ac-phone', phoneRN));
+
+		System.out.println("Successfully entered program information");
+	}
+
+	/**
+	 * This function enters study information in submission request form
+	 * @param dataFileRowNum Please add data file row number to be read
+	 */
+	@Keyword
+	public static void enterStudyInfo(int stdyTitleRN, int stdyAbbRN, int stdyDesRN) {
+
+		Thread.sleep(1000);
+		String path = "CRDC/SubmissionRequest/Section-B/";
+		String filePath = "CRDC/SubmissionRequest/Section-B/program-study";
+		WebUI.setText(findTestObject(path+'StudyTitle-Txtbx'), findTestData(filePath).getValue('study-title', stdyTitleRN)+ getCurrentDate("M-d-yyyy-HH:mm"));
+		WebUI.setText(findTestObject(path+'StudyAbbre-Txtbx'), findTestData(filePath).getValue('study-abbreviation', stdyAbbRN)+getCurrentDate("M-d-yyyy-HH-mm"));
+		WebUI.setText(findTestObject(path+'StudyDescription-Txtbx'), findTestData(filePath).getValue('study-description', stdyDesRN));
+		System.out.println("Successfully entered Study information");
+	}
+
+	/**
+	 * This function enters study information in submission request form
+	 * @param dataFileRowNum Please add data file row number to be read
+	 */
+	@Keyword
+	public static void enterFundingAgencyAndDbGaPInfo(int fundinAgency, int grntRN, int nciPgogOfcrRN, int nciGenProgAdmnRN, int dbgapPhsNumRN) {
+
+		Thread.sleep(1000);
+		String path = "CRDC/SubmissionRequest/Section-B/";
+		String filePath = "CRDC/SubmissionRequest/Section-B/funding-agency-dbGaP";
+		WebUI.setText(findTestObject(path+'FundingAgency-Dd'), findTestData(filePath).getValue('funding-agency', fundinAgency));
+		WebUI.setText(findTestObject(path+'GrantContractNumber-Txtbx'), findTestData(filePath).getValue('grant-number', grntRN));
+		WebUI.setText(findTestObject(path+'NCIProgramOfficer-Txtbx'), findTestData(filePath).getValue('nci-prog-officer', nciPgogOfcrRN));
+		WebUI.setText(findTestObject(path+'NciGenProgAdministrator-Txtbx'), findTestData(filePath).getValue('nci-genomic-prog-admin', nciGenProgAdmnRN));
+		
+		String isRegistered = WebUI.getAttribute(findTestObject(path+'yesNoParentTag-TogleBtn'), 'class')
+
+		if(!isRegistered.contains("checked")) {
+			WebUI.click(findTestObject(path+"dbGapRegistered-TogleBtn"))
+			WebUI.setText(findTestObject(path+'dbGapPHSNumber-Txtbx'), findTestData(filePath).getValue('dbgap-phs-num', dbgapPhsNumRN));
+		}else {
+			WebUI.setText(findTestObject(path+'dbGapPHSNumber-Txtbx'), findTestData(filePath).getValue('dbgap-phs-num', dbgapPhsNumRN));
+		}
+
+		System.out.println("Successfully entered Funding Agency and dbGaP information");
+	}
+
+	
+	/**
+	 * This function enters Publication in submission request form
+	 * @param dataFileRowNum Please add data file row number to be read
+	 */
+	@Keyword
+	public static void enterPublicationsInfo(int publiTitRN, int pubmedIdRN, int doiRN, int plndPublTitleRN) {
+
+		String path = "CRDC/SubmissionRequest/Section-B/";
+		String filePath = "CRDC/SubmissionRequest/Section-B/publication-repository";
+		
+		WebUI.click(findTestObject(path+"AddExistPublication-Btn"))
+		Thread.sleep(500);
+		WebUI.setText(findTestObject(path+'PublicationTitle-Txtbx'), findTestData(filePath).getValue('publication-title', publiTitRN));
+		WebUI.setText(findTestObject(path+'PubMedID-Txtbx'), findTestData(filePath).getValue('pubmed-id', pubmedIdRN));
+		WebUI.setText(findTestObject(path+'DOI-Txtbx'), findTestData(filePath).getValue('doi', doiRN));
+		
+		WebUI.click(findTestObject(path+"AddPlannedPublication-Btn"))
+		Thread.sleep(500);
+		WebUI.scrollToElement(findTestObject(path+'PlannedPublicationTitle-Txtbx'), 3)
+		WebUI.setText(findTestObject(path+'PlannedPublicationTitle-Txtbx'), findTestData(filePath).getValue('pland-publictn-title', plndPublTitleRN));
+		WebUI.setText(findTestObject(path+'ExpectedPubDate-Clndr'), getCurrentDate("MM/dd/yyyy"));
+		
+		System.out.println("Successfully entered Publications information");
+	}
+	
+	/**
+	 * This function enters Repository in submission request form
+	 * @param dataFileRowNum Please add data file row number to be read
+	 */
+	@Keyword
+	public static void enterRepositoryInfo(String dataTypeValue, int repoNamRN, int stdyIdRN, int otherDataTypRN) {
+
+		GlobalVariable.G_CrdcDropDownValue=dataTypeValue;
+		String path = "CRDC/SubmissionRequest/Section-B/";
+		String filePath = "CRDC/SubmissionRequest/Section-B/publication-repository";
+		
+		WebUI.click(findTestObject(path+"AddRepository-Btn"))
+		Thread.sleep(500);
+		WebUI.setText(findTestObject(path+'RepositoryName-Txtbx'), findTestData(filePath).getValue('repository-name', repoNamRN));
+		WebUI.setText(findTestObject(path+'StudyID-Txtbx'), findTestData(filePath).getValue('study-id', stdyIdRN));
+		
+		WebUI.click(findTestObject(path+'DataTypesSubmitd-Dd'));
+		
+		Thread.sleep(2000);
+		WebUI.click(findTestObject(path+'DataTypesSubmitdDropDown-Values'));
+
+		WebUI.sendKeys(findTestObject(path+'OtherDataTypes-Txtbx'), Keys.chord(Keys.TAB))
+		WebUI.setText(findTestObject(path+'OtherDataTypes-Txtbx'), findTestData(filePath).getValue('other-data-types', otherDataTypRN));
+		
+		System.out.println("Successfully entered Repository information");
+	}
+	
+	
 	/**
 	 * The function is used to login to CRDC application.
 	 */
@@ -478,46 +589,46 @@ class functions extends runtestcaseforKatalon implements Comparator<List<XSSFCel
 		WebUI.waitForElementPresent(findTestObject('CRDC/Login/Login.gov_SignIn-Btn'), 5)
 		WebUI.click(findTestObject('CRDC/Login/Login.gov_SignIn-Btn'))
 
-//		for (int i=1; i<=3; i++) {
-//
-//			WebUI.waitForElementPresent(findTestObject('CRDC/Login/Login.gov_BackupSecurityCode-TxtBx'), 5)
-//
-//			WebUI.setText(findTestObject('CRDC/Login/Login.gov_BackupSecurityCode-TxtBx'),
-//					findTestData('CRDC/Login/LoginData').getValue('sec-backup-codes', i))
-//			System.out.println("Entering backup code: " + findTestData('CRDC/Login/LoginData').getValue('sec-backup-codes', i));
-//
-//			WebUI.waitForElementPresent(findTestObject('CRDC/Login/Login.gov_OneTimeCode_Submit-Btn'), 5)
-//			WebUI.click(findTestObject('CRDC/Login/Login.gov_OneTimeCode_Submit-Btn'))
-//
-//			Thread.sleep(3000);
-//			String url = WebUI.getUrl();
-//
-//			if (url.contains("idp.int.identity")) {
-//
-//				System.out.println("Current URL is: "+ url);
-//				System.out.println("Old code detected, Trying new code...");
-//
-//			} else {
-//				System.out.println("Valid Code, Continuing with Consent");
-//				break;
-//			}
-//		}
+		//		for (int i=1; i<=3; i++) {
+		//
+		//			WebUI.waitForElementPresent(findTestObject('CRDC/Login/Login.gov_BackupSecurityCode-TxtBx'), 5)
+		//
+		//			WebUI.setText(findTestObject('CRDC/Login/Login.gov_BackupSecurityCode-TxtBx'),
+		//					findTestData('CRDC/Login/LoginData').getValue('sec-backup-codes', i))
+		//			System.out.println("Entering backup code: " + findTestData('CRDC/Login/LoginData').getValue('sec-backup-codes', i));
+		//
+		//			WebUI.waitForElementPresent(findTestObject('CRDC/Login/Login.gov_OneTimeCode_Submit-Btn'), 5)
+		//			WebUI.click(findTestObject('CRDC/Login/Login.gov_OneTimeCode_Submit-Btn'))
+		//
+		//			Thread.sleep(3000);
+		//			String url = WebUI.getUrl();
+		//
+		//			if (url.contains("idp.int.identity")) {
+		//
+		//				System.out.println("Current URL is: "+ url);
+		//				System.out.println("Old code detected, Trying new code...");
+		//
+		//			} else {
+		//				System.out.println("Valid Code, Continuing with Consent");
+		//				break;
+		//			}
+		//		}
 
 
 		WebUI.waitForElementPresent(findTestObject('CRDC/Login/Login.gov_ConsentGrant-Btn'), 5)
 		WebUI.click(findTestObject('CRDC/Login/Login.gov_ConsentGrant-Btn'))
 
-//		if(WebUI.getUrl().contains("hub")) {
-//			WebUI.waitForElementPresent(findTestObject('CRDC/Login/UserProfile-Dd'), 5)
-//			WebUI.verifyElementPresent(findTestObject('CRDC/Login/UserProfile-Dd'), 5)
-//			String userName = WebUI.getText(findTestObject('CRDC/Login/UserProfile-Dd'));
-//
-//			if(userName.contains("KATALON"))
-//				System.out.println("User " + userName + " sucessfully logged in");
-//			System.out.println("Current URL is: "+ WebUI.getUrl());
-//		}else {
-//			System.err.println("Landed on the wrong page!");
-//		}
+		//		if(WebUI.getUrl().contains("hub")) {
+		//			WebUI.waitForElementPresent(findTestObject('CRDC/Login/UserProfile-Dd'), 5)
+		//			WebUI.verifyElementPresent(findTestObject('CRDC/Login/UserProfile-Dd'), 5)
+		//			String userName = WebUI.getText(findTestObject('CRDC/Login/UserProfile-Dd'));
+		//
+		//			if(userName.contains("KATALON"))
+		//				System.out.println("User " + userName + " sucessfully logged in");
+		//			System.out.println("Current URL is: "+ WebUI.getUrl());
+		//		}else {
+		//			System.err.println("Landed on the wrong page!");
+		//		}
 
 
 

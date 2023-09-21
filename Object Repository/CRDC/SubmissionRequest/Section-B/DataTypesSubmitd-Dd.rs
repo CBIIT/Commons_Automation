@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>PlannedPub_ExpectedPubDate-Clndr</name>
+   <name>DataTypesSubmitd-Dd</name>
    <tag></tag>
-   <elementGuidId>7c754728-a27d-45c3-bf1b-acf10a12022b</elementGuidId>
+   <elementGuidId>18941fa1-d9fb-43c8-a946-cc686ae9cc8e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;section-aadditionalContacts-0-last-name&quot;]</value>
+         <value>//*[@id=&quot;section-b-repository-0-data-types-submitted&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;section-aadditionalContacts-0-last-name&quot;]</value>
-      <webElementGuid>4e29199a-2394-4778-a36e-f1bcd7d6cde6</webElementGuid>
+      <value>//*[@id=&quot;section-b-repository-0-data-types-submitted&quot;]</value>
+      <webElementGuid>f245a903-198c-46ba-910a-2950086a32ea</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

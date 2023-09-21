@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;:r8r:&quot;]</value>
+         <value>//*[@id=&quot;section-b-grant-or-contract-numbers&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;:r8r:&quot;]</value>
-      <webElementGuid>3c125d55-7835-4ccc-92e8-be31b60e22b9</webElementGuid>
+      <value>//*[@id=&quot;section-b-grant-or-contract-numbers&quot;]</value>
+      <webElementGuid>7da1255f-621d-4f99-8f57-d3c1c0c56e46</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
