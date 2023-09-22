@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ConfirmDataSubAreDeIdenified-slidrBtn</name>
+   <name>OtherCancerTypes-Txtbx</name>
    <tag></tag>
-   <elementGuidId>f90da658-e2ee-4164-acad-a694ac6c8d5c</elementGuidId>
+   <elementGuidId>9f45e6d8-37e3-46b1-b83a-b8bd4b0242a1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;section-c-data-de-identified&quot;]</value>
+         <value>//*[@id=&quot;section-c-other-cancer-types&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;section-c-data-de-identified&quot;]</value>
-      <webElementGuid>113ce3ef-b8f8-4046-be43-c30924cef30e</webElementGuid>
+      <value>//*[@id=&quot;section-c-other-cancer-types&quot;]</value>
+      <webElementGuid>c1c45f2b-c171-418a-b307-2bd6a9ee66b5</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -51,6 +51,8 @@ CustomKeywords.'ctdc.utilities.functions.loginToCrdc'()
 //WebUI.click(findTestObject('CRDC/NavBar/SubmissionRequest-Tab'))
 WebUI.waitForElementPresent(findTestObject('CRDC/NavBar/Start_a_SubmissionRequest-Btn'), 5)
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('CRDC/NavBar/Start_a_SubmissionRequest-Btn'), FailureHandling.STOP_ON_FAILURE)
 
 CustomKeywords.'ctdc.utilities.functions.verifyStatusBar'('NEW')
@@ -61,25 +63,30 @@ CustomKeywords.'ctdc.utilities.functions.enterPrimaryContactInfo'(2, 2, 2, 2, 10
 
 CustomKeywords.'ctdc.utilities.functions.enterAdditionalContactInfo'(2, 1, 2, 2, 11, 2)
 
-WebUI.waitForElementPresent(findTestObject('CRDC/SubmissionRequest/Save-Btn'), 5)
-
 WebUI.click(findTestObject('CRDC/SubmissionRequest/Save-Btn'))
-
-WebUI.waitForElementPresent(findTestObject('CRDC/SubmissionRequest/Next-Btn'), 5)
 
 WebUI.click(findTestObject('CRDC/SubmissionRequest/Next-Btn'))
 
-CustomKeywords.'ctdc.utilities.functions.enterProgramInfo'('Other', 6, 6, 6)
+CustomKeywords.'ctdc.utilities.functions.enterProgramInfo'('DCCPS', 6, 6, 6)
 
 CustomKeywords.'ctdc.utilities.functions.enterStudyInfo'(1, 1, 1)
 
-CustomKeywords.'ctdc.utilities.functions.enterFundingAgencyAndDbGaPInfo'(1, 1 , 1, 1, 1)
+CustomKeywords.'ctdc.utilities.functions.enterFundingAgencyAndDbGaPInfo'(1, 1, 1, 1, 1)
 
 CustomKeywords.'ctdc.utilities.functions.enterPublicationsInfo'(1, 1, 1, 1)
 
 CustomKeywords.'ctdc.utilities.functions.enterRepositoryInfo'('Clinical', 1, 1, 1)
 
-WebUI.delay(5)
+WebUI.click(findTestObject('CRDC/SubmissionRequest/Save-Btn'))
 
+WebUI.click(findTestObject('CRDC/SubmissionRequest/Next-Btn'))
+
+CustomKeywords.'ctdc.utilities.functions.enterDataAccessAndDiseaseInfo'('Cholangiocarcinomaetc', 'Breast', 'Mus', 1, 1)
+
+WebUI.click(findTestObject('CRDC/SubmissionRequest/Save-Btn'))
+
+WebUI.click(findTestObject('CRDC/SubmissionRequest/Next-Btn'))
+
+WebUI.delay(5)
 
 

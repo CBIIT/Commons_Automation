@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>DataTypesSubmitdDropDown-Values</name>
+   <name>CrdcDdValue</name>
    <tag></tag>
-   <elementGuidId>8fb67dd5-11ed-4ead-8afd-083278de9411</elementGuidId>
+   <elementGuidId>305e90b5-ba5a-43ae-aa1b-5d6d1debe76d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -18,6 +18,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[contains(text(), '${GlobalVariable.G_CrdcDropDownValue}')]</value>
-      <webElementGuid>3c34cb90-2157-453f-a4f7-9f8670a82ab0</webElementGuid>
+      <webElementGuid>d7096a73-11fd-43d7-a525-cd95f613e94a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

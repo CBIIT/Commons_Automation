@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;section-b-study-title&quot;]</value>
+         <value>//*[@id=&quot;section-b-repository-0-study-id&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;section-b-study-title&quot;]</value>
-      <webElementGuid>57d9f921-15f3-4f18-9a0b-e9d0a187e19a</webElementGuid>
+      <value>//*[@id=&quot;section-b-repository-0-study-id&quot;]</value>
+      <webElementGuid>1f1992c5-f499-43e5-ab97-03b0a0c7f812</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

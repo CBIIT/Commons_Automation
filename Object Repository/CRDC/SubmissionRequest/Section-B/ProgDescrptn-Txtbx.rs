@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ProgramDescription-Txtbx</name>
+   <name>ProgDescrptn-Txtbx</name>
    <tag></tag>
    <elementGuidId>0ca200ef-bdfa-4c22-8817-49de17a0eec7</elementGuidId>
    <selectorCollection>
