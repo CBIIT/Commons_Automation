@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>OtherCancerTypeNotIncluded-Txtbx</name>
+   <name>ConfirmDataSubAreDeIdenified-No-RdoBtn</name>
    <tag></tag>
-   <elementGuidId>9f45e6d8-37e3-46b1-b83a-b8bd4b0242a1</elementGuidId>
+   <elementGuidId>5e9187c5-4223-40ef-8fda-21a12208fafa</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;section-c-other-cancer-types&quot;]</value>
+         <value>//*[@id=&quot;section-c-data-de-identified-no-radio-button&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;section-c-other-cancer-types&quot;]</value>
-      <webElementGuid>c1c45f2b-c171-418a-b307-2bd6a9ee66b5</webElementGuid>
+      <value>//*[@id=&quot;section-c-data-de-identified-no-radio-button&quot;]</value>
+      <webElementGuid>ae4dc75b-9785-443e-aaad-fb5a3ddf244e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
