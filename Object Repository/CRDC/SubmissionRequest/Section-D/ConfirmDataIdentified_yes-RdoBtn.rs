@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>OtherDataTypes-Txtbx</name>
+   <name>ConfirmDataIdentified_yes-RdoBtn</name>
    <tag></tag>
-   <elementGuidId>e9eaa3b5-03e1-43a9-acc3-352a317dac72</elementGuidId>
+   <elementGuidId>320302fa-193c-4f28-afe7-18a7b74a4eb9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;section-d-other-data-types&quot;]</value>
+         <value>//*[@id=&quot;section-d-imaging-de-identified-yes-radio-button&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;section-d-other-data-types&quot;]</value>
-      <webElementGuid>849c4227-4c96-4161-8599-5d430918c95d</webElementGuid>
+      <value>//*[@id=&quot;section-d-imaging-de-identified-yes-radio-button&quot;]</value>
+      <webElementGuid>3a3474dc-fed1-45b7-9f1e-f2241fa157fb</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

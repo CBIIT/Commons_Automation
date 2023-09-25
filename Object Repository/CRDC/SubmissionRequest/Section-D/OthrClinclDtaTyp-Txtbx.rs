@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>CrdcDdValue</name>
+   <name>OthrClinclDtaTyp-Txtbx</name>
    <tag></tag>
-   <elementGuidId>305e90b5-ba5a-43ae-aa1b-5d6d1debe76d</elementGuidId>
+   <elementGuidId>5caaa77f-e1c7-46e5-aa94-c92380e1513d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[contains(text(), '${GlobalVariable.G_CrdcUiElement}')]</value>
+         <value>//*[@id=&quot;section-d-clinical-data-other-data-types&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[contains(text(), '${GlobalVariable.G_CrdcUiElement}')]</value>
-      <webElementGuid>893ecbd5-e998-4c70-bb6a-70eeea27f13a</webElementGuid>
+      <value>//*[@id=&quot;section-d-clinical-data-other-data-types&quot;]</value>
+      <webElementGuid>74168059-3112-4538-b99f-643b0b1c8fb5</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

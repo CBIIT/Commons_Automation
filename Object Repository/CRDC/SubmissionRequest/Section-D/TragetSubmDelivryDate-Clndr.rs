@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>CrdcDdValue</name>
+   <name>TragetSubmDelivryDate-Clndr</name>
    <tag></tag>
-   <elementGuidId>305e90b5-ba5a-43ae-aa1b-5d6d1debe76d</elementGuidId>
+   <elementGuidId>c7203755-8c2b-40d9-9721-63b9604820d6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[contains(text(), '${GlobalVariable.G_CrdcUiElement}')]</value>
+         <value>//*[@id=&quot;section-d-targeted-data-submission-delivery-date&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[contains(text(), '${GlobalVariable.G_CrdcUiElement}')]</value>
-      <webElementGuid>893ecbd5-e998-4c70-bb6a-70eeea27f13a</webElementGuid>
+      <value>//*[@id=&quot;section-d-targeted-data-submission-delivery-date&quot;]</value>
+      <webElementGuid>2ad0924b-ca22-4aa2-95a1-0d8756443142</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
