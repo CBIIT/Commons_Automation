@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>CrdcDdValue</name>
+   <name>Back-Btn - Copy</name>
    <tag></tag>
-   <elementGuidId>305e90b5-ba5a-43ae-aa1b-5d6d1debe76d</elementGuidId>
+   <elementGuidId>f78c0f83-f346-49e0-86a3-7365ac18a812</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[contains(text(), '${GlobalVariable.G_CrdcUiElement}')]</value>
+         <value>//*[@id=&quot;progress-bar-section-D&quot;]/div/div[2]/div/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[contains(text(), '${GlobalVariable.G_CrdcUiElement}')]</value>
-      <webElementGuid>893ecbd5-e998-4c70-bb6a-70eeea27f13a</webElementGuid>
+      <value>//*[@id=&quot;progress-bar-section-D&quot;]/div/div[2]/div/span</value>
+      <webElementGuid>485cc6ab-7df4-43d8-8a19-084ca9cfddc9</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -365,13 +365,13 @@ class functions extends runtestcaseforKatalon implements Comparator<List<XSSFCel
 	public static String clearText() {
 		return Keys.chord(Keys.CONTROL, "a") + Keys.DELETE;
 	}
-	
+
 	/** Add the path to the web element**/
 	public static String ePath=null;
-	
+
 	/** Add the path to the data file**/
 	public static String fPath=null;
-	
+
 
 	/**
 	 * @param dataFileRowNum Please add data file row number to be read
@@ -381,7 +381,7 @@ class functions extends runtestcaseforKatalon implements Comparator<List<XSSFCel
 
 		ePath = "CRDC/SubmissionRequest/Section-A/";
 		fPath = "CRDC/SubmissionRequest/Section-A/principal-investigator";
-		
+
 		WebUI.setText(findTestObject(ePath+'PI_FirstName-Txtbx'), clearText() + findTestData(fPath).getValue('pi-first-name', fNameRN));
 		WebUI.setText(findTestObject(ePath+'PI_LastName-Txtbx'), clearText() + findTestData(fPath).getValue('pi-last-name', lNameRN));
 		WebUI.setText(findTestObject(ePath+'PI_Position-Txtbx'), clearText() + findTestData(fPath).getValue('position', positnRN));
@@ -426,34 +426,34 @@ class functions extends runtestcaseforKatalon implements Comparator<List<XSSFCel
 		System.out.println("Successfully entered additional contact information");
 	}
 
-	
+
 	public static String getUiValue(String field) {
 		return WebUI.getAttribute(findTestObject('CRDC/SubmissionRequest/Section-'+field), 'value');
 	}
-	
+
 	public static void verifyProgramFields(int rowNumber) {
 
 		ePath = "CRDC/SubmissionRequest/Section-B/";
 		fPath = "CRDC/SubmissionRequest/Section-B/program-study";
 		String actual=null;
 		String expctd=null;
-		
+
 		actual = WebUI.getAttribute(findTestObject(ePath+'ProgramTitle-TxtBx'), 'value')
 		expctd = findTestData(fPath).getValue('program-title', rowNumber);
 		System.out.println("Actual Program Title is: " + actual +"\nExpected Program Title is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
-		
+
 		actual = WebUI.getAttribute(findTestObject(ePath+'ProgAbbre-Txtbx'), 'value')
 		expctd = findTestData(fPath).getValue('prog-abbreviation', rowNumber);
 		System.out.println("Actual Program Abbreviation is: " + actual +"\nExpected Program Abbreviation is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
-		
+
 		actual = WebUI.getAttribute(findTestObject(ePath+'ProgDescrptn-Txtbx'), 'value')
 		expctd = findTestData(fPath).getValue('prog-description', rowNumber);
 		System.out.println("Actual Program Description is: " + actual +"\nExpected Program Description is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
 	}
-	
+
 	/**
 	 * @param dataFileRowNum Please add data file row number to be read
 	 */
@@ -464,30 +464,34 @@ class functions extends runtestcaseforKatalon implements Comparator<List<XSSFCel
 		Thread.sleep(1000);
 		WebUI.click(findTestObject(ePath+'Program-Dd'))
 		Thread.sleep(500);
-		GlobalVariable.G_CrdcDropDownValue=ddValue;
+		GlobalVariable.CrdcUiElement=ddValue;
 		WebUI.click(findTestObject('CRDC/SubmissionRequest/CrdcDdValue'))
 
 		if(ddValue.contains("Other")) {
 			WebUI.setText(findTestObject(ePath+'ProgramTitle-TxtBx'), findTestData(fPath).getValue('program-title', progTitleRN)+getCurrentDate("M-d-yyyy-HH:mm"));
 			WebUI.setText(findTestObject(ePath+'ProgAbbre-Txtbx'), findTestData(fPath).getValue('prog-abbreviation', progAbbRN)+getCurrentDate("M-d-yyyy-HH-mm"));
 			WebUI.setText(findTestObject(ePath+'ProgDescrptn-Txtbx'), findTestData(fPath).getValue('prog-description', progDesRN));
-			
+
 		}else if(ddValue.contains("CCDI")) {
-			
+
 			verifyProgramFields(2);
-			
+
 		}else if(ddValue.contains("CPTAC")) {
-			
+
 			verifyProgramFields(3);
 
 		}else if(ddValue.contains("DCCPS")) {
+
 			verifyProgramFields(4);
-			
+
 		}else if(ddValue.contains("HTAN")) {
+
 			verifyProgramFields(5);
-			
+
+		}else {
+			KeywordUtil.markFailed("Invalid Drop-down Value: Check enterProgramInfo function")
 		}
-		
+
 		System.out.println("Successfully entered program information");
 	}
 
@@ -569,15 +573,15 @@ class functions extends runtestcaseforKatalon implements Comparator<List<XSSFCel
 		WebUI.setText(findTestObject(ePath+'StudyID-Txtbx'), findTestData(fPath).getValue('study-id', stdyIdRN));
 		WebUI.click(findTestObject(ePath+'DataTypesSubmitd-Dd'));
 		Thread.sleep(500);
-		GlobalVariable.G_CrdcDropDownValue=dropDownVlue;
+		GlobalVariable.CrdcUiElement=dropDownVlue;
 		WebUI.click(findTestObject('CRDC/SubmissionRequest/CrdcDdValue'));
-		GlobalVariable.G_CrdcDropDownValue="Proteomics";
+		GlobalVariable.CrdcUiElement="Proteomics";
 		WebUI.sendKeys(findTestObject('CRDC/SubmissionRequest/CrdcDdValue'), Keys.chord(Keys.TAB))
 		WebUI.setText(findTestObject(ePath+'OtherDataTypes-Txtbx'), findTestData(fPath).getValue('other-data-types', otherDataTypRN));
 		System.out.println("Successfully entered Repository information");
 	}
-	
-	
+
+
 	/**
 	 * This function enters Data Access Types and Cancer Types in submission request form
 	 * @param dataFileRowNum Please add data file row number to be read
@@ -587,34 +591,71 @@ class functions extends runtestcaseforKatalon implements Comparator<List<XSSFCel
 
 		ePath = "CRDC/SubmissionRequest/Section-C/";
 		fPath = "CRDC/SubmissionRequest/Section-C/data-access-disease";
-		
+
 		WebUI.click(findTestObject(ePath+"OpenAccess-Chkbx"))
 		WebUI.click(findTestObject(ePath+"CancerTypes-Dd"))
-		GlobalVariable.G_CrdcDropDownValue=cancerType;
+		GlobalVariable.CrdcUiElement=cancerType;
 		WebUI.click(findTestObject('CRDC/SubmissionRequest/CrdcDdValue'))
-		
-		GlobalVariable.G_CrdcDropDownValue="Bone";
+
+		GlobalVariable.CrdcUiElement="Bone";
 		WebUI.sendKeys(findTestObject('CRDC/SubmissionRequest/CrdcDdValue'), Keys.chord(Keys.TAB))
 		WebUI.setText(findTestObject(ePath+'OtherCancerTypes-Txtbx'), findTestData(fPath).getValue('other-cancer-type', otherCancerTyRN));
-		
+
 		Thread.sleep(500);
 		WebUI.click(findTestObject(ePath+"PreCancerTypes-Dd"))
-		GlobalVariable.G_CrdcDropDownValue=preCancerType;
+		GlobalVariable.CrdcUiElement=preCancerType;
 		WebUI.click(findTestObject('CRDC/SubmissionRequest/CrdcDdValue'))
-		GlobalVariable.G_CrdcDropDownValue="Lung";
+		GlobalVariable.CrdcUiElement="Lung";
 		WebUI.sendKeys(findTestObject('CRDC/SubmissionRequest/CrdcDdValue'), Keys.chord(Keys.TAB))
 		WebUI.setText(findTestObject(ePath+'OtherPreCancerTypes-Txtbx'), findTestData(fPath).getValue('other-pre-cancer-type', otherPreCancerTyRN));
-		
+
 		Thread.sleep(500);
 		WebUI.click(findTestObject(ePath+"SpeciesOfSubjects-Dd"))
-		GlobalVariable.G_CrdcDropDownValue=speciesOfSub;
+		GlobalVariable.CrdcUiElement=speciesOfSub;
 		WebUI.click(findTestObject('CRDC/SubmissionRequest/CrdcDdValue'))
-		GlobalVariable.G_CrdcDropDownValue="Rattus";
+		GlobalVariable.CrdcUiElement="Rattus";
 		WebUI.sendKeys(findTestObject('CRDC/SubmissionRequest/CrdcDdValue'), Keys.chord(Keys.TAB))
 		WebUI.setText(findTestObject(ePath+'NumOfSubjectsIncludInSub-Txtbx'), findTestData(fPath).getValue('num-of-subjects-included', otherPreCancerTyRN));
 		WebUI.click(findTestObject(ePath+"CellLines-Chkbx"))
 		WebUI.click(findTestObject(ePath+"ConfirmDataSubAreDeIdenified-Yes-RdoBtn"))
 		System.out.println("Successfully entered Data Access Types and Cancer Types information");
+	}
+	
+	/**
+	 * This function selects Data Types of the submission request form
+	 * @param buttonLable Toggle button label to be clicked (enter only one word per toggle button)
+	 */
+	@Keyword
+	public static void selectDataTypes(String... buttonLable) {
+
+		ePath = "CRDC/SubmissionRequest/Section-D/";
+		fPath = "CRDC/SubmissionRequest/Section-D/data-types";
+
+		//Delete below first line when done with section-D
+		WebUI.click(findTestObject("CRDC/SubmissionRequest/Back-Btn - Copy"))
+		WebUI.setText(findTestObject(ePath+'TragetSubmDelivryDate-Clndr'), getCurrentDate("MM/dd/yyyy"));
+		WebUI.setText(findTestObject(ePath+'ExpctdPubliDate-Clndr'), getCurrentDate("MM/dd/yyyy"));
+		
+		
+		for (String label : buttonLable) {
+			
+			GlobalVariable.CrdcUiElement=label;
+			
+			if(label.contains('other')) {
+				WebUI.setText(findTestObject(ePath+'OthrDtaTyp-Txtbx'), 'KT-Other');
+				
+			}else if(label.contains('other-clinical')){
+				WebUI.setText(findTestObject(ePath+'OthrClinclDtaTyp-Txtbx'), 'KT-Other-Clinical');
+				
+			}else if(label.contains('imaging')) {
+				WebUI.click(findTestObject('CRDC/SubmissionRequest/Toggle-Btn'))
+				WebUI.click(findTestObject(ePath+'ConfirmDataIdentified_yes-RdoBtn'))
+				//WebUI.click(findTestObject(ePath+'ConfirmDataIdentified_no-RdoBtn'))
+		
+			}else {
+				WebUI.click(findTestObject('CRDC/SubmissionRequest/Toggle-Btn'))
+			}
+		}
 	}
 
 

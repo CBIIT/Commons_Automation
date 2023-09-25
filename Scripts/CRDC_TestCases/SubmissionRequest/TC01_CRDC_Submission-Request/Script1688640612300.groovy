@@ -87,6 +87,9 @@ WebUI.click(findTestObject('CRDC/SubmissionRequest/Save-Btn'))
 
 WebUI.click(findTestObject('CRDC/SubmissionRequest/Next-Btn'))
 
+//'immunology', 'epidemiologic', 'imaging'
+CustomKeywords.'ctdc.utilities.functions.selectDataTypes'('other', 'diagnosis', 'outcome')
+
 WebUI.delay(5)
 
 

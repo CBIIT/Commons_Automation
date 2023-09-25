@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>CrdcDdValue</name>
+   <name>Toggle-Btn</name>
    <tag></tag>
-   <elementGuidId>305e90b5-ba5a-43ae-aa1b-5d6d1debe76d</elementGuidId>
+   <elementGuidId>cefc0ef2-7bee-4c8c-96ab-9d432b60bb8b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[contains(text(), '${GlobalVariable.G_CrdcUiElement}')]</value>
+         <value>//*[contains(@id,'${GlobalVariable.CrdcUiElement}') and @type='checkbox']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[contains(text(), '${GlobalVariable.G_CrdcUiElement}')]</value>
-      <webElementGuid>893ecbd5-e998-4c70-bb6a-70eeea27f13a</webElementGuid>
+      <value>//*[contains(@id,'${GlobalVariable.CrdcUiElement}') and @type='checkbox']</value>
+      <webElementGuid>6bb2f246-de86-4c72-a65a-2a13bcc87fd9</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
