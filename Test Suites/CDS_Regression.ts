@@ -907,4 +907,39 @@
       <testCaseId>Test Cases/CDS_TestCases/Study/TC09_CDS_Filter_Study-NCI_CCSG_CCDI</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>b8bf088b-c2a0-40e2-8247-a887064344e8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Multifilter/TC08_CDS_Filter_PHSAccession1287_LibStrategy_WXS</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8972f6fb-e91c-4e51-a5ba-99fcec279f7e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Multifilter/TC09_CDS_Filter_PHSAccession1287_RefGen_GRCh38</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8b61b9ef-3e5b-4660-ba5d-e3b249db7f03</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Multifilter/TC10_CDS_Filter_PHSAccession1287_PrimDiag_Gliobastoma</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>afc7abcf-c546-4e70-bcbd-4295dd1a6743</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Multifilter/TC11_CDS_Filter_PHSAccession2599_InsrumentModel_HiSeqXTen</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>21747227-ab98-4a32-be8a-daf98126ca77</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Multifilter/TC12_CDS_Filter_PHSAccession2599_LibStrategy_RNASeq</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
