@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>AdditionalComntAboutSubmn-TxtBx</name>
+   <name>AC_Position-Txt</name>
    <tag></tag>
-   <elementGuidId>799a3154-1d78-49a2-bfcb-2e1e24eaa3d3</elementGuidId>
+   <elementGuidId>62747f52-a7d0-4dda-a636-1d31d6325fe4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;:r30:&quot;]</value>
+         <value>//*[@id=&quot;review-additional-contacts-0-position-property-value&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;:r30:&quot;]</value>
-      <webElementGuid>fee0f433-258c-4eaf-81b3-bb637e6a0bf6</webElementGuid>
+      <value>//*[@id=&quot;review-additional-contacts-0-position-property-value&quot;]</value>
+      <webElementGuid>ed26e858-9eb6-4446-bf5a-4fd7b414b44b</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

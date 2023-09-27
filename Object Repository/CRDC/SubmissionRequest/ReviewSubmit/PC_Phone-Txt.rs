@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>BiospecimenData-SlidrBtn</name>
+   <name>PC_Phone-Txt</name>
    <tag></tag>
-   <elementGuidId>0cd2f4f0-10f0-4bf9-a977-a76fd2125d97</elementGuidId>
+   <elementGuidId>6409e4a2-7643-42a1-9f39-b767c1e2b9b5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;section-d-biospecimen-data&quot;]</value>
+         <value>//*[@id=&quot;review-primary-contact-phone-number-property-value&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;section-d-biospecimen-data&quot;]</value>
-      <webElementGuid>f926a02d-78a5-4e60-b954-25a544364bd3</webElementGuid>
+      <value>//*[@id=&quot;review-primary-contact-phone-number-property-value&quot;]</value>
+      <webElementGuid>9e2e242a-ace8-4163-aeb8-b03a9bada0a8</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

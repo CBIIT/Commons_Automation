@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ClinicalTrial-SlidrBtn</name>
+   <name>ProgDescrptn-Txt</name>
    <tag></tag>
-   <elementGuidId>8c7266eb-f16e-478b-aca9-de1dfaadc3a6</elementGuidId>
+   <elementGuidId>d97239a4-dc05-4746-9ca9-97cd6ac82cdf</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;section-d-clinical-trial&quot;]</value>
+         <value>//*[@id=&quot;review-program-information-description-property-value&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;section-d-clinical-trial&quot;]</value>
-      <webElementGuid>4150e3d9-9757-46cc-9462-44a853510061</webElementGuid>
+      <value>//*[@id=&quot;review-program-information-description-property-value&quot;]</value>
+      <webElementGuid>a190d439-269e-45a0-b88a-949b2c05166c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
