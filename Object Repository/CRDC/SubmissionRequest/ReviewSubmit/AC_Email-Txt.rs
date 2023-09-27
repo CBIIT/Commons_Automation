@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Immunology-SlidrBtn</name>
+   <name>AC_Email-Txt</name>
    <tag></tag>
-   <elementGuidId>62570976-d73d-4a53-b461-390373f75f03</elementGuidId>
+   <elementGuidId>910c75fa-0f96-434f-9a4b-e57600ca4004</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;section-d-immunology&quot;]</value>
+         <value>//*[@id=&quot;review-additional-contacts-0-email-address-property-value&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;section-d-immunology&quot;]</value>
-      <webElementGuid>09286d30-c487-4bed-bdcb-346031801ada</webElementGuid>
+      <value>//*[@id=&quot;review-additional-contacts-0-email-address-property-value&quot;]</value>
+      <webElementGuid>65516395-a37d-403d-ae5b-34ddbc79d625</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

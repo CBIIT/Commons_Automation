@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>FileCount-RowTwo-Txtbx</name>
+   <name>StudyAbbre-Txt</name>
    <tag></tag>
-   <elementGuidId>71376688-f104-4670-81da-81f2fa8dc8f3</elementGuidId>
+   <elementGuidId>ec7a0a9f-d029-48a4-95fa-6e819ace75b5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;section-d-file-type-1-number-of-files&quot;]</value>
+         <value>//*[@id=&quot;review-study-information-abbreviation-property-value&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;section-d-file-type-1-number-of-files&quot;]</value>
-      <webElementGuid>42e90676-11e2-4c34-8642-b504537577b3</webElementGuid>
+      <value>//*[@id=&quot;review-study-information-abbreviation-property-value&quot;]</value>
+      <webElementGuid>11c33f1f-f239-4834-be72-445b81c114f7</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

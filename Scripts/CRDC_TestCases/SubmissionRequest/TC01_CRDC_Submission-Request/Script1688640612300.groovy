@@ -67,6 +67,8 @@ WebUI.click(findTestObject('CRDC/SubmissionRequest/Save-Btn'))
 
 WebUI.click(findTestObject('CRDC/SubmissionRequest/Next-Btn'))
 
+CustomKeywords.'ctdc.utilities.functions.verifyStatusBar'('IN PROGRESS')
+
 CustomKeywords.'ctdc.utilities.functions.enterProgramInfo'('DCCPS', 6, 6, 6)
 
 CustomKeywords.'ctdc.utilities.functions.enterStudyInfo'(1, 1, 1)
@@ -90,6 +92,32 @@ WebUI.click(findTestObject('CRDC/SubmissionRequest/Next-Btn'))
 //'immunology', 'epidemiologic', 'imaging'
 CustomKeywords.'ctdc.utilities.functions.selectDataTypes'('other', 'diagnosis', 'outcome')
 
+CustomKeywords.'ctdc.utilities.functions.selectFileTypes'(7, 8, 4, 3)
+
+WebUI.click(findTestObject('CRDC/SubmissionRequest/Save-Btn'))
+
+WebUI.click(findTestObject('CRDC/SubmissionRequest/Next-Btn'))
+
+//Verification starts here
+CustomKeywords.'ctdc.utilities.functions.verifyPiInfo'(1, 1, 1, 1, 5, 1)
+
+CustomKeywords.'ctdc.utilities.functions.verifyPrimaryContactInfo'(2, 2, 2, 2, 10, 2)
+
+CustomKeywords.'ctdc.utilities.functions.verifyAdditionalContactInfo'(2, 1, 2, 2, 11, 2)
+
+CustomKeywords.'ctdc.utilities.functions.verifyProgramInfo'(6, 6, 6)
+
+CustomKeywords.'ctdc.utilities.functions.verifyStudyInfo'(1, 1, 1)
+
+CustomKeywords.'ctdc.utilities.functions.verifyFundingAgencyAndDbGaPInfo'(1, 1, 1, 1, 1)
+
+CustomKeywords.'ctdc.utilities.functions.verifyPublicationsInfo'(1, 1, 1, 1)
+
+CustomKeywords.'ctdc.utilities.functions.verifyRepositoryInfo'('Clinical', 1, 1, 1)
+
 WebUI.delay(5)
 
+
+
+//WebUI.verifyEqual(null, null)
 
