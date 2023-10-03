@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CCDI_Diagnosis_Tbl</name>
+   <tag></tag>
+   <elementGuidId>884628d9-d613-40e2-84f9-b4e8be8e8c01</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id='diagnosis_tab_table']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id='diagnosis_tab_table']</value>
+      <webElementGuid>185c5e04-42d6-4d0f-b46b-e9f837add7cd</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

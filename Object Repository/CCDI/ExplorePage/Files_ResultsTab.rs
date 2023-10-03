@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Files_ResultsTab</name>
+   <tag></tag>
+   <elementGuidId>72b8ff26-3d45-4bd9-a080-45ef33d9c8d9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;root&quot;]/div[2]/div[2]/div/div[2]/div/div[6]/div/div/button[5]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;root&quot;]/div[2]/div[2]/div/div[2]/div/div[6]/div/div/button[5]</value>
+      <webElementGuid>5a860132-959f-4225-a03b-c2777bbf3e78</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CCDI_Samples_Tbl</name>
+   <tag></tag>
+   <elementGuidId>06608f46-d126-4067-a7bf-04451ddb1dcb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id='sample_tab_table']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id='sample_tab_table']</value>
+      <webElementGuid>0a3a8be6-0b30-4c24-82ff-0f35d363b45d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -293,6 +293,12 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 						}else if(GlobalVariable.G_inputTabName=="SamplesTab"){
 							GlobalVariable.G_QuerySamplesTab = sheetData.get(i).get(j).getStringCellValue()
 							System.out.println("This is the value of samples tab query from switch case : "+GlobalVariable.G_QuerySamplesTab)
+						}else if(GlobalVariable.G_inputTabName=="StudiesTab"){
+							GlobalVariable.G_QueryStudiesTab = sheetData.get(i).get(j).getStringCellValue()
+							System.out.println("This is the value of studies tab query from switch case : "+GlobalVariable.G_QueryStudiesTab)
+						}else if(GlobalVariable.G_inputTabName=="DiagnosisTab"){
+							GlobalVariable.G_QueryDiagnosisTab = sheetData.get(i).get(j).getStringCellValue()
+							System.out.println("This is the value of Diagnosis tab query from switch case : "+GlobalVariable.G_QueryDiagnosisTab)
 						}else if(GlobalVariable.G_inputTabName=="FilesTab"){
 							GlobalVariable.G_QueryFilesTab = sheetData.get(i).get(j).getStringCellValue()
 							System.out.println("This is the value of files tab query from switch case : "+GlobalVariable.G_QueryFilesTab)
@@ -1006,8 +1012,10 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 								System.out.println("Inside CCDI switch case for body data")
 								int tblcol=GlobalVariable.G_rowcountFiles
 								System.out.println ("This is the value of tblcol from CCDI body data :"+tblcol)
+								System.out.println ("This is the value of tbl main from CCDI  :"+tbl_main)
 
 								if((tbl_main).equals('//*[@id="participant_tab_table"]')){
+									System.out.println("Inside CCDI participants switch")
 									tblcol=tblcol-3;
 									for (int j = 1; j <=tblcol; j = j +1) {
 										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
@@ -1016,24 +1024,77 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/p")).getAttribute("innerText")) +"||")
 										System.out.println("This is the value of data : "+data)
 									}
-								}else if((tbl_main).equals('//*[@id="sample_tab_table"]')){
-									tblcol=tblcol-2;
+								}else if((tbl_main).equals("//*[@id='diagnosis_tab_table']")){
+									System.out.println("Inside CCDI diagnosis switch")
+									tblcol=tblcol-3;
+									for (int j = 1; j <=6; j = j +1) {
+										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
+										// only for this Age column the xpath will not have the /p tag
+										if(((tbl_main).equals("//*[@id='diagnosis_tab_table']")) && (colHeader.get(j).getAttribute("innerText")=="Age at Diagnosis (days)")) {
+											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]")).getAttribute("innerText")) +"||")
+										}else {
+
+											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+											//*[@id="participant_tab_table"]/div[2]/table/tbody/tr[1]/td[3]/p
+											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/p")).getAttribute("innerText")) +"||")
+										}
+										System.out.println("This is the value of data : "+data)
+									}
+								}else if((tbl_main).equals("//*[@id='study_tab_table']")){
+									System.out.println("Inside CCDI studies switch")
+									tblcol=tblcol+3;
 									for (int j = 1; j <=tblcol; j = j +1) {
 										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
+										// only for two cols with (top 5) the xpath will not have the /p tag
+										
+										if(((tbl_main).equals("//*[@id='study_tab_table']")) && (colHeader.get(j).getAttribute("innerText")=="Diagnosis (Top 5)")) {
+											 System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+											 data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]")).getAttribute("innerText")) +"||")
+										 }else if(((tbl_main).equals("//*[@id='study_tab_table']")) && (colHeader.get(j).getAttribute("innerText")=="Diagnosis Anatomic Site (Top 5)")) {
+											 System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+											 data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]")).getAttribute("innerText")) +"||")
+										 }else if(((tbl_main).equals("//*[@id='study_tab_table']")) && (colHeader.get(j).getAttribute("innerText")=="File Type (Top 5)")) {
+											 System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+											 data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]")).getAttribute("innerText")) +"||")
+										 }
+										else {
 										System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
-										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/*[2]")).getAttribute("innerText")) +"||")
+										//*[@id="participant_tab_table"]/div[2]/table/tbody/tr[1]/td[3]/p
+										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/p")).getAttribute("innerText")) +"||")
+										}
+										
+										
+										System.out.println("This is the value of data : "+data)
+									}
+								}else if((tbl_main).equals("//*[@id='sample_tab_table']")){
+									System.out.println("Inside CCDI samples tab switch")
+
+									for (int j = 1; j <tblcol; j = j +1) {
+										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
+										// only for this Age column the xpath will not have the /p tag
+										if(((tbl_main).equals("//*[@id='sample_tab_table']")) && (colHeader.get(j).getAttribute("innerText")=="Age at Sample Collection")) {
+											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]")).getAttribute("innerText")) +"||")
+										}else {
+											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/p")).getAttribute("innerText")) +"||")
+										}
+
 										System.out.println("This is the value of data : "+data)
 									}
 								}else if((tbl_main).equals('//*[@id="file_tab_table"]')){
-									tblcol=tblcol-2;
-									for (int j = 1; j <=tblcol; j = j +1) {
+									System.out.println("Inside CCDI files tab switch")
+
+									for (int j = 1; j <=tblcol+2; j = j +1) {
 										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
 										System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
-										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/*[2]")).getAttribute("innerText")) +"||")
+										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/p")).getAttribute("innerText")) +"||")
 										System.out.println("This is the value of data : "+data)
 									}
 								}
 								break;
+
 							default:
 								System.err.println("Check CCDI switch statment for this error")
 								break;
@@ -1506,8 +1567,8 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 		GlobalVariable.G_StatBar_Samples = driver.findElement(By.xpath(xcSamples)).getAttribute("innerText");
 		System.out.println("This is the value of Samples count from Stat bar :"+GlobalVariable.G_StatBar_Samples)
 		Thread.sleep(2000)
-//		GlobalVariable.G_StatBar_Files = driver.findElement(By.xpath(xcFiles)).getAttribute("innerText");
-//		System.out.println("This is the value of Case Files count from Stat bar :"+GlobalVariable.G_StatBar_Files)
+		GlobalVariable.G_StatBar_Files = driver.findElement(By.xpath(xcFiles)).getAttribute("innerText");
+		System.out.println("This is the value of Case Files count from Stat bar :"+GlobalVariable.G_StatBar_Files)
 		Thread.sleep(2000)
 	}
 
@@ -2120,7 +2181,7 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 			(statData.get(0).get(0).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Studies)) ? KeywordUtil.markPassed("Statbar Studies count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Studies count")
 			(statData.get(0).get(1).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Participants)) ? KeywordUtil.markPassed("Statbar Participants count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Participants count")
 			(statData.get(0).get(2).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Samples)) ? KeywordUtil.markPassed("Statbar Samples count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Samples count")
-			//(statData.get(0).get(3).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Files)) ? KeywordUtil.markPassed("Statbar Files count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Files count")
+			(statData.get(0).get(3).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Files)) ? KeywordUtil.markPassed("Statbar Files count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Files count")
 		}
 	}
 

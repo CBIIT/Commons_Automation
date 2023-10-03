@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Participants_ResultsTab</name>
+   <name>Samples_ResultsTab</name>
    <tag></tag>
-   <elementGuidId>ff0bfc90-39ac-42bf-8101-9c6019535ca6</elementGuidId>
+   <elementGuidId>467f4ce9-52e2-479c-a973-5c99631efb36</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;root&quot;]/div[2]/div[2]/div/div[2]/div/div[5]/div/div/button[1]</value>
+         <value>//*[@id=&quot;root&quot;]/div[2]/div[2]/div/div[2]/div/div[6]/div/div/button[4]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;root&quot;]/div[2]/div[2]/div/div[2]/div/div[5]/div/div/button[1]</value>
-      <webElementGuid>391887ae-397a-44e1-b7ce-cfc82b61a4e9</webElementGuid>
+      <value>//*[@id=&quot;root&quot;]/div[2]/div[2]/div/div[2]/div/div[6]/div/div/button[4]</value>
+      <webElementGuid>11655b40-587d-4b2c-b493-7c260b457b16</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CCDI_Files_Tbl</name>
+   <tag></tag>
+   <elementGuidId>73322fd2-bcde-4f57-8388-4ef650d9d15a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;file_tab_table&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;file_tab_table&quot;]</value>
+      <webElementGuid>04c5e2ba-ddfb-43c3-815b-d9e855ed2e24</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Diagnosis_ResultsTab</name>
+   <tag></tag>
+   <elementGuidId>ff0bfc90-39ac-42bf-8101-9c6019535ca6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;root&quot;]/div[2]/div[2]/div/div[2]/div/div[6]/div/div/button[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;root&quot;]/div[2]/div[2]/div/div[2]/div/div[6]/div/div/button[2]</value>
+      <webElementGuid>b7c0bca5-42d8-40db-88a2-9533938b7c60</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

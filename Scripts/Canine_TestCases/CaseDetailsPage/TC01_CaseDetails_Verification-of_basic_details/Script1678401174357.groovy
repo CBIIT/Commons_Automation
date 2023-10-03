@@ -81,8 +81,8 @@ CustomKeywords.'ctdc.utilities.ICDCcaseDetails.readInfoPanel'('Demographics', Gl
 	 GlobalVariable.G_CypherTabnameCDDemographics, GlobalVariable.G_QueryCDDemographics)
 
       
-CustomKeywords.'ctdc.utilities.ICDCcaseDetails.readInfoPanel'('Diagnosis', GlobalVariable.G_WebTabnameCDDiagnosis,
-	GlobalVariable.G_CypherTabnameCDDiagnosis, GlobalVariable.G_QueryCDDiagnosis)
+CustomKeywords.'ctdc.utilities.ICDCcaseDetails.readInfoPanel'('Diagnosis', GlobalVariable.G_WebTabnameDiagnosis,
+	GlobalVariable.G_CypherTabnameDiagnosis, GlobalVariable.G_QueryCDDiagnosis)
 
 CustomKeywords.'ctdc.utilities.ICDCcaseDetails.readInfoPanel'('Study', GlobalVariable.G_WebTabnameCDStudy,
 	GlobalVariable.G_CypherTabnameCDStudy, GlobalVariable.G_QueryCDStudy)

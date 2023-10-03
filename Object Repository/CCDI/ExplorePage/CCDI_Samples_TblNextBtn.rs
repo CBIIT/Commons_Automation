@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CCDI_Samples_TblNextBtn</name>
+   <tag></tag>
+   <elementGuidId>6d17c316-0402-45bb-b4b2-7f2e2ba48de0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;sample_tab_table&quot;]/div[3]/div/div/div[3]/button[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;sample_tab_table&quot;]/div[3]/div/div/div[3]/button[2]</value>
+      <webElementGuid>faf1c0a1-848f-459b-9c6c-232c66033e7b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

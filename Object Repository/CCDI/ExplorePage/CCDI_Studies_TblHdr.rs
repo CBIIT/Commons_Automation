@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CCDI_Studies_TblHdr</name>
+   <tag></tag>
+   <elementGuidId>e66b728b-2f00-46e6-a8a3-dc9b656b13e0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;study_tab_table&quot;]//thead</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;study_tab_table&quot;]//thead</value>
+      <webElementGuid>a419ccfd-a0b8-43bb-831b-6aec9b6e9a7c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
