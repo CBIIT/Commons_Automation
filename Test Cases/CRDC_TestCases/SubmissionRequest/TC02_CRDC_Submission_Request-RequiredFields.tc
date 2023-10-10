@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC01_CRDC_Submission-Request</name>
+   <name>TC02_CRDC_Submission_Request-RequiredFields</name>
    <tag>Filter</tag>
    <comment></comment>
-   <testCaseGuid>77c80e21-fdee-4c9d-9823-555ff3530014</testCaseGuid>
+   <testCaseGuid>c538296b-b784-48d6-90d6-438fb737c6db</testCaseGuid>
 </TestCaseEntity>

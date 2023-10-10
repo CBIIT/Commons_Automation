@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Back-Btn - Copy</name>
+   <name>EpidemilogicCohort-Txt</name>
    <tag></tag>
-   <elementGuidId>f78c0f83-f346-49e0-86a3-7365ac18a812</elementGuidId>
+   <elementGuidId>44a4afdb-76b6-4e1d-b1c6-bace3bc7283d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;progress-bar-section-D&quot;]/div/div[2]/div/span</value>
+         <value>//*[@id=&quot;review-data-types-epidemiologic-or-cohort-property-value&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;progress-bar-section-D&quot;]/div/div[2]/div/span</value>
-      <webElementGuid>485cc6ab-7df4-43d8-8a19-084ca9cfddc9</webElementGuid>
+      <value>//*[@id=&quot;review-data-types-epidemiologic-or-cohort-property-value&quot;]</value>
+      <webElementGuid>64aa888b-62e1-4b7a-b696-ed4d205a2023</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
