@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Start_a_SubmissionRequest-Btn</name>
+   <name>SpeciesOfSubject-Txt</name>
    <tag></tag>
-   <elementGuidId>2a120d53-a216-4f5c-9932-e8f63f39a273</elementGuidId>
+   <elementGuidId>15c98fc0-36af-4eee-8216-83157a36d2ab</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[contains(@id, ':r') and @type='button']</value>
+         <value>//*[@id=&quot;review-subjects-species-property-value-0&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[contains(@id, ':r') and @type='button']</value>
-      <webElementGuid>0a8f0d1a-d74c-45f7-8b5b-105dd84af2ff</webElementGuid>
+      <value>//*[@id=&quot;review-subjects-species-property-value-0&quot;]</value>
+      <webElementGuid>634b22c0-a892-4cb9-a82e-6151a4fc22dd</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

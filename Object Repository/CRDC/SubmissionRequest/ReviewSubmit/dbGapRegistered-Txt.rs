@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Start_a_SubmissionRequest-Btn</name>
+   <name>dbGapRegistered-Txt</name>
    <tag></tag>
-   <elementGuidId>2a120d53-a216-4f5c-9932-e8f63f39a273</elementGuidId>
+   <elementGuidId>1bc323cc-3c48-41cb-82ff-9b3432b55e4a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[contains(@id, ':r') and @type='button']</value>
+         <value>//*[@id=&quot;review-dbGaP-registration-property-value&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[contains(@id, ':r') and @type='button']</value>
-      <webElementGuid>0a8f0d1a-d74c-45f7-8b5b-105dd84af2ff</webElementGuid>
+      <value>//*[@id=&quot;review-dbGaP-registration-property-value&quot;]</value>
+      <webElementGuid>e3a8574d-24d7-433a-8b71-b76617c0b3f5</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

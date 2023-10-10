@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Start_a_SubmissionRequest-Btn</name>
+   <name>DOI-Txt</name>
    <tag></tag>
-   <elementGuidId>2a120d53-a216-4f5c-9932-e8f63f39a273</elementGuidId>
+   <elementGuidId>48770379-180d-404c-886d-7defea798bf8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[contains(@id, ':r') and @type='button']</value>
+         <value>//*[@id=&quot;review-existing-publication-0-DOI-property-value&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[contains(@id, ':r') and @type='button']</value>
-      <webElementGuid>0a8f0d1a-d74c-45f7-8b5b-105dd84af2ff</webElementGuid>
+      <value>//*[@id=&quot;review-existing-publication-0-DOI-property-value&quot;]</value>
+      <webElementGuid>03e3a93b-8575-4026-8e81-d76c2bc21147</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

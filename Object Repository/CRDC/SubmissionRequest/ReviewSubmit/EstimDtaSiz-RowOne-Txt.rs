@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Start_a_SubmissionRequest-Btn</name>
+   <name>EstimDtaSiz-RowOne-Txt</name>
    <tag></tag>
-   <elementGuidId>2a120d53-a216-4f5c-9932-e8f63f39a273</elementGuidId>
+   <elementGuidId>80562020-0e8c-4b23-9817-43794e676599</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[contains(@id, ':r') and @type='button']</value>
+         <value>//*[@id=&quot;review-file-type-table-file-0-file-amount&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[contains(@id, ':r') and @type='button']</value>
-      <webElementGuid>0a8f0d1a-d74c-45f7-8b5b-105dd84af2ff</webElementGuid>
+      <value>//*[@id=&quot;review-file-type-table-file-0-file-amount&quot;]</value>
+      <webElementGuid>8881eab6-6b5f-4375-a84a-c6019571c1ba</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

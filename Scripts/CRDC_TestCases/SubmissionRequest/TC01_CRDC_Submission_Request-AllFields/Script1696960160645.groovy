@@ -41,83 +41,83 @@ import java.nio.file.Paths as Paths
  */
 WebUI.closeBrowser()
 
-CustomKeywords.'ctdc.utilities.functions.navigateToCrdc'()
+CustomKeywords.'ctdc.utilities.Crdc.navigateToCrdc'()
 
-CustomKeywords.'ctdc.utilities.functions.loginToCrdc'()
-
-//WebUI.waitForElementPresent(findTestObject('CRDC/NavBar/WarningBanner_Continue-Btn'), 5)
-//WebUI.click(findTestObject('CRDC/NavBar/WarningBanner_Continue-Btn'))
-//WebUI.waitForElementPresent(findTestObject('CRDC/NavBar/SubmissionRequest-Tab'), 5)
-//WebUI.click(findTestObject('CRDC/NavBar/SubmissionRequest-Tab'))
-WebUI.waitForElementPresent(findTestObject('CRDC/NavBar/Start_a_SubmissionRequest-Btn'), 5)
+CustomKeywords.'ctdc.utilities.Crdc.loginToCrdc'()
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('CRDC/NavBar/Start_a_SubmissionRequest-Btn'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('CRDC/NavBar/Start_a_SubmissionRequest-Btn'))
 
-CustomKeywords.'ctdc.utilities.functions.verifyStatusBar'('NEW')
+CustomKeywords.'ctdc.utilities.Crdc.verifyStatusBar'('NEW')
 
-CustomKeywords.'ctdc.utilities.functions.enterPiInfo'(1, 1, 1, 1, 5, 1)
+CustomKeywords.'ctdc.utilities.Crdc.enterPiInfo'(1, 1, 1, 1, 5, 1)
 
-CustomKeywords.'ctdc.utilities.functions.enterPrimaryContactInfo'(2, 2, 2, 2, 10, 2)
+CustomKeywords.'ctdc.utilities.Crdc.enterPrimaryContactInfo'(2, 2, 2, 2, 10, 2)
 
-CustomKeywords.'ctdc.utilities.functions.enterAdditionalContactInfo'(2, 1, 2, 2, 11, 2)
-
-WebUI.click(findTestObject('CRDC/SubmissionRequest/Save-Btn'))
-
-WebUI.click(findTestObject('CRDC/SubmissionRequest/Next-Btn'))
-
-CustomKeywords.'ctdc.utilities.functions.verifyStatusBar'('IN PROGRESS')
-
-CustomKeywords.'ctdc.utilities.functions.enterProgramInfo'('DCCPS', 6, 6, 6)
-
-CustomKeywords.'ctdc.utilities.functions.enterStudyInfo'(1, 1, 1)
-
-CustomKeywords.'ctdc.utilities.functions.enterFundingAgencyAndDbGaPInfo'(1, 1, 1, 1, 1)
-
-CustomKeywords.'ctdc.utilities.functions.enterPublicationsInfo'(1, 1, 1, 1)
-
-CustomKeywords.'ctdc.utilities.functions.enterRepositoryInfo'('Clinical', 1, 1, 1)
+//CustomKeywords.'ctdc.utilities.Crdc.enterAdditionalContactInfo'(2, 1, 2, 2, 11, 2)
 
 WebUI.click(findTestObject('CRDC/SubmissionRequest/Save-Btn'))
 
 WebUI.click(findTestObject('CRDC/SubmissionRequest/Next-Btn'))
 
-CustomKeywords.'ctdc.utilities.functions.enterDataAccessAndDiseaseInfo'('Cholangiocarcinomaetc', 'Breast', 'Mus', 1, 1)
+CustomKeywords.'ctdc.utilities.Crdc.verifyStatusBar'('IN PROGRESS')
+
+CustomKeywords.'ctdc.utilities.Crdc.enterProgramInfo'('DCCPS')
+
+CustomKeywords.'ctdc.utilities.Crdc.enterStudyInfo'(1, 1, 1)
+
+CustomKeywords.'ctdc.utilities.Crdc.enterFundingAgencyAndDbGaPInfo'(1, 1, 1, 1, 1)
+
+CustomKeywords.'ctdc.utilities.Crdc.enterPublicationsInfo'(1, 1, 1, 1)
+
+CustomKeywords.'ctdc.utilities.Crdc.enterRepositoryInfo'('Clinical', 1, 1, 1)
 
 WebUI.click(findTestObject('CRDC/SubmissionRequest/Save-Btn'))
 
 WebUI.click(findTestObject('CRDC/SubmissionRequest/Next-Btn'))
 
-//'immunology', 'epidemiologic', 'imaging'
-CustomKeywords.'ctdc.utilities.functions.selectDataTypes'('other', 'diagnosis', 'outcome')
+CustomKeywords.'ctdc.utilities.Crdc.enterDataAccessAndDiseaseInfo'('Cholangiocarcinoma', 'Breast', 'Mus', 1, 1, 1)
 
-CustomKeywords.'ctdc.utilities.functions.selectFileTypes'(7, 8, 4, 3)
+WebUI.click(findTestObject('CRDC/SubmissionRequest/Save-Btn'))
+
+WebUI.click(findTestObject('CRDC/SubmissionRequest/Next-Btn'))
+
+//'immunology', 'epidemiologic', 'imaging', , 'other', 'other-clinical'
+CustomKeywords.'ctdc.utilities.Crdc.selectDataTypes'('immunology', 'epidemiologic', 'imaging', 'other')
+
+CustomKeywords.'ctdc.utilities.Crdc.selectFileTypes'(5, 6, 1, 1)
 
 WebUI.click(findTestObject('CRDC/SubmissionRequest/Save-Btn'))
 
 WebUI.click(findTestObject('CRDC/SubmissionRequest/Next-Btn'))
 
 //Verification starts here
-CustomKeywords.'ctdc.utilities.functions.verifyPiInfo'(1, 1, 1, 1, 5, 1)
+CustomKeywords.'ctdc.utilities.Crdc.verifyPiInfo'(1, 1, 1, 1, 5, 1)
 
-CustomKeywords.'ctdc.utilities.functions.verifyPrimaryContactInfo'(2, 2, 2, 2, 10, 2)
+CustomKeywords.'ctdc.utilities.Crdc.verifyPrimaryContactInfo'(2, 2, 2, 2, 10, 2)
 
-CustomKeywords.'ctdc.utilities.functions.verifyAdditionalContactInfo'(2, 1, 2, 2, 11, 2)
+//CustomKeywords.'ctdc.utilities.Crdc.verifyAdditionalContactInfo'(2, 1, 2, 2, 11, 2)
 
-CustomKeywords.'ctdc.utilities.functions.verifyProgramInfo'(6, 6, 6)
+CustomKeywords.'ctdc.utilities.Crdc.verifyProgramInfo'(4)
 
-CustomKeywords.'ctdc.utilities.functions.verifyStudyInfo'(1, 1, 1)
+CustomKeywords.'ctdc.utilities.Crdc.verifyStudyInfo'(1, 1, 1)
 
-CustomKeywords.'ctdc.utilities.functions.verifyFundingAgencyAndDbGaPInfo'(1, 1, 1, 1, 1)
+CustomKeywords.'ctdc.utilities.Crdc.verifyFundingAgencyAndDbGaPInfo'(1, 1, 1, 1, 1)
 
-CustomKeywords.'ctdc.utilities.functions.verifyPublicationsInfo'(1, 1, 1, 1)
+CustomKeywords.'ctdc.utilities.Crdc.verifyPublicationsInfo'(1, 1, 1, 1)
 
-CustomKeywords.'ctdc.utilities.functions.verifyRepositoryInfo'('Clinical', 1, 1, 1)
+CustomKeywords.'ctdc.utilities.Crdc.verifyRepositoryInfo'('Clinical', 1, 1, 1)
 
-WebUI.delay(5)
+CustomKeywords.'ctdc.utilities.Crdc.verifyDataAccessAndDiseaseInfo'('Cholangiocarcinoma', 'Breast', 'Mus', 1, 1, 1)
+
+CustomKeywords.'ctdc.utilities.Crdc.verifyDataTypes'('immunology', 'epidemiologic', 'imaging', 'other')
+
+CustomKeywords.'ctdc.utilities.Crdc.verifyFileTypes'(5, 6, 1, 1)
+
+CustomKeywords.'ctdc.utilities.Crdc.clickSubmitButton'()
+
+WebUI.closeBrowser()
 
 
-
-//WebUI.verifyEqual(null, null)
 
