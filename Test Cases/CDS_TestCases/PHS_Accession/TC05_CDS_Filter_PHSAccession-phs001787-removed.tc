@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC06_CDS_Filter_PHSAccession-phs002050</name>
+   <name>TC05_CDS_Filter_PHSAccession-phs001787-removed</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>d76f20e7-4377-4e13-a7ae-bd2f70c93763</testCaseGuid>
+   <testCaseGuid>a8f77e72-18fe-4a7b-8d75-d79d8ec28cd9</testCaseGuid>
 </TestCaseEntity>
