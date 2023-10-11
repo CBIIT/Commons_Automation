@@ -21,7 +21,7 @@
    <testCaseLink>
       <guid>b9ef50e9-b32f-465c-ac83-c854401e5243</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/CDS_TestCases/LibrarySelection/TC02_CDS_Filter_LibrarySelection-NotSpecifiedinData</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -63,7 +63,7 @@
    <testCaseLink>
       <guid>9b471032-5d0e-41c3-9ebf-5aa1d7bcfdd7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/CDS_TestCases/LibrarySelection/TC08_CDS_Filter_LibrarySelection-other</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -84,7 +84,7 @@
    <testCaseLink>
       <guid>06f76dd8-12d4-4876-a45e-7b7d1ce3b789</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/CDS_TestCases/LibraryLayout/TC03_CDS_Filter_LibraryLayout-Notspecifiedindata</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -210,7 +210,7 @@
    <testCaseLink>
       <guid>23d843dc-5f67-4745-aec6-576a0571c70f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/CDS_TestCases/Instrument Model/TC14_CDS_Filter_InstrumentModel-Notapplicable</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -819,14 +819,14 @@
    <testCaseLink>
       <guid>64e608a8-df26-423d-b85c-f0a47265879a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/CDS_TestCases/FileType/TC14_CDS_Filter_FileType-XLSX</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>e8c91610-bba1-4aa1-b3b5-5b6a9b9751d2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/CDS_TestCases/FileType/TC15_CDS_Filter_FileType-NotSpec</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
