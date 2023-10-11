@@ -72,10 +72,10 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 	public int compare( List<XSSFCell> l1, List<XSSFCell> l2 ){
 		return l1.get(0).getStringCellValue().compareTo( l2.get(0).getStringCellValue() )
 	}
-	
+
 	public static WebDriver driver
 
-	//*************** CRDC functions start here ****************
+	//*************** Input functions start here ****************
 	/**
 	 * This function creates an instance of webdriver
 	 * And navigates user to crdc application
@@ -124,7 +124,7 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 
 			WebUI.setText(findTestObject('CRDC/Login/Login.gov_BackupSecurityCode-TxtBx'), findTestData('CRDC/Login/LoginData').getValue('sec-backup-codes', i))
 			System.out.println("Entering backup code: " + findTestData('CRDC/Login/LoginData').getValue('sec-backup-codes', i));
-			
+
 
 
 			WebUI.waitForElementPresent(findTestObject('CRDC/Login/Login.gov_OneTimeCode_Submit-Btn'), 5)
@@ -140,31 +140,31 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 
 			} else {
 				System.out.println("Valid Code, Continuing with Consent");
-				if(i==3) { 
-				System.out.println("Last Code Used! Please update the input file for next run");
+				if(i==3) {
+					System.out.println("Last Code Used! Please update the input file for next run");
 				}
 				break;
 			}
-			
+
 		}
 
 
 		WebUI.waitForElementPresent(findTestObject('CRDC/Login/Login.gov_ConsentGrant-Btn'), 5)
 		WebUI.click(findTestObject('CRDC/Login/Login.gov_ConsentGrant-Btn'))
 
-			if(WebUI.getUrl().contains("hub")) {
-				WebUI.waitForElementPresent(findTestObject('CRDC/Login/UserProfile-Dd'), 5)
-				WebUI.verifyElementPresent(findTestObject('CRDC/Login/UserProfile-Dd'), 5)
-				String userName = WebUI.getText(findTestObject('CRDC/Login/UserProfile-Dd'));
-		
-				if(userName.contains("KATALON")) 
-					System.out.println("User '" + userName + "' sucessfully logged in");
-					System.out.println("Current URL is: "+ WebUI.getUrl());
-					WebUI.verifyMatch(GlobalVariable.G_Urlname+"submissions", WebUI.getUrl(), false)
-					
-			}else {
-					KeywordUtil.markFailed("Landed on the wrong page!")
-			}
+		if(WebUI.getUrl().contains("hub")) {
+			WebUI.waitForElementPresent(findTestObject('CRDC/Login/UserProfile-Dd'), 5)
+			WebUI.verifyElementPresent(findTestObject('CRDC/Login/UserProfile-Dd'), 5)
+			String userName = WebUI.getText(findTestObject('CRDC/Login/UserProfile-Dd'));
+
+			if(userName.contains("KATALON"))
+				System.out.println("User '" + userName + "' sucessfully logged in");
+			System.out.println("Current URL is: "+ WebUI.getUrl());
+			WebUI.verifyMatch(GlobalVariable.G_Urlname+"submissions", WebUI.getUrl(), false)
+
+		}else {
+			KeywordUtil.markFailed("Landed on the wrong page!")
+		}
 
 	}
 
@@ -346,7 +346,7 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 			validateProgramFields(5);
 
 		}else {
-			KeywordUtil.markFailed("Invalid Drop-down Value: Check enterProgramInfo function")
+			KeywordUtil.markFailed("Invalid Drop-down Value! Check enterProgramInfo function")
 		}
 
 		System.out.println("Successfully entered program information");
@@ -374,7 +374,7 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 	}
 
 	/**
-	 * This function enters Funding Agency and DbGaP info in submission request form
+	 * This function enters Funding Agency and DbGaP info into submission request form
 	 * @param dataFileRowNum Please add data file row number to be read
 	 */
 	@Keyword
@@ -506,6 +506,7 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 
 		//Select data type based on the user provided value
 		for (String label : buttonLable) {
+			label = label.toLowerCase();
 			GlobalVariable.CrdcUiElement=label;
 
 			if(label.contains("other")) {
@@ -536,7 +537,7 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 	public static void selectFileTypes(int fileTypRN, int fileExtRN, int numOfFileRN, int dataSizeRN) {
 
 		fPath = "CRDC/SubmissionRequest/Section-D/file-types";
-		WebUI.scrollToElement(findTestObject(ePath+'FileType-RowOne-Dd'), 3)
+		WebUI.scrollToElement(findTestObject(ePath+'FileType-RowOne-Dd'), 20)
 		WebUI.click(findTestObject(ePath+'FileType-RowOne-Dd'))
 		String fileType = findTestData(fPath).getValue('file-type', fileTypRN)
 		GlobalVariable.CrdcUiElement = fileType;
@@ -554,15 +555,9 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 		System.out.println("Successfully selected file type '"+fileType+ "' with extension '"+fileExten+"'");
 	}
 
-	
-	@Keyword
-	public static String getTxt(TestObject testObj) {
-		WebElement element = WebUI.findWebElement(testObj)
-		return element.getText()
-	}
 
 
-	//******************* Verification functions start here *********************
+	//*************** Verification functions start here ****************
 
 	static String actual=null;
 	static String expctd=null;
@@ -577,7 +572,7 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 		ePath = "CRDC/SubmissionRequest/ReviewSubmit/";
 		fPath = "CRDC/SubmissionRequest/Section-A/principal-investigator";
 
-		actual = getTxt(findTestObject(ePath+'PI_Name-Txt'))
+		actual = WebUI.getText(findTestObject(ePath+'PI_Name-Txt'))
 		expctd = findTestData(fPath).getValue('pi-last-name', lNameRN)+", " +findTestData(fPath).getValue('pi-first-name', fNameRN)
 		System.out.println("Actual PI Name is: " + actual +"\nExpected PI Name is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
@@ -702,7 +697,7 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 	}
 
 	/**
-	 * This function verifies study information of the submission request form
+	 * This function verifies study information on the review page
 	 * @param dataFileRowNum Please add data file row number to be read
 	 */
 	@Keyword
@@ -728,8 +723,8 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 	}
 
 	/**
-	 * This function enters study information in submission request form
-	 * @param dataFileRowNum Please add data file row number to be read
+	 *  This function verifies Funding Agency and DbGaP information on the review page
+	 * @param dataFileRowNum Data file row number to be read
 	 */
 	@Keyword
 	public static void verifyFundingAgencyAndDbGaPInfo(int fundinAgency, int grntRN, int nciPgogOfcrRN, int nciGenProgAdmnRN, int dbgapPhsNumRN) {
@@ -765,7 +760,7 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 	}
 
 	/**
-	 * This function enters Publication info in submission request form
+	 *  This function verifies Publications information on the review page
 	 * @param dataFileRowNum Please add data file row number to be read
 	 */
 	@Keyword
@@ -804,7 +799,7 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 	}
 
 	/**
-	 * This function enters Repository in submission request form
+	 *  This function verifies Repository information on the review page
 	 * @param dataFileRowNum Please add data file row number to be read
 	 */
 	@Keyword
@@ -841,7 +836,7 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 	}
 
 	/**
-	 * This function verifies Data Access Types and Cancer Types of submission request review page
+	 * This function verifies Data Access Types and Cancer Types on the review page
 	 * @param dataFileRowNum Please add data file row number to be read
 	 */
 	@Keyword
@@ -923,7 +918,7 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 
 		actual = WebUI.getText(findTestObject(ePath+'SpeciesOfSubject-Txt'))
 
-		//Based on the user input, pull the corresponding value from excel for Species of Subject
+		//Based on the user input, pulling the corresponding value from excel
 		switch (speciesOfSub.toLowerCase()) {
 
 			case 'homo':
@@ -1058,7 +1053,7 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 
 			}
 
-			System.out.println("Actual "+label.toUpperCase()+" data type is: " + actual +"\nExpected "+label.toUpperCase()+" data type is: "+expctd);
+			System.out.println("Actual "+label+" data type is: " + actual +"\nExpected "+label+" data type is: "+expctd);
 			WebUI.verifyMatch(actual, expctd, false)
 			System.out.println("Successfully verified '"+label+"' data type");
 		}
@@ -1100,14 +1095,14 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 		WebUI.verifyMatch(actual, expctd, false)
 		System.out.println("Successfully verified File Types");
 	}
-	
-	
+
+
 	/**
 	 * This function clicks on submit and confirm submit buttons
 	 */
 	@Keyword
 	public static void clickSubmitButton() {
-		
+
 		WebUI.click(findTestObject('CRDC/SubmissionRequest/Submit-Btn'))
 		Thread.sleep(500)
 		WebUI.click(findTestObject('CRDC/SubmissionRequest/PopUpConfirmToSubmit-Btn'))
