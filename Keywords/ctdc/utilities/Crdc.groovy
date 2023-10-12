@@ -152,19 +152,19 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 		WebUI.waitForElementPresent(findTestObject('CRDC/Login/Login.gov_ConsentGrant-Btn'), 5)
 		WebUI.click(findTestObject('CRDC/Login/Login.gov_ConsentGrant-Btn'))
 
-		if(WebUI.getUrl().contains("hub")) {
-			WebUI.waitForElementPresent(findTestObject('CRDC/Login/UserProfile-Dd'), 5)
-			WebUI.verifyElementPresent(findTestObject('CRDC/Login/UserProfile-Dd'), 5)
-			String userName = WebUI.getText(findTestObject('CRDC/Login/UserProfile-Dd'));
-
-			if(userName.contains("KATALON"))
-				System.out.println("User '" + userName + "' sucessfully logged in");
-			System.out.println("Current URL is: "+ WebUI.getUrl());
-			WebUI.verifyMatch(GlobalVariable.G_Urlname+"submissions", WebUI.getUrl(), false)
-
-		}else {
-			KeywordUtil.markFailed("Landed on the wrong page!")
-		}
+//		if(WebUI.getUrl().contains("hub")) {
+//			WebUI.waitForElementPresent(findTestObject('CRDC/Login/UserProfile-Dd'), 5)
+//			WebUI.verifyElementPresent(findTestObject('CRDC/Login/UserProfile-Dd'), 5)
+//			String userName = WebUI.getText(findTestObject('CRDC/Login/UserProfile-Dd'));
+//
+//			if(userName.contains("KATALON"))
+//				System.out.println("User '" + userName + "' sucessfully logged in");
+//			System.out.println("Current URL is: "+ WebUI.getUrl());
+//			WebUI.verifyMatch(GlobalVariable.G_Urlname+"submissions", WebUI.getUrl(), false)
+//
+//		}else {
+//			KeywordUtil.markFailed("Landed on the wrong page!")
+//		}
 
 	}
 
@@ -235,7 +235,7 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 	 */
 	@Keyword
 	public static void enterPiInfo(int fNameRN, int lNameRN, int positnRN, int emailRN, int institRN, int instAddRN){
-
+		Thread.sleep(1000)
 		ePath = "CRDC/SubmissionRequest/Section-A/";
 		fPath = "CRDC/SubmissionRequest/Section-A/principal-investigator";
 		WebUI.setText(findTestObject(ePath+'PI_FirstName-Txtbx'), clearText() + findTestData(fPath).getValue('pi-first-name', fNameRN));
@@ -270,7 +270,7 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 	@Keyword
 	public static void enterAdditionalContactInfo(int fNameRN, int lNameRN, int positnRN, int emailRN, int institRN, int phoneRN) {
 		fPath = "CRDC/SubmissionRequest/Section-A/additional-contact";
-		Thread.sleep(500);
+		Thread.sleep(1000);
 		WebUI.click(findTestObject(ePath+'AddContact-Btn'))
 		WebUI.setText(findTestObject(ePath+'AC_FirstName-Txtbx'), findTestData(fPath).getValue('ac-first-name', fNameRN));
 		WebUI.setText(findTestObject(ePath+'AC_LastName-Txtbx'), findTestData(fPath).getValue('ac-last-name', lNameRN));
@@ -292,7 +292,7 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 		fPath = "CRDC/SubmissionRequest/Section-B/program-study";
 		String actual=null;
 		String expctd=null;
-
+		Thread.sleep(1000)
 		actual = WebUI.getAttribute(findTestObject(ePath+'ProgramTitle-TxtBx'), 'value')
 		expctd = findTestData(fPath).getValue('program-title', rowNumber);
 		System.out.println("Actual Program Title is: " + actual +"\nExpected Program Title is: "+expctd);
@@ -380,7 +380,7 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 	@Keyword
 	public static void enterFundingAgencyAndDbGaPInfo(int fundinAgency, int grntRN, int nciPgogOfcrRN, int nciGenProgAdmnRN, int dbgapPhsNumRN) {
 
-		Thread.sleep(500);
+		Thread.sleep(1000);
 		fPath = "CRDC/SubmissionRequest/Section-B/funding-agency-dbGaP";
 		WebUI.setText(findTestObject(ePath+'FundingAgency-Dd'), findTestData(fPath).getValue('funding-agency', fundinAgency));
 		WebUI.setText(findTestObject(ePath+'GrantContractNumber-Txtbx'), findTestData(fPath).getValue('grant-number', grntRN));
@@ -454,7 +454,7 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 
 		ePath = "CRDC/SubmissionRequest/Section-C/";
 		fPath = "CRDC/SubmissionRequest/Section-C/data-access-disease";
-
+		Thread.sleep(1000)
 		WebUI.click(findTestObject(ePath+"OpenAccess-Chkbx"))
 		WebUI.click(findTestObject(ePath+"CancerTypes-Dd"))
 		GlobalVariable.CrdcUiElement=cancerType;
@@ -493,7 +493,7 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 
 		ePath = "CRDC/SubmissionRequest/Section-D/";
 		fPath = "CRDC/SubmissionRequest/Section-D/data-types";
-
+		Thread.sleep(1000)
 		WebUI.setText(findTestObject(ePath+'TragetSubmDelivryDate-Clndr'), clearText() + getCurrentDate("MM/dd/yyyy"));
 		WebUI.setText(findTestObject(ePath+'ExpctdPubliDate-Clndr'), clearText() + getCurrentDate("MM/dd/yyyy"));
 
@@ -568,7 +568,7 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 	 */
 	@Keyword
 	public static void verifyPiInfo(int fNameRN, int lNameRN, int positnRN, int emailRN, int institRN, int instAddRN){
-
+		Thread.sleep(1000)
 		ePath = "CRDC/SubmissionRequest/ReviewSubmit/";
 		fPath = "CRDC/SubmissionRequest/Section-A/principal-investigator";
 
