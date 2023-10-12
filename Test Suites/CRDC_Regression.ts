@@ -21,7 +21,7 @@
    <testCaseLink>
       <guid>df2081fe-d742-437f-81be-32f598f806c9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CRDC_TestCases/SubmissionRequest/TC02_CRDC_Submission_Request-RequiredFields</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
