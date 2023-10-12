@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Asian_Chkbx</name>
+   <tag></tag>
+   <elementGuidId>19f9d485-e9bc-4ffc-bc36-e890b7e2b7da</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;checkbox_Race_Asian&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;checkbox_Race_Asian&quot;]</value>
+      <webElementGuid>a016981e-c2dd-4c00-818b-e53cf78e4f25</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

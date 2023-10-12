@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Files_Cnt</name>
+   <tag></tag>
+   <elementGuidId>27e19255-8427-4847-a532-dd222dfbde40</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id='statsbar_count_4']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id='statsbar_count_4']</value>
+      <webElementGuid>e8f2a4c5-21de-47e9-a8ae-fbb3d36f57e8</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

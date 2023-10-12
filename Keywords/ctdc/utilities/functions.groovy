@@ -318,6 +318,4 @@ class functions extends runtestcaseforKatalon implements Comparator<List<XSSFCel
 
 	}//ReadCasesTableKatalon function ends
 
-
-
 }//class ends
