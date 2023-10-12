@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;section-b-dbgap-phs-number&quot;]</value>
+         <value>//*[@id=&quot;section-b-if-yes-provide-dbgap-phs-number&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;section-b-dbgap-phs-number&quot;]</value>
-      <webElementGuid>cdeb0ca4-e4fc-484b-9106-fac880c10a26</webElementGuid>
+      <value>//*[@id=&quot;section-b-if-yes-provide-dbgap-phs-number&quot;]</value>
+      <webElementGuid>aaf16792-f003-4d3a-84c9-6384c298f93b</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

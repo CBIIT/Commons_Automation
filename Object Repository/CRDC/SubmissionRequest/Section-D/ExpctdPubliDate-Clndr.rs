@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ExpctdPubliDate-Clndr</name>
+   <tag></tag>
+   <elementGuidId>f179027c-ed7e-4d79-ae31-cb88ac29cc11</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;section-d-expected-publication-date&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;section-d-expected-publication-date&quot;]</value>
+      <webElementGuid>910d319d-6f74-4473-966b-676336b7cb0b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
