@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ConfirmDataIdentified_no-RdoBtn</name>
+   <tag></tag>
+   <elementGuidId>8330c0fa-3f95-4f71-b35a-99c128cc5f34</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;section-d-imaging-de-identified-no-radio-button&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;section-d-imaging-de-identified-no-radio-button&quot;]</value>
+      <webElementGuid>a5c09824-7242-4c7f-846c-39875419a17c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
