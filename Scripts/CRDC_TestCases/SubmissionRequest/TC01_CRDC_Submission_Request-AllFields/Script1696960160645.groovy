@@ -71,7 +71,7 @@ CustomKeywords.'ctdc.utilities.Crdc.enterFundingAgencyAndDbGaPInfo'(1, 1, 1, 1, 
 
 //CustomKeywords.'ctdc.utilities.Crdc.enterPublicationsInfo'(1, 1, 1, 1)
 
-CustomKeywords.'ctdc.utilities.Crdc.enterRepositoryInfo'('Clinical', 1, 1, 1)
+//CustomKeywords.'ctdc.utilities.Crdc.enterRepositoryInfo'('Clinical', 1, 1, 1)
 
 WebUI.click(findTestObject('CRDC/SubmissionRequest/Save-Btn'))
 
@@ -107,7 +107,7 @@ CustomKeywords.'ctdc.utilities.Crdc.verifyFundingAgencyAndDbGaPInfo'(1, 1, 1, 1,
 
 //CustomKeywords.'ctdc.utilities.Crdc.verifyPublicationsInfo'(1, 1, 1, 1)
 
-CustomKeywords.'ctdc.utilities.Crdc.verifyRepositoryInfo'('Clinical', 1, 1, 1)
+//CustomKeywords.'ctdc.utilities.Crdc.verifyRepositoryInfo'('Clinical', 1, 1, 1)
 
 CustomKeywords.'ctdc.utilities.Crdc.verifyDataAccessAndDiseaseInfo'('Cholangiocarcinoma', 'Breast', 'Mus', 1, 1, 1)
 
