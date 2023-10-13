@@ -21,7 +21,7 @@
    <testCaseLink>
       <guid>b9ef50e9-b32f-465c-ac83-c854401e5243</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/CDS_TestCases/LibrarySelection/TC02_CDS_Filter_LibrarySelection-NotSpecifiedinData</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -63,7 +63,7 @@
    <testCaseLink>
       <guid>9b471032-5d0e-41c3-9ebf-5aa1d7bcfdd7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/CDS_TestCases/LibrarySelection/TC08_CDS_Filter_LibrarySelection-other</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -84,7 +84,7 @@
    <testCaseLink>
       <guid>06f76dd8-12d4-4876-a45e-7b7d1ce3b789</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/CDS_TestCases/LibraryLayout/TC03_CDS_Filter_LibraryLayout-Notspecifiedindata</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -210,7 +210,7 @@
    <testCaseLink>
       <guid>23d843dc-5f67-4745-aec6-576a0571c70f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/CDS_TestCases/Instrument Model/TC14_CDS_Filter_InstrumentModel-Notapplicable</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -308,8 +308,8 @@
    <testCaseLink>
       <guid>283a7b20-680f-4a87-a784-6690ce147ac6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/PHS_Accession/TC03_CDS_Filter_PHSAccession-phs001554</testCaseId>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/PHS_Accession/TC03_CDS_Filter_PHSAccession-phs001554-removed</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -322,15 +322,15 @@
    <testCaseLink>
       <guid>37d4d590-9d1e-4903-9e70-9f6f37993fc4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/PHS_Accession/TC05_CDS_Filter_PHSAccession-phs001787</testCaseId>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/PHS_Accession/TC05_CDS_Filter_PHSAccession-phs001787-removed</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>159d66cb-b54b-4178-8d17-ec07eb0eac43</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/PHS_Accession/TC06_CDS_Filter_PHSAccession-phs002050</testCaseId>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/PHS_Accession/TC06_CDS_Filter_PHSAccession-phs002050-removed</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -448,8 +448,8 @@
    <testCaseLink>
       <guid>dd8ff04a-4ee8-453a-8843-5c52712cd9a6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/Study/TC01_CDS_Filter_Study-GECCO-OICR</testCaseId>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Study/TC01_CDS_Filter_Study-GECCO-OICR - removed</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -497,15 +497,15 @@
    <testCaseLink>
       <guid>75be1370-4bb5-48c7-83e4-62110e51e357</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/Study/TC08_CDS_Filter_Study-Detection_CCS</testCaseId>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Study/TC08_CDS_Filter_Study-Detection_CCS- removed</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>cac3116e-6ba7-4d86-8158-6e6739d3b2d9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/Study/TC09_CDS_Filter_Study-Discovery_CCS</testCaseId>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Study/TC09_CDS_Filter_Study-Discovery_CCS - removed</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -819,14 +819,14 @@
    <testCaseLink>
       <guid>64e608a8-df26-423d-b85c-f0a47265879a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/CDS_TestCases/FileType/TC14_CDS_Filter_FileType-XLSX</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>e8c91610-bba1-4aa1-b3b5-5b6a9b9751d2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/CDS_TestCases/FileType/TC15_CDS_Filter_FileType-NotSpec</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -877,6 +877,69 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CDS_TestCases/Multifilter/TC07_CDS_study-CIDR_LibraryStrategy-NotSpecifiedindata_Gender-Male_SampleTumor-Normal_PHS Accession</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>22e59460-8a3e-40c8-ad15-36f1b458fe7b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/PHS_Accession/TC14_CDS_Filter_PHSAccession-phs001287</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7aec78c1-7718-4a20-9ff2-f750f4c580a1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/PHS_Accession/TC15_CDS_Filter_PHSAccession-phs002599</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>20bfb9f7-45a5-4fc3-b6b4-b6a01d1cfb81</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Study/TC08_CDS_Filter_Study-Washington Univ in St.Louis</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d0a68b51-50dc-4ffb-8e2c-8d6deecf09ff</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Study/TC09_CDS_Filter_Study-NCI_CCSG_CCDI</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b8bf088b-c2a0-40e2-8247-a887064344e8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Multifilter/TC08_CDS_Filter_PHSAccession1287_LibStrategy_WXS</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8972f6fb-e91c-4e51-a5ba-99fcec279f7e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Multifilter/TC09_CDS_Filter_PHSAccession1287_RefGen_GRCh38</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8b61b9ef-3e5b-4660-ba5d-e3b249db7f03</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Multifilter/TC10_CDS_Filter_PHSAccession1287_PrimDiag_Gliobastoma</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>afc7abcf-c546-4e70-bcbd-4295dd1a6743</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Multifilter/TC11_CDS_Filter_PHSAccession2599_InsrumentModel_HiSeqXTen</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>21747227-ab98-4a32-be8a-daf98126ca77</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Multifilter/TC12_CDS_Filter_PHSAccession2599_LibStrategy_RNASeq</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

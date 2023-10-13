@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>CDS_Data-Btn</name>
+   <name>TumoroidUD_Chkbx</name>
    <tag></tag>
-   <elementGuidId>a28d8eda-8c35-4e89-9f5d-4b9398d43124</elementGuidId>
+   <elementGuidId>e2e5e26b-7ad0-4c40-aeab-ef70440f7a77</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[contains(@href,'#/data')]</value>
+         <value>//*[@id=&quot;checkbox_Sample Type_Tumoroid (urine-derived)&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[contains(@href,'#/data')]</value>
-      <webElementGuid>00230a11-89b0-49fa-a997-68905c401fa5</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Sample Type_Tumoroid (urine-derived)&quot;]</value>
+      <webElementGuid>daf85dec-d321-47e9-b3a0-9fc018e6d6e6</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC09_CDS_Filter_PHSAccession1287_RefGen_GRCh38</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fe33aee4-20bd-46aa-bc31-a11a82dc3b64</testCaseGuid>
+</TestCaseEntity>

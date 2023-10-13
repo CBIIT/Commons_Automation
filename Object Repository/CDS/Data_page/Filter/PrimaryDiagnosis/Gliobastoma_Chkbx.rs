@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>CDS_Data-Btn</name>
+   <name>Gliobastoma_Chkbx</name>
    <tag></tag>
-   <elementGuidId>a28d8eda-8c35-4e89-9f5d-4b9398d43124</elementGuidId>
+   <elementGuidId>c610a734-233c-49ad-adbb-d438fa42ed85</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[contains(@href,'#/data')]</value>
+         <value>//*[@id=&quot;checkbox_PRIMARY DIAGNOSIS_Glioblastoma&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[contains(@href,'#/data')]</value>
-      <webElementGuid>00230a11-89b0-49fa-a997-68905c401fa5</webElementGuid>
+      <value>//*[@id=&quot;checkbox_PRIMARY DIAGNOSIS_Glioblastoma&quot;]</value>
+      <webElementGuid>b36cc12b-c649-4ae7-9400-f54e09392353</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
