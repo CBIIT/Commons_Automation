@@ -9,8 +9,12 @@
          <key>BASIC</key>
          <value>//*[@id=&quot;section-d-targeted-data-submission-delivery-date&quot;]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;section-d-targeted-data-submission-delivery-date&quot;]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -18,6 +22,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;section-d-targeted-data-submission-delivery-date&quot;]</value>
-      <webElementGuid>111d0918-bace-4be3-ae1a-15a243234687</webElementGuid>
+      <webElementGuid>82539f32-3c03-41f2-a2f6-0615e729e626</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
