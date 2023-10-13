@@ -501,7 +501,7 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 		ePath = "CRDC/SubmissionRequest/Section-D/";
 		fPath = "CRDC/SubmissionRequest/Section-D/data-types";
 		Thread.sleep(1000)
-		WebUI.setText(findTestObject(ePath+'TragetSubmDelivryDate-Clndr'), clearText() + getCurrentDate("MM/dd/yyyy"));
+		WebUI.setText(findTestObject(ePath+'TragetSubmDelivryDate-Clnder'), clearText() + getCurrentDate("MM/dd/yyyy"));
 		WebUI.setText(findTestObject(ePath+'ExpctdPubliDate-Clndr'), clearText() + getCurrentDate("MM/dd/yyyy"));
 
 		//Verify default is 'No' for all data types
