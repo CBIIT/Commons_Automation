@@ -9,8 +9,12 @@
          <key>BASIC</key>
          <value>//*[@name='pi[firstName]']</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@name='pi[firstName]']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -18,6 +22,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@name='pi[firstName]']</value>
-      <webElementGuid>55b2207c-1b37-4e30-8c0b-860ddeaf0aa6</webElementGuid>
+      <webElementGuid>e40a04b0-1f03-456f-8144-2fb1ee7423c5</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
