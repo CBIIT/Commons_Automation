@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>CDS_Data-Btn</name>
+   <name>UroCarcinomaorganoid_Chkbx</name>
    <tag></tag>
-   <elementGuidId>a28d8eda-8c35-4e89-9f5d-4b9398d43124</elementGuidId>
+   <elementGuidId>f07c004e-1d8b-4084-b610-c8f884b9363b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[contains(@href,'#/data')]</value>
+         <value>//*[@id=&quot;checkbox_Sample Pathology_Urothelial Carcinoma (organoid)&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[contains(@href,'#/data')]</value>
-      <webElementGuid>00230a11-89b0-49fa-a997-68905c401fa5</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Sample Pathology_Urothelial Carcinoma (organoid)&quot;]</value>
+      <webElementGuid>f708add2-ea55-4630-8796-2274b30deb26</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
