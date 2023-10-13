@@ -83,10 +83,10 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 	@Keyword
 	public static void navigateToCrdc() {
 		driver = CustomBrowserDriver.createWebDriver();
-		driver.get(GlobalVariable.G_Urlname);
 		driver.manage().window().maximize();
+		driver.get(GlobalVariable.G_Urlname);
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		WebUI.waitForPageLoad(10)
+		WebUI.waitForPageLoad(30)
 		WebUI.verifyMatch(GlobalVariable.G_Urlname, WebUI.getUrl(), false)
 	}
 
@@ -238,9 +238,9 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 		Thread.sleep(1000)
 		ePath = "CRDC/SubmissionRequest/Section-A/";
 		fPath = "CRDC/SubmissionRequest/Section-A/principal-investigator";
-		
-		WebUI.waitForElementPresent(findTestObject(ePath+'PI_FirstName-Txtbx'), 20)
-		WebUI.setText(findTestObject(ePath+'PI_FirstName-Txtbx'), clearText() + findTestData(fPath).getValue('pi-first-name', fNameRN));
+		WebUI.waitForPageLoad(30)
+		WebUI.waitForElementPresent(findTestObject('CRDC/SubmissionRequest/Section-A/PI_FirstName-Txtbx'), 20)
+		WebUI.setText(findTestObject('CRDC/SubmissionRequest/Section-A/PI_FirstName-Txtbx'), clearText() + findTestData(fPath).getValue('pi-first-name', fNameRN));
 		WebUI.waitForElementPresent(findTestObject(ePath+'PI_LastName-Txtbx'), 20)
 		WebUI.setText(findTestObject(ePath+'PI_LastName-Txtbx'), clearText() + findTestData(fPath).getValue('pi-last-name', lNameRN));
 		WebUI.waitForElementPresent(findTestObject(ePath+'PI_Position-Txtbx'), 20)
