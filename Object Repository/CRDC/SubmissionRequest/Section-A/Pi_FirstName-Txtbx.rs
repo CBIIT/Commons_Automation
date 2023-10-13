@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;section-a-pi-first-name&quot;]</value>
+         <value>//*[@name='pi[firstName]']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;section-a-pi-first-name&quot;]</value>
-      <webElementGuid>f6064713-9166-41a8-bd40-ee183ce55580</webElementGuid>
+      <value>//*[@name='pi[firstName]']</value>
+      <webElementGuid>55b2207c-1b37-4e30-8c0b-860ddeaf0aa6</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
