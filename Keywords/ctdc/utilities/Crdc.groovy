@@ -152,19 +152,19 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 		WebUI.waitForElementPresent(findTestObject('CRDC/Login/Login.gov_ConsentGrant-Btn'), 5)
 		WebUI.click(findTestObject('CRDC/Login/Login.gov_ConsentGrant-Btn'))
 
-//		if(WebUI.getUrl().contains("hub")) {
-//			WebUI.waitForElementPresent(findTestObject('CRDC/Login/UserProfile-Dd'), 5)
-//			WebUI.verifyElementPresent(findTestObject('CRDC/Login/UserProfile-Dd'), 5)
-//			String userName = WebUI.getText(findTestObject('CRDC/Login/UserProfile-Dd'));
-//
-//			if(userName.contains("KATALON"))
-//				System.out.println("User '" + userName + "' sucessfully logged in");
-//			System.out.println("Current URL is: "+ WebUI.getUrl());
-//			WebUI.verifyMatch(GlobalVariable.G_Urlname+"submissions", WebUI.getUrl(), false)
-//
-//		}else {
-//			KeywordUtil.markFailed("Landed on the wrong page!")
-//		}
+		//		if(WebUI.getUrl().contains("hub")) {
+		//			WebUI.waitForElementPresent(findTestObject('CRDC/Login/UserProfile-Dd'), 5)
+		//			WebUI.verifyElementPresent(findTestObject('CRDC/Login/UserProfile-Dd'), 5)
+		//			String userName = WebUI.getText(findTestObject('CRDC/Login/UserProfile-Dd'));
+		//
+		//			if(userName.contains("KATALON"))
+		//				System.out.println("User '" + userName + "' sucessfully logged in");
+		//			System.out.println("Current URL is: "+ WebUI.getUrl());
+		//			WebUI.verifyMatch(GlobalVariable.G_Urlname+"submissions", WebUI.getUrl(), false)
+		//
+		//		}else {
+		//			KeywordUtil.markFailed("Landed on the wrong page!")
+		//		}
 
 	}
 
@@ -238,8 +238,12 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 		Thread.sleep(1000)
 		ePath = "CRDC/SubmissionRequest/Section-A/";
 		fPath = "CRDC/SubmissionRequest/Section-A/principal-investigator";
+		
+		WebUI.waitForElementPresent(findTestObject(ePath+'PI_FirstName-Txtbx'), 20)
 		WebUI.setText(findTestObject(ePath+'PI_FirstName-Txtbx'), clearText() + findTestData(fPath).getValue('pi-first-name', fNameRN));
+		WebUI.waitForElementPresent(findTestObject(ePath+'PI_LastName-Txtbx'), 20)
 		WebUI.setText(findTestObject(ePath+'PI_LastName-Txtbx'), clearText() + findTestData(fPath).getValue('pi-last-name', lNameRN));
+		WebUI.waitForElementPresent(findTestObject(ePath+'PI_Position-Txtbx'), 20)
 		WebUI.setText(findTestObject(ePath+'PI_Position-Txtbx'), clearText() + findTestData(fPath).getValue('position', positnRN));
 		WebUI.setText(findTestObject(ePath+'PI_Email-Txtbx'), clearText() + findTestData(fPath).getValue('pi-email', emailRN));
 		WebUI.setText(findTestObject(ePath+'PI_Institution-Dd'), clearText() + findTestData(fPath).getValue('pi-institution', institRN));
@@ -254,6 +258,7 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 	@Keyword
 	public static void enterPrimaryContactInfo(int fNameRN, int lNameRN, int positnRN, int emailRN, int institRN, int phoneRN){
 		fPath = "CRDC/SubmissionRequest/Section-A/primary-contact";
+		WebUI.waitForElementPresent(findTestObject(ePath+'PC_FirstName-Txtbx'), 20)
 		WebUI.setText(findTestObject(ePath+'PC_FirstName-Txtbx'), findTestData(fPath).getValue('pc-first-name', fNameRN));
 		WebUI.setText(findTestObject(ePath+'PC_LastName-Txtbx'), findTestData(fPath).getValue('pc-last-name', lNameRN));
 		WebUI.setText(findTestObject(ePath+'PC_Position-Txtbx'), findTestData(fPath).getValue('pc-position', positnRN));
@@ -272,6 +277,7 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 		fPath = "CRDC/SubmissionRequest/Section-A/additional-contact";
 		Thread.sleep(1000);
 		WebUI.click(findTestObject(ePath+'AddContact-Btn'))
+		WebUI.waitForElementPresent(findTestObject(ePath+'AC_FirstName-Txtbx'), 20)
 		WebUI.setText(findTestObject(ePath+'AC_FirstName-Txtbx'), findTestData(fPath).getValue('ac-first-name', fNameRN));
 		WebUI.setText(findTestObject(ePath+'AC_LastName-Txtbx'), findTestData(fPath).getValue('ac-last-name', lNameRN));
 		WebUI.setText(findTestObject(ePath+'AC_Position-Txtbx'), findTestData(fPath).getValue('ac-position', positnRN));
