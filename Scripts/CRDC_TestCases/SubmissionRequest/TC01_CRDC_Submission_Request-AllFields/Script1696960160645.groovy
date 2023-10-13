@@ -69,7 +69,7 @@ CustomKeywords.'ctdc.utilities.Crdc.enterStudyInfo'(1, 1, 1)
 
 CustomKeywords.'ctdc.utilities.Crdc.enterFundingAgencyAndDbGaPInfo'(1, 1, 1, 1, 1)
 
-CustomKeywords.'ctdc.utilities.Crdc.enterPublicationsInfo'(1, 1, 1, 1)
+//CustomKeywords.'ctdc.utilities.Crdc.enterPublicationsInfo'(1, 1, 1, 1)
 
 CustomKeywords.'ctdc.utilities.Crdc.enterRepositoryInfo'('Clinical', 1, 1, 1)
 
@@ -105,7 +105,7 @@ CustomKeywords.'ctdc.utilities.Crdc.verifyStudyInfo'(1, 1, 1)
 
 CustomKeywords.'ctdc.utilities.Crdc.verifyFundingAgencyAndDbGaPInfo'(1, 1, 1, 1, 1)
 
-CustomKeywords.'ctdc.utilities.Crdc.verifyPublicationsInfo'(1, 1, 1, 1)
+//CustomKeywords.'ctdc.utilities.Crdc.verifyPublicationsInfo'(1, 1, 1, 1)
 
 CustomKeywords.'ctdc.utilities.Crdc.verifyRepositoryInfo'('Clinical', 1, 1, 1)
 
