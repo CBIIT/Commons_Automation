@@ -414,8 +414,8 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 
 		fPath = "CRDC/SubmissionRequest/Section-B/publication-repository";
 		
-		WebUI.scrollToElement(findTestObject(ePath+'AddExistPublication-Btn'), 20)
-		WebUI.click(findTestObject(ePath+"AddExistPublication-Btn"))
+		WebUI.scrollToElement(findTestObject(ePath+'AddExistingPublication-Btn'), 20)
+		WebUI.click(findTestObject(ePath+"AddExistingPublication-Btn"))
 		Thread.sleep(1000);
 		WebUI.setText(findTestObject(ePath+'PublicationTitle-TxtBx'), findTestData(fPath).getValue('publication-title', publiTitRN));
 		WebUI.setText(findTestObject(ePath+'PubMedID-Txtbx'), findTestData(fPath).getValue('pubmed-id', pubmedIdRN));
