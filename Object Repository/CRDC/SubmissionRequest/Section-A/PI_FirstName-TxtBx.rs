@@ -1,27 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>PI_FirstName-Txtbx</name>
+   <name>PI_FirstName-TxtBx</name>
    <tag></tag>
-   <elementGuidId>b5f0e88d-5563-4c28-9c80-dfb479e6ba0e</elementGuidId>
+   <elementGuidId>b61c9a01-a21e-4d30-afb4-6669b0d308f9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@name='pi[firstName]']</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//*[@name='pi[firstName]']</value>
+         <value>//*[@id=&quot;section-a-pi-first-name&quot;]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@name='pi[firstName]']</value>
-      <webElementGuid>e40a04b0-1f03-456f-8144-2fb1ee7423c5</webElementGuid>
+      <value>//*[@id=&quot;section-a-pi-first-name&quot;]</value>
+      <webElementGuid>c1f8c8c4-1c06-4d44-a5f3-d23f68788647</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

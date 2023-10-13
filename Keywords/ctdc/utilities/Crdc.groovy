@@ -238,9 +238,8 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 		Thread.sleep(1000)
 		ePath = "CRDC/SubmissionRequest/Section-A/";
 		fPath = "CRDC/SubmissionRequest/Section-A/principal-investigator";
-		WebUI.waitForPageLoad(30)
-		WebUI.waitForElementPresent(findTestObject('CRDC/SubmissionRequest/Section-A/PI_FirstName-Txtbx'), 20)
-		WebUI.setText(findTestObject('CRDC/SubmissionRequest/Section-A/PI_FirstName-Txtbx'), clearText() + findTestData(fPath).getValue('pi-first-name', fNameRN));
+		WebUI.waitForElementPresent(findTestObject('CRDC/SubmissionRequest/Section-A/PI_FirstName-TxtBx'), 20)
+		WebUI.setText(findTestObject('CRDC/SubmissionRequest/Section-A/PI_FirstName-TxtBx'), clearText() + findTestData(fPath).getValue('pi-first-name', fNameRN));
 		WebUI.waitForElementPresent(findTestObject(ePath+'PI_LastName-Txtbx'), 20)
 		WebUI.setText(findTestObject(ePath+'PI_LastName-Txtbx'), clearText() + findTestData(fPath).getValue('pi-last-name', lNameRN));
 		WebUI.waitForElementPresent(findTestObject(ePath+'PI_Position-Txtbx'), 20)
