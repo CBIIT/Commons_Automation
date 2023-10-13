@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>PublicationTitle-Txtbx</name>
+   <name>PublicationTitle-TxtBx</name>
    <tag></tag>
-   <elementGuidId>d31d9a6d-0ab2-4a68-80e7-96fd1ef90fa2</elementGuidId>
+   <elementGuidId>c4b043bb-1a8a-46e5-8e5e-eab3db91d3c4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;section-b-publication-0-title&quot;]</value>
+         <value>//*[@id=&quot;section-b-publication-1-title&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;section-b-publication-0-title&quot;]</value>
-      <webElementGuid>bde13580-9996-4300-a62a-103f8306368f</webElementGuid>
+      <value>//*[@id=&quot;section-b-publication-1-title&quot;]</value>
+      <webElementGuid>7d53825c-7fea-452e-b770-adf904fafb67</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

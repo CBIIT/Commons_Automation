@@ -413,9 +413,10 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 	public static void enterPublicationsInfo(int publiTitRN, int pubmedIdRN, int doiRN, int plndPublTitleRN) {
 
 		fPath = "CRDC/SubmissionRequest/Section-B/publication-repository";
+		WebUI.scrollToElement(findTestObject(ePath+'AddExistPublication-Btn'), 20)
 		WebUI.click(findTestObject(ePath+"AddExistPublication-Btn"))
-		Thread.sleep(500);
-		WebUI.setText(findTestObject(ePath+'PublicationTitle-Txtbx'), findTestData(fPath).getValue('publication-title', publiTitRN));
+		Thread.sleep(1000);
+		WebUI.setText(findTestObject(ePath+'PublicationTitle-TxtBx'), findTestData(fPath).getValue('publication-title', publiTitRN));
 		WebUI.setText(findTestObject(ePath+'PubMedID-Txtbx'), findTestData(fPath).getValue('pubmed-id', pubmedIdRN));
 		WebUI.setText(findTestObject(ePath+'DOI-Txtbx'), findTestData(fPath).getValue('doi', doiRN));
 
@@ -436,7 +437,7 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 
 		fPath = "CRDC/SubmissionRequest/Section-B/publication-repository";
 		WebUI.click(findTestObject(ePath+"AddRepository-Btn"))
-		Thread.sleep(500);
+		Thread.sleep(1000);
 		WebUI.setText(findTestObject(ePath+'RepositoryName-Txtbx'), findTestData(fPath).getValue('repository-name', repoNamRN));
 		WebUI.setText(findTestObject(ePath+'StudyID-Txtbx'), findTestData(fPath).getValue('study-id', stdyIdRN));
 		WebUI.click(findTestObject(ePath+'DataTypesSubmitd-Dd'));
