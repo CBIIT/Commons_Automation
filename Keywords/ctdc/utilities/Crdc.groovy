@@ -462,7 +462,7 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 		ePath = "CRDC/SubmissionRequest/Section-C/";
 		fPath = "CRDC/SubmissionRequest/Section-C/data-access-disease";
 		Thread.sleep(1000)
-		WebUI.click(findTestObject(ePath+"OpenAccess-Chkbx"))
+		WebUI.click(findTestObject(ePath+"OpenAccess-ChkBx"))
 		WebUI.click(findTestObject(ePath+"CancerTypes-Dd"))
 		GlobalVariable.CrdcUiElement=cancerType;
 		WebUI.click(findTestObject('CRDC/SubmissionRequest/CrdcDdValue'))
