@@ -6,12 +6,12 @@
    <elementGuidId>c1323b07-56a7-4349-8167-56d05dac8e45</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id=&quot;section-d-targeted-data-submission-delivery-date&quot;]</value>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;section-d-targeted-data-submission-delivery-date&quot;]//following::button[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;section-d-targeted-data-submission-delivery-date&quot;]</value>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;section-d-targeted-data-submission-delivery-date&quot;]//following::button[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;section-d-targeted-data-submission-delivery-date&quot;]</value>
-      <webElementGuid>82539f32-3c03-41f2-a2f6-0615e729e626</webElementGuid>
+      <value>//*[@id=&quot;section-d-targeted-data-submission-delivery-date&quot;]//following::button[1]</value>
+      <webElementGuid>ed5ac46a-00d8-4d19-85e8-aea29c2f80bc</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

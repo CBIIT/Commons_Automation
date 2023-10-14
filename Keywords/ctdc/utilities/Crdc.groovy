@@ -404,6 +404,14 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 		System.out.println("Successfully entered Funding Agency and dbGaP information");
 	}
 
+	/**
+	 * This function clears text from a text field
+	 * @return String
+	 */
+	public static void clearTxt(TestObject obj) {
+		WebUI.sendKeys(obj,  Keys.chord(Keys.CONTROL, "a") + Keys.DELETE);
+	}
+	
 
 	/**
 	 * This function enters Publications info into submission request form
@@ -413,7 +421,7 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 	public static void enterPublicationsInfo(int publiTitRN, int pubmedIdRN, int doiRN, int plndPublTitleRN) {
 
 		fPath = "CRDC/SubmissionRequest/Section-B/publication-repository";
-		
+
 		WebUI.scrollToElement(findTestObject(ePath+'AddExistingPublication-Btn'), 20)
 		WebUI.click(findTestObject(ePath+"AddExistingPublication-Btn"))
 		Thread.sleep(1000);
@@ -425,6 +433,7 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 		Thread.sleep(500);
 		WebUI.scrollToElement(findTestObject(ePath+'PlannedPublicationTitle-Txtbx'), 3)
 		WebUI.setText(findTestObject(ePath+'PlannedPublicationTitle-Txtbx'), findTestData(fPath).getValue('pland-publictn-title', plndPublTitleRN));
+		clearText(findTestObject(ePath+'ExpectedPubDate-Clndr'))
 		WebUI.setText(findTestObject(ePath+'ExpectedPubDate-Clndr'), clearText() + getCurrentDate("MM/dd/yyyy"));
 		System.out.println("Successfully entered Publications information");
 	}
@@ -491,6 +500,14 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 		System.out.println("Successfully entered Data Access Types and Cancer Types information");
 	}
 
+	static void selectTodayDate(TestObject calendarButton, TestObject todayDateLocator) {
+		// Click on the calendar button to open the date picker
+		WebUI.click(calendarButton)
+		Thread.sleep(500)
+		// Locate and click on today's date
+		WebUI.click(todayDateLocator)
+	}
+	
 	/**
 	 * This function selects Data Types on the submission request form
 	 * @param buttonLable Toggle button label to be clicked (enter only one word per toggle button)
@@ -501,8 +518,14 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 		ePath = "CRDC/SubmissionRequest/Section-D/";
 		fPath = "CRDC/SubmissionRequest/Section-D/data-types";
 		Thread.sleep(1000)
-		WebUI.setText(findTestObject(ePath+'TragetSubmDelivryDate-Clnder'), "10/13/2023");
-		WebUI.setText(findTestObject(ePath+'ExpctdPubliDate-Clndr'), "10/13/2023"); //getCurrentDate("MM/dd/yyyy")
+		//clearText(findTestObject(ePath+'TragetSubmDelivryDate-Clnder'))
+		//WebUI.setText(findTestObject(ePath+'TragetSubmDelivryDate-Clnder'), clearText() + getCurrentDate("MM/dd/yyyy"));
+		
+		selectTodayDate(findTestObject(ePath+'TragetSubmDelivryDate-Clnder'), findTestObject(ePath+'CalendarTodayDate-Btn'))
+		//clearText(findTestObject(ePath+'ExpctdPubliDate-Clndr'))
+		//WebUI.setText(findTestObject(ePath+'ExpctdPubliDate-Clndr'), clearText() + getCurrentDate("MM/dd/yyyy"));
+		
+		selectTodayDate(findTestObject(ePath+'ExpctdPubliDate-Clndr'), findTestObject(ePath+'CalendarTodayDate-Btn'))
 
 		//Verify default is 'No' for all data types
 		List elements = WebUI.findWebElements(findTestObject(ePath+'AllSlider-Btns'), 20)
