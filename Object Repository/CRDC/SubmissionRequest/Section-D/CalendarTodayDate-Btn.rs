@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ExpctdPubliDate-Clndr</name>
+   <name>CalendarTodayDate-Btn</name>
    <tag></tag>
-   <elementGuidId>f179027c-ed7e-4d79-ae31-cb88ac29cc11</elementGuidId>
+   <elementGuidId>bfdaa6aa-7987-4601-bebb-23a5aa4b2f61</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;section-d-expected-publication-date&quot;]//following::button[1]</value>
+         <value>//button[contains(@class,'MuiPickersDay-today')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;section-d-expected-publication-date&quot;]//following::button[1]</value>
+         <value>//button[contains(@class,'MuiPickersDay-today')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,7 +21,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;section-d-expected-publication-date&quot;]//following::button[1]</value>
-      <webElementGuid>1c98cd7d-67e4-4278-a736-9ffed94f8846</webElementGuid>
+      <value>//button[contains(@class,'MuiPickersDay-today')]</value>
+      <webElementGuid>90186f91-6f5c-4e82-a649-3e49a31f20e0</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
