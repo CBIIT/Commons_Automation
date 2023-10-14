@@ -521,7 +521,7 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 		//clearText(findTestObject(ePath+'TragetSubmDelivryDate-Clnder'))
 		//WebUI.setText(findTestObject(ePath+'TragetSubmDelivryDate-Clnder'), clearText() + getCurrentDate("MM/dd/yyyy"));
 		
-		selectTodayDate(findTestObject(ePath+'TragetSubmDelivryDate-Clnder'), findTestObject(ePath+'CalendarTodayDate-Btn'))
+		selectTodayDate(findTestObject(ePath+'TragetSubmissionDelivryDate-Clnder'), findTestObject(ePath+'CalendarTodayDate-Btn'))
 		//clearText(findTestObject(ePath+'ExpctdPubliDate-Clndr'))
 		//WebUI.setText(findTestObject(ePath+'ExpctdPubliDate-Clndr'), clearText() + getCurrentDate("MM/dd/yyyy"));
 		
