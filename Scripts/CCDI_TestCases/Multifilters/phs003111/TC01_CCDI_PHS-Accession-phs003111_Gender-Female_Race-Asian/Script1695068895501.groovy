@@ -84,6 +84,11 @@ CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.readStatBarCCDIhub'('Object Repository/CCDI/Statbar/Studies_Cnt','Object Repository/CCDI/Statbar/Participants_Cnt', 'Object Repository/CCDI/Statbar/Samples_Cnt',
 	'Object Repository/CCDI/Statbar/Files_Cnt')
 
+
+
+//clicking the Participants tab   - for some reason the xpath does not get identified for the participants results tab
+//WebUI.waitForElementPresent(findTestObject('Object Repository/CCDI/ExplorePage/Participants_ResultsTab'), 5)
+//CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/CCDI/ExplorePage/Participants_ResultsTab')
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.multiFunction'('CCDI', GlobalVariable.G_StatBar_Participants, 'Object Repository/CCDI/ExplorePage/CCDI_Participants_Tbl',
 	'Object Repository/CCDI/ExplorePage/CCDI_Participants_TblHdr', 'Object Repository/CCDI/ExplorePage/CCDI_Participants_TblNextBtn', GlobalVariable.G_WebTabnameParticipants,	GlobalVariable.G_CypherTabnameParticipants, GlobalVariable.G_QueryParticipantsTab)
  
