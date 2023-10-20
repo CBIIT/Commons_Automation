@@ -1017,7 +1017,7 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 								if((tbl_main).equals('//*[@id="participant_tab_table"]')){
 									System.out.println("Inside CCDI participants switch")
 									tblcol=tblcol-3;
-									for (int j = 1; j <=tblcol; j = j +1) {
+									for (int j = 1; j <=tblcol+1; j = j +1) {
 										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
 										System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
 										//*[@id="participant_tab_table"]/div[2]/table/tbody/tr[1]/td[3]/p
@@ -1047,30 +1047,30 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 									for (int j = 1; j <=tblcol; j = j +1) {
 										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
 										// only for two cols with (top 5) the xpath will not have the /p tag
-										
+
 										if(((tbl_main).equals("//*[@id='study_tab_table']")) && (colHeader.get(j).getAttribute("innerText")=="Diagnosis (Top 5)")) {
-											 System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
-											 data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]")).getAttribute("innerText")) +"||")
-										 }else if(((tbl_main).equals("//*[@id='study_tab_table']")) && (colHeader.get(j).getAttribute("innerText")=="Diagnosis Anatomic Site (Top 5)")) {
-											 System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
-											 data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]")).getAttribute("innerText")) +"||")
-										 }else if(((tbl_main).equals("//*[@id='study_tab_table']")) && (colHeader.get(j).getAttribute("innerText")=="File Type (Top 5)")) {
-											 System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
-											 data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]")).getAttribute("innerText")) +"||")
-										 }
-										else {
-										System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
-										//*[@id="participant_tab_table"]/div[2]/table/tbody/tr[1]/td[3]/p
-										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/p")).getAttribute("innerText")) +"||")
+											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]")).getAttribute("innerText")) +"||")
+										}else if(((tbl_main).equals("//*[@id='study_tab_table']")) && (colHeader.get(j).getAttribute("innerText")=="Diagnosis Anatomic Site (Top 5)")) {
+											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]")).getAttribute("innerText")) +"||")
+										}else if(((tbl_main).equals("//*[@id='study_tab_table']")) && (colHeader.get(j).getAttribute("innerText")=="File Type (Top 5)")) {
+											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]")).getAttribute("innerText")) +"||")
 										}
-										
-										
+										else {
+											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+											//*[@id="participant_tab_table"]/div[2]/table/tbody/tr[1]/td[3]/p
+											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/p")).getAttribute("innerText")) +"||")
+										}
+
+
 										System.out.println("This is the value of data : "+data)
 									}
 								}else if((tbl_main).equals("//*[@id='sample_tab_table']")){
 									System.out.println("Inside CCDI samples tab switch")
 
-									for (int j = 1; j <tblcol; j = j +1) {
+									for (int j = 1; j <tblcol+1; j = j +1) {
 										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
 										// only for this Age column the xpath will not have the /p tag
 										if(((tbl_main).equals("//*[@id='sample_tab_table']")) && (colHeader.get(j).getAttribute("innerText")=="Age at Sample Collection")) {
