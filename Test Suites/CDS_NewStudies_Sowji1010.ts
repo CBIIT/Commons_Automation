@@ -169,7 +169,7 @@
       <guid>4edbc21a-b0e6-49fa-9e51-e1f0a2126102</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/Study/TC03_CDS_Filter_Study-Molecular Char Init</testCaseId>
+      <testCaseId>Test Cases/CDS_TestCases/Study/TC03_CDS_Filter_Study-Molecular Characterization (CTSMC)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
