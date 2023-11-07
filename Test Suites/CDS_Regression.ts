@@ -589,7 +589,7 @@
       <guid>02b4bec8-1a70-46cb-93c1-b57beb59ca12</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/Primary_Diagnosis/TC01_CDS_Filter_Prim_Diag_4thvertricularBrainTumor</testCaseId>
+      <testCaseId>Test Cases/CDS_TestCases/Primary_Diagnosis/TC01_CDS_Filter_Prim_Diag_4thVentricular BrainTumor</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -897,7 +897,7 @@
       <guid>20bfb9f7-45a5-4fc3-b6b4-b6a01d1cfb81</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/Study/TC08_CDS_Filter_Study-Washington Univ in St.Louis</testCaseId>
+      <testCaseId>Test Cases/CDS_TestCases/Study/TC08_CDS_Filter_Study-CPTAC Proteogenomic Study</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

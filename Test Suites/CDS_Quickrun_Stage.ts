@@ -57,7 +57,7 @@
       <guid>7d5302ee-6248-4d6a-873a-05e5639cf88c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/Study/TC08_CDS_Filter_Study-Washington Univ in St.Louis</testCaseId>
+      <testCaseId>Test Cases/CDS_TestCases/Study/TC08_CDS_Filter_Study-CPTAC Proteogenomic Study</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

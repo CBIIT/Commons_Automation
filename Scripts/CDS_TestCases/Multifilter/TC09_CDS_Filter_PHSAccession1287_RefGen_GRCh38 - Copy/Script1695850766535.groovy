@@ -41,7 +41,7 @@ import java.nio.file.Paths as Paths
  */
 WebUI.closeBrowser()
  
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC08_CDS_Filter_Study-Washington Univ in St.Louis.xlsx')
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC09_CDS_Filter_PHSAccession1287_RefGen_GRCh38.xlsx')
 
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Bento/Banner/Bento_Warning_Continue_Btn')
 System.out.println ("Closed the warning window");
@@ -50,26 +50,33 @@ System.out.println ("Closed the warning window");
 WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/NavBar/CDS_Data-Btn'),5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/NavBar/CDS_Data-Btn')
 
-//Clicking Study dropdown
-WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/Study/Study_Ddn'),5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/Study/Study_Ddn')
-
-//Clicking Study checkbox
-WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/Study/CDS-Study-WashingtonUniv_St.Louis-Chkbx'),5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/Study/CDS-Study-WashingtonUniv_St.Louis-Chkbx')
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/Study/Study_Ddn')
-
+//Clicking the PHS Accession dropdown
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/PHS_Accession/PHS_Accession_Ddn'),5)
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/PHS_Accession/PHS_Accession_Ddn')
+ 
+//Clicking the desired PHS Accession checkbox
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/PHS_Accession/phs001287_Chkbx'),5)
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/PHS_Accession/phs001287_Chkbx')
+ 
+//Clicking the Reference Genome Assembly dropdown
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/ReferenceGenomeAssembly/Ref_Gen_Assembly_Ddn'),5)
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/ReferenceGenomeAssembly/Ref_Gen_Assembly_Ddn')
+ 
+//Clicking the desired Reference Genome Assembly checkbox
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/ReferenceGenomeAssembly/GRCh38_Chkbx'),5)
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/ReferenceGenomeAssembly/GRCh38_Chkbx')
+ 
 //Read statbar
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.readStatBarCDS'('Object Repository/CDS/StatBar/CDS_StatBar-Studies',
  'Object Repository/CDS/StatBar/CDS_StatBar-Participants','Object Repository/CDS/StatBar/CDS_StatBar-Samples', 'Object Repository/CDS/StatBar/CDS_StatBar-Files')
 
  
 //Clicking participants tab
-WebUI.waitForElementPresent(findTestObject('CDS/Data_page/CDSResults_Participants_Tab'), 5)
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/CDSResults_Participants_Tab'), 5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/CDS/Data_page/CDSResults_Participants_Tab')
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.multiFunction'('CDS',GlobalVariable.G_StatBar_Participants, 'Object Repository/CDS/Data_page/CDS_ParticipantsTable',
-	'Object Repository/CDS/Data_page/CDS_ParticipantsTableHeader', 'Object Repository/CDS/Data_page/CDS_ParticipantsTabNextBtn',
-	GlobalVariable.G_WebTabnameParticipants, GlobalVariable.G_CypherTabnameParticipants, GlobalVariable.G_QueryParticipantsTab)
+	'Object Repository/CDS/Data_page/CDS_ParticipantsTableHeader', 'Object Repository/CDS/Data_page/CDS_ParticipantsTabNextBtn', 
+	GlobalVariable.G_WebTabnameParticipants,GlobalVariable.G_CypherTabnameParticipants, GlobalVariable.G_QueryParticipantsTab)
 
 //clicking Samples tab
 WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/CDSResults_Samples_Tab'), 5)

@@ -41,7 +41,7 @@ import java.nio.file.Paths as Paths
  */
 WebUI.closeBrowser()
  
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC01_CDS_Filter_Prim_Diag_4thvertricularBrainTumor.xlsx')
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC01_CDS_Filter_Prim_Diag_4thVentricular BrainTumor.xlsx')
  
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/CDS/Popup_Continue_Btn')
 System.out.println ("Closed the popup window");

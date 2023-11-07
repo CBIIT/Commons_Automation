@@ -211,7 +211,7 @@
       <guid>b43c8915-eb1b-46aa-aed7-48a7d55c2044</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/Study/TC08_CDS_Filter_Study-Washington Univ in St.Louis</testCaseId>
+      <testCaseId>Test Cases/CDS_TestCases/Study/TC08_CDS_Filter_Study-CPTAC Proteogenomic Study</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
