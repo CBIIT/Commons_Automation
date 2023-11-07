@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_PRIMARY DIAGNOSIS_Anaplastic medulloblastoma&quot;]</value>
+         <value>//*[@id=&quot;checkbox_PRIMARY DIAGNOSIS_Anaplastic Medulloblastoma&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_PRIMARY DIAGNOSIS_Anaplastic medulloblastoma&quot;]</value>
-      <webElementGuid>976c73e9-e881-4223-affd-64f68e16b171</webElementGuid>
+      <value>//*[@id=&quot;checkbox_PRIMARY DIAGNOSIS_Anaplastic Medulloblastoma&quot;]</value>
+      <webElementGuid>ba5c898b-3e2e-405d-acf4-fe8195ff41a1</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

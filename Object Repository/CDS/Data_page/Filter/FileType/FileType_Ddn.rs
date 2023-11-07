@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>FileType_Dbn</name>
+   <name>FileType_Ddn</name>
    <tag></tag>
    <elementGuidId>9eeb28fa-e86e-412c-bed6-43b4b16a44c0</elementGuidId>
    <selectorCollection>
