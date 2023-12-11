@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC21_CDS_Filter_PHSAccession-phs002517_Tumor_normal</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3562d805-207b-4d46-af6f-fd9c494767c4</testCaseGuid>
+</TestCaseEntity>

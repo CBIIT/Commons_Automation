@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>CDSResults_Samples_Tab</name>
+   <name>phs002517_Chkbx</name>
    <tag></tag>
-   <elementGuidId>8da249c6-16c8-43e6-a205-e03e56ed96d8</elementGuidId>
+   <elementGuidId>bd512356-69a4-4ddd-8322-2d35bcd67244</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@index='1']</value>
+         <value>//*[@id=&quot;checkbox_PHS Accession_phs002517&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@index='1']</value>
-      <webElementGuid>c644d96b-e898-4916-b2b8-9ca3dc675c2c</webElementGuid>
+      <value>//*[@id=&quot;checkbox_PHS Accession_phs002517&quot;]</value>
+      <webElementGuid>cec22638-724a-4978-85ab-68f0b089d267</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

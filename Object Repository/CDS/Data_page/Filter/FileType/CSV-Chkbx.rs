@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>CDSResults_Samples_Tab</name>
+   <name>CSV-Chkbx</name>
    <tag></tag>
-   <elementGuidId>8da249c6-16c8-43e6-a205-e03e56ed96d8</elementGuidId>
+   <elementGuidId>2aebf55d-e647-4c33-87a3-1a0bc4fda68d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@index='1']</value>
+         <value>//*[@id=&quot;checkbox_File Type_CSV&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@index='1']</value>
-      <webElementGuid>c644d96b-e898-4916-b2b8-9ca3dc675c2c</webElementGuid>
+      <value>//*[@id=&quot;checkbox_File Type_CSV&quot;]</value>
+      <webElementGuid>056bcd99-c048-45c4-8c24-0aaa4dbcbaff</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

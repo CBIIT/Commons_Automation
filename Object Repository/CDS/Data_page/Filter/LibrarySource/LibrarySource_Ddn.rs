@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;library source&quot;]/div[2]</value>
+         <value>//*[@id=&quot;library source&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;library source&quot;]/div[2]</value>
-      <webElementGuid>7b77da2a-cb72-44b1-89f4-0cb7f81c5820</webElementGuid>
+      <value>//*[@id=&quot;library source&quot;]</value>
+      <webElementGuid>37d59934-0e21-4386-a877-f23755744359</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

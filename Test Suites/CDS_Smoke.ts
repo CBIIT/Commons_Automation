@@ -375,4 +375,53 @@
       <testCaseId>Test Cases/CDS_TestCases/Multifilter/TC09_CDS_Filter_PHSAccession1287_RefGen_GRCh38</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>b0d3b9fa-abc7-40c0-9b84-d006b853b96d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Many-Many - Phs002517/TC19_CDS_Filter_PHSAccession-phs002517</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f27bbd08-81c3-47a0-8a0e-d581ab4ab38b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Many-Many - Phs002517/TC20_CDS_Filter_PHSAccession-phs002517_Gender_ExpStrat</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e6617e61-8798-4f6e-a7a0-94149caadeb6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Many-Many - Phs002517/TC21_CDS_Filter_PHSAccession-phs002517_Tumor_normal</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e502c52b-3a78-453d-bbf9-7e58b78478ed</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Many-Many - Phs002517/TC22_CDS_Filter_PHSAccession-phs002517_FileType_Platform</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fe6c260d-06ce-4278-b032-1b3464105445</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Many-Many - Phs002517/TC23_CDS_Filter_PHSAccession-phs002517_FileType_LibStrat_LibSrc</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6ec0ae1d-3a6b-4a83-94be-f5f24c753908</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Many-Many - Phs002517/TC24_CDS_Filter_PHSAccession-phs002517_LibLyot_InsModel_RefGenAsmbly</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8700b546-04ff-4abb-b267-d644da705150</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Many-Many - Phs002517/TC25_CDS_Filter_PHSAccession-phs002517_LibSel_PrimDiag</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
