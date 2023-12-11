@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>CDSResults_Samples_Tab</name>
+   <name>Glioma_Chkbx</name>
    <tag></tag>
-   <elementGuidId>8da249c6-16c8-43e6-a205-e03e56ed96d8</elementGuidId>
+   <elementGuidId>20f2b181-cd0c-4b47-ad9f-3419b51cbabc</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@index='1']</value>
+         <value>//*[@id=&quot;checkbox_PRIMARY DIAGNOSIS_Glioma&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@index='1']</value>
-      <webElementGuid>c644d96b-e898-4916-b2b8-9ca3dc675c2c</webElementGuid>
+      <value>//*[@id=&quot;checkbox_PRIMARY DIAGNOSIS_Glioma&quot;]</value>
+      <webElementGuid>724ae825-9c96-443e-a50b-2170ccf21632</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

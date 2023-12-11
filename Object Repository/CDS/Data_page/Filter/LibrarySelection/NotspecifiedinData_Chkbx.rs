@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>CDSResults_Samples_Tab</name>
+   <name>NotspecifiedinData_Chkbx</name>
    <tag></tag>
-   <elementGuidId>8da249c6-16c8-43e6-a205-e03e56ed96d8</elementGuidId>
+   <elementGuidId>43a30ff7-d97f-4497-83c4-05f5ad4f79eb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@index='1']</value>
+         <value>//*[@id=&quot;checkbox_library selection_Not specified in data&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +20,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@index='1']</value>
-      <webElementGuid>c644d96b-e898-4916-b2b8-9ca3dc675c2c</webElementGuid>
+      <value>//*[@id=&quot;checkbox_library selection_Not specified in data&quot;]</value>
+      <webElementGuid>31794508-c2bf-47e2-a166-ee7fdd5e475f</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
