@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>OpenAccess-ChkBx</name>
+   <name>PublicationTitle-TxtBx</name>
    <tag></tag>
-   <elementGuidId>7feb9ef6-7523-4e24-83f5-ef9590f4ad43</elementGuidId>
+   <elementGuidId>c4b043bb-1a8a-46e5-8e5e-eab3db91d3c4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;section-c-access-types-open-access-checkbox&quot;]</value>
+         <value>//*[@id=&quot;section-b-publication-1-title&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;section-c-access-types-open-access-checkbox&quot;]</value>
-      <webElementGuid>072a8245-e704-4d6a-834c-f87ac0d363c6</webElementGuid>
+      <value>//*[@id=&quot;section-b-publication-1-title&quot;]</value>
+      <webElementGuid>7d53825c-7fea-452e-b770-adf904fafb67</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
