@@ -41,13 +41,9 @@ import java.nio.file.Paths as Paths
  */
 WebUI.closeBrowser()
 
-//WebUI.openBrowser(GlobalVariable.G_Urlname)
-CustomKeywords.'ctdc.utilities.functions.navigateToCrdc'()
+CustomKeywords.'ctdc.utilities.Crdc.navigateToCrdc'()
 
-WebUI.maximizeWindow()
-
-CustomKeywords.'ctdc.utilities.functions.loginToCrdc'()
-
+CustomKeywords.'ctdc.utilities.Crdc.loginToCrdc'()
 
 
 
