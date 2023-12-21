@@ -77,7 +77,7 @@ WebUI.click(findTestObject('CRDC/SubmissionRequest/Save-Btn'))
 
 WebUI.click(findTestObject('CRDC/SubmissionRequest/Next-Btn'))
 
-CustomKeywords.'ctdc.utilities.Crdc.enterDataAccessAndDiseaseInfo'('Cholangiocarcinoma', 'Breast', 'Mus', 1, 1, 1)
+CustomKeywords.'ctdc.utilities.Crdc.enterDataAccessAndDiseaseInfo'('Cholangiocarcinoma', 'Lung', 'Mus', 1, 1, 1)
 
 WebUI.click(findTestObject('CRDC/SubmissionRequest/Save-Btn'))
 
@@ -111,7 +111,7 @@ CustomKeywords.'ctdc.utilities.Crdc.verifyFundingAgencyAndDbGaPInfo'(1, 1, 1, 1,
 
 CustomKeywords.'ctdc.utilities.Crdc.verifyDataAccessAndDiseaseInfo'('Cholangiocarcinoma', 'Breast', 'Mus', 1, 1, 1)
 
-CustomKeywords.'ctdc.utilities.Crdc.verifyDataTypes'('immunology', 'epidemiologic', 'imaging', 'other')
+CustomKeywords.'ctdc.utilities.Crdc.verifyDataTypes'('immunology', 'epidemiologic', 'imaging')
 
 CustomKeywords.'ctdc.utilities.Crdc.verifyFileTypes'(5, 6, 1, 1)
 

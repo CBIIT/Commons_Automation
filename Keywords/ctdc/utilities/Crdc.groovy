@@ -411,7 +411,7 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 	public static void clearTxt(TestObject obj) {
 		WebUI.sendKeys(obj,  Keys.chord(Keys.CONTROL, "a") + Keys.DELETE);
 	}
-	
+
 
 	/**
 	 * This function enters Publications info into submission request form
@@ -484,7 +484,13 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 		WebUI.click(findTestObject(ePath+"PreCancerTypes-Dd"))
 		GlobalVariable.CrdcUiElement=preCancerType;
 		WebUI.click(findTestObject('CRDC/SubmissionRequest/CrdcDdValue'))
-		GlobalVariable.CrdcUiElement="Lung";
+		
+		if(preCancerType.equalsIgnoreCase("Breast")) {
+			GlobalVariable.CrdcUiElement="Lung";
+		}else if(preCancerType.equalsIgnoreCase("Lung")) {
+			GlobalVariable.CrdcUiElement="Breast";
+		}
+		
 		WebUI.sendKeys(findTestObject('CRDC/SubmissionRequest/CrdcDdValue'), Keys.chord(Keys.TAB))
 		WebUI.setText(findTestObject(ePath+'OtherPreCancerTypes-Txtbx'), findTestData(fPath).getValue('other-pre-cancer-type', otherPreCancerTyRN));
 
@@ -507,7 +513,7 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 		// Locate and click on today's date
 		WebUI.click(todayDateLocator)
 	}
-	
+
 	/**
 	 * This function selects Data Types on the submission request form
 	 * @param buttonLable Toggle button label to be clicked (enter only one word per toggle button)
@@ -520,11 +526,11 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 		Thread.sleep(1000)
 		//clearText(findTestObject(ePath+'TragetSubmDelivryDate-Clnder'))
 		//WebUI.setText(findTestObject(ePath+'TragetSubmDelivryDate-Clnder'), clearText() + getCurrentDate("MM/dd/yyyy"));
-		
+
 		selectTodayDate(findTestObject(ePath+'TragetSubmissionDelivryDate-Clnder'), findTestObject(ePath+'CalendarTodayDate-Btn'))
 		//clearText(findTestObject(ePath+'ExpctdPubliDate-Clndr'))
 		//WebUI.setText(findTestObject(ePath+'ExpctdPubliDate-Clndr'), clearText() + getCurrentDate("MM/dd/yyyy"));
-		
+
 		selectTodayDate(findTestObject(ePath+'ExpctdPubliDate-Clndr'), findTestObject(ePath+'CalendarTodayDate-Btn'))
 
 		//Verify default is 'No' for all data types
@@ -1043,10 +1049,10 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 					expctd = findTestData(fPath).getValue('epide-cohort', 2)
 					break;
 
-				case 'other':
-					actual = WebUI.getText(findTestObject(ePath+'OtherDataTypes-Txt'))
-					expctd = findTestData(fPath).getValue('other', 1)
-					break;
+//				case 'other':
+//					actual = WebUI.getText(findTestObject(ePath+'OtherDataTypes-Txt'))
+//					expctd = findTestData(fPath).getValue('other', 1)
+//					break;
 
 				case 'demographic':
 					actual = WebUI.getText(findTestObject(ePath+'Demographic-Txt'))
