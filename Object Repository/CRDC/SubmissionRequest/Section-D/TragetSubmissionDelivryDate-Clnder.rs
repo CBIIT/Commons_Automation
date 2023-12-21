@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>TragetSubmDelivryDate-Clndr</name>
+   <name>TragetSubmissionDelivryDate-Clnder</name>
    <tag></tag>
-   <elementGuidId>c7203755-8c2b-40d9-9721-63b9604820d6</elementGuidId>
+   <elementGuidId>52f481ee-be8b-4fee-88a9-6e48fe3e6de1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;section-d-targeted-data-submission-delivery-date&quot;]</value>
+         <value>//*[@id=&quot;section-d-targeted-data-submission-delivery-date&quot;]//following::button[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;section-d-targeted-data-submission-delivery-date&quot;]</value>
-      <webElementGuid>2ad0924b-ca22-4aa2-95a1-0d8756443142</webElementGuid>
+      <value>//*[@id=&quot;section-d-targeted-data-submission-delivery-date&quot;]//following::button[1]</value>
+      <webElementGuid>6a9c84d1-bedc-4df2-b4fa-7fd38de9baa2</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

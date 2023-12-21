@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>AddExistPublication-Btn</name>
+   <name>AddExistingPublication-Btn</name>
    <tag></tag>
-   <elementGuidId>b2bd4e13-f145-453d-b2e4-8b3a28504762</elementGuidId>
+   <elementGuidId>6a5be3f3-5f25-46a7-a0d6-5c7373a88329</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -18,6 +18,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;section-b-add-publication-button&quot;]</value>
-      <webElementGuid>b07570e4-6203-4552-b2cf-16fe3b494c6f</webElementGuid>
+      <webElementGuid>b5c3eff3-7d0d-40f5-b89e-2a266965cf34</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

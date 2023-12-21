@@ -49,6 +49,7 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('CRDC/NavBar/Start_a_SubmissionRequest-Btn'))
 
+
 CustomKeywords.'ctdc.utilities.Crdc.verifyStatusBar'('NEW')
 
 CustomKeywords.'ctdc.utilities.Crdc.enterPiInfo'(2, 2, 2, 2, 3, 2)
@@ -99,13 +100,11 @@ CustomKeywords.'ctdc.utilities.Crdc.verifyFundingAgencyAndDbGaPInfo'(1, 1, 1, 1,
 
 CustomKeywords.'ctdc.utilities.Crdc.verifyDataAccessAndDiseaseInfo'('Bladder', 'Lung', 'Homo', 1, 1, 1)
 
-CustomKeywords.'ctdc.utilities.Crdc.verifyDataTypes'('immunology', 'other')
+CustomKeywords.'ctdc.utilities.Crdc.verifyDataTypes'('immunology')
 
 CustomKeywords.'ctdc.utilities.Crdc.verifyFileTypes'(1, 1, 3, 1)
 
 CustomKeywords.'ctdc.utilities.Crdc.clickSubmitButton'()
 
 WebUI.closeBrowser()
-
-
 
