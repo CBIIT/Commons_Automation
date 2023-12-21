@@ -127,7 +127,7 @@
       <guid>4c52159b-1d10-403a-b505-1133f71af78a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/Study/TC01_CDS_Filter_Study-GECCO-OICR</testCaseId>
+      <testCaseId>Test Cases/CDS_TestCases/Study/TC01_CDS_Filter_Study-GECCO-OICR - removed</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

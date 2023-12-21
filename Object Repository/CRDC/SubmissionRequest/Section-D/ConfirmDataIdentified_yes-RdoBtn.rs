@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ConfirmDataIdentified_yes-RdoBtn</name>
+   <tag></tag>
+   <elementGuidId>320302fa-193c-4f28-afe7-18a7b74a4eb9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;section-d-imaging-de-identified-yes-radio-button&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;section-d-imaging-de-identified-yes-radio-button&quot;]</value>
+      <webElementGuid>3a3474dc-fed1-45b7-9f1e-f2241fa157fb</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

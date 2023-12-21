@@ -18,5 +18,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//a[contains(@href,'#/data')]</value>
+      <webElementGuid>00230a11-89b0-49fa-a997-68905c401fa5</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
