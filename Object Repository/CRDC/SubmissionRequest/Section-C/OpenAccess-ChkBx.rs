@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>OpenAccess-Chkbx</name>
+   <name>OpenAccess-ChkBx</name>
    <tag></tag>
-   <elementGuidId>541c429d-bd17-4a1d-b62f-348467cb0ba4</elementGuidId>
+   <elementGuidId>7feb9ef6-7523-4e24-83f5-ef9590f4ad43</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -18,6 +18,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;section-c-access-types-open-access-checkbox&quot;]</value>
-      <webElementGuid>b0063756-d656-483a-94d7-8a3dd6a08dab</webElementGuid>
+      <webElementGuid>072a8245-e704-4d6a-834c-f87ac0d363c6</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

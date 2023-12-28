@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Explore_Menu</name>
+   <tag></tag>
+   <elementGuidId>3854ab8d-3fe0-44fd-9e98-02b84649fe54</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//a[@href=&quot;/explore&quot;])[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//a[@href=&quot;/explore&quot;])[1]</value>
+      <webElementGuid>26915dc7-6e79-44c2-b8ac-4f31811a4d04</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

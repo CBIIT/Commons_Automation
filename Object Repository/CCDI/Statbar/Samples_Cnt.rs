@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Samples_Cnt</name>
+   <tag></tag>
+   <elementGuidId>b6262c00-6f56-46d7-b52d-d644737c1b98</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id='statsbar_count_3']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id='statsbar_count_3']</value>
+      <webElementGuid>2d0ef38b-1115-4f8a-89d2-db45a427a456</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

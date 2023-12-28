@@ -152,6 +152,8 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 			filePath = Paths.get(usrDir, inputFiles, "Bento", input_file);
 		}else if(url.contains("caninecommons")) {
 			filePath = Paths.get(usrDir, inputFiles, "ICDC", input_file);
+		}else if(url.contains("ccdi")) {
+			filePath = Paths.get(usrDir, inputFiles, "CCDI", input_file);
 		}else if(url.contains("studycatalog")) {
 			filePath = Paths.get(usrDir, inputFiles, "INS", input_file);
 		}else if(url.contains("dataservice")) {
@@ -366,11 +368,18 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 	public static String getPageSwitch()
 	{
 		System.out.println("Inside pageswitch function")
+		String switchStr;
 		String pgUrl = driver.getCurrentUrl()    //https://caninecommons-qa.cancer.gov/#/case/NCATS-COP01CCB010015
-		String[] arrOfStr = pgUrl.split("#", 2);
-		System.out.println ("This is the value of the array of strings after splitting url : "+arrOfStr)
-		//String refStr = arrOfStr[1].toString()    //arrOfStr[1]="/case/NCATS-COP01CCB010015"
-		String switchStr=getSwitchStr(arrOfStr[1])
+		if(((driver.getCurrentUrl()).contains("ccdi"))) {
+			System.out.println("This is CCDI. the url does not contain #")
+			switchStr = "/explore"
+		}else {
+			String[] arrOfStr = pgUrl.split("#", 2);
+			System.out.println ("This is the value of the array of strings after splitting url : "+arrOfStr)
+			//String refStr = arrOfStr[1].toString()    //arrOfStr[1]="/case/NCATS-COP01CCB010015"
+			switchStr=getSwitchStr(arrOfStr[1])
+		}
+
 		return switchStr
 	}
 
@@ -605,6 +614,7 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 		String switchBento
 		String switchGMB
 		String switchCDS
+		String switchCCDI
 		String switchINS
 		String switchString
 		WebElement nextButton
@@ -772,7 +782,23 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 				hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
 			}
 
-			//******** CTDC function starts here ********
+			//******** CCDI function starts here ********
+		}else if(((driver.getCurrentUrl()).contains("ccdi")) && ((driver.getCurrentUrl()).contains("/explore"))){
+			System.out.println ("Control is about to go to case switch ")
+			switchCCDI = getPageSwitch();
+			System.out.println ("Control is about to go to the switch for CCDI ")
+			switchString = "CCDI";
+			System.out.println ("This is the value of CCDI switch string returned by getcurrentpage function: "+switchCCDI)
+
+			columns_count = (colHeader.size())
+			columns_count=columns_count-1;
+			System.out.println("Inside CCDI switch case for header data::  " +columns_count)
+			for(int c=1;c<=columns_count;c++){
+				//if column header = 'Access' ignore adding it to the hdrdata string
+				hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
+			}
+
+			//******** CTDC function starts below ********
 		}else if((crntUrl.contains("ctdc")) && (crntUrl.contains("/case/"))){
 			switchTrials = getPageSwitch();
 			switchString = "Trials";
@@ -943,7 +969,10 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 									for (int j = 1; j <=tblcol; j = j +1) {
 										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
 										System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+
 										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/*[1]")).getAttribute("innerText")) +"||")
+
+										//div[@id="case_tab_table"]//tbody/tr[2]/td[3]/*[2]
 										System.out.println("This is the value of data : "+data)
 									}
 								}else if((tbl_main).equals('//*[@id="sample_tab_table"]')){
@@ -966,6 +995,49 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 								break;
 							default:
 								System.err.println("Check CDS switch statment for this error")
+								break;
+
+						}
+					}
+
+					//@@@@@@@@@@@@@@@@ CCDI table data collection starts here  @@@@@@@@@@@@@@@@  added on 8th Sep 2023
+
+					if(switchString == "CCDI"){
+						switch(switchCCDI){
+							case("/explore"):
+								System.out.println("Inside CCDI switch case for body data")
+								int tblcol=GlobalVariable.G_rowcountFiles
+								System.out.println ("This is the value of tblcol from CCDI body data :"+tblcol)
+
+								if((tbl_main).equals('//*[@id="participant_tab_table"]')){
+									tblcol=tblcol-3;
+									for (int j = 1; j <=tblcol; j = j +1) {
+										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
+										System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+										//*[@id="participant_tab_table"]/div[2]/table/tbody/tr[1]/td[3]/p
+										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/p")).getAttribute("innerText")) +"||")
+										System.out.println("This is the value of data : "+data)
+									}
+								}else if((tbl_main).equals('//*[@id="sample_tab_table"]')){
+									tblcol=tblcol-2;
+									for (int j = 1; j <=tblcol; j = j +1) {
+										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
+										System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/*[2]")).getAttribute("innerText")) +"||")
+										System.out.println("This is the value of data : "+data)
+									}
+								}else if((tbl_main).equals('//*[@id="file_tab_table"]')){
+									tblcol=tblcol-2;
+									for (int j = 1; j <=tblcol; j = j +1) {
+										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
+										System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/*[2]")).getAttribute("innerText")) +"||")
+										System.out.println("This is the value of data : "+data)
+									}
+								}
+								break;
+							default:
+								System.err.println("Check CCDI switch statment for this error")
 								break;
 
 						}
@@ -1405,6 +1477,42 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 		GlobalVariable.G_StatBar_StudyFiles = driver.findElement(By.xpath(xcStudyFiles)).getAttribute("innerText");
 		System.out.println("This is the value of Study Files count from Stat bar :"+GlobalVariable.G_StatBar_StudyFiles)
 	}
+
+	/**
+	 * This function reads CCDI Hub Statbar
+	 * @param cStuds
+	 * @param cParticip
+	 * @param cSamples
+	 * @param cFiles
+	 //@param cDiag  - this will be used later when diag is available in stat bar
+	 */
+	@Keyword
+	public void readStatBarCCDIhub (String cStuds, String cParticip, String cSamples, String cFiles)
+	{
+		Thread.sleep(5000);
+
+		String xcStuds = givexpath(cStuds)
+		String xcParticip = givexpath(cParticip)
+		String xcSamples = givexpath(cSamples)
+		String xcFiles = givexpath(cFiles)
+
+		System.out.println ("Inside read stat bar function for CCDI");
+
+		Thread.sleep(2000)
+		GlobalVariable.G_StatBar_Studies = driver.findElement(By.xpath(xcStuds)).getAttribute("innerText");
+		System.out.println("This is the value of Studies count from Stat bar :"+GlobalVariable.G_StatBar_Studies)
+		Thread.sleep(2000)
+		GlobalVariable.G_StatBar_Participants = driver.findElement(By.xpath(xcParticip)).getAttribute("innerText");
+		System.out.println("This is the value of Participants count from Stat bar :"+GlobalVariable.G_StatBar_Participants)
+		Thread.sleep(2000)
+		GlobalVariable.G_StatBar_Samples = driver.findElement(By.xpath(xcSamples)).getAttribute("innerText");
+		System.out.println("This is the value of Samples count from Stat bar :"+GlobalVariable.G_StatBar_Samples)
+		Thread.sleep(2000)
+//		GlobalVariable.G_StatBar_Files = driver.findElement(By.xpath(xcFiles)).getAttribute("innerText");
+//		System.out.println("This is the value of Case Files count from Stat bar :"+GlobalVariable.G_StatBar_Files)
+		Thread.sleep(2000)
+	}
+
 
 	/**
 	 * This function reads CTDC Statbar
@@ -2003,6 +2111,18 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 			(statData.get(0).get(1).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Participants)) ? KeywordUtil.markPassed("Statbar Participants count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Participants count")
 			(statData.get(0).get(2).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Samples)) ? KeywordUtil.markPassed("Statbar Samples count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Samples count")
 			(statData.get(0).get(3).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Files)) ? KeywordUtil.markPassed("Statbar Files count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Files count")
+		}
+		else if (getAppName=='CCDI'){
+
+			System.out.println("This is the value of Studies Count from Neo4j result: "+statData.get(0).get(0).getStringCellValue())  //add in the query in input file later
+			System.out.println("This is the value of Participants Count from Neo4j result: "+statData.get(0).get(1).getStringCellValue())
+			System.out.println("This is the value of Samples Count from Neo4j result: "+statData.get(0).get(2).getStringCellValue())
+			//System.out.println("This is the value of Files Count from Neo4j result: "+statData.get(0).get(3).getStringCellValue())
+
+			(statData.get(0).get(0).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Studies)) ? KeywordUtil.markPassed("Statbar Studies count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Studies count")
+			(statData.get(0).get(1).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Participants)) ? KeywordUtil.markPassed("Statbar Participants count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Participants count")
+			(statData.get(0).get(2).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Samples)) ? KeywordUtil.markPassed("Statbar Samples count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Samples count")
+			//(statData.get(0).get(3).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Files)) ? KeywordUtil.markPassed("Statbar Files count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Files count")
 		}
 	}
 
