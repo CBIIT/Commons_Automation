@@ -56,7 +56,7 @@ CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Re
  
 
 //Clicking the desired Library Selection checkbox
-WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/LibrarySelection/NotSpecifiedinData_Chkbx'),5)
+WebUI.waitForElementPresent(findTestObject('null'),5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/LibrarySelection/NotSpecifiedinData_Chkbx')
  
 //Read statbar

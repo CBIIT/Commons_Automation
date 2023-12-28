@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@id='PHS Accession '])[1]</value>
+         <value>//*[@id=&quot;PHS Accession&quot;]/div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@id='PHS Accession '])[1]</value>
-      <webElementGuid>9409eb4b-3609-4bc4-9a9f-ff48950b09db</webElementGuid>
+      <value>//*[@id=&quot;PHS Accession&quot;]/div[2]</value>
+      <webElementGuid>42128ab7-4adf-4106-8ae8-b793560eb5e1</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

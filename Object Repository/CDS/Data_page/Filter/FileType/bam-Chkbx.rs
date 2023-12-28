@@ -20,6 +20,6 @@
       <type>Main</type>
       <value>//*[@id=&quot;checkbox_File Type_BAM&quot;]
 </value>
-      <webElementGuid>5d269404-5f3e-4156-ade3-ac771aa23bc1</webElementGuid>
+      <webElementGuid>730cd030-3185-4879-bc8b-f0cc7503084e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_PRIMARY DIAGNOSIS_Acinar cell carcinoma&quot;]</value>
+         <value>//*[@id=&quot;checkbox_PRIMARY DIAGNOSIS_Acinar Cell Carcinoma&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_PRIMARY DIAGNOSIS_Acinar cell carcinoma&quot;]</value>
-      <webElementGuid>4d917c73-9309-4011-bd11-0dea7bd35fd3</webElementGuid>
+      <value>//*[@id=&quot;checkbox_PRIMARY DIAGNOSIS_Acinar Cell Carcinoma&quot;]</value>
+      <webElementGuid>eceaba52-354a-4181-948c-677b750eb1a4</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

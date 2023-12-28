@@ -54,7 +54,6 @@ CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Re
 WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/PrimaryDiagnosis/PrimaryDiagnosis_Ddn'),5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/PrimaryDiagnosis/PrimaryDiagnosis_Ddn')
  
-
 //Clicking the desired LibrarySource checkbox
 WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/PrimaryDiagnosis/Chordoma_Chkbx'),5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/PrimaryDiagnosis/Chordoma_Chkbx')

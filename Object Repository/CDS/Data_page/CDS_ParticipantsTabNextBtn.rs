@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;case_tab_table&quot;]//div/table/tfoot/tr/td/div/div[3]/button[2]</value>
+         <value>//*[@type='button' and @title='Next page']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;case_tab_table&quot;]//div/table/tfoot/tr/td/div/div[3]/button[2]</value>
-      <webElementGuid>b7e3248e-f1e3-48c8-94e3-7229a062527c</webElementGuid>
+      <value>//*[@type='button' and @title='Next page']</value>
+      <webElementGuid>ae492ed0-f2bb-44fb-bd33-6e579c20a145</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
