@@ -6,11 +6,11 @@
    <elementGuidId>8abbdc98-b802-4887-be3a-2c16c78fcd0c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id=&quot;file_tab_table&quot;]//div//div/table/tfoot/tr/td/div/div[3]/button[2]</value>
+         <key>XPATH</key>
       </entry>
       <entry>
-         <key>XPATH</key>
+         <key>BASIC</key>
+         <value>//*[@type='button' and @title='Next page']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,6 +20,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;file_tab_table&quot;]//div//div/table/tfoot/tr/td/div/div[3]/button[2]</value>
+      <value>//*[@type='button' and @title='Next page']</value>
+      <webElementGuid>a974defc-0e62-430a-b4ff-f487421f5873</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

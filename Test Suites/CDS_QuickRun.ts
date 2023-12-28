@@ -12,10 +12,17 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>0d23efa7-06b9-4132-88ea-c6f93af1c3b6</testSuiteGuid>
    <testCaseLink>
-      <guid>2eddb3ab-e0c3-4274-96a5-0fb9718e9338</guid>
+      <guid>831e2c76-2eb8-4aab-a4b8-10135674f287</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/PHS_Accession/TC01_CDS_Filter_PHSAccession-phs001980</testCaseId>
+      <testCaseId>Test Cases/CDS_TestCases/PHS_Accession/TC12_CDS_Filter_PHSAccession-phs002790</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d3c843b0-2cd6-40f6-a42b-4e03095aee78</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Study/TC03_CDS_Filter_Study-Molecular Characterization (CTSMC)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
