@@ -7,8 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;platform&quot; and text()=&quot;platform&quot;]
-</value>
+         <value>//*[@id=&quot;platform&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,8 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;platform&quot; and text()=&quot;platform&quot;]
-</value>
-      <webElementGuid>e15aca11-c1d5-4750-8e18-f4fc5bc828b6</webElementGuid>
+      <value>//*[@id=&quot;platform&quot;]</value>
+      <webElementGuid>8b0b0c68-7012-4a04-be11-068bf70e55b2</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

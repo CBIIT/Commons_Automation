@@ -308,7 +308,7 @@
    <testCaseLink>
       <guid>283a7b20-680f-4a87-a784-6690ce147ac6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/CDS_TestCases/PHS_Accession/TC03_CDS_Filter_PHSAccession-phs001554-removed</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -322,14 +322,14 @@
    <testCaseLink>
       <guid>37d4d590-9d1e-4903-9e70-9f6f37993fc4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/CDS_TestCases/PHS_Accession/TC05_CDS_Filter_PHSAccession-phs001787-removed</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>159d66cb-b54b-4178-8d17-ec07eb0eac43</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/CDS_TestCases/PHS_Accession/TC06_CDS_Filter_PHSAccession-phs002050-removed</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -448,7 +448,7 @@
    <testCaseLink>
       <guid>dd8ff04a-4ee8-453a-8843-5c52712cd9a6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/CDS_TestCases/Study/TC01_CDS_Filter_Study-GECCO-OICR - removed</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -463,7 +463,7 @@
       <guid>214e4eb0-1073-4eb3-b5ba-6f8a2d1aacc4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/Study/TC03_CDS_Filter_Study-Molecular Char Init</testCaseId>
+      <testCaseId>Test Cases/CDS_TestCases/Study/TC03_CDS_Filter_Study-Molecular Characterization (CTSMC)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -497,14 +497,14 @@
    <testCaseLink>
       <guid>75be1370-4bb5-48c7-83e4-62110e51e357</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/CDS_TestCases/Study/TC08_CDS_Filter_Study-Detection_CCS- removed</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>cac3116e-6ba7-4d86-8158-6e6739d3b2d9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/CDS_TestCases/Study/TC09_CDS_Filter_Study-Discovery_CCS - removed</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -589,7 +589,7 @@
       <guid>02b4bec8-1a70-46cb-93c1-b57beb59ca12</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/Primary_Diagnosis/TC01_CDS_Filter_Prim_Diag_4thvertricularBrainTumor</testCaseId>
+      <testCaseId>Test Cases/CDS_TestCases/Primary_Diagnosis/TC01_CDS_Filter_Prim_Diag_4thVentricular BrainTumor</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -897,7 +897,7 @@
       <guid>20bfb9f7-45a5-4fc3-b6b4-b6a01d1cfb81</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/Study/TC08_CDS_Filter_Study-Washington Univ in St.Louis</testCaseId>
+      <testCaseId>Test Cases/CDS_TestCases/Study/TC08_CDS_Filter_Study-CPTAC Proteogenomic Study</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
