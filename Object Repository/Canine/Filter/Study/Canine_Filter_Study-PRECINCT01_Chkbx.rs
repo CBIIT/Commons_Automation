@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description>This is the COTB checkbox under Study filter</description>
-   <name>Canine_Filter_Study-PRECINCT01</name>
+   <name>Canine_Filter_Study-PRECINCT01_Chkbx</name>
    <tag></tag>
    <elementGuidId>97a97149-1f55-4e23-815a-9640fc2be873</elementGuidId>
    <selectorCollection>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id='checkbox_Study_COTC007B (000001)']</value>
+         <value>//*[@id=&quot;checkbox_Study_PRECINCT01 (000011)&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,7 +21,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id='checkbox_Study_COTC007B (000001)']</value>
-      <webElementGuid>4e12ac2a-d44c-4b1c-90d7-375b34a072b2</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Study_PRECINCT01 (000011)&quot;]</value>
+      <webElementGuid>228d3390-09ae-4b24-98e0-2a4b12feb1e6</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

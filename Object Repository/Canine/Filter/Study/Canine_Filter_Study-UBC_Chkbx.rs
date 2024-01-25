@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Study_UBC01 (ICDC000004)&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Study_UBC01 (000004)&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,7 +21,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Study_UBC01 (ICDC000004)&quot;]</value>
-      <webElementGuid>96b1945d-83a5-4ba1-b00b-531725e986ef</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Study_UBC01 (000004)&quot;]</value>
+      <webElementGuid>7edcf671-00d7-4594-b32c-5cf4d96ac585</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
