@@ -6,11 +6,11 @@
    <elementGuidId>18b31142-d826-49bf-876f-d0c773c2850d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Study_UBC01 (ICDC000004)&quot;]</value>
+         <key>XPATH</key>
       </entry>
       <entry>
-         <key>XPATH</key>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;checkbox_Study_UBC01 (ICDC000004)&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,6 +21,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;checkbox_Study_UBC01 (ICDC000004)&quot;]</value>
-      <webElementGuid>9917bcb9-027c-42b2-ae89-0eea37b33b14</webElementGuid>
+      <webElementGuid>608d17a9-449d-4438-b66f-7177150b76f3</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

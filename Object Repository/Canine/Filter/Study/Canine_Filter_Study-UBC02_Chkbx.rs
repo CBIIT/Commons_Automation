@@ -6,12 +6,12 @@
    <elementGuidId>ef649a37-2375-4206-903d-ef89e99c1b56</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Study_UBC02 (ICDC000005)&quot;]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//span[contains(text(),'COTC007B')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;checkbox_Study_UBC02 (000005)&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,7 +21,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Study_UBC02 (ICDC000005)&quot;]</value>
-      <webElementGuid>82953bfe-077a-46c2-9b2f-af995bb91926</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Study_UBC02 (000005)&quot;]</value>
+      <webElementGuid>783d491a-6196-4f60-a915-886fc15266ba</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
