@@ -57,6 +57,7 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/Stud
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/Canine/Filter/Study/Canine_Filter_Study')
 
 'Selects the specific check box from \'Study\' filter.'
+WebUI.waitForElementPresent(findTestObject('Canine/Filter/Study/Canine_Filter_Study-MGT01_Chkbx'), 5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Canine/Filter/Study/Canine_Filter_Study-MGT01_Chkbx')
 
 'Clicks on the Filter \'Sex\' from left pane'
@@ -64,6 +65,7 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/Sex/
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/Canine/Filter/Sex/SEX_Ddn')
 
 'Selects the specific check box from \'Sex\' filter.'
+WebUI.waitForElementPresent(findTestObject('Canine/Filter/Sex/Female_Chkbx'), 5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Canine/Filter/Sex/Female_Chkbx')
 
 

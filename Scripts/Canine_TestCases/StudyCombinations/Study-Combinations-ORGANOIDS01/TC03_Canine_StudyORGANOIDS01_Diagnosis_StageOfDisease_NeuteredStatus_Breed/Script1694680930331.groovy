@@ -56,6 +56,7 @@ CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object
 //Stage of disease Drop down-Checkbox
 WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/StageOfDisease/STAGEOFDISEASE_Ddn'), 5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/Canine/Filter/StageOfDisease/STAGEOFDISEASE_Ddn')
+WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/StageOfDisease/NotApplicable_Chkbx'), 5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/Canine/Filter/StageOfDisease/NotApplicable_Chkbx')
 
 //Diagnosis - Dropdwn
@@ -68,6 +69,7 @@ CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object
 //NeuteredStatus - DropDwn - Checkbox
 WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/NeuteredStatus/NEUTEREDSTATUS_Ddn'), 5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/Canine/Filter/NeuteredStatus/NEUTEREDSTATUS_Ddn')
+WebUI.waitForElementPresent(findTestObject('Canine/Filter/NeuteredStatus/No_Chkbx'), 5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Canine/Filter/NeuteredStatus/No_Chkbx')
 
 //Breed - Dropdown - Checkbox
