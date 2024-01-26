@@ -65,8 +65,10 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Canine/Filter/Sex/S
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/Canine/Filter/Sex/SEX_Ddn')
 WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/Sex/Female_Chkbx'), 30)
 WebUI.verifyElementPresent(findTestObject('Object Repository/Canine/Filter/Sex/Female_Chkbx'), 5)
-WebUI.waitForElementClickable(findTestObject('Object Repository/Canine/Filter/Sex/Female_Chkbx'), 30)
+//WebUI.waitForElementClickable(findTestObject('Object Repository/Canine/Filter/Sex/Female_Chkbx'), 30)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/Canine/Filter/Sex/Female_Chkbx')
+
+WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/Sex/SEX_Ddn'), 20)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Filter/Sex/SEX_Ddn')
 
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.readStatBarCanine'('Object Repository/Canine/StatBar/Canine_StatBar-Programs','Object Repository/Canine/StatBar/Canine_StatBar-Studies',
