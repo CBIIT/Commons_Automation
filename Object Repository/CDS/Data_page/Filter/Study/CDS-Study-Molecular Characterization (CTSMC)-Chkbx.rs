@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value></value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Study_Clinical Trial Specimen Molecular Characterization (CTSMC)&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Study Name_Clinical Trial Specimen Molecular Characterization (CTSMC)&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,7 +20,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Study_Clinical Trial Specimen Molecular Characterization (CTSMC)&quot;]</value>
-      <webElementGuid>b760a8da-c798-4802-8869-52ab2be533df</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Study Name_Clinical Trial Specimen Molecular Characterization (CTSMC)&quot;]</value>
+      <webElementGuid>b4ac2a8b-bd67-4f90-bbca-f05c4e778c8e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

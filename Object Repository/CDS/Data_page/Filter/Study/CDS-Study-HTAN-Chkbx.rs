@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Study_Human Tumor Atlas Network (HTAN) primary sequencing data&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Study Name_Human Tumor Atlas Network (HTAN) primary sequencing data&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Study_Human Tumor Atlas Network (HTAN) primary sequencing data&quot;]</value>
-      <webElementGuid>c22ce581-b350-433e-abf0-e367c75cf93c</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Study Name_Human Tumor Atlas Network (HTAN) primary sequencing data&quot;]</value>
+      <webElementGuid>7a902501-2c5e-4d91-b39a-d07aeeb85776</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

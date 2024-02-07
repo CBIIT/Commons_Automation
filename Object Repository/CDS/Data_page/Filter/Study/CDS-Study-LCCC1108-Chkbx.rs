@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Study_LCCC 1108: Development of a Tumor Molecular Analyses Program and Its Use to Support Treatment Decisions (UNCseqTM)&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Study Name_LCCC 1108: Development of a Tumor Molecular Analyses Program and Its Use to Support Treatment Decisions (UNCseqTM)&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Study_LCCC 1108: Development of a Tumor Molecular Analyses Program and Its Use to Support Treatment Decisions (UNCseqTM)&quot;]</value>
-      <webElementGuid>5bde6c7e-b908-426a-b5bb-215130b61777</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Study Name_LCCC 1108: Development of a Tumor Molecular Analyses Program and Its Use to Support Treatment Decisions (UNCseqTM)&quot;]</value>
+      <webElementGuid>d8920009-4b63-41ea-b9e4-1d8c48e8af9a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
