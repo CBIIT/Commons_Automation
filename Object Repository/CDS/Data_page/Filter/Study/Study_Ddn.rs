@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;Study&quot; and @role=&quot;button&quot;]</value>
+         <value>(//*[@id=&quot;Study Name&quot;])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;Study&quot; and @role=&quot;button&quot;]</value>
-      <webElementGuid>95899914-61ae-4629-9eda-e1abc5c3cb3d</webElementGuid>
+      <value>(//*[@id=&quot;Study Name&quot;])[1]</value>
+      <webElementGuid>c739f1a7-c14a-42b4-a393-33a68f08ca5c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

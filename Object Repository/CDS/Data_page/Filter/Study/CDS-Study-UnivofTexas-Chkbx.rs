@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Study_University of Texas PDX Development and Trial Center Grant&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Study Name_University of Texas PDX Development and Trial Center Grant&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Study_University of Texas PDX Development and Trial Center Grant&quot;]</value>
-      <webElementGuid>43bd3070-faec-4edb-9be6-0d6bc870b5ec</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Study Name_University of Texas PDX Development and Trial Center Grant&quot;]</value>
+      <webElementGuid>de399103-4c34-45fa-8d73-ac86feea44b1</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

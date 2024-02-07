@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Study_CIDR: Discovery, Biology, and Risk of Inherited Variants in Glioma sample&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Study Name_CIDR: Discovery, Biology, and Risk of Inherited Variants in Glioma sample&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Study_CIDR: Discovery, Biology, and Risk of Inherited Variants in Glioma sample&quot;]</value>
-      <webElementGuid>cce37ef9-f580-4164-9b2e-e8712853e00b</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Study Name_CIDR: Discovery, Biology, and Risk of Inherited Variants in Glioma sample&quot;]</value>
+      <webElementGuid>a7965c14-a675-4208-822a-b785dc4f359c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
