@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>PCR_Chkbx</name>
+   <name>Poly-TEnrichment_Chkbx</name>
    <tag></tag>
-   <elementGuidId>7e552a60-c243-42ac-a23b-6b21cde05561</elementGuidId>
+   <elementGuidId>88c9e601-cfb5-4911-a24c-d2e447457b8d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value></value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,6 +19,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_library selection_PCR&quot;]</value>
+      <value>//*[@id=&quot;checkbox_library selection_Poly-T Enrichment&quot;]</value>
+      <webElementGuid>2fd6e615-db1f-4f46-bab0-1070e2eb3b31</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
