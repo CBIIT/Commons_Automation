@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Singleend_Chkbx</name>
+   <name>PCR_Chkbx</name>
    <tag></tag>
-   <elementGuidId>43d971f9-d267-4890-a086-88f6e97fbf22</elementGuidId>
+   <elementGuidId>7e552a60-c243-42ac-a23b-6b21cde05561</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,6 +19,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_library layout_Single-end&quot;]</value>
+      <value>//*[@id=&quot;checkbox_library selection_PCR&quot;]</value>
+      <webElementGuid>dbc9ddbd-ae84-42c2-bdc4-7ae1f635a70e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

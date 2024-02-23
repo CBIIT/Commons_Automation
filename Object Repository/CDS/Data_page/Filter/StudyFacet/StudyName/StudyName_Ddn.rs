@@ -1,26 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Random_Chkbx</name>
+   <name>StudyName_Ddn</name>
    <tag></tag>
-   <elementGuidId>50aa9098-a668-43b6-8388-5f63745ccada</elementGuidId>
+   <elementGuidId>3af7ef2c-f720-440e-adac-30670f565f9b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>(//*[@id=&quot;Study Name&quot;])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_library selection_Random&quot;]</value>
+      <value>(//*[@id=&quot;Study Name&quot;])[1]</value>
+      <webElementGuid>1bb1fb2c-3a8a-489d-98e1-f9ba8eaff11e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

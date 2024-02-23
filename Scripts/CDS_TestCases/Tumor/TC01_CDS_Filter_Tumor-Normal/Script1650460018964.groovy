@@ -51,11 +51,11 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/NavBar/CDS_Dat
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/NavBar/CDS_Data-Btn')
 
 //Clicking Tumor dropdown
-WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/Tumor/Tumor_Ddn'),5)
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Z-ObsoleteObjects/Tumor/Tumor_Ddn'),5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/Tumor/Tumor_Ddn')
 
 //Clicking Normal checkbox
-WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/Tumor/Normal-Chkbx'),5)
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Z-ObsoleteObjects/Tumor/Normal-Chkbx'),5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/Tumor/Normal-Chkbx')
 
 //Read statbar
