@@ -51,11 +51,11 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/NavBar/CDS_Dat
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/NavBar/CDS_Data-Btn')
 
 //Clicking the File Type dropdown
-WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/FileType/FileType_Ddn'),5)
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/FilesFacet/FileType/FileType_Ddn'),5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/FileType/FileType_Dbn')
 
 //Clicking the desired File Type checkbox
-WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/FileType/idat-Chkbx'),5)
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/FilesFacet/FileType/idat-Chkbx'),5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/FileType/idat-Chkbx')
  
 

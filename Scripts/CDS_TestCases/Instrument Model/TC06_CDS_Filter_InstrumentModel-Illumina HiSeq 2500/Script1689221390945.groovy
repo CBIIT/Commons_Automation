@@ -51,11 +51,11 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/NavBar/CDS_Dat
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/NavBar/CDS_Data-Btn')
 
 //Clicking the Instrument Model dropdown
-WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/InstrumentModel/Instrument_model_Ddn'),5)
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/SequencingFacet/InstrumentModel/Instrument_model_Ddn'),5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/InstrumentModel/Instrument_model_Ddn')
  
 //Clicking the desired Instrument Model checkbox
-WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/InstrumentModel/IlluminaHiSeq2500_Chkbx'),5)
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/SequencingFacet/InstrumentModel/IlluminaHiSeq2500_Chkbx'),5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/InstrumentModel/IlluminaHiSeq2500_Chkbx')
  
 //Read statbar

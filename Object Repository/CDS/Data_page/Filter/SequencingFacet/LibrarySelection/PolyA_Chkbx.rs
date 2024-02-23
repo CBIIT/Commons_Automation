@@ -1,26 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>NotspecifiedinData_Chkbx</name>
+   <name>PolyA_Chkbx</name>
    <tag></tag>
-   <elementGuidId>43a30ff7-d97f-4497-83c4-05f5ad4f79eb</elementGuidId>
+   <elementGuidId>f6e2e118-ff67-4933-87fb-dd9ea080d739</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_library selection_Not specified in data&quot;]</value>
+         <key>XPATH</key>
       </entry>
       <entry>
-         <key>XPATH</key>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_library selection_Not specified in data&quot;]</value>
-      <webElementGuid>31794508-c2bf-47e2-a166-ee7fdd5e475f</webElementGuid>
+      <value>//*[@id=&quot;checkbox_library selection_PolyA&quot;]</value>
+      <webElementGuid>645de8a9-9c1e-4e27-a412-0a949f21b4b5</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

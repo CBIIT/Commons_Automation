@@ -592,7 +592,26 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 	}// readSelectedCols function ends
 
 
-
+@Keyword
+public static void verifyCDSFacetExpansion (String CDSFacet) {
+	JavascriptExecutor js = (JavascriptExecutor)driver;
+	String facetxpath = givexpath(CDSFacet)
+	System.out.println("This is the value of xpath of the element: "+facetxpath);
+	WebElement cdsfacet = driver.findElement(By.xpath(facetxpath));
+	// Get the value of the aria-expanded attribute
+	js.executeScript("arguments[0].scrollIntoView(true);", cdsfacet);
+	String ariaExpandedValue = cdsfacet.getAttribute("aria-expanded")
+	System.out.println ("This is the value of the aria expanded attribute of the facet : "+ariaExpandedValue);
+	// Check if aria-expanded is "false"
+	if (ariaExpandedValue != null && ariaExpandedValue.equalsIgnoreCase("false")) {
+		// Click the element
+		js.executeScript("arguments[0].click();", cdsfacet);
+		println("Clicked on the facet as it was not expanded previously.")
+	} else {
+		println("aria-expanded is true for the facet. No action needed. Facet is already expanded")
+	}
+	
+}
 
 
 

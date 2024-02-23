@@ -51,11 +51,11 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/NavBar/CDS_Dat
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/NavBar/CDS_Data-Btn')
 
 //Clicking the Study Data Types dropdown
-WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/StudyDataTypes/StudyDataTypes_Ddn'),5)
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/StudyFacet/StudyDataTypes/StudyDataTypes_Ddn'),5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/StudyDataTypes/StudyDataTypes_Ddn')
  
 //Clicking the desired Study Data Types checkbox
-WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/StudyDataTypes/Genomic-Chkbx'),5)
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/StudyFacet/StudyDataTypes/Genomic-Chkbx'),5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/StudyDataTypes/Genomic-Chkbx')
  
 

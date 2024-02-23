@@ -51,40 +51,40 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/NavBar/CDS_Dat
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/NavBar/CDS_Data-Btn')
 
 //Clicking Study dropdown
-WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/Study/Study_Ddn'),5)
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/StudyFacet/StudyName/StudyName_Ddn'),5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/Study/Study_Ddn')
 
 //Clicking Study checkbox
-WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/Study/CDS-Study-CIDR Glioma Sample-Chkbx'),5)
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/StudyFacet/StudyName/CDS-Study-CIDR Glioma Sample-Chkbx'),5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/Study/CDS-Study-CIDR Glioma Sample-Chkbx')
 
 //Clicking Study dropdown
-WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/Study/Study_Ddn'),5)
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/StudyFacet/StudyName/StudyName_Ddn'),5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/Study/Study_Ddn')
 
 
 //Clicking Library Strategies dropdown
-WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/LibraryStrategy/Library_Strategy_Ddn'),5)
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/SequencingFacet/LibraryStrategy/Library_Strategy_Ddn'),5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/LibraryStrategy/Library_Strategy_Ddn')
 
 //Clicking Not specified in data checkbox
-WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/LibraryStrategy/NotSpecifiedindata_Chkbx'),5)
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/SequencingFacet/LibraryStrategy/NotSpecifiedindata_Chkbx'),5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/LibraryStrategy/NotSpecifiedindata_Chkbx')
 
 //Clicking Sample Tumor Status
-WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/Tumor/Tumor_Ddn'),15)
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Z-ObsoleteObjects/Tumor/Tumor_Ddn'),15)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/Tumor/Tumor_Ddn')
 
 //Clicking Normal Checkbox
-WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/Tumor/Normal-Chkbx'),15)
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Z-ObsoleteObjects/Tumor/Normal-Chkbx'),15)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/Tumor/Normal-Chkbx')
 
 //Clicking Gender dropdown
-WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/Gender/Gender-Ddn'),5)
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/DemographicsFacet/Gender/Gender-Ddn'),5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/Gender/Gender-Ddn')
 
 //Clicking Male checkbox
-WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/Gender/Male-Chkbx'),5)
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/DemographicsFacet/Gender/Male-Chkbx'),5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/Gender/Male-Chkbx')
 
 //Read statbar
