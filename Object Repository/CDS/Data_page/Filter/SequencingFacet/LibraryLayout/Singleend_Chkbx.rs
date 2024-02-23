@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>HybridSelection_Chkbx</name>
+   <name>Singleend_Chkbx</name>
    <tag></tag>
-   <elementGuidId>5d3c9150-c365-48ec-a60b-e1de2262eff3</elementGuidId>
+   <elementGuidId>43d971f9-d267-4890-a086-88f6e97fbf22</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value></value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,6 +19,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_library selection_Hybrid Selection&quot;]</value>
+      <value>//*[@id=&quot;checkbox_library layout_Single-end&quot;]</value>
+      <webElementGuid>dfbb515a-fe59-478e-ba58-611c429dc988</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

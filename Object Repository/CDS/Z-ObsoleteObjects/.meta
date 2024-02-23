@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <FolderEntity>
-   <description></description>
-   <name>LibraryLayout</name>
+   <description>folder</description>
+   <name>Z-ObsoleteObjects</name>
    <tag></tag>
    <folderType>WEBELEMENT</folderType>
 </FolderEntity>

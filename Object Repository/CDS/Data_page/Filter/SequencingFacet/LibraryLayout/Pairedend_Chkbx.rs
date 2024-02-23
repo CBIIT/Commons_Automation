@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>rRNADepletion_Chkbx</name>
+   <name>Pairedend_Chkbx</name>
    <tag></tag>
-   <elementGuidId>15c6c538-c34f-47b3-bac6-7ae2a3e3e15f</elementGuidId>
+   <elementGuidId>fc87000c-de71-4f4d-bc9b-0664058c99c1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value></value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,6 +19,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_library selection_rRNA Depletion&quot;]</value>
+      <value>//*[@id=&quot;checkbox_library layout_Paired-end&quot;]</value>
+      <webElementGuid>9a90f378-1ff7-41c9-b60e-2a61a9c7bb8b</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

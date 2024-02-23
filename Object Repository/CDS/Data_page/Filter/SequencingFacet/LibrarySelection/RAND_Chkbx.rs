@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>PolyA_Chkbx</name>
+   <name>RAND_Chkbx</name>
    <tag></tag>
-   <elementGuidId>f6e2e118-ff67-4933-87fb-dd9ea080d739</elementGuidId>
+   <elementGuidId>5f89c1d7-b8f7-4bfe-835b-681e942a364d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value></value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,6 +19,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_library selection_PolyA&quot;]</value>
+      <value>//*[@id=&quot;checkbox_library selection_RANDOM&quot;]</value>
+      <webElementGuid>6da2de50-ba91-4d1a-970d-a6a4b2fe002d</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
