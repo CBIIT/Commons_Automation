@@ -18,6 +18,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;checkbox_instrument model_DNBSEQ-G400&quot;]</value>
-      <webElementGuid>6872d098-7963-4362-b30d-6d492cfe9e9e</webElementGuid>
+      <webElementGuid>3b8a81e5-b4d1-4e36-b240-7da71eb537cb</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
