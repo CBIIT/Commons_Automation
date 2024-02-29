@@ -319,9 +319,15 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 						}else if(GlobalVariable.G_inputTabName=="ClinicalTrialsTab"){
 							GlobalVariable.G_QueryClinTrialsTab = sheetData.get(i).get(j).getStringCellValue()
 							System.out.println("This is the value of Clinical Trials tab query from switch case : "+GlobalVariable.G_QueryClinTrialsTab)
+						}else if(GlobalVariable.G_inputTabName=="DiagnosisTab"){
+							GlobalVariable.G_QueryDiagnosisTab = sheetData.get(i).get(j).getStringCellValue()
+							System.out.println("This is the value of Diagnosis tab query from switch case : "+GlobalVariable.G_QueryDiagnosisTab)
+						}else if(GlobalVariable.G_inputTabName=="StudiesTab"){
+							GlobalVariable.G_QueryStudiesTab = sheetData.get(i).get(j).getStringCellValue()
+							System.out.println("This is the value of Studies tab query from switch case : "+GlobalVariable.G_QueryStudiesTab)
 						}else if(GlobalVariable.G_inputTabName=="PatentsTab"){
 							GlobalVariable.G_QueryPatentsTab = sheetData.get(i).get(j).getStringCellValue()
-							System.out.println("This is the value of Patemts tab query from switch case : "+GlobalVariable.G_QueryPatentsTab)
+							System.out.println("This is the value of Patents tab query from switch case : "+GlobalVariable.G_QueryPatentsTab)
 						}
 						break;
 
@@ -592,26 +598,26 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 	}// readSelectedCols function ends
 
 
-@Keyword
-public static void verifyCDSFacetExpansion (String CDSFacet) {
-	JavascriptExecutor js = (JavascriptExecutor)driver;
-	String facetxpath = givexpath(CDSFacet)
-	System.out.println("This is the value of xpath of the element: "+facetxpath);
-	WebElement cdsfacet = driver.findElement(By.xpath(facetxpath));
-	// Get the value of the aria-expanded attribute
-	js.executeScript("arguments[0].scrollIntoView(true);", cdsfacet);
-	String ariaExpandedValue = cdsfacet.getAttribute("aria-expanded")
-	System.out.println ("This is the value of the aria expanded attribute of the facet : "+ariaExpandedValue);
-	// Check if aria-expanded is "false"
-	if (ariaExpandedValue != null && ariaExpandedValue.equalsIgnoreCase("false")) {
-		// Click the element
-		js.executeScript("arguments[0].click();", cdsfacet);
-		println("Clicked on the facet as it was not expanded previously.")
-	} else {
-		println("aria-expanded is true for the facet. No action needed. Facet is already expanded")
+	@Keyword
+	public static void verifyCDSFacetExpansion (String CDSFacet) {
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+		String facetxpath = givexpath(CDSFacet)
+		System.out.println("This is the value of xpath of the element: "+facetxpath);
+		WebElement cdsfacet = driver.findElement(By.xpath(facetxpath));
+		// Get the value of the aria-expanded attribute
+		js.executeScript("arguments[0].scrollIntoView(true);", cdsfacet);
+		String ariaExpandedValue = cdsfacet.getAttribute("aria-expanded")
+		System.out.println ("This is the value of the aria expanded attribute of the facet : "+ariaExpandedValue);
+		// Check if aria-expanded is "false"
+		if (ariaExpandedValue != null && ariaExpandedValue.equalsIgnoreCase("false")) {
+			// Click the element
+			js.executeScript("arguments[0].click();", cdsfacet);
+			println("Clicked on the facet as it was not expanded previously.")
+		} else {
+			println("aria-expanded is true for the facet. No action needed. Facet is already expanded")
+		}
+
 	}
-	
-}
 
 
 
@@ -1029,7 +1035,8 @@ public static void verifyCDSFacetExpansion (String CDSFacet) {
 								System.out.println ("This is the value of tblcol from CCDI body data :"+tblcol)
 
 								if((tbl_main).equals('//*[@id="participant_tab_table"]')){
-									tblcol=tblcol-3;
+									System.out.println("Inside CCDI participants switch")
+									tblcol=tblcol-2;    //8-3=5 leaves out alternate id col   change to 8-2
 									for (int j = 1; j <=tblcol; j = j +1) {
 										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
 										System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
@@ -1037,20 +1044,77 @@ public static void verifyCDSFacetExpansion (String CDSFacet) {
 										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/p")).getAttribute("innerText")) +"||")
 										System.out.println("This is the value of data : "+data)
 									}
-								}else if((tbl_main).equals('//*[@id="sample_tab_table"]')){
-									tblcol=tblcol-2;
+								}else if((tbl_main).equals("//*[@id='diagnosis_tab_table']")){
+									System.out.println("Inside CCDI diagnosis switch")
+									tblcol=tblcol+3;  //tblcol comes from the top as 8. need to add 3 to get 11 cols
+									System.out.println("Value of tblcol from the diagnosis section is: "+tblcol)
 									for (int j = 1; j <=tblcol; j = j +1) {
 										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
-										System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
-										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/*[2]")).getAttribute("innerText")) +"||")
+										// only for this Age column the xpath will not have the /p tag
+										if(((tbl_main).equals("//*[@id='diagnosis_tab_table']")) && (colHeader.get(j).getAttribute("innerText")=="Age at Diagnosis (days)")) {
+											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]")).getAttribute("innerText")) +"||")
+										}else {
+
+											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+											//*[@id="participant_tab_table"]/div[2]/table/tbody/tr[1]/td[3]/p
+											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/p")).getAttribute("innerText")) +"||")
+										}
+										System.out.println("This is the value of data : "+data)
+									}
+								}else if((tbl_main).equals("//*[@id='study_tab_table']")){
+									System.out.println("Inside CCDI studies switch")
+									tblcol=tblcol+3;
+									System.out.println("Value of tblcol from the studies section is: "+tblcol)
+									for (int j = 1; j <=tblcol; j = j +1) {
+										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
+										// only for two cols with (top 5) the xpath will not have the /p tag
+
+										if(((tbl_main).equals("//*[@id='study_tab_table']")) && (colHeader.get(j).getAttribute("innerText")=="Diagnosis (Top 5)")) {
+											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]")).getAttribute("innerText")) +"||")
+										}else if(((tbl_main).equals("//*[@id='study_tab_table']")) && (colHeader.get(j).getAttribute("innerText")=="Diagnosis Anatomic Site (Top 5)")) {
+											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]")).getAttribute("innerText")) +"||")
+										}else if(((tbl_main).equals("//*[@id='study_tab_table']")) && (colHeader.get(j).getAttribute("innerText")=="File Type (Top 5)")) {
+											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]")).getAttribute("innerText")) +"||")
+										}
+										else {
+											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+										
+											//*[@id="study_tab_table"]/div[2]/table/tbody/tr[5]/td[10]/p
+											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/p")).getAttribute("innerText")) +"||")
+										}
+										System.out.println("This is the value of data : "+data)
+									  }
+								}else if((tbl_main).equals("//*[@id='sample_tab_table']")){
+									System.out.println("Inside CCDI samples tab switch")
+									tblcol=tblcol+4;
+									System.out.println("Value of tblcol from the samples section is: "+tblcol)
+									for (int j = 1; j <=tblcol; j = j +1) {
+										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
+										// only for one col the xpath will not have the /p tag
+										//*[@id="sample_tab_table"]/div[2]/table/tbody/tr[1]/td[6]
+										if(((tbl_main).equals("//*[@id='sample_tab_table']")) && (colHeader.get(j).getAttribute("innerText")=="Age at Sample Collection")) {
+											 System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+											 data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]")).getAttribute("innerText")) +"||")
+											 
+										 }else {
+											 System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+											 //*[@id="sample_tab_table"]/div[2]/table/tbody/tr[1]/td[2]/p
+											 data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/p")).getAttribute("innerText")) +"||")
+										 }
 										System.out.println("This is the value of data : "+data)
 									}
 								}else if((tbl_main).equals('//*[@id="file_tab_table"]')){
-									tblcol=tblcol-2;
+									System.out.println("Inside CCDI files tab switch")
+									tblcol=tblcol+2;
 									for (int j = 1; j <=tblcol; j = j +1) {
 										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
+										//*[@id="file_tab_table"]//tbody/tr[1]/*[2]/*[2]
 										System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
-										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/*[2]")).getAttribute("innerText")) +"||")
+										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/p")).getAttribute("innerText")) +"||")
 										System.out.println("This is the value of data : "+data)
 									}
 								}
@@ -1527,8 +1591,8 @@ public static void verifyCDSFacetExpansion (String CDSFacet) {
 		GlobalVariable.G_StatBar_Samples = driver.findElement(By.xpath(xcSamples)).getAttribute("innerText");
 		System.out.println("This is the value of Samples count from Stat bar :"+GlobalVariable.G_StatBar_Samples)
 		Thread.sleep(2000)
-		//		GlobalVariable.G_StatBar_Files = driver.findElement(By.xpath(xcFiles)).getAttribute("innerText");
-		//		System.out.println("This is the value of Case Files count from Stat bar :"+GlobalVariable.G_StatBar_Files)
+		GlobalVariable.G_StatBar_Files = driver.findElement(By.xpath(xcFiles)).getAttribute("innerText");
+		System.out.println("This is the value of Case Files count from Stat bar :"+GlobalVariable.G_StatBar_Files)
 		Thread.sleep(2000)
 	}
 
@@ -2136,12 +2200,12 @@ public static void verifyCDSFacetExpansion (String CDSFacet) {
 			System.out.println("This is the value of Studies Count from Neo4j result: "+statData.get(0).get(0).getStringCellValue())  //add in the query in input file later
 			System.out.println("This is the value of Participants Count from Neo4j result: "+statData.get(0).get(1).getStringCellValue())
 			System.out.println("This is the value of Samples Count from Neo4j result: "+statData.get(0).get(2).getStringCellValue())
-			//System.out.println("This is the value of Files Count from Neo4j result: "+statData.get(0).get(3).getStringCellValue())
+			System.out.println("This is the value of Files Count from Neo4j result: "+statData.get(0).get(3).getStringCellValue())
 
 			(statData.get(0).get(0).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Studies)) ? KeywordUtil.markPassed("Statbar Studies count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Studies count")
 			(statData.get(0).get(1).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Participants)) ? KeywordUtil.markPassed("Statbar Participants count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Participants count")
 			(statData.get(0).get(2).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Samples)) ? KeywordUtil.markPassed("Statbar Samples count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Samples count")
-			//(statData.get(0).get(3).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Files)) ? KeywordUtil.markPassed("Statbar Files count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Files count")
+			(statData.get(0).get(3).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Files)) ? KeywordUtil.markPassed("Statbar Files count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Files count")
 		}
 	}
 
