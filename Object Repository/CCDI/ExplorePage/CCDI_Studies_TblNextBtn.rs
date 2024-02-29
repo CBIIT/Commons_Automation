@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Female_Chkbx</name>
+   <name>CCDI_Studies_TblNextBtn</name>
    <tag></tag>
-   <elementGuidId>e95a7ac6-63f2-4919-b83d-78986f98a1a4</elementGuidId>
+   <elementGuidId>88395160-e6fe-43d1-b603-1b9a8c7c4ef0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Sex_Female&quot;]</value>
+         <value>//*[@id=&quot;study_tab_table&quot;]/div[3]/div/div/div[3]/button[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Sex_Female&quot;]</value>
-      <webElementGuid>f90fed3d-f6a8-4464-b949-496b47059237</webElementGuid>
+      <value>//*[@id=&quot;study_tab_table&quot;]/div[3]/div/div/div[3]/button[2]</value>
+      <webElementGuid>2839e484-2d00-437b-b472-c775bc9bfb63</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
