@@ -21,7 +21,7 @@
    <testCaseLink>
       <guid>d409ccee-46c8-4225-bf81-cdb58dc6fee2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/CCDI_TestCases/Multifilters/phs003111/TC01_CCDI_PHS-Accession-phs003111_Gender-Female_Race-Asian</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
