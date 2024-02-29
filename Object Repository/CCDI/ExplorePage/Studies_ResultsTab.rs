@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Female_Chkbx</name>
+   <name>Studies_ResultsTab</name>
    <tag></tag>
-   <elementGuidId>e95a7ac6-63f2-4919-b83d-78986f98a1a4</elementGuidId>
+   <elementGuidId>c3e0d02f-c0b9-4cb5-b1d4-11da038880f2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Sex_Female&quot;]</value>
+         <value>//*[@id=&quot;root&quot;]/div[3]/div[2]/div/div[2]/div/div[6]/div/div/button[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Sex_Female&quot;]</value>
-      <webElementGuid>f90fed3d-f6a8-4464-b949-496b47059237</webElementGuid>
+      <value>//*[@id=&quot;root&quot;]/div[3]/div[2]/div/div[2]/div/div[6]/div/div/button[3]</value>
+      <webElementGuid>ed20ab99-ae2e-4438-9ac1-70cbd6737345</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

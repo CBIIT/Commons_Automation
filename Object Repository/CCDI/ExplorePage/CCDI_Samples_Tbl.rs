@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Female_Chkbx</name>
+   <name>CCDI_Samples_Tbl</name>
    <tag></tag>
-   <elementGuidId>e95a7ac6-63f2-4919-b83d-78986f98a1a4</elementGuidId>
+   <elementGuidId>06608f46-d126-4067-a7bf-04451ddb1dcb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Sex_Female&quot;]</value>
+         <value>//*[@id='sample_tab_table']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Sex_Female&quot;]</value>
-      <webElementGuid>f90fed3d-f6a8-4464-b949-496b47059237</webElementGuid>
+      <value>//*[@id='sample_tab_table']</value>
+      <webElementGuid>0a3a8be6-0b30-4c24-82ff-0f35d363b45d</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
