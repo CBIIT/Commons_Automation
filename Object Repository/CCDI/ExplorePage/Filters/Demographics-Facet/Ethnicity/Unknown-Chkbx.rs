@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Unknown-Chkbx</name>
+   <tag></tag>
+   <elementGuidId>4aefe001-b2df-498b-8a6b-de6a2b2ee1ff</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;checkbox_Ethnicity_Unknown&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;checkbox_Ethnicity_Unknown&quot;]</value>
+      <webElementGuid>19fe8ad7-564a-4846-8fc4-478aeb0eef98</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

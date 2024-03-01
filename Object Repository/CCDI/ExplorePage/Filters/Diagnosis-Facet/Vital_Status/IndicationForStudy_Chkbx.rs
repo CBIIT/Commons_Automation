@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>IndicationForStudy_Chkbx</name>
+   <tag></tag>
+   <elementGuidId>faba16a2-42c4-4c68-bfc3-5002f4344a36</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;checkbox_Race_Asian&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;checkbox_Race_Asian&quot;]</value>
+      <webElementGuid>d86cd98d-3347-424e-9b35-c4a116d29bc1</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

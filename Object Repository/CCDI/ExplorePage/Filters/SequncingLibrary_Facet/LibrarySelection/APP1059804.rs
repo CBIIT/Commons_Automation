@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>APP1059804</name>
+   <tag></tag>
+   <elementGuidId>858466da-baab-4628-b414-20928f59df74</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;Study&quot;]/div[2]/div/div/div/div[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;Study&quot;]/div[2]/div/div/div/div[3]</value>
+      <webElementGuid>3e79fc96-9dc5-433e-a75e-daa74d8a64f8</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

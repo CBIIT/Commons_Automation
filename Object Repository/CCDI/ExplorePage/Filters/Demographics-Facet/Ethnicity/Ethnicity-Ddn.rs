@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Ethnicity-Ddn</name>
+   <tag></tag>
+   <elementGuidId>94c8a7b6-ed97-4a24-8032-fd7552111139</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//*[@id=&quot;Ethnicity&quot;])[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//*[@id=&quot;Ethnicity&quot;])[1]</value>
+      <webElementGuid>f8d206f0-7108-4ad6-b631-e95c44cb5988</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

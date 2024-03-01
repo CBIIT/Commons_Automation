@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Race_Ddn</name>
+   <tag></tag>
+   <elementGuidId>8c06ecd9-3fd5-4f63-8b7b-a41c040d9c62</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//*[@id=&quot;Race&quot;])[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//*[@id=&quot;Race&quot;])[1]</value>
+      <webElementGuid>da43476b-1c5b-41ce-a622-0d8e86149923</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
