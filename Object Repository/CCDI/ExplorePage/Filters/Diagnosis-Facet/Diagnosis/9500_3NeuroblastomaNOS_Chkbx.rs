@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Diagnosis_Ddn</name>
+   <name>9500_3NeuroblastomaNOS_Chkbx</name>
    <tag></tag>
-   <elementGuidId>e71f9dde-55fa-4a3f-a228-b4938dd66ba9</elementGuidId>
+   <elementGuidId>7af1ea07-c60d-47b1-a038-bb514fc0978d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@id=&quot;Diagnosis&quot;])[4]</value>
+         <value>//*[@id=&quot;checkbox_Diagnosis_9500/3 : Neuroblastoma, NOS&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@id=&quot;Diagnosis&quot;])[4]</value>
-      <webElementGuid>9ffef232-9781-4fb9-ba3e-6f86f54a9807</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Diagnosis_9500/3 : Neuroblastoma, NOS&quot;]</value>
+      <webElementGuid>19cfb960-f3c6-45dd-b73a-1a31b588f4e4</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

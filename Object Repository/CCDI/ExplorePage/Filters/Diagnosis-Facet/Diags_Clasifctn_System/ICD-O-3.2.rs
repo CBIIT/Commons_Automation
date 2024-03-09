@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Diagnosis_Ddn</name>
+   <name>ICD-O-3.2</name>
    <tag></tag>
-   <elementGuidId>e71f9dde-55fa-4a3f-a228-b4938dd66ba9</elementGuidId>
+   <elementGuidId>b88a687f-52a7-4b84-9cc6-cb334238a057</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@id=&quot;Diagnosis&quot;])[4]</value>
+         <value>//*[@id=&quot;checkbox_Diagnosis Classification System_ICD-O-3.2&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@id=&quot;Diagnosis&quot;])[4]</value>
-      <webElementGuid>9ffef232-9781-4fb9-ba3e-6f86f54a9807</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Diagnosis Classification System_ICD-O-3.2&quot;]</value>
+      <webElementGuid>e2a92ece-5b1d-41b3-9902-c5e9f404e67d</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
