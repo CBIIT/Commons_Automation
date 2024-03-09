@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Diagnosis_Ddn</name>
+   <name>White_Chkbx</name>
    <tag></tag>
-   <elementGuidId>e71f9dde-55fa-4a3f-a228-b4938dd66ba9</elementGuidId>
+   <elementGuidId>03883068-5c74-4fdd-9af2-1db9b16364ad</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@id=&quot;Diagnosis&quot;])[4]</value>
+         <value>//*[@id=&quot;checkbox_Race_White&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@id=&quot;Diagnosis&quot;])[4]</value>
-      <webElementGuid>9ffef232-9781-4fb9-ba3e-6f86f54a9807</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Race_White&quot;]</value>
+      <webElementGuid>fbdf6c09-b73a-45c1-ae63-03baca296e9b</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

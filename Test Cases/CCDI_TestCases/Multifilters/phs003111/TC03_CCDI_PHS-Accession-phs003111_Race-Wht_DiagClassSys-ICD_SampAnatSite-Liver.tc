@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC02_CCDI_PHS-Accession-phs003111_Ethn-Hisp_AnatSite-Blood-Appendix_Diag-AcuteLeuk-JuvenileLeuk - Copy</name>
+   <name>TC03_CCDI_PHS-Accession-phs003111_Race-Wht_DiagClassSys-ICD_SampAnatSite-Liver</name>
    <tag>Filter</tag>
    <comment></comment>
    <testCaseGuid>379bdd38-ad9b-4fd4-9336-e37e00085514</testCaseGuid>
