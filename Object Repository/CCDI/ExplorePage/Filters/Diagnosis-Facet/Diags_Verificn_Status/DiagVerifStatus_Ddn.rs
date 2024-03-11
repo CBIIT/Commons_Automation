@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>APP1059804</name>
+   <name>DiagVerifStatus_Ddn</name>
    <tag></tag>
-   <elementGuidId>db671c0c-5cef-44bf-9e2e-51d300452917</elementGuidId>
+   <elementGuidId>ae626304-6279-48d3-94de-add42c29e3fe</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;Study&quot;]/div[2]/div/div/div/div[3]</value>
+         <value>//*[@id=&quot;Diagnosis Verification Status&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;Study&quot;]/div[2]/div/div/div/div[3]</value>
-      <webElementGuid>137fd8ab-320a-4c8c-b7c5-e8edd5aa7b99</webElementGuid>
+      <value>//*[@id=&quot;Diagnosis Verification Status&quot;]</value>
+      <webElementGuid>784f5504-dca8-4d1a-a313-d74d3f26a34a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
