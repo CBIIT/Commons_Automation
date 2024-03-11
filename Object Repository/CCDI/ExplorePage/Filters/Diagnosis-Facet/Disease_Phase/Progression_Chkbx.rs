@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>APP1059804</name>
+   <name>Progression_Chkbx</name>
    <tag></tag>
-   <elementGuidId>7b8ec21f-35e8-41fd-917e-6505cc02c40a</elementGuidId>
+   <elementGuidId>fdd34628-5841-49f2-b147-dabd1c71eec9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;Study&quot;]/div[2]/div/div/div/div[3]</value>
+         <value>//*[@id=&quot;checkbox_Disease Phase_Progression&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;Study&quot;]/div[2]/div/div/div/div[3]</value>
-      <webElementGuid>910a06b8-4fcb-490e-be6b-9adbb587ed4f</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Disease Phase_Progression&quot;]</value>
+      <webElementGuid>5890588f-2c2a-4bf1-b1b8-84ab7f423010</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

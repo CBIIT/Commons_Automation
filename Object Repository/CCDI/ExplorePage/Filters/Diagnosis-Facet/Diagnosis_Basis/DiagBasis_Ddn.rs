@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>IndicationForStudy_Chkbx</name>
+   <name>DiagBasis_Ddn</name>
    <tag></tag>
-   <elementGuidId>d95e1532-7ca1-485e-8b2d-066e0ad87bad</elementGuidId>
+   <elementGuidId>3766da5c-c6e0-4550-93d8-5310cf0a851f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Race_Asian&quot;]</value>
+         <value>(//*[@id=&quot;Diagnosis Basis&quot;])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Race_Asian&quot;]</value>
-      <webElementGuid>9f490eb3-fba5-4528-96e3-1eb34d177a15</webElementGuid>
+      <value>(//*[@id=&quot;Diagnosis Basis&quot;])[2]</value>
+      <webElementGuid>76423e4b-bcda-43d5-bc26-f6849d3cc1a3</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

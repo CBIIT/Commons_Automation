@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Race_Ddn</name>
+   <name>AssayType_Ddn</name>
    <tag></tag>
-   <elementGuidId>ae626304-6279-48d3-94de-add42c29e3fe</elementGuidId>
+   <elementGuidId>498fe211-5813-4f17-bd0a-d5bcaa21a98e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@id=&quot;Race&quot;])[1]</value>
+         <value>//*[@id=&quot;Assay Type&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@id=&quot;Race&quot;])[1]</value>
-      <webElementGuid>34794916-27d2-4ac4-923d-0688e962a419</webElementGuid>
+      <value>//*[@id=&quot;Assay Type&quot;]</value>
+      <webElementGuid>133cf2ae-a0dc-4b14-b4bc-61ac3523bbcd</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

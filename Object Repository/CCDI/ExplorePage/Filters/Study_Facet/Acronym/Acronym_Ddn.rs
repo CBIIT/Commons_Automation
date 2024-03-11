@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>SampleTumorStatus_Ddn</name>
+   <name>Acronym_Ddn</name>
    <tag></tag>
-   <elementGuidId>15722094-2d6e-4c78-ae39-eae5760075ba</elementGuidId>
+   <elementGuidId>ed2ededb-ac97-4c0b-b639-5facc7a7c73d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@id=&quot;Sample tumor status&quot;])[2]</value>
+         <value>(//*[@id=&quot;Acronym&quot;])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@id=&quot;Sample tumor status&quot;])[2]</value>
-      <webElementGuid>da3a5ad1-42ce-4528-b5c0-a539bd1ee5aa</webElementGuid>
+      <value>(//*[@id=&quot;Acronym&quot;])[2]</value>
+      <webElementGuid>571a9e0e-e3ef-4977-aecd-00f2a33af76c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

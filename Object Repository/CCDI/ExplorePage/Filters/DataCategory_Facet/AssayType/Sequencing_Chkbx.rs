@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>SampleTumorStatus_Ddn</name>
+   <name>Sequencing_Chkbx</name>
    <tag></tag>
-   <elementGuidId>15722094-2d6e-4c78-ae39-eae5760075ba</elementGuidId>
+   <elementGuidId>fa9fea7d-56c8-48bb-839d-1bcde598f007</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@id=&quot;Sample tumor status&quot;])[2]</value>
+         <value>//*[@id=&quot;checkbox_Assay Type_Sequencing&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@id=&quot;Sample tumor status&quot;])[2]</value>
-      <webElementGuid>da3a5ad1-42ce-4528-b5c0-a539bd1ee5aa</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Assay Type_Sequencing&quot;]</value>
+      <webElementGuid>953c6816-4b8f-467a-8880-20f96bb7c10e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

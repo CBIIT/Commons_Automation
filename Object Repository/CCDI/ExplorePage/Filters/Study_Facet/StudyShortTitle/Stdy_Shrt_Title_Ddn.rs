@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>SampleTumorStatus_Ddn</name>
+   <name>Stdy_Shrt_Title_Ddn</name>
    <tag></tag>
-   <elementGuidId>15722094-2d6e-4c78-ae39-eae5760075ba</elementGuidId>
+   <elementGuidId>3ef2bdbc-14d9-4358-ac60-da81bf6c9741</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@id=&quot;Sample tumor status&quot;])[2]</value>
+         <value>(//*[@id=&quot;Study short title&quot;])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@id=&quot;Sample tumor status&quot;])[2]</value>
-      <webElementGuid>da3a5ad1-42ce-4528-b5c0-a539bd1ee5aa</webElementGuid>
+      <value>(//*[@id=&quot;Study short title&quot;])[2]</value>
+      <webElementGuid>47c1290c-7456-4185-b478-9a3fbf238a9a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

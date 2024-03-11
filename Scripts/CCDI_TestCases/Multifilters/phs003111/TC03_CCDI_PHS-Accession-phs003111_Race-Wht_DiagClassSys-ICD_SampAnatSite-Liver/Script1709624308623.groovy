@@ -47,7 +47,7 @@ Sex - Female
 */
 WebUI.closeBrowser()
  
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC01_CCDI_PHS-Accession-phs003111_Gender-Female_Race-Asian.xlsx')
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC03_CCDI_PHS-Accession-phs003111_Race-Wht_DiagClassSys-ICD_SampAnatSite-Liver.xlsx')
 
 //CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Canine_PopUp_Continue_Btn')
 //System.out.println ("Closed the popup window");
@@ -85,9 +85,7 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/CCDI/ExplorePage/F
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/CCDI/ExplorePage/Filters/Samples_Facet/AnatomicSite/Liver-C22.0_Chkbx')
 
 
-findTestObject('Object Repository/CCDI/ExplorePage/Filters/Samples_Facet/Samples_Facet')
-findTestObject('Object Repository/CCDI/ExplorePage/Filters/Samples_Facet/AnatomicSite/AnatomicSite_Ddn')
-findTestObject('Object Repository/CCDI/ExplorePage/Filters/Samples_Facet/AnatomicSite/Liver-C22.0_Chkbx')
+ 
 //Read Statbar
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.readStatBarCCDIhub'('Object Repository/CCDI/Statbar/Studies_Cnt','Object Repository/CCDI/Statbar/Participants_Cnt', 'Object Repository/CCDI/Statbar/Samples_Cnt',
 	'Object Repository/CCDI/Statbar/Files_Cnt')
