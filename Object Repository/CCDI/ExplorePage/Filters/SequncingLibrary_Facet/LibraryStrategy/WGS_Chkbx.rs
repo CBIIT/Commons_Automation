@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>SampleTumorStatus_Ddn</name>
+   <name>WGS_Chkbx</name>
    <tag></tag>
-   <elementGuidId>15722094-2d6e-4c78-ae39-eae5760075ba</elementGuidId>
+   <elementGuidId>8829798f-12d3-479c-b055-a58285d1c9a4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@id=&quot;Sample tumor status&quot;])[2]</value>
+         <value>//*[@id=&quot;checkbox_Library strategy_WGS&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@id=&quot;Sample tumor status&quot;])[2]</value>
-      <webElementGuid>da3a5ad1-42ce-4528-b5c0-a539bd1ee5aa</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Library strategy_WGS&quot;]</value>
+      <webElementGuid>7a330a5a-b280-418e-b43b-9cec9e4cf366</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

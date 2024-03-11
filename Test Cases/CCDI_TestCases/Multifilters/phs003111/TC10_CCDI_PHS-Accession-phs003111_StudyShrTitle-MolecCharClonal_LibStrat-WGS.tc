@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC10_CCDI_PHS-Accession-phs003111_StudyShrTitle-MolecCharClonal_LibStrat-WGS</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <testCaseGuid>fc5a1196-533a-4145-836d-6b9767b8c207</testCaseGuid>
+</TestCaseEntity>

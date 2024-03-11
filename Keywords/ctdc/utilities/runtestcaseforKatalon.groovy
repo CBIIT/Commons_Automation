@@ -1082,12 +1082,12 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 										}
 										else {
 											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
-										
+
 											//*[@id="study_tab_table"]/div[2]/table/tbody/tr[5]/td[10]/p
 											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/p")).getAttribute("innerText")) +"||")
 										}
 										System.out.println("This is the value of data : "+data)
-									  }
+									}
 								}else if((tbl_main).equals("//*[@id='sample_tab_table']")){
 									System.out.println("Inside CCDI samples tab switch")
 									tblcol=tblcol+4;
@@ -1097,14 +1097,14 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 										// only for one col the xpath will not have the /p tag
 										//*[@id="sample_tab_table"]/div[2]/table/tbody/tr[1]/td[6]
 										if(((tbl_main).equals("//*[@id='sample_tab_table']")) && (colHeader.get(j).getAttribute("innerText")=="Age at Sample Collection")) {
-											 System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
-											 data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]")).getAttribute("innerText")) +"||")
-											 
-										 }else {
-											 System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
-											 //*[@id="sample_tab_table"]/div[2]/table/tbody/tr[1]/td[2]/p
-											 data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/p")).getAttribute("innerText")) +"||")
-										 }
+											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]")).getAttribute("innerText")) +"||")
+
+										}else {
+											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+											//*[@id="sample_tab_table"]/div[2]/table/tbody/tr[1]/td[2]/p
+											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/p")).getAttribute("innerText")) +"||")
+										}
 										System.out.println("This is the value of data : "+data)
 									}
 								}else if((tbl_main).equals('//*[@id="file_tab_table"]')){
