@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC11_Canine_Study-PRECINCT01-Breed-Labrador</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <testCaseGuid>d4e6f477-5206-451c-9bb7-b8477a7bb248</testCaseGuid>
+</TestCaseEntity>
