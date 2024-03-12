@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Race_Ddn</name>
+   <name>Unknown_Chkbx</name>
    <tag></tag>
-   <elementGuidId>7f8712e7-45c9-4b19-af49-ecc90b8b53c8</elementGuidId>
+   <elementGuidId>21b6939f-934e-4178-9154-6dc72d13fa29</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@id=&quot;Race&quot;])[1]</value>
+         <value>//*[@id=&quot;checkbox_Vital Status_Unknown&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@id=&quot;Race&quot;])[1]</value>
-      <webElementGuid>f5f873d2-7a6f-46a0-a1b3-9827d266949f</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Vital Status_Unknown&quot;]</value>
+      <webElementGuid>88ceb956-72aa-4fd5-8960-235a77c50359</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

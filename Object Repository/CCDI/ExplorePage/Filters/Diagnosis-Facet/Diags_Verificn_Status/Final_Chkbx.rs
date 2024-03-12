@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>phs003111_Chkbx</name>
+   <name>Final_Chkbx</name>
    <tag></tag>
-   <elementGuidId>9e3db27e-fcd4-48dd-898d-e84a22472ef6</elementGuidId>
+   <elementGuidId>246e1449-8ec8-4a13-9aba-08903b20107a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_PHS Accession_phs003111&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Diagnosis Verification Status_Final&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_PHS Accession_phs003111&quot;]</value>
-      <webElementGuid>4601838a-5321-46dc-a11f-739694b6c5ab</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Diagnosis Verification Status_Final&quot;]</value>
+      <webElementGuid>60df02d7-b063-4b5f-8276-6e9dea364661</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
