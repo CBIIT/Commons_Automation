@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>phs003111_Chkbx</name>
+   <name>phs002504_Chkbx</name>
    <tag></tag>
-   <elementGuidId>9e3db27e-fcd4-48dd-898d-e84a22472ef6</elementGuidId>
+   <elementGuidId>e535ace4-c7af-4f40-b455-eec1e616abaf</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_PHS Accession_phs003111&quot;]</value>
+         <value>//*[@id='checkbox_dbGaP phs accession_phs002504']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_PHS Accession_phs003111&quot;]</value>
-      <webElementGuid>4601838a-5321-46dc-a11f-739694b6c5ab</webElementGuid>
+      <value>//*[@id='checkbox_dbGaP phs accession_phs002504']</value>
+      <webElementGuid>bd5f78a5-8027-4c37-8766-21c5d61257f3</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

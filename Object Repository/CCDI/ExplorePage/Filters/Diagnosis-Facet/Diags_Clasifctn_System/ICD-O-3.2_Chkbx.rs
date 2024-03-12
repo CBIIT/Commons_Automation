@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>phs003111_Chkbx</name>
+   <name>ICD-O-3.2_Chkbx</name>
    <tag></tag>
-   <elementGuidId>9e3db27e-fcd4-48dd-898d-e84a22472ef6</elementGuidId>
+   <elementGuidId>e95c085b-0547-468a-9f67-628d8dc46936</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_PHS Accession_phs003111&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Diagnosis Classification System_ICD-O-3.2&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_PHS Accession_phs003111&quot;]</value>
-      <webElementGuid>4601838a-5321-46dc-a11f-739694b6c5ab</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Diagnosis Classification System_ICD-O-3.2&quot;]</value>
+      <webElementGuid>f6a40480-bace-474b-9fa8-ad908e9113b1</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

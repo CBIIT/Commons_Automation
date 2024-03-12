@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>phs003111_Chkbx</name>
+   <name>phs002371_image_Chkbx</name>
    <tag></tag>
-   <elementGuidId>9e3db27e-fcd4-48dd-898d-e84a22472ef6</elementGuidId>
+   <elementGuidId>30ce3740-c7b4-4a24-91ea-8173b8a1091c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_PHS Accession_phs003111&quot;]</value>
+         <value>//*[@id=&quot;checkbox_PHS Accession_phs002371_image&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_PHS Accession_phs003111&quot;]</value>
-      <webElementGuid>4601838a-5321-46dc-a11f-739694b6c5ab</webElementGuid>
+      <value>//*[@id=&quot;checkbox_PHS Accession_phs002371_image&quot;]</value>
+      <webElementGuid>0a56b4ab-501e-4ccb-b86f-5772d45a4149</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

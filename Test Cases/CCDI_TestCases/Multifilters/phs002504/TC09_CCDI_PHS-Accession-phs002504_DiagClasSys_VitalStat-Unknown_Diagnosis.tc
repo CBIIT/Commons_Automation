@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC09_CCDI_PHS-Accession-phs002504_DiagClasSys_VitalStat-Unknown_Diagnosis</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <testCaseGuid>d5433f86-f974-4311-810f-2ad8b0a604eb</testCaseGuid>
+</TestCaseEntity>

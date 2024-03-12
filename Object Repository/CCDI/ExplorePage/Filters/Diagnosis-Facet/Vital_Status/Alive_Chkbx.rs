@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>phs003111_Chkbx</name>
+   <name>Alive_Chkbx</name>
    <tag></tag>
-   <elementGuidId>9e3db27e-fcd4-48dd-898d-e84a22472ef6</elementGuidId>
+   <elementGuidId>4426af5a-bdcf-43c7-b037-25c0757ab32c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_PHS Accession_phs003111&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Vital Status_Alive&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_PHS Accession_phs003111&quot;]</value>
-      <webElementGuid>4601838a-5321-46dc-a11f-739694b6c5ab</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Vital Status_Alive&quot;]</value>
+      <webElementGuid>37393b9d-e40d-4995-84e0-0c1eff92c975</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
