@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_CCDI_PHS-Accession-phs002517_Ethinicity-HispanicorLatino_Diagnosis-Neoplasmmetastatic</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <testCaseGuid>2083661d-5ff0-4fa9-a977-316ce64be0a9</testCaseGuid>
+</TestCaseEntity>

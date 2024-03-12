@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>SampleTumorStatus_Ddn</name>
+   <name>NeoplasmMetastatic_Chkbx</name>
    <tag></tag>
-   <elementGuidId>15722094-2d6e-4c78-ae39-eae5760075ba</elementGuidId>
+   <elementGuidId>77e5e7e7-ad80-49b4-9eaf-1bec15491f14</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@id=&quot;Sample tumor status&quot;])[2]</value>
+         <value>//*[@id=&quot;checkbox_Diagnosis_8000/6 : Neoplasm, metastatic&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@id=&quot;Sample tumor status&quot;])[2]</value>
-      <webElementGuid>da3a5ad1-42ce-4528-b5c0-a539bd1ee5aa</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Diagnosis_8000/6 : Neoplasm, metastatic&quot;]</value>
    </webElementProperties>
 </WebElementEntity>
