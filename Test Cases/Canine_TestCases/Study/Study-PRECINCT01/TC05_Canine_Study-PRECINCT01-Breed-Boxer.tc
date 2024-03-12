@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_Canine_Study-PRECINCT01-Breed-Boxer</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <testCaseGuid>f28cfdef-cafe-4f77-af58-573f2892708f</testCaseGuid>
+</TestCaseEntity>
