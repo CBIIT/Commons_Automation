@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Studies-TblHdr</name>
+   <tag></tag>
+   <elementGuidId>6e42c1bf-cd1c-427b-9ec0-e73ba31b2e66</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;study_tab_table&quot;]/div[3]/table/thead</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;study_tab_table&quot;]/div[3]/table/thead</value>
+      <webElementGuid>ef21c1d9-1375-44eb-bf58-7b986a472a9a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

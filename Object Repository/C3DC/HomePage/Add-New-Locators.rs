@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Add-New-Locators</name>
+   <tag></tag>
+   <elementGuidId>cf8ec5ca-2444-4b01-9c02-50a8f5b22e2b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id='tile1_button']/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id='tile1_button']/a</value>
+      <webElementGuid>e67e73d4-5d04-4ed1-8bf6-e27457c79878</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
