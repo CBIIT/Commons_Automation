@@ -520,13 +520,6 @@ def static "ctdc.utilities.runtestcaseforKatalon.readSelectedCols"(
          , 	webSheetName)
 }
 
-
-def static "ctdc.utilities.runtestcaseforKatalon.verifyCDSFacetExpansion"(
-    	String CDSFacet	) {
-    (new ctdc.utilities.runtestcaseforKatalon()).verifyCDSFacetExpansion(
-        	CDSFacet)
-}
-
  /**
 	 * This function reads cases table
 	 * @param statVal1
@@ -1360,6 +1353,11 @@ def static "com.kms.katalon.keyword.applitools.BasicKeywords.checkTestObject"(
 }
 
 
+def static "com.kms.katalon.keyword.applitools.EyesKeywords.eyesInit"() {
+    (new com.kms.katalon.keyword.applitools.EyesKeywords()).eyesInit()
+}
+
+
 def static "com.kms.katalon.keyword.applitools.EyesKeywords.eyesOpen"(
     	String testName	
      , 	RectangleSize viewportSize	) {
@@ -1373,11 +1371,6 @@ def static "com.kms.katalon.keyword.applitools.EyesKeywords.eyesClose"(
     	Eyes eyes	) {
     (new com.kms.katalon.keyword.applitools.EyesKeywords()).eyesClose(
         	eyes)
-}
-
-
-def static "com.kms.katalon.keyword.applitools.EyesKeywords.eyesInit"() {
-    (new com.kms.katalon.keyword.applitools.EyesKeywords()).eyesInit()
 }
 
 
