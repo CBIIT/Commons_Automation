@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Studies-Tbl</name>
+   <tag></tag>
+   <elementGuidId>80a8adda-3525-49ef-889b-b47c507cc846</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;study_tab_table&quot;]/div[3]/table</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;study_tab_table&quot;]/div[3]/table</value>
+      <webElementGuid>ef564c61-902c-4ee3-95da-4b130484a0f4</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

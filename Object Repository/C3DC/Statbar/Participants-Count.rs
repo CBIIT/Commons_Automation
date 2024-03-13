@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Participants-Count</name>
+   <tag></tag>
+   <elementGuidId>fb5108fb-86c0-48f0-af73-464810846507</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;statsbar_count_2&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;statsbar_count_2&quot;]</value>
+      <webElementGuid>f37f25a7-09d9-41c3-854a-5a39a311bdd2</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

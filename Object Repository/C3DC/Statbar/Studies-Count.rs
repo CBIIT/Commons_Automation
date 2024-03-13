@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Studies-Count</name>
+   <tag></tag>
+   <elementGuidId>1aa13341-61f8-42b0-aeff-1ceb7a2a0b7c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;statsbar_count_3&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;statsbar_count_3&quot;]</value>
+      <webElementGuid>e8c3feeb-eb85-4a45-8701-2fd548903c11</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

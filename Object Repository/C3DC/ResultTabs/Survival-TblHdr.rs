@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Survival-TblHdr</name>
+   <tag></tag>
+   <elementGuidId>9f5fbd3a-206d-4c99-b85a-f5dc36ade741</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;survival_tab_table&quot;]/div[3]/table/thead</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;survival_tab_table&quot;]/div[3]/table/thead</value>
+      <webElementGuid>7905dc78-86c2-4017-895d-e86c8ebc846c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
