@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CCDI_USC_phs002518_Chkbx</name>
+   <tag></tag>
+   <elementGuidId>79bcfe60-5a54-4fe9-84c3-b1b4fa18f4e2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;checkbox_Acronym_CCDI_USC_phs002518&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;checkbox_Acronym_CCDI_USC_phs002518&quot;]</value>
+      <webElementGuid>d0f51280-75da-4b7a-94a1-2597faf6b6e9</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
