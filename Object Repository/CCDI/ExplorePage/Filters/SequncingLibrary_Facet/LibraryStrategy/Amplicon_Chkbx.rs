@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>CCDI_MSK_phs003111</name>
+   <name>Amplicon_Chkbx</name>
    <tag></tag>
-   <elementGuidId>7b8ec21f-35e8-41fd-917e-6505cc02c40a</elementGuidId>
+   <elementGuidId>c3a67c00-5f65-4810-8fb1-68a6a8dedf20</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Acronym_CCDI_MSK_phs003111&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Library strategy_AMPLICON&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Acronym_CCDI_MSK_phs003111&quot;]</value>
-      <webElementGuid>647ddce5-391d-424f-905b-d071d848ae6c</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Library strategy_AMPLICON&quot;]</value>
+      <webElementGuid>a3087886-2c61-47f6-bba6-c0c04609e3da</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
