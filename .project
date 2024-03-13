@@ -9107,7 +9107,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1710266066383</id>
+			<id>1707852840036</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -9116,7 +9116,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1710266066720</id>
+			<id>1707852840098</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -9125,7 +9125,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1710266699718</id>
+			<id>1707853026418</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -9134,7 +9134,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1710266699801</id>
+			<id>1707853026456</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -9143,7 +9143,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1710268228253</id>
+			<id>1707922249498</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -9152,7 +9152,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1710268228346</id>
+			<id>1707922249540</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -9161,7 +9161,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1710280395178</id>
+			<id>1708007543545</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -9170,7 +9170,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1710280395250</id>
+			<id>1708007543595</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -9179,7 +9179,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1710333915869</id>
+			<id>1708012661708</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -9188,7 +9188,25 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1710333915918</id>
+			<id>1708012661741</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1708091559779</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1708091559831</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
