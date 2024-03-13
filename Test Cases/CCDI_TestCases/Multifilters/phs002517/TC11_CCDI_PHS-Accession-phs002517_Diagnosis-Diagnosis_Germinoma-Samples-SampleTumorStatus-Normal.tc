@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC11_CCDI_PHS-Accession-phs002517_Diagnosis-Diagnosis_Germinoma-Samples-SampleTumorStatus-Normal</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <testCaseGuid>847e007b-b07e-463a-9ab6-2a3892b70d27</testCaseGuid>
+</TestCaseEntity>
