@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>phs003111_Chkbx</name>
+   <name>Studies_ResultsTab</name>
    <tag></tag>
-   <elementGuidId>d91008e3-6166-4ddc-8c87-1330f89d3c21</elementGuidId>
+   <elementGuidId>10d769fe-7dbb-489f-bc79-1255908ab6e6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id='checkbox_dbGaP phs accession_phs002430']</value>
+         <value>//*[@id=&quot;root&quot;]/div[3]/div[2]/div/div[2]/div/div[6]/div/div/button[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id='checkbox_dbGaP phs accession_phs002430']</value>
-      <webElementGuid>44f7dc96-79e0-41a3-9013-b7e286b1c2cf</webElementGuid>
+      <value>//*[@id=&quot;root&quot;]/div[3]/div[2]/div/div[2]/div/div[6]/div/div/button[3]</value>
+      <webElementGuid>78438225-cc00-451b-89f4-479cf6d71db1</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
