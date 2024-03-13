@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Diagnosis-Count</name>
+   <tag></tag>
+   <elementGuidId>600f0c5d-f4fc-4a58-933f-394401dbe911</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;statsbar_count_1&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;statsbar_count_1&quot;]</value>
+      <webElementGuid>af804c0a-c4a9-4367-8949-ae75d1c766f3</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
