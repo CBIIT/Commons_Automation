@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CCDI_MSK_phs003111</name>
+   <tag></tag>
+   <elementGuidId>7b8ec21f-35e8-41fd-917e-6505cc02c40a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;checkbox_Acronym_CCDI_MSK_phs003111&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;checkbox_Acronym_CCDI_MSK_phs003111&quot;]</value>
+      <webElementGuid>647ddce5-391d-424f-905b-d071d848ae6c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
