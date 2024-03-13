@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>AgeAtDiagnosis-Ddn</name>
+   <tag></tag>
+   <elementGuidId>c5e51d88-e93d-4431-a17d-787d8aeb253d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//*[@id=&quot;Race&quot;])[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//*[@id=&quot;Race&quot;])[1]</value>
+      <webElementGuid>4fb1ef4c-b30a-40d2-b2cf-a957c9644301</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
