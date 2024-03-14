@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>CCDI_MSK_phs003111</name>
+   <name>9064_3Germinoma_Chkbx</name>
    <tag></tag>
-   <elementGuidId>7b8ec21f-35e8-41fd-917e-6505cc02c40a</elementGuidId>
+   <elementGuidId>cd58a2c0-9261-4911-9ce4-1edb58901fd9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Acronym_CCDI_MSK_phs003111&quot;]</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Acronym_CCDI_MSK_phs003111&quot;]</value>
-      <webElementGuid>647ddce5-391d-424f-905b-d071d848ae6c</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Diagnosis_9064/3 : Germinoma&quot;]</value>
    </webElementProperties>
 </WebElementEntity>
