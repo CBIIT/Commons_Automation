@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>phs003111_Chkbx</name>
+   <name>dicom_Chkbx</name>
    <tag></tag>
-   <elementGuidId>d91008e3-6166-4ddc-8c87-1330f89d3c21</elementGuidId>
+   <elementGuidId>eb749eef-2c5b-4127-8e76-03a7a099f4a8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id='checkbox_dbGaP phs accession_phs002430']</value>
+         <value>//*[@id=&quot;checkbox_File Type_dicom&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id='checkbox_dbGaP phs accession_phs002430']</value>
-      <webElementGuid>44f7dc96-79e0-41a3-9013-b7e286b1c2cf</webElementGuid>
+      <value>//*[@id=&quot;checkbox_File Type_dicom&quot;]</value>
+      <webElementGuid>fa44e66d-0101-45f9-b85e-e30063dfcdaa</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
