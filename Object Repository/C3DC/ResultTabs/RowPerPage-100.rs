@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>RowPerPage-100</name>
+   <tag></tag>
+   <elementGuidId>44db3c4a-5754-4912-99d2-780f127743f0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//li[@data-value='100']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//li[@data-value='100']</value>
+      <webElementGuid>936a3913-697e-43b7-aea5-896c13696dae</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

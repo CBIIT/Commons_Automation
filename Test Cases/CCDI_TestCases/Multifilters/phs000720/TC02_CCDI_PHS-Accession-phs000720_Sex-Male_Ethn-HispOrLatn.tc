@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_CCDI_PHS-Accession-phs000720_Sex-Male_Ethn-HispOrLatn</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <testCaseGuid>ae1cbd1e-3e52-49f1-b2b0-d1cb80f2ebf7</testCaseGuid>
+</TestCaseEntity>

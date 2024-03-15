@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>White_Chkbx</name>
+   <tag></tag>
+   <elementGuidId>15a2054e-ce15-452b-873d-7d70c34746d1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;checkbox_Race_White&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;checkbox_Race_White&quot;]</value>
+      <webElementGuid>e2ea840d-183e-4f66-ad9d-a554916f1ab2</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
