@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC13_CCDI_PHS-Accession-phs002517_Race-NativeHai_Assaytype-sequen_FileType-pdf</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <testCaseGuid>8fd6ba3c-6b32-437c-a5f1-c14421f0791f</testCaseGuid>
+</TestCaseEntity>

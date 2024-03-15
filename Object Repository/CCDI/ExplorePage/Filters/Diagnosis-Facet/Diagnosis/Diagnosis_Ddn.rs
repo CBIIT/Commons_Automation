@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Diagnosis Classification System_Indication for Study&quot;]</value>
+         <value>(//*[@id=&quot;Diagnosis&quot;])[4]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Diagnosis Classification System_Indication for Study&quot;]</value>
-      <webElementGuid>ab8d77aa-aad6-4405-83e6-a9ffbd6e6fca</webElementGuid>
+      <value>(//*[@id=&quot;Diagnosis&quot;])[4]</value>
+      <webElementGuid>9ffef232-9781-4fb9-ba3e-6f86f54a9807</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Diagnosis-TblHdr</name>
+   <tag></tag>
+   <elementGuidId>d53380d9-68fa-40e6-87ca-f9aa77d432eb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;diagnosis_tab_table&quot;]/div[3]/table/thead</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;diagnosis_tab_table&quot;]/div[3]/table/thead</value>
+      <webElementGuid>23154d45-a93a-4f16-8edf-8e6a37474d30</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC09_CCDI_PHS-Accession-phs002518_Acro-CCDI_USC_phs002518_LibSrc-BulkCells</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <testCaseGuid>802b5f0b-035d-42f7-a624-aea66984e930</testCaseGuid>
+</TestCaseEntity>
