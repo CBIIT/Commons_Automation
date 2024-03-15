@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC09_CCDI_PHS-Accession-phs000720_Diag-Rhabdo_TumorClass-Primary_FileType-dicom</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <testCaseGuid>250d2bd6-0def-4778-9a86-8851e70a583e</testCaseGuid>
+</TestCaseEntity>
