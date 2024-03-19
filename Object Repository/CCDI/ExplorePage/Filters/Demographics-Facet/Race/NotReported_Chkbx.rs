@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Race_Unknown&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Race_Not Reported&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Race_Unknown&quot;]</value>
-      <webElementGuid>5771b90d-6522-4d44-b133-ba6f2a997d97</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Race_Not Reported&quot;]</value>
+      <webElementGuid>f1e302fd-a373-4966-807e-2bac2c40d015</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
