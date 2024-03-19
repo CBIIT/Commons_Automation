@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC01_CCDI_PHS-Accession-phs003111_Gender-Female_Race-Asian</name>
+   <name>TC01_CCDI_PHS-Accession-phs002620_Gender-Male_Race-Unkn</name>
    <tag>Filter</tag>
    <comment></comment>
-   <testCaseGuid>60ba2e1c-7590-4b8f-8795-02ce200bf395</testCaseGuid>
+   <testCaseGuid>bec43780-3dc8-49bd-a03b-64abb0e15f8d</testCaseGuid>
 </TestCaseEntity>

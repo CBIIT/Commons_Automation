@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC02_CCDI_PHS-Accession-phs002518_Ethn-Hisp_DiagAnatSite-AdrenalGland_Diag-Neuroblast</name>
+   <name>TC02_CCDI_PHS-Accession-phs002620_Ethn-Unkn_DiagAnatSite-NotRep_Diag-BasalCellAdeno</name>
    <tag>Filter</tag>
    <comment></comment>
    <testCaseGuid>216e9c5a-05ab-4c1a-9346-a53fffa67415</testCaseGuid>

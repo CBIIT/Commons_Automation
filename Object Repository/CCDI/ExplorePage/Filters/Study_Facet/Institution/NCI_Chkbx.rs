@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>phs003111_Chkbx</name>
+   <name>NCI_Chkbx</name>
    <tag></tag>
-   <elementGuidId>d91008e3-6166-4ddc-8c87-1330f89d3c21</elementGuidId>
+   <elementGuidId>66616fb0-5a3f-4573-b90e-68d5f29979d3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id='checkbox_dbGaP phs accession_phs003111']</value>
+         <value>//*[@id=&quot;checkbox_Institution_National Cancer Institute&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id='checkbox_dbGaP phs accession_phs003111']</value>
-      <webElementGuid>8d36c70c-958f-4dd8-9618-aec2ee2cf306</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Institution_National Cancer Institute&quot;]</value>
+      <webElementGuid>0d01b3fd-bc90-44ed-a6ff-3a2580cfa261</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
