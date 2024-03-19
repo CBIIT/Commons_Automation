@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>phs003111_Chkbx</name>
+   <name>CA008748-54S3_Chkbx</name>
    <tag></tag>
-   <elementGuidId>d91008e3-6166-4ddc-8c87-1330f89d3c21</elementGuidId>
+   <elementGuidId>e8007b4d-836c-497d-b41c-5c4d4fbcff44</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id='checkbox_dbGaP phs accession_phs003111']</value>
+         <value>//*[@id=&quot;checkbox_Funding Grant ID_CA008748-54S3&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id='checkbox_dbGaP phs accession_phs003111']</value>
-      <webElementGuid>8d36c70c-958f-4dd8-9618-aec2ee2cf306</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Funding Grant ID_CA008748-54S3&quot;]</value>
+      <webElementGuid>bb25c295-4fe2-4b5e-a6d2-e2bebd303c86</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

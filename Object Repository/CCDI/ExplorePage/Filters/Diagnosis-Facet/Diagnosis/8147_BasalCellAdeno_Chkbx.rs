@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>phs003111_Chkbx</name>
+   <name>8147_BasalCellAdeno_Chkbx</name>
    <tag></tag>
-   <elementGuidId>d91008e3-6166-4ddc-8c87-1330f89d3c21</elementGuidId>
+   <elementGuidId>0fbff7b1-900f-4802-b5b9-5982468ad883</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id='checkbox_dbGaP phs accession_phs003111']</value>
+         <value>//*[@id=&quot;checkbox_Diagnosis_8147/3 : Basal cell adenocarcinoma&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id='checkbox_dbGaP phs accession_phs003111']</value>
-      <webElementGuid>8d36c70c-958f-4dd8-9618-aec2ee2cf306</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Diagnosis_8147/3 : Basal cell adenocarcinoma&quot;]</value>
+      <webElementGuid>ca1d4c91-b010-4338-b988-c824cbe2fe32</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

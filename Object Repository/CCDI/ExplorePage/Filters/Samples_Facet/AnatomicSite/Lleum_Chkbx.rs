@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>phs003111_Chkbx</name>
+   <name>Lleum_Chkbx</name>
    <tag></tag>
-   <elementGuidId>d91008e3-6166-4ddc-8c87-1330f89d3c21</elementGuidId>
+   <elementGuidId>a6d03c5c-e0c8-4814-9e6e-5a038ff7ec8c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id='checkbox_dbGaP phs accession_phs003111']</value>
+         <value>//*[@id=&quot;checkbox_Anatomic site_C17.2 : Ileum&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id='checkbox_dbGaP phs accession_phs003111']</value>
-      <webElementGuid>8d36c70c-958f-4dd8-9618-aec2ee2cf306</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Anatomic site_C17.2 : Ileum&quot;]</value>
+      <webElementGuid>a45ea1c5-f7c6-4925-9a58-359f7d9b6c0c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

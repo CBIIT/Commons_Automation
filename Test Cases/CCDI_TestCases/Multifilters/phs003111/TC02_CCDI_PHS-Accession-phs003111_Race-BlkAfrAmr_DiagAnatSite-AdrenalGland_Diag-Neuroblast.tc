@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC02_CCDI_PHS-Accession-phs003111_Ethn-BlkAfrAmr_DiagAnatSite-AdrenalGland_Diag-Neuroblast</name>
+   <name>TC02_CCDI_PHS-Accession-phs003111_Race-BlkAfrAmr_DiagAnatSite-AdrenalGland_Diag-Neuroblast</name>
    <tag>Filter</tag>
    <comment></comment>
    <testCaseGuid>1d473eb1-e339-4468-b127-2864083813d3</testCaseGuid>
