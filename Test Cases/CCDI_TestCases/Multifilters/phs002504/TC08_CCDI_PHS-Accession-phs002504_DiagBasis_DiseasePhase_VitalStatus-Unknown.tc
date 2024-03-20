@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC08_CCDI_PHS-Accession-phs002504_DiagBasis_DiseasePhase_VitalStatus-Unknown</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <testCaseGuid>47d4d1a6-b533-4588-ad72-100d164bdac8</testCaseGuid>
+</TestCaseEntity>

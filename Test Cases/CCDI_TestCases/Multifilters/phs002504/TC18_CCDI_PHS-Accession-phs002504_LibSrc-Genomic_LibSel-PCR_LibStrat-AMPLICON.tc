@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC18_CCDI_PHS-Accession-phs002504_LibSrc-Genomic_LibSel-PCR_LibStrat-AMPLICON</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <testCaseGuid>4c0cca88-de95-4082-8e4e-106716c69b30</testCaseGuid>
+</TestCaseEntity>
