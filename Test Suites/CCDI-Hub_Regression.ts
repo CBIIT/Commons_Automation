@@ -81,4 +81,74 @@
       <testCaseId>Test Cases/CCDI_TestCases/Multifilters/phs003111/TC10_CCDI_PHS-Accession-phs003111_StudyShrTitle-MolecCharClonal_LibStrat-WGS</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>7e1fb8b3-7c8b-4f26-bbef-afc23c848a2f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CCDI_TestCases/Multifilters/phs002518/TC01_CCDI_PHS-Accession-phs002518_Gender-Male_Race-Asian_Ethn-Unkn</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>11cfe130-ffd6-42fe-b24c-c2315b1570e8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CCDI_TestCases/Multifilters/phs002518/TC02_CCDI_PHS-Accession-phs002518_Ethn-HispLat_DiagAnatSite-OverlpLung_Diag-Neoplasm</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3d1e378e-de55-4d3d-9a43-275b6cf58294</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CCDI_TestCases/Multifilters/phs002518/TC03_CCDI_PHS-Accession-phs002518_Race-Wht_DiagClassSys-ICD_SampAnatSite-UnkPrimSite</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>98edaeae-d503-4f54-b185-921aa4f92f36</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CCDI_TestCases/Multifilters/phs002518/TC04_CCDI_PHS-Accession-phs002518_DiagVerifStat-Final_DisPhase-Unkn</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>81127219-ea0b-4c12-9ce2-e1a222ac23e1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CCDI_TestCases/Multifilters/phs002518/TC05_CCDI_PHS-Accession-phs002518_DiagBasis-Unkn_SampTumStat-Tumor</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6ebae5eb-3909-4323-bf22-8160f8692bc2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CCDI_TestCases/Multifilters/phs002518/TC06_CCDI_PHS-Accession-phs002518_TumClassif-Unkn_AssayTyp-Sequencing</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e3715f14-9491-4ec9-b8df-2f3fc0d23b3b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CCDI_TestCases/Multifilters/phs002518/TC07_CCDI_PHS-Accession-phs002518_AssayTyp-Sequencing_FundGrant-CA014089-45S6</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b0902edd-b8a2-4381-9239-f288741ee0c4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CCDI_TestCases/Multifilters/phs002518/TC08_CCDI_PHS-Accession-phs002518_Institution-UniSoCal_LibSelec-Unspecified</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ca59f56e-020e-4f47-93dd-963bae0656c8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CCDI_TestCases/Multifilters/phs002518/TC09_CCDI_PHS-Accession-phs002518_Acro-CCDI_USC_phs002518_LibSrc-BulkCells</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c06eeeef-2870-42b1-8cdb-52c6a2a21120</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CCDI_TestCases/Multifilters/phs002518/TC10_CCDI_PHS-Accession-phs002518_StudyShrTitle-CCDIPedCanc_LibStrat-Amplicon</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
