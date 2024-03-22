@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_CCDI_PHS-Accession-phs001437_Ethn-Hisp_Diag-9473CNS_Diagclass-ICD-03.2</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <testCaseGuid>5cca0fff-3a25-48d8-b7aa-8eb02d52caa6</testCaseGuid>
+</TestCaseEntity>
