@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC06_CCDI_PHS-Accession-phs000720_Race-BlckAfricAmer_AntmcSte-Testis_DiagClSys-ICD-O</name>
+   <name>TC06_CCDI_PHS-Accession-phs000720_Race-BlckAfricAmer_DiagClsSys_AntmcSte</name>
    <tag>Filter</tag>
    <comment></comment>
    <testCaseGuid>f19a01a3-5ab7-46fc-9132-55dc1dd5d4d2</testCaseGuid>
