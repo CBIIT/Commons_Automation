@@ -658,76 +658,6 @@ Profile CCDI_QA : dummy variable added due toINS profile</p>
      */
     public static Object G_QueryStudiesTab
      
-    /**
-     * <p></p>
-     */
-    public static Object G_ExDataExcel
-     
-    /**
-     * <p></p>
-     */
-    public static Object G_Value
-     
-    /**
-     * <p></p>
-     */
-    public static Object G_DiagnosisTabHdr
-     
-    /**
-     * <p></p>
-     */
-    public static Object G_ColumNamesDiagnosisTab
-     
-    /**
-     * <p></p>
-     */
-    public static Object G_ParticipTabHdr
-     
-    /**
-     * <p></p>
-     */
-    public static Object G_ColumNamesParticipTab
-     
-    /**
-     * <p></p>
-     */
-    public static Object G_SamplesTabHdr
-     
-    /**
-     * <p></p>
-     */
-    public static Object G_ColumNamesSamplesTab
-     
-    /**
-     * <p></p>
-     */
-    public static Object G_FilesTabHdr
-     
-    /**
-     * <p></p>
-     */
-    public static Object G_ColumNamesFilesTab
-     
-    /**
-     * <p></p>
-     */
-    public static Object G_ExTabnameParticipants
-     
-    /**
-     * <p></p>
-     */
-    public static Object G_ExTabnameDiagnosis
-     
-    /**
-     * <p></p>
-     */
-    public static Object G_ExTabnameSamples
-     
-    /**
-     * <p></p>
-     */
-    public static Object G_ExTabnameFiles
-     
 
     static {
         try {
@@ -859,20 +789,6 @@ Profile CCDI_QA : dummy variable added due toINS profile</p>
             G_QueryParticipantsTab = selectedVariables['G_QueryParticipantsTab']
             G_QueryDiagnosisTab = selectedVariables['G_QueryDiagnosisTab']
             G_QueryStudiesTab = selectedVariables['G_QueryStudiesTab']
-            G_ExDataExcel = selectedVariables['G_ExDataExcel']
-            G_Value = selectedVariables['G_Value']
-            G_DiagnosisTabHdr = selectedVariables['G_DiagnosisTabHdr']
-            G_ColumNamesDiagnosisTab = selectedVariables['G_ColumNamesDiagnosisTab']
-            G_ParticipTabHdr = selectedVariables['G_ParticipTabHdr']
-            G_ColumNamesParticipTab = selectedVariables['G_ColumNamesParticipTab']
-            G_SamplesTabHdr = selectedVariables['G_SamplesTabHdr']
-            G_ColumNamesSamplesTab = selectedVariables['G_ColumNamesSamplesTab']
-            G_FilesTabHdr = selectedVariables['G_FilesTabHdr']
-            G_ColumNamesFilesTab = selectedVariables['G_ColumNamesFilesTab']
-            G_ExTabnameParticipants = selectedVariables['G_ExTabnameParticipants']
-            G_ExTabnameDiagnosis = selectedVariables['G_ExTabnameDiagnosis']
-            G_ExTabnameSamples = selectedVariables['G_ExTabnameSamples']
-            G_ExTabnameFiles = selectedVariables['G_ExTabnameFiles']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)
