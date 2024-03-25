@@ -1,27 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>LibSelection_Ddn</name>
+   <name>PathologyImging_Chkbx</name>
    <tag></tag>
-   <elementGuidId>ba4ef061-7ff4-4cf5-ac73-bb3a2521d322</elementGuidId>
+   <elementGuidId>690d2f61-88da-434c-9df8-fb5ce2180fb9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;Library selection&quot;]</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;Library selection&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Assay Type_Pathology imaging&quot;]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;Library selection&quot;]</value>
-      <webElementGuid>9b0bdced-23ae-4f92-a205-9c57ca4bb623</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Assay Type_Pathology imaging&quot;]</value>
+      <webElementGuid>bf245bef-a87a-44cc-a948-0633b35fe446</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
