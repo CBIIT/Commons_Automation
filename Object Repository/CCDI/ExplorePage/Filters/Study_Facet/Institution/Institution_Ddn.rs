@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Institution_Ddn</name>
+   <tag></tag>
+   <elementGuidId>f20fcb08-c5e0-4724-8b25-1c6875fb5c60</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//*[@id=&quot;Institution&quot;])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//*[@id=&quot;Institution&quot;])[2]</value>
+      <webElementGuid>58b8e298-0846-441d-93fb-be91ba80d71c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

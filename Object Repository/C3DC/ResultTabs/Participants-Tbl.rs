@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Participants-Tbl</name>
+   <tag></tag>
+   <elementGuidId>91b95808-b992-451b-a134-c23a460ece02</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;participant_tab_table&quot;]/div[3]/table</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;participant_tab_table&quot;]/div[3]/table</value>
+      <webElementGuid>63fd0f35-cc6f-4bb1-9a0f-9507ad944b43</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

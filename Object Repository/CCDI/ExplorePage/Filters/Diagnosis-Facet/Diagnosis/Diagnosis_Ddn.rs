@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Diagnosis_Ddn</name>
+   <tag></tag>
+   <elementGuidId>e71f9dde-55fa-4a3f-a228-b4938dd66ba9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//*[@id=&quot;Diagnosis&quot;])[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//*[@id=&quot;Diagnosis&quot;])[4]</value>
+      <webElementGuid>9ffef232-9781-4fb9-ba3e-6f86f54a9807</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

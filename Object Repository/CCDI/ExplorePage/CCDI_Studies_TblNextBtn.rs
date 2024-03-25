@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CCDI_Studies_TblNextBtn</name>
+   <tag></tag>
+   <elementGuidId>88395160-e6fe-43d1-b603-1b9a8c7c4ef0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;study_tab_table&quot;]/div[3]/div/div/div[3]/button[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;study_tab_table&quot;]/div[3]/div/div/div[3]/button[2]</value>
+      <webElementGuid>2839e484-2d00-437b-b472-c775bc9bfb63</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

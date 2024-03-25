@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CCDI_MSK_phs001437_Chkbx</name>
+   <tag></tag>
+   <elementGuidId>6463d404-172c-46bf-b367-b42cc0b537f2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;checkbox_Acronym_CCDI_MSK_phs001437&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;checkbox_Acronym_CCDI_MSK_phs001437&quot;]</value>
+      <webElementGuid>689baf2a-c2b3-4d16-9bbb-f59dfab56526</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

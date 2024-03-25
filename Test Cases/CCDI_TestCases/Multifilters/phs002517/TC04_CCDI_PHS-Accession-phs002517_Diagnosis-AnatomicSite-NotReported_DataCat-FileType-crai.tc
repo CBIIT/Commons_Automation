@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_CCDI_PHS-Accession-phs002517_Diagnosis-AnatomicSite-NotReported_DataCat-FileType-crai</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <testCaseGuid>b800e0a1-2e6c-4c25-a3da-527be25d5b17</testCaseGuid>
+</TestCaseEntity>

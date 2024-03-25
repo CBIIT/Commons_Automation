@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CCDI_PHS-Accession-phs001437_Sex-Male_Race-Unknown</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <testCaseGuid>b4c261bd-5672-41c8-82c8-117f2a8af5a3</testCaseGuid>
+</TestCaseEntity>

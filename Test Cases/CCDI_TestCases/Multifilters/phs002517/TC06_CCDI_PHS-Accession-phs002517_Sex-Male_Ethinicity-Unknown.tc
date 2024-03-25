@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC06_CCDI_PHS-Accession-phs002517_Sex-Male_Ethinicity-Unknown</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <testCaseGuid>9728c777-63ca-42d3-82dc-20d2a0003feb</testCaseGuid>
+</TestCaseEntity>

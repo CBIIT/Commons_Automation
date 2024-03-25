@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CCDI_Diagnosis_TblNextBtn</name>
+   <tag></tag>
+   <elementGuidId>f7880d3a-4af6-43a7-888a-2d98a9b1f715</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;diagnosis_tab_table&quot;]/div[3]/div/div/div[3]/button[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;diagnosis_tab_table&quot;]/div[3]/div/div/div[3]/button[2]</value>
+      <webElementGuid>fdc60afb-9be1-4dd4-9503-f968d1f3e466</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

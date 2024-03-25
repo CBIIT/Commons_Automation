@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CCDI_Files_TblNextBtn</name>
+   <tag></tag>
+   <elementGuidId>d9d1ebd2-f829-41c8-84b8-b0d7bf6f1a82</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;file_tab_table&quot;]/div[3]/div/div/div[3]/button[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;file_tab_table&quot;]/div[3]/div/div/div[3]/button[2]</value>
+      <webElementGuid>6b621c10-a231-4e46-9934-b18d6951099e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

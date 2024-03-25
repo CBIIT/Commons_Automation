@@ -51,11 +51,11 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/NavBar/CDS_Dat
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/NavBar/CDS_Data-Btn')
 
 //Clicking Study dropdown
-WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/Study/Study_Ddn'),5)
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/StudyFacet/StudyName/StudyName_Ddn'),5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/Study/Study_Ddn')
 
 //Clicking Study-A checkbox
-WebUI.waitForElementPresent(findTestObject('CDS/Data_page/Filter/Study/CDS-Study-NCI-CCSG_CCDI-Chkbx'),5)
+WebUI.waitForElementPresent(findTestObject('CDS/Data_page/Filter/StudyFacet/StudyName/CDS-Study-NCI-CCSG_CCDI-Chkbx'),5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('CDS/Data_page/Filter/Study/CDS-Study-GECCO-OICR-Chkbx')
 
 //Read statbar

@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>f5143f42-9782-4dd8-a9c7-f73bebd40be7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/CCDI_TestCases/dBGap_PHS_Accession/TC01_CCDI_Filter_PHS-Accession-phs003111</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

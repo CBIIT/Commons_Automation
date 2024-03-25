@@ -22,7 +22,7 @@
       <guid>e9be0e12-f2e7-412a-bfe8-b0626aec7ae6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/Study/TC02_CDS_Filter_Study-HTAN</testCaseId>
+      <testCaseId>Test Cases/CDS_TestCases/Study/TC02_CDS_Filter_Study-HTAN-imaging</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

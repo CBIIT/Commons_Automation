@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC19_CCDI_PHS-Accession-phs002504_LibSrc-Transcriptomic_LibSel-PolyA_LibStrat-RNA-Seq</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <testCaseGuid>1faa832e-5b83-4d19-88f2-c2227c8e533a</testCaseGuid>
+</TestCaseEntity>

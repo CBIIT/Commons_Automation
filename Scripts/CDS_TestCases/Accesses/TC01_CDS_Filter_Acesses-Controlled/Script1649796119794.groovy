@@ -51,11 +51,11 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/NavBar/CDS_Dat
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/NavBar/CDS_Data-Btn')
 
 //Clicking Accesses dropdown
-WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/Accesses/Accesses_Ddn'),5)
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Z-ObsoleteObjects/Accesses/Accesses_Ddn'),5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Filter/Accesses/Accesses_Ddn')
 
 //Clicking controlled checkbox
-WebUI.waitForElementPresent(findTestObject('CDS/Data_page/Filter/Accesses/Controlled-Chkbx'),5)
+WebUI.waitForElementPresent(findTestObject('CDS/Z-ObsoleteObjects/Accesses/Controlled-Chkbx'),5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Filter/Accesses/Controlled-Chkbx')
 
 //Read statbar 
