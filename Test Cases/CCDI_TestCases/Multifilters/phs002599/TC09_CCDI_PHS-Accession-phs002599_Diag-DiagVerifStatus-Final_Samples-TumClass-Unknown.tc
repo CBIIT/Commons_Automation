@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC09_CCDI_PHS-Accession-phs002599_Diag-DiagVerifStatus-Final_Samples-TumClass-Unknown</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <testCaseGuid>cbe241f6-0a11-43ee-9b8a-fe39fe5b358c</testCaseGuid>
+</TestCaseEntity>

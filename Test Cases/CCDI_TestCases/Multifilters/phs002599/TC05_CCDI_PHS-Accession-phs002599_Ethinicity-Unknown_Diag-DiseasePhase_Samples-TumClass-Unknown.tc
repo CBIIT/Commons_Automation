@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_CCDI_PHS-Accession-phs002599_Ethinicity-Unknown_Diag-DiseasePhase_Samples-TumClass-Unknown</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <testCaseGuid>e8d558c2-297a-459e-adaa-403908e83dd8</testCaseGuid>
+</TestCaseEntity>
