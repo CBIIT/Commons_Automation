@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>LibSelection_Ddn</name>
+   <name>NotAplicable_Chkbx</name>
    <tag></tag>
-   <elementGuidId>ba4ef061-7ff4-4cf5-ac73-bb3a2521d322</elementGuidId>
+   <elementGuidId>3076b0fd-b008-49c2-b25f-67919ed72da5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;Library selection&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Library selection_Not Applicable&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;Library selection&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Library selection_Not Applicable&quot;]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;Library selection&quot;]</value>
-      <webElementGuid>9b0bdced-23ae-4f92-a205-9c57ca4bb623</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Library selection_Not Applicable&quot;]</value>
+      <webElementGuid>449327fd-f07c-4338-8e31-bf7842a08412</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
