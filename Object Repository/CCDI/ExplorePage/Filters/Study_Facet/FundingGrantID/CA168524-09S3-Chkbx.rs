@@ -1,27 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>LibSelection_Ddn</name>
+   <name>CA168524-09S3-Chkbx</name>
    <tag></tag>
-   <elementGuidId>ba4ef061-7ff4-4cf5-ac73-bb3a2521d322</elementGuidId>
+   <elementGuidId>c18e8c6c-26e0-4bdf-b16c-15346db33437</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;Library selection&quot;]</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;Library selection&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Funding Grant ID_CA168524-09S3&quot;]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;Library selection&quot;]</value>
-      <webElementGuid>9b0bdced-23ae-4f92-a205-9c57ca4bb623</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Funding Grant ID_CA168524-09S3&quot;]</value>
+      <webElementGuid>a40ae128-49bd-4172-b5d2-b79e08f878ee</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

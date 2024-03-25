@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>LibSelection_Ddn</name>
+   <name>Stanford-Chkbx</name>
    <tag></tag>
-   <elementGuidId>ba4ef061-7ff4-4cf5-ac73-bb3a2521d322</elementGuidId>
+   <elementGuidId>d9428357-aa7a-4578-b663-27ae00a765db</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;Library selection&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Institution_Stanford&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;Library selection&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Institution_Stanford&quot;]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;Library selection&quot;]</value>
-      <webElementGuid>9b0bdced-23ae-4f92-a205-9c57ca4bb623</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Institution_Stanford&quot;]</value>
+      <webElementGuid>afff34ef-9178-43ed-ae58-a56cddf69b25</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

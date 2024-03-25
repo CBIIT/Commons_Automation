@@ -1,27 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>LibSelection_Ddn</name>
+   <name>ChidMercyHosKansas_Chkbx</name>
    <tag></tag>
-   <elementGuidId>ba4ef061-7ff4-4cf5-ac73-bb3a2521d322</elementGuidId>
+   <elementGuidId>a2930725-955e-4ab3-93f2-89aeeda5bee7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;Library selection&quot;]</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;Library selection&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Institution_Children's Mercy Hospital Kansas&quot;]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;Library selection&quot;]</value>
-      <webElementGuid>9b0bdced-23ae-4f92-a205-9c57ca4bb623</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Institution_Children's Mercy Hospital Kansas&quot;]</value>
+      <webElementGuid>288caca4-3363-4f3e-a723-478f27cc3a66</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
