@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>fastq_Chkbx</name>
+   <name>GenomicChar-Juvenile_Chkbx</name>
    <tag></tag>
-   <elementGuidId>4d2ea143-b37b-4415-bf67-3aba98206455</elementGuidId>
+   <elementGuidId>e2dc3f5a-8178-4024-a82d-d247bb188bb6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_File Type_fastq&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Study short title_Genomic Characterization: Juvenile Myelo Monocytic Leukemia&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_File Type_fastq&quot;]</value>
-      <webElementGuid>254b5738-0069-4fd2-85b2-8ca826a1994b</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Study short title_Genomic Characterization: Juvenile Myelo Monocytic Leukemia&quot;]</value>
+      <webElementGuid>2f7149ee-12ae-4783-92b0-2b75d38210d4</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>fastq_Chkbx</name>
+   <name>999_Unknown_Chkbx</name>
    <tag></tag>
-   <elementGuidId>4d2ea143-b37b-4415-bf67-3aba98206455</elementGuidId>
+   <elementGuidId>daceb72b-130f-460b-9ef4-39ee7c4b70f4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_File Type_fastq&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Diagnosis_999 : Unknown, to be completed later&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_File Type_fastq&quot;]</value>
-      <webElementGuid>254b5738-0069-4fd2-85b2-8ca826a1994b</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Diagnosis_999 : Unknown, to be completed later&quot;]</value>
+      <webElementGuid>e082ca87-1d3c-44f4-b663-45eee633dd5c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

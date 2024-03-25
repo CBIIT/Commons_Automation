@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>fastq_Chkbx</name>
+   <name>phs002790_Chkbx</name>
    <tag></tag>
-   <elementGuidId>4d2ea143-b37b-4415-bf67-3aba98206455</elementGuidId>
+   <elementGuidId>fa6b0302-8993-4275-acd9-22133c5b2dac</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_File Type_fastq&quot;]</value>
+         <value>//*[@id='checkbox_dbGaP phs accession_phs002790']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_File Type_fastq&quot;]</value>
-      <webElementGuid>254b5738-0069-4fd2-85b2-8ca826a1994b</webElementGuid>
+      <value>//*[@id='checkbox_dbGaP phs accession_phs002790']</value>
+      <webElementGuid>1ce4bfb9-e943-4626-84cf-383c048e8895</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

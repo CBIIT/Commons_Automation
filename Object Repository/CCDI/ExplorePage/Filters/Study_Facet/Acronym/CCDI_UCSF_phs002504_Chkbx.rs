@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>fastq_Chkbx</name>
+   <name>CCDI_UCSF_phs002504_Chkbx</name>
    <tag></tag>
-   <elementGuidId>4d2ea143-b37b-4415-bf67-3aba98206455</elementGuidId>
+   <elementGuidId>359daf8a-3781-4b16-83a7-a53f0cbaf312</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_File Type_fastq&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Acronym_CCDI_UCSF_phs002504&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_File Type_fastq&quot;]</value>
-      <webElementGuid>254b5738-0069-4fd2-85b2-8ca826a1994b</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Acronym_CCDI_UCSF_phs002504&quot;]</value>
+      <webElementGuid>ca48736c-8868-450f-ab50-4453cda9e08b</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
