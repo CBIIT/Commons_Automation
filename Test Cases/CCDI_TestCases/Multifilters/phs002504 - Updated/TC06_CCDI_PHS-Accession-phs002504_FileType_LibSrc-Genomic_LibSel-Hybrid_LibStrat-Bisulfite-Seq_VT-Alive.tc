@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC06_CCDI_PHS-Accession-phs002504_FileType_LibSrc-Genomic_LibSel-Hybrid_LibStrat-Bisulfite-Seq_VT-Alive</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <testCaseGuid>1f936c88-7fe6-45ff-adb4-57fd60f1942a</testCaseGuid>
+</TestCaseEntity>
