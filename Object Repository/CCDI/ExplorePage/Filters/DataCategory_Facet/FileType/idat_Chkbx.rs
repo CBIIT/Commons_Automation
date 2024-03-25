@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>fastq_Chkbx</name>
+   <name>idat_Chkbx</name>
    <tag></tag>
-   <elementGuidId>4d2ea143-b37b-4415-bf67-3aba98206455</elementGuidId>
+   <elementGuidId>c844c068-d736-4072-992d-00cf0f8ab553</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_File Type_fastq&quot;]</value>
+         <value>//*[@id=&quot;checkbox_File Type_idat&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_File Type_fastq&quot;]</value>
-      <webElementGuid>254b5738-0069-4fd2-85b2-8ca826a1994b</webElementGuid>
+      <value>//*[@id=&quot;checkbox_File Type_idat&quot;]</value>
+      <webElementGuid>b57e7798-95e4-46f7-9e36-3641b3894697</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
