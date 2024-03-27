@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC06_CCDI_PHS-Accession-phs002790_FileType-fastq_LibSrc-Genomic_LibSel-Hybrid_LibStrat-WXS</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <testCaseGuid>237b83fd-98c4-4864-87f8-4e5bfa4a79b1</testCaseGuid>
+</TestCaseEntity>
