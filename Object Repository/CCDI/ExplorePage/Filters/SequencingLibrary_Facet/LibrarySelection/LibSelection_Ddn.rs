@@ -9,8 +9,12 @@
          <key>BASIC</key>
          <value>//*[@id=&quot;Library selection&quot;]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;Library selection&quot;]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -18,6 +22,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;Library selection&quot;]</value>
-      <webElementGuid>2f94bb02-f8d0-4d9b-93fb-0d7ca8435d24</webElementGuid>
+      <webElementGuid>9b0bdced-23ae-4f92-a205-9c57ca4bb623</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

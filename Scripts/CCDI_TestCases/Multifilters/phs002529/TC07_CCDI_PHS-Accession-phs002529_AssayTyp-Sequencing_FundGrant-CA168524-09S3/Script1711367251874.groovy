@@ -47,39 +47,37 @@ Sex - Female
 */
 WebUI.closeBrowser()
  
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC01_CCDI_PHS-Accession-phs003111_Gender-Female_Race-Asian.xlsx')
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC07_CCDI_PHS-Accession-phs002529_AssayTyp-Sequencing_FundGrant-CA168524-09S3.xlsx')
 
 //CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Canine_PopUp_Continue_Btn')
 //System.out.println ("Closed the popup window");
 
- 
 WebUI.waitForElementPresent(findTestObject('Object Repository/CCDI/Navbar/Explore_Menu'), 5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/CCDI/Navbar/Explore_Menu')
 
+WebUI.waitForElementPresent(findTestObject('Object Repository/CCDI/ExplorePage/Filters/Study_Facet/Study_Facet'), 5)
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/CCDI/ExplorePage/Filters/Study_Facet/Study_Facet')
+WebUI.waitForElementPresent(findTestObject('Object Repository/CCDI/ExplorePage/Filters/Study_Facet/PHS_Accession/PHS_Accession_Ddn'), 5)
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/CCDI/ExplorePage/Filters/Study_Facet/PHS_Accession/PHS_Accession_Ddn')
+WebUI.waitForElementPresent(findTestObject('Object Repository/CCDI/ExplorePage/Filters/Study_Facet/PHS_Accession/phs002529_Chkbx'), 5)
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/CCDI/ExplorePage/Filters/Study_Facet/PHS_Accession/phs002529_Chkbx')
+
+WebUI.waitForElementPresent(findTestObject('Object Repository/CCDI/ExplorePage/Filters/DataCategory_Facet/DataCategory_Facet'), 5)
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/CCDI/ExplorePage/Filters/DataCategory_Facet/DataCategory_Facet')
+WebUI.waitForElementPresent(findTestObject('Object Repository/CCDI/ExplorePage/Filters/DataCategory_Facet/AssayType/AssayType_Ddn'), 5)
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/CCDI/ExplorePage/Filters/DataCategory_Facet/AssayType/AssayType_Ddn')
+WebUI.waitForElementPresent(findTestObject('Object Repository/CCDI/ExplorePage/Filters/DataCategory_Facet/AssayType/Sequencing_Chkbx'), 5)
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/CCDI/ExplorePage/Filters/DataCategory_Facet/AssayType/Sequencing_Chkbx')
+
+
+WebUI.waitForElementPresent(findTestObject('Object Repository/CCDI/ExplorePage/Filters/Study_Facet/Study_Facet'), 5)
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/CCDI/ExplorePage/Filters/Study_Facet/Study_Facet')
+WebUI.waitForElementPresent(findTestObject('Object Repository/CCDI/ExplorePage/Filters/Study_Facet/FundingGrantID/FundingGrant_Ddn'), 5)
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/CCDI/ExplorePage/Filters/Study_Facet/FundingGrantID/FundingGrant_Ddn')
+WebUI.waitForElementPresent(findTestObject('Object Repository/CCDI/ExplorePage/Filters/Study_Facet/FundingGrantID/CA168524-09S3-Chkbx'), 5)
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/CCDI/ExplorePage/Filters/Study_Facet/FundingGrantID/CA168524-09S3-Chkbx')
+
  
-WebUI.waitForElementPresent(findTestObject('Object Repository/CCDI/Filters/Demographics-Facet/Gender/Gender_Ddn'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/CCDI/Filters/Demographics-Facet/Gender/Gender_Ddn')
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/CCDI/Filters/Demographics-Facet/Gender/Female_Chkbx'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/CCDI/Filters/Demographics-Facet/Gender/Female_Chkbx')
-
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/CCDI/Filters/Demographics-Facet/Race/Race_Ddn'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/CCDI/Filters/Demographics-Facet/Race/Race_Ddn')
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/CCDI/Filters/Demographics-Facet/Race/Asian_Chkbx'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/CCDI/Filters/Demographics-Facet/Race/Asian_Chkbx')
-
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/CCDI/Filters/Study_Facet/Study_Facet'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/CCDI/Filters/Study_Facet/Study_Facet')
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/CCDI/Filters/Study_Facet/PHS_Accession/PHS_Accession_Ddn'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/CCDI/Filters/Study_Facet/PHS_Accession/PHS_Accession_Ddn')
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/CCDI/Filters/Study_Facet/PHS_Accession/phs003111_Chkbx'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/CCDI/Filters/Study_Facet/PHS_Accession/phs003111_Chkbx')
-
 //Read Statbar
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.readStatBarCCDIhub'('Object Repository/CCDI/Statbar/Studies_Cnt','Object Repository/CCDI/Statbar/Participants_Cnt', 'Object Repository/CCDI/Statbar/Samples_Cnt',
 	'Object Repository/CCDI/Statbar/Files_Cnt')
@@ -100,12 +98,12 @@ CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.multiFunction'('CCDI', Glob
  
 
 
-//clicking the Studies tab
-WebUI.waitForElementPresent(findTestObject('Object Repository/CCDI/ExplorePage/Studies_ResultsTab'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/CCDI/ExplorePage/Studies_ResultsTab')
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.multiFunction'('CCDI', GlobalVariable.G_StatBar_Participants, 'Object Repository/CCDI/ExplorePage/CCDI_Studies_Tbl',
-	'Object Repository/CCDI/ExplorePage/CCDI_Studies_TblHdr', 'Object Repository/CCDI/ExplorePage/CCDI_Studies_TblNextBtn', GlobalVariable.G_WebTabnameStudies,	GlobalVariable.G_CypherTabnameStudies, GlobalVariable.G_QueryStudiesTab)
-//when the stat for diagnosis gets added in the stat bar, then the above line should be updated for the global variable from participants to diagnosis.
+////clicking the Studies tab
+//WebUI.waitForElementPresent(findTestObject('Object Repository/CCDI/ExplorePage/Studies_ResultsTab'), 5)
+//CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/CCDI/ExplorePage/Studies_ResultsTab')
+//CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.multiFunction'('CCDI', GlobalVariable.G_StatBar_Participants, 'Object Repository/CCDI/ExplorePage/CCDI_Studies_Tbl',
+//	'Object Repository/CCDI/ExplorePage/CCDI_Studies_TblHdr', 'Object Repository/CCDI/ExplorePage/CCDI_Studies_TblNextBtn', GlobalVariable.G_WebTabnameStudies,	GlobalVariable.G_CypherTabnameStudies, GlobalVariable.G_QueryStudiesTab)
+////when the stat for diagnosis gets added in the stat bar, then the above line should be updated for the global variable from participants to diagnosis.
 
 
 

@@ -59,8 +59,8 @@ CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repositor
 WebUI.waitForElementPresent(findTestObject('Object Repository/CCDI/ExplorePage/Filters/Diagnosis-Facet/Diagnosis/Diagnosis_Ddn'), 5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/CCDI/ExplorePage/Filters/Diagnosis-Facet/Diagnosis/Diagnosis_Ddn')
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/CCDI/ExplorePage/Filters/Diagnosis-Facet/Diagnosis/Rhabdomyo_Chkbx'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/CCDI/ExplorePage/Filters/Diagnosis-Facet/Diagnosis/Rhabdomyo_Chkbx')
+WebUI.waitForElementPresent(findTestObject('Object Repository/CCDI/ExplorePage/Filters/Diagnosis-Facet/Diagnosis/8900_3RhabdomNOS_Chkbx'), 5)
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/CCDI/ExplorePage/Filters/Diagnosis-Facet/Diagnosis/8900_3RhabdomNOS_Chkbx')
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/CCDI/ExplorePage/Filters/Samples_Facet/SampleTumorClassification/SampleTumorClassif_Ddn'), 5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/CCDI/ExplorePage/Filters/Samples_Facet/SampleTumorClassification/SampleTumorClassif_Ddn')
@@ -68,21 +68,21 @@ CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repositor
 WebUI.waitForElementPresent(findTestObject('Object Repository/CCDI/ExplorePage/Filters/Samples_Facet/SampleTumorClassification/Primary_Chkbx'), 5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/CCDI/ExplorePage/Filters/Samples_Facet/SampleTumorClassification/Primary_Chkbx')
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/CCDI/ExplorePage/Filters/Samples_Facet/SampleTumorClassification/SampleTumorClassif_Ddn'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/CCDI/ExplorePage/Filters/Samples_Facet/SampleTumorClassification/SampleTumorClassif_Ddn')
+WebUI.waitForElementPresent(findTestObject('Object Repository/CCDI/ExplorePage/Filters/DataCategory_Facet/FileType/FileType_Ddn'), 5)
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/CCDI/ExplorePage/Filters/DataCategory_Facet/FileType/FileType_Ddn')
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/CCDI/ExplorePage/Filters/DataCategory_Facet/FileType/dicom_Chkbx'), 5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/CCDI/ExplorePage/Filters/DataCategory_Facet/FileType/dicom_Chkbx')
 
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/CCDI/Filters/Study_Facet/Study_Facet'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/CCDI/Filters/Study_Facet/Study_Facet')
+WebUI.waitForElementPresent(findTestObject('Object Repository/CCDI/ExplorePage/Filters/Study_Facet/Study_Facet'), 5)
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/CCDI/ExplorePage/Filters/Study_Facet/Study_Facet')
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/CCDI/Filters/Study_Facet/PHS_Accession/PHS_Accession_Ddn'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/CCDI/Filters/Study_Facet/PHS_Accession/PHS_Accession_Ddn')
+WebUI.waitForElementPresent(findTestObject('Object Repository/CCDI/ExplorePage/Filters/Study_Facet/PHS_Accession/PHS_Accession_Ddn'), 5)
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/CCDI/ExplorePage/Filters/Study_Facet/PHS_Accession/PHS_Accession_Ddn')
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/CCDI/Filters/Study_Facet/PHS_Accession/phs000720_Chkbx'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/CCDI/Filters/Study_Facet/PHS_Accession/phs000720_Chkbx')
+WebUI.waitForElementPresent(findTestObject('Object Repository/CCDI/ExplorePage/Filters/Study_Facet/PHS_Accession/phs000720_Chkbx'), 5)
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/CCDI/ExplorePage/Filters/Study_Facet/PHS_Accession/phs000720_Chkbx')
 
 //Read Statbar
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.readStatBarCCDIhub'('Object Repository/CCDI/Statbar/Studies_Cnt','Object Repository/CCDI/Statbar/Participants_Cnt', 'Object Repository/CCDI/Statbar/Samples_Cnt',
@@ -90,8 +90,8 @@ CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.readStatBarCCDIhub'('Object
 
 
 //clicking the Participants tab   - for some reason the xpath does not get identified for the participants results tab
-//WebUI.waitForElementPresent(findTestObject('Object Repository/CCDI/ExplorePage/Participants_ResultsTab'), 5)
-//CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/CCDI/ExplorePage/Participants_ResultsTab')
+WebUI.waitForElementPresent(findTestObject('Object Repository/CCDI/ExplorePage/Participants_ResultsTab'), 5)
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/CCDI/ExplorePage/Participants_ResultsTab')
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.multiFunction'('CCDI', GlobalVariable.G_StatBar_Participants, 'Object Repository/CCDI/ExplorePage/CCDI_Participants_Tbl',
 	'Object Repository/CCDI/ExplorePage/CCDI_Participants_TblHdr', 'Object Repository/CCDI/ExplorePage/CCDI_Participants_TblNextBtn', GlobalVariable.G_WebTabnameParticipants,	GlobalVariable.G_CypherTabnameParticipants, GlobalVariable.G_QueryParticipantsTab)
  
@@ -107,7 +107,7 @@ CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.multiFunction'('CCDI', Glob
 //clicking the Studies tab
 WebUI.waitForElementPresent(findTestObject('Object Repository/CCDI/ExplorePage/Studies_ResultsTab'), 5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/CCDI/ExplorePage/Studies_ResultsTab')
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.multiFunction'('CCDI', GlobalVariable.G_StatBar_Participants, 'Object Repository/CCDI/ExplorePage/CCDI_Studies_Tbl',
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.multiFunction'('CCDI', GlobalVariable.G_StatBar_Studies, 'Object Repository/CCDI/ExplorePage/CCDI_Studies_Tbl',
 	'Object Repository/CCDI/ExplorePage/CCDI_Studies_TblHdr', 'Object Repository/CCDI/ExplorePage/CCDI_Studies_TblNextBtn', GlobalVariable.G_WebTabnameStudies,	GlobalVariable.G_CypherTabnameStudies, GlobalVariable.G_QueryStudiesTab)
 //when the stat for diagnosis gets added in the stat bar, then the above line should be updated for the global variable from participants to diagnosis.
 
