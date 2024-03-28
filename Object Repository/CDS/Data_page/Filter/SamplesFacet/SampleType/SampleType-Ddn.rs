@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>phs002504_Chkbx</name>
+   <name>SampleType-Ddn</name>
    <tag></tag>
-   <elementGuidId>aa16ed1f-3e57-4694-bdbc-ec84f0e9fa1e</elementGuidId>
+   <elementGuidId>602b6b94-4caf-4852-9466-718a7892b1fe</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_PHS Accession_phs002504&quot;]</value>
+         <value>//*[@id=&quot;sample type&quot;]/div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_PHS Accession_phs002504&quot;]</value>
-      <webElementGuid>108001eb-6db5-4d78-bfea-5e2e864b5482</webElementGuid>
+      <value>//*[@id=&quot;sample type&quot;]/div[2]</value>
+      <webElementGuid>519d9adb-5a4e-4662-8613-0c6e6eb4feec</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

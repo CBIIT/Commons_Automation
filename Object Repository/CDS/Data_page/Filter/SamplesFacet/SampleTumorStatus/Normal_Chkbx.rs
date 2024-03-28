@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>phs002504_Chkbx</name>
+   <name>Normal_Chkbx</name>
    <tag></tag>
-   <elementGuidId>aa16ed1f-3e57-4694-bdbc-ec84f0e9fa1e</elementGuidId>
+   <elementGuidId>223bec61-2a28-4957-b734-f31b43ae9e83</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_PHS Accession_phs002504&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Sample Tumor Status_Normal&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_PHS Accession_phs002504&quot;]</value>
-      <webElementGuid>108001eb-6db5-4d78-bfea-5e2e864b5482</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Sample Tumor Status_Normal&quot;]</value>
+      <webElementGuid>258e2101-6f12-4d26-8ed4-97d5efda8996</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

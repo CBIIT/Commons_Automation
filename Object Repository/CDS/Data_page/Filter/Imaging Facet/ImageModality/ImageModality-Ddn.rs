@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>phs002504_Chkbx</name>
+   <name>ImageModality-Ddn</name>
    <tag></tag>
-   <elementGuidId>aa16ed1f-3e57-4694-bdbc-ec84f0e9fa1e</elementGuidId>
+   <elementGuidId>88232a0b-c7db-40a9-bf5a-c9886f66ccf6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_PHS Accession_phs002504&quot;]</value>
+         <value>//*[@id=&quot;image modality&quot;]/div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_PHS Accession_phs002504&quot;]</value>
-      <webElementGuid>108001eb-6db5-4d78-bfea-5e2e864b5482</webElementGuid>
+      <value>//*[@id=&quot;image modality&quot;]/div[2]</value>
+      <webElementGuid>cbefa48a-88f3-4f07-83f8-608df6a7e1ed</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
