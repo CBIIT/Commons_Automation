@@ -1,5 +1,4 @@
 /bin/*
-Profiles/*
 OutputFiles/*
 .DS_Store
 .cache/*
@@ -10,3 +9,4 @@ Libs/*
 settings/*
 .Commons_Automation.prj
 .project
+/bin/
