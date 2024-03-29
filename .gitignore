@@ -9,3 +9,4 @@ Libs/*
 /.cache/*
 settings/*
 .Commons_Automation.prj
+.project

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC07_CCDI_PHS-Accession-phs002790_FileType-bam_LibSrc-Transcriptomic_LibSel-Other_LibStrat-ArcherFusion</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <testCaseGuid>e67b3dd1-8a94-4461-b55e-0bbbeb88cbc1</testCaseGuid>
+</TestCaseEntity>
