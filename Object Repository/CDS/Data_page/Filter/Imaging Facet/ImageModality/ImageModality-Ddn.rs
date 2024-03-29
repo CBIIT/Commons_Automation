@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>DtstSummaryCnt</name>
+   <name>ImageModality-Ddn</name>
    <tag></tag>
-   <elementGuidId>10054778-a7ab-4bb3-80f9-b004e542399d</elementGuidId>
+   <elementGuidId>88232a0b-c7db-40a9-bf5a-c9886f66ccf6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id='dataset_summaries_detail_count']</value>
+         <value>//*[@id=&quot;image modality&quot;]/div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id='dataset_summaries_detail_count']</value>
-      <webElementGuid>eb96623f-f447-4909-b768-b396f21e5228</webElementGuid>
+      <value>//*[@id=&quot;image modality&quot;]/div[2]</value>
+      <webElementGuid>cbefa48a-88f3-4f07-83f8-608df6a7e1ed</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

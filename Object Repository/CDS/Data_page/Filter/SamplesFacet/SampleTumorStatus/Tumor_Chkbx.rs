@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>DtstSummaryCnt</name>
+   <name>Tumor_Chkbx</name>
    <tag></tag>
-   <elementGuidId>10054778-a7ab-4bb3-80f9-b004e542399d</elementGuidId>
+   <elementGuidId>c8242146-9452-4504-babd-b98c383daf0e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id='dataset_summaries_detail_count']</value>
+         <value>//*[@id=&quot;checkbox_Sample Tumor Status_Tumor&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id='dataset_summaries_detail_count']</value>
-      <webElementGuid>eb96623f-f447-4909-b768-b396f21e5228</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Sample Tumor Status_Tumor&quot;]</value>
+      <webElementGuid>8ee35e1e-0094-41dd-b393-b987188aa0fa</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
