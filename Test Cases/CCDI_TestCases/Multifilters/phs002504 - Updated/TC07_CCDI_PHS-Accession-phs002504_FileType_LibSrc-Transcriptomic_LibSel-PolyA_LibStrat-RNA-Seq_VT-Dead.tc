@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC07_CCDI_PHS-Accession-phs002504_FileType_LibSrc-Transcriptomic_LibSel-PolyA_LibStrat-RNA-Seq_VT-Dead</name>
-   <tag>Filter</tag>
-   <comment></comment>
-   <testCaseGuid>b9d37fab-7ac4-4dd3-98cd-4b4931393e22</testCaseGuid>
-</TestCaseEntity>

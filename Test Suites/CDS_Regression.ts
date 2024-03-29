@@ -421,14 +421,14 @@
       <guid>75c4913d-4066-4031-9f53-545eca175d09</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/Multifilter/TC01_CDS_PHSAccession2250_ExprStrtgies-WGS_Gender-Female_TumorStatus-Normal</testCaseId>
+      <testCaseId>Test Cases/CDS_TestCases/Multifilter/TC01_CDS_study-CIDR_ExprStrtgies-WGS_Gender-Female_TumorStatus-Normal</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>9bdb6b75-c8d0-4b9e-923f-9429ce587511</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/Multifilter/TC02_CDSPHSAccession2250_LibraryStrategy-NotSpecifiedindata_Gender-Female_SampleTumor-Normal</testCaseId>
+      <testCaseId>Test Cases/CDS_TestCases/Multifilter/TC02_CDS_study-CIDR_LibraryStrategy-NotSpecifiedindata_Gender-Female_SampleTumor-Normal</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

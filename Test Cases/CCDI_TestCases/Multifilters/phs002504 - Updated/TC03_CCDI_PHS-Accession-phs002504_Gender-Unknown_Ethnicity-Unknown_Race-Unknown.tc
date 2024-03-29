@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC03_CCDI_PHS-Accession-phs002504_Gender-Unknown_Ethnicity-Unknown_Race-Unknown</name>
-   <tag>Filter</tag>
-   <comment></comment>
-   <testCaseGuid>3a3fccf8-63ea-48b8-9794-79b07a19c25f</testCaseGuid>
-</TestCaseEntity>

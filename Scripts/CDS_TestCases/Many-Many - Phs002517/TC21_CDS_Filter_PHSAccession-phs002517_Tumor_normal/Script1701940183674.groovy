@@ -52,19 +52,19 @@ CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Re
 
 //Clicking the PHS Accession dropdown
 WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/StudyFacet/PHS_Accession/PHS_Accession_Ddn'),5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/StudyFacet/PHS_Accession/PHS_Accession_Ddn')
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/PHS_Accession/PHS_Accession_Ddn')
  
 //Clicking the desired PHS Accession checkbox
 WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/StudyFacet/PHS_Accession/phs002517_Chkbx'),10)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/StudyFacet/PHS_Accession/phs002517_Chkbx')
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/PHS_Accession/phs002517_Chkbx')
  
-//Clicking Sample Tumor Status Ddn
-WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/SamplesFacet/SampleTumorStatus/SampleTumorStatus-Ddn'),15)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/SamplesFacet/SampleTumorStatus/SampleTumorStatus-Ddn')
+//Clicking Sample Tumor Status
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Z-ObsoleteObjects/Tumor/Tumor_Ddn'),15)
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/Tumor/Tumor_Ddn')
 
 //Clicking Normal Checkbox
-WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/SamplesFacet/SampleTumorStatus/Normal_Chkbx'),15)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/SamplesFacet/SampleTumorStatus/Normal_Chkbx')
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Z-ObsoleteObjects/Tumor/Normal-Chkbx'),15)
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/Tumor/Normal-Chkbx')
 
 
 //Read statbar

@@ -81,4 +81,53 @@
       <testCaseId>Test Cases/CDS_TestCases/PHS_Accession/TC10_CDS_Filter_PHSAccession-phs002504</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>c2d34440-2755-49ee-98f5-5ffc60ba61a4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/PHS_Accession/TC11_CDS_Filter_PHSAccession-phs002529</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e0de9ee4-97e1-461c-9b75-10c1418fc5e3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/PHS_Accession/TC12_CDS_Filter_PHSAccession-phs002790</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d775e41b-ffc8-4ae9-bf7a-a70e2056e21c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/PHS_Accession/TC13_CDS_Filter_PHSAccession-phs003111</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>133bb1b5-e974-4728-b115-0bfad02c5885</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/PHS_Accession/TC14_CDS_Filter_PHSAccession-phs001287</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>93e80f91-c2d5-43b8-9f60-35946515efc2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/PHS_Accession/TC15_CDS_Filter_PHSAccession-phs002599</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8e8e9edc-a33d-4120-8b41-695d6535f7fb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/PHS_Accession/TC16_CDS_Filter_PHSAccession-phs002620</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b9dff2ac-fddb-4ecc-a8ac-f27ef297f361</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/PHS_Accession/TC17_CDS_Filter_PHSAccession-phs002637</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

@@ -52,28 +52,28 @@ CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Re
 
 //Clicking the PHS Accession dropdown
 WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/StudyFacet/PHS_Accession/PHS_Accession_Ddn'),5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/StudyFacet/PHS_Accession/PHS_Accession_Ddn')
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/PHS_Accession/PHS_Accession_Ddn')
  
 //Clicking the desired PHS Accession checkbox
 WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/StudyFacet/PHS_Accession/phs002517_Chkbx'),5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/StudyFacet/PHS_Accession/phs002517_Chkbx')
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/PHS_Accession/phs002517_Chkbx')
  
 
 //Clicking the File Type dropdown
 WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/FilesFacet/FileType/FileType_Ddn'),5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/FilesFacet/FileType/FileType_Ddn')
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/FileType/FileType_Ddn')
 
 //Clicking the desired File Type checkbox
 WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/FilesFacet/FileType/bam-Chkbx'),5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/FilesFacet/FileType/bam-Chkbx')
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/FileType/bam-Chkbx')
 
 //Clicking the Platform dropdown
 WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/SequencingFacet/Platform/platform_Ddn'),5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/SequencingFacet/Platform/platform_Ddn')
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/Platform/platform_Ddn')
 
 //Clicking the desired Platform checkbox
 WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/SequencingFacet/Platform/ILLUMINA-Chkbx'),5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/SequencingFacet/Platform/ILLUMINA-Chkbx')
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/Platform/ILLUMINA-Chkbx')
 
 //Read statbar
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.readStatBarCDS'('Object Repository/CDS/StatBar/CDS_StatBar-Studies',
