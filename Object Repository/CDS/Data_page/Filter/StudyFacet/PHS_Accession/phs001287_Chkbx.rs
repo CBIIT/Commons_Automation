@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id='checkbox_PHS Accession _phs001287']</value>
+         <value>//*[@id=&quot;checkbox_PHS Accession_phs001287&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id='checkbox_PHS Accession _phs001287']</value>
-      <webElementGuid>9d87e4a5-03f7-4ff1-8c25-770d7c461082</webElementGuid>
+      <value>//*[@id=&quot;checkbox_PHS Accession_phs001287&quot;]</value>
+      <webElementGuid>42d15c63-811c-479b-a0c8-4aed1c5642ca</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
