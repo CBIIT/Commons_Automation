@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>DtstSummaryCnt</name>
+   <name>SampleType-Ddn</name>
    <tag></tag>
-   <elementGuidId>10054778-a7ab-4bb3-80f9-b004e542399d</elementGuidId>
+   <elementGuidId>602b6b94-4caf-4852-9466-718a7892b1fe</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id='dataset_summaries_detail_count']</value>
+         <value>//*[@id=&quot;sample type&quot;]/div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id='dataset_summaries_detail_count']</value>
-      <webElementGuid>eb96623f-f447-4909-b768-b396f21e5228</webElementGuid>
+      <value>//*[@id=&quot;sample type&quot;]/div[2]</value>
+      <webElementGuid>519d9adb-5a4e-4662-8613-0c6e6eb4feec</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>DtstSummaryCnt</name>
+   <name>SampleTumorStatus-Ddn</name>
    <tag></tag>
-   <elementGuidId>10054778-a7ab-4bb3-80f9-b004e542399d</elementGuidId>
+   <elementGuidId>0e5df8d1-fe8e-473b-860a-a0a8870cbf2b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id='dataset_summaries_detail_count']</value>
+         <value>//*[@id=&quot;Sample Tumor Status&quot;]/div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id='dataset_summaries_detail_count']</value>
-      <webElementGuid>eb96623f-f447-4909-b768-b396f21e5228</webElementGuid>
+      <value>//*[@id=&quot;Sample Tumor Status&quot;]/div[2]</value>
+      <webElementGuid>eaab71c8-dcfd-41e0-b0a8-1d4c79622ac0</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
