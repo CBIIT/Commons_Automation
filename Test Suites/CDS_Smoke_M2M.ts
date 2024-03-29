@@ -379,7 +379,7 @@
       <guid>b0d3b9fa-abc7-40c0-9b84-d006b853b96d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/PHS_Accession/TC19_CDS_Filter_PHSAccession-phs002517</testCaseId>
+      <testCaseId>Test Cases/CDS_TestCases/Many-Many - Phs002517/TC19_CDS_Filter_PHSAccession-phs002517</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

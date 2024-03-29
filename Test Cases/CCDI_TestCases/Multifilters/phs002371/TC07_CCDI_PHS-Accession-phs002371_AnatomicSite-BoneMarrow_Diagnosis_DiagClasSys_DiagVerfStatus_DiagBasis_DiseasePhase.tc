@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC07_CCDI_PHS-Accession-phs002371_AnatomicSite-BoneMarrow_Diagnosis_DiagClasSys_DiagVerfStatus_DiagBasis_DiseasePhase</name>
-   <tag>Filter</tag>
-   <comment></comment>
-   <testCaseGuid>4ae39158-ec13-4f77-b6c0-ac5f1bacde1c</testCaseGuid>
-</TestCaseEntity>

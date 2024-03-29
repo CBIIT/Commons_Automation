@@ -1107,7 +1107,7 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
 											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]")).getAttribute("innerText")) +"||")
 
-
+                      
 										}else {
 											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
 											//*[@id="sample_tab_table"]/div[2]/table/tbody/tr[1]/td[2]/p
@@ -2058,25 +2058,10 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 
 					if( l1NullFlag || l2NullFlag ) continue   //if the data mismatches, print the data found in ui and db
 						System.out.println("UI data value is: "+ l1rowList.get(col).getStringCellValue() + "\nDB data value is: "+ l2rowList.get(col).getStringCellValue() )
-//added based on Wei's suggestions to fix  newline issue
-						String l1Value = l1rowList.get(col).getStringCellValue();
-						String l2Value = l2rowList.get(col).getStringCellValue();
-						if (l2Value.contains("\\n")) {
-							String new_line = System.getProperty("line.separator");
-							l2Value = l2Value.split("\\\\n").join(new_line);
-						}
-						System.out.println("UI data value is: "+ l1Value + "\nDB data value is: "+ l2Value );
-					/*	if( l1Value == l2Value){
-							 System.out.println("Content matches for col number : " + col )
-							}else{
-								
-							
-						
-						//above is added based on Wei's suggestions to fix  newline issue
-								//remove the comment fromt he 3 lines below if you want to undo wei's fix'
-//					if( l1rowList.get(col).getStringCellValue() == l2rowList.get(col).getStringCellValue() ){
-//						System.out.println("Content matches for col number : " + col )
-//					}else{
+
+					if( l1rowList.get(col).getStringCellValue() == l2rowList.get(col).getStringCellValue() ){
+						System.out.println("Content matches for col number : " + col )
+					}else{
 						System.err.println("***********DATA MISMATCH:  ABORTING RUN********************")
 						System.out.println("Content does not match for col: " + col )
 						System.out.println( "UI data Value (mismatch): " + l1rowList.get(col).getStringCellValue() )
@@ -2084,7 +2069,7 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 						KeywordUtil.markFailed("***********DATA MISMATCH in comparelists:  ABORTING RUN********************");
 
 						//add steps for handling failure
-					} */
+					}
 				}
 				//				}else{
 				//					System.out.println("UI Data and DB Data are not matching for :")
@@ -2263,12 +2248,12 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 			(statData.get(0).get(3).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Files)) ? KeywordUtil.markPassed("Statbar Files count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Files count")
 		}
 		else if (getAppName=='C3DC'){
-
+			
 			System.out.println("This is the value of Diagnosis Count from Neo4j result: "+statData.get(0).get(0).getStringCellValue())  //add in the query in input file later
 			System.out.println("This is the value of Participants Count from Neo4j result: "+statData.get(0).get(1).getStringCellValue())
 			System.out.println("This is the value of Studies Count from Neo4j result: "+statData.get(0).get(2).getStringCellValue())
 			//System.out.println("This is the value of Files Count from Neo4j result: "+statData.get(0).get(3).getStringCellValue())
-
+			
 			(statData.get(0).get(0).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Studies)) ? KeywordUtil.markPassed("Statbar Diagnosis count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Diagnosis count")
 			(statData.get(0).get(1).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Participants)) ? KeywordUtil.markPassed("Statbar Participants count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Participants count")
 			(statData.get(0).get(2).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Samples)) ? KeywordUtil.markPassed("Statbar Studies count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Studies count")

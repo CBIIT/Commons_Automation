@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC05_CCDI_PHS-Accession-phs002790_AnatomicSite_Diagnosis_DiagClasSys_DiagVerfStatus_DiagBasis_DiseasePhase</name>
-   <tag>Filter</tag>
-   <comment></comment>
-   <testCaseGuid>e74c65e8-cb42-4605-8e71-d382c6636b6d</testCaseGuid>
-</TestCaseEntity>

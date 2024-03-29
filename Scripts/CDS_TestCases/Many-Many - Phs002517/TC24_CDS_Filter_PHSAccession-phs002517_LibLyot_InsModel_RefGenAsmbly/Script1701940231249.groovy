@@ -52,36 +52,36 @@ CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Re
 
 //Clicking the PHS Accession dropdown
 WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/StudyFacet/PHS_Accession/PHS_Accession_Ddn'),5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/StudyFacet/PHS_Accession/PHS_Accession_Ddn')
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/PHS_Accession/PHS_Accession_Ddn')
  
 //Clicking the desired PHS Accession checkbox
 WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/StudyFacet/PHS_Accession/phs002517_Chkbx'),10)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/StudyFacet/PHS_Accession/phs002517_Chkbx')
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/PHS_Accession/phs002517_Chkbx')
  
 //Clicking the Library Layout dropdown
 WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/SequencingFacet/LibraryLayout/LibraryLayout_Ddn'),5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/SequencingFacet/LibraryLayout/LibraryLayout_Ddn')
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/LibraryLayout/LibraryLayout_Ddn')
 
 //Clicking the desired Library Layout checkbox
 WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/SequencingFacet/LibraryLayout/Pairedend_Chkbx'),5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/SequencingFacet/LibraryLayout/Pairedend_Chkbx')
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/LibraryLayout/Pairedend_Chkbx')
 
 //Clicking the Instrument Model dropdown
 WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/SequencingFacet/InstrumentModel/Instrument_model_Ddn'),5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/SequencingFacet/InstrumentModel/Instrument_model_Ddn')
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/InstrumentModel/Instrument_model_Ddn')
  
 //Clicking the desired Instrument Model checkbox
 WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/SequencingFacet/InstrumentModel/HiSeqXTen_Chkbx'),5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/SequencingFacet/InstrumentModel/HiSeqXTen_Chkbx')
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/InstrumentModel/HiSeqXTen_Chkbx')
 
 //Clicking the Reference Genome Assembly dropdown
 WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/SequencingFacet/ReferenceGenomeAssembly/Ref_Gen_Assembly_Ddn'),5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/SequencingFacet/ReferenceGenomeAssembly/Ref_Gen_Assembly_Ddn')
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/ReferenceGenomeAssembly/Ref_Gen_Assembly_Ddn')
  
 
 //Clicking the desired Reference Genome Assembly checkbox
 WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/SequencingFacet/ReferenceGenomeAssembly/GRCh38_Chkbx'),5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/SequencingFacet/ReferenceGenomeAssembly/GRCh38_Chkbx')
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/ReferenceGenomeAssembly/GRCh38_Chkbx')
 
 //Read statbar
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.readStatBarCDS'('Object Repository/CDS/StatBar/CDS_StatBar-Studies',
