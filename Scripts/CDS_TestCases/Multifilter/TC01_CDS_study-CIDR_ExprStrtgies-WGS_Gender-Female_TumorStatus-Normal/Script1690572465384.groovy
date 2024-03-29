@@ -41,7 +41,7 @@ import java.nio.file.Paths as Paths
  */
 WebUI.closeBrowser()
  
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC01_CDS_study-CIDR_ExprStrtgies-WGS_Gender-Female_TumorStatus-Normal.xlsx')
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC01_CDS_PHSAccession2250_ExprStrtgies-WGS_Gender-Female_TumorStatus-Normal.xlsx')
 
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Bento/Banner/Bento_Warning_Continue_Btn')
 System.out.println ("Closed the warning window");
@@ -50,26 +50,24 @@ System.out.println ("Closed the warning window");
 WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/NavBar/CDS_Data-Btn'),5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/NavBar/CDS_Data-Btn')
 
-//Clicking Study dropdown
-WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/StudyFacet/StudyName/StudyName_Ddn'),5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/Study/Study_Ddn')
 
-//Clicking Study checkbox
-WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/StudyFacet/StudyName/CDS-Study-CIDR Glioma Sample-Chkbx'),5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/Study/CDS-Study-CIDR Glioma Sample-Chkbx')
-
-//Clicking Study dropdown
-WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/StudyFacet/StudyName/StudyName_Ddn'),5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/Study/Study_Ddn')
-
+//Clicking the PHS Accession dropdown
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/StudyFacet/PHS_Accession/PHS_Accession_Ddn'),5)
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/StudyFacet/PHS_Accession/PHS_Accession_Ddn')
+ 
+//Clicking the desired PHS Accession checkbox
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/StudyFacet/PHS_Accession/phs002250_Chkbx'),5)
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/StudyFacet/PHS_Accession/phs002250_Chkbx')
+ 
+ 
 
 //Clicking Experimental Strategies dropdown
 WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/StudyFacet/ExperimentalStrategy/ExperimentalStrategy_Ddn'),15)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/ExperimentalStrategy/ExperimentalStrategy_Ddn')
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/StudyFacet/ExperimentalStrategy/ExperimentalStrategy_Ddn')
 
 //Clicking WGS checkbox
-WebUI.waitForElementPresent(findTestObject('null'),15)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/ExperimentalStrategy/WGS-Chkbx')
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/StudyFacet/ExperimentalStrategy/WGS-Chkbx'),15)
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/StudyFacet/ExperimentalStrategy/WGS-Chkbx')
 
 //Clicking Sample Tumor Status
 WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Z-ObsoleteObjects/Tumor/Tumor_Ddn'),15)
@@ -96,8 +94,8 @@ CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.readStatBarCDS'('Object Rep
 WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/CDSResults_Participants_Tab'), 5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/CDS/Data_page/CDSResults_Participants_Tab')
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.multiFunction'('CDS',GlobalVariable.G_StatBar_Participants, 'Object Repository/CDS/Data_page/CDS_ParticipantsTable',
-	'Object Repository/CDS/Data_page/CDS_ParticipantsTableHeader', 'Object Repository/CDS/Data_page/CDS_ParticipantsTabNextBtn', GlobalVariable.G_WebTabnameParticipants,
-	GlobalVariable.G_CypherTabnameParticipants, GlobalVariable.G_QueryCasesTab)
+	'Object Repository/CDS/Data_page/CDS_ParticipantsTableHeader', 'Object Repository/CDS/Data_page/CDS_ParticipantsTabNextBtn', GlobalVariable.G_WebTabnameCases,
+	GlobalVariable.G_CypherTabnameCases, GlobalVariable.G_QueryCasesTab)
 
 //clicking Samples tab
 WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/CDSResults_Samples_Tab'), 5)
