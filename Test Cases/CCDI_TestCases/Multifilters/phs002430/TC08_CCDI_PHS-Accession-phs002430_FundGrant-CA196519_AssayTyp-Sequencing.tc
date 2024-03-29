@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC08_CCDI_PHS-Accession-phs002430_FundGrant-CA196519_AssayTyp-Sequencing</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <testCaseGuid>cc58d87c-edf6-4aff-820c-dead28fd8881</testCaseGuid>
+</TestCaseEntity>
