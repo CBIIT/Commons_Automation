@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC06_CCDI_PHS-Accession-phs002599_Diag-DiagBasis-NR_DataCate-FileType-fastq</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <testCaseGuid>dfcaa380-d899-4ccb-8ae8-cc77b11aa1c2</testCaseGuid>
+</TestCaseEntity>
