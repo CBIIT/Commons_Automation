@@ -1,0 +1,12 @@
+/bin/*
+Profiles/*
+OutputFiles/*
+.DS_Store
+.cache/*
+Reports/*
+Libs/*
+.classpath
+/.cache/*
+settings/*
+.Commons_Automation.prj
+.project
