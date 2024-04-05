@@ -3,10 +3,11 @@
    <description></description>
    <name>CCDC_participResources</name>
    <tag></tag>
+   <connectionProperties/>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>ba1e22e7-995f-49a1-a676-eb5192ee1edc</dataFileGUID>
-   <dataSourceUrl>InputFiles/CCDC/CCDC_Resources_20230810.xlsx</dataSourceUrl>
+   <dataSourceUrl>InputFiles/CCDC/CCDC_Resources_20240404.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>

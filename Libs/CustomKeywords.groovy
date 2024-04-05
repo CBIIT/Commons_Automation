@@ -26,28 +26,17 @@ import com.applitools.eyes.selenium.Eyes
 import com.applitools.eyes.RectangleSize
 
 
- /**
-	 * This function creates an instance of webdriver
-	 * And navigates user to crdc application
-	 */ 
+
 def static "ctdc.utilities.Crdc.navigateToCrdc"() {
     (new ctdc.utilities.Crdc()).navigateToCrdc()
 }
 
- /**
-	 * The function is used to login to CRDC application.
-	 */ 
+
 def static "ctdc.utilities.Crdc.loginToCrdc"() {
     (new ctdc.utilities.Crdc()).loginToCrdc()
 }
 
- /**
-	 * This function enters text to any text box 
-	 * @param eleObj
-	 * @param fPath
-	 * @param colNam
-	 * @param rowNum
-	 */ 
+
 def static "ctdc.utilities.Crdc.setText"(
     	TestObject eleObj	
      , 	String fPath	
@@ -60,20 +49,14 @@ def static "ctdc.utilities.Crdc.setText"(
          , 	rowNum)
 }
 
- /**
-	 * This function validates CRDC Submission Request status bar
-	 * @param Status to be validated i.e New, Submitted
-	 */ 
+
 def static "ctdc.utilities.Crdc.verifyStatusBar"(
     	String expStatus	) {
     (new ctdc.utilities.Crdc()).verifyStatusBar(
         	expStatus)
 }
 
- /**
-	 * This function enters Principal Investigator information into submission request form
-	 * @param dataFileRowNum Please add data file row number to be read
-	 */ 
+
 def static "ctdc.utilities.Crdc.enterPiInfo"(
     	int fNameRN	
      , 	int lNameRN	
@@ -90,10 +73,7 @@ def static "ctdc.utilities.Crdc.enterPiInfo"(
          , 	instAddRN)
 }
 
- /**
-	 *  This function enters Primary Contact information into submission request form
-	 * @param dataFileRowNum Please add data file row number to be read
-	 */ 
+
 def static "ctdc.utilities.Crdc.enterPrimaryContactInfo"(
     	int fNameRN	
      , 	int lNameRN	
@@ -110,10 +90,7 @@ def static "ctdc.utilities.Crdc.enterPrimaryContactInfo"(
          , 	phoneRN)
 }
 
- /**
-	 *  This function enters Additional Contact information into submission request form
-	 * @param dataFileRowNum Please add data file row number to be read
-	 */ 
+
 def static "ctdc.utilities.Crdc.enterAdditionalContactInfo"(
     	int fNameRN	
      , 	int lNameRN	
@@ -130,20 +107,14 @@ def static "ctdc.utilities.Crdc.enterAdditionalContactInfo"(
          , 	phoneRN)
 }
 
- /**
-	 * The function enters Program info into the submission request form
-	 * @param dataFileRowNum Please add data file row number to be read
-	 */ 
+
 def static "ctdc.utilities.Crdc.enterProgramInfo"(
     	String ddValue	) {
     (new ctdc.utilities.Crdc()).enterProgramInfo(
         	ddValue)
 }
 
- /**
-	 * This function enters study information into submission request form
-	 * @param dataFileRowNum Please add data file row number to be read
-	 */ 
+
 def static "ctdc.utilities.Crdc.enterStudyInfo"(
     	int stdyTitleRN	
      , 	int stdyAbbRN	
@@ -154,10 +125,7 @@ def static "ctdc.utilities.Crdc.enterStudyInfo"(
          , 	stdyDesRN)
 }
 
- /**
-	 * This function enters Funding Agency and DbGaP info into submission request form
-	 * @param dataFileRowNum Please add data file row number to be read
-	 */ 
+
 def static "ctdc.utilities.Crdc.enterFundingAgencyAndDbGaPInfo"(
     	int fundinAgency	
      , 	int grntRN	
@@ -172,10 +140,7 @@ def static "ctdc.utilities.Crdc.enterFundingAgencyAndDbGaPInfo"(
          , 	dbgapPhsNumRN)
 }
 
- /**
-	 * This function enters Publications info into submission request form
-	 * @param dataFileRowNum Please add data file row number to be read
-	 */ 
+
 def static "ctdc.utilities.Crdc.enterPublicationsInfo"(
     	int publiTitRN	
      , 	int pubmedIdRN	
@@ -188,10 +153,7 @@ def static "ctdc.utilities.Crdc.enterPublicationsInfo"(
          , 	plndPublTitleRN)
 }
 
- /**
-	 * This function enters Repository info into submission request form
-	 * @param dataFileRowNum Please add data file row number to be read
-	 */ 
+
 def static "ctdc.utilities.Crdc.enterRepositoryInfo"(
     	String dropDownVlue	
      , 	int repoNamRN	
@@ -204,10 +166,7 @@ def static "ctdc.utilities.Crdc.enterRepositoryInfo"(
          , 	otherDataTypRN)
 }
 
- /**
-	 * This function enters Data Access Types and Cancer Types into submission request form
-	 * @param dataFileRowNum Please add data file row number to be read
-	 */ 
+
 def static "ctdc.utilities.Crdc.enterDataAccessAndDiseaseInfo"(
     	String cancerType	
      , 	String preCancerType	
@@ -224,20 +183,14 @@ def static "ctdc.utilities.Crdc.enterDataAccessAndDiseaseInfo"(
          , 	numOfSubjectRN)
 }
 
- /**
-	 * This function selects Data Types on the submission request form
-	 * @param buttonLable Toggle button label to be clicked (enter only one word per toggle button)
-	 */ 
+
 def static "ctdc.utilities.Crdc.selectDataTypes"(
     	String[] buttonLable	) {
     (new ctdc.utilities.Crdc()).selectDataTypes(
         	buttonLable)
 }
 
- /**
-	 * This function selects File Types of the submission request form
-	 * @param  Row Number of the data to be selected/entered
-	 */ 
+
 def static "ctdc.utilities.Crdc.selectFileTypes"(
     	int fileTypRN	
      , 	int fileExtRN	
@@ -250,10 +203,7 @@ def static "ctdc.utilities.Crdc.selectFileTypes"(
          , 	dataSizeRN)
 }
 
- /**
-	 * This function selects File Types of the submission request form
-	 * @param  Row Number of the data to be selected/entered
-	 */ 
+
 def static "ctdc.utilities.Crdc.verifyPiInfo"(
     	int fNameRN	
      , 	int lNameRN	
@@ -270,10 +220,7 @@ def static "ctdc.utilities.Crdc.verifyPiInfo"(
          , 	instAddRN)
 }
 
- /**
-	 * This function verifies Primary contact info on Review Page
-	 * @param dataFileRowNum Please add data file row number to be read
-	 */ 
+
 def static "ctdc.utilities.Crdc.verifyPrimaryContactInfo"(
     	int fNameRN	
      , 	int lNameRN	
@@ -290,10 +237,7 @@ def static "ctdc.utilities.Crdc.verifyPrimaryContactInfo"(
          , 	phoneRN)
 }
 
- /**
-	 * This function verifies additional contact info of the submission request form
-	 * @param  Row Number of the data to be selected/entered
-	 */ 
+
 def static "ctdc.utilities.Crdc.verifyAdditionalContactInfo"(
     	int fNameRN	
      , 	int lNameRN	
@@ -310,20 +254,14 @@ def static "ctdc.utilities.Crdc.verifyAdditionalContactInfo"(
          , 	phoneRN)
 }
 
- /**
-	 * This function verifies program info on review page
-	 * @param rowNumber
-	 */ 
+
 def static "ctdc.utilities.Crdc.verifyProgramInfo"(
     	int rowNumber	) {
     (new ctdc.utilities.Crdc()).verifyProgramInfo(
         	rowNumber)
 }
 
- /**
-	 * This function verifies study information on the review page
-	 * @param dataFileRowNum Please add data file row number to be read
-	 */ 
+
 def static "ctdc.utilities.Crdc.verifyStudyInfo"(
     	int stdyTitleRN	
      , 	int stdyAbbRN	
@@ -334,10 +272,7 @@ def static "ctdc.utilities.Crdc.verifyStudyInfo"(
          , 	stdyDesRN)
 }
 
- /**
-	 *  This function verifies Funding Agency and DbGaP information on the review page
-	 * @param dataFileRowNum Data file row number to be read
-	 */ 
+
 def static "ctdc.utilities.Crdc.verifyFundingAgencyAndDbGaPInfo"(
     	int fundinAgency	
      , 	int grntRN	
@@ -352,10 +287,7 @@ def static "ctdc.utilities.Crdc.verifyFundingAgencyAndDbGaPInfo"(
          , 	dbgapPhsNumRN)
 }
 
- /**
-	 *  This function verifies Publications information on the review page
-	 * @param dataFileRowNum Please add data file row number to be read
-	 */ 
+
 def static "ctdc.utilities.Crdc.verifyPublicationsInfo"(
     	int publiTitRN	
      , 	int pubmedIdRN	
@@ -368,10 +300,7 @@ def static "ctdc.utilities.Crdc.verifyPublicationsInfo"(
          , 	plndPublTitleRN)
 }
 
- /**
-	 *  This function verifies Repository information on the review page
-	 * @param dataFileRowNum Please add data file row number to be read
-	 */ 
+
 def static "ctdc.utilities.Crdc.verifyRepositoryInfo"(
     	String dropDownVlue	
      , 	int repoNamRN	
@@ -384,10 +313,7 @@ def static "ctdc.utilities.Crdc.verifyRepositoryInfo"(
          , 	otherDataTypRN)
 }
 
- /**
-	 * This function verifies Data Access Types and Cancer Types on the review page
-	 * @param dataFileRowNum Please add data file row number to be read
-	 */ 
+
 def static "ctdc.utilities.Crdc.verifyDataAccessAndDiseaseInfo"(
     	String cancerType	
      , 	String preCancerType	
@@ -404,20 +330,14 @@ def static "ctdc.utilities.Crdc.verifyDataAccessAndDiseaseInfo"(
          , 	numOfSubjectRN)
 }
 
- /**
-	 * This function verifies Data Types of the submission request form review page
-	 * @param buttonLable Toggle button label to be clicked (enter only one word per toggle button)
-	 */ 
+
 def static "ctdc.utilities.Crdc.verifyDataTypes"(
     	String[] buttonLable	) {
     (new ctdc.utilities.Crdc()).verifyDataTypes(
         	buttonLable)
 }
 
- /**
-	 * This function verifies File Types on review page
-	 * @param  Row Number of the data to be verified
-	 */ 
+
 def static "ctdc.utilities.Crdc.verifyFileTypes"(
     	int fileTypRN	
      , 	int fileExtRN	
@@ -430,9 +350,7 @@ def static "ctdc.utilities.Crdc.verifyFileTypes"(
          , 	dataSizeRN)
 }
 
- /**
-	 * This function clicks on submit and confirm submit buttons
-	 */ 
+
 def static "ctdc.utilities.Crdc.clickSubmitButton"() {
     (new ctdc.utilities.Crdc()).clickSubmitButton()
 }
@@ -452,36 +370,19 @@ def static "ctdc.utilities.runtestcaseforKatalon.Login"(
          , 	PasswdNxtBtn)
 }
 
- /**
-	 * This function reads the new excel file name from InputFiles
-	 * @param input_file
-	 */ 
+
 def static "ctdc.utilities.runtestcaseforKatalon.RunKatalon"(
     	String input_file	) {
     (new ctdc.utilities.runtestcaseforKatalon()).RunKatalon(
         	input_file)
 }
 
- /**for case detail level automation
-	 * @return
-	 */ 
+
 def static "ctdc.utilities.runtestcaseforKatalon.getPageSwitch"() {
     (new ctdc.utilities.runtestcaseforKatalon()).getPageSwitch()
 }
 
- /**
-	 * This function reads the results table and writes the web and database data to excel
-	 * This function also verifies the stat-bar counts and compares the web and database excels
-	 * @param appName
-	 * @param statVal
-	 * @param tbl
-	 * @param tblHdr
-	 * @param nxtBtn
-	 * @param webdataSheetName
-	 * @param dbdataSheetName
-	 * @param tabQuery
-	 * @throws IOException
-	 */ 
+
 def static "ctdc.utilities.runtestcaseforKatalon.multiFunction"(
     	String appName	
      , 	String statVal	
@@ -502,12 +403,7 @@ def static "ctdc.utilities.runtestcaseforKatalon.multiFunction"(
          , 	tabQuery)
 }
 
- /**
-	 * Gayathri will updata the details
-	 * @param sTblbdy1
-	 * @param sTblHdr1
-	 * @param webSheetName
-	 */ 
+
 def static "ctdc.utilities.runtestcaseforKatalon.readSelectedCols"(
     	String sTblbdy1	
      , 	String sTblHdr1	
@@ -527,15 +423,7 @@ def static "ctdc.utilities.runtestcaseforKatalon.verifyCDSFacetExpansion"(
         	CDSFacet)
 }
 
- /**
-	 * This function reads cases table
-	 * @param statVal1
-	 * @param tbl1
-	 * @param hdr1
-	 * @param nxtb1
-	 * @param webSheetName
-	 * @throws IOException
-	 */ 
+
 def static "ctdc.utilities.runtestcaseforKatalon.ReadCasesTableKatalon"(
     	String statVal1	
      , 	String tbl1	
@@ -550,15 +438,7 @@ def static "ctdc.utilities.runtestcaseforKatalon.ReadCasesTableKatalon"(
          , 	webSheetName)
 }
 
- /**
-	 * This function reads Bento Statbar
-	 * @param bProgs
-	 * @param bArms
-	 * @param bCases
-	 * @param bSamples
-	 * @param bAssays
-	 * @param bFiles
-	 */ 
+
 def static "ctdc.utilities.runtestcaseforKatalon.readStatBarBento"(
     	String bProgs	
      , 	String bArms	
@@ -575,25 +455,14 @@ def static "ctdc.utilities.runtestcaseforKatalon.readStatBarBento"(
          , 	bFiles)
 }
 
- /**
-	 * This function reads the count displayed near the cart icon in ICDC
-	 * @param cmyCartCount
-	 */ 
+
 def static "ctdc.utilities.runtestcaseforKatalon.readMyCartCount"(
     	String cmyCartCount	) {
     (new ctdc.utilities.runtestcaseforKatalon()).readMyCartCount(
         	cmyCartCount)
 }
 
- /**
-	 * This function reads Canine Statbar
-	 * @param cProgs
-	 * @param cStuds
-	 * @param cCases
-	 * @param cSamples
-	 * @param cFiles
-	 * @param cStudyFiles
-	 */ 
+
 def static "ctdc.utilities.runtestcaseforKatalon.readStatBarCanine"(
     	String cProgs	
      , 	String cStuds	
@@ -610,14 +479,7 @@ def static "ctdc.utilities.runtestcaseforKatalon.readStatBarCanine"(
          , 	cStudyFiles)
 }
 
- /**
-	 * This function reads CCDI Hub Statbar
-	 * @param cStuds
-	 * @param cParticip
-	 * @param cSamples
-	 * @param cFiles
-	 //@param cDiag  - this will be used later when diag is available in stat bar
-	 */ 
+
 def static "ctdc.utilities.runtestcaseforKatalon.readStatBarCCDIhub"(
     	String cStuds	
      , 	String cParticip	
@@ -630,12 +492,7 @@ def static "ctdc.utilities.runtestcaseforKatalon.readStatBarCCDIhub"(
          , 	cFiles)
 }
 
- /**
-	 * This function reads CTDC Statbar
-	 * @param tTrials
-	 * @param tCases
-	 * @param tFiles
-	 */ 
+
 def static "ctdc.utilities.runtestcaseforKatalon.readTrialsStatBar"(
     	String tTrials	
      , 	String tCases	
@@ -665,12 +522,7 @@ def static "ctdc.utilities.runtestcaseforKatalon.readINSStatBar"(
          , 	tPatents)
 }
 
- /**
-	 * This function reads GMB Statbar
-	 * @param gTrials
-	 * @param gSubjects
-	 * @param gFiles
-	 */ 
+
 def static "ctdc.utilities.runtestcaseforKatalon.readGMBStatBar"(
     	String gTrials	
      , 	String gSubjects	
@@ -681,14 +533,7 @@ def static "ctdc.utilities.runtestcaseforKatalon.readGMBStatBar"(
          , 	gFiles)
 }
 
- /**
-	 * This function reads CDS Statbar
-	 * @param cdsStuds
-	 * @param cdsDisesSite
-	 * @param cdsParticipants
-	 * @param cdsSamples
-	 * @param cdsFiles
-	 */ 
+
 def static "ctdc.utilities.runtestcaseforKatalon.readStatBarCDS"(
     	String cdsStuds	
      , 	String cdsParticipants	
@@ -708,9 +553,7 @@ def static "ctdc.utilities.runtestcaseforKatalon.givexpath"(
         	objname)
 }
 
- /**
-	 * This function is used for bento local find functionality
-	 */ 
+
 def static "ctdc.utilities.runtestcaseforKatalon.BentoLocalFindDdn"() {
     (new ctdc.utilities.runtestcaseforKatalon()).BentoLocalFindDdn()
 }
@@ -908,11 +751,7 @@ def static "ctdc.utilities.RunTestcase.browserDriver"(
         	browserName)
 }
 
- /**
-	 * This function reads input excels and assigns global variables to each query...
-	 * @param sheetData
-	 * @param dr
-	 */ 
+
 def static "ctdc.utilities.ICDCcaseDetails.readInput"(
     	String input_file	) {
     (new ctdc.utilities.ICDCcaseDetails()).readInput(
@@ -1249,19 +1088,7 @@ def static "ctdc.utilities.FileOperations.deleteFiles"() {
     (new ctdc.utilities.FileOperations()).deleteFiles()
 }
 
- /**
-	 * This function reads the results table and writes the web and database data to excel
-	 * This function also verifies the stat-bar counts and compares the web and database excels
-	 * @param appName
-	 * @param statVal
-	 * @param tbl
-	 * @param tblHdr
-	 * @param nxtBtn
-	 * @param webdataSheetName
-	 * @param dbdataSheetName
-	 * @param tabQuery
-	 * @throws IOException
-	 */ 
+
 def static "ctdc.utilities.functions.multiFunction"(
     	String appName	
      , 	String statVal	
@@ -1282,15 +1109,7 @@ def static "ctdc.utilities.functions.multiFunction"(
          , 	tabQuery)
 }
 
- /**
-	 * This function reads cases table
-	 * @param statVal1
-	 * @param tbl1
-	 * @param hdr1
-	 * @param nxtb1
-	 * @param webSheetName
-	 * @throws IOException
-	 */ 
+
 def static "ctdc.utilities.functions.ReadTabKatalon"(
     	String statVal1	
      , 	String tbl1	
@@ -1335,15 +1154,6 @@ def static "ctdc.utilities.sandbox.tablesize"() {
 }
 
 
-def static "com.kms.katalon.keyword.applitools.BasicKeywords.checkElement"(
-    	Eyes eyes	
-     , 	WebElement element	) {
-    (new com.kms.katalon.keyword.applitools.BasicKeywords()).checkElement(
-        	eyes
-         , 	element)
-}
-
-
 def static "com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow"(
     	String testName	) {
     (new com.kms.katalon.keyword.applitools.BasicKeywords()).checkWindow(
@@ -1360,6 +1170,15 @@ def static "com.kms.katalon.keyword.applitools.BasicKeywords.checkTestObject"(
 }
 
 
+def static "com.kms.katalon.keyword.applitools.BasicKeywords.checkElement"(
+    	Eyes eyes	
+     , 	WebElement element	) {
+    (new com.kms.katalon.keyword.applitools.BasicKeywords()).checkElement(
+        	eyes
+         , 	element)
+}
+
+
 def static "com.kms.katalon.keyword.applitools.EyesKeywords.eyesOpenWithBaseline"(
     	String baselineName	
      , 	String testName	
@@ -1367,15 +1186,6 @@ def static "com.kms.katalon.keyword.applitools.EyesKeywords.eyesOpenWithBaseline
     (new com.kms.katalon.keyword.applitools.EyesKeywords()).eyesOpenWithBaseline(
         	baselineName
          , 	testName
-         , 	viewportSize)
-}
-
-
-def static "com.kms.katalon.keyword.applitools.EyesKeywords.eyesOpen"(
-    	String testName	
-     , 	RectangleSize viewportSize	) {
-    (new com.kms.katalon.keyword.applitools.EyesKeywords()).eyesOpen(
-        	testName
          , 	viewportSize)
 }
 
@@ -1389,4 +1199,13 @@ def static "com.kms.katalon.keyword.applitools.EyesKeywords.eyesClose"(
 
 def static "com.kms.katalon.keyword.applitools.EyesKeywords.eyesInit"() {
     (new com.kms.katalon.keyword.applitools.EyesKeywords()).eyesInit()
+}
+
+
+def static "com.kms.katalon.keyword.applitools.EyesKeywords.eyesOpen"(
+    	String testName	
+     , 	RectangleSize viewportSize	) {
+    (new com.kms.katalon.keyword.applitools.EyesKeywords()).eyesOpen(
+        	testName
+         , 	viewportSize)
 }
