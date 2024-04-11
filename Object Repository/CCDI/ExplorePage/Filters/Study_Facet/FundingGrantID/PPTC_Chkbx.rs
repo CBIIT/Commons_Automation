@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>RNASeq_Chkbx</name>
+   <name>PPTC_Chkbx</name>
    <tag></tag>
-   <elementGuidId>2f1dfd4e-d250-4211-93df-0b30ee7ee835</elementGuidId>
+   <elementGuidId>9bba37c3-2aa5-4746-92b2-87a617d59758</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Library strategy_RNA-Seq&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Funding Grant ID_PPTC&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Library strategy_RNA-Seq&quot;]</value>
-      <webElementGuid>1aec35bc-b387-45a4-9562-f7512daf0229</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Funding Grant ID_PPTC&quot;]</value>
+      <webElementGuid>1a7b842b-ef1f-4aa4-9199-db9ffbf5cdcd</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
