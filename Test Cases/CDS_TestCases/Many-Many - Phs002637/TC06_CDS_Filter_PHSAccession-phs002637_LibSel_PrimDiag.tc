@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC06_CDS_Filter_PHSAccession-phs002637_LibSel_PrimDiag</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>32404bf1-b909-4dea-b763-fd70d74954e4</testCaseGuid>
+</TestCaseEntity>
