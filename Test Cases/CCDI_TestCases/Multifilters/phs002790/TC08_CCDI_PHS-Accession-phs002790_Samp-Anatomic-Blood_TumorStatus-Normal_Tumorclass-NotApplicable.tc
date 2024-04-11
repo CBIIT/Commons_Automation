@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC08_CCDI_PHS-Accession-phs002790_Samp-Anatomic-Blood_TumorStatus-Normal_Tumorclass-NotApplicable</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <testCaseGuid>658c21e7-662a-414d-a532-4d89d13b03ea</testCaseGuid>
+</TestCaseEntity>

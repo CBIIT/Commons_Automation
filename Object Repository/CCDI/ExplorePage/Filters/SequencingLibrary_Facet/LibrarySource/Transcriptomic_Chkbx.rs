@@ -3,7 +3,7 @@
    <description></description>
    <name>Transcriptomic_Chkbx</name>
    <tag></tag>
-   <elementGuidId>fa19e1ff-5670-4d74-aff5-3b29e169aa00</elementGuidId>
+   <elementGuidId>2a0431d0-eca0-47f9-a985-01d18c8c1525</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -19,6 +19,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;checkbox_Library source_Transcriptomic&quot;]</value>
-      <webElementGuid>1c6cf98f-2ba1-4780-9a23-c64bd6e5d5b3</webElementGuid>
+      <webElementGuid>006e1394-edbd-426c-b554-5dd9f187531a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
