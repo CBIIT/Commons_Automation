@@ -3,7 +3,7 @@
    <description></description>
    <name>RNASeq_Chkbx</name>
    <tag></tag>
-   <elementGuidId>00c82613-fba1-4eff-8230-9cdd5970d064</elementGuidId>
+   <elementGuidId>2f1dfd4e-d250-4211-93df-0b30ee7ee835</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -19,6 +19,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;checkbox_Library strategy_RNA-Seq&quot;]</value>
-      <webElementGuid>7dfd1cec-4ab4-4b55-9009-3961393ab65d</webElementGuid>
+      <webElementGuid>1aec35bc-b387-45a4-9562-f7512daf0229</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

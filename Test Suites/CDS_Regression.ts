@@ -421,42 +421,42 @@
       <guid>75c4913d-4066-4031-9f53-545eca175d09</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/Multifilter/TC01_CDS_study-CIDR_ExprStrtgies-WGS_Gender-Female_TumorStatus-Normal</testCaseId>
+      <testCaseId>Test Cases/CDS_TestCases/Multifilter/TC01_CDS_PHSAccession2250_ExprStrtgies-WGS_Gender-Female_TumorStatus-Normal</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>9bdb6b75-c8d0-4b9e-923f-9429ce587511</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/Multifilter/TC02_CDS_study-CIDR_LibraryStrategy-NotSpecifiedindata_Gender-Female_SampleTumor-Normal</testCaseId>
+      <testCaseId>Test Cases/CDS_TestCases/Multifilter/TC02_CDSPHSAccession2250_LibraryStrategy-NotSpecifiedindata_Gender-Female_SampleTumor-Normal</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>3996bb24-77db-4a3d-806d-e8ec52dff0c9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/Multifilter/TC03_CDS_study-CIDR_LibraryStrategy-NotSpecifiedindata_Gender-Male_SampleTumor-Normal</testCaseId>
+      <testCaseId>Test Cases/CDS_TestCases/Multifilter/TC03_CDS_PHSAccession2250_LibraryStrategy-NotSpecifiedindata_Gender-Male_SampleTumor-Normal</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>ab79d148-4be0-412f-bc6c-9fc890490958</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/Multifilter/TC04_CDS_study-CIDR_ExprStrtgies-WGS_Gender-Male_TumorStatus-Normal</testCaseId>
+      <testCaseId>Test Cases/CDS_TestCases/Multifilter/TC04_CDS_ PHSAccession2250_ExprStrtgies-WGS_Gender-Male_TumorStatus-Normal</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>1c3c7564-da04-4e33-ada0-ee12e246bd45</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/Multifilter/TC05_CDS_study-CIDR_ExprStrtgies-WGS_Gender-Male_TumorStatus-Normal_FileType-CRAI</testCaseId>
+      <testCaseId>Test Cases/CDS_TestCases/Multifilter/TC05_CDS_PHSAccession2250_ExprStrtgies-WGS_Gender-Male_TumorStatus-Normal_FileType-CRAM</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>e674325e-37a4-486a-aa2b-1e5554b83083</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/Multifilter/TC07_CDS_study-CIDR_LibraryStrategy-NotSpecifiedindata_Gender-Male_SampleTumor-Normal_PHS Accession</testCaseId>
+      <testCaseId>Test Cases/CDS_TestCases/Multifilter/TC07_CDS_PHSAccession2305_ExpStrategy-WXS_Diag-Adenocarcinoma</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

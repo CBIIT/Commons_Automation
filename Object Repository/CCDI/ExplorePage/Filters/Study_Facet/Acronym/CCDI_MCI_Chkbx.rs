@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CCDI_MCI_Chkbx</name>
+   <tag></tag>
+   <elementGuidId>4e184ca9-3e3d-4abb-9f63-ab921833a484</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;checkbox_Acronym_CCDI-MCI&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;checkbox_Acronym_CCDI-MCI&quot;]</value>
+      <webElementGuid>64067d4f-8125-44ea-9645-8c5f12e69a52</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

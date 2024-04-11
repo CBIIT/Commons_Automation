@@ -89,6 +89,36 @@ CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.readStatBarCCDIhub'('Object
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.multiFunction'('CCDI', GlobalVariable.G_StatBar_Participants, 'Object Repository/CCDI/ExplorePage/CCDI_Participants_Tbl',
 	'Object Repository/CCDI/ExplorePage/CCDI_Participants_TblHdr', 'Object Repository/CCDI/ExplorePage/CCDI_Participants_TblNextBtn', GlobalVariable.G_WebTabnameParticipants,	GlobalVariable.G_CypherTabnameParticipants, GlobalVariable.G_QueryParticipantsTab)
 
+//clicking the Diagnosis tab
+WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Diagnosis_ResultsTab'), 5)
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('CCDI/ExplorePage/Diagnosis_ResultsTab')
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.multiFunction'('CCDI', GlobalVariable.G_StatBar_Participants, 'CCDI/ExplorePage/CCDI_Diagnosis_Tbl',
+	'CCDI/ExplorePage/CCDI_Diagnosis_TblHdr', 'CCDI/ExplorePage/CCDI_Diagnosis_TblNextBtn',
+	GlobalVariable.G_WebTabnameDiagnosis, GlobalVariable.G_CypherTabnameDiagnosis, GlobalVariable.G_QueryDiagnosisTab)
+
+//when the stat for diagnosis gets added in the stat bar, then the above line should be updated for the global variable from participants to diagnosis.
+//clicking the Studies tab
+WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Studies_ResultsTab'), 5)
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('CCDI/ExplorePage/Studies_ResultsTab')
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.multiFunction'('CCDI', GlobalVariable.G_StatBar_Participants, 'CCDI/ExplorePage/CCDI_Studies_Tbl',
+    'CCDI/ExplorePage/CCDI_Studies_TblHdr', 'CCDI/ExplorePage/CCDI_Studies_TblNextBtn',
+    GlobalVariable.G_WebTabnameStudies, GlobalVariable.G_CypherTabnameStudies, GlobalVariable.G_QueryStudiesTab)
+
+//when the stat for diagnosis gets added in the stat bar, then the above line should be updated for the global variable from participants to diagnosis.
+//clicking the Samples tab
+WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Samples_ResultsTab'), 5)
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('CCDI/ExplorePage/Samples_ResultsTab')
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.multiFunction'('CCDI', GlobalVariable.G_StatBar_Samples, 'CCDI/ExplorePage/CCDI_Samples_Tbl',
+	'CCDI/ExplorePage/CCDI_Samples_TblHdr', 'CCDI/ExplorePage/CCDI_Samples_TblNextBtn',
+	GlobalVariable.G_WebTabnameSamples, GlobalVariable.G_CypherTabnameSamples, GlobalVariable.G_QuerySamplesTab)
+
+//clicking the Files tab
+WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Files_ResultsTab'), 5)
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('CCDI/ExplorePage/Files_ResultsTab')
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.multiFunction'('CCDI', GlobalVariable.G_StatBar_Files, 'CCDI/ExplorePage/CCDI_Files_Tbl',
+	'CCDI/ExplorePage/CCDI_Files_TblHdr', 'CCDI/ExplorePage/CCDI_Files_TblNextBtn',
+	GlobalVariable.G_WebTabnameFiles, GlobalVariable.G_CypherTabnameFiles, GlobalVariable.G_QueryFilesTab)
+
 WebUI.closeBrowser()
 
  

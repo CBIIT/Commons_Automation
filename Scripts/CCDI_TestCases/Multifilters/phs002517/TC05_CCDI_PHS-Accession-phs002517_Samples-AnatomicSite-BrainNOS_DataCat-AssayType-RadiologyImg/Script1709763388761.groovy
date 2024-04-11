@@ -76,7 +76,6 @@ CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repositor
 WebUI.waitForElementPresent(findTestObject('Object Repository/CCDI/ExplorePage/Filters/DataCategory_Facet/DataCategory_Facet'), 5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/CCDI/ExplorePage/Filters/DataCategory_Facet/DataCategory_Facet')
 
-
 WebUI.waitForElementPresent(findTestObject('Object Repository/CCDI/ExplorePage/Filters/DataCategory_Facet/AssayType/AssayType_Ddn'), 5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/CCDI/ExplorePage/Filters/DataCategory_Facet/AssayType/AssayType_Ddn')
 

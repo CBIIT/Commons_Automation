@@ -15,7 +15,7 @@
       <guid>cb6b2238-4d8e-4dcb-ae3d-8cd257582bd1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/Many-Many - Phs002517/TC19_CDS_Filter_PHSAccession-phs002517</testCaseId>
+      <testCaseId>Test Cases/CDS_TestCases/PHS_Accession/TC19_CDS_Filter_PHSAccession-phs002517</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
