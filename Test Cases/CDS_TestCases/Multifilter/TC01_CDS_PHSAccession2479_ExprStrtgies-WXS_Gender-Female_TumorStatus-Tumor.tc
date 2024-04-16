@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CDS_PHSAccession2479_ExprStrtgies-WXS_Gender-Female_TumorStatus-Tumor</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2af88915-9e06-478c-a84d-8fe314f2d6a1</testCaseGuid>
+</TestCaseEntity>

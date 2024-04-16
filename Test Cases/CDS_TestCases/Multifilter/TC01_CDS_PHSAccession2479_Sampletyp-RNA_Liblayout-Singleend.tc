@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CDS_PHSAccession2479_Sampletyp-RNA_Liblayout-Singleend</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c46de212-2e9c-410f-817e-016b5643045c</testCaseGuid>
+</TestCaseEntity>
