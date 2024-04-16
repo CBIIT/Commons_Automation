@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CDS_PHSAccession-phs003111_Gender_StdyName_ExpermStrtgy</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fe9e38e4-e567-47ee-997b-35b49324deaa</testCaseGuid>
+</TestCaseEntity>
