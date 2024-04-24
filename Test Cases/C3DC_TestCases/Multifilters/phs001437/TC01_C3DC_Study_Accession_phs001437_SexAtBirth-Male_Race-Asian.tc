@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC01_C3DC_PHS_Accession_phs00467_SexAtBirth-Male_Race-Asian</name>
+   <name>TC01_C3DC_Study_Accession_phs001437_SexAtBirth-Male_Race-Asian</name>
    <tag>Filter</tag>
    <comment></comment>
-   <testCaseGuid>c43353d6-8cf6-42da-a201-06a6e70f3f2c</testCaseGuid>
+   <testCaseGuid>60b8dd12-6e36-47c1-ae44-6f77d5d555e0</testCaseGuid>
 </TestCaseEntity>

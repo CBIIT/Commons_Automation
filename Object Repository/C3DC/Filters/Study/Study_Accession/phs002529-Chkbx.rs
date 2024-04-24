@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Studies-Tbl</name>
+   <name>phs002529-Chkbx</name>
    <tag></tag>
-   <elementGuidId>80a8adda-3525-49ef-889b-b47c507cc846</elementGuidId>
+   <elementGuidId>e4c43285-1be1-4a29-a8fa-8a106cd48750</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;study_tab_table&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Study Accession_phs002529&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;study_tab_table&quot;]</value>
-      <webElementGuid>debc8efb-bc45-4059-af1d-13ab50854d72</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Study Accession_phs002529&quot;]</value>
+      <webElementGuid>d43ba2be-b669-4d12-b701-b2bd7cb8175d</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

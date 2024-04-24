@@ -151,10 +151,10 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 			filePath = Paths.get(usrDir, inputFiles, "Bento", input_file);
 		}else if(url.contains("caninecommons")) {
 			filePath = Paths.get(usrDir, inputFiles, "ICDC", input_file);
+		}else if(GlobalVariable.AppKey.equals("C3DC")) {
+			filePath = Paths.get(usrDir, inputFiles, "C3DC", input_file);
 		}else if(url.contains("ccdi")) {
 			filePath = Paths.get(usrDir, inputFiles, "CCDI", input_file);
-		}else if(url.contains("c3dc")) {
-			filePath = Paths.get(usrDir, inputFiles, "C3DC", input_file);
 		}else if(url.contains("studycatalog")) {
 			filePath = Paths.get(usrDir, inputFiles, "INS", input_file);
 		}else if(url.contains("dataservice")) {
@@ -325,6 +325,9 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 						}else if(GlobalVariable.G_inputTabName=="PatentsTab"){
 							GlobalVariable.G_QueryPatentsTab = sheetData.get(i).get(j).getStringCellValue()
 							System.out.println("This is the value of Patents tab query from switch case : "+GlobalVariable.G_QueryPatentsTab)
+						}else if(GlobalVariable.G_inputTabName=="SurvivalTab"){
+							GlobalVariable.G_QuerySurvivalTab = sheetData.get(i).get(j).getStringCellValue()
+							System.out.println("This is the value of Survival tab query from switch case : "+GlobalVariable.G_QuerySurvivalTab)
 						}
 						break;
 
@@ -799,6 +802,22 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 				hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
 			}
 
+			//******** C3DC function starts below ********
+		}else if((GlobalVariable.AppKey.equals("C3DC")) && ((driver.getCurrentUrl()).contains("/explore"))){
+			System.out.println ("Control is about to go to explore switch ")
+			switchC3DC = getPageSwitch();
+			System.out.println ("Control is about to go to the switch for C3DC ")
+			switchString = "C3DC";
+			System.out.println ("This is the value of C3DC switch string returned by getcurrentpage function: "+switchC3DC)
+
+			columns_count = (colHeader.size())
+			columns_count=columns_count-1;
+			System.out.println("Inside C3DC switch case for header data::  " +columns_count)
+			for(int c=0;c<=columns_count;c++){
+				//if column header = 'Access' ignore adding it to the hdrdata string
+				hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
+			}
+
 			//******** CCDI function starts here ********
 		}else if(((driver.getCurrentUrl()).contains("ccdi")) && ((driver.getCurrentUrl()).contains("/explore"))){
 			System.out.println ("Control is about to go to case switch ")
@@ -806,22 +825,6 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 			System.out.println ("Control is about to go to the switch for CCDI ")
 			switchString = "CCDI";
 			System.out.println ("This is the value of CCDI switch string returned by getcurrentpage function: "+switchCCDI)
-
-			columns_count = (colHeader.size())
-			columns_count=columns_count-1;
-			System.out.println("Inside CCDI switch case for header data::  " +columns_count)
-			for(int c=1;c<=columns_count;c++){
-				//if column header = 'Access' ignore adding it to the hdrdata string
-				hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
-			}
-
-			//******** C3DC function starts below ********
-		}else if(((driver.getCurrentUrl()).contains("c3dc")) && ((driver.getCurrentUrl()).contains("/explore"))){
-			System.out.println ("Control is about to go to explore switch ")
-			switchCCDI = getPageSwitch();
-			System.out.println ("Control is about to go to the switch for C3DC ")
-			switchString = "C3DC";
-			System.out.println ("This is the value of C3DC switch string returned by getcurrentpage function: "+switchC3DC)
 
 			columns_count = (colHeader.size())
 			columns_count=columns_count-1;
@@ -1106,8 +1109,6 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 										if(((tbl_main).equals("//*[@id='sample_tab_table']")) && (colHeader.get(j).getAttribute("innerText")=="Age at Sample Collection")) {
 											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
 											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]")).getAttribute("innerText")) +"||")
-
-
 										}else {
 											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
 											//*[@id="sample_tab_table"]/div[2]/table/tbody/tr[1]/td[2]/p
@@ -1138,39 +1139,32 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 					if(switchString == "C3DC"){
 						switch(switchC3DC){
 							case("/explore"):
-								System.out.println("Inside CCDI switch case for body data")
-								int tblcol=GlobalVariable.G_rowcountFiles
-								System.out.println ("This is the value of tblcol from CCDI body data :"+tblcol)
+								System.out.println("Inside C3DC switch case for body data")
+								int tblcol=8
+
+								System.out.println ("This is the value of tblcol from C3DC body data :"+tblcol)
 
 								if((tbl_main).equals('//*[@id="participant_tab_table"]')){
-									tblcol=tblcol-2;    //8-3=5 leaves out alternate id col   change to 8-2
-									for (int j = 1; j <=tblcol; j = j +1) {
+									tblcol=tblcol-4;
+									for (int j = 0; j <tblcol; j = j +1) {
 										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
 										System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
-										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/p")).getAttribute("innerText")) +"||")
+										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/td[" + (j+1) +"]")).getAttribute("innerText")) +"||")
 										System.out.println("This is the value of data : "+data)
 									}
-								}else if((tbl_main).equals("//*[@id='diagnosis_tab_table']")){
+								}else if((tbl_main).equals('//*[@id="diagnosis_tab_table"]')){
 									System.out.println("Inside C3DC diagnosis switch")
-									tblcol=tblcol+3;  //tblcol comes from the top as 8. need to add 3 to get 11 cols
+									tblcol=tblcol-1;
 									System.out.println("Value of tblcol from the diagnosis section is: "+tblcol)
-									for (int j = 1; j <=tblcol; j = j +1) {
+									for (int j = 0; j <tblcol; j = j +1) {
 										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
-										// only for this Age column the xpath will not have the /p tag
-										if(((tbl_main).equals("//*[@id='diagnosis_tab_table']")) && (colHeader.get(j).getAttribute("innerText")=="Age at Diagnosis (days)")) {
-											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
-											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]")).getAttribute("innerText")) +"||")
-										}else {
-
-											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
-											//*[@id="participant_tab_table"]/div[2]/table/tbody/tr[1]/td[3]/p
-											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/p")).getAttribute("innerText")) +"||")
-										}
+										System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/td[" + (j+1) +"]/p")).getAttribute("innerText")) +"||")
 										System.out.println("This is the value of data : "+data)
 									}
 								}else if((tbl_main).equals("//*[@id='survival_tab_table']")){
 									System.out.println("Inside C3DC survival switch")
-									tblcol=tblcol+3;
+									tblcol=tblcol-4;
 									System.out.println("Value of tblcol from the survival section is: "+tblcol)
 									for (int j = 1; j <=tblcol; j = j +1) {
 										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
@@ -1179,7 +1173,7 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 									}
 								}else if((tbl_main).equals("//*[@id='study_tab_table']")){
 									System.out.println("Inside C3DC studies switch")
-									tblcol=tblcol+3;
+									tblcol=tblcol-5;
 									System.out.println("Value of tblcol from the studies section is: "+tblcol)
 									for (int j = 1; j <=tblcol; j = j +1) {
 										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
@@ -1643,6 +1637,34 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 
 
 	/**
+	 * This function reads C3DC Statbar
+	 * @param cStuds
+	 * @param cParticip
+	 * @param cSamples
+	 * @param cFiles
+	 //@param cDiag  - this will be used later when diag is available in stat bar
+	 */
+	@Keyword
+	public void readStatBarC3DC(String cDiags, String cParticip, String cStudies) {
+		Thread.sleep(5000);
+
+		String xcDiags = givexpath(cDiags)
+		String xcParticip = givexpath(cParticip)
+		String xcStudies = givexpath(cStudies)
+
+		System.out.println ("Inside read stat bar function for C3DC");
+		Thread.sleep(2000)
+		GlobalVariable.G_StatBar_Diagnosis = driver.findElement(By.xpath(xcDiags)).getAttribute("innerText");
+		System.out.println("This is the value of Diagnosis count from Stat bar: "+GlobalVariable.G_StatBar_Diagnosis)
+		Thread.sleep(2000)
+		GlobalVariable.G_StatBar_Participants = driver.findElement(By.xpath(xcParticip)).getAttribute("innerText");
+		System.out.println("This is the value of Participants count from Stat bar: "+GlobalVariable.G_StatBar_Participants)
+		Thread.sleep(2000)
+		GlobalVariable.G_StatBar_Studies = driver.findElement(By.xpath(xcStudies)).getAttribute("innerText");
+		System.out.println("This is the value of Studies count from Stat bar: "+GlobalVariable.G_StatBar_Studies)
+	}
+
+	/**
 	 * This function reads CTDC Statbar
 	 * @param tTrials
 	 * @param tCases
@@ -2058,33 +2080,29 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 
 					if( l1NullFlag || l2NullFlag ) continue   //if the data mismatches, print the data found in ui and db
 						System.out.println("UI data value is: "+ l1rowList.get(col).getStringCellValue() + "\nDB data value is: "+ l2rowList.get(col).getStringCellValue() )
-//added based on Wei's suggestions to fix  newline issue
-						String l1Value = l1rowList.get(col).getStringCellValue();
-						String l2Value = l2rowList.get(col).getStringCellValue();
-						if (l2Value.contains("\\n")) {
-							String new_line = System.getProperty("line.separator");
-							l2Value = l2Value.split("\\\\n").join(new_line);
-						}
-						System.out.println("UI data value is: "+ l1Value + "\nDB data value is: "+ l2Value );
+					//added based on Wei's suggestions to fix  newline issue
+					String l1Value = l1rowList.get(col).getStringCellValue();
+					String l2Value = l2rowList.get(col).getStringCellValue();
+					if (l2Value.contains("\\n")) {
+						String new_line = System.getProperty("line.separator");
+						l2Value = l2Value.split("\\\\n").join(new_line);
+					}
+					System.out.println("UI data value is: "+ l1Value + "\nDB data value is: "+ l2Value );
 					/*	if( l1Value == l2Value){
-							 System.out.println("Content matches for col number : " + col )
-							}else{
-								
-							
-						
-						//above is added based on Wei's suggestions to fix  newline issue
-								//remove the comment fromt he 3 lines below if you want to undo wei's fix'
-//					if( l1rowList.get(col).getStringCellValue() == l2rowList.get(col).getStringCellValue() ){
-//						System.out.println("Content matches for col number : " + col )
-//					}else{
-						System.err.println("***********DATA MISMATCH:  ABORTING RUN********************")
-						System.out.println("Content does not match for col: " + col )
-						System.out.println( "UI data Value (mismatch): " + l1rowList.get(col).getStringCellValue() )
-						System.out.println( "DB data Value (mismatch): " + l2rowList.get(col).getStringCellValue() )
-						KeywordUtil.markFailed("***********DATA MISMATCH in comparelists:  ABORTING RUN********************");
-
-						//add steps for handling failure
-					} */
+					  System.out.println("Content matches for col number : " + col )
+					 }else{
+					 //above is added based on Wei's suggestions to fix  newline issue
+					 //remove the comment fromt he 3 lines below if you want to undo wei's fix'
+					 //					if( l1rowList.get(col).getStringCellValue() == l2rowList.get(col).getStringCellValue() ){
+					 //						System.out.println("Content matches for col number : " + col )
+					 //					}else{
+					 System.err.println("***********DATA MISMATCH:  ABORTING RUN********************")
+					 System.out.println("Content does not match for col: " + col )
+					 System.out.println( "UI data Value (mismatch): " + l1rowList.get(col).getStringCellValue() )
+					 System.out.println( "DB data Value (mismatch): " + l2rowList.get(col).getStringCellValue() )
+					 KeywordUtil.markFailed("***********DATA MISMATCH in comparelists:  ABORTING RUN********************");
+					 //add steps for handling failure
+					 } */
 				}
 				//				}else{
 				//					System.out.println("UI Data and DB Data are not matching for :")
@@ -2267,12 +2285,10 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 			System.out.println("This is the value of Diagnosis Count from Neo4j result: "+statData.get(0).get(0).getStringCellValue())  //add in the query in input file later
 			System.out.println("This is the value of Participants Count from Neo4j result: "+statData.get(0).get(1).getStringCellValue())
 			System.out.println("This is the value of Studies Count from Neo4j result: "+statData.get(0).get(2).getStringCellValue())
-			//System.out.println("This is the value of Files Count from Neo4j result: "+statData.get(0).get(3).getStringCellValue())
 
-			(statData.get(0).get(0).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Studies)) ? KeywordUtil.markPassed("Statbar Diagnosis count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Diagnosis count")
+			(statData.get(0).get(0).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Diagnosis)) ? KeywordUtil.markPassed("Statbar Diagnosis count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Diagnosis count")
 			(statData.get(0).get(1).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Participants)) ? KeywordUtil.markPassed("Statbar Participants count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Participants count")
-			(statData.get(0).get(2).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Samples)) ? KeywordUtil.markPassed("Statbar Studies count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Studies count")
-			//(statData.get(0).get(3).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Files)) ? KeywordUtil.markPassed("Statbar Files count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Files count")
+			(statData.get(0).get(2).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Studies)) ? KeywordUtil.markPassed("Statbar Studies count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Studies count")
 		}
 	}
 
