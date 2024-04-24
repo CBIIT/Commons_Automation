@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Survival-Count</name>
+   <tag></tag>
+   <elementGuidId>b1249b2b-742a-465d-b7c5-7648c50c0769</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;statsbar_count_3&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;statsbar_count_3&quot;]</value>
+      <webElementGuid>453099c8-4e3d-4870-831b-4a6a0117e2cc</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

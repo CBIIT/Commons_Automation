@@ -71,35 +71,35 @@ CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('C3DC/Filters/Dem
 WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Demographics/Race/Asian_Chkbx'),5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('C3DC/Filters/Demographics/Race/Asian_Chkbx')
 
-//Read Statbar
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.readStatBarC3DC'('C3DC/Statbar/Diagnosis-Count', 'C3DC/Statbar/Participants-Count', 
-    'C3DC/Statbar/Studies-Count')
-
+//Read StatbafindTestObject('Object Repository/C3DC/Statbar/Survival-Count')r
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.readStatBarC3DC'( 'C3DC/Statbar/Participants-Count', 'C3DC/Statbar/Diagnosis-Count','Object Repository/C3DC/Statbar/Survival-Count', 'Object Repository/C3DC/Statbar/Studies-Count')
+// currently survival statbar count points to studies.   this is to tbe changed to the correct value of survival stat once it is available in the ui.
+/*
 //Clicking the Participants tab - By default Participants tab is clicked
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.multiFunction'('C3DC', GlobalVariable.G_StatBar_Participants, 'C3DC/ResultTabs/Participants-Tbl', 
     'C3DC/ResultTabs/Participants-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', 
     GlobalVariable.G_WebTabnameParticipants, GlobalVariable.G_CypherTabnameParticipants, GlobalVariable.G_QueryParticipantsTab)
-
+ 
 
 //Clicking Diagnosis tab
 WebUI.waitForElementPresent(findTestObject('C3DC/ResultTabs/Diagnosis-Tab'), 5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('C3DC/ResultTabs/Diagnosis-Tab')
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.multiFunction'('C3DC', GlobalVariable.G_StatBar_Diagnosis, 'C3DC/ResultTabs/Diagnosis-Tbl', 
     'C3DC/ResultTabs/Diagnosis-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameDiagnosis, GlobalVariable.G_CypherTabnameDiagnosis, GlobalVariable.G_QueryDiagnosisTab)
-
+*/
 
 //Clicking Survival tab
 WebUI.waitForElementPresent(findTestObject('C3DC/ResultTabs/Survival-Tab'), 5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('C3DC/ResultTabs/Survival-Tab')
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.multiFunction'('C3DC', GlobalVariable.G_StatBar_Survival, 'C3DC/ResultTabs/Survival-Tbl', 
     'C3DC/ResultTabs/Survival-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameSurvival, GlobalVariable.G_CypherTabnameSurvival, GlobalVariable.G_QuerySurvivalTab)
-
+/*
 //Clicking the Studies tab
 WebUI.waitForElementPresent(findTestObject('C3DC/ResultTabs/Studies-Tab'), 5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('C3DC/ResultTabs/Studies-Tab')
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.multiFunction'('C3DC', GlobalVariable.G_StatBar_Participants, 'C3DC/ResultTabs/Studies-Tbl', 
     'C3DC/ResultTabs/Studies-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', 
     GlobalVariable.G_WebTabnameStudies, GlobalVariable.G_CypherTabnameStudies, GlobalVariable.G_QueryStudiesTab)
-
+*/
 WebUI.closeBrowser()
 
