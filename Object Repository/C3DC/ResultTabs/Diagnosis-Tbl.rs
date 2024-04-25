@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;diagnosis_tab_table&quot;]/div[3]/table</value>
+         <value>//*[@id=&quot;diagnosis_tab_table&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;diagnosis_tab_table&quot;]/div[3]/table</value>
-      <webElementGuid>c7ca2bd3-0c46-49ba-8d5d-b9fad80b3c13</webElementGuid>
+      <value>//*[@id=&quot;diagnosis_tab_table&quot;]</value>
+      <webElementGuid>22baef27-2b44-4514-b37e-ffb331830df6</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

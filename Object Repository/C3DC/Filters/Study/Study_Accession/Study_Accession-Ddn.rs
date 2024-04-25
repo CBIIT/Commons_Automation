@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Studies-Tbl</name>
+   <name>Study_Accession-Ddn</name>
    <tag></tag>
-   <elementGuidId>80a8adda-3525-49ef-889b-b47c507cc846</elementGuidId>
+   <elementGuidId>1ec44fa3-3ff0-4c86-b1ec-1ac6858a88c4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;study_tab_table&quot;]</value>
+         <value>(//*[@id=&quot;Study Accession&quot;])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;study_tab_table&quot;]</value>
-      <webElementGuid>debc8efb-bc45-4059-af1d-13ab50854d72</webElementGuid>
+      <value>(//*[@id=&quot;Study Accession&quot;])[1]</value>
+      <webElementGuid>100786d7-8fd0-4432-a273-7c52992d7a7a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

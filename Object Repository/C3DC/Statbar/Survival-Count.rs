@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Studies-Tbl</name>
+   <name>Survival-Count</name>
    <tag></tag>
-   <elementGuidId>80a8adda-3525-49ef-889b-b47c507cc846</elementGuidId>
+   <elementGuidId>b1249b2b-742a-465d-b7c5-7648c50c0769</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;study_tab_table&quot;]</value>
+         <value>//*[@id=&quot;statsbar_count_3&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;study_tab_table&quot;]</value>
-      <webElementGuid>debc8efb-bc45-4059-af1d-13ab50854d72</webElementGuid>
+      <value>//*[@id=&quot;statsbar_count_3&quot;]</value>
+      <webElementGuid>453099c8-4e3d-4870-831b-4a6a0117e2cc</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

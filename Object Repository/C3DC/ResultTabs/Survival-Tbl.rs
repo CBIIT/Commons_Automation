@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;survival_tab_table&quot;]/div[3]/table</value>
+         <value>//*[@id=&quot;survival_tab_table&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;survival_tab_table&quot;]/div[3]/table</value>
-      <webElementGuid>4ba335ea-2368-46e6-bcc8-94d16e1b36cc</webElementGuid>
+      <value>//*[@id=&quot;survival_tab_table&quot;]</value>
+      <webElementGuid>0d27c2db-89b2-4184-96ba-70750a936580</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
