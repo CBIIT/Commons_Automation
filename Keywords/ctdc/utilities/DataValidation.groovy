@@ -191,7 +191,6 @@ public class DataValidation extends runtestcaseforKatalon{
 				(webElemTxt.contentEquals(globalV)) ? KeywordUtil.markPassed(ElemLabel+" matches"): KeywordUtil.markFailed("Mismatch in "+ElemLabel)
 			}else {
 				System.out.println ("******************"+ElemLabel+" is not available for this dataset. The count returned by the size function is : "+elemPresent +"****************")
-
 			}
 		}//try ends
 		catch (Exception e) {

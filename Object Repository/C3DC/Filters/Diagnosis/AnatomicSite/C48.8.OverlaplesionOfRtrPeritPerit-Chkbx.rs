@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Female_Chkbx</name>
+   <name>C48.8.OverlaplesionOfRtrPeritPerit-Chkbx</name>
    <tag></tag>
-   <elementGuidId>743ce8d2-5f3f-469d-a00b-e43469f79afc</elementGuidId>
+   <elementGuidId>d97029eb-bd43-4414-93a7-3af11cbbf059</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Sex At Birth_Female&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Anatomic Site_C48.8 : Overlapping lesion of retroperitoneum and peritoneum&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Sex At Birth_Female&quot;]</value>
-      <webElementGuid>0be7ce65-f6c4-4550-9740-a18dcb196469</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Anatomic Site_C48.8 : Overlapping lesion of retroperitoneum and peritoneum&quot;]</value>
+      <webElementGuid>c855af2f-a762-441e-b407-7bb4148e38be</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

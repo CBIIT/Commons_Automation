@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_C3DC_Study_Accession_phs003111_Race-Diagnosis-DiseasePhase</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <testCaseGuid>0b1fb4ec-83a0-4882-ae49-b6ee10c660c4</testCaseGuid>
+</TestCaseEntity>

@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>DiagsCalsification-Ddn</name>
+   <name>Diagnisis-Ddn</name>
    <tag></tag>
    <elementGuidId>ebbd8f30-b959-4948-afe2-a4ee9d788437</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@id=&quot;Diagnosis Classification&quot;])[1]</value>
+         <value>(//*[@id=&quot;Diagnosis&quot;])[4]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@id=&quot;Diagnosis Classification&quot;])[1]</value>
-      <webElementGuid>fba2e1e6-addf-4a0e-bc76-a2029d847f9d</webElementGuid>
+      <value>(//*[@id=&quot;Diagnosis&quot;])[4]</value>
+      <webElementGuid>72657623-19d6-45b9-8037-45b03e62cfe2</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

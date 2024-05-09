@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Female_Chkbx</name>
+   <name>9500.3.NeuroblastomaNOS-Chkbx</name>
    <tag></tag>
-   <elementGuidId>743ce8d2-5f3f-469d-a00b-e43469f79afc</elementGuidId>
+   <elementGuidId>2d3ba66e-bc57-4466-a60c-5ad07b9d593c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Sex At Birth_Female&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Diagnosis_9500/3 : Neuroblastoma, NOS&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Sex At Birth_Female&quot;]</value>
-      <webElementGuid>0be7ce65-f6c4-4550-9740-a18dcb196469</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Diagnosis_9500/3 : Neuroblastoma, NOS&quot;]</value>
+      <webElementGuid>495562e7-935f-4463-b40e-7de8aa9c3693</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

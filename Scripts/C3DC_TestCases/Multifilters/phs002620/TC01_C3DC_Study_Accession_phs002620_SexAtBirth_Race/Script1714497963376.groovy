@@ -47,7 +47,8 @@ Sex - Female
 */
 WebUI.closeBrowser()
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC01_C3DC_Study_Accession_phs003111_SexAtBirth-Male.xlsx')
+//C3DC Study_Accession - phs002620 ; SexAtBirth - Female ; Race - Unknown
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC01_C3DC_Study_Accession_phs002620_SexAtBirth_Race.xlsx')
 
 WebUI.waitForElementPresent(findTestObject('C3DC/Navbar/Explore-Tab'), 5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('C3DC/Navbar/Explore-Tab')
@@ -58,53 +59,51 @@ CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('C3DC/Filters/Stu
 WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Study/Study_Accession/Study_Accession-Ddn'), 5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('C3DC/Filters/Study/Study_Accession/Study_Accession-Ddn')
 
-WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Study/Study_Accession/phs003111-Chkbx'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('C3DC/Filters/Study/Study_Accession/phs003111-Chkbx')
+WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Study/Study_Accession/phs002620-Chkbx'), 5)
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('C3DC/Filters/Study/Study_Accession/phs002620-Chkbx')
 
 WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Demographics/SexAtBirth/SexAtBirth_Ddn'),5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('C3DC/Filters/Demographics/SexAtBirth/SexAtBirth_Ddn')
 
-WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Demographics/SexAtBirth/Male_Chkbx'),5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('C3DC/Filters/Demographics/SexAtBirth/Male_Chkbx')
+WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Demographics/SexAtBirth/Female_Chkbx'),5)
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('C3DC/Filters/Demographics/SexAtBirth/Female_Chkbx')
+
+WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Demographics/Race/Race_Ddn'),5)
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('C3DC/Filters/Demographics/Race/Race_Ddn')
+
+WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Demographics/Race/Unknown_Chkbx'),5)
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('C3DC/Filters/Demographics/Race/Unknown_Chkbx')
+
 
 //Read Statbar
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.readStatBarC3DC'('C3DC/Statbar/Diagnosis-Count', 'C3DC/Statbar/Participants-Count', 
-    'C3DC/Statbar/Studies-Count')
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.readStatBarC3DC'( 'C3DC/Statbar/Participants-Count', 'C3DC/Statbar/Diagnosis-Count','Object Repository/C3DC/Statbar/Survival-Count', 'Object Repository/C3DC/Statbar/Studies-Count')
+// currently survival statbar count points to studies.   this is to tbe changed to the correct value of survival stat once it is available in the ui.
 
 //Clicking the Participants tab - By default Participants tab is clicked
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.multiFunction'('C3DC', GlobalVariable.G_StatBar_Participants, 'C3DC/ResultTabs/Participants-Tbl', 
     'C3DC/ResultTabs/Participants-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', 
     GlobalVariable.G_WebTabnameParticipants, GlobalVariable.G_CypherTabnameParticipants, GlobalVariable.G_QueryParticipantsTab)
+ 
+
+//Clicking Diagnosis tab
+WebUI.waitForElementPresent(findTestObject('C3DC/ResultTabs/Diagnosis-Tab'), 5)
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('C3DC/ResultTabs/Diagnosis-Tab')
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.multiFunction'('C3DC', GlobalVariable.G_StatBar_Diagnosis, 'C3DC/ResultTabs/Diagnosis-Tbl', 
+    'C3DC/ResultTabs/Diagnosis-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameDiagnosis, GlobalVariable.G_CypherTabnameDiagnosis, GlobalVariable.G_QueryDiagnosisTab)
 
 
-////clicking the Diagnosis tab
-//WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Diagnosis_ResultsTab'), 5)
-//CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('CCDI/ExplorePage/Diagnosis_ResultsTab')
-//CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.multiFunction'('CCDI', GlobalVariable.G_StatBar_Participants, 'CCDI/ExplorePage/CCDI_Diagnosis_Tbl', 
-//    'CCDI/ExplorePage/CCDI_Diagnosis_TblHdr', 'CCDI/ExplorePage/CCDI_Diagnosis_TblNextBtn', 
-//    GlobalVariable.G_WebTabnameDiagnosis, GlobalVariable.G_CypherTabnameDiagnosis, GlobalVariable.G_QueryDiagnosisTab)
-//
-////when the stat for diagnosis gets added in the stat bar, then the above line should be updated for the global variable from participants to diagnosis.
-////clicking the Studies tab
-//WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Studies_ResultsTab'), 5)
-//CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('CCDI/ExplorePage/Studies_ResultsTab')
-//CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.multiFunction'('CCDI', GlobalVariable.G_StatBar_Participants, 'CCDI/ExplorePage/CCDI_Studies_Tbl', 
-//    'CCDI/ExplorePage/CCDI_Studies_TblHdr', 'CCDI/ExplorePage/CCDI_Studies_TblNextBtn', 
-//    GlobalVariable.G_WebTabnameStudies, GlobalVariable.G_CypherTabnameStudies, GlobalVariable.G_QueryStudiesTab)
-//
-////when the stat for diagnosis gets added in the stat bar, then the above line should be updated for the global variable from participants to diagnosis.
-////clicking the Samples tab
-//WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Samples_ResultsTab'), 5)
-//CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('CCDI/ExplorePage/Samples_ResultsTab')
-//CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.multiFunction'('CCDI', GlobalVariable.G_StatBar_Samples, 'CCDI/ExplorePage/CCDI_Samples_Tbl', 
-//    'CCDI/ExplorePage/CCDI_Samples_TblHdr', 'CCDI/ExplorePage/CCDI_Samples_TblNextBtn', 
-//    GlobalVariable.G_WebTabnameSamples, GlobalVariable.G_CypherTabnameSamples, GlobalVariable.G_QuerySamplesTab)
-//
-////clicking the Files tab
-//WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Files_ResultsTab'), 5)
-//CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('CCDI/ExplorePage/Files_ResultsTab')
-//CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.multiFunction'('CCDI', GlobalVariable.G_StatBar_Files, 'CCDI/ExplorePage/CCDI_Files_Tbl', 
-//    'CCDI/ExplorePage/CCDI_Files_TblHdr', 'CCDI/ExplorePage/CCDI_Files_TblNextBtn', 
-//    GlobalVariable.G_WebTabnameFiles, GlobalVariable.G_CypherTabnameFiles, GlobalVariable.G_QueryFilesTab)
+//Clicking Survival tab
+WebUI.waitForElementPresent(findTestObject('C3DC/ResultTabs/Survival-Tab'), 5)
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('C3DC/ResultTabs/Survival-Tab')
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.multiFunction'('C3DC', GlobalVariable.G_StatBar_Survival, 'C3DC/ResultTabs/Survival-Tbl', 
+    'C3DC/ResultTabs/Survival-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameSurvival, GlobalVariable.G_CypherTabnameSurvival, GlobalVariable.G_QuerySurvivalTab)
+
+//Clicking the Studies tab
+WebUI.waitForElementPresent(findTestObject('C3DC/ResultTabs/Studies-Tab'), 5)
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('C3DC/ResultTabs/Studies-Tab')
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.multiFunction'('C3DC', GlobalVariable.G_StatBar_Participants, 'C3DC/ResultTabs/Studies-Tbl', 
+    'C3DC/ResultTabs/Studies-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', 
+    GlobalVariable.G_WebTabnameStudies, GlobalVariable.G_CypherTabnameStudies, GlobalVariable.G_QueryStudiesTab)
+
 WebUI.closeBrowser()
 
