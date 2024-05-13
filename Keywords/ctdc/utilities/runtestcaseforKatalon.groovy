@@ -448,9 +448,10 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 			ReadExcel.Neo4j(dbdataSheetName,tabQuery)
 			System.out.println("control is before compare lists function from multifunction")
 			compareLists(webdataSheetName, dbdataSheetName)
-			if(appName !='C3DC') {  //excluding c3dc from this validation currently as the stat bar doesnt match with the result tab counts
-			System.out.println("control is before validate stat bar function from multifunction")
-			validateStatBar(appName)
+			if(appName !='C3DC') {
+				//excluding c3dc from this validation currently as the stat bar doesnt match with the result tab counts
+				System.out.println("control is before validate stat bar function from multifunction")
+				validateStatBar(appName)
 			}
 		}else {
 			System.out.println("Skipping data collection from neo4j and compare lists of web and db as the stat value is 0")
@@ -1144,9 +1145,9 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 								System.out.println("Inside C3DC switch case for body data")
 								int tblcol;
 
-								//System.out.println ("This is the value of tblcol from C3DC body data :"+tblcol)
-System.out.println("this is the value of tbl main: " +tbl_main)
-Thread.sleep(2000)
+							//System.out.println ("This is the value of tblcol from C3DC body data :"+tblcol)
+								System.out.println("this is the value of tbl main: " +tbl_main)
+								Thread.sleep(2000)
 
 								if((tbl_main).equals('//*[@id="participant_tab_table"]')){
 									tblcol=4;

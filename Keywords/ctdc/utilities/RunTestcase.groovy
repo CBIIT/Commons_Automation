@@ -54,7 +54,6 @@ public class RunTestcase implements Comparator<List<XSSFCell>>{
 
 		if ( file_pwd !=null) {
 			KeywordUtil.markPassed("Test case file loaded " + "This is the full filepath after converting to string :"+file_pwd.toString())
-
 		}
 		else{
 			KeywordUtil.markPassed ("Password File is not found" )
@@ -97,7 +96,8 @@ public class RunTestcase implements Comparator<List<XSSFCell>>{
 	}
 
 
-	private static void excelparsing(List<List<XSSFCell>> sheetData, WebDriver Dr2) {//this is initializing second sheet - test case
+	private static void excelparsing(List<List<XSSFCell>> sheetData, WebDriver Dr2) {
+		//this is initializing second sheet - test case
 		int countrow = 0   // Iterates the data and print it out to the console.
 		countrow = sheetData.size();
 		KeywordUtil.logInfo("Excel is being parsed for indivisual rows")
@@ -111,8 +111,7 @@ public class RunTestcase implements Comparator<List<XSSFCell>>{
 
 				XSSFCell cell = datarow.get(jj);
 
-				switch(sheetData.get(0).get(jj).getStringCellValue().trim() )
-				{
+				switch(sheetData.get(0).get(jj).getStringCellValue().trim() ) {
 
 					case("propertyName"):
 						GlobalVariable.G_propertyName = sheetData.get(ii).get(jj).getStringCellValue()
@@ -141,8 +140,6 @@ public class RunTestcase implements Comparator<List<XSSFCell>>{
 					case("Page"):
 						GlobalVariable.G_Page = sheetData.get(ii).get(jj).getStringCellValue().trim()
 						if( GlobalVariable.G_Page=="na"){
-
-
 						}
 						else {
 
@@ -151,8 +148,7 @@ public class RunTestcase implements Comparator<List<XSSFCell>>{
 						break;
 					case("Function"):
 						System.out.println ( "  the value to be uses in the function call  : " + sheetData.get(ii).get(jj).getStringCellValue().trim() )
-						switch(sheetData.get(ii).get(jj).getStringCellValue().trim() )
-						{
+						switch(sheetData.get(ii).get(jj).getStringCellValue().trim() ) {
 							case("InitialLoad"):
 								ReadExcel.initialLoad()
 								driver=browserDriver (GlobalVariable.G_Browser)
@@ -224,7 +220,6 @@ public class RunTestcase implements Comparator<List<XSSFCell>>{
 		}
 
 		//gayathri added these lines
-
 	}
 
 	//----------------web data --------------
@@ -248,7 +243,6 @@ public class RunTestcase implements Comparator<List<XSSFCell>>{
 				System.out.println(" In the function dumbo ALL")
 				driver.findElement(By.xpath("//div[text()=\"Case ID\"]//parent::span//parent::th//preceding-sibling::th")).click()
 				break;
-
 		}
 	}
 
@@ -285,23 +279,21 @@ public class RunTestcase implements Comparator<List<XSSFCell>>{
 			System.out.println("Web Data: with header data is :" + webData.get(index))
 		}
 		//driver.findElement(By.xpath('//*[@id="root"]/div[3]/div/div[2]/div[1]/div[2]/label/button')).click() // G added this line to close the view
-		while(true)
-		{
+		while(true) {
 			rows_table = Table.findElements(By.xpath("//*[contains(@id, \"MUIDataTableBodyRow-\")]"))
 			rows_count = rows_table.size()
 			System.out.println("This is the size of the rows in the table in the current page:"+(rows_count))
 
-			for(int i = 1; i <= rows_count; i++) { //rows_count
+			for(int i = 1; i <= rows_count; i++) {
+				//rows_count
 				String data = ""
 				int tblcol=Integer.parseInt(GlobalVariable.G_rowcount_Katalon);
 
 				for (int j = 3; j < columns_count+tblcol; j = j + 2) {
 
 					data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + j + "]")).getText()) +"||")
-
 				}
 				webData.add(data)
-
 			}
 			System.out.println("Size of Web Data list with header in current page is : " + webData.size())
 			for(int index = 0; index < webData.size(); index++) {
@@ -322,8 +314,7 @@ public class RunTestcase implements Comparator<List<XSSFCell>>{
 	//function to write webData to excel -- this writes the web results to excel
 
 	public static void writeToExcel(){
-		try
-		{
+		try {
 			String excelPath = GlobalVariable.G_WebExcel;
 			FileOutputStream fos = new FileOutputStream(new File(excelPath));
 			XSSFWorkbook workbook = new XSSFWorkbook(); 		// Create Workbook instance holding .xls file
@@ -346,11 +337,9 @@ public class RunTestcase implements Comparator<List<XSSFCell>>{
 			fos.close(); //Close the workbook
 			System.out.println("Canine Web Data has been written to excel successfully");
 			workbook.close();
-		}catch (IOException ie)
-		{
+		}catch (IOException ie) {
 			ie.printStackTrace();
 		}
-
 	}//excel method ends here
 
 
@@ -364,7 +353,6 @@ public class RunTestcase implements Comparator<List<XSSFCell>>{
 		}
 		else {
 			System.out.println( "failed asserted stringcompare ")
-
 		}
 	}
 
@@ -389,7 +377,8 @@ public class RunTestcase implements Comparator<List<XSSFCell>>{
 				{
 					System.out.println(" L1Row contents Matched with: " + l1rowList + " and: " + l2rowList )
 					boolean l1NullFlag = false, l2NullFlag = false
-					for(int col = 0; col < l2rowList.size(); col++ ){ //compares all the columns in the excels - for each row
+					for(int col = 0; col < l2rowList.size(); col++ ){
+						//compares all the columns in the excels - for each row
 						if( l1rowList.get(col) == null || l1rowList.get(col).equals("") || l1rowList.get(col).getCellType() == l1rowList.get(col).CELL_TYPE_BLANK ){
 							System.out.println("There is a NULL entry in L1 Row")
 							l1NullFlag = true
@@ -411,13 +400,11 @@ public class RunTestcase implements Comparator<List<XSSFCell>>{
 							System.out.println( "L2Row Value: " + l2rowList.get(col).getStringCellValue() )
 						}
 					}
-
 				}else{
 
 					// add what the code should display if contents mismatch outside the main loop for CTDC ID
 				}
 			}
-
 		}
 	}
 
@@ -464,8 +451,6 @@ public class RunTestcase implements Comparator<List<XSSFCell>>{
 				e.printStackTrace();
 			}
 		}
-
-
 	}
 
 
@@ -474,8 +459,7 @@ public class RunTestcase implements Comparator<List<XSSFCell>>{
 	public static WebDriver browserDriver(String browserName) {
 
 		WebDriver dr
-		switch(browserName)
-		{
+		switch(browserName) {
 			case("Chrome"):
 				driver = new ChromeDriver()
 				Path driverPath = Paths.get(System.getProperty("user.dir"), "chromedriver.exe");
@@ -528,5 +512,4 @@ public class RunTestcase implements Comparator<List<XSSFCell>>{
 				break;
 		}
 	}
-
 }
