@@ -2129,6 +2129,7 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 		//pass the sheet names only. file name is not needed
 		List<List<XSSFCell>> UIData = new ArrayList<>()
 		List<List<XSSFCell>> neo4jData = new ArrayList<>()
+		
 		String UIfilename =  GlobalVariable.G_WebExcel.toString()   //UIfilepath.toString()
 		System.out.println("This is the full uifilepath after converting to string :"+UIfilename);
 		//UIData = ReadExcel.readExceltoWeblist(UIfilename,GlobalVariable.G_WebTabnameCasesCasesCases)  //change the function name Test in parent class and here
@@ -2149,8 +2150,12 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 		System.out.println("This is the neo4j data read by comparelists function : "+neo4jData)
 		Collections.sort( neo4jData , new runtestcaseforKatalon() )
 		//	Collections.sort(neo4jData)
-
+        
+	if(UIData.size()==neo4jData.size()) {
 		compareTwoLists(UIData,neo4jData)  //This compares the two sorted lists - ui data and db data
+	}else {
+		KeywordUtil.markFailed("***********DATA MISMATCH in comparelists: mismatch in the rows********************")
+	}
 	}
 
 
