@@ -1,0 +1,76 @@
+type	phs_accession	crdc_id	funding_agency	study_acronym	primary_investigator_email	grant_id	study_name	primary_investigator_name	number_of_participants	file_types	acl	program.program_acronym	study_data_types	short_description	study_description	co_investigator_name	funding_source_program_name	number_of_samples	data_access_level	organism_species	study_version	co_investigator_email	bioproject_accession	study_access	study_external_url	adult_or_childhood_study
+study	phs002250	c31812b0-713f-478b-9307-e432386b072b			mbondy@stanford.edu		"CIDR: Discovery, Biology, and Risk of Inherited Variants in Glioma sample"	Melissa Bondy	146	"CRAI, CRAM"	['phs002250']	DCCPS	Genomic		"This is a gliogene brain tumor family study. This study includes glioma cases with a family history of glioma in a first, second, or third degree relative. 
+Study Weblinks:
+Gliogene
+Study Design:
+Family/Twin/Trios
+Study Type:
+Family
+Whole Genome Sequencing
+dbGaP estimated ancestry using GRAF-pop
+Total number of consented subjects: 151"			146	Not specified in data		phs002250.v1.p1			Controlled	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002250.v1.p1	
+study	phs002371	c5507265-f8a2-4696-b6aa-3c41decf2893		HTAN	"NHACOHEN@mgh.harvard.edu, goecksj@ohsu.edu,millsg@ohsu.edu,thomasge@ohsu.edu, ken.s.lau@vanderbilt.edu,robert.coffey@vumc.org,martha.shrubsole@vumc.org, lding@wustl.edu,rcfields@wustl.edu,gillandersw@wustl.edu,BME@UTSouthwestern.edu, mpsnyder@stanford.edu,jmf@stanford.edu,wjg@stanford.edu, peter_sorger@hms.harvard.edu,ssantagata@bics.bwh.harvard.edu"		HTAN: Human Tumor Atlas Network Primary Sequencing Data	"Jeremy Goecks,Gordon Mills,George Thomas, Ken S. Lau,Robert Coffey,Martha Shrubsole, Li Ding,Ryan Fields,William Gillanders,Samuel Achilefu, Michael P. Snyder,James Ford,William Greenleaf, Nir Hacohen, Peter Sorger,Jon Aster,Sandro Santagata"	270	"bam, fastq"	"[""phs002371""]"	HTAN	Genomic		"An NCI-funded Cancer Moonshot initiative to construct 3-dimensional atlases of the dynamic cellular, morphological, and molecular features of human cancers as they evolve from precancerous lesions to advanced disease."			709	Not specified in data		phs002371.v2.p1			Controlled	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002371.v2.p1	
+study	phs002504	73577fe1-dd27-4148-bdaf-96b77b3760dc		JMML	elliot.stieglitz@ucsf.edu	"CA196519, CA082103, HL135434; the Leukemia Lymphoma Society; Alex's Lemonade Stand Foundation; Cookies for Kids Cancer; the Pediatric Cancer Research Foundation; the V Foundation; Cannonball Kids' Cancer; and the Frank A. Campini Foundation"	"UCSF Database for the Advancement of JMML - Integration of Metadata with """"Omic"""" Data"	Dr. Elliot Stieglitz	1	"txt, xlsx"	['phs002504']	CCDI	Genomic	Integration of genomic and clinical data from unique rare hematopoietic cancer datasets to facilitate data sharing	"Juvenile myelomonocytic leukemia (JMML) is a rare and frequently fatal myeloproliferative/myelodysplastic disorder of early childhood with an estimated incidence of 1.2 cases per million. It is associated with a spectrum of diverse outcomes ranging from spontaneous resolution in rare patients to transformation to acute myeloid leukemia in others. The overwhelming majority of JMML patients (~95%) will harbor mutations in canonical Ras pathway genes, including NF1, NRAS, KRAS, PTPN11, and CBL. As Ras proteins are mutated in more than 30% of human cancers, the information gleaned from the study of JMML has provided insights into Ras signaling in cancer as well as a group of congenital diseases with tumor predispositions known as the “Rasopathies”. While oncogenic Ras is one of the most common mutations in human cancer, it remains one of the most vexing targets for efficacious therapy."			1	Not specified in data	Pediatric	phs002504.v1.p1			Controlled	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002504.v1.p1	
+study	phs002504	1f4b6525-5347-4aef-a8b7-1e8aa5cfa51d		JMML	elliot.stieglitz@ucsf.edu	"CA196519, CA082103, HL135434; the Leukemia Lymphoma Society; Alex's Lemonade Stand Foundation; Cookies for Kids Cancer; the Pediatric Cancer Research Foundation; the V Foundation; Cannonball Kids' Cancer; and the Frank A. Campini Foundation"	"UCSF Database for the Advancement of JMML - Integration of Metadata with """"Omic"""" Data"	Dr. Elliot Stieglitz	39	IDAT	['phs002504']	CCDI	Genomic	Integration of genomic and clinical data from unique rare hematopoietic cancer datasets to facilitate data sharing	"Juvenile myelomonocytic leukemia (JMML) is a rare and frequently fatal myeloproliferative/myelodysplastic disorder of early childhood with an estimated incidence of 1.2 cases per million. It is associated with a spectrum of diverse outcomes ranging from spontaneous resolution in rare patients to transformation to acute myeloid leukemia in others. The overwhelming majority of JMML patients (~95%) will harbor mutations in canonical Ras pathway genes, including NF1, NRAS, KRAS, PTPN11, and CBL. As Ras proteins are mutated in more than 30% of human cancers, the information gleaned from the study of JMML has provided insights into Ras signaling in cancer as well as a group of congenital diseases with tumor predispositions known as the “Rasopathies”. While oncogenic Ras is one of the most common mutations in human cancer, it remains one of the most vexing targets for efficacious therapy."			39	Not specified in data	Human	phs002504.v1.p1		PRJNA748468	Controlled	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002504.v1.p1	Pediatric
+study	phs002529	a8854a59-2ff7-4e3a-af9d-93ad1908eafc	"National Cancer Institute, Center for Biomedical Informatics and Information Technology"	CCDI-KUMC	rjensen@kumc.edu	3P30CA168524-09S3	Childhood Cancer Data Initiative (CCDI): Free the Data: Open Sharing of Comprehensive Genomic Childhood Cancer Datasets (Kansas)	Roy Jensen	194	"bai, bam, bw, fastq, tbi, tsv, vcf, xlsx"	['phs002529']	CCDI	Genomic		"This study provides paired tumor normal genomic sequencing data from approximately 200 children with cancer, including both solid tumors and leukemias, done by the Children’s Mercy Research Institute (CMRI) and University of Kansas Cancer Center (KUCC).
+
+These data include whole genome sequencing (generally, ~20x), whole exome sequencing (generally, ~300x), bulk RNA sequencing (generally, ~80 million reads), and single-cell RNA and ATAC sequencing (>50,000 reads/cell). Additional phenotypic, pathologic, and genetic data, gathered clinically for these samples, are also provided.
+Study Design:
+    Tumor vs. Matched-Normal
+Study Type:
+Case Set
+Clinical Cohort
+Clinical Genetic Testing
+Exome Sequencing
+Full Transcriptome Sequencing
+Individual-Level Genomic Data
+Mixed
+Probands
+Repository
+RNA Sequencing
+Sequencing
+Single Cell Analysis
+Transcriptome Sequencing
+TumorTumor vs. Matched-Normal
+Whole Genome Sequencing
+Total number of consented subjects: 193"	Midhat Farooqi		373	Not specified in data	Human	phs002529.v1.p1	msfarooqi@cmh.edu	PRJNA750536	Controlled	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002529.v1.p1	Pediatric
+study	phs002790	c708be89-d9f8-4d9d-98b1-f9b3f17f4a92		MCI	Elaine.Mardis@nationwidechildrens.org	75N91019D00024	MCI: Molecular Characterization Initiative	Dr. Elaine Mardis	1	"BAI, BAM, CRAI, CRAM, HTML, IDAT, JSON, PDF, TXT, VCF"	['phs002790']	CCDI	Genomic		"The National Cancer Institute's (NCI) Childhood Cancer Data Initiative (CCDI) focuses on the critical need to collect, analyze, and share data to address the burden of cancer in children, adolescents, and young adults (AYAs). The Molecular Characterization Initiative (MCI) will further the CCDI's goals by providing access to better diagnostic tests for pediatric and AYA patients. The molecular characterizations of solid tumors, soft tissue sarcomas, and rare diseases are performed in a CLIA-certified setting as results may be used to screen for and/or confirm clinical trial eligibility, direct treatment, or otherwise contribute to the conduct of the trial. The following molecular characterization assays were performed:
+
+Tumor/Normal Whole Exome sequencing
+Methylation arrays
+Archer fusion panel
+Deidentified clinical reports
+Note: The initial release contains data associated with 296 subjects. More data will be added periodically, please check the dbGaP/SBG site for updates.
+
+Study Weblinks:
+CCDI Molecular Characterization Initiative
+Study Design:
+Tumor vs. Matched-Normal
+Study Type:
+Aggregate Genomic Data
+Clinical Diagnostic Testing
+Exome Sequencing
+Individual-Level Genomic Data
+Transcriptome Analysis
+Tumor vs. Matched-Normal
+Total number of consented subjects: 756"		CCDI Molecular Characterization Initiative	1	Not specified in data	Human	phs002790.v2.p1			Controlled	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002790.v2.p1	Pediatric
+study	phs002790	009bf4a7-f06f-4775-be0b-9240ca24f5f1		MCI	Elaine.Mardis@nationwidechildrens.org	75N91019D00024	Molecular Characterization Initiative	Dr. Elaine Mardis	1	"BAI, BAM, CRAI, CRAM, HTML, IDAT, JSON, PDF, TXT, VCF"	['phs002790']	CCDI	Genomic		"The National Cancer Institute's (NCI) Childhood Cancer Data Initiative (CCDI) focuses on the critical need to collect, analyze, and share data to address the burden of cancer in children, adolescents, and young adults (AYAs). The Molecular Characterization Initiative (MCI) will further the CCDI's goals by providing access to better diagnostic tests for pediatric and AYA patients. The molecular characterizations of solid tumors, soft tissue sarcomas, and rare diseases are performed in a CLIA-certified setting as results may be used to screen for and/or confirm clinical trial eligibility, direct treatment, or otherwise contribute to the conduct of the trial. The following molecular characterization assays were performed:
+
+Tumor/Normal Whole Exome sequencing
+Methylation arrays
+Archer fusion panel
+Deidentified clinical reports
+Note: The initial release contains data associated with 296 subjects. More data will be added periodically, please check the dbGaP/SBG site for updates.
+
+Study Weblinks:
+CCDI Molecular Characterization Initiative
+Study Design:
+Tumor vs. Matched-Normal
+Study Type:
+Aggregate Genomic Data
+Clinical Diagnostic Testing
+Exome Sequencing
+Individual-Level Genomic Data
+Transcriptome Analysis
+Tumor vs. Matched-Normal
+Total number of consented subjects: 756"		CCDI Molecular Characterization Initiative	1	Not specified in data	Human	phs002790.v1.p1			Controlled	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002790.v1.p1	Pediatric

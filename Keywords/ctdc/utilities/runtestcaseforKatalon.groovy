@@ -1106,8 +1106,6 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 										if(((tbl_main).equals("//*[@id='sample_tab_table']")) && (colHeader.get(j).getAttribute("innerText")=="Age at Sample Collection")) {
 											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
 											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]")).getAttribute("innerText")) +"||")
-
-
 										}else {
 											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
 											//*[@id="sample_tab_table"]/div[2]/table/tbody/tr[1]/td[2]/p
@@ -2058,33 +2056,29 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 
 					if( l1NullFlag || l2NullFlag ) continue   //if the data mismatches, print the data found in ui and db
 						System.out.println("UI data value is: "+ l1rowList.get(col).getStringCellValue() + "\nDB data value is: "+ l2rowList.get(col).getStringCellValue() )
-//added based on Wei's suggestions to fix  newline issue
-						String l1Value = l1rowList.get(col).getStringCellValue();
-						String l2Value = l2rowList.get(col).getStringCellValue();
-						if (l2Value.contains("\\n")) {
-							String new_line = System.getProperty("line.separator");
-							l2Value = l2Value.split("\\\\n").join(new_line);
-						}
-						System.out.println("UI data value is: "+ l1Value + "\nDB data value is: "+ l2Value );
+					//added based on Wei's suggestions to fix  newline issue
+					String l1Value = l1rowList.get(col).getStringCellValue();
+					String l2Value = l2rowList.get(col).getStringCellValue();
+					if (l2Value.contains("\\n")) {
+						String new_line = System.getProperty("line.separator");
+						l2Value = l2Value.split("\\\\n").join(new_line);
+					}
+					System.out.println("UI data value is: "+ l1Value + "\nDB data value is: "+ l2Value );
 					/*	if( l1Value == l2Value){
-							 System.out.println("Content matches for col number : " + col )
-							}else{
-								
-							
-						
-						//above is added based on Wei's suggestions to fix  newline issue
-								//remove the comment fromt he 3 lines below if you want to undo wei's fix'
-//					if( l1rowList.get(col).getStringCellValue() == l2rowList.get(col).getStringCellValue() ){
-//						System.out.println("Content matches for col number : " + col )
-//					}else{
-						System.err.println("***********DATA MISMATCH:  ABORTING RUN********************")
-						System.out.println("Content does not match for col: " + col )
-						System.out.println( "UI data Value (mismatch): " + l1rowList.get(col).getStringCellValue() )
-						System.out.println( "DB data Value (mismatch): " + l2rowList.get(col).getStringCellValue() )
-						KeywordUtil.markFailed("***********DATA MISMATCH in comparelists:  ABORTING RUN********************");
-
-						//add steps for handling failure
-					} */
+					  System.out.println("Content matches for col number : " + col )
+					 }else{
+					 //above is added based on Wei's suggestions to fix  newline issue
+					 //remove the comment fromt he 3 lines below if you want to undo wei's fix'
+					 //					if( l1rowList.get(col).getStringCellValue() == l2rowList.get(col).getStringCellValue() ){
+					 //						System.out.println("Content matches for col number : " + col )
+					 //					}else{
+					 System.err.println("***********DATA MISMATCH:  ABORTING RUN********************")
+					 System.out.println("Content does not match for col: " + col )
+					 System.out.println( "UI data Value (mismatch): " + l1rowList.get(col).getStringCellValue() )
+					 System.out.println( "DB data Value (mismatch): " + l2rowList.get(col).getStringCellValue() )
+					 KeywordUtil.markFailed("***********DATA MISMATCH in comparelists:  ABORTING RUN********************");
+					 //add steps for handling failure
+					 } */
 				}
 				//				}else{
 				//					System.out.println("UI Data and DB Data are not matching for :")
