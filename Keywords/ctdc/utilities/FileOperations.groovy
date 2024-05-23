@@ -127,15 +127,14 @@ public class FileOperations {
 		xlsTOxlsx(xlsfilename1, xlsxfilename1)
 		copySheetXLSX(xlsxfilename1, mfstBkupSheetNm)
 		deleteCol(xlsxfilename1)
-
 	}
 
 	@Keyword
 	public String pickLatestFileFromDownloads() {
 
-	 
+
 		System.out.println("This is the name of the current test case from global variable: " +GlobalVariable.G_currentTCName);
-		 
+
 		//this global will work fine only after this function is called
 		String downloadslocalFolder = "C:\\Users\\radhakrishnang2\\Downloads"
 		File dir = new File(downloadslocalFolder);
@@ -176,7 +175,6 @@ public class FileOperations {
 
 
 		//change the tab name to a desired value stored in global var and then use it to pass in the comparelists function in test script
-
 	}
 
 
@@ -225,7 +223,8 @@ public class FileOperations {
 
 	// this function converts the downloaded manifest currently in csv format >>> to xls format and adds a sheetname to it
 	@Keyword
-	public static void generateXLSfromCSV(String csvFilePath, String xlsFilePath, String xlsSheetnm) throws IOException{ //change this to sheet index
+	public static void generateXLSfromCSV(String csvFilePath, String xlsFilePath, String xlsSheetnm) throws IOException{
+		//change this to sheet index
 
 		System.out.println("This is the value from the function for csvfilename  : "+csvFilePath)
 		System.out.println("This is the value from the function for excelfilename   : "+xlsFilePath)
@@ -238,12 +237,10 @@ public class FileOperations {
 		DataInputStream myInput = new DataInputStream(fis);
 		int i=0;
 		arList = new ArrayList();
-		while ((thisLine = myInput.readLine()) != null)
-		{
+		while ((thisLine = myInput.readLine()) != null) {
 			al = new ArrayList();
 			String[] strar = thisLine.split(",")
-			for(int j=0;j<strar.length;j++)
-			{
+			for(int j=0;j<strar.length;j++) {
 				al.add(strar[j].replaceAll("[^\\x00-\\x7F]", ""));
 			}
 			arList.add(al);
@@ -256,12 +253,10 @@ public class FileOperations {
 		try {
 			HSSFWorkbook hwb = new HSSFWorkbook();
 			HSSFSheet sheet = hwb.createSheet(xlsSheetnm);
-			for(int k=0;k<arList.size();k++)
-			{
+			for(int k=0;k<arList.size();k++) {
 				ArrayList ardata = (ArrayList)arList.get(k);
 				HSSFRow row = sheet.createRow((short) 0+k);
-				for(int p=0;p<ardata.size();p++)
-				{
+				for(int p=0;p<ardata.size();p++) {
 					HSSFCell cell = row.createCell((short) p);
 					String data = ardata.get(p).toString();
 					if(data.startsWith("=")){
@@ -287,13 +282,10 @@ public class FileOperations {
 			hwb.write(fileOut);
 			fileOut.close();
 			System.out.println("Your xls file has been generated : ");
-
 		} catch ( Exception ex ) {
 			System.out.println("from catch block   - This is the value of the sheetname   : "+xlsSheetnm)
 			ex.printStackTrace();
 		} //main method ends
-
-
 	}
 
 
@@ -366,7 +358,6 @@ public class FileOperations {
 						styleOut.setDataFormat(styleIn.getDataFormat());
 
 						cellOut.setCellComment(cellIn.getCellComment());
-
 					} // inner while loop ends
 				}// outer while loop ends
 			}
@@ -378,15 +369,13 @@ public class FileOperations {
 			}
 		} finally {
 			inp.close();
-
 		}
-
-
 	}
 
 	//********This function copies the specified sheet to the same workbook in XLS format****************
 	@Keyword
-	public static void copySheetXLS (String fileNm, String SheetNm){ //change to sheet index ?
+	public static void copySheetXLS (String fileNm, String SheetNm){
+		//change to sheet index ?
 		//String excelname =   GlobalVariable.G_excelFileName
 		//String excelname =   "C:\\Users\\radhakrishnang2\\Desktop\\Commons_Automation\\OutputFiles\\file_xlsx.xlsx"
 		//String newSheetname = "newManifestData"
@@ -501,7 +490,11 @@ public class FileOperations {
 		XSSFSheet sheet = workbook.getSheetAt(1); //Deletes from sheet index 1, that is the second sheet in the workbook
 		//			HSSFWorkbook workbook = new HSSFWorkbook(fis); // Create an excel workbook from the file system.
 		//			HSSFSheet sheet = workbook.getSheetAt(1);
-		ArrayList<Integer> colsToDelete = new ArrayList<Integer>(){{add(5);add(4);add(3)}}; //these index are for manifest excel
+		ArrayList<Integer> colsToDelete = new ArrayList<Integer>(){
+					{
+						add(5);add(4);add(3)
+					}
+				}; //these index are for manifest excel
 		Collections.sort(colsToDelete)
 		Collections.reverse(colsToDelete)
 		for(int colToDelete: colsToDelete){
@@ -515,7 +508,6 @@ public class FileOperations {
 		fos.close()
 
 		//		}
-
 	}
 
 	@Keyword
@@ -611,7 +603,6 @@ public class FileOperations {
 			case Cell.CELL_TYPE_FORMULA:
 				cNew.setCellFormula( cOld.getCellFormula() );
 				break;
-
 		}
 	}
 
@@ -646,12 +637,11 @@ public class FileOperations {
 			Cell c_2 = r.getCell(column_index_2);
 			Cell c_3 = r.getCell(column_index_3);
 			if (c_1 != null && c_1.getCellType() != Cell.CELL_TYPE_BLANK
-			&&c_2 != null && c_2.getCellType() != Cell.CELL_TYPE_BLANK
-			&&c_3 != null && c_3.getCellType() != Cell.CELL_TYPE_BLANK) {
+					&&c_2 != null && c_2.getCellType() != Cell.CELL_TYPE_BLANK
+					&&c_3 != null && c_3.getCellType() != Cell.CELL_TYPE_BLANK) {
 				System.out.print("  "+c_1 + "   " + c_2+"   "+c_3+"\n");
 			}
 		}
-
 	}
 
 
