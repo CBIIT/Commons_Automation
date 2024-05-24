@@ -1,0 +1,2 @@
+pip3 install pandas
+Pip3 install pandasql
