@@ -1,6 +1,5 @@
-# this is using pandas library
 import pandas as pd
-import os 
+import os
 
 print("Python script started")
 
@@ -27,7 +26,6 @@ def load_tsv_and_save_to_excel(file_path, excel_path):
         print(f"Data successfully saved to {excel_path}")
         return True
     
-    
     except FileNotFoundError:
         print(f"File not found: {file_path}")
         return False
@@ -43,31 +41,39 @@ def load_tsv_and_save_to_excel(file_path, excel_path):
 
 # Define base directory
 base_dir = os.path.dirname(os.path.realpath(__file__))  # Assuming this script is in the base directory
-print("this is the base path from python file")
-print(base_dir)
 
 # Define relative paths from the base directory
 relative_tsv_file_path = "POC-study.tsv"
-relative_excel_file_path = "outputxl-usingpandas.xlsx"
+output_directory = "OutputFiles"
+output_filename = "outputxl-usingpandas.xlsx"
 
+# Desired directory to stop at
+stop_at_dir = "Commons_Automation"
+
+# Initialize the project_dir with base_dir
+project_dir = base_dir
+
+# Loop to go up until the desired directory is reached
+while os.path.basename(project_dir) != stop_at_dir:
+    project_dir = os.path.dirname(project_dir)
+    
+print("Your desired path within the project directory:", project_dir)
+    
+ 
 # Construct absolute paths
 tsv_file_path = os.path.join(base_dir, relative_tsv_file_path)
-excel_file_path = os.path.join(base_dir, relative_excel_file_path)
+print("Your tsv_file_path is:", tsv_file_path)
+
+output_directory_path = os.path.join(project_dir, output_directory)
+print("Your output_directory_path is:", output_directory_path)
+
+output_file_path = os.path.join(output_directory_path, output_filename)
+print("Your output_file_path is :", output_file_path)
 
 # Call the function with relative paths
-
-
-success = load_tsv_and_save_to_excel(tsv_file_path, excel_file_path)
-
-
+success = load_tsv_and_save_to_excel(tsv_file_path, output_file_path)
 
 if success:
     print("Operation completed successfully.")
 else:
     print("Operation failed.")
-	
-
-
-
-
-
