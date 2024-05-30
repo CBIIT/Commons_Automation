@@ -18,4 +18,11 @@
       <testCaseId>Test Cases/POC CDS DataValidation/TC01_ReadTsvWriteToExcel-Python</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>3e2d70f1-c761-4d30-940e-7caeb016057a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/POC CDS DataValidation/TC_ReadMultipleTsvWriteToExcel</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
