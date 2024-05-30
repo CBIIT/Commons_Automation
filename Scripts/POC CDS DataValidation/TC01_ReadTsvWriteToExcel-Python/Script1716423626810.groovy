@@ -42,52 +42,7 @@ import com.kms.katalon.core.configuration.RunConfiguration
 
 
 
-Path pyfilePath
-Path ipfilePath 
-String usrDir = System.getProperty("user.dir");
-// Path to append to the project directory
-pyfilePath = Paths.get(usrDir, "/InputFiles/PythonPOC/readtsv-usingpandas.py")
-ipfilePath = Paths.get(usrDir, "/InputFiles/PythonPOC/POC-study.tsv")
+import com.kms.katalon.core.util.KeywordUtil
+import java.nio.file.Paths
 
-
-String pythonFilePath = pyfilePath.toString()
-println("This is the path of the input python file : "+pythonFilePath)
-
-String inputFilePath = ipfilePath.toString()
-println("This is the path of the input metadata file : "+inputFilePath)
- 
-
-
-
-try {
-	// Create a process builder
-	ProcessBuilder processBuilder = new ProcessBuilder("python3", pythonFilePath)
-	processBuilder.redirectErrorStream(true)
-
-	// Start the process
-	Process process = processBuilder.start()
-
-	// Capture the output
-	BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()))
-	StringBuilder output = new StringBuilder()
-	String line
-	while ((line = reader.readLine()) != null) {
-		output.append(line).append("\n")
-	}
-
-	// Wait for the process to finish and get the exit code
-	int exitCode = process.waitFor()
-
-	// Print the output and handle the exit code
-	if (exitCode == 0) {
-		println("Python script executed successfully.")
-		println("Script output:\n" + output.toString())
-	} else {
-		println("Script execution failed with exit code: " + exitCode)
-		println("Script output:\n" + output.toString())
-	}
-
-} catch (Exception e) {
-	e.printStackTrace()
-	println("An error occurred while executing the Python script: " + e.getMessage())
-}
+CustomKeywords.'ctdc.utilities.PythonReaderSingleFile.readPythonSingleFile'('genericpythonSingleFile.py')
