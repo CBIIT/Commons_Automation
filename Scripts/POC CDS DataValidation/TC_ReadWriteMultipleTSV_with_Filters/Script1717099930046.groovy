@@ -7,6 +7,9 @@ String outputDirectory = "/Users/radhakrishnang2/Desktop/Automation/AprilBranch/
 String outputExcelPath = Paths.get(outputDirectory, "multi-file-outputxl-usingpandas.xlsx").toString()
 String pythonScriptPath = Paths.get("/Users/radhakrishnang2/Desktop/Automation/AprilBranch/Commons_Automation/AllPythonFiles/process_multiple_tsv.py").toString()
 
+// Define SQL query for filtering
+String sqlQuery = "SELECT * FROM df_stdy WHERE phs_accession='phs002504'"
+
 // Define paths to TSV files as arraylist
 List<String> tsvFiles = [
 	Paths.get(inputDirectory, "POC-study.tsv").toString(),
@@ -22,15 +25,17 @@ println("Input Directory: " + inputDirectory)
 println("Output Directory: " + outputDirectory)
 println("Output Excel Path: " + outputExcelPath)
 println("Python Script Path: " + pythonScriptPath)
+println("SQL Query: " + sqlQuery)
 
 tsvFiles.each { println("TSV File Path: " + it) }
 
-//building the command and executing it using process builder
-try {      
+// Building the command and executing it using process builder
+try {
 	List<String> command = new ArrayList<>()
 	command.add("python3")
 	command.add(pythonScriptPath)
 	command.add(outputExcelPath)
+	command.add(sqlQuery)
 	command.addAll(tsvFiles)
 
 	ProcessBuilder processBuilder = new ProcessBuilder(command)

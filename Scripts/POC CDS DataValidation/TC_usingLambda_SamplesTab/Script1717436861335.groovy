@@ -45,6 +45,4 @@ import com.kms.katalon.core.configuration.RunConfiguration
 import com.kms.katalon.core.util.KeywordUtil
 import java.nio.file.Paths
 
-CustomKeywords.'ctdc.utilities.PythonReader.readPythonSingleFile'('genericpythonSingleFile.py')    // this is for single tsv readtsvwrite to excel  test script
-//CustomKeywords.'ctdc.utilities.PythonReader.readPythonSingleFile'('Data.py')   // this is for combining 2 tsv into a dataframe and then querying by sql and lambda function
-
+CustomKeywords.'ctdc.utilities.PythonReader.readPythonSingleFile'('lambdaFilterSamples.py')
