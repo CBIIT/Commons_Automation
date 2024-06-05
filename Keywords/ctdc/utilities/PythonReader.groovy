@@ -8,7 +8,7 @@ import com.kms.katalon.core.annotation.Keyword;
 import com.kms.katalon.core.configuration.RunConfiguration;
 import com.kms.katalon.core.util.KeywordUtil;
 
-public class PythonReaderSingleFile {
+public class PythonReader {
 	/**
 	 * This function reads and executes a Python file.
 	 * @param pythonFileName The name of the Python file to execute.
@@ -21,7 +21,7 @@ public class PythonReaderSingleFile {
 
 		try {
 			// Create a process builder
-			ProcessBuilder processBuilder = new ProcessBuilder("python3", filePath);
+			ProcessBuilder processBuilder = new ProcessBuilder("/Library/Frameworks/Python.framework/Versions/3.12/bin/python3", filePath);
 			processBuilder.redirectErrorStream(true);
 
 			// Start the process
