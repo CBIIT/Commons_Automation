@@ -158,7 +158,8 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 		}else if(url.contains("studycatalog")) {
 			filePath = Paths.get(usrDir, inputFiles, "INS", input_file);
 		}else if(url.contains("dataservice")) {
-			filePath = Paths.get(usrDir, inputFiles, "CDS", input_file);
+			//Updated below line for python file
+			filePath = Paths.get(usrDir, inputFiles, "CDS", "phs002504", input_file);
 		}else if(url.contains("gmb")) {
 			filePath = Paths.get(usrDir, inputFiles, "GMB", input_file);
 		}else if(url.contains("ctdc")) {
@@ -354,6 +355,11 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 						Path dbfilepath = Paths.get(System.getProperty("user.dir"), "OutputFiles", GlobalVariable.G_dbexcel)
 						GlobalVariable.G_ResultPath=dbfilepath.toString()
 						break;
+					case("TsvExcel"):
+						GlobalVariable.G_dbexcel = sheetData.get(i).get(j).getStringCellValue()
+						Path dbfilepath = Paths.get(System.getProperty("user.dir"), "OutputFiles", GlobalVariable.G_dbexcel)
+						GlobalVariable.G_ResultPath=dbfilepath.toString()
+						break;
 					default :
 						System.out.println("Error in initializing")
 						break;
@@ -442,11 +448,23 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 		if (statValue !=0) {
 			ReadCasesTableKatalon(statVal, tbl,tblHdr,nxtBtn,webdataSheetName)
 			System.out.println("control is after read table webdataxl creation and before readexcel neo4j function")
-			ReadExcel.Neo4j(dbdataSheetName,tabQuery)
+
+			//ReadExcel.Neo4j(dbdataSheetName,tabQuery)
+			if(dbdataSheetName.equals("TsvDataParticipants")){
+				PythonReader.readFile('ParticipantsTab.py')
+			}else if(dbdataSheetName.equals("TsvDataSamples")){
+				PythonReader.readFile('SamplesTab.py')
+			}else if(dbdataSheetName.equals("TsvDataFiles")){
+				PythonReader.readFile('FilesTab.py')
+			}else {
+				KeywordUtil.markFailed("Invalid TSV Sheet name: Check multifunction or current testcase parameters")
+			}
+
 			System.out.println("control is before compare lists function from multifunction")
 			compareLists(webdataSheetName, dbdataSheetName)
 			System.out.println("control is before validate stat bar function from multifunction")
-			validateStatBar(appName)
+			//Commenting below line for TSV files
+			//validateStatBar(appName)
 		}else {
 			System.out.println("Skipping data collection from neo4j and compare lists of web and db as the stat value is 0")
 		}
@@ -1745,6 +1763,7 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 	}
 
 
+
 	//This function returns the xpath of a given string (from the obj stored in katalons object repository)
 	@Keyword
 	public static String givexpath(String objname) {
@@ -2107,7 +2126,11 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 		Collections.sort( UIData , new runtestcaseforKatalon() )
 		//	Collections.sort(UIData)
 
+		//############################ Changed below line for TSV files
+
 		String neo4jfilename=  GlobalVariable.G_ResultPath.toString()
+
+		//String neo4jfilename= 'TC01_CDS_phs002250_Gender_Male_TSVData.xlsx'
 		System.out.println("This is the full neo4j filepath after converting to string :"+neo4jfilename);
 		//neo4jData = ReadExcel.readExceltoWeblist(neo4jfilename,GlobalVariable.G_CypherTabnameCasesCasesCases)  //change the function name Test in parent class and here
 		neo4jData = ReadExcel.readExceltoWeblist(neo4jfilename,neoSheetName)

@@ -14,7 +14,7 @@ public class PythonReader {
 	 * @param pythonFileName The name of the Python file to execute.
 	 */
 	@Keyword
-	public static void readPythonSingleFile(String pythonFileName) {
+	public static void readFile(String pythonFileName) {
 		String filePath = Paths.get(RunConfiguration.getProjectDir(), "AllPythonFiles", pythonFileName).toString();
 		System.out.println("This is the path till the py filename: " + filePath);
 		KeywordUtil.logInfo("Executing Python file: " + pythonFileName);
