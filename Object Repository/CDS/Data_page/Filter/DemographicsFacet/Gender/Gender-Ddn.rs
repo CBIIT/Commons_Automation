@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;Gender&quot; and text()=&quot;Gender&quot;]</value>
+         <value>//*[@id=&quot;Gender&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;Gender&quot; and text()=&quot;Gender&quot;]</value>
-      <webElementGuid>3aaf9a8f-ce08-4ed6-8ea7-0f799d6d7a33</webElementGuid>
+      <value>//*[@id=&quot;Gender&quot;]</value>
+      <webElementGuid>21878a4e-3f6e-4f28-b4bb-67d32b61739a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

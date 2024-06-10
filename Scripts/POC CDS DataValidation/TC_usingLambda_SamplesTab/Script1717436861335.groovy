@@ -45,4 +45,9 @@ import com.kms.katalon.core.configuration.RunConfiguration
 import com.kms.katalon.core.util.KeywordUtil
 import java.nio.file.Paths
 
-CustomKeywords.'ctdc.utilities.PythonReader.readPythonSingleFile'('lambdaFilterSamples.py')
+
+
+CustomKeywords.'ctdc.utilities.PythonReader.readFile'('ParticipantsTab.py')
+CustomKeywords.'ctdc.utilities.PythonReader.readFile'('SamplesTab.py')
+CustomKeywords.'ctdc.utilities.PythonReader.readFile'('FilesTab.py')
+CustomKeywords.'ctdc.utilities.PythonReader.readFile'('Statbar.py')

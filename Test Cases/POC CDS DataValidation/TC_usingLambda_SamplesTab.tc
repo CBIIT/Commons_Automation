@@ -4,5 +4,6 @@
    <name>TC_usingLambda_SamplesTab</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>cd4a5083-bfc3-49ea-a629-6b4733f1a850</testCaseGuid>
 </TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_phs002504_Gender_Male</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c178ed00-65a9-4d60-a4c9-f1dea586aaf8</testCaseGuid>
+</TestCaseEntity>
