@@ -13,12 +13,18 @@ program_path = os.path.join(base_dir, 'program.tsv')
 study_path = os.path.join(base_dir, 'study.tsv')
 participant_path = os.path.join(base_dir, 'participant.tsv')
 sample_path = os.path.join(base_dir, 'sample.tsv')
+file_path = os.path.join(base_dir, 'file.tsv')
+diagnosis_path = os.path.join(base_dir, 'diagnosis.tsv')
+genomic_info_path = os.path.join(base_dir, 'genomic_info.tsv')
 
 # Load TSV files to DataFrames
 df_program = Utils.load_tsv_to_dataframe_with_index(program_path, 'program_acronym')
 df_study = Utils.load_tsv_to_dataframe_with_index(study_path, 'phs_accession')
 df_participant = Utils.load_tsv_to_dataframe_with_index(participant_path, 'study_participant_id')
 df_sample = Utils.load_tsv_to_dataframe_with_index(sample_path, 'participant_study_participant_id')
+df_file = Utils.load_tsv_to_dataframe_with_index(file_path, 'file_id')
+df_diagnosis = Utils.load_tsv_to_dataframe_with_index(diagnosis_path, 'study_diagnosis_id')
+df_genomic_info = Utils.load_tsv_to_dataframe_with_index(genomic_info_path, 'genomic_info_id')
 
 # Lambda function that makes it easier to run SQL queries on pandas DataFrames.
 df_run_query = lambda q: ps.sqldf(q, globals())

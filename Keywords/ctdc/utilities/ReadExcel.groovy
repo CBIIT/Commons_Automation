@@ -49,49 +49,74 @@ public class ReadExcel {
 		return sheetData
 	}
 
-
-
-	//************************************************************************************
-	//// this is the current function
-	/*
-	 @Keyword
-	 public static List<List<XSSFCell>> readExceltoWeblist(String filename) {
-	 //	public static List<List<XSSFCell>> readExceltoWeblist(String filename, String sheetName ) {
-	 System.out.println('Filename is '+ filename)
-	 List<List<XSSFCell>> allValues = new ArrayList<>();
-	 FileInputStream fis = new FileInputStream(filename);  //removed filepath.toString()
-	 XSSFWorkbook workbook = new XSSFWorkbook(fis); // Create an excel workbook from the file system.
-	 //reads from the specified tabname of the xl:
-	 //XSSFSheet sheet = workbook.getSheetAt(sheetName);  // Get the specific sheet on the workbook		
-	 XSSFSheet sheet = workbook.getSheetAt(0);  // Get the first sheet on the workbook from read results data from UI / Neo4j data
-	 int rowSize = sheet.size()
-	 int colSize = sheet.getRow(0).size()
-	 System.out.println("Row size is: "+ rowSize + " Col size is: " + colSize )
-	 for(int i = 1; i < rowSize; i++ ){
-	 List<XSSFCell> currList = new ArrayList()
-	 //System.out.println( "Val of first col is: " + sheet.getRow(i).getCell(0) )
-	 int j = 0;
-	 while( j < sheet.getRow(i).size() ){
-	 currList.add( sheet.getRow(i).getCell(j) )
-	 j++
-	 }
-	 while( j < colSize ){
-	 currList.add( "" )
-	 j++
-	 }
-	 allValues.add(currList)
-	 }
-	 return allValues
-	 }
+	/**
+	 * This function reads excel files and is used to read output excel files
+	 * @param filename excel file to read
+	 * @param sheetName sheet name of the workbook
+	 * @return returns all data as a Lists of XSSCell list
 	 */
-	///**********************************************************
-	//This is the new function
-
-
+	@Keyword
+	public static List<List<XSSFCell>> readOutputExcel(String filename, String sheetName) {
+		System.out.println("File name is: " + filename);
+		System.out.println("Sheetname is: " + sheetName);
+		List<List<XSSFCell>> allValues = new ArrayList<>();
+		
+		FileInputStream fis = null;
+		XSSFWorkbook workbook = null;
+	
+		try {
+			fis = new FileInputStream(filename);
+			workbook = new XSSFWorkbook(fis);
+			XSSFSheet sheet = workbook.getSheet(sheetName);
+	
+			if (sheet == null) {
+				System.out.println("Sheet " + sheetName + " not found in the file.");
+				return allValues;
+			}
+	
+			int rowSize = sheet.getPhysicalNumberOfRows();
+			int colSize = sheet.getRow(0).getPhysicalNumberOfCells();
+			System.out.println("Row size is: " + rowSize + "\nCol size is: " + colSize);
+	
+			for (int i = 0; i < rowSize; i++) {
+				List<XSSFCell> currList = new ArrayList<>();
+				XSSFRow row = sheet.getRow(i);
+	
+				for (int j = 0; j < colSize; j++) {
+					XSSFCell cell = row.getCell(j);
+					if (cell == null) {
+						cell = row.createCell(j);
+					}
+					currList.add(cell);
+				}
+				allValues.add(currList);
+			}
+		} catch (IOException e) {
+			e.printStackTrace();
+		} finally {
+			if (workbook != null) {
+				try {
+					workbook.close();
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+			}
+			if (fis != null) {
+				try {
+					fis.close();
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+			}
+		}
+		return allValues;
+	}	
+	
+	//Below is the old read output excel function.
 	@Keyword
 	public static List<List<XSSFCell>> readExceltoWeblist(String filename, String sheetName) {
-		System.out.println('Filename is '+ filename)
-		System.out.println('Sheetname to be read from the file is : '+sheetName)
+		System.out.println('File name to be read: '+ filename)
+		System.out.println('Sheetname to be read: '+ sheetName)
 		List<List<XSSFCell>> allValues = new ArrayList<>();
 		FileInputStream fis = new FileInputStream(filename);  //removed filepath.toString()
 		XSSFWorkbook workbook = new XSSFWorkbook(fis); // Create an excel workbook from the file system.
@@ -122,9 +147,6 @@ public class ReadExcel {
 		} // for loop ends
 		return allValues
 	}
-
-	//*****************************************************************
-
 
 	private static void showExcelData1(List<List<XSSFCell>> sheetData) {
 		// Iterates the data and print it out to the console.
@@ -158,8 +180,7 @@ public class ReadExcel {
 		String caseDetailTabName = GlobalVariable.G_CaseDetailStatTabname  //added for case detail
 		String cypherTabName = dbSheetName
 
-		System.out.println ( "Connection data for Neo4J is  :  " +  query +   GlobalVariable.G_UserId +   GlobalVariable.G_Password +  GlobalVariable.G_ResultPath + GlobalVariable.G_server )
-
+		System.out.println ("Connection data for Neo4J is:  "+ query + GlobalVariable.G_UserId +GlobalVariable.G_Password + GlobalVariable.G_ResultPath + GlobalVariable.G_server)
 
 		System.out.println("This is the value of stat query: "+statQuery)
 		System.out.println("This is the value of cart query: "+myCartQuery)
@@ -171,12 +192,7 @@ public class ReadExcel {
 		ConnectNeo4jV4 Test1 = new ConnectNeo4jV4()
 
 		Test1.run(neo4jServer,userName,pwd,query,output,cypherTabName)   //this is for the tab data
-
 		Test1.run(neo4jServer,userName,pwd,statQuery,output,statTabName)  //this is for the stat bar counts
-
-		//Test1.run(neo4jServer,userName,pwd,myCartQuery,output,cartTabName) //this is for cart table data
-
-		//Test1.run(neo4jServer,userName,pwd,caseDetailQuery,output,caseDetailTabName) // added for case detail page's table
 	}
 
 
