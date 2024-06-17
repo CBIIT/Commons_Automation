@@ -64,6 +64,8 @@ def write_to_excel(output_excel, sheet_name, result_df):
     :param sheet_name: Name of the sheet to write in the Excel file.
     :param result_df: DataFrame to be written to the Excel file.
     """
+
+    result_df = result_df.astype(str)
     if os.path.exists(output_excel):
         with pd.ExcelWriter(output_excel, engine='openpyxl', mode='a', if_sheet_exists='replace') as writer:
             result_df.to_excel(writer, sheet_name, index=False)

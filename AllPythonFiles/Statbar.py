@@ -19,8 +19,8 @@ file_path = os.path.join(base_dir, "file.tsv")
 df_program = Utils.load_tsv_to_dataframe_with_index(program_path, 'program_acronym')
 df_study = Utils.load_tsv_to_dataframe_with_index(study_path, 'phs_accession')
 df_participant = Utils.load_tsv_to_dataframe_with_index(participant_path, 'study_participant_id')
-df_sample = Utils.load_tsv_to_dataframe_with_index(sample_path, 'participant_study_participant_id')
-df_file = Utils.load_tsv_to_dataframe_with_index(file_path, 'study.phs_accession')
+df_sample = Utils.load_tsv_to_dataframe_with_index(sample_path, 'sample_id')
+df_file = Utils.load_tsv_to_dataframe_with_index(file_path, 'file_id')
 
 
 # Lambda function that makes it easier to run SQL queries on pandas DataFrames.

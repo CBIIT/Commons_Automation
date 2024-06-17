@@ -137,7 +137,6 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 
 				System.out.println("Current URL is: "+ url);
 				System.out.println("Old code detected, Trying new code...");
-
 			} else {
 				System.out.println("Valid Code, Continuing with Consent");
 				if(i==3) {
@@ -145,7 +144,6 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 				}
 				break;
 			}
-
 		}
 
 
@@ -165,7 +163,6 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 		//		}else {
 		//			KeywordUtil.markFailed("Landed on the wrong page!")
 		//		}
-
 	}
 
 
@@ -333,23 +330,18 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 			WebUI.setText(findTestObject(ePath+'ProgramTitle-TxtBx'), findTestData(fPath).getValue('program-title', 6)+getCurrentDate("M-d-yyyy-HH-mm"));
 			WebUI.setText(findTestObject(ePath+'ProgAbbre-Txtbx'), findTestData(fPath).getValue('prog-abbreviation', 6)+getCurrentDate("M-d-yyyy-HH-mm"));
 			WebUI.setText(findTestObject(ePath+'ProgDescrptn-Txtbx'), findTestData(fPath).getValue('prog-description', 6));
-
 		}else if(ddValue.contains("CCDI")) {
 
 			validateProgramFields(2);
-
 		}else if(ddValue.contains("CPTAC")) {
 
 			validateProgramFields(3);
-
 		}else if(ddValue.contains("DCCPS")) {
 
 			validateProgramFields(4);
-
 		}else if(ddValue.contains("HTAN")) {
 
 			validateProgramFields(5);
-
 		}else {
 			KeywordUtil.markFailed("Invalid Drop-down Value! Check enterProgramInfo function")
 		}
@@ -484,13 +476,13 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 		WebUI.click(findTestObject(ePath+"PreCancerTypes-Dd"))
 		GlobalVariable.CrdcUiElement=preCancerType;
 		WebUI.click(findTestObject('CRDC/SubmissionRequest/CrdcDdValue'))
-		
+
 		if(preCancerType.equalsIgnoreCase("Breast")) {
 			GlobalVariable.CrdcUiElement="Lung";
 		}else if(preCancerType.equalsIgnoreCase("Lung")) {
 			GlobalVariable.CrdcUiElement="Breast";
 		}
-		
+
 		WebUI.sendKeys(findTestObject('CRDC/SubmissionRequest/CrdcDdValue'), Keys.chord(Keys.TAB))
 		WebUI.setText(findTestObject(ePath+'OtherPreCancerTypes-Txtbx'), findTestData(fPath).getValue('other-pre-cancer-type', otherPreCancerTyRN));
 
@@ -547,14 +539,11 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 
 			if(label.contains("other")) {
 				WebUI.setText(findTestObject(ePath+'OthrDtaTyp-Txtbx'), findTestData(fPath).getValue('other', 1));
-
 			}else if(label.equals("other-clinical")){
 				WebUI.setText(findTestObject(ePath+'OthrClinclDtaTyp-Txtbx'), findTestData(fPath).getValue('othr-clinicl', 1));
-
 			}else if(label.contains("imaging")) {
 				WebUI.click(findTestObject('CRDC/SubmissionRequest/Toggle-Btn'))
 				WebUI.click(findTestObject(ePath+'ConfirmDataIdentified_yes-RdoBtn'))
-
 			}else {
 				WebUI.click(findTestObject('CRDC/SubmissionRequest/Toggle-Btn'))
 			}
@@ -667,7 +656,6 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 		expctd = findTestData(fPath).getValue('pc-institution', institRN)
 		System.out.println("Actual Primary Contact phone is: " + actual +"\nExpected Primary Contact phone is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
-
 	}
 
 	/**
@@ -1049,10 +1037,10 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 					expctd = findTestData(fPath).getValue('epide-cohort', 2)
 					break;
 
-//				case 'other':
-//					actual = WebUI.getText(findTestObject(ePath+'OtherDataTypes-Txt'))
-//					expctd = findTestData(fPath).getValue('other', 1)
-//					break;
+				//				case 'other':
+				//					actual = WebUI.getText(findTestObject(ePath+'OtherDataTypes-Txt'))
+				//					expctd = findTestData(fPath).getValue('other', 1)
+				//					break;
 
 				case 'demographic':
 					actual = WebUI.getText(findTestObject(ePath+'Demographic-Txt'))
@@ -1086,7 +1074,6 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 
 				default:
 					WebUI.click(findTestObject('CRDC/SubmissionRequest/Toggle-Btn'))
-
 			}
 
 			System.out.println("Actual "+label+" data type is: " + actual +"\nExpected "+label+" data type is: "+expctd);
@@ -1145,7 +1132,4 @@ class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 		Thread.sleep(500)
 		WebUI.verifyElementPresent(findTestObject('CRDC/NavBar/Start_a_SubmissionRequest-Btn'), 10)
 	}
-
-
-
 }//class ends
