@@ -267,7 +267,7 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 			String str = "";
 			//loop through columns
 			for (int j = 0; j < datarow.size(); j++){
-//				System.out.println ("Value of  i: "  + i + "  Value of j  : " + j )
+				//				System.out.println ("Value of  i: "  + i + "  Value of j  : " + j )
 				XSSFCell cell = datarow.get(j);
 				//Look for specific column names to perform action
 				switch(sheetData.get(0).get(j).getStringCellValue().trim() ) {
@@ -451,14 +451,13 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 				System.out.println("Invalid TSV Sheet name: " + dbdataSheetName)
 			}
 			PythonReader.readFile('Statbar.py')
-			
+
 			System.out.println("control is before compare lists function from multifunction")
-		
+
 			compareSheets(webdataSheetName, dbdataSheetName)
-			
+
 			System.out.println("Control is before validate stat bar function from multifunction")
 			validateStatBar(appName)
-			
 		}else {
 			System.out.println("Skipping data collection from neo4j and compare lists of web and db as the stat value is 0")
 		}
@@ -2027,8 +2026,8 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 		return mismatchedItems;
 	}
 
-	
-	
+
+
 	//@@@@@@@@@@@@@@@ SOHIL's Code @@@@@@@@@@@@@@@@@@@@
 	/**
 	 * This function compares two sheet. Other functions are called in this function 
@@ -2038,216 +2037,216 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 	 */
 	@Keyword
 	public static void compareSheets(String webSheetName, String neoSheetName) {
-		
+
 		List<List<XSSFCell>> UIData = new ArrayList<>();
 		List<List<XSSFCell>> neo4jData = new ArrayList<>();
-		
+
 		// Initializing files path
 		String UIfilename = GlobalVariable.G_WebExcel.toString();
 		String neo4jfilename = GlobalVariable.G_ResultPath.toString();
-		
+
 		System.out.println("This is  the  full UI file  path: " + UIfilename);
 		System.out.println("This is the full neo4j file path: " + neo4jfilename);
-		Thread.sleep(60000)
+
 		// Read UI output excel
 		UIData = ReadExcel.readOutputExcel(UIfilename, webSheetName);
 		Collections.sort(UIData, new runtestcaseforKatalon());
-		
+
 		// Read TSV or DB output excel
 		neo4jData = ReadExcel.readOutputExcel(neo4jfilename, neoSheetName);
 		Collections.sort(neo4jData, new runtestcaseforKatalon());
-		
+
 		System.out.println("This is the Entire UIWeb  data: " + UIData);
 		System.out.println("This is the Entire neo4j  data: " + neo4jData);
 		System.out.println("This is the row size of the UIWeb Output data: " + UIData.size());
 		System.out.println("This is the row size of the Neo4j Output data: " + neo4jData.size());
-		
+
 		compareTwoLists(UIData, neo4jData);
 	}
-	
-	
-	
+
+
+
 	//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 	//OLD compare list before  Fix **************************************************
-//	@Keyword
-//	public static void compareLists(String webSheetName, String neoSheetName) {
-//		//pass the sheet names only. file name is not needed
-//		List<List<XSSFCell>> UIData = new ArrayList<>()
-//		List<List<XSSFCell>> neo4jData = new ArrayList<>()
-//		String UIfilename =  GlobalVariable.G_WebExcel.toString()   //UIfilepath.toString()
-//		System.out.println("This is the full uifilepath after converting to string :"+UIfilename);
-//		//UIData = ReadExcel.readExceltoWeblist(UIfilename,GlobalVariable.G_WebTabnameCasesCasesCases)  //change the function name Test in parent class and here
-//		UIData = ReadExcel.readExceltoWeblist(UIfilename,webSheetName)
-//
-//
-//		System.out.println("This is the UI data read by comparelists function : "+UIData)
-//		System.out.println ("This is the row size of the UIdata : "+ UIData.size());
-//		Collections.sort( UIData , new runtestcaseforKatalon() )
-//		//	Collections.sort(UIData)
-//
-//		//############################ Changed below line for TSV files
-//
-//		String neo4jfilename=  GlobalVariable.G_ResultPath.toString()
-//
-//		//String neo4jfilename= 'TC01_CDS_phs002250_Gender_Male_TSVData.xlsx'
-//		System.out.println("This is the full neo4j filepath after converting to string :"+neo4jfilename);
-//		//neo4jData = ReadExcel.readExceltoWeblist(neo4jfilename,GlobalVariable.G_CypherTabnameCasesCasesCases)  //change the function name Test in parent class and here
-//		neo4jData = ReadExcel.readExceltoWeblist(neo4jfilename,neoSheetName)
-//
-//		System.out.println ("This is the row size of the Neo4jdata : "+ neo4jData.size());
-//		System.out.println("This is the neo4j data read by comparelists function : "+neo4jData)
-//		Collections.sort( neo4jData , new runtestcaseforKatalon() )
-//		//	Collections.sort(neo4jData)
-//
-//		compareTwoLists(UIData,neo4jData)  //This compares the two sorted lists - ui data and db data
-//	}
+	//	@Keyword
+	//	public static void compareLists(String webSheetName, String neoSheetName) {
+	//		//pass the sheet names only. file name is not needed
+	//		List<List<XSSFCell>> UIData = new ArrayList<>()
+	//		List<List<XSSFCell>> neo4jData = new ArrayList<>()
+	//		String UIfilename =  GlobalVariable.G_WebExcel.toString()   //UIfilepath.toString()
+	//		System.out.println("This is the full uifilepath after converting to string :"+UIfilename);
+	//		//UIData = ReadExcel.readExceltoWeblist(UIfilename,GlobalVariable.G_WebTabnameCasesCasesCases)  //change the function name Test in parent class and here
+	//		UIData = ReadExcel.readExceltoWeblist(UIfilename,webSheetName)
+	//
+	//
+	//		System.out.println("This is the UI data read by comparelists function : "+UIData)
+	//		System.out.println ("This is the row size of the UIdata : "+ UIData.size());
+	//		Collections.sort( UIData , new runtestcaseforKatalon() )
+	//		//	Collections.sort(UIData)
+	//
+	//		//############################ Changed below line for TSV files
+	//
+	//		String neo4jfilename=  GlobalVariable.G_ResultPath.toString()
+	//
+	//		//String neo4jfilename= 'TC01_CDS_phs002250_Gender_Male_TSVData.xlsx'
+	//		System.out.println("This is the full neo4j filepath after converting to string :"+neo4jfilename);
+	//		//neo4jData = ReadExcel.readExceltoWeblist(neo4jfilename,GlobalVariable.G_CypherTabnameCasesCasesCases)  //change the function name Test in parent class and here
+	//		neo4jData = ReadExcel.readExceltoWeblist(neo4jfilename,neoSheetName)
+	//
+	//		System.out.println ("This is the row size of the Neo4jdata : "+ neo4jData.size());
+	//		System.out.println("This is the neo4j data read by comparelists function : "+neo4jData)
+	//		Collections.sort( neo4jData , new runtestcaseforKatalon() )
+	//		//	Collections.sort(neo4jData)
+	//
+	//		compareTwoLists(UIData,neo4jData)  //This compares the two sorted lists - ui data and db data
+	//	}
 
-	
+
 	//compare lists***********************************************************
-//	public static void compareTwoLists( List<List<XSSFCell>> l1, List<List<XSSFCell>> l2 ){
-//		System.out.println ("Comparing two Lists");
-//		int l2row=0;
-//		//	for( int l2row = 0; l2row < l2.size(); l2row++ ){
-//		while( l2row < l2.size() ){
-//			//			List<XSSFCell> l2rowList = l2.get(l2row)
-//			//			System.out.println(" This is the contents of DB data : " + l2rowList )
-//
-//			for( int l1row = 0; l1row < l1.size(); l1row++ ){
-//
-//				List<XSSFCell> l1rowList = l1.get(l1row)
-//				System.out.println(" This is the contents of Web(UI) data : " + l1rowList )
-//
-//				List<XSSFCell> l2rowList = l2.get(l2row)
-//				System.out.println(" This is the contents of DB data : " + l2rowList )
-//
-//				//				 System.out.println(" This is the contents of DB data at getL2row : " + l2rowList.get(l2row).getStringCellValue() )
-//				//				 System.out.println(" This is the contents of Web data at getL1row : " + l1rowList.get(l1row).getStringCellValue() )
-//
-//				//				if( l2rowList.get(0).getStringCellValue() == l1rowList.get(0).getStringCellValue()){ //takes CTDC ID as the primary key for comparison & checks if two values are equal
-//				//
-//				System.out.println(" Comparing UI data : " + l1rowList)
-//				System.out.println( " and corresponding DB data : " + l2rowList )
-//
-//				boolean l1NullFlag = false, l2NullFlag = false
-//				for(int col = 0; col < l2rowList.size(); col++ ){
-//					//compares all the columns in the excels - for each row
-//					if( l1rowList.get(col) == null || l1rowList.get(col).equals("") || l1rowList.get(col).getCellType() == l1rowList.get(col).CELL_TYPE_BLANK ){
-//						System.out.println("There is a NULL entry in UI Data Row")
-//						l1NullFlag = true
-//					}
-//					if( l2rowList.get(col) == null || l2rowList.get(col).equals("") || l2rowList.get(col).getCellType() == l2rowList.get(col).CELL_TYPE_BLANK ){
-//						System.out.println("There is a NULL entry in DB Data Row")
-//						l2NullFlag = true
-//					}
-//					if( l1NullFlag == l2NullFlag ) { }//System.out.println("Content Matches for col number: "+ col)
-//					else System.out.println("Content does not match for col number: " + col )
-//
-//					if( l1NullFlag || l2NullFlag ) continue   //if the data mismatches, print the data found in ui and db
-//						System.out.println("UI data value is: "+ l1rowList.get(col).getStringCellValue() + "\nDB data value is: "+ l2rowList.get(col).getStringCellValue() )
-//					//added based on Wei's suggestions to fix  newline issue
-//					String l1Value = l1rowList.get(col).getStringCellValue();
-//					String l2Value = l2rowList.get(col).getStringCellValue();
-//					if (l2Value.contains("\\n")) {
-//						String new_line = System.getProperty("line.separator");
-//						l2Value = l2Value.split("\\\\n").join(new_line);
-//					}
-//					System.out.println("UI data value is: "+ l1Value + "\nDB data value is: "+ l2Value );
-//					/*	if( l1Value == l2Value){
-//					  System.out.println("Content matches for col number : " + col )
-//					 }else{
-//					 //above is added based on Wei's suggestions to fix  newline issue
-//					 //remove the comment fromt he 3 lines below if you want to undo wei's fix'
-//					 //					if( l1rowList.get(col).getStringCellValue() == l2rowList.get(col).getStringCellValue() ){
-//					 //						System.out.println("Content matches for col number : " + col )
-//					 //					}else{
-//					 System.err.println("***********DATA MISMATCH:  ABORTING RUN********************")
-//					 System.out.println("Content does not match for col: " + col )
-//					 System.out.println( "UI data Value (mismatch): " + l1rowList.get(col).getStringCellValue() )
-//					 System.out.println( "DB data Value (mismatch): " + l2rowList.get(col).getStringCellValue() )
-//					 KeywordUtil.markFailed("***********DATA MISMATCH in comparelists:  ABORTING RUN********************");
-//					 //add steps for handling failure
-//					 } */
-//				}
-//				//				}else{
-//				//					System.out.println("UI Data and DB Data are not matching for :")
-//				//					// add what the code should display if contents mismatch outside the main loop for CTDC ID
-//				//				}
-//				l2row++
-//			} //l1forloop
-//		} // l2 while loop
-//	}
-	
-	
+	//	public static void compareTwoLists( List<List<XSSFCell>> l1, List<List<XSSFCell>> l2 ){
+	//		System.out.println ("Comparing two Lists");
+	//		int l2row=0;
+	//		//	for( int l2row = 0; l2row < l2.size(); l2row++ ){
+	//		while( l2row < l2.size() ){
+	//			//			List<XSSFCell> l2rowList = l2.get(l2row)
+	//			//			System.out.println(" This is the contents of DB data : " + l2rowList )
+	//
+	//			for( int l1row = 0; l1row < l1.size(); l1row++ ){
+	//
+	//				List<XSSFCell> l1rowList = l1.get(l1row)
+	//				System.out.println(" This is the contents of Web(UI) data : " + l1rowList )
+	//
+	//				List<XSSFCell> l2rowList = l2.get(l2row)
+	//				System.out.println(" This is the contents of DB data : " + l2rowList )
+	//
+	//				//				 System.out.println(" This is the contents of DB data at getL2row : " + l2rowList.get(l2row).getStringCellValue() )
+	//				//				 System.out.println(" This is the contents of Web data at getL1row : " + l1rowList.get(l1row).getStringCellValue() )
+	//
+	//				//				if( l2rowList.get(0).getStringCellValue() == l1rowList.get(0).getStringCellValue()){ //takes CTDC ID as the primary key for comparison & checks if two values are equal
+	//				//
+	//				System.out.println(" Comparing UI data : " + l1rowList)
+	//				System.out.println( " and corresponding DB data : " + l2rowList )
+	//
+	//				boolean l1NullFlag = false, l2NullFlag = false
+	//				for(int col = 0; col < l2rowList.size(); col++ ){
+	//					//compares all the columns in the excels - for each row
+	//					if( l1rowList.get(col) == null || l1rowList.get(col).equals("") || l1rowList.get(col).getCellType() == l1rowList.get(col).CELL_TYPE_BLANK ){
+	//						System.out.println("There is a NULL entry in UI Data Row")
+	//						l1NullFlag = true
+	//					}
+	//					if( l2rowList.get(col) == null || l2rowList.get(col).equals("") || l2rowList.get(col).getCellType() == l2rowList.get(col).CELL_TYPE_BLANK ){
+	//						System.out.println("There is a NULL entry in DB Data Row")
+	//						l2NullFlag = true
+	//					}
+	//					if( l1NullFlag == l2NullFlag ) { }//System.out.println("Content Matches for col number: "+ col)
+	//					else System.out.println("Content does not match for col number: " + col )
+	//
+	//					if( l1NullFlag || l2NullFlag ) continue   //if the data mismatches, print the data found in ui and db
+	//						System.out.println("UI data value is: "+ l1rowList.get(col).getStringCellValue() + "\nDB data value is: "+ l2rowList.get(col).getStringCellValue() )
+	//					//added based on Wei's suggestions to fix  newline issue
+	//					String l1Value = l1rowList.get(col).getStringCellValue();
+	//					String l2Value = l2rowList.get(col).getStringCellValue();
+	//					if (l2Value.contains("\\n")) {
+	//						String new_line = System.getProperty("line.separator");
+	//						l2Value = l2Value.split("\\\\n").join(new_line);
+	//					}
+	//					System.out.println("UI data value is: "+ l1Value + "\nDB data value is: "+ l2Value );
+	//					/*	if( l1Value == l2Value){
+	//					  System.out.println("Content matches for col number : " + col )
+	//					 }else{
+	//					 //above is added based on Wei's suggestions to fix  newline issue
+	//					 //remove the comment fromt he 3 lines below if you want to undo wei's fix'
+	//					 //					if( l1rowList.get(col).getStringCellValue() == l2rowList.get(col).getStringCellValue() ){
+	//					 //						System.out.println("Content matches for col number : " + col )
+	//					 //					}else{
+	//					 System.err.println("***********DATA MISMATCH:  ABORTING RUN********************")
+	//					 System.out.println("Content does not match for col: " + col )
+	//					 System.out.println( "UI data Value (mismatch): " + l1rowList.get(col).getStringCellValue() )
+	//					 System.out.println( "DB data Value (mismatch): " + l2rowList.get(col).getStringCellValue() )
+	//					 KeywordUtil.markFailed("***********DATA MISMATCH in comparelists:  ABORTING RUN********************");
+	//					 //add steps for handling failure
+	//					 } */
+	//				}
+	//				//				}else{
+	//				//					System.out.println("UI Data and DB Data are not matching for :")
+	//				//					// add what the code should display if contents mismatch outside the main loop for CTDC ID
+	//				//				}
+	//				l2row++
+	//			} //l1forloop
+	//		} // l2 while loop
+	//	}
+
+
 	/**
 	 * This function reads two lists and compares it's content
 	 * @param l1 (specified for UI) a List that will have inner list
 	 * @param l2 (specified for DB) a List that will have inner list
 	 */
 	public static void compareTwoLists(List<List<XSSFCell>> l1, List<List<XSSFCell>> l2){
-		
+
 		System.out.println("============== Verification of the data ==============")
 		int l2row=0;
-		
+
 		while( l2row < l2.size() ){
-			
+
 			for( int l1row = 0; l1row < l1.size(); l1row++ ){
-				
+
 				List<XSSFCell> l1rowList = l1.get(l1row)
 				List<XSSFCell> l2rowList = l2.get(l2row)
 				boolean l1NullFlag = false, l2NullFlag = false
-				
+
 				int l1rowCount =l1row+2;
 				int l2rowCount =l2row+2;
-				
+
 				System.out.println("UI Data Entire Row: " + l1rowList)
 				System.out.println("DB data Entire Row: " + l2rowList)
 
 				for(int col = 0; col < l2rowList.size(); col++ ){
-					
+
 					XSSFCell l1Col = l1rowList.get(col);
 					XSSFCell l2Col = l1rowList.get(col);
-					
+
 					String l1Value = l1rowList.get(col).getStringCellValue();
 					String l2Value = l2rowList.get(col).getStringCellValue();
-					
+
 					//Check for empty cell in UI excel
 					if(l1Col == null || l1Col.getCellTypeEnum() == CellType.BLANK || l1Value.trim().isEmpty()){
 						System.out.println("There is an empty cell in UI Data Row: " + l1rowCount + " Col: " + col );
 						l1NullFlag = true
 					}
-					
+
 					//Check for empty cell in DB excel
 					if(l2Col == null || l2Col.getCellTypeEnum() == CellType.BLANK || l2Value.trim().isEmpty()){
 						System.out.println("There is an empty cell in DB Data Row: " + l2rowCount + " Col: " + col );
 						l2NullFlag = true
 					}
-					
+
 					//When UI and DB empty cell don't match, warn user
 					if (l1NullFlag != l2NullFlag) {
 						System.err.println("********** EMPTY CELL MISMATCH **********")
 						l1NullFlag = false
 						l2NullFlag = false
 					}
-				
+
 					//When there is data, compare UI value against DB value
 					if(l1Value == l2Value){
 						System.out.println("UI data cell value is: "+ l1Value + "\nDB data cell value is: "+ l2Value );
 						System.out.println("Content matches for Row: " + l1rowCount + " Col: " + col +" \u2713");
-					 }else{
+					}else{
 						System.err.println("*********** DATA MISMATCH ***********")
 						System.err.println("UI data cell value is: "+ l1Value + "\nDB data cell value is: "+ l2Value );
 						System.err.println("Content does not match for Row: " + l1rowCount + " Col: " + col +" \u2717")
 						KeywordUtil.markFailed("*********** DATA MISMATCH in compareTwoLists *************");
-					 }
+					}
 				}
 				l2row++
 			}
 		}
 	}
 
-	
-	
-	
+
+
+
 	//**************************************************************************************
 	//this is a duplicate of comparelists created to test the xl manifest and cart xl comparison
 	@Keyword
@@ -2289,7 +2288,7 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 		statData = ReadExcel.readExceltoWeblist(neo4jfilename, GlobalVariable.G_StatTabname)
 
 		if(getAppName=='Bento'){
-			
+
 			System.out.println("This is the first row - stat data read from neo4j stat sheet : "+statData[0])
 			System.out.println("This is the value of Programs Count from Neo4j result "+statData.get(0).get(0).getStringCellValue())  //add in the query in input file later
 			System.out.println("This is the value of Arms Count from Neo4j result "+statData.get(0).get(1).getStringCellValue())
@@ -2304,7 +2303,6 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 			(statData.get(0).get(3).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Samples)) ? KeywordUtil.markPassed("Statbar Samples count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Samples count")
 			(statData.get(0).get(4).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Assays)) ? KeywordUtil.markPassed("Statbar Assays count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Assays count")
 			(statData.get(0).get(5).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Files)) ? KeywordUtil.markPassed("Statbar Files count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Files count")
-		
 		}else if (getAppName=='INS') {
 
 			System.out.println("This is the value of Programs Count from Neo4j result "+statData.get(0).get(0).getStringCellValue())
@@ -2314,7 +2312,7 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 			System.out.println("This is the value of Datasets Count from Neo4j result "+statData.get(0).get(4).getStringCellValue())
 			System.out.println("This is the value of Clinical Trials Count from Neo4j result "+statData.get(0).get(5).getStringCellValue())
 			System.out.println("This is the value of Patents from Neo4j result "+statData.get(0).get(6).getStringCellValue())
-			
+
 			(statData.get(0).get(0).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Programs)) ? KeywordUtil.markPassed("Statbar Programs count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Programs count")
 			(statData.get(0).get(1).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Projects)) ? KeywordUtil.markPassed("Statbar Projects count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Projects count")
 			(statData.get(0).get(2).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Grants)) ? KeywordUtil.markPassed("Statbar Grants count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Grants count")
@@ -2322,9 +2320,8 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 			(statData.get(0).get(4).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Datasets)) ? KeywordUtil.markPassed("Statbar Datasets count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Datasets count")
 			(statData.get(0).get(5).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_ClinTrials)) ? KeywordUtil.markPassed("Statbar clinical Trials count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Clinical Trials count")
 			(statData.get(0).get(6).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Patents)) ? KeywordUtil.markPassed("Statbar Patents count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Patents count")
-		
 		}else if (getAppName=='ICDC'){
-			
+
 			System.out.println ("control is in line 1842");
 			System.out.println("This is the value of Programs Count from Neo4j result: "+statData.get(0).get(0).getStringCellValue())
 			System.out.println("This is the value of Studies Count from Neo4j result: "+statData.get(0).get(1).getStringCellValue())

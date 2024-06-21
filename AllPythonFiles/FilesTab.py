@@ -5,7 +5,7 @@ import Utils
 
 
 # Base directory path
-base_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'InputFiles', 'CDS', 'phs002504')
+base_dir = Utils.tsv_files_path
 
 # Paths to TSV files
 program_path = os.path.join(base_dir, 'program.tsv')

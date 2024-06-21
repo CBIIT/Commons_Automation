@@ -6,7 +6,7 @@ import Utils
 
 
 # Base directory path
-base_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'InputFiles', 'CDS', 'phs002504')
+base_dir = Utils.tsv_files_path 
 
 # Paths to TSV files
 program_path = os.path.join(base_dir, 'program.tsv')
@@ -21,7 +21,7 @@ genomic_info_path = os.path.join(base_dir, 'genomic_info.tsv')
 df_program = Utils.load_tsv_to_dataframe_with_index(program_path, 'program_acronym')
 df_study = Utils.load_tsv_to_dataframe_with_index(study_path, 'phs_accession')
 df_participant = Utils.load_tsv_to_dataframe_with_index(participant_path, 'study_participant_id')
-df_sample = Utils.load_tsv_to_dataframe_with_index(sample_path, 'participant_study_participant_id')
+df_sample = Utils.load_tsv_to_dataframe_with_index(sample_path, 'participant.study_participant_id')
 df_file = Utils.load_tsv_to_dataframe_with_index(file_path, 'file_id')
 df_diagnosis = Utils.load_tsv_to_dataframe_with_index(diagnosis_path, 'study_diagnosis_id')
 df_genomic_info = Utils.load_tsv_to_dataframe_with_index(genomic_info_path, 'genomic_info_id')

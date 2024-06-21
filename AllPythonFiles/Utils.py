@@ -2,6 +2,7 @@ import pandas as pd
 import pandasql as ps
 import os
 
+tsv_files_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'InputFiles', 'CDS', 'phs002504')
 
 # Loads a TSV file into a pandas DataFrame and sets a specified column as the index.
 # Returns: DataFrame containing the data from the TSV file with the specified index.
@@ -29,7 +30,8 @@ def load_tsv_to_dataframe_with_index(file_path, index_column):
     
 
 # Path of input file
-input_file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'InputFiles', 'CDS', 'phs002504', 'TC01_phs002504_Gender_Male.xlsx')
+input_file_path = os.path.join(tsv_files_path, 'TC01_CDS_phs002504_Gender_Male.xlsx')
+
 print(f'Reading input excel: {input_file_path}')
 
 def get_value_from_excel(rowOrColName):
@@ -39,7 +41,7 @@ def get_value_from_excel(rowOrColName):
     Returns: str: The value of the specified row or column.
     """
 
-    # Read the Excel file, always using the first sheet (index 0)
+    # Read the input Excel file, always using the first sheet (index 0)
     df = pd.read_excel(input_file_path, sheet_name=0)
     
     # Iterate through the rows to find the specified rowOrColName entry

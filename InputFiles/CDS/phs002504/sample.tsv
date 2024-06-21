@@ -1,4 +1,4 @@
-type	sample_id	crdc_id	sample_anatomic_site	participant_study_participant_id	biosample_accession	sample_type	sample_tumor_status
+type	sample_id	crdc_id	sample_anatomic_site	participant.study_participant_id	biosample_accession	sample_type	sample_tumor_status
 sample	0D88RM_RNA	a0ffe9ee-6962-4eff-add2-ba2513eb35d1	Central Nervous System	phs002790_PBBHCR		RNA	Tumor
 sample	0D88RN_DNA	930e47f1-182b-4def-a9b0-dc3efdbb16a7	Central Nervous System	phs002790_PBBHCR		DNA	Tumor
 sample	0D88RQ_DNA	dc805f68-e945-4050-9aae-9f8a495141d4	Blood	phs002790_PBBHCR		DNA	Normal

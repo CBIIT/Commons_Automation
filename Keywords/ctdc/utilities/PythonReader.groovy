@@ -21,7 +21,7 @@ public class PythonReader {
 
 		try {
 			// Create a process builder
-			ProcessBuilder processBuilder = new ProcessBuilder("/Library/Frameworks/Python.framework/Versions/3.12/bin/python3", filePath);
+			ProcessBuilder processBuilder = new ProcessBuilder("python3", filePath);
 			processBuilder.redirectErrorStream(true);
 
 			// Start the process
