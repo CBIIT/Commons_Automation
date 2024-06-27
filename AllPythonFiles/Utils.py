@@ -1,8 +1,37 @@
 import pandas as pd
 import pandasql as ps
 import os
+import sys
+import re
 
-tsv_files_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'InputFiles', 'CDS', 'phs002504')
+
+# This function returns input excel with path
+def input_excel():
+    if len(sys.argv) > 1:
+        return sys.argv[1]
+    else:
+        return "No input exce with path provided"
+    
+
+# This function gets the phs accession from testcase name and creates new path to the study
+def get_tsv_files_path():
+
+    base_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'InputFiles', 'CDS')
+    # Regular expression to match "phs" followed by digits
+    pattern = re.compile(r'phs\d+')
+    # Check if testcaseName contains the pattern
+    match = pattern.search(input_excel())
+    
+    if match:
+        # Append the matched pattern to the base path
+        return os.path.join(base_path, match.group())
+    else:
+        # Return the base path if no match
+        return base_path
+
+
+tsv_files_path = os.path.join(get_tsv_files_path())
+print("TSV Files path inside Utils.py is: "+tsv_files_path)
 
 # Loads a TSV file into a pandas DataFrame and sets a specified column as the index.
 # Returns: DataFrame containing the data from the TSV file with the specified index.
@@ -29,8 +58,10 @@ def load_tsv_to_dataframe_with_index(file_path, index_column):
         return None
     
 
-# Path of input file
-input_file_path = os.path.join(tsv_files_path, 'TC01_CDS_phs002504_Gender_Male.xlsx')
+
+
+# Path of input excel file
+input_file_path = os.path.join(input_excel())
 
 print(f'Reading input excel: {input_file_path}')
 
