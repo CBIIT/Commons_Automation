@@ -177,7 +177,7 @@ class functions extends runtestcaseforKatalon implements Comparator<List<XSSFCel
 				String colHdrVlu = colHeader.get(c).getAttribute("innerText");
 
 				if((colHdrVlu=="Study Code") || (colHdrVlu=="Program") || (colHdrVlu=="Study Name")
-				|| (colHdrVlu=="Study Type") || (colHdrVlu=="Accession ID") || (colHdrVlu=="Cases")) {
+						|| (colHdrVlu=="Study Type") || (colHdrVlu=="Accession ID") || (colHdrVlu=="Cases")) {
 
 					System.out.println ("Value of col header index from Studies is: "+c +"\nValue of col header text is: " + colHdrVlu)
 					hdrdata = hdrdata + (colHdrVlu) + "||"
@@ -200,8 +200,7 @@ class functions extends runtestcaseforKatalon implements Comparator<List<XSSFCel
 		//*********** COLLECTING THE TABLE BODY DATA ***********
 		int counter=1;
 		if (statValue !=0) {
-			while(counter <=1)
-			{
+			while(counter <=1) {
 				wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(GlobalVariable.G_cannine_caseTblBdy)));
 				scrolltoViewjs(driver.findElement(By.xpath(GlobalVariable.G_cannine_caseTblBdy)))
 				TableBdy =driver.findElement(By.xpath(GlobalVariable.G_cannine_caseTblBdy))
@@ -213,7 +212,8 @@ class functions extends runtestcaseforKatalon implements Comparator<List<XSSFCel
 
 				int i;
 
-				for(i = 1; i <=rows_count; i++) { //before editing for fixing cotb issue
+				for(i = 1; i <=rows_count; i++) {
+					//before editing for fixing cotb issue
 
 					String data = ""
 					String headerlabel =""
@@ -235,7 +235,7 @@ class functions extends runtestcaseforKatalon implements Comparator<List<XSSFCel
 										String hdrVlue=colHeader.get(j-1).getAttribute("innerText");
 
 										if((hdrVlue=="Study Code") || (hdrVlue=="Program") || (hdrVlue=="Study Name")
-										|| (hdrVlue=="Study Type") || (hdrVlue=="Accession ID") || (hdrVlue=="Cases")) {
+												|| (hdrVlue=="Study Type") || (hdrVlue=="Accession ID") || (hdrVlue=="Cases")) {
 
 											System.out.println("This is the name of column header: "+hdrVlue)
 											System.out.println("Value of i is: "+ i +"\nValue of j is: "+j)
@@ -263,7 +263,7 @@ class functions extends runtestcaseforKatalon implements Comparator<List<XSSFCel
 										String hdrVlue=colHeader.get(j-1).getAttribute("innerText");
 
 										if((hdrVlue=="Study Code") || (hdrVlue=="Program") || (hdrVlue=="Study Name")
-										|| (hdrVlue=="Study Type") || (hdrVlue=="Accession ID") || (hdrVlue=="Cases")) {
+												|| (hdrVlue=="Study Type") || (hdrVlue=="Accession ID") || (hdrVlue=="Cases")) {
 
 											System.out.println("This is the name of column header: "+hdrVlue)
 											System.out.println("Value of i is: "+ i +"\nValue of j is: "+j)
@@ -300,13 +300,11 @@ class functions extends runtestcaseforKatalon implements Comparator<List<XSSFCel
 				scrolltoViewjs(nextButton)
 				if (nextButton.getAttribute("disabled")){
 					break;
-
 				} else {
 					System.out.println("COLLECTED DATA FROM PAGE - " +counter);
 					clickElement(nextButton); //uses jsexecutor to click
 					counter++;
 				}
-
 			}//while loop ends
 		} //if loop for body data collection ends
 		else {
@@ -315,7 +313,5 @@ class functions extends runtestcaseforKatalon implements Comparator<List<XSSFCel
 
 		writeToExcel(webSheetName);
 		System.out.println("Webdata written to excel successfully")
-
 	}//ReadCasesTableKatalon function ends
-
 }//class ends

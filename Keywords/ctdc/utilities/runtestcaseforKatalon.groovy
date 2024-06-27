@@ -149,8 +149,7 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 		}else if(url.contains("studycatalog")) {
 			filePath = Paths.get(usrDir, inputFiles, "INS", input_file);
 		}else if(url.contains("dataservice")) {
-			//Updated below line for python file
-			filePath = Paths.get(usrDir, inputFiles, "CDS", "phs002504", input_file);
+			filePath = Paths.get(usrDir, inputFiles, "CDS", input_file);
 		}else if(url.contains("gmb")) {
 			filePath = Paths.get(usrDir, inputFiles, "GMB", input_file);
 		}else if(url.contains("ctdc")) {
@@ -1755,8 +1754,11 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 	}
 
 
-
-	//This function returns the xpath of a given string (from the obj stored in katalons object repository)
+	/**
+	 * This function returns the xpath of a given string (from the obj stored in katalons object repository)
+	 * @param objname
+	 * @return xpath of the object
+	 */
 	@Keyword
 	public static String givexpath(String objname) {
 		TestObject obj = findTestObject(objname)
@@ -1956,13 +1958,6 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 	}
 
 
-
-	@Keyword
-	public void headerVal(){
-	}
-
-
-
 	//******************UI VALIDATION - HASHMAP VALIDATION FUNCTION ***************************
 	public void UIValidation(HashMap<String, String> hmap) {
 		Set set = hmap.entrySet();     /* Display content using Iterator*/
@@ -2047,7 +2042,7 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 
 		System.out.println("This is  the  full UI file  path: " + UIfilename);
 		System.out.println("This is the full neo4j file path: " + neo4jfilename);
-
+		Thread.sleep(15000)
 		// Read UI output excel
 		UIData = ReadExcel.readOutputExcel(UIfilename, webSheetName);
 		Collections.sort(UIData, new runtestcaseforKatalon());
@@ -2469,12 +2464,6 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 		js.executeScript("arguments[0].scrollIntoView(true);", resultTab);
 		js.executeScript("arguments[0].click();", resultTab);
 		System.out.println("Successfully clicked desired element")
-
-
-		String xcSubjects = givexpath('Object Repository/GMB/StatBar/GMB_StatBar-Subjects')
-		GlobalVariable.G_StatBar_Grants = driver.findElement(By.xpath(xcSubjects)).getAttribute("innerText");
-		System.out.println("This is the value of Subjects count from Stat bar :"+GlobalVariable.G_GStatBar_Subjects)
-		Thread.sleep(1000)
 	}
 
 
@@ -2496,6 +2485,11 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 		System.out.println("This is the value of Studies count from Stat bar: "+GlobalVariable.G_StatBar_Files)
 		Thread.sleep(3000)
 	}
+
+	/**
+	 * This method scrolls 
+	 * @param elem
+	 */
 	@Keyword
 	public static void scrolltoViewjs(WebElement elem){
 		JavascriptExecutor js = (JavascriptExecutor)driver;
