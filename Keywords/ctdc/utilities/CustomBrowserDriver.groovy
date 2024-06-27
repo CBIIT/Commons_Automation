@@ -163,7 +163,6 @@ public class CustomBrowserDriver {
 
 			default:
 				throw new IllegalStateException("unsupported browser type: ${executedBrowser}")
-
 		}
 		return drv
 	}

@@ -8,6 +8,8 @@ import com.kms.katalon.core.annotation.Keyword;
 import com.kms.katalon.core.configuration.RunConfiguration;
 import com.kms.katalon.core.util.KeywordUtil;
 
+import internal.GlobalVariable
+
 public class PythonReader {
 	/**
 	 * This function reads and executes a Python file.
@@ -15,13 +17,16 @@ public class PythonReader {
 	 */
 	@Keyword
 	public static void readFile(String pythonFileName) {
+
+		String inputFileName = GlobalVariable.InputExcel.toString();
+
 		String filePath = Paths.get(RunConfiguration.getProjectDir(), "AllPythonFiles", pythonFileName).toString();
 		System.out.println("This is the path till the py filename: " + filePath);
 		KeywordUtil.logInfo("Executing Python file: " + pythonFileName);
 
 		try {
 			// Create a process builder
-			ProcessBuilder processBuilder = new ProcessBuilder("python3", filePath);
+			ProcessBuilder processBuilder = new ProcessBuilder("python3", filePath, inputFileName);
 			processBuilder.redirectErrorStream(true);
 
 			// Start the process
