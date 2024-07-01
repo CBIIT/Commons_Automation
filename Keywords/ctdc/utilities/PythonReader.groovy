@@ -26,7 +26,7 @@ public class PythonReader {
 
 		try {
 			// Create a process builder
-			ProcessBuilder processBuilder = new ProcessBuilder("C:/Users/epishinavv/AppData/Local/Programs/Python/Python312/python.exe", filePath, inputFileName);
+			ProcessBuilder processBuilder = new ProcessBuilder("python3", filePath, inputFileName);
 			processBuilder.redirectErrorStream(true);
 
 			// Start the process
