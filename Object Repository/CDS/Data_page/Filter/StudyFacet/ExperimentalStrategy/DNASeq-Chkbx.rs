@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>StudyDataTypes_Ddn</name>
+   <name>DNASeq-Chkbx</name>
    <tag></tag>
-   <elementGuidId>0d9a31ab-6985-4995-8eb2-eb7a8bc50527</elementGuidId>
+   <elementGuidId>36894083-97a4-4c4a-bb50-bd35f2a7c0de</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id='study data types' and text()='study data types']</value>
+         <value>//*[@id=&quot;checkbox_Experimental Strategy_DNA-Seq&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id='study data types' and text()='study data types']</value>
-      <webElementGuid>743ba278-ce25-4e35-95ee-96c4d7b8d909</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Experimental Strategy_DNA-Seq&quot;]</value>
+      <webElementGuid>581d77a5-4aeb-4c95-bd4b-4cd3e7dc751e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

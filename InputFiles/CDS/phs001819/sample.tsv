@@ -1,0 +1,6 @@
+sample_id	sample_type	biosample_accession	type	participant.study_participant_id	sample_tumor_status
+Sample_5613_Blood Derived Normal	Blood Derived Normal	SAMN12727749	sample	phs001819_CGBR5613	Not specified in data
+Sample_BM1703-Ve_Blood Derived Normal	Blood Derived Normal	SAMN12727766	sample	phs001819_CGRB1703	Not specified in data
+27-51-3136_Blood Derived Normal	Blood Derived Normal	SAMN12727758	sample	phs001819_CGRB27513136	Not specified in data
+CGRiG3790_Blood Derived Normal	Blood Derived Normal	SAMN12727757	sample	phs001819_CGRB3790	Not specified in data
+CGRi3791_Not Reported	Not Reported	SAMN12727780	sample	phs001819_CGRB3791	Not specified in data

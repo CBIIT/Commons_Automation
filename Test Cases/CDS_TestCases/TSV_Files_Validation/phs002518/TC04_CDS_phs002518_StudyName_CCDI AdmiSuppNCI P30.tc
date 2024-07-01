@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC00_QuickRun_Of_TsvFiles</name>
+   <name>TC04_CDS_phs002518_StudyName_CCDI AdmiSuppNCI P30</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>c34dba3c-9918-4ac6-af08-df27da65825f</testCaseGuid>
+   <testCaseGuid>18cdfe42-7daf-4a07-b2f0-e7adec6237e4</testCaseGuid>
 </TestCaseEntity>

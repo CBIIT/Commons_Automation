@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>StudyDataTypes_Ddn</name>
+   <name>phs002518_Chkbx</name>
    <tag></tag>
-   <elementGuidId>0d9a31ab-6985-4995-8eb2-eb7a8bc50527</elementGuidId>
+   <elementGuidId>15dade53-9458-4817-81bc-4b6d1391a778</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id='study data types' and text()='study data types']</value>
+         <value>//*[@id=&quot;checkbox_PHS Accession_phs002518&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id='study data types' and text()='study data types']</value>
-      <webElementGuid>743ba278-ce25-4e35-95ee-96c4d7b8d909</webElementGuid>
+      <value>//*[@id=&quot;checkbox_PHS Accession_phs002518&quot;]</value>
+      <webElementGuid>63dda7ae-7cc9-4212-9a3b-be5bcda32080</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

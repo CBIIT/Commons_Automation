@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC00_QuickRun_Of_TsvFiles</name>
+   <name>TC05_CDS_phs002518_StudyDataTypes_Genomic</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>c34dba3c-9918-4ac6-af08-df27da65825f</testCaseGuid>
+   <testCaseGuid>3c8676f6-4ba7-45da-8f63-2c8386fca675</testCaseGuid>
 </TestCaseEntity>

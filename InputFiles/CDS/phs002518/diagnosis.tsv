@@ -1,0 +1,1040 @@
+primary_diagnosis	tumor_grade	tumor_stage_clinical_m	tumor_stage_clinical_t	type	diagnosis_id	study_diagnosis_id	participant.study_participant_id
+Ganglioglioma, NOS				diagnosis	R80742303	phs002518_R80742303_R80742303	phs002518_R80742303
+Synovial Sarcoma, Spindle Cell				diagnosis	R61698296	phs002518_R61698296_R61698296	phs002518_R61698296
+Neoplasm, Malignant				diagnosis	R15388790	phs002518_R15388790_R15388790	phs002518_R15388790
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy	GX			diagnosis	R33160176	phs002518_R33160176_R33160176	phs002518_R33160176
+Medullary Carcinoma, NOS				diagnosis	R77605992	phs002518_R77605992_R77605992	phs002518_R77605992
+Pleomorphic Xanthoastrocytoma, NOS				diagnosis	R1386818	phs002518_R1386818_R1386818	phs002518_R1386818
+Osteosarcoma, NOS				diagnosis	R27772866	phs002518_R27772866_R27772866	phs002518_R27772866
+Medulloblastoma, NOS				diagnosis	R94399722	phs002518_R94399722_R94399722	phs002518_R94399722
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R44520832	phs002518_R44520832_R44520832	phs002518_R44520832
+8910/3 : Embryonal Rhabdomyosarcoma, NOS				diagnosis	R60074358	phs002518_R60074358_R60074358	phs002518_R60074358
+Synovial Sarcoma, Spindle Cell				diagnosis	R3477882	phs002518_R3477882_R3477882	phs002518_R3477882
+Ganglioglioma, NOS				diagnosis	R57899673	phs002518_R57899673_R57899673	phs002518_R57899673
+Glioblastoma, NOS				diagnosis	R98090398	phs002518_R98090398_R98090398	phs002518_R98090398
+Acute leukemia, NOS				diagnosis	R11694542	phs002518_R11694542_R11694542	phs002518_R11694542
+9364/3 : Ewing Sarcoma				diagnosis	R40613451	phs002518_R40613451_R40613451	phs002518_R40613451
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy	GX			diagnosis	R55918588	phs002518_R55918588_R55918588	phs002518_R55918588
+Acute leukemia, NOS				diagnosis	R97359766	phs002518_R97359766_R97359766	phs002518_R97359766
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R25769301	phs002518_R25769301_R25769301	phs002518_R25769301
+Acute Myeloid Leukemia, NOS				diagnosis	R31161739	phs002518_R31161739_R31161739	phs002518_R31161739
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R89906199	phs002518_R89906199_R89906199	phs002518_R89906199
+Ganglioglioma, NOS				diagnosis	R66641146	phs002518_R66641146_R66641146	phs002518_R66641146
+Pleomorphic Xanthoastrocytoma, NOS				diagnosis	R71298242	phs002518_R71298242_R71298242	phs002518_R71298242
+Langerhans Cell Histiocytosis, disseminated				diagnosis	R649311	phs002518_R649311_R649311	phs002518_R649311
+Neoplasm, Malignant				diagnosis	R84100364	phs002518_R84100364_R84100364	phs002518_R84100364
+Medullary Carcinoma, NOS				diagnosis	R21349320	phs002518_R21349320_R21349320	phs002518_R21349320
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R47869430	phs002518_R47869430_R47869430	phs002518_R47869430
+Neoplasm, Malignant				diagnosis	R37558180	phs002518_R37558180_R37558180	phs002518_R37558180
+Neoplasm, Malignant				diagnosis	R37477413	phs002518_R37477413_R37477413	phs002518_R37477413
+Acute leukemia, NOS				diagnosis	R67791960	phs002518_R67791960_R67791960	phs002518_R67791960
+Pleomorphic Xanthoastrocytoma, NOS				diagnosis	R23629510	phs002518_R23629510_R23629510	phs002518_R23629510
+Meningioma, NOS				diagnosis	R1963281	phs002518_R1963281_R1963281	phs002518_R1963281
+Nephroblastoma, NOS				diagnosis	R42430283	phs002518_R42430283_R42430283	phs002518_R42430283
+Neoplasm, Malignant				diagnosis	R21559741	phs002518_R21559741_R21559741	phs002518_R21559741
+8910/3 : Embryonal Rhabdomyosarcoma, NOS				diagnosis	R56951450	phs002518_R56951450_R56951450	phs002518_R56951450
+Neoplasm, Malignant				diagnosis	R48520693	phs002518_R48520693_R48520693	phs002518_R48520693
+9364/3 : Ewing Sarcoma				diagnosis	R73425851	phs002518_R73425851_R73425851	phs002518_R73425851
+Pleomorphic Xanthoastrocytoma, NOS				diagnosis	R53704512	phs002518_R53704512_R53704512	phs002518_R53704512
+Neoplasm, Malignant				diagnosis	R99727565	phs002518_R99727565_R99727565	phs002518_R99727565
+Pleomorphic Xanthoastrocytoma, NOS				diagnosis	R65159352	phs002518_R65159352_R65159352	phs002518_R65159352
+Nephroblastoma, NOS	G2			diagnosis	R92318605	phs002518_R92318605_R92318605	phs002518_R92318605
+Neoplasm, Benign				diagnosis	R93090195	phs002518_R93090195_R93090195	phs002518_R93090195
+Neoplasm, Malignant				diagnosis	R93904955	phs002518_R93904955_R93904955	phs002518_R93904955
+Neoplasm, uncertain whether benign or malignant				diagnosis	R40458332	phs002518_R40458332_R40458332	phs002518_R40458332
+Pleomorphic Xanthoastrocytoma, NOS				diagnosis	R34996413	phs002518_R34996413_R34996413	phs002518_R34996413
+Transient Abnormal Myelopoiesis				diagnosis	R54009370	phs002518_R54009370_R54009370	phs002518_R54009370
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy	GX			diagnosis	R66304008	phs002518_R66304008_R66304008	phs002518_R66304008
+Medulloblastoma, NOS				diagnosis	R98294078	phs002518_R98294078_R98294078	phs002518_R98294078
+Ependymoma, NOS				diagnosis	R35815707	phs002518_R35815707_R35815707	phs002518_R35815707
+Neoplasm, Malignant				diagnosis	R62044991	phs002518_R62044991_R62044991	phs002518_R62044991
+Neoplasm, Malignant				diagnosis	R11635185	phs002518_R11635185_R11635185	phs002518_R11635185
+Renal Cell Carcinoma, NOS				diagnosis	R27524019	phs002518_R27524019_R27524019	phs002518_R27524019
+Acute Myeloid Leukemia, NOS				diagnosis	R36984108	phs002518_R36984108_R36984108	phs002518_R36984108
+Medullary Carcinoma, NOS	G1	M0	T4a	diagnosis	R31484833	phs002518_R31484833_R31484833	phs002518_R31484833
+9421/1 : Pilocytic Astrocytoma				diagnosis	R44093430	phs002518_R44093430_R44093430	phs002518_R44093430
+Lymphangioma, NOS				diagnosis	R45706555	phs002518_R45706555_R45706555	phs002518_R45706555
+Neoplasm, Malignant				diagnosis	R47233401	phs002518_R47233401_R47233401	phs002518_R47233401
+Pleomorphic Xanthoastrocytoma, NOS				diagnosis	R66096793	phs002518_R66096793_R66096793	phs002518_R66096793
+Pleomorphic Xanthoastrocytoma, NOS				diagnosis	R33622401	phs002518_R33622401_R33622401	phs002518_R33622401
+Hepatoblastoma, NOS				diagnosis	R74660473	phs002518_R74660473_R74660473	phs002518_R74660473
+Neoplasm, Malignant				diagnosis	R82242364	phs002518_R82242364_R82242364	phs002518_R82242364
+Neuroblastoma, NOS	G3			diagnosis	R74314017	phs002518_R74314017_R74314017	phs002518_R74314017
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R5861176	phs002518_R5861176_R5861176	phs002518_R5861176
+9364/3 : Ewing Sarcoma		M0	T2	diagnosis	R91545099	phs002518_R91545099_R91545099	phs002518_R91545099
+Neoplasm, Malignant				diagnosis	R33685944	phs002518_R33685944_R33685944	phs002518_R33685944
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy	GX			diagnosis	R18758169	phs002518_R18758169_R18758169	phs002518_R18758169
+Neoplasm, Malignant				diagnosis	R15121371	phs002518_R15121371_R15121371	phs002518_R15121371
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R21282224	phs002518_R21282224_R21282224	phs002518_R21282224
+9385/3 : Diffuse Midline Glioma, H3 K27M-Mutant				diagnosis	R2529900	phs002518_R2529900_R2529900	phs002518_R2529900
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy	GX			diagnosis	R95092702	phs002518_R95092702_R95092702	phs002518_R95092702
+Burkitt Lymphoma, NOS				diagnosis	R85444538	phs002518_R85444538_R85444538	phs002518_R85444538
+Nephroblastoma, NOS				diagnosis	R32964496	phs002518_R32964496_R32964496	phs002518_R32964496
+Acute Myeloid Leukemia, NOS				diagnosis	R34533376	phs002518_R34533376_R34533376	phs002518_R34533376
+Acute leukemia, NOS				diagnosis	R79224440	phs002518_R79224440_R79224440	phs002518_R79224440
+Neoplasm, Malignant				diagnosis	R87670942	phs002518_R87670942_R87670942	phs002518_R87670942
+Ependymoma, NOS	G4			diagnosis	R57177746	phs002518_R57177746_R57177746	phs002518_R57177746
+Neuroblastoma, NOS				diagnosis	R65715130	phs002518_R65715130_R65715130	phs002518_R65715130
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R58722230	phs002518_R58722230_R58722230	phs002518_R58722230
+Acute leukemia, NOS				diagnosis	R49957996	phs002518_R49957996_R49957996	phs002518_R49957996
+Neuroblastoma, NOS				diagnosis	R60458315	phs002518_R60458315_R60458315	phs002518_R60458315
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy	GX			diagnosis	R12755952	phs002518_R12755952_R12755952	phs002518_R12755952
+Neoplasm, Malignant				diagnosis	R25550107	phs002518_R25550107_R25550107	phs002518_R25550107
+Neuroblastoma, NOS				diagnosis	R78891961	phs002518_R78891961_R78891961	phs002518_R78891961
+Nephroblastoma, NOS				diagnosis	R22113125	phs002518_R22113125_R22113125	phs002518_R22113125
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R52114771	phs002518_R52114771_R52114771	phs002518_R52114771
+Nephroblastoma, NOS				diagnosis	R10830684	phs002518_R10830684_R10830684	phs002518_R10830684
+9380/3 : Glioma, Malignant	G4			diagnosis	R55115039	phs002518_R55115039_R55115039	phs002518_R55115039
+Neoplasm, Benign				diagnosis	R20517902	phs002518_R20517902_R20517902	phs002518_R20517902
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R18171474	phs002518_R18171474_R18171474	phs002518_R18171474
+9364/3 : Ewing Sarcoma				diagnosis	R33587269	phs002518_R33587269_R33587269	phs002518_R33587269
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy	GX			diagnosis	R53085893	phs002518_R53085893_R53085893	phs002518_R53085893
+Neoplasm, uncertain whether benign or malignant				diagnosis	R88633148	phs002518_R88633148_R88633148	phs002518_R88633148
+Hepatoblastoma, NOS				diagnosis	R68495058	phs002518_R68495058_R68495058	phs002518_R68495058
+Neoplasm, Malignant				diagnosis	R6774893	phs002518_R6774893_R6774893	phs002518_R6774893
+Clear Cell Sarcoma of Kidney				diagnosis	R28605017	phs002518_R28605017_R28605017	phs002518_R28605017
+Neoplasm, Malignant				diagnosis	R7024561	phs002518_R7024561_R7024561	phs002518_R7024561
+Neuroblastoma, NOS				diagnosis	R88094419	phs002518_R88094419_R88094419	phs002518_R88094419
+Neoplasm, Malignant				diagnosis	R22366897	phs002518_R22366897_R22366897	phs002518_R22366897
+Acute leukemia, NOS				diagnosis	R40767600	phs002518_R40767600_R40767600	phs002518_R40767600
+8910/3 : Embryonal Rhabdomyosarcoma, NOS		M0		diagnosis	R17850932	phs002518_R17850932_R17850932	phs002518_R17850932
+Neoplasm, Malignant				diagnosis	R52568733	phs002518_R52568733_R52568733	phs002518_R52568733
+Neoplasm, Malignant				diagnosis	R31890901	phs002518_R31890901_R31890901	phs002518_R31890901
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R47472306	phs002518_R47472306_R47472306	phs002518_R47472306
+Ganglioglioma, NOS				diagnosis	R18276330	phs002518_R18276330_R18276330	phs002518_R18276330
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy	GX			diagnosis	R26624774	phs002518_R26624774_R26624774	phs002518_R26624774
+Acute leukemia, NOS				diagnosis	R28232938	phs002518_R28232938_R28232938	phs002518_R28232938
+Acute leukemia, NOS				diagnosis	R72682068	phs002518_R72682068_R72682068	phs002518_R72682068
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R8953958	phs002518_R8953958_R8953958	phs002518_R8953958
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R30285874	phs002518_R30285874_R30285874	phs002518_R30285874
+Neoplasm, Malignant				diagnosis	R41542800	phs002518_R41542800_R41542800	phs002518_R41542800
+Neoplasm, Malignant				diagnosis	R7996941	phs002518_R7996941_R7996941	phs002518_R7996941
+9385/3 : Diffuse Midline Glioma, H3 K27M-Mutant				diagnosis	R93523792	phs002518_R93523792_R93523792	phs002518_R93523792
+9473/3 : CNS Embryonal Tumor, NOS				diagnosis	R94504538	phs002518_R94504538_R94504538	phs002518_R94504538
+Medullary Carcinoma, NOS				diagnosis	R32570887	phs002518_R32570887_R32570887	phs002518_R32570887
+Neoplasm, Malignant				diagnosis	R7652265	phs002518_R7652265_R7652265	phs002518_R7652265
+Osteosarcoma, NOS				diagnosis	R29293238	phs002518_R29293238_R29293238	phs002518_R29293238
+Neoplasm, Malignant				diagnosis	R50261349	phs002518_R50261349_R50261349	phs002518_R50261349
+9380/3 : Glioma, Malignant				diagnosis	R18976353	phs002518_R18976353_R18976353	phs002518_R18976353
+Neoplasm, Benign				diagnosis	R23374497	phs002518_R23374497_R23374497	phs002518_R23374497
+Neoplasm, Malignant				diagnosis	R79811408	phs002518_R79811408_R79811408	phs002518_R79811408
+Neuroblastoma, NOS				diagnosis	R63146584	phs002518_R63146584_R63146584	phs002518_R63146584
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R12324546	phs002518_R12324546_R12324546	phs002518_R12324546
+Pleomorphic Xanthoastrocytoma, NOS				diagnosis	R73039164	phs002518_R73039164_R73039164	phs002518_R73039164
+Medullary Carcinoma, NOS				diagnosis	R82296518	phs002518_R82296518_R82296518	phs002518_R82296518
+Medulloblastoma, NOS				diagnosis	R28483984	phs002518_R28483984_R28483984	phs002518_R28483984
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R88432345	phs002518_R88432345_R88432345	phs002518_R88432345
+Myelodysplastic Syndrome, NOS				diagnosis	R28422112	phs002518_R28422112_R28422112	phs002518_R28422112
+Papillary Tumor of Pineal Region				diagnosis	R15145317	phs002518_R15145317_R15145317	phs002518_R15145317
+9380/3 : Glioma, Malignant				diagnosis	R48441358	phs002518_R48441358_R48441358	phs002518_R48441358
+Oligodendroglioma, Anaplastic, NOS	G4			diagnosis	R20364134	phs002518_R20364134_R20364134	phs002518_R20364134
+Sarcoma, NOS				diagnosis	R21721253	phs002518_R21721253_R21721253	phs002518_R21721253
+Meningioma, NOS				diagnosis	R13015718	phs002518_R13015718_R13015718	phs002518_R13015718
+Osteosarcoma, NOS				diagnosis	R23829613	phs002518_R23829613_R23829613	phs002518_R23829613
+Pinealoma				diagnosis	R7638233	phs002518_R7638233_R7638233	phs002518_R7638233
+Acute leukemia, NOS				diagnosis	R5359714	phs002518_R5359714_R5359714	phs002518_R5359714
+Neoplasm, uncertain whether benign or malignant				diagnosis	R75488071	phs002518_R75488071_R75488071	phs002518_R75488071
+Nodular Melanoma				diagnosis	R80050019	phs002518_R80050019_R80050019	phs002518_R80050019
+Langerhans Cell Histiocytosis, disseminated				diagnosis	R8088216	phs002518_R8088216_R8088216	phs002518_R8088216
+Unknown				diagnosis	R86473343	phs002518_R86473343_R86473343	phs002518_R86473343
+Neoplasm, Benign				diagnosis	R19731467	phs002518_R19731467_R19731467	phs002518_R19731467
+Chronic Myeloid Leukemia, NOS				diagnosis	R34297637	phs002518_R34297637_R34297637	phs002518_R34297637
+Neoplasm, uncertain whether benign or malignant				diagnosis	R45018316	phs002518_R45018316_R45018316	phs002518_R45018316
+Neoplasm, Malignant				diagnosis	R56133674	phs002518_R56133674_R56133674	phs002518_R56133674
+Neoplasm, Malignant				diagnosis	R56476288	phs002518_R56476288_R56476288	phs002518_R56476288
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy	GX			diagnosis	R41552554	phs002518_R41552554_R41552554	phs002518_R41552554
+Medullary Carcinoma, NOS				diagnosis	R34376943	phs002518_R34376943_R34376943	phs002518_R34376943
+Acute leukemia, NOS				diagnosis	R21877913	phs002518_R21877913_R21877913	phs002518_R21877913
+Hepatoblastoma, NOS				diagnosis	R40871472	phs002518_R40871472_R40871472	phs002518_R40871472
+Acute Myeloid Leukemia, NOS	GX			diagnosis	R60882154	phs002518_R60882154_R60882154	phs002518_R60882154
+Neoplasm, Malignant				diagnosis	R69980554	phs002518_R69980554_R69980554	phs002518_R69980554
+Neuroblastoma, NOS	G3			diagnosis	R26589766	phs002518_R26589766_R26589766	phs002518_R26589766
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R78245041	phs002518_R78245041_R78245041	phs002518_R78245041
+Cutaneous T-cell Lymphoma, NOS				diagnosis	R78297474	phs002518_R78297474_R78297474	phs002518_R78297474
+Neoplasm, Malignant				diagnosis	R84181064	phs002518_R84181064_R84181064	phs002518_R84181064
+Transient Abnormal Myelopoiesis				diagnosis	R94356751	phs002518_R94356751_R94356751	phs002518_R94356751
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy	GX			diagnosis	R30327636	phs002518_R30327636_R30327636	phs002518_R30327636
+Juvenile Myelomonocytic Leukemia, NOS				diagnosis	R20580187	phs002518_R20580187_R20580187	phs002518_R20580187
+Leukemia, NOS				diagnosis	R46065556	phs002518_R46065556_R46065556	phs002518_R46065556
+Neoplasm, Benign				diagnosis	R8731167	phs002518_R8731167_R8731167	phs002518_R8731167
+Hepatoblastoma, NOS				diagnosis	R95453587	phs002518_R95453587_R95453587	phs002518_R95453587
+Neuroblastoma, NOS				diagnosis	R81831041	phs002518_R81831041_R81831041	phs002518_R81831041
+Pleomorphic Xanthoastrocytoma, NOS				diagnosis	R81134546	phs002518_R81134546_R81134546	phs002518_R81134546
+9380/3 : Glioma, Malignant				diagnosis	R19622249	phs002518_R19622249_R19622249	phs002518_R19622249
+Diffuse Large B-cell Lymphoma, NOS				diagnosis	R63862793	phs002518_R63862793_R63862793	phs002518_R63862793
+Lymphoid leukemia, NOS				diagnosis	R42407665	phs002518_R42407665_R42407665	phs002518_R42407665
+Neuroblastoma, NOS	G3			diagnosis	R11741784	phs002518_R11741784_R11741784	phs002518_R11741784
+Neoplasm, Malignant				diagnosis	R99024720	phs002518_R99024720_R99024720	phs002518_R99024720
+Neoplasm, Malignant				diagnosis	R20901097	phs002518_R20901097_R20901097	phs002518_R20901097
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R31387219	phs002518_R31387219_R31387219	phs002518_R31387219
+8910/3 : Embryonal Rhabdomyosarcoma, NOS				diagnosis	R37550536	phs002518_R37550536_R37550536	phs002518_R37550536
+Neoplasm, Malignant				diagnosis	R98828019	phs002518_R98828019_R98828019	phs002518_R98828019
+8910/3 : Embryonal Rhabdomyosarcoma, NOS				diagnosis	R75871509	phs002518_R75871509_R75871509	phs002518_R75871509
+Nuclear Protein in Testis (NUT)-associated Carcinoma				diagnosis	R20486935	phs002518_R20486935_R20486935	phs002518_R20486935
+Neoplasm, uncertain whether benign or malignant				diagnosis	R33008817	phs002518_R33008817_R33008817	phs002518_R33008817
+Neoplasm, Benign				diagnosis	R58622020	phs002518_R58622020_R58622020	phs002518_R58622020
+Neoplasm, Malignant				diagnosis	R66523403	phs002518_R66523403_R66523403	phs002518_R66523403
+Neoplasm, uncertain whether benign or malignant				diagnosis	R67409390	phs002518_R67409390_R67409390	phs002518_R67409390
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy	GX			diagnosis	R38610086	phs002518_R38610086_R38610086	phs002518_R38610086
+Medulloblastoma, NOS				diagnosis	R21146117	phs002518_R21146117_R21146117	phs002518_R21146117
+Neoplasm, Malignant				diagnosis	R52625365	phs002518_R52625365_R52625365	phs002518_R52625365
+Chronic Myelogenous Leukemia, BCR/ABL positive				diagnosis	R75036480	phs002518_R75036480_R75036480	phs002518_R75036480
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R5497006	phs002518_R5497006_R5497006	phs002518_R5497006
+Neoplasm, Malignant				diagnosis	R84011603	phs002518_R84011603_R84011603	phs002518_R84011603
+Neoplasm, Malignant				diagnosis	R10529639	phs002518_R10529639_R10529639	phs002518_R10529639
+Neoplasm, uncertain whether benign or malignant				diagnosis	R69129741	phs002518_R69129741_R69129741	phs002518_R69129741
+Hepatoblastoma, NOS				diagnosis	R94418399	phs002518_R94418399_R94418399	phs002518_R94418399
+Sarcoma, NOS	G4			diagnosis	R11403669	phs002518_R11403669_R11403669	phs002518_R11403669
+Nephroblastoma, NOS				diagnosis	R63613677	phs002518_R63613677_R63613677	phs002518_R63613677
+Neoplasm, uncertain whether benign or malignant				diagnosis	R11102185	phs002518_R11102185_R11102185	phs002518_R11102185
+Acute leukemia, NOS				diagnosis	R19670639	phs002518_R19670639_R19670639	phs002518_R19670639
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R924413	phs002518_R924413_R924413	phs002518_R924413
+Medullary Carcinoma, NOS				diagnosis	R22638134	phs002518_R22638134_R22638134	phs002518_R22638134
+Acute leukemia, NOS				diagnosis	R10400226	phs002518_R10400226_R10400226	phs002518_R10400226
+Neoplasm, Malignant				diagnosis	R54554150	phs002518_R54554150_R54554150	phs002518_R54554150
+Choroid Plexus Carcinoma				diagnosis	R86052581	phs002518_R86052581_R86052581	phs002518_R86052581
+Neoplasm, Malignant				diagnosis	R27319411	phs002518_R27319411_R27319411	phs002518_R27319411
+9380/3 : Glioma, Malignant				diagnosis	R31206524	phs002518_R31206524_R31206524	phs002518_R31206524
+Acute Myeloid Leukemia, NOS	GX			diagnosis	R47865525	phs002518_R47865525_R47865525	phs002518_R47865525
+Myoepithelial Carcinoma				diagnosis	R86045703	phs002518_R86045703_R86045703	phs002518_R86045703
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy	GX			diagnosis	R73871740	phs002518_R73871740_R73871740	phs002518_R73871740
+8910/3 : Embryonal Rhabdomyosarcoma, NOS				diagnosis	R65283884	phs002518_R65283884_R65283884	phs002518_R65283884
+Neoplasm, uncertain whether benign or malignant				diagnosis	R85984278	phs002518_R85984278_R85984278	phs002518_R85984278
+9364/3 : Ewing Sarcoma				diagnosis	R81202836	phs002518_R81202836_R81202836	phs002518_R81202836
+9364/3 : Ewing Sarcoma				diagnosis	R36927172	phs002518_R36927172_R36927172	phs002518_R36927172
+Neoplasm, Malignant				diagnosis	R21239247	phs002518_R21239247_R21239247	phs002518_R21239247
+Acute Myeloid Leukemia, NOS				diagnosis	R23217977	phs002518_R23217977_R23217977	phs002518_R23217977
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R86393791	phs002518_R86393791_R86393791	phs002518_R86393791
+Neuroblastoma, NOS				diagnosis	R41077275	phs002518_R41077275_R41077275	phs002518_R41077275
+Chronic Myelogenous Leukemia, BCR/ABL positive				diagnosis	R81379159	phs002518_R81379159_R81379159	phs002518_R81379159
+Hepatoblastoma, NOS				diagnosis	R47042448	phs002518_R47042448_R47042448	phs002518_R47042448
+Neoplasm, uncertain whether benign or malignant				diagnosis	R22503234	phs002518_R22503234_R22503234	phs002518_R22503234
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy	GX			diagnosis	R93496749	phs002518_R93496749_R93496749	phs002518_R93496749
+Ependymoma, NOS				diagnosis	R66844405	phs002518_R66844405_R66844405	phs002518_R66844405
+9421/1 : Pilocytic Astrocytoma				diagnosis	R53110790	phs002518_R53110790_R53110790	phs002518_R53110790
+Neoplasm, uncertain whether benign or malignant				diagnosis	R24508521	phs002518_R24508521_R24508521	phs002518_R24508521
+Neoplasm, Malignant				diagnosis	R5155763	phs002518_R5155763_R5155763	phs002518_R5155763
+Neoplasm, Benign				diagnosis	R42816212	phs002518_R42816212_R42816212	phs002518_R42816212
+Neoplasm, Malignant				diagnosis	R16573453	phs002518_R16573453_R16573453	phs002518_R16573453
+Ependymoma, NOS				diagnosis	R47746595	phs002518_R47746595_R47746595	phs002518_R47746595
+Neoplasm, uncertain whether benign or malignant				diagnosis	R56367442	phs002518_R56367442_R56367442	phs002518_R56367442
+Acute Myeloid Leukemia, NOS				diagnosis	R4094480	phs002518_R4094480_R4094480	phs002518_R4094480
+Acute leukemia, NOS				diagnosis	R74734396	phs002518_R74734396_R74734396	phs002518_R74734396
+Nephroblastoma, NOS				diagnosis	R5243323	phs002518_R5243323_R5243323	phs002518_R5243323
+Neuroblastoma, NOS		M0	T2b	diagnosis	R75876124	phs002518_R75876124_R75876124	phs002518_R75876124
+Neoplasm, Malignant				diagnosis	R14018252	phs002518_R14018252_R14018252	phs002518_R14018252
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R27515075	phs002518_R27515075_R27515075	phs002518_R27515075
+Neoplasm, Malignant				diagnosis	R3161289	phs002518_R3161289_R3161289	phs002518_R3161289
+Neoplasm, Malignant				diagnosis	R10130226	phs002518_R10130226_R10130226	phs002518_R10130226
+Pleuropulmonary Blastoma				diagnosis	R41294322	phs002518_R41294322_R41294322	phs002518_R41294322
+Neoplasm, uncertain whether benign or malignant				diagnosis	R2084421	phs002518_R2084421_R2084421	phs002518_R2084421
+Medullary Carcinoma, NOS				diagnosis	R85074601	phs002518_R85074601_R85074601	phs002518_R85074601
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R30695032	phs002518_R30695032_R30695032	phs002518_R30695032
+Neoplasm, uncertain whether benign or malignant				diagnosis	R59361476	phs002518_R59361476_R59361476	phs002518_R59361476
+Medulloblastoma, NOS				diagnosis	R69102161	phs002518_R69102161_R69102161	phs002518_R69102161
+Acute leukemia, NOS				diagnosis	R8413908	phs002518_R8413908_R8413908	phs002518_R8413908
+Astrocytoma, Anaplastic, NOS				diagnosis	R87358738	phs002518_R87358738_R87358738	phs002518_R87358738
+8910/3 : Embryonal Rhabdomyosarcoma, NOS				diagnosis	R94735620	phs002518_R94735620_R94735620	phs002518_R94735620
+Chronic Myeloid Leukemia, NOS				diagnosis	R9805018	phs002518_R9805018_R9805018	phs002518_R9805018
+Acute leukemia, NOS				diagnosis	R34259440	phs002518_R34259440_R34259440	phs002518_R34259440
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy	GX			diagnosis	R47473787	phs002518_R47473787_R47473787	phs002518_R47473787
+Neuroblastoma, NOS	G3			diagnosis	R35190754	phs002518_R35190754_R35190754	phs002518_R35190754
+Chronic Myelogenous Leukemia, BCR/ABL positive				diagnosis	R4877941	phs002518_R4877941_R4877941	phs002518_R4877941
+Hepatoblastoma, NOS				diagnosis	R511499	phs002518_R511499_R511499	phs002518_R511499
+Neoplasm, Malignant				diagnosis	R51616980	phs002518_R51616980_R51616980	phs002518_R51616980
+Ependymoma, NOS				diagnosis	R64384977	phs002518_R64384977_R64384977	phs002518_R64384977
+Nephroblastoma, NOS				diagnosis	R14763784	phs002518_R14763784_R14763784	phs002518_R14763784
+Langerhans Cell Histiocytosis, disseminated				diagnosis	R40559633	phs002518_R40559633_R40559633	phs002518_R40559633
+Neoplasm, Malignant				diagnosis	R3982686	phs002518_R3982686_R3982686	phs002518_R3982686
+9364/3 : Ewing Sarcoma				diagnosis	R81178502	phs002518_R81178502_R81178502	phs002518_R81178502
+Acute leukemia, NOS				diagnosis	R20062005	phs002518_R20062005_R20062005	phs002518_R20062005
+Acute Myeloid Leukemia, NOS				diagnosis	R93452973	phs002518_R93452973_R93452973	phs002518_R93452973
+Hemangioma, NOS				diagnosis	R16706980	phs002518_R16706980_R16706980	phs002518_R16706980
+Medulloblastoma, NOS				diagnosis	R49751667	phs002518_R49751667_R49751667	phs002518_R49751667
+Acute leukemia, NOS				diagnosis	R49279259	phs002518_R49279259_R49279259	phs002518_R49279259
+9364/3 : Ewing Sarcoma				diagnosis	R44297401	phs002518_R44297401_R44297401	phs002518_R44297401
+Neuroblastoma, NOS				diagnosis	R17479408	phs002518_R17479408_R17479408	phs002518_R17479408
+Neoplasm, Malignant				diagnosis	R62204778	phs002518_R62204778_R62204778	phs002518_R62204778
+Neoplasm, Malignant				diagnosis	R83990500	phs002518_R83990500_R83990500	phs002518_R83990500
+Neuroblastoma, NOS				diagnosis	R53556598	phs002518_R53556598_R53556598	phs002518_R53556598
+Medulloblastoma, NOS				diagnosis	R73569682	phs002518_R73569682_R73569682	phs002518_R73569682
+Medulloblastoma, NOS				diagnosis	R31893825	phs002518_R31893825_R31893825	phs002518_R31893825
+Acute leukemia, NOS				diagnosis	R86206864	phs002518_R86206864_R86206864	phs002518_R86206864
+8910/3 : Embryonal Rhabdomyosarcoma, NOS	G3			diagnosis	R88127585	phs002518_R88127585_R88127585	phs002518_R88127585
+9364/3 : Ewing Sarcoma				diagnosis	R35100371	phs002518_R35100371_R35100371	phs002518_R35100371
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R3376113	phs002518_R3376113_R3376113	phs002518_R3376113
+Acute leukemia, NOS				diagnosis	R25679146	phs002518_R25679146_R25679146	phs002518_R25679146
+Mixed Germ Cell Tumor				diagnosis	R2869223	phs002518_R2869223_R2869223	phs002518_R2869223
+Acute leukemia, NOS				diagnosis	R36550224	phs002518_R36550224_R36550224	phs002518_R36550224
+Hemangioma, NOS				diagnosis	R29041833	phs002518_R29041833_R29041833	phs002518_R29041833
+Neoplasm, uncertain whether benign or malignant				diagnosis	R37075259	phs002518_R37075259_R37075259	phs002518_R37075259
+Pleuropulmonary Blastoma				diagnosis	R61390821	phs002518_R61390821_R61390821	phs002518_R61390821
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R27792000	phs002518_R27792000_R27792000	phs002518_R27792000
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R13667990	phs002518_R13667990_R13667990	phs002518_R13667990
+Osteosarcoma, NOS				diagnosis	R7369140	phs002518_R7369140_R7369140	phs002518_R7369140
+Ganglioglioma, NOS				diagnosis	R53259995	phs002518_R53259995_R53259995	phs002518_R53259995
+Neoplasm, Malignant				diagnosis	R90454427	phs002518_R90454427_R90454427	phs002518_R90454427
+Neoplasm, Malignant				diagnosis	R13877340	phs002518_R13877340_R13877340	phs002518_R13877340
+Neoplasm, Malignant				diagnosis	R33562637	phs002518_R33562637_R33562637	phs002518_R33562637
+Neoplasm, Malignant				diagnosis	R96810546	phs002518_R96810546_R96810546	phs002518_R96810546
+Juvenile Myelomonocytic Leukemia, NOS				diagnosis	R31516811	phs002518_R31516811_R31516811	phs002518_R31516811
+Neoplasm, uncertain whether benign or malignant				diagnosis	R49809750	phs002518_R49809750_R49809750	phs002518_R49809750
+Neoplasm, uncertain whether benign or malignant				diagnosis	R51145099	phs002518_R51145099_R51145099	phs002518_R51145099
+Neoplasm, Malignant				diagnosis	R52600827	phs002518_R52600827_R52600827	phs002518_R52600827
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy	GX			diagnosis	R13349591	phs002518_R13349591_R13349591	phs002518_R13349591
+Acute leukemia, NOS				diagnosis	R91118012	phs002518_R91118012_R91118012	phs002518_R91118012
+9380/3 : Glioma, Malignant				diagnosis	R24347013	phs002518_R24347013_R24347013	phs002518_R24347013
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R18502500	phs002518_R18502500_R18502500	phs002518_R18502500
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R47254669	phs002518_R47254669_R47254669	phs002518_R47254669
+Neoplasm, uncertain whether benign or malignant				diagnosis	R43205864	phs002518_R43205864_R43205864	phs002518_R43205864
+Neuroblastoma, NOS				diagnosis	R30843678	phs002518_R30843678_R30843678	phs002518_R30843678
+Papillary Glioneuronal Tumor				diagnosis	R40749016	phs002518_R40749016_R40749016	phs002518_R40749016
+Osteosarcoma, NOS				diagnosis	R46121771	phs002518_R46121771_R46121771	phs002518_R46121771
+Neoplasm, uncertain whether benign or malignant				diagnosis	R13580147	phs002518_R13580147_R13580147	phs002518_R13580147
+9364/3 : Ewing Sarcoma		M0	T1	diagnosis	R52361203	phs002518_R52361203_R52361203	phs002518_R52361203
+Neoplasm, uncertain whether benign or malignant				diagnosis	R19579714	phs002518_R19579714_R19579714	phs002518_R19579714
+Acute leukemia, NOS				diagnosis	R75028295	phs002518_R75028295_R75028295	phs002518_R75028295
+Neoplasm, Malignant				diagnosis	R42800048	phs002518_R42800048_R42800048	phs002518_R42800048
+Medulloblastoma, NOS				diagnosis	R72028557	phs002518_R72028557_R72028557	phs002518_R72028557
+8910/3 : Embryonal Rhabdomyosarcoma, NOS				diagnosis	R68734479	phs002518_R68734479_R68734479	phs002518_R68734479
+9380/3 : Glioma, Malignant				diagnosis	R60373657	phs002518_R60373657_R60373657	phs002518_R60373657
+Medullary Carcinoma, NOS				diagnosis	R66054611	phs002518_R66054611_R66054611	phs002518_R66054611
+Neoplasm, Malignant				diagnosis	R21339705	phs002518_R21339705_R21339705	phs002518_R21339705
+Sarcoma, NOS	G3			diagnosis	R55475961	phs002518_R55475961_R55475961	phs002518_R55475961
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R5014061	phs002518_R5014061_R5014061	phs002518_R5014061
+Neoplasm, Malignant				diagnosis	R67968968	phs002518_R67968968_R67968968	phs002518_R67968968
+Neuroblastoma, NOS				diagnosis	R24867122	phs002518_R24867122_R24867122	phs002518_R24867122
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R69254232	phs002518_R69254232_R69254232	phs002518_R69254232
+Acute Myeloid Leukemia, NOS				diagnosis	R71003296	phs002518_R71003296_R71003296	phs002518_R71003296
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R74522636	phs002518_R74522636_R74522636	phs002518_R74522636
+Neoplasm, uncertain whether benign or malignant				diagnosis	R90798620	phs002518_R90798620_R90798620	phs002518_R90798620
+Neuroblastoma, NOS				diagnosis	R66815252	phs002518_R66815252_R66815252	phs002518_R66815252
+9364/3 : Ewing Sarcoma				diagnosis	R15558909	phs002518_R15558909_R15558909	phs002518_R15558909
+9380/3 : Glioma, Malignant				diagnosis	R31737188	phs002518_R31737188_R31737188	phs002518_R31737188
+Acute Myeloid Leukemia, NOS				diagnosis	R53246353	phs002518_R53246353_R53246353	phs002518_R53246353
+Pleomorphic Xanthoastrocytoma, NOS	G1			diagnosis	R64554134	phs002518_R64554134_R64554134	phs002518_R64554134
+Neoplasm, Malignant				diagnosis	R15238820	phs002518_R15238820_R15238820	phs002518_R15238820
+Acute Myeloid Leukemia, NOS	GX			diagnosis	R75535525	phs002518_R75535525_R75535525	phs002518_R75535525
+9421/1 : Pilocytic Astrocytoma				diagnosis	R86507242	phs002518_R86507242_R86507242	phs002518_R86507242
+Choroid Plexus Carcinoma				diagnosis	R76014455	phs002518_R76014455_R76014455	phs002518_R76014455
+Neoplasm, Malignant				diagnosis	R33115167	phs002518_R33115167_R33115167	phs002518_R33115167
+Neuroepithelioma, NOS				diagnosis	R63514565	phs002518_R63514565_R63514565	phs002518_R63514565
+Neuroblastoma, NOS				diagnosis	R24080393	phs002518_R24080393_R24080393	phs002518_R24080393
+Myelodysplastic Syndrome, NOS				diagnosis	R86462057	phs002518_R86462057_R86462057	phs002518_R86462057
+9380/3 : Glioma, Malignant				diagnosis	R81349814	phs002518_R81349814_R81349814	phs002518_R81349814
+Neoplasm, uncertain whether benign or malignant				diagnosis	R95229437	phs002518_R95229437_R95229437	phs002518_R95229437
+Diffuse Large B-cell Lymphoma, NOS	GX			diagnosis	R99219653	phs002518_R99219653_R99219653	phs002518_R99219653
+Neoplasm, Malignant				diagnosis	R64259906	phs002518_R64259906_R64259906	phs002518_R64259906
+Neoplasm, Malignant				diagnosis	R29567036	phs002518_R29567036_R29567036	phs002518_R29567036
+Neoplasm, uncertain whether benign or malignant				diagnosis	R23219971	phs002518_R23219971_R23219971	phs002518_R23219971
+Chronic Myelogenous Leukemia, BCR/ABL positive				diagnosis	R44684455	phs002518_R44684455_R44684455	phs002518_R44684455
+Acute leukemia, NOS				diagnosis	R63123573	phs002518_R63123573_R63123573	phs002518_R63123573
+Choroid Plexus Carcinoma				diagnosis	R57632818	phs002518_R57632818_R57632818	phs002518_R57632818
+Neoplasm, Malignant				diagnosis	R67694156	phs002518_R67694156_R67694156	phs002518_R67694156
+Neoplasm, uncertain whether benign or malignant				diagnosis	R56530268	phs002518_R56530268_R56530268	phs002518_R56530268
+B Lymphoblastic Leukemia/Lymphoma, NOS				diagnosis	R71663092	phs002518_R71663092_R71663092	phs002518_R71663092
+Pleomorphic Xanthoastrocytoma, NOS				diagnosis	R18054440	phs002518_R18054440_R18054440	phs002518_R18054440
+Neoplasm, Malignant				diagnosis	R4459972	phs002518_R4459972_R4459972	phs002518_R4459972
+Acute Myeloid Leukemia, NOS				diagnosis	R17139917	phs002518_R17139917_R17139917	phs002518_R17139917
+Acute leukemia, NOS				diagnosis	R74687376	phs002518_R74687376_R74687376	phs002518_R74687376
+Sarcoma, NOS	G1			diagnosis	R26820174	phs002518_R26820174_R26820174	phs002518_R26820174
+Pleomorphic Xanthoastrocytoma, NOS				diagnosis	R82589423	phs002518_R82589423_R82589423	phs002518_R82589423
+Neoplasm, Malignant				diagnosis	R67897188	phs002518_R67897188_R67897188	phs002518_R67897188
+Neoplasm, uncertain whether benign or malignant				diagnosis	R43145413	phs002518_R43145413_R43145413	phs002518_R43145413
+Medulloblastoma, NOS				diagnosis	R79928038	phs002518_R79928038_R79928038	phs002518_R79928038
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R49088384	phs002518_R49088384_R49088384	phs002518_R49088384
+9421/1 : Pilocytic Astrocytoma				diagnosis	R83053850	phs002518_R83053850_R83053850	phs002518_R83053850
+Neoplasm, uncertain whether benign or malignant				diagnosis	R8659277	phs002518_R8659277_R8659277	phs002518_R8659277
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy	GX			diagnosis	R55996933	phs002518_R55996933_R55996933	phs002518_R55996933
+8910/3 : Embryonal Rhabdomyosarcoma, NOS				diagnosis	R29836631	phs002518_R29836631_R29836631	phs002518_R29836631
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R58963359	phs002518_R58963359_R58963359	phs002518_R58963359
+8910/3 : Embryonal Rhabdomyosarcoma, NOS				diagnosis	R61547883	phs002518_R61547883_R61547883	phs002518_R61547883
+Myelodysplastic Syndrome, NOS				diagnosis	R66424892	phs002518_R66424892_R66424892	phs002518_R66424892
+Acute Myeloid Leukemia, NOS				diagnosis	R72043783	phs002518_R72043783_R72043783	phs002518_R72043783
+Neoplasm, Malignant				diagnosis	R22927518	phs002518_R22927518_R22927518	phs002518_R22927518
+Neuroblastoma, NOS				diagnosis	R743146	phs002518_R743146_R743146	phs002518_R743146
+Neoplasm, Metastatic				diagnosis	R93464217	phs002518_R93464217_R93464217	phs002518_R93464217
+Craniopharyngioma, NOS				diagnosis	R17840495	phs002518_R17840495_R17840495	phs002518_R17840495
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R851912	phs002518_R851912_R851912	phs002518_R851912
+Neoplasm, Benign				diagnosis	R26076710	phs002518_R26076710_R26076710	phs002518_R26076710
+Neoplasm, uncertain whether benign or malignant				diagnosis	R36703116	phs002518_R36703116_R36703116	phs002518_R36703116
+Neoplasm, Malignant				diagnosis	R65138532	phs002518_R65138532_R65138532	phs002518_R65138532
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy	GX			diagnosis	R78262449	phs002518_R78262449_R78262449	phs002518_R78262449
+Ependymoma, NOS				diagnosis	R90935333	phs002518_R90935333_R90935333	phs002518_R90935333
+Myelodysplastic Syndrome, NOS				diagnosis	R10572154	phs002518_R10572154_R10572154	phs002518_R10572154
+Neoplasm, uncertain whether benign or malignant				diagnosis	R22289078	phs002518_R22289078_R22289078	phs002518_R22289078
+9421/1 : Pilocytic Astrocytoma				diagnosis	R43682750	phs002518_R43682750_R43682750	phs002518_R43682750
+Neoplasm, Malignant				diagnosis	R89599040	phs002518_R89599040_R89599040	phs002518_R89599040
+Neoplasm, Malignant				diagnosis	R84983382	phs002518_R84983382_R84983382	phs002518_R84983382
+Chronic Myeloid Leukemia, NOS				diagnosis	R31994381	phs002518_R31994381_R31994381	phs002518_R31994381
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy	GX			diagnosis	R63895027	phs002518_R63895027_R63895027	phs002518_R63895027
+Renal Cell Carcinoma, NOS				diagnosis	R67594087	phs002518_R67594087_R67594087	phs002518_R67594087
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R88375304	phs002518_R88375304_R88375304	phs002518_R88375304
+Acute Myeloid Leukemia, NOS				diagnosis	R72070642	phs002518_R72070642_R72070642	phs002518_R72070642
+Langerhans Cell Histiocytosis, disseminated				diagnosis	R6392127	phs002518_R6392127_R6392127	phs002518_R6392127
+Acute Myeloid Leukemia, NOS	GX			diagnosis	R38278955	phs002518_R38278955_R38278955	phs002518_R38278955
+Pleomorphic Xanthoastrocytoma, NOS				diagnosis	R7599816	phs002518_R7599816_R7599816	phs002518_R7599816
+Nephroblastoma, NOS				diagnosis	R56494310	phs002518_R56494310_R56494310	phs002518_R56494310
+Neoplasm, Malignant				diagnosis	R29777316	phs002518_R29777316_R29777316	phs002518_R29777316
+Pleomorphic Xanthoastrocytoma, NOS				diagnosis	R91466462	phs002518_R91466462_R91466462	phs002518_R91466462
+Neoplasm, uncertain whether benign or malignant				diagnosis	R32708689	phs002518_R32708689_R32708689	phs002518_R32708689
+Neoplasm, Malignant				diagnosis	R34355926	phs002518_R34355926_R34355926	phs002518_R34355926
+Neoplasm, Malignant				diagnosis	R25596823	phs002518_R25596823_R25596823	phs002518_R25596823
+Acute leukemia, NOS				diagnosis	R27109515	phs002518_R27109515_R27109515	phs002518_R27109515
+Acute leukemia, NOS				diagnosis	R34473754	phs002518_R34473754_R34473754	phs002518_R34473754
+Neoplasm, uncertain whether benign or malignant				diagnosis	R65675796	phs002518_R65675796_R65675796	phs002518_R65675796
+Acute leukemia, NOS				diagnosis	R60903292	phs002518_R60903292_R60903292	phs002518_R60903292
+Neoplasm, uncertain whether benign or malignant				diagnosis	R74892321	phs002518_R74892321_R74892321	phs002518_R74892321
+Pleomorphic Xanthoastrocytoma, NOS	G2			diagnosis	R67893061	phs002518_R67893061_R67893061	phs002518_R67893061
+Sarcoma, NOS				diagnosis	R46134495	phs002518_R46134495_R46134495	phs002518_R46134495
+Chondroid Chordoma				diagnosis	R48368867	phs002518_R48368867_R48368867	phs002518_R48368867
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R82117513	phs002518_R82117513_R82117513	phs002518_R82117513
+Neoplasm, Malignant				diagnosis	R31039319	phs002518_R31039319_R31039319	phs002518_R31039319
+Neoplasm, Malignant				diagnosis	R98419178	phs002518_R98419178_R98419178	phs002518_R98419178
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy	GX			diagnosis	R60628107	phs002518_R60628107_R60628107	phs002518_R60628107
+Neoplasm, Malignant				diagnosis	R53870401	phs002518_R53870401_R53870401	phs002518_R53870401
+Medullary Carcinoma, NOS				diagnosis	R77793096	phs002518_R77793096_R77793096	phs002518_R77793096
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R8177481	phs002518_R8177481_R8177481	phs002518_R8177481
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R9220636	phs002518_R9220636_R9220636	phs002518_R9220636
+Neoplasm, Benign				diagnosis	R12325935	phs002518_R12325935_R12325935	phs002518_R12325935
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R26028260	phs002518_R26028260_R26028260	phs002518_R26028260
+Acute leukemia, NOS				diagnosis	R58862869	phs002518_R58862869_R58862869	phs002518_R58862869
+Acute Myeloid Leukemia, NOS	GX			diagnosis	R61307269	phs002518_R61307269_R61307269	phs002518_R61307269
+Neoplasm, Malignant				diagnosis	R40264600	phs002518_R40264600_R40264600	phs002518_R40264600
+Neoplasm, Malignant				diagnosis	R54572949	phs002518_R54572949_R54572949	phs002518_R54572949
+9421/1 : Pilocytic Astrocytoma				diagnosis	R74114457	phs002518_R74114457_R74114457	phs002518_R74114457
+Lentiginous Melanocytic nevus				diagnosis	R27921272	phs002518_R27921272_R27921272	phs002518_R27921272
+Synovial Sarcoma, Spindle Cell				diagnosis	R74289361	phs002518_R74289361_R74289361	phs002518_R74289361
+Osteosarcoma, NOS				diagnosis	R50343424	phs002518_R50343424_R50343424	phs002518_R50343424
+Medulloblastoma, NOS				diagnosis	R51695550	phs002518_R51695550_R51695550	phs002518_R51695550
+Diffuse Large B-cell Lymphoma, NOS				diagnosis	R98097831	phs002518_R98097831_R98097831	phs002518_R98097831
+Neoplasm, uncertain whether benign or malignant				diagnosis	R6377363	phs002518_R6377363_R6377363	phs002518_R6377363
+Neoplasm, Malignant				diagnosis	R68675787	phs002518_R68675787_R68675787	phs002518_R68675787
+Acute leukemia, NOS				diagnosis	R74773396	phs002518_R74773396_R74773396	phs002518_R74773396
+Acute leukemia, NOS				diagnosis	R28160954	phs002518_R28160954_R28160954	phs002518_R28160954
+Acute leukemia, NOS				diagnosis	R50791335	phs002518_R50791335_R50791335	phs002518_R50791335
+Acute Myeloid Leukemia, NOS				diagnosis	R12494701	phs002518_R12494701_R12494701	phs002518_R12494701
+Pineoblastoma				diagnosis	R92501606	phs002518_R92501606_R92501606	phs002518_R92501606
+9421/1 : Pilocytic Astrocytoma				diagnosis	R94453442	phs002518_R94453442_R94453442	phs002518_R94453442
+Lymphoproliferative Disorder, NOS				diagnosis	R18088041	phs002518_R18088041_R18088041	phs002518_R18088041
+Burkitt Lymphoma, NOS	GX			diagnosis	R33890864	phs002518_R33890864_R33890864	phs002518_R33890864
+Acute leukemia, NOS				diagnosis	R55226447	phs002518_R55226447_R55226447	phs002518_R55226447
+Acute leukemia, NOS				diagnosis	R84686868	phs002518_R84686868_R84686868	phs002518_R84686868
+8910/3 : Embryonal Rhabdomyosarcoma, NOS				diagnosis	R85461741	phs002518_R85461741_R85461741	phs002518_R85461741
+Osteosarcoma, NOS	G3	M0	T2	diagnosis	R99850126	phs002518_R99850126_R99850126	phs002518_R99850126
+Neoplasm, Malignant				diagnosis	R22879764	phs002518_R22879764_R22879764	phs002518_R22879764
+Langerhans Cell Histiocytosis, disseminated				diagnosis	R62291154	phs002518_R62291154_R62291154	phs002518_R62291154
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy	GX			diagnosis	R22622745	phs002518_R22622745_R22622745	phs002518_R22622745
+Transitional Cell carcinoma, NOS				diagnosis	R3493206	phs002518_R3493206_R3493206	phs002518_R3493206
+Renal Cell Carcinoma, NOS				diagnosis	R3718673	phs002518_R3718673_R3718673	phs002518_R3718673
+Neoplasm, Malignant				diagnosis	R41356810	phs002518_R41356810_R41356810	phs002518_R41356810
+Anaplastic Large Cell Lymphoma, T-cell and Null-cell type				diagnosis	R31385370	phs002518_R31385370_R31385370	phs002518_R31385370
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R72358215	phs002518_R72358215_R72358215	phs002518_R72358215
+Acute leukemia, NOS				diagnosis	R83827723	phs002518_R83827723_R83827723	phs002518_R83827723
+Acute leukemia, NOS				diagnosis	R58936992	phs002518_R58936992_R58936992	phs002518_R58936992
+Pleomorphic Xanthoastrocytoma, NOS	G1			diagnosis	R61135362	phs002518_R61135362_R61135362	phs002518_R61135362
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R76999663	phs002518_R76999663_R76999663	phs002518_R76999663
+Neoplasm, uncertain whether benign or malignant				diagnosis	R61831927	phs002518_R61831927_R61831927	phs002518_R61831927
+9380/3 : Glioma, Malignant				diagnosis	R23876646	phs002518_R23876646_R23876646	phs002518_R23876646
+Neoplasm, Malignant				diagnosis	R41718932	phs002518_R41718932_R41718932	phs002518_R41718932
+Neoplasm, Malignant				diagnosis	R50305301	phs002518_R50305301_R50305301	phs002518_R50305301
+Acute leukemia, NOS				diagnosis	R84543424	phs002518_R84543424_R84543424	phs002518_R84543424
+Pleomorphic Xanthoastrocytoma, NOS				diagnosis	R3994626	phs002518_R3994626_R3994626	phs002518_R3994626
+Glioblastoma, NOS				diagnosis	R98345406	phs002518_R98345406_R98345406	phs002518_R98345406
+Neoplasm, uncertain whether benign or malignant				diagnosis	R22760472	phs002518_R22760472_R22760472	phs002518_R22760472
+9421/1 : Pilocytic Astrocytoma				diagnosis	R42962290	phs002518_R42962290_R42962290	phs002518_R42962290
+Pleomorphic Xanthoastrocytoma, NOS				diagnosis	R15623557	phs002518_R15623557_R15623557	phs002518_R15623557
+Neoplasm, Malignant				diagnosis	R75564074	phs002518_R75564074_R75564074	phs002518_R75564074
+Ganglioglioma, NOS				diagnosis	R72324541	phs002518_R72324541_R72324541	phs002518_R72324541
+8910/3 : Embryonal Rhabdomyosarcoma, NOS				diagnosis	R53727229	phs002518_R53727229_R53727229	phs002518_R53727229
+Neoplasm, Malignant				diagnosis	R22159297	phs002518_R22159297_R22159297	phs002518_R22159297
+Acute leukemia, NOS				diagnosis	R23483198	phs002518_R23483198_R23483198	phs002518_R23483198
+9540/3 : Malignant Peripheral Nerve Sheath Tumor, NOS	G1	M0	T1	diagnosis	R27082326	phs002518_R27082326_R27082326	phs002518_R27082326
+Precursor Cell Lymphoblastic Lymphoma, NOS	GX			diagnosis	R5500220	phs002518_R5500220_R5500220	phs002518_R5500220
+Osteosarcoma, NOS				diagnosis	R62602844	phs002518_R62602844_R62602844	phs002518_R62602844
+Neoplasm, Malignant				diagnosis	R31168176	phs002518_R31168176_R31168176	phs002518_R31168176
+Ganglioglioma, NOS				diagnosis	R29580196	phs002518_R29580196_R29580196	phs002518_R29580196
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy	GX			diagnosis	R67278086	phs002518_R67278086_R67278086	phs002518_R67278086
+Pleomorphic Xanthoastrocytoma, NOS				diagnosis	R71313165	phs002518_R71313165_R71313165	phs002518_R71313165
+Alveolar Soft Part Sarcoma				diagnosis	R75738510	phs002518_R75738510_R75738510	phs002518_R75738510
+Acute leukemia, NOS				diagnosis	R93456182	phs002518_R93456182_R93456182	phs002518_R93456182
+Neoplasm, uncertain whether benign or malignant				diagnosis	R81767445	phs002518_R81767445_R81767445	phs002518_R81767445
+Acute leukemia, NOS				diagnosis	R393334	phs002518_R393334_R393334	phs002518_R393334
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy	GX			diagnosis	R54391743	phs002518_R54391743_R54391743	phs002518_R54391743
+Hepatoblastoma, NOS				diagnosis	R33183892	phs002518_R33183892_R33183892	phs002518_R33183892
+Acute leukemia, NOS				diagnosis	R87334529	phs002518_R87334529_R87334529	phs002518_R87334529
+Medulloblastoma, NOS				diagnosis	R35642048	phs002518_R35642048_R35642048	phs002518_R35642048
+Acute Myeloid Leukemia, NOS				diagnosis	R51369981	phs002518_R51369981_R51369981	phs002518_R51369981
+Acute leukemia, NOS				diagnosis	R55214205	phs002518_R55214205_R55214205	phs002518_R55214205
+Medullary Carcinoma, NOS	G1	M0	T1	diagnosis	R34554207	phs002518_R34554207_R34554207	phs002518_R34554207
+9380/3 : Glioma, Malignant				diagnosis	R20649315	phs002518_R20649315_R20649315	phs002518_R20649315
+Acute Myeloid Leukemia, NOS				diagnosis	R42384124	phs002518_R42384124_R42384124	phs002518_R42384124
+Acute leukemia, NOS				diagnosis	R78209411	phs002518_R78209411_R78209411	phs002518_R78209411
+Composite Hodgkin and Non-Hodgkin Lymphoma	GX			diagnosis	R10634480	phs002518_R10634480_R10634480	phs002518_R10634480
+Nephroblastoma, NOS				diagnosis	R85989636	phs002518_R85989636_R85989636	phs002518_R85989636
+9380/3 : Glioma, Malignant				diagnosis	R90961746	phs002518_R90961746_R90961746	phs002518_R90961746
+Osteosarcoma, NOS				diagnosis	R44697137	phs002518_R44697137_R44697137	phs002518_R44697137
+Neuroblastoma, NOS	G3			diagnosis	R54326982	phs002518_R54326982_R54326982	phs002518_R54326982
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R87694316	phs002518_R87694316_R87694316	phs002518_R87694316
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R13182047	phs002518_R13182047_R13182047	phs002518_R13182047
+Neoplasm, Malignant				diagnosis	R40998752	phs002518_R40998752_R40998752	phs002518_R40998752
+8910/3 : Embryonal Rhabdomyosarcoma, NOS				diagnosis	R73412701	phs002518_R73412701_R73412701	phs002518_R73412701
+Neuroblastoma, NOS				diagnosis	R30223468	phs002518_R30223468_R30223468	phs002518_R30223468
+Osteosarcoma, NOS				diagnosis	R17397516	phs002518_R17397516_R17397516	phs002518_R17397516
+Osteosarcoma, NOS				diagnosis	R86067955	phs002518_R86067955_R86067955	phs002518_R86067955
+9364/3 : Ewing Sarcoma				diagnosis	R27066489	phs002518_R27066489_R27066489	phs002518_R27066489
+8910/3 : Embryonal Rhabdomyosarcoma, NOS				diagnosis	R52808911	phs002518_R52808911_R52808911	phs002518_R52808911
+Neoplasm, Malignant				diagnosis	R79730412	phs002518_R79730412_R79730412	phs002518_R79730412
+Acute leukemia, NOS				diagnosis	R83839238	phs002518_R83839238_R83839238	phs002518_R83839238
+Osteosarcoma, NOS				diagnosis	R6336681	phs002518_R6336681_R6336681	phs002518_R6336681
+Neoplasm, Malignant				diagnosis	R55828169	phs002518_R55828169_R55828169	phs002518_R55828169
+Neoplasm, Malignant				diagnosis	R78652121	phs002518_R78652121_R78652121	phs002518_R78652121
+Neoplasm, Malignant				diagnosis	R19780881	phs002518_R19780881_R19780881	phs002518_R19780881
+Leukemia, NOS				diagnosis	R91642135	phs002518_R91642135_R91642135	phs002518_R91642135
+Medulloblastoma, NOS				diagnosis	R29990293	phs002518_R29990293_R29990293	phs002518_R29990293
+Sertoli-Leydig Cell Tumor, poorly differentiated	G3			diagnosis	R33051469	phs002518_R33051469_R33051469	phs002518_R33051469
+Osteosarcoma, NOS	G4	M1b		diagnosis	R37739909	phs002518_R37739909_R37739909	phs002518_R37739909
+Chronic Myelogenous Leukemia, BCR/ABL positive				diagnosis	R75179981	phs002518_R75179981_R75179981	phs002518_R75179981
+9380/3 : Glioma, Malignant				diagnosis	R96404439	phs002518_R96404439_R96404439	phs002518_R96404439
+Neoplasm, Malignant				diagnosis	R47019278	phs002518_R47019278_R47019278	phs002518_R47019278
+Nephroblastoma, NOS				diagnosis	R42655193	phs002518_R42655193_R42655193	phs002518_R42655193
+Lymphangioma, NOS				diagnosis	R89507968	phs002518_R89507968_R89507968	phs002518_R89507968
+Retinoblastoma, NOS		M0	T2	diagnosis	R56874752	phs002518_R56874752_R56874752	phs002518_R56874752
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R49753764	phs002518_R49753764_R49753764	phs002518_R49753764
+8910/3 : Embryonal Rhabdomyosarcoma, NOS				diagnosis	R49456990	phs002518_R49456990_R49456990	phs002518_R49456990
+Neoplasm, Malignant				diagnosis	R18169066	phs002518_R18169066_R18169066	phs002518_R18169066
+Acute leukemia, NOS				diagnosis	R75879491	phs002518_R75879491_R75879491	phs002518_R75879491
+Atypical Teratoid/Rhabdoid Tumor				diagnosis	R26647879	phs002518_R26647879_R26647879	phs002518_R26647879
+Medullary Carcinoma, NOS				diagnosis	R45867850	phs002518_R45867850_R45867850	phs002518_R45867850
+8910/3 : Embryonal Rhabdomyosarcoma, NOS				diagnosis	R70725624	phs002518_R70725624_R70725624	phs002518_R70725624
+9364/3 : Ewing Sarcoma				diagnosis	R36057847	phs002518_R36057847_R36057847	phs002518_R36057847
+Hepatoblastoma, NOS				diagnosis	R6577502	phs002518_R6577502_R6577502	phs002518_R6577502
+Epithelioid Sarcoma, NOS	G2	M0	TX	diagnosis	R85582779	phs002518_R85582779_R85582779	phs002518_R85582779
+9364/3 : Ewing Sarcoma				diagnosis	R95395931	phs002518_R95395931_R95395931	phs002518_R95395931
+Acute leukemia, NOS				diagnosis	R38143616	phs002518_R38143616_R38143616	phs002518_R38143616
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R31304477	phs002518_R31304477_R31304477	phs002518_R31304477
+Acute leukemia, NOS				diagnosis	R92218181	phs002518_R92218181_R92218181	phs002518_R92218181
+Neoplasm, Benign				diagnosis	R93491551	phs002518_R93491551_R93491551	phs002518_R93491551
+Neoplasm, Malignant				diagnosis	R11581100	phs002518_R11581100_R11581100	phs002518_R11581100
+Acute leukemia, NOS				diagnosis	R35049168	phs002518_R35049168_R35049168	phs002518_R35049168
+Liposarcoma, NOS				diagnosis	R84629001	phs002518_R84629001_R84629001	phs002518_R84629001
+8910/3 : Embryonal Rhabdomyosarcoma, NOS				diagnosis	R2031756	phs002518_R2031756_R2031756	phs002518_R2031756
+Mixed Phenotype Acute Leukemia, B/Myeloid, NOS	GX			diagnosis	R29697976	phs002518_R29697976_R29697976	phs002518_R29697976
+Pleomorphic Xanthoastrocytoma, NOS				diagnosis	R77947560	phs002518_R77947560_R77947560	phs002518_R77947560
+Pleomorphic Xanthoastrocytoma, NOS				diagnosis	R19987930	phs002518_R19987930_R19987930	phs002518_R19987930
+Acute Myeloid Leukemia, NOS				diagnosis	R57608155	phs002518_R57608155_R57608155	phs002518_R57608155
+Neoplasm, Malignant				diagnosis	R70246831	phs002518_R70246831_R70246831	phs002518_R70246831
+Osteosarcoma, NOS				diagnosis	R71169396	phs002518_R71169396_R71169396	phs002518_R71169396
+Acute Myeloid Leukemia, NOS				diagnosis	R44107898	phs002518_R44107898_R44107898	phs002518_R44107898
+Acute leukemia, NOS				diagnosis	R74925870	phs002518_R74925870_R74925870	phs002518_R74925870
+Precursor Cell Lymphoblastic Lymphoma, NOS				diagnosis	R74971899	phs002518_R74971899_R74971899	phs002518_R74971899
+Pleomorphic Xanthoastrocytoma, NOS				diagnosis	R36972797	phs002518_R36972797_R36972797	phs002518_R36972797
+Neuroblastoma, NOS				diagnosis	R91178779	phs002518_R91178779_R91178779	phs002518_R91178779
+Osteosarcoma, NOS				diagnosis	R89344265	phs002518_R89344265_R89344265	phs002518_R89344265
+Neoplasm, Malignant				diagnosis	R53159918	phs002518_R53159918_R53159918	phs002518_R53159918
+Neoplasm, Malignant				diagnosis	R58419299	phs002518_R58419299_R58419299	phs002518_R58419299
+Ganglioglioma, NOS				diagnosis	R87085611	phs002518_R87085611_R87085611	phs002518_R87085611
+Meningioma, NOS				diagnosis	R13823541	phs002518_R13823541_R13823541	phs002518_R13823541
+Ependymoma, NOS				diagnosis	R1929450	phs002518_R1929450_R1929450	phs002518_R1929450
+Medulloblastoma, NOS				diagnosis	R79611302	phs002518_R79611302_R79611302	phs002518_R79611302
+Langerhans Cell Histiocytosis, disseminated				diagnosis	R82334637	phs002518_R82334637_R82334637	phs002518_R82334637
+Neuroblastoma, NOS				diagnosis	R93640769	phs002518_R93640769_R93640769	phs002518_R93640769
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy	GX			diagnosis	R34826443	phs002518_R34826443_R34826443	phs002518_R34826443
+Nephroblastoma, NOS				diagnosis	R14677767	phs002518_R14677767_R14677767	phs002518_R14677767
+Neuroblastoma, NOS				diagnosis	R55714157	phs002518_R55714157_R55714157	phs002518_R55714157
+Pleomorphic Xanthoastrocytoma, NOS				diagnosis	R790024	phs002518_R790024_R790024	phs002518_R790024
+Neoplasm, uncertain whether benign or malignant				diagnosis	R62592850	phs002518_R62592850_R62592850	phs002518_R62592850
+B Lymphoblastic Leukemia/Lymphoma, NOS				diagnosis	R35879098	phs002518_R35879098_R35879098	phs002518_R35879098
+9071/3 : Yolk Sac Tumor, NOS				diagnosis	R41137909	phs002518_R41137909_R41137909	phs002518_R41137909
+Acute leukemia, NOS				diagnosis	R46536596	phs002518_R46536596_R46536596	phs002518_R46536596
+Neoplasm, uncertain whether benign or malignant				diagnosis	R81960578	phs002518_R81960578_R81960578	phs002518_R81960578
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R76435372	phs002518_R76435372_R76435372	phs002518_R76435372
+9380/3 : Glioma, Malignant				diagnosis	R42096936	phs002518_R42096936_R42096936	phs002518_R42096936
+Neoplasm, Malignant				diagnosis	R7599763	phs002518_R7599763_R7599763	phs002518_R7599763
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy	GX			diagnosis	R76914161	phs002518_R76914161_R76914161	phs002518_R76914161
+Pleomorphic Xanthoastrocytoma, NOS				diagnosis	R35832893	phs002518_R35832893_R35832893	phs002518_R35832893
+Pleomorphic Xanthoastrocytoma, NOS				diagnosis	R20566615	phs002518_R20566615_R20566615	phs002518_R20566615
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R26974017	phs002518_R26974017_R26974017	phs002518_R26974017
+Nephroblastoma, NOS				diagnosis	R24451608	phs002518_R24451608_R24451608	phs002518_R24451608
+Neoplasm, uncertain whether benign or malignant				diagnosis	R25083756	phs002518_R25083756_R25083756	phs002518_R25083756
+Neoplasm, Malignant				diagnosis	R52574206	phs002518_R52574206_R52574206	phs002518_R52574206
+B Lymphoblastic Leukemia/Lymphoma, NOS				diagnosis	R76832460	phs002518_R76832460_R76832460	phs002518_R76832460
+Precursor Cell Lymphoblastic Lymphoma, NOS	GX			diagnosis	R98467389	phs002518_R98467389_R98467389	phs002518_R98467389
+Neoplasm, uncertain whether benign or malignant				diagnosis	R53458745	phs002518_R53458745_R53458745	phs002518_R53458745
+8910/3 : Embryonal Rhabdomyosarcoma, NOS				diagnosis	R46273123	phs002518_R46273123_R46273123	phs002518_R46273123
+8910/3 : Embryonal Rhabdomyosarcoma, NOS	G4			diagnosis	R95738771	phs002518_R95738771_R95738771	phs002518_R95738771
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R9739220	phs002518_R9739220_R9739220	phs002518_R9739220
+Acute Myeloid Leukemia, NOS				diagnosis	R8345539	phs002518_R8345539_R8345539	phs002518_R8345539
+Neoplasm, uncertain whether benign or malignant				diagnosis	R15936760	phs002518_R15936760_R15936760	phs002518_R15936760
+Ependymoma, NOS				diagnosis	R52387805	phs002518_R52387805_R52387805	phs002518_R52387805
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R20169660	phs002518_R20169660_R20169660	phs002518_R20169660
+Ependymoma, NOS				diagnosis	R71327132	phs002518_R71327132_R71327132	phs002518_R71327132
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy	GX			diagnosis	R93243658	phs002518_R93243658_R93243658	phs002518_R93243658
+Acute leukemia, NOS				diagnosis	R76653446	phs002518_R76653446_R76653446	phs002518_R76653446
+Neuroblastoma, NOS	G3			diagnosis	R17963984	phs002518_R17963984_R17963984	phs002518_R17963984
+Ganglioglioma, NOS				diagnosis	R42986815	phs002518_R42986815_R42986815	phs002518_R42986815
+Choroid Plexus Carcinoma				diagnosis	R19436414	phs002518_R19436414_R19436414	phs002518_R19436414
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R36009854	phs002518_R36009854_R36009854	phs002518_R36009854
+Neoplasm, Metastatic				diagnosis	R28743076	phs002518_R28743076_R28743076	phs002518_R28743076
+Mixed Germ Cell Tumor				diagnosis	R95667564	phs002518_R95667564_R95667564	phs002518_R95667564
+Hemangioma, NOS				diagnosis	R33943772	phs002518_R33943772_R33943772	phs002518_R33943772
+8910/3 : Embryonal Rhabdomyosarcoma, NOS				diagnosis	R2295315	phs002518_R2295315_R2295315	phs002518_R2295315
+Neoplasm, uncertain whether benign or malignant				diagnosis	R25787479	phs002518_R25787479_R25787479	phs002518_R25787479
+9400/3 : Astrocytoma, NOS				diagnosis	R17250877	phs002518_R17250877_R17250877	phs002518_R17250877
+Neuroblastoma, NOS	G3			diagnosis	R47521680	phs002518_R47521680_R47521680	phs002518_R47521680
+Osteosarcoma, NOS				diagnosis	R54444277	phs002518_R54444277_R54444277	phs002518_R54444277
+Acute leukemia, NOS				diagnosis	R11382557	phs002518_R11382557_R11382557	phs002518_R11382557
+Medulloblastoma, NOS				diagnosis	R47151909	phs002518_R47151909_R47151909	phs002518_R47151909
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R86118922	phs002518_R86118922_R86118922	phs002518_R86118922
+Ganglioglioma, NOS				diagnosis	R60886392	phs002518_R60886392_R60886392	phs002518_R60886392
+Acute leukemia, NOS				diagnosis	R38734039	phs002518_R38734039_R38734039	phs002518_R38734039
+Neoplasm, Malignant				diagnosis	R40815770	phs002518_R40815770_R40815770	phs002518_R40815770
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R86384252	phs002518_R86384252_R86384252	phs002518_R86384252
+Pleomorphic Xanthoastrocytoma, NOS				diagnosis	R65365087	phs002518_R65365087_R65365087	phs002518_R65365087
+Hodgkin Lymphoma, Nodular Sclerosis, NOS				diagnosis	R31434217	phs002518_R31434217_R31434217	phs002518_R31434217
+9364/3 : Ewing Sarcoma				diagnosis	R1502301	phs002518_R1502301_R1502301	phs002518_R1502301
+Acute leukemia, NOS				diagnosis	R81906939	phs002518_R81906939_R81906939	phs002518_R81906939
+Nephroblastoma, NOS				diagnosis	R36435801	phs002518_R36435801_R36435801	phs002518_R36435801
+Pleomorphic Xanthoastrocytoma, NOS				diagnosis	R22006839	phs002518_R22006839_R22006839	phs002518_R22006839
+Osteosarcoma, NOS				diagnosis	R17646133	phs002518_R17646133_R17646133	phs002518_R17646133
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R33405708	phs002518_R33405708_R33405708	phs002518_R33405708
+Neoplasm, Malignant				diagnosis	R47180640	phs002518_R47180640_R47180640	phs002518_R47180640
+Acute leukemia, NOS				diagnosis	R54694889	phs002518_R54694889_R54694889	phs002518_R54694889
+Acute Myeloid Leukemia, NOS				diagnosis	R10724966	phs002518_R10724966_R10724966	phs002518_R10724966
+Neuroblastoma, NOS				diagnosis	R58083574	phs002518_R58083574_R58083574	phs002518_R58083574
+Nephroblastoma, NOS				diagnosis	R46840036	phs002518_R46840036_R46840036	phs002518_R46840036
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy	GX			diagnosis	R59573359	phs002518_R59573359_R59573359	phs002518_R59573359
+Neoplasm, uncertain whether benign or malignant				diagnosis	R60800109	phs002518_R60800109_R60800109	phs002518_R60800109
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy	GX			diagnosis	R62532218	phs002518_R62532218_R62532218	phs002518_R62532218
+Neoplasm, Malignant				diagnosis	R19875007	phs002518_R19875007_R19875007	phs002518_R19875007
+Neoplasm, uncertain whether benign or malignant				diagnosis	R43596675	phs002518_R43596675_R43596675	phs002518_R43596675
+Osteosarcoma, NOS	G3			diagnosis	R56089642	phs002518_R56089642_R56089642	phs002518_R56089642
+Acute Myeloid Leukemia, NOS				diagnosis	R50646072	phs002518_R50646072_R50646072	phs002518_R50646072
+Neoplasm, Malignant				diagnosis	R58079691	phs002518_R58079691_R58079691	phs002518_R58079691
+Neoplasm, Benign				diagnosis	R95184983	phs002518_R95184983_R95184983	phs002518_R95184983
+8910/3 : Embryonal Rhabdomyosarcoma, NOS				diagnosis	R95846994	phs002518_R95846994_R95846994	phs002518_R95846994
+9380/3 : Glioma, Malignant				diagnosis	R96341124	phs002518_R96341124_R96341124	phs002518_R96341124
+Neoplasm, Benign				diagnosis	R46661287	phs002518_R46661287_R46661287	phs002518_R46661287
+Neoplasm, Malignant				diagnosis	R46977514	phs002518_R46977514_R46977514	phs002518_R46977514
+Neuroblastoma, NOS				diagnosis	R44828452	phs002518_R44828452_R44828452	phs002518_R44828452
+Neoplasm, Malignant				diagnosis	R30858896	phs002518_R30858896_R30858896	phs002518_R30858896
+Pleomorphic Xanthoastrocytoma, NOS				diagnosis	R47874657	phs002518_R47874657_R47874657	phs002518_R47874657
+Neoplasm, uncertain whether benign or malignant				diagnosis	R69612479	phs002518_R69612479_R69612479	phs002518_R69612479
+Neoplasm, uncertain whether benign or malignant				diagnosis	R57920717	phs002518_R57920717_R57920717	phs002518_R57920717
+Nephroblastoma, NOS				diagnosis	R12663565	phs002518_R12663565_R12663565	phs002518_R12663565
+Neoplasm, Benign				diagnosis	R1403703	phs002518_R1403703_R1403703	phs002518_R1403703
+Acute leukemia, NOS				diagnosis	R57818898	phs002518_R57818898_R57818898	phs002518_R57818898
+8910/3 : Embryonal Rhabdomyosarcoma, NOS				diagnosis	R52889212	phs002518_R52889212_R52889212	phs002518_R52889212
+Neoplasm, Malignant				diagnosis	R28982468	phs002518_R28982468_R28982468	phs002518_R28982468
+Ganglioglioma, NOS				diagnosis	R72281698	phs002518_R72281698_R72281698	phs002518_R72281698
+Neoplasm, Malignant				diagnosis	R2659361	phs002518_R2659361_R2659361	phs002518_R2659361
+9421/1 : Pilocytic Astrocytoma				diagnosis	R10656925	phs002518_R10656925_R10656925	phs002518_R10656925
+Neoplasm, Malignant				diagnosis	R2079607	phs002518_R2079607_R2079607	phs002518_R2079607
+Acute leukemia, NOS				diagnosis	R55289395	phs002518_R55289395_R55289395	phs002518_R55289395
+Neoplasm, uncertain whether benign or malignant				diagnosis	R69241719	phs002518_R69241719_R69241719	phs002518_R69241719
+Precursor Cell Lymphoblastic Lymphoma, NOS				diagnosis	R11755446	phs002518_R11755446_R11755446	phs002518_R11755446
+Neuroblastoma, NOS				diagnosis	R13679799	phs002518_R13679799_R13679799	phs002518_R13679799
+Unknown				diagnosis	R49291811	phs002518_R49291811_R49291811	phs002518_R49291811
+9364/3 : Ewing Sarcoma		M0	T1	diagnosis	R79806724	phs002518_R79806724_R79806724	phs002518_R79806724
+Osteosarcoma, NOS				diagnosis	R1473272	phs002518_R1473272_R1473272	phs002518_R1473272
+Osteosarcoma, NOS	G4	M0	T2	diagnosis	R65819434	phs002518_R65819434_R65819434	phs002518_R65819434
+9380/3 : Glioma, Malignant				diagnosis	R77359594	phs002518_R77359594_R77359594	phs002518_R77359594
+Neoplasm, uncertain whether benign or malignant				diagnosis	R26789421	phs002518_R26789421_R26789421	phs002518_R26789421
+Pleomorphic Xanthoastrocytoma, NOS				diagnosis	R35894879	phs002518_R35894879_R35894879	phs002518_R35894879
+Neoplasm, Malignant				diagnosis	R42272381	phs002518_R42272381_R42272381	phs002518_R42272381
+Pleomorphic Xanthoastrocytoma, NOS	G4			diagnosis	R10610670	phs002518_R10610670_R10610670	phs002518_R10610670
+9364/3 : Ewing Sarcoma		M0	T2b	diagnosis	R46176642	phs002518_R46176642_R46176642	phs002518_R46176642
+Acute leukemia, NOS				diagnosis	R91147273	phs002518_R91147273_R91147273	phs002518_R91147273
+Medulloblastoma, NOS				diagnosis	R8185772	phs002518_R8185772_R8185772	phs002518_R8185772
+Acute leukemia, NOS				diagnosis	R55743386	phs002518_R55743386_R55743386	phs002518_R55743386
+Hemangioma, NOS				diagnosis	R84593629	phs002518_R84593629_R84593629	phs002518_R84593629
+Pleomorphic Xanthoastrocytoma, NOS	G2			diagnosis	R24477292	phs002518_R24477292_R24477292	phs002518_R24477292
+Neoplasm, Malignant				diagnosis	R28843483	phs002518_R28843483_R28843483	phs002518_R28843483
+Unknown				diagnosis	R69370515	phs002518_R69370515_R69370515	phs002518_R69370515
+Mixed Phenotype Acute Leukemia, B/Myeloid, NOS				diagnosis	R31380032	phs002518_R31380032_R31380032	phs002518_R31380032
+Pleomorphic Xanthoastrocytoma, NOS				diagnosis	R89824391	phs002518_R89824391_R89824391	phs002518_R89824391
+Neoplasm, Malignant				diagnosis	R96737037	phs002518_R96737037_R96737037	phs002518_R96737037
+9421/1 : Pilocytic Astrocytoma				diagnosis	R5910853	phs002518_R5910853_R5910853	phs002518_R5910853
+Acute Myeloid Leukemia, NOS				diagnosis	R89314695	phs002518_R89314695_R89314695	phs002518_R89314695
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R27818905	phs002518_R27818905_R27818905	phs002518_R27818905
+Neoplasm, Benign				diagnosis	R48152505	phs002518_R48152505_R48152505	phs002518_R48152505
+9364/3 : Ewing Sarcoma				diagnosis	R79298009	phs002518_R79298009_R79298009	phs002518_R79298009
+Leiomyosarcoma, NOS	G2	M0	T1b	diagnosis	R6789146	phs002518_R6789146_R6789146	phs002518_R6789146
+Rhabdoid Tumor, NOS				diagnosis	R34177909	phs002518_R34177909_R34177909	phs002518_R34177909
+Medulloblastoma, NOS				diagnosis	R28527845	phs002518_R28527845_R28527845	phs002518_R28527845
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy	GX			diagnosis	R15072657	phs002518_R15072657_R15072657	phs002518_R15072657
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R39889623	phs002518_R39889623_R39889623	phs002518_R39889623
+Osteosarcoma, NOS				diagnosis	R36284273	phs002518_R36284273_R36284273	phs002518_R36284273
+Neoplasm, Benign				diagnosis	R24320130	phs002518_R24320130_R24320130	phs002518_R24320130
+Neoplasm, Malignant				diagnosis	R2603920	phs002518_R2603920_R2603920	phs002518_R2603920
+Medullary Carcinoma, NOS				diagnosis	R41030149	phs002518_R41030149_R41030149	phs002518_R41030149
+Neoplasm, uncertain whether benign or malignant				diagnosis	R4351598	phs002518_R4351598_R4351598	phs002518_R4351598
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R60835232	phs002518_R60835232_R60835232	phs002518_R60835232
+Neuroblastoma, NOS	G3			diagnosis	R43114347	phs002518_R43114347_R43114347	phs002518_R43114347
+Ganglioglioma, NOS				diagnosis	R61838685	phs002518_R61838685_R61838685	phs002518_R61838685
+Medulloblastoma, NOS				diagnosis	R14006172	phs002518_R14006172_R14006172	phs002518_R14006172
+Nephroblastoma, NOS				diagnosis	R14017656	phs002518_R14017656_R14017656	phs002518_R14017656
+Neoplasm, Malignant				diagnosis	R70427023	phs002518_R70427023_R70427023	phs002518_R70427023
+Acute Myeloid Leukemia, NOS				diagnosis	R44994270	phs002518_R44994270_R44994270	phs002518_R44994270
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R31718051	phs002518_R31718051_R31718051	phs002518_R31718051
+Atypical Teratoid/Rhabdoid Tumor				diagnosis	R92755318	phs002518_R92755318_R92755318	phs002518_R92755318
+Acute Myeloid Leukemia, NOS				diagnosis	R41057555	phs002518_R41057555_R41057555	phs002518_R41057555
+Diffuse Large B-cell Lymphoma, NOS				diagnosis	R37907633	phs002518_R37907633_R37907633	phs002518_R37907633
+Neoplasm, Malignant				diagnosis	R85532392	phs002518_R85532392_R85532392	phs002518_R85532392
+Clear Cell Sarcoma of Kidney				diagnosis	R35234824	phs002518_R35234824_R35234824	phs002518_R35234824
+Nephroblastoma, NOS				diagnosis	R84419435	phs002518_R84419435_R84419435	phs002518_R84419435
+Neoplasm, Benign				diagnosis	R94961375	phs002518_R94961375_R94961375	phs002518_R94961375
+Adenocarcinoma, NOS				diagnosis	R76641092	phs002518_R76641092_R76641092	phs002518_R76641092
+Medulloblastoma, NOS				diagnosis	R64360744	phs002518_R64360744_R64360744	phs002518_R64360744
+Ependymoma, NOS				diagnosis	R35210270	phs002518_R35210270_R35210270	phs002518_R35210270
+Chondrosarcoma, NOS	G1	M0	T1	diagnosis	R20660756	phs002518_R20660756_R20660756	phs002518_R20660756
+Hepatoblastoma, NOS				diagnosis	R59323101	phs002518_R59323101_R59323101	phs002518_R59323101
+Neoplasm, uncertain whether benign or malignant				diagnosis	R35269850	phs002518_R35269850_R35269850	phs002518_R35269850
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R92873710	phs002518_R92873710_R92873710	phs002518_R92873710
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R44659648	phs002518_R44659648_R44659648	phs002518_R44659648
+Neoplasm, Malignant				diagnosis	R56523912	phs002518_R56523912_R56523912	phs002518_R56523912
+Nephroblastoma, NOS				diagnosis	R43868355	phs002518_R43868355_R43868355	phs002518_R43868355
+Acute leukemia, NOS				diagnosis	R11677068	phs002518_R11677068_R11677068	phs002518_R11677068
+9380/3 : Glioma, Malignant				diagnosis	R14231243	phs002518_R14231243_R14231243	phs002518_R14231243
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R3185496	phs002518_R3185496_R3185496	phs002518_R3185496
+Mixed Phenotype Acute Leukemia, B/Myeloid, NOS				diagnosis	R11414258	phs002518_R11414258_R11414258	phs002518_R11414258
+9421/1 : Pilocytic Astrocytoma				diagnosis	R85489199	phs002518_R85489199_R85489199	phs002518_R85489199
+Acute leukemia, NOS				diagnosis	R95105934	phs002518_R95105934_R95105934	phs002518_R95105934
+Neoplasm, uncertain whether benign or malignant				diagnosis	R18668594	phs002518_R18668594_R18668594	phs002518_R18668594
+Pleomorphic Xanthoastrocytoma, NOS	G1			diagnosis	R88683053	phs002518_R88683053_R88683053	phs002518_R88683053
+Nodular Melanoma				diagnosis	R80507815	phs002518_R80507815_R80507815	phs002518_R80507815
+Pleomorphic Xanthoastrocytoma, NOS				diagnosis	R83180901	phs002518_R83180901_R83180901	phs002518_R83180901
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R15652371	phs002518_R15652371_R15652371	phs002518_R15652371
+Schwannoma, NOS				diagnosis	R14169092	phs002518_R14169092_R14169092	phs002518_R14169092
+Mixed Germ Cell Tumor				diagnosis	R98474828	phs002518_R98474828_R98474828	phs002518_R98474828
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R93363095	phs002518_R93363095_R93363095	phs002518_R93363095
+Acute leukemia, NOS				diagnosis	R76007241	phs002518_R76007241_R76007241	phs002518_R76007241
+Medulloblastoma, NOS				diagnosis	R78197340	phs002518_R78197340_R78197340	phs002518_R78197340
+Neoplasm, uncertain whether benign or malignant				diagnosis	R91109632	phs002518_R91109632_R91109632	phs002518_R91109632
+Pleomorphic Xanthoastrocytoma, NOS	G4			diagnosis	R58276235	phs002518_R58276235_R58276235	phs002518_R58276235
+Acute leukemia, NOS				diagnosis	R5664801	phs002518_R5664801_R5664801	phs002518_R5664801
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R58091608	phs002518_R58091608_R58091608	phs002518_R58091608
+Neuroblastoma, NOS				diagnosis	R82354617	phs002518_R82354617_R82354617	phs002518_R82354617
+Lymphoid leukemia, NOS				diagnosis	R40464383	phs002518_R40464383_R40464383	phs002518_R40464383
+Acute leukemia, NOS				diagnosis	R77327047	phs002518_R77327047_R77327047	phs002518_R77327047
+Mixed Germ Cell Tumor				diagnosis	R51651780	phs002518_R51651780_R51651780	phs002518_R51651780
+Acute leukemia, NOS				diagnosis	R89778432	phs002518_R89778432_R89778432	phs002518_R89778432
+Nephroblastoma, NOS				diagnosis	R83468428	phs002518_R83468428_R83468428	phs002518_R83468428
+8910/3 : Embryonal Rhabdomyosarcoma, NOS				diagnosis	R72588426	phs002518_R72588426_R72588426	phs002518_R72588426
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R51405206	phs002518_R51405206_R51405206	phs002518_R51405206
+Pleomorphic Xanthoastrocytoma, NOS				diagnosis	R66072854	phs002518_R66072854_R66072854	phs002518_R66072854
+Acute Myeloid Leukemia, NOS				diagnosis	R45664352	phs002518_R45664352_R45664352	phs002518_R45664352
+Medulloblastoma, NOS				diagnosis	R88584136	phs002518_R88584136_R88584136	phs002518_R88584136
+Neuroblastoma, NOS				diagnosis	R98744224	phs002518_R98744224_R98744224	phs002518_R98744224
+Neoplasm, Malignant				diagnosis	R40362681	phs002518_R40362681_R40362681	phs002518_R40362681
+Choroid Plexus Carcinoma				diagnosis	R46827299	phs002518_R46827299_R46827299	phs002518_R46827299
+Pleomorphic Xanthoastrocytoma, NOS				diagnosis	R81561069	phs002518_R81561069_R81561069	phs002518_R81561069
+Neoplasm, Malignant				diagnosis	R61287183	phs002518_R61287183_R61287183	phs002518_R61287183
+Neoplasm, Malignant				diagnosis	R78246234	phs002518_R78246234_R78246234	phs002518_R78246234
+Neoplasm, Malignant				diagnosis	R41801925	phs002518_R41801925_R41801925	phs002518_R41801925
+Synovial Sarcoma, Spindle Cell	G3			diagnosis	R70239120	phs002518_R70239120_R70239120	phs002518_R70239120
+Acute leukemia, NOS				diagnosis	R7007954	phs002518_R7007954_R7007954	phs002518_R7007954
+Neoplasm, uncertain whether benign or malignant				diagnosis	R11933353	phs002518_R11933353_R11933353	phs002518_R11933353
+Ependymoma, NOS				diagnosis	R57140410	phs002518_R57140410_R57140410	phs002518_R57140410
+Pleomorphic Xanthoastrocytoma, NOS	G4			diagnosis	R10817838	phs002518_R10817838_R10817838	phs002518_R10817838
+Acute Myeloid Leukemia, NOS				diagnosis	R1482728	phs002518_R1482728_R1482728	phs002518_R1482728
+Transient Abnormal Myelopoiesis				diagnosis	R60085211	phs002518_R60085211_R60085211	phs002518_R60085211
+Chronic Myeloid Leukemia, NOS				diagnosis	R48620247	phs002518_R48620247_R48620247	phs002518_R48620247
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R2928985	phs002518_R2928985_R2928985	phs002518_R2928985
+Neoplasm, Malignant				diagnosis	R61817563	phs002518_R61817563_R61817563	phs002518_R61817563
+Neuroblastoma, NOS	G4	M1	T2b	diagnosis	R69750736	phs002518_R69750736_R69750736	phs002518_R69750736
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R75655413	phs002518_R75655413_R75655413	phs002518_R75655413
+9380/3 : Glioma, Malignant				diagnosis	R85362399	phs002518_R85362399_R85362399	phs002518_R85362399
+Neoplasm, Benign				diagnosis	R37388298	phs002518_R37388298_R37388298	phs002518_R37388298
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy	GX			diagnosis	R21898562	phs002518_R21898562_R21898562	phs002518_R21898562
+Sertoli-Leydig Cell Tumor, poorly differentiated	G3			diagnosis	R76800118	phs002518_R76800118_R76800118	phs002518_R76800118
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R18576663	phs002518_R18576663_R18576663	phs002518_R18576663
+Hodgkin Lymphoma, Nodular Sclerosis, NOS				diagnosis	R4231995	phs002518_R4231995_R4231995	phs002518_R4231995
+Neoplasm, Malignant				diagnosis	R28642234	phs002518_R28642234_R28642234	phs002518_R28642234
+9421/1 : Pilocytic Astrocytoma				diagnosis	R97033695	phs002518_R97033695_R97033695	phs002518_R97033695
+Acute Myeloid Leukemia, NOS				diagnosis	R79153560	phs002518_R79153560_R79153560	phs002518_R79153560
+Acute Myeloid Leukemia, NOS	GX			diagnosis	R36361253	phs002518_R36361253_R36361253	phs002518_R36361253
+Neuroblastoma, NOS				diagnosis	R16550260	phs002518_R16550260_R16550260	phs002518_R16550260
+Acute leukemia, NOS				diagnosis	R54036380	phs002518_R54036380_R54036380	phs002518_R54036380
+Neoplasm, Malignant				diagnosis	R40104312	phs002518_R40104312_R40104312	phs002518_R40104312
+Myoepithelial Carcinoma				diagnosis	R40592595	phs002518_R40592595_R40592595	phs002518_R40592595
+Nephroblastoma, NOS				diagnosis	R82141525	phs002518_R82141525_R82141525	phs002518_R82141525
+Neuroblastoma, NOS	G3			diagnosis	R55388610	phs002518_R55388610_R55388610	phs002518_R55388610
+Epithelioid Sarcoma, NOS				diagnosis	R56031008	phs002518_R56031008_R56031008	phs002518_R56031008
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R35429540	phs002518_R35429540_R35429540	phs002518_R35429540
+Osteosarcoma, NOS	G4	M0	T1	diagnosis	R76765082	phs002518_R76765082_R76765082	phs002518_R76765082
+Craniopharyngioma, NOS				diagnosis	R49675839	phs002518_R49675839_R49675839	phs002518_R49675839
+Ganglioglioma, NOS				diagnosis	R6582413	phs002518_R6582413_R6582413	phs002518_R6582413
+8910/3 : Embryonal Rhabdomyosarcoma, NOS				diagnosis	R90406053	phs002518_R90406053_R90406053	phs002518_R90406053
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy	GX			diagnosis	R7717990	phs002518_R7717990_R7717990	phs002518_R7717990
+Neoplasm, Metastatic				diagnosis	R23366959	phs002518_R23366959_R23366959	phs002518_R23366959
+Burkitt Lymphoma, NOS				diagnosis	R41024297	phs002518_R41024297_R41024297	phs002518_R41024297
+Acute Myeloid Leukemia, NOS				diagnosis	R61947875	phs002518_R61947875_R61947875	phs002518_R61947875
+Neoplasm, Malignant				diagnosis	R19473655	phs002518_R19473655_R19473655	phs002518_R19473655
+8910/3 : Embryonal Rhabdomyosarcoma, NOS				diagnosis	R75666933	phs002518_R75666933_R75666933	phs002518_R75666933
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R97018250	phs002518_R97018250_R97018250	phs002518_R97018250
+Neoplasm, Malignant				diagnosis	R63185656	phs002518_R63185656_R63185656	phs002518_R63185656
+Medulloblastoma, NOS				diagnosis	R85509478	phs002518_R85509478_R85509478	phs002518_R85509478
+Hodgkin Lymphoma, NOS				diagnosis	R29830997	phs002518_R29830997_R29830997	phs002518_R29830997
+Craniopharyngioma, NOS				diagnosis	R1266912	phs002518_R1266912_R1266912	phs002518_R1266912
+Hepatoblastoma, NOS				diagnosis	R62576550	phs002518_R62576550_R62576550	phs002518_R62576550
+8910/3 : Embryonal Rhabdomyosarcoma, NOS				diagnosis	R57746589	phs002518_R57746589_R57746589	phs002518_R57746589
+9385/3 : Diffuse Midline Glioma, H3 K27M-Mutant				diagnosis	R81018671	phs002518_R81018671_R81018671	phs002518_R81018671
+Mixed Germ Cell Tumor				diagnosis	R69165484	phs002518_R69165484_R69165484	phs002518_R69165484
+Neoplasm, Malignant				diagnosis	R42290257	phs002518_R42290257_R42290257	phs002518_R42290257
+Neoplasm, Malignant				diagnosis	R7826670	phs002518_R7826670_R7826670	phs002518_R7826670
+Pleomorphic Xanthoastrocytoma, NOS				diagnosis	R38738001	phs002518_R38738001_R38738001	phs002518_R38738001
+Neoplasm, Benign				diagnosis	R81987946	phs002518_R81987946_R81987946	phs002518_R81987946
+Acute Myeloid Leukemia, NOS	GX			diagnosis	R50228032	phs002518_R50228032_R50228032	phs002518_R50228032
+Atypical Teratoid/Rhabdoid Tumor				diagnosis	R67763620	phs002518_R67763620_R67763620	phs002518_R67763620
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R54815357	phs002518_R54815357_R54815357	phs002518_R54815357
+Acute leukemia, NOS				diagnosis	R78402375	phs002518_R78402375_R78402375	phs002518_R78402375
+Pleomorphic Xanthoastrocytoma, NOS				diagnosis	R86868853	phs002518_R86868853_R86868853	phs002518_R86868853
+Acute leukemia, NOS				diagnosis	R61700598	phs002518_R61700598_R61700598	phs002518_R61700598
+Langerhans Cell Histiocytosis, disseminated				diagnosis	R22996540	phs002518_R22996540_R22996540	phs002518_R22996540
+Neoplasm, Malignant				diagnosis	R78700159	phs002518_R78700159_R78700159	phs002518_R78700159
+Neoplasm, Malignant				diagnosis	R55013871	phs002518_R55013871_R55013871	phs002518_R55013871
+Acute leukemia, NOS				diagnosis	R99727550	phs002518_R99727550_R99727550	phs002518_R99727550
+Nephroblastoma, NOS				diagnosis	R6768775	phs002518_R6768775_R6768775	phs002518_R6768775
+Acute Myeloid Leukemia, NOS				diagnosis	R87865998	phs002518_R87865998_R87865998	phs002518_R87865998
+Medullary Carcinoma, NOS	G2	M1	T4a	diagnosis	R74222827	phs002518_R74222827_R74222827	phs002518_R74222827
+Acute leukemia, NOS				diagnosis	R78767582	phs002518_R78767582_R78767582	phs002518_R78767582
+Medulloblastoma, NOS				diagnosis	R81914395	phs002518_R81914395_R81914395	phs002518_R81914395
+Medulloblastoma, NOS				diagnosis	R53764860	phs002518_R53764860_R53764860	phs002518_R53764860
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R32612006	phs002518_R32612006_R32612006	phs002518_R32612006
+Ganglioglioma, Anaplastic				diagnosis	R89132036	phs002518_R89132036_R89132036	phs002518_R89132036
+Acute leukemia, NOS				diagnosis	R26009119	phs002518_R26009119_R26009119	phs002518_R26009119
+9540/3 : Malignant Peripheral Nerve Sheath Tumor, NOS				diagnosis	R66201347	phs002518_R66201347_R66201347	phs002518_R66201347
+Acute Myeloid Leukemia, NOS				diagnosis	R43383191	phs002518_R43383191_R43383191	phs002518_R43383191
+Acute Myeloid Leukemia, NOS				diagnosis	R81927961	phs002518_R81927961_R81927961	phs002518_R81927961
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy	GX			diagnosis	R9359399	phs002518_R9359399_R9359399	phs002518_R9359399
+Alveolar Soft Part Sarcoma				diagnosis	R75756770	phs002518_R75756770_R75756770	phs002518_R75756770
+Precursor Cell Lymphoblastic Lymphoma, NOS				diagnosis	R71933493	phs002518_R71933493_R71933493	phs002518_R71933493
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy	GX			diagnosis	R72459989	phs002518_R72459989_R72459989	phs002518_R72459989
+Medulloblastoma, NOS				diagnosis	R98225862	phs002518_R98225862_R98225862	phs002518_R98225862
+Osteosarcoma, NOS		M0	T1	diagnosis	R51975721	phs002518_R51975721_R51975721	phs002518_R51975721
+Osteosarcoma, NOS				diagnosis	R31971028	phs002518_R31971028_R31971028	phs002518_R31971028
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy	GX			diagnosis	R81605222	phs002518_R81605222_R81605222	phs002518_R81605222
+Diffuse Large B-cell Lymphoma, NOS				diagnosis	R30307609	phs002518_R30307609_R30307609	phs002518_R30307609
+9364/3 : Ewing Sarcoma				diagnosis	R18972177	phs002518_R18972177_R18972177	phs002518_R18972177
+Atypical Teratoid/Rhabdoid Tumor	G4			diagnosis	R4327457	phs002518_R4327457_R4327457	phs002518_R4327457
+Carcinoma, NOS				diagnosis	R60118965	phs002518_R60118965_R60118965	phs002518_R60118965
+Acute Myeloid Leukemia, NOS				diagnosis	R81520798	phs002518_R81520798_R81520798	phs002518_R81520798
+Pleomorphic Xanthoastrocytoma, NOS				diagnosis	R77843140	phs002518_R77843140_R77843140	phs002518_R77843140
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R97599928	phs002518_R97599928_R97599928	phs002518_R97599928
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R48474813	phs002518_R48474813_R48474813	phs002518_R48474813
+Neoplasm, uncertain whether benign or malignant				diagnosis	R23311453	phs002518_R23311453_R23311453	phs002518_R23311453
+Glioblastoma, NOS				diagnosis	R62384088	phs002518_R62384088_R62384088	phs002518_R62384088
+Pleomorphic Xanthoastrocytoma, NOS	G4			diagnosis	R29027575	phs002518_R29027575_R29027575	phs002518_R29027575
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R94632961	phs002518_R94632961_R94632961	phs002518_R94632961
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R37030816	phs002518_R37030816_R37030816	phs002518_R37030816
+Nephroblastoma, NOS				diagnosis	R65624917	phs002518_R65624917_R65624917	phs002518_R65624917
+Acute leukemia, NOS				diagnosis	R61655491	phs002518_R61655491_R61655491	phs002518_R61655491
+Neoplasm, Malignant				diagnosis	R19104131	phs002518_R19104131_R19104131	phs002518_R19104131
+Acute leukemia, NOS				diagnosis	R74330754	phs002518_R74330754_R74330754	phs002518_R74330754
+8910/3 : Embryonal Rhabdomyosarcoma, NOS				diagnosis	R90109193	phs002518_R90109193_R90109193	phs002518_R90109193
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy	GX			diagnosis	R35702900	phs002518_R35702900_R35702900	phs002518_R35702900
+Pleomorphic Xanthoastrocytoma, NOS				diagnosis	R48655751	phs002518_R48655751_R48655751	phs002518_R48655751
+Neoplasm, Malignant				diagnosis	R57439103	phs002518_R57439103_R57439103	phs002518_R57439103
+9540/3 : Malignant Peripheral Nerve Sheath Tumor, NOS				diagnosis	R80700183	phs002518_R80700183_R80700183	phs002518_R80700183
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R84816200	phs002518_R84816200_R84816200	phs002518_R84816200
+Neoplasm, uncertain whether benign or malignant				diagnosis	R92393468	phs002518_R92393468_R92393468	phs002518_R92393468
+Medulloblastoma, NOS				diagnosis	R7401058	phs002518_R7401058_R7401058	phs002518_R7401058
+Choroid Plexus Carcinoma				diagnosis	R43391659	phs002518_R43391659_R43391659	phs002518_R43391659
+Nephroblastoma, NOS				diagnosis	R1308576	phs002518_R1308576_R1308576	phs002518_R1308576
+Neuroblastoma, NOS				diagnosis	R24770240	phs002518_R24770240_R24770240	phs002518_R24770240
+Acute leukemia, NOS				diagnosis	R31048073	phs002518_R31048073_R31048073	phs002518_R31048073
+Neoplasm, uncertain whether benign or malignant				diagnosis	R18521637	phs002518_R18521637_R18521637	phs002518_R18521637
+Neoplasm, Malignant				diagnosis	R35733667	phs002518_R35733667_R35733667	phs002518_R35733667
+9385/3 : Diffuse Midline Glioma, H3 K27M-Mutant				diagnosis	R19909338	phs002518_R19909338_R19909338	phs002518_R19909338
+Medulloblastoma, NOS				diagnosis	R65677964	phs002518_R65677964_R65677964	phs002518_R65677964
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R41755664	phs002518_R41755664_R41755664	phs002518_R41755664
+Neoplasm, uncertain whether benign or malignant				diagnosis	R65825466	phs002518_R65825466_R65825466	phs002518_R65825466
+Ependymoma, NOS				diagnosis	R19264080	phs002518_R19264080_R19264080	phs002518_R19264080
+Acute leukemia, NOS				diagnosis	R23896614	phs002518_R23896614_R23896614	phs002518_R23896614
+Hemangioma, NOS				diagnosis	R42381537	phs002518_R42381537_R42381537	phs002518_R42381537
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R5485912	phs002518_R5485912_R5485912	phs002518_R5485912
+Acute leukemia, NOS				diagnosis	R70926457	phs002518_R70926457_R70926457	phs002518_R70926457
+Neoplasm, Benign				diagnosis	R52845141	phs002518_R52845141_R52845141	phs002518_R52845141
+9473/3 : CNS Embryonal Tumor, NOS				diagnosis	R66279196	phs002518_R66279196_R66279196	phs002518_R66279196
+Acute leukemia, NOS				diagnosis	R89253700	phs002518_R89253700_R89253700	phs002518_R89253700
+Pleomorphic Xanthoastrocytoma, NOS	G4			diagnosis	R830418	phs002518_R830418_R830418	phs002518_R830418
+Choroid Plexus Carcinoma				diagnosis	R95936989	phs002518_R95936989_R95936989	phs002518_R95936989
+8910/3 : Embryonal Rhabdomyosarcoma, NOS				diagnosis	R28592776	phs002518_R28592776_R28592776	phs002518_R28592776
+9364/3 : Ewing Sarcoma		M1	T2b	diagnosis	R33413116	phs002518_R33413116_R33413116	phs002518_R33413116
+9380/3 : Glioma, Malignant				diagnosis	R54046961	phs002518_R54046961_R54046961	phs002518_R54046961
+Neoplasm, Malignant				diagnosis	R71841902	phs002518_R71841902_R71841902	phs002518_R71841902
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R74654633	phs002518_R74654633_R74654633	phs002518_R74654633
+Acute leukemia, NOS				diagnosis	R97466485	phs002518_R97466485_R97466485	phs002518_R97466485
+Neoplasm, Malignant				diagnosis	R46564139	phs002518_R46564139_R46564139	phs002518_R46564139
+Medulloblastoma, NOS	G3			diagnosis	R52695160	phs002518_R52695160_R52695160	phs002518_R52695160
+Neoplasm, Malignant				diagnosis	R54160180	phs002518_R54160180_R54160180	phs002518_R54160180
+Acute Myeloid Leukemia, NOS				diagnosis	R95118415	phs002518_R95118415_R95118415	phs002518_R95118415
+Acute Myeloid Leukemia, NOS				diagnosis	R65960862	phs002518_R65960862_R65960862	phs002518_R65960862
+8910/3 : Embryonal Rhabdomyosarcoma, NOS				diagnosis	R46036547	phs002518_R46036547_R46036547	phs002518_R46036547
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy	GX			diagnosis	R18342676	phs002518_R18342676_R18342676	phs002518_R18342676
+Acute leukemia, NOS				diagnosis	R64934523	phs002518_R64934523_R64934523	phs002518_R64934523
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy	GX			diagnosis	R62732251	phs002518_R62732251_R62732251	phs002518_R62732251
+Neoplasm, Malignant				diagnosis	R607401	phs002518_R607401_R607401	phs002518_R607401
+Neoplasm, Benign				diagnosis	R97664649	phs002518_R97664649_R97664649	phs002518_R97664649
+Neoplasm, uncertain whether benign or malignant				diagnosis	R28817580	phs002518_R28817580_R28817580	phs002518_R28817580
+Osteosarcoma, NOS	G3			diagnosis	R84948545	phs002518_R84948545_R84948545	phs002518_R84948545
+Medulloblastoma, NOS				diagnosis	R88456442	phs002518_R88456442_R88456442	phs002518_R88456442
+Pleomorphic Xanthoastrocytoma, NOS				diagnosis	R58114024	phs002518_R58114024_R58114024	phs002518_R58114024
+Nephroblastoma, NOS				diagnosis	R44722440	phs002518_R44722440_R44722440	phs002518_R44722440
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R65788948	phs002518_R65788948_R65788948	phs002518_R65788948
+Neoplasm, Malignant				diagnosis	R76505567	phs002518_R76505567_R76505567	phs002518_R76505567
+Lentiginous Melanocytic nevus				diagnosis	R78209136	phs002518_R78209136_R78209136	phs002518_R78209136
+Precursor T-cell Lymphoblastic Leukemia				diagnosis	R83508119	phs002518_R83508119_R83508119	phs002518_R83508119
+Hepatoblastoma, NOS				diagnosis	R81865135	phs002518_R81865135_R81865135	phs002518_R81865135
+8910/3 : Embryonal Rhabdomyosarcoma, NOS	G4			diagnosis	R72516443	phs002518_R72516443_R72516443	phs002518_R72516443
+Burkitt Lymphoma, NOS				diagnosis	R95854284	phs002518_R95854284_R95854284	phs002518_R95854284
+Acute leukemia, NOS				diagnosis	R23520439	phs002518_R23520439_R23520439	phs002518_R23520439
+Neoplasm, uncertain whether benign or malignant				diagnosis	R9605815	phs002518_R9605815_R9605815	phs002518_R9605815
+Neoplasm, Malignant				diagnosis	R17198959	phs002518_R17198959_R17198959	phs002518_R17198959
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy	GX			diagnosis	R3719769	phs002518_R3719769_R3719769	phs002518_R3719769
+9421/1 : Pilocytic Astrocytoma				diagnosis	R99281230	phs002518_R99281230_R99281230	phs002518_R99281230
+Neuroblastoma, NOS				diagnosis	R2936166	phs002518_R2936166_R2936166	phs002518_R2936166
+Neuroblastoma, NOS				diagnosis	R6778594	phs002518_R6778594_R6778594	phs002518_R6778594
+Neuroblastoma, NOS				diagnosis	R64480217	phs002518_R64480217_R64480217	phs002518_R64480217
+Neuroblastoma, NOS				diagnosis	R62245016	phs002518_R62245016_R62245016	phs002518_R62245016
+Osteosarcoma, NOS				diagnosis	R84943891	phs002518_R84943891_R84943891	phs002518_R84943891
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy	GX			diagnosis	R92120844	phs002518_R92120844_R92120844	phs002518_R92120844
+Synovial Sarcoma, Spindle Cell				diagnosis	R54318779	phs002518_R54318779_R54318779	phs002518_R54318779
+B Lymphoblastic Leukemia/Lymphoma, NOS				diagnosis	R79406431	phs002518_R79406431_R79406431	phs002518_R79406431
+Juvenile Myelomonocytic Leukemia, NOS				diagnosis	R56773679	phs002518_R56773679_R56773679	phs002518_R56773679
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R75782417	phs002518_R75782417_R75782417	phs002518_R75782417
+Leukemia, NOS				diagnosis	R71508531	phs002518_R71508531_R71508531	phs002518_R71508531
+8910/3 : Embryonal Rhabdomyosarcoma, NOS				diagnosis	R40302526	phs002518_R40302526_R40302526	phs002518_R40302526
+Acute Myeloid Leukemia, NOS				diagnosis	R24138928	phs002518_R24138928_R24138928	phs002518_R24138928
+Neoplasm, Malignant				diagnosis	R38788646	phs002518_R38788646_R38788646	phs002518_R38788646
+9478/3 : Embryonal Tumor With Multilayered Rosettes With C19MC Alteration				diagnosis	R48514109	phs002518_R48514109_R48514109	phs002518_R48514109
+Neoplasm, Malignant				diagnosis	R10332595	phs002518_R10332595_R10332595	phs002518_R10332595
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy	GX			diagnosis	R12214166	phs002518_R12214166_R12214166	phs002518_R12214166
+9540/3 : Malignant Peripheral Nerve Sheath Tumor, NOS				diagnosis	R23180319	phs002518_R23180319_R23180319	phs002518_R23180319
+8910/3 : Embryonal Rhabdomyosarcoma, NOS				diagnosis	R43084656	phs002518_R43084656_R43084656	phs002518_R43084656
+B Lymphoblastic Leukemia/Lymphoma, NOS				diagnosis	R44327156	phs002518_R44327156_R44327156	phs002518_R44327156
+Transient Abnormal Myelopoiesis				diagnosis	R63954770	phs002518_R63954770_R63954770	phs002518_R63954770
+9364/3 : Ewing Sarcoma	G4			diagnosis	R17166487	phs002518_R17166487_R17166487	phs002518_R17166487
+Neoplasm, Malignant				diagnosis	R91258457	phs002518_R91258457_R91258457	phs002518_R91258457
+Pleomorphic Xanthoastrocytoma, NOS				diagnosis	R49564317	phs002518_R49564317_R49564317	phs002518_R49564317
+9380/3 : Glioma, Malignant				diagnosis	R9568352	phs002518_R9568352_R9568352	phs002518_R9568352
+Neoplasm, uncertain whether benign or malignant				diagnosis	R46572422	phs002518_R46572422_R46572422	phs002518_R46572422
+Burkitt Lymphoma, NOS				diagnosis	R41893587	phs002518_R41893587_R41893587	phs002518_R41893587
+Hepatoblastoma, NOS				diagnosis	R79438532	phs002518_R79438532_R79438532	phs002518_R79438532
+Osteosarcoma, NOS				diagnosis	R86143669	phs002518_R86143669_R86143669	phs002518_R86143669
+Choroid Plexus Carcinoma				diagnosis	R47224842	phs002518_R47224842_R47224842	phs002518_R47224842
+Adenoid Cystic Carcinoma				diagnosis	R79898537	phs002518_R79898537_R79898537	phs002518_R79898537
+8910/3 : Embryonal Rhabdomyosarcoma, NOS				diagnosis	R75662816	phs002518_R75662816_R75662816	phs002518_R75662816
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy	GX			diagnosis	R74225854	phs002518_R74225854_R74225854	phs002518_R74225854
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R44505155	phs002518_R44505155_R44505155	phs002518_R44505155
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy	GX			diagnosis	R14003239	phs002518_R14003239_R14003239	phs002518_R14003239
+Neoplasm, Malignant				diagnosis	R92816998	phs002518_R92816998_R92816998	phs002518_R92816998
+Pleomorphic Xanthoastrocytoma, NOS				diagnosis	R89900473	phs002518_R89900473_R89900473	phs002518_R89900473
+Myoepithelial Carcinoma				diagnosis	R79799027	phs002518_R79799027_R79799027	phs002518_R79799027
+Ependymoma, NOS				diagnosis	R83467417	phs002518_R83467417_R83467417	phs002518_R83467417
+Acute leukemia, NOS				diagnosis	R62441568	phs002518_R62441568_R62441568	phs002518_R62441568
+Neuroblastoma, NOS				diagnosis	R7236686	phs002518_R7236686_R7236686	phs002518_R7236686
+Medullary Carcinoma, NOS		M0	T3	diagnosis	R62521105	phs002518_R62521105_R62521105	phs002518_R62521105
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy	GX			diagnosis	R94098040	phs002518_R94098040_R94098040	phs002518_R94098040
+Meningioma, NOS				diagnosis	R49890927	phs002518_R49890927_R49890927	phs002518_R49890927
+Ganglioglioma, NOS				diagnosis	R80757038	phs002518_R80757038_R80757038	phs002518_R80757038
+8910/3 : Embryonal Rhabdomyosarcoma, NOS		M1	T2b	diagnosis	R81584515	phs002518_R81584515_R81584515	phs002518_R81584515
+Pleomorphic Xanthoastrocytoma, NOS				diagnosis	R17259818	phs002518_R17259818_R17259818	phs002518_R17259818
+Chronic Myelogenous Leukemia, BCR/ABL positive				diagnosis	R82768116	phs002518_R82768116_R82768116	phs002518_R82768116
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R57894017	phs002518_R57894017_R57894017	phs002518_R57894017
+Pleomorphic Xanthoastrocytoma, NOS				diagnosis	R23125382	phs002518_R23125382_R23125382	phs002518_R23125382
+Ependymoma, NOS				diagnosis	R89322886	phs002518_R89322886_R89322886	phs002518_R89322886
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy	GX			diagnosis	R75557058	phs002518_R75557058_R75557058	phs002518_R75557058
+Sarcoma, NOS	G4			diagnosis	R3100608	phs002518_R3100608_R3100608	phs002518_R3100608
+Neoplasm, Malignant				diagnosis	R81333024	phs002518_R81333024_R81333024	phs002518_R81333024
+Chronic Myelogenous Leukemia, BCR/ABL positive				diagnosis	R70073291	phs002518_R70073291_R70073291	phs002518_R70073291
+Rhabdoid Tumor, NOS				diagnosis	R49169114	phs002518_R49169114_R49169114	phs002518_R49169114
+Myoepithelial Carcinoma				diagnosis	R37640584	phs002518_R37640584_R37640584	phs002518_R37640584
+Myelodysplastic Syndrome, NOS				diagnosis	R14053726	phs002518_R14053726_R14053726	phs002518_R14053726
+Myeloid Leukemia, NOS				diagnosis	R21407750	phs002518_R21407750_R21407750	phs002518_R21407750
+Pleomorphic Xanthoastrocytoma, NOS				diagnosis	R74225296	phs002518_R74225296_R74225296	phs002518_R74225296
+Neuroblastoma, NOS				diagnosis	R68819310	phs002518_R68819310_R68819310	phs002518_R68819310
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R58778320	phs002518_R58778320_R58778320	phs002518_R58778320
+Neoplasm, Malignant				diagnosis	R47988559	phs002518_R47988559_R47988559	phs002518_R47988559
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R26663106	phs002518_R26663106_R26663106	phs002518_R26663106
+Choroid Plexus Carcinoma				diagnosis	R56198240	phs002518_R56198240_R56198240	phs002518_R56198240
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R29399757	phs002518_R29399757_R29399757	phs002518_R29399757
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy	GX			diagnosis	R53038769	phs002518_R53038769_R53038769	phs002518_R53038769
+Acute leukemia, NOS				diagnosis	R67053650	phs002518_R67053650_R67053650	phs002518_R67053650
+Acute Myeloid Leukemia, NOS				diagnosis	R43438420	phs002518_R43438420_R43438420	phs002518_R43438420
+Neoplasm, Malignant				diagnosis	R12134512	phs002518_R12134512_R12134512	phs002518_R12134512
+Acute Myeloid Leukemia, NOS				diagnosis	R3149114	phs002518_R3149114_R3149114	phs002518_R3149114
+9473/3 : CNS Embryonal Tumor, NOS				diagnosis	R5394045	phs002518_R5394045_R5394045	phs002518_R5394045
+Medulloblastoma, NOS				diagnosis	R77548054	phs002518_R77548054_R77548054	phs002518_R77548054
+Neoplasm, Malignant				diagnosis	R29931295	phs002518_R29931295_R29931295	phs002518_R29931295
+Acute leukemia, NOS				diagnosis	R80686787	phs002518_R80686787_R80686787	phs002518_R80686787
+Pleomorphic Xanthoastrocytoma, NOS				diagnosis	R81943609	phs002518_R81943609_R81943609	phs002518_R81943609
+Pleomorphic Xanthoastrocytoma, NOS				diagnosis	R98992384	phs002518_R98992384_R98992384	phs002518_R98992384
+Osteosarcoma, NOS		M0	T2	diagnosis	R35469222	phs002518_R35469222_R35469222	phs002518_R35469222
+Neoplasm, Malignant				diagnosis	R85224007	phs002518_R85224007_R85224007	phs002518_R85224007
+8072/3 : Squamous Cell Carcinoma, Large Cell, Nonkeratinizing, NOS	G3	M0	T3	diagnosis	R44061462	phs002518_R44061462_R44061462	phs002518_R44061462
+8550/3 : Acinar Cell Carcinoma				diagnosis	R10851799	phs002518_R10851799_R10851799	phs002518_R10851799
+Neuroblastoma, NOS	G3			diagnosis	R27915852	phs002518_R27915852_R27915852	phs002518_R27915852
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy	GX			diagnosis	R637734	phs002518_R637734_R637734	phs002518_R637734
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R665921	phs002518_R665921_R665921	phs002518_R665921
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R41094048	phs002518_R41094048_R41094048	phs002518_R41094048
+Neoplasm, uncertain whether benign or malignant				diagnosis	R95330421	phs002518_R95330421_R95330421	phs002518_R95330421
+Acute leukemia, NOS				diagnosis	R60592417	phs002518_R60592417_R60592417	phs002518_R60592417
+Acute leukemia, NOS				diagnosis	R41562865	phs002518_R41562865_R41562865	phs002518_R41562865
+Acute Myeloid Leukemia, NOS	GX			diagnosis	R6845488	phs002518_R6845488_R6845488	phs002518_R6845488
+Chronic Myelogenous Leukemia, BCR/ABL positive				diagnosis	R65565280	phs002518_R65565280_R65565280	phs002518_R65565280
+Acute leukemia, NOS				diagnosis	R85718752	phs002518_R85718752_R85718752	phs002518_R85718752
+Neuroblastoma, NOS				diagnosis	R51721138	phs002518_R51721138_R51721138	phs002518_R51721138
+Acute leukemia, NOS				diagnosis	R12312901	phs002518_R12312901_R12312901	phs002518_R12312901
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R69290149	phs002518_R69290149_R69290149	phs002518_R69290149
+Acute leukemia, NOS				diagnosis	R61252046	phs002518_R61252046_R61252046	phs002518_R61252046
+Osteosarcoma, NOS	G3			diagnosis	R33615597	phs002518_R33615597_R33615597	phs002518_R33615597
+Gliosarcoma				diagnosis	R7954013	phs002518_R7954013_R7954013	phs002518_R7954013
+Neoplasm, uncertain whether benign or malignant				diagnosis	R20884103	phs002518_R20884103_R20884103	phs002518_R20884103
+Sarcoma, NOS				diagnosis	R87836149	phs002518_R87836149_R87836149	phs002518_R87836149
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R31965751	phs002518_R31965751_R31965751	phs002518_R31965751
+Neoplasm, Benign				diagnosis	R93008380	phs002518_R93008380_R93008380	phs002518_R93008380
+Hepatoblastoma, NOS				diagnosis	R37253988	phs002518_R37253988_R37253988	phs002518_R37253988
+Neoplasm, Malignant				diagnosis	R75614856	phs002518_R75614856_R75614856	phs002518_R75614856
+Neuroblastoma, NOS	G3			diagnosis	R83544571	phs002518_R83544571_R83544571	phs002518_R83544571
+Neoplasm, Malignant				diagnosis	R82612550	phs002518_R82612550_R82612550	phs002518_R82612550
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy	GX			diagnosis	R24670730	phs002518_R24670730_R24670730	phs002518_R24670730
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R64940724	phs002518_R64940724_R64940724	phs002518_R64940724
+Hemangioma, NOS				diagnosis	R43609193	phs002518_R43609193_R43609193	phs002518_R43609193
+Osteosarcoma, NOS				diagnosis	R10604930	phs002518_R10604930_R10604930	phs002518_R10604930
+9421/1 : Pilocytic Astrocytoma				diagnosis	R65387836	phs002518_R65387836_R65387836	phs002518_R65387836
+Choroid Plexus Carcinoma				diagnosis	R91569232	phs002518_R91569232_R91569232	phs002518_R91569232
+Neoplasm, uncertain whether benign or malignant				diagnosis	R19032759	phs002518_R19032759_R19032759	phs002518_R19032759
+Acute leukemia, NOS				diagnosis	R2275935	phs002518_R2275935_R2275935	phs002518_R2275935
+Neoplasm, Malignant				diagnosis	R9179079	phs002518_R9179079_R9179079	phs002518_R9179079
+Pleomorphic Xanthoastrocytoma, NOS				diagnosis	R44680844	phs002518_R44680844_R44680844	phs002518_R44680844
+Neoplasm, uncertain whether benign or malignant				diagnosis	R85144706	phs002518_R85144706_R85144706	phs002518_R85144706
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R86243742	phs002518_R86243742_R86243742	phs002518_R86243742
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R46895334	phs002518_R46895334_R46895334	phs002518_R46895334
+Myeloid Leukemia, NOS				diagnosis	R87581704	phs002518_R87581704_R87581704	phs002518_R87581704
+Myelodysplastic Syndrome, NOS				diagnosis	R52998557	phs002518_R52998557_R52998557	phs002518_R52998557
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R41104095	phs002518_R41104095_R41104095	phs002518_R41104095
+Neoplasm, Malignant				diagnosis	R39079557	phs002518_R39079557_R39079557	phs002518_R39079557
+Pleomorphic Xanthoastrocytoma, NOS				diagnosis	R91313664	phs002518_R91313664_R91313664	phs002518_R91313664
+Ependymoma, NOS				diagnosis	R90595103	phs002518_R90595103_R90595103	phs002518_R90595103
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R45950433	phs002518_R45950433_R45950433	phs002518_R45950433
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R3119367	phs002518_R3119367_R3119367	phs002518_R3119367
+Neoplasm, Malignant				diagnosis	R88357770	phs002518_R88357770_R88357770	phs002518_R88357770
+Acute Myeloid Leukemia, NOS				diagnosis	R67802298	phs002518_R67802298_R67802298	phs002518_R67802298
+Pleuropulmonary Blastoma				diagnosis	R64912623	phs002518_R64912623_R64912623	phs002518_R64912623
+Craniopharyngioma, NOS				diagnosis	R44685886	phs002518_R44685886_R44685886	phs002518_R44685886
+Neuroblastoma, NOS				diagnosis	R65477581	phs002518_R65477581_R65477581	phs002518_R65477581
+Ganglioglioma, NOS				diagnosis	R68498030	phs002518_R68498030_R68498030	phs002518_R68498030
+Osteosarcoma, NOS	G4			diagnosis	R7457094	phs002518_R7457094_R7457094	phs002518_R7457094
+Neoplasm, uncertain whether benign or malignant				diagnosis	R13362718	phs002518_R13362718_R13362718	phs002518_R13362718
+Schwannoma, NOS				diagnosis	R71934015	phs002518_R71934015_R71934015	phs002518_R71934015
+Glioblastoma, NOS				diagnosis	R82568002	phs002518_R82568002_R82568002	phs002518_R82568002
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy	GX			diagnosis	R8962700	phs002518_R8962700_R8962700	phs002518_R8962700
+Neoplasm, Malignant				diagnosis	R96988703	phs002518_R96988703_R96988703	phs002518_R96988703
+Acute leukemia, NOS				diagnosis	R95354840	phs002518_R95354840_R95354840	phs002518_R95354840
+Nephroblastoma, NOS				diagnosis	R51111803	phs002518_R51111803_R51111803	phs002518_R51111803
+Neoplasm, Malignant				diagnosis	R22949564	phs002518_R22949564_R22949564	phs002518_R22949564
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R87715503	phs002518_R87715503_R87715503	phs002518_R87715503
+Lymphoproliferative Disorder, NOS				diagnosis	R39494732	phs002518_R39494732_R39494732	phs002518_R39494732
+B lymphoblastic Leukemia/Lymphoma with Hyperdiploidy				diagnosis	R33383417	phs002518_R33383417_R33383417	phs002518_R33383417
