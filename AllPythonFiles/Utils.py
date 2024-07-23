@@ -3,6 +3,7 @@ import pandasql as ps
 import os
 import sys
 import re
+from datetime import datetime
 
 
 # This function returns input excel with path
@@ -35,10 +36,9 @@ print("TSV Files path inside Utils.py is: "+tsv_files_path)
 
 # Loads a TSV file into a pandas DataFrame and sets a specified column as the index.
 # Returns: DataFrame containing the data from the TSV file with the specified index.
-def load_tsv_to_dataframe_with_index(file_path, index_column):
 
+def load_tsv_to_dataframe_with_index(file_path, index_column):
     try:
-        # Read the TSV file into a DataFrame and set the specified column as the index
         df = pd.read_csv(file_path, delimiter='\t', index_col=index_column)
         return df
     except FileNotFoundError:
@@ -56,7 +56,60 @@ def load_tsv_to_dataframe_with_index(file_path, index_column):
     except Exception as e:
         print(f"An error occurred: {e}")
         return None
+
+def load_and_merge_versions(base_path, index_columns):
+    # Initialize empty dataframes for each type
+    dataframes = {key: pd.DataFrame() for key in index_columns.keys()}
     
+    # Get list of folders in base_path and filter out non-date directories
+    version_folders = [folder for folder in os.listdir(base_path) if os.path.isdir(os.path.join(base_path, folder))]
+    version_folders = [folder for folder in version_folders if is_date_format(folder, '%Y-%m-%d')]
+    version_folders.sort(key=lambda x: datetime.strptime(x, '%Y-%m-%d'))
+    
+    # Iterate through each version folder
+    for version in version_folders:
+        print("Loading data of release: " + version)
+        version_path = os.path.join(base_path, version)
+        if os.path.isdir(version_path):
+            # Load each TSV file in the version folder and merge it with the existing DataFrame
+            for node, index_column in index_columns.items():
+                file_path = os.path.join(version_path, f"{node}.tsv")
+                if os.path.exists(file_path):
+                    df_new = load_tsv_to_dataframe_with_index(file_path, index_column)
+                    if df_new is not None:
+                        if not dataframes[node].empty:
+                            # Identify rows with duplicate indices
+                            duplicated_indices = df_new.index.intersection(dataframes[node].index)
+                            for idx in duplicated_indices:
+                                # Check for updated values in the new DataFrame
+                                if not df_new.loc[idx].equals(dataframes[node].loc[idx]):
+                                    dataframes[node].loc[idx] = df_new.loc[idx]
+                            # Append new rows
+                            df_new = df_new[~df_new.index.isin(dataframes[node].index)]
+                        # Concatenate non-duplicate rows
+                        dataframes[node] = pd.concat([dataframes[node], df_new])
+    
+    return dataframes
+
+
+def is_date_format(date_str, date_format):
+    try:
+        datetime.strptime(date_str, date_format)
+        return True
+    except ValueError:
+        return False
+
+# Index columns for each TSV file
+index_columns = {
+    'program': 'program_acronym',
+    'study': 'phs_accession',
+    'participant': 'study_participant_id',
+    'sample': 'sample_id',
+    'file': 'file_id',
+    'diagnosis': 'study_diagnosis_id',
+    'genomic_info': 'genomic_info_id'
+}
+
 
 
 

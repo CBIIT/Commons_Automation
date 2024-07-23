@@ -6,22 +6,18 @@ import Utils
 
 
 # Base directory path
-base_dir = Utils.tsv_files_path 
-#base_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "InputFiles", "CDS", "phs002431")
+base_path = Utils.tsv_files_path
 
-# Paths to TSV files
-program_path = os.path.join(base_dir, "program.tsv")
-study_path = os.path.join(base_dir, "study.tsv")
-participant_path = os.path.join(base_dir, "participant.tsv")
-sample_path = os.path.join(base_dir, "sample.tsv")
-file_path = os.path.join(base_dir, "file.tsv")
+dataframes = Utils.load_and_merge_versions(base_path, Utils.index_columns)
 
-# Load TSV files to DataFrames
-df_program = Utils.load_tsv_to_dataframe_with_index(program_path, 'program_acronym')
-df_study = Utils.load_tsv_to_dataframe_with_index(study_path, 'phs_accession')
-df_participant = Utils.load_tsv_to_dataframe_with_index(participant_path, 'study_participant_id')
-df_sample = Utils.load_tsv_to_dataframe_with_index(sample_path, 'sample_id')
-df_file = Utils.load_tsv_to_dataframe_with_index(file_path, 'file_id')
+# Now each dataframe can be accessed from the dataframes dictionary
+df_program = dataframes['program']
+df_study = dataframes['study']
+df_participant = dataframes['participant']
+df_sample = dataframes['sample']
+df_file = dataframes['file']
+df_diagnosis = dataframes['diagnosis']
+df_genomic_info = dataframes['genomic_info']
 
 
 # Lambda function that makes it easier to run SQL queries on pandas DataFrames.
@@ -41,7 +37,7 @@ output_excel = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "O
 # Write the result DataFrame to an Excel file
 Utils.write_to_excel(output_excel, "StatOutput", result_df_statbar)
 
-print('\nWriting Statbar data to excel...\n') 
+print('Writing Statbar data to excel...') 
 
 # Print output data
 print(f"Statbar data successfully written to: {output_excel}")
