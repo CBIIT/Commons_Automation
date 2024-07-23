@@ -10,17 +10,18 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type='button' and @title='Next page']</value>
+         <value>//*[@type='button' and @aria-label='next page']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@type='button' and @title='Next page']</value>
-      <webElementGuid>e347cf59-7294-47cf-9bf2-f927ee30eebf</webElementGuid>
+      <value>//*[@type='button' and @aria-label='next page']</value>
+      <webElementGuid>b905be91-add5-42f9-b06a-a00ed8508dbf</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -15,14 +15,14 @@
       <guid>d5c56f36-52e9-41c3-ab8d-e4930719a6d6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/TSV_Files_Validation/phs002504/TC01_CDS_phs002504_Gender_Male</testCaseId>
+      <testCaseId>Test Cases/CDS_TestCases/TSV_Files_TestCases/phs002504/TC01_CDS_phs002504_Gender_Male</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>7c184444-dc0d-4aa4-bdd9-76dd221ab7f3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/TSV_Files_Validation/phs002431/TC01_CDS_phs002431_Gender_Female</testCaseId>
+      <testCaseId>Test Cases/CDS_TestCases/TSV_Files_TestCases/phs002431/TC01_CDS_phs002431_Gender_Female</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
