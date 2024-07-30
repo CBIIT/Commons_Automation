@@ -57,39 +57,52 @@ def load_tsv_to_dataframe_with_index(file_path, index_column):
         print(f"An error occurred: {e}")
         return None
 
+
 def load_and_merge_versions(base_path, index_columns):
     # Initialize empty dataframes for each type
     dataframes = {key: pd.DataFrame() for key in index_columns.keys()}
     
     # Get list of folders in base_path and filter out non-date directories
-    version_folders = [folder for folder in os.listdir(base_path) if os.path.isdir(os.path.join(base_path, folder))]
-    version_folders = [folder for folder in version_folders if is_date_format(folder, '%Y-%m-%d')]
+    all_folders = [folder for folder in os.listdir(base_path) if os.path.isdir(os.path.join(base_path, folder))]
+    version_folders = [folder for folder in all_folders if is_date_format(folder, '%Y-%m-%d')]
     version_folders.sort(key=lambda x: datetime.strptime(x, '%Y-%m-%d'))
+    
+    # Check for folders that are not in the expected date format
+    invalid_folders = [folder for folder in all_folders if folder not in version_folders]
+    if invalid_folders:
+        print(f"The following folders are not in the expected date format 'YYYY-MM-DD': {', '.join(invalid_folders)}")
+    
+    # Check if no valid version folders are found
+    if not version_folders:
+        print("No folders found in the expected date format 'YYYY-MM-DD'.")
+        return dataframes
     
     # Iterate through each version folder
     for version in version_folders:
-        print("Loading data of release: " + version)
         version_path = os.path.join(base_path, version)
         if os.path.isdir(version_path):
             # Load each TSV file in the version folder and merge it with the existing DataFrame
             for node, index_column in index_columns.items():
-                file_path = os.path.join(version_path, f"{node}.tsv")
-                if os.path.exists(file_path):
-                    df_new = load_tsv_to_dataframe_with_index(file_path, index_column)
-                    if df_new is not None:
-                        if not dataframes[node].empty:
-                            # Identify rows with duplicate indices
-                            duplicated_indices = df_new.index.intersection(dataframes[node].index)
-                            for idx in duplicated_indices:
-                                # Check for updated values in the new DataFrame
-                                if not df_new.loc[idx].equals(dataframes[node].loc[idx]):
-                                    dataframes[node].loc[idx] = df_new.loc[idx]
-                            # Append new rows
-                            df_new = df_new[~df_new.index.isin(dataframes[node].index)]
-                        # Concatenate non-duplicate rows
-                        dataframes[node] = pd.concat([dataframes[node], df_new])
-    
+                # Find files that end with the node name
+                for file_name in os.listdir(version_path):
+                    if file_name.endswith(f"{node}.tsv"):
+                        file_path = os.path.join(version_path, file_name)
+                        df_new = load_tsv_to_dataframe_with_index(file_path, index_column)
+                        if df_new is not None:
+                            if not dataframes[node].empty:
+                                # Identify rows with duplicate indices
+                                duplicated_indices = df_new.index.intersection(dataframes[node].index)
+                                for idx in duplicated_indices:
+                                    # Check for updated values in the new DataFrame
+                                    if not df_new.loc[idx].equals(dataframes[node].loc[idx]):
+                                        dataframes[node].loc[idx] = df_new.loc[idx]
+                                # Append new rows
+                                df_new = df_new[~df_new.index.isin(dataframes[node].index)]
+                            # Concatenate non-duplicate rows
+                            dataframes[node] = pd.concat([dataframes[node], df_new])
+            print(f"Data successfully loaded for release: {version}")
     return dataframes
+
 
 
 def is_date_format(date_str, date_format):
@@ -109,8 +122,6 @@ index_columns = {
     'diagnosis': 'study_diagnosis_id',
     'genomic_info': 'genomic_info_id'
 }
-
-
 
 
 # Path of input excel file
@@ -158,3 +169,21 @@ def write_to_excel(output_excel, sheet_name, result_df):
     else:
         with pd.ExcelWriter(output_excel, engine='xlsxwriter') as writer:
             result_df.to_excel(writer, sheet_name, index=False)
+
+
+
+
+
+# Load and merge dataframe
+dataframes = load_and_merge_versions(tsv_files_path, index_columns)
+
+# Now each dataframe can be accessed from the dataframes dictionary
+df_program = dataframes['program']
+df_study = dataframes['study']
+df_participant = dataframes['participant']
+df_sample = dataframes['sample']
+df_file = dataframes['file']
+df_diagnosis = dataframes['diagnosis']
+df_genomic_info = dataframes['genomic_info']
+
+df_run_query = lambda q: ps.sqldf(q, globals())
