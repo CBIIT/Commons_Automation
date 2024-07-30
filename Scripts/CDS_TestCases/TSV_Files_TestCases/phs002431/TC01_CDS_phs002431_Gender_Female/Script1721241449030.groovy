@@ -30,7 +30,7 @@ CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('CDS/NavBa
 WebUI.waitForElementPresent(findTestObject('CDS/Data_page/Filter/StudyFacet/PHS_Accession/PHS_Accession_Ddn'),5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('CDS/Data_page/Filter/StudyFacet/PHS_Accession/PHS_Accession_Ddn')
 
-//Clicking checkbox phs002504
+//Clicking checkbox phs002431
 WebUI.waitForElementPresent(findTestObject('CDS/Data_page/Filter/StudyFacet/PHS_Accession/phs002431_Chkbx'),5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCDSStat'('CDS/Data_page/Filter/StudyFacet/PHS_Accession/phs002431_Chkbx')
 

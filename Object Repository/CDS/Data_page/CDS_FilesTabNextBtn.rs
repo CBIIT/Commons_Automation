@@ -6,11 +6,11 @@
    <elementGuidId>8abbdc98-b802-4887-be3a-2c16c78fcd0c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
+         <key>BASIC</key>
+         <value>//*[@type='button' and @aria-label='Next page']</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type='button' and @aria-label='next page']</value>
+         <key>XPATH</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,7 +21,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@type='button' and @aria-label='next page']</value>
-      <webElementGuid>7ac3253a-ae2d-4bc8-a644-b4ac94f3ec3d</webElementGuid>
+      <value>//*[@type='button' and @aria-label='Next page']</value>
+      <webElementGuid>79924fe1-ef6c-4b8d-95b1-2d90c5b49a92</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
