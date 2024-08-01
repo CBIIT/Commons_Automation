@@ -3,10 +3,11 @@
    <description></description>
    <name>CCDC_Datasets</name>
    <tag></tag>
+   <connectionProperties/>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>0a39e789-a864-4403-8aeb-d39efb0a1001</dataFileGUID>
-   <dataSourceUrl>InputFiles/CCDC/CCDC_Datasets_20230810.xlsx</dataSourceUrl>
+   <dataSourceUrl>InputFiles/CCDC/CCDC_Datasets_20240801.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>
