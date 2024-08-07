@@ -1,0 +1,14 @@
+type	case.case_id	diagnosis_id	disease_term	primary_disease_site	stage_of_disease	date_of_diagnosis	best_response	treatment_data	follow_up_data	pathology_report	concurrent_disease	concurrent_disease_type
+diagnosis	MGT01-406434	MGT01-406434	Mammary Cancer	Mammary Gland	T3N0M1	2010-04-14	Not Determined	No	Yes	Yes	Unknown	
+diagnosis	MGT01-76	MGT01-76	Mammary Cancer	Mammary Gland	T2N1M0	2004-04-23	Not Determined	No	Yes	Yes	Unknown	
+diagnosis	MGT01-5	MGT01-5	Mammary Cancer	Mammary Gland	Ia	2003-09-04	Not Determined	No	No	Yes	Unknown	
+diagnosis	MGT01-159	MGT01-159	Mammary Cancer	Mammary Gland	Ia	2004-11-05	Not Determined	No	No	Yes	Unknown	
+diagnosis	MGT01-341400	MGT01-341400	Mammary Cancer	Mammary Gland	Ia	2010-03-12	Not Determined	No	No	Yes	Unknown	
+diagnosis	MGT01-401188	MGT01-401188	Mammary Cancer	Mammary Gland	T2N0M0	2009-10-28	Not Determined	No	No	Yes	Unknown	
+diagnosis	MGT01-115	MGT01-115	Mammary Cancer	Mammary Gland	T3N0M1	2004-08-13	Not Determined	No	Yes	Yes	Unknown	
+diagnosis	MGT01-32510	MGT01-32510	Mammary Cancer	Mammary Gland	Ia	2010-03-25	Not Determined	No	No	Yes	Unknown	
+diagnosis	MGT01-518	MGT01-518	Mammary Cancer	Mammary Gland	Ia	2006-02-10	Not Determined	No	No	Yes	Unknown	
+diagnosis	MGT01-403802	MGT01-403802	Mammary Cancer	Mammary Gland	Ia	2010-01-22	Not Determined	No	Yes	Yes	Unknown	
+diagnosis	MGT01-401130	MGT01-401130	Mammary Cancer	Mammary Gland	Ia	2009-09-23	Not Determined	No	No	Yes	Unknown	
+diagnosis	MGT01-402421	MGT01-402421	Mammary Cancer	Mammary Gland	Ia	2009-12-21	Not Determined	No	No	Yes	Unknown	
+diagnosis	MGT01-31005	MGT01-31005	Healthy Control	Not Applicable	Not Applicable	2005-03-10	Not Applicable	No	No	Yes	Unknown	

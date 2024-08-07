@@ -1,0 +1,27 @@
+type	case.case_id	registration_origin	registration_id
+registration	MGT01-406434	MGT01	406434
+registration	MGT01-76	MGT01	76
+registration	MGT01-5	MGT01	5
+registration	MGT01-159	MGT01	159
+registration	MGT01-341400	MGT01	341400
+registration	MGT01-401188	MGT01	401188
+registration	MGT01-115	MGT01	115
+registration	MGT01-32510	MGT01	32510
+registration	MGT01-518	MGT01	518
+registration	MGT01-403802	MGT01	403802
+registration	MGT01-401130	MGT01	401130
+registration	MGT01-402421	MGT01	402421
+registration	MGT01-31005	MGT01	31005
+registration	MGT01-406434	UCD SVM	406434
+registration	MGT01-76	CSU ACTR	76
+registration	MGT01-5	CSU ACTR	5
+registration	MGT01-159	CSU ACTR	159
+registration	MGT01-341400	UCD SVM	341400
+registration	MGT01-401188	UCD SVM	401188
+registration	MGT01-115	CSU ACTR	115
+registration	MGT01-32510	CSU ACTR	32510
+registration	MGT01-518	CSU ACTR	518
+registration	MGT01-403802	UCD SVM	403802
+registration	MGT01-401130	UCD SVM	401130
+registration	MGT01-402421	UCD SVM	402421
+registration	MGT01-31005	CSU ACTR	31005

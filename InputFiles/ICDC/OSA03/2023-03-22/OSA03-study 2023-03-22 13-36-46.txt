@@ -1,0 +1,2 @@
+type	 program.program_acronym	clinical_study_id	clinical_study_designation	clinical_study_name	clinical_study_description	clinical_study_type	date_of_iacuc_approval	dates_of_conduct	accession_id	study_disposition
+study	CMCP	Targeted Bisulfite Sequencing	OSA03	Comparative analysis using whole genome bisulfite sequenicng of human and canine osteosarcoma	Comparative analysis of genome-wide DNA methylation identifies patterns that associate with conserved transcriptional programs in osteosarcoma 	Genomics			11	Unrestricted
