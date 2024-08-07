@@ -1,0 +1,12 @@
+id	study.id	email_address	institution	personnel_name	personnel_type	study	study_personnel_id	updated	type
+phs002430::AL	phs002430::phs002430	alex.lee2@ucsf.edu	UCSF	Alex Lee	Bioinformatics	phs002430	AL	2024-04-30T18:33:38.454000000+00:00	study_personnel
+phs002430::AM	phs002430::phs002430	amanda.marinoff@ucsf.edu	UCSF	Amanda Marinoff	Data Manager	phs002430	AM	2024-04-30T18:33:38.465000000+00:00	study_personnel
+phs002430::AP	phs002430::phs002430	apribnow@stanford.edu	Stanford	Allison Pribnow	Collaborator	phs002430	AP	2024-04-30T18:33:38.466000000+00:00	study_personnel
+phs002430::AQA	phs002430::phs002430	kintanageo@gmail.com	University of Missouri	Ana Quintanar Alfaro	Clinical Research Coordinator	phs002430	AQA	2024-04-30T18:33:38.458000000+00:00	study_personnel
+phs002430::ASC	phs002430::phs002430	alejandro.sweet-cordero@ucsf.edu	UCSF	Alejandro Sweet-Cordero, MD	PI	phs002430	ASC	2024-04-30T18:33:38.453000000+00:00	study_personnel
+phs002430::CS	phs002430::phs002430	cschott@uoguelph.ca	University of Guelph	Courtney Schott	Scientist	phs002430	CS	2024-04-30T18:33:38.457000000+00:00	study_personnel
+phs002430::LS	phs002430::phs002430	leanne.sayles@ucsf.edu	UCSF	Leanne Sayles	Lab Manager	phs002430	LS	2024-04-30T18:33:38.464000000+00:00	study_personnel
+phs002430::MB	phs002430::phs002430	marcus.breese@ucsf.edu	UCSF	Martin Breese	Bioinformatics	phs002430	MB	2024-04-30T18:33:38.455000000+00:00	study_personnel
+phs002430::MPV	phs002430::phs002430	mvponsventura@gmail.com	UCSF	Maria Pons-Ventura	Lab Technician	phs002430	MPV	2024-04-30T18:33:38.463000000+00:00	study_personnel
+phs002430::MT	phs002430::phs002430	michelle.turski@ucsf.edu	UCSF	Michelle Turski	Data Manager	phs002430	MT	2024-04-30T18:33:38.456000000+00:00	study_personnel
+phs002430::SL	phs002430::phs002430	stanleung@berkeley.edu	UCSF	Stanley Leung	Data Manager	phs002430	SL	2024-04-30T18:33:38.459000000+00:00	study_personnel

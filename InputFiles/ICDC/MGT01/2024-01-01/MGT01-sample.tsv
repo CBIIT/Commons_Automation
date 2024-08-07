@@ -1,0 +1,21 @@
+type	case.case_id	sample_id	physical_sample_type	general_sample_pathology	tumor_sample_origin	summarized_sample_type	sample_site	sample_chronology	specific_sample_pathology	tumor_grade	date_of_sample_collection	sample_preservation	necropsy_sample	percentage_tumor
+sample	MGT01-406434	MGT01-T-406434	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Mammary Gland	Not Applicable	Simple Carcinoma	Unknown	4/14/10	Snap Frozen	No	Unknown
+sample	MGT01-406434	MGT01-N-406434	Tissue	Normal	Not Applicable	Normal Tissue	Mammary Gland	Not Applicable	Not Applicable	Not Applicable	4/14/10	Snap Frozen	No	Not Applicable
+sample	MGT01-76	MGT01-T-76	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Mammary Gland	Not Applicable	"Simple Carcinoma, Invasive, Ductal"	Unknown	4/23/04	Snap Frozen	No	Unknown
+sample	MGT01-76	MGT01-N-76	Tissue	Normal	Not Applicable	Normal Tissue	Mammary Gland	Not Applicable	Not Applicable	Not Applicable	4/23/04	Snap Frozen	No	Not Applicable
+sample	MGT01-5	MGT01-T-5	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Mammary Gland	Not Applicable	"Simple Carcinoma,  Ductular, Vascular Invasive"	Unknown	9/4/03	Snap Frozen	No	Unknown
+sample	MGT01-5	MGT01-N-5	Tissue	Normal	Not Applicable	Normal Tissue	Mammary Gland	Not Applicable	Not Applicable	Not Applicable	9/4/03	Snap Frozen	No	Not Applicable
+sample	MGT01-159	MGT01-T-159	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Mammary Gland	Not Applicable	"Simple Carcinoma, Ductular"	Low	11/5/04	Snap Frozen	No	Unknown
+sample	MGT01-159	MGT01-N-159	Tissue	Normal	Not Applicable	Normal Tissue	Mammary Gland	Not Applicable	Not Applicable	Not Applicable	11/5/04	Snap Frozen	No	Not Applicable
+sample	MGT01-341400	MGT01-T-341400	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Mammary Gland	Not Applicable	"Simple Carcinoma, Ductal"	Unknown	3/12/10	Snap Frozen	No	Unknown
+sample	MGT01-401188	MGT01-T-401188	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Mammary Gland	Not Applicable	Simple Carcinoma	Unknown	10/28/09	Snap Frozen	No	Unknown
+sample	MGT01-401188	MGT01-N-401188	Tissue	Normal	Not Applicable	Normal Tissue	Mammary Gland	Not Applicable	Not Applicable	Not Applicable	10/28/09	Snap Frozen	No	Not Applicable
+sample	MGT01-115	MGT01-N-115	Tissue	Normal	Not Applicable	Normal Tissue	Mammary Gland	Not Applicable	Not Applicable	Not Applicable	8/13/04	Snap Frozen	No	Not Applicable
+sample	MGT01-115	MGT01-T-115	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Mammary Gland	Not Applicable	"Simple Carcinoma, Inflammatory"	Unknown	8/13/04	Snap Frozen	No	Unknown
+sample	MGT01-32510	MGT01-T-32510	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Mammary Gland	Not Applicable	Carcinoma With Simple And Complex Components	Unknown	3/25/10	Snap Frozen	No	Unknown
+sample	MGT01-32510	MGT01-N-32510	Tissue	Normal	Not Applicable	Normal Tissue	Mammary Gland	Not Applicable	Not Applicable	Not Applicable	3/25/10	Snap Frozen	No	Not Applicable
+sample	MGT01-518	MGT01-T-518	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Mammary Gland	Not Applicable	Complex Carcinoma	Medium	2/10/06	Snap Frozen	No	Unknown
+sample	MGT01-403802	MGT01-T-403802	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Mammary Gland	Not Applicable	Complex Carcinoma	Low	1/22/10	Snap Frozen	No	Unknown
+sample	MGT01-401130	MGT01-T-401130	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Mammary Gland	Not Applicable	Complex Carcinoma	Unknown	9/23/09	Snap Frozen	No	Unknown
+sample	MGT01-402421	MGT01-T-402421	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Mammary Gland	Not Applicable	Complex Carcinoma	Unknown	12/21/09	Snap Frozen	No	Unknown
+sample	MGT01-31005	MGT01-N-31005	Tissue	Normal	Not Applicable	Normal Tissue	Mammary Gland	Not Applicable	Not Applicable	Not Applicable	3/10/05	Snap Frozen	No	Not Applicable
