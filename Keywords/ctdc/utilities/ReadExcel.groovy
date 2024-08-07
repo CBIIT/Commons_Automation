@@ -1,89 +1,55 @@
 package ctdc.utilities
 import java.nio.file.Path;
 import java.nio.file.Paths;
-
-import org.apache.poi.ss.usermodel.Cell
-import org.apache.poi.ss.usermodel.Row
-import org.apache.poi.ss.usermodel.Workbook
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import org.openqa.selenium.By as By
-import org.openqa.selenium.WebDriver as WebDriver
-import org.openqa.selenium.WebElement as WebElement
-import org.openqa.selenium.chrome.ChromeDriver as ChromeDriver
-import org.openqa.selenium.firefox.FirefoxDriver as FirefoxDriver
-import com.kms.katalon.core.util.KeywordUtil
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords
-
-
+import org.apache.poi.ss.usermodel.CellType
 import com.kms.katalon.core.annotation.Keyword
-
 import internal.GlobalVariable
+
+
 public class ReadExcel {
 
-
-	@Keyword
-	public static List<List<XSSFCell>> Test(String filename) {
-		//added String filename
-
-		List<List<XSSFCell>> sheetData = new ArrayList<>();  // Create a 2dimensional ArrayList to store the data read from excel sheet
-		FileInputStream fis = new FileInputStream(filename);  //removed filepath.toString()
-		XSSFWorkbook workbook = new XSSFWorkbook(fis); // Create an excel workbook from the file system.
-		XSSFSheet sheet = workbook.getSheetAt(0);  // Get the first sheet on the workbook from read results data from UI / Neo4j data
-		Iterator rows = sheet.rowIterator();
-		while (rows.hasNext()) {
-			XSSFRow row = (XSSFRow) rows.next();
-			Iterator cells = row.cellIterator();
-			List<XSSFCell> data = new ArrayList<>();
-			while (cells.hasNext()) {
-				XSSFCell cell = (XSSFCell) cells.next();
-				data.add(cell);
-			}
-			sheetData.add(data);
-		}
-		System.out.println(sheetData)
-		System.out.println("This is the size of the data from ui results: "+sheetData.size())
-		//showExcelData1(sheetData);
-		return sheetData
-	}
 
 	/**
 	 * This function reads excel files and is used to read output excel files
 	 * @param filename excel file to read
 	 * @param sheetName sheet name of the workbook
-	 * @return returns all data as a Lists of XSSCell list
+	 * @return returns all data as a Lists of String list
 	 */
 	@Keyword
-	public static List<List<XSSFCell>> readOutputExcel(String filename, String sheetName) {
+	public static List<List<String>> readOutputExcel(String filename, String sheetName) {
+
 		System.out.println("File name is: " + filename);
 		System.out.println("Sheetname is: " + sheetName);
 		List<List<XSSFCell>> allValues = new ArrayList<>();
-		
+
 		FileInputStream fis = null;
 		XSSFWorkbook workbook = null;
-	
+
 		try {
 			fis = new FileInputStream(filename);
 			workbook = new XSSFWorkbook(fis);
 			XSSFSheet sheet = workbook.getSheet(sheetName);
-	
+
 			if (sheet == null) {
 				System.out.println("Sheet " + sheetName + " not found in the file.");
 				return allValues;
 			}
-	
+
 			int rowSize = sheet.getPhysicalNumberOfRows();
 			int colSize = sheet.getRow(0).getPhysicalNumberOfCells();
 			System.out.println("Row size is: " + rowSize + "\nCol size is: " + colSize);
-	
-			for (int i = 0; i < rowSize; i++) {
-				List<XSSFCell> currList = new ArrayList<>();
+
+			for (int i = 1; i < rowSize; i++) {
+				List<String> currList = new ArrayList<>();
 				XSSFRow row = sheet.getRow(i);
-	
-				for (int j = 0; j < colSize; j++) {
+
+				for (int j = 0; j < colSize; j++) {					
 					XSSFCell cell = row.getCell(j);
+					
 					if (cell == null) {
 						cell = row.createCell(j);
 					}
@@ -110,8 +76,9 @@ public class ReadExcel {
 			}
 		}
 		return allValues;
-	}	
-	
+	}
+
+
 	//Below is the old read output excel function.
 	@Keyword
 	public static List<List<XSSFCell>> readExceltoWeblist(String filename, String sheetName) {
@@ -143,9 +110,35 @@ public class ReadExcel {
 					allValues.add(currList)
 				}
 			} //if loop ends
-
 		} // for loop ends
 		return allValues
+	}
+
+
+
+	@Keyword
+	public static List<List<XSSFCell>> Test(String filename) {
+		//added String filename
+
+		List<List<XSSFCell>> sheetData = new ArrayList<>();  // Create a 2dimensional ArrayList to store the data read from excel sheet
+		FileInputStream fis = new FileInputStream(filename);  //removed filepath.toString()
+		XSSFWorkbook workbook = new XSSFWorkbook(fis); // Create an excel workbook from the file system.
+		XSSFSheet sheet = workbook.getSheetAt(0);  // Get the first sheet on the workbook from read results data from UI / Neo4j data
+		Iterator rows = sheet.rowIterator();
+		while (rows.hasNext()) {
+			XSSFRow row = (XSSFRow) rows.next();
+			Iterator cells = row.cellIterator();
+			List<XSSFCell> data = new ArrayList<>();
+			while (cells.hasNext()) {
+				XSSFCell cell = (XSSFCell) cells.next();
+				data.add(cell);
+			}
+			sheetData.add(data);
+		}
+		System.out.println(sheetData)
+		System.out.println("This is the size of the data from ui results: "+sheetData.size())
+		//showExcelData1(sheetData);
+		return sheetData
 	}
 
 	private static void showExcelData1(List<List<XSSFCell>> sheetData) {
@@ -158,14 +151,14 @@ public class ReadExcel {
 					str =str+ cell.getStringCellValue() + "||"
 				}
 				System.out.println(str);
-
 			}
 		}
 	}
 
 
 	@Keyword
-	public static void Neo4j(String dbSheetName, String tbQuery) { //specific query as parameter
+	public static void Neo4j(String dbSheetName, String tbQuery) {
+		//specific query as parameter
 		String query = tbQuery  // this is the db main results query variable
 		System.out.println("This is the value of tab query from neo4j:"+query)
 		String statQuery = GlobalVariable.G_StatQuery
@@ -198,7 +191,8 @@ public class ReadExcel {
 
 
 	@Keyword
-	public static  void initialLoad() {    // this reads sheet 0, predecessor for connecting to DB
+	public static  void initialLoad() {
+		// this reads sheet 0, predecessor for connecting to DB
 
 		List<List<XSSFCell>> sheetData = new ArrayList<>();  // Create an ArrayList to store the data read from excel sheet
 		FileInputStream fis = new FileInputStream(GlobalVariable.InputExcel);  //give GlobalVariable.G_InputExcelFileName
@@ -230,7 +224,8 @@ public class ReadExcel {
 	}
 
 
-	private static void Initialising(List<List<XSSFCell>> sheetData) {  //this is DB initializing
+	private static void Initialising(List<List<XSSFCell>> sheetData) {
+		//this is DB initializing
 		// Iterates the data and print it out to the console.
 
 
@@ -336,11 +331,6 @@ public class ReadExcel {
 
 		GlobalVariable.G_DBdata=sheetData
 	}
-
-
-
-
-
 }
 
 

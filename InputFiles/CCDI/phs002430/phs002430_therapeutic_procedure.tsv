@@ -1,0 +1,109 @@
+id	participant.id	age_at_treatment_end	age_at_treatment_start	therapeutic_agent	therapeutic_procedure_id	treatment_outcome	treatment_type	updated	type	study
+phs002430::104_chemo	phs002430::104	-999	-999		104_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.527000000+00:00	therapeutic_procedure	phs002430
+phs002430::10_chemo	phs002430::10	-999	-999		10_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.520000000+00:00	therapeutic_procedure	phs002430
+phs002430::152_chemo	phs002430::152	-999	-999		152_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.528000000+00:00	therapeutic_procedure	phs002430
+phs002430::159_rad	phs002430::159	-999	-999		159_rad	Unknown	Radiation (NOS)	2024-05-23T14:50:38.471000000+00:00	therapeutic_procedure	phs002430
+phs002430::166_chemo	phs002430::166	-999	-999		166_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.530000000+00:00	therapeutic_procedure	phs002430
+phs002430::186_chemo	phs002430::186	-999	-999		186_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.533000000+00:00	therapeutic_procedure	phs002430
+phs002430::186_rad	phs002430::186	-999	-999		186_rad	Unknown	Radiation (NOS)	2024-05-23T14:50:38.472000000+00:00	therapeutic_procedure	phs002430
+phs002430::207_chemo	phs002430::207	-999	-999		207_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.534000000+00:00	therapeutic_procedure	phs002430
+phs002430::229_chemo	phs002430::229	-999	-999		229_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.535000000+00:00	therapeutic_procedure	phs002430
+phs002430::231_chemo	phs002430::231	-999	-999		231_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.537000000+00:00	therapeutic_procedure	phs002430
+phs002430::236_chemo	phs002430::236	-999	-999		236_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.538000000+00:00	therapeutic_procedure	phs002430
+phs002430::236_rad	phs002430::236	-999	-999		236_rad	Unknown	Radiation (NOS)	2024-05-23T14:50:38.474000000+00:00	therapeutic_procedure	phs002430
+phs002430::255_chemo	phs002430::255	-999	-999		255_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.539000000+00:00	therapeutic_procedure	phs002430
+phs002430::256_chemo	phs002430::256	-999	-999		256_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.540000000+00:00	therapeutic_procedure	phs002430
+phs002430::270_chemo	phs002430::270	-999	-999		270_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.542000000+00:00	therapeutic_procedure	phs002430
+phs002430::270_rad	phs002430::270	-999	-999		270_rad	Unknown	Radiation (NOS)	2024-05-23T14:50:38.475000000+00:00	therapeutic_procedure	phs002430
+phs002430::288_chemo	phs002430::288	-999	-999		288_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.543000000+00:00	therapeutic_procedure	phs002430
+phs002430::293_chemo	phs002430::293	-999	-999		293_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.544000000+00:00	therapeutic_procedure	phs002430
+phs002430::307_chemo	phs002430::307	-999	-999		307_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.545000000+00:00	therapeutic_procedure	phs002430
+phs002430::308_chemo	phs002430::308	-999	-999		308_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.546000000+00:00	therapeutic_procedure	phs002430
+phs002430::321_chemo	phs002430::321	-999	-999		321_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.547000000+00:00	therapeutic_procedure	phs002430
+phs002430::337_rad	phs002430::337	-999	-999		337_rad	Unknown	Radiation (NOS)	2024-05-23T14:50:38.476000000+00:00	therapeutic_procedure	phs002430
+phs002430::357_chemo	phs002430::357	-999	-999		357_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.549000000+00:00	therapeutic_procedure	phs002430
+phs002430::360_chemo	phs002430::360	-999	-999		360_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.550000000+00:00	therapeutic_procedure	phs002430
+phs002430::367_chemo	phs002430::367	-999	-999		367_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.551000000+00:00	therapeutic_procedure	phs002430
+phs002430::385_rad	phs002430::385	-999	-999		385_rad	Unknown	Radiation (NOS)	2024-05-23T14:50:38.478000000+00:00	therapeutic_procedure	phs002430
+phs002430::3_chemo	phs002430::3	-999	-999		3_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.518000000+00:00	therapeutic_procedure	phs002430
+phs002430::3_rad	phs002430::3	-999	-999		3_rad	Unknown	Radiation (NOS)	2024-05-23T14:50:38.443000000+00:00	therapeutic_procedure	phs002430
+phs002430::40_chemo	phs002430::40	-999	-999		40_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.522000000+00:00	therapeutic_procedure	phs002430
+phs002430::40_rad	phs002430::40	-999	-999		40_rad	Unknown	Radiation (NOS)	2024-05-23T14:50:38.467000000+00:00	therapeutic_procedure	phs002430
+phs002430::410_chemo	phs002430::410	-999	-999		410_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.552000000+00:00	therapeutic_procedure	phs002430
+phs002430::42_chemo	phs002430::42	-999	-999		42_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.523000000+00:00	therapeutic_procedure	phs002430
+phs002430::432_rad	phs002430::432	-999	-999		432_rad	Unknown	Radiation (NOS)	2024-05-23T14:50:38.479000000+00:00	therapeutic_procedure	phs002430
+phs002430::433_rad	phs002430::433	-999	-999		433_rad	Unknown	Radiation (NOS)	2024-05-23T14:50:38.482000000+00:00	therapeutic_procedure	phs002430
+phs002430::435_chemo	phs002430::435	-999	-999		435_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.553000000+00:00	therapeutic_procedure	phs002430
+phs002430::436_chemo	phs002430::436	-999	-999		436_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.554000000+00:00	therapeutic_procedure	phs002430
+phs002430::438_chemo	phs002430::438	-999	-999		438_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.556000000+00:00	therapeutic_procedure	phs002430
+phs002430::441_chemo	phs002430::441	-999	-999		441_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.557000000+00:00	therapeutic_procedure	phs002430
+phs002430::449_chemo	phs002430::449	-999	-999		449_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.559000000+00:00	therapeutic_procedure	phs002430
+phs002430::453_chemo	phs002430::453	-999	-999		453_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.560000000+00:00	therapeutic_procedure	phs002430
+phs002430::453_rad	phs002430::453	-999	-999		453_rad	Unknown	Radiation (NOS)	2024-05-23T14:50:38.483000000+00:00	therapeutic_procedure	phs002430
+phs002430::454_rad	phs002430::454	-999	-999		454_rad	Unknown	Radiation (NOS)	2024-05-23T14:50:38.491000000+00:00	therapeutic_procedure	phs002430
+phs002430::456_chemo	phs002430::456	-999	-999		456_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.562000000+00:00	therapeutic_procedure	phs002430
+phs002430::457_chemo	phs002430::457	-999	-999		457_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.563000000+00:00	therapeutic_procedure	phs002430
+phs002430::458_chemo	phs002430::458	-999	-999		458_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.564000000+00:00	therapeutic_procedure	phs002430
+phs002430::463_chemo	phs002430::463	-999	-999		463_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.566000000+00:00	therapeutic_procedure	phs002430
+phs002430::470_chemo	phs002430::470	-999	-999		470_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.567000000+00:00	therapeutic_procedure	phs002430
+phs002430::472_chemo	phs002430::472	-999	-999		472_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.569000000+00:00	therapeutic_procedure	phs002430
+phs002430::476_rad	phs002430::476	-999	-999		476_rad	Unknown	Radiation (NOS)	2024-05-23T14:50:38.493000000+00:00	therapeutic_procedure	phs002430
+phs002430::477_chemo	phs002430::477	-999	-999		477_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.570000000+00:00	therapeutic_procedure	phs002430
+phs002430::482_chemo	phs002430::482	-999	-999		482_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.573000000+00:00	therapeutic_procedure	phs002430
+phs002430::484_chemo	phs002430::484	-999	-999		484_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.575000000+00:00	therapeutic_procedure	phs002430
+phs002430::486_chemo	phs002430::486	-999	-999		486_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.576000000+00:00	therapeutic_procedure	phs002430
+phs002430::492_chemo	phs002430::492	-999	-999		492_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.578000000+00:00	therapeutic_procedure	phs002430
+phs002430::492_rad	phs002430::492	-999	-999		492_rad	Unknown	Radiation (NOS)	2024-05-23T14:50:38.495000000+00:00	therapeutic_procedure	phs002430
+phs002430::495_chemo	phs002430::495	-999	-999		495_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.579000000+00:00	therapeutic_procedure	phs002430
+phs002430::497_chemo	phs002430::497	-999	-999		497_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.581000000+00:00	therapeutic_procedure	phs002430
+phs002430::505_chemo	phs002430::505	-999	-999		505_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.582000000+00:00	therapeutic_procedure	phs002430
+phs002430::509_chemo	phs002430::509	-999	-999		509_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.584000000+00:00	therapeutic_procedure	phs002430
+phs002430::511_chemo	phs002430::511	-999	-999		511_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.585000000+00:00	therapeutic_procedure	phs002430
+phs002430::511_rad	phs002430::511	-999	-999		511_rad	Unknown	Radiation (NOS)	2024-05-23T14:50:38.496000000+00:00	therapeutic_procedure	phs002430
+phs002430::515_rad	phs002430::515	-999	-999		515_rad	Unknown	Radiation (NOS)	2024-05-23T14:50:38.498000000+00:00	therapeutic_procedure	phs002430
+phs002430::517_rad	phs002430::517	-999	-999		517_rad	Unknown	Radiation (NOS)	2024-05-23T14:50:38.499000000+00:00	therapeutic_procedure	phs002430
+phs002430::518_rad	phs002430::518	-999	-999		518_rad	Unknown	Radiation (NOS)	2024-05-23T14:50:38.500000000+00:00	therapeutic_procedure	phs002430
+phs002430::519_chemo	phs002430::519	-999	-999		519_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.587000000+00:00	therapeutic_procedure	phs002430
+phs002430::520_chemo	phs002430::520	-999	-999		520_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.588000000+00:00	therapeutic_procedure	phs002430
+phs002430::522_chemo	phs002430::522	-999	-999		522_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.590000000+00:00	therapeutic_procedure	phs002430
+phs002430::525_rad	phs002430::525	-999	-999		525_rad	Unknown	Radiation (NOS)	2024-05-23T14:50:38.502000000+00:00	therapeutic_procedure	phs002430
+phs002430::526_rad	phs002430::526	-999	-999		526_rad	Unknown	Radiation (NOS)	2024-05-23T14:50:38.503000000+00:00	therapeutic_procedure	phs002430
+phs002430::528_chemo	phs002430::528	-999	-999		528_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.594000000+00:00	therapeutic_procedure	phs002430
+phs002430::528_rad	phs002430::528	-999	-999		528_rad	Unknown	Radiation (NOS)	2024-05-23T14:50:38.504000000+00:00	therapeutic_procedure	phs002430
+phs002430::52_chemo	phs002430::52	-999	-999		52_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.524000000+00:00	therapeutic_procedure	phs002430
+phs002430::531_chemo	phs002430::531	-999	-999		531_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.595000000+00:00	therapeutic_procedure	phs002430
+phs002430::534_chemo	phs002430::534	-999	-999		534_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.596000000+00:00	therapeutic_procedure	phs002430
+phs002430::534_rad	phs002430::534	-999	-999		534_rad	Unknown	Radiation (NOS)	2024-05-23T14:50:38.506000000+00:00	therapeutic_procedure	phs002430
+phs002430::542_chemo	phs002430::542	-999	-999		542_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.598000000+00:00	therapeutic_procedure	phs002430
+phs002430::543_chemo	phs002430::543	-999	-999		543_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.603000000+00:00	therapeutic_procedure	phs002430
+phs002430::546_chemo	phs002430::546	-999	-999		546_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.605000000+00:00	therapeutic_procedure	phs002430
+phs002430::548_chemo	phs002430::548	-999	-999		548_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.606000000+00:00	therapeutic_procedure	phs002430
+phs002430::549_chemo	phs002430::549	-999	-999		549_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.608000000+00:00	therapeutic_procedure	phs002430
+phs002430::550_chemo	phs002430::550	-999	-999		550_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.609000000+00:00	therapeutic_procedure	phs002430
+phs002430::556_chemo	phs002430::556	-999	-999		556_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.611000000+00:00	therapeutic_procedure	phs002430
+phs002430::560_chemo	phs002430::560	-999	-999		560_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.612000000+00:00	therapeutic_procedure	phs002430
+phs002430::562_chemo	phs002430::562	-999	-999		562_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.613000000+00:00	therapeutic_procedure	phs002430
+phs002430::563_rad	phs002430::563	-999	-999		563_rad	Unknown	Radiation (NOS)	2024-05-23T14:50:38.507000000+00:00	therapeutic_procedure	phs002430
+phs002430::565_rad	phs002430::565	-999	-999		565_rad	Unknown	Radiation (NOS)	2024-05-23T14:50:38.509000000+00:00	therapeutic_procedure	phs002430
+phs002430::567_chemo	phs002430::567	-999	-999		567_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.615000000+00:00	therapeutic_procedure	phs002430
+phs002430::575_chemo	phs002430::575	-999	-999		575_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.616000000+00:00	therapeutic_procedure	phs002430
+phs002430::576_rad	phs002430::576	-999	-999		576_rad	Unknown	Radiation (NOS)	2024-05-23T14:50:38.510000000+00:00	therapeutic_procedure	phs002430
+phs002430::579_chemo	phs002430::579	-999	-999		579_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.617000000+00:00	therapeutic_procedure	phs002430
+phs002430::579_rad	phs002430::579	-999	-999		579_rad	Unknown	Radiation (NOS)	2024-05-23T14:50:38.511000000+00:00	therapeutic_procedure	phs002430
+phs002430::582_rad	phs002430::582	-999	-999		582_rad	Unknown	Radiation (NOS)	2024-05-23T14:50:38.513000000+00:00	therapeutic_procedure	phs002430
+phs002430::584_chemo	phs002430::584	-999	-999		584_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.619000000+00:00	therapeutic_procedure	phs002430
+phs002430::588_chemo	phs002430::588	-999	-999		588_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.620000000+00:00	therapeutic_procedure	phs002430
+phs002430::595_chemo	phs002430::595	-999	-999		595_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.622000000+00:00	therapeutic_procedure	phs002430
+phs002430::596_chemo	phs002430::596	-999	-999		596_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.623000000+00:00	therapeutic_procedure	phs002430
+phs002430::596_rad	phs002430::596	-999	-999		596_rad	Unknown	Radiation (NOS)	2024-05-23T14:50:38.514000000+00:00	therapeutic_procedure	phs002430
+phs002430::5_chemo	phs002430::5	-999	-999		5_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.519000000+00:00	therapeutic_procedure	phs002430
+phs002430::600_chemo	phs002430::600	-999	-999		600_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.625000000+00:00	therapeutic_procedure	phs002430
+phs002430::602_chemo	phs002430::602	-999	-999		602_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.626000000+00:00	therapeutic_procedure	phs002430
+phs002430::602_rad	phs002430::602	-999	-999		602_rad	Unknown	Radiation (NOS)	2024-05-23T14:50:38.515000000+00:00	therapeutic_procedure	phs002430
+phs002430::622_chemo	phs002430::622	-999	-999		622_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.627000000+00:00	therapeutic_procedure	phs002430
+phs002430::626_rad	phs002430::626	-999	-999		626_rad	Unknown	Radiation (NOS)	2024-05-23T14:50:38.516000000+00:00	therapeutic_procedure	phs002430
+phs002430::636_chemo	phs002430::636	-999	-999		636_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.629000000+00:00	therapeutic_procedure	phs002430
+phs002430::637_chemo	phs002430::637	-999	-999		637_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.631000000+00:00	therapeutic_procedure	phs002430
+phs002430::639_chemo	phs002430::639	-999	-999		639_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.632000000+00:00	therapeutic_procedure	phs002430
+phs002430::640_chemo	phs002430::640	-999	-999		640_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.633000000+00:00	therapeutic_procedure	phs002430
+phs002430::91_chemo	phs002430::91	-999	-999		91_chemo	Unknown	Chemotherapy	2024-05-23T14:50:38.525000000+00:00	therapeutic_procedure	phs002430

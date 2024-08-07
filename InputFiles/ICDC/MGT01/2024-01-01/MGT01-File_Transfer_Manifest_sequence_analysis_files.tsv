@@ -1,0 +1,69 @@
+type	sample.sample_id	file_name	file_type	file_description	original_file_size	original_md5sum																										
+file	MGT01-N-115	N-115-RNAseq.bam	RNA Sequence File	matched normal tissue sample: RNA-seq reads to CanFam3.1																												
+file	MGT01-N-115	N-115-RNAseq.bam.bai	Index File	matched normal tissue sample: bam index of RNAseq reads																												
+file	MGT01-N-159	N-159-WES.bam	Whole Exome Sequence File	matched normal tissue sample: WES reads to CanFam3.1																												
+file	MGT01-N-159	N-159-WES.bam.bai	Index File	matched normal tissue sample: bam index of WES reads																												
+file	MGT01-N-31005	N-31005-RNAseq.bam	RNA Sequence File	matched normal tissue sample: RNA-seq reads to CanFam3.1																												
+file	MGT01-N-31005	N-31005-RNAseq.bam.bai	Index File	matched normal tissue sample: bam index of RNAseq reads																												
+file	MGT01-N-32510	N-32510-RNAseq.bam	RNA Sequence File	matched normal tissue sample: RNA-seq reads to CanFam3.1																												
+file	MGT01-N-32510	N-32510-RNAseq.bam.bai	Index File	matched normal tissue sample: bam index of RNAseq reads																												
+file	MGT01-N-32510	N-32510-WES.bam	Whole Exome Sequence File	matched normal tissue sample: WES reads to CanFam3.1																												
+file	MGT01-N-32510	N-32510-WES.bam.bai	Index File	matched normal tissue sample: bam index of WES reads																												
+file	MGT01-N-32510	N-32510-WGS.bam	Whole Genome Sequence File	matched normal tissue sample: WGS reads to CanFam3.1																												
+file	MGT01-N-32510	N-32510-WGS.bam.bai	Index File	matched normal tissue sample: bam index of WGS reads																												
+file	MGT01-N-401188	N-401188-RNAseq.bam	RNA Sequence File	matched normal tissue sample: RNA-seq reads to CanFam3.1																												
+file	MGT01-N-401188	N-401188-RNAseq.bam.bai	Index File	matched normal tissue sample: bam index of RNAseq reads																												
+file	MGT01-N-406434	N-406434-RNAseq.bam	RNA Sequence File	matched normal tissue sample: RNA-seq reads to CanFam3.1																												
+file	MGT01-N-406434	N-406434-RNAseq.bam.bai	Index File	matched normal tissue sample: bam index of RNAseq reads																												
+file	MGT01-N-406434	N-406434-WES.bam	Whole Exome Sequence File	matched normal tissue sample: WES reads to CanFam3.1																												
+file	MGT01-N-406434	N-406434-WES.bam.bai	Index File	matched normal tissue sample: bam index of WES reads																												
+file	MGT01-N-406434	N-406434-WGS.bam	Whole Genome Sequence File	matched normal tissue sample: WGS reads to CanFam3.1																												
+file	MGT01-N-406434	N-406434-WGS.bam.bai	Index File	matched normal tissue sample: bam index of WGS reads																												
+file	MGT01-N-5	N-5-WES.bam	Whole Exome Sequence File	matched normal tissue sample: WES reads to CanFam3.1																												
+file	MGT01-N-5	N-5-WES.bam.bai	Index File	matched normal tissue sample: bam index of WES reads																												
+file	MGT01-N-76	N-76-RNAseq.bam	RNA Sequence File	matched normal tissue sample: RNA-seq reads to CanFam3.1																												
+file	MGT01-N-76	N-76-RNAseq.bam.bai	Index File	matched normal tissue sample: bam index of RNAseq reads																												
+file	MGT01-N-76	N-76-WES.bam	Whole Exome Sequence File	matched normal tissue sample: WES reads to CanFam3.1																												
+file	MGT01-N-76	N-76-WES.bam.bai	Index File	matched normal tissue sample: bam index of WES reads																												
+file	MGT01-N-76	N-76-WGS.bam	Whole Genome Sequence File	matched normal tissue sample: WGS reads to CanFam3.1																												
+file	MGT01-N-76	N-76-WGS.bam.bai	Index File	matched normal tissue sample: bam index of WGS reads																												
+file	MGT01-T-115	T-115-RNAseq.bam	RNA Sequence File	mammary tumor sample: RNA-seq reads to CanFam3.1																												
+file	MGT01-T-115	T-115-RNAseq.bam.bai	Index File	mammary tumor sample: bam index of RNAseq reads																												
+file	MGT01-T-159	T-159-RNAseq.bam	RNA Sequence File	mammary tumor sample: RNA-seq reads to CanFam3.1																												
+file	MGT01-T-159	T-159-RNAseq.bam.bai	Index File	mammary tumor sample: bam index of RNAseq reads																												
+file	MGT01-T-159	T-159-WES.bam	Whole Exome Sequence File	mammary tumor sample: WES reads to CanFam3.1																												
+file	MGT01-T-159	T-159-WES.bam.bai	Index File	mammary tumor sample: bam index of WES reads																												
+file	MGT01-T-32510	T-32510-RNAseq.bam	RNA Sequence File	mammary tumor sample: RNA-seq reads to CanFam3.1																												
+file	MGT01-T-32510	T-32510-RNAseq.bam.bai	Index File	mammary tumor sample: bam index of RNAseq reads																												
+file	MGT01-T-32510	T-32510-WES.bam	Whole Exome Sequence File	mammary tumor sample: WES reads to CanFam3.1																												
+file	MGT01-T-32510	T-32510-WES.bam.bai	Index File	mammary tumor sample: bam index of WES reads																												
+file	MGT01-T-32510	T-32510-WGS.bam	Whole Genome Sequence File	mammary tumor sample: WGS reads to CanFam3.1																												
+file	MGT01-T-32510	T-32510-WGS.bam.bai	Index File	mammary tumor sample: bam index of WGS reads																												
+file	MGT01-T-341400	T-341400-RNAseq.bam	RNA Sequence File	mammary tumor sample: RNA-seq reads to CanFam3.1																												
+file	MGT01-T-341400	T-341400-RNAseq.bam.bai	Index File	mammary tumor sample: bam index of RNAseq reads																												
+file	MGT01-T-401130	T-401130-RNAseq.bam	RNA Sequence File	mammary tumor sample: RNA-seq reads to CanFam3.1																												
+file	MGT01-T-401130	T-401130-RNAseq.bam.bai	Index File	mammary tumor sample: bam index of RNAseq reads																												
+file	MGT01-T-401188	T-401188-RNAseq.bam	RNA Sequence File	mammary tumor sample: RNA-seq reads to CanFam3.1																												
+file	MGT01-T-401188	T-401188-RNAseq.bam.bai	Index File	mammary tumor sample: bam index of RNAseq reads																												
+file	MGT01-T-402421	T-402421-RNAseq.bam	RNA Sequence File	mammary tumor sample: RNA-seq reads to CanFam3.1																												
+file	MGT01-T-402421	T-402421-RNAseq.bam.bai	Index File	mammary tumor sample: bam index of RNAseq reads																												
+file	MGT01-T-403802	T-403802-RNAseq.bam	RNA Sequence File	mammary tumor sample: RNA-seq reads to CanFam3.1																												
+file	MGT01-T-403802	T-403802-RNAseq.bam.bai	Index File	mammary tumor sample: bam index of RNAseq reads																												
+file	MGT01-T-406434	T-406434-RNAseq.bam	RNA Sequence File	mammary tumor sample: RNA-seq reads to CanFam3.1																												
+file	MGT01-T-406434	T-406434-RNAseq.bam.bai	Index File	mammary tumor sample: bam index of RNAseq reads																												
+file	MGT01-T-406434	T-406434-WES.bam	Whole Exome Sequence File	mammary tumor sample: WES reads to CanFam3.1																												
+file	MGT01-T-406434	T-406434-WES.bam.bai	Index File	mammary tumor sample: bam index of WES reads																												
+file	MGT01-T-406434	T-406434-WGS.bam	Whole Genome Sequence File	mammary tumor sample: WGS reads to CanFam3.1																												
+file	MGT01-T-406434	T-406434-WGS.bam.bai	Index File	mammary tumor sample: bam index of WGS reads																												
+file	MGT01-T-5	T-5-RNAseq.bam	RNA Sequence File	mammary tumor sample: RNA-seq reads to CanFam3.1																												
+file	MGT01-T-5	T-5-RNAseq.bam.bai	Index File	mammary tumor sample: bam index of RNAseq reads																												
+file	MGT01-T-5	T-5-WES.bam	Whole Exome Sequence File	mammary tumor sample: WES reads to CanFam3.1																												
+file	MGT01-T-5	T-5-WES.bam.bai	Index File	mammary tumor sample: bam index of WES reads																												
+file	MGT01-T-518	T-518-RNAseq.bam	RNA Sequence File	mammary tumor sample: RNA-seq reads to CanFam3.1																												
+file	MGT01-T-518	T-518-RNAseq.bam.bai	Index File	mammary tumor sample: bam index of RNAseq reads																												
+file	MGT01-T-76	T-76-RNAseq.bam	RNA Sequence File	mammary tumor sample: RNA-seq reads to CanFam3.1																												
+file	MGT01-T-76	T-76-RNAseq.bam.bai	Index File	mammary tumor sample: bam index of RNAseq reads																												
+file	MGT01-T-76	T-76-WES.bam	Whole Exome Sequence File	mammary tumor sample: WES reads to CanFam3.1																												
+file	MGT01-T-76	T-76-WES.bam.bai	Index File	mammary tumor sample: bam index of WES reads																												
+file	MGT01-T-76	T-76-WGS.bam	Whole Genome Sequence File	mammary tumor sample: WGS reads to CanFam3.1																												
+file	MGT01-T-76	T-76-WGS.bam.bai	Index File	mammary tumor sample: bam index of WGS reads																												

@@ -1,0 +1,19 @@
+type	case.case_id	breed	patient_age_at_enrollment	date_of_birth	sex	neutered_indicator	weight	demographic_id						
+demographic	MGT01-406434	Shih Tzu	5	2005-06-06	Female	Unknown		MGT01-406434						
+demographic	MGT01-76	Staffordshire Bull Terrier	13.5	11/2/1990	Female	Yes		MGT01-76						
+demographic	MGT01-5	Mixed Breed	4.6	1/1/1999	Female	Yes		MGT01-5						
+demographic	MGT01-159	Labrador Retriever	10.5	4/20/1994	Female	No		MGT01-159						
+demographic	MGT01-341400	Mixed Breed	7.8	6/1/2002	Female	Yes		MGT01-341400						
+demographic	MGT01-401188	Cocker Spaniel	7.5	6/6/2002	Female	Unknown		MGT01-401188						
+demographic	MGT01-115	Labrador Retriever	10.8	11/10/1993	Female	Yes		MGT01-115						
+demographic	MGT01-32510	Other			Female	Unknown		MGT01-32510						
+demographic	MGT01-518	Labrador Retriever	10.8	8/16/1995	Female	No		MGT01-518						
+demographic	MGT01-403802	German Shepherd Dog	4	6/6/2006	Female	Unknown		MGT01-403802						
+demographic	MGT01-401130	Shih Tzu	8.8	6/6/2001	Female	Yes		MGT01-401130						
+demographic	MGT01-402421	Australian Cattle Dog	11	6/6/1999	Female	No		MGT01-402421						
+demographic	MGT01-31005	Mixed Breed	1.7	8/10/2003	Female	No		MGT01-31005						
+														
+														
+														
+														
+														
