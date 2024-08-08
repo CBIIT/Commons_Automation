@@ -1,69 +1,69 @@
-type	sample.sample_id	file_name	file_type	file_description	original_file_size	original_md5sum																										
-file	MGT01-N-115	N-115-RNAseq.bam	RNA Sequence File	matched normal tissue sample: RNA-seq reads to CanFam3.1																												
-file	MGT01-N-115	N-115-RNAseq.bam.bai	Index File	matched normal tissue sample: bam index of RNAseq reads																												
-file	MGT01-N-159	N-159-WES.bam	Whole Exome Sequence File	matched normal tissue sample: WES reads to CanFam3.1																												
-file	MGT01-N-159	N-159-WES.bam.bai	Index File	matched normal tissue sample: bam index of WES reads																												
-file	MGT01-N-31005	N-31005-RNAseq.bam	RNA Sequence File	matched normal tissue sample: RNA-seq reads to CanFam3.1																												
-file	MGT01-N-31005	N-31005-RNAseq.bam.bai	Index File	matched normal tissue sample: bam index of RNAseq reads																												
-file	MGT01-N-32510	N-32510-RNAseq.bam	RNA Sequence File	matched normal tissue sample: RNA-seq reads to CanFam3.1																												
-file	MGT01-N-32510	N-32510-RNAseq.bam.bai	Index File	matched normal tissue sample: bam index of RNAseq reads																												
-file	MGT01-N-32510	N-32510-WES.bam	Whole Exome Sequence File	matched normal tissue sample: WES reads to CanFam3.1																												
-file	MGT01-N-32510	N-32510-WES.bam.bai	Index File	matched normal tissue sample: bam index of WES reads																												
-file	MGT01-N-32510	N-32510-WGS.bam	Whole Genome Sequence File	matched normal tissue sample: WGS reads to CanFam3.1																												
-file	MGT01-N-32510	N-32510-WGS.bam.bai	Index File	matched normal tissue sample: bam index of WGS reads																												
-file	MGT01-N-401188	N-401188-RNAseq.bam	RNA Sequence File	matched normal tissue sample: RNA-seq reads to CanFam3.1																												
-file	MGT01-N-401188	N-401188-RNAseq.bam.bai	Index File	matched normal tissue sample: bam index of RNAseq reads																												
-file	MGT01-N-406434	N-406434-RNAseq.bam	RNA Sequence File	matched normal tissue sample: RNA-seq reads to CanFam3.1																												
-file	MGT01-N-406434	N-406434-RNAseq.bam.bai	Index File	matched normal tissue sample: bam index of RNAseq reads																												
-file	MGT01-N-406434	N-406434-WES.bam	Whole Exome Sequence File	matched normal tissue sample: WES reads to CanFam3.1																												
-file	MGT01-N-406434	N-406434-WES.bam.bai	Index File	matched normal tissue sample: bam index of WES reads																												
-file	MGT01-N-406434	N-406434-WGS.bam	Whole Genome Sequence File	matched normal tissue sample: WGS reads to CanFam3.1																												
-file	MGT01-N-406434	N-406434-WGS.bam.bai	Index File	matched normal tissue sample: bam index of WGS reads																												
-file	MGT01-N-5	N-5-WES.bam	Whole Exome Sequence File	matched normal tissue sample: WES reads to CanFam3.1																												
-file	MGT01-N-5	N-5-WES.bam.bai	Index File	matched normal tissue sample: bam index of WES reads																												
-file	MGT01-N-76	N-76-RNAseq.bam	RNA Sequence File	matched normal tissue sample: RNA-seq reads to CanFam3.1																												
-file	MGT01-N-76	N-76-RNAseq.bam.bai	Index File	matched normal tissue sample: bam index of RNAseq reads																												
-file	MGT01-N-76	N-76-WES.bam	Whole Exome Sequence File	matched normal tissue sample: WES reads to CanFam3.1																												
-file	MGT01-N-76	N-76-WES.bam.bai	Index File	matched normal tissue sample: bam index of WES reads																												
-file	MGT01-N-76	N-76-WGS.bam	Whole Genome Sequence File	matched normal tissue sample: WGS reads to CanFam3.1																												
-file	MGT01-N-76	N-76-WGS.bam.bai	Index File	matched normal tissue sample: bam index of WGS reads																												
-file	MGT01-T-115	T-115-RNAseq.bam	RNA Sequence File	mammary tumor sample: RNA-seq reads to CanFam3.1																												
-file	MGT01-T-115	T-115-RNAseq.bam.bai	Index File	mammary tumor sample: bam index of RNAseq reads																												
-file	MGT01-T-159	T-159-RNAseq.bam	RNA Sequence File	mammary tumor sample: RNA-seq reads to CanFam3.1																												
-file	MGT01-T-159	T-159-RNAseq.bam.bai	Index File	mammary tumor sample: bam index of RNAseq reads																												
-file	MGT01-T-159	T-159-WES.bam	Whole Exome Sequence File	mammary tumor sample: WES reads to CanFam3.1																												
-file	MGT01-T-159	T-159-WES.bam.bai	Index File	mammary tumor sample: bam index of WES reads																												
-file	MGT01-T-32510	T-32510-RNAseq.bam	RNA Sequence File	mammary tumor sample: RNA-seq reads to CanFam3.1																												
-file	MGT01-T-32510	T-32510-RNAseq.bam.bai	Index File	mammary tumor sample: bam index of RNAseq reads																												
-file	MGT01-T-32510	T-32510-WES.bam	Whole Exome Sequence File	mammary tumor sample: WES reads to CanFam3.1																												
-file	MGT01-T-32510	T-32510-WES.bam.bai	Index File	mammary tumor sample: bam index of WES reads																												
-file	MGT01-T-32510	T-32510-WGS.bam	Whole Genome Sequence File	mammary tumor sample: WGS reads to CanFam3.1																												
-file	MGT01-T-32510	T-32510-WGS.bam.bai	Index File	mammary tumor sample: bam index of WGS reads																												
-file	MGT01-T-341400	T-341400-RNAseq.bam	RNA Sequence File	mammary tumor sample: RNA-seq reads to CanFam3.1																												
-file	MGT01-T-341400	T-341400-RNAseq.bam.bai	Index File	mammary tumor sample: bam index of RNAseq reads																												
-file	MGT01-T-401130	T-401130-RNAseq.bam	RNA Sequence File	mammary tumor sample: RNA-seq reads to CanFam3.1																												
-file	MGT01-T-401130	T-401130-RNAseq.bam.bai	Index File	mammary tumor sample: bam index of RNAseq reads																												
-file	MGT01-T-401188	T-401188-RNAseq.bam	RNA Sequence File	mammary tumor sample: RNA-seq reads to CanFam3.1																												
-file	MGT01-T-401188	T-401188-RNAseq.bam.bai	Index File	mammary tumor sample: bam index of RNAseq reads																												
-file	MGT01-T-402421	T-402421-RNAseq.bam	RNA Sequence File	mammary tumor sample: RNA-seq reads to CanFam3.1																												
-file	MGT01-T-402421	T-402421-RNAseq.bam.bai	Index File	mammary tumor sample: bam index of RNAseq reads																												
-file	MGT01-T-403802	T-403802-RNAseq.bam	RNA Sequence File	mammary tumor sample: RNA-seq reads to CanFam3.1																												
-file	MGT01-T-403802	T-403802-RNAseq.bam.bai	Index File	mammary tumor sample: bam index of RNAseq reads																												
-file	MGT01-T-406434	T-406434-RNAseq.bam	RNA Sequence File	mammary tumor sample: RNA-seq reads to CanFam3.1																												
-file	MGT01-T-406434	T-406434-RNAseq.bam.bai	Index File	mammary tumor sample: bam index of RNAseq reads																												
-file	MGT01-T-406434	T-406434-WES.bam	Whole Exome Sequence File	mammary tumor sample: WES reads to CanFam3.1																												
-file	MGT01-T-406434	T-406434-WES.bam.bai	Index File	mammary tumor sample: bam index of WES reads																												
-file	MGT01-T-406434	T-406434-WGS.bam	Whole Genome Sequence File	mammary tumor sample: WGS reads to CanFam3.1																												
-file	MGT01-T-406434	T-406434-WGS.bam.bai	Index File	mammary tumor sample: bam index of WGS reads																												
-file	MGT01-T-5	T-5-RNAseq.bam	RNA Sequence File	mammary tumor sample: RNA-seq reads to CanFam3.1																												
-file	MGT01-T-5	T-5-RNAseq.bam.bai	Index File	mammary tumor sample: bam index of RNAseq reads																												
-file	MGT01-T-5	T-5-WES.bam	Whole Exome Sequence File	mammary tumor sample: WES reads to CanFam3.1																												
-file	MGT01-T-5	T-5-WES.bam.bai	Index File	mammary tumor sample: bam index of WES reads																												
-file	MGT01-T-518	T-518-RNAseq.bam	RNA Sequence File	mammary tumor sample: RNA-seq reads to CanFam3.1																												
-file	MGT01-T-518	T-518-RNAseq.bam.bai	Index File	mammary tumor sample: bam index of RNAseq reads																												
-file	MGT01-T-76	T-76-RNAseq.bam	RNA Sequence File	mammary tumor sample: RNA-seq reads to CanFam3.1																												
-file	MGT01-T-76	T-76-RNAseq.bam.bai	Index File	mammary tumor sample: bam index of RNAseq reads																												
-file	MGT01-T-76	T-76-WES.bam	Whole Exome Sequence File	mammary tumor sample: WES reads to CanFam3.1																												
-file	MGT01-T-76	T-76-WES.bam.bai	Index File	mammary tumor sample: bam index of WES reads																												
-file	MGT01-T-76	T-76-WGS.bam	Whole Genome Sequence File	mammary tumor sample: WGS reads to CanFam3.1																												
-file	MGT01-T-76	T-76-WGS.bam.bai	Index File	mammary tumor sample: bam index of WGS reads																												
+type	file_name	uuid	file_size	md5sum	file_status	file_location	file_format	sample.sample_id	file_description	file_type
+file	T-115-RNAseq.bam.bai	5fd7f1ec-4f4d-5311-9753-9747b555c518	3772664	ff923517b0b973deba8e4633876ae0f9	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/T-115-RNAseq.bam.bai	bai	MGT01-T-115	mammary tumor sample: bam index of RNAseq reads	Index File
+file	T-159-RNAseq.bam.bai	ce0f1a6b-ae5f-52c8-bcbb-6f5b1158d593	3736728	1f2d61550ce9402c96fa5850a8f4b1e3	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/T-159-RNAseq.bam.bai	bai	MGT01-T-159	mammary tumor sample: bam index of RNAseq reads	Index File
+file	T-32510-RNAseq.bam.bai	175ba71a-0ca6-5351-b81d-0e760e1a699e	4331576	eca8d55c18a7e1e7edd3502e7e5900e5	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/T-32510-RNAseq.bam.bai	bai	MGT01-T-32510	mammary tumor sample: bam index of RNAseq reads	Index File
+file	T-341400-RNAseq.bam.bai	faf56d9e-24a8-5622-bfa9-ca1f0b3b57c2	4867384	7acdb681d91b5ae4dafc6b2af9a09c49	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/T-341400-RNAseq.bam.bai	bai	MGT01-T-341400	mammary tumor sample: bam index of RNAseq reads	Index File
+file	T-401130-RNAseq.bam.bai	548bfda1-95d6-59ba-9b05-ee9e1615cd31	3756784	bd3d9f5755fef56d354e2ec0a7831e61	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/T-401130-RNAseq.bam.bai	bai	MGT01-T-401130	mammary tumor sample: bam index of RNAseq reads	Index File
+file	T-401188-RNAseq.bam.bai	d8035f83-091f-5c76-b34e-0ec481503ee6	4312456	51eaa2679ad627f50e23b0194c9fc968	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/T-401188-RNAseq.bam.bai	bai	MGT01-T-401188	mammary tumor sample: bam index of RNAseq reads	Index File
+file	T-402421-RNAseq.bam.bai	9c73b87c-232a-540f-91c0-87605faac836	3510584	3011a31249ccb2f49f9cbf62c238436a	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/T-402421-RNAseq.bam.bai	bai	MGT01-T-402421	mammary tumor sample: bam index of RNAseq reads	Index File
+file	T-403802-RNAseq.bam.bai	e0e0d3d8-1644-5d82-aca4-aa1abf6171dd	3699576	3df3231797409fad223409d17cc96900	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/T-403802-RNAseq.bam.bai	bai	MGT01-T-403802	mammary tumor sample: bam index of RNAseq reads	Index File
+file	T-406434-RNAseq.bam.bai	8cbd97db-c74c-5bd2-9bc2-a5b050a48655	4285896	e5250eaa73a213d852f1c9ea3bc495f8	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/T-406434-RNAseq.bam.bai	bai	MGT01-T-406434	mammary tumor sample: bam index of RNAseq reads	Index File
+file	T-5-RNAseq.bam.bai	0764e08f-8d67-5c7f-9924-61207cd61041	3852328	8c445c5e86489f459bd52b852ceeb2ca	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/T-5-RNAseq.bam.bai	bai	MGT01-T-5	mammary tumor sample: bam index of RNAseq reads	Index File
+file	T-518-RNAseq.bam.bai	6e87a76e-e785-5223-849c-612d938afc93	3745000	368b54976b609815322584fe781e311a	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/T-518-RNAseq.bam.bai	bai	MGT01-T-518	mammary tumor sample: bam index of RNAseq reads	Index File
+file	T-76-RNAseq.bam.bai	93297495-a953-5938-96e3-806fcb042fc2	3993232	ad73b4bc4f5974437a6eb618bbb27008	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/T-76-RNAseq.bam.bai	bai	MGT01-T-76	mammary tumor sample: bam index of RNAseq reads	Index File
+file	T-159-WES.bam.bai	d35fefff-4d77-5049-8b11-e6a7111d363e	5800736	9a65d93980b56330ecaa623db7da9781	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/T-159-WES.bam.bai	bai	MGT01-T-159	mammary tumor sample: bam index of WES reads	Index File
+file	T-32510-WES.bam.bai	db43e9ef-553c-573c-a776-b6acd65ffdd5	5778776	87f3d4c977d5a2377b03eaad8b94a595	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/T-32510-WES.bam.bai	bai	MGT01-T-32510	mammary tumor sample: bam index of WES reads	Index File
+file	T-406434-WES.bam.bai	15e64c7a-cc07-5497-9352-25e1a0f56ea2	5836544	d8a2bfefabbbd7808a245764cf1c7e77	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/T-406434-WES.bam.bai	bai	MGT01-T-406434	mammary tumor sample: bam index of WES reads	Index File
+file	T-5-WES.bam.bai	5eb1d5aa-ddba-5dbd-b5f8-635f28d89edd	5464544	175bfc08968c663ebbe974ccc5f7dd99	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/T-5-WES.bam.bai	bai	MGT01-T-5	mammary tumor sample: bam index of WES reads	Index File
+file	T-76-WES.bam.bai	bedc1cab-069b-52f6-a198-ba11b9088f9e	6774432	d7cbd74434ff28376066a62850fdf9c2	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/T-76-WES.bam.bai	bai	MGT01-T-76	mammary tumor sample: bam index of WES reads	Index File
+file	T-32510-WGS.bam.bai	803f5889-0802-5ae7-88e3-fd6e0fab21a7	6962528	a679468d68723f3fc4af9b180ed6e7a9	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/T-32510-WGS.bam.bai	bai	MGT01-T-32510	mammary tumor sample: bam index of WGS reads	Index File
+file	T-406434-WGS.bam.bai	128a1963-9579-5063-8dc6-3237490c3f5b	6961000	d47c55f1af746933073c31f726134979	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/T-406434-WGS.bam.bai	bai	MGT01-T-406434	mammary tumor sample: bam index of WGS reads	Index File
+file	T-76-WGS.bam.bai	b05083b4-14f9-54bf-a2cc-1aa18634e793	7012504	a917279c691b3f72833bcdeef7cf779d	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/T-76-WGS.bam.bai	bai	MGT01-T-76	mammary tumor sample: bam index of WGS reads	Index File
+file	N-115-RNAseq.bam.bai	2abbbfd7-210a-5d81-a1ec-08eec2dd9251	3690712	30b067fe904fd6cdded91958366a45b6	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/N-115-RNAseq.bam.bai	bai	MGT01-N-115	matched normal tissue sample: bam index of RNAseq reads	Index File
+file	N-31005-RNAseq.bam.bai	cd4f810b-64de-5533-95a0-cef303008089	3677336	89a482ed173f60d021260779e1a20104	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/N-31005-RNAseq.bam.bai	bai	MGT01-N-31005	matched normal tissue sample: bam index of RNAseq reads	Index File
+file	N-32510-RNAseq.bam.bai	0c067958-820d-5bb6-82dc-2c15b0c69f34	3905784	8d76534f43f8838b97fb55bc9f7c1743	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/N-32510-RNAseq.bam.bai	bai	MGT01-N-32510	matched normal tissue sample: bam index of RNAseq reads	Index File
+file	N-401188-RNAseq.bam.bai	257d9993-1a01-5247-8adf-4f6665d01b59	3979280	e2efd8feca48c8e923d0689b027ef4cc	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/N-401188-RNAseq.bam.bai	bai	MGT01-N-401188	matched normal tissue sample: bam index of RNAseq reads	Index File
+file	N-406434-RNAseq.bam.bai	275b3e77-68f4-5683-899e-8e4cd88889d0	3845464	ebd443cd3e3f287627906af5afe4bece	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/N-406434-RNAseq.bam.bai	bai	MGT01-N-406434	matched normal tissue sample: bam index of RNAseq reads	Index File
+file	N-76-RNAseq.bam.bai	13064519-1827-5f45-a1c6-ba50305ba03e	3795096	adbb5db63823f6dff51e3377b05a6f5d	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/N-76-RNAseq.bam.bai	bai	MGT01-N-76	matched normal tissue sample: bam index of RNAseq reads	Index File
+file	N-159-WES.bam.bai	b3213f09-f1c2-5173-ac41-c7fc70777493	6451200	03a5b974b93722607135ec7d1063f50f	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/N-159-WES.bam.bai	bai	MGT01-N-159	matched normal tissue sample: bam index of WES reads	Index File
+file	N-32510-WES.bam.bai	e714a8bd-a198-5113-ada4-bd7ffc3a67df	5661696	be69511ecb5a98bbc493f8f7a0ec4070	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/N-32510-WES.bam.bai	bai	MGT01-N-32510	matched normal tissue sample: bam index of WES reads	Index File
+file	N-406434-WES.bam.bai	f5766798-68b9-560a-bb98-b7113db95ab7	5709696	648e915a15f2fd5001bc84aea14fcb08	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/N-406434-WES.bam.bai	bai	MGT01-N-406434	matched normal tissue sample: bam index of WES reads	Index File
+file	N-5-WES.bam.bai	9be80ee6-9797-5c91-ad5c-a210b4f31066	5244920	2bfe5a5ee282e1e9f3f8f66ca9bc9dc4	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/N-5-WES.bam.bai	bai	MGT01-N-5	matched normal tissue sample: bam index of WES reads	Index File
+file	N-76-WES.bam.bai	a9f1507d-77f7-5a12-be46-0726329d9504	5738400	cbbde9d5d19b7db7629546ff41d37dba	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/N-76-WES.bam.bai	bai	MGT01-N-76	matched normal tissue sample: bam index of WES reads	Index File
+file	N-32510-WGS.bam.bai	abe32f3b-4a17-5378-8abc-c87664510fc0	6963248	eda39f59d32da3b70f98ca985a2c3cbb	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/N-32510-WGS.bam.bai	bai	MGT01-N-32510	matched normal tissue sample: bam index of WGS reads	Index File
+file	N-406434-WGS.bam.bai	128b65a7-91eb-5469-9495-fc368e5f395b	6963016	d74989a8ba371cf1f11de4d99e0ac5b8	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/N-406434-WGS.bam.bai	bai	MGT01-N-406434	matched normal tissue sample: bam index of WGS reads	Index File
+file	N-76-WGS.bam.bai	0ed2ce54-48cb-563b-8472-3f984ea27d59	7011264	ea8bf76b2d75c0d5da07eb800554bc13	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/N-76-WGS.bam.bai	bai	MGT01-N-76	matched normal tissue sample: bam index of WGS reads	Index File
+file	T-115-RNAseq.bam	0e81be9b-ce46-56cd-929c-b84c130a1d31	2892466366	1af40ec22ab76e1fc88ec6007cf9ab79	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/T-115-RNAseq.bam	bam	MGT01-T-115	mammary tumor sample: RNA-seq reads to CanFam3.1	RNA Sequence File
+file	T-159-RNAseq.bam	b6dceb5c-8291-5544-83a2-533f1458b72a	2384073942	12729b1626442124306c879211751636	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/T-159-RNAseq.bam	bam	MGT01-T-159	mammary tumor sample: RNA-seq reads to CanFam3.1	RNA Sequence File
+file	T-32510-RNAseq.bam	a0d082f4-473a-5ed7-a9ab-1fed07591cea	4258331401	b59cf6c89ee29e332e2d0113a0a71181	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/T-32510-RNAseq.bam	bam	MGT01-T-32510	mammary tumor sample: RNA-seq reads to CanFam3.1	RNA Sequence File
+file	T-341400-RNAseq.bam	eb5281c7-d284-54d5-a017-bacdbea36099	3453511498	fa6b8b81a7f7646316c83949521be6ee	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/T-341400-RNAseq.bam	bam	MGT01-T-341400	mammary tumor sample: RNA-seq reads to CanFam3.1	RNA Sequence File
+file	T-401130-RNAseq.bam	5901bcfa-657c-5954-8b26-96fd5624742e	2323285635	23dcc8f8530504936c249320b9026b41	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/T-401130-RNAseq.bam	bam	MGT01-T-401130	mammary tumor sample: RNA-seq reads to CanFam3.1	RNA Sequence File
+file	T-401188-RNAseq.bam	dd9c0832-a31f-5f9d-9480-f61cc89d7c5c	4325925260	cbe792b7f67a15ea937394f314b927c0	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/T-401188-RNAseq.bam	bam	MGT01-T-401188	mammary tumor sample: RNA-seq reads to CanFam3.1	RNA Sequence File
+file	T-402421-RNAseq.bam	3c242484-179e-58c8-9bb0-70507a89c5c0	1990649771	2f1195c8096e6c0ac2478832d4f63ebf	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/T-402421-RNAseq.bam	bam	MGT01-T-402421	mammary tumor sample: RNA-seq reads to CanFam3.1	RNA Sequence File
+file	T-403802-RNAseq.bam	c4287e66-6718-5b1a-90f7-08e747985787	2230385256	b39bf7bef9d6e5c227f34602d68f02d3	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/T-403802-RNAseq.bam	bam	MGT01-T-403802	mammary tumor sample: RNA-seq reads to CanFam3.1	RNA Sequence File
+file	T-406434-RNAseq.bam	63e0ac46-c778-5703-b12a-1f0c385cced7	4139866372	faf7bb746e35639ec8bdafdd4bb6e849	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/T-406434-RNAseq.bam	bam	MGT01-T-406434	mammary tumor sample: RNA-seq reads to CanFam3.1	RNA Sequence File
+file	T-5-RNAseq.bam	c35869ca-077f-5797-afbb-7b78a9f87e3a	3614058560	0e719776d0987e569d788aef0c34995e	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/T-5-RNAseq.bam	bam	MGT01-T-5	mammary tumor sample: RNA-seq reads to CanFam3.1	RNA Sequence File
+file	T-518-RNAseq.bam	da818978-abed-5cc4-8682-3371c9195565	3671714439	a998f115a10026ce6364653ae83f5435	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/T-518-RNAseq.bam	bam	MGT01-T-518	mammary tumor sample: RNA-seq reads to CanFam3.1	RNA Sequence File
+file	T-76-RNAseq.bam	8f56c2d4-3a77-5a7a-965f-f3d7833ef382	4741052241	0437e694d2666f9911ab41b911183e23	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/T-76-RNAseq.bam	bam	MGT01-T-76	mammary tumor sample: RNA-seq reads to CanFam3.1	RNA Sequence File
+file	N-115-RNAseq.bam	74fc8653-3b29-5a5d-a457-bc20764bdb6e	2501110259	f1e831aacbd275cffc6fe31f23cbc107	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/N-115-RNAseq.bam	bam	MGT01-N-115	matched normal tissue sample: RNA-seq reads to CanFam3.1	RNA Sequence File
+file	N-31005-RNAseq.bam	aeadecea-1670-5982-b3db-100aacc442db	2104705567	ea8b6ec8be516508c4c9ebff5be3afb6	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/N-31005-RNAseq.bam	bam	MGT01-N-31005	matched normal tissue sample: RNA-seq reads to CanFam3.1	RNA Sequence File
+file	N-32510-RNAseq.bam	e4c13946-6299-52f7-9fa0-c17d43d90238	2932965073	6085be29006cfcec65085cf465846215	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/N-32510-RNAseq.bam	bam	MGT01-N-32510	matched normal tissue sample: RNA-seq reads to CanFam3.1	RNA Sequence File
+file	N-401188-RNAseq.bam	8cdba233-0198-5e4c-b8dc-6b5471e4d70a	3239302364	3cdc88604a50fbe63a0ebe14f504b73b	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/N-401188-RNAseq.bam	bam	MGT01-N-401188	matched normal tissue sample: RNA-seq reads to CanFam3.1	RNA Sequence File
+file	N-406434-RNAseq.bam	41022aa3-77b7-5084-9457-66974af32d84	2465028614	cccb24a747339ecba4f443607fa2ae8c	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/N-406434-RNAseq.bam	bam	MGT01-N-406434	matched normal tissue sample: RNA-seq reads to CanFam3.1	RNA Sequence File
+file	N-76-RNAseq.bam	ec44e6ce-5e59-51f2-b135-852bda4d52fd	2637487182	d08da87460f4987f22a4a42782a1a477	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/N-76-RNAseq.bam	bam	MGT01-N-76	matched normal tissue sample: RNA-seq reads to CanFam3.1	RNA Sequence File
+file	T-159-WES.bam	106bd5be-d14e-54f9-8543-1d8bb41fbfb6	13087242838	08bbc431cb809df2c68fbb4b58fe41b7	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/T-159-WES.bam	bam	MGT01-T-159	mammary tumor sample: WES reads to CanFam3.1	Whole Exome Sequence File
+file	T-32510-WES.bam	126a6687-9500-5c69-b3df-e5fcf66c3157	11794433150	b480be339782084c6b02e66259c19f51	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/T-32510-WES.bam	bam	MGT01-T-32510	mammary tumor sample: WES reads to CanFam3.1	Whole Exome Sequence File
+file	T-406434-WES.bam	45d79bfd-4c52-596c-8eac-ac083565a71d	7409834418	ff1e6f2141e5d4ce2b616201a359b8f0	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/T-406434-WES.bam	bam	MGT01-T-406434	mammary tumor sample: WES reads to CanFam3.1	Whole Exome Sequence File
+file	T-5-WES.bam	d9fcf60e-2415-5146-a66e-59d0e3d810f0	13340906669	b1350f199b0dd3f89dc6987918cccc43	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/T-5-WES.bam	bam	MGT01-T-5	mammary tumor sample: WES reads to CanFam3.1	Whole Exome Sequence File
+file	T-76-WES.bam	3c88f54b-c898-5d41-8ee5-c30ba48e093a	12515685624	32278584c75bed5550935de189ecd650	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/T-76-WES.bam	bam	MGT01-T-76	mammary tumor sample: WES reads to CanFam3.1	Whole Exome Sequence File
+file	N-159-WES.bam	19bbb47a-fcec-55de-b025-0e21300e1d93	9638236017	b0c8e0e6cc6ca5b8a1eaa00259e2c945	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/N-159-WES.bam	bam	MGT01-N-159	matched normal tissue sample: WES reads to CanFam3.1	Whole Exome Sequence File
+file	N-32510-WES.bam	58b84d6e-99fa-5c9c-839d-72d03ede2cc6	10651994898	869b726a6a39be4e9c3c80df8a035152	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/N-32510-WES.bam	bam	MGT01-N-32510	matched normal tissue sample: WES reads to CanFam3.1	Whole Exome Sequence File
+file	N-406434-WES.bam	4e906aeb-ce91-56d9-b1ee-935c3c7114be	10294677226	ff539bc8429e8e59e09ed6a82786d816	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/N-406434-WES.bam	bam	MGT01-N-406434	matched normal tissue sample: WES reads to CanFam3.1	Whole Exome Sequence File
+file	N-5-WES.bam	5911ac72-a9f2-53f0-90cb-5ab2afc40ea3	8416123909	60ec86feab72110330be089aeaca5bb9	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/N-5-WES.bam	bam	MGT01-N-5	matched normal tissue sample: WES reads to CanFam3.1	Whole Exome Sequence File
+file	N-76-WES.bam	98ea4fed-7d8d-5e25-8c34-343ee2c28040	10047226428	7ad00c394b1d7b98d20c2a0b725089cc	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/N-76-WES.bam	bam	MGT01-N-76	matched normal tissue sample: WES reads to CanFam3.1	Whole Exome Sequence File
+file	T-32510-WGS.bam	bbfe5c26-e45f-5eb0-9b78-96a88f72b810	24964239975	338d459592235608e5f3bd297ba96592	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/T-32510-WGS.bam	bam	MGT01-T-32510	mammary tumor sample: WGS reads to CanFam3.1	Whole Genome Sequence File
+file	T-406434-WGS.bam	9ce729f2-78c1-5bfa-86df-b4ee6adf497d	24990135689	5cbbcb19af79713e5758413881c89be5	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/T-406434-WGS.bam	bam	MGT01-T-406434	mammary tumor sample: WGS reads to CanFam3.1	Whole Genome Sequence File
+file	T-76-WGS.bam	0bf6715b-82c5-5b73-a38b-106142fc6969	25518117095	b781c0ca9abb52f91d4cdc473de147e8	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/T-76-WGS.bam	bam	MGT01-T-76	mammary tumor sample: WGS reads to CanFam3.1	Whole Genome Sequence File
+file	N-32510-WGS.bam	1ee61a19-6f82-54d6-8332-e94b955274da	25257196723	7a7e954dac86f3437cb6dfca9cbd2a3d	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/N-32510-WGS.bam	bam	MGT01-N-32510	matched normal tissue sample: WGS reads to CanFam3.1	Whole Genome Sequence File
+file	N-406434-WGS.bam	e0d6d723-6c95-5c1e-935d-f4241ac94bd8	24521026579	045ae1810084b48e598b49e7d7195a07	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/N-406434-WGS.bam	bam	MGT01-N-406434	matched normal tissue sample: WGS reads to CanFam3.1	Whole Genome Sequence File
+file	N-76-WGS.bam	e3986f77-a6f7-5cbf-9e15-e68dfee21570	22091712112	32e75d02b1b67d6757d64342b02579db	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/CMCP/MGT01/N-76-WGS.bam	bam	MGT01-N-76	matched normal tissue sample: WGS reads to CanFam3.1	Whole Genome Sequence File

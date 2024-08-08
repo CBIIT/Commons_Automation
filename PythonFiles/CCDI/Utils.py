@@ -46,6 +46,73 @@ def get_tsv_files_path():
     return base_path
 
 
+# # Loads a TSV file into a pandas DataFrame and sets a specified column as the index.
+# # Returns: DataFrame containing the data from the TSV file with the specified index.
+# def load_tsv_to_dataframe_with_index(file_path, index_column):
+#     try:
+#         df = pd.read_csv(file_path, delimiter='\t', index_col=index_column)
+#         return df
+#     except FileNotFoundError:
+#         print(f"File not found: {file_path}")
+#         return None
+#     except pd.errors.EmptyDataError:
+#         print("No data: The file is empty.")
+#         return None
+#     except pd.errors.ParserError:
+#         print("Parsing error: The file could not be parsed.")
+#         return None
+#     except KeyError:
+#         print(f"Key error: The column '{index_column}' does not exist.")
+#         return None
+#     except Exception as e:
+#         print(f"An error occurred: {e}")
+#         return None
+
+
+# def load_and_merge_versions(base_path, index_columns):
+#     # Initialize empty dataframes for each type
+#     dataframes = {key: pd.DataFrame() for key in index_columns.keys()}
+    
+#     # Get list of folders in base_path and filter out non-date directories
+#     all_folders = [folder for folder in os.listdir(base_path) if os.path.isdir(os.path.join(base_path, folder))]
+#     version_folders = [folder for folder in all_folders if is_date_format(folder, '%Y-%m-%d')]
+#     version_folders.sort(key=lambda x: datetime.strptime(x, '%Y-%m-%d'))
+    
+#     # Check for folders that are not in the expected date format
+#     invalid_folders = [folder for folder in all_folders if folder not in version_folders]
+#     if invalid_folders:
+#         print(f"The following folders are not in the expected date format 'YYYY-MM-DD': {', '.join(invalid_folders)}")
+    
+#     # Check if no valid version folders are found
+#     if not version_folders:
+#         print("No folders found in the expected date format 'YYYY-MM-DD'.")
+#         return dataframes
+    
+#     # Iterate through each version folder
+#     for version in version_folders:
+#         version_path = os.path.join(base_path, version)
+#         if os.path.isdir(version_path):
+#             # Load each TSV file in the version folder and merge it with the existing DataFrame
+#             for node, index_column in index_columns.items():
+#                 # Find files that end with the node name
+#                 for file_name in os.listdir(version_path):
+#                     if file_name.endswith(f"{node}.tsv"):
+#                         file_path = os.path.join(version_path, file_name)
+#                         df_new = load_tsv_to_dataframe_with_index(file_path, index_column)
+#                         if df_new is not None:
+#                             if not dataframes[node].empty:
+#                                 # Identify rows with duplicate indices
+#                                 duplicated_indices = df_new.index.intersection(dataframes[node].index)
+#                                 for idx in duplicated_indices:
+#                                     # Check for updated values in the new DataFrame
+#                                     if not df_new.loc[idx].equals(dataframes[node].loc[idx]):
+#                                         dataframes[node].loc[idx] = df_new.loc[idx]
+#                                 # Append new rows
+#                                 df_new = df_new[~df_new.index.isin(dataframes[node].index)]
+#                             # Concatenate non-duplicate rows
+#                             dataframes[node] = pd.concat([dataframes[node], df_new])
+#             print(f"Data successfully loaded for release: {version}")
+#     return dataframes
 
 def load_tsv_to_dataframe_with_index(file_path, index_column):
     try:
@@ -123,17 +190,12 @@ def is_date_format(date_str, date_format):
 
 # Index columns for each TSV file
 index_columns = {
-    'program': 'program_acronym',
-    'study': 'clinical_study_designation',
-    'case': 'case_id',
-    'demographic': 'demographic_id',
+    'study': 'phs_accession',
+    'participant': 'participant_id',
     'sample': 'sample_id',
     'diagnosis': 'diagnosis_id',
-    'enrollment': 'enrollment_id',
     'publication': 'pubmed_id',
-    'analysis_files': 'file_name',
-    'study_files': 'file_name',
-    'cohort': 'cohort_id'
+    'file': 'sequencing_file_id'
 }
 
 
@@ -161,42 +223,41 @@ def write_to_excel(output_excel, sheet_name, result_df):
 dataframes = load_and_merge_versions(get_tsv_files_path(), index_columns)
 
 # Now each dataframe can be accessed from the dataframes dictionary
-df_program = dataframes['program']
 df_study = dataframes['study']
-df_case = dataframes['case']
-df_demographic = dataframes['demographic']
+df_participant = dataframes['participant']
 df_sample = dataframes['sample']
 df_diagnosis = dataframes['diagnosis']
-df_case_file = dataframes['analysis_files']
-df_enrollment = dataframes['enrollment']
 df_publication = dataframes['publication']
-df_study_file = dataframes['study_files']
-df_cohort = dataframes['cohort']
+df_file = dataframes['file']
 
+# df_enrollment = dataframes['enrollment']
+
+# df_study_file = dataframes['study_files']
+# df_cohort = dataframes['cohort']
+
+# df_program = pd.DataFrame({'program_acronym': ['A1', 'A2'], 'data': ['data1', 'data2']}).set_index('program_acronym')
+# df_study = pd.DataFrame({'clinical_study_designation': ['S1', 'S2'], 'data': ['data3', 'data4']}).set_index('clinical_study_designation')
+# df_case = pd.DataFrame({'case_id': [1, 2], 'data': ['data5', 'data6']}).set_index('case_id')
+# df_demographic = pd.DataFrame({'demographic_id': [1, 2], 'data': ['data7', 'data8']}).set_index('demographic_id')
+# df_sample = pd.DataFrame({'sample_id': [1, 2], 'data': ['data9', 'data10']}).set_index('sample_id')
+# df_diagnosis = pd.DataFrame({'diagnosis_id': [1, 2], 'data': ['data11', 'data12']}).set_index('diagnosis_id')
+# df_file = pd.DataFrame({'file_name': ['file1', 'file2'], 'data': ['data13', 'data14']}).set_index('file_name')
+# df_enrollment = pd.DataFrame({'enrollment_id': [1, 2], 'data': ['data15', 'data16']}).set_index('enrollment_id')
+# df_publication = pd.DataFrame({'pubmed_id': [1, 2], 'data': ['data17', 'data18']}).set_index('pubmed_id')
 
 #Print each DataFrame
-# print("DataFrame: df_program")
-# print(df_program)
-# print("\nDataFrame: df_study")
-# print(df_study)
-# print("\nDataFrame: df_case")
-# print(df_case)
-# print("\nDataFrame: df_demographic")
-# print(df_demographic)
-# print("\nDataFrame: df_sample")
-# print(df_sample)
-# print("\nDataFrame: df_diagnosis")
-# print(df_diagnosis)
-# print("\nDataFrame: df_case_file")
-# print(df_case_file)
-# print("\nDataFrame: df_enrollment")
-# print(df_enrollment)
-# print("\nDataFrame: df_publication")
-# print(df_publication)
-# print("\nDataFrame: df_study_file")
-# print(df_study_file)
-# print("\nDataFrame: df_cohort")
-# print(df_cohort)
+print("\nDataFrame: df_study")
+print(df_study)
+print("\nDataFrame: df_participant")
+print(df_participant)
+print("\nDataFrame: df_sample")
+print(df_sample)
+print("\nDataFrame: df_diagnosis")
+print(df_diagnosis)
+print("\nDataFrame: df_publication")
+print(df_publication)
+print("\nDataFrame: df_file")
+print(df_file)
 
 df_run_query = lambda q: ps.sqldf(q, globals())
 
