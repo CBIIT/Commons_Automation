@@ -37,11 +37,11 @@ import com.kms.katalon.core.util.KeywordUtil
 import java.nio.file.Paths
 
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC01_ICDC_TCL01_Breed-GoldenRetriever.xlsx')
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC01_CDS_phs002504_Sex-Male.xlsx')
 
-CustomKeywords.'ctdc.utilities.PythonReader.readFile'('CasesTab.py')
+//CustomKeywords.'ctdc.utilities.PythonReader.readFile'('CasesTab.py')
 //CustomKeywords.'ctdc.utilities.PythonReader.readFile'('SamplesTab.py')
 //CustomKeywords.'ctdc.utilities.PythonReader.readFile'('CaseFilesTab.py')
 //CustomKeywords.'ctdc.utilities.PythonReader.readFile'('StudyFilesTab.py')
-//CustomKeywords.'ctdc.utilities.PythonReader.readFile'('Statbar.py')
+CustomKeywords.'ctdc.utilities.PythonReader.readFile'('Statbar.py')
 
