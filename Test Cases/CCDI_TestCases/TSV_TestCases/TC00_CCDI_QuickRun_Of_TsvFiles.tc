@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC00_CCDI_QuickRun_Of_TsvFiles</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6b539d74-aee0-4456-adf2-14aea2563211</testCaseGuid>
+</TestCaseEntity>
