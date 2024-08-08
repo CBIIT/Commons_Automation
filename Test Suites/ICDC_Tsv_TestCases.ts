@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>CDS_TsvFilesTestCases</name>
+   <name>ICDC_Tsv_TestCases</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,19 +10,19 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>549236d4-ee4c-4b2b-87b8-a3005dbb7cb6</testSuiteGuid>
+   <testSuiteGuid>5adbc746-d8dd-402a-aed6-24946f21c114</testSuiteGuid>
    <testCaseLink>
-      <guid>ed6f8b74-72e6-4ed1-a889-b6c39a058da6</guid>
+      <guid>ce5fc8d1-9c81-43c4-af78-8e08d5dd5aea</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/TSV_TestCases/phs001287/TC01_CDS_phs001287_Gender_Female</testCaseId>
+      <testCaseId>Test Cases/Canine_TestCases/TSV_TestCases/TLC01/TC01_ICDC_TCL01_Breed-GoldenRetriever</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>ba1cb95f-2a7a-48b2-9edf-fa73a8d1777a</guid>
+      <guid>e89018cd-ab36-4673-9fc6-3b02078f0c77</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/TSV_TestCases/phs002431/TC01_CDS_phs002431_Gender_Female</testCaseId>
+      <testCaseId>Test Cases/Canine_TestCases/TSV_TestCases/MGT01/TC01_ICDC_MGT01_Breed-LabradorRetriever</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
