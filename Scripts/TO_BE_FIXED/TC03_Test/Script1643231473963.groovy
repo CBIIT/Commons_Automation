@@ -30,15 +30,15 @@ import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.closeBrowser()
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC02_Canine_MFST_SamplePatho-TCellLymphoma.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC02_Canine_MFST_SamplePatho-TCellLymphoma.xlsx')
 
 WebUI.waitForElementPresent(findTestObject('Canine/NavBar/Canine_Cases_Btn'), 5)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Canine_PopUp_Continue_Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Canine/Canine_PopUp_Continue_Btn')
 
 System.out.println('Closed the popup window')
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Canine/NavBar/Canine_Cases_Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Canine/NavBar/Canine_Cases_Btn')
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/FilterBySamples_Facet'), 5)
 
@@ -47,7 +47,7 @@ attribute = WebUI.getAttribute(findTestObject('Object Repository/Canine/Filter/F
 
 System.out.println('This is the value of the attribute : ' + attribute)
 
-String xpathElem = CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.givexpath'('Object Repository/Canine/Filter/FilterByCases_Facet')
+String xpathElem = CustomKeywords.'utilities.TestRunner.givexpath'('Object Repository/Canine/Filter/FilterByCases_Facet')
 
 System.out.println('This is the value of the xpath fm getxpath: ' + xpathElem)
 

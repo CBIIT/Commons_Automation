@@ -39,29 +39,29 @@ import org.openqa.selenium.interactions.Action as Action
  */
 WebUI.closeBrowser()
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC01_Bento_LocalSearch_Type_and_Dropdown_Select.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC01_Bento_LocalSearch_Type_and_Dropdown_Select.xlsx')
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Bento/Banner/Bento_Warning_Continue_Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Bento/Banner/Bento_Warning_Continue_Btn')
 System.out.println ("Closed the warning window");
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/Bento/NavBar/Bento_Cases-Btn'), 5)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Bento/NavBar/Bento_Cases-Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Bento/NavBar/Bento_Cases-Btn')
 
 WebUI.waitForElementClickable(findTestObject('Bento/Cases_page/Bento_LocalSearch_TxtBx'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Bento/Cases_page/Bento_LocalSearch_TxtBx')
+CustomKeywords.'utilities.TestRunner.clickTab'('Bento/Cases_page/Bento_LocalSearch_TxtBx')
 
-//CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Bento/Cases_page/Bento_CaseIDLocalSearch_TxtBx')
+//CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Bento/Cases_page/Bento_CaseIDLocalSearch_TxtBx')
 WebUI.sendKeys(findTestObject('Bento/Cases_page/Bento_LocalSearch_TxtBx'), 'BENTO-CASE-3405') //This will reveal 3 ids.  Selecting the first id  with index 0
 Thread.sleep(5000)
 
-//CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.BentoLocalFindDdn'()
+//CustomKeywords.'utilities.TestRunner.BentoLocalFindDdn'()
 
 //System.out.println('Reporting frm the test script after running bento local find function')
 
 Thread.sleep(7000)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.readStatBarBento'('Object Repository/Bento/StatBar/Bento_StatBar-Programs', 
+CustomKeywords.'utilities.TestRunner.readStatBarBento'('Object Repository/Bento/StatBar/Bento_StatBar-Programs', 
     'Object Repository/Bento/StatBar/Bento_StatBar-Arms', 'Object Repository/Bento/StatBar/Bento_StatBar-Cases', 'Object Repository/Bento/StatBar/Bento_StatBar-Samples', 
     'Object Repository/Bento/StatBar/Bento_StatBar-Assays', 'Object Repository/Bento/StatBar/Bento_StatBar-Files')
 
@@ -70,11 +70,11 @@ Thread.sleep(5000)
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Bento/Cases_page/BentoResults_Cases_Tab'), 5)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Bento/Cases_page/BentoResults_Cases_Tab')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Bento/Cases_page/BentoResults_Cases_Tab')
 Thread.sleep(5000)
  
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.multiFunction'('Bento', GlobalVariable.G_StatBar_Cases, 'Object Repository/Bento/Cases_page/Bento_CasesTable', 
+CustomKeywords.'utilities.TestRunner.multiFunction'('Bento', GlobalVariable.G_StatBar_Cases, 'Object Repository/Bento/Cases_page/Bento_CasesTable', 
     'Object Repository/Bento/Cases_page/Bento_CasesTableHeader', 'Object Repository/Bento/Cases_page/Bento_CasesTabNextBtn', 
     GlobalVariable.G_WebTabnameCases, GlobalVariable.G_CypherTabnameCases, GlobalVariable.G_QueryCasesTab)
 

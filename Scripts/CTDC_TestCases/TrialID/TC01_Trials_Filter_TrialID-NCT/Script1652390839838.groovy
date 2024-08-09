@@ -47,9 +47,9 @@ WebUI.closeBrowser()
 
 WebUI.openBrowser('')
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.browserDriver'('')
+CustomKeywords.'utilities.TestRunner.browserDriver'('')
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC01_Trials_Filter_TrialID-NCT.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC01_Trials_Filter_TrialID-NCT.xlsx')
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Trials/Trials_CASES_Btn') , 5)
 WebUI.click( findTestObject('Object Repository/Trials/Trials_CASES_Btn'))
@@ -63,15 +63,15 @@ WebUI.click( findTestObject('Object Repository/Trials/Filter/TrialID/TRIALID_Ddn
 WebUI.click(findTestObject('Object Repository/Trials/Filter/TrialID/NCT_Chkbx') )
  
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.ReadCasesTableKatalon'('Object Repository/Trials/Trials_CasesTable', 
+CustomKeywords.'utilities.TestRunner.ReadCasesTableKatalon'('Object Repository/Trials/Trials_CasesTable', 
     'Object Repository/Trials/Trials_TableHeader', 'Object Repository/Trials/Trials_NextBtn', GlobalVariable.G_WebTabnameCasesCasesCases)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.readTrialsStatBar'('Object Repository/Trials/Trials_StatBar-Trials', 
+CustomKeywords.'utilities.TestRunner.readTrialsStatBar'('Object Repository/Trials/Trials_StatBar-Trials', 
     'Object Repository/Trials/Trials_StatBar-Cases', 'Object Repository/Trials/Trials_StatBar-Files')
 
-CustomKeywords.'ctdc.utilities.ReadExcel.Neo4j'()
+CustomKeywords.'utilities.ReadExcel.Neo4j'()
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.compareLists'(GlobalVariable.G_WebTabnameCasesCasesCases, GlobalVariable.G_CypherTabnameCasesCasesCases)
+CustomKeywords.'utilities.TestRunner.compareLists'(GlobalVariable.G_WebTabnameCasesCasesCases, GlobalVariable.G_CypherTabnameCasesCasesCases)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.validateTrialsStatBar'()
+CustomKeywords.'utilities.TestRunner.validateTrialsStatBar'()
 

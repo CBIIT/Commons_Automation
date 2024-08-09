@@ -19,9 +19,9 @@ WebUI.closeBrowser()
 
 //This testcase belongs to Canine_Testcases/NeuteredStatus.   Move there once fixed
 
-//CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.browserDriver'('')
+//CustomKeywords.'utilities.TestRunner.browserDriver'('')
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC02_Canine_Filter_StudyType-Transcriptomics.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC02_Canine_Filter_StudyType-Transcriptomics.xlsx')
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/NavBar/Canine_Cases_Btn'), 5)
 
@@ -33,7 +33,7 @@ WebUI.click(findTestObject('Object Repository/Canine/Filter/StudyType/Canine_Fil
 
 WebUI.click(findTestObject('Canine/Filter/StudyType/Canine_Filter_StudyType-Transcrip_Chkbx'))
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.Select_case_checkbox'('NCATS-COP01-CCB010031', 'one')
+CustomKeywords.'utilities.TestRunner.Select_case_checkbox'('NCATS-COP01-CCB010031', 'one')
 
 WebUI.click(findTestObject('Canine/Canine_SaveToMycases'))
 
@@ -44,7 +44,7 @@ WebUI.click(findTestObject('Canine/NavBar/Canine_MyFilesCart'))
 //WebUI.click(findTestObject('Object Repository/Canine/Canine_GoToFiles'))
 WebUI.maximizeWindow()
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.Select_case_checkbox'('', 'allM')
+CustomKeywords.'utilities.TestRunner.Select_case_checkbox'('', 'allM')
 
 //WebUI.click(findTestObject('Canine/Cases_page/Canine_SelectAll'))
 WebUI.click(findTestObject('Canine/Cart/Canine_DownloadManifest'))

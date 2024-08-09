@@ -39,35 +39,35 @@ import org.openqa.selenium.interactions.Action as Action
  */
 WebUI.closeBrowser()
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC01_CTDC_LocalSearch_Type_and_Dropdown_Select.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC01_CTDC_LocalSearch_Type_and_Dropdown_Select.xlsx')
 
  
 WebUI.waitForElementClickable(findTestObject('Object Repository/Trials/Trials_CASES_Btn'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Trials/Trials_CASES_Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Trials/Trials_CASES_Btn')
 
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/Trials/Cases_page/Trials_LocalFind_TxtBx'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Trials/Cases_page/Trials_LocalFind_TxtBx')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Trials/Cases_page/Trials_LocalFind_TxtBx')
 
-//CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Bento/Cases_page/Bento_CaseIDLocalSearch_TxtBx')
+//CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Bento/Cases_page/Bento_CaseIDLocalSearch_TxtBx')
 WebUI.sendKeys(findTestObject('Object Repository/Trials/Cases_page/Trials_LocalFind_TxtBx'), 'CTDC-44475')  
 Thread.sleep(5000)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.CTDCLocalFindDdn'()
+CustomKeywords.'utilities.TestRunner.CTDCLocalFindDdn'()
 
 System.out.println('Reporting frm the test script after running CTDC local find function')
 
 Thread.sleep(2000)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.readTrialsStatBar'('Object Repository/Trials/Trials_StatBar-Trials',
+CustomKeywords.'utilities.TestRunner.readTrialsStatBar'('Object Repository/Trials/Trials_StatBar-Trials',
 	'Object Repository/Trials/Trials_StatBar-Cases', 'Object Repository/Trials/Trials_StatBar-Files')
 Thread.sleep(2000)
 
 
 WebUI.waitForElementPresent(findTestObject('Trials/Cases_page/Trials_Results_Cases_Tab'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Trials/Cases_page/Trials_Results_Cases_Tab')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Trials/Cases_page/Trials_Results_Cases_Tab')
 
- CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.multiFunction'('CTDC',GlobalVariable.G_TStatBar_Cases,'Object Repository/Trials/Cases_page/Trials_CasesTable',
+ CustomKeywords.'utilities.TestRunner.multiFunction'('CTDC',GlobalVariable.G_TStatBar_Cases,'Object Repository/Trials/Cases_page/Trials_CasesTable',
 	'Object Repository/Trials/Cases_page/Trials_CasesTableHeader', 'Object Repository/Trials/Cases_page/Trials_CasesTabNextBtn', GlobalVariable.G_WebTabnameCases,
 	GlobalVariable.G_CypherTabnameCases,GlobalVariable.G_QueryCasesTab)
 

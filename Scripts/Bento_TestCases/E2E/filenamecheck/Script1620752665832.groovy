@@ -47,10 +47,10 @@ import org.supercsv.prefs.CsvPreference;
 
 //commenting for now
 //using superCSV apache poi to convert csv to excel	
-//CustomKeywords.'ctdc.utilities.FileOperations.csvToEXCEL'(GlobalVariable.G_WebTabnameMyCartsvFileName, GlobalVariable.G_excelFileName)
+//CustomKeywords.'utilities.FileOperations.csvToEXCEL'(GlobalVariable.G_WebTabnameMyCartsvFileName, GlobalVariable.G_excelFileName)
 
-//CustomKeywords.'ctdc.utilities.FileOperations.generate'()
+//CustomKeywords.'utilities.FileOperations.generate'()
 
-//CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.compareLists'(GlobalVariable.G_WebTabNameMyCart, GlobalVariable.G_ManifestTabName)
+//CustomKeywords.'utilities.TestRunner.compareLists'(GlobalVariable.G_WebTabNameMyCart, GlobalVariable.G_ManifestTabName)
 
-//CustomKeywords.'ctdc.utilities.FileOperations.xlsTOxlsx'()
+//CustomKeywords.'utilities.FileOperations.xlsTOxlsx'()

@@ -46,9 +46,9 @@ WebUI.closeBrowser()
 
 WebUI.openBrowser('')
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.browserDriver'('')
+CustomKeywords.'utilities.TestRunner.browserDriver'('')
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC01_Trials_CaseFiles_PubmedID-315.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC01_Trials_CaseFiles_PubmedID-315.xlsx')
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Trials/Trials_CASES_Btn'), 5)
 
@@ -60,10 +60,10 @@ WebUI.click(findTestObject('Trials/Filter/PubmedID/PUBMEDID_Ddn'))
 
 WebUI.click(findTestObject('Trials/Filter/PubmedID/31504139_Chkbx'))
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.File_details'('Object Repository/Trials/Trials_CasesTable', 'Object Repository/Trials/Trials_TableHeader', 
+CustomKeywords.'utilities.TestRunner.File_details'('Object Repository/Trials/Trials_CasesTable', 'Object Repository/Trials/Trials_TableHeader', 
     'Object Repository/Trials/Trials_NextBtn')
 
-CustomKeywords.'ctdc.utilities.ReadExcel.Neo4j'()
+CustomKeywords.'utilities.ReadExcel.Neo4j'()
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.compareLists'(GlobalVariable.G_caseDetailsTabName, GlobalVariable.G_CaseDetailStatTabname)
+CustomKeywords.'utilities.TestRunner.compareLists'(GlobalVariable.G_caseDetailsTabName, GlobalVariable.G_CaseDetailStatTabname)
 

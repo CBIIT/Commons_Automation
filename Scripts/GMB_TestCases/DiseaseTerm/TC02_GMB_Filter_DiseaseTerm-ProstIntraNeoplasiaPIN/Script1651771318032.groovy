@@ -38,37 +38,37 @@ import org.supercsv.prefs.CsvPreference as CsvPreference
 
 WebUI.closeBrowser()
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC02_GMB_Filter_DiseaseTerm-ProstIntraNeoplasiaPIN.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC02_GMB_Filter_DiseaseTerm-ProstIntraNeoplasiaPIN.xlsx')
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/GMB/NavBar/GMB_Subjects-Btn'),5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/GMB/NavBar/GMB_Subjects-Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/GMB/NavBar/GMB_Subjects-Btn')
 
 Thread.sleep(3000)
 //Clicking race drop-down
 WebUI.waitForElementPresent(findTestObject('GMB/Filter/DiseaseTerm/DiseaseTerm_Ddn'),20)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('GMB/Filter/DiseaseTerm/DiseaseTerm_Ddn')
+CustomKeywords.'utilities.TestRunner.clickTab'('GMB/Filter/DiseaseTerm/DiseaseTerm_Ddn')
 
 //Clicking ProstateIntraepithelialNeopPIN checkbox
 WebUI.waitForElementPresent(findTestObject('GMB/Filter/DiseaseTerm/ProstateIntraepithelialNeopPIN_Chkbx'),5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('GMB/Filter/DiseaseTerm/ProstateIntraepithelialNeopPIN_Chkbx')
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('GMB/Filter/DiseaseTerm/DiseaseTerm_Ddn')
+CustomKeywords.'utilities.TestRunner.clickTab'('GMB/Filter/DiseaseTerm/ProstateIntraepithelialNeopPIN_Chkbx')
+CustomKeywords.'utilities.TestRunner.clickTab'('GMB/Filter/DiseaseTerm/DiseaseTerm_Ddn')
 
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.readGMBStatBar'('Object Repository/GMB/StatBar/GMB_StatBar-Trials',
+CustomKeywords.'utilities.TestRunner.readGMBStatBar'('Object Repository/GMB/StatBar/GMB_StatBar-Trials',
 	'Object Repository/GMB/StatBar/GMB_StatBar-Subjects', 'Object Repository/GMB/StatBar/GMB_StatBar-Files')
 
 
 //clicking the Subjects tab
 WebUI.waitForElementPresent(findTestObject('Object Repository/GMB/GMBResults_Subjects_Tab'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/GMB/GMBResults_Subjects_Tab')
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.multiFunction'('GMB', GlobalVariable.G_GStatBar_Subjects, 'Object Repository/GMB/GMB_Subjects_Table',
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/GMB/GMBResults_Subjects_Tab')
+CustomKeywords.'utilities.TestRunner.multiFunction'('GMB', GlobalVariable.G_GStatBar_Subjects, 'Object Repository/GMB/GMB_Subjects_Table',
 	'Object Repository/GMB/GMB_Subjects_TableHdr', 'Object Repository/GMB/GMB_Subjects_TabNextBtn', GlobalVariable.G_GWebTabnameSubjects,
 	GlobalVariable.G_GCypherTabnameSubjects, GlobalVariable.G_GQuerySubjectsTab)
 
 //clicking the case Files tab
 WebUI.waitForElementPresent(findTestObject('Object Repository/GMB/GMBResults_Files_Tab'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/GMB/GMBResults_Files_Tab')
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.multiFunction'('GMB', GlobalVariable.G_StatBar_ClinTrials, 'Object Repository/GMB/GMB_Files_Table',
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/GMB/GMBResults_Files_Tab')
+CustomKeywords.'utilities.TestRunner.multiFunction'('GMB', GlobalVariable.G_StatBar_ClinTrials, 'Object Repository/GMB/GMB_Files_Table',
 	'Object Repository/GMB/GMB_Files_TableHdr', 'Object Repository/GMB/GMB_FilesTabNextBtn', GlobalVariable.G_WebTabnameFiles,
 	GlobalVariable.G_CypherTabnameFiles, GlobalVariable.G_QueryFilesTab)
 

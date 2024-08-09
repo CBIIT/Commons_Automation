@@ -32,7 +32,7 @@ import internal.GlobalVariable as GlobalVariable
 import java.io.File as File
 import org.openqa.selenium.remote.DesiredCapabilities as DesiredCapabilities
 
-//CustomKeywords.'ctdc.utilities.CustomBrowserDriver.firefoxHeadless'()
-//CustomKeywords.'ctdc.utilities.CustomBrowserDriver.chromeHeadless'()
-CustomKeywords.'ctdc.utilities.FileOperations.pickLatestFileFromDownloads'()
+//CustomKeywords.'utilities.CustomBrowserDriver.firefoxHeadless'()
+//CustomKeywords.'utilities.CustomBrowserDriver.chromeHeadless'()
+CustomKeywords.'utilities.FileOperations.pickLatestFileFromDownloads'()
 

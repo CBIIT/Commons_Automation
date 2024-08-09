@@ -44,31 +44,31 @@ import java.nio.file.Paths as Paths
   */
 WebUI.closeBrowser() 
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC24_Trials_Filter_Diagnosis-SmallCell.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC24_Trials_Filter_Diagnosis-SmallCell.xlsx')
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/Trials/Trials_CASES_Btn'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Trials/Trials_CASES_Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Trials/Trials_CASES_Btn')
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Trials/Filter/Diagnosis/DIAGNOSIS_Ddn'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Trials/Filter/Diagnosis/DIAGNOSIS_Ddn')
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Trials/Filter/Diagnosis/SmallCellLung_Chkbx')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Trials/Filter/Diagnosis/DIAGNOSIS_Ddn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Trials/Filter/Diagnosis/SmallCellLung_Chkbx')
 
 Thread.sleep(2000)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.readTrialsStatBar'('Object Repository/Trials/Trials_StatBar-Trials',
+CustomKeywords.'utilities.TestRunner.readTrialsStatBar'('Object Repository/Trials/Trials_StatBar-Trials',
 	'Object Repository/Trials/Trials_StatBar-Cases', 'Object Repository/Trials/Trials_StatBar-Files')
 Thread.sleep(2000)
 
 WebUI.waitForElementPresent(findTestObject('Trials/Cases_page/Trials_Results_Cases_Tab'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Trials/Cases_page/Trials_Results_Cases_Tab')
- CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.multiFunction'('CTDC',GlobalVariable.G_TStatBar_Cases,'Object Repository/Trials/Cases_page/Trials_CasesTable',
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Trials/Cases_page/Trials_Results_Cases_Tab')
+ CustomKeywords.'utilities.TestRunner.multiFunction'('CTDC',GlobalVariable.G_TStatBar_Cases,'Object Repository/Trials/Cases_page/Trials_CasesTable',
 	'Object Repository/Trials/Cases_page/Trials_CasesTableHeader', 'Object Repository/Trials/Cases_page/Trials_CasesTabNextBtn', GlobalVariable.G_WebTabnameCases,
 	GlobalVariable.G_CypherTabnameCases,GlobalVariable.G_QueryCasesTab)
 
 
  WebUI.waitForElementPresent(findTestObject('Trials/Cases_page/Trials_Results_Files_Tab'), 5)
- CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Trials/Cases_page/Trials_Results_Files_Tab')
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.multiFunction'('CTDC',GlobalVariable.G_TStatBar_Files,'Object Repository/Trials/Cases_page/Trials_FilesTable',
+ CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Trials/Cases_page/Trials_Results_Files_Tab')
+CustomKeywords.'utilities.TestRunner.multiFunction'('CTDC',GlobalVariable.G_TStatBar_Files,'Object Repository/Trials/Cases_page/Trials_FilesTable',
 	'Object Repository/Trials/Cases_page/Trials_FilesTableHeader', 'Object Repository/Trials/Cases_page/Trials_FilesTabNextBtn', GlobalVariable.G_WebTabnameFiles,
 	GlobalVariable.G_CypherTabnameFiles,GlobalVariable.G_QueryFilesTab)
 

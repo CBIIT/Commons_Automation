@@ -47,9 +47,9 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.browserDriver'('')
+CustomKeywords.'utilities.TestRunner.browserDriver'('')
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC25_Canine_Filter_Breed-Greyhnd.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC25_Canine_Filter_Breed-Greyhnd.xlsx')
 
 WebUI.waitForElementPresent(findTestObject('Canine/NavBar/Canine_Cases_Btn'), 5)
 
@@ -65,22 +65,22 @@ not_run: WebUI.click(findTestObject('Canine/Canine_rows'))
 
 not_run: WebUI.click(findTestObject('Canine/Canine_Select100'), FailureHandling.STOP_ON_FAILURE)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.ReadCasesTableKatalon'('Object Repository/Canine/Canine_CasesTable', 
+CustomKeywords.'utilities.TestRunner.ReadCasesTableKatalon'('Object Repository/Canine/Canine_CasesTable', 
     'Object Repository/Canine/Canine_TableHeader', 'Object Repository/Canine/Canine_NextBtn', GlobalVariable.G_WebTabnameCasesCasesCases)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.readStatBar'('Object Repository/Canine/Canine_StatBar-Files', 'Object Repository/Canine/Canine_StatBar-Samples', 
+CustomKeywords.'utilities.TestRunner.readStatBar'('Object Repository/Canine/Canine_StatBar-Files', 'Object Repository/Canine/Canine_StatBar-Samples', 
     'Object Repository/Canine/Canine_StatBar-Cases', 'Object Repository/Canine/Canine_StatBar-Studies')
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.File_details'('Object Repository/Canine/Canine_CasesTable', 'Object Repository/Canine/Canine_TableHeader', 
+CustomKeywords.'utilities.TestRunner.File_details'('Object Repository/Canine/Canine_CasesTable', 'Object Repository/Canine/Canine_TableHeader', 
     'Object Repository/Canine/Canine_NextBtn')
 
-CustomKeywords.'ctdc.utilities.ReadExcel.Neo4j'()
+CustomKeywords.'utilities.ReadExcel.Neo4j'()
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.compareLists'(GlobalVariable.G_WebTabnameCasesCasesCases, GlobalVariable.G_CypherTabnameCasesCasesCases)
+CustomKeywords.'utilities.TestRunner.compareLists'(GlobalVariable.G_WebTabnameCasesCasesCases, GlobalVariable.G_CypherTabnameCasesCasesCases)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.compareLists'(GlobalVariable.G_caseDetailsTabName, GlobalVariable.G_CaseDetailStatTabname)
+CustomKeywords.'utilities.TestRunner.compareLists'(GlobalVariable.G_caseDetailsTabName, GlobalVariable.G_CaseDetailStatTabname)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.validateStatBar'()
+CustomKeywords.'utilities.TestRunner.validateStatBar'()
 
 
 

@@ -42,37 +42,37 @@ import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
  */
 WebUI.closeBrowser()
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC01_Bento_Filter_Program-TailorX.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC01_Bento_Filter_Program-TailorX.xlsx')
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Bento/Banner/Bento_Warning_Continue_Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Bento/Banner/Bento_Warning_Continue_Btn')
 System.out.println ("Closed the warning window");
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/Bento/NavBar/Bento_Cases-Btn'),5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Bento/NavBar/Bento_Cases-Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Bento/NavBar/Bento_Cases-Btn')
 WebUI.delay(3)
 //WebUI.waitForElementClickable(findTestObject('Bento/Cases_page/Filter/Program/Program_Ddn'),5)
-//CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Bento/Cases_page/Filter/Program/Program_Ddn')
+//CustomKeywords.'utilities.TestRunner.clickTab'('Bento/Cases_page/Filter/Program/Program_Ddn')
 //
 //WebUI.waitForElementClickable(findTestObject('Bento/Cases_page/Filter/Program/tailorX_Chkbx'),5)
-//CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Bento/Cases_page/Filter/Program/tailorX_Chkbx')
+//CustomKeywords.'utilities.TestRunner.clickTab'('Bento/Cases_page/Filter/Program/tailorX_Chkbx')
 //WebUI.delay(3)
 
 
 
 //Read statbar 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.readStatBarBento'('Object Repository/Bento/StatBar/Bento_StatBar-Programs',
+CustomKeywords.'utilities.TestRunner.readStatBarBento'('Object Repository/Bento/StatBar/Bento_StatBar-Programs',
 	'Object Repository/Bento/StatBar/Bento_StatBar-Arms', 'Object Repository/Bento/StatBar/Bento_StatBar-Cases', 'Object Repository/Bento/StatBar/Bento_StatBar-Samples',
 	'Object Repository/Bento/StatBar/Bento_StatBar-Assays', 'Object Repository/Bento/StatBar/Bento_StatBar-Files')
 
 //Navigate to Programs page
 WebUI.waitForElementPresent(findTestObject('Bento/NavBar/Bento_Programs-Btn'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Bento/NavBar/Bento_Programs-Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Bento/NavBar/Bento_Programs-Btn')
 WebUI.delay(3)
 
 //Checking the Programs table 
 
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.multiFunction'('Bento',GlobalVariable.G_StatBar_Cases, 'Object Repository/Bento/Programs_page/Bento_ProgramsTable',
+CustomKeywords.'utilities.TestRunner.multiFunction'('Bento',GlobalVariable.G_StatBar_Cases, 'Object Repository/Bento/Programs_page/Bento_ProgramsTable',
 	'Object Repository/Bento/Programs_page/Programs_TblHdr', 'Object Repository/Bento/Programs_page/Bento_ProgramsTabNextBtn',GlobalVariable.G_WebTabnamePrograms,
 	GlobalVariable.G_CypherTabnamePrograms, GlobalVariable.G_QueryProgramsTab)
 

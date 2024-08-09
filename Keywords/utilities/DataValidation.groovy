@@ -1,4 +1,4 @@
-package ctdc.utilities
+package utilities
 
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import java.awt.AWTException;
@@ -49,10 +49,10 @@ import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.OutputType;
 //import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.Cookie as Cookie
-import ctdc.utilities.runtestcaseforKatalon as webUIHelper
+import utilities.TestRunner as webUIHelper
 
 
-public class DataValidation extends runtestcaseforKatalon{
+public class DataValidation extends TestRunner{
 
 	public static WebDriver driver
 

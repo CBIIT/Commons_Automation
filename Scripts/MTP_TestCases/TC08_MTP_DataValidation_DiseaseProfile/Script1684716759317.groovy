@@ -67,7 +67,7 @@ GlobalVariable.fullUrl = Url
 
 System.out.println('This is the full url: ' + GlobalVariable.fullUrl)
 
-CustomKeywords.'ctdc.utilities.DataValidation.initDriver'()
+CustomKeywords.'utilities.DataValidation.initDriver'()
 
 System.out.println('This is the URL of the current page :' + WebUI.getUrl())
 

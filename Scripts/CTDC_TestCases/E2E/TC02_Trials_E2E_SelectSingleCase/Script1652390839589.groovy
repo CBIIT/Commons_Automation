@@ -21,9 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.browserDriver'('')
+CustomKeywords.'utilities.TestRunner.browserDriver'('')
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC02_Trials_E2E_SelectSingleCase.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC02_Trials_E2E_SelectSingleCase.xlsx')
 
 WebUI.waitForElementPresent(findTestObject('Trials/Trials_CASES_Btn'), 5)
 
@@ -35,7 +35,7 @@ WebUI.click(findTestObject('Trials/Filter/Diagnosis/DIAGNOSIS_Ddn'))
 
 WebUI.click(findTestObject('Trials/Filter/Diagnosis/SalivaryGland_Chkbx'))
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.Select_case_checkbox'('CTDC-44670', 'one')
+CustomKeywords.'utilities.TestRunner.Select_case_checkbox'('CTDC-44670', 'one')
 
 WebUI.click(findTestObject('Trials/Trials_SaveToMycases'))
 
@@ -47,7 +47,7 @@ WebUI.click(findTestObject('Trials/Cases_page/Trials_GoToFiles'))
 
 WebUI.maximizeWindow()
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.Select_case_checkbox'('', 'allM')
+CustomKeywords.'utilities.TestRunner.Select_case_checkbox'('', 'allM')
 
 //WebUI.click(findTestObject('Object Repository/Canine/Canine_MyCasesFiles_SelectAll'))
 WebUI.click(findTestObject('Trials/Trials_DownloadManifest'))
