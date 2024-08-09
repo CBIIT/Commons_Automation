@@ -99,7 +99,7 @@ class functions extends TestRunner implements Comparator<List<XSSFCell>>{
 			System.out.println("Control is after read table webdataxl creation and before readexcel neo4j function")
 			ReadExcel.Neo4j(dbdataSheetName,tabQuery)
 			System.out.println("Control is before compare lists function from multifunction")
-			compareLists(webdataSheetName, dbdataSheetName)
+			compareSheets(webdataSheetName, dbdataSheetName)
 			validateStatBar(appName)
 		}else {
 			System.out.println("Skipping data collection from neo4j and compare lists of web and db as the stat value is 0")

@@ -109,7 +109,6 @@ public class ICDCcaseDetails extends TestRunner implements Comparator<List<XSSFC
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		excelparsing(sheetData_K,driver);
 		System.out.println("This is the value of sheetdata array from create driver function : "+sheetData_K)
-
 	}
 
 	@Keyword
@@ -149,8 +148,7 @@ public class ICDCcaseDetails extends TestRunner implements Comparator<List<XSSFC
 
 
 				//Look for specific column names to perform action
-				switch(sheetData.get(0).get(j).getStringCellValue().trim() )
-				{
+				switch(sheetData.get(0).get(j).getStringCellValue().trim() ) {
 					case("caseID"):
 						GlobalVariable.G_inputTabName = sheetData.get(i).get(j).getStringCellValue()
 						System.out.println("This is the case id from input excel : "+GlobalVariable.G_inputTabName)
@@ -226,8 +224,7 @@ public class ICDCcaseDetails extends TestRunner implements Comparator<List<XSSFC
 
 
 	@Keyword
-	public void readStatBarICDC(String cProgs, String cStuds, String cCases, String cSamples, String cFiles, String cStudyFiles)
-	{
+	public void readStatBarICDC(String cProgs, String cStuds, String cCases, String cSamples, String cFiles, String cStudyFiles) {
 		Thread.sleep(5000);
 
 		String xcProgs = givexpath(cProgs)
@@ -281,7 +278,6 @@ public class ICDCcaseDetails extends TestRunner implements Comparator<List<XSSFC
 		ReadExcel.Neo4j(dbdataSheetName,tabquery)
 		System.out.println("control is before compare lists function from multifunction")
 		compareLists(webdataSheetName, dbdataSheetName)
-
 	}
 
 	//This section reads the 3 info sections in the Case Detail page in ICDC
@@ -494,8 +490,7 @@ public class ICDCcaseDetails extends TestRunner implements Comparator<List<XSSFC
 		//@@@@@@@@@@@@@@@@@@  COLLECTING THE TABLE BODY DATA @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 		int counter=1;
 
-		while(counter <= 10)
-		{
+		while(counter <= 10) {
 			System.out.println("This is the value of tblbody stored in global variable :"+GlobalVariable.G_cannine_caseTblBdy)
 			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(GlobalVariable.G_cannine_caseTblBdy)));   //the name is misleading but it is only a placeholder for all the applications
 			//	scrolltoViewjs(driver.findElement(By.xpath(GlobalVariable.G_cannine_caseTblBdy)))
@@ -511,7 +506,8 @@ public class ICDCcaseDetails extends TestRunner implements Comparator<List<XSSFC
 
 			int i;
 
-			for(i = 1; i <= rows_count; i++) { //before editing for fixing cotb issue
+			for(i = 1; i <= rows_count; i++) {
+				//before editing for fixing cotb issue
 
 				String data = ""
 
@@ -534,9 +530,7 @@ public class ICDCcaseDetails extends TestRunner implements Comparator<List<XSSFC
 								System.out.println("This is the name of column header: "+colHeader.get(j).getAttribute("innerText"))
 								data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/td[" + (j+1) +"]/div[2]")).getAttribute("innerText")) +"||")
 								System.out.println("This is the value of data: "+data)
-
 							}
-
 						}else if ((tbl_main).equals('//*[@id="table_case_detail_samples"]/div/div/div[2]/div[1]/div/div/div[3]/table')){
 							System.out.println ("Inside the loop where Files table is read **************************************")
 							for (int j = 1; j<= GlobalVariable.ColsCount; j = j + 1) {
@@ -549,10 +543,8 @@ public class ICDCcaseDetails extends TestRunner implements Comparator<List<XSSFC
 									data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/td[" + (j+1) +"]/div[2]")).getAttribute("innerText")) +"||")
 									System.out.println("This is the value of data: "+data)
 								}//if loop ends
-
 							} //for loop ends
 							//data = ""
-
 						}
 						break;
 
@@ -583,13 +575,11 @@ public class ICDCcaseDetails extends TestRunner implements Comparator<List<XSSFC
 			//	System.out.println("past the scrollintoview block")
 			if (nextButton.getAttribute("disabled")){
 				break;
-
 			} else {
 				System.out.println("COLLECTED DATA FROM PAGE - " +counter);
 				clickElement(nextButton); //uses jsexecutor to click
 				counter++;
 			}
-
 		}//while loop ends
 
 
@@ -597,5 +587,4 @@ public class ICDCcaseDetails extends TestRunner implements Comparator<List<XSSFC
 		writeToExcel(webSheetName);
 		System.out.println("webdata written to excel successfully")
 	} //readcasestable ends here
-
 }

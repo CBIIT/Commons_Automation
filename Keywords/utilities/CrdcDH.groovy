@@ -68,7 +68,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.Cookie as Cookie
 
 
-class Crdc extends TestRunner implements Comparator<List<XSSFCell>>{
+class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 	public int compare( List<XSSFCell> l1, List<XSSFCell> l2 ){
 		return l1.get(0).getStringCellValue().compareTo( l2.get(0).getStringCellValue() )
 	}

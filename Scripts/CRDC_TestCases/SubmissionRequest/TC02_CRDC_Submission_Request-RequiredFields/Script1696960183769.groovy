@@ -41,70 +41,70 @@ import java.nio.file.Paths as Paths
  */
 WebUI.closeBrowser()
 
-CustomKeywords.'utilities.Crdc.navigateToCrdc'()
+CustomKeywords.'utilities.CrdcDH.navigateToCrdc'()
 
-CustomKeywords.'utilities.Crdc.loginToCrdc'()
+CustomKeywords.'utilities.CrdcDH.loginToCrdc'()
 
 WebUI.delay(1)
 
 WebUI.click(findTestObject('CRDC/NavBar/Start_a_SubmissionRequest-Btn'))
 
 
-CustomKeywords.'utilities.Crdc.verifyStatusBar'('NEW')
+CustomKeywords.'utilities.CrdcDH.verifyStatusBar'('NEW')
 
-CustomKeywords.'utilities.Crdc.enterPiInfo'(2, 2, 2, 2, 3, 2)
+CustomKeywords.'utilities.CrdcDH.enterPiInfo'(2, 2, 2, 2, 3, 2)
 
-CustomKeywords.'utilities.Crdc.enterPrimaryContactInfo'(1, 1, 1, 1, 5, 1)
-
-WebUI.click(findTestObject('CRDC/SubmissionRequest/Save-Btn'))
-
-WebUI.click(findTestObject('CRDC/SubmissionRequest/Next-Btn'))
-
-CustomKeywords.'utilities.Crdc.verifyStatusBar'('IN PROGRESS')
-
-CustomKeywords.'utilities.Crdc.enterProgramInfo'('DCCPS')
-
-CustomKeywords.'utilities.Crdc.enterStudyInfo'(1, 1, 1)
-
-CustomKeywords.'utilities.Crdc.enterFundingAgencyAndDbGaPInfo'(1, 1, 1, 1, 1)
+CustomKeywords.'utilities.CrdcDH.enterPrimaryContactInfo'(1, 1, 1, 1, 5, 1)
 
 WebUI.click(findTestObject('CRDC/SubmissionRequest/Save-Btn'))
 
 WebUI.click(findTestObject('CRDC/SubmissionRequest/Next-Btn'))
 
-CustomKeywords.'utilities.Crdc.enterDataAccessAndDiseaseInfo'('Bladder', 'Lung', 'Homo', 1, 1, 1)
+CustomKeywords.'utilities.CrdcDH.verifyStatusBar'('IN PROGRESS')
+
+CustomKeywords.'utilities.CrdcDH.enterProgramInfo'('DCCPS')
+
+CustomKeywords.'utilities.CrdcDH.enterStudyInfo'(1, 1, 1)
+
+CustomKeywords.'utilities.CrdcDH.enterFundingAgencyAndDbGaPInfo'(1, 1, 1, 1, 1)
+
+WebUI.click(findTestObject('CRDC/SubmissionRequest/Save-Btn'))
+
+WebUI.click(findTestObject('CRDC/SubmissionRequest/Next-Btn'))
+
+CustomKeywords.'utilities.CrdcDH.enterDataAccessAndDiseaseInfo'('Bladder', 'Lung', 'Homo', 1, 1, 1)
 
 WebUI.click(findTestObject('CRDC/SubmissionRequest/Save-Btn'))
 
 WebUI.click(findTestObject('CRDC/SubmissionRequest/Next-Btn'))
 
 //'immunology', 'epidemiologic', 'imaging', , 'other', 'other-clinical'
-CustomKeywords.'utilities.Crdc.selectDataTypes'('immunology')
+CustomKeywords.'utilities.CrdcDH.selectDataTypes'('immunology')
 
-CustomKeywords.'utilities.Crdc.selectFileTypes'(1, 1, 3, 1)
+CustomKeywords.'utilities.CrdcDH.selectFileTypes'(1, 1, 3, 1)
 
 WebUI.click(findTestObject('CRDC/SubmissionRequest/Save-Btn'))
 
 WebUI.click(findTestObject('CRDC/SubmissionRequest/Next-Btn'))
 
 //Verification starts here
-CustomKeywords.'utilities.Crdc.verifyPiInfo'(2, 2, 2, 2, 3, 2)
+CustomKeywords.'utilities.CrdcDH.verifyPiInfo'(2, 2, 2, 2, 3, 2)
 
-CustomKeywords.'utilities.Crdc.verifyPrimaryContactInfo'(1, 1, 1, 1, 5, 1)
+CustomKeywords.'utilities.CrdcDH.verifyPrimaryContactInfo'(1, 1, 1, 1, 5, 1)
 
-CustomKeywords.'utilities.Crdc.verifyProgramInfo'(4)
+CustomKeywords.'utilities.CrdcDH.verifyProgramInfo'(4)
 
-CustomKeywords.'utilities.Crdc.verifyStudyInfo'(1, 1, 1)
+CustomKeywords.'utilities.CrdcDH.verifyStudyInfo'(1, 1, 1)
 
-CustomKeywords.'utilities.Crdc.verifyFundingAgencyAndDbGaPInfo'(1, 1, 1, 1, 1)
+CustomKeywords.'utilities.CrdcDH.verifyFundingAgencyAndDbGaPInfo'(1, 1, 1, 1, 1)
 
-CustomKeywords.'utilities.Crdc.verifyDataAccessAndDiseaseInfo'('Bladder', 'Lung', 'Homo', 1, 1, 1)
+CustomKeywords.'utilities.CrdcDH.verifyDataAccessAndDiseaseInfo'('Bladder', 'Lung', 'Homo', 1, 1, 1)
 
-CustomKeywords.'utilities.Crdc.verifyDataTypes'('immunology')
+CustomKeywords.'utilities.CrdcDH.verifyDataTypes'('immunology')
 
-CustomKeywords.'utilities.Crdc.verifyFileTypes'(1, 1, 3, 1)
+CustomKeywords.'utilities.CrdcDH.verifyFileTypes'(1, 1, 3, 1)
 
-CustomKeywords.'utilities.Crdc.clickSubmitButton'()
+CustomKeywords.'utilities.CrdcDH.clickSubmitButton'()
 
 WebUI.closeBrowser()
 
