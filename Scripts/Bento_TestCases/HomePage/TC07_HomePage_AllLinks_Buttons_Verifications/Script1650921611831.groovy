@@ -38,9 +38,9 @@ import org.supercsv.prefs.CsvPreference as CsvPreference
 //This testcase contains verification of HOME page all links, log, text and buttons verifications
 WebUI.closeBrowser()
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC07_HomePage_AllLinks_Buttons_Verifications.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC07_HomePage_AllLinks_Buttons_Verifications.xlsx')
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Bento/Banner/Bento_Warning_Continue_Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Bento/Banner/Bento_Warning_Continue_Btn')
 System.out.println ("Closed the warning window");
 
 WebUI.waitForElementPresent(findTestObject('Bento/Header/Bento_Header_Img'), 5)
@@ -49,7 +49,7 @@ WebUI.verifyElementPresent(findTestObject('Bento/Header/Bento_Header_Img'), 5)
 
 WebUI.waitForElementClickable(findTestObject('Bento/Home_page/HomePage_ExploreTheSite_Btn'), 5)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Bento/Home_page/HomePage_ExploreTheSite_Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Bento/Home_page/HomePage_ExploreTheSite_Btn')
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Bento/StatBar/Bento_StatBar-Programs'), 2)
 
@@ -63,17 +63,17 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Bento/StatBar/Bento
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Bento/StatBar/Bento_StatBar-Files'), 2)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.readStatBarBento'('Object Repository/Bento/StatBar/Bento_StatBar-Programs', 
+CustomKeywords.'utilities.TestRunner.readStatBarBento'('Object Repository/Bento/StatBar/Bento_StatBar-Programs', 
     'Object Repository/Bento/StatBar/Bento_StatBar-Arms', 'Object Repository/Bento/StatBar/Bento_StatBar-Cases', 'Object Repository/Bento/StatBar/Bento_StatBar-Samples', 
     'Object Repository/Bento/StatBar/Bento_StatBar-Assays', 'Object Repository/Bento/StatBar/Bento_StatBar-Files')
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/Bento/NavBar/Bento_Home-Btn'), 5)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Bento/NavBar/Bento_Home-Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Bento/NavBar/Bento_Home-Btn')
 
 WebUI.waitForElementPresent(findTestObject('Bento/Home_page/Programs_View_Btn'), 5)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Bento/Home_page/Programs_View_Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Bento/Home_page/Programs_View_Btn')
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Bento/StatBar/Bento_StatBar-Programs'), 2)
 
@@ -87,17 +87,17 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Bento/StatBar/Bento
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Bento/StatBar/Bento_StatBar-Files'), 2)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.readStatBarBento'('Object Repository/Bento/StatBar/Bento_StatBar-Programs', 
+CustomKeywords.'utilities.TestRunner.readStatBarBento'('Object Repository/Bento/StatBar/Bento_StatBar-Programs', 
     'Object Repository/Bento/StatBar/Bento_StatBar-Arms', 'Object Repository/Bento/StatBar/Bento_StatBar-Cases', 'Object Repository/Bento/StatBar/Bento_StatBar-Samples', 
     'Object Repository/Bento/StatBar/Bento_StatBar-Assays', 'Object Repository/Bento/StatBar/Bento_StatBar-Files')
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/Bento/NavBar/Bento_Home-Btn'), 5)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Bento/NavBar/Bento_Home-Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Bento/NavBar/Bento_Home-Btn')
 
 WebUI.waitForElementClickable(findTestObject('Bento/Home_page/Resources_ReadMore_Btn'), 5)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Bento/Home_page/Resources_ReadMore_Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Bento/Home_page/Resources_ReadMore_Btn')
 
 WebUI.waitForElementPresent(findTestObject('Bento/Home_page/AboutPage_Resources_title'), 5)
 
@@ -105,11 +105,11 @@ WebUI.verifyElementText(findTestObject('Bento/Home_page/AboutPage_Resources_titl
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/Bento/NavBar/Bento_Home-Btn'), 5)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Bento/NavBar/Bento_Home-Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Bento/NavBar/Bento_Home-Btn')
 
 WebUI.waitForElementPresent(findTestObject('Bento/Home_page/AboutBento_ReadMore_Btn'), 5)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Bento/Home_page/AboutBento_ReadMore_Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Bento/Home_page/AboutBento_ReadMore_Btn')
 
 WebUI.waitForElementPresent(findTestObject('Bento/Home_page/AboutBento_Title'), 5)
 
@@ -117,11 +117,11 @@ WebUI.verifyElementText(findTestObject('Bento/Home_page/AboutBento_Title'), 'Ben
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/Bento/NavBar/Bento_Home-Btn'), 5)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Bento/NavBar/Bento_Home-Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Bento/NavBar/Bento_Home-Btn')
 
 WebUI.waitForElementPresent(findTestObject('Bento/Home_page/Explore_Btn'), 5)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Bento/Home_page/Explore_Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Bento/Home_page/Explore_Btn')
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Bento/StatBar/Bento_StatBar-Programs'), 5)
 
@@ -131,11 +131,11 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Bento/StatBar/Bento
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/Bento/NavBar/Bento_Home-Btn'), 5)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Bento/NavBar/Bento_Home-Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Bento/NavBar/Bento_Home-Btn')
 
 WebUI.waitForElementPresent(findTestObject('Bento/Footer/FNLCR_Logo'), 5)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Bento/Footer/FNLCR_Logo')
+CustomKeywords.'utilities.TestRunner.clickTab'('Bento/Footer/FNLCR_Logo')
 
 WebUI.switchToWindowIndex(1)
 
@@ -147,23 +147,23 @@ WebUI.switchToWindowIndex(0)
 
 WebUI.waitForElementPresent(findTestObject('Bento/Footer/Purpose_Hplink'), 5)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Bento/Footer/Purpose_Hplink')
+CustomKeywords.'utilities.TestRunner.clickTab'('Bento/Footer/Purpose_Hplink')
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/Bento/NavBar/Bento_Home-Btn'), 5)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Bento/NavBar/Bento_Home-Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Bento/NavBar/Bento_Home-Btn')
 
 WebUI.waitForElementPresent(findTestObject('Bento/Footer/Resources_Hplink'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Bento/Footer/Resources_Hplink')
+CustomKeywords.'utilities.TestRunner.clickTab'('Bento/Footer/Resources_Hplink')
 
 WebUI.verifyElementText(findTestObject('Bento/Home_page/AboutPage_Resources_title'), 'Resources')
 WebUI.delay(2)
 WebUI.waitForElementClickable(findTestObject('Object Repository/Bento/NavBar/Bento_Home-Btn'), 5)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Bento/NavBar/Bento_Home-Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Bento/NavBar/Bento_Home-Btn')
 
 WebUI.waitForElementPresent(findTestObject('Bento/Footer/Documentation_Hplink'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Bento/Footer/Documentation_Hplink')
+CustomKeywords.'utilities.TestRunner.clickTab'('Bento/Footer/Documentation_Hplink')
 
 WebUI.switchToWindowIndex(1)
 WebUI.waitForElementPresent(findTestObject('Bento/Header/Bento_Header_Img'), 5)
@@ -173,7 +173,7 @@ WebUI.closeWindowIndex(1)
 WebUI.switchToWindowIndex(0)
 
 WebUI.waitForElementPresent(findTestObject('Bento/Footer/HHS_Hplink'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Bento/Footer/HHS_Hplink')
+CustomKeywords.'utilities.TestRunner.clickTab'('Bento/Footer/HHS_Hplink')
 
 WebUI.switchToWindowIndex(1)
 WebUI.waitForElementPresent(findTestObject('Bento/Footer/Externel_Apps/HHS_logo'), 5)
@@ -182,7 +182,7 @@ WebUI.closeWindowIndex(1)
 WebUI.switchToWindowIndex(0)
 
 WebUI.waitForElementPresent(findTestObject('Bento/Footer/NIH_Hplink'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Bento/Footer/NIH_Hplink')
+CustomKeywords.'utilities.TestRunner.clickTab'('Bento/Footer/NIH_Hplink')
 
 WebUI.switchToWindowIndex(1)
 WebUI.waitForElementPresent(findTestObject('Bento/Footer/Externel_Apps/NIH_logo'), 5)
@@ -191,7 +191,7 @@ WebUI.closeWindowIndex(1)
 WebUI.switchToWindowIndex(0)
 
 WebUI.waitForElementPresent(findTestObject('Bento/Footer/NCI_Hplink'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Bento/Footer/NCI_Hplink')
+CustomKeywords.'utilities.TestRunner.clickTab'('Bento/Footer/NCI_Hplink')
 
 WebUI.switchToWindowIndex(1)
 WebUI.waitForElementPresent(findTestObject('Bento/Footer/Externel_Apps/NCI_logo'), 5)
@@ -201,7 +201,7 @@ WebUI.closeWindowIndex(1)
 WebUI.switchToWindowIndex(0)
 
 WebUI.waitForElementPresent(findTestObject('Bento/Footer/USA_Hplink'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Bento/Footer/USA_Hplink')
+CustomKeywords.'utilities.TestRunner.clickTab'('Bento/Footer/USA_Hplink')
 
 WebUI.switchToWindowIndex(1)
 WebUI.waitForElementPresent(findTestObject('Bento/Footer/Externel_Apps/USA_logo'), 5)

@@ -59,74 +59,74 @@ import org.supercsv.prefs.CsvPreference;
 
 WebUI.closeBrowser()
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC01_Canine_E2E_SelectAll-Add-To-Cart.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC01_Canine_E2E_SelectAll-Add-To-Cart.xlsx')
 
 WebUI.waitForElementClickable(findTestObject('Canine/NavBar/Canine_Cases_Btn'),5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Canine/NavBar/Canine_Cases_Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Canine/NavBar/Canine_Cases_Btn')
 
 //WebUI.waitForElementClickable(findTestObject('Object Repository/Bento/Cases_page/Filter/FilterByCases_Facet'), 5)
-//CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Bento/Cases_page/Filter/FilterByCases_Facet')
+//CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Bento/Cases_page/Filter/FilterByCases_Facet')
 
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/Diagnosis/DIAGNOSIS_Ddn'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Filter/Diagnosis/DIAGNOSIS_Ddn')
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Canine/Filter/Diagnosis/BCellLymphoma_Chkbx')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Canine/Filter/Diagnosis/DIAGNOSIS_Ddn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Canine/Filter/Diagnosis/BCellLymphoma_Chkbx')
 Thread.sleep(5000) //only if a wait is added, this step passes in headless browsers
 
 WebUI.waitForElementPresent(findTestObject('Canine/Filter/StageOfDisease/STAGEOFDISEASE_Ddn'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Canine/Filter/StageOfDisease/STAGEOFDISEASE_Ddn')
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Canine/Filter/StageOfDisease/4_Chkbx')
+CustomKeywords.'utilities.TestRunner.clickTab'('Canine/Filter/StageOfDisease/STAGEOFDISEASE_Ddn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Canine/Filter/StageOfDisease/4_Chkbx')
 Thread.sleep(2000) //only if a wait is added, this step passes in headless browsers
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.readStatBarCanine'('Object Repository/Canine/StatBar/Canine_StatBar-Studies','Object Repository/Canine/StatBar/Canine_StatBar-Cases',
+CustomKeywords.'utilities.TestRunner.readStatBarCanine'('Object Repository/Canine/StatBar/Canine_StatBar-Studies','Object Repository/Canine/StatBar/Canine_StatBar-Cases',
 	'Object Repository/Canine/StatBar/Canine_StatBar-Samples','Object Repository/Canine/StatBar/Canine_StatBar-Files',
    'Object Repository/Canine/StatBar/Canine_StatBar-Aliquots')
 
 //clicking the Cases tab
 WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/CanineResults_Cases_Tab'),5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/CanineResults_Cases_Tab')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Canine/CanineResults_Cases_Tab')
 
-//CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.multiFunction'('ICDC', GlobalVariable.G_StatBar_Publications, 'Object Repository/Canine/Canine_CasesTable',
+//CustomKeywords.'utilities.TestRunner.multiFunction'('ICDC', GlobalVariable.G_StatBar_Publications, 'Object Repository/Canine/Canine_CasesTable',
 //   'Object Repository/Canine/Canine_TableHeader', 'Object Repository/Canine/Canine_CasesTabNextBtn', GlobalVariable.G_WebTabnameCases,
 //   GlobalVariable.G_CypherTabnameCases, GlobalVariable.G_QueryCasesTab)
  
  
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Cases_page/Canine_SelectAll'), 5)   
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Cases_page/Canine_SelectAll')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Canine/Cases_page/Canine_SelectAll')
 
 //WebUI.maximizeWindow()
- //CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.Select_case_checkbox'('', 'all')
+ //CustomKeywords.'utilities.TestRunner.Select_case_checkbox'('', 'all')
  
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Canine_AddAssocFiles_Btn')
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Canine_MyFilesCart_Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Canine/Canine_AddAssocFiles_Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Canine/Canine_MyFilesCart_Btn')
  
 WebUI.maximizeWindow()
 WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/fileCentricCart/Canine_DownloadManifest_Btn'),5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/fileCentricCart/Canine_DownloadManifest_Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Canine/fileCentricCart/Canine_DownloadManifest_Btn')
 Thread.sleep(5000)
 
  
-CustomKeywords.'ctdc.utilities.FileOperations.pickLatestFileFromDownloads'()
+CustomKeywords.'utilities.FileOperations.pickLatestFileFromDownloads'()
 Thread.sleep(5000)
-CustomKeywords.'ctdc.utilities.FileOperations.fileRename'()
+CustomKeywords.'utilities.FileOperations.fileRename'()
 
-CustomKeywords.'ctdc.utilities.FileOperations.generateXLSfromCSV'(GlobalVariable.G_ManifestTabName)  //specifying the sheet name for manifest xls+
+CustomKeywords.'utilities.FileOperations.generateXLSfromCSV'(GlobalVariable.G_ManifestTabName)  //specifying the sheet name for manifest xls+
 
 
 //reading the filecentric cart table
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.ReadCasesTableKatalon'(GlobalVariable.G_myCartTotal, 'Object Repository/Canine/fileCentricCart/Canine_myFiles_Tbl',
+CustomKeywords.'utilities.TestRunner.ReadCasesTableKatalon'(GlobalVariable.G_myCartTotal, 'Object Repository/Canine/fileCentricCart/Canine_myFiles_Tbl',
 'Object Repository/Canine/fileCentricCart/Canine_myFiles_TblHdr', 'Object Repository/Canine/fileCentricCart/Canine_myFilesTable_Nxtbtn', GlobalVariable.G_WebTabNameMyCart)
  
 
 //copy data to second sheet in both webdata and manifest xl
-CustomKeywords.'ctdc.utilities.FileOperations.copySheetXLS'(GlobalVariable.G_excelFileName,"newManifestData")  // copy sheet in manifest xl
-CustomKeywords.'ctdc.utilities.FileOperations.copySheetXLSX'(GlobalVariable.G_WebExcel,"newCartData") // copy sheet in webdata excel
+CustomKeywords.'utilities.FileOperations.copySheetXLS'(GlobalVariable.G_excelFileName,"newManifestData")  // copy sheet in manifest xl
+CustomKeywords.'utilities.FileOperations.copySheetXLSX'(GlobalVariable.G_WebExcel,"newCartData") // copy sheet in webdata excel
 
 //delete unwanted cols in second sheet (of both manifest and webdata excels) before comparing
-CustomKeywords.'ctdc.utilities.FileOperations.deleteCol'(GlobalVariable.G_excelFileName,"manifestData")
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.readMyCartCount'('Object Repository/Canine/fileCentricCart/Canine_totalRecordCount')
-CustomKeywords.'ctdc.utilities.FileOperations.deleteCol'(GlobalVariable.G_WebExcel,"CartWebData")
+CustomKeywords.'utilities.FileOperations.deleteCol'(GlobalVariable.G_excelFileName,"manifestData")
+CustomKeywords.'utilities.TestRunner.readMyCartCount'('Object Repository/Canine/fileCentricCart/Canine_totalRecordCount')
+CustomKeywords.'utilities.FileOperations.deleteCol'(GlobalVariable.G_WebExcel,"CartWebData")
 
 
  
@@ -141,7 +141,7 @@ WebUI.maximizeWindow()
 
 not_run: WebUI.click(findTestObject('Canine/Cases_page/Canine_SelectAll'))
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.Select_case_checkbox'('', 'all')
+CustomKeywords.'utilities.TestRunner.Select_case_checkbox'('', 'all')
 
 WebUI.click(findTestObject('Canine/Canine_SaveToMycases'))
 
@@ -153,7 +153,7 @@ WebUI.click(findTestObject('Canine/NavBar/Canine_MyFilesCart'))
 
 WebUI.maximizeWindow()
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.Select_case_checkbox'('', 'allM')
+CustomKeywords.'utilities.TestRunner.Select_case_checkbox'('', 'allM')
 
 //WebUI.click(findTestObject('Object Repository/Canine/Canine_MyCasesFiles_SelectAll'))
 WebUI.click(findTestObject('Canine/Cart/Canine_DownloadManifest'))

@@ -1,4 +1,4 @@
-package ctdc.utilities
+package utilities
 
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
@@ -35,7 +35,7 @@ import internal.GlobalVariable
 
 
 
-public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
+public class TestRunner implements Comparator<List<XSSFCell>>{
 	public int compare( List<XSSFCell> l1, List<XSSFCell> l2 ){
 		return l1.get(0).getStringCellValue().compareTo( l2.get(0).getStringCellValue() )
 	}
@@ -159,11 +159,11 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 		}else if(appKey.equals("CRDC")) {
 			filePath = Paths.get(usrDir, inputFiles, "CRDC", input_file);
 		}else {
-			KeywordUtil.markFailed("Invalid App Key: Check RunKatalon function")
+			KeywordUtil.markFailed("Invalid App Key: Check Profile or RunKatalon function")
 		}
 
 		if (filePath !=null) {
-			KeywordUtil.markPassed("This is the full file path : "+filePath.toString())
+			KeywordUtil.markPassed("This is the full file path: "+filePath.toString())
 			GlobalVariable.InputExcel=filePath.toString();
 		}else{
 			KeywordUtil.markFailed("Password File is not found")
@@ -439,7 +439,7 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 
 			//ReadExcel.Neo4j(dbdataSheetName,tabQuery)
 			if(appKey.equals("CDS")) {
-				
+
 				if(dbdataSheetName.equals("TsvDataParticipants")){
 					PythonReader.readFile('ParticipantsTab.py')
 				}else if(dbdataSheetName.equals("TsvDataSamples")){
@@ -450,7 +450,6 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 					System.out.println("Invalid TSV Sheet name: " + dbdataSheetName)
 				}
 				PythonReader.readFile('Statbar.py')
-				
 			}else if(appKey.equals("ICDC")) {
 				if(dbdataSheetName.equals("TsvDataCases")){
 					PythonReader.readFile('CasesTab.py')
@@ -773,8 +772,8 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 					hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
 				}
 			}
-		}
-		else if (appKey.equals("INS") && ((driver.getCurrentUrl()).contains("/explore"))){
+			//******** INS function starts here ********
+		}else if (appKey.equals("INS") && ((driver.getCurrentUrl()).contains("/explore"))){
 			switchINS = getPageSwitch();
 			switchString = "INS";
 			System.out.println ("This is the value of INS switch string: " + switchINS)
@@ -789,6 +788,7 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 					hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
 				}
 			}
+			//******** CDS function starts here ********
 		}else if(appKey.equals("CDS")){
 			switchCDS = getPageSwitch();
 			switchString = "CDS";
@@ -896,7 +896,7 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 
 
 
-		//@@@@@@@@@@@@@@@@@@  COLLECTING THE TABLE BODY DATA @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+		//@@@@@@@@@@@@@@@@@@  COLLECTING THE TABLE BODY DATA @@@@@@@@@@@@@@@
 		int counter=1;
 		if (statValue !=0) {
 
@@ -2005,11 +2005,11 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 
 		// Read UI output excel
 		UIData = ReadExcel.readOutputExcel(UIfilename, webSheetName);
-		Collections.sort(UIData, new runtestcaseforKatalon());
+		Collections.sort(UIData, new TestRunner());
 
 		// Read TSV or DB output excel
 		neo4jData = ReadExcel.readOutputExcel(neo4jfilename, neoSheetName);
-		Collections.sort(neo4jData, new runtestcaseforKatalon());
+		Collections.sort(neo4jData, new TestRunner());
 
 		System.out.println("This is the Entire UIWeb  data: " + UIData);
 		System.out.println("This is the Entire neo4j  data: " + neo4jData);
@@ -2188,13 +2188,13 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 
 		System.out.println("This is the data read and stored in arraylist UIData : "+UIData)
 		System.out.println ("This is the row size of the UIdata : "+ UIData.size());
-		Collections.sort( UIData , new runtestcaseforKatalon())
+		Collections.sort( UIData , new TestRunner())
 
 		GlobalVariable.G_xlsxFilename = xlsxfilename.toString()
 		manifestData = ReadExcel.readExceltoWeblist(GlobalVariable.G_xlsxFilename, manifestSheetName)
 
 		System.out.println ("This is the row size of the Neo4jdata : "+ manifestData.size());
-		Collections.sort( manifestData , new runtestcaseforKatalon())
+		Collections.sort( manifestData , new TestRunner())
 		compareTwoLists(UIData,manifestData)
 	}
 

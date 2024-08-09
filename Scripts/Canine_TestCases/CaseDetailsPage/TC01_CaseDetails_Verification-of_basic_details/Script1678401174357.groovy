@@ -59,7 +59,7 @@ GlobalVariable.fullUrl = Url
 System.out.println('This is the full url: ' + GlobalVariable.fullUrl)
 
 
-CustomKeywords.'ctdc.utilities.ICDCcaseDetails.readInput'('ICDC_CaseDetails.xlsx')
+CustomKeywords.'utilities.ICDCcaseDetails.readInput'('ICDC_CaseDetails.xlsx')
 System.out.println ("Successfully read the input excel")
 
 
@@ -71,32 +71,32 @@ System.out.println('Closed the popup window')
 
 WebUI.maximizeWindow()
 
-//CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC01_CaseDetails_Verification-of_basic_details.xlsx')
+//CustomKeywords.'utilities.TestRunner.RunKatalon'('TC01_CaseDetails_Verification-of_basic_details.xlsx')
 Thread.sleep(2000)
 
 System.out.println('This is the url of the page after landing into the case detail page: ' + WebUI.getUrl())
 
 
-CustomKeywords.'ctdc.utilities.ICDCcaseDetails.readInfoPanel'('Demographics', GlobalVariable.G_WebTabnameCDDemographics,
+CustomKeywords.'utilities.ICDCcaseDetails.readInfoPanel'('Demographics', GlobalVariable.G_WebTabnameCDDemographics,
 	 GlobalVariable.G_CypherTabnameCDDemographics, GlobalVariable.G_QueryCDDemographics)
 
       
-CustomKeywords.'ctdc.utilities.ICDCcaseDetails.readInfoPanel'('Diagnosis', GlobalVariable.G_WebTabnameCDDiagnosis,
+CustomKeywords.'utilities.ICDCcaseDetails.readInfoPanel'('Diagnosis', GlobalVariable.G_WebTabnameCDDiagnosis,
 	GlobalVariable.G_CypherTabnameCDDiagnosis, GlobalVariable.G_QueryCDDiagnosis)
 
-CustomKeywords.'ctdc.utilities.ICDCcaseDetails.readInfoPanel'('Study', GlobalVariable.G_WebTabnameCDStudy,
+CustomKeywords.'utilities.ICDCcaseDetails.readInfoPanel'('Study', GlobalVariable.G_WebTabnameCDStudy,
 	GlobalVariable.G_CypherTabnameCDStudy, GlobalVariable.G_QueryCDStudy)
 
 
 
-CustomKeywords.'ctdc.utilities.ICDCcaseDetails.readStatBarICDC'('Object Repository/Canine/StatBar/Canine_StatBar-Programs','Object Repository/Canine/StatBar/Canine_StatBar-Studies',
+CustomKeywords.'utilities.ICDCcaseDetails.readStatBarICDC'('Object Repository/Canine/StatBar/Canine_StatBar-Programs','Object Repository/Canine/StatBar/Canine_StatBar-Studies',
 	'Object Repository/Canine/StatBar/Canine_StatBar-Cases', 'Object Repository/Canine/StatBar/Canine_StatBar-Samples',
 	'Object Repository/Canine/StatBar/Canine_StatBar-CaseFiles', 'Object Repository/Canine/StatBar/Canine_StatBar-StudyFiles')
 
 
 //collecting data from the Samples table
 
-CustomKeywords.'ctdc.utilities.ICDCcaseDetails.multiFunctionCD'('ICDC', 'Object Repository/Canine/CaseDetailsPage/CaseDetails_SamplesTable',
+CustomKeywords.'utilities.ICDCcaseDetails.multiFunctionCD'('ICDC', 'Object Repository/Canine/CaseDetailsPage/CaseDetails_SamplesTable',
 	'Object Repository/Canine/CaseDetailsPage/CaseDetails_SamplesHdr', 'Object Repository/Canine/CaseDetailsPage/CaseDetails_SamplesTable_NxtBtn', GlobalVariable.G_WebTabnameSamples,
 	GlobalVariable.G_CypherTabnameSamples, GlobalVariable.G_QuerySamplesTab)
  
@@ -104,7 +104,7 @@ CustomKeywords.'ctdc.utilities.ICDCcaseDetails.multiFunctionCD'('ICDC', 'Object 
 //clicking data from the case Files table
 
 //WebUI.click(findTestObject('Object Repository/Canine/CaseDetailsPage/Size_col'))
-CustomKeywords.'ctdc.utilities.ICDCcaseDetails.multiFunctionCD'('ICDC', 'Object Repository/Canine/CaseDetailsPage/CaseDetails_FilesTable',
+CustomKeywords.'utilities.ICDCcaseDetails.multiFunctionCD'('ICDC', 'Object Repository/Canine/CaseDetailsPage/CaseDetails_FilesTable',
 	'Object Repository/Canine/CaseDetailsPage/CaseDetails_FilesHdr', 'Object Repository/Canine/CaseDetailsPage/CaseDetails_FilesTable_NxtBtn', GlobalVariable.G_WebTabnameFiles,
 	GlobalVariable.G_CypherTabnameFiles, GlobalVariable.G_QueryFilesTab)
 

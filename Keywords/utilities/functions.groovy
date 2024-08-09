@@ -1,4 +1,4 @@
-package ctdc.utilities
+package utilities
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -69,7 +69,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.Cookie as Cookie
 
 
-class functions extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
+class functions extends TestRunner implements Comparator<List<XSSFCell>>{
 	public int compare( List<XSSFCell> l1, List<XSSFCell> l2 ){
 		return l1.get(0).getStringCellValue().compareTo( l2.get(0).getStringCellValue() )
 	}
@@ -99,7 +99,7 @@ class functions extends runtestcaseforKatalon implements Comparator<List<XSSFCel
 			System.out.println("Control is after read table webdataxl creation and before readexcel neo4j function")
 			ReadExcel.Neo4j(dbdataSheetName,tabQuery)
 			System.out.println("Control is before compare lists function from multifunction")
-			compareLists(webdataSheetName, dbdataSheetName)
+			compareSheets(webdataSheetName, dbdataSheetName)
 			validateStatBar(appName)
 		}else {
 			System.out.println("Skipping data collection from neo4j and compare lists of web and db as the stat value is 0")

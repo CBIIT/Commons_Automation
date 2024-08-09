@@ -41,7 +41,7 @@ GlobalVariable.fullUrl = Url
 
 System.out.println('This is the full url: ' + GlobalVariable.fullUrl)
 
-CustomKeywords.'ctdc.utilities.DataValidation.initDriver'()
+CustomKeywords.'utilities.DataValidation.initDriver'()
 
 
 //Step 2--------------------Verifying Dataset Name ****************************************************************
@@ -64,7 +64,7 @@ System.out.println ("Resource Code in the UI matches with the input data")
  
 /*
 //Step 4--------------------Verifying Dataset Summaries Count ****************************************************************
-//CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.findObj'('Object Repository/CCDC/Resource_page/DtstSummaryCnt')
+//CustomKeywords.'utilities.TestRunner.findObj'('Object Repository/CCDC/Resource_page/DtstSummaryCnt')
 //WebUI.scrollToElement(findTestObject('Object Repository/CCDC/Resource_page/DtstSummaryTitle'), 5)
 //Thread.sleep(3000)
 //System.out.println('Element in focus - from test script')

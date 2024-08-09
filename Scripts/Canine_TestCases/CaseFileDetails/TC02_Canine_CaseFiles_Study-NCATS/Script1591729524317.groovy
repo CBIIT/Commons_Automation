@@ -46,9 +46,9 @@ WebUI.closeBrowser()
 
 //WebUI.maximizeWindow()
 //
-//CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.browserDriver'('')
+//CustomKeywords.'utilities.TestRunner.browserDriver'('')
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC02_Canine_CaseFiles_Study-NCATS.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC02_Canine_CaseFiles_Study-NCATS.xlsx')
 
 WebUI.waitForElementPresent(findTestObject('Canine/NavBar/Canine_Cases_Btn'), 5)
 
@@ -61,11 +61,11 @@ WebUI.waitForElementPresent(findTestObject('Canine/Filter/Study/Canine_Filter_St
 
 WebUI.click(findTestObject('Canine/Filter/Study/Canine_Filter_Study-NCATS_Chkbx'))
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.File_details'('Object Repository/Canine/Canine_CasesTable', 'Object Repository/Canine/Canine_TableHeader', 
+CustomKeywords.'utilities.TestRunner.File_details'('Object Repository/Canine/Canine_CasesTable', 'Object Repository/Canine/Canine_TableHeader', 
     'Object Repository/Canine/Canine_NextBtn')
 
-CustomKeywords.'ctdc.utilities.ReadExcel.Neo4j'()
+CustomKeywords.'utilities.ReadExcel.Neo4j'()
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.compareLists'(GlobalVariable.G_caseDetailsTabName, GlobalVariable.G_CaseDetailStatTabname)
+CustomKeywords.'utilities.TestRunner.compareLists'(GlobalVariable.G_caseDetailsTabName, GlobalVariable.G_CaseDetailStatTabname)
 
 WebUI.openBrowser('')

@@ -62,7 +62,7 @@ System.out.println('This is the suffix url: ' + sUrl)
 Url = (GlobalVariable.baseUrl + sUrl)
 GlobalVariable.fullUrl = Url
 System.out.println('This is the full url: ' + GlobalVariable.fullUrl)
-CustomKeywords.'ctdc.utilities.DataValidation.initDriver'()
+CustomKeywords.'utilities.DataValidation.initDriver'()
 
 //Step 2--------------------entering Target ID ****************************************************************
 //Type in the input text box

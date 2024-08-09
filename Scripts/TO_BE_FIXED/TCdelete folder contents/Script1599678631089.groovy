@@ -28,6 +28,6 @@ import java.nio.file.Path as Path
 import java.nio.file.Paths as Paths
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clearOutputDir'('OutputFiles')
+CustomKeywords.'utilities.TestRunner.clearOutputDir'('OutputFiles')
 
 System.out.println("cleared")

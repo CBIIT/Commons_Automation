@@ -38,34 +38,34 @@ import org.supercsv.prefs.CsvPreference as CsvPreference
 
 WebUI.closeBrowser()
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC13_GMB_Filter_SourceOfLabData-Lab_Qa.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC13_GMB_Filter_SourceOfLabData-Lab_Qa.xlsx')
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/GMB/NavBar/GMB_Subjects-Btn'),5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/GMB/NavBar/GMB_Subjects-Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/GMB/NavBar/GMB_Subjects-Btn')
 
 //Clicking SourceOfTheLabData drop-down
 WebUI.waitForElementPresent(findTestObject('GMB/Filter/SourceOfLabData/SourceOfLabData_Ddn'),5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabGMBStat'('GMB/Filter/SourceOfLabData/SourceOfLabData_Ddn')
+CustomKeywords.'utilities.TestRunner.clickTabGMBStat'('GMB/Filter/SourceOfLabData/SourceOfLabData_Ddn')
 
 //Clicking (Lab_Qa) checkbox
 WebUI.waitForElementPresent(findTestObject('GMB/Filter/SourceOfLabData/Lab_Qa_Chkbx'),5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabGMBStat'('GMB/Filter/SourceOfLabData/Lab_Qa_Chkbx')
+CustomKeywords.'utilities.TestRunner.clickTabGMBStat'('GMB/Filter/SourceOfLabData/Lab_Qa_Chkbx')
 
 //Read GMB statbar
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.readGMBStatBar'('Object Repository/GMB/StatBar/GMB_StatBar-Trials',
+CustomKeywords.'utilities.TestRunner.readGMBStatBar'('Object Repository/GMB/StatBar/GMB_StatBar-Trials',
 	'Object Repository/GMB/StatBar/GMB_StatBar-Subjects', 'Object Repository/GMB/StatBar/GMB_StatBar-Files')
 
 //clicking Subjects tab
 WebUI.waitForElementPresent(findTestObject('Object Repository/GMB/GMBResults_Subjects_Tab'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/GMB/GMBResults_Subjects_Tab')
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.multiFunction'('GMB', GlobalVariable.G_GStatBar_Subjects, 'Object Repository/GMB/GMB_Subjects_Table',
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/GMB/GMBResults_Subjects_Tab')
+CustomKeywords.'utilities.TestRunner.multiFunction'('GMB', GlobalVariable.G_GStatBar_Subjects, 'Object Repository/GMB/GMB_Subjects_Table',
 	'Object Repository/GMB/GMB_Subjects_TableHdr', 'Object Repository/GMB/GMB_Subjects_TabNextBtn', GlobalVariable.G_GWebTabnameSubjects,
 	GlobalVariable.G_GCypherTabnameSubjects, GlobalVariable.G_GQuerySubjectsTab)
 
 //clicking Files tab
 //WebUI.waitForElementPresent(findTestObject('Object Repository/GMB/GMBResults_Files_Tab'), 5)
-//CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/GMB/GMBResults_Files_Tab')
-//CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.multiFunction'('GMB', GlobalVariable.G_StatBar_ClinTrials, 'Object Repository/GMB/GMB_Files_Table',
+//CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/GMB/GMBResults_Files_Tab')
+//CustomKeywords.'utilities.TestRunner.multiFunction'('GMB', GlobalVariable.G_StatBar_ClinTrials, 'Object Repository/GMB/GMB_Files_Table',
 //	'Object Repository/GMB/GMB_Files_TableHdr', 'Object Repository/GMB/GMB_FilesTabNextBtn', GlobalVariable.G_WebTabnameFiles,
 //	GlobalVariable.G_CypherTabnameFiles, GlobalVariable.G_QueryFilesTab)
 
