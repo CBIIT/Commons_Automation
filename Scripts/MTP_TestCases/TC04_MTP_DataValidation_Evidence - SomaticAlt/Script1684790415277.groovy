@@ -62,7 +62,7 @@ System.out.println('This is the suffix url: ' + sUrl)
 Url = (GlobalVariable.baseUrl + sUrl)
 GlobalVariable.fullUrl = Url
 System.out.println('This is the full url: ' + GlobalVariable.fullUrl)
-CustomKeywords.'ctdc.utilities.DataValidation.initDriver'()
+CustomKeywords.'utilities.DataValidation.initDriver'()
 
 /*
 
@@ -137,11 +137,11 @@ System.out.println('This is the value of the disabled attribute for snvbyGene ta
 				//if the pagination is present-when there are >10 rows, then get the total count from the rows per page max number
 				tempCount = WebUI.getText(findTestObject('Object Repository/MTP/EvidencePage/snvByGene_Cnt'))
 				System.out.println('This is the value of tempcount before extracting the rowcount :' + tempCount)
-				websnvByGeneCnt = CustomKeywords.'ctdc.utilities.DataValidation.CountRowsfromPagination'(tempCount)
+				websnvByGeneCnt = CustomKeywords.'utilities.DataValidation.CountRowsfromPagination'(tempCount)
 				System.out.println('This is the value of snv by gene count extracted from pagination in UI :' + websnvByGeneCnt)
 			  }else if (webPaginationSG == false) {
 				//if the pagination is missing when there are <=10 rows only, then count the rows manually
-				websnvByGeneCnt = CustomKeywords.'ctdc.utilities.DataValidation.countRows'('Object Repository/MTP/EvidencePage/SomAlt_snvByGene_TblBdy')
+				websnvByGeneCnt = CustomKeywords.'utilities.DataValidation.countRows'('Object Repository/MTP/EvidencePage/SomAlt_snvByGene_TblBdy')
 				System.out.println('This is the value of snv by gene count obtained from UI :' + websnvByGeneCnt)
 			  }
 			
@@ -180,11 +180,11 @@ System.out.println('This is the value of the disabled attribute for snvbyGene ta
 				//if the pagination is present-when there are >10 rows, then get the total count from the rows per page max number
 				tempCount = WebUI.getText(findTestObject('Object Repository/MTP/EvidencePage/snvByVar_Cnt'))
 				System.out.println('This is the value of tempcount before extracting the rowcount :' + tempCount)
-				websnvByVarCnt = CustomKeywords.'ctdc.utilities.DataValidation.CountRowsfromPagination'(tempCount)
+				websnvByVarCnt = CustomKeywords.'utilities.DataValidation.CountRowsfromPagination'(tempCount)
 				System.out.println('This is the value of snv by variant count extracted from pagination in UI :' + websnvByVarCnt)
 			 } else if (webPaginationSV == false) {
 				 //if the pagination is missing when there are <=10 rows only, then count the rows manually
-				websnvByVarCnt = CustomKeywords.'ctdc.utilities.DataValidation.countRows'('Object Repository/MTP/EvidencePage/SomAlt_snvByVar_TblBdy')
+				websnvByVarCnt = CustomKeywords.'utilities.DataValidation.countRows'('Object Repository/MTP/EvidencePage/SomAlt_snvByVar_TblBdy')
 				System.out.println('This is the value of snv by variant count obtained from UI :' + websnvByVarCnt)
 			}
 			
@@ -223,11 +223,11 @@ System.out.println('This is the value of the disabled attribute for snvbyGene ta
 				//if the pagination is present-when there are >10 rows, then get the total count from the rows per page max number
 				tempCount = WebUI.getText(findTestObject('Object Repository/MTP/EvidencePage/cnvByGene_Cnt'))
 				System.out.println('This is the value of tempcount before extracting the rowcount :' + tempCount)
-				webcnvByGeneCnt = CustomKeywords.'ctdc.utilities.DataValidation.CountRowsfromPagination'(tempCount)
+				webcnvByGeneCnt = CustomKeywords.'utilities.DataValidation.CountRowsfromPagination'(tempCount)
 				System.out.println('This is the value of cnv by gene count extracted from pagination in UI :' + webcnvByGeneCnt)
 			  } else if (webPaginationCG == false) {
 				  //if the pagination is missing when there are <=10 rows only, then count the rows manually
-				webcnvByGeneCnt = CustomKeywords.'ctdc.utilities.DataValidation.countRows'('Object Repository/MTP/EvidencePage/SomAlt_cnvByGene_TblBdy')
+				webcnvByGeneCnt = CustomKeywords.'utilities.DataValidation.countRows'('Object Repository/MTP/EvidencePage/SomAlt_cnvByGene_TblBdy')
 				System.out.println('This is the value of snv by variant count obtained from UI :' + webcnvByGeneCnt)
 			 }
 			
@@ -266,11 +266,11 @@ System.out.println('This is the value of the disabled attribute for snvbyGene ta
 				//if the pagination is present-when there are >10 rows, then get the total count from the rows per page max number
 				tempCount = WebUI.getText(findTestObject('Object Repository/MTP/EvidencePage/fusionByGene_Cnt'))
 				System.out.println('This is the value of tempcount before extracting the rowcount :' + tempCount)
-				webfusionByGeneCnt = CustomKeywords.'ctdc.utilities.DataValidation.CountRowsfromPagination'(tempCount)
+				webfusionByGeneCnt = CustomKeywords.'utilities.DataValidation.CountRowsfromPagination'(tempCount)
 				System.out.println('This is the value of fusion by gene count extracted from pagination in UI :' + webfusionByGeneCnt)
 			   } else if (webPaginationFG == false) {
 				   //if the pagination is missing when there are <=10 rows only, then count the rows manually
-				webfusionByGeneCnt = CustomKeywords.'ctdc.utilities.DataValidation.countRows'('Object Repository/MTP/EvidencePage/SomAlt_fusionByGene_TblBdy')
+				webfusionByGeneCnt = CustomKeywords.'utilities.DataValidation.countRows'('Object Repository/MTP/EvidencePage/SomAlt_fusionByGene_TblBdy')
 				System.out.println('This is the value of snv by variant count obtained from UI :' + webfusionByGeneCnt)
 			  }
 			
@@ -308,11 +308,11 @@ System.out.println('This is the value of the disabled attribute for snvbyGene ta
 				//if the pagination is present-when there are >10 rows, then get the total count from the rows per page max number
 				tempCount = WebUI.getText(findTestObject('Object Repository/MTP/EvidencePage/fusion_Cnt'))
 				System.out.println('This is the value of tempcount before extracting the rowcount :' + tempCount)
-				webfusionCnt = CustomKeywords.'ctdc.utilities.DataValidation.CountRowsfromPagination'(tempCount)
+				webfusionCnt = CustomKeywords.'utilities.DataValidation.CountRowsfromPagination'(tempCount)
 				System.out.println('This is the value of fusion count extracted from pagination in UI :' + webfusionCnt)
 			  } else if (webPaginationF == false) {
 				  //if the pagination is missing when there are <=10 rows only, then count the rows manually
-				webfusionCnt = CustomKeywords.'ctdc.utilities.DataValidation.countRows'('Object Repository/MTP/EvidencePage/SomAlt_fusion_TblBdy')
+				webfusionCnt = CustomKeywords.'utilities.DataValidation.countRows'('Object Repository/MTP/EvidencePage/SomAlt_fusion_TblBdy')
 				System.out.println('This is the value of fusion count obtained from UI :' + webfusionCnt)
 			  }
 			
@@ -405,13 +405,13 @@ System.out.println('This is the value of the disabled attribute for snvbyGene ta
 			 
 			  if (webPaginationMG == true) {
 				  //if the pagination absence is true when there are <=10 rows only, then count the rows manually
-				  webmethByGeneCnt = CustomKeywords.'ctdc.utilities.DataValidation.countRows'('Object Repository/MTP/EvidencePage/Evidence_MethbyGene_Tblbdy')
+				  webmethByGeneCnt = CustomKeywords.'utilities.DataValidation.countRows'('Object Repository/MTP/EvidencePage/Evidence_MethbyGene_Tblbdy')
 				  System.out.println('This is the value of meth by gene count obtained from UI :' + webmethByGeneCnt )
 			  } else if (webPaginationMG == false) {
 				  //if the pagination is present-when there are >10 rows, then get the total count from the rows per page max number
 				  tempCount = WebUI.getText(findTestObject('Object Repository/MTP/EvidencePage/methByGene_Cnt'))
 				  System.out.println('This is the value of tempcount before extracting the rowcount :' + tempCount)
-				  webmethByGeneCnt = CustomKeywords.'ctdc.utilities.DataValidation.CountRowsfromPagination'(tempCount)
+				  webmethByGeneCnt = CustomKeywords.'utilities.DataValidation.CountRowsfromPagination'(tempCount)
 				  System.out.println('This is the value of meth by gene count extracted from pagination in UI :' + webmethByGeneCnt)
 			  }
 			  
@@ -451,13 +451,13 @@ System.out.println('This is the value of the disabled attribute for snvbyGene ta
 	  
 				  if (webPaginationMI == true) {
 					  //if the pagination absence is true when there are <=10 rows only, then count the rows manually
-					  webmethByIsoCnt = CustomKeywords.'ctdc.utilities.DataValidation.countRows'('Object Repository/MTP/EvidencePage/Evidence_MethbyIso_Tblbdy')
+					  webmethByIsoCnt = CustomKeywords.'utilities.DataValidation.countRows'('Object Repository/MTP/EvidencePage/Evidence_MethbyIso_Tblbdy')
 					  System.out.println('This is the value of meth by Isoform count obtained from UI :' + webmethByIsoCnt )
 				  } else if (webPaginationMI == false) {
 					  //if the pagination is present-when there are >10 rows, then get the total count from the rows per page max number
 					  tempCount = WebUI.getText(findTestObject('Object Repository/MTP/EvidencePage/methByIso_Cnt'))
 					  System.out.println('This is the value of tempcount before extracting the rowcount :' + tempCount)
-					  webmethByIsoCnt = CustomKeywords.'ctdc.utilities.DataValidation.CountRowsfromPagination'(tempCount)
+					  webmethByIsoCnt = CustomKeywords.'utilities.DataValidation.CountRowsfromPagination'(tempCount)
 					  System.out.println('This is the value of meth by Iso count extracted from pagination in UI :' + webmethByIsoCnt)
 				  }
 				  

@@ -38,7 +38,7 @@ import org.supercsv.prefs.CsvPreference as CsvPreference
 //This testcase contains verification of HOME page all links, log, text and buttons verifications
 WebUI.closeBrowser()
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC01_GMB_HomePage_AllLinks_Buttons_Verifications.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC01_GMB_HomePage_AllLinks_Buttons_Verifications.xlsx')
 
 //Verify logo
 WebUI.waitForElementPresent(findTestObject('GMB/Header/GMB_logo'), 5)
@@ -50,7 +50,7 @@ WebUI.verifyElementText(findTestObject('GMB/Header/Header_Text'), 'Explore, Anal
 
 //Clicking Trials tab
 WebUI.waitForElementPresent(findTestObject('GMB/NavBar/GMB_Trails-Btn'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('GMB/NavBar/GMB_Trails-Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('GMB/NavBar/GMB_Trails-Btn')
 
 //Verify Logo next to Trials title on Trials page
 WebUI.waitForElementPresent(findTestObject('GMB/StatBar/GMB_TrialsPage-Logo'), 5)
@@ -58,15 +58,15 @@ WebUI.verifyElementPresent(findTestObject('GMB/StatBar/GMB_TrialsPage-Logo'), 5)
 
 //Clicking subject tab
 WebUI.waitForElementPresent(findTestObject('GMB/NavBar/GMB_Subjects-Btn'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('GMB/NavBar/GMB_Subjects-Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('GMB/NavBar/GMB_Subjects-Btn')
 
 //Read statbar
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.readGMBStatBar'('Object Repository/GMB/StatBar/GMB_StatBar-Trials',
+CustomKeywords.'utilities.TestRunner.readGMBStatBar'('Object Repository/GMB/StatBar/GMB_StatBar-Trials',
 	'Object Repository/GMB/StatBar/GMB_StatBar-Subjects', 'Object Repository/GMB/StatBar/GMB_StatBar-Files')
 
 //Clicking Home tab
 WebUI.waitForElementPresent(findTestObject('GMB/NavBar/GMB_Home-Btn'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('GMB/NavBar/GMB_Home-Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('GMB/NavBar/GMB_Home-Btn')
 
 //Verify Prostate Cander Natual text
 WebUI.waitForElementPresent(findTestObject('GMB/Home_page/Prostate_Cancer_Natual-Text'), 10)
@@ -74,15 +74,15 @@ WebUI.verifyElementText(findTestObject('GMB/Home_page/Prostate_Cancer_Natual-Tex
 
 //Clicking Search subject link on home page
 WebUI.waitForElementPresent(findTestObject('GMB/Home_page/SearchSubjectLink-HomePage'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('GMB/Home_page/SearchSubjectLink-HomePage')
+CustomKeywords.'utilities.TestRunner.clickTab'('GMB/Home_page/SearchSubjectLink-HomePage')
 
 //Read statbar
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.readGMBStatBar'('Object Repository/GMB/StatBar/GMB_StatBar-Trials',
+CustomKeywords.'utilities.TestRunner.readGMBStatBar'('Object Repository/GMB/StatBar/GMB_StatBar-Trials',
 	'Object Repository/GMB/StatBar/GMB_StatBar-Subjects', 'Object Repository/GMB/StatBar/GMB_StatBar-Files')
 
 //Clicking Home tab
 WebUI.waitForElementPresent(findTestObject('GMB/NavBar/GMB_Home-Btn'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('GMB/NavBar/GMB_Home-Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('GMB/NavBar/GMB_Home-Btn')
 
 //Verify Find and explore text
 WebUI.waitForElementPresent(findTestObject('GMB/Home_page/FindAndExplore-Text'), 10)
@@ -90,21 +90,21 @@ WebUI.verifyElementText(findTestObject('GMB/Home_page/FindAndExplore-Text'), 'FI
 
 //Clicking VIEW DATA button on Home Page
 WebUI.waitForElementPresent(findTestObject('GMB/Home_page/ViewData-Btn'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('GMB/Home_page/ViewData-Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('GMB/Home_page/ViewData-Btn')
 
 //Read statbar
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.readGMBStatBar'('Object Repository/GMB/StatBar/GMB_StatBar-Trials',
+CustomKeywords.'utilities.TestRunner.readGMBStatBar'('Object Repository/GMB/StatBar/GMB_StatBar-Trials',
 	'Object Repository/GMB/StatBar/GMB_StatBar-Subjects', 'Object Repository/GMB/StatBar/GMB_StatBar-Files')
 
 //Clicking Home tab
 WebUI.waitForElementPresent(findTestObject('GMB/NavBar/GMB_Home-Btn'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('GMB/NavBar/GMB_Home-Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('GMB/NavBar/GMB_Home-Btn')
 
 //Add THIS SPACE OPEN step here
 
 //Clicking Trials READ MORE button on Home Page
 WebUI.waitForElementPresent(findTestObject('GMB/Home_page/TrailsREADMORE-Btn'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('GMB/Home_page/TrailsREADMORE-Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('GMB/Home_page/TrailsREADMORE-Btn')
 
 //Verify Logo next to Trials title on Trials page
 WebUI.waitForElementPresent(findTestObject('GMB/StatBar/GMB_TrialsPage-Logo'), 5)
@@ -112,21 +112,21 @@ WebUI.verifyElementPresent(findTestObject('GMB/StatBar/GMB_TrialsPage-Logo'), 5)
 
 //Clicking Home tab
 WebUI.waitForElementPresent(findTestObject('GMB/NavBar/GMB_Home-Btn'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('GMB/NavBar/GMB_Home-Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('GMB/NavBar/GMB_Home-Btn')
 
 //Add ABOUT PROSTATE CANCER NATURAL HISTORY (PCNH) step here
 
 //Clicking SUBJECTS Explore button on Home Page
 WebUI.waitForElementPresent(findTestObject('GMB/Home_page/SubjectsExplore-Btn'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('GMB/Home_page/SubjectsExplore-Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('GMB/Home_page/SubjectsExplore-Btn')
 
 //Read statbar
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.readGMBStatBar'('Object Repository/GMB/StatBar/GMB_StatBar-Trials',
+CustomKeywords.'utilities.TestRunner.readGMBStatBar'('Object Repository/GMB/StatBar/GMB_StatBar-Trials',
 	'Object Repository/GMB/StatBar/GMB_StatBar-Subjects', 'Object Repository/GMB/StatBar/GMB_StatBar-Files')
 
 //Clicking Home tab
 WebUI.waitForElementPresent(findTestObject('GMB/NavBar/GMB_Home-Btn'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('GMB/NavBar/GMB_Home-Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('GMB/NavBar/GMB_Home-Btn')
 
 
 

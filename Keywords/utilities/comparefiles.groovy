@@ -1,4 +1,4 @@
-package ctdc.utilities
+package utilities
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileReader;

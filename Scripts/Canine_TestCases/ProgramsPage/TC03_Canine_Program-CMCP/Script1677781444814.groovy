@@ -43,31 +43,31 @@ import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
   */
 WebUI.closeBrowser()
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC03_Canine_Program-CMCP.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC03_Canine_Program-CMCP.xlsx')
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Canine_PopUp_Continue_Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Canine/Canine_PopUp_Continue_Btn')
 
 System.out.println('Closed the popup window')
 
 WebUI.waitForElementPresent(findTestObject('Canine/NavBar/Canine_Programs_Btn'), 5)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Canine/NavBar/Canine_Programs_Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Canine/NavBar/Canine_Programs_Btn')
 
-//CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.scrolltoViewjs'('Canine/NavBar/Canine_Programs_Btn')
+//CustomKeywords.'utilities.TestRunner.scrolltoViewjs'('Canine/NavBar/Canine_Programs_Btn')
 //
 Thread.sleep(2000)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/ProgramsPage/CMCP_Program_Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Canine/ProgramsPage/CMCP_Program_Btn')
 
 
 System.out.println ("This is the url of the page after clicking the specific program's button: " +WebUI.getUrl())
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.readStatBarCanine'('Object Repository/Canine/StatBar/Canine_StatBar-Programs',
+CustomKeywords.'utilities.TestRunner.readStatBarCanine'('Object Repository/Canine/StatBar/Canine_StatBar-Programs',
 	'Object Repository/Canine/StatBar/Canine_StatBar-Studies', 'Object Repository/Canine/StatBar/Canine_StatBar-Cases',
 	'Object Repository/Canine/StatBar/Canine_StatBar-Samples', 'Object Repository/Canine/StatBar/Canine_StatBar-CaseFiles',
 	'Object Repository/Canine/StatBar/Canine_StatBar-StudyFiles')
 
-CustomKeywords.'ctdc.utilities.functions.multiFunction'('ICDC', GlobalVariable.G_StatBar_Cases, 'Object Repository/Canine/Canine_StudiesTable',
+CustomKeywords.'utilities.functions.multiFunction'('ICDC', GlobalVariable.G_StatBar_Cases, 'Object Repository/Canine/Canine_StudiesTable',
 	'Object Repository/Canine/Canine_StudiesTabTblHeader', 'Object Repository/Canine/Canine_StudiesTabNextBtn', GlobalVariable.G_WebTabnameCases,
 	GlobalVariable.G_CypherTabnameCases, GlobalVariable.G_QueryCasesTab)
 

@@ -34,43 +34,43 @@ import java.io.File;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.Cookie as Cookie
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
-//CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.testGoogleLogin'()
+//CustomKeywords.'utilities.TestRunner.testGoogleLogin'()
 
 
 
 //WebUI.waitForElementPresent(findTestObject('Object Repository/GMB/NavBar/GMB_Subjects-Btn'),5)
-//CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/GMB/NavBar/GMB_Subjects-Btn')
+//CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/GMB/NavBar/GMB_Subjects-Btn')
 
 
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC02_Bento_Filter_FileType-bai.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC02_Bento_Filter_FileType-bai.xlsx')
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Bento/Banner/Bento_Warning_Continue_Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Bento/Banner/Bento_Warning_Continue_Btn')
 System.out.println ("Closed the warning window");
 
 System.out.println ("driver is created and the name is returned in previous step - inside runkatalon>>creatwebdriver from custombrowser>> drv returned to runtcfor katalon>>>>>>>>>>>>>>>>>>>>")
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Bento/NavBar/Bento_Login_Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Bento/NavBar/Bento_Login_Btn')
 System.out.println ("Clicked the LOGIN button")
 Thread.sleep (3000)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.Login'('Object Repository/Bento/Login/Login_SignInWGoogle_Btn','Object Repository/Bento/Login/Login_EmailID_Txtbx', 
+CustomKeywords.'utilities.TestRunner.Login'('Object Repository/Bento/Login/Login_SignInWGoogle_Btn','Object Repository/Bento/Login/Login_EmailID_Txtbx', 
 	'Object Repository/Bento/Login/Login_EmailIDNextBtn','Object Repository/Bento/Login/Login_Passwd_Txtbx','Object Repository/Bento/Login/Login_PasswdNextBtn')
 
 Thread.sleep(2000)
 
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/Bento/NavBar/Bento_Cases-Btn'),5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Bento/NavBar/Bento_Cases-Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Bento/NavBar/Bento_Cases-Btn')
 
 WebUI.waitForElementClickable(findTestObject('Bento/Cases_page/Filter/FileType/FILETYPE_Ddn'),5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Bento/Cases_page/Filter/FileType/FILETYPE_Ddn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Bento/Cases_page/Filter/FileType/FILETYPE_Ddn')
 
 WebUI.waitForElementClickable(findTestObject('Bento/Cases_page/Filter/FileType/Bai_Chkbx'),5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Bento/Cases_page/Filter/FileType/Bai_Chkbx')
+CustomKeywords.'utilities.TestRunner.clickTab'('Bento/Cases_page/Filter/FileType/Bai_Chkbx')
 
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.readStatBarBento'('Object Repository/Bento/StatBar/Bento_StatBar-Programs',
+CustomKeywords.'utilities.TestRunner.readStatBarBento'('Object Repository/Bento/StatBar/Bento_StatBar-Programs',
 	'Object Repository/Bento/StatBar/Bento_StatBar-Arms', 'Object Repository/Bento/StatBar/Bento_StatBar-Cases', 'Object Repository/Bento/StatBar/Bento_StatBar-Samples',
 	'Object Repository/Bento/StatBar/Bento_StatBar-Assays', 'Object Repository/Bento/StatBar/Bento_StatBar-Files')
 

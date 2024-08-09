@@ -1,4 +1,4 @@
-package ctdc.utilities
+package utilities
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -68,7 +68,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.Cookie as Cookie
 
 
-class Crdc extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
+class Crdc extends TestRunner implements Comparator<List<XSSFCell>>{
 	public int compare( List<XSSFCell> l1, List<XSSFCell> l2 ){
 		return l1.get(0).getStringCellValue().compareTo( l2.get(0).getStringCellValue() )
 	}

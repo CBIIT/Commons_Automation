@@ -1,4 +1,4 @@
-package ctdc.utilities
+package utilities
 
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import java.awt.AWTException;
@@ -49,7 +49,7 @@ import org.openqa.selenium.Cookie as Cookie
 
 
 
-public class ICDCcaseDetails extends runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
+public class ICDCcaseDetails extends TestRunner implements Comparator<List<XSSFCell>>{
 	public int compare( List<XSSFCell> l1, List<XSSFCell> l2 ){
 		return l1.get(0).getStringCellValue().compareTo( l2.get(0).getStringCellValue() )
 	}

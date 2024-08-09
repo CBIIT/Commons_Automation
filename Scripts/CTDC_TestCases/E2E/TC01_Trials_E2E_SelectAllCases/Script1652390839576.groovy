@@ -21,9 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.browserDriver'('')
+CustomKeywords.'utilities.TestRunner.browserDriver'('')
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC01_Trials_E2E_SelectAllCases.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC01_Trials_E2E_SelectAllCases.xlsx')
 
 WebUI.waitForElementPresent(findTestObject('Trials/Trials_CASES_Btn'), 5)
 
@@ -35,7 +35,7 @@ WebUI.waitForElementPresent(findTestObject('Trials/Cases_page/Trials_SelectAll')
 
 WebUI.maximizeWindow()
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.Select_case_checkbox'('', 'all')
+CustomKeywords.'utilities.TestRunner.Select_case_checkbox'('', 'all')
 
 WebUI.click(findTestObject('Trials/Trials_SaveToMycases'))
 
@@ -47,7 +47,7 @@ WebUI.click(findTestObject('Trials/Cases_page/Trials_GoToFiles'))
 
 WebUI.maximizeWindow()
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.Select_case_checkbox'('', 'allM')
+CustomKeywords.'utilities.TestRunner.Select_case_checkbox'('', 'allM')
 
 //WebUI.click(findTestObject('Object Repository/Canine/Canine_MyCasesFiles_SelectAll'))
 WebUI.click(findTestObject('Trials/Trials_DownloadManifest'))

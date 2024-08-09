@@ -67,7 +67,7 @@ GlobalVariable.fullUrl = Url
 
 System.out.println('This is the full url: ' + GlobalVariable.fullUrl)
 
-CustomKeywords.'ctdc.utilities.DataValidation.initDriver'()
+CustomKeywords.'utilities.DataValidation.initDriver'()
 
 //Step 2--------------------entering Designation Input ****************************************************************
 System.out.println('This is the value of Designation from the input test data : ' + ipDesig)
@@ -95,7 +95,7 @@ Thread.sleep(2000)
 tempCount = WebUI.getText(findTestObject('Object Repository/MTP/FDA_PMTL_page/PaginationTotal_Txt'))
  
 System.out.println('This is the value of tempcount before extracting the rowcount :' + tempCount)
-webResultsCnt = CustomKeywords.'ctdc.utilities.DataValidation.CountRowsfromPagination'(tempCount)
+webResultsCnt = CustomKeywords.'utilities.DataValidation.CountRowsfromPagination'(tempCount)
 
 System.out.println('This is the total count of Targets from UI : ' + webResultsCnt)
 

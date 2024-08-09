@@ -37,18 +37,18 @@ import java.nio.file.Paths as Paths
  */
 WebUI.closeBrowser()
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC02_Bento_LocalSearch-UploadCaseSet_Enter_CASEID_List.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC02_Bento_LocalSearch-UploadCaseSet_Enter_CASEID_List.xlsx')
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Bento/Banner/Bento_Warning_Continue_Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Bento/Banner/Bento_Warning_Continue_Btn')
 System.out.println ("Closed the warning window");
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/Bento/NavBar/Bento_Cases-Btn'), 5)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Bento/NavBar/Bento_Cases-Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Bento/NavBar/Bento_Cases-Btn')
 
 
 WebUI.waitForElementClickable(findTestObject('Bento/Cases_page/Bento_LocalSearch_Upld-View_CaseSet_Btn'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Bento/Cases_page/Bento_LocalSearch_UpldCaseSet_Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Bento/Cases_page/Bento_LocalSearch_UpldCaseSet_Btn')
 Thread.sleep(5000)
 
 //this input should be driven through xl  & for multiple ids later ?
@@ -66,13 +66,13 @@ System.out.println('Entered case id into the upload case set description')
  * 
  */
 WebUI.waitForElementClickable(findTestObject('Object Repository/Bento/Cases_page/Bento_LocalSearch_Upld_Submit_Btn'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Bento/Cases_page/Bento_LocalSearch_Upld_Submit_Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Bento/Cases_page/Bento_LocalSearch_Upld_Submit_Btn')
 //Click on the upload case set button
 
 Thread.sleep(5000)
 
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.readStatBarBento'('Object Repository/Bento/StatBar/Bento_StatBar-Programs',
+CustomKeywords.'utilities.TestRunner.readStatBarBento'('Object Repository/Bento/StatBar/Bento_StatBar-Programs',
 	'Object Repository/Bento/StatBar/Bento_StatBar-Arms', 'Object Repository/Bento/StatBar/Bento_StatBar-Cases', 'Object Repository/Bento/StatBar/Bento_StatBar-Samples',
 	'Object Repository/Bento/StatBar/Bento_StatBar-Assays', 'Object Repository/Bento/StatBar/Bento_StatBar-Files')
 

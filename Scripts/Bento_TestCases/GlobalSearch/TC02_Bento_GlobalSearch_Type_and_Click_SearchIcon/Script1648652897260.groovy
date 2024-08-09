@@ -41,9 +41,9 @@ import org.openqa.selenium.Keys as Keys
  */
 WebUI.closeBrowser()
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC02_Bento_GlobalSearch_Type_and_Click_SearchIcon.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC02_Bento_GlobalSearch_Type_and_Click_SearchIcon.xlsx')
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Bento/Banner/Bento_Warning_Continue_Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Bento/Banner/Bento_Warning_Continue_Btn')
 System.out.println ("Closed the warning window");
 
 WebUI.waitForElementClickable(findTestObject('Bento/GlobalSearch/GobalSearch_TxtBx'), 5)

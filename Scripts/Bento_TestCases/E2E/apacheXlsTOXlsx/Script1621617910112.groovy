@@ -38,8 +38,8 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
  
 
-//CustomKeywords.'ctdc.utilities.FileOperations.copySheet'()  //****************************this works
-//CustomKeywords.'ctdc.utilities.FileOperations.xlsTOxlsx'() //****************************this works
-CustomKeywords.'ctdc.utilities.FileOperations.deleteCol'(GlobalVariable.G_excelFileName,"manifestData")  
-//CustomKeywords.'ctdc.utilities.FileOperations.deleteCol'(GlobalVariable.G_WebExcel,"myCartWebdata")
+//CustomKeywords.'utilities.FileOperations.copySheet'()  //****************************this works
+//CustomKeywords.'utilities.FileOperations.xlsTOxlsx'() //****************************this works
+CustomKeywords.'utilities.FileOperations.deleteCol'(GlobalVariable.G_excelFileName,"manifestData")  
+//CustomKeywords.'utilities.FileOperations.deleteCol'(GlobalVariable.G_WebExcel,"myCartWebdata")
  

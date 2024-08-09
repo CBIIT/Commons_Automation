@@ -23,5 +23,5 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import java.io.FileInputStream;
 import java.io.IOException;
 
-CustomKeywords.'ctdc.utilities.ColumnValueValidator.excelColCheck'(GlobalVariable.G_WebExcel,GlobalVariable.G_WebTabnameCases, 9, 10, 30 )
+CustomKeywords.'utilities.ColumnValueValidator.excelColCheck'(GlobalVariable.G_WebExcel,GlobalVariable.G_WebTabnameCases, 9, 10, 30 )
 System.out.println ("Validation completed")
