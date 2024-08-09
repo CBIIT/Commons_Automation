@@ -139,8 +139,7 @@ public class sandbox  {
 	}
 
 	@Keyword
-	public static getall()
-	{
+	public static getall() {
 
 		System.setProperty("webdriver.chrome.driver", GlobalVariable.G_BrowserDriverPath);  //path of browser driver is in global variable under profiles
 		WebDriver driver = new ChromeDriver()
@@ -163,11 +162,7 @@ public class sandbox  {
 		for (WebElement e : Elelment) {
 
 			System.out.println(e.getTagName() + ": " + e.getText()) ;
-
 		}
-
-
-
 	}
 
 
@@ -236,8 +231,7 @@ public class sandbox  {
 
 
 	@Keyword
-	public static clicking()
-	{
+	public static clicking() {
 
 		WebDriver driver = new ChromeDriver()
 		//String nxt_str
@@ -289,8 +283,7 @@ public class sandbox  {
 		for(int index = 0; index < webData.size(); index++) {
 			System.out.println("Web Data: with header data is :" + webData.get(index))
 		}
-		while (true)
-		{
+		while (true) {
 			rows_table = Table.findElements(By.xpath("//*[contains(@id, \"MUIDataTableBodyRow-\")]"))
 
 			rows_count = rows_table.size()
@@ -318,7 +311,6 @@ public class sandbox  {
 			//nextButton2.click()
 			if (nextButton2.getAttribute("disabled"))break;
 			nextButton2.click()
-
 		}
 
 
@@ -384,7 +376,6 @@ public class sandbox  {
 		//
 		//			i++
 		//			System.out.println ( "Button2 After Clicking"  +   nextButton2.getAttribute("disabled"))
-
 	}
 
 	@Keyword
@@ -440,7 +431,6 @@ public class sandbox  {
 		System.out.println("Total Number of Columns in the table are: "+TotalColsList.size());
 		System.out.println("Total Number of Columns in the table HEADER are: "+ToGetColumnshdr.size());
 		System.out.println("Total Number of in ToGetColumns : "+ToGetColumnshdr.size());
-
 	}
 	//
 }

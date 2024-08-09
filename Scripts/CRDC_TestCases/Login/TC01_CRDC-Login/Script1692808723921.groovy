@@ -41,9 +41,9 @@ import java.nio.file.Paths as Paths
  */
 WebUI.closeBrowser()
 
-CustomKeywords.'utilities.Crdc.navigateToCrdc'()
+CustomKeywords.'utilities.CrdcDH.navigateToCrdc'()
 
-CustomKeywords.'utilities.Crdc.loginToCrdc'()
+CustomKeywords.'utilities.CrdcDH.loginToCrdc'()
 
 
 

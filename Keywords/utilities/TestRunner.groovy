@@ -159,11 +159,11 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		}else if(appKey.equals("CRDC")) {
 			filePath = Paths.get(usrDir, inputFiles, "CRDC", input_file);
 		}else {
-			KeywordUtil.markFailed("Invalid App Key: Check RunKatalon function")
+			KeywordUtil.markFailed("Invalid App Key: Check Profile or RunKatalon function")
 		}
 
 		if (filePath !=null) {
-			KeywordUtil.markPassed("This is the full file path : "+filePath.toString())
+			KeywordUtil.markPassed("This is the full file path: "+filePath.toString())
 			GlobalVariable.InputExcel=filePath.toString();
 		}else{
 			KeywordUtil.markFailed("Password File is not found")
@@ -772,8 +772,8 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 					hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
 				}
 			}
-		}
-		else if (appKey.equals("INS") && ((driver.getCurrentUrl()).contains("/explore"))){
+			//******** INS function starts here ********
+		}else if (appKey.equals("INS") && ((driver.getCurrentUrl()).contains("/explore"))){
 			switchINS = getPageSwitch();
 			switchString = "INS";
 			System.out.println ("This is the value of INS switch string: " + switchINS)
@@ -788,6 +788,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 					hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
 				}
 			}
+			//******** CDS function starts here ********
 		}else if(appKey.equals("CDS")){
 			switchCDS = getPageSwitch();
 			switchString = "CDS";
@@ -895,7 +896,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 
 
 
-		//@@@@@@@@@@@@@@@@@@  COLLECTING THE TABLE BODY DATA @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+		//@@@@@@@@@@@@@@@@@@  COLLECTING THE TABLE BODY DATA @@@@@@@@@@@@@@@
 		int counter=1;
 		if (statValue !=0) {
 
