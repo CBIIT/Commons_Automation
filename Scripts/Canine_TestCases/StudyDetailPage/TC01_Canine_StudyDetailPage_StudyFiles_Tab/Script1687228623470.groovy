@@ -36,13 +36,13 @@ WebUI.closeBrowser()
  
 
 WebUI.maximizeWindow()
-//CustomKeywords.'ctdc.utilities.DataValidation.initDriver'()  use this when using datavalidation profile
-//CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC01_Canine_Filter_Breed-Akita.xlsx')
+//CustomKeywords.'utilities.DataValidation.initDriver'()  use this when using datavalidation profile
+//CustomKeywords.'utilities.TestRunner.RunKatalon'('TC01_Canine_Filter_Breed-Akita.xlsx')
 Thread.sleep(2000)
 
 */
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC01_Canine_StudyDetailPage_StudyFiles_Tab.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC01_Canine_StudyDetailPage_StudyFiles_Tab.xlsx')
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Canine_PopUp_Continue_Btn'), 5)
 
@@ -51,7 +51,7 @@ WebUI.click(findTestObject('Object Repository/Canine/Canine_PopUp_Continue_Btn')
 System.out.println('Closed the popup window')
 
 WebUI.waitForElementPresent(findTestObject('Canine/NavBar/Canine_Studies_Btn'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Canine/NavBar/Canine_Studies_Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Canine/NavBar/Canine_Studies_Btn')
 
 System.out.println('This is the url of the current page : ' + WebUI.getUrl())
 
@@ -59,12 +59,12 @@ System.out.println('This is the url of the current page : ' + WebUI.getUrl())
 //reading the table inside the study files tab of a particular study details page :
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/StudiesPage/NCATS_Hplink'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/StudiesPage/NCATS_Hplink')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Canine/StudiesPage/NCATS_Hplink')
 System.out.println('This is the url of the current page after clicking a particular study link : ' + WebUI.getUrl())
 Thread.sleep(2000)
 
 //Read Statbar
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.readStatBarCanine'('Object Repository/Canine/StatBar/Canine_StatBar-Programs','Object Repository/Canine/StatBar/Canine_StatBar-Studies',
+CustomKeywords.'utilities.TestRunner.readStatBarCanine'('Object Repository/Canine/StatBar/Canine_StatBar-Programs','Object Repository/Canine/StatBar/Canine_StatBar-Studies',
 	'Object Repository/Canine/StatBar/Canine_StatBar-Cases', 'Object Repository/Canine/StatBar/Canine_StatBar-Samples',
 	'Object Repository/Canine/StatBar/Canine_StatBar-CaseFiles', 'Object Repository/Canine/StatBar/Canine_StatBar-StudyFiles')
  
@@ -77,10 +77,10 @@ boolean studyfilestab = WebUI.verifyElementPresent(findTestObject('Object Reposi
 			
 			if (studyfilestab == true) {
 			 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/StudyDetailsPage/StudyFilesTab')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Canine/StudyDetailsPage/StudyFilesTab')
 System.out.println('This is the url of the current page after clicking a particular study link : ' + WebUI.getUrl())
  Thread.sleep(2000)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.multiFunction'('ICDC', GlobalVariable.G_StatBar_StudyFiles, 'Object Repository/Canine/StudyDetailsPage/StudyFilesTab_Tbl',
+CustomKeywords.'utilities.TestRunner.multiFunction'('ICDC', GlobalVariable.G_StatBar_StudyFiles, 'Object Repository/Canine/StudyDetailsPage/StudyFilesTab_Tbl',
 	'Object Repository/Canine/StudyDetailsPage/StudyFilesTab_TblHdr', 'Object Repository/Canine/StudyDetailsPage/StudyFilesTab_NextBtn', GlobalVariable.G_WebTabnameSDStudyFilesTab,
 	GlobalVariable.G_CypherTabnameSDStudyFilesTab, GlobalVariable.G_QueryStudyFilesTab)
 

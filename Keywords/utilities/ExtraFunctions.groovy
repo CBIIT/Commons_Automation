@@ -1,4 +1,4 @@
-package ctdc.utilities
+package utilities
 
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -31,7 +31,6 @@ public class ExtraFunctions {
 			} else {
 				return null
 			}
-
 		} catch ( MalformedURLException e ) {
 			assert true
 			log.error " -------- OBSERVED EXCEPTION ------------------------- : in method getTrimmedString ( pData )"
@@ -52,7 +51,6 @@ public class ExtraFunctions {
 			}
 
 			return rtrnStr
-
 		} catch ( MalformedURLException e ) {
 			assert true
 			log.error " -------- EXCEPTION ------------------------- : in method strSplit ( pStr, pDelimiter )"
@@ -101,7 +99,6 @@ public class ExtraFunctions {
 			}
 
 			return getSortedList ( pList )
-
 		} catch ( MalformedURLException e ) {
 			assert true
 			log.error "     -- EXCEPTION ------------------------- : in method listIfEmptyOrNull ( pList, pVal )"
@@ -111,7 +108,8 @@ public class ExtraFunctions {
 
 	//***********************************************************************************
 	// recursive helper to traverse the list by depth first, sort the list and return the values, along with printing them to log.
-	def getSortedList ( pListToSort ){  // for one dim only
+	def getSortedList ( pListToSort ){
+		// for one dim only
 		try {
 			def sortedList	 =  ( pListToSort.sort { x, y -> x <=> y } )
 			return sortedList
@@ -125,7 +123,8 @@ public class ExtraFunctions {
 
 
 	// get sorted array ********************************************************************
-	def sortedArray ( pList, pVal ) {  // for one dim only
+	def sortedArray ( pList, pVal ) {
+		// for one dim only
 		try {
 			if ( pVal != "" && pVal != null ) {
 				if ( pVal == "true" || pVal == true ) {
@@ -143,7 +142,6 @@ public class ExtraFunctions {
 			}
 
 			return pList
-
 		} catch ( MalformedURLException e ) {
 			assert true
 			log.error "     -- EXCEPTION ------------------------- : in method listIfEmptyOrNull ( pList, pVal )"
@@ -154,7 +152,8 @@ public class ExtraFunctions {
 
 	//************************************************************************************************************/
 
-	def differenceInLists ( pList1, pList2 ) {  // for one dim only
+	def differenceInLists ( pList1, pList2 ) {
+		// for one dim only
 		try {
 			def commons = pList1.intersect(pList2)
 			def difference = pList1.plus(pList2)
@@ -178,7 +177,8 @@ public class ExtraFunctions {
 	}
 
 	@Keyword
-	public void compareLists_1D() {  //public static void main () {
+	public void compareLists_1D() {
+		//public static void main () {
 		ArrayList<String> firstList=new ArrayList<String>(Arrays.asList("Orange", "Apple", "Kiwi","Banana"));
 		ArrayList<String> secondList=new ArrayList<String>(Arrays.asList("Banana", "Apple", "Kiwi", "Orange"));
 		System.out.println("First arraylist before sorting is: "+firstList);
@@ -191,5 +191,4 @@ public class ExtraFunctions {
 		System.out.println("Second arraylist after sorting is: "+sortedSecondList);
 		differenceInLists(sortedFirstList,sortedSecondList)
 	}
-
 }

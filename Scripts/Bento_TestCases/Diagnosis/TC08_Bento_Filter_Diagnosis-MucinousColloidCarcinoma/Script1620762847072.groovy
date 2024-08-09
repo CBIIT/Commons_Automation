@@ -44,46 +44,46 @@ WebUI.closeBrowser()
 
 
  
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC08_Bento_Filter_Diagnosis-MucinousColloidCarcinoma.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC08_Bento_Filter_Diagnosis-MucinousColloidCarcinoma.xlsx')
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Bento/Banner/Bento_Warning_Continue_Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Bento/Banner/Bento_Warning_Continue_Btn')
 System.out.println ("Closed the warning window");
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/Bento/NavBar/Bento_Cases-Btn'),5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Bento/NavBar/Bento_Cases-Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Bento/NavBar/Bento_Cases-Btn')
 
 //WebUI.waitForElementClickable(findTestObject('Bento/Cases_page/Filter/FilterByCases_Facet'),5)
-//CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Bento/Cases_page/Filter/FilterByCases_Facet')
+//CustomKeywords.'utilities.TestRunner.clickTab'('Bento/Cases_page/Filter/FilterByCases_Facet')
  
 WebUI.waitForElementClickable(findTestObject('Bento/Cases_page/Filter/Diagnosis/DIAGNOSIS_Ddn'),5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Bento/Cases_page/Filter/Diagnosis/DIAGNOSIS_Ddn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Bento/Cases_page/Filter/Diagnosis/DIAGNOSIS_Ddn')
 WebUI.waitForElementClickable(findTestObject('Bento/Cases_page/Filter/Diagnosis/MucinousCollCarcinoma_Chkbx'),5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Bento/Cases_page/Filter/Diagnosis/MucinousCollCarcinoma_Chkbx')
+CustomKeywords.'utilities.TestRunner.clickTab'('Bento/Cases_page/Filter/Diagnosis/MucinousCollCarcinoma_Chkbx')
  
 
 //Read statbar 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.readStatBarBento'('Object Repository/Bento/StatBar/Bento_StatBar-Programs',
+CustomKeywords.'utilities.TestRunner.readStatBarBento'('Object Repository/Bento/StatBar/Bento_StatBar-Programs',
 	'Object Repository/Bento/StatBar/Bento_StatBar-Arms', 'Object Repository/Bento/StatBar/Bento_StatBar-Cases', 'Object Repository/Bento/StatBar/Bento_StatBar-Samples',
 	'Object Repository/Bento/StatBar/Bento_StatBar-Assays', 'Object Repository/Bento/StatBar/Bento_StatBar-Files')
 
 //Clicking the cases tab 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Bento/Cases_page/BentoResults_Cases_Tab'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Bento/Cases_page/BentoResults_Cases_Tab')
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.multiFunction'('Bento',GlobalVariable.G_StatBar_Cases, 'Object Repository/Bento/Cases_page/Bento_CasesTable',
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Bento/Cases_page/BentoResults_Cases_Tab')
+CustomKeywords.'utilities.TestRunner.multiFunction'('Bento',GlobalVariable.G_StatBar_Cases, 'Object Repository/Bento/Cases_page/Bento_CasesTable',
 	'Object Repository/Bento/Cases_page/Bento_CasesTableHeader', 'Object Repository/Bento/Cases_page/Bento_CasesTabNextBtn', GlobalVariable.G_WebTabnameCases,
 	GlobalVariable.G_CypherTabnameCases, GlobalVariable.G_QueryCasesTab)
 
 //clicking the Samples tab
 WebUI.waitForElementPresent(findTestObject('Object Repository/Bento/Cases_page/BentoResults_Samples_Tab'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Bento/Cases_page/BentoResults_Samples_Tab')
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.multiFunction'('Bento',GlobalVariable.G_StatBar_Samples, 'Object Repository/Bento/Cases_page/Bento_SamplesTable',
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Bento/Cases_page/BentoResults_Samples_Tab')
+CustomKeywords.'utilities.TestRunner.multiFunction'('Bento',GlobalVariable.G_StatBar_Samples, 'Object Repository/Bento/Cases_page/Bento_SamplesTable',
 	'Object Repository/Bento/Cases_page/Bento_SamplesTableHeader', 'Object Repository/Bento/Cases_page/Bento_SamplesTabNextBtn', GlobalVariable.G_WebTabnameSamples,
 	GlobalVariable.G_CypherTabnameSamples, GlobalVariable.G_QuerySamplesTab)
 	
 //clicking the Files tab
 WebUI.waitForElementPresent(findTestObject('Object Repository/Bento/Cases_page/BentoResults_Files_Tab'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Bento/Cases_page/BentoResults_Files_Tab')
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.multiFunction'('Bento',GlobalVariable.G_StatBar_Files, 'Object Repository/Bento/Cases_page/Bento_FilesTable',
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Bento/Cases_page/BentoResults_Files_Tab')
+CustomKeywords.'utilities.TestRunner.multiFunction'('Bento',GlobalVariable.G_StatBar_Files, 'Object Repository/Bento/Cases_page/Bento_FilesTable',
 	'Object Repository/Bento/Cases_page/Bento_FilesTableHeader', 'Object Repository/Bento/Cases_page/Bento_FilesTabNextBtn', GlobalVariable.G_WebTabnameFiles,
 	GlobalVariable.G_CypherTabnameFiles, GlobalVariable.G_QueryFilesTab)
 

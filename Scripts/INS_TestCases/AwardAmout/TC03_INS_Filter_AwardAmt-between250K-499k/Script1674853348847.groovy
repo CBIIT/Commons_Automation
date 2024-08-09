@@ -31,29 +31,29 @@ import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
  
 WebUI.closeBrowser()
 
-//CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.testSetup'('')
+//CustomKeywords.'utilities.TestRunner.testSetup'('')
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC03_INS_Filter_AwardAmt-between250K-499k.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC03_INS_Filter_AwardAmt-between250K-499k.xlsx')
 
-//CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Canine_PopUp_Continue_Btn')
+//CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Canine/Canine_PopUp_Continue_Btn')
 //System.out.println ("Closed the popup window");
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/INS/Navbar/INS_Explore_Btn'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/INS/Navbar/INS_Explore_Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/INS/Navbar/INS_Explore_Btn')
  
  
 
 //WebUI.waitForElementPresent(findTestObject('Object Repository/INS/ProjectsPage/INS_FilterByProj_Facet'), 15)
-//CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/INS/ProjectsPage/INS_FilterByProj_Facet')
+//CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/INS/ProjectsPage/INS_FilterByProj_Facet')
  
  
 WebUI.waitForElementPresent(findTestObject('Object Repository/INS/ProjectsPage/Filter/AwrdAmunt/AwrdAmunt_Ddn'), 15)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabINSStat'('Object Repository/INS/ProjectsPage/Filter/AwrdAmunt/AwrdAmunt_Ddn')
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabINSStat'('Object Repository/INS/ProjectsPage/Filter/AwrdAmunt/between250-499k_Chkbx')
+CustomKeywords.'utilities.TestRunner.clickTabINSStat'('Object Repository/INS/ProjectsPage/Filter/AwrdAmunt/AwrdAmunt_Ddn')
+CustomKeywords.'utilities.TestRunner.clickTabINSStat'('Object Repository/INS/ProjectsPage/Filter/AwrdAmunt/between250-499k_Chkbx')
 
 Thread.sleep (5000)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.readINSStatBar'('Object Repository/INS/Statbar/INS_Statbar-Programs','Object Repository/INS/Statbar/INS_Statbar-Projects',
+CustomKeywords.'utilities.TestRunner.readINSStatBar'('Object Repository/INS/Statbar/INS_Statbar-Programs','Object Repository/INS/Statbar/INS_Statbar-Projects',
 	'Object Repository/INS/Statbar/INS_Statbar-Publications', 'Object Repository/INS/Statbar/INS_Statbar-Datasets',
 	'Object Repository/INS/Statbar/INS_Statbar-ClinTrials', 'Object Repository/INS/Statbar/INS_Statbar-Patents')
  
@@ -61,8 +61,8 @@ CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.readINSStatBar'('Object Rep
 
 // clicking the Projects tab
 WebUI.waitForElementPresent(findTestObject('Object Repository/INS/ProjectsPage/INSResults_Projects_Tab'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/INS/ProjectsPage/INSResults_Projects_Tab')
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.multiFunction'('INS', GlobalVariable.G_StatBar_Projects, 'Object Repository/INS/ProjectsPage/INS_Projects_Tbl', 
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/INS/ProjectsPage/INSResults_Projects_Tab')
+CustomKeywords.'utilities.TestRunner.multiFunction'('INS', GlobalVariable.G_StatBar_Projects, 'Object Repository/INS/ProjectsPage/INS_Projects_Tbl', 
    'Object Repository/INS/ProjectsPage/INS_Projects_TblHdr', 'Object Repository/INS/ProjectsPage/INS_TabNextBtn', GlobalVariable.G_WebTabnameProjects, 
     GlobalVariable.G_CypherTabnameProjects, GlobalVariable.G_QueryProjectsTab)
 

@@ -33,28 +33,28 @@ WebUI.openBrowser('')
 
 //WebUI.maximizeWindow()
 //'Driver opened by Katalon is used in Selenium from this step.'
-//CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.testSetup'('')
+//CustomKeywords.'utilities.TestRunner.testSetup'('')
 
 'This step takes the Query from input excel and fetches data from Neo4j database. \r\nSaves the results from neo4j and application in the same name mentioned in the input excel. '
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC02_CaseDetails-Click_Single_CaseID_Verify_Details')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC02_CaseDetails-Click_Single_CaseID_Verify_Details')
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Canine_PopUp_Continue_Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Canine/Canine_PopUp_Continue_Btn')
 System.out.println ("Closed the popup window");
 
 WebUI.waitForElementPresent(findTestObject('Canine/NavBar/Canine_Cases_Btn'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Canine/NavBar/Canine_Cases_Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Canine/NavBar/Canine_Cases_Btn')
 
 
 //WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/FilterByCases_Facet'), 5)
-//CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Filter/FilterByCases_Facet')
+//CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Canine/Filter/FilterByCases_Facet')
 
  
 'Clicks on the Filter \'Study\' from left pane'
 WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/Study/Canine_Filter_Study'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/Canine/Filter/Study/Canine_Filter_Study')
+CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Object Repository/Canine/Filter/Study/Canine_Filter_Study')
 
 'Selects the specific check box from \'Study\' filter.'
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/Canine/Filter/Study/Canine_Filter_Study-UBC02_Chkbx')
+CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Object Repository/Canine/Filter/Study/Canine_Filter_Study-UBC02_Chkbx')
  
 //check the tbody for count of tr  
 // based on tr count as a for loop, loop through each case id hyperlink
@@ -63,7 +63,7 @@ CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object
 // -- retrieve the results from query for the 3 info sections, 2 tables in the case detail page
 // click back button and return to the explore page to click on case id link 2 and repeat everthing above till all the records in the first page.
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.readStatBarCanine'('Object Repository/Canine/StatBar/Canine_StatBar-Programs','Object Repository/Canine/StatBar/Canine_StatBar-Studies',
+CustomKeywords.'utilities.TestRunner.readStatBarCanine'('Object Repository/Canine/StatBar/Canine_StatBar-Programs','Object Repository/Canine/StatBar/Canine_StatBar-Studies',
 	'Object Repository/Canine/StatBar/Canine_StatBar-Cases', 'Object Repository/Canine/StatBar/Canine_StatBar-Samples',
 	'Object Repository/Canine/StatBar/Canine_StatBar-CaseFiles', 'Object Repository/Canine/StatBar/Canine_StatBar-StudyFiles')
 

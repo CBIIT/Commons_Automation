@@ -1,4 +1,4 @@
-package ctdc.utilities;
+package utilities;
 
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -102,5 +102,4 @@ public class PythonReader {
 			KeywordUtil.markFailed("An error occurred while executing the Python script: " + e.getMessage());
 		}
 	}
-
 }

@@ -1,4 +1,4 @@
-package ctdc.utilities
+package utilities
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import org.apache.poi.xssf.usermodel.XSSFCell;
@@ -47,9 +47,9 @@ public class ReadExcel {
 				List<String> currList = new ArrayList<>();
 				XSSFRow row = sheet.getRow(i);
 
-				for (int j = 0; j < colSize; j++) {					
+				for (int j = 0; j < colSize; j++) {
 					XSSFCell cell = row.getCell(j);
-					
+
 					if (cell == null) {
 						cell = row.createCell(j);
 					}

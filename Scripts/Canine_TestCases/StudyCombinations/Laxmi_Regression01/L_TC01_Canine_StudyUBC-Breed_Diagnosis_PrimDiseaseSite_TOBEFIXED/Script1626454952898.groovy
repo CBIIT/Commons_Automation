@@ -34,36 +34,36 @@ WebUI.closeBrowser()
 'Driver opened by Katalon is used in Selenium from this step.'
 
 //UBC-Beagle,MixedBreed-BladderCancer,HealthyControl-BladderProstate,BladderUrethra
-//CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.testSetup'('')
+//CustomKeywords.'utilities.TestRunner.testSetup'('')
 'This step takes the Query from input excel and fetches data from Neo4j database. \r\nSaves the results from neo4j and application in the same name mentioned in the input excel. '
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC01_Canine_StudyUBC-Breed_Diagnosis_PrimDiseaseSite.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC01_Canine_StudyUBC-Breed_Diagnosis_PrimDiseaseSite.xlsx')
 
 'Clicks on the Cases button in the Navbar of ICDC\'s homepage.'
 WebUI.waitForElementPresent(findTestObject('Canine/NavBar/Canine_Cases_Btn'), 20)
 
 WebUI.verifyElementPresent(findTestObject('Canine/NavBar/Canine_Cases_Btn'), 5)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Canine/NavBar/Canine_Cases_Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Canine/NavBar/Canine_Cases_Btn')
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/FilterByCases_Facet'), 20)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Canine/Filter/FilterByCases_Facet'), 5)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Filter/FilterByCases_Facet')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Canine/Filter/FilterByCases_Facet')
 
 'Clicks on the Filter \'Study\' from left pane'
 WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/Study/Canine_Filter_Study'), 30)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Canine/Filter/Study/Canine_Filter_Study'), 5)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Filter/Study/Canine_Filter_Study')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Canine/Filter/Study/Canine_Filter_Study')
 
 'Selects the specific check box from \'Study\' filter.'
 WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/Study/Canine_Filter_Study-UBC_Chkbx'), 30)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Canine/Filter/Study/Canine_Filter_Study-UBC_Chkbx'), 5)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Filter/Study/Canine_Filter_Study-UBC_Chkbx')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Canine/Filter/Study/Canine_Filter_Study-UBC_Chkbx')
 
 Thread.sleep(2000)
 
@@ -71,21 +71,21 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/Bree
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Canine/Filter/Breed/BREED_Ddn'), 5)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Filter/Breed/BREED_Ddn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Canine/Filter/Breed/BREED_Ddn')
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/Breed/Beagle_Chkbx'), 30)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Canine/Filter/Breed/Beagle_Chkbx'), 5)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Filter/Breed/Beagle_Chkbx')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Canine/Filter/Breed/Beagle_Chkbx')
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/Breed/Mixed_Chkbx'), 30)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Canine/Filter/Breed/Mixed_Chkbx'), 5)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Filter/Breed/Mixed_Chkbx')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Canine/Filter/Breed/Mixed_Chkbx')
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Filter/Breed/BREED_Ddn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Canine/Filter/Breed/BREED_Ddn')
 
 Thread.sleep(2000)
 
@@ -93,13 +93,13 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/Diag
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Canine/Filter/Diagnosis/DIAGNOSIS_Ddn'), 5)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Filter/Diagnosis/DIAGNOSIS_Ddn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Canine/Filter/Diagnosis/DIAGNOSIS_Ddn')
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/Diagnosis/BladderCancer_Chkbx'), 30)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Canine/Filter/Diagnosis/BladderCancer_Chkbx'), 5)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Filter/Diagnosis/BladderCancer_Chkbx')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Canine/Filter/Diagnosis/BladderCancer_Chkbx')
 
 WebUI.delay(3)
 
@@ -107,9 +107,9 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/Diag
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Canine/Filter/Diagnosis/HealthyControl_Chkbx'), 5)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Filter/Diagnosis/HealthyControl_Chkbx')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Canine/Filter/Diagnosis/HealthyControl_Chkbx')
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Filter/Diagnosis/DIAGNOSIS_Ddn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Canine/Filter/Diagnosis/DIAGNOSIS_Ddn')
 
 Thread.sleep(2000)
 
@@ -117,7 +117,7 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/Prim
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Canine/Filter/PrimDiseaseSite/PRIMARYDISEASESITE_Ddn'), 5)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Filter/PrimDiseaseSite/PRIMARYDISEASESITE_Ddn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Canine/Filter/PrimDiseaseSite/PRIMARYDISEASESITE_Ddn')
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/PrimDiseaseSite/BladderUrethra_Chkbx'), 30)
 
@@ -125,7 +125,7 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Canine/Filter/PrimD
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/Canine/Filter/PrimDiseaseSite/BladderUrethra_Chkbx'), 30)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Filter/PrimDiseaseSite/BladderUrethra_Chkbx')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Canine/Filter/PrimDiseaseSite/BladderUrethra_Chkbx')
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/PrimDiseaseSite/BladderProstate_Chkbx'), 30)
 
@@ -133,13 +133,13 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Canine/Filter/PrimD
 
 Thread.sleep(2000)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Filter/PrimDiseaseSite/BladderProstate_Chkbx')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Canine/Filter/PrimDiseaseSite/BladderProstate_Chkbx')
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Filter/PrimDiseaseSite/PRIMARYDISEASESITE_Ddn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Canine/Filter/PrimDiseaseSite/PRIMARYDISEASESITE_Ddn')
 
 Thread.sleep(2000)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.readStatBarCanine'('Object Repository/Canine/StatBar/Canine_StatBar-Studies', 
+CustomKeywords.'utilities.TestRunner.readStatBarCanine'('Object Repository/Canine/StatBar/Canine_StatBar-Studies', 
     'Object Repository/Canine/StatBar/Canine_StatBar-Cases', 'Object Repository/Canine/StatBar/Canine_StatBar-Samples', 
     'Object Repository/Canine/StatBar/Canine_StatBar-Files', 'Object Repository/Canine/StatBar/Canine_StatBar-Aliquots')
 
@@ -148,9 +148,9 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/CanineResul
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Canine/CanineResults_Cases_Tab'), 5)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/CanineResults_Cases_Tab')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Canine/CanineResults_Cases_Tab')
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.multiFunction'('ICDC', GlobalVariable.G_StatBar_Publications, 'Object Repository/Canine/Canine_CasesTable', 
+CustomKeywords.'utilities.TestRunner.multiFunction'('ICDC', GlobalVariable.G_StatBar_Publications, 'Object Repository/Canine/Canine_CasesTable', 
     'Object Repository/Canine/Canine_TableHeader', 'Object Repository/Canine/Canine_CasesTabNextBtn', GlobalVariable.G_WebTabnameCases, 
     GlobalVariable.G_CypherTabnameCases, GlobalVariable.G_QueryCasesTab)
 

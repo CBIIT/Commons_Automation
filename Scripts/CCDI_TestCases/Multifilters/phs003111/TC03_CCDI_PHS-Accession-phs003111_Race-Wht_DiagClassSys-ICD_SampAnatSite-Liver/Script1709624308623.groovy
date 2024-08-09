@@ -47,53 +47,53 @@ Sex - Female
 */
 WebUI.closeBrowser()
  
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC03_CCDI_PHS-Accession-phs003111_Race-Wht_DiagClassSys-ICD_SampAnatSite-Liver.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC03_CCDI_PHS-Accession-phs003111_Race-Wht_DiagClassSys-ICD_SampAnatSite-Liver.xlsx')
 
-//CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Canine_PopUp_Continue_Btn')
+//CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Canine/Canine_PopUp_Continue_Btn')
 //System.out.println ("Closed the popup window");
 
  
 WebUI.waitForElementPresent(findTestObject('Object Repository/CCDI/Navbar/Explore_Menu'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/CCDI/Navbar/Explore_Menu')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/CCDI/Navbar/Explore_Menu')
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/CCDI/ExplorePage/Filters/Study_Facet/Study_Facet'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/CCDI/ExplorePage/Filters/Study_Facet/Study_Facet')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/CCDI/ExplorePage/Filters/Study_Facet/Study_Facet')
 WebUI.waitForElementPresent(findTestObject('Object Repository/CCDI/ExplorePage/Filters/Study_Facet/PHS_Accession/PHS_Accession_Ddn'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/CCDI/ExplorePage/Filters/Study_Facet/PHS_Accession/PHS_Accession_Ddn')
+CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Object Repository/CCDI/ExplorePage/Filters/Study_Facet/PHS_Accession/PHS_Accession_Ddn')
 WebUI.waitForElementPresent(findTestObject('Object Repository/CCDI/ExplorePage/Filters/Study_Facet/PHS_Accession/phs003111_Chkbx'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/CCDI/ExplorePage/Filters/Study_Facet/PHS_Accession/phs003111_Chkbx')
+CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Object Repository/CCDI/ExplorePage/Filters/Study_Facet/PHS_Accession/phs003111_Chkbx')
 
  
 WebUI.waitForElementPresent(findTestObject('Object Repository/CCDI/ExplorePage/Filters/Demographics-Facet/Race/Race_Ddn'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/CCDI/ExplorePage/Filters/Demographics-Facet/Race/Race_Ddn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/CCDI/ExplorePage/Filters/Demographics-Facet/Race/Race_Ddn')
 WebUI.waitForElementPresent(findTestObject('Object Repository/CCDI/ExplorePage/Filters/Demographics-Facet/Race/White_Chkbx'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/CCDI/ExplorePage/Filters/Demographics-Facet/Race/White_Chkbx')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/CCDI/ExplorePage/Filters/Demographics-Facet/Race/White_Chkbx')
 
  
 WebUI.waitForElementPresent(findTestObject('Object Repository/CCDI/ExplorePage/Filters/Diagnosis-Facet/Diagnosis-Facet'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/CCDI/ExplorePage/Filters/Diagnosis-Facet/Diagnosis-Facet')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/CCDI/ExplorePage/Filters/Diagnosis-Facet/Diagnosis-Facet')
 WebUI.waitForElementPresent(findTestObject('Object Repository/CCDI/ExplorePage/Filters/Diagnosis-Facet/Diags_Clasifctn_System/DiagClassifSystem_Ddn'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/CCDI/ExplorePage/Filters/Diagnosis-Facet/Diags_Clasifctn_System/DiagClassifSystem_Ddn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/CCDI/ExplorePage/Filters/Diagnosis-Facet/Diags_Clasifctn_System/DiagClassifSystem_Ddn')
 WebUI.waitForElementPresent(findTestObject('Object Repository/CCDI/ExplorePage/Filters/Diagnosis-Facet/Diags_Clasifctn_System/ICD-O-3.2'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/CCDI/ExplorePage/Filters/Diagnosis-Facet/Diags_Clasifctn_System/ICD-O-3.2')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/CCDI/ExplorePage/Filters/Diagnosis-Facet/Diags_Clasifctn_System/ICD-O-3.2')
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/CCDI/ExplorePage/Filters/Samples_Facet/Samples_Facet'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/CCDI/ExplorePage/Filters/Samples_Facet/Samples_Facet')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/CCDI/ExplorePage/Filters/Samples_Facet/Samples_Facet')
 WebUI.waitForElementPresent(findTestObject('Object Repository/CCDI/ExplorePage/Filters/Samples_Facet/AnatomicSite/AnatomicSite_Ddn'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/CCDI/ExplorePage/Filters/Samples_Facet/AnatomicSite/AnatomicSite_Ddn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/CCDI/ExplorePage/Filters/Samples_Facet/AnatomicSite/AnatomicSite_Ddn')
 WebUI.waitForElementPresent(findTestObject('Object Repository/CCDI/ExplorePage/Filters/Samples_Facet/AnatomicSite/Liver-C22.0_Chkbx'), 5)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/CCDI/ExplorePage/Filters/Samples_Facet/AnatomicSite/Liver-C22.0_Chkbx')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/CCDI/ExplorePage/Filters/Samples_Facet/AnatomicSite/Liver-C22.0_Chkbx')
 
 
  
 //Read Statbar
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.readStatBarCCDIhub'('Object Repository/CCDI/Statbar/Studies_Cnt','Object Repository/CCDI/Statbar/Participants_Cnt', 'Object Repository/CCDI/Statbar/Samples_Cnt',
+CustomKeywords.'utilities.TestRunner.readStatBarCCDIhub'('Object Repository/CCDI/Statbar/Studies_Cnt','Object Repository/CCDI/Statbar/Participants_Cnt', 'Object Repository/CCDI/Statbar/Samples_Cnt',
 	'Object Repository/CCDI/Statbar/Files_Cnt')
 
 //clicking the Participants tab
 //WebUI.waitForElementPresent(findTestObject('Object Repository/CCDI/Participants_ResultsTab'), 5)
-//CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/CCDI/Participants_ResultsTab')
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.multiFunction'('CCDI', GlobalVariable.G_StatBar_Participants, 'Object Repository/CCDI/ExplorePage/CCDI_Participants_Tbl',
+//CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/CCDI/Participants_ResultsTab')
+CustomKeywords.'utilities.TestRunner.multiFunction'('CCDI', GlobalVariable.G_StatBar_Participants, 'Object Repository/CCDI/ExplorePage/CCDI_Participants_Tbl',
 	'Object Repository/CCDI/ExplorePage/CCDI_Participants_TblHdr', 'Object Repository/CCDI/ExplorePage/CCDI_Participants_TblNextBtn', GlobalVariable.G_WebTabnameParticipants,	GlobalVariable.G_CypherTabnameParticipants, GlobalVariable.G_QueryParticipantsTab)
 
 WebUI.closeBrowser()

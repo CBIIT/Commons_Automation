@@ -34,8 +34,8 @@ WebUI.closeBrowser()
 WebUI.openBrowser(GlobalVariable.G_Urlname)
 
 WebUI.maximizeWindow()
-//CustomKeywords.'ctdc.utilities.DataValidation.initDriver'()  use this when using datavalidation profile
-//CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC01_Canine_Filter_Breed-Akita.xlsx')
+//CustomKeywords.'utilities.DataValidation.initDriver'()  use this when using datavalidation profile
+//CustomKeywords.'utilities.TestRunner.RunKatalon'('TC01_Canine_Filter_Breed-Akita.xlsx')
 Thread.sleep(2000)
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Canine_PopUp_Continue_Btn'), 5)

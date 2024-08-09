@@ -41,9 +41,9 @@ GlobalVariable.fullUrl = Url
 
 System.out.println('This is the full url: ' + GlobalVariable.fullUrl)
 
-//CustomKeywords.'ctdc.utilities.DataValidation.initDriver'()
+//CustomKeywords.'utilities.DataValidation.initDriver'()
 
-WebDriver drv = CustomKeywords.'ctdc.utilities.DataValidation.passDriver'()
+WebDriver drv = CustomKeywords.'utilities.DataValidation.passDriver'()
 String elementlabel
 
  
@@ -53,7 +53,7 @@ String elementlabel
 System.out.println ("This is the value of Resource Name obtained from input test data :" + ipResrcName)
 GlobalVariable.G_RsrcName=ipResrcName.toString()
 elementlabel= "Resource Name"
-CustomKeywords.'ctdc.utilities.DataValidation.CCDCreadInfo'(drv,'Object Repository/CCDC/Resource_page/ResourceName', ipResrcName, GlobalVariable.G_RsrcName, elementlabel)
+CustomKeywords.'utilities.DataValidation.CCDCreadInfo'(drv,'Object Repository/CCDC/Resource_page/ResourceName', ipResrcName, GlobalVariable.G_RsrcName, elementlabel)
 
  
 
@@ -61,7 +61,7 @@ CustomKeywords.'ctdc.utilities.DataValidation.CCDCreadInfo'(drv,'Object Reposito
 System.out.println ("This is the value of Resource Code obtained from input test data :" + ipResrcCode)
 GlobalVariable.G_resCode=ipResrcCode.toString()
 elementlabel= "Resource Code"
-CustomKeywords.'ctdc.utilities.DataValidation.CCDCreadInfo'(drv,'Object Repository/CCDC/Resource_page/ResourceCode', ipResrcCode, GlobalVariable.G_resCode, elementlabel)
+CustomKeywords.'utilities.DataValidation.CCDCreadInfo'(drv,'Object Repository/CCDC/Resource_page/ResourceCode', ipResrcCode, GlobalVariable.G_resCode, elementlabel)
  
 
 
@@ -70,7 +70,7 @@ CustomKeywords.'ctdc.utilities.DataValidation.CCDCreadInfo'(drv,'Object Reposito
  System.out.println ("This is the value of POC obtained from input test data :" + ipPOC)
  GlobalVariable.G_POC=ipPOC.toString()
   elementlabel= "POC"
- CustomKeywords.'ctdc.utilities.DataValidation.CCDCreadInfo'(drv,'Object Repository/CCDC/Resource_page/POC', ipPOC, GlobalVariable.G_POC, elementlabel)
+ CustomKeywords.'utilities.DataValidation.CCDCreadInfo'(drv,'Object Repository/CCDC/Resource_page/POC', ipPOC, GlobalVariable.G_POC, elementlabel)
  
  
 
@@ -79,7 +79,7 @@ CustomKeywords.'ctdc.utilities.DataValidation.CCDCreadInfo'(drv,'Object Reposito
  System.out.println ("This is the value of Dataset Summary count obtained from input test data :" + ipDtstSummCnt)
  GlobalVariable.G_DtstSummCnt=ipDtstSummCnt.toString()
   elementlabel= "Dataset Summary Count"
- CustomKeywords.'ctdc.utilities.DataValidation.CCDCreadInfo'(drv,'Object Repository/CCDC/Resource_page/DtstSummaryCnt', ipDtstSummCnt, GlobalVariable.G_DtstSummCnt, elementlabel)
+ CustomKeywords.'utilities.DataValidation.CCDCreadInfo'(drv,'Object Repository/CCDC/Resource_page/DtstSummaryCnt', ipDtstSummCnt, GlobalVariable.G_DtstSummCnt, elementlabel)
  
  
  
@@ -87,14 +87,14 @@ CustomKeywords.'ctdc.utilities.DataValidation.CCDCreadInfo'(drv,'Object Reposito
   System.out.println ("This is the value of Filter Type obtained from input test data :" + ipFilterType)
  GlobalVariable.G_FilterType=ipFilterType.toString()
   elementlabel= "Filter Type"
- CustomKeywords.'ctdc.utilities.DataValidation.CCDCreadInfo'(drv,'Object Repository/CCDC/Resource_page/FilterType', ipFilterType, GlobalVariable.G_FilterType, elementlabel)
+ CustomKeywords.'utilities.DataValidation.CCDCreadInfo'(drv,'Object Repository/CCDC/Resource_page/FilterType', ipFilterType, GlobalVariable.G_FilterType, elementlabel)
  
 /*
  //Step 7--------------------Verifying Specialization ****************************************************************
  System.out.println ("This is the value of Dataset Name obtained from input test data :" + ipDtstName)
  GlobalVariable.G_DtstName=ipDtstName.toString()
   elementlabel= "Dataset Name"
- CustomKeywords.'ctdc.utilities.DataValidation.CCDCreadInfo'(drv,'Object Repository/CCDC/Dataset_page/DatasetName', ipDtstName, GlobalVariable.G_DtstName, elementlabel)
+ CustomKeywords.'utilities.DataValidation.CCDCreadInfo'(drv,'Object Repository/CCDC/Dataset_page/DatasetName', ipDtstName, GlobalVariable.G_DtstName, elementlabel)
  
  */
 
@@ -103,7 +103,7 @@ CustomKeywords.'ctdc.utilities.DataValidation.CCDCreadInfo'(drv,'Object Reposito
  System.out.println ("This is the value of Dataset Name obtained from input test data :" + ipDtstName)
  GlobalVariable.G_DtstName=ipDtstName.toString()
   elementlabel= "Dataset Name"
- CustomKeywords.'ctdc.utilities.DataValidation.CCDCreadInfo'(drv,'Object Repository/CCDC/Dataset_page/DatasetName', ipDtstName, GlobalVariable.G_DtstName, elementlabel)
+ CustomKeywords.'utilities.DataValidation.CCDCreadInfo'(drv,'Object Repository/CCDC/Dataset_page/DatasetName', ipDtstName, GlobalVariable.G_DtstName, elementlabel)
  
  */
 
@@ -112,7 +112,7 @@ CustomKeywords.'ctdc.utilities.DataValidation.CCDCreadInfo'(drv,'Object Reposito
  System.out.println ("This is the value of Dataset Name obtained from input test data :" + ipDtstName)
  GlobalVariable.G_DtstName=ipDtstName.toString()
   elementlabel= "Dataset Name"
- CustomKeywords.'ctdc.utilities.DataValidation.CCDCreadInfo'(drv,'Object Repository/CCDC/Dataset_page/DatasetName', ipDtstName, GlobalVariable.G_DtstName, elementlabel)
+ CustomKeywords.'utilities.DataValidation.CCDCreadInfo'(drv,'Object Repository/CCDC/Dataset_page/DatasetName', ipDtstName, GlobalVariable.G_DtstName, elementlabel)
  
  */
 
@@ -121,7 +121,7 @@ CustomKeywords.'ctdc.utilities.DataValidation.CCDCreadInfo'(drv,'Object Reposito
  System.out.println ("This is the value of Dataset Name obtained from input test data :" + ipDtstName)
  GlobalVariable.G_DtstName=ipDtstName.toString()
   elementlabel= "Dataset Name"
- CustomKeywords.'ctdc.utilities.DataValidation.CCDCreadInfo'(drv,'Object Repository/CCDC/Dataset_page/DatasetName', ipDtstName, GlobalVariable.G_DtstName, elementlabel)
+ CustomKeywords.'utilities.DataValidation.CCDCreadInfo'(drv,'Object Repository/CCDC/Dataset_page/DatasetName', ipDtstName, GlobalVariable.G_DtstName, elementlabel)
  
  */
 
@@ -130,7 +130,7 @@ CustomKeywords.'ctdc.utilities.DataValidation.CCDCreadInfo'(drv,'Object Reposito
  System.out.println ("This is the value of Dataset Name obtained from input test data :" + ipDtstName)
  GlobalVariable.G_DtstName=ipDtstName.toString()
   elementlabel= "Dataset Name"
- CustomKeywords.'ctdc.utilities.DataValidation.CCDCreadInfo'(drv,'Object Repository/CCDC/Dataset_page/DatasetName', ipDtstName, GlobalVariable.G_DtstName, elementlabel)
+ CustomKeywords.'utilities.DataValidation.CCDCreadInfo'(drv,'Object Repository/CCDC/Dataset_page/DatasetName', ipDtstName, GlobalVariable.G_DtstName, elementlabel)
  
  */
 

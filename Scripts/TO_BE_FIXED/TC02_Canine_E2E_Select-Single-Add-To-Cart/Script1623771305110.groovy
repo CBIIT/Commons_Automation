@@ -50,45 +50,45 @@ WebUI.closeBrowser()
 
 //WebUI.openBrowser('')
 //WebUI.maximizeWindow()
-//CustomKeywords.'ctdc.utilities.CustomBrowserDriver.createWebDriver'()
-//CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.testSetup'('HEADLESS_DRIVER')
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC03_Canine_E2E_MultipleFilters-Study_Breed_Sex.xlsx')
+//CustomKeywords.'utilities.CustomBrowserDriver.createWebDriver'()
+//CustomKeywords.'utilities.TestRunner.testSetup'('HEADLESS_DRIVER')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC03_Canine_E2E_MultipleFilters-Study_Breed_Sex.xlsx')
 
 WebUI.waitForElementPresent(findTestObject('Canine/NavBar/Canine_Cases_Btn'), 5)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Canine/NavBar/Canine_Cases_Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Canine/NavBar/Canine_Cases_Btn')
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/FilterByCases_Facet'), 5)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Filter/FilterByCases_Facet')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Canine/Filter/FilterByCases_Facet')
 
 WebUI.waitForElementPresent(findTestObject('Canine/Filter/Study/Canine_Filter_Study'), 5)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Filter/Study/Canine_Filter_Study')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Canine/Filter/Study/Canine_Filter_Study')
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Filter/Study/Canine_Filter_Study-GLIOMA_Chkbx')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Canine/Filter/Study/Canine_Filter_Study-GLIOMA_Chkbx')
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/Breed/BREED_Ddn'), 5)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Filter/Breed/BREED_Ddn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Canine/Filter/Breed/BREED_Ddn')
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/Breed/Beagle_Chkbx'), 5)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Filter/Breed/Beagle_Chkbx')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Canine/Filter/Breed/Beagle_Chkbx')
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/Breed/BullDog_Chkbx'), 5)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Filter/Breed/BullDog_Chkbx')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Canine/Filter/Breed/BullDog_Chkbx')
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/Breed/Dalmatian_Chkbx'), 5)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Filter/Breed/Dalmatian_Chkbx')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Canine/Filter/Breed/Dalmatian_Chkbx')
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/Sex/SEX_Ddn'), 5)
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Filter/Sex/SEX_Ddn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Canine/Filter/Sex/SEX_Ddn')
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Filter/Sex/Female_Chkbx')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Canine/Filter/Sex/Female_Chkbx')
 
 //WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Canine_CasesTable'), 5)
 //WebUI.waitForElementPresent(findTestObject('Canine/Cases_page/Canine_SelectAll'), 5)
@@ -96,28 +96,28 @@ CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repositor
 
 not_run: WebUI.click(findTestObject('Canine/Cases_page/Canine_SelectAll'))
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.Select_case_checkbox'('', 'all')
+CustomKeywords.'utilities.TestRunner.Select_case_checkbox'('', 'all')
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Canine/Canine_SaveToMycases')
+CustomKeywords.'utilities.TestRunner.clickTab'('Canine/Canine_SaveToMycases')
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Canine/NavBar/Canine_MyFilesCart')
+CustomKeywords.'utilities.TestRunner.clickTab'('Canine/NavBar/Canine_MyFilesCart')
 
 WebUI.maximizeWindow()
 
-//CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.Select_case_checkbox'('', 'allM')
+//CustomKeywords.'utilities.TestRunner.Select_case_checkbox'('', 'allM')
 //WebUI.click(findTestObject('Object Repository/Canine/Canine_MyCasesFiles_SelectAll'))
 //add wait  and println
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Canine/Canine_DownloadManifest')
+CustomKeywords.'utilities.TestRunner.clickTab'('Canine/Canine_DownloadManifest')
 
 Thread.sleep(15000)
 
-CustomKeywords.'ctdc.utilities.FileOperations.pickLatestFileFromDownloads'()
+CustomKeywords.'utilities.FileOperations.pickLatestFileFromDownloads'()
 
 Thread.sleep(5000)
 
-CustomKeywords.'ctdc.utilities.FileOperations.fileRename'()
+CustomKeywords.'utilities.FileOperations.fileRename'()
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.readMyCartCount'('Object Repository/Canine/fileCentricCart/totalRecordCount')
+CustomKeywords.'utilities.TestRunner.readMyCartCount'('Object Repository/Canine/fileCentricCart/totalRecordCount')
 
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.ReadCasesTableKatalon'(GlobalVariable.G_myCartTotal, 'Object Repository/Canine/fileCentricCart/myFiles_Tbl',
+CustomKeywords.'utilities.TestRunner.ReadCasesTableKatalon'(GlobalVariable.G_myCartTotal, 'Object Repository/Canine/fileCentricCart/myFiles_Tbl',
 'Object Repository/Canine/fileCentricCart/myFiles_TblHdr', 'Object Repository/Canine/fileCentricCart/myFilesTable_Nxtbtn', GlobalVariable.G_WebTabNameMyCart)
