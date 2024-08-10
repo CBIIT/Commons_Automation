@@ -20,24 +20,24 @@ WebUI.closeBrowser()
 
 CustomKeywords.'utilities.TestRunner.RunKatalon'('TC01_ICDC_TCL01_Breed-GoldenRetriever.xlsx')
 
-CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Canine/Canine_PopUp_Continue_Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Canine/Canine_PopUp_Continue_Btn')
 System.out.println ("Closed the popup window");
 
 WebUI.waitForElementPresent(findTestObject('Canine/NavBar/Canine_Cases_Btn'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('Canine/NavBar/Canine_Cases_Btn')
 
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/Study/Canine_Filter_Study'), 5)
-CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Object Repository/Canine/Filter/Study/Canine_Filter_Study')
+WebUI.waitForElementPresent(findTestObject('Canine/Filter/Study/Canine_Filter_Study'), 5)
+CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Canine/Filter/Study/Canine_Filter_Study')
 
 
 CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Canine/Filter/Study/Canine_Filter_Study_TCL01_Chkbx')
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/Breed/BREED_Ddn'), 5)
+WebUI.waitForElementPresent(findTestObject('Canine/Filter/Breed/BREED_Ddn'), 5)
 CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Object Repository/Canine/Filter/Breed/BREED_Ddn')
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/Breed/GoldenRetr_Chkbx'), 5)
-CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Object Repository/Canine/Filter/Breed/GoldenRetr_Chkbx')
+WebUI.waitForElementPresent(findTestObject('Canine/Filter/Breed/GoldenRetr_Chkbx'), 5)
+CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Canine/Filter/Breed/GoldenRetr_Chkbx')
 
 //Read Statbar
 CustomKeywords.'utilities.TestRunner.readStatBarCanine'('Canine/StatBar/Canine_StatBar-Programs','Canine/StatBar/Canine_StatBar-Studies',
