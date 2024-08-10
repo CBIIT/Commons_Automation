@@ -131,7 +131,7 @@ index_columns = {
     'diagnosis': 'diagnosis_id',
     'enrollment': 'enrollment_id',
     'publication': 'pubmed_id',
-    'analysis_files': 'file_name',
+    'data_files': 'file_name',
     'study_files': 'file_name',
     'cohort': 'cohort_id'
 }
@@ -167,7 +167,7 @@ df_case = dataframes['case']
 df_demographic = dataframes['demographic']
 df_sample = dataframes['sample']
 df_diagnosis = dataframes['diagnosis']
-df_case_file = dataframes['analysis_files']
+df_case_file = dataframes['data_files']
 df_enrollment = dataframes['enrollment']
 df_publication = dataframes['publication']
 df_study_file = dataframes['study_files']
