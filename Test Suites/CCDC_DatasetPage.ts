@@ -5,7 +5,7 @@
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>3</numberOfRerun>
+   <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
@@ -193,6 +193,37 @@
          <type>DATA_COLUMN</type>
          <value>sampIsXenograft</value>
          <variableId>cfdba349-b7bb-4409-bf39-6b8accedea92</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8edcdfd9-046b-45dc-98ff-3e7571aaa453</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CCDC_TestCases/Search Catalog page/TC01_CCDC_Dataset_page_basic_verification</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1e19073c-8f9b-41fd-8e89-53000271466e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f20f499a-a644-47ea-b889-5c2b1b662c0d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f66100f9-9b88-4d1e-8291-0d3f78791a5e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ff121e25-75ff-4fdc-ab30-e6875ae4e68a</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
