@@ -367,6 +367,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		String switchStr;
 		String pgUrl = driver.getCurrentUrl()    //https://caninecommons-qa.cancer.gov/#/case/NCATS-COP01CCB010015
 		if(((driver.getCurrentUrl()).contains("ccdi"))) {
+			//if(appKey.equals("CCDI")) {
 			System.out.println("This is CCDI. the url does not contain #")
 			switchStr = "/explore"
 		}else {
@@ -429,8 +430,18 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 	 */
 	@Keyword
 	public static void multiFunction(String appName, String statVal, String tbl, String tblHdr, String nxtBtn, String webdataSheetName, String dbdataSheetName, String tabQuery) throws IOException {
+
+		//		String newStatValue;
+		//		if(appKey.equals("C3DC")) {
+		//			newStatValue =  statVal.replaceAll(",", "");
+		//		}else {
+		//			newStatValue = statVal;
+		//		}
+
 		System.out.println("This is the value of stat (string) obtained from multifunction: " + statVal);
+
 		int statValue = convStringtoInt(statVal);
+
 		System.out.println("This is the value of stat (integer) obtained from multifunction: " + statValue);
 
 		if (statValue !=0) {
@@ -464,7 +475,29 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 				}
 				PythonReader.readFile('Statbar.py')
 			}else if(appKey.equals("CCDI")) {
-				//New Project
+				if(dbdataSheetName.equals("TsvDataParticipants")){
+					PythonReader.readFile('ParticipantsTab.py')
+				}else if(dbdataSheetName.equals("TsvDataDiagnosis")){
+					PythonReader.readFile('DiagnosisTab.py')
+				}else if(dbdataSheetName.equals("TsvDataStudies")){
+					PythonReader.readFile('StudiesTab.py')
+				}else if(dbdataSheetName.equals("TsvDataSamples")){
+					PythonReader.readFile('SamplesTab.py')
+				}else if(dbdataSheetName.equals("TsvDataFiles")){
+					PythonReader.readFile('FilesTab.py')
+				}
+				PythonReader.readFile('Statbar.py')
+			}else if(appKey.equals("C3DC")) {
+				if(dbdataSheetName.equals("TsvDataParticipants")){
+					PythonReader.readFile('ParticipantsTab.py')
+				}else if(dbdataSheetName.equals("TsvDataDiagnosis")){
+					PythonReader.readFile('DiagnosisTab.py')
+				}else if(dbdataSheetName.equals("TsvDataSurvival")){
+					PythonReader.readFile('SurvivalTab.py')
+				}else if(dbdataSheetName.equals("TsvDataStudies")){
+					PythonReader.readFile('StudiesTab.py')
+				}
+				PythonReader.readFile('Statbar.py')
 			}else {
 				KeywordUtil.markFailed("Invalid App Key: Check multiFunction method")
 			}
@@ -668,7 +701,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		WebDriverWait wait = new WebDriverWait(driver,30);
 		System.out.println("This is the stat value of cases/total (in case of cart) before converting to int: "+statVal1)
 		int statValue = convStringtoInt(statVal1);
-		System.out.println("This is the passed value of stat for this run : "+statValue)
+		System.out.println("This is the passed value of stat for this run: "+statValue)
 
 
 		List<String> webData = new ArrayList<String>();  //this is not used
@@ -681,7 +714,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		tbl_bdy= tbl_main+"//tbody"
 		//tbl_bdy= tbl_main+"/tbody"  //this is for INS
 		GlobalVariable.G_cannine_caseTblBdy=tbl_bdy  //correct his variables name typo and also rename it to G_commons_casetblbdy
-		System.out.println("This is the value of table body :"+GlobalVariable.G_cannine_caseTblBdy)
+		System.out.println("This is the value of table body: "+GlobalVariable.G_cannine_caseTblBdy)
 
 		//	driver.manage().window().maximize()  commenting to check the error in INS
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(tbl_bdy)));
@@ -813,12 +846,12 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 
 			//******** C3DC function starts below ********
 		}else if(appKey.equals("C3DC")){
-			switchCCDI = getPageSwitch();
+			switchC3DC = getPageSwitch();
 			switchString = "C3DC";
 			System.out.println ("This is the value of C3DC switch string: "+switchC3DC)
 			columns_count = (colHeader.size())
 			columns_count = columns_count-1;
-			System.out.println("Inside CCDI switch case for header data::  " + columns_count)
+			System.out.println("Inside C3DC switch case for header data:  " + columns_count)
 			for(int c=1;c<=columns_count;c++){
 				hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
 			}
@@ -914,55 +947,6 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 				for(i = 1; i <= rows_count; i++) {
 
 					String data = ""
-					//@@@@@@@@@@@@@@@@ GMB table data collection starts here  @@@@@@@@@@@@@@@@
-					if(switchString == "GMB"){
-						System.out.println("Just before GMB Switch Structure for body data collection")
-						switch(switchGMB){
-							case("/subjects"):
-								System.out.println("Inside GMB switch case for body data")
-								int tblcol=GlobalVariable.G_rowcountFiles
-								System.out.println("Value of tblcol : "+tblcol)  //should be 11
-							//tblcol=tblcol-2
-								for (int j = 1; j <=tblcol; j = j +1) {
-									System.out.println("Value of i is: "+i)
-									System.out.println("Value of j is: "+j)
-									System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
-									data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/*[2]")).getAttribute("innerText")) +"||")
-									System.out.println("This is the value of data : "+data)
-								}
-								break;
-							case("/to edit"):
-								int tblcol=GlobalVariable.G_rowcount_Katalon;
-								if((tbl_main).equals('//*[@id="case_tab_table"]')){
-									tblcol=tblcol-2  // this is needed when files tab has 11 cols
-									System.out.println("This is the count of tblcol when files tab is selected:"+tblcol)
-									for (int j = 1; j<= tblcol; j = j + 1) {
-										System.out.println("Value of i is: "+i)
-										System.out.println("Value of j is: "+j)
-										System.out.println ("This is the value of col index starting from 1 : "+j)
-
-										if((colHeader.get(j).getAttribute("innerText"))!="Access") {
-											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
-											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/*[2]")).getAttribute("innerText")) +"||")
-											System.out.println("This is the value of data : "+data)
-										}
-									}
-								}else if((statValue)==0){
-									System.out.println("inside the if loop for statvalu equal to 0 : already collected the header data")
-								}else{
-									System.out.println("This is the val of tblcol: "+tblcol)
-									data = ""
-
-									for (int j = 2; j<= tblcol; j = j + 1) {
-										System.out.println("Value of i is: "+i)
-										System.out.println("Value of j is: "+j)
-
-										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + j + "]/*[2]")).getAttribute("innerText")) +"||")
-										System.out.println("This is the value of data : "+data)
-									}
-								}
-						}
-					}
 
 					//@@@@@@@@@@@@@@@@ CDS table data collection starts here  @@@@@@@@@@@@@@@@
 					//the following is from Sohil
@@ -1074,7 +1058,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
 										// only for one col the xpath will not have the /p tag
 										//*[@id="sample_tab_table"]/div[2]/table/tbody/tr[1]/td[6]
-										if(((tbl_main).equals("//*[@id='sample_tab_table']")) && (colHeader.get(j).getAttribute("innerText")=="Age at Sample Collection")) {
+										if(((tbl_main).equals("//*[@id='sample_tab_table']")) && (colHeader.get(j).getAttribute("innerText")=="Age at Sample Collection (days)")) {
 											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
 											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]")).getAttribute("innerText")) +"||")
 										}else {
@@ -1107,19 +1091,33 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 					if(switchString == "C3DC"){
 						switch(switchC3DC){
 							case("/explore"):
-								System.out.println("Inside CCDI switch case for body data")
+
+
 								int tblcol=GlobalVariable.G_rowcountFiles
-								System.out.println ("This is the value of tblcol from CCDI body data :"+tblcol)
 
 								if((tbl_main).equals('//*[@id="participant_tab_table"]')){
-									tblcol=tblcol-2;    //8-3=5 leaves out alternate id col   change to 8-2
+									tblcol=tblcol-2;
 									for (int j = 1; j <=tblcol; j = j +1) {
-										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
-										System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
-										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/p")).getAttribute("innerText")) +"||")
-										System.out.println("This is the value of data : "+data)
+										System.out.println("This is the name of column header:  "+colHeader.get(j).getAttribute("innerText"))
+										String value = ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/*[1]")).getAttribute("innerText")))
+										data = data + value + "||"
+										System.out.println("This is the value of  table  cell:  "+value)
 									}
-								}else if((tbl_main).equals("//*[@id='diagnosis_tab_table']")){
+								}
+								//								System.out.println("Inside C3DC switch case for body data")
+								//								int tblcol = GlobalVariable.G_rowcountFiles
+								//								System.out.println ("This is the value of tblcol from C3DC body data: "+tblcol)
+								//
+								//								if((tbl_main).equals('//*[@id="participant_tab_table"]')){
+								//									//tblcol=tblcol-2;    //8-3=5 leaves out alternate id col   change to 8-2
+								//									for (int j = 1; j <=tblcol; j = j +1) {
+								//										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
+								//										System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+								//										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/p")).getAttribute("innerText")) +"||")
+								//										System.out.println("This is the value of data : "+data)
+								//									}
+								//								}
+								else if((tbl_main).equals("//*[@id='diagnosis_tab_table']")){
 									System.out.println("Inside C3DC diagnosis switch")
 									tblcol=tblcol+3;  //tblcol comes from the top as 8. need to add 3 to get 11 cols
 									System.out.println("Value of tblcol from the diagnosis section is: "+tblcol)
@@ -1595,16 +1593,46 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 
 		Thread.sleep(2000)
 		GlobalVariable.G_StatBar_Studies = driver.findElement(By.xpath(xcStuds)).getAttribute("innerText");
-		System.out.println("This is the value of Studies count from Stat bar :"+GlobalVariable.G_StatBar_Studies)
+		System.out.println("This is the value of Studies count from Stat bar: "+GlobalVariable.G_StatBar_Studies)
 		Thread.sleep(2000)
 		GlobalVariable.G_StatBar_Participants = driver.findElement(By.xpath(xcParticip)).getAttribute("innerText");
-		System.out.println("This is the value of Participants count from Stat bar :"+GlobalVariable.G_StatBar_Participants)
+		System.out.println("This is the value of Participants count from Stat bar: "+GlobalVariable.G_StatBar_Participants)
 		Thread.sleep(2000)
 		GlobalVariable.G_StatBar_Samples = driver.findElement(By.xpath(xcSamples)).getAttribute("innerText");
-		System.out.println("This is the value of Samples count from Stat bar :"+GlobalVariable.G_StatBar_Samples)
+		System.out.println("This is the value of Samples count from Stat bar: "+GlobalVariable.G_StatBar_Samples)
 		Thread.sleep(2000)
 		GlobalVariable.G_StatBar_Files = driver.findElement(By.xpath(xcFiles)).getAttribute("innerText");
-		System.out.println("This is the value of Case Files count from Stat bar :"+GlobalVariable.G_StatBar_Files)
+		System.out.println("This is the value of Case Files count from Stat bar: "+GlobalVariable.G_StatBar_Files)
+		Thread.sleep(2000)
+	}
+
+
+	/**
+	 * This function reads C3DC Hub Statbar
+	 * @param cDiag
+	 * @param cParticip
+	 * @param cStudies
+	 //@param cDiag  - this will be used later when diag is available in stat bar
+	 */
+	@Keyword
+	public void readStatBarC3DC(String cDiag, String cParticip, String cStudies) {
+		Thread.sleep(5000);
+
+		String xcDiag = givexpath(cDiag)
+		String xcParticip = givexpath(cParticip)
+		String xcSamples = givexpath(cStudies)
+
+		System.out.println ("Inside read stat bar function for C3DC");
+
+		Thread.sleep(2000)
+		GlobalVariable.G_StatBar_Diagnosis = driver.findElement(By.xpath(xcDiag)).getAttribute("innerText");
+		System.out.println("This is the value of Diagnosis count from Stat bar: "+GlobalVariable.G_StatBar_Diagnosis)
+		Thread.sleep(2000)
+		GlobalVariable.G_StatBar_Participants = driver.findElement(By.xpath(xcParticip)).getAttribute("innerText");
+		System.out.println("This is the value of Participants count from Stat bar: "+GlobalVariable.G_StatBar_Participants)
+		Thread.sleep(2000)
+		GlobalVariable.G_StatBar_Studies = driver.findElement(By.xpath(xcSamples)).getAttribute("innerText");
+		System.out.println("This is the value of Studies count from Stat bar: "+GlobalVariable.G_StatBar_Studies)
 		Thread.sleep(2000)
 	}
 

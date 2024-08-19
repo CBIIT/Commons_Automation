@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC06_ICDC_MGT01_StageOfDisease-Ia</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>68978bfd-2e25-41a3-9d93-78d2393250ed</testCaseGuid>
+</TestCaseEntity>

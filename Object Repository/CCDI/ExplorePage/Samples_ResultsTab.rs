@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;root&quot;]/div[3]/div[2]/div/div[2]/div/div[6]/div/div/button[4]</value>
+         <value>//button[@index=&quot;3&quot; and @role='tab']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;root&quot;]/div[3]/div[2]/div/div[2]/div/div[6]/div/div/button[4]</value>
-      <webElementGuid>3df91cda-bb4b-4c37-93eb-6135ec5e0ecc</webElementGuid>
+      <value>//button[@index=&quot;3&quot; and @role='tab']</value>
+      <webElementGuid>323ce35f-c427-45c4-a7d0-c68b24122d0f</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

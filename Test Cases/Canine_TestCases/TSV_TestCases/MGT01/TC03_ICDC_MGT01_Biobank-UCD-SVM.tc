@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_ICDC_MGT01_Biobank-UCD-SVM</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cacab03b-7172-46fd-9a5d-af1473c5d7f9</testCaseGuid>
+</TestCaseEntity>

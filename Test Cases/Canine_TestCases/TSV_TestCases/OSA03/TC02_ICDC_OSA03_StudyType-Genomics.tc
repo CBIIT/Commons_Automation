@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_ICDC_OSA03_StudyType-Genomics</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>70f4a67c-2cb6-4114-8734-83d09cef3cd5</testCaseGuid>
+</TestCaseEntity>

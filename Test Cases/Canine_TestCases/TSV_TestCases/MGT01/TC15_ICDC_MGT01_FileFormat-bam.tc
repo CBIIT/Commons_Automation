@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC15_ICDC_MGT01_FileFormat-bam</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c3a6b63b-876c-49f7-b9c0-ee863cf1158d</testCaseGuid>
+</TestCaseEntity>

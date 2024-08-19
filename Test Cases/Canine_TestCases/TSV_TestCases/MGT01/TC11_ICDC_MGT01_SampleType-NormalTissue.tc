@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC11_ICDC_MGT01_SampleType-NormalTissue</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>41163630-a5d7-4958-aad0-d33be1f4c663</testCaseGuid>
+</TestCaseEntity>

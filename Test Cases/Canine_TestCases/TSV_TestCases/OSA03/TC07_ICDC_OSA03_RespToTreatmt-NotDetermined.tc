@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC07_ICDC_OSA03_RespToTreatmt-NotDetermined</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ca060083-d31d-4ffb-9297-d1f437486bd3</testCaseGuid>
+</TestCaseEntity>

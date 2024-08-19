@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_ICDC_OSA03_PrimDisSite-Unknown</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>03c38668-686c-4d2d-b9c8-94403bacaa1b</testCaseGuid>
+</TestCaseEntity>

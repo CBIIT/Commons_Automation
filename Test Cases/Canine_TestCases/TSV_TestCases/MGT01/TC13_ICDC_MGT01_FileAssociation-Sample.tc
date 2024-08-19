@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC13_ICDC_MGT01_FileAssociation-Sample</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f9d29540-22e2-44b1-94cb-9e0f824c043c</testCaseGuid>
+</TestCaseEntity>
