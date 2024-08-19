@@ -1,4 +1,4 @@
-type	 cohort.cohort_id	 study.clinical_study_designation	 study_arm.arm_id	case_id	patient_id	patient_first_name
+type	 cohort.cohort_id	study.clinical_study_designation	 study_arm.arm_id	case_id	patient_id	patient_first_name
 case		OSA03		OSA03-DOS-00	DOS-00	
 case		OSA03		OSA03-DOS-02	DOS-02	
 case		OSA03		OSA03-DOS-04	DOS-04	

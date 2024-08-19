@@ -37,7 +37,7 @@ import com.kms.katalon.core.util.KeywordUtil
 import java.nio.file.Paths
 
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC01_ICDC_TCL01_Breed-GoldenRetriever.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC06_ICDC_OSA03_StageOfDisease-IIb.xlsx')
 
 CustomKeywords.'utilities.PythonReader.readFile'('CasesTab.py')
 //CustomKeywords.'utilities.PythonReader.readFile'('SamplesTab.py')

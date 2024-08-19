@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_ICDC_TCL01_StudyType-Genomics</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4c2f8276-7e97-4f04-b251-62f0d6f7ea0e</testCaseGuid>
+</TestCaseEntity>

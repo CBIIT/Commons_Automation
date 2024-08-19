@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_ICDC_MGT01_Diagnosis-MammaryCancer</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9bdfc41e-b72c-4be0-935e-7750770107a0</testCaseGuid>
+</TestCaseEntity>

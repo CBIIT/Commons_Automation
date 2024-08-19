@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC08_ICDC_MGT01_Sex-Female</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f9582e04-d430-4ffd-b36b-681e16e16f4b</testCaseGuid>
+</TestCaseEntity>

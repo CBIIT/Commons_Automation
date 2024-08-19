@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC09_ICDC_MGT01_NeuteredStatus-Yes</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bf0718cf-169b-4721-b0f2-c0e7c21f0e4b</testCaseGuid>
+</TestCaseEntity>

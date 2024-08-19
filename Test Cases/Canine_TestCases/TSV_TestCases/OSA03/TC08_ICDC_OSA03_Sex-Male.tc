@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC08_ICDC_OSA03_Sex-Male</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>931f617c-17a5-4000-afa0-574e7a3bc6b8</testCaseGuid>
+</TestCaseEntity>
