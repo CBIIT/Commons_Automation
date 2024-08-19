@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_ICDC_OSA03_Breed-Boxer</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f42d159a-2768-469d-a9d8-68f155b9cb4f</testCaseGuid>
+</TestCaseEntity>

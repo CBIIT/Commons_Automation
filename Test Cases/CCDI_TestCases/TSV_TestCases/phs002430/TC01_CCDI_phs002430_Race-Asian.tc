@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CCDI_phs002430_Race-Asian</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>518ab204-f739-4a4a-b0c0-482f54b6d35e</testCaseGuid>
+</TestCaseEntity>

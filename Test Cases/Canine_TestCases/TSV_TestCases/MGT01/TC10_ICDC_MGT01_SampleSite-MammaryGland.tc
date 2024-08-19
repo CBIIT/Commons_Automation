@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC10_ICDC_MGT01_SampleSite-MammaryGland</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>39ab78b8-961a-420b-8bb5-63af301044a2</testCaseGuid>
+</TestCaseEntity>

@@ -190,12 +190,17 @@ def is_date_format(date_str, date_format):
 
 # Index columns for each TSV file
 index_columns = {
-    'study': 'phs_accession',
+    'study': 'study_id',
     'participant': 'participant_id',
     'sample': 'sample_id',
     'diagnosis': 'diagnosis_id',
     'publication': 'pubmed_id',
-    'file': 'sequencing_file_id'
+    'follow_up': 'follow_up_id',
+    'sequencing_file': 'sequencing_file_id',
+    'study_admin': 'study_admin_id',
+    'study_personnel': 'study_personnel_id',
+    'study_funding': 'study_funding_id',
+    'methylation_array_file': 'methylation_array_file_id'
 }
 
 
@@ -228,7 +233,12 @@ df_participant = dataframes['participant']
 df_sample = dataframes['sample']
 df_diagnosis = dataframes['diagnosis']
 df_publication = dataframes['publication']
-df_file = dataframes['file']
+df_follow_up = dataframes['follow_up']
+df_sequencing_file = dataframes['sequencing_file']
+df_study_admin = dataframes['study_admin']
+df_study_personnel = dataframes['study_personnel']
+df_study_funding = dataframes['study_funding']
+df_methylation_array_file = dataframes['methylation_array_file']
 
 # df_enrollment = dataframes['enrollment']
 
@@ -256,8 +266,14 @@ print("\nDataFrame: df_diagnosis")
 print(df_diagnosis)
 print("\nDataFrame: df_publication")
 print(df_publication)
-print("\nDataFrame: df_file")
-print(df_file)
+print("\nDataFrame: df_sequencing_file")
+print(df_sequencing_file)
+print("\nDataFrame: df_study_admin")
+print(df_study_admin)
+print("\nDataFrame: df_study_personnel")
+print(df_study_personnel)
+print("\nDataFrame: df_study_funding")
+print(df_study_funding)
 
 df_run_query = lambda q: ps.sqldf(q, globals())
 

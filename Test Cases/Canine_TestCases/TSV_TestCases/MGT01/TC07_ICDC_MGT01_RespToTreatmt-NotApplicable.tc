@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC07_ICDC_MGT01_RespToTreatmt-NotApplicable</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6f7b33d7-eaa5-4553-9304-938a73079039</testCaseGuid>
+</TestCaseEntity>

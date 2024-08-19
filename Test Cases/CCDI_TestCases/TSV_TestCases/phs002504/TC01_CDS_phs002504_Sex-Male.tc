@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC01_CDS_phs002504_Sex-Male</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>4e82d699-973a-4671-8630-daf6e934b91c</testCaseGuid>
-</TestCaseEntity>

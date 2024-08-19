@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;participant_tab_table&quot;]/div[3]/div/div/div[3]/button[2]</value>
+         <value>//*[@type='button' and @aria-label='Next page']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;participant_tab_table&quot;]/div[3]/div/div/div[3]/button[2]</value>
-      <webElementGuid>eb53979c-b061-4b51-8980-223a6d3c86f4</webElementGuid>
+      <value>//*[@type='button' and @aria-label='Next page']</value>
+      <webElementGuid>0760f15a-3133-4b40-bc78-d2f125b9021d</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

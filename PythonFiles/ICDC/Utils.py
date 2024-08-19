@@ -133,6 +133,7 @@ index_columns = {
     'publication': 'pubmed_id',
     'data_files': 'file_name',
     'study_files': 'file_name',
+    'registration': 'registration_unique_id',
     'cohort': 'cohort_id'
 }
 
@@ -171,32 +172,33 @@ df_case_file = dataframes['data_files']
 df_enrollment = dataframes['enrollment']
 df_publication = dataframes['publication']
 df_study_file = dataframes['study_files']
+df_registration = dataframes['registration']
 df_cohort = dataframes['cohort']
 
 
 #Print each DataFrame
-# print("DataFrame: df_program")
-# print(df_program)
-# print("\nDataFrame: df_study")
-# print(df_study)
-# print("\nDataFrame: df_case")
-# print(df_case)
-# print("\nDataFrame: df_demographic")
-# print(df_demographic)
-# print("\nDataFrame: df_sample")
-# print(df_sample)
-# print("\nDataFrame: df_diagnosis")
-# print(df_diagnosis)
-# print("\nDataFrame: df_case_file")
-# print(df_case_file)
-# print("\nDataFrame: df_enrollment")
-# print(df_enrollment)
-# print("\nDataFrame: df_publication")
-# print(df_publication)
-# print("\nDataFrame: df_study_file")
-# print(df_study_file)
-# print("\nDataFrame: df_cohort")
-# print(df_cohort)
+print("DataFrame: df_program")
+print(df_program)
+print("\nDataFrame: df_study")
+print(df_study)
+print("\nDataFrame: df_case")
+print(df_case)
+print("\nDataFrame: df_demographic")
+print(df_demographic)
+print("\nDataFrame: df_sample")
+print(df_sample)
+print("\nDataFrame: df_diagnosis")
+print(df_diagnosis)
+print("\nDataFrame: df_case_file")
+print(df_case_file)
+print("\nDataFrame: df_enrollment")
+print(df_enrollment)
+print("\nDataFrame: df_publication")
+print(df_publication)
+print("\nDataFrame: df_study_file")
+print(df_study_file)
+print("\nDataFrame: df_cohort")
+print(df_cohort)
 
 df_run_query = lambda q: ps.sqldf(q, globals())
 
