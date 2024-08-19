@@ -30,8 +30,8 @@ CustomKeywords.'utilities.TestRunner.clickTab'('Canine/NavBar/Canine_Cases_Btn')
 WebUI.waitForElementPresent(findTestObject('Canine/Filter/Study/Canine_Filter_Study'), 5)
 CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Canine/Filter/Study/Canine_Filter_Study')
 
-
-CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Canine/Filter/Study/Canine_Filter_Study_TCL01_Chkbx')
+WebUI.waitForElementPresent(findTestObject('Canine/Filter/Study/TCL01_Chkbx'), 5)
+CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Canine/Filter/Study/TCL01_Chkbx')
 
 WebUI.waitForElementPresent(findTestObject('Canine/Filter/Breed/BREED_Ddn'), 5)
 CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Object Repository/Canine/Filter/Breed/BREED_Ddn')

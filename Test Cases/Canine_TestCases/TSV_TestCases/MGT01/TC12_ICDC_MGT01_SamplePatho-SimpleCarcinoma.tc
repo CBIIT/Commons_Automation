@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC12_ICDC_MGT01_SamplePatho-SimpleCarcinoma</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>49347ae5-670b-40b0-bdae-eb295ace271e</testCaseGuid>
+</TestCaseEntity>

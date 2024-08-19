@@ -49,7 +49,7 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/Stud
 CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Object Repository/Canine/Filter/Study/Canine_Filter_Study')
 
 'Selects the specific check box from \'Study\' filter.'
-WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/Study/Canine_Filter_Study_TCL01_Chkbx'), 5)
+WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/Study/TCL01_Chkbx'), 5)
 CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Object Repository/Canine/Filter/Study/Canine_Filter_Study_TCL01_Chkbx')
  
 //'Selects the specific check box from \'Breed\' filter.'

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC00_C3DC_QuickRun_Of_TsvFiles</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1f3303ab-7521-4fea-8211-abb43097b8a3</testCaseGuid>
+</TestCaseEntity>
