@@ -1,4 +1,4 @@
-type	case.case_id	diagnosis_id	disease_term	primary_disease_site	stage_of_disease	date_of_diagnosis	best_response	treatment_data	follow_up_data	pathology_report	concurrent_disease	concurrent_disease_type
+type	case.case_record_id	diagnosis_record_id	disease_term	primary_disease_site	stage_of_disease	date_of_diagnosis	best_response	treatment_data	follow_up_data	pathology_report	concurrent_disease	concurrent_disease_type
 diagnosis	MGT01-406434	MGT01-406434	Mammary Cancer	Mammary Gland	T3N0M1	2010-04-14	Not Determined	No	Yes	Yes	Unknown	
 diagnosis	MGT01-76	MGT01-76	Mammary Cancer	Mammary Gland	T2N1M0	2004-04-23	Not Determined	No	Yes	Yes	Unknown	
 diagnosis	MGT01-5	MGT01-5	Mammary Cancer	Mammary Gland	Ia	2003-09-04	Not Determined	No	No	Yes	Unknown	
