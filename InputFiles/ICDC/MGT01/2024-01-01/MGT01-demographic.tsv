@@ -1,4 +1,4 @@
-type	case.case_id	demographic_id	breed	patient_age_at_enrollment	date_of_birth	sex	neutered_indicator	weight
+type	case.case_record_id	demographic_record_id	breed	patient_age_at_enrollment	date_of_birth	sex	neutered_indicator	weight
 demographic	MGT01-406434	MGT01-406434	Shih Tzu	5	2005-06-06	Female	Unknown	
 demographic	MGT01-76	MGT01-76	Staffordshire Bull Terrier	13.5	1990-11-02	Female	Yes	
 demographic	MGT01-5	MGT01-5	Mixed Breed	4.6	1999-01-01	Female	Yes	
