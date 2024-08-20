@@ -1,4 +1,4 @@
-type	study.clinical_study_designation	case_id	patient_id	patient_first_name
+type	study.clinical_study_designation	case_record_id	patient_id	patient_first_name
 case	TCL01	TCL01-Angus	Angus	Angus
 case	TCL01	TCL01-Bliley	Bliley	Socks
 case	TCL01	TCL01-Kinsey	Kinsey	Kinsey
