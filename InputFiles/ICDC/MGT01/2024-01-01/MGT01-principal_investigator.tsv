@@ -1,2 +1,2 @@
-type	study.clinical_study_designation	pi_id	pi_first_name	pi_middle_initial	pi_last_name
+type	study.clinical_study_designation	person_record_id	pi_first_name	pi_middle_initial	pi_last_name
 principal_investigator	MGT01	MGT01-Zhao	Shaying		Zhao
