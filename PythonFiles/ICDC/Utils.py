@@ -125,11 +125,11 @@ def is_date_format(date_str, date_format):
 index_columns = {
     'program': 'program_acronym',
     'study': 'clinical_study_designation',
-    'case': 'case_id',
-    'demographic': 'demographic_id',
+    'case': 'case_record_id',
+    'demographic': 'demographic_record_id',
     'sample': 'sample_id',
-    'diagnosis': 'diagnosis_id',
-    'enrollment': 'enrollment_id',
+    'diagnosis': 'diagnosis_record_id',
+    'enrollment': 'enrollment_record_id',
     'publication': 'pubmed_id',
     'data_files': 'file_name',
     'study_files': 'file_name',
@@ -177,28 +177,28 @@ df_cohort = dataframes['cohort']
 
 
 #Print each DataFrame
-print("DataFrame: df_program")
-print(df_program)
-print("\nDataFrame: df_study")
-print(df_study)
-print("\nDataFrame: df_case")
-print(df_case)
-print("\nDataFrame: df_demographic")
-print(df_demographic)
-print("\nDataFrame: df_sample")
-print(df_sample)
-print("\nDataFrame: df_diagnosis")
-print(df_diagnosis)
-print("\nDataFrame: df_case_file")
-print(df_case_file)
-print("\nDataFrame: df_enrollment")
-print(df_enrollment)
-print("\nDataFrame: df_publication")
-print(df_publication)
-print("\nDataFrame: df_study_file")
-print(df_study_file)
-print("\nDataFrame: df_cohort")
-print(df_cohort)
+# print("DataFrame: df_program")
+# print(df_program)
+# print("\nDataFrame: df_study")
+# print(df_study)
+# print("\nDataFrame: df_case")
+# print(df_case)
+# print("\nDataFrame: df_demographic")
+# print(df_demographic)
+# print("\nDataFrame: df_sample")
+# print(df_sample)
+# print("\nDataFrame: df_diagnosis")
+# print(df_diagnosis)
+# print("\nDataFrame: df_case_file")
+# print(df_case_file)
+# print("\nDataFrame: df_enrollment")
+# print(df_enrollment)
+# print("\nDataFrame: df_publication")
+# print(df_publication)
+# print("\nDataFrame: df_study_file")
+# print(df_study_file)
+# print("\nDataFrame: df_cohort")
+# print(df_cohort)
 
 df_run_query = lambda q: ps.sqldf(q, globals())
 

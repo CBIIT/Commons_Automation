@@ -365,10 +365,14 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 	public static String getPageSwitch() {
 		System.out.println("Inside pageswitch function")
 		String switchStr;
-		String pgUrl = driver.getCurrentUrl()    //https://caninecommons-qa.cancer.gov/#/case/NCATS-COP01CCB010015
-		if(((driver.getCurrentUrl()).contains("ccdi"))) {
-			//if(appKey.equals("CCDI")) {
+		String pgUrl = driver.getCurrentUrl()   
+		
+		//if(((driver.getCurrentUrl()).contains("ccdi"))) {
+		if(appKey.equals("CCDI")) {
 			System.out.println("This is CCDI. the url does not contain #")
+			switchStr = "/explore"
+		}else if(appKey.equals("C3DC")){
+			System.out.println("This is C3DC. the url does not contain #")
 			switchStr = "/explore"
 		}else {
 			String[] arrOfStr = pgUrl.split("#", 2);
@@ -584,8 +588,8 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		}
 
 		sTableHdrData.add(hdrdata);
-		System.out.println("Number of columns in the current result tab is :"+ columns_count)
-		System.out.println("Complete list of column headers in current tab :"+ sTableHdrData)
+		System.out.println("Number of columns in the current result tab is: "+ columns_count)
+		System.out.println("Complete list of column headers in current tab: "+ sTableHdrData)
 
 		for(int index = 0; index < sTableHdrData.size(); index++) {
 			System.out.println("Header data of the table is :" + sTableHdrData.get(index))
@@ -834,12 +838,15 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 
 			//******** CCDI function starts here ********
 		}else if(appKey.equals("CCDI")){
+			System.out.println ("Control is about to go to case switch ")
 			switchCCDI = getPageSwitch();
+			System.out.println ("Control is about to go to the switch for CCDI ")
 			switchString = "CCDI";
-			System.out.println ("This is the value of CCDI switch string: " + switchCCDI)
+			System.out.println ("This is the value of CCDI switch string returned by getcurrentpage function: "+switchCCDI)
+
 			columns_count = (colHeader.size())
-			columns_count = columns_count-1;
-			System.out.println("Inside CCDI switch case for header  data:  " + columns_count)
+			columns_count=columns_count-1;
+			System.out.println("Inside CCDI switch case for header data::  " +columns_count)
 			for(int c=1;c<=columns_count;c++){
 				hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
 			}
@@ -850,9 +857,9 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 			switchString = "C3DC";
 			System.out.println ("This is the value of C3DC switch string: "+switchC3DC)
 			columns_count = (colHeader.size())
-			columns_count = columns_count-1;
+			columns_count = columns_count;
 			System.out.println("Inside C3DC switch case for header data:  " + columns_count)
-			for(int c=1;c<=columns_count;c++){
+			for(int c=0;c<columns_count;c++){
 				hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
 			}
 
@@ -937,7 +944,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 				wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(GlobalVariable.G_cannine_caseTblBdy)));   //the name is misleading but it is only a placeholder for all the applications
 				scrolltoViewjs(driver.findElement(By.xpath(GlobalVariable.G_cannine_caseTblBdy)))
 				TableBdy =driver.findElement(By.xpath(GlobalVariable.G_cannine_caseTblBdy))
-				Thread.sleep(3000) //Check first and then delete
+				Thread.sleep(2000) //Check first and then delete
 				rows_table = TableBdy.findElements(By.tagName("tr"))
 				rows_count = rows_table.size()
 				System.out.println("Number  of rows per  page is:  "+(rows_count))
@@ -949,7 +956,6 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 					String data = ""
 
 					//@@@@@@@@@@@@@@@@ CDS table data collection starts here  @@@@@@@@@@@@@@@@
-					//the following is from Sohil
 					if(switchString == "CDS"){
 						switch(switchCDS){
 							case("/data"):
@@ -984,6 +990,46 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 								break;
 							default:
 								System.err.println("Check CDS switch statment for this error")
+								break;
+						}
+					}
+
+					//@@@@@@@@@@@@@@@@ C3DC table data collection starts here  @@@@@@@@@@@@@@@@
+					if(switchString == "C3DC"){
+						switch(switchC3DC){
+
+							case("/explore"):
+
+								int tblcol=GlobalVariable.G_rowcountFiles
+
+								if((tbl_main).equals("//*[@id='participant_tab_table']")){
+									tblcol=tblcol-4;
+									for (int j = 0; j <tblcol; j =j+1) {
+										System.out.println("This is the name of column header:  "+colHeader.get(j).getAttribute("innerText"))
+										String value = ((driver.findElement(By.xpath(tbl_bdy +"/tr[" + i + "]/td[" + (j+1) +"]")).getAttribute("innerText")))
+										data = data + value + "||"
+										System.out.println("This is the value of  table  cell:  "+value)
+									}
+								}else if((tbl_main).equals('//*[@id="sample_tab_table"]')){
+									tblcol=tblcol-2;
+									for (int j = 1; j <=tblcol; j = j +1) {
+										System.out.println("This is the name of column header:  "+colHeader.get(j).getAttribute("innerText"))
+										String value = ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/*[1]")).getAttribute("innerText")))
+										data = data + value + "||"
+										System.out.println("This is the value of  table  cell:  "+value)
+									}
+								}else if((tbl_main).equals('//*[@id="file_tab_table"]')){
+									tblcol=tblcol-1;
+									for (int j = 1; j <=tblcol; j = j +1) {
+										System.out.println("This is the name of column header:  "+colHeader.get(j).getAttribute("innerText"))
+										String value = ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/*[1]")).getAttribute("innerText")))
+										data = data + value + "||"
+										System.out.println("This is the value of  table  cell:  "+value)
+									}
+								}
+								break;
+							default:
+								System.err.println("Check C3DC switch statment for this error")
 								break;
 						}
 					}
@@ -1086,81 +1132,6 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 						}
 					}
 
-					//@@@@@@@@@@@@@@@@ C3DC table data collection starts here  @@@@@@@@@@@@@@@@  added on 11 Mar 2024
-
-					if(switchString == "C3DC"){
-						switch(switchC3DC){
-							case("/explore"):
-
-
-								int tblcol=GlobalVariable.G_rowcountFiles
-
-								if((tbl_main).equals('//*[@id="participant_tab_table"]')){
-									tblcol=tblcol-2;
-									for (int j = 1; j <=tblcol; j = j +1) {
-										System.out.println("This is the name of column header:  "+colHeader.get(j).getAttribute("innerText"))
-										String value = ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/*[1]")).getAttribute("innerText")))
-										data = data + value + "||"
-										System.out.println("This is the value of  table  cell:  "+value)
-									}
-								}
-								//								System.out.println("Inside C3DC switch case for body data")
-								//								int tblcol = GlobalVariable.G_rowcountFiles
-								//								System.out.println ("This is the value of tblcol from C3DC body data: "+tblcol)
-								//
-								//								if((tbl_main).equals('//*[@id="participant_tab_table"]')){
-								//									//tblcol=tblcol-2;    //8-3=5 leaves out alternate id col   change to 8-2
-								//									for (int j = 1; j <=tblcol; j = j +1) {
-								//										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
-								//										System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
-								//										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/p")).getAttribute("innerText")) +"||")
-								//										System.out.println("This is the value of data : "+data)
-								//									}
-								//								}
-								else if((tbl_main).equals("//*[@id='diagnosis_tab_table']")){
-									System.out.println("Inside C3DC diagnosis switch")
-									tblcol=tblcol+3;  //tblcol comes from the top as 8. need to add 3 to get 11 cols
-									System.out.println("Value of tblcol from the diagnosis section is: "+tblcol)
-									for (int j = 1; j <=tblcol; j = j +1) {
-										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
-										// only for this Age column the xpath will not have the /p tag
-										if(((tbl_main).equals("//*[@id='diagnosis_tab_table']")) && (colHeader.get(j).getAttribute("innerText")=="Age at Diagnosis (days)")) {
-											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
-											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]")).getAttribute("innerText")) +"||")
-										}else {
-
-											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
-											//*[@id="participant_tab_table"]/div[2]/table/tbody/tr[1]/td[3]/p
-											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/p")).getAttribute("innerText")) +"||")
-										}
-										System.out.println("This is the value of data : "+data)
-									}
-								}else if((tbl_main).equals("//*[@id='survival_tab_table']")){
-									System.out.println("Inside C3DC survival switch")
-									tblcol=tblcol+3;
-									System.out.println("Value of tblcol from the survival section is: "+tblcol)
-									for (int j = 1; j <=tblcol; j = j +1) {
-										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
-										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/p")).getAttribute("innerText")) +"||")
-										System.out.println("This is the value of data : "+data)
-									}
-								}else if((tbl_main).equals("//*[@id='study_tab_table']")){
-									System.out.println("Inside C3DC studies switch")
-									tblcol=tblcol+3;
-									System.out.println("Value of tblcol from the studies section is: "+tblcol)
-									for (int j = 1; j <=tblcol; j = j +1) {
-										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
-										System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
-										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/p")).getAttribute("innerText")) +"||")
-										System.out.println("This is the value of data : "+data)
-									}
-								}
-								break;
-							default:
-								System.err.println("Check C3DC switch statment for this error")
-								break;
-						}
-					}
 
 					// @@@@@@@@@@@@@@@@  Canine table data collection starts here @@@@@@@@@@@@@@@@
 					if(switchString == "Canine"){
