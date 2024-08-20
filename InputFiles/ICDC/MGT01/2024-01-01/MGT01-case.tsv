@@ -1,4 +1,4 @@
-type	study.clinical_study_designation	case_id	patient_id
+type	study.clinical_study_designation	case_record_id	patient_id
 case	MGT01	MGT01-406434	406434
 case	MGT01	MGT01-76	76
 case	MGT01	MGT01-5	5
