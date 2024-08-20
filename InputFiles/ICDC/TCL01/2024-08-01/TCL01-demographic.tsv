@@ -1,4 +1,4 @@
-type	case.case_id	demographic_id	breed	patient_age_at_enrollment	sex	neutered_indicator	weight
+type	case.case_record_id	demographic_record_id	breed	patient_age_at_enrollment	sex	neutered_indicator	weight
 demographic	TCL01-Angus	TCL01-Angus	Scottish Terrier		Male	Unknown	
 demographic	TCL01-Bliley	TCL01-Bliley	Basenji	10	Female 	Yes	17
 demographic	TCL01-Kinsey	TCL01-Kinsey	Australian Shepherd		Unknown	Unknown	

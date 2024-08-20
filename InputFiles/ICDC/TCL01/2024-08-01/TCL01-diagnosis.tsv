@@ -1,4 +1,4 @@
-type	case.case_id	diagnosis_id	disease_term	primary_disease_site	stage_of_disease	best_response	treatment_data	follow_up_data	pathology_report	concurrent_disease	concurrent_disease_type
+type	case.case_record_id	diagnosis_record_id	disease_term	primary_disease_site	stage_of_disease	best_response	treatment_data	follow_up_data	pathology_report	concurrent_disease	concurrent_disease_type
 diagnosis	TCL01-Angus	TCL01-Angus	Bladder Cancer	Unknown	Unknown	Not Applicable	Yes	No	No 	Unknown	
 diagnosis	TCL01-Bliley	TCL01-Bliley	Bladder Cancer	Distal Urethra	Unknown	Not Applicable	Yes	No	No 	No	
 diagnosis	TCL01-Kinsey	TCL01-Kinsey	Bladder Cancer	Unknown	Unknown	Not Applicable	Yes	No	No 	Unknown	

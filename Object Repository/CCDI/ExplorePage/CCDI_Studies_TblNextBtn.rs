@@ -19,6 +19,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@type='button' and @aria-label='Next page']</value>
-      <webElementGuid>a95b57a3-e09e-42a7-80ca-ee7313bbeb53</webElementGuid>
+      <webElementGuid>23dcad4c-6a8a-4d9a-863c-3fb088a28652</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
