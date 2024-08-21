@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC03_ICDC_0SA03_Biobank-NotApplicable</name>
+   <name>TC01_C3DC_phs002599_SexAtBirth-Female</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>5a0692c6-1297-4893-900d-5df455529336</testCaseGuid>
+   <testCaseGuid>5deba401-6680-45d5-b91e-e5bbb3512b5c</testCaseGuid>
 </TestCaseEntity>
