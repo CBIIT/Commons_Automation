@@ -124,10 +124,12 @@ def is_date_format(date_str, date_format):
 # Index columns for each TSV file
 index_columns = {
     'studies': 'study_id',
-    'participant': 'participant_id',
-    'diagnosis': 'diagnosis_id',
-    'reference_file': 'reference_file_id',
-    'survivals': 'survival_id'
+    'participants': 'participant_id',
+    'diagnoses': 'diagnosis_id',
+    'treatments': 'treatment_id',
+    'treatment_responses': 'treatment_response_id',
+    'survivals': 'survival_id',
+    'reference_files': 'reference_file_id'
 }
 
 
@@ -156,34 +158,25 @@ dataframes = load_and_merge_versions(get_tsv_files_path(), index_columns)
 
 # Now each dataframe can be accessed from the dataframes dictionary
 df_study = dataframes['studies']
-df_participant = dataframes['participant']
-df_sample = dataframes['sample']
-df_diagnosis = dataframes['diagnosis']
+df_participant = dataframes['participants']
+df_diagnoses = dataframes['diagnoses']
+df_treatments = dataframes['treatments']
+df_treatment_resp = dataframes['treatment_responses']
 df_survival = dataframes['survivals']
+df_reference_files = dataframes['reference_files']
 
-
-# df_enrollment = dataframes['enrollment']
-
-# df_study_file = dataframes['study_files']
-# df_cohort = dataframes['cohort']
-
-# df_program = pd.DataFrame({'program_acronym': ['A1', 'A2'], 'data': ['data1', 'data2']}).set_index('program_acronym')
-# df_study = pd.DataFrame({'clinical_study_designation': ['S1', 'S2'], 'data': ['data3', 'data4']}).set_index('clinical_study_designation')
-# df_case = pd.DataFrame({'case_id': [1, 2], 'data': ['data5', 'data6']}).set_index('case_id')
-# df_demographic = pd.DataFrame({'demographic_id': [1, 2], 'data': ['data7', 'data8']}).set_index('demographic_id')
-# df_sample = pd.DataFrame({'sample_id': [1, 2], 'data': ['data9', 'data10']}).set_index('sample_id')
-# df_diagnosis = pd.DataFrame({'diagnosis_id': [1, 2], 'data': ['data11', 'data12']}).set_index('diagnosis_id')
-# df_file = pd.DataFrame({'file_name': ['file1', 'file2'], 'data': ['data13', 'data14']}).set_index('file_name')
-# df_enrollment = pd.DataFrame({'enrollment_id': [1, 2], 'data': ['data15', 'data16']}).set_index('enrollment_id')
-# df_publication = pd.DataFrame({'pubmed_id': [1, 2], 'data': ['data17', 'data18']}).set_index('pubmed_id')
 
 #Print each DataFrame
 print("\nDataFrame: df_study")
 print(df_study)
 print("\nDataFrame: df_participant")
 print(df_participant)
-print("\nDataFrame: df_diagnosis")
-print(df_diagnosis)
+print("\nDataFrame: df_diagnoses")
+print(df_diagnoses)
+print("\nDataFrame: df_treatments")
+print(df_treatments)
+print("\nDataFrame: df_treatment_resp")
+print(df_treatment_resp)
 print("\nDataFrame: df_survival")
 print(df_survival)
 

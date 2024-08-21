@@ -51,7 +51,7 @@ def load_tsv_to_dataframe_with_index(file_path, index_column):
     try:
         df = pd.read_csv(file_path, delimiter='\t', index_col=index_column)
         df.columns = df.columns.str.strip()
-        df = df.applymap(lambda x: x.strip() if isinstance(x, str) else x) 
+        df = df.map(lambda x: x.strip() if isinstance(x, str) else x) 
         return df
     except FileNotFoundError:
         print(f"File not found: {file_path}")
@@ -135,7 +135,7 @@ index_columns = {
     'publication': 'pubmed_id',
     'data_files': 'file_name',
     'study_files': 'file_name',
-    'registration': 'registration_unique_id',
+    'registration': 'registration_record_id',
     'cohort': 'cohort_id'
 }
 

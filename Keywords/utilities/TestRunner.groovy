@@ -205,7 +205,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		excelparsingKatalon(sheetData_K, driver);
 		//System.out.println("Entire input excel data is: " + sheetData_K)
 	}
-	//******************* Read Katalon Function Ends Here ***************************
+	
 
 	/**
 	 * This function converts any given string value into integer
@@ -365,8 +365,8 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 	public static String getPageSwitch() {
 		System.out.println("Inside pageswitch function")
 		String switchStr;
-		String pgUrl = driver.getCurrentUrl()   
-		
+		String pgUrl = driver.getCurrentUrl()
+
 		//if(((driver.getCurrentUrl()).contains("ccdi"))) {
 		if(appKey.equals("CCDI")) {
 			System.out.println("This is CCDI. the url does not contain #")
@@ -377,7 +377,6 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		}else {
 			String[] arrOfStr = pgUrl.split("#", 2);
 			System.out.println ("This is the value of the array of strings after splitting url : "+arrOfStr)
-			//String refStr = arrOfStr[1].toString()    //arrOfStr[1]="/case/NCATS-COP01CCB010015"
 			switchStr=getSwitchStr(arrOfStr[1])
 		}
 
@@ -708,7 +707,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		System.out.println("This is the passed value of stat for this run: "+statValue)
 
 
-		List<String> webData = new ArrayList<String>();  //this is not used
+		//List<String> webData = new ArrayList<String>();  //this is not used
 		List<String> wTableHdrData = new ArrayList<String>(); //to capture the table header data
 		List<String> wTableBodyData = new ArrayList<String>(); //to capture the table body data
 		String tbl_bdy;
@@ -716,7 +715,6 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		System.out.println("This is the value of tbl main : "+tbl_main)
 
 		tbl_bdy= tbl_main+"//tbody"
-		//tbl_bdy= tbl_main+"/tbody"  //this is for INS
 		GlobalVariable.G_cannine_caseTblBdy=tbl_bdy  //correct his variables name typo and also rename it to G_commons_casetblbdy
 		System.out.println("This is the value of table body: "+GlobalVariable.G_cannine_caseTblBdy)
 
@@ -2018,6 +2016,12 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		//PythonReader.compareLists("CompareData", UIData, neo4jData)
 		compareTwoLists(UIData, neo4jData);
 	}
+	
+	/**
+	 * This function reads two lists and compares it's content
+	 * @param l1 (specified for UI) a List that will have inner list
+	 * @param l2 (specified for DB) a List that will have inner list
+	 */
 	public static void compareTwoLists(List<List<String>> l1, List<List<String>> l2){
 
 		System.out.println("============== Verification of the data ==============")
