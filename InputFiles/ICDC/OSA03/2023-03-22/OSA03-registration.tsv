@@ -1,1 +1,1 @@
-type	case.case_id	registration_origin	registration_id	registration_unique_id
+type	case.case_record_id	registration_origin	registration_record_id
