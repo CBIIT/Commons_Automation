@@ -205,7 +205,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		excelparsingKatalon(sheetData_K, driver);
 		//System.out.println("Entire input excel data is: " + sheetData_K)
 	}
-	
+
 
 	/**
 	 * This function converts any given string value into integer
@@ -314,6 +314,9 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 						}else if(GlobalVariable.G_inputTabName=="PatentsTab"){
 							GlobalVariable.G_QueryPatentsTab = sheetData.get(i).get(j).getStringCellValue()
 							System.out.println("This is the value of Patents tab query from switch case : "+GlobalVariable.G_QueryPatentsTab)
+						}else if(GlobalVariable.G_inputTabName=="SurvivalTab"){
+							GlobalVariable.G_QuerySurvivalTab = sheetData.get(i).get(j).getStringCellValue()
+							System.out.println("This is the value of Survival tab query from switch case : "+GlobalVariable.G_QuerySurvivalTab)
 						}
 						break;
 
@@ -434,13 +437,6 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 	@Keyword
 	public static void multiFunction(String appName, String statVal, String tbl, String tblHdr, String nxtBtn, String webdataSheetName, String dbdataSheetName, String tabQuery) throws IOException {
 
-		//		String newStatValue;
-		//		if(appKey.equals("C3DC")) {
-		//			newStatValue =  statVal.replaceAll(",", "");
-		//		}else {
-		//			newStatValue = statVal;
-		//		}
-
 		System.out.println("This is the value of stat (string) obtained from multifunction: " + statVal);
 
 		int statValue = convStringtoInt(statVal);
@@ -448,8 +444,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		System.out.println("This is the value of stat (integer) obtained from multifunction: " + statValue);
 
 		if (statValue !=0) {
-			ReadCasesTableKatalon(statVal, tbl,tblHdr,nxtBtn,webdataSheetName)
-			System.out.println("control is after read table webdataxl creation and before readexcel neo4j function")
+			ReadCasesTableKatalon(statVal, tbl,tblHdr, nxtBtn, webdataSheetName)
 
 			//ReadExcel.Neo4j(dbdataSheetName,tabQuery)
 			if(appKey.equals("CDS")) {
@@ -491,14 +486,18 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 				}
 				PythonReader.readFile('Statbar.py')
 			}else if(appKey.equals("C3DC")) {
-				if(dbdataSheetName.equals("TsvDataParticipants")){
+				if(dbdataSheetName.equals("TsvDataStudies")){
+					PythonReader.readFile('StudiesTab.py')
+				}else if(dbdataSheetName.equals("TsvDataParticipants")){
 					PythonReader.readFile('ParticipantsTab.py')
 				}else if(dbdataSheetName.equals("TsvDataDiagnosis")){
 					PythonReader.readFile('DiagnosisTab.py')
+				}else if(dbdataSheetName.equals("TsvDataTreatment")){
+					PythonReader.readFile('TreatmentTab.py')
+				}else if(dbdataSheetName.equals("TsvDataTreatmentResp")){
+					PythonReader.readFile('TreatmentRespTab.py')
 				}else if(dbdataSheetName.equals("TsvDataSurvival")){
 					PythonReader.readFile('SurvivalTab.py')
-				}else if(dbdataSheetName.equals("TsvDataStudies")){
-					PythonReader.readFile('StudiesTab.py')
 				}
 				PythonReader.readFile('Statbar.py')
 			}else {
@@ -1000,7 +999,15 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 
 								int tblcol=GlobalVariable.G_rowcountFiles
 
-								if((tbl_main).equals("//*[@id='participant_tab_table']")){
+								if((tbl_main).equals("//*[@id='study_tab_table']")){
+									tblcol=tblcol-6;
+									for (int j = 0; j <tblcol; j = j +1) {
+										System.out.println("This is the name of column header:  "+colHeader.get(j).getAttribute("innerText"))
+										String value = ((driver.findElement(By.xpath(tbl_bdy +"/tr[" + i + "]/td[" + (j+1) +"]")).getAttribute("innerText")))
+										data = data + value + "||"
+										System.out.println("This is the value of  table  cell:  "+value)
+									}
+								}else if((tbl_main).equals("//*[@id='participant_tab_table']")){
 									tblcol=tblcol-4;
 									for (int j = 0; j <tblcol; j =j+1) {
 										System.out.println("This is the name of column header:  "+colHeader.get(j).getAttribute("innerText"))
@@ -1008,19 +1015,35 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 										data = data + value + "||"
 										System.out.println("This is the value of  table  cell:  "+value)
 									}
-								}else if((tbl_main).equals('//*[@id="sample_tab_table"]')){
-									tblcol=tblcol-2;
-									for (int j = 1; j <=tblcol; j = j +1) {
+								}else if((tbl_main).equals("//*[@id='diagnosis_tab_table']")){
+									tblcol=tblcol;
+									for (int j = 0; j <tblcol; j = j +1) {
 										System.out.println("This is the name of column header:  "+colHeader.get(j).getAttribute("innerText"))
-										String value = ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/*[1]")).getAttribute("innerText")))
+										String value = ((driver.findElement(By.xpath(tbl_bdy +"/tr[" + i + "]/td[" + (j+1) +"]")).getAttribute("innerText")))
 										data = data + value + "||"
 										System.out.println("This is the value of  table  cell:  "+value)
 									}
-								}else if((tbl_main).equals('//*[@id="file_tab_table"]')){
+								}else if((tbl_main).equals("//*[@id='treatment_tab_table']")){
 									tblcol=tblcol-1;
-									for (int j = 1; j <=tblcol; j = j +1) {
+									for (int j = 0; j <tblcol; j = j +1) {
 										System.out.println("This is the name of column header:  "+colHeader.get(j).getAttribute("innerText"))
-										String value = ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/*[1]")).getAttribute("innerText")))
+										String value = ((driver.findElement(By.xpath(tbl_bdy +"/tr[" + i + "]/td[" + (j+1) +"]")).getAttribute("innerText")))
+										data = data + value + "||"
+										System.out.println("This is the value of  table  cell:  "+value)
+									}
+								}else if((tbl_main).equals("//*[@id='treatment_response_tab_table']")){
+									tblcol=tblcol-1;
+									for (int j = 0; j <tblcol; j = j +1) {
+										System.out.println("This is the name of column header:  "+colHeader.get(j).getAttribute("innerText"))
+										String value = ((driver.findElement(By.xpath(tbl_bdy +"/tr[" + i + "]/td[" + (j+1) +"]")).getAttribute("innerText")))
+										data = data + value + "||"
+										System.out.println("This is the value of  table  cell:  "+value)
+									}
+								}else if((tbl_main).equals("//*[@id='survival_tab_table']")){
+									tblcol=tblcol-3;
+									for (int j = 0; j <tblcol; j = j +1) {
+										System.out.println("This is the name of column header:  "+colHeader.get(j).getAttribute("innerText"))
+										String value = ((driver.findElement(By.xpath(tbl_bdy +"/tr[" + i + "]/td[" + (j+1) +"]")).getAttribute("innerText")))
 										data = data + value + "||"
 										System.out.println("This is the value of  table  cell:  "+value)
 									}
@@ -2016,7 +2039,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		//PythonReader.compareLists("CompareData", UIData, neo4jData)
 		compareTwoLists(UIData, neo4jData);
 	}
-	
+
 	/**
 	 * This function reads two lists and compares it's content
 	 * @param l1 (specified for UI) a List that will have inner list
@@ -2301,13 +2324,13 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 			(statData.get(0).get(3).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Files)) ? KeywordUtil.markPassed("Statbar Files count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Files count")
 		}else if (getAppName=='C3DC'){
 
-			System.out.println("This is the value of Diagnosis Count from Neo4j result: "+statData.get(0).get(0).getStringCellValue())  //add in the query in input file later
+			System.out.println("This is the value of Diagnoses Count from Neo4j result: "+statData.get(0).get(0).getStringCellValue())  //add in the query in input file later
 			System.out.println("This is the value of Participants Count from Neo4j result: "+statData.get(0).get(1).getStringCellValue())
 			System.out.println("This is the value of Studies Count from Neo4j result: "+statData.get(0).get(2).getStringCellValue())
 
-			(statData.get(0).get(0).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Studies)) ? KeywordUtil.markPassed("Statbar Diagnosis count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Diagnosis count")
+			(statData.get(0).get(0).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Diagnosis)) ? KeywordUtil.markPassed("Statbar Diagnoses count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Diagnosis count")
 			(statData.get(0).get(1).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Participants)) ? KeywordUtil.markPassed("Statbar Participants count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Participants count")
-			(statData.get(0).get(2).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Samples)) ? KeywordUtil.markPassed("Statbar Studies count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Studies count")
+			(statData.get(0).get(2).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Studies)) ? KeywordUtil.markPassed("Statbar Studies count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Studies count")
 		}
 	}
 

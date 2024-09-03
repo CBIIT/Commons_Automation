@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;diagnosis_tab_table&quot;]/div[3]/table</value>
+         <value>//*[@id='diagnosis_tab_table']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;diagnosis_tab_table&quot;]/div[3]/table</value>
-      <webElementGuid>c7ca2bd3-0c46-49ba-8d5d-b9fad80b3c13</webElementGuid>
+      <value>//*[@id='diagnosis_tab_table']</value>
+      <webElementGuid>abe7481e-b4dd-43c9-8966-7d65299655c7</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
