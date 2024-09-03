@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Studies-Tab</name>
+   <name>TreatmentResp-Tbl</name>
    <tag></tag>
-   <elementGuidId>1bfb9e9b-ec40-4883-8f55-9f1489b7e0a6</elementGuidId>
+   <elementGuidId>1908a72c-09ec-48c9-8eda-5102fb0d83ad</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//button[@index='0' and @role='tab']</value>
+         <value>//*[@id='treatment_response_tab_table']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//button[@index='0' and @role='tab']</value>
-      <webElementGuid>215792f1-5678-4029-9092-e7bd0fb44858</webElementGuid>
+      <value>//*[@id='treatment_response_tab_table']</value>
+      <webElementGuid>7cd3b312-4a62-4032-bea1-5baf253e6282</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
