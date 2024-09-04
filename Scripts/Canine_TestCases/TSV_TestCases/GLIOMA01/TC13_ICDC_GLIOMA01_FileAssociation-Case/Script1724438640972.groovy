@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
  */
 WebUI.closeBrowser()
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC03_ICDC_MGT01_Biobank-UCD-SVM.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC13_ICDC_GLIOMA01_FileAssociation-Case.xlsx')
 
 CustomKeywords.'utilities.TestRunner.clickTab'('Canine/Canine_PopUp_Continue_Btn')
 System.out.println ("Closed the popup window");
@@ -26,19 +26,17 @@ System.out.println ("Closed the popup window");
 WebUI.waitForElementPresent(findTestObject('Canine/NavBar/Canine_Cases_Btn'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('Canine/NavBar/Canine_Cases_Btn')
 
-
 WebUI.waitForElementPresent(findTestObject('Canine/Filter/Study/Canine_Filter_Study'), 5)
 CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Canine/Filter/Study/Canine_Filter_Study')
 
-WebUI.waitForElementPresent(findTestObject('Canine/Filter/Study/TCL01_Chkbx'), 5)
-CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Canine/Filter/Study/TCL01_Chkbx')
+WebUI.waitForElementPresent(findTestObject('Canine/Filter/Study/Canine_Filter_Study-GLIOMA_Chkbx'), 5)
+CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Canine/Filter/Study/Canine_Filter_Study-GLIOMA_Chkbx')
 
-WebUI.verifyElementPresent(findTestObject('Canine/Filter/Biobank/Biobank_Ddn'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('Canine/Filter/Biobank/Biobank_Ddn')
+WebUI.waitForElementPresent(findTestObject('Canine/Filter/FileAssociation/FILEASSOCIATION_Ddn'), 5)
+CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Canine/Filter/FileAssociation/FILEASSOCIATION_Ddn')
 
-
-WebUI.verifyElementPresent(findTestObject('Canine/Filter/Biobank/UCD-SVM_Chkbx'), 5) 
-CustomKeywords.'utilities.TestRunner.clickTab'('Canine/Filter/Biobank/UCD-SVM_Chkbx') 
+WebUI.verifyElementPresent(findTestObject('Canine/Filter/FileAssociation/case_Chkbx'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('Canine/Filter/FileAssociation/case_Chkbx')
 
 //Read Statbar
 CustomKeywords.'utilities.TestRunner.readStatBarCanine'('Canine/StatBar/Canine_StatBar-Programs','Canine/StatBar/Canine_StatBar-Studies',

@@ -7,16 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[contains(text(),'B Cell Lymphoma')])[2]</value>
+         <value>//*[@id=&quot;checkbox_Sample Pathology_B Cell Lymphoma&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[contains(text(),'B Cell Lymphoma')])[2]</value>
+      <value>//*[@id=&quot;checkbox_Sample Pathology_B Cell Lymphoma&quot;]</value>
+      <webElementGuid>4931594e-fab0-40d0-b66a-d52f29b69d63</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
