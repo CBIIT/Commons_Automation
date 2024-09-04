@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ILLUMINA-Chkbx</name>
+   <name>MultipleMyeloma_Chkbx</name>
    <tag></tag>
-   <elementGuidId>e96bd9f9-af6a-4765-ba4d-2ecedf9ba802</elementGuidId>
+   <elementGuidId>45f12a80-4236-4605-9c68-80730b71a967</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_platform_Illumina&quot;]</value>
+         <value>//*[@id=&quot;checkbox_PRIMARY DIAGNOSIS_Multiple myeloma&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_platform_Illumina&quot;]</value>
-      <webElementGuid>934c18a0-ed95-4463-91fd-4d3c3f95ab76</webElementGuid>
+      <value>//*[@id=&quot;checkbox_PRIMARY DIAGNOSIS_Multiple myeloma&quot;]</value>
+      <webElementGuid>f2a45328-e8cb-4a35-86c7-fb9b5e2e062c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
