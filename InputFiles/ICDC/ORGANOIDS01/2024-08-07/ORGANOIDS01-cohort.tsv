@@ -1,0 +1,3 @@
+type	 study_arm.arm_id	 study.clinical_study_designation	cohort_description	cohort_dose	cohort_record_id
+cohort		ORGANOIDS01	Healthy Controls		ORGANOIDS01-Healthy Controls
+cohort		ORGANOIDS01	Bladder Cancer		ORGANOIDS01-Bladder Cancer

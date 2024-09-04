@@ -1,0 +1,29 @@
+type	enrollment.enrollment_record_id	prior_surgery_record_id	date_of_surgery	anatomical_site_of_surgery	procedure	surgical_finding	residual_disease	therapeutic_indicator
+prior_surgery	COTC007B-0217	001		Leg	Amputation of 5th digit on RH	Osteomyelitis	no	Yes
+prior_surgery	COTC007B-0219	002	2014-11-14	Lymph node	biopsy	b cell lymphoma		No
+prior_surgery	COTC007B-0301	003	2013-05-14	Carpus	MCT removal	MCT	yes	Yes
+prior_surgery	COTC007B-0401	004	2012-08-22	Lymph node	LN excision	Lymphoma		No
+prior_surgery	COTC007B-0402	005	2011-10-24	Lymph node	LN excision	B-cell lymphoma		No
+prior_surgery	COTC007B-0503	006	2001-08-01	Vulva	OHE + vulvoplasty	Procedure went well	none	Yes
+prior_surgery	COTC007B-0503	007	2002-02-22	Clitoris	Cliterectomy	Procedure went well	none	Yes
+prior_surgery	COTC007B-0601	008	2006-08-01	Testicle	castration			No
+prior_surgery	COTC007B-0602	009	2004-10-01	Scrotum	Neuter			No
+prior_surgery	COTC007B-0603	010		Scrotum	neuter			No
+prior_surgery	COTC007B-0603	011		Eye	lasix			Yes
+prior_surgery	COTC007B-0605	012	2008-08-01	Abdomen	spay			No
+prior_surgery	COTC007B-0607	013		Testicle	neuter			No
+prior_surgery	COTC007B-0608	014		Testicle	neuter			
+prior_surgery	COTC007B-0609	015	2009-06-01	Testicle	neuter			No
+prior_surgery	COTC007B-0609	016	2009-06-01	Umbilical Cord	umbilical hernia			No
+prior_surgery	COTC007B-0609	017	2009-06-01	Stomach	gastropexy			No
+prior_surgery	COTC007B-0609	018	2012-09-01	Eye	entropian			No
+prior_surgery	COTC007B-0610	019	2008-06-01	Testicle	neuter			No
+prior_surgery	COTC007B-0611	020	2011-09-19	Lumbar Spine	Myxocarcoma removal	Incompletely excised myxosarcoma grade 1	yes	Yes
+prior_surgery	COTC007B-0611	021	2013-01-01	Uterus	SPAY	N/A	N/A	No
+prior_surgery	COTC007B-0612	022		Testicle	castration			No
+prior_surgery	COTC007B-0613	023	2001-06-01	Testicle	neuter			No
+prior_surgery	COTC007B-0614	024		Testicle	NEUTER			No
+prior_surgery	COTC007B-0617	025		Abdomen	spay		n/a	Yes
+prior_surgery	COTC007B-0902	026	2011-08-31	Head/Neck	BX	Lipoma	yes	No
+prior_surgery	COTC007B-1001	027	2014-05-07	Lymph node	LN Removal	DLBCL		No
+prior_surgery	COTC007B-1607	028	2013-06-05	Lymph node	lymph node biopsy	lymphoma	yes	No
