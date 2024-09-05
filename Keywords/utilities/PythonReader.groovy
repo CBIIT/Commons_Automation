@@ -67,7 +67,7 @@ public class PythonReader {
 	public static void readFile(String pythonFileName) {
 
 		//String binPath = "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3";
-		String binPath = "C:/Users/epishinavv/AppData/Local/Programs/Python/Python312/python.exe";
+		String binPath = "python3";
 		String inputExcelPath = GlobalVariable.InputExcel;
 		String outputFilePath = Paths.get(usrDir, "OutputFiles")
 		String nodeFilespath = getNodeFilesPath()
