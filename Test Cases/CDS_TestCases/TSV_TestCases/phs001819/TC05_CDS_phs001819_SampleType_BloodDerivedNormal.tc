@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC05_CDS_phs001819_SampleType</name>
+   <name>TC05_CDS_phs001819_SampleType_BloodDerivedNormal</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>5475a74f-3a98-4d32-aa6c-499bba201fd3</testCaseGuid>

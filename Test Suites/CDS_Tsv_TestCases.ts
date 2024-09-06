@@ -50,14 +50,14 @@
       <guid>15b8f066-146f-4023-b1da-21bde0b19920</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/TSV_TestCases/phs001819/TC04_CDS_phs001819_SampleTumorStatus</testCaseId>
+      <testCaseId>Test Cases/CDS_TestCases/TSV_TestCases/phs001819/TC04_CDS_phs001819_SampleTumorStatus_NSD</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>b8707586-5da0-4506-a287-df599d2d19b4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/TSV_TestCases/phs001819/TC05_CDS_phs001819_SampleType</testCaseId>
+      <testCaseId>Test Cases/CDS_TestCases/TSV_TestCases/phs001819/TC05_CDS_phs001819_SampleType_BloodDerivedNormal</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

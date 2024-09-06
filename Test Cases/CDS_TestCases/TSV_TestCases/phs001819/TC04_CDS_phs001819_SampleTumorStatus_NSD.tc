@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC04_CDS_phs001819_SampleTumorStatus</name>
+   <name>TC04_CDS_phs001819_SampleTumorStatus_NSD</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>439fcb23-dfcb-4222-b278-5d1e48290f99</testCaseGuid>
