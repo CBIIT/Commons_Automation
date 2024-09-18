@@ -6,21 +6,22 @@
    <elementGuidId>18b31142-d826-49bf-876f-d0c773c2850d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;checkbox_Study_UBC01 (000004)&quot;]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Study_UBC01 (ICDC000004)&quot;]</value>
+         <key>XPATH</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Study_UBC01 (ICDC000004)&quot;]</value>
-      <webElementGuid>608d17a9-449d-4438-b66f-7177150b76f3</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Study_UBC01 (000004)&quot;]</value>
+      <webElementGuid>7654a221-78d0-4f5e-9b13-555dd30edf91</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

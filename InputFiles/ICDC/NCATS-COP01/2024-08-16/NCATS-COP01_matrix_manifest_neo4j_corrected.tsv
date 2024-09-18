@@ -1,0 +1,2 @@
+type	file_name	uuid	file_size	md5sum	file_status	file_location	file_format	study.clinical_study_designation	file_type	file_description
+file	NCATS-COP01_matrix.xlsx	f1e155d4-b159-5796-be01-4633b9197a60	11867932	54316fd92454e84485d9bd80b0e2c688	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/NCATS/NCATS01/Study-files/NCATS-COP01_matrix.xlsx	xlsx	NCATS-COP01	Supplemental Data File 	Gene (rows) by sample (columns) read count matrix

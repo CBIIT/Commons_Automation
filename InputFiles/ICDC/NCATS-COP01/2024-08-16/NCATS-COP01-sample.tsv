@@ -1,0 +1,137 @@
+type	case.case_record_id	sample_id	sample_site	physical_sample_type	general_sample_pathology	tumor_sample_origin	summarized_sample_type	specific_sample_pathology	date_of_sample_collection	necropsy_sample	tumor_grade	length_of_tumor	width_of_tumor	percentage_tumor	sample_preservation	comment	sample_chronology
+sample	NCATS-COP01-CCB010015	NCATS-COP01-CCB010015 0103	Lymph Node, Popliteal	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	B Cell Lymphoma	2007-07-13	No	Unknown	2	2	Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB010031	NCATS-COP01-CCB010031 0103	Lymph Node, Popliteal	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	T Cell Lymphoma	2007-10-01	No	Unknown	3	3	Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB010045	NCATS-COP01-CCB010045 0103	Lymph Node, Popliteal	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	T Cell Lymphoma	2008-01-03	No	Unknown	5	4	Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB010072	NCATS-COP01-CCB010072 0103	Humerus	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Osteosarcoma	2008-05-27	No	Unknown	12	5.2	34.19	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB010091	NCATS-COP01-CCB010091 0103	Femur	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Osteosarcoma	2008-07-23	No	Unknown	4	3	30.36	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB010093	NCATS-COP01-CCB010093 0103	Lymph Node, Popliteal	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	T Cell Lymphoma	2008-07-28	No	Unknown	3.5	3.5	99.63	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB010178	NCATS-COP01-CCB010178 0103	Lymph Node, Popliteal	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	B Cell Lymphoma	2009-04-27	No	Unknown	4.5	4	Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB010208	NCATS-COP01-CCB010208 0103	Lymph Node, Popliteal	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	B Cell Lymphoma	2009-07-23	No	Unknown	2.8	2	Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB010233	NCATS-COP01-CCB010233 0103	Lymph Node, Popliteal	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	T Cell Lymphoma	2010-02-11	No	Unknown	3.5	4.2	Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB010234	NCATS-COP01-CCB010234 0103	Lymph Node, Popliteal	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	B Cell Lymphoma	2010-02-15	No	Unknown	4.6	2.8	Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB010235	NCATS-COP01-CCB010235 0103	Lymph Node, Popliteal	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Lymphoma	2010-02-16	No	Unknown	3.4	2.8	Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB010243	NCATS-COP01-CCB010243 0103	Lymph Node, Popliteal	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	T Cell Lymphoma	2010-04-19	No	Unknown	4.6	2.8	Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB010285	NCATS-COP01-CCB010285 0103	Lung	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Pulmonary Adenocarcinoma	2010-11-22	No	Unknown	12	7	31.88	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB010311	NCATS-COP01-CCB010311 0103	Lymph Node, Popliteal	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	B Cell Lymphoma	2011-03-14	No	3	3.5	2	Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB010378	NCATS-COP01-CCB010378 0103	Mandible, Mucosa	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Melanoma	2012-06-05	No	Unknown	4.1	5	Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB020018	NCATS-COP01-CCB020018 0103	Tibia	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Osteosarcoma	2007-11-02	No	Unknown	6	5	58.22	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB020026	NCATS-COP01-CCB020026 0103	Femur	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Osteosarcoma	2008-02-20	No	Unknown	4	5	55.54	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB020027	NCATS-COP01-CCB020027 0103	Tibia	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Osteosarcoma	2008-02-25	No	Unknown	9	3	33.56	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB020031	NCATS-COP01-CCB020031 0103	Lymph Node	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	B Cell Lymphoma	2008-04-11	No	Unknown	2	4	91.04	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB020035	NCATS-COP01-CCB020035 0103	Lymph Node, Popliteal	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	B Cell Lymphoma	2008-06-23	No	Unknown	2.5	2	77.58	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB020036	NCATS-COP01-CCB020036 0103	Lymph Node	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	B Cell Lymphoma	2008-07-01	No	Unknown	3	4	91.70	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB020054	NCATS-COP01-CCB020054 0103	Lymph Node	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	B Cell Lymphoma	2008-09-12	No	Unknown	4.5	2.5	94.05	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB020128	NCATS-COP01-CCB020128 0104	Mandible, Mucosa	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Melanoma	2009-06-25	No	Unknown	9	5	Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB030001	NCATS-COP01-CCB030001 0103	Lymph Node, Popliteal	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	B Cell Lymphoma	2007-05-21	No	Unknown	6	4	97.31	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB030003	NCATS-COP01-CCB030003 0103	Lymph Node, Popliteal	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	T Cell Lymphoma	2007-06-06	No	Unknown	2.5	2.5	Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB030026	NCATS-COP01-CCB030026 0103	Lymph Node, Popliteal	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	T Cell Lymphoma	2007-09-18	No	Unknown	4	3	Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB030035	NCATS-COP01-CCB030035 0103	Humerus	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Osteosarcoma	2007-11-09	No	Unknown	4	4.5	73.95	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB030064	NCATS-COP01-CCB030064 0103	Radius	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Osteosarcoma	2008-03-21	No	Unknown	4	3	88.94	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB030077	NCATS-COP01-CCB030077 0103	Humerus	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Osteosarcoma	2008-05-09	No	Unknown	4	5	82.55	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB030078	NCATS-COP01-CCB030078 0103	Humerus	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Osteosarcoma	2008-05-09	No	Unknown	3	4	34.70	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB030156	NCATS-COP01-CCB030156 0103	Lymph Node	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	T Cell Lymphoma	2009-05-05	No	Unknown	3	2	Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB030162	NCATS-COP01-CCB030162 0103	Mouth, Lingual	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Melanoma	2009-06-01	No	Unknown	4	4	94.51	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB030227	NCATS-COP01-CCB030227 0103	Mouth, Maxilla, Mucosa	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Melanoma	2010-01-21	No	Unknown	3.1	2	93.39	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB030255	NCATS-COP01-CCB030255 0103	Lung, Caudal Right Lobe	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Pulmonary Adenocarcinoma	2010-04-14	No	Unknown	6.3	5.7	53.59	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB030258	NCATS-COP01-CCB030258 0103	Lymph Node	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	T Cell Lymphoma	2010-04-28	No	Unknown	2.5	2.5	Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB030300	NCATS-COP01-CCB030300 0103	Lymph Node, Popliteal	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	T Cell Lymphoma	2010-10-07	No	Unknown	2	1	Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB040184	NCATS-COP01-CCB040184 0103	Lymph Node	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	T Cell Lymphoma	2009-10-06	Yes	Unknown	2.5	2.5	Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB040254	NCATS-COP01-CCB040254 0103	Lung, Cranial Left Lobe	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Pulmonary Adenocarcinoma	2010-03-01	Yes	Unknown	15	8	71.34	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB040382	NCATS-COP01-CCB040382 0103	Lung, Caudal Aspect of Left Caudal Lobe	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Pulmonary Carcinoma	2011-01-20	No	Unknown	8.7	8.4	62.31	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB050004	NCATS-COP01-CCB050004 0103	Lymph Node, Popliteal	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	B Cell Lymphoma	2008-05-14	No	Unknown	3	3	81.57	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB050022	NCATS-COP01-CCB050022 0103	Humerus	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Osteosarcoma	2008-08-06	No	Unknown	2	2	63.16	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB050096	NCATS-COP01-CCB050096 0103	Mouth, Mandible, Mucosa	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Melanoma	2009-06-09	No	Unknown	2	2	84.21	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB050170	NCATS-COP01-CCB050170 0103	Mouth, Maxilla, Mucosa	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Melanoma	2010-01-25	No	Unknown	3	4.5	85.54	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB050177	NCATS-COP01-CCB050177 0103	Mouth, Maxilla, Mucosa	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Melanoma	2010-02-24	No	Unknown	4	6	97.40	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB050216	NCATS-COP01-CCB050216 0103	Lung, Caudal Aspect of Left Caudal Lobe	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Pulmonary Adenocarcinoma	2010-07-08	No	Unknown	2.3	2.4	79.07	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB050227	NCATS-COP01-CCB050227 0103	Lung, Caudal Aspect of Left Caudal Lobe	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Pulmonary Adenocarcinoma	2010-07-23	No	Unknown	7	5	83.04	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB050297	NCATS-COP01-CCB050297 0103	Lung, Cranial Left Lobe	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Pulmonary Adenocarcinoma	2011-02-17	No	Unknown	11	6	56.11	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB050327	NCATS-COP01-CCB050327 0103	Lung, Caudal Right Lobe	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Pulmonary Adenocarcinoma	2011-09-01	No	Unknown	7	5	Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB060030	NCATS-COP01-CCB060030 0102	Mouth, Mandible, Mucosa	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Melanoma	2008-12-16	No	Unknown	1	1.5	87.20	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB060034	NCATS-COP01-CCB060034 0104	Lymph Node	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	T Cell Lymphoma	2009-01-09	No	4	4	2	83.36	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB060039	NCATS-COP01-CCB060039 0104	Mouth, Mandible, Mucosa	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Melanoma	2009-02-04	No	Unknown	6.5	3.5	91.93	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB060051	NCATS-COP01-CCB060051 0103	Lung, Cranial Left Lobe	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Pulmonary Adenocarcinoma	2009-04-24	No	Unknown	8	7	61.92	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB070003	NCATS-COP01-CCB070003 0103	Humerus	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Osteosarcoma	2008-05-09	No	Unknown	1	1	81.19	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB070007	NCATS-COP01-CCB070007 0103	Lung, Cranial Left Lobe	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Pulmonary Adenocarcinoma	2008-06-03	No	Unknown	4	4	45.99	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB070013	NCATS-COP01-CCB070013 0103	Radius	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Osteosarcoma	2008-03-28	No	Unknown	15	15	79.37	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB070020	NCATS-COP01-CCB070020 0103	Lung, Caudal Right Lobe	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Pulmonary Adenocarcinoma	2008-07-10	No	Unknown	10	10	37.21	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB070034	NCATS-COP01-CCB070034 0103	Lung, Caudal Aspect of Left Caudal Lobe	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Pulmonary Adenocarcinoma	2008-08-13	No	Unknown	15	15	48.25	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB070102	NCATS-COP01-CCB070102 0103	Mandible, Mucosa	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Melanoma	2009-06-12	No	Unknown	4	4	91.25	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB080012	NCATS-COP01-CCB080012 0103	Mandible, Mucosa	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Melanoma	2009-03-06	No	Unknown	9	9	70.34	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB080018	NCATS-COP01-CCB080018 0103	Mouth, Maxilla, Mucosa	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Melanoma	2009-04-30	No	Unknown	6	6	7.82	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB010031	NCATS-COP01-CCB010031 0200	Unknown	Tissue	Normal	Not Applicable	Normal Tissue	Not Applicable	2007-10-01	No	Not Applicable	3	3	Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB010233	NCATS-COP01-CCB010233 0200	Unknown	Tissue	Normal	Not Applicable	Normal Tissue	Not Applicable	2010-02-11	No	Not Applicable	3.5	4.2	Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB010378	NCATS-COP01-CCB010378 0200	Unknown	Tissue	Normal	Not Applicable	Normal Tissue	Not Applicable	2012-06-05	No	Not Applicable	4.1	5	Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB020035	NCATS-COP01-CCB020035 0201	Unknown	Tissue	Normal	Not Applicable	Normal Tissue	Not Applicable	2008-06-23	No	Not Applicable	2.5	2	Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB020036	NCATS-COP01-CCB020036 0200	Unknown	Tissue	Normal	Not Applicable	Normal Tissue	Not Applicable	2008-07-01	No	Not Applicable	3	4	Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB020054	NCATS-COP01-CCB020054 0201	Unknown	Tissue	Normal	Not Applicable	Normal Tissue	Not Applicable	2008-09-12	No	Not Applicable	4.5	2.5	Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB030077	NCATS-COP01-CCB030077 0200	Unknown	Tissue	Normal	Not Applicable	Normal Tissue	Not Applicable	2008-05-09	No	Not Applicable	4	5	Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB030078	NCATS-COP01-CCB030078 0200	Unknown	Tissue	Normal	Not Applicable	Normal Tissue	Not Applicable	2008-05-09	No	Not Applicable	3	4	Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB040184	NCATS-COP01-CCB040184 0201	Unknown	Tissue	Normal	Not Applicable	Normal Tissue	Not Applicable	2009-10-06	Yes	Not Applicable	2.5	2.5	Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB040254	NCATS-COP01-CCB040254 0200	Unknown	Tissue	Normal	Not Applicable	Normal Tissue	Not Applicable	2010-03-01	Yes	Not Applicable	15	8	Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB040382	NCATS-COP01-CCB040382 0200	Unknown	Tissue	Normal	Not Applicable	Normal Tissue	Not Applicable	2011-01-20	No	Not Applicable	8.7	8.4	Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB050022	NCATS-COP01-CCB050022 0200	Unknown	Tissue	Normal	Not Applicable	Normal Tissue	Not Applicable	2008-08-06	No	Not Applicable	2	2	Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB050297	NCATS-COP01-CCB050297 0200	Unknown	Tissue	Normal	Not Applicable	Normal Tissue	Not Applicable	2011-02-17	No	Not Applicable	11	6	Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB060034	NCATS-COP01-CCB060034 0200	Unknown	Tissue	Normal	Not Applicable	Normal Tissue	Not Applicable	2009-01-09	No	Not Applicable	4	2	Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB060039	NCATS-COP01-CCB060039 0201	Unknown	Tissue	Normal	Not Applicable	Normal Tissue	Not Applicable	2009-02-04	No	Not Applicable	6.5	3.5	Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB080012	NCATS-COP01-CCB080012 0201	Unknown	Tissue	Normal	Not Applicable	Normal Tissue	Not Applicable	2009-03-06	No	Not Applicable	9	9	Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB010015	NCATS-COP01-CCB010015 0311	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2007-07-13	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB010031	NCATS-COP01-CCB010031 0311	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2007-10-01	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB010045	NCATS-COP01-CCB010045 0311	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2008-01-03	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB010072	NCATS-COP01-CCB010072 0311	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2008-05-27	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB010091	NCATS-COP01-CCB010091 0311	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2008-07-23	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB010093	NCATS-COP01-CCB010093 0311	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2008-07-28	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB010178	NCATS-COP01-CCB010178 0311	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2009-04-27	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB010208	NCATS-COP01-CCB010208 0311	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2009-07-23	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB010233	NCATS-COP01-CCB010233 0311	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2010-02-11	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB010234	NCATS-COP01-CCB010234 0311	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2010-02-15	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB010235	NCATS-COP01-CCB010235 0311	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2010-02-16	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB010243	NCATS-COP01-CCB010243 0311	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2010-04-19	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB010285	NCATS-COP01-CCB010285 0311	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2010-11-22	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB010311	NCATS-COP01-CCB010311 0311	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2011-03-14	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB010378	NCATS-COP01-CCB010378 0311	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2012-06-05	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB020018	NCATS-COP01-CCB020018 0300	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2007-11-02	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB020026	NCATS-COP01-CCB020026 0311	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2008-02-20	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB020027	NCATS-COP01-CCB020027 0311	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2008-02-25	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB020031	NCATS-COP01-CCB020031 0312	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2008-04-11	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB020035	NCATS-COP01-CCB020035 0311	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2008-06-23	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB020036	NCATS-COP01-CCB020036 0311	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2008-07-01	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB020054	NCATS-COP01-CCB020054 0311	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2008-09-12	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB020128	NCATS-COP01-CCB020128 0313	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2009-06-25	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB030001	NCATS-COP01-CCB030001 0312	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2007-05-21	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB030003	NCATS-COP01-CCB030003 0312	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2007-06-06	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB030026	NCATS-COP01-CCB030026 0312	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2007-09-18	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB030035	NCATS-COP01-CCB030035 0311	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2007-11-09	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB030064	NCATS-COP01-CCB030064 0311	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2008-03-21	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB030077	NCATS-COP01-CCB030077 0311	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2008-05-09	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB030078	NCATS-COP01-CCB030078 0311	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2008-05-09	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB030156	NCATS-COP01-CCB030156 0311	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2009-05-05	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB030162	NCATS-COP01-CCB030162 0311	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2009-06-01	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB030227	NCATS-COP01-CCB030227 0312	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2010-01-21	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB030255	NCATS-COP01-CCB030255 0311	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2010-04-14	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB030258	NCATS-COP01-CCB030258 0311	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2010-04-28	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB030300	NCATS-COP01-CCB030300 0311	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2010-10-07	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB040184	NCATS-COP01-CCB040184 0311	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2009-10-06	Yes	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB040254	NCATS-COP01-CCB040254 0311	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2010-03-01	Yes	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB040382	NCATS-COP01-CCB040382 0311	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2011-01-20	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB050004	NCATS-COP01-CCB050004 0311	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2008-05-14	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB050022	NCATS-COP01-CCB050022 0311	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2008-08-06	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB050096	NCATS-COP01-CCB050096 0312	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2009-06-09	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB050170	NCATS-COP01-CCB050170 0312	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2010-01-25	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB050177	NCATS-COP01-CCB050177 0311	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2010-02-24	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB050216	NCATS-COP01-CCB050216 0311	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2010-07-08	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB050227	NCATS-COP01-CCB050227 0311	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2010-07-23	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB050297	NCATS-COP01-CCB050297 0311	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2011-02-17	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB050327	NCATS-COP01-CCB050327 0311	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2011-09-01	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB060030	NCATS-COP01-CCB060030 0312	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2008-12-16	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB060034	NCATS-COP01-CCB060034 0311	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2009-01-09	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB060039	NCATS-COP01-CCB060039 0313	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2009-02-04	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB060051	NCATS-COP01-CCB060051 0311	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2009-04-24	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB070003	NCATS-COP01-CCB070003 0311	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2008-05-09	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB070007	NCATS-COP01-CCB070007 0311	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2008-06-03	No	Not Applicable			Unknown	Snap Frozen	Manually annotated	Not Applicable
+sample	NCATS-COP01-CCB070013	NCATS-COP01-CCB070013 0311	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2008-03-28	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB070020	NCATS-COP01-CCB070020 0311	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2008-07-10	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB070034	NCATS-COP01-CCB070034 0311	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2008-08-13	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB070102	NCATS-COP01-CCB070102 0311	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2009-06-12	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB080012	NCATS-COP01-CCB080012 0312	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2009-03-06	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
+sample	NCATS-COP01-CCB080018	NCATS-COP01-CCB080018 0312	Blood	Blood	Not Applicable	Not Applicable	Whole Blood	Not Applicable	2009-04-30	No	Not Applicable			Unknown	Snap Frozen		Not Applicable
