@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CCDI_phs003111_Sex-male_vitalsta-Dead_Sampletumorstat-Unknown</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>da97abf8-ab50-490b-afad-78dd160312e6</testCaseGuid>
+</TestCaseEntity>
