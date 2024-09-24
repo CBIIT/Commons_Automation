@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
  */
 WebUI.closeBrowser()
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC15_ICDC_TCL01_FileFormat-csv.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC07_ICDC_COTC022_RespToTreatmt-CompleteResponce.xlsx')
 
 CustomKeywords.'utilities.TestRunner.clickTab'('Canine/Canine_PopUp_Continue_Btn')
 System.out.println ("Closed the popup window");
@@ -29,14 +29,14 @@ CustomKeywords.'utilities.TestRunner.clickTab'('Canine/NavBar/Canine_Cases_Btn')
 WebUI.waitForElementPresent(findTestObject('Canine/Filter/Study/Canine_Filter_Study'), 5)
 CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Canine/Filter/Study/Canine_Filter_Study')
 
-WebUI.waitForElementPresent(findTestObject('Canine/Filter/Study/TCL01_Chkbx'), 5)
-CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Canine/Filter/Study/TCL01_Chkbx')
+WebUI.waitForElementPresent(findTestObject('Canine/Filter/Study/Canine_Filter_Study-COTC022_Chkbx'), 5)
+CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Canine/Filter/Study/Canine_Filter_Study-COTC022_Chkbx')
 
-WebUI.waitForElementPresent(findTestObject('Canine/Filter/FileFormat/FILEFORMAT_Ddn'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('Canine/Filter/FileFormat/FILEFORMAT_Ddn')
+WebUI.waitForElementPresent(findTestObject('Canine/Filter/ResponseToTreatment/RESPONSETOTREATMENT_Ddn'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('Canine/Filter/ResponseToTreatment/RESPONSETOTREATMENT_Ddn')
 
-WebUI.waitForElementPresent(findTestObject('Canine/Filter/FileFormat/csv_Chkbx'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('Canine/Filter/FileFormat/csv_Chkbx')
+WebUI.waitForElementPresent(findTestObject('Canine/Filter/ResponseToTreatment/CompResponse_Chkbx'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('Canine/Filter/ResponseToTreatment/CompResponse_Chkbx')
 
 //Read Statbar
 CustomKeywords.'utilities.TestRunner.readStatBarCanine'('Canine/StatBar/Canine_StatBar-Programs','Canine/StatBar/Canine_StatBar-Studies',

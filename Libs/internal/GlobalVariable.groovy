@@ -10,11 +10,6 @@ import com.kms.katalon.core.main.TestCaseMain
 public class GlobalVariable {
      
     /**
-     * <p></p>
-     */
-    public static Object AppKey
-     
-    /**
      * <p>Profile ICDC_QA : This variable holds the location of the input excel file which has the locators to be read from</p>
      */
     public static Object G_InputExcelFileName
@@ -459,6 +454,121 @@ public class GlobalVariable {
      */
     public static Object colCnt
      
+    /**
+     * <p></p>
+     */
+    public static Object G_progDesc
+     
+    /**
+     * <p></p>
+     */
+    public static Object fullUrl
+     
+    /**
+     * <p></p>
+     */
+    public static Object suffixUrl
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_caseID
+     
+    /**
+     * <p></p>
+     */
+    public static Object ColsCount
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_QueryDemographics
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_QueryDiagnosis
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_QueryStudy
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_WebTabnameCDDemographics
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_CypherTabnameCDDemographics
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_QueryCDDemographics
+     
+    /**
+     * <p></p>
+     */
+    public static Object InfoSize
+     
+    /**
+     * <p></p>
+     */
+    public static Object InfoList
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_WebTabnameCDDiagnosis
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_CypherTabnameCDDiagnosis
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_QueryCDDiagnosis
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_WebTabnameCDStudy
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_CypherTabnameCDStudy
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_QueryCDStudy
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_WebTabnameArmsCohorts
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_CypherTabnameArmsCohorts
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_QueryArmsCohortsTab
+     
+    /**
+     * <p></p>
+     */
+    public static Object AppKey
+     
 
     static {
         try {
@@ -466,7 +576,6 @@ public class GlobalVariable {
 			selectedVariables += TestCaseMain.getGlobalVariables(RunConfiguration.getExecutionProfile())
             selectedVariables += TestCaseMain.getParsedValues(RunConfiguration.getOverridingParameters(), selectedVariables)
     
-            AppKey = selectedVariables['AppKey']
             G_InputExcelFileName = selectedVariables['G_InputExcelFileName']
             G_BrowserDriverPath = selectedVariables['G_BrowserDriverPath']
             G_Browser = selectedVariables['G_Browser']
@@ -556,6 +665,29 @@ public class GlobalVariable {
             G_StatBar_Patents = selectedVariables['G_StatBar_Patents']
             InputExcel = selectedVariables['InputExcel']
             colCnt = selectedVariables['colCnt']
+            G_progDesc = selectedVariables['G_progDesc']
+            fullUrl = selectedVariables['fullUrl']
+            suffixUrl = selectedVariables['suffixUrl']
+            G_caseID = selectedVariables['G_caseID']
+            ColsCount = selectedVariables['ColsCount']
+            G_QueryDemographics = selectedVariables['G_QueryDemographics']
+            G_QueryDiagnosis = selectedVariables['G_QueryDiagnosis']
+            G_QueryStudy = selectedVariables['G_QueryStudy']
+            G_WebTabnameCDDemographics = selectedVariables['G_WebTabnameCDDemographics']
+            G_CypherTabnameCDDemographics = selectedVariables['G_CypherTabnameCDDemographics']
+            G_QueryCDDemographics = selectedVariables['G_QueryCDDemographics']
+            InfoSize = selectedVariables['InfoSize']
+            InfoList = selectedVariables['InfoList']
+            G_WebTabnameCDDiagnosis = selectedVariables['G_WebTabnameCDDiagnosis']
+            G_CypherTabnameCDDiagnosis = selectedVariables['G_CypherTabnameCDDiagnosis']
+            G_QueryCDDiagnosis = selectedVariables['G_QueryCDDiagnosis']
+            G_WebTabnameCDStudy = selectedVariables['G_WebTabnameCDStudy']
+            G_CypherTabnameCDStudy = selectedVariables['G_CypherTabnameCDStudy']
+            G_QueryCDStudy = selectedVariables['G_QueryCDStudy']
+            G_WebTabnameArmsCohorts = selectedVariables['G_WebTabnameArmsCohorts']
+            G_CypherTabnameArmsCohorts = selectedVariables['G_CypherTabnameArmsCohorts']
+            G_QueryArmsCohortsTab = selectedVariables['G_QueryArmsCohortsTab']
+            AppKey = selectedVariables['AppKey']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

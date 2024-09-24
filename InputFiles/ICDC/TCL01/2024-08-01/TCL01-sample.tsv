@@ -8,10 +8,10 @@ sample	TCL01-Cindy	TCL01-Cindy	Cell Line	Malignant	Primary	Tumor Cell Line	Splee
 sample	TCL01-DEN-HSA	TCL01-DEN-HSA	Cell Line	Malignant	Primary	Tumor Cell Line	Kidney	Not Applicable	Hemangiosarcoma	Unknown		Not Applicable	No	100%
 sample	TCL01-SB	TCL01-SB	Cell Line	Malignant	Primary	Tumor Cell Line	Skin	Not Applicable	Hemangiosarcoma	Unknown		Not Applicable	No	100%
 sample	TCL01-DH82	TCL01-DH82	Cell Line	Malignant	Primary	Tumor Cell Line	Bone Marrow	Not Applicable	Histiocytic Sarcoma	Unknown		Not Applicable	Yes	100%
-sample	TCL01-Nike 	TCL01-Nike 	Cell Line	Malignant	Primary	Tumor Cell Line	Unknown	Not Applicable	Histiocytic Sarcoma	Unknown		Not Applicable	No	100%
+sample	TCL01-Nike	TCL01-Nike	Cell Line	Malignant	Primary	Tumor Cell Line	Unknown	Not Applicable	Histiocytic Sarcoma	Unknown		Not Applicable	No	100%
 sample	TCL01-CLL-1390	TCL01-CLL-1390	Cell Line	Malignant	Primary	Tumor Cell Line	Unknown	Not Applicable	Primitive T-Cell Leukemia	Unknown		Not Applicable	No	100%
 sample	TCL01-17-71	TCL01-17-71	Cell Line	Malignant	Primary	Tumor Cell Line	Lymph Node	Not Applicable	B Cell Lymphoma	Unknown		Not Applicable	No	100%
-sample	TCL01-CLBL1	TCL01-CLBL1	Cell Line	Malignant	Primary	Tumor Cell Line	Lymph Node, Popliteal	Not Applicable	B Cell Lymphoma	Unknown		Not Applicable	No	100%
+sample	TCL01-CLBL1	TCL01-CLBL1	Cell Line	Malignant	Primary	Tumor Cell Line	"Lymph Node, Popliteal"	Not Applicable	B Cell Lymphoma	Unknown		Not Applicable	No	100%
 sample	TCL01-OSW	TCL01-OSW	Cell Line	Malignant	Metastatic	Tumor Cell Line (metastasis-derived)	Pleural Effusion	Not Applicable	T Cell Lymphoma	Unknown		Not Applicable	No	100%
 sample	TCL01-CMT12	TCL01-CMT12	Cell Line	Malignant	Primary	Tumor Cell Line	Mammary Gland	Not Applicable	Carcinoma	Unknown		Not Applicable	No	100%
 sample	TCL01-BRMCT	TCL01-BRMCT	Cell Line	Malignant	Primary	Tumor Cell Line	Skin	Not Applicable	Mast Cell Tumor	Unknown		Not Applicable	No	100%
