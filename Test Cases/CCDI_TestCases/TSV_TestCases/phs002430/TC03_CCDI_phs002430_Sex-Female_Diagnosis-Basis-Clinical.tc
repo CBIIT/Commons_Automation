@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC01_CCDI_phs002371_Filetype-fastq</name>
+   <name>TC03_CCDI_phs002430_Sex-Female_Diagnosis-Basis-Clinical</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>bf91c3c9-315c-49b3-855f-9aba678d226b</testCaseGuid>
+   <testCaseGuid>2521c058-e7de-45e2-9f3e-fb32cb8507d6</testCaseGuid>
 </TestCaseEntity>

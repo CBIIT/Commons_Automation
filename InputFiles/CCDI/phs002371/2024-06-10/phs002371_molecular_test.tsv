@@ -1,0 +1,31 @@
+id	participant.id	aa_change	age_at_molecular_test	anatomic_site	antigen	chromosome	copy_number	cytoband	exon	gene_mutation_abnormality_type	gene_symbol	histone_family	histone_variant	intron	laboratory_test_name	locus	mismatch_repair_mutation	molecular_analysis_method	molecular_test_id	pathogenicity	ploidy	second_exon	second_gene_symbol	specialized_molecular_test	test_analyte_type	test_result_numeric	test_result_text	test_unit	transcript	variant_origin	variant_type	zygosity	type	study
+phs002371::HTA4_10_mol_test	phs002371::HTA4_10		-999	C80 : UNKNOWN PRIMARY SITE							KMT2A							FISH	HTA4_10_mol_test								Positive						molecular_test	phs002371
+phs002371::HTA4_11_mol_test	phs002371::HTA4_11		-999	C80 : UNKNOWN PRIMARY SITE							KMT2A							FISH	HTA4_11_mol_test								Positive						molecular_test	phs002371
+phs002371::HTA4_12_mol_test	phs002371::HTA4_12		-999	C80 : UNKNOWN PRIMARY SITE							KMT2A							FISH	HTA4_12_mol_test								Positive						molecular_test	phs002371
+phs002371::HTA4_13_mol_test	phs002371::HTA4_13		-999	C80 : UNKNOWN PRIMARY SITE							KMT2A							FISH	HTA4_13_mol_test								Positive						molecular_test	phs002371
+phs002371::HTA4_14_mol_test	phs002371::HTA4_14		-999	C80 : UNKNOWN PRIMARY SITE							KMT2A							FISH	HTA4_14_mol_test								Positive						molecular_test	phs002371
+phs002371::HTA4_15_mol_test	phs002371::HTA4_15		-999	C80 : UNKNOWN PRIMARY SITE							KMT2A							FISH	HTA4_15_mol_test								Positive						molecular_test	phs002371
+phs002371::HTA4_16_mol_test	phs002371::HTA4_16		-999	C80 : UNKNOWN PRIMARY SITE							KMT2A							FISH	HTA4_16_mol_test								Positive						molecular_test	phs002371
+phs002371::HTA4_17_mol_test	phs002371::HTA4_17		-999	C80 : UNKNOWN PRIMARY SITE							KMT2A							FISH	HTA4_17_mol_test								Positive						molecular_test	phs002371
+phs002371::HTA4_18_mol_test	phs002371::HTA4_18		-999	C80 : UNKNOWN PRIMARY SITE							KMT2A							FISH	HTA4_18_mol_test								Positive						molecular_test	phs002371
+phs002371::HTA4_19_mol_test	phs002371::HTA4_19		-999	C80 : UNKNOWN PRIMARY SITE							KMT2A							FISH	HTA4_19_mol_test								Positive						molecular_test	phs002371
+phs002371::HTA4_1_mol_test	phs002371::HTA4_1		-999	C80 : UNKNOWN PRIMARY SITE							KMT2A							FISH	HTA4_1_mol_test								Positive						molecular_test	phs002371
+phs002371::HTA4_20_mol_test	phs002371::HTA4_20		-999	C80 : UNKNOWN PRIMARY SITE							KMT2A							FISH	HTA4_20_mol_test								Positive						molecular_test	phs002371
+phs002371::HTA4_21_mol_test	phs002371::HTA4_21		-999	C80 : UNKNOWN PRIMARY SITE							KMT2A							FISH	HTA4_21_mol_test								Positive						molecular_test	phs002371
+phs002371::HTA4_22_mol_test	phs002371::HTA4_22		-999	C80 : UNKNOWN PRIMARY SITE							KMT2A							FISH	HTA4_22_mol_test								Positive						molecular_test	phs002371
+phs002371::HTA4_23_mol_test	phs002371::HTA4_23		-999	C80 : UNKNOWN PRIMARY SITE							KMT2A							FISH	HTA4_23_mol_test								Positive						molecular_test	phs002371
+phs002371::HTA4_24_mol_test	phs002371::HTA4_24		-999	C80 : UNKNOWN PRIMARY SITE							KMT2A							FISH	HTA4_24_mol_test								Positive						molecular_test	phs002371
+phs002371::HTA4_25_mol_test	phs002371::HTA4_25		-999	C80 : UNKNOWN PRIMARY SITE							KMT2A							FISH	HTA4_25_mol_test								Positive						molecular_test	phs002371
+phs002371::HTA4_26_mol_test	phs002371::HTA4_26		-999	C80 : UNKNOWN PRIMARY SITE							Not Applicable							Not Applicable	HTA4_26_mol_test								Not Applicable						molecular_test	phs002371
+phs002371::HTA4_27_mol_test	phs002371::HTA4_27		-999	C80 : UNKNOWN PRIMARY SITE							Not Applicable							Not Applicable	HTA4_27_mol_test								Not Applicable						molecular_test	phs002371
+phs002371::HTA4_28_mol_test	phs002371::HTA4_28		-999	C80 : UNKNOWN PRIMARY SITE							Not Applicable							Not Applicable	HTA4_28_mol_test								Not Applicable						molecular_test	phs002371
+phs002371::HTA4_29_mol_test	phs002371::HTA4_29		-999	C80 : UNKNOWN PRIMARY SITE							Not Applicable							Not Applicable	HTA4_29_mol_test								Not Applicable						molecular_test	phs002371
+phs002371::HTA4_2_mol_test	phs002371::HTA4_2		-999	C80 : UNKNOWN PRIMARY SITE							KMT2A							FISH	HTA4_2_mol_test								Positive						molecular_test	phs002371
+phs002371::HTA4_30_mol_test	phs002371::HTA4_30		-999	C80 : UNKNOWN PRIMARY SITE							Not Applicable							Not Applicable	HTA4_30_mol_test								Not Applicable						molecular_test	phs002371
+phs002371::HTA4_3_mol_test	phs002371::HTA4_3		-999	C80 : UNKNOWN PRIMARY SITE							KMT2A							FISH	HTA4_3_mol_test								Positive						molecular_test	phs002371
+phs002371::HTA4_4_mol_test	phs002371::HTA4_4		-999	C80 : UNKNOWN PRIMARY SITE							KMT2A							FISH	HTA4_4_mol_test								Positive						molecular_test	phs002371
+phs002371::HTA4_5_mol_test	phs002371::HTA4_5		-999	C80 : UNKNOWN PRIMARY SITE							KMT2A							FISH	HTA4_5_mol_test								Positive						molecular_test	phs002371
+phs002371::HTA4_6_mol_test	phs002371::HTA4_6		-999	C80 : UNKNOWN PRIMARY SITE							KMT2A							FISH	HTA4_6_mol_test								Positive						molecular_test	phs002371
+phs002371::HTA4_7_mol_test	phs002371::HTA4_7		-999	C80 : UNKNOWN PRIMARY SITE							KMT2A							FISH	HTA4_7_mol_test								Positive						molecular_test	phs002371
+phs002371::HTA4_8_mol_test	phs002371::HTA4_8		-999	C80 : UNKNOWN PRIMARY SITE							KMT2A							FISH	HTA4_8_mol_test								Positive						molecular_test	phs002371
+phs002371::HTA4_9_mol_test	phs002371::HTA4_9		-999	C80 : UNKNOWN PRIMARY SITE							KMT2A							FISH	HTA4_9_mol_test								Positive						molecular_test	phs002371
