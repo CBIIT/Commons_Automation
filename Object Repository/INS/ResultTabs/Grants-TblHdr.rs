@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Grants-TblHdr</name>
+   <tag></tag>
+   <elementGuidId>d8a2a6db-851c-43a8-83a5-cf95d88d7fa0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;grant_tab_table&quot;]//thead</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;grant_tab_table&quot;]//thead</value>
+      <webElementGuid>c7f6e190-4f09-46a3-acad-e12f1ee4d931</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

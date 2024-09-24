@@ -12,17 +12,17 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>b7495ddf-7618-4e01-83d4-3cbf42ffbaff</testSuiteGuid>
    <testCaseLink>
-      <guid>9ba04591-dbec-45b2-a7fa-e8b88c187554</guid>
+      <guid>ea92c52d-f4e7-4cc2-956a-3d8885b14cd0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Canine_TestCases/Breed/TC01_Canine_Filter_Breed-Akita</testCaseId>
+      <testCaseId>Test Cases/Canine_TestCases/TSV_TestCases/MGT01/TC01_ICDC_MGT01_Breed-LabradorRetriever</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>7c1bc9fc-b983-4bf7-bf82-84dddef1c018</guid>
+      <guid>59d5a676-dfaa-4b30-babe-41614adb9f56</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Canine_TestCases/Study/Study_OSA01/TC01_Canine_Study_OSA01_StudyType_Genomics</testCaseId>
+      <testCaseId>Test Cases/Canine_TestCases/TSV_TestCases/OSA03/TC01_ICDC_OSA03_Breed-Boxer</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -21,15 +21,15 @@ WebUI.openBrowser(GlobalVariable.G_Urlname)
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('NCTN/Login/UserName-TxtBx'), GlobalVariable.G_UserId)
+WebUI.setText(findTestObject('null'), GlobalVariable.G_UserId)
 
-WebUI.setText(findTestObject('NCTN/Login/Password-TxtBx'), GlobalVariable.G_Password)
+WebUI.setText(findTestObject('null'), GlobalVariable.G_Password)
 
 WebUI.delay(15)
 
-WebUI.click(findTestObject('NCTN/Login/Login-Btn'))
+WebUI.click(findTestObject('null'))
 
 WebUI.delay(3)
 
-WebUI.verifyElementPresent(findTestObject('NCTN/SideBar/NihNciLogo-Img'), 5)
+WebUI.verifyElementPresent(findTestObject('null'), 5)
 
