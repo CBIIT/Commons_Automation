@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CCDI_Chkbx</name>
+   <tag></tag>
+   <elementGuidId>eb3c0647-aa78-4f1e-bf0e-604ed143fb8b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id='checkbox_Program_CCDI']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id='checkbox_Program_CCDI']</value>
+      <webElementGuid>a27ecf18-dc72-4c1e-84f9-33ca7fe69d92</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

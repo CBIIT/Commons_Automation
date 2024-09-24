@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Projects-TblHdr</name>
+   <tag></tag>
+   <elementGuidId>0663bf45-c636-4281-b5c6-822b3f5d8c70</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;project_tab_table&quot;]//thead</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;project_tab_table&quot;]//thead</value>
+      <webElementGuid>54232771-5c33-45ff-8e25-111b3f454c13</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

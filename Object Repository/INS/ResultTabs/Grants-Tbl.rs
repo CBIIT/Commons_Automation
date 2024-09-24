@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Grants-Tbl</name>
+   <tag></tag>
+   <elementGuidId>b0753682-d355-4d29-8910-360b9bdc80e7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id='grant_tab_table']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id='grant_tab_table']</value>
+      <webElementGuid>9c4ca31e-deb2-43c6-90b1-0897f0282854</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

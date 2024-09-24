@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Programs-Tbl</name>
+   <tag></tag>
+   <elementGuidId>2aa599c0-f0c7-47b8-bd58-f84627acca53</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id='program_tab_table']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id='program_tab_table']</value>
+      <webElementGuid>61a0338c-adc2-47cb-be06-1d33acfdcce8</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

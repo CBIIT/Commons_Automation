@@ -40,15 +40,15 @@ WebUI.closeBrowser()
 
 CustomKeywords.'utilities.TestRunner.RunKatalon'('TC07_GMB_Filter_Race-Unknown.xlsx')
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/GMB/NavBar/GMB_Subjects-Btn'),5)
+WebUI.waitForElementClickable(findTestObject('null'),5)
 CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/GMB/NavBar/GMB_Subjects-Btn')
 
 //Clicking race drop-down
-WebUI.waitForElementClickable(findTestObject('GMB/Filter/Race/Race_Ddn'),5)
+WebUI.waitForElementClickable(findTestObject('null'),5)
 CustomKeywords.'utilities.TestRunner.clickTab'('GMB/Filter/Race/Race_Ddn')
 
 //Clicking unknown checkbox
-WebUI.waitForElementClickable(findTestObject('GMB/Filter/Race/Unknown_Chkbx'),5)
+WebUI.waitForElementClickable(findTestObject('null'),5)
 CustomKeywords.'utilities.TestRunner.clickTab'('GMB/Filter/Race/Unknown_Chkbx')
 CustomKeywords.'utilities.TestRunner.clickTab'('GMB/Filter/Race/Race_Ddn')
 
@@ -58,14 +58,14 @@ CustomKeywords.'utilities.TestRunner.readGMBStatBar'('Object Repository/GMB/Stat
 
 
 //clicking the Subjects tab
-WebUI.waitForElementPresent(findTestObject('Object Repository/GMB/GMBResults_Subjects_Tab'), 5)
+WebUI.waitForElementPresent(findTestObject('null'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/GMB/GMBResults_Subjects_Tab')
 CustomKeywords.'utilities.TestRunner.multiFunction'('GMB', GlobalVariable.G_GStatBar_Subjects, 'Object Repository/GMB/GMB_Subjects_Table',
 	'Object Repository/GMB/GMB_Subjects_TableHdr', 'Object Repository/GMB/GMB_Subjects_TabNextBtn', GlobalVariable.G_GWebTabnameSubjects,
 	GlobalVariable.G_GCypherTabnameSubjects, GlobalVariable.G_GQuerySubjectsTab)
 
 //clicking the case Files tab
-WebUI.waitForElementPresent(findTestObject('Object Repository/GMB/GMBResults_Files_Tab'), 5)
+WebUI.waitForElementPresent(findTestObject('null'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/GMB/GMBResults_Files_Tab')
 CustomKeywords.'utilities.TestRunner.multiFunction'('GMB', GlobalVariable.G_StatBar_ClinTrials, 'Object Repository/GMB/GMB_Files_Table',
 	'Object Repository/GMB/GMB_Files_TableHdr', 'Object Repository/GMB/GMB_FilesTabNextBtn', GlobalVariable.G_WebTabnameFiles,

@@ -500,6 +500,17 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 					PythonReader.readFile('SurvivalTab.py')
 				}
 				PythonReader.readFile('Statbar.py')
+			}else if(appKey.equals("INS")) {
+				if(dbdataSheetName.equals("TsvDataPrograms")){
+					PythonReader.readFile('ProgramsTab.py')
+				}else if(dbdataSheetName.equals("TsvDataProjects")){
+					PythonReader.readFile('ProjectsTab.py')
+				}else if(dbdataSheetName.equals("TsvDataGrants")){
+					PythonReader.readFile('GrantsTab.py')
+				}else if(dbdataSheetName.equals("TsvDataPublications")){
+					PythonReader.readFile('PublicationsTab.py')
+				}
+				PythonReader.readFile('Statbar.py')
 			}else {
 				KeywordUtil.markFailed("Invalid App Key: Check multiFunction method")
 			}
@@ -819,7 +830,10 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 				columns_count = colHeader.size()
 				for(int c=0;c<columns_count;c++){
 					System.out.println ("This is the value of col header index : "+c)
-					hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
+					//Added below if statement to skip Programs(s) and Project(s) cols as it have multiple elements - maybe fix later
+					if((colHeader.get(c).getAttribute("innerText") != "Project(s)") && colHeader.get(c).getAttribute("innerText") != "Program(s)") {
+						hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
+					}
 				}
 			}
 			//******** CDS function starts here ********
@@ -991,6 +1005,59 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 						}
 					}
 
+					// @@@@@@@@@@@@@@@@  INS table data collection starts here @@@@@@@@@@@@@@@@
+					if(switchString == "INS"){
+						System.out.println("Inside INS Switch Structure")
+
+						switch(switchINS){
+							case("/explore"):
+								int tblcol=GlobalVariable.G_rowcount_Katalon; //13
+								if((tbl_main).equals("//*[@id='program_tab_table']")){
+									tblcol=tblcol-9;
+									for (int j = 0; j <=tblcol; j = j +1) {
+										System.out.println("This is the name of column header:  "+colHeader.get(j).getAttribute("innerText"))
+										String value = ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]//td[" + (j+1) +"]")).getAttribute("innerText")))
+										data = data + value + "||"
+										System.out.println("This is the value of  table  cell:  "+value)
+									}
+								}else if((tbl_main).equals("//*[@id='project_tab_table']")){
+									tblcol=tblcol-8;
+									for (int j = 0; j <=tblcol; j = j +1) {
+										//Added below if statement to skip Programs(s) col as it has multiple ids - maybe fix later
+										if((colHeader.get(j).getAttribute("innerText") != "Program(s)")) {
+											System.out.println("This is the name of column header:  "+colHeader.get(j).getAttribute("innerText"))
+											String value = ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]//td[" + (j+1) +"]")).getAttribute("innerText")))
+											data = data + value + "||"
+											System.out.println("This is the value of  table  cell:  "+value)
+										}
+									}
+								}else if((tbl_main).equals("//*[@id='grant_tab_table']")){
+									tblcol=tblcol-7;
+									for (int j = 0; j <=tblcol; j = j +1) {
+										System.out.println("This is the name of column header:  "+colHeader.get(j).getAttribute("innerText"))
+										String value = ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]//td[" + (j+1) +"]")).getAttribute("innerText")))
+										data = data + value + "||"
+										System.out.println("This is the value of  table  cell:  "+value)
+									}
+								}else if((tbl_main).equals("//*[@id='publication_tab_table']")){
+									tblcol=tblcol-7;
+									for (int j = 0; j <=tblcol; j = j +1) {
+										//Added below line to skip Projects col as it has multiple link - maybe fix later
+										if((colHeader.get(j).getAttribute("innerText") != "Project(s)")) {
+											System.out.println("This is the name of column header:  "+colHeader.get(j).getAttribute("innerText"))
+											String value = ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]//td[" + (j+1) +"]//p")).getAttribute("innerText")))
+											data = data + value + "||"
+											System.out.println("This is the value of  table  cell:  "+value)
+										}
+									}
+								}
+								break;
+							default:
+								System.err.println("Check INS switch statment for this error")
+								break;
+						}
+					}
+
 					//@@@@@@@@@@@@@@@@ C3DC table data collection starts here  @@@@@@@@@@@@@@@@
 					if(switchString == "C3DC"){
 						switch(switchC3DC){
@@ -1016,7 +1083,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 										System.out.println("This is the value of  table  cell:  "+value)
 									}
 								}else if((tbl_main).equals("//*[@id='diagnosis_tab_table']")){
-									tblcol=tblcol;
+									tblcol=tblcol+1;
 									for (int j = 0; j <tblcol; j = j +1) {
 										System.out.println("This is the name of column header:  "+colHeader.get(j).getAttribute("innerText"))
 										String value = ((driver.findElement(By.xpath(tbl_bdy +"/tr[" + i + "]/td[" + (j+1) +"]")).getAttribute("innerText")))
@@ -1040,7 +1107,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 										System.out.println("This is the value of  table  cell:  "+value)
 									}
 								}else if((tbl_main).equals("//*[@id='survival_tab_table']")){
-									tblcol=tblcol-3;
+									tblcol=tblcol-1;
 									for (int j = 0; j <tblcol; j = j +1) {
 										System.out.println("This is the name of column header:  "+colHeader.get(j).getAttribute("innerText"))
 										String value = ((driver.findElement(By.xpath(tbl_bdy +"/tr[" + i + "]/td[" + (j+1) +"]")).getAttribute("innerText")))
@@ -1153,7 +1220,6 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 						}
 					}
 
-
 					// @@@@@@@@@@@@@@@@  Canine table data collection starts here @@@@@@@@@@@@@@@@
 					if(switchString == "Canine"){
 						System.out.println("Inside Canine Switch Structure")
@@ -1239,103 +1305,6 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 						} //canine switch ends here
 					}//canine if ends here
 
-
-					// @@@@@@@@@@@@@@@@  INS table data collection starts here @@@@@@@@@@@@@@@@
-					if(switchString == "INS"){
-						System.out.println("Inside INS Switch Structure")
-						switch(switchINS){
-							case("/explore"):
-								int tblcol=GlobalVariable.G_rowcount_Katalon; //13
-								System.out.println("This is the number of columns from the results table : "+tblcol)
-							//In ICDC - Cases Tab and Samples tab have 12 cols; Files tab has 8 cols. Hence the counter has to be changed if the tab id is related to files tab.
-								if((tbl_main).equals('//*[@id="project_tab_table"]/div/div[2]/div[3]/table')){
-									System.out.println("Inside grants tab")
-									tblcol=tblcol-5  // this is needed when files tab has 11 cols
-									System.out.println("This is the count of tblcol when files tab is selected: "+tblcol)
-									for (int j = 0; j< tblcol+2; j = j + 1) {
-										System.out.println("Value of i is: "+i+"\nValue of j is: "+j)
-										System.out.println ("This is the value of col index starting from 0: "+j)
-
-										System.out.println("This is the name of column header: "+colHeader.get(j).getAttribute("innerText"))
-										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/*[2]")).getAttribute("innerText")) +"||")
-										System.out.println("This is the value of data: "+data)
-									}
-									//this is for publications tab in INS***************************************
-								}else if((tbl_main).equals('//*[@id="publication_tab_table"]/div/div[2]/div[3]/table')){
-									System.out.println("Inside publications tab")
-									tblcol=tblcol-8  // this is needed when files tab has 11 cols
-									System.out.println("This is the count of tblcol when files tab is selected: "+tblcol)
-									for (int j = 0; j< tblcol+2; j = j + 1) {
-										System.out.println("Value of i is: "+ i +"\nValue of j is: "+j)
-										System.out.println ("This is the value of col index starting from 0: "+j)
-										//*[@id="publication_tab_table"]/div/div[2]/div[3]/table//tbody/tr[1]/*[1]/*[2]  - this is the generic xpath for all columns
-										//*[@id="publication_tab_table"]/div/div[2]/div[3]/table//tbody/tr[1]/td[1]/*[2]/div/span/a  - this is the specific xpath for the pubmed id col to avoid the external link image
-										System.out.println("This is the name of column header: "+colHeader.get(j).getAttribute("innerText"))
-										//if( ((tbl_main).equals('//*[@id="case_tab_table"]')) && (colHeader.get(j-1).getAttribute("innerText")=="Case ID")){
-										if((colHeader.get(j).getAttribute("innerText")=="PubMed ID")){
-											System.out.println("Inside the INS Pubmed ID column which has external link icon div that should be avoided")
-											data = data + ( (driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/*[2]/div/span/a")).getAttribute("innerText").trim()) +"||")
-											System.out.println("This is the data after eliminating the div for pubmed id external icon :"+data)
-										}else {
-											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/*[2]")).getAttribute("innerText")) +"||")
-											System.out.println("This is the value of data: "+data)
-										}
-									}
-									//this is for datasets tab in INS***************************************
-								}else if((tbl_main).equals('//*[@id="dataset_tab_table"]/div/div[2]/div[3]/table')){
-									System.out.println("Inside datasets tab")
-									tblcol=tblcol-7  // this is needed when files tab has 11 cols
-									System.out.println("This is the count of tblcol when files tab is selected: "+tblcol)
-									for (int j = 0; j< tblcol+2; j = j + 1) {
-										System.out.println("Value of i is: "+ i +"\nValue of j is: "+j)
-										System.out.println ("This is the value of col index starting from 0: "+j)
-
-										System.out.println("This is the name of column header: "+colHeader.get(j).getAttribute("innerText"))
-										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/*[2]")).getAttribute("innerText")) +"||")
-										System.out.println("This is the value of data: "+data)
-									}
-									//this is for clinical trials tab in INS***************************************
-								}else if((tbl_main).equals('//*[@id="clinical_trial_tab_table"]/div/div[2]/div[3]/table')){
-									System.out.println("Inside clin trials tab")
-									tblcol=tblcol-10  // this is needed when files tab has 11 cols
-									System.out.println("This is the count of tblcol when files tab is selected: "+tblcol)
-									for (int j = 0; j< tblcol+2; j = j + 1) {
-										System.out.println("Value of i is: "+ i +"\nValue of j is: "+j)
-										System.out.println ("This is the value of col index starting from 0: "+j)
-
-										System.out.println("This is the name of column header: "+colHeader.get(j).getAttribute("innerText"))
-										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/*[2]")).getAttribute("innerText")) +"||")
-										System.out.println("This is the value of data: "+data)
-									}
-									//this is for patents tab in INS***************************************
-								}else if((tbl_main).equals('//*[@id="patent_tab_table"]/div/div[2]/div[3]/table')){
-									System.out.println("Inside patents tab")
-									tblcol=tblcol-2  // this is needed when files tab has 11 cols
-									System.out.println("This is the count of tblcol when files tab is selected: "+tblcol)
-									for (int j = 0; j< tblcol+2; j = j + 1) {
-										System.out.println("Value of i is: "+ i +"\nValue of j is: "+j)
-										System.out.println ("This is the value of col index starting from 0: "+j)
-
-										System.out.println("This is the name of column header: "+colHeader.get(j).getAttribute("innerText"))
-										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/*[2]")).getAttribute("innerText")) +"||")
-										System.out.println("This is the value of data: "+data)
-									}
-								}else if((statValue)==0){
-									System.out.println("inside the if loop for statvalue equal to 0 : already collected the header data")
-								}else{
-									System.out.println("This is the val of tblcol: "+tblcol)
-									System.out.println("This is the output of data **************** "+ data)
-									data = ""
-
-									for (int j = 2; j<= tblcol; j = j + 1) {
-										System.out.println("Value of i is: "+ i +"\nValue of j is: "+j)
-										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + j + "]/*[2]")).getAttribute("innerText")) +"||")
-										System.out.println("This is the value of data :"+data)
-									}
-								}
-								break;
-						} // INS switch ends here
-					} //INS if ends here
 					//@@@@@@@@@@@@@@@@ CTDC table data collection starts here  @@@@@@@@@@@@@@@@
 
 					if(switchString == "Trials"){
@@ -1649,28 +1618,20 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 	}
 
 	@Keyword
-	public void readINSStatBar(String tProgs, String tProjs,String tGrants, String tPubs, String tDsets, String tClinTrials, String tPatents){
+	public void readStatBarINS(String tProgs, String tProjs, String tGrants, String tPubs){
 		String xpProgs = givexpath(tProgs)
 		String xpProjs = givexpath(tProjs)
 		String xpGrants = givexpath(tGrants)
 		String xpPubs = givexpath(tPubs)
-		String xpDsets = givexpath(tDsets)
-		String xpClinTrials = givexpath(tClinTrials)
-		String xpPatents = givexpath(tPatents)
+
 		GlobalVariable.G_StatBar_Programs = driver.findElement(By.xpath(xpProgs)).getText();
-		System.out.println("This is the value of Programs count from Stat bar :"+GlobalVariable.G_StatBar_Programs)
+		System.out.println("This is the value of Programs count from Stat bar: "+GlobalVariable.G_StatBar_Programs)
 		GlobalVariable.G_StatBar_Projects = driver.findElement(By.xpath(xpProjs)).getText();
-		System.out.println("This is the value of Projects count from Stat bar :"+GlobalVariable.G_StatBar_Projects)
+		System.out.println("This is the value of Projects count from Stat bar: "+GlobalVariable.G_StatBar_Projects)
 		GlobalVariable.G_StatBar_Grants = driver.findElement(By.xpath(xpGrants)).getText();
-		System.out.println("This is the value of Grants count from Stat bar :"+GlobalVariable.G_StatBar_Grants)
+		System.out.println("This is the value of Grants count from Stat bar: "+GlobalVariable.G_StatBar_Grants)
 		GlobalVariable.G_StatBar_Publications = driver.findElement(By.xpath(xpPubs)).getText();
-		System.out.println("This is the value of Publications count from Stat bar :"+GlobalVariable.G_StatBar_Publications)
-		GlobalVariable.G_StatBar_Datasets = driver.findElement(By.xpath(xpDsets)).getText();
-		System.out.println("This is the value of Datasets count from Stat bar :"+GlobalVariable.G_StatBar_Datasets)
-		GlobalVariable.G_StatBar_ClinTrials = driver.findElement(By.xpath(xpClinTrials)).getText();
-		System.out.println("This is the value of Clinical Trials count from Stat bar :"+GlobalVariable.G_StatBar_ClinTrials)
-		GlobalVariable.G_StatBar_Patents = driver.findElement(By.xpath(xpPatents)).getText();
-		System.out.println("This is the value of Patents count from Stat bar :"+GlobalVariable.G_StatBar_Patents)
+		System.out.println("This is the value of Publications count from Stat bar: "+GlobalVariable.G_StatBar_Publications)
 	}
 
 
@@ -2031,8 +1992,8 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		neo4jData = ReadExcel.readOutputExcel(neo4jfilename, neoSheetName);
 		Collections.sort(neo4jData, new TestRunner());
 
-		System.out.println("This is the Entire UIWeb  data: " + UIData);
-		System.out.println("This is the Entire neo4j  data: " + neo4jData);
+		//		System.out.println("This is the Entire UIWeb  data: " + UIData);
+		//		System.out.println("This is the Entire neo4j  data: " + neo4jData);
 		System.out.println("This is the row size of the UIWeb Output data: " + UIData.size());
 		System.out.println("This is the row size of the Neo4j Output data: " + neo4jData.size());
 
@@ -2257,17 +2218,12 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 			System.out.println("This is the value of Projects Count from Neo4j result "+statData.get(0).get(1).getStringCellValue())
 			System.out.println("This is the value of Grants Count from Neo4j result "+statData.get(0).get(2).getStringCellValue())
 			System.out.println("This is the value of Publications Count from Neo4j result "+statData.get(0).get(3).getStringCellValue())
-			System.out.println("This is the value of Datasets Count from Neo4j result "+statData.get(0).get(4).getStringCellValue())
-			System.out.println("This is the value of Clinical Trials Count from Neo4j result "+statData.get(0).get(5).getStringCellValue())
-			System.out.println("This is the value of Patents from Neo4j result "+statData.get(0).get(6).getStringCellValue())
+
 
 			(statData.get(0).get(0).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Programs)) ? KeywordUtil.markPassed("Statbar Programs count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Programs count")
 			(statData.get(0).get(1).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Projects)) ? KeywordUtil.markPassed("Statbar Projects count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Projects count")
 			(statData.get(0).get(2).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Grants)) ? KeywordUtil.markPassed("Statbar Grants count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Grants count")
 			(statData.get(0).get(3).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Publications)) ? KeywordUtil.markPassed("Statbar Publications count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Publications count")
-			(statData.get(0).get(4).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Datasets)) ? KeywordUtil.markPassed("Statbar Datasets count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Datasets count")
-			(statData.get(0).get(5).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_ClinTrials)) ? KeywordUtil.markPassed("Statbar clinical Trials count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Clinical Trials count")
-			(statData.get(0).get(6).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Patents)) ? KeywordUtil.markPassed("Statbar Patents count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Patents count")
 		}else if (getAppName=='ICDC'){
 
 			System.out.println ("control is in line 1842");
@@ -2394,10 +2350,6 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		js.executeScript("arguments[0].scrollIntoView(true);", resultTab);
 		js.executeScript("arguments[0].click();", resultTab);
 		System.out.println("Successfully clicked desired element")
-
-		String xcprojects = givexpath('Object Repository/INS/Statbar/INS_Statbar-Projects')
-		GlobalVariable.G_StatBar_Grants = driver.findElement(By.xpath(xcprojects)).getAttribute("innerText");
-		System.out.println("This is the value of Projects count from Stat bar :"+GlobalVariable.G_StatBar_Grants)
 		Thread.sleep(1000)
 	}
 
