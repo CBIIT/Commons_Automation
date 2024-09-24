@@ -10,28 +10,12 @@ import com.kms.katalon.core.main.TestCaseMain
 public class GlobalVariable {
      
     /**
-     * <p>Profile CCDI_PROD : This variable holds the location of the input excel file which has the locators to be read from
-Profile CCDI_QA : This variable holds the location of the input excel file which has the locators to be read from
-Profile CCDI_QA - Local : This variable holds the location of the input excel file which has the locators to be read from
-Profile CCDI_STAGE : This variable holds the location of the input excel file which has the locators to be read from
-Profile CDS_DEV : This variable holds the location of the input excel file which has the locators to be read from
-Profile CDS_PROD : This variable holds the location of the input excel file which has the locators to be read from
-Profile CDS_QA : This variable holds the location of the input excel file which has the locators to be read from
-Profile CDS_QA - Jenkins : This variable holds the location of the input excel file which has the locators to be read from
-Profile CDS_QA_TWO : This variable holds the location of the input excel file which has the locators to be read from</p>
+     * <p>Profile ICDC_QA : This variable holds the location of the input excel file which has the locators to be read from</p>
      */
     public static Object G_InputExcelFileName
      
     /**
-     * <p>Profile CCDI_PROD : This is the path where the browserdriver is stored - for Chromedriver, Geckodrive, IEdriver etc
-Profile CCDI_QA : This is the path where the browserdriver is stored - for Chromedriver, Geckodrive, IEdriver etc
-Profile CCDI_QA - Local : This is the path where the browserdriver is stored - for Chromedriver, Geckodrive, IEdriver etc
-Profile CCDI_STAGE : This is the path where the browserdriver is stored - for Chromedriver, Geckodrive, IEdriver etc
-Profile CDS_DEV : This is the path where the browserdriver is stored - for Chromedriver, Geckodrive, IEdriver etc
-Profile CDS_PROD : This is the path where the browserdriver is stored - for Chromedriver, Geckodrive, IEdriver etc
-Profile CDS_QA : This is the path where the browserdriver is stored - for Chromedriver, Geckodrive, IEdriver etc
-Profile CDS_QA - Jenkins : This is the path where the browserdriver is stored - for Chromedriver, Geckodrive, IEdriver etc
-Profile CDS_QA_TWO : This is the path where the browserdriver is stored - for Chromedriver, Geckodrive, IEdriver etc</p>
+     * <p>Profile ICDC_QA : This is the path where the browserdriver is stored - for Chromedriver, Geckodrive, IEdriver etc</p>
      */
     public static Object G_BrowserDriverPath
      
@@ -41,15 +25,7 @@ Profile CDS_QA_TWO : This is the path where the browserdriver is stored - for Ch
     public static Object G_Browser
      
     /**
-     * <p>Profile CCDI_PROD : This can be modified to any environment - qa&#47;dev&#47;staging
-Profile CCDI_QA : This can be modified to any environment - qa&#47;dev&#47;staging
-Profile CCDI_QA - Local : This can be modified to any environment - qa&#47;dev&#47;staging
-Profile CCDI_STAGE : This can be modified to any environment - qa&#47;dev&#47;staging
-Profile CDS_DEV : This can be modified to any environment - qa&#47;dev&#47;staging
-Profile CDS_PROD : This can be modified to any environment - qa&#47;dev&#47;staging
-Profile CDS_QA : This can be modified to any environment - qa&#47;dev&#47;staging
-Profile CDS_QA - Jenkins : This can be modified to any environment - qa&#47;dev&#47;staging
-Profile CDS_QA_TWO : This can be modified to any environment - qa&#47;dev&#47;staging</p>
+     * <p>Profile ICDC_QA : This can be modified to any environment - qa&#47;dev&#47;staging</p>
      */
     public static Object G_Urlname
      
@@ -64,54 +40,22 @@ Profile CDS_QA_TWO : This can be modified to any environment - qa&#47;dev&#47;st
     public static Object G_Action
      
     /**
-     * <p>Profile CCDI_PROD : This variable stores the Neo4J database's server url at runtime
-Profile CCDI_QA : This variable stores the Neo4J database's server url at runtime
-Profile CCDI_QA - Local : This variable stores the Neo4J database's server url at runtime
-Profile CCDI_STAGE : This variable stores the Neo4J database's server url at runtime
-Profile CDS_DEV : This variable stores the Neo4J database's server url at runtime
-Profile CDS_PROD : This variable stores the Neo4J database's server url at runtime
-Profile CDS_QA : This variable stores the Neo4J database's server url at runtime
-Profile CDS_QA - Jenkins : This variable stores the Neo4J database's server url at runtime
-Profile CDS_QA_TWO : This variable stores the Neo4J database's server url at runtime</p>
+     * <p>Profile ICDC_QA : This variable stores the Neo4J database's server url at runtime</p>
      */
     public static Object G_server
      
     /**
-     * <p>Profile CCDI_PROD : This variable stores the Neo4J database's username at runtime
-Profile CCDI_QA : This variable stores the Neo4J database's username at runtime
-Profile CCDI_QA - Local : This variable stores the Neo4J database's username at runtime
-Profile CCDI_STAGE : This variable stores the Neo4J database's username at runtime
-Profile CDS_DEV : This variable stores the Neo4J database's username at runtime
-Profile CDS_PROD : This variable stores the Neo4J database's username at runtime
-Profile CDS_QA : This variable stores the Neo4J database's username at runtime
-Profile CDS_QA - Jenkins : This variable stores the Neo4J database's username at runtime
-Profile CDS_QA_TWO : This variable stores the Neo4J database's username at runtime</p>
+     * <p>Profile ICDC_QA : This variable stores the Neo4J database's username at runtime</p>
      */
     public static Object G_UserId
      
     /**
-     * <p>Profile CCDI_PROD : This variable stores the Neo4J database's password at runtime
-Profile CCDI_QA : This variable stores the Neo4J database's password at runtime
-Profile CCDI_QA - Local : This variable stores the Neo4J database's password at runtime
-Profile CCDI_STAGE : This variable stores the Neo4J database's password at runtime
-Profile CDS_DEV : This variable stores the Neo4J database's password at runtime
-Profile CDS_PROD : This variable stores the Neo4J database's password at runtime
-Profile CDS_QA : This variable stores the Neo4J database's password at runtime
-Profile CDS_QA - Jenkins : This variable stores the Neo4J database's password at runtime
-Profile CDS_QA_TWO : This variable stores the Neo4J database's password at runtime</p>
+     * <p>Profile ICDC_QA : This variable stores the Neo4J database's password at runtime</p>
      */
     public static Object G_Password
      
     /**
-     * <p>Profile CCDI_PROD : This variable stores the path of the output file onto which the data is written from Ne04j
-Profile CCDI_QA : This variable stores the path of the output file onto which the data is written from Ne04j
-Profile CCDI_QA - Local : This variable stores the path of the output file onto which the data is written from Ne04j
-Profile CCDI_STAGE : This variable stores the path of the output file onto which the data is written from Ne04j
-Profile CDS_DEV : This variable stores the path of the output file onto which the data is written from Ne04j
-Profile CDS_PROD : This variable stores the path of the output file onto which the data is written from Ne04j
-Profile CDS_QA : This variable stores the path of the output file onto which the data is written from Ne04j
-Profile CDS_QA - Jenkins : This variable stores the path of the output file onto which the data is written from Ne04j
-Profile CDS_QA_TWO : This variable stores the path of the output file onto which the data is written from Ne04j</p>
+     * <p>Profile ICDC_QA : This variable stores the path of the output file onto which the data is written from Ne04j</p>
      */
     public static Object G_ResultPath
      
@@ -131,15 +75,7 @@ Profile CDS_QA_TWO : This variable stores the path of the output file onto which
     public static Object G_propertyvalue
      
     /**
-     * <p>Profile CCDI_PROD : This variable stores at runtime, the Cypher Query from Input Excel, used to fetch data from Neo4J for a specific criteria
-Profile CCDI_QA : This variable stores at runtime, the Cypher Query from Input Excel, used to fetch data from Neo4J for a specific criteria
-Profile CCDI_QA - Local : This variable stores at runtime, the Cypher Query from Input Excel, used to fetch data from Neo4J for a specific criteria
-Profile CCDI_STAGE : This variable stores at runtime, the Cypher Query from Input Excel, used to fetch data from Neo4J for a specific criteria
-Profile CDS_DEV : This variable stores at runtime, the Cypher Query from Input Excel, used to fetch data from Neo4J for a specific criteria
-Profile CDS_PROD : This variable stores at runtime, the Cypher Query from Input Excel, used to fetch data from Neo4J for a specific criteria
-Profile CDS_QA : This variable stores at runtime, the Cypher Query from Input Excel, used to fetch data from Neo4J for a specific criteria
-Profile CDS_QA - Jenkins : This variable stores at runtime, the Cypher Query from Input Excel, used to fetch data from Neo4J for a specific criteria
-Profile CDS_QA_TWO : This variable stores at runtime, the Cypher Query from Input Excel, used to fetch data from Neo4J for a specific criteria</p>
+     * <p>Profile ICDC_QA : This variable stores at runtime, the Cypher Query from Input Excel, used to fetch data from Neo4J for a specific criteria</p>
      */
     public static Object G_Query
      
@@ -204,15 +140,7 @@ Profile CDS_QA_TWO : This variable stores at runtime, the Cypher Query from Inpu
     public static Object G_WebExcel
      
     /**
-     * <p>Profile CCDI_PROD : This variable holds the value of the filename of the input file attached to each test case
-Profile CCDI_QA : This variable holds the value of the filename of the input file attached to each test case
-Profile CCDI_QA - Local : This variable holds the value of the filename of the input file attached to each test case
-Profile CCDI_STAGE : This variable holds the value of the filename of the input file attached to each test case
-Profile CDS_DEV : This variable holds the value of the filename of the input file attached to each test case
-Profile CDS_PROD : This variable holds the value of the filename of the input file attached to each test case
-Profile CDS_QA : This variable holds the value of the filename of the input file attached to each test case
-Profile CDS_QA - Jenkins : This variable holds the value of the filename of the input file attached to each test case
-Profile CDS_QA_TWO : This variable holds the value of the filename of the input file attached to each test case</p>
+     * <p>Profile ICDC_QA : This variable holds the value of the filename of the input file attached to each test case</p>
      */
     public static Object G_input_file
      
@@ -222,41 +150,17 @@ Profile CDS_QA_TWO : This variable holds the value of the filename of the input 
     public static Object G_rowcount
      
     /**
-     * <p>Profile CCDI_PROD : This contains the name of the element as stored in Katalon's obj rep
-Profile CCDI_QA : This contains the name of the element as stored in Katalon's obj rep
-Profile CCDI_QA - Local : This contains the name of the element as stored in Katalon's obj rep
-Profile CCDI_STAGE : This contains the name of the element as stored in Katalon's obj rep
-Profile CDS_DEV : This contains the name of the element as stored in Katalon's obj rep
-Profile CDS_PROD : This contains the name of the element as stored in Katalon's obj rep
-Profile CDS_QA : This contains the name of the element as stored in Katalon's obj rep
-Profile CDS_QA - Jenkins : This contains the name of the element as stored in Katalon's obj rep
-Profile CDS_QA_TWO : This contains the name of the element as stored in Katalon's obj rep</p>
+     * <p>Profile ICDC_QA : This contains the name of the element as stored in Katalon's obj rep</p>
      */
     public static Object G_ObjectType
      
     /**
-     * <p>Profile CCDI_PROD : This is for Katalon 
-Profile CCDI_QA : This is for Katalon 
-Profile CCDI_QA - Local : This is for Katalon 
-Profile CCDI_STAGE : This is for Katalon 
-Profile CDS_DEV : This is for Katalon 
-Profile CDS_PROD : This is for Katalon 
-Profile CDS_QA : This is for Katalon 
-Profile CDS_QA - Jenkins : This is for Katalon 
-Profile CDS_QA_TWO : This is for Katalon </p>
+     * <p>Profile ICDC_QA : This is for Katalon </p>
      */
     public static Object G_dbexcel
      
     /**
-     * <p>Profile CCDI_PROD : This is for the Cases tab and Samples tab which have 12 cols.  There is a separate variable for Files tab which has 10 cols
-Profile CCDI_QA : This is for the Cases tab and Samples tab which have 12 cols.  There is a separate variable for Files tab which has 10 cols
-Profile CCDI_QA - Local : This is for the Cases tab and Samples tab which have 12 cols.  There is a separate variable for Files tab which has 10 cols
-Profile CCDI_STAGE : This is for the Cases tab and Samples tab which have 12 cols.  There is a separate variable for Files tab which has 10 cols
-Profile CDS_DEV : This is the value for Bento
-Profile CDS_PROD : This is the value for Bento
-Profile CDS_QA : This is the value for Bento
-Profile CDS_QA - Jenkins : This is the value for Bento
-Profile CDS_QA_TWO : This is the value for Bento</p>
+     * <p>Profile ICDC_QA : This is for the Cases tab and Samples tab which have 12 cols.  There is a separate variable for Files tab which has 10 cols</p>
      */
     public static Object G_rowcount_Katalon
      
@@ -271,57 +175,27 @@ Profile CDS_QA_TWO : This is the value for Bento</p>
     public static Object G_StatQuery
      
     /**
-     * <p>Profile CCDI_PROD : This variable holds the value of Programs count from Stat Bar in UI
-Profile CCDI_QA : This variable holds the value of Programs count from Stat Bar in UI
-Profile CCDI_QA - Local : This variable holds the value of Programs count from Stat Bar in UI
-Profile CCDI_STAGE : This variable holds the value of Programs count from Stat Bar in UI</p>
+     * <p>Profile ICDC_QA : This variable holds the value of Programs count from Stat Bar in UI</p>
      */
     public static Object G_StatBar_Programs
      
     /**
-     * <p>Profile CCDI_PROD : This variable holds the value of Studies count from Stat Bar in UI
-Profile CCDI_QA : This variable holds the value of Studies count from Stat Bar in UI
-Profile CCDI_QA - Local : This variable holds the value of Studies count from Stat Bar in UI
-Profile CCDI_STAGE : This variable holds the value of Studies count from Stat Bar in UI</p>
+     * <p>Profile ICDC_QA : This variable holds the value of Studies count from Stat Bar in UI</p>
      */
     public static Object G_StatBar_Studies
      
     /**
-     * <p>Profile CCDI_PROD : This variable holds the value of Cases count from Stat Bar in UI.
-Profile CCDI_QA : This variable holds the value of Cases count from Stat Bar in UI.
-Profile CCDI_QA - Local : This variable holds the value of Cases count from Stat Bar in UI.
-Profile CCDI_STAGE : This variable holds the value of Cases count from Stat Bar in UI.
-Profile CDS_DEV : This variable holds the value of Cases count from Stat Bar in UI.
-Profile CDS_PROD : This variable holds the value of Cases count from Stat Bar in UI.
-Profile CDS_QA : This variable holds the value of Cases count from Stat Bar in UI.
-Profile CDS_QA - Jenkins : This variable holds the value of Cases count from Stat Bar in UI.
-Profile CDS_QA_TWO : This variable holds the value of Cases count from Stat Bar in UI.</p>
+     * <p>Profile ICDC_QA : This variable holds the value of Cases count from Stat Bar in UI.</p>
      */
     public static Object G_StatBar_Cases
      
     /**
-     * <p>Profile CCDI_PROD : This variable holds the value of Samples count from Stat Bar in UI.
-Profile CCDI_QA : This variable holds the value of Samples count from Stat Bar in UI.
-Profile CCDI_QA - Local : This variable holds the value of Samples count from Stat Bar in UI.
-Profile CCDI_STAGE : This variable holds the value of Samples count from Stat Bar in UI.
-Profile CDS_DEV : This variable holds the value of Samples count from Stat Bar in UI.
-Profile CDS_PROD : This variable holds the value of Samples count from Stat Bar in UI.
-Profile CDS_QA : This variable holds the value of Samples count from Stat Bar in UI.
-Profile CDS_QA - Jenkins : This variable holds the value of Samples count from Stat Bar in UI.
-Profile CDS_QA_TWO : This variable holds the value of Samples count from Stat Bar in UI.</p>
+     * <p>Profile ICDC_QA : This variable holds the value of Samples count from Stat Bar in UI.</p>
      */
     public static Object G_StatBar_Samples
      
     /**
-     * <p>Profile CCDI_PROD : This variable holds the value of Files count from Stat Bar in UI.
-Profile CCDI_QA : This variable holds the value of Files count from Stat Bar in UI.
-Profile CCDI_QA - Local : This variable holds the value of Files count from Stat Bar in UI.
-Profile CCDI_STAGE : This variable holds the value of Files count from Stat Bar in UI.
-Profile CDS_DEV : This variable holds the value of Files count from Stat Bar in UI.
-Profile CDS_PROD : This variable holds the value of Files count from Stat Bar in UI.
-Profile CDS_QA : This variable holds the value of Files count from Stat Bar in UI.
-Profile CDS_QA - Jenkins : This variable holds the value of Files count from Stat Bar in UI.
-Profile CDS_QA_TWO : This variable holds the value of Files count from Stat Bar in UI.</p>
+     * <p>Profile ICDC_QA : This variable holds the value of Files count from Stat Bar in UI.</p>
      */
     public static Object G_StatBar_Files
      
@@ -331,10 +205,7 @@ Profile CDS_QA_TWO : This variable holds the value of Files count from Stat Bar 
     public static Object G_StatBar_Aliquots
      
     /**
-     * <p>Profile CCDI_PROD : This global variable holds the value of study files
-Profile CCDI_QA : This global variable holds the value of study files
-Profile CCDI_QA - Local : This global variable holds the value of study files
-Profile CCDI_STAGE : This global variable holds the value of study files</p>
+     * <p>Profile ICDC_QA : This global variable holds the value of study files</p>
      */
     public static Object G_StatBar_StudyFiles
      
@@ -344,11 +215,7 @@ Profile CCDI_STAGE : This global variable holds the value of study files</p>
     public static Object G_CasesArray
      
     /**
-     * <p>Profile CDS_DEV : This is the count from case details table
-Profile CDS_PROD : This is the count from case details table
-Profile CDS_QA : This is the count from case details table
-Profile CDS_QA - Jenkins : This is the count from case details table
-Profile CDS_QA_TWO : This is the count from case details table</p>
+     * <p></p>
      */
     public static Object G_rowcountFiles
      
@@ -358,15 +225,7 @@ Profile CDS_QA_TWO : This is the count from case details table</p>
     public static Object G_MainPgNextBtn
      
     /**
-     * <p>Profile CCDI_PROD : This variable contains the output tab name for stat bar counts from the case details page of a specific case ID
-Profile CCDI_QA : This variable contains the output tab name for stat bar counts from the case details page of a specific case ID
-Profile CCDI_QA - Local : This variable contains the output tab name for stat bar counts from the case details page of a specific case ID
-Profile CCDI_STAGE : This variable contains the output tab name for stat bar counts from the case details page of a specific case ID
-Profile CDS_DEV : This variable contains the output tab name for stat bar counts from the case details page of a specific case ID
-Profile CDS_PROD : This variable contains the output tab name for stat bar counts from the case details page of a specific case ID
-Profile CDS_QA : This variable contains the output tab name for stat bar counts from the case details page of a specific case ID
-Profile CDS_QA - Jenkins : This variable contains the output tab name for stat bar counts from the case details page of a specific case ID
-Profile CDS_QA_TWO : This variable contains the output tab name for stat bar counts from the case details page of a specific case ID</p>
+     * <p>Profile ICDC_QA : This variable contains the output tab name for stat bar counts from the case details page of a specific case ID</p>
      */
     public static Object G_CaseDetailStatTabname
      
@@ -376,11 +235,7 @@ Profile CDS_QA_TWO : This variable contains the output tab name for stat bar cou
     public static Object G_caseDetailsTabName
      
     /**
-     * <p>Profile CDS_DEV : This variable contains the neo4j query to fetch case detail level stat data
-Profile CDS_PROD : This variable contains the neo4j query to fetch case detail level stat data
-Profile CDS_QA : This variable contains the neo4j query to fetch case detail level stat data
-Profile CDS_QA - Jenkins : This variable contains the neo4j query to fetch case detail level stat data
-Profile CDS_QA_TWO : This variable contains the neo4j query to fetch case detail level stat data</p>
+     * <p></p>
      */
     public static Object G_CaseDetailQ
      
@@ -397,6 +252,11 @@ Profile CDS_QA_TWO : This variable contains the neo4j query to fetch case detail
     /**
      * <p></p>
      */
+    public static Object G_WebTabnameCases
+     
+    /**
+     * <p></p>
+     */
     public static Object G_WebTabnameSamples
      
     /**
@@ -408,6 +268,11 @@ Profile CDS_QA_TWO : This variable contains the neo4j query to fetch case detail
      * <p></p>
      */
     public static Object G_WebTabnameStudyFiles
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_CypherTabnameCases
      
     /**
      * <p></p>
@@ -442,6 +307,11 @@ Profile CDS_QA_TWO : This variable contains the neo4j query to fetch case detail
     /**
      * <p></p>
      */
+    public static Object G_QueryCasesTab
+     
+    /**
+     * <p></p>
+     */
     public static Object G_QuerySamplesTab
      
     /**
@@ -455,52 +325,27 @@ Profile CDS_QA_TWO : This variable contains the neo4j query to fetch case detail
     public static Object G_QueryStudyFilesTab
      
     /**
-     * <p>Profile CCDI_PROD : Name of the current test script
-Profile CCDI_QA : Name of the current test script
-Profile CCDI_QA - Local : Name of the current test script
-Profile CCDI_STAGE : Name of the current test script
-Profile CDS_DEV : This variable contains the current test case name
-Profile CDS_PROD : This variable contains the current test case name
-Profile CDS_QA : This variable contains the current test case name
-Profile CDS_QA - Jenkins : This variable contains the current test case name
-Profile CDS_QA_TWO : This variable contains the current test case name</p>
+     * <p>Profile ICDC_QA : Name of the current test script</p>
      */
     public static Object G_currentTCName
      
     /**
-     * <p>Profile CCDI_PROD : This flag specifies whether the script needs manifest file rename or not.
-Profile CCDI_QA : This flag specifies whether the script needs manifest file rename or not.
-Profile CCDI_QA - Local : This flag specifies whether the script needs manifest file rename or not.
-Profile CCDI_STAGE : This flag specifies whether the script needs manifest file rename or not.</p>
+     * <p>Profile ICDC_QA : This flag specifies whether the script needs manifest file rename or not.</p>
      */
     public static Object ManifestFlag
      
     /**
-     * <p>Profile CCDI_PROD : This is the value of browser chosen at runtime to execute the test script
-Profile CCDI_QA : This is the value of browser chosen at runtime to execute the test script
-Profile CCDI_QA - Local : This is the value of browser chosen at runtime to execute the test script
-Profile CCDI_STAGE : This is the value of browser chosen at runtime to execute the test script
-Profile CDS_DEV : This is the value of browser chosen at runtime to execute the test script
-Profile CDS_PROD : This is the value of browser chosen at runtime to execute the test script
-Profile CDS_QA : This is the value of browser chosen at runtime to execute the test script
-Profile CDS_QA - Jenkins : This is the value of browser chosen at runtime to execute the test script
-Profile CDS_QA_TWO : This is the value of browser chosen at runtime to execute the test script</p>
+     * <p>Profile ICDC_QA : This is the value of browser chosen at runtime to execute the test script</p>
      */
     public static Object execBrowser
      
     /**
-     * <p>Profile CCDI_PROD : Path where manifest is saved
-Profile CCDI_QA : Path where manifest is saved
-Profile CCDI_QA - Local : Path where manifest is saved
-Profile CCDI_STAGE : Path where manifest is saved</p>
+     * <p>Profile ICDC_QA : Path where manifest is saved</p>
      */
     public static Object manifestPath
      
     /**
-     * <p>Profile CCDI_PROD : This contains the name of the recent manifest with timestamp which is to be renamed
-Profile CCDI_QA : This contains the name of the recent manifest with timestamp which is to be renamed
-Profile CCDI_QA - Local : This contains the name of the recent manifest with timestamp which is to be renamed
-Profile CCDI_STAGE : This contains the name of the recent manifest with timestamp which is to be renamed</p>
+     * <p>Profile ICDC_QA : This contains the name of the recent manifest with timestamp which is to be renamed</p>
      */
     public static Object oldFileName
      
@@ -535,11 +380,7 @@ Profile CCDI_STAGE : This contains the name of the recent manifest with timestam
     public static Object G_Timeout_Large
      
     /**
-     * <p>Profile CDS_DEV : contains the renamed manifest file's full path + name with csv extension
-Profile CDS_PROD : contains the renamed manifest file's full path + name with csv extension
-Profile CDS_QA : contains the renamed manifest file's full path + name with csv extension
-Profile CDS_QA - Jenkins : contains the renamed manifest file's full path + name with csv extension
-Profile CDS_QA_TWO : contains the renamed manifest file's full path + name with csv extension</p>
+     * <p></p>
      */
     public static Object csvFileName
      
@@ -554,18 +395,12 @@ Profile CDS_QA_TWO : contains the renamed manifest file's full path + name with 
     public static Object G_cartQuery
      
     /**
-     * <p>Profile CCDI_PROD : This variable holds the xpath of table which is to be read only for specific columns
-Profile CCDI_QA : This variable holds the xpath of table which is to be read only for specific columns
-Profile CCDI_QA - Local : This variable holds the xpath of table which is to be read only for specific columns
-Profile CCDI_STAGE : This variable holds the xpath of table which is to be read only for specific columns</p>
+     * <p>Profile ICDC_QA : This variable holds the xpath of table which is to be read only for specific columns</p>
      */
     public static Object G_customTblBdy
      
     /**
-     * <p>Profile CCDI_PROD : This variable contains the xpath of table body to be read by chosen column headers
-Profile CCDI_QA : This variable contains the xpath of table body to be read by chosen column headers
-Profile CCDI_QA - Local : This variable contains the xpath of table body to be read by chosen column headers
-Profile CCDI_STAGE : This variable contains the xpath of table body to be read by chosen column headers</p>
+     * <p>Profile ICDC_QA : This variable contains the xpath of table body to be read by chosen column headers</p>
      */
     public static Object G_customTblHdr
      
@@ -575,31 +410,17 @@ Profile CCDI_STAGE : This variable contains the xpath of table body to be read b
     public static Object G_WebMyCartSelectCols
      
     /**
-     * <p>Profile CCDI_PROD : this holds the file name after csv to xls conversion of the downloaded manifest
-Profile CCDI_QA : this holds the file name after csv to xls conversion of the downloaded manifest
-Profile CCDI_QA - Local : this holds the file name after csv to xls conversion of the downloaded manifest
-Profile CCDI_STAGE : this holds the file name after csv to xls conversion of the downloaded manifest
-Profile CDS_DEV : This is the variable holding the filename and full path of the converted .xls file
-Profile CDS_PROD : This is the variable holding the filename and full path of the converted .xls file
-Profile CDS_QA : This is the variable holding the filename and full path of the converted .xls file
-Profile CDS_QA - Jenkins : This is the variable holding the filename and full path of the converted .xls file
-Profile CDS_QA_TWO : This is the variable holding the filename and full path of the converted .xls file</p>
+     * <p>Profile ICDC_QA : this holds the file name after csv to xls conversion of the downloaded manifest</p>
      */
     public static Object G_excelFileName
      
     /**
-     * <p>Profile CCDI_PROD : This variable holds the full path and filename of a manifest convereted from xls to xlsx
-Profile CCDI_QA : This variable holds the full path and filename of a manifest convereted from xls to xlsx
-Profile CCDI_QA - Local : This variable holds the full path and filename of a manifest convereted from xls to xlsx
-Profile CCDI_STAGE : This variable holds the full path and filename of a manifest convereted from xls to xlsx</p>
+     * <p>Profile ICDC_QA : This variable holds the full path and filename of a manifest convereted from xls to xlsx</p>
      */
     public static Object G_xlsxFileName
      
     /**
-     * <p>Profile CCDI_PROD : dummy variable added due toINS profile
-Profile CCDI_QA : dummy variable added due toINS profile
-Profile CCDI_QA - Local : dummy variable added due toINS profile
-Profile CCDI_STAGE : dummy variable added due toINS profile</p>
+     * <p>Profile ICDC_QA : dummy variable added due toINS profile</p>
      */
     public static Object G_StatBar_Projects
      
@@ -731,135 +552,29 @@ Profile CCDI_STAGE : dummy variable added due toINS profile</p>
     /**
      * <p></p>
      */
-    public static Object G_WebTabnameMyCartsvFileName
+    public static Object G_WebTabnameArmsCohorts
      
     /**
      * <p></p>
      */
-    public static Object G_WebTabnameSDStudyFilesTab
+    public static Object G_CypherTabnameArmsCohorts
      
     /**
      * <p></p>
      */
-    public static Object G_CypherTabnameSDStudyFilesTab
+    public static Object G_QueryArmsCohortsTab
      
     /**
      * <p></p>
      */
-    public static Object G_WebTabnameCases
-     
-    /**
-     * <p></p>
-     */
-    public static Object G_CypherTabnameCases
-     
-    /**
-     * <p></p>
-     */
-    public static Object G_QueryCasesTab
-     
-    /**
-     * <p></p>
-     */
-    public static Object G_StatBar_Participants
-     
-    /**
-     * <p></p>
-     */
-    public static Object G_CypherTabnameParticipants
-     
-    /**
-     * <p></p>
-     */
-    public static Object G_WebTabnameParticipants
-     
-    /**
-     * <p></p>
-     */
-    public static Object G_QueryParticipantsTab
-     
-    /**
-     * <p></p>
-     */
-    public static Object G_QueryDiagnosisTab
-     
-    /**
-     * <p></p>
-     */
-    public static Object G_WebTabnameDiagnosis
-     
-    /**
-     * <p></p>
-     */
-    public static Object G_CypherTabnameDiagnosis
-     
-    /**
-     * <p></p>
-     */
-    public static Object G_WebTabnameStudies
-     
-    /**
-     * <p></p>
-     */
-    public static Object G_CypherTabnameStudies
-     
-    /**
-     * <p></p>
-     */
-    public static Object G_QueryStudiesTab
-     
-    /**
-     * <p>Profile CDS_DEV : This holds the value of stat bar for assays
-Profile CDS_PROD : This holds the value of stat bar for assays
-Profile CDS_QA : This holds the value of stat bar for assays
-Profile CDS_QA - Jenkins : This holds the value of stat bar for assays
-Profile CDS_QA_TWO : This holds the value of stat bar for assays</p>
-     */
-    public static Object G_StatBar_Assays
-     
-    /**
-     * <p>Profile CDS_DEV : This holds the value of stat bar for arms
-Profile CDS_PROD : This holds the value of stat bar for arms
-Profile CDS_QA : This holds the value of stat bar for arms
-Profile CDS_QA - Jenkins : This holds the value of stat bar for arms
-Profile CDS_QA_TWO : This holds the value of stat bar for arms</p>
-     */
-    public static Object G_StatBar_Arms
-     
-    /**
-     * <p></p>
-     */
-    public static Object G_WebTabNameMyCart
-     
-    /**
-     * <p>Profile CDS_DEV : This is the value of the sheet name in the downloaded and renamed Manifest file converted to xls format
-Profile CDS_PROD : This is the value of the sheet name in the downloaded and renamed Manifest file converted to xls format
-Profile CDS_QA : This is the value of the sheet name in the downloaded and renamed Manifest file converted to xls format
-Profile CDS_QA - Jenkins : This is the value of the sheet name in the downloaded and renamed Manifest file converted to xls format
-Profile CDS_QA_TWO : This is the value of the sheet name in the downloaded and renamed Manifest file converted to xls format</p>
-     */
-    public static Object G_ManifestTabName
-     
-    /**
-     * <p>Profile CDS_DEV : This is the variable holding the filename and full path of the converted .xlsx file
-Profile CDS_PROD : This is the variable holding the filename and full path of the converted .xlsx file
-Profile CDS_QA : This is the variable holding the filename and full path of the converted .xlsx file
-Profile CDS_QA - Jenkins : This is the variable holding the filename and full path of the converted .xlsx file
-Profile CDS_QA_TWO : This is the variable holding the filename and full path of the converted .xlsx file</p>
-     */
-    public static Object G_xlsxFilename
-     
-    /**
-     * <p></p>
-     */
-    public static Object G_StatBar_DisSite
+    public static Object AppKey
      
 
     static {
         try {
             def selectedVariables = TestCaseMain.getGlobalVariables("default")
 			selectedVariables += TestCaseMain.getGlobalVariables(RunConfiguration.getExecutionProfile())
-            selectedVariables += TestCaseMain.getParsedValues(RunConfiguration.getOverridingParameters())
+            selectedVariables += TestCaseMain.getParsedValues(RunConfiguration.getOverridingParameters(), selectedVariables)
     
             G_InputExcelFileName = selectedVariables['G_InputExcelFileName']
             G_BrowserDriverPath = selectedVariables['G_BrowserDriverPath']
@@ -909,15 +624,18 @@ Profile CDS_QA_TWO : This is the variable holding the filename and full path of 
             G_CaseDetailQ = selectedVariables['G_CaseDetailQ']
             G_CaseDetailsQFirstPart = selectedVariables['G_CaseDetailsQFirstPart']
             G_CaseDetailsQSecondPart = selectedVariables['G_CaseDetailsQSecondPart']
+            G_WebTabnameCases = selectedVariables['G_WebTabnameCases']
             G_WebTabnameSamples = selectedVariables['G_WebTabnameSamples']
             G_WebTabnameFiles = selectedVariables['G_WebTabnameFiles']
             G_WebTabnameStudyFiles = selectedVariables['G_WebTabnameStudyFiles']
+            G_CypherTabnameCases = selectedVariables['G_CypherTabnameCases']
             G_CypherTabnameSamples = selectedVariables['G_CypherTabnameSamples']
             G_CypherTabnameFiles = selectedVariables['G_CypherTabnameFiles']
             G_CypherTabnameStudyFiles = selectedVariables['G_CypherTabnameStudyFiles']
             G_OutputDir = selectedVariables['G_OutputDir']
             G_OutputFileName = selectedVariables['G_OutputFileName']
             G_inputTabName = selectedVariables['G_inputTabName']
+            G_QueryCasesTab = selectedVariables['G_QueryCasesTab']
             G_QuerySamplesTab = selectedVariables['G_QuerySamplesTab']
             G_QueryFilesTab = selectedVariables['G_QueryFilesTab']
             G_QueryStudyFilesTab = selectedVariables['G_QueryStudyFilesTab']
@@ -966,31 +684,13 @@ Profile CDS_QA_TWO : This is the variable holding the filename and full path of 
             G_WebTabnameCDStudy = selectedVariables['G_WebTabnameCDStudy']
             G_CypherTabnameCDStudy = selectedVariables['G_CypherTabnameCDStudy']
             G_QueryCDStudy = selectedVariables['G_QueryCDStudy']
-            G_WebTabnameMyCartsvFileName = selectedVariables['G_WebTabnameMyCartsvFileName']
-            G_WebTabnameSDStudyFilesTab = selectedVariables['G_WebTabnameSDStudyFilesTab']
-            G_CypherTabnameSDStudyFilesTab = selectedVariables['G_CypherTabnameSDStudyFilesTab']
-            G_WebTabnameCases = selectedVariables['G_WebTabnameCases']
-            G_CypherTabnameCases = selectedVariables['G_CypherTabnameCases']
-            G_QueryCasesTab = selectedVariables['G_QueryCasesTab']
-            G_StatBar_Participants = selectedVariables['G_StatBar_Participants']
-            G_CypherTabnameParticipants = selectedVariables['G_CypherTabnameParticipants']
-            G_WebTabnameParticipants = selectedVariables['G_WebTabnameParticipants']
-            G_QueryParticipantsTab = selectedVariables['G_QueryParticipantsTab']
-            G_QueryDiagnosisTab = selectedVariables['G_QueryDiagnosisTab']
-            G_WebTabnameDiagnosis = selectedVariables['G_WebTabnameDiagnosis']
-            G_CypherTabnameDiagnosis = selectedVariables['G_CypherTabnameDiagnosis']
-            G_WebTabnameStudies = selectedVariables['G_WebTabnameStudies']
-            G_CypherTabnameStudies = selectedVariables['G_CypherTabnameStudies']
-            G_QueryStudiesTab = selectedVariables['G_QueryStudiesTab']
-            G_StatBar_Assays = selectedVariables['G_StatBar_Assays']
-            G_StatBar_Arms = selectedVariables['G_StatBar_Arms']
-            G_WebTabNameMyCart = selectedVariables['G_WebTabNameMyCart']
-            G_ManifestTabName = selectedVariables['G_ManifestTabName']
-            G_xlsxFilename = selectedVariables['G_xlsxFilename']
-            G_StatBar_DisSite = selectedVariables['G_StatBar_DisSite']
+            G_WebTabnameArmsCohorts = selectedVariables['G_WebTabnameArmsCohorts']
+            G_CypherTabnameArmsCohorts = selectedVariables['G_CypherTabnameArmsCohorts']
+            G_QueryArmsCohortsTab = selectedVariables['G_QueryArmsCohortsTab']
+            AppKey = selectedVariables['AppKey']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)
         }
     }
-}s
+}

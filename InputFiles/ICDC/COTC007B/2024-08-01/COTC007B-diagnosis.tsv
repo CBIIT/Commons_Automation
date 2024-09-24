@@ -1,0 +1,85 @@
+type	case.case_record_id	diagnosis_record_id	date_of_histology_confirmation	date_of_diagnosis	disease_term	histological_grade	histology_cytopathology	primary_disease_site	stage_of_disease	best_response
+diagnosis	COTC007B-0505	COTC007B-0505	2012-02-09	2012-02-09	Lymphoma			Lymph Node	IIIa	Not Determined
+diagnosis	COTC007B-1605	COTC007B-1605		2013-03-30	Lymphoma		Diffuse large B-cell lymphoma - immunoblastic.	Lymph Node	IIIa	Not Determined
+diagnosis	COTC007B-0610	COTC007B-0610	2013-05-28	2013-05-21	Lymphoma			Lymph Node	IIIa	Not Determined
+diagnosis	COTC007B-0408	COTC007B-0408	2012-06-18	2012-06-18	Lymphoma		B-cell. Small lymphocytic lymphoma, possible marginal zone lymphoma	Lymph Node	IIIa	Not Determined
+diagnosis	COTC007B-0506	COTC007B-0506	2012-09-05	2012-09-05	Lymphoma		Diffuse large B-cell lymphoma - centroblastic.	Lymph Node	IIIa	Not Determined
+diagnosis	COTC007B-0601	COTC007B-0601	2012-07-31	2012-07-31	Lymphoma		Diffuse large B-cell lymphoma - immunoblastic	Lymph Node	III	Not Determined
+diagnosis	COTC007B-0203	COTC007B-0203	2012-08-07	2012-08-07	Lymphoma		T-cell small lymphocytic lymphoma. Progression at d6 to peripheral T-cell lymphoma 	Lymph Node	III	Not Determined
+diagnosis	COTC007B-1601	COTC007B-1601		2012-08-17	Lymphoma		Diffuse large B-cell lymphoma - immunoblastic	Lymph Node	IIIa	Not Determined
+diagnosis	COTC007B-0206	COTC007B-0206	2012-09-05	2012-09-05	Lymphoma		Diffuse large B-cell lymphoma - immunoblastic	Lymph Node	III	Not Determined
+diagnosis	COTC007B-0208	COTC007B-0208	2012-09-21	2011-01-06	Lymphoma		B-cell. Marginal zone lymphoma	Lymph Node	III	Not Determined
+diagnosis	COTC007B-0402	COTC007B-0402	2011-10-07	2011-10-07	Lymphoma		B-cell. Burkitt-like. Progression at d6 to Diffuse large B-cell lymphoma - immunoblastic	Lymph Node	Va	Not Determined
+diagnosis	COTC007B-0604	COTC007B-0604	2012-12-11	2012-12-11	Lymphoma		B-cell. Marginal zone lymphoma	Lymph Node	IIIb	Not Determined
+diagnosis	COTC007B-0404	COTC007B-0404	2012-12-30	2012-12-30	Lymphoma	High	B-cell. Marginal zone lymphoma	Lymph Node	IVb	Not Determined
+diagnosis	COTC007B-0605	COTC007B-0605	2013-02-02	2013-02-02	Lymphoma		Likely B-cell marginal zone lymphoma	Lymph Node	IVa	Not Determined
+diagnosis	COTC007B-0504	COTC007B-0504	2013-03-06	2013-03-06	Lymphoma		Diffuse large B-cell lymphoma - centroblastic	Lymph Node	IIIa	Not Determined
+diagnosis	COTC007B-0213	COTC007B-0213		2013-03-04	Lymphoma		Diffuse large B-cell lymphoma - centroblastic	Lymph Node	III	Not Determined
+diagnosis	COTC007B-1606	COTC007B-1606		2013-03-23	Lymphoma		B-cell. Marginal zone lymphoma	Lymph Node	V	Not Determined
+diagnosis	COTC007B-0217	COTC007B-0217	2014-04-16	2014-04-16	Lymphoma		Peripheral T-cell lymphoma	Lymph Node	III	Not Determined
+diagnosis	COTC007B-0613	COTC007B-0613	2014-01-04	2014-01-04	Lymphoma		B-cell. Marginal zone lymphoma	Lymph Node	IIIa	Not Determined
+diagnosis	COTC007B-0614	COTC007B-0614	2014-01-23	2014-01-21	Lymphoma		B-cell. Marginal zone lymphoma	Lymph Node	IVa	Not Determined
+diagnosis	COTC007B-0509	COTC007B-0509	2013-08-09	2013-08-09	Lymphoma		Burkitt like lymphoma progression to diffuse large B cell - immunoblastic lymphoma	Lymph Node	IIIa	Not Determined
+diagnosis	COTC007B-0215	COTC007B-0215		2014-03-27	Lymphoma		B-cell. Marginal zone lymphoma or lymphocytic lymphoma	Lymph Node	IIIa	Not Determined
+diagnosis	COTC007B-0216	COTC007B-0216	2014-03-04	2014-03-04	Lymphoma		B-cell. Marginal zone lymphoma	Lymph Node	V	Not Determined
+diagnosis	COTC007B-0609	COTC007B-0609	2013-05-14	2013-05-14	Lymphoma		B-cell. Marginal zone lymphoma	Lymph Node	IIIa	Not Determined
+diagnosis	COTC007B-0611	COTC007B-0611	2013-06-19	2013-06-19	Lymphoma		B-cell. Lymphoblastic	Lymph Node	III	Not Determined
+diagnosis	COTC007B-0507	COTC007B-0507	2013-04-30	2013-04-27	Lymphoma		B-cell. Marginal zone lymphoma	Lymph Node	IVb	Not Determined
+diagnosis	COTC007B-0204	COTC007B-0204	2012-08-16	2012-08-16	Lymphoma		Marginal zone B-cell lymphoma	Lymph Node	III	Not Determined
+diagnosis	COTC007B-0501	COTC007B-0501	2012-05-18	2012-05-18	Lymphoma		Marginal zone B-cell lymphoma progressing to diffuse large B-cell lymphoma at d6	Lymph Node	IIIa	Not Determined
+diagnosis	COTC007B-0502	COTC007B-0502	2012-06-27	2012-06-27	Lymphoma		Lymphoblastic T-cell lymphoma	Lymph Node	IIIa	Not Determined
+diagnosis	COTC007B-0201	COTC007B-0201	2012-05-01	2012-05-01	Lymphoma		Lymphoma	Lymph Node	III	Not Determined
+diagnosis	COTC007B-0205	COTC007B-0205	2012-08-30	2012-08-30	Lymphoma		Lymphoblastic T-cell lymphoma	Lymph Node	III	Not Determined
+diagnosis	COTC007B-0503	COTC007B-0503	2012-07-10	2012-07-10	Lymphoma		Large Cell B-cell Lymphoma 	Lymph Node	IIIa	Not Determined
+diagnosis	COTC007B-0209	COTC007B-0209		2012-10-30	Lymphoma		Marginal zone B-cell lymphoma	Lymph Node	III	Not Determined
+diagnosis	COTC007B-1602	COTC007B-1602			Lymphoma		Diffuse large B-cell lymphoma - centroblastic	Lymph Node	IVa	Not Determined
+diagnosis	COTC007B-0207	COTC007B-0207	2012-09-11	2012-09-12	Lymphoma		Peripheral T-cell lymphoma	Lymph Node	III	Not Determined
+diagnosis	COTC007B-0211	COTC007B-0211	2013-01-28	2013-01-28	Lymphoma		Diffuse large B-cell lymphoma - centroblastic	Lymph Node	III	Not Determined
+diagnosis	COTC007B-1603	COTC007B-1603		2012-10-30	Lymphoma		Lymphoblastic T-cell progression to Peripheral T-cell Lymphoma	Lymph Node	IIIa	Not Determined
+diagnosis	COTC007B-1604	COTC007B-1604		2012-12-24	Lymphoma		Diffuse large B-cell lymphoma - immunoblastic	Lymph Node	IIIa	Not Determined
+diagnosis	COTC007B-0602	COTC007B-0602	2012-10-10	2012-10-10	Lymphoma	High	Diffuse large B-cell lymphoma - centroblastic	Lymph Node	III	Not Determined
+diagnosis	COTC007B-0401	COTC007B-0401	2012-08-24	2012-08-24	Lymphoma	High	Diffuse large B-cell lymphoma	Lymph Node	IIIa	Not Determined
+diagnosis	COTC007B-0210	COTC007B-0210		2012-11-28	Lymphoma		Marginal zone lymphoma. Progression to Diffuse large B-cell lymphoma - centroblastic.	Lymph Node	III	Not Determined
+diagnosis	COTC007B-0603	COTC007B-0603	2012-12-10	2012-12-10	Lymphoma		Peripheral T-cell lymphoma	Lymph Node	III	Not Determined
+diagnosis	COTC007B-0405	COTC007B-0405	2013-01-17	2013-01-17	Lymphoma		Diffuse large B-cell lymphoma - immunoblastic.	Lymph Node	IIIa	Not Determined
+diagnosis	COTC007B-0407	COTC007B-0407	2013-02-20	2013-02-20	Lymphoma		Diffuse large B-cell lymphoma	Lymph Node	IIIa	Not Determined
+diagnosis	COTC007B-0212	COTC007B-0212		2013-02-14	Lymphoma		Peripheral T-cell lymphoma	Lymph Node	II	Not Determined
+diagnosis	COTC007B-0406	COTC007B-0406	2013-03-05	2013-03-05	Lymphoma		Diffuse large B-cell lymphoma - immunoblastic	Lymph Node	IIIa	Not Determined
+diagnosis	COTC007B-0403	COTC007B-0403	2012-07-17	2012-07-17	Lymphoma		Progression to Diffuse large B-cell lymphoma - centroblastic.	Lymph Node	Va	Not Determined
+diagnosis	COTC007B-0607	COTC007B-0607	2012-11-21	2012-11-15	Lymphoma		Lymphoblastic lymphoma - B-cell	Lymph Node	IIIa	Not Determined
+diagnosis	COTC007B-0608	COTC007B-0608	2013-01-09	2012-12-27	Lymphoma		Peripheral T-cell lymphoma	Lymph Node	IVa	Not Determined
+diagnosis	COTC007B-0508	COTC007B-0508	2013-05-15	2013-05-14	Lymphoma			Lymph Node	IIIa	Not Determined
+diagnosis	COTC007B-1607	COTC007B-1607	2013-06-05	2013-06-05	Lymphoma		Burkitt-like lymphoma T cell	Lymph Node	IVa	Not Determined
+diagnosis	COTC007B-0409	COTC007B-0409	2013-07-12	2013-07-12	Lymphoma			Lymph Node	IIIa	Not Determined
+diagnosis	COTC007B-0612	COTC007B-0612	2013-10-24	2013-08-26	Lymphoma		Diffuse large B-cell lymphoma - immunoblastic	Lymph Node	IVb	Not Determined
+diagnosis	COTC007B-0214	COTC007B-0214		2013-06-14	Lymphoma		Diffuse large B-cell lymphoma - immunoblastic	Lymph Node	III	Not Determined
+diagnosis	COTC007B-0411	COTC007B-0411	2013-10-30	2013-10-30	Lymphoma		Diffuse large B-cell lymphoma - immunoblastic	Lymph Node	IIIa	Not Determined
+diagnosis	COTC007B-0410	COTC007B-0410	2013-08-01	2013-08-01	Lymphoma			Lymph Node	III	Not Determined
+diagnosis	COTC007B-0510	COTC007B-0510	2014-03-10	2014-02-28	Lymphoma		Diffuse large B-cell lymphoma - immunoblastic	Lymph Node	IIIa	Not Determined
+diagnosis	COTC007B-1609	COTC007B-1609		2014-04-22	Lymphoma		Burkitt-like	Lymph Node	IIIa	Not Determined
+diagnosis	COTC007B-1002	COTC007B-1002	2013-04-12	2013-04-11	Lymphoma		Peripheral T-cell lymphoma	Lymph Node	IV	Not Determined
+diagnosis	COTC007B-0615	COTC007B-0615	2014-02-14	2014-02-14	Lymphoma		T cell	Lymph Node	IIIa	Not Determined
+diagnosis	COTC007B-0301	COTC007B-0301		2014-03-21	Lymphoma		Marginal zone lymphoma	Lymph Node	IIIa	Not Determined
+diagnosis	COTC007B-0302	COTC007B-0302	2014-07-25	2014-07-25	Lymphoma		Marginal zone lymphoma	Lymph Node	IIIa	Not Determined
+diagnosis	COTC007B-0202	COTC007B-0202		2012-07-07	Lymphoma		B-Cell lymphoma; Possible marginal zone lymphoma	Lymph Node	III	Not Determined
+diagnosis	COTC007B-0902	COTC007B-0902		2012-06-29	Lymphoma		Marginal zone lymphoma. Progression at d1.6 to diffuse large B-cell lymphoma - immunoblastic	Lymph Node	III	Not Determined
+diagnosis	COTC007B-0901	COTC007B-0901		2012-01-13	Lymphoma		T-Cell lymphoblastic lymphoma transitioning to a peripheral TCL at d6	Lymph Node	IIIa	Not Determined
+diagnosis	COTC007B-0218	COTC007B-0218		2014-03-20	Lymphoma		Marginal zone lymphoma	Lymph Node	III	Not Determined
+diagnosis	COTC007B-0219	COTC007B-0219		2014-11-09	Lymphoma		Diffuse large B-cell lymphoma	Lymph Node	IIIa	Not Determined
+diagnosis	COTC007B-0414	COTC007B-0414	2014-12-26	2014-12-26	Lymphoma	High	Diffuse large B-cell lymphoma-immunoblastic	Lymph Node	IIIa	Not Determined
+diagnosis	COTC007B-0220	COTC007B-0220	2014-07-30	2014-07-30	Lymphoma		No tumor present	Lymph Node	IIIa	Not Determined
+diagnosis	COTC007B-0513	COTC007B-0513	2015-06-25	2015-06-25	Lymphoma		Diffuse large B-cell lymphoma - centroblastic	Lymph Node	IIIa	Not Determined
+diagnosis	COTC007B-0512	COTC007B-0512	2015-06-19	2015-06-19	Lymphoma		Peripheral T-cell lymphoma	Lymph Node	Va	Not Determined
+diagnosis	COTC007B-0511	COTC007B-0511	2014-10-23	2014-10-23	Lymphoma		Diffuse large B-cell lymphoma-immunoblastic	Lymph Node	Vb	Not Determined
+diagnosis	COTC007B-0412	COTC007B-0412	2014-03-31	2014-03-31	Lymphoma		Marginal zone lymphoma	Lymph Node	Va	Not Determined
+diagnosis	COTC007B-0304	COTC007B-0304		2015-06-09	Lymphoma		Diffuse large B-cell lymphoma-immunoblastic	Lymph Node	IIIa	Not Determined
+diagnosis	COTC007B-0413	COTC007B-0413	2014-06-03	2014-06-03	Lymphoma		Diffuse large B-cell lymphoma - immunoblastic	Lymph Node	IIIa	Not Determined
+diagnosis	COTC007B-0303	COTC007B-0303	2014-10-09	2014-10-09	Lymphoma		Diffuse large B-cell lymphoma - immunoblastic	Lymph Node	IIIa	Not Determined
+diagnosis	COTC007B-1001	COTC007B-1001	2014-05-07	2014-04-30	Lymphoma		Marginal zone lymphoma	Lymph Node	IV	Not Determined
+diagnosis	COTC007B-1003	COTC007B-1003	2014-05-05	2014-05-05	Lymphoma	High	Diffuse large B-cell lymphoma - immunoblastic	Lymph Node	IV	Not Determined
+diagnosis	COTC007B-0616	COTC007B-0616	2015-03-30	2015-03-19	Lymphoma		Marginal zone lymphoma	Lymph Node	IVa	Not Determined
+diagnosis	COTC007B-0305	COTC007B-0305	2015-07-06	2015-07-06	Lymphoma	High	Marginal zone lymphoma	Lymph Node	IIIa	Not Determined
+diagnosis	COTC007B-0617	COTC007B-0617	2015-06-05	2015-07-05	Lymphoma		possible SLL-B type	Lymph Node	III	Not Determined
+diagnosis	COTC007B-0101	COTC007B-0101		2013-11-19	Lymphoma		Peripheral T-cell lymphoma	Lymph Node	IIIa	Not Determined
+diagnosis	COTC007B-0415	COTC007B-0415	2015-03-18	2015-03-18	Lymphoma		Marginal zone lymphoma	Lymph Node	IIIa	Not Determined
+diagnosis	COTC007B-1608	COTC007B-1608	2014-01-27	2014-01-27	Lymphoma		Small lymphocytic lymphoma	Lymph Node	IVa	Not Determined

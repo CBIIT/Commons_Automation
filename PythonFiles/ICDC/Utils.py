@@ -136,7 +136,7 @@ index_columns = {
     'data_files': 'file_name',
     'study_files': 'file_name',
     'registration': 'registration_record_id',
-    'cohort': 'cohort_id'
+    'cohort': 'cohort_record_id' #valentinas changes
 }
 
 

@@ -1,0 +1,6 @@
+type	 case.case_record_id	enrollment_record_id	date_of_registration	registering_institution	initials	date_of_informed_consent	veterinary_medical_center	patient_subgroup
+enrollment	ORGANOIDS01-OR-A	ORGANOIDS01-OR-A		Iowa State University	R.S		Lloyd	
+enrollment	ORGANOIDS01-OR-B	ORGANOIDS01-OR-B		Iowa State University	T.R		Lloyd	
+enrollment	ORGANOIDS01-OR-E	ORGANOIDS01-OR-E		Iowa State University	Z.C		Lloyd	
+enrollment	ORGANOIDS01-B816	ORGANOIDS01-B816		Iowa State University			Lloyd	
+enrollment	ORGANOIDS01-B818	ORGANOIDS01-B818		Iowa State University			Lloyd	
