@@ -1,0 +1,5 @@
+type	study.clinical_study_designation	cohort_record_id	cohort_description	cohort_dose
+cohort	UBC01	UBC01-vemurafenib 25mg/kg	vemurafenib 25mg/kg	
+cohort	UBC01	UBC01-vemurafenib 37.5mg/kg	vemurafenib 37.5mg/kg	
+cohort	UBC01	UBC01-vemurafenib 50mg/kg	vemurafenib 50mg/kg	
+cohort	UBC01	UBC01-Healthy Controls	Healthy Controls	

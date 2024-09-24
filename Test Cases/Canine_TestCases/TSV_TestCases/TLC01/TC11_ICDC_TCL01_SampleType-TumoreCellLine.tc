@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC11_ICDC_TCL01_SampleType-TumoreCellLine</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ee36bb42-fbb3-4a60-8a3a-91838f4b66f2</testCaseGuid>
+</TestCaseEntity>

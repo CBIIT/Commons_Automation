@@ -1,0 +1,4 @@
+type	person_record_id	study.clinical_study_designation	pi_first_name	pi_middle_initial	pi_last_name
+principal_investigator	GLIOMA01-Verhaak	GLIOMA01	Roel		Verhaak
+principal_investigator	GLIOMA01-Heimberger	GLIOMA01	Amy		Heimberger
+principal_investigator	GLIOMA01-Levine	GLIOMA01	Jonathan		Levine

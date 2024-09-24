@@ -1,0 +1,85 @@
+type	case.case_record_id	demographic_record_id	breed	date_of_birth	sex	neutered_indicator	patient_age_at_enrollment	weight
+demographic	COTC007B-0505	COTC007B-0505	Rottweiler	1/31/2008	Male 	Yes	5.2	
+demographic	COTC007B-1605	COTC007B-1605	Mixed Breed	4/11/2009	Male 	Yes	4	
+demographic	COTC007B-0610	COTC007B-0610	Cavalier King Charles Spaniel	1/5/2008	Male 	Yes	5.4	
+demographic	COTC007B-0408	COTC007B-0408	Chesapeake Bay Retriever	4/1/2008	Female	Yes	5	
+demographic	COTC007B-0506	COTC007B-0506	Mixed Breed	3/1/2008	Female	Yes	5	
+demographic	COTC007B-0601	COTC007B-0601	English Setter	10/31/2004	Male 	Yes	7.8	
+demographic	COTC007B-0203	COTC007B-0203	Black and Tan Coonhound	8/8/2004	Male 	Yes	8	
+demographic	COTC007B-1601	COTC007B-1601	Bullmastiff	9/17/2006	Male 	Yes	5.9	
+demographic	COTC007B-0206	COTC007B-0206	Golden Retriever	10/7/2006	Female	Yes	5.9	
+demographic	COTC007B-0208	COTC007B-0208	German Shepherd Dog	6/1/2005	Female	Yes	7.3	
+demographic	COTC007B-0402	COTC007B-0402	Labrador Retriever	3/28/2007	Female	Yes	4.6	
+demographic	COTC007B-0604	COTC007B-0604	Rottweiler	8/5/2006	Male 	Yes	6.4	
+demographic	COTC007B-0404	COTC007B-0404	Golden Retriever	1/1/2005	Male 	Yes	8	
+demographic	COTC007B-0605	COTC007B-0605	Mixed Breed	8/2/2008	Female	Yes	4.5	
+demographic	COTC007B-0504	COTC007B-0504	Bernese Mountain Dog	11/30/2009	Male 	Yes	3.3	
+demographic	COTC007B-0213	COTC007B-0213	Belgian Malinois	2/22/2005	Male	No	8.1	
+demographic	COTC007B-1606	COTC007B-1606	Golden Retriever	4/9/2007	Female	Yes	6	
+demographic	COTC007B-0217	COTC007B-0217	Boxer	7/22/2007	Male 	Yes	6	
+demographic	COTC007B-0613	COTC007B-0613	Mixed Breed	1/10/2001	Male 	Yes	13	
+demographic	COTC007B-0614	COTC007B-0614	Golden Retriever	7/31/2002	Male 	Yes	11.5	
+demographic	COTC007B-0509	COTC007B-0509	Bernese Mountain Dog	7/11/2009	Female	No	4.1	
+demographic	COTC007B-0215	COTC007B-0215	Labrador Retriever	5/1/2003	Female	Yes	11	
+demographic	COTC007B-0216	COTC007B-0216	Mixed Breed	4/1/2009	Female	Yes	5	
+demographic	COTC007B-0609	COTC007B-0609	Bullmastiff	1/8/2009	Male 	Yes	4.3	
+demographic	COTC007B-0611	COTC007B-0611	Flat-Coated Retriever	3/30/2009	Female	Yes	4.2	
+demographic	COTC007B-0507	COTC007B-0507	Golden Retriever	2/3/2007	Female	Yes	6.2	
+demographic	COTC007B-0204	COTC007B-0204	Australian Shepherd	1/1/2002	Male 	Yes	10.6	
+demographic	COTC007B-0501	COTC007B-0501	Golden Retriever	4/1/2008	Male 	Yes	4.2	
+demographic	COTC007B-0502	COTC007B-0502	Mixed Breed	6/28/2004	Male	No	8	
+demographic	COTC007B-0201	COTC007B-0201	Samoyed	4/25/2004	Female	Yes	8	
+demographic	COTC007B-0205	COTC007B-0205	Mixed Breed	1/1/2003	Female	Yes	9.7	
+demographic	COTC007B-0503	COTC007B-0503	Beagle	1/27/2001	Female	Yes	11.5	
+demographic	COTC007B-0209	COTC007B-0209	Doberman Pinscher	12/1/2007	Male 	Yes	4.9	
+demographic	COTC007B-1602	COTC007B-1602	Basset Hound	1/10/2006	Female	No	6.7	
+demographic	COTC007B-0207	COTC007B-0207	Boxer	7/4/2002	Female	Yes	10.2	
+demographic	COTC007B-0211	COTC007B-0211	Beagle	3/1/2003	Male 	Yes	9.9	
+demographic	COTC007B-1603	COTC007B-1603	Boxer	8/5/2010	Male 	Yes	2	
+demographic	COTC007B-1604	COTC007B-1604	Mixed Breed	6/26/2007	Male 	Yes	5	
+demographic	COTC007B-0602	COTC007B-0602	Mixed Breed	10/13/2004	Male 	Yes	8	
+demographic	COTC007B-0401	COTC007B-0401	Mixed Breed	11/1/2006	Male 	Yes	5.8	
+demographic	COTC007B-0210	COTC007B-0210	Bullmastiff	1/1/2004	Male	No	8.9	
+demographic	COTC007B-0603	COTC007B-0603	Boxer	4/11/2008	Male 	Yes	4.7	
+demographic	COTC007B-0405	COTC007B-0405	Mixed Breed	1/1/2007	Male 	Yes	6.1	
+demographic	COTC007B-0407	COTC007B-0407	Doberman Pinscher	7/4/2009	Male	No	3.7	
+demographic	COTC007B-0212	COTC007B-0212	Boxer	1/1/2003	Female	Yes	10.1	
+demographic	COTC007B-0406	COTC007B-0406	Mixed Breed	1/15/2006	Female	Yes	7.2	
+demographic	COTC007B-0403	COTC007B-0403	Bernese Mountain Dog	5/17/2006	Female	Yes	1.4	
+demographic	COTC007B-0607	COTC007B-0607	Border Collie	12/5/2004	Male 	Yes	8.4	
+demographic	COTC007B-0608	COTC007B-0608	Beagle	2/1/2009	Male 	Yes	4.2	
+demographic	COTC007B-0508	COTC007B-0508	Bernese Mountain Dog	12/1/2006	Male	No	6.5	
+demographic	COTC007B-1607	COTC007B-1607	Rottweiler	10/10/2009	Female	Yes	3	
+demographic	COTC007B-0409	COTC007B-0409	American Staffordshire Terrier	3/10/2011	Male 	Yes	2.4	
+demographic	COTC007B-0612	COTC007B-0612	Mixed Breed	9/11/2010	Male 	Yes	3.2	
+demographic	COTC007B-0214	COTC007B-0214	Golden Retriever	8/1/2004	Male 	Yes	8.9	
+demographic	COTC007B-0411	COTC007B-0411	Mixed Breed	11/1/2007	Female	Yes	6	
+demographic	COTC007B-0410	COTC007B-0410	Mixed Breed	1/1/2001	Female	Yes	12.6	
+demographic	COTC007B-0510	COTC007B-0510	Beagle	9/4/2004	Male 	Yes	9.5	
+demographic	COTC007B-1609	COTC007B-1609	Vizsla	7/14/2006	Male 	Yes	7	
+demographic	COTC007B-1002	COTC007B-1002	Border Collie	7/1/2011	Male 	Yes	3	
+demographic	COTC007B-0615	COTC007B-0615	Irish Wolfhound	3/16/2008	Male	No	6.2	
+demographic	COTC007B-0301	COTC007B-0301	American Staffordshire Terrier	6/1/2008	Female	Yes	5.8	
+demographic	COTC007B-0302	COTC007B-0302	Mastiff	11/1/2009	Female	Yes	4.7	
+demographic	COTC007B-0202	COTC007B-0202	Golden Retriever	4/10/2002	Male 	Yes	10.3	
+demographic	COTC007B-0902	COTC007B-0902	Mixed Breed	9/27/2005	Male 	Yes	7	
+demographic	COTC007B-0901	COTC007B-0901	Gordon Setter	8/1/2005	Female	Yes	7	
+demographic	COTC007B-0218	COTC007B-0218	Golden Retriever	3/5/2008	Male 	Yes	6.7	
+demographic	COTC007B-0219	COTC007B-0219	Golden Retriever	1/1/2004	Male 	Yes	10	
+demographic	COTC007B-0414	COTC007B-0414	Boxer	12/30/2007	Male 	Yes	7	
+demographic	COTC007B-0220	COTC007B-0220	Mixed Breed	3/1/2003	Male 	Yes	12.2	
+demographic	COTC007B-0513	COTC007B-0513	Bernese Mountain Dog	6/21/2008	Male 	Yes	7.1	
+demographic	COTC007B-0512	COTC007B-0512	Saint Bernard	6/1/2008	Male 	Yes	7.1	
+demographic	COTC007B-0511	COTC007B-0511	Golden Retriever	7/1/2003	Male 	Yes	12	
+demographic	COTC007B-0412	COTC007B-0412	American Staffordshire Terrier	1/1/2007	Male 	Yes	7.3	
+demographic	COTC007B-0304	COTC007B-0304	Mixed Breed	9/1/2010	Male 	Yes	4.8	
+demographic	COTC007B-0413	COTC007B-0413	Golden Retriever	12/16/2003	Male 	Yes	10.5	
+demographic	COTC007B-0303	COTC007B-0303	German Shepherd Dog	4/1/2010	Female	No	4.5	
+demographic	COTC007B-1001	COTC007B-1001	Mixed Breed	6/1/2007	Female	No	7	
+demographic	COTC007B-1003	COTC007B-1003	Rottweiler	1/1/2010	Female	No	4.6	
+demographic	COTC007B-0616	COTC007B-0616	Basset Hound	8/23/2005	Male	No	9.7	
+demographic	COTC007B-0305	COTC007B-0305	Labrador Retriever	1/1/2009	Male	No	6.5	
+demographic	COTC007B-0617	COTC007B-0617	American Staffordshire Terrier	6/13/2005	Female	Yes	10	
+demographic	COTC007B-0101	COTC007B-0101	Boxer	10/1/2003	Female	Yes	10.1	
+demographic	COTC007B-0415	COTC007B-0415	Golden Retriever	1/2/2010	Female	Yes	5.2	
+demographic	COTC007B-1608	COTC007B-1608	Irish Setter	8/17/2004	Female	Yes	9	

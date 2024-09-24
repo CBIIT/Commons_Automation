@@ -1,0 +1,39 @@
+type	case.case_record_id	diagnosis_record_id	disease_term	primary_disease_site	stage_of_disease	date_of_diagnosis	best_response	treatment_data	follow_up_data	pathology_report	concurrent_disease	concurrent_disease_type
+diagnosis	UBC01-783-879-Vm01	UBC01-783-879-Vm01	Bladder Cancer	Bladder, Prostate	T3N0M0	2016-04-04	Progressive Disease	Yes	Yes	No	No	
+diagnosis	UBC01-784-125-Vm02	UBC01-784-125-Vm02	Bladder Cancer	Bladder, Urethra	T2N0M0	2016-04-18	Stable Disease	Yes	Yes	No	No	
+diagnosis	UBC01-784-877-Vm03	UBC01-784-877-Vm03	Bladder Cancer	Bladder, Prostate	T3N0M0	2015-10-01	Stable Disease	Yes	Yes	No	No	
+diagnosis	UBC01-785-211-Vm04	UBC01-785-211-Vm04	Bladder Cancer	Bladder, Urethra	T2N0M0	2016-06-20	Partial Response	Yes	Yes	No	No	
+diagnosis	UBC01-779-441-Vm05	UBC01-779-441-Vm05	Bladder Cancer	Bladder, Urethra	T2N0M0	2015-07-14	Not Determined	Yes	Yes	No	Yes	Diabetes Mellitus
+diagnosis	UBC01-786-332-Vm06	UBC01-786-332-Vm06	Bladder Cancer	Bladder, Urethra	T2N1M0	2016-08-24	Stable Disease	Yes	Yes	No	No	
+diagnosis	UBC01-787-138-Vm07	UBC01-787-138-Vm07	Bladder Cancer	Bladder, Prostate	T3N0M0	2016-10-13	Partial Response	Yes	Yes	No	No	
+diagnosis	UBC01-780-519-Vm08	UBC01-780-519-Vm08	Bladder Cancer	Bladder, Prostate	T3N0M0	2015-10-05	Partial Response	Yes	Yes	No	Yes	Hepatic Cyst
+diagnosis	UBC01-787-269-Vm09	UBC01-787-269-Vm09	Bladder Cancer	Bladder, Urethra	T2N0M0	2016-10-18	Partial Response	Yes	Yes	No	Yes	Addisons Disease
+diagnosis	UBC01-787-917-Vm10	UBC01-787-917-Vm10	Bladder Cancer	Bladder, Urethra	T2N0M0	2016-11-28	Stable Disease	Yes	Yes	No	Yes	Intervertebral Disc Disease
+diagnosis	UBC01-788-602-Vm11	UBC01-788-602-Vm11	Bladder Cancer	Bladder, Urethra	T2N0M0	2017-01-11	Partial Response	Yes	Yes	No	No	
+diagnosis	UBC01-788-785-Vm12	UBC01-788-785-Vm12	Bladder Cancer	Bladder, Urethra	T3N0M0	2017-01-23	Progressive Disease 	Yes	Yes	No	No	
+diagnosis	UBC01-781-811-Vm13	UBC01-781-811-Vm13	Bladder Cancer	Bladder, Prostate	T3N0M1	2015-11-30	Stable Disease	Yes	Yes	No	No	
+diagnosis	UBC01-789-334-Vm14	UBC01-789-334-Vm14	Bladder Cancer	Bladder, Urethra	T2N0M0	2017-02-27	Stable Disease	Yes	Yes	No	No	
+diagnosis	UBC01-742-616-Vm15	UBC01-742-616-Vm15	Bladder Cancer	Bladder	T2N0M0	2017-04-03	Stable Disease	Yes	Yes	No	Yes	Cushings Disease
+diagnosis	UBC01-789-663-Vm16	UBC01-789-663-Vm16	Bladder Cancer	Bladder	T2N0M0	2016-05-01	Stable Disease	Yes	Yes	No	Yes	Intervertebral Disc Disease
+diagnosis	UBC01-785-315-Vm17	UBC01-785-315-Vm17	Bladder Cancer	Bladder, Urethra	T2N0M0	2016-07-01	Partial Response	Yes	Yes	No	No	
+diagnosis	UBC01-775-099-Vm18	UBC01-775-099-Vm18	Bladder Cancer	Bladder, Urethra, Prostate	T3N0M0	2017-05-18	Partial Response	Yes	Yes	No	No	
+diagnosis	UBC01-790-651-Vm19	UBC01-790-651-Vm19	Bladder Cancer	Bladder	T2N0M0	2017-05-15	Partial Response	Yes	Yes	No	No	
+diagnosis	UBC01-776-675-Vm20	UBC01-776-675-Vm20	Bladder Cancer	Bladder, Urethra, Prostate	T3N0M0	2016-11-09	Partial Response	Yes	Yes	No	No	
+diagnosis	UBC01-790-957-Vm21	UBC01-790-957-Vm21	Bladder Cancer	Bladder, Urethra	T2N0M0	2016-10-11	Stable Disease	Yes	Yes	No	No	
+diagnosis	UBC01-790-955-Vm22	UBC01-790-955-Vm22	Bladder Cancer	Bladder, Urethra	T2N0M0	2017-06-01	Partial Response	Yes	Yes	No	No	
+diagnosis	UBC01-791-182-Vm23	UBC01-791-182-Vm23	Bladder Cancer	Bladder, Urethra, Prostate	T3N0M0	2017-06-12	Stable Disease	Yes	Yes	No	No	
+diagnosis	UBC01-791-476-Vm24	UBC01-791-476-Vm24	Bladder Cancer	Bladder	T2N0M0	2017-06-26	Partial Response	Yes	Yes	No	No	
+diagnosis	UBC01-792-523-Vm25	UBC01-792-523-Vm25	Bladder Cancer	Bladder, Urethra	T2N0M0	2017-08-24	Not Determined	Yes	Yes	No	No	
+diagnosis	UBC01-792-406-Vm26	UBC01-792-406-Vm26	Bladder Cancer	Bladder, Urethra	T2N0M0	2017-08-14	Stable Disease	Yes	Yes	No	No	
+diagnosis	UBC01-791-912-Vm27	UBC01-791-912-Vm27	Bladder Cancer	Bladder, Urethra	T2N0M0	2017-07-21	Stable Disease	Yes	Yes	No	No	
+diagnosis	UBC01-792-526-Vm28	UBC01-792-526-Vm28	Bladder Cancer	Bladder	T2N0M0	2017-08-23	Stable Disease	Yes	Yes	No	Yes	Periodontal Disease
+diagnosis	UBC01-793-014-Vm29	UBC01-793-014-Vm29	Bladder Cancer	Bladder	T2N0M0	2017-09-12	Stable Disease	Yes	Yes	No	No	
+diagnosis	UBC01-793-142-Vm30	UBC01-793-142-Vm30	Bladder Cancer	Bladder, Urethra	T2N0M0	2017-09-20	Stable Disease	Yes	Yes	No	No	
+diagnosis	UBC01-793-265-Vm31	UBC01-793-265-Vm31	Bladder Cancer	Bladder	T2N0M0	2017-10-03	Partial Response	Yes	Yes	No	No	
+diagnosis	UBC01-793-464-Vm32	UBC01-793-464-Vm32	Bladder Cancer	Bladder, Urethra, Prostate	T3N1M0	2017-10-15	Stable Disease	Yes	Yes	No	No	
+diagnosis	UBC01-748-065-Vm33	UBC01-748-065-Vm33	Bladder Cancer	Urethra, Prostate	T3N0M0	2017-11-07	Not Determined	Yes	Yes	No	Yes	Situational Anxiety
+diagnosis	UBC01-793-959-Vm34	UBC01-793-959-Vm34	Bladder Cancer	Bladder	T2N0M0	2017-11-22	Stable Disease	Yes	Yes	No	No	
+diagnosis	UBC01-PCBCC-CDHMCL	UBC01-PCBCC-CDHMCL	Healthy Control	Not Applicable	Not Applicable		Not Applicable	No	No	No	No	
+diagnosis	UBC01-PCBCC-CDGMDD	UBC01-PCBCC-CDGMDD	Healthy Control	Not Applicable	Not Applicable		Not Applicable	No	No	No	No	
+diagnosis	UBC01-PCBCC-CDDMAH	UBC01-PCBCC-CDDMAH	Healthy Control	Not Applicable	Not Applicable		Not Applicable	No	No	No	No	
+diagnosis	UBC01-PCBCC-CDEMBC	UBC01-PCBCC-CDEMBC	Healthy Control	Not Applicable	Not Applicable		Not Applicable	No	No	No	No	

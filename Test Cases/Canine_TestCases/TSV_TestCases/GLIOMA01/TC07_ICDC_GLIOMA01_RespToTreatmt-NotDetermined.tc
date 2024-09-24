@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC07_ICDC_GLIOMA01_RespToTreatmt-NotDetermined</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8fb28336-4277-4b6f-bc22-5e6de3ff783f</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,6 @@
+type	 case.case_record_id	diagnosis_record_id	disease_term	primary_disease_site	stage_of_disease	date_of_diagnosis	histology_cytopathology	date_of_histology_confirmation	histological_grade	best_response	pathology_report	treatment_data	follow_up_data	concurrent_disease	concurrent_disease_type
+diagnosis	ORGANOIDS01-OR-A	ORGANOIDS01-OR-A	Bladder Cancer	Bladder	T2N0M0	4/21/2021	BRAF  4/21/2021			Not Applicable		Yes		Yes	
+diagnosis	ORGANOIDS01-OR-B	ORGANOIDS01-OR-B	Bladder Cancer	Urethra	TisN1M1	2/11/2021	Urinalysis on 2/11/21: Consistent with a transitional cell carcinoma. The degree of transitional cell atypia is marked	2/11/2021		Not Applicable		Yes		Yes	
+diagnosis	ORGANOIDS01-OR-E	ORGANOIDS01-OR-E	Bladder Cancer	Bladder	T2N2M1	2/1/2022	BRAF 2/1/2022 Urinalysis on 1/20/22: cytologic findings are consistent with small amount atypical epithelial cells	1/20/2022		Not Applicable		Yes		Yes	
+diagnosis	ORGANOIDS01-B816	ORGANOIDS01-B816	Healthy Control	Not Applicable	Not Applicable					Not Applicable		Not Applicable		No	
+diagnosis	ORGANOIDS01-B818	ORGANOIDS01-B818	Healthy Control	Not Applicable	Not Applicable					Not Applicable		Not Applicable		No	

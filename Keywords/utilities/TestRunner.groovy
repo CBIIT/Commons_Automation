@@ -205,7 +205,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		excelparsingKatalon(sheetData_K, driver);
 		//System.out.println("Entire input excel data is: " + sheetData_K)
 	}
-	
+
 
 	/**
 	 * This function converts any given string value into integer
@@ -2016,7 +2016,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		//PythonReader.compareLists("CompareData", UIData, neo4jData)
 		compareTwoLists(UIData, neo4jData);
 	}
-	
+
 	/**
 	 * This function reads two lists and compares it's content
 	 * @param l1 (specified for UI) a List that will have inner list

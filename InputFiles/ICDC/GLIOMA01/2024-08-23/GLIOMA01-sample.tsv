@@ -1,0 +1,374 @@
+type	case.case_record_id	sample_id	physical_sample_type	general_sample_pathology	tumor_sample_origin	summarized_sample_type	sample_site	sample_chronology	specific_sample_pathology	tumor_grade	date_of_sample_collection	sample_preservation	necropsy_sample	percentage_tumor	comment
+sample	GLIOMA01-i_81E2	GLIOMA01-i_81E2-T6-A2-J02	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_5E9A	GLIOMA01-i_5E9A-T1-A1-J05	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_D0EE	GLIOMA01-i_D0EE-T1-A2-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Astrocytoma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_B70F	GLIOMA01-i_B70F-T1-A1-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Cerebellar	Not Applicable	Astrocytoma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_FC65	GLIOMA01-i_FC65-T6-A1-J02	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_2C4F	GLIOMA01-i_2C4F-T1-A1-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Midline	Not Applicable	Astrocytoma	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_42D9	GLIOMA01-i_42D9-T6-A1-J02	Blood	Not Applicable	Not Applicable	Whole Blood	Blood	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_E952	GLIOMA01-i_E952-T6-A1-M01	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_FECA	GLIOMA01-i_FECA-T1-A2-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Midline	Not Applicable	Oligodendroglioma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_5CE5	GLIOMA01-i_5CE5-T1-A1-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_6E45	GLIOMA01-i_6E45-T1-A1-M03	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_63FE	GLIOMA01-i_63FE-T1-A1-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_E952	GLIOMA01-i_E952-T1-A1-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	Yes	Unknown	This sample also has a duplicate sample but with FFPE tissue archival
+sample	GLIOMA01-i_3F8C	GLIOMA01-i_3F8C-T1-A1-J03	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Astrocytoma	Low		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_6B06	GLIOMA01-i_6B06-T1-A1-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_D7EC	GLIOMA01-i_D7EC-T6-A2-J01	Tissue	Normal	Not Applicable	Normal Tissue	Lung	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_2C25	GLIOMA01-i_2C25-T1-A2-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Cerebellar	Not Applicable	Astrocytoma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_C04D	GLIOMA01-i_C04D-T1-A1-M01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	Low		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_D756	GLIOMA01-i_D756-T1-A1-J05	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_6B06	GLIOMA01-i_6B06-T1-A1-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_FC65	GLIOMA01-i_FC65-T1-A2-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Midline	Not Applicable	Astrocytoma	Low		FFPE	Yes	Unknown	Renamed to FC65 - See email thread around Apr 22-24, 2020; PS: SRA_filename is unaltered.
+sample	GLIOMA01-i_E7AB	GLIOMA01-i_E7AB-T6-A2-J05	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_5CE5	GLIOMA01-i_5CE5-T1-A1-J03	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_6D02	GLIOMA01-i_6D02-T1-A2-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Midline	Not Applicable	Oligodendroglioma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_6D5C	GLIOMA01-i_6D5C-T6-A2-J01	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_3688	GLIOMA01-i_3688-T1-A1-J05	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Undefined	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_22C7	GLIOMA01-i_22C7-T1-A1-J03	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Undefined	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_750B	GLIOMA01-i_750B-T6-A1-J02	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_6454	GLIOMA01-i_6454-T6-A2-J01	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_2C4F	GLIOMA01-i_2C4F-T1-A1-M01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Midline	Not Applicable	Astrocytoma	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_5CE5	GLIOMA01-i_5CE5-T6-A1-J02	Blood	Not Applicable	Not Applicable	Whole Blood	Blood	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_03A6	GLIOMA01-i_03A6-T1-A1-M01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_B2DC	GLIOMA01-i_B2DC-T6-A2-J02	Tissue	Normal	Not Applicable	Normal Tissue	Kidney	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_DCD0	GLIOMA01-i_DCD0-T6-A2-J01	Tissue	Normal	Not Applicable	Normal Tissue	Liver	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_0FF0	GLIOMA01-i_0FF0-T1-A1-J03	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_0FF0	GLIOMA01-i_0FF0-T6-A1-J01	Blood	Not Applicable	Not Applicable	Whole Blood	Blood	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_BD58	GLIOMA01-i_BD58-T1-A1-J05	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Cerebellar	Not Applicable	Astrocytoma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_B3CE	GLIOMA01-i_B3CE-T1-A1-M01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Astrocytoma	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_AB3E	GLIOMA01-i_AB3E-T1-A2-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Midline	Not Applicable	Oligodendroglioma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_C04D	GLIOMA01-i_C04D-T1-A1-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	Low		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_157E	GLIOMA01-i_157E-T1-A1-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_03A6	GLIOMA01-i_03A6-T1-A1-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_6561	GLIOMA01-i_6561-T6-A1-J02	Blood	Not Applicable	Not Applicable	Whole Blood	Blood	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_FECA	GLIOMA01-i_FECA-T6-A2-J02	Tissue	Normal	Not Applicable	Normal Tissue	Kidney	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_B02B	GLIOMA01-i_B02B-T1-A1-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Cerebellar	Not Applicable	Astrocytoma	Low		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_E271	GLIOMA01-i_E271-T1-A1-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_1166	GLIOMA01-i_1166-T6-A1-J02	Blood	Not Applicable	Not Applicable	Whole Blood	Blood	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_42D9	GLIOMA01-i_42D9-T1-A1-J05	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Midline	Not Applicable	Oligodendroglioma	Low		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_FECA	GLIOMA01-i_FECA-T1-A2-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Midline	Not Applicable	Oligodendroglioma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_1166	GLIOMA01-i_1166-T1-A1-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Undefined	Low		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_A71E	GLIOMA01-i_A71E-T1-A1-J03	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_D756	GLIOMA01-i_D756-T1-A1-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_607E	GLIOMA01-i_607E-T1-A1-J05	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_6D02	GLIOMA01-i_6D02-T1-A2-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Midline	Not Applicable	Oligodendroglioma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_BF76	GLIOMA01-i_BF76-T1-A1-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	Low		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_D0EE	GLIOMA01-i_D0EE-T6-A2-J01	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_5CE5	GLIOMA01-i_5CE5-T1-A1-J05	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_1165	GLIOMA01-i_1165-T1-A2-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_502F	GLIOMA01-i_502F-T1-A1-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_6638	GLIOMA01-i_6638-T1-A1-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_D732	GLIOMA01-i_D732-T1-A1-M01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Cerebellar	Not Applicable	Astrocytoma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_D756	GLIOMA01-i_D756-T1-A1-J03	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_B813	GLIOMA01-i_B813-T6-A2-J01	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_0FF0	GLIOMA01-i_0FF0-T6-A1-J02	Blood	Not Applicable	Not Applicable	Whole Blood	Blood	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_D026	GLIOMA01-i_D026-T6-A1-J02	Blood	Not Applicable	Not Applicable	Whole Blood	Blood	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_1C36	GLIOMA01-i_1C36-T1-A1-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Cerebellar	Not Applicable	Astrocytoma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_B023	GLIOMA01-i_B023-T1-A1-J03	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	Low		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_2EC9	GLIOMA01-i_2EC9-T1-A1-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	Low		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_A974	GLIOMA01-i_A974-T1-A2-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Midline	Not Applicable	Astrocytoma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_92AC	GLIOMA01-i_92AC-T6-A1-J01	Tissue	Normal	Not Applicable	Normal Tissue	Muscle	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_BF76	GLIOMA01-i_BF76-T1-A1-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	Low		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_8743	GLIOMA01-i_8743-T6-A1-J01	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_8BDE	GLIOMA01-i_8BDE-T1-A1-J05	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	Low		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_6E45	GLIOMA01-i_6E45-T6-A1-M01	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_B3CE	GLIOMA01-i_B3CE-T6-A1-J02	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_E952	GLIOMA01-i_E952-T1-A2-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		FFPE	Yes	Unknown	Renamed to E952 - See email thread around Apr 22-24, 2020; PS: SRA_filename is unaltered.
+sample	GLIOMA01-i_99AF	GLIOMA01-i_99AF-T6-A2-J02	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_B023	GLIOMA01-i_B023-T1-A1-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	Low		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_1793	GLIOMA01-i_1793-T1-A2-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Astrocytoma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_ED99	GLIOMA01-i_ED99-T6-A2-J01	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_6638	GLIOMA01-i_6638-T1-A1-M03	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_6D5C	GLIOMA01-i_6D5C-T1-A2-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Astrocytoma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_4AAB	GLIOMA01-i_4AAB-T1-A1-M01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Astrocytoma	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_1165	GLIOMA01-i_1165-T6-A2-J05	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_BF76	GLIOMA01-i_BF76-T6-A1-J01	Blood	Not Applicable	Not Applicable	Whole Blood	Blood	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_B023	GLIOMA01-i_B023-T6-A1-J01	Blood	Not Applicable	Not Applicable	Whole Blood	Blood	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_66A9	GLIOMA01-i_66A9-T6-A2-J01	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_2C4F	GLIOMA01-i_2C4F-T6-A1-M01	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_B2DC	GLIOMA01-i_B2DC-T1-A2-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Astrocytoma	Low		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_4990	GLIOMA01-i_4990-T1-A2-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Midline	Not Applicable	Oligodendroglioma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_56B5	GLIOMA01-i_56B5-T1-A1-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Undefined	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_D026	GLIOMA01-i_D026-T1-A1-J03	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_E2CD	GLIOMA01-i_E2CD-T1-A2-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Astrocytoma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_607E	GLIOMA01-i_607E-T1-A1-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_F840	GLIOMA01-i_F840-T1-A1-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Astrocytoma	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_42D9	GLIOMA01-i_42D9-T1-A1-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Midline	Not Applicable	Oligodendroglioma	Low		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_B70F	GLIOMA01-i_B70F-T1-A1-M01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Cerebellar	Not Applicable	Astrocytoma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_3F8C	GLIOMA01-i_3F8C-T6-A1-J02	Tissue	Normal	Not Applicable	Normal Tissue	Muscle	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_B02B	GLIOMA01-i_B02B-T1-A1-J03	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Cerebellar	Not Applicable	Astrocytoma	Low		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_51A5	GLIOMA01-i_51A5-T1-A1-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_ED99	GLIOMA01-i_ED99-T1-A2-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Midline	Not Applicable	Oligodendroglioma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_B70F	GLIOMA01-i_B70F-T6-A1-M01	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_F5BE	GLIOMA01-i_F5BE-T1-A2-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Midline	Not Applicable	Oligodendroglioma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_A71E	GLIOMA01-i_A71E-T6-A1-J03	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_D756	GLIOMA01-i_D756-T6-A1-J01	Blood	Not Applicable	Not Applicable	Whole Blood	Blood	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_750B	GLIOMA01-i_750B-T1-A1-M01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_99AF	GLIOMA01-i_99AF-T1-A2-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_8743	GLIOMA01-i_8743-T1-A1-J05	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_42D9	GLIOMA01-i_42D9-T6-A1-J01	Blood	Not Applicable	Not Applicable	Whole Blood	Blood	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_B4F5	GLIOMA01-i_B4F5-T1-A2-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Astrocytoma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_E7AB	GLIOMA01-i_E7AB-T1-A2-J05	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Astrocytoma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_92AC	GLIOMA01-i_92AC-T6-A1-J02	Tissue	Normal	Not Applicable	Normal Tissue	Muscle	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_D026	GLIOMA01-i_D026-T1-A1-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_607E	GLIOMA01-i_607E-T1-A1-J03	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_2EC9	GLIOMA01-i_2EC9-T1-A1-J05	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	Low		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_B813	GLIOMA01-i_B813-T6-A2-J02	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_B70F	GLIOMA01-i_B70F-T1-A1-J05	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Cerebellar	Not Applicable	Astrocytoma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_6D5C	GLIOMA01-i_6D5C-T6-A2-J02	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_750B	GLIOMA01-i_750B-T1-A1-M03	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_E271	GLIOMA01-i_E271-T1-A1-J05	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_8743	GLIOMA01-i_8743-T1-A1-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_6454	GLIOMA01-i_6454-T1-A2-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Midline	Not Applicable	Astrocytoma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_6561	GLIOMA01-i_6561-T6-A1-J01	Blood	Not Applicable	Not Applicable	Whole Blood	Blood	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_C3C0	GLIOMA01-i_C3C0-T1-A1-J03	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_42D9	GLIOMA01-i_42D9-T1-A1-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Midline	Not Applicable	Oligodendroglioma	Low		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_E271	GLIOMA01-i_E271-T1-A1-J03	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_607E	GLIOMA01-i_607E-T6-A1-J02	Blood	Not Applicable	Not Applicable	Whole Blood	Blood	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_6B06	GLIOMA01-i_6B06-T1-A1-J03	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_3688	GLIOMA01-i_3688-T6-A1-J02	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_3688	GLIOMA01-i_3688-T6-A1-J01	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_8228	GLIOMA01-i_8228-T6-A2-J02	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_6561	GLIOMA01-i_6561-T1-A1-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	Low		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_4BAC	GLIOMA01-i_4BAC-T1-A2-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Midline	Not Applicable	Oligodendroglioma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_B3CE	GLIOMA01-i_B3CE-T6-A1-M01	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_1C36	GLIOMA01-i_1C36-T1-A1-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Cerebellar	Not Applicable	Astrocytoma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_92AC	GLIOMA01-i_92AC-T1-A1-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Undefined	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_49E6	GLIOMA01-i_49E6-T1-A2-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_99AF	GLIOMA01-i_99AF-T1-A2-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_FC65	GLIOMA01-i_FC65-T1-A1-M03	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Midline	Not Applicable	Astrocytoma	Low		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_56B5	GLIOMA01-i_56B5-T1-A1-M01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Undefined	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_ED99	GLIOMA01-i_ED99-T1-A2-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Midline	Not Applicable	Oligodendroglioma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_B02B	GLIOMA01-i_B02B-T6-A1-J01	Tissue	Normal	Not Applicable	Normal Tissue	Muscle	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_A71E	GLIOMA01-i_A71E-T1-A1-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_BD58	GLIOMA01-i_BD58-T1-A1-M03	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Cerebellar	Not Applicable	Astrocytoma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_2C4F	GLIOMA01-i_2C4F-T1-A1-M03	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Midline	Not Applicable	Astrocytoma	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_63FE	GLIOMA01-i_63FE-T1-A1-J05	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_C3C0	GLIOMA01-i_C3C0-T6-A1-J01	Blood	Not Applicable	Not Applicable	Whole Blood	Blood	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_F840	GLIOMA01-i_F840-T6-A1-J01	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_E952	GLIOMA01-i_E952-T6-A1-J02	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_05CA	GLIOMA01-i_05CA-T1-A2-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Midline	Not Applicable	Astrocytoma	Low		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_F840	GLIOMA01-i_F840-T6-A1-J02	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_6561	GLIOMA01-i_6561-T1-A1-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	Low		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_66A9	GLIOMA01-i_66A9-T6-A2-J02	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_157E	GLIOMA01-i_157E-T1-A1-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_B813	GLIOMA01-i_B813-T1-A2-J03	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_D026	GLIOMA01-i_D026-T6-A1-J01	Blood	Not Applicable	Not Applicable	Whole Blood	Blood	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_1166	GLIOMA01-i_1166-T1-A1-J05	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Undefined	Low		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_2C25	GLIOMA01-i_2C25-T1-A2-J05	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Cerebellar	Not Applicable	Astrocytoma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_3688	GLIOMA01-i_3688-T1-A1-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Undefined	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_607E	GLIOMA01-i_607E-T6-A1-J01	Blood	Not Applicable	Not Applicable	Whole Blood	Blood	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_B2DC	GLIOMA01-i_B2DC-T6-A2-J01	Tissue	Normal	Not Applicable	Normal Tissue	Kidney	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_64C0	GLIOMA01-i_64C0-T1-A2-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_E7AB	GLIOMA01-i_E7AB-T1-A2-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Astrocytoma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_2EC9	GLIOMA01-i_2EC9-T6-A1-J01	Blood	Not Applicable	Not Applicable	Whole Blood	Blood	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_A71E	GLIOMA01-i_A71E-T1-A1-J05	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_4AAB	GLIOMA01-i_4AAB-T6-A1-M01	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_8A0A	GLIOMA01-i_8A0A-T6-A2-J02	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_C561	GLIOMA01-i_C561-T1-A2-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_C561	GLIOMA01-i_C561-T1-A2-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_1793	GLIOMA01-i_1793-T6-A2-J02	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_BD58	GLIOMA01-i_BD58-T1-A1-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Cerebellar	Not Applicable	Astrocytoma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_E7AB	GLIOMA01-i_E7AB-T6-A2-J02	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_5E9A	GLIOMA01-i_5E9A-T1-A1-M01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_92AC	GLIOMA01-i_92AC-T1-A1-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Undefined	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_B813	GLIOMA01-i_B813-T6-A2-J03	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_157E	GLIOMA01-i_157E-T1-A1-J05	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_56B5	GLIOMA01-i_56B5-T1-A1-J05	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Undefined	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_8228	GLIOMA01-i_8228-T6-A2-J01	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_66A9	GLIOMA01-i_66A9-T1-A2-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Midline	Not Applicable	Oligodendroglioma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_92AC	GLIOMA01-i_92AC-T1-A1-J03	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Undefined	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_B023	GLIOMA01-i_B023-T6-A1-J02	Blood	Not Applicable	Not Applicable	Whole Blood	Blood	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_FC65	GLIOMA01-i_FC65-T1-A1-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Midline	Not Applicable	Astrocytoma	Low		Snap Frozen	Yes	Unknown	This sample also has a duplicate sample but with FFPE tissue archival
+sample	GLIOMA01-i_D756	GLIOMA01-i_D756-T1-A1-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_F840	GLIOMA01-i_F840-T1-A1-J05	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Astrocytoma	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_AB3E	GLIOMA01-i_AB3E-T1-A2-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Midline	Not Applicable	Oligodendroglioma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_8228	GLIOMA01-i_8228-T1-A2-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Undefined	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_2EC9	GLIOMA01-i_2EC9-T1-A1-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	Low		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_2EC9	GLIOMA01-i_2EC9-T1-A1-J03	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	Low		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_1166	GLIOMA01-i_1166-T1-A1-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Undefined	Low		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_607E	GLIOMA01-i_607E-T1-A1-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_6638	GLIOMA01-i_6638-T1-A1-M01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_2C4F	GLIOMA01-i_2C4F-T6-A1-J02	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_E271	GLIOMA01-i_E271-T1-A1-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_6E45	GLIOMA01-i_6E45-T1-A1-M01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_157E	GLIOMA01-i_157E-T6-A1-J01	Tissue	Normal	Not Applicable	Normal Tissue	Liver	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_4BAC	GLIOMA01-i_4BAC-T1-A2-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Midline	Not Applicable	Oligodendroglioma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_60DA	GLIOMA01-i_60DA-T1-A1-J05	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Astrocytoma	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_F8E7	GLIOMA01-i_F8E7-T1-A2-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	Low		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_6E45	GLIOMA01-i_6E45-T6-A1-J02	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_B2DC	GLIOMA01-i_B2DC-T1-A2-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Astrocytoma	Low		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_DCD0	GLIOMA01-i_DCD0-T6-A2-J02	Tissue	Normal	Not Applicable	Normal Tissue	Liver	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_03A6	GLIOMA01-i_03A6-T6-A1-J02	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_99AF	GLIOMA01-i_99AF-T1-A2-J05	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_22C7	GLIOMA01-i_22C7-T1-A1-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Undefined	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_1793	GLIOMA01-i_1793-T1-A1-J05	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Astrocytoma	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_4D0C	GLIOMA01-i_4D0C-T6-A1-J02	Tissue	Normal	Not Applicable	Normal Tissue	Muscle	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_B3CE	GLIOMA01-i_B3CE-T1-A1-J05	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Astrocytoma	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_8743	GLIOMA01-i_8743-T1-A1-J03	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_1165	GLIOMA01-i_1165-T1-A2-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_6E45	GLIOMA01-i_6E45-T1-A1-J05	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_B3CE	GLIOMA01-i_B3CE-T1-A1-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Astrocytoma	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_905D	GLIOMA01-i_905D-T6-A2-J01	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_BF76	GLIOMA01-i_BF76-T6-A1-J02	Blood	Not Applicable	Not Applicable	Whole Blood	Blood	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_DCD0	GLIOMA01-i_DCD0-T1-A2-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Midline	Not Applicable	Astrocytoma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_A71E	GLIOMA01-i_A71E-T6-A1-J02	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_B70F	GLIOMA01-i_B70F-T6-A1-J02	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_6638	GLIOMA01-i_6638-T6-A1-M01	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_8743	GLIOMA01-i_8743-T1-A1-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_05CA	GLIOMA01-i_05CA-T1-A2-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Midline	Not Applicable	Astrocytoma	Low		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_750B	GLIOMA01-i_750B-T1-A1-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_64C0	GLIOMA01-i_64C0-T1-A2-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_4990	GLIOMA01-i_4990-T6-A2-J01	Tissue	Normal	Not Applicable	Normal Tissue	Liver, Spleen, Heart	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_8A0A	GLIOMA01-i_8A0A-T6-A2-J01	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_66A9	GLIOMA01-i_66A9-T1-A2-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Midline	Not Applicable	Oligodendroglioma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_B4F5	GLIOMA01-i_B4F5-T6-A2-J01	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_1793	GLIOMA01-i_1793-T6-A2-J01	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_B023	GLIOMA01-i_B023-T1-A1-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	Low		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_D732	GLIOMA01-i_D732-T1-A1-M03	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Cerebellar	Not Applicable	Astrocytoma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_4AAB	GLIOMA01-i_4AAB-T1-A1-M03	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Astrocytoma	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_1165	GLIOMA01-i_1165-T1-A2-J05	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_8A0A	GLIOMA01-i_8A0A-T1-A2-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Brain	Not Applicable	Astrocytoma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_8228	GLIOMA01-i_8228-T1-A2-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Undefined	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_B02B	GLIOMA01-i_B02B-T6-A1-J02	Tissue	Normal	Not Applicable	Normal Tissue	Muscle	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_A974	GLIOMA01-i_A974-T6-A2-J01	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_B02B	GLIOMA01-i_B02B-T1-A1-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Cerebellar	Not Applicable	Astrocytoma	Low		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_750B	GLIOMA01-i_750B-T6-A1-M01	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_05CA	GLIOMA01-i_05CA-T1-A2-J05	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Midline	Not Applicable	Astrocytoma	Low		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_0FF0	GLIOMA01-i_0FF0-T1-A1-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_4990	GLIOMA01-i_4990-T1-A2-J05	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Midline	Not Applicable	Oligodendroglioma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_2C25	GLIOMA01-i_2C25-T6-A2-J02	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_6D5C	GLIOMA01-i_6D5C-T1-A2-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Astrocytoma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_FC65	GLIOMA01-i_FC65-T1-A2-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Midline	Not Applicable	Astrocytoma	Low		FFPE	Yes	Unknown	Renamed to FC65 - See email thread around Apr 22-24, 2020; PS: SRA_filename is unaltered.
+sample	GLIOMA01-i_AB3E	GLIOMA01-i_AB3E-T6-A2-J02	Tissue	Normal	Not Applicable	Normal Tissue	Kidney	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_BF76	GLIOMA01-i_BF76-T1-A1-J05	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	Low		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_8A0A	GLIOMA01-i_8A0A-T1-A2-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Brain	Not Applicable	Astrocytoma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_045E	GLIOMA01-i_045E-T1-A2-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Astrocytoma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_F8E7	GLIOMA01-i_F8E7-T6-A2-J01	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_502F	GLIOMA01-i_502F-T1-A1-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_A71E	GLIOMA01-i_A71E-T1-A1-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_4BAC	GLIOMA01-i_4BAC-T6-A2-J02	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_A974	GLIOMA01-i_A974-T1-A2-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Midline	Not Applicable	Astrocytoma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_49E6	GLIOMA01-i_49E6-T6-A2-J02	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_2C25	GLIOMA01-i_2C25-T1-A2-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Cerebellar	Not Applicable	Astrocytoma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_E2CD	GLIOMA01-i_E2CD-T1-A2-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Astrocytoma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_6561	GLIOMA01-i_6561-T1-A1-J03	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	Low		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_C3C0	GLIOMA01-i_C3C0-T1-A1-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_2C4F	GLIOMA01-i_2C4F-T1-A1-J05	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Midline	Not Applicable	Astrocytoma	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_A71E	GLIOMA01-i_A71E-T6-A1-J05	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_0FF0	GLIOMA01-i_0FF0-T1-A1-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_2EC9	GLIOMA01-i_2EC9-T6-A1-J02	Blood	Not Applicable	Not Applicable	Whole Blood	Blood	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_63FE	GLIOMA01-i_63FE-T6-A1-J01	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_4AAB	GLIOMA01-i_4AAB-T1-A1-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Astrocytoma	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_49E6	GLIOMA01-i_49E6-T1-A2-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_BD58	GLIOMA01-i_BD58-T1-A1-M01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Cerebellar	Not Applicable	Astrocytoma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_905D	GLIOMA01-i_905D-T1-A2-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Astrocytoma	Low		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_1C36	GLIOMA01-i_1C36-T1-A1-J05	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Cerebellar	Not Applicable	Astrocytoma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_6561	GLIOMA01-i_6561-T1-A1-J05	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	Low		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_6254	GLIOMA01-i_6254-T6-A2-J02	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_05CA	GLIOMA01-i_05CA-T6-A2-J01	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_D732	GLIOMA01-i_D732-T1-A1-J05	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Cerebellar	Not Applicable	Astrocytoma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_E2CD	GLIOMA01-i_E2CD-T6-A2-J01	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_4990	GLIOMA01-i_4990-T6-A2-J02	Tissue	Normal	Not Applicable	Normal Tissue	Liver, Spleen, Heart	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_B70F	GLIOMA01-i_B70F-T1-A1-M03	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Cerebellar	Not Applicable	Astrocytoma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_B02B	GLIOMA01-i_B02B-T1-A1-J05	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Cerebellar	Not Applicable	Astrocytoma	Low		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_95FC	GLIOMA01-i_95FC-T1-A2-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Midline	Not Applicable	Oligodendroglioma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_5E9A	GLIOMA01-i_5E9A-T1-A1-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_BF76	GLIOMA01-i_BF76-T1-A1-J03	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	Low		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_63FE	GLIOMA01-i_63FE-T1-A1-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_6638	GLIOMA01-i_6638-T1-A1-J05	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_81E2	GLIOMA01-i_81E2-T6-A2-J01	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_B3CE	GLIOMA01-i_B3CE-T1-A1-M03	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Astrocytoma	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_6254	GLIOMA01-i_6254-T1-A2-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Astrocytoma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_E952	GLIOMA01-i_E952-T1-A2-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		FFPE	Yes	Unknown	Renamed to E952 - See email thread around Apr 22-24, 2020; PS: SRA_filename is unaltered.
+sample	GLIOMA01-i_D7EC	GLIOMA01-i_D7EC-T6-A2-J02	Tissue	Normal	Not Applicable	Normal Tissue	Lung	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_03A6	GLIOMA01-i_03A6-T6-A1-M01	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_905D	GLIOMA01-i_905D-T1-A2-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Astrocytoma	Low		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_1166	GLIOMA01-i_1166-T1-A1-J03	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Undefined	Low		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_C3C0	GLIOMA01-i_C3C0-T1-A1-J05	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_1793	GLIOMA01-i_1793-T1-A2-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Astrocytoma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_502F	GLIOMA01-i_502F-T1-A1-J05	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_49E6	GLIOMA01-i_49E6-T6-A2-J01	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_FECA	GLIOMA01-i_FECA-T6-A2-J01	Tissue	Normal	Not Applicable	Normal Tissue	Kidney	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_F5BE	GLIOMA01-i_F5BE-T1-A2-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Midline	Not Applicable	Oligodendroglioma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_E952	GLIOMA01-i_E952-T1-A1-M03	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_157E	GLIOMA01-i_157E-T6-A1-J02	Tissue	Normal	Not Applicable	Normal Tissue	Liver	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_C561	GLIOMA01-i_C561-T6-A2-J01	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_22C7	GLIOMA01-i_22C7-T1-A1-J05	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Undefined	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_ED99	GLIOMA01-i_ED99-T6-A2-J02	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_DCD0	GLIOMA01-i_DCD0-T1-A2-J03	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Midline	Not Applicable	Astrocytoma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_51A5	GLIOMA01-i_51A5-T6-A1-J01	Tissue	Normal	Not Applicable	Normal Tissue	Liver	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_C04D	GLIOMA01-i_C04D-T6-A1-J02	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_FC65	GLIOMA01-i_FC65-T1-A1-M01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Midline	Not Applicable	Astrocytoma	Low		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_D7EC	GLIOMA01-i_D7EC-T1-A2-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Astrocytoma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_5CE5	GLIOMA01-i_5CE5-T1-A1-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_D026	GLIOMA01-i_D026-T1-A1-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_FC65	GLIOMA01-i_FC65-T6-A1-M01	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_63FE	GLIOMA01-i_63FE-T6-A1-J02	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_95FC	GLIOMA01-i_95FC-T1-A2-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Midline	Not Applicable	Oligodendroglioma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_D0EE	GLIOMA01-i_D0EE-T1-A2-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Astrocytoma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_D732	GLIOMA01-i_D732-T1-A1-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Cerebellar	Not Applicable	Astrocytoma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_E952	GLIOMA01-i_E952-T1-A1-M01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_E2CD	GLIOMA01-i_E2CD-T6-A2-J02	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_42D9	GLIOMA01-i_42D9-T1-A1-J03	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Midline	Not Applicable	Oligodendroglioma	Low		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_5E9A	GLIOMA01-i_5E9A-T1-A1-M03	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_E7AB	GLIOMA01-i_E7AB-T6-A2-J03	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_1166	GLIOMA01-i_1166-T6-A1-J01	Blood	Not Applicable	Not Applicable	Whole Blood	Blood	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_C3C0	GLIOMA01-i_C3C0-T6-A1-J02	Blood	Not Applicable	Not Applicable	Whole Blood	Blood	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_A71E	GLIOMA01-i_A71E-T6-A1-J01	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_22C7	GLIOMA01-i_22C7-T6-A1-J01	Tissue	Normal	Not Applicable	Normal Tissue	Muscle	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_C3C0	GLIOMA01-i_C3C0-T1-A1-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_A974	GLIOMA01-i_A974-T6-A2-J02	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_2C25	GLIOMA01-i_2C25-T6-A2-J01	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_81E2	GLIOMA01-i_81E2-T1-A2-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_6454	GLIOMA01-i_6454-T1-A2-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Midline	Not Applicable	Astrocytoma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_81E2	GLIOMA01-i_81E2-T1-A2-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_B813	GLIOMA01-i_B813-T1-A2-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_5CE5	GLIOMA01-i_5CE5-T6-A1-J01	Blood	Not Applicable	Not Applicable	Whole Blood	Blood	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_0DC4	GLIOMA01-i_0DC4-T1-A2-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Astrocytoma	Low		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_5E9A	GLIOMA01-i_5E9A-T6-A1-M01	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_C04D	GLIOMA01-i_C04D-T6-A1-M01	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_D756	GLIOMA01-i_D756-T6-A1-J02	Blood	Not Applicable	Not Applicable	Whole Blood	Blood	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_DCD0	GLIOMA01-i_DCD0-T1-A2-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Midline	Not Applicable	Astrocytoma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_4990	GLIOMA01-i_4990-T1-A2-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Midline	Not Applicable	Oligodendroglioma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_99AF	GLIOMA01-i_99AF-T6-A2-J01	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_E7AB	GLIOMA01-i_E7AB-T1-A2-J03	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Astrocytoma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_F840	GLIOMA01-i_F840-T1-A1-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Astrocytoma	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_E7AB	GLIOMA01-i_E7AB-T6-A2-J01	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_B4F5	GLIOMA01-i_B4F5-T1-A2-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Astrocytoma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_4D0C	GLIOMA01-i_4D0C-T1-A1-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_3F8C	GLIOMA01-i_3F8C-T1-A1-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Astrocytoma	Low		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_6254	GLIOMA01-i_6254-T1-A2-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Astrocytoma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_0FF0	GLIOMA01-i_0FF0-T1-A1-J05	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_4D0C	GLIOMA01-i_4D0C-T6-A1-J01	Tissue	Normal	Not Applicable	Normal Tissue	Muscle	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_AB3E	GLIOMA01-i_AB3E-T6-A2-J01	Tissue	Normal	Not Applicable	Normal Tissue	Kidney	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_157E	GLIOMA01-i_157E-T1-A1-J03	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_05CA	GLIOMA01-i_05CA-T6-A2-J02	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_6254	GLIOMA01-i_6254-T6-A2-J01	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_92AC	GLIOMA01-i_92AC-T1-A1-J05	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Undefined	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_D026	GLIOMA01-i_D026-T1-A1-J05	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_3F8C	GLIOMA01-i_3F8C-T1-A1-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Astrocytoma	Low		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_E7AB	GLIOMA01-i_E7AB-T1-A2-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Astrocytoma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_6638	GLIOMA01-i_6638-T6-A1-J02	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_E952	GLIOMA01-i_E952-T1-A1-J05	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_22C7	GLIOMA01-i_22C7-T1-A1-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Undefined	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_D7EC	GLIOMA01-i_D7EC-T1-A2-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Astrocytoma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_FECA	GLIOMA01-i_FECA-T1-A2-J03	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Midline	Not Applicable	Oligodendroglioma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_B023	GLIOMA01-i_B023-T1-A1-J05	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	Low		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_4BAC	GLIOMA01-i_4BAC-T6-A2-J01	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_1C36	GLIOMA01-i_1C36-T1-A1-J03	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Cerebellar	Not Applicable	Astrocytoma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_3F8C	GLIOMA01-i_3F8C-T1-A1-J05	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Astrocytoma	Low		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_6E45	GLIOMA01-i_6E45-T1-A1-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_E271	GLIOMA01-i_E271-T6-A1-J01	Blood	Not Applicable	Not Applicable	Whole Blood	Blood	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_3F8C	GLIOMA01-i_3F8C-T6-A1-J01	Tissue	Normal	Not Applicable	Normal Tissue	Muscle	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_E271	GLIOMA01-i_E271-T6-A1-J02	Blood	Not Applicable	Not Applicable	Whole Blood	Blood	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_1165	GLIOMA01-i_1165-T6-A2-J01	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_0DC4	GLIOMA01-i_0DC4-T1-A2-J01	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Astrocytoma	Low		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_B813	GLIOMA01-i_B813-T1-A2-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_6B06	GLIOMA01-i_6B06-T1-A1-J05	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	No	Unknown	
+sample	GLIOMA01-i_045E	GLIOMA01-i_045E-T1-A2-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Astrocytoma	High		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_1165	GLIOMA01-i_1165-T6-A2-J02	Tissue	Normal	Not Applicable	Normal Tissue	Brain	Not Applicable	Not Applicable	Not Applicable		FFPE	Yes	Unknown	
+sample	GLIOMA01-i_03A6	GLIOMA01-i_03A6-T1-A1-M03	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Oligodendroglioma	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_3688	GLIOMA01-i_3688-T1-A1-J02	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Hemispheric	Not Applicable	Undefined	High		Snap Frozen	Yes	Unknown	
+sample	GLIOMA01-i_22C7	GLIOMA01-i_22C7-T6-A1-J02	Tissue	Normal	Not Applicable	Normal Tissue	Muscle	Not Applicable	Not Applicable	Not Applicable		Snap Frozen	Yes	Unknown	
