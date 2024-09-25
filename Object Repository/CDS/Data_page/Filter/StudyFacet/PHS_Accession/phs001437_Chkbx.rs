@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ILLUMINA-Chkbx</name>
+   <name>phs001437_Chkbx</name>
    <tag></tag>
-   <elementGuidId>e96bd9f9-af6a-4765-ba4d-2ecedf9ba802</elementGuidId>
+   <elementGuidId>306034dd-eca0-4920-a3dc-edcd6ffcb090</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_platform_Illumina&quot;]</value>
+         <value>//*[@id=&quot;checkbox_PHS Accession_phs001437&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_platform_Illumina&quot;]</value>
-      <webElementGuid>934c18a0-ed95-4463-91fd-4d3c3f95ab76</webElementGuid>
+      <value>//*[@id=&quot;checkbox_PHS Accession_phs001437&quot;]</value>
+      <webElementGuid>74120f22-4ea5-4363-a5bf-71d7fc38cd48</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
