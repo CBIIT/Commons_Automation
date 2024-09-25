@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC12_CCDI_PHS-Accession-phs002517_Diagnosis-DiagClassSys_ICD-Samples-TumClass-NA</name>
-   <tag>Filter</tag>
-   <comment></comment>
-   <testCaseGuid>f5a181db-0eee-44fc-8c12-78d62b4e3478</testCaseGuid>
-</TestCaseEntity>

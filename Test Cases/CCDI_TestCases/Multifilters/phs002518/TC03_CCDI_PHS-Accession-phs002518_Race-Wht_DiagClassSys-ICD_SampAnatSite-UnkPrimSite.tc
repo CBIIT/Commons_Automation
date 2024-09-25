@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC03_CCDI_PHS-Accession-phs002518_Race-Wht_DiagClassSys-ICD_SampAnatSite-UnkPrimSite</name>
-   <tag>Filter</tag>
-   <comment></comment>
-   <testCaseGuid>958473a0-101d-45d9-904f-8a5e6c580aa5</testCaseGuid>
-</TestCaseEntity>

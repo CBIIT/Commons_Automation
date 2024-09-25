@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC08_CCDI_PHS-Accession-phs002599_Diag-Anatomic site-Blood_Samp_AnatomicSite-Bonemarrow</name>
-   <tag>Filter</tag>
-   <comment></comment>
-   <testCaseGuid>d18371f1-2b41-42fb-88d3-8c32d0891b2d</testCaseGuid>
-</TestCaseEntity>

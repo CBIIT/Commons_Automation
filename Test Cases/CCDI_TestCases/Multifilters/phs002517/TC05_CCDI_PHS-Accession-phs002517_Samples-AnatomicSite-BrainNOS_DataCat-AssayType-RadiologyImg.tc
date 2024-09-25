@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC05_CCDI_PHS-Accession-phs002517_Samples-AnatomicSite-BrainNOS_DataCat-AssayType-RadiologyImg</name>
-   <tag>Filter</tag>
-   <comment></comment>
-   <testCaseGuid>649c49ab-d3be-4b14-b59c-d2e0e9a7469b</testCaseGuid>
-</TestCaseEntity>

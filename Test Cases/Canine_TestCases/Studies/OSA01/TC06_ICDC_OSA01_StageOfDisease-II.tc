@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC06_ICDC_OSA01_StageOfDisease-II</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>39f0355f-b451-4611-a1a3-9ff0f6dc8653</testCaseGuid>
+</TestCaseEntity>

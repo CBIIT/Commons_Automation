@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC06_CCDI_PHS-Accession-phs003111_TumClassif-Metastatic_AssayTyp-Sequencing</name>
-   <tag>Filter</tag>
-   <comment></comment>
-   <testCaseGuid>afd47106-846c-4619-beb1-78e842e169f3</testCaseGuid>
-</TestCaseEntity>

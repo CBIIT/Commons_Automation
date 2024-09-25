@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC13_ICDC_OSA01_FileAssociation-Sample</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d8e6dd81-9c89-437b-92f8-79be99e5b49c</testCaseGuid>
+</TestCaseEntity>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC06_CCDI_PHS-Accession-phs002620_TumClassif-Meta_AssayTyp-Sequencing</name>
-   <tag>Filter</tag>
-   <comment></comment>
-   <testCaseGuid>ce5bac63-7704-4c40-baa8-20447ad76254</testCaseGuid>
-</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_ICDC_GLIOMA01_Breed-BostonTerrier</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>38a4ef73-cdc2-4208-9bfd-c6fc9c99873d</testCaseGuid>
+</TestCaseEntity>

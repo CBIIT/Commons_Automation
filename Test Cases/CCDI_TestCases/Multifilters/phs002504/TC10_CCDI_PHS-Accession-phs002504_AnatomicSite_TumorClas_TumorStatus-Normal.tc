@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC10_CCDI_PHS-Accession-phs002504_AnatomicSite_TumorClas_TumorStatus-Normal</name>
-   <tag>Filter</tag>
-   <comment></comment>
-   <testCaseGuid>a21a7cb2-78e9-4db5-8bc2-8c3b8a383af7</testCaseGuid>
-</TestCaseEntity>

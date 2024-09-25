@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC08_Canine_Study-PRECINCT01-Breed-GoldenRetriever</name>
-   <tag>Filter</tag>
-   <comment></comment>
-   <testCaseGuid>1f66fbf6-7656-4c5d-997a-96d31dbe9759</testCaseGuid>
-</TestCaseEntity>

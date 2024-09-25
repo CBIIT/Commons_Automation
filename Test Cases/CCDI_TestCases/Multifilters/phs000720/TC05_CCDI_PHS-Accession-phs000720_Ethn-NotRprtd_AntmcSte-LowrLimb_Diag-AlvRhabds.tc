@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC05_CCDI_PHS-Accession-phs000720_Ethn-NotRprtd_AntmcSte-LowrLimb_Diag-AlvRhabds</name>
-   <tag>Filter</tag>
-   <comment></comment>
-   <testCaseGuid>27df32a8-d6c9-4091-989a-7f5db12ed72c</testCaseGuid>
-</TestCaseEntity>

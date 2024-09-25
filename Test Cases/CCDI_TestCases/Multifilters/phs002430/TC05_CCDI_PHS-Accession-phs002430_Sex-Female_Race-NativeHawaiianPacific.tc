@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC05_CCDI_PHS-Accession-phs002430_Sex-Female_Race-NativeHawaiianPacific</name>
-   <tag>Filter</tag>
-   <comment></comment>
-   <testCaseGuid>b398d74e-a8ee-465d-929f-9b2bd5c85424</testCaseGuid>
-</TestCaseEntity>

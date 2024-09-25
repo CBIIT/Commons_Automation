@@ -15,14 +15,14 @@
       <guid>ea92c52d-f4e7-4cc2-956a-3d8885b14cd0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Canine_TestCases/TSV_TestCases/MGT01/TC01_ICDC_MGT01_Breed-LabradorRetriever</testCaseId>
+      <testCaseId>Test Cases/Canine_TestCases/Studies/MGT01/TC01_ICDC_MGT01_Breed-LabradorRetriever</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>59d5a676-dfaa-4b30-babe-41614adb9f56</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Canine_TestCases/TSV_TestCases/OSA03/TC01_ICDC_OSA03_Breed-Boxer</testCaseId>
+      <testCaseId>Test Cases/Canine_TestCases/Studies/OSA03/TC01_ICDC_OSA03_Breed-Boxer</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

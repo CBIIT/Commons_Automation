@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_ICDC_ORGANOIDS01_StudyType-Genomics</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>377ab3ad-cad7-4bd0-83c3-75fcae58a251</testCaseGuid>
+</TestCaseEntity>

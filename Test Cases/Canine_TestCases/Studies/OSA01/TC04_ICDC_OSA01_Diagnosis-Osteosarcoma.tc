@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_ICDC_OSA01_Diagnosis-Osteosarcoma</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1d5a3703-1ace-48b2-9462-185effea3ae0</testCaseGuid>
+</TestCaseEntity>

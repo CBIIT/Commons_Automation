@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC10_CCDI_PHS-Accession-phs000720_VitalSt-Dead_AssayType-PathImag_Instit-NIOfH</name>
-   <tag>Filter</tag>
-   <comment></comment>
-   <testCaseGuid>ac8b0f8f-3831-4b31-bd3e-1656d4a4889d</testCaseGuid>
-</TestCaseEntity>
