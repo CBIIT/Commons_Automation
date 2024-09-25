@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC11_ICDC_OSA03_SampleType-PrMaligTumTissue</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>30df7a3f-4b2a-4482-9c16-131388b421ac</testCaseGuid>
-</TestCaseEntity>

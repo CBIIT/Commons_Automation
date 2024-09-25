@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC04_CCDI_PHS-Accession-phs002620_DiagVerifStat-Final_DisPhase-InitDiag</name>
-   <tag>Filter</tag>
-   <comment></comment>
-   <testCaseGuid>cfa91de9-e43e-44a7-beda-6e1786829f55</testCaseGuid>
-</TestCaseEntity>

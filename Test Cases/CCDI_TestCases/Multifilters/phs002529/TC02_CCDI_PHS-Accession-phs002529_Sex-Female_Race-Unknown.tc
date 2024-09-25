@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC02_CCDI_PHS-Accession-phs002529_Sex-Female_Race-Unknown</name>
-   <tag>Filter</tag>
-   <comment></comment>
-   <testCaseGuid>230a1a61-4daf-4d33-88bd-2d27f0332929</testCaseGuid>
-</TestCaseEntity>

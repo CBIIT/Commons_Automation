@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC07_CCDI_PHS-Accession-phs002504_DiagClas_DiagVerf_VitalStatus-Dead</name>
-   <tag>Filter</tag>
-   <comment></comment>
-   <testCaseGuid>4948feaa-2c38-4655-8ef3-fc0b9a8416e4</testCaseGuid>
-</TestCaseEntity>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC07_CCDI_PHS-Accession-phs000720_DiagVerStat-Final_DiseasPhase-Relapse</name>
-   <tag>Filter</tag>
-   <comment></comment>
-   <testCaseGuid>8e45fb87-64f3-4156-9c4e-b173c12a4869</testCaseGuid>
-</TestCaseEntity>

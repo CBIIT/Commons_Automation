@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC02_CCDI_PHS-Accession-phs002790_Sex-Female_Race-Asian_Ethnicity-HispanicorLatino</name>
-   <tag>Filter</tag>
-   <comment></comment>
-   <testCaseGuid>08c70f6c-6ffa-4b6f-8591-aa0cfeee3a4c</testCaseGuid>
-</TestCaseEntity>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC10_CCDI_PHS-Accession-phs002518_StudyShrTitle-CCDIPedCanc_LibStrat-Amplicon</name>
-   <tag>Filter</tag>
-   <comment></comment>
-   <testCaseGuid>98d12a74-1042-42e7-9cef-1a432eba4193</testCaseGuid>
-</TestCaseEntity>

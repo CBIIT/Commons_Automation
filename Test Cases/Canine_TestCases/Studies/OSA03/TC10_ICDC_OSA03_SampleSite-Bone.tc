@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC10_ICDC_OSA03_SampleSite-Bone</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3de411e3-0a70-4613-b3a5-0e4dc7979dcf</testCaseGuid>
+</TestCaseEntity>

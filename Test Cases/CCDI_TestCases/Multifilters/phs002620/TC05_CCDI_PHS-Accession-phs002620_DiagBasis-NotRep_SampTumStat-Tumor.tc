@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC05_CCDI_PHS-Accession-phs002620_DiagBasis-NotRep_SampTumStat-Tumor</name>
-   <tag>Filter</tag>
-   <comment></comment>
-   <testCaseGuid>0b6b2f09-a328-4a8f-a8db-9021b96db257</testCaseGuid>
-</TestCaseEntity>

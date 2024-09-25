@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC22_CCDI_PHS-Accession-phs002504_LibSrc-Genomic_LibSel-Random_LibStrat-WGA</name>
-   <tag>Filter</tag>
-   <comment></comment>
-   <testCaseGuid>27d5c7aa-6a91-409e-8715-1abbd16a545c</testCaseGuid>
-</TestCaseEntity>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC12_Canine_Study-PRECINCT01-Breed-MixedBreed</name>
-   <tag>Filter</tag>
-   <comment></comment>
-   <testCaseGuid>bdc85b31-4bde-4f5c-b741-a4d01dddd436</testCaseGuid>
-</TestCaseEntity>

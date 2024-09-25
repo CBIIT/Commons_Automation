@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC07_CCDI_PHS-Accession-phs003111_AssayTyp-ClinData_FundGrant-CA016520-44S5</name>
-   <tag>Filter</tag>
-   <comment></comment>
-   <testCaseGuid>9b88953f-b319-4e14-982a-6f75c95d11b8</testCaseGuid>
-</TestCaseEntity>

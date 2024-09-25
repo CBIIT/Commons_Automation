@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC10_ICDC_GLIOMA01_SampleSite-Kidney</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2d83ff3c-5033-4e13-9524-4ccf00cc5aa7</testCaseGuid>
+</TestCaseEntity>

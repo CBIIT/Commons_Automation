@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_ICDC_OSA01_PrimDisSite-BoneAppendicular</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a8daace0-17dd-49b0-96ea-93a7a8b640fd</testCaseGuid>
+</TestCaseEntity>

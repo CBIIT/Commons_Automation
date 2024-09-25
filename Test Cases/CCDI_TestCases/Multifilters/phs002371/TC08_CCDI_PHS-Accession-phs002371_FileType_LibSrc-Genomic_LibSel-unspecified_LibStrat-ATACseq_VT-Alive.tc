@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC08_CCDI_PHS-Accession-phs002371_FileType_LibSrc-Genomic_LibSel-unspecified_LibStrat-ATACseq_VT-Alive</name>
-   <tag>Filter</tag>
-   <comment></comment>
-   <testCaseGuid>6b50f534-a383-4a28-ade0-505d2411e2b0</testCaseGuid>
-</TestCaseEntity>

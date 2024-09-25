@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC04_CCDI_PHS-Accession-phs002430_Sex-Male_Race-White</name>
-   <tag>Filter</tag>
-   <comment></comment>
-   <testCaseGuid>e8107d7b-60fa-4ea9-8872-cc990ecbc95b</testCaseGuid>
-</TestCaseEntity>
