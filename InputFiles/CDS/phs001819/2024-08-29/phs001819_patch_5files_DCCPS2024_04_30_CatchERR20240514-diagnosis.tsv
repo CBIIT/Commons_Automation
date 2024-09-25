@@ -1,0 +1,6 @@
+primary_diagnosis	type	diagnosis_id	study_diagnosis_id	participant.study_participant_id
+Multiple Myeloma	diagnosis	CGRB3790	phs001819_CGRB3790_CGRB3790	phs001819_CGRB3790
+Not Reported	diagnosis	CGRB3791	phs001819_CGRB3791_CGRB3791	phs001819_CGRB3791
+Multiple Myeloma	diagnosis	CGRB27513136	phs001819_CGRB27513136_CGRB27513136	phs001819_CGRB27513136
+Multiple Myeloma	diagnosis	CGRB1703	phs001819_CGRB1703_CGRB1703	phs001819_CGRB1703
+Multiple Myeloma	diagnosis	CGBR5613	phs001819_CGBR5613_CGBR5613	phs001819_CGBR5613

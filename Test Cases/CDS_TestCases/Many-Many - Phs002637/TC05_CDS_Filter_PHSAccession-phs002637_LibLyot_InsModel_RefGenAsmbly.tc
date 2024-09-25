@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC05_CDS_Filter_PHSAccession-phs002637_LibLyot_InsModel_RefGenAsmbly</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>b0047d0d-1f53-4cf1-9ca6-8593e5688914</testCaseGuid>
-</TestCaseEntity>

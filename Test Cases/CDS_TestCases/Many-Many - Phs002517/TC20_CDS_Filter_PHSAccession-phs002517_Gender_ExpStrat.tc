@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC20_CDS_Filter_PHSAccession-phs002517_Gender_ExpStrat</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>90f3e259-3645-46df-82d3-fff8f9022ac0</testCaseGuid>
-</TestCaseEntity>
