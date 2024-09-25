@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Statbar-Grants</name>
+   <tag></tag>
+   <elementGuidId>20235620-6353-438b-8f28-f4aafda34f34</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id='statsbar_count_3']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@id='statsbar_count_3']</value>
+      <webElementGuid>c951e987-c451-47ef-82cd-1d584d5aeb71</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

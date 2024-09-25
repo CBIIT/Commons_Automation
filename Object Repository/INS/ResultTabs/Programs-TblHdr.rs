@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Programs-TblHdr</name>
+   <tag></tag>
+   <elementGuidId>140436a0-9801-4de5-9553-8f861d1b0027</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;program_tab_table&quot;]//thead</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;program_tab_table&quot;]//thead</value>
+      <webElementGuid>9b024d07-a6d9-47bf-93e4-a15286530a23</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

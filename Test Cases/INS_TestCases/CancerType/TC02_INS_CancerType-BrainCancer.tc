@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_INS_CancerType-BrainCancer</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>69d925a2-4f32-4116-8c69-26e9d0bc0779</testCaseGuid>
+</TestCaseEntity>

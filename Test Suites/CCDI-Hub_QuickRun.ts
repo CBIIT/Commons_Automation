@@ -12,17 +12,17 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>53414dc5-3dab-4854-9180-1d96794b2d1c</testSuiteGuid>
    <testCaseLink>
-      <guid>f5143f42-9782-4dd8-a9c7-f73bebd40be7</guid>
+      <guid>bea38588-1d77-4a53-90e1-3828bdbb6121</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CCDI_TestCases/dBGap_PHS_Accession/TC01_CCDI_Filter_PHS-Accession-phs003111</testCaseId>
+      <testCaseId>Test Cases/CCDI_TestCases/TSV_TestCases/phs002430/TC01_CCDI_phs002430_Race-Asian</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d409ccee-46c8-4225-bf81-cdb58dc6fee2</guid>
+      <guid>9d04243a-fafa-475f-9905-35a635ea349e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CCDI_TestCases/Multifilters/phs003111/TC01_CCDI_PHS-Accession-phs003111_Gender-Female_Race-Asian</testCaseId>
+      <testCaseId>Test Cases/CCDI_TestCases/TSV_TestCases/phs002504/TC01_CCDI_phs002504_Sex-Male</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

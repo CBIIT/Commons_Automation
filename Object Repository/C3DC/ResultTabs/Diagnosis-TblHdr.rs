@@ -6,21 +6,22 @@
    <elementGuidId>d53380d9-68fa-40e6-87ca-f9aa77d432eb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;diagnosis_tab_table&quot;]//thead</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id=&quot;diagnosis_tab_table&quot;]/div[3]/table/thead</value>
+         <key>XPATH</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;diagnosis_tab_table&quot;]/div[3]/table/thead</value>
-      <webElementGuid>23154d45-a93a-4f16-8edf-8e6a37474d30</webElementGuid>
+      <value>//*[@id=&quot;diagnosis_tab_table&quot;]//thead</value>
+      <webElementGuid>33340916-e397-46d2-b29d-20c02ddad154</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

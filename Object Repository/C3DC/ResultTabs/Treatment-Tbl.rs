@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Treatment-Tbl</name>
+   <tag></tag>
+   <elementGuidId>7d002753-6d4a-4a54-a8fc-02aee0de6ca2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id='treatment_tab_table']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id='treatment_tab_table']</value>
+      <webElementGuid>2e60cfcb-7a75-4847-bbc8-69ef5bc23163</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

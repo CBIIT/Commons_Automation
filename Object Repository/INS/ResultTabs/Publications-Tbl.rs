@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Publications-Tbl</name>
+   <tag></tag>
+   <elementGuidId>ef5be376-c20c-4356-bf30-3b3fff5129a3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id='publication_tab_table']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id='publication_tab_table']</value>
+      <webElementGuid>00203186-440b-4be7-b21c-011dfe674ff2</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

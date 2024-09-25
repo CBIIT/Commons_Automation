@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;survival_tab_table&quot;]/div[3]/table</value>
+         <value>//*[@id='survival_tab_table']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;survival_tab_table&quot;]/div[3]/table</value>
-      <webElementGuid>4ba335ea-2368-46e6-bcc8-94d16e1b36cc</webElementGuid>
+      <value>//*[@id='survival_tab_table']</value>
+      <webElementGuid>86b51a26-9b2c-48e1-ac59-e1305abd03db</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -12,17 +12,17 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>0d23efa7-06b9-4132-88ea-c6f93af1c3b6</testSuiteGuid>
    <testCaseLink>
-      <guid>831e2c76-2eb8-4aab-a4b8-10135674f287</guid>
+      <guid>2b2b9bd6-5178-4eae-b0b3-721905081c7b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/PHS_Accession/TC12_CDS_Filter_PHSAccession-phs002790</testCaseId>
+      <testCaseId>Test Cases/CDS_TestCases/TSV_TestCases/phs002431/TC01_CDS_phs002431_Gender_Female</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d3c843b0-2cd6-40f6-a42b-4e03095aee78</guid>
+      <guid>f1d54ee5-b199-41f5-bb43-cd031167e728</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/Study/TC03_CDS_Filter_Study-Molecular Characterization (CTSMC)</testCaseId>
+      <testCaseId>Test Cases/CDS_TestCases/TSV_TestCases/phs001287/TC01_CDS_phs001287_Gender_Female</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

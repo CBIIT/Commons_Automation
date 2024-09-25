@@ -38,7 +38,7 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 
 
-//WebUI.waitForElementPresent(findTestObject('Object Repository/GMB/NavBar/GMB_Subjects-Btn'),5)
+//WebUI.waitForElementPresent(findTestObject('null'),5)
 //CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/GMB/NavBar/GMB_Subjects-Btn')
 
 

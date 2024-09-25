@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Treatment-TblHdr</name>
+   <tag></tag>
+   <elementGuidId>1a3f31e9-c3f4-4ff2-9f3e-acf2a4f49a53</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;treatment_tab_table&quot;]/div[3]/table/thead</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;treatment_tab_table&quot;]/div[3]/table/thead</value>
+      <webElementGuid>ae927d8d-cc83-4e12-ae6d-45f0ab323d79</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
