@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC03_CCDI_PHS-Accession-phs002599_Sex-Male_Diagnosis-999_VitalStatus-Dead</name>
-   <tag>Filter</tag>
-   <comment></comment>
-   <testCaseGuid>a3eca0bc-9cf3-40f5-9f4e-823a8b11253b</testCaseGuid>
-</TestCaseEntity>

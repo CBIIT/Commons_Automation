@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC01_Canine_Study-PRECINCT01-StudyType-ClinicalTrial</name>
-   <tag>Filter</tag>
-   <comment></comment>
-   <testCaseGuid>85ca1a65-3af1-44da-9631-4c185393ef41</testCaseGuid>
-</TestCaseEntity>

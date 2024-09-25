@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC04_CCDI_PHS-Accession-phs000720_Ethn-Unknown_Diag-Sarcoma</name>
-   <tag>Filter</tag>
-   <comment></comment>
-   <testCaseGuid>4836c70d-6e17-4eba-be90-5fc2329f264e</testCaseGuid>
-</TestCaseEntity>

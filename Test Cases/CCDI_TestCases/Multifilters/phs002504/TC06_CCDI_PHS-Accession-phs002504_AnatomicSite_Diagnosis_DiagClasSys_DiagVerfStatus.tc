@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC06_CCDI_PHS-Accession-phs002504_AnatomicSite_Diagnosis_DiagClasSys_DiagVerfStatus</name>
-   <tag>Filter</tag>
-   <comment></comment>
-   <testCaseGuid>a3f34c65-fd17-4488-a9a0-56f875c782ec</testCaseGuid>
-</TestCaseEntity>

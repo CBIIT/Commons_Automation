@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC14_CCDI_PHS-Accession-phs002517_Diagnosis-Diagnosis_Gliomatosis-Cerebri_Samples-TumorClass-NR</name>
-   <tag>Filter</tag>
-   <comment></comment>
-   <testCaseGuid>7faac4dd-42c3-4911-ab0a-5fcf6e57e1f6</testCaseGuid>
-</TestCaseEntity>

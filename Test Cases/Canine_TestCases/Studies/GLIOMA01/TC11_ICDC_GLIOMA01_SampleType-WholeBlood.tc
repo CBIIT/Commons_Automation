@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC11_ICDC_GLIOMA01_SampleType-WholeBlood</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b5c65c4e-83a2-442a-a5b0-badf59391aba</testCaseGuid>
+</TestCaseEntity>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC08_CCDI_PHS-Accession-phs002518_Institution-UniSoCal_LibSelec-Unspecified</name>
-   <tag>Filter</tag>
-   <comment></comment>
-   <testCaseGuid>bce4fb55-b840-40c6-9457-5838e9e1d18a</testCaseGuid>
-</TestCaseEntity>

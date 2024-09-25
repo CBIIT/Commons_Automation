@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC04_CCDI_PHS-Accession-phs002599_Race-Unknown_Samp_AnatomicSite-Blood_TumStatus-Tumor</name>
-   <tag>Filter</tag>
-   <comment></comment>
-   <testCaseGuid>953e5e6e-db3f-4865-b839-f9dcd0649421</testCaseGuid>
-</TestCaseEntity>

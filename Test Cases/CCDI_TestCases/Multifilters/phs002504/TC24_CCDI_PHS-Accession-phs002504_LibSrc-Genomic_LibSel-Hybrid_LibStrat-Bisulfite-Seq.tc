@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC24_CCDI_PHS-Accession-phs002504_LibSrc-Genomic_LibSel-Hybrid_LibStrat-Bisulfite-Seq</name>
-   <tag>Filter</tag>
-   <comment></comment>
-   <testCaseGuid>cc223ccc-f12c-49bd-b14b-1d2fa64a2d11</testCaseGuid>
-</TestCaseEntity>

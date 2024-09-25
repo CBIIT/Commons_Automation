@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC14_ICDC_GLIOMA01_FileType-RNASeqFile</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5914d2fb-180d-4b45-a45f-3dd4d9e4cec2</testCaseGuid>
+</TestCaseEntity>

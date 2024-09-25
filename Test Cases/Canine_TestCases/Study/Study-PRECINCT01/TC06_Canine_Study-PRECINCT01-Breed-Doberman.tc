@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC06_Canine_Study-PRECINCT01-Breed-Doberman</name>
-   <tag>Filter</tag>
-   <comment></comment>
-   <testCaseGuid>3e1d5bd2-f20a-4d86-9614-a60a99098f4f</testCaseGuid>
-</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC07_ICDC_TCL01_RespToTreatmt-NotApplicable</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>79af5891-2c53-4ee1-9e4a-813e9f4d350d</testCaseGuid>
+</TestCaseEntity>

@@ -15,14 +15,14 @@
       <guid>dc69acd0-a6f7-4e96-b205-c40a76dbf9b3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/C3DC_TestCases/phs002599/TC01_C3DC_phs002599_SexAtBirth-Female</testCaseId>
+      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs002599/TC01_C3DC_phs002599_SexAtBirth-Female</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>0856ec2e-f993-42e5-88ef-07acb155e6e1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/C3DC_TestCases/phs002504/TC01_C3DC_phs002504_SexAtBirth-Male</testCaseId>
+      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs002504/TC01_C3DC_phs002504_SexAtBirth-Male</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

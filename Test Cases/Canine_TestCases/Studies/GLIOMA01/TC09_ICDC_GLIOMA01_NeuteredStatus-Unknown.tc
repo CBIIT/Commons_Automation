@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC09_ICDC_GLIOMA01_NeuteredStatus-Unknown</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>85fa6893-d64e-49fe-abe3-f8a4d297eff9</testCaseGuid>
+</TestCaseEntity>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC07_CCDI_PHS-Accession-phs002430_AssayTyp-PatholgyImg_FundGrant-HL13534</name>
-   <tag>Filter</tag>
-   <comment></comment>
-   <testCaseGuid>8afa59d2-f1d4-4b81-97f5-5fc9f0373c03</testCaseGuid>
-</TestCaseEntity>

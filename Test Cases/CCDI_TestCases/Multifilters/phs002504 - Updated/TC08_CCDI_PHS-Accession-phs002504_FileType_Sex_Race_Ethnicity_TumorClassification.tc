@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC08_CCDI_PHS-Accession-phs002504_FileType_Sex_Race_Ethnicity_TumorClassification</name>
-   <tag>Filter</tag>
-   <comment></comment>
-   <testCaseGuid>a85bef50-21a6-41f2-b5b8-87a30d72148c</testCaseGuid>
-</TestCaseEntity>

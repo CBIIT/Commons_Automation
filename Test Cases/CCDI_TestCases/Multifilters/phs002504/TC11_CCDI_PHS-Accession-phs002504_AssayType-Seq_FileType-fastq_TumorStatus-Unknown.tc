@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC11_CCDI_PHS-Accession-phs002504_AssayType-Seq_FileType-fastq_TumorStatus-Unknown</name>
-   <tag>Filter</tag>
-   <comment></comment>
-   <testCaseGuid>7107844c-bea2-4a6a-b45e-e5bb89adadc0</testCaseGuid>
-</TestCaseEntity>
