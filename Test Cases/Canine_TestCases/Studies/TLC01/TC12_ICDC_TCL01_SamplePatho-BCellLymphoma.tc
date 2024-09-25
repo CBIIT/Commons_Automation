@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC12_ICDC_TCL01_SamplePatho-BCellLymphoma</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7980d05a-41e8-4b8d-83e6-d039553060d3</testCaseGuid>
+</TestCaseEntity>

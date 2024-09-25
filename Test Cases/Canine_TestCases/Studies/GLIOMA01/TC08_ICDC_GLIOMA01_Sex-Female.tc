@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC08_ICDC_GLIOMA01_Sex-Female</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>440e2196-67ac-4a09-9204-1ef6063836ea</testCaseGuid>
+</TestCaseEntity>

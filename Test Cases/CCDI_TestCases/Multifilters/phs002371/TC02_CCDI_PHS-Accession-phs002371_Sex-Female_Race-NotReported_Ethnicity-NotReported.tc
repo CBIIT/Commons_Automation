@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC02_CCDI_PHS-Accession-phs002371_Sex-Female_Race-NotReported_Ethnicity-NotReported</name>
-   <tag>Filter</tag>
-   <comment></comment>
-   <testCaseGuid>762dcc47-d885-4d05-8f52-cb945e6e6714</testCaseGuid>
-</TestCaseEntity>

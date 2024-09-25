@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC01_CCDI_PHS-Accession-phs003111_Gender-Female_Race-Asian</name>
-   <tag>Filter</tag>
-   <comment></comment>
-   <testCaseGuid>ed86d8e4-542b-4abe-9467-b2d7f281da08</testCaseGuid>
-</TestCaseEntity>

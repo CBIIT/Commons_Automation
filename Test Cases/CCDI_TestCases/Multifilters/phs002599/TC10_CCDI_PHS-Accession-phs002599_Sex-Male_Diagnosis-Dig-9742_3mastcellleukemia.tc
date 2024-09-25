@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC10_CCDI_PHS-Accession-phs002599_Sex-Male_Diagnosis-Dig-9742_3mastcellleukemia</name>
-   <tag>Filter</tag>
-   <comment></comment>
-   <testCaseGuid>ac1a4cf5-6705-4da1-8a9b-ecec73650a1f</testCaseGuid>
-</TestCaseEntity>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC06_CCDI_PHS-Accession-phs002529_TumClassif-Unknown_AssayTyp-Sequencing</name>
-   <tag>Filter</tag>
-   <comment></comment>
-   <testCaseGuid>fb253a8e-a680-433a-82b2-dcf6f92e04c7</testCaseGuid>
-</TestCaseEntity>

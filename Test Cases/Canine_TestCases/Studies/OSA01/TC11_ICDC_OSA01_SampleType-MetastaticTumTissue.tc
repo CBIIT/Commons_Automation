@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC11_ICDC_OSA01_SampleType-MetastaticTumTissue</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c3e40e40-b558-42f9-9bfd-3f377cd588b7</testCaseGuid>
+</TestCaseEntity>

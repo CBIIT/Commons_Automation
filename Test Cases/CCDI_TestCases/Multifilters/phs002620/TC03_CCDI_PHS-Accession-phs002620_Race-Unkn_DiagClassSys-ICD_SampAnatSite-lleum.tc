@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC03_CCDI_PHS-Accession-phs002620_Race-Unkn_DiagClassSys-ICD_SampAnatSite-lleum</name>
-   <tag>Filter</tag>
-   <comment></comment>
-   <testCaseGuid>4bec0aab-dcc3-4603-a279-02551a7240ee</testCaseGuid>
-</TestCaseEntity>

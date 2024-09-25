@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC08_CCDI_PHS-Accession-phs003111_Institution-MemSloanKettering_LibSelec-PolyA</name>
-   <tag>Filter</tag>
-   <comment></comment>
-   <testCaseGuid>efedb09d-10a0-4046-88d9-159cfcb710dd</testCaseGuid>
-</TestCaseEntity>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC03_CCDI_Filter_PHS-Accession-phs002518</name>
-   <tag>Filter</tag>
-   <comment></comment>
-   <testCaseGuid>798e4a55-4b84-40be-8897-98fa15975a98</testCaseGuid>
-</TestCaseEntity>

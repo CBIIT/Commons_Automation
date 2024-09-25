@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC07_ICDC_COTC022_RespToTreatmt-CompleteResponce</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1857277f-3d8b-435f-bc84-e96377005587</testCaseGuid>
+</TestCaseEntity>

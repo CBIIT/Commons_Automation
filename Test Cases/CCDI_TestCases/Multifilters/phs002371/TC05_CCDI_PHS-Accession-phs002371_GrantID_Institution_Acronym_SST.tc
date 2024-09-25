@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC05_CCDI_PHS-Accession-phs002371_GrantID_Institution_Acronym_SST</name>
-   <tag>Filter</tag>
-   <comment></comment>
-   <testCaseGuid>78e1a9c2-2dd4-433b-aaf9-5be2b09778f5</testCaseGuid>
-</TestCaseEntity>

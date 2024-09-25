@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC12_ICDC_GLIOMA01_SamplePatho-Astrocytoma</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c959c1ac-a3df-44ca-9113-d7ed13f48c23</testCaseGuid>
+</TestCaseEntity>

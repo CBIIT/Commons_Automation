@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC09_CCDI_PHS-Accession-phs002504_VT-Unknwn_Samp-Anatomic-C42.0blood_TumorStatus-Tumor_Tumorclass-Primary</name>
-   <tag>Filter</tag>
-   <comment></comment>
-   <testCaseGuid>78eb9d3b-f660-4dd0-88c7-f0670a1b64b3</testCaseGuid>
-</TestCaseEntity>
