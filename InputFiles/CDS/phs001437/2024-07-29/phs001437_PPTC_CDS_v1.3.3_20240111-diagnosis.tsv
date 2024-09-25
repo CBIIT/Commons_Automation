@@ -1,0 +1,267 @@
+primary_diagnosis	tumor_grade	type	diagnosis_id	study_diagnosis_id	participant.study_participant_id
+B lymphoblastic leukemia/lymphoma, NOS		diagnosis	P0051	phs001437_P0051_P0051	phs001437_P0051
+B lymphoblastic leukemia/lymphoma, NOS		diagnosis	P0234	phs001437_P0234_P0234	phs001437_P0234
+Osteosarcoma, NOS		diagnosis	P0211	phs001437_P0211_P0211	phs001437_P0211
+Neuroblastoma, NOS		diagnosis	Maris_P0005	phs001437_Maris_P0005_Maris_P0005	phs001437_Maris_P0005
+B lymphoblastic leukemia/lymphoma, NOS		diagnosis	P0035	phs001437_P0035_P0035	phs001437_P0035
+Hepatoblastoma		diagnosis	P0178	phs001437_P0178_P0178	phs001437_P0178
+Nephroblastoma, NOS	Low Grade	diagnosis	P0191	phs001437_P0191_P0191	phs001437_P0191
+Nephroblastoma, NOS		diagnosis	P0153	phs001437_P0153_P0153	phs001437_P0153
+B lymphoblastic leukemia/lymphoma, NOS		diagnosis	P0014	phs001437_P0014_P0014	phs001437_P0014
+Neuroblastoma, NOS	High Grade	diagnosis	P0062	phs001437_P0062_P0062	phs001437_P0062
+Medulloblastoma, NOS		diagnosis	P0124	phs001437_P0124_P0124	phs001437_P0124
+Medulloblastoma, NOS		diagnosis	P0136	phs001437_P0136_P0136	phs001437_P0136
+Medulloblastoma, NOS	High Grade	diagnosis	P0132	phs001437_P0132_P0132	phs001437_P0132
+Neuroblastoma, NOS		diagnosis	Maris_P0019	phs001437_Maris_P0019_Maris_P0019	phs001437_Maris_P0019
+B lymphoblastic leukemia/lymphoma, NOS		diagnosis	P0034	phs001437_P0034_P0034	phs001437_P0034
+Neuroblastoma, NOS	High Grade	diagnosis	P0168	phs001437_P0168_P0168	phs001437_P0168
+Atypical teratoid/rhabdoid tumor	High Grade	diagnosis	P0134	phs001437_P0134_P0134	phs001437_P0134
+Osteosarcoma, NOS		diagnosis	P0197	phs001437_P0197_P0197	phs001437_P0197
+B lymphoblastic leukemia/lymphoma with t(9;22)(q34;q11.2); BCR-ABL1		diagnosis	P0039	phs001437_P0039_P0039	phs001437_P0039
+Osteosarcoma, NOS		diagnosis	P0220	phs001437_P0220_P0220	phs001437_P0220
+B lymphoblastic leukemia/lymphoma, NOS		diagnosis	P0230	phs001437_P0230_P0230	phs001437_P0230
+B lymphoblastic leukemia/lymphoma, NOS		diagnosis	P0042	phs001437_P0042_P0042	phs001437_P0042
+Atypical teratoid/rhabdoid tumor	High Grade	diagnosis	P0186	phs001437_P0186_P0186	phs001437_P0186
+Embryonal rhabdomyosarcoma, NOS		diagnosis	P0242	phs001437_P0242_P0242	phs001437_P0242
+Neuroblastoma, NOS	High Grade	diagnosis	P0170	phs001437_P0170_P0170	phs001437_P0170
+Neuroblastoma, NOS	High Grade	diagnosis	P0066	phs001437_P0066_P0066	phs001437_P0066
+Precursor T-cell lymphoblastic leukemia		diagnosis	P0090	phs001437_P0090_P0090	phs001437_P0090
+Neuroblastoma, NOS	High Grade	diagnosis	P0082	phs001437_P0082_P0082	phs001437_P0082
+Embryonal rhabdomyosarcoma, NOS		diagnosis	P0239	phs001437_P0239_P0239	phs001437_P0239
+B lymphoblastic leukemia/lymphoma with t(v;11q23); MLL rearranged		diagnosis	P0158	phs001437_P0158_P0158	phs001437_P0158
+Neuroblastoma, NOS	High Grade	diagnosis	P0074	phs001437_P0074_P0074	phs001437_P0074
+Embryonal tumor with multilayered rosettes C19MC-altered		diagnosis	P0122	phs001437_P0122_P0122	phs001437_P0122
+Alveolar rhabdomyosarcoma	High Grade	diagnosis	P0240	phs001437_P0240_P0240	phs001437_P0240
+Ewing sarcoma		diagnosis	P0095	phs001437_P0095_P0095	phs001437_P0095
+Neuroblastoma, NOS		diagnosis	Maris_P0010	phs001437_Maris_P0010_Maris_P0010	phs001437_Maris_P0010
+Neuroblastoma, NOS		diagnosis	Maris_P0003	phs001437_Maris_P0003_Maris_P0003	phs001437_Maris_P0003
+B lymphoblastic leukemia/lymphoma, NOS		diagnosis	P0020	phs001437_P0020_P0020	phs001437_P0020
+B lymphoblastic leukemia/lymphoma, NOS		diagnosis	P0052	phs001437_P0052_P0052	phs001437_P0052
+Glioblastoma	High Grade	diagnosis	P0109	phs001437_P0109_P0109	phs001437_P0109
+Medulloblastoma, NOS		diagnosis	P0129	phs001437_P0129_P0129	phs001437_P0129
+B lymphoblastic leukemia/lymphoma, NOS		diagnosis	P0013	phs001437_P0013_P0013	phs001437_P0013
+Medulloblastoma, NOS		diagnosis	P0138	phs001437_P0138_P0138	phs001437_P0138
+Precursor T-cell lymphoblastic leukemia		diagnosis	P0018	phs001437_P0018_P0018	phs001437_P0018
+Neuroblastoma, NOS	High Grade	diagnosis	P0070	phs001437_P0070_P0070	phs001437_P0070
+B lymphoblastic leukemia/lymphoma with t(v;11q23); MLL rearranged		diagnosis	P0161	phs001437_P0161_P0161	phs001437_P0161
+Neuroblastoma, NOS	High Grade	diagnosis	P0166	phs001437_P0166_P0166	phs001437_P0166
+Osteosarcoma, NOS		diagnosis	P0218	phs001437_P0218_P0218	phs001437_P0218
+B lymphoblastic leukemia/lymphoma, NOS		diagnosis	P0009	phs001437_P0009_P0009	phs001437_P0009
+Unknown		diagnosis	Maris_P0022	phs001437_Maris_P0022_Maris_P0022	phs001437_Maris_P0022
+Nephroblastoma, NOS	Low Grade	diagnosis	P0189	phs001437_P0189_P0189	phs001437_P0189
+Osteosarcoma, NOS		diagnosis	P0215	phs001437_P0215_P0215	phs001437_P0215
+B lymphoblastic leukemia/lymphoma, NOS		diagnosis	P0004	phs001437_P0004_P0004	phs001437_P0004
+Medulloblastoma, NOS	High Grade	diagnosis	P0139	phs001437_P0139_P0139	phs001437_P0139
+Ewing sarcoma		diagnosis	P0243	phs001437_P0243_P0243	phs001437_P0243
+Precursor T-cell lymphoblastic leukemia		diagnosis	P0056	phs001437_P0056_P0056	phs001437_P0056
+Neuroblastoma, NOS	High Grade	diagnosis	P0079	phs001437_P0079_P0079	phs001437_P0079
+Precursor T-cell lymphoblastic leukemia		diagnosis	P0092	phs001437_P0092_P0092	phs001437_P0092
+Alveolar rhabdomyosarcoma	High Grade	diagnosis	P0236	phs001437_P0236_P0236	phs001437_P0236
+Osteosarcoma, NOS		diagnosis	P0201	phs001437_P0201_P0201	phs001437_P0201
+Ewing sarcoma		diagnosis	P0088	phs001437_P0088_P0088	phs001437_P0088
+B lymphoblastic leukemia/lymphoma with t(9;22)(q34;q11.2); BCR-ABL1		diagnosis	P0040	phs001437_P0040_P0040	phs001437_P0040
+Neuroblastoma, NOS		diagnosis	Maris_P0017	phs001437_Maris_P0017_Maris_P0017	phs001437_Maris_P0017
+B lymphoblastic leukemia/lymphoma, NOS		diagnosis	P0229	phs001437_P0229_P0229	phs001437_P0229
+Medulloblastoma, NOS	High Grade	diagnosis	P0121	phs001437_P0121_P0121	phs001437_P0121
+B lymphoblastic leukemia/lymphoma with t(v;11q23); MLL rearranged		diagnosis	P0163	phs001437_P0163_P0163	phs001437_P0163
+Ewing sarcoma		diagnosis	P0087	phs001437_P0087_P0087	phs001437_P0087
+Precursor T-cell lymphoblastic leukemia		diagnosis	P0023	phs001437_P0023_P0023	phs001437_P0023
+Osteosarcoma, NOS		diagnosis	P0209	phs001437_P0209_P0209	phs001437_P0209
+Osteosarcoma, NOS		diagnosis	P0212	phs001437_P0212_P0212	phs001437_P0212
+Embryonal rhabdomyosarcoma, NOS		diagnosis	P0176	phs001437_P0176_P0176	phs001437_P0176
+Unknown		diagnosis	Maris_P0023	phs001437_Maris_P0023_Maris_P0023	phs001437_Maris_P0023
+Precursor T-cell lymphoblastic leukemia		diagnosis	P0030	phs001437_P0030_P0030	phs001437_P0030
+B lymphoblastic leukemia/lymphoma, NOS		diagnosis	P0043	phs001437_P0043_P0043	phs001437_P0043
+Neuroblastoma, NOS		diagnosis	Maris_P0012	phs001437_Maris_P0012_Maris_P0012	phs001437_Maris_P0012
+B lymphoblastic leukemia/lymphoma, NOS		diagnosis	P0022	phs001437_P0022_P0022	phs001437_P0022
+Osteosarcoma, NOS		diagnosis	P0203	phs001437_P0203_P0203	phs001437_P0203
+Neuroblastoma, NOS	High Grade	diagnosis	P0181	phs001437_P0181_P0181	phs001437_P0181
+Medulloblastoma, NOS		diagnosis	P0130	phs001437_P0130_P0130	phs001437_P0130
+Atypical teratoid/rhabdoid tumor	High Grade	diagnosis	P0137	phs001437_P0137_P0137	phs001437_P0137
+Astrocytoma, NOS		diagnosis	P0183	phs001437_P0183_P0183	phs001437_P0183
+Neuroblastoma, NOS		diagnosis	Maris_P0020	phs001437_Maris_P0020_Maris_P0020	phs001437_Maris_P0020
+Neuroblastoma, NOS		diagnosis	Maris_P0004	phs001437_Maris_P0004_Maris_P0004	phs001437_Maris_P0004
+Precursor T-cell lymphoblastic leukemia		diagnosis	P0025	phs001437_P0025_P0025	phs001437_P0025
+Precursor T-cell lymphoblastic leukemia		diagnosis	P0027	phs001437_P0027_P0027	phs001437_P0027
+Precursor T-cell lymphoblastic leukemia		diagnosis	P0015	phs001437_P0015_P0015	phs001437_P0015
+Glioblastoma	High Grade	diagnosis	P0111	phs001437_P0111_P0111	phs001437_P0111
+Alveolar soft part sarcoma		diagnosis	P0057	phs001437_P0057_P0057	phs001437_P0057
+B lymphoblastic leukemia/lymphoma, NOS		diagnosis	P0006	phs001437_P0006_P0006	phs001437_P0006
+B lymphoblastic leukemia/lymphoma, NOS		diagnosis	P0017	phs001437_P0017_P0017	phs001437_P0017
+Embryonal tumor with multilayered rosettes C19MC-altered		diagnosis	P0098	phs001437_P0098_P0098	phs001437_P0098
+B lymphoblastic leukemia/lymphoma, NOS		diagnosis	P0231	phs001437_P0231_P0231	phs001437_P0231
+Neuroblastoma, NOS	High Grade	diagnosis	P0084	phs001437_P0084_P0084	phs001437_P0084
+Alveolar rhabdomyosarcoma	High Grade	diagnosis	P0238	phs001437_P0238_P0238	phs001437_P0238
+Neuroblastoma, NOS	High Grade	diagnosis	P0076	phs001437_P0076_P0076	phs001437_P0076
+Neuroblastoma, NOS		diagnosis	Maris_P0021	phs001437_Maris_P0021_Maris_P0021	phs001437_Maris_P0021
+Rhabdoid tumor, NOS		diagnosis	P0097	phs001437_P0097_P0097	phs001437_P0097
+Neuroblastoma, NOS	High Grade	diagnosis	P0067	phs001437_P0067_P0067	phs001437_P0067
+T lymphoblastic leukemia/lymphoma		diagnosis	P0005	phs001437_P0005_P0005	phs001437_P0005
+Neuroblastoma, NOS	High Grade	diagnosis	P0071	phs001437_P0071_P0071	phs001437_P0071
+Astrocytoma, NOS	Intermediate Grade	diagnosis	P0108	phs001437_P0108_P0108	phs001437_P0108
+Neuroblastoma, NOS	High Grade	diagnosis	P0072	phs001437_P0072_P0072	phs001437_P0072
+Glioblastoma		diagnosis	P0110	phs001437_P0110_P0110	phs001437_P0110
+Medulloblastoma, NOS		diagnosis	P0117	phs001437_P0117_P0117	phs001437_P0117
+Ependymoma, NOS		diagnosis	P0128	phs001437_P0128_P0128	phs001437_P0128
+Neuroblastoma, NOS	High Grade	diagnosis	P0065	phs001437_P0065_P0065	phs001437_P0065
+B lymphoblastic leukemia/lymphoma, NOS		diagnosis	P0233	phs001437_P0233_P0233	phs001437_P0233
+Osteosarcoma, NOS	High Grade	diagnosis	P0210	phs001437_P0210_P0210	phs001437_P0210
+Glioblastoma		diagnosis	P0101	phs001437_P0101_P0101	phs001437_P0101
+Ependymoma, NOS		diagnosis	P0113	phs001437_P0113_P0113	phs001437_P0113
+CPNET		diagnosis	P0103	phs001437_P0103_P0103	phs001437_P0103
+B lymphoblastic leukemia/lymphoma, NOS		diagnosis	P0232	phs001437_P0232_P0232	phs001437_P0232
+Neuroblastoma, NOS		diagnosis	Maris_P0002	phs001437_Maris_P0002_Maris_P0002	phs001437_Maris_P0002
+Alveolar rhabdomyosarcoma		diagnosis	P0241	phs001437_P0241_P0241	phs001437_P0241
+Neuroblastoma, NOS		diagnosis	Maris_P0007	phs001437_Maris_P0007_Maris_P0007	phs001437_Maris_P0007
+B lymphoblastic leukemia/lymphoma, NOS		diagnosis	P0044	phs001437_P0044_P0044	phs001437_P0044
+Medulloblastoma, NOS		diagnosis	P0119	phs001437_P0119_P0119	phs001437_P0119
+Medulloblastoma, NOS		diagnosis	P0179	phs001437_P0179_P0179	phs001437_P0179
+B lymphoblastic leukemia/lymphoma, NOS		diagnosis	P0227	phs001437_P0227_P0227	phs001437_P0227
+Glioblastoma	High Grade	diagnosis	P0104	phs001437_P0104_P0104	phs001437_P0104
+Osteosarcoma, NOS		diagnosis	P0205	phs001437_P0205_P0205	phs001437_P0205
+Precursor T-cell lymphoblastic leukemia		diagnosis	P0031	phs001437_P0031_P0031	phs001437_P0031
+Nephroblastoma, NOS		diagnosis	P0149	phs001437_P0149_P0149	phs001437_P0149
+Precursor T-cell lymphoblastic leukemia		diagnosis	P0026	phs001437_P0026_P0026	phs001437_P0026
+Atypical teratoid/rhabdoid tumor		diagnosis	P0059	phs001437_P0059_P0059	phs001437_P0059
+Osteosarcoma, NOS		diagnosis	P0195	phs001437_P0195_P0195	phs001437_P0195
+B lymphoblastic leukemia/lymphoma, NOS		diagnosis	P0055	phs001437_P0055_P0055	phs001437_P0055
+Osteosarcoma, NOS		diagnosis	P0202	phs001437_P0202_P0202	phs001437_P0202
+Precursor T-cell lymphoblastic leukemia		diagnosis	P0028	phs001437_P0028_P0028	phs001437_P0028
+Neuroblastoma, NOS	High Grade	diagnosis	P0171	phs001437_P0171_P0171	phs001437_P0171
+Neuroblastoma, NOS		diagnosis	Maris_P0013	phs001437_Maris_P0013_Maris_P0013	phs001437_Maris_P0013
+B lymphoblastic leukemia/lymphoma, NOS		diagnosis	P0047	phs001437_P0047_P0047	phs001437_P0047
+Precursor T-cell lymphoblastic leukemia		diagnosis	P0093	phs001437_P0093_P0093	phs001437_P0093
+Nephroblastoma, NOS		diagnosis	P0155	phs001437_P0155_P0155	phs001437_P0155
+Neuroblastoma, NOS	High Grade	diagnosis	P0081	phs001437_P0081_P0081	phs001437_P0081
+B lymphoblastic leukemia/lymphoma with t(v;11q23); MLL rearranged		diagnosis	P0157	phs001437_P0157_P0157	phs001437_P0157
+Precursor T-cell lymphoblastic leukemia		diagnosis	P0089	phs001437_P0089_P0089	phs001437_P0089
+B lymphoblastic leukemia/lymphoma, NOS		diagnosis	P0048	phs001437_P0048_P0048	phs001437_P0048
+Ependymoma, NOS		diagnosis	P0135	phs001437_P0135_P0135	phs001437_P0135
+Osteosarcoma, NOS		diagnosis	P0200	phs001437_P0200_P0200	phs001437_P0200
+Germinoma		diagnosis	P0112	phs001437_P0112_P0112	phs001437_P0112
+B lymphoblastic leukemia/lymphoma, NOS		diagnosis	P0038	phs001437_P0038_P0038	phs001437_P0038
+B lymphoblastic leukemia/lymphoma with t(v;11q23); MLL rearranged		diagnosis	P0160	phs001437_P0160_P0160	phs001437_P0160
+Osteosarcoma, NOS		diagnosis	P0221	phs001437_P0221_P0221	phs001437_P0221
+B lymphoblastic leukemia/lymphoma, NOS		diagnosis	P0007	phs001437_P0007_P0007	phs001437_P0007
+Alveolar soft part sarcoma		diagnosis	P0192	phs001437_P0192_P0192	phs001437_P0192
+B lymphoblastic leukemia/lymphoma with t(v;11q23); MLL rearranged		diagnosis	P0162	phs001437_P0162_P0162	phs001437_P0162
+Medulloblastoma, NOS	High Grade	diagnosis	P0131	phs001437_P0131_P0131	phs001437_P0131
+Nephroblastoma, NOS		diagnosis	P0190	phs001437_P0190_P0190	phs001437_P0190
+B lymphoblastic leukemia/lymphoma, NOS		diagnosis	P0050	phs001437_P0050_P0050	phs001437_P0050
+B lymphoblastic leukemia/lymphoma with t(v;11q23); MLL rearranged		diagnosis	P0164	phs001437_P0164_P0164	phs001437_P0164
+Rhabdoid tumor, NOS		diagnosis	P0150	phs001437_P0150_P0150	phs001437_P0150
+Precursor T-cell lymphoblastic leukemia		diagnosis	P0091	phs001437_P0091_P0091	phs001437_P0091
+B lymphoblastic leukemia/lymphoma, NOS		diagnosis	P0001	phs001437_P0001_P0001	phs001437_P0001
+Neuroblastoma, NOS		diagnosis	Maris_P0018	phs001437_Maris_P0018_Maris_P0018	phs001437_Maris_P0018
+Medulloblastoma, NOS		diagnosis	P0140	phs001437_P0140_P0140	phs001437_P0140
+Neuroblastoma, NOS	High Grade	diagnosis	P0167	phs001437_P0167_P0167	phs001437_P0167
+Nephroblastoma, NOS		diagnosis	P0151	phs001437_P0151_P0151	phs001437_P0151
+Embryonal rhabdomyosarcoma, NOS		diagnosis	P0145	phs001437_P0145_P0145	phs001437_P0145
+Osteosarcoma, NOS		diagnosis	P0182	phs001437_P0182_P0182	phs001437_P0182
+Osteosarcoma, NOS		diagnosis	P0223	phs001437_P0223_P0223	phs001437_P0223
+Embryonal rhabdomyosarcoma, NOS		diagnosis	P0237	phs001437_P0237_P0237	phs001437_P0237
+Atypical teratoid/rhabdoid tumor		diagnosis	P0120	phs001437_P0120_P0120	phs001437_P0120
+B lymphoblastic leukemia/lymphoma, NOS		diagnosis	P0225	phs001437_P0225_P0225	phs001437_P0225
+Precursor T-cell lymphoblastic leukemia		diagnosis	P0032	phs001437_P0032_P0032	phs001437_P0032
+Osteosarcoma, NOS		diagnosis	P0199	phs001437_P0199_P0199	phs001437_P0199
+Precursor T-cell lymphoblastic leukemia		diagnosis	P0046	phs001437_P0046_P0046	phs001437_P0046
+CPNET		diagnosis	P0105	phs001437_P0105_P0105	phs001437_P0105
+Osteosarcoma, NOS		diagnosis	P0214	phs001437_P0214_P0214	phs001437_P0214
+Medulloblastoma, NOS		diagnosis	P0125	phs001437_P0125_P0125	phs001437_P0125
+Osteosarcoma, NOS		diagnosis	P0224	phs001437_P0224_P0224	phs001437_P0224
+Medulloblastoma, NOS		diagnosis	P0126	phs001437_P0126_P0126	phs001437_P0126
+Neuroblastoma, NOS		diagnosis	Maris_P0015	phs001437_Maris_P0015_Maris_P0015	phs001437_Maris_P0015
+Neuroblastoma, NOS	High Grade	diagnosis	P0075	phs001437_P0075_P0075	phs001437_P0075
+Rhabdoid tumor, NOS		diagnosis	P0185	phs001437_P0185_P0185	phs001437_P0185
+Neuroblastoma, NOS	High Grade	diagnosis	P0064	phs001437_P0064_P0064	phs001437_P0064
+B lymphoblastic leukemia/lymphoma, NOS		diagnosis	P0041	phs001437_P0041_P0041	phs001437_P0041
+B lymphoblastic leukemia/lymphoma, NOS		diagnosis	P0010	phs001437_P0010_P0010	phs001437_P0010
+Glioma, malignant		diagnosis	P0099	phs001437_P0099_P0099	phs001437_P0099
+B lymphoblastic leukemia/lymphoma, NOS		diagnosis	P0019	phs001437_P0019_P0019	phs001437_P0019
+Nephroblastoma, NOS	High Grade	diagnosis	P0152	phs001437_P0152_P0152	phs001437_P0152
+Ewing sarcoma		diagnosis	P0096	phs001437_P0096_P0096	phs001437_P0096
+Ewing sarcoma		diagnosis	P0060	phs001437_P0060_P0060	phs001437_P0060
+B lymphoblastic leukemia/lymphoma, NOS		diagnosis	P0228	phs001437_P0228_P0228	phs001437_P0228
+Osteosarcoma, NOS		diagnosis	P0193	phs001437_P0193_P0193	phs001437_P0193
+Osteosarcoma, NOS		diagnosis	P0216	phs001437_P0216_P0216	phs001437_P0216
+B lymphoblastic leukemia/lymphoma, NOS		diagnosis	P0036	phs001437_P0036_P0036	phs001437_P0036
+B lymphoblastic leukemia/lymphoma, NOS		diagnosis	P0054	phs001437_P0054_P0054	phs001437_P0054
+Ependymoma, NOS		diagnosis	P0116	phs001437_P0116_P0116	phs001437_P0116
+Neuroblastoma, NOS	High Grade	diagnosis	P0078	phs001437_P0078_P0078	phs001437_P0078
+Carcinoma, NOS		diagnosis	P0174	phs001437_P0174_P0174	phs001437_P0174
+B lymphoblastic leukemia/lymphoma, NOS		diagnosis	P0037	phs001437_P0037_P0037	phs001437_P0037
+Neuroblastoma, NOS	High Grade	diagnosis	P0077	phs001437_P0077_P0077	phs001437_P0077
+Osteosarcoma, NOS		diagnosis	P0217	phs001437_P0217_P0217	phs001437_P0217
+Nephroblastoma, NOS		diagnosis	P0147	phs001437_P0147_P0147	phs001437_P0147
+Osteosarcoma, NOS		diagnosis	P0194	phs001437_P0194_P0194	phs001437_P0194
+Small cell carcinoma, NOS		diagnosis	P0173	phs001437_P0173_P0173	phs001437_P0173
+Osteosarcoma, NOS		diagnosis	P0204	phs001437_P0204_P0204	phs001437_P0204
+Neuroblastoma, NOS	High Grade	diagnosis	P0063	phs001437_P0063_P0063	phs001437_P0063
+Neuroblastoma, NOS		diagnosis	Maris_P0006	phs001437_Maris_P0006_Maris_P0006	phs001437_Maris_P0006
+B lymphoblastic leukemia/lymphoma, NOS		diagnosis	P0011	phs001437_P0011_P0011	phs001437_P0011
+Medulloblastoma, NOS		diagnosis	P0123	phs001437_P0123_P0123	phs001437_P0123
+Ependymoma, NOS		diagnosis	P0114	phs001437_P0114_P0114	phs001437_P0114
+Ewing sarcoma		diagnosis	P0086	phs001437_P0086_P0086	phs001437_P0086
+B lymphoblastic leukemia/lymphoma, NOS		diagnosis	P0012	phs001437_P0012_P0012	phs001437_P0012
+Neuroblastoma, NOS		diagnosis	Maris_P0009	phs001437_Maris_P0009_Maris_P0009	phs001437_Maris_P0009
+Ewing sarcoma		diagnosis	P0085	phs001437_P0085_P0085	phs001437_P0085
+Astrocytoma, NOS		diagnosis	P0107	phs001437_P0107_P0107	phs001437_P0107
+Clear cell sarcoma, NOS		diagnosis	P0175	phs001437_P0175_P0175	phs001437_P0175
+Nephroblastoma, NOS	Low Grade	diagnosis	P0188	phs001437_P0188_P0188	phs001437_P0188
+Osteosarcoma, NOS		diagnosis	P0222	phs001437_P0222_P0222	phs001437_P0222
+Atypical teratoid/rhabdoid tumor	High Grade	diagnosis	P0142	phs001437_P0142_P0142	phs001437_P0142
+Precursor T-cell lymphoblastic leukemia		diagnosis	P0033	phs001437_P0033_P0033	phs001437_P0033
+Glioma, malignant		diagnosis	P0100	phs001437_P0100_P0100	phs001437_P0100
+B lymphoblastic leukemia/lymphoma with t(v;11q23); MLL rearranged		diagnosis	P0156	phs001437_P0156_P0156	phs001437_P0156
+Ependymoma, NOS		diagnosis	P0102	phs001437_P0102_P0102	phs001437_P0102
+Neuroblastoma, NOS	High Grade	diagnosis	P0069	phs001437_P0069_P0069	phs001437_P0069
+Atypical teratoid/rhabdoid tumor		diagnosis	P0148	phs001437_P0148_P0148	phs001437_P0148
+Rhabdoid tumor, NOS		diagnosis	P0184	phs001437_P0184_P0184	phs001437_P0184
+Osteosarcoma, NOS		diagnosis	P0207	phs001437_P0207_P0207	phs001437_P0207
+Alveolar rhabdomyosarcoma		diagnosis	P0172	phs001437_P0172_P0172	phs001437_P0172
+B lymphoblastic leukemia/lymphoma, NOS		diagnosis	P0226	phs001437_P0226_P0226	phs001437_P0226
+Neuroblastoma, NOS		diagnosis	Maris_P0016	phs001437_Maris_P0016_Maris_P0016	phs001437_Maris_P0016
+B lymphoblastic leukemia/lymphoma, NOS		diagnosis	P0024	phs001437_P0024_P0024	phs001437_P0024
+Osteosarcoma, NOS		diagnosis	P0219	phs001437_P0219_P0219	phs001437_P0219
+Osteosarcoma, NOS		diagnosis	P0213	phs001437_P0213_P0213	phs001437_P0213
+Medulloblastoma, NOS		diagnosis	P0133	phs001437_P0133_P0133	phs001437_P0133
+B lymphoblastic leukemia/lymphoma with t(v;11q23); MLL rearranged		diagnosis	P0002	phs001437_P0002_P0002	phs001437_P0002
+Neuroblastoma, NOS	High Grade	diagnosis	P0083	phs001437_P0083_P0083	phs001437_P0083
+Neuroblastoma, NOS	High Grade	diagnosis	P0169	phs001437_P0169_P0169	phs001437_P0169
+Nephroblastoma, NOS		diagnosis	P0146	phs001437_P0146_P0146	phs001437_P0146
+Osteosarcoma, NOS		diagnosis	P0198	phs001437_P0198_P0198	phs001437_P0198
+Neuroblastoma, NOS	High Grade	diagnosis	P0073	phs001437_P0073_P0073	phs001437_P0073
+Neuroblastoma, NOS	High Grade	diagnosis	P0068	phs001437_P0068_P0068	phs001437_P0068
+Atypical teratoid/rhabdoid tumor	High Grade	diagnosis	P0115	phs001437_P0115_P0115	phs001437_P0115
+Embryonal tumor with multilayered rosettes C19MC-altered	High Grade	diagnosis	P0143	phs001437_P0143_P0143	phs001437_P0143
+Astrocytoma, NOS		diagnosis	P0180	phs001437_P0180_P0180	phs001437_P0180
+Ewing sarcoma	High Grade	diagnosis	P0244	phs001437_P0244_P0244	phs001437_P0244
+Medulloblastoma, NOS		diagnosis	P0118	phs001437_P0118_P0118	phs001437_P0118
+Neuroblastoma, NOS		diagnosis	Maris_P0001	phs001437_Maris_P0001_Maris_P0001	phs001437_Maris_P0001
+Osteosarcoma, NOS		diagnosis	P0208	phs001437_P0208_P0208	phs001437_P0208
+Neuroblastoma, NOS		diagnosis	Maris_P0011	phs001437_Maris_P0011_Maris_P0011	phs001437_Maris_P0011
+B lymphoblastic leukemia/lymphoma, NOS		diagnosis	P0053	phs001437_P0053_P0053	phs001437_P0053
+Embryonal rhabdomyosarcoma, NOS		diagnosis	P0144	phs001437_P0144_P0144	phs001437_P0144
+Neuroblastoma, NOS		diagnosis	Maris_P0008	phs001437_Maris_P0008_Maris_P0008	phs001437_Maris_P0008
+B lymphoblastic leukemia/lymphoma, NOS		diagnosis	P0235	phs001437_P0235_P0235	phs001437_P0235
+Medulloblastoma, NOS		diagnosis	P0127	phs001437_P0127_P0127	phs001437_P0127
+Neuroblastoma, NOS		diagnosis	Maris_P0014	phs001437_Maris_P0014_Maris_P0014	phs001437_Maris_P0014
+B lymphoblastic leukemia/lymphoma, NOS		diagnosis	P0045	phs001437_P0045_P0045	phs001437_P0045
+Precursor T-cell lymphoblastic leukemia		diagnosis	P0029	phs001437_P0029_P0029	phs001437_P0029
+B lymphoblastic leukemia/lymphoma, NOS		diagnosis	P0021	phs001437_P0021_P0021	phs001437_P0021
+B lymphoblastic leukemia/lymphoma, NOS		diagnosis	P0016	phs001437_P0016_P0016	phs001437_P0016
+Precursor T-cell lymphoblastic leukemia		diagnosis	P0094	phs001437_P0094_P0094	phs001437_P0094
+B lymphoblastic leukemia/lymphoma with t(v;11q23); MLL rearranged		diagnosis	P0159	phs001437_P0159_P0159	phs001437_P0159
+CPNET		diagnosis	P0058	phs001437_P0058_P0058	phs001437_P0058
+Neuroblastoma, NOS	High Grade	diagnosis	P0165	phs001437_P0165_P0165	phs001437_P0165
+Osteosarcoma, NOS		diagnosis	P0206	phs001437_P0206_P0206	phs001437_P0206
+Medulloblastoma, NOS		diagnosis	P0141	phs001437_P0141_P0141	phs001437_P0141
+Osteosarcoma, NOS		diagnosis	P0196	phs001437_P0196_P0196	phs001437_P0196
+B lymphoblastic leukemia/lymphoma, NOS		diagnosis	P0008	phs001437_P0008_P0008	phs001437_P0008
+B lymphoblastic leukemia/lymphoma with t(9;22)(q34;q11.2); BCR-ABL1		diagnosis	P0003	phs001437_P0003_P0003	phs001437_P0003
+Precursor T-cell lymphoblastic leukemia		diagnosis	P0049	phs001437_P0049_P0049	phs001437_P0049
+Neuroblastoma, NOS	High Grade	diagnosis	P0061	phs001437_P0061_P0061	phs001437_P0061
+Nephroblastoma, NOS		diagnosis	P0154	phs001437_P0154_P0154	phs001437_P0154
+Neuroblastoma, NOS	High Grade	diagnosis	P0080	phs001437_P0080_P0080	phs001437_P0080
+Nephroblastoma, NOS	Low Grade	diagnosis	P0187	phs001437_P0187_P0187	phs001437_P0187
+Ewing sarcoma		diagnosis	P0177	phs001437_P0177_P0177	phs001437_P0177
