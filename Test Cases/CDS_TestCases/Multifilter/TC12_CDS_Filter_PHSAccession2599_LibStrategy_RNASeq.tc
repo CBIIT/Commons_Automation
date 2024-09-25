@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC12_CDS_Filter_PHSAccession2599_LibStrategy_RNASeq</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>4b101b48-7d37-43d9-9474-3ee34cd14e8a</testCaseGuid>
-</TestCaseEntity>
