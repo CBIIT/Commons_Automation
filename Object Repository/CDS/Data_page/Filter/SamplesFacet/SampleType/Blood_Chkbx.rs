@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ILLUMINA-Chkbx</name>
+   <name>Blood_Chkbx</name>
    <tag></tag>
-   <elementGuidId>e96bd9f9-af6a-4765-ba4d-2ecedf9ba802</elementGuidId>
+   <elementGuidId>999cc3d9-d84a-46f4-90cf-359257a8cf73</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_platform_Illumina&quot;]</value>
+         <value>//*[@id=&quot;checkbox_sample type_Blood&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_platform_Illumina&quot;]</value>
-      <webElementGuid>934c18a0-ed95-4463-91fd-4d3c3f95ab76</webElementGuid>
+      <value>//*[@id=&quot;checkbox_sample type_Blood&quot;]</value>
+      <webElementGuid>b8f49d4c-9db1-449e-928c-1949abd23043</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
