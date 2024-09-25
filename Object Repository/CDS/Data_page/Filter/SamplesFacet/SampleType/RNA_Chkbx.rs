@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ILLUMINA-Chkbx</name>
+   <name>RNA_Chkbx</name>
    <tag></tag>
-   <elementGuidId>e96bd9f9-af6a-4765-ba4d-2ecedf9ba802</elementGuidId>
+   <elementGuidId>410fdebb-cd20-41e3-ad78-4be760cc9488</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_platform_Illumina&quot;]</value>
+         <value>//*[@id=&quot;checkbox_sample type_RNA&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_platform_Illumina&quot;]</value>
-      <webElementGuid>934c18a0-ed95-4463-91fd-4d3c3f95ab76</webElementGuid>
+      <value>//*[@id=&quot;checkbox_sample type_RNA&quot;]</value>
+      <webElementGuid>2fcf7ad6-5048-429b-8c7f-6bad6bb0b2c5</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

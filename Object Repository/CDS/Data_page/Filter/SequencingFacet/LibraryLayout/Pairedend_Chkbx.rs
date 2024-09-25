@@ -10,6 +10,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -19,7 +20,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_library layout_Paired-end&quot;]</value>
-      <webElementGuid>9a90f378-1ff7-41c9-b60e-2a61a9c7bb8b</webElementGuid>
+      <value>//*[@id=&quot;checkbox_library layout_Paired-End&quot;]</value>
+      <webElementGuid>026f5698-0b2d-4c28-9ac8-87cd871f8e34</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
