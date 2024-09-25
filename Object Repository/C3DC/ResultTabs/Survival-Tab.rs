@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//button[@index='2' and @role='tab']</value>
+         <value>//button[@index='5' and @role='tab']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//button[@index='2' and @role='tab']</value>
-      <webElementGuid>6f414d50-7001-4677-80b6-542ffddf0ff5</webElementGuid>
+      <value>//button[@index='5' and @role='tab']</value>
+      <webElementGuid>8f4cdb47-32dd-4db8-a229-b6c4b955d74a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

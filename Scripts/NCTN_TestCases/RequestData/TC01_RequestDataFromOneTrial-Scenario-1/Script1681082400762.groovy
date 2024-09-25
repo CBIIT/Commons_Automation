@@ -19,50 +19,50 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('NCTN_TestCases/Login/TC01_Login-Administrator'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('NCTN/SideBar/RequestData-Link'), 3)
-WebUI.click(findTestObject('NCTN/SideBar/RequestData-Link'))
+WebUI.waitForElementPresent(findTestObject('null'), 3)
+WebUI.click(findTestObject('null'))
 
-WebUI.waitForElementPresent(findTestObject('NCTN/RequestData/Step1/ResearchPlanTitle-TxtBx'), 3)
-WebUI.setText(findTestObject('NCTN/RequestData/Step1/ResearchPlanTitle-TxtBx'), findTestData('NCTN/RequestData').getValue(
+WebUI.waitForElementPresent(findTestObject('null'), 3)
+WebUI.setText(findTestObject('null'), findTestData('NCTN/RequestData').getValue(
         'ResearchPlanTitle', 1))
 
-WebUI.setText(findTestObject('NCTN/RequestData/Step1/ResearchPlanDescription-TxtBx'), findTestData('NCTN/RequestData').getValue(
+WebUI.setText(findTestObject('null'), findTestData('NCTN/RequestData').getValue(
         'ResearchPlanDescription', 1))
 
-WebUI.setText(findTestObject('NCTN/RequestData/Step1/NctNumPubMedID-TxtBx1'), findTestData('NCTN/RequestData').getValue(
+WebUI.setText(findTestObject('null'), findTestData('NCTN/RequestData').getValue(
         'NctNumberPubMedID', 1))
 
-WebUI.click(findTestObject('NCTN/RequestData/Step1/IwilBeTheOnlyPerson-RdBtn'))
+WebUI.click(findTestObject('null'))
 
-WebUI.setText(findTestObject('NCTN/RequestData/Step1/NameOfAor-TxtBx'), findTestData('NCTN/RequestData').getValue('NameOfAor', 
+WebUI.setText(findTestObject('null'), findTestData('NCTN/RequestData').getValue('NameOfAor', 
         1))
 
-WebUI.setText(findTestObject('NCTN/RequestData/Step1/AorTitle-TxtBx'), findTestData('NCTN/RequestData').getValue('AorTitle', 
+WebUI.setText(findTestObject('null'), findTestData('NCTN/RequestData').getValue('AorTitle', 
         1))
 
-WebUI.setText(findTestObject('NCTN/RequestData/Step1/AorEmail-TxtBx'), findTestData('NCTN/RequestData').getValue('AorEmail', 
+WebUI.setText(findTestObject('null'), findTestData('NCTN/RequestData').getValue('AorEmail', 
         1))
 
-WebUI.setText(findTestObject('NCTN/RequestData/Step1/AorEntity-TxtBx'), findTestData('NCTN/RequestData').getValue('AorEntity', 
+WebUI.setText(findTestObject('null'), findTestData('NCTN/RequestData').getValue('AorEntity', 
         1))
 
-WebUI.click(findTestObject('NCTN/RequestData/Step1/iConfirmDesigntdAsAor-ChkBx'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('NCTN/RequestData/Step1/Next-Btn'))
+WebUI.click(findTestObject('null'))
 
 
-WebUI.verifyElementText(findTestObject('NCTN/RequestData/Step2/SummaryOfReqstdData-Txt'), 'Step 2: Summary of Requested Data ')
+WebUI.verifyElementText(findTestObject('null'), 'Step 2: Summary of Requested Data ')
 
-WebUI.verifyElementText(findTestObject('NCTN/RequestData/Step2/NctNumAndTitle-Txt'), findTestData('NCTN/RequestData').getValue(
+WebUI.verifyElementText(findTestObject('null'), findTestData('NCTN/RequestData').getValue(
         'NctNumAndTitle', 1))
 
 WebUI.verifyLinksAccessible(['https://pubmed.ncbi.nlm.nih.gov/26503200/', 'https://pubmed.ncbi.nlm.nih.gov/12123/'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('NCTN/RequestData/Step2/Next-Btn'))
+WebUI.click(findTestObject('null'))
 
-WebUI.waitForElementPresent(findTestObject('NCTN/RequestData/Step3/DownloadReqSumary-Link'), 3)
+WebUI.waitForElementPresent(findTestObject('null'), 3)
 
-WebUI.click(findTestObject('NCTN/RequestData/Step3/DownloadReqSumary-Link'))
+WebUI.click(findTestObject('null'))
 
 WebUI.verifyLinksAccessible(['https://nctn-data-archive.nci.nih.gov/sites/default/files/DUA/NCTN_NCORP_Data_Archive_DUA_No_CA.pdf'
         , 'https://nctn-data-archive.nci.nih.gov/sites/default/files/DUA/NCTN_NCORP_Data_Archive_DUA_CA.pdf'], FailureHandling.STOP_ON_FAILURE)

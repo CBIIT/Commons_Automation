@@ -15,7 +15,7 @@ result_df_studies = Utils.df_run_query(studies_query)
 output_excel = os.path.join(os.path.dirname(os.path.abspath(__file__)), Utils.get_output_file_path, Utils.get_value_from_excel('TsvExcel'))
 
 # Write the result DataFrame to an Excel file
-Utils.write_to_excel(output_excel, "TsvDataFiles", result_df_studies)
+Utils.write_to_excel(output_excel, "TsvDataStudies", result_df_studies)
 
 # Print output data
 print(f'Files data successfully written to: {output_excel}')

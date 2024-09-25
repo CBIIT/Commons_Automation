@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC00_INS_QuickRun_Of_TsvFiles</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>392fe502-9924-4f19-b2de-b4abfade7276</testCaseGuid>
+</TestCaseEntity>

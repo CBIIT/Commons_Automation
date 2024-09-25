@@ -1,0 +1,2 @@
+"type"	"id"	"study_id"	"dbgap_accession"	"acl"	"study_name"	"study_acronym"	"study_description"	"consent"	"consent_number"	"external_url"
+"study"	"2cb4998b-b72e-5ff7-8aa6-0cf2a230ecce"	"phs002504"	"phs002504"	"['phs002504']"	"Genomic Characterization: Juvenile Myelo Monocytic Leukemia"	"CCDI_UCSF_phs002504"	"Integration of genomic and clinical data from unique rare hematopoietic cancer datasets to facilitate data sharing"	"GRU"	"1"	"https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002504"

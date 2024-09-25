@@ -5,7 +5,7 @@ import Utils
 
 
 # Get participants query from excel
-survival_query = Utils.get_value_from_excel('FilesTab')
+survival_query = Utils.get_value_from_excel('SurvivalTab')
 print(f'This is Survival tab query fitched from input excel:\n{survival_query}')
 
 # Executing query with dataframe and storing result

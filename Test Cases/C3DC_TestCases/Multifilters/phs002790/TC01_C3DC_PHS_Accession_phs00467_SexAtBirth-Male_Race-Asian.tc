@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC01_C3DC_PHS_Accession_phs00467_SexAtBirth-Male_Race-Asian</name>
-   <tag>Filter</tag>
-   <comment></comment>
-   <testCaseGuid>ed0338ac-4ff6-43f2-afbd-85c76d313fb8</testCaseGuid>
-</TestCaseEntity>

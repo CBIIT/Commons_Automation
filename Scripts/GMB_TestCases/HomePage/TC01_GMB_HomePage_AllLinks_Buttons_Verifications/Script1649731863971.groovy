@@ -41,23 +41,23 @@ WebUI.closeBrowser()
 CustomKeywords.'utilities.TestRunner.RunKatalon'('TC01_GMB_HomePage_AllLinks_Buttons_Verifications.xlsx')
 
 //Verify logo
-WebUI.waitForElementPresent(findTestObject('GMB/Header/GMB_logo'), 5)
-WebUI.verifyElementPresent(findTestObject('GMB/Header/GMB_logo'), 5)
+WebUI.waitForElementPresent(findTestObject('null'), 5)
+WebUI.verifyElementPresent(findTestObject('null'), 5)
 
 //Verify header text
-WebUI.waitForElementPresent(findTestObject('GMB/Header/Header_Text'), 10)
-WebUI.verifyElementText(findTestObject('GMB/Header/Header_Text'), 'Explore, Analyze, and Visualize Data for the Advancement of Prostate Cancer Research')
+WebUI.waitForElementPresent(findTestObject('null'), 10)
+WebUI.verifyElementText(findTestObject('null'), 'Explore, Analyze, and Visualize Data for the Advancement of Prostate Cancer Research')
 
 //Clicking Trials tab
-WebUI.waitForElementPresent(findTestObject('GMB/NavBar/GMB_Trails-Btn'), 5)
+WebUI.waitForElementPresent(findTestObject('null'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('GMB/NavBar/GMB_Trails-Btn')
 
 //Verify Logo next to Trials title on Trials page
-WebUI.waitForElementPresent(findTestObject('GMB/StatBar/GMB_TrialsPage-Logo'), 5)
-WebUI.verifyElementPresent(findTestObject('GMB/StatBar/GMB_TrialsPage-Logo'), 5)
+WebUI.waitForElementPresent(findTestObject('null'), 5)
+WebUI.verifyElementPresent(findTestObject('null'), 5)
 
 //Clicking subject tab
-WebUI.waitForElementPresent(findTestObject('GMB/NavBar/GMB_Subjects-Btn'), 5)
+WebUI.waitForElementPresent(findTestObject('null'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('GMB/NavBar/GMB_Subjects-Btn')
 
 //Read statbar
@@ -65,15 +65,15 @@ CustomKeywords.'utilities.TestRunner.readGMBStatBar'('Object Repository/GMB/Stat
 	'Object Repository/GMB/StatBar/GMB_StatBar-Subjects', 'Object Repository/GMB/StatBar/GMB_StatBar-Files')
 
 //Clicking Home tab
-WebUI.waitForElementPresent(findTestObject('GMB/NavBar/GMB_Home-Btn'), 5)
+WebUI.waitForElementPresent(findTestObject('null'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('GMB/NavBar/GMB_Home-Btn')
 
 //Verify Prostate Cander Natual text
-WebUI.waitForElementPresent(findTestObject('GMB/Home_page/Prostate_Cancer_Natual-Text'), 10)
-WebUI.verifyElementText(findTestObject('GMB/Home_page/Prostate_Cancer_Natual-Text'), 'PROSTATE CANCER NATUAL HISTORY STUDY- DATA PORTAL')
+WebUI.waitForElementPresent(findTestObject('null'), 10)
+WebUI.verifyElementText(findTestObject('null'), 'PROSTATE CANCER NATUAL HISTORY STUDY- DATA PORTAL')
 
 //Clicking Search subject link on home page
-WebUI.waitForElementPresent(findTestObject('GMB/Home_page/SearchSubjectLink-HomePage'), 5)
+WebUI.waitForElementPresent(findTestObject('null'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('GMB/Home_page/SearchSubjectLink-HomePage')
 
 //Read statbar
@@ -81,15 +81,15 @@ CustomKeywords.'utilities.TestRunner.readGMBStatBar'('Object Repository/GMB/Stat
 	'Object Repository/GMB/StatBar/GMB_StatBar-Subjects', 'Object Repository/GMB/StatBar/GMB_StatBar-Files')
 
 //Clicking Home tab
-WebUI.waitForElementPresent(findTestObject('GMB/NavBar/GMB_Home-Btn'), 5)
+WebUI.waitForElementPresent(findTestObject('null'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('GMB/NavBar/GMB_Home-Btn')
 
 //Verify Find and explore text
-WebUI.waitForElementPresent(findTestObject('GMB/Home_page/FindAndExplore-Text'), 10)
-WebUI.verifyElementText(findTestObject('GMB/Home_page/FindAndExplore-Text'), 'FIND AND EXPLORE PROTOCOL 48 DATA')
+WebUI.waitForElementPresent(findTestObject('null'), 10)
+WebUI.verifyElementText(findTestObject('null'), 'FIND AND EXPLORE PROTOCOL 48 DATA')
 
 //Clicking VIEW DATA button on Home Page
-WebUI.waitForElementPresent(findTestObject('GMB/Home_page/ViewData-Btn'), 5)
+WebUI.waitForElementPresent(findTestObject('null'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('GMB/Home_page/ViewData-Btn')
 
 //Read statbar
@@ -97,27 +97,27 @@ CustomKeywords.'utilities.TestRunner.readGMBStatBar'('Object Repository/GMB/Stat
 	'Object Repository/GMB/StatBar/GMB_StatBar-Subjects', 'Object Repository/GMB/StatBar/GMB_StatBar-Files')
 
 //Clicking Home tab
-WebUI.waitForElementPresent(findTestObject('GMB/NavBar/GMB_Home-Btn'), 5)
+WebUI.waitForElementPresent(findTestObject('null'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('GMB/NavBar/GMB_Home-Btn')
 
 //Add THIS SPACE OPEN step here
 
 //Clicking Trials READ MORE button on Home Page
-WebUI.waitForElementPresent(findTestObject('GMB/Home_page/TrailsREADMORE-Btn'), 5)
+WebUI.waitForElementPresent(findTestObject('null'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('GMB/Home_page/TrailsREADMORE-Btn')
 
 //Verify Logo next to Trials title on Trials page
-WebUI.waitForElementPresent(findTestObject('GMB/StatBar/GMB_TrialsPage-Logo'), 5)
-WebUI.verifyElementPresent(findTestObject('GMB/StatBar/GMB_TrialsPage-Logo'), 5)
+WebUI.waitForElementPresent(findTestObject('null'), 5)
+WebUI.verifyElementPresent(findTestObject('null'), 5)
 
 //Clicking Home tab
-WebUI.waitForElementPresent(findTestObject('GMB/NavBar/GMB_Home-Btn'), 5)
+WebUI.waitForElementPresent(findTestObject('null'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('GMB/NavBar/GMB_Home-Btn')
 
 //Add ABOUT PROSTATE CANCER NATURAL HISTORY (PCNH) step here
 
 //Clicking SUBJECTS Explore button on Home Page
-WebUI.waitForElementPresent(findTestObject('GMB/Home_page/SubjectsExplore-Btn'), 5)
+WebUI.waitForElementPresent(findTestObject('null'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('GMB/Home_page/SubjectsExplore-Btn')
 
 //Read statbar
@@ -125,7 +125,7 @@ CustomKeywords.'utilities.TestRunner.readGMBStatBar'('Object Repository/GMB/Stat
 	'Object Repository/GMB/StatBar/GMB_StatBar-Subjects', 'Object Repository/GMB/StatBar/GMB_StatBar-Files')
 
 //Clicking Home tab
-WebUI.waitForElementPresent(findTestObject('GMB/NavBar/GMB_Home-Btn'), 5)
+WebUI.waitForElementPresent(findTestObject('null'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('GMB/NavBar/GMB_Home-Btn')
 
 

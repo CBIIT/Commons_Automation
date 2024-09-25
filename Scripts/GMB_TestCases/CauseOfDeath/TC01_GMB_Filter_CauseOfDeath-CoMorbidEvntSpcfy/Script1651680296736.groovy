@@ -40,7 +40,7 @@ WebUI.closeBrowser()
 
 CustomKeywords.'utilities.TestRunner.RunKatalon'('TC01_GMB_Filter_CauseOfDeath-CoMorbidEvntSpcfy.xlsx')
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/GMB/NavBar/GMB_Subjects-Btn'),5)
+WebUI.waitForElementPresent(findTestObject('null'),5)
 CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/GMB/NavBar/GMB_Subjects-Btn')
 
 
@@ -52,11 +52,11 @@ CustomKeywords.'utilities.TestRunner.Login'('Object Repository/Bento/Login/Login
 Thread.sleep(2000)
 
 //Clicking CauseOfDeath drop-down
-WebUI.waitForElementPresent(findTestObject('GMB/Filter/CauseOfDeath/CauseOfDeath_Ddn'),5)
+WebUI.waitForElementPresent(findTestObject('null'),5)
 CustomKeywords.'utilities.TestRunner.clickTabGMBStat'('GMB/Filter/CauseOfDeath/CauseOfDeath_Ddn')
 
 //Clicking "CoMorbid Event, Specify" checkbox
-WebUI.waitForElementPresent(findTestObject('GMB/Filter/CauseOfDeath/CoMorbidEvntSpcfy_Chkbx'),5)
+WebUI.waitForElementPresent(findTestObject('null'),5)
 CustomKeywords.'utilities.TestRunner.clickTabGMBStat'('GMB/Filter/CauseOfDeath/CoMorbidEvntSpcfy_Chkbx')
 
 
@@ -66,14 +66,14 @@ CustomKeywords.'utilities.TestRunner.readGMBStatBar'('Object Repository/GMB/Stat
 
 
 //clicking the Subjects tab
-WebUI.waitForElementPresent(findTestObject('Object Repository/GMB/GMBResults_Subjects_Tab'), 5)
+WebUI.waitForElementPresent(findTestObject('null'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/GMB/GMBResults_Subjects_Tab')
 CustomKeywords.'utilities.TestRunner.multiFunction'('GMB', GlobalVariable.G_GStatBar_Subjects, 'Object Repository/GMB/GMB_Subjects_Table',
 	'Object Repository/GMB/GMB_Subjects_TableHdr', 'Object Repository/GMB/GMB_Subjects_TabNextBtn', GlobalVariable.G_GWebTabnameSubjects,
 	GlobalVariable.G_GCypherTabnameSubjects, GlobalVariable.G_GQuerySubjectsTab)
 
 //clicking the case Files tab
-WebUI.waitForElementPresent(findTestObject('Object Repository/GMB/GMBResults_Files_Tab'), 5)
+WebUI.waitForElementPresent(findTestObject('null'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/GMB/GMBResults_Files_Tab')
 CustomKeywords.'utilities.TestRunner.multiFunction'('GMB', GlobalVariable.G_StatBar_ClinTrials, 'Object Repository/GMB/GMB_Files_Table',
 	'Object Repository/GMB/GMB_Files_TableHdr', 'Object Repository/GMB/GMB_FilesTabNextBtn', GlobalVariable.G_WebTabnameFiles,
