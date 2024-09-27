@@ -33,6 +33,8 @@ public class PythonReader {
 			nodePath = Paths.get(usrDir, "InputFiles", "CCDI")
 		}else if(appKey.equals("C3DC")) {
 			nodePath = Paths.get(usrDir, "InputFiles", "C3DC")
+		}else if(appKey.equals("INS")) {
+			nodePath = Paths.get(usrDir, "InputFiles", "INS")
 		}else {
 			KeywordUtil.markFailed("Invalid Node Path: Check getNodeFilesPath function")
 		}
@@ -53,6 +55,8 @@ public class PythonReader {
 			pyPath = Paths.get(usrDir, "PythonFiles", "CCDI", pyFileName)
 		}else if(appKey.equals("C3DC")) {
 			pyPath = Paths.get(usrDir, "PythonFiles", "C3DC", pyFileName)
+		}else if(appKey.equals("INS")) {
+			pyPath = Paths.get(usrDir, "PythonFiles", "INS", pyFileName)
 		}else {
 			KeywordUtil.markFailed("Invalid App Key: Check getPythonPath function")
 		}
