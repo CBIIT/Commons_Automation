@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_library strategy_Amplicon&quot;]</value>
+         <value>//*[@id=&quot;checkbox_library strategy_AMPLICON&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_library strategy_Amplicon&quot;]</value>
-      <webElementGuid>a5193846-bf38-49fc-a88e-47d35602f8dd</webElementGuid>
+      <value>//*[@id=&quot;checkbox_library strategy_AMPLICON&quot;]</value>
+      <webElementGuid>0fac743c-f4c7-4d4a-86e5-8f37e4a56ab8</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
