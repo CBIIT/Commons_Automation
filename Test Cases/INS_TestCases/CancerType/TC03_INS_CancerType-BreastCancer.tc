@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_INS_CancerType-BreastCancer</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fe6dd1dc-55b8-4710-954f-2bf8a9ba7949</testCaseGuid>
+</TestCaseEntity>

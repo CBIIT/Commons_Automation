@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC07_INS_CancerType-EsophagealCancer</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>99ae3521-f395-4f32-a96f-de3a2447a7b4</testCaseGuid>
+</TestCaseEntity>
