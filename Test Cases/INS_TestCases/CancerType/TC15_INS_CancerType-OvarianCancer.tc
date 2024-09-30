@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC15_INS_CancerType-OvarianCancer</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b743a94a-3e98-4365-a3d0-4f4d09e6916d</testCaseGuid>
+</TestCaseEntity>

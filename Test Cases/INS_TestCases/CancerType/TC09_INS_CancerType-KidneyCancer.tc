@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC09_INS_CancerType-KidneyCancer</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f2640a1b-95bd-4b38-8a62-5cb4dd06c925</testCaseGuid>
+</TestCaseEntity>
