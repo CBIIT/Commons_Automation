@@ -37,11 +37,12 @@ import com.kms.katalon.core.util.KeywordUtil
 import java.nio.file.Paths
 
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC14_ICDC_TCL01_FileType-StudyProtocol.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC01_ICDC_NCATS-COP01_Breed-Rottweiler.xlsx')
 
-CustomKeywords.'utilities.PythonReader.readFile'('CasesTab.py')
-CustomKeywords.'utilities.PythonReader.readFile'('SamplesTab.py')
-CustomKeywords.'utilities.PythonReader.readFile'('CaseFilesTab.py')
-CustomKeywords.'utilities.PythonReader.readFile'('StudyFilesTab.py')
+//CustomKeywords.'utilities.PythonReader.readFile'('CasesTab.py')
+//CustomKeywords.'utilities.PythonReader.readFile'('SamplesTab.py')
+//CustomKeywords.'utilities.PythonReader.readFile'('CaseFilesTab.py')
+//CustomKeywords.'utilities.PythonReader.readFile'('StudyFilesTab.py')
 CustomKeywords.'utilities.PythonReader.readFile'('Statbar.py')
 
+WebUI.closeBrowser()

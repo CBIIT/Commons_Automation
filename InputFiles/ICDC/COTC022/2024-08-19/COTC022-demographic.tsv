@@ -20,7 +20,7 @@ demographic	COTC022-0302	COTC022-0302	Labrador Retriever	12.1	Male	Yes	34
 demographic	COTC022-0304	COTC022-0304	Labrador Retriever	6.5	Male	Yes	42.6	
 demographic	COTC022-0306	COTC022-0306	Australian Shepherd	12.4	Male	Yes	29.5	
 demographic	COTC022-0308	COTC022-0308	Labrador Retriever	9.4	Female	Yes	30.8	
-demographic	COTC022-0310	COTC022-0310	German Shorthaired Pointer	10.3	Male	Yes	35.4	
+demographic	COTC022-0310	COTC022-0310	Shorthaired Pointer	10.3	Male	Yes	35.4	
 demographic	COTC022-0312	COTC022-0312	Greyhound	7	Male	Yes	35.3	
 demographic	COTC022-0318	COTC022-0318	Labrador Retriever	9.1	Male	Yes	46.1	
 demographic	COTC022-0331	COTC022-0331	Rottweiler	10.1	Male	Yes	48	
@@ -69,9 +69,9 @@ demographic	COTC022-0702	COTC022-0702	Labrador Retriever	9.5	Male	Yes	33.2
 demographic	COTC022-0704	COTC022-0704	Bulldog	8.7	Female	Yes	29.8	
 demographic	COTC022-0706	COTC022-0706	Catahoula Hound	9.3	Male	Yes	40	
 demographic	COTC022-0708	COTC022-0708	Labrador Retriever	11	Male	Yes	36.4	
-demographic	COTC022-0710	COTC022-0710	Mixed Breed	10	Male	Yes	39.6	Labradoodle
+demographic	COTC022-0710	COTC022-0710	Labradoodle	10	Male	Yes	39.6	Labradoodle
 demographic	COTC022-0712	COTC022-0712	Rottweiler	9.2	Male	Yes	53.2	
-demographic	COTC022-0716	COTC022-0716	Mixed Breed	7.8	Male	Yes	40.3	Goldendoodle
+demographic	COTC022-0716	COTC022-0716	Goldendoodle	7.8	Male	Yes	40.3	Goldendoodle
 demographic	COTC022-0718	COTC022-0718	Mixed Breed	9.3	Female	Yes	28.8	
 demographic	COTC022-0719	COTC022-0719	Rhodesian Ridgeback	6.3	Female	Yes	44	
 demographic	COTC022-0720	COTC022-0720	Labrador Retriever	6	Male	Yes	34.8	
@@ -93,7 +93,7 @@ demographic	COTC022-0907	COTC022-0907	Mastiff	5	Male	Yes	94.5
 demographic	COTC022-0909	COTC022-0909	Cane Corso	5.7	Male	Yes	77.5	
 demographic	COTC022-0910	COTC022-0910	Mixed Breed	10.7	Female	Yes	42.2	
 demographic	COTC022-1002	COTC022-1002	Mastiff	9.3	Female	Yes	45	
-demographic	COTC022-1004	COTC022-1004	Mixed Breed	4.1	Female	Yes	27.7	Pit Bull Terrier
+demographic	COTC022-1004	COTC022-1004	Pit Bull Terrier	4.1	Female	Yes	27.7	Pit Bull Terrier
 demographic	COTC022-1006	COTC022-1006	Rottweiler	8.3	Male	Yes	47.4	
 demographic	COTC022-1008	COTC022-1008	Labrador Retriever	8.1	Female	Yes	26.5	
 demographic	COTC022-1010	COTC022-1010	Labrador Retriever	12.3	Female	Yes	41.3	
@@ -131,7 +131,7 @@ demographic	COTC022-1916	COTC022-1916	Other	9	Female	Yes	45.9
 demographic	COTC022-2002	COTC022-2002	Mixed Breed	8.3	Female	Yes	36	
 demographic	COTC022-2004	COTC022-2004	Labrador Retriever	5.5	Female	Yes	43	
 demographic	COTC022-2005	COTC022-2005	Saint Bernard	5.3	Female	Yes	52	
-demographic	COTC022-2006	COTC022-2006	Bulldog		Female	Yes	30.3	
+demographic	COTC022-2006	COTC022-2006	Old English Bulldog	9	Female	Yes	30.3	
 demographic	COTC022-2008	COTC022-2008	Mixed Breed	11	Male	Yes	30	
 demographic	COTC022-2010	COTC022-2010	Chow Chow	5	Male	Yes	29	
 demographic	COTC022-2011	COTC022-2011	Boxer	10.8	Female	Yes	38	
