@@ -35,8 +35,8 @@ CustomKeywords.'utilities.TestRunner.RunKatalon'('TC11_INS_CancerType-LiverCance
 WebUI.waitForElementPresent(findTestObject('INS/Navbar/Explore-Btn'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('INS/Navbar/Explore-Btn')
 
-WebUI.waitForElementPresent(findTestObject('INS/Filters/CancerType/BreastCancer-Chkbx'), 15)
-CustomKeywords.'utilities.TestRunner.clickTabINSStat'('INS/Filters/CancerType/BreastCancer-Chkbx')
+WebUI.waitForElementPresent(findTestObject('INS/Filters/CancerType/LiverCancer-Chkbx'), 15)
+CustomKeywords.'utilities.TestRunner.clickTabINSStat'('INS/Filters/CancerType/LiverCancer-Chkbx')
  
 //Read Statbar
 CustomKeywords.'utilities.TestRunner.readStatBarINS'('INS/Statbar/Statbar-Programs', 'INS/Statbar/Statbar-Projects', 

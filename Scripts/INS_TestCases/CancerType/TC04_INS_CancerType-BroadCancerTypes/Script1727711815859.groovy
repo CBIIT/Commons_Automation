@@ -44,6 +44,7 @@ CustomKeywords.'utilities.TestRunner.readStatBarINS'('INS/Statbar/Statbar-Progra
 
 //Clicking Programs tab
 WebUI.waitForElementPresent(findTestObject('INS/ResultTabs/Programs-Tab'), 5)
+//WebUI.waitForElementPresent(findTestObject('INS/ResultTabs/Programs-Tab'), 5) use website 
 CustomKeywords.'utilities.TestRunner.clickTab'('INS/ResultTabs/Programs-Tab')
 CustomKeywords.'utilities.TestRunner.multiFunction'('INS', GlobalVariable.G_StatBar_Programs, 'INS/ResultTabs/Programs-Tbl', 
     'INS/ResultTabs/Programs-TblHdr', 'INS/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnamePrograms, 'TsvDataPrograms', 

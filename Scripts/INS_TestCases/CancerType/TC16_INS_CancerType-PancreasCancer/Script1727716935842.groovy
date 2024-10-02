@@ -30,13 +30,13 @@ import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.closeBrowser()
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC17_INS_CancerType-ThyroidCancer.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC16_INS_CancerType-PancreasCancer.xlsx')
 
 WebUI.waitForElementPresent(findTestObject('INS/Navbar/Explore-Btn'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('INS/Navbar/Explore-Btn')
 
-WebUI.waitForElementPresent(findTestObject('INS/Filters/CancerType/ThyroidCancer-Chkbx'), 15)
-CustomKeywords.'utilities.TestRunner.clickTabINSStat'('INS/Filters/CancerType/ThyroidCancer-Chkbx')
+WebUI.waitForElementPresent(findTestObject('INS/Filters/CancerType/PancreasCancer-Chkbx'), 15)
+CustomKeywords.'utilities.TestRunner.clickTabINSStat'('INS/Filters/CancerType/PancreasCancer-Chkbx')
  
 //Read Statbar
 CustomKeywords.'utilities.TestRunner.readStatBarINS'('INS/Statbar/Statbar-Programs', 'INS/Statbar/Statbar-Projects', 
