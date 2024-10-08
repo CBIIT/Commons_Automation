@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_INS_FocusArea-PediatricAYA</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>34127fc2-0918-4e75-b472-4b802a8e974b</testCaseGuid>
+</TestCaseEntity>
