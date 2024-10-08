@@ -30,7 +30,7 @@ import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.closeBrowser()
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC05_INS_FocusArea-SPORE.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC06_INS_FocusArea-SPORE.xlsx')
 
 WebUI.waitForElementPresent(findTestObject('INS/Navbar/Explore-Btn'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('INS/Navbar/Explore-Btn')
