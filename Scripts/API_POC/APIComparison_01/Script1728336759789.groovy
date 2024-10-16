@@ -25,8 +25,8 @@ import java.nio.file.Files
 import java.nio.file.Paths
 
 // Step 1: Send requests to both APIs
-def responseApi1 = WS.sendRequest(findTestObject('Object Repository/API/FederationNOde- Treehouse'))  
-def responseApi2 = WS.sendRequest(findTestObject('Object Repository/API/AL-KidsFirst - Subject counts by ethnicity'))  
+def responseApi1 = WS.sendRequest(findTestObject('null'))  
+def responseApi2 = WS.sendRequest(findTestObject('Object Repository/API/AL- Subject counts by ethnicity'))  
 
 // Parse the JSON responses
 def api1Response = new JsonSlurper().parseText(responseApi1.getResponseBodyContent())

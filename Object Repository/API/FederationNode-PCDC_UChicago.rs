@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>AL-KidsFirst - Subject counts by ethnicity</name>
+   <name>FederationNode-PCDC_UChicago</name>
    <tag></tag>
-   <elementGuidId>3c1eb85b-dbcc-4946-8119-e3dd380f67a1</elementGuidId>
+   <elementGuidId>76216b6f-dcd6-4d06-9582-f81a3b4bae67</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -114,7 +114,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://federation-qa.ccdi.cancer.gov/api/v1/subject/by/ethnicity/count</restUrl>
+   <restUrl>https://ccdifederation.pedscommons.org/api/v1/subject/by/ethnicity/count</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
