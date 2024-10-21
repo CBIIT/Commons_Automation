@@ -31,11 +31,12 @@ import utilities.API_Functions
 String outputDirectory = GlobalVariable.outputDirectory
 
 // Define test object paths in the Object Repository
-String api1ObjectPath = 'Object Repository/API/FederationNode-KidsFirst'
-String api2ObjectPath = 'Object Repository/API/FederationNode-StJude'
-String api3ObjectPath = 'Object Repository/API/FederationNode-PCDC_UChicago'
-String api4ObjectPath = 'Object Repository/API/FederationNode-Treehouse'
-String api5ObjectPath = 'Object Repository/API/AL- Subject counts by ethnicity'
+String api1ObjectPath = 'Object Repository/API/Federation/FederationNode-KidsFirst_Samples-DiseasePhase'
+String api2ObjectPath = 'Object Repository/API/Federation/FederationNode-StJude_Samples-DiseasePhase'
+String api3ObjectPath = 'Object Repository/API/Federation/FederationNode-PCDC_UChicago_Samples-DiseasePhase'
+String api4ObjectPath = 'Object Repository/API/Federation/FederationNode-Treehouse_Samples-DiseasePhase'
+String api5ObjectPath = 'Object Repository/API/Federation/AL_SampleCounts_by_DiseasePhase'
+ 
 
 // Step 1: Send Request to the API and Get Response
 ResponseObject response1 = API_Functions.sendRequestAndCaptureResponse(api1ObjectPath, outputDirectory) // for kidsfirst

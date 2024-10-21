@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>FederationNode-KidsFirst</name>
+   <name>FederationNode-StJude_Samples-DiseasePhase</name>
    <tag></tag>
-   <elementGuidId>0a542777-9264-41c4-9a33-7fb462090028</elementGuidId>
+   <elementGuidId>bbe96fc5-87f3-4567-97a7-b80280b5340c</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -114,7 +114,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://ccdi.kidsfirstdrc.org/api/v1/subject/by/ethnicity/count</restUrl>
+   <restUrl>https://ccdi.stjude.cloud/api/v1/sample/by/disease_phase/count</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

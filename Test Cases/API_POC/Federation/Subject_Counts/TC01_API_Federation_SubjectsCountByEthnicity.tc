@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>APIComparison_01</name>
+   <name>TC01_API_Federation_SubjectsCountByEthnicity</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>419eae6b-9b73-49fc-a16b-0645d6e771e0</testCaseGuid>
+   <testCaseGuid>6bff3e3f-a165-49e4-b5da-6f12fa954626</testCaseGuid>
 </TestCaseEntity>

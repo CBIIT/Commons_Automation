@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>FederationNode-Treehouse</name>
+   <name>AL_SubjectCountsByEthnicity</name>
    <tag></tag>
-   <elementGuidId>89e71dae-5080-47f3-908a-1dbc2f0694aa</elementGuidId>
+   <elementGuidId>3c1eb85b-dbcc-4946-8119-e3dd380f67a1</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -114,7 +114,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://ccdi.treehouse.gi.ucsc.edu/api/v1/subject/by/ethnicity/count</restUrl>
+   <restUrl>https://federation-qa.ccdi.cancer.gov/api/v1/subject/by/ethnicity/count</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

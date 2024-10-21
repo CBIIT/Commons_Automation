@@ -36,26 +36,32 @@ import com.kms.katalon.core.mobile.helper.MobileElementCommonHelper
 import com.kms.katalon.core.util.KeywordUtil
 
 import com.kms.katalon.core.webui.exception.WebElementNotFoundException
- 
-import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
- 
-import groovy.json.JsonSlurper
- 
-import java.io.File
 
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+
+import groovy.json.JsonSlurper
+
+import java.io.File
+import com.kms.katalon.core.configuration.RunConfiguration
 class API_Functions {
-	
+
 	// Function to send API request and return response
 	static ResponseObject sendRequestAndCaptureResponse(String apiObjectPath, String outputDirectory) {
+		// Get the current test script name statically
+		String testScriptName = RunConfiguration.getExecutionSourceName()
+		System.out.println("This is the test script name : "+testScriptName)
+		// Send the API request
 		ResponseObject response = WS.sendRequest(findTestObject(apiObjectPath))
 		println("Response Status: " + response.getStatusCode())
 		println("Response Body: " + response.getResponseBodyContent())
-		
-		// Extract the API name to use as file name
-		String apiName = apiObjectPath.split('/').last().replaceAll(' ', '_')
-		File responseFile = new File(outputDirectory + apiName + '.txt')
 
-		// Write the response to a file
+		// Extract the API name to use as part of the file name
+		String apiName = apiObjectPath.split('/').last().replaceAll(' ', '_')
+
+		// Combine test script name and API name for the file name
+		File responseFile = new File(outputDirectory + testScriptName + "_" + apiName + '.txt')
+
+		// Write the response to the file
 		responseFile.write("Response Status: " + response.getStatusCode() + "\n")
 		responseFile << "Response Body: " + response.getResponseBodyContent() + "\n"
 
@@ -68,45 +74,45 @@ class API_Functions {
 		return jsonSlurper.parseText(response.getResponseBodyContent())
 	}
 
-// Function to find the keyed entry in the response
-static def findEntry(def responseData, def key) {
-    switch (key) {
-        case 'KidsFirst':
-            def kidsFirstEntry = responseData.find { it.source == 'KidsFirst' }
-            if (kidsFirstEntry == null) {
-                KeywordUtil.markFailedAndStop("No entry with 'source: KidsFirst' found in the response.")
-            }
-            return kidsFirstEntry
+	// Function to find the keyed entry in the response
+	static def findEntry(def responseData, def key) {
+		switch (key) {
+			case 'KidsFirst':
+				def kidsFirstEntry = responseData.find { it.source == 'KidsFirst' }
+				if (kidsFirstEntry == null) {
+					KeywordUtil.markFailedAndStop("No entry with 'source: KidsFirst' found in the response.")
+				}
+				return kidsFirstEntry
 
-        case 'StJude':
-            def stJudeEntry = responseData.find { it.source == 'StJude' }
-            if (stJudeEntry == null) {
-                KeywordUtil.markFailedAndStop("No entry with 'source: StJude' found in the response.")
-            }
-            return stJudeEntry
-			
-		case 'PCDC':
-			def pcdcEntry = responseData.find { it.source == 'PCDC' }
-			if (pcdcEntry == null) {
-				KeywordUtil.markFailedAndStop("No entry with 'source: PCDC' found in the response.")
-			}
-			return pcdcEntry
+			case 'StJude':
+				def stJudeEntry = responseData.find { it.source == 'StJude' }
+				if (stJudeEntry == null) {
+					KeywordUtil.markFailedAndStop("No entry with 'source: StJude' found in the response.")
+				}
+				return stJudeEntry
 
-		case 'Treehouse':
-			def treehouseEntry = responseData.find { it.source == 'Treehouse' }
-			if (treehouseEntry == null) {
-				KeywordUtil.markFailedAndStop("No entry with 'source: Treehouse' found in the response.")
-			}
-			return treehouseEntry
-        default:
-            KeywordUtil.markFailedAndStop("No entry found for the provided key: ${key}")
-    }
-}
+			case 'PCDC':
+				def pcdcEntry = responseData.find { it.source == 'PCDC' }
+				if (pcdcEntry == null) {
+					KeywordUtil.markFailedAndStop("No entry with 'source: PCDC' found in the response.")
+				}
+				return pcdcEntry
+
+			case 'Treehouse':
+				def treehouseEntry = responseData.find { it.source == 'Treehouse' }
+				if (treehouseEntry == null) {
+					KeywordUtil.markFailedAndStop("No entry with 'source: Treehouse' found in the response.")
+				}
+				return treehouseEntry
+			default:
+				KeywordUtil.markFailedAndStop("No entry found for the provided key: ${key}")
+		}
+	}
 
 	// Function to compare API responses
 	static void compareAPIResponses(def singleNodeData, def AlextractedEntry, def key) {
 		boolean isContained = true
-		
+
 		// Compare 'total' and 'missing' properties
 		if (AlextractedEntry.total != singleNodeData.total) {
 			isContained = false
@@ -132,10 +138,10 @@ static def findEntry(def responseData, def key) {
 
 		assert isContained : "The ${key} entry does not match the singleNode data."
 	}
-	
-	
-	
-	
+
+
+
+
 	//********************************************************************************
 	/**
 	 * Send request and verify status code

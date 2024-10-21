@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>FederationNode-StJude</name>
+   <name>FederationNode-Treehouse_SubjByEthn</name>
    <tag></tag>
-   <elementGuidId>f1a3d2fb-00c4-4248-b8bd-be556f2e4823</elementGuidId>
+   <elementGuidId>89e71dae-5080-47f3-908a-1dbc2f0694aa</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -114,7 +114,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://ccdi.stjude.cloud/api/v1/subject/by/ethnicity/count</restUrl>
+   <restUrl>https://ccdi.treehouse.gi.ucsc.edu/api/v1/subject/by/ethnicity/count</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

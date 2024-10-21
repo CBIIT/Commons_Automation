@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>AL- Subject counts by ethnicity</name>
+   <name>AL_SampleCounts_by_DiseasePhase</name>
    <tag></tag>
-   <elementGuidId>3c1eb85b-dbcc-4946-8119-e3dd380f67a1</elementGuidId>
+   <elementGuidId>b1f0e574-199b-4ce4-8950-8b70b23a8fdd</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -114,7 +114,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://federation-qa.ccdi.cancer.gov/api/v1/subject/by/ethnicity/count</restUrl>
+   <restUrl>https://federation-qa.ccdi.cancer.gov/api/v1/sample/by/disease_phase/count</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
