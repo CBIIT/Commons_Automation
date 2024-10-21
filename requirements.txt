@@ -1,4 +1,0 @@
-pandas
-pandasql
-openpyxl
-xlsxwriter
