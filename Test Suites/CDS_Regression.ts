@@ -588,7 +588,7 @@
    <testCaseLink>
       <guid>b89cbf64-786f-434e-b438-0c19a1743178</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CDS_TestCases/Studies/phs002366/TC13_CDS_phs001819_ImageModality</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
