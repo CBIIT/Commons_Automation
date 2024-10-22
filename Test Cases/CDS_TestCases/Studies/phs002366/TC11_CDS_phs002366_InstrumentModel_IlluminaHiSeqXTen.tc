@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC11_CDS_phs002366_InstrumentModel_IlluminaHiSeqXTen</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>572d7174-213d-4256-9de9-73ad3fa949a7</testCaseGuid>
+</TestCaseEntity>

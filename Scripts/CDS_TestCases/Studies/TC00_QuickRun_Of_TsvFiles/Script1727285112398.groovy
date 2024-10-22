@@ -37,10 +37,10 @@ import com.kms.katalon.core.util.KeywordUtil
 import java.nio.file.Paths
 
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC11_CDS_phs001819_InstrumentModel.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC03_CDS_phs001287_ExperimentalStrategy_Other.xlsx')
 
-/*CustomKeywords.'utilities.PythonReader.readFile'('ParticipantsTab.py')
+/*CustomKeywords.'utilities.PythonReader.readFile'('ParticipantsTab.py')*/
 CustomKeywords.'utilities.PythonReader.readFile'('SamplesTab.py')
-CustomKeywords.'utilities.PythonReader.readFile'('FilesTab.py')*/
+/*CustomKeywords.'utilities.PythonReader.readFile'('FilesTab.py')*/
 CustomKeywords.'utilities.PythonReader.readFile'('Statbar.py')
 

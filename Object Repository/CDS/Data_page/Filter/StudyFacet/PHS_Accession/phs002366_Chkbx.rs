@@ -1,27 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>other_Chkbx</name>
+   <name>phs002366_Chkbx</name>
    <tag></tag>
-   <elementGuidId>cec97a8a-2fc5-4681-8300-3eba02aadfd2</elementGuidId>
+   <elementGuidId>3f6a33ac-50f3-4324-ade4-83e083dd9acc</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
+         <value>//*[@id=&quot;checkbox_PHS Accession_phs002366&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_library selection_Other&quot;]</value>
-      <webElementGuid>61bb3155-64ec-40f0-b678-1c886d02c494</webElementGuid>
+      <value>//*[@id=&quot;checkbox_PHS Accession_phs002366&quot;]</value>
+      <webElementGuid>7484e5e2-5329-4f4a-a749-f72493c90505</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -1,27 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>other_Chkbx</name>
+   <name>IlluminaHiSeqXTen_Chkbx</name>
    <tag></tag>
-   <elementGuidId>cec97a8a-2fc5-4681-8300-3eba02aadfd2</elementGuidId>
+   <elementGuidId>a47ed848-06d1-434a-a9dd-b86bc634b911</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
+         <value>//*[@id=&quot;checkbox_instrument model_Illumina HiSeq X Ten&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_library selection_Other&quot;]</value>
-      <webElementGuid>61bb3155-64ec-40f0-b678-1c886d02c494</webElementGuid>
+      <value>//*[@id=&quot;checkbox_instrument model_Illumina HiSeq X Ten&quot;]</value>
+      <webElementGuid>ed5aa6d7-d1b9-40f2-87f6-5f109f8376d9</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

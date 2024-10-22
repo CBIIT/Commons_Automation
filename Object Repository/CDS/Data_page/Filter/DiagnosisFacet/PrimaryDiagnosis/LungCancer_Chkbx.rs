@@ -1,27 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>other_Chkbx</name>
+   <name>LungCancer_Chkbx</name>
    <tag></tag>
-   <elementGuidId>cec97a8a-2fc5-4681-8300-3eba02aadfd2</elementGuidId>
+   <elementGuidId>b4ceded6-07b7-4351-ad9c-102848da97c9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
+         <value>//*[@id=&quot;checkbox_PRIMARY DIAGNOSIS_Lung Cancer&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_library selection_Other&quot;]</value>
-      <webElementGuid>61bb3155-64ec-40f0-b678-1c886d02c494</webElementGuid>
+      <value>//*[@id=&quot;checkbox_PRIMARY DIAGNOSIS_Lung Cancer&quot;]</value>
+      <webElementGuid>f63b22de-85ac-4033-8fc8-45ab921a270e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
