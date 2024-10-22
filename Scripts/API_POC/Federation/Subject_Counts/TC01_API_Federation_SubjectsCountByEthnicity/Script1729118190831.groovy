@@ -38,11 +38,11 @@ String api4ObjectPath = 'Object Repository/API/Federation/FederationNode-Treehou
 String api5ObjectPath = 'Object Repository/API/Federation/AL_SubjectCountsByEthnicity'
 
 // Step 1: Send Request to the API and Get Response
-ResponseObject response1 = API_Functions.sendRequestAndCaptureResponse(api1ObjectPath, outputDirectory) // for kidsfirst
-ResponseObject response2 = API_Functions.sendRequestAndCaptureResponse(api2ObjectPath, outputDirectory) //for st jude
-ResponseObject response3 = API_Functions.sendRequestAndCaptureResponse(api3ObjectPath, outputDirectory) //for pcdc uchicago
-ResponseObject response4 = API_Functions.sendRequestAndCaptureResponse(api4ObjectPath, outputDirectory) //for treehouse
-ResponseObject response5 = API_Functions.sendRequestAndCaptureResponse(api5ObjectPath, outputDirectory)  // for AL response
+ResponseObject response1 = API_Functions.sendRequestAndCaptureResponse(api1ObjectPath) // for kidsfirst
+ResponseObject response2 = API_Functions.sendRequestAndCaptureResponse(api2ObjectPath) //for st jude
+ResponseObject response3 = API_Functions.sendRequestAndCaptureResponse(api3ObjectPath) //for pcdc uchicago
+ResponseObject response4 = API_Functions.sendRequestAndCaptureResponse(api4ObjectPath) //for treehouse
+ResponseObject response5 = API_Functions.sendRequestAndCaptureResponse(api5ObjectPath)  // for AL response
 
 // Step 3: Parse all the Responses
 def response1Data = API_Functions.parseResponse(response1) //kidsfirst
