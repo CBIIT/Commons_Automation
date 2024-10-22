@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>AL_SubjectCountsByEthnicity</name>
+   <name>AL_SubjectCountsByVitalStatus - Copy</name>
    <tag></tag>
-   <elementGuidId>dee61d7e-3169-436b-8117-419e77352470</elementGuidId>
+   <elementGuidId>47100cab-9838-470d-b14f-24035b156079</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -19,15 +19,15 @@
       <name>Authorization:type</name>
       <type>Main</type>
       <value>OAuth 2.0</value>
-      <webElementGuid>49a36668-f2c5-4533-8a3b-c45ae5943153</webElementGuid>
+      <webElementGuid>b4a46e3d-2e66-4ab1-9510-74367c22006c</webElementGuid>
    </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer </value>
-      <webElementGuid>5ebc1b51-b1ac-45c9-bc79-29c0748294e9</webElementGuid>
+      <value>Bearer eyJraWQiOiJLaGphOWlTbXU2bU9nRUhUcnFucXIxQS1tQU1Ka1Zyb0FHdUNUWTFkU2ZFIiwiYWxnIjoiUlMyNTYifQ.eyJ2ZXIiOjEsImp0aSI6IkFULlNMVUJFZ0RnRWlGLWRjUDNuam5XZEN3OWZCLU5EeEJVNEpzQ19VQ3d1SVkiLCJpc3MiOiJodHRwczovL25paC1uY2kub2t0YS5jb20vb2F1dGgyL2F1c3FzdXltMGF0cFN4WFRBMjk3IiwiYXVkIjoiYXBpOi8vZGVmYXVsdCIsImlhdCI6MTcyODMyNzE2NiwiZXhwIjoxNzI4MzMwNzY2LCJjaWQiOiIwb2FxdGlydXVpelU5bzFHWDI5NyIsInNjcCI6WyJjdXN0b20iXSwic3ViIjoiMG9hcXRpcnV1aXpVOW8xR1gyOTcifQ.JzhDLmh-Lvf84eHy9S32RxgDR4aPNzp0VhIhHyZzylRJDb5AJ2spInlqCCaU2Vdq-rDC6UgJ3fpNhhRqXqpB7VYhxfN8MNH2Wyvn9vV6yGT4lOxBbZnphi9ROJsWlHGQMmyTGXEozsijlsNcwt3YmgcoU6zd7pd-Af70mqoG_E11lsECpQ8eopK8R-HAv0YOO0h_NU25d_t-ejQ9OzMDZQoMIa91SBlh2HjTGFj5QiHE7k6KQCD7WCEtvP4L-pQQQfyyyqf4Yu4GIPU5q1N1zLzjiI1soCo9A_Yw3qTMhZ0w5aa_16InvpZDzBLgaJbAlsyoi4ymWwKJXWkRlKX9yA</value>
+      <webElementGuid>9b252dc3-7b9b-4dae-8a88-9da1b07f3900</webElementGuid>
    </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
@@ -35,15 +35,15 @@
       <name>Authorization:grant_type</name>
       <type>Main</type>
       <value>Client Credentials</value>
-      <webElementGuid>cf29ba62-a07b-4970-a6ae-aba9a016af08</webElementGuid>
+      <webElementGuid>8bdad537-34b4-4a14-969a-babc6be9d76d</webElementGuid>
    </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>Authorization:access_token_url</name>
       <type>Main</type>
-      <value></value>
-      <webElementGuid>66a6b641-d06e-477c-9622-0b34e09c6563</webElementGuid>
+      <value>https://nih-nci.okta.com/oauth2/ausqsuym0atpSxXTA297/v1/token</value>
+      <webElementGuid>3539c376-1fef-4c45-8aec-1e82f2a02783</webElementGuid>
    </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
@@ -51,7 +51,7 @@
       <name>Authorization:state</name>
       <type>Main</type>
       <value></value>
-      <webElementGuid>2ca2ae59-bc6e-42fd-98da-b99702fcc22f</webElementGuid>
+      <webElementGuid>ecab88eb-9ea0-4b7f-8570-6e39583c14da</webElementGuid>
    </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
@@ -59,23 +59,23 @@
       <name>Authorization:authorization_code</name>
       <type>Main</type>
       <value></value>
-      <webElementGuid>3c503d94-5b38-4933-927a-7280af1d341d</webElementGuid>
+      <webElementGuid>0dd63dc8-8524-47b2-8755-3723e5d8898c</webElementGuid>
    </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>Authorization:scope</name>
       <type>Main</type>
-      <value></value>
-      <webElementGuid>22c9f79f-6bfa-4de3-8069-90c5869c70cc</webElementGuid>
+      <value>custom</value>
+      <webElementGuid>99ea31a8-7474-45c3-a356-672a20b183e7</webElementGuid>
    </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>Authorization:access</name>
       <type>Main</type>
-      <value></value>
-      <webElementGuid>be2ba3b0-2e11-405c-9c27-13254c71630b</webElementGuid>
+      <value>eyJraWQiOiJLaGphOWlTbXU2bU9nRUhUcnFucXIxQS1tQU1Ka1Zyb0FHdUNUWTFkU2ZFIiwiYWxnIjoiUlMyNTYifQ.eyJ2ZXIiOjEsImp0aSI6IkFULlNMVUJFZ0RnRWlGLWRjUDNuam5XZEN3OWZCLU5EeEJVNEpzQ19VQ3d1SVkiLCJpc3MiOiJodHRwczovL25paC1uY2kub2t0YS5jb20vb2F1dGgyL2F1c3FzdXltMGF0cFN4WFRBMjk3IiwiYXVkIjoiYXBpOi8vZGVmYXVsdCIsImlhdCI6MTcyODMyNzE2NiwiZXhwIjoxNzI4MzMwNzY2LCJjaWQiOiIwb2FxdGlydXVpelU5bzFHWDI5NyIsInNjcCI6WyJjdXN0b20iXSwic3ViIjoiMG9hcXRpcnV1aXpVOW8xR1gyOTcifQ.JzhDLmh-Lvf84eHy9S32RxgDR4aPNzp0VhIhHyZzylRJDb5AJ2spInlqCCaU2Vdq-rDC6UgJ3fpNhhRqXqpB7VYhxfN8MNH2Wyvn9vV6yGT4lOxBbZnphi9ROJsWlHGQMmyTGXEozsijlsNcwt3YmgcoU6zd7pd-Af70mqoG_E11lsECpQ8eopK8R-HAv0YOO0h_NU25d_t-ejQ9OzMDZQoMIa91SBlh2HjTGFj5QiHE7k6KQCD7WCEtvP4L-pQQQfyyyqf4Yu4GIPU5q1N1zLzjiI1soCo9A_Yw3qTMhZ0w5aa_16InvpZDzBLgaJbAlsyoi4ymWwKJXWkRlKX9yA</value>
+      <webElementGuid>6074ca3c-3147-4ca8-b1bb-9ace818720ab</webElementGuid>
    </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
@@ -83,38 +83,38 @@
       <name>Authorization:refesh_token</name>
       <type>Main</type>
       <value></value>
-      <webElementGuid>3df3a4c1-d670-425a-a297-387bb5001132</webElementGuid>
+      <webElementGuid>961c9a05-f9e2-460f-85d7-c212d81ba739</webElementGuid>
    </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>Authorization:oauth_consumer_key</name>
       <type>Main</type>
-      <value>${GlobalVariable.clientId}</value>
-      <webElementGuid>b5d57e1e-cb35-4a69-93ae-5c1c1cd29884</webElementGuid>
+      <value>0oaqtiruuizU9o1GX297</value>
+      <webElementGuid>5b4395ce-851a-40a5-ad09-2e9e83b00b06</webElementGuid>
    </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>Authorization:oauth_consumer_secret</name>
       <type>Main</type>
-      <value>${GlobalVariable.clientSecret}</value>
-      <webElementGuid>f89ae189-5c62-4b20-ad00-6d51d8850cbd</webElementGuid>
+      <value>5gn8BhqmeUj6Yv6LSi7QIQINTmhQcOHjA_P3mTuewlwlUOUtA6-_jJ0FJYVgYtfm</value>
+      <webElementGuid>e47d43b5-89e6-40bd-99ce-322c8a531444</webElementGuid>
    </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>Authorization:token_type</name>
       <type>Main</type>
-      <value></value>
-      <webElementGuid>e9e3f34d-e6f8-4416-92e2-992ea16fe560</webElementGuid>
+      <value>Bearer</value>
+      <webElementGuid>2c9b3e90-3e13-4607-b5d8-8eb03531bfaf</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.7.2</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${GlobalVariable.baseUrl}/subject/by/ethnicity/count</restUrl>
+   <restUrl>https://federation-qa.ccdi.cancer.gov/api/v1/subject/by/vital_status/count</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

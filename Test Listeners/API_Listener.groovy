@@ -22,32 +22,25 @@ import com.kms.katalon.core.annotation.AfterTestSuite
 import com.kms.katalon.core.context.TestCaseContext
 import com.kms.katalon.core.context.TestSuiteContext
 
+ 
+	 
+	class API_Listener {
 
-class ManifestListener {
-	String renameManifestFile = GlobalVariable.ManifestFlag
-	
-//	 * Executes before every test case starts.
-//	 * @param testCaseContext related information of the executed test case.
-//	 
+    @BeforeTestCase
+    def beforeTestCase(TestCaseContext testCaseContext) {
+        // Get the full test case path
+        String testCaseId = testCaseContext.getTestCaseId()
 
-	@BeforeTestCase
-	def getTestScriptName(TestCaseContext testCaseContext) {
-    String TestCaseId = testCaseContext.getTestCaseId()
-	// The above results in -----   This is the test case name: Test Cases/Canine_TestCases/Manifest/TC02_Canine_MFST_SamplePatho-TCellLymphoma
-	int start = TestCaseId.indexOf("Manifest/")+"Manifest/".length();
-	GlobalVariable.G_currentTCName =TestCaseId.substring(start)
-	System.out.println("This is the test case name: "+GlobalVariable.G_currentTCName)
-	 
-	 
-  }
-	
-	// @param testCaseContext related information of the executed test case.
-	 
-	@AfterTestCase
-	def renameManifestFile(TestCaseContext testCaseContext) {
-		//if(renameManifestFile==Y){
-			//rename manifest
-		//} 
-		
-	}
+        // Check if the test case is under the API_POC folder
+        if (testCaseId.contains('/API_POC/')) {
+            // Get the current test case name from the context
+            String testCaseName = testCaseId.split('/').last()
+            println("Running test case: " + testCaseName + " in API_POC folder")
+
+            // Save the test case name in global variable for later use
+            GlobalVariable.currentTestCaseName = testCaseName
+        } else {
+            println("Skipping listener logic for test case outside API_POC.")
+        }
+    }
 }
