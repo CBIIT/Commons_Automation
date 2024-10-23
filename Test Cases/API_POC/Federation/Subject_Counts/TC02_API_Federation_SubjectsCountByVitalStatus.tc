@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_API_Federation_SubjectsCountByVitalStatus</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3b726bba-b6e1-46d6-828d-8fd4b1144827</testCaseGuid>
+</TestCaseEntity>

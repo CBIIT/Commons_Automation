@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC14_INS_CancerType-MultipleMyeloma</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b6d15217-1d57-4af6-8a39-c183f5d61108</testCaseGuid>
+</TestCaseEntity>

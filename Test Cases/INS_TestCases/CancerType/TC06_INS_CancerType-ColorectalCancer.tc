@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC06_INS_CancerType-ColorectalCancer</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5514ad78-ed74-4423-b78c-127dc441e0ed</testCaseGuid>
+</TestCaseEntity>

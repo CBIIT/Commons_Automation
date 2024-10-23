@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_API_Federation_SubjectsSummary</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7b73fe96-6900-484b-993b-decee9d2bbcd</testCaseGuid>
+</TestCaseEntity>

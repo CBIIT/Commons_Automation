@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_AuthExample</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f63c0b7f-9813-42de-b69b-35f8b34e9ae6</testCaseGuid>
+</TestCaseEntity>
