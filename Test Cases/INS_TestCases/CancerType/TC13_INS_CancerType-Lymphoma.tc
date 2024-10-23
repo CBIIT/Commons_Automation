@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC13_INS_CancerType-Lymphoma</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>70674a96-7fc1-4478-8610-863396f0caff</testCaseGuid>
+</TestCaseEntity>
