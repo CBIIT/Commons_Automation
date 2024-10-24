@@ -4,5 +4,6 @@
    <name>TC01_CCDI_phs002504_Sex-Female</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>82bfcd2e-e66e-4284-a13c-8358184db7d8</testCaseGuid>
 </TestCaseEntity>

@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_dbGaP phs accession_phs002518&quot;]</value>
+         <value>//*[@id=&quot;checkbox_dbGaP accession_phs002518&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_dbGaP phs accession_phs002518&quot;]</value>
-      <webElementGuid>5b7d609b-06ea-4ad3-9649-4b804215ce9e</webElementGuid>
+      <value>//*[@id=&quot;checkbox_dbGaP accession_phs002518&quot;]</value>
+      <webElementGuid>e0074d01-012a-4835-a733-7ab18ee53a9e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
