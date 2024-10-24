@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@id='dbGaP phs accession'])[1]</value>
+         <value>(//*[@id='dbGaP accession'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@id='dbGaP phs accession'])[1]</value>
-      <webElementGuid>e51b35ea-0fbc-43da-824e-ea62bacf69a3</webElementGuid>
+      <value>(//*[@id='dbGaP accession'])[1]</value>
+      <webElementGuid>9cd5b7eb-c2fb-4bf5-8d06-4f0717395a81</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
