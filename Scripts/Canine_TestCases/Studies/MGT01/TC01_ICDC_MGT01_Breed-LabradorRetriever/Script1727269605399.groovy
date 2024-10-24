@@ -59,12 +59,12 @@ CustomKeywords.'utilities.TestRunner.multiFunction'('ICDC', GlobalVariable.G_Sta
 	'TsvDataSamples', GlobalVariable.G_QuerySamplesTab)
 
 	
-//clicking the case Files tab
-WebUI.waitForElementPresent(findTestObject('Canine/CanineResults_CaseFiles_Tab'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('Canine/CanineResults_CaseFiles_Tab')
-CustomKeywords.'utilities.TestRunner.multiFunction'('ICDC', GlobalVariable.G_StatBar_Files, 'Canine/Canine_Files_Table',
-	'Canine/Canine_Files_TableHdr', 'Canine/Canine_FilesTabNextBtn', GlobalVariable.G_WebTabnameFiles,
-	'TsvDataCaseFiles', GlobalVariable.G_QueryFilesTab)
+////clicking the case Files tab - function is not collecting File name and Last column which is diagnosis
+//WebUI.waitForElementPresent(findTestObject('Canine/CanineResults_CaseFiles_Tab'), 5)
+//CustomKeywords.'utilities.TestRunner.clickTab'('Canine/CanineResults_CaseFiles_Tab')
+//CustomKeywords.'utilities.TestRunner.multiFunction'('ICDC', GlobalVariable.G_StatBar_Files, 'Canine/Canine_Files_Table',
+//	'Canine/Canine_Files_TableHdr', 'Canine/Canine_FilesTabNextBtn', GlobalVariable.G_WebTabnameFiles,
+//	'TsvDataCaseFiles', GlobalVariable.G_QueryFilesTab)
 
 
 //clicking the study Files tab
