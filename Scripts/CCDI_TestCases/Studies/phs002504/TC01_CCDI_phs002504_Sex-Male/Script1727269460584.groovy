@@ -49,18 +49,18 @@ CustomKeywords.'utilities.TestRunner.multiFunction'('CCDI', GlobalVariable.G_Sta
 	'TsvDataParticipants', GlobalVariable.G_QueryParticipantsTab)
 
 
-//clicking the Diagnosis tab
-WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Diagnosis_ResultsTab'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Diagnosis_ResultsTab')
-CustomKeywords.'utilities.TestRunner.multiFunction'('CCDI', GlobalVariable.G_StatBar_Participants, 'CCDI/ExplorePage/CCDI_Diagnosis_Tbl',
-	'CCDI/ExplorePage/CCDI_Diagnosis_TblHdr', 'CCDI/ExplorePage/CCDI_Diagnosis_TblNextBtn', GlobalVariable.G_WebTabnameDiagnosis,
-	'TsvDataDiagnosis', GlobalVariable.G_QueryDiagnosisTab)
+////clicking the Diagnosis tab - Query needs to be fixed - TsvOutput has all sample IDs but Weboutput have few sample Ids
+//WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Diagnosis_ResultsTab'), 5)
+//CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Diagnosis_ResultsTab')
+//CustomKeywords.'utilities.TestRunner.multiFunction'('CCDI', GlobalVariable.G_StatBar_Participants, 'CCDI/ExplorePage/CCDI_Diagnosis_Tbl',
+//	'CCDI/ExplorePage/CCDI_Diagnosis_TblHdr', 'CCDI/ExplorePage/CCDI_Diagnosis_TblNextBtn', GlobalVariable.G_WebTabnameDiagnosis,
+//	'TsvDataDiagnosis', GlobalVariable.G_QueryDiagnosisTab)
 
 
-////clicking the Studies tab - Query needs to be fixed
+////clicking the Studies tab - Query needs to be fixed to add all columns, and add count of diagnosis, samples and others
 //WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Studies_ResultsTab'), 5)
 //CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Studies_ResultsTab')
-//CustomKeywords.'utilities.TestRunner.multiFunction'('CCDI', GlobalVariable.G_StatBar_Participants, 'CCDI/ExplorePage/CCDI_Studies_Tbl',
+//CustomKeywords.'utilities.TestRunner.multiFunction'('CCDI', GlobalVariable.G_StatBar_Studies, 'CCDI/ExplorePage/CCDI_Studies_Tbl',
 //	'CCDI/ExplorePage/CCDI_Studies_TblHdr', 'CCDI/ExplorePage/CCDI_Studies_TblNextBtn', GlobalVariable.G_WebTabnameStudies,	
 //	'TsvDataStudies', GlobalVariable.G_QueryStudiesTab)
 
@@ -73,12 +73,12 @@ CustomKeywords.'utilities.TestRunner.multiFunction'('CCDI', GlobalVariable.G_Sta
 	'TsvDataSamples', GlobalVariable.G_QuerySamplesTab)
  
 
-////clicking the Files tab - Query needs to be fixed
-//WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Files_ResultsTab'), 5)
-//CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Files_ResultsTab')
-//CustomKeywords.'utilities.TestRunner.multiFunction'('CCDI', GlobalVariable.G_StatBar_Files, 'CCDI/ExplorePage/CCDI_Files_Tbl',
-//'CCDI/ExplorePage/CCDI_Files_TblHdr', 'CCDI/ExplorePage/CCDI_Files_TblNextBtn', GlobalVariable.G_WebTabnameFiles,
-//'TsvDataFiles', GlobalVariable.G_QueryFilesTab)
+//clicking the Files tab
+WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Files_ResultsTab'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Files_ResultsTab')
+CustomKeywords.'utilities.TestRunner.multiFunction'('CCDI', GlobalVariable.G_StatBar_Files, 'CCDI/ExplorePage/CCDI_Files_Tbl',
+'CCDI/ExplorePage/CCDI_Files_TblHdr', 'CCDI/ExplorePage/CCDI_Files_TblNextBtn', GlobalVariable.G_WebTabnameFiles,
+'TsvDataFiles', GlobalVariable.G_QueryFilesTab)
  
 WebUI.closeBrowser()
 

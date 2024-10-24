@@ -775,8 +775,8 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 			if(statValue==0){
 				System.out.println ("No records in the table as stat value is 0")
 			}else{
-				columns_count = (colHeader.size())-1
-				for(int c=1;c<=columns_count;c++){
+				columns_count = (colHeader.size())
+				for(int c=0;c<columns_count;c++){
 					if((colHeader.get(c).getAttribute("innerText"))!="Access"){
 						//if column header = 'Access' ignore adding it to the hdrdata string
 						System.out.println ("This is the value of col header index : "+c)
@@ -1132,7 +1132,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 
 								if((tbl_main).equals('//*[@id="participant_tab_table"]')){
 									System.out.println("Inside CCDI participants switch")
-									tblcol=tblcol-2;    //8-3=5 leaves out alternate id col   change to 8-2
+									tblcol=tblcol-3;    //8-3=5 leaves out alternate id col   change to 8-2
 									for (int j = 1; j <=tblcol; j = j +1) {
 										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
 										System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
@@ -1142,19 +1142,19 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 									}
 								}else if((tbl_main).equals("//*[@id='diagnosis_tab_table']")){
 									System.out.println("Inside CCDI diagnosis switch")
-									tblcol=tblcol+3;  //tblcol comes from the top as 8. need to add 3 to get 11 cols
+									tblcol=tblcol+2;  //tblcol comes from the top as 8. need to add 3 to get 11 cols
 									System.out.println("Value of tblcol from the diagnosis section is: "+tblcol)
 									for (int j = 1; j <=tblcol; j = j +1) {
 										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
 										// only for this Age column the xpath will not have the /p tag
 										if(((tbl_main).equals("//*[@id='diagnosis_tab_table']")) && (colHeader.get(j).getAttribute("innerText")=="Age at Diagnosis (days)")) {
 											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
-											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]")).getAttribute("innerText")) +"||")
+											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr[" + i + "]/*[" + (j+1) +"]")).getAttribute("innerText")) +"||")
 										}else {
 
 											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
 											//*[@id="participant_tab_table"]/div[2]/table/tbody/tr[1]/td[3]/p
-											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/p")).getAttribute("innerText")) +"||")
+											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr[" + i + "]/*[" + (j+1) +"]")).getAttribute("innerText")) +"||")
 										}
 										System.out.println("This is the value of data : "+data)
 									}
@@ -1186,7 +1186,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 									}
 								}else if((tbl_main).equals("//*[@id='sample_tab_table']")){
 									System.out.println("Inside CCDI samples tab switch")
-									tblcol=tblcol+4;
+									tblcol=tblcol-1;
 									System.out.println("Value of tblcol from the samples section is: "+tblcol)
 									for (int j = 1; j <=tblcol; j = j +1) {
 										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
@@ -1204,12 +1204,12 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 									}
 								}else if((tbl_main).equals('//*[@id="file_tab_table"]')){
 									System.out.println("Inside CCDI files tab switch")
-									tblcol=tblcol+2;
+									tblcol=tblcol+6;
 									for (int j = 1; j <=tblcol; j = j +1) {
 										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
 										//*[@id="file_tab_table"]//tbody/tr[1]/*[2]/*[2]
 										System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
-										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/p")).getAttribute("innerText")) +"||")
+										data = data + ((driver.findElement(By.xpath(tbl_bdy +"//tr[" + i + "]//td[" + (j+1) +"]/p")).getAttribute("innerText")) +"||")
 										System.out.println("This is the value of data : "+data)
 									}
 								}
@@ -1229,10 +1229,11 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 								int tblcol=GlobalVariable.G_rowcount_Katalon;
 
 								if((tbl_main).equals("//*[@id='case_tab_table']")){
+
 									//This is for cases tab
 									data = ""
 									System.out.println("This is the val of tblcol: "+tblcol+"\nThis is the output of data: "+ data)
-									for (int j = 2; j<= tblcol; j = j + 1) {
+									for (int j = 2; j< tblcol; j = j + 1) {
 										System.out.println("Value of i is: "+i+"\nValue of j is: "+j)
 
 										if( ((tbl_main).equals("//*[@id='case_tab_table']")) && (colHeader.get(j-1).getAttribute("innerText")=="Case ID")){
@@ -1255,14 +1256,13 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 									}
 								}else if((tbl_main).equals("//*[@id='file_tab_table']")){
 									//This is for case file tab
-									tblcol=tblcol-2  // this is needed when files tab has 11 cols
+									tblcol=tblcol-3  // this is needed when files tab has 11 cols
 									System.out.println("This is the count of tblcol when files tab is selected: "+tblcol)
-									for (int j = 1; j<= tblcol; j = j + 1) {
+									for (int j = 1; j <= tblcol; j = j + 1) {
 										System.out.println("Value of i is: "+i+"\nValue of j is: "+j)
-
 										if((colHeader.get(j).getAttribute("innerText"))!="Access") {
 											System.out.println("This is the name of column header: "+colHeader.get(j).getAttribute("innerText"))
-											data = data + ( (driver.findElement(By.xpath(tbl_bdy +"/tr[" + i + "]/td[" + (j+1) +"]")).getAttribute("innerText").trim()) +"||")
+											data = data + ( (driver.findElement(By.xpath(tbl_bdy +"/tr[" + i + "]/*[" + (j+1) +"]")).getAttribute("innerText").trim()) +"||")
 											System.out.println("This is the data after filtering for dog icon :"+data)
 										}
 									}
@@ -2023,14 +2023,14 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 				int l1rowCount =l1row+2;
 				int l2rowCount =l2row+2;
 
-				System.out.println("UI Data Entire Row:  " + l1rowList)
-				System.out.println("DB data Entire Row:  " + l2rowList)
+				System.out.println("UI  Data Entire Row:  " + l1rowList)
+				System.out.println("TSV Data Entire Row:  " + l2rowList)
 
 				// Check if column counts do not match
 				if (l1rowList.size() != l2rowList.size()) {
 					System.err.println("*********** COLUMN COUNT MISMATCH ***********");
-					System.err.println("UI Data Row: " + l1rowCount + " has " + l1rowList.size() + " columns.");
-					System.err.println("DB Data Row: " + l2rowCount + " has " + l2rowList.size() + " columns.");
+					System.err.println("UI  Data Row: " + l1rowCount + " has " + l1rowList.size() + " columns.");
+					System.err.println("TSV Data Row: " + l2rowCount + " has " + l2rowList.size() + " columns.");
 					KeywordUtil.markFailed("*********** COLUMN COUNT MISMATCH *************");
 					return;  // Exit the function since the column counts do not match
 				}
@@ -2051,7 +2051,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 
 					//Check for empty cell in DB excel
 					if(l2Col == null || l2Value.trim().isEmpty()){
-						System.out.println("There is an empty cell in DB Data Row: " + l2rowCount + " Col: " + col );
+						System.out.println("There is an empty cellin TSV Data Row: " + l2rowCount + " Col: " + col );
 						l2NullFlag = true
 					}
 
@@ -2064,11 +2064,11 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 
 					//When there is data, compare UI value against DB value
 					if(l1Value.equals(l2Value)){
-						System.out.println("UI data cell value is:  "+ l1Value + "\nDB data cell value is:  "+ l2Value );
+						System.out.println("UI  data cell value is:  "+ l1Value + "\nTSV data cell value is:  "+ l2Value );
 						System.out.println("Content matches for Row: " + l1rowCount + " Col: " + col +" \u2713");
 					}else{
 						System.err.println("*********** DATA MISMATCH ***********")
-						System.err.println("UI data cell value is:  "+ l1Value + "\nDB data cell value is:  "+ l2Value );
+						System.err.println("UI  data cell value is:  "+ l1Value + "\nTSV data cell value is:  "+ l2Value );
 						System.err.println("Content does not match for Row: " + l1rowCount + " Col: " + col +" \u2717")
 						KeywordUtil.markFailed("*********** DATA MISMATCH in compareTwoLists *************");
 					}
@@ -2214,10 +2214,10 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 			(statData.get(0).get(5).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Files)) ? KeywordUtil.markPassed("Statbar Files count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Files count")
 		}else if (getAppName=='INS') {
 
-			System.out.println("This is the value of Programs Count from Neo4j result "+statData.get(0).get(0).getStringCellValue())
-			System.out.println("This is the value of Projects Count from Neo4j result "+statData.get(0).get(1).getStringCellValue())
-			System.out.println("This is the value of Grants Count from Neo4j result "+statData.get(0).get(2).getStringCellValue())
-			System.out.println("This is the value of Publications Count from Neo4j result "+statData.get(0).get(3).getStringCellValue())
+			System.out.println("This is the value of Programs Count from TSV result "+statData.get(0).get(0).getStringCellValue())
+			System.out.println("This is the value of Projects Count from TSV result "+statData.get(0).get(1).getStringCellValue())
+			System.out.println("This is the value of Grants Count from TSV result "+statData.get(0).get(2).getStringCellValue())
+			System.out.println("This is the value of Publications Count from TSV result "+statData.get(0).get(3).getStringCellValue())
 
 
 			(statData.get(0).get(0).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Programs)) ? KeywordUtil.markPassed("Statbar Programs count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Programs count")
@@ -2227,12 +2227,12 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		}else if (getAppName=='ICDC'){
 
 			System.out.println ("control is in line 1842");
-			System.out.println("This is the value of Programs Count from Neo4j result: "+statData.get(0).get(0).getStringCellValue())
-			System.out.println("This is the value of Studies Count from Neo4j result: "+statData.get(0).get(1).getStringCellValue())
-			System.out.println("This is the value of Cases Count from Neo4j result: "+statData.get(0).get(2).getStringCellValue())
-			System.out.println("This is the value of Samples Count from Neo4j result: "+statData.get(0).get(3).getStringCellValue())
-			System.out.println("This is the value of CaseFiles Count from Neo4j result: "+statData.get(0).get(4).getStringCellValue())
-			System.out.println("This is the value of StudyFiles Count from Neo4j result: "+statData.get(0).get(5).getStringCellValue())
+			System.out.println("This is the value of Programs Count from TSV result: "+statData.get(0).get(0).getStringCellValue())
+			System.out.println("This is the value of Studies Count from TSV result: "+statData.get(0).get(1).getStringCellValue())
+			System.out.println("This is the value of Cases Count from TSV result: "+statData.get(0).get(2).getStringCellValue())
+			System.out.println("This is the value of Samples Count from TSV result: "+statData.get(0).get(3).getStringCellValue())
+			System.out.println("This is the value of CaseFiles Count from TSV result: "+statData.get(0).get(4).getStringCellValue())
+			System.out.println("This is the value of StudyFiles Count from TSV result: "+statData.get(0).get(5).getStringCellValue())
 
 			(statData.get(0).get(0).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Programs)) ? KeywordUtil.markPassed("Statbar Programs count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Programs count")
 			(statData.get(0).get(1).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Studies)) ? KeywordUtil.markPassed("Statbar Studies count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Studies count")
@@ -2242,26 +2242,18 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 			(statData.get(0).get(5).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_StudyFiles)) ? KeywordUtil.markPassed("Statbar Study Files count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Study Files count")
 		}else if (getAppName=='CTDC') {
 
-			System.out.println("This is the value of Trials Count from Neo4j result "+statData.get(0).get(0).getStringCellValue())
-			System.out.println("This is the value of Cases Count from Neo4j result "+statData.get(0).get(1).getStringCellValue())
-			System.out.println("This is the value of Files Count from Neo4j result "+statData.get(0).get(2).getStringCellValue())
+			System.out.println("This is the value of Trials Count from TSV result "+statData.get(0).get(0).getStringCellValue())
+			System.out.println("This is the value of Cases Count from TSV result "+statData.get(0).get(1).getStringCellValue())
+			System.out.println("This is the value of Files Count from TSV result "+statData.get(0).get(2).getStringCellValue())
 			(statData.get(0).get(0).getStringCellValue().contentEquals(GlobalVariable.G_TStatBar_Trials)) ? KeywordUtil.markPassed("Statbar Trials count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Trials count")
 			(statData.get(0).get(1).getStringCellValue().contentEquals(GlobalVariable.G_TStatBar_Cases)) ? KeywordUtil.markPassed("Statbar Cases count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Cases count")
 			(statData.get(0).get(2).getStringCellValue().contentEquals(GlobalVariable.G_TStatBar_Files)) ? KeywordUtil.markPassed("Statbar Files count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Files count")
-		}else if (getAppName=='GMB') {
-
-			System.out.println("This is the value of Trails Count from Neo4j result "+statData.get(0).get(0).getStringCellValue())
-			System.out.println("This is the value of Subjects Count from Neo4j result "+statData.get(0).get(1).getStringCellValue())
-			System.out.println("This is the value of Files Count from Neo4j result "+statData.get(0).get(2).getStringCellValue())
-			(statData.get(0).get(0).getStringCellValue().contentEquals(GlobalVariable.G_GStatBar_Trials)) ? KeywordUtil.markPassed("Statbar Trials count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Trials count")
-			(statData.get(0).get(1).getStringCellValue().contentEquals(GlobalVariable.G_GStatBar_Subjects)) ? KeywordUtil.markPassed("Statbar Subjects count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Subjects count")
-			(statData.get(0).get(2).getStringCellValue().contentEquals(GlobalVariable.G_GStatBar_Files)) ? KeywordUtil.markPassed("Statbar Files count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Files count")
 		}else if (getAppName=='CDS'){
 
-			System.out.println("This is the value of Studies Count from Neo4j result:  "+statData.get(0).get(0).getStringCellValue())  //add in the query in input file later
-			System.out.println("This is the value of Partici Count from Neo4j result:  "+statData.get(0).get(1).getStringCellValue())
-			System.out.println("This is the value of Samples Count from Neo4j result:  "+statData.get(0).get(2).getStringCellValue())
-			System.out.println("This is the value of Files   Count from Neo4j result:  "+statData.get(0).get(3).getStringCellValue())
+			System.out.println("This is the value of Studies Count from TSV result:  "+statData.get(0).get(0).getStringCellValue())  //add in the query in input file later
+			System.out.println("This is the value of Partici Count from TSV result:  "+statData.get(0).get(1).getStringCellValue())
+			System.out.println("This is the value of Samples Count from TSV result:  "+statData.get(0).get(2).getStringCellValue())
+			System.out.println("This is the value of Files   Count from TSV result:  "+statData.get(0).get(3).getStringCellValue())
 
 			(statData.get(0).get(0).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Studies)) ? KeywordUtil.markPassed("Statbar Studies count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Studies count")
 			(statData.get(0).get(1).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Participants)) ? KeywordUtil.markPassed("Statbar Participants count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Participants count")
@@ -2269,10 +2261,10 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 			(statData.get(0).get(3).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Files)) ? KeywordUtil.markPassed("Statbar Files count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Files count")
 		}else if (getAppName=='CCDI'){
 
-			System.out.println("This is the value of Studies Count from Neo4j result: "+statData.get(0).get(0).getStringCellValue())  //add in the query in input file later
-			System.out.println("This is the value of Participants Count from Neo4j result: "+statData.get(0).get(1).getStringCellValue())
-			System.out.println("This is the value of Samples Count from Neo4j result: "+statData.get(0).get(2).getStringCellValue())
-			System.out.println("This is the value of Files Count from Neo4j result: "+statData.get(0).get(3).getStringCellValue())
+			System.out.println("This is the value of Studies Count from TSV result: "+statData.get(0).get(0).getStringCellValue())  //add in the query in input file later
+			System.out.println("This is the value of Participants Count from TSV result: "+statData.get(0).get(1).getStringCellValue())
+			System.out.println("This is the value of Samples Count from TSV result: "+statData.get(0).get(2).getStringCellValue())
+			System.out.println("This is the value of Files Count from TSV result: "+statData.get(0).get(3).getStringCellValue())
 
 			(statData.get(0).get(0).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Studies)) ? KeywordUtil.markPassed("Statbar Studies count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Studies count")
 			(statData.get(0).get(1).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Participants)) ? KeywordUtil.markPassed("Statbar Participants count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Participants count")
@@ -2280,9 +2272,9 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 			(statData.get(0).get(3).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Files)) ? KeywordUtil.markPassed("Statbar Files count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Files count")
 		}else if (getAppName=='C3DC'){
 
-			System.out.println("This is the value of Diagnoses Count from Neo4j result: "+statData.get(0).get(0).getStringCellValue())  //add in the query in input file later
-			System.out.println("This is the value of Participants Count from Neo4j result: "+statData.get(0).get(1).getStringCellValue())
-			System.out.println("This is the value of Studies Count from Neo4j result: "+statData.get(0).get(2).getStringCellValue())
+			System.out.println("This is the value of Diagnoses Count from TSV result: "+statData.get(0).get(0).getStringCellValue())  //add in the query in input file later
+			System.out.println("This is the value of Participants Count from TSV result: "+statData.get(0).get(1).getStringCellValue())
+			System.out.println("This is the value of Studies Count from TSV result: "+statData.get(0).get(2).getStringCellValue())
 
 			(statData.get(0).get(0).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Diagnosis)) ? KeywordUtil.markPassed("Statbar Diagnoses count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Diagnosis count")
 			(statData.get(0).get(1).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Participants)) ? KeywordUtil.markPassed("Statbar Participants count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Participants count")

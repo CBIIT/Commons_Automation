@@ -1,11 +1,11 @@
-id	study.id	funding_agency	funding_source_program_name	grant_id	study_funding_id	updated	type	study
-phs002504::phs002504_fund_1	phs002504::phs002504	National Cancer Institute		CA196519	phs002504_fund_1		study_funding	phs002504
-phs002504::phs002504_fund_10	phs002504::phs002504	The Frank A. Campini Foundation		Not_Available	phs002504_fund_10		study_funding	phs002504
-phs002504::phs002504_fund_2	phs002504::phs002504	National Cancer Institute	Childhood Cancer Data Initiative	CA082103-21S9	phs002504_fund_2		study_funding	phs002504
-phs002504::phs002504_fund_3	phs002504::phs002504	National Heart, Lung, and Blood Institute		HL135434	phs002504_fund_3		study_funding	phs002504
-phs002504::phs002504_fund_4	phs002504::phs002504	The Leukemia Lymphoma Society		Not_Available	phs002504_fund_4		study_funding	phs002504
-phs002504::phs002504_fund_5	phs002504::phs002504	Alex's Lemonade Stand Foundation		Not_Available	phs002504_fund_5		study_funding	phs002504
-phs002504::phs002504_fund_6	phs002504::phs002504	Cookies for Kids Cancer		Not_Available	phs002504_fund_6		study_funding	phs002504
-phs002504::phs002504_fund_7	phs002504::phs002504	The Pediatric Cancer Research Foundation		Not_Available	phs002504_fund_7		study_funding	phs002504
-phs002504::phs002504_fund_8	phs002504::phs002504	The V Foundation		Not_Available	phs002504_fund_8		study_funding	phs002504
-phs002504::phs002504_fund_9	phs002504::phs002504	Cannonball Kids' Cancer		Not_Available	phs002504_fund_9		study_funding	phs002504
+id	study.id	funding_agency	funding_source_program_name	grant_id	study	study_funding_id	updated	type
+phs002504::phs002504_fund_1	phs002504::phs002504	National Cancer Institute		CA196519	phs002504	phs002504_fund_1		study_funding
+phs002504::phs002504_fund_10	phs002504::phs002504	The Frank A. Campini Foundation		Not_Available	phs002504	phs002504_fund_10		study_funding
+phs002504::phs002504_fund_2	phs002504::phs002504	National Cancer Institute	Childhood Cancer Data Initiative	CA082103-21S9	phs002504	phs002504_fund_2		study_funding
+phs002504::phs002504_fund_3	phs002504::phs002504	National Heart, Lung, and Blood Institute		HL135434	phs002504	phs002504_fund_3		study_funding
+phs002504::phs002504_fund_4	phs002504::phs002504	The Leukemia Lymphoma Society		Not_Available	phs002504	phs002504_fund_4		study_funding
+phs002504::phs002504_fund_5	phs002504::phs002504	Alex's Lemonade Stand Foundation		Not_Available	phs002504	phs002504_fund_5		study_funding
+phs002504::phs002504_fund_6	phs002504::phs002504	Cookies for Kids Cancer		Not_Available	phs002504	phs002504_fund_6		study_funding
+phs002504::phs002504_fund_7	phs002504::phs002504	The Pediatric Cancer Research Foundation		Not_Available	phs002504	phs002504_fund_7		study_funding
+phs002504::phs002504_fund_8	phs002504::phs002504	The V Foundation		Not_Available	phs002504	phs002504_fund_8		study_funding
+phs002504::phs002504_fund_9	phs002504::phs002504	Cannonball Kids' Cancer		Not_Available	phs002504	phs002504_fund_9		study_funding
