@@ -32,7 +32,7 @@ WebUI.closeBrowser()
 
 CustomKeywords.'utilities.TestRunner.RunKatalon'('TC14_INS_CancerType-MultipleMyeloma.xlsx')
 
-WebUI.waitForElementPresent(findTestObject('INS/Navbar/Explore-Btn'), 5)
+WebUI.waitForElementPresent(findTestObject('INS/Navbar/Programs-Btn'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('INS/Navbar/Explore-Btn')
 
 WebUI.waitForElementPresent(findTestObject('INS/Filters/CancerType/MultipleMyeloma-Chkbx'), 15)

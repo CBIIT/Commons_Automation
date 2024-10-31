@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Programs-Btn</name>
+   <tag></tag>
+   <elementGuidId>5c5c5dcb-6495-4aa3-b975-8bc59d2e131b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href='#/programs']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[@href='#/programs']</value>
+      <webElementGuid>ae81a0d3-37ae-4b01-bc4a-d2ab74b4d3da</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
