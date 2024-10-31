@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_CANCER TYPE_Gastric Cancer&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Cancer Type_Gastric Cancer&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_CANCER TYPE_Gastric Cancer&quot;]</value>
-      <webElementGuid>5b3e7684-a726-4606-a011-4977b584a7e5</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Cancer Type_Gastric Cancer&quot;]</value>
+      <webElementGuid>5015d8a3-6e11-47af-8d30-cf8613b1e005</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

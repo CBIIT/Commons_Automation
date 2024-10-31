@@ -134,42 +134,42 @@
       <guid>31c5ec2a-6947-4aee-9f77-b97f8e5578e4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/INS_TestCases/FocusArea/TC04_INS_FocusArea-NoFocusArea</testCaseId>
+      <testCaseId>Test Cases/INS_TestCases/SpecialTopic/TC04_INS_SpecialTopic-General</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>113bfc0e-64ba-4a9a-8860-e318927732ce</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/INS_TestCases/FocusArea/TC02_INS_FocusArea-HealthDisparities</testCaseId>
+      <testCaseId>Test Cases/INS_TestCases/SpecialTopic/TC02_INS_SpecialTopic-HealthDisparities</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>8669dd18-8dae-4864-9ed5-4eeb03ec7f15</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/INS_TestCases/FocusArea/TC01_INS_FocusArea-CancerMoonshot</testCaseId>
+      <testCaseId>Test Cases/INS_TestCases/SpecialTopic/TC01_INS_SpecialTopic-CancerMoonshot</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>f5bf831b-51bc-4c1d-96aa-d53c781924b5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/INS_TestCases/FocusArea/TC05_INS_FocusArea-PediatricAYA</testCaseId>
+      <testCaseId>Test Cases/INS_TestCases/SpecialTopic/TC05_INS_SpecialTopic-PediatricAYA</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>8bf84857-e167-43b5-a577-3f8e16de93d8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/INS_TestCases/FocusArea/TC03_INS_FocusArea-HIV_AIDS</testCaseId>
+      <testCaseId>Test Cases/INS_TestCases/SpecialTopic/TC03_INS_SpecialTopic-HIV_AIDS</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>346a495a-73a9-48b5-a671-8e6f654dbaab</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/INS_TestCases/FocusArea/TC06_INS_FocusArea-SPORE</testCaseId>
+      <testCaseId>Test Cases/INS_TestCases/SpecialTopic/TC06_INS_SpecialTopic-SPORE</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

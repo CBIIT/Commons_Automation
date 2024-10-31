@@ -32,7 +32,7 @@ WebUI.closeBrowser()
 
 CustomKeywords.'utilities.TestRunner.RunKatalon'('TC07_INS_CancerType-EsophagealCancer.xlsx')
 
-WebUI.waitForElementPresent(findTestObject('INS/Navbar/Explore-Btn'), 5)
+WebUI.waitForElementPresent(findTestObject('INS/Navbar/Programs-Btn'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('INS/Navbar/Explore-Btn')
 
 WebUI.waitForElementPresent(findTestObject('INS/Filters/CancerType/EsophagealCancer-Chkbx'), 15)

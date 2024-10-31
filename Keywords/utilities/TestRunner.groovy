@@ -818,7 +818,8 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 				}
 			}
 			//******** INS function starts here ********
-		}else if (appKey.equals("INS") && ((driver.getCurrentUrl()).contains("/explore"))){
+		}else if (appKey.equals("INS") && ((driver.getCurrentUrl()).contains("/programs"))){
+			//changed explore to programs on Oct 29, 2024
 			switchINS = getPageSwitch();
 			switchString = "INS";
 			System.out.println ("This is the value of INS switch string: " + switchINS)
@@ -1010,7 +1011,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 						System.out.println("Inside INS Switch Structure")
 
 						switch(switchINS){
-							case("/explore"):
+							case("/programs"):
 								int tblcol=GlobalVariable.G_rowcount_Katalon; //13
 								if((tbl_main).equals("//*[@id='program_tab_table']")){
 									tblcol=tblcol-9;

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC06_INS_FocusArea-SPORE</name>
-   <tag>Filter</tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>f190a36e-d31f-4845-bf72-9cc0e6fb97f3</testCaseGuid>
-</TestCaseEntity>

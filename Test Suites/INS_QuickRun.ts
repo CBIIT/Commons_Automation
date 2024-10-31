@@ -22,7 +22,7 @@
       <guid>8e60d3c8-cc97-4a4d-a228-6765a42bd66e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/INS_TestCases/FocusArea/TC06_INS_FocusArea-SPORE</testCaseId>
+      <testCaseId>Test Cases/INS_TestCases/SpecialTopic/TC06_INS_SpecialTopic-SPORE</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
