@@ -775,8 +775,9 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 			if(statValue==0){
 				System.out.println ("No records in the table as stat value is 0")
 			}else{
-				columns_count = (colHeader.size())-1
-				for(int c=1;c<=columns_count;c++){
+				columns_count = (colHeader.size())
+				for(int c=0;c<columns_count;c++){
+					//valentina
 					if((colHeader.get(c).getAttribute("innerText"))!="Access"){
 						//if column header = 'Access' ignore adding it to the hdrdata string
 						System.out.println ("This is the value of col header index : "+c)
@@ -1233,9 +1234,11 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 									data = ""
 									System.out.println("This is the val of tblcol: "+tblcol+"\nThis is the output of data: "+ data)
 									for (int j = 2; j<= tblcol; j = j + 1) {
+										//?
 										System.out.println("Value of i is: "+i+"\nValue of j is: "+j)
 
-										if( ((tbl_main).equals("//*[@id='case_tab_table']")) && (colHeader.get(j-1).getAttribute("innerText")=="Case ID")){
+										if( ((tbl_main).equals("//*[@id='case_tab_table']")) && (colHeader.get(j-2).getAttribute("innerText")=="Case ID")){
+											//j-1
 											System.out.println("Inside the dog filter control structure")
 											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr[" + i + "]/td[" + j +"]/div/a")).getAttribute("innerText").trim()) +"||")
 											System.out.println("This is the data after filtering for dog icon :"+data)
@@ -1257,12 +1260,12 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 									//This is for case file tab
 									tblcol=tblcol-2  // this is needed when files tab has 11 cols
 									System.out.println("This is the count of tblcol when files tab is selected: "+tblcol)
-									for (int j = 1; j<= tblcol; j = j + 1) {
+									for (int j = 0; j< tblcol; j = j + 1) {
 										System.out.println("Value of i is: "+i+"\nValue of j is: "+j)
 
 										if((colHeader.get(j).getAttribute("innerText"))!="Access") {
 											System.out.println("This is the name of column header: "+colHeader.get(j).getAttribute("innerText"))
-											data = data + ( (driver.findElement(By.xpath(tbl_bdy +"/tr[" + i + "]/td[" + (j+1) +"]")).getAttribute("innerText").trim()) +"||")
+											data = data + ( (driver.findElement(By.xpath(tbl_bdy +"/tr[" + i + "]/td[" + (j+2) +"]")).getAttribute("innerText").trim()) +"||")//(j+1)
 											System.out.println("This is the data after filtering for dog icon :"+data)
 										}
 									}
@@ -1270,12 +1273,12 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 									//This is for case file tab
 									tblcol=tblcol-5  // this is needed when study files has 8 cols
 									System.out.println("This is the count of tblcol when study files tab is selected: "+tblcol)
-									for (int j = 1; j<= tblcol; j = j + 1) {
+									for (int j = 0; j< tblcol; j = j + 1) {
 										System.out.println("Value of i is: "+i+"\nValue of j is: "+j)
 
 										if((colHeader.get(j).getAttribute("innerText"))!="Access") {
 											System.out.println("This is the name of column header  :"+colHeader.get(j).getAttribute("innerText"))
-											data = data + ((driver.findElement(By.xpath(tbl_bdy +"//tr" + "[" + i + "]/td[" + (j+1) +"]")).getAttribute("innerText")) +"||")
+											data = data + ((driver.findElement(By.xpath(tbl_bdy +"//tr" + "[" + i + "]/td[" + (j+2) +"]")).getAttribute("innerText")) +"||")
 											System.out.println("This is the value of data :"+data)
 										}
 									}
@@ -1428,7 +1431,8 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 
 				scrolltoViewjs(nextButton)   //added to address the unable to scroll into view issue/ another element obscures next button issue
 
-				if (nextButton.getAttribute("class").contains("disabled")){
+				//if (nextButton.getAttribute("class").contains("disabled")){
+				if (nextButton.getAttribute("disabled")){
 					break;
 				} else {
 					System.out.println("COLLECTED DATA FROM PAGE - " +counter);

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_ICDC_UC01_Diagnosis-UrothelialCarcinoma</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cbc5e662-2af1-454f-a376-80b69c5317f8</testCaseGuid>
+</TestCaseEntity>

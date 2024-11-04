@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC12_ICDC_UC01_SamplePatho-UrothelialCarcinoma</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bbd5f2e9-6581-4751-a32d-1cb30e3c75fb</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,73 @@
+type	case.case_id	study.clinical_study_designation	sample.sample_id	diagnosis.diagnosis_id	file_name	file_type	file_description	file_size	md5sum
+file			UC01-UD-001		UC01-UD-001.bam	Whole Exome Sequence File	BRAF V595E-undetected urine sediment WES readsaligned to canFam3.1	43466323632	388aa3cbc7fdf7e4c1a8c5ee0f9301ed
+file			UC01-UD-003		UC01-UD-003.bam	Whole Exome Sequence File	BRAF V595E-undetected urine sediment WES readsaligned to canFam3.1	44295284688	c3b226c3ffc349485e7655868bcbe4d0
+file			UC01-UD-007		UC01-UD-007.bam	Whole Exome Sequence File	BRAF V595E-undetected urine sediment WES readsaligned to canFam3.1	44904553447	e7be30c97f8dd231dd6c2d93466b4fbc
+file			UC01-UD-018		UC01-UD-018.bam	Whole Exome Sequence File	BRAF V595E-undetected urine sediment WES readsaligned to canFam3.1	40721359388	3aa04e52cf712ab2b1d6992558310077
+file			UC01-UD-027		UC01-UD-027.bam	Whole Exome Sequence File	BRAF V595E-undetected urine sediment WES readsaligned to canFam3.1	43976633236	fea625757682a926d27efbf63adb4659
+file			UC01-UD-033		UC01-UD-033.bam	Whole Exome Sequence File	BRAF V595E-undetected urine sediment WES readsaligned to canFam3.1	37351055714	41bbf01bd81fa3178056da632e40c2d9
+file			UC01-UD-049		UC01-UD-049.bam	Whole Exome Sequence File	BRAF V595E-undetected urine sediment WES readsaligned to canFam3.1	45865050082	a6db908fae36208fac0fc58275fb9713
+file			UC01-UD-054		UC01-UD-054.bam	Whole Exome Sequence File	BRAF V595E-undetected urine sediment WES readsaligned to canFam3.1	40873815982	4c1d2c88556b4c30437394c7d759288c
+file			UC01-UD-081		UC01-UD-081.bam	Whole Exome Sequence File	BRAF V595E-undetected urine sediment WES readsaligned to canFam3.1	52135230639	778710b2eb362ecc671ff5f21156028c
+file			UC01-UD-082		UC01-UD-082.bam	Whole Exome Sequence File	BRAF V595E-undetected urine sediment WES readsaligned to canFam3.1	60633654502	4c8f01dec140628b0133625922928a87
+file			UC01-UD-084		UC01-UD-084.bam	Whole Exome Sequence File	BRAF V595E-undetected urine sediment WES readsaligned to canFam3.1	62035093314	1970c4aec731660fe38d68f795822cf0
+file			UC01-UD-085		UC01-UD-085.bam	Whole Exome Sequence File	BRAF V595E-undetected urine sediment WES readsaligned to canFam3.1	40739085863	03c8e4eb6ce4261b68198fcca3489757
+file			UC01-UD-088		UC01-UD-088.bam	Whole Exome Sequence File	BRAF V595E-undetected urine sediment WES readsaligned to canFam3.1	34476670377	69b2cc2e7bbf458b202d7edb561acb2c
+file			UC01-UD-091		UC01-UD-091.bam	Whole Exome Sequence File	BRAF V595E-undetected urine sediment WES readsaligned to canFam3.1	40950080362	2cc699a5dbdb9bb15813683c51f75c67
+file			UC01-UD-092		UC01-UD-092.bam	Whole Exome Sequence File	BRAF V595E-undetected urine sediment WES readsaligned to canFam3.1	37025250141	09049ac58f30fe049b9f8a0d1a0d63c0
+file			UC01-UD-097		UC01-UD-097.bam	Whole Exome Sequence File	BRAF V595E-undetected urine sediment WES readsaligned to canFam3.1	43325456835	cbd90aed46fed8c87d3c8239d36737ea
+file			UC01-UD-098		UC01-UD-098.bam	Whole Exome Sequence File	BRAF V595E-undetected urine sediment WES readsaligned to canFam3.1	38185145501	02c0902018c22e83d72801fa22a97a1d
+file			UC01-UD-099		UC01-UD-099.bam	Whole Exome Sequence File	BRAF V595E-undetected urine sediment WES readsaligned to canFam3.1	52633782133	655b4b3da9fc4e8e73570ca29650f477
+file			UC01-UD-100		UC01-UD-100.bam	Whole Exome Sequence File	BRAF V595E-undetected urine sediment WES readsaligned to canFam3.1	47657766794	6bd807343c7229c48e752e298eefe742
+file			UC01-UD-102		UC01-UD-102.bam	Whole Exome Sequence File	BRAF V595E-undetected urine sediment WES readsaligned to canFam3.1	42214728028	22bc07ea98bfbea3a071fbcca7de7191
+file			UC01-UD-104		UC01-UD-104.bam	Whole Exome Sequence File	BRAF V595E-undetected urine sediment WES readsaligned to canFam3.1	51606734884	305a5714f693cdec454ffb7639869399
+file			UC01-UD-105		UC01-UD-105.bam	Whole Exome Sequence File	BRAF V595E-undetected urine sediment WES readsaligned to canFam3.1	47248401882	ced0d035bbba98f75bf4267784e085d3
+file			UC01-UD-106		UC01-UD-106.bam	Whole Exome Sequence File	BRAF V595E-undetected urine sediment WES readsaligned to canFam3.1	50149514097	f9558f7bb779a167efe4a627b13d59fe
+file			UC01-UD-108		UC01-UD-108.bam	Whole Exome Sequence File	BRAF V595E-undetected urine sediment WES readsaligned to canFam3.1	45711557771	56f45b2c920dd9311ba76814aa1137e5
+file			UC01-UD-109		UC01-UD-109.bam	Whole Exome Sequence File	BRAF V595E-undetected urine sediment WES readsaligned to canFam3.1	44801795652	6e37d7a7d4ef1dc91578adc25e43eac5
+file			UC01-UD-110		UC01-UD-110.bam	Whole Exome Sequence File	BRAF V595E-undetected urine sediment WES readsaligned to canFam3.1	46263828164	20fdf7c012b96a0baa49e5ab13f031f4
+file			UC01-UD-112		UC01-UD-112.bam	Whole Exome Sequence File	BRAF V595E-undetected urine sediment WES readsaligned to canFam3.1	57474417509	518a52cf3b95eef205cde0f0c8850db2
+file			UC01-UD-113		UC01-UD-113.bam	Whole Exome Sequence File	BRAF V595E-undetected urine sediment WES readsaligned to canFam3.1	39713479737	8907173a906af04e12298e5eaa3139c6
+file			UC01-POS-124		UC01-POS-124.bam	Whole Exome Sequence File	BRAF V595E-positive urine sediment WES reads aligned to canFam3.1	50072210784	b83573266f65b0546d8a543f6ad3a227
+file			UC01-POS-125		UC01-POS-125.bam	Whole Exome Sequence File	BRAF V595E-positive urine sediment WES reads aligned to canFam3.1	44850728941	117c2c27e3a9136d147ddcc2f9334f77
+file			UC01-POS-127		UC01-POS-127.bam	Whole Exome Sequence File	BRAF V595E-positive urine sediment WES reads aligned to canFam3.1	43976944385	87f837952756ebe925f56e009ca007bd
+file			UC01-POS-128		UC01-POS-128.bam	Whole Exome Sequence File	BRAF V595E-positive urine sediment WES reads aligned to canFam3.1	42383598765	7fee519a6419c8eaece5cf5979356894
+file			UC01-POS-131		UC01-POS-131.bam	Whole Exome Sequence File	BRAF V595E-positive urine sediment WES reads aligned to canFam3.1	62821012267	48d4ab359d6574e14f3f3c975fe2f213
+file			UC01-POS-134		UC01-POS-134.bam	Whole Exome Sequence File	BRAF V595E-positive urine sediment WES reads aligned to canFam3.1	57179740020	724539678d77a488941892f04b5a26b7
+file			UC01-POS-138		UC01-POS-138.bam	Whole Exome Sequence File	BRAF V595E-positive urine sediment WES reads aligned to canFam3.1	39930196233	e0ad39e0aca24b7d3b9a8e7d2b6fea6b
+file			UC01-POS-2027		UC01-POS-2027.bam	Whole Exome Sequence File	BRAF V595E-positive urine sediment WES reads aligned to canFam3.1	42825142356	bec070ebc9ad7e4cfd419a9ce410671b
+file			UC01-UD-001		UC01-UD-001.bai	Index File	BRAF V595E-undetected urine sediment bam index file	6878928	c34be0a31099c9b932239df9a9b7f288
+file			UC01-UD-003		UC01-UD-003.bai	Index File	BRAF V595E-undetected urine sediment bam index file	6214360	7a688d9045de905562cd0b3e62f60ef3
+file			UC01-UD-007		UC01-UD-007.bai	Index File	BRAF V595E-undetected urine sediment bam index file	6940632	b28e1c3bb2e6009b24ac8800d64b7be8
+file			UC01-UD-018		UC01-UD-018.bai	Index File	BRAF V595E-undetected urine sediment bam index file	6174544	bbc37291cce55cebeb13fd00e511270d
+file			UC01-UD-027		UC01-UD-027.bai	Index File	BRAF V595E-undetected urine sediment bam index file	6406200	8e32656e319daa999699c71235b5d034
+file			UC01-UD-033		UC01-UD-033.bai	Index File	BRAF V595E-undetected urine sediment bam index file	6168256	626f45a2cd7ed9dfad52a7d6299c0af1
+file			UC01-UD-049		UC01-UD-049.bai	Index File	BRAF V595E-undetected urine sediment bam index file	6491520	8f6be0922be7d6dea9271a57386c91f1
+file			UC01-UD-054		UC01-UD-054.bai	Index File	BRAF V595E-undetected urine sediment bam index file	6194272	25d37b086509a6d6feb3c3c72555b54e
+file			UC01-UD-081		UC01-UD-081.bai	Index File	BRAF V595E-undetected urine sediment bam index file	7484608	12e89fcd3ab85ef9148486e376897155
+file			UC01-UD-082		UC01-UD-082.bai	Index File	BRAF V595E-undetected urine sediment bam index file	7501872	17bd60cd3b534fcc043d36e97a773c91
+file			UC01-UD-084		UC01-UD-084.bai	Index File	BRAF V595E-undetected urine sediment bam index file	7536728	c8b25b887d0fd4089ab36420643c6140
+file			UC01-UD-085		UC01-UD-085.bai	Index File	BRAF V595E-undetected urine sediment bam index file	6158816	b1b60c02d9e6ccdc991b599bab083f6e
+file			UC01-UD-088		UC01-UD-088.bai	Index File	BRAF V595E-undetected urine sediment bam index file	6034056	7e26976683aee3309ee22cd9bfa31794
+file			UC01-UD-091		UC01-UD-091.bai	Index File	BRAF V595E-undetected urine sediment bam index file	6233720	3663a46adbad094e319d39258fd832b3
+file			UC01-UD-092		UC01-UD-092.bai	Index File	BRAF V595E-undetected urine sediment bam index file	6202528	04bc067c5f59c5f1acc3d3070b2c75aa
+file			UC01-UD-097		UC01-UD-097.bai	Index File	BRAF V595E-undetected urine sediment bam index file	6753008	4b841fd89d47b623e59edd8429de642a
+file			UC01-UD-098		UC01-UD-098.bai	Index File	BRAF V595E-undetected urine sediment bam index file	6092784	51a4286274b930f1f490ef17bd3d65bc
+file			UC01-UD-099		UC01-UD-099.bai	Index File	BRAF V595E-undetected urine sediment bam index file	7189632	5e636ae881279d59f8279e9179d179da
+file			UC01-UD-100		UC01-UD-100.bai	Index File	BRAF V595E-undetected urine sediment bam index file	7101640	1dc4b412b358b344b926f1eb328e67a5
+file			UC01-UD-102		UC01-UD-102.bai	Index File	BRAF V595E-undetected urine sediment bam index file	6228128	53575039715941534ba7ef32a74730b6
+file			UC01-UD-104		UC01-UD-104.bai	Index File	BRAF V595E-undetected urine sediment bam index file	7323768	c2b304093a32fb97c0e3d87fccf7ab20
+file			UC01-UD-105		UC01-UD-105.bai	Index File	BRAF V595E-undetected urine sediment bam index file	7216512	a67a637b34cb1adb8e5a820d6bf93581
+file			UC01-UD-106		UC01-UD-106.bai	Index File	BRAF V595E-undetected urine sediment bam index file	7480000	473727b841591c2f3385da2cd9354c19
+file			UC01-UD-108		UC01-UD-108.bai	Index File	BRAF V595E-undetected urine sediment bam index file	7246184	7410e2929000a454702624f80ed61c53
+file			UC01-UD-109		UC01-UD-109.bai	Index File	BRAF V595E-undetected urine sediment bam index file	6642328	70c802dc7b7b721e9f51a57191f73aea
+file			UC01-UD-110		UC01-UD-110.bai	Index File	BRAF V595E-undetected urine sediment bam index file	6999944	75d578c4abfbd18e9c836acc4b66e289
+file			UC01-UD-112		UC01-UD-112.bai	Index File	BRAF V595E-undetected urine sediment bam index file	7389808	5e27fb8702044582de571df406921b4e
+file			UC01-UD-113		UC01-UD-113.bai	Index File	BRAF V595E-undetected urine sediment bam index file	6252976	bd9992476ac355dda884bf05df361271
+file			UC01-POS-124		UC01-POS-124.bai	Index File	BRAF V595E-positive urine sediment bam index file	7088600	33edf2a75e4520a3b5a64da262bf2e24
+file			UC01-POS-125		UC01-POS-125.bai	Index File	BRAF V595E-positive urine sediment bam index file	6392184	5f7ab39e54941ca54caebf71fb290874
+file			UC01-POS-127		UC01-POS-127.bai	Index File	BRAF V595E-positive urine sediment bam index file	7345976	26ad4c520d3ee0dc17236de964897af8
+file			UC01-POS-128		UC01-POS-128.bai	Index File	BRAF V595E-positive urine sediment bam index file	6519304	dda53e155cb4b32b232a3e1f72a7c826
+file			UC01-POS-131		UC01-POS-131.bai	Index File	BRAF V595E-positive urine sediment bam index file	7539544	93d261e22ba4ab130e06cc3285117be3
+file			UC01-POS-134		UC01-POS-134.bai	Index File	BRAF V595E-positive urine sediment bam index file	7466248	3be077445afbdccbca8fe89603205fe6
+file			UC01-POS-138		UC01-POS-138.bai	Index File	BRAF V595E-positive urine sediment bam index file	6366688	55eac589056e1a73d8241ab90515da15
+file			UC01-POS-2027		UC01-POS-2027.bai	Index File	BRAF V595E-positive urine sediment bam index file	6531688	29aa6ff77481ab0a3c4654ff78b9d311
