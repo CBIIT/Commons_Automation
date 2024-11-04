@@ -99,7 +99,7 @@
       <guid>a98a961d-78ae-4c7b-ac52-b447ce053bad</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/INS_TestCases/CancerType/TC04_INS_CancerType-BroadCancerTypes</testCaseId>
+      <testCaseId>Test Cases/INS_TestCases/CancerType/TC04_INS_CancerType-GynecologicCancer</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

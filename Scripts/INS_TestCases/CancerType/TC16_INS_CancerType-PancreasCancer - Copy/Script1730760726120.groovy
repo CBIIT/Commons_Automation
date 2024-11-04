@@ -30,13 +30,13 @@ import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.closeBrowser()
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC04_INS_CancerType-BroadCancerTypes.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC16_INS_CancerType-PancreasCancer.xlsx')
 
 WebUI.waitForElementPresent(findTestObject('INS/Navbar/Programs-Btn'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('INS/Navbar/Explore-Btn')
 
-WebUI.waitForElementPresent(findTestObject('INS/Filters/CancerType/BroadCancerTypes-Chkbx'), 15)
-CustomKeywords.'utilities.TestRunner.clickTabINSStat'('INS/Filters/CancerType/BroadCancerTypes-Chkbx')
+WebUI.waitForElementPresent(findTestObject('INS/Filters/CancerType/PancreasCancer-Chkbx'), 15)
+CustomKeywords.'utilities.TestRunner.clickTabINSStat'('INS/Filters/CancerType/PancreasCancer-Chkbx')
  
 //Read Statbar
 CustomKeywords.'utilities.TestRunner.readStatBarINS'('INS/Statbar/Statbar-Programs', 'INS/Statbar/Statbar-Projects', 
@@ -44,7 +44,6 @@ CustomKeywords.'utilities.TestRunner.readStatBarINS'('INS/Statbar/Statbar-Progra
 
 //Clicking Programs tab
 WebUI.waitForElementPresent(findTestObject('INS/ResultTabs/Programs-Tab'), 5)
-//WebUI.waitForElementPresent(findTestObject('INS/ResultTabs/Programs-Tab'), 5) use website 
 CustomKeywords.'utilities.TestRunner.clickTab'('INS/ResultTabs/Programs-Tab')
 CustomKeywords.'utilities.TestRunner.multiFunction'('INS', GlobalVariable.G_StatBar_Programs, 'INS/ResultTabs/Programs-Tbl', 
     'INS/ResultTabs/Programs-TblHdr', 'INS/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnamePrograms, 'TsvDataPrograms', 

@@ -30,20 +30,21 @@ import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.closeBrowser()
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC01_INS_CancerType-BladderCancer.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC04_INS_CancerType-GynecologicCancer.xlsx')
 
 WebUI.waitForElementPresent(findTestObject('INS/Navbar/Programs-Btn'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('INS/Navbar/Programs-Btn')
 
-WebUI.waitForElementPresent(findTestObject('INS/Filters/CancerType/BladderCancer-Chkbx'), 15)
-CustomKeywords.'utilities.TestRunner.clickTabINSStat'('INS/Filters/CancerType/BladderCancer-Chkbx')
-
+WebUI.waitForElementPresent(findTestObject('INS/Filters/CancerType/GynecologicCancer-Chkbx'), 15)
+CustomKeywords.'utilities.TestRunner.clickTabINSStat'('INS/Filters/CancerType/GynecologicCancer-Chkbx')
+ 
 //Read Statbar
 CustomKeywords.'utilities.TestRunner.readStatBarINS'('INS/Statbar/Statbar-Programs', 'INS/Statbar/Statbar-Projects', 
 	'INS/Statbar/Statbar-Grants', 'INS/Statbar/Statbar-Publications')
 
 //Clicking Programs tab
 WebUI.waitForElementPresent(findTestObject('INS/ResultTabs/Programs-Tab'), 5)
+//WebUI.waitForElementPresent(findTestObject('INS/ResultTabs/Programs-Tab'), 5) use website 
 CustomKeywords.'utilities.TestRunner.clickTab'('INS/ResultTabs/Programs-Tab')
 CustomKeywords.'utilities.TestRunner.multiFunction'('INS', GlobalVariable.G_StatBar_Programs, 'INS/ResultTabs/Programs-Tbl', 
     'INS/ResultTabs/Programs-TblHdr', 'INS/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnamePrograms, 'TsvDataPrograms', 
@@ -55,7 +56,7 @@ CustomKeywords.'utilities.TestRunner.clickTab'('INS/ResultTabs/Projects-Tab')
 CustomKeywords.'utilities.TestRunner.multiFunction'('INS', GlobalVariable.G_StatBar_Projects, 'INS/ResultTabs/Projects-Tbl',
 	'INS/ResultTabs/Projects-TblHdr', 'INS/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameProjects, 'TsvDataProjects',
 	GlobalVariable.G_QueryProjectsTab)
-*/
+
 //Clicking Grants tab 
 WebUI.waitForElementPresent(findTestObject('INS/ResultTabs/Grants-Tab'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('INS/ResultTabs/Grants-Tab')
@@ -69,6 +70,6 @@ CustomKeywords.'utilities.TestRunner.clickTab'('INS/ResultTabs/Publications-Tab'
 CustomKeywords.'utilities.TestRunner.multiFunction'('INS', GlobalVariable.G_StatBar_Publications, 'INS/ResultTabs/Publications-Tbl',
 	'INS/ResultTabs/Publications-TblHdr', 'INS/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnamePublications, 'TsvDataPublications',
 	GlobalVariable.G_QueryProjectsTab)
-
+*/
 WebUI.closeBrowser()
 
