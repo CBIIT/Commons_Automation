@@ -30,13 +30,13 @@ import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.closeBrowser()
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC04_INS_FocusArea-NoFocusArea.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC04_INS_SpecialTopic-General.xlsx')
 
 WebUI.waitForElementPresent(findTestObject('INS/Navbar/Programs-Btn'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('INS/Navbar/Explore-Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('INS/Navbar/Programs-Btn')
 
-WebUI.waitForElementPresent(findTestObject('null'), 15)
-CustomKeywords.'utilities.TestRunner.clickTabINSStat'('INS/Filters/FocusArea/NoFocusArea-Chkbx')
+WebUI.waitForElementPresent(findTestObject('INS/Filters/SpecialTopic/General-Chkbx'), 15)
+CustomKeywords.'utilities.TestRunner.clickTabINSStat'('INS/Filters/SpecialTopic/General-Chkbx')
 
 //Read Statbar
 CustomKeywords.'utilities.TestRunner.readStatBarINS'('INS/Statbar/Statbar-Programs', 'INS/Statbar/Statbar-Projects', 
@@ -48,7 +48,7 @@ CustomKeywords.'utilities.TestRunner.clickTab'('INS/ResultTabs/Programs-Tab')
 CustomKeywords.'utilities.TestRunner.multiFunction'('INS', GlobalVariable.G_StatBar_Programs, 'INS/ResultTabs/Programs-Tbl', 
     'INS/ResultTabs/Programs-TblHdr', 'INS/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnamePrograms, 'TsvDataPrograms', 
     GlobalVariable.G_QueryProgramsTab)
-
+/*
 //Clicking Projects tab
 WebUI.waitForElementPresent(findTestObject('INS/ResultTabs/Projects-Tab'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('INS/ResultTabs/Projects-Tab')
@@ -69,6 +69,6 @@ CustomKeywords.'utilities.TestRunner.clickTab'('INS/ResultTabs/Publications-Tab'
 CustomKeywords.'utilities.TestRunner.multiFunction'('INS', GlobalVariable.G_StatBar_Publications, 'INS/ResultTabs/Publications-Tbl',
 	'INS/ResultTabs/Publications-TblHdr', 'INS/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnamePublications, 'TsvDataPublications',
 	GlobalVariable.G_QueryProjectsTab)
-
+*/
 WebUI.closeBrowser()
 
