@@ -30,13 +30,13 @@ import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.closeBrowser()
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC03_INS_FocusArea-HIV_AIDS.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC03_INS_SpecialTopic-HIV_AIDS.xlsx')
 
 WebUI.waitForElementPresent(findTestObject('INS/Navbar/Programs-Btn'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('INS/Navbar/Explore-Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('INS/Navbar/Programs-Btn')
 
-WebUI.waitForElementPresent(findTestObject('INS/Filters/SpecialTopic/HIVAIDS-Chkbx'), 15)
-CustomKeywords.'utilities.TestRunner.clickTabINSStat'('INS/Filters/FocusArea/HIVAIDS-Chkbx')
+WebUI.waitForElementPresent(findTestObject('Object Repository/INS/Filters/SpecialTopic/HIVAIDS-Chkbx'), 15)
+CustomKeywords.'utilities.TestRunner.clickTabINSStat'('Object Repository/INS/Filters/SpecialTopic/HIVAIDS-Chkbx')
  
 //Read Statbar
 CustomKeywords.'utilities.TestRunner.readStatBarINS'('INS/Statbar/Statbar-Programs', 'INS/Statbar/Statbar-Projects', 
@@ -48,14 +48,14 @@ CustomKeywords.'utilities.TestRunner.clickTab'('INS/ResultTabs/Programs-Tab')
 CustomKeywords.'utilities.TestRunner.multiFunction'('INS', GlobalVariable.G_StatBar_Programs, 'INS/ResultTabs/Programs-Tbl', 
     'INS/ResultTabs/Programs-TblHdr', 'INS/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnamePrograms, 'TsvDataPrograms', 
     GlobalVariable.G_QueryProgramsTab)
-
-//Clicking Projects tab
+/*
+//Clicking Projects tab  //Project End Date is not loaded in the result table in UI. Defect INS-1185
 WebUI.waitForElementPresent(findTestObject('INS/ResultTabs/Projects-Tab'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('INS/ResultTabs/Projects-Tab')
 CustomKeywords.'utilities.TestRunner.multiFunction'('INS', GlobalVariable.G_StatBar_Projects, 'INS/ResultTabs/Projects-Tbl',
 	'INS/ResultTabs/Projects-TblHdr', 'INS/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameProjects, 'TsvDataProjects',
 	GlobalVariable.G_QueryProjectsTab)
-
+*/
 //Clicking Grants tab
 WebUI.waitForElementPresent(findTestObject('INS/ResultTabs/Grants-Tab'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('INS/ResultTabs/Grants-Tab')

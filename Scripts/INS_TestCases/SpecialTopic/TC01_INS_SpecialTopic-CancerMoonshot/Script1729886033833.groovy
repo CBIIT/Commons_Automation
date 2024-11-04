@@ -35,28 +35,28 @@ CustomKeywords.'utilities.TestRunner.RunKatalon'('TC01_INS_SpecialTopic-CancerMo
 WebUI.waitForElementPresent(findTestObject('INS/Navbar/Programs-Btn'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('INS/Navbar/Programs-Btn')
 
-WebUI.waitForElementPresent(findTestObject('INS/Filters/SpecialTopic/Moonshot-Chkbx'), 15)
-CustomKeywords.'utilities.TestRunner.clickTabINSStat'('INS/Filters/SpecialTopic/Moonshot-Chkbx')
+WebUI.waitForElementPresent(findTestObject('Object Repository/INS/Filters/SpecialTopic/Moonshot-Chkbx'), 15)
+CustomKeywords.'utilities.TestRunner.clickTabINSStat'('Object Repository/INS/Filters/SpecialTopic/Moonshot-Chkbx')
 
 //Read Statbar
 CustomKeywords.'utilities.TestRunner.readStatBarINS'('INS/Statbar/Statbar-Programs', 'INS/Statbar/Statbar-Projects', 
 	'INS/Statbar/Statbar-Grants', 'INS/Statbar/Statbar-Publications')
-/*
+
 //Clicking Programs tab
 WebUI.waitForElementPresent(findTestObject('INS/ResultTabs/Programs-Tab'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('INS/ResultTabs/Programs-Tab')
 CustomKeywords.'utilities.TestRunner.multiFunction'('INS', GlobalVariable.G_StatBar_Programs, 'INS/ResultTabs/Programs-Tbl', 
     'INS/ResultTabs/Programs-TblHdr', 'INS/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnamePrograms, 'TsvDataPrograms', 
     GlobalVariable.G_QueryProgramsTab)
-
-//Clicking Projects tab
+/*
+//Clicking Projects tab //Project End Date is not loaded in the result table in UI. Defect INS-1185
 WebUI.waitForElementPresent(findTestObject('INS/ResultTabs/Projects-Tab'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('INS/ResultTabs/Projects-Tab')
 CustomKeywords.'utilities.TestRunner.multiFunction'('INS', GlobalVariable.G_StatBar_Projects, 'INS/ResultTabs/Projects-Tbl',
 	'INS/ResultTabs/Projects-TblHdr', 'INS/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameProjects, 'TsvDataProjects',
 	GlobalVariable.G_QueryProjectsTab)
 
-//Clicking Grants tab 
+//Clicking Grants tab  // extra space issue in data
 WebUI.waitForElementPresent(findTestObject('INS/ResultTabs/Grants-Tab'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('INS/ResultTabs/Grants-Tab')
 CustomKeywords.'utilities.TestRunner.multiFunction'('INS', GlobalVariable.G_StatBar_Grants, 'INS/ResultTabs/Grants-Tbl',
