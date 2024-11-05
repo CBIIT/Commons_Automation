@@ -56,7 +56,7 @@ CustomKeywords.'utilities.TestRunner.clickTab'('INS/ResultTabs/Projects-Tab')
 CustomKeywords.'utilities.TestRunner.multiFunction'('INS', GlobalVariable.G_StatBar_Projects, 'INS/ResultTabs/Projects-Tbl',
 	'INS/ResultTabs/Projects-TblHdr', 'INS/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameProjects, 'TsvDataProjects',
 	GlobalVariable.G_QueryProjectsTab)
-
+*/
 //Clicking Grants tab 
 WebUI.waitForElementPresent(findTestObject('INS/ResultTabs/Grants-Tab'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('INS/ResultTabs/Grants-Tab')
@@ -70,6 +70,6 @@ CustomKeywords.'utilities.TestRunner.clickTab'('INS/ResultTabs/Publications-Tab'
 CustomKeywords.'utilities.TestRunner.multiFunction'('INS', GlobalVariable.G_StatBar_Publications, 'INS/ResultTabs/Publications-Tbl',
 	'INS/ResultTabs/Publications-TblHdr', 'INS/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnamePublications, 'TsvDataPublications',
 	GlobalVariable.G_QueryProjectsTab)
-*/
+
 WebUI.closeBrowser()
 
