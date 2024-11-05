@@ -5,19 +5,12 @@
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>3</numberOfRerun>
+   <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>f16c2755-4e04-48e8-93c2-3d6381b3115c</testSuiteGuid>
-   <testCaseLink>
-      <guid>ffbf1e24-e1be-4126-a958-e30ca458a000</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Canine_TestCases/Studies/COTC007B/TC03_ICDC_COTC007B_Breed-BerMountDog</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
    <testCaseLink>
       <guid>76e297dd-ad8d-4fc0-9a97-bce0c60c1d75</guid>
       <isReuseDriver>false</isReuseDriver>
@@ -32,5 +25,4 @@
       <testCaseId>Test Cases/Canine_TestCases/Studies/MGT01/TC01_ICDC_MGT01_Breed-LabradorRetriever</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
- 
 </TestSuiteEntity>
