@@ -19,7 +19,7 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.closeBrowser()
 
 CustomKeywords.'utilities.TestRunner.RunKatalon'('TC01_ICDC_COTC022_Breed-Bulldog.xlsx')
-
+WebUI.waitForElementPresent(findTestObject('Canine/Canine_PopUp_Continue_Btn'), 10)
 CustomKeywords.'utilities.TestRunner.clickTab'('Canine/Canine_PopUp_Continue_Btn')
 System.out.println ("Closed the popup window");
 
