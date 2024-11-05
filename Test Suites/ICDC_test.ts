@@ -32,25 +32,5 @@
       <testCaseId>Test Cases/Canine_TestCases/Studies/MGT01/TC01_ICDC_MGT01_Breed-LabradorRetriever</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
-   <testCaseLink>
-      <guid>a7b4c172-3f03-40c4-82b0-16ad5d69b718</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Canine_TestCases/Studies/OSA03/TC01_ICDC_OSA03_Breed-Boxer</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>796695f1-50f5-4c83-9615-89e552a3b3cb</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Canine_TestCases/Studies/TLC01/TC01_ICDC_TCL01_Breed-GoldenRetriever</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>06b4dfb5-db6d-4b78-81fc-c1bdbe36485f</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Canine_TestCases/Studies/UC01/TC03_ICDC_UC01_Breed-BassetHound</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
+ 
 </TestSuiteEntity>
