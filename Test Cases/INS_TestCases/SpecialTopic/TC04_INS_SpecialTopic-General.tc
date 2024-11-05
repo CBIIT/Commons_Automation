@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_INS_SpecialTopic-General</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>acdf6dad-4f40-4ed5-8377-1d4d979a31f6</testCaseGuid>
+</TestCaseEntity>
