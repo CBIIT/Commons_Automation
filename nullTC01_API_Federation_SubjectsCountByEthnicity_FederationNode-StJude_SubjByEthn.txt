@@ -1,2 +1,0 @@
-Response Status: 200
-Response Body: {"total":13956,"missing":0,"values":[{"value":"Not Hispanic or Latino","count":9954},{"value":"Not reported","count":3188},{"value":"Hispanic or Latino","count":795},{"value":"Unknown","count":19}]}

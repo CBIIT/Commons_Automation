@@ -21,14 +21,14 @@
    <testCaseLink>
       <guid>8e60d3c8-cc97-4a4d-a228-6765a42bd66e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/INS_TestCases/SpecialTopic/TC06_INS_SpecialTopic-SPORE</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>6346b073-bd2e-4f4d-88b0-f2e73a8e3f35</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/INS_TestCases/SpecialTopic/TC01_INS_SpecialTopic-CancerMoonshot</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
