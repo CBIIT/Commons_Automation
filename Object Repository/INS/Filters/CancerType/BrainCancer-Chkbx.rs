@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_CANCER TYPE_Brain Cancer&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Cancer Type_Brain Cancer&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_CANCER TYPE_Brain Cancer&quot;]</value>
-      <webElementGuid>7541801e-084b-4a8f-bc6a-a223730ff799</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Cancer Type_Brain Cancer&quot;]</value>
+      <webElementGuid>7169db98-7db2-4e1b-8e3a-4f056eae941c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

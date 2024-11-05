@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC16_INS_CancerType-PancreasCancer - Copy</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b08fccc1-2d83-426c-9b46-d4c97223835f</testCaseGuid>
+</TestCaseEntity>

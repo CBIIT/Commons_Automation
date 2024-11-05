@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC03_INS_FocusArea-HIV_AIDS</name>
-   <tag>Filter</tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>ad0082a8-f4e5-46a9-860b-83131027637e</testCaseGuid>
-</TestCaseEntity>

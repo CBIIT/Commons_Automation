@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC12_INS_CancerType-LungCancer - Copy</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6a00963e-cf2b-49de-bade-95759b9aa140</testCaseGuid>
+</TestCaseEntity>
