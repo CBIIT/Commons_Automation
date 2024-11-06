@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC11_INS_CancerType-LiverCancer - Copy</name>
+   <name>TC20_INS_CancerType-MultipleCancerTypes</name>
    <tag>Filter</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>07aefcd4-4ea9-4378-99e7-e209c608d21c</testCaseGuid>
+   <testCaseGuid>02c325a7-43d1-4141-a4ce-23848cba7422</testCaseGuid>
 </TestCaseEntity>

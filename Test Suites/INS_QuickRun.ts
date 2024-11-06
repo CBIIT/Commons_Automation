@@ -28,7 +28,7 @@
    <testCaseLink>
       <guid>6346b073-bd2e-4f4d-88b0-f2e73a8e3f35</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/INS_TestCases/SpecialTopic/TC01_INS_SpecialTopic-CancerMoonshot</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -58,6 +58,48 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/INS_TestCases/SpecialTopic/TC05_INS_SpecialTopic-PediatricAYA</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6a94f2e2-a465-4f5f-a79a-f101397db6f3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/INS_TestCases/CancerType/TC18_INS_CancerType-HeadandNeckCancer</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a98fdcba-edbb-4816-a806-e9388b4bc681</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/INS_TestCases/CancerType/TC19_INS_CancerType-Melanoma</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>40d50212-7236-49f1-98d5-775bcec6c70c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/INS_TestCases/CancerType/TC20_INS_CancerType-MultipleCancerTypes</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3c800eab-02d7-4b65-80af-30705efaeec5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/INS_TestCases/CancerType/TC21_INS_CancerType-ProstateCancer</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ca0ffa71-f4d4-4242-96a9-7c8820ff35d2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/INS_TestCases/CancerType/TC22_INS_CancerType-Sarcoma</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>220390d1-18e9-49ae-832f-f9d47f2bb12a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/INS_TestCases/CancerType/TC23_INS_CancerType-SkinCancer</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
