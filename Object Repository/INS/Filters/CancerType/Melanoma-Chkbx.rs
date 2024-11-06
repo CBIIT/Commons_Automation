@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Canine_PopUp_Continue_Btn</name>
+   <name>Melanoma-Chkbx</name>
    <tag></tag>
-   <elementGuidId>7e71448d-3f8c-42f0-97fe-e5b0783629ca</elementGuidId>
+   <elementGuidId>4bb37a46-fee6-4f0f-8298-6d0ed044bfd0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[2]/div[3]/div/div[2]/button</value>
+         <value>//*[@id=&quot;checkbox_Cancer Type_Melanoma&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[2]/div[3]/div/div[2]/button</value>
-      <webElementGuid>78b07f15-d687-4684-a6fc-84473e84a9dc</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Cancer Type_Melanoma&quot;]</value>
+      <webElementGuid>b24e0ca9-2ab5-4873-a695-65c9830874eb</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC13_INS_CancerType-Lymphoma - Copy</name>
+   <name>TC22_INS_CancerType-Sarcoma</name>
    <tag>Filter</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>02c325a7-43d1-4141-a4ce-23848cba7422</testCaseGuid>
+   <testCaseGuid>931d3143-956f-43af-80f8-9f82634b56ce</testCaseGuid>
 </TestCaseEntity>

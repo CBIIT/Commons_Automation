@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Canine_PopUp_Continue_Btn</name>
+   <name>ProstateCancer-Chkbx</name>
    <tag></tag>
-   <elementGuidId>7e71448d-3f8c-42f0-97fe-e5b0783629ca</elementGuidId>
+   <elementGuidId>1af29b15-4d1b-4027-91a8-68ddada6d331</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[2]/div[3]/div/div[2]/button</value>
+         <value>//*[@id=&quot;checkbox_Cancer Type_Prostate Cancer&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[2]/div[3]/div/div[2]/button</value>
-      <webElementGuid>78b07f15-d687-4684-a6fc-84473e84a9dc</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Cancer Type_Prostate Cancer&quot;]</value>
+      <webElementGuid>d8bb9a18-4259-4371-b882-3f8e9f7c2e7b</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
