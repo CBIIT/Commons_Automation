@@ -37,12 +37,12 @@ import com.kms.katalon.core.util.KeywordUtil
 import java.nio.file.Paths
 
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC01_C3DC_phs002599_SexAtBirth-Female.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC05_C3DC_phs002430_Diagnosis-88003SarcomaNOS.xlsx')
 
-//CustomKeywords.'utilities.PythonReader.readFile'('StudiesTab.py')
+CustomKeywords.'utilities.PythonReader.readFile'('StudiesTab.py')
 //CustomKeywords.'utilities.PythonReader.readFile'('ParticipantsTab.py')
 //CustomKeywords.'utilities.PythonReader.readFile'('DiagnosisTab.py')
-CustomKeywords.'utilities.PythonReader.readFile'('TreatmentTab.py')
+//CustomKeywords.'utilities.PythonReader.readFile'('TreatmentTab.py')
 //CustomKeywords.'utilities.PythonReader.readFile'('TreatmentRespTab.py')
 //CustomKeywords.'utilities.PythonReader.readFile'('SurvivalTab.py')
 //CustomKeywords.'utilities.PythonReader.readFile'('Statbar.py')

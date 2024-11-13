@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_C3DC_phs002599_Diagnosis-9811-3_B_lymphoblastic_leuk_NOS</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5dbe7dfe-4a93-4b2b-b764-ae14bca151fe</testCaseGuid>
+</TestCaseEntity>
