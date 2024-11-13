@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_C3DC_phs002599_SexAtBirth-Male</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bd30954f-bb62-4aff-bdaa-075bfa6b3dd4</testCaseGuid>
+</TestCaseEntity>

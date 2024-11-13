@@ -870,8 +870,15 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 			columns_count = (colHeader.size())
 			columns_count = columns_count;
 			System.out.println("Inside C3DC switch case for header data:  " + columns_count)
-			for(int c=0;c<columns_count;c++){
-				hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
+
+			if((tbl_main).equals("//*[@id='study_tab_table']")){
+				for(int c=0;c<columns_count;c++){
+					hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
+				}
+			}else {
+				for(int c=1;c<columns_count;c++){
+					hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
+				}
 			}
 
 			//******** CTDC function starts below ********
@@ -1075,40 +1082,40 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 										System.out.println("This is the value of  table  cell:  "+value)
 									}
 								}else if((tbl_main).equals("//*[@id='participant_tab_table']")){
-									tblcol=tblcol-4;
-									for (int j = 0; j <tblcol; j =j+1) {
+									tblcol=tblcol-3;
+									for (int j = 1; j <tblcol; j =j+1) {
 										System.out.println("This is the name of column header:  "+colHeader.get(j).getAttribute("innerText"))
 										String value = ((driver.findElement(By.xpath(tbl_bdy +"/tr[" + i + "]/td[" + (j+1) +"]")).getAttribute("innerText")))
 										data = data + value + "||"
 										System.out.println("This is the value of  table  cell:  "+value)
 									}
 								}else if((tbl_main).equals("//*[@id='diagnosis_tab_table']")){
-									tblcol=tblcol+1;
-									for (int j = 0; j <tblcol; j = j +1) {
+									tblcol=tblcol+2;
+									for (int j = 1; j <tblcol; j = j +1) {
 										System.out.println("This is the name of column header:  "+colHeader.get(j).getAttribute("innerText"))
 										String value = ((driver.findElement(By.xpath(tbl_bdy +"/tr[" + i + "]/td[" + (j+1) +"]")).getAttribute("innerText")))
 										data = data + value + "||"
 										System.out.println("This is the value of  table  cell:  "+value)
 									}
 								}else if((tbl_main).equals("//*[@id='treatment_tab_table']")){
-									tblcol=tblcol-1;
-									for (int j = 0; j <tblcol; j = j +1) {
+									tblcol=tblcol;
+									for (int j = 1; j <tblcol; j = j +1) {
 										System.out.println("This is the name of column header:  "+colHeader.get(j).getAttribute("innerText"))
 										String value = ((driver.findElement(By.xpath(tbl_bdy +"/tr[" + i + "]/td[" + (j+1) +"]")).getAttribute("innerText")))
 										data = data + value + "||"
 										System.out.println("This is the value of  table  cell:  "+value)
 									}
 								}else if((tbl_main).equals("//*[@id='treatment_response_tab_table']")){
-									tblcol=tblcol-1;
-									for (int j = 0; j <tblcol; j = j +1) {
+									tblcol=tblcol-2;
+									for (int j = 1; j <tblcol; j = j +1) {
 										System.out.println("This is the name of column header:  "+colHeader.get(j).getAttribute("innerText"))
 										String value = ((driver.findElement(By.xpath(tbl_bdy +"/tr[" + i + "]/td[" + (j+1) +"]")).getAttribute("innerText")))
 										data = data + value + "||"
 										System.out.println("This is the value of  table  cell:  "+value)
 									}
 								}else if((tbl_main).equals("//*[@id='survival_tab_table']")){
-									tblcol=tblcol-1;
-									for (int j = 0; j <tblcol; j = j +1) {
+									tblcol=tblcol;
+									for (int j = 1; j <tblcol; j = j +1) {
 										System.out.println("This is the name of column header:  "+colHeader.get(j).getAttribute("innerText"))
 										String value = ((driver.findElement(By.xpath(tbl_bdy +"/tr[" + i + "]/td[" + (j+1) +"]")).getAttribute("innerText")))
 										data = data + value + "||"

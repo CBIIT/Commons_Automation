@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_C3DC_phs002599_AnatomicSite-Blood</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ec6b688d-b0a1-4c92-ad5a-e93ae8cd3426</testCaseGuid>
+</TestCaseEntity>

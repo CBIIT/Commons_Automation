@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC08_C3DC_phs002599_DiseasePhase-Unknown</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>406c4f5a-b3a2-4e45-88cb-01b0b0fd0361</testCaseGuid>
+</TestCaseEntity>

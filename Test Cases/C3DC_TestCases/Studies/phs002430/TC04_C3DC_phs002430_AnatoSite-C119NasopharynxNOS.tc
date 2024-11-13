@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_C3DC_phs002430_AnatoSite-C119NasopharynxNOS</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fe361b24-98a6-4506-bdb5-224b373b717e</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_C3DC_phs002430_SexAtBirth-Unknown</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fc18b899-df33-425d-98ee-116bd480d70d</testCaseGuid>
+</TestCaseEntity>
