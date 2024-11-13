@@ -1430,6 +1430,8 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 				scrolltoViewjs(nextButton)   //added to address the unable to scroll into view issue/ another element obscures next button issue
 
 				if (nextButton.getAttribute("class").contains("disabled")){
+					System.out.println("Next button is disabled")
+					System.out.println("COLLECTED DATA FROM PAGE - " +counter);
 					break;
 				} else {
 					System.out.println("COLLECTED DATA FROM PAGE - " +counter);
