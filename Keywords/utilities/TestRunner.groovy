@@ -777,6 +777,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 			}else{
 				columns_count = (colHeader.size())
 				for(int c=0;c<columns_count;c++){
+					//valentina
 					if((colHeader.get(c).getAttribute("innerText"))!="Access"){
 						//if column header = 'Access' ignore adding it to the hdrdata string
 						System.out.println ("This is the value of col header index : "+c)
