@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SortByRace-Colm</name>
+   <tag></tag>
+   <elementGuidId>ca6165eb-b55d-43a1-84f3-67705ee2fa63</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[text()='Race']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[text()='Race']</value>
+      <webElementGuid>5bd16b6d-9c16-4436-83a7-5c92fd35e900</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

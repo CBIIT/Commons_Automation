@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC12_C3DC_phs002599_CauseOfDeath-NotReported</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>31bafdf6-4fb8-45fc-94de-ee1926ed02fb</testCaseGuid>
+</TestCaseEntity>

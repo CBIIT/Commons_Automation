@@ -10,17 +10,18 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;survival_tab_table&quot;]/div[3]/table/thead</value>
+         <value>//*[@id=&quot;survival_tab_table&quot;]//table/thead</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;survival_tab_table&quot;]/div[3]/table/thead</value>
-      <webElementGuid>7905dc78-86c2-4017-895d-e86c8ebc846c</webElementGuid>
+      <value>//*[@id=&quot;survival_tab_table&quot;]//table/thead</value>
+      <webElementGuid>41ff6edf-cc74-4ab3-95c1-e3031e205614</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

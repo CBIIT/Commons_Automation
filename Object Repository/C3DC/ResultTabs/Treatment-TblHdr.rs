@@ -6,11 +6,11 @@
    <elementGuidId>1a3f31e9-c3f4-4ff2-9f3e-acf2a4f49a53</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id=&quot;treatment_tab_table&quot;]/div[3]/table/thead</value>
+         <key>XPATH</key>
       </entry>
       <entry>
-         <key>XPATH</key>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;treatment_tab_table&quot;]//table//thead</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,7 +21,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;treatment_tab_table&quot;]/div[3]/table/thead</value>
-      <webElementGuid>ae927d8d-cc83-4e12-ae6d-45f0ab323d79</webElementGuid>
+      <value>//*[@id=&quot;treatment_tab_table&quot;]//table//thead</value>
+      <webElementGuid>b147a57e-1e5c-4abc-93ed-cfe726926cce</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

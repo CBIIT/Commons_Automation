@@ -10,17 +10,18 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;study_tab_table&quot;]/div[3]/table/thead</value>
+         <value>//*[@id=&quot;study_tab_table&quot;]//table//thead</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;study_tab_table&quot;]/div[3]/table/thead</value>
-      <webElementGuid>ef21c1d9-1375-44eb-bf58-7b986a472a9a</webElementGuid>
+      <value>//*[@id=&quot;study_tab_table&quot;]//table//thead</value>
+      <webElementGuid>f95e4808-db99-4c30-833b-0e94ef517af4</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
