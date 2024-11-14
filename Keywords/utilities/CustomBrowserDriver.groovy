@@ -131,7 +131,7 @@ public class CustomBrowserDriver {
 			//	options.addArguments("--disable-dev-shm-usage");  //commenting temporarily
 				options.addArguments("--disable-gpu");
 				//commented the below line as it was suspected to cause page crash errors frequently in INS in data validation framework
-				//options.addArguments("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36");
+				options.addArguments("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36");
 				DesiredCapabilities dc = new DesiredCapabilities();
 				dc.setCapability(ChromeOptions.CAPABILITY, options);
 			//options.merge(dc);
