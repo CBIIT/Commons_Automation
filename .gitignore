@@ -11,3 +11,4 @@ settings/*
 .Commons_Automation.prj
 .project
 /bin/
+Commons_Automation/Keywords/utilities/PythonReader.groovy
