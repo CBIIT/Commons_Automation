@@ -70,8 +70,10 @@ public class PythonReader {
 	@Keyword
 	public static void readFile(String pythonFileName) {
 
+		String binPath = getPythonExecutbalePath()
+
 		//String binPath = "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3";
-		String binPath = "python3";
+		//String binPath = "python3";
 		String inputExcelPath = GlobalVariable.InputExcel;
 		String outputFilePath = Paths.get(usrDir, "OutputFiles")
 		String nodeFilespath = getNodeFilesPath()
@@ -108,6 +110,26 @@ public class PythonReader {
 		} catch (Exception e) {
 			e.printStackTrace();
 			KeywordUtil.markFailed("An error occurred while executing the Python script: " + e.getMessage());
+		}
+	}
+
+
+
+	/**
+	 * This function returns the Python executable path based on the OS and user provided path
+	 * @return
+	 */
+	public static String getPythonExecutbalePath() {
+
+		String osName = System.getProperty("os.name");
+		String binPath;
+
+		if(osName.contains("Mac")) {
+			binPath = "Add Python executable path here for Mac OS";
+		}else if(osName.contains("Win")){
+			binPath = "Add Python executable path here for Windows";
+		}else {
+			binPath = "python3";
 		}
 	}
 }
