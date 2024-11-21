@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>NotReported_Chkbx</name>
+   <name>InitialDiag-Chkbx</name>
    <tag></tag>
-   <elementGuidId>6be13ac0-ddc6-46b8-bc84-8155d80496ab</elementGuidId>
+   <elementGuidId>8ce98bd1-3a07-4cb6-8db6-7b1ded17c495</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Race_Not Reported&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Disease Phase_Initial Diagnosis&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Race_Not Reported&quot;]</value>
-      <webElementGuid>0119a443-ef1b-4b59-9112-85e8b303ff1a</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Disease Phase_Initial Diagnosis&quot;]</value>
+      <webElementGuid>cc747589-f329-4084-af59-0dfe5ba9019f</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

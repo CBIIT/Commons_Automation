@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>NotReported_Chkbx</name>
+   <name>StudyName-Ddn</name>
    <tag></tag>
-   <elementGuidId>6be13ac0-ddc6-46b8-bc84-8155d80496ab</elementGuidId>
+   <elementGuidId>144ff64d-aad9-4a08-986a-0642c7d958a1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Race_Not Reported&quot;]</value>
+         <value>//*[@id=&quot;Study Short Title&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Race_Not Reported&quot;]</value>
-      <webElementGuid>0119a443-ef1b-4b59-9112-85e8b303ff1a</webElementGuid>
+      <value>//*[@id=&quot;Study Short Title&quot;]</value>
+      <webElementGuid>d81df91a-b5d1-4301-96d1-b896569f355f</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

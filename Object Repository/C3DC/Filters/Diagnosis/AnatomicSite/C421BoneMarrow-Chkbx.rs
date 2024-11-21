@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>NotReported_Chkbx</name>
+   <name>C421BoneMarrow-Chkbx</name>
    <tag></tag>
-   <elementGuidId>6be13ac0-ddc6-46b8-bc84-8155d80496ab</elementGuidId>
+   <elementGuidId>beb25371-f1d9-4c56-afd8-098d584c4ae6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Race_Not Reported&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Anatomic Site_C42.1 : Bone marrow&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Race_Not Reported&quot;]</value>
-      <webElementGuid>0119a443-ef1b-4b59-9112-85e8b303ff1a</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Anatomic Site_C42.1 : Bone marrow&quot;]</value>
+      <webElementGuid>996c1c2d-9910-438b-b99d-1db175e69849</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

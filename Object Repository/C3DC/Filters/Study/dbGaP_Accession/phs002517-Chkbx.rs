@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>NotReported_Chkbx</name>
+   <name>phs002517-Chkbx</name>
    <tag></tag>
-   <elementGuidId>6be13ac0-ddc6-46b8-bc84-8155d80496ab</elementGuidId>
+   <elementGuidId>cdf3e876-7ede-41f0-9b2e-a02efdbb6536</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Race_Not Reported&quot;]</value>
+         <value>//*[@id=&quot;checkbox_dbGaP ACCESSION_phs002517&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Race_Not Reported&quot;]</value>
-      <webElementGuid>0119a443-ef1b-4b59-9112-85e8b303ff1a</webElementGuid>
+      <value>//*[@id=&quot;checkbox_dbGaP ACCESSION_phs002517&quot;]</value>
+      <webElementGuid>ba19f58b-b41e-40a2-b511-751546b2638c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

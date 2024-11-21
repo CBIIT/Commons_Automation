@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>NotReported_Chkbx</name>
+   <name>Unknown-Chkbx</name>
    <tag></tag>
-   <elementGuidId>6be13ac0-ddc6-46b8-bc84-8155d80496ab</elementGuidId>
+   <elementGuidId>63c5e22a-fcd2-47ab-aea7-f8ab7e548f1f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Race_Not Reported&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Disease Phase_Unknown&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Race_Not Reported&quot;]</value>
-      <webElementGuid>0119a443-ef1b-4b59-9112-85e8b303ff1a</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Disease Phase_Unknown&quot;]</value>
+      <webElementGuid>755b5ba9-2d8d-494b-92b1-f5d0b7c0bbf8</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

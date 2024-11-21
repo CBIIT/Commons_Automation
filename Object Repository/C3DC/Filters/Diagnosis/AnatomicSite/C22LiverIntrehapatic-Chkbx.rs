@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>NotReported_Chkbx</name>
+   <name>C22LiverIntrehapatic-Chkbx</name>
    <tag></tag>
-   <elementGuidId>6be13ac0-ddc6-46b8-bc84-8155d80496ab</elementGuidId>
+   <elementGuidId>de1993a0-4789-4fd1-a010-6266901892f9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Race_Not Reported&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Anatomic Site_C22 : LIVER AND INTRAHEPATIC BILE DUCTS&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Race_Not Reported&quot;]</value>
-      <webElementGuid>0119a443-ef1b-4b59-9112-85e8b303ff1a</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Anatomic Site_C22 : LIVER AND INTRAHEPATIC BILE DUCTS&quot;]</value>
+      <webElementGuid>1d09e1f3-f60b-457f-b1e2-4810de6e55ca</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
