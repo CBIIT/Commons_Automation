@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>WarningBan_Continue_Btn</name>
+   <name>NotReported-Chkbx</name>
    <tag></tag>
-   <elementGuidId>ef1e4cc2-9546-48d3-8d79-160b56541419</elementGuidId>
+   <elementGuidId>333fd048-992a-47f3-bff8-354de246524a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[contains(text(),&quot;Continue&quot;)]</value>
+         <value>//*[@id=&quot;checkbox_Sex At Birth_Not Reported&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[contains(text(),&quot;Continue&quot;)]</value>
-      <webElementGuid>4936592a-b018-468b-ba25-1f81b1d5e9d3</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Sex At Birth_Not Reported&quot;]</value>
+      <webElementGuid>d81901b4-5734-4a9a-8e81-bd34fe49f9e5</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

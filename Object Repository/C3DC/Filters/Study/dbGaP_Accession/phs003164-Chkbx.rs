@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>WarningBan_Continue_Btn</name>
+   <name>phs003164-Chkbx</name>
    <tag></tag>
-   <elementGuidId>ef1e4cc2-9546-48d3-8d79-160b56541419</elementGuidId>
+   <elementGuidId>e51ace31-2e89-49b9-ab88-2ad9576e6f84</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[contains(text(),&quot;Continue&quot;)]</value>
+         <value>//*[@id=&quot;checkbox_dbGaP ACCESSION_phs003164&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[contains(text(),&quot;Continue&quot;)]</value>
-      <webElementGuid>4936592a-b018-468b-ba25-1f81b1d5e9d3</webElementGuid>
+      <value>//*[@id=&quot;checkbox_dbGaP ACCESSION_phs003164&quot;]</value>
+      <webElementGuid>092d7f02-e32f-461b-b031-84cbb423de48</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

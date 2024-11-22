@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC07_C3DC_phs003432_DiagnClasfSystem-Pathology</name>
+   <name>TC04_C3DC_phs003164_AnatomicSite-C421BoneMarrow</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>02c0c78b-7999-41bb-91c1-f4dc608716e8</testCaseGuid>
+   <testCaseGuid>55ab57bd-1713-4156-9d13-35c9a64670b7</testCaseGuid>
 </TestCaseEntity>

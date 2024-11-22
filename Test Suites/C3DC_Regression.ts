@@ -64,14 +64,14 @@
       <guid>028ae792-c1ca-4cb6-bbbc-7709064d5b3d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs003432/TC07_C3DC_phs003432_DiagnClasfSystem-Pathology</testCaseId>
+      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs003432/TC07_C3DC_phs003432_DiagnBasis-Pathology</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>0c6fb7e4-c6f7-4c69-8f85-77e81e38996c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs003432/TC06_C3DC_phs003432_Diagnosis-ICD-O-3</testCaseId>
+      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs003432/TC06_C3DC_phs003432_DiagnClasfSystem-ICD-O-3</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
