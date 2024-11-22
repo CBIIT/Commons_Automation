@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC11_INS_CancerType-LiverCancer</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>de365ebc-3e6a-4062-9c2f-31ee543e9692</testCaseGuid>
+</TestCaseEntity>

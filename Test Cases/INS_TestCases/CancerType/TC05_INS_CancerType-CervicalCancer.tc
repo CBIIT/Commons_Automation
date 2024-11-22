@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_INS_CancerType-CervicalCancer</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0f990361-0a54-461b-8677-cb8bf4013ae8</testCaseGuid>
+</TestCaseEntity>

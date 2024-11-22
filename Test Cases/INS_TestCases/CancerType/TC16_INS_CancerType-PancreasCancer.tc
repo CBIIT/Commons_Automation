@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC16_INS_CancerType-PancreasCancer</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ff1cc7a1-ff62-45c0-8910-2433fd2cd878</testCaseGuid>
+</TestCaseEntity>

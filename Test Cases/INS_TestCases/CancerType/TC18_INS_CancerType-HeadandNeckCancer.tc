@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC18_INS_CancerType-HeadandNeckCancer</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>07aefcd4-4ea9-4378-99e7-e209c608d21c</testCaseGuid>
+</TestCaseEntity>
