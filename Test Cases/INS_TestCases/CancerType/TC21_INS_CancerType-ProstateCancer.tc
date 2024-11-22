@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC21_INS_CancerType-ProstateCancer</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>643828ab-7a9a-482f-be54-7cf28154b3f5</testCaseGuid>
+</TestCaseEntity>

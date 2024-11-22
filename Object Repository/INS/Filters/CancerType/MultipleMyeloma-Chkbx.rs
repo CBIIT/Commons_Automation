@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_CANCER TYPE_Multiple Myeloma&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Cancer Type_Multiple Myeloma&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_CANCER TYPE_Multiple Myeloma&quot;]</value>
-      <webElementGuid>ab2bde26-24b8-4a81-96c6-12934bdb7774</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Cancer Type_Multiple Myeloma&quot;]</value>
+      <webElementGuid>82e6dc28-f079-488e-b4a8-86ddca72e334</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

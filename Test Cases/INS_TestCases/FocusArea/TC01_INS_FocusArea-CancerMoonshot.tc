@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC01_INS_FocusArea-CancerMoonshot</name>
-   <tag>Filter</tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>b7949517-48a9-466f-873f-fd4c1fbe1280</testCaseGuid>
-</TestCaseEntity>

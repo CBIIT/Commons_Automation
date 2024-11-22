@@ -69,10 +69,9 @@ public class PythonReader {
 	 */
 	@Keyword
 	public static void readFile(String pythonFileName) {
-
-		//String binPath = getPythonExecutbalePath()
-
+    
 		//String binPath = "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3";
+		//comment this only when running in mac
 		String binPath = "python3";
 		String inputExcelPath = GlobalVariable.InputExcel;
 		String outputFilePath = Paths.get(usrDir, "OutputFiles")
