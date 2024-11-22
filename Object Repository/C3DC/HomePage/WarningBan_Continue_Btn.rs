@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//span[contains(text(),&quot;Continue&quot;)]</value>
+         <value>//*[contains(text(),&quot;Continue&quot;)]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//span[contains(text(),&quot;Continue&quot;)]</value>
-      <webElementGuid>0fdbc3ac-4918-4432-8daf-157a6e5150e5</webElementGuid>
+      <value>//*[contains(text(),&quot;Continue&quot;)]</value>
+      <webElementGuid>4936592a-b018-468b-ba25-1f81b1d5e9d3</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
