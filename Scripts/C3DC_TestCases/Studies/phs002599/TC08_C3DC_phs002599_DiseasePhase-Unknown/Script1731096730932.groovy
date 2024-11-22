@@ -37,11 +37,11 @@ CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Study/dbGaP_Accessi
 WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Diagnosis/Diagnosis-Facet'), 10)
 CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Diagnosis/Diagnosis-Facet')
 
-WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Diagnosis/DiagnosisBasis/DiagosisBasis-Ddn'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Diagnosis/DiagnosisBasis/DiagosisBasis-Ddn')
+WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Diagnosis/DiseasePhase/DiseasePhase-Ddn'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Diagnosis/DiseasePhase/DiseasePhase-Ddn')
 
-WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Diagnosis/DiagnosisBasis/Clinical-Chkbx'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Diagnosis/DiagnosisBasis/Clinical-Chkbx')
+WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Diagnosis/DiseasePhase/Unknown-Chkbx'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Diagnosis/DiseasePhase/Unknown-Chkbx')
 
 //Read Statbar
 CustomKeywords.'utilities.TestRunner.readStatBarC3DC'('C3DC/Statbar/Diagnosis-Count', 'C3DC/Statbar/Participants-Count', 

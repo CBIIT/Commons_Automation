@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_C3DC_phs002529_SexAtBirth-Female</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9787384d-4f0a-4cdc-88d5-afd8e32aa1c4</testCaseGuid>
+</TestCaseEntity>

@@ -19,10 +19,10 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>0856ec2e-f993-42e5-88ef-07acb155e6e1</guid>
+      <guid>b942df75-075b-4f87-9a02-aed091510769</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs002504/TC01_C3DC_phs002504_SexAtBirth-Male</testCaseId>
+      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs003432/TC03_C3DC_phs003432_Race-BlackAfriAmerican</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

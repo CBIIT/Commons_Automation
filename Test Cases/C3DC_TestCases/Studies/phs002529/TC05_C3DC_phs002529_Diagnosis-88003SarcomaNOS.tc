@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_C3DC_phs002529_Diagnosis-88003SarcomaNOS</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>31026dea-a084-4363-93dc-48e36c583acd</testCaseGuid>
+</TestCaseEntity>

@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Race_Unknown&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Race_Not Reported&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Race_Unknown&quot;]</value>
-      <webElementGuid>8d4fa4bb-1675-4734-b78a-f8d0a650bcd4</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Race_Not Reported&quot;]</value>
+      <webElementGuid>0119a443-ef1b-4b59-9112-85e8b303ff1a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
