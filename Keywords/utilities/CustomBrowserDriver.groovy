@@ -125,9 +125,8 @@ public class CustomBrowserDriver {
 				System.setProperty("webdriver.chrome.driver", DriverFactory.getChromeDriverPath())
 				ChromeOptions options = new ChromeOptions();
 				options.addArguments("--headless");
-			 // options.addArguments("--disable-dev-shm-usage");  //commenting temporarily
+			    options.addArguments("--disable-dev-shm-usage");  //commenting temporarily //sohil - uncommenting this
 				options.addArguments("--disable-gpu");
-				options.addArguments('--no-sandbox')
 				options.addArguments("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.6778.85 Safari/537.36");
 				DesiredCapabilities dc = new DesiredCapabilities();
 				dc.setCapability(ChromeOptions.CAPABILITY, options);
