@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC06_C3DC_phs003432_Diagnosis-ICD-O-3</name>
+   <name>TC06_C3DC_phs003432_DiagnClasfSystem-ICD-O-3</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
