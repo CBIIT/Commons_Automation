@@ -5,6 +5,7 @@ import java.awt.Robot;
 import java.awt.event.KeyEvent;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.nio.file.Files;
 import java.util.concurrent.TimeUnit;
 import javax.print.DocFlavor.STRING
 import org.apache.poi.ss.usermodel.Cell;
@@ -27,6 +28,7 @@ import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable
+
 
 
 public class TestRunner implements Comparator<List<XSSFCell>>{
@@ -1432,7 +1434,9 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 	 * @param webSheetName
 	 */
 	public static void writeToExcel(String webSheetName){
-		//add a tabname
+		
+		TestRunner.creatDirctory("OutputFiles");
+		
 		try {
 			String excelPath = GlobalVariable.G_WebExcel;
 			File file1 = new File(excelPath);
@@ -1788,26 +1792,38 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		js.executeScript("arguments[0].scrollIntoView(true);", elem);
 	}
+	
+	/**
+	 * This function clicks on the element using javascript
+	 * @param el
+	 */
 	@Keyword
 	public static void clickElement(WebElement el){
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		js.executeScript("arguments[0].click();", el);
 	}
-
-
-	@Keyword
-	public  static isDriverOpen(){
-
-		try{
-			DriverFactory.getCurrentWindowIndex()
-			//driver.getTitle();
-			KeywordUtil.logInfo("A browser instance is already open.")
-			System.out.println("A browser instance is already open. Quitting the browser")
-			driver.quit()
-			// browser is open
-		} catch(NoSuchSessionError) {
-			// browser is closed
-			KeywordUtil.logInfo("Browser is NOT Existing")
+	
+	
+	/**
+	 * This function creates directory in the project path
+	 * @param dirName
+	 */
+	public static void creatDirctory(String dirName) {
+		
+		// Get the project directory path
+		String projectDir = System.getProperty("user.dir");
+		Path folderPath = Paths.get(projectDir, dirName);
+		
+		// Check if the dirName folder exists
+		if (!Files.exists(folderPath)) {
+			try {
+				Files.createDirectory(folderPath);
+				System.out.println(dirName + " folder has been created.");
+			} catch (Exception e) {
+				System.err.println("Failed to create "+dirName+" folder: " + e.getMessage());
+			}
+		} else {
+			System.out.println(dirName +" folder already exists.");
 		}
 	}
 
