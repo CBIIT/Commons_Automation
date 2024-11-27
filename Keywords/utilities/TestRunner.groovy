@@ -1434,9 +1434,9 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 	 * @param webSheetName
 	 */
 	public static void writeToExcel(String webSheetName){
-		
+
 		TestRunner.creatDirctory("OutputFiles");
-		
+
 		try {
 			String excelPath = GlobalVariable.G_WebExcel;
 			File file1 = new File(excelPath);
@@ -1792,7 +1792,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		js.executeScript("arguments[0].scrollIntoView(true);", elem);
 	}
-	
+
 	/**
 	 * This function clicks on the element using javascript
 	 * @param el
@@ -1802,18 +1802,18 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		js.executeScript("arguments[0].click();", el);
 	}
-	
-	
+
+
 	/**
 	 * This function creates directory in the project path
 	 * @param dirName
 	 */
 	public static void creatDirctory(String dirName) {
-		
+
 		// Get the project directory path
 		String projectDir = System.getProperty("user.dir");
 		Path folderPath = Paths.get(projectDir, dirName);
-		
+
 		// Check if the dirName folder exists
 		if (!Files.exists(folderPath)) {
 			try {
