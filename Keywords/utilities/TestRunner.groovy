@@ -1,15 +1,12 @@
 package utilities
 
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-
 import java.awt.Robot;
 import java.awt.event.KeyEvent;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.concurrent.TimeUnit;
-
 import javax.print.DocFlavor.STRING
-
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.CellType;
 import org.apache.poi.ss.usermodel.Row;
@@ -24,15 +21,12 @@ import org.openqa.selenium.WebElement
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions
 import org.openqa.selenium.support.ui.WebDriverWait
-
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-
 import internal.GlobalVariable
-
 
 
 public class TestRunner implements Comparator<List<XSSFCell>>{
@@ -44,85 +38,6 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 	public static WebDriver driver
 	public static WebElement nxtBtn
 	public static String appKey = GlobalVariable.AppKey;
-
-
-	@Keyword
-	public void Login (String signinButton, String emailID, String emailNxtBtn, String Passwd, String PasswdNxtBtn){
-		String xsigninButton = givexpath(signinButton)
-		String xemailNxtBtn = givexpath(emailNxtBtn)
-		String xPasswd = givexpath(Passwd)
-		String xPasswdNxtBtn = givexpath(PasswdNxtBtn)
-
-		JavascriptExecutor js = (JavascriptExecutor)driver;
-
-		Set<String> allHandlesb4signin = driver.getWindowHandles();
-		System.out.println("Count of windows BEFORE sign in with google :"+allHandlesb4signin.size());
-		System.out.println(allHandlesb4signin);
-		String currentWindowHandleB4 = allHandlesb4signin.iterator().next();
-		System.out.println("currentWindow Handle - default handle before signin : "+currentWindowHandleB4);
-
-		//removed the if loop
-
-
-		System.out.println("Waiting to log in")
-
-		js.executeScript("arguments[0].click();", driver.findElement(By.xpath(xsigninButton)));
-		Set<String> allHandlesAftersignin = driver.getWindowHandles();
-		System.out.println("Count of windows AFTER sign in with google :"+allHandlesAftersignin.size());
-		System.out.println(allHandlesAftersignin);
-		String parent=driver.getWindowHandle();
-		for(String curWindow : allHandlesAftersignin){
-			System.out.println ("This is the id of the curr window :"+curWindow)
-			driver.switchTo().window(curWindow);   //switching to the child window
-		}
-		String currentWindowHandleAFTER = allHandlesAftersignin.iterator().next();
-		System.out.println("currentWindow Handle -default after signin : "+currentWindowHandleAFTER);
-		//store parent window & child window
-
-		//switch to child window
-		WebUI.switchToWindowIndex(1)
-		String FirstWndUrl = driver.getCurrentUrl();
-		System.out.println("First Popup window's url: " + FirstWndUrl)
-		driver.manage().window().maximize();
-
-
-		//Entering the email id or username
-		Thread.sleep(2000)
-		driver.findElement(By.xpath(xemailID)).sendKeys(GlobalVariable.G_AppUserName);
-		System.out.println("Reading the text typed in email field: "+driver.findElement(By.xpath(xemailID)).getAttribute("value"));
-		Thread.sleep(2000)
-
-
-		//Clicking the next button after email id
-		js.executeScript("arguments[0].click();", driver.findElement(By.xpath(xemailNxtBtn)));
-		Thread.sleep(10000);
-
-		//Entering the password
-		driver.findElement(By.xpath(xPasswd)).sendKeys(GlobalVariable.G_AppPassword);
-		System.out.println("Getting password: "+driver.findElement(By.xpath(xPasswd)).getAttribute("value"));
-		Thread.sleep(2000)
-
-		//Clicking the next button after password
-		js.executeScript("arguments[0].click();", driver.findElement(By.xpath(xPasswdNxtBtn)));
-		Thread.sleep(3000)
-
-		System.out.println("Typed password and clicked the next button in password window. Moving back to the parent window handle")
-		driver.switchTo().window(parent);
-		driver.manage().window().maximize();
-		Thread.sleep(3000)
-
-		System.out.println("This is the current url post login & moving back to parent window handle : "+ driver.getCurrentUrl() );
-
-		Set<String> allHandlesAfterLogin = driver.getWindowHandles();
-		System.out.println(allHandlesAfterLogin);
-		System.out.println("Count of windows after successful login :"+allHandlesAfterLogin.size());
-		String curWindowHandlePostLogin = allHandlesAfterLogin.iterator().next();
-		System.out.println("currentWindow Handle -default after successful login : "+curWindowHandlePostLogin);
-
-		System.out.println("After successful login, the landing page's url: " + driver.getCurrentUrl())
-	}//login function ends here
-
-
 
 
 	/**
@@ -170,7 +85,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		}
 
 
-		KeywordUtil.logInfo("Global variable set for password file is: " + GlobalVariable.InputExcel )
+		KeywordUtil.logInfo("Global variable set for InputFiles is: " + GlobalVariable.InputExcel )
 		Thread.sleep(2000)
 		List<List<XSSFCell>> sheetData_K = new ArrayList<>();
 		FileInputStream fis = new FileInputStream(GlobalVariable.InputExcel);
@@ -200,10 +115,9 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 
 		KeywordUtil.markPassed("Data loaded from input file for the test case." )
 		driver = CustomBrowserDriver.createWebDriver();
-		System.out.println("This is the driver from inside the runkatalon method : "+driver)
+		System.out.println("This is the driver: " + driver)
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		excelparsingKatalon(sheetData_K, driver);
-		//System.out.println("Entire input excel data is: " + sheetData_K)
 	}
 
 
@@ -226,41 +140,27 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 	}
 
 
-
-	/**
-	 * Gayathri will update this later..
-	 */
-	public static void manifestDownloadRobot(){
-		Robot robot = new Robot();
-		robot.keyPress(KeyEvent.VK_TAB);
-		robot.keyRelease(KeyEvent.VK_TAB);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		robot.keyRelease(KeyEvent.VK_ENTER);
-	}
-
-
 	/**
 	 * This function reads input excels and assigns global variables to each query...
 	 * @param sheetData
 	 * @param dr
 	 */
 	private static void excelparsingKatalon(List<List<XSSFCell>> sheetData, WebDriver dr) {
-		System.out.println("This is the value of browser driver from exelparsingkatalon: "+dr)
 
-		System.out.println("This is urlname: "+GlobalVariable.G_Urlname)
+		System.out.println("This is URL: "+GlobalVariable.G_Urlname)
 		driver.get(GlobalVariable.G_Urlname)
 		driver.manage().window().maximize()
 		System.out.println("The window is maximized")
 		Thread.sleep(3000)
 		int countrow = 0
 		countrow = sheetData.size();
-		System.out.println ( "row count from initializing fnc: " + countrow )
-		System.out.println ( "sheet  data size: " + sheetData.get(0).size())
+		System.out.println( "Row count from initializing function: " + countrow )
+		System.out.println( "Sheet  data size: " + sheetData.get(0).size())
 
 		//Loop through rows
 		for (int i = 1; i < countrow; i++){
 			List<XSSFCell> datarow = sheetData.get(i);
-			System.out.println ("Columns size from initializing fnc:  " + datarow.size())
+			System.out.println("Columns count from initializing function: " + datarow.size())
 			String str = "";
 			//loop through columns
 			for (int j = 0; j < datarow.size(); j++){
@@ -361,7 +261,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 	} //excelparsingKatalon function ends here
 
 
-	/**for case detail level automation
+	/**This function is used for case detail level automation
 	 * @return
 	 */
 	@Keyword
@@ -370,7 +270,6 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		String switchStr;
 		String pgUrl = driver.getCurrentUrl()
 
-		//if(((driver.getCurrentUrl()).contains("ccdi"))) {
 		if(appKey.equals("CCDI")) {
 			System.out.println("This is CCDI. the url does not contain #")
 			switchStr = "/explore"
@@ -424,15 +323,6 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 	/**
 	 * This function reads the results table and writes the web and database data to excel
 	 * This function also verifies the stat-bar counts and compares the web and database excels
-	 * @param appName
-	 * @param statVal
-	 * @param tbl
-	 * @param tblHdr
-	 * @param nxtBtn
-	 * @param webdataSheetName
-	 * @param dbdataSheetName
-	 * @param tabQuery
-	 * @throws IOException
 	 */
 	@Keyword
 	public static void multiFunction(String appName, String statVal, String tbl, String tblHdr, String nxtBtn, String webdataSheetName, String dbdataSheetName, String tabQuery) throws IOException {
@@ -523,166 +413,6 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 			System.out.println("Skipping data collection from neo4j and compare lists of web and db as the stat value is 0")
 		}
 	}
-
-
-	/**
-	 * This function reads the ui table in MyCart ICDC
-	 * @param appName1
-	 * @param totalRecCountMyCart1
-	 * @param tblMyCart1
-	 * @param hdrMyCart1
-	 * @param nxtbMyCart1
-	 * @param myCartWebSheetName1
-	 * @param myCartdbSheetName1
-	 * @param cartQuery1
-	 * @throws IOException
-	 */
-	public static void readMyCartTable(String appName1, String totalRecCountMyCart1, String tblMyCart1, String hdrMyCart1, String nxtbMyCart1, String myCartWebSheetName1, String myCartdbSheetName1, String cartQuery1) throws IOException {
-		System.out.println("This is the value of my cart db query : "+ cartQuery1)
-		System.out.println("This is the value of cart count  : "+ totalRecCountMyCart1)
-		System.out.println("This is the value of my cart db query stored in global variable : "+ GlobalVariable.G_cartQuery)
-		System.out.println("This is the value of cart count stored in global variable : "+ GlobalVariable.G_myCartTotal)
-		ReadCasesTableKatalon(totalRecCountMyCart1, tblMyCart1, hdrMyCart1, nxtbMyCart1, myCartWebSheetName1)
-		System.out.println("Control is before readexcel neo4j function")
-		ReadExcel.Neo4j(myCartdbSheetName1,cartQuery1)
-		System.out.println("Control is before compare lists function in readcarttable")
-		compareSheets(myCartWebSheetName1, myCartdbSheetName1)
-	}
-
-	/**
-	 * Gayathri will updata the details
-	 * @param sTblbdy1
-	 * @param sTblHdr1
-	 * @param webSheetName
-	 */
-	@Keyword
-	public static void readSelectedCols(String sTblbdy1, String sTblHdr1, String sNxtBtn, String webSheetName) {
-		List<String> sTableHdrData = new ArrayList<String>();
-		List<String> sTableBodyData = new ArrayList<String>();
-
-		String tableHdr= givexpath(sTblHdr1)
-		String tableBdy= givexpath(sTblbdy1)
-		String nextButton = givexpath(sNxtBtn)
-		GlobalVariable.G_customTblHdr=tableHdr
-		GlobalVariable.G_customTblBdy=tableBdy
-		System.out.println("This is the value of custom table header fm global var : "+GlobalVariable.G_customTblHdr)
-		System.out.println("This is the value of custom table body fm global var : "+GlobalVariable.G_customTblBdy)
-
-		driver.manage().window().maximize();
-		scrolltoViewjs(driver.findElement(By.xpath(tableHdr)))
-		System.out.println("Scrolled into view of custom table header")
-
-		WebElement wbTableHdr = driver.findElement(By.xpath(tableHdr))
-		List<WebElement> col_Headers = wbTableHdr.findElements(By.tagName("th"));
-		WebElement wbTableBdy = driver.findElement(By.xpath(tableBdy))
-		List<WebElement> rows_table;
-
-		System.out.println("This is the value stored in column header list: "+col_Headers)
-		int columns_count=col_Headers.size()-1;
-		System.out.println("This is the num of cols in the table: "+columns_count);
-
-		rows_table = wbTableBdy.findElements(By.tagName("tr"))
-		System.out.println("This is the value of list containing weblements of rows from the table :"+rows_table);
-		int rows_count = rows_table.size()
-		System.out.println("This is the num of rows in the table in the current page: "+rows_count);
-
-		//*******************************CUSTOM COLUMN HEADER DATA COLLECTION****************************************************
-		String hdrdata = ""
-		for(int c=1;c<=columns_count;c++){
-			if((col_Headers.get(c).getAttribute("innerText"))!="Access"){
-				//if ( ((col_Headers.get(c).getAttribute("innerText")) == 'File Name')||((col_Headers.get(c).getAttribute("innerText")) == 'Study Code')||((col_Headers.get(c).getAttribute("innerText")) == 'Case ID') ) {
-				hdrdata = hdrdata + (col_Headers.get(c).getAttribute("innerText")) + "||"
-				System.out.println("column "+ (c) +"added from header")
-			}
-		}
-
-		sTableHdrData.add(hdrdata);
-		System.out.println("Number of columns in the current result tab is: "+ columns_count)
-		System.out.println("Complete list of column headers in current tab: "+ sTableHdrData)
-
-		for(int index = 0; index < sTableHdrData.size(); index++) {
-			System.out.println("Header data of the table is :" + sTableHdrData.get(index))
-		}
-		//*********************************CUSTOM ROW  DATA COLLECTION FOR THE CHOSEN HEADERS******************************************
-		int counter = 1;
-		scrolltoViewjs(driver.findElement(By.xpath(GlobalVariable.G_customTblBdy)));
-		// add code to check exception - if the value of rows_count=1, ie if the table has only header and no data, skip collecting the webdata.
-
-		int i;
-
-		for(i = 1; i <= rows_count; i++) {
-			//loop through each row in current page
-			String data = ""
-			System.out.println("Inside filecentric cart case of ICDC - for 10 cols after excluding Access and Remove"+ "--  row number: "+i);
-			for(int j=2;j<=columns_count+1;j++){
-
-				//*[@id='table_selected_files']//thead/tr/th[2]
-				String colNameChk = ((driver.findElement(By.xpath(tableHdr +"/tr/th" + "[" + j + "]")).getAttribute("innerText")))
-				//System.out.println ("Column header name before if condition : "+colNameChk)
-				//	if((colNameChk!="Access"){
-				//if((colNameChk == 'File Name')||(colNameChk == 'Study Code')||(colNameChk == 'Case ID')) {
-
-				System.out.println("Value of i is: "+i)  //this tells the row index
-				System.out.println("Value of j is: "+j) //this tells the column index
-				//*[@id='table_selected_files']//tbody/tr[1]/td[2]/div[2]   last div index is always 2
-				data = data + ((driver.findElement(By.xpath(tableBdy +"/tr" + "[" + i + "]/td[" + j + "]/div[2]")).getAttribute("innerText")) +"||")
-				System.out.println("This is the value of data : "+data+" from column name : "+colNameChk)
-				//} //if loop
-			} //inner for loop
-
-			sTableBodyData.add(data)
-			//System.out.println("Size of table body list in current result tab is: "+sTableBodyData.size())
-			for(int index = 0; index < sTableBodyData.size(); index++) {
-				System.out.println("Table body data from current page is: " + sTableBodyData.get(index))
-			}
-
-			System.out.println("============================ Verification of the data: =========================")
-			GlobalVariable.G_CaseData= sTableHdrData + sTableBodyData;   //GlobalVariable.G_CustomTblData
-			System.out.println("This is the contents of globalvar G_casedata : " +GlobalVariable.G_CaseData)
-
-			//********************* CLICKING THE NEXT BUTTON IN RESULTS FOR NEXT PAGE *******************************
-			// add a counter for 10 inside this for limitting 100 records
-
-			scrolltoViewjs(nextButton)   //added to address the unable to scroll into view issue/ another element obscures next button issue
-			System.out.println("past the scrollintoview block")
-
-			if (nextButton.contains("disabled")){
-				break;
-			} else {
-				System.out.println("COLLECTED DATA FROM PAGE - " +counter);
-				clickElement(nextButton); //uses jsexecutor to click
-				counter++;
-			}
-		} //outer for loop
-
-
-
-		writeToExcel(webSheetName);
-		System.out.println("Custom webdata written to excel successfully")
-	}// readSelectedCols function ends
-
-
-	@Keyword
-	public static void verifyCDSFacetExpansion (String CDSFacet) {
-		JavascriptExecutor js = (JavascriptExecutor)driver;
-		String facetxpath = givexpath(CDSFacet)
-		System.out.println("This is the value of xpath of the element: "+facetxpath);
-		WebElement cdsfacet = driver.findElement(By.xpath(facetxpath));
-		// Get the value of the aria-expanded attribute
-		js.executeScript("arguments[0].scrollIntoView(true);", cdsfacet);
-		String ariaExpandedValue = cdsfacet.getAttribute("aria-expanded")
-		System.out.println ("This is the value of the aria expanded attribute of the facet : "+ariaExpandedValue);
-		// Check if aria-expanded is "false"
-		if (ariaExpandedValue != null && ariaExpandedValue.equalsIgnoreCase("false")) {
-			// Click the element
-			js.executeScript("arguments[0].click();", cdsfacet);
-			println("Clicked on the facet as it was not expanded previously.")
-		} else {
-			println("aria-expanded is true for the facet. No action needed. Facet is already expanded")
-		}
-	}
-
-
 
 
 
@@ -819,8 +549,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 				}
 			}
 			//******** INS function starts here ********
-		}else if (appKey.equals("INS") && ((driver.getCurrentUrl()).contains("/programs"))){
-			//changed explore to programs on Oct 29, 2024
+		}else if (appKey.equals("INS") && ((driver.getCurrentUrl()).contains("/explore"))){
 			switchINS = getPageSwitch();
 			switchString = "INS";
 			System.out.println ("This is the value of INS switch string: " + switchINS)
@@ -1019,7 +748,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 						System.out.println("Inside INS Switch Structure")
 
 						switch(switchINS){
-							case("/programs"):
+							case("/explore"):
 								int tblcol=GlobalVariable.G_rowcount_Katalon; //13
 								if((tbl_main).equals("//*[@id='program_tab_table']")){
 									tblcol=tblcol-9;
@@ -1648,30 +1377,6 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 
 
 	/**
-	 * This function reads GMB Statbar
-	 * @param gTrials
-	 * @param gSubjects
-	 * @param gFiles
-	 */
-	@Keyword
-	public void readGMBStatBar(String gTrials, String gSubjects, String gFiles){
-		String gmbTrials = givexpath(gTrials)
-		String gmbSubjects = givexpath(gSubjects)
-		String gmbFiles = givexpath(gFiles)
-
-		Thread.sleep(5000)
-		GlobalVariable.G_GStatBar_Trials = driver.findElement(By.xpath(gmbTrials)).getAttribute("innerText")
-		System.out.println("This is the value of Trials count from Stat bar: "+GlobalVariable.G_GStatBar_Trials)
-		Thread.sleep(2000)
-		GlobalVariable.G_GStatBar_Subjects = driver.findElement(By.xpath(gmbSubjects)).getAttribute("innerText")
-		System.out.println("This is the value of Subjects count from Stat bar: "+GlobalVariable.G_GStatBar_Subjects)
-		Thread.sleep(2000)
-		GlobalVariable.G_GStatBar_Files = driver.findElement(By.xpath(gmbFiles)).getAttribute("innerText")
-		System.out.println("This is the value of Case Files count from Stat bar: "+GlobalVariable.G_GStatBar_Files)
-	}
-
-
-	/**
 	 * This function reads CDS Statbar
 	 * @param cdsStuds
 	 * @param cdsDisesSite
@@ -1771,210 +1476,6 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 	}//write to excel method ends here
 
 
-	/**
-	 * This function is used for bento local find functionality
-	 */
-	@Keyword
-	public void BentoLocalFindDdn() {
-		JavascriptExecutor js = (JavascriptExecutor)driver;
-		String ddnXpath = givexpath('Object Repository/Bento/Cases_page/Bento_LocalSearch_popup');
-		System.out.println("This is the value of xpath of the dynamic ddn element:"+ddnXpath);
-		// Locating the Main Menu (Parent element)
-		WebElement dynDDn = driver.findElement(By.xpath(ddnXpath));
-		js.executeScript("arguments[0].scrollIntoView(true);", dynDDn);
-
-		//Instantiating Actions class
-		Actions actions = new Actions(driver);
-		//Hovering on main menu
-		actions.moveToElement(dynDDn);
-
-		String optionXpath = givexpath('Object Repository/Bento/Cases_page/Bento_LocalSearch_option');
-		System.out.println("This is the value of xpath of the option element:"+optionXpath);
-		// Locating the element from Sub Menu
-		WebElement firstOption = driver.findElement(By.xpath(optionXpath));
-		js.executeScript("arguments[0].scrollIntoView(true);", firstOption);
-
-		Thread.sleep(3000)
-		//To mouseover on sub menu
-		actions.moveToElement(firstOption);
-		Thread.sleep(3000)
-		//build()- used to compile all the actions into a single step
-		actions.click().build().perform();
-		Thread.sleep(3000)
-		System.out.println("Reporting frm the keyword : about to complete running bento local find function")
-	}
-
-	@Keyword
-	public void BentoLocalFindFileUpld(String filetype) {
-		String fileUpldXpath = givexpath('Object Repository/Bento/Cases_page/Bento_LocalSearch_Upld_WndwsFileUpload');
-		WebElement flUpld=driver.findElement(By.xpath(fileUpldXpath));
-		Path inpFile;
-		// windows file upload with file path
-		if (filetype == 'TXT') {
-			inpFile = Paths.get(System.getProperty("user.dir"), "InputFiles", "BentoUploadCaseSet.txt");
-		}else if (filetype == 'CSV') {
-			inpFile = Paths.get(System.getProperty("user.dir"), "InputFiles", "BentoUploadCaseSet.csv");
-		}
-		String inpFileStr = inpFile.toString();
-		flUpld.sendKeys(inpFileStr);
-		Thread.sleep(3000)
-		System.out.println("This is the value of the input file for case id local find upload : "+inpFileStr)
-	}
-
-	//THIS IS FOR CTDC LOCALFIND**************************************
-	@Keyword
-	public void CTDCLocalFindDdn() {
-		JavascriptExecutor js = (JavascriptExecutor)driver;
-		String ddnXpath = givexpath('Object Repository/Trials/Cases_page/Trials_LocalFind_popup');
-		System.out.println("This is the value of xpath of the dynamic ddn element:"+ddnXpath);
-		// Locating the Main Menu (Parent element)
-		WebElement dynDDn = driver.findElement(By.xpath(ddnXpath));
-		js.executeScript("arguments[0].scrollIntoView(true);", dynDDn);
-
-		//Instantiating Actions class
-		Actions actions = new Actions(driver);
-		//Hovering on main menu
-		actions.moveToElement(dynDDn);
-		String optionXpath = givexpath('Object Repository/Trials/Cases_page/Trials_LocalFind_option');
-		System.out.println("This is the value of xpath of the option element:"+optionXpath);
-		// Locating the element from Sub Menu
-		WebElement firstOption = driver.findElement(By.xpath(optionXpath));
-		js.executeScript("arguments[0].scrollIntoView(true);", firstOption);
-
-		Thread.sleep(3000)
-		//To mouseover on sub menu
-		actions.moveToElement(firstOption);
-		Thread.sleep(3000)
-		//build()- used to compile all the actions into a single step
-		actions.click().build().perform();
-		Thread.sleep(3000)
-		System.out.println("Reporting frm the keyword : about to complete running ctdc local find function")
-	}
-
-	@Keyword
-	public void canineUIValidation() {
-		HashMap<String, String> hshmap = new HashMap<String, String>();    /*declaring HashMap */
-		hshmap.put("Study Dropdown", 'Object Repository/Canine/Filter/Study/Canine_Filter_Study');  /*Adding elements to HashMap*/
-		hshmap.put("Study Type Dropdown", 'Object Repository/Canine/Filter/StudyType/Canine_Filter_StudyType');
-		hshmap.put("Breed Dropdown", 'Object Repository/Canine/Filter/Breed/BREED_Ddn');
-		hshmap.put("Diagnosis Dropdown", 'Object Repository/Canine/Filter/Diagnosis/DIAGNOSIS_Ddn');
-		hshmap.put("Primary Disease Site Dropdown", 'Object Repository/Canine/Filter/PrimDiseaseSite/PRIMARYDISEASESITE_Ddn');
-		hshmap.put("Sex Dropdown", 'Object Repository/Canine/Filter/Sex/SEX_Ddn');
-
-		System.out.println("passing hash map to the validaiton function")
-		UIValidation(hshmap)  // calling the validation function
-		System.out.println("successfully completed UI validaiton")
-	}
-
-	@Keyword
-	public void trialsUIValidation(){
-	}
-
-	//**************************************
-	@Keyword
-	public void footerVal() {
-		HashMap<String, String> hshmap = new HashMap<String, String>();    /*declaring HashMap */
-
-		//About ICDC****************
-		hshmap.put("Purpose Hyperlink", 'Object Repository/Canine/Footer/Purpose_Hplink');
-		hshmap.put("Steering Committee Hyperlink", 'Object Repository/Canine/Footer/SteeringComm_Hplink');
-		hshmap.put("CRDC Hyperlink", 'Object Repository/Canine/Footer/CRDC_Hplink');
-		hshmap.put("ContactUs Hyperlink", 'Object Repository/Canine/Footer/ContactUs_Hplink');
-		//About the Data *****************
-		hshmap.put("ICDC DataModel Hyperlink", 'Object Repository/Canine/Footer/ICDCDataModel_Hplink');
-		hshmap.put("AnalyzingData Hyperlink", 'Object Repository/Canine/Footer/AnalyzingData_Hplink');
-		hshmap.put("Developers Hyperlink",'Object Repository/Canine/Footer/Developers_Hplink');
-		hshmap.put("Submission Guide Hyperlink",'Object Repository/Canine/Footer/SubmissionGuide_Hplink');
-
-		//More Information***********************
-		hshmap.put("Policies Hyperlink",'Object Repository/Canine/Footer/Policies_Hplink')
-		hshmap.put("Disclaimer Hyperlink",'Object Repository/Canine/Footer/Disclaimer_Hplink')
-		hshmap.put("Accessibility Hyperlink",'Object Repository/Canine/Footer/Accessibility_Hplink');
-		hshmap.put("FOIA Hyperlink",'Object Repository/Canine/Footer/FOIA_Hplink')
-
-		//other links*******************
-		hshmap.put("HHS Hyperlink",'Object Repository/Canine/Footer/HHS_Hplink')
-		hshmap.put("NIH Hyperlink",'Object Repository/Canine/Footer/NIH_Hplink')
-		hshmap.put("NCI Hyperlink",'Object Repository/Canine/Footer/NCI_Hplink')
-		hshmap.put("USA Hyperlink",'Object Repository/Canine/Footer/USA_Hplink')
-
-		//labels*******************************
-		hshmap.put("Turning Discovery Label",'Object Repository/Canine/Footer/TurningDiscIntoHlth_Label')
-		hshmap.put("National Cancer Institute Image",'Object Repository/Canine/Footer/NatCanInst_Img')
-		hshmap.put("About ICDC Label",'Object Repository/Canine/Footer/AboutICDC_Label')
-		hshmap.put("About the Data Label",'Object Repository/Canine/Footer/AboutTheData_Label')
-		hshmap.put("More Info Label",'Object Repository/Canine/Footer/MoreInfo_Label')
-
-		System.out.println("passing hash map to the validation function")
-		UIValidation(hshmap)  // calling the validation function
-		System.out.println("successfully completed UI validaiton")
-	}
-
-
-	//******************UI VALIDATION - HASHMAP VALIDATION FUNCTION ***************************
-	public void UIValidation(HashMap<String, String> hmap) {
-		Set set = hmap.entrySet();     /* Display content using Iterator*/
-		Iterator iter = set.iterator();
-		while(iter.hasNext()) {
-			Map.Entry mpEntry = (Map.Entry)iter.next();
-			//System.out.print("key is: "+ mpEntry.getKey() + " & Value is: "+ mpEntry.getValue());
-			String elemXpath = givexpath(mpEntry.getValue())
-			//System.out.println ("Xpath of the given object is : "+elemXpath)
-			if(driver.findElement(By.xpath(elemXpath))!= null){
-				KeywordUtil.markPassed(mpEntry.getKey()+" is Present");
-			}else{
-				KeywordUtil.markFailed(mpEntry.getKey()+" is Absent");
-			}
-		}
-	}
-
-	//compare lists***********************************************************
-
-	//trying new comparetwolists function
-	public static List<String> findMismatchedItems(List<XSSFCell> list1, List<XSSFCell> list2) {
-		List<String> mismatchedItems = new ArrayList<>();
-
-		if (list1.size() != list2.size()) {
-			mismatchedItems.add("List sizes are different.");
-			return mismatchedItems;
-		}
-
-		for (int i = 0; i < list1.size(); i++) {
-			XSSFCell cell1 = list1.get(i);
-			XSSFCell cell2 = list2.get(i);
-
-			if (!cell1.toString().equals(cell2.toString())) {
-				mismatchedItems.add("Cell " + (i + 1) + ": " + cell1.toString() + " <> " + cell2.toString());
-			}
-		}
-
-		return mismatchedItems;
-	}
-
-
-	//trying another comparelists function
-	public static List<String> findMismatchedItemstry2(List<XSSFCell> list1, List<XSSFCell> list2) {
-		List<String> mismatchedItems = new ArrayList<>();
-
-		Set<String> set1 = new HashSet<>();
-		Set<String> set2 = new HashSet<>();
-
-		for (XSSFCell cell : list1) {
-			set1.add(cell.toString());
-		}
-
-		for (XSSFCell cell : list2) {
-			set2.add(cell.toString());
-		}
-
-		if (!set1.equals(set2)) {
-			mismatchedItems.add("Lists have different cell values.");
-		}
-
-		return mismatchedItems;
-	}
-
-
 
 	//@@@@@@@@@@@@@@@ SOHIL's Code @@@@@@@@@@@@@@@@@@@@
 	/**
@@ -2004,12 +1505,11 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		neo4jData = ReadExcel.readOutputExcel(neo4jfilename, neoSheetName);
 		Collections.sort(neo4jData, new TestRunner());
 
-		//		System.out.println("This is the Entire UIWeb  data: " + UIData);
-		//		System.out.println("This is the Entire neo4j  data: " + neo4jData);
+		//System.out.println("This is the Entire UIWeb  data: " + UIData);
+		//System.out.println("This is the Entire neo4j  data: " + neo4jData);
 		System.out.println("This is the row size of the UIWeb Output data: " + UIData.size());
 		System.out.println("This is the row size of the Neo4j Output data: " + neo4jData.size());
 
-		//PythonReader.compareLists("CompareData", UIData, neo4jData)
 		compareTwoLists(UIData, neo4jData);
 	}
 
@@ -2090,112 +1590,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		}
 	}
 
-	/**
-	 * This function reads two lists and compares it's content
-	 * @param l1 (specified for UI) a List that will have inner list
-	 * @param l2 (specified for DB) a List that will have inner list
-	 */
-	//	public static void compareTwoLists(List<List<XSSFCell>> l1, List<List<XSSFCell>> l2){
-	//
-	//		System.out.println("============== Verification of the data ==============")
-	//		int l2row=0;
-	//
-	//		while( l2row < l2.size() ){
-	//
-	//			for( int l1row = 0; l1row < l1.size(); l1row++ ){
-	//
-	//				List<XSSFCell> l1rowList = l1.get(l1row)
-	//				List<XSSFCell> l2rowList = l2.get(l2row)
-	//				boolean l1NullFlag = false, l2NullFlag = false
-	//
-	//				int l1rowCount =l1row+2;
-	//				int l2rowCount =l2row+2;
-	//
-	//				System.out.println("UI Data Entire Row:  " + l1rowList)
-	//				System.out.println("DB data Entire Row:  " + l2rowList)
-	//
-	//				// Check if column counts do not match
-	//				if (l1rowList.size() != l2rowList.size()) {
-	//					System.err.println("*********** COLUMN COUNT MISMATCH ***********");
-	//					System.err.println("UI Data Row: " + l1rowCount + " has " + l1rowList.size() + " columns.");
-	//					System.err.println("DB Data Row: " + l2rowCount + " has " + l2rowList.size() + " columns.");
-	//					KeywordUtil.markFailed("*********** COLUMN COUNT MISMATCH *************");
-	//					return;  // Exit the function since the column counts do not match
-	//				}
-	//
-	//				for(int col = 0; col < l2rowList.size(); col++ ){
-	//
-	//					XSSFCell l1Col = l1rowList.get(col);
-	//					XSSFCell l2Col = l2rowList.get(col);
-	//
-	//					String l1Value = l1rowList.get(col).getStringCellValue();
-	//					String l2Value = l2rowList.get(col).getStringCellValue();
-	//
-	//					//Check for empty cell in UI excel
-	//					if(l1Col == null || l1Col.getCellTypeEnum() == CellType.BLANK || l1Value.trim().isEmpty()){
-	//						System.out.println("There is an empty cell in UI Data Row: " + l1rowCount + " Col: " + col );
-	//						l1NullFlag = true
-	//					}
-	//
-	//					//Check for empty cell in DB excel
-	//					if(l2Col == null || l2Col.getCellTypeEnum() == CellType.BLANK || l2Value.trim().isEmpty()){
-	//						System.out.println("There is an empty cell in DB Data Row: " + l2rowCount + " Col: " + col );
-	//						l2NullFlag = true
-	//					}
-	//
-	//					//When UI and DB empty cell don't match, warn user
-	//					if (l1NullFlag != l2NullFlag) {
-	//						System.err.println("********** EMPTY CELL MISMATCH **********")
-	//						l1NullFlag = false
-	//						l2NullFlag = false
-	//					}
-	//
-	//					//When there is data, compare UI value against DB value
-	//					if(l1Value.equals(l2Value)){
-	//						System.out.println("UI data cell value is:  "+ l1Value + "\nDB data cell value is:  "+ l2Value );
-	//						System.out.println("Content matches for Row: " + l1rowCount + " Col: " + col +" \u2713");
-	//					}else{
-	//						System.err.println("*********** DATA MISMATCH ***********")
-	//						System.err.println("UI data cell value is:  "+ l1Value + "\nDB data cell value is:  "+ l2Value );
-	//						System.err.println("Content does not match for Row: " + l1rowCount + " Col: " + col +" \u2717")
-	//						KeywordUtil.markFailed("*********** DATA MISMATCH in compareTwoLists *************");
-	//					}
-	//				}
-	//				l2row++
-	//			}
-	//		}
-	//	}
 
-
-
-	//**************************************************************************************
-	//this is a duplicate of comparelists created to test the xl manifest and cart xl comparison
-	@Keyword
-	public static void compareManifestLists(String webCartSheetName, String manifestSheetName) {
-		//pass the sheet names only. file name is not needed
-		System.out.println("This is the name of the current test case from global variable : "+GlobalVariable.G_currentTCName)
-		String newfilename = GlobalVariable.G_currentTCName+"_Manifest";
-		String xlsxManifestName = newfilename +".xlsx";
-		Path xlsxfilename = Paths.get(System.getProperty("user.dir"), "OutputFiles", xlsxManifestName);
-		System.out.println("This is the file name of xlsx manifest: "+GlobalVariable.G_xlsxFileName);
-
-		List<List<XSSFCell>> UIData = new ArrayList<>()
-		List<List<XSSFCell>> manifestData = new ArrayList<>()
-		String UIfilename =  GlobalVariable.G_WebExcel.toString()
-		System.out.println("This is the full webdata pathname for my cart :"+UIfilename);
-		UIData = ReadExcel.readExceltoWeblist(UIfilename,webCartSheetName)
-
-		System.out.println("This is the data read and stored in arraylist UIData : "+UIData)
-		System.out.println ("This is the row size of the UIdata : "+ UIData.size());
-		Collections.sort( UIData , new TestRunner())
-
-		GlobalVariable.G_xlsxFilename = xlsxfilename.toString()
-		manifestData = ReadExcel.readExceltoWeblist(GlobalVariable.G_xlsxFilename, manifestSheetName)
-
-		System.out.println ("This is the row size of the Neo4jdata : "+ manifestData.size());
-		Collections.sort( manifestData , new TestRunner())
-		compareTwoLists(UIData,manifestData)
-	}
 
 	/**
 	 * This function validates stat-bar values
@@ -2310,6 +1705,11 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 	}
 
 
+	/**
+	 * This function is used to click on any element
+	 * @param TabName
+	 * @return
+	 */
 	@Keyword
 	public static clickTab(String TabName){
 
@@ -2317,7 +1717,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		String rawTabName = TabName
 		String tabxpath = givexpath(TabName)
 		System.out.println("This is the value of xpath of the element: "+tabxpath);
-		//	wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(tabxpath)));
+		//wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(tabxpath)));
 		WebElement resultTab = driver.findElement(By.xpath(tabxpath));
 		js.executeScript("arguments[0].scrollIntoView(true);", resultTab);
 		js.executeScript("arguments[0].click();", resultTab);
@@ -2325,6 +1725,11 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 	}
 
 
+	/**
+	 * This function clicks on Canine tabs
+	 * @param TbName
+	 * @return
+	 */
 	@Keyword
 	public static clickTabCanineStat(String TbName){
 
@@ -2343,6 +1748,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		Thread.sleep(1000)
 	}
 
+
 	@Keyword
 	public static clickTabINSStat(String TbName){
 
@@ -2357,19 +1763,6 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		Thread.sleep(1000)
 	}
 
-	@Keyword
-	public static clickTabGMBStat(String TbName){
-
-		JavascriptExecutor js = (JavascriptExecutor)driver;
-		String rawTabName = TbName
-		String tabxpath = givexpath(TbName)
-		System.out.println("This is the value of xpath of the element: "+tabxpath);
-		WebElement resultTab = driver.findElement(By.xpath(tabxpath));
-		js.executeScript("arguments[0].scrollIntoView(true);", resultTab);
-		js.executeScript("arguments[0].click();", resultTab);
-		System.out.println("Successfully clicked desired element")
-	}
-
 
 	@Keyword
 	public static clickTabCDSStat(String TbName){
@@ -2382,16 +1775,12 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		js.executeScript("arguments[0].scrollIntoView(true);", resultTab);
 		js.executeScript("arguments[0].click();", resultTab);
 		System.out.println("Successfully clicked desired element")
-
-
-		//String xcStudies = givexpath('Object Repository/CDS/StatBar/CDS_StatBar-Studies')
-		//GlobalVariable.G_StatBar_Files = driver.findElement(By.xpath(xcStudies)).getAttribute("innerText");
-		//System.out.println("This is the value of Studies count from Stat bar: "+GlobalVariable.G_StatBar_Files)
 		Thread.sleep(3000)
 	}
 
+
 	/**
-	 * This method scrolls 
+	 * This method scrolls to a particular element
 	 * @param elem
 	 */
 	@Keyword
@@ -2403,53 +1792,6 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 	public static void clickElement(WebElement el){
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		js.executeScript("arguments[0].click();", el);
-	}
-
-	@Keyword
-	public static Select_case_checkbox( String caseID,String count){
-		JavascriptExecutor js = (JavascriptExecutor)driver;
-		//String one_path ="//a[contains( text(),'"+ caseID +"')]//parent::div//parent::td//preceding-sibling::td/div/span/span/input"
-
-
-		System.out.println(" In the function  " + count + "caseid : "  + caseID )
-		String one_path;
-		switch(count){
-			case("one"):
-
-				if (driver.getCurrentUrl().contains("bento-tools.org/")){
-					one_path ="//a[contains( text(),'"+ caseID +"')]//parent::div//parent::div//parent::td//preceding-sibling::td/div/span/span/input"
-				}
-				else if (driver.getCurrentUrl().contains("caninecommons")){
-
-					one_path ="//a[contains( text(),'"+ caseID +"')]//parent::div//parent::div//parent::td//preceding-sibling::td/div/span/span/input"
-				}
-
-				WebElement checkbox =driver.findElement(By.xpath(one_path))
-				js.executeScript("arguments[0].click();", checkbox)
-
-				break;
-			case ("all"):
-				String all_path ="//div[@id=\'case_tab_table\']//thead/tr/th/div/span/span/input"
-
-				System.out.println ("All Path :" + all_path )
-				WebElement checkbox =driver.findElement(By.xpath(all_path))
-				js.executeScript("arguments[0].click();", checkbox)
-
-				break;
-			case ("allM"):
-				String all_M="//div[text()=\'Case ID\']//parent::div//parent::div//parent::span//parent::th//preceding-sibling::th/div/span/span/input"
-				System.out.println ("All Path :" + all_M )
-				WebElement checkbox =driver.findElement(By.xpath(all_M))
-				js.executeScript("arguments[0].click();", checkbox)
-
-				break;
-			case ("caseM"):
-				String all_M="//div[text()='" + caseID + "']//parent::div//parent::div//parent::span//parent::th//preceding-sibling::th/div/span/span/input"
-				System.out.println ("All Path :" + all_M )
-				WebElement checkbox =driver.findElement(By.xpath(all_M))
-				js.executeScript("arguments[0].click();", checkbox)
-				break;
-		}
 	}
 
 
@@ -2470,109 +1812,82 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 	}
 
 
+	/**
+	 * This function is used for Bento login
+	 */
 	@Keyword
-	public static JsFunc() {
-		String caseID ='COTC007B0203'
+	public void Login(String signinButton, String emailID, String emailNxtBtn, String Passwd, String PasswdNxtBtn){
+		String xsigninButton = givexpath(signinButton)
+		String xemailNxtBtn = givexpath(emailNxtBtn)
+		String xPasswd = givexpath(Passwd)
+		String xPasswdNxtBtn = givexpath(PasswdNxtBtn)
+
 		JavascriptExecutor js = (JavascriptExecutor)driver;
-		String one_path ="//a[contains( text(),'"+ caseID +"')]//parent::div//parent::td//preceding-sibling::td/div/span/span/input"
-		System.out.println ("one_path :" + one_path)
-		WebElement checkbox =driver.findElement(By.xpath(one_path))
-		js.executeScript("arguments[0].click();", checkbox)
-	}
+
+		Set<String> allHandlesb4signin = driver.getWindowHandles();
+		System.out.println("Count of windows BEFORE sign in with google :"+allHandlesb4signin.size());
+		System.out.println(allHandlesb4signin);
+		String currentWindowHandleB4 = allHandlesb4signin.iterator().next();
+		System.out.println("currentWindow Handle - default handle before signin : "+currentWindowHandleB4);
+
+		//removed the if loop
 
 
-	@Keyword
-	public static File_details(String tbl1, String hdr1, String nxtb1) {
+		System.out.println("Waiting to log in")
 
-		List<String> caseId = new ArrayList<String>()
-
-		//List<String> webData = new ArrayList<String>();
-		String tbl_main= givexpath(tbl1)
-		String tbl_bdy=     tbl_main+"//tbody"
-		GlobalVariable.G_cannine_caseTblBdy=tbl_bdy
-
-		String tbl_str= givexpath(tbl1)                                   //"//div[contains(text(),'Case')]//parent::span//parent::th//parent::tr//parent::thead//following-sibling::tbody"
-		WebElement Table =driver.findElement(By.xpath(tbl_str))
-
-		List<WebElement> rows_table = Table.findElements(By.xpath("//*[contains(@id, \"MUIDataTableBodyRow-\")]"))
-		int rows_count = rows_table.size()
-		System.out.println("This is the size of the rows in the table in first page in files: "+(rows_count))
-		System.out.println("This is the  url of thecurrent  page : "+driver.getCurrentUrl())
-
-		String nxt_str=     givexpath(nxtb1)
-		WebElement nextButton = driver.findElement(By.xpath(nxt_str));
-		System.out.println("This is the value of next button coming from file_details function : "+nextButton)
-		String hdr_str= givexpath(hdr1)
-		WebElement tableHdr = driver.findElement(By.xpath(hdr_str))
-
-		List<WebElement> colHeader = tableHdr.findElements(By.tagName("th"));
-		int columns_count = (colHeader.size())-1
-		System.out.println("No.of cols in the case detail page is : "+columns_count)
-		String sTable
-		String sHeasder
-		String sNext
-		String hdrdata = ""
-
-		while(true) {
-			rows_table = Table.findElements(By.xpath("//*[contains(@id, \"MUIDataTableBodyRow-\")]"))
-			rows_count = rows_table.size()
-			System.out.println("This is the size of the rows in the table in the current page: "+(rows_count))
-			for(int i = 1; i <= rows_count; i++) {
-				//rows_count
-				String data = ""
-				String sCase
-				int tblcol=GlobalVariable.G_rowcount_Katalon; //12 //19 This is for icdc
-
-				sCase= ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + 2 + "]")).getText())) // this is for Bento
-				data =  sCase
-				System.out.println ("This is the case ID before clicking:" + sCase)
-				clickcase sCase  // calling the function clickcase
-
-				// TO DO
-				//Read case level stat bar
-				// Neo 4 Data base query
-				// Wedata from files AVALABLE FILES
-				//Compare Ne4j output and Web data for file
-
-				caseId.add(data)
-			}
-			if (nxtBtn.getAttribute("disabled")) break;
-			nxtBtn.click()
+		js.executeScript("arguments[0].click();", driver.findElement(By.xpath(xsigninButton)));
+		Set<String> allHandlesAftersignin = driver.getWindowHandles();
+		System.out.println("Count of windows AFTER sign in with google :"+allHandlesAftersignin.size());
+		System.out.println(allHandlesAftersignin);
+		String parent=driver.getWindowHandle();
+		for(String curWindow : allHandlesAftersignin){
+			System.out.println ("This is the id of the curr window :"+curWindow)
+			driver.switchTo().window(curWindow);   //switching to the child window
 		}
-		GlobalVariable.G_CasesArray= caseId;
-		System.out.println("This is the contents of globalvar G_casesarray: " +GlobalVariable.G_CasesArray)
-	}
-	//}
+		String currentWindowHandleAFTER = allHandlesAftersignin.iterator().next();
+		System.out.println("currentWindow Handle -default after signin : "+currentWindowHandleAFTER);
+		//store parent window & child window
 
-	@Keyword
-	public static void clickcase(String lCases ) {
-		JavascriptExecutor js = (JavascriptExecutor)driver;
-		int i
-
-		String Str1
-		Str1 = "//a[contains(@href,'" + lCases + "')]"
-		WebElement caseIDlink =driver.findElement(By.xpath(Str1))
-		js.executeScript("arguments[0].click();", caseIDlink)
-		System.out.println ("This is the url of the current page - case details (before reading case details table): "+driver.getCurrentUrl())
-		// calling the below function reads the data in the case details table
-		ReadCasesTableKatalon(GlobalVariable.G_StatBar_Grants,'Object Repository/Bento/CaseDetail_page/Bento_CDFilesTable','Object Repository/Bento/CaseDetail_page/Bento_CDFilesTable_Hdr', 'Object Repository/Bento/CaseDetail_page/Bento_CDFilesTable_NxtBtn',GlobalVariable.G_caseDetailsTabName)
-
-		driver.navigate().back()
-		System.out.println ("This is the url of the current page - all cases, AFTER reading case details table) :"+driver.getCurrentUrl())
-		casedetailsQueryBuilder(lCases)
-	}
+		//switch to child window
+		WebUI.switchToWindowIndex(1)
+		String FirstWndUrl = driver.getCurrentUrl();
+		System.out.println("First Popup window's url: " + FirstWndUrl)
+		driver.manage().window().maximize();
 
 
-	@Keyword
-	public static void casedetailsQueryBuilder(String lCases ) {
-		System.out.println("This is the value of lcasesfromfunction: "+lCases)
-		System.out.println("First part new is : "+GlobalVariable.G_CaseDetailsQFirstPart)
-		System.out.println("Second part new is : "+GlobalVariable.G_CaseDetailsQSecondPart)
+		//Entering the email id or username
+		Thread.sleep(2000)
+		driver.findElement(By.xpath(xemailID)).sendKeys(GlobalVariable.G_AppUserName);
+		System.out.println("Reading the text typed in email field: "+driver.findElement(By.xpath(xemailID)).getAttribute("value"));
+		Thread.sleep(2000)
 
-		String finalQ = GlobalVariable.G_CaseDetailsQFirstPart + lCases + GlobalVariable.G_CaseDetailsQSecondPart
-		System.out.println ("This is the concatenated query for breed greyhound: "+finalQ )
 
-		GlobalVariable.G_CaseDetailQ=finalQ
-		System.out.println ("This is the reassigned global variable from query builder function: "+GlobalVariable.G_CaseDetailQ )
-	}
+		//Clicking the next button after email id
+		js.executeScript("arguments[0].click();", driver.findElement(By.xpath(xemailNxtBtn)));
+		Thread.sleep(10000);
+
+		//Entering the password
+		driver.findElement(By.xpath(xPasswd)).sendKeys(GlobalVariable.G_AppPassword);
+		System.out.println("Getting password: "+driver.findElement(By.xpath(xPasswd)).getAttribute("value"));
+		Thread.sleep(2000)
+
+		//Clicking the next button after password
+		js.executeScript("arguments[0].click();", driver.findElement(By.xpath(xPasswdNxtBtn)));
+		Thread.sleep(3000)
+
+		System.out.println("Typed password and clicked the next button in password window. Moving back to the parent window handle")
+		driver.switchTo().window(parent);
+		driver.manage().window().maximize();
+		Thread.sleep(3000)
+
+		System.out.println("This is the current url post login & moving back to parent window handle : "+ driver.getCurrentUrl() );
+
+		Set<String> allHandlesAfterLogin = driver.getWindowHandles();
+		System.out.println(allHandlesAfterLogin);
+		System.out.println("Count of windows after successful login :"+allHandlesAfterLogin.size());
+		String curWindowHandlePostLogin = allHandlesAfterLogin.iterator().next();
+		System.out.println("currentWindow Handle -default after successful login : "+curWindowHandlePostLogin);
+
+		System.out.println("After successful login, the landing page's url: " + driver.getCurrentUrl())
+	}//login function ends here
 }  //class ends here
