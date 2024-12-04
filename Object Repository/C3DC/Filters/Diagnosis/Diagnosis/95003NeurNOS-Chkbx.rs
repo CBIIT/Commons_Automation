@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Race_Ddn</name>
+   <name>95003NeurNOS-Chkbx</name>
    <tag></tag>
-   <elementGuidId>b2aaa577-253d-42f4-8b6e-d9472be363f7</elementGuidId>
+   <elementGuidId>55ec80e1-715a-4187-9a88-514b02571bd7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id='Race' and @role='button']</value>
+         <value>//*[@id=&quot;checkbox_Diagnosis_9500/3 : Neuroblastoma, NOS&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id='Race' and @role='button']</value>
-      <webElementGuid>7ddeed1c-44f7-4307-bb3b-fbf2eb973879</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Diagnosis_9500/3 : Neuroblastoma, NOS&quot;]</value>
+      <webElementGuid>13da4dd4-b6d3-4576-97a8-d6048da20cfb</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

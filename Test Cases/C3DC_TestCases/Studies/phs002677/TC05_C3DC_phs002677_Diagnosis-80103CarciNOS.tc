@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_C3DC_phs002677_Diagnosis-80103CarciNOS</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8d9d4ea1-fc91-440f-8974-90ad2c7d4a80</testCaseGuid>
+</TestCaseEntity>

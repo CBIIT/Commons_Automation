@@ -1435,7 +1435,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 	 */
 	public static void writeToExcel(String webSheetName){
 
-		TestRunner.creatDirctory("OutputFiles");
+		TestRunner.createDirctory("OutputFiles");
 
 		try {
 			String excelPath = GlobalVariable.G_WebExcel;
@@ -1808,7 +1808,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 	 * This function creates directory in the project path
 	 * @param dirName
 	 */
-	public static void creatDirctory(String dirName) {
+	public static void createDirctory(String dirName) {
 
 		// Get the project directory path
 		String projectDir = System.getProperty("user.dir");
