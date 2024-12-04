@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Race_Ddn</name>
+   <name>NotReported-Chkbx</name>
    <tag></tag>
-   <elementGuidId>b2aaa577-253d-42f4-8b6e-d9472be363f7</elementGuidId>
+   <elementGuidId>8f82b288-65a1-46f2-a81c-3450f33bbee9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id='Race' and @role='button']</value>
+         <value>//*[@id=&quot;checkbox_Anatomic Site_Not Reported&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id='Race' and @role='button']</value>
-      <webElementGuid>7ddeed1c-44f7-4307-bb3b-fbf2eb973879</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Anatomic Site_Not Reported&quot;]</value>
+      <webElementGuid>8cff9bd2-c954-41f5-b6db-dd99062e7e65</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

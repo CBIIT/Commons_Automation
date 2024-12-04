@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Race_Ddn</name>
+   <name>80103CarciNOS-Chkbx</name>
    <tag></tag>
-   <elementGuidId>b2aaa577-253d-42f4-8b6e-d9472be363f7</elementGuidId>
+   <elementGuidId>85a611a5-d411-4098-9031-9c84ba13fe68</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id='Race' and @role='button']</value>
+         <value>//*[@id=&quot;checkbox_Diagnosis_8010/3 : Carcinoma, NOS&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id='Race' and @role='button']</value>
-      <webElementGuid>7ddeed1c-44f7-4307-bb3b-fbf2eb973879</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Diagnosis_8010/3 : Carcinoma, NOS&quot;]</value>
+      <webElementGuid>e5dc61a2-c7c6-4b8c-93f9-a22c9c83289d</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

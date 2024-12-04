@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC06_C3DC_phs002677_DiagnClasfSystem-ICD-O-3</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0ab82ea3-bb5e-4779-9810-115c9b5425e0</testCaseGuid>
+</TestCaseEntity>

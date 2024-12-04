@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Race_Ddn</name>
+   <name>C029TongueNOS-Chkbx</name>
    <tag></tag>
-   <elementGuidId>b2aaa577-253d-42f4-8b6e-d9472be363f7</elementGuidId>
+   <elementGuidId>22dcbe7a-4312-45e5-a4e5-2dab04abf469</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id='Race' and @role='button']</value>
+         <value>//*[@id=&quot;checkbox_Anatomic Site_C02.9 : Tongue, NOS&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id='Race' and @role='button']</value>
-      <webElementGuid>7ddeed1c-44f7-4307-bb3b-fbf2eb973879</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Anatomic Site_C02.9 : Tongue, NOS&quot;]</value>
+      <webElementGuid>5ac8003f-f7cc-4ac5-9039-d00fde5106c0</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
