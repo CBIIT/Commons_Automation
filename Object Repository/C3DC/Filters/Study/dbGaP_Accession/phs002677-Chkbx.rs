@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Race_Ddn</name>
+   <name>phs002677-Chkbx</name>
    <tag></tag>
-   <elementGuidId>b2aaa577-253d-42f4-8b6e-d9472be363f7</elementGuidId>
+   <elementGuidId>ef6745ef-6994-4153-a574-1cfa20a0c07c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id='Race' and @role='button']</value>
+         <value>//*[@id=&quot;checkbox_dbGaP ACCESSION_phs002677&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id='Race' and @role='button']</value>
-      <webElementGuid>7ddeed1c-44f7-4307-bb3b-fbf2eb973879</webElementGuid>
+      <value>//*[@id=&quot;checkbox_dbGaP ACCESSION_phs002677&quot;]</value>
+      <webElementGuid>7305a83a-c552-403e-b301-e51ef04711a1</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

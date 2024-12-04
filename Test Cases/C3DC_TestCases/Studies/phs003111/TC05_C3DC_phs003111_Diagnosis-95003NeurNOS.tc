@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_C3DC_phs003111_Diagnosis-95003NeurNOS</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>15d0940e-4508-44c9-874e-4869fdbb7687</testCaseGuid>
+</TestCaseEntity>
