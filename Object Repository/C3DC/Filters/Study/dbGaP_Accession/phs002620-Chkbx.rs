@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>9811-3_B_lymphoblastic_leuk_NOS-Chkbx</name>
+   <name>phs002620-Chkbx</name>
    <tag></tag>
-   <elementGuidId>98485bd0-49a1-4a8a-b2fe-378323d2795b</elementGuidId>
+   <elementGuidId>dc1bdb9a-fbbb-4135-afcb-0916072ee15c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Diagnosis_9811/3 : B lymphoblastic leukemia/lymphoma, NOS&quot;]</value>
+         <value>//*[@id=&quot;checkbox_dbGaP ACCESSION_phs002620&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Diagnosis_9811/3 : B lymphoblastic leukemia/lymphoma, NOS&quot;]</value>
-      <webElementGuid>88585672-cd3e-4d1b-8c43-8fe5f39a49dc</webElementGuid>
+      <value>//*[@id=&quot;checkbox_dbGaP ACCESSION_phs002620&quot;]</value>
+      <webElementGuid>c592b557-53fc-4dde-aaa4-11ef7cfe2168</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
