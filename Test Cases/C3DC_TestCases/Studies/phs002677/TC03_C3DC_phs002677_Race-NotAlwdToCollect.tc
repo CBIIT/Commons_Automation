@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_C3DC_phs002677_Race-NotAlwdToCollect</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>33aa456e-eea6-4fb3-acdf-b7e0a92ba981</testCaseGuid>
+</TestCaseEntity>

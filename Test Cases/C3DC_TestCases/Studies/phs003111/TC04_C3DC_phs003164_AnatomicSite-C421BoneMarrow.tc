@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC04_C3DC_phs003164_AnatomicSite-C421BoneMarrow</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>935f56cc-6ed1-4153-b0e2-2fca8c1fab45</testCaseGuid>
-</TestCaseEntity>

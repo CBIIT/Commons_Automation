@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC02_C3DC_phs003164_SexAtBirth-NotReported</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>aa8741af-7eb2-4aa9-980d-fd6a7af21203</testCaseGuid>
-</TestCaseEntity>
