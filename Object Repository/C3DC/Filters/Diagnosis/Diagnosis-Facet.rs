@@ -7,7 +7,15 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[text()=&quot;Diagnosis&quot;])[1]</value>
+         <value>(//*[text()='Diagnosis'])[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//*[text()='Diagnosis'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +26,15 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[text()=&quot;Diagnosis&quot;])[1]</value>
-      <webElementGuid>e828181a-8e97-443b-9d2b-a9b440f968f7</webElementGuid>
+      <value>(//*[text()='Diagnosis'])[1]</value>
+      <webElementGuid>c512a119-88e3-4f74-bc71-3d09abaf4517</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Diagnosis</value>
+      <webElementGuid>df7e9500-d84d-4e9a-b51e-1bd91dd96cdf</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

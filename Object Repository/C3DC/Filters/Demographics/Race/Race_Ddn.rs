@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@id=&quot;Race&quot;])[1]</value>
+         <value>//*[@id='Race' and @role='button']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@id=&quot;Race&quot;])[1]</value>
-      <webElementGuid>680af5e1-cf8c-4d83-8f31-82e24c2337ce</webElementGuid>
+      <value>//*[@id='Race' and @role='button']</value>
+      <webElementGuid>7ddeed1c-44f7-4307-bb3b-fbf2eb973879</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
