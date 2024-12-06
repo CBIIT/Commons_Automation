@@ -32,7 +32,7 @@ import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 import internal.GlobalVariable
-
+import utilities.ReadExcel
 
 
 public class TestRunner implements Comparator<List<XSSFCell>>{
@@ -2574,5 +2574,138 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 
 		GlobalVariable.G_CaseDetailQ=finalQ
 		System.out.println ("This is the reassigned global variable from query builder function: "+GlobalVariable.G_CaseDetailQ )
+	}
+
+	/** vleung
+	 * This function verifies the static data text
+	 * @param page - Name of the page where the static data is -- this should match the sub-folder where the Test Object is located
+	 * 				 in the Object Repository and also the name of the sheet in the Excel
+	 */
+	@Keyword
+	public static void verifyStaticData(String page) throws IOException {
+
+		if(page == null || page.isEmpty()) {
+			KeywordUtil.markFailed("Invalid page: Check verifyStaticText() method")
+		}
+
+		// Get the file path for Excel data
+		String usrDir = System.getProperty("user.dir");
+		String inputFiles = "InputFiles";
+		Path filePath;
+
+		if(appKey.equals("Bento")) {
+			filePath = Paths.get(usrDir, inputFiles, "Bento", "Bento_StaticData.xlsx");
+		}else if(appKey.equals("ICDC")) {
+			filePath = Paths.get(usrDir, inputFiles, "ICDC", "ABC123.xlsx");
+		}else if(appKey.equals("CCDI")) {
+			filePath = Paths.get(usrDir, inputFiles, "CCDI", "ABC123.xlsx");
+		}else if(appKey.equals("C3DC")) {
+			filePath = Paths.get(usrDir, inputFiles, "C3DC", "C3DC_StaticData.xlsx");
+		}else if(appKey.equals("INS")) {
+			filePath = Paths.get(usrDir, inputFiles, "INS", "ABC123.xlsx");
+		}else if(appKey.equals("CDS")) {
+			filePath = Paths.get(usrDir, inputFiles, "CDS", "ABC123.xlsx");
+		}else if(appKey.equals("CTDC")) {
+			filePath = Paths.get(usrDir, inputFiles, "CTDC", "ABC123.xlsx");
+		}else if(appKey.equals("MTP")) {
+			filePath = Paths.get(usrDir, inputFiles, "MTP", "ABC123.xlsx");
+		}else if(appKey.equals("CCDC")) {
+			filePath = Paths.get(usrDir, inputFiles, "CCDC", "ABC123.xlsx");
+		}else if(appKey.equals("CRDC")) {
+			filePath = Paths.get(usrDir, inputFiles, "CRDC", "ABC123.xlsx");
+		}else {
+			KeywordUtil.markFailed("Invalid App Key: Check Profile or verifyStaticText() function")
+		}
+
+		if (filePath !=null) {
+			KeywordUtil.markPassed("This is the full file path: " + filePath.toString())
+		}else{
+			KeywordUtil.markFailed("File is not found")
+		}
+
+		// Get the data from Excel
+		List<List<String>> excelData = ReadExcel.readOutputExcel(filePath.toString(), page)
+
+		if (excelData == null || excelData.isEmpty()) {
+			KeywordUtil.markFailed("Excel is empty")
+		} else {
+
+			// Default values
+			boolean overallResult = true
+			List<List<String>> outputData = new ArrayList<>()
+
+			for (List<String> row : excelData) {
+				if (row.size() < 3) {
+					row.add("") // Account for TestObjects that do not have a URL to verify
+				}
+				String testObjectId = row[0]
+				String expectedText = row[1]
+				String expectedUrl= row[2]
+
+				// Text and link verification default values
+				boolean verifyTextPass = false
+				boolean verifyUrlPass = false
+				
+				// Verify text data matches with element
+				try {
+					TestObject testObject = findTestObject(appKey + "/" + page + "/" + testObjectId) // path of Test Object in Object Repository
+					
+					// Make sure TestObject has correct name in the sheet
+					if (testObject == null) {
+						System.err.println("TestObject does not exist in Object Repository: " + testObjectId)
+						row.add("false")
+						outputData.add(row)
+						overallResult = false
+						continue
+					}
+
+					// Make sure TestObject has the correct xpath in Katalon
+					WebUI.waitForElementVisible(testObject, 10)
+					boolean elementExists = WebUI.waitForElementPresent(testObject, 10)
+					if (!elementExists) {
+						System.err.println("TestObject has wrong xpath: " + testObjectId)
+						row.add("false")
+						outputData.add(row)
+						overallResult = false
+						continue
+					}
+
+					String actualText = WebUI.getText(testObject).replaceAll("\\r?\\n", " ").trim()
+					System.out.println("Verifying text: " + testObjectId + " - Expected: " + expectedText + ", Actual: " + actualText);
+					if (actualText.equals(expectedText)) {
+						verifyTextPass = true;
+					} else {
+						System.err.println("Text verification failed: " + testObjectId)
+						overallResult = false;
+					}
+
+					// If element is a link, also verify URL
+					if (testObjectId.contains("Link")) {
+						String actualUrl = WebUI.getAttribute(testObject, 'href')
+						System.out.println("Verifying URL: " + testObjectId + " - Expected: " + expectedUrl + ", Actual: " + actualUrl);
+						if (actualUrl.equals(expectedUrl)) {
+							verifyUrlPass = true;
+							row.add((verifyTextPass && verifyUrlPass).toString())
+						} else {
+							System.err.println("URL verification failed: " + testObjectId)
+							row.add(verifyUrlPass.toString())
+							overallResult = false;
+						}
+					} else {
+						row.add(verifyTextPass.toString())
+					}
+
+					outputData.add(row)
+				} catch (Exception e) {
+					WebUI.comment("Error verifying " + testObjectId + ": " + e.message)
+					overallResult = false;
+				}
+			}
+			String outputFilePath = filePath.getParent().resolve("Output_" + filePath.getFileName().toString())
+			ReadExcel.writeOutputExcelStaticData(outputFilePath, page, outputData, 3)
+			if (overallResult == false) {
+				KeywordUtil.markFailed("There is a FAILURE -- verify in output Excel: "+ outputFilePath)
+			}
+		}
 	}
 }  //class ends here

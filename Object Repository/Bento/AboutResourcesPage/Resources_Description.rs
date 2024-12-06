@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Resources_Description</name>
+   <tag></tag>
+   <elementGuidId>5e513bbf-eb64-4639-916c-7e3ebbbc0a66</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@class,'MuiGrid-root')]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@class,'MuiGrid-root')]/span</value>
+      <webElementGuid>06a83d13-f47a-4514-af46-0f22043c5296</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
