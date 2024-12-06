@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Resources_LoadersLink</name>
+   <tag></tag>
+   <elementGuidId>b43b5b8f-e540-4d13-8501-d131adf7ccd7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@title='https://github.com/CBIIT/icdc-dataloader']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[@title='https://github.com/CBIIT/icdc-dataloader']</value>
+      <webElementGuid>dca47be9-6a47-4739-8937-b25829901921</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Resources_CoreDataModelLink</name>
+   <tag></tag>
+   <elementGuidId>815d5a76-2e6e-4c0a-bb8b-254bf6b56b6c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@title='https://github.com/CBIIT/bento-model']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[@title='https://github.com/CBIIT/bento-model']</value>
+      <webElementGuid>b3505857-bb06-4377-b1b8-c47ec943e516</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

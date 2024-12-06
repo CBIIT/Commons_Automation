@@ -93,10 +93,10 @@ public class CustomBrowserDriver {
 				Map<String, Object> chromePrefs = new HashMap<String, Object>()
 				chromePrefs.put("download.default_directory", manifestPath)
 				chromePrefs.put("download.prompt_for_download", false)
-				//commented the below line as it was suspected to cause page crash errors frequently in INS in data validation framework
+			//commented the below line as it was suspected to cause page crash errors frequently in INS in data validation framework
 				options.addArguments("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36");
 
-				// old version  //options.addArguments("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36");
+			// old version  //options.addArguments("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36");
 				options.setExperimentalOption("useAutomationExtension", false);
 				options.setExperimentalOption("excludeSwitches", Collections.singletonList("enable-automation"));
 			//options.setExperimentalOption("prefs", chromePrefs)
@@ -128,7 +128,7 @@ public class CustomBrowserDriver {
 				System.setProperty("webdriver.chrome.driver", DriverFactory.getChromeDriverPath())
 				ChromeOptions options = new ChromeOptions();
 				options.addArguments("--headless");
-			    options.addArguments("--disable-dev-shm-usage");  //commenting temporarily //sohil - uncommenting this
+				options.addArguments("--disable-dev-shm-usage");  //commenting temporarily //sohil - uncommenting this
 				options.addArguments("--disable-gpu");
 				options.addArguments("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.6778.85 Safari/537.36");
 				DesiredCapabilities dc = new DesiredCapabilities();

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_Bento_StaticData</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>87b8b0ce-1243-41c7-a2d0-e0e1676c99a2</testCaseGuid>
+</TestCaseEntity>
