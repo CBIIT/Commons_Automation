@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>DataModelParagraph1</name>
+   <tag></tag>
+   <elementGuidId>61b3538d-5b9d-4c69-978b-7a0f7ab68b6a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class='introParagraph']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class='introParagraph']</value>
+      <webElementGuid>18069e9a-764b-415c-b05b-1cd3d96e7f0f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
