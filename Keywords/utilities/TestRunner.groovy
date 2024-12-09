@@ -1980,7 +1980,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 
 				// Verify text data matches with element
 				try {
-					TestObject testObject = findTestObject(appKey + "/" + page + "/" + testObjectId) // path of Test Object in Object Repository
+					TestObject testObject = findTestObject(appKey + "/" + "Static" + "/" + page + "/" + testObjectId) // path of Test Object in Object Repository
 
 					// Make sure TestObject has correct name in the sheet
 					if (testObject == null) {
