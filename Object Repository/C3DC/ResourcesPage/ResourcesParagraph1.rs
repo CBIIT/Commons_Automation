@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ResourcesParagraph1</name>
+   <tag></tag>
+   <elementGuidId>70bbb8e1-bd29-4f56-9af8-7f70b6e6b09b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class='textParagraph']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class='textParagraph']</value>
+      <webElementGuid>91c4b82c-41d2-45d8-9dc6-77bd6041c195</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ResourcesParagraph5</name>
+   <tag></tag>
+   <elementGuidId>72fa1f40-dc2c-4cb1-ae1b-7e0498cd46cd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id='GDC']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@id='GDC']</value>
+      <webElementGuid>4f7d6f91-1bc8-4dda-a8a2-2510364ec25a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

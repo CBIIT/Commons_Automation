@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ResourcesParagraph6</name>
+   <tag></tag>
+   <elementGuidId>f1da485a-3ea6-4849-8fc6-8157235e060e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id='caDSR']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@id='caDSR']</value>
+      <webElementGuid>ce9b6efe-d287-41d2-8d1e-36ae0edd9342</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

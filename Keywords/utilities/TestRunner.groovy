@@ -1869,45 +1869,45 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		String FirstWndUrl = driver.getCurrentUrl();
 		System.out.println("First Popup window's url: " + FirstWndUrl)
 		driver.manage().window().maximize();
-	
-	
+
+
 		//Entering the email id or username
 		Thread.sleep(2000)
 		driver.findElement(By.xpath(xemailID)).sendKeys(GlobalVariable.G_AppUserName);
 		System.out.println("Reading the text typed in email field: "+driver.findElement(By.xpath(xemailID)).getAttribute("value"));
 		Thread.sleep(2000)
-	
-	
+
+
 		//Clicking the next button after email id
 		js.executeScript("arguments[0].click();", driver.findElement(By.xpath(xemailNxtBtn)));
 		Thread.sleep(10000);
-	
+
 		//Entering the password
 		driver.findElement(By.xpath(xPasswd)).sendKeys(GlobalVariable.G_AppPassword);
 		System.out.println("Getting password: "+driver.findElement(By.xpath(xPasswd)).getAttribute("value"));
 		Thread.sleep(2000)
-	
+
 		//Clicking the next button after password
 		js.executeScript("arguments[0].click();", driver.findElement(By.xpath(xPasswdNxtBtn)));
 		Thread.sleep(3000)
-	
+
 		System.out.println("Typed password and clicked the next button in password window. Moving back to the parent window handle")
 		driver.switchTo().window(parent);
 		driver.manage().window().maximize();
 		Thread.sleep(3000)
-	
+
 		System.out.println("This is the current url post login & moving back to parent window handle : "+ driver.getCurrentUrl() );
-	
+
 		Set<String> allHandlesAfterLogin = driver.getWindowHandles();
 		System.out.println(allHandlesAfterLogin);
 		System.out.println("Count of windows after successful login :"+allHandlesAfterLogin.size());
 		String curWindowHandlePostLogin = allHandlesAfterLogin.iterator().next();
 		System.out.println("currentWindow Handle -default after successful login : "+curWindowHandlePostLogin);
-	
+
 		System.out.println("After successful login, the landing page's url: " + driver.getCurrentUrl())
 	}//login function ends here
-	
-	
+
+
 	/** vleung
 	 * This function verifies the static data text
 	 * @param page - Name of the page where the static data is -- this should match the sub-folder where the Test Object is located

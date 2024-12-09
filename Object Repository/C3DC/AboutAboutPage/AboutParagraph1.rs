@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>AboutParagraph1</name>
+   <tag></tag>
+   <elementGuidId>2e9639e4-f782-4fc4-890c-d0268609eb8b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class='introParagraph']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class='introParagraph']</value>
+      <webElementGuid>16af3803-64b6-4aba-9b88-7c890851fcde</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
