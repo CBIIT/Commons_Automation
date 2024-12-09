@@ -15,7 +15,7 @@ CustomKeywords.'utilities.TestRunner.RunKatalon'('Bento_StaticData.xlsx')
 CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/HomePage/WarningBan_Continue_Btn')
 
 //Verify static data text for Home page
-CustomKeywords.'utilities.TestRunner.verifyStaticData'("Home_page")
+CustomKeywords.'utilities.TestRunner.verifyStaticData'("V_HomePage")
 
 
 //Navigate to About > Bento
@@ -23,7 +23,7 @@ WebUI.click(findTestObject('Bento/NavBar/Bento_About-Btn'))
 WebUI.click(findTestObject('Bento/NavBar/Bento_About-Bento-Btn'))
 
 //Verify static data text for About > Bento page
-CustomKeywords.'utilities.TestRunner.verifyStaticData'("AboutBentoPage")
+CustomKeywords.'utilities.TestRunner.verifyStaticData'("V_AboutBentoPage")
 
 
 //Navigate to About > Resources
@@ -31,7 +31,7 @@ WebUI.click(findTestObject('Bento/NavBar/Bento_About-Btn'))
 WebUI.click(findTestObject('Bento/NavBar/Bento_About-Resources-Btn'))
 
 //Verify static data text for About > Resources page
-CustomKeywords.'utilities.TestRunner.verifyStaticData'("AboutResourcesPage")
+CustomKeywords.'utilities.TestRunner.verifyStaticData'("V_AboutResourcesPage")
 
 
 WebUI.closeBrowser()

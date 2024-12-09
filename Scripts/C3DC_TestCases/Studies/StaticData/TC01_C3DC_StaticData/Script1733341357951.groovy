@@ -16,27 +16,27 @@ CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/HomePage/WarningBan_Continu
 
 
 //Verify static data text - Home page
-CustomKeywords.'utilities.TestRunner.verifyStaticData'("HomePage")
+CustomKeywords.'utilities.TestRunner.verifyStaticData'("V_HomePage")
 
 //Navigate to Data Model
 WebUI.click(findTestObject('C3DC/Navbar/DataModel-Tab'))
 
 //Verify static data text - Data Model page
-CustomKeywords.'utilities.TestRunner.verifyStaticData'("DataModelPage")
+CustomKeywords.'utilities.TestRunner.verifyStaticData'("V_DataModelPage")
 
 //Navigate to Resources > Resources
 WebUI.click(findTestObject('C3DC/Navbar/Resources-Tab'))
 WebUI.click(findTestObject('C3DC/NavBar/Resources-Resources-Btn'))
 
 //Verify static data text - Resources page
-CustomKeywords.'utilities.TestRunner.verifyStaticData'("ResourcesPage")
+CustomKeywords.'utilities.TestRunner.verifyStaticData'("V_ResourcesPage")
 
 //Navigate to About > About
 WebUI.click(findTestObject('C3DC/Navbar/About-Tab'))
 WebUI.click(findTestObject('C3DC/NavBar/About-About-Btn'))
 
 //Verify static data text - About > About page
-CustomKeywords.'utilities.TestRunner.verifyStaticData'("AboutAboutPage")
+CustomKeywords.'utilities.TestRunner.verifyStaticData'("V_AboutAboutPage")
 
 
 
