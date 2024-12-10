@@ -1,0 +1,22 @@
+type	case.case_record_id	disease_term	primary_disease_site	stage_of_disease	date_of_diagnosis	histology_cytopathology	date_of_histology_confirmation	histological_grade	best_response	pathology_report	treatment_data	follow_up_data	concurrent_disease	concurrent_disease_type	diagnosis_record_id
+diagnosis	PRCNCT IL-15-001	Osteosarcoma	Bone (Appendicular)	IV					Unknown	Yes	Yes	Yes			PRCNCT IL-15-001
+diagnosis	PRCNCT IL-15-002	Osteosarcoma	Bone (Appendicular)	IV					Unknown	Yes	Yes	Yes			PRCNCT IL-15-002
+diagnosis	PRCNCT IL-15-003	Osteosarcoma	Bone (Appendicular)	IV					Unknown	Yes	Yes	Yes			PRCNCT IL-15-003
+diagnosis	PRCNCT IL-15-004	Osteosarcoma	Bone (Appendicular)	IV					Unknown	Yes	Yes	Yes			PRCNCT IL-15-004
+diagnosis	PRCNCT IL-15-005	Osteosarcoma	Bone (Appendicular)	IV					Unknown	Yes	Yes	Yes			PRCNCT IL-15-005
+diagnosis	PRCNCT IL-15-006	Osteosarcoma	Bone (Appendicular)	IV					Unknown	Yes	Yes	Yes			PRCNCT IL-15-006
+diagnosis	PRCNCT IL-15-007	Melanoma	Mouth	IV					Unknown	Yes	Yes	Yes			PRCNCT IL-15-007
+diagnosis	PRCNCT IL-15-008	Osteosarcoma	Bone (Appendicular)	IV					Unknown	Yes	Yes	Yes			PRCNCT IL-15-008
+diagnosis	PRCNCT IL-15-009	Osteosarcoma	Bone (Appendicular)	IV					Unknown	Yes	Yes	Yes			PRCNCT IL-15-009
+diagnosis	PRCNCT IL-15-010	Melanoma	Mouth	IV					Unknown	Yes	Yes	Yes			PRCNCT IL-15-010
+diagnosis	PRCNCT IL-15-011	Osteosarcoma	Bone (Appendicular)	IV					Unknown	Yes	Yes	Yes			PRCNCT IL-15-011
+diagnosis	PRCNCT IL-15-012	Melanoma	Mouth	IV					Unknown	Yes	Yes	Yes			PRCNCT IL-15-012
+diagnosis	PRCNCT IL-15-013	Melanoma	Mouth	IV					Unknown	Yes	Yes	Yes			PRCNCT IL-15-013
+diagnosis	PRCNCT IL-15-014	Melanoma	Mouth	IV					Unknown	Yes	Yes	Yes			PRCNCT IL-15-014
+diagnosis	PRCNCT IL-15-015	Melanoma	Mouth	IV					Unknown	Yes	Yes	Yes			PRCNCT IL-15-015
+diagnosis	PRCNCT IL-15-016	Melanoma	Mouth	IV					Unknown	Yes	Yes	Yes			PRCNCT IL-15-016
+diagnosis	PRCNCT IL-15-017	Melanoma	Mouth	IV					Unknown	Yes	Yes	Yes			PRCNCT IL-15-017
+diagnosis	PRCNCT IL-15-018	Melanoma	Mouth	IV					Unknown	Yes	Yes	Yes			PRCNCT IL-15-018
+diagnosis	PRCNCT IL-15-019	Melanoma	Mouth	IV					Unknown	Yes	Yes	Yes			PRCNCT IL-15-019
+diagnosis	PRCNCT IL-15-020	Melanoma	Mouth	IV					Unknown	Yes	Yes	Yes			PRCNCT IL-15-020
+diagnosis	PRCNCT IL-15-021	Osteosarcoma	Bone (Appendicular)	IV					Unknown	Yes	Yes	Yes			PRCNCT IL-15-021

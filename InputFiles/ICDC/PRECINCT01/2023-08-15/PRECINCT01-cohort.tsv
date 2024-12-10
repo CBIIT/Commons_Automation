@@ -1,0 +1,7 @@
+type	study.clinical_study_designation	cohort_description	cohort_dose	cohort_id
+cohort	PRCNCT IL-15	Inhaled IL-15 10 mcg	10 mcg	PRCNCT IL-15 10 mcg
+cohort	PRCNCT IL-15	Inhaled IL-15 20 mcg	20 mcg	PRCNCT IL-15 20 mcg
+cohort	PRCNCT IL-15	Inhaled IL-15 33 mcg	33 mcg	PRCNCT IL-15 33 mcg
+cohort	PRCNCT IL-15	Inhaled IL-15 50 mcg	50 mcg	PRCNCT IL-15 50 mcg
+cohort	PRCNCT IL-15	Inhaled IL-15 70 mcg	70 mcg	PRCNCT IL-15 70 mcg
+cohort	PRCNCT IL-15	Inhaled IL-15 93 mcg	93 mcg	PRCNCT IL-15 93 mcg

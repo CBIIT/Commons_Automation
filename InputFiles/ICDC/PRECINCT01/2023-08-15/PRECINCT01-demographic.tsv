@@ -1,0 +1,22 @@
+type	case.case_record_id	demographic_record_id	breed	patient_age_at_enrollmen	date_of_birth	sex	patient_weight	neutered_indicator
+demographic	PRCNCT IL-15-001	PRCNCT IL-15-001	Golden Retriever	7		Male	32.2	Yes
+demographic	PRCNCT IL-15-002	PRCNCT IL-15-002	Golden Retriever	11		Male	49	Yes
+demographic	PRCNCT IL-15-003	PRCNCT IL-15-003	Labrador/sheep mix	8		Female	47.6	Yes
+demographic	PRCNCT IL-15-004	PRCNCT IL-15-004	Golden Retriever	10		Female	28.25	Yes
+demographic	PRCNCT IL-15-005	PRCNCT IL-15-005	Shepherd Mix	11		Female	23.4	Yes
+demographic	PRCNCT IL-15-006	PRCNCT IL-15-006	Shepherd/mix	11		Female	21.2	Yes
+demographic	PRCNCT IL-15-007	PRCNCT IL-15-007	Boxer	7		Male	29.6	Yes
+demographic	PRCNCT IL-15-008	PRCNCT IL-15-008	Greyhound	13		Female	21.3	Yes
+demographic	PRCNCT IL-15-009	PRCNCT IL-15-009	GSHP	12		Female	34.2	Yes
+demographic	PRCNCT IL-15-010	PRCNCT IL-15-010	Golden Retriever	10		Female	24.9	Yes
+demographic	PRCNCT IL-15-011	PRCNCT IL-15-011	Border Collie	12		Male		Yes
+demographic	PRCNCT IL-15-012	PRCNCT IL-15-012	Irish Water Spaniel	9		Male	26.6	No
+demographic	PRCNCT IL-15-013	PRCNCT IL-15-013	Bull Terrier	11		Male	35.4	Yes
+demographic	PRCNCT IL-15-014	PRCNCT IL-15-014	Labrador	12		Female	38.6	Yes
+demographic	PRCNCT IL-15-015	PRCNCT IL-15-015	Rottweiler Mix	11		Female	32.4	Yes
+demographic	PRCNCT IL-15-016	PRCNCT IL-15-016	Boxer Mix	8		Male	46.6	Yes
+demographic	PRCNCT IL-15-017	PRCNCT IL-15-017	Doberman Pincer Mix	9		Unknown	36	Unknown
+demographic	PRCNCT IL-15-018	PRCNCT IL-15-018	Terrier Mix	12		Female	21.4	Yes
+demographic	PRCNCT IL-15-019	PRCNCT IL-15-019	Terrier Mix	13		Male	8.65	Yes
+demographic	PRCNCT IL-15-020	PRCNCT IL-15-020	Labrador Retriever	10		Male		Unknown
+demographic	PRCNCT IL-15-021	PRCNCT IL-15-021	Belgian Sheepdog	2		Male	24.55	No
