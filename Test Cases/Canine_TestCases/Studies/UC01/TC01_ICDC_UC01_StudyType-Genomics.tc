@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_ICDC_UC01_StudyType-Genomics</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d8aadd64-98c7-489f-bdd1-85ff77d74dfb</testCaseGuid>
+</TestCaseEntity>

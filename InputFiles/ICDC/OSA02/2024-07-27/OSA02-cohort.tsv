@@ -1,0 +1,11 @@
+type	study_arm.arm_id	study.clinical_study_designation	cohort_description	cohort_dose	cohort_id
+cohort	OSA02-DFI		Dogs treated with any platinum based therapy		OSA02-DFI-Platinum
+cohort	OSA02-DFI		Dogs treated with doxorubicin		OSA02-DFI-Dox
+cohort	OSA02-DFI		Dogs treated with a combination of any platinum-based therapy and doxorubicin		OSA02-DFI-Combo
+cohort	OSA02-COXEN1		Dogs treated with any platinum based therapy		OSA02-COXEN1-Platinum
+cohort	OSA02-COXEN1		Dogs treated with doxorubicin		OSA02-COXEN1-Dox
+cohort	OSA02-COXEN1		Dogs treated with a combination of any platinum-based therapy and doxorubicin		OSA02-COXEN1-Combo
+cohort	OSA02-COXEN2		Dogs treated with carboplatin	300 mg/m2 every 3 weeks for four doses	OSA02-COXEN2-Platinum
+cohort	OSA02-COXEN2		Dogs treated with doxorubicin	30 mg/m2 every 2 weeks for five doses	OSA02-COXEN2-Dox
+cohort	OSA02-COXEN2		Dogs treated with a combination of carboplatin and doxorubicin	300 mg/m2 Carboplatin or 30 mg/m2 Doxorubicin every 3 weeks for six doses	OSA02-COXEN2-Combo
+cohort	OSA02-Controls		Dogs used as controls for gene expression analysis 		OSA02-Controls

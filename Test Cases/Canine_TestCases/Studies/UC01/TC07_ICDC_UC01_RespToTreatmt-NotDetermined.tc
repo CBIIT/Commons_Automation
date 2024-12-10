@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC07_ICDC_UC01_RespToTreatmt-NotDetermined</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bd84ea2e-aced-48cf-b05d-660f0636dd6d</testCaseGuid>
+</TestCaseEntity>

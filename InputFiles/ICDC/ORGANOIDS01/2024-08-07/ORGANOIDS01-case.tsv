@@ -1,4 +1,4 @@
-type	 cohort.cohort_record_id	 study.clinical_study_designation	 study_arm.arm_id	case_record_id	patient_id	patient_first_name
+type	cohort.cohort_record_id	 study.clinical_study_designation	 study_arm.arm_id	case_id	patient_id	patient_first_name
 case	ORGANOIDS01-Healthy Controls	ORGANOIDS01		ORGANOIDS01-B816	B816	B816
 case	ORGANOIDS01-Healthy Controls	ORGANOIDS01		ORGANOIDS01-B818	B818	B818
 case	ORGANOIDS01-Bladder Cancer	ORGANOIDS01		ORGANOIDS01-OR-A	OR-A	OR-A

@@ -1,0 +1,4 @@
+type	study.clinical_study_designation	arm_id	arm	ctep_treatment_assignment_code
+study_arm	UBC02	UBC02-High Risk Breed	High Risk Breed	
+study_arm	UBC02	UBC02-Average Risk Breed	Average Risk Breed	
+study_arm	UBC02	UBC02-Healthy Controls	Healthy Controls	

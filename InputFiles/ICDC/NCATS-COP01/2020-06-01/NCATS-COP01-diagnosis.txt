@@ -1,0 +1,61 @@
+type	case.case_id	diagnosis_id	disease_term	primary_disease_site	stage_of_disease	date_of_diagnosis	pathology_report	treatment_data	follow_up_data	concurrent_disease	concurrent_disease_type	best_response
+diagnosis	NCATS-COP01-CCB010015	NCATS-COP01-CCB010015	B Cell Lymphoma	Lymph Node	III		Yes	Yes	Yes	Unknown		Not Determined
+diagnosis	NCATS-COP01-CCB010031	NCATS-COP01-CCB010031	T Cell Lymphoma	Lymph Node	III		Yes	Yes	Yes	Unknown		Not Determined
+diagnosis	NCATS-COP01-CCB010045	NCATS-COP01-CCB010045	T Cell Lymphoma	Lymph Node	III		Yes	Yes	Yes	Unknown		Not Determined
+diagnosis	NCATS-COP01-CCB010072	NCATS-COP01-CCB010072	Osteosarcoma	Bone	Unknown		Yes	Yes	Yes	Unknown		Not Determined
+diagnosis	NCATS-COP01-CCB010091	NCATS-COP01-CCB010091	Osteosarcoma	Bone	Unknown		Yes	Yes	Yes	Unknown		Not Determined
+diagnosis	NCATS-COP01-CCB010093	NCATS-COP01-CCB010093	T Cell Lymphoma	Lymph Node	III		Yes	Yes	Yes	Unknown		Not Determined
+diagnosis	NCATS-COP01-CCB010178	NCATS-COP01-CCB010178	B Cell Lymphoma	Lymph Node	III		Yes	Yes	Yes	Unknown		Not Determined
+diagnosis	NCATS-COP01-CCB010208	NCATS-COP01-CCB010208	B Cell Lymphoma	Lymph Node	III		Yes	Yes	Yes	Unknown		Not Determined
+diagnosis	NCATS-COP01-CCB010233	NCATS-COP01-CCB010233	T Cell Lymphoma	Lymph Node	III		Yes	Yes	Yes	Unknown		Not Determined
+diagnosis	NCATS-COP01-CCB010234	NCATS-COP01-CCB010234	B Cell Lymphoma	Lymph Node	III		Yes	Yes	Yes	Unknown		Not Determined
+diagnosis	NCATS-COP01-CCB010235	NCATS-COP01-CCB010235	B Cell Lymphoma	Lymph Node	III		Yes	Yes	Yes	Unknown		Not Determined
+diagnosis	NCATS-COP01-CCB010243	NCATS-COP01-CCB010243	T Cell Lymphoma	Lymph Node	III		Yes	Yes	Yes	Unknown		Not Determined
+diagnosis	NCATS-COP01-CCB010285	NCATS-COP01-CCB010285	Pulmonary Neoplasms	Lung	Unknown		Yes	Yes	Yes	Unknown		Not Determined
+diagnosis	NCATS-COP01-CCB010311	NCATS-COP01-CCB010311	B Cell Lymphoma	Lymph Node	III		Yes	Yes	Yes	Unknown		Not Determined
+diagnosis	NCATS-COP01-CCB010378	NCATS-COP01-CCB010378	Melanoma	Mouth	Unknown		Yes	Yes	Yes	No	 	Not Determined
+diagnosis	NCATS-COP01-CCB020018	NCATS-COP01-CCB020018	Osteosarcoma	Bone	Unknown		Yes	Yes	Yes	No		Not Determined
+diagnosis	NCATS-COP01-CCB020026	NCATS-COP01-CCB020026	Osteosarcoma	Bone	Unknown		Yes	Yes	Yes	No		Not Determined
+diagnosis	NCATS-COP01-CCB020027	NCATS-COP01-CCB020027	Osteosarcoma	Bone	Unknown		Yes	Yes	Yes	No		Not Determined
+diagnosis	NCATS-COP01-CCB020031	NCATS-COP01-CCB020031	B Cell Lymphoma	Lymph Node	IV		Yes	Yes	Yes	Yes	anorexia;increased WBC and neutrophils,increased liver enzymes;small nodule in left testicle	Not Determined
+diagnosis	NCATS-COP01-CCB020035	NCATS-COP01-CCB020035	B Cell Lymphoma	Lymph Node	IV		Yes	Yes	Yes	No		Not Determined
+diagnosis	NCATS-COP01-CCB020036	NCATS-COP01-CCB020036	B Cell Lymphoma	Lymph Node	IV		Yes	Yes	Yes	No		Not Determined
+diagnosis	NCATS-COP01-CCB020054	NCATS-COP01-CCB020054	B Cell Lymphoma	Lymph Node	II		Yes	Yes	Yes	No		Not Determined
+diagnosis	NCATS-COP01-CCB020128	NCATS-COP01-CCB020128	Melanoma	Mouth	Unknown		Yes	Yes	Yes	Yes	Mammary masses;Suspect Left Thalamocortical lesion;Grade III/VI systolic heart murmur;Dental Disease	Not Determined
+diagnosis	NCATS-COP01-CCB030001	NCATS-COP01-CCB030001	B Cell Lymphoma	Lymph Node	III		Yes	Yes	Yes	No		Not Determined
+diagnosis	NCATS-COP01-CCB030003	NCATS-COP01-CCB030003	T Cell Lymphoma	Lymph Node	V		Yes	Yes	Yes	No		Not Determined
+diagnosis	NCATS-COP01-CCB030026	NCATS-COP01-CCB030026	T Cell Lymphoma	Lymph Node	IV		Yes	Yes	Yes	No		Not Determined
+diagnosis	NCATS-COP01-CCB030035	NCATS-COP01-CCB030035	Osteosarcoma	Bone	Unknown		Yes	Yes	Yes	No		Not Determined
+diagnosis	NCATS-COP01-CCB030064	NCATS-COP01-CCB030064	Osteosarcoma	Bone	Unknown		Yes	Yes	Yes	No		Not Determined
+diagnosis	NCATS-COP01-CCB030077	NCATS-COP01-CCB030077	Osteosarcoma	Bone	Unknown		Yes	Yes	Yes	No		Not Determined
+diagnosis	NCATS-COP01-CCB030078	NCATS-COP01-CCB030078	Osteosarcoma	Bone	Unknown		Yes	Yes	Yes	No		Not Determined
+diagnosis	NCATS-COP01-CCB030156	NCATS-COP01-CCB030156	T Cell Lymphoma	Lymph Node	III		Yes	Yes	Yes	No		Not Determined
+diagnosis	NCATS-COP01-CCB030162	NCATS-COP01-CCB030162	Melanoma	Mouth	Unknown		Yes	Yes	Yes	No		Not Determined
+diagnosis	NCATS-COP01-CCB030227	NCATS-COP01-CCB030227	Melanoma	Mouth	Unknown		Yes	Yes	Yes	No		Not Determined
+diagnosis	NCATS-COP01-CCB030255	NCATS-COP01-CCB030255	Pulmonary Neoplasms	Lung	Unknown		Yes	Yes	Yes	Yes	Heart murmur: 2/6 systolic, left apical	Not Determined
+diagnosis	NCATS-COP01-CCB030258	NCATS-COP01-CCB030258	T Cell Lymphoma	Lymph Node	II		Yes	Yes	Yes	No		Not Determined
+diagnosis	NCATS-COP01-CCB030300	NCATS-COP01-CCB030300	T Cell Lymphoma	Lymph Node	III		Yes	Yes	Yes	No		Not Determined
+diagnosis	NCATS-COP01-CCB040184	NCATS-COP01-CCB040184	T Cell Lymphoma	Lymph Node	IV		Yes	Yes	Yes	Yes	on prednisone	Not Determined
+diagnosis	NCATS-COP01-CCB040254	NCATS-COP01-CCB040254	Pulmonary Neoplasms	Lung	Unknown		Yes	Yes	Yes	Yes	Allergies, on prednisone	Not Determined
+diagnosis	NCATS-COP01-CCB040382	NCATS-COP01-CCB040382	Pulmonary Neoplasms	Lung	Unknown		Yes	Yes	Yes	No		Not Determined
+diagnosis	NCATS-COP01-CCB050004	NCATS-COP01-CCB050004	B Cell Lymphoma	Lymph Node	III		Yes	Yes	Yes	No		Not Determined
+diagnosis	NCATS-COP01-CCB050022	NCATS-COP01-CCB050022	Osteosarcoma	Bone	Unknown		Yes	Yes	Yes	No		Not Determined
+diagnosis	NCATS-COP01-CCB050096	NCATS-COP01-CCB050096	Melanoma	Mouth	Unknown		Yes	No	Yes	No		Not Determined
+diagnosis	NCATS-COP01-CCB050170	NCATS-COP01-CCB050170	Melanoma	Mouth	Unknown		Yes	Yes	No	No		Not Determined
+diagnosis	NCATS-COP01-CCB050177	NCATS-COP01-CCB050177	Melanoma	Mouth	Unknown		Yes	Yes	Yes	No		Not Determined
+diagnosis	NCATS-COP01-CCB050216	NCATS-COP01-CCB050216	Pulmonary Neoplasms	Lung	Unknown		No	No	No	Yes	Oral Melanoma	Not Determined
+diagnosis	NCATS-COP01-CCB050227	NCATS-COP01-CCB050227	Pulmonary Neoplasms	Lung	Unknown		Yes	No	No	No		Not Determined
+diagnosis	NCATS-COP01-CCB050297	NCATS-COP01-CCB050297	Pulmonary Neoplasms	Lung	Unknown		Yes	No	No	No		Not Determined
+diagnosis	NCATS-COP01-CCB050327	NCATS-COP01-CCB050327	Pulmonary Neoplasms	Lung	Unknown		Yes	No	Yes	No		Not Determined
+diagnosis	NCATS-COP01-CCB060030	NCATS-COP01-CCB060030	Melanoma	Mouth	Unknown		Yes	Yes	Yes	No		Not Determined
+diagnosis	NCATS-COP01-CCB060034	NCATS-COP01-CCB060034	T Cell Lymphoma	Lymph Node	V		Yes	Yes	Yes	No		Not Determined
+diagnosis	NCATS-COP01-CCB060039	NCATS-COP01-CCB060039	Melanoma	Mouth	Unknown		Yes	Yes	Yes	No		Not Determined
+diagnosis	NCATS-COP01-CCB060051	NCATS-COP01-CCB060051	Pulmonary Neoplasms	Lung	Unknown		Yes	Yes	Yes	Yes	fibrosarcoma	Not Determined
+diagnosis	NCATS-COP01-CCB070003	NCATS-COP01-CCB070003	Osteosarcoma	Bone	Unknown		Yes	Yes	Yes	No		Not Determined
+diagnosis	NCATS-COP01-CCB070007	NCATS-COP01-CCB070007	Pulmonary Neoplasms	Lung	Unknown		Yes	No	No	Yes	Cushings	Not Determined
+diagnosis	NCATS-COP01-CCB070013	NCATS-COP01-CCB070013	Osteosarcoma	Bone	Unknown		Yes	Yes	Yes	No		Not Determined
+diagnosis	NCATS-COP01-CCB070020	NCATS-COP01-CCB070020	Pulmonary Neoplasms	Lung	Unknown		Yes	Yes	No	No		Not Determined
+diagnosis	NCATS-COP01-CCB070034	NCATS-COP01-CCB070034	Pulmonary Neoplasms	Lung	Unknown		Yes	No	No	No		Not Determined
+diagnosis	NCATS-COP01-CCB070102	NCATS-COP01-CCB070102	Melanoma	Mouth	Unknown		Yes	Yes	Yes	No		Not Determined
+diagnosis	NCATS-COP01-CCB080012	NCATS-COP01-CCB080012	Melanoma	Mouth	Unknown		Yes	Yes	Yes	Yes	osteoarthritis, hip	Not Determined
+diagnosis	NCATS-COP01-CCB080018	NCATS-COP01-CCB080018	Melanoma	Mouth	Unknown		Yes	Yes	Yes	Yes	lick granuloma that is chronic on right hind leg being treated with Primor	Not Determined

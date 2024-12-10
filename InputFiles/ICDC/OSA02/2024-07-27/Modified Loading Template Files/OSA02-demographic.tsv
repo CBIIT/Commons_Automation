@@ -1,0 +1,118 @@
+type	 case.case_id	demographic_id	breed	additional_breed_detail	patient_age_at_enrollment	date_of_birth	sex	weight	neutered_indicator
+demographic	OSA02-T223986	OSA02-T223986	Greyhound		7	1999-05-01	Male	34	Yes
+demographic	OSA02-T212759	OSA02-T212759	Golden Retriever		10.9	1994-01-01	Male	39	Yes
+demographic	OSA02-T208911	OSA02-T208911	Doberman Pinscher		8.1	1996-04-01	Female	43	Yes
+demographic	OSA02-T208756	OSA02-T208756	Labrador Retriever		10.3	1994-02-01	Female	39	Yes
+demographic	OSA02-T208513	OSA02-T208513	Greyhound		7.1	1997-03-01	Male	35	Yes
+demographic	OSA02-T204714	OSA02-T204714	Greyhound		8	1995-10-05	Female	30	Yes
+demographic	OSA02-T193231	OSA02-T193231	Mixed Breed		12.4	1989-10-17	Male	26	Yes
+demographic	OSA02-T190030	OSA02-T190030	Mixed Breed		13.5	1988-05-01	Male	31	Yes
+demographic	OSA02-T188084	OSA02-T188084	Rottweiler		10.4	1991-03-03	Male	53	Yes
+demographic	OSA02-T184844	OSA02-T184844	Greyhound		4.8	1996-04-26	Male	36	Yes
+demographic	OSA02-T180223	OSA02-T180223	Mixed Breed		11.6	1989-01-01	Female	40	Yes
+demographic	OSA02-T180119	OSA02-T180119	Mixed Breed		10.4	1990-03-01	Female	31	Yes
+demographic	OSA02-T179891	OSA02-T179891	Mixed Breed		9.2	1991-05-01	Female	32	Yes
+demographic	OSA02-T173175	OSA02-T173175	Rottweiler		5.2	1994-06-01	Male	42	Yes
+demographic	OSA02-T168327	OSA02-T168327	Golden Retriever		8.1	1990-10-25	Female	30.39	Yes
+demographic	OSA02-T153599	OSA02-T153599	Mixed Breed		9	1987-11-10	Female	36	Yes
+demographic	OSA02-T881	OSA02-T881	Labrador Retriever		8.5	1999-03-20	Male	30.5	Yes
+demographic	OSA02-T763	OSA02-T763	Great Dane		8	1999-04-11	Female	46	Yes
+demographic	OSA02-T497	OSA02-T497	Rottweiler		6.9	1999-04-16	Male	39.5	Yes
+demographic	OSA02-T448	OSA02-T448	Great Pyrenees		4.8	2001-04-05	Male	37	Yes
+demographic	OSA02-T430	OSA02-T430	Great Pyrenees		5.1	2000-12-01	Male	45.8	Yes
+demographic	OSA02-T362	OSA02-T362	Australian Shepherd		10.4	1995-05-09	Male	32.8	Yes
+demographic	OSA02-T266	OSA02-T266	Great Dane		6	1999-02-17	Female	80	No
+demographic	OSA02-T15	OSA02-T15	Mixed Breed		6.6	1997-03-21	Male	41.9	Yes
+demographic	OSA02-T105	OSA02-T105	Mixed Breed		8.8	1995-10-06	Male	32.1	Yes
+demographic	OSA02-T-999	OSA02-T-999	Saint Bernard		4.2	2004-01-01	Female	54	Yes
+demographic	OSA02-T-992	OSA02-T-992	Mixed Breed		11.1	1997-01-30	Female	40	Yes
+demographic	OSA02-T-907	OSA02-T-907	Leonberger		5.3	2002-07-19	Male	50	Yes
+demographic	OSA02-T-856	OSA02-T-856	Rottweiler		7.5	2000-02-20	Female	42	Yes
+demographic	OSA02-T-843	OSA02-T-843	Rottweiler		7.9	1999-09-15	Male	56	Yes
+demographic	OSA02-T-74	OSA02-T-74	Akita		9.4	1994-12-01	Female	31.8	Yes
+demographic	OSA02-T-554	OSA02-T-554	Labrador Retriever		11.4	1995-01-29	Male	31	Yes
+demographic	OSA02-T-458	OSA02-T-458	Greyhound		6.1	2000-01-01	Female	26.4	Yes
+demographic	OSA02-T-424	OSA02-T-424	German Shorthaired Pointer		9.8	1996-03-01	Male	35	Yes
+demographic	OSA02-T-399	OSA02-T-399	Greyhound		7.1	1998-10-21	Female	26.5	Yes
+demographic	OSA02-T-346	OSA02-T-346	Irish Wolfhound		5.6	2000-03-01	Male	62	No
+demographic	OSA02-T-343	OSA02-T-343	Mixed Breed		6.9	1998-11-01	Male	21.5	Yes
+demographic	OSA02-T-276	OSA02-T-276	Mixed Breed		11.8	1993-09-14	Female	19.1	Yes
+demographic	OSA02-T-153	OSA02-T-153	Mastiff		7.5	1997-04-26	Male	52.2	Yes
+demographic	OSA02-T-149	OSA02-T-149	Great Dane		6.6	1998-04-02	Female	57	Yes
+demographic	OSA02-T-134	OSA02-T-134	Golden Retriever		10.8	1994-01-02	Female	36	Yes
+demographic	OSA02-T-1272	OSA02-T-1272	Labrador Retriever		7.7	2002-11-25	Female	36.5	Yes
+demographic	OSA02-T-1247	OSA02-T-1247	Labrador Retriever		7.1	2003-03-19	Male	31	Yes
+demographic	OSA02-T-1246	OSA02-T-1246	Other	Coonhound	8.9	2001-05-24	Female	28	Yes
+demographic	OSA02-T-1192	OSA02-T-1192	Labrador Retriever		7.2	2002-06-01	Male	46	Yes
+demographic	OSA02-T-1166	OSA02-T-1166	Old English Sheepdog		6.5	2001-11-08	Male	38	No
+demographic	OSA02-T-1096	OSA02-T-1096	Flat-Coated Retriever		8.7	2000-02-23	Female	27.8	Yes
+demographic	OSA02-T-1087	OSA02-T-1087	Rhodesian Ridgeback		9.4	1999-05-31	Male	47.5	No
+demographic	OSA02-T-1023	OSA02-T-1023	Labrador Retriever		9.8	1998-07-01	Male	34.6	Yes
+demographic	OSA02-T9B	OSA02-T9B	Norwegian Elkhound		8	2008-03-12	Female	17	Yes
+demographic	OSA02-T8A	OSA02-T8A	Akita		11	2005-03-14	Male	47.8	Yes
+demographic	OSA02-T7B	OSA02-T7B	Alaskan Malamute		4.9	2011-03-03	Male	56	Yes
+demographic	OSA02-T70B	OSA02-T70B	Golden Retriever		10.8	2008-01-30	Male	34.1	Yes
+demographic	OSA02-T6C	OSA02-T6C	Mixed Breed		6.5	2009-07-23	Female	27	Yes
+demographic	OSA02-T68A	OSA02-T68A	Mixed Breed		10.3	2008-04-01	Male	29.4	Yes
+demographic	OSA02-T67A	OSA02-T67A	German Shepherd Dog		12.6	2005-12-29	Female	27.4	Yes
+demographic	OSA02-T63B	OSA02-T63B	Saint Bernard		9.1	2009-04-09	Male	60	No
+demographic	OSA02-T62A	OSA02-T62A	Mixed Breed		9.7	2008-10-10	Male	38.4	Yes
+demographic	OSA02-T61C	OSA02-T61C	Mixed Breed		8.1	2010-04-01	Female	35.5	Yes
+demographic	OSA02-T5B	OSA02-T5B	Golden Retriever		11.3	2004-08-01	Male	38.1	Yes
+demographic	OSA02-T59A	OSA02-T59A	Mixed Breed		10.1	2008-03-01	Male	34.3	Yes
+demographic	OSA02-T57C	OSA02-T57C	Mixed Breed		7.3	2010-10-31	Male	52.5	Yes
+demographic	OSA02-T56C	OSA02-T56C	Greyhound		8.3	2009-11-01	Female	32	Yes
+demographic	OSA02-T55C	OSA02-T55C	Belgian Tervuren		9.1	2008-12-17	Female	22.7	Yes
+demographic	OSA02-T54B	OSA02-T54B	Akita		8.5	2009-08-01	Female	43	Yes
+demographic	OSA02-T53B	OSA02-T53B	Mixed Breed		10	2008-01-01	Female	43.5	Yes
+demographic	OSA02-T52A	OSA02-T52A	Golden Retriever		7.3	2010-09-24	Male	38.4	Yes
+demographic	OSA02-T51C	OSA02-T51C	Irish Wolfhound		9	2009-01-11	Male	41.4	Yes
+demographic	OSA02-T50C	OSA02-T50C	Alaskan Malamute		5.8	2012-04-25	Male	41.2	Yes
+demographic	OSA02-T4B	OSA02-T4B	Mixed Breed		5.2	2010-09-01	Male	70	Yes
+demographic	OSA02-T49B	OSA02-T49B	Golden Retriever		10.4	2007-07-07	Female	34.6	Yes
+demographic	OSA02-T47A	OSA02-T47A	Labrador Retriever		9.3	2008-08-23	Female	42	Yes
+demographic	OSA02-T46A	OSA02-T46A	Airedale Terrier		9.1	2008-09-01	Male	42.7	Yes
+demographic	OSA02-T45A	OSA02-T45A	Saint Bernard		7.3	2010-07-05	Female	46.5	Yes
+demographic	OSA02-T43A	OSA02-T43A	Great Dane		1.4	2016-05-14	Male	51	Yes
+demographic	OSA02-T42A	OSA02-T42A	Golden Retriever		8.7	2009-01-01	Female	36.3	Yes
+demographic	OSA02-T41B	OSA02-T41B	Golden Retriever		12.7	2005-01-05	Male	36	Yes
+demographic	OSA02-T40B	OSA02-T40B	Great Dane		6.1	2011-07-01	Male	94	Yes
+demographic	OSA02-T3C	OSA02-T3C	Anatolian Shepherd Dog		7.4	2008-06-01	Female	34.7	Yes
+demographic	OSA02-T39A	OSA02-T39A	Mixed Breed		10	2007-08-08	Female	38.5	Yes
+demographic	OSA02-T38C	OSA02-T38C	Mixed Breed		9.5	2008-02-01	Female	29.6	Yes
+demographic	OSA02-T37B	OSA02-T37B	Bernese Mountain Dog		6.3	2011-04-14	Female	41.6	Yes
+demographic	OSA02-T36B	OSA02-T36B	Greyhound		7.3	2010-03-28	Female	33.5	Yes
+demographic	OSA02-T35C	OSA02-T35C	Great Pyrenees		7	2010-06-15	Male	45	Yes
+demographic	OSA02-T34B	OSA02-T34B	Vizsla		7.4	2008-10-01	Female	26	Yes
+demographic	OSA02-T32C	OSA02-T32C	Australian Cattle Dog		10.6	2007-11-01	Female	24	Yes
+demographic	OSA02-T31B	OSA02-T31B	Border Collie		12.5	2004-09-20	Female	17.5	Yes
+demographic	OSA02-T30A	OSA02-T30A	Doberman Pinscher		3.7	2013-06-01	Male	41.4	Yes
+demographic	OSA02-T2C	OSA02-T2C	Labrador Retriever		8	2007-10-08	Female	38.4	Yes
+demographic	OSA02-T27C	OSA02-T27C	Labrador Retriever		11.2	2006-01-01	Male	31.4	Yes
+demographic	OSA02-T26B	OSA02-T26B	Golden Retriever		11	2006-01-02	Male	33.7	Yes
+demographic	OSA02-T24D	OSA02-T24D	Mixed Breed		6	2010-12-21	Female	37.2	Yes
+demographic	OSA02-T23B	OSA02-T23B	Labrador Retriever		10.4	2006-05-22	Male	35	Yes
+demographic	OSA02-T22A	OSA02-T22A	Mixed Breed		5.8	2010-12-20	Female	33.6	Yes
+demographic	OSA02-T21A	OSA02-T21A	Golden Retriever		10.3	2006-07-04	Male	28.3	Yes
+demographic	OSA02-T20A	OSA02-T20A	Golden Retriever		13.1	2003-08-25	Female	24.6	Yes
+demographic	OSA02-T1C	OSA02-T1C	Mixed Breed		4	2011-09-29	Female	38.5	Yes
+demographic	OSA02-T19B	OSA02-T19B	Poodle		8.3	2008-06-24	Female	22.3	Yes
+demographic	OSA02-T18B	OSA02-T18B	Other	Akbash	5.3	2011-05-21	Female	47.7	Yes
+demographic	OSA02-T17B	OSA02-T17B	Mixed Breed		7.1	2009-08-14	Female	27.9	Yes
+demographic	OSA02-T16B	OSA02-T16B	Newfoundland		5.5	2011-04-08	Male	64.4	Yes
+demographic	OSA02-T15A	OSA02-T15A	German Shepherd Dog		10.6	2006-01-11	Female	38.5	Yes
+demographic	OSA02-T14B	OSA02-T14B	Rottweiler		7.4	2009-04-15	Female	50	Yes
+demographic	OSA02-T13C	OSA02-T13C	Mixed Breed		7.6	2009-02-02	Female	38	Yes
+demographic	OSA02-T12A	OSA02-T12A	Labrador Retriever		11.6	2005-01-01	Female	29.6	Yes
+demographic	OSA02-T11B	OSA02-T11B	Australian Shepherd		9.3	2007-04-01	Male	26	Yes
+demographic	OSA02-T10A	OSA02-T10A	Belgian Tervuren		9	2007-04-01	Female	38.2	Yes
+demographic	OSA02-T-29C	OSA02-T-29C	Mixed Breed		3.8	2013-06-10	Male	40	Yes
+demographic	OSA02-T-25	OSA02-T-25	Mixed Breed		6.5	2010-08-01	Male	44.8	Yes
+demographic	OSA02-N1	OSA02-N1	Labrador Retriever		13.3	1996-06-15	Female	26.6	Yes
+demographic	OSA02-N2	OSA02-N2	Mixed Breed		10	1999-09-29	Male	31.6	Yes
+demographic	OSA02-N3	OSA02-N3	Labrador Retriever		9.7	2000-02-14	Female	28.1	Yes
+demographic	OSA02-N4	OSA02-N4	Siberian Husky		8.4	2001-11-01	Female	26.5	Yes
+demographic	OSA02-N5	OSA02-N5	Labrador Retriever		10.1	2000-01-01	Female	38	Yes
+demographic	OSA02-N8	OSA02-N8	Mixed Breed		6.5	2003-09-01	Male	40	Yes
+demographic	OSA02-N9	OSA02-N9	Redbone Coonhound		8.9	2001-05-24	Female	22.4	Yes
+demographic	OSA02-N10	OSA02-N10	Labrador Retriever		7.1	2003-03-19	Male	31.1	Yes

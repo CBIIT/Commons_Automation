@@ -1,0 +1,61 @@
+type	study.clinical_study_designation	study_arm.arm_id	cohort.cohort_record_id	case_record_id	patient_id
+case	UBC02	UBC02-High Risk Breed	UBC02-High Risk Breed; Luminal	UBC02-699-989-2	699-989-2
+case	UBC02	UBC02-Average Risk Breed	UBC02-Average Risk Breed; Luminal	UBC02-725-540-Sn	725-540-Sn
+case	UBC02	UBC02-High Risk Breed	UBC02-High Risk Breed; Luminal	UBC02-726-843-Ab	726-843-Ab
+case	UBC02	UBC02-Average Risk Breed	UBC02-Average Risk Breed; Basal	UBC02-727-745-Po	727-745-Po
+case	UBC02	UBC02-High Risk Breed	UBC02-High Risk Breed; Luminal	UBC02-728-463-Ch	728-463-Ch
+case	UBC02	UBC02-Average Risk Breed	UBC02-Average Risk Breed; Basal	UBC02-730-901-Za	730-901-Za
+case	UBC02	UBC02-Average Risk Breed	UBC02-Average Risk Breed; Basal	UBC02-730-904-Ja	730-904-Ja
+case	UBC02	UBC02-High Risk Breed	UBC02-High Risk Breed; Luminal	UBC02-731-763-Mis	731-763-Mis
+case	UBC02	UBC02-Average Risk Breed	UBC02-Average Risk Breed; Basal	UBC02-731-958-57	731-958-57
+case	UBC02	UBC02-Average Risk Breed	UBC02-Average Risk Breed; Basal	UBC02-732-317-Je	732-317-Je
+case	UBC02	UBC02-High Risk Breed	UBC02-High Risk Breed; Basal	UBC02-733-364-Sp	733-364-Sp
+case	UBC02	UBC02-Average Risk Breed	UBC02-Average Risk Breed; Basal	UBC02-733-488-4	733-488-4
+case	UBC02	UBC02-Average Risk Breed	UBC02-Average Risk Breed; Basal	UBC02-733-548-58	733-548-58
+case	UBC02	UBC02-Average Risk Breed	UBC02-Average Risk Breed; Basal	UBC02-733-695-Da	733-695-Da
+case	UBC02	UBC02-High Risk Breed	UBC02-High Risk Breed; Basal	UBC02-733-858-7	733-858-7
+case	UBC02	UBC02-High Risk Breed	UBC02-High Risk Breed; Basal	UBC02-734-148-Mi	734-148-Mi
+case	UBC02	UBC02-Average Risk Breed	UBC02-Average Risk Breed; Basal	UBC02-734-223-8	734-223-8
+case	UBC02	UBC02-High Risk Breed	UBC02-High Risk Breed; Luminal	UBC02-736-477-60	736-477-60
+case	UBC02	UBC02-Average Risk Breed	UBC02-Average Risk Breed; Luminal	UBC02-737-562-59	737-562-59
+case	UBC02	UBC02-High Risk Breed	UBC02-High Risk Breed; Luminal	UBC02-756-165-20	756-165-20
+case	UBC02	UBC02-High Risk Breed	UBC02-High Risk Breed; Basal	UBC02-758-158-54	758-158-54
+case	UBC02	UBC02-Average Risk Breed	UBC02-Average Risk Breed; Basal	UBC02-765-478-68	765-478-68
+case	UBC02	UBC02-High Risk Breed	UBC02-High Risk Breed; Basal	UBC02-774-569-51	774-569-51
+case	UBC02	UBC02-High Risk Breed	UBC02-High Risk Breed; Luminal	UBC02-774-615-70	774-615-70
+case	UBC02	UBC02-High Risk Breed	UBC02-High Risk Breed; Luminal	UBC02-774-859-1	774-859-1
+case	UBC02	UBC02-High Risk Breed	UBC02-High Risk Breed; Luminal	UBC02-775-801-2	775-801-2
+case	UBC02	UBC02-High Risk Breed	UBC02-High Risk Breed; Basal	UBC02-776-675-63	776-675-63
+case	UBC02	UBC02-High Risk Breed	UBC02-High Risk Breed; Luminal	UBC02-776-679-3	776-679-3
+case	UBC02	UBC02-High Risk Breed	UBC02-High Risk Breed; Luminal	UBC02-777-587-16	777-587-16
+case	UBC02	UBC02-Average Risk Breed	UBC02-Average Risk Breed; Basal	UBC02-777-592-80	777-592-80
+case	UBC02	UBC02-High Risk Breed	UBC02-High Risk Breed; Luminal	UBC02-779-032-18	779-032-18
+case	UBC02	UBC02-High Risk Breed	UBC02-High Risk Breed; Luminal	UBC02-780-519-15	780-519-15
+case	UBC02	UBC02-High Risk Breed	UBC02-High Risk Breed; Luminal	UBC02-782-492-5	782-492-5
+case	UBC02	UBC02-Average Risk Breed	UBC02-Average Risk Breed; Basal	UBC02-783-693-7	783-693-7
+case	UBC02	UBC02-High Risk Breed	UBC02-High Risk Breed; Luminal	UBC02-784-128-53	784-128-53
+case	UBC02	UBC02-Average Risk Breed	UBC02-Average Risk Breed; Luminal	UBC02-784-135-19	784-135-19
+case	UBC02	UBC02-Average Risk Breed	UBC02-Average Risk Breed; Luminal	UBC02-784-373-9	784-373-9
+case	UBC02	UBC02-High Risk Breed	UBC02-High Risk Breed; Luminal	UBC02-785-313-10	785-313-10
+case	UBC02	UBC02-High Risk Breed	UBC02-High Risk Breed; Luminal	UBC02-785-315-11	785-315-11
+case	UBC02	UBC02-High Risk Breed	UBC02-High Risk Breed; Luminal	UBC02-785-590-12	785-590-12
+case	UBC02	UBC02-Average Risk Breed	UBC02-Average Risk Breed; Luminal	UBC02-786-694-64	786-694-64
+case	UBC02	UBC02-Average Risk Breed	UBC02-Average Risk Breed; Basal	UBC02-786-695-61	786-695-61
+case	UBC02	UBC02-High Risk Breed	UBC02-High Risk Breed; Luminal	UBC02-787-089-62	787-089-62
+case	UBC02	UBC02-Average Risk Breed	UBC02-Average Risk Breed; Basal	UBC02-787-915-73	787-915-73
+case	UBC02	UBC02-Average Risk Breed	UBC02-Average Risk Breed; Basal	UBC02-788-241-72	788-241-72
+case	UBC02	UBC02-Average Risk Breed	UBC02-Average Risk Breed; Basal	UBC02-788-334-71	788-334-71
+case	UBC02	UBC02-Average Risk Breed	UBC02-Average Risk Breed; Basal	UBC02-788-700-66	788-700-66
+case	UBC02	UBC02-Average Risk Breed	UBC02-Average Risk Breed; Basal	UBC02-788-991-76	788-991-76
+case	UBC02	UBC02-Average Risk Breed	UBC02-Average Risk Breed; Basal	UBC02-789-025-75	789-025-75
+case	UBC02	UBC02-Average Risk Breed	UBC02-Average Risk Breed; Basal	UBC02-789-341-77	789-341-77
+case	UBC02	UBC02-High Risk Breed	UBC02-High Risk Breed; Luminal	UBC02-789-913-78	789-913-78
+case	UBC02	UBC02-High Risk Breed	UBC02-High Risk Breed; Luminal	UBC02-795-409-2z	795-409-2z
+case	UBC02	UBC02-Average Risk Breed	UBC02-Average Risk Breed; Basal	UBC02-795-868-3z	795-868-3z
+case	UBC02	UBC02-High Risk Breed	UBC02-High Risk Breed; Luminal	UBC02-795-869-4z	795-869-4z
+case	UBC02	UBC02-Average Risk Breed	UBC02-Average Risk Breed; Basal	UBC02-796-233-1z	796-233-1z
+case	UBC02	UBC02-Average Risk Breed	UBC02-Average Risk Breed; Luminal	UBC02-798-150-Hb	798-150-Hb
+case	UBC02	UBC02-Healthy Controls	UBC02-Healthy Controls	UBC02-PCBCC-CDHMCL	PCBCC-CDHMCL
+case	UBC02	UBC02-Healthy Controls	UBC02-Healthy Controls	UBC02-PCBCC-CDGMDD	PCBCC-CDGMDD
+case	UBC02	UBC02-Healthy Controls	UBC02-Healthy Controls	UBC02-PCBCC-CDDMAH	PCBCC-CDDMAH
+case	UBC02	UBC02-Healthy Controls	UBC02-Healthy Controls	UBC02-PCBCC-CDEMBC	PCBCC-CDEMBC
