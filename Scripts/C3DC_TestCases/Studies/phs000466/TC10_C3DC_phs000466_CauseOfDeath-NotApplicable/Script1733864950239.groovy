@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
  */
 WebUI.closeBrowser()
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC10_C3DC_phs003432_CauseOfDeath-NotReported.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC10_C3DC_phs000466_CauseOfDeath-NotApplicable.xlsx')
 CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/HomePage/WarningBan_Continue_Btn')
 
 WebUI.waitForElementPresent(findTestObject('C3DC/Navbar/Explore-Tab'), 5)
@@ -31,8 +31,8 @@ WebUI.delay(2)
 WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Study/dbGaP_Accession/dbGaP_Accession-Ddn'), 10)
 CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Study/dbGaP_Accession/dbGaP_Accession-Ddn')
 
-WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Study/dbGaP_Accession/phs003432-Chkbx'), 10)
-CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Study/dbGaP_Accession/phs003432-Chkbx')
+WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Study/dbGaP_Accession/phs000466-Chkbx'), 10)
+CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Study/dbGaP_Accession/phs000466-Chkbx')
 
 WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Survival/Survival-Facet'), 10)
 CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Survival/Survival-Facet')
@@ -40,8 +40,8 @@ CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Survival/Survival-F
 WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Survival/CauseOfDeath/CauseOfDeath-Ddn'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Survival/CauseOfDeath/CauseOfDeath-Ddn')
 
-WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Survival/CauseOfDeath/NotReported-Chkbx'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Survival/CauseOfDeath/NotReported-Chkbx')
+WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Survival/CauseOfDeath/NotApplicable-Chkbx'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Survival/CauseOfDeath/NotApplicable-Chkbx')
 
 //Read Statbar
 CustomKeywords.'utilities.TestRunner.readStatBarC3DC'('C3DC/Statbar/Diagnosis-Count', 'C3DC/Statbar/Participants-Count', 

@@ -39,8 +39,8 @@ CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Study/dbGaP_Accessi
 WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Demographics/Race/Race_Ddn'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Demographics/Race/Race_Ddn')
 
-WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Demographics/Race/Unknown_Chkbx'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Demographics/Race/Unknown_Chkbx')
+WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Demographics/Race/White_Chkbx'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Demographics/Race/White_Chkbx')
 
 //Read Statbar
 CustomKeywords.'utilities.TestRunner.readStatBarC3DC'('C3DC/Statbar/Diagnosis-Count', 'C3DC/Statbar/Participants-Count', 

@@ -722,7 +722,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 										System.out.println("This is the value of  table  cell:  "+value)
 									}
 								}else if((tbl_main).equals('//*[@id="sample_tab_table"]')){
-									tblcol=tblcol-2;
+									tblcol=tblcol-4;
 									for (int j = 1; j <=tblcol; j = j +1) {
 										System.out.println("This is the name of column header:  "+colHeader.get(j).getAttribute("innerText"))
 										String value = ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/*[1]")).getAttribute("innerText")))
