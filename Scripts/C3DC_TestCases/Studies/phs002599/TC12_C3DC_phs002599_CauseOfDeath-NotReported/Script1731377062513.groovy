@@ -37,11 +37,11 @@ CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Study/dbGaP_Accessi
 WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Survival/Survival-Facet'), 10)
 CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Survival/Survival-Facet')
 
-WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Survival/FirstEvent/FirstEvent-Ddn'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Survival/FirstEvent/FirstEvent-Ddn')
+WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Survival/CauseOfDeath/CauseOfDeath-Ddn'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Survival/CauseOfDeath/CauseOfDeath-Ddn')
 
-WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Survival/FirstEvent/NotReported-Chkbx'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Survival/FirstEvent/NotReported-Chkbx')
+WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Survival/CauseOfDeath/NotReported-Chkbx'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Survival/CauseOfDeath/NotReported-Chkbx')
 
 //Read Statbar
 CustomKeywords.'utilities.TestRunner.readStatBarC3DC'('C3DC/Statbar/Diagnosis-Count', 'C3DC/Statbar/Participants-Count', 
