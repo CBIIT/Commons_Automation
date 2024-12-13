@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>DataGatheringLink</name>
+   <tag></tag>
+   <elementGuidId>59f64d2a-5d29-4517-8e2c-829b9b1eede9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href='https://github.com/CBIIT/INS-Data']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[@href='https://github.com/CBIIT/INS-Data']</value>
+      <webElementGuid>ba70d444-b616-4578-abe2-f77c7a0be05c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

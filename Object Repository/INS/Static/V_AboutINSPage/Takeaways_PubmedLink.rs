@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Takeaways_PubmedLink</name>
+   <tag></tag>
+   <elementGuidId>fad2ac5a-1089-4abb-95b2-2004bb661cc4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href='https://pubmed.ncbi.nlm.nih.gov']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[@href='https://pubmed.ncbi.nlm.nih.gov']</value>
+      <webElementGuid>2337f0e3-c6a1-4faa-8608-91cb237c6c9a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
