@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
  */
 WebUI.closeBrowser()
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC05_C3DC_phs000466_Diagnosis-89643ClearSarcKidney.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC01_C3DC_phs000471_SexAtBirth-Unknown.xlsx')
 CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/HomePage/WarningBan_Continue_Btn')
 
 WebUI.waitForElementPresent(findTestObject('C3DC/Navbar/Explore-Tab'), 5)
@@ -30,18 +30,14 @@ CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Study/Study_Facet')
 WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Study/dbGaP_Accession/dbGaP_Accession-Ddn'), 10)
 CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Study/dbGaP_Accession/dbGaP_Accession-Ddn')
 
-WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Study/dbGaP_Accession/phs000466-Chkbx'), 10)
-CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Study/dbGaP_Accession/phs000466-Chkbx')
+WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Study/dbGaP_Accession/phs000471-Chkbx'), 10)
+CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Study/dbGaP_Accession/phs000471-Chkbx')
 
-WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Diagnosis/Diagnosis-Facet'), 10)
-CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Diagnosis/Diagnosis-Facet')
+WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Demographics/SexAtBirth/SexAtBirth-Ddn'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Demographics/SexAtBirth/SexAtBirth-Ddn')
 
-WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Diagnosis/Diagnosis/Diagnosis-Ddn'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Diagnosis/Diagnosis/Diagnosis-Ddn')
-
-WebUI.delay(2)
-WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Diagnosis/Diagnosis/89643ClearSarcKidney-Chkbx'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Diagnosis/Diagnosis/89643ClearSarcKidney-Chkbx')
+WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Demographics/SexAtBirth/Unknown-Chkbx'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Demographics/SexAtBirth/Unknown-Chkbx')
 
 //Read Statbar
 CustomKeywords.'utilities.TestRunner.readStatBarC3DC'('C3DC/Statbar/Diagnosis-Count', 'C3DC/Statbar/Participants-Count', 
