@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC11_C3DC_phs000470_FirstEvent-Death</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6ab57124-f4cc-49a8-ada0-76dfe69c7a88</testCaseGuid>
+</TestCaseEntity>
