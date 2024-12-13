@@ -1934,7 +1934,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		}else if(appKey.equals("C3DC")) {
 			filePath = Paths.get(usrDir, inputFiles, "C3DC", "C3DC_StaticData.xlsx");
 		}else if(appKey.equals("INS")) {
-			filePath = Paths.get(usrDir, inputFiles, "INS", "ABC123.xlsx");
+			filePath = Paths.get(usrDir, inputFiles, "INS", "INS_StaticData.xlsx");
 		}else if(appKey.equals("CDS")) {
 			filePath = Paths.get(usrDir, inputFiles, "CDS", "ABC123.xlsx");
 		}else if(appKey.equals("CTDC")) {
@@ -2003,6 +2003,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 					}
 
 					String actualText = WebUI.getText(testObject).replaceAll("\\r?\\n", " ").trim()
+					expectedText = expectedText.replaceAll("\\r?\\n", " ").trim()
 					System.out.println("Verifying text: " + testObjectId + " - Expected: " + expectedText + ", Actual: " + actualText);
 					if (actualText.equals(expectedText)) {
 						verifyTextPass = true;

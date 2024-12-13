@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ContactEmailLink</name>
+   <tag></tag>
+   <elementGuidId>c96a3b6d-562b-4e17-81b7-96ead16e4011</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//h2[@class='aboutContentHeader']/following-sibling::p/a[@href='mailto:nciofficeofdatasharing@mail.nih.gov?Subject=Index%20of%20NCI%20Studies%20feedback']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//h2[@class='aboutContentHeader']/following-sibling::p/a[@href='mailto:nciofficeofdatasharing@mail.nih.gov?Subject=Index%20of%20NCI%20Studies%20feedback']</value>
+      <webElementGuid>74e3e4e9-5f35-45ee-bc0b-0a144ae21014</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
