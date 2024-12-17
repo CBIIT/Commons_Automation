@@ -1,4 +1,4 @@
-type	study_arm.arm_id	study.clinical_study_designation	cohort_description	cohort_dose	cohort_id
+type	study_arm.arm_id	study.clinical_study_designation	cohort_description	cohort_dose	cohort_record_id
 cohort	OSA02-DFI		Dogs treated with any platinum based therapy		OSA02-DFI-Platinum
 cohort	OSA02-DFI		Dogs treated with doxorubicin		OSA02-DFI-Dox
 cohort	OSA02-DFI		Dogs treated with a combination of any platinum-based therapy and doxorubicin		OSA02-DFI-Combo

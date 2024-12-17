@@ -1,4 +1,4 @@
-type	 case.case_id	demographic_id	breed	additional_breed_detail	patient_age_at_enrollment	date_of_birth	sex	weight	neutered_indicator
+type	 case.case_record_id	demographic_record_id	breed	additional_breed_detail	patient_age_at_enrollment	date_of_birth	sex	weight	neutered_indicator
 demographic	OSA02-T223986	OSA02-T223986	Greyhound		7	5/1/1999	Male	34	Yes
 demographic	OSA02-T212759	OSA02-T212759	Golden Retriever		10.9	1/1/1994	Male	39	Yes
 demographic	OSA02-T208911	OSA02-T208911	Doberman Pinscher		8.1	4/1/1996	Female	43	Yes

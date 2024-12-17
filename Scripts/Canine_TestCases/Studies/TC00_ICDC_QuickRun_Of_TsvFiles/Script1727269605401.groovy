@@ -37,7 +37,7 @@ import com.kms.katalon.core.util.KeywordUtil
 import java.nio.file.Paths
 
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC14_ICDC_TCL01_FileType-StudyProtocol.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC15_ICDC_UC01_FileFormat-pdf.xlsx')
 
 CustomKeywords.'utilities.PythonReader.readFile'('CasesTab.py')
 CustomKeywords.'utilities.PythonReader.readFile'('SamplesTab.py')

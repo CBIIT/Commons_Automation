@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>This is the COTB checkbox under Study filter</description>
-   <name>Canine_Filter_Study-OSA02_Chkbx</name>
+   <description></description>
+   <name>tsv_Chkbx</name>
    <tag></tag>
-   <elementGuidId>b4c93448-370f-40e5-b5d7-b0407dc8d69a</elementGuidId>
+   <elementGuidId>da78d8ef-e39f-41ed-abc9-292c5a4bb0d6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id='checkbox_Study_OSA02 (000012)']</value>
+         <key>XPATH</key>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//span[contains(text(),'COTC007B')]</value>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;checkbox_File Format_tsv&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -22,7 +21,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id='checkbox_Study_OSA02 (000012)']</value>
-      <webElementGuid>8f15604f-e1f2-4df9-8f35-a41628b8b2be</webElementGuid>
+      <value>//*[@id=&quot;checkbox_File Format_tsv&quot;]</value>
+      <webElementGuid>513fabb1-b012-4402-b497-1a0f3e2aae60</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
