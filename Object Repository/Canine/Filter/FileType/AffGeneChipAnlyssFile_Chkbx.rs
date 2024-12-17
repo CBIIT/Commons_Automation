@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>This is the COTB checkbox under Study filter</description>
-   <name>Canine_Filter_Study-OSA02_Chkbx</name>
+   <description></description>
+   <name>AffGeneChipAnlyssFile_Chkbx</name>
    <tag></tag>
-   <elementGuidId>b4c93448-370f-40e5-b5d7-b0407dc8d69a</elementGuidId>
+   <elementGuidId>7fed2f7c-0ba1-4fcc-bd5a-78a897563a2e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id='checkbox_Study_OSA02 (000012)']</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//span[contains(text(),'COTC007B')]</value>
+         <value>//*[@id=&quot;checkbox_File Type_Affymetrix GeneChip Analysis File&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -22,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id='checkbox_Study_OSA02 (000012)']</value>
-      <webElementGuid>8f15604f-e1f2-4df9-8f35-a41628b8b2be</webElementGuid>
+      <value>//*[@id=&quot;checkbox_File Type_Affymetrix GeneChip Analysis File&quot;]</value>
+      <webElementGuid>38b3a7d1-3e3d-4103-81a7-36798dda4c4c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

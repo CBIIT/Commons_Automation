@@ -1,4 +1,4 @@
-type	cohort.cohort_id	study.clinical_study_designation	study_arm.arm_id	case_id	patient_id	patient_first_name
+type	cohort.cohort_record_id	study.clinical_study_designation	study_arm.arm_id	case_record_id	patient_id	patient_first_name
 case	OSA02-DFI-Platinum	OSA02		OSA02-T223986	T223986	
 case	OSA02-DFI-Dox	OSA02		OSA02-T212759	T212759	
 case	OSA02-DFI-Platinum	OSA02		OSA02-T208911	T208911	
