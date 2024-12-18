@@ -60,77 +60,77 @@ public class CustomBrowserDriver {
 		switch (getExecutedBrowser()) {
 
 			case 'CHROME_DRIVER':
-			System.setProperty("webdriver.chrome.driver", DriverFactory.getChromeDriverPath())
-			ChromeOptions options = new ChromeOptions()
-			Map<String, Object> chromePrefs = new HashMap<String, Object>()
-			chromePrefs.put("download.prompt_for_download", false)
-			options.addArguments("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/18.1.1");
-			options.setExperimentalOption("useAutomationExtension", false);
-			options.setExperimentalOption("excludeSwitches", Collections.singletonList("enable-automation"));
-			drv  = new ChromeDriver(options)
-			DriverFactory.changeWebDriver(drv)
-			System.out.println("This is the value of dr from createwebdriver: "+drv)
-			break;
+				System.setProperty("webdriver.chrome.driver", DriverFactory.getChromeDriverPath())
+				ChromeOptions options = new ChromeOptions()
+				Map<String, Object> chromePrefs = new HashMap<String, Object>()
+				chromePrefs.put("download.prompt_for_download", false)
+				options.addArguments("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/18.1.1");
+				options.setExperimentalOption("useAutomationExtension", false);
+				options.setExperimentalOption("excludeSwitches", Collections.singletonList("enable-automation"));
+				drv  = new ChromeDriver(options)
+				DriverFactory.changeWebDriver(drv)
+				System.out.println("This is the value of dr from createwebdriver: "+drv)
+				break;
 
 			case 'HEADLESS_DRIVER':  //This is for headless Chrome driver
-			System.setProperty("webdriver.chrome.driver", DriverFactory.getChromeDriverPath())
-			ChromeOptions options = new ChromeOptions();
-			options.addArguments("--headless");
-			options.addArguments("--disable-dev-shm-usage");
-			options.addArguments("--disable-gpu");
-			options.addArguments("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.6778.85 Safari/18.1.1");
-			DesiredCapabilities dc = new DesiredCapabilities();
-			dc.setCapability(ChromeOptions.CAPABILITY, options);
-			Map<String, Object> chromePrefs = new HashMap<String, Object>()
-			chromePrefs.put("download.prompt_for_download", false)
-			options.setExperimentalOption("prefs", chromePrefs)
-			options.merge(dc);
-			drv  = new ChromeDriver(options)
-			DriverFactory.changeWebDriver(drv)
-			System.out.println("This is the value of dr from createwebdriver: "+drv)
-			break;
+				System.setProperty("webdriver.chrome.driver", DriverFactory.getChromeDriverPath())
+				ChromeOptions options = new ChromeOptions();
+				options.addArguments("--headless");
+				options.addArguments("--disable-dev-shm-usage");
+				options.addArguments("--disable-gpu");
+				options.addArguments("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.6778.85 Safari/18.1.1");
+				DesiredCapabilities dc = new DesiredCapabilities();
+				dc.setCapability(ChromeOptions.CAPABILITY, options);
+				Map<String, Object> chromePrefs = new HashMap<String, Object>()
+				chromePrefs.put("download.prompt_for_download", false)
+				options.setExperimentalOption("prefs", chromePrefs)
+				options.merge(dc);
+				drv  = new ChromeDriver(options)
+				DriverFactory.changeWebDriver(drv)
+				System.out.println("This is the value of dr from createwebdriver: "+drv)
+				break;
 
 			case 'FIREFOX_DRIVER':
-			System.setProperty("webdriver.gecko.driver", DriverFactory.getGeckoDriverPath())
-			FirefoxProfile profile = new FirefoxProfile();
-			FirefoxOptions opt = new FirefoxOptions();
-			opt.setProfile(profile);
-			drv  =  new FirefoxDriver(opt);
-			DriverFactory.changeWebDriver(drv)
-			System.out.println("This is the value of dr from createwebdriver: "+drv)
-			break;
+				System.setProperty("webdriver.gecko.driver", DriverFactory.getGeckoDriverPath())
+				FirefoxProfile profile = new FirefoxProfile();
+				FirefoxOptions opt = new FirefoxOptions();
+				opt.setProfile(profile);
+				drv  =  new FirefoxDriver(opt);
+				DriverFactory.changeWebDriver(drv)
+				System.out.println("This is the value of dr from createwebdriver: "+drv)
+				break;
 
 			case 'FIREFOX_HEADLESS_DRIVER':
-			System.setProperty("webdriver.gecko.driver", DriverFactory.getGeckoDriverPath())
-			FirefoxOptions ffoptions = new FirefoxOptions();
-			DesiredCapabilities desiredCap = DesiredCapabilities.firefox();
-			desiredCap.setCapability("headless", true);
-			ffoptions.addArguments("--headless");
-			ffoptions.merge(desiredCap);
-			drv = new FirefoxDriver(ffoptions);
-			DriverFactory.changeWebDriver(drv)
-			System.out.println("This is the value of dr from createwebdriver: "+drv)
-			break;
+				System.setProperty("webdriver.gecko.driver", DriverFactory.getGeckoDriverPath())
+				FirefoxOptions ffoptions = new FirefoxOptions();
+				DesiredCapabilities desiredCap = DesiredCapabilities.firefox();
+				desiredCap.setCapability("headless", true);
+				ffoptions.addArguments("--headless");
+				ffoptions.merge(desiredCap);
+				drv = new FirefoxDriver(ffoptions);
+				DriverFactory.changeWebDriver(drv)
+				System.out.println("This is the value of dr from createwebdriver: "+drv)
+				break;
 
 			case 'SAFARI_DRIVER':
-			SafariOptions options = new SafariOptions();
-			options.setCapability("cleanSession", true);
-			drv = new SafariDriver(options);
-			DriverFactory.changeWebDriver(drv)
-			System.out.println("This is the value of dr from createwebdriver: "+drv)
-			break;
+				SafariOptions options = new SafariOptions();
+				options.setCapability("cleanSession", true);
+				drv = new SafariDriver(options);
+				DriverFactory.changeWebDriver(drv)
+				System.out.println("This is the value of dr from createwebdriver: "+drv)
+				break;
 
 			case 'EDGE_DRIVER':
-			String edgeDriverPath = DriverFactory.getEdgeDriverPath()
-			WebUI.comment(">>> edgeDriverPath=${edgeDriverPath}")
-			System.setProperty("webdriver.edge.driver", edgeDriverPath)
-			drv  = new EdgeDriver()
-			DriverFactory.changeWebDriver(drv)
-			System.out.println("This is the value of dr from createwebdriver : "+drv)
-			break;
+				String edgeDriverPath = DriverFactory.getEdgeDriverPath()
+				WebUI.comment(">>> edgeDriverPath=${edgeDriverPath}")
+				System.setProperty("webdriver.edge.driver", edgeDriverPath)
+				drv  = new EdgeDriver()
+				DriverFactory.changeWebDriver(drv)
+				System.out.println("This is the value of dr from createwebdriver : "+drv)
+				break;
 
 			default:
-			throw new IllegalStateException("Unsupported browser type: ${executedBrowser}")
+				throw new IllegalStateException("Unsupported browser type: ${executedBrowser}")
 		}
 		return drv
 	}

@@ -46,40 +46,40 @@ import com.kms.katalon.core.configuration.RunConfiguration
 class API_Functions {
 
 	// Function to send API request and return response
+ 
 
+static ResponseObject sendRequestAndCaptureResponse(String apiObjectPath) {
+    // Retrieve the project directory dynamically
+    String projectDir = RunConfiguration.getProjectDir()
+    
+    // Define the output directory relative to the project directory
+    String outputDirectory = projectDir + "/OutputFiles/"
 
-	static ResponseObject sendRequestAndCaptureResponse(String apiObjectPath) {
-		// Retrieve the project directory dynamically
-		String projectDir = RunConfiguration.getProjectDir()
+    // Get the test case name from Global Variable (set by the listener)
+    String testCaseName = GlobalVariable.currentTestCaseName
+    if (testCaseName == null || testCaseName.isEmpty()) {
+        // Fallback to the execution source name if test case name is not set
+        testCaseName = RunConfiguration.getExecutionSourceName()
+    }
+    println("This is the test case name: " + testCaseName)
 
-		// Define the output directory relative to the project directory
-		String outputDirectory = projectDir + "/OutputFiles/"
+    // Send the API request
+    ResponseObject response = WS.sendRequest(findTestObject(apiObjectPath))
+    println("Response Status: " + response.getStatusCode())
+    println("Response Body: " + response.getResponseBodyContent())
 
-		// Get the test case name from Global Variable (set by the listener)
-		String testCaseName = GlobalVariable.currentTestCaseName
-		if (testCaseName == null || testCaseName.isEmpty()) {
-			// Fallback to the execution source name if test case name is not set
-			testCaseName = RunConfiguration.getExecutionSourceName()
-		}
-		println("This is the test case name: " + testCaseName)
+    // Extract the API name to use as part of the file name
+    String apiName = apiObjectPath.split('/').last().replaceAll(' ', '_')
 
-		// Send the API request
-		ResponseObject response = WS.sendRequest(findTestObject(apiObjectPath))
-		println("Response Status: " + response.getStatusCode())
-		println("Response Body: " + response.getResponseBodyContent())
+    // Combine test case name and API name for the file name
+    File responseFile = new File(outputDirectory + testCaseName + "_" + apiName + '.txt')
 
-		// Extract the API name to use as part of the file name
-		String apiName = apiObjectPath.split('/').last().replaceAll(' ', '_')
+    // Write the response to the file
+    responseFile.write("Response Status: " + response.getStatusCode() + "\n")
+    responseFile << "Response Body: " + response.getResponseBodyContent() + "\n"
 
-		// Combine test case name and API name for the file name
-		File responseFile = new File(outputDirectory + testCaseName + "_" + apiName + '.txt')
-
-		// Write the response to the file
-		responseFile.write("Response Status: " + response.getStatusCode() + "\n")
-		responseFile << "Response Body: " + response.getResponseBodyContent() + "\n"
-
-		return response
-	}
+    return response
+}
 
 
 
