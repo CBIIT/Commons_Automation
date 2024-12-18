@@ -5,7 +5,7 @@ import com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword
 import internal.GlobalVariable as GlobalVariable
 
 /*This test script:
-Verifies the static data on the Home page based on Test Object via Excel sheet
+Verifies the static data on the pages based on Test Object via Excel sheet
  */
 WebUI.closeBrowser()
 
@@ -13,7 +13,6 @@ WebUI.closeBrowser()
 //Initiate and click Continue on warning popup
 CustomKeywords.'utilities.TestRunner.RunKatalon'('C3DC_StaticData.xlsx')
 CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/HomePage/WarningBan_Continue_Btn')
-
 
 //Verify static data text - Home page
 CustomKeywords.'utilities.TestRunner.verifyStaticData'("V_HomePage")
@@ -39,6 +38,4 @@ WebUI.click(findTestObject('C3DC/NavBar/About-About-Btn'))
 CustomKeywords.'utilities.TestRunner.verifyStaticData'("V_AboutAboutPage")
 
 
-
 WebUI.closeBrowser()
-

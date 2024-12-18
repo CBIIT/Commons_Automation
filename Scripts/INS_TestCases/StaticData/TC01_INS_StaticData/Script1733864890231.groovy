@@ -5,7 +5,7 @@ import com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword
 import internal.GlobalVariable as GlobalVariable
 
 /*This test script:
-Verifies the static data on the Home page based on Test Object via Excel sheet
+Verifies the static data on the pages based on Test Object via Excel sheet
  */
 WebUI.closeBrowser()
 
@@ -15,7 +15,6 @@ CustomKeywords.'utilities.TestRunner.RunKatalon'('INS_StaticData.xlsx')
 
 //Verify static data text for Home page
 CustomKeywords.'utilities.TestRunner.verifyStaticData'("V_HomePage")
-
 
 //Navigate to About > About INS
 WebUI.click(findTestObject('INS/Navbar/About-Btn'))
