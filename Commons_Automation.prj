@@ -8,9 +8,9 @@
    <freeLicense>false</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <modifiedEdition>ENTERPRISE</modifiedEdition>
-   <modifiedVersion>9.7.3</modifiedVersion>
+   <modifiedVersion>9.5.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>/Users/leungvw/git/Commons_Automation/Commons_Automation.prj</projectFileLocation>
+   <projectFileLocation>/Users/sohilz2/Automation/poc-07-15-2024/Commons_Automation/Commons_Automation.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
