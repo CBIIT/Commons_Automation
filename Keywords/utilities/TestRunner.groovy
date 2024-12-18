@@ -1928,7 +1928,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		if(appKey.equals("Bento")) {
 			filePath = Paths.get(usrDir, inputFiles, "Bento", "Bento_StaticData.xlsx");
 		}else if(appKey.equals("ICDC")) {
-			filePath = Paths.get(usrDir, inputFiles, "ICDC", "ABC123.xlsx");
+			filePath = Paths.get(usrDir, inputFiles, "ICDC", "ICDC_StaticData.xlsx");
 		}else if(appKey.equals("CCDI")) {
 			filePath = Paths.get(usrDir, inputFiles, "CCDI", "ABC123.xlsx");
 		}else if(appKey.equals("C3DC")) {
@@ -1980,7 +1980,13 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 
 				// Verify text data matches with element
 				try {
-					TestObject testObject = findTestObject(appKey + "/" + "Static" + "/" + page + "/" + testObjectId) // path of Test Object in Object Repository
+					TestObject testObject; 
+
+					if (appKey=="ICDC") {
+						testObject = findTestObject("Canine" + "/" + "Static" + "/" + page + "/" + testObjectId) // for ICDC only
+					} else {
+						testObject = findTestObject(appKey + "/" + "Static" + "/" + page + "/" + testObjectId) // path of Test Object in Object Repository
+					}
 
 					// Make sure TestObject has correct name in the sheet
 					if (testObject == null) {

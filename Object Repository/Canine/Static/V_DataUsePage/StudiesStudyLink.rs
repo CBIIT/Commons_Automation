@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>StudiesStudyLink</name>
+   <tag></tag>
+   <elementGuidId>ee60d0a5-3b58-4ba9-91b4-e079084f6e6d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@title='https://caninecommons.cancer.gov/#/study/000003']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[@title='https://caninecommons.cancer.gov/#/study/000003']</value>
+      <webElementGuid>0bd9c177-ed7d-4e39-84e3-6a7081cc3f2b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
