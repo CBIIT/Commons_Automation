@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>LicenseTitle</name>
+   <tag></tag>
+   <elementGuidId>09bec637-950c-4e1f-9eef-28fae1223b53</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[text()='License']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[text()='License']</value>
+      <webElementGuid>b3ad0545-ef30-4ee6-8a9f-428197f92bb9</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
