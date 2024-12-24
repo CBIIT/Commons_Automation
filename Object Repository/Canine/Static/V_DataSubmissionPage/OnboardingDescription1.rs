@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Canine_About_Btn</name>
+   <name>OnboardingDescription1</name>
    <tag></tag>
-   <elementGuidId>d1af7762-a2b6-4790-aa08-41579bac6f96</elementGuidId>
+   <elementGuidId>37832a3e-ec64-4856-9ce2-dbfe5e8f39f8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//span[text()='about']</value>
+         <value>//div[text()='The Data Onboarding Process']/following::div[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//span[text()='about']</value>
-      <webElementGuid>33cadb37-824c-4cda-8e2c-b2ca8cffa8a2</webElementGuid>
+      <value>//div[text()='The Data Onboarding Process']/following::div[1]</value>
+      <webElementGuid>8b2b5d5c-c620-4b00-a4fc-98eff30d6ded</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

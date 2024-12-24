@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Canine_About_Btn</name>
+   <name>GithubTitle</name>
    <tag></tag>
-   <elementGuidId>d1af7762-a2b6-4790-aa08-41579bac6f96</elementGuidId>
+   <elementGuidId>363c2549-6f49-4cc7-9ceb-23cda436a92e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//span[text()='about']</value>
+         <value>//div[text()='GitHub']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//span[text()='about']</value>
-      <webElementGuid>33cadb37-824c-4cda-8e2c-b2ca8cffa8a2</webElementGuid>
+      <value>//div[text()='GitHub']</value>
+      <webElementGuid>6b1f8808-acbd-488f-a8fe-5b4b331863e6</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

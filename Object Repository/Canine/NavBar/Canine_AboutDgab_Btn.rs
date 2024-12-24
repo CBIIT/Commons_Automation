@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Canine_About_Btn</name>
+   <name>Canine_AboutDgab_Btn</name>
    <tag></tag>
-   <elementGuidId>d1af7762-a2b6-4790-aa08-41579bac6f96</elementGuidId>
+   <elementGuidId>16386b54-d905-4a01-b0b9-eec14498ecbc</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//span[text()='about']</value>
+         <value>//a[@href = '#/DGAB']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//span[text()='about']</value>
-      <webElementGuid>33cadb37-824c-4cda-8e2c-b2ca8cffa8a2</webElementGuid>
+      <value>//a[@href = '#/DGAB']</value>
+      <webElementGuid>dccd143b-a977-46dd-8bd7-7b7092018db7</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

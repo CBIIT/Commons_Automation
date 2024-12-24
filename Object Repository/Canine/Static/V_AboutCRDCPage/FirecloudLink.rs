@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Canine_About_Btn</name>
+   <name>FirecloudLink</name>
    <tag></tag>
-   <elementGuidId>d1af7762-a2b6-4790-aa08-41579bac6f96</elementGuidId>
+   <elementGuidId>2a6023b6-45b5-4186-ac3d-4c4c492901be</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//span[text()='about']</value>
+         <value>//a[@title='Broad Firecloud ']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//span[text()='about']</value>
-      <webElementGuid>33cadb37-824c-4cda-8e2c-b2ca8cffa8a2</webElementGuid>
+      <value>//a[@title='Broad Firecloud ']</value>
+      <webElementGuid>68c20ea0-0a2a-49d7-a792-d3bc6d67984e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

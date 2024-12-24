@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Canine_About_Btn</name>
+   <name>BannerTitle</name>
    <tag></tag>
-   <elementGuidId>d1af7762-a2b6-4790-aa08-41579bac6f96</elementGuidId>
+   <elementGuidId>4e39a912-aa79-40b1-8fdb-911b68dfe1d7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//span[text()='about']</value>
+         <value>//span[text()='Steering Committee']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//span[text()='about']</value>
-      <webElementGuid>33cadb37-824c-4cda-8e2c-b2ca8cffa8a2</webElementGuid>
+      <value>//span[text()='Steering Committee']</value>
+      <webElementGuid>4fc27d3d-da95-43b3-bf42-5bac9fa4e492</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
