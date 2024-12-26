@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Bento_Description</name>
+   <tag></tag>
+   <elementGuidId>0433f986-a1a0-4606-a763-4ef4405ce0c4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@class,'MuiGrid-item')][1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@class,'MuiGrid-item')][1]</value>
+      <webElementGuid>9c566c95-ded6-4989-b3e7-69bfc7673fe8</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

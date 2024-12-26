@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>FooterPoliciesLink</name>
+   <tag></tag>
+   <elementGuidId>546c44e0-b1d9-474c-afc2-7a667d23298d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href='https://www.cancer.gov/policies']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[@href='https://www.cancer.gov/policies']</value>
+      <webElementGuid>71bcd33b-541c-43a2-8077-2436ae9fcce2</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

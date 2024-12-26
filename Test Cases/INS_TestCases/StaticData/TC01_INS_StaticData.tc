@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_INS_StaticData</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b38e9559-3e70-4f81-a4b8-02cf41ec265d</testCaseGuid>
+</TestCaseEntity>

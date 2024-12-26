@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>FairDataLink</name>
+   <tag></tag>
+   <elementGuidId>134c7d01-c0b7-46c3-83b8-c1c71c861761</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@title='FAIR']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[@title='FAIR']</value>
+      <webElementGuid>c3eb4c3e-109b-47e1-823a-88fea0d5ddfe</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CardDescription4</name>
+   <tag></tag>
+   <elementGuidId>c4131c93-d859-441d-99a1-eb694f7e4adb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//h3)[4]/following::p[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//h3)[4]/following::p[1]</value>
+      <webElementGuid>816d87d4-0525-4abf-ae4c-a9310957bef5</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

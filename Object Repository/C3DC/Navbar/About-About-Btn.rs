@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>About-About-Btn</name>
+   <tag></tag>
+   <elementGuidId>8d8f6718-f0fb-43c5-906e-ea7d9fb191a1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[.='About']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[.='About']</value>
+      <webElementGuid>caf0341d-a82c-4a95-b24f-1f36f6a3b66e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

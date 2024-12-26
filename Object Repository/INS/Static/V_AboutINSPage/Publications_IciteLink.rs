@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Publications_IciteLink</name>
+   <tag></tag>
+   <elementGuidId>ec358b1e-49a1-431e-bd04-b8b9cae38685</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href='https://icite.od.nih.gov/']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[@href='https://icite.od.nih.gov/']</value>
+      <webElementGuid>2be2b11c-2c4a-495f-adb2-ad6df6b7d595</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

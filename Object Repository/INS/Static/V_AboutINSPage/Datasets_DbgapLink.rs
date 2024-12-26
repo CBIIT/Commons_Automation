@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Datasets_DbgapLink</name>
+   <tag></tag>
+   <elementGuidId>9632cf4a-7ec4-4bec-ae9c-979de540d80b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//a[@href='https://www.ncbi.nlm.nih.gov/gap/'])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//a[@href='https://www.ncbi.nlm.nih.gov/gap/'])[2]</value>
+      <webElementGuid>a95bae00-0a1a-4356-a27e-1f51c3a216a6</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

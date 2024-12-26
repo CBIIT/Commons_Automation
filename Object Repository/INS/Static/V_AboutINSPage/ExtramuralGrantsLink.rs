@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ExtramuralGrantsLink</name>
+   <tag></tag>
+   <elementGuidId>4211ff7d-6795-4a72-a25f-df2a66af4541</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href='https://www.cancer.gov/research/nci-role/extramural']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[@href='https://www.cancer.gov/research/nci-role/extramural']</value>
+      <webElementGuid>dc4b4578-6b58-4fcf-b301-1bb5b4e75f96</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Resources_FrontendLink</name>
+   <tag></tag>
+   <elementGuidId>f61ae10b-0257-4b80-88d9-6e27d3e980af</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@title='https://github.com/CBIIT/bento-frontend']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[@title='https://github.com/CBIIT/bento-frontend']</value>
+      <webElementGuid>c072d795-0ba5-413a-af2a-67a733fa41d3</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Resources-Resources-Btn</name>
+   <tag></tag>
+   <elementGuidId>112f1bfa-25e2-4079-8e16-d1e8dc87cab0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[.='Resources']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[.='Resources']</value>
+      <webElementGuid>f3dd70d9-8181-4a9b-8699-851ae26eed50</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

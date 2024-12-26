@@ -8,6 +8,11 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.apache.poi.ss.usermodel.CellType
 import com.kms.katalon.core.annotation.Keyword
 import internal.GlobalVariable
+import org.apache.poi.ss.usermodel.*;
+import org.apache.poi.xssf.usermodel.XSSFFont;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.List;
 
 
 public class ReadExcel {
@@ -330,6 +335,98 @@ public class ReadExcel {
 		}
 
 		GlobalVariable.G_DBdata=sheetData
+	}
+
+
+
+
+	/** vleung
+	 * Write data to an Excel file for static data verification and color cells in the results column
+	 *
+	 * @param filePath    The full file path to save the output Excel file
+	 * @param sheetName   The name of the sheet to write data to
+	 * @param outputData  The data to write to the Excel file
+	 * @param statusCol   The index of the column that contains the result (3)
+	 */
+	@Keyword
+	public static void writeOutputExcelStaticData(String filePath, String sheetName, List<List<String>> outputData, int statusCol) throws IOException {
+
+		// Use one output file with multiple sheets
+		Workbook workbook
+		Path path = Paths.get(filePath)
+		File file = path.toFile()
+		if (file.exists()) {
+			InputStream inputStream = new FileInputStream(file)
+			workbook = WorkbookFactory.create(inputStream)
+			inputStream.close()
+		} else {
+			workbook = new XSSFWorkbook();
+		}
+
+		// Only create sheet if it does not already exist
+		Sheet sheet = workbook.getSheet(sheetName)
+		if (sheet == null) {
+			sheet = workbook.createSheet(sheetName);
+			// Create header row
+			Row headerRow = sheet.createRow(0)
+			CellStyle headerStyle = workbook.createCellStyle()
+			Font headerFont = workbook.createFont()
+			headerFont.setBold(true)
+			headerStyle.setFont(headerFont)
+			headerStyle.setFillForegroundColor(IndexedColors.GREY_25_PERCENT.getIndex());
+			headerStyle.setFillPattern(FillPatternType.SOLID_FOREGROUND);
+			String[] headers = [
+				"TestObject",
+				"ExpectedText",
+				"ExpectedUrl",
+				"Result"
+			]
+			for (int i = 0; i < headers.length; i++) {
+				Cell cell = headerRow.createCell(i)
+				cell.setCellValue(headers[i])
+				cell.setCellStyle(headerStyle)
+			}
+		}
+
+		// Green for pass result
+		CellStyle colorPass = workbook.createCellStyle();
+		colorPass.setFillForegroundColor(IndexedColors.LIGHT_GREEN.getIndex());
+		colorPass.setFillPattern(FillPatternType.SOLID_FOREGROUND);
+
+		// Red for fail result
+		CellStyle colorFail = workbook.createCellStyle();
+		colorFail.setFillForegroundColor(IndexedColors.RED.getIndex());
+		colorFail.setFillPattern(FillPatternType.SOLID_FOREGROUND);
+
+		// Write data
+		int rowIndex = 1;
+		for (List<String> row : outputData) {
+			Row excelRow = sheet.createRow(rowIndex++);
+
+			for (int columnIndex = 0; columnIndex < row.size(); columnIndex++) {
+				Cell cell = excelRow.createCell(columnIndex);
+				cell.setCellValue(row.get(columnIndex).toString());
+
+				// Add color for the results
+				if (columnIndex == statusCol) {
+					if ("true".equalsIgnoreCase(row.get(columnIndex))) {
+						cell.setCellStyle(colorPass);
+					} else if ("false".equalsIgnoreCase(row.get(columnIndex))) {
+						cell.setCellStyle(colorFail);
+					}
+				}
+			}
+		}
+
+		// Auto-size columns
+		for (int columnIndex = 0; columnIndex < outputData.get(0).size(); columnIndex++) {
+			sheet.setColumnWidth(columnIndex, 12000);
+		}
+
+		// Write the workbook
+		FileOutputStream fos = new FileOutputStream(filePath)
+		workbook.write(fos);
+		workbook.close();
 	}
 }
 

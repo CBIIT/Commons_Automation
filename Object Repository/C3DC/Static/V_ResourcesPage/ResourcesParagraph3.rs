@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ResourcesParagraph3</name>
+   <tag></tag>
+   <elementGuidId>441a78e3-003b-4571-a712-ebf02ee5820f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id='GHR']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@id='GHR']</value>
+      <webElementGuid>ed4e59c9-f2e4-4d7d-98cc-be424924cfc4</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
