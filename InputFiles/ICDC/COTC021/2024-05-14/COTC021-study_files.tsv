@@ -1,0 +1,3 @@
+type	file_name	uuid	file_size	md5sum	file_status	file_location	file_format	acl	case.case_id	study.clinical_study_designation	sample.sample_id	diagnosis.diagnosis_id	file_type	file_description
+file	COTC021_Study Protocol.docx	de0904e6-e745-5292-bfd2-fe5d8363171f	101379.0	7BE26B002F9F1F4B28FE329EC1F02C3C	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/COTC021/COTC021_Study Protocol.docx	docx	['Open']		COTC021			Study Protocol	COTC021 Study Protocol
+file	COTC021_Supplemental Data.xlsx	3b73e25d-153e-50d4-8a8d-cfb081e00f2b	40217.0	D626879ECF69646C770FD6BCC324738A	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/COTC021/COTC021_Supplemental Data.xlsx	xlsx	['Open']		COTC021			Supplemental Data File	Patient demographics and outcome data

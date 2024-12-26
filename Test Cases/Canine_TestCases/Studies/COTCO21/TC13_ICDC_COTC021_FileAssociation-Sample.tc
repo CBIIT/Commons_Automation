@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC15_ICDC_COTC022_FileFormat-xlsx</name>
+   <name>TC13_ICDC_COTC021_FileAssociation-Sample</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>e9f89d2e-82ba-4027-a0a1-c63c46031a18</testCaseGuid>
+   <testCaseGuid>82c00f63-08c1-48c8-856d-79f14bbfcfbe</testCaseGuid>
 </TestCaseEntity>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC15_ICDC_COTC022_FileFormat-xlsx</name>
+   <name>TC07_ICDC_COTC021_RespToTreatmt-ProgresDisease</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>e9f89d2e-82ba-4027-a0a1-c63c46031a18</testCaseGuid>
+   <testCaseGuid>794b643a-7948-47e1-9d42-4188a4ba9044</testCaseGuid>
 </TestCaseEntity>
