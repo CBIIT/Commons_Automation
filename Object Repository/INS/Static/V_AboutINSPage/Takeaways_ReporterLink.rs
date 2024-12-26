@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Takeaways_ReporterLink</name>
+   <tag></tag>
+   <elementGuidId>b311da0d-fc89-43e9-b09e-4387ca1e6b5a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href='https://reporter.nih.gov']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[@href='https://reporter.nih.gov']</value>
+      <webElementGuid>c8b0aece-5d39-4c6c-b186-273170940b88</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

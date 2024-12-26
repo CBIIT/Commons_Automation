@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SpotlightPanelLink1</name>
+   <tag></tag>
+   <elementGuidId>be0da8b1-59fd-4701-b29a-a565a7e04e0d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//div[contains(@class,'MuiPaper-elevation')])[1]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//div[contains(@class,'MuiPaper-elevation')])[1]/a</value>
+      <webElementGuid>4403725f-9a61-4334-b77c-af515f668fa0</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

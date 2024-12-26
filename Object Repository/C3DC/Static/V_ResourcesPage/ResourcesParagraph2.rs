@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ResourcesParagraph2</name>
+   <tag></tag>
+   <elementGuidId>f8d3c29d-704f-4bcc-8e02-895d1ada50e8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id='datamodel']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@id='datamodel']</value>
+      <webElementGuid>558812ab-3fa9-44da-b95d-21e86f47153e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>AboutParagraph4</name>
+   <tag></tag>
+   <elementGuidId>d007186f-8560-44ef-82eb-da989fa5eacd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class='aboutFooter']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class='aboutFooter']</value>
+      <webElementGuid>c6671a57-b1e4-4f0a-aa67-4071c1ad4e83</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

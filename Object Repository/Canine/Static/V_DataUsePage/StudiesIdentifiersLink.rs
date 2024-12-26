@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>StudiesIdentifiersLink</name>
+   <tag></tag>
+   <elementGuidId>406817c8-2f54-45ef-9641-966ba2a2cd7b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@title='identifiers.org']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[@title='identifiers.org']</value>
+      <webElementGuid>cddd1cf7-a0bf-4766-9d81-651d00974376</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
