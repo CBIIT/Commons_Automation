@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC15_ICDC_COTC022_FileFormat-xlsx</name>
+   <name>TC04_ICDC_COTC021_Diagnosis-Osteosacroma</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>e9f89d2e-82ba-4027-a0a1-c63c46031a18</testCaseGuid>
+   <testCaseGuid>8df96a02-27d3-4d0a-aa4a-538d5ba76e3a</testCaseGuid>
 </TestCaseEntity>
