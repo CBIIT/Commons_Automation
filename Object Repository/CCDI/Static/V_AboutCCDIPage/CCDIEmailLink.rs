@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CCDIEmailLink</name>
+   <tag></tag>
+   <elementGuidId>16621254-2cb0-49fd-92fd-2c09321c6e17</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@class='aboutContactLink']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[@class='aboutContactLink']</value>
+      <webElementGuid>cc71da15-6206-4ef2-96b9-7894a03d1262</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
