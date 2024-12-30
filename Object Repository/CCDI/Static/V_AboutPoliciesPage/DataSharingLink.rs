@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>DataSharingLink</name>
+   <tag></tag>
+   <elementGuidId>dc13b06a-1e36-4fc2-949e-28ab174a0ca7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[contains(@href,'policy-guidance')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[contains(@href,'policy-guidance')]</value>
+      <webElementGuid>4b233ada-8ad2-4500-8808-572160d5d6cd</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

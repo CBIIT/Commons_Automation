@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>IntroDescription</name>
+   <tag></tag>
+   <elementGuidId>e84e8f59-f2ba-4bf6-8aef-88d6e0f8d6bd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class='introContainer']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class='introContainer']</value>
+      <webElementGuid>6b01677d-a088-44e4-b857-306778c4333a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

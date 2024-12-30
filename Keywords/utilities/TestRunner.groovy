@@ -1930,7 +1930,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		}else if(appKey.equals("ICDC")) {
 			filePath = Paths.get(usrDir, inputFiles, "ICDC", "ICDC_StaticData.xlsx");
 		}else if(appKey.equals("CCDI")) {
-			filePath = Paths.get(usrDir, inputFiles, "CCDI", "ABC123.xlsx");
+			filePath = Paths.get(usrDir, inputFiles, "CCDI", "CCDI_StaticData.xlsx");
 		}else if(appKey.equals("C3DC")) {
 			filePath = Paths.get(usrDir, inputFiles, "C3DC", "C3DC_StaticData.xlsx");
 		}else if(appKey.equals("INS")) {
@@ -1980,7 +1980,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 
 				// Verify text data matches with element
 				try {
-					TestObject testObject; 
+					TestObject testObject;
 
 					if (appKey=="ICDC") {
 						testObject = findTestObject("Canine" + "/" + "Static" + "/" + page + "/" + testObjectId) // for ICDC only

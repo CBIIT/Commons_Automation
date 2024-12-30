@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>DataCommonsLink</name>
+   <tag></tag>
+   <elementGuidId>efa07e78-585a-41e1-b179-8b59682a7a95</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[.='datacommons.cancer.gov']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[.='datacommons.cancer.gov']</value>
+      <webElementGuid>886fb0f7-17e8-4b17-b1c8-8f20d777ae49</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

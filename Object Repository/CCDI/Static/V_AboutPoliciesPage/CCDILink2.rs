@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CCDILink2</name>
+   <tag></tag>
+   <elementGuidId>e0881691-4f0f-4f43-9c9f-1fc0d7241aa0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//a[.='ccdi.cancer.gov'])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//a[.='ccdi.cancer.gov'])[2]</value>
+      <webElementGuid>c9c24b9a-481b-46b3-8cdb-024e0677366d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
