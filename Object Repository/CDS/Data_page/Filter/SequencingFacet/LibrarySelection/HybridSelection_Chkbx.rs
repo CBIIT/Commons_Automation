@@ -6,20 +6,22 @@
    <elementGuidId>5d3c9150-c365-48ec-a60b-e1de2262eff3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_library selection_Hybrid Selection&quot;]</value>
-      <webElementGuid>9e3facf0-2a11-4616-bbe3-0fe5d0bf96f5</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Library Selection_Hybrid Selection&quot;]</value>
+      <webElementGuid>d5162585-c6f4-46bd-97db-5c7c1dba210e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

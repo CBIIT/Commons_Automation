@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_instrument model_Illumina NovaSeq 6000&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Instrument Model_Illumina NovaSeq 6000&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_instrument model_Illumina NovaSeq 6000&quot;]</value>
-      <webElementGuid>5f5bb927-68c2-4ce9-8c04-9994780b5fb9</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Instrument Model_Illumina NovaSeq 6000&quot;]</value>
+      <webElementGuid>57857b7f-f891-41d2-8305-e026738bae90</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

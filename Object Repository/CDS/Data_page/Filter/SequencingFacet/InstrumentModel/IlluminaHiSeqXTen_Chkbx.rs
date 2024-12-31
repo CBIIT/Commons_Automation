@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_instrument model_Illumina HiSeq X Ten&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Instrument Model_Illumina HiSeq X Ten&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_instrument model_Illumina HiSeq X Ten&quot;]</value>
-      <webElementGuid>ed5aa6d7-d1b9-40f2-87f6-5f109f8376d9</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Instrument Model_Illumina HiSeq X Ten&quot;]</value>
+      <webElementGuid>876c059d-6aa2-4ee2-bf2f-6d81f3a52d03</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

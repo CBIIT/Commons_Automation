@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_library source_Genomic&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Library Source_Genomic&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_library source_Genomic&quot;]</value>
-      <webElementGuid>7f71f134-0387-4e61-99b3-84a414f09898</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Library Source_Genomic&quot;]</value>
+      <webElementGuid>ef852cb3-4b8f-43fb-870a-9030f2e940e1</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

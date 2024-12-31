@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_library strategy_Targeted-Capture&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Library Strategy_Targeted-Capture&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_library strategy_Targeted-Capture&quot;]</value>
-      <webElementGuid>97b496fd-24c8-4bba-b275-c7ea39de13e2</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Library Strategy_Targeted-Capture&quot;]</value>
+      <webElementGuid>c1888313-c64d-4374-bcbd-3452946395a3</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

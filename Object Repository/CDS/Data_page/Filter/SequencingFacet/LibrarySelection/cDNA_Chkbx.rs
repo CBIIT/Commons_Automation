@@ -6,21 +6,22 @@
    <elementGuidId>c8e63773-d98f-48b4-94d7-fdd2e11968e9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value></value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_library selection_cDNA&quot;]</value>
-      <webElementGuid>a3cbfa25-2bf0-4466-a7c4-40ea2ea3ced8</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Library Selection_cDNA&quot;]</value>
+      <webElementGuid>7ff86069-417b-4f3b-95dd-603d825b2eaf</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

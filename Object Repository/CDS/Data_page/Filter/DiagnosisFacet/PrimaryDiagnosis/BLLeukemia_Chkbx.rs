@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_PRIMARY DIAGNOSIS_B Lymphoblastic Leukemia/Lymphoma, NOS&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Primary Diagnosis_B Lymphoblastic Leukemia/Lymphoma, NOS&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_PRIMARY DIAGNOSIS_B Lymphoblastic Leukemia/Lymphoma, NOS&quot;]</value>
-      <webElementGuid>c11f65b7-45be-42e5-a20d-de4be0517e1c</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Primary Diagnosis_B Lymphoblastic Leukemia/Lymphoma, NOS&quot;]</value>
+      <webElementGuid>6bbd7f20-c3e3-46b8-aa67-5bb23befa79d</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

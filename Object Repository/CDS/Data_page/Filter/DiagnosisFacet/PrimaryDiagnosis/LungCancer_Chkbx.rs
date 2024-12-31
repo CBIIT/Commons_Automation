@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_PRIMARY DIAGNOSIS_Lung Cancer&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Primary Diagnosis_Lung Cancer&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_PRIMARY DIAGNOSIS_Lung Cancer&quot;]</value>
-      <webElementGuid>f63b22de-85ac-4033-8fc8-45ab921a270e</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Primary Diagnosis_Lung Cancer&quot;]</value>
+      <webElementGuid>48ac104a-ae0d-41e1-bd10-102de0e06180</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;instrument model&quot;]</value>
+         <value>//*[@id=&quot;Instrument Model&quot;]/div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;instrument model&quot;]</value>
-      <webElementGuid>37b1ba8e-148d-4ccd-83be-81b34191b7a9</webElementGuid>
+      <value>//*[@id=&quot;Instrument Model&quot;]/div[2]</value>
+      <webElementGuid>4fd785a0-282c-452d-b6d4-138a89233186</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

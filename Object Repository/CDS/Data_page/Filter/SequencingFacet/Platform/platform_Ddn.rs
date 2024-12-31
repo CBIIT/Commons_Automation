@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;platform&quot;]</value>
+         <value>//*[@id=&quot;Platform&quot;]/div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;platform&quot;]</value>
-      <webElementGuid>8b0b0c68-7012-4a04-be11-068bf70e55b2</webElementGuid>
+      <value>//*[@id=&quot;Platform&quot;]/div[2]</value>
+      <webElementGuid>7198ab6d-0671-47e1-b74c-b156478ad738</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

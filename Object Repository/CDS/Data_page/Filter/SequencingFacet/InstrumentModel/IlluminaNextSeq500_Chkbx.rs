@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_instrument model_Illumina NextSeq 500&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Instrument Model_Illumina NextSeq 500&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_instrument model_Illumina NextSeq 500&quot;]</value>
-      <webElementGuid>5fd353fb-aeba-45bb-a81a-48148b06308c</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Instrument Model_Illumina NextSeq 500&quot;]</value>
+      <webElementGuid>7f8c6416-0c97-43f0-a055-4554d623affd</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

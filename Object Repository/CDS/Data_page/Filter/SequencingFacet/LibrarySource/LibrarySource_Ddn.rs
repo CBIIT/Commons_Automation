@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;library source&quot;]</value>
+         <value>//*[@id=&quot;Library Source&quot;]/div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;library source&quot;]</value>
-      <webElementGuid>37d59934-0e21-4386-a877-f23755744359</webElementGuid>
+      <value>//*[@id=&quot;Library Source&quot;]/div[2]</value>
+      <webElementGuid>321d54df-c7e1-4665-bdec-1796cb8f868d</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

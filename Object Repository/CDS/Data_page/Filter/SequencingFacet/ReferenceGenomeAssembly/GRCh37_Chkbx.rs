@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_reference genome assembly_GRCh37&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Reference Genome Assembly_GRCh37&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_reference genome assembly_GRCh37&quot;]</value>
-      <webElementGuid>e197aa41-7aa8-4fea-88c4-a25e3a99d2ed</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Reference Genome Assembly_GRCh37&quot;]</value>
+      <webElementGuid>e93d88e2-707f-4df1-bd63-ec1d4e63e8c7</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

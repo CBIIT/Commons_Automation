@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;reference genome assembly&quot;]</value>
+         <value>//*[@id=&quot;Reference Genome Assembly&quot;]/div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;reference genome assembly&quot;]</value>
-      <webElementGuid>8e6352b6-6c16-4450-9dac-46d386fb6d17</webElementGuid>
+      <value>//*[@id=&quot;Reference Genome Assembly&quot;]/div[2]</value>
+      <webElementGuid>2c87ce1e-e56c-4f1b-9ab9-477b8eeda0ad</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

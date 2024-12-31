@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_library strategy_AMPLICON&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Library Strategy_AMPLICON&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_library strategy_AMPLICON&quot;]</value>
-      <webElementGuid>0fac743c-f4c7-4d4a-86e5-8f37e4a56ab8</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Library Strategy_AMPLICON&quot;]</value>
+      <webElementGuid>d89e0d85-e21d-4df7-8c92-746852d2b9e7</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

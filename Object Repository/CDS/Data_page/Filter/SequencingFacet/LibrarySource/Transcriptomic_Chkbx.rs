@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_library source_Transcriptomic&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Library Source_Transcriptomic&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_library source_Transcriptomic&quot;]</value>
-      <webElementGuid>e6ed2c30-1dfd-45e0-a650-4d2ac3f6e784</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Library Source_Transcriptomic&quot;]</value>
+      <webElementGuid>5a810e18-04dc-44e7-b81f-97f07be9626c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

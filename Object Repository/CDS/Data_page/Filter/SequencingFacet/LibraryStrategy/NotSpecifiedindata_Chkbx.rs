@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_library strategy_Not specified in data&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Library Strategy_Not specified in data&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_library strategy_Not specified in data&quot;]</value>
-      <webElementGuid>84468f85-356f-457c-9674-a1e4d03f3d49</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Library Strategy_Not specified in data&quot;]</value>
+      <webElementGuid>5f50a0b4-783b-45f9-a06e-401d773ae8af</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
