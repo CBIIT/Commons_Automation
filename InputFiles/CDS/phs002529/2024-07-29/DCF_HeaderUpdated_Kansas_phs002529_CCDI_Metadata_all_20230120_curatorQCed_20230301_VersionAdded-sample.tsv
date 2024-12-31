@@ -1,0 +1,373 @@
+sample_id	sample_type	sample_tumor_status	sample_anatomic_site	biosample_accession	type	participant.study_participant_id
+TB-000001-D1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407374	sample	phs002529_TB-000001
+TB-000001-M1BBLL-01_Blood	Blood	Normal	Blood	SAMN33407245	sample	phs002529_TB-000001
+TB-000003-R2WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407209	sample	phs002529_TB-000003
+TB-000004-R1WPLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407556	sample	phs002529_TB-000004
+TB-000005-D1WPLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407214	sample	phs002529_TB-000005
+TB-000005-M1BPLL-01_Blood	Blood	Normal	Blood	SAMN33407246	sample	phs002529_TB-000005
+TB-000008-M2WBLL-01_Bone Marrow	Bone Marrow	Normal	Bone Marrow	SAMN33407290	sample	phs002529_TB-000008
+TB-000008-R1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407488	sample	phs002529_TB-000008
+TB-000010-D1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407396	sample	phs002529_TB-000010
+TB-000010-M1BBLL-01_Blood	Blood	Normal	Blood	SAMN33407438	sample	phs002529_TB-000010
+TB-000011-D1WTLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407501	sample	phs002529_TB-000011
+TB-000011-M1WTLL-01_Bone Marrow	Bone Marrow	Normal	Bone Marrow	SAMN33407268	sample	phs002529_TB-000011
+TB-000012-D1BTLL-01_Blood	Blood	Tumor	Blood	SAMN33407553	sample	phs002529_TB-000012
+TB-000012-D1WTLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407440	sample	phs002529_TB-000012
+TB-000012-M1WTLL-01_Bone Marrow	Bone Marrow	Normal	Bone Marrow	SAMN33407517	sample	phs002529_TB-000012
+TB-000013-D1BTLL-01_Blood	Blood	Tumor	Blood	SAMN33407520	sample	phs002529_TB-000013
+TB-000013-D1WTLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407231	sample	phs002529_TB-000013
+TB-000017-D1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407345	sample	phs002529_TB-000017
+TB-000017-M1WBLL-01_Bone Marrow	Bone Marrow	Normal	Bone Marrow	SAMN33407561	sample	phs002529_TB-000017
+TB-000018-D1BBLL-01_Blood	Blood	Tumor	Blood	SAMN33407287	sample	phs002529_TB-000018
+TB-000018-D1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407441	sample	phs002529_TB-000018
+TB-000018-M1WBLL-01_Bone Marrow	Bone Marrow	Normal	Bone Marrow	SAMN33407346	sample	phs002529_TB-000018
+TB-000019-D1WAML-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407432	sample	phs002529_TB-000019
+TB-000019-M1WAML-01_Bone Marrow	Bone Marrow	Normal	Bone Marrow	SAMN33407480	sample	phs002529_TB-000019
+TB-000021-R1BBLL-01_Blood	Blood	Tumor	Blood	SAMN33407384	sample	phs002529_TB-000021
+TB-000023-D1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407373	sample	phs002529_TB-000023
+TB-000023-M1WBLL-01_Bone Marrow	Bone Marrow	Normal	Bone Marrow	SAMN33407370	sample	phs002529_TB-000023
+TB-000024-D1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407207	sample	phs002529_TB-000024
+TB-000024-M1WBLL-01_Bone Marrow	Bone Marrow	Normal	Bone Marrow	SAMN33407351	sample	phs002529_TB-000024
+TB-000025-D1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407198	sample	phs002529_TB-000025
+TB-000025-M1WBLL-01_Bone Marrow	Bone Marrow	Normal	Bone Marrow	SAMN33407524	sample	phs002529_TB-000025
+TB-000026-D1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407317	sample	phs002529_TB-000026
+TB-000026-M1WBLL-01_Bone Marrow	Bone Marrow	Normal	Bone Marrow	SAMN33407516	sample	phs002529_TB-000026
+TB-000027-L2BBLL-01_Blood	Blood	Normal	Blood	SAMN33407277	sample	phs002529_TB-000027
+TB-000027-R2WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407267	sample	phs002529_TB-000027
+TB-000028-D1WTLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407360	sample	phs002529_TB-000028
+TB-000028-M1WTLL-01_Bone Marrow	Bone Marrow	Normal	Bone Marrow	SAMN33407433	sample	phs002529_TB-000028
+TB-000029-D1WMPL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407469	sample	phs002529_TB-000029
+TB-000029-M1WMPL-01_Bone Marrow	Bone Marrow	Normal	Bone Marrow	SAMN33407447	sample	phs002529_TB-000029
+TB-000030-D1BBLL-01_Blood	Blood	Tumor	Blood	SAMN33407202	sample	phs002529_TB-000030
+TB-000030-M1BBLL-01_Blood	Blood	Normal	Blood	SAMN33407492	sample	phs002529_TB-000030
+TB-000031-M2WBLL-01_Bone Marrow	Bone Marrow	Normal	Bone Marrow	SAMN33407276	sample	phs002529_TB-000031
+TB-000031-R1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407352	sample	phs002529_TB-000031
+TB-000033-D1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407307	sample	phs002529_TB-000033
+TB-000033-M1BBLL-01_Blood	Blood	Normal	Blood	SAMN33407223	sample	phs002529_TB-000033
+TB-000034-D1WAML-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407448	sample	phs002529_TB-000034
+TB-000034-M1WAML-01_Bone Marrow	Bone Marrow	Normal	Bone Marrow	SAMN33407310	sample	phs002529_TB-000034
+TB-000038-D1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407532	sample	phs002529_TB-000038
+TB-000038-M1BBLL-01_Blood	Blood	Normal	Blood	SAMN33407362	sample	phs002529_TB-000038
+TB-000039-D1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407387	sample	phs002529_TB-000039
+TB-000039-M1WBLL-01_Bone Marrow	Bone Marrow	Normal	Bone Marrow	SAMN33407210	sample	phs002529_TB-000039
+TB-000040-D1BBLL-01_Blood	Blood	Tumor	Blood	SAMN33407329	sample	phs002529_TB-000040
+TB-000040-M1BBLL-01_Blood	Blood	Normal	Blood	SAMN33407424	sample	phs002529_TB-000040
+TB-000042-D1BBLL-01_Blood	Blood	Tumor	Blood	SAMN33407296	sample	phs002529_TB-000042
+TB-000042-M1BBLL-01_Blood	Blood	Normal	Blood	SAMN33407257	sample	phs002529_TB-000042
+TB-000043-D1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407465	sample	phs002529_TB-000043
+TB-000043-M1WBLL-01_Bone Marrow	Bone Marrow	Normal	Bone Marrow	SAMN33407415	sample	phs002529_TB-000043
+TB-000048-D1BBLL-01_Blood	Blood	Tumor	Blood	SAMN33407298	sample	phs002529_TB-000048
+TB-000048-D1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407542	sample	phs002529_TB-000048
+TB-000049-D1BBLL-01_Blood	Blood	Tumor	Blood	SAMN33407546	sample	phs002529_TB-000049
+TB-000049-M1WBLL-01_Bone Marrow	Bone Marrow	Normal	Bone Marrow	SAMN33407365	sample	phs002529_TB-000049
+TB-000050-D1WAML-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407450	sample	phs002529_TB-000050
+TB-000050-M1WAML-01_Bone Marrow	Bone Marrow	Normal	Bone Marrow	SAMN33407206	sample	phs002529_TB-000050
+TB-000052-D1BAML-01_Blood	Blood	Tumor	Blood	SAMN33407485	sample	phs002529_TB-000052
+TB-000052-M1BAML-01_Blood	Blood	Normal	Blood	SAMN33407286	sample	phs002529_TB-000052
+TB-000053-D1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407254	sample	phs002529_TB-000053
+TB-000053-M1WBLL-01_Bone Marrow	Bone Marrow	Normal	Bone Marrow	SAMN33407270	sample	phs002529_TB-000053
+TB-000054-D1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407419	sample	phs002529_TB-000054
+TB-000055-M2WBLL-01_Bone Marrow	Bone Marrow	Normal	Bone Marrow	SAMN33407528	sample	phs002529_TB-000055
+TB-000055-R1BBLL-01_Blood	Blood	Tumor	Blood	SAMN33407218	sample	phs002529_TB-000055
+TB-000055-R1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407489	sample	phs002529_TB-000055
+TB-000056-D1TLGG-01_Tumor	Tumor	Tumor	Brain, NOS	SAMN33407462	sample	phs002529_TB-000056
+TB-000056-X1BLGG-01_Blood	Blood	Normal	Blood	SAMN33407439	sample	phs002529_TB-000056
+TB-000057-D1TEPN-01_Tumor	Tumor	Tumor	Brain, NOS	SAMN33407196	sample	phs002529_TB-000057
+TB-000059-D1TATR-01_Tumor	Tumor	Tumor	Brain, NOS	SAMN33407495	sample	phs002529_TB-000059
+TB-000059-X1BATR-01_Blood	Blood	Normal	Blood	SAMN33407493	sample	phs002529_TB-000059
+TB-000060-D1TMRT-01_Tumor	Tumor	Tumor	Kidney, NOS	SAMN33407302	sample	phs002529_TB-000060
+TB-000061-D1TLGG-01_Tumor	Tumor	Tumor	Brain, NOS	SAMN33407434	sample	phs002529_TB-000061
+TB-000062-D1TWLM-01_Tumor	Tumor	Tumor	Kidney, NOS	SAMN33407192	sample	phs002529_TB-000062
+TB-000063-D1TMBA-01_Tumor	Tumor	Tumor	Brain, NOS	SAMN33407392	sample	phs002529_TB-000063
+TB-000063-X1BMBA-01_Blood	Blood	Normal	Blood	SAMN33407554	sample	phs002529_TB-000063
+TB-000064-D1TEPN-01_Tumor	Tumor	Tumor	Spinal Cord	SAMN33407272	sample	phs002529_TB-000064
+TB-000065-D1WAML-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407477	sample	phs002529_TB-000065
+TB-000066-D1TNBL-01_Tumor	Tumor	Tumor	Posterior mediastinum	SAMN33407490	sample	phs002529_TB-000066
+TB-000066-X1BNBL-01_Blood	Blood	Normal	Blood	SAMN33407563	sample	phs002529_TB-000066
+TB-000067-D1TGGL-01_Tumor	Tumor	Tumor	Brain, NOS	SAMN33407193	sample	phs002529_TB-000067
+TB-000067-M1BGGL-01_Blood	Blood	Normal	Blood	SAMN33407250	sample	phs002529_TB-000067
+TB-000068-D1TRMS-01_Tumor	Tumor	Tumor	Nasal Cavity	SAMN33407421	sample	phs002529_TB-000068
+TB-000014-D1WAML-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407364	sample	phs002529_TB-000014
+TB-000014-M1FAML-01_Skin	Skin	Normal	Skin, NOS	SAMN33407431	sample	phs002529_TB-000014
+TB-000015-D1BAGL-01_Blood	Blood	Tumor	Blood	SAMN33407248	sample	phs002529_TB-000015
+TB-000016-D1WAML-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407309	sample	phs002529_TB-000016
+TB-000016-M1BAML-01_Blood	Blood	Normal	Blood	SAMN33407299	sample	phs002529_TB-000016
+TB-000020-D1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407336	sample	phs002529_TB-000020
+TB-000020-M1BBLL-01_Blood	Blood	Normal	Blood	SAMN33407235	sample	phs002529_TB-000020
+TB-000035-D1WAML-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407511	sample	phs002529_TB-000035
+TB-000035-M1WAML-01_Bone Marrow	Bone Marrow	Normal	Bone Marrow	SAMN33407261	sample	phs002529_TB-000035
+TB-000036-M2BBLL-01_Blood	Blood	Normal	Blood	SAMN33407339	sample	phs002529_TB-000036
+TB-000036-R1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407453	sample	phs002529_TB-000036
+TB-000071-D1WPLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407537	sample	phs002529_TB-000071
+TB-000071-M1UPLL-01_Buccal Mucosa	Buccal Mucosa	Normal	Cheek mucosa	SAMN33407538	sample	phs002529_TB-000071
+TB-000072-D1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407405	sample	phs002529_TB-000072
+TB-000072-M1WBLL-01_Bone Marrow	Bone Marrow	Normal	Bone Marrow	SAMN33407201	sample	phs002529_TB-000072
+TB-000073-D1WAML-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407457	sample	phs002529_TB-000073
+TB-000073-M1WAML-01_Bone Marrow	Bone Marrow	Normal	Bone Marrow	SAMN33407518	sample	phs002529_TB-000073
+TB-000074-D1LTLL-01_Pleural Fluid	Pleural Fluid	Tumor	Lymph nodes of multiple regions	SAMN33407333	sample	phs002529_TB-000074
+TB-000074-M1BTLL-01_Blood	Blood	Normal	Blood	SAMN33407544	sample	phs002529_TB-000074
+TB-000075-D1TRMS-01_Tumor	Tumor	Tumor	Connective, subcutaneous and other soft tissues, NOS	SAMN33407338	sample	phs002529_TB-000075
+TB-000075-M1BRMS-01_Blood	Blood	Normal	Blood	SAMN33407294	sample	phs002529_TB-000075
+TB-000076-D1WMDS-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407356	sample	phs002529_TB-000076
+TB-000076-M1UMDS-01_Buccal Mucosa	Buccal Mucosa	Normal	Cheek mucosa	SAMN33407376	sample	phs002529_TB-000076
+TB-000079-D1WTLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407204	sample	phs002529_TB-000079
+TB-000079-M1BTLL-01_Blood	Blood	Normal	Blood	SAMN33407503	sample	phs002529_TB-000079
+TB-000080-D1TOVR-01_Tumor	Tumor	Tumor	Ovary	SAMN33407304	sample	phs002529_TB-000080
+TB-000080-M1BOVR-01_Blood	Blood	Normal	Blood	SAMN33407227	sample	phs002529_TB-000080
+TB-000081-M2WBLL-01_Bone Marrow	Bone Marrow	Normal	Bone Marrow	SAMN33407539	sample	phs002529_TB-000081
+TB-000081-R1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407278	sample	phs002529_TB-000081
+TB-000082-D1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407497	sample	phs002529_TB-000082
+TB-000082-M1WBLL-01_Bone Marrow	Bone Marrow	Normal	Bone Marrow	SAMN33407531	sample	phs002529_TB-000082
+TB-000084-D1TWLM-01_Tumor	Tumor	Tumor	Kidney, NOS	SAMN33407397	sample	phs002529_TB-000084
+TB-000084-M1BWLM-01_Blood	Blood	Normal	Blood	SAMN33407195	sample	phs002529_TB-000084
+TB-000085-D1TWLM-01_Tumor	Tumor	Tumor	Kidney, NOS	SAMN33407496	sample	phs002529_TB-000085
+TB-000085-M1BWLM-01_Blood	Blood	Normal	Blood	SAMN33407468	sample	phs002529_TB-000085
+TB-000086-D1TMRT-01_Tumor	Tumor	Tumor	Kidney, NOS	SAMN33407471	sample	phs002529_TB-000086
+TB-000086-M1BMRT-01_Blood	Blood	Normal	Blood	SAMN33407481	sample	phs002529_TB-000086
+TB-000088-D1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407410	sample	phs002529_TB-000088
+TB-000088-M1BBLL-01_Blood	Blood	Normal	Blood	SAMN33407215	sample	phs002529_TB-000088
+TB-000089-D1BAML-01_Blood	Blood	Tumor	Blood	SAMN33407536	sample	phs002529_TB-000089
+TB-000089-M1BAML-01_Blood	Blood	Normal	Blood	SAMN33407522	sample	phs002529_TB-000089
+TB-000090-D1TWLM-01_Tumor	Tumor	Tumor	Kidney, NOS	SAMN33407324	sample	phs002529_TB-000090
+TB-000090-M1BWLM-01_Blood	Blood	Normal	Blood	SAMN33407331	sample	phs002529_TB-000090
+TB-000091-D1BAML-01_Blood	Blood	Tumor	Blood	SAMN33407498	sample	phs002529_TB-000091
+TB-000091-M1BAML-01_Blood	Blood	Normal	Blood	SAMN33407559	sample	phs002529_TB-000091
+TB-000092-D1BAML-01_Blood	Blood	Tumor	Blood	SAMN33407436	sample	phs002529_TB-000092
+TB-000092-M1BAML-01_Blood	Blood	Normal	Blood	SAMN33407388	sample	phs002529_TB-000092
+TB-000093-D1THBA-01_Tumor	Tumor	Tumor	Liver	SAMN33407545	sample	phs002529_TB-000093
+TB-000093-M1BHBA-01_Blood	Blood	Normal	Blood	SAMN33407363	sample	phs002529_TB-000093
+TB-000094-D1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407473	sample	phs002529_TB-000094
+TB-000094-M1UBLL-01_Buccal Mucosa	Buccal Mucosa	Normal	Cheek mucosa	SAMN33407354	sample	phs002529_TB-000094
+TB-000095-D1WNBL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407435	sample	phs002529_TB-000095
+TB-000095-M1BNBL-01_Blood	Blood	Normal	Blood	SAMN33407340	sample	phs002529_TB-000095
+TB-000096-D1TGNL-01_Tumor	Tumor	Tumor	Adrenal Gland, NOS	SAMN33407258	sample	phs002529_TB-000096
+TB-000096-M1WGNL-01_Bone Marrow	Bone Marrow	Normal	Bone Marrow	SAMN33407256	sample	phs002529_TB-000096
+TB-000097-D1TGCT-01_Tumor	Tumor	Tumor	Testis, NOS	SAMN33407283	sample	phs002529_TB-000097
+TB-000097-M1BGCT-01_Blood	Blood	Normal	Blood	SAMN33407348	sample	phs002529_TB-000097
+TB-000098-D1BAML-01_Blood	Blood	Tumor	Blood	SAMN33407402	sample	phs002529_TB-000098
+TB-000098-M1WAML-01_Bone Marrow	Bone Marrow	Normal	Bone Marrow	SAMN33407255	sample	phs002529_TB-000098
+TB-000099-D1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407408	sample	phs002529_TB-000099
+TB-000099-M1WBLL-01_Bone Marrow	Bone Marrow	Normal	Bone Marrow	SAMN33407443	sample	phs002529_TB-000099
+TB-000100-D1TNBL-01_Tumor	Tumor	Tumor	Adrenal Gland, NOS	SAMN33407380	sample	phs002529_TB-000100
+TB-000100-M1WNBL-01_Bone Marrow	Bone Marrow	Normal	Bone Marrow	SAMN33407500	sample	phs002529_TB-000100
+TB-000101-D1TMBA-01_Tumor	Tumor	Tumor	Brain, NOS	SAMN33407519	sample	phs002529_TB-000101
+TB-000101-M1BMBA-01_Blood	Blood	Normal	Blood	SAMN33407523	sample	phs002529_TB-000101
+TB-000102-D1TATR-01_Tumor	Tumor	Tumor	Brain, NOS	SAMN33407454	sample	phs002529_TB-000102
+TB-000102-M1BATR-01_Blood	Blood	Normal	Blood	SAMN33407297	sample	phs002529_TB-000102
+TB-000103-D1TPNT-01_Tumor	Tumor	Tumor	Brain, NOS	SAMN33407414	sample	phs002529_TB-000103
+TB-000103-M1BPNT-01_Blood	Blood	Normal	Blood	SAMN33407456	sample	phs002529_TB-000103
+TB-000104-D1BAML-01_Blood	Blood	Tumor	Blood	SAMN33407466	sample	phs002529_TB-000104
+TB-000104-M1BAML-01_Blood	Blood	Normal	Blood	SAMN33407318	sample	phs002529_TB-000104
+TB-000105-D1WMPL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407460	sample	phs002529_TB-000105
+TB-000105-M1WMPL-01_Bone Marrow	Bone Marrow	Normal	Bone Marrow	SAMN33407449	sample	phs002529_TB-000105
+TB-000106-D1BBLL-01_Blood	Blood	Tumor	Blood	SAMN33407458	sample	phs002529_TB-000106
+TB-000106-M1FBLL-01_Skin	Skin	Normal	Skin, NOS	SAMN33407259	sample	phs002529_TB-000106
+TB-000107-D1TACT-01_Tumor	Tumor	Tumor	Adrenal Gland, NOS	SAMN33407420	sample	phs002529_TB-000107
+TB-000107-M1BACT-01_Blood	Blood	Normal	Blood	SAMN33407343	sample	phs002529_TB-000107
+TB-000108-D1WAML-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407311	sample	phs002529_TB-000108
+TB-000108-M1WAML-01_Bone Marrow	Bone Marrow	Normal	Bone Marrow	SAMN33407483	sample	phs002529_TB-000108
+TB-000109-D1WAGL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407253	sample	phs002529_TB-000109
+TB-000109-M1UAGL-01_Buccal Mucosa	Buccal Mucosa	Normal	Cheek mucosa	SAMN33407428	sample	phs002529_TB-000109
+TB-000110-D1TWLM-01_Tumor	Tumor	Tumor	Kidney, NOS	SAMN33407385	sample	phs002529_TB-000110
+TB-000110-M1BWLM-01_Blood	Blood	Normal	Blood	SAMN33407459	sample	phs002529_TB-000110
+TB-000111-D1TNBL-01_Tumor	Tumor	Tumor	Adrenal Gland, NOS	SAMN33407527	sample	phs002529_TB-000111
+TB-000111-M1WNBL-01_Bone Marrow	Bone Marrow	Normal	Bone Marrow	SAMN33407505	sample	phs002529_TB-000111
+TB-000112-D1TWLM-01_Tumor	Tumor	Tumor	Kidney, NOS	SAMN33407266	sample	phs002529_TB-000112
+TB-000112-M1BWLM-01_Blood	Blood	Normal	Blood	SAMN33407217	sample	phs002529_TB-000112
+TB-000113-D1WAML-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407555	sample	phs002529_TB-000113
+TB-000113-M1WAML-01_Bone Marrow	Bone Marrow	Normal	Bone Marrow	SAMN33407315	sample	phs002529_TB-000113
+TB-000114-D1TWLM-01_Tumor	Tumor	Tumor	Kidney, NOS	SAMN33407208	sample	phs002529_TB-000114
+TB-000114-M1BWLM-01_Blood	Blood	Normal	Blood	SAMN33407367	sample	phs002529_TB-000114
+TB-000115-D1WPLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407416	sample	phs002529_TB-000115
+TB-000115-M1WPLL-01_Bone Marrow	Bone Marrow	Normal	Bone Marrow	SAMN33407236	sample	phs002529_TB-000115
+TB-000116-D1THBA-01_Tumor	Tumor	Tumor	Liver	SAMN33407335	sample	phs002529_TB-000116
+TB-000116-M1BHBA-01_Blood	Blood	Normal	Blood	SAMN33407347	sample	phs002529_TB-000116
+TB-000117-D1TRMS-01_Tumor	Tumor	Tumor	Connective, subcutaneous and other soft tissues, NOS	SAMN33407390	sample	phs002529_TB-000117
+TB-000117-M1BRMS-01_Blood	Blood	Normal	Blood	SAMN33407479	sample	phs002529_TB-000117
+TB-000118-D1TRMS-01_Tumor	Tumor	Tumor	Brain, NOS	SAMN33407197	sample	phs002529_TB-000118
+TB-000118-M1BRMS-01_Blood	Blood	Normal	Blood	SAMN33407444	sample	phs002529_TB-000118
+TB-000120-D1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407475	sample	phs002529_TB-000120
+TB-000120-M1BBLL-01_Blood	Blood	Normal	Blood	SAMN33407308	sample	phs002529_TB-000120
+TB-000121-D1WAML-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407557	sample	phs002529_TB-000121
+TB-000121-M1WAML-01_Bone Marrow	Bone Marrow	Normal	Bone Marrow	SAMN33407305	sample	phs002529_TB-000121
+TB-000122-D1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407404	sample	phs002529_TB-000122
+TB-000122-M1WBLL-01_Bone Marrow	Bone Marrow	Normal	Bone Marrow	SAMN33407547	sample	phs002529_TB-000122
+TB-000125-D1WTLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407461	sample	phs002529_TB-000125
+TB-000125-M1BTLL-01_Blood	Blood	Normal	Blood	SAMN33407234	sample	phs002529_TB-000125
+TB-000126-D1WNBL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407271	sample	phs002529_TB-000126
+TB-000126-M1BNBL-01_Blood	Blood	Normal	Blood	SAMN33407398	sample	phs002529_TB-000126
+TB-000127-D1WPLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407205	sample	phs002529_TB-000127
+TB-000127-M1BPLL-01_Blood	Blood	Normal	Blood	SAMN33407552	sample	phs002529_TB-000127
+TB-000128-D1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407355	sample	phs002529_TB-000128
+TB-000128-M1BBLL-01_Blood	Blood	Normal	Blood	SAMN33407515	sample	phs002529_TB-000128
+TB-000129-D1TRMS-01_Tumor	Tumor	Tumor	Connective, subcutaneous and other soft tissues, NOS	SAMN33407411	sample	phs002529_TB-000129
+TB-000130-D1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407292	sample	phs002529_TB-000130
+TB-000130-M1BBLL-01_Blood	Blood	Normal	Blood	SAMN33407232	sample	phs002529_TB-000130
+TB-000131-D1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407409	sample	phs002529_TB-000131
+TB-000131-M1BBLL-01_Blood	Blood	Normal	Blood	SAMN33407216	sample	phs002529_TB-000131
+TB-000132-D1THCC-01_Tumor	Tumor	Tumor	Liver	SAMN33407425	sample	phs002529_TB-000132
+TB-000132-M1BHCC-01_Blood	Blood	Normal	Blood	SAMN33407442	sample	phs002529_TB-000132
+TB-000133-D1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407260	sample	phs002529_TB-000133
+TB-000133-M1WBLL-01_Bone Marrow	Bone Marrow	Normal	Bone Marrow	SAMN33407482	sample	phs002529_TB-000133
+TB-000134-D1TBLL-01_Tumor	Tumor	Tumor	Lymph Node, NOS	SAMN33407300	sample	phs002529_TB-000134
+TB-000134-M1BBLL-01_Blood	Blood	Normal	Blood	SAMN33407478	sample	phs002529_TB-000134
+TB-000135-D1TRMS-01_Tumor	Tumor	Tumor	Connective, subcutaneous and other soft tissues, NOS	SAMN33407525	sample	phs002529_TB-000135
+TB-000135-M1BRMS-01_Blood	Blood	Normal	Blood	SAMN33407325	sample	phs002529_TB-000135
+TB-000136-D1BBLL-01_Blood	Blood	Tumor	Blood	SAMN33407407	sample	phs002529_TB-000136
+TB-000136-M1BBLL-01_Blood	Blood	Normal	Blood	SAMN33407233	sample	phs002529_TB-000136
+TB-000137-D1TMBA-01_Tumor	Tumor	Tumor	Brain, NOS	SAMN33407220	sample	phs002529_TB-000137
+TB-000137-M1BMBA-01_Blood	Blood	Normal	Blood	SAMN33407230	sample	phs002529_TB-000137
+TB-000138-D1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407244	sample	phs002529_TB-000138
+TB-000138-M1BBLL-01_Blood	Blood	Normal	Blood	SAMN33407412	sample	phs002529_TB-000138
+TB-000139-D1BTLL-01_Blood	Blood	Tumor	Blood	SAMN33407467	sample	phs002529_TB-000139
+TB-000139-M1BTLL-01_Blood	Blood	Normal	Blood	SAMN33407319	sample	phs002529_TB-000139
+TB-000141-D1TPNT-01_Tumor	Tumor	Tumor	Brain, NOS	SAMN33407222	sample	phs002529_TB-000141
+TB-000141-M1BPNT-01_Blood	Blood	Normal	Blood	SAMN33407358	sample	phs002529_TB-000141
+TB-000142-D1TNBL-01_Tumor	Tumor	Tumor	Adrenal Gland, NOS	SAMN33407470	sample	phs002529_TB-000142
+TB-000142-M1BNBL-01_Blood	Blood	Normal	Blood	SAMN33407550	sample	phs002529_TB-000142
+TB-000143-D1WPLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407242	sample	phs002529_TB-000143
+TB-000143-M1BPLL-01_Blood	Blood	Normal	Blood	SAMN33407377	sample	phs002529_TB-000143
+TB-000144-D1TMBA-01_Tumor	Tumor	Tumor	Brain, NOS	SAMN33407265	sample	phs002529_TB-000144
+TB-000144-M1BMBA-01_Blood	Blood	Normal	Blood	SAMN33407535	sample	phs002529_TB-000144
+TB-000145-D1WCML-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407487	sample	phs002529_TB-000145
+TB-000145-M1BCML-01_Blood	Blood	Normal	Blood	SAMN33407504	sample	phs002529_TB-000145
+TB-000146-D1TNBL-01_Tumor	Tumor	Tumor	Adrenal Gland, NOS	SAMN33407506	sample	phs002529_TB-000146
+TB-000146-M1BNBL-01_Blood	Blood	Normal	Blood	SAMN33407445	sample	phs002529_TB-000146
+TB-000147-D1TWLM-01_Tumor	Tumor	Tumor	Kidney, NOS	SAMN33407558	sample	phs002529_TB-000147
+TB-000147-M1BWLM-01_Blood	Blood	Normal	Blood	SAMN33407507	sample	phs002529_TB-000147
+TB-000148-D1BBLL-01_Blood	Blood	Tumor	Blood	SAMN33407512	sample	phs002529_TB-000148
+TB-000148-M1BBLL-01_Blood	Blood	Normal	Blood	SAMN33407321	sample	phs002529_TB-000148
+TB-000149-D1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407225	sample	phs002529_TB-000149
+TB-000149-M1WBLL-01_Bone Marrow	Bone Marrow	Normal	Bone Marrow	SAMN33407371	sample	phs002529_TB-000149
+TB-000150-D1TLCL-01_Tumor	Tumor	Tumor	Lymph Node, NOS	SAMN33407252	sample	phs002529_TB-000150
+TB-000150-M1BLCL-01_Blood	Blood	Normal	Blood	SAMN33407327	sample	phs002529_TB-000150
+TB-000152-D1WTLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407361	sample	phs002529_TB-000152
+TB-000152-M1BTLL-01_Blood	Blood	Normal	Blood	SAMN33407249	sample	phs002529_TB-000152
+TB-000154-D1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407326	sample	phs002529_TB-000154
+TB-000155-D1TMBA-01_Tumor	Tumor	Tumor	Brain, NOS	SAMN33407275	sample	phs002529_TB-000155
+TB-000155-M1BMBA-01_Blood	Blood	Normal	Blood	SAMN33407203	sample	phs002529_TB-000155
+TB-000156-D1TWLM-01_Tumor	Tumor	Tumor	Kidney, NOS	SAMN33407251	sample	phs002529_TB-000156
+TB-000156-M1BWLM-01_Blood	Blood	Normal	Blood	SAMN33407344	sample	phs002529_TB-000156
+TB-000157-D1TNBL-01_Tumor	Tumor	Tumor	Adrenal Gland, NOS	SAMN33407342	sample	phs002529_TB-000157
+TB-000157-M1WNBL-01_Bone Marrow	Bone Marrow	Normal	Bone Marrow	SAMN33407284	sample	phs002529_TB-000157
+TB-000158-D1TEWG-01_Tumor	Tumor	Tumor	Connective, subcutaneous and other soft tissues, NOS	SAMN33407499	sample	phs002529_TB-000158
+TB-000158-M1WEWG-01_Bone Marrow	Bone Marrow	Normal	Bone Marrow	SAMN33407334	sample	phs002529_TB-000158
+TB-000159-D1WTLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407386	sample	phs002529_TB-000159
+TB-000159-M1BTLL-01_Blood	Blood	Normal	Blood	SAMN33407549	sample	phs002529_TB-000159
+TB-000160-D1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407413	sample	phs002529_TB-000160
+TB-000160-M1BBLL-01_Blood	Blood	Normal	Blood	SAMN33407337	sample	phs002529_TB-000160
+TB-000161-D1WLCL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407418	sample	phs002529_TB-000161
+TB-000161-M1BLCL-01_Blood	Blood	Normal	Blood	SAMN33407306	sample	phs002529_TB-000161
+TB-000162-D1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407560	sample	phs002529_TB-000162
+TB-000162-M1BBLL-01_Blood	Blood	Normal	Blood	SAMN33407464	sample	phs002529_TB-000162
+TB-000163-D1TOST-01_Tumor	Tumor	Tumor	Bone, NOS	SAMN33407332	sample	phs002529_TB-000163
+TB-000163-M1BOST-01_Blood	Blood	Normal	Blood	SAMN33407247	sample	phs002529_TB-000163
+TB-000164-D1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407264	sample	phs002529_TB-000164
+TB-000164-M1BBLL-01_Blood	Blood	Normal	Blood	SAMN33407295	sample	phs002529_TB-000164
+TB-000165-D1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407353	sample	phs002529_TB-000165
+TB-000165-M1BBLL-01_Blood	Blood	Normal	Blood	SAMN33407316	sample	phs002529_TB-000165
+TB-000166-D1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407510	sample	phs002529_TB-000166
+TB-000166-M1BBLL-01_Blood	Blood	Normal	Blood	SAMN33407514	sample	phs002529_TB-000166
+TB-000167-D1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407391	sample	phs002529_TB-000167
+TB-000167-M1BBLL-01_Blood	Blood	Normal	Blood	SAMN33407372	sample	phs002529_TB-000167
+TB-000168-D1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407474	sample	phs002529_TB-000168
+TB-000168-M1BBLL-01_Blood	Blood	Normal	Blood	SAMN33407330	sample	phs002529_TB-000168
+TB-000169-D1BTLL-01_Blood	Blood	Tumor	Blood	SAMN33407378	sample	phs002529_TB-000169
+TB-000169-M1BTLL-01_Blood	Blood	Normal	Blood	SAMN33407328	sample	phs002529_TB-000169
+TB-000170-D1WCML-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407279	sample	phs002529_TB-000170
+TB-000170-M1WCML-01_Bone Marrow	Bone Marrow	Normal	Bone Marrow	SAMN33407502	sample	phs002529_TB-000170
+TB-000171-D1TOST-01_Tumor	Tumor	Tumor	Bone, NOS	SAMN33407288	sample	phs002529_TB-000171
+TB-000172-D1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407368	sample	phs002529_TB-000172
+TB-000172-M1BBLL-01_Blood	Blood	Normal	Blood	SAMN33407486	sample	phs002529_TB-000172
+TB-000173-D1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407452	sample	phs002529_TB-000173
+TB-000174-D1WPLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407350	sample	phs002529_TB-000174
+TB-000174-M1BPLL-01_Blood	Blood	Normal	Blood	SAMN33407400	sample	phs002529_TB-000174
+TB-000175-D1WMDS-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407427	sample	phs002529_TB-000175
+TB-000175-M1BMDS-01_Blood	Blood	Normal	Blood	SAMN33407406	sample	phs002529_TB-000175
+TB-000176-D1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407533	sample	phs002529_TB-000176
+TB-000176-M1BBLL-01_Blood	Blood	Normal	Blood	SAMN33407526	sample	phs002529_TB-000176
+TB-000177-D1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407349	sample	phs002529_TB-000177
+TB-000177-M1BBLL-01_Blood	Blood	Normal	Blood	SAMN33407237	sample	phs002529_TB-000177
+TB-000178-D1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407543	sample	phs002529_TB-000178
+TB-000178-M1BBLL-01_Blood	Blood	Normal	Blood	SAMN33407509	sample	phs002529_TB-000178
+TB-000179-D1WAML-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407314	sample	phs002529_TB-000179
+TB-000179-M1BAML-01_Blood	Blood	Normal	Blood	SAMN33407224	sample	phs002529_TB-000179
+TB-000180-D2WAML-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407269	sample	phs002529_TB-000180
+TB-000180-M1BAML-01_Blood	Blood	Normal	Blood	SAMN33407403	sample	phs002529_TB-000180
+TB-000181-D1THGG-01_Tumor	Tumor	Tumor	Brain, NOS	SAMN33407243	sample	phs002529_TB-000181
+TB-000181-M1BHGG-01_Blood	Blood	Normal	Blood	SAMN33407401	sample	phs002529_TB-000181
+TB-000183-D1TATR-01_Tumor	Tumor	Tumor	Brain, NOS	SAMN33407357	sample	phs002529_TB-000183
+TB-000183-M1BATR-01_Blood	Blood	Normal	Blood	SAMN33407529	sample	phs002529_TB-000183
+TB-000184-D1TEWG-01_Tumor	Tumor	Tumor	Connective, subcutaneous and other soft tissues, NOS	SAMN33407229	sample	phs002529_TB-000184
+TB-000184-M1BEWG-01_Blood	Blood	Normal	Blood	SAMN33407211	sample	phs002529_TB-000184
+TB-000185-D1WTLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407540	sample	phs002529_TB-000185
+TB-000185-M1UTLL-01_Buccal Mucosa	Buccal Mucosa	Normal	Cheek mucosa	SAMN33407426	sample	phs002529_TB-000185
+TB-000186-D1TRCC-01_Tumor	Tumor	Tumor	Kidney, NOS	SAMN33407399	sample	phs002529_TB-000186
+TB-000186-M1URCC-01_Buccal Mucosa	Buccal Mucosa	Normal	Cheek mucosa	SAMN33407389	sample	phs002529_TB-000186
+TB-000187-D1TGNB-01_Tumor	Tumor	Tumor	Adrenal Gland, NOS	SAMN33407212	sample	phs002529_TB-000187
+TB-000187-M1WGNB-01_Bone Marrow	Bone Marrow	Normal	Bone Marrow	SAMN33407562	sample	phs002529_TB-000187
+TB-000188-D1BAML-01_Blood	Blood	Tumor	Blood	SAMN33407313	sample	phs002529_TB-000188
+TB-000188-M1UAML-01_Buccal Mucosa	Buccal Mucosa	Normal	Cheek mucosa	SAMN33407383	sample	phs002529_TB-000188
+TB-000189-D1BBLL-01_Blood	Blood	Tumor	Blood	SAMN33407200	sample	phs002529_TB-000189
+TB-000189-M1UBLL-01_Buccal Mucosa	Buccal Mucosa	Normal	Cheek mucosa	SAMN33407194	sample	phs002529_TB-000189
+TB-000190-D1BBLL-01_Blood	Blood	Tumor	Blood	SAMN33407476	sample	phs002529_TB-000190
+TB-000190-M1UBLL-01_Buccal Mucosa	Buccal Mucosa	Normal	Cheek mucosa	SAMN33407430	sample	phs002529_TB-000190
+TB-000191-D1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407238	sample	phs002529_TB-000191
+TB-000191-M1UBLL-01_Buccal Mucosa	Buccal Mucosa	Normal	Cheek mucosa	SAMN33407437	sample	phs002529_TB-000191
+TB-000192-D1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407429	sample	phs002529_TB-000192
+TB-000192-M1UBLL-01_Buccal Mucosa	Buccal Mucosa	Normal	Cheek mucosa	SAMN33407463	sample	phs002529_TB-000192
+TB-000193-D1BBLL-01_Blood	Blood	Tumor	Blood	SAMN33407548	sample	phs002529_TB-000193
+TB-000193-M1BBLL-01_Blood	Blood	Normal	Blood	SAMN33407293	sample	phs002529_TB-000193
+TB-000194-D1TWLM-01_Tumor	Tumor	Tumor	Kidney, NOS	SAMN33407320	sample	phs002529_TB-000194
+TB-000194-M1BWLM-01_Blood	Blood	Normal	Blood	SAMN33407366	sample	phs002529_TB-000194
+TB-000195-D1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407422	sample	phs002529_TB-000195
+TB-000195-M1UBLL-01_Buccal Mucosa	Buccal Mucosa	Normal	Cheek mucosa	SAMN33407395	sample	phs002529_TB-000195
+TB-000196-D1THGK-01_Tumor	Tumor	Tumor	Lymph Node, NOS	SAMN33407472	sample	phs002529_TB-000196
+TB-000196-M1BHGK-01_Blood	Blood	Normal	Blood	SAMN33407199	sample	phs002529_TB-000196
+TB-000197-D1TBLL-01_Tumor	Tumor	Tumor	Lymph Node, NOS	SAMN33407423	sample	phs002529_TB-000197
+TB-000197-M1UBLL-01_Buccal Mucosa	Buccal Mucosa	Normal	Cheek mucosa	SAMN33407240	sample	phs002529_TB-000197
+TB-000198-D1TSRC-01_Tumor	Tumor	Tumor	Connective, subcutaneous and other soft tissues, NOS	SAMN33407484	sample	phs002529_TB-000198
+TB-000198-M1BSRC-01_Blood	Blood	Normal	Blood	SAMN33407369	sample	phs002529_TB-000198
+TB-000199-D1LTLL-01_Pleural Fluid	Pleural Fluid	Tumor	Lymph nodes of multiple regions	SAMN33407323	sample	phs002529_TB-000199
+TB-000199-M1BTLL-01_Blood	Blood	Normal	Blood	SAMN33407530	sample	phs002529_TB-000199
+TB-000200-D1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407291	sample	phs002529_TB-000200
+TB-000200-M1UBLL-01_Buccal Mucosa	Buccal Mucosa	Normal	Cheek mucosa	SAMN33407455	sample	phs002529_TB-000200
+TB-000201-D1TMBA-01_Tumor	Tumor	Tumor	Brain, NOS	SAMN33407289	sample	phs002529_TB-000201
+TB-000201-M1BMBA-01_Blood	Blood	Normal	Blood	SAMN33407312	sample	phs002529_TB-000201
+TB-000202-D1THBA-01_Tumor	Tumor	Tumor	Liver	SAMN33407534	sample	phs002529_TB-000202
+TB-000202-M1BHBA-01_Blood	Blood	Normal	Blood	SAMN33407446	sample	phs002529_TB-000202
+TB-000203-D1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407263	sample	phs002529_TB-000203
+TB-000203-M1UBLL-01_Buccal Mucosa	Buccal Mucosa	Normal	Cheek mucosa	SAMN33407303	sample	phs002529_TB-000203
+TB-000204-D1WAML-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407301	sample	phs002529_TB-000204
+TB-000204-M1UAML-01_Buccal Mucosa	Buccal Mucosa	Normal	Cheek mucosa	SAMN33407379	sample	phs002529_TB-000204
+TB-000205-D1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407322	sample	phs002529_TB-000205
+TB-000205-M1UBLL-01_Buccal Mucosa	Buccal Mucosa	Normal	Cheek mucosa	SAMN33407417	sample	phs002529_TB-000205
+TB-000206-D1TMBA-01_Tumor	Tumor	Tumor	Brain, NOS	SAMN33407228	sample	phs002529_TB-000206
+TB-000206-M1BMBA-01_Blood	Blood	Normal	Blood	SAMN33407239	sample	phs002529_TB-000206
+TB-000207-D1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407282	sample	phs002529_TB-000207
+TB-000207-M1UBLL-01_Buccal Mucosa	Buccal Mucosa	Normal	Cheek mucosa	SAMN33407274	sample	phs002529_TB-000207
+TB-000208-D1WTLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407221	sample	phs002529_TB-000208
+TB-000208-M1UTLL-01_Buccal Mucosa	Buccal Mucosa	Normal	Cheek mucosa	SAMN33407393	sample	phs002529_TB-000208
+TB-000209-D1TRMS-01_Tumor	Tumor	Tumor	Connective, subcutaneous and other soft tissues, NOS	SAMN33407551	sample	phs002529_TB-000209
+TB-000209-M1BRMS-01_Blood	Blood	Normal	Blood	SAMN33407508	sample	phs002529_TB-000209
+TB-000210-D1TBLL-01_Tumor	Tumor	Tumor	Lymph Node, NOS	SAMN33407394	sample	phs002529_TB-000210
+TB-000210-M1BBLL-01_Blood	Blood	Normal	Blood	SAMN33407219	sample	phs002529_TB-000210
+TB-000211-D1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407382	sample	phs002529_TB-000211
+TB-000211-M1BBLL-01_Blood	Blood	Normal	Blood	SAMN33407241	sample	phs002529_TB-000211
+TB-000221-D1TSRC-01_Tumor	Tumor	Tumor	Connective, subcutaneous and other soft tissues, NOS	SAMN33407285	sample	phs002529_TB-000221
+TB-000222-D1TMBA-01_Tumor	Tumor	Tumor	Brain, NOS	SAMN33407341	sample	phs002529_TB-000222
+TB-000222-M1BMBA-01_Blood	Blood	Normal	Blood	SAMN33407491	sample	phs002529_TB-000222
+TB-000223-D1TMBA-01_Tumor	Tumor	Tumor	Brain, NOS	SAMN33407541	sample	phs002529_TB-000223
+TB-000223-M1BMBA-01_Blood	Blood	Normal	Blood	SAMN33407273	sample	phs002529_TB-000223
+TB-000224-D1WPLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407375	sample	phs002529_TB-000224
+TB-000224-M1BPLL-01_Blood	Blood	Normal	Blood	SAMN33407262	sample	phs002529_TB-000224
+TB-000225-D1TATR-01_Tumor	Tumor	Tumor	Brain, NOS	SAMN33407281	sample	phs002529_TB-000225
+TB-000225-M1BATR-01_Blood	Blood	Normal	Blood	SAMN33407381	sample	phs002529_TB-000225
+TB-000226-D1THGG-01_Tumor	Tumor	Tumor	Brain, NOS	SAMN33407213	sample	phs002529_TB-000226
+TB-000226-M1BHGG-01_Blood	Blood	Normal	Blood	SAMN33407513	sample	phs002529_TB-000226
+TB-000228-D1WBLL-01_Bone Marrow	Bone Marrow	Tumor	Bone Marrow	SAMN33407226	sample	phs002529_TB-000228
+TB-000228-M1BBLL-01_Blood	Blood	Normal	Blood	SAMN33407521	sample	phs002529_TB-000228
+TB-000230-D1BTLL-01_Blood	Blood	Tumor	Blood	SAMN33407280	sample	phs002529_TB-000230
+TB-000230-M1WTLL-01_Bone Marrow	Bone Marrow	Normal	Bone Marrow	SAMN33407359	sample	phs002529_TB-000230
+TB-000231-D1TTLL-01_Tumor	Tumor	Tumor	Lymph Node, NOS	SAMN33407451	sample	phs002529_TB-000231
+TB-000231-M1BTLL-01_Blood	Blood	Normal	Blood	SAMN33407494	sample	phs002529_TB-000231
