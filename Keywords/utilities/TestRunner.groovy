@@ -1936,15 +1936,11 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		}else if(appKey.equals("INS")) {
 			filePath = Paths.get(usrDir, inputFiles, "INS", "INS_StaticData.xlsx");
 		}else if(appKey.equals("CDS")) {
-			filePath = Paths.get(usrDir, inputFiles, "CDS", "ABC123.xlsx");
+			filePath = Paths.get(usrDir, inputFiles, "CDS", "CDS_StaticData.xlsx");
 		}else if(appKey.equals("CTDC")) {
 			filePath = Paths.get(usrDir, inputFiles, "CTDC", "ABC123.xlsx");
-		}else if(appKey.equals("MTP")) {
-			filePath = Paths.get(usrDir, inputFiles, "MTP", "ABC123.xlsx");
 		}else if(appKey.equals("CCDC")) {
 			filePath = Paths.get(usrDir, inputFiles, "CCDC", "ABC123.xlsx");
-		}else if(appKey.equals("CRDC")) {
-			filePath = Paths.get(usrDir, inputFiles, "CRDC", "ABC123.xlsx");
 		}else {
 			KeywordUtil.markFailed("Invalid App Key: Check Profile or verifyStaticText() function")
 		}
