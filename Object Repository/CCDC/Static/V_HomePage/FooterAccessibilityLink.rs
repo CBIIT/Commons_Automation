@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>FooterAccessibilityLink</name>
+   <tag></tag>
+   <elementGuidId>90b475d8-d03f-4093-9354-121feb766d3a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[.='Accessibility']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[.='Accessibility']</value>
+      <webElementGuid>0d7ee70d-eb6f-4469-9d32-6fb122f26298</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

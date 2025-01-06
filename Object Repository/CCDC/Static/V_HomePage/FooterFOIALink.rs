@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>FooterFOIALink</name>
+   <tag></tag>
+   <elementGuidId>4ce89a40-10a5-4db9-86c7-68a9a883c3e1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[.='FOIA']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[.='FOIA']</value>
+      <webElementGuid>965c7b2c-593b-4f72-8b30-4e202af37fa7</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

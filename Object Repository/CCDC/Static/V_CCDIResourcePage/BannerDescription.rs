@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>BannerDescription</name>
+   <tag></tag>
+   <elementGuidId>ebb3e68a-30fa-4491-b02a-1f7d9580947a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class='prAboutResourceContent']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class='prAboutResourceContent']</value>
+      <webElementGuid>0a5dfb1d-dbc0-4c32-b152-82d89a2fa8d1</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

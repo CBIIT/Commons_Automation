@@ -1938,9 +1938,9 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		}else if(appKey.equals("CDS")) {
 			filePath = Paths.get(usrDir, inputFiles, "CDS", "CDS_StaticData.xlsx");
 		}else if(appKey.equals("CTDC")) {
-			filePath = Paths.get(usrDir, inputFiles, "CTDC", "ABC123.xlsx");
+			filePath = Paths.get(usrDir, inputFiles, "CTDC", "CTDC_StaticData.xlsx");
 		}else if(appKey.equals("CCDC")) {
-			filePath = Paths.get(usrDir, inputFiles, "CCDC", "ABC123.xlsx");
+			filePath = Paths.get(usrDir, inputFiles, "CCDC", "CCDC_StaticData.xlsx");
 		}else {
 			KeywordUtil.markFailed("Invalid App Key: Check Profile or verifyStaticText() function")
 		}
@@ -1980,6 +1980,9 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 
 					if (appKey=="ICDC") {
 						testObject = findTestObject("Canine" + "/" + "Static" + "/" + page + "/" + testObjectId) // for ICDC only
+					} 
+					if (appKey=="CTDC") {
+						testObject = findTestObject("Trials" + "/" + "Static" + "/" + page + "/" + testObjectId) // for CTDC only
 					} else {
 						testObject = findTestObject(appKey + "/" + "Static" + "/" + page + "/" + testObjectId) // path of Test Object in Object Repository
 					}
