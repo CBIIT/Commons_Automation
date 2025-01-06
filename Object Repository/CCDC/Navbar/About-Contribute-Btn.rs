@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>About-Contribute-Btn</name>
+   <tag></tag>
+   <elementGuidId>0e2cf05b-63d7-4015-85c5-8bd4cc7a665e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//ul[@id='primary-navigation']//a[contains(text(),'Contribute')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//ul[@id='primary-navigation']//a[contains(text(),'Contribute')]</value>
+      <webElementGuid>9dc15a81-9ad0-4d88-ade0-d1e26d0e4364</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

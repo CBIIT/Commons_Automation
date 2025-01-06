@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SpotlightDescription</name>
+   <tag></tag>
+   <elementGuidId>1e21c0c4-cf0a-4ddf-8543-dad198d022b6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[@class='infoSection']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//p[@class='infoSection']</value>
+      <webElementGuid>56f6553d-670c-4ddc-a2ed-d56067a61d6f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
