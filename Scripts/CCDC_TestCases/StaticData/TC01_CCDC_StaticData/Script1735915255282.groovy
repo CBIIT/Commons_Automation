@@ -25,7 +25,6 @@ CustomKeywords.'utilities.TestRunner.verifyStaticData'("V_CCDIResourcePage")
 
 //Navigate to About > About CCDI Data Catalog
 WebUI.click(findTestObject('CCDC/Navbar/About-Tab'))
-//WebUI.waitForElementVisible('CCDC/Navbar/About-AboutCCDI-Btn', 5)
 WebUI.click(findTestObject('CCDC/Navbar/About-AboutCCDI-Btn'))
 
 //Verify static data text for About CCDI Data Catalog page
@@ -33,7 +32,6 @@ CustomKeywords.'utilities.TestRunner.verifyStaticData'("V_AboutCCDIPage")
 
 //Navigate to About > Contribute to the CCDC
 WebUI.click(findTestObject('CCDC/Navbar/About-Tab'))
-//WebUI.waitForElementVisible('CCDC/Navbar/About-Contribute-Btn', 5)
 WebUI.click(findTestObject('CCDC/Navbar/About-Contribute-Btn'))
 
 //Verify static data text for Contribute to the CCDC page

@@ -1980,8 +1980,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 
 					if (appKey=="ICDC") {
 						testObject = findTestObject("Canine" + "/" + "Static" + "/" + page + "/" + testObjectId) // for ICDC only
-					} 
-					if (appKey=="CTDC") {
+					} else if (appKey=="CTDC") {
 						testObject = findTestObject("Trials" + "/" + "Static" + "/" + page + "/" + testObjectId) // for CTDC only
 					} else {
 						testObject = findTestObject(appKey + "/" + "Static" + "/" + page + "/" + testObjectId) // path of Test Object in Object Repository
