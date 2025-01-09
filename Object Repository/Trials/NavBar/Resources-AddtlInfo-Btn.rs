@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Canine_ResourcesDevelopers_Btn</name>
+   <name>Resources-AddtlInfo-Btn</name>
    <tag></tag>
-   <elementGuidId>de4bae70-07f9-435a-b292-4a71d8366cd6</elementGuidId>
+   <elementGuidId>4a2f60a0-cee9-4a43-9006-98838976612d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[@href = '#/developers' and (text() = 'Developers' or . = 'Developers')]</value>
+         <value>//*[@id = 'navbar-dropdown-item-developers']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -16,9 +16,9 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>id</name>
       <type>Main</type>
-      <value>//a[@href = '#/developers' and (text() = 'Developers' or . = 'Developers')]</value>
-      <webElementGuid>ee15fd62-3a46-4708-aa1f-0b9d6cdae77a</webElementGuid>
+      <value>navbar-dropdown-item-developers</value>
+      <webElementGuid>3d6aea47-7ffc-4877-be86-156f92de98c1</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

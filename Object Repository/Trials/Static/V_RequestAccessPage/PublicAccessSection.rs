@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Canine_ResourcesDevelopers_Btn</name>
+   <name>PublicAccessSection</name>
    <tag></tag>
-   <elementGuidId>de4bae70-07f9-435a-b292-4a71d8366cd6</elementGuidId>
+   <elementGuidId>5577d3d8-1f75-49d1-a134-d24c3aa8df73</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[@href = '#/developers' and (text() = 'Developers' or . = 'Developers')]</value>
+         <value>//div[contains(text(),'Public access')]/..</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[@href = '#/developers' and (text() = 'Developers' or . = 'Developers')]</value>
-      <webElementGuid>ee15fd62-3a46-4708-aa1f-0b9d6cdae77a</webElementGuid>
+      <value>//div[contains(text(),'Public access')]/..</value>
+      <webElementGuid>757222f9-ac6c-4c3a-aff1-c184fbdba6bd</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

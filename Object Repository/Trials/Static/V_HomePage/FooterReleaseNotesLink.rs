@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Canine_ResourcesDevelopers_Btn</name>
+   <name>FooterReleaseNotesLink</name>
    <tag></tag>
-   <elementGuidId>de4bae70-07f9-435a-b292-4a71d8366cd6</elementGuidId>
+   <elementGuidId>bfa23b48-ed3a-4d41-aba2-6e976e52818a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[@href = '#/developers' and (text() = 'Developers' or . = 'Developers')]</value>
+         <value>//a[(text() = 'Release Notes')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[@href = '#/developers' and (text() = 'Developers' or . = 'Developers')]</value>
-      <webElementGuid>ee15fd62-3a46-4708-aa1f-0b9d6cdae77a</webElementGuid>
+      <value>//a[(text() = 'Release Notes')]</value>
+      <webElementGuid>7da158d5-3098-4923-a3a6-5e68f1ee56f2</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

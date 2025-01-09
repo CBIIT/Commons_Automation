@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[contains(text(),'Enabling secure')]</value>
+         <value>//h1[contains(text(),'Enabling secure')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[contains(text(),'Enabling secure')]</value>
-      <webElementGuid>e407bc87-75ef-45c6-8019-05af7dbfafbd</webElementGuid>
+      <value>//h1[contains(text(),'Enabling secure')]</value>
+      <webElementGuid>8cdf3f07-a718-4f2b-bd1a-9c2fab41d77c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
