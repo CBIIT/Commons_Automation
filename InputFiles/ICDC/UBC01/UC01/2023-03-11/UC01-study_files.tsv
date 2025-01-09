@@ -1,2 +1,0 @@
-type	study.clinical_study_designation	sample.sample_id	diagnosis.diagnosis_id	file_name	file_type	file_description	file_size	md5sum	file_format
-file	UC01			SOM.pdf	Supplemental Data File	Supplemental figures and tables from study publication	1716166	c5aafc4bca6cb07ba6dd21347f48f0e7	pdf
