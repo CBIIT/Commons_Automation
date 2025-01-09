@@ -1,3 +1,0 @@
-type	 study_arm.arm_id	 study.clinical_study_designation	cohort_description	cohort_dose	cohort_record_id
-cohort		UC01	BRAF V595E Mutation Positive		UC01-BRAF-POS
-cohort		UC01	BRAF V595E Mutation Undetected		UC01-BRAF-UD
