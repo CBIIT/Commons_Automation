@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Neuroblastoma-Chkbx</name>
+   <tag></tag>
+   <elementGuidId>4e4f72d3-01fa-459f-84f1-575acca73423</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;checkbox_Diagnosis_Neuroblastoma&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;checkbox_Diagnosis_Neuroblastoma&quot;]</value>
+      <webElementGuid>791645f5-9ff5-43cf-90e7-7e586145c0bf</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

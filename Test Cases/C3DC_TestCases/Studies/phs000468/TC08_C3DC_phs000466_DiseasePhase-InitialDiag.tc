@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC08_C3DC_phs000466_DiseasePhase-InitialDiag</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bfef5eae-66bf-44c5-b414-9bec58c6c4f8</testCaseGuid>
+</TestCaseEntity>

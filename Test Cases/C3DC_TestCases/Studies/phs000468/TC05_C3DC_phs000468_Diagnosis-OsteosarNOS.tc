@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_C3DC_phs000468_Diagnosis-OsteosarNOS</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>da0ae4f5-2f72-4e68-9b6f-e9313f8444ef</testCaseGuid>
+</TestCaseEntity>

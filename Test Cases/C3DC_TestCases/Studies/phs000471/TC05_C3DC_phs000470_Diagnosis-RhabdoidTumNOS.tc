@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC05_C3DC_phs000470_Diagnosis-RhabdoidTumNOS</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>3c2800b6-8628-45ba-98b1-f468d67eb577</testCaseGuid>
-</TestCaseEntity>
