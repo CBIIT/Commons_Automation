@@ -4,5 +4,6 @@
    <name>TC06_CDS_phs001524_LibraryStrategy_TgtCap</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>9c326080-37a8-4d30-adc0-903151768e45</testCaseGuid>
 </TestCaseEntity>

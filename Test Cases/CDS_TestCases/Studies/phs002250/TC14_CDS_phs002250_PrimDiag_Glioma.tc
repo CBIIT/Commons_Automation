@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC14_CDS_phs002250_PrimDiag_Glioma</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>69bfe6b7-d73d-4420-96ad-24f4d7f3b20c</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>platform_Ddn</name>
+   <tag></tag>
+   <elementGuidId>729fa634-b10d-4cf2-a4b4-0d5dc83b7601</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;Platform&quot;]/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;Platform&quot;]/div[2]</value>
+      <webElementGuid>7198ab6d-0671-47e1-b74c-b156478ad738</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

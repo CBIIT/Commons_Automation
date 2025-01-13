@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_CDS_phs001713_ExperimentalStrategy_TargetedCapture</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7e6d6505-58a2-4b76-8461-77cfc2bb863b</testCaseGuid>
+</TestCaseEntity>

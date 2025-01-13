@@ -4,5 +4,6 @@
    <name>TC09_CDS_phs001524_LibrarySelection_HybridSelection</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>a154f249-43eb-4862-9f2c-f8b8eb874dcb</testCaseGuid>
 </TestCaseEntity>

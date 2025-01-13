@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC13_CDS_phs002371_image_FileType_TIFF</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1db1ef5c-7afd-4f43-93cb-6f2e0b8c3457</testCaseGuid>
+</TestCaseEntity>

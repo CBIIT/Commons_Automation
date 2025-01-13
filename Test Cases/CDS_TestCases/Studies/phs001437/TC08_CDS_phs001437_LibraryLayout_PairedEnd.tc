@@ -4,5 +4,6 @@
    <name>TC08_CDS_phs001437_LibraryLayout_PairedEnd</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>db5422f0-3379-4c36-a7cc-7fc33a4b9bfa</testCaseGuid>
 </TestCaseEntity>

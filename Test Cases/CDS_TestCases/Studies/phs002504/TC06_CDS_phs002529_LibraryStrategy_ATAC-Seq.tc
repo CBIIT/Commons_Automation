@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC06_CDS_phs002529_LibraryStrategy_ATAC-Seq</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0af0369e-576d-44c4-8c3b-98c05fca38f8</testCaseGuid>
+</TestCaseEntity>

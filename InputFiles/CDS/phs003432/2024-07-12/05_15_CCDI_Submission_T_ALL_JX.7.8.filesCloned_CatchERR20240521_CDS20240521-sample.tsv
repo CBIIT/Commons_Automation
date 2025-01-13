@@ -1,0 +1,44 @@
+sample_id	sample_type	sample_tumor_status	sample_anatomic_site	type	participant.study_participant_id
+PAURXZ_C42.1 : Bone marrow	Bone Marrow	Tumor	Bone Marrow	sample	phs003432_PAURXZ
+PAURIX_C42.1 : Bone marrow	Bone Marrow	Tumor	Bone Marrow	sample	phs003432_PAURIX
+PAVSRU_C42.1 : Bone marrow	Bone Marrow	Tumor	Bone Marrow	sample	phs003432_PAVSRU
+PATIPB_C42.0 : Blood	Blood	Tumor	Blood	sample	phs003432_PATIPB
+PAVVVF_C42.1 : Bone marrow	Bone Marrow	Tumor	Bone Marrow	sample	phs003432_PAVVVF
+PAVINC_C42.1 : Bone marrow	Bone Marrow	Tumor	Bone Marrow	sample	phs003432_PAVINC
+PAVTCV_C42.1 : Bone marrow	Bone Marrow	Tumor	Bone Marrow	sample	phs003432_PAVTCV
+PASKMG_C42.1 : Bone marrow	Bone Marrow	Tumor	Bone Marrow	sample	phs003432_PASKMG
+PASZMC_C42.1 : Bone marrow	Bone Marrow	Tumor	Bone Marrow	sample	phs003432_PASZMC
+PATTDP_C42.1 : Bone marrow	Bone Marrow	Tumor	Bone Marrow	sample	phs003432_PATTDP
+PAUFAM_C42.1 : Bone marrow	Bone Marrow	Tumor	Bone Marrow	sample	phs003432_PAUFAM
+PAVJCH_C42.1 : Bone marrow	Bone Marrow	Tumor	Bone Marrow	sample	phs003432_PAVJCH
+PAVYVY_C42.1 : Bone marrow	Bone Marrow	Tumor	Bone Marrow	sample	phs003432_PAVYVY
+PAVLII_C42.0 : Blood	Blood	Tumor	Blood	sample	phs003432_PAVLII
+PAVFKN_C42.0 : Blood	Blood	Tumor	Blood	sample	phs003432_PAVFKN
+PAVTXP_C42.1 : Bone marrow	Bone Marrow	Tumor	Bone Marrow	sample	phs003432_PAVTXP
+PASZKM_C42.1 : Bone marrow	Bone Marrow	Tumor	Bone Marrow	sample	phs003432_PASZKM
+PATMYZ_C42.1 : Bone marrow	Bone Marrow	Tumor	Bone Marrow	sample	phs003432_PATMYZ
+PAUHWY_C42.1 : Bone marrow	Bone Marrow	Tumor	Bone Marrow	sample	phs003432_PAUHWY
+PAUNDK_C42.1 : Bone marrow	Bone Marrow	Tumor	Bone Marrow	sample	phs003432_PAUNDK
+PAUUZY_C42.1 : Bone marrow	Bone Marrow	Tumor	Bone Marrow	sample	phs003432_PAUUZY
+PAVLKA_C42.1 : Bone marrow	Bone Marrow	Tumor	Bone Marrow	sample	phs003432_PAVLKA
+PAVLUN_C42.1 : Bone marrow	Bone Marrow	Tumor	Bone Marrow	sample	phs003432_PAVLUN
+PAVSEI_C42.1 : Bone marrow	Bone Marrow	Tumor	Bone Marrow	sample	phs003432_PAVSEI
+PAWGWD_C42.1 : Bone marrow	Bone Marrow	Tumor	Bone Marrow	sample	phs003432_PAWGWD
+PATENL_C42.1 : Bone marrow	Bone Marrow	Tumor	Bone Marrow	sample	phs003432_PATENL
+PASWWT_C42.0 : Blood	Blood	Tumor	Blood	sample	phs003432_PASWWT
+PATPKZ_C42.0 : Blood	Blood	Tumor	Blood	sample	phs003432_PATPKZ
+PATEVG_C42.0 : Blood	Blood	Tumor	Blood	sample	phs003432_PATEVG
+PAUKIZ_C42.1 : Bone marrow	Bone Marrow	Tumor	Bone Marrow	sample	phs003432_PAUKIZ
+PAUMXB_C42.1 : Bone marrow	Bone Marrow	Tumor	Bone Marrow	sample	phs003432_PAUMXB
+PAWIIR_C42.1 : Bone marrow	Bone Marrow	Tumor	Bone Marrow	sample	phs003432_PAWIIR
+PATDFE_C42.1 : Bone marrow	Bone Marrow	Tumor	Bone Marrow	sample	phs003432_PATDFE
+PAUMAV_C42.1 : Bone marrow	Bone Marrow	Tumor	Bone Marrow	sample	phs003432_PAUMAV
+PAVVVK_C42.1 : Bone marrow	Bone Marrow	Tumor	Bone Marrow	sample	phs003432_PAVVVK
+PAUNZE_C42.0 : Blood	Blood	Tumor	Blood	sample	phs003432_PAUNZE
+PAUPTX_C42.1 : Bone marrow	Bone Marrow	Tumor	Bone Marrow	sample	phs003432_PAUPTX
+PAUPVR_C42.1 : Bone marrow	Bone Marrow	Tumor	Bone Marrow	sample	phs003432_PAUPVR
+PAVUFK_C42.1 : Bone marrow	Bone Marrow	Tumor	Bone Marrow	sample	phs003432_PAVUFK
+PAUYJE_C42.0 : Blood	Blood	Tumor	Blood	sample	phs003432_PAUYJE
+T1_C37.9 : Thymus	Thymus	Normal	Thymus	sample	phs003432_T1
+T2_C37.9 : Thymus	Thymus	Normal	Thymus	sample	phs003432_T2
+T3_C37.9 : Thymus	Thymus	Normal	Thymus	sample	phs003432_T3
