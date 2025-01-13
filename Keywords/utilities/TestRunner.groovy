@@ -2038,7 +2038,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 					overallResult = false;
 				}
 			}
-			String outputFilePath = filePath.getParent().resolve("Output_" + filePath.getFileName().toString())
+			String outputFilePath = Paths.get(usrDir, "OutputFiles").resolve("Output_" + filePath.getFileName().toString())
 			ReadExcel.writeOutputExcelStaticData(outputFilePath, page, outputData, 3)
 			if (overallResult == false) {
 				KeywordUtil.markFailed("There is a FAILURE -- verify in output Excel: "+ outputFilePath)
