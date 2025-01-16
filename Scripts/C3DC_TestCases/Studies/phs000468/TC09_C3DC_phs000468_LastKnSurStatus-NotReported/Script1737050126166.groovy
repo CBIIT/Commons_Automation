@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
  */
 WebUI.closeBrowser()
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC05_C3DC_phs000468_Diagnosis-OsteosarNOS.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC09_C3DC_phs000468_LastKnSurStatus-NotReported.xlsx')
 CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/HomePage/WarningBan_Continue_Btn')
 
 WebUI.waitForElementPresent(findTestObject('C3DC/Navbar/Explore-Tab'), 5)
@@ -27,21 +27,21 @@ CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Navbar/Explore-Tab')
 WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Study/Study_Facet'), 10)
 CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Study/Study_Facet')
 
+WebUI.delay(2)
 WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Study/dbGaP_Accession/dbGaP_Accession-Ddn'), 10)
 CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Study/dbGaP_Accession/dbGaP_Accession-Ddn')
 
 WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Study/dbGaP_Accession/phs000468-Chkbx'), 10)
 CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Study/dbGaP_Accession/phs000468-Chkbx')
 
-WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Diagnosis/Diagnosis-Facet'), 10)
-CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Diagnosis/Diagnosis-Facet')
+WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Survival/Survival-Facet'), 10)
+CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Survival/Survival-Facet')
 
-WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Diagnosis/Diagnosis/Diagnosis-Ddn'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Diagnosis/Diagnosis/Diagnosis-Ddn')
+WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Survival/LastKnownSurStatus/LastKnwnSurStatus-Ddn'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Survival/LastKnownSurStatus/LastKnwnSurStatus-Ddn')
 
-WebUI.delay(2)
-WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Diagnosis/Diagnosis/OsteosarNOS-Chkbx'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Diagnosis/Diagnosis/OsteosarNOS-Chkbx')
+WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Survival/LastKnownSurStatus/NotReported-Chkbx'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Survival/LastKnownSurStatus/NotReported-Chkbx')
 
 //Read Statbar
 CustomKeywords.'utilities.TestRunner.readStatBarC3DC'('C3DC/Statbar/Diagnosis-Count', 'C3DC/Statbar/Participants-Count', 
@@ -61,12 +61,13 @@ CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_Sta
 	'C3DC/ResultTabs/Participants-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameParticipants,	
 	'TsvDataParticipants', GlobalVariable.G_QueryParticipantsTab)
 
-////clicking the Diagnosis tab
-//WebUI.waitForElementPresent(findTestObject('C3DC/ResultTabs/Diagnosis-Tab'), 5)
-//CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/ResultTabs/Diagnosis-Tab')
-//CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_StatBar_Participants, 'C3DC/ResultTabs/Diagnosis-Tbl',
-//	'C3DC/ResultTabs/Diagnosis-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameDiagnosis,
-//	'TsvDataDiagnosis', GlobalVariable.G_QueryDiagnosisTab)
+//clicking the Diagnosis tab
+WebUI.waitForElementPresent(findTestObject('C3DC/ResultTabs/Diagnosis-Tab'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/ResultTabs/Diagnosis-Tab')
+CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_StatBar_Participants, 'C3DC/ResultTabs/Diagnosis-Tbl',
+	'C3DC/ResultTabs/Diagnosis-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameDiagnosis,
+	'TsvDataDiagnosis', GlobalVariable.G_QueryDiagnosisTab)
+
 
 ////clicking the Treatment tab - This study does not have treatment data
 //WebUI.waitForElementPresent(findTestObject('C3DC/ResultTabs/Treatment-Tab'), 5)
@@ -82,6 +83,7 @@ CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_Sta
 //CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_StatBar_Participants, 'C3DC/ResultTabs/TreatmentResp-Tbl',
 //	'C3DC/ResultTabs/TreatmentResp-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameTrtmntResp,
 //	'TsvDataTreatmntResp', GlobalVariable.G_QueryDiagnosisTab)
+
 
 //clicking the Survival tab
 WebUI.waitForElementPresent(findTestObject('C3DC/ResultTabs/Survival-Tab'), 5)
