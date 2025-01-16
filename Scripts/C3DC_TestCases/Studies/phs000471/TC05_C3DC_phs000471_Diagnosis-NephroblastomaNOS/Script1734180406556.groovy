@@ -86,6 +86,8 @@ CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_Sta
 //clicking the Survival tab
 WebUI.waitForElementPresent(findTestObject('C3DC/ResultTabs/Survival-Tab'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/ResultTabs/Survival-Tab')
+WebUI.waitForElementPresent(findTestObject('C3DC/ResultTabs/SortBySurvivalID-Colm'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/ResultTabs/SortBySurvivalID-Colm')
 CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_StatBar_Participants, 'C3DC/ResultTabs/Survival-Tbl',
 	'C3DC/ResultTabs/Survival-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameSurvival,
 	'TsvDataSurvival', GlobalVariable.G_QuerySurvivalTab)
