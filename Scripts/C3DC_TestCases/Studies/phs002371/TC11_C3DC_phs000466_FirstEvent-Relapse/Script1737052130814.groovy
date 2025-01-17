@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
  */
 WebUI.closeBrowser()
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC02_C3DC_phs000468_Race-BlackAfriAmerican.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC11_C3DC_phs000466_FirstEvent-Relapse.xlsx')
 CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/HomePage/WarningBan_Continue_Btn')
 
 WebUI.waitForElementPresent(findTestObject('C3DC/Navbar/Explore-Tab'), 5)
@@ -27,17 +27,21 @@ CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Navbar/Explore-Tab')
 WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Study/Study_Facet'), 10)
 CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Study/Study_Facet')
 
+WebUI.delay(2)
 WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Study/dbGaP_Accession/dbGaP_Accession-Ddn'), 10)
 CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Study/dbGaP_Accession/dbGaP_Accession-Ddn')
 
-WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Study/dbGaP_Accession/phs000468-Chkbx'), 10)
-CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Study/dbGaP_Accession/phs000468-Chkbx')
+WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Study/dbGaP_Accession/phs000466-Chkbx'), 10)
+CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Study/dbGaP_Accession/phs000466-Chkbx')
 
-WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Demographics/Race/Race_Ddn'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Demographics/Race/Race_Ddn')
+WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Survival/Survival-Facet'), 10)
+CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Survival/Survival-Facet')
 
-WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Demographics/Race/BlkAfricAmer_Chkbx'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Demographics/Race/BlkAfricAmer_Chkbx')
+WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Survival/FirstEvent/FirstEvent-Ddn'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Survival/FirstEvent/FirstEvent-Ddn')
+
+WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Survival/FirstEvent/Relapse-Chkbx'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Survival/FirstEvent/Relapse-Chkbx')
 
 //Read Statbar
 CustomKeywords.'utilities.TestRunner.readStatBarC3DC'('C3DC/Statbar/Diagnosis-Count', 'C3DC/Statbar/Participants-Count', 
@@ -60,12 +64,12 @@ CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_Sta
 //clicking the Diagnosis tab
 WebUI.waitForElementPresent(findTestObject('C3DC/ResultTabs/Diagnosis-Tab'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/ResultTabs/Diagnosis-Tab')
-CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/ResultTabs/SortByDiagnosisId-Colm')
 CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_StatBar_Participants, 'C3DC/ResultTabs/Diagnosis-Tbl',
 	'C3DC/ResultTabs/Diagnosis-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameDiagnosis,
 	'TsvDataDiagnosis', GlobalVariable.G_QueryDiagnosisTab)
 
-////clicking the Treatment tab - This tab has sorting issue
+
+////clicking the Treatment tab - This study does not have treatment data
 //WebUI.waitForElementPresent(findTestObject('C3DC/ResultTabs/Treatment-Tab'), 5)
 //CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/ResultTabs/Treatment-Tab')
 //CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/ResultTabs/SortByTreatmentID-Colm')
