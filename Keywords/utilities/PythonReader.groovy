@@ -76,7 +76,7 @@ public class PythonReader {
 
 		//String binPath = "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3";
 		//comment this only when running in mac
-		String binPath = "/Users/leungvw/vincent_testEnv/bin/python3";
+		String binPath = "python3";
 		String inputExcelPath = GlobalVariable.InputExcel;
 		String outputFilePath = Paths.get(usrDir, "OutputFiles")
 		String nodeFilespath = getNodeFilesPath()
