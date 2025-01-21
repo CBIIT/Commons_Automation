@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC01_Bento_Filter_Arm-A</name>
-   <tag>Filter</tag>
+   <name>TC00_Bento_QuickRun_Of_TsvFiles</name>
+   <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>17977f6d-2e3d-4066-92ab-de991e344276</testCaseGuid>
+   <testCaseGuid>b49e7189-2882-4beb-a7b5-1f3042f97aec</testCaseGuid>
 </TestCaseEntity>
