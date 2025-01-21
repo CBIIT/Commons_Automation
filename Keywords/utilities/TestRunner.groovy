@@ -1617,7 +1617,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		statData = ReadExcel.readOutputExcel(neo4jfilename, GlobalVariable.G_StatTabname)
 
 		if(getAppName=='Bento'){
-			
+
 			System.out.println("This is the value of Programs Count from TSV result: "+statData.get(0).get(0).getStringCellValue())
 			System.out.println("This is the value of ARMS Count from TSV result: "+statData.get(0).get(1).getStringCellValue())
 			System.out.println("This is the value of Cases Count from TSV result: "+statData.get(0).get(2).getStringCellValue())
@@ -1631,7 +1631,6 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 			(statData.get(0).get(3).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Samples)) ? KeywordUtil.markPassed("Statbar Samples count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Samples count")
 			(statData.get(0).get(4).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Assays)) ? KeywordUtil.markPassed("Statbar Assays count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Assays count")
 			(statData.get(0).get(5).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Files)) ? KeywordUtil.markPassed("Statbar Files count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Files count")
-
 		}else if (getAppName=='INS') {
 
 			System.out.println("This is the value of Programs Count from TSV result "+statData.get(0).get(0).getStringCellValue())
