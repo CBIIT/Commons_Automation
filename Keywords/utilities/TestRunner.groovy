@@ -403,6 +403,15 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 					PythonReader.readFile('PublicationsTab.py')
 				}
 				PythonReader.readFile('Statbar.py')
+			}else if(appKey.equals("Bento")) {
+				if(dbdataSheetName.equals("TsvDataCases")){
+					PythonReader.readFile('CasesTab.py')
+				}else if(dbdataSheetName.equals("TsvDataSamples")){
+					PythonReader.readFile('SamplesTab.py')
+				}else if(dbdataSheetName.equals("TsvDataFiles")){
+					PythonReader.readFile('FilesTab.py')
+				}
+				PythonReader.readFile('Statbar.py')
 			}else {
 				KeywordUtil.markFailed("Invalid App Key: Check multiFunction method")
 			}
@@ -1608,21 +1617,21 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		statData = ReadExcel.readOutputExcel(neo4jfilename, GlobalVariable.G_StatTabname)
 
 		if(getAppName=='Bento'){
-
-			System.out.println("This is the first row - stat data read from neo4j stat sheet : "+statData[0])
-			System.out.println("This is the value of Programs Count from Neo4j result "+statData.get(0).get(0).getStringCellValue())  //add in the query in input file later
-			System.out.println("This is the value of Arms Count from Neo4j result "+statData.get(0).get(1).getStringCellValue())
-			System.out.println("This is the value of Cases Count from Neo4j result "+statData.get(0).get(2).getStringCellValue())
-			System.out.println("This is the value of Samples Count from Neo4j result "+statData.get(0).get(3).getStringCellValue())
-			System.out.println("This is the value of Assays Count from Neo4j result "+statData.get(0).get(4).getStringCellValue())
-			System.out.println("This is the value of Files Count from Neo4j result "+statData.get(0).get(5).getStringCellValue())
+			
+			System.out.println("This is the value of Programs Count from TSV result: "+statData.get(0).get(0).getStringCellValue())
+			System.out.println("This is the value of ARMS Count from TSV result: "+statData.get(0).get(1).getStringCellValue())
+			System.out.println("This is the value of Cases Count from TSV result: "+statData.get(0).get(2).getStringCellValue())
+			System.out.println("This is the value of Samples Count from TSV result: "+statData.get(0).get(3).getStringCellValue())
+			System.out.println("This is the value of Assays Count from TSV result: "+statData.get(0).get(4).getStringCellValue())
+			System.out.println("This is the value of Files Count from TSV result: "+statData.get(0).get(5).getStringCellValue())
 
 			(statData.get(0).get(0).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Programs)) ? KeywordUtil.markPassed("Statbar Programs count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Programs count")
-			(statData.get(0).get(1).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Arms)) ? KeywordUtil.markPassed("Statbar Arms count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Arms count")
+			(statData.get(0).get(1).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Arms)) ? KeywordUtil.markPassed("Statbar ARMS count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar ARMS count")
 			(statData.get(0).get(2).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Cases)) ? KeywordUtil.markPassed("Statbar Cases count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Cases count")
 			(statData.get(0).get(3).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Samples)) ? KeywordUtil.markPassed("Statbar Samples count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Samples count")
 			(statData.get(0).get(4).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Assays)) ? KeywordUtil.markPassed("Statbar Assays count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Assays count")
 			(statData.get(0).get(5).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Files)) ? KeywordUtil.markPassed("Statbar Files count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Files count")
+
 		}else if (getAppName=='INS') {
 
 			System.out.println("This is the value of Programs Count from TSV result "+statData.get(0).get(0).getStringCellValue())
@@ -1980,7 +1989,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 
 				// Verify text data matches with element
 				try {
-					TestObject testObject; 
+					TestObject testObject;
 
 					if (appKey=="ICDC") {
 						testObject = findTestObject("Canine" + "/" + "Static" + "/" + page + "/" + testObjectId) // for ICDC only
