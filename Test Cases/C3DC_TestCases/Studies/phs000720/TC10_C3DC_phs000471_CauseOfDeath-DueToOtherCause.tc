@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC10_C3DC_phs000471_CauseOfDeath-DueToOtherCause</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>baacb87e-90aa-41f6-a68b-057fed1e3df6</testCaseGuid>
+</TestCaseEntity>

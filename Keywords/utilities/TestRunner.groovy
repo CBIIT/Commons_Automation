@@ -1510,9 +1510,9 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		Collections.sort(neo4jData, new TestRunner());
 
 		//System.out.println("This is the Entire UIWeb  data: " + UIData);
-		//System.out.println("This is the Entire neo4j  data: " + neo4jData);
+		//System.out.println("This is the Entire TSV  data: " + neo4jData);
 		System.out.println("This is the row size of the UIWeb Output data: " + UIData.size());
-		System.out.println("This is the row size of the Neo4j Output data: " + neo4jData.size());
+		System.out.println("This is the row size of the TSV   Output data: " + neo4jData.size());
 
 		compareTwoLists(UIData, neo4jData);
 	}

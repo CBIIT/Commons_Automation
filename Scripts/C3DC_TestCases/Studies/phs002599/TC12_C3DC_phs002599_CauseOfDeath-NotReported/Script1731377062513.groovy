@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
  */
 WebUI.closeBrowser()
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC13_C3DC_phs002599_FirstEven-NotReported.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC12_C3DC_phs002599_CauseOfDeath-NotReported.xlsx')
 CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/HomePage/WarningBan_Continue_Btn')
 
 WebUI.waitForElementPresent(findTestObject('C3DC/Navbar/Explore-Tab'), 5)

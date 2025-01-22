@@ -1,0 +1,2 @@
+"type"	"id"	"study_id"	"dbgap_accession"	"study_name"	"study_description"	"consent"	"consent_number"	"external_url"
+"study"	"bbf82e28-48b9-5a26-abf6-64104edb91ec"	"phs002371"	"phs002371"	"Human Tumor Atlas Network (HTAN) Primary Sequencing Data"	"<p>An NCI-funded Cancer Moonshot initiative to construct 3-dimensional atlases of the dynamic cellular, morphological, and molecular features of human cancers as they evolve from precancerous lesions to advanced disease.</p>"	"GRU"	"1"	"https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002371"

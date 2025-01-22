@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC11_C3DC_phs002371_LastKnSurStatus-Alive</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3f5eb77b-226d-42d6-a938-c0eec920a91a</testCaseGuid>
+</TestCaseEntity>

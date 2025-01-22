@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_C3DC_phs000471_Diagnosis-NephroblastomaNOS</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>601460f0-2cfe-4627-a69a-8ae6d0c61e38</testCaseGuid>
+</TestCaseEntity>
