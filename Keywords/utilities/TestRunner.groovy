@@ -1332,7 +1332,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		GlobalVariable.G_StatBar_Diagnosis = driver.findElement(By.xpath(xcDiag)).getAttribute("innerText");
 		System.out.println("This is the value of Diagnosis count from Stat bar: "+GlobalVariable.G_StatBar_Diagnosis)
 		Thread.sleep(2000)
-		GlobalVariable.G_StatBar_Participants = driver.findElement(By.xpath(xcParticip)).getAttribute("innerText");
+		GlobalVariable.G_StatBar_Participants = driver.findElement(By.xpath(xcParticip)).getAttribute("innerText").replace(',','');
 		System.out.println("This is the value of Participants count from Stat bar: "+GlobalVariable.G_StatBar_Participants)
 		Thread.sleep(2000)
 		GlobalVariable.G_StatBar_Studies = driver.findElement(By.xpath(xcSamples)).getAttribute("innerText");
