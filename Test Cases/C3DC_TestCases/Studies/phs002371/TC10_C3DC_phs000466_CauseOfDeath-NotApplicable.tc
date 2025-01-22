@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC10_C3DC_phs000466_CauseOfDeath-NotApplicable</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>64b37ede-268c-4073-88f0-b170ad561db2</testCaseGuid>
-</TestCaseEntity>

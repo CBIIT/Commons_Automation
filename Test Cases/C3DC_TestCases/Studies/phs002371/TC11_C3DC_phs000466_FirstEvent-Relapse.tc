@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC11_C3DC_phs000466_FirstEvent-Relapse</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>d67096e0-23a0-426d-99e0-7218a79f0c76</testCaseGuid>
-</TestCaseEntity>
