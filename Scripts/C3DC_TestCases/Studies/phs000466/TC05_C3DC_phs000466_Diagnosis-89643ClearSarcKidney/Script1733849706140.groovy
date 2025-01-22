@@ -39,6 +39,7 @@ CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Diagnosis/Diagnosis
 WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Diagnosis/Diagnosis/Diagnosis-Ddn'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Diagnosis/Diagnosis/Diagnosis-Ddn')
 
+WebUI.delay(2)
 WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Diagnosis/Diagnosis/89643ClearSarcKidney-Chkbx'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Diagnosis/Diagnosis/89643ClearSarcKidney-Chkbx')
 

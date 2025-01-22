@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_C3DC_phs002431_Diagnosis-SmalCelCarciNOS</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cf59b69f-47bd-4985-8835-9efa6df7abcf</testCaseGuid>
+</TestCaseEntity>

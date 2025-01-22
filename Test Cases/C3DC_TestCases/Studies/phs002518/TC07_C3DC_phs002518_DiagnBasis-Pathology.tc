@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC07_C3DC_phs002518_DiagnBasis-Pathology</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a1d22a61-2e0d-476e-92d9-771e06c6bf1d</testCaseGuid>
+</TestCaseEntity>

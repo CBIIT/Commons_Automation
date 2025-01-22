@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC09_C3DC_phs002371_TrtmntType-Chemotherapy</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f2ecf464-2d14-41b1-95c2-fc85e3f0ced0</testCaseGuid>
+</TestCaseEntity>
