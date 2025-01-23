@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
  */
 WebUI.closeBrowser()
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC02_C3DC_phs001437_SexAtBirth-Female.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC01_C3DC_phs001437_SexAtBirth-Unknown.xlsx')
 CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/HomePage/WarningBan_Continue_Btn')
 
 WebUI.waitForElementPresent(findTestObject('C3DC/Navbar/Explore-Tab'), 5)
@@ -65,12 +65,12 @@ CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_Sta
 	'C3DC/ResultTabs/Diagnosis-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameDiagnosis,
 	'TsvDataDiagnosis', GlobalVariable.G_QueryDiagnosisTab)
 
-////clicking the Treatment tab - no treatment data for this filter
-//WebUI.waitForElementPresent(findTestObject('C3DC/ResultTabs/Treatment-Tab'), 5)
-//CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/ResultTabs/Treatment-Tab')
-//CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_StatBar_Participants, 'C3DC/ResultTabs/Treatment-Tbl',
-//	'C3DC/ResultTabs/Treatment-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameTreatment,
-//	'TsvDataTreatment', GlobalVariable.G_QueryDiagnosisTab)
+//clicking the Treatment tab 
+WebUI.waitForElementPresent(findTestObject('C3DC/ResultTabs/Treatment-Tab'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/ResultTabs/Treatment-Tab')
+CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_StatBar_Participants, 'C3DC/ResultTabs/Treatment-Tbl',
+	'C3DC/ResultTabs/Treatment-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameTreatment,
+	'TsvDataTreatment', GlobalVariable.G_QueryDiagnosisTab)
 
 
 //clicking the Treatment Response tab - No treatment data
