@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Resources-Resources-Btn</name>
+   <name>ObjectivesParagraph2</name>
    <tag></tag>
-   <elementGuidId>51dcb75e-b221-44dc-b793-b8138740792c</elementGuidId>
+   <elementGuidId>4b563d32-cadc-4b50-81b8-826c17fb9649</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[.='Resources']</value>
+         <value>//h2[@class='disclaimerHeader']/following-sibling::p[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[.='Resources']</value>
-      <webElementGuid>8875e8fc-9ba9-41d0-a693-140c0ceb3bc8</webElementGuid>
+      <value>//h2[@class='disclaimerHeader']/following-sibling::p[2]</value>
+      <webElementGuid>efa3c59f-cfe6-4235-8339-0aac86a10cef</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

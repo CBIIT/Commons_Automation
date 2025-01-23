@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Resources-Resources-Btn</name>
+   <name>ExtramuralGrantsLink</name>
    <tag></tag>
-   <elementGuidId>51dcb75e-b221-44dc-b793-b8138740792c</elementGuidId>
+   <elementGuidId>4211ff7d-6795-4a72-a25f-df2a66af4541</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[.='Resources']</value>
+         <value>//a[@href='https://www.cancer.gov/research/nci-role/extramural']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[.='Resources']</value>
-      <webElementGuid>8875e8fc-9ba9-41d0-a693-140c0ceb3bc8</webElementGuid>
+      <value>//a[@href='https://www.cancer.gov/research/nci-role/extramural']</value>
+      <webElementGuid>dc4b4578-6b58-4fcf-b301-1bb5b4e75f96</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

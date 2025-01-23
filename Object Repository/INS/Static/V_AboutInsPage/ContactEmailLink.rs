@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Resources-Resources-Btn</name>
+   <name>ContactEmailLink</name>
    <tag></tag>
-   <elementGuidId>51dcb75e-b221-44dc-b793-b8138740792c</elementGuidId>
+   <elementGuidId>c96a3b6d-562b-4e17-81b7-96ead16e4011</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[.='Resources']</value>
+         <value>//h2[@class='aboutContentHeader']/following-sibling::p/a[@href='mailto:nciofficeofdatasharing@mail.nih.gov?Subject=Index%20of%20NCI%20Studies%20feedback']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[.='Resources']</value>
-      <webElementGuid>8875e8fc-9ba9-41d0-a693-140c0ceb3bc8</webElementGuid>
+      <value>//h2[@class='aboutContentHeader']/following-sibling::p/a[@href='mailto:nciofficeofdatasharing@mail.nih.gov?Subject=Index%20of%20NCI%20Studies%20feedback']</value>
+      <webElementGuid>74e3e4e9-5f35-45ee-bc0b-0a144ae21014</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

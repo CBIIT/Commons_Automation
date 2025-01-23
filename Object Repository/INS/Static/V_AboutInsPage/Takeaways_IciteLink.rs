@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Resources-Resources-Btn</name>
+   <name>Takeaways_IciteLink</name>
    <tag></tag>
-   <elementGuidId>51dcb75e-b221-44dc-b793-b8138740792c</elementGuidId>
+   <elementGuidId>a7930e0d-f90c-4e8a-808e-6327cb1ae72d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[.='Resources']</value>
+         <value>//a[@href='https://icite.od.nih.gov']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[.='Resources']</value>
-      <webElementGuid>8875e8fc-9ba9-41d0-a693-140c0ceb3bc8</webElementGuid>
+      <value>//a[@href='https://icite.od.nih.gov']</value>
+      <webElementGuid>bbfef61a-e467-4f30-b4de-15e98e935d10</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

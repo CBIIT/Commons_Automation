@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Resources-Resources-Btn</name>
+   <name>Datasets_DbgapLink</name>
    <tag></tag>
-   <elementGuidId>51dcb75e-b221-44dc-b793-b8138740792c</elementGuidId>
+   <elementGuidId>9632cf4a-7ec4-4bec-ae9c-979de540d80b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[.='Resources']</value>
+         <value>(//a[@href='https://www.ncbi.nlm.nih.gov/gap/'])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[.='Resources']</value>
-      <webElementGuid>8875e8fc-9ba9-41d0-a693-140c0ceb3bc8</webElementGuid>
+      <value>(//a[@href='https://www.ncbi.nlm.nih.gov/gap/'])[2]</value>
+      <webElementGuid>a95bae00-0a1a-4356-a27e-1f51c3a216a6</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

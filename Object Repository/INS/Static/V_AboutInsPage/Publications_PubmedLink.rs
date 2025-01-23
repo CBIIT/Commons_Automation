@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Resources-Resources-Btn</name>
+   <name>Publications_PubmedLink</name>
    <tag></tag>
-   <elementGuidId>51dcb75e-b221-44dc-b793-b8138740792c</elementGuidId>
+   <elementGuidId>cffc62c1-4708-4d0f-8e3b-4d4988d01532</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[.='Resources']</value>
+         <value>(//a[@href='https://pubmed.ncbi.nlm.nih.gov/'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[.='Resources']</value>
-      <webElementGuid>8875e8fc-9ba9-41d0-a693-140c0ceb3bc8</webElementGuid>
+      <value>(//a[@href='https://pubmed.ncbi.nlm.nih.gov/'])[1]</value>
+      <webElementGuid>522f29ff-e06b-41cc-9585-4ee8a7ada4e8</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
