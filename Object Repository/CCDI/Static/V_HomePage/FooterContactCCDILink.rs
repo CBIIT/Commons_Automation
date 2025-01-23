@@ -19,6 +19,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//a[(text() = 'Contact CCDI Hub')]</value>
-      <webElementGuid>0d18ade9-b757-48a5-84e4-f0fe1191a810</webElementGuid>
+      <webElementGuid>39b30151-45e9-41bf-a878-1ccd305c809b</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

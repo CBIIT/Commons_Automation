@@ -12,6 +12,7 @@ WebUI.closeBrowser()
 //CCDI
 //Initiate and click Continue on warning popup
 CustomKeywords.'utilities.TestRunner.RunKatalon'('CCDI_StaticData.xlsx')
+WebUI.setViewPortSize(1920, 1080) //Needed to have all elements be visible
 CustomKeywords.'utilities.TestRunner.clickTab'('Bento/Banner/Bento_Warning_Continue_Btn')
 
 //Verify static data text - Home page

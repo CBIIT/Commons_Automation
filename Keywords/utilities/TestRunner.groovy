@@ -2018,9 +2018,9 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 
 					// If element is a link, also verify URL
 					if (testObjectId.contains("Link")) {
-						String actualUrl = WebUI.getAttribute(testObject, 'href')
+						String actualUrl = WebUI.getAttribute(testObject, 'href').replaceAll("%20", " ")
 						System.out.println("Verifying URL: " + testObjectId + " - Expected: " + expectedUrl + ", Actual: " + actualUrl);
-						if (actualUrl.equals(expectedUrl)) {
+						if (actualUrl.equals(expectedUrl.replaceAll("%20", " "))) {
 							verifyUrlPass = true;
 							row.add((verifyTextPass && verifyUrlPass).toString())
 						} else {
