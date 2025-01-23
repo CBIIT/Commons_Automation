@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC04_EnumVerification_AL-SubjectsCountByVitalStatus</name>
+   <name>TC01_EnumVerification_AL-SubjectCountsByEthnicity</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>71fab4a0-9fee-4cb3-9975-d8daa6191e25</testCaseGuid>
+   <testCaseGuid>b22e3f80-5b80-4566-bf0a-e8cef4075efb</testCaseGuid>
 </TestCaseEntity>

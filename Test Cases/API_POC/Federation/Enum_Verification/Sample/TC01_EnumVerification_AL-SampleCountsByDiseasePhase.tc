@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC02_EnumVerification_AL-SubjectsCountBySex</name>
+   <name>TC01_EnumVerification_AL-SampleCountsByDiseasePhase</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>58a62a35-503d-447c-bc1e-99f2b56d47e2</testCaseGuid>
+   <testCaseGuid>e602ffba-fd8f-4310-9890-a9085dd21fb6</testCaseGuid>
 </TestCaseEntity>
