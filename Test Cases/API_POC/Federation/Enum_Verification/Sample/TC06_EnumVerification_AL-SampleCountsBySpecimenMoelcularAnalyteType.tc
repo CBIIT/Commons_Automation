@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC01_EnumVerification_AL-SubjectsCountByEthnicity</name>
+   <name>TC06_EnumVerification_AL-SampleCountsBySpecimenMoelcularAnalyteType</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>b22e3f80-5b80-4566-bf0a-e8cef4075efb</testCaseGuid>
+   <testCaseGuid>187def2e-7e82-4076-8a58-984dd2fc5f8a</testCaseGuid>
 </TestCaseEntity>
