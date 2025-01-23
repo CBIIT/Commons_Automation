@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
  */
 WebUI.closeBrowser()
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC07_C3DC_phs002518_DiagnBasis-Pathology.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC08_C3DC_phs002518_DiseasePhase-Unknown.xlsx')
 CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/HomePage/WarningBan_Continue_Btn')
 
 WebUI.waitForElementPresent(findTestObject('C3DC/Navbar/Explore-Tab'), 5)
@@ -26,7 +26,6 @@ CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Navbar/Explore-Tab')
 
 WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Study/Study_Facet'), 10)
 CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Study/Study_Facet')
-
 
 WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Study/dbGaP_Accession/dbGaP_Accession-Ddn'), 10)
 CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Study/dbGaP_Accession/dbGaP_Accession-Ddn')
@@ -37,11 +36,11 @@ CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Study/dbGaP_Accessi
 WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Diagnosis/Diagnosis-Facet'), 10)
 CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Diagnosis/Diagnosis-Facet')
 WebUI.delay(2)
-WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Diagnosis/DiagnosisBasis/DiagosisBasis-Ddn'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Diagnosis/DiagnosisBasis/DiagosisBasis-Ddn')
+WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Diagnosis/DiseasePhase/DiseasePhase-Ddn'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Diagnosis/DiseasePhase/DiseasePhase-Ddn')
 
-WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Diagnosis/DiagnosisBasis/Pathology-Chkbx'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Diagnosis/DiagnosisBasis/Pathology-Chkbx')
+WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Diagnosis/DiseasePhase/Unknown-Chkbx'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Diagnosis/DiseasePhase/Unknown-Chkbx')
 
 //Read Statbar
 CustomKeywords.'utilities.TestRunner.readStatBarC3DC'('C3DC/Statbar/Diagnosis-Count', 'C3DC/Statbar/Participants-Count', 
@@ -69,15 +68,15 @@ CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_Sta
 	'TsvDataDiagnosis', GlobalVariable.G_QueryDiagnosisTab)
 
 
-////clicking the Treatment tab - This study does not have treatment data
+////clicking the Treatment tab
 //WebUI.waitForElementPresent(findTestObject('C3DC/ResultTabs/Treatment-Tab'), 5)
 //CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/ResultTabs/Treatment-Tab')
-//CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/ResultTabs/SortByTreatmentID-Colm')
 //CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_StatBar_Participants, 'C3DC/ResultTabs/Treatment-Tbl',
 //	'C3DC/ResultTabs/Treatment-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameTreatment,
 //	'TsvDataTreatment', GlobalVariable.G_QueryDiagnosisTab)
 
-////clicking the Treatment Response tab -This study does not have treatment response data
+//This study does not have treatment response data. Leave it commented
+////clicking the Treatment Response tab
 //WebUI.waitForElementPresent(findTestObject('C3DC/ResultTabs/TreatmentResp-Tab'), 5)
 //CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/ResultTabs/TreatmentResp-Tab')
 //CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_StatBar_Participants, 'C3DC/ResultTabs/TreatmentResp-Tbl',

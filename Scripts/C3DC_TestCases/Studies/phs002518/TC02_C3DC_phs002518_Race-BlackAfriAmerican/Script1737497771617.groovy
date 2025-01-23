@@ -65,7 +65,7 @@ CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_Sta
 	'TsvDataDiagnosis', GlobalVariable.G_QueryDiagnosisTab)
 
 
-////clicking the Treatment tab - This study does not have treatment data
+////clicking the Treatment tab - Sorting issue to be fixed
 //WebUI.waitForElementPresent(findTestObject('C3DC/ResultTabs/Treatment-Tab'), 5)
 //CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/ResultTabs/Treatment-Tab')
 //CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/ResultTabs/SortByTreatmentID-Colm')
