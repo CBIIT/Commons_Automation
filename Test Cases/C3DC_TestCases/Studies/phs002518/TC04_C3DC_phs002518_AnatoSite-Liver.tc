@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC04_C3DC_phs002518_AnatoSite-CerbralMenings</name>
+   <name>TC04_C3DC_phs002518_AnatoSite-Liver</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>ede46992-1527-4b68-bfa6-adac098cd735</testCaseGuid>
+   <testCaseGuid>ca4bb8a2-b278-4403-b408-7c33c60e80c4</testCaseGuid>
 </TestCaseEntity>

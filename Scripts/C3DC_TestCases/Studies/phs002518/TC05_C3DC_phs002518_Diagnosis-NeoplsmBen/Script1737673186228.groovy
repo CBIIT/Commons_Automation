@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
  */
 WebUI.closeBrowser()
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC06_C3DC_phs002518_DiagnClasfSystem-WHO.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC05_C3DC_phs002518_Diagnosis-NeoplsmBen.xlsx')
 CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/HomePage/WarningBan_Continue_Btn')
 
 WebUI.waitForElementPresent(findTestObject('C3DC/Navbar/Explore-Tab'), 5)
@@ -26,7 +26,6 @@ CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Navbar/Explore-Tab')
 
 WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Study/Study_Facet'), 10)
 CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Study/Study_Facet')
-
 
 WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Study/dbGaP_Accession/dbGaP_Accession-Ddn'), 10)
 CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Study/dbGaP_Accession/dbGaP_Accession-Ddn')
@@ -40,8 +39,8 @@ WebUI.delay(2)
 WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Diagnosis/Diagnosis/Diagnosis-Ddn'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Diagnosis/Diagnosis/Diagnosis-Ddn')
 
-WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Diagnosis/DiagsClasifctnSystem/WHO-Chkbx'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Diagnosis/DiagsClasifctnSystem/WHO-Chkbx')
+WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Diagnosis/Diagnosis/NeoplsmBen-Chkbx'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Diagnosis/Diagnosis/NeoplsmBen-Chkbx')
 
 //Read Statbar
 CustomKeywords.'utilities.TestRunner.readStatBarC3DC'('C3DC/Statbar/Diagnosis-Count', 'C3DC/Statbar/Participants-Count', 
@@ -68,7 +67,7 @@ CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_Sta
 	'C3DC/ResultTabs/Diagnosis-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameDiagnosis,
 	'TsvDataDiagnosis', GlobalVariable.G_QueryDiagnosisTab)
 
-////clicking the Treatment tab - This study does not have treatment data
+////clicking the Treatment tab - Sorting issue to be fixed
 //WebUI.waitForElementPresent(findTestObject('C3DC/ResultTabs/Treatment-Tab'), 5)
 //CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/ResultTabs/Treatment-Tab')
 //CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/ResultTabs/SortByTreatmentID-Colm')
