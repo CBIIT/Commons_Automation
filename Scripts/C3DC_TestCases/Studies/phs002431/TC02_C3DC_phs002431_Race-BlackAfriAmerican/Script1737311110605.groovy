@@ -32,7 +32,7 @@ CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Study/dbGaP_Accessi
 
 WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Study/dbGaP_Accession/phs002431-Chkbx'), 10)
 CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Study/dbGaP_Accession/phs002431-Chkbx')
-
+WebUI.delay(1);
 WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Demographics/Race/Race_Ddn'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Demographics/Race/Race_Ddn')
 
@@ -68,6 +68,7 @@ CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_Sta
 //clicking the Treatment tab
 WebUI.waitForElementPresent(findTestObject('C3DC/ResultTabs/Treatment-Tab'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/ResultTabs/Treatment-Tab')
+CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/ResultTabs/SortByTreatmentID-Colm')
 CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_StatBar_Participants, 'C3DC/ResultTabs/Treatment-Tbl',
 	'C3DC/ResultTabs/Treatment-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameTreatment,
 	'TsvDataTreatment', GlobalVariable.G_QueryDiagnosisTab)

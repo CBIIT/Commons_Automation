@@ -82,7 +82,7 @@ CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_Sta
 //	'C3DC/ResultTabs/TreatmentResp-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameTrtmntResp,
 //	'TsvDataTreatmntResp', GlobalVariable.G_QueryDiagnosisTab)
 
-////clicking the Survival tab
+////clicking the Survival tab - no survival data for this filter
 //WebUI.waitForElementPresent(findTestObject('C3DC/ResultTabs/Survival-Tab'), 5)
 //CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/ResultTabs/Survival-Tab')
 //CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_StatBar_Participants, 'C3DC/ResultTabs/Survival-Tbl',
