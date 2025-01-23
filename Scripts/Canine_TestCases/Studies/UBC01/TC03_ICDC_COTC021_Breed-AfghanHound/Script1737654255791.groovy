@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
  */
 WebUI.closeBrowser()
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC01_ICDC_UBC01_Breed-Beagle.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC03_ICDC_COTC021_Breed-AfghanHound.xlsx')
 
 CustomKeywords.'utilities.TestRunner.clickTab'('Canine/Canine_PopUp_Continue_Btn')
 System.out.println ("Closed the popup window");
@@ -30,13 +30,13 @@ CustomKeywords.'utilities.TestRunner.clickTab'('Canine/NavBar/Canine_Cases_Btn')
 WebUI.waitForElementPresent(findTestObject('Canine/Filter/Study/Canine_Filter_Study'), 5)
 CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Canine/Filter/Study/Canine_Filter_Study')
 
-CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Canine/Filter/Study/Canine_Filter_Study-UBC01_Chkbx')
+CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Canine/Filter/Study/Canine_Filter_Study-COTC021_Chkbx')
 
 WebUI.waitForElementPresent(findTestObject('Canine/Filter/Breed/BREED_Ddn'), 5)
 CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Canine/Filter/Breed/BREED_Ddn')
 
-WebUI.waitForElementPresent(findTestObject('Canine/Filter/Breed/Beagle_Chkbx'), 5)
-CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Canine/Filter/Breed/Beagle_Chkbx')
+WebUI.waitForElementPresent(findTestObject('Canine/Filter/Breed/AfgHound_Chkbx'), 5)
+CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Canine/Filter/Breed/AfgHound_Chkbx')
 
 //Read Statbar
 CustomKeywords.'utilities.TestRunner.readStatBarCanine'('Canine/StatBar/Canine_StatBar-Programs','Canine/StatBar/Canine_StatBar-Studies',
