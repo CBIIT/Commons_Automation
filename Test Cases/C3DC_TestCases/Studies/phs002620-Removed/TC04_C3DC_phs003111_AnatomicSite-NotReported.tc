@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC04_C3DC_phs003111_AnatomicSite-NotReported</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>fbaf57a1-b5de-452c-a2a5-b3dfafc86c7e</testCaseGuid>
-</TestCaseEntity>

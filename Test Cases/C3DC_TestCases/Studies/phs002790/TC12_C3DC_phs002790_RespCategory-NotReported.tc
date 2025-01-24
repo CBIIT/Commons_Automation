@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC12_C3DC_phs002790_RespCategory-NotReported</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>93a92a22-d1cd-4f03-9677-24c8fb2e7d11</testCaseGuid>
+</TestCaseEntity>
