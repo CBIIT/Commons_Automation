@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>EmailLink</name>
+   <tag></tag>
+   <elementGuidId>8851436e-43f6-4aa6-9d50-8aaeb0605256</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[contains(text(),'@mail')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'@mail')]</value>
+      <webElementGuid>9ca9e39f-b601-4224-bc27-e71dfb15c32a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

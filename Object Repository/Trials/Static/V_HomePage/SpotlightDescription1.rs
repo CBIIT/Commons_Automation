@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SpotlightDescription1</name>
+   <tag></tag>
+   <elementGuidId>09acacc9-126b-4b96-9010-62c5700edbfc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//h2)[1]/following-sibling::div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//h2)[1]/following-sibling::div</value>
+      <webElementGuid>898d985a-5179-4a01-9151-54ad65197bc8</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

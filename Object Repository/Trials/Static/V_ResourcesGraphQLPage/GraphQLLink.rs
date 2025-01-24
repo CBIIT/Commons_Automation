@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>GraphQLLink</name>
+   <tag></tag>
+   <elementGuidId>7f5db886-a19f-4151-bc76-0902c3618485</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[contains(@href,'graphql.org')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[contains(@href,'graphql.org')]</value>
+      <webElementGuid>f2ef8af8-ebc3-42b3-862a-cb64448d464c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>FrontendLink</name>
+   <tag></tag>
+   <elementGuidId>f79d7257-5ce5-4d39-a252-a1e2238fdd48</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@title='bento-icdc-frontend']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[@title='bento-icdc-frontend']</value>
+      <webElementGuid>f2a8d447-6461-4db8-9f35-9c7c459d6e81</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

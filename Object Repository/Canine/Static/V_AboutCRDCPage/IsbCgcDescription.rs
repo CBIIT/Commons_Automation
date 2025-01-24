@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>IsbCgcDescription</name>
+   <tag></tag>
+   <elementGuidId>e69b00b5-efed-4eb8-aeb8-45df85fbddd9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[contains(text(),'ISB-CGC')]/..</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[contains(text(),'ISB-CGC')]/..</value>
+      <webElementGuid>2d1ee6e7-9673-4672-9326-645fc1d6040a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

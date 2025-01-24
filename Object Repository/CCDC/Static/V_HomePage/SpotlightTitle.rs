@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SpotlightTitle</name>
+   <tag></tag>
+   <elementGuidId>1f2b066f-766e-442b-9128-5dc8f8553876</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class='headerContent2']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class='headerContent2']</value>
+      <webElementGuid>9a96482b-4e34-4be8-a2f3-0656985fc4a3</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -12,6 +12,7 @@ WebUI.closeBrowser()
 //INS
 //Initiate and click Continue on warning popup
 CustomKeywords.'utilities.TestRunner.RunKatalon'('INS_StaticData.xlsx')
+WebUI.setViewPortSize(1920, 1080) //Needed to have all elements be visible
 
 //Verify static data text for Home page
 CustomKeywords.'utilities.TestRunner.verifyStaticData'("V_HomePage")

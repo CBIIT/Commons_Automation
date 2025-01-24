@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>FooterPoliciesLink</name>
+   <tag></tag>
+   <elementGuidId>347e5a21-3ec4-428f-8b38-86ab90477cbc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[.='Policies']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[.='Policies']</value>
+      <webElementGuid>dc8f1ae9-900a-4602-9c65-4bd512bacd46</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

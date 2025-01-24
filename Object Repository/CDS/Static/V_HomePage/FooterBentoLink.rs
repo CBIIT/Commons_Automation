@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>FooterBentoLink</name>
+   <tag></tag>
+   <elementGuidId>7cda3f11-c529-48e8-9aeb-12af12bac481</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[.='Bento']/..</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[.='Bento']/..</value>
+      <webElementGuid>565c251d-6194-43a5-bfef-eea4d13ab511</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

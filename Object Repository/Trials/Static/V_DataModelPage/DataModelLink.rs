@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>DataModelLink</name>
+   <tag></tag>
+   <elementGuidId>781bc7f3-1c6c-4b98-9178-c08242f5f997</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[contains(@href,'ctdc-model')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[contains(@href,'ctdc-model')]</value>
+      <webElementGuid>bddedd47-861d-47e2-a0f7-2883bb6907a5</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
