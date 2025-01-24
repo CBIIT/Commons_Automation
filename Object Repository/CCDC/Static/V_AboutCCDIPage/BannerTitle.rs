@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>BannerTitle</name>
+   <tag></tag>
+   <elementGuidId>6d23ae59-b4ea-4bad-9a24-d6e6249dd565</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//h2[@class='aboutHeaderText']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//h2[@class='aboutHeaderText']</value>
+      <webElementGuid>2479a26d-6814-4089-a9c6-c4cfdd883df3</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CCDILink</name>
+   <tag></tag>
+   <elementGuidId>474b6869-c515-48fc-9aec-7f44d4acd427</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@class='prDetailExternalLink']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[@class='prDetailExternalLink']</value>
+      <webElementGuid>c4bdc1ad-0ddb-47e1-a27d-7d5fd9066f46</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

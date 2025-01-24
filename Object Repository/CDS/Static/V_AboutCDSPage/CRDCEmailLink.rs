@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CRDCEmailLink</name>
+   <tag></tag>
+   <elementGuidId>33032adc-69d8-4b18-91e7-09b4d0b8ea59</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@title='NCICRDC@mail.nih.gov']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[@title='NCICRDC@mail.nih.gov']</value>
+      <webElementGuid>bf99c1bd-0f3b-40d1-9f94-4880e5cc195d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

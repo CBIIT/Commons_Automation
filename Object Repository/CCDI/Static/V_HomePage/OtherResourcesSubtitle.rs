@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>OtherResourcesSubtitle</name>
+   <tag></tag>
+   <elementGuidId>f08242f8-62a1-4048-baae-e63f58a14662</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//h3[@class='resourceSubtitleText'])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//h3[@class='resourceSubtitleText'])[2]</value>
+      <webElementGuid>03f452b1-629d-4175-8928-6ce5c766302d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>DataModelLink</name>
+   <tag></tag>
+   <elementGuidId>b5af576d-ed04-4d17-b330-b2315cd95d58</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@title='https://github.com/CBIIT/cds-model']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[@title='https://github.com/CBIIT/cds-model']</value>
+      <webElementGuid>a324a13f-2186-4cdd-ae08-9212278af7ed</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

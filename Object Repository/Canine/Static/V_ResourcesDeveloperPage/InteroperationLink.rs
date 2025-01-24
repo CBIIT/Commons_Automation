@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>InteroperationLink</name>
+   <tag></tag>
+   <elementGuidId>fece1d62-885d-405e-8387-09b9e707ec59</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@title='bento-icdc-interoperation']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[@title='bento-icdc-interoperation']</value>
+      <webElementGuid>288d42b1-3554-43f9-9c6a-4025c7d711d2</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

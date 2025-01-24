@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>GithubDescription</name>
+   <tag></tag>
+   <elementGuidId>7f2f364e-7a9d-4691-8f1e-cdcb6010f9f9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[text()='Developers']/following::span/div[5]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[text()='Developers']/following::span/div[5]</value>
+      <webElementGuid>5ef84b83-8f19-4a65-98ed-57f764576560</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

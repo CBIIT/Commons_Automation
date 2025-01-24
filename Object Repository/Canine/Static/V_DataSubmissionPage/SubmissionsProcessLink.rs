@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SubmissionsProcessLink</name>
+   <tag></tag>
+   <elementGuidId>c7940852-5dae-441e-8aa6-7b4b0dfbf3c0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[contains(@href,'Guidelines')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[contains(@href,'Guidelines')]</value>
+      <webElementGuid>75bdb488-cab8-479b-bcd1-828ffe7d09e7</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

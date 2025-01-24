@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>DisclaimerText</name>
+   <tag></tag>
+   <elementGuidId>f8794fb2-91e2-4b3d-a33e-4374d0108166</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class='statsNoteIcon']/following-sibling::div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class='statsNoteIcon']/following-sibling::div</value>
+      <webElementGuid>625236d3-743b-4056-ad3e-0f9eb6adc273</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

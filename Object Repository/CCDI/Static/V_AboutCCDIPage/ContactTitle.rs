@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ContactTitle</name>
+   <tag></tag>
+   <elementGuidId>e622518e-771e-427d-ad89-2db7f05f843b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class='aboutContactUsHeader']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class='aboutContactUsHeader']</value>
+      <webElementGuid>f33c43af-d722-4292-bceb-0efc49f058ad</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

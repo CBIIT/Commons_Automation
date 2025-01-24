@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ManuscriptLink</name>
+   <tag></tag>
+   <elementGuidId>1b69c946-f896-4706-a01d-c098b9247a02</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[contains(@href,'doi.org')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[contains(@href,'doi.org')]</value>
+      <webElementGuid>91c46d5d-833e-46ac-b84c-ef787f8a6990</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

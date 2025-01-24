@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>FooterAboutContactCCDILink</name>
+   <name>FooterAboutCTDCLink</name>
    <tag></tag>
-   <elementGuidId>f4a28dc1-9f57-4080-adeb-88589dfcbea9</elementGuidId>
+   <elementGuidId>f7e748e2-3fa5-4a28-a2d2-cdd559d9746d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[(text() = 'Contact CCDI')]</value>
+         <value>//a[(text() = 'About CTDC')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[(text() = 'Contact CCDI')]</value>
-      <webElementGuid>69abd9e2-a81f-44e1-8950-c3b6a4ba654a</webElementGuid>
+      <value>//a[(text() = 'About CTDC')]</value>
+      <webElementGuid>376d747d-2bed-4632-942f-936c2f5105ec</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

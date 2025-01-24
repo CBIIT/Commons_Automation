@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>eRAHelpdeskLink</name>
+   <tag></tag>
+   <elementGuidId>4ce69f42-a4c6-4457-8888-ca7f3b99b274</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@title='Helpdesk']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[@title='Helpdesk']</value>
+      <webElementGuid>756a76f2-69a7-41ae-92ca-b9702f32fde1</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

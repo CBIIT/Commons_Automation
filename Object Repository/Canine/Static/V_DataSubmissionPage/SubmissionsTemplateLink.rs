@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SubmissionsTemplateLink</name>
+   <tag></tag>
+   <elementGuidId>217ac7c6-4eea-4156-b79d-34cd4f25e31c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[contains(@href,'Template')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[contains(@href,'Template')]</value>
+      <webElementGuid>85f41e66-2ba5-4b6a-81e7-616b977a75bf</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ContributeDescription</name>
+   <tag></tag>
+   <elementGuidId>7b37a827-301e-4d84-8443-78aea1c0a785</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class='aboutContent2']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class='aboutContent2']</value>
+      <webElementGuid>4d359656-2bb8-4a11-98c1-2a6e629996c8</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

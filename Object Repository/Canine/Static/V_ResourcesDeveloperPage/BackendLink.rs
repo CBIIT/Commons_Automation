@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>BackendLink</name>
+   <tag></tag>
+   <elementGuidId>6e04509d-6b24-4eef-8dcf-3d3e6077d5ff</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@title='bento-icdc-backend']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[@title='bento-icdc-backend']</value>
+      <webElementGuid>badb1f74-e01d-4ec4-9e64-b83c015e0c0d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
