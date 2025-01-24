@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC10_C3DC_phs002504_TrtmntAgent-Other</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6a341a43-0bed-485c-ac5a-77e8e62d008a</testCaseGuid>
+</TestCaseEntity>

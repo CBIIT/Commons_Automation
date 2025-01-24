@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC10_C3DC_phs002790_TrtmntAgent-Cisplatin</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1670599e-7c81-4ca0-ac15-e7b3c546e47e</testCaseGuid>
+</TestCaseEntity>

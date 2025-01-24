@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_C3DC_phs002790_Diagnosis-NeoplsmBen</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dd5a1f67-5c5d-49c2-8961-23ead2f20213</testCaseGuid>
+</TestCaseEntity>
