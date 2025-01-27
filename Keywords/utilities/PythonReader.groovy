@@ -69,7 +69,7 @@ public class PythonReader {
 	 */
 	@Keyword
 	public static void readFile(String pythonFileName) {
-		//uncomment this only when running in mac
+		//use this only when running in mac
 		//String binPath = "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3";
 		//comment this only when running in mac
 		String binPath = "python3";
