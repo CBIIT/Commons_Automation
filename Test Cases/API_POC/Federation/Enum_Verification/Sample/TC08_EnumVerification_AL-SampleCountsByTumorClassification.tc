@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC08_EnumVerification_AL-SampleCountsByTumorClassification</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2b9a7bf3-ba13-43c0-8a21-c5551aba569f</testCaseGuid>
+</TestCaseEntity>

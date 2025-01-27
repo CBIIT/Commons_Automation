@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_EnumVerification_AL-SampleCountsByLibrarySelectionMethod</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>22804a9b-231b-4a14-a110-960f92966ea2</testCaseGuid>
+</TestCaseEntity>
