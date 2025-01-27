@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_C3DC_phs002504_AnatSite-Blood</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e2a7f187-d3b9-43b9-8c3c-c4a7c9838f4c</testCaseGuid>
+</TestCaseEntity>

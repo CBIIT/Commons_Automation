@@ -40,7 +40,7 @@ CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Diagnosis/Diagnosis
 WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Diagnosis/AnatomicSite/AnatomicSite-Ddn'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Diagnosis/AnatomicSite/AnatomicSite-Ddn')
 
-WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Diagnosis/AnatomicSite/C420_Blood-Chkbx'), 5)
+WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Diagnosis/AnatomicSite/Blood-Chkbx'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Diagnosis/AnatomicSite/C420_Blood-Chkbx')
 
 //Read Statbar
