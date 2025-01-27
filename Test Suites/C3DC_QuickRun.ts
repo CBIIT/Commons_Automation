@@ -12,17 +12,17 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>93038750-96ca-4ea0-b3b4-e80dae83a1ae</testSuiteGuid>
    <testCaseLink>
-      <guid>dc69acd0-a6f7-4e96-b205-c40a76dbf9b3</guid>
+      <guid>13cdba6d-cf02-4521-b3ae-4a526adecb58</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs002599/TC01_C3DC_phs002599_SexAtBirth-Female</testCaseId>
+      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000466/TC01_C3DC_phs000466_SexAtBirth-Male</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>b942df75-075b-4f87-9a02-aed091510769</guid>
+      <guid>0b86e596-03ed-4701-b3ec-841d04be4bdf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs003432/TC03_C3DC_phs003432_Race-BlackAfriAmerican</testCaseId>
+      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000467/TC01_C3DC_phs000467_SexAtBirth-Male</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
