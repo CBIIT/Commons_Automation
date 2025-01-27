@@ -114,7 +114,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://federation-qa.ccdi.cancer.gov/api/v1/sample/by/disease_phase/count</restUrl>
+   <restUrl>https://federation-qa.ccdi.cancer.gov/api/v1/sample/by/library_strategy/count</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

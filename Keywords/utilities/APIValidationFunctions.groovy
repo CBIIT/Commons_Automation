@@ -45,34 +45,34 @@ import java.io.File
 import com.kms.katalon.core.configuration.RunConfiguration
 
 public class APIValidationFunctions {
-	
-		/**
-		 * Validates that the response data contains only the allowed values.
-		 *
-		 * @param responseData  The response data to validate (a List of Maps or JSON).
-		 * @param allowedValues The allowed enum values (a List of Strings).
-		 */
-		static void validateAllowedEnums(List<Map> responseData, List<String> allowedValues) {
-			boolean hasErrors = false
-	
-			responseData.each { sourceData ->
-				String sourceName = sourceData.source
-				List<Map> valuesList = sourceData.values
-	
-				valuesList.each { valueData ->
-					String value = valueData.value
-	
-					if (!allowedValues.contains(value)) {
-						// Log and mark unexpected values as failures
-						KeywordUtil.markFailed("❌ Unexpected value '${value}' found in response for source '${sourceName}'")
-						hasErrors = true
-					}
+
+	/**
+	 * Validates that the response data contains only the allowed values.
+	 *
+	 * @param responseData  The response data to validate (a List of Maps or JSON).
+	 * @param allowedValues The allowed enum values (a List of Strings).
+	 */
+	static void validateAllowedEnums(List<Map> responseData, List<String> allowedValues) {
+		boolean hasErrors = false
+
+		responseData.each { sourceData ->
+			String sourceName = sourceData.source
+			List<Map> valuesList = sourceData.values
+
+			valuesList.each { valueData ->
+				String value = valueData.value
+
+				if (!allowedValues.contains(value)) {
+					// Log and mark unexpected values as failures
+					KeywordUtil.markFailed("❌ Unexpected value '${value}' found in response for source '${sourceName}'")
+					hasErrors = true
 				}
 			}
-	
-			// Log success if no errors
-			if (!hasErrors) {
-				KeywordUtil.logInfo("✓ All 'value' fields contain only allowed enums.")
-			}
+		}
+
+		// Log success if no errors
+		if (!hasErrors) {
+			KeywordUtil.logInfo("✓ All 'value' fields contain only allowed enums.")
 		}
 	}
+}
