@@ -60,6 +60,7 @@ CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_Sta
 //clicking the Diagnosis tab
 WebUI.waitForElementPresent(findTestObject('C3DC/ResultTabs/Diagnosis-Tab'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/ResultTabs/Diagnosis-Tab')
+
 CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_StatBar_Participants, 'C3DC/ResultTabs/Diagnosis-Tbl',
 	'C3DC/ResultTabs/Diagnosis-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameDiagnosis,
 	'TsvDataDiagnosis', GlobalVariable.G_QueryDiagnosisTab)
