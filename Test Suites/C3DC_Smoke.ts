@@ -144,4 +144,18 @@
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs003519/TC01_C3DC_phs003519_SexAtBirth-Female</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>3e47b625-badb-4f2c-8841-06a24c880f53</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs002517/TC01_C3DC_phs002517_SexAtBirth-Male</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>376f6de6-f170-4d1a-a7d8-e38c72a56989</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs002790/TC01_C3DC_phs002790_SexAtBirth-Male</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
