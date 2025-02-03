@@ -131,8 +131,9 @@ index_columns = {
     'demographic_data': 'demographic_data_id',
     'sample': 'sample_id',
     'laboratory_procedure': 'laboratory_procedure_id',
-    'file': 'file_id'
-
+    'file': 'file_id',
+    'file_vcf': 'file_id',
+    'file_bam': 'file_id'
 }
 
 
@@ -199,6 +200,9 @@ df_demographic_data = dataframes['demographic_data']
 df_sample = dataframes['sample']
 df_laboratory_procedure = dataframes['laboratory_procedure']
 df_file = dataframes['file']
+df_file_vcf = dataframes['file_vcf']
+df_file_bam = dataframes['file_bam']
+
 
 #Print each DataFrame
 print("\nDataFrame: df_program")
@@ -219,5 +223,9 @@ print("\nDataFrame: df_laboratory_procedure")
 print(df_laboratory_procedure)
 print("\nDataFrame: df_file")
 print(df_file)
+print("\nDataFrame: df_file_vcf")
+print(df_file_vcf)
+print("\nDataFrame: df_file_bam")
+print(df_file_bam)
 
 df_run_query = lambda q: ps.sqldf(q, globals())
