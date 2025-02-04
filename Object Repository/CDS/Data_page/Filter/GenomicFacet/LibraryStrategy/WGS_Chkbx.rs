@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_library strategy_WGS&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Library Strategy_WGS&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_library strategy_WGS&quot;]</value>
-      <webElementGuid>de1b9152-a968-4b29-9a32-cbd448ed2f26</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Library Strategy_WGS&quot;]</value>
+      <webElementGuid>7d9a5253-97df-45cc-9632-94ce7e21f5c6</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

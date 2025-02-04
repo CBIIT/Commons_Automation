@@ -21,7 +21,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_library selection_Other&quot;]</value>
-      <webElementGuid>61bb3155-64ec-40f0-b678-1c886d02c494</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Library Selection_Other&quot;]</value>
+      <webElementGuid>f24e97a8-c25f-4275-8a51-e1a2b0c8c308</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

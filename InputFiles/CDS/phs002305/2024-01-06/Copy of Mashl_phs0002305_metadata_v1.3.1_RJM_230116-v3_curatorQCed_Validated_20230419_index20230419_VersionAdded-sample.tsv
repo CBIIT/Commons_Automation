@@ -1,0 +1,496 @@
+sample_id	sample_type	sample_tumor_status	type	participant.study_participant_id
+WU-0003-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0003
+WU-0003-T1.WES_Metastatic	Metastatic	Tumor	sample	phs002305_WU-0003
+WU-0003-T1-X1P6.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0003
+WU-0003-T1-X1P6.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0003
+WU-0004-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0004
+WU-0004-T1.WES_Primary Tumor	Primary Tumor	Tumor	sample	phs002305_WU-0004
+WU-0004-T1-X1P5.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0004
+WU-0004-T1-X1P5.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0004
+WU-0005-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0005
+WU-0005-T1.WES_Primary Tumor	Primary Tumor	Tumor	sample	phs002305_WU-0005
+WU-0005-T1-X1P2.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0005
+WU-0005-T1-X1P2.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0005
+WU-0006-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0006
+WU-0006-T1.WES_Primary Tumor	Primary Tumor	Tumor	sample	phs002305_WU-0006
+WU-0006-T1-X1P2.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0006
+WU-0006-T1-X1P2.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0006
+WU-0007-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0007
+WU-0007-T1.WES_Primary Tumor	Primary Tumor	Tumor	sample	phs002305_WU-0007
+WU-0007-T1-X1P2.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0007
+WU-0007-T1-X1P2.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0007
+WU-0008-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0008
+WU-0008-T1.WES_Metastatic	Metastatic	Tumor	sample	phs002305_WU-0008
+WU-0008-T1-X1P2.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0008
+WU-0008-T1-X1P2.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0008
+WU-0009-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0009
+WU-0009-T1.WES_Primary Tumor	Primary Tumor	Tumor	sample	phs002305_WU-0009
+WU-0009-T1-X1P4.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0009
+WU-0009-T1-X1P4.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0009
+WU-0010-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0010
+WU-0010-T2.WES_Metastatic	Metastatic	Tumor	sample	phs002305_WU-0010
+WU-0010-T2-X1P7.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0010
+WU-0010-T2-X1P7.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0010
+WU-0011-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0011
+WU-0011-T1.WES_Primary Tumor	Primary Tumor	Tumor	sample	phs002305_WU-0011
+WU-0011-T1-X1P4.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0011
+WU-0011-T1-X1P4.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0011
+WU-0012-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0012
+WU-0012-T1.WES_Primary Tumor	Primary Tumor	Tumor	sample	phs002305_WU-0012
+WU-0012-T1-X1P5.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0012
+WU-0012-T1-X1P5.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0012
+WU-0013-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0013
+WU-0013-T1.WES_Primary Tumor	Primary Tumor	Tumor	sample	phs002305_WU-0013
+WU-0013-T1-X1P3.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0013
+WU-0013-T1-X1P3.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0013
+WU-0014-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0014
+WU-0014-T1.WES_Primary Tumor	Primary Tumor	Tumor	sample	phs002305_WU-0014
+WU-0014-T1-X1P4.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0014
+WU-0014-T1-X1P4.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0014
+WU-0015-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0015
+WU-0015-T1.WES_Primary Tumor	Primary Tumor	Tumor	sample	phs002305_WU-0015
+WU-0015-T1-X1P7.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0015
+WU-0015-T1-X1P7.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0015
+WU-0016-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0016
+WU-0016-T1.WES_Primary Tumor	Primary Tumor	Tumor	sample	phs002305_WU-0016
+WU-0016-T1-X1P3.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0016
+WU-0016-T1-X1P3.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0016
+WU-0017-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0017
+WU-0017-T1.WES_Primary Tumor	Primary Tumor	Tumor	sample	phs002305_WU-0017
+WU-0017-T1-X1P1.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0017
+WU-0017-T1-X1P1.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0017
+WU-0018-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0018
+WU-0018-T1.WES_Primary Tumor	Primary Tumor	Tumor	sample	phs002305_WU-0018
+WU-0018-T1-X1P1.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0018
+WU-0018-T1-X1P1.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0018
+WU-0019-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0019
+WU-0019-T1.WES_Metastatic	Metastatic	Tumor	sample	phs002305_WU-0019
+WU-0019-T1-X1P3.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0019
+WU-0019-T1-X1P3.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0019
+WU-0020-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0020
+WU-0020-T1.WES_Metastatic	Metastatic	Tumor	sample	phs002305_WU-0020
+WU-0020-T1-X1P1.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0020
+WU-0020-T1-X1P1.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0020
+WU-0021-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0021
+WU-0021-T1.WES_Primary Tumor	Primary Tumor	Tumor	sample	phs002305_WU-0021
+WU-0021-T1-X1P1.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0021
+WU-0021-T1-X1P1.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0021
+WU-0021-T2.WES_Metastatic	Metastatic	Tumor	sample	phs002305_WU-0021
+WU-0021-T2-X1P1.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0021
+WU-0021-T2-X1P1.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0021
+WU-0023-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0023
+WU-0023-T1.WES_Primary Tumor	Primary Tumor	Tumor	sample	phs002305_WU-0023
+WU-0023-T1-X2P1.RNASEQ_Xenograft Tissue	Xenograft Tissue	Normal	sample	phs002305_WU-0023
+WU-0023-T1-X2P1.WES_Xenograft Tissue	Xenograft Tissue	Normal	sample	phs002305_WU-0023
+WU-0024-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0024
+WU-0024-T1.WES_Metastatic	Metastatic	Tumor	sample	phs002305_WU-0024
+WU-0024-T1-X1P1.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0024
+WU-0024-T1-X1P1.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0024
+WU-0025-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0025
+WU-0025-T1.WES_Metastatic	Metastatic	Tumor	sample	phs002305_WU-0025
+WU-0025-T1-X1P1.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0025
+WU-0025-T1-X1P1.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0025
+WU-0026-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0026
+WU-0026-T1.WES_Metastatic	Metastatic	Tumor	sample	phs002305_WU-0026
+WU-0026-T1-X1P1.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0026
+WU-0026-T1-X1P1.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0026
+WU-0027-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0027
+WU-0027-T1.WES_Metastatic	Metastatic	Tumor	sample	phs002305_WU-0027
+WU-0027-T1-X1P1.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0027
+WU-0027-T1-X1P1.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0027
+WU-0029-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0029
+WU-0029-T1-X1P0.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0029
+WU-0029-T1-X1P0.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0029
+WU-0029-T1-X1P1.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0029
+WU-0029-T1-X1P1.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0029
+WU-0029-T1-X1P2.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0029
+WU-0029-T1-X1P2.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0029
+WU-0029-T1-X1P3.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0029
+WU-0029-T1-X1P3.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0029
+WU-0030-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0030
+WU-0030-T1-X1P2.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0030
+WU-0030-T1-X1P2.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0030
+WU-0031-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0031
+WU-0031-T1-X1P2.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0031
+WU-0031-T1-X1P2.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0031
+WU-0032-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0032
+WU-0032-T1-X1P2.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0032
+WU-0032-T1-X1P2.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0032
+WU-0033-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0033
+WU-0033-T1.WES_Metastatic	Metastatic	Tumor	sample	phs002305_WU-0033
+WU-0033-T1-X1P0.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0033
+WU-0033-T1-X1P0.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0033
+WU-0033-T1-X1P1.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0033
+WU-0033-T1-X1P1.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0033
+WU-0034-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0034
+WU-0034-T1-X1P2.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0034
+WU-0034-T1-X1P2.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0034
+WU-0035-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0035
+WU-0035-T1-X1P2.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0035
+WU-0035-T1-X1P2.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0035
+WU-0036-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0036
+WU-0036-T1-X2P2.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0036
+WU-0036-T1-X2P2.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0036
+WU-0037-T1.WES_Metastatic	Metastatic	Normal	sample	phs002305_WU-0037
+WU-0037-T1-X1P2.RNASEQ_Xenograft Tissue	Xenograft Tissue	Normal	sample	phs002305_WU-0037
+WU-0037-T1-X1P2.WES_Xenograft Tissue	Xenograft Tissue	Normal	sample	phs002305_WU-0037
+WU-0037-T1-X2P2.RNASEQ_Xenograft Tissue	Xenograft Tissue	Normal	sample	phs002305_WU-0037
+WU-0037-T1-X2P2.WES_Xenograft Tissue	Xenograft Tissue	Normal	sample	phs002305_WU-0037
+WU-0038-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0038
+WU-0038-T2.WES_Metastatic	Metastatic	Tumor	sample	phs002305_WU-0038
+WU-0038-T2-X1P2.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0038
+WU-0038-T2-X1P2.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0038
+WU-0039-N1.WES_Solid Tissue Normal	Solid Tissue Normal	Normal	sample	phs002305_WU-0039
+WU-0039-T1-X1P1.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0039
+WU-0039-T1-X1P1.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0039
+WU-0039-T1-X1P2.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0039
+WU-0039-T1-X1P2.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0039
+WU-0040-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0040
+WU-0040-T1-X1P2.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0040
+WU-0040-T1-X1P2.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0040
+WU-0041-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0041
+WU-0041-T1-X1P2.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0041
+WU-0041-T1-X1P2.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0041
+WU-0042-N2.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0042
+WU-0042-T1-X1P2.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0042
+WU-0042-T1-X1P2.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0042
+WU-0042-T2-X1P2.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0042
+WU-0042-T2-X1P2.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0042
+WU-0043-N1.WES_Solid Tissue Normal	Solid Tissue Normal	Normal	sample	phs002305_WU-0043
+WU-0043-T1.WES_Primary Tumor	Primary Tumor	Tumor	sample	phs002305_WU-0043
+WU-0043-T1-X1P2.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0043
+WU-0043-T1-X1P2.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0043
+WU-0045-N2.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0045
+WU-0045-T1.WES_Primary Tumor	Primary Tumor	Tumor	sample	phs002305_WU-0045
+WU-0045-T1-X1P1.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0045
+WU-0045-T2.WES_Metastatic	Metastatic	Tumor	sample	phs002305_WU-0045
+WU-0045-T2-X1P1.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0045
+WU-0045-T2-X1P1.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0045
+WU-0046-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0046
+WU-0046-T1.WES_Primary Tumor	Primary Tumor	Tumor	sample	phs002305_WU-0046
+WU-0046-T1-X1P1.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0046
+WU-0046-T1-X1P1.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0046
+WU-0047-N2.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0047
+WU-0047-T1.WES_Metastatic	Metastatic	Tumor	sample	phs002305_WU-0047
+WU-0047-T1-X1P1.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0047
+WU-0047-T1-X1P1.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0047
+WU-0047-T2.WES_Metastatic	Metastatic	Tumor	sample	phs002305_WU-0047
+WU-0047-T2-X1P1.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0047
+WU-0047-T2-X1P1.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0047
+WU-0048-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0048
+WU-0048-T1.WES_Metastatic	Metastatic	Tumor	sample	phs002305_WU-0048
+WU-0048-T1-X1P1.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0048
+WU-0048-T1-X1P1.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0048
+WU-0049-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0049
+WU-0049-T1-X1P2.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0049
+WU-0049-T1-X1P2.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0049
+WU-0050-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0050
+WU-0050-T1-X1P2.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0050
+WU-0050-T1-X1P2.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0050
+WU-0052-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0052
+WU-0052-T1-X1P2.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0052
+WU-0052-T1-X1P2.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0052
+WU-0054-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0054
+WU-0054-T1-X1P2.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0054
+WU-0054-T1-X1P2.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0054
+WU-0055-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0055
+WU-0055-T1-X1P2.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0055
+WU-0055-T1-X1P2.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0055
+WU-0056-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0056
+WU-0056-T1-X1P2.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0056
+WU-0056-T1-X1P2.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0056
+WU-0059-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0059
+WU-0059-T1-X1P1.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0059
+WU-0059-T1-X1P1.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0059
+WU-0059-T1-X1P2.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0059
+WU-0059-T1-X1P2.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0059
+WU-0059-T1-X1P3.RNASEQ_Xenograft Tissue	Xenograft Tissue	Normal	sample	phs002305_WU-0059
+WU-0059-T1-X1P3.WES_Xenograft Tissue	Xenograft Tissue	Normal	sample	phs002305_WU-0059
+WU-0059-T1-X2P3.RNASEQ_Xenograft Tissue	Xenograft Tissue	Normal	sample	phs002305_WU-0059
+WU-0059-T1-X2P3.WES_Xenograft Tissue	Xenograft Tissue	Normal	sample	phs002305_WU-0059
+WU-0060-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0060
+WU-0060-T1.WES_Primary Tumor	Primary Tumor	Tumor	sample	phs002305_WU-0060
+WU-0060-T1-X1P1.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0060
+WU-0060-T1-X1P1.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0060
+WU-0061-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0061
+WU-0061-T1.WES_Metastatic	Metastatic	Tumor	sample	phs002305_WU-0061
+WU-0061-T1-X1P1.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0061
+WU-0061-T1-X1P1.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0061
+WU-0062-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0062
+WU-0062-T1-X1P1.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0062
+WU-0062-T1-X1P1.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0062
+WU-0063-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0063
+WU-0063-T1.WES_Primary Tumor	Primary Tumor	Tumor	sample	phs002305_WU-0063
+WU-0063-T1-X1P1.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0063
+WU-0063-T1-X1P1.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0063
+WU-0064-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0064
+WU-0064-T2.WES_Metastatic	Metastatic	Tumor	sample	phs002305_WU-0064
+WU-0064-T2-X1P2.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0064
+WU-0064-T2-X1P2.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0064
+WU-0066-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0066
+WU-0066-T1-X1P1.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0066
+WU-0066-T1-X1P1.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0066
+WU-0067-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0067
+WU-0067-T1.WES_Primary Tumor	Primary Tumor	Tumor	sample	phs002305_WU-0067
+WU-0067-T1-X1P1.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0067
+WU-0067-T1-X1P1.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0067
+WU-0068-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0068
+WU-0068-T1.WES_Primary Tumor	Primary Tumor	Tumor	sample	phs002305_WU-0068
+WU-0068-T1-X1P1.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0068
+WU-0068-T1-X1P1.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0068
+WU-0069-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0069
+WU-0069-T1.WES_Metastatic	Metastatic	Tumor	sample	phs002305_WU-0069
+WU-0069-T1-X1P1.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0069
+WU-0069-T1-X1P1.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0069
+WU-0070-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0070
+WU-0070-T1.WES_Metastatic	Metastatic	Tumor	sample	phs002305_WU-0070
+WU-0070-T1-X1P1.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0070
+WU-0070-T1-X1P1.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0070
+WU-0071-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0071
+WU-0071-T1.WES_Metastatic	Metastatic	Tumor	sample	phs002305_WU-0071
+WU-0071-T1-X1P1.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0071
+WU-0071-T1-X1P1.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0071
+WU-0072-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0072
+WU-0072-T1.WES_Metastatic	Metastatic	Tumor	sample	phs002305_WU-0072
+WU-0072-T1-X1P1.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0072
+WU-0072-T1-X1P1.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0072
+WU-0073-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0073
+WU-0073-T1.WES_Metastatic	Metastatic	Tumor	sample	phs002305_WU-0073
+WU-0073-T1-X1P1.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0073
+WU-0073-T1-X1P1.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0073
+WU-0074-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0074
+WU-0074-T1.WES_Metastatic	Metastatic	Tumor	sample	phs002305_WU-0074
+WU-0074-T1-X1P1.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0074
+WU-0074-T1-X1P1.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0074
+WU-0075-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0075
+WU-0075-T1-X1P2.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0075
+WU-0075-T1-X1P2.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0075
+WU-0076-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0076
+WU-0076-T1-X1P2.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0076
+WU-0076-T1-X1P2.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0076
+WU-0077-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0077
+WU-0077-T1-X1P2.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0077
+WU-0077-T1-X1P2.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0077
+WU-0079-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0079
+WU-0079-T1-X1P2.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0079
+WU-0079-T1-X1P2.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0079
+WU-0081-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0081
+WU-0081-T1-X1P2.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0081
+WU-0081-T1-X1P2.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0081
+WU-0082-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0082
+WU-0082-T1-X1P2.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0082
+WU-0082-T1-X1P2.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0082
+WU-0084-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0084
+WU-0084-T1-X1P2.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0084
+WU-0084-T1-X1P2.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0084
+WU-0088-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0088
+WU-0088-T1-X1P2.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0088
+WU-0088-T1-X1P2.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0088
+WU-0089-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0089
+WU-0089-T1-X1P2.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0089
+WU-0089-T1-X1P2.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0089
+WU-0091-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0091
+WU-0091-T1-X1P2.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0091
+WU-0091-T1-X1P2.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0091
+WU-0093-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0093
+WU-0093-T1.WES_Metastatic	Metastatic	Tumor	sample	phs002305_WU-0093
+WU-0093-T1-X1P2.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0093
+WU-0093-T1-X1P2.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0093
+WU-0095-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0095
+WU-0095-T1-X1P1.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0095
+WU-0095-T1-X1P1.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0095
+WU-0097-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0097
+WU-0097-T1-X1P1.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0097
+WU-0097-T1-X1P1.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0097
+WU-0098-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0098
+WU-0098-T1-X1P1.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0098
+WU-0098-T1-X1P1.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0098
+WU-0098-T1-X1P2.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0098
+WU-0098-T1-X1P2.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0098
+WU-0101-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0101
+WU-0101-T1-X1P1.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0101
+WU-0101-T1-X1P1.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0101
+WU-0101-T1-X1P2.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0101
+WU-0101-T1-X1P2.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0101
+WU-0103-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0103
+WU-0103-T1.WES_Primary Tumor	Primary Tumor	Tumor	sample	phs002305_WU-0103
+WU-0103-T1-X1P1.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0103
+WU-0103-T1-X1P1.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0103
+WU-0104-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0104
+WU-0104-T1.WES_Primary Tumor	Primary Tumor	Tumor	sample	phs002305_WU-0104
+WU-0104-T1-X1P1.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0104
+WU-0104-T1-X1P1.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0104
+WU-0105-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0105
+WU-0105-T1.WES_Primary Tumor	Primary Tumor	Tumor	sample	phs002305_WU-0105
+WU-0105-T1-X1P1.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0105
+WU-0105-T1-X1P1.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0105
+WU-0106-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0106
+WU-0106-T1.WES_Metastatic	Metastatic	Tumor	sample	phs002305_WU-0106
+WU-0106-T1-X1P1.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0106
+WU-0106-T1-X1P1.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0106
+WU-0107-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0107
+WU-0107-T1.WES_Metastatic	Metastatic	Tumor	sample	phs002305_WU-0107
+WU-0107-T1-X1P1.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0107
+WU-0107-T1-X1P1.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0107
+WU-0108-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0108
+WU-0108-T1.WES_Metastatic	Metastatic	Tumor	sample	phs002305_WU-0108
+WU-0108-T1-X1P1.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0108
+WU-0108-T1-X1P1.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0108
+WU-0109-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0109
+WU-0109-T1.WES_Metastatic	Metastatic	Tumor	sample	phs002305_WU-0109
+WU-0109-T1-X1P1.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0109
+WU-0109-T1-X1P1.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0109
+WU-0110-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0110
+WU-0110-T1.WES_Metastatic	Metastatic	Tumor	sample	phs002305_WU-0110
+WU-0110-T1-X1P1.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0110
+WU-0110-T1-X1P1.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0110
+WU-0111-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0111
+WU-0111-T1.WES_Primary Tumor	Primary Tumor	Tumor	sample	phs002305_WU-0111
+WU-0111-T1-X1P1.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0111
+WU-0111-T1-X1P1.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0111
+WU-0112-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0112
+WU-0112-T1.WES_Metastatic	Metastatic	Tumor	sample	phs002305_WU-0112
+WU-0112-T1-X1P2.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0112
+WU-0112-T1-X1P2.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0112
+WU-0114-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0114
+WU-0114-T1-X1P1.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0114
+WU-0114-T1-X1P1.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0114
+WU-0115-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0115
+WU-0115-T1-X1P2.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0115
+WU-0115-T1-X1P2.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0115
+WU-0116-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-0116
+WU-0116-T1-X1P2.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0116
+WU-0116-T1-X1P2.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-0116
+WU-L001-N1.WES_Blood Derived Normal	Blood Derived Normal	Tumor	sample	phs002305_WU-L001
+WU-L001-T1-X1P4.WES_Xenograft Tissue	Xenograft Tissue	Normal	sample	phs002305_WU-L001
+WU-L001-T1-X1P8.RNASEQ_Xenograft Tissue	Xenograft Tissue	Normal	sample	phs002305_WU-L001
+WU-L001-T2.WES_Metastatic	Metastatic	Normal	sample	phs002305_WU-L001
+WU-L001-T2-X1P0.RNASEQ_Xenograft Tissue	Xenograft Tissue	Normal	sample	phs002305_WU-L001
+WU-L001-T2-X1P0.WES_Xenograft Tissue	Xenograft Tissue	Normal	sample	phs002305_WU-L001
+WU-L002-N1.WES_Blood Derived Normal	Blood Derived Normal	Tumor	sample	phs002305_WU-L002
+WU-L002-T1-X1P0.WES_Xenograft Tissue	Xenograft Tissue	Normal	sample	phs002305_WU-L002
+WU-L002-T1-X1P2.RNASEQ_Xenograft Tissue	Xenograft Tissue	Normal	sample	phs002305_WU-L002
+WU-L003-N1.WES_Blood Derived Normal	Blood Derived Normal	Tumor	sample	phs002305_WU-L003
+WU-L003-T1-X1P0.RNASEQ_Xenograft Tissue	Xenograft Tissue	Normal	sample	phs002305_WU-L003
+WU-L003-T1-X1P0.WES_Xenograft Tissue	Xenograft Tissue	Normal	sample	phs002305_WU-L003
+WU-L004-N1.WES_Blood Derived Normal	Blood Derived Normal	Tumor	sample	phs002305_WU-L004
+WU-L004-T1-X1P2.WES_Xenograft Tissue	Xenograft Tissue	Normal	sample	phs002305_WU-L004
+WU-L004-T1-X1P4.RNASEQ_Xenograft Tissue	Xenograft Tissue	Normal	sample	phs002305_WU-L004
+WU-L005-T1-X1P0.RNASEQ_Xenograft Tissue	Xenograft Tissue	Normal	sample	phs002305_WU-L005
+WU-L005-T1-X1P0.WES_Xenograft Tissue	Xenograft Tissue	Normal	sample	phs002305_WU-L005
+WU-L006-N1.WES_Blood Derived Normal	Blood Derived Normal	Tumor	sample	phs002305_WU-L006
+WU-L006-T1.WES_Primary Tumor	Primary Tumor	Normal	sample	phs002305_WU-L006
+WU-L006-T1-X1P0.RNASEQ_Xenograft Tissue	Xenograft Tissue	Normal	sample	phs002305_WU-L006
+WU-L006-T1-X1P0.WES_Xenograft Tissue	Xenograft Tissue	Normal	sample	phs002305_WU-L006
+WU-L007-N1.WES_Blood Derived Normal	Blood Derived Normal	Tumor	sample	phs002305_WU-L007
+WU-L007-T1.WES_Metastatic	Metastatic	Normal	sample	phs002305_WU-L007
+WU-L007-T1-X1P0.RNASEQ_Xenograft Tissue	Xenograft Tissue	Normal	sample	phs002305_WU-L007
+WU-L007-T1-X1P0.WES_Xenograft Tissue	Xenograft Tissue	Normal	sample	phs002305_WU-L007
+WU-L008-N1.WES_Blood Derived Normal	Blood Derived Normal	Tumor	sample	phs002305_WU-L008
+WU-L008-T1.WES_Metastatic	Metastatic	Normal	sample	phs002305_WU-L008
+WU-L008-T1-X1P0.RNASEQ_Xenograft Tissue	Xenograft Tissue	Normal	sample	phs002305_WU-L008
+WU-L008-T1-X1P0.WES_Xenograft Tissue	Xenograft Tissue	Normal	sample	phs002305_WU-L008
+WU-L009-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-L009
+WU-L009-T1.WES_Metastatic	Metastatic	Tumor	sample	phs002305_WU-L009
+WU-L009-T1-X1P10.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-L009
+WU-L009-T1-X1P10.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-L009
+WU-L010-N1.WES_Blood Derived Normal	Blood Derived Normal	Tumor	sample	phs002305_WU-L010
+WU-L010-T1.WES_Primary Tumor	Primary Tumor	Normal	sample	phs002305_WU-L010
+WU-L010-T1-X1P0.RNASEQ_Xenograft Tissue	Xenograft Tissue	Normal	sample	phs002305_WU-L010
+WU-L010-T1-X1P1.WES_Xenograft Tissue	Xenograft Tissue	Normal	sample	phs002305_WU-L010
+WU-L011-N1.WES_Blood Derived Normal	Blood Derived Normal	Tumor	sample	phs002305_WU-L011
+WU-L011-T1.WES_Metastatic	Metastatic	Normal	sample	phs002305_WU-L011
+WU-L011-T1-X1P0.WES_Xenograft Tissue	Xenograft Tissue	Normal	sample	phs002305_WU-L011
+WU-L011-T1-X1P2.RNASEQ_Xenograft Tissue	Xenograft Tissue	Normal	sample	phs002305_WU-L011
+WU-L012-N1.WES_Blood Derived Normal	Blood Derived Normal	Tumor	sample	phs002305_WU-L012
+WU-L012-T1.WES_Primary Tumor	Primary Tumor	Normal	sample	phs002305_WU-L012
+WU-L012-T1-X1P0.RNASEQ_Xenograft Tissue	Xenograft Tissue	Normal	sample	phs002305_WU-L012
+WU-L012-T1-X1P0.WES_Xenograft Tissue	Xenograft Tissue	Normal	sample	phs002305_WU-L012
+WU-L013-N1.WES_Blood Derived Normal	Blood Derived Normal	Tumor	sample	phs002305_WU-L013
+WU-L013-T1-X1P0.RNASEQ_Xenograft Tissue	Xenograft Tissue	Normal	sample	phs002305_WU-L013
+WU-L013-T1-X1P0.WES_Xenograft Tissue	Xenograft Tissue	Normal	sample	phs002305_WU-L013
+WU-L014-N1.WES_Blood Derived Normal	Blood Derived Normal	Tumor	sample	phs002305_WU-L014
+WU-L014-T1.WES_Metastatic	Metastatic	Normal	sample	phs002305_WU-L014
+WU-L014-T1-X1P0.RNASEQ_Xenograft Tissue	Xenograft Tissue	Normal	sample	phs002305_WU-L014
+WU-L014-T1-X1P0.WES_Xenograft Tissue	Xenograft Tissue	Normal	sample	phs002305_WU-L014
+WU-L015-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-L015
+WU-L015-T1.WES_Metastatic	Metastatic	Tumor	sample	phs002305_WU-L015
+WU-L015-T1-X1P0.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-L015
+WU-L015-T1-X1P0.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-L015
+WU-L016-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-L016
+WU-L016-T1.WES_Primary Tumor	Primary Tumor	Tumor	sample	phs002305_WU-L016
+WU-L016-T1-X1P0.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-L016
+WU-L016-T1-X1P0.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-L016
+WU-L017-N1.WES_Blood Derived Normal	Blood Derived Normal	Tumor	sample	phs002305_WU-L017
+WU-L017-T1.WES_Metastatic	Metastatic	Normal	sample	phs002305_WU-L017
+WU-L017-T1-X1P0.RNASEQ_Xenograft Tissue	Xenograft Tissue	Normal	sample	phs002305_WU-L017
+WU-L017-T1-X1P0.WES_Xenograft Tissue	Xenograft Tissue	Normal	sample	phs002305_WU-L017
+WU-L018-N1.WES_Blood Derived Normal	Blood Derived Normal	Tumor	sample	phs002305_WU-L018
+WU-L018-T1.WES_Metastatic	Metastatic	Normal	sample	phs002305_WU-L018
+WU-L018-T1-X1P0.WES_Xenograft Tissue	Xenograft Tissue	Normal	sample	phs002305_WU-L018
+WU-L018-T1-X1P1.RNASEQ_Xenograft Tissue	Xenograft Tissue	Normal	sample	phs002305_WU-L018
+WU-L019-N1.WES_Tumor Adjacent Normal	Tumor Adjacent Normal	Normal	sample	phs002305_WU-L019
+WU-L019-T1-X1P0.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-L019
+WU-L019-T1-X1P0.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-L019
+WU-L020-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-L020
+WU-L020-T1.WES_Metastatic	Metastatic	Tumor	sample	phs002305_WU-L020
+WU-L020-T1-X1P0.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-L020
+WU-L020-T1-X1P1.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-L020
+WU-L021-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-L021
+WU-L021-T1.WES_Primary Tumor	Primary Tumor	Tumor	sample	phs002305_WU-L021
+WU-L021-T1-X1P0.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-L021
+WU-L022-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-L022
+WU-L022-T1.WES_Metastatic	Metastatic	Tumor	sample	phs002305_WU-L022
+WU-L022-T1-X1P0.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-L022
+WU-L022-T1-X1P0.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-L022
+WU-L023-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-L023
+WU-L023-T1.WES_Metastatic	Metastatic	Tumor	sample	phs002305_WU-L023
+WU-L023-T1-X1P0.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-L023
+WU-L023-T1-X1P0.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-L023
+WU-L024-N1.WES_Tumor Adjacent Normal	Tumor Adjacent Normal	Normal	sample	phs002305_WU-L024
+WU-L024-T1.WES_Metastatic	Metastatic	Tumor	sample	phs002305_WU-L024
+WU-L024-T1-X1P1.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-L024
+WU-L024-T1-X1P1.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-L024
+WU-L025-T1.WES_Metastatic	Metastatic	Normal	sample	phs002305_WU-L025
+WU-L025-T1-X1P0.RNASEQ_Xenograft Tissue	Xenograft Tissue	Normal	sample	phs002305_WU-L025
+WU-L025-T1-X1P0.WES_Xenograft Tissue	Xenograft Tissue	Normal	sample	phs002305_WU-L025
+WU-L026-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-L026
+WU-L026-T1-X1P6.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-L026
+WU-L026-T1-X1P6.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-L026
+WU-L026-T1-X2P6.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-L026
+WU-L026-T1-X2P6.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-L026
+WU-L026-T1-X3P6.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-L026
+WU-L026-T1-X3P6.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-L026
+WU-L027-T1-X1P0.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-L027
+WU-L027-T1-X1P0.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-L027
+WU-L028-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-L028
+WU-L028-T1-X1P3.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-L028
+WU-L028-T1-X1P3.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-L028
+WU-L029-N1.WES_Tumor Adjacent Normal	Tumor Adjacent Normal	Normal	sample	phs002305_WU-L029
+WU-L029-T1-X1P0.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-L029
+WU-L029-T1-X1P0.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-L029
+WU-L030-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-L030
+WU-L030-T1.WES_Metastatic	Metastatic	Tumor	sample	phs002305_WU-L030
+WU-L030-T1-X1P0.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-L030
+WU-L030-T1-X1P0.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-L030
+WU-L031-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-L031
+WU-L031-T1.WES_Metastatic	Metastatic	Tumor	sample	phs002305_WU-L031
+WU-L031-T1-X1P0.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-L031
+WU-L031-T1-X1P0.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-L031
+WU-L032-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-L032
+WU-L032-T1.WES_Primary Tumor	Primary Tumor	Tumor	sample	phs002305_WU-L032
+WU-L032-T1-X1P0.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-L032
+WU-L032-T1-X1P0.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-L032
+WU-L033-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-L033
+WU-L033-T1.WES_Primary Tumor	Primary Tumor	Tumor	sample	phs002305_WU-L033
+WU-L033-T1-X1P0.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-L033
+WU-L033-T1-X1P0.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-L033
+WU-L033-T2-X1P0.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-L033
+WU-L033-T2-X1P0.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-L033
+WU-L034-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-L034
+WU-L034-T1.WES_Primary Tumor	Primary Tumor	Tumor	sample	phs002305_WU-L034
+WU-L034-T1-X1P0.RNASEQ_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-L034
+WU-L034-T1-X1P0.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-L034
+WU-L035-N1.WES_Blood Derived Normal	Blood Derived Normal	Normal	sample	phs002305_WU-L035
+WU-L035-T1.WES_Metastatic	Metastatic	Tumor	sample	phs002305_WU-L035
+WU-L035-T1-X1P0.WES_Xenograft Tissue	Xenograft Tissue	Tumor	sample	phs002305_WU-L035

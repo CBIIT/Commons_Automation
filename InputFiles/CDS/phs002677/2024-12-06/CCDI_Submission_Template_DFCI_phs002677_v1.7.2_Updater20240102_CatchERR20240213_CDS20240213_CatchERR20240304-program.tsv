@@ -1,0 +1,12 @@
+program_name	program_acronym	program_short_description	program_external_url	institution	type
+Childhood Cancer Data Initiative	CCDI	"The goal of this study is to contribute clinical and genomic data from a large institutional cohort of pediatric cancer patients who had tumor genomic profiling between 2013 and 2019 at Dana-Farber/Boston Children's Hospital Cancer and Blood Disorders Center. Clinical data include demographics, diagnosis (classified according to the International Classification of Diseases for Oncology (ICD-O-3.2), stage, and biospecimen associated data. Tumors were sequenced with OncoPanel, a targeted next-generation DNA sequencing panel of up to 447 cancer genes for detection of single-nucleotide variants (SNV), insertions, and deletions, and copy number alterations (CNA), as well as selected intronic regions for up to 60 genes for the detection of structural variants (SV).
+
+This dataset includes a patient and sample identifier (GENIE ID) that can be used to link the genomic data included in this dataset to additional longitudinal clinical cancer data on a subset of patients that was submitted to the National Childhood Cancer Registry (NCCR).
+
+Study Weblinks:
+Dana-Farber Cancer Institute
+Study Design:
+Prospective Longitudinal Cohort
+Study Type:
+Longitudinal Cohort
+Total number of consented subjects: 835"	https://www.cancer.gov/research/areas/childhood/childhood-cancer-data-initiative	National Cancer Institute	program

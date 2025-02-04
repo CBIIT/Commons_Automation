@@ -1,0 +1,5 @@
+sample_id	sample_type	sample_tumor_status	sample_anatomic_site	sample_age_at_collection	biosample_accession	type	participant.study_participant_id
+117828_DNA	DNA	Normal	Blood	90	SAMN08665606	sample	phs001554_117828
+117921_DNA	DNA	Normal	Blood	90	SAMN08664416	sample	phs001554_117921
+118154_DNA	DNA	Normal	Blood	90	SAMN08665960	sample	phs001554_118154
+118272_DNA	DNA	Normal	Blood	90	SAMN08664854	sample	phs001554_118272

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC06_CDS_phs001905_LibraryStrategy_Targeted-Capture</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4e7cf4c0-0dd0-49e0-9f7d-085e3b2887ad</testCaseGuid>
+</TestCaseEntity>

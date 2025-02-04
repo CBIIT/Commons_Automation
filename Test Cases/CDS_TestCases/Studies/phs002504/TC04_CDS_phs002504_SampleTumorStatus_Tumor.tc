@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_CDS_phs002504_SampleTumorStatus_Tumor</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a9fd40c9-ef2f-4aa6-873d-cac98e62db88</testCaseGuid>
+</TestCaseEntity>

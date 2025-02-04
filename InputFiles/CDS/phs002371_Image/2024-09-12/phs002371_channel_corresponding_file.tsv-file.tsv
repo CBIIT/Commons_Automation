@@ -1,0 +1,2 @@
+file_id	file_name	file_type	file_size	md5sum	file_url_in_cds	submission_version	type	study.phs_accession	experimental_strategy_and_data_subtypes
+dg.4DFC/f5c2372b-9a18-4d56-8dca-6d0326c7e98e	HTAN_comprehesive_channel_metadata_file.csv	CSV	2343680	bb1cdc4d820ff52ef19175bd2d4ea132	s3://cds-290-htan-x6gj-xr09/HTAN_comprehesive_channel_metadata_file.csv	phs002371_image	file	phs002371_image	

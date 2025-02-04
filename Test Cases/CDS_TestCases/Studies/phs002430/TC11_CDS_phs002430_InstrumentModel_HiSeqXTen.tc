@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC11_CDS_phs002430_InstrumentModel_HiSeqXTen</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b9c7c618-2621-45f7-a1d4-88338d1e46e5</testCaseGuid>
+</TestCaseEntity>

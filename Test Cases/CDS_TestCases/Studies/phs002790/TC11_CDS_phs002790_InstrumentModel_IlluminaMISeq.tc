@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC11_CDS_phs002790_InstrumentModel_IlluminaMISeq</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0cecadbd-e650-4fd6-ab7f-5dcfb69aba0a</testCaseGuid>
+</TestCaseEntity>

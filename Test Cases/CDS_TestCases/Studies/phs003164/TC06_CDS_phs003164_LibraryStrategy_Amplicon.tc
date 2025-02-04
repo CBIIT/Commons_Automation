@@ -4,5 +4,6 @@
    <name>TC06_CDS_phs003164_LibraryStrategy_Amplicon</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>d67b21bd-ef79-4fe1-ad38-2f6e98d88ab2</testCaseGuid>
 </TestCaseEntity>

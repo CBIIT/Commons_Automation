@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_library strategy_ATAC-seq&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Library Strategy_ATAC-seq&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_library strategy_ATAC-seq&quot;]</value>
-      <webElementGuid>b04f81bc-6594-4e69-a418-11b82b3acaf6</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Library Strategy_ATAC-seq&quot;]</value>
+      <webElementGuid>52fa7fea-be25-4de2-bff7-524226c518a9</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

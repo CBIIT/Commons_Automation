@@ -4,5 +4,6 @@
    <name>TC01_CDS_phs001819</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>f269532b-5418-49bf-a1d2-59aa6f6da057</testCaseGuid>
 </TestCaseEntity>
