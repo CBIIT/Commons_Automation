@@ -1,0 +1,4 @@
+type	study_arm.arm_id	study.clinical_study_designation	cohort_description	cohort_dose	cohort_record_id
+cohort		UBC03	Basal Tumors		UBC03-Basal Tumors
+cohort		UBC03	Luminal Tumors		UBC03-Luminal Tumors
+cohort		UBC03	Healthy Controls		UBC03-Healthy Controls

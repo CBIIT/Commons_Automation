@@ -1,0 +1,21 @@
+type	case.case_record_id	visit.visit_id	sample_id	sample_site	physical_sample_type	general_sample_pathology	tumor_sample_origin	summarized_sample_type	molecular_subtype	specific_sample_pathology	date_of_sample_collection	sample_chronology 	necropsy_sample	tumor_grade	length_of_tumor	width_of_tumor	volume_of_tumor	percentage_tumor	sample_preservation	comment
+sample	UBC03-775-307		UBC03-775-307	Bladder Trigone	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Luminal	Urothelial Carcinoma	11/12/2014	Before Treatment	No	3			2	>90%	TRIzol	
+sample	UBC03-776-675		UBC03-776-675	Bladder Mid	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Basal	Urothelial Carcinoma	11/8/2016	Before Treatment	No	4			1.4	>90%	TRIzol	
+sample	UBC03-775-214		UBC03-775-214	Bladder Trigone	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Luminal	Urothelial Carcinoma	11/29/2016	Before Treatment	No	4			0.12	>90%	TRIzol	
+sample	UBC03-774-615		UBC03-774-615	Bladder Apex 	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Basal	Urothelial Carcinoma	11/15/2016	Before Treatment	No	4			0.4	>90%	TRIzol	
+sample	UBC03-787-089		UBC03-787-089	Bladder Apex	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Basal	Urothelial Carcinoma	10/7/2016	Before Treatment	No	2			0.9	>90%	TRIzol	
+sample	UBC03-775-099		UBC03-775-099	Bladder Trigone	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Luminal	Urothelial Carcinoma	5/17/2017	During Treatment	No	3			0.72	>90%	TRIzol	
+sample	UBC03-775-220		UBC03-775-220	Bladder Trigone	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Luminal	Urothelial Carcinoma	11/18/2014	Before Treatment	No	4			5.4	>90%	TRIzol	
+sample	UBC03-775-221		UBC03-775-221	Bladder Trigone	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Luminal	Urothelial Carcinoma	11/18/2014	Before Treatment	No	4			0.6	>90%	TRIzol	
+sample	UBC03-775-801		UBC03-775-801	Bladder Trigone	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Luminal	Urothelial Carcinoma	12/17/2014	Before Treatment	No	3			2.9	>90%	TRIzol	
+sample	UBC03-775-230		UBC03-775-230	Bladder Mid 	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Luminal	Urothelial Carcinoma	4/24/2017	Before Treatment	No	4			1.8	>90%	TRIzol	
+sample	UBC03-774-569		UBC03-774-569	Bladder Mid	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Basal	Urothelial Carcinoma	6/30/2015	During Treatment	No	Unknown			2.47	>90%	TRIzol	
+sample	UBC03-774-859		UBC03-774-859	Bladder Trigone	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Luminal	Urothelial Carcinoma	12/16/2014	Before Treatment	No	3			0.25	>90%	TRIzol	
+sample	UBC03-784-881		UBC03-784-881	Bladder Trigone	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Basal	Urothelial Carcinoma	5/17/2017	Before Treatment	No	4			2.6	>90%	TRIzol	
+sample	UBC03-774-967		UBC03-774-967	Bladder Mid	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Luminal	Urothelial Carcinoma	10/27/2014	Before Treatment	No	4			1.8	>90%	TRIzol	
+sample	UBC03-758-158		UBC03-758-158	Bladder Trigone	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Basal	Urothelial Carcinoma	5/6/2016	During Treatment	Yes	4			0.2	>90%	TRIzol	
+sample	UBC03-800-425		UBC03-800-425	Bladder Mid-Trigone	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Luminal	Urothelial Carcinoma	10/30/2018	During Treatment	No	4			1.8	>90%	TRIzol	
+sample	UBC03-PCBCC-CDHMCL-CONT		UBC03-PCBCC-CDHMCL-CONT	Bladder	Tissue	Normal	Not Applicable	Normal Tissue	Not Applicable	Not Applicable	3/21/2013	Not Applicable	Yes	Not Applicable				Not Applicable	TRIzol	
+sample	UBC03-PCBCC-CDGMDD-CONT		UBC03-PCBCC-CDGMDD-CONT	Bladder	Tissue	Normal	Not Applicable	Normal Tissue	Not Applicable	Not Applicable	3/22/2013	Not Applicable	Yes	Not Applicable				Not Applicable	TRIzol	
+sample	UBC03-PCBCC-CDDMAH-CONT		UBC03-PCBCC-CDDMAH-CONT	Bladder	Tissue	Normal	Not Applicable	Normal Tissue	Not Applicable	Not Applicable	3/23/2013	Not Applicable	Yes	Not Applicable				Not Applicable	TRIzol	
+sample	UBC03-PCBCC-CDEMBC-CONT		UBC03-PCBCC-CDEMBC-CONT	Bladder	Tissue	Normal	Not Applicable	Normal Tissue	Not Applicable	Not Applicable	3/24/2013	Not Applicable	Yes	Not Applicable				Not Applicable	TRIzol	

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC16_ICDC_UBC03_RespToTreatmt-PartialResponse</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ae7dd773-cc4a-4be9-a435-390b5527362a</testCaseGuid>
+</TestCaseEntity>
