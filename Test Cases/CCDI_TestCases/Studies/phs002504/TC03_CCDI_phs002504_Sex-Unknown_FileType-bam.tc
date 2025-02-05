@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC01_CCDI_phs002504_Sex-Male</name>
+   <name>TC03_CCDI_phs002504_Sex-Unknown_FileType-bam</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>4e82d699-973a-4671-8630-daf6e934b91c</testCaseGuid>
+   <testCaseGuid>0c541564-bcb7-4ee3-9d9a-289a43848206</testCaseGuid>
 </TestCaseEntity>
