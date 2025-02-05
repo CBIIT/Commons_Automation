@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>This is the COTB checkbox under Study filter</description>
+   <description></description>
    <name>Canine_Filter_Study-UBC03_Chkbx</name>
    <tag></tag>
    <elementGuidId>6b3803a8-f02f-41ce-904f-b6713afb2aee</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//span[contains(text(),'COTC007B')]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@id=&quot;checkbox_Study_UBC03 (000010)&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[contains(text(),'COTC007B')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
