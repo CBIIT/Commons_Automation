@@ -19,13 +19,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>82e69950-8575-4c32-bdc7-22433cdaa7fb</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Canine_TestCases/Studies/UBC03/TC02_ICDC_UBC03_Biobank-NotApplicable</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>f5204b89-4c29-4b55-bfc1-ebce9172de90</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
