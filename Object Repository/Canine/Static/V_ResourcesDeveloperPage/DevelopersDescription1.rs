@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>DevelopersDescription1</name>
+   <tag></tag>
+   <elementGuidId>1abb59f0-924a-4925-a402-d012f453cc4d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[text()='Developers']/following::span/div[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[text()='Developers']/following::span/div[1]</value>
+      <webElementGuid>e20f0708-7cfe-483c-87b3-d9de1ae3ec1f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>FooterDisclaimerLink</name>
+   <tag></tag>
+   <elementGuidId>3fdc8db6-a5e2-4475-bbc0-d86cc9b81ce7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[.='Disclaimer']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[.='Disclaimer']</value>
+      <webElementGuid>1436dd5f-eb9d-421d-a353-325cec28108a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

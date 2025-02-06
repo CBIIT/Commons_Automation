@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC11_C3DC_phs002431_LastKnownSurStatus-Dead</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6b936e9a-7ee9-4b92-b687-76993ee7de12</testCaseGuid>
+</TestCaseEntity>

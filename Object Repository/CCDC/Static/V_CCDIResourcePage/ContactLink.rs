@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ContactLink</name>
+   <tag></tag>
+   <elementGuidId>5e91bb93-ded1-4267-a52f-afecb7099d06</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@class='prDetailHeaderLink']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[@class='prDetailHeaderLink']</value>
+      <webElementGuid>f83ee114-0da6-4231-9ec3-adaefd052899</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

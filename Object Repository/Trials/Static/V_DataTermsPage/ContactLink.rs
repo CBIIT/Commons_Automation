@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ContactLink</name>
+   <tag></tag>
+   <elementGuidId>c8dd43da-e05c-4969-9f3a-5c0cea7bd41d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//a[@title='NCICTDCHelpDesk@mail.nih.gov'])[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//a[@title='NCICTDCHelpDesk@mail.nih.gov'])[1]</value>
+      <webElementGuid>eda0831b-6244-42c0-823c-2dd3cff981b5</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

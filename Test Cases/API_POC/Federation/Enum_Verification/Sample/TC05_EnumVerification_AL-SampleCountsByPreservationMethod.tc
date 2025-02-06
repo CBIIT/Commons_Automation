@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_EnumVerification_AL-SampleCountsByPreservationMethod</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>42d7dfec-beee-4c05-af44-57f90ff16846</testCaseGuid>
+</TestCaseEntity>

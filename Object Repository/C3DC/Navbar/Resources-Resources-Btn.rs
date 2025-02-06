@@ -3,7 +3,7 @@
    <description></description>
    <name>Resources-Resources-Btn</name>
    <tag></tag>
-   <elementGuidId>112f1bfa-25e2-4079-8e16-d1e8dc87cab0</elementGuidId>
+   <elementGuidId>51dcb75e-b221-44dc-b793-b8138740792c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -19,6 +19,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//a[.='Resources']</value>
-      <webElementGuid>f3dd70d9-8181-4a9b-8699-851ae26eed50</webElementGuid>
+      <webElementGuid>8875e8fc-9ba9-41d0-a693-140c0ceb3bc8</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

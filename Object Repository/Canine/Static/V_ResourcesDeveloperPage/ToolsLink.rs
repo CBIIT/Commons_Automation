@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ToolsLink</name>
+   <tag></tag>
+   <elementGuidId>3831979f-4cd9-44b7-86b2-0d042fc03756</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@title='icdc-model-tools']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[@title='icdc-model-tools']</value>
+      <webElementGuid>cf04b565-67a6-4ca3-a4f6-659985a3322a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

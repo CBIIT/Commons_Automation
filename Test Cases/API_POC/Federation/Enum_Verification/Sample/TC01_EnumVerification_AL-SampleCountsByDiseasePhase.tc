@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_EnumVerification_AL-SampleCountsByDiseasePhase</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e602ffba-fd8f-4310-9890-a9085dd21fb6</testCaseGuid>
+</TestCaseEntity>

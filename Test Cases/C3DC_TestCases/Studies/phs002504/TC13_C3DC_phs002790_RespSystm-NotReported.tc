@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC13_C3DC_phs002790_RespSystm-NotReported</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a4ae2c00-0157-4b89-b9bc-66a3bdfeaccc</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_C3DC_phs002431_AnatoSite-ParotidGland</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fec940fa-95f1-4b78-8a5e-b7bf73941367</testCaseGuid>
+</TestCaseEntity>

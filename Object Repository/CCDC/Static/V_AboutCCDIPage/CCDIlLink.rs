@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CCDIlLink</name>
+   <tag></tag>
+   <elementGuidId>3af155f2-d227-4855-80a3-24780f41a33c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[contains(@href,'data-initiative')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[contains(@href,'data-initiative')]</value>
+      <webElementGuid>b4b82ac1-849f-4ac9-891c-0e1bffb3d5e1</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

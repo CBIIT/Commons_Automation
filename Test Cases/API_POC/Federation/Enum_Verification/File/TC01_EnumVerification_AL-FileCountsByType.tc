@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_EnumVerification_AL-FileCountsByType</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dee84595-8846-4a91-829d-7c299290d4ca</testCaseGuid>
+</TestCaseEntity>

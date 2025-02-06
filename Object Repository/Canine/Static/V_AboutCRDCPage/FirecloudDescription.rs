@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>FirecloudDescription</name>
+   <tag></tag>
+   <elementGuidId>6b9253fd-f6d7-4780-a788-eae844e625c5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[contains(text(),'Firecloud')]/..</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[contains(text(),'Firecloud')]/..</value>
+      <webElementGuid>3d32eb62-5bbe-4f17-87fa-5cfe12b70023</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

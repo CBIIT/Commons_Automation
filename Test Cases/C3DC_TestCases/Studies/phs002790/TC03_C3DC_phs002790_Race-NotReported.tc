@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_C3DC_phs002790_Race-NotReported</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>99b4a7dd-1f9a-466c-8491-a7d64f9659ee</testCaseGuid>
+</TestCaseEntity>

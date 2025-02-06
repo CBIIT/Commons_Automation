@@ -1341,7 +1341,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		GlobalVariable.G_StatBar_Diagnosis = driver.findElement(By.xpath(xcDiag)).getAttribute("innerText");
 		System.out.println("This is the value of Diagnosis count from Stat bar: "+GlobalVariable.G_StatBar_Diagnosis)
 		Thread.sleep(2000)
-		GlobalVariable.G_StatBar_Participants = driver.findElement(By.xpath(xcParticip)).getAttribute("innerText");
+		GlobalVariable.G_StatBar_Participants = driver.findElement(By.xpath(xcParticip)).getAttribute("innerText").replace(',','');
 		System.out.println("This is the value of Participants count from Stat bar: "+GlobalVariable.G_StatBar_Participants)
 		Thread.sleep(2000)
 		GlobalVariable.G_StatBar_Studies = driver.findElement(By.xpath(xcSamples)).getAttribute("innerText");
@@ -1519,9 +1519,9 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		Collections.sort(neo4jData, new TestRunner());
 
 		//System.out.println("This is the Entire UIWeb  data: " + UIData);
-		//System.out.println("This is the Entire neo4j  data: " + neo4jData);
+		//System.out.println("This is the Entire TSV  data: " + neo4jData);
 		System.out.println("This is the row size of the UIWeb Output data: " + UIData.size());
-		System.out.println("This is the row size of the Neo4j Output data: " + neo4jData.size());
+		System.out.println("This is the row size of the TSV   Output data: " + neo4jData.size());
 
 		compareTwoLists(UIData, neo4jData);
 	}
@@ -1938,21 +1938,17 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		}else if(appKey.equals("ICDC")) {
 			filePath = Paths.get(usrDir, inputFiles, "ICDC", "ICDC_StaticData.xlsx");
 		}else if(appKey.equals("CCDI")) {
-			filePath = Paths.get(usrDir, inputFiles, "CCDI", "ABC123.xlsx");
+			filePath = Paths.get(usrDir, inputFiles, "CCDI", "CCDI_StaticData.xlsx");
 		}else if(appKey.equals("C3DC")) {
 			filePath = Paths.get(usrDir, inputFiles, "C3DC", "C3DC_StaticData.xlsx");
 		}else if(appKey.equals("INS")) {
 			filePath = Paths.get(usrDir, inputFiles, "INS", "INS_StaticData.xlsx");
 		}else if(appKey.equals("CDS")) {
-			filePath = Paths.get(usrDir, inputFiles, "CDS", "ABC123.xlsx");
+			filePath = Paths.get(usrDir, inputFiles, "CDS", "CDS_StaticData.xlsx");
 		}else if(appKey.equals("CTDC")) {
-			filePath = Paths.get(usrDir, inputFiles, "CTDC", "ABC123.xlsx");
-		}else if(appKey.equals("MTP")) {
-			filePath = Paths.get(usrDir, inputFiles, "MTP", "ABC123.xlsx");
+			filePath = Paths.get(usrDir, inputFiles, "CTDC", "CTDC_StaticData.xlsx");
 		}else if(appKey.equals("CCDC")) {
-			filePath = Paths.get(usrDir, inputFiles, "CCDC", "ABC123.xlsx");
-		}else if(appKey.equals("CRDC")) {
-			filePath = Paths.get(usrDir, inputFiles, "CRDC", "ABC123.xlsx");
+			filePath = Paths.get(usrDir, inputFiles, "CCDC", "CCDC_StaticData.xlsx");
 		}else {
 			KeywordUtil.markFailed("Invalid App Key: Check Profile or verifyStaticText() function")
 		}
@@ -1992,6 +1988,8 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 
 					if (appKey=="ICDC") {
 						testObject = findTestObject("Canine" + "/" + "Static" + "/" + page + "/" + testObjectId) // for ICDC only
+					} else if (appKey=="CTDC") {
+						testObject = findTestObject("Trials" + "/" + "Static" + "/" + page + "/" + testObjectId) // for CTDC only
 					} else {
 						testObject = findTestObject(appKey + "/" + "Static" + "/" + page + "/" + testObjectId) // path of Test Object in Object Repository
 					}
@@ -2028,9 +2026,9 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 
 					// If element is a link, also verify URL
 					if (testObjectId.contains("Link")) {
-						String actualUrl = WebUI.getAttribute(testObject, 'href')
+						String actualUrl = WebUI.getAttribute(testObject, 'href').replaceAll("%20", " ")
 						System.out.println("Verifying URL: " + testObjectId + " - Expected: " + expectedUrl + ", Actual: " + actualUrl);
-						if (actualUrl.equals(expectedUrl)) {
+						if (actualUrl.equals(expectedUrl.replaceAll("%20", " "))) {
 							verifyUrlPass = true;
 							row.add((verifyTextPass && verifyUrlPass).toString())
 						} else {
@@ -2048,7 +2046,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 					overallResult = false;
 				}
 			}
-			String outputFilePath = filePath.getParent().resolve("Output_" + filePath.getFileName().toString())
+			String outputFilePath = Paths.get(usrDir, "OutputFiles").resolve("Output_" + filePath.getFileName().toString())
 			ReadExcel.writeOutputExcelStaticData(outputFilePath, page, outputData, 3)
 			if (overallResult == false) {
 				KeywordUtil.markFailed("There is a FAILURE -- verify in output Excel: "+ outputFilePath)

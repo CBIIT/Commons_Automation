@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC07_EnumVerification_AL-SampleCountsByTissueType</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6cee032d-bd00-47ed-ab81-f316810200b1</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC14_C3DC_phs002790_LastKnSurStatus-Dead</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>408e9aca-e45f-49a2-a98c-5199215bcfaa</testCaseGuid>
+</TestCaseEntity>
