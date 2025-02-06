@@ -4,5 +4,6 @@
    <name>TC01_Bento_Filter_Arm-A</name>
    <tag>Filter</tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>17977f6d-2e3d-4066-92ab-de991e344276</testCaseGuid>
 </TestCaseEntity>

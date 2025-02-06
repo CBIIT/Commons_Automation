@@ -35,6 +35,8 @@ public class PythonReader {
 			nodePath = Paths.get(usrDir, "InputFiles", "C3DC")
 		}else if(appKey.equals("INS")) {
 			nodePath = Paths.get(usrDir, "InputFiles", "INS")
+		}else if(appKey.equals("Bento")) {
+			nodePath = Paths.get(usrDir, "InputFiles", "Bento")
 		}else {
 			KeywordUtil.markFailed("Invalid Node Path: Check getNodeFilesPath function")
 		}
@@ -57,6 +59,8 @@ public class PythonReader {
 			pyPath = Paths.get(usrDir, "PythonFiles", "C3DC", pyFileName)
 		}else if(appKey.equals("INS")) {
 			pyPath = Paths.get(usrDir, "PythonFiles", "INS", pyFileName)
+		}else if(appKey.equals("Bento")) {
+			pyPath = Paths.get(usrDir, "PythonFiles", "Bento", pyFileName)
 		}else {
 			KeywordUtil.markFailed("Invalid App Key: Check getPythonPath function")
 		}
@@ -69,7 +73,7 @@ public class PythonReader {
 	 */
 	@Keyword
 	public static void readFile(String pythonFileName) {
-    
+
 		//String binPath = "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3";
 		//comment this only when running in mac
 		String binPath = "python3";
