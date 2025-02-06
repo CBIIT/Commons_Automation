@@ -42,6 +42,7 @@ import org.openqa.selenium.Keys as Keys
 WebUI.closeBrowser()
 
 CustomKeywords.'utilities.TestRunner.RunKatalon'('TC01_Bento_Filter_Age-10_to_30.xlsx')
+WebUI.setViewPortSize(1920, 1080)
 CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Bento/Banner/Bento_Warning_Continue_Btn')
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/Bento/NavBar/Bento_Cases-Btn'), 5)
