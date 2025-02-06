@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC01_CCDI_phs002504_Sex-Male</name>
+   <name>TC04_API_Federation_SubjectsCountBySex</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>4e82d699-973a-4671-8630-daf6e934b91c</testCaseGuid>
+   <testCaseGuid>bb9f15fb-82e3-4e69-9cdc-5f9c86a35bc4</testCaseGuid>
 </TestCaseEntity>
