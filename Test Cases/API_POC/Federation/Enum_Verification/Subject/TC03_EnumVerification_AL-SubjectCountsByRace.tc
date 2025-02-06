@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_EnumVerification_AL-SubjectCountsByRace</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f9c28bd0-84ba-4400-a395-691a5cdfd756</testCaseGuid>
+</TestCaseEntity>

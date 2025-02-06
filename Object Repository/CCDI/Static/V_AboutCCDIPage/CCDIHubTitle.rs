@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CCDIHubTitle</name>
+   <tag></tag>
+   <elementGuidId>0cab92f3-b20d-40e7-bb87-a81eb1d8ad20</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class='upperContentContainer']/div[@class='aboutSubtitle']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class='upperContentContainer']/div[@class='aboutSubtitle']</value>
+      <webElementGuid>8495c22e-154b-4fa8-adcd-42ef440dee59</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

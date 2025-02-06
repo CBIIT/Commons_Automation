@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>FooterGraphQLLink</name>
+   <tag></tag>
+   <elementGuidId>81139369-c3d3-4568-8efb-d418e62c5d62</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[.='GraphQL']/..</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[.='GraphQL']/..</value>
+      <webElementGuid>eaed9b13-9818-46f8-858f-b78dc88fc822</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

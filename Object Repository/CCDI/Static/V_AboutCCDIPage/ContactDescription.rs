@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ContactDescription</name>
+   <tag></tag>
+   <elementGuidId>51dbf271-33d9-484b-a3ea-49f47590af8e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class='aboutContactUsContent']/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class='aboutContactUsContent']/div[2]</value>
+      <webElementGuid>9810ccec-af1b-49c7-8cd9-6c5307618340</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

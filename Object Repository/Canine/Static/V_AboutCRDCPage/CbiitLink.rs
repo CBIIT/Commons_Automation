@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CbiitLink</name>
+   <tag></tag>
+   <elementGuidId>f5240475-20bf-4292-a403-923c716bda87</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@title='CBIIT']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[@title='CBIIT']</value>
+      <webElementGuid>482b3c39-701f-4006-9d59-77863ec8b1ea</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CGCLink</name>
+   <tag></tag>
+   <elementGuidId>22dcd34a-141d-4ef8-b0d9-e59b3ac77b8e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@title='Velsera-CGC']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[@title='Velsera-CGC']</value>
+      <webElementGuid>a20f2e10-735f-4c8e-917f-3212dad5ff8a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>FooterCDSLink</name>
+   <tag></tag>
+   <elementGuidId>813e3d93-50c0-4258-8ffb-15e2aea2fc3d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[.='CDS']/..</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[.='CDS']/..</value>
+      <webElementGuid>d23e89db-5969-4d7f-8b38-bc3ceb6c6910</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

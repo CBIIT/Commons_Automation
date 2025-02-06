@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ContributeDescription</name>
+   <tag></tag>
+   <elementGuidId>a8777126-c207-4869-b157-0dccd8bacaf1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class='contributePageSection1']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class='contributePageSection1']</value>
+      <webElementGuid>ec288bd8-e60a-4dc2-878e-b8701c32dd5d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

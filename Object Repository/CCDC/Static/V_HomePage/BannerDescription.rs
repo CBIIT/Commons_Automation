@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>BannerDescription</name>
+   <tag></tag>
+   <elementGuidId>897cb425-cb0e-4a41-b68c-6358488ed045</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class='headerDesc']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class='headerDesc']</value>
+      <webElementGuid>3ffd56e2-4abb-4f2f-b87c-9da4e48de46a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

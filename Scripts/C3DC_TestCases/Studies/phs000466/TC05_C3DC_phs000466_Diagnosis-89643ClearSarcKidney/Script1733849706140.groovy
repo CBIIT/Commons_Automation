@@ -35,7 +35,7 @@ CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Study/dbGaP_Accessi
 
 WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Diagnosis/Diagnosis-Facet'), 10)
 CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Diagnosis/Diagnosis-Facet')
-
+WebUI.delay(2)
 WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Diagnosis/Diagnosis/Diagnosis-Ddn'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Diagnosis/Diagnosis/Diagnosis-Ddn')
 

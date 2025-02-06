@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ResourcesTitle</name>
+   <tag></tag>
+   <elementGuidId>c31551f5-25fc-4a25-b553-e80aa29d47cc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//h2[@class='resourceTitle']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//h2[@class='resourceTitle']</value>
+      <webElementGuid>1815ac09-731c-43e6-be58-c9ed4ba9e2a6</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

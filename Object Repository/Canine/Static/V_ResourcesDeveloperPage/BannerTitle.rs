@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>BannerTitle</name>
+   <tag></tag>
+   <elementGuidId>f9edb715-4b4f-4bce-97f6-f6642ab65e2a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[text()='Developers']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[text()='Developers']</value>
+      <webElementGuid>1b595539-afd2-4f53-a888-9a4252697ec0</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

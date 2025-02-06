@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ContactEmailLink</name>
+   <tag></tag>
+   <elementGuidId>46896181-aace-4753-ac6c-761895d98fee</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//a[contains(@href,'initiative@mail.nih.gov')])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//a[contains(@href,'initiative@mail.nih.gov')])[2]</value>
+      <webElementGuid>3dd37426-bc22-4117-82ce-0549015469d8</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

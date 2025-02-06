@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>GraphQLDescription</name>
+   <tag></tag>
+   <elementGuidId>d6daed72-ea27-4ef9-9d69-80036c66989e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[text()='GraphQL']/following::div[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[text()='GraphQL']/following::div[1]</value>
+      <webElementGuid>f8f947c8-fd7f-4615-9680-f98f900773ed</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

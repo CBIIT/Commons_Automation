@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>BannerTitle</name>
+   <tag></tag>
+   <elementGuidId>5fcda276-5964-4ef3-b85e-d6ec1363e774</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[text()='Support']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[text()='Support']</value>
+      <webElementGuid>dbc9601b-5426-4fe9-b4aa-c363b2ca39e0</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

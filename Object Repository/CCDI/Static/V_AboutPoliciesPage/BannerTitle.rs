@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>BannerTitle</name>
+   <tag></tag>
+   <elementGuidId>8f8964bb-6d7c-43ab-824b-5fc3c7e383ba</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class='policiesHeaderContainer']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class='policiesHeaderContainer']</value>
+      <webElementGuid>1fe9a9e0-6d5f-42cb-902a-b4c7bdad66c5</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

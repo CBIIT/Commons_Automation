@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>FooterNCILink</name>
+   <tag></tag>
+   <elementGuidId>ed2908c3-358c-4d94-9085-2cfe5849bb00</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href='https://www.cancer.gov']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[@href='https://www.cancer.gov']</value>
+      <webElementGuid>7341f9f9-d3d9-467d-acff-c16df343ab4b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

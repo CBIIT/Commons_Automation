@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_C3DC_phs000471_AnatomicSite-C649KidneyNOS</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>313dcf69-b699-4cca-997c-6a1ebef661e4</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>About-Tab</name>
+   <tag></tag>
+   <elementGuidId>5a474df1-6000-45bb-a6c1-7ed4976e6fa9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[contains(text(),'About')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[contains(text(),'About')]</value>
+      <webElementGuid>12c039c2-b3b1-47ec-acc6-1927a6753cf0</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
