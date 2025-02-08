@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC07_API_Federation_SamplesCountByLibrarySelectionMethod</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7a63e12a-0613-4c6b-9841-84114f1fe7f2</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC14_API_Federation_SamplesCountByTumorTissueMorhphology</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ec598106-e7c3-4646-9cf1-6ac2f8202d40</testCaseGuid>
+</TestCaseEntity>
