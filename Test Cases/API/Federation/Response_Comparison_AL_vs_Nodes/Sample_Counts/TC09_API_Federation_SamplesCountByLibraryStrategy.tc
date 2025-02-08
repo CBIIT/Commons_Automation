@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC09_API_Federation_SamplesCountByLibraryStrategy</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ce75373b-36a9-41a8-9680-cd6d516e4251</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_API_Federation_SamplesCountByDepositions</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4cd5a7e4-eee7-4990-94dd-dece236cad11</testCaseGuid>
+</TestCaseEntity>

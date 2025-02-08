@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC08_API_Federation_SamplesCountByLibrarySourceMaterial</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4355140c-897f-4c3d-a70a-fed483bd383d</testCaseGuid>
+</TestCaseEntity>

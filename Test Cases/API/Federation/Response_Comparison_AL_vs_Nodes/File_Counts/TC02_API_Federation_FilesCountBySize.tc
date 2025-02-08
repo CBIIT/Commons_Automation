@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_API_Federation_FilesCountBySize</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a680ba22-358e-409f-90b0-7a9a410c19ef</testCaseGuid>
+</TestCaseEntity>

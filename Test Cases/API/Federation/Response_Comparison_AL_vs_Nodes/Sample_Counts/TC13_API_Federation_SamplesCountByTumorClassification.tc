@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC13_API_Federation_SamplesCountByTumorClassification</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>20d79564-b27b-4463-af4f-918518717542</testCaseGuid>
+</TestCaseEntity>
