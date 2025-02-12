@@ -29,7 +29,7 @@ import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable
 import utilities.ReadExcel
-
+import org.openqa.selenium.Keys as Keys
 
 public class TestRunner implements Comparator<List<XSSFCell>>{
 	public int compare( List<XSSFCell> l1, List<XSSFCell> l2 ){
@@ -2051,6 +2051,21 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 			if (overallResult == false) {
 				KeywordUtil.markFailed("There is a FAILURE -- verify in output Excel: "+ outputFilePath)
 			}
+		}
+	}
+	
+	/** vleung
+	 * This function clears the text field with backspace based on operating system
+	 * @param textfield - Text field to be cleared
+	 */
+	@Keyword
+	public static clearTextfieldByOs(String textfield) {
+		// Get OS name to detect platform
+		String os = System.getProperty("os.name").toLowerCase()
+		if (os.contains("mac")) {
+			WebUI.sendKeys(findTestObject(textfield), Keys.chord(Keys.COMMAND, "a", Keys.BACK_SPACE))
+		} else {
+			WebUI.sendKeys(findTestObject(textfield), Keys.chord(Keys.CONTROL, "a", Keys.BACK_SPACE))
 		}
 	}
 }  //class ends here

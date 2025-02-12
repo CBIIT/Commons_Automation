@@ -4,5 +4,6 @@
    <name>TC01_Bento_Filter_Age-10_to_30</name>
    <tag>Filter</tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>7202fc4c-c87d-49ef-8da0-1e02479a87b6</testCaseGuid>
 </TestCaseEntity>
