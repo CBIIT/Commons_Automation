@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC10_API_Federation_SamplesCountByPreservationMethod</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e23bf8ea-a558-4096-8e46-b8c9964e8f39</testCaseGuid>
+</TestCaseEntity>

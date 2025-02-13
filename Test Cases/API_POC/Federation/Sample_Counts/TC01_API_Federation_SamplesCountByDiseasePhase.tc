@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC01_API_Federation_SamplesCountByDiseasePhase</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>4e903455-a0b5-42dd-8e31-29e8b20eeaba</testCaseGuid>
-</TestCaseEntity>

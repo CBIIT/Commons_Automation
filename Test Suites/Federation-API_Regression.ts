@@ -15,7 +15,7 @@
       <guid>7bb47446-8db9-420f-b0f3-5cd92058a7ff</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/API_POC/Federation/Subject_Counts/TC01_API_Federation_SubjectsCountByEthnicity</testCaseId>
+      <testCaseId>Test Cases/API/Federation/Response_Comparison_AL_vs_Nodes/Subject_Counts/TC01_API_Federation_SubjectsCountByEthnicity</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

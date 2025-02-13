@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC07_API_Federation_SubjectsCountByDepositions</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2feaa84c-bc6f-4ee7-9037-22a8c91f4722</testCaseGuid>
+</TestCaseEntity>
