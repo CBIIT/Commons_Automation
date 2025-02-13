@@ -1,0 +1,37 @@
+sample_id	sample_type	sample_description	sample_tumor_status	sample_anatomic_site	biosample_accession	type	participant.study_participant_id
+GECCO_3038_Li_P_TS.bam_DNA	DNA	primary_tumor	Tumor	Colon	SAMN15552992	sample	phs002050_DA-2242
+GECCO_3038_Ly_R_TS.bam_DNA	DNA	blood_germline	Normal	Blood	SAMN15550667	sample	phs002050_DA-2242
+GECCO_3480_Li_P_TS.bam_DNA	DNA	primary_tumor	Tumor	Colon	SAMN15554811	sample	phs002050_DA-2269
+GECCO_3480_Ly_R_TS.bam_DNA	DNA	blood_germline	Normal	Blood	SAMN15552550	sample	phs002050_DA-2269
+GECCO_5067_Li_P_TS.bam_DNA	DNA	primary_tumor	Tumor	Rectum	SAMN15552910	sample	phs002050_858581
+GECCO_5067_Ly_R_TS.bam_DNA	DNA	blood_germline	Normal	Blood	SAMN15554777	sample	phs002050_858581
+GECCO_5148_Li_P_TS.bam_DNA	DNA	primary_tumor	Tumor	Colon	SAMN15554819	sample	phs002050_763348
+GECCO_5148_Ly_R_TS.bam_DNA	DNA	blood_germline	Normal	Blood	SAMN15554091	sample	phs002050_763348
+GECCO_5159_Li_P_TS.bam_DNA	DNA	primary_tumor	Tumor	Colon	SAMN15553781	sample	phs002050_837553
+GECCO_5159_Ly_R_TS.bam_DNA	DNA	blood_germline	Normal	Blood	SAMN15554339	sample	phs002050_837553
+GECCO_5170_Li_P_TS.bam_DNA	DNA	primary_tumor	Tumor	Rectum	SAMN15552732	sample	phs002050_806402
+GECCO_5170_Ly_R_TS.bam_DNA	DNA	blood_germline	Normal	Blood	SAMN15553987	sample	phs002050_806402
+GECCO_5232_Li_P_TS.bam_DNA	DNA	primary_tumor	Tumor	Colon	SAMN15553196	sample	phs002050_807950
+GECCO_5232_Ly_R_TS.bam_DNA	DNA	blood_germline	Normal	Blood	SAMN15551277	sample	phs002050_807950
+GECCO_5235_Li_P_TS.bam_DNA	DNA	primary_tumor	Tumor	Colon	SAMN15552649	sample	phs002050_808236
+GECCO_5235_Ly_R_TS.bam_DNA	DNA	blood_germline	Normal	Blood	SAMN15554123	sample	phs002050_808236
+GECCO_5248_Li_P_TS.bam_DNA	DNA	primary_tumor	Tumor	Colon	SAMN15550757	sample	phs002050_707675
+GECCO_5248_Ly_R_TS.bam_DNA	DNA	blood_germline	Normal	Blood	SAMN15549813	sample	phs002050_707675
+GECCO_5256_Li_P_TS.bam_DNA	DNA	primary_tumor	Tumor	Colon	SAMN15554669	sample	phs002050_769441
+GECCO_5256_Ly_R_TS.bam_DNA	DNA	blood_germline	Normal	Blood	SAMN15551987	sample	phs002050_769441
+GECCO_5303_Li_P_TS.bam_DNA	DNA	primary_tumor	Tumor	Colon	SAMN15552180	sample	phs002050_729052
+GECCO_5303_Ly_R_TS.bam_DNA	DNA	blood_germline	Normal	Blood	SAMN15552337	sample	phs002050_729052
+GECCO_5311_Li_P_TS.bam_DNA	DNA	primary_tumor	Tumor	Colon	SAMN15550464	sample	phs002050_848937
+GECCO_5311_Ly_R_TS.bam_DNA	DNA	blood_germline	Normal	Blood	SAMN15553137	sample	phs002050_848937
+GECCO_1128_Li_P_TS.bam_DNA	DNA	primary_tumor	Tumor		SAMN15553817	sample	phs002050_GECCO_1128
+GECCO_1128_Ly_R_TS.bam_DNA	DNA	blood_germline	Normal	Blood	SAMN15550579	sample	phs002050_GECCO_1128
+GECCO_2009_Li_P_TS.bam_DNA	DNA	primary_tumor	Tumor	Colon	SAMN15554352	sample	phs002050_GECCO_2009
+GECCO_2009_Li_R_TS.bam_DNA	DNA	normal_ffpe	Normal		SAMN15550807	sample	phs002050_GECCO_2009
+GECCO_2043_Li_P_TS.bam_DNA	DNA	primary_tumor	Tumor	Colon	SAMN15552315	sample	phs002050_GECCO_2043
+GECCO_2043_Ly_R_TS.bam_DNA	DNA	blood_germline	Normal	Blood	SAMN15554018	sample	phs002050_GECCO_2043
+GECCO_2339_Li_P_TS.bam_DNA	DNA	primary_tumor	Tumor	Rectum	SAMN15550944	sample	phs002050_GECCO_2339
+GECCO_2339_Li_R_TS.bam_DNA	DNA	normal_ffpe	Normal		SAMN15550188	sample	phs002050_GECCO_2339
+GECCO_2354_Li_P_TS.bam_DNA	DNA	primary_tumor	Tumor	Colon	SAMN15551450	sample	phs002050_GECCO_2354
+GECCO_2354_Ly_R_TS.bam_DNA	DNA	blood_germline	Normal	Blood	SAMN15552314	sample	phs002050_GECCO_2354
+GECCO_2376_Bu_R_TS.bam_DNA	DNA	buccal_germline	Normal	Buccal Mucosa	SAMN15553084	sample	phs002050_J8662128
+GECCO_2376_Li_P_TS.bam_DNA	DNA	primary_tumor	Tumor	Colon	SAMN15554423	sample	phs002050_J8662128

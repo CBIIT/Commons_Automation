@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_PRIMARY DIAGNOSIS_Astrocytoma&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Primary Diagnosis_Astrocytoma&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_PRIMARY DIAGNOSIS_Astrocytoma&quot;]</value>
-      <webElementGuid>59aadfc0-e25b-429a-8ac7-fb61fcab2fe7</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Primary Diagnosis_Astrocytoma&quot;]</value>
+      <webElementGuid>e2afc559-bebf-4c06-bc25-57ec09e8e34c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

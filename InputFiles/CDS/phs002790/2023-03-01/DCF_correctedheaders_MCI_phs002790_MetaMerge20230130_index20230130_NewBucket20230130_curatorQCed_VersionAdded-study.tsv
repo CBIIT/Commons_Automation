@@ -1,0 +1,40 @@
+study_name	study_acronym	study_description	study_external_url	primary_investigator_name	primary_investigator_email	phs_accession	funding_source_program_name	grant_id	organism_species	adult_or_childhood_study	number_of_participants	number_of_samples	study_data_types	acl	study_access	study_version	type	program.program_acronym	data_access_level	file_types_and_format
+Molecular Characterization Initiative	MCI	"The National Cancer Institute's (NCI) Childhood Cancer Data Initiative (CCDI) focuses on the critical need to collect, analyze, and share data to address the burden of cancer in children, adolescents, and young adults (AYAs). The Molecular Characterization Initiative (MCI) will further the CCDI's goals by providing access to better diagnostic tests for pediatric and AYA patients. The molecular characterizations of solid tumors, soft tissue sarcomas, and rare diseases are performed in a CLIA-certified setting as results may be used to screen for and/or confirm clinical trial eligibility, direct treatment, or otherwise contribute to the conduct of the trial. The following molecular characterization assays were performed:
+
+Tumor/Normal Whole Exome sequencing
+Methylation arrays
+Archer fusion panel
+Deidentified clinical reports
+Note: The initial release contains data associated with 296 subjects. More data will be added periodically, please check the dbGaP/SBG site for updates.
+
+Study Weblinks:
+CCDI Molecular Characterization Initiative
+Study Design:
+Tumor vs. Matched-Normal
+Study Type:
+Aggregate Genomic Data
+Clinical Diagnostic Testing
+Exome Sequencing
+Individual-Level Genomic Data
+Transcriptome Analysis
+Tumor vs. Matched-Normal
+Total number of consented subjects: 380, The National Cancer Institute's (NCI) Childhood Cancer Data Initiative (CCDI) focuses on the critical need to collect, analyze, and share data to address the burden of cancer in children, adolescents, and young adults (AYAs). The Molecular Characterization Initiative (MCI) will further the CCDI's goals by providing access to better diagnostic tests for pediatric and AYA patients. The molecular characterizations of solid tumors, soft tissue sarcomas, and rare diseases are performed in a CLIA-certified setting as results may be used to screen for and/or confirm clinical trial eligibility, direct treatment, or otherwise contribute to the conduct of the trial. The following molecular characterization assays were performed:
+
+Tumor/Normal Whole Exome sequencing
+Methylation arrays
+Archer fusion panel
+Deidentified clinical reports
+Note: The initial release contains data associated with 296 subjects. More data will be added periodically, please check the dbGaP/SBG site for updates.
+
+Study Weblinks:
+CCDI Molecular Characterization Initiative
+Study Design:
+Tumor vs. Matched-Normal
+Study Type:
+Aggregate Genomic Data
+Clinical Diagnostic Testing
+Exome Sequencing
+Individual-Level Genomic Data
+Transcriptome Analysis
+Tumor vs. Matched-Normal
+Total number of consented subjects: 756"	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002790.v2.p1	Dr. Elaine Mardis	Elaine.Mardis@nationwidechildrens.org	phs002790	CCDI Molecular Characterization Initiative	75N91019D00024	Human	Pediatric	1	1	Genomic	['phs002790']	Controlled	phs002790.v7.p1|phs002790.v6.p1|phs002790.v5.p1|phs002790.v4.p1|phs002790.v3.p1|phs002790.v2.p1|phs002790.v1.p1	study	CCDI	Not specified in data	

@@ -1,0 +1,37 @@
+sample_id	sample_type	sample_description	sample_tumor_status	sample_anatomic_site	biosample_accession	type	participant.study_participant_id
+TC303F3_Primary Xenograft Tissue	Primary Xenograft Tissue	Carcinoma, Non-Small-Cell Lung	Tumor	Subcutaneous Tissue	SAMN14432555	sample	phs001980_1
+TC393F2_Primary Xenograft Tissue	Primary Xenograft Tissue	Carcinoma, Non-Small-Cell Lung	Tumor	Subcutaneous Tissue	SAMN14432554	sample	phs001980_2
+TC453F2_Primary Xenograft Tissue	Primary Xenograft Tissue	Carcinoma, Non-Small-Cell Lung	Tumor	Subcutaneous Tissue	SAMN14432551	sample	phs001980_3
+TC494F4_Primary Xenograft Tissue	Primary Xenograft Tissue	Carcinoma, Non-Small-Cell Lung	Tumor	Subcutaneous Tissue	SAMN14432553	sample	phs001980_4
+TC551F2_Primary Xenograft Tissue	Primary Xenograft Tissue	Carcinoma, Non-Small-Cell Lung	Tumor	Subcutaneous Tissue	SAMN14432552	sample	phs001980_5
+TC355PT_Tumor	Tumor	Carcinoma, Non-Small-Cell Lung	Tumor	Lung	SAMN24367320	sample	phs001980_6
+TC372PT_Tumor	Tumor	Carcinoma, Non-Small-Cell Lung	Tumor	Lung	SAMN24367334	sample	phs001980_7
+TC375PT_Tumor	Tumor	Carcinoma, Non-Small-Cell Lung	Tumor	Lung	SAMN24367282	sample	phs001980_8
+TC388PT_Tumor	Tumor	Carcinoma, Non-Small-Cell Lung	Tumor	Lung	SAMN24367309	sample	phs001980_9
+TC389PT_Tumor	Tumor	Carcinoma, Non-Small-Cell Lung	Tumor	Lung	SAMN24367280	sample	phs001980_10
+TC395PT_Tumor	Tumor	Carcinoma, Non-Small-Cell Lung	Tumor	Lung	SAMN24367322	sample	phs001980_11
+TC411PT_Tumor	Tumor	Carcinoma, Non-Small-Cell Lung	Tumor	Lung	SAMN24367287	sample	phs001980_12
+TC427PT_Tumor	Tumor	Carcinoma, Non-Small-Cell Lung	Tumor	Lung	SAMN24367327	sample	phs001980_13
+TC435PT_Tumor	Tumor	Carcinoma, Non-Small-Cell Lung	Tumor	Lung	SAMN24367311	sample	phs001980_14
+TC441PT_Tumor	Tumor	Carcinoma, Non-Small-Cell Lung	Tumor	Lung	SAMN24367330	sample	phs001980_15
+TC451PT_Tumor	Tumor	Carcinoma, Non-Small-Cell Lung	Tumor	Lung	SAMN24367294	sample	phs001980_16
+TC454PT_Tumor	Tumor	Carcinoma, Non-Small-Cell Lung	Tumor	Lung	SAMN24367326	sample	phs001980_17
+TC474PT_Tumor	Tumor	Carcinoma, Non-Small-Cell Lung	Tumor	Lung	SAMN24367335	sample	phs001980_18
+TC476PT_Tumor	Tumor	Carcinoma, Non-Small-Cell Lung	Tumor	Lung	SAMN24367349	sample	phs001980_19
+TC526P1.XABCL_RNA_Cell Line Derived Xenograft Tissue	Cell Line Derived Xenograft Tissue	Xenograft Associated B Cell Lymphoma	Tumor	Subcutaneous Tissue	SAMN24367350	sample	phs001980_20
+TC539PT_Tumor	Tumor	Carcinoma, Non-Small-Cell Lung	Tumor	Lung	SAMN24367331	sample	phs001980_21
+TC540P1.XABCL_RNA_Cell Line Derived Xenograft Tissue	Cell Line Derived Xenograft Tissue	Xenograft Associated B Cell Lymphoma	Tumor	Subcutaneous Tissue	SAMN24367332	sample	phs001980_22
+TC650P1.XABCL_RNA_Cell Line Derived Xenograft Tissue	Cell Line Derived Xenograft Tissue	Xenograft Associated B Cell Lymphoma	Tumor	Subcutaneous Tissue	SAMN24367325	sample	phs001980_23
+TC859PT_Tumor	Tumor	Carcinoma, Non-Small-Cell Lung	Tumor	Lung	SAMN24367295	sample	phs001980_24
+TC211PT_Tumor	Tumor	Carcinoma, Non-Small-Cell Lung	Tumor	Lung	SAMN24367286	sample	phs001980_25
+TC223PT_Tumor	Tumor	Carcinoma, Non-Small-Cell Lung	Tumor	Lung	SAMN24367289	sample	phs001980_26
+TC241PT_Tumor	Tumor	Carcinoma, Non-Small-Cell Lung	Tumor	Lung	SAMN24367288	sample	phs001980_27
+TC255PT_Tumor	Tumor	Carcinoma, Non-Small-Cell Lung	Tumor	Lung	SAMN24367324	sample	phs001980_28
+TC397PT_Tumor	Tumor	Carcinoma, Non-Small-Cell Lung	Tumor	Lung	SAMN24367321	sample	phs001980_29
+TC402PT_Tumor	Tumor	Carcinoma, Non-Small-Cell Lung	Tumor	Lung	SAMN24367301	sample	phs001980_30
+TC404PT_Tumor	Tumor	Carcinoma, Non-Small-Cell Lung	Tumor	Lung	SAMN24367343	sample	phs001980_31
+TC496PT_Tumor	Tumor	Carcinoma, Non-Small-Cell Lung	Tumor	Lung	SAMN24367315	sample	phs001980_32
+TC524PT_Tumor	Tumor	Carcinoma, Non-Small-Cell Lung	Tumor	Lung	SAMN24367336	sample	phs001980_33
+TC723PT_Tumor	Tumor	Carcinoma, Non-Small-Cell Lung	Tumor	Lung	SAMN24367347	sample	phs001980_34
+TC805PT_Tumor	Tumor	Carcinoma, Non-Small-Cell Lung	Tumor	Lung	SAMN24367344	sample	phs001980_35
+TC929PT_Tumor	Tumor	Carcinoma, Non-Small-Cell Lung	Tumor	Lung	SAMN24367346	sample	phs001980_36

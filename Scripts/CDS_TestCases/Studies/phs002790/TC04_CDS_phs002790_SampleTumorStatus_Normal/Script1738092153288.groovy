@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
  */
 WebUI.closeBrowser()
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC04_CDS_phs001905_SampleTumorStatus_NSD.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC04_CDS_phs002790_SampleTumorStatus_Normal.xlsx')
 
 CustomKeywords.'utilities.TestRunner.clickTab'('Bento/Banner/Bento_Warning_Continue_Btn')
 

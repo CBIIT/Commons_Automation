@@ -1,0 +1,6 @@
+sample_id	sample_type	sample_tumor_status	sample_anatomic_site	biosample_accession	type	participant.study_participant_id
+199644_DNA	DNA	Normal	Blood	SAMN14598207	sample	phs001787_11535
+10294X9_436_3_DNA	DNA	Normal	Blood	SAMN11612094	sample	phs001787_11535
+10294X9_746_5_DNA	DNA	Normal	Blood	SAMN11612117	sample	phs001787_11535
+700226_DNA	DNA	Normal	Blood	SAMN14598217	sample	phs001787_13619
+11125X7_195_2_DNA	DNA	Normal	Blood	SAMN11612068	sample	phs001787_13619
