@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC03_CDS_phs001905_ExperimentalStrategy_TargetedSeq</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>984a4357-6bc5-4e1f-8e42-448a0754f24f</testCaseGuid>
-</TestCaseEntity>
