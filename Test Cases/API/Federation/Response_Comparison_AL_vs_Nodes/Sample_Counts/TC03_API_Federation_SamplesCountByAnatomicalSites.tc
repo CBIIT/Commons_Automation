@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_API_Federation_SamplesCountByAnatomicalSites</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>16b32467-1f60-4f84-9388-5ce2ac13054e</testCaseGuid>
+</TestCaseEntity>

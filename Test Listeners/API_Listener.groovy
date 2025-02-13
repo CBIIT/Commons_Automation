@@ -31,8 +31,8 @@ import com.kms.katalon.core.context.TestSuiteContext
         // Get the full test case path
         String testCaseId = testCaseContext.getTestCaseId()
 
-        // Check if the test case is under the API_POC folder
-        if (testCaseId.contains('/API_POC/')) {
+        // Check if the test case is under the API folder
+        if (testCaseId.contains('/API/')) {
             // Get the current test case name from the context
             String testCaseName = testCaseId.split('/').last()
             println("Running test case: " + testCaseName + " in API_POC folder")

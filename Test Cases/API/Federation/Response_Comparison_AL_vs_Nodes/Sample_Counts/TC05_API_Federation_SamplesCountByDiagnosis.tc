@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_API_Federation_SamplesCountByDiagnosis</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>48e8895b-8e68-4015-b502-04d21a309948</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_API_Federation_SamplesCountByAgeAtDiagnosis</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1e06ba4c-45de-497a-b782-e2a51b6d3eff</testCaseGuid>
+</TestCaseEntity>

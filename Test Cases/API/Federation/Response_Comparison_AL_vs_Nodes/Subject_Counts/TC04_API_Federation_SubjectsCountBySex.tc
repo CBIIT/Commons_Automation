@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_API_Federation_SubjectsCountBySex</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bb9f15fb-82e3-4e69-9cdc-5f9c86a35bc4</testCaseGuid>
+</TestCaseEntity>

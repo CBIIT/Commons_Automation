@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_API_Federation_FilesCountByType</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b749040a-83eb-4534-95ae-f0fd95e1fc51</testCaseGuid>
+</TestCaseEntity>

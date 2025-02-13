@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_API_Federation_SubjectsCountByRace</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>49c8999d-d98a-4d6b-aac4-3e1c768fa0a5</testCaseGuid>
+</TestCaseEntity>

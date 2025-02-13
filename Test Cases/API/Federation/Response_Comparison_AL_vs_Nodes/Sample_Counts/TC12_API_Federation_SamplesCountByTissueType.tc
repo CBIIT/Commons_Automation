@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC12_API_Federation_SamplesCountByTissueType</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>aceecc9f-5418-4709-a345-b862a8d0bd7c</testCaseGuid>
+</TestCaseEntity>

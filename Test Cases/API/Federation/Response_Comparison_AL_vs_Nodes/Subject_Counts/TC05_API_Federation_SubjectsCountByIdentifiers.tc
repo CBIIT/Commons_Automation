@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_API_Federation_SubjectsCountByIdentifiers</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7f6dcb66-dfd0-4059-a54d-eaf39a323dd5</testCaseGuid>
+</TestCaseEntity>
