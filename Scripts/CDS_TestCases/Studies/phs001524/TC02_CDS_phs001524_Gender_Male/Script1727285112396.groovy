@@ -39,12 +39,12 @@ WebUI.waitForElementPresent(findTestObject('CDS/Data_page/Filter/StudyFacet/PHS_
 CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/Data_page/Filter/StudyFacet/PHS_Accession/PHS_Accession_Ddn')
 
 //Clicking Gender dropdown
-WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/DemographicsFacet/Sex/Sex-Ddn'),5)
-CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/DemographicsFacet/Gender/Gender-Ddn')
+WebUI.waitForElementPresent(findTestObject('CDS/Data_page/Filter/DemographicsFacet/Sex/Sex-Ddn'),5)
+CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/Data_page/Filter/DemographicsFacet/Sex/Sex-Ddn')
 
 //Clicking Male checkbox
-WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/DemographicsFacet/Sex/Male-Chkbx'),5)
-CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/DemographicsFacet/Gender/Male-Chkbx')
+WebUI.waitForElementPresent(findTestObject('CDS/Data_page/Filter/DemographicsFacet/Sex/Male-Chkbx'),5)
+CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/Data_page/Filter/DemographicsFacet/Sex/Male-Chkbx')
 
 //Read statbar
 CustomKeywords.'utilities.TestRunner.readStatBarCDS'('Object Repository/CDS/StatBar/CDS_StatBar-Studies',
