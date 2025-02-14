@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC07_CDS_phs002518_LibrarySource_Bulkcells</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c292a95a-532b-463d-8fc4-b18ad320349d</testCaseGuid>
+</TestCaseEntity>

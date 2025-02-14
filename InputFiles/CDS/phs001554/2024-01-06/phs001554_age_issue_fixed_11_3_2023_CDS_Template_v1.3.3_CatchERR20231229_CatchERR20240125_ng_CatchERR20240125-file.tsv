@@ -1,0 +1,9 @@
+file_id	file_name	file_type	file_size	md5sum	file_url_in_cds	experimental_strategy_and_data_subtypes	submission_version	type	sample.sample_id	study.phs_accession	participant.study_participant_id
+dg.4DFC/48ba9f6e-a67b-11ee-84da-4ffd57ef77b4	117828.recal.cram	CRAM	37579538046	8120a1027e07a1fa6c2277cf1b4809ca	s3://sddp-phs001554/117828.recal.cram	GWA	phs001554.v1.p1	file	117828_DNA	phs001554	phs001554_117828
+dg.4DFC/48bb8ece-a67b-11ee-9327-b3bdefbb63f7	117828.recal.cram.crai	CRAI	1696131	714b920202d4c415507ce99bd575856a	s3://sddp-phs001554/117828.recal.cram.crai	GWA	phs001554.v1.p1	file	117828_DNA	phs001554	phs001554_117828
+dg.4DFC/48bbb7b4-a67b-11ee-b02d-a7c05d545193	117921.recal.cram	CRAM	40315675076	23037776e1f6319dcd68e34659b3716c	s3://sddp-phs001554/117921.recal.cram	GWA	phs001554.v1.p1	file	117921_DNA	phs001554	phs001554_117921
+dg.4DFC/48bbe018-a67b-11ee-97a0-cfa17f0bfde3	117921.recal.cram.crai	CRAI	1659354	a91df5e3319cd0727d64694bdeaa9875	s3://sddp-phs001554/117921.recal.cram.crai	GWA	phs001554.v1.p1	file	117921_DNA	phs001554	phs001554_117921
+dg.4DFC/48bc07c8-a67b-11ee-ac2b-7f524055fd73	118154.recal.cram	CRAM	36626785737	4450d023b9c51c9e6aa42e49bff47c96	s3://sddp-phs001554/118154.recal.cram	GWA	phs001554.v1.p1	file	118154_DNA	phs001554	phs001554_118154
+dg.4DFC/48bc2f64-a67b-11ee-a8f5-63bbc8ed0844	118154.recal.cram.crai	CRAI	1399994	58f261faa00a0faa6a96b88621b0d661	s3://sddp-phs001554/118154.recal.cram.crai	GWA	phs001554.v1.p1	file	118154_DNA	phs001554	phs001554_118154
+dg.4DFC/48bc57aa-a67b-11ee-96ec-cba6e26e7668	118272.recal.cram	CRAM	35593883215	8366f313a89181cc01e17b7acb64a638	s3://sddp-phs001554/118272.recal.cram	GWA	phs001554.v1.p1	file	118272_DNA	phs001554	phs001554_118272
+dg.4DFC/48bc82a2-a67b-11ee-b5c7-3fad393095bd	118272.recal.cram.crai	CRAI	1429103	0344f5e4d85e279815c8a922524b4898	s3://sddp-phs001554/118272.recal.cram.crai	GWA	phs001554.v1.p1	file	118272_DNA	phs001554	phs001554_118272

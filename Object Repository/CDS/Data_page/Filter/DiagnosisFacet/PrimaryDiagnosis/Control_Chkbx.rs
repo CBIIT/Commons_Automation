@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_PRIMARY DIAGNOSIS_Control&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Primary Diagnosis_Control&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_PRIMARY DIAGNOSIS_Control&quot;]</value>
-      <webElementGuid>60860bd5-8d15-4f50-94be-80954a193997</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Primary Diagnosis_Control&quot;]</value>
+      <webElementGuid>0a2ad279-dd15-4e00-8dad-10a89a35880b</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

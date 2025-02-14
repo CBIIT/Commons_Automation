@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC07_CDS_phs003432_LibrarySource_GenomicSingleCell</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>678fe4bd-08ab-4a4c-8697-994fdeeace60</testCaseGuid>
+</TestCaseEntity>

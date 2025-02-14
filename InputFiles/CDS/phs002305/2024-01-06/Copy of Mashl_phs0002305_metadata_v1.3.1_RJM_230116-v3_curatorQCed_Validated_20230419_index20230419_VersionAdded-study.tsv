@@ -1,0 +1,9 @@
+study_name	study_description	study_external_url	primary_investigator_name	primary_investigator_email	phs_accession	bioproject_accession	funding_agency	funding_source_program_name	number_of_participants	number_of_samples	study_data_types	file_types_and_format	acl	study_access	study_version	type	program.program_acronym	data_access_level
+Washington University PDX Development and Trial Center	"This data set is a collection of patient specimens from common and rare cancers that have been developed into patient-derived xenograft (PDX) models at the Washington University PDX Development and Trial Center (WU-PDTC). The goal of the PDTC is to develop and characterize PDX models, gaining insight into tumor biology, and validating biomarkers across all major tumor types. Pre-clinical experiments in these PDX models will be used to advance our ability to predict clinical responses to new molecularly targeted agents under development.
+
+Study Design:
+Tumor vs. Matched-Normal
+Study Type:
+Tumor
+Tumor vs. Matched-Normal
+Total number of consented subjects: 127"	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002305.v1.p1	Ramaswamy Govindan, MD	rgovindan@wustl.edu	phs002305	PRJNA683678	NCI	NCI PDXNet Initiative	110	427	Genomic	fastq	['phs002305']	Controlled	phs002305.v1.p1	study	PDXNet	Not specified in data

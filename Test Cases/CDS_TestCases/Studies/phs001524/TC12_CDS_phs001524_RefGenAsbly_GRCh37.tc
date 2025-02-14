@@ -4,5 +4,6 @@
    <name>TC12_CDS_phs001524_RefGenAsbly_GRCh37</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>0a8e789e-cc53-42ab-a225-fef5860d113d</testCaseGuid>
 </TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC13_CDS_phs002050_FileType_BAM</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>438fc9f6-0472-4f8c-9cae-f4d1002f5ea2</testCaseGuid>
+</TestCaseEntity>

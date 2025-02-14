@@ -1,0 +1,37 @@
+disease_type	primary_diagnosis	tumor_grade	type	diagnosis_id	study_diagnosis_id	participant.study_participant_id
+Lymphoma	Lymphoma, NOS	G2	diagnosis	19.0	phs001980_19_19	phs001980_19
+Lymphoma	Lymphoma, NOS		diagnosis	20.0	phs001980_20_20	phs001980_20
+Lymphoma	Lymphoma, NOS	G3	diagnosis	26.0	phs001980_26_26	phs001980_26
+Lymphoma	Lymphoma, NOS	G1	diagnosis	6.0	phs001980_6_6	phs001980_6
+Lymphoma	Lymphoma, NOS	G2	diagnosis	10.0	phs001980_10_10	phs001980_10
+Lymphoma	Lymphoma, NOS	G3	diagnosis	3.0	phs001980_3_3	phs001980_3
+Lymphoma	Lymphoma, NOS	G2	diagnosis	27.0	phs001980_27_27	phs001980_27
+Lymphoma	Lymphoma, NOS	G2	diagnosis	34.0	phs001980_34_34	phs001980_34
+Lymphoma	Lymphoma, NOS	G3	diagnosis	33.0	phs001980_33_33	phs001980_33
+Lymphoma	Lymphoma, NOS	G3	diagnosis	30.0	phs001980_30_30	phs001980_30
+Lymphoma	Lymphoma, NOS	G2	diagnosis	35.0	phs001980_35_35	phs001980_35
+Lymphoma	Lymphoma, NOS	G2	diagnosis	15.0	phs001980_15_15	phs001980_15
+Lymphoma	Lymphoma, NOS	G2	diagnosis	29.0	phs001980_29_29	phs001980_29
+Lymphoma	Lymphoma, NOS	G3	diagnosis	1.0	phs001980_1_1	phs001980_1
+Lymphoma	Lymphoma, NOS	G2	diagnosis	8.0	phs001980_8_8	phs001980_8
+Lymphoma	Lymphoma, NOS	G1	diagnosis	17.0	phs001980_17_17	phs001980_17
+Lymphoma	Lymphoma, NOS	G2	diagnosis	24.0	phs001980_24_24	phs001980_24
+Lymphoma	Lymphoma, NOS	G2	diagnosis	16.0	phs001980_16_16	phs001980_16
+Lymphoma	Lymphoma, NOS	G3	diagnosis	7.0	phs001980_7_7	phs001980_7
+Lymphoma	Lymphoma, NOS		diagnosis	22.0	phs001980_22_22	phs001980_22
+Lymphoma	Lymphoma, NOS	G2	diagnosis	9.0	phs001980_9_9	phs001980_9
+Lymphoma	Lymphoma, NOS		diagnosis	5.0	phs001980_5_5	phs001980_5
+Lymphoma	Lymphoma, NOS	G3	diagnosis	11.0	phs001980_11_11	phs001980_11
+Lymphoma	Lymphoma, NOS	G3	diagnosis	18.0	phs001980_18_18	phs001980_18
+Lymphoma	Lymphoma, NOS		diagnosis	23.0	phs001980_23_23	phs001980_23
+Lymphoma	Lymphoma, NOS	G2	diagnosis	13.0	phs001980_13_13	phs001980_13
+Lymphoma	Lymphoma, NOS	G2	diagnosis	4.0	phs001980_4_4	phs001980_4
+Lymphoma	Lymphoma, NOS		diagnosis	31.0	phs001980_31_31	phs001980_31
+Lymphoma	Lymphoma, NOS	G2	diagnosis	12.0	phs001980_12_12	phs001980_12
+Lymphoma	Lymphoma, NOS	G2	diagnosis	36.0	phs001980_36_36	phs001980_36
+Lymphoma	Lymphoma, NOS	G3	diagnosis	32.0	phs001980_32_32	phs001980_32
+Lymphoma	Lymphoma, NOS	G1	diagnosis	21.0	phs001980_21_21	phs001980_21
+Lymphoma	Lymphoma, NOS	G2	diagnosis	2.0	phs001980_2_2	phs001980_2
+Lymphoma	Lymphoma, NOS	G3	diagnosis	28.0	phs001980_28_28	phs001980_28
+Lymphoma	Lymphoma, NOS	G1	diagnosis	14.0	phs001980_14_14	phs001980_14
+Lymphoma	Lymphoma, NOS	G3	diagnosis	25.0	phs001980_25_25	phs001980_25

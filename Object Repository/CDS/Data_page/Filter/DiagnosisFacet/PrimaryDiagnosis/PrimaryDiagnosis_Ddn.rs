@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;PRIMARY DIAGNOSIS&quot;]/div[2]</value>
+         <value>//*[@id=&quot;Primary Diagnosis&quot;]/div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;PRIMARY DIAGNOSIS&quot;]/div[2]</value>
-      <webElementGuid>5fdedb03-b9f9-4599-b40e-c9e14729d056</webElementGuid>
+      <value>//*[@id=&quot;Primary Diagnosis&quot;]/div[2]</value>
+      <webElementGuid>3693b2e9-440c-4f40-aa1d-e121c9dde9cb</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

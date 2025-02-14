@@ -1,0 +1,837 @@
+participant_id	race	gender	ethnicity	type	study_participant_id	study.phs_accession
+DFCI-PED-CCDI-PT1010	Unknown	Male	Unknown	participant	phs002677_DFCI-PED-CCDI-PT1010	phs002677
+DFCI-PED-CCDI-PT112	Unknown	Male	Unknown	participant	phs002677_DFCI-PED-CCDI-PT112	phs002677
+DFCI-PED-CCDI-PT242	Unknown	Male	Unknown	participant	phs002677_DFCI-PED-CCDI-PT242	phs002677
+DFCI-PED-CCDI-PT683	Unknown	Male	Unknown	participant	phs002677_DFCI-PED-CCDI-PT683	phs002677
+DFCI-PED-CCDI-PT684	Unknown	Male	Unknown	participant	phs002677_DFCI-PED-CCDI-PT684	phs002677
+DFCI-PED-CCDI-PT685	Unknown	Female	Unknown	participant	phs002677_DFCI-PED-CCDI-PT685	phs002677
+DFCI-PED-CCDI-PT687	Unknown	Male	Unknown	participant	phs002677_DFCI-PED-CCDI-PT687	phs002677
+DFCI-PED-CCDI-PT688	Unknown	Female	Unknown	participant	phs002677_DFCI-PED-CCDI-PT688	phs002677
+DFCI-PED-CCDI-PT690	Unknown	Male	Unknown	participant	phs002677_DFCI-PED-CCDI-PT690	phs002677
+DFCI-PED-CCDI-PT691	Unknown	Male	Unknown	participant	phs002677_DFCI-PED-CCDI-PT691	phs002677
+DFCI-PED-CCDI-PT692	Unknown	Female	Unknown	participant	phs002677_DFCI-PED-CCDI-PT692	phs002677
+DFCI-PED-CCDI-PT696	Unknown	Male	Unknown	participant	phs002677_DFCI-PED-CCDI-PT696	phs002677
+DFCI-PED-CCDI-PT697	Unknown	Male	Unknown	participant	phs002677_DFCI-PED-CCDI-PT697	phs002677
+DFCI-PED-CCDI-PT704	Unknown	Female	Unknown	participant	phs002677_DFCI-PED-CCDI-PT704	phs002677
+DFCI-PED-CCDI-PT711	Unknown	Female	Unknown	participant	phs002677_DFCI-PED-CCDI-PT711	phs002677
+DFCI-PED-CCDI-PT72	Unknown	Male	Unknown	participant	phs002677_DFCI-PED-CCDI-PT72	phs002677
+DFCI-PED-CCDI-PT720	Unknown	Male	Unknown	participant	phs002677_DFCI-PED-CCDI-PT720	phs002677
+DFCI-PED-CCDI-PT727	Unknown	Female	Unknown	participant	phs002677_DFCI-PED-CCDI-PT727	phs002677
+DFCI-PED-CCDI-PT728	Unknown	Male	Unknown	participant	phs002677_DFCI-PED-CCDI-PT728	phs002677
+DFCI-PED-CCDI-PT729	Unknown	Male	Unknown	participant	phs002677_DFCI-PED-CCDI-PT729	phs002677
+DFCI-PED-CCDI-PT731	Unknown	Female	Unknown	participant	phs002677_DFCI-PED-CCDI-PT731	phs002677
+DFCI-PED-CCDI-PT732	Unknown	Female	Unknown	participant	phs002677_DFCI-PED-CCDI-PT732	phs002677
+DFCI-PED-CCDI-PT733	Unknown	Female	Unknown	participant	phs002677_DFCI-PED-CCDI-PT733	phs002677
+DFCI-PED-CCDI-PT734	Unknown	Male	Unknown	participant	phs002677_DFCI-PED-CCDI-PT734	phs002677
+DFCI-PED-CCDI-PT735	Unknown	Male	Unknown	participant	phs002677_DFCI-PED-CCDI-PT735	phs002677
+DFCI-PED-CCDI-PT736	Unknown	Male	Unknown	participant	phs002677_DFCI-PED-CCDI-PT736	phs002677
+DFCI-PED-CCDI-PT737	Unknown	Male	Unknown	participant	phs002677_DFCI-PED-CCDI-PT737	phs002677
+DFCI-PED-CCDI-PT738	Unknown	Female	Unknown	participant	phs002677_DFCI-PED-CCDI-PT738	phs002677
+DFCI-PED-CCDI-PT739	Unknown	Female	Unknown	participant	phs002677_DFCI-PED-CCDI-PT739	phs002677
+DFCI-PED-CCDI-PT74	Unknown	Female	Unknown	participant	phs002677_DFCI-PED-CCDI-PT74	phs002677
+DFCI-PED-CCDI-PT740	Unknown	Male	Unknown	participant	phs002677_DFCI-PED-CCDI-PT740	phs002677
+DFCI-PED-CCDI-PT741	Unknown	Male	Unknown	participant	phs002677_DFCI-PED-CCDI-PT741	phs002677
+DFCI-PED-CCDI-PT742	Unknown	Male	Unknown	participant	phs002677_DFCI-PED-CCDI-PT742	phs002677
+DFCI-PED-CCDI-PT743	Unknown	Male	Unknown	participant	phs002677_DFCI-PED-CCDI-PT743	phs002677
+DFCI-PED-CCDI-PT744	Unknown	Female	Unknown	participant	phs002677_DFCI-PED-CCDI-PT744	phs002677
+DFCI-PED-CCDI-PT745	Unknown	Male	Unknown	participant	phs002677_DFCI-PED-CCDI-PT745	phs002677
+DFCI-PED-CCDI-PT746	Unknown	Male	Unknown	participant	phs002677_DFCI-PED-CCDI-PT746	phs002677
+DFCI-PED-CCDI-PT747	Unknown	Female	Unknown	participant	phs002677_DFCI-PED-CCDI-PT747	phs002677
+DFCI-PED-CCDI-PT748	Unknown	Male	Unknown	participant	phs002677_DFCI-PED-CCDI-PT748	phs002677
+DFCI-PED-CCDI-PT749	Unknown	Male	Unknown	participant	phs002677_DFCI-PED-CCDI-PT749	phs002677
+DFCI-PED-CCDI-PT750	Unknown	Male	Unknown	participant	phs002677_DFCI-PED-CCDI-PT750	phs002677
+DFCI-PED-CCDI-PT751	Unknown	Male	Unknown	participant	phs002677_DFCI-PED-CCDI-PT751	phs002677
+DFCI-PED-CCDI-PT752	Unknown	Male	Unknown	participant	phs002677_DFCI-PED-CCDI-PT752	phs002677
+DFCI-PED-CCDI-PT754	Unknown	Male	Unknown	participant	phs002677_DFCI-PED-CCDI-PT754	phs002677
+DFCI-PED-CCDI-PT755	Unknown	Female	Unknown	participant	phs002677_DFCI-PED-CCDI-PT755	phs002677
+DFCI-PED-CCDI-PT758	Unknown	Female	Unknown	participant	phs002677_DFCI-PED-CCDI-PT758	phs002677
+DFCI-PED-CCDI-PT759	Unknown	Male	Unknown	participant	phs002677_DFCI-PED-CCDI-PT759	phs002677
+GENIE-DFCI-000177	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-000177	phs002677
+GENIE-DFCI-000504	White	Female	Unknown	participant	phs002677_GENIE-DFCI-000504	phs002677
+GENIE-DFCI-000532	Black or African American	Male	Unknown	participant	phs002677_GENIE-DFCI-000532	phs002677
+GENIE-DFCI-000999	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-000999	phs002677
+GENIE-DFCI-001020	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-001020	phs002677
+GENIE-DFCI-001220	White	Female	Not Reported	participant	phs002677_GENIE-DFCI-001220	phs002677
+GENIE-DFCI-001554	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-001554	phs002677
+GENIE-DFCI-001569	Black or African American	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-001569	phs002677
+GENIE-DFCI-001640	White	Female	Unknown	participant	phs002677_GENIE-DFCI-001640	phs002677
+GENIE-DFCI-001692	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-001692	phs002677
+GENIE-DFCI-002237	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-002237	phs002677
+GENIE-DFCI-002279	White	Female	Unknown	participant	phs002677_GENIE-DFCI-002279	phs002677
+GENIE-DFCI-002282	White	Female	Unknown	participant	phs002677_GENIE-DFCI-002282	phs002677
+GENIE-DFCI-002287	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-002287	phs002677
+GENIE-DFCI-002404	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-002404	phs002677
+GENIE-DFCI-002468	White	Female	Unknown	participant	phs002677_GENIE-DFCI-002468	phs002677
+GENIE-DFCI-002637	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-002637	phs002677
+GENIE-DFCI-002714	Asian	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-002714	phs002677
+GENIE-DFCI-002843	Unknown	Female	Not Reported	participant	phs002677_GENIE-DFCI-002843	phs002677
+GENIE-DFCI-002972	White	Female	Unknown	participant	phs002677_GENIE-DFCI-002972	phs002677
+GENIE-DFCI-003240	White	Male	Unknown	participant	phs002677_GENIE-DFCI-003240	phs002677
+GENIE-DFCI-003253	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-003253	phs002677
+GENIE-DFCI-003328	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-003328	phs002677
+GENIE-DFCI-003386	Not Allowed to Collect	Male	Not Allowed to Collect	participant	phs002677_GENIE-DFCI-003386	phs002677
+GENIE-DFCI-003406	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-003406	phs002677
+GENIE-DFCI-003468	Not Allowed to Collect	Male	Not Allowed to Collect	participant	phs002677_GENIE-DFCI-003468	phs002677
+GENIE-DFCI-003566	White	Male	Unknown	participant	phs002677_GENIE-DFCI-003566	phs002677
+GENIE-DFCI-003740	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-003740	phs002677
+GENIE-DFCI-003749	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-003749	phs002677
+GENIE-DFCI-003846	White	Male	Hispanic or Latino	participant	phs002677_GENIE-DFCI-003846	phs002677
+GENIE-DFCI-003890	Asian	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-003890	phs002677
+GENIE-DFCI-004252	White	Male	Unknown	participant	phs002677_GENIE-DFCI-004252	phs002677
+GENIE-DFCI-004282	White	Female	Hispanic or Latino	participant	phs002677_GENIE-DFCI-004282	phs002677
+GENIE-DFCI-004324	White	Female	Unknown	participant	phs002677_GENIE-DFCI-004324	phs002677
+GENIE-DFCI-004405	Asian	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-004405	phs002677
+GENIE-DFCI-004452	Asian	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-004452	phs002677
+GENIE-DFCI-004672	Asian	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-004672	phs002677
+GENIE-DFCI-004729	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-004729	phs002677
+GENIE-DFCI-004995	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-004995	phs002677
+GENIE-DFCI-005093	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-005093	phs002677
+GENIE-DFCI-005254	Unknown	Male	Not Reported	participant	phs002677_GENIE-DFCI-005254	phs002677
+GENIE-DFCI-005275	Unknown	Male	Not Reported	participant	phs002677_GENIE-DFCI-005275	phs002677
+GENIE-DFCI-005362	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-005362	phs002677
+GENIE-DFCI-005386	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-005386	phs002677
+GENIE-DFCI-005392	White	Male	Unknown	participant	phs002677_GENIE-DFCI-005392	phs002677
+GENIE-DFCI-005400	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-005400	phs002677
+GENIE-DFCI-005419	Asian	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-005419	phs002677
+GENIE-DFCI-005420	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-005420	phs002677
+GENIE-DFCI-005610	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-005610	phs002677
+GENIE-DFCI-005851	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-005851	phs002677
+GENIE-DFCI-005879	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-005879	phs002677
+GENIE-DFCI-005923	White	Male	Hispanic or Latino	participant	phs002677_GENIE-DFCI-005923	phs002677
+GENIE-DFCI-005949	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-005949	phs002677
+GENIE-DFCI-006108	White	Male	Unknown	participant	phs002677_GENIE-DFCI-006108	phs002677
+GENIE-DFCI-006302	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-006302	phs002677
+GENIE-DFCI-006394	White	Male	Unknown	participant	phs002677_GENIE-DFCI-006394	phs002677
+GENIE-DFCI-006449	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-006449	phs002677
+GENIE-DFCI-006452	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-006452	phs002677
+GENIE-DFCI-006453	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-006453	phs002677
+GENIE-DFCI-006524	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-006524	phs002677
+GENIE-DFCI-006611	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-006611	phs002677
+GENIE-DFCI-006765	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-006765	phs002677
+GENIE-DFCI-006808	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-006808	phs002677
+GENIE-DFCI-006850	White	Male	Unknown	participant	phs002677_GENIE-DFCI-006850	phs002677
+GENIE-DFCI-006877	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-006877	phs002677
+GENIE-DFCI-006908	Unknown	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-006908	phs002677
+GENIE-DFCI-006975	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-006975	phs002677
+GENIE-DFCI-006976	Asian	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-006976	phs002677
+GENIE-DFCI-006979	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-006979	phs002677
+GENIE-DFCI-007005	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-007005	phs002677
+GENIE-DFCI-007015	White	Male	Unknown	participant	phs002677_GENIE-DFCI-007015	phs002677
+GENIE-DFCI-007071	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-007071	phs002677
+GENIE-DFCI-007093	White	Male	Hispanic or Latino	participant	phs002677_GENIE-DFCI-007093	phs002677
+GENIE-DFCI-007134	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-007134	phs002677
+GENIE-DFCI-007222	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-007222	phs002677
+GENIE-DFCI-007259	Asian	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-007259	phs002677
+GENIE-DFCI-007337	White	Female	Unknown	participant	phs002677_GENIE-DFCI-007337	phs002677
+GENIE-DFCI-007357	White	Female	Hispanic or Latino	participant	phs002677_GENIE-DFCI-007357	phs002677
+GENIE-DFCI-007362	Unknown	Female	Unknown	participant	phs002677_GENIE-DFCI-007362	phs002677
+GENIE-DFCI-007455	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-007455	phs002677
+GENIE-DFCI-007527	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-007527	phs002677
+GENIE-DFCI-007528	White	Female	Unknown	participant	phs002677_GENIE-DFCI-007528	phs002677
+GENIE-DFCI-007590	Black or African American	Male	Unknown	participant	phs002677_GENIE-DFCI-007590	phs002677
+GENIE-DFCI-007602	White	Male	Hispanic or Latino	participant	phs002677_GENIE-DFCI-007602	phs002677
+GENIE-DFCI-007651	Black or African American	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-007651	phs002677
+GENIE-DFCI-007706	Unknown	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-007706	phs002677
+GENIE-DFCI-007742	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-007742	phs002677
+GENIE-DFCI-007795	Black or African American	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-007795	phs002677
+GENIE-DFCI-007802	White	Female	Hispanic or Latino	participant	phs002677_GENIE-DFCI-007802	phs002677
+GENIE-DFCI-007832	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-007832	phs002677
+GENIE-DFCI-007833	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-007833	phs002677
+GENIE-DFCI-007834	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-007834	phs002677
+GENIE-DFCI-007887	Black or African American	Female	Unknown	participant	phs002677_GENIE-DFCI-007887	phs002677
+GENIE-DFCI-007909	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-007909	phs002677
+GENIE-DFCI-007938	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-007938	phs002677
+GENIE-DFCI-008015	Unknown	Male	Not Reported	participant	phs002677_GENIE-DFCI-008015	phs002677
+GENIE-DFCI-008059	Black or African American	Male	Hispanic or Latino	participant	phs002677_GENIE-DFCI-008059	phs002677
+GENIE-DFCI-008062	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-008062	phs002677
+GENIE-DFCI-008092	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-008092	phs002677
+GENIE-DFCI-008127	White	Male	Unknown	participant	phs002677_GENIE-DFCI-008127	phs002677
+GENIE-DFCI-008181	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-008181	phs002677
+GENIE-DFCI-008182	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-008182	phs002677
+GENIE-DFCI-008183	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-008183	phs002677
+GENIE-DFCI-008204	White	Female	Hispanic or Latino	participant	phs002677_GENIE-DFCI-008204	phs002677
+GENIE-DFCI-008205	White	Male	Not Reported	participant	phs002677_GENIE-DFCI-008205	phs002677
+GENIE-DFCI-008206	Black or African American	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-008206	phs002677
+GENIE-DFCI-008294	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-008294	phs002677
+GENIE-DFCI-008310	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-008310	phs002677
+GENIE-DFCI-008311	Black or African American	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-008311	phs002677
+GENIE-DFCI-008312	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-008312	phs002677
+GENIE-DFCI-008318	Unknown	Female	Unknown	participant	phs002677_GENIE-DFCI-008318	phs002677
+GENIE-DFCI-008363	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-008363	phs002677
+GENIE-DFCI-008366	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-008366	phs002677
+GENIE-DFCI-008378	White	Male	Unknown	participant	phs002677_GENIE-DFCI-008378	phs002677
+GENIE-DFCI-008384	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-008384	phs002677
+GENIE-DFCI-008406	White	Female	Unknown	participant	phs002677_GENIE-DFCI-008406	phs002677
+GENIE-DFCI-008425	Asian	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-008425	phs002677
+GENIE-DFCI-008521	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-008521	phs002677
+GENIE-DFCI-008522	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-008522	phs002677
+GENIE-DFCI-008524	Unknown	Female	Unknown	participant	phs002677_GENIE-DFCI-008524	phs002677
+GENIE-DFCI-008534	White	Female	Not Reported	participant	phs002677_GENIE-DFCI-008534	phs002677
+GENIE-DFCI-008536	Asian	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-008536	phs002677
+GENIE-DFCI-008553	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-008553	phs002677
+GENIE-DFCI-008586	White	Male	Unknown	participant	phs002677_GENIE-DFCI-008586	phs002677
+GENIE-DFCI-008589	Black or African American	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-008589	phs002677
+GENIE-DFCI-008595	Not Allowed to Collect	Female	Not Allowed to Collect	participant	phs002677_GENIE-DFCI-008595	phs002677
+GENIE-DFCI-008618	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-008618	phs002677
+GENIE-DFCI-008685	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-008685	phs002677
+GENIE-DFCI-008689	White	Male	Not Reported	participant	phs002677_GENIE-DFCI-008689	phs002677
+GENIE-DFCI-008721	White	Male	Unknown	participant	phs002677_GENIE-DFCI-008721	phs002677
+GENIE-DFCI-008765	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-008765	phs002677
+GENIE-DFCI-008788	White	Male	Hispanic or Latino	participant	phs002677_GENIE-DFCI-008788	phs002677
+GENIE-DFCI-008790	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-008790	phs002677
+GENIE-DFCI-008806	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-008806	phs002677
+GENIE-DFCI-008827	White	Male	Not Reported	participant	phs002677_GENIE-DFCI-008827	phs002677
+GENIE-DFCI-008833	Unknown	Male	Unknown	participant	phs002677_GENIE-DFCI-008833	phs002677
+GENIE-DFCI-008842	Asian	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-008842	phs002677
+GENIE-DFCI-008886	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-008886	phs002677
+GENIE-DFCI-008908	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-008908	phs002677
+GENIE-DFCI-008910	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-008910	phs002677
+GENIE-DFCI-008942	Asian	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-008942	phs002677
+GENIE-DFCI-008945	White	Female	Unknown	participant	phs002677_GENIE-DFCI-008945	phs002677
+GENIE-DFCI-008956	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-008956	phs002677
+GENIE-DFCI-008957	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-008957	phs002677
+GENIE-DFCI-009009	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-009009	phs002677
+GENIE-DFCI-009010	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-009010	phs002677
+GENIE-DFCI-009016	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-009016	phs002677
+GENIE-DFCI-009019	Unknown	Male	Not Reported	participant	phs002677_GENIE-DFCI-009019	phs002677
+GENIE-DFCI-009064	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-009064	phs002677
+GENIE-DFCI-009083	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-009083	phs002677
+GENIE-DFCI-009096	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-009096	phs002677
+GENIE-DFCI-009101	Unknown	Female	Unknown	participant	phs002677_GENIE-DFCI-009101	phs002677
+GENIE-DFCI-009123	Unknown	Male	Unknown	participant	phs002677_GENIE-DFCI-009123	phs002677
+GENIE-DFCI-009137	White	Female	Unknown	participant	phs002677_GENIE-DFCI-009137	phs002677
+GENIE-DFCI-009148	White	Female	Unknown	participant	phs002677_GENIE-DFCI-009148	phs002677
+GENIE-DFCI-009183	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-009183	phs002677
+GENIE-DFCI-009184	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-009184	phs002677
+GENIE-DFCI-009185	Asian	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-009185	phs002677
+GENIE-DFCI-009186	Black or African American	Male	Hispanic or Latino	participant	phs002677_GENIE-DFCI-009186	phs002677
+GENIE-DFCI-009187	White	Female	Hispanic or Latino	participant	phs002677_GENIE-DFCI-009187	phs002677
+GENIE-DFCI-009215	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-009215	phs002677
+GENIE-DFCI-009278	White	Female	Unknown	participant	phs002677_GENIE-DFCI-009278	phs002677
+GENIE-DFCI-009279	Asian	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-009279	phs002677
+GENIE-DFCI-009280	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-009280	phs002677
+GENIE-DFCI-009307	White	Male	Unknown	participant	phs002677_GENIE-DFCI-009307	phs002677
+GENIE-DFCI-009314	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-009314	phs002677
+GENIE-DFCI-009338	White	Male	Unknown	participant	phs002677_GENIE-DFCI-009338	phs002677
+GENIE-DFCI-009487	Asian	Male	Unknown	participant	phs002677_GENIE-DFCI-009487	phs002677
+GENIE-DFCI-009498	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-009498	phs002677
+GENIE-DFCI-009526	White	Male	Unknown	participant	phs002677_GENIE-DFCI-009526	phs002677
+GENIE-DFCI-009529	White	Female	Unknown	participant	phs002677_GENIE-DFCI-009529	phs002677
+GENIE-DFCI-009546	Unknown	Female	Unknown	participant	phs002677_GENIE-DFCI-009546	phs002677
+GENIE-DFCI-009592	Unknown	Male	Unknown	participant	phs002677_GENIE-DFCI-009592	phs002677
+GENIE-DFCI-009593	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-009593	phs002677
+GENIE-DFCI-009646	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-009646	phs002677
+GENIE-DFCI-009647	White	Male	Unknown	participant	phs002677_GENIE-DFCI-009647	phs002677
+GENIE-DFCI-009659	Unknown	Male	Unknown	participant	phs002677_GENIE-DFCI-009659	phs002677
+GENIE-DFCI-009678	Unknown	Male	Unknown	participant	phs002677_GENIE-DFCI-009678	phs002677
+GENIE-DFCI-009680	Unknown	Male	Unknown	participant	phs002677_GENIE-DFCI-009680	phs002677
+GENIE-DFCI-009686	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-009686	phs002677
+GENIE-DFCI-009726	Unknown	Female	Unknown	participant	phs002677_GENIE-DFCI-009726	phs002677
+GENIE-DFCI-009756	Not Allowed to Collect	Male	Not Allowed to Collect	participant	phs002677_GENIE-DFCI-009756	phs002677
+GENIE-DFCI-009758	Black or African American	Female	Unknown	participant	phs002677_GENIE-DFCI-009758	phs002677
+GENIE-DFCI-009791	Unknown	Male	Unknown	participant	phs002677_GENIE-DFCI-009791	phs002677
+GENIE-DFCI-009826	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-009826	phs002677
+GENIE-DFCI-009830	White	Male	Unknown	participant	phs002677_GENIE-DFCI-009830	phs002677
+GENIE-DFCI-009831	White	Female	Hispanic or Latino	participant	phs002677_GENIE-DFCI-009831	phs002677
+GENIE-DFCI-009833	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-009833	phs002677
+GENIE-DFCI-009849	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-009849	phs002677
+GENIE-DFCI-009857	White	Male	Unknown	participant	phs002677_GENIE-DFCI-009857	phs002677
+GENIE-DFCI-009874	Asian	Female	Unknown	participant	phs002677_GENIE-DFCI-009874	phs002677
+GENIE-DFCI-009880	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-009880	phs002677
+GENIE-DFCI-009881	Unknown	Female	Unknown	participant	phs002677_GENIE-DFCI-009881	phs002677
+GENIE-DFCI-009892	White	Male	Unknown	participant	phs002677_GENIE-DFCI-009892	phs002677
+GENIE-DFCI-009896	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-009896	phs002677
+GENIE-DFCI-009913	Not Allowed to Collect	Female	Not Allowed to Collect	participant	phs002677_GENIE-DFCI-009913	phs002677
+GENIE-DFCI-009935	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-009935	phs002677
+GENIE-DFCI-009965	Black or African American	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-009965	phs002677
+GENIE-DFCI-009968	Unknown	Female	Unknown	participant	phs002677_GENIE-DFCI-009968	phs002677
+GENIE-DFCI-009981	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-009981	phs002677
+GENIE-DFCI-009997	Unknown	Female	Unknown	participant	phs002677_GENIE-DFCI-009997	phs002677
+GENIE-DFCI-010011	White	Male	Not Reported	participant	phs002677_GENIE-DFCI-010011	phs002677
+GENIE-DFCI-010019	White	Female	Unknown	participant	phs002677_GENIE-DFCI-010019	phs002677
+GENIE-DFCI-010021	Unknown	Female	Unknown	participant	phs002677_GENIE-DFCI-010021	phs002677
+GENIE-DFCI-010026	Not Allowed to Collect	Male	Not Allowed to Collect	participant	phs002677_GENIE-DFCI-010026	phs002677
+GENIE-DFCI-010042	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-010042	phs002677
+GENIE-DFCI-010062	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-010062	phs002677
+GENIE-DFCI-010074	Asian	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-010074	phs002677
+GENIE-DFCI-010078	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-010078	phs002677
+GENIE-DFCI-010079	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-010079	phs002677
+GENIE-DFCI-010098	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-010098	phs002677
+GENIE-DFCI-010111	Unknown	Male	Unknown	participant	phs002677_GENIE-DFCI-010111	phs002677
+GENIE-DFCI-010117	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-010117	phs002677
+GENIE-DFCI-010118	Not Allowed to Collect	Male	Not Allowed to Collect	participant	phs002677_GENIE-DFCI-010118	phs002677
+GENIE-DFCI-010169	Unknown	Female	Unknown	participant	phs002677_GENIE-DFCI-010169	phs002677
+GENIE-DFCI-010227	White	Female	Unknown	participant	phs002677_GENIE-DFCI-010227	phs002677
+GENIE-DFCI-010234	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-010234	phs002677
+GENIE-DFCI-010262	White	Female	Unknown	participant	phs002677_GENIE-DFCI-010262	phs002677
+GENIE-DFCI-010298	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-010298	phs002677
+GENIE-DFCI-010309	Unknown	Female	Unknown	participant	phs002677_GENIE-DFCI-010309	phs002677
+GENIE-DFCI-010346	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-010346	phs002677
+GENIE-DFCI-010382	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-010382	phs002677
+GENIE-DFCI-010434	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-010434	phs002677
+GENIE-DFCI-010454	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-010454	phs002677
+GENIE-DFCI-010524	Unknown	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-010524	phs002677
+GENIE-DFCI-010545	Unknown	Male	Unknown	participant	phs002677_GENIE-DFCI-010545	phs002677
+GENIE-DFCI-010594	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-010594	phs002677
+GENIE-DFCI-010633	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-010633	phs002677
+GENIE-DFCI-010634	Unknown	Female	Unknown	participant	phs002677_GENIE-DFCI-010634	phs002677
+GENIE-DFCI-010646	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-010646	phs002677
+GENIE-DFCI-010652	White	Male	Unknown	participant	phs002677_GENIE-DFCI-010652	phs002677
+GENIE-DFCI-010659	Black or African American	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-010659	phs002677
+GENIE-DFCI-010660	Unknown	Female	Unknown	participant	phs002677_GENIE-DFCI-010660	phs002677
+GENIE-DFCI-010690	Unknown	Male	Unknown	participant	phs002677_GENIE-DFCI-010690	phs002677
+GENIE-DFCI-010691	Not Allowed to Collect	Female	Not Allowed to Collect	participant	phs002677_GENIE-DFCI-010691	phs002677
+GENIE-DFCI-010701	White	Male	Hispanic or Latino	participant	phs002677_GENIE-DFCI-010701	phs002677
+GENIE-DFCI-010718	Unknown	Female	Unknown	participant	phs002677_GENIE-DFCI-010718	phs002677
+GENIE-DFCI-010747	Unknown	Male	Unknown	participant	phs002677_GENIE-DFCI-010747	phs002677
+GENIE-DFCI-010794	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-010794	phs002677
+GENIE-DFCI-010809	Not Allowed to Collect	Male	Not Allowed to Collect	participant	phs002677_GENIE-DFCI-010809	phs002677
+GENIE-DFCI-010826	Unknown	Male	Unknown	participant	phs002677_GENIE-DFCI-010826	phs002677
+GENIE-DFCI-010854	White	Female	Unknown	participant	phs002677_GENIE-DFCI-010854	phs002677
+GENIE-DFCI-010884	White	Female	Unknown	participant	phs002677_GENIE-DFCI-010884	phs002677
+GENIE-DFCI-010904	Unknown	Male	Hispanic or Latino	participant	phs002677_GENIE-DFCI-010904	phs002677
+GENIE-DFCI-010908	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-010908	phs002677
+GENIE-DFCI-010924	Unknown	Female	Unknown	participant	phs002677_GENIE-DFCI-010924	phs002677
+GENIE-DFCI-010946	Unknown	Male	Unknown	participant	phs002677_GENIE-DFCI-010946	phs002677
+GENIE-DFCI-010992	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-010992	phs002677
+GENIE-DFCI-011045	Unknown	Male	Unknown	participant	phs002677_GENIE-DFCI-011045	phs002677
+GENIE-DFCI-011066	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-011066	phs002677
+GENIE-DFCI-011208	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-011208	phs002677
+GENIE-DFCI-011209	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-011209	phs002677
+GENIE-DFCI-011301	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-011301	phs002677
+GENIE-DFCI-011305	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-011305	phs002677
+GENIE-DFCI-011335	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-011335	phs002677
+GENIE-DFCI-011366	White	Male	Unknown	participant	phs002677_GENIE-DFCI-011366	phs002677
+GENIE-DFCI-011414	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-011414	phs002677
+GENIE-DFCI-011432	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-011432	phs002677
+GENIE-DFCI-011443	Unknown	Female	Unknown	participant	phs002677_GENIE-DFCI-011443	phs002677
+GENIE-DFCI-011457	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-011457	phs002677
+GENIE-DFCI-011466	Unknown	Male	Unknown	participant	phs002677_GENIE-DFCI-011466	phs002677
+GENIE-DFCI-011532	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-011532	phs002677
+GENIE-DFCI-011546	Unknown	Male	Hispanic or Latino	participant	phs002677_GENIE-DFCI-011546	phs002677
+GENIE-DFCI-011557	Unknown	Male	Unknown	participant	phs002677_GENIE-DFCI-011557	phs002677
+GENIE-DFCI-011565	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-011565	phs002677
+GENIE-DFCI-011580	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-011580	phs002677
+GENIE-DFCI-011614	White	Female	Unknown	participant	phs002677_GENIE-DFCI-011614	phs002677
+GENIE-DFCI-011646	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-011646	phs002677
+GENIE-DFCI-011664	Unknown	Female	Unknown	participant	phs002677_GENIE-DFCI-011664	phs002677
+GENIE-DFCI-011665	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-011665	phs002677
+GENIE-DFCI-011674	Unknown	Female	Unknown	participant	phs002677_GENIE-DFCI-011674	phs002677
+GENIE-DFCI-011685	White	Male	Unknown	participant	phs002677_GENIE-DFCI-011685	phs002677
+GENIE-DFCI-011693	White	Male	Unknown	participant	phs002677_GENIE-DFCI-011693	phs002677
+GENIE-DFCI-020646	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-020646	phs002677
+GENIE-DFCI-021894	Asian	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-021894	phs002677
+GENIE-DFCI-021972	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-021972	phs002677
+GENIE-DFCI-022065	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-022065	phs002677
+GENIE-DFCI-022121	Asian	Female	Unknown	participant	phs002677_GENIE-DFCI-022121	phs002677
+GENIE-DFCI-022743	Black or African American	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-022743	phs002677
+GENIE-DFCI-022818	Unknown	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-022818	phs002677
+GENIE-DFCI-022819	White	Female	Unknown	participant	phs002677_GENIE-DFCI-022819	phs002677
+GENIE-DFCI-022837	Unknown	Female	Unknown	participant	phs002677_GENIE-DFCI-022837	phs002677
+GENIE-DFCI-022942	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-022942	phs002677
+GENIE-DFCI-023037	White	Male	Unknown	participant	phs002677_GENIE-DFCI-023037	phs002677
+GENIE-DFCI-023332	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-023332	phs002677
+GENIE-DFCI-023560	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-023560	phs002677
+GENIE-DFCI-023564	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-023564	phs002677
+GENIE-DFCI-023571	Native Hawaiian or Other Pacific Islander	Female	Unknown	participant	phs002677_GENIE-DFCI-023571	phs002677
+GENIE-DFCI-023607	Unknown	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-023607	phs002677
+GENIE-DFCI-023695	Unknown	Female	Unknown	participant	phs002677_GENIE-DFCI-023695	phs002677
+GENIE-DFCI-023712	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-023712	phs002677
+GENIE-DFCI-023733	Unknown	Female	Hispanic or Latino	participant	phs002677_GENIE-DFCI-023733	phs002677
+GENIE-DFCI-023748	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-023748	phs002677
+GENIE-DFCI-023768	White	Female	Hispanic or Latino	participant	phs002677_GENIE-DFCI-023768	phs002677
+GENIE-DFCI-025831	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-025831	phs002677
+GENIE-DFCI-026206	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-026206	phs002677
+GENIE-DFCI-028086	White	Female	Not Reported	participant	phs002677_GENIE-DFCI-028086	phs002677
+GENIE-DFCI-028826	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-028826	phs002677
+GENIE-DFCI-030427	Unknown	Male	Not Reported	participant	phs002677_GENIE-DFCI-030427	phs002677
+GENIE-DFCI-034914	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-034914	phs002677
+GENIE-DFCI-035080	Unknown	Female	Unknown	participant	phs002677_GENIE-DFCI-035080	phs002677
+GENIE-DFCI-035112	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-035112	phs002677
+GENIE-DFCI-035609	Unknown	Female	Unknown	participant	phs002677_GENIE-DFCI-035609	phs002677
+GENIE-DFCI-035723	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-035723	phs002677
+GENIE-DFCI-035811	Asian	Female	Unknown	participant	phs002677_GENIE-DFCI-035811	phs002677
+GENIE-DFCI-035815	White	Male	Unknown	participant	phs002677_GENIE-DFCI-035815	phs002677
+GENIE-DFCI-035905	White	Male	Unknown	participant	phs002677_GENIE-DFCI-035905	phs002677
+GENIE-DFCI-036458	Asian	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-036458	phs002677
+GENIE-DFCI-036462	Unknown	Male	Unknown	participant	phs002677_GENIE-DFCI-036462	phs002677
+GENIE-DFCI-036468	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-036468	phs002677
+GENIE-DFCI-036470	Black or African American	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-036470	phs002677
+GENIE-DFCI-036475	Unknown	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-036475	phs002677
+GENIE-DFCI-036489	Not Allowed to Collect	Male	Not Allowed to Collect	participant	phs002677_GENIE-DFCI-036489	phs002677
+GENIE-DFCI-036535	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-036535	phs002677
+GENIE-DFCI-036542	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-036542	phs002677
+GENIE-DFCI-036546	Asian	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-036546	phs002677
+GENIE-DFCI-036573	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-036573	phs002677
+GENIE-DFCI-036605	Unknown	Male	Unknown	participant	phs002677_GENIE-DFCI-036605	phs002677
+GENIE-DFCI-036607	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-036607	phs002677
+GENIE-DFCI-036692	Asian	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-036692	phs002677
+GENIE-DFCI-036761	Asian	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-036761	phs002677
+GENIE-DFCI-036767	White	Male	Unknown	participant	phs002677_GENIE-DFCI-036767	phs002677
+GENIE-DFCI-036777	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-036777	phs002677
+GENIE-DFCI-036800	White	Female	Unknown	participant	phs002677_GENIE-DFCI-036800	phs002677
+GENIE-DFCI-036838	White	Female	Unknown	participant	phs002677_GENIE-DFCI-036838	phs002677
+GENIE-DFCI-036843	White	Female	Not Reported	participant	phs002677_GENIE-DFCI-036843	phs002677
+GENIE-DFCI-036848	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-036848	phs002677
+GENIE-DFCI-036967	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-036967	phs002677
+GENIE-DFCI-036997	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-036997	phs002677
+GENIE-DFCI-036998	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-036998	phs002677
+GENIE-DFCI-037001	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-037001	phs002677
+GENIE-DFCI-037035	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-037035	phs002677
+GENIE-DFCI-037041	White	Female	Unknown	participant	phs002677_GENIE-DFCI-037041	phs002677
+GENIE-DFCI-037158	Unknown	Female	Unknown	participant	phs002677_GENIE-DFCI-037158	phs002677
+GENIE-DFCI-037169	Unknown	Male	Unknown	participant	phs002677_GENIE-DFCI-037169	phs002677
+GENIE-DFCI-037183	Unknown	Female	Hispanic or Latino	participant	phs002677_GENIE-DFCI-037183	phs002677
+GENIE-DFCI-037188	Unknown	Male	Unknown	participant	phs002677_GENIE-DFCI-037188	phs002677
+GENIE-DFCI-037204	Unknown	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-037204	phs002677
+GENIE-DFCI-037216	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-037216	phs002677
+GENIE-DFCI-037218	Unknown	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-037218	phs002677
+GENIE-DFCI-037226	White	Male	Unknown	participant	phs002677_GENIE-DFCI-037226	phs002677
+GENIE-DFCI-037229	Unknown	Male	Unknown	participant	phs002677_GENIE-DFCI-037229	phs002677
+GENIE-DFCI-037239	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-037239	phs002677
+GENIE-DFCI-037431	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-037431	phs002677
+GENIE-DFCI-037439	White	Male	Unknown	participant	phs002677_GENIE-DFCI-037439	phs002677
+GENIE-DFCI-037449	Unknown	Female	Unknown	participant	phs002677_GENIE-DFCI-037449	phs002677
+GENIE-DFCI-037462	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-037462	phs002677
+GENIE-DFCI-037470	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-037470	phs002677
+GENIE-DFCI-037507	White	Male	Unknown	participant	phs002677_GENIE-DFCI-037507	phs002677
+GENIE-DFCI-037547	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-037547	phs002677
+GENIE-DFCI-037555	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-037555	phs002677
+GENIE-DFCI-037563	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-037563	phs002677
+GENIE-DFCI-037581	Unknown	Female	Unknown	participant	phs002677_GENIE-DFCI-037581	phs002677
+GENIE-DFCI-037633	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-037633	phs002677
+GENIE-DFCI-037683	Unknown	Female	Unknown	participant	phs002677_GENIE-DFCI-037683	phs002677
+GENIE-DFCI-037703	Unknown	Female	Unknown	participant	phs002677_GENIE-DFCI-037703	phs002677
+GENIE-DFCI-037716	Black or African American	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-037716	phs002677
+GENIE-DFCI-037723	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-037723	phs002677
+GENIE-DFCI-037732	Asian	Female	Unknown	participant	phs002677_GENIE-DFCI-037732	phs002677
+GENIE-DFCI-037743	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-037743	phs002677
+GENIE-DFCI-037754	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-037754	phs002677
+GENIE-DFCI-037764	White	Male	Unknown	participant	phs002677_GENIE-DFCI-037764	phs002677
+GENIE-DFCI-037772	White	Male	Hispanic or Latino	participant	phs002677_GENIE-DFCI-037772	phs002677
+GENIE-DFCI-037778	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-037778	phs002677
+GENIE-DFCI-037803	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-037803	phs002677
+GENIE-DFCI-037807	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-037807	phs002677
+GENIE-DFCI-037843	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-037843	phs002677
+GENIE-DFCI-037847	Unknown	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-037847	phs002677
+GENIE-DFCI-037881	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-037881	phs002677
+GENIE-DFCI-037906	Unknown	Male	Unknown	participant	phs002677_GENIE-DFCI-037906	phs002677
+GENIE-DFCI-037908	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-037908	phs002677
+GENIE-DFCI-037920	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-037920	phs002677
+GENIE-DFCI-037971	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-037971	phs002677
+GENIE-DFCI-037972	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-037972	phs002677
+GENIE-DFCI-038015	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-038015	phs002677
+GENIE-DFCI-039015	Asian	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-039015	phs002677
+GENIE-DFCI-041679	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-041679	phs002677
+GENIE-DFCI-042684	White	Female	Unknown	participant	phs002677_GENIE-DFCI-042684	phs002677
+GENIE-DFCI-047286	Asian	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-047286	phs002677
+GENIE-DFCI-050724	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-050724	phs002677
+GENIE-DFCI-050763	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-050763	phs002677
+GENIE-DFCI-050769	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-050769	phs002677
+GENIE-DFCI-050770	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-050770	phs002677
+GENIE-DFCI-050786	Asian	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-050786	phs002677
+GENIE-DFCI-050801	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-050801	phs002677
+GENIE-DFCI-050936	Unknown	Male	Unknown	participant	phs002677_GENIE-DFCI-050936	phs002677
+GENIE-DFCI-050937	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-050937	phs002677
+GENIE-DFCI-050952	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-050952	phs002677
+GENIE-DFCI-050966	White	Male	Unknown	participant	phs002677_GENIE-DFCI-050966	phs002677
+GENIE-DFCI-051002	White	Female	Unknown	participant	phs002677_GENIE-DFCI-051002	phs002677
+GENIE-DFCI-051012	White	Female	Unknown	participant	phs002677_GENIE-DFCI-051012	phs002677
+GENIE-DFCI-051147	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-051147	phs002677
+GENIE-DFCI-051148	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-051148	phs002677
+GENIE-DFCI-051176	Unknown	Male	Unknown	participant	phs002677_GENIE-DFCI-051176	phs002677
+GENIE-DFCI-051179	Unknown	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-051179	phs002677
+GENIE-DFCI-051190	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-051190	phs002677
+GENIE-DFCI-051200	Unknown	Male	Unknown	participant	phs002677_GENIE-DFCI-051200	phs002677
+GENIE-DFCI-051203	Not Allowed to Collect	Male	Not Allowed to Collect	participant	phs002677_GENIE-DFCI-051203	phs002677
+GENIE-DFCI-051207	Unknown	Male	Unknown	participant	phs002677_GENIE-DFCI-051207	phs002677
+GENIE-DFCI-051217	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-051217	phs002677
+GENIE-DFCI-051233	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-051233	phs002677
+GENIE-DFCI-051237	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-051237	phs002677
+GENIE-DFCI-051368	Not Allowed to Collect	Female	Not Allowed to Collect	participant	phs002677_GENIE-DFCI-051368	phs002677
+GENIE-DFCI-051374	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-051374	phs002677
+GENIE-DFCI-051375	Unknown	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-051375	phs002677
+GENIE-DFCI-052154	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-052154	phs002677
+GENIE-DFCI-052299	Unknown	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-052299	phs002677
+GENIE-DFCI-052359	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-052359	phs002677
+GENIE-DFCI-052373	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-052373	phs002677
+GENIE-DFCI-052565	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-052565	phs002677
+GENIE-DFCI-052709	Unknown	Male	Unknown	participant	phs002677_GENIE-DFCI-052709	phs002677
+GENIE-DFCI-052716	Unknown	Female	Not Reported	participant	phs002677_GENIE-DFCI-052716	phs002677
+GENIE-DFCI-052745	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-052745	phs002677
+GENIE-DFCI-052783	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-052783	phs002677
+GENIE-DFCI-052788	White	Male	Unknown	participant	phs002677_GENIE-DFCI-052788	phs002677
+GENIE-DFCI-052884	Not Allowed to Collect	Female	Not Allowed to Collect	participant	phs002677_GENIE-DFCI-052884	phs002677
+GENIE-DFCI-052950	Unknown	Male	Unknown	participant	phs002677_GENIE-DFCI-052950	phs002677
+GENIE-DFCI-053005	Asian	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-053005	phs002677
+GENIE-DFCI-053016	Unknown	Female	Unknown	participant	phs002677_GENIE-DFCI-053016	phs002677
+GENIE-DFCI-053030	Black or African American	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-053030	phs002677
+GENIE-DFCI-053154	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-053154	phs002677
+GENIE-DFCI-053213	Unknown	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-053213	phs002677
+GENIE-DFCI-053385	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-053385	phs002677
+GENIE-DFCI-053389	Unknown	Male	Unknown	participant	phs002677_GENIE-DFCI-053389	phs002677
+GENIE-DFCI-053450	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-053450	phs002677
+GENIE-DFCI-053455	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-053455	phs002677
+GENIE-DFCI-053466	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-053466	phs002677
+GENIE-DFCI-053568	White	Male	Hispanic or Latino	participant	phs002677_GENIE-DFCI-053568	phs002677
+GENIE-DFCI-077148	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-077148	phs002677
+GENIE-DFCI-086907	Unknown	Male	Unknown	participant	phs002677_GENIE-DFCI-086907	phs002677
+GENIE-DFCI-088562	Unknown	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-088562	phs002677
+GENIE-DFCI-088839	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-088839	phs002677
+GENIE-DFCI-088840	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-088840	phs002677
+GENIE-DFCI-089358	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-089358	phs002677
+GENIE-DFCI-089461	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-089461	phs002677
+GENIE-DFCI-089513	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-089513	phs002677
+GENIE-DFCI-089557	Asian	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-089557	phs002677
+GENIE-DFCI-089561	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-089561	phs002677
+GENIE-DFCI-089826	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-089826	phs002677
+GENIE-DFCI-089842	Unknown	Female	Unknown	participant	phs002677_GENIE-DFCI-089842	phs002677
+GENIE-DFCI-090143	White	Female	Unknown	participant	phs002677_GENIE-DFCI-090143	phs002677
+GENIE-DFCI-090192	Asian	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-090192	phs002677
+GENIE-DFCI-090194	Unknown	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-090194	phs002677
+GENIE-DFCI-090198	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-090198	phs002677
+GENIE-DFCI-090205	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-090205	phs002677
+GENIE-DFCI-090471	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-090471	phs002677
+GENIE-DFCI-090481	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-090481	phs002677
+GENIE-DFCI-090487	Unknown	Female	Hispanic or Latino	participant	phs002677_GENIE-DFCI-090487	phs002677
+GENIE-DFCI-090495	Unknown	Male	Unknown	participant	phs002677_GENIE-DFCI-090495	phs002677
+GENIE-DFCI-090504	Unknown	Female	Unknown	participant	phs002677_GENIE-DFCI-090504	phs002677
+GENIE-DFCI-090511	Unknown	Female	Unknown	participant	phs002677_GENIE-DFCI-090511	phs002677
+GENIE-DFCI-090512	Unknown	Male	Unknown	participant	phs002677_GENIE-DFCI-090512	phs002677
+GENIE-DFCI-090535	Unknown	Female	Unknown	participant	phs002677_GENIE-DFCI-090535	phs002677
+GENIE-DFCI-090536	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-090536	phs002677
+GENIE-DFCI-090662	Unknown	Male	Hispanic or Latino	participant	phs002677_GENIE-DFCI-090662	phs002677
+GENIE-DFCI-090876	Unknown	Male	Hispanic or Latino	participant	phs002677_GENIE-DFCI-090876	phs002677
+GENIE-DFCI-090878	Unknown	Female	Unknown	participant	phs002677_GENIE-DFCI-090878	phs002677
+GENIE-DFCI-090884	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-090884	phs002677
+GENIE-DFCI-091098	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-091098	phs002677
+GENIE-DFCI-091151	White	Male	Unknown	participant	phs002677_GENIE-DFCI-091151	phs002677
+GENIE-DFCI-091178	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-091178	phs002677
+GENIE-DFCI-091195	White	Male	Not Reported	participant	phs002677_GENIE-DFCI-091195	phs002677
+GENIE-DFCI-091203	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-091203	phs002677
+GENIE-DFCI-091205	Unknown	Female	Hispanic or Latino	participant	phs002677_GENIE-DFCI-091205	phs002677
+GENIE-DFCI-091214	White	Male	Unknown	participant	phs002677_GENIE-DFCI-091214	phs002677
+GENIE-DFCI-091219	Unknown	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-091219	phs002677
+GENIE-DFCI-091489	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-091489	phs002677
+GENIE-DFCI-091501	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-091501	phs002677
+GENIE-DFCI-091513	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-091513	phs002677
+GENIE-DFCI-091515	Not Allowed to Collect	Male	Not Allowed to Collect	participant	phs002677_GENIE-DFCI-091515	phs002677
+GENIE-DFCI-091532	White	Male	Unknown	participant	phs002677_GENIE-DFCI-091532	phs002677
+GENIE-DFCI-091533	Unknown	Male	Unknown	participant	phs002677_GENIE-DFCI-091533	phs002677
+GENIE-DFCI-091548	Unknown	Male	Hispanic or Latino	participant	phs002677_GENIE-DFCI-091548	phs002677
+GENIE-DFCI-091549	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-091549	phs002677
+GENIE-DFCI-091554	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-091554	phs002677
+GENIE-DFCI-091563	White	Female	Hispanic or Latino	participant	phs002677_GENIE-DFCI-091563	phs002677
+GENIE-DFCI-091843	Black or African American	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-091843	phs002677
+GENIE-DFCI-091876	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-091876	phs002677
+GENIE-DFCI-091896	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-091896	phs002677
+GENIE-DFCI-092018	White	Female	Unknown	participant	phs002677_GENIE-DFCI-092018	phs002677
+GENIE-DFCI-092182	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-092182	phs002677
+GENIE-DFCI-092183	White	Male	Unknown	participant	phs002677_GENIE-DFCI-092183	phs002677
+GENIE-DFCI-092195	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-092195	phs002677
+GENIE-DFCI-092201	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-092201	phs002677
+GENIE-DFCI-092216	Asian	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-092216	phs002677
+GENIE-DFCI-092372	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-092372	phs002677
+GENIE-DFCI-092424	White	Female	Unknown	participant	phs002677_GENIE-DFCI-092424	phs002677
+GENIE-DFCI-092429	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-092429	phs002677
+GENIE-DFCI-092643	Unknown	Male	Unknown	participant	phs002677_GENIE-DFCI-092643	phs002677
+GENIE-DFCI-093114	Unknown	Male	Unknown	participant	phs002677_GENIE-DFCI-093114	phs002677
+GENIE-DFCI-095923	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-095923	phs002677
+GENIE-DFCI-096612	White	Female	Unknown	participant	phs002677_GENIE-DFCI-096612	phs002677
+GENIE-DFCI-097924	White	Male	Unknown	participant	phs002677_GENIE-DFCI-097924	phs002677
+GENIE-DFCI-098807	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-098807	phs002677
+GENIE-DFCI-098843	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-098843	phs002677
+GENIE-DFCI-098883	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-098883	phs002677
+GENIE-DFCI-099668	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-099668	phs002677
+GENIE-DFCI-106261	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-106261	phs002677
+GENIE-DFCI-106266	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-106266	phs002677
+GENIE-DFCI-106623	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-106623	phs002677
+GENIE-DFCI-106682	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-106682	phs002677
+GENIE-DFCI-107544	Unknown	Female	Unknown	participant	phs002677_GENIE-DFCI-107544	phs002677
+GENIE-DFCI-107559	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-107559	phs002677
+GENIE-DFCI-107942	Not Allowed to Collect	Male	Not Allowed to Collect	participant	phs002677_GENIE-DFCI-107942	phs002677
+GENIE-DFCI-107977	Black or African American	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-107977	phs002677
+GENIE-DFCI-108012	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-108012	phs002677
+GENIE-DFCI-108016	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-108016	phs002677
+GENIE-DFCI-108114	Unknown	Female	Not Reported	participant	phs002677_GENIE-DFCI-108114	phs002677
+GENIE-DFCI-108818	White	Female	Unknown	participant	phs002677_GENIE-DFCI-108818	phs002677
+GENIE-DFCI-108832	White	Male	Unknown	participant	phs002677_GENIE-DFCI-108832	phs002677
+GENIE-DFCI-108839	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-108839	phs002677
+GENIE-DFCI-108894	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-108894	phs002677
+GENIE-DFCI-109750	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-109750	phs002677
+GENIE-DFCI-109752	Unknown	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-109752	phs002677
+GENIE-DFCI-109773	Unknown	Male	Unknown	participant	phs002677_GENIE-DFCI-109773	phs002677
+GENIE-DFCI-110167	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-110167	phs002677
+GENIE-DFCI-110172	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-110172	phs002677
+GENIE-DFCI-110193	Unknown	Female	Unknown	participant	phs002677_GENIE-DFCI-110193	phs002677
+GENIE-DFCI-110208	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-110208	phs002677
+GENIE-DFCI-110209	Unknown	Female	Unknown	participant	phs002677_GENIE-DFCI-110209	phs002677
+GENIE-DFCI-110217	White	Female	Unknown	participant	phs002677_GENIE-DFCI-110217	phs002677
+GENIE-DFCI-110602	White	Male	Unknown	participant	phs002677_GENIE-DFCI-110602	phs002677
+GENIE-DFCI-110629	Unknown	Male	Hispanic or Latino	participant	phs002677_GENIE-DFCI-110629	phs002677
+GENIE-DFCI-111057	Unknown	Male	Unknown	participant	phs002677_GENIE-DFCI-111057	phs002677
+GENIE-DFCI-111424	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-111424	phs002677
+GENIE-DFCI-111477	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-111477	phs002677
+GENIE-DFCI-111495	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-111495	phs002677
+GENIE-DFCI-111504	White	Male	Unknown	participant	phs002677_GENIE-DFCI-111504	phs002677
+GENIE-DFCI-111526	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-111526	phs002677
+GENIE-DFCI-111531	Not Allowed to Collect	Female	Not Allowed to Collect	participant	phs002677_GENIE-DFCI-111531	phs002677
+GENIE-DFCI-111537	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-111537	phs002677
+GENIE-DFCI-111561	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-111561	phs002677
+GENIE-DFCI-113123	Unknown	Male	Unknown	participant	phs002677_GENIE-DFCI-113123	phs002677
+GENIE-DFCI-113163	Unknown	Female	Unknown	participant	phs002677_GENIE-DFCI-113163	phs002677
+GENIE-DFCI-113173	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-113173	phs002677
+GENIE-DFCI-113178	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-113178	phs002677
+GENIE-DFCI-113181	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-113181	phs002677
+GENIE-DFCI-113187	White	Male	Unknown	participant	phs002677_GENIE-DFCI-113187	phs002677
+GENIE-DFCI-113188	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-113188	phs002677
+GENIE-DFCI-113570	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-113570	phs002677
+GENIE-DFCI-113589	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-113589	phs002677
+GENIE-DFCI-113591	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-113591	phs002677
+GENIE-DFCI-113594	Unknown	Male	Hispanic or Latino	participant	phs002677_GENIE-DFCI-113594	phs002677
+GENIE-DFCI-117933	Unknown	Female	Hispanic or Latino	participant	phs002677_GENIE-DFCI-117933	phs002677
+GENIE-DFCI-117936	Unknown	Female	Hispanic or Latino	participant	phs002677_GENIE-DFCI-117936	phs002677
+GENIE-DFCI-117961	Unknown	Male	Unknown	participant	phs002677_GENIE-DFCI-117961	phs002677
+GENIE-DFCI-117969	Unknown	Male	Not Reported	participant	phs002677_GENIE-DFCI-117969	phs002677
+GENIE-DFCI-117970	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-117970	phs002677
+GENIE-DFCI-117981	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-117981	phs002677
+GENIE-DFCI-117982	Unknown	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-117982	phs002677
+GENIE-DFCI-118015	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-118015	phs002677
+GENIE-DFCI-118016	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-118016	phs002677
+GENIE-DFCI-118385	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-118385	phs002677
+GENIE-DFCI-118399	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-118399	phs002677
+GENIE-DFCI-118401	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-118401	phs002677
+GENIE-DFCI-118423	Unknown	Female	Unknown	participant	phs002677_GENIE-DFCI-118423	phs002677
+GENIE-DFCI-118424	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-118424	phs002677
+GENIE-DFCI-118440	Unknown	Female	Unknown	participant	phs002677_GENIE-DFCI-118440	phs002677
+GENIE-DFCI-118452	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-118452	phs002677
+GENIE-DFCI-119219	Not Allowed to Collect	Female	Not Allowed to Collect	participant	phs002677_GENIE-DFCI-119219	phs002677
+GENIE-DFCI-119774	Black or African American	Female	Unknown	participant	phs002677_GENIE-DFCI-119774	phs002677
+GENIE-DFCI-119986	White	Female	Unknown	participant	phs002677_GENIE-DFCI-119986	phs002677
+GENIE-DFCI-121430	White	Female	Unknown	participant	phs002677_GENIE-DFCI-121430	phs002677
+GENIE-DFCI-121973	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-121973	phs002677
+GENIE-DFCI-122297	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-122297	phs002677
+GENIE-DFCI-122459	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-122459	phs002677
+GENIE-DFCI-122523	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-122523	phs002677
+GENIE-DFCI-122595	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-122595	phs002677
+GENIE-DFCI-122703	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-122703	phs002677
+GENIE-DFCI-123377	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-123377	phs002677
+GENIE-DFCI-123408	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-123408	phs002677
+GENIE-DFCI-123621	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-123621	phs002677
+GENIE-DFCI-124413	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-124413	phs002677
+GENIE-DFCI-124454	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-124454	phs002677
+GENIE-DFCI-124885	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-124885	phs002677
+GENIE-DFCI-125151	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-125151	phs002677
+GENIE-DFCI-125176	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-125176	phs002677
+GENIE-DFCI-125190	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-125190	phs002677
+GENIE-DFCI-126072	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-126072	phs002677
+GENIE-DFCI-126073	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-126073	phs002677
+GENIE-DFCI-126125	Not Allowed to Collect	Male	Not Allowed to Collect	participant	phs002677_GENIE-DFCI-126125	phs002677
+GENIE-DFCI-126281	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-126281	phs002677
+GENIE-DFCI-126282	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-126282	phs002677
+GENIE-DFCI-126420	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-126420	phs002677
+GENIE-DFCI-126436	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-126436	phs002677
+GENIE-DFCI-126437	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-126437	phs002677
+GENIE-DFCI-126540	Black or African American	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-126540	phs002677
+GENIE-DFCI-126541	Unknown	Male	Not Reported	participant	phs002677_GENIE-DFCI-126541	phs002677
+GENIE-DFCI-126815	White	Male	Unknown	participant	phs002677_GENIE-DFCI-126815	phs002677
+GENIE-DFCI-126859	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-126859	phs002677
+GENIE-DFCI-126924	White	Male	Unknown	participant	phs002677_GENIE-DFCI-126924	phs002677
+GENIE-DFCI-127181	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-127181	phs002677
+GENIE-DFCI-127212	White	Male	Unknown	participant	phs002677_GENIE-DFCI-127212	phs002677
+GENIE-DFCI-127214	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-127214	phs002677
+GENIE-DFCI-127215	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-127215	phs002677
+GENIE-DFCI-127218	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-127218	phs002677
+GENIE-DFCI-127248	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-127248	phs002677
+GENIE-DFCI-127276	Asian	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-127276	phs002677
+GENIE-DFCI-127291	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-127291	phs002677
+GENIE-DFCI-127507	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-127507	phs002677
+GENIE-DFCI-127626	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-127626	phs002677
+GENIE-DFCI-127734	Unknown	Male	Not Reported	participant	phs002677_GENIE-DFCI-127734	phs002677
+GENIE-DFCI-127932	Unknown	Male	Unknown	participant	phs002677_GENIE-DFCI-127932	phs002677
+GENIE-DFCI-128205	White	Female	Hispanic or Latino	participant	phs002677_GENIE-DFCI-128205	phs002677
+GENIE-DFCI-128223	White	Male	Unknown	participant	phs002677_GENIE-DFCI-128223	phs002677
+GENIE-DFCI-128466	White	Male	Hispanic or Latino	participant	phs002677_GENIE-DFCI-128466	phs002677
+GENIE-DFCI-128528	White	Female	Unknown	participant	phs002677_GENIE-DFCI-128528	phs002677
+GENIE-DFCI-128529	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-128529	phs002677
+GENIE-DFCI-128530	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-128530	phs002677
+GENIE-DFCI-128590	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-128590	phs002677
+GENIE-DFCI-128597	Black or African American	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-128597	phs002677
+GENIE-DFCI-128612	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-128612	phs002677
+GENIE-DFCI-128698	White	Male	Not Reported	participant	phs002677_GENIE-DFCI-128698	phs002677
+GENIE-DFCI-128699	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-128699	phs002677
+GENIE-DFCI-128700	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-128700	phs002677
+GENIE-DFCI-128703	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-128703	phs002677
+GENIE-DFCI-128704	White	Male	Unknown	participant	phs002677_GENIE-DFCI-128704	phs002677
+GENIE-DFCI-128705	White	Male	Unknown	participant	phs002677_GENIE-DFCI-128705	phs002677
+GENIE-DFCI-128706	White	Male	Unknown	participant	phs002677_GENIE-DFCI-128706	phs002677
+GENIE-DFCI-128707	Asian	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-128707	phs002677
+GENIE-DFCI-128782	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-128782	phs002677
+GENIE-DFCI-128791	White	Female	Unknown	participant	phs002677_GENIE-DFCI-128791	phs002677
+GENIE-DFCI-128820	White	Female	Unknown	participant	phs002677_GENIE-DFCI-128820	phs002677
+GENIE-DFCI-128824	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-128824	phs002677
+GENIE-DFCI-128890	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-128890	phs002677
+GENIE-DFCI-128929	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-128929	phs002677
+GENIE-DFCI-128965	White	Female	Unknown	participant	phs002677_GENIE-DFCI-128965	phs002677
+GENIE-DFCI-128995	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-128995	phs002677
+GENIE-DFCI-129112	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-129112	phs002677
+GENIE-DFCI-129115	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-129115	phs002677
+GENIE-DFCI-129116	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-129116	phs002677
+GENIE-DFCI-129288	White	Male	Hispanic or Latino	participant	phs002677_GENIE-DFCI-129288	phs002677
+GENIE-DFCI-129320	White	Male	Not Reported	participant	phs002677_GENIE-DFCI-129320	phs002677
+GENIE-DFCI-129399	White	Male	Not Reported	participant	phs002677_GENIE-DFCI-129399	phs002677
+GENIE-DFCI-129766	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-129766	phs002677
+GENIE-DFCI-129767	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-129767	phs002677
+GENIE-DFCI-129933	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-129933	phs002677
+GENIE-DFCI-129950	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-129950	phs002677
+GENIE-DFCI-129958	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-129958	phs002677
+GENIE-DFCI-130048	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-130048	phs002677
+GENIE-DFCI-130062	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-130062	phs002677
+GENIE-DFCI-130070	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-130070	phs002677
+GENIE-DFCI-130142	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-130142	phs002677
+GENIE-DFCI-130241	White	Male	Unknown	participant	phs002677_GENIE-DFCI-130241	phs002677
+GENIE-DFCI-130262	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-130262	phs002677
+GENIE-DFCI-130353	Unknown	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-130353	phs002677
+GENIE-DFCI-130386	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-130386	phs002677
+GENIE-DFCI-130387	White	Male	Unknown	participant	phs002677_GENIE-DFCI-130387	phs002677
+GENIE-DFCI-130589	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-130589	phs002677
+GENIE-DFCI-130645	White	Female	Not Reported	participant	phs002677_GENIE-DFCI-130645	phs002677
+GENIE-DFCI-130670	White	Male	Unknown	participant	phs002677_GENIE-DFCI-130670	phs002677
+GENIE-DFCI-130712	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-130712	phs002677
+GENIE-DFCI-130804	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-130804	phs002677
+GENIE-DFCI-130831	White	Male	Unknown	participant	phs002677_GENIE-DFCI-130831	phs002677
+GENIE-DFCI-131127	White	Male	Hispanic or Latino	participant	phs002677_GENIE-DFCI-131127	phs002677
+GENIE-DFCI-131198	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-131198	phs002677
+GENIE-DFCI-131261	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-131261	phs002677
+GENIE-DFCI-131272	White	Female	Unknown	participant	phs002677_GENIE-DFCI-131272	phs002677
+GENIE-DFCI-131310	Unknown	Male	Unknown	participant	phs002677_GENIE-DFCI-131310	phs002677
+GENIE-DFCI-131328	White	Male	Unknown	participant	phs002677_GENIE-DFCI-131328	phs002677
+GENIE-DFCI-131329	White	Female	Hispanic or Latino	participant	phs002677_GENIE-DFCI-131329	phs002677
+GENIE-DFCI-131444	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-131444	phs002677
+GENIE-DFCI-131459	White	Female	Unknown	participant	phs002677_GENIE-DFCI-131459	phs002677
+GENIE-DFCI-131460	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-131460	phs002677
+GENIE-DFCI-131486	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-131486	phs002677
+GENIE-DFCI-131494	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-131494	phs002677
+GENIE-DFCI-131512	Asian	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-131512	phs002677
+GENIE-DFCI-131562	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-131562	phs002677
+GENIE-DFCI-131563	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-131563	phs002677
+GENIE-DFCI-131564	White	Male	Unknown	participant	phs002677_GENIE-DFCI-131564	phs002677
+GENIE-DFCI-131598	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-131598	phs002677
+GENIE-DFCI-131641	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-131641	phs002677
+GENIE-DFCI-131665	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-131665	phs002677
+GENIE-DFCI-132166	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-132166	phs002677
+GENIE-DFCI-132193	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-132193	phs002677
+GENIE-DFCI-132195	Black or African American	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-132195	phs002677
+GENIE-DFCI-132222	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-132222	phs002677
+GENIE-DFCI-132223	Not Allowed to Collect	Male	Not Allowed to Collect	participant	phs002677_GENIE-DFCI-132223	phs002677
+GENIE-DFCI-132596	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-132596	phs002677
+GENIE-DFCI-133827	Asian	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-133827	phs002677
+GENIE-DFCI-134320	Asian	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-134320	phs002677
+GENIE-DFCI-134698	White	Male	Unknown	participant	phs002677_GENIE-DFCI-134698	phs002677
+GENIE-DFCI-134710	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-134710	phs002677
+GENIE-DFCI-134720	Black or African American	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-134720	phs002677
+GENIE-DFCI-134792	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-134792	phs002677
+GENIE-DFCI-135148	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-135148	phs002677
+GENIE-DFCI-135191	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-135191	phs002677
+GENIE-DFCI-135573	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-135573	phs002677
+GENIE-DFCI-135589	Black or African American	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-135589	phs002677
+GENIE-DFCI-135633	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-135633	phs002677
+GENIE-DFCI-136020	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-136020	phs002677
+GENIE-DFCI-136031	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-136031	phs002677
+GENIE-DFCI-136033	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-136033	phs002677
+GENIE-DFCI-136051	White	Female	Not Reported	participant	phs002677_GENIE-DFCI-136051	phs002677
+GENIE-DFCI-136059	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-136059	phs002677
+GENIE-DFCI-136064	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-136064	phs002677
+GENIE-DFCI-136073	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-136073	phs002677
+GENIE-DFCI-136076	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-136076	phs002677
+GENIE-DFCI-136078	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-136078	phs002677
+GENIE-DFCI-136089	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-136089	phs002677
+GENIE-DFCI-136460	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-136460	phs002677
+GENIE-DFCI-136472	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-136472	phs002677
+GENIE-DFCI-136475	Unknown	Female	Unknown	participant	phs002677_GENIE-DFCI-136475	phs002677
+GENIE-DFCI-136505	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-136505	phs002677
+GENIE-DFCI-136511	White	Male	Unknown	participant	phs002677_GENIE-DFCI-136511	phs002677
+GENIE-DFCI-136520	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-136520	phs002677
+GENIE-DFCI-136526	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-136526	phs002677
+GENIE-DFCI-136535	Unknown	Female	Unknown	participant	phs002677_GENIE-DFCI-136535	phs002677
+GENIE-DFCI-136549	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-136549	phs002677
+GENIE-DFCI-136890	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-136890	phs002677
+GENIE-DFCI-136891	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-136891	phs002677
+GENIE-DFCI-136961	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-136961	phs002677
+GENIE-DFCI-136969	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-136969	phs002677
+GENIE-DFCI-136970	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-136970	phs002677
+GENIE-DFCI-136991	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-136991	phs002677
+GENIE-DFCI-137338	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-137338	phs002677
+GENIE-DFCI-137348	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-137348	phs002677
+GENIE-DFCI-137377	Not Allowed to Collect	Female	Not Allowed to Collect	participant	phs002677_GENIE-DFCI-137377	phs002677
+GENIE-DFCI-137395	Asian	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-137395	phs002677
+GENIE-DFCI-137400	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-137400	phs002677
+GENIE-DFCI-137407	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-137407	phs002677
+GENIE-DFCI-137427	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-137427	phs002677
+GENIE-DFCI-137775	Unknown	Female	Unknown	participant	phs002677_GENIE-DFCI-137775	phs002677
+GENIE-DFCI-137776	Unknown	Female	Unknown	participant	phs002677_GENIE-DFCI-137776	phs002677
+GENIE-DFCI-137778	White	Male	Unknown	participant	phs002677_GENIE-DFCI-137778	phs002677
+GENIE-DFCI-137791	White	Male	Hispanic or Latino	participant	phs002677_GENIE-DFCI-137791	phs002677
+GENIE-DFCI-137798	Asian	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-137798	phs002677
+GENIE-DFCI-137834	White	Female	Unknown	participant	phs002677_GENIE-DFCI-137834	phs002677
+GENIE-DFCI-137845	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-137845	phs002677
+GENIE-DFCI-137864	White	Male	Unknown	participant	phs002677_GENIE-DFCI-137864	phs002677
+GENIE-DFCI-138214	Unknown	Female	Unknown	participant	phs002677_GENIE-DFCI-138214	phs002677
+GENIE-DFCI-138227	Unknown	Male	Unknown	participant	phs002677_GENIE-DFCI-138227	phs002677
+GENIE-DFCI-138231	Unknown	Male	Unknown	participant	phs002677_GENIE-DFCI-138231	phs002677
+GENIE-DFCI-138262	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-138262	phs002677
+GENIE-DFCI-138289	Unknown	Female	Unknown	participant	phs002677_GENIE-DFCI-138289	phs002677
+GENIE-DFCI-138306	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-138306	phs002677
+GENIE-DFCI-139353	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-139353	phs002677
+GENIE-DFCI-140655	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-140655	phs002677
+GENIE-DFCI-140886	Unknown	Female	Hispanic or Latino	participant	phs002677_GENIE-DFCI-140886	phs002677
+GENIE-DFCI-141123	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-141123	phs002677
+GENIE-DFCI-141188	Unknown	Female	Unknown	participant	phs002677_GENIE-DFCI-141188	phs002677
+GENIE-DFCI-141587	White	Male	Unknown	participant	phs002677_GENIE-DFCI-141587	phs002677
+GENIE-DFCI-141665	White	Female	Unknown	participant	phs002677_GENIE-DFCI-141665	phs002677
+GENIE-DFCI-142029	Asian	Female	Unknown	participant	phs002677_GENIE-DFCI-142029	phs002677
+GENIE-DFCI-142114	Unknown	Female	Unknown	participant	phs002677_GENIE-DFCI-142114	phs002677
+GENIE-DFCI-142415	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-142415	phs002677
+GENIE-DFCI-144051	Asian	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-144051	phs002677
+GENIE-DFCI-144102	Unknown	Male	Unknown	participant	phs002677_GENIE-DFCI-144102	phs002677
+GENIE-DFCI-144518	White	Female	Unknown	participant	phs002677_GENIE-DFCI-144518	phs002677
+GENIE-DFCI-144585	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-144585	phs002677
+GENIE-DFCI-145671	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-145671	phs002677
+GENIE-DFCI-153529	White	Male	Not Reported	participant	phs002677_GENIE-DFCI-153529	phs002677
+GENIE-DFCI-163314	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-163314	phs002677
+GENIE-DFCI-167585	Unknown	Male	Hispanic or Latino	participant	phs002677_GENIE-DFCI-167585	phs002677
+GENIE-DFCI-167597	Unknown	Male	Unknown	participant	phs002677_GENIE-DFCI-167597	phs002677
+GENIE-DFCI-167623	Unknown	Female	Unknown	participant	phs002677_GENIE-DFCI-167623	phs002677
+GENIE-DFCI-167624	Unknown	Female	Unknown	participant	phs002677_GENIE-DFCI-167624	phs002677
+GENIE-DFCI-167627	Unknown	Male	Hispanic or Latino	participant	phs002677_GENIE-DFCI-167627	phs002677
+GENIE-DFCI-167982	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-167982	phs002677
+GENIE-DFCI-168038	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-168038	phs002677
+GENIE-DFCI-168041	Unknown	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-168041	phs002677
+GENIE-DFCI-168412	Black or African American	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-168412	phs002677
+GENIE-DFCI-168851	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-168851	phs002677
+GENIE-DFCI-168942	White	Female	Unknown	participant	phs002677_GENIE-DFCI-168942	phs002677
+GENIE-DFCI-169283	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-169283	phs002677
+GENIE-DFCI-169353	White	Male	Unknown	participant	phs002677_GENIE-DFCI-169353	phs002677
+GENIE-DFCI-169743	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-169743	phs002677
+GENIE-DFCI-170225	Asian	Female	Unknown	participant	phs002677_GENIE-DFCI-170225	phs002677
+GENIE-DFCI-170246	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-170246	phs002677
+GENIE-DFCI-170703	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-170703	phs002677
+GENIE-DFCI-171352	Unknown	Female	Unknown	participant	phs002677_GENIE-DFCI-171352	phs002677
+GENIE-DFCI-171399	Asian	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-171399	phs002677
+GENIE-DFCI-172650	Unknown	Male	Hispanic or Latino	participant	phs002677_GENIE-DFCI-172650	phs002677
+GENIE-DFCI-172763	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-172763	phs002677
+GENIE-DFCI-173592	Black or African American	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-173592	phs002677
+GENIE-DFCI-174093	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-174093	phs002677
+GENIE-DFCI-174106	White	Female	Unknown	participant	phs002677_GENIE-DFCI-174106	phs002677
+GENIE-DFCI-174487	White	Female	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-174487	phs002677
+GENIE-DFCI-174527	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-174527	phs002677
+GENIE-DFCI-183200	White	Male	Unknown	participant	phs002677_GENIE-DFCI-183200	phs002677
+GENIE-DFCI-185064	White	Female	Hispanic or Latino	participant	phs002677_GENIE-DFCI-185064	phs002677
+GENIE-DFCI-186106	Unknown	Female	Unknown	participant	phs002677_GENIE-DFCI-186106	phs002677
+GENIE-DFCI-199306	Black or African American	Female	Unknown	participant	phs002677_GENIE-DFCI-199306	phs002677
+GENIE-DFCI-201059	Unknown	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-201059	phs002677
+GENIE-DFCI-201996	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-201996	phs002677
+GENIE-DFCI-202002	White	Male	Not Hispanic or Latino	participant	phs002677_GENIE-DFCI-202002	phs002677
+GENIE-DFCI-202004	Unknown	Male	Unknown	participant	phs002677_GENIE-DFCI-202004	phs002677
+GENIE-DFCI-202872	Unknown	Female	Unknown	participant	phs002677_GENIE-DFCI-202872	phs002677
+Not Applicable		Not specified in data		participant	phs002677_Not Applicable	phs002677

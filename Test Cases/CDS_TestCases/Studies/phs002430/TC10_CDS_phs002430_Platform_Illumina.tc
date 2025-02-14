@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC10_CDS_phs002430_Platform_Illumina</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>50c4ad57-b674-49ed-b067-8282e5f783d0</testCaseGuid>
+</TestCaseEntity>

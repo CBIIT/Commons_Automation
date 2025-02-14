@@ -1,0 +1,271 @@
+vital_status	primary_diagnosis	age_at_diagnosis	tumor_grade	morphology	progression_or_recurrence	days_to_last_followup	last_known_disease_status	days_to_last_known_status	type	diagnosis_id	study_diagnosis_id	participant.study_participant_id
+Alive	Serous Surface Papillary Carcinoma	55	G3	8461-03-01 00:00:00	Yes	392	With tumor	384	diagnosis	HTA1_790	phs002371_HTA1_790_HTA1_790	phs002371_HTA1_790
+Unknown	Adenocarcinoma intestinal type		Not Applicable	Not Reported	Unknown	Unknown	Not Reported	Unknown	diagnosis	HTA10_11	phs002371_HTA10_11_HTA10_11	phs002371_HTA10_11
+Alive	High-Grade Serous Carcinoma	66	G1	8461-03-01 00:00:00	No	177	Tumor free	191	diagnosis	HTA1_708	phs002371_HTA1_708_HTA1_708	phs002371_HTA1_708
+Unknown	Neuroblastoma NOS	18	Not Applicable		Not Reported	Not Reported	Not Reported	Not Reported	diagnosis	HTA1_198	phs002371_HTA1_198_HTA1_198	phs002371_HTA1_198
+Alive	Ductal carcinoma NOS	58	G3		Yes	2674	With tumor	2667	diagnosis	HTA1_908	phs002371_HTA1_908_HTA1_908	phs002371_HTA1_908
+Alive	Lobular And Ductal Carcinoma	57	G2		No	2821	With tumor	2821	diagnosis	HTA1_861	phs002371_HTA1_861_HTA1_861	phs002371_HTA1_861
+Alive	Pancreatobiliary-Type Carcinoma	73	G2		No	58	Not Reported	58	diagnosis	HTA12_32	phs002371_HTA12_32_HTA12_32	phs002371_HTA12_32
+Dead	Ductal carcinoma NOS	37	G2		Yes	1133	With tumor	1132	diagnosis	HTA1_878	phs002371_HTA1_878_HTA1_878	phs002371_HTA1_878
+Alive	Adenocarcinoma NOS	67	Not Reported	8550-03-01 00:00:00	No	679	Tumor free	679	diagnosis	HTA1_324	phs002371_HTA1_324_HTA1_324	phs002371_HTA1_324
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_5212	phs002371_HTA11_5212_HTA11_5212	phs002371_HTA11_5212
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_10167	phs002371_HTA11_10167_HTA11_10167	phs002371_HTA11_10167
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_6801	phs002371_HTA11_6801_HTA11_6801	phs002371_HTA11_6801
+Not Reported	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_99999973458	phs002371_HTA11_99999973458_HTA11_99999973458	phs002371_HTA11_99999973458
+Dead	Lobular And Ductal Carcinoma	54	G2		Yes	3765	With tumor	3965	diagnosis	HTA1_262	phs002371_HTA1_262_HTA1_262	phs002371_HTA1_262
+Dead	Ductal carcinoma NOS	32	G3		Yes	1388	With tumor	1335	diagnosis	HTA1_321	phs002371_HTA1_321_HTA1_321	phs002371_HTA1_321
+Alive	Ductal carcinoma NOS	38	Unknown		Yes	1781	With tumor	1773	diagnosis	HTA1_812	phs002371_HTA1_812_HTA1_812	phs002371_HTA1_812
+Not Reported	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_99999933430	phs002371_HTA11_99999933430_HTA11_99999933430	phs002371_HTA11_99999933430
+Alive	Glioma malignant	18	G4	9440-03-01 00:00:00	Unknown	Not Recorded	unknown tumor status	unknown	diagnosis	HTA1_784	phs002371_HTA1_784_HTA1_784	phs002371_HTA1_784
+Dead	Adenocarcinoma NOS	54	G1		Yes	8063	With tumor	7939	diagnosis	HTA1_649	phs002371_HTA1_649_HTA1_649	phs002371_HTA1_649
+Unknown	Adenocarcinoma NOS	85	G3	8480-03-01 00:00:00	Yes	548	Distant met recurrence/progression	548	diagnosis	HTA1_261	phs002371_HTA1_261_HTA1_261	phs002371_HTA1_261
+Alive	Ductal carcinoma NOS	52	G2		Yes	3262	With tumor	3174	diagnosis	HTA1_783	phs002371_HTA1_783_HTA1_783	phs002371_HTA1_783
+Alive	Intraductal carcinoma NOS	44	G3		Yes	8687	With tumor	8659	diagnosis	HTA1_586	phs002371_HTA1_586_HTA1_586	phs002371_HTA1_586
+Alive	Ductal carcinoma NOS	50	G2		Yes	2822	With tumor	2530	diagnosis	HTA1_611	phs002371_HTA1_611_HTA1_611	phs002371_HTA1_611
+Alive	Ependymoma NOS	18	G2	9391-03-01 00:00:00	No	329	unknown tumor status	329	diagnosis	HTA1_289	phs002371_HTA1_289_HTA1_289	phs002371_HTA1_289
+Not Reported	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_99999916984	phs002371_HTA11_99999916984_HTA11_99999916984	phs002371_HTA11_99999916984
+Alive	Central Neuroblastoma	18	Unknown		Yes	2021	Tumor free	2021	diagnosis	HTA1_756	phs002371_HTA1_756_HTA1_756	phs002371_HTA1_756
+Alive	Intraductal carcinoma NOS	57	G3		Yes	2364	With tumor	2335	diagnosis	HTA1_853	phs002371_HTA1_853_HTA1_853	phs002371_HTA1_853
+Alive	Serous cystadenocarcinoma NOS	69	G2	8441-03-01 00:00:00	Yes	87	With tumor	-26	diagnosis	HTA1_976	phs002371_HTA1_976_HTA1_976	phs002371_HTA1_976
+Unknown	Neuroblastoma NOS	18	Not Applicable		Not Reported	Not Reported	Not Reported	Not Reported	diagnosis	HTA1_931	phs002371_HTA1_931_HTA1_931	phs002371_HTA1_931
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_696	phs002371_HTA11_696_HTA11_696	phs002371_HTA11_696
+Dead	Intraductal carcinoma NOS	43	G3		Yes	1132	With tumor	882	diagnosis	HTA1_211	phs002371_HTA1_211_HTA1_211	phs002371_HTA1_211
+Dead	Lobular And Ductal Carcinoma	41	Unknown		Yes	2275	With tumor	2256	diagnosis	HTA1_982	phs002371_HTA1_982_HTA1_982	phs002371_HTA1_982
+Dead	Glioma malignant	18	G4	9440-03-01 00:00:00	No	402	With tumor	402	diagnosis	HTA1_652	phs002371_HTA1_652_HTA1_652	phs002371_HTA1_652
+Alive	Ependymoma NOS	18	High Grade	9391-03-01 00:00:00	No	1022	unknown tumor status	1022	diagnosis	HTA1_281	phs002371_HTA1_281_HTA1_281	phs002371_HTA1_281
+Unknown	Neuroblastoma NOS	18	Not Applicable		Not Reported	Not Reported	Not Reported	Not Reported	diagnosis	HTA1_171	phs002371_HTA1_171_HTA1_171	phs002371_HTA1_171
+Alive	Pancreatobiliary-Type Carcinoma	59	G4		No	778	Loco-regional recurrence/progression	778	diagnosis	HTA12_24	phs002371_HTA12_24_HTA12_24	phs002371_HTA12_24
+Not Reported	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_99999931160	phs002371_HTA11_99999931160_HTA11_99999931160	phs002371_HTA11_99999931160
+Alive	Adenocarcinoma NOS	62	G3	8550-03-01 00:00:00	No	800	Tumor free	800	diagnosis	HTA1_274	phs002371_HTA1_274_HTA1_274	phs002371_HTA1_274
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_8622	phs002371_HTA11_8622_HTA11_8622	phs002371_HTA11_8622
+Dead	Lobular And Ductal Carcinoma	60	Unknown		No	203	With tumor	214	diagnosis	HTA1_521	phs002371_HTA1_521_HTA1_521	phs002371_HTA1_521
+Alive	Central Neuroblastoma	18	Unknown		Yes	587	Tumor free	581	diagnosis	HTA1_656	phs002371_HTA1_656_HTA1_656	phs002371_HTA1_656
+Alive	Pancreatobiliary-Type Carcinoma	76	G1		No	441	Tumor free	441	diagnosis	HTA12_29	phs002371_HTA12_29_HTA12_29	phs002371_HTA12_29
+Not Reported	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_99999973899	phs002371_HTA11_99999973899_HTA11_99999973899	phs002371_HTA11_99999973899
+Dead	Carcinoma NOS	51	Unknown	8010-03-01 00:00:00	Yes	2077	With tumor	2052	diagnosis	HTA1_835	phs002371_HTA1_835_HTA1_835	phs002371_HTA1_835
+Dead	Ductal carcinoma NOS	54	G3		Yes	989	With tumor	884	diagnosis	HTA1_917	phs002371_HTA1_917_HTA1_917	phs002371_HTA1_917
+Alive	Familial adenomatous polyposis	18	Not Applicable	Not Reported	Unknown	Unknown	Not Reported	Unknown	diagnosis	HTA10_01	phs002371_HTA10_01_HTA10_01	phs002371_HTA10_01
+Alive	Familial adenomatous polyposis	18	Not Applicable	Not Reported	Unknown	Unknown	Not Reported	Unknown	diagnosis	HTA10_05	phs002371_HTA10_05_HTA10_05	phs002371_HTA10_05
+Dead	Ductal carcinoma NOS	31	Unknown		Yes	8852	With tumor	8852	diagnosis	HTA1_997	phs002371_HTA1_997_HTA1_997	phs002371_HTA1_997
+Not Reported	Malignant melanoma NOS	61	Not Applicable		Yes	730	Loco-regional recurrence/progression	730	diagnosis	HTA7_1	phs002371_HTA7_1_HTA7_1	phs002371_HTA7_1
+Unknown	Neuroblastoma NOS	18	Not Applicable		Not Reported	Not Reported	Not Reported	Not Reported	diagnosis	HTA1_141	phs002371_HTA1_141_HTA1_141	phs002371_HTA1_141
+Alive	Central Neuroblastoma	18	Unknown		No	399	With tumor	13	diagnosis	HTA1_672	phs002371_HTA1_672_HTA1_672	phs002371_HTA1_672
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_9341	phs002371_HTA11_9341_HTA11_9341	phs002371_HTA11_9341
+Alive	Central Neuroblastoma	18	Unknown		No	474	Tumor free	473	diagnosis	HTA1_312	phs002371_HTA1_312_HTA1_312	phs002371_HTA1_312
+Dead	Neuroblastoma NOS	18	Not Applicable		Not Reported	Not Reported	Not Reported	Not Reported	diagnosis	HTA1_194	phs002371_HTA1_194_HTA1_194	phs002371_HTA1_194
+Not Reported	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_99999915775	phs002371_HTA11_99999915775_HTA11_99999915775	phs002371_HTA11_99999915775
+Not Reported	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_99999943360	phs002371_HTA11_99999943360_HTA11_99999943360	phs002371_HTA11_99999943360
+Alive	Pancreatobiliary-Type Carcinoma	62	G2		No	443	Tumor free	443	diagnosis	HTA12_23	phs002371_HTA12_23_HTA12_23	phs002371_HTA12_23
+Not Reported	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_99999937744	phs002371_HTA11_99999937744_HTA11_99999937744	phs002371_HTA11_99999937744
+Dead	Neuroblastoma NOS	18	Not Applicable		Not Reported	Not Reported	Not Reported	Not Reported	diagnosis	HTA1_803	phs002371_HTA1_803_HTA1_803	phs002371_HTA1_803
+Dead	Ductal carcinoma NOS	42	G3		Yes	3480	With tumor	3479	diagnosis	HTA1_963	phs002371_HTA1_963_HTA1_963	phs002371_HTA1_963
+Dead	Ductal carcinoma NOS	50	G3		Yes	4644	With tumor	3426	diagnosis	HTA1_231	phs002371_HTA1_231_HTA1_231	phs002371_HTA1_231
+Alive	Adenocarcinoma NOS	72	G3	8550-03-01 00:00:00	Yes	817	Distant met recurrence/progression	817	diagnosis	HTA1_293	phs002371_HTA1_293_HTA1_293	phs002371_HTA1_293
+Alive	Familial adenomatous polyposis	18	Not Applicable	Not Reported	Unknown	Unknown	Not Reported	Unknown	diagnosis	HTA10_04	phs002371_HTA10_04_HTA10_04	phs002371_HTA10_04
+Alive	Serous Surface Papillary Carcinoma	74	G3	8461-03-01 00:00:00	Yes	346	With tumor	263	diagnosis	HTA1_605	phs002371_HTA1_605_HTA1_605	phs002371_HTA1_605
+Dead	Ductal carcinoma NOS	62	G2		Yes	2877	With tumor	2791	diagnosis	HTA1_223	phs002371_HTA1_223_HTA1_223	phs002371_HTA1_223
+Alive	Ductal carcinoma NOS	35	G2		Yes	1773	With tumor	1695	diagnosis	HTA1_983	phs002371_HTA1_983_HTA1_983	phs002371_HTA1_983
+Alive	Ductal carcinoma NOS	75	G3		Yes	1127	Tumor free	906	diagnosis	HTA1_285	phs002371_HTA1_285_HTA1_285	phs002371_HTA1_285
+Alive	Ependymoma NOS	18	High Grade	9391-03-01 00:00:00	No	1643	unknown tumor status	1643	diagnosis	HTA1_286	phs002371_HTA1_286_HTA1_286	phs002371_HTA1_286
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_9408	phs002371_HTA11_9408_HTA11_9408	phs002371_HTA11_9408
+Unknown	Adenocarcinoma intestinal type		Not Applicable	Not Reported	Unknown	Unknown	Not Reported	Unknown	diagnosis	HTA10_13	phs002371_HTA10_13_HTA10_13	phs002371_HTA10_13
+Alive	Central Neuroblastoma	18	Unknown		No	1618	Tumor free	1619	diagnosis	HTA1_376	phs002371_HTA1_376_HTA1_376	phs002371_HTA1_376
+Alive	Central Neuroblastoma	18	Unknown		No	1550	Tumor free	1333	diagnosis	HTA1_768	phs002371_HTA1_768_HTA1_768	phs002371_HTA1_768
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_10711	phs002371_HTA11_10711_HTA11_10711	phs002371_HTA11_10711
+Unknown	Neuroblastoma NOS	18	Not Applicable		Not Reported	Not Reported	Not Reported	Not Reported	diagnosis	HTA1_155	phs002371_HTA1_155_HTA1_155	phs002371_HTA1_155
+Not Reported	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_99999957579	phs002371_HTA11_99999957579_HTA11_99999957579	phs002371_HTA11_99999957579
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_6025	phs002371_HTA11_6025_HTA11_6025	phs002371_HTA11_6025
+Dead	Glioma malignant	18	G4	9440-03-01 00:00:00	No	514	With tumor	514	diagnosis	HTA1_707	phs002371_HTA1_707_HTA1_707	phs002371_HTA1_707
+Alive	Central Neuroblastoma	18	Unknown		Unknown	7	unknown tumor status	0	diagnosis	HTA1_244	phs002371_HTA1_244_HTA1_244	phs002371_HTA1_244
+Dead	Pancreatobiliary-Type Carcinoma	70	G2		Yes	444	Distant met recurrence/progression	444	diagnosis	HTA12_25	phs002371_HTA12_25_HTA12_25	phs002371_HTA12_25
+Dead	Ewing Sarcoma	18	Unknown	9260-03-01 00:00:00	Yes	320	With tumor	320	diagnosis	HTA1_377	phs002371_HTA1_377_HTA1_377	phs002371_HTA1_377
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_7862	phs002371_HTA11_7862_HTA11_7862	phs002371_HTA11_7862
+Unknown	Neuroblastoma NOS	18	Not Applicable		Not Reported	Not Reported	Not Reported	Not Reported	diagnosis	HTA1_124	phs002371_HTA1_124_HTA1_124	phs002371_HTA1_124
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_7956	phs002371_HTA11_7956_HTA11_7956	phs002371_HTA11_7956
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_866	phs002371_HTA11_866_HTA11_866	phs002371_HTA11_866
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_8504	phs002371_HTA11_8504_HTA11_8504	phs002371_HTA11_8504
+Alive	Ewing Sarcoma	18	Unknown	9260-03-01 00:00:00	Unknown	533	unknown tumor status	0	diagnosis	HTA1_975	phs002371_HTA1_975_HTA1_975	phs002371_HTA1_975
+Alive	Ductal carcinoma NOS	36	G2		Yes	1694	With tumor	1651	diagnosis	HTA1_627	phs002371_HTA1_627_HTA1_627	phs002371_HTA1_627
+Unknown	Neuroblastoma NOS	18	Not Applicable		Not Reported	Not Reported	Not Reported	Not Reported	diagnosis	HTA1_168	phs002371_HTA1_168_HTA1_168	phs002371_HTA1_168
+Unknown	Neuroblastoma NOS	18	Not Applicable		Not Reported	Not Reported	Not Reported	Not Reported	diagnosis	HTA1_100	phs002371_HTA1_100_HTA1_100	phs002371_HTA1_100
+Alive	Serous cystadenocarcinoma NOS	67	G3	8441-03-01 00:00:00	Yes	311	Tumor free	266	diagnosis	HTA1_850	phs002371_HTA1_850_HTA1_850	phs002371_HTA1_850
+Not Reported	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_99999955474	phs002371_HTA11_99999955474_HTA11_99999955474	phs002371_HTA11_99999955474
+Unknown	Neuroblastoma NOS	18	Not Applicable		Not Reported	Not Reported	Not Reported	Not Reported	diagnosis	HTA1_148	phs002371_HTA1_148_HTA1_148	phs002371_HTA1_148
+Dead	Ductal carcinoma NOS	46	G3		Yes	5406	With tumor	5404	diagnosis	HTA1_870	phs002371_HTA1_870_HTA1_870	phs002371_HTA1_870
+Alive	Ductal carcinoma NOS	28	Unknown	8501-02-01 00:00:00	No	10148	With tumor	10087	diagnosis	HTA1_759	phs002371_HTA1_759_HTA1_759	phs002371_HTA1_759
+Not Reported	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_99999956032	phs002371_HTA11_99999956032_HTA11_99999956032	phs002371_HTA11_99999956032
+Alive	Central Neuroblastoma	18	Unknown		Yes	583	With tumor	578	diagnosis	HTA1_396	phs002371_HTA1_396_HTA1_396	phs002371_HTA1_396
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_5216	phs002371_HTA11_5216_HTA11_5216	phs002371_HTA11_5216
+Dead	Ductal carcinoma NOS	42	G2		Yes	2051	With tumor	2037	diagnosis	HTA1_589	phs002371_HTA1_589_HTA1_589	phs002371_HTA1_589
+Alive	Adenocarcinoma NOS	62	G3		No	459	Tumor free	284	diagnosis	HTA1_203	phs002371_HTA1_203_HTA1_203	phs002371_HTA1_203
+Alive	Serous cystadenocarcinoma NOS	62	G4	8441-03-01 00:00:00	Yes	458	With tumor	409	diagnosis	HTA1_624	phs002371_HTA1_624_HTA1_624	phs002371_HTA1_624
+Alive	Ductal carcinoma NOS	38	G2		Yes	4711	With tumor	4642	diagnosis	HTA1_562	phs002371_HTA1_562_HTA1_562	phs002371_HTA1_562
+Alive	Adenocarcinoma NOS	58	G3	8550-03-01 00:00:00	No	774	Tumor free	774	diagnosis	HTA1_415	phs002371_HTA1_415_HTA1_415	phs002371_HTA1_415
+Alive	Glioma malignant	18	G4	9440-03-01 00:00:00	Unknown	Not Recorded	unknown tumor status	unknown	diagnosis	HTA1_747	phs002371_HTA1_747_HTA1_747	phs002371_HTA1_747
+Alive	Pancreatobiliary-Type Carcinoma	73	G2		No	424	Tumor free	424	diagnosis	HTA12_30	phs002371_HTA12_30_HTA12_30	phs002371_HTA12_30
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_6147	phs002371_HTA11_6147_HTA11_6147	phs002371_HTA11_6147
+Unknown	Adenocarcinoma intestinal type		Not Applicable	Not Reported	Unknown	Unknown	Not Reported	Unknown	diagnosis	HTA10_12	phs002371_HTA10_12_HTA10_12	phs002371_HTA10_12
+Dead	Ductal carcinoma NOS	49	G3		Yes	1222	With tumor	1162	diagnosis	HTA1_887	phs002371_HTA1_887_HTA1_887	phs002371_HTA1_887
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_7029	phs002371_HTA11_7029_HTA11_7029	phs002371_HTA11_7029
+Not Reported	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_99999952741	phs002371_HTA11_99999952741_HTA11_99999952741	phs002371_HTA11_99999952741
+Not Reported	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_99999971662	phs002371_HTA11_99999971662_HTA11_99999971662	phs002371_HTA11_99999971662
+Dead	Pancreatobiliary-Type Carcinoma	74	G3		No	45	Not Reported	45	diagnosis	HTA12_31	phs002371_HTA12_31_HTA12_31	phs002371_HTA12_31
+Alive	Glioma malignant	18	G4	9440-03-01 00:00:00	Unknown	Not Recorded	unknown tumor status	unknown	diagnosis	HTA1_730	phs002371_HTA1_730_HTA1_730	phs002371_HTA1_730
+Not Reported	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_99999965104	phs002371_HTA11_99999965104_HTA11_99999965104	phs002371_HTA11_99999965104
+Unknown	Neuroblastoma NOS	18	Not Applicable		Not Reported	Not Reported	Not Reported	Not Reported	diagnosis	HTA1_164	phs002371_HTA1_164_HTA1_164	phs002371_HTA1_164
+Alive	Ductal carcinoma NOS	38	G3		Yes	1602	With tumor	1515	diagnosis	HTA1_745	phs002371_HTA1_745_HTA1_745	phs002371_HTA1_745
+Dead	Ductal carcinoma NOS	50	G2		Yes	1526	With tumor	1522	diagnosis	HTA1_862	phs002371_HTA1_862_HTA1_862	phs002371_HTA1_862
+Alive	Ductal carcinoma NOS	46	G3		Yes	2975	With tumor	2879	diagnosis	HTA1_382	phs002371_HTA1_382_HTA1_382	phs002371_HTA1_382
+Unknown	Neuroblastoma NOS	18	Not Applicable		Not Reported	Not Reported	Not Reported	Not Reported	diagnosis	HTA1_159	phs002371_HTA1_159_HTA1_159	phs002371_HTA1_159
+Alive	Lobular Adenocarcinoma	64	G2		Yes	2224	With tumor	1806	diagnosis	HTA1_423	phs002371_HTA1_423_HTA1_423	phs002371_HTA1_423
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_10623	phs002371_HTA11_10623_HTA11_10623	phs002371_HTA11_10623
+Alive	Ductal carcinoma NOS	29	G2		Yes	2814	With tumor	2783	diagnosis	HTA1_330	phs002371_HTA1_330_HTA1_330	phs002371_HTA1_330
+Alive	Glioma malignant	18	G3	9401-03-01 00:00:00	Unknown	Not Recorded	unknown tumor status	unknown	diagnosis	HTA1_782	phs002371_HTA1_782_HTA1_782	phs002371_HTA1_782
+Dead	Ewing Sarcoma	18	Unknown	9260-03-01 00:00:00	Yes	1147	With tumor	764	diagnosis	HTA1_361	phs002371_HTA1_361_HTA1_361	phs002371_HTA1_361
+Unknown	Neuroblastoma NOS	18	Not Applicable		Not Reported	Not Reported	Not Reported	Not Reported	diagnosis	HTA1_126	phs002371_HTA1_126_HTA1_126	phs002371_HTA1_126
+Dead	Ductal carcinoma NOS	46	G2		Yes	2434	With tumor	2421	diagnosis	HTA1_944	phs002371_HTA1_944_HTA1_944	phs002371_HTA1_944
+Alive	Ewing Sarcoma	18	Unknown	9260-03-01 00:00:00	Yes	1728	With tumor	0	diagnosis	HTA1_375	phs002371_HTA1_375_HTA1_375	phs002371_HTA1_375
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_6182	phs002371_HTA11_6182_HTA11_6182	phs002371_HTA11_6182
+Alive	Adenocarcinoma NOS	79	G3		Yes	474	With tumor	441	diagnosis	HTA1_962	phs002371_HTA1_962_HTA1_962	phs002371_HTA1_962
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_4255	phs002371_HTA11_4255_HTA11_4255	phs002371_HTA11_4255
+Dead	Ductal carcinoma NOS	35	G2		Yes	2102	With tumor	2136	diagnosis	HTA1_890	phs002371_HTA1_890_HTA1_890	phs002371_HTA1_890
+Dead	Glioma malignant	18	G4	9440-03-01 00:00:00	No	277	With tumor	277	diagnosis	HTA1_795	phs002371_HTA1_795_HTA1_795	phs002371_HTA1_795
+Alive	Ductal carcinoma NOS	46	Unknown		Yes	9554	With tumor	9937	diagnosis	HTA1_394	phs002371_HTA1_394_HTA1_394	phs002371_HTA1_394
+Unknown	Neuroblastoma NOS	18	Not Applicable		Not Reported	Not Reported	Not Reported	Not Reported	diagnosis	HTA1_163	phs002371_HTA1_163_HTA1_163	phs002371_HTA1_163
+Alive	Adenocarcinoma NOS	74	G3	8230-03-01 00:00:00	No	737	Tumor free	737	diagnosis	HTA1_345	phs002371_HTA1_345_HTA1_345	phs002371_HTA1_345
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_8099	phs002371_HTA11_8099_HTA11_8099	phs002371_HTA11_8099
+Alive	Not Reported		Not Applicable	Not Reported	Unknown	Unknown	Not Reported	Unknown	diagnosis	HTA10_22	phs002371_HTA10_22_HTA10_22	phs002371_HTA10_22
+Not Reported	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_99999954617	phs002371_HTA11_99999954617_HTA11_99999954617	phs002371_HTA11_99999954617
+Dead	Ductal carcinoma NOS	43	G2		Yes	3820	With tumor	3813	diagnosis	HTA1_662	phs002371_HTA1_662_HTA1_662	phs002371_HTA1_662
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_2235	phs002371_HTA11_2235_HTA11_2235	phs002371_HTA11_2235
+Dead	Glioma malignant	18	G4	9440-03-01 00:00:00	No	2046	With tumor	2046	diagnosis	HTA1_673	phs002371_HTA1_673_HTA1_673	phs002371_HTA1_673
+Not Reported	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_99999965122	phs002371_HTA11_99999965122_HTA11_99999965122	phs002371_HTA11_99999965122
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_11156	phs002371_HTA11_11156_HTA11_11156	phs002371_HTA11_11156
+Dead	Ductal carcinoma NOS	40	G2		Yes	4699	With tumor	4659	diagnosis	HTA1_232	phs002371_HTA1_232_HTA1_232	phs002371_HTA1_232
+Unknown	Neuroblastoma NOS	18	Not Applicable		Not Reported	Not Reported	Not Reported	Not Reported	diagnosis	HTA1_146	phs002371_HTA1_146_HTA1_146	phs002371_HTA1_146
+Not Reported	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_99999967905	phs002371_HTA11_99999967905_HTA11_99999967905	phs002371_HTA11_99999967905
+Alive	Central Neuroblastoma	18	Unknown		Yes	1773	Tumor free	1333	diagnosis	HTA1_683	phs002371_HTA1_683_HTA1_683	phs002371_HTA1_683
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_6134	phs002371_HTA11_6134_HTA11_6134	phs002371_HTA11_6134
+Alive	Glioma malignant	18	G4	9440-03-01 00:00:00	Unknown	Not Recorded	unknown tumor status	unknown	diagnosis	HTA1_719	phs002371_HTA1_719_HTA1_719	phs002371_HTA1_719
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_5363	phs002371_HTA11_5363_HTA11_5363	phs002371_HTA11_5363
+Unknown	Neuroblastoma NOS	18	Not Applicable		Not Reported	Not Reported	Not Reported	Not Reported	diagnosis	HTA1_102	phs002371_HTA1_102_HTA1_102	phs002371_HTA1_102
+Dead	Central Neuroblastoma	18	Unknown		No	183	Tumor free	115	diagnosis	HTA1_352	phs002371_HTA1_352_HTA1_352	phs002371_HTA1_352
+Unknown	Neuroblastoma NOS	18	Not Applicable		Not Reported	Not Reported	Not Reported	Not Reported	diagnosis	HTA1_130	phs002371_HTA1_130_HTA1_130	phs002371_HTA1_130
+Dead	Glioma malignant	18	G4	9440-03-01 00:00:00	No	391	With tumor	391	diagnosis	HTA1_567	phs002371_HTA1_567_HTA1_567	phs002371_HTA1_567
+Not Reported	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_99999959180	phs002371_HTA11_99999959180_HTA11_99999959180	phs002371_HTA11_99999959180
+Alive	Glioma malignant	18	G4	9440-03-01 00:00:00	Unknown	Not Recorded	unknown tumor status	unknown	diagnosis	HTA1_646	phs002371_HTA1_646_HTA1_646	phs002371_HTA1_646
+Alive	Carcinosarcoma NOS	26	G3	8010-03-01 00:00:00	No	17050	With tumor	17050	diagnosis	HTA1_994	phs002371_HTA1_994_HTA1_994	phs002371_HTA1_994
+Dead	Pancreatobiliary-Type Carcinoma	68	G2		No	32	unknown tumor status	32	diagnosis	HTA12_26	phs002371_HTA12_26_HTA12_26	phs002371_HTA12_26
+Alive	High-Grade Serous Carcinoma	68	G3	8461-03-01 00:00:00	No	343	Tumor free	177	diagnosis	HTA1_617	phs002371_HTA1_617_HTA1_617	phs002371_HTA1_617
+Alive	Familial adenomatous polyposis	18	Not Applicable	Not Reported	Unknown	Unknown	Not Reported	Unknown	diagnosis	HTA10_08	phs002371_HTA10_08_HTA10_08	phs002371_HTA10_08
+Alive	Adenocarcinoma NOS	58	G2		No	478	Tumor free	478	diagnosis	HTA1_663	phs002371_HTA1_663_HTA1_663	phs002371_HTA1_663
+Alive	Glioma malignant	18	G4	9440-03-01 00:00:00	Unknown	Not Recorded	unknown tumor status	unknown	diagnosis	HTA1_793	phs002371_HTA1_793_HTA1_793	phs002371_HTA1_793
+Alive	Pancreatobiliary-Type Carcinoma	60	G2		No	456	Distant met recurrence/progression	456	diagnosis	HTA12_28	phs002371_HTA12_28_HTA12_28	phs002371_HTA12_28
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_11167	phs002371_HTA11_11167_HTA11_11167	phs002371_HTA11_11167
+Alive	Ewing Sarcoma	18	Unknown	9260-03-01 00:00:00	No	848	Tumor free	700	diagnosis	HTA1_344	phs002371_HTA1_344_HTA1_344	phs002371_HTA1_344
+Alive	Squamous cell carcinoma NOS	63	G3	8070-03-01 00:00:00	No	669	Tumor free	669	diagnosis	HTA1_337	phs002371_HTA1_337_HTA1_337	phs002371_HTA1_337
+Alive	Ductal carcinoma NOS	54	G3		No	1321	Tumor free	1272	diagnosis	HTA1_873	phs002371_HTA1_873_HTA1_873	phs002371_HTA1_873
+Not Reported	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_99999966659	phs002371_HTA11_99999966659_HTA11_99999966659	phs002371_HTA11_99999966659
+Unknown	Neuroblastoma NOS	19	Not Applicable		Not Reported	Not Reported	Not Reported	Not Reported	diagnosis	HTA1_145	phs002371_HTA1_145_HTA1_145	phs002371_HTA1_145
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_2487	phs002371_HTA11_2487_HTA11_2487	phs002371_HTA11_2487
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_6310	phs002371_HTA11_6310_HTA11_6310	phs002371_HTA11_6310
+Dead	Lobular And Ductal Carcinoma	60	G2		Yes	2832	With tumor	2825	diagnosis	HTA1_414	phs002371_HTA1_414_HTA1_414	phs002371_HTA1_414
+Not Reported	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_99999950679	phs002371_HTA11_99999950679_HTA11_99999950679	phs002371_HTA11_99999950679
+Not Reported	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_99999959460	phs002371_HTA11_99999959460_HTA11_99999959460	phs002371_HTA11_99999959460
+Not Reported	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_99999965062	phs002371_HTA11_99999965062_HTA11_99999965062	phs002371_HTA11_99999965062
+Alive	Pancreatobiliary-Type Carcinoma	77	Not Applicable		No	106	unknown tumor status	106	diagnosis	HTA12_27	phs002371_HTA12_27_HTA12_27	phs002371_HTA12_27
+Alive	Ewing Sarcoma	18	Unknown	9260-03-01 00:00:00	Yes	1183	Tumor free	1066	diagnosis	HTA1_340	phs002371_HTA1_340_HTA1_340	phs002371_HTA1_340
+Alive	Familial adenomatous polyposis	18	Not Applicable	Not Reported	Unknown	Unknown	Not Reported	Unknown	diagnosis	HTA10_02	phs002371_HTA10_02_HTA10_02	phs002371_HTA10_02
+Alive	Central Neuroblastoma	18	Unknown		No	1715	Tumor free	1715	diagnosis	HTA1_766	phs002371_HTA1_766_HTA1_766	phs002371_HTA1_766
+Dead	Glioma malignant	18	G4	9440-03-01 00:00:00	No	915	With tumor	915	diagnosis	HTA1_497	phs002371_HTA1_497_HTA1_497	phs002371_HTA1_497
+Unknown	Neuroblastoma NOS	18	Not Applicable		Not Reported	Not Reported	Not Reported	Not Reported	diagnosis	HTA1_114	phs002371_HTA1_114_HTA1_114	phs002371_HTA1_114
+Dead	Rhabdomyosarcoma NOS	18	Unknown	8900-03-01 00:00:00	Yes	477	With tumor	487	diagnosis	HTA1_951	phs002371_HTA1_951_HTA1_951	phs002371_HTA1_951
+Not Reported	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_99999959600	phs002371_HTA11_99999959600_HTA11_99999959600	phs002371_HTA11_99999959600
+Unknown	Adenocarcinoma Combined With Other Types Of Carcinoma	82	G3	8574-03-01 00:00:00	No	391	Tumor free	391	diagnosis	HTA1_336	phs002371_HTA1_336_HTA1_336	phs002371_HTA1_336
+Alive	Glioma malignant	18	G4	9440-03-01 00:00:00	Unknown	Not Recorded	unknown tumor status	unknown	diagnosis	HTA1_638	phs002371_HTA1_638_HTA1_638	phs002371_HTA1_638
+Not Reported	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_99999930884	phs002371_HTA11_99999930884_HTA11_99999930884	phs002371_HTA11_99999930884
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_1391	phs002371_HTA11_1391_HTA11_1391	phs002371_HTA11_1391
+Dead	Ductal carcinoma NOS	57	G3		Yes	3280	With tumor	3264	diagnosis	HTA1_525	phs002371_HTA1_525_HTA1_525	phs002371_HTA1_525
+Unknown	Neuroblastoma NOS	18	Not Applicable		Not Reported	Not Reported	Not Reported	Not Reported	diagnosis	HTA1_195	phs002371_HTA1_195_HTA1_195	phs002371_HTA1_195
+Alive	Ductal carcinoma NOS	35	G3		Yes	1660	With tumor	1579	diagnosis	HTA1_988	phs002371_HTA1_988_HTA1_988	phs002371_HTA1_988
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_4781	phs002371_HTA11_4781_HTA11_4781	phs002371_HTA11_4781
+Alive	Central Neuroblastoma	18	Unknown		Yes	1698	unknown tumor status	1334	diagnosis	HTA1_800	phs002371_HTA1_800_HTA1_800	phs002371_HTA1_800
+Dead	Ductal carcinoma NOS	44	Unknown		Yes	1392	With tumor	1389	diagnosis	HTA1_814	phs002371_HTA1_814_HTA1_814	phs002371_HTA1_814
+Dead	Lobular And Ductal Carcinoma	42	G2		Yes	3989	With tumor	3947	diagnosis	HTA1_947	phs002371_HTA1_947_HTA1_947	phs002371_HTA1_947
+Dead	Serous cystadenocarcinoma NOS	73	G3	8441-03-01 00:00:00	Yes	642	unknown tumor status	640	diagnosis	HTA1_949	phs002371_HTA1_949_HTA1_949	phs002371_HTA1_949
+Alive	Central Neuroblastoma	18	Unknown		No	1073	Tumor free	704	diagnosis	HTA1_527	phs002371_HTA1_527_HTA1_527	phs002371_HTA1_527
+Alive	Adenocarcinoma NOS	68	G1		No	475	Tumor free	431	diagnosis	HTA1_921	phs002371_HTA1_921_HTA1_921	phs002371_HTA1_921
+Not Reported	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_99999970781	phs002371_HTA11_99999970781_HTA11_99999970781	phs002371_HTA11_99999970781
+Not Reported	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_99999949347	phs002371_HTA11_99999949347_HTA11_99999949347	phs002371_HTA11_99999949347
+Dead	Glioma malignant	18	G3	9401-03-01 00:00:00	No	165	With tumor	165	diagnosis	HTA1_542	phs002371_HTA1_542_HTA1_542	phs002371_HTA1_542
+Alive	Lobular And Ductal Carcinoma	48	G2		Yes	5636	With tumor	5631	diagnosis	HTA1_600	phs002371_HTA1_600_HTA1_600	phs002371_HTA1_600
+Not Reported	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_99999944922	phs002371_HTA11_99999944922_HTA11_99999944922	phs002371_HTA11_99999944922
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_7696	phs002371_HTA11_7696_HTA11_7696	phs002371_HTA11_7696
+Dead	Serous cystadenocarcinoma NOS	75	Unknown	8441-03-01 00:00:00	Yes	169	With tumor	155	diagnosis	HTA1_610	phs002371_HTA1_610_HTA1_610	phs002371_HTA1_610
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_7663	phs002371_HTA11_7663_HTA11_7663	phs002371_HTA11_7663
+Dead	Serous cystadenocarcinoma NOS	55	G3	8441-03-01 00:00:00	Yes	1469	With tumor	1385	diagnosis	HTA1_636	phs002371_HTA1_636_HTA1_636	phs002371_HTA1_636
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_7469	phs002371_HTA11_7469_HTA11_7469	phs002371_HTA11_7469
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_7128	phs002371_HTA11_7128_HTA11_7128	phs002371_HTA11_7128
+Not Reported	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_99999954273	phs002371_HTA11_99999954273_HTA11_99999954273	phs002371_HTA11_99999954273
+Dead	Ductal carcinoma NOS	39	G3		Yes	1471	With tumor	1457	diagnosis	HTA1_516	phs002371_HTA1_516_HTA1_516	phs002371_HTA1_516
+Not Reported	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_99999959667	phs002371_HTA11_99999959667_HTA11_99999959667	phs002371_HTA11_99999959667
+Alive	Central Neuroblastoma	18	Unknown		Unknown	213	Tumor free	214	diagnosis	HTA1_797	phs002371_HTA1_797_HTA1_797	phs002371_HTA1_797
+Alive	Adenocarcinoma NOS	74	G2	8260-03-01 00:00:00	No	769	Tumor free	769	diagnosis	HTA1_331	phs002371_HTA1_331_HTA1_331	phs002371_HTA1_331
+Alive	Carcinosarcoma NOS	61	G2	8980-03-01 00:00:00	Yes	715	With tumor	447	diagnosis	HTA1_630	phs002371_HTA1_630_HTA1_630	phs002371_HTA1_630
+Unknown	Neuroblastoma NOS	18	Not Applicable		Not Reported	Not Reported	Not Reported	Not Reported	diagnosis	HTA1_184	phs002371_HTA1_184_HTA1_184	phs002371_HTA1_184
+Dead	Neuroblastoma NOS	18	Not Applicable		Not Reported	Not Reported	Not Reported	Not Reported	diagnosis	HTA1_811	phs002371_HTA1_811_HTA1_811	phs002371_HTA1_811
+Alive	High-Grade Serous Carcinoma	55	G3	8461-03-01 00:00:00	Yes	391	With tumor	405	diagnosis	HTA1_659	phs002371_HTA1_659_HTA1_659	phs002371_HTA1_659
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_7179	phs002371_HTA11_7179_HTA11_7179	phs002371_HTA11_7179
+Dead	Ewing Sarcoma	18	Unknown	9260-03-01 00:00:00	Yes	286	With tumor	269	diagnosis	HTA1_356	phs002371_HTA1_356_HTA1_356	phs002371_HTA1_356
+Not Reported	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_99999945365	phs002371_HTA11_99999945365_HTA11_99999945365	phs002371_HTA11_99999945365
+Not Reported	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_99999974143	phs002371_HTA11_99999974143_HTA11_99999974143	phs002371_HTA11_99999974143
+Alive	Familial adenomatous polyposis	18	Not Applicable	Not Reported	Unknown	Unknown	Not Reported	Unknown	diagnosis	HTA10_18	phs002371_HTA10_18_HTA10_18	phs002371_HTA10_18
+Alive	Ductal carcinoma NOS	55	G2		Yes	5280	With tumor	5251	diagnosis	HTA1_735	phs002371_HTA1_735_HTA1_735	phs002371_HTA1_735
+Alive	Rhabdomyosarcoma NOS	18	Unknown	8900-03-01 00:00:00	Yes	945	Tumor free	931	diagnosis	HTA1_884	phs002371_HTA1_884_HTA1_884	phs002371_HTA1_884
+Dead	Lobular Carcinoma, NOS	28	G1		Yes	1271	With tumor	1262	diagnosis	HTA1_806	phs002371_HTA1_806_HTA1_806	phs002371_HTA1_806
+Unknown	Adenocarcinoma intestinal type		Not Applicable	Not Reported	Unknown	Unknown	Not Reported	Unknown	diagnosis	HTA10_09	phs002371_HTA10_09_HTA10_09	phs002371_HTA10_09
+Unknown	Neuroblastoma NOS	18	Not Applicable		Not Reported	Not Reported	Not Reported	Not Reported	diagnosis	HTA1_166	phs002371_HTA1_166_HTA1_166	phs002371_HTA1_166
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_347	phs002371_HTA11_347_HTA11_347	phs002371_HTA11_347
+Alive	Serous cystadenocarcinoma NOS	18	Unknown	8441-03-01 00:00:00	Yes	1458	With tumor	1311	diagnosis	HTA1_641	phs002371_HTA1_641_HTA1_641	phs002371_HTA1_641
+Dead	Neuroblastoma NOS	18	Not Applicable		Not Reported	Not Reported	Not Reported	Not Reported	diagnosis	HTA1_136	phs002371_HTA1_136_HTA1_136	phs002371_HTA1_136
+Alive	Ductal carcinoma NOS	75	G3		Yes	1127	Tumor free	906	diagnosis	HTA1_254	phs002371_HTA1_254_HTA1_254	phs002371_HTA1_254
+Dead	Serous cystadenocarcinoma NOS	53	G3	8441-03-01 00:00:00	Yes	395	With tumor	360	diagnosis	HTA1_316	phs002371_HTA1_316_HTA1_316	phs002371_HTA1_316
+Alive	Ductal carcinoma NOS	41	G1		Yes	5221	With tumor	5132	diagnosis	HTA1_752	phs002371_HTA1_752_HTA1_752	phs002371_HTA1_752
+Alive	Ependymoma NOS	18	High Grade	9391-03-01 00:00:00	Yes	1095	Loco-regional recurrence/progression	694	diagnosis	HTA1_288	phs002371_HTA1_288_HTA1_288	phs002371_HTA1_288
+Alive	Pancreatobiliary-Type Carcinoma	60	G2		No	229	Distant met recurrence/progression	229	diagnosis	HTA12_22	phs002371_HTA12_22_HTA12_22	phs002371_HTA12_22
+Alive	Infiltrating Duct Carcinoma NOS	63	G3		Yes	4314	Distant met recurrence/progression	4314	diagnosis	HTA9_1	phs002371_HTA9_1_HTA9_1	phs002371_HTA9_1
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_6298	phs002371_HTA11_6298_HTA11_6298	phs002371_HTA11_6298
+Dead	Serous cystadenocarcinoma NOS	54	G2	8441-03-01 00:00:00	Yes	2621	With tumor	2619	diagnosis	HTA1_727	phs002371_HTA1_727_HTA1_727	phs002371_HTA1_727
+Unknown	Neuroblastoma NOS	18	Not Applicable		Not Reported	Not Reported	Not Reported	Not Reported	diagnosis	HTA1_123	phs002371_HTA1_123_HTA1_123	phs002371_HTA1_123
+Dead	Ductal carcinoma NOS	54	G3		Yes	685	With tumor	666	diagnosis	HTA1_213	phs002371_HTA1_213_HTA1_213	phs002371_HTA1_213
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_1938	phs002371_HTA11_1938_HTA11_1938	phs002371_HTA11_1938
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_8920	phs002371_HTA11_8920_HTA11_8920	phs002371_HTA11_8920
+Unknown	Neuroblastoma NOS	18	Not Applicable		Not Reported	Not Reported	Not Reported	Not Reported	diagnosis	HTA1_120	phs002371_HTA1_120_HTA1_120	phs002371_HTA1_120
+Alive	Adenocarcinoma NOS	40	G2		Yes	1540	With tumor	1475	diagnosis	HTA1_313	phs002371_HTA1_313_HTA1_313	phs002371_HTA1_313
+Alive	Ductal carcinoma NOS	55	G3		Yes	1942	With tumor	1862	diagnosis	HTA1_364	phs002371_HTA1_364_HTA1_364	phs002371_HTA1_364
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_3918	phs002371_HTA11_3918_HTA11_3918	phs002371_HTA11_3918
+Alive	Serous Surface Papillary Carcinoma	74	G3	8461-03-01 00:00:00	Yes	346	With tumor	263	diagnosis	HTA1_264	phs002371_HTA1_264_HTA1_264	phs002371_HTA1_264
+Alive	Familial adenomatous polyposis	18	Not Applicable	Not Reported	Unknown	Unknown	Not Reported	Unknown	diagnosis	HTA10_10	phs002371_HTA10_10_HTA10_10	phs002371_HTA10_10
+Dead	Lobular And Ductal Carcinoma	53	G1		Yes	1637	With tumor	1637	diagnosis	HTA1_851	phs002371_HTA1_851_HTA1_851	phs002371_HTA1_851
+Alive	Central Neuroblastoma	18	Unknown		Yes	264	With tumor	173	diagnosis	HTA1_813	phs002371_HTA1_813_HTA1_813	phs002371_HTA1_813
+Alive	Central Neuroblastoma	18	Unknown		No	587	With tumor	0	diagnosis	HTA1_621	phs002371_HTA1_621_HTA1_621	phs002371_HTA1_621
+Dead	Ductal carcinoma NOS	27	G3		Yes	520	With tumor	509	diagnosis	HTA1_514	phs002371_HTA1_514_HTA1_514	phs002371_HTA1_514
+Alive	Central Neuroblastoma	18	Unknown		No	1945	Tumor free	1762	diagnosis	HTA1_233	phs002371_HTA1_233_HTA1_233	phs002371_HTA1_233
+Alive	Ductal carcinoma NOS	30	G3		Yes	264	With tumor	201	diagnosis	HTA1_425	phs002371_HTA1_425_HTA1_425	phs002371_HTA1_425
+Alive	Lobular And Ductal Carcinoma	57	G2		Yes	1950	With tumor	1861	diagnosis	HTA1_309	phs002371_HTA1_309_HTA1_309	phs002371_HTA1_309
+Dead	Neuroblastoma NOS	18	Not Applicable		Not Reported	Not Reported	Not Reported	Not Reported	diagnosis	HTA1_829	phs002371_HTA1_829_HTA1_829	phs002371_HTA1_829
+Alive	Ductal carcinoma NOS	44	Unknown		Yes	7958	With tumor	7938	diagnosis	HTA1_895	phs002371_HTA1_895_HTA1_895	phs002371_HTA1_895
+Unknown	Neuroblastoma NOS	18	Not Applicable		Not Reported	Not Reported	Not Reported	Not Reported	diagnosis	HTA1_196	phs002371_HTA1_196_HTA1_196	phs002371_HTA1_196
+Alive	Lobular Carcinoma, NOS	63	G2		Yes	1714	With tumor	1057	diagnosis	HTA1_880	phs002371_HTA1_880_HTA1_880	phs002371_HTA1_880
+Dead	Ductal carcinoma NOS	51	G2		Yes	4907	With tumor	3828	diagnosis	HTA1_889	phs002371_HTA1_889_HTA1_889	phs002371_HTA1_889
+Unknown	Neuroblastoma NOS	18	Not Applicable		Not Reported	Not Reported	Not Reported	Not Reported	diagnosis	HTA1_167	phs002371_HTA1_167_HTA1_167	phs002371_HTA1_167
+Alive	Central Neuroblastoma	18	Unknown		Unknown	1534	Tumor free	343	diagnosis	HTA1_437	phs002371_HTA1_437_HTA1_437	phs002371_HTA1_437
+Alive	Familial adenomatous polyposis	18	Not Applicable	Not Reported	Unknown	Unknown	Not Reported	Unknown	diagnosis	HTA10_03	phs002371_HTA10_03_HTA10_03	phs002371_HTA10_03
+Not Reported	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_9999991586	phs002371_HTA11_9999991586_HTA11_9999991586	phs002371_HTA11_9999991586
+Not Reported	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_99999932541	phs002371_HTA11_99999932541_HTA11_99999932541	phs002371_HTA11_99999932541
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_6818	phs002371_HTA11_6818_HTA11_6818	phs002371_HTA11_6818
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_3331	phs002371_HTA11_3331_HTA11_3331	phs002371_HTA11_3331
+Alive	Carcinoma NOS	43	Unknown	8010-03-01 00:00:00	Yes	11208	With tumor	11204	diagnosis	HTA1_226	phs002371_HTA1_226_HTA1_226	phs002371_HTA1_226
+Dead	Ductal carcinoma NOS	54	G2		Yes	1670	With tumor	1622	diagnosis	HTA1_225	phs002371_HTA1_225_HTA1_225	phs002371_HTA1_225
+Dead	Ductal carcinoma NOS	50	Unknown		Yes	1532	With tumor	1483	diagnosis	HTA1_519	phs002371_HTA1_519_HTA1_519	phs002371_HTA1_519
+Dead	Serous cystadenocarcinoma NOS	49	G3	8441-03-01 00:00:00	Yes	1080	With tumor	1031	diagnosis	HTA1_613	phs002371_HTA1_613_HTA1_613	phs002371_HTA1_613

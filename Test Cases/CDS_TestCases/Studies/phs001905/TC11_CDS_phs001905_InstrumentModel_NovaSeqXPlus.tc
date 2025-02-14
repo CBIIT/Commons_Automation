@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC11_CDS_phs001905_InstrumentModel_NovaSeqXPlus</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1b7887d2-e475-4d82-8490-e7c48e2dc6f1</testCaseGuid>
+</TestCaseEntity>

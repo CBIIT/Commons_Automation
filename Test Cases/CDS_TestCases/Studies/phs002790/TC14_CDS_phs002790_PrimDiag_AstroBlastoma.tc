@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC14_CDS_phs002790_PrimDiag_AstroBlastoma</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d7beb338-2cd7-44cb-8a44-0b08946da7ac</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC15_CDS_phs001287_ImageModality</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cb7d76c4-fba4-429b-830a-0f6436df7c1a</testCaseGuid>
+</TestCaseEntity>

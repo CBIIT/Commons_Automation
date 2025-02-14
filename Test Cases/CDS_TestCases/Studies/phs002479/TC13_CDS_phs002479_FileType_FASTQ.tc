@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC13_CDS_phs002479_FileType_FASTQ</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>16a75992-ffd4-4303-b369-e33e80cfb7a1</testCaseGuid>
+</TestCaseEntity>
