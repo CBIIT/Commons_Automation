@@ -1,0 +1,3 @@
+library_strategy	library_layout	library_selection	platform	instrument_model	type	genomic_info_id	file.file_id	reference_genome_assembly	library_source
+WXS	Paired-End	other	Illumina	Illumina NovaSeq 6000	genomic_info	dg.4DFC/2c436c52-8403-11ee-ac1d-d3d8ca49ce61	dg.4DFC/2c436c52-8403-11ee-ac1d-d3d8ca49ce61	Not specified in data	Not specified in data
+WXS	Paired-End	other	Illumina	Illumina NovaSeq 6000	genomic_info	dg.4DFC/2c44edca-8403-11ee-89ba-97f1d8e813d2	dg.4DFC/2c44edca-8403-11ee-89ba-97f1d8e813d2	Not specified in data	Not specified in data

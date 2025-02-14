@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC06_CDS_phs001787_LibraryStrategy_WXS</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b97c59a3-1b98-4835-b60e-21fdcfd77062</testCaseGuid>
+</TestCaseEntity>

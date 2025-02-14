@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_CDS_phs002790_ExperimentalStrategy_ArcherFusion</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d9ee70ed-67e5-4476-add1-c7e902c4f43d</testCaseGuid>
+</TestCaseEntity>

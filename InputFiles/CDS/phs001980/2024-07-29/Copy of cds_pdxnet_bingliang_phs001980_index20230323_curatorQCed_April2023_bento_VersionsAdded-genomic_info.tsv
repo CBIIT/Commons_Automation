@@ -1,0 +1,99 @@
+library_id	reference_genome_assembly	library_strategy	library_layout	library_source	library_selection	platform	instrument_model	type	genomic_info_id	file.file_id
+R544TC303F3	Not specified in data	RNA-Seq	Paired-End	Transcriptomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/855f100c-c9b9-11ed-b41c-ef22f5c1c13b_R544TC303F3	dg.4DFC/855f100c-c9b9-11ed-b41c-ef22f5c1c13b
+R544TC303F3	Not specified in data	RNA-Seq	Paired-End	Transcriptomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/8560bbbe-c9b9-11ed-86f8-bbbec4c34079_R544TC303F3	dg.4DFC/8560bbbe-c9b9-11ed-86f8-bbbec4c34079
+R575TC393F2	Not specified in data	RNA-Seq	Paired-End	Transcriptomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/85610358-c9b9-11ed-8b02-b7ae9845f8bf_R575TC393F2	dg.4DFC/85610358-c9b9-11ed-8b02-b7ae9845f8bf
+R575TC393F2	Not specified in data	RNA-Seq	Paired-End	Transcriptomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/85614976-c9b9-11ed-bac8-b3258b2373f5_R575TC393F2	dg.4DFC/85614976-c9b9-11ed-bac8-b3258b2373f5
+R544TC453F2	Not specified in data	RNA-Seq	Paired-End	Transcriptomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/85619016-c9b9-11ed-a929-db90e292b011_R544TC453F2	dg.4DFC/85619016-c9b9-11ed-a929-db90e292b011
+R544TC453F2	Not specified in data	RNA-Seq	Paired-End	Transcriptomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/8561d670-c9b9-11ed-a45b-971b1df698a7_R544TC453F2	dg.4DFC/8561d670-c9b9-11ed-a45b-971b1df698a7
+R544TC494F4	Not specified in data	RNA-Seq	Paired-End	Transcriptomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/85621c7a-c9b9-11ed-8941-ebdff0826a0f_R544TC494F4	dg.4DFC/85621c7a-c9b9-11ed-8941-ebdff0826a0f
+R544TC494F4	Not specified in data	RNA-Seq	Paired-End	Transcriptomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/8562622a-c9b9-11ed-a4f7-53c982a61657_R544TC494F4	dg.4DFC/8562622a-c9b9-11ed-a4f7-53c982a61657
+R544TC551F2	Not specified in data	RNA-Seq	Paired-End	Transcriptomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/8562a744-c9b9-11ed-9353-97581ef37916_R544TC551F2	dg.4DFC/8562a744-c9b9-11ed-9353-97581ef37916
+R544TC551F2	Not specified in data	RNA-Seq	Paired-End	Transcriptomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/8562ed58-c9b9-11ed-a66a-2f069314968c_R544TC551F2	dg.4DFC/8562ed58-c9b9-11ed-a66a-2f069314968c
+TC355PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/856335d8-c9b9-11ed-b1d2-37030df7e872_TC355PT.MS11	dg.4DFC/856335d8-c9b9-11ed-b1d2-37030df7e872
+TC355PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/85637c32-c9b9-11ed-8e75-bf31b49c2a14_TC355PT.MS11	dg.4DFC/85637c32-c9b9-11ed-8e75-bf31b49c2a14
+TC372PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/8563c0fc-c9b9-11ed-b427-9b20e724ae99_TC372PT.MS11	dg.4DFC/8563c0fc-c9b9-11ed-b427-9b20e724ae99
+TC372PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/856407ec-c9b9-11ed-be71-abfd3c2ab97a_TC372PT.MS11	dg.4DFC/856407ec-c9b9-11ed-be71-abfd3c2ab97a
+TC372PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/85644cde-c9b9-11ed-b00f-4bdad29105bb_TC372PT.MS11	dg.4DFC/85644cde-c9b9-11ed-b00f-4bdad29105bb
+TC372PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/85649586-c9b9-11ed-886d-5f7fe5a36374_TC372PT.MS11	dg.4DFC/85649586-c9b9-11ed-886d-5f7fe5a36374
+TC375PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/8564da8c-c9b9-11ed-88cd-6f853458cfd7_TC375PT.MS11	dg.4DFC/8564da8c-c9b9-11ed-88cd-6f853458cfd7
+TC375PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/85651fce-c9b9-11ed-836c-4b056a32abcc_TC375PT.MS11	dg.4DFC/85651fce-c9b9-11ed-836c-4b056a32abcc
+TC375PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/8565695c-c9b9-11ed-8e6c-7719bdc99f30_TC375PT.MS11	dg.4DFC/8565695c-c9b9-11ed-8e6c-7719bdc99f30
+TC375PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/8565ae12-c9b9-11ed-b2c1-c3b0f0cc4348_TC375PT.MS11	dg.4DFC/8565ae12-c9b9-11ed-b2c1-c3b0f0cc4348
+TC388PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/8565f4bc-c9b9-11ed-861a-f3a81a6d823d_TC388PT.MS11	dg.4DFC/8565f4bc-c9b9-11ed-861a-f3a81a6d823d
+TC388PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/85663986-c9b9-11ed-a04e-a35b9b62850a_TC388PT.MS11	dg.4DFC/85663986-c9b9-11ed-a04e-a35b9b62850a
+TC388PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/85668134-c9b9-11ed-9274-e707614ef445_TC388PT.MS11	dg.4DFC/85668134-c9b9-11ed-9274-e707614ef445
+TC388PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/8566c5e0-c9b9-11ed-9134-3f3b151efb1d_TC388PT.MS11	dg.4DFC/8566c5e0-c9b9-11ed-9134-3f3b151efb1d
+TC389PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/85670ce4-c9b9-11ed-a51f-6f33e0d5ff83_TC389PT.MS11	dg.4DFC/85670ce4-c9b9-11ed-a51f-6f33e0d5ff83
+TC389PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/856753ca-c9b9-11ed-83b9-b3cb124c0c3a_TC389PT.MS11	dg.4DFC/856753ca-c9b9-11ed-83b9-b3cb124c0c3a
+TC389PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/85679bb4-c9b9-11ed-95d5-93f04e3df1ca_TC389PT.MS11	dg.4DFC/85679bb4-c9b9-11ed-95d5-93f04e3df1ca
+TC389PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/8567e204-c9b9-11ed-9e4b-6fbea33a87e8_TC389PT.MS11	dg.4DFC/8567e204-c9b9-11ed-9e4b-6fbea33a87e8
+TC395PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/85682732-c9b9-11ed-a5e1-2b5dd8324a98_TC395PT.MS11	dg.4DFC/85682732-c9b9-11ed-a5e1-2b5dd8324a98
+TC395PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/85687052-c9b9-11ed-a266-83b538b2d2c6_TC395PT.MS11	dg.4DFC/85687052-c9b9-11ed-a266-83b538b2d2c6
+TC395PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/8568b5f8-c9b9-11ed-ba4c-43e1714e0ae3_TC395PT.MS11	dg.4DFC/8568b5f8-c9b9-11ed-ba4c-43e1714e0ae3
+TC395PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/856901ca-c9b9-11ed-a0d9-d3c89c3e8bef_TC395PT.MS11	dg.4DFC/856901ca-c9b9-11ed-a0d9-d3c89c3e8bef
+TC411PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/856947de-c9b9-11ed-8dd6-cfefb799c447_TC411PT.MS11	dg.4DFC/856947de-c9b9-11ed-8dd6-cfefb799c447
+TC411PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/85698fdc-c9b9-11ed-8568-7b38bf40edab_TC411PT.MS11	dg.4DFC/85698fdc-c9b9-11ed-8568-7b38bf40edab
+TC411PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/8569d492-c9b9-11ed-ae2a-8359313ac857_TC411PT.MS11	dg.4DFC/8569d492-c9b9-11ed-ae2a-8359313ac857
+TC411PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/856a1c90-c9b9-11ed-bf1b-9323ffd81225_TC411PT.MS11	dg.4DFC/856a1c90-c9b9-11ed-bf1b-9323ffd81225
+TC427PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/856a63e4-c9b9-11ed-a4d6-070713264f9e_TC427PT.MS11	dg.4DFC/856a63e4-c9b9-11ed-a4d6-070713264f9e
+TC427PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/856aabd8-c9b9-11ed-898d-372553681515_TC427PT.MS11	dg.4DFC/856aabd8-c9b9-11ed-898d-372553681515
+TC427PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/856af39a-c9b9-11ed-bf23-6ff97e6a8656_TC427PT.MS11	dg.4DFC/856af39a-c9b9-11ed-bf23-6ff97e6a8656
+TC427PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/856b39f4-c9b9-11ed-a913-3be26c2b807e_TC427PT.MS11	dg.4DFC/856b39f4-c9b9-11ed-a913-3be26c2b807e
+TC435PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/856b7f68-c9b9-11ed-b140-cbbb60a85e13_TC435PT.MS11	dg.4DFC/856b7f68-c9b9-11ed-b140-cbbb60a85e13
+TC435PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/856bc374-c9b9-11ed-93cc-6b974804128b_TC435PT.MS11	dg.4DFC/856bc374-c9b9-11ed-93cc-6b974804128b
+TC441PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/856c0ca8-c9b9-11ed-9d12-f398b37ff19b_TC441PT.MS11	dg.4DFC/856c0ca8-c9b9-11ed-9d12-f398b37ff19b
+TC441PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/856c5618-c9b9-11ed-a0c5-fb628196dd28_TC441PT.MS11	dg.4DFC/856c5618-c9b9-11ed-a0c5-fb628196dd28
+TC441PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/856ca122-c9b9-11ed-b8be-ff4b35eb9252_TC441PT.MS11	dg.4DFC/856ca122-c9b9-11ed-b8be-ff4b35eb9252
+TC441PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/856ce88a-c9b9-11ed-b8db-d7e5ee57a4e2_TC441PT.MS11	dg.4DFC/856ce88a-c9b9-11ed-b8db-d7e5ee57a4e2
+TC451PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/856d3182-c9b9-11ed-96f9-5735e06a0a05_TC451PT.MS11	dg.4DFC/856d3182-c9b9-11ed-96f9-5735e06a0a05
+TC451PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/856d7b56-c9b9-11ed-af51-734561374502_TC451PT.MS11	dg.4DFC/856d7b56-c9b9-11ed-af51-734561374502
+TC451PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/856dc58e-c9b9-11ed-9db8-3ff570517b38_TC451PT.MS11	dg.4DFC/856dc58e-c9b9-11ed-9db8-3ff570517b38
+TC451PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/856e095e-c9b9-11ed-ac36-afd46aafc5a4_TC451PT.MS11	dg.4DFC/856e095e-c9b9-11ed-ac36-afd46aafc5a4
+TC454PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/856e4f36-c9b9-11ed-8fe0-a7ca3b3f89f7_TC454PT.MS11	dg.4DFC/856e4f36-c9b9-11ed-8fe0-a7ca3b3f89f7
+TC454PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/856e9590-c9b9-11ed-a87e-ab14cf61be71_TC454PT.MS11	dg.4DFC/856e9590-c9b9-11ed-a87e-ab14cf61be71
+TC454PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/856ed9ba-c9b9-11ed-9fe7-57ae6d723f01_TC454PT.MS11	dg.4DFC/856ed9ba-c9b9-11ed-9fe7-57ae6d723f01
+TC454PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/856f25e6-c9b9-11ed-ae4e-ef03f9cc79fc_TC454PT.MS11	dg.4DFC/856f25e6-c9b9-11ed-ae4e-ef03f9cc79fc
+TC474PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/856f6d76-c9b9-11ed-baa1-877def41c6e2_TC474PT.MS11	dg.4DFC/856f6d76-c9b9-11ed-baa1-877def41c6e2
+TC474PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/856fb7cc-c9b9-11ed-90b7-1f0a9cb0d41f_TC474PT.MS11	dg.4DFC/856fb7cc-c9b9-11ed-90b7-1f0a9cb0d41f
+TC474PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/856fff66-c9b9-11ed-b7f6-3f6bd8b9920a_TC474PT.MS11	dg.4DFC/856fff66-c9b9-11ed-b7f6-3f6bd8b9920a
+TC474PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/85704ade-c9b9-11ed-98ce-9f782509c548_TC474PT.MS11	dg.4DFC/85704ade-c9b9-11ed-98ce-9f782509c548
+TC476PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/85709408-c9b9-11ed-9375-bfad5947fc59_TC476PT.MS11	dg.4DFC/85709408-c9b9-11ed-9375-bfad5947fc59
+TC476PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/8570dd78-c9b9-11ed-afe1-373798198d9b_TC476PT.MS11	dg.4DFC/8570dd78-c9b9-11ed-afe1-373798198d9b
+TC476PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/85712896-c9b9-11ed-a20a-47c701dd9804_TC476PT.MS11	dg.4DFC/85712896-c9b9-11ed-a20a-47c701dd9804
+TC476PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/85716f72-c9b9-11ed-bf16-13e1f1b26d36_TC476PT.MS11	dg.4DFC/85716f72-c9b9-11ed-bf16-13e1f1b26d36
+TC526P1.XABCL_RNA.MS72B	Not specified in data	RNA-Seq	Paired-End	Transcriptomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/8571b676-c9b9-11ed-8d85-337987001144_TC526P1.XABCL_RNA.MS72B	dg.4DFC/8571b676-c9b9-11ed-8d85-337987001144
+TC526P1.XABCL_RNA.MS72B	Not specified in data	RNA-Seq	Paired-End	Transcriptomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/8571fbf4-c9b9-11ed-b570-8be562eaaa74_TC526P1.XABCL_RNA.MS72B	dg.4DFC/8571fbf4-c9b9-11ed-b570-8be562eaaa74
+TC539PT.MS72B	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/85724334-c9b9-11ed-96f0-1b5d2d747e40_TC539PT.MS72B	dg.4DFC/85724334-c9b9-11ed-96f0-1b5d2d747e40
+TC539PT.MS72B	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/857288a8-c9b9-11ed-99a3-5b98714067b4_TC539PT.MS72B	dg.4DFC/857288a8-c9b9-11ed-99a3-5b98714067b4
+TC539PT.MS72B	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/8572cef8-c9b9-11ed-94be-d3f50f3fa7ef_TC539PT.MS72B	dg.4DFC/8572cef8-c9b9-11ed-94be-d3f50f3fa7ef
+TC539PT.MS72B	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/857313c2-c9b9-11ed-9397-9bfa26643545_TC539PT.MS72B	dg.4DFC/857313c2-c9b9-11ed-9397-9bfa26643545
+TC540P1.XABCL_RNA.MS72B	Not specified in data	RNA-Seq	Paired-End	Transcriptomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/85735c42-c9b9-11ed-8e67-97f55ccdc185_TC540P1.XABCL_RNA.MS72B	dg.4DFC/85735c42-c9b9-11ed-8e67-97f55ccdc185
+TC540P1.XABCL_RNA.MS72B	Not specified in data	RNA-Seq	Paired-End	Transcriptomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/8573a292-c9b9-11ed-b245-e70cca514502_TC540P1.XABCL_RNA.MS72B	dg.4DFC/8573a292-c9b9-11ed-b245-e70cca514502
+TC650P1.XABCL_RNA.MS72B	Not specified in data	RNA-Seq	Paired-End	Transcriptomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/8573e9dc-c9b9-11ed-b496-8b0774f77994_TC650P1.XABCL_RNA.MS72B	dg.4DFC/8573e9dc-c9b9-11ed-b496-8b0774f77994
+TC650P1.XABCL_RNA.MS72B	Not specified in data	RNA-Seq	Paired-End	Transcriptomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/85742ff0-c9b9-11ed-af38-07ffec94a3ec_TC650P1.XABCL_RNA.MS72B	dg.4DFC/85742ff0-c9b9-11ed-af38-07ffec94a3ec
+TC859PT.MS72C	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/85747b9a-c9b9-11ed-90a8-73d2fa045edd_TC859PT.MS72C	dg.4DFC/85747b9a-c9b9-11ed-90a8-73d2fa045edd
+TC859PT.MS72C	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/8574c078-c9b9-11ed-a206-4f55af981506_TC859PT.MS72C	dg.4DFC/8574c078-c9b9-11ed-a206-4f55af981506
+TC211PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/857506dc-c9b9-11ed-8c30-5f8cc69c6aab_TC211PT.MS11	dg.4DFC/857506dc-c9b9-11ed-8c30-5f8cc69c6aab
+TC211PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/85754e58-c9b9-11ed-ab5a-2bfe2f917fee_TC211PT.MS11	dg.4DFC/85754e58-c9b9-11ed-ab5a-2bfe2f917fee
+TC223PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/85759336-c9b9-11ed-8c8d-ab6398c1af48_TC223PT.MS11	dg.4DFC/85759336-c9b9-11ed-8c8d-ab6398c1af48
+TC223PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/8575dbf2-c9b9-11ed-8fc0-23c0c04c695d_TC223PT.MS11	dg.4DFC/8575dbf2-c9b9-11ed-8fc0-23c0c04c695d
+TC241PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/85762102-c9b9-11ed-8c08-7f0643e37136_TC241PT.MS11	dg.4DFC/85762102-c9b9-11ed-8c08-7f0643e37136
+TC241PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/857669b4-c9b9-11ed-a2f6-3f42657b1c8c_TC241PT.MS11	dg.4DFC/857669b4-c9b9-11ed-a2f6-3f42657b1c8c
+TC255PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/8576af14-c9b9-11ed-9d9c-2bd115a24162_TC255PT.MS11	dg.4DFC/8576af14-c9b9-11ed-9d9c-2bd115a24162
+TC255PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/8576f5a0-c9b9-11ed-90bb-074e79723602_TC255PT.MS11	dg.4DFC/8576f5a0-c9b9-11ed-90bb-074e79723602
+TC397PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/85773b3c-c9b9-11ed-a73e-17608d9cbd71_TC397PT.MS11	dg.4DFC/85773b3c-c9b9-11ed-a73e-17608d9cbd71
+TC397PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/857784e8-c9b9-11ed-8ad0-231cd3570b81_TC397PT.MS11	dg.4DFC/857784e8-c9b9-11ed-8ad0-231cd3570b81
+TC402PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/8577ca0c-c9b9-11ed-9531-67d81dc49703_TC402PT.MS11	dg.4DFC/8577ca0c-c9b9-11ed-9531-67d81dc49703
+TC402PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/85780f6c-c9b9-11ed-be51-ff081de52c03_TC402PT.MS11	dg.4DFC/85780f6c-c9b9-11ed-be51-ff081de52c03
+TC404PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/85785648-c9b9-11ed-987f-f7879f83a4f0_TC404PT.MS11	dg.4DFC/85785648-c9b9-11ed-987f-f7879f83a4f0
+TC404PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/85789b44-c9b9-11ed-a0a7-b7ad0ef319ea_TC404PT.MS11	dg.4DFC/85789b44-c9b9-11ed-a0a7-b7ad0ef319ea
+TC496PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/8578e3ce-c9b9-11ed-a09d-dbb031cb9ce3_TC496PT.MS11	dg.4DFC/8578e3ce-c9b9-11ed-a09d-dbb031cb9ce3
+TC496PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/85792bfe-c9b9-11ed-a043-f788afab9c98_TC496PT.MS11	dg.4DFC/85792bfe-c9b9-11ed-a043-f788afab9c98
+TC524PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/857971d6-c9b9-11ed-8e72-73530a634a14_TC524PT.MS11	dg.4DFC/857971d6-c9b9-11ed-8e72-73530a634a14
+TC524PT.MS11	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/8579b718-c9b9-11ed-b429-af83747e1edf_TC524PT.MS11	dg.4DFC/8579b718-c9b9-11ed-b429-af83747e1edf
+TC723PT.MS72B	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/857a0060-c9b9-11ed-bf37-3312c71fc216_TC723PT.MS72B	dg.4DFC/857a0060-c9b9-11ed-bf37-3312c71fc216
+TC723PT.MS72B	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/857a4638-c9b9-11ed-a556-dff5879ed5f2_TC723PT.MS72B	dg.4DFC/857a4638-c9b9-11ed-a556-dff5879ed5f2
+TC805PT.MS72B	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/857a8d0a-c9b9-11ed-9b12-f353a3069c6e_TC805PT.MS72B	dg.4DFC/857a8d0a-c9b9-11ed-9b12-f353a3069c6e
+TC805PT.MS72B	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/857ad580-c9b9-11ed-a0ba-c31ae791437d_TC805PT.MS72B	dg.4DFC/857ad580-c9b9-11ed-a0ba-c31ae791437d
+TC929PT.MS72B	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/857b1e3c-c9b9-11ed-812c-6f744594f9b1_TC929PT.MS72B	dg.4DFC/857b1e3c-c9b9-11ed-812c-6f744594f9b1
+TC929PT.MS72B	GRCh37	WXS	Paired-End	Genomic	Random	Illumina	Illumina HiSeq 4000	genomic_info	dg.4DFC/857b66ee-c9b9-11ed-ae24-c3c9f50619ba_TC929PT.MS72B	dg.4DFC/857b66ee-c9b9-11ed-ae24-c3c9f50619ba

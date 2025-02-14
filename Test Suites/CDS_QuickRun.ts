@@ -22,7 +22,7 @@
       <guid>f1d54ee5-b199-41f5-bb43-cd031167e728</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/Studies/phs001287/TC01_CDS_phs001287_Gender_Female</testCaseId>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs001287/TC02_CDS_phs001287_Gender_Female</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_CDS_phs002518_Gender_Female</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1704d8fa-9135-4c7e-a827-371ce35176f7</testCaseGuid>
+</TestCaseEntity>

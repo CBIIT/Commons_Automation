@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_CDS_phs001287_SampleType_TumorAdjacentNormal</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>694a55a5-e488-46f9-9cdf-76954c5e4c57</testCaseGuid>
+</TestCaseEntity>

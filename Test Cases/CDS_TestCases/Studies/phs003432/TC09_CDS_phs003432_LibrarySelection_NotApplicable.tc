@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC09_CDS_phs003432_LibrarySelection_NotApplicable</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2e07c144-ba6d-400f-904a-3965139984a5</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,194 @@
+participant_id	race	gender	ethnicity	dbGaP_subject_id	type	study_participant_id	study.phs_accession
+TB-000001	White	Male	Hispanic or Latino	4399439.0	participant	phs002529_TB-000001	phs002529
+TB-000003	White	Male	Not Hispanic or Latino	4399440.0	participant	phs002529_TB-000003	phs002529
+TB-000004	White	Male	Not Hispanic or Latino	4399441.0	participant	phs002529_TB-000004	phs002529
+TB-000005	White	Male	Not Hispanic or Latino	4399442.0	participant	phs002529_TB-000005	phs002529
+TB-000008	White	Female	Not Hispanic or Latino	4399443.0	participant	phs002529_TB-000008	phs002529
+TB-000010	Unknown	Female	Not Reported	4399444.0	participant	phs002529_TB-000010	phs002529
+TB-000011	Asian	Male	Not Reported	4399445.0	participant	phs002529_TB-000011	phs002529
+TB-000012	White	Male	Not Hispanic or Latino	4399446.0	participant	phs002529_TB-000012	phs002529
+TB-000013	White	Female	Not Hispanic or Latino	4399447.0	participant	phs002529_TB-000013	phs002529
+TB-000017	White	Female	Not Hispanic or Latino	4399451.0	participant	phs002529_TB-000017	phs002529
+TB-000018	White	Female	Hispanic or Latino	4399452.0	participant	phs002529_TB-000018	phs002529
+TB-000019	White	Male	Not Reported	4399453.0	participant	phs002529_TB-000019	phs002529
+TB-000021	White	Male	Not Hispanic or Latino	4399455.0	participant	phs002529_TB-000021	phs002529
+TB-000023	Unknown	Male	Not Reported	4399456.0	participant	phs002529_TB-000023	phs002529
+TB-000024	White	Male	Not Hispanic or Latino	4399457.0	participant	phs002529_TB-000024	phs002529
+TB-000025	White	Male	Not Hispanic or Latino	4399458.0	participant	phs002529_TB-000025	phs002529
+TB-000026	White	Female	Not Hispanic or Latino	4399459.0	participant	phs002529_TB-000026	phs002529
+TB-000027	White	Female	Not Hispanic or Latino	4399460.0	participant	phs002529_TB-000027	phs002529
+TB-000028	White	Male	Not Hispanic or Latino	4399461.0	participant	phs002529_TB-000028	phs002529
+TB-000029	Black or African American	Male	Not Reported	4399462.0	participant	phs002529_TB-000029	phs002529
+TB-000030	White	Female	Hispanic or Latino	4399463.0	participant	phs002529_TB-000030	phs002529
+TB-000031	White	Male	Not Hispanic or Latino	4399464.0	participant	phs002529_TB-000031	phs002529
+TB-000033	Unknown	Male	Not Reported	4399465.0	participant	phs002529_TB-000033	phs002529
+TB-000034	White	Male	Not Hispanic or Latino	4399466.0	participant	phs002529_TB-000034	phs002529
+TB-000038	White	Female	Not Hispanic or Latino	4399469.0	participant	phs002529_TB-000038	phs002529
+TB-000039	White	Female	Not Hispanic or Latino	4399470.0	participant	phs002529_TB-000039	phs002529
+TB-000040	White	Male	Not Hispanic or Latino	4399471.0	participant	phs002529_TB-000040	phs002529
+TB-000042	White	Male	Not Hispanic or Latino	4399472.0	participant	phs002529_TB-000042	phs002529
+TB-000043	White	Female	Not Hispanic or Latino	4399473.0	participant	phs002529_TB-000043	phs002529
+TB-000048	White	Male	Not Hispanic or Latino	4399474.0	participant	phs002529_TB-000048	phs002529
+TB-000049	White	Female	Not Hispanic or Latino	4399475.0	participant	phs002529_TB-000049	phs002529
+TB-000050	Unknown	Female	Not Reported	4399476.0	participant	phs002529_TB-000050	phs002529
+TB-000052	Black or African American	Male	Not Reported	4399477.0	participant	phs002529_TB-000052	phs002529
+TB-000053	White	Female	Not Hispanic or Latino	4399478.0	participant	phs002529_TB-000053	phs002529
+TB-000054	White	Female	Not Hispanic or Latino	4399479.0	participant	phs002529_TB-000054	phs002529
+TB-000055	White	Female	Not Hispanic or Latino	4399480.0	participant	phs002529_TB-000055	phs002529
+TB-000056	White	Female	Not Hispanic or Latino	4399481.0	participant	phs002529_TB-000056	phs002529
+TB-000057	White	Male	Not Hispanic or Latino	4399482.0	participant	phs002529_TB-000057	phs002529
+TB-000059	White	Male	Not Hispanic or Latino	4399483.0	participant	phs002529_TB-000059	phs002529
+TB-000060	White	Female	Not Hispanic or Latino	4399484.0	participant	phs002529_TB-000060	phs002529
+TB-000061	White	Female	Not Hispanic or Latino	4399485.0	participant	phs002529_TB-000061	phs002529
+TB-000062	Black or African American	Male	Not Reported	4399486.0	participant	phs002529_TB-000062	phs002529
+TB-000063	White	Female	Not Hispanic or Latino	4399487.0	participant	phs002529_TB-000063	phs002529
+TB-000064	White	Male	Not Hispanic or Latino	4399488.0	participant	phs002529_TB-000064	phs002529
+TB-000065	White	Male	Not Hispanic or Latino	4399489.0	participant	phs002529_TB-000065	phs002529
+TB-000066	Black or African American	Female	Not Reported	4399490.0	participant	phs002529_TB-000066	phs002529
+TB-000067	White	Male	Not Hispanic or Latino	4399491.0	participant	phs002529_TB-000067	phs002529
+TB-000068	White	Female	Hispanic or Latino	4399492.0	participant	phs002529_TB-000068	phs002529
+TB-000014	White	Male	Not Hispanic or Latino	4399448.0	participant	phs002529_TB-000014	phs002529
+TB-000015	White	Female	Not Hispanic or Latino	4399449.0	participant	phs002529_TB-000015	phs002529
+TB-000016	Unknown	Female	Not Reported	4399450.0	participant	phs002529_TB-000016	phs002529
+TB-000020	White	Male	Not Hispanic or Latino	4399454.0	participant	phs002529_TB-000020	phs002529
+TB-000035	White	Female	Not Hispanic or Latino	4399467.0	participant	phs002529_TB-000035	phs002529
+TB-000036	White	Female	Hispanic or Latino	4399468.0	participant	phs002529_TB-000036	phs002529
+TB-000071	White	Male	Not Hispanic or Latino	4399493.0	participant	phs002529_TB-000071	phs002529
+TB-000072	White	Female	Hispanic or Latino	4399494.0	participant	phs002529_TB-000072	phs002529
+TB-000073	White	Female	Not Hispanic or Latino	4399495.0	participant	phs002529_TB-000073	phs002529
+TB-000074	White	Female	Not Hispanic or Latino	4399496.0	participant	phs002529_TB-000074	phs002529
+TB-000075	Black or African American	Male	Not Reported	4399497.0	participant	phs002529_TB-000075	phs002529
+TB-000076	White	Female	Not Hispanic or Latino	4399498.0	participant	phs002529_TB-000076	phs002529
+TB-000079	White	Male	Not Hispanic or Latino	4399499.0	participant	phs002529_TB-000079	phs002529
+TB-000080	White	Female	Not Hispanic or Latino	4399500.0	participant	phs002529_TB-000080	phs002529
+TB-000081	White	Male	Not Hispanic or Latino	4399501.0	participant	phs002529_TB-000081	phs002529
+TB-000082	Unknown	Male	Not Reported	4399502.0	participant	phs002529_TB-000082	phs002529
+TB-000084	White	Female	Not Hispanic or Latino	4399503.0	participant	phs002529_TB-000084	phs002529
+TB-000085	White	Female	Not Hispanic or Latino	4399504.0	participant	phs002529_TB-000085	phs002529
+TB-000086	White	Male	Not Hispanic or Latino	4399505.0	participant	phs002529_TB-000086	phs002529
+TB-000088	Unknown	Male	Not Reported	4399506.0	participant	phs002529_TB-000088	phs002529
+TB-000089	White	Male	Not Hispanic or Latino	4399507.0	participant	phs002529_TB-000089	phs002529
+TB-000090	White	Female	Not Hispanic or Latino	4399508.0	participant	phs002529_TB-000090	phs002529
+TB-000091	Black or African American	Male	Not Reported	4399509.0	participant	phs002529_TB-000091	phs002529
+TB-000092	White	Female	Not Hispanic or Latino	4399510.0	participant	phs002529_TB-000092	phs002529
+TB-000093	White	Male	Not Hispanic or Latino	4399511.0	participant	phs002529_TB-000093	phs002529
+TB-000094	White	Male	Not Hispanic or Latino	4399512.0	participant	phs002529_TB-000094	phs002529
+TB-000095	White	Male	Not Hispanic or Latino	4399513.0	participant	phs002529_TB-000095	phs002529
+TB-000096	White	Female	Not Hispanic or Latino	4399514.0	participant	phs002529_TB-000096	phs002529
+TB-000097	White	Male	Not Hispanic or Latino	4399515.0	participant	phs002529_TB-000097	phs002529
+TB-000098	White	Male	Not Hispanic or Latino	4399516.0	participant	phs002529_TB-000098	phs002529
+TB-000099	White	Female	Hispanic or Latino	4399517.0	participant	phs002529_TB-000099	phs002529
+TB-000100	White	Female	Not Hispanic or Latino	4399518.0	participant	phs002529_TB-000100	phs002529
+TB-000101	White	Male	Not Hispanic or Latino	4399519.0	participant	phs002529_TB-000101	phs002529
+TB-000102	White	Male	Not Hispanic or Latino	4399520.0	participant	phs002529_TB-000102	phs002529
+TB-000103	White	Male	Not Hispanic or Latino	4399521.0	participant	phs002529_TB-000103	phs002529
+TB-000104	White	Female	Not Hispanic or Latino	4399522.0	participant	phs002529_TB-000104	phs002529
+TB-000105	White	Male	Not Hispanic or Latino	4399523.0	participant	phs002529_TB-000105	phs002529
+TB-000106	Unknown	Male	Not Reported	4399524.0	participant	phs002529_TB-000106	phs002529
+TB-000107	White	Female	Not Hispanic or Latino	4399525.0	participant	phs002529_TB-000107	phs002529
+TB-000108	Unknown	Female	Not Reported	4399526.0	participant	phs002529_TB-000108	phs002529
+TB-000109	White	Female	Not Hispanic or Latino	4399527.0	participant	phs002529_TB-000109	phs002529
+TB-000110	White	Female	Not Hispanic or Latino	4399528.0	participant	phs002529_TB-000110	phs002529
+TB-000111	White	Male	Not Hispanic or Latino	4399529.0	participant	phs002529_TB-000111	phs002529
+TB-000112	White	Female	Not Hispanic or Latino	4399530.0	participant	phs002529_TB-000112	phs002529
+TB-000113	Unknown	Female	Not Reported	4399531.0	participant	phs002529_TB-000113	phs002529
+TB-000114	White	Female	Not Hispanic or Latino	4399532.0	participant	phs002529_TB-000114	phs002529
+TB-000115	White	Male	Not Hispanic or Latino	4399533.0	participant	phs002529_TB-000115	phs002529
+TB-000116	White	Male	Not Hispanic or Latino	4399534.0	participant	phs002529_TB-000116	phs002529
+TB-000117	White	Male	Not Hispanic or Latino	4399535.0	participant	phs002529_TB-000117	phs002529
+TB-000118	White	Male	Not Hispanic or Latino	4399536.0	participant	phs002529_TB-000118	phs002529
+TB-000120	White	Male	Hispanic or Latino	4399537.0	participant	phs002529_TB-000120	phs002529
+TB-000121	White	Female	Hispanic or Latino	4399538.0	participant	phs002529_TB-000121	phs002529
+TB-000122	White	Male	Not Hispanic or Latino	4399539.0	participant	phs002529_TB-000122	phs002529
+TB-000125	White	Male	Not Hispanic or Latino	4399540.0	participant	phs002529_TB-000125	phs002529
+TB-000126	White	Male	Not Hispanic or Latino	4399541.0	participant	phs002529_TB-000126	phs002529
+TB-000127	White	Female	Not Hispanic or Latino	4399542.0	participant	phs002529_TB-000127	phs002529
+TB-000128	White	Female	Not Hispanic or Latino	4399543.0	participant	phs002529_TB-000128	phs002529
+TB-000129	White	Male	Not Hispanic or Latino	4399544.0	participant	phs002529_TB-000129	phs002529
+TB-000130	White	Male	Not Hispanic or Latino	4399545.0	participant	phs002529_TB-000130	phs002529
+TB-000131	White	Male	Hispanic or Latino	4399546.0	participant	phs002529_TB-000131	phs002529
+TB-000132	White	Male	Not Hispanic or Latino	4399547.0	participant	phs002529_TB-000132	phs002529
+TB-000133	White	Male	Hispanic or Latino	4399548.0	participant	phs002529_TB-000133	phs002529
+TB-000134	White	Male	Not Hispanic or Latino	4399549.0	participant	phs002529_TB-000134	phs002529
+TB-000135	White	Male	Not Hispanic or Latino	4399550.0	participant	phs002529_TB-000135	phs002529
+TB-000136	White	Female	Not Hispanic or Latino	4399551.0	participant	phs002529_TB-000136	phs002529
+TB-000137	White	Male	Not Hispanic or Latino	4399552.0	participant	phs002529_TB-000137	phs002529
+TB-000138	Black or African American	Female	Not Reported	4399553.0	participant	phs002529_TB-000138	phs002529
+TB-000139	White	Male	Not Hispanic or Latino	4399554.0	participant	phs002529_TB-000139	phs002529
+TB-000141	White	Female	Not Hispanic or Latino	4399555.0	participant	phs002529_TB-000141	phs002529
+TB-000142	White	Female	Not Hispanic or Latino	4399556.0	participant	phs002529_TB-000142	phs002529
+TB-000143	White	Female	Not Hispanic or Latino	4399557.0	participant	phs002529_TB-000143	phs002529
+TB-000144	White	Male	Not Hispanic or Latino	4399558.0	participant	phs002529_TB-000144	phs002529
+TB-000145	White	Male	Not Hispanic or Latino	4399559.0	participant	phs002529_TB-000145	phs002529
+TB-000146	White	Female	Not Hispanic or Latino	4399560.0	participant	phs002529_TB-000146	phs002529
+TB-000147	White	Male	Not Hispanic or Latino	4399561.0	participant	phs002529_TB-000147	phs002529
+TB-000148	White	Female	Not Hispanic or Latino	4399562.0	participant	phs002529_TB-000148	phs002529
+TB-000149	White	Male	Not Hispanic or Latino	4399563.0	participant	phs002529_TB-000149	phs002529
+TB-000150	White	Male	Not Hispanic or Latino	4399564.0	participant	phs002529_TB-000150	phs002529
+TB-000152	White	Male	Not Hispanic or Latino	4399565.0	participant	phs002529_TB-000152	phs002529
+TB-000154	Unknown	Female	Not Reported	4399566.0	participant	phs002529_TB-000154	phs002529
+TB-000155	White	Female	Not Hispanic or Latino	4399567.0	participant	phs002529_TB-000155	phs002529
+TB-000156	White	Female	Not Hispanic or Latino	4399568.0	participant	phs002529_TB-000156	phs002529
+TB-000157	Native Hawaiian or Other Pacific Islander	Female	Not Reported	4399569.0	participant	phs002529_TB-000157	phs002529
+TB-000158	White	Female	Not Hispanic or Latino	4399570.0	participant	phs002529_TB-000158	phs002529
+TB-000159	White	Female	Not Hispanic or Latino	4399571.0	participant	phs002529_TB-000159	phs002529
+TB-000160	White	Female	Hispanic or Latino	4399572.0	participant	phs002529_TB-000160	phs002529
+TB-000161	Unknown	Female	Not Reported	4399573.0	participant	phs002529_TB-000161	phs002529
+TB-000162	White	Male	Hispanic or Latino	4399574.0	participant	phs002529_TB-000162	phs002529
+TB-000163	White	Male	Not Hispanic or Latino	4399575.0	participant	phs002529_TB-000163	phs002529
+TB-000164	White	Male	Hispanic or Latino	4399576.0	participant	phs002529_TB-000164	phs002529
+TB-000165	White	Female	Not Hispanic or Latino	4399577.0	participant	phs002529_TB-000165	phs002529
+TB-000166	White	Male	Not Hispanic or Latino	4399578.0	participant	phs002529_TB-000166	phs002529
+TB-000167	White	Male	Hispanic or Latino	4399579.0	participant	phs002529_TB-000167	phs002529
+TB-000168	White	Male	Hispanic or Latino	4399580.0	participant	phs002529_TB-000168	phs002529
+TB-000169	White	Male	Hispanic or Latino	4399581.0	participant	phs002529_TB-000169	phs002529
+TB-000170	White	Male	Not Hispanic or Latino	4399582.0	participant	phs002529_TB-000170	phs002529
+TB-000171	Unknown	Female	Not Reported	4399583.0	participant	phs002529_TB-000171	phs002529
+TB-000172	White	Female	Hispanic or Latino	4399584.0	participant	phs002529_TB-000172	phs002529
+TB-000173	Unknown	Male	Not Reported	4399585.0	participant	phs002529_TB-000173	phs002529
+TB-000174	White	Female	Not Hispanic or Latino	4399586.0	participant	phs002529_TB-000174	phs002529
+TB-000175	White	Female	Not Hispanic or Latino	4399587.0	participant	phs002529_TB-000175	phs002529
+TB-000176	White	Female	Hispanic or Latino	4399588.0	participant	phs002529_TB-000176	phs002529
+TB-000177	White	Male	Hispanic or Latino	4399589.0	participant	phs002529_TB-000177	phs002529
+TB-000178	White	Male	Not Reported	4399590.0	participant	phs002529_TB-000178	phs002529
+TB-000179	White	Male	Not Hispanic or Latino	4399591.0	participant	phs002529_TB-000179	phs002529
+TB-000180	White	Male	Not Hispanic or Latino	4399592.0	participant	phs002529_TB-000180	phs002529
+TB-000181	White	Male	Not Hispanic or Latino	4399593.0	participant	phs002529_TB-000181	phs002529
+TB-000183	Black or African American	Male	Not Reported	4399594.0	participant	phs002529_TB-000183	phs002529
+TB-000184	White	Male	Not Hispanic or Latino	4399595.0	participant	phs002529_TB-000184	phs002529
+TB-000185	White	Male	Not Hispanic or Latino	4399596.0	participant	phs002529_TB-000185	phs002529
+TB-000186	White	Male	Not Hispanic or Latino	4399597.0	participant	phs002529_TB-000186	phs002529
+TB-000187	White	Male	Not Hispanic or Latino	4399598.0	participant	phs002529_TB-000187	phs002529
+TB-000188	White	Female	Not Hispanic or Latino	4399599.0	participant	phs002529_TB-000188	phs002529
+TB-000189	White	Male	Not Hispanic or Latino	4399600.0	participant	phs002529_TB-000189	phs002529
+TB-000190	White	Female	Not Hispanic or Latino	4399601.0	participant	phs002529_TB-000190	phs002529
+TB-000191	White	Female	Not Hispanic or Latino	4399602.0	participant	phs002529_TB-000191	phs002529
+TB-000192	Unknown	Male	Not Reported	4399603.0	participant	phs002529_TB-000192	phs002529
+TB-000193	White	Female	Hispanic or Latino	4399604.0	participant	phs002529_TB-000193	phs002529
+TB-000194	White	Male	Not Hispanic or Latino	4399605.0	participant	phs002529_TB-000194	phs002529
+TB-000195	White	Male	Not Hispanic or Latino	4399606.0	participant	phs002529_TB-000195	phs002529
+TB-000196	White	Male	Not Hispanic or Latino	4399607.0	participant	phs002529_TB-000196	phs002529
+TB-000197	White	Female	Not Hispanic or Latino	4399608.0	participant	phs002529_TB-000197	phs002529
+TB-000198	White	Male	Not Hispanic or Latino	4399609.0	participant	phs002529_TB-000198	phs002529
+TB-000199	White	Male	Not Hispanic or Latino	4399610.0	participant	phs002529_TB-000199	phs002529
+TB-000200	White	Female	Not Hispanic or Latino	4399611.0	participant	phs002529_TB-000200	phs002529
+TB-000201	White	Female	Hispanic or Latino	4399612.0	participant	phs002529_TB-000201	phs002529
+TB-000202	Black or African American	Male	Not Reported	4399613.0	participant	phs002529_TB-000202	phs002529
+TB-000203	White	Female	Not Hispanic or Latino	4399614.0	participant	phs002529_TB-000203	phs002529
+TB-000204	White	Male	Not Hispanic or Latino	4399615.0	participant	phs002529_TB-000204	phs002529
+TB-000205	White	Male	Not Hispanic or Latino	4399616.0	participant	phs002529_TB-000205	phs002529
+TB-000206	Black or African American	Female	Not Reported	4399617.0	participant	phs002529_TB-000206	phs002529
+TB-000207	White	Female	Not Hispanic or Latino	4399618.0	participant	phs002529_TB-000207	phs002529
+TB-000208	White	Male	Not Reported	4399619.0	participant	phs002529_TB-000208	phs002529
+TB-000209	White	Male	Not Hispanic or Latino	4399620.0	participant	phs002529_TB-000209	phs002529
+TB-000210	White	Female	Not Hispanic or Latino	4399621.0	participant	phs002529_TB-000210	phs002529
+TB-000211	White	Male	Not Hispanic or Latino	4399622.0	participant	phs002529_TB-000211	phs002529
+TB-000221	White	Male	Not Hispanic or Latino	4399623.0	participant	phs002529_TB-000221	phs002529
+TB-000222	White	Female	Not Hispanic or Latino	4399624.0	participant	phs002529_TB-000222	phs002529
+TB-000223	White	Male	Not Hispanic or Latino	4399625.0	participant	phs002529_TB-000223	phs002529
+TB-000224	White	Male	Hispanic or Latino	4399626.0	participant	phs002529_TB-000224	phs002529
+TB-000225	White	Male	Not Hispanic or Latino	4399627.0	participant	phs002529_TB-000225	phs002529
+TB-000226	White	Female	Hispanic or Latino	4399628.0	participant	phs002529_TB-000226	phs002529
+TB-000228	White	Female	Hispanic or Latino	4399629.0	participant	phs002529_TB-000228	phs002529
+TB-000230	White	Male	Not Hispanic or Latino	4399630.0	participant	phs002529_TB-000230	phs002529
+TB-000231	White	Male	Not Hispanic or Latino	4399631.0	participant	phs002529_TB-000231	phs002529

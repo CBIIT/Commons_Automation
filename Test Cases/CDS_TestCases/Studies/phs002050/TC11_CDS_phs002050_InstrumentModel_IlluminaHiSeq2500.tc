@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC11_CDS_phs002050_InstrumentModel_IlluminaHiSeq2500</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e0169fb9-07c8-4f22-af69-e067c85906fa</testCaseGuid>
+</TestCaseEntity>

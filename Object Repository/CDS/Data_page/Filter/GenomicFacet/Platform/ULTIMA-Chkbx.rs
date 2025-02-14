@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ULTIMA-Chkbx</name>
+   <tag></tag>
+   <elementGuidId>d0db9c9a-f1c5-4986-a2c3-c03a1e10e673</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;checkbox_platform_ULTIMA&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;checkbox_platform_ULTIMA&quot;]</value>
+      <webElementGuid>11a993b5-b949-4001-b62f-51af0f27590d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

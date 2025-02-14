@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC14_CDS_phs003432_PrimDiag_NotReported</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5dc0d083-3131-4e9c-8783-46dd77ae050f</testCaseGuid>
+</TestCaseEntity>

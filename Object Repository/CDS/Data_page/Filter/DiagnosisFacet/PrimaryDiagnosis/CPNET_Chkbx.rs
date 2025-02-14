@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_PRIMARY DIAGNOSIS_CPNET&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Primary Diagnosis_CPNET&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_PRIMARY DIAGNOSIS_CPNET&quot;]</value>
-      <webElementGuid>bddd4a5c-6a11-42ca-b6c4-fffdc4495297</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Primary Diagnosis_CPNET&quot;]</value>
+      <webElementGuid>e02ce29e-437c-4fb9-9597-c20a629eb776</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

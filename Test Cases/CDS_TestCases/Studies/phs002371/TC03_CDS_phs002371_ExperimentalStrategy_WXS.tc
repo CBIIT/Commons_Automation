@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_CDS_phs002371_ExperimentalStrategy_WXS</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7356714f-e8e7-4366-b57c-0bb70bf5b4b9</testCaseGuid>
+</TestCaseEntity>

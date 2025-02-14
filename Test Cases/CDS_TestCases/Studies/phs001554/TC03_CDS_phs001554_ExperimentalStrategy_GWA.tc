@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_CDS_phs001554_ExperimentalStrategy_GWA</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1a2d9d06-7994-43d4-8bd2-26e7d753884b</testCaseGuid>
+</TestCaseEntity>

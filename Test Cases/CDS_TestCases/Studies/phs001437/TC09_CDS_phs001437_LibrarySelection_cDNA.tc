@@ -4,5 +4,6 @@
    <name>TC09_CDS_phs001437_LibrarySelection_cDNA</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>41f71083-8ad2-4abc-be96-2d26b06a5ddc</testCaseGuid>
 </TestCaseEntity>

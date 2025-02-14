@@ -1,0 +1,457 @@
+sample_id	sample_type	sample_description	sample_tumor_status	sample_anatomic_site	type	participant.study_participant_id
+0DL1SX_DNA	DNA		Normal	Blood	sample	phs002790_PBBWVY
+0DL1TM_DNA	DNA	Embryonal tumor with multilayered rosettes	Tumor	Central Nervous System	sample	phs002790_PBBWVY
+0DL4G1_RNA	RNA	Schwannoma	Tumor	Central Nervous System	sample	phs002790_PBBJDE
+0DL4FP_DNA	DNA	Schwannoma	Tumor	Central Nervous System	sample	phs002790_PBBJDE
+0DL4FN_DNA	DNA		Normal	Blood	sample	phs002790_PBBJDE
+0DL8Q8_RNA	RNA	Adamantinomatous craniopharyngioma	Tumor	Central Nervous System	sample	phs002790_PBBNFJ
+0DLHO4_RNA	RNA	Desmoid fibromatosis	Tumor	Not specified in data	sample	phs002790_PBBRCW
+0DLHOE_DNA	DNA		Normal	Blood	sample	phs002790_PBBRCW
+0DLHOP_DNA	DNA	Desmoid fibromatosis	Tumor	Not specified in data	sample	phs002790_PBBRCW
+0DKWN9_DNA	DNA	Ganglioglioma	Tumor	Central Nervous System	sample	phs002790_PBBSTK
+0DKWNM_DNA	DNA		Normal	Blood	sample	phs002790_PBBSTK
+0DL8Q4_RNA	RNA	Alveolar rhabdomyosarcoma	Tumor	Not specified in data	sample	phs002790_PBBVHA
+0DL8PX_DNA	DNA		Normal	Blood	sample	phs002790_PBBVHA
+0DL8QL_DNA	DNA	Alveolar rhabdomyosarcoma	Tumor	Not specified in data	sample	phs002790_PBBVHA
+0DLJWB_RNA	RNA	Pediatric type diffuse low grad astrocytoma, consistent with methylation array finding suggestive of MYB/MYBL1-altered (CNS WHO grade 1)	Tumor	Central Nervous System	sample	phs002790_PBBVMV
+0DLRHZ_RNA	RNA	Diffuse glioma	Tumor	Central Nervous System	sample	phs002790_PBBVVI
+0DLRIB_DNA	DNA	Diffuse glioma	Tumor	Central Nervous System	sample	phs002790_PBBVVI
+0DLRHE_DNA	DNA		Normal	Blood	sample	phs002790_PBBVVI
+0DKMG2_RNA	RNA	Paraganglioma	Tumor	Not specified in data	sample	phs002790_PBBWAS
+0DL6RN_RNA	RNA	Malignant epithelioid neoplasm with EWSR1::KLF5 fusion	Tumor	Not specified in data	sample	phs002790_PBBWUD
+0DKF9K_DNA	DNA		Normal	Blood	sample	phs002790_PBBWUD
+0DKF9Z_DNA	DNA	Malignant epithelioid neoplasm	Tumor	Not specified in data	sample	phs002790_PBBWUD
+0DL1T4_RNA	RNA	Embryonal tumor with multilayered rosettes	Tumor	Central Nervous System	sample	phs002790_PBBWVY
+0DLJWC_RNA	RNA	Left CP Angle Mass; Schwannoma	Tumor	Central Nervous System	sample	phs002790_PBBWYY
+0DLJX1_DNA	DNA	Left CP Angle Mass; Schwannoma	Tumor	Central Nervous System	sample	phs002790_PBBWYY
+0DLJWK_DNA	DNA		Normal	Blood	sample	phs002790_PBBWYY
+0DKO7D_RNA	RNA	Medulloblastoma	Tumor	Central Nervous System	sample	phs002790_PBBXBT
+0DKO7H_DNA	DNA	Medulloblastoma	Tumor	Central Nervous System	sample	phs002790_PBBXBT
+0DKO73_DNA	DNA		Normal	Blood	sample	phs002790_PBBXBT
+0DKV55_RNA	RNA	Malignant small round blue cell tumor, most consistent with desmoplastic small round cell tumor	Tumor	Not specified in data	sample	phs002790_PBBXDR
+0DLFBP_RNA	RNA	Monophasic synovial sarcoma, intermediate-grade (FNCLCC Grade 2 of 3)	Tumor	Not specified in data	sample	phs002790_PBBXEA
+0DLFAW_DNA	DNA		Normal	Blood	sample	phs002790_PBBXEA
+0DLFB2_DNA	DNA	Monophasic synovial sarcoma, intermediate-grade (FNCLCC Grade 2 of 3)	Tumor	Not specified in data	sample	phs002790_PBBXEA
+0DKRCL_RNA	RNA	Pilocytic astrocytoma, WHO grade 1	Tumor	Central Nervous System	sample	phs002790_PBBXFC
+0DKRCY_DNA	DNA	Pilocytic astrocytoma, WHO grade 1	Tumor	Central Nervous System	sample	phs002790_PBBXFC
+0DKRC9_DNA	DNA		Normal	Blood	sample	phs002790_PBBXFC
+0DKF9L_DNA	DNA		Normal	Blood	sample	phs002790_PBBXGE
+0DKFA0_DNA	DNA	Metastatic Papillary Thyroid Carcinoma	Tumor	Not specified in data	sample	phs002790_PBBXGE
+0DLPZ9_RNA	RNA	Pilocytic astrocytoma	Tumor	Central Nervous System	sample	phs002790_PBBXIA
+0DLPZE_DNA	DNA	Pilocytic astrocytoma	Tumor	Central Nervous System	sample	phs002790_PBBXIA
+0DLQ00_DNA	DNA		Normal	Blood	sample	phs002790_PBBXIA
+0DKWN0_RNA	RNA	Rhabdomyosarcoma	Tumor	Not specified in data	sample	phs002790_PBBXIK
+0DKWNA_DNA	DNA	Rhabdomyosarcoma	Tumor	Not specified in data	sample	phs002790_PBBXIK
+0DKWNN_DNA	DNA		Normal	Blood	sample	phs002790_PBBXIK
+0DL0J0_RNA	RNA	Infiltrating high grade neoplasm, favor infiltrating high grade glioma	Tumor	Central Nervous System	sample	phs002790_PBBXKY
+0DL0JA_DNA	DNA	Infiltrating high grade neoplasm, favor infiltrating high grade glioma	Tumor	Central Nervous System	sample	phs002790_PBBXKY
+0DL0IR_DNA	DNA		Normal	Blood	sample	phs002790_PBBXKY
+0DKF9M_DNA	DNA		Normal	Blood	sample	phs002790_PBBXMR
+0DKFA7_DNA	DNA	Intramucosal adenocarcinoma	Tumor	Not specified in data	sample	phs002790_PBBXMR
+0DKPWI_RNA	RNA	Infant-type hemispheric glioma	Tumor	Central Nervous System	sample	phs002790_PBBXNB
+0DKPXD_DNA	DNA	Infant-type hemispheric glioma	Tumor	Central Nervous System	sample	phs002790_PBBXNB
+0DKPW9_DNA	DNA		Normal	Blood	sample	phs002790_PBBXNB
+0DKWN1_RNA	RNA	Pilocytic astrocytoma, WHO grade 1	Tumor	Central Nervous System	sample	phs002790_PBBXRR
+0DKWNC_DNA	DNA	Pilocytic astrocytoma, WHO grade 1	Tumor	Central Nervous System	sample	phs002790_PBBXRR
+0DKWNO_DNA	DNA		Normal	Blood	sample	phs002790_PBBXRR
+0DKIHQ_DNA	DNA		Normal	Blood	sample	phs002790_PBBXSM
+0DKIIC_DNA	DNA	Diffuse Midline Glioma	Tumor	Central Nervous System	sample	phs002790_PBBXSM
+0DKII3_RNA	RNA	Low grade glial/glioneuronal tumor	Tumor	Central Nervous System	sample	phs002790_PBBXSV
+0DKIHR_DNA	DNA		Normal	Blood	sample	phs002790_PBBXSV
+0DKIIB_DNA	DNA	Low grade glial/glioneuronal tumor	Tumor	Central Nervous System	sample	phs002790_PBBXSV
+0DLRI0_RNA	RNA	Pilocytic astrocytoma	Tumor	Central Nervous System	sample	phs002790_PBBXSZ
+0DLRHP_DNA	DNA	Pilocytic astrocytoma	Tumor	Central Nervous System	sample	phs002790_PBBXSZ
+0DLRHF_DNA	DNA		Normal	Blood	sample	phs002790_PBBXSZ
+0DL6RO_RNA	RNA	Papillary thyroid carcinoma	Tumor	Not specified in data	sample	phs002790_PBBXTR
+0DL6RE_DNA	DNA		Normal	Blood	sample	phs002790_PBBXTR
+0DL6SE_DNA	DNA	Papillary thyroid carcinoma	Tumor	Not specified in data	sample	phs002790_PBBXTR
+0DKV56_RNA	RNA	Small round blue cell tumor: rhabdomyosarcoma	Tumor	Not specified in data	sample	phs002790_PBBXTS
+0DKV57_DNA	DNA		Normal	Blood	sample	phs002790_PBBXTS
+0DKV58_DNA	DNA	Small round blue cell tumor: rhabdomyosarcoma	Tumor	Not specified in data	sample	phs002790_PBBXTS
+0DLJWD_RNA	RNA	High-grade primitive appearing neoplasm	Tumor	Central Nervous System	sample	phs002790_PBBXUJ
+0DLJX2_DNA	DNA	High-grade primitive appearing neoplasm	Tumor	Central Nervous System	sample	phs002790_PBBXUJ
+0DLJWL_DNA	DNA		Normal	Blood	sample	phs002790_PBBXUJ
+0DKPWJ_RNA	RNA	High-grade malignant neoplasm, small round blue cell category.	Tumor	Not specified in data	sample	phs002790_PBBXUP
+0DKPWA_DNA	DNA		Normal	Blood	sample	phs002790_PBBXUP
+0DKPWT_DNA	DNA	High-grade malignant neoplasm, small round blue cell category.	Tumor	Not specified in data	sample	phs002790_PBBXUP
+0DLFBQ_RNA	RNA	Astrocytoma	Tumor	Central Nervous System	sample	phs002790_PBBXWC
+0DLFB3_DNA	DNA	Astrocytoma	Tumor	Central Nervous System	sample	phs002790_PBBXWC
+0DLFAX_DNA	DNA		Normal	Blood	sample	phs002790_PBBXWC
+0DKII4_RNA	RNA	Ewing Sarcoma	Tumor	Not specified in data	sample	phs002790_PBBXXP
+0DKIHS_DNA	DNA		Normal	Blood	sample	phs002790_PBBXXP
+0DKII9_DNA	DNA	Ewing Sarcoma	Tumor	Not specified in data	sample	phs002790_PBBXXP
+0DLRI1_RNA	RNA	Embryonal rhabdomyosarcoma, botryoid type	Tumor	Not specified in data	sample	phs002790_PBBXZD
+0DLRHG_DNA	DNA		Normal	Blood	sample	phs002790_PBBXZD
+0DLRHQ_DNA	DNA	Embryonal rhabdomyosarcoma, botryoid type	Tumor	Not specified in data	sample	phs002790_PBBXZD
+0DLBME_RNA	RNA	Germinoma	Tumor	Central Nervous System	sample	phs002790_PBBXZM
+0DLBMP_DNA	DNA	Germinoma	Tumor	Central Nervous System	sample	phs002790_PBBXZM
+0DLBLW_DNA	DNA		Normal	Blood	sample	phs002790_PBBXZM
+0DKSVN_RNA	RNA	Rhabdomyosarcoma	Tumor	Not specified in data	sample	phs002790_PBBXZS
+0DKDBY_DNA	DNA		Normal	Blood	sample	phs002790_PBBXZS
+0DKDEF_DNA	DNA	Rhabdomyosarcoma	Tumor	Not specified in data	sample	phs002790_PBBXZS
+0DKFA2_DNA	DNA	High-grade Glioma (WHO grade 4) morphologically resembling Glioblastoma	Tumor	Central Nervous System	sample	phs002790_PBBYAL
+0DKF9O_DNA	DNA		Normal	Blood	sample	phs002790_PBBYAL
+0DLIFL_DNA	DNA	Clear cell meningioma	Tumor	Central Nervous System	sample	phs002790_PBBYAT
+0DLIF5_DNA	DNA		Normal	Blood	sample	phs002790_PBBYAT
+0DKRCN_RNA	RNA	Low grade neuroepithelial tumor (preliminary path report)	Tumor	Central Nervous System	sample	phs002790_PBBYBJ
+0DKRCZ_DNA	DNA	Low grade neuroepithelial tumor (preliminary path report)	Tumor	Central Nervous System	sample	phs002790_PBBYBJ
+0DKRCA_DNA	DNA		Normal	Blood	sample	phs002790_PBBYBJ
+0DKPWK_RNA	RNA	Malignant neoplasm	Tumor	Central Nervous System	sample	phs002790_PBBYBS
+0DKPXE_DNA	DNA	Malignant neoplasm	Tumor	Central Nervous System	sample	phs002790_PBBYBS
+0DKPWB_DNA	DNA		Normal	Blood	sample	phs002790_PBBYBS
+0DLA1U_DNA	DNA	Pilocytic astrocytoma	Tumor	Central Nervous System	sample	phs002790_PBBYBW
+0DLA0W_DNA	DNA		Normal	Blood	sample	phs002790_PBBYBW
+0DLIEZ_RNA	RNA	Diffuse high-grade glioma	Tumor	Central Nervous System	sample	phs002790_PBBYCD
+0DLIFR_DNA	DNA	Diffuse high-grade glioma	Tumor	Central Nervous System	sample	phs002790_PBBYCD
+0DLIF6_DNA	DNA		Normal	Blood	sample	phs002790_PBBYCD
+0DKF9W_RNA	RNA	Pilocytic astrocytoma	Tumor	Central Nervous System	sample	phs002790_PBBYDB
+0DKRD0_DNA	DNA	Pilocytic astrocytoma (WHO Grade 1)	Tumor	Central Nervous System	sample	phs002790_PBBYDB
+0DKRCB_DNA	DNA		Normal	Blood	sample	phs002790_PBBYDB
+0DKRCO_RNA	RNA	Pilocytic astrocytoma, WHO grade 1	Tumor	Central Nervous System	sample	phs002790_PBBYEE
+0DKRD1_DNA	DNA	Pilocytic astrocytoma, WHO grade 1	Tumor	Central Nervous System	sample	phs002790_PBBYEE
+0DKRCC_DNA	DNA		Normal	Blood	sample	phs002790_PBBYEE
+0DKSVO_RNA	RNA	Epdendymoma	Tumor	Central Nervous System	sample	phs002790_PBBYFB
+0DKSZ9_DNA	DNA	Epdendymoma	Tumor	Central Nervous System	sample	phs002790_PBBYFB
+0DKSTS_DNA	DNA		Normal	Blood	sample	phs002790_PBBYFB
+0DL6RP_RNA	RNA	Pineoblastoma	Tumor	Central Nervous System	sample	phs002790_PBBYGA
+0DL6S1_DNA	DNA	Pineoblastoma	Tumor	Central Nervous System	sample	phs002790_PBBYGA
+0DL6RF_DNA	DNA		Normal	Blood	sample	phs002790_PBBYGA
+0DKMG6_DNA	DNA	CNS Neuroblastoma, FOXR-2Activated (WHO Grade 4)	Tumor	Central Nervous System	sample	phs002790_PBBYGE
+0DKMFY_DNA	DNA		Normal	Blood	sample	phs002790_PBBYGE
+0DKJXO_RNA	RNA	Large cell/anaplastic Medulloblastoma	Tumor	Central Nervous System	sample	phs002790_PBBYGX
+0DKJXN_DNA	DNA	Large cell/anaplastic Medulloblastoma	Tumor	Central Nervous System	sample	phs002790_PBBYGX
+0DKJXG_DNA	DNA		Normal	Blood	sample	phs002790_PBBYGX
+0DKPWL_RNA	RNA	Low-grade glial neoplasm, favor pilomyxoid/pilocytic actrocytoma	Tumor	Central Nervous System	sample	phs002790_PBBYHD
+0DKPWY_DNA	DNA	Low-grade glial neoplasm, favor pilomyxoid/pilocytic actrocytoma	Tumor	Central Nervous System	sample	phs002790_PBBYHD
+0DKPWC_DNA	DNA		Normal	Blood	sample	phs002790_PBBYHD
+0DKIHT_DNA	DNA		Normal	Blood	sample	phs002790_PBBYHE
+0DKIIF_DNA	DNA	Small round blue cell tumor	Tumor	Central Nervous System	sample	phs002790_PBBYHE
+0DKF9Y_RNA	RNA	NTRK3 fusion positive spindle cell neoplasm	Tumor	Not specified in data	sample	phs002790_PBBYHF
+0DKII6_RNA	RNA	Alveolar rhabdomyosarcoma	Tumor	Not specified in data	sample	phs002790_PBBYHH
+0DLHOW_DNA	DNA	Posterior fossa group A (PFA) Ependymoma (WHO GRADE 3)	Tumor	Central Nervous System	sample	phs002790_PBBYHL
+0DLHOF_DNA	DNA		Normal	Blood	sample	phs002790_PBBYHL
+0DKMG7_DNA	DNA	Germinoma	Tumor	Central Nervous System	sample	phs002790_PBBYHV
+0DKMFZ_DNA	DNA		Normal	Blood	sample	phs002790_PBBYHV
+0DLRI2_RNA	RNA	Glial neoplasm, favor ependymoma	Tumor	Central Nervous System	sample	phs002790_PBBYID
+0DLRHR_DNA	DNA	Glial neoplasm, favor ependymoma	Tumor	Central Nervous System	sample	phs002790_PBBYID
+0DLRHH_DNA	DNA		Normal	Blood	sample	phs002790_PBBYID
+0DKPWM_RNA	RNA	Embryonal rhabdomyosarcoma	Tumor	Not specified in data	sample	phs002790_PBBYIT
+0DKPWD_DNA	DNA		Normal	Blood	sample	phs002790_PBBYIT
+0DKPXF_DNA	DNA	Embryonal rhabdomyosarcoma	Tumor	Not specified in data	sample	phs002790_PBBYIT
+0DKMG5_RNA	RNA	Pilocytic astrocytoma, WHO grade I	Tumor	Central Nervous System	sample	phs002790_PBBYIU
+0DKMGH_DNA	DNA	Pilocytic astrocytoma, WHO grade I	Tumor	Central Nervous System	sample	phs002790_PBBYIU
+0DKMG0_DNA	DNA		Normal	Blood	sample	phs002790_PBBYIU
+0DL1T5_RNA	RNA	High-grade sarcoma with myogenic differentiation	Tumor	Not specified in data	sample	phs002790_PBBYIV
+0DL1SY_DNA	DNA		Normal	Blood	sample	phs002790_PBBYIV
+0DL1TT_DNA	DNA	High-grade sarcoma with myogenic differentiation	Tumor	Not specified in data	sample	phs002790_PBBYIV
+0DKO7F_RNA	RNA	Pilocytic Astrocytoma, CNS WHO Grade I	Tumor	Central Nervous System	sample	phs002790_PBBYJD
+0DKO7N_DNA	DNA	Pilocytic Astrocytoma, CNS WHO Grade I	Tumor	Central Nervous System	sample	phs002790_PBBYJD
+0DKO75_DNA	DNA		Normal	Blood	sample	phs002790_PBBYJD
+0DKIIH_DNA	DNA	Pilocytic astrocytoma	Tumor	Central Nervous System	sample	phs002790_PBBYJP
+0DKIHV_DNA	DNA		Normal	Blood	sample	phs002790_PBBYJP
+0DKIHW_DNA	DNA		Normal	Blood	sample	phs002790_PBBYJY
+0DKIII_DNA	DNA	Anaplastic/ large cell medulloblastoma	Tumor	Central Nervous System	sample	phs002790_PBBYJY
+0DKRCP_RNA	RNA	Epitheliod sarcoma	Tumor	Not specified in data	sample	phs002790_PBBYJZ
+0DKRCD_DNA	DNA		Normal	Blood	sample	phs002790_PBBYJZ
+0DKRD2_DNA	DNA	Epitheliod sarcoma	Tumor	Not specified in data	sample	phs002790_PBBYJZ
+0DKPWN_RNA	RNA	High-grade rhabdomyosarcoma with pleomorphic features	Tumor	Not specified in data	sample	phs002790_PBBYKH
+0DKPWE_DNA	DNA		Normal	Blood	sample	phs002790_PBBYKH
+0DKPWZ_DNA	DNA	High-grade rhabdomyosarcoma with pleomorphic features	Tumor	Not specified in data	sample	phs002790_PBBYKH
+0DLPZA_RNA	RNA	High-grade glioma with DICER1 and other mutations	Tumor	Central Nervous System	sample	phs002790_PBBYKI
+0DLPZG_DNA	DNA	High-grade glioma with DICER1 and other mutations	Tumor	Central Nervous System	sample	phs002790_PBBYKI
+0DLQ01_DNA	DNA		Normal	Blood	sample	phs002790_PBBYKI
+0DKPWO_RNA	RNA	diffuse midline glioma, H3 K27-altered	Tumor	Central Nervous System	sample	phs002790_PBBYKM
+0DKPX0_DNA	DNA	diffuse midline glioma, H3 K27-altered	Tumor	Central Nervous System	sample	phs002790_PBBYKM
+0DKPWF_DNA	DNA		Normal	Blood	sample	phs002790_PBBYKM
+0DLX5E_RNA	RNA	Pleomorphic Xanthoastrocytoma	Tumor	Central Nervous System	sample	phs002790_PBBYKS
+0DLX55_DNA	DNA	Pleomorphic Xanthoastrocytoma	Tumor	Central Nervous System	sample	phs002790_PBBYKS
+0DKRCQ_RNA	RNA	Embryonal rhabdomyosarcoma	Tumor	Not specified in data	sample	phs002790_PBBYMD
+0DKRCE_DNA	DNA		Normal	Blood	sample	phs002790_PBBYMD
+0DKRD3_DNA	DNA	Embryonal rhabdomyosarcoma	Tumor	Not specified in data	sample	phs002790_PBBYMD
+0DKO7G_RNA	RNA	Sertoli-Leydig cell tumor, poorly differentiated	Tumor	Not specified in data	sample	phs002790_PBBYMI
+0DKO76_DNA	DNA		Normal	Blood	sample	phs002790_PBBYMI
+0DKO7I_DNA	DNA	Sertoli-Leydig cell tumor, poorly differentiated	Tumor	Not specified in data	sample	phs002790_PBBYMI
+0DL1T6_RNA	RNA	Pilomyxoid astrocytoma	Tumor	Central Nervous System	sample	phs002790_PBBYMU
+0DL1TP_DNA	DNA	Pilomyxoid astrocytoma	Tumor	Central Nervous System	sample	phs002790_PBBYMU
+0DL1SZ_DNA	DNA		Normal	Blood	sample	phs002790_PBBYMU
+0DLA2R_RNA	RNA	most consistent with atypical teratoid/rhabdoid tumor	Tumor	Central Nervous System	sample	phs002790_PBBYNI
+0DLA1W_DNA	DNA	most consistent with atypical teratoid/rhabdoid tumor	Tumor	Central Nervous System	sample	phs002790_PBBYNI
+0DLA0X_DNA	DNA		Normal	Blood	sample	phs002790_PBBYNI
+0DKWN2_RNA	RNA	Diffuse high-grade glioma	Tumor	Central Nervous System	sample	phs002790_PBBYNW
+0DKWND_DNA	DNA	Diffuse high-grade glioma	Tumor	Central Nervous System	sample	phs002790_PBBYNW
+0DKWNP_DNA	DNA		Normal	Blood	sample	phs002790_PBBYNW
+0DL6RY_DNA	DNA	Frontal tumor, favor infant-type hemispheric glioma	Tumor	Central Nervous System	sample	phs002790_PBBYPG
+0DL6RG_DNA	DNA		Normal	Blood	sample	phs002790_PBBYPG
+0DL6RR_RNA	RNA	Germinoma	Tumor	Central Nervous System	sample	phs002790_PBBYPM
+0DL6S2_DNA	DNA	Germinoma	Tumor	Central Nervous System	sample	phs002790_PBBYPM
+0DL6RH_DNA	DNA		Normal	Blood	sample	phs002790_PBBYPM
+0DKSVP_RNA	RNA	Medulloblastoma	Tumor	Central Nervous System	sample	phs002790_PBBYPY
+0DKSZA_DNA	DNA	Medulloblastoma	Tumor	Central Nervous System	sample	phs002790_PBBYPY
+0DKSTT_DNA	DNA		Normal	Blood	sample	phs002790_PBBYPY
+0DKRCR_RNA	RNA	Papillary neoplasm, favor choroid plexus tumor	Tumor	Central Nervous System	sample	phs002790_PBBYRB
+0DKRD4_DNA	DNA	Papillary neoplasm, favor choroid plexus tumor	Tumor	Central Nervous System	sample	phs002790_PBBYRB
+0DKRCF_DNA	DNA		Normal	Blood	sample	phs002790_PBBYRB
+0DLLVY_RNA	RNA	High grade spindle cell sarcoma	Tumor	Not specified in data	sample	phs002790_PBBYRP
+0DLLUZ_DNA	DNA		Normal	Blood	sample	phs002790_PBBYRP
+0DLLW4_DNA	DNA	High grade spindle cell sarcoma	Tumor	Not specified in data	sample	phs002790_PBBYRP
+0DKSVQ_RNA	RNA	Pilocytic astrocytoma	Tumor	Central Nervous System	sample	phs002790_PBBYRS
+0DKSZB_DNA	DNA	Pilocytic astrocytoma	Tumor	Central Nervous System	sample	phs002790_PBBYRS
+0DKSTU_DNA	DNA		Normal	Blood	sample	phs002790_PBBYRS
+0DLHO6_RNA	RNA	Diffusely infiltrating high grade glioma	Tumor	Central Nervous System	sample	phs002790_PBBYRV
+0DLHOX_DNA	DNA	Diffusely infiltrating high grade glioma	Tumor	Central Nervous System	sample	phs002790_PBBYRV
+0DLHOG_DNA	DNA		Normal	Blood	sample	phs002790_PBBYRV
+0DKRCS_RNA	RNA	Medulloblastoma, anaplastic histology, WHO grade 4	Tumor	Central Nervous System	sample	phs002790_PBBYRW
+0DKRCU_DNA	DNA	Medulloblastoma, anaplastic histology, WHO grade 4	Tumor	Central Nervous System	sample	phs002790_PBBYRW
+0DKRCG_DNA	DNA		Normal	Blood	sample	phs002790_PBBYRW
+0DL0J1_RNA	RNA	Desmoplastic/nodular medulloblastoma, CNS WHO grade 4	Tumor	Central Nervous System	sample	phs002790_PBBYSB
+0DL0JB_DNA	DNA	Desmoplastic/nodular medulloblastoma, CNS WHO grade 4	Tumor	Central Nervous System	sample	phs002790_PBBYSB
+0DL0IS_DNA	DNA		Normal	Blood	sample	phs002790_PBBYSB
+0DKRCT_RNA	RNA	Medulloblastoma, classic histologic type, non-WNT/non-SHH molecular group, CNS WHO grade 4	Tumor	Central Nervous System	sample	phs002790_PBBYSN
+0DKRCV_DNA	DNA	Medulloblastoma, classic histologic type, non-WNT/non-SHH molecular group, CNS WHO grade 4	Tumor	Central Nervous System	sample	phs002790_PBBYSN
+0DKRCH_DNA	DNA		Normal	Blood	sample	phs002790_PBBYSN
+0DKSVR_RNA	RNA	Pilocytic astrocytoma	Tumor	Central Nervous System	sample	phs002790_PBBYSP
+0DKSZC_DNA	DNA	Pilocytic astrocytoma	Tumor	Central Nervous System	sample	phs002790_PBBYSP
+0DKSTV_DNA	DNA		Normal	Blood	sample	phs002790_PBBYSP
+0DL0J2_RNA	RNA	Ganglioglioma	Tumor	Central Nervous System	sample	phs002790_PBBYTD
+0DL0JC_DNA	DNA	Ganglioglioma	Tumor	Central Nervous System	sample	phs002790_PBBYTD
+0DL0IT_DNA	DNA		Normal	Blood	sample	phs002790_PBBYTD
+0DL6RS_RNA	RNA	Glial neoplasm	Tumor	Central Nervous System	sample	phs002790_PBBYTF
+0DL6RZ_DNA	DNA	Glial neoplasm	Tumor	Central Nervous System	sample	phs002790_PBBYTF
+0DL6RI_DNA	DNA		Normal	Blood	sample	phs002790_PBBYTF
+0DLRI3_RNA	RNA	Malignant peripheral nerve sheath tumor	Tumor	Not specified in data	sample	phs002790_PBBYTG
+0DLRHI_DNA	DNA		Normal	Blood	sample	phs002790_PBBYTG
+0DLRHS_DNA	DNA	Malignant peripheral nerve sheath tumor	Tumor	Not specified in data	sample	phs002790_PBBYTG
+0DKSVS_RNA	RNA		Tumor	Central Nervous System	sample	phs002790_PBBYTK
+0DKSZD_DNA	DNA		Tumor	Central Nervous System	sample	phs002790_PBBYTK
+0DKSTW_DNA	DNA		Normal	Blood	sample	phs002790_PBBYTK
+0DL0J3_RNA	RNA	Ovarian sclerosing stromal tumor	Tumor	Not specified in data	sample	phs002790_PBBYTM
+0DL0IU_DNA	DNA		Normal	Blood	sample	phs002790_PBBYTM
+0DL0JW_DNA	DNA	Ovarian sclerosing stromal tumor	Tumor	Not specified in data	sample	phs002790_PBBYTM
+0DKSVT_RNA	RNA	CNS Embryonal tumor	Tumor	Central Nervous System	sample	phs002790_PBBYTS
+0DKSWT_DNA	DNA	CNS Embryonal tumor	Tumor	Central Nervous System	sample	phs002790_PBBYTS
+0DKSTX_DNA	DNA		Normal	Blood	sample	phs002790_PBBYTS
+0DKZ8I_RNA	RNA	Adamantinomatous craniopharyngioma with evidence of prior rupture	Tumor	Central Nervous System	sample	phs002790_PBBYTY
+0DKZ8M_DNA	DNA	Adamantinomatous craniopharyngioma with evidence of prior rupture	Tumor	Central Nervous System	sample	phs002790_PBBYTY
+0DKZ8G_DNA	DNA		Normal	Blood	sample	phs002790_PBBYTY
+0DL4G2_RNA	RNA	Favor Infiltrating High-Grade Glioma	Tumor	Central Nervous System	sample	phs002790_PBBYTZ
+0DL4FQ_DNA	DNA	Favor Infiltrating High-Grade Glioma	Tumor	Central Nervous System	sample	phs002790_PBBYTZ
+0DL4FO_DNA	DNA		Normal	Blood	sample	phs002790_PBBYTZ
+0DL1T7_RNA	RNA	Rhabdomyosarcoma	Tumor	Not specified in data	sample	phs002790_PBBYUD
+0DL1T0_DNA	DNA		Normal	Blood	sample	phs002790_PBBYUD
+0DL1TU_DNA	DNA	Rhabdomyosarcoma	Tumor	Not specified in data	sample	phs002790_PBBYUD
+0DKWN3_RNA	RNA	Glioma, histologically consistent with pilocytic astrocytoma, CNS WHO grade 1	Tumor	Central Nervous System	sample	phs002790_PBBYUF
+0DKWNE_DNA	DNA	Glioma, histologically consistent with pilocytic astrocytoma, CNS WHO grade 1	Tumor	Central Nervous System	sample	phs002790_PBBYUF
+0DKWNQ_DNA	DNA		Normal	Blood	sample	phs002790_PBBYUF
+0DKZ8J_RNA	RNA	High-grade neoplasm, favor embryonal tumor	Tumor	Central Nervous System	sample	phs002790_PBBYUK
+0DKZ8N_DNA	DNA	High-grade neoplasm, favor embryonal tumor	Tumor	Central Nervous System	sample	phs002790_PBBYUK
+0DKZ8H_DNA	DNA		Normal	Blood	sample	phs002790_PBBYUK
+0DLFBR_RNA	RNA	Metastatic embryonal rhabdomyosarcoma in three nodules	Tumor	Not specified in data	sample	phs002790_PBBYUU
+0DLFAY_DNA	DNA		Normal	Blood	sample	phs002790_PBBYUU
+0DLFB4_DNA	DNA	Metastatic embryonal rhabdomyosarcoma in three nodules	Tumor	Not specified in data	sample	phs002790_PBBYUU
+0DL0J4_RNA	RNA	Pilocytic astrocytoma	Tumor	Central Nervous System	sample	phs002790_PBBYVA
+0DL0JX_DNA	DNA	Pilocytic astrocytoma	Tumor	Central Nervous System	sample	phs002790_PBBYVA
+0DL0IV_DNA	DNA		Normal	Blood	sample	phs002790_PBBYVA
+0DL0J5_RNA	RNA	Medulloblastoma	Tumor	Central Nervous System	sample	phs002790_PBBYVT
+0DL0JD_DNA	DNA	Medulloblastoma	Tumor	Central Nervous System	sample	phs002790_PBBYVT
+0DL0IW_DNA	DNA		Normal	Blood	sample	phs002790_PBBYVT
+0DLA2S_RNA	RNA	Ependymoma	Tumor	Central Nervous System	sample	phs002790_PBBYVV
+0DLA1X_DNA	DNA	Ependymoma	Tumor	Central Nervous System	sample	phs002790_PBBYVV
+0DLA0Y_DNA	DNA		Normal	Blood	sample	phs002790_PBBYVV
+0DKWN4_RNA	RNA	Cerebellar tumor: High-grade, small blue round cell tumor	Tumor	Central Nervous System	sample	phs002790_PBBYVY
+0DKWNB_DNA	DNA	Cerebellar tumor: High-grade, small blue round cell tumor	Tumor	Central Nervous System	sample	phs002790_PBBYVY
+0DKWNR_DNA	DNA		Normal	Blood	sample	phs002790_PBBYVY
+0DLIEU_RNA	RNA	Desmoid fibromatosis with CTNNB1 gene mutation	Tumor	Not specified in data	sample	phs002790_PBBYWE
+0DL0J6_RNA	RNA	High-grade malignant neoplasm with mesenchymal phenotype	Tumor	Central Nervous System	sample	phs002790_PBBYWI
+0DL0JY_DNA	DNA	High-grade malignant neoplasm with mesenchymal phenotype	Tumor	Central Nervous System	sample	phs002790_PBBYWI
+0DL0IX_DNA	DNA		Normal	Blood	sample	phs002790_PBBYWI
+0DL1T8_RNA	RNA	Atypical Teratoid/Rhabdoid Tumor (AT/RT)	Tumor	Central Nervous System	sample	phs002790_PBBYWT
+0DL1TN_DNA	DNA	Atypical Teratoid/Rhabdoid Tumor (AT/RT)	Tumor	Central Nervous System	sample	phs002790_PBBYWT
+0DL1T1_DNA	DNA		Normal	Blood	sample	phs002790_PBBYWT
+0DL1T9_RNA	RNA	Rhabdomyosarcoma	Tumor	Not specified in data	sample	phs002790_PBBYXM
+0DL1T2_DNA	DNA		Normal	Blood	sample	phs002790_PBBYXM
+0DL1TO_DNA	DNA	Rhabdomyosarcoma	Tumor	Not specified in data	sample	phs002790_PBBYXM
+0DLIF7_DNA	DNA		Normal	Blood	sample	phs002790_PBBYXU
+0DLIFN_DNA	DNA	Embryonal Rhabdomyosarcoma	Tumor	Not specified in data	sample	phs002790_PBBYXU
+0DLDZE_RNA	RNA	Embryonal rhabdomyosarcoma	Tumor	Not specified in data	sample	phs002790_PBBYYH
+0DLDZ9_DNA	DNA		Normal	Blood	sample	phs002790_PBBYYH
+0DLDZO_DNA	DNA	Embryonal rhabdomyosarcoma	Tumor	Not specified in data	sample	phs002790_PBBYYH
+0DL6S5_DNA	DNA	Mixed malignant germ cell tumor with components of embryonal carcinoma, choriocarcinoma, and mature teratoma	Tumor	Central Nervous System	sample	phs002790_PBBYYM
+0DL6RJ_DNA	DNA		Normal	Blood	sample	phs002790_PBBYYM
+0DLHO7_RNA	RNA	Posterior fossa ependymoma, group A	Tumor	Central Nervous System	sample	phs002790_PBBYYY
+0DLHOY_DNA	DNA	Posterior fossa ependymoma, group A	Tumor	Central Nervous System	sample	phs002790_PBBYYY
+0DLHOH_DNA	DNA		Normal	Blood	sample	phs002790_PBBYYY
+0DL0J7_RNA	RNA	Classic Ependymoma, Posterior fossa group A by Immunohistochemistry	Tumor	Central Nervous System	sample	phs002790_PBBYZB
+0DL0JE_DNA	DNA	Classic Ependymoma, Posterior fossa group A by Immunohistochemistry	Tumor	Central Nervous System	sample	phs002790_PBBYZB
+0DL0IY_DNA	DNA		Normal	Blood	sample	phs002790_PBBYZB
+0DLDZF_RNA	RNA	Inflammatory myofibroblastic tumor	Tumor	Not specified in data	sample	phs002790_PBBYZD
+0DLA2T_RNA	RNA	Malignant primary brain tumor	Tumor	Central Nervous System	sample	phs002790_PBBYZH
+0DLA1Y_DNA	DNA	Malignant primary brain tumor	Tumor	Central Nervous System	sample	phs002790_PBBYZH
+0DLA0Z_DNA	DNA		Normal	Blood	sample	phs002790_PBBYZH
+0DLDZG_RNA	RNA	Rhabdomyosarcoma, favor embryonal subtype pending molecular studies	Tumor	Not specified in data	sample	phs002790_PBBZAE
+0DLDZA_DNA	DNA		Normal	Blood	sample	phs002790_PBBZAE
+0DLDZN_DNA	DNA	Rhabdomyosarcoma, favor embryonal subtype pending molecular studies	Tumor	Not specified in data	sample	phs002790_PBBZAE
+0DLA2U_RNA	RNA	Medulloblastoma, non-WNT, non-SHH	Tumor	Central Nervous System	sample	phs002790_PBBZAG
+0DLA1V_DNA	DNA	Medulloblastoma, non-WNT, non-SHH	Tumor	Central Nervous System	sample	phs002790_PBBZAG
+0DLA10_DNA	DNA		Normal	Blood	sample	phs002790_PBBZAG
+0DLHO8_RNA	RNA	Alveolar rhabdomyosarcoma	Tumor	Not specified in data	sample	phs002790_PBBZAH
+0DL6RT_RNA	RNA	Low-grade glioneuronal neoplasm	Tumor	Central Nervous System	sample	phs002790_PBBZAL
+0DL6S0_DNA	DNA	Low-grade glioneuronal neoplasm	Tumor	Central Nervous System	sample	phs002790_PBBZAL
+0DL6RK_DNA	DNA		Normal	Blood	sample	phs002790_PBBZAL
+0DLBMF_RNA	RNA	Low-grade glial neoplasm, with features most consistent with a pilocytic astrocytoma.	Tumor	Central Nervous System	sample	phs002790_PBBZAR
+0DLBMK_DNA	DNA	Low-grade glial neoplasm, with features most consistent with a pilocytic astrocytoma.	Tumor	Central Nervous System	sample	phs002790_PBBZAR
+0DLBLX_DNA	DNA		Normal	Blood	sample	phs002790_PBBZAR
+0DLBMG_RNA	RNA	Consistent with Oligodendroglioma, IDH mutant	Tumor	Central Nervous System	sample	phs002790_PBBZBF
+0DLBMQ_DNA	DNA	Consistent with Oligodendroglioma, IDH mutant	Tumor	Central Nervous System	sample	phs002790_PBBZBF
+0DLBLY_DNA	DNA		Normal	Blood	sample	phs002790_PBBZBF
+0DLLVZ_RNA	RNA	Medulloblastoma, WHO Grade IV	Tumor	Central Nervous System	sample	phs002790_PBBZBH
+0DLLW5_DNA	DNA	Medulloblastoma, WHO Grade IV	Tumor	Central Nervous System	sample	phs002790_PBBZBH
+0DLLV0_DNA	DNA		Normal	Blood	sample	phs002790_PBBZBH
+0DLA2V_RNA	RNA	Atypical teratoid/Rhabdoid tumor	Tumor	Central Nervous System	sample	phs002790_PBBZBP
+0DLA1Z_DNA	DNA	Atypical teratoid/Rhabdoid tumor	Tumor	Central Nervous System	sample	phs002790_PBBZBP
+0DLA11_DNA	DNA		Normal	Blood	sample	phs002790_PBBZBP
+0DL6RU_RNA	RNA	Desmoid fibromatosis	Tumor	Not specified in data	sample	phs002790_PBBZBS
+0DL6RL_DNA	DNA		Normal	Blood	sample	phs002790_PBBZBS
+0DL6SF_DNA	DNA	Desmoid fibromatosis	Tumor	Not specified in data	sample	phs002790_PBBZBS
+0DLHO9_RNA	RNA	Ganglioglioma	Tumor	Central Nervous System	sample	phs002790_PBBZBY
+0DLHP0_DNA	DNA	Ganglioglioma	Tumor	Central Nervous System	sample	phs002790_PBBZBY
+0DLHOJ_DNA	DNA		Normal	Blood	sample	phs002790_PBBZBY
+0DLSWZ_RNA	RNA	Low grade glioma, cannot rule out additional neuronal component	Tumor	Central Nervous System	sample	phs002790_PBBZCE
+0DLSYC_DNA	DNA	Low grade glioma, cannot rule out additional neuronal component	Tumor	Central Nervous System	sample	phs002790_PBBZCE
+0DLSX5_DNA	DNA		Normal	Blood	sample	phs002790_PBBZCE
+0DLBMH_RNA	RNA	Embryonal neoplasm most consistent with Medulloblastoma	Tumor	Central Nervous System	sample	phs002790_PBBZCV
+0DLBMR_DNA	DNA	Embryonal neoplasm most consistent with Medulloblastoma	Tumor	Central Nervous System	sample	phs002790_PBBZCV
+0DLBLZ_DNA	DNA		Normal	Blood	sample	phs002790_PBBZCV
+0DLA2W_RNA	RNA	Medulloblastoma, SHH-activated and TP53-wildtype, Medulloblastoma with extensive nodularity (MBEN)	Tumor	Central Nervous System	sample	phs002790_PBBZDH
+0DLA20_DNA	DNA	Medulloblastoma, SHH-activated and TP53-wildtype, Medulloblastoma with extensive nodularity (MBEN)	Tumor	Central Nervous System	sample	phs002790_PBBZDH
+0DLA12_DNA	DNA		Normal	Blood	sample	phs002790_PBBZDH
+0DL8Q5_RNA	RNA	Brain tumor with features most suggestive of ependymoma	Tumor	Central Nervous System	sample	phs002790_PBBZDN
+0DL8QI_DNA	DNA	Brain tumor with features most suggestive of ependymoma	Tumor	Central Nervous System	sample	phs002790_PBBZDN
+0DL8PY_DNA	DNA		Normal	Blood	sample	phs002790_PBBZDN
+0DL6V2_RNA	RNA	Rhabdomyosarcoma	Tumor	Not specified in data	sample	phs002790_PBBZDT
+0DL6RM_DNA	DNA		Normal	Blood	sample	phs002790_PBBZDT
+0DL6SG_DNA	DNA	Rhabdomyosarcoma	Tumor	Not specified in data	sample	phs002790_PBBZDT
+0DLIF8_DNA	DNA		Normal	Blood	sample	phs002790_PBBZDU
+0DLIFO_DNA	DNA	Papillary thyroid carcinoma, classic	Tumor	Not specified in data	sample	phs002790_PBBZDU
+0DLDZH_RNA	RNA	Medulloblastoma, WHO Grade 4	Tumor	Central Nervous System	sample	phs002790_PBBZEA
+0DLDZR_DNA	DNA	Medulloblastoma, WHO Grade 4	Tumor	Central Nervous System	sample	phs002790_PBBZEA
+0DLDZB_DNA	DNA		Normal	Blood	sample	phs002790_PBBZEA
+0DLDZI_RNA	RNA	Fragments of Schwannoma, CNS WHO GRADE 1, with some mild degenerative changes	Tumor	Central Nervous System	sample	phs002790_PBBZEB
+0DLDZK_DNA	DNA	Fragments of Schwannoma, CNS WHO GRADE 1, with some mild degenerative changes	Tumor	Central Nervous System	sample	phs002790_PBBZEB
+0DLDZC_DNA	DNA		Normal	Blood	sample	phs002790_PBBZEB
+0DL8Q6_RNA	RNA	Dysembryoplastic neuroepithelial tumor	Tumor	Central Nervous System	sample	phs002790_PBBZEF
+0DL8QJ_DNA	DNA	Dysembryoplastic neuroepithelial tumor	Tumor	Central Nervous System	sample	phs002790_PBBZEF
+0DL8PZ_DNA	DNA		Normal	Blood	sample	phs002790_PBBZEF
+0DLJWE_RNA	RNA	Embryonal rhabdomyosarcoma	Tumor	Not specified in data	sample	phs002790_PBBZEJ
+0DLJWM_DNA	DNA		Normal	Blood	sample	phs002790_PBBZEJ
+0DLJX7_DNA	DNA	Embryonal rhabdomyosarcoma	Tumor	Not specified in data	sample	phs002790_PBBZEJ
+0DL8Q7_RNA	RNA	Glial neoplasm favor optic glioma	Tumor	Central Nervous System	sample	phs002790_PBBZER
+0DL8QK_DNA	DNA	Glial neoplasm favor optic glioma	Tumor	Central Nervous System	sample	phs002790_PBBZER
+0DL8Q0_DNA	DNA		Normal	Blood	sample	phs002790_PBBZER
+0DLBMI_RNA	RNA	Desmoplastic small round cell tumor	Tumor	Not specified in data	sample	phs002790_PBBZFA
+0DLBM0_DNA	DNA		Normal	Blood	sample	phs002790_PBBZFA
+0DLBMS_DNA	DNA	Desmoplastic small round cell tumor	Tumor	Not specified in data	sample	phs002790_PBBZFA
+0DLPZB_RNA	RNA	Low-grade neuroepithelial tumor	Tumor	Central Nervous System	sample	phs002790_PBBZFI
+0DLPZH_DNA	DNA	Low-grade neuroepithelial tumor	Tumor	Central Nervous System	sample	phs002790_PBBZFI
+0DLQ02_DNA	DNA		Normal	Blood	sample	phs002790_PBBZFI
+0DLHOA_RNA	RNA	Low-grade glioma, favored to represent a pilocytic astrocytoma	Tumor	Central Nervous System	sample	phs002790_PBBZFL
+0DLHP1_DNA	DNA	Low-grade glioma, favored to represent a pilocytic astrocytoma	Tumor	Central Nervous System	sample	phs002790_PBBZFL
+0DLHOK_DNA	DNA		Normal	Blood	sample	phs002790_PBBZFL
+0DLHOB_RNA	RNA	Posterior fossa ependymoma, group B	Tumor	Central Nervous System	sample	phs002790_PBBZFM
+0DLHP2_DNA	DNA	Posterior fossa ependymoma, group B	Tumor	Central Nervous System	sample	phs002790_PBBZFM
+0DLHOL_DNA	DNA		Normal	Blood	sample	phs002790_PBBZFM
+0DLJWF_RNA	RNA	Pilocytic astrocytoma, CNS WHO GRADE 1	Tumor	Central Nervous System	sample	phs002790_PBBZFR
+0DLJX3_DNA	DNA	Pilocytic astrocytoma, CNS WHO GRADE 1	Tumor	Central Nervous System	sample	phs002790_PBBZFR
+0DLJWN_DNA	DNA		Normal	Blood	sample	phs002790_PBBZFR
+0DLBMJ_RNA	RNA	High grade glioma	Tumor	Central Nervous System	sample	phs002790_PBBZGH
+0DLBMT_DNA	DNA	High grade glioma	Tumor	Central Nervous System	sample	phs002790_PBBZGH
+0DLBM1_DNA	DNA		Normal	Blood	sample	phs002790_PBBZGH
+0DLDZJ_RNA	RNA	High grade tumor consistent with embryonal tumor	Tumor	Central Nervous System	sample	phs002790_PBBZGR
+0DLDZP_DNA	DNA	High grade tumor consistent with embryonal tumor	Tumor	Central Nervous System	sample	phs002790_PBBZGR
+0DLDZD_DNA	DNA		Normal	Blood	sample	phs002790_PBBZGR
+0DLFBS_RNA	RNA	Retinoblastoma	Tumor	Not specified in data	sample	phs002790_PBBZGW
+0DLFAZ_DNA	DNA		Normal	Blood	sample	phs002790_PBBZGW
+0DLFBI_DNA	DNA	Retinoblastoma	Tumor	Not specified in data	sample	phs002790_PBBZGW
+0DLV36_DNA	DNA	Pilocytic astrocytoma	Tumor	Central Nervous System	sample	phs002790_PBBZGY
+0DLIF1_RNA	RNA	Atypical teratoid/rhabdoid tumor, CNS WHO GRADE 4	Tumor	Central Nervous System	sample	phs002790_PBBZHE
+0DLHP3_DNA	DNA	High-grade glioma, favor ependymoma, WHO GRADE III	Tumor	Central Nervous System	sample	phs002790_PBBZHJ
+0DLHOM_DNA	DNA		Normal	Blood	sample	phs002790_PBBZHJ
+0DLIF2_RNA	RNA	Paratesticular rhabdomyosarcoma, favor embryonal	Tumor	Not specified in data	sample	phs002790_PBBZHP
+0DLIF9_DNA	DNA		Normal	Blood	sample	phs002790_PBBZHP
+0DLIFP_DNA	DNA	Paratesticular rhabdomyosarcoma, favor embryonal	Tumor	Not specified in data	sample	phs002790_PBBZHP
+0DLFBT_RNA	RNA	Glial neoplasm	Tumor	Central Nervous System	sample	phs002790_PBBZIA
+0DLFBV_DNA	DNA	Glial neoplasm	Tumor	Central Nervous System	sample	phs002790_PBBZIA
+0DLFB0_DNA	DNA		Normal	Blood	sample	phs002790_PBBZIA
+0DLJWG_RNA	RNA	High grade sarcoma	Tumor	Not specified in data	sample	phs002790_PBBZJH
+0DLJWP_DNA	DNA		Normal	Blood	sample	phs002790_PBBZJH
+0DLJX8_DNA	DNA	High grade sarcoma	Tumor	Not specified in data	sample	phs002790_PBBZJH
+0DLSX0_RNA	RNA	High-grade, primitive neuroepithelial neoplasm	Tumor	Central Nervous System	sample	phs002790_PBBZJN
+0DLSXU_DNA	DNA	High-grade, primitive neuroepithelial neoplasm	Tumor	Central Nervous System	sample	phs002790_PBBZJN
+0DLSX6_DNA	DNA		Normal	Blood	sample	phs002790_PBBZJN
+0DLPZC_RNA	RNA	Pilocytic astrocytoma, KIAA1549::BRAF fusion-positive (WHO grade 1)	Tumor	Central Nervous System	sample	phs002790_PBBZKC
+0DLPZF_DNA	DNA	Pilocytic astrocytoma, KIAA1549::BRAF fusion-positive (WHO grade 1)	Tumor	Central Nervous System	sample	phs002790_PBBZKC
+0DLQ03_DNA	DNA		Normal	Blood	sample	phs002790_PBBZKC
+0DLRI4_RNA	RNA	Glial neoplasm	Tumor	Central Nervous System	sample	phs002790_PBBZKE
+0DLRHT_DNA	DNA	Glial neoplasm	Tumor	Central Nervous System	sample	phs002790_PBBZKE
+0DLRHJ_DNA	DNA		Normal	Blood	sample	phs002790_PBBZKE
+0DLSWI_RNA	RNA	Pineoblastoma, WHO grade 4	Tumor	Central Nervous System	sample	phs002790_PBBZKG
+0DLSXC_DNA	DNA	Pineoblastoma, WHO grade 4	Tumor	Central Nervous System	sample	phs002790_PBBZKG
+0DLSX7_DNA	DNA		Normal	Blood	sample	phs002790_PBBZKG
+0DLSX1_RNA	RNA	Histologically low-grade glioneuronal tumor	Tumor	Central Nervous System	sample	phs002790_PBBZKJ
+0DLSYD_DNA	DNA	Histologically low-grade glioneuronal tumor	Tumor	Central Nervous System	sample	phs002790_PBBZKJ
+0DLSX8_DNA	DNA		Normal	Blood	sample	phs002790_PBBZKJ
+0DLIF3_RNA	RNA	High grade glioma	Tumor	Central Nervous System	sample	phs002790_PBBZKS
+0DLIFQ_DNA	DNA	High grade glioma	Tumor	Central Nervous System	sample	phs002790_PBBZKS
+0DLIFA_DNA	DNA		Normal	Blood	sample	phs002790_PBBZKS
+0DLJWH_RNA	RNA	High Grade Glioma  with H3 K27M and BRAF V600E mutations	Tumor	Central Nervous System	sample	phs002790_PBBZKT
+0DLJX4_DNA	DNA	High Grade Glioma  with H3 K27M and BRAF V600E mutations	Tumor	Central Nervous System	sample	phs002790_PBBZKT
+0DLJWQ_DNA	DNA		Normal	Blood	sample	phs002790_PBBZKT
+0DLIF4_RNA	RNA	Choroid plexus carcinoma	Tumor	Central Nervous System	sample	phs002790_PBBZLB
+0DLIFS_DNA	DNA	Choroid plexus carcinoma	Tumor	Central Nervous System	sample	phs002790_PBBZLB
+0DLIFB_DNA	DNA		Normal	Blood	sample	phs002790_PBBZLB
+0DLV3V_RNA	RNA	Medulloblastoma	Tumor	Central Nervous System	sample	phs002790_PBBZLD
+0DLV38_DNA	DNA	Medulloblastoma	Tumor	Central Nervous System	sample	phs002790_PBBZLD
+0DLFDL_RNA	RNA	Low grade mixed glial-neuronal tumor, morphology is consistent with/ aligns with/ favors ganglioglioma	Tumor	Central Nervous System	sample	phs002790_PBBZLJ
+0DLFBU_DNA	DNA	Low grade mixed glial-neuronal tumor, morphology is consistent with/ aligns with/ favors ganglioglioma	Tumor	Central Nervous System	sample	phs002790_PBBZLJ
+0DLFB1_DNA	DNA		Normal	Blood	sample	phs002790_PBBZLJ
+0DLRHU_DNA	DNA	Ependymoma, WHO GRADE III	Tumor	Central Nervous System	sample	phs002790_PBBZLT
+0DLRHK_DNA	DNA		Normal	Blood	sample	phs002790_PBBZLT
+0DLJWI_RNA	RNA	Nasopharyngeal carcinoma, non-keratinizing squamous cell carcinoma type	Tumor	Not specified in data	sample	phs002790_PBBZLU
+0DLJWR_DNA	DNA		Normal	Blood	sample	phs002790_PBBZLU
+0DLJX5_DNA	DNA	Nasopharyngeal carcinoma, non-keratinizing squamous cell carcinoma type	Tumor	Not specified in data	sample	phs002790_PBBZLU
+0DLX5F_RNA	RNA	Medulloblastoma	Tumor	Central Nervous System	sample	phs002790_PBBZME
+0DLRI6_RNA	RNA	Pilocytic astrocytoma	Tumor	Central Nervous System	sample	phs002790_PBBZNE
+0DLRHV_DNA	DNA	Pilocytic astrocytoma	Tumor	Central Nervous System	sample	phs002790_PBBZNE
+0DLRHL_DNA	DNA		Normal	Blood	sample	phs002790_PBBZNE
+0DLSX2_RNA	RNA	Choroid plexus papilloma, WHO grade 1	Tumor	Central Nervous System	sample	phs002790_PBBZNR
+0DLSYE_DNA	DNA	Choroid plexus papilloma, WHO grade 1	Tumor	Central Nervous System	sample	phs002790_PBBZNR
+0DLSX9_DNA	DNA		Normal	Blood	sample	phs002790_PBBZNR
+0DLRI7_RNA	RNA	Adamantinomatous craniopharyngioma, WHO grade 1	Tumor	Central Nervous System	sample	phs002790_PBBZNV
+0DLRHW_DNA	DNA	Adamantinomatous craniopharyngioma, WHO grade 1	Tumor	Central Nervous System	sample	phs002790_PBBZNV
+0DLRHM_DNA	DNA		Normal	Blood	sample	phs002790_PBBZNV
+0DLLW0_RNA	RNA	High grade neuroepithelial tumor with glial and neuronal differentiation and focal embryonal morphology.	Tumor	Central Nervous System	sample	phs002790_PBBZPG
+0DLLV1_DNA	DNA		Normal	Blood	sample	phs002790_PBBZPG
+0DLLW6_DNA	DNA	High grade neuroepithelial tumor with glial and neuronal differentiation and focal embryonal morphology.	Tumor	Central Nervous System	sample	phs002790_PBBZPG
+0DLV3M_DNA	DNA	Malignant neoplasm most consistent with embryonal tumor	Tumor	Central Nervous System	sample	phs002790_PBBZSZ
+0DLPZD_RNA	RNA	Low-grade glial neoplasm	Tumor	Central Nervous System	sample	phs002790_PBBZTH
+0DLPZI_DNA	DNA	Low-grade glial neoplasm	Tumor	Central Nervous System	sample	phs002790_PBBZTH
+0DLQ04_DNA	DNA		Normal	Blood	sample	phs002790_PBBZTH
+0DLX5B_DNA	DNA	Pilocytic astrocytoma	Tumor	Central Nervous System	sample	phs002790_PBBZTT
+0DLX4L_DNA	DNA		Normal	Blood	sample	phs002790_PBBZTT
+0DLRI8_RNA	RNA	Desmoplastic nodular medulloblastoma	Tumor	Central Nervous System	sample	phs002790_PBBZUA
+0DLRHX_DNA	DNA	Desmoplastic nodular medulloblastoma	Tumor	Central Nervous System	sample	phs002790_PBBZUA
+0DLRHN_DNA	DNA		Normal	Blood	sample	phs002790_PBBZUA
+0DLX5I_RNA	RNA	Medulloblastoma	Tumor	Central Nervous System	sample	phs002790_PBBZUL
+0DLX58_DNA	DNA	Medulloblastoma	Tumor	Central Nervous System	sample	phs002790_PBBZUL
+0DLX4N_DNA	DNA		Normal	Blood	sample	phs002790_PBBZUL
+0DLRI9_RNA	RNA	Choroid plexus carcinoma	Tumor	Central Nervous System	sample	phs002790_PBBZVL
+0DLRHY_DNA	DNA	Choroid plexus carcinoma	Tumor	Central Nervous System	sample	phs002790_PBBZVL
+0DLRHO_DNA	DNA		Normal	Blood	sample	phs002790_PBBZVL
+0DLX5C_DNA	DNA	Glial neoplasm, favor ependymoma	Tumor	Central Nervous System	sample	phs002790_PBBZWA
+0DLSX3_RNA	RNA	Choroid plexus papilloma	Tumor	Central Nervous System	sample	phs002790_PBBZWJ
+0DLSYF_DNA	DNA	Choroid plexus papilloma	Tumor	Central Nervous System	sample	phs002790_PBBZWJ
+0DLSXA_DNA	DNA		Normal	Blood	sample	phs002790_PBBZWJ
+0DLSX4_RNA	RNA	Neuroectodermal tumor, NTRK1 altered, with low-grade morphologic features	Tumor	Central Nervous System	sample	phs002790_PBBZWX
+0DLSXV_DNA	DNA	Neuroectodermal tumor, NTRK1 altered, with low-grade morphologic features	Tumor	Central Nervous System	sample	phs002790_PBBZWX
+0DLSXB_DNA	DNA		Normal	Blood	sample	phs002790_PBBZWX
+0DLX5K_RNA	RNA	Juvenile granulosa cell tumor	Tumor	Not specified in data	sample	phs002790_PBBZXS
+0DLX5D_DNA	DNA	Pilocytic astrocytoma	Tumor	Central Nervous System	sample	phs002790_PBCAAI

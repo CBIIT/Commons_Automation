@@ -4,5 +4,6 @@
    <name>TC11_CDS_phs001437_InstrumentModel_NextSeq500</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>eb3e58db-6233-40cf-b242-927154abb14b</testCaseGuid>
 </TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC06_CDS_phs002250_LibraryStrategy_NSD</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>605b7113-b147-4a92-a336-01e4e6ad1e70</testCaseGuid>
+</TestCaseEntity>

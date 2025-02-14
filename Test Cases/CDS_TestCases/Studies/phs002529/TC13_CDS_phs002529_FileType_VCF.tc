@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC13_CDS_phs002529_FileType_VCF</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8092c79c-d12c-4527-bf9d-6bbf12710928</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,2075 @@
+participant_id	race	gender	ethnicity	dbGaP_subject_id	type	study_participant_id	study.phs_accession
+100008	White	Male	Not Hispanic or Latino	2768943	participant	phs001713_100008	phs001713
+100049	Unknown	Male	Hispanic or Latino	2768944	participant	phs001713_100049	phs001713
+100088	White	Female	Not Hispanic or Latino	2768945	participant	phs001713_100088	phs001713
+100089	White	Female	Not Hispanic or Latino	2768946	participant	phs001713_100089	phs001713
+100108	White	Male	Not Hispanic or Latino	2768947	participant	phs001713_100108	phs001713
+100149	White	Female	Not Hispanic or Latino	2768948	participant	phs001713_100149	phs001713
+100188	White	Female	Not Hispanic or Latino	2768949	participant	phs001713_100188	phs001713
+100208	White	Female	Not Hispanic or Latino	2768950	participant	phs001713_100208	phs001713
+100228	White	Female	Not Hispanic or Latino	2768951	participant	phs001713_100228	phs001713
+100268	White	Female	Not Hispanic or Latino	2768952	participant	phs001713_100268	phs001713
+100288	White	Female	Not Hispanic or Latino	2768953	participant	phs001713_100288	phs001713
+100308	White	Male	Not Hispanic or Latino	2768954	participant	phs001713_100308	phs001713
+100328	White	Female	Not Hispanic or Latino	2768955	participant	phs001713_100328	phs001713
+100388	White	Male	Not Hispanic or Latino	2768956	participant	phs001713_100388	phs001713
+100409	White	Female	Not Hispanic or Latino	2768957	participant	phs001713_100409	phs001713
+100428	Unknown	Female	Hispanic or Latino	2768958	participant	phs001713_100428	phs001713
+100448	White	Female	Not Hispanic or Latino	2768959	participant	phs001713_100448	phs001713
+100468	White	Female	Not Hispanic or Latino	2768960	participant	phs001713_100468	phs001713
+100469	Unknown	Female	Unknown	2768961	participant	phs001713_100469	phs001713
+100508	Black or African American	Male	Not Hispanic or Latino	2768962	participant	phs001713_100508	phs001713
+100509	Black or African American	Male	Not Hispanic or Latino	2768963	participant	phs001713_100509	phs001713
+100549	Unknown	Male	Hispanic or Latino	2768964	participant	phs001713_100549	phs001713
+100568	White	Male	Not Hispanic or Latino	2768965	participant	phs001713_100568	phs001713
+100569	White	Male	Not Hispanic or Latino	2768966	participant	phs001713_100569	phs001713
+100588	White	Female	Not Hispanic or Latino	2768967	participant	phs001713_100588	phs001713
+100589	White	Female	Not Hispanic or Latino	2768968	participant	phs001713_100589	phs001713
+100590	White	Female	Not Hispanic or Latino	2768969	participant	phs001713_100590	phs001713
+100608	White	Male	Not Hispanic or Latino	2768970	participant	phs001713_100608	phs001713
+100610	White	Male	Not Hispanic or Latino	2768971	participant	phs001713_100610	phs001713
+100648	White	Female	Not Hispanic or Latino	2768972	participant	phs001713_100648	phs001713
+100668	Black or African American	Male	Not Hispanic or Latino	2768973	participant	phs001713_100668	phs001713
+100669	Unknown	Female	Hispanic or Latino	2768974	participant	phs001713_100669	phs001713
+100728	Asian	Female	Not Hispanic or Latino	2768975	participant	phs001713_100728	phs001713
+100729	White	Male	Not Hispanic or Latino	2768976	participant	phs001713_100729	phs001713
+100748	Black or African American	Female	Not Hispanic or Latino	2768977	participant	phs001713_100748	phs001713
+100749	White	Female	Not Hispanic or Latino	2768978	participant	phs001713_100749	phs001713
+100788	White	Male	Not Hispanic or Latino	2768979	participant	phs001713_100788	phs001713
+100808	White	Male	Not Hispanic or Latino	2768980	participant	phs001713_100808	phs001713
+100828	White	Female	Not Hispanic or Latino	2768981	participant	phs001713_100828	phs001713
+100848	White	Female	Not Hispanic or Latino	2768982	participant	phs001713_100848	phs001713
+100888	White	Female	Not Hispanic or Latino	2768983	participant	phs001713_100888	phs001713
+100889	White	Female	Not Hispanic or Latino	2768984	participant	phs001713_100889	phs001713
+100929	White	Female	Not Hispanic or Latino	2768985	participant	phs001713_100929	phs001713
+100948	White	Female	Not Hispanic or Latino	2768986	participant	phs001713_100948	phs001713
+100989	White	Female	Not Hispanic or Latino	2768987	participant	phs001713_100989	phs001713
+101008	Black or African American	Female	Not Hispanic or Latino	2768988	participant	phs001713_101008	phs001713
+101028	White	Male	Not Hispanic or Latino	2768989	participant	phs001713_101028	phs001713
+101029	Black or African American	Female	Not Hispanic or Latino	2768990	participant	phs001713_101029	phs001713
+101048	White	Male	Not Hispanic or Latino	2768991	participant	phs001713_101048	phs001713
+101049	White	Male	Not Hispanic or Latino	2768992	participant	phs001713_101049	phs001713
+101068	Unknown	Female	Hispanic or Latino	2768993	participant	phs001713_101068	phs001713
+101069	White	Male	Not Hispanic or Latino	2768994	participant	phs001713_101069	phs001713
+101088	White	Female	Not Hispanic or Latino	2768995	participant	phs001713_101088	phs001713
+101108	White	Female	Not Hispanic or Latino	2768996	participant	phs001713_101108	phs001713
+101128	White	Female	Not Hispanic or Latino	2768997	participant	phs001713_101128	phs001713
+101148	Black or African American	Female	Not Hispanic or Latino	2768998	participant	phs001713_101148	phs001713
+101168	White	Female	Not Hispanic or Latino	2768999	participant	phs001713_101168	phs001713
+101208	White	Female	Not Hispanic or Latino	2769000	participant	phs001713_101208	phs001713
+101248	White	Female	Not Hispanic or Latino	2769001	participant	phs001713_101248	phs001713
+101268	White	Male	Not Hispanic or Latino	2769002	participant	phs001713_101268	phs001713
+101269	White	Female	Not Hispanic or Latino	2769003	participant	phs001713_101269	phs001713
+101270	Black or African American	Female	Not Hispanic or Latino	2769004	participant	phs001713_101270	phs001713
+101308	White	Male	Not Hispanic or Latino	2769005	participant	phs001713_101308	phs001713
+101328	White	Female	Not Hispanic or Latino	2769006	participant	phs001713_101328	phs001713
+101368	Black or African American	Female	Not Hispanic or Latino	2769007	participant	phs001713_101368	phs001713
+101388	White	Female	Not Hispanic or Latino	2769008	participant	phs001713_101388	phs001713
+101408	White	Female	Not Hispanic or Latino	2769009	participant	phs001713_101408	phs001713
+101409	White	Female	Not Hispanic or Latino	2769010	participant	phs001713_101409	phs001713
+101428	White	Female	Not Hispanic or Latino	2769011	participant	phs001713_101428	phs001713
+101448	White	Male	Not Hispanic or Latino	2769012	participant	phs001713_101448	phs001713
+101488	White	Female	Not Hispanic or Latino	2769013	participant	phs001713_101488	phs001713
+101508	White	Male	Not Hispanic or Latino	2769014	participant	phs001713_101508	phs001713
+101528	White	Male	Not Hispanic or Latino	2769015	participant	phs001713_101528	phs001713
+101548	White	Male	Not Hispanic or Latino	2769016	participant	phs001713_101548	phs001713
+101588	White	Male	Not Hispanic or Latino	2769017	participant	phs001713_101588	phs001713
+101589	Black or African American	Male	Not Hispanic or Latino	2769018	participant	phs001713_101589	phs001713
+101608	White	Female	Not Hispanic or Latino	2769019	participant	phs001713_101608	phs001713
+101628	Black or African American	Female	Not Hispanic or Latino	2769020	participant	phs001713_101628	phs001713
+101629	White	Female	Not Hispanic or Latino	2769021	participant	phs001713_101629	phs001713
+101630	Black or African American	Male	Not Hispanic or Latino	2769022	participant	phs001713_101630	phs001713
+101631	White	Female	Not Hispanic or Latino	2769023	participant	phs001713_101631	phs001713
+101648	White	Female	Not Hispanic or Latino	2769024	participant	phs001713_101648	phs001713
+101649	Asian	Female	Not Hispanic or Latino	2769025	participant	phs001713_101649	phs001713
+101668	White	Male	Not Hispanic or Latino	2769026	participant	phs001713_101668	phs001713
+101688	White	Female	Not Hispanic or Latino	2769027	participant	phs001713_101688	phs001713
+101689	Black or African American	Female	Not Hispanic or Latino	2769028	participant	phs001713_101689	phs001713
+101708	White	Female	Not Hispanic or Latino	2769029	participant	phs001713_101708	phs001713
+101729	White	Male	Not Hispanic or Latino	2769030	participant	phs001713_101729	phs001713
+101730	White	Female	Not Hispanic or Latino	2769031	participant	phs001713_101730	phs001713
+101731	White	Female	Not Hispanic or Latino	2769032	participant	phs001713_101731	phs001713
+101732	White	Female	Not Hispanic or Latino	2769033	participant	phs001713_101732	phs001713
+101748	White	Female	Not Hispanic or Latino	2769034	participant	phs001713_101748	phs001713
+101769	Black or African American	Female	Not Hispanic or Latino	2769035	participant	phs001713_101769	phs001713
+101808	White	Female	Not Hispanic or Latino	2769036	participant	phs001713_101808	phs001713
+101828	White	Female	Not Hispanic or Latino	2769037	participant	phs001713_101828	phs001713
+101830	White	Female	Not Hispanic or Latino	2769038	participant	phs001713_101830	phs001713
+101848	White	Female	Not Hispanic or Latino	2769039	participant	phs001713_101848	phs001713
+101890	Black or African American	Female	Not Hispanic or Latino	2769040	participant	phs001713_101890	phs001713
+101891	White	Female	Not Hispanic or Latino	2769041	participant	phs001713_101891	phs001713
+101908	White	Female	Not Hispanic or Latino	2769042	participant	phs001713_101908	phs001713
+101928	White	Female	Not Hispanic or Latino	2769043	participant	phs001713_101928	phs001713
+101929	White	Male	Not Hispanic or Latino	2769044	participant	phs001713_101929	phs001713
+101948	White	Female	Not Hispanic or Latino	2769045	participant	phs001713_101948	phs001713
+101968	Unknown	Female	Hispanic or Latino	2769046	participant	phs001713_101968	phs001713
+102008	American Indian or Alaska Native	Female	Not Hispanic or Latino	2769047	participant	phs001713_102008	phs001713
+102009	Black or African American	Male	Not Hispanic or Latino	2769048	participant	phs001713_102009	phs001713
+102011	White	Female	Not Hispanic or Latino	2769049	participant	phs001713_102011	phs001713
+102028	White	Female	Not Hispanic or Latino	2769050	participant	phs001713_102028	phs001713
+102048	White	Female	Not Hispanic or Latino	2769051	participant	phs001713_102048	phs001713
+102069	White	Male	Not Hispanic or Latino	2769052	participant	phs001713_102069	phs001713
+102071	White	Male	Not Hispanic or Latino	2769053	participant	phs001713_102071	phs001713
+102088	White	Female	Not Hispanic or Latino	2769054	participant	phs001713_102088	phs001713
+102108	White	Female	Not Hispanic or Latino	2769055	participant	phs001713_102108	phs001713
+102128	White	Male	Not Hispanic or Latino	2769056	participant	phs001713_102128	phs001713
+102148	White	Female	Not Hispanic or Latino	2769057	participant	phs001713_102148	phs001713
+102168	Black or African American	Female	Not Hispanic or Latino	2769058	participant	phs001713_102168	phs001713
+102208	Unknown	Female	Not Hispanic or Latino	2769059	participant	phs001713_102208	phs001713
+102209	White	Female	Not Hispanic or Latino	2769060	participant	phs001713_102209	phs001713
+102228	White	Female	Not Hispanic or Latino	2769061	participant	phs001713_102228	phs001713
+102229	White	Male	Not Hispanic or Latino	2769062	participant	phs001713_102229	phs001713
+102230	White	Male	Not Hispanic or Latino	2769063	participant	phs001713_102230	phs001713
+102248	White	Female	Not Hispanic or Latino	2769064	participant	phs001713_102248	phs001713
+102249	White	Female	Not Hispanic or Latino	2769065	participant	phs001713_102249	phs001713
+102268	White	Female	Not Hispanic or Latino	2769066	participant	phs001713_102268	phs001713
+102309	White	Male	Not Hispanic or Latino	2769067	participant	phs001713_102309	phs001713
+102328	White	Female	Not Hispanic or Latino	2769068	participant	phs001713_102328	phs001713
+102329	White	Female	Not Hispanic or Latino	2769069	participant	phs001713_102329	phs001713
+102348	White	Female	Not Hispanic or Latino	2769070	participant	phs001713_102348	phs001713
+102389	White	Female	Not Hispanic or Latino	2769071	participant	phs001713_102389	phs001713
+102408	White	Female	Not Hispanic or Latino	2769072	participant	phs001713_102408	phs001713
+102428	Black or African American	Female	Not Hispanic or Latino	2769073	participant	phs001713_102428	phs001713
+102448	Black or African American	Female	Not Hispanic or Latino	2769074	participant	phs001713_102448	phs001713
+102449	White	Female	Not Hispanic or Latino	2769075	participant	phs001713_102449	phs001713
+102488	White	Female	Not Hispanic or Latino	2769076	participant	phs001713_102488	phs001713
+102489	White	Male	Not Hispanic or Latino	2769077	participant	phs001713_102489	phs001713
+102490	Black or African American	Male	Not Hispanic or Latino	2769078	participant	phs001713_102490	phs001713
+102491	White	Male	Not Hispanic or Latino	2769079	participant	phs001713_102491	phs001713
+102508	White	Female	Not Hispanic or Latino	2769080	participant	phs001713_102508	phs001713
+102528	Black or African American	Female	Not Hispanic or Latino	2769081	participant	phs001713_102528	phs001713
+102548	White	Female	Not Hispanic or Latino	2769082	participant	phs001713_102548	phs001713
+102549	White	Female	Not Hispanic or Latino	2769083	participant	phs001713_102549	phs001713
+102568	White	Female	Not Hispanic or Latino	2769084	participant	phs001713_102568	phs001713
+102569	Asian	Female	Not Hispanic or Latino	2769085	participant	phs001713_102569	phs001713
+102608	Unknown	Male	Not Hispanic or Latino	2769086	participant	phs001713_102608	phs001713
+102628	White	Female	Not Hispanic or Latino	2769087	participant	phs001713_102628	phs001713
+102668	Black or African American	Female	Not Hispanic or Latino	2769088	participant	phs001713_102668	phs001713
+102688	White	Female	Not Hispanic or Latino	2769089	participant	phs001713_102688	phs001713
+102708	Black or African American	Male	Not Hispanic or Latino	2769090	participant	phs001713_102708	phs001713
+102748	White	Female	Not Hispanic or Latino	2769091	participant	phs001713_102748	phs001713
+102768	White	Female	Not Hispanic or Latino	2769092	participant	phs001713_102768	phs001713
+102769	White	Female	Not Hispanic or Latino	2769093	participant	phs001713_102769	phs001713
+102808	Black or African American	Female	Not Hispanic or Latino	2769094	participant	phs001713_102808	phs001713
+102828	White	Female	Not Hispanic or Latino	2769095	participant	phs001713_102828	phs001713
+102848	White	Female	Not Hispanic or Latino	2769096	participant	phs001713_102848	phs001713
+102868	White	Male	Not Hispanic or Latino	2769097	participant	phs001713_102868	phs001713
+102888	Black or African American	Female	Not Hispanic or Latino	2769098	participant	phs001713_102888	phs001713
+102908	Black or African American	Female	Not Hispanic or Latino	2769099	participant	phs001713_102908	phs001713
+102928	White	Male	Not Hispanic or Latino	2769100	participant	phs001713_102928	phs001713
+102949	Black or African American	Female	Not Hispanic or Latino	2769101	participant	phs001713_102949	phs001713
+102988	White	Male	Not Hispanic or Latino	2769102	participant	phs001713_102988	phs001713
+103008	White	Female	Not Hispanic or Latino	2769103	participant	phs001713_103008	phs001713
+103028	White	Female	Not Hispanic or Latino	2769104	participant	phs001713_103028	phs001713
+103048	White	Female	Not Hispanic or Latino	2769105	participant	phs001713_103048	phs001713
+103050	White	Female	Not Hispanic or Latino	2769106	participant	phs001713_103050	phs001713
+103088	White	Female	Not Hispanic or Latino	2769107	participant	phs001713_103088	phs001713
+103108	White	Female	Not Hispanic or Latino	2769108	participant	phs001713_103108	phs001713
+103109	White	Female	Not Hispanic or Latino	2769109	participant	phs001713_103109	phs001713
+103128	White	Female	Not Hispanic or Latino	2769110	participant	phs001713_103128	phs001713
+103150	White	Female	Not Hispanic or Latino	2769111	participant	phs001713_103150	phs001713
+103168	Unknown	Female	Hispanic or Latino	2769112	participant	phs001713_103168	phs001713
+103188	White	Female	Not Hispanic or Latino	2769113	participant	phs001713_103188	phs001713
+103189	White	Male	Not Hispanic or Latino	2769114	participant	phs001713_103189	phs001713
+103228	White	Female	Not Hispanic or Latino	2769115	participant	phs001713_103228	phs001713
+103229	Black or African American	Female	Not Hispanic or Latino	2769116	participant	phs001713_103229	phs001713
+103230	White	Female	Not Hispanic or Latino	2769117	participant	phs001713_103230	phs001713
+103248	White	Female	Not Hispanic or Latino	2769118	participant	phs001713_103248	phs001713
+103249	White	Female	Not Hispanic or Latino	2769119	participant	phs001713_103249	phs001713
+103268	American Indian or Alaska Native	Female	Not Hispanic or Latino	2769120	participant	phs001713_103268	phs001713
+103288	White	Female	Not Hispanic or Latino	2769121	participant	phs001713_103288	phs001713
+103309	White	Female	Not Hispanic or Latino	2769122	participant	phs001713_103309	phs001713
+103328	Asian	Female	Not Hispanic or Latino	2769123	participant	phs001713_103328	phs001713
+103348	White	Female	Not Hispanic or Latino	2769124	participant	phs001713_103348	phs001713
+103368	White	Male	Not Hispanic or Latino	2769125	participant	phs001713_103368	phs001713
+103388	White	Female	Not Hispanic or Latino	2769126	participant	phs001713_103388	phs001713
+103389	White	Female	Not Hispanic or Latino	2769127	participant	phs001713_103389	phs001713
+103390	White	Female	Not Hispanic or Latino	2769128	participant	phs001713_103390	phs001713
+103408	White	Female	Not Hispanic or Latino	2769129	participant	phs001713_103408	phs001713
+103428	White	Male	Not Hispanic or Latino	2769130	participant	phs001713_103428	phs001713
+103430	White	Female	Not Hispanic or Latino	2769131	participant	phs001713_103430	phs001713
+103431	White	Female	Not Hispanic or Latino	2769132	participant	phs001713_103431	phs001713
+103448	White	Male	Not Hispanic or Latino	2769133	participant	phs001713_103448	phs001713
+103468	Unknown	Female	Hispanic or Latino	2769134	participant	phs001713_103468	phs001713
+103488	White	Female	Not Hispanic or Latino	2769135	participant	phs001713_103488	phs001713
+103508	White	Female	Not Hispanic or Latino	2769136	participant	phs001713_103508	phs001713
+103529	White	Female	Not Hispanic or Latino	2769137	participant	phs001713_103529	phs001713
+103548	White	Female	Not Hispanic or Latino	2769138	participant	phs001713_103548	phs001713
+103549	Black or African American	Female	Not Hispanic or Latino	2769139	participant	phs001713_103549	phs001713
+103568	White	Male	Not Hispanic or Latino	2769140	participant	phs001713_103568	phs001713
+103569	White	Female	Not Hispanic or Latino	2769141	participant	phs001713_103569	phs001713
+103588	White	Male	Not Hispanic or Latino	2769142	participant	phs001713_103588	phs001713
+103608	Black or African American	Female	Not Hispanic or Latino	2769143	participant	phs001713_103608	phs001713
+103630	Black or African American	Female	Not Hispanic or Latino	2769144	participant	phs001713_103630	phs001713
+103648	Black or African American	Male	Not Hispanic or Latino	2769145	participant	phs001713_103648	phs001713
+103649	Black or African American	Male	Not Hispanic or Latino	2769146	participant	phs001713_103649	phs001713
+103668	Black or African American	Male	Not Hispanic or Latino	2769147	participant	phs001713_103668	phs001713
+103690	Black or African American	Female	Not Hispanic or Latino	2769148	participant	phs001713_103690	phs001713
+103708	White	Female	Not Hispanic or Latino	2769149	participant	phs001713_103708	phs001713
+103728	White	Female	Not Hispanic or Latino	2769150	participant	phs001713_103728	phs001713
+103748	White	Female	Not Hispanic or Latino	2769151	participant	phs001713_103748	phs001713
+103749	White	Female	Not Hispanic or Latino	2769152	participant	phs001713_103749	phs001713
+103768	White	Female	Not Hispanic or Latino	2769153	participant	phs001713_103768	phs001713
+103811	White	Male	Not Hispanic or Latino	2769154	participant	phs001713_103811	phs001713
+103828	Black or African American	Female	Not Hispanic or Latino	2769155	participant	phs001713_103828	phs001713
+103868	White	Male	Not Hispanic or Latino	2769156	participant	phs001713_103868	phs001713
+103888	White	Male	Not Hispanic or Latino	2769157	participant	phs001713_103888	phs001713
+103908	Unknown	Female	Hispanic or Latino	2769158	participant	phs001713_103908	phs001713
+103928	Asian	Female	Not Hispanic or Latino	2769159	participant	phs001713_103928	phs001713
+103929	White	Female	Not Hispanic or Latino	2769160	participant	phs001713_103929	phs001713
+103930	White	Female	Not Hispanic or Latino	2769161	participant	phs001713_103930	phs001713
+103948	White	Male	Not Hispanic or Latino	2769162	participant	phs001713_103948	phs001713
+103988	Asian	Female	Not Hispanic or Latino	2769163	participant	phs001713_103988	phs001713
+104008	White	Female	Not Hispanic or Latino	2769164	participant	phs001713_104008	phs001713
+104028	White	Male	Not Hispanic or Latino	2769165	participant	phs001713_104028	phs001713
+104029	White	Female	Not Hispanic or Latino	2769166	participant	phs001713_104029	phs001713
+104048	White	Male	Not Hispanic or Latino	2769167	participant	phs001713_104048	phs001713
+104069	White	Female	Not Hispanic or Latino	2769168	participant	phs001713_104069	phs001713
+104088	Black or African American	Female	Not Hispanic or Latino	2769169	participant	phs001713_104088	phs001713
+104108	White	Female	Not Hispanic or Latino	2769170	participant	phs001713_104108	phs001713
+104109	White	Female	Not Hispanic or Latino	2769171	participant	phs001713_104109	phs001713
+104128	White	Female	Not Hispanic or Latino	2769172	participant	phs001713_104128	phs001713
+104129	Black or African American	Female	Not Hispanic or Latino	2769173	participant	phs001713_104129	phs001713
+104148	White	Female	Not Hispanic or Latino	2769174	participant	phs001713_104148	phs001713
+104149	White	Female	Not Hispanic or Latino	2769175	participant	phs001713_104149	phs001713
+104168	Black or African American	Female	Not Hispanic or Latino	2769176	participant	phs001713_104168	phs001713
+104208	Black or African American	Female	Not Hispanic or Latino	2769177	participant	phs001713_104208	phs001713
+104209	Black or African American	Female	Not Hispanic or Latino	2769178	participant	phs001713_104209	phs001713
+104248	White	Female	Not Hispanic or Latino	2769179	participant	phs001713_104248	phs001713
+104249	White	Female	Not Hispanic or Latino	2769180	participant	phs001713_104249	phs001713
+104268	White	Female	Not Hispanic or Latino	2769181	participant	phs001713_104268	phs001713
+104288	White	Male	Not Hispanic or Latino	2769182	participant	phs001713_104288	phs001713
+104289	Black or African American	Male	Not Hispanic or Latino	2769183	participant	phs001713_104289	phs001713
+104308	White	Female	Not Hispanic or Latino	2769184	participant	phs001713_104308	phs001713
+104328	White	Female	Not Hispanic or Latino	2769185	participant	phs001713_104328	phs001713
+104348	White	Female	Not Hispanic or Latino	2769186	participant	phs001713_104348	phs001713
+104368	White	Male	Not Hispanic or Latino	2769187	participant	phs001713_104368	phs001713
+104389	White	Female	Not Hispanic or Latino	2769188	participant	phs001713_104389	phs001713
+104409	White	Female	Not Hispanic or Latino	2769189	participant	phs001713_104409	phs001713
+104428	Black or African American	Male	Not Hispanic or Latino	2769190	participant	phs001713_104428	phs001713
+104430	White	Male	Not Hispanic or Latino	2769191	participant	phs001713_104430	phs001713
+104448	White	Male	Not Hispanic or Latino	2769192	participant	phs001713_104448	phs001713
+104468	White	Female	Not Hispanic or Latino	2769193	participant	phs001713_104468	phs001713
+104488	White	Female	Not Hispanic or Latino	2769194	participant	phs001713_104488	phs001713
+104489	White	Female	Not Hispanic or Latino	2769195	participant	phs001713_104489	phs001713
+104490	White	Female	Not Hispanic or Latino	2769196	participant	phs001713_104490	phs001713
+104491	White	Female	Not Hispanic or Latino	2769197	participant	phs001713_104491	phs001713
+104508	Black or African American	Female	Not Hispanic or Latino	2769198	participant	phs001713_104508	phs001713
+104509	White	Female	Not Hispanic or Latino	2769199	participant	phs001713_104509	phs001713
+104510	White	Female	Not Hispanic or Latino	2769200	participant	phs001713_104510	phs001713
+104528	White	Female	Not Hispanic or Latino	2769201	participant	phs001713_104528	phs001713
+104529	White	Female	Not Hispanic or Latino	2769202	participant	phs001713_104529	phs001713
+104568	White	Female	Not Hispanic or Latino	2769203	participant	phs001713_104568	phs001713
+104569	White	Male	Not Hispanic or Latino	2769204	participant	phs001713_104569	phs001713
+104570	White	Female	Not Hispanic or Latino	2769205	participant	phs001713_104570	phs001713
+104588	White	Female	Not Hispanic or Latino	2769206	participant	phs001713_104588	phs001713
+104608	White	Male	Not Hispanic or Latino	2769207	participant	phs001713_104608	phs001713
+104628	Black or African American	Female	Not Hispanic or Latino	2769208	participant	phs001713_104628	phs001713
+104648	Asian	Female	Not Hispanic or Latino	2769209	participant	phs001713_104648	phs001713
+104668	White	Male	Not Hispanic or Latino	2769210	participant	phs001713_104668	phs001713
+104688	Unknown	Female	Unknown	2769211	participant	phs001713_104688	phs001713
+104708	White	Female	Not Hispanic or Latino	2769212	participant	phs001713_104708	phs001713
+104709	White	Male	Not Hispanic or Latino	2769213	participant	phs001713_104709	phs001713
+104710	White	Male	Not Hispanic or Latino	2769214	participant	phs001713_104710	phs001713
+104711	White	Female	Not Hispanic or Latino	2769215	participant	phs001713_104711	phs001713
+104748	White	Female	Not Hispanic or Latino	2769216	participant	phs001713_104748	phs001713
+104749	White	Female	Not Hispanic or Latino	2769217	participant	phs001713_104749	phs001713
+104788	Black or African American	Male	Not Hispanic or Latino	2769218	participant	phs001713_104788	phs001713
+104789	White	Female	Not Hispanic or Latino	2769219	participant	phs001713_104789	phs001713
+104808	White	Female	Not Hispanic or Latino	2769220	participant	phs001713_104808	phs001713
+104809	White	Female	Not Hispanic or Latino	2769221	participant	phs001713_104809	phs001713
+104828	White	Female	Not Hispanic or Latino	2769222	participant	phs001713_104828	phs001713
+104848	White	Female	Not Hispanic or Latino	2769223	participant	phs001713_104848	phs001713
+104868	White	Female	Not Hispanic or Latino	2769224	participant	phs001713_104868	phs001713
+104908	Black or African American	Male	Not Hispanic or Latino	2769225	participant	phs001713_104908	phs001713
+104928	Unknown	Male	Hispanic or Latino	2769226	participant	phs001713_104928	phs001713
+104948	Black or African American	Female	Not Hispanic or Latino	2769227	participant	phs001713_104948	phs001713
+104968	White	Male	Not Hispanic or Latino	2769228	participant	phs001713_104968	phs001713
+104988	White	Female	Not Hispanic or Latino	2769229	participant	phs001713_104988	phs001713
+105008	White	Female	Not Hispanic or Latino	2769230	participant	phs001713_105008	phs001713
+105028	White	Female	Not Hispanic or Latino	2769231	participant	phs001713_105028	phs001713
+105048	White	Female	Not Hispanic or Latino	2769232	participant	phs001713_105048	phs001713
+105069	White	Male	Not Hispanic or Latino	2769233	participant	phs001713_105069	phs001713
+105088	White	Female	Not Hispanic or Latino	2769234	participant	phs001713_105088	phs001713
+105089	White	Female	Not Hispanic or Latino	2769235	participant	phs001713_105089	phs001713
+105130	White	Female	Not Hispanic or Latino	2769236	participant	phs001713_105130	phs001713
+105149	White	Female	Not Hispanic or Latino	2769237	participant	phs001713_105149	phs001713
+105168	Black or African American	Female	Not Hispanic or Latino	2769238	participant	phs001713_105168	phs001713
+105188	White	Female	Not Hispanic or Latino	2769239	participant	phs001713_105188	phs001713
+105208	White	Female	Not Hispanic or Latino	2769240	participant	phs001713_105208	phs001713
+105228	Black or African American	Female	Not Hispanic or Latino	2769241	participant	phs001713_105228	phs001713
+105248	White	Female	Not Hispanic or Latino	2769242	participant	phs001713_105248	phs001713
+105250	White	Female	Not Hispanic or Latino	2769243	participant	phs001713_105250	phs001713
+105252	White	Male	Not Hispanic or Latino	2769244	participant	phs001713_105252	phs001713
+105268	Black or African American	Female	Not Hispanic or Latino	2769245	participant	phs001713_105268	phs001713
+105269	Black or African American	Female	Not Hispanic or Latino	2769246	participant	phs001713_105269	phs001713
+105288	White	Female	Not Hispanic or Latino	2769247	participant	phs001713_105288	phs001713
+105289	Black or African American	Female	Not Hispanic or Latino	2769248	participant	phs001713_105289	phs001713
+105290	White	Female	Not Hispanic or Latino	2769249	participant	phs001713_105290	phs001713
+105291	Unknown	Female	Unknown	2769250	participant	phs001713_105291	phs001713
+105308	White	Male	Not Hispanic or Latino	2769251	participant	phs001713_105308	phs001713
+105328	White	Male	Not Hispanic or Latino	2769252	participant	phs001713_105328	phs001713
+105348	White	Female	Not Hispanic or Latino	2769253	participant	phs001713_105348	phs001713
+105350	White	Female	Not Hispanic or Latino	2769254	participant	phs001713_105350	phs001713
+105368	White	Female	Not Hispanic or Latino	2769255	participant	phs001713_105368	phs001713
+105408	White	Male	Not Hispanic or Latino	2769256	participant	phs001713_105408	phs001713
+105409	White	Female	Not Hispanic or Latino	2769257	participant	phs001713_105409	phs001713
+105429	White	Female	Not Hispanic or Latino	2769258	participant	phs001713_105429	phs001713
+105448	Black or African American	Female	Not Hispanic or Latino	2769259	participant	phs001713_105448	phs001713
+105449	White	Female	Not Hispanic or Latino	2769260	participant	phs001713_105449	phs001713
+105468	White	Female	Not Hispanic or Latino	2769261	participant	phs001713_105468	phs001713
+105488	White	Female	Not Hispanic or Latino	2769262	participant	phs001713_105488	phs001713
+105508	White	Female	Not Hispanic or Latino	2769263	participant	phs001713_105508	phs001713
+105529	White	Female	Not Hispanic or Latino	2769264	participant	phs001713_105529	phs001713
+105530	White	Female	Not Hispanic or Latino	2769265	participant	phs001713_105530	phs001713
+105531	White	Female	Not Hispanic or Latino	2769266	participant	phs001713_105531	phs001713
+105548	White	Female	Not Hispanic or Latino	2769267	participant	phs001713_105548	phs001713
+105568	White	Female	Not Hispanic or Latino	2769268	participant	phs001713_105568	phs001713
+105608	White	Female	Not Hispanic or Latino	2769269	participant	phs001713_105608	phs001713
+105628	White	Male	Not Hispanic or Latino	2769270	participant	phs001713_105628	phs001713
+105648	Black or African American	Female	Not Hispanic or Latino	2769271	participant	phs001713_105648	phs001713
+105650	Black or African American	Female	Not Hispanic or Latino	2769272	participant	phs001713_105650	phs001713
+105668	White	Female	Not Hispanic or Latino	2769273	participant	phs001713_105668	phs001713
+105669	White	Female	Not Hispanic or Latino	2769274	participant	phs001713_105669	phs001713
+105670	White	Female	Not Hispanic or Latino	2769275	participant	phs001713_105670	phs001713
+105671	White	Female	Not Hispanic or Latino	2769276	participant	phs001713_105671	phs001713
+105708	White	Male	Not Hispanic or Latino	2769277	participant	phs001713_105708	phs001713
+105728	White	Female	Not Hispanic or Latino	2769278	participant	phs001713_105728	phs001713
+105749	White	Female	Not Hispanic or Latino	2769279	participant	phs001713_105749	phs001713
+105768	White	Female	Not Hispanic or Latino	2769280	participant	phs001713_105768	phs001713
+105788	White	Female	Not Hispanic or Latino	2769281	participant	phs001713_105788	phs001713
+105808	White	Female	Not Hispanic or Latino	2769282	participant	phs001713_105808	phs001713
+105828	White	Female	Not Hispanic or Latino	2769283	participant	phs001713_105828	phs001713
+105849	White	Female	Not Hispanic or Latino	2769284	participant	phs001713_105849	phs001713
+105851	Black or African American	Female	Not Hispanic or Latino	2769285	participant	phs001713_105851	phs001713
+105869	White	Male	Not Hispanic or Latino	2769286	participant	phs001713_105869	phs001713
+105888	White	Female	Not Hispanic or Latino	2769287	participant	phs001713_105888	phs001713
+105908	Unknown	Female	Unknown	2769288	participant	phs001713_105908	phs001713
+105910	Black or African American	Female	Not Hispanic or Latino	2769289	participant	phs001713_105910	phs001713
+105911	White	Female	Not Hispanic or Latino	2769290	participant	phs001713_105911	phs001713
+105929	White	Female	Not Hispanic or Latino	2769291	participant	phs001713_105929	phs001713
+105988	White	Male	Not Hispanic or Latino	2769292	participant	phs001713_105988	phs001713
+106008	White	Female	Not Hispanic or Latino	2769293	participant	phs001713_106008	phs001713
+106049	White	Female	Not Hispanic or Latino	2769294	participant	phs001713_106049	phs001713
+106068	White	Female	Not Hispanic or Latino	2769295	participant	phs001713_106068	phs001713
+106069	White	Female	Not Hispanic or Latino	2769296	participant	phs001713_106069	phs001713
+106070	White	Female	Not Hispanic or Latino	2769297	participant	phs001713_106070	phs001713
+106088	White	Male	Not Hispanic or Latino	2769298	participant	phs001713_106088	phs001713
+106128	Black or African American	Male	Not Hispanic or Latino	2769299	participant	phs001713_106128	phs001713
+106148	White	Female	Not Hispanic or Latino	2769300	participant	phs001713_106148	phs001713
+106149	White	Female	Not Hispanic or Latino	2769301	participant	phs001713_106149	phs001713
+106150	White	Female	Not Hispanic or Latino	2769302	participant	phs001713_106150	phs001713
+106151	Unknown	Female	Unknown	2769303	participant	phs001713_106151	phs001713
+106152	White	Male	Not Hispanic or Latino	2769304	participant	phs001713_106152	phs001713
+106153	White	Female	Not Hispanic or Latino	2769305	participant	phs001713_106153	phs001713
+106168	White	Female	Not Hispanic or Latino	2769306	participant	phs001713_106168	phs001713
+106188	Black or African American	Female	Not Hispanic or Latino	2769307	participant	phs001713_106188	phs001713
+106208	Black or African American	Female	Not Hispanic or Latino	2769308	participant	phs001713_106208	phs001713
+106228	White	Male	Not Hispanic or Latino	2769309	participant	phs001713_106228	phs001713
+106249	White	Male	Not Hispanic or Latino	2769310	participant	phs001713_106249	phs001713
+106308	White	Male	Not Hispanic or Latino	2769311	participant	phs001713_106308	phs001713
+106309	White	Male	Not Hispanic or Latino	2769312	participant	phs001713_106309	phs001713
+106328	White	Female	Not Hispanic or Latino	2769313	participant	phs001713_106328	phs001713
+106351	White	Female	Not Hispanic or Latino	2769314	participant	phs001713_106351	phs001713
+106368	Black or African American	Female	Not Hispanic or Latino	2769315	participant	phs001713_106368	phs001713
+106408	White	Female	Not Hispanic or Latino	2769316	participant	phs001713_106408	phs001713
+106409	White	Female	Not Hispanic or Latino	2769317	participant	phs001713_106409	phs001713
+106410	Unknown	Female	Hispanic or Latino	2769318	participant	phs001713_106410	phs001713
+106411	White	Male	Not Hispanic or Latino	2769319	participant	phs001713_106411	phs001713
+106428	White	Male	Not Hispanic or Latino	2769320	participant	phs001713_106428	phs001713
+106430	Black or African American	Male	Not Hispanic or Latino	2769321	participant	phs001713_106430	phs001713
+106448	Black or African American	Female	Not Hispanic or Latino	2769322	participant	phs001713_106448	phs001713
+106449	White	Female	Not Hispanic or Latino	2769323	participant	phs001713_106449	phs001713
+106469	White	Female	Not Hispanic or Latino	2769324	participant	phs001713_106469	phs001713
+106470	White	Female	Not Hispanic or Latino	2769325	participant	phs001713_106470	phs001713
+106488	Unknown	Female	Hispanic or Latino	2769326	participant	phs001713_106488	phs001713
+106508	Black or African American	Female	Not Hispanic or Latino	2769327	participant	phs001713_106508	phs001713
+106528	White	Female	Not Hispanic or Latino	2769328	participant	phs001713_106528	phs001713
+106529	White	Female	Not Hispanic or Latino	2769329	participant	phs001713_106529	phs001713
+106530	White	Male	Not Hispanic or Latino	2769330	participant	phs001713_106530	phs001713
+106548	Unknown	Male	Hispanic or Latino	2769331	participant	phs001713_106548	phs001713
+106550	White	Female	Not Hispanic or Latino	2769332	participant	phs001713_106550	phs001713
+106568	White	Female	Not Hispanic or Latino	2769333	participant	phs001713_106568	phs001713
+106569	White	Female	Not Hispanic or Latino	2769334	participant	phs001713_106569	phs001713
+106588	White	Male	Not Hispanic or Latino	2769335	participant	phs001713_106588	phs001713
+106589	White	Male	Not Hispanic or Latino	2769336	participant	phs001713_106589	phs001713
+106608	Unknown	Male	Hispanic or Latino	2769337	participant	phs001713_106608	phs001713
+106609	White	Female	Not Hispanic or Latino	2769338	participant	phs001713_106609	phs001713
+106628	White	Male	Not Hispanic or Latino	2769339	participant	phs001713_106628	phs001713
+106648	White	Male	Not Hispanic or Latino	2769340	participant	phs001713_106648	phs001713
+106649	White	Male	Not Hispanic or Latino	2769341	participant	phs001713_106649	phs001713
+106688	Black or African American	Male	Not Hispanic or Latino	2769342	participant	phs001713_106688	phs001713
+106689	White	Female	Not Hispanic or Latino	2769343	participant	phs001713_106689	phs001713
+106708	Black or African American	Female	Not Hispanic or Latino	2769344	participant	phs001713_106708	phs001713
+106728	White	Female	Not Hispanic or Latino	2769345	participant	phs001713_106728	phs001713
+106729	White	Female	Not Hispanic or Latino	2769346	participant	phs001713_106729	phs001713
+106748	White	Female	Not Hispanic or Latino	2769347	participant	phs001713_106748	phs001713
+106749	White	Female	Not Hispanic or Latino	2769348	participant	phs001713_106749	phs001713
+106750	Black or African American	Female	Not Hispanic or Latino	2769349	participant	phs001713_106750	phs001713
+106768	White	Male	Not Hispanic or Latino	2769350	participant	phs001713_106768	phs001713
+106788	White	Female	Not Hispanic or Latino	2769351	participant	phs001713_106788	phs001713
+106808	White	Female	Not Hispanic or Latino	2769352	participant	phs001713_106808	phs001713
+106829	White	Male	Not Hispanic or Latino	2769353	participant	phs001713_106829	phs001713
+106830	White	Male	Not Hispanic or Latino	2769354	participant	phs001713_106830	phs001713
+106831	White	Female	Not Hispanic or Latino	2769355	participant	phs001713_106831	phs001713
+106848	White	Female	Not Hispanic or Latino	2769356	participant	phs001713_106848	phs001713
+106849	White	Female	Not Hispanic or Latino	2769357	participant	phs001713_106849	phs001713
+106850	White	Male	Not Hispanic or Latino	2769358	participant	phs001713_106850	phs001713
+106888	White	Female	Not Hispanic or Latino	2769359	participant	phs001713_106888	phs001713
+106889	Black or African American	Female	Not Hispanic or Latino	2769360	participant	phs001713_106889	phs001713
+106908	White	Male	Not Hispanic or Latino	2769361	participant	phs001713_106908	phs001713
+106909	American Indian or Alaska Native	Male	Not Hispanic or Latino	2769362	participant	phs001713_106909	phs001713
+106910	White	Male	Not Hispanic or Latino	2769363	participant	phs001713_106910	phs001713
+106911	Unknown	Female	Unknown	2769364	participant	phs001713_106911	phs001713
+106913	White	Female	Not Hispanic or Latino	2769365	participant	phs001713_106913	phs001713
+106914	White	Female	Not Hispanic or Latino	2769366	participant	phs001713_106914	phs001713
+106928	White	Female	Not Hispanic or Latino	2769367	participant	phs001713_106928	phs001713
+106948	White	Female	Not Hispanic or Latino	2769368	participant	phs001713_106948	phs001713
+106949	White	Female	Not Hispanic or Latino	2769369	participant	phs001713_106949	phs001713
+106969	White	Female	Not Hispanic or Latino	2769370	participant	phs001713_106969	phs001713
+106970	White	Male	Not Hispanic or Latino	2769371	participant	phs001713_106970	phs001713
+106971	White	Male	Not Hispanic or Latino	2769372	participant	phs001713_106971	phs001713
+106972	White	Male	Not Hispanic or Latino	2769373	participant	phs001713_106972	phs001713
+106973	White	Female	Not Hispanic or Latino	2769374	participant	phs001713_106973	phs001713
+106974	Asian	Female	Not Hispanic or Latino	2769375	participant	phs001713_106974	phs001713
+106975	Black or African American	Female	Not Hispanic or Latino	2769376	participant	phs001713_106975	phs001713
+106977	White	Female	Not Hispanic or Latino	2769377	participant	phs001713_106977	phs001713
+106978	White	Female	Not Hispanic or Latino	2769378	participant	phs001713_106978	phs001713
+106988	White	Female	Not Hispanic or Latino	2769379	participant	phs001713_106988	phs001713
+106989	Black or African American	Female	Not Hispanic or Latino	2769380	participant	phs001713_106989	phs001713
+106990	White	Female	Not Hispanic or Latino	2769381	participant	phs001713_106990	phs001713
+106993	White	Female	Not Hispanic or Latino	2769382	participant	phs001713_106993	phs001713
+106994	White	Female	Not Hispanic or Latino	2769383	participant	phs001713_106994	phs001713
+106997	Black or African American	Male	Not Hispanic or Latino	2769384	participant	phs001713_106997	phs001713
+106998	White	Male	Not Hispanic or Latino	2769385	participant	phs001713_106998	phs001713
+107008	Black or African American	Male	Not Hispanic or Latino	2769386	participant	phs001713_107008	phs001713
+107009	Black or African American	Male	Not Hispanic or Latino	2769387	participant	phs001713_107009	phs001713
+107028	White	Female	Not Hispanic or Latino	2769388	participant	phs001713_107028	phs001713
+107048	Black or African American	Female	Not Hispanic or Latino	2769389	participant	phs001713_107048	phs001713
+107050	White	Female	Not Hispanic or Latino	2769390	participant	phs001713_107050	phs001713
+107069	White	Female	Not Hispanic or Latino	2769391	participant	phs001713_107069	phs001713
+107088	Black or African American	Female	Not Hispanic or Latino	2769392	participant	phs001713_107088	phs001713
+107089	White	Female	Not Hispanic or Latino	2769393	participant	phs001713_107089	phs001713
+107090	White	Female	Not Hispanic or Latino	2769394	participant	phs001713_107090	phs001713
+107091	Unknown	Female	Hispanic or Latino	2769395	participant	phs001713_107091	phs001713
+107092	White	Male	Not Hispanic or Latino	2769396	participant	phs001713_107092	phs001713
+107093	White	Female	Not Hispanic or Latino	2769397	participant	phs001713_107093	phs001713
+107094	Black or African American	Female	Not Hispanic or Latino	2769398	participant	phs001713_107094	phs001713
+107128	White	Female	Not Hispanic or Latino	2769399	participant	phs001713_107128	phs001713
+107148	White	Female	Not Hispanic or Latino	2769400	participant	phs001713_107148	phs001713
+107168	White	Male	Not Hispanic or Latino	2769401	participant	phs001713_107168	phs001713
+107169	White	Female	Not Hispanic or Latino	2769402	participant	phs001713_107169	phs001713
+107170	White	Male	Not Hispanic or Latino	2769403	participant	phs001713_107170	phs001713
+107171	American Indian or Alaska Native	Female	Not Hispanic or Latino	2769404	participant	phs001713_107171	phs001713
+107172	Unknown	Female	Not Hispanic or Latino	2769405	participant	phs001713_107172	phs001713
+107188	White	Male	Not Hispanic or Latino	2769406	participant	phs001713_107188	phs001713
+107208	Black or African American	Female	Not Hispanic or Latino	2769407	participant	phs001713_107208	phs001713
+107228	White	Female	Not Hispanic or Latino	2769408	participant	phs001713_107228	phs001713
+107248	White	Female	Not Hispanic or Latino	2769409	participant	phs001713_107248	phs001713
+107288	White	Female	Not Hispanic or Latino	2769410	participant	phs001713_107288	phs001713
+107308	White	Female	Not Hispanic or Latino	2769411	participant	phs001713_107308	phs001713
+107329	White	Female	Not Hispanic or Latino	2769412	participant	phs001713_107329	phs001713
+107330	White	Male	Not Hispanic or Latino	2769413	participant	phs001713_107330	phs001713
+107331	White	Male	Not Hispanic or Latino	2769414	participant	phs001713_107331	phs001713
+107368	White	Male	Not Hispanic or Latino	2769415	participant	phs001713_107368	phs001713
+107369	Black or African American	Female	Not Hispanic or Latino	2769416	participant	phs001713_107369	phs001713
+107388	Unknown	Female	Not Hispanic or Latino	2769417	participant	phs001713_107388	phs001713
+107389	Unknown	Female	Unknown	2769418	participant	phs001713_107389	phs001713
+107408	White	Female	Not Hispanic or Latino	2769419	participant	phs001713_107408	phs001713
+107409	White	Male	Not Hispanic or Latino	2769420	participant	phs001713_107409	phs001713
+107410	White	Male	Not Hispanic or Latino	2769421	participant	phs001713_107410	phs001713
+107411	Black or African American	Female	Not Hispanic or Latino	2769422	participant	phs001713_107411	phs001713
+107412	White	Female	Not Hispanic or Latino	2769423	participant	phs001713_107412	phs001713
+107414	White	Female	Not Hispanic or Latino	2769424	participant	phs001713_107414	phs001713
+107429	Unknown	Female	Unknown	2769425	participant	phs001713_107429	phs001713
+107430	White	Male	Not Hispanic or Latino	2769426	participant	phs001713_107430	phs001713
+107448	Black or African American	Female	Not Hispanic or Latino	2769427	participant	phs001713_107448	phs001713
+107449	Black or African American	Male	Not Hispanic or Latino	2769428	participant	phs001713_107449	phs001713
+107450	White	Male	Not Hispanic or Latino	2769429	participant	phs001713_107450	phs001713
+107468	White	Male	Not Hispanic or Latino	2769430	participant	phs001713_107468	phs001713
+107469	White	Female	Not Hispanic or Latino	2769431	participant	phs001713_107469	phs001713
+107470	Black or African American	Female	Not Hispanic or Latino	2769432	participant	phs001713_107470	phs001713
+107471	White	Female	Not Hispanic or Latino	2769433	participant	phs001713_107471	phs001713
+107488	White	Male	Not Hispanic or Latino	2769434	participant	phs001713_107488	phs001713
+107489	Asian	Female	Not Hispanic or Latino	2769435	participant	phs001713_107489	phs001713
+107491	White	Female	Not Hispanic or Latino	2769436	participant	phs001713_107491	phs001713
+107492	Black or African American	Male	Not Hispanic or Latino	2769437	participant	phs001713_107492	phs001713
+107493	White	Female	Not Hispanic or Latino	2769438	participant	phs001713_107493	phs001713
+107494	White	Male	Not Hispanic or Latino	2769439	participant	phs001713_107494	phs001713
+107509	Black or African American	Female	Not Hispanic or Latino	2769440	participant	phs001713_107509	phs001713
+107528	White	Female	Not Hispanic or Latino	2769441	participant	phs001713_107528	phs001713
+107548	White	Male	Not Hispanic or Latino	2769442	participant	phs001713_107548	phs001713
+107568	Unknown	Female	Not Hispanic or Latino	2769443	participant	phs001713_107568	phs001713
+107588	White	Female	Not Hispanic or Latino	2769444	participant	phs001713_107588	phs001713
+107628	White	Male	Not Hispanic or Latino	2769445	participant	phs001713_107628	phs001713
+107648	White	Female	Not Hispanic or Latino	2769446	participant	phs001713_107648	phs001713
+107649	Black or African American	Female	Not Hispanic or Latino	2769447	participant	phs001713_107649	phs001713
+107650	White	Male	Not Hispanic or Latino	2769448	participant	phs001713_107650	phs001713
+107668	White	Male	Not Hispanic or Latino	2769449	participant	phs001713_107668	phs001713
+107669	Black or African American	Female	Not Hispanic or Latino	2769450	participant	phs001713_107669	phs001713
+107670	White	Female	Not Hispanic or Latino	2769451	participant	phs001713_107670	phs001713
+107689	White	Male	Not Hispanic or Latino	2769452	participant	phs001713_107689	phs001713
+107691	White	Male	Not Hispanic or Latino	2769453	participant	phs001713_107691	phs001713
+107708	White	Female	Not Hispanic or Latino	2769454	participant	phs001713_107708	phs001713
+107729	White	Male	Not Hispanic or Latino	2769455	participant	phs001713_107729	phs001713
+107730	White	Female	Not Hispanic or Latino	2769456	participant	phs001713_107730	phs001713
+107731	White	Male	Not Hispanic or Latino	2769457	participant	phs001713_107731	phs001713
+107732	White	Male	Not Hispanic or Latino	2769458	participant	phs001713_107732	phs001713
+107733	White	Male	Not Hispanic or Latino	2769459	participant	phs001713_107733	phs001713
+107734	White	Female	Not Hispanic or Latino	2769460	participant	phs001713_107734	phs001713
+107748	White	Female	Not Hispanic or Latino	2769461	participant	phs001713_107748	phs001713
+107768	White	Male	Not Hispanic or Latino	2769462	participant	phs001713_107768	phs001713
+107788	White	Female	Not Hispanic or Latino	2769463	participant	phs001713_107788	phs001713
+107808	White	Male	Not Hispanic or Latino	2769464	participant	phs001713_107808	phs001713
+107848	White	Female	Not Hispanic or Latino	2769465	participant	phs001713_107848	phs001713
+107849	White	Female	Not Hispanic or Latino	2769466	participant	phs001713_107849	phs001713
+107868	White	Female	Not Hispanic or Latino	2769467	participant	phs001713_107868	phs001713
+107869	White	Female	Not Hispanic or Latino	2769468	participant	phs001713_107869	phs001713
+107908	White	Female	Not Hispanic or Latino	2769469	participant	phs001713_107908	phs001713
+107948	White	Female	Not Hispanic or Latino	2769470	participant	phs001713_107948	phs001713
+107968	Black or African American	Male	Not Hispanic or Latino	2769471	participant	phs001713_107968	phs001713
+107969	White	Female	Not Hispanic or Latino	2769472	participant	phs001713_107969	phs001713
+107970	White	Female	Not Hispanic or Latino	2769473	participant	phs001713_107970	phs001713
+107971	White	Female	Not Hispanic or Latino	2769474	participant	phs001713_107971	phs001713
+107988	White	Male	Not Hispanic or Latino	2769475	participant	phs001713_107988	phs001713
+108008	White	Male	Not Hispanic or Latino	2769476	participant	phs001713_108008	phs001713
+108028	Black or African American	Female	Not Hispanic or Latino	2769477	participant	phs001713_108028	phs001713
+108029	White	Female	Not Hispanic or Latino	2769478	participant	phs001713_108029	phs001713
+108030	White	Female	Not Hispanic or Latino	2769479	participant	phs001713_108030	phs001713
+108048	White	Female	Not Hispanic or Latino	2769480	participant	phs001713_108048	phs001713
+108088	Black or African American	Female	Not Hispanic or Latino	2769481	participant	phs001713_108088	phs001713
+108089	White	Female	Not Hispanic or Latino	2769482	participant	phs001713_108089	phs001713
+108108	White	Male	Not Hispanic or Latino	2769483	participant	phs001713_108108	phs001713
+108109	White	Male	Not Hispanic or Latino	2769484	participant	phs001713_108109	phs001713
+108128	White	Female	Not Hispanic or Latino	2769485	participant	phs001713_108128	phs001713
+108148	Black or African American	Male	Not Hispanic or Latino	2769486	participant	phs001713_108148	phs001713
+108149	White	Male	Not Hispanic or Latino	2769487	participant	phs001713_108149	phs001713
+108169	White	Female	Not Hispanic or Latino	2769488	participant	phs001713_108169	phs001713
+108170	White	Female	Not Hispanic or Latino	2769489	participant	phs001713_108170	phs001713
+108188	White	Female	Not Hispanic or Latino	2769490	participant	phs001713_108188	phs001713
+108208	White	Female	Not Hispanic or Latino	2769491	participant	phs001713_108208	phs001713
+108229	White	Female	Not Hispanic or Latino	2769492	participant	phs001713_108229	phs001713
+108248	White	Female	Not Hispanic or Latino	2769493	participant	phs001713_108248	phs001713
+108268	White	Female	Not Hispanic or Latino	2769494	participant	phs001713_108268	phs001713
+108288	Black or African American	Female	Not Hispanic or Latino	2769495	participant	phs001713_108288	phs001713
+108289	White	Female	Not Hispanic or Latino	2769496	participant	phs001713_108289	phs001713
+108308	White	Male	Not Hispanic or Latino	2769497	participant	phs001713_108308	phs001713
+108309	White	Male	Not Hispanic or Latino	2769498	participant	phs001713_108309	phs001713
+108310	White	Female	Not Hispanic or Latino	2769499	participant	phs001713_108310	phs001713
+108312	Unknown	Female	Not Hispanic or Latino	2769500	participant	phs001713_108312	phs001713
+108328	Black or African American	Female	Not Hispanic or Latino	2769501	participant	phs001713_108328	phs001713
+108329	Black or African American	Female	Not Hispanic or Latino	2769502	participant	phs001713_108329	phs001713
+108348	White	Male	Not Hispanic or Latino	2769503	participant	phs001713_108348	phs001713
+108368	Black or African American	Female	Not Hispanic or Latino	2769504	participant	phs001713_108368	phs001713
+108388	White	Female	Not Hispanic or Latino	2769505	participant	phs001713_108388	phs001713
+108408	Black or African American	Male	Not Hispanic or Latino	2769506	participant	phs001713_108408	phs001713
+108409	White	Male	Not Hispanic or Latino	2769507	participant	phs001713_108409	phs001713
+108410	White	Male	Not Hispanic or Latino	2769508	participant	phs001713_108410	phs001713
+108428	Black or African American	Male	Not Hispanic or Latino	2769509	participant	phs001713_108428	phs001713
+108429	White	Male	Not Hispanic or Latino	2769510	participant	phs001713_108429	phs001713
+108448	White	Female	Not Hispanic or Latino	2769511	participant	phs001713_108448	phs001713
+108449	Black or African American	Female	Not Hispanic or Latino	2769512	participant	phs001713_108449	phs001713
+108450	White	Female	Not Hispanic or Latino	2769513	participant	phs001713_108450	phs001713
+108468	White	Female	Not Hispanic or Latino	2769514	participant	phs001713_108468	phs001713
+108469	Black or African American	Female	Not Hispanic or Latino	2769515	participant	phs001713_108469	phs001713
+108471	White	Female	Not Hispanic or Latino	2769516	participant	phs001713_108471	phs001713
+108488	Black or African American	Male	Not Hispanic or Latino	2769517	participant	phs001713_108488	phs001713
+108490	Black or African American	Female	Not Hispanic or Latino	2769518	participant	phs001713_108490	phs001713
+108492	Unknown	Female	Not Hispanic or Latino	2769519	participant	phs001713_108492	phs001713
+108508	Unknown	Male	Hispanic or Latino	2769520	participant	phs001713_108508	phs001713
+108528	White	Male	Not Hispanic or Latino	2769521	participant	phs001713_108528	phs001713
+108529	White	Female	Not Hispanic or Latino	2769522	participant	phs001713_108529	phs001713
+108530	White	Male	Not Hispanic or Latino	2769523	participant	phs001713_108530	phs001713
+108532	White	Male	Not Hispanic or Latino	2769524	participant	phs001713_108532	phs001713
+108533	White	Male	Not Hispanic or Latino	2769525	participant	phs001713_108533	phs001713
+108550	White	Male	Not Hispanic or Latino	2769526	participant	phs001713_108550	phs001713
+108568	White	Female	Not Hispanic or Latino	2769527	participant	phs001713_108568	phs001713
+108569	White	Male	Not Hispanic or Latino	2769528	participant	phs001713_108569	phs001713
+108570	White	Female	Not Hispanic or Latino	2769529	participant	phs001713_108570	phs001713
+108571	White	Female	Not Hispanic or Latino	2769530	participant	phs001713_108571	phs001713
+108572	Black or African American	Female	Not Hispanic or Latino	2769531	participant	phs001713_108572	phs001713
+108573	Black or African American	Female	Not Hispanic or Latino	2769532	participant	phs001713_108573	phs001713
+108588	Unknown	Female	Hispanic or Latino	2769533	participant	phs001713_108588	phs001713
+108589	White	Female	Not Hispanic or Latino	2769534	participant	phs001713_108589	phs001713
+108591	White	Female	Not Hispanic or Latino	2769535	participant	phs001713_108591	phs001713
+108592	White	Female	Not Hispanic or Latino	2769536	participant	phs001713_108592	phs001713
+108609	White	Male	Not Hispanic or Latino	2769537	participant	phs001713_108609	phs001713
+108628	White	Female	Not Hispanic or Latino	2769538	participant	phs001713_108628	phs001713
+108648	White	Female	Not Hispanic or Latino	2769539	participant	phs001713_108648	phs001713
+108649	White	Female	Not Hispanic or Latino	2769540	participant	phs001713_108649	phs001713
+108650	White	Male	Not Hispanic or Latino	2769541	participant	phs001713_108650	phs001713
+108651	Black or African American	Male	Not Hispanic or Latino	2769542	participant	phs001713_108651	phs001713
+108669	White	Female	Not Hispanic or Latino	2769543	participant	phs001713_108669	phs001713
+108670	White	Male	Not Hispanic or Latino	2769544	participant	phs001713_108670	phs001713
+108688	Black or African American	Male	Not Hispanic or Latino	2769545	participant	phs001713_108688	phs001713
+108708	Asian	Female	Not Hispanic or Latino	2769546	participant	phs001713_108708	phs001713
+108728	White	Female	Not Hispanic or Latino	2769547	participant	phs001713_108728	phs001713
+108729	White	Male	Not Hispanic or Latino	2769548	participant	phs001713_108729	phs001713
+108748	White	Male	Not Hispanic or Latino	2769549	participant	phs001713_108748	phs001713
+108750	White	Female	Not Hispanic or Latino	2769550	participant	phs001713_108750	phs001713
+108751	White	Female	Not Hispanic or Latino	2769551	participant	phs001713_108751	phs001713
+108768	Black or African American	Female	Not Hispanic or Latino	2769552	participant	phs001713_108768	phs001713
+108769	Black or African American	Male	Not Hispanic or Latino	2769553	participant	phs001713_108769	phs001713
+108788	White	Female	Not Hispanic or Latino	2769554	participant	phs001713_108788	phs001713
+108808	White	Male	Not Hispanic or Latino	2769555	participant	phs001713_108808	phs001713
+108809	White	Male	Not Hispanic or Latino	2769556	participant	phs001713_108809	phs001713
+108828	White	Male	Not Hispanic or Latino	2769557	participant	phs001713_108828	phs001713
+108829	White	Female	Not Hispanic or Latino	2769558	participant	phs001713_108829	phs001713
+108848	White	Male	Not Hispanic or Latino	2769559	participant	phs001713_108848	phs001713
+108850	White	Male	Not Hispanic or Latino	2769560	participant	phs001713_108850	phs001713
+108908	Black or African American	Female	Not Hispanic or Latino	2769561	participant	phs001713_108908	phs001713
+108909	Unknown	Female	Hispanic or Latino	2769562	participant	phs001713_108909	phs001713
+108910	Black or African American	Male	Not Hispanic or Latino	2769563	participant	phs001713_108910	phs001713
+108928	Black or African American	Male	Not Hispanic or Latino	2769564	participant	phs001713_108928	phs001713
+108929	White	Female	Not Hispanic or Latino	2769565	participant	phs001713_108929	phs001713
+108948	White	Female	Not Hispanic or Latino	2769566	participant	phs001713_108948	phs001713
+108968	Black or African American	Female	Not Hispanic or Latino	2769567	participant	phs001713_108968	phs001713
+108969	White	Female	Not Hispanic or Latino	2769568	participant	phs001713_108969	phs001713
+108988	White	Female	Not Hispanic or Latino	2769569	participant	phs001713_108988	phs001713
+109028	Unknown	Male	Hispanic or Latino	2769570	participant	phs001713_109028	phs001713
+109048	White	Female	Not Hispanic or Latino	2769571	participant	phs001713_109048	phs001713
+109068	White	Male	Not Hispanic or Latino	2769572	participant	phs001713_109068	phs001713
+109088	Black or African American	Male	Not Hispanic or Latino	2769573	participant	phs001713_109088	phs001713
+109108	White	Female	Not Hispanic or Latino	2769574	participant	phs001713_109108	phs001713
+109128	White	Female	Not Hispanic or Latino	2769575	participant	phs001713_109128	phs001713
+109168	Black or African American	Female	Not Hispanic or Latino	2769576	participant	phs001713_109168	phs001713
+109188	Unknown	Male	Not Hispanic or Latino	2769577	participant	phs001713_109188	phs001713
+109189	Black or African American	Male	Not Hispanic or Latino	2769578	participant	phs001713_109189	phs001713
+109191	White	Female	Not Hispanic or Latino	2769579	participant	phs001713_109191	phs001713
+109208	White	Male	Not Hispanic or Latino	2769580	participant	phs001713_109208	phs001713
+109228	White	Female	Not Hispanic or Latino	2769581	participant	phs001713_109228	phs001713
+109230	White	Female	Not Hispanic or Latino	2769582	participant	phs001713_109230	phs001713
+109248	White	Female	Not Hispanic or Latino	2769583	participant	phs001713_109248	phs001713
+109249	White	Female	Not Hispanic or Latino	2769584	participant	phs001713_109249	phs001713
+109251	White	Male	Not Hispanic or Latino	2769585	participant	phs001713_109251	phs001713
+109268	White	Male	Not Hispanic or Latino	2769586	participant	phs001713_109268	phs001713
+109290	White	Female	Not Hispanic or Latino	2769587	participant	phs001713_109290	phs001713
+109308	Unknown	Female	Hispanic or Latino	2769588	participant	phs001713_109308	phs001713
+109348	White	Female	Not Hispanic or Latino	2769589	participant	phs001713_109348	phs001713
+109368	White	Female	Not Hispanic or Latino	2769590	participant	phs001713_109368	phs001713
+109369	White	Female	Not Hispanic or Latino	2769591	participant	phs001713_109369	phs001713
+109429	White	Female	Not Hispanic or Latino	2769592	participant	phs001713_109429	phs001713
+109448	Black or African American	Female	Not Hispanic or Latino	2769593	participant	phs001713_109448	phs001713
+109488	White	Male	Not Hispanic or Latino	2769594	participant	phs001713_109488	phs001713
+109508	White	Female	Not Hispanic or Latino	2769595	participant	phs001713_109508	phs001713
+109509	White	Female	Not Hispanic or Latino	2769596	participant	phs001713_109509	phs001713
+109510	White	Male	Not Hispanic or Latino	2769597	participant	phs001713_109510	phs001713
+109511	White	Male	Not Hispanic or Latino	2769598	participant	phs001713_109511	phs001713
+109512	White	Female	Not Hispanic or Latino	2769599	participant	phs001713_109512	phs001713
+109513	White	Male	Not Hispanic or Latino	2769600	participant	phs001713_109513	phs001713
+109529	Black or African American	Male	Not Hispanic or Latino	2769601	participant	phs001713_109529	phs001713
+109530	Black or African American	Female	Not Hispanic or Latino	2769602	participant	phs001713_109530	phs001713
+109548	White	Male	Not Hispanic or Latino	2769603	participant	phs001713_109548	phs001713
+109549	Black or African American	Female	Not Hispanic or Latino	2769604	participant	phs001713_109549	phs001713
+109550	Black or African American	Female	Not Hispanic or Latino	2769605	participant	phs001713_109550	phs001713
+109568	Black or African American	Female	Not Hispanic or Latino	2769606	participant	phs001713_109568	phs001713
+109569	White	Male	Not Hispanic or Latino	2769607	participant	phs001713_109569	phs001713
+109588	Unknown	Female	Hispanic or Latino	2769608	participant	phs001713_109588	phs001713
+109608	White	Male	Not Hispanic or Latino	2769609	participant	phs001713_109608	phs001713
+109609	White	Female	Not Hispanic or Latino	2769610	participant	phs001713_109609	phs001713
+109628	White	Female	Not Hispanic or Latino	2769611	participant	phs001713_109628	phs001713
+109648	Unknown	Female	Unknown	2769612	participant	phs001713_109648	phs001713
+109668	White	Male	Not Hispanic or Latino	2769613	participant	phs001713_109668	phs001713
+109688	Black or African American	Female	Not Hispanic or Latino	2769614	participant	phs001713_109688	phs001713
+109708	White	Female	Not Hispanic or Latino	2769615	participant	phs001713_109708	phs001713
+109728	White	Male	Not Hispanic or Latino	2769616	participant	phs001713_109728	phs001713
+109748	White	Female	Not Hispanic or Latino	2769617	participant	phs001713_109748	phs001713
+109749	Black or African American	Female	Not Hispanic or Latino	2769618	participant	phs001713_109749	phs001713
+109750	Black or African American	Female	Not Hispanic or Latino	2769619	participant	phs001713_109750	phs001713
+109768	White	Female	Not Hispanic or Latino	2769620	participant	phs001713_109768	phs001713
+109769	White	Female	Not Hispanic or Latino	2769621	participant	phs001713_109769	phs001713
+109808	White	Female	Not Hispanic or Latino	2769622	participant	phs001713_109808	phs001713
+109809	White	Female	Not Hispanic or Latino	2769623	participant	phs001713_109809	phs001713
+109828	Black or African American	Male	Not Hispanic or Latino	2769624	participant	phs001713_109828	phs001713
+109848	White	Male	Not Hispanic or Latino	2769625	participant	phs001713_109848	phs001713
+109849	White	Female	Not Hispanic or Latino	2769626	participant	phs001713_109849	phs001713
+109869	White	Female	Not Hispanic or Latino	2769627	participant	phs001713_109869	phs001713
+109888	Black or African American	Male	Not Hispanic or Latino	2769628	participant	phs001713_109888	phs001713
+109908	White	Female	Not Hispanic or Latino	2769629	participant	phs001713_109908	phs001713
+109909	Black or African American	Female	Not Hispanic or Latino	2769630	participant	phs001713_109909	phs001713
+109910	White	Male	Not Hispanic or Latino	2769631	participant	phs001713_109910	phs001713
+109911	Unknown	Male	Hispanic or Latino	2769632	participant	phs001713_109911	phs001713
+109912	White	Female	Not Hispanic or Latino	2769633	participant	phs001713_109912	phs001713
+109928	White	Female	Not Hispanic or Latino	2769634	participant	phs001713_109928	phs001713
+109929	Black or African American	Female	Not Hispanic or Latino	2769635	participant	phs001713_109929	phs001713
+109930	Unknown	Male	Not Hispanic or Latino	2769636	participant	phs001713_109930	phs001713
+109948	White	Female	Not Hispanic or Latino	2769637	participant	phs001713_109948	phs001713
+109949	White	Female	Not Hispanic or Latino	2769638	participant	phs001713_109949	phs001713
+109950	White	Female	Not Hispanic or Latino	2769639	participant	phs001713_109950	phs001713
+109951	White	Female	Not Hispanic or Latino	2769640	participant	phs001713_109951	phs001713
+109952	White	Female	Not Hispanic or Latino	2769641	participant	phs001713_109952	phs001713
+109953	White	Female	Not Hispanic or Latino	2769642	participant	phs001713_109953	phs001713
+109968	Unknown	Male	Not Hispanic or Latino	2769643	participant	phs001713_109968	phs001713
+109969	White	Female	Not Hispanic or Latino	2769644	participant	phs001713_109969	phs001713
+109989	White	Male	Not Hispanic or Latino	2769645	participant	phs001713_109989	phs001713
+110008	White	Female	Not Hispanic or Latino	2769646	participant	phs001713_110008	phs001713
+110028	White	Male	Not Hispanic or Latino	2769647	participant	phs001713_110028	phs001713
+110029	White	Male	Not Hispanic or Latino	2769648	participant	phs001713_110029	phs001713
+110030	White	Female	Not Hispanic or Latino	2769649	participant	phs001713_110030	phs001713
+110048	White	Male	Not Hispanic or Latino	2769650	participant	phs001713_110048	phs001713
+110068	White	Female	Not Hispanic or Latino	2769651	participant	phs001713_110068	phs001713
+110069	White	Female	Not Hispanic or Latino	2769652	participant	phs001713_110069	phs001713
+110088	Unknown	Male	Hispanic or Latino	2769653	participant	phs001713_110088	phs001713
+110090	White	Male	Not Hispanic or Latino	2769654	participant	phs001713_110090	phs001713
+110108	White	Female	Not Hispanic or Latino	2769655	participant	phs001713_110108	phs001713
+110109	White	Female	Not Hispanic or Latino	2769656	participant	phs001713_110109	phs001713
+110129	Unknown	Female	Hispanic or Latino	2769657	participant	phs001713_110129	phs001713
+110130	White	Male	Not Hispanic or Latino	2769658	participant	phs001713_110130	phs001713
+110131	White	Female	Not Hispanic or Latino	2769659	participant	phs001713_110131	phs001713
+110148	White	Male	Not Hispanic or Latino	2769660	participant	phs001713_110148	phs001713
+110149	Black or African American	Male	Not Hispanic or Latino	2769661	participant	phs001713_110149	phs001713
+110168	Black or African American	Female	Not Hispanic or Latino	2769662	participant	phs001713_110168	phs001713
+110188	White	Male	Not Hispanic or Latino	2769663	participant	phs001713_110188	phs001713
+110208	Black or African American	Male	Not Hispanic or Latino	2769664	participant	phs001713_110208	phs001713
+110228	White	Female	Not Hispanic or Latino	2769665	participant	phs001713_110228	phs001713
+110248	White	Female	Not Hispanic or Latino	2769666	participant	phs001713_110248	phs001713
+110249	White	Male	Not Hispanic or Latino	2769667	participant	phs001713_110249	phs001713
+110268	White	Female	Not Hispanic or Latino	2769668	participant	phs001713_110268	phs001713
+110288	Black or African American	Male	Not Hispanic or Latino	2769669	participant	phs001713_110288	phs001713
+110308	White	Female	Not Hispanic or Latino	2769670	participant	phs001713_110308	phs001713
+110348	Black or African American	Male	Not Hispanic or Latino	2769671	participant	phs001713_110348	phs001713
+110349	White	Female	Not Hispanic or Latino	2769672	participant	phs001713_110349	phs001713
+110350	White	Male	Not Hispanic or Latino	2769673	participant	phs001713_110350	phs001713
+110351	White	Male	Not Hispanic or Latino	2769674	participant	phs001713_110351	phs001713
+110368	White	Male	Not Hispanic or Latino	2769675	participant	phs001713_110368	phs001713
+110388	White	Male	Not Hispanic or Latino	2769676	participant	phs001713_110388	phs001713
+110389	White	Male	Not Hispanic or Latino	2769677	participant	phs001713_110389	phs001713
+110408	Black or African American	Male	Not Hispanic or Latino	2769678	participant	phs001713_110408	phs001713
+110409	White	Male	Not Hispanic or Latino	2769679	participant	phs001713_110409	phs001713
+110410	White	Female	Not Hispanic or Latino	2769680	participant	phs001713_110410	phs001713
+110411	White	Female	Not Hispanic or Latino	2769681	participant	phs001713_110411	phs001713
+110428	White	Male	Not Hispanic or Latino	2769682	participant	phs001713_110428	phs001713
+110429	Black or African American	Female	Not Hispanic or Latino	2769683	participant	phs001713_110429	phs001713
+110430	White	Female	Not Hispanic or Latino	2769684	participant	phs001713_110430	phs001713
+110448	White	Female	Not Hispanic or Latino	2769685	participant	phs001713_110448	phs001713
+110451	White	Male	Not Hispanic or Latino	2769686	participant	phs001713_110451	phs001713
+110453	White	Female	Not Hispanic or Latino	2769687	participant	phs001713_110453	phs001713
+110488	White	Female	Not Hispanic or Latino	2769688	participant	phs001713_110488	phs001713
+110508	White	Male	Not Hispanic or Latino	2769689	participant	phs001713_110508	phs001713
+110509	White	Female	Not Hispanic or Latino	2769690	participant	phs001713_110509	phs001713
+110510	White	Male	Not Hispanic or Latino	2769691	participant	phs001713_110510	phs001713
+110528	White	Male	Not Hispanic or Latino	2769692	participant	phs001713_110528	phs001713
+110548	Black or African American	Female	Not Hispanic or Latino	2769693	participant	phs001713_110548	phs001713
+110568	White	Male	Not Hispanic or Latino	2769694	participant	phs001713_110568	phs001713
+110569	White	Male	Not Hispanic or Latino	2769695	participant	phs001713_110569	phs001713
+110570	White	Male	Not Hispanic or Latino	2769696	participant	phs001713_110570	phs001713
+110588	White	Female	Not Hispanic or Latino	2769697	participant	phs001713_110588	phs001713
+110608	White	Male	Not Hispanic or Latino	2769698	participant	phs001713_110608	phs001713
+110628	White	Female	Not Hispanic or Latino	2769699	participant	phs001713_110628	phs001713
+110649	White	Male	Not Hispanic or Latino	2769700	participant	phs001713_110649	phs001713
+110668	White	Male	Not Hispanic or Latino	2769701	participant	phs001713_110668	phs001713
+110669	White	Female	Not Hispanic or Latino	2769702	participant	phs001713_110669	phs001713
+110670	Black or African American	Female	Not Hispanic or Latino	2769703	participant	phs001713_110670	phs001713
+110688	White	Male	Not Hispanic or Latino	2769704	participant	phs001713_110688	phs001713
+110708	White	Male	Not Hispanic or Latino	2769705	participant	phs001713_110708	phs001713
+110728	White	Male	Not Hispanic or Latino	2769706	participant	phs001713_110728	phs001713
+110748	Black or African American	Male	Not Hispanic or Latino	2769707	participant	phs001713_110748	phs001713
+110768	White	Male	Not Hispanic or Latino	2769708	participant	phs001713_110768	phs001713
+110789	White	Male	Not Hispanic or Latino	2769709	participant	phs001713_110789	phs001713
+110808	White	Male	Not Hispanic or Latino	2769710	participant	phs001713_110808	phs001713
+110828	White	Female	Not Hispanic or Latino	2769711	participant	phs001713_110828	phs001713
+110829	White	Female	Not Hispanic or Latino	2769712	participant	phs001713_110829	phs001713
+110830	Black or African American	Female	Not Hispanic or Latino	2769713	participant	phs001713_110830	phs001713
+110831	White	Female	Not Hispanic or Latino	2769714	participant	phs001713_110831	phs001713
+110832	White	Female	Not Hispanic or Latino	2769715	participant	phs001713_110832	phs001713
+110833	White	Male	Not Hispanic or Latino	2769716	participant	phs001713_110833	phs001713
+110848	White	Female	Not Hispanic or Latino	2769717	participant	phs001713_110848	phs001713
+110849	White	Male	Not Hispanic or Latino	2769718	participant	phs001713_110849	phs001713
+110868	White	Male	Not Hispanic or Latino	2769719	participant	phs001713_110868	phs001713
+110888	Black or African American	Female	Not Hispanic or Latino	2769720	participant	phs001713_110888	phs001713
+110889	White	Female	Not Hispanic or Latino	2769721	participant	phs001713_110889	phs001713
+110890	White	Female	Not Hispanic or Latino	2769722	participant	phs001713_110890	phs001713
+110928	Black or African American	Female	Not Hispanic or Latino	2769723	participant	phs001713_110928	phs001713
+110968	White	Female	Not Hispanic or Latino	2769724	participant	phs001713_110968	phs001713
+110988	Black or African American	Female	Not Hispanic or Latino	2769725	participant	phs001713_110988	phs001713
+111008	White	Male	Not Hispanic or Latino	2769726	participant	phs001713_111008	phs001713
+111009	White	Male	Not Hispanic or Latino	2769727	participant	phs001713_111009	phs001713
+111010	Black or African American	Female	Hispanic or Latino	2769728	participant	phs001713_111010	phs001713
+111011	White	Female	Not Hispanic or Latino	2769729	participant	phs001713_111011	phs001713
+111028	White	Female	Not Hispanic or Latino	2769730	participant	phs001713_111028	phs001713
+111068	White	Male	Not Hispanic or Latino	2769731	participant	phs001713_111068	phs001713
+111069	White	Female	Not Hispanic or Latino	2769732	participant	phs001713_111069	phs001713
+111072	Unknown	Female	Hispanic or Latino	2769733	participant	phs001713_111072	phs001713
+111088	White	Male	Not Hispanic or Latino	2769734	participant	phs001713_111088	phs001713
+111089	White	Female	Not Hispanic or Latino	2769735	participant	phs001713_111089	phs001713
+111108	White	Male	Not Hispanic or Latino	2769736	participant	phs001713_111108	phs001713
+111109	White	Female	Not Hispanic or Latino	2769737	participant	phs001713_111109	phs001713
+111110	White	Female	Not Hispanic or Latino	2769738	participant	phs001713_111110	phs001713
+111128	White	Female	Not Hispanic or Latino	2769739	participant	phs001713_111128	phs001713
+111129	White	Female	Not Hispanic or Latino	2769740	participant	phs001713_111129	phs001713
+111130	White	Female	Not Hispanic or Latino	2769741	participant	phs001713_111130	phs001713
+111149	White	Female	Not Hispanic or Latino	2769742	participant	phs001713_111149	phs001713
+111150	White	Female	Not Hispanic or Latino	2769743	participant	phs001713_111150	phs001713
+111168	White	Male	Not Hispanic or Latino	2769744	participant	phs001713_111168	phs001713
+111188	White	Male	Not Hispanic or Latino	2769745	participant	phs001713_111188	phs001713
+111189	White	Female	Not Hispanic or Latino	2769746	participant	phs001713_111189	phs001713
+111208	White	Male	Not Hispanic or Latino	2769747	participant	phs001713_111208	phs001713
+111209	White	Female	Not Hispanic or Latino	2769748	participant	phs001713_111209	phs001713
+111211	White	Male	Not Hispanic or Latino	2769749	participant	phs001713_111211	phs001713
+111228	White	Female	Not Hispanic or Latino	2769750	participant	phs001713_111228	phs001713
+111229	White	Male	Not Hispanic or Latino	2769751	participant	phs001713_111229	phs001713
+111230	White	Female	Not Hispanic or Latino	2769752	participant	phs001713_111230	phs001713
+111248	White	Female	Not Hispanic or Latino	2769753	participant	phs001713_111248	phs001713
+111268	White	Female	Not Hispanic or Latino	2769754	participant	phs001713_111268	phs001713
+111269	White	Male	Not Hispanic or Latino	2769755	participant	phs001713_111269	phs001713
+111288	Black or African American	Male	Not Hispanic or Latino	2769756	participant	phs001713_111288	phs001713
+111289	White	Female	Not Hispanic or Latino	2769757	participant	phs001713_111289	phs001713
+111309	Unknown	Female	Not Hispanic or Latino	2769758	participant	phs001713_111309	phs001713
+111328	White	Female	Not Hispanic or Latino	2769759	participant	phs001713_111328	phs001713
+111348	White	Female	Not Hispanic or Latino	2769760	participant	phs001713_111348	phs001713
+111368	White	Female	Not Hispanic or Latino	2769761	participant	phs001713_111368	phs001713
+111388	White	Male	Unknown	2769762	participant	phs001713_111388	phs001713
+111408	Black or African American	Female	Not Hispanic or Latino	2769763	participant	phs001713_111408	phs001713
+111428	White	Male	Not Hispanic or Latino	2769764	participant	phs001713_111428	phs001713
+111429	White	Male	Not Hispanic or Latino	2769765	participant	phs001713_111429	phs001713
+111430	White	Female	Not Hispanic or Latino	2769766	participant	phs001713_111430	phs001713
+111448	White	Female	Not Hispanic or Latino	2769767	participant	phs001713_111448	phs001713
+111468	White	Female	Not Hispanic or Latino	2769768	participant	phs001713_111468	phs001713
+111488	White	Female	Not Hispanic or Latino	2769769	participant	phs001713_111488	phs001713
+111508	Black or African American	Female	Not Hispanic or Latino	2769770	participant	phs001713_111508	phs001713
+111528	American Indian or Alaska Native	Male	Not Hispanic or Latino	2769771	participant	phs001713_111528	phs001713
+111549	Black or African American	Female	Not Hispanic or Latino	2769772	participant	phs001713_111549	phs001713
+111550	White	Male	Not Hispanic or Latino	2769773	participant	phs001713_111550	phs001713
+111568	White	Female	Not Hispanic or Latino	2769774	participant	phs001713_111568	phs001713
+111569	White	Male	Not Hispanic or Latino	2769775	participant	phs001713_111569	phs001713
+111570	White	Female	Not Hispanic or Latino	2769776	participant	phs001713_111570	phs001713
+111588	Unknown	Female	Unknown	2769777	participant	phs001713_111588	phs001713
+111608	Black or African American	Female	Not Hispanic or Latino	2769778	participant	phs001713_111608	phs001713
+111610	White	Female	Not Hispanic or Latino	2769779	participant	phs001713_111610	phs001713
+111628	White	Male	Not Hispanic or Latino	2769780	participant	phs001713_111628	phs001713
+111648	White	Female	Not Hispanic or Latino	2769781	participant	phs001713_111648	phs001713
+111649	White	Male	Not Hispanic or Latino	2769782	participant	phs001713_111649	phs001713
+111650	White	Female	Not Hispanic or Latino	2769783	participant	phs001713_111650	phs001713
+111654	Black or African American	Male	Not Hispanic or Latino	2769784	participant	phs001713_111654	phs001713
+111659	Black or African American	Female	Not Hispanic or Latino	2769785	participant	phs001713_111659	phs001713
+111669	White	Female	Not Hispanic or Latino	2769786	participant	phs001713_111669	phs001713
+111670	White	Female	Not Hispanic or Latino	2769787	participant	phs001713_111670	phs001713
+111671	White	Female	Not Hispanic or Latino	2769788	participant	phs001713_111671	phs001713
+111672	White	Female	Not Hispanic or Latino	2769789	participant	phs001713_111672	phs001713
+111676	White	Female	Not Hispanic or Latino	2769790	participant	phs001713_111676	phs001713
+111677	White	Female	Not Hispanic or Latino	2769791	participant	phs001713_111677	phs001713
+111678	White	Female	Not Hispanic or Latino	2769792	participant	phs001713_111678	phs001713
+111679	White	Female	Not Hispanic or Latino	2769793	participant	phs001713_111679	phs001713
+111708	White	Female	Not Hispanic or Latino	2769794	participant	phs001713_111708	phs001713
+111728	White	Female	Not Hispanic or Latino	2769795	participant	phs001713_111728	phs001713
+111748	White	Female	Not Hispanic or Latino	2769796	participant	phs001713_111748	phs001713
+111768	White	Female	Not Hispanic or Latino	2769797	participant	phs001713_111768	phs001713
+111808	White	Female	Not Hispanic or Latino	2769798	participant	phs001713_111808	phs001713
+111828	Black or African American	Female	Not Hispanic or Latino	2769799	participant	phs001713_111828	phs001713
+111848	White	Female	Not Hispanic or Latino	2769800	participant	phs001713_111848	phs001713
+111868	Unknown	Female	Hispanic or Latino	2769801	participant	phs001713_111868	phs001713
+111888	White	Female	Not Hispanic or Latino	2769802	participant	phs001713_111888	phs001713
+111908	White	Female	Not Hispanic or Latino	2769803	participant	phs001713_111908	phs001713
+111928	Unknown	Female	Not Hispanic or Latino	2769804	participant	phs001713_111928	phs001713
+111948	White	Female	Not Hispanic or Latino	2769805	participant	phs001713_111948	phs001713
+111968	White	Female	Not Hispanic or Latino	2769806	participant	phs001713_111968	phs001713
+111969	White	Female	Not Hispanic or Latino	2769807	participant	phs001713_111969	phs001713
+111970	White	Female	Not Hispanic or Latino	2769808	participant	phs001713_111970	phs001713
+111988	Unknown	Female	Hispanic or Latino	2769809	participant	phs001713_111988	phs001713
+112008	Black or African American	Male	Not Hispanic or Latino	2769810	participant	phs001713_112008	phs001713
+112028	Black or African American	Female	Not Hispanic or Latino	2769811	participant	phs001713_112028	phs001713
+112029	White	Female	Not Hispanic or Latino	2769812	participant	phs001713_112029	phs001713
+112030	White	Female	Not Hispanic or Latino	2769813	participant	phs001713_112030	phs001713
+112049	White	Female	Not Hispanic or Latino	2769814	participant	phs001713_112049	phs001713
+112050	White	Female	Not Hispanic or Latino	2769815	participant	phs001713_112050	phs001713
+112068	White	Female	Not Hispanic or Latino	2769816	participant	phs001713_112068	phs001713
+112069	White	Female	Not Hispanic or Latino	2769817	participant	phs001713_112069	phs001713
+112088	White	Female	Not Hispanic or Latino	2769818	participant	phs001713_112088	phs001713
+112128	White	Female	Not Hispanic or Latino	2769819	participant	phs001713_112128	phs001713
+112129	White	Female	Not Hispanic or Latino	2769820	participant	phs001713_112129	phs001713
+112148	White	Female	Not Hispanic or Latino	2769821	participant	phs001713_112148	phs001713
+112149	White	Female	Not Hispanic or Latino	2769822	participant	phs001713_112149	phs001713
+112168	Black or African American	Female	Not Hispanic or Latino	2769823	participant	phs001713_112168	phs001713
+112188	White	Female	Not Hispanic or Latino	2769824	participant	phs001713_112188	phs001713
+112190	Black or African American	Male	Not Hispanic or Latino	2769825	participant	phs001713_112190	phs001713
+112191	White	Male	Not Hispanic or Latino	2769826	participant	phs001713_112191	phs001713
+112208	White	Female	Not Hispanic or Latino	2769827	participant	phs001713_112208	phs001713
+112249	White	Male	Not Hispanic or Latino	2769828	participant	phs001713_112249	phs001713
+112269	White	Male	Not Hispanic or Latino	2769829	participant	phs001713_112269	phs001713
+112288	White	Male	Not Hispanic or Latino	2769830	participant	phs001713_112288	phs001713
+112289	White	Male	Not Hispanic or Latino	2769831	participant	phs001713_112289	phs001713
+112328	Unknown	Female	Unknown	2769832	participant	phs001713_112328	phs001713
+112348	White	Male	Not Hispanic or Latino	2769833	participant	phs001713_112348	phs001713
+112349	White	Male	Not Hispanic or Latino	2769834	participant	phs001713_112349	phs001713
+112368	White	Female	Not Hispanic or Latino	2769835	participant	phs001713_112368	phs001713
+112388	White	Male	Not Hispanic or Latino	2769836	participant	phs001713_112388	phs001713
+112389	White	Female	Not Hispanic or Latino	2769837	participant	phs001713_112389	phs001713
+112390	White	Female	Unknown	2769838	participant	phs001713_112390	phs001713
+112413	White	Male	Not Hispanic or Latino	2769839	participant	phs001713_112413	phs001713
+112448	White	Female	Not Hispanic or Latino	2769840	participant	phs001713_112448	phs001713
+112449	White	Female	Not Hispanic or Latino	2769841	participant	phs001713_112449	phs001713
+112450	White	Male	Not Hispanic or Latino	2769842	participant	phs001713_112450	phs001713
+112468	White	Female	Not Hispanic or Latino	2769843	participant	phs001713_112468	phs001713
+112488	White	Female	Not Hispanic or Latino	2769844	participant	phs001713_112488	phs001713
+112490	White	Female	Not Hispanic or Latino	2769845	participant	phs001713_112490	phs001713
+112491	White	Female	Not Hispanic or Latino	2769846	participant	phs001713_112491	phs001713
+112508	White	Female	Not Hispanic or Latino	2769847	participant	phs001713_112508	phs001713
+112528	White	Male	Not Hispanic or Latino	2769848	participant	phs001713_112528	phs001713
+112548	White	Female	Not Hispanic or Latino	2769849	participant	phs001713_112548	phs001713
+112568	White	Female	Not Hispanic or Latino	2769850	participant	phs001713_112568	phs001713
+112588	White	Female	Not Hispanic or Latino	2769851	participant	phs001713_112588	phs001713
+112589	White	Female	Not Hispanic or Latino	2769852	participant	phs001713_112589	phs001713
+112590	White	Male	Not Hispanic or Latino	2769853	participant	phs001713_112590	phs001713
+112591	Black or African American	Male	Not Hispanic or Latino	2769854	participant	phs001713_112591	phs001713
+112608	White	Female	Not Hispanic or Latino	2769855	participant	phs001713_112608	phs001713
+112629	White	Female	Not Hispanic or Latino	2769856	participant	phs001713_112629	phs001713
+112630	White	Female	Not Hispanic or Latino	2769857	participant	phs001713_112630	phs001713
+112631	White	Female	Not Hispanic or Latino	2769858	participant	phs001713_112631	phs001713
+112648	Unknown	Female	Unknown	2769859	participant	phs001713_112648	phs001713
+112668	White	Female	Not Hispanic or Latino	2769860	participant	phs001713_112668	phs001713
+112669	White	Female	Not Hispanic or Latino	2769861	participant	phs001713_112669	phs001713
+112708	White	Female	Not Hispanic or Latino	2769862	participant	phs001713_112708	phs001713
+112709	White	Female	Not Hispanic or Latino	2769863	participant	phs001713_112709	phs001713
+112728	White	Female	Not Hispanic or Latino	2769864	participant	phs001713_112728	phs001713
+112729	Black or African American	Female	Not Hispanic or Latino	2769865	participant	phs001713_112729	phs001713
+112730	Black or African American	Female	Not Hispanic or Latino	2769866	participant	phs001713_112730	phs001713
+112748	White	Male	Not Hispanic or Latino	2769867	participant	phs001713_112748	phs001713
+112768	White	Female	Not Hispanic or Latino	2769868	participant	phs001713_112768	phs001713
+112770	White	Male	Not Hispanic or Latino	2769869	participant	phs001713_112770	phs001713
+112788	White	Female	Not Hispanic or Latino	2769870	participant	phs001713_112788	phs001713
+112789	White	Male	Not Hispanic or Latino	2769871	participant	phs001713_112789	phs001713
+112808	Black or African American	Female	Not Hispanic or Latino	2769872	participant	phs001713_112808	phs001713
+112828	Unknown	Female	Unknown	2769873	participant	phs001713_112828	phs001713
+112848	Unknown	Female	Unknown	2769874	participant	phs001713_112848	phs001713
+112850	White	Male	Not Hispanic or Latino	2769875	participant	phs001713_112850	phs001713
+112868	White	Female	Not Hispanic or Latino	2769876	participant	phs001713_112868	phs001713
+112888	Black or African American	Female	Not Hispanic or Latino	2769877	participant	phs001713_112888	phs001713
+112908	White	Female	Not Hispanic or Latino	2769878	participant	phs001713_112908	phs001713
+112928	White	Female	Not Hispanic or Latino	2769879	participant	phs001713_112928	phs001713
+112948	White	Female	Not Hispanic or Latino	2769880	participant	phs001713_112948	phs001713
+112949	White	Female	Not Hispanic or Latino	2769881	participant	phs001713_112949	phs001713
+112950	White	Female	Not Hispanic or Latino	2769882	participant	phs001713_112950	phs001713
+112951	White	Female	Not Hispanic or Latino	2769883	participant	phs001713_112951	phs001713
+112988	White	Female	Not Hispanic or Latino	2769884	participant	phs001713_112988	phs001713
+113008	White	Male	Not Hispanic or Latino	2769885	participant	phs001713_113008	phs001713
+113028	White	Female	Not Hispanic or Latino	2769886	participant	phs001713_113028	phs001713
+113068	White	Female	Not Hispanic or Latino	2769887	participant	phs001713_113068	phs001713
+113108	Black or African American	Female	Not Hispanic or Latino	2769888	participant	phs001713_113108	phs001713
+113128	White	Male	Not Hispanic or Latino	2769889	participant	phs001713_113128	phs001713
+113168	White	Female	Not Hispanic or Latino	2769890	participant	phs001713_113168	phs001713
+113188	Black or African American	Female	Not Hispanic or Latino	2769891	participant	phs001713_113188	phs001713
+113208	White	Female	Not Hispanic or Latino	2769892	participant	phs001713_113208	phs001713
+113209	White	Female	Not Hispanic or Latino	2769893	participant	phs001713_113209	phs001713
+113228	Black or African American	Female	Not Hispanic or Latino	2769894	participant	phs001713_113228	phs001713
+113248	White	Male	Not Hispanic or Latino	2769895	participant	phs001713_113248	phs001713
+113249	White	Female	Not Hispanic or Latino	2769896	participant	phs001713_113249	phs001713
+113268	White	Male	Not Hispanic or Latino	2769897	participant	phs001713_113268	phs001713
+113269	Native Hawaiian or Other Pacific Islander	Female	Not Hispanic or Latino	2769898	participant	phs001713_113269	phs001713
+113270	White	Male	Not Hispanic or Latino	2769899	participant	phs001713_113270	phs001713
+113271	White	Female	Not Hispanic or Latino	2769900	participant	phs001713_113271	phs001713
+113272	Black or African American	Male	Not Hispanic or Latino	2769901	participant	phs001713_113272	phs001713
+113288	White	Female	Not Hispanic or Latino	2769902	participant	phs001713_113288	phs001713
+113308	Unknown	Female	Unknown	2769903	participant	phs001713_113308	phs001713
+113328	Black or African American	Female	Not Hispanic or Latino	2769904	participant	phs001713_113328	phs001713
+113329	White	Female	Not Hispanic or Latino	2769905	participant	phs001713_113329	phs001713
+113348	White	Female	Not Hispanic or Latino	2769906	participant	phs001713_113348	phs001713
+113368	White	Female	Not Hispanic or Latino	2769907	participant	phs001713_113368	phs001713
+113369	Black or African American	Male	Not Hispanic or Latino	2769908	participant	phs001713_113369	phs001713
+113388	White	Female	Not Hispanic or Latino	2769909	participant	phs001713_113388	phs001713
+113389	White	Female	Not Hispanic or Latino	2769910	participant	phs001713_113389	phs001713
+113408	White	Male	Not Hispanic or Latino	2769911	participant	phs001713_113408	phs001713
+113409	White	Female	Not Hispanic or Latino	2769912	participant	phs001713_113409	phs001713
+113429	White	Male	Not Hispanic or Latino	2769913	participant	phs001713_113429	phs001713
+113448	Black or African American	Male	Not Hispanic or Latino	2769914	participant	phs001713_113448	phs001713
+113468	White	Female	Not Hispanic or Latino	2769915	participant	phs001713_113468	phs001713
+113470	White	Female	Not Hispanic or Latino	2769916	participant	phs001713_113470	phs001713
+113471	White	Female	Not Hispanic or Latino	2769917	participant	phs001713_113471	phs001713
+113489	Black or African American	Female	Not Hispanic or Latino	2769918	participant	phs001713_113489	phs001713
+113490	White	Female	Not Hispanic or Latino	2769919	participant	phs001713_113490	phs001713
+113491	White	Male	Not Hispanic or Latino	2769920	participant	phs001713_113491	phs001713
+113508	White	Female	Not Hispanic or Latino	2769921	participant	phs001713_113508	phs001713
+113509	Black or African American	Male	Not Hispanic or Latino	2769922	participant	phs001713_113509	phs001713
+113510	White	Female	Not Hispanic or Latino	2769923	participant	phs001713_113510	phs001713
+113528	White	Female	Not Hispanic or Latino	2769924	participant	phs001713_113528	phs001713
+113548	White	Female	Not Hispanic or Latino	2769925	participant	phs001713_113548	phs001713
+113568	Black or African American	Male	Not Hispanic or Latino	2769926	participant	phs001713_113568	phs001713
+113588	White	Female	Not Hispanic or Latino	2769927	participant	phs001713_113588	phs001713
+113589	White	Female	Not Hispanic or Latino	2769928	participant	phs001713_113589	phs001713
+113608	Black or African American	Female	Not Hispanic or Latino	2769929	participant	phs001713_113608	phs001713
+113628	White	Male	Not Hispanic or Latino	2769930	participant	phs001713_113628	phs001713
+113648	White	Male	Not Hispanic or Latino	2769931	participant	phs001713_113648	phs001713
+113668	White	Female	Not Hispanic or Latino	2769932	participant	phs001713_113668	phs001713
+113669	White	Female	Not Hispanic or Latino	2769933	participant	phs001713_113669	phs001713
+113670	White	Male	Not Hispanic or Latino	2769934	participant	phs001713_113670	phs001713
+113709	White	Male	Not Hispanic or Latino	2769935	participant	phs001713_113709	phs001713
+113728	Asian	Male	Not Hispanic or Latino	2769936	participant	phs001713_113728	phs001713
+113729	White	Female	Not Hispanic or Latino	2769937	participant	phs001713_113729	phs001713
+113748	Unknown	Female	Hispanic or Latino	2769938	participant	phs001713_113748	phs001713
+113768	White	Female	Not Hispanic or Latino	2769939	participant	phs001713_113768	phs001713
+113788	White	Male	Not Hispanic or Latino	2769940	participant	phs001713_113788	phs001713
+113789	Unknown	Female	Hispanic or Latino	2769941	participant	phs001713_113789	phs001713
+113808	White	Male	Not Hispanic or Latino	2769942	participant	phs001713_113808	phs001713
+113809	White	Female	Not Hispanic or Latino	2769943	participant	phs001713_113809	phs001713
+113810	White	Male	Not Hispanic or Latino	2769944	participant	phs001713_113810	phs001713
+113829	Black or African American	Female	Not Hispanic or Latino	2769945	participant	phs001713_113829	phs001713
+113830	White	Male	Not Hispanic or Latino	2769946	participant	phs001713_113830	phs001713
+113848	White	Female	Not Hispanic or Latino	2769947	participant	phs001713_113848	phs001713
+113868	White	Female	Not Hispanic or Latino	2769948	participant	phs001713_113868	phs001713
+113888	White	Male	Not Hispanic or Latino	2769949	participant	phs001713_113888	phs001713
+113889	White	Female	Not Hispanic or Latino	2769950	participant	phs001713_113889	phs001713
+113890	Unknown	Female	Hispanic or Latino	2769951	participant	phs001713_113890	phs001713
+113908	Black or African American	Female	Not Hispanic or Latino	2769952	participant	phs001713_113908	phs001713
+113928	Black or African American	Female	Not Hispanic or Latino	2769953	participant	phs001713_113928	phs001713
+113929	White	Female	Not Hispanic or Latino	2769954	participant	phs001713_113929	phs001713
+113948	White	Female	Not Hispanic or Latino	2769955	participant	phs001713_113948	phs001713
+113968	White	Male	Not Hispanic or Latino	2769956	participant	phs001713_113968	phs001713
+113988	White	Female	Not Hispanic or Latino	2769957	participant	phs001713_113988	phs001713
+114008	White	Female	Not Hispanic or Latino	2769958	participant	phs001713_114008	phs001713
+114028	White	Female	Not Hispanic or Latino	2769959	participant	phs001713_114028	phs001713
+114048	Asian	Female	Not Hispanic or Latino	2769960	participant	phs001713_114048	phs001713
+114088	White	Female	Not Hispanic or Latino	2769961	participant	phs001713_114088	phs001713
+114108	White	Female	Not Hispanic or Latino	2769962	participant	phs001713_114108	phs001713
+114128	Black or African American	Male	Not Hispanic or Latino	2769963	participant	phs001713_114128	phs001713
+114129	White	Male	Not Hispanic or Latino	2769964	participant	phs001713_114129	phs001713
+114168	White	Male	Not Hispanic or Latino	2769965	participant	phs001713_114168	phs001713
+114188	White	Female	Not Hispanic or Latino	2769966	participant	phs001713_114188	phs001713
+114208	White	Male	Not Hispanic or Latino	2769967	participant	phs001713_114208	phs001713
+114209	White	Female	Not Hispanic or Latino	2769968	participant	phs001713_114209	phs001713
+114228	Unknown	Female	Hispanic or Latino	2769969	participant	phs001713_114228	phs001713
+114268	White	Female	Not Hispanic or Latino	2769970	participant	phs001713_114268	phs001713
+114289	White	Male	Not Hispanic or Latino	2769971	participant	phs001713_114289	phs001713
+114308	White	Female	Not Hispanic or Latino	2769972	participant	phs001713_114308	phs001713
+114309	Black or African American	Male	Not Hispanic or Latino	2769973	participant	phs001713_114309	phs001713
+114408	White	Female	Not Hispanic or Latino	2769974	participant	phs001713_114408	phs001713
+114428	Black or African American	Female	Not Hispanic or Latino	2769975	participant	phs001713_114428	phs001713
+114448	White	Male	Not Hispanic or Latino	2769976	participant	phs001713_114448	phs001713
+114468	Black or African American	Female	Not Hispanic or Latino	2769977	participant	phs001713_114468	phs001713
+114489	White	Female	Not Hispanic or Latino	2769978	participant	phs001713_114489	phs001713
+114508	Black or African American	Female	Not Hispanic or Latino	2769979	participant	phs001713_114508	phs001713
+114528	White	Female	Not Hispanic or Latino	2769980	participant	phs001713_114528	phs001713
+114548	White	Female	Not Hispanic or Latino	2769981	participant	phs001713_114548	phs001713
+114568	White	Female	Not Hispanic or Latino	2769982	participant	phs001713_114568	phs001713
+114588	White	Male	Not Hispanic or Latino	2769983	participant	phs001713_114588	phs001713
+114608	White	Female	Not Hispanic or Latino	2769984	participant	phs001713_114608	phs001713
+114668	White	Female	Not Hispanic or Latino	2769985	participant	phs001713_114668	phs001713
+114669	White	Female	Not Hispanic or Latino	2769986	participant	phs001713_114669	phs001713
+114688	White	Male	Not Hispanic or Latino	2769987	participant	phs001713_114688	phs001713
+114708	White	Female	Not Hispanic or Latino	2769988	participant	phs001713_114708	phs001713
+114729	White	Male	Not Hispanic or Latino	2769989	participant	phs001713_114729	phs001713
+114748	Black or African American	Female	Not Hispanic or Latino	2769990	participant	phs001713_114748	phs001713
+114749	White	Male	Not Hispanic or Latino	2769991	participant	phs001713_114749	phs001713
+114768	White	Female	Not Hispanic or Latino	2769992	participant	phs001713_114768	phs001713
+114769	Unknown	Female	Not Hispanic or Latino	2769993	participant	phs001713_114769	phs001713
+114788	White	Female	Not Hispanic or Latino	2769994	participant	phs001713_114788	phs001713
+114808	White	Male	Not Hispanic or Latino	2769995	participant	phs001713_114808	phs001713
+114809	White	Male	Not Hispanic or Latino	2769996	participant	phs001713_114809	phs001713
+114828	White	Male	Not Hispanic or Latino	2769997	participant	phs001713_114828	phs001713
+114848	White	Male	Not Hispanic or Latino	2769998	participant	phs001713_114848	phs001713
+114849	White	Female	Not Hispanic or Latino	2769999	participant	phs001713_114849	phs001713
+114868	Unknown	Male	Unknown	2770000	participant	phs001713_114868	phs001713
+114888	White	Male	Not Hispanic or Latino	2770001	participant	phs001713_114888	phs001713
+114889	White	Female	Not Hispanic or Latino	2770002	participant	phs001713_114889	phs001713
+114928	White	Male	Not Hispanic or Latino	2770003	participant	phs001713_114928	phs001713
+114929	White	Female	Not Hispanic or Latino	2770004	participant	phs001713_114929	phs001713
+114948	White	Male	Not Hispanic or Latino	2770005	participant	phs001713_114948	phs001713
+114968	Unknown	Male	Unknown	2770006	participant	phs001713_114968	phs001713
+114988	White	Female	Not Hispanic or Latino	2770007	participant	phs001713_114988	phs001713
+115008	White	Male	Not Hispanic or Latino	2770008	participant	phs001713_115008	phs001713
+115029	White	Male	Not Hispanic or Latino	2770009	participant	phs001713_115029	phs001713
+115048	White	Female	Not Hispanic or Latino	2770010	participant	phs001713_115048	phs001713
+115088	White	Male	Not Hispanic or Latino	2770011	participant	phs001713_115088	phs001713
+115090	White	Male	Not Hispanic or Latino	2770012	participant	phs001713_115090	phs001713
+115109	Black or African American	Female	Not Hispanic or Latino	2770013	participant	phs001713_115109	phs001713
+115128	White	Female	Not Hispanic or Latino	2770014	participant	phs001713_115128	phs001713
+115148	White	Female	Not Hispanic or Latino	2770015	participant	phs001713_115148	phs001713
+115168	White	Female	Not Hispanic or Latino	2770016	participant	phs001713_115168	phs001713
+115169	White	Male	Not Hispanic or Latino	2770017	participant	phs001713_115169	phs001713
+115170	White	Female	Not Hispanic or Latino	2770018	participant	phs001713_115170	phs001713
+115171	White	Female	Not Hispanic or Latino	2770019	participant	phs001713_115171	phs001713
+115188	White	Female	Not Hispanic or Latino	2770020	participant	phs001713_115188	phs001713
+115228	White	Female	Not Hispanic or Latino	2770021	participant	phs001713_115228	phs001713
+115248	Black or African American	Male	Not Hispanic or Latino	2770022	participant	phs001713_115248	phs001713
+115288	White	Female	Not Hispanic or Latino	2770023	participant	phs001713_115288	phs001713
+115289	White	Male	Not Hispanic or Latino	2770024	participant	phs001713_115289	phs001713
+115309	White	Female	Not Hispanic or Latino	2770025	participant	phs001713_115309	phs001713
+115328	White	Female	Not Hispanic or Latino	2770026	participant	phs001713_115328	phs001713
+115348	White	Female	Not Hispanic or Latino	2770027	participant	phs001713_115348	phs001713
+115368	Black or African American	Female	Not Hispanic or Latino	2770028	participant	phs001713_115368	phs001713
+115369	White	Female	Not Hispanic or Latino	2770029	participant	phs001713_115369	phs001713
+115388	White	Female	Not Hispanic or Latino	2770030	participant	phs001713_115388	phs001713
+115390	White	Female	Not Hispanic or Latino	2770031	participant	phs001713_115390	phs001713
+115408	Unknown	Female	Hispanic or Latino	2770032	participant	phs001713_115408	phs001713
+115428	White	Female	Not Hispanic or Latino	2770033	participant	phs001713_115428	phs001713
+115450	White	Male	Not Hispanic or Latino	2770034	participant	phs001713_115450	phs001713
+115451	White	Male	Not Hispanic or Latino	2770035	participant	phs001713_115451	phs001713
+115452	White	Female	Not Hispanic or Latino	2770036	participant	phs001713_115452	phs001713
+115468	Black or African American	Female	Not Hispanic or Latino	2770037	participant	phs001713_115468	phs001713
+115488	White	Male	Not Hispanic or Latino	2770038	participant	phs001713_115488	phs001713
+115508	White	Female	Not Hispanic or Latino	2770039	participant	phs001713_115508	phs001713
+115528	Unknown	Female	Hispanic or Latino	2770040	participant	phs001713_115528	phs001713
+115529	Black or African American	Female	Not Hispanic or Latino	2770041	participant	phs001713_115529	phs001713
+115548	White	Male	Not Hispanic or Latino	2770042	participant	phs001713_115548	phs001713
+115568	White	Male	Not Hispanic or Latino	2770043	participant	phs001713_115568	phs001713
+115569	Unknown	Male	Not Hispanic or Latino	2770044	participant	phs001713_115569	phs001713
+115570	White	Female	Unknown	2770045	participant	phs001713_115570	phs001713
+115588	White	Male	Not Hispanic or Latino	2770046	participant	phs001713_115588	phs001713
+115609	White	Female	Not Hispanic or Latino	2770047	participant	phs001713_115609	phs001713
+115611	White	Female	Not Hispanic or Latino	2770048	participant	phs001713_115611	phs001713
+115628	White	Male	Not Hispanic or Latino	2770049	participant	phs001713_115628	phs001713
+115668	White	Male	Not Hispanic or Latino	2770050	participant	phs001713_115668	phs001713
+115688	White	Male	Not Hispanic or Latino	2770051	participant	phs001713_115688	phs001713
+115708	White	Female	Not Hispanic or Latino	2770052	participant	phs001713_115708	phs001713
+115728	Black or African American	Female	Not Hispanic or Latino	2770053	participant	phs001713_115728	phs001713
+115729	Unknown	Male	Not Hispanic or Latino	2770054	participant	phs001713_115729	phs001713
+115748	White	Female	Not Hispanic or Latino	2770055	participant	phs001713_115748	phs001713
+115750	White	Female	Not Hispanic or Latino	2770056	participant	phs001713_115750	phs001713
+115788	White	Female	Not Hispanic or Latino	2770057	participant	phs001713_115788	phs001713
+115808	White	Female	Not Hispanic or Latino	2770058	participant	phs001713_115808	phs001713
+115809	White	Male	Not Hispanic or Latino	2770059	participant	phs001713_115809	phs001713
+115828	White	Female	Not Hispanic or Latino	2770060	participant	phs001713_115828	phs001713
+115848	White	Female	Not Hispanic or Latino	2770061	participant	phs001713_115848	phs001713
+115868	White	Female	Not Hispanic or Latino	2770062	participant	phs001713_115868	phs001713
+115888	White	Female	Not Hispanic or Latino	2770063	participant	phs001713_115888	phs001713
+115908	White	Female	Not Hispanic or Latino	2770064	participant	phs001713_115908	phs001713
+115948	White	Female	Not Hispanic or Latino	2770065	participant	phs001713_115948	phs001713
+115968	Asian	Male	Not Hispanic or Latino	2770066	participant	phs001713_115968	phs001713
+115988	White	Male	Not Hispanic or Latino	2770067	participant	phs001713_115988	phs001713
+116028	Unknown	Female	Not Hispanic or Latino	2770068	participant	phs001713_116028	phs001713
+116029	White	Female	Not Hispanic or Latino	2770069	participant	phs001713_116029	phs001713
+116030	White	Male	Not Hispanic or Latino	2770070	participant	phs001713_116030	phs001713
+116068	White	Male	Not Hispanic or Latino	2770071	participant	phs001713_116068	phs001713
+116069	White	Female	Not Hispanic or Latino	2770072	participant	phs001713_116069	phs001713
+116109	Black or African American	Male	Not Hispanic or Latino	2770073	participant	phs001713_116109	phs001713
+116128	Black or African American	Female	Not Hispanic or Latino	2770074	participant	phs001713_116128	phs001713
+116148	White	Female	Not Hispanic or Latino	2770075	participant	phs001713_116148	phs001713
+116168	White	Female	Not Hispanic or Latino	2770076	participant	phs001713_116168	phs001713
+116169	White	Male	Not Hispanic or Latino	2770077	participant	phs001713_116169	phs001713
+116170	White	Female	Not Hispanic or Latino	2770078	participant	phs001713_116170	phs001713
+116188	White	Female	Not Hispanic or Latino	2770079	participant	phs001713_116188	phs001713
+116248	White	Female	Not Hispanic or Latino	2770080	participant	phs001713_116248	phs001713
+116249	White	Female	Not Hispanic or Latino	2770081	participant	phs001713_116249	phs001713
+116251	White	Female	Not Hispanic or Latino	2770082	participant	phs001713_116251	phs001713
+116252	White	Male	Not Hispanic or Latino	2770083	participant	phs001713_116252	phs001713
+116253	Unknown	Female	Not Hispanic or Latino	2770084	participant	phs001713_116253	phs001713
+116254	White	Female	Not Hispanic or Latino	2770085	participant	phs001713_116254	phs001713
+116268	White	Female	Not Hispanic or Latino	2770086	participant	phs001713_116268	phs001713
+116269	White	Male	Not Hispanic or Latino	2770087	participant	phs001713_116269	phs001713
+116288	White	Male	Not Hispanic or Latino	2770088	participant	phs001713_116288	phs001713
+116308	White	Male	Not Hispanic or Latino	2770089	participant	phs001713_116308	phs001713
+116328	White	Female	Not Hispanic or Latino	2770090	participant	phs001713_116328	phs001713
+116329	White	Female	Not Hispanic or Latino	2770091	participant	phs001713_116329	phs001713
+116330	White	Female	Not Hispanic or Latino	2770092	participant	phs001713_116330	phs001713
+116348	Black or African American	Female	Not Hispanic or Latino	2770093	participant	phs001713_116348	phs001713
+116388	White	Female	Not Hispanic or Latino	2770094	participant	phs001713_116388	phs001713
+116408	White	Female	Not Hispanic or Latino	2770095	participant	phs001713_116408	phs001713
+116409	Black or African American	Male	Not Hispanic or Latino	2770096	participant	phs001713_116409	phs001713
+116428	Unknown	Female	Hispanic or Latino	2770097	participant	phs001713_116428	phs001713
+116448	White	Male	Not Hispanic or Latino	2770098	participant	phs001713_116448	phs001713
+116449	White	Male	Not Hispanic or Latino	2770099	participant	phs001713_116449	phs001713
+116450	Unknown	Female	Unknown	2770100	participant	phs001713_116450	phs001713
+116468	White	Male	Not Hispanic or Latino	2770101	participant	phs001713_116468	phs001713
+116469	White	Female	Not Hispanic or Latino	2770102	participant	phs001713_116469	phs001713
+116489	White	Female	Not Hispanic or Latino	2770103	participant	phs001713_116489	phs001713
+116508	White	Female	Not Hispanic or Latino	2770104	participant	phs001713_116508	phs001713
+116509	Black or African American	Female	Not Hispanic or Latino	2770105	participant	phs001713_116509	phs001713
+116528	American Indian or Alaska Native	Female	Not Hispanic or Latino	2770106	participant	phs001713_116528	phs001713
+116548	White	Male	Not Hispanic or Latino	2770107	participant	phs001713_116548	phs001713
+116549	White	Female	Not Hispanic or Latino	2770108	participant	phs001713_116549	phs001713
+116568	White	Female	Not Hispanic or Latino	2770109	participant	phs001713_116568	phs001713
+116588	White	Female	Not Hispanic or Latino	2770110	participant	phs001713_116588	phs001713
+116629	White	Female	Not Hispanic or Latino	2770111	participant	phs001713_116629	phs001713
+116630	White	Male	Not Hispanic or Latino	2770112	participant	phs001713_116630	phs001713
+116631	White	Male	Not Hispanic or Latino	2770113	participant	phs001713_116631	phs001713
+116648	White	Female	Not Hispanic or Latino	2770114	participant	phs001713_116648	phs001713
+116649	White	Male	Not Hispanic or Latino	2770115	participant	phs001713_116649	phs001713
+116668	Unknown	Female	Hispanic or Latino	2770116	participant	phs001713_116668	phs001713
+116688	White	Male	Not Hispanic or Latino	2770117	participant	phs001713_116688	phs001713
+116708	Black or African American	Female	Not Hispanic or Latino	2770118	participant	phs001713_116708	phs001713
+116709	Unknown	Male	Hispanic or Latino	2770119	participant	phs001713_116709	phs001713
+116710	Asian	Female	Not Hispanic or Latino	2770120	participant	phs001713_116710	phs001713
+116711	White	Female	Not Hispanic or Latino	2770121	participant	phs001713_116711	phs001713
+116712	White	Female	Not Hispanic or Latino	2770122	participant	phs001713_116712	phs001713
+116713	White	Female	Not Hispanic or Latino	2770123	participant	phs001713_116713	phs001713
+116714	White	Female	Not Hispanic or Latino	2770124	participant	phs001713_116714	phs001713
+116715	White	Female	Not Hispanic or Latino	2770125	participant	phs001713_116715	phs001713
+116716	American Indian or Alaska Native	Female	Not Hispanic or Latino	2770126	participant	phs001713_116716	phs001713
+116717	White	Female	Not Hispanic or Latino	2770127	participant	phs001713_116717	phs001713
+116728	Unknown	Male	Not Hispanic or Latino	2770128	participant	phs001713_116728	phs001713
+116748	White	Female	Not Hispanic or Latino	2770129	participant	phs001713_116748	phs001713
+116768	White	Male	Not Hispanic or Latino	2770130	participant	phs001713_116768	phs001713
+116771	Black or African American	Female	Not Hispanic or Latino	2770131	participant	phs001713_116771	phs001713
+116808	White	Male	Not Hispanic or Latino	2770132	participant	phs001713_116808	phs001713
+116809	White	Female	Not Hispanic or Latino	2770133	participant	phs001713_116809	phs001713
+116810	White	Male	Not Hispanic or Latino	2770134	participant	phs001713_116810	phs001713
+116828	White	Female	Not Hispanic or Latino	2770135	participant	phs001713_116828	phs001713
+116848	Black or African American	Female	Not Hispanic or Latino	2770136	participant	phs001713_116848	phs001713
+116849	White	Female	Not Hispanic or Latino	2770137	participant	phs001713_116849	phs001713
+116868	White	Female	Not Hispanic or Latino	2770138	participant	phs001713_116868	phs001713
+116888	White	Female	Not Hispanic or Latino	2770139	participant	phs001713_116888	phs001713
+116908	Black or African American	Male	Not Hispanic or Latino	2770140	participant	phs001713_116908	phs001713
+116909	White	Male	Not Hispanic or Latino	2770141	participant	phs001713_116909	phs001713
+116928	White	Male	Not Hispanic or Latino	2770142	participant	phs001713_116928	phs001713
+116930	White	Female	Not Hispanic or Latino	2770143	participant	phs001713_116930	phs001713
+116968	White	Male	Not Hispanic or Latino	2770144	participant	phs001713_116968	phs001713
+116989	Black or African American	Male	Not Hispanic or Latino	2770145	participant	phs001713_116989	phs001713
+116991	White	Female	Not Hispanic or Latino	2770146	participant	phs001713_116991	phs001713
+117048	Black or African American	Female	Not Hispanic or Latino	2770147	participant	phs001713_117048	phs001713
+117068	Black or African American	Female	Not Hispanic or Latino	2770148	participant	phs001713_117068	phs001713
+117069	White	Male	Not Hispanic or Latino	2770149	participant	phs001713_117069	phs001713
+117088	Unknown	Male	Unknown	2770150	participant	phs001713_117088	phs001713
+117108	White	Male	Not Hispanic or Latino	2770151	participant	phs001713_117108	phs001713
+117148	White	Female	Not Hispanic or Latino	2770152	participant	phs001713_117148	phs001713
+117149	Unknown	Male	Not Hispanic or Latino	2770153	participant	phs001713_117149	phs001713
+117168	White	Male	Not Hispanic or Latino	2770154	participant	phs001713_117168	phs001713
+117188	White	Male	Not Hispanic or Latino	2770155	participant	phs001713_117188	phs001713
+117190	White	Female	Not Hispanic or Latino	2770156	participant	phs001713_117190	phs001713
+117191	White	Male	Not Hispanic or Latino	2770157	participant	phs001713_117191	phs001713
+117209	Unknown	Female	Not Hispanic or Latino	2770158	participant	phs001713_117209	phs001713
+117212	White	Female	Not Hispanic or Latino	2770159	participant	phs001713_117212	phs001713
+117213	White	Female	Not Hispanic or Latino	2770160	participant	phs001713_117213	phs001713
+117228	White	Male	Not Hispanic or Latino	2770161	participant	phs001713_117228	phs001713
+117248	Black or African American	Female	Not Hispanic or Latino	2770162	participant	phs001713_117248	phs001713
+117249	White	Female	Not Hispanic or Latino	2770163	participant	phs001713_117249	phs001713
+117268	Unknown	Female	Unknown	2770164	participant	phs001713_117268	phs001713
+117308	White	Female	Not Hispanic or Latino	2770165	participant	phs001713_117308	phs001713
+117309	White	Female	Not Hispanic or Latino	2770166	participant	phs001713_117309	phs001713
+117328	Unknown	Female	Unknown	2770167	participant	phs001713_117328	phs001713
+117348	White	Male	Not Hispanic or Latino	2770168	participant	phs001713_117348	phs001713
+117368	Unknown	Female	Not Hispanic or Latino	2770169	participant	phs001713_117368	phs001713
+117389	White	Female	Not Hispanic or Latino	2770170	participant	phs001713_117389	phs001713
+117408	White	Female	Not Hispanic or Latino	2770171	participant	phs001713_117408	phs001713
+117428	White	Female	Not Hispanic or Latino	2770172	participant	phs001713_117428	phs001713
+117448	White	Male	Not Hispanic or Latino	2770173	participant	phs001713_117448	phs001713
+117469	White	Female	Not Hispanic or Latino	2770174	participant	phs001713_117469	phs001713
+117488	Unknown	Female	Unknown	2770175	participant	phs001713_117488	phs001713
+117508	White	Female	Not Hispanic or Latino	2770176	participant	phs001713_117508	phs001713
+117528	Black or African American	Female	Not Hispanic or Latino	2770177	participant	phs001713_117528	phs001713
+117548	White	Female	Not Hispanic or Latino	2770178	participant	phs001713_117548	phs001713
+117568	White	Female	Not Hispanic or Latino	2770179	participant	phs001713_117568	phs001713
+117588	Unknown	Female	Not Hispanic or Latino	2770180	participant	phs001713_117588	phs001713
+117589	Unknown	Female	Hispanic or Latino	2770181	participant	phs001713_117589	phs001713
+117608	White	Female	Not Hispanic or Latino	2770182	participant	phs001713_117608	phs001713
+117609	White	Female	Not Hispanic or Latino	2770183	participant	phs001713_117609	phs001713
+117629	White	Female	Not Hispanic or Latino	2770184	participant	phs001713_117629	phs001713
+117648	White	Female	Not Hispanic or Latino	2770185	participant	phs001713_117648	phs001713
+117668	White	Male	Not Hispanic or Latino	2770186	participant	phs001713_117668	phs001713
+117688	Unknown	Female	Hispanic or Latino	2770187	participant	phs001713_117688	phs001713
+117708	Black or African American	Female	Not Hispanic or Latino	2770188	participant	phs001713_117708	phs001713
+117728	White	Female	Not Hispanic or Latino	2770189	participant	phs001713_117728	phs001713
+117729	White	Male	Not Hispanic or Latino	2770190	participant	phs001713_117729	phs001713
+117730	White	Male	Not Hispanic or Latino	2770191	participant	phs001713_117730	phs001713
+117731	Unknown	Female	Not Hispanic or Latino	2770192	participant	phs001713_117731	phs001713
+117748	White	Male	Not Hispanic or Latino	2770193	participant	phs001713_117748	phs001713
+117768	White	Male	Not Hispanic or Latino	2770194	participant	phs001713_117768	phs001713
+117788	White	Female	Not Hispanic or Latino	2770195	participant	phs001713_117788	phs001713
+117789	White	Male	Not Hispanic or Latino	2770196	participant	phs001713_117789	phs001713
+117790	White	Male	Not Hispanic or Latino	2770197	participant	phs001713_117790	phs001713
+117808	White	Female	Not Hispanic or Latino	2770198	participant	phs001713_117808	phs001713
+117809	White	Male	Not Hispanic or Latino	2770199	participant	phs001713_117809	phs001713
+117810	Black or African American	Female	Not Hispanic or Latino	2770200	participant	phs001713_117810	phs001713
+117828	White	Male	Not Hispanic or Latino	2770201	participant	phs001713_117828	phs001713
+117848	White	Male	Not Hispanic or Latino	2770202	participant	phs001713_117848	phs001713
+117869	Black or African American	Male	Not Hispanic or Latino	2770203	participant	phs001713_117869	phs001713
+117908	White	Male	Not Hispanic or Latino	2770204	participant	phs001713_117908	phs001713
+117928	White	Female	Not Hispanic or Latino	2770205	participant	phs001713_117928	phs001713
+117930	American Indian or Alaska Native	Male	Not Hispanic or Latino	2770206	participant	phs001713_117930	phs001713
+117931	White	Male	Not Hispanic or Latino	2770207	participant	phs001713_117931	phs001713
+117968	White	Male	Not Hispanic or Latino	2770208	participant	phs001713_117968	phs001713
+117969	White	Female	Not Hispanic or Latino	2770209	participant	phs001713_117969	phs001713
+117990	White	Female	Not Hispanic or Latino	2770210	participant	phs001713_117990	phs001713
+118008	Black or African American	Female	Not Hispanic or Latino	2770211	participant	phs001713_118008	phs001713
+118009	White	Male	Not Hispanic or Latino	2770212	participant	phs001713_118009	phs001713
+118010	Unknown	Female	Unknown	2770213	participant	phs001713_118010	phs001713
+118013	White	Female	Not Hispanic or Latino	2770214	participant	phs001713_118013	phs001713
+118028	White	Female	Not Hispanic or Latino	2770215	participant	phs001713_118028	phs001713
+118068	Black or African American	Female	Not Hispanic or Latino	2770216	participant	phs001713_118068	phs001713
+118088	White	Male	Not Hispanic or Latino	2770217	participant	phs001713_118088	phs001713
+118108	White	Male	Not Hispanic or Latino	2770218	participant	phs001713_118108	phs001713
+118128	White	Male	Not Hispanic or Latino	2770219	participant	phs001713_118128	phs001713
+118148	Black or African American	Male	Not Hispanic or Latino	2770220	participant	phs001713_118148	phs001713
+118149	White	Female	Not Hispanic or Latino	2770221	participant	phs001713_118149	phs001713
+118150	White	Female	Not Hispanic or Latino	2770222	participant	phs001713_118150	phs001713
+118169	Unknown	Female	Unknown	2770223	participant	phs001713_118169	phs001713
+118208	White	Female	Not Hispanic or Latino	2770224	participant	phs001713_118208	phs001713
+118209	White	Female	Not Hispanic or Latino	2770225	participant	phs001713_118209	phs001713
+118210	White	Female	Not Hispanic or Latino	2770226	participant	phs001713_118210	phs001713
+118228	Unknown	Female	Not Hispanic or Latino	2770227	participant	phs001713_118228	phs001713
+118268	White	Female	Not Hispanic or Latino	2770228	participant	phs001713_118268	phs001713
+118349	White	Male	Not Hispanic or Latino	2770229	participant	phs001713_118349	phs001713
+118350	White	Female	Not Hispanic or Latino	2770230	participant	phs001713_118350	phs001713
+118408	White	Female	Not Hispanic or Latino	2770231	participant	phs001713_118408	phs001713
+118409	White	Male	Not Hispanic or Latino	2770232	participant	phs001713_118409	phs001713
+118410	Unknown	Male	Not Hispanic or Latino	2770233	participant	phs001713_118410	phs001713
+118411	Unknown	Male	Unknown	2770234	participant	phs001713_118411	phs001713
+118412	White	Male	Not Hispanic or Latino	2770235	participant	phs001713_118412	phs001713
+118413	White	Female	Not Hispanic or Latino	2770236	participant	phs001713_118413	phs001713
+118416	Black or African American	Female	Not Hispanic or Latino	2770237	participant	phs001713_118416	phs001713
+118417	Unknown	Female	Unknown	2770238	participant	phs001713_118417	phs001713
+118428	White	Female	Not Hispanic or Latino	2770239	participant	phs001713_118428	phs001713
+118429	Unknown	Female	Hispanic or Latino	2770240	participant	phs001713_118429	phs001713
+118430	White	Male	Not Hispanic or Latino	2770241	participant	phs001713_118430	phs001713
+118431	Unknown	Female	Not Hispanic or Latino	2770242	participant	phs001713_118431	phs001713
+118448	White	Male	Not Hispanic or Latino	2770243	participant	phs001713_118448	phs001713
+118468	Black or African American	Female	Not Hispanic or Latino	2770244	participant	phs001713_118468	phs001713
+118528	White	Male	Not Hispanic or Latino	2770245	participant	phs001713_118528	phs001713
+118588	White	Female	Not Hispanic or Latino	2770246	participant	phs001713_118588	phs001713
+118608	Asian	Female	Not Hispanic or Latino	2770247	participant	phs001713_118608	phs001713
+118688	American Indian or Alaska Native	Male	Not Hispanic or Latino	2770248	participant	phs001713_118688	phs001713
+118728	White	Male	Not Hispanic or Latino	2770249	participant	phs001713_118728	phs001713
+118729	White	Male	Not Hispanic or Latino	2770250	participant	phs001713_118729	phs001713
+118730	White	Male	Not Hispanic or Latino	2770251	participant	phs001713_118730	phs001713
+118731	White	Female	Not Hispanic or Latino	2770252	participant	phs001713_118731	phs001713
+118733	White	Male	Not Hispanic or Latino	2770253	participant	phs001713_118733	phs001713
+118734	White	Female	Not Hispanic or Latino	2770254	participant	phs001713_118734	phs001713
+118748	Unknown	Female	Hispanic or Latino	2770255	participant	phs001713_118748	phs001713
+118749	White	Female	Not Hispanic or Latino	2770256	participant	phs001713_118749	phs001713
+118788	Black or African American	Male	Not Hispanic or Latino	2770257	participant	phs001713_118788	phs001713
+118808	Black or African American	Female	Unknown	2770258	participant	phs001713_118808	phs001713
+118809	White	Female	Not Hispanic or Latino	2770259	participant	phs001713_118809	phs001713
+118828	Black or African American	Female	Not Hispanic or Latino	2770260	participant	phs001713_118828	phs001713
+118868	Black or African American	Female	Not Hispanic or Latino	2770261	participant	phs001713_118868	phs001713
+118888	White	Male	Not Hispanic or Latino	2770262	participant	phs001713_118888	phs001713
+118909	White	Male	Not Hispanic or Latino	2770263	participant	phs001713_118909	phs001713
+118928	Black or African American	Female	Not Hispanic or Latino	2770264	participant	phs001713_118928	phs001713
+118948	Unknown	Male	Not Hispanic or Latino	2770265	participant	phs001713_118948	phs001713
+118968	White	Male	Not Hispanic or Latino	2770266	participant	phs001713_118968	phs001713
+118969	Unknown	Male	Not Hispanic or Latino	2770267	participant	phs001713_118969	phs001713
+118988	White	Female	Not Hispanic or Latino	2770268	participant	phs001713_118988	phs001713
+119008	White	Male	Not Hispanic or Latino	2770269	participant	phs001713_119008	phs001713
+119028	White	Female	Not Hispanic or Latino	2770270	participant	phs001713_119028	phs001713
+119048	White	Female	Not Hispanic or Latino	2770271	participant	phs001713_119048	phs001713
+119049	Black or African American	Female	Not Hispanic or Latino	2770272	participant	phs001713_119049	phs001713
+119068	White	Female	Not Hispanic or Latino	2770273	participant	phs001713_119068	phs001713
+119088	White	Female	Not Hispanic or Latino	2770274	participant	phs001713_119088	phs001713
+119108	White	Female	Unknown	2770275	participant	phs001713_119108	phs001713
+119128	White	Female	Not Hispanic or Latino	2770276	participant	phs001713_119128	phs001713
+119148	White	Female	Not Hispanic or Latino	2770277	participant	phs001713_119148	phs001713
+119168	White	Female	Not Hispanic or Latino	2770278	participant	phs001713_119168	phs001713
+119188	White	Female	Not Hispanic or Latino	2770279	participant	phs001713_119188	phs001713
+119208	White	Male	Not Hispanic or Latino	2770280	participant	phs001713_119208	phs001713
+119248	White	Female	Not Hispanic or Latino	2770281	participant	phs001713_119248	phs001713
+119268	Black or African American	Male	Not Hispanic or Latino	2770282	participant	phs001713_119268	phs001713
+119288	White	Male	Not Hispanic or Latino	2770283	participant	phs001713_119288	phs001713
+119308	White	Female	Not Hispanic or Latino	2770284	participant	phs001713_119308	phs001713
+119348	Unknown	Female	Not Hispanic or Latino	2770285	participant	phs001713_119348	phs001713
+119368	White	Male	Not Hispanic or Latino	2770286	participant	phs001713_119368	phs001713
+119408	White	Male	Not Hispanic or Latino	2770287	participant	phs001713_119408	phs001713
+119409	White	Female	Not Hispanic or Latino	2770288	participant	phs001713_119409	phs001713
+119508	White	Female	Not Hispanic or Latino	2770289	participant	phs001713_119508	phs001713
+119528	White	Female	Not Hispanic or Latino	2770290	participant	phs001713_119528	phs001713
+119529	White	Male	Not Hispanic or Latino	2770291	participant	phs001713_119529	phs001713
+119548	White	Male	Not Hispanic or Latino	2770292	participant	phs001713_119548	phs001713
+119568	White	Male	Not Hispanic or Latino	2770293	participant	phs001713_119568	phs001713
+119569	White	Male	Not Hispanic or Latino	2770294	participant	phs001713_119569	phs001713
+119588	White	Male	Not Hispanic or Latino	2770295	participant	phs001713_119588	phs001713
+119608	White	Male	Not Hispanic or Latino	2770296	participant	phs001713_119608	phs001713
+119628	White	Male	Not Hispanic or Latino	2770297	participant	phs001713_119628	phs001713
+119648	White	Male	Not Hispanic or Latino	2770298	participant	phs001713_119648	phs001713
+119649	White	Female	Not Hispanic or Latino	2770299	participant	phs001713_119649	phs001713
+119668	White	Male	Not Hispanic or Latino	2770300	participant	phs001713_119668	phs001713
+119689	Unknown	Female	Hispanic or Latino	2770301	participant	phs001713_119689	phs001713
+119708	White	Male	Not Hispanic or Latino	2770302	participant	phs001713_119708	phs001713
+119748	Unknown	Female	Not Hispanic or Latino	2770303	participant	phs001713_119748	phs001713
+119768	White	Male	Not Hispanic or Latino	2770304	participant	phs001713_119768	phs001713
+119788	White	Female	Not Hispanic or Latino	2770305	participant	phs001713_119788	phs001713
+119828	White	Male	Not Hispanic or Latino	2770306	participant	phs001713_119828	phs001713
+119829	White	Male	Not Hispanic or Latino	2770307	participant	phs001713_119829	phs001713
+119848	Unknown	Male	Not Hispanic or Latino	2770308	participant	phs001713_119848	phs001713
+119868	Black or African American	Male	Not Hispanic or Latino	2770309	participant	phs001713_119868	phs001713
+119871	White	Male	Not Hispanic or Latino	2770310	participant	phs001713_119871	phs001713
+119888	White	Female	Not Hispanic or Latino	2770311	participant	phs001713_119888	phs001713
+119889	White	Female	Not Hispanic or Latino	2770312	participant	phs001713_119889	phs001713
+119890	White	Male	Not Hispanic or Latino	2770313	participant	phs001713_119890	phs001713
+119908	White	Female	Not Hispanic or Latino	2770314	participant	phs001713_119908	phs001713
+119909	Unknown	Male	Not Hispanic or Latino	2770315	participant	phs001713_119909	phs001713
+89125	White	Female	Not Hispanic or Latino	2770316	participant	phs001713_89125	phs001713
+89126	White	Female	Not Hispanic or Latino	2770317	participant	phs001713_89126	phs001713
+89129	White	Female	Not Hispanic or Latino	2770318	participant	phs001713_89129	phs001713
+89130	White	Female	Not Hispanic or Latino	2770319	participant	phs001713_89130	phs001713
+89133	White	Female	Not Hispanic or Latino	2770320	participant	phs001713_89133	phs001713
+89134	White	Female	Not Hispanic or Latino	2770321	participant	phs001713_89134	phs001713
+89136	White	Female	Not Hispanic or Latino	2770322	participant	phs001713_89136	phs001713
+89145	Black or African American	Female	Not Hispanic or Latino	2770323	participant	phs001713_89145	phs001713
+89165	White	Male	Not Hispanic or Latino	2770324	participant	phs001713_89165	phs001713
+89185	Black or African American	Female	Not Hispanic or Latino	2770325	participant	phs001713_89185	phs001713
+89186	Black or African American	Male	Not Hispanic or Latino	2770326	participant	phs001713_89186	phs001713
+89187	Black or African American	Male	Not Hispanic or Latino	2770327	participant	phs001713_89187	phs001713
+89225	White	Female	Not Hispanic or Latino	2770328	participant	phs001713_89225	phs001713
+89245	White	Female	Not Hispanic or Latino	2770329	participant	phs001713_89245	phs001713
+89247	Unknown	Male	Hispanic or Latino	2770330	participant	phs001713_89247	phs001713
+89285	White	Male	Not Hispanic or Latino	2770331	participant	phs001713_89285	phs001713
+89305	White	Male	Not Hispanic or Latino	2770332	participant	phs001713_89305	phs001713
+89346	White	Female	Not Hispanic or Latino	2770333	participant	phs001713_89346	phs001713
+89385	White	Male	Not Hispanic or Latino	2770334	participant	phs001713_89385	phs001713
+89406	White	Male	Not Hispanic or Latino	2770335	participant	phs001713_89406	phs001713
+89425	Unknown	Male	Hispanic or Latino	2770336	participant	phs001713_89425	phs001713
+89426	Black or African American	Female	Not Hispanic or Latino	2770337	participant	phs001713_89426	phs001713
+89445	White	Male	Not Hispanic or Latino	2770338	participant	phs001713_89445	phs001713
+89465	Unknown	Female	Unknown	2770339	participant	phs001713_89465	phs001713
+89485	White	Male	Not Hispanic or Latino	2770340	participant	phs001713_89485	phs001713
+89525	White	Female	Not Hispanic or Latino	2770341	participant	phs001713_89525	phs001713
+89545	White	Female	Not Hispanic or Latino	2770342	participant	phs001713_89545	phs001713
+89546	White	Female	Not Hispanic or Latino	2770343	participant	phs001713_89546	phs001713
+89605	White	Female	Not Hispanic or Latino	2770344	participant	phs001713_89605	phs001713
+89625	White	Female	Not Hispanic or Latino	2770345	participant	phs001713_89625	phs001713
+89646	White	Male	Not Hispanic or Latino	2770346	participant	phs001713_89646	phs001713
+89665	White	Female	Not Hispanic or Latino	2770347	participant	phs001713_89665	phs001713
+89685	Black or African American	Female	Not Hispanic or Latino	2770348	participant	phs001713_89685	phs001713
+89725	White	Male	Not Hispanic or Latino	2770349	participant	phs001713_89725	phs001713
+89726	Black or African American	Female	Not Hispanic or Latino	2770350	participant	phs001713_89726	phs001713
+89745	White	Male	Not Hispanic or Latino	2770351	participant	phs001713_89745	phs001713
+89785	White	Female	Not Hispanic or Latino	2770352	participant	phs001713_89785	phs001713
+89805	White	Male	Not Hispanic or Latino	2770353	participant	phs001713_89805	phs001713
+89806	White	Female	Not Hispanic or Latino	2770354	participant	phs001713_89806	phs001713
+89825	Black or African American	Male	Not Hispanic or Latino	2770355	participant	phs001713_89825	phs001713
+89845	White	Male	Not Hispanic or Latino	2770356	participant	phs001713_89845	phs001713
+89846	White	Male	Not Hispanic or Latino	2770357	participant	phs001713_89846	phs001713
+89865	White	Male	Not Hispanic or Latino	2770358	participant	phs001713_89865	phs001713
+89885	White	Male	Not Hispanic or Latino	2770359	participant	phs001713_89885	phs001713
+89925	White	Female	Not Hispanic or Latino	2770360	participant	phs001713_89925	phs001713
+89947	White	Male	Not Hispanic or Latino	2770361	participant	phs001713_89947	phs001713
+90045	White	Female	Not Hispanic or Latino	2770362	participant	phs001713_90045	phs001713
+90085	White	Female	Not Hispanic or Latino	2770363	participant	phs001713_90085	phs001713
+90105	White	Female	Not Hispanic or Latino	2770364	participant	phs001713_90105	phs001713
+90109	Black or African American	Male	Not Hispanic or Latino	2770365	participant	phs001713_90109	phs001713
+90145	White	Female	Not Hispanic or Latino	2770366	participant	phs001713_90145	phs001713
+90146	White	Female	Not Hispanic or Latino	2770367	participant	phs001713_90146	phs001713
+90165	Black or African American	Female	Not Hispanic or Latino	2770368	participant	phs001713_90165	phs001713
+90265	Black or African American	Female	Not Hispanic or Latino	2770369	participant	phs001713_90265	phs001713
+90266	White	Female	Not Hispanic or Latino	2770370	participant	phs001713_90266	phs001713
+90306	American Indian or Alaska Native	Male	Not Hispanic or Latino	2770371	participant	phs001713_90306	phs001713
+90325	White	Male	Not Hispanic or Latino	2770372	participant	phs001713_90325	phs001713
+90365	White	Female	Not Hispanic or Latino	2770373	participant	phs001713_90365	phs001713
+90366	White	Female	Not Hispanic or Latino	2770374	participant	phs001713_90366	phs001713
+90367	White	Male	Not Hispanic or Latino	2770375	participant	phs001713_90367	phs001713
+90385	White	Male	Not Hispanic or Latino	2770376	participant	phs001713_90385	phs001713
+90386	White	Male	Not Hispanic or Latino	2770377	participant	phs001713_90386	phs001713
+90426	White	Male	Not Hispanic or Latino	2770378	participant	phs001713_90426	phs001713
+90427	Black or African American	Male	Not Hispanic or Latino	2770379	participant	phs001713_90427	phs001713
+90428	White	Male	Not Hispanic or Latino	2770380	participant	phs001713_90428	phs001713
+90446	White	Female	Not Hispanic or Latino	2770381	participant	phs001713_90446	phs001713
+90465	White	Male	Not Hispanic or Latino	2770382	participant	phs001713_90465	phs001713
+90565	Black or African American	Female	Not Hispanic or Latino	2770383	participant	phs001713_90565	phs001713
+90605	Black or African American	Male	Not Hispanic or Latino	2770384	participant	phs001713_90605	phs001713
+90645	White	Male	Not Hispanic or Latino	2770385	participant	phs001713_90645	phs001713
+90685	White	Male	Not Hispanic or Latino	2770386	participant	phs001713_90685	phs001713
+90725	White	Male	Not Hispanic or Latino	2770387	participant	phs001713_90725	phs001713
+90745	White	Male	Not Hispanic or Latino	2770388	participant	phs001713_90745	phs001713
+90766	White	Male	Not Hispanic or Latino	2770389	participant	phs001713_90766	phs001713
+90785	White	Female	Not Hispanic or Latino	2770390	participant	phs001713_90785	phs001713
+90805	Black or African American	Female	Not Hispanic or Latino	2770391	participant	phs001713_90805	phs001713
+90885	White	Female	Not Hispanic or Latino	2770392	participant	phs001713_90885	phs001713
+90886	White	Male	Not Hispanic or Latino	2770393	participant	phs001713_90886	phs001713
+90945	White	Female	Not Hispanic or Latino	2770394	participant	phs001713_90945	phs001713
+90947	White	Female	Not Hispanic or Latino	2770395	participant	phs001713_90947	phs001713
+90986	Unknown	Female	Hispanic or Latino	2770396	participant	phs001713_90986	phs001713
+91005	White	Female	Not Hispanic or Latino	2770397	participant	phs001713_91005	phs001713
+91025	White	Female	Not Hispanic or Latino	2770398	participant	phs001713_91025	phs001713
+91026	Unknown	Male	Not Hispanic or Latino	2770399	participant	phs001713_91026	phs001713
+91045	White	Male	Not Hispanic or Latino	2770400	participant	phs001713_91045	phs001713
+91046	White	Male	Not Hispanic or Latino	2770401	participant	phs001713_91046	phs001713
+91085	Black or African American	Female	Not Hispanic or Latino	2770402	participant	phs001713_91085	phs001713
+91105	White	Male	Not Hispanic or Latino	2770403	participant	phs001713_91105	phs001713
+91126	Asian	Male	Not Hispanic or Latino	2770404	participant	phs001713_91126	phs001713
+91166	White	Male	Not Hispanic or Latino	2770405	participant	phs001713_91166	phs001713
+91185	White	Male	Not Hispanic or Latino	2770406	participant	phs001713_91185	phs001713
+91207	Black or African American	Female	Not Hispanic or Latino	2770407	participant	phs001713_91207	phs001713
+91226	Black or African American	Female	Not Hispanic or Latino	2770408	participant	phs001713_91226	phs001713
+91245	White	Male	Not Hispanic or Latino	2770409	participant	phs001713_91245	phs001713
+91267	White	Male	Not Hispanic or Latino	2770410	participant	phs001713_91267	phs001713
+91285	White	Female	Not Hispanic or Latino	2770411	participant	phs001713_91285	phs001713
+91306	Black or African American	Male	Not Hispanic or Latino	2770412	participant	phs001713_91306	phs001713
+91326	White	Female	Not Hispanic or Latino	2770413	participant	phs001713_91326	phs001713
+91327	Black or African American	Female	Not Hispanic or Latino	2770414	participant	phs001713_91327	phs001713
+91345	White	Female	Not Hispanic or Latino	2770415	participant	phs001713_91345	phs001713
+91346	White	Female	Not Hispanic or Latino	2770416	participant	phs001713_91346	phs001713
+91386	White	Male	Not Hispanic or Latino	2770418	participant	phs001713_91386	phs001713
+91387	White	Female	Not Hispanic or Latino	2770419	participant	phs001713_91387	phs001713
+91405	White	Female	Not Hispanic or Latino	2770420	participant	phs001713_91405	phs001713
+91425	White	Female	Not Hispanic or Latino	2770421	participant	phs001713_91425	phs001713
+91445	White	Female	Not Hispanic or Latino	2770422	participant	phs001713_91445	phs001713
+91447	White	Male	Not Hispanic or Latino	2770423	participant	phs001713_91447	phs001713
+91448	White	Female	Not Hispanic or Latino	2770424	participant	phs001713_91448	phs001713
+91465	White	Female	Not Hispanic or Latino	2770425	participant	phs001713_91465	phs001713
+91506	White	Female	Not Hispanic or Latino	2770426	participant	phs001713_91506	phs001713
+91545	White	Male	Not Hispanic or Latino	2770427	participant	phs001713_91545	phs001713
+91546	White	Female	Not Hispanic or Latino	2770428	participant	phs001713_91546	phs001713
+91547	White	Male	Not Hispanic or Latino	2770429	participant	phs001713_91547	phs001713
+91548	White	Female	Not Hispanic or Latino	2770430	participant	phs001713_91548	phs001713
+91549	Black or African American	Female	Not Hispanic or Latino	2770431	participant	phs001713_91549	phs001713
+91551	White	Male	Not Hispanic or Latino	2770432	participant	phs001713_91551	phs001713
+91552	White	Female	Not Hispanic or Latino	2770433	participant	phs001713_91552	phs001713
+91553	Black or African American	Male	Not Hispanic or Latino	2770434	participant	phs001713_91553	phs001713
+91554	White	Male	Not Hispanic or Latino	2770435	participant	phs001713_91554	phs001713
+91568	Black or African American	Female	Not Hispanic or Latino	2770436	participant	phs001713_91568	phs001713
+91589	Black or African American	Female	Not Hispanic or Latino	2770437	participant	phs001713_91589	phs001713
+91590	White	Female	Not Hispanic or Latino	2770438	participant	phs001713_91590	phs001713
+91591	White	Male	Not Hispanic or Latino	2770439	participant	phs001713_91591	phs001713
+91592	White	Female	Not Hispanic or Latino	2770440	participant	phs001713_91592	phs001713
+91608	White	Male	Not Hispanic or Latino	2770441	participant	phs001713_91608	phs001713
+91609	White	Male	Not Hispanic or Latino	2770442	participant	phs001713_91609	phs001713
+91610	Asian	Male	Not Hispanic or Latino	2770443	participant	phs001713_91610	phs001713
+91611	White	Male	Not Hispanic or Latino	2770444	participant	phs001713_91611	phs001713
+91612	Black or African American	Male	Not Hispanic or Latino	2770445	participant	phs001713_91612	phs001713
+91628	White	Female	Not Hispanic or Latino	2770446	participant	phs001713_91628	phs001713
+91648	White	Male	Not Hispanic or Latino	2770447	participant	phs001713_91648	phs001713
+91668	White	Female	Not Hispanic or Latino	2770448	participant	phs001713_91668	phs001713
+91688	White	Female	Not Hispanic or Latino	2770449	participant	phs001713_91688	phs001713
+91768	White	Female	Not Hispanic or Latino	2770450	participant	phs001713_91768	phs001713
+91769	White	Female	Not Hispanic or Latino	2770451	participant	phs001713_91769	phs001713
+91789	White	Male	Not Hispanic or Latino	2770452	participant	phs001713_91789	phs001713
+91790	White	Female	Not Hispanic or Latino	2770453	participant	phs001713_91790	phs001713
+91828	White	Male	Not Hispanic or Latino	2770454	participant	phs001713_91828	phs001713
+91830	White	Male	Not Hispanic or Latino	2770455	participant	phs001713_91830	phs001713
+91848	White	Male	Not Hispanic or Latino	2770456	participant	phs001713_91848	phs001713
+91868	White	Male	Not Hispanic or Latino	2770457	participant	phs001713_91868	phs001713
+91888	White	Female	Not Hispanic or Latino	2770458	participant	phs001713_91888	phs001713
+91908	White	Female	Not Hispanic or Latino	2770459	participant	phs001713_91908	phs001713
+91910	White	Male	Not Hispanic or Latino	2770460	participant	phs001713_91910	phs001713
+91913	White	Female	Not Hispanic or Latino	2770461	participant	phs001713_91913	phs001713
+91914	White	Female	Not Hispanic or Latino	2770462	participant	phs001713_91914	phs001713
+91929	White	Female	Not Hispanic or Latino	2770463	participant	phs001713_91929	phs001713
+91930	Black or African American	Male	Not Hispanic or Latino	2770464	participant	phs001713_91930	phs001713
+91948	White	Male	Not Hispanic or Latino	2770465	participant	phs001713_91948	phs001713
+91949	White	Female	Not Hispanic or Latino	2770466	participant	phs001713_91949	phs001713
+91952	White	Female	Not Hispanic or Latino	2770467	participant	phs001713_91952	phs001713
+91968	White	Female	Not Hispanic or Latino	2770468	participant	phs001713_91968	phs001713
+91988	White	Female	Not Hispanic or Latino	2770469	participant	phs001713_91988	phs001713
+92008	White	Male	Not Hispanic or Latino	2770470	participant	phs001713_92008	phs001713
+92049	White	Male	Not Hispanic or Latino	2770471	participant	phs001713_92049	phs001713
+92050	White	Female	Not Hispanic or Latino	2770472	participant	phs001713_92050	phs001713
+92068	Asian	Female	Not Hispanic or Latino	2770473	participant	phs001713_92068	phs001713
+92088	White	Male	Not Hispanic or Latino	2770474	participant	phs001713_92088	phs001713
+92089	White	Male	Not Hispanic or Latino	2770475	participant	phs001713_92089	phs001713
+92090	White	Female	Not Hispanic or Latino	2770476	participant	phs001713_92090	phs001713
+92108	White	Male	Not Hispanic or Latino	2770477	participant	phs001713_92108	phs001713
+92128	White	Female	Not Hispanic or Latino	2770478	participant	phs001713_92128	phs001713
+92148	White	Male	Not Hispanic or Latino	2770479	participant	phs001713_92148	phs001713
+92168	White	Female	Not Hispanic or Latino	2770480	participant	phs001713_92168	phs001713
+92189	Black or African American	Female	Not Hispanic or Latino	2770481	participant	phs001713_92189	phs001713
+92191	White	Male	Not Hispanic or Latino	2770482	participant	phs001713_92191	phs001713
+92193	White	Female	Not Hispanic or Latino	2770483	participant	phs001713_92193	phs001713
+92194	Unknown	Female	Hispanic or Latino	2770484	participant	phs001713_92194	phs001713
+92228	Black or African American	Female	Not Hispanic or Latino	2770485	participant	phs001713_92228	phs001713
+92248	White	Male	Not Hispanic or Latino	2770486	participant	phs001713_92248	phs001713
+92289	White	Female	Not Hispanic or Latino	2770487	participant	phs001713_92289	phs001713
+92308	Asian	Female	Not Hispanic or Latino	2770488	participant	phs001713_92308	phs001713
+92328	White	Female	Not Hispanic or Latino	2770489	participant	phs001713_92328	phs001713
+92348	Unknown	Female	Not Hispanic or Latino	2770490	participant	phs001713_92348	phs001713
+92368	White	Male	Not Hispanic or Latino	2770491	participant	phs001713_92368	phs001713
+92408	Black or African American	Male	Not Hispanic or Latino	2770492	participant	phs001713_92408	phs001713
+92449	White	Female	Not Hispanic or Latino	2770493	participant	phs001713_92449	phs001713
+92488	White	Male	Not Hispanic or Latino	2770494	participant	phs001713_92488	phs001713
+92528	Asian	Male	Not Hispanic or Latino	2770495	participant	phs001713_92528	phs001713
+92548	White	Female	Not Hispanic or Latino	2770496	participant	phs001713_92548	phs001713
+92549	White	Male	Not Hispanic or Latino	2770497	participant	phs001713_92549	phs001713
+92568	Black or African American	Female	Not Hispanic or Latino	2770498	participant	phs001713_92568	phs001713
+92588	White	Female	Not Hispanic or Latino	2770499	participant	phs001713_92588	phs001713
+92608	White	Female	Not Hispanic or Latino	2770500	participant	phs001713_92608	phs001713
+92609	White	Male	Not Hispanic or Latino	2770501	participant	phs001713_92609	phs001713
+92628	White	Female	Not Hispanic or Latino	2770502	participant	phs001713_92628	phs001713
+92649	Unknown	Male	Hispanic or Latino	2770503	participant	phs001713_92649	phs001713
+92650	White	Female	Not Hispanic or Latino	2770504	participant	phs001713_92650	phs001713
+92688	White	Male	Not Hispanic or Latino	2770505	participant	phs001713_92688	phs001713
+92689	White	Female	Not Hispanic or Latino	2770506	participant	phs001713_92689	phs001713
+92709	White	Male	Not Hispanic or Latino	2770507	participant	phs001713_92709	phs001713
+92728	White	Male	Not Hispanic or Latino	2770508	participant	phs001713_92728	phs001713
+92768	White	Female	Not Hispanic or Latino	2770509	participant	phs001713_92768	phs001713
+92788	White	Female	Not Hispanic or Latino	2770510	participant	phs001713_92788	phs001713
+92789	White	Female	Not Hispanic or Latino	2770511	participant	phs001713_92789	phs001713
+92792	White	Female	Not Hispanic or Latino	2770512	participant	phs001713_92792	phs001713
+92808	White	Male	Not Hispanic or Latino	2770513	participant	phs001713_92808	phs001713
+92828	White	Male	Not Hispanic or Latino	2770514	participant	phs001713_92828	phs001713
+92848	White	Female	Not Hispanic or Latino	2770515	participant	phs001713_92848	phs001713
+92868	White	Female	Not Hispanic or Latino	2770516	participant	phs001713_92868	phs001713
+92888	White	Female	Not Hispanic or Latino	2770517	participant	phs001713_92888	phs001713
+92889	White	Female	Not Hispanic or Latino	2770518	participant	phs001713_92889	phs001713
+92890	Black or African American	Female	Not Hispanic or Latino	2770519	participant	phs001713_92890	phs001713
+92891	White	Female	Not Hispanic or Latino	2770520	participant	phs001713_92891	phs001713
+92908	White	Male	Not Hispanic or Latino	2770521	participant	phs001713_92908	phs001713
+92968	Black or African American	Male	Not Hispanic or Latino	2770522	participant	phs001713_92968	phs001713
+92988	White	Female	Not Hispanic or Latino	2770523	participant	phs001713_92988	phs001713
+93029	Black or African American	Female	Not Hispanic or Latino	2770524	participant	phs001713_93029	phs001713
+93050	White	Female	Not Hispanic or Latino	2770525	participant	phs001713_93050	phs001713
+93053	White	Female	Not Hispanic or Latino	2770526	participant	phs001713_93053	phs001713
+93055	Unknown	Female	Hispanic or Latino	2770527	participant	phs001713_93055	phs001713
+93056	White	Male	Not Hispanic or Latino	2770528	participant	phs001713_93056	phs001713
+93057	White	Male	Not Hispanic or Latino	2770529	participant	phs001713_93057	phs001713
+93058	White	Female	Not Hispanic or Latino	2770530	participant	phs001713_93058	phs001713
+93059	White	Male	Not Hispanic or Latino	2770531	participant	phs001713_93059	phs001713
+93062	White	Female	Not Hispanic or Latino	2770532	participant	phs001713_93062	phs001713
+93063	White	Female	Not Hispanic or Latino	2770533	participant	phs001713_93063	phs001713
+93064	White	Female	Not Hispanic or Latino	2770534	participant	phs001713_93064	phs001713
+93068	White	Female	Not Hispanic or Latino	2770535	participant	phs001713_93068	phs001713
+93108	Black or African American	Female	Not Hispanic or Latino	2770536	participant	phs001713_93108	phs001713
+93128	White	Male	Not Hispanic or Latino	2770537	participant	phs001713_93128	phs001713
+93148	White	Male	Not Hispanic or Latino	2770538	participant	phs001713_93148	phs001713
+93171	American Indian or Alaska Native	Female	Not Hispanic or Latino	2770539	participant	phs001713_93171	phs001713
+93173	White	Female	Not Hispanic or Latino	2770540	participant	phs001713_93173	phs001713
+93188	White	Female	Not Hispanic or Latino	2770541	participant	phs001713_93188	phs001713
+93189	White	Female	Not Hispanic or Latino	2770542	participant	phs001713_93189	phs001713
+93190	White	Male	Not Hispanic or Latino	2770543	participant	phs001713_93190	phs001713
+93191	White	Female	Not Hispanic or Latino	2770544	participant	phs001713_93191	phs001713
+93248	White	Female	Not Hispanic or Latino	2770545	participant	phs001713_93248	phs001713
+93249	White	Male	Not Hispanic or Latino	2770546	participant	phs001713_93249	phs001713
+93251	White	Male	Not Hispanic or Latino	2770547	participant	phs001713_93251	phs001713
+93252	Black or African American	Male	Not Hispanic or Latino	2770548	participant	phs001713_93252	phs001713
+93289	Black or African American	Female	Not Hispanic or Latino	2770549	participant	phs001713_93289	phs001713
+93308	White	Female	Not Hispanic or Latino	2770550	participant	phs001713_93308	phs001713
+93368	White	Female	Not Hispanic or Latino	2770551	participant	phs001713_93368	phs001713
+93388	White	Male	Not Hispanic or Latino	2770552	participant	phs001713_93388	phs001713
+93389	White	Male	Not Hispanic or Latino	2770553	participant	phs001713_93389	phs001713
+93428	White	Female	Not Hispanic or Latino	2770554	participant	phs001713_93428	phs001713
+93468	Black or African American	Female	Not Hispanic or Latino	2770555	participant	phs001713_93468	phs001713
+93508	White	Female	Not Hispanic or Latino	2770556	participant	phs001713_93508	phs001713
+93509	White	Male	Not Hispanic or Latino	2770557	participant	phs001713_93509	phs001713
+93528	Black or African American	Male	Not Hispanic or Latino	2770558	participant	phs001713_93528	phs001713
+93548	White	Male	Not Hispanic or Latino	2770559	participant	phs001713_93548	phs001713
+93588	White	Female	Not Hispanic or Latino	2770560	participant	phs001713_93588	phs001713
+93589	White	Male	Not Hispanic or Latino	2770561	participant	phs001713_93589	phs001713
+93608	White	Female	Not Hispanic or Latino	2770562	participant	phs001713_93608	phs001713
+93648	White	Female	Not Hispanic or Latino	2770563	participant	phs001713_93648	phs001713
+93668	Black or African American	Male	Not Hispanic or Latino	2770564	participant	phs001713_93668	phs001713
+93669	White	Male	Not Hispanic or Latino	2770565	participant	phs001713_93669	phs001713
+93670	White	Male	Not Hispanic or Latino	2770566	participant	phs001713_93670	phs001713
+93688	Black or African American	Male	Not Hispanic or Latino	2770567	participant	phs001713_93688	phs001713
+93708	White	Male	Not Hispanic or Latino	2770568	participant	phs001713_93708	phs001713
+93789	Black or African American	Female	Not Hispanic or Latino	2770569	participant	phs001713_93789	phs001713
+93790	Unknown	Male	Hispanic or Latino	2770570	participant	phs001713_93790	phs001713
+93808	White	Male	Not Hispanic or Latino	2770571	participant	phs001713_93808	phs001713
+93810	White	Female	Not Hispanic or Latino	2770572	participant	phs001713_93810	phs001713
+93829	Unknown	Female	Hispanic or Latino	2770573	participant	phs001713_93829	phs001713
+93908	White	Male	Not Hispanic or Latino	2770574	participant	phs001713_93908	phs001713
+93909	Black or African American	Female	Not Hispanic or Latino	2770575	participant	phs001713_93909	phs001713
+93910	White	Female	Not Hispanic or Latino	2770576	participant	phs001713_93910	phs001713
+93911	White	Male	Not Hispanic or Latino	2770577	participant	phs001713_93911	phs001713
+93929	White	Female	Not Hispanic or Latino	2770578	participant	phs001713_93929	phs001713
+93950	White	Female	Not Hispanic or Latino	2770579	participant	phs001713_93950	phs001713
+93951	White	Male	Not Hispanic or Latino	2770580	participant	phs001713_93951	phs001713
+93952	Black or African American	Male	Not Hispanic or Latino	2770581	participant	phs001713_93952	phs001713
+93953	White	Male	Not Hispanic or Latino	2770582	participant	phs001713_93953	phs001713
+93969	White	Male	Not Hispanic or Latino	2770583	participant	phs001713_93969	phs001713
+93988	White	Female	Not Hispanic or Latino	2770584	participant	phs001713_93988	phs001713
+94008	White	Female	Not Hispanic or Latino	2770585	participant	phs001713_94008	phs001713
+94029	Asian	Female	Not Hispanic or Latino	2770586	participant	phs001713_94029	phs001713
+94030	White	Female	Not Hispanic or Latino	2770587	participant	phs001713_94030	phs001713
+94033	White	Female	Not Hispanic or Latino	2770588	participant	phs001713_94033	phs001713
+94068	White	Female	Not Hispanic or Latino	2770589	participant	phs001713_94068	phs001713
+94088	White	Male	Not Hispanic or Latino	2770590	participant	phs001713_94088	phs001713
+94109	Black or African American	Female	Not Hispanic or Latino	2770591	participant	phs001713_94109	phs001713
+94128	White	Female	Not Hispanic or Latino	2770592	participant	phs001713_94128	phs001713
+94136	White	Female	Not Hispanic or Latino	2770593	participant	phs001713_94136	phs001713
+94137	White	Male	Not Hispanic or Latino	2770594	participant	phs001713_94137	phs001713
+94140	Black or African American	Female	Not Hispanic or Latino	2770595	participant	phs001713_94140	phs001713
+94141	White	Female	Not Hispanic or Latino	2770596	participant	phs001713_94141	phs001713
+94142	White	Female	Not Hispanic or Latino	2770597	participant	phs001713_94142	phs001713
+94143	Black or African American	Female	Not Hispanic or Latino	2770598	participant	phs001713_94143	phs001713
+94144	White	Female	Not Hispanic or Latino	2770599	participant	phs001713_94144	phs001713
+94145	Black or African American	Female	Not Hispanic or Latino	2770600	participant	phs001713_94145	phs001713
+94147	White	Male	Not Hispanic or Latino	2770601	participant	phs001713_94147	phs001713
+94153	White	Female	Not Hispanic or Latino	2770602	participant	phs001713_94153	phs001713
+94168	White	Female	Not Hispanic or Latino	2770603	participant	phs001713_94168	phs001713
+94169	Black or African American	Female	Not Hispanic or Latino	2770604	participant	phs001713_94169	phs001713
+94188	White	Female	Not Hispanic or Latino	2770605	participant	phs001713_94188	phs001713
+94189	White	Female	Not Hispanic or Latino	2770606	participant	phs001713_94189	phs001713
+94208	Asian	Female	Not Hispanic or Latino	2770607	participant	phs001713_94208	phs001713
+94209	White	Male	Not Hispanic or Latino	2770608	participant	phs001713_94209	phs001713
+94248	White	Female	Not Hispanic or Latino	2770609	participant	phs001713_94248	phs001713
+94249	White	Female	Not Hispanic or Latino	2770610	participant	phs001713_94249	phs001713
+94250	Black or African American	Female	Not Hispanic or Latino	2770611	participant	phs001713_94250	phs001713
+94252	White	Male	Not Hispanic or Latino	2770612	participant	phs001713_94252	phs001713
+94268	Black or African American	Male	Not Hispanic or Latino	2770613	participant	phs001713_94268	phs001713
+94288	White	Female	Not Hispanic or Latino	2770614	participant	phs001713_94288	phs001713
+94308	Unknown	Female	Hispanic or Latino	2770615	participant	phs001713_94308	phs001713
+94331	Black or African American	Male	Not Hispanic or Latino	2770616	participant	phs001713_94331	phs001713
+94333	Black or African American	Female	Not Hispanic or Latino	2770617	participant	phs001713_94333	phs001713
+94368	Asian	Female	Not Hispanic or Latino	2770618	participant	phs001713_94368	phs001713
+94388	White	Female	Not Hispanic or Latino	2770619	participant	phs001713_94388	phs001713
+94389	White	Female	Unknown	2770620	participant	phs001713_94389	phs001713
+94391	Asian	Male	Not Hispanic or Latino	2770621	participant	phs001713_94391	phs001713
+94393	White	Female	Not Hispanic or Latino	2770622	participant	phs001713_94393	phs001713
+94410	White	Female	Not Hispanic or Latino	2770623	participant	phs001713_94410	phs001713
+94449	White	Male	Not Hispanic or Latino	2770624	participant	phs001713_94449	phs001713
+94450	Asian	Female	Not Hispanic or Latino	2770625	participant	phs001713_94450	phs001713
+94471	Black or African American	Female	Not Hispanic or Latino	2770626	participant	phs001713_94471	phs001713
+94473	White	Female	Not Hispanic or Latino	2770627	participant	phs001713_94473	phs001713
+94508	White	Female	Not Hispanic or Latino	2770628	participant	phs001713_94508	phs001713
+94528	White	Female	Not Hispanic or Latino	2770629	participant	phs001713_94528	phs001713
+94529	Black or African American	Female	Not Hispanic or Latino	2770630	participant	phs001713_94529	phs001713
+94530	White	Female	Not Hispanic or Latino	2770631	participant	phs001713_94530	phs001713
+94548	White	Female	Not Hispanic or Latino	2770632	participant	phs001713_94548	phs001713
+94568	White	Female	Not Hispanic or Latino	2770633	participant	phs001713_94568	phs001713
+94588	White	Male	Not Hispanic or Latino	2770634	participant	phs001713_94588	phs001713
+94608	Unknown	Female	Hispanic or Latino	2770635	participant	phs001713_94608	phs001713
+94630	White	Female	Not Hispanic or Latino	2770636	participant	phs001713_94630	phs001713
+94631	White	Female	Not Hispanic or Latino	2770637	participant	phs001713_94631	phs001713
+94669	White	Female	Not Hispanic or Latino	2770638	participant	phs001713_94669	phs001713
+94670	White	Female	Not Hispanic or Latino	2770639	participant	phs001713_94670	phs001713
+94671	White	Female	Not Hispanic or Latino	2770640	participant	phs001713_94671	phs001713
+94688	White	Female	Not Hispanic or Latino	2770641	participant	phs001713_94688	phs001713
+94728	White	Female	Not Hispanic or Latino	2770642	participant	phs001713_94728	phs001713
+94729	White	Female	Not Hispanic or Latino	2770643	participant	phs001713_94729	phs001713
+94730	White	Male	Not Hispanic or Latino	2770644	participant	phs001713_94730	phs001713
+94731	White	Male	Not Hispanic or Latino	2770645	participant	phs001713_94731	phs001713
+94733	White	Female	Not Hispanic or Latino	2770646	participant	phs001713_94733	phs001713
+94768	White	Male	Not Hispanic or Latino	2770647	participant	phs001713_94768	phs001713
+94788	White	Male	Not Hispanic or Latino	2770648	participant	phs001713_94788	phs001713
+94808	White	Male	Not Hispanic or Latino	2770649	participant	phs001713_94808	phs001713
+94828	White	Male	Not Hispanic or Latino	2770650	participant	phs001713_94828	phs001713
+94829	White	Female	Not Hispanic or Latino	2770651	participant	phs001713_94829	phs001713
+94830	White	Male	Not Hispanic or Latino	2770652	participant	phs001713_94830	phs001713
+94831	White	Female	Not Hispanic or Latino	2770653	participant	phs001713_94831	phs001713
+94832	White	Female	Not Hispanic or Latino	2770654	participant	phs001713_94832	phs001713
+94848	White	Female	Not Hispanic or Latino	2770655	participant	phs001713_94848	phs001713
+94851	Black or African American	Female	Not Hispanic or Latino	2770656	participant	phs001713_94851	phs001713
+94852	White	Female	Not Hispanic or Latino	2770657	participant	phs001713_94852	phs001713
+94868	White	Male	Not Hispanic or Latino	2770658	participant	phs001713_94868	phs001713
+94869	White	Male	Not Hispanic or Latino	2770659	participant	phs001713_94869	phs001713
+94870	White	Female	Not Hispanic or Latino	2770660	participant	phs001713_94870	phs001713
+94871	Black or African American	Female	Not Hispanic or Latino	2770661	participant	phs001713_94871	phs001713
+94888	White	Female	Not Hispanic or Latino	2770662	participant	phs001713_94888	phs001713
+94908	White	Male	Not Hispanic or Latino	2770663	participant	phs001713_94908	phs001713
+94928	White	Female	Not Hispanic or Latino	2770664	participant	phs001713_94928	phs001713
+94949	Unknown	Male	Hispanic or Latino	2770665	participant	phs001713_94949	phs001713
+94951	Unknown	Female	Hispanic or Latino	2770666	participant	phs001713_94951	phs001713
+94968	White	Female	Not Hispanic or Latino	2770667	participant	phs001713_94968	phs001713
+94969	Black or African American	Male	Not Hispanic or Latino	2770668	participant	phs001713_94969	phs001713
+94990	Black or African American	Female	Not Hispanic or Latino	2770669	participant	phs001713_94990	phs001713
+95008	White	Male	Not Hispanic or Latino	2770670	participant	phs001713_95008	phs001713
+95011	White	Female	Not Hispanic or Latino	2770671	participant	phs001713_95011	phs001713
+95028	White	Female	Not Hispanic or Latino	2770672	participant	phs001713_95028	phs001713
+95048	White	Male	Not Hispanic or Latino	2770673	participant	phs001713_95048	phs001713
+95068	White	Female	Not Hispanic or Latino	2770674	participant	phs001713_95068	phs001713
+95088	Black or African American	Female	Not Hispanic or Latino	2770675	participant	phs001713_95088	phs001713
+95092	Black or African American	Female	Not Hispanic or Latino	2770676	participant	phs001713_95092	phs001713
+95108	White	Female	Not Hispanic or Latino	2770677	participant	phs001713_95108	phs001713
+95109	White	Female	Not Hispanic or Latino	2770678	participant	phs001713_95109	phs001713
+95111	Unknown	Female	Hispanic or Latino	2770679	participant	phs001713_95111	phs001713
+95128	Black or African American	Female	Not Hispanic or Latino	2770680	participant	phs001713_95128	phs001713
+95130	White	Female	Not Hispanic or Latino	2770681	participant	phs001713_95130	phs001713
+95131	Black or African American	Female	Not Hispanic or Latino	2770682	participant	phs001713_95131	phs001713
+95132	White	Female	Not Hispanic or Latino	2770683	participant	phs001713_95132	phs001713
+95133	White	Female	Not Hispanic or Latino	2770684	participant	phs001713_95133	phs001713
+95148	White	Female	Not Hispanic or Latino	2770685	participant	phs001713_95148	phs001713
+95149	White	Male	Not Hispanic or Latino	2770686	participant	phs001713_95149	phs001713
+95169	White	Female	Not Hispanic or Latino	2770687	participant	phs001713_95169	phs001713
+95188	Black or African American	Male	Not Hispanic or Latino	2770688	participant	phs001713_95188	phs001713
+95208	White	Female	Not Hispanic or Latino	2770689	participant	phs001713_95208	phs001713
+95210	White	Female	Not Hispanic or Latino	2770690	participant	phs001713_95210	phs001713
+95228	White	Male	Not Hispanic or Latino	2770691	participant	phs001713_95228	phs001713
+95229	White	Male	Not Hispanic or Latino	2770692	participant	phs001713_95229	phs001713
+95248	White	Female	Not Hispanic or Latino	2770693	participant	phs001713_95248	phs001713
+95289	White	Female	Not Hispanic or Latino	2770694	participant	phs001713_95289	phs001713
+95291	White	Female	Not Hispanic or Latino	2770695	participant	phs001713_95291	phs001713
+95308	White	Female	Not Hispanic or Latino	2770696	participant	phs001713_95308	phs001713
+95328	Black or African American	Male	Not Hispanic or Latino	2770697	participant	phs001713_95328	phs001713
+95348	Black or African American	Male	Not Hispanic or Latino	2770698	participant	phs001713_95348	phs001713
+95349	White	Female	Not Hispanic or Latino	2770699	participant	phs001713_95349	phs001713
+95369	White	Male	Not Hispanic or Latino	2770700	participant	phs001713_95369	phs001713
+95370	White	Female	Not Hispanic or Latino	2770701	participant	phs001713_95370	phs001713
+95388	Asian	Female	Not Hispanic or Latino	2770702	participant	phs001713_95388	phs001713
+95389	White	Female	Not Hispanic or Latino	2770703	participant	phs001713_95389	phs001713
+95391	White	Male	Not Hispanic or Latino	2770704	participant	phs001713_95391	phs001713
+95408	American Indian or Alaska Native	Female	Not Hispanic or Latino	2770705	participant	phs001713_95408	phs001713
+95428	Black or African American	Female	Not Hispanic or Latino	2770706	participant	phs001713_95428	phs001713
+95448	White	Female	Not Hispanic or Latino	2770707	participant	phs001713_95448	phs001713
+95449	White	Female	Not Hispanic or Latino	2770708	participant	phs001713_95449	phs001713
+95450	American Indian or Alaska Native	Female	Not Hispanic or Latino	2770709	participant	phs001713_95450	phs001713
+95451	Asian	Female	Not Hispanic or Latino	2770710	participant	phs001713_95451	phs001713
+95469	White	Female	Not Hispanic or Latino	2770711	participant	phs001713_95469	phs001713
+95489	White	Male	Not Hispanic or Latino	2770712	participant	phs001713_95489	phs001713
+95490	White	Female	Not Hispanic or Latino	2770713	participant	phs001713_95490	phs001713
+95491	Unknown	Male	Hispanic or Latino	2770714	participant	phs001713_95491	phs001713
+95548	White	Male	Not Hispanic or Latino	2770715	participant	phs001713_95548	phs001713
+95568	White	Male	Not Hispanic or Latino	2770716	participant	phs001713_95568	phs001713
+95569	White	Male	Not Hispanic or Latino	2770717	participant	phs001713_95569	phs001713
+95570	White	Female	Not Hispanic or Latino	2770718	participant	phs001713_95570	phs001713
+95571	White	Female	Not Hispanic or Latino	2770719	participant	phs001713_95571	phs001713
+95572	White	Male	Not Hispanic or Latino	2770720	participant	phs001713_95572	phs001713
+95573	White	Male	Not Hispanic or Latino	2770721	participant	phs001713_95573	phs001713
+95576	White	Female	Not Hispanic or Latino	2770722	participant	phs001713_95576	phs001713
+95588	White	Male	Not Hispanic or Latino	2770723	participant	phs001713_95588	phs001713
+95590	White	Female	Not Hispanic or Latino	2770724	participant	phs001713_95590	phs001713
+95591	Black or African American	Female	Not Hispanic or Latino	2770725	participant	phs001713_95591	phs001713
+95608	White	Female	Not Hispanic or Latino	2770726	participant	phs001713_95608	phs001713
+95628	Black or African American	Female	Not Hispanic or Latino	2770727	participant	phs001713_95628	phs001713
+95629	White	Female	Not Hispanic or Latino	2770728	participant	phs001713_95629	phs001713
+95668	White	Female	Not Hispanic or Latino	2770729	participant	phs001713_95668	phs001713
+95672	White	Female	Not Hispanic or Latino	2770730	participant	phs001713_95672	phs001713
+95709	White	Male	Not Hispanic or Latino	2770731	participant	phs001713_95709	phs001713
+95710	White	Male	Not Hispanic or Latino	2770732	participant	phs001713_95710	phs001713
+95717	Black or African American	Female	Not Hispanic or Latino	2770733	participant	phs001713_95717	phs001713
+95728	White	Female	Not Hispanic or Latino	2770734	participant	phs001713_95728	phs001713
+95748	White	Female	Not Hispanic or Latino	2770735	participant	phs001713_95748	phs001713
+95749	Black or African American	Female	Not Hispanic or Latino	2770736	participant	phs001713_95749	phs001713
+95751	White	Female	Not Hispanic or Latino	2770737	participant	phs001713_95751	phs001713
+95769	White	Female	Not Hispanic or Latino	2770738	participant	phs001713_95769	phs001713
+95771	Black or African American	Male	Not Hispanic or Latino	2770739	participant	phs001713_95771	phs001713
+95788	Unknown	Male	Hispanic or Latino	2770740	participant	phs001713_95788	phs001713
+95789	Black or African American	Female	Not Hispanic or Latino	2770741	participant	phs001713_95789	phs001713
+95792	White	Male	Not Hispanic or Latino	2770742	participant	phs001713_95792	phs001713
+95793	White	Female	Not Hispanic or Latino	2770743	participant	phs001713_95793	phs001713
+95794	White	Female	Not Hispanic or Latino	2770744	participant	phs001713_95794	phs001713
+95829	White	Male	Not Hispanic or Latino	2770745	participant	phs001713_95829	phs001713
+95848	Black or African American	Female	Not Hispanic or Latino	2770746	participant	phs001713_95848	phs001713
+95869	White	Male	Not Hispanic or Latino	2770747	participant	phs001713_95869	phs001713
+95949	White	Female	Not Hispanic or Latino	2770748	participant	phs001713_95949	phs001713
+95950	White	Female	Not Hispanic or Latino	2770749	participant	phs001713_95950	phs001713
+95988	White	Female	Not Hispanic or Latino	2770750	participant	phs001713_95988	phs001713
+95989	White	Female	Not Hispanic or Latino	2770751	participant	phs001713_95989	phs001713
+95991	White	Female	Not Hispanic or Latino	2770752	participant	phs001713_95991	phs001713
+95993	White	Female	Not Hispanic or Latino	2770753	participant	phs001713_95993	phs001713
+95994	White	Female	Unknown	2770754	participant	phs001713_95994	phs001713
+95995	Black or African American	Male	Not Hispanic or Latino	2770755	participant	phs001713_95995	phs001713
+95996	White	Male	Not Hispanic or Latino	2770756	participant	phs001713_95996	phs001713
+96008	White	Female	Not Hispanic or Latino	2770757	participant	phs001713_96008	phs001713
+96028	White	Male	Not Hispanic or Latino	2770758	participant	phs001713_96028	phs001713
+96029	White	Female	Not Hispanic or Latino	2770759	participant	phs001713_96029	phs001713
+96030	White	Female	Not Hispanic or Latino	2770760	participant	phs001713_96030	phs001713
+96069	White	Female	Not Hispanic or Latino	2770761	participant	phs001713_96069	phs001713
+96070	White	Female	Not Hispanic or Latino	2770762	participant	phs001713_96070	phs001713
+96091	White	Female	Not Hispanic or Latino	2770763	participant	phs001713_96091	phs001713
+96092	White	Female	Not Hispanic or Latino	2770764	participant	phs001713_96092	phs001713
+96108	White	Female	Not Hispanic or Latino	2770765	participant	phs001713_96108	phs001713
+96128	White	Female	Not Hispanic or Latino	2770766	participant	phs001713_96128	phs001713
+96169	White	Female	Not Hispanic or Latino	2770767	participant	phs001713_96169	phs001713
+96171	White	Female	Not Hispanic or Latino	2770768	participant	phs001713_96171	phs001713
+96189	White	Male	Not Hispanic or Latino	2770769	participant	phs001713_96189	phs001713
+96190	Black or African American	Female	Not Hispanic or Latino	2770770	participant	phs001713_96190	phs001713
+96191	White	Male	Not Hispanic or Latino	2770771	participant	phs001713_96191	phs001713
+96208	White	Female	Not Hispanic or Latino	2770772	participant	phs001713_96208	phs001713
+96228	White	Female	Not Hispanic or Latino	2770773	participant	phs001713_96228	phs001713
+96248	Black or African American	Female	Not Hispanic or Latino	2770774	participant	phs001713_96248	phs001713
+96268	White	Male	Not Hispanic or Latino	2770775	participant	phs001713_96268	phs001713
+96288	White	Female	Not Hispanic or Latino	2770776	participant	phs001713_96288	phs001713
+96289	White	Female	Not Hispanic or Latino	2770777	participant	phs001713_96289	phs001713
+96309	White	Female	Not Hispanic or Latino	2770778	participant	phs001713_96309	phs001713
+96348	White	Male	Not Hispanic or Latino	2770779	participant	phs001713_96348	phs001713
+96349	White	Female	Not Hispanic or Latino	2770780	participant	phs001713_96349	phs001713
+96368	Black or African American	Male	Not Hispanic or Latino	2770781	participant	phs001713_96368	phs001713
+96388	White	Female	Not Hispanic or Latino	2770782	participant	phs001713_96388	phs001713
+96409	Black or African American	Female	Not Hispanic or Latino	2770783	participant	phs001713_96409	phs001713
+96428	White	Female	Not Hispanic or Latino	2770784	participant	phs001713_96428	phs001713
+96429	Black or African American	Female	Not Hispanic or Latino	2770785	participant	phs001713_96429	phs001713
+96430	White	Male	Not Hispanic or Latino	2770786	participant	phs001713_96430	phs001713
+96469	White	Female	Not Hispanic or Latino	2770787	participant	phs001713_96469	phs001713
+96488	White	Female	Not Hispanic or Latino	2770788	participant	phs001713_96488	phs001713
+96489	White	Female	Not Hispanic or Latino	2770789	participant	phs001713_96489	phs001713
+96528	White	Female	Not Hispanic or Latino	2770790	participant	phs001713_96528	phs001713
+96548	White	Female	Not Hispanic or Latino	2770791	participant	phs001713_96548	phs001713
+96549	White	Female	Not Hispanic or Latino	2770792	participant	phs001713_96549	phs001713
+96568	White	Male	Not Hispanic or Latino	2770793	participant	phs001713_96568	phs001713
+96569	White	Male	Not Hispanic or Latino	2770794	participant	phs001713_96569	phs001713
+96588	White	Male	Not Hispanic or Latino	2770795	participant	phs001713_96588	phs001713
+96590	White	Female	Not Hispanic or Latino	2770796	participant	phs001713_96590	phs001713
+96591	White	Female	Not Hispanic or Latino	2770797	participant	phs001713_96591	phs001713
+96594	White	Female	Not Hispanic or Latino	2770798	participant	phs001713_96594	phs001713
+96595	Black or African American	Female	Not Hispanic or Latino	2770799	participant	phs001713_96595	phs001713
+96608	White	Male	Not Hispanic or Latino	2770800	participant	phs001713_96608	phs001713
+96609	White	Female	Not Hispanic or Latino	2770801	participant	phs001713_96609	phs001713
+96610	White	Male	Not Hispanic or Latino	2770802	participant	phs001713_96610	phs001713
+96611	White	Male	Not Hispanic or Latino	2770803	participant	phs001713_96611	phs001713
+96628	Black or African American	Male	Not Hispanic or Latino	2770804	participant	phs001713_96628	phs001713
+96629	White	Male	Not Hispanic or Latino	2770805	participant	phs001713_96629	phs001713
+96648	Unknown	Female	Hispanic or Latino	2770806	participant	phs001713_96648	phs001713
+96649	Black or African American	Female	Not Hispanic or Latino	2770807	participant	phs001713_96649	phs001713
+96650	White	Female	Not Hispanic or Latino	2770808	participant	phs001713_96650	phs001713
+96668	White	Female	Not Hispanic or Latino	2770809	participant	phs001713_96668	phs001713
+96688	White	Female	Not Hispanic or Latino	2770810	participant	phs001713_96688	phs001713
+96710	White	Female	Not Hispanic or Latino	2770811	participant	phs001713_96710	phs001713
+96728	White	Female	Not Hispanic or Latino	2770812	participant	phs001713_96728	phs001713
+96729	White	Female	Not Hispanic or Latino	2770813	participant	phs001713_96729	phs001713
+96730	White	Male	Not Hispanic or Latino	2770814	participant	phs001713_96730	phs001713
+96731	White	Male	Not Hispanic or Latino	2770815	participant	phs001713_96731	phs001713
+96732	Black or African American	Male	Not Hispanic or Latino	2770816	participant	phs001713_96732	phs001713
+96808	Native Hawaiian or Other Pacific Islander	Female	Not Hispanic or Latino	2770817	participant	phs001713_96808	phs001713
+96828	White	Female	Not Hispanic or Latino	2770818	participant	phs001713_96828	phs001713
+96848	White	Female	Not Hispanic or Latino	2770819	participant	phs001713_96848	phs001713
+96868	White	Female	Not Hispanic or Latino	2770820	participant	phs001713_96868	phs001713
+96888	White	Female	Not Hispanic or Latino	2770821	participant	phs001713_96888	phs001713
+96890	White	Male	Not Hispanic or Latino	2770822	participant	phs001713_96890	phs001713
+96891	White	Female	Not Hispanic or Latino	2770823	participant	phs001713_96891	phs001713
+96928	White	Female	Not Hispanic or Latino	2770824	participant	phs001713_96928	phs001713
+96968	White	Male	Not Hispanic or Latino	2770825	participant	phs001713_96968	phs001713
+96969	Black or African American	Male	Not Hispanic or Latino	2770826	participant	phs001713_96969	phs001713
+96988	White	Male	Not Hispanic or Latino	2770827	participant	phs001713_96988	phs001713
+96989	White	Male	Not Hispanic or Latino	2770828	participant	phs001713_96989	phs001713
+96990	White	Male	Not Hispanic or Latino	2770829	participant	phs001713_96990	phs001713
+96993	White	Female	Not Hispanic or Latino	2770830	participant	phs001713_96993	phs001713
+97008	White	Male	Not Hispanic or Latino	2770831	participant	phs001713_97008	phs001713
+97048	White	Male	Not Hispanic or Latino	2770832	participant	phs001713_97048	phs001713
+97071	White	Male	Not Hispanic or Latino	2770833	participant	phs001713_97071	phs001713
+97072	White	Male	Not Hispanic or Latino	2770834	participant	phs001713_97072	phs001713
+97073	White	Male	Not Hispanic or Latino	2770835	participant	phs001713_97073	phs001713
+97074	White	Male	Not Hispanic or Latino	2770836	participant	phs001713_97074	phs001713
+97088	White	Male	Not Hispanic or Latino	2770837	participant	phs001713_97088	phs001713
+97090	White	Male	Not Hispanic or Latino	2770838	participant	phs001713_97090	phs001713
+97091	White	Male	Not Hispanic or Latino	2770839	participant	phs001713_97091	phs001713
+97092	Black or African American	Female	Not Hispanic or Latino	2770840	participant	phs001713_97092	phs001713
+97108	White	Female	Not Hispanic or Latino	2770841	participant	phs001713_97108	phs001713
+97128	White	Female	Not Hispanic or Latino	2770842	participant	phs001713_97128	phs001713
+97129	White	Female	Not Hispanic or Latino	2770843	participant	phs001713_97129	phs001713
+97168	White	Female	Not Hispanic or Latino	2770844	participant	phs001713_97168	phs001713
+97170	Black or African American	Female	Not Hispanic or Latino	2770845	participant	phs001713_97170	phs001713
+97171	White	Female	Not Hispanic or Latino	2770846	participant	phs001713_97171	phs001713
+97188	White	Female	Not Hispanic or Latino	2770847	participant	phs001713_97188	phs001713
+97230	White	Male	Not Hispanic or Latino	2770848	participant	phs001713_97230	phs001713
+97231	White	Male	Not Hispanic or Latino	2770849	participant	phs001713_97231	phs001713
+97249	White	Female	Not Hispanic or Latino	2770850	participant	phs001713_97249	phs001713
+97250	White	Female	Not Hispanic or Latino	2770851	participant	phs001713_97250	phs001713
+97252	Black or African American	Female	Not Hispanic or Latino	2770852	participant	phs001713_97252	phs001713
+97288	White	Female	Not Hispanic or Latino	2770853	participant	phs001713_97288	phs001713
+97289	White	Female	Not Hispanic or Latino	2770854	participant	phs001713_97289	phs001713
+97308	White	Male	Not Hispanic or Latino	2770855	participant	phs001713_97308	phs001713
+97329	White	Female	Not Hispanic or Latino	2770856	participant	phs001713_97329	phs001713
+97348	White	Male	Not Hispanic or Latino	2770857	participant	phs001713_97348	phs001713
+97368	White	Male	Not Hispanic or Latino	2770858	participant	phs001713_97368	phs001713
+97369	White	Female	Not Hispanic or Latino	2770859	participant	phs001713_97369	phs001713
+97389	Unknown	Male	Hispanic or Latino	2770860	participant	phs001713_97389	phs001713
+97429	White	Female	Not Hispanic or Latino	2770861	participant	phs001713_97429	phs001713
+97448	Black or African American	Female	Not Hispanic or Latino	2770862	participant	phs001713_97448	phs001713
+97488	White	Female	Not Hispanic or Latino	2770863	participant	phs001713_97488	phs001713
+97530	White	Male	Not Hispanic or Latino	2770864	participant	phs001713_97530	phs001713
+97531	White	Female	Not Hispanic or Latino	2770865	participant	phs001713_97531	phs001713
+97532	Unknown	Female	Hispanic or Latino	2770866	participant	phs001713_97532	phs001713
+97568	White	Female	Not Hispanic or Latino	2770867	participant	phs001713_97568	phs001713
+97569	White	Female	Not Hispanic or Latino	2770868	participant	phs001713_97569	phs001713
+97570	White	Female	Not Hispanic or Latino	2770869	participant	phs001713_97570	phs001713
+97608	White	Male	Not Hispanic or Latino	2770870	participant	phs001713_97608	phs001713
+97609	Black or African American	Male	Not Hispanic or Latino	2770871	participant	phs001713_97609	phs001713
+97611	White	Female	Not Hispanic or Latino	2770872	participant	phs001713_97611	phs001713
+97629	White	Female	Not Hispanic or Latino	2770873	participant	phs001713_97629	phs001713
+97630	White	Female	Not Hispanic or Latino	2770874	participant	phs001713_97630	phs001713
+97631	White	Female	Not Hispanic or Latino	2770875	participant	phs001713_97631	phs001713
+97648	White	Female	Not Hispanic or Latino	2770876	participant	phs001713_97648	phs001713
+97649	White	Male	Not Hispanic or Latino	2770877	participant	phs001713_97649	phs001713
+97688	White	Female	Not Hispanic or Latino	2770878	participant	phs001713_97688	phs001713
+97690	Black or African American	Male	Not Hispanic or Latino	2770879	participant	phs001713_97690	phs001713
+97691	Unknown	Male	Not Hispanic or Latino	2770880	participant	phs001713_97691	phs001713
+97748	Unknown	Female	Hispanic or Latino	2770881	participant	phs001713_97748	phs001713
+97768	White	Male	Not Hispanic or Latino	2770882	participant	phs001713_97768	phs001713
+97770	White	Female	Not Hispanic or Latino	2770883	participant	phs001713_97770	phs001713
+97771	Unknown	Male	Hispanic or Latino	2770884	participant	phs001713_97771	phs001713
+97773	White	Female	Not Hispanic or Latino	2770885	participant	phs001713_97773	phs001713
+97789	White	Male	Not Hispanic or Latino	2770886	participant	phs001713_97789	phs001713
+97808	White	Male	Not Hispanic or Latino	2770887	participant	phs001713_97808	phs001713
+97809	White	Female	Not Hispanic or Latino	2770888	participant	phs001713_97809	phs001713
+97828	White	Female	Not Hispanic or Latino	2770889	participant	phs001713_97828	phs001713
+97829	White	Female	Not Hispanic or Latino	2770890	participant	phs001713_97829	phs001713
+97830	White	Female	Not Hispanic or Latino	2770891	participant	phs001713_97830	phs001713
+97848	Black or African American	Female	Not Hispanic or Latino	2770892	participant	phs001713_97848	phs001713
+97868	White	Male	Not Hispanic or Latino	2770893	participant	phs001713_97868	phs001713
+97869	Black or African American	Male	Not Hispanic or Latino	2770894	participant	phs001713_97869	phs001713
+97872	White	Female	Not Hispanic or Latino	2770895	participant	phs001713_97872	phs001713
+97888	White	Female	Not Hispanic or Latino	2770896	participant	phs001713_97888	phs001713
+97908	Black or African American	Male	Not Hispanic or Latino	2770897	participant	phs001713_97908	phs001713
+97910	White	Male	Not Hispanic or Latino	2770898	participant	phs001713_97910	phs001713
+97911	Black or African American	Male	Not Hispanic or Latino	2770899	participant	phs001713_97911	phs001713
+97929	White	Female	Not Hispanic or Latino	2770900	participant	phs001713_97929	phs001713
+97949	White	Female	Not Hispanic or Latino	2770901	participant	phs001713_97949	phs001713
+97951	White	Male	Not Hispanic or Latino	2770902	participant	phs001713_97951	phs001713
+97968	Black or African American	Female	Not Hispanic or Latino	2770903	participant	phs001713_97968	phs001713
+97972	Asian	Female	Not Hispanic or Latino	2770904	participant	phs001713_97972	phs001713
+97989	Unknown	Male	Hispanic or Latino	2770905	participant	phs001713_97989	phs001713
+98008	White	Female	Not Hispanic or Latino	2770906	participant	phs001713_98008	phs001713
+98009	White	Male	Not Hispanic or Latino	2770907	participant	phs001713_98009	phs001713
+98068	White	Female	Not Hispanic or Latino	2770908	participant	phs001713_98068	phs001713
+98088	White	Male	Not Hispanic or Latino	2770909	participant	phs001713_98088	phs001713
+98108	White	Female	Not Hispanic or Latino	2770910	participant	phs001713_98108	phs001713
+98109	Asian	Female	Not Hispanic or Latino	2770911	participant	phs001713_98109	phs001713
+98110	White	Male	Not Hispanic or Latino	2770912	participant	phs001713_98110	phs001713
+98128	White	Female	Unknown	2770913	participant	phs001713_98128	phs001713
+98148	White	Male	Not Hispanic or Latino	2770914	participant	phs001713_98148	phs001713
+98168	White	Female	Not Hispanic or Latino	2770915	participant	phs001713_98168	phs001713
+98208	White	Female	Not Hispanic or Latino	2770916	participant	phs001713_98208	phs001713
+98209	White	Female	Not Hispanic or Latino	2770917	participant	phs001713_98209	phs001713
+98228	White	Female	Not Hispanic or Latino	2770918	participant	phs001713_98228	phs001713
+98229	White	Female	Not Hispanic or Latino	2770919	participant	phs001713_98229	phs001713
+98248	White	Female	Not Hispanic or Latino	2770920	participant	phs001713_98248	phs001713
+98268	White	Female	Not Hispanic or Latino	2770921	participant	phs001713_98268	phs001713
+98269	White	Female	Not Hispanic or Latino	2770922	participant	phs001713_98269	phs001713
+98288	White	Female	Not Hispanic or Latino	2770923	participant	phs001713_98288	phs001713
+98289	White	Male	Not Hispanic or Latino	2770924	participant	phs001713_98289	phs001713
+98308	White	Male	Not Hispanic or Latino	2770925	participant	phs001713_98308	phs001713
+98328	White	Male	Not Hispanic or Latino	2770926	participant	phs001713_98328	phs001713
+98329	Black or African American	Female	Not Hispanic or Latino	2770927	participant	phs001713_98329	phs001713
+98331	Black or African American	Male	Not Hispanic or Latino	2770928	participant	phs001713_98331	phs001713
+98389	White	Female	Not Hispanic or Latino	2770929	participant	phs001713_98389	phs001713
+98391	White	Male	Not Hispanic or Latino	2770930	participant	phs001713_98391	phs001713
+98392	White	Female	Not Hispanic or Latino	2770931	participant	phs001713_98392	phs001713
+98428	White	Female	Not Hispanic or Latino	2770932	participant	phs001713_98428	phs001713
+98429	White	Female	Not Hispanic or Latino	2770933	participant	phs001713_98429	phs001713
+98460	White	Female	Not Hispanic or Latino	2770934	participant	phs001713_98460	phs001713
+98488	White	Female	Not Hispanic or Latino	2770935	participant	phs001713_98488	phs001713
+98508	White	Female	Not Hispanic or Latino	2770936	participant	phs001713_98508	phs001713
+98528	White	Male	Not Hispanic or Latino	2770937	participant	phs001713_98528	phs001713
+98549	Black or African American	Female	Not Hispanic or Latino	2770938	participant	phs001713_98549	phs001713
+98569	Black or African American	Female	Not Hispanic or Latino	2770939	participant	phs001713_98569	phs001713
+98588	Asian	Male	Not Hispanic or Latino	2770940	participant	phs001713_98588	phs001713
+98608	White	Female	Not Hispanic or Latino	2770941	participant	phs001713_98608	phs001713
+98628	White	Female	Not Hispanic or Latino	2770942	participant	phs001713_98628	phs001713
+98688	White	Male	Not Hispanic or Latino	2770943	participant	phs001713_98688	phs001713
+98708	White	Female	Not Hispanic or Latino	2770944	participant	phs001713_98708	phs001713
+98729	White	Female	Not Hispanic or Latino	2770945	participant	phs001713_98729	phs001713
+98730	White	Male	Not Hispanic or Latino	2770946	participant	phs001713_98730	phs001713
+98731	White	Male	Not Hispanic or Latino	2770947	participant	phs001713_98731	phs001713
+98749	White	Male	Not Hispanic or Latino	2770948	participant	phs001713_98749	phs001713
+98768	White	Female	Not Hispanic or Latino	2770949	participant	phs001713_98768	phs001713
+98789	Black or African American	Female	Not Hispanic or Latino	2770950	participant	phs001713_98789	phs001713
+98791	White	Male	Not Hispanic or Latino	2770951	participant	phs001713_98791	phs001713
+98810	Black or African American	Female	Not Hispanic or Latino	2770952	participant	phs001713_98810	phs001713
+98811	Black or African American	Female	Not Hispanic or Latino	2770953	participant	phs001713_98811	phs001713
+98812	Unknown	Male	Hispanic or Latino	2770954	participant	phs001713_98812	phs001713
+98848	White	Male	Not Hispanic or Latino	2770955	participant	phs001713_98848	phs001713
+98849	Black or African American	Female	Not Hispanic or Latino	2770956	participant	phs001713_98849	phs001713
+98868	Black or African American	Male	Not Hispanic or Latino	2770957	participant	phs001713_98868	phs001713
+98869	White	Female	Not Hispanic or Latino	2770958	participant	phs001713_98869	phs001713
+98889	White	Female	Not Hispanic or Latino	2770959	participant	phs001713_98889	phs001713
+98908	Asian	Female	Not Hispanic or Latino	2770960	participant	phs001713_98908	phs001713
+98909	White	Female	Not Hispanic or Latino	2770961	participant	phs001713_98909	phs001713
+98928	Unknown	Male	Hispanic or Latino	2770962	participant	phs001713_98928	phs001713
+98988	Black or African American	Female	Not Hispanic or Latino	2770963	participant	phs001713_98988	phs001713
+99028	Unknown	Male	Hispanic or Latino	2770964	participant	phs001713_99028	phs001713
+99030	Black or African American	Male	Not Hispanic or Latino	2770965	participant	phs001713_99030	phs001713
+99048	White	Female	Not Hispanic or Latino	2770966	participant	phs001713_99048	phs001713
+99049	White	Male	Not Hispanic or Latino	2770967	participant	phs001713_99049	phs001713
+99068	White	Female	Not Hispanic or Latino	2770968	participant	phs001713_99068	phs001713
+99069	White	Female	Not Hispanic or Latino	2770969	participant	phs001713_99069	phs001713
+99088	Unknown	Female	Hispanic or Latino	2770970	participant	phs001713_99088	phs001713
+99108	White	Female	Not Hispanic or Latino	2770971	participant	phs001713_99108	phs001713
+99109	White	Female	Not Hispanic or Latino	2770972	participant	phs001713_99109	phs001713
+99129	White	Female	Not Hispanic or Latino	2770973	participant	phs001713_99129	phs001713
+99148	White	Female	Not Hispanic or Latino	2770974	participant	phs001713_99148	phs001713
+99168	Black or African American	Female	Not Hispanic or Latino	2770975	participant	phs001713_99168	phs001713
+99188	White	Female	Not Hispanic or Latino	2770976	participant	phs001713_99188	phs001713
+99228	White	Male	Not Hispanic or Latino	2770977	participant	phs001713_99228	phs001713
+99248	Black or African American	Female	Not Hispanic or Latino	2770978	participant	phs001713_99248	phs001713
+99268	White	Female	Not Hispanic or Latino	2770979	participant	phs001713_99268	phs001713
+99308	White	Female	Not Hispanic or Latino	2770980	participant	phs001713_99308	phs001713
+99329	White	Male	Not Hispanic or Latino	2770981	participant	phs001713_99329	phs001713
+99388	White	Female	Not Hispanic or Latino	2770982	participant	phs001713_99388	phs001713
+99389	White	Female	Not Hispanic or Latino	2770983	participant	phs001713_99389	phs001713
+99390	White	Female	Not Hispanic or Latino	2770984	participant	phs001713_99390	phs001713
+99393	White	Female	Not Hispanic or Latino	2770985	participant	phs001713_99393	phs001713
+99394	White	Female	Not Hispanic or Latino	2770986	participant	phs001713_99394	phs001713
+99408	White	Male	Not Hispanic or Latino	2770987	participant	phs001713_99408	phs001713
+99428	White	Male	Not Hispanic or Latino	2770988	participant	phs001713_99428	phs001713
+99429	White	Female	Not Hispanic or Latino	2770989	participant	phs001713_99429	phs001713
+99448	White	Male	Not Hispanic or Latino	2770990	participant	phs001713_99448	phs001713
+99450	White	Male	Not Hispanic or Latino	2770991	participant	phs001713_99450	phs001713
+99468	White	Female	Not Hispanic or Latino	2770992	participant	phs001713_99468	phs001713
+99469	White	Female	Not Hispanic or Latino	2770993	participant	phs001713_99469	phs001713
+99470	Black or African American	Female	Not Hispanic or Latino	2770994	participant	phs001713_99470	phs001713
+99488	White	Male	Not Hispanic or Latino	2770995	participant	phs001713_99488	phs001713
+99489	White	Male	Not Hispanic or Latino	2770996	participant	phs001713_99489	phs001713
+99490	White	Female	Not Hispanic or Latino	2770997	participant	phs001713_99490	phs001713
+99528	White	Female	Not Hispanic or Latino	2770998	participant	phs001713_99528	phs001713
+99549	Black or African American	Male	Not Hispanic or Latino	2770999	participant	phs001713_99549	phs001713
+99551	White	Female	Not Hispanic or Latino	2771000	participant	phs001713_99551	phs001713
+99588	White	Male	Not Hispanic or Latino	2771001	participant	phs001713_99588	phs001713
+99608	White	Female	Not Hispanic or Latino	2771002	participant	phs001713_99608	phs001713
+99628	White	Male	Not Hispanic or Latino	2771003	participant	phs001713_99628	phs001713
+99629	White	Male	Not Hispanic or Latino	2771004	participant	phs001713_99629	phs001713
+99648	White	Female	Not Hispanic or Latino	2771005	participant	phs001713_99648	phs001713
+99668	White	Female	Not Hispanic or Latino	2771006	participant	phs001713_99668	phs001713
+99688	White	Female	Not Hispanic or Latino	2771007	participant	phs001713_99688	phs001713
+99748	White	Male	Not Hispanic or Latino	2771008	participant	phs001713_99748	phs001713
+99749	White	Male	Not Hispanic or Latino	2771009	participant	phs001713_99749	phs001713
+99750	White	Female	Not Hispanic or Latino	2771010	participant	phs001713_99750	phs001713
+99788	White	Female	Not Hispanic or Latino	2771011	participant	phs001713_99788	phs001713
+99828	Black or African American	Male	Not Hispanic or Latino	2771012	participant	phs001713_99828	phs001713
+99849	Black or African American	Female	Not Hispanic or Latino	2771013	participant	phs001713_99849	phs001713
+99868	White	Female	Not Hispanic or Latino	2771014	participant	phs001713_99868	phs001713
+99889	White	Male	Not Hispanic or Latino	2771015	participant	phs001713_99889	phs001713
+99968	White	Female	Not Hispanic or Latino	2771016	participant	phs001713_99968	phs001713
+99988	White	Male	Not Hispanic or Latino	2771017	participant	phs001713_99988	phs001713

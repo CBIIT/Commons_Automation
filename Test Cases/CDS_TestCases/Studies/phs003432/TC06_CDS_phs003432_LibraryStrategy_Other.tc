@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC06_CDS_phs003432_LibraryStrategy_Other</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>58be7d04-05b8-44d4-abde-5b0366de4267</testCaseGuid>
+</TestCaseEntity>

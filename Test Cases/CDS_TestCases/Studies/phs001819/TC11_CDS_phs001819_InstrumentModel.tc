@@ -4,5 +4,6 @@
    <name>TC11_CDS_phs001819_InstrumentModel</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>67367eaf-cc06-4473-870b-2797e76669db</testCaseGuid>
 </TestCaseEntity>

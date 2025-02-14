@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_CDS_phs003432_SampleType_Thymus</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0351ce90-a09a-4f02-bf18-4b6de6bb8be5</testCaseGuid>
+</TestCaseEntity>

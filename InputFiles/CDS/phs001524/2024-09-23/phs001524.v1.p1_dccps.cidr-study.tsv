@@ -1,0 +1,27 @@
+study_name	study_description	study_external_url	primary_investigator_name	primary_investigator_email	phs_accession	funding_agency	grant_id	organism_species	adult_or_childhood_study	number_of_participants	number_of_samples	study_data_types	acl	study_access	study_version	type	program.program_acronym	data_access_level	file_types_and_format
+The Genetic Basis of Aggressive Prostate Cancer, The Role of Rare Variation	"In this study, we will apply a multi-staged approach to reveal genes harboring rare variants that are associated with aggressive PCa. Whole-exome sequencing (Aim 1a) of 2,774 aggressive cases and 2,776 non-aggressive cases of European ancestry will be conducted followed by rare variant analysis of single sites and gene burden testing to identify novel susceptibility loci/genes for aggressive disease. We will validate the most significantly associated genes (~500) through targeted sequencing in an additional 7,500 aggressive and 7,500 non-aggressive cases (Aim 1b). Next, we will investigate the clinical predictive utility of the genes/variants identified in 2,300 cases in the STHM3 trial who are undergoing biopsy based on PSA and genetic risk score stratification (Aim 2). Through this tiered approach we expect to significantly advance knowledge of aggressive PCa etiology and health disparities as well as guide the development of early detection and prognostic strategies for the subset of men who are most susceptible to this fatal form of disease. In this case-case study of aggressive vs non aggressive prostate cancer, aggressive cases are defined as prostate cancer as cause of death, (T4 disease or T3 disease) and Gleason 8+. Non-aggressive cases are men with T1/2 disease and Gleason <=6.
+
+CONTRIBUTING SITES
+
+CAPS, PROCAP, STHM1, STHM2: Swedish Cancer Society (CAN 2016/818), Swedish Research Council (2014/2269)
+
+MEC: Funding provided by the National Cancer Institute: Understanding Ethnic Differences in Cancer, 2U01CA164973 and The Genetic Basis of Aggressive Prostate Cancer, The Role of Rare Variation, 5R01CA196931-02.
+
+CPSII: The authors express sincere appreciation to all Cancer Prevention Study II participants and to each member of the study and biospecimen management group. The American Cancer Society funds the creation, maintenance, and updating of the Cancer Prevention Study-II cohort.
+
+MCCS/APCS/PCFS: The Melbourne Collaborative Cohort Study (MCCS) recruitment was funded by VicHealth and Cancer Council Victoria and further supported by Australian National Health and Medical Research Council (NHMRC) grants 209057 and 396414. The Aggressive Prostate Cancer Case-Control Study (APCS) was funded by NHMRC grant 623204. The Prostate Cancer Family Study (PCFS) was fully funded by Cancer Council Victoria. Cancer Council Victoria funds the continuing maintenance and updating of the MCCS, APCS and PCFS. Cases and their vital status are ascertained and followed up through the Victorian Cancer Registry and the Australian Institute of Health and Welfare, including the National Death Index and the Australian Cancer Database.
+
+PLCO: The Prostate Lung Colorectal Ovarian Cancer Screening Trial (PLCO) was supported by the Intramural Research Program of the Division of Cancer Epidemiology and Genetics and by contracts from the Division of Cancer Prevention, National Cancer Institute, US National Institutes of Health, Department of Health and Human Services.
+
+ATBC: The ATBC Study is supported by the Intramural Research Program of the U.S. National Cancer Institute, National Institutes of Health, and by U.S. Public Health Service contract HHSN261201500005C from the National Cancer Institute, Department of Health and Human Services.
+
+ICR: This work was supported by the NIH R01 grant 5R01CA196931-02.The samples from the UK were from UKGPCS and PrompT. The UKGPCS study was supported by Cancer Research UK (grant numbers C5047/A7357, C1287/A10118, C1287/A5260, C5047/A3354, C5047/A10692, C16913/A6135 and C16913/A6835). We would like to acknowledge the NCRN nurses and Consultants for their work in the UKGPCS study. We thank all the patients who took part in this study. We also acknowledge The Institute of Cancer Research, The National Cancer Research Network UK, The National Cancer Research Institute (NCRI) UK for their ongoing support. We are grateful for support of NIHR funding to the NIHR Biomedical Research Centre at The Institute of Cancer Research and The Royal Marsden NHS Foundation Trust.
+
+CIDR grant X01HG008336
+
+Study Design:
+Case Set
+Study Type:
+Case Set
+dbGaP estimated ancestry using GRAF-pop
+Total number of consented subjects: 5563"	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001524.v1.p1	Christopher Haiman	haiman@usc.edu	phs001524	National Institutes of Health	5R01CA196931-02	Human	Adult	5563	5674	Genomic	['phs001524']	Controlled	phs001524.v3.p2|phs001524.v2.p2|phs001524.v1.p1	study	DCCPS	Not specified in data	
