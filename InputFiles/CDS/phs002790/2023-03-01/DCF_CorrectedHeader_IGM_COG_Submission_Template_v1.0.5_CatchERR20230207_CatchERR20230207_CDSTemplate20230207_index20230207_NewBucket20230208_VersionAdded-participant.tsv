@@ -1,0 +1,978 @@
+participant_id	race	gender	ethnicity	type	study_participant_id	study.phs_accession
+PARGFV	White	Male	Hispanic or Latino	participant	phs002790_PARGFV	phs002790
+PBBHCR	White	Female	Not Hispanic or Latino	participant	phs002790_PBBHCR	phs002790
+PBBHFF	White	Male	Not Hispanic or Latino	participant	phs002790_PBBHFF	phs002790
+PBBHGB	Not Reported	Male	Not Hispanic or Latino	participant	phs002790_PBBHGB	phs002790
+PBBHGD	White	Female	Not Hispanic or Latino	participant	phs002790_PBBHGD	phs002790
+PBBHGT	White	Female	Not Hispanic or Latino	participant	phs002790_PBBHGT	phs002790
+PBBHHZ	White	Male	Not Hispanic or Latino	participant	phs002790_PBBHHZ	phs002790
+PBBHIA	Asian	Female	Not Hispanic or Latino	participant	phs002790_PBBHIA	phs002790
+PBBHIL	White	Female	Hispanic or Latino	participant	phs002790_PBBHIL	phs002790
+PBBHMA	White	Female	Not Hispanic or Latino	participant	phs002790_PBBHMA	phs002790
+PBBHMD	White	Female	Not Reported	participant	phs002790_PBBHMD	phs002790
+PBBHMI	White	Male	Not Hispanic or Latino	participant	phs002790_PBBHMI	phs002790
+PBBHPP	White	Male	Not Hispanic or Latino	participant	phs002790_PBBHPP	phs002790
+PBBHRU	White	Male	Not Hispanic or Latino	participant	phs002790_PBBHRU	phs002790
+PBBHSU	White	Female	Not Hispanic or Latino	participant	phs002790_PBBHSU	phs002790
+PBBHTY	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBHTY	phs002790
+PBBHUB	White	Male	Not Hispanic or Latino	participant	phs002790_PBBHUB	phs002790
+PBBHVH	White	Female	Hispanic or Latino	participant	phs002790_PBBHVH	phs002790
+PBBHWP	White	Male	Not Hispanic or Latino	participant	phs002790_PBBHWP	phs002790
+PBBHWY	Black or African American;White	Female	Not Hispanic or Latino	participant	phs002790_PBBHWY	phs002790
+PBBHXE	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBHXE	phs002790
+PBBHXT	Not Reported	Female	Not Reported	participant	phs002790_PBBHXT	phs002790
+PBBHYD	White	Male	Not Reported	participant	phs002790_PBBHYD	phs002790
+PBBHYH	Black or African American	Female	Not Hispanic or Latino	participant	phs002790_PBBHYH	phs002790
+PBBHYV	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBHYV	phs002790
+PBBHZD	White	Female	Not Hispanic or Latino	participant	phs002790_PBBHZD	phs002790
+PBBIBE	White	Male	Not Hispanic or Latino	participant	phs002790_PBBIBE	phs002790
+PBBIBH	White	Female	Not Hispanic or Latino	participant	phs002790_PBBIBH	phs002790
+PBBIBP	White	Female	Not Hispanic or Latino	participant	phs002790_PBBIBP	phs002790
+PBBIBR	Unknown	Male	Hispanic or Latino	participant	phs002790_PBBIBR	phs002790
+PBBIBT	White	Female	Not Hispanic or Latino	participant	phs002790_PBBIBT	phs002790
+PBBICF	White	Male	Not Hispanic or Latino	participant	phs002790_PBBICF	phs002790
+PBBICS	White	Male	Hispanic or Latino	participant	phs002790_PBBICS	phs002790
+PBBIDB	White	Male	Not Hispanic or Latino	participant	phs002790_PBBIDB	phs002790
+PBBIDF	White	Female	Hispanic or Latino	participant	phs002790_PBBIDF	phs002790
+PBBIDG	White	Female	Not Hispanic or Latino	participant	phs002790_PBBIDG	phs002790
+PBBIDH	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBIDH	phs002790
+PBBIDL	White	Female	Not Hispanic or Latino	participant	phs002790_PBBIDL	phs002790
+PBBIDM	Unknown	Male	Not Hispanic or Latino	participant	phs002790_PBBIDM	phs002790
+PBBIDT	Not Reported	Female	Hispanic or Latino	participant	phs002790_PBBIDT	phs002790
+PBBIDW	White	Male	Not Hispanic or Latino	participant	phs002790_PBBIDW	phs002790
+PBBIDY	White	Male	Not Hispanic or Latino	participant	phs002790_PBBIDY	phs002790
+PBBIDZ	White	Male	Not Hispanic or Latino	participant	phs002790_PBBIDZ	phs002790
+PBBIEL	White	Female	Not Hispanic or Latino	participant	phs002790_PBBIEL	phs002790
+PBBIEN	White	Female	Not Hispanic or Latino	participant	phs002790_PBBIEN	phs002790
+PBBIET	White	Male	Unknown	participant	phs002790_PBBIET	phs002790
+PBBIFL	White	Female	Not Hispanic or Latino	participant	phs002790_PBBIFL	phs002790
+PBBIGN	White	Female	Not Hispanic or Latino	participant	phs002790_PBBIGN	phs002790
+PBBIHA	Native Hawaiian or Other Pacific Islander	Male	Unknown	participant	phs002790_PBBIHA	phs002790
+PBBIHD	Unknown	Female	Not Hispanic or Latino	participant	phs002790_PBBIHD	phs002790
+PBBIHJ	White	Female	Hispanic or Latino	participant	phs002790_PBBIHJ	phs002790
+PBBIIF	White	Male	Not Hispanic or Latino	participant	phs002790_PBBIIF	phs002790
+PBBIIW	Black or African American	Female	Not Hispanic or Latino	participant	phs002790_PBBIIW	phs002790
+PBBIJB	Not Reported	Female	Unknown	participant	phs002790_PBBIJB	phs002790
+PBBIJK	White	Male	Hispanic or Latino	participant	phs002790_PBBIJK	phs002790
+PBBIJS	Not Reported	Male	Hispanic or Latino	participant	phs002790_PBBIJS	phs002790
+PBBIJX	White	Female	Not Hispanic or Latino	participant	phs002790_PBBIJX	phs002790
+PBBIKD	Asian	Female	Not Hispanic or Latino	participant	phs002790_PBBIKD	phs002790
+PBBIKP	White	Male	Hispanic or Latino	participant	phs002790_PBBIKP	phs002790
+PBBILL	White	Female	Not Hispanic or Latino	participant	phs002790_PBBILL	phs002790
+PBBILM	White	Male	Not Hispanic or Latino	participant	phs002790_PBBILM	phs002790
+PBBILN	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBILN	phs002790
+PBBILR	White	Female	Not Hispanic or Latino	participant	phs002790_PBBILR	phs002790
+PBBILS	White	Female	Not Hispanic or Latino	participant	phs002790_PBBILS	phs002790
+PBBILT	White	Female	Not Hispanic or Latino	participant	phs002790_PBBILT	phs002790
+PBBIMH	White	Female	Not Hispanic or Latino	participant	phs002790_PBBIMH	phs002790
+PBBIMT	Not Reported	Female	Hispanic or Latino	participant	phs002790_PBBIMT	phs002790
+PBBIMV	Unknown	Female	Unknown	participant	phs002790_PBBIMV	phs002790
+PBBIMX	White	Male	Not Hispanic or Latino	participant	phs002790_PBBIMX	phs002790
+PBBINB	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBINB	phs002790
+PBBINC	Asian	Male	Not Hispanic or Latino	participant	phs002790_PBBINC	phs002790
+PBBINZ	White	Male	Not Hispanic or Latino	participant	phs002790_PBBINZ	phs002790
+PBBIPL	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBIPL	phs002790
+PBBIRB	White	Male	Not Hispanic or Latino	participant	phs002790_PBBIRB	phs002790
+PBBIRI	White	Male	Not Hispanic or Latino	participant	phs002790_PBBIRI	phs002790
+PBBIRM	White	Female	Not Hispanic or Latino	participant	phs002790_PBBIRM	phs002790
+PBBISC	White	Female	Not Hispanic or Latino	participant	phs002790_PBBISC	phs002790
+PBBISG	White	Female	Not Hispanic or Latino	participant	phs002790_PBBISG	phs002790
+PBBISR	White	Male	Not Hispanic or Latino	participant	phs002790_PBBISR	phs002790
+PBBISY	White	Female	Hispanic or Latino	participant	phs002790_PBBISY	phs002790
+PBBITE	White	Male	Not Reported	participant	phs002790_PBBITE	phs002790
+PBBITF	Black or African American	Female	Not Hispanic or Latino	participant	phs002790_PBBITF	phs002790
+PBBIUB	White	Male	Not Hispanic or Latino	participant	phs002790_PBBIUB	phs002790
+PBBIUC	White	Female	Not Hispanic or Latino	participant	phs002790_PBBIUC	phs002790
+PBBIUN	Asian	Male	Not Hispanic or Latino	participant	phs002790_PBBIUN	phs002790
+PBBIUS	White	Male	Not Hispanic or Latino	participant	phs002790_PBBIUS	phs002790
+PBBIVA	White	Male	Not Hispanic or Latino	participant	phs002790_PBBIVA	phs002790
+PBBIVB	White	Male	Not Hispanic or Latino	participant	phs002790_PBBIVB	phs002790
+PBBIVU	White	Male	Not Hispanic or Latino	participant	phs002790_PBBIVU	phs002790
+PBBIVW	White	Female	Hispanic or Latino	participant	phs002790_PBBIVW	phs002790
+PBBIWP	Unknown	Female	Unknown	participant	phs002790_PBBIWP	phs002790
+PBBIXN	White	Male	Not Hispanic or Latino	participant	phs002790_PBBIXN	phs002790
+PBBIXR	White	Female	Not Hispanic or Latino	participant	phs002790_PBBIXR	phs002790
+PBBIXX	White	Male	Not Hispanic or Latino	participant	phs002790_PBBIXX	phs002790
+PBBIYG	White	Male	Not Hispanic or Latino	participant	phs002790_PBBIYG	phs002790
+PBBIZK	White	Female	Not Reported	participant	phs002790_PBBIZK	phs002790
+PBBIZT	White	Male	Not Hispanic or Latino	participant	phs002790_PBBIZT	phs002790
+PBBJAD	White	Female	Not Hispanic or Latino	participant	phs002790_PBBJAD	phs002790
+PBBJAU	Unknown	Male	Unknown	participant	phs002790_PBBJAU	phs002790
+PBBJAY	White	Female	Not Hispanic or Latino	participant	phs002790_PBBJAY	phs002790
+PBBJBJ	White	Female	Not Hispanic or Latino	participant	phs002790_PBBJBJ	phs002790
+PBBJCX	Unknown	Male	Hispanic or Latino	participant	phs002790_PBBJCX	phs002790
+PBBJDE	White	Male	Not Hispanic or Latino	participant	phs002790_PBBJDE	phs002790
+PBBJFF	White	Female	Hispanic or Latino	participant	phs002790_PBBJFF	phs002790
+PBBJFI	White	Female	Hispanic or Latino	participant	phs002790_PBBJFI	phs002790
+PBBJGC	White	Male	Not Hispanic or Latino	participant	phs002790_PBBJGC	phs002790
+PBBJGW	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBJGW	phs002790
+PBBJGY	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBJGY	phs002790
+PBBJHD	Unknown	Male	Not Hispanic or Latino	participant	phs002790_PBBJHD	phs002790
+PBBJHS	White	Female	Not Hispanic or Latino	participant	phs002790_PBBJHS	phs002790
+PBBJIA	White	Male	Not Hispanic or Latino	participant	phs002790_PBBJIA	phs002790
+PBBJIB	White	Male	Not Hispanic or Latino	participant	phs002790_PBBJIB	phs002790
+PBBJIF	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBJIF	phs002790
+PBBJIL	White	Female	Not Hispanic or Latino	participant	phs002790_PBBJIL	phs002790
+PBBJJD	White	Male	Not Hispanic or Latino	participant	phs002790_PBBJJD	phs002790
+PBBJJE	Black or African American	Female	Not Hispanic or Latino	participant	phs002790_PBBJJE	phs002790
+PBBJJP	Not Reported	Male	Hispanic or Latino	participant	phs002790_PBBJJP	phs002790
+PBBJJS	Not Reported	Male	Hispanic or Latino	participant	phs002790_PBBJJS	phs002790
+PBBJJT	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBJJT	phs002790
+PBBJJX	White	Female	Not Reported	participant	phs002790_PBBJJX	phs002790
+PBBJKE	White	Male	Not Hispanic or Latino	participant	phs002790_PBBJKE	phs002790
+PBBJKN	White	Male	Not Hispanic or Latino	participant	phs002790_PBBJKN	phs002790
+PBBJKP	White	Male	Not Reported	participant	phs002790_PBBJKP	phs002790
+PBBJLB	White	Male	Hispanic or Latino	participant	phs002790_PBBJLB	phs002790
+PBBJMC	White	Male	Not Hispanic or Latino	participant	phs002790_PBBJMC	phs002790
+PBBJMI	White	Male	Hispanic or Latino	participant	phs002790_PBBJMI	phs002790
+PBBJMK	White	Male	Not Hispanic or Latino	participant	phs002790_PBBJMK	phs002790
+PBBJNB	White	Male	Not Hispanic or Latino	participant	phs002790_PBBJNB	phs002790
+PBBJNF	Asian	Male	Not Hispanic or Latino	participant	phs002790_PBBJNF	phs002790
+PBBJNH	Asian	Male	Hispanic or Latino	participant	phs002790_PBBJNH	phs002790
+PBBJNV	Asian	Male	Not Hispanic or Latino	participant	phs002790_PBBJNV	phs002790
+PBBJNW	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBJNW	phs002790
+PBBJPI	White	Male	Not Hispanic or Latino	participant	phs002790_PBBJPI	phs002790
+PBBJPU	White	Male	Unknown	participant	phs002790_PBBJPU	phs002790
+PBBJPZ	Black or African American	Male	Hispanic or Latino	participant	phs002790_PBBJPZ	phs002790
+PBBJRI	White	Male	Hispanic or Latino	participant	phs002790_PBBJRI	phs002790
+PBBJRM	White	Male	Not Hispanic or Latino	participant	phs002790_PBBJRM	phs002790
+PBBJSS	White	Female	Hispanic or Latino	participant	phs002790_PBBJSS	phs002790
+PBBJTB	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBJTB	phs002790
+PBBJTC	Unknown	Male	Unknown	participant	phs002790_PBBJTC	phs002790
+PBBJTG	White	Female	Not Hispanic or Latino	participant	phs002790_PBBJTG	phs002790
+PBBJUH	White	Female	Not Hispanic or Latino	participant	phs002790_PBBJUH	phs002790
+PBBJUK	White	Male	Not Hispanic or Latino	participant	phs002790_PBBJUK	phs002790
+PBBJVH	White	Female	Not Hispanic or Latino	participant	phs002790_PBBJVH	phs002790
+PBBJVN	Asian	Male	Not Hispanic or Latino	participant	phs002790_PBBJVN	phs002790
+PBBJVU	White	Female	Not Hispanic or Latino	participant	phs002790_PBBJVU	phs002790
+PBBJVW	White	Male	Not Hispanic or Latino	participant	phs002790_PBBJVW	phs002790
+PBBJWM	Black or African American	Female	Not Hispanic or Latino	participant	phs002790_PBBJWM	phs002790
+PBBJXV	White	Male	Not Hispanic or Latino	participant	phs002790_PBBJXV	phs002790
+PBBJYH	White	Male	Not Hispanic or Latino	participant	phs002790_PBBJYH	phs002790
+PBBJZE	White;American Indian or Alaska Native	Male	Not Hispanic or Latino	participant	phs002790_PBBJZE	phs002790
+PBBJZI	Asian	Female	Not Hispanic or Latino	participant	phs002790_PBBJZI	phs002790
+PBBJZW	Black or African American	Female	Hispanic or Latino	participant	phs002790_PBBJZW	phs002790
+PBBKAF	White	Male	Not Hispanic or Latino	participant	phs002790_PBBKAF	phs002790
+PBBKAW	White	Female	Not Reported	participant	phs002790_PBBKAW	phs002790
+PBBKBC	White	Male	Not Hispanic or Latino	participant	phs002790_PBBKBC	phs002790
+PBBKBK	Asian	Male	Not Hispanic or Latino	participant	phs002790_PBBKBK	phs002790
+PBBKBP	White	Male	Not Hispanic or Latino	participant	phs002790_PBBKBP	phs002790
+PBBKBT	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBKBT	phs002790
+PBBKCI	White	Male	Not Hispanic or Latino	participant	phs002790_PBBKCI	phs002790
+PBBKCL	White	Male	Hispanic or Latino	participant	phs002790_PBBKCL	phs002790
+PBBKCM	White;Black or African American	Male	Hispanic or Latino	participant	phs002790_PBBKCM	phs002790
+PBBKCT	Black or African American	Female	Not Hispanic or Latino	participant	phs002790_PBBKCT	phs002790
+PBBKCW	American Indian or Alaska Native	Male	Not Hispanic or Latino	participant	phs002790_PBBKCW	phs002790
+PBBKDD	White	Female	Not Hispanic or Latino	participant	phs002790_PBBKDD	phs002790
+PBBKDK	Not Reported	Female	Hispanic or Latino	participant	phs002790_PBBKDK	phs002790
+PBBKDM	White	Male	Not Hispanic or Latino	participant	phs002790_PBBKDM	phs002790
+PBBKEA	White	Male	Not Hispanic or Latino	participant	phs002790_PBBKEA	phs002790
+PBBKEC	White	Male	Not Hispanic or Latino	participant	phs002790_PBBKEC	phs002790
+PBBKEG	Asian	Female	Not Hispanic or Latino	participant	phs002790_PBBKEG	phs002790
+PBBKER	Black or African American	Female	Not Hispanic or Latino	participant	phs002790_PBBKER	phs002790
+PBBKFC	White	Male	Not Hispanic or Latino	participant	phs002790_PBBKFC	phs002790
+PBBKFN	White	Male	Hispanic or Latino	participant	phs002790_PBBKFN	phs002790
+PBBKFX	White	Female	Not Hispanic or Latino	participant	phs002790_PBBKFX	phs002790
+PBBKGA	White	Male	Not Hispanic or Latino	participant	phs002790_PBBKGA	phs002790
+PBBKGG	White	Male	Not Hispanic or Latino	participant	phs002790_PBBKGG	phs002790
+PBBKGV	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBKGV	phs002790
+PBBKHG	White	Male	Hispanic or Latino	participant	phs002790_PBBKHG	phs002790
+PBBKHM	White	Male	Hispanic or Latino	participant	phs002790_PBBKHM	phs002790
+PBBKHR	White	Male	Not Hispanic or Latino	participant	phs002790_PBBKHR	phs002790
+PBBKIA	White	Female	Not Hispanic or Latino	participant	phs002790_PBBKIA	phs002790
+PBBKIK	Unknown	Male	Unknown	participant	phs002790_PBBKIK	phs002790
+PBBKIL	Not Reported	Female	Unknown	participant	phs002790_PBBKIL	phs002790
+PBBKJI	White	Female	Not Hispanic or Latino	participant	phs002790_PBBKJI	phs002790
+PBBKJT	White	Female	Not Hispanic or Latino	participant	phs002790_PBBKJT	phs002790
+PBBKKT	White	Male	Hispanic or Latino	participant	phs002790_PBBKKT	phs002790
+PBBKKX	White	Female	Not Hispanic or Latino	participant	phs002790_PBBKKX	phs002790
+PBBKLK	Asian	Male	Not Reported	participant	phs002790_PBBKLK	phs002790
+PBBKLS	Native Hawaiian or Other Pacific Islander	Male	Not Hispanic or Latino	participant	phs002790_PBBKLS	phs002790
+PBBKMK	White	Male	Not Hispanic or Latino	participant	phs002790_PBBKMK	phs002790
+PBBKMV	Asian	Female	Not Hispanic or Latino	participant	phs002790_PBBKMV	phs002790
+PBBKNA	White	Female	Not Hispanic or Latino	participant	phs002790_PBBKNA	phs002790
+PBBKND	White	Male	Not Hispanic or Latino	participant	phs002790_PBBKND	phs002790
+PBBKPA	White	Male	Not Hispanic or Latino	participant	phs002790_PBBKPA	phs002790
+PBBKPJ	White	Male	Not Hispanic or Latino	participant	phs002790_PBBKPJ	phs002790
+PBBKPL	White	Female	Hispanic or Latino	participant	phs002790_PBBKPL	phs002790
+PBBKPM	White	Female	Not Hispanic or Latino	participant	phs002790_PBBKPM	phs002790
+PBBKPN	White	Female	Not Hispanic or Latino	participant	phs002790_PBBKPN	phs002790
+PBBKPY	White	Male	Not Hispanic or Latino	participant	phs002790_PBBKPY	phs002790
+PBBKRS	Native Hawaiian or Other Pacific Islander	Male	Not Hispanic or Latino	participant	phs002790_PBBKRS	phs002790
+PBBKRT	White	Male	Not Hispanic or Latino	participant	phs002790_PBBKRT	phs002790
+PBBKSG	Black or African American	Female	Not Hispanic or Latino	participant	phs002790_PBBKSG	phs002790
+PBBKSJ	White	Male	Not Hispanic or Latino	participant	phs002790_PBBKSJ	phs002790
+PBBKSP	Black or African American	Male	Unknown	participant	phs002790_PBBKSP	phs002790
+PBBKSS	White	Female	Not Hispanic or Latino	participant	phs002790_PBBKSS	phs002790
+PBBKTB	White	Female	Not Hispanic or Latino	participant	phs002790_PBBKTB	phs002790
+PBBKTD	White	Male	Not Hispanic or Latino	participant	phs002790_PBBKTD	phs002790
+PBBKTT	Not Reported	Female	Unknown	participant	phs002790_PBBKTT	phs002790
+PBBKTU	Not Reported	Male	Not Reported	participant	phs002790_PBBKTU	phs002790
+PBBKUF	White	Male	Not Hispanic or Latino	participant	phs002790_PBBKUF	phs002790
+PBBKUH	White	Male	Not Hispanic or Latino	participant	phs002790_PBBKUH	phs002790
+PBBKUP	Asian	Female	Not Hispanic or Latino	participant	phs002790_PBBKUP	phs002790
+PBBKVB	Not Reported	Male	Not Reported	participant	phs002790_PBBKVB	phs002790
+PBBKVP	White	Male	Not Hispanic or Latino	participant	phs002790_PBBKVP	phs002790
+PBBKWB	White	Female	Not Hispanic or Latino	participant	phs002790_PBBKWB	phs002790
+PBBKXE	White	Male	Not Hispanic or Latino	participant	phs002790_PBBKXE	phs002790
+PBBKXH	Asian	Male	Not Hispanic or Latino	participant	phs002790_PBBKXH	phs002790
+PBBKXJ	White	Female	Hispanic or Latino	participant	phs002790_PBBKXJ	phs002790
+PBBKXM	White	Male	Not Hispanic or Latino	participant	phs002790_PBBKXM	phs002790
+PBBKXV	White	Female	Not Hispanic or Latino	participant	phs002790_PBBKXV	phs002790
+PBBKYI	White	Male	Unknown	participant	phs002790_PBBKYI	phs002790
+PBBKYK	White	Female	Not Hispanic or Latino	participant	phs002790_PBBKYK	phs002790
+PBBKZD	White	Female	Not Hispanic or Latino	participant	phs002790_PBBKZD	phs002790
+PBBKZM	White	Male	Not Reported	participant	phs002790_PBBKZM	phs002790
+PBBKZS	American Indian or Alaska Native	Male	Not Reported	participant	phs002790_PBBKZS	phs002790
+PBBKZT	Asian	Female	Not Hispanic or Latino	participant	phs002790_PBBKZT	phs002790
+PBBLAC	White	Male	Not Hispanic or Latino	participant	phs002790_PBBLAC	phs002790
+PBBLBD	White	Male	Not Hispanic or Latino	participant	phs002790_PBBLBD	phs002790
+PBBLBN	White	Female	Not Hispanic or Latino	participant	phs002790_PBBLBN	phs002790
+PBBLBT	Unknown	Female	Unknown	participant	phs002790_PBBLBT	phs002790
+PBBLCW	White	Male	Not Hispanic or Latino	participant	phs002790_PBBLCW	phs002790
+PBBLDU	White	Female	Not Hispanic or Latino	participant	phs002790_PBBLDU	phs002790
+PBBLDX	White	Female	Not Hispanic or Latino	participant	phs002790_PBBLDX	phs002790
+PBBLEG	White	Female	Not Hispanic or Latino	participant	phs002790_PBBLEG	phs002790
+PBBLEJ	Not Reported	Female	Not Reported	participant	phs002790_PBBLEJ	phs002790
+PBBLES	White	Female	Not Hispanic or Latino	participant	phs002790_PBBLES	phs002790
+PBBLEW	White	Male	Not Hispanic or Latino	participant	phs002790_PBBLEW	phs002790
+PBBLEY	Unknown	Female	Not Hispanic or Latino	participant	phs002790_PBBLEY	phs002790
+PBBLFD	White	Male	Not Hispanic or Latino	participant	phs002790_PBBLFD	phs002790
+PBBLFI	White	Female	Not Hispanic or Latino	participant	phs002790_PBBLFI	phs002790
+PBBLFW	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBLFW	phs002790
+PBBLGF	White	Female	Not Hispanic or Latino	participant	phs002790_PBBLGF	phs002790
+PBBLGZ	White	Male	Not Hispanic or Latino	participant	phs002790_PBBLGZ	phs002790
+PBBLHI	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBLHI	phs002790
+PBBLHM	White	Male	Not Hispanic or Latino	participant	phs002790_PBBLHM	phs002790
+PBBLHR	White	Male	Hispanic or Latino	participant	phs002790_PBBLHR	phs002790
+PBBLHT	Not Reported	Female	Hispanic or Latino	participant	phs002790_PBBLHT	phs002790
+PBBLIA	Not Reported	Male	Not Hispanic or Latino	participant	phs002790_PBBLIA	phs002790
+PBBLIH	White	Male	Hispanic or Latino	participant	phs002790_PBBLIH	phs002790
+PBBLIX	White	Male	Not Hispanic or Latino	participant	phs002790_PBBLIX	phs002790
+PBBLJE	White	Male	Not Hispanic or Latino	participant	phs002790_PBBLJE	phs002790
+PBBLJJ	White	Male	Not Hispanic or Latino	participant	phs002790_PBBLJJ	phs002790
+PBBLKA	White	Female	Not Hispanic or Latino	participant	phs002790_PBBLKA	phs002790
+PBBLKB	White	Male	Not Hispanic or Latino	participant	phs002790_PBBLKB	phs002790
+PBBLKF	White	Female	Not Hispanic or Latino	participant	phs002790_PBBLKF	phs002790
+PBBLKN	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBLKN	phs002790
+PBBLKT	White	Male	Hispanic or Latino	participant	phs002790_PBBLKT	phs002790
+PBBLLB	Not Reported	Male	Hispanic or Latino	participant	phs002790_PBBLLB	phs002790
+PBBLLJ	White	Male	Not Hispanic or Latino	participant	phs002790_PBBLLJ	phs002790
+PBBLLP	Unknown	Female	Hispanic or Latino	participant	phs002790_PBBLLP	phs002790
+PBBLMB	Not Reported	Male	Not Reported	participant	phs002790_PBBLMB	phs002790
+PBBLMC	White	Male	Hispanic or Latino	participant	phs002790_PBBLMC	phs002790
+PBBLML	White	Male	Unknown	participant	phs002790_PBBLML	phs002790
+PBBLMW	Not Reported	Female	Not Hispanic or Latino	participant	phs002790_PBBLMW	phs002790
+PBBLNB	White	Male	Not Hispanic or Latino	participant	phs002790_PBBLNB	phs002790
+PBBLNE	White	Male	Not Hispanic or Latino	participant	phs002790_PBBLNE	phs002790
+PBBLNJ	White	Male	Not Hispanic or Latino	participant	phs002790_PBBLNJ	phs002790
+PBBLNU	Unknown	Female	Unknown	participant	phs002790_PBBLNU	phs002790
+PBBLPC	White	Female	Not Hispanic or Latino	participant	phs002790_PBBLPC	phs002790
+PBBLPD	White	Female	Not Hispanic or Latino	participant	phs002790_PBBLPD	phs002790
+PBBLPG	White	Male	Not Reported	participant	phs002790_PBBLPG	phs002790
+PBBLPL	White	Male	Not Hispanic or Latino	participant	phs002790_PBBLPL	phs002790
+PBBLPR	Unknown	Female	Unknown	participant	phs002790_PBBLPR	phs002790
+PBBLPX	Unknown	Female	Hispanic or Latino	participant	phs002790_PBBLPX	phs002790
+PBBLPZ	White;Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBLPZ	phs002790
+PBBLRV	Asian	Female	Hispanic or Latino	participant	phs002790_PBBLRV	phs002790
+PBBLSB	White	Male	Not Hispanic or Latino	participant	phs002790_PBBLSB	phs002790
+PBBLSC	White	Male	Not Hispanic or Latino	participant	phs002790_PBBLSC	phs002790
+PBBLSD	White	Male	Hispanic or Latino	participant	phs002790_PBBLSD	phs002790
+PBBLSE	White	Female	Not Hispanic or Latino	participant	phs002790_PBBLSE	phs002790
+PBBLSG	White	Female	Not Hispanic or Latino	participant	phs002790_PBBLSG	phs002790
+PBBLSH	Black or African American	Male	Hispanic or Latino	participant	phs002790_PBBLSH	phs002790
+PBBLSI	White	Male	Not Hispanic or Latino	participant	phs002790_PBBLSI	phs002790
+PBBLSU	White	Male	Hispanic or Latino	participant	phs002790_PBBLSU	phs002790
+PBBLSZ	White	Male	Hispanic or Latino	participant	phs002790_PBBLSZ	phs002790
+PBBLTX	Not Reported	Female	Not Reported	participant	phs002790_PBBLTX	phs002790
+PBBLUN	White	Male	Not Hispanic or Latino	participant	phs002790_PBBLUN	phs002790
+PBBLUX	White	Male	Unknown	participant	phs002790_PBBLUX	phs002790
+PBBLWB	White	Male	Not Hispanic or Latino	participant	phs002790_PBBLWB	phs002790
+PBBLWR	Asian	Female	Not Hispanic or Latino	participant	phs002790_PBBLWR	phs002790
+PBBLWW	White	Male	Hispanic or Latino	participant	phs002790_PBBLWW	phs002790
+PBBLXA	White	Female	Hispanic or Latino	participant	phs002790_PBBLXA	phs002790
+PBBLXG	White	Male	Hispanic or Latino	participant	phs002790_PBBLXG	phs002790
+PBBLXN	White	Male	Not Hispanic or Latino	participant	phs002790_PBBLXN	phs002790
+PBBLXR	White	Female	Not Hispanic or Latino	participant	phs002790_PBBLXR	phs002790
+PBBLXS	White	Male	Not Hispanic or Latino	participant	phs002790_PBBLXS	phs002790
+PBBLXV	White	Male	Not Hispanic or Latino	participant	phs002790_PBBLXV	phs002790
+PBBLXX	White	Male	Hispanic or Latino	participant	phs002790_PBBLXX	phs002790
+PBBLXY	White	Female	Not Hispanic or Latino	participant	phs002790_PBBLXY	phs002790
+PBBLYB	Black or African American	Female	Not Hispanic or Latino	participant	phs002790_PBBLYB	phs002790
+PBBLYY	Black or African American	Female	Not Hispanic or Latino	participant	phs002790_PBBLYY	phs002790
+PBBLYZ	White	Male	Not Hispanic or Latino	participant	phs002790_PBBLYZ	phs002790
+PBBLZF	Not Reported	Female	Not Hispanic or Latino	participant	phs002790_PBBLZF	phs002790
+PBBLZZ	White	Female	Not Hispanic or Latino	participant	phs002790_PBBLZZ	phs002790
+PBBMAB	Not Reported	Male	Not Reported	participant	phs002790_PBBMAB	phs002790
+PBBMAR	White	Female	Not Hispanic or Latino	participant	phs002790_PBBMAR	phs002790
+PBBMAW	White	Female	Not Hispanic or Latino	participant	phs002790_PBBMAW	phs002790
+PBBMAX	White	Male	Not Hispanic or Latino	participant	phs002790_PBBMAX	phs002790
+PBBMBK	White	Female	Not Hispanic or Latino	participant	phs002790_PBBMBK	phs002790
+PBBMBM	White;Black or African American	Female	Hispanic or Latino	participant	phs002790_PBBMBM	phs002790
+PBBMBU	White	Female	Not Hispanic or Latino	participant	phs002790_PBBMBU	phs002790
+PBBMBX	White	Female	Not Hispanic or Latino	participant	phs002790_PBBMBX	phs002790
+PBBMCC	White	Male	Not Hispanic or Latino	participant	phs002790_PBBMCC	phs002790
+PBBMCH	Asian	Female	Not Hispanic or Latino	participant	phs002790_PBBMCH	phs002790
+PBBMCL	White	Female	Not Hispanic or Latino	participant	phs002790_PBBMCL	phs002790
+PBBMCN	Not Reported	Male	Not Reported	participant	phs002790_PBBMCN	phs002790
+PBBMCS	White	Female	Not Hispanic or Latino	participant	phs002790_PBBMCS	phs002790
+PBBMCU	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBMCU	phs002790
+PBBMCX	White	Male	Not Hispanic or Latino	participant	phs002790_PBBMCX	phs002790
+PBBMEA	White	Male	Not Hispanic or Latino	participant	phs002790_PBBMEA	phs002790
+PBBMEG	White	Female	Not Hispanic or Latino	participant	phs002790_PBBMEG	phs002790
+PBBMEH	White	Male	Not Hispanic or Latino	participant	phs002790_PBBMEH	phs002790
+PBBMEX	White	Female	Hispanic or Latino	participant	phs002790_PBBMEX	phs002790
+PBBMEY	Black or African American	Female	Not Hispanic or Latino	participant	phs002790_PBBMEY	phs002790
+PBBMFA	White	Male	Not Hispanic or Latino	participant	phs002790_PBBMFA	phs002790
+PBBMFF	White	Female	Not Hispanic or Latino	participant	phs002790_PBBMFF	phs002790
+PBBMFM	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBMFM	phs002790
+PBBMFN	Black or African American	Female	Not Hispanic or Latino	participant	phs002790_PBBMFN	phs002790
+PBBMFU	Unknown;Not Reported	Male	Hispanic or Latino	participant	phs002790_PBBMFU	phs002790
+PBBMFY	White	Female	Not Hispanic or Latino	participant	phs002790_PBBMFY	phs002790
+PBBMFZ	White	Female	Not Hispanic or Latino	participant	phs002790_PBBMFZ	phs002790
+PBBMGD	White	Female	Not Hispanic or Latino	participant	phs002790_PBBMGD	phs002790
+PBBMHC	Not Reported	Male	Not Hispanic or Latino	participant	phs002790_PBBMHC	phs002790
+PBBMHS	White	Male	Not Hispanic or Latino	participant	phs002790_PBBMHS	phs002790
+PBBMHY	White	Female	Not Hispanic or Latino	participant	phs002790_PBBMHY	phs002790
+PBBMII	White	Female	Not Hispanic or Latino	participant	phs002790_PBBMII	phs002790
+PBBMIP	Not Reported	Female	Not Reported	participant	phs002790_PBBMIP	phs002790
+PBBMIX	Unknown	Male	Unknown	participant	phs002790_PBBMIX	phs002790
+PBBMIY	White	Female	Not Hispanic or Latino	participant	phs002790_PBBMIY	phs002790
+PBBMIZ	White	Male	Not Hispanic or Latino	participant	phs002790_PBBMIZ	phs002790
+PBBMJK	White	Male	Not Hispanic or Latino	participant	phs002790_PBBMJK	phs002790
+PBBMJN	Not Reported	Male	Hispanic or Latino	participant	phs002790_PBBMJN	phs002790
+PBBMJP	White	Female	Hispanic or Latino	participant	phs002790_PBBMJP	phs002790
+PBBMJT	White	Male	Hispanic or Latino	participant	phs002790_PBBMJT	phs002790
+PBBMJV	Unknown	Male	Hispanic or Latino	participant	phs002790_PBBMJV	phs002790
+PBBMJZ	White	Male	Not Hispanic or Latino	participant	phs002790_PBBMJZ	phs002790
+PBBMKD	White	Male	Hispanic or Latino	participant	phs002790_PBBMKD	phs002790
+PBBMKF	White	Female	Hispanic or Latino	participant	phs002790_PBBMKF	phs002790
+PBBMKI	White	Male	Not Hispanic or Latino	participant	phs002790_PBBMKI	phs002790
+PBBMKK	White	Female	Not Hispanic or Latino	participant	phs002790_PBBMKK	phs002790
+PBBMKM	White	Female	Hispanic or Latino	participant	phs002790_PBBMKM	phs002790
+PBBMLA	White	Female	Not Hispanic or Latino	participant	phs002790_PBBMLA	phs002790
+PBBMLH	Black or African American	Female	Not Hispanic or Latino	participant	phs002790_PBBMLH	phs002790
+PBBMLJ	White	Male	Not Hispanic or Latino	participant	phs002790_PBBMLJ	phs002790
+PBBMLN	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBMLN	phs002790
+PBBMME	White	Female	Not Hispanic or Latino	participant	phs002790_PBBMME	phs002790
+PBBMMW	White	Male	Hispanic or Latino	participant	phs002790_PBBMMW	phs002790
+PBBMNL	Unknown	Female	Unknown	participant	phs002790_PBBMNL	phs002790
+PBBMNW	White	Male	Not Hispanic or Latino	participant	phs002790_PBBMNW	phs002790
+PBBMNX	White	Male	Not Hispanic or Latino	participant	phs002790_PBBMNX	phs002790
+PBBMPA	White	Male	Not Hispanic or Latino	participant	phs002790_PBBMPA	phs002790
+PBBMPD	White	Female	Not Hispanic or Latino	participant	phs002790_PBBMPD	phs002790
+PBBMPH	White	Female	Not Hispanic or Latino	participant	phs002790_PBBMPH	phs002790
+PBBMRN	White	Female	Not Hispanic or Latino	participant	phs002790_PBBMRN	phs002790
+PBBMRT	White	Female	Not Hispanic or Latino	participant	phs002790_PBBMRT	phs002790
+PBBMSC	Black or African American	Female	Not Hispanic or Latino	participant	phs002790_PBBMSC	phs002790
+PBBMSR	Asian	Female	Not Hispanic or Latino	participant	phs002790_PBBMSR	phs002790
+PBBMSY	Asian	Female	Not Hispanic or Latino	participant	phs002790_PBBMSY	phs002790
+PBBMTC	Unknown	Male	Not Hispanic or Latino	participant	phs002790_PBBMTC	phs002790
+PBBMTH	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBMTH	phs002790
+PBBMTJ	White	Male	Not Hispanic or Latino	participant	phs002790_PBBMTJ	phs002790
+PBBMUA	Unknown	Female	Unknown	participant	phs002790_PBBMUA	phs002790
+PBBMUT	White	Female	Not Hispanic or Latino	participant	phs002790_PBBMUT	phs002790
+PBBMVS	White	Female	Not Hispanic or Latino	participant	phs002790_PBBMVS	phs002790
+PBBMVW	White	Male	Not Hispanic or Latino	participant	phs002790_PBBMVW	phs002790
+PBBMVY	White	Female	Not Hispanic or Latino	participant	phs002790_PBBMVY	phs002790
+PBBMWE	White	Male	Not Hispanic or Latino	participant	phs002790_PBBMWE	phs002790
+PBBMXY	White	Male	Hispanic or Latino	participant	phs002790_PBBMXY	phs002790
+PBBMYD	Unknown	Female	Not Hispanic or Latino	participant	phs002790_PBBMYD	phs002790
+PBBMYG	Asian	Male	Not Hispanic or Latino	participant	phs002790_PBBMYG	phs002790
+PBBMYI	White	Male	Not Hispanic or Latino	participant	phs002790_PBBMYI	phs002790
+PBBMYJ	White	Male	Not Hispanic or Latino	participant	phs002790_PBBMYJ	phs002790
+PBBMYK	Unknown	Female	Unknown	participant	phs002790_PBBMYK	phs002790
+PBBMYX	Unknown	Female	Hispanic or Latino	participant	phs002790_PBBMYX	phs002790
+PBBMZU	White	Female	Not Hispanic or Latino	participant	phs002790_PBBMZU	phs002790
+PBBMZW	Not Reported	Female	Not Reported	participant	phs002790_PBBMZW	phs002790
+PBBMZY	White	Female	Not Hispanic or Latino	participant	phs002790_PBBMZY	phs002790
+PBBNAN	White	Male	Not Hispanic or Latino	participant	phs002790_PBBNAN	phs002790
+PBBNAU	Native Hawaiian or Other Pacific Islander	Male	Not Hispanic or Latino	participant	phs002790_PBBNAU	phs002790
+PBBNAV	Asian	Male	Not Hispanic or Latino	participant	phs002790_PBBNAV	phs002790
+PBBNAY	White	Male	Not Reported	participant	phs002790_PBBNAY	phs002790
+PBBNBI	White	Male	Hispanic or Latino	participant	phs002790_PBBNBI	phs002790
+PBBNBU	White;Native Hawaiian or Other Pacific Islander	Female	Not Hispanic or Latino	participant	phs002790_PBBNBU	phs002790
+PBBNBV	Not Reported	Male	Not Reported	participant	phs002790_PBBNBV	phs002790
+PBBNBW	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBNBW	phs002790
+PBBNCA	White	Female	Not Hispanic or Latino	participant	phs002790_PBBNCA	phs002790
+PBBNCV	White	Male	Not Hispanic or Latino	participant	phs002790_PBBNCV	phs002790
+PBBNDI	White	Male	Not Hispanic or Latino	participant	phs002790_PBBNDI	phs002790
+PBBNDK	Unknown	Female	Not Hispanic or Latino	participant	phs002790_PBBNDK	phs002790
+PBBNDM	Unknown	Male	Unknown	participant	phs002790_PBBNDM	phs002790
+PBBNDR	White	Male	Hispanic or Latino	participant	phs002790_PBBNDR	phs002790
+PBBNDZ	White	Male	Not Hispanic or Latino	participant	phs002790_PBBNDZ	phs002790
+PBBNFB	White	Male	Hispanic or Latino	participant	phs002790_PBBNFB	phs002790
+PBBNFE	White	Female	Not Hispanic or Latino	participant	phs002790_PBBNFE	phs002790
+PBBNFF	White	Male	Not Hispanic or Latino	participant	phs002790_PBBNFF	phs002790
+PBBNFH	White	Male	Not Hispanic or Latino	participant	phs002790_PBBNFH	phs002790
+PBBNFJ	White	Male	Not Hispanic or Latino	participant	phs002790_PBBNFJ	phs002790
+PBBNFL	White	Female	Not Reported	participant	phs002790_PBBNFL	phs002790
+PBBNFP	American Indian or Alaska Native	Female	Hispanic or Latino	participant	phs002790_PBBNFP	phs002790
+PBBNFR	White	Male	Not Hispanic or Latino	participant	phs002790_PBBNFR	phs002790
+PBBNFX	White	Female	Not Hispanic or Latino	participant	phs002790_PBBNFX	phs002790
+PBBNGE	Unknown	Male	Unknown	participant	phs002790_PBBNGE	phs002790
+PBBNHH	White	Male	Not Hispanic or Latino	participant	phs002790_PBBNHH	phs002790
+PBBNHL	White	Male	Hispanic or Latino	participant	phs002790_PBBNHL	phs002790
+PBBNHM	White	Male	Hispanic or Latino	participant	phs002790_PBBNHM	phs002790
+PBBNIJ	Asian	Female	Not Hispanic or Latino	participant	phs002790_PBBNIJ	phs002790
+PBBNIZ	White	Male	Not Hispanic or Latino	participant	phs002790_PBBNIZ	phs002790
+PBBNJH	White	Male	Not Hispanic or Latino	participant	phs002790_PBBNJH	phs002790
+PBBNJM	White	Female	Unknown	participant	phs002790_PBBNJM	phs002790
+PBBNJW	Black or African American	Female	Not Hispanic or Latino	participant	phs002790_PBBNJW	phs002790
+PBBNKF	Not Reported	Female	Not Hispanic or Latino	participant	phs002790_PBBNKF	phs002790
+PBBNKS	White	Female	Hispanic or Latino	participant	phs002790_PBBNKS	phs002790
+PBBNKV	White	Male	Hispanic or Latino	participant	phs002790_PBBNKV	phs002790
+PBBNKZ	White	Female	Not Hispanic or Latino	participant	phs002790_PBBNKZ	phs002790
+PBBNLA	White	Male	Hispanic or Latino	participant	phs002790_PBBNLA	phs002790
+PBBNLF	Not Reported	Male	Hispanic or Latino	participant	phs002790_PBBNLF	phs002790
+PBBNLI	Asian	Female	Not Hispanic or Latino	participant	phs002790_PBBNLI	phs002790
+PBBNMC	White	Male	Not Hispanic or Latino	participant	phs002790_PBBNMC	phs002790
+PBBNMG	White	Female	Hispanic or Latino	participant	phs002790_PBBNMG	phs002790
+PBBNMN	White	Male	Hispanic or Latino	participant	phs002790_PBBNMN	phs002790
+PBBNMV	Native Hawaiian or Other Pacific Islander	Female	Not Hispanic or Latino	participant	phs002790_PBBNMV	phs002790
+PBBNND	Asian	Female	Not Hispanic or Latino	participant	phs002790_PBBNND	phs002790
+PBBNNM	White	Female	Not Hispanic or Latino	participant	phs002790_PBBNNM	phs002790
+PBBNNR	Asian	Male	Not Hispanic or Latino	participant	phs002790_PBBNNR	phs002790
+PBBNPB	White	Male	Hispanic or Latino	participant	phs002790_PBBNPB	phs002790
+PBBNPF	White	Female	Not Hispanic or Latino	participant	phs002790_PBBNPF	phs002790
+PBBNPG	Unknown	Female	Hispanic or Latino	participant	phs002790_PBBNPG	phs002790
+PBBNPJ	Black or African American	Female	Not Hispanic or Latino	participant	phs002790_PBBNPJ	phs002790
+PBBNRK	White	Male	Hispanic or Latino	participant	phs002790_PBBNRK	phs002790
+PBBNRL	White	Female	Not Hispanic or Latino	participant	phs002790_PBBNRL	phs002790
+PBBNSB	Not Reported	Male	Not Hispanic or Latino	participant	phs002790_PBBNSB	phs002790
+PBBNSG	White;Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBNSG	phs002790
+PBBNSH	White	Female	Not Hispanic or Latino	participant	phs002790_PBBNSH	phs002790
+PBBNSR	White	Female	Not Hispanic or Latino	participant	phs002790_PBBNSR	phs002790
+PBBNST	Unknown	Female	Unknown	participant	phs002790_PBBNST	phs002790
+PBBNSW	White	Male	Not Hispanic or Latino	participant	phs002790_PBBNSW	phs002790
+PBBNSZ	Black or African American	Female	Not Hispanic or Latino	participant	phs002790_PBBNSZ	phs002790
+PBBNTF	White;Native Hawaiian or Other Pacific Islander	Male	Not Hispanic or Latino	participant	phs002790_PBBNTF	phs002790
+PBBNTK	White	Female	Not Hispanic or Latino	participant	phs002790_PBBNTK	phs002790
+PBBNTU	White	Female	Not Hispanic or Latino	participant	phs002790_PBBNTU	phs002790
+PBBNTY	White	Male	Not Hispanic or Latino	participant	phs002790_PBBNTY	phs002790
+PBBNUZ	White	Male	Not Hispanic or Latino	participant	phs002790_PBBNUZ	phs002790
+PBBNVD	Not Reported	Female	Hispanic or Latino	participant	phs002790_PBBNVD	phs002790
+PBBNVH	Asian	Female	Not Hispanic or Latino	participant	phs002790_PBBNVH	phs002790
+PBBNVL	White	Male	Hispanic or Latino	participant	phs002790_PBBNVL	phs002790
+PBBNVP	White	Male	Not Hispanic or Latino	participant	phs002790_PBBNVP	phs002790
+PBBNVU	White	Male	Hispanic or Latino	participant	phs002790_PBBNVU	phs002790
+PBBNVV	White	Female	Not Hispanic or Latino	participant	phs002790_PBBNVV	phs002790
+PBBNVW	Black or African American	Female	Not Hispanic or Latino	participant	phs002790_PBBNVW	phs002790
+PBBNVX	Black or African American	Female	Not Hispanic or Latino	participant	phs002790_PBBNVX	phs002790
+PBBNWB	White	Female	Not Hispanic or Latino	participant	phs002790_PBBNWB	phs002790
+PBBNWE	Native Hawaiian or Other Pacific Islander	Female	Not Hispanic or Latino	participant	phs002790_PBBNWE	phs002790
+PBBNWG	White	Male	Not Hispanic or Latino	participant	phs002790_PBBNWG	phs002790
+PBBNWS	White	Male	Not Hispanic or Latino	participant	phs002790_PBBNWS	phs002790
+PBBNWV	Native Hawaiian or Other Pacific Islander	Male	Hispanic or Latino	participant	phs002790_PBBNWV	phs002790
+PBBNXF	Black or African American	Female	Not Hispanic or Latino	participant	phs002790_PBBNXF	phs002790
+PBBNXR	White	Female	Hispanic or Latino	participant	phs002790_PBBNXR	phs002790
+PBBNXT	White	Female	Not Reported	participant	phs002790_PBBNXT	phs002790
+PBBNXU	White	Male	Not Hispanic or Latino	participant	phs002790_PBBNXU	phs002790
+PBBNXZ	White	Male	Hispanic or Latino	participant	phs002790_PBBNXZ	phs002790
+PBBNYE	White	Female	Not Hispanic or Latino	participant	phs002790_PBBNYE	phs002790
+PBBNYH	White	Male	Not Hispanic or Latino	participant	phs002790_PBBNYH	phs002790
+PBBNYL	White	Female	Hispanic or Latino	participant	phs002790_PBBNYL	phs002790
+PBBNZF	Asian	Male	Not Hispanic or Latino	participant	phs002790_PBBNZF	phs002790
+PBBNZJ	Asian	Male	Not Hispanic or Latino	participant	phs002790_PBBNZJ	phs002790
+PBBNZL	White	Male	Not Hispanic or Latino	participant	phs002790_PBBNZL	phs002790
+PBBNZV	White	Female	Not Hispanic or Latino	participant	phs002790_PBBNZV	phs002790
+PBBNZZ	White	Male	Not Hispanic or Latino	participant	phs002790_PBBNZZ	phs002790
+PBBPAA	White	Female	Not Hispanic or Latino	participant	phs002790_PBBPAA	phs002790
+PBBPAJ	White	Female	Not Hispanic or Latino	participant	phs002790_PBBPAJ	phs002790
+PBBPAM	Not Reported	Male	Hispanic or Latino	participant	phs002790_PBBPAM	phs002790
+PBBPAP	White	Female	Not Hispanic or Latino	participant	phs002790_PBBPAP	phs002790
+PBBPAR	White	Male	Hispanic or Latino	participant	phs002790_PBBPAR	phs002790
+PBBPBB	White	Female	Hispanic or Latino	participant	phs002790_PBBPBB	phs002790
+PBBPBJ	White	Male	Not Hispanic or Latino	participant	phs002790_PBBPBJ	phs002790
+PBBPBM	White	Female	Not Hispanic or Latino	participant	phs002790_PBBPBM	phs002790
+PBBPCC	White	Male	Not Hispanic or Latino	participant	phs002790_PBBPCC	phs002790
+PBBPCE	White	Female	Not Hispanic or Latino	participant	phs002790_PBBPCE	phs002790
+PBBPCL	White	Female	Not Hispanic or Latino	participant	phs002790_PBBPCL	phs002790
+PBBPDC	Unknown	Female	Unknown	participant	phs002790_PBBPDC	phs002790
+PBBPDF	White	Male	Not Hispanic or Latino	participant	phs002790_PBBPDF	phs002790
+PBBPDR	White	Male	Not Hispanic or Latino	participant	phs002790_PBBPDR	phs002790
+PBBPDS	White	Male	Not Hispanic or Latino	participant	phs002790_PBBPDS	phs002790
+PBBPDU	White	Female	Not Hispanic or Latino	participant	phs002790_PBBPDU	phs002790
+PBBPDY	White	Male	Not Hispanic or Latino	participant	phs002790_PBBPDY	phs002790
+PBBPEH	Native Hawaiian or Other Pacific Islander	Female	Not Hispanic or Latino	participant	phs002790_PBBPEH	phs002790
+PBBPEI	White	Female	Not Hispanic or Latino	participant	phs002790_PBBPEI	phs002790
+PBBPEP	White	Male	Not Hispanic or Latino	participant	phs002790_PBBPEP	phs002790
+PBBPEU	White	Male	Not Hispanic or Latino	participant	phs002790_PBBPEU	phs002790
+PBBPFA	White	Female	Not Hispanic or Latino	participant	phs002790_PBBPFA	phs002790
+PBBPFG	White	Male	Not Hispanic or Latino	participant	phs002790_PBBPFG	phs002790
+PBBPFI	Asian	Female	Not Hispanic or Latino	participant	phs002790_PBBPFI	phs002790
+PBBPGA	White	Male	Not Hispanic or Latino	participant	phs002790_PBBPGA	phs002790
+PBBPGJ	Unknown	Female	Unknown	participant	phs002790_PBBPGJ	phs002790
+PBBPGL	Asian	Male	Not Hispanic or Latino	participant	phs002790_PBBPGL	phs002790
+PBBPGM	White	Female	Not Hispanic or Latino	participant	phs002790_PBBPGM	phs002790
+PBBPGU	White	Male	Not Reported	participant	phs002790_PBBPGU	phs002790
+PBBPGX	Unknown	Male	Hispanic or Latino	participant	phs002790_PBBPGX	phs002790
+PBBPGZ	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBPGZ	phs002790
+PBBPHE	White	Female	Not Hispanic or Latino	participant	phs002790_PBBPHE	phs002790
+PBBPHZ	White	Male	Not Hispanic or Latino	participant	phs002790_PBBPHZ	phs002790
+PBBPIH	White	Male	Not Hispanic or Latino	participant	phs002790_PBBPIH	phs002790
+PBBPIV	White	Male	Not Hispanic or Latino	participant	phs002790_PBBPIV	phs002790
+PBBPIX	Not Reported	Male	Hispanic or Latino	participant	phs002790_PBBPIX	phs002790
+PBBPJD	White	Male	Not Hispanic or Latino	participant	phs002790_PBBPJD	phs002790
+PBBPJK	White	Male	Not Hispanic or Latino	participant	phs002790_PBBPJK	phs002790
+PBBPJN	White	Male	Not Hispanic or Latino	participant	phs002790_PBBPJN	phs002790
+PBBPJS	Black or African American	Female	Not Hispanic or Latino	participant	phs002790_PBBPJS	phs002790
+PBBPJU	White	Female	Not Hispanic or Latino	participant	phs002790_PBBPJU	phs002790
+PBBPJV	White	Male	Not Hispanic or Latino	participant	phs002790_PBBPJV	phs002790
+PBBPKC	White	Male	Not Hispanic or Latino	participant	phs002790_PBBPKC	phs002790
+PBBPKG	White	Female	Not Hispanic or Latino	participant	phs002790_PBBPKG	phs002790
+PBBPKI	Unknown	Female	Not Reported	participant	phs002790_PBBPKI	phs002790
+PBBPKJ	White	Female	Not Hispanic or Latino	participant	phs002790_PBBPKJ	phs002790
+PBBPKM	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBPKM	phs002790
+PBBPKN	White	Male	Not Hispanic or Latino	participant	phs002790_PBBPKN	phs002790
+PBBPLA	White	Female	Not Hispanic or Latino	participant	phs002790_PBBPLA	phs002790
+PBBPLC	Unknown	Male	Hispanic or Latino	participant	phs002790_PBBPLC	phs002790
+PBBPLF	White	Male	Hispanic or Latino	participant	phs002790_PBBPLF	phs002790
+PBBPLH	White	Female	Not Hispanic or Latino	participant	phs002790_PBBPLH	phs002790
+PBBPLS	Black or African American	Female	Hispanic or Latino	participant	phs002790_PBBPLS	phs002790
+PBBPLT	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBPLT	phs002790
+PBBPLU	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBPLU	phs002790
+PBBPLW	White	Male	Not Hispanic or Latino	participant	phs002790_PBBPLW	phs002790
+PBBPMB	Unknown	Male	Hispanic or Latino	participant	phs002790_PBBPMB	phs002790
+PBBPME	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBPME	phs002790
+PBBPMG	White	Male	Hispanic or Latino	participant	phs002790_PBBPMG	phs002790
+PBBPMJ	White	Male	Not Hispanic or Latino	participant	phs002790_PBBPMJ	phs002790
+PBBPMR	White	Male	Not Hispanic or Latino	participant	phs002790_PBBPMR	phs002790
+PBBPMT	White	Male	Not Hispanic or Latino	participant	phs002790_PBBPMT	phs002790
+PBBPMY	White	Female	Not Hispanic or Latino	participant	phs002790_PBBPMY	phs002790
+PBBPMZ	White	Male	Not Hispanic or Latino	participant	phs002790_PBBPMZ	phs002790
+PBBPNC	White	Male	Not Hispanic or Latino	participant	phs002790_PBBPNC	phs002790
+PBBPNE	Unknown	Female	Hispanic or Latino	participant	phs002790_PBBPNE	phs002790
+PBBPNK	White	Female	Not Hispanic or Latino	participant	phs002790_PBBPNK	phs002790
+PBBPNM	White	Male	Not Hispanic or Latino	participant	phs002790_PBBPNM	phs002790
+PBBPNR	White	Female	Not Hispanic or Latino	participant	phs002790_PBBPNR	phs002790
+PBBPNS	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBPNS	phs002790
+PBBPNU	White	Male	Not Hispanic or Latino	participant	phs002790_PBBPNU	phs002790
+PBBPNV	White	Female	Not Hispanic or Latino	participant	phs002790_PBBPNV	phs002790
+PBBPPA	White	Female	Not Hispanic or Latino	participant	phs002790_PBBPPA	phs002790
+PBBPPC	White	Male	Hispanic or Latino	participant	phs002790_PBBPPC	phs002790
+PBBPPS	Black or African American	Female	Not Hispanic or Latino	participant	phs002790_PBBPPS	phs002790
+PBBPPV	White	Male	Not Hispanic or Latino	participant	phs002790_PBBPPV	phs002790
+PBBPPW	White	Male	Not Hispanic or Latino	participant	phs002790_PBBPPW	phs002790
+PBBPPY	White	Male	Not Hispanic or Latino	participant	phs002790_PBBPPY	phs002790
+PBBPRL	Native Hawaiian or Other Pacific Islander	Female	Not Hispanic or Latino	participant	phs002790_PBBPRL	phs002790
+PBBPRN	White	Female	Not Hispanic or Latino	participant	phs002790_PBBPRN	phs002790
+PBBPRP	American Indian or Alaska Native	Male	Not Hispanic or Latino	participant	phs002790_PBBPRP	phs002790
+PBBPRS	White	Female	Hispanic or Latino	participant	phs002790_PBBPRS	phs002790
+PBBPRU	White	Female	Not Hispanic or Latino	participant	phs002790_PBBPRU	phs002790
+PBBPSJ	Not Reported	Female	Not Reported	participant	phs002790_PBBPSJ	phs002790
+PBBPSM	Asian	Male	Not Reported	participant	phs002790_PBBPSM	phs002790
+PBBPSX	White	Male	Not Hispanic or Latino	participant	phs002790_PBBPSX	phs002790
+PBBPSZ	White	Female	Hispanic or Latino	participant	phs002790_PBBPSZ	phs002790
+PBBPTA	White	Female	Not Reported	participant	phs002790_PBBPTA	phs002790
+PBBPTC	White	Male	Not Hispanic or Latino	participant	phs002790_PBBPTC	phs002790
+PBBPTS	White	Male	Not Hispanic or Latino	participant	phs002790_PBBPTS	phs002790
+PBBPTU	Black or African American	Female	Not Hispanic or Latino	participant	phs002790_PBBPTU	phs002790
+PBBPUC	White	Female	Not Hispanic or Latino	participant	phs002790_PBBPUC	phs002790
+PBBPUG	White	Male	Not Reported	participant	phs002790_PBBPUG	phs002790
+PBBPUJ	White	Female	Hispanic or Latino	participant	phs002790_PBBPUJ	phs002790
+PBBPUW	White	Male	Not Hispanic or Latino	participant	phs002790_PBBPUW	phs002790
+PBBPVC	White	Male	Not Hispanic or Latino	participant	phs002790_PBBPVC	phs002790
+PBBPVG	Not Reported	Female	Hispanic or Latino	participant	phs002790_PBBPVG	phs002790
+PBBPVL	Unknown	Male	Hispanic or Latino	participant	phs002790_PBBPVL	phs002790
+PBBPVR	White	Male	Not Hispanic or Latino	participant	phs002790_PBBPVR	phs002790
+PBBPVS	Black or African American	Female	Not Hispanic or Latino	participant	phs002790_PBBPVS	phs002790
+PBBPVW	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBPVW	phs002790
+PBBPVX	White	Female	Not Hispanic or Latino	participant	phs002790_PBBPVX	phs002790
+PBBPWD	Unknown	Female	Unknown	participant	phs002790_PBBPWD	phs002790
+PBBPWE	White	Female	Not Hispanic or Latino	participant	phs002790_PBBPWE	phs002790
+PBBPWG	White	Female	Not Hispanic or Latino	participant	phs002790_PBBPWG	phs002790
+PBBPWH	White	Female	Not Reported	participant	phs002790_PBBPWH	phs002790
+PBBPWK	Unknown	Male	Not Hispanic or Latino	participant	phs002790_PBBPWK	phs002790
+PBBPWT	White	Male	Hispanic or Latino	participant	phs002790_PBBPWT	phs002790
+PBBPWU	Not Reported	Female	Hispanic or Latino	participant	phs002790_PBBPWU	phs002790
+PBBPXA	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBPXA	phs002790
+PBBPXG	White	Male	Not Hispanic or Latino	participant	phs002790_PBBPXG	phs002790
+PBBPXH	White	Female	Not Hispanic or Latino	participant	phs002790_PBBPXH	phs002790
+PBBPXU	White	Male	Not Hispanic or Latino	participant	phs002790_PBBPXU	phs002790
+PBBPXX	White	Female	Hispanic or Latino	participant	phs002790_PBBPXX	phs002790
+PBBPYD	White	Female	Unknown	participant	phs002790_PBBPYD	phs002790
+PBBPYI	Black or African American	Female	Not Hispanic or Latino	participant	phs002790_PBBPYI	phs002790
+PBBPYS	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBPYS	phs002790
+PBBPZW	White	Male	Not Hispanic or Latino	participant	phs002790_PBBPZW	phs002790
+PBBRAB	White	Female	Not Hispanic or Latino	participant	phs002790_PBBRAB	phs002790
+PBBRAH	White	Female	Not Reported	participant	phs002790_PBBRAH	phs002790
+PBBRAK	White	Female	Hispanic or Latino	participant	phs002790_PBBRAK	phs002790
+PBBRAT	Unknown	Male	Hispanic or Latino	participant	phs002790_PBBRAT	phs002790
+PBBRAW	White	Female	Not Hispanic or Latino	participant	phs002790_PBBRAW	phs002790
+PBBRAZ	White	Female	Not Hispanic or Latino	participant	phs002790_PBBRAZ	phs002790
+PBBRBG	White	Male	Hispanic or Latino	participant	phs002790_PBBRBG	phs002790
+PBBRBI	Not Reported	Female	Not Hispanic or Latino	participant	phs002790_PBBRBI	phs002790
+PBBRBK	White	Female	Hispanic or Latino	participant	phs002790_PBBRBK	phs002790
+PBBRBP	White	Male	Not Hispanic or Latino	participant	phs002790_PBBRBP	phs002790
+PBBRBS	White	Female	Hispanic or Latino	participant	phs002790_PBBRBS	phs002790
+PBBRBY	White	Male	Hispanic or Latino	participant	phs002790_PBBRBY	phs002790
+PBBRBZ	White	Female	Not Hispanic or Latino	participant	phs002790_PBBRBZ	phs002790
+PBBRCF	White	Male	Hispanic or Latino	participant	phs002790_PBBRCF	phs002790
+PBBRCR	White	Male	Not Hispanic or Latino	participant	phs002790_PBBRCR	phs002790
+PBBRCW	White	Male	Hispanic or Latino	participant	phs002790_PBBRCW	phs002790
+PBBRDE	White	Male	Not Hispanic or Latino	participant	phs002790_PBBRDE	phs002790
+PBBRDG	Asian	Male	Not Hispanic or Latino	participant	phs002790_PBBRDG	phs002790
+PBBRDL	White	Female	Not Hispanic or Latino	participant	phs002790_PBBRDL	phs002790
+PBBRDM	White	Male	Not Hispanic or Latino	participant	phs002790_PBBRDM	phs002790
+PBBRDV	Asian	Female	Not Hispanic or Latino	participant	phs002790_PBBRDV	phs002790
+PBBREH	Unknown	Female	Unknown	participant	phs002790_PBBREH	phs002790
+PBBREK	White	Male	Not Hispanic or Latino	participant	phs002790_PBBREK	phs002790
+PBBRET	White	Female	Not Hispanic or Latino	participant	phs002790_PBBRET	phs002790
+PBBREU	White	Male	Not Hispanic or Latino	participant	phs002790_PBBREU	phs002790
+PBBREX	White	Female	Not Hispanic or Latino	participant	phs002790_PBBREX	phs002790
+PBBRFA	White	Male	Not Hispanic or Latino	participant	phs002790_PBBRFA	phs002790
+PBBRFJ	White	Male	Not Hispanic or Latino	participant	phs002790_PBBRFJ	phs002790
+PBBRFM	White	Female	Not Hispanic or Latino	participant	phs002790_PBBRFM	phs002790
+PBBRFR	White	Female	Hispanic or Latino	participant	phs002790_PBBRFR	phs002790
+PBBRGE	Unknown	Male	Unknown	participant	phs002790_PBBRGE	phs002790
+PBBRGL	White	Female	Not Hispanic or Latino	participant	phs002790_PBBRGL	phs002790
+PBBRGM	White	Male	Not Hispanic or Latino	participant	phs002790_PBBRGM	phs002790
+PBBRGU	White	Male	Unknown	participant	phs002790_PBBRGU	phs002790
+PBBRGW	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBRGW	phs002790
+PBBRHB	White	Male	Not Hispanic or Latino	participant	phs002790_PBBRHB	phs002790
+PBBRHM	White	Female	Not Hispanic or Latino	participant	phs002790_PBBRHM	phs002790
+PBBRIA	White	Male	Not Hispanic or Latino	participant	phs002790_PBBRIA	phs002790
+PBBRIC	White	Female	Hispanic or Latino	participant	phs002790_PBBRIC	phs002790
+PBBRIE	Black or African American	Female	Not Hispanic or Latino	participant	phs002790_PBBRIE	phs002790
+PBBRIH	Unknown	Female	Unknown	participant	phs002790_PBBRIH	phs002790
+PBBRIL	White	Male	Hispanic or Latino	participant	phs002790_PBBRIL	phs002790
+PBBRJL	Black or African American	Female	Not Hispanic or Latino	participant	phs002790_PBBRJL	phs002790
+PBBRJW	White	Male	Hispanic or Latino	participant	phs002790_PBBRJW	phs002790
+PBBRJZ	White	Female	Not Hispanic or Latino	participant	phs002790_PBBRJZ	phs002790
+PBBRKB	White	Male	Not Hispanic or Latino	participant	phs002790_PBBRKB	phs002790
+PBBRKD	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBRKD	phs002790
+PBBRKJ	White	Male	Not Hispanic or Latino	participant	phs002790_PBBRKJ	phs002790
+PBBRKN	White	Male	Not Hispanic or Latino	participant	phs002790_PBBRKN	phs002790
+PBBRKP	White	Male	Unknown	participant	phs002790_PBBRKP	phs002790
+PBBRKT	Asian	Male	Not Hispanic or Latino	participant	phs002790_PBBRKT	phs002790
+PBBRLC	White	Female	Not Hispanic or Latino	participant	phs002790_PBBRLC	phs002790
+PBBRLD	White	Male	Not Hispanic or Latino	participant	phs002790_PBBRLD	phs002790
+PBBRLH	Not Reported	Female	Not Reported	participant	phs002790_PBBRLH	phs002790
+PBBRLP	White	Female	Hispanic or Latino	participant	phs002790_PBBRLP	phs002790
+PBBRLR	Black or African American	Female	Not Hispanic or Latino	participant	phs002790_PBBRLR	phs002790
+PBBRLS	White	Female	Hispanic or Latino	participant	phs002790_PBBRLS	phs002790
+PBBRLT	Asian	Female	Not Hispanic or Latino	participant	phs002790_PBBRLT	phs002790
+PBBRLU	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBRLU	phs002790
+PBBRLV	White	Male	Not Hispanic or Latino	participant	phs002790_PBBRLV	phs002790
+PBBRLX	White	Male	Not Hispanic or Latino	participant	phs002790_PBBRLX	phs002790
+PBBRNA	White	Female	Not Hispanic or Latino	participant	phs002790_PBBRNA	phs002790
+PBBRND	White	Male	Not Hispanic or Latino	participant	phs002790_PBBRND	phs002790
+PBBRNE	White	Male	Not Hispanic or Latino	participant	phs002790_PBBRNE	phs002790
+PBBRNG	White	Female	Not Hispanic or Latino	participant	phs002790_PBBRNG	phs002790
+PBBRNV	Unknown	Female	Unknown	participant	phs002790_PBBRNV	phs002790
+PBBRNY	White	Male	Hispanic or Latino	participant	phs002790_PBBRNY	phs002790
+PBBRPL	White	Female	Not Hispanic or Latino	participant	phs002790_PBBRPL	phs002790
+PBBRPW	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBRPW	phs002790
+PBBRPX	Black or African American	Female	Hispanic or Latino	participant	phs002790_PBBRPX	phs002790
+PBBRPZ	Black or African American	Female	Not Hispanic or Latino	participant	phs002790_PBBRPZ	phs002790
+PBBRRE	Unknown	Male	Unknown	participant	phs002790_PBBRRE	phs002790
+PBBRRI	Not Reported	Male	Not Hispanic or Latino	participant	phs002790_PBBRRI	phs002790
+PBBRSA	White	Female	Hispanic or Latino	participant	phs002790_PBBRSA	phs002790
+PBBRSL	White	Male	Not Hispanic or Latino	participant	phs002790_PBBRSL	phs002790
+PBBRST	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBRST	phs002790
+PBBRSW	White	Female	Unknown	participant	phs002790_PBBRSW	phs002790
+PBBRSX	Unknown	Female	Not Hispanic or Latino	participant	phs002790_PBBRSX	phs002790
+PBBRUB	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBRUB	phs002790
+PBBRUG	White	Male	Not Hispanic or Latino	participant	phs002790_PBBRUG	phs002790
+PBBRUJ	White	Male	Not Hispanic or Latino	participant	phs002790_PBBRUJ	phs002790
+PBBRUK	Unknown	Female	Hispanic or Latino	participant	phs002790_PBBRUK	phs002790
+PBBRUN	White	Male	Not Hispanic or Latino	participant	phs002790_PBBRUN	phs002790
+PBBRUP	White	Female	Hispanic or Latino	participant	phs002790_PBBRUP	phs002790
+PBBRUR	White	Female	Not Hispanic or Latino	participant	phs002790_PBBRUR	phs002790
+PBBRUS	White	Male	Not Hispanic or Latino	participant	phs002790_PBBRUS	phs002790
+PBBRVH	White	Female	Not Hispanic or Latino	participant	phs002790_PBBRVH	phs002790
+PBBRVL	White	Male	Not Hispanic or Latino	participant	phs002790_PBBRVL	phs002790
+PBBRVM	White	Male	Not Hispanic or Latino	participant	phs002790_PBBRVM	phs002790
+PBBRVP	Unknown	Male	Not Hispanic or Latino	participant	phs002790_PBBRVP	phs002790
+PBBRWJ	White	Male	Not Hispanic or Latino	participant	phs002790_PBBRWJ	phs002790
+PBBRWM	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBRWM	phs002790
+PBBRWR	White	Female	Not Hispanic or Latino	participant	phs002790_PBBRWR	phs002790
+PBBRWZ	Asian	Female	Not Hispanic or Latino	participant	phs002790_PBBRWZ	phs002790
+PBBRXF	White	Female	Not Hispanic or Latino	participant	phs002790_PBBRXF	phs002790
+PBBRXI	White	Male	Hispanic or Latino	participant	phs002790_PBBRXI	phs002790
+PBBRXL	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBRXL	phs002790
+PBBRXN	White	Male	Hispanic or Latino	participant	phs002790_PBBRXN	phs002790
+PBBRXR	Black or African American	Female	Not Hispanic or Latino	participant	phs002790_PBBRXR	phs002790
+PBBRYA	White	Female	Not Hispanic or Latino	participant	phs002790_PBBRYA	phs002790
+PBBRYC	White	Male	Not Hispanic or Latino	participant	phs002790_PBBRYC	phs002790
+PBBRYJ	Unknown	Female	Unknown	participant	phs002790_PBBRYJ	phs002790
+PBBRYM	White	Male	Hispanic or Latino	participant	phs002790_PBBRYM	phs002790
+PBBRYS	White	Male	Not Hispanic or Latino	participant	phs002790_PBBRYS	phs002790
+PBBRYT	White	Male	Not Hispanic or Latino	participant	phs002790_PBBRYT	phs002790
+PBBRZB	White	Male	Not Hispanic or Latino	participant	phs002790_PBBRZB	phs002790
+PBBRZD	White	Male	Hispanic or Latino	participant	phs002790_PBBRZD	phs002790
+PBBRZH	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBRZH	phs002790
+PBBRZR	White	Female	Not Hispanic or Latino	participant	phs002790_PBBRZR	phs002790
+PBBRZV	White	Female	Not Hispanic or Latino	participant	phs002790_PBBRZV	phs002790
+PBBRZX	Black or African American	Female	Not Hispanic or Latino	participant	phs002790_PBBRZX	phs002790
+PBBSAE	Unknown	Female	Not Hispanic or Latino	participant	phs002790_PBBSAE	phs002790
+PBBSAI	White	Male	Not Hispanic or Latino	participant	phs002790_PBBSAI	phs002790
+PBBSAX	Unknown	Male	Unknown	participant	phs002790_PBBSAX	phs002790
+PBBSBG	White	Male	Not Hispanic or Latino	participant	phs002790_PBBSBG	phs002790
+PBBSBL	White	Female	Not Hispanic or Latino	participant	phs002790_PBBSBL	phs002790
+PBBSBS	White	Male	Not Hispanic or Latino	participant	phs002790_PBBSBS	phs002790
+PBBSBT	White	Female	Not Hispanic or Latino	participant	phs002790_PBBSBT	phs002790
+PBBSCH	White	Male	Not Hispanic or Latino	participant	phs002790_PBBSCH	phs002790
+PBBSCI	White	Female	Hispanic or Latino	participant	phs002790_PBBSCI	phs002790
+PBBSCK	White	Male	Not Hispanic or Latino	participant	phs002790_PBBSCK	phs002790
+PBBSCL	Not Reported	Male	Hispanic or Latino	participant	phs002790_PBBSCL	phs002790
+PBBSCT	White	Male	Not Hispanic or Latino	participant	phs002790_PBBSCT	phs002790
+PBBSDA	Asian	Male	Not Hispanic or Latino	participant	phs002790_PBBSDA	phs002790
+PBBSDG	White	Female	Unknown	participant	phs002790_PBBSDG	phs002790
+PBBSDR	White	Female	Not Hispanic or Latino	participant	phs002790_PBBSDR	phs002790
+PBBSED	Black or African American	Female	Not Hispanic or Latino	participant	phs002790_PBBSED	phs002790
+PBBSEE	White	Female	Not Hispanic or Latino	participant	phs002790_PBBSEE	phs002790
+PBBSEG	Unknown;Not Reported	Female	Hispanic or Latino	participant	phs002790_PBBSEG	phs002790
+PBBSEP	White	Female	Not Hispanic or Latino	participant	phs002790_PBBSEP	phs002790
+PBBSER	White	Female	Not Hispanic or Latino	participant	phs002790_PBBSER	phs002790
+PBBSEW	White	Male	Not Hispanic or Latino	participant	phs002790_PBBSEW	phs002790
+PBBSEY	Unknown	Female	Unknown	participant	phs002790_PBBSEY	phs002790
+PBBSFA	White	Female	Not Hispanic or Latino	participant	phs002790_PBBSFA	phs002790
+PBBSFF	Black or African American	Female	Not Hispanic or Latino	participant	phs002790_PBBSFF	phs002790
+PBBSFK	White	Male	Not Hispanic or Latino	participant	phs002790_PBBSFK	phs002790
+PBBSFL	Black or African American;White	Female	Not Hispanic or Latino	participant	phs002790_PBBSFL	phs002790
+PBBSFM	White	Female	Not Hispanic or Latino	participant	phs002790_PBBSFM	phs002790
+PBBSFT	White	Male	Hispanic or Latino	participant	phs002790_PBBSFT	phs002790
+PBBSGA	White	Female	Not Hispanic or Latino	participant	phs002790_PBBSGA	phs002790
+PBBSGI	White	Female	Hispanic or Latino	participant	phs002790_PBBSGI	phs002790
+PBBSGJ	White	Female	Unknown	participant	phs002790_PBBSGJ	phs002790
+PBBSGU	Black or African American	Male	Not Reported	participant	phs002790_PBBSGU	phs002790
+PBBSHC	White	Female	Not Hispanic or Latino	participant	phs002790_PBBSHC	phs002790
+PBBSHJ	White	Male	Not Hispanic or Latino	participant	phs002790_PBBSHJ	phs002790
+PBBSHZ	White	Female	Not Hispanic or Latino	participant	phs002790_PBBSHZ	phs002790
+PBBSID	White	Male	Not Hispanic or Latino	participant	phs002790_PBBSID	phs002790
+PBBSIH	White	Female	Not Hispanic or Latino	participant	phs002790_PBBSIH	phs002790
+PBBSIJ	Black or African American	Female	Not Hispanic or Latino	participant	phs002790_PBBSIJ	phs002790
+PBBSIL	White	Female	Not Hispanic or Latino	participant	phs002790_PBBSIL	phs002790
+PBBSIU	Not Reported	Female	Not Hispanic or Latino	participant	phs002790_PBBSIU	phs002790
+PBBSJH	White	Female	Not Hispanic or Latino	participant	phs002790_PBBSJH	phs002790
+PBBSJK	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBSJK	phs002790
+PBBSJL	Unknown	Male	Hispanic or Latino	participant	phs002790_PBBSJL	phs002790
+PBBSJN	Asian	Female	Not Hispanic or Latino	participant	phs002790_PBBSJN	phs002790
+PBBSJS	White	Female	Not Hispanic or Latino	participant	phs002790_PBBSJS	phs002790
+PBBSJU	White	Male	Not Hispanic or Latino	participant	phs002790_PBBSJU	phs002790
+PBBSJY	Asian	Male	Not Hispanic or Latino	participant	phs002790_PBBSJY	phs002790
+PBBSKD	Black or African American	Female	Not Hispanic or Latino	participant	phs002790_PBBSKD	phs002790
+PBBSKE	White	Male	Not Hispanic or Latino	participant	phs002790_PBBSKE	phs002790
+PBBSKG	Native Hawaiian or Other Pacific Islander	Male	Not Hispanic or Latino	participant	phs002790_PBBSKG	phs002790
+PBBSKL	White	Female	Not Hispanic or Latino	participant	phs002790_PBBSKL	phs002790
+PBBSKM	White	Female	Not Hispanic or Latino	participant	phs002790_PBBSKM	phs002790
+PBBSLV	White	Female	Not Hispanic or Latino	participant	phs002790_PBBSLV	phs002790
+PBBSME	White	Male	Hispanic or Latino	participant	phs002790_PBBSME	phs002790
+PBBSMY	White	Female	Not Hispanic or Latino	participant	phs002790_PBBSMY	phs002790
+PBBSNL	White	Male	Not Hispanic or Latino	participant	phs002790_PBBSNL	phs002790
+PBBSPA	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBSPA	phs002790
+PBBSPF	White	Male	Not Hispanic or Latino	participant	phs002790_PBBSPF	phs002790
+PBBSPP	Asian	Male	Not Hispanic or Latino	participant	phs002790_PBBSPP	phs002790
+PBBSRD	Unknown	Male	Not Reported	participant	phs002790_PBBSRD	phs002790
+PBBSRE	Not Reported	Female	Not Hispanic or Latino	participant	phs002790_PBBSRE	phs002790
+PBBSRF	Not Reported	Female	Not Reported	participant	phs002790_PBBSRF	phs002790
+PBBSRJ	White	Female	Not Hispanic or Latino	participant	phs002790_PBBSRJ	phs002790
+PBBSRN	Black or African American	Female	Not Hispanic or Latino	participant	phs002790_PBBSRN	phs002790
+PBBSRR	Asian	Male	Not Hispanic or Latino	participant	phs002790_PBBSRR	phs002790
+PBBSRS	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBSRS	phs002790
+PBBSRT	White	Male	Hispanic or Latino	participant	phs002790_PBBSRT	phs002790
+PBBSRV	White	Female	Not Hispanic or Latino	participant	phs002790_PBBSRV	phs002790
+PBBSSK	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBSSK	phs002790
+PBBSSM	White;Native Hawaiian or Other Pacific Islander	Male	Not Hispanic or Latino	participant	phs002790_PBBSSM	phs002790
+PBBSSU	Not Reported	Male	Hispanic or Latino	participant	phs002790_PBBSSU	phs002790
+PBBSSV	White	Male	Not Hispanic or Latino	participant	phs002790_PBBSSV	phs002790
+PBBSTE	White	Male	Not Hispanic or Latino	participant	phs002790_PBBSTE	phs002790
+PBBSTK	White	Male	Not Hispanic or Latino	participant	phs002790_PBBSTK	phs002790
+PBBSTM	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBSTM	phs002790
+PBBSTP	White	Male	Not Hispanic or Latino	participant	phs002790_PBBSTP	phs002790
+PBBSTU	White	Male	Not Hispanic or Latino	participant	phs002790_PBBSTU	phs002790
+PBBSUA	Black or African American	Female	Not Hispanic or Latino	participant	phs002790_PBBSUA	phs002790
+PBBSUK	White;Black or African American	Female	Not Hispanic or Latino	participant	phs002790_PBBSUK	phs002790
+PBBSUL	White	Female	Hispanic or Latino	participant	phs002790_PBBSUL	phs002790
+PBBSUN	Black or African American	Female	Not Reported	participant	phs002790_PBBSUN	phs002790
+PBBSUU	Not Reported	Female	Not Reported	participant	phs002790_PBBSUU	phs002790
+PBBSVA	White	Female	Not Hispanic or Latino	participant	phs002790_PBBSVA	phs002790
+PBBSVB	White	Male	Not Reported	participant	phs002790_PBBSVB	phs002790
+PBBSVE	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBSVE	phs002790
+PBBSVM	Unknown;Not Reported	Male	Hispanic or Latino	participant	phs002790_PBBSVM	phs002790
+PBBSVZ	Black or African American	Female	Unknown	participant	phs002790_PBBSVZ	phs002790
+PBBSWG	White	Male	Not Hispanic or Latino	participant	phs002790_PBBSWG	phs002790
+PBBSWK	White	Female	Not Hispanic or Latino	participant	phs002790_PBBSWK	phs002790
+PBBSWP	White	Male	Not Hispanic or Latino	participant	phs002790_PBBSWP	phs002790
+PBBSWU	White	Female	Hispanic or Latino	participant	phs002790_PBBSWU	phs002790
+PBBSXB	White	Male	Not Hispanic or Latino	participant	phs002790_PBBSXB	phs002790
+PBBSXH	White	Male	Not Hispanic or Latino	participant	phs002790_PBBSXH	phs002790
+PBBSXN	White	Female	Not Hispanic or Latino	participant	phs002790_PBBSXN	phs002790
+PBBSXR	White	Male	Not Hispanic or Latino	participant	phs002790_PBBSXR	phs002790
+PBBSXV	White	Male	Not Hispanic or Latino	participant	phs002790_PBBSXV	phs002790
+PBBSYE	White	Female	Hispanic or Latino	participant	phs002790_PBBSYE	phs002790
+PBBSYF	White	Male	Not Hispanic or Latino	participant	phs002790_PBBSYF	phs002790
+PBBSYH	White	Male	Not Hispanic or Latino	participant	phs002790_PBBSYH	phs002790
+PBBSYL	White	Female	Not Hispanic or Latino	participant	phs002790_PBBSYL	phs002790
+PBBSYU	White	Male	Not Hispanic or Latino	participant	phs002790_PBBSYU	phs002790
+PBBSZE	Unknown	Male	Hispanic or Latino	participant	phs002790_PBBSZE	phs002790
+PBBSZG	White	Female	Hispanic or Latino	participant	phs002790_PBBSZG	phs002790
+PBBSZP	White	Male	Not Hispanic or Latino	participant	phs002790_PBBSZP	phs002790
+PBBSZR	White	Female	Not Hispanic or Latino	participant	phs002790_PBBSZR	phs002790
+PBBSZS	White	Male	Not Hispanic or Latino	participant	phs002790_PBBSZS	phs002790
+PBBTAD	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBTAD	phs002790
+PBBTAE	White	Male	Hispanic or Latino	participant	phs002790_PBBTAE	phs002790
+PBBTAK	White;Native Hawaiian or Other Pacific Islander	Female	Not Hispanic or Latino	participant	phs002790_PBBTAK	phs002790
+PBBTAS	Unknown	Male	Hispanic or Latino	participant	phs002790_PBBTAS	phs002790
+PBBTAY	Not Reported	Male	Not Reported	participant	phs002790_PBBTAY	phs002790
+PBBTBG	White	Female	Hispanic or Latino	participant	phs002790_PBBTBG	phs002790
+PBBTBL	White	Female	Hispanic or Latino	participant	phs002790_PBBTBL	phs002790
+PBBTBM	White	Female	Hispanic or Latino	participant	phs002790_PBBTBM	phs002790
+PBBTBU	Not Reported	Male	Not Reported	participant	phs002790_PBBTBU	phs002790
+PBBTCE	White	Male	Not Hispanic or Latino	participant	phs002790_PBBTCE	phs002790
+PBBTCP	White	Female	Not Hispanic or Latino	participant	phs002790_PBBTCP	phs002790
+PBBTCS	White	Female	Hispanic or Latino	participant	phs002790_PBBTCS	phs002790
+PBBTCV	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBTCV	phs002790
+PBBTCY	White	Male	Not Hispanic or Latino	participant	phs002790_PBBTCY	phs002790
+PBBTDA	White	Male	Not Hispanic or Latino	participant	phs002790_PBBTDA	phs002790
+PBBTDD	White	Male	Not Hispanic or Latino	participant	phs002790_PBBTDD	phs002790
+PBBTDS	White	Female	Not Reported	participant	phs002790_PBBTDS	phs002790
+PBBTDW	Black or African American	Female	Not Reported	participant	phs002790_PBBTDW	phs002790
+PBBTDX	Unknown	Male	Unknown	participant	phs002790_PBBTDX	phs002790
+PBBTEC	White	Female	Not Hispanic or Latino	participant	phs002790_PBBTEC	phs002790
+PBBTED	Black or African American	Female	Not Hispanic or Latino	participant	phs002790_PBBTED	phs002790
+PBBTEJ	White	Male	Not Hispanic or Latino	participant	phs002790_PBBTEJ	phs002790
+PBBTEM	White	Female	Not Hispanic or Latino	participant	phs002790_PBBTEM	phs002790
+PBBTFD	Asian	Female	Not Hispanic or Latino	participant	phs002790_PBBTFD	phs002790
+PBBTFJ	White	Male	Not Hispanic or Latino	participant	phs002790_PBBTFJ	phs002790
+PBBTFL	White	Female	Hispanic or Latino	participant	phs002790_PBBTFL	phs002790
+PBBTFP	White	Male	Not Hispanic or Latino	participant	phs002790_PBBTFP	phs002790
+PBBTFZ	White	Female	Not Hispanic or Latino	participant	phs002790_PBBTFZ	phs002790
+PBBTGI	White	Female	Not Hispanic or Latino	participant	phs002790_PBBTGI	phs002790
+PBBTGR	White	Male	Hispanic or Latino	participant	phs002790_PBBTGR	phs002790
+PBBTGZ	Unknown	Female	Hispanic or Latino	participant	phs002790_PBBTGZ	phs002790
+PBBTHB	White	Female	Hispanic or Latino	participant	phs002790_PBBTHB	phs002790
+PBBTHD	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBTHD	phs002790
+PBBTHI	White	Female	Not Hispanic or Latino	participant	phs002790_PBBTHI	phs002790
+PBBTHU	White	Male	Not Hispanic or Latino	participant	phs002790_PBBTHU	phs002790
+PBBTIB	White	Female	Not Hispanic or Latino	participant	phs002790_PBBTIB	phs002790
+PBBTIX	Not Reported	Male	Hispanic or Latino	participant	phs002790_PBBTIX	phs002790
+PBBTJR	Not Reported	Male	Hispanic or Latino	participant	phs002790_PBBTJR	phs002790
+PBBTKE	White	Female	Not Hispanic or Latino	participant	phs002790_PBBTKE	phs002790
+PBBTKF	White	Female	Not Hispanic or Latino	participant	phs002790_PBBTKF	phs002790
+PBBTKG	White	Female	Not Hispanic or Latino	participant	phs002790_PBBTKG	phs002790
+PBBTKI	White	Female	Not Hispanic or Latino	participant	phs002790_PBBTKI	phs002790
+PBBTKZ	White	Female	Not Hispanic or Latino	participant	phs002790_PBBTKZ	phs002790
+PBBTLB	White	Male	Not Hispanic or Latino	participant	phs002790_PBBTLB	phs002790
+PBBTLN	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBTLN	phs002790
+PBBTLR	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBTLR	phs002790
+PBBTLT	White	Female	Not Hispanic or Latino	participant	phs002790_PBBTLT	phs002790
+PBBTLY	Not Reported	Male	Hispanic or Latino	participant	phs002790_PBBTLY	phs002790
+PBBTMD	Not Reported	Female	Not Reported	participant	phs002790_PBBTMD	phs002790
+PBBTMF	White	Male	Not Hispanic or Latino	participant	phs002790_PBBTMF	phs002790
+PBBTMJ	White	Female	Not Hispanic or Latino	participant	phs002790_PBBTMJ	phs002790
+PBBTMS	Asian	Male	Not Hispanic or Latino	participant	phs002790_PBBTMS	phs002790
+PBBTMV	White	Female	Not Hispanic or Latino	participant	phs002790_PBBTMV	phs002790
+PBBTND	White	Male	Not Hispanic or Latino	participant	phs002790_PBBTND	phs002790
+PBBTNE	White	Male	Not Hispanic or Latino	participant	phs002790_PBBTNE	phs002790
+PBBTNG	White	Male	Not Hispanic or Latino	participant	phs002790_PBBTNG	phs002790
+PBBTNR	Unknown	Female	Hispanic or Latino	participant	phs002790_PBBTNR	phs002790
+PBBTNS	White	Male	Hispanic or Latino	participant	phs002790_PBBTNS	phs002790
+PBBTNU	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBTNU	phs002790
+PBBTNX	Asian	Female	Not Hispanic or Latino	participant	phs002790_PBBTNX	phs002790
+PBBTNY	White	Female	Not Hispanic or Latino	participant	phs002790_PBBTNY	phs002790
+PBBTPH	Unknown	Female	Not Hispanic or Latino	participant	phs002790_PBBTPH	phs002790
+PBBTPN	Black or African American	Female	Not Hispanic or Latino	participant	phs002790_PBBTPN	phs002790
+PBBTPR	White	Male	Not Reported	participant	phs002790_PBBTPR	phs002790
+PBBTPZ	Asian	Female	Not Hispanic or Latino	participant	phs002790_PBBTPZ	phs002790
+PBBTRA	White	Female	Not Hispanic or Latino	participant	phs002790_PBBTRA	phs002790
+PBBTRC	White	Male	Not Hispanic or Latino	participant	phs002790_PBBTRC	phs002790
+PBBTRI	Not Reported	Female	Not Hispanic or Latino	participant	phs002790_PBBTRI	phs002790
+PBBTRP	American Indian or Alaska Native	Male	Not Hispanic or Latino	participant	phs002790_PBBTRP	phs002790
+PBBTRR	White	Female	Hispanic or Latino	participant	phs002790_PBBTRR	phs002790
+PBBTRZ	White	Female	Not Reported	participant	phs002790_PBBTRZ	phs002790
+PBBTSD	White	Male	Not Hispanic or Latino	participant	phs002790_PBBTSD	phs002790
+PBBTSE	Not Reported	Male	Not Reported	participant	phs002790_PBBTSE	phs002790
+PBBTSU	White	Male	Not Hispanic or Latino	participant	phs002790_PBBTSU	phs002790
+PBBTSW	White	Male	Not Hispanic or Latino	participant	phs002790_PBBTSW	phs002790
+PBBTTG	Not Reported	Female	Hispanic or Latino	participant	phs002790_PBBTTG	phs002790
+PBBTTH	White	Male	Not Hispanic or Latino	participant	phs002790_PBBTTH	phs002790
+PBBTTL	White	Female	Not Hispanic or Latino	participant	phs002790_PBBTTL	phs002790
+PBBTTN	Unknown	Male	Not Hispanic or Latino	participant	phs002790_PBBTTN	phs002790
+PBBTTS	White	Female	Not Hispanic or Latino	participant	phs002790_PBBTTS	phs002790
+PBBTTU	White	Male	Not Hispanic or Latino	participant	phs002790_PBBTTU	phs002790
+PBBTTX	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBTTX	phs002790
+PBBTTZ	White	Male	Not Hispanic or Latino	participant	phs002790_PBBTTZ	phs002790
+PBBTUE	Not Reported	Female	Not Reported	participant	phs002790_PBBTUE	phs002790
+PBBTUH	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBTUH	phs002790
+PBBTUR	Unknown	Male	Hispanic or Latino	participant	phs002790_PBBTUR	phs002790
+PBBTUV	White	Female	Not Hispanic or Latino	participant	phs002790_PBBTUV	phs002790
+PBBTUW	White	Male	Hispanic or Latino	participant	phs002790_PBBTUW	phs002790
+PBBTVK	White	Male	Not Hispanic or Latino	participant	phs002790_PBBTVK	phs002790
+PBBTVN	White	Female	Not Hispanic or Latino	participant	phs002790_PBBTVN	phs002790
+PBBTVS	White	Female	Not Reported	participant	phs002790_PBBTVS	phs002790
+PBBTWG	White	Female	Not Hispanic or Latino	participant	phs002790_PBBTWG	phs002790
+PBBTWI	White	Female	Not Hispanic or Latino	participant	phs002790_PBBTWI	phs002790
+PBBTWL	White	Female	Not Hispanic or Latino	participant	phs002790_PBBTWL	phs002790
+PBBTWM	White	Male	Not Hispanic or Latino	participant	phs002790_PBBTWM	phs002790
+PBBTXA	Black or African American	Female	Not Hispanic or Latino	participant	phs002790_PBBTXA	phs002790
+PBBTXH	White	Male	Hispanic or Latino	participant	phs002790_PBBTXH	phs002790
+PBBTXM	White	Female	Not Hispanic or Latino	participant	phs002790_PBBTXM	phs002790
+PBBTXS	White	Male	Hispanic or Latino	participant	phs002790_PBBTXS	phs002790
+PBBTXT	White	Female	Not Hispanic or Latino	participant	phs002790_PBBTXT	phs002790
+PBBTYG	White	Female	Not Hispanic or Latino	participant	phs002790_PBBTYG	phs002790
+PBBTYI	Not Reported	Male	Hispanic or Latino	participant	phs002790_PBBTYI	phs002790
+PBBTYJ	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBTYJ	phs002790
+PBBTYK	White	Male	Not Hispanic or Latino	participant	phs002790_PBBTYK	phs002790
+PBBTYM	White	Female	Hispanic or Latino	participant	phs002790_PBBTYM	phs002790
+PBBTYW	White	Female	Not Hispanic or Latino	participant	phs002790_PBBTYW	phs002790
+PBBTYY	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBTYY	phs002790
+PBBTYZ	White	Male	Not Hispanic or Latino	participant	phs002790_PBBTYZ	phs002790
+PBBTZC	White	Female	Hispanic or Latino	participant	phs002790_PBBTZC	phs002790
+PBBTZN	White	Male	Hispanic or Latino	participant	phs002790_PBBTZN	phs002790
+PBBTZY	White	Male	Not Hispanic or Latino	participant	phs002790_PBBTZY	phs002790
+PBBUAB	White	Female	Not Hispanic or Latino	participant	phs002790_PBBUAB	phs002790
+PBBUAT	White	Female	Not Hispanic or Latino	participant	phs002790_PBBUAT	phs002790
+PBBUAW	White	Male	Not Reported	participant	phs002790_PBBUAW	phs002790
+PBBUAY	Unknown	Female	Not Hispanic or Latino	participant	phs002790_PBBUAY	phs002790
+PBBUBA	Unknown	Male	Hispanic or Latino	participant	phs002790_PBBUBA	phs002790
+PBBUBH	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBUBH	phs002790
+PBBUBL	White	Male	Not Hispanic or Latino	participant	phs002790_PBBUBL	phs002790
+PBBUBN	White	Male	Not Hispanic or Latino	participant	phs002790_PBBUBN	phs002790
+PBBUBR	Black or African American	Female	Not Hispanic or Latino	participant	phs002790_PBBUBR	phs002790
+PBBUBT	White	Female	Hispanic or Latino	participant	phs002790_PBBUBT	phs002790
+PBBUBZ	White	Male	Hispanic or Latino	participant	phs002790_PBBUBZ	phs002790
+PBBUCE	White	Female	Hispanic or Latino	participant	phs002790_PBBUCE	phs002790
+PBBUCK	White	Female	Not Hispanic or Latino	participant	phs002790_PBBUCK	phs002790
+PBBUCL	White	Female	Hispanic or Latino	participant	phs002790_PBBUCL	phs002790
+PBBUCS	White	Male	Not Hispanic or Latino	participant	phs002790_PBBUCS	phs002790
+PBBUCU	White	Female	Not Hispanic or Latino	participant	phs002790_PBBUCU	phs002790
+PBBUCV	White	Male	Hispanic or Latino	participant	phs002790_PBBUCV	phs002790
+PBBUCX	White	Male	Not Hispanic or Latino	participant	phs002790_PBBUCX	phs002790
+PBBUDJ	Not Reported	Female	Hispanic or Latino	participant	phs002790_PBBUDJ	phs002790
+PBBUDK	Not Reported	Male	Not Reported	participant	phs002790_PBBUDK	phs002790
+PBBUDL	Black or African American	Female	Not Hispanic or Latino	participant	phs002790_PBBUDL	phs002790
+PBBUDU	Not Reported	Female	Not Reported	participant	phs002790_PBBUDU	phs002790
+PBBUDY	White	Female	Not Hispanic or Latino	participant	phs002790_PBBUDY	phs002790
+PBBUEK	White	Male	Not Hispanic or Latino	participant	phs002790_PBBUEK	phs002790
+PBBUET	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBUET	phs002790
+PBBUEV	Not Reported	Male	Not Hispanic or Latino	participant	phs002790_PBBUEV	phs002790
+PBBUEW	Not Reported	Female	Not Reported	participant	phs002790_PBBUEW	phs002790
+PBBUEX	White	Male	Not Hispanic or Latino	participant	phs002790_PBBUEX	phs002790
+PBBUFD	White	Male	Not Hispanic or Latino	participant	phs002790_PBBUFD	phs002790
+PBBUFE	White	Female	Not Hispanic or Latino	participant	phs002790_PBBUFE	phs002790
+PBBUFI	White	Male	Not Hispanic or Latino	participant	phs002790_PBBUFI	phs002790
+PBBUFM	White	Male	Not Hispanic or Latino	participant	phs002790_PBBUFM	phs002790
+PBBUFR	White	Male	Not Hispanic or Latino	participant	phs002790_PBBUFR	phs002790
+PBBUGC	White	Female	Not Hispanic or Latino	participant	phs002790_PBBUGC	phs002790
+PBBUGE	White	Female	Not Hispanic or Latino	participant	phs002790_PBBUGE	phs002790
+PBBUGF	Black or African American	Female	Hispanic or Latino	participant	phs002790_PBBUGF	phs002790
+PBBUGH	White	Male	Not Hispanic or Latino	participant	phs002790_PBBUGH	phs002790
+PBBUGL	Not Reported	Female	Not Reported	participant	phs002790_PBBUGL	phs002790
+PBBUHB	Black or African American	Male	Not Hispanic or Latino	participant	phs002790_PBBUHB	phs002790
+PBBUHP	White	Male	Not Hispanic or Latino	participant	phs002790_PBBUHP	phs002790
+PBBUIB	White	Male	Not Hispanic or Latino	participant	phs002790_PBBUIB	phs002790
+PBBUIL	Not Reported	Male	Not Hispanic or Latino	participant	phs002790_PBBUIL	phs002790
+PBBUIS	White	Female	Not Hispanic or Latino	participant	phs002790_PBBUIS	phs002790
+PBBUJJ	White	Male	Not Hispanic or Latino	participant	phs002790_PBBUJJ	phs002790
+PBBUJL	White	Female	Not Hispanic or Latino	participant	phs002790_PBBUJL	phs002790
+PBBUJZ	White	Female	Hispanic or Latino	participant	phs002790_PBBUJZ	phs002790
+PBBUKA	White	Male	Not Hispanic or Latino	participant	phs002790_PBBUKA	phs002790
+PBBUKK	Unknown	Female	Unknown	participant	phs002790_PBBUKK	phs002790
+PBBUKM	White	Female	Not Reported	participant	phs002790_PBBUKM	phs002790
+PBBUKU	White	Female	Not Hispanic or Latino	participant	phs002790_PBBUKU	phs002790
+PBBUKV	White	Male	Not Hispanic or Latino	participant	phs002790_PBBUKV	phs002790
+PBBUKY	White	Female	Not Hispanic or Latino	participant	phs002790_PBBUKY	phs002790
+PBBULF	White	Female	Not Hispanic or Latino	participant	phs002790_PBBULF	phs002790

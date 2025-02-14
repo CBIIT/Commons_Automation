@@ -4,5 +4,6 @@
    <name>TC07_CDS_phs001819_LibrarySource_Genomic</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>c27b6351-f955-4bca-a778-eabbc41b3dd2</testCaseGuid>
 </TestCaseEntity>

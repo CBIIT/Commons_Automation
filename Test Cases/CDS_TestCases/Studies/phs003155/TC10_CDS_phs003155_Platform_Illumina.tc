@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC10_CDS_phs003155_Platform_Illumina</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a1788c78-94d7-46f3-a2ad-3209b5b2a3fd</testCaseGuid>
+</TestCaseEntity>

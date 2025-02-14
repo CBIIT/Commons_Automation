@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_CDS_phs002371_image_SampleType_Tissue</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>63179fea-4c11-454a-9803-2ef97463d78f</testCaseGuid>
+</TestCaseEntity>

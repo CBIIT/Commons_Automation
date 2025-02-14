@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC09_CDS_phs001980_LibrarySelection_Random</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e9ad433e-8bd4-4e68-9bc7-97cff62d423e</testCaseGuid>
+</TestCaseEntity>

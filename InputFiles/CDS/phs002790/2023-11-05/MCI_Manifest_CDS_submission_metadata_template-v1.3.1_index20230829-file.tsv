@@ -1,0 +1,2 @@
+file_id	file_name	file_type	file_size	md5sum	file_url_in_cds	submission_version	type	study.phs_accession	experimental_strategy_and_data_subtypes
+dg.4DFC/edc55506-def0-11ed-bf75-ff7efcdee83f	MCI_Metadata_manifest.tsv	TSV	45061012	39cfd36462c7c523f818986c0eec008f	s3://cds-305-phs002790-production-ccdi-ctsmc/MCI_Metadata_manifest.tsv	phs002790.v3.p1	file	phs002790	

@@ -1,0 +1,194 @@
+diagnosis_id	disease_type	primary_diagnosis	primary_site	age_at_diagnosis	type	study_diagnosis_id	participant.study_participant_id
+TB-000012-diagnosis	Lymphoid Leukemias	T-lymphoblastic Leukemia	Hematopoietic and reticuloendothelial systems	2356	diagnosis	phs002529_TB-000012_TB-000012-diagnosis	phs002529_TB-000012
+TB-000042-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	890	diagnosis	phs002529_TB-000042_TB-000042-diagnosis	phs002529_TB-000042
+TB-000126-diagnosis	Miscellaneous Tumors	Neuroblastoma, NOS	Adrenal Gland	2446	diagnosis	phs002529_TB-000126_TB-000126-diagnosis	phs002529_TB-000126
+TB-000223-diagnosis	Miscellaneous Tumors	Medulloblastoma	Brain	881	diagnosis	phs002529_TB-000223_TB-000223-diagnosis	phs002529_TB-000223
+TB-000089-diagnosis	Myeloid Leukemias	Acute myeloid leukemia, NOS	Hematopoietic and reticuloendothelial systems	6056	diagnosis	phs002529_TB-000089_TB-000089-diagnosis	phs002529_TB-000089
+TB-000075-diagnosis	Soft Tissue Tumors and Sarcomas, NOS	Embryonal rhabdomyosarcoma, NOS	Connective, subcutaneous and other soft tissues	4961	diagnosis	phs002529_TB-000075_TB-000075-diagnosis	phs002529_TB-000075
+TB-000027-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	2917	diagnosis	phs002529_TB-000027_TB-000027-diagnosis	phs002529_TB-000027
+TB-000128-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	2141	diagnosis	phs002529_TB-000128_TB-000128-diagnosis	phs002529_TB-000128
+TB-000082-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	2030	diagnosis	phs002529_TB-000082_TB-000082-diagnosis	phs002529_TB-000082
+TB-000134-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	1728	diagnosis	phs002529_TB-000134_TB-000134-diagnosis	phs002529_TB-000134
+TB-000035-diagnosis	Myeloid Leukemias	Acute Myeloid Leukemia, NOS	Hematopoietic and reticuloendothelial systems	4155	diagnosis	phs002529_TB-000035_TB-000035-diagnosis	phs002529_TB-000035
+TB-000203-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	3331	diagnosis	phs002529_TB-000203_TB-000203-diagnosis	phs002529_TB-000203
+TB-000210-diagnosis	Mature B-Cell Lymphomas	Primary mediastinal (thymic) large B-cell lymphoma	Hematopoietic and reticuloendothelial systems	6187	diagnosis	phs002529_TB-000210_TB-000210-diagnosis	phs002529_TB-000210
+TB-000158-diagnosis	Miscellaneous Tumors	Ewing sarcoma	Connective, subcutaneous and other soft tissues	2285	diagnosis	phs002529_TB-000158_TB-000158-diagnosis	phs002529_TB-000158
+TB-000183-diagnosis	Miscellaneous Tumors	Atypical teratoid/rhabdoid tumor	Brain	387	diagnosis	phs002529_TB-000183_TB-000183-diagnosis	phs002529_TB-000183
+TB-000105-diagnosis	Leukemias, NOS	Mixed-Phenotype Acute Leukemia, B/Myeloid, Not Otherwise Specified	Hematopoietic and reticuloendothelial systems	856	diagnosis	phs002529_TB-000105_TB-000105-diagnosis	phs002529_TB-000105
+TB-000185-diagnosis	Lymphoid Leukemias	T-lymphoblastic Leukemia	Hematopoietic and reticuloendothelial systems	5895	diagnosis	phs002529_TB-000185_TB-000185-diagnosis	phs002529_TB-000185
+TB-000177-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	685	diagnosis	phs002529_TB-000177_TB-000177-diagnosis	phs002529_TB-000177
+TB-000117-diagnosis	Soft Tissue Tumors and Sarcomas, NOS	Embryonal rhabdomyosarcoma, NOS	Connective, subcutaneous and other soft tissues	2324	diagnosis	phs002529_TB-000117_TB-000117-diagnosis	phs002529_TB-000117
+TB-000023-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	1603	diagnosis	phs002529_TB-000023_TB-000023-diagnosis	phs002529_TB-000023
+TB-000197-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	1506	diagnosis	phs002529_TB-000197_TB-000197-diagnosis	phs002529_TB-000197
+TB-000086-diagnosis	Miscellaneous Tumors	Rhabdoid Tumor, Malignant	Kidney	746	diagnosis	phs002529_TB-000086_TB-000086-diagnosis	phs002529_TB-000086
+TB-000115-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	5866	diagnosis	phs002529_TB-000115_TB-000115-diagnosis	phs002529_TB-000115
+TB-000150-diagnosis	Mature T- and NK-Cell Lymphomas	Anaplastic large cell lymphoma, ALK positive	Hematopoietic and reticuloendothelial systems	5282	diagnosis	phs002529_TB-000150_TB-000150-diagnosis	phs002529_TB-000150
+TB-000029-diagnosis	Leukemias, NOS	Mixed-Phenotype Acute Leukemia, T/Myeloid, Not Otherwise Specified	Hematopoietic and reticuloendothelial systems	3913	diagnosis	phs002529_TB-000029_TB-000029-diagnosis	phs002529_TB-000029
+TB-000224-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	1646	diagnosis	phs002529_TB-000224_TB-000224-diagnosis	phs002529_TB-000224
+TB-000230-diagnosis	Lymphoid Leukemias	T-lymphoblastic Leukemia	Hematopoietic and reticuloendothelial systems	5767	diagnosis	phs002529_TB-000230_TB-000230-diagnosis	phs002529_TB-000230
+TB-000131-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	2438	diagnosis	phs002529_TB-000131_TB-000131-diagnosis	phs002529_TB-000131
+TB-000127-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	2787	diagnosis	phs002529_TB-000127_TB-000127-diagnosis	phs002529_TB-000127
+TB-000004-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	5754	diagnosis	phs002529_TB-000004_TB-000004-diagnosis	phs002529_TB-000004
+TB-000038-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	1359	diagnosis	phs002529_TB-000038_TB-000038-diagnosis	phs002529_TB-000038
+TB-000191-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	1276	diagnosis	phs002529_TB-000191_TB-000191-diagnosis	phs002529_TB-000191
+TB-000146-diagnosis	Miscellaneous Tumors	Neuroblastoma, NOS	Adrenal Gland	21	diagnosis	phs002529_TB-000146_TB-000146-diagnosis	phs002529_TB-000146
+TB-000169-diagnosis	Lymphoid Leukemias	T-lymphoblastic Leukemia	Hematopoietic and reticuloendothelial systems	1253	diagnosis	phs002529_TB-000169_TB-000169-diagnosis	phs002529_TB-000169
+TB-000132-diagnosis	Adenomas and Adenocarcinomas	Hepatocellular carcinoma, fibrolamellar	Liver and intrahepatic bile ducts	4375	diagnosis	phs002529_TB-000132_TB-000132-diagnosis	phs002529_TB-000132
+TB-000166-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	2381	diagnosis	phs002529_TB-000166_TB-000166-diagnosis	phs002529_TB-000166
+TB-000179-diagnosis	Myeloid Leukemias	Acute Myeloid Leukemia, NOS	Hematopoietic and reticuloendothelial systems	6234	diagnosis	phs002529_TB-000179_TB-000179-diagnosis	phs002529_TB-000179
+TB-000147-diagnosis	Miscellaneous Tumors	Nephroblastoma (Wilms Tumor)	Kidney	2472	diagnosis	phs002529_TB-000147_TB-000147-diagnosis	phs002529_TB-000147
+TB-000055-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	1553	diagnosis	phs002529_TB-000055_TB-000055-diagnosis	phs002529_TB-000055
+TB-000138-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	5972	diagnosis	phs002529_TB-000138_TB-000138-diagnosis	phs002529_TB-000138
+TB-000052-diagnosis	Myeloid Leukemias	Acute myeloid leukemia, NOS	Hematopoietic and reticuloendothelial systems	349	diagnosis	phs002529_TB-000052_TB-000052-diagnosis	phs002529_TB-000052
+TB-000043-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	4121	diagnosis	phs002529_TB-000043_TB-000043-diagnosis	phs002529_TB-000043
+TB-000079-diagnosis	Lymphoid Leukemias	T-lymphoblastic Leukemia	Hematopoietic and reticuloendothelial systems	4632	diagnosis	phs002529_TB-000079_TB-000079-diagnosis	phs002529_TB-000079
+TB-000112-diagnosis	Miscellaneous Tumors	Nephroblastoma (Wilms Tumor)	Kidney	1884	diagnosis	phs002529_TB-000112_TB-000112-diagnosis	phs002529_TB-000112
+TB-000136-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	1354	diagnosis	phs002529_TB-000136_TB-000136-diagnosis	phs002529_TB-000136
+TB-000168-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	1661	diagnosis	phs002529_TB-000168_TB-000168-diagnosis	phs002529_TB-000168
+TB-000159-diagnosis	Lymphoid Leukemias	T-lymphoblastic Leukemia	Hematopoietic and reticuloendothelial systems	3316	diagnosis	phs002529_TB-000159_TB-000159-diagnosis	phs002529_TB-000159
+TB-000054-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	1132	diagnosis	phs002529_TB-000054_TB-000054-diagnosis	phs002529_TB-000054
+TB-000113-diagnosis	Myeloid Leukemias	Acute myeloid leukemia, NOS	Hematopoietic and reticuloendothelial systems	4953	diagnosis	phs002529_TB-000113_TB-000113-diagnosis	phs002529_TB-000113
+TB-000129-diagnosis	Soft Tissue Tumors and Sarcomas, NOS	Embryonal rhabdomyosarcoma, NOS	Connective, subcutaneous and other soft tissues	2396	diagnosis	phs002529_TB-000129_TB-000129-diagnosis	phs002529_TB-000129
+TB-000139-diagnosis	Lymphoid Leukemias	T-lymphoblastic Leukemia	Hematopoietic and reticuloendothelial systems	2403	diagnosis	phs002529_TB-000139_TB-000139-diagnosis	phs002529_TB-000139
+TB-000170-diagnosis	Myeloid Leukemias	Chronic Myeloid Leukemia, BCR-ABL1-Positive	Hematopoietic and reticuloendothelial systems	4326	diagnosis	phs002529_TB-000170_TB-000170-diagnosis	phs002529_TB-000170
+TB-000110-diagnosis	Miscellaneous Tumors	Nephroblastoma (Wilms Tumor)	Kidney	143	diagnosis	phs002529_TB-000110_TB-000110-diagnosis	phs002529_TB-000110
+TB-000090-diagnosis	Miscellaneous Tumors	Nephroblastoma (Wilms Tumor)	Kidney	1196	diagnosis	phs002529_TB-000090_TB-000090-diagnosis	phs002529_TB-000090
+TB-000152-diagnosis	Lymphoid Leukemias	T-lymphoblastic Leukemia	Hematopoietic and reticuloendothelial systems	588	diagnosis	phs002529_TB-000152_TB-000152-diagnosis	phs002529_TB-000152
+TB-000187-diagnosis	Miscellaneous Tumors	Ganglioneuroblastoma	Adrenal Gland	1038	diagnosis	phs002529_TB-000187_TB-000187-diagnosis	phs002529_TB-000187
+TB-000104-diagnosis	Myeloid Leukemias	Acute myeloid leukemia, NOS	Hematopoietic and reticuloendothelial systems	549	diagnosis	phs002529_TB-000104_TB-000104-diagnosis	phs002529_TB-000104
+TB-000157-diagnosis	Miscellaneous Tumors	Neuroblastoma, NOS	Adrenal Gland	91	diagnosis	phs002529_TB-000157_TB-000157-diagnosis	phs002529_TB-000157
+TB-000143-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	1008	diagnosis	phs002529_TB-000143_TB-000143-diagnosis	phs002529_TB-000143
+TB-000031-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	1380	diagnosis	phs002529_TB-000031_TB-000031-diagnosis	phs002529_TB-000031
+TB-000163-diagnosis	Osseous and Chondromatous Neoplasms	Osteosarcoma, NOS	Bones, joints and articular cartilage of other and unspecified sites	4708	diagnosis	phs002529_TB-000163_TB-000163-diagnosis	phs002529_TB-000163
+TB-000142-diagnosis	Miscellaneous Tumors	Neuroblastoma, NOS	Adrenal Gland	1119	diagnosis	phs002529_TB-000142_TB-000142-diagnosis	phs002529_TB-000142
+TB-000085-diagnosis	Miscellaneous Tumors	Nephroblastoma (Wilms Tumor)	Kidney	3405	diagnosis	phs002529_TB-000085_TB-000085-diagnosis	phs002529_TB-000085
+TB-000222-diagnosis	Miscellaneous Tumors	Medulloblastoma, SHH-activated and TP53-wildtype	Brain	375	diagnosis	phs002529_TB-000222_TB-000222-diagnosis	phs002529_TB-000222
+TB-000084-diagnosis	Miscellaneous Tumors	Nephroblastoma (Wilms Tumor)	Kidney	2638	diagnosis	phs002529_TB-000084_TB-000084-diagnosis	phs002529_TB-000084
+TB-000137-diagnosis	Miscellaneous Tumors	Medulloblastoma	Brain	947	diagnosis	phs002529_TB-000137_TB-000137-diagnosis	phs002529_TB-000137
+TB-000231-diagnosis	Precursor Cell Lymphoblastic Lymphoma	T-lymphoblastic Lymphoma	Hematopoietic and reticuloendothelial systems	2782	diagnosis	phs002529_TB-000231_TB-000231-diagnosis	phs002529_TB-000231
+TB-000201-diagnosis	Miscellaneous Tumors	Medulloblastoma, SHH-activated and TP53-mutant	Brain	3218	diagnosis	phs002529_TB-000201_TB-000201-diagnosis	phs002529_TB-000201
+TB-000189-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	4653	diagnosis	phs002529_TB-000189_TB-000189-diagnosis	phs002529_TB-000189
+TB-000021-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	328	diagnosis	phs002529_TB-000021_TB-000021-diagnosis	phs002529_TB-000021
+TB-000034-diagnosis	Myeloid Leukemias	Myeloid leukemia associated with Down Syndrome	Hematopoietic and reticuloendothelial systems	1157	diagnosis	phs002529_TB-000034_TB-000034-diagnosis	phs002529_TB-000034
+TB-000144-diagnosis	Miscellaneous Tumors	Medulloblastoma	Brain	3960	diagnosis	phs002529_TB-000144_TB-000144-diagnosis	phs002529_TB-000144
+TB-000056-diagnosis	Gliomas	Pilocytic astrocytoma	Brain	5686	diagnosis	phs002529_TB-000056_TB-000056-diagnosis	phs002529_TB-000056
+TB-000207-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	1182	diagnosis	phs002529_TB-000207_TB-000207-diagnosis	phs002529_TB-000207
+TB-000118-diagnosis	Miscellaneous Tumors	Clear cell meningioma	Brain	190	diagnosis	phs002529_TB-000118_TB-000118-diagnosis	phs002529_TB-000118
+TB-000024-diagnosis	Lymphoid Leukemias	Precursor B-Cell Acute Lymphoblastic Leukemia with Hyperdiploidy	Hematopoietic and reticuloendothelial systems	2929	diagnosis	phs002529_TB-000024_TB-000024-diagnosis	phs002529_TB-000024
+TB-000040-diagnosis	Lymphoid Leukemias	Precursor B-Cell Acute Lymphoblastic Leukemia with Hyperdiploidy	Hematopoietic and reticuloendothelial systems	1654	diagnosis	phs002529_TB-000040_TB-000040-diagnosis	phs002529_TB-000040
+TB-000174-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	3131	diagnosis	phs002529_TB-000174_TB-000174-diagnosis	phs002529_TB-000174
+TB-000162-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	2030	diagnosis	phs002529_TB-000162_TB-000162-diagnosis	phs002529_TB-000162
+TB-000010-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	1346	diagnosis	phs002529_TB-000010_TB-000010-diagnosis	phs002529_TB-000010
+TB-000133-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	1207	diagnosis	phs002529_TB-000133_TB-000133-diagnosis	phs002529_TB-000133
+TB-000120-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	3223	diagnosis	phs002529_TB-000120_TB-000120-diagnosis	phs002529_TB-000120
+TB-000149-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	2256	diagnosis	phs002529_TB-000149_TB-000149-diagnosis	phs002529_TB-000149
+TB-000121-diagnosis	Myeloid Leukemias	Acute Myeloid Leukemia, NOS	Hematopoietic and reticuloendothelial systems	5437	diagnosis	phs002529_TB-000121_TB-000121-diagnosis	phs002529_TB-000121
+TB-000095-diagnosis	Miscellaneous Tumors	Neuroblastoma, NOS	Adrenal Gland	1984	diagnosis	phs002529_TB-000095_TB-000095-diagnosis	phs002529_TB-000095
+TB-000016-diagnosis	Myeloid Leukemias	Acute monoblastic leukemia	Hematopoietic and reticuloendothelial systems	2909	diagnosis	phs002529_TB-000016_TB-000016-diagnosis	phs002529_TB-000016
+TB-000074-diagnosis	Precursor Cell Lymphoblastic Lymphoma	T-lymphoblastic Lymphoma	Hematopoietic and reticuloendothelial systems	4677	diagnosis	phs002529_TB-000074_TB-000074-diagnosis	phs002529_TB-000074
+TB-000125-diagnosis	Lymphoid Leukemias	T-lymphoblastic Leukemia	Hematopoietic and reticuloendothelial systems	4505	diagnosis	phs002529_TB-000125_TB-000125-diagnosis	phs002529_TB-000125
+TB-000173-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	669	diagnosis	phs002529_TB-000173_TB-000173-diagnosis	phs002529_TB-000173
+TB-000209-diagnosis	Soft Tissue Tumors and Sarcomas, NOS	Rhabdomyosarcoma, NOS	Connective, subcutaneous and other soft tissues	5888	diagnosis	phs002529_TB-000209_TB-000209-diagnosis	phs002529_TB-000209
+TB-000165-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	3842	diagnosis	phs002529_TB-000165_TB-000165-diagnosis	phs002529_TB-000165
+TB-000196-diagnosis	Hodgkin Lymphoma	Hodgkin lymphoma, NOS	Hematopoietic and reticuloendothelial systems	6504	diagnosis	phs002529_TB-000196_TB-000196-diagnosis	phs002529_TB-000196
+TB-000167-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	2733	diagnosis	phs002529_TB-000167_TB-000167-diagnosis	phs002529_TB-000167
+TB-000160-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	4015	diagnosis	phs002529_TB-000160_TB-000160-diagnosis	phs002529_TB-000160
+TB-000228-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	382	diagnosis	phs002529_TB-000228_TB-000228-diagnosis	phs002529_TB-000228
+TB-000114-diagnosis	Miscellaneous Tumors	Nephroblastoma (Wilms Tumor)	Kidney	290	diagnosis	phs002529_TB-000114_TB-000114-diagnosis	phs002529_TB-000114
+TB-000067-diagnosis	Gliomas	Anaplastic Ganglioglioma	Brain	357	diagnosis	phs002529_TB-000067_TB-000067-diagnosis	phs002529_TB-000067
+TB-000092-diagnosis	Myeloid Leukemias	Acute Myeloid Leukemia, NOS	Hematopoietic and reticuloendothelial systems	4083	diagnosis	phs002529_TB-000092_TB-000092-diagnosis	phs002529_TB-000092
+TB-000221-diagnosis	Miscellaneous Tumors	Sarcoma, NOS	Connective, subcutaneous and other soft tissues	1526	diagnosis	phs002529_TB-000221_TB-000221-diagnosis	phs002529_TB-000221
+TB-000108-diagnosis	Myeloid Leukemias	Acute Myeloid Leukemia, NOS	Hematopoietic and reticuloendothelial systems	5514	diagnosis	phs002529_TB-000108_TB-000108-diagnosis	phs002529_TB-000108
+TB-000206-diagnosis	Miscellaneous Tumors	Medulloblastoma	Brain	3150	diagnosis	phs002529_TB-000206_TB-000206-diagnosis	phs002529_TB-000206
+TB-000011-diagnosis	Lymphoid Leukemias	T-lymphoblastic Leukemia	Hematopoietic and reticuloendothelial systems	5451	diagnosis	phs002529_TB-000011_TB-000011-diagnosis	phs002529_TB-000011
+TB-000059-diagnosis	Miscellaneous Tumors	CNS Embryonal tumor with rhabdoid features	Brain	3738	diagnosis	phs002529_TB-000059_TB-000059-diagnosis	phs002529_TB-000059
+TB-000050-diagnosis	Myeloid Leukemias	Acute Myeloid Leukemia, NOS	Hematopoietic and reticuloendothelial systems	160	diagnosis	phs002529_TB-000050_TB-000050-diagnosis	phs002529_TB-000050
+TB-000076-diagnosis	Myelodysplastic Syndromes	Myelodysplastic Syndrome With Multilineage Dysplasia	Hematopoietic and reticuloendothelial systems	6200	diagnosis	phs002529_TB-000076_TB-000076-diagnosis	phs002529_TB-000076
+TB-000073-diagnosis	Myeloid Leukemias	Acute myeloid leukemia with mutated NPM1	Hematopoietic and reticuloendothelial systems	6616	diagnosis	phs002529_TB-000073_TB-000073-diagnosis	phs002529_TB-000073
+TB-000154-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	175	diagnosis	phs002529_TB-000154_TB-000154-diagnosis	phs002529_TB-000154
+TB-000107-diagnosis	Miscellaneous Tumors	Adrenal cortical tumor, NOS	Adrenal Gland	664	diagnosis	phs002529_TB-000107_TB-000107-diagnosis	phs002529_TB-000107
+TB-000226-diagnosis	Gliomas	Glioblastoma	Brain	4957	diagnosis	phs002529_TB-000226_TB-000226-diagnosis	phs002529_TB-000226
+TB-000181-diagnosis	Gliomas	Malignant glioma	Brain	5648	diagnosis	phs002529_TB-000181_TB-000181-diagnosis	phs002529_TB-000181
+TB-000190-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	928	diagnosis	phs002529_TB-000190_TB-000190-diagnosis	phs002529_TB-000190
+TB-000192-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	2289	diagnosis	phs002529_TB-000192_TB-000192-diagnosis	phs002529_TB-000192
+TB-000065-diagnosis	Myeloid Leukemias	Acute myeloid leukemia, NOS	Hematopoietic and reticuloendothelial systems	1841	diagnosis	phs002529_TB-000065_TB-000065-diagnosis	phs002529_TB-000065
+TB-000156-diagnosis	Miscellaneous Tumors	Nephroblastoma (Wilms Tumor)	Kidney	1296	diagnosis	phs002529_TB-000156_TB-000156-diagnosis	phs002529_TB-000156
+TB-000013-diagnosis	Lymphoid Leukemias	T-lymphoblastic Leukemia	Hematopoietic and reticuloendothelial systems	3636	diagnosis	phs002529_TB-000013_TB-000013-diagnosis	phs002529_TB-000013
+TB-000199-diagnosis	Precursor Cell Lymphoblastic Lymphoma	T-lymphoblastic Lymphoma	Hematopoietic and reticuloendothelial systems	1826	diagnosis	phs002529_TB-000199_TB-000199-diagnosis	phs002529_TB-000199
+TB-000072-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	6394	diagnosis	phs002529_TB-000072_TB-000072-diagnosis	phs002529_TB-000072
+TB-000208-diagnosis	Lymphoid Leukemias	T-lymphoblastic Leukemia	Hematopoietic and reticuloendothelial systems	926	diagnosis	phs002529_TB-000208_TB-000208-diagnosis	phs002529_TB-000208
+TB-000103-diagnosis	Miscellaneous Tumors	CNS primative neuroectodermal tumor (PNET)	Brain	149	diagnosis	phs002529_TB-000103_TB-000103-diagnosis	phs002529_TB-000103
+TB-000066-diagnosis	Miscellaneous Tumors	Neuroblastoma, NOS	Heart, mediastinum, and pleura	383	diagnosis	phs002529_TB-000066_TB-000066-diagnosis	phs002529_TB-000066
+TB-000098-diagnosis	Myeloid Leukemias	Acute myeloid leukemia, NOS	Hematopoietic and reticuloendothelial systems	2452	diagnosis	phs002529_TB-000098_TB-000098-diagnosis	phs002529_TB-000098
+TB-000003-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	133	diagnosis	phs002529_TB-000003_TB-000003-diagnosis	phs002529_TB-000003
+TB-000033-diagnosis	Lymphoid Leukemias	Precursor B-Cell Acute Lymphoblastic Leukemia with Hyperdiploidy	Hematopoietic and reticuloendothelial systems	1281	diagnosis	phs002529_TB-000033_TB-000033-diagnosis	phs002529_TB-000033
+TB-000017-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	991	diagnosis	phs002529_TB-000017_TB-000017-diagnosis	phs002529_TB-000017
+TB-000200-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	792	diagnosis	phs002529_TB-000200_TB-000200-diagnosis	phs002529_TB-000200
+TB-000036-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	4512	diagnosis	phs002529_TB-000036_TB-000036-diagnosis	phs002529_TB-000036
+TB-000171-diagnosis	Osseous and Chondromatous Neoplasms	Chondroblastic osteosarcoma	Bones, joints and articular cartilage of other and unspecified sites	5405	diagnosis	phs002529_TB-000171_TB-000171-diagnosis	phs002529_TB-000171
+TB-000053-diagnosis	Lymphoid Leukemias	Precursor B-Cell Acute Lymphoblastic Leukemia with Hyperdiploidy	Hematopoietic and reticuloendothelial systems	1398	diagnosis	phs002529_TB-000053_TB-000053-diagnosis	phs002529_TB-000053
+TB-000198-diagnosis	Miscellaneous Tumors	Sarcoma, NOS	Connective, subcutaneous and other soft tissues	4062	diagnosis	phs002529_TB-000198_TB-000198-diagnosis	phs002529_TB-000198
+TB-000001-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	4265	diagnosis	phs002529_TB-000001_TB-000001-diagnosis	phs002529_TB-000001
+TB-000057-diagnosis	Gliomas	Anaplastic Ependymoma	Brain	1472	diagnosis	phs002529_TB-000057_TB-000057-diagnosis	phs002529_TB-000057
+TB-000176-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	395	diagnosis	phs002529_TB-000176_TB-000176-diagnosis	phs002529_TB-000176
+TB-000188-diagnosis	Myeloid Leukemias	Acute myeloid leukemia, NOS	Hematopoietic and reticuloendothelial systems	720	diagnosis	phs002529_TB-000188_TB-000188-diagnosis	phs002529_TB-000188
+TB-000062-diagnosis	Miscellaneous Tumors	Nephroblastoma (Wilms Tumor)	Kidney	1328	diagnosis	phs002529_TB-000062_TB-000062-diagnosis	phs002529_TB-000062
+TB-000141-diagnosis	Miscellaneous Tumors	CNS primative neuroectodermal tumor (PNET)	Brain	529	diagnosis	phs002529_TB-000141_TB-000141-diagnosis	phs002529_TB-000141
+TB-000005-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	1754	diagnosis	phs002529_TB-000005_TB-000005-diagnosis	phs002529_TB-000005
+TB-000106-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	977	diagnosis	phs002529_TB-000106_TB-000106-diagnosis	phs002529_TB-000106
+TB-000148-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	170	diagnosis	phs002529_TB-000148_TB-000148-diagnosis	phs002529_TB-000148
+TB-000063-diagnosis	Miscellaneous Tumors	Medulloblastoma	Brain	1126	diagnosis	phs002529_TB-000063_TB-000063-diagnosis	phs002529_TB-000063
+TB-000091-diagnosis	Myeloid Leukemias	Acute Myeloid Leukemia, NOS	Hematopoietic and reticuloendothelial systems	606	diagnosis	phs002529_TB-000091_TB-000091-diagnosis	phs002529_TB-000091
+TB-000019-diagnosis	Myeloid Leukemias	Acute Myeloid Leukemia, NOS	Hematopoietic and reticuloendothelial systems	1476	diagnosis	phs002529_TB-000019_TB-000019-diagnosis	phs002529_TB-000019
+TB-000164-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	3554	diagnosis	phs002529_TB-000164_TB-000164-diagnosis	phs002529_TB-000164
+TB-000135-diagnosis	Soft Tissue Tumors and Sarcomas, NOS	Embryonal rhabdomyosarcoma, NOS	Connective, subcutaneous and other soft tissues	3770	diagnosis	phs002529_TB-000135_TB-000135-diagnosis	phs002529_TB-000135
+TB-000030-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	3575	diagnosis	phs002529_TB-000030_TB-000030-diagnosis	phs002529_TB-000030
+TB-000175-diagnosis	Myelodysplastic Syndromes	Myelodysplastic Syndrome With Single Lineage Dysplasia	Hematopoietic and reticuloendothelial systems	681	diagnosis	phs002529_TB-000175_TB-000175-diagnosis	phs002529_TB-000175
+TB-000194-diagnosis	Miscellaneous Tumors	Nephroblastoma (Wilms Tumor)	Kidney	3531	diagnosis	phs002529_TB-000194_TB-000194-diagnosis	phs002529_TB-000194
+TB-000130-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	2097	diagnosis	phs002529_TB-000130_TB-000130-diagnosis	phs002529_TB-000130
+TB-000225-diagnosis	Miscellaneous Tumors	Atypical teratoid/rhabdoid tumor	Brain	2365	diagnosis	phs002529_TB-000225_TB-000225-diagnosis	phs002529_TB-000225
+TB-000048-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	1222	diagnosis	phs002529_TB-000048_TB-000048-diagnosis	phs002529_TB-000048
+TB-000116-diagnosis	Miscellaneous Tumors	Hepatoblastoma	Liver and intrahepatic bile ducts	3004	diagnosis	phs002529_TB-000116_TB-000116-diagnosis	phs002529_TB-000116
+TB-000204-diagnosis	Myeloid Leukemias	Acute Myeloid Leukemia, NOS	Hematopoietic and reticuloendothelial systems	2657	diagnosis	phs002529_TB-000204_TB-000204-diagnosis	phs002529_TB-000204
+TB-000122-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	4776	diagnosis	phs002529_TB-000122_TB-000122-diagnosis	phs002529_TB-000122
+TB-000093-diagnosis	Miscellaneous Tumors	Hepatoblastoma	Liver and intrahepatic bile ducts	1498	diagnosis	phs002529_TB-000093_TB-000093-diagnosis	phs002529_TB-000093
+TB-000161-diagnosis	Mature T- and NK-Cell Lymphomas	Anaplastic large cell lymphoma, ALK positive	Hematopoietic and reticuloendothelial systems	5771	diagnosis	phs002529_TB-000161_TB-000161-diagnosis	phs002529_TB-000161
+TB-000180-diagnosis	Myeloid Leukemias	Therapy-related myeloid neoplasms	Hematopoietic and reticuloendothelial systems	4531	diagnosis	phs002529_TB-000180_TB-000180-diagnosis	phs002529_TB-000180
+TB-000094-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	1248	diagnosis	phs002529_TB-000094_TB-000094-diagnosis	phs002529_TB-000094
+TB-000211-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	1906	diagnosis	phs002529_TB-000211_TB-000211-diagnosis	phs002529_TB-000211
+TB-000018-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	1707	diagnosis	phs002529_TB-000018_TB-000018-diagnosis	phs002529_TB-000018
+TB-000080-diagnosis	Germ Cell Neoplasms	Sertoli Leydig Cell Tumor	Ovary	5842	diagnosis	phs002529_TB-000080_TB-000080-diagnosis	phs002529_TB-000080
+TB-000172-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	1864	diagnosis	phs002529_TB-000172_TB-000172-diagnosis	phs002529_TB-000172
+TB-000071-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	7814	diagnosis	phs002529_TB-000071_TB-000071-diagnosis	phs002529_TB-000071
+TB-000015-diagnosis	Myeloid Leukemias	Acute myeloid leukemia (megakaryoblastic) with t(1;22)(p13;q13); RBM15-MKL1	Hematopoietic and reticuloendothelial systems	444	diagnosis	phs002529_TB-000015_TB-000015-diagnosis	phs002529_TB-000015
+TB-000096-diagnosis	Paragangliomas and Glomus Tumors	Ganglioneuroma	Adrenal Gland	1141	diagnosis	phs002529_TB-000096_TB-000096-diagnosis	phs002529_TB-000096
+TB-000205-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	1050	diagnosis	phs002529_TB-000205_TB-000205-diagnosis	phs002529_TB-000205
+TB-000109-diagnosis	Myeloid Leukemias	Acute Megakaryoblastic Leukemia	Hematopoietic and reticuloendothelial systems	878	diagnosis	phs002529_TB-000109_TB-000109-diagnosis	phs002529_TB-000109
+TB-000202-diagnosis	Miscellaneous Tumors	Hepatoblastoma	Liver and intrahepatic bile ducts	227	diagnosis	phs002529_TB-000202_TB-000202-diagnosis	phs002529_TB-000202
+TB-000020-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	3143	diagnosis	phs002529_TB-000020_TB-000020-diagnosis	phs002529_TB-000020
+TB-000193-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	3881	diagnosis	phs002529_TB-000193_TB-000193-diagnosis	phs002529_TB-000193
+TB-000014-diagnosis	Myeloid Leukemias	Acute myeloid leukemia with mutated NPM1	Hematopoietic and reticuloendothelial systems	4200	diagnosis	phs002529_TB-000014_TB-000014-diagnosis	phs002529_TB-000014
+TB-000008-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	987	diagnosis	phs002529_TB-000008_TB-000008-diagnosis	phs002529_TB-000008
+TB-000028-diagnosis	Lymphoid Leukemias	T-lymphoblastic Leukemia	Hematopoietic and reticuloendothelial systems	3664	diagnosis	phs002529_TB-000028_TB-000028-diagnosis	phs002529_TB-000028
+TB-000145-diagnosis	Myeloid Leukemias	Chronic Myeloid Leukemia, BCR-ABL1-Positive	Hematopoietic and reticuloendothelial systems	5158	diagnosis	phs002529_TB-000145_TB-000145-diagnosis	phs002529_TB-000145
+TB-000081-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	2284	diagnosis	phs002529_TB-000081_TB-000081-diagnosis	phs002529_TB-000081
+TB-000026-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	872	diagnosis	phs002529_TB-000026_TB-000026-diagnosis	phs002529_TB-000026
+TB-000099-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	9	diagnosis	phs002529_TB-000099_TB-000099-diagnosis	phs002529_TB-000099
+TB-000068-diagnosis	Soft Tissue Tumors and Sarcomas, NOS	Rhabdomyosarcoma	Nasal cavity and middle ear	1111	diagnosis	phs002529_TB-000068_TB-000068-diagnosis	phs002529_TB-000068
+TB-000100-diagnosis	Miscellaneous Tumors	Neuroblastoma, NOS	Adrenal Gland	414	diagnosis	phs002529_TB-000100_TB-000100-diagnosis	phs002529_TB-000100
+TB-000155-diagnosis	Miscellaneous Tumors	Medulloblastoma	Brain	4514	diagnosis	phs002529_TB-000155_TB-000155-diagnosis	phs002529_TB-000155
+TB-000186-diagnosis	Adenomas and Adenocarcinomas	Renal cell carcinoma, NOS	Kidney	2400	diagnosis	phs002529_TB-000186_TB-000186-diagnosis	phs002529_TB-000186
+TB-000102-diagnosis	Miscellaneous Tumors	Atypical teratoid/rhabdoid tumor	Brain	429	diagnosis	phs002529_TB-000102_TB-000102-diagnosis	phs002529_TB-000102
+TB-000064-diagnosis	Gliomas	Myxopapillary ependymoma	Spinal cord, cranial nerves, and other parts of central nervous system	5917	diagnosis	phs002529_TB-000064_TB-000064-diagnosis	phs002529_TB-000064
+TB-000101-diagnosis	Miscellaneous Tumors	Medulloblastoma	Brain	2067	diagnosis	phs002529_TB-000101_TB-000101-diagnosis	phs002529_TB-000101
+TB-000184-diagnosis	Miscellaneous Tumors	Ewing sarcoma	Connective, subcutaneous and other soft tissues	5661	diagnosis	phs002529_TB-000184_TB-000184-diagnosis	phs002529_TB-000184
+TB-000039-diagnosis	Lymphoid Leukemias	Precursor B-Cell Acute Lymphoblastic Leukemia with Hyperdiploidy	Hematopoietic and reticuloendothelial systems	4145	diagnosis	phs002529_TB-000039_TB-000039-diagnosis	phs002529_TB-000039
+TB-000195-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	1013	diagnosis	phs002529_TB-000195_TB-000195-diagnosis	phs002529_TB-000195
+TB-000111-diagnosis	Miscellaneous Tumors	Neuroblastoma, NOS	Adrenal Gland	121	diagnosis	phs002529_TB-000111_TB-000111-diagnosis	phs002529_TB-000111
+TB-000049-diagnosis	Lymphoid Leukemias	Precursor B-Cell Acute Lymphoblastic Leukemia with Hyperdiploidy	Hematopoietic and reticuloendothelial systems	1484	diagnosis	phs002529_TB-000049_TB-000049-diagnosis	phs002529_TB-000049
+TB-000061-diagnosis	Gliomas	Pilocytic astrocytoma	Brain	2579	diagnosis	phs002529_TB-000061_TB-000061-diagnosis	phs002529_TB-000061
+TB-000178-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	1356	diagnosis	phs002529_TB-000178_TB-000178-diagnosis	phs002529_TB-000178
+TB-000088-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	1021	diagnosis	phs002529_TB-000088_TB-000088-diagnosis	phs002529_TB-000088
+TB-000025-diagnosis	Lymphoid Leukemias	B-lymphoblastic leukemia/lymphoma, NOS	Hematopoietic and reticuloendothelial systems	1201	diagnosis	phs002529_TB-000025_TB-000025-diagnosis	phs002529_TB-000025
+TB-000097-diagnosis	Germ Cell Neoplasms	Yolk sac tumor	Testis	1722	diagnosis	phs002529_TB-000097_TB-000097-diagnosis	phs002529_TB-000097
+TB-000060-diagnosis	Miscellaneous Tumors	Malignant rhabdoid tumor	Kidney	134	diagnosis	phs002529_TB-000060_TB-000060-diagnosis	phs002529_TB-000060

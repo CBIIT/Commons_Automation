@@ -39,36 +39,36 @@ WebUI.waitForElementPresent(findTestObject('CDS/Data_page/Filter/StudyFacet/PHS_
 CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/Data_page/Filter/StudyFacet/PHS_Accession/PHS_Accession_Ddn')
 
 //Clicking Gender dropdown
-WebUI.waitForElementPresent(findTestObject('CDS/Data_page/Filter/DemographicsFacet/Gender/Gender-Ddn'),5)
-CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/Data_page/Filter/DemographicsFacet/Gender/Gender-Ddn')
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/DemographicsFacet/Sex/Sex-Ddn'),5)
+CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/DemographicsFacet/Gender/Gender-Ddn')
 
 //Clicking Male checkbox
-WebUI.waitForElementPresent(findTestObject('CDS/Data_page/Filter/DemographicsFacet/Gender/Female-Chkbx'),5)
-CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/Data_page/Filter/DemographicsFacet/Gender/Female-Chkbx')
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/DemographicsFacet/Sex/Female-Chkbx'),5)
+CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/DemographicsFacet/Gender/Female-Chkbx')
 
 //Read statbar
-CustomKeywords.'utilities.TestRunner.readStatBarCDS'('CDS/StatBar/CDS_StatBar-Studies',
- 'CDS/StatBar/CDS_StatBar-Participants','CDS/StatBar/CDS_StatBar-Samples', 'CDS/StatBar/CDS_StatBar-Files')
+CustomKeywords.'utilities.TestRunner.readStatBarCDS'('Object Repository/CDS/StatBar/CDS_StatBar-Studies',
+ 'Object Repository/CDS/StatBar/CDS_StatBar-Participants','Object Repository/CDS/StatBar/CDS_StatBar-Samples', 'Object Repository/CDS/StatBar/CDS_StatBar-Files')
 
 
 //Clicking participants tab
 WebUI.waitForElementPresent(findTestObject('CDS/Data_page/CDSResults_Participants_Tab'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('CDS/Data_page/CDSResults_Participants_Tab')
-CustomKeywords.'utilities.TestRunner.multiFunction'('CDS',GlobalVariable.G_StatBar_Participants, 'CDS/Data_page/CDS_ParticipantsTable',
-	'CDS/Data_page/CDS_ParticipantsTableHeader', 'CDS/Data_page/CDS_ParticipantsTabNextBtn', GlobalVariable.G_WebTabnameParticipants,	'TsvDataParticipants', GlobalVariable.G_QueryParticipantsTab)
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/CDS/Data_page/CDSResults_Participants_Tab')
+CustomKeywords.'utilities.TestRunner.multiFunction'('CDS',GlobalVariable.G_StatBar_Participants, 'Object Repository/CDS/Data_page/CDS_ParticipantsTable',
+	'Object Repository/CDS/Data_page/CDS_ParticipantsTableHeader', 'Object Repository/CDS/Data_page/CDS_ParticipantsTabNextBtn', GlobalVariable.G_WebTabnameParticipants,	'TsvDataParticipants', GlobalVariable.G_QueryParticipantsTab)
 
 //clicking Samples tab
-WebUI.waitForElementPresent(findTestObject('CDS/Data_page/CDSResults_Samples_Tab'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('CDS/Data_page/CDSResults_Samples_Tab')
-CustomKeywords.'utilities.TestRunner.multiFunction'('CDS',GlobalVariable.G_StatBar_Samples, 'CDS/Data_page/CDS_SamplesTable',
-	'CDS/Data_page/CDS_SamplesTableHeader', 'CDS/Data_page/CDS_SamplesTabNextBtn', GlobalVariable.G_WebTabnameSamples,
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/CDSResults_Samples_Tab'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/CDS/Data_page/CDSResults_Samples_Tab')
+CustomKeywords.'utilities.TestRunner.multiFunction'('CDS',GlobalVariable.G_StatBar_Samples, 'Object Repository/CDS/Data_page/CDS_SamplesTable',
+	'Object Repository/CDS/Data_page/CDS_SamplesTableHeader', 'Object Repository/CDS/Data_page/CDS_SamplesTabNextBtn', GlobalVariable.G_WebTabnameSamples,
 	'TsvDataSamples', GlobalVariable.G_QuerySamplesTab)
 
 //clicking Files tab
-WebUI.waitForElementPresent(findTestObject('CDS/Data_page/CDSResults_Files_Tab'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('CDS/Data_page/CDSResults_Files_Tab')
-CustomKeywords.'utilities.TestRunner.multiFunction'('CDS',GlobalVariable.G_StatBar_Files, 'CDS/Data_page/CDS_FilesTable',
-	'CDS/Data_page/CDS_FilesTableHeader', 'CDS/Data_page/CDS_FilesTabNextBtn', GlobalVariable.G_WebTabnameFiles,
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/CDSResults_Files_Tab'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/CDS/Data_page/CDSResults_Files_Tab')
+CustomKeywords.'utilities.TestRunner.multiFunction'('CDS',GlobalVariable.G_StatBar_Files, 'Object Repository/CDS/Data_page/CDS_FilesTable',
+	'Object Repository/CDS/Data_page/CDS_FilesTableHeader', 'Object Repository/CDS/Data_page/CDS_FilesTabNextBtn', GlobalVariable.G_WebTabnameFiles,
 	'TsvDataFiles', GlobalVariable.G_QueryFilesTab)
  
 WebUI.closeBrowser()

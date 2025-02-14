@@ -1,0 +1,33 @@
+study_name	study_description	study_external_url	primary_investigator_name	primary_investigator_email	phs_accession	funding_agency	funding_source_program_name	grant_id	organism_species	number_of_participants	number_of_samples	study_data_types	acl	study_access	authz	study_version	type	program.program_acronym	data_access_level	file_types_and_format
+CIDR: The Role of Rare Coding Variation in Prostate Cancer in Men of African Ancestry - RESPOND Project 2	"""In RESPOND Project 2, we seek to identify rare genetic factors that are associated with prostate cancer (PCa) risk and aggressiveness in men of African ancestry (AA). We will conduct exome sequencing of 15,000 prostate cancer cases and 5,000 controls from the RESPOND cohort and the African Ancestry Prostate Cancer Consortium (AAPC) with cases selected based on risk categories: high-risk (stage T3/T4 or Gleason 8+ or PSA>20 ng/ml), intermediate-risk (stage T2b/T2c or Gleason 7 or PSA 10-20 ng/ml) and low-risk disease (stage T1/T2a and Gleason ≤ 6 and PSA<10 ng/ml). We expect the findings from this Project to significantly advance knowledge of susceptibility to aggressive PCa and racial/ethnic disparities in PCa risk, and to guide the development of future preventive, early detection and prognostic measures for AA men. The first phase of the study will include exome sequence data for approximately 7,500 cases and 5,000 controls from AAPC. The second phase of the study will include exome data for 5,000 cases from RESPOND and AAPC.
+
+ACKNOWLEDGMENTS and CONTRIBUTING SITES
+
+Multiethnic Cohort (MEC): The MEC and the genotyping in this study were supported by National Institutes of Health (NIH) grants CA63464, CA54281, CA1326792, CA148085, and HG004726. Cancer incidence data for the MEC and Los Angeles Study of Aggressive Prostate Cancer (LAAPC) studies have been collected by the Los Angeles Cancer Surveillance Program of the University of Southern California with federal funds from the National Cancer Institute (NCI)/NIH/Department of Health and Human Services (DHHS) under Contract No. N01-PC-35139, and the California Department of Health Services as part of the state-wide cancer reporting program mandated by California Health and Safety Code Section 103885, and grant 1U58DP000807-3 from the Centers for Disease Control and Prevention (CDC).
+
+Ghana Prostate Study (GPS): The Ghana Prostate Study was funded by the Intramural Program of the NCI/NIH/DHHS under Contract No. HHSN261200800001E.
+
+Men of African Descent and Carcinoma of the Prostate (MADCaP): We thank all MADCaP study participants. This work is a product of the MADCaP network. This work was supported by NCI/NIH grant U01CA184374 to Timothy Rebbeck and National Institute of General Medical Sciences (NIGMS) MIRA grant R35GM133727 to Joseph Lachance. Additional funding includes a seed grant from the Integrated Cancer Research Center at Georgia Institute of Technology.
+
+UGANDA: The UGANDA study was supported by NIH grant R01CA165862.
+
+Southern Community Cohort (SCCS) is funded by NIH grant CA092447. SCCS sample preparation was conducted at the Epidemiology Biospecimen Core Lab that is supported in part by the Vanderbilt Ingram Cancer Center (CA68485). Data on SCCS cancer cases were provided by Alabama Statewide Cancer Registry, Kentucky Cancer Registry, Office of Cancer Surveillance at Tennessee Department of Health, Florida Cancer Data System, Central Cancer Registry at North Carolina Division of Public Health, Georgia Comprehensive Cancer Registry, Louisiana Tumor Registry, Mississippi Cancer Registry, South Carolina Central Cancer Registry, Virginia Cancer Registry at Virginia Department of Health, and Cancer Registry at Arkansas Department of Health. The Arkansas Central Cancer Registry is fully funded by a grant from National Program of Cancer Registries (NPCR)/Centers for Disease Control and Prevention (CDC). Data on SCCS cancer cases from Mississippi were collected by the Mississippi Cancer Registry which participates in the NPCR/CDC. The contents of this publication are solely the responsibility of the authors and do not necessarily represent the official views of the CDC or the Mississippi Cancer Registry.
+
+Karuprostate: The Karuprostate study was supported by the French National Health Directorate and by the Association pour la Recherche sur les Tumeurs de la Prostate. Séverine Ferdinand, Marc Romana.
+
+The North Carolina - Louisiana Prostate Cancer Project (PCaP) is carried out as a collaborative study supported by the Department of Defense contract DAMD 17-03-2-0052. The authors thank the staff, advisory committees and research subjects participating in the PCaP study for their important contributions. We would also like to acknowledge the UNC BioSpecimen Facility and the LSUHSC Pathology Lab for our DNA extractions, blood processing, storage and sample disbursement (https://genome.unc.edu/bsp).
+
+Gene-Environment Interaction in Prostate Study (GECAP) was supported by NIH grant ES011126.
+
+King County Prostate Cancer Study (KCPCS) was supported by NIH grants CA056678, CA082664, and CA092579, with additional support from the Fred Hutchinson Cancer Research Center. We thank the participants in these studies, and Ms. Suzanne Kolb for help with study management.
+
+The Los Angeles Study of Aggressive Prostate Cancer (LAAPC) was funded by grant 99-00524V-10258 from the Cancer Research Fund, under Interagency Agreement #97-12013 (University of California contract #98-00924V) with the Department of Health Services Cancer Research Program. Cancer incidence data for the MEC and LAAPC studies have been collected by the Los Angeles Cancer Surveillance Program of the University of Southern California with Federal funds from the NCI/NIH/DHHS under Contract No. N01-PC-35139, and the California Department of Health Services as part of the state-wide cancer reporting program mandated by California Health and Safety Code Section 103885, and grant 1U58DP000807-3 from the CDC.
+
+Prostate Cancer Studies at MD Anderson (MDA) was supported by grants CA68578, ES007784, DAMD W81XWH-07-1-0645, and CA140388.
+Study Design:
+Case-Control
+Study Type:
+Case-Control
+Cohort
+Exome Sequencing
+Total number of consented subjects: 12049"""	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002637.v1.p1	Kimberly Doheny	kdoheny1@jhmi.edu	phs002637	NCI	High throughput genotyping for studying the genetic contributions to human disease	HHSN268201700006I at Center for Inherited Inherited Disease Research	Human	12049	12171	Genomic	['phs002637']	Controlled	['/programs/phs002637']	phs002637.v1.p1	study	DCCPS	Not specified in data	

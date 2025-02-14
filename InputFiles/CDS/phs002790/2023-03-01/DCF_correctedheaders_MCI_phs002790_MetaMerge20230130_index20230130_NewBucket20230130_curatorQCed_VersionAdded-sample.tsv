@@ -1,0 +1,362 @@
+sample_id	sample_type	sample_description	sample_tumor_status	sample_anatomic_site	biosample_accession	type	participant.study_participant_id
+0DH5VN_DNA	DNA	Myxoid liposarcoma	Tumor	Not specified in data	SAMN33170148	sample	phs002790_PBBNIJ
+0DH5UC_DNA	DNA		Normal	Blood	SAMN33170083	sample	phs002790_PBBNIJ
+0DH5VF_RNA	RNA	Myxoid liposarcoma	Tumor	Not specified in data	SAMN33170240	sample	phs002790_PBBNIJ
+0DGBAW_DNA	DNA	Alveolar rhabdomyosarcoma	Tumor	Not specified in data	SAMN33169932	sample	phs002790_PBBNKZ
+0DGB8Z_DNA	DNA		Normal	Blood	SAMN33170357	sample	phs002790_PBBNKZ
+0DH5VO_DNA	DNA	Papillary thyroid carcinoma	Tumor	Not specified in data	SAMN33170283	sample	phs002790_PBBPKG
+0DH5UE_DNA	DNA		Normal	Blood	SAMN33170307	sample	phs002790_PBBPKG
+0DH5VE_RNA	RNA	Papillary thyroid carcinoma	Tumor	Not specified in data	SAMN33169821	sample	phs002790_PBBPKG
+0DGSRB_DNA	DNA	Residual CIC-rearranged sarcoma	Tumor	Not specified in data	SAMN33170049	sample	phs002790_PBBPMG
+0DGSR4_DNA	DNA		Normal	Blood	SAMN33170021	sample	phs002790_PBBPMG
+0DGSR7_RNA	RNA	Residual CIC-rearranged sarcoma	Tumor	Not specified in data	SAMN33169892	sample	phs002790_PBBPMG
+0DG38C_DNA	DNA	Glial neoplasm	Tumor	Central Nervous System	SAMN33170081	sample	phs002790_PBBPXG
+0DG387_DNA	DNA		Normal	Blood	SAMN33170262	sample	phs002790_PBBPXG
+0DGJ7M_DNA	DNA	Atypical choroid plexus papilloma	Tumor	Central Nervous System	SAMN33169824	sample	phs002790_PBBRHM
+0DGJ65_DNA	DNA		Normal	Blood	SAMN33169955	sample	phs002790_PBBRHM
+0DGMHL_DNA	DNA	Infantile fibrosarcoma	Tumor	Not specified in data	SAMN33170090	sample	phs002790_PBBRNA
+0DGMI4_DNA	DNA		Normal	Blood	SAMN33170180	sample	phs002790_PBBRNA
+0DGMHB_RNA	RNA	Infantile fibrosarcoma	Tumor	Not specified in data	SAMN33170182	sample	phs002790_PBBRNA
+0DGSR5_DNA	DNA		Normal	Blood	SAMN33170400	sample	phs002790_PBBRNY
+0DGSRG_DNA	DNA	Choroid plexus papilloma	Tumor	Central Nervous System	SAMN33169965	sample	phs002790_PBBRNY
+0DGSR8_RNA	RNA	Choroid plexus papilloma	Tumor	Central Nervous System	SAMN33169973	sample	phs002790_PBBRNY
+0DGWOK_DNA	DNA	Choroid plexus papilloma	Tumor	Central Nervous System	SAMN33170178	sample	phs002790_PBBRNY
+0DGJ62_DNA	DNA		Normal	Blood	SAMN33169975	sample	phs002790_PBBRPL
+0DGJ85_DNA	DNA	Embryonal tumor	Tumor	Central Nervous System	SAMN33170201	sample	phs002790_PBBRPL
+0DG5AF_DNA	DNA	Renal medullary carcinoma	Tumor	Not specified in data	SAMN33170205	sample	phs002790_PBBRPZ
+0DG5A9_DNA	DNA		Normal	Blood	SAMN33169924	sample	phs002790_PBBRPZ
+0DGB9J_RNA	RNA	Poorly differentiated pulmonary adenocarcinoma	Tumor	Not specified in data	SAMN33170466	sample	phs002790_PBBRUG
+0DH733_DNA	DNA	Sertoli leydig cell tumor	Tumor	Not specified in data	SAMN33170274	sample	phs002790_PBBRUR
+0DH6ZZ_DNA	DNA		Normal	Blood	SAMN33170288	sample	phs002790_PBBRUR
+0DG38G_RNA	RNA	Rhabdomyosarcoma	Tumor	Not specified in data	SAMN33169836	sample	phs002790_PBBRWR
+0DHBCX_RNA	RNA	CIC-rearranged round cell sarcoma	Tumor	Not specified in data	SAMN33170286	sample	phs002790_PBBRYJ
+0DFXH0_DNA	DNA	Medulloblastoma	Tumor	Central Nervous System	SAMN33170515	sample	phs002790_PBBSEG
+0DFXEV_DNA	DNA		Normal	Blood	SAMN33170160	sample	phs002790_PBBSEG
+0DGZFD_DNA	DNA	Pilocytic astrocytoma	Tumor	Central Nervous System	SAMN33170287	sample	phs002790_PBBSEW
+0DGYZ4_DNA	DNA		Normal	Blood	SAMN33170043	sample	phs002790_PBBSEW
+0DGZAA_RNA	RNA	Pilocytic astrocytoma	Tumor	Central Nervous System	SAMN33170456	sample	phs002790_PBBSEW
+0DG87O_DNA	DNA	Choroid plexus carcinoma	Tumor	Central Nervous System	SAMN33169920	sample	phs002790_PBBSHJ
+0DG84E_DNA	DNA		Normal	Blood	SAMN33170052	sample	phs002790_PBBSHJ
+0DG0G9_DNA	DNA	High-grade glioma	Tumor	Central Nervous System	SAMN33170431	sample	phs002790_PBBSKD
+0DFYPK_DNA	DNA		Normal	Blood	SAMN33170097	sample	phs002790_PBBSKD
+0DGQAI_DNA	DNA		Normal	Blood	SAMN33169979	sample	phs002790_PBBSLV
+0DGQBF_DNA	DNA	Inflammatory myofibroblastic tumor	Tumor	Not specified in data	SAMN33169974	sample	phs002790_PBBSLV
+0DGQAM_RNA	RNA	Inflammatory myofibroblastic tumor	Tumor	Not specified in data	SAMN33170005	sample	phs002790_PBBSLV
+0DFYQC_RNA	RNA	Rhabdomyosarcoma	Tumor	Not specified in data	SAMN33170392	sample	phs002790_PBBSRJ
+0DHOIT_RNA	RNA	Ganglioglioma	Tumor	Central Nervous System	SAMN33170432	sample	phs002790_PBBSTK
+0DG87P_DNA	DNA	Medulloblastoma	Tumor	Central Nervous System	SAMN33170011	sample	phs002790_PBBSTU
+0DG84F_DNA	DNA		Normal	Blood	SAMN33170156	sample	phs002790_PBBSTU
+0DG87Q_DNA	DNA	Well-differentiated neuroendocrine tumor	Tumor	Not specified in data	SAMN33169877	sample	phs002790_PBBSUA
+0DG84M_DNA	DNA		Normal	Blood	SAMN33170133	sample	phs002790_PBBSUA
+0DGOAR_DNA	DNA	Rhabdomyosarcoma	Tumor	Not specified in data	SAMN33170219	sample	phs002790_PBBSUN
+0DGOBF_DNA	DNA		Normal	Blood	SAMN33169935	sample	phs002790_PBBSUN
+0DGO9Z_RNA	RNA	Rhabdomyosarcoma	Tumor	Not specified in data	SAMN33170256	sample	phs002790_PBBSUN
+0DG87R_DNA	DNA	Rhabdomyosarcoma	Tumor	Not specified in data	SAMN33169986	sample	phs002790_PBBSUU
+0DG84I_DNA	DNA		Normal	Blood	SAMN33169848	sample	phs002790_PBBSUU
+0DG87S_DNA	DNA	Extrarenal malignant rhabdoid tumor	Tumor	Not specified in data	SAMN33169946	sample	phs002790_PBBSVA
+0DG84G_DNA	DNA		Normal	Blood	SAMN33169999	sample	phs002790_PBBSVA
+0DFYQQ_DNA	DNA	Neuroepithelial neoplasm	Tumor	Central Nervous System	SAMN33170282	sample	phs002790_PBBSVE
+0DFYPI_DNA	DNA		Normal	Blood	SAMN33170185	sample	phs002790_PBBSVE
+0DG9FX_DNA	DNA	Pleomorphic Xanthoastrocytoma	Tumor	Central Nervous System	SAMN33169852	sample	phs002790_PBBSVM
+0DG9FT_DNA	DNA		Normal	Blood	SAMN33170213	sample	phs002790_PBBSVM
+0DHMNS_RNA	RNA	Medulloblastoma	Tumor	Central Nervous System	SAMN33170217	sample	phs002790_PBBSVZ
+0DHMSE_DNA	DNA	Medulloblastoma	Tumor	Central Nervous System	SAMN33170408	sample	phs002790_PBBSVZ
+0DGL6N_DNA	DNA	Medulloblastoma	Tumor	Central Nervous System	SAMN33170041	sample	phs002790_PBBSYF
+0DGL6O_DNA	DNA		Normal	Blood	SAMN33170505	sample	phs002790_PBBSYF
+0DGL6M_DNA	DNA	Medulloblastoma	Tumor	Central Nervous System	SAMN33169925	sample	phs002790_PBBSYL
+0DGL6P_DNA	DNA		Normal	Blood	SAMN33169862	sample	phs002790_PBBSYL
+0DGDWE_DNA	DNA	Retinoblastoma	Tumor	Not specified in data	SAMN33170415	sample	phs002790_PBBSZP
+0DGDW1_DNA	DNA		Normal	Blood	SAMN33169964	sample	phs002790_PBBSZP
+0DG87U_DNA	DNA	Embryonal rhabdomyosarcoma	Tumor	Not specified in data	SAMN33170316	sample	phs002790_PBBTAK
+0DG84H_DNA	DNA		Normal	Blood	SAMN33170093	sample	phs002790_PBBTAK
+0DGB91_DNA	DNA		Normal	Blood	SAMN33169902	sample	phs002790_PBBTAY
+0DGBAC_DNA	DNA	High grade glioma	Tumor	Central Nervous System	SAMN33170273	sample	phs002790_PBBTAY
+0DGMHM_DNA	DNA	Glial Neoplasm	Tumor	Central Nervous System	SAMN33170141	sample	phs002790_PBBTBU
+0DGMI3_DNA	DNA		Normal	Blood	SAMN33170089	sample	phs002790_PBBTBU
+0DGMHD_RNA	RNA	Glial Neoplasm	Tumor	Central Nervous System	SAMN33170337	sample	phs002790_PBBTBU
+0DH5VH_RNA	RNA	Embryonal rhabdomyosarcoma	Tumor	Not specified in data	SAMN33170513	sample	phs002790_PBBTCE
+0DGMHQ_DNA	DNA	Malignant neuroepithelial tumor	Tumor	Central Nervous System	SAMN33170074	sample	phs002790_PBBTDS
+0DGMHZ_DNA	DNA		Normal	Blood	SAMN33170446	sample	phs002790_PBBTDS
+0DGMHH_RNA	RNA	Malignant neuroepithelial tumor	Tumor	Central Nervous System	SAMN33170140	sample	phs002790_PBBTDS
+0DG9FY_DNA	DNA		Tumor	Central Nervous System	SAMN33169969	sample	phs002790_PBBTDX
+0DGJ79_DNA	DNA	Infantile fibrosarcoma	Tumor	Not specified in data	SAMN33170015	sample	phs002790_PBBTEJ
+0DGJ60_DNA	DNA		Normal	Blood	SAMN33170025	sample	phs002790_PBBTEJ
+0DGJ4X_RNA	RNA	Infantile fibrosarcoma	Tumor	Not specified in data	SAMN33169872	sample	phs002790_PBBTEJ
+0DGMHK_DNA	DNA	Classic Medulloblastoma	Tumor	Central Nervous System	SAMN33169830	sample	phs002790_PBBTEM
+0DGMHY_DNA	DNA		Normal	Blood	SAMN33169832	sample	phs002790_PBBTEM
+0DGMHC_RNA	RNA	Classic Medulloblastoma	Tumor	Central Nervous System	SAMN33170438	sample	phs002790_PBBTEM
+0DH5VP_DNA	DNA	Malignant small blue cell neoplasm, consistent with rhabdomyosarcoma	Tumor	Not specified in data	SAMN33170409	sample	phs002790_PBBTFZ
+0DH5U7_DNA	DNA		Normal	Blood	SAMN33170285	sample	phs002790_PBBTFZ
+0DH5VC_RNA	RNA	Malignant small blue cell neoplasm, consistent with rhabdomyosarcoma	Tumor	Not specified in data	SAMN33170247	sample	phs002790_PBBTFZ
+0DGFW4_RNA	RNA	Low grade glioma	Tumor	Central Nervous System	SAMN33170051	sample	phs002790_PBBTGI
+0DHDZG_DNA	DNA		Normal	Blood	SAMN33170443	sample	phs002790_PBBTKE
+0DHE08_DNA	DNA	Alveolar soft part sarcoma	Tumor	Not specified in data	SAMN33170068	sample	phs002790_PBBTKE
+0DHDZP_RNA	RNA	Alveolar soft part sarcoma	Tumor	Not specified in data	SAMN33170159	sample	phs002790_PBBTKE
+0DGJ63_DNA	DNA		Normal	Blood	SAMN33170358	sample	phs002790_PBBTKF
+0DGJ84_DNA	DNA	High-grade neoplasm with neuroepithelial features	Tumor	Central Nervous System	SAMN33170484	sample	phs002790_PBBTKF
+0DGUT9_DNA	DNA	Craniopharyngioma	Tumor	Central Nervous System	SAMN33170161	sample	phs002790_PBBTKG
+0DGUS8_DNA	DNA		Normal	Blood	SAMN33170479	sample	phs002790_PBBTKG
+0DGUSE_RNA	RNA	Craniopharyngioma	Tumor	Central Nervous System	SAMN33170036	sample	phs002790_PBBTKG
+0DH3LH_DNA	DNA	Pilocytic astrocytoma	Tumor	Central Nervous System	SAMN33170080	sample	phs002790_PBBTKZ
+0DH3KD_DNA	DNA		Normal	Blood	SAMN33170069	sample	phs002790_PBBTKZ
+0DH3KV_RNA	RNA	Pilocytic astrocytoma	Tumor	Central Nervous System	SAMN33169897	sample	phs002790_PBBTKZ
+0DHHLA_DNA	DNA	Pilocytic astrocytoma	Tumor	Central Nervous System	SAMN33169901	sample	phs002790_PBBTLB
+0DHHJ2_DNA	DNA		Normal	Blood	SAMN33170279	sample	phs002790_PBBTLB
+0DHHLJ_RNA	RNA	Pilocytic astrocytoma	Tumor	Central Nervous System	SAMN33169878	sample	phs002790_PBBTLB
+0DGMI0_DNA	DNA		Normal	Blood	SAMN33169900	sample	phs002790_PBBTLN
+0DGMHP_DNA	DNA	Supratentorial Ependymoma	Tumor	Central Nervous System	SAMN33169866	sample	phs002790_PBBTLN
+0DGMHG_RNA	RNA	Supratentorial Ependymoma	Tumor	Central Nervous System	SAMN33170208	sample	phs002790_PBBTLN
+0DGRHD_DNA	DNA	Supratentorial Ependymoma	Tumor	Central Nervous System	SAMN33170278	sample	phs002790_PBBTLN
+0DGOAU_DNA	DNA	Low-grade glioma	Tumor	Central Nervous System	SAMN33169870	sample	phs002790_PBBTLT
+0DGOB6_DNA	DNA		Normal	Blood	SAMN33169985	sample	phs002790_PBBTLT
+0DGO9Y_RNA	RNA	Low-grade glioma	Tumor	Central Nervous System	SAMN33170341	sample	phs002790_PBBTLT
+0DGMHN_DNA	DNA	Embryonal neoplasm	Tumor	Central Nervous System	SAMN33170231	sample	phs002790_PBBTLY
+0DGMI2_DNA	DNA		Normal	Blood	SAMN33169915	sample	phs002790_PBBTLY
+0DGMHE_RNA	RNA	Embryonal neoplasm	Tumor	Central Nervous System	SAMN33170410	sample	phs002790_PBBTLY
+0DGWOG_DNA	DNA	Ewing sarcoma	Tumor	Not specified in data	SAMN33169983	sample	phs002790_PBBTMJ
+0DGWO9_DNA	DNA		Normal	Blood	SAMN33170246	sample	phs002790_PBBTMJ
+0DGWOB_RNA	RNA	Ewing sarcoma	Tumor	Not specified in data	SAMN33169992	sample	phs002790_PBBTMJ
+0DGRHK_DNA	DNA	Desmoplastic small round cell tumor	Tumor	Not specified in data	SAMN33170312	sample	phs002790_PBBTMS
+0DGRHV_DNA	DNA		Normal	Blood	SAMN33169949	sample	phs002790_PBBTMS
+0DGRG6_RNA	RNA	Desmoplastic small round cell tumor	Tumor	Not specified in data	SAMN33170458	sample	phs002790_PBBTMS
+0DGOA8_DNA	DNA	Embryonal neoplasm	Tumor	Central Nervous System	SAMN33170433	sample	phs002790_PBBTNE
+0DGOBA_DNA	DNA		Normal	Blood	SAMN33170430	sample	phs002790_PBBTNE
+0DGO9V_RNA	RNA	Embryonal neoplasm	Tumor	Central Nervous System	SAMN33169909	sample	phs002790_PBBTNE
+0DHBCY_RNA	RNA	Rhabdomyosarcoma	Tumor	Not specified in data	SAMN33170032	sample	phs002790_PBBTNG
+0DGQAP_RNA	RNA	Pilocytic Astrocytoma	Tumor	Central Nervous System	SAMN33169948	sample	phs002790_PBBTNR
+0DGOAT_DNA	DNA	Rhabdomyosarcoma	Tumor	Not specified in data	SAMN33170040	sample	phs002790_PBBTNU
+0DGOBB_DNA	DNA		Normal	Blood	SAMN33170009	sample	phs002790_PBBTNU
+0DGOA0_RNA	RNA	Rhabdomyosarcoma	Tumor	Not specified in data	SAMN33170296	sample	phs002790_PBBTNU
+0DH5VQ_DNA	DNA	Juvenile granulosa cell tumor	Tumor	Not specified in data	SAMN33170048	sample	phs002790_PBBTNX
+0DH5U5_DNA	DNA		Normal	Blood	SAMN33170510	sample	phs002790_PBBTNX
+0DH5VB_RNA	RNA	Juvenile granulosa cell tumor	Tumor	Not specified in data	SAMN33169960	sample	phs002790_PBBTNX
+0DGMI1_DNA	DNA		Normal	Blood	SAMN33169857	sample	phs002790_PBBTNY
+0DGMHO_DNA	DNA	Medulloblastoma	Tumor	Central Nervous System	SAMN33169951	sample	phs002790_PBBTNY
+0DGMHF_RNA	RNA	Medulloblastoma	Tumor	Central Nervous System	SAMN33170303	sample	phs002790_PBBTNY
+0DGRHL_DNA	DNA	Rhabdomyosarcoma	Tumor	Not specified in data	SAMN33170001	sample	phs002790_PBBTPN
+0DGRHS_DNA	DNA		Normal	Blood	SAMN33170442	sample	phs002790_PBBTPN
+0DGRG5_RNA	RNA	Rhabdomyosarcoma	Tumor	Not specified in data	SAMN33170509	sample	phs002790_PBBTPN
+0DGOBE_DNA	DNA		Normal	Blood	SAMN33170336	sample	phs002790_PBBTPR
+0DGOAQ_DNA	DNA	Atypical teratoid/rhabdoid tumor	Tumor	Central Nervous System	SAMN33169980	sample	phs002790_PBBTPR
+0DGOA2_RNA	RNA	Atypical teratoid/rhabdoid tumor	Tumor	Central Nervous System	SAMN33170309	sample	phs002790_PBBTPR
+0DGJ7N_DNA	DNA	Cellular spindle cell neoplasm	Tumor	Not specified in data	SAMN33169950	sample	phs002790_PBBTRA
+0DGJ61_DNA	DNA		Normal	Blood	SAMN33170460	sample	phs002790_PBBTRA
+0DGQC3_DNA	DNA	Ependymoma	Tumor	Central Nervous System	SAMN33169876	sample	phs002790_PBBTRC
+0DGQAF_DNA	DNA		Normal	Blood	SAMN33170308	sample	phs002790_PBBTRC
+0DGQAO_RNA	RNA	Ependymoma	Tumor	Central Nervous System	SAMN33170170	sample	phs002790_PBBTRC
+0DGOAP_DNA	DNA	High-grade glioma	Tumor	Central Nervous System	SAMN33170321	sample	phs002790_PBBTRI
+0DGOBC_DNA	DNA		Normal	Blood	SAMN33170245	sample	phs002790_PBBTRI
+0DGOA1_RNA	RNA	High-grade glioma	Tumor	Central Nervous System	SAMN33169922	sample	phs002790_PBBTRI
+0DGZFE_DNA	DNA	Choroid plexus papilloma	Tumor	Central Nervous System	SAMN33170422	sample	phs002790_PBBTRZ
+0DGYZ1_DNA	DNA		Normal	Blood	SAMN33170495	sample	phs002790_PBBTRZ
+0DGQC2_DNA	DNA	High-grade glioma	Tumor	Central Nervous System	SAMN33170124	sample	phs002790_PBBTSD
+0DGQAG_DNA	DNA		Normal	Blood	SAMN33170401	sample	phs002790_PBBTSD
+0DGQAQ_RNA	RNA	High-grade glioma	Tumor	Central Nervous System	SAMN33170363	sample	phs002790_PBBTSD
+0DHBD2_DNA	DNA	High-grade glioma	Tumor	Central Nervous System	SAMN33169952	sample	phs002790_PBBTSW
+0DHBCT_DNA	DNA		Normal	Blood	SAMN33170304	sample	phs002790_PBBTSW
+0DGOBD_DNA	DNA		Normal	Blood	SAMN33169851	sample	phs002790_PBBTTG
+0DGOAS_DNA	DNA	High-grade glioma	Tumor	Central Nervous System	SAMN33170480	sample	phs002790_PBBTTG
+0DGO9W_RNA	RNA	High-grade glioma	Tumor	Central Nervous System	SAMN33170499	sample	phs002790_PBBTTG
+0DGOB0_DNA	DNA		Normal	Blood	SAMN33169904	sample	phs002790_PBBTTH
+0DGOAW_DNA	DNA	Diffuse high-grade glioma	Tumor	Central Nervous System	SAMN33170008	sample	phs002790_PBBTTH
+0DGO9X_RNA	RNA	Diffuse high-grade glioma	Tumor	Central Nervous System	SAMN33170445	sample	phs002790_PBBTTH
+0DGUTA_DNA	DNA	Medulloblastoma	Tumor	Central Nervous System	SAMN33169933	sample	phs002790_PBBTTN
+0DGUS9_DNA	DNA		Normal	Blood	SAMN33170448	sample	phs002790_PBBTTN
+0DGUTB_DNA	DNA	Pineoblastoma	Tumor	Central Nervous System	SAMN33170150	sample	phs002790_PBBTTX
+0DGUSA_DNA	DNA		Normal	Blood	SAMN33170294	sample	phs002790_PBBTTX
+0DGQBE_DNA	DNA	Ependymoma	Tumor	Central Nervous System	SAMN33170188	sample	phs002790_PBBTTZ
+0DGQAJ_DNA	DNA		Normal	Blood	SAMN33170424	sample	phs002790_PBBTTZ
+0DGQAN_RNA	RNA	Ependymoma	Tumor	Central Nervous System	SAMN33170449	sample	phs002790_PBBTTZ
+0DH5VR_DNA	DNA	Sarcoma with BCOR genetic alteration	Tumor	Not specified in data	SAMN33170501	sample	phs002790_PBBTUE
+0DH5U8_DNA	DNA		Normal	Blood	SAMN33170388	sample	phs002790_PBBTUE
+0DH5VD_RNA	RNA	Sarcoma with BCOR genetic alteration	Tumor	Not specified in data	SAMN33170018	sample	phs002790_PBBTUE
+0DGQAH_DNA	DNA		Normal	Blood	SAMN33169845	sample	phs002790_PBBTUH
+0DGQBD_DNA	DNA	Low grade glioma	Tumor	Central Nervous System	SAMN33170462	sample	phs002790_PBBTUH
+0DGQAL_RNA	RNA	Low grade glioma	Tumor	Central Nervous System	SAMN33170203	sample	phs002790_PBBTUH
+0DGSR9_RNA	RNA	Desmoid fibromatosis	Tumor	Not specified in data	SAMN33169997	sample	phs002790_PBBTUR
+0DGWOL_DNA	DNA	Low-grade glial neoplasm	Tumor	Central Nervous System	SAMN33169931	sample	phs002790_PBBTUV
+0DGWO6_DNA	DNA		Normal	Blood	SAMN33170473	sample	phs002790_PBBTUV
+0DGWOF_RNA	RNA	Low-grade glial neoplasm	Tumor	Central Nervous System	SAMN33169840	sample	phs002790_PBBTUV
+0DGRHE_DNA	DNA	Ependymoma	Tumor	Central Nervous System	SAMN33169863	sample	phs002790_PBBTUW
+0DGRHT_DNA	DNA		Normal	Blood	SAMN33170075	sample	phs002790_PBBTUW
+0DGRG3_RNA	RNA	Ependymoma	Tumor	Central Nervous System	SAMN33170196	sample	phs002790_PBBTUW
+0DH293_DNA	DNA	Glioma	Tumor	Central Nervous System	SAMN33170306	sample	phs002790_PBBTVK
+0DH27J_DNA	DNA		Normal	Blood	SAMN33170344	sample	phs002790_PBBTVK
+0DH28Q_RNA	RNA	Glioma	Tumor	Central Nervous System	SAMN33170493	sample	phs002790_PBBTVK
+0DGWOI_DNA	DNA	Primitive Embryonal Tumor	Tumor	Central Nervous System	SAMN33170327	sample	phs002790_PBBTVN
+0DGWO8_DNA	DNA		Normal	Blood	SAMN33170289	sample	phs002790_PBBTVN
+0DGWOE_RNA	RNA	Primitive Embryonal Tumor	Tumor	Central Nervous System	SAMN33170463	sample	phs002790_PBBTVN
+0DGRHM_DNA	DNA	Ependymoma	Tumor	Central Nervous System	SAMN33170447	sample	phs002790_PBBTVS
+0DGRHU_DNA	DNA		Normal	Blood	SAMN33170174	sample	phs002790_PBBTVS
+0DGRG4_RNA	RNA	Ependymoma	Tumor	Central Nervous System	SAMN33170225	sample	phs002790_PBBTVS
+0DGSRA_DNA	DNA	Diffuse midline glioma	Tumor	Central Nervous System	SAMN33170301	sample	phs002790_PBBTWG
+0DGSR6_DNA	DNA		Normal	Blood	SAMN33170111	sample	phs002790_PBBTWG
+0DGUT8_DNA	DNA	Astrocytoma	Tumor	Central Nervous System	SAMN33169914	sample	phs002790_PBBTWI
+0DGUSB_DNA	DNA		Normal	Blood	SAMN33169903	sample	phs002790_PBBTWI
+0DGUSH_RNA	RNA	Astrocytoma	Tumor	Central Nervous System	SAMN33170356	sample	phs002790_PBBTWI
+0DH3LI_DNA	DNA	Low-grade Glial Neoplasm	Tumor	Central Nervous System	SAMN33170346	sample	phs002790_PBBTWL
+0DH3KC_DNA	DNA		Normal	Blood	SAMN33169841	sample	phs002790_PBBTWL
+0DH3KW_RNA	RNA	Low-grade Glial Neoplasm	Tumor	Central Nervous System	SAMN33170101	sample	phs002790_PBBTWL
+0DGYZ2_DNA	DNA		Normal	Blood	SAMN33170241	sample	phs002790_PBBTXA
+0DGZFH_DNA	DNA	High-grade angiosarcoma	Tumor	Not specified in data	SAMN33170349	sample	phs002790_PBBTXA
+0DGZAE_RNA	RNA	High-grade angiosarcoma	Tumor	Not specified in data	SAMN33170129	sample	phs002790_PBBTXA
+0DHDZS_RNA	RNA	Medulloblastoma	Tumor	Central Nervous System	SAMN33170189	sample	phs002790_PBBTXH
+0DHE07_DNA	DNA	Medulloblastoma	Tumor	Central Nervous System	SAMN33170162	sample	phs002790_PBBTXH
+0DH3KL_RNA	RNA	Germinoma	Tumor	Central Nervous System	SAMN33170066	sample	phs002790_PBBTXM
+0DHPJH_RNA	RNA	Posterior fossa ependymoma	Tumor	Central Nervous System	SAMN33169970	sample	phs002790_PBBTYI
+0DHBD4_DNA	DNA	Low-grade glial/glioneuronal neoplasm	Tumor		SAMN33170077	sample	phs002790_PBBTYK
+0DHBD3_RNA	RNA	Low-grade glial/glioneuronal neoplasm	Tumor		SAMN33170195	sample	phs002790_PBBTYK
+0DGX3V_DNA	DNA		Normal	Blood	SAMN33170333	sample	phs002790_PBBTYM
+0DGX3X_DNA	DNA	High-grade blue cell tumor	Tumor	Central Nervous System	SAMN33169819	sample	phs002790_PBBTYM
+0DGX3Z_RNA	RNA	High-grade blue cell tumor	Tumor	Central Nervous System	SAMN33170047	sample	phs002790_PBBTYM
+0DGZFI_DNA	DNA	High-grade blue cell tumor	Tumor	Central Nervous System	SAMN33170481	sample	phs002790_PBBTYM
+0DHOIY_RNA	RNA	Medulloblastoma	Tumor	Central Nervous System	SAMN33170511	sample	phs002790_PBBTYR
+0DHOJ6_DNA	DNA	Medulloblastoma	Tumor	Central Nervous System	SAMN33170253	sample	phs002790_PBBTYR
+0DH5UA_DNA	DNA		Normal	Blood	SAMN33170272	sample	phs002790_PBBTYW
+0DH5XM_DNA	DNA	Possible Synovial Sarcoma	Tumor	Not specified in data	SAMN33170277	sample	phs002790_PBBTYW
+0DH5VG_RNA	RNA	Possible Synovial Sarcoma	Tumor	Not specified in data	SAMN33170054	sample	phs002790_PBBTYW
+0DGZFF_DNA	DNA	Low-grade glial neoplasm	Tumor	Central Nervous System	SAMN33170142	sample	phs002790_PBBTYY
+0DGYZ5_DNA	DNA		Normal	Blood	SAMN33170280	sample	phs002790_PBBTYY
+0DGZAD_RNA	RNA	Low-grade glial neoplasm	Tumor	Central Nervous System	SAMN33170119	sample	phs002790_PBBTYY
+0DGWOJ_DNA	DNA	Rhabdomyosarcoma	Tumor	Not specified in data	SAMN33170062	sample	phs002790_PBBTYZ
+0DGWO7_DNA	DNA		Normal	Blood	SAMN33169894	sample	phs002790_PBBTYZ
+0DGWOC_RNA	RNA	Rhabdomyosarcoma	Tumor	Not specified in data	SAMN33170238	sample	phs002790_PBBTYZ
+0DGWOH_DNA	DNA	High-grade neuroepithelial tumor consistent with embryonal tumor	Tumor	Central Nervous System	SAMN33170403	sample	phs002790_PBBTZC
+0DGWOA_DNA	DNA		Normal	Blood	SAMN33170063	sample	phs002790_PBBTZC
+0DGWOD_RNA	RNA	High-grade neuroepithelial tumor consistent with embryonal tumor	Tumor	Central Nervous System	SAMN33170006	sample	phs002790_PBBTZC
+0DH5VS_DNA	DNA	Pilocytic astrocytoma	Tumor	Central Nervous System	SAMN33170467	sample	phs002790_PBBTZY
+0DH5U9_DNA	DNA		Normal	Blood	SAMN33170402	sample	phs002790_PBBTZY
+0DH5V9_RNA	RNA	Pilocytic astrocytoma	Tumor	Central Nervous System	SAMN33169829	sample	phs002790_PBBTZY
+0DGUTC_DNA	DNA	High-grade ependymal neoplasm	Tumor	Central Nervous System	SAMN33170071	sample	phs002790_PBBUAB
+0DGUSC_DNA	DNA		Normal	Blood	SAMN33169853	sample	phs002790_PBBUAB
+0DGUSI_RNA	RNA	High-grade ependymal neoplasm	Tumor	Central Nervous System	SAMN33170116	sample	phs002790_PBBUAB
+0DGX3W_DNA	DNA		Normal	Blood	SAMN33170512	sample	phs002790_PBBUAT
+0DGX3Y_DNA	DNA	Embryonal tumor w multilayered rosettes	Tumor	Central Nervous System	SAMN33169967	sample	phs002790_PBBUAT
+0DGX40_RNA	RNA	Embryonal tumor w multilayered rosettes	Tumor	Central Nervous System	SAMN33170107	sample	phs002790_PBBUAT
+0DH5VT_DNA	DNA	Atypical spindle cell proliferation	Tumor	Not specified in data	SAMN33169968	sample	phs002790_PBBUAW
+0DH5UB_DNA	DNA		Normal	Blood	SAMN33170057	sample	phs002790_PBBUAW
+0DH5V4_RNA	RNA	Atypical spindle cell proliferation	Tumor	Not specified in data	SAMN33170144	sample	phs002790_PBBUAW
+0DH29M_DNA	DNA	Embryonal tumor	Tumor	Central Nervous System	SAMN33170299	sample	phs002790_PBBUAY
+0DH27H_DNA	DNA		Normal	Blood	SAMN33169883	sample	phs002790_PBBUAY
+0DH28T_RNA	RNA	Embryonal tumor	Tumor	Central Nervous System	SAMN33170177	sample	phs002790_PBBUAY
+0DH5VU_DNA	DNA	Low-grade Glial/Glioneuronal tumor	Tumor	Central Nervous System	SAMN33170338	sample	phs002790_PBBUBA
+0DH5U6_DNA	DNA		Normal	Blood	SAMN33169891	sample	phs002790_PBBUBA
+0DH5V7_RNA	RNA	Low-grade Glial/Glioneuronal tumor	Tumor	Central Nervous System	SAMN33170187	sample	phs002790_PBBUBA
+0DGZFG_DNA	DNA	Small round blue cell tumor	Tumor	Central Nervous System	SAMN33170251	sample	phs002790_PBBUBH
+0DGYZ3_DNA	DNA		Normal	Blood	SAMN33170502	sample	phs002790_PBBUBH
+0DGZAC_RNA	RNA	Small round blue cell tumor	Tumor	Central Nervous System	SAMN33170382	sample	phs002790_PBBUBH
+0DH73S_DNA	DNA	Glial neoplasm	Tumor	Central Nervous System	SAMN33169913	sample	phs002790_PBBUBL
+0DH700_DNA	DNA		Normal	Blood	SAMN33170347	sample	phs002790_PBBUBL
+0DH72R_RNA	RNA	Glial neoplasm	Tumor	Central Nervous System	SAMN33170125	sample	phs002790_PBBUBL
+0DHDZL_RNA	RNA	Medulloblastoma	Tumor	Central Nervous System	SAMN33170172	sample	phs002790_PBBUBN
+0DHDZX_DNA	DNA	Medulloblastoma	Tumor	Central Nervous System	SAMN33170429	sample	phs002790_PBBUBN
+0DHOJ8_DNA	DNA	Pilocytic astrocytoma	Tumor	Central Nervous System	SAMN33170416	sample	phs002790_PBBUBP
+0DH9L9_DNA	DNA	Embryonal rhabdomyosarcoma	Tumor	Not specified in data	SAMN33169962	sample	phs002790_PBBUBR
+0DH9L0_DNA	DNA		Normal	Blood	SAMN33170082	sample	phs002790_PBBUBR
+0DH9L5_RNA	RNA	Embryonal rhabdomyosarcoma	Tumor	Not specified in data	SAMN33169881	sample	phs002790_PBBUBR
+0DHBD5_RNA	RNA	Embryonal rhabdomyosarcoma	Tumor	Not specified in data	SAMN33170339	sample	phs002790_PBBUBT
+0DH292_DNA	DNA	Embryonal neoplasm	Tumor	Central Nervous System	SAMN33169885	sample	phs002790_PBBUBZ
+0DH27G_DNA	DNA		Normal	Blood	SAMN33169828	sample	phs002790_PBBUBZ
+0DH28R_RNA	RNA	Embryonal neoplasm	Tumor	Central Nervous System	SAMN33170002	sample	phs002790_PBBUBZ
+0DHHLK_RNA	RNA	Atypical teratoid/rhabdoid tumor	Tumor	Central Nervous System	SAMN33170459	sample	phs002790_PBBUCE
+0DHHL9_DNA	DNA	Atypical teratoid/rhabdoid tumor	Tumor	Central Nervous System	SAMN33170027	sample	phs002790_PBBUCE
+0DH9LN_DNA	DNA	Medulloblastoma	Tumor	Central Nervous System	SAMN33170444	sample	phs002790_PBBUCV
+0DH9KX_DNA	DNA		Normal	Blood	SAMN33170235	sample	phs002790_PBBUCV
+0DH9L7_RNA	RNA	Medulloblastoma	Tumor	Central Nervous System	SAMN33170494	sample	phs002790_PBBUCV
+0DH732_DNA	DNA	Diffuse midline glioma	Tumor	Central Nervous System	SAMN33170158	sample	phs002790_PBBUCX
+0DH6ZR_DNA	DNA		Normal	Blood	SAMN33169888	sample	phs002790_PBBUCX
+0DH72N_RNA	RNA	Diffuse midline glioma	Tumor	Central Nervous System	SAMN33170004	sample	phs002790_PBBUCX
+0DHFN2_DNA	DNA	Sertoli-leydig cell tumor of the ovary	Tumor	Not specified in data	SAMN33170263	sample	phs002790_PBBUDJ
+0DHFL3_DNA	DNA		Normal	Blood	SAMN33170179	sample	phs002790_PBBUDJ
+0DHFLU_RNA	RNA	Sertoli-leydig cell tumor of the ovary	Tumor	Not specified in data	SAMN33170073	sample	phs002790_PBBUDJ
+0DHOIZ_RNA	RNA	Ependymoma	Tumor	Central Nervous System	SAMN33169998	sample	phs002790_PBBUDK
+0DH72Z_DNA	DNA	Poorly differentiated Sertoli-Leydig cell tumor	Tumor	Not specified in data	SAMN33170197	sample	phs002790_PBBUDY
+0DH6ZW_DNA	DNA		Normal	Blood	SAMN33170482	sample	phs002790_PBBUDY
+0DHDZC_DNA	DNA		Normal	Blood	SAMN33170112	sample	phs002790_PBBUET
+0DHE06_DNA	DNA	Medulloblastoma	Tumor	Central Nervous System	SAMN33170250	sample	phs002790_PBBUET
+0DHDZT_RNA	RNA	Medulloblastoma	Tumor	Central Nervous System	SAMN33170117	sample	phs002790_PBBUET
+0DH291_DNA	DNA	Neuroepithelial neoplasm	Tumor	Central Nervous System	SAMN33170204	sample	phs002790_PBBUEW
+0DH27I_DNA	DNA		Normal	Blood	SAMN33169988	sample	phs002790_PBBUEW
+0DH28P_RNA	RNA	Neuroepithelial neoplasm	Tumor	Central Nervous System	SAMN33169907	sample	phs002790_PBBUEW
+0DH5VV_DNA	DNA	Glial-neuronal neoplasm	Tumor	Central Nervous System	SAMN33170096	sample	phs002790_PBBUFD
+0DH5UD_DNA	DNA		Normal	Blood	SAMN33169871	sample	phs002790_PBBUFD
+0DHDZQ_RNA	RNA	Pilocytic astrocytoma	Tumor	Central Nervous System	SAMN33170404	sample	phs002790_PBBUFI
+0DHE05_DNA	DNA	Pilocytic astrocytoma	Tumor	Central Nervous System	SAMN33170350	sample	phs002790_PBBUFI
+0DH29L_DNA	DNA	Poorly differentiated sarcoma	Tumor	Not specified in data	SAMN33170200	sample	phs002790_PBBUFR
+0DH27K_DNA	DNA		Normal	Blood	SAMN33170476	sample	phs002790_PBBUFR
+0DH28S_RNA	RNA	Poorly differentiated sarcoma	Tumor	Not specified in data	SAMN33169912	sample	phs002790_PBBUFR
+0DH734_DNA	DNA	Metastatic alveolar rhabdomyosarcoma	Tumor	Not specified in data	SAMN33170427	sample	phs002790_PBBUGC
+0DH6ZX_DNA	DNA		Normal	Blood	SAMN33170391	sample	phs002790_PBBUGC
+0DH72Q_RNA	RNA	Metastatic alveolar rhabdomyosarcoma	Tumor	Not specified in data	SAMN33170423	sample	phs002790_PBBUGC
+0DH9LT_DNA	DNA	Alveolar rhabdomyosarcoma	Tumor	Not specified in data	SAMN33170343	sample	phs002790_PBBUGE
+0DH9KZ_DNA	DNA		Normal	Blood	SAMN33170131	sample	phs002790_PBBUGE
+0DH9L8_RNA	RNA	Alveolar rhabdomyosarcoma	Tumor	Not specified in data	SAMN33170206	sample	phs002790_PBBUGE
+0DHPXO_DNA	DNA	Desmoid fibromatosis	Tumor	Not specified in data	SAMN33169861	sample	phs002790_PBBUGF
+0DHFKZ_DNA	DNA		Normal	Blood	SAMN33170407	sample	phs002790_PBBUGF
+0DHFLS_RNA	RNA	Desmoid fibromatosis	Tumor	Not specified in data	SAMN33170121	sample	phs002790_PBBUGF
+0DHDZE_DNA	DNA		Normal	Blood	SAMN33169943	sample	phs002790_PBBUGH
+0DHE04_DNA	DNA	Medulloblastoma	Tumor	Central Nervous System	SAMN33170183	sample	phs002790_PBBUGH
+0DHFLT_RNA	RNA	Rhabdomyosarcoma	Tumor	Not specified in data	SAMN33170318	sample	phs002790_PBBUHB
+0DHMR5_DNA	DNA	Medulloblastoma, non-WNT/ non-SHH	Tumor	Central Nervous System	SAMN33170335	sample	phs002790_PBBUHJ
+0DHMLT_DNA	DNA		Normal	Blood	SAMN33170202	sample	phs002790_PBBUHJ
+0DHMNU_RNA	RNA	Medulloblastoma, non-WNT/ non-SHH	Tumor	Central Nervous System	SAMN33170033	sample	phs002790_PBBUHJ
+0DH9LU_DNA	DNA	Medulloblastoma	Tumor	Central Nervous System	SAMN33170078	sample	phs002790_PBBUIB
+0DH9KY_DNA	DNA		Normal	Blood	SAMN33170181	sample	phs002790_PBBUIB
+0DH9L6_RNA	RNA	Medulloblastoma	Tumor	Central Nervous System	SAMN33170265	sample	phs002790_PBBUIB
+0DH730_DNA	DNA	Medulloblastoma	Tumor	Central Nervous System	SAMN33170024	sample	phs002790_PBBUJJ
+0DH6ZV_DNA	DNA		Normal	Blood	SAMN33170260	sample	phs002790_PBBUJJ
+0DH72M_RNA	RNA	Medulloblastoma	Tumor	Central Nervous System	SAMN33170244	sample	phs002790_PBBUJJ
+0DH731_DNA	DNA	High grade malignant neoplasm	Tumor	Central Nervous System	SAMN33170123	sample	phs002790_PBBUJZ
+0DH6ZY_DNA	DNA		Normal	Blood	SAMN33170266	sample	phs002790_PBBUJZ
+0DH72L_RNA	RNA	High grade malignant neoplasm	Tumor	Central Nervous System	SAMN33170199	sample	phs002790_PBBUJZ
+0DHKQB_DNA	DNA	Rhabdomyosarcoma	Tumor	Not specified in data	SAMN33170315	sample	phs002790_PBBUKA
+0DHKP1_DNA	DNA		Normal	Blood	SAMN33169926	sample	phs002790_PBBUKA
+0DHKPT_RNA	RNA	Rhabdomyosarcoma	Tumor	Not specified in data	SAMN33169958	sample	phs002790_PBBUKA
+0DHMNW_DNA	DNA	Pilocytic astrocytoma	Tumor	Central Nervous System	SAMN33170411	sample	phs002790_PBBUKK
+0DHMLS_DNA	DNA		Normal	Blood	SAMN33170110	sample	phs002790_PBBUKK
+0DHMMJ_RNA	RNA	Pilocytic astrocytoma	Tumor	Central Nervous System	SAMN33169867	sample	phs002790_PBBUKK
+0DHDZM_RNA	RNA	High-grade CNS Neoplasm	Tumor	Central Nervous System	SAMN33170098	sample	phs002790_PBBUKU
+0DHDZW_DNA	DNA	High-grade CNS Neoplasm	Tumor	Central Nervous System	SAMN33170175	sample	phs002790_PBBUKU
+0DHDZ9_DNA	DNA		Normal	Blood	SAMN33170365	sample	phs002790_PBBUKV
+0DHE03_DNA	DNA	Glial neoplasm	Tumor	Central Nervous System	SAMN33169971	sample	phs002790_PBBUKV
+0DHDZN_RNA	RNA	Glial neoplasm	Tumor	Central Nervous System	SAMN33170003	sample	phs002790_PBBUKV
+0DHBD8_DNA	DNA	Medulloblastoma	Tumor	Central Nervous System	SAMN33170469	sample	phs002790_PBBUKY
+0DHBCU_DNA	DNA		Normal	Blood	SAMN33170053	sample	phs002790_PBBUKY
+0DHDZD_DNA	DNA		Normal	Blood	SAMN33170016	sample	phs002790_PBBULB
+0DHE02_DNA	DNA	Small round blue cell tumor	Tumor	Central Nervous System	SAMN33170042	sample	phs002790_PBBULB
+0DHDZO_RNA	RNA	Small round blue cell tumor	Tumor	Central Nervous System	SAMN33169911	sample	phs002790_PBBULB
+0DHQE9_RNA	RNA	Medulloblastoma	Tumor	Central Nervous System	SAMN33170319	sample	phs002790_PBBUMA
+0DHHLL_RNA	RNA	Pilocytic astrocytoma	Tumor	Central Nervous System	SAMN33170328	sample	phs002790_PBBUMH
+0DHHJ6_DNA	DNA	Pilocytic astrocytoma	Tumor	Central Nervous System	SAMN33170220	sample	phs002790_PBBUMH
+0DHHLI_RNA	RNA	Small round blue cell tumor	Tumor	Central Nervous System	SAMN33169977	sample	phs002790_PBBUMY
+0DHHLB_DNA	DNA	Small round blue cell tumor	Tumor	Central Nervous System	SAMN33170487	sample	phs002790_PBBUMY
+0DHHJS_DNA	DNA	Malignant glioma	Tumor	Central Nervous System	SAMN33170491	sample	phs002790_PBBUNA
+0DHHIY_DNA	DNA		Normal	Blood	SAMN33169869	sample	phs002790_PBBUNA
+0DHQE5_RNA	RNA	Medulloblastoma	Tumor	Central Nervous System	SAMN33170113	sample	phs002790_PBBUND
+0DHHL8_DNA	DNA	Undifferentiated, high-grade neoplasm/sarcoma	Tumor	Not specified in data	SAMN33170503	sample	phs002790_PBBUNK
+0DHHIZ_DNA	DNA		Normal	Blood	SAMN33169991	sample	phs002790_PBBUNK
+0DHMSD_DNA	DNA	Medulloblastoma	Tumor	Central Nervous System	SAMN33170139	sample	phs002790_PBBUNU
+0DHMLU_DNA	DNA		Normal	Blood	SAMN33169982	sample	phs002790_PBBUNU
+0DHMNR_RNA	RNA	Medulloblastoma	Tumor	Central Nervous System	SAMN33169822	sample	phs002790_PBBUNU
+0DHMNQ_RNA	RNA	Papillary tumor of the pineal region	Tumor	Central Nervous System	SAMN33170507	sample	phs002790_PBBUNX
+0DHMSC_DNA	DNA	Papillary tumor of the pineal region	Tumor	Central Nervous System	SAMN33169864	sample	phs002790_PBBUNX
+0DHKQ7_RNA	RNA	Medulloblastoma	Tumor	Central Nervous System	SAMN33170492	sample	phs002790_PBBUPJ
+0DHKQD_DNA	DNA	Medulloblastoma	Tumor	Central Nervous System	SAMN33170212	sample	phs002790_PBBUPJ
+0DHHJT_DNA	DNA	Pilocytic astrocytoma	Tumor	Central Nervous System	SAMN33169899	sample	phs002790_PBBUPR
+0DHHJ3_DNA	DNA		Normal	Blood	SAMN33169825	sample	phs002790_PBBUPR
+0DHHLH_RNA	RNA	Pilocytic astrocytoma	Tumor	Central Nervous System	SAMN33169936	sample	phs002790_PBBUPR
+0DHKQ5_RNA	RNA	Fibromatosis	Tumor	Not specified in data	SAMN33170227	sample	phs002790_PBBUPW
+0DHMLW_DNA	DNA		Normal	Blood	SAMN33170095	sample	phs002790_PBBUSB
+0DHMR4_DNA	DNA	Ependymoma	Tumor	Central Nervous System	SAMN33169987	sample	phs002790_PBBUSB
+0DHMNT_RNA	RNA	Ependymoma	Tumor	Central Nervous System	SAMN33169978	sample	phs002790_PBBUSB
+0DHPJC_RNA	RNA	Ependymoma	Tumor	Central Nervous System	SAMN33170254	sample	phs002790_PBBUTL
+0DHOJ1_RNA	RNA	Neoplasm	Tumor	Central Nervous System	SAMN33170465	sample	phs002790_PBBUTM
+0DHOJ7_DNA	DNA	Neoplasm	Tumor	Central Nervous System	SAMN33170334	sample	phs002790_PBBUTM
+0DHOIU_DNA	DNA	Pilocytic astrocytoma	Tumor	Central Nervous System	SAMN33170146	sample	phs002790_PBBUTS
+0DHOJ3_RNA	RNA	High-grade neoplasm	Tumor	Central Nervous System	SAMN33170302	sample	phs002790_PBBUUW
+0DHOIV_DNA	DNA	High-grade neoplasm	Tumor	Central Nervous System	SAMN33170387	sample	phs002790_PBBUUW
+0DHPJG_RNA	RNA	Low-grade glial-glioneuronal tumor	Tumor	Central Nervous System	SAMN33170413	sample	phs002790_PBBUVE
+0DHOJ2_RNA	RNA	Craniopharyngioma	Tumor	Central Nervous System	SAMN33170149	sample	phs002790_PBBUWZ
+0DHOJ9_DNA	DNA	Craniopharyngioma	Tumor	Central Nervous System	SAMN33170486	sample	phs002790_PBBUWZ
+0DHQEA_RNA	RNA	Neuroblastoma CNS	Tumor	Central Nervous System	SAMN33169945	sample	phs002790_PBBUXS
+0DHQE8_RNA	RNA	High grade glioma	Tumor	Central Nervous System	SAMN33170099	sample	phs002790_PBBUYK

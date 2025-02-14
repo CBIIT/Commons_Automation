@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_CDS_phs002529_SampleType_Skin</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>60dd7df2-b16f-4fd9-bce7-0f5e96da87f4</testCaseGuid>
+</TestCaseEntity>

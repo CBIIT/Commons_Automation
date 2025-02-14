@@ -1,0 +1,162 @@
+diagnosis_id	primary_diagnosis	type	study_diagnosis_id	participant.study_participant_id
+Dx4_625	Osteosarcoma, NOS	diagnosis	phs002430_625_Dx4_625	phs002430_625
+Dx6_576	Alveolar Rhabdomyosarcoma	diagnosis	phs002430_576_Dx6_576	phs002430_576
+Dx3_559	Sarcoma, NOS	diagnosis	phs002430_559_Dx3_559	phs002430_559
+Dx15_403	Osteosarcoma, NOS	diagnosis	phs002430_403_Dx15_403	phs002430_403
+Dx4_545	Osteosarcoma, NOS	diagnosis	phs002430_545_Dx4_545	phs002430_545
+Dx43_775	Sarcoma, NOS	diagnosis	phs002430_775_Dx43_775	phs002430_775
+Dx4_517	Osteosarcoma, NOS	diagnosis	phs002430_517_Dx4_517	phs002430_517
+Dx45_639	Ependymoma, NOS	diagnosis	phs002430_639_Dx45_639	phs002430_639
+Dx9_229	Hepatoblastoma, NOS	diagnosis	phs002430_229_Dx9_229	phs002430_229
+Dx16_408	Rhabdomyosarcoma, NOS	diagnosis	phs002430_408_Dx16_408	phs002430_408
+Dx4_806	Osteosarcoma, NOS	diagnosis	phs002430_806_Dx4_806	phs002430_806
+Dx44_619	Paraganglioma, NOS	diagnosis	phs002430_619_Dx44_619	phs002430_619
+Dx9_453	Hepatoblastoma, NOS	diagnosis	phs002430_453_Dx9_453	phs002430_453
+Dx9_511	Hepatoblastoma, NOS	diagnosis	phs002430_511_Dx9_511	phs002430_511
+Dx10_669	Neuroblastoma, NOS	diagnosis	phs002430_669_Dx10_669	phs002430_669
+Dx1_321	Embryonal Rhabdomyosarcoma, NOS	diagnosis	phs002430_321_Dx1_321	phs002430_321
+Dx4_159	Osteosarcoma, NOS	diagnosis	phs002430_159_Dx4_159	phs002430_159
+Dx14_308	Spindle Cell Rhabdomyosarcoma	diagnosis	phs002430_308_Dx14_308	phs002430_308
+Dx6_550	Alveolar Rhabdomyosarcoma	diagnosis	phs002430_550_Dx6_550	phs002430_550
+Dx49_715	Ependymoma, NOS	diagnosis	phs002430_715_Dx49_715	phs002430_715
+Dx4_337	Osteosarcoma, NOS	diagnosis	phs002430_337_Dx4_337	phs002430_337
+Dx10_697	Neuroblastoma, NOS	diagnosis	phs002430_697_Dx10_697	phs002430_697
+Dx4_775	Osteosarcoma, NOS	diagnosis	phs002430_775_Dx4_775	phs002430_775
+Dx4_186	Osteosarcoma, NOS	diagnosis	phs002430_186_Dx4_186	phs002430_186
+Dx4_274	Osteosarcoma, NOS	diagnosis	phs002430_274_Dx4_274	phs002430_274
+Dx28_772	Malignant Peripheral Nerve Sheath Tumor, NOS	diagnosis	phs002430_772_Dx28_772	phs002430_772
+Dx2_577	Ewing Sarcoma	diagnosis	phs002430_577_Dx2_577	phs002430_577
+Dx4_755	Osteosarcoma, NOS	diagnosis	phs002430_755_Dx4_755	phs002430_755
+Dx4_526	Osteosarcoma, NOS	diagnosis	phs002430_526_Dx4_526	phs002430_526
+Dx55_761	Periosteal Osteosarcoma	diagnosis	phs002430_761_Dx55_761	phs002430_761
+Dx9_546	Hepatoblastoma, NOS	diagnosis	phs002430_546_Dx9_546	phs002430_546
+Dx8_307	Chondroblastic Osteosarcoma	diagnosis	phs002430_307_Dx8_307	phs002430_307
+Dx2_624	Ewing Sarcoma	diagnosis	phs002430_624_Dx2_624	phs002430_624
+Dx27_499	Hepatocellular Carcinoma, Fibrolamellar	diagnosis	phs002430_499_Dx27_499	phs002430_499
+Dx4_270	Osteosarcoma, NOS	diagnosis	phs002430_270_Dx4_270	phs002430_270
+Dx40_596	Infantile Fibrosarcoma	diagnosis	phs002430_596_Dx40_596	phs002430_596
+Dx4_575	Osteosarcoma, NOS	diagnosis	phs002430_575_Dx4_575	phs002430_575
+Dx42_602	Periosteal Osteosarcoma	diagnosis	phs002430_602_Dx42_602	phs002430_602
+Dx2_685	Ewing Sarcoma	diagnosis	phs002430_685_Dx2_685	phs002430_685
+Dx1_625	Embryonal Rhabdomyosarcoma, NOS	diagnosis	phs002430_625_Dx1_625	phs002430_625
+Dx8_106	Chondroblastic Osteosarcoma	diagnosis	phs002430_106_Dx8_106	phs002430_106
+Dx1_3	Embryonal Rhabdomyosarcoma, NOS	diagnosis	phs002430_3_Dx1_3	phs002430_3
+Dx28_769	Malignant Peripheral Nerve Sheath Tumor, NOS	diagnosis	phs002430_769_Dx28_769	phs002430_769
+Dx4_774	Osteosarcoma, NOS	diagnosis	phs002430_774_Dx4_774	phs002430_774
+Dx9_425	Hepatoblastoma, NOS	diagnosis	phs002430_425_Dx9_425	phs002430_425
+Dx60_840	Malignant Melanoma, NOS	diagnosis	phs002430_840_Dx60_840	phs002430_840
+Dx16_456	Rhabdomyosarcoma, NOS	diagnosis	phs002430_456_Dx16_456	phs002430_456
+Dx10_703	Neuroblastoma, NOS	diagnosis	phs002430_703_Dx10_703	phs002430_703
+Dx8_559	Chondroblastic Osteosarcoma	diagnosis	phs002430_559_Dx8_559	phs002430_559
+Dx4_384	Osteosarcoma, NOS	diagnosis	phs002430_384_Dx4_384	phs002430_384
+Dx4_587	Osteosarcoma, NOS	diagnosis	phs002430_587_Dx4_587	phs002430_587
+Dx4_40	Osteosarcoma, NOS	diagnosis	phs002430_40_Dx4_40	phs002430_40
+Dx16_716	Rhabdomyosarcoma, NOS	diagnosis	phs002430_716_Dx16_716	phs002430_716
+Dx22_463	Embryonal Sarcoma	diagnosis	phs002430_463_Dx22_463	phs002430_463
+Dx4_742	Osteosarcoma, NOS	diagnosis	phs002430_742_Dx4_742	phs002430_742
+Dx10_754	Neuroblastoma, NOS	diagnosis	phs002430_754_Dx10_754	phs002430_754
+Dx16_636	Rhabdomyosarcoma, NOS	diagnosis	phs002430_636_Dx16_636	phs002430_636
+Dx7_458	Synovial Sarcoma, NOS	diagnosis	phs002430_458_Dx7_458	phs002430_458
+Dx2_819	Glioma, Malignant	diagnosis	phs002430_819_Dx2_819	phs002430_819
+Dx12_293	Infantile Fibrosarcoma	diagnosis	phs002430_293_Dx12_293	phs002430_293
+Dx47_810	Myofibromatosis	diagnosis	phs002430_810_Dx47_810	phs002430_810
+Dx28_503	Malignant Peripheral Nerve Sheath Tumor, NOS	diagnosis	phs002430_503_Dx28_503	phs002430_503
+Dx6_316	Alveolar Rhabdomyosarcoma	diagnosis	phs002430_316_Dx6_316	phs002430_316
+Dx20_778	Nephroblastoma, NOS	diagnosis	phs002430_778_Dx20_778	phs002430_778
+Dx2_563	Ewing Sarcoma	diagnosis	phs002430_563_Dx2_563	phs002430_563
+Dx4_441	Osteosarcoma, NOS	diagnosis	phs002430_441_Dx4_441	phs002430_441
+Dx4_128	Osteosarcoma, NOS	diagnosis	phs002430_128_Dx4_128	phs002430_128
+Dx49_724	Ependymoma, Anaplastic	diagnosis	phs002430_724_Dx49_724	phs002430_724
+Dx30_515	Ependymoma, Anaplastic	diagnosis	phs002430_515_Dx30_515	phs002430_515
+Dx2_588	Ewing Sarcoma	diagnosis	phs002430_588_Dx2_588	phs002430_588
+Dx16_752	Rhabdomyosarcoma, NOS	diagnosis	phs002430_752_Dx16_752	phs002430_752
+Dx35_560	Parosteal Osteosarcoma	diagnosis	phs002430_560_Dx35_560	phs002430_560
+Dx5_497	Desmoplastic Small Round Cell Tumor	diagnosis	phs002430_497_Dx5_497	phs002430_497
+Dx9_432	Hepatoblastoma, NOS	diagnosis	phs002430_432_Dx9_432	phs002430_432
+Dx2_492	Ewing Sarcoma	diagnosis	phs002430_492_Dx2_492	phs002430_492
+Dx9_256	Hepatoblastoma, NOS	diagnosis	phs002430_256_Dx9_256	phs002430_256
+Dx9_734	Hepatoblastoma, NOS	diagnosis	phs002430_734_Dx9_734	phs002430_734
+Dx9_744	Hepatoblastoma, NOS	diagnosis	phs002430_744_Dx9_744	phs002430_744
+Dx7_322	Synovial Sarcoma, NOS	diagnosis	phs002430_322_Dx7_322	phs002430_322
+Dx3_831	Undifferentiated Sarcoma	diagnosis	phs002430_831_Dx3_831	phs002430_831
+Dx20_689	Nephroblastoma, NOS	diagnosis	phs002430_689_Dx20_689	phs002430_689
+Dx20_436	Nephroblastoma, NOS	diagnosis	phs002430_436_Dx20_436	phs002430_436
+Dx4_91	Osteosarcoma, NOS	diagnosis	phs002430_91_Dx4_91	phs002430_91
+Dx39_579	Adrenal Cortical Carcinoma	diagnosis	phs002430_579_Dx39_579	phs002430_579
+Dx9_482	Hepatoblastoma, NOS	diagnosis	phs002430_482_Dx9_482	phs002430_482
+Dx23_723	Ganglioneuroblastoma	diagnosis	phs002430_723_Dx23_723	phs002430_723
+Dx10_688	Neuroblastoma, NOS	diagnosis	phs002430_688_Dx10_688	phs002430_688
+Dx16_640	Rhabdomyosarcoma, NOS	diagnosis	phs002430_640_Dx16_640	phs002430_640
+Dx6_42	Alveolar Rhabdomyosarcoma	diagnosis	phs002430_42_Dx6_42	phs002430_42
+Dx50_717	Yolk Sac Tumor, NOS	diagnosis	phs002430_717_Dx50_717	phs002430_717
+Dx2_361	Ewing Sarcoma	diagnosis	phs002430_361_Dx2_361	phs002430_361
+Dx9_767	Hepatoblastoma, NOS	diagnosis	phs002430_767_Dx9_767	phs002430_767
+Dx26_561	Teratoma, Malignant, NOS	diagnosis	phs002430_561_Dx26_561	phs002430_561
+Dx14_728	Alveolar Rhabdomyosarcoma	diagnosis	phs002430_728_Dx14_728	phs002430_728
+Dx17_427	Synovial Sarcoma, NOS	diagnosis	phs002430_427_Dx17_427	phs002430_427
+Dx10_641	Neuroblastoma, NOS	diagnosis	phs002430_641_Dx10_641	phs002430_641
+Dx4_535	Osteosarcoma, NOS	diagnosis	phs002430_535_Dx4_535	phs002430_535
+Dx2_390	Ewing Sarcoma	diagnosis	phs002430_390_Dx2_390	phs002430_390
+Dx4_705	Osteosarcoma, NOS	diagnosis	phs002430_705_Dx4_705	phs002430_705
+Dx26_491	Yolk Sac Tumor, NOS	diagnosis	phs002430_491_Dx26_491	phs002430_491
+Dx1_759	Spindle Cell Rhabdomyosarcoma	diagnosis	phs002430_759_Dx1_759	phs002430_759
+Dx4_525	Osteosarcoma, NOS	diagnosis	phs002430_525_Dx4_525	phs002430_525
+Dx9_702	Hepatoblastoma, NOS	diagnosis	phs002430_702_Dx9_702	phs002430_702
+Dx28_787	Malignant Peripheral Nerve Sheath Tumor, NOS	diagnosis	phs002430_787_Dx28_787	phs002430_787
+Dx4_708	Osteosarcoma, NOS	diagnosis	phs002430_708_Dx4_708	phs002430_708
+Dx43_614	Malignant Melanoma, NOS	diagnosis	phs002430_614_Dx43_614	phs002430_614
+Dx1_410	Embryonal Rhabdomyosarcoma, NOS	diagnosis	phs002430_410_Dx1_410	phs002430_410
+Dx9_496	Hepatoblastoma, NOS	diagnosis	phs002430_496_Dx9_496	phs002430_496
+Dx8_637	Telangiectatic Osteosarcoma	diagnosis	phs002430_637_Dx8_637	phs002430_637
+Dx18_433	Squamous Cell Carcinoma, Large Cell, Nonkeratinizing, NOS	diagnosis	phs002430_433_Dx18_433	phs002430_433
+Dx47_784	Aggressive Fibromatosis	diagnosis	phs002430_784_Dx47_784	phs002430_784
+Dx6_701	Nephroblastoma, NOS	diagnosis	phs002430_701_Dx6_701	phs002430_701
+Dx2_620	Ewing Sarcoma	diagnosis	phs002430_620_Dx2_620	phs002430_620
+Dx13_303	Adrenal Cortical Carcinoma	diagnosis	phs002430_303_Dx13_303	phs002430_303
+Dx4_495	Osteosarcoma, NOS	diagnosis	phs002430_495_Dx4_495	phs002430_495
+Dx46_660	Adrenal Cortical Carcinoma	diagnosis	phs002430_660_Dx46_660	phs002430_660
+Dx4_166	Osteosarcoma, NOS	diagnosis	phs002430_166_Dx4_166	phs002430_166
+Dx3_10	Sarcoma, NOS	diagnosis	phs002430_10_Dx3_10	phs002430_10
+Dx19_549	Hepatocellular Carcinoma, Fibrolamellar	diagnosis	phs002430_549_Dx19_549	phs002430_549
+Dx2_469	Ewing Sarcoma	diagnosis	phs002430_469_Dx2_469	phs002430_469
+Dx54_745	Acinar Cell Carcinoma	diagnosis	phs002430_745_Dx54_745	phs002430_745
+Dx9_438	Hepatoblastoma, NOS	diagnosis	phs002430_438_Dx9_438	phs002430_438
+Dx4_405	Osteosarcoma, NOS	diagnosis	phs002430_405_Dx4_405	phs002430_405
+Dx23_470	Medulloblastoma, NOS	diagnosis	phs002430_470_Dx23_470	phs002430_470
+Dx48_687	Pilocytic Astrocytoma	diagnosis	phs002430_687_Dx48_687	phs002430_687
+Dx25_484	Malignant Peripheral Nerve Sheath Tumor, NOS	diagnosis	phs002430_484_Dx25_484	phs002430_484
+Dx4_107	Osteosarcoma, NOS	diagnosis	phs002430_107_Dx4_107	phs002430_107
+Dx3_360	Sarcoma, NOS	diagnosis	phs002430_360_Dx3_360	phs002430_360
+Dx14_367	Spindle Cell Rhabdomyosarcoma	diagnosis	phs002430_367_Dx14_367	phs002430_367
+Dx7_582	Synovial Sarcoma, NOS	diagnosis	phs002430_582_Dx7_582	phs002430_582
+Dx16_736	Rhabdomyosarcoma, NOS	diagnosis	phs002430_736_Dx16_736	phs002430_736
+Dx20_486	Nephroblastoma, NOS	diagnosis	phs002430_486_Dx20_486	phs002430_486
+Dx2_578	Ewing Sarcoma	diagnosis	phs002430_578_Dx2_578	phs002430_578
+Dx6_595	Alveolar Rhabdomyosarcoma	diagnosis	phs002430_595_Dx6_595	phs002430_595
+Dx5_40	Undifferentiated Sarcoma	diagnosis	phs002430_40_Dx5_40	phs002430_40
+Dx4_52	Osteosarcoma, NOS	diagnosis	phs002430_52_Dx4_52	phs002430_52
+Dx4_647	Osteosarcoma, NOS	diagnosis	phs002430_647_Dx4_647	phs002430_647
+Dx4_626	Osteosarcoma, NOS	diagnosis	phs002430_626_Dx4_626	phs002430_626
+Dx51_722	Medulloblastoma, NOS	diagnosis	phs002430_722_Dx51_722	phs002430_722
+Dx10_782	Neuroblastoma, NOS	diagnosis	phs002430_782_Dx10_782	phs002430_782
+Dx9_255	Hepatoblastoma, NOS	diagnosis	phs002430_255_Dx9_255	phs002430_255
+Dx2_8	Ewing Sarcoma	diagnosis	phs002430_8_Dx2_8	phs002430_8
+Dx12_664	Aggressive Fibromatosis	diagnosis	phs002430_664_Dx12_664	phs002430_664
+Dx31_602	Dysembryoplastic Neuroepithelial Tumor	diagnosis	phs002430_602_Dx31_602	phs002430_602
+Dx10_369	Neuroblastoma, NOS	diagnosis	phs002430_369_Dx10_369	phs002430_369
+Dx7_104	Synovial Sarcoma, NOS	diagnosis	phs002430_104_Dx7_104	phs002430_104
+Dx4_622	Osteosarcoma, NOS	diagnosis	phs002430_622_Dx4_622	phs002430_622
+Dx13_720	Mucoepidermoid Carcinoma	diagnosis	phs002430_720_Dx13_720	phs002430_720
+Dx9_231	Hepatoblastoma, NOS	diagnosis	phs002430_231_Dx9_231	phs002430_231
+Dx2_10	Ewing Sarcoma	diagnosis	phs002430_10_Dx2_10	phs002430_10
+Dx16_844	Embryonal Rhabdomyosarcoma, NOS	diagnosis	phs002430_844_Dx16_844	phs002430_844
+Dx19_435	Hepatocellular Carcinoma, NOS	diagnosis	phs002430_435_Dx19_435	phs002430_435
+Dx10_712	Neuroblastoma, NOS	diagnosis	phs002430_712_Dx10_712	phs002430_712
+Dx4_357	Osteosarcoma, NOS	diagnosis	phs002430_357_Dx4_357	phs002430_357
+Dx3_518	Sarcoma, NOS	diagnosis	phs002430_518_Dx3_518	phs002430_518
+Dx4_301	Osteosarcoma, NOS	diagnosis	phs002430_301_Dx4_301	phs002430_301
+Dx4_152	Osteosarcoma, NOS	diagnosis	phs002430_152_Dx4_152	phs002430_152
+Dx4_457	Osteosarcoma, NOS	diagnosis	phs002430_457_Dx4_457	phs002430_457
+Dx2_520	Ewing Sarcoma	diagnosis	phs002430_520_Dx2_520	phs002430_520
+Dx16_472	Rhabdomyosarcoma, NOS	diagnosis	phs002430_472_Dx16_472	phs002430_472
+Dx4_652	Osteosarcoma, NOS	diagnosis	phs002430_652_Dx4_652	phs002430_652

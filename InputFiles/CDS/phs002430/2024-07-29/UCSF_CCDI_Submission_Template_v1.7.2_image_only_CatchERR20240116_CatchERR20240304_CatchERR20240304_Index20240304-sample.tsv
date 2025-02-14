@@ -1,0 +1,197 @@
+sample_id	sample_description	sample_tumor_status	sample_anatomic_site	sample_age_at_collection	type	participant.study_participant_id	sample_type
+010-19	Metastasis	Tumor	C34.3 : Lower lobe, lung	6574	sample	phs002430_10	Not specified in data
+010-2	Metastasis	Tumor	Lymph Node, NOS	4017	sample	phs002430_10	Not specified in data
+010-22a	Metastasis	Tumor	Lung, NOS	6574	sample	phs002430_10	Not specified in data
+010-22b	Metastasis	Tumor	Lung, NOS	6574	sample	phs002430_10	Not specified in data
+010-22c	Metastasis	Tumor	Lung, NOS	6574	sample	phs002430_10	Not specified in data
+104-20	Metastasis	Tumor	Lung, NOS	7670	sample	phs002430_104	Not specified in data
+107-4	Diagnostic Biopsy	Tumor	C40.2 : Long bones of lower limb and associated joints	6209	sample	phs002430_107	Not specified in data
+152-5	Metastasis	Tumor	C40.0 : Long bones of upper limb, scapula and associated joints	4383	sample	phs002430_152	Not specified in data
+159-4	Resection	Tumor	Pelvis, NOS	5113	sample	phs002430_159	Not specified in data
+166-20	Metastasis	Tumor	Lung, NOS	6209	sample	phs002430_166	Not specified in data
+166-7	Metastasis	Tumor	Lung, NOS	6209	sample	phs002430_166	Not specified in data
+186-10	Resection	Tumor	C76.5 : Lower limb, NOS	4748	sample	phs002430_186	Not specified in data
+186-8	Diagnostic Biopsy	Tumor	C40.2 : Long bones of lower limb and associated joints	4383	sample	phs002430_186	Not specified in data
+229-1	Resection	Tumor	Liver	365	sample	phs002430_229	Not specified in data
+231-1	Diagnostic Biopsy	Tumor	Liver	1095	sample	phs002430_231	Not specified in data
+255-1	Diagnostic Resection	Tumor	Liver	365	sample	phs002430_255	Not specified in data
+256-1	Diagnostic Resection	Tumor	Liver	730	sample	phs002430_256	Not specified in data
+270-15	Relapse resection	Tumor	C76.5 : Lower limb, NOS	12783	sample	phs002430_270	Not specified in data
+274-1	Resection	Tumor	C40.2 : Long bones of lower limb and associated joints	8035	sample	phs002430_274	Not specified in data
+293-14	Resection	Tumor	Mediastinum, NOS	-999	sample	phs002430_293	Not specified in data
+293-6	Relapse Resection	Tumor	Mediastinum, NOS	109	sample	phs002430_293	Not specified in data
+003-1	Diagnostic Biopsy	Tumor	Abdomen, NOS	1461	sample	phs002430_3	Not specified in data
+003-5	Relapse Biopsy	Tumor	Pelvis, NOS	4017	sample	phs002430_3	Not specified in data
+303-4	Metastasis	Tumor	Lung, NOS	5113	sample	phs002430_303	Not specified in data
+307-1	Diagnostic Biopsy	Tumor	C40.2 : Long bones of lower limb and associated joints	5844	sample	phs002430_307	Not specified in data
+307-10	Resection	Tumor	C40.2 : Long bones of lower limb and associated joints	5844	sample	phs002430_307	Not specified in data
+308-3	Relapse Biopsy	Tumor	C49.6 : Connective, subcutaneous and other soft tissues of trunk, NOS	3287	sample	phs002430_308	Not specified in data
+316-1	Diagnostic Biopsy	Tumor	C49.2 : Connective, subcutaneous and other soft tissues of lower limb and hip	3652	sample	phs002430_316	Not specified in data
+321-1	Diagnostic Resection	Tumor	C49.5 : Connective, subcutaneous and other soft tissues of pelvis	241	sample	phs002430_321	Not specified in data
+357-10	Resection	Tumor	C40.2 : Long bones of lower limb and associated joints	3652	sample	phs002430_357	Not specified in data
+357-13	Metastasis	Tumor	C34.3 : Lower lobe, lung	3652	sample	phs002430_357	Not specified in data
+357-27	Metastasis	Tumor	C34.3 : Lower lobe, lung	4017	sample	phs002430_357	Not specified in data
+357-39	Metastasis	Tumor	C34.1 : Upper lobe, lung	4017	sample	phs002430_357	Not specified in data
+357-40	Metastasis	Tumor	C34.3 : Lower lobe, lung	4017	sample	phs002430_357	Not specified in data
+360-3	Diagnostic Biopsy	Tumor	C76.5 : Lower limb, NOS	2556	sample	phs002430_360	Not specified in data
+360-7	Resection	Tumor	C76.5 : Lower limb, NOS	2556	sample	phs002430_360	Not specified in data
+361-3	Diagnostic Biopsy	Tumor	C40.2 : Long bones of lower limb and associated joints	3652	sample	phs002430_361	Not specified in data
+367-3	Diagnostic Biopsy	Tumor	C49.3 : Connective, subcutaneous and other soft tissues of thorax	6209	sample	phs002430_367	Not specified in data
+369-6	Relapse Resection	Tumor	Abdomen, NOS	365	sample	phs002430_369	Not specified in data
+384-9	Resection	Tumor	C40.2 : Long bones of lower limb and associated joints	4383	sample	phs002430_384	Not specified in data
+390-3	Diagnostic Biopsy	Tumor	C40.0 : Long bones of upper limb, scapula and associated joints	5113	sample	phs002430_390	Not specified in data
+040-5	Diagnostic Biopsy (SMN)	Tumor	C31.0 : Maxillary sinus	7305	sample	phs002430_40	Not specified in data
+040-6	Secondary Malignancy Resection	Tumor	C31.0 : Maxillary sinus	5113	sample	phs002430_40	Not specified in data
+403-4	Diagnostic Biopsy	Tumor	Liver	4748	sample	phs002430_403	Not specified in data
+403-5	Metastasis	Tumor	C34.1 : Upper lobe, lung	4748	sample	phs002430_403	Not specified in data
+405-3	Diagnostic Biopsy	Tumor	C40.0 : Long bones of upper limb, scapula and associated joints	3652	sample	phs002430_405	Not specified in data
+408-3	Diagnostic Biopsy	Tumor	Abdomen, NOS	1095	sample	phs002430_408	Not specified in data
+410-2	Diagnostic Biopsy	Tumor	C10.9 : Oropharynx, NOS	2191	sample	phs002430_410	Not specified in data
+042-8	Diagnostic Resection	Tumor	C49.3 : Connective, subcutaneous and other soft tissues of thorax	365	sample	phs002430_42	Not specified in data
+425-1_2	Diagnostic Biopsy	Tumor	Liver	133	sample	phs002430_425	Not specified in data
+427-5	Resection	Tumor	Liver	2922	sample	phs002430_427	Not specified in data
+432-3_2	Resection	Tumor	Liver	1095	sample	phs002430_432	Not specified in data
+432-3_3	Resection	Tumor	Liver	1095	sample	phs002430_432	Not specified in data
+433-3	Metastasis	Tumor	Pleura, NOS	5113	sample	phs002430_433	Not specified in data
+435-3_1	Resection	Tumor	Liver	4017	sample	phs002430_435	Not specified in data
+435-3_2	Resection	Tumor	Liver	4017	sample	phs002430_435	Not specified in data
+435-3_3	Resection	Tumor	Liver	4017	sample	phs002430_435	Not specified in data
+436-12	Relapse Resection	Tumor	Liver	6939	sample	phs002430_436	Not specified in data
+436-8	Relapse Resection	Tumor	Pelvis, NOS	6939	sample	phs002430_436	Not specified in data
+438-1	Resection	Tumor	Liver	1461	sample	phs002430_438	Not specified in data
+441-9	Metastasis	Tumor	Lung, NOS	5478	sample	phs002430_441	Not specified in data
+453-1	Diagnostic Biopsy	Tumor	Liver	5113	sample	phs002430_453	Not specified in data
+453-5	Resection	Tumor	Liver	5113	sample	phs002430_453	Not specified in data
+456-3	Metastasis	Tumor	Abdomen, NOS	3287	sample	phs002430_456	Not specified in data
+456-4	Metastasis	Tumor	Brain, NOS	3287	sample	phs002430_456	Not specified in data
+457-21	Metastasis	Tumor	C34.2 : Middle lobe, lung	6574	sample	phs002430_457	Not specified in data
+458-3	Resection	Tumor	C49.3 : Connective, subcutaneous and other soft tissues of thorax	4748	sample	phs002430_458	Not specified in data
+463-1	Diagnostic Biopsy	Tumor	Liver	365	sample	phs002430_463	Not specified in data
+463-2	Resection	Tumor	Liver	730	sample	phs002430_463	Not specified in data
+469-3	Resection	Tumor	C49.6 : Connective, subcutaneous and other soft tissues of trunk, NOS	13879	sample	phs002430_469	Not specified in data
+470-3	Relapse Resection	Tumor	Brain, NOS	6209	sample	phs002430_470	Not specified in data
+472-3	Diagnostic Biopsy	Tumor	C44.2 : External ear	1826	sample	phs002430_472	Not specified in data
+482-3	Diagnostic Biopsy	Tumor	Liver	365	sample	phs002430_482	Not specified in data
+484-1	Resection	Tumor	C41.0 : Bones of skull and face and associated joints	365	sample	phs002430_484	Not specified in data
+486-4	Metastasis	Tumor	Pelvis, NOS	2191	sample	phs002430_486	Not specified in data
+486-7	Metastasis	Tumor	C49.6 : Connective, subcutaneous and other soft tissues of trunk, NOS	2191	sample	phs002430_486	Not specified in data
+491-1	Relapse Biopsy	Tumor	Mediastinum, NOS	7305	sample	phs002430_491	Not specified in data
+492-1	Diagnostic Biopsy	Tumor	C40.0 : Long bones of upper limb, scapula and associated joints	5478	sample	phs002430_492	Not specified in data
+495-3R	Resection	Tumor	C40.2 : Long bones of lower limb and associated joints	5844	sample	phs002430_495	Not specified in data
+496-3	Resection	Tumor	Liver	365	sample	phs002430_496	Not specified in data
+497-1	Metastasis	Tumor	Lung, NOS	4383	sample	phs002430_497	Not specified in data
+499-1	Diagnostic Biopsy	Tumor	Abdomen, NOS	5478	sample	phs002430_499	Not specified in data
+503-4	Relapse Biopsy	Tumor	C76.5 : Lower limb, NOS	2922	sample	phs002430_503	Not specified in data
+511-4	Metastasis	Tumor	Lung, NOS	365	sample	phs002430_511	Not specified in data
+515-1	Diagnostic Resection	Tumor	C72.0 : Spinal cord	2922	sample	phs002430_515	Not specified in data
+517-1	Diagnostic Biopsy	Tumor	C40.0 : Long bones of upper limb, scapula and associated joints	4748	sample	phs002430_517	Not specified in data
+518-5	Resection	Tumor	C49.6 : Connective, subcutaneous and other soft tissues of trunk, NOS	3652	sample	phs002430_518	Not specified in data
+052-10	Resection	Tumor	C40.2 : Long bones of lower limb and associated joints	6209	sample	phs002430_52	Not specified in data
+052-9	Diagnostic Biopsy	Tumor	C40.2 : Long bones of lower limb and associated joints	5844	sample	phs002430_52	Not specified in data
+520-1	Diagnostic Biopsy	Tumor	C49.5 : Connective, subcutaneous and other soft tissues of pelvis	1826	sample	phs002430_520	Not specified in data
+535-1	Diagnostic Biopsy	Tumor	C76.5 : Lower limb, NOS	6574	sample	phs002430_535	Not specified in data
+535-5	Resection	Tumor	C40.2 : Long bones of lower limb and associated joints	6574	sample	phs002430_535	Not specified in data
+545-3	Diagnostic Biopsy	Tumor	C40.0 : Long bones of upper limb, scapula and associated joints	4748	sample	phs002430_545	Not specified in data
+546-3	Diagnostic Biopsy	Tumor	Liver	307	sample	phs002430_546	Not specified in data
+549-3	Resection	Tumor	Liver	4383	sample	phs002430_549	Not specified in data
+550-3	Diagnostic Biopsy	Tumor	C31.0 : Maxillary sinus	4017	sample	phs002430_550	Not specified in data
+559-1	Relapse Metastasis	Tumor	C49.2 : Connective, subcutaneous and other soft tissues of lower limb and hip	9496	sample	phs002430_559	Not specified in data
+560-1	Relapse Metastasis	Tumor	C34.3 : Lower lobe, lung	9861	sample	phs002430_560	Not specified in data
+560-6	Relapse Metastasis	Tumor	C34.3 : Lower lobe, lung	9861	sample	phs002430_560	Not specified in data
+560-8	Relapse Metastasis	Tumor	Lung, NOS	9861	sample	phs002430_560	Not specified in data
+561-1	Diagnostic Resection	Tumor	Testis, NOS	333	sample	phs002430_561	Not specified in data
+575-9	Resection	Tumor	C40.2 : Long bones of lower limb and associated joints	4748	sample	phs002430_575	Not specified in data
+576-3	Resection	Tumor	C49.1 : Connective, subcutaneous and other soft tissues of upper limb and shoulder	1461	sample	phs002430_576	Not specified in data
+577-1	Diagnostic Biopsy	Tumor	C69.6 : Orbit, NOS	3652	sample	phs002430_577	Not specified in data
+578-7	Relapse Resection	Tumor	C69.6 : Orbit, NOS	2922	sample	phs002430_578	Not specified in data
+579-3	Relapse Metastasis	Tumor	Lymph Node, NOS	5844	sample	phs002430_579	Not specified in data
+582-3	Resection	Tumor	C76.5 : Lower limb, NOS	7670	sample	phs002430_582	Not specified in data
+587-3	Relapse Metastasis	Tumor	Rib, Sternum, Clavicle and Associated Joints	1826	sample	phs002430_587	Not specified in data
+588-3	Resection	Tumor	C40.0 : Long bones of upper limb, scapula and associated joints	15340	sample	phs002430_588	Not specified in data
+595-1	Resection	Tumor	C76.5 : Lower limb, NOS	365	sample	phs002430_595	Not specified in data
+595-15	Relapse Metastasis	Tumor	Peritoneum, NOS	730	sample	phs002430_595	Not specified in data
+595-2	Metastasis	Tumor	C77.4 : Lymph nodes of inguinal region or leg	365	sample	phs002430_595	Not specified in data
+596-10	Resection	Tumor	Pelvis, NOS	6574	sample	phs002430_596	Not specified in data
+596-3	Diagnostic Biopsy	Tumor	C41.0 : Bones of skull and face and associated joints	6574	sample	phs002430_596	Not specified in data
+602-3	Diagnostic Biopsy	Tumor	C40.2 : Long bones of lower limb and associated joints	3287	sample	phs002430_602	Not specified in data
+614-4	Diagnostic Biopsy	Tumor	C76.5 : Lower limb, NOS	2922	sample	phs002430_614	Not specified in data
+619-5	Resection	Tumor	Parotid gland	4748	sample	phs002430_619	Not specified in data
+620-3	Diagnostic Biopsy	Tumor	C40.2 : Long bones of lower limb and associated joints	4748	sample	phs002430_620	Not specified in data
+622-3	Diagnostic Biopsy	Tumor	C40.2 : Long bones of lower limb and associated joints	6209	sample	phs002430_622	Not specified in data
+624-3	Diagnostic Biopsy	Tumor	C41.4 : Pelvic bones, sacrum, coccyx and associated joints	7670	sample	phs002430_624	Not specified in data
+625-3	SMN Relapse Metastasis	Tumor	Brain, NOS	5478	sample	phs002430_625	Not specified in data
+626-3	Relapse Metastasis	Tumor	C34.3 : Lower lobe, lung	-999	sample	phs002430_626	Not specified in data
+636-3	Diagnostic Biopsy	Tumor	C76.5 : Lower limb, NOS	365	sample	phs002430_636	Not specified in data
+636-9	Resection	Tumor	C76.5 : Lower limb, NOS	365	sample	phs002430_636	Not specified in data
+637-3	Diagnostic Biopsy	Tumor	C40.2 : Long bones of lower limb and associated joints	6939	sample	phs002430_637	Not specified in data
+639-3	Resection	Tumor	Brain, NOS	-999	sample	phs002430_639	Not specified in data
+640-3	Relapse Metastasis	Tumor	Abdomen, NOS	6939	sample	phs002430_640	Not specified in data
+641-4	Relapse Metastasis	Tumor	C41.0 : Bones of skull and face and associated joints	4383	sample	phs002430_641	Not specified in data
+647-1	Diagnostic Biopsy	Tumor	C40.2 : Long bones of lower limb and associated joints	4748	sample	phs002430_647	Not specified in data
+652-4	Resection	Tumor	C40.2 : Long bones of lower limb and associated joints	6939	sample	phs002430_652	Not specified in data
+660-3	Diagnostic Biopsy	Tumor	Adrenal Gland, NOS	3652	sample	phs002430_660	Not specified in data
+664-1	Diagnostic Biopsy	Tumor	C76.4 : Upper limb, NOS	197	sample	phs002430_664	Not specified in data
+669-2	Naïve	Tumor	Unknown	-999	sample	phs002430_669	Not specified in data
+685-2	Diagnostic Biopsy	Tumor	Pelvis, NOS	-999	sample	phs002430_685	Not specified in data
+687-2	Resection	Tumor	C40.2 : Long bones of lower limb and associated joints	-999	sample	phs002430_687	Not specified in data
+688-1	Relapse Metastasis	Tumor	C71.4 : Occipital lobe	2191	sample	phs002430_688	Not specified in data
+689-2	Diagnostic Biopsy	Tumor	Kidney, NOS	-999	sample	phs002430_689	Not specified in data
+697-3	Metastasis	Tumor	C48.0 : Retroperitoneum	7670	sample	phs002430_697	Not specified in data
+701-3	Relapse Metastasis	Tumor	Lung, NOS	5844	sample	phs002430_701	Not specified in data
+702-3	Resection	Tumor	Liver	1095	sample	phs002430_702	Not specified in data
+703-2	Diagnostic Biopsy	Tumor	C48.0 : Retroperitoneum	-999	sample	phs002430_703	Not specified in data
+705-1	Diagnostic Biopsy	Tumor	C41.4 : Pelvic bones, sacrum, coccyx and associated joints	4748	sample	phs002430_705	Not specified in data
+708-10	Relapse Metastasis	Tumor	C34.2 : Middle lobe, lung	5844	sample	phs002430_708	Not specified in data
+708-11	Relapse Metastasis	Tumor	C34.1 : Upper lobe, lung	5844	sample	phs002430_708	Not specified in data
+708-9	Relapse Metastasis	Tumor	C34.3 : Lower lobe, lung	5844	sample	phs002430_708	Not specified in data
+712-1	Diagnostic Biopsy	Tumor	C49.4 : Connective, subcutaneous and other soft tissues of abdomen	365	sample	phs002430_712	Not specified in data
+715-1	Resection	Tumor	Brain, NOS	-999	sample	phs002430_715	Not specified in data
+716-1	Diagnostic Biopsy	Tumor	Abdomen, NOS	-999	sample	phs002430_716	Not specified in data
+717-1	Naïve	Tumor	Kidney, NOS	-999	sample	phs002430_717	Not specified in data
+720-1	Resection	Tumor	C48.0 : Retroperitoneum	-999	sample	phs002430_720	Not specified in data
+722-1	Resection	Tumor	Brain, NOS	-999	sample	phs002430_722	Not specified in data
+723-1	Naïve	Tumor	Brain, NOS	-999	sample	phs002430_723	Not specified in data
+724-1	Naïve	Tumor	Brain, NOS	-999	sample	phs002430_724	Not specified in data
+728-14	Relapse Resection	Tumor	C49.1 : Connective, subcutaneous and other soft tissues of upper limb and shoulder	6209	sample	phs002430_728	Not specified in data
+728-3	Relapse Resection	Tumor	C76.4 : Upper limb, NOS	5113	sample	phs002430_728	Not specified in data
+734-7A	Resection	Tumor	Liver	1095	sample	phs002430_734	Not specified in data
+736-1	Diagnostic Biopsy	Tumor	C49.3 : Connective, subcutaneous and other soft tissues of thorax	3287	sample	phs002430_736	Not specified in data
+742-4	Diagnostic Biopsy	Tumor	C40.2 : Long bones of lower limb and associated joints	2922	sample	phs002430_742	Not specified in data
+744-4	Resection	Tumor	Liver	1095	sample	phs002430_744	Not specified in data
+745-4	Resection	Tumor	Parotid gland	4017	sample	phs002430_745	Not specified in data
+752-6	Diagnostic Biopsy	Tumor	C11.9 : Nasopharynx, NOS	4748	sample	phs002430_752	Not specified in data
+754-4	Resection	Tumor	Abdomen, NOS	1826	sample	phs002430_754	Not specified in data
+755-3	Diagnostic Biopsy	Tumor	C40.2 : Long bones of lower limb and associated joints	2556	sample	phs002430_755	Not specified in data
+759-4	Diagnostic Biopsy	Tumor	C40.0 : Long bones of upper limb, scapula and associated joints	2556	sample	phs002430_759	Not specified in data
+761-4	Resection	Tumor	C40.0 : Long bones of upper limb, scapula and associated joints	11322	sample	phs002430_761	Not specified in data
+767-4	Resection	Tumor	Liver	730	sample	phs002430_767	Not specified in data
+769-2	Relapse Resection	Tumor	C49.1 : Connective, subcutaneous and other soft tissues of upper limb and shoulder	9496	sample	phs002430_769	Not specified in data
+772-3	Resection	Tumor	C76.5 : Lower limb, NOS	4748	sample	phs002430_772	Not specified in data
+774-3	Diagnostic Biopsy	Tumor	C40.2 : Long bones of lower limb and associated joints	5113	sample	phs002430_774	Not specified in data
+775-2	Diagnostic Biopsy	Tumor	C40.2 : Long bones of lower limb and associated joints	2922	sample	phs002430_775	Not specified in data
+778-12	Resection	Tumor	Kidney, NOS	365	sample	phs002430_778	Not specified in data
+778-9	Resection	Tumor	Kidney, NOS	365	sample	phs002430_778	Not specified in data
+782-4	Resection	Tumor	Abdomen, NOS	1095	sample	phs002430_782	Not specified in data
+784-2	Diagnostic Biopsy	Tumor	C76.5 : Lower limb, NOS	2556	sample	phs002430_784	Not specified in data
+787-1	Resection	Tumor	C76.5 : Lower limb, NOS	9131	sample	phs002430_787	Not specified in data
+008-1	Diagnostic Biopsy	Tumor	C41.0 : Bones of skull and face and associated joints	1461	sample	phs002430_8	Not specified in data
+008-11	Relapse Biopsy	Tumor	C30.0 : Nasal cavity	3652	sample	phs002430_8	Not specified in data
+806-1	Diagnostic Biopsy	Tumor	C40.2 : Long bones of lower limb and associated joints	8400	sample	phs002430_806	Not specified in data
+810-1	Resection	Tumor	C41.0 : Bones of skull and face and associated joints	365	sample	phs002430_810	Not specified in data
+819-3	Diagnostic Biopsy	Tumor	C40.0 : Long bones of upper limb, scapula and associated joints	6209	sample	phs002430_819	Not specified in data
+831-2	Diagnostic Biopsy	Tumor	C41.0 : Bones of skull and face and associated joints	4383	sample	phs002430_831	Not specified in data
+840-4_2	Diagnostic Resection	Tumor	C48.0 : Retroperitoneum	5844	sample	phs002430_840	Not specified in data
+844-1_3	Relapse Resection	Tumor	C41.0 : Bones of skull and face and associated joints	4383	sample	phs002430_844	Not specified in data
+091-9	Metastasis	Tumor	C40.2 : Long bones of lower limb and associated joints	8400	sample	phs002430_91	Not specified in data
+106-5	Metastasis	Tumor	Lung, NOS	5844	sample	phs002430_106	Not specified in data
+107-7	Metastasis	Tumor	Lung, NOS	6574	sample	phs002430_107	Not specified in data
+128-3	Resection	Tumor	C40.0 : Long bones of upper limb, scapula and associated joints	4017	sample	phs002430_128	Not specified in data
+186-7	Metastasis	Tumor	C41.0 : Bones of skull and face and associated joints	4748	sample	phs002430_186	Not specified in data
+301-4	Diagnostic Biopsy	Tumor	C40.2 : Long bones of lower limb and associated joints	4748	sample	phs002430_301	Not specified in data
+322-1	Resection	Tumor	C76.5 : Lower limb, NOS	9496	sample	phs002430_322	Not specified in data
+337-0	Relapse Metastasis	Tumor	Peritoneum, NOS	-999	sample	phs002430_337	Not specified in data
+384-3	Diagnostic Biopsy	Tumor	C40.2 : Long bones of lower limb and associated joints	4383	sample	phs002430_384	Not specified in data
+457-1	Diagnostic Biopsy	Tumor	C40.0 : Long bones of upper limb, scapula and associated joints	6209	sample	phs002430_457	Not specified in data
+525-0	Unknown	Tumor	Unknown	-999	sample	phs002430_525	Not specified in data
+526-0	Primary	Tumor	Unknown	-999	sample	phs002430_526	Not specified in data
+563-1	Diagnostic Biopsy	Tumor	Pelvis, NOS	10227	sample	phs002430_563	Not specified in data

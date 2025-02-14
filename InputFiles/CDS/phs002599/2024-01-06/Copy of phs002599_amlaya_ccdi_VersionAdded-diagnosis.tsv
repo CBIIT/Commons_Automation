@@ -1,0 +1,105 @@
+primary_diagnosis	type	diagnosis_id	study_diagnosis_id	participant.study_participant_id
+Acute Myeloid Leukemia With Mutated CEBPA	diagnosis	P079	phs002599_P079_P079	phs002599_P079
+Chronic Myelogenous Leukemia, BCR-ABL Positive	diagnosis	P059	phs002599_P059_P059	phs002599_P059
+B Lymphoblastic Leukemia/Lymphoma, NOS	diagnosis	P036	phs002599_P036_P036	phs002599_P036
+B Lymphoblastic Leukemia/Lymphoma, NOS	diagnosis	P035	phs002599_P035_P035	phs002599_P035
+B Lymphoblastic Leukemia/Lymphoma With T(9;22)(Q34;Q11.2); BCR-ABL1	diagnosis	P064	phs002599_P064_P064	phs002599_P064
+Acute Myeloid Leukemia, Minimal Differentiation	diagnosis	P033	phs002599_P033_P033	phs002599_P033
+Chronic Myelogenous Leukemia, BCR-ABL Positive	diagnosis	P017	phs002599_P017_P017	phs002599_P017
+Acute Promyelocytic Leukaemia, T(15;17)(Q22;Q11-12)	diagnosis	P030	phs002599_P030_P030	phs002599_P030
+B Lymphoblastic Leukemia/Lymphoma, NOS	diagnosis	P075	phs002599_P075_P075	phs002599_P075
+B Lymphoblastic Leukemia/Lymphoma, NOS	diagnosis	P089	phs002599_P089_P089	phs002599_P089
+B Lymphoblastic Leukemia/Lymphoma With Hypodiploidy 	diagnosis	P102	phs002599_P102_P102	phs002599_P102
+Chronic Myelogenous Leukemia, BCR-ABL Positive	diagnosis	P073	phs002599_P073_P073	phs002599_P073
+B Lymphoblastic Leukemia/Lymphoma, NOS	diagnosis	P009	phs002599_P009_P009	phs002599_P009
+Chronic Myelogenous Leukemia, BCR-ABL Positive	diagnosis	P061	phs002599_P061_P061	phs002599_P061
+B Lymphoblastic Leukemia/Lymphoma With T(9;22)(Q34;Q11.2); BCR-ABL1	diagnosis	P071	phs002599_P071_P071	phs002599_P071
+Acute Monoblastic And Monocytic Leukemia	diagnosis	P069	phs002599_P069_P069	phs002599_P069
+Chronic Myelogenous Leukemia, BCR-ABL Positive	diagnosis	P088	phs002599_P088_P088	phs002599_P088
+Chronic Myelogenous Leukemia, BCR-ABL Positive	diagnosis	P054	phs002599_P054_P054	phs002599_P054
+Acute Myeloid Leukemia With Mutated NPM1	diagnosis	P015	phs002599_P015_P015	phs002599_P015
+B Lymphoblastic Leukemia/Lymphoma, NOS	diagnosis	P074	phs002599_P074_P074	phs002599_P074
+Chronic Myelogenous Leukemia, BCR-ABL Positive	diagnosis	P063	phs002599_P063_P063	phs002599_P063
+B Lymphoblastic Leukemia/Lymphoma, NOS	diagnosis	P060	phs002599_P060_P060	phs002599_P060
+Acute Myeloid Leukemia, NOS	diagnosis	P100	phs002599_P100_P100	phs002599_P100
+B Lymphoblastic Leukemia/Lymphoma With T(V;11q23); MLL Rearranged	diagnosis	P029	phs002599_P029_P029	phs002599_P029
+B Lymphoblastic Leukemia/Lymphoma With T(9;22)(Q34;Q11.2); BCR-ABL1	diagnosis	P012	phs002599_P012_P012	phs002599_P012
+Chronic Myelogenous Leukemia, BCR-ABL Positive	diagnosis	P044	phs002599_P044_P044	phs002599_P044
+B Lymphoblastic Leukemia/Lymphoma, NOS	diagnosis	P049	phs002599_P049_P049	phs002599_P049
+B Lymphoblastic Leukemia/Lymphoma, NOS	diagnosis	P023	phs002599_P023_P023	phs002599_P023
+B Lymphoblastic Leukemia/Lymphoma With Hyperdiploidy	diagnosis	P013	phs002599_P013_P013	phs002599_P013
+B Lymphoblastic Leukemia/Lymphoma With T(12;21)(P13;Q22); TEL-AML1 (ETV6-RUNX1)	diagnosis	P097	phs002599_P097_P097	phs002599_P097
+B Lymphoblastic Leukemia/Lymphoma With Hyperdiploidy	diagnosis	P005	phs002599_P005_P005	phs002599_P005
+B Lymphoblastic Leukemia/Lymphoma, NOS	diagnosis	P034	phs002599_P034_P034	phs002599_P034
+Chronic Myelogenous Leukemia, BCR-ABL Positive	diagnosis	P024	phs002599_P024_P024	phs002599_P024
+T Lymphoblastic Leukemia/Lymphoma	diagnosis	P041	phs002599_P041_P041	phs002599_P041
+B Lymphoblastic Leukemia/Lymphoma, NOS	diagnosis	P048	phs002599_P048_P048	phs002599_P048
+T Lymphoblastic Leukemia/Lymphoma	diagnosis	P020	phs002599_P020_P020	phs002599_P020
+T Lymphoblastic Leukemia/Lymphoma	diagnosis	P099	phs002599_P099_P099	phs002599_P099
+Chronic Myelogenous Leukemia, BCR-ABL Positive	diagnosis	P019	phs002599_P019_P019	phs002599_P019
+B Lymphoblastic Leukemia/Lymphoma, NOS	diagnosis	P037	phs002599_P037_P037	phs002599_P037
+B Lymphoblastic Leukemia/Lymphoma, NOS	diagnosis	P081	phs002599_P081_P081	phs002599_P081
+B Lymphoblastic Leukemia/Lymphoma With T(9;22)(Q34;Q11.2); BCR-ABL1	diagnosis	P031	phs002599_P031_P031	phs002599_P031
+B Lymphoblastic Leukemia/Lymphoma, NOS	diagnosis	P011	phs002599_P011_P011	phs002599_P011
+B Lymphoblastic Leukemia/Lymphoma With T(1;19)(Q23;P13.3); E2A-PBX1 (TCF3-PBX1)	diagnosis	P050	phs002599_P050_P050	phs002599_P050
+B Lymphoblastic Leukemia/Lymphoma, NOS	diagnosis	P052	phs002599_P052_P052	phs002599_P052
+B Lymphoblastic Leukemia/Lymphoma With T(12;21)(P13;Q22); TEL-AML1 (ETV6-RUNX1)	diagnosis	P093	phs002599_P093_P093	phs002599_P093
+Acute Monoblastic And Monocytic Leukemia	diagnosis	P070	phs002599_P070_P070	phs002599_P070
+B Lymphoblastic Leukemia/Lymphoma, NOS	diagnosis	P022	phs002599_P022_P022	phs002599_P022
+B Lymphoblastic Leukemia/Lymphoma With Hyperdiploidy	diagnosis	P104	phs002599_P104_P104	phs002599_P104
+Acute Myeloid Leukemia, T(16;16)(P 13;Q 11)	diagnosis	P083	phs002599_P083_P083	phs002599_P083
+Acute Myeloid Leukemia, Inv(16)(P13;Q22)	diagnosis	P042	phs002599_P042_P042	phs002599_P042
+Therapy Related Myeloid Neoplasm	diagnosis	P076	phs002599_P076_P076	phs002599_P076
+Undifferentiated Leukaemia	diagnosis	P084	phs002599_P084_P084	phs002599_P084
+B Lymphoblastic Leukemia/Lymphoma With T(V;11q23); MLL Rearranged	diagnosis	P007	phs002599_P007_P007	phs002599_P007
+Chronic Myelogenous Leukemia, BCR-ABL Positive	diagnosis	P028	phs002599_P028_P028	phs002599_P028
+Chronic Myelogenous Leukemia, BCR-ABL Positive	diagnosis	P043	phs002599_P043_P043	phs002599_P043
+Acute Myeloid Leukemia Without Maturation	diagnosis	P047	phs002599_P047_P047	phs002599_P047
+B Lymphoblastic Leukemia/Lymphoma, NOS	diagnosis	P002	phs002599_P002_P002	phs002599_P002
+B Lymphoblastic Leukemia/Lymphoma With T(12;21)(P13;Q22); TEL-AML1 (ETV6-RUNX1)	diagnosis	P008	phs002599_P008_P008	phs002599_P008
+Chronic Myelogenous Leukemia, BCR-ABL Positive	diagnosis	P027	phs002599_P027_P027	phs002599_P027
+B Lymphoblastic Leukemia/Lymphoma, NOS	diagnosis	P010	phs002599_P010_P010	phs002599_P010
+B Lymphoblastic Leukemia/Lymphoma, NOS	diagnosis	P067	phs002599_P067_P067	phs002599_P067
+Acute Monoblastic And Monocytic Leukemia	diagnosis	P025	phs002599_P025_P025	phs002599_P025
+Not Reported	diagnosis	P092	phs002599_P092_P092	phs002599_P092
+B Lymphoblastic Leukemia/Lymphoma With T(V;11q23); MLL Rearranged	diagnosis	P004	phs002599_P004_P004	phs002599_P004
+Acute Myeloid Leukemia With Mutated NPM1	diagnosis	P086	phs002599_P086_P086	phs002599_P086
+B Lymphoblastic Leukemia/Lymphoma, NOS	diagnosis	P066	phs002599_P066_P066	phs002599_P066
+Chronic Myelogenous Leukemia, BCR-ABL Positive	diagnosis	P003	phs002599_P003_P003	phs002599_P003
+B Lymphoblastic Leukemia/Lymphoma With Hyperdiploidy	diagnosis	P085	phs002599_P085_P085	phs002599_P085
+B Lymphoblastic Leukemia/Lymphoma, NOS	diagnosis	P051	phs002599_P051_P051	phs002599_P051
+B Lymphoblastic Leukemia/Lymphoma With T(1;19)(Q23;P13.3); E2A-PBX1 (TCF3-PBX1)	diagnosis	P094	phs002599_P094_P094	phs002599_P094
+Acute Myeloid Leukemia, NOS	diagnosis	P078	phs002599_P078_P078	phs002599_P078
+Acute Myeloid Leukemia, NOS	diagnosis	P082	phs002599_P082_P082	phs002599_P082
+B Lymphoblastic Leukemia/Lymphoma With T(12;21)(P13;Q22); TEL-AML1 (ETV6-RUNX1)	diagnosis	P062	phs002599_P062_P062	phs002599_P062
+Acute Monoblastic And Monocytic Leukemia	diagnosis	P026	phs002599_P026_P026	phs002599_P026
+Acute Megakaryoblastic Leukemia	diagnosis	P057	phs002599_P057_P057	phs002599_P057
+Acute Myeloid Leukemia With Mutated NPM1	diagnosis	P090	phs002599_P090_P090	phs002599_P090
+Chronic Myelogenous Leukemia, BCR-ABL Positive	diagnosis	P040	phs002599_P040_P040	phs002599_P040
+Chronic Myelogenous Leukemia, BCR-ABL Positive	diagnosis	P068	phs002599_P068_P068	phs002599_P068
+B Lymphoblastic Leukemia/Lymphoma With T(V;11q23); MLL Rearranged	diagnosis	P065	phs002599_P065_P065	phs002599_P065
+T Lymphoblastic Leukemia/Lymphoma	diagnosis	P053	phs002599_P053_P053	phs002599_P053
+B Lymphoblastic Leukemia/Lymphoma, NOS	diagnosis	P046	phs002599_P046_P046	phs002599_P046
+Therapy Related Myeloid Neoplasm	diagnosis	P072	phs002599_P072_P072	phs002599_P072
+B Lymphoblastic Leukemia/Lymphoma With T(9;22)(Q34;Q11.2); BCR-ABL1	diagnosis	P058	phs002599_P058_P058	phs002599_P058
+Acute Myeloid Leukemia With T(9;11)(P22;Q23); MLLT3-MLL	diagnosis	P039	phs002599_P039_P039	phs002599_P039
+Mast Cell Leukaemia	diagnosis	P080	phs002599_P080_P080	phs002599_P080
+Chronic Myelogenous Leukemia, BCR-ABL Positive	diagnosis	P098	phs002599_P098_P098	phs002599_P098
+B Lymphoblastic Leukemia/Lymphoma, NOS	diagnosis	P014	phs002599_P014_P014	phs002599_P014
+B Lymphoblastic Leukemia/Lymphoma With T(12;21)(P13;Q22); TEL-AML1 (ETV6-RUNX1)	diagnosis	P018	phs002599_P018_P018	phs002599_P018
+Acute Myeloid Leukemia, NOS	diagnosis	P038	phs002599_P038_P038	phs002599_P038
+Chronic Myelogenous Leukemia, BCR-ABL Positive	diagnosis	P077	phs002599_P077_P077	phs002599_P077
+Acute Promyelocytic Leukaemia, T(15;17)(Q22;Q11-12)	diagnosis	P045	phs002599_P045_P045	phs002599_P045
+T Lymphoblastic Leukemia/Lymphoma	diagnosis	P091	phs002599_P091_P091	phs002599_P091
+B Lymphoblastic Leukemia/Lymphoma, NOS	diagnosis	P103	phs002599_P103_P103	phs002599_P103
+B Lymphoblastic Leukemia/Lymphoma With T(9;22)(Q34;Q11.2); BCR-ABL1	diagnosis	P101	phs002599_P101_P101	phs002599_P101
+Chronic Myelogenous Leukemia, BCR-ABL Positive	diagnosis	P055	phs002599_P055_P055	phs002599_P055
+B Lymphoblastic Leukemia/Lymphoma, NOS	diagnosis	P096	phs002599_P096_P096	phs002599_P096
+Chronic Myelogenous Leukemia, BCR-ABL Positive	diagnosis	P001	phs002599_P001_P001	phs002599_P001
+T Lymphoblastic Leukemia/Lymphoma	diagnosis	P016	phs002599_P016_P016	phs002599_P016
+T Lymphoblastic Leukemia/Lymphoma	diagnosis	P021	phs002599_P021_P021	phs002599_P021
+B Lymphoblastic Leukemia/Lymphoma, NOS	diagnosis	P056	phs002599_P056_P056	phs002599_P056
+T Lymphoblastic Leukemia/Lymphoma	diagnosis	P087	phs002599_P087_P087	phs002599_P087
+B Lymphoblastic Leukemia/Lymphoma, NOS	diagnosis	P006	phs002599_P006_P006	phs002599_P006
+Acute Myelomonocytic Leukemia	diagnosis	P032	phs002599_P032_P032	phs002599_P032
+B Lymphoblastic Leukemia/Lymphoma With Hypodiploidy 	diagnosis	P095	phs002599_P095_P095	phs002599_P095

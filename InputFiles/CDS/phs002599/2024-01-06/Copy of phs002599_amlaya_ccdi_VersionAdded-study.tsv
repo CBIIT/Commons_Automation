@@ -1,0 +1,9 @@
+study_name	study_description	study_external_url	primary_investigator_name	primary_investigator_email	phs_accession	bioproject_accession	funding_agency	grant_id	number_of_participants	number_of_samples	study_data_types	file_types_and_format	acl	study_access	study_version	type	program.program_acronym	data_access_level
+NCI CCSG CCDI Supplement Additional Genomic Submission	"The implementation of targeted therapies for acute myeloid leukaemia (AML) has been challenging because of the complex mutational patterns within and across patients as well as a dearth of pharmacologic agents for most mutational events. This supplement data from the Beat AML program provides Adolescent and Young Adult (AYA) and pediatric tumor specimens not previously released. These data include exome and RNA level characterization as well as analyses of ex vivo drug sensitivity. Collectively, this data can be leveraged to address clinical, genomic, transcriptomic and functional analyses of the biology of leukemia in pediatric and AYA populations.
+Study Design:
+Case Set
+Study Type:
+Case Set
+Exome Sequencing
+RNA Sequencing
+Total number of consented subjects: 104"	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002599.v1.p1	Jeffrey Tyner, PhD	tynerj@ohsu.edu	phs002599	PRJNA761482	Leukemia and Lymphoma Society, NCI, NIH	5P30CA069533	104	152	Genomic	FASTQ	['phs002599']	Controlled	phs002599.v1.p1	study	CCDI	Not specified in data

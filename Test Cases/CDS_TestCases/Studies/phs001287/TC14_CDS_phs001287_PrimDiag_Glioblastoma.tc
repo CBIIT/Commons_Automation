@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC14_CDS_phs001287_PrimDiag_Glioblastoma</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e92aaab8-cf57-4210-a5a2-7bb11540fb11</testCaseGuid>
+</TestCaseEntity>

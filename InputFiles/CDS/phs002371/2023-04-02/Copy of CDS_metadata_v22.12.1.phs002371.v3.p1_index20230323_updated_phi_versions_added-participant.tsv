@@ -1,0 +1,660 @@
+participant_id	race	gender	ethnicity	type	study_participant_id	study.phs_accession
+HTA9_1	White	Female	Not Hispanic or Latino	participant	phs002371_HTA9_1	phs002371
+HTA12_30	White	Male	Not Hispanic or Latino	participant	phs002371_HTA12_30	phs002371
+HTA1_168	White	Female	Not Reported	participant	phs002371_HTA1_168	phs002371
+HTA1_196	Black or African American	Female	Not Reported	participant	phs002371_HTA1_196	phs002371
+HTA1_261	White	Male	Not Hispanic or Latino	participant	phs002371_HTA1_261	phs002371
+HTA1_203	White	Male	Not Hispanic or Latino	participant	phs002371_HTA1_203	phs002371
+HTA1_443	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA1_443	phs002371
+HTA1_155	White	Female	Not Reported	participant	phs002371_HTA1_155	phs002371
+HTA1_630	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_630	phs002371
+HTA1_519	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA1_519	phs002371
+HTA1_322	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_322	phs002371
+HTA1_997	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_997	phs002371
+HTA1_851	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_851	phs002371
+HTA1_416	Asian	Female	Not Hispanic or Latino	participant	phs002371_HTA1_416	phs002371
+HTA1_650	White	Male	Not Hispanic or Latino	participant	phs002371_HTA1_650	phs002371
+HTA8_1036	White	Male	Not Allowed to Collect	participant	phs002371_HTA8_1036	phs002371
+HTA12_8	White	Male	Not Hispanic or Latino	participant	phs002371_HTA12_8	phs002371
+HTA1_232	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_232	phs002371
+HTA1_822	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_822	phs002371
+HTA1_646	White	Male	Not Hispanic or Latino	participant	phs002371_HTA1_646	phs002371
+HTA1_262	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_262	phs002371
+HTA1_339	White	Male	Not Hispanic or Latino	participant	phs002371_HTA1_339	phs002371
+HTA12_21	White	Male	Not Hispanic or Latino	participant	phs002371_HTA12_21	phs002371
+HTA1_231	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_231	phs002371
+HTA1_396	White	Male	Not Hispanic or Latino	participant	phs002371_HTA1_396	phs002371
+HTA1_114	White	Male	Not Reported	participant	phs002371_HTA1_114	phs002371
+HTA1_164	White	Female	Not Reported	participant	phs002371_HTA1_164	phs002371
+HTA1_264	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_264	phs002371
+HTA1_377	Unknown	Male	Unknown	participant	phs002371_HTA1_377	phs002371
+HTA11_2334	Not Reported	Male	Not Reported	participant	phs002371_HTA11_2334	phs002371
+HTA1_895	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA1_895	phs002371
+HTA1_921	White	Male	Not Hispanic or Latino	participant	phs002371_HTA1_921	phs002371
+HTA1_204	White	Male	Not Reported	participant	phs002371_HTA1_204	phs002371
+HTA11_8755	White	Female	Not Hispanic or Latino	participant	phs002371_HTA11_8755	phs002371
+HTA1_605	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_605	phs002371
+HTA1_862	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_862	phs002371
+HTA12_9	White	Male	Not Hispanic or Latino	participant	phs002371_HTA12_9	phs002371
+HTA1_982	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_982	phs002371
+HTA11_12910	White	Male	Not Hispanic or Latino	participant	phs002371_HTA11_12910	phs002371
+HTA12_2	White	Female	Not Hispanic or Latino	participant	phs002371_HTA12_2	phs002371
+HTA1_375	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_375	phs002371
+HTA1_309	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_309	phs002371
+HTA2_229	Not Reported	Female	Hispanic or Latino	participant	phs002371_HTA2_229	phs002371
+HTA11_9531	White	Female	Not Hispanic or Latino	participant	phs002371_HTA11_9531	phs002371
+HTA1_850	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_850	phs002371
+HTA1_415	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_415	phs002371
+HTA11_6407	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA11_6407	phs002371
+HTA1_889	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_889	phs002371
+HTA1_136	White	Female	Not Reported	participant	phs002371_HTA1_136	phs002371
+HTA1_225	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_225	phs002371
+HTA1_673	White	Male	Not Hispanic or Latino	participant	phs002371_HTA1_673	phs002371
+HTA11_8930	Not Reported	Male	Not Reported	participant	phs002371_HTA11_8930	phs002371
+HTA1_195	White	Female	Not Reported	participant	phs002371_HTA1_195	phs002371
+HTA12_7	Black or African American	Male	Not Hispanic or Latino	participant	phs002371_HTA12_7	phs002371
+HTA1_708	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_708	phs002371
+HTA1_784	Asian	Female	Not Hispanic or Latino	participant	phs002371_HTA1_784	phs002371
+HTA12_15	White	Female	Not Hispanic or Latino	participant	phs002371_HTA12_15	phs002371
+HTA1_627	Unknown	Female	Not Hispanic or Latino	participant	phs002371_HTA1_627	phs002371
+HTA1_123	White	Male	Not Reported	participant	phs002371_HTA1_123	phs002371
+HTA1_624	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_624	phs002371
+HTA1_159	White	Female	Not Reported	participant	phs002371_HTA1_159	phs002371
+HTA11_7821	White	Male	Not Hispanic or Latino	participant	phs002371_HTA11_7821	phs002371
+HTA11_3997	White	Female	Not Hispanic or Latino	participant	phs002371_HTA11_3997	phs002371
+HTA1_312	White	Male	Not Hispanic or Latino	participant	phs002371_HTA1_312	phs002371
+HTA11_11275	White	Female	Hispanic or Latino	participant	phs002371_HTA11_11275	phs002371
+HTA1_730	White	Male	Not Hispanic or Latino	participant	phs002371_HTA1_730	phs002371
+HTA1_656	Unknown	Female	Unknown	participant	phs002371_HTA1_656	phs002371
+HTA1_167	Black or African American	Male	Not Reported	participant	phs002371_HTA1_167	phs002371
+HTA1_145	White	Male	Not Reported	participant	phs002371_HTA1_145	phs002371
+HTA1_141	Black or African American	Female	Not Reported	participant	phs002371_HTA1_141	phs002371
+HTA1_626	White	Male	Not Hispanic or Latino	participant	phs002371_HTA1_626	phs002371
+HTA12_5	White	Female	Not Hispanic or Latino	participant	phs002371_HTA12_5	phs002371
+HTA1_226	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_226	phs002371
+HTA1_364	Asian	Female	Not Hispanic or Latino	participant	phs002371_HTA1_364	phs002371
+HTA1_661	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_661	phs002371
+HTA1_194	Black or African American	Female	Not Reported	participant	phs002371_HTA1_194	phs002371
+HTA1_873	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_873	phs002371
+HTA1_752	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_752	phs002371
+HTA11_9829	Not Reported	Male	Not Reported	participant	phs002371_HTA11_9829	phs002371
+HTA1_148	Black or African American	Female	Not Reported	participant	phs002371_HTA1_148	phs002371
+HTA12_10	White	Female	Not Hispanic or Latino	participant	phs002371_HTA12_10	phs002371
+HTA1_514	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_514	phs002371
+HTA1_983	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_983	phs002371
+HTA1_102	White	Male	Not Reported	participant	phs002371_HTA1_102	phs002371
+HTA1_223	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_223	phs002371
+HTA11_10557	White	Female	Not Hispanic or Latino	participant	phs002371_HTA11_10557	phs002371
+HTA1_783	Asian	Female	Not Hispanic or Latino	participant	phs002371_HTA1_783	phs002371
+HTA11_10573	Not Reported	Female	Not Reported	participant	phs002371_HTA11_10573	phs002371
+HTA1_100	White	Female	Not Reported	participant	phs002371_HTA1_100	phs002371
+HTA1_887	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_887	phs002371
+HTA1_116	White	Female	Not Reported	participant	phs002371_HTA1_116	phs002371
+HTA1_326	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_326	phs002371
+HTA11_10466	White	Male	Not Hispanic or Latino	participant	phs002371_HTA11_10466	phs002371
+HTA12_6	White	Female	Not Hispanic or Latino	participant	phs002371_HTA12_6	phs002371
+HTA1_130	White	Male	Not Reported	participant	phs002371_HTA1_130	phs002371
+HTA12_16	White	Male	Not Hispanic or Latino	participant	phs002371_HTA12_16	phs002371
+HTA1_747	Asian	Male	Not Hispanic or Latino	participant	phs002371_HTA1_747	phs002371
+HTA12_19	White	Male	Not Hispanic or Latino	participant	phs002371_HTA12_19	phs002371
+HTA1_949	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_949	phs002371
+HTA1_811	Black or African American	Male	Not Reported	participant	phs002371_HTA1_811	phs002371
+HTA1_937	White	Male	Not Hispanic or Latino	participant	phs002371_HTA1_937	phs002371
+HTA1_835	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_835	phs002371
+HTA11_10034	White	Male	Not Hispanic or Latino	participant	phs002371_HTA11_10034	phs002371
+HTA1_719	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_719	phs002371
+HTA12_18	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA12_18	phs002371
+HTA11_10719	Not Reported	Male	Not Reported	participant	phs002371_HTA11_10719	phs002371
+HTA1_797	Asian	Male	Not Hispanic or Latino	participant	phs002371_HTA1_797	phs002371
+HTA1_813	White	Male	Not Hispanic or Latino	participant	phs002371_HTA1_813	phs002371
+HTA1_659	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_659	phs002371
+HTA1_272	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_272	phs002371
+HTA1_636	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_636	phs002371
+HTA1_727	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA1_727	phs002371
+HTA1_516	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA1_516	phs002371
+HTA11_8890	White	Female	Not Hispanic or Latino	participant	phs002371_HTA11_8890	phs002371
+HTA1_589	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_589	phs002371
+HTA1_562	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_562	phs002371
+HTA11_13701	White	Female	Not Hispanic or Latino	participant	phs002371_HTA11_13701	phs002371
+HTA1_768	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_768	phs002371
+HTA1_829	White	Male	Not Reported	participant	phs002371_HTA1_829	phs002371
+HTA12_11	White	Male	Not Hispanic or Latino	participant	phs002371_HTA12_11	phs002371
+HTA1_146	Black or African American	Male	Not Reported	participant	phs002371_HTA1_146	phs002371
+HTA11_12900	White	Male	Not Hispanic or Latino	participant	phs002371_HTA11_12900	phs002371
+HTA1_335	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_335	phs002371
+HTA1_381	White	Male	Not Hispanic or Latino	participant	phs002371_HTA1_381	phs002371
+HTA1_244	White	Male	Not Hispanic or Latino	participant	phs002371_HTA1_244	phs002371
+HTA1_394	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_394	phs002371
+HTA1_285	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_285	phs002371
+HTA11_14015	Not Reported	Male	Not Reported	participant	phs002371_HTA11_14015	phs002371
+HTA12_1	White	Female	Not Hispanic or Latino	participant	phs002371_HTA12_1	phs002371
+HTA1_880	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_880	phs002371
+HTA1_163	White	Female	Not Reported	participant	phs002371_HTA1_163	phs002371
+HTA1_963	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_963	phs002371
+HTA1_316	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_316	phs002371
+HTA1_586	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_586	phs002371
+HTA11_6862	White	Female	Not Hispanic or Latino	participant	phs002371_HTA11_6862	phs002371
+HTA1_337	White	Male	Not Hispanic or Latino	participant	phs002371_HTA1_337	phs002371
+HTA1_542	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA1_542	phs002371
+HTA1_497	White	Male	Not Hispanic or Latino	participant	phs002371_HTA1_497	phs002371
+HTA1_638	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_638	phs002371
+HTA1_649	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_649	phs002371
+HTA1_793	White	Male	Not Hispanic or Latino	participant	phs002371_HTA1_793	phs002371
+HTA1_800	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_800	phs002371
+HTA11_12480	White	Female	Not Hispanic or Latino	participant	phs002371_HTA11_12480	phs002371
+HTA1_120	White	Male	Not Reported	participant	phs002371_HTA1_120	phs002371
+HTA1_766	White	Male	Not Hispanic or Latino	participant	phs002371_HTA1_766	phs002371
+HTA1_321	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_321	phs002371
+HTA1_125	Black or African American	Female	Not Reported	participant	phs002371_HTA1_125	phs002371
+HTA1_313	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_313	phs002371
+HTA1_884	Unknown	Female	Unknown	participant	phs002371_HTA1_884	phs002371
+HTA12_12	White	Female	Not Hispanic or Latino	participant	phs002371_HTA12_12	phs002371
+HTA1_357	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_357	phs002371
+HTA12_4	White	Male	Not Hispanic or Latino	participant	phs002371_HTA12_4	phs002371
+HTA1_908	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_908	phs002371
+HTA12_14	White	Male	Not Hispanic or Latino	participant	phs002371_HTA12_14	phs002371
+HTA1_556	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_556	phs002371
+HTA1_734	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_734	phs002371
+HTA1_414	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_414	phs002371
+HTA1_791	White	Male	Not Hispanic or Latino	participant	phs002371_HTA1_791	phs002371
+HTA1_489	White	Male	Not Hispanic or Latino	participant	phs002371_HTA1_489	phs002371
+HTA12_22	White	Female	Not Hispanic or Latino	participant	phs002371_HTA12_22	phs002371
+HTA12_25	White	Male	Not Hispanic or Latino	participant	phs002371_HTA12_25	phs002371
+HTA1_352	White	Male	Not Hispanic or Latino	participant	phs002371_HTA1_352	phs002371
+HTA1_803	White	Female	Not Reported	participant	phs002371_HTA1_803	phs002371
+HTA1_870	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_870	phs002371
+HTA1_525	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_525	phs002371
+HTA12_20	White	Female	Not Hispanic or Latino	participant	phs002371_HTA12_20	phs002371
+HTA1_331	White	Male	Not Hispanic or Latino	participant	phs002371_HTA1_331	phs002371
+HTA1_171	White	Male	Not Reported	participant	phs002371_HTA1_171	phs002371
+HTA12_13	White	Male	Not Hispanic or Latino	participant	phs002371_HTA12_13	phs002371
+HTA1_663	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_663	phs002371
+HTA12_3	White	Male	Not Hispanic or Latino	participant	phs002371_HTA12_3	phs002371
+HTA1_782	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_782	phs002371
+HTA8_1031	White	Female	Not Hispanic or Latino	participant	phs002371_HTA8_1031	phs002371
+HTA1_437	White	Male	Not Hispanic or Latino	participant	phs002371_HTA1_437	phs002371
+HTA1_795	White	Male	Not Hispanic or Latino	participant	phs002371_HTA1_795	phs002371
+HTA1_482	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_482	phs002371
+HTA11_9226	White	Female	Not Hispanic or Latino	participant	phs002371_HTA11_9226	phs002371
+HTA1_652	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_652	phs002371
+HTA1_861	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_861	phs002371
+HTA1_273	White	Male	Not Hispanic or Latino	participant	phs002371_HTA1_273	phs002371
+HTA11_5679	White	Female	Not Hispanic or Latino	participant	phs002371_HTA11_5679	phs002371
+HTA1_382	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_382	phs002371
+HTA1_745	Asian	Female	Not Hispanic or Latino	participant	phs002371_HTA1_745	phs002371
+HTA1_672	White	Male	Not Hispanic or Latino	participant	phs002371_HTA1_672	phs002371
+HTA11_9014	White	Female	Not Hispanic or Latino	participant	phs002371_HTA11_9014	phs002371
+HTA1_611	White	Female	Hispanic or Latino	participant	phs002371_HTA1_611	phs002371
+HTA1_613	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_613	phs002371
+HTA8_1034	White	Female	Not Hispanic or Latino	participant	phs002371_HTA8_1034	phs002371
+HTA1_944	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_944	phs002371
+HTA1_425	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_425	phs002371
+HTA8_1028	White	Female	Not Hispanic or Latino	participant	phs002371_HTA8_1028	phs002371
+HTA1_124	White	Female	Not Reported	participant	phs002371_HTA1_124	phs002371
+HTA11_13678	White	Female	Not Hispanic or Latino	participant	phs002371_HTA11_13678	phs002371
+HTA12_24	White	Female	Not Hispanic or Latino	participant	phs002371_HTA12_24	phs002371
+HTA1_126	Black or African American	Female	Not Reported	participant	phs002371_HTA1_126	phs002371
+HTA1_814	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_814	phs002371
+HTA11_6436	White	Male	Not Hispanic or Latino	participant	phs002371_HTA11_6436	phs002371
+HTA8_1033	White	Female	Not Hispanic or Latino	participant	phs002371_HTA8_1033	phs002371
+HTA1_574	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_574	phs002371
+HTA1_233	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_233	phs002371
+HTA1_707	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_707	phs002371
+HTA1_683	White	Male	Not Hispanic or Latino	participant	phs002371_HTA1_683	phs002371
+HTA12_17	White	Male	Not Hispanic or Latino	participant	phs002371_HTA12_17	phs002371
+HTA1_340	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_340	phs002371
+HTA1_293	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_293	phs002371
+HTA1_600	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_600	phs002371
+HTA1_274	Not Reported	Female	Not Hispanic or Latino	participant	phs002371_HTA1_274	phs002371
+HTA1_376	White	Male	Not Hispanic or Latino	participant	phs002371_HTA1_376	phs002371
+HTA11_12090	White	Male	Not Hispanic or Latino	participant	phs002371_HTA11_12090	phs002371
+HTA11_9998	White	Male	Not Hispanic or Latino	participant	phs002371_HTA11_9998	phs002371
+HTA1_790	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_790	phs002371
+HTA11_3372	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA11_3372	phs002371
+HTA1_166	White	Female	Not Reported	participant	phs002371_HTA1_166	phs002371
+HTA1_976	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_976	phs002371
+HTA1_962	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_962	phs002371
+HTA11_11543	White	Female	Not Hispanic or Latino	participant	phs002371_HTA11_11543	phs002371
+HTA1_662	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_662	phs002371
+HTA1_361	White	Male	Not Hispanic or Latino	participant	phs002371_HTA1_361	phs002371
+HTA1_812	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_812	phs002371
+HTA12_27	White	Female	Not Hispanic or Latino	participant	phs002371_HTA12_27	phs002371
+HTA1_211	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_211	phs002371
+HTA1_756	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_756	phs002371
+HTA1_491	White	Male	Not Hispanic or Latino	participant	phs002371_HTA1_491	phs002371
+HTA1_994	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_994	phs002371
+HTA12_28	White	Male	Not Hispanic or Latino	participant	phs002371_HTA12_28	phs002371
+HTA8_1029	White	Male	Not Hispanic or Latino	participant	phs002371_HTA8_1029	phs002371
+HTA1_890	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_890	phs002371
+HTA1_521	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_521	phs002371
+HTA11_9700	White	Male	Not Hispanic or Latino	participant	phs002371_HTA11_9700	phs002371
+HTA1_710	White	Male	Not Hispanic or Latino	participant	phs002371_HTA1_710	phs002371
+HTA1_356	White	Male	Not Hispanic or Latino	participant	phs002371_HTA1_356	phs002371
+HTA8_1032	White	Female	Not Hispanic or Latino	participant	phs002371_HTA8_1032	phs002371
+HTA11_13708	White	Female	Not Hispanic or Latino	participant	phs002371_HTA11_13708	phs002371
+HTA1_435	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_435	phs002371
+HTA1_527	White	Male	Not Hispanic or Latino	participant	phs002371_HTA1_527	phs002371
+HTA11_9827	White	Male	Not Hispanic or Latino	participant	phs002371_HTA11_9827	phs002371
+HTA2_225	Black or African American	Female	Hispanic or Latino	participant	phs002371_HTA2_225	phs002371
+HTA1_806	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_806	phs002371
+HTA1_345	White	Male	Not Hispanic or Latino	participant	phs002371_HTA1_345	phs002371
+HTA8_1005	White	Male	Not Hispanic or Latino	participant	phs002371_HTA8_1005	phs002371
+HTA12_32	White	Male	Not Hispanic or Latino	participant	phs002371_HTA12_32	phs002371
+HTA11_12399	Not Reported	Female	Not Reported	participant	phs002371_HTA11_12399	phs002371
+HTA1_510	White	Female	Hispanic or Latino	participant	phs002371_HTA1_510	phs002371
+HTA1_917	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_917	phs002371
+HTA1_336	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_336	phs002371
+HTA1_490	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_490	phs002371
+HTA12_26	White	Female	Not Hispanic or Latino	participant	phs002371_HTA12_26	phs002371
+HTA12_31	White	Female	Not Hispanic or Latino	participant	phs002371_HTA12_31	phs002371
+HTA11_10888	White	Female	Not Hispanic or Latino	participant	phs002371_HTA11_10888	phs002371
+HTA11_11092	White	Female	Not Hispanic or Latino	participant	phs002371_HTA11_11092	phs002371
+HTA1_324	White	Male	Not Hispanic or Latino	participant	phs002371_HTA1_324	phs002371
+HTA8_1030	White	Male	Not Hispanic or Latino	participant	phs002371_HTA8_1030	phs002371
+HTA8_1035	White	Female	Not Hispanic or Latino	participant	phs002371_HTA8_1035	phs002371
+HTA11_12542	White	Male	Not Hispanic or Latino	participant	phs002371_HTA11_12542	phs002371
+HTA1_617	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_617	phs002371
+HTA1_213	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_213	phs002371
+HTA11_11045	Not Reported	Female	Not Reported	participant	phs002371_HTA11_11045	phs002371
+HTA11_13109	White	Male	Not Hispanic or Latino	participant	phs002371_HTA11_13109	phs002371
+HTA1_853	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_853	phs002371
+HTA1_366	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_366	phs002371
+HTA11_12167	White	Female	Not Hispanic or Latino	participant	phs002371_HTA11_12167	phs002371
+HTA11_12187	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA11_12187	phs002371
+HTA1_254	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_254	phs002371
+HTA1_446	White	Female	Not Hispanic or Latino	participant	phs002371_HTA1_446	phs002371
+HTA11_8471	White	Female	Not Hispanic or Latino	participant	phs002371_HTA11_8471	phs002371
+HTA8_1037	White	Male	Not Hispanic or Latino	participant	phs002371_HTA8_1037	phs002371
+HTA11_14651	White	Male	Not Hispanic or Latino	participant	phs002371_HTA11_14651	phs002371
+HTA1_198	White	Female	Not Reported	participant	phs002371_HTA1_198	phs002371
+HTA11_13794	White	Female	Not Hispanic or Latino	participant	phs002371_HTA11_13794	phs002371
+HTA12_23	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA12_23	phs002371
+HTA12_29	White	Male	Not Hispanic or Latino	participant	phs002371_HTA12_29	phs002371
+HTA6_168	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_168	phs002371
+HTA6_2409	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_2409	phs002371
+HTA6_161	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_161	phs002371
+HTA6_164	Unknown	Female	Unknown	participant	phs002371_HTA6_164	phs002371
+HTA6_107	Black or African American	Female	Unknown	participant	phs002371_HTA6_107	phs002371
+HTA6_90	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_90	phs002371
+HTA6_7	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_7	phs002371
+HTA6_106	Black or African American	Female	Unknown	participant	phs002371_HTA6_106	phs002371
+HTA6_97	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_97	phs002371
+HTA6_60	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_60	phs002371
+HTA6_144	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_144	phs002371
+HTA6_92	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_92	phs002371
+HTA6_139	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_139	phs002371
+HTA6_146	White	Female	Unknown	participant	phs002371_HTA6_146	phs002371
+HTA6_119	Black or African American	Female	Unknown	participant	phs002371_HTA6_119	phs002371
+HTA6_2408	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_2408	phs002371
+HTA6_68	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_68	phs002371
+HTA6_26	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_26	phs002371
+HTA6_162	Not Reported	Female	Not Hispanic or Latino	participant	phs002371_HTA6_162	phs002371
+HTA6_81	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_81	phs002371
+HTA6_11	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_11	phs002371
+HTA6_63	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_63	phs002371
+HTA6_88	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_88	phs002371
+HTA6_2410	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_2410	phs002371
+HTA6_151	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_151	phs002371
+HTA6_75	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_75	phs002371
+HTA6_76	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_76	phs002371
+HTA6_41	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_41	phs002371
+HTA6_4	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_4	phs002371
+HTA6_126	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_126	phs002371
+HTA6_101	Unknown	Female	Unknown	participant	phs002371_HTA6_101	phs002371
+HTA6_142	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_142	phs002371
+HTA6_109	Black or African American	Female	Unknown	participant	phs002371_HTA6_109	phs002371
+HTA6_110	Black or African American	Female	Unknown	participant	phs002371_HTA6_110	phs002371
+HTA6_30	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_30	phs002371
+HTA6_100	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_100	phs002371
+HTA6_170	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_170	phs002371
+HTA6_59	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_59	phs002371
+HTA6_167	White	Female	Unknown	participant	phs002371_HTA6_167	phs002371
+HTA6_149	White	Female	Unknown	participant	phs002371_HTA6_149	phs002371
+HTA6_130	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_130	phs002371
+HTA6_78	Unknown	Female	Hispanic or Latino	participant	phs002371_HTA6_78	phs002371
+HTA6_153	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_153	phs002371
+HTA6_62	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_62	phs002371
+HTA6_3	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_3	phs002371
+HTA6_69	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_69	phs002371
+HTA6_66	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_66	phs002371
+HTA6_163	Unknown	Female	Unknown	participant	phs002371_HTA6_163	phs002371
+HTA6_85	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_85	phs002371
+HTA6_23	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_23	phs002371
+HTA6_22	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_22	phs002371
+HTA6_158	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_158	phs002371
+HTA6_123	Unknown	Female	Hispanic or Latino	participant	phs002371_HTA6_123	phs002371
+HTA6_150	White	Female	Unknown	participant	phs002371_HTA6_150	phs002371
+HTA6_113	Black or African American	Female	Unknown	participant	phs002371_HTA6_113	phs002371
+HTA6_40	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_40	phs002371
+HTA6_45	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_45	phs002371
+HTA6_160	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_160	phs002371
+HTA6_166	White	Female	Unknown	participant	phs002371_HTA6_166	phs002371
+HTA6_114	Black or African American	Female	Unknown	participant	phs002371_HTA6_114	phs002371
+HTA6_64	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_64	phs002371
+HTA6_102	Unknown	Female	Unknown	participant	phs002371_HTA6_102	phs002371
+HTA6_136	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_136	phs002371
+HTA6_32	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_32	phs002371
+HTA6_13	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_13	phs002371
+HTA6_141	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_141	phs002371
+HTA6_165	White	Female	Unknown	participant	phs002371_HTA6_165	phs002371
+HTA6_86	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_86	phs002371
+HTA6_37	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_37	phs002371
+HTA6_154	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_154	phs002371
+HTA6_143	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_143	phs002371
+HTA6_67	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_67	phs002371
+HTA6_43	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_43	phs002371
+HTA6_21	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_21	phs002371
+HTA6_25	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_25	phs002371
+HTA6_134	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_134	phs002371
+HTA6_140	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_140	phs002371
+HTA6_115	Black or African American	Female	Unknown	participant	phs002371_HTA6_115	phs002371
+HTA6_116	Black or African American	Female	Unknown	participant	phs002371_HTA6_116	phs002371
+HTA6_120	Unknown	Female	Unknown	participant	phs002371_HTA6_120	phs002371
+HTA6_83	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_83	phs002371
+HTA6_138	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_138	phs002371
+HTA6_84	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_84	phs002371
+HTA6_169	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_169	phs002371
+HTA6_34	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_34	phs002371
+HTA6_112	Black or African American	Female	Unknown	participant	phs002371_HTA6_112	phs002371
+HTA6_71	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_71	phs002371
+HTA6_20	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_20	phs002371
+HTA6_57	Asian	Female	Not Hispanic or Latino	participant	phs002371_HTA6_57	phs002371
+HTA6_122	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_122	phs002371
+HTA6_27	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_27	phs002371
+HTA6_159	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_159	phs002371
+HTA6_95	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_95	phs002371
+HTA6_117	White	Female	Unknown	participant	phs002371_HTA6_117	phs002371
+HTA6_103	Unknown	Female	Unknown	participant	phs002371_HTA6_103	phs002371
+HTA6_9	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_9	phs002371
+HTA6_157	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_157	phs002371
+HTA6_19	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_19	phs002371
+HTA6_147	White	Female	Unknown	participant	phs002371_HTA6_147	phs002371
+HTA6_61	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_61	phs002371
+HTA6_125	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_125	phs002371
+HTA6_111	Unknown	Female	Unknown	participant	phs002371_HTA6_111	phs002371
+HTA6_31	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_31	phs002371
+HTA6_47	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_47	phs002371
+HTA6_14	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_14	phs002371
+HTA6_137	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_137	phs002371
+HTA6_148	White	Female	Unknown	participant	phs002371_HTA6_148	phs002371
+HTA6_118	Black or African American	Female	Unknown	participant	phs002371_HTA6_118	phs002371
+HTA6_91	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_91	phs002371
+HTA6_49	Asian	Female	Not Hispanic or Latino	participant	phs002371_HTA6_49	phs002371
+HTA6_46	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_46	phs002371
+HTA6_42	Unknown	Female	Hispanic or Latino	participant	phs002371_HTA6_42	phs002371
+HTA6_94	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_94	phs002371
+HTA6_82	White	Female	Unknown	participant	phs002371_HTA6_82	phs002371
+HTA6_99	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_99	phs002371
+HTA6_124	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_124	phs002371
+HTA6_2	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_2	phs002371
+HTA6_2407	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_2407	phs002371
+HTA6_145	White	Female	Unknown	participant	phs002371_HTA6_145	phs002371
+HTA6_36	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_36	phs002371
+HTA6_65	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_65	phs002371
+HTA6_98	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_98	phs002371
+HTA6_33	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_33	phs002371
+HTA6_108	Unknown	Female	Hispanic or Latino	participant	phs002371_HTA6_108	phs002371
+HTA9_3	White	Female	Not Hispanic or Latino	participant	phs002371_HTA9_3	phs002371
+HTA9_2	White	Female	Not Hispanic or Latino	participant	phs002371_HTA9_2	phs002371
+HTA6_1071	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1071	phs002371
+HTA6_1110	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1110	phs002371
+HTA6_1049	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1049	phs002371
+HTA6_1053	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1053	phs002371
+HTA6_1082	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1082	phs002371
+HTA6_1007	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1007	phs002371
+HTA6_1008	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1008	phs002371
+HTA6_1096	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1096	phs002371
+HTA6_1115	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1115	phs002371
+HTA6_1016	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1016	phs002371
+HTA6_1056	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1056	phs002371
+HTA6_1081	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1081	phs002371
+HTA6_1112	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1112	phs002371
+HTA6_1052	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1052	phs002371
+HTA6_1120	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1120	phs002371
+HTA6_1034	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1034	phs002371
+HTA6_1099	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1099	phs002371
+HTA6_1107	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1107	phs002371
+HTA6_1127	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1127	phs002371
+HTA6_1005	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1005	phs002371
+HTA6_1074	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1074	phs002371
+HTA6_1075	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1075	phs002371
+HTA6_1076	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1076	phs002371
+HTA6_1062	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1062	phs002371
+HTA6_1166	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1166	phs002371
+HTA6_1156	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1156	phs002371
+HTA6_1024	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1024	phs002371
+HTA6_1104	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1104	phs002371
+HTA6_1019	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1019	phs002371
+HTA6_1114	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1114	phs002371
+HTA6_1044	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1044	phs002371
+HTA6_1124	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1124	phs002371
+HTA6_1028	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1028	phs002371
+HTA6_1050	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1050	phs002371
+HTA6_1109	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1109	phs002371
+HTA6_1021	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1021	phs002371
+HTA6_1116	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1116	phs002371
+HTA6_1022	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1022	phs002371
+HTA6_1123	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1123	phs002371
+HTA6_1122	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1122	phs002371
+HTA6_1054	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1054	phs002371
+HTA6_1117	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1117	phs002371
+HTA6_1057	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1057	phs002371
+HTA6_1150	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1150	phs002371
+HTA6_1151	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1151	phs002371
+HTA6_1129	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1129	phs002371
+HTA6_1013	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1013	phs002371
+HTA6_1125	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1125	phs002371
+HTA6_1001	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1001	phs002371
+HTA6_1066	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1066	phs002371
+HTA6_1006	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1006	phs002371
+HTA6_1039	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1039	phs002371
+HTA6_1042	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1042	phs002371
+HTA6_1085	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1085	phs002371
+HTA6_1137	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1137	phs002371
+HTA6_1144	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1144	phs002371
+HTA6_1072	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1072	phs002371
+HTA6_1098	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1098	phs002371
+HTA6_1149	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1149	phs002371
+HTA6_1100	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1100	phs002371
+HTA6_1167	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1167	phs002371
+HTA6_1011	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1011	phs002371
+HTA6_1043	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1043	phs002371
+HTA6_1017	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1017	phs002371
+HTA6_1094	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1094	phs002371
+HTA6_1010	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1010	phs002371
+HTA6_1102	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1102	phs002371
+HTA6_1164	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1164	phs002371
+HTA6_1041	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1041	phs002371
+HTA6_1048	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1048	phs002371
+HTA6_1154	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1154	phs002371
+HTA6_1018	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1018	phs002371
+HTA6_1084	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1084	phs002371
+HTA6_1045	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1045	phs002371
+HTA6_1083	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1083	phs002371
+HTA6_1047	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1047	phs002371
+HTA6_1012	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1012	phs002371
+HTA6_1157	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1157	phs002371
+HTA6_1015	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1015	phs002371
+HTA6_1093	Not Reported	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1093	phs002371
+HTA6_1070	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1070	phs002371
+HTA6_1078	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1078	phs002371
+HTA6_1032	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1032	phs002371
+HTA6_1147	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1147	phs002371
+HTA6_1000	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1000	phs002371
+HTA6_1136	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1136	phs002371
+HTA6_1101	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1101	phs002371
+HTA6_1161	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1161	phs002371
+HTA6_1067	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1067	phs002371
+HTA6_1108	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1108	phs002371
+HTA6_1027	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1027	phs002371
+HTA6_1158	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1158	phs002371
+HTA6_1004	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1004	phs002371
+HTA6_1025	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1025	phs002371
+HTA6_1139	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1139	phs002371
+HTA6_1126	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1126	phs002371
+HTA6_1087	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1087	phs002371
+HTA6_1080	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1080	phs002371
+HTA6_1023	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1023	phs002371
+HTA6_1077	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1077	phs002371
+HTA6_1119	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1119	phs002371
+HTA6_1003	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1003	phs002371
+HTA6_1065	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1065	phs002371
+HTA6_1059	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1059	phs002371
+HTA6_1029	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1029	phs002371
+HTA6_1033	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1033	phs002371
+HTA6_1064	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1064	phs002371
+HTA6_1130	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1130	phs002371
+HTA6_1103	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1103	phs002371
+HTA6_1020	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1020	phs002371
+HTA6_1026	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1026	phs002371
+HTA6_1118	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1118	phs002371
+HTA6_1163	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1163	phs002371
+HTA6_1105	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1105	phs002371
+HTA6_1002	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1002	phs002371
+HTA6_1089	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1089	phs002371
+HTA6_1091	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1091	phs002371
+HTA6_1152	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1152	phs002371
+HTA6_1095	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1095	phs002371
+HTA6_1097	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1097	phs002371
+HTA6_1014	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1014	phs002371
+HTA6_1068	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1068	phs002371
+HTA6_1159	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1159	phs002371
+HTA6_1138	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1138	phs002371
+HTA6_1060	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1060	phs002371
+HTA6_1135	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1135	phs002371
+HTA6_1128	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1128	phs002371
+HTA6_1140	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1140	phs002371
+HTA6_1088	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1088	phs002371
+HTA6_1121	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1121	phs002371
+HTA6_1146	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1146	phs002371
+HTA6_1113	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1113	phs002371
+HTA6_1038	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1038	phs002371
+HTA6_1131	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1131	phs002371
+HTA6_1046	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1046	phs002371
+HTA6_1155	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1155	phs002371
+HTA6_1141	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1141	phs002371
+HTA6_1035	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1035	phs002371
+HTA6_1009	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1009	phs002371
+HTA6_1134	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1134	phs002371
+HTA6_1055	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1055	phs002371
+HTA6_1063	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1063	phs002371
+HTA6_1031	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1031	phs002371
+HTA6_1092	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1092	phs002371
+HTA6_1111	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1111	phs002371
+HTA6_1086	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1086	phs002371
+HTA6_1148	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1148	phs002371
+HTA6_1040	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1040	phs002371
+HTA6_1061	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1061	phs002371
+HTA6_1133	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1133	phs002371
+HTA6_1030	White	Female	Unknown	participant	phs002371_HTA6_1030	phs002371
+HTA6_1162	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1162	phs002371
+HTA6_1037	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1037	phs002371
+HTA6_1132	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1132	phs002371
+HTA6_1090	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1090	phs002371
+HTA6_1160	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1160	phs002371
+HTA6_1073	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1073	phs002371
+HTA6_1051	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1051	phs002371
+HTA6_1142	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1142	phs002371
+HTA6_1145	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1145	phs002371
+HTA6_1079	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1079	phs002371
+HTA6_1058	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1058	phs002371
+HTA6_1143	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1143	phs002371
+HTA6_1106	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1106	phs002371
+HTA6_1036	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1036	phs002371
+HTA6_1165	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1165	phs002371
+HTA6_1069	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1069	phs002371
+HTA6_1153	White	Female	Not Hispanic or Latino	participant	phs002371_HTA6_1153	phs002371
+HTA10_02	White	Female	Not Hispanic or Latino	participant	phs002371_HTA10_02	phs002371
+HTA10_04	White	Female	Hispanic or Latino	participant	phs002371_HTA10_04	phs002371
+HTA12_34	White	Female	Not Hispanic or Latino	participant	phs002371_HTA12_34	phs002371
+HTA10_07	White	Female	Not Hispanic or Latino	participant	phs002371_HTA10_07	phs002371
+HTA12_33	White	Male	Not Hispanic or Latino	participant	phs002371_HTA12_33	phs002371
+HTA8_1009	White	Male	Not Hispanic or Latino	participant	phs002371_HTA8_1009	phs002371
+HTA3_8005	White	Female	Not Hispanic or Latino	participant	phs002371_HTA3_8005	phs002371
+HTA11_104	White	Male	Not Hispanic or Latino	participant	phs002371_HTA11_104	phs002371
+HTA11_3361	White	Male	Not Hispanic or Latino	participant	phs002371_HTA11_3361	phs002371
+HTA11_411	White	Female	Not Hispanic or Latino	participant	phs002371_HTA11_411	phs002371
+HTA11_1938	White	Female	Not Hispanic or Latino	participant	phs002371_HTA11_1938	phs002371
+HTA11_3331	White	Male	Not Hispanic or Latino	participant	phs002371_HTA11_3331	phs002371
+HTA11_347	Not Reported	Female	Not Hispanic or Latino	participant	phs002371_HTA11_347	phs002371
+HTA11_546	White	Male	Not Hispanic or Latino	participant	phs002371_HTA11_546	phs002371
+HTA8_1025	White	Male	Not Allowed to Collect	participant	phs002371_HTA8_1025	phs002371
+HTA11_99999965062	Not Reported	Male	Not Reported	participant	phs002371_HTA11_99999965062	phs002371
+HTA11_5994	White	Male	Not Hispanic or Latino	participant	phs002371_HTA11_5994	phs002371
+HTA8_1015	Asian	Male	Not Hispanic or Latino	participant	phs002371_HTA8_1015	phs002371
+HTA11_6310	White	Male	Not Hispanic or Latino	participant	phs002371_HTA11_6310	phs002371
+HTA8_3002	White	Male	Not Hispanic or Latino	participant	phs002371_HTA8_3002	phs002371
+HTA8_1010	White	Female	Not Hispanic or Latino	participant	phs002371_HTA8_1010	phs002371
+HTA11_5212	Black or African American	Male	Not Hispanic or Latino	participant	phs002371_HTA11_5212	phs002371
+HTA11_2487	White	Female	Not Hispanic or Latino	participant	phs002371_HTA11_2487	phs002371
+HTA11_1391	White	Male	Not Hispanic or Latino	participant	phs002371_HTA11_1391	phs002371
+HTA8_1007	White	Female	Not Hispanic or Latino	participant	phs002371_HTA8_1007	phs002371
+HTA8_2003	White	Female	Not Hispanic or Latino	participant	phs002371_HTA8_2003	phs002371
+HTA11_696	White	Male	Not Hispanic or Latino	participant	phs002371_HTA11_696	phs002371
+HTA11_392	White	Female	Not Hispanic or Latino	participant	phs002371_HTA11_392	phs002371
+HTA11_866	White	Male	Not Hispanic or Latino	participant	phs002371_HTA11_866	phs002371
+HTA8_2009	White	Male	Not Hispanic or Latino	participant	phs002371_HTA8_2009	phs002371
+HTA3_8004	White	Female	Not Hispanic or Latino	participant	phs002371_HTA3_8004	phs002371
+HTA8_2015	White	Male	Not Hispanic or Latino	participant	phs002371_HTA8_2015	phs002371
+HTA11_83	Black or African American	Male	Not Hispanic or Latino	participant	phs002371_HTA11_83	phs002371
+HTA8_1013	Asian	Female	Not Hispanic or Latino	participant	phs002371_HTA8_1013	phs002371
+HTA8_1001	White	Female	Not Hispanic or Latino	participant	phs002371_HTA8_1001	phs002371
+HTA8_2011	Asian	Male	Not Hispanic or Latino	participant	phs002371_HTA8_2011	phs002371
+HTA3_8002	White	Female	Not Hispanic or Latino	participant	phs002371_HTA3_8002	phs002371
+HTA11_99999965104	Not Reported	Female	Not Reported	participant	phs002371_HTA11_99999965104	phs002371
+HTA8_1003	White	Female	Not Hispanic or Latino	participant	phs002371_HTA8_1003	phs002371
+HTA8_2002	White	Female	Not Hispanic or Latino	participant	phs002371_HTA8_2002	phs002371
+HTA3_8001	White	Female	Not Hispanic or Latino	participant	phs002371_HTA3_8001	phs002371
+HTA11_3252	Black or African American	Male	Not Hispanic or Latino	participant	phs002371_HTA11_3252	phs002371
+HTA8_2005	White	Female	Not Hispanic or Latino	participant	phs002371_HTA8_2005	phs002371
+HTA8_1020	White	Female	Not Hispanic or Latino	participant	phs002371_HTA8_1020	phs002371
+HTA11_78	White	Male	Not Hispanic or Latino	participant	phs002371_HTA11_78	phs002371
+HTA8_1022	White	Male	Not Hispanic or Latino	participant	phs002371_HTA8_1022	phs002371
+HTA8_2013	White	Female	Not Hispanic or Latino	participant	phs002371_HTA8_2013	phs002371
+HTA8_2001	White	Female	Not Hispanic or Latino	participant	phs002371_HTA8_2001	phs002371
+HTA11_6147	Not Reported	Male	Hispanic or Latino	participant	phs002371_HTA11_6147	phs002371
+HTA8_2007	White	Female	Not Hispanic or Latino	participant	phs002371_HTA8_2007	phs002371
+HTA8_3001	Asian	Female	Not Hispanic or Latino	participant	phs002371_HTA8_3001	phs002371
+HTA8_1006	White	Male	Not Hispanic or Latino	participant	phs002371_HTA8_1006	phs002371
+HTA8_2010	White	Male	Not Hispanic or Latino	participant	phs002371_HTA8_2010	phs002371
+HTA11_3410	White	Male	Not Hispanic or Latino	participant	phs002371_HTA11_3410	phs002371
+HTA11_2112	White	Female	Not Hispanic or Latino	participant	phs002371_HTA11_2112	phs002371
+HTA11_2951	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA11_2951	phs002371
+HTA8_1008	Black or African American	Male	Not Hispanic or Latino	participant	phs002371_HTA8_1008	phs002371
+HTA8_1027	Asian	Female	Not Hispanic or Latino	participant	phs002371_HTA8_1027	phs002371
+HTA11_3077	White	Female	Not Hispanic or Latino	participant	phs002371_HTA11_3077	phs002371
+HTA11_5216	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA11_5216	phs002371
+HTA8_1024	White	Male	Not Hispanic or Latino	participant	phs002371_HTA8_1024	phs002371
+HTA8_1018	White	Female	Not Hispanic or Latino	participant	phs002371_HTA8_1018	phs002371
+HTA8_1011	White	Male	Not Hispanic or Latino	participant	phs002371_HTA8_1011	phs002371
+HTA11_99999970781	Not Reported	Male	Not Reported	participant	phs002371_HTA11_99999970781	phs002371
+HTA11_6134	White	Male	Not Hispanic or Latino	participant	phs002371_HTA11_6134	phs002371
+HTA8_1014	White	Female	Not Hispanic or Latino	participant	phs002371_HTA8_1014	phs002371
+HTA8_2017	White	Male	Not Hispanic or Latino	participant	phs002371_HTA8_2017	phs002371
+HTA8_1021	White	Female	Not Hispanic or Latino	participant	phs002371_HTA8_1021	phs002371
+HTA8_2006	White	Female	Hispanic or Latino	participant	phs002371_HTA8_2006	phs002371
+HTA11_2235	Black or African American	Female	Not Hispanic or Latino	participant	phs002371_HTA11_2235	phs002371
+HTA8_2014	White	Male	Not Hispanic or Latino	participant	phs002371_HTA8_2014	phs002371
+HTA11_5363	White	Female	Hispanic or Latino	participant	phs002371_HTA11_5363	phs002371
+HTA3_8006	Not Reported	Male	Not Hispanic or Latino	participant	phs002371_HTA3_8006	phs002371
+HTA8_1004	White	Female	Not Hispanic or Latino	participant	phs002371_HTA8_1004	phs002371
+HTA8_2008	White	Male	Not Hispanic or Latino	participant	phs002371_HTA8_2008	phs002371
+HTA3_8003	White	Female	Not Hispanic or Latino	participant	phs002371_HTA3_8003	phs002371
+HTA8_1017	White	Female	Not Hispanic or Latino	participant	phs002371_HTA8_1017	phs002371
+HTA8_1016	Asian	Female	Not Hispanic or Latino	participant	phs002371_HTA8_1016	phs002371
+HTA8_1019	White	Male	Not Hispanic or Latino	participant	phs002371_HTA8_1019	phs002371
+HTA8_1023	White	Female	Not Hispanic or Latino	participant	phs002371_HTA8_1023	phs002371
+HTA11_6025	White	Male	Not Hispanic or Latino	participant	phs002371_HTA11_6025	phs002371
+HTA8_3004	White	Male	Not Hispanic or Latino	participant	phs002371_HTA8_3004	phs002371
+HTA11_2992	White	Male	Not Hispanic or Latino	participant	phs002371_HTA11_2992	phs002371
+HTA8_2016	White	Female	Not Hispanic or Latino	participant	phs002371_HTA8_2016	phs002371
+HTA8_1002	White	Female	Not Hispanic or Latino	participant	phs002371_HTA8_1002	phs002371
+HTA11_377	White	Female	Not Hispanic or Latino	participant	phs002371_HTA11_377	phs002371
+HTA8_2019	White	Male	Not Hispanic or Latino	participant	phs002371_HTA8_2019	phs002371
+HTA8_2018	White	Female	Not Hispanic or Latino	participant	phs002371_HTA8_2018	phs002371
+HTA8_2004	White	Female	Not Hispanic or Latino	participant	phs002371_HTA8_2004	phs002371
+HTA8_2012	White	Female	Not Hispanic or Latino	participant	phs002371_HTA8_2012	phs002371
+HTA8_3003	White	Female	Not Hispanic or Latino	participant	phs002371_HTA8_3003	phs002371
+HTA8_1026	Asian	Female	Not Hispanic or Latino	participant	phs002371_HTA8_1026	phs002371
+HTA8_1012	White	Female	Not Hispanic or Latino	participant	phs002371_HTA8_1012	phs002371
+HTA10_01	White	Male	Hispanic or Latino	participant	phs002371_HTA10_01	phs002371

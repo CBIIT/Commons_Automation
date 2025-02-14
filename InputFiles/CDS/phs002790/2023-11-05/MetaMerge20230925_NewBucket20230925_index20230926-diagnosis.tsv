@@ -1,0 +1,196 @@
+primary_diagnosis	type	diagnosis_id	study_diagnosis_id	participant.study_participant_id
+Pilocytic Astrocytoma	diagnosis	PBCEEN	phs002790_PBCEEN_PBCEEN	phs002790_PBCEEN
+Pilocytic Astrocytoma (WHO grade 1)	diagnosis	PBCEER	phs002790_PBCEER_PBCEER	phs002790_PBCEER
+Desmoid fibromatosis	diagnosis	PBCEJE	phs002790_PBCEJE_PBCEJE	phs002790_PBCEJE
+High-grade glioma with ependymal differentiation	diagnosis	PBCBYH	phs002790_PBCBYH_PBCBYH	phs002790_PBCBYH
+Rhabdomyosarcoma, favor alveolar subtype	diagnosis	PBCDDH	phs002790_PBCDDH_PBCDDH	phs002790_PBCDDH
+Pilocytic Astrocytoma	diagnosis	PBCCZP	phs002790_PBCCZP_PBCCZP	phs002790_PBCCZP
+Embryonal tumor, favor medulloblastoma	diagnosis	PBCDEM	phs002790_PBCDEM_PBCDEM	phs002790_PBCDEM
+Glioneuronal neoplasm with low-grade features (NOS)	diagnosis	PBCDGP	phs002790_PBCDGP_PBCDGP	phs002790_PBCDGP
+Myofibroblastic tumor with epithelioid spindle cell morphology	diagnosis	PBCDSP	phs002790_PBCDSP_PBCDSP	phs002790_PBCDSP
+High-grade glial neoplasm	diagnosis	PBCEAP	phs002790_PBCEAP_PBCEAP	phs002790_PBCEAP
+Schwannoma, CNS WHO grade 1	diagnosis	PBCEIZ	phs002790_PBCEIZ_PBCEIZ	phs002790_PBCEIZ
+Low-grade astrocytic glioma, favor pilocytic astrocytoma	diagnosis	PBCCMF	phs002790_PBCCMF_PBCCMF	phs002790_PBCCMF
+Ewing sarcoma with EWSR1 - ETV4 Fusion	diagnosis	PBCCZD	phs002790_PBCCZD_PBCCZD	phs002790_PBCCZD
+Most consistent with astrocytoma, IDH-1 mutant, WHO grade III	diagnosis	PBCEKF	phs002790_PBCEKF_PBCEKF	phs002790_PBCEKF
+Pilocytic Astrocytoma, WHO GRADE 1	diagnosis	PBCEKK	phs002790_PBCEKK_PBCEKK	phs002790_PBCEKK
+Medulloblastoma, classic histologic variant, WHO grade 4	diagnosis	PBCECZ	phs002790_PBCECZ_PBCECZ	phs002790_PBCECZ
+Glioma with features suggestive of pilocytic astrocytoma	diagnosis	PBCDHR	phs002790_PBCDHR_PBCDHR	phs002790_PBCDHR
+Residual low garde glial/glioneuronal tumor, Residual low grade glial/glioneuronal tumor	diagnosis	PBCCSZ	phs002790_PBCCSZ_PBCCSZ	phs002790_PBCCSZ
+Medulloblastoma, large cell anaplastic variant, WHO grade 4.	diagnosis	PBCEAH	phs002790_PBCEAH_PBCEAH	phs002790_PBCEAH
+Papillary thyroid carcinoma	diagnosis	PBCCSS	phs002790_PBCCSS_PBCCSS	phs002790_PBCCSS
+High-grade malignant neoplasm	diagnosis	PBCEHZ	phs002790_PBCEHZ_PBCEHZ	phs002790_PBCEHZ
+Glial neoplasm; most consistent with Pilocytic astrocytoma	diagnosis	PBCDJY	phs002790_PBCDJY_PBCDJY	phs002790_PBCDJY
+Mesenchymal chondrosarcoma, with HEY-NCOA2 gene fusion	diagnosis	PBCENA	phs002790_PBCENA_PBCENA	phs002790_PBCENA
+Suspicious for medulloblastoma	diagnosis	PBCEUG	phs002790_PBCEUG_PBCEUG	phs002790_PBCEUG
+Desmoid-type fibromatosis	diagnosis	PBCDRK	phs002790_PBCDRK_PBCDRK	phs002790_PBCDRK
+Primary astrocytic tumor, favor pilocytic astrocytoma	diagnosis	PBCEWW	phs002790_PBCEWW_PBCEWW	phs002790_PBCEWW
+Medulloblastoma	diagnosis	PBCEML	phs002790_PBCEML_PBCEML	phs002790_PBCEML
+Ganglioglioma, CNS WHO grade 1	diagnosis	PBCEMR	phs002790_PBCEMR_PBCEMR	phs002790_PBCEMR
+Medulloblastoma, Large cell/anaplastic	diagnosis	PBCEBZ	phs002790_PBCEBZ_PBCEBZ	phs002790_PBCEBZ
+Germinoma	diagnosis	PBCDTZ	phs002790_PBCDTZ_PBCDTZ	phs002790_PBCDTZ
+Pilocytic Astrocytoma	diagnosis	PBCCUM	phs002790_PBCCUM_PBCCUM	phs002790_PBCCUM
+CNS high grade neuroepithelial neoplasm	diagnosis	PBCEIS	phs002790_PBCEIS_PBCEIS	phs002790_PBCEIS
+Pilocytic Astrocytoma	diagnosis	PBCDIC	phs002790_PBCDIC_PBCDIC	phs002790_PBCDIC
+Invasive high-grade differentiated thyroid carcinoma	diagnosis	PBCAKM	phs002790_PBCAKM_PBCAKM	phs002790_PBCAKM
+Pilocytic Astrocytoma	diagnosis	PBCEDA	phs002790_PBCEDA_PBCEDA	phs002790_PBCEDA
+Adrenal Cortical Carcinoma	diagnosis	PBCEBH	phs002790_PBCEBH_PBCEBH	phs002790_PBCEBH
+Schwannoma, CNS WHO grade 1	diagnosis	PBCEHY	phs002790_PBCEHY_PBCEHY	phs002790_PBCEHY
+Atypical teratoid-rhabdoid tumor	diagnosis	PBCDRD	phs002790_PBCDRD_PBCDRD	phs002790_PBCDRD
+Pilocytic astrocytoma, WHO Grade 1, in cerebellum	diagnosis	PBCDRC	phs002790_PBCDRC_PBCDRC	phs002790_PBCDRC
+Glial or glioneuronal tumor with BRAF V600E immunoreactivity, favor pleomorphic xanthoastrocytoma, CNS WHO grade 2	diagnosis	PBCDPP	phs002790_PBCDPP_PBCDPP	phs002790_PBCDPP
+Alveolar rhabdomyosarcoma, FOXO1-rearranged	diagnosis	PBCEKU	phs002790_PBCEKU_PBCEKU	phs002790_PBCEKU
+High-grade glioma	diagnosis	PBCEFF	phs002790_PBCEFF_PBCEFF	phs002790_PBCEFF
+A diffuse midline glioma, H3 K27-altered CNS WHO grade 4, Diffuse midline glioma, H3 K27-altered CNS WHO grade 4	diagnosis	PBCEIH	phs002790_PBCEIH_PBCEIH	phs002790_PBCEIH
+Ganglioglioma	diagnosis	PBCDLV	phs002790_PBCDLV_PBCDLV	phs002790_PBCDLV
+Pilomyxoid Astrocytoma	diagnosis	PBCEGP	phs002790_PBCEGP_PBCEGP	phs002790_PBCEGP
+Ependymoma, WHO grade 2	diagnosis	PBCDHY	phs002790_PBCDHY_PBCDHY	phs002790_PBCDHY
+Low-grade compact glioma	diagnosis	PBCECF	phs002790_PBCECF_PBCECF	phs002790_PBCECF
+Thymoma	diagnosis	PBCEHX	phs002790_PBCEHX_PBCEHX	phs002790_PBCEHX
+Papillary thyroid carcinoma	diagnosis	PBCBRZ	phs002790_PBCBRZ_PBCBRZ	phs002790_PBCBRZ
+Sertoli-Leydig cell tumor, moderately differentiated (intermediate differentiation)	diagnosis	PBCDYU	phs002790_PBCDYU_PBCDYU	phs002790_PBCDYU
+Medulloblastoma, classic histology, WNT-driven (WHO Grade 4)	diagnosis	PBCEDN	phs002790_PBCEDN_PBCEDN	phs002790_PBCEDN
+Rhabdomyosarcoma	diagnosis	PBCDID	phs002790_PBCDID_PBCDID	phs002790_PBCDID
+Ependymoma, favor myxopapillary subtype, WHO grade 2	diagnosis	PBCDEH	phs002790_PBCDEH_PBCDEH	phs002790_PBCDEH
+Small blue cell tumor favour medulloblastoma	diagnosis	PBCEKW	phs002790_PBCEKW_PBCEKW	phs002790_PBCEKW
+Medulloblastoma	diagnosis	PBCEAE	phs002790_PBCEAE_PBCEAE	phs002790_PBCEAE
+Rhabdomyosarcoma	diagnosis	PBCCVL	phs002790_PBCCVL_PBCCVL	phs002790_PBCCVL
+Small round blue cell proliferation compatible with embryonal rhabdomyosarcoma	diagnosis	PBCECS	phs002790_PBCECS_PBCECS	phs002790_PBCECS
+Medulloblastoma, classical type, NOS, histologically defines, WHO grade 4	diagnosis	PBCETX	phs002790_PBCETX_PBCETX	phs002790_PBCETX
+Glioneuronal lesion with gliosis, inflammation, fibrosis, hemorrhage, and other reactive changes	diagnosis	PBCATD	phs002790_PBCATD_PBCATD	phs002790_PBCATD
+Biphasic synovial sarcoma	diagnosis	PBBZYH	phs002790_PBBZYH_PBBZYH	phs002790_PBBZYH
+Neoplasm	diagnosis	PBCBAJ	phs002790_PBCBAJ_PBCBAJ	phs002790_PBCBAJ
+Spindled and ovoid cell neoplasm most consistent with solitary fibrous tumor	diagnosis	PBCCSW	phs002790_PBCCSW_PBCCSW	phs002790_PBCCSW
+Diffuse glioma, with focal areas concerning for high grade, at least Grade 3	diagnosis	PBCDKY	phs002790_PBCDKY_PBCDKY	phs002790_PBCDKY
+Glineuronal neoplasm, favor Ganglioglioma	diagnosis	PBCCJH	phs002790_PBCCJH_PBCCJH	phs002790_PBCCJH
+"High-grade gioma, favored to be """"""""""""""""diffuse pediatric-type high-grade glioma, H3 wild type and IDH wild type"""""""""""""""" with possible hypermutation (pHGG, H3 wild type in IDH wild type)."	diagnosis	PBCESS	phs002790_PBCESS_PBCESS	phs002790_PBCESS
+Pilocytic Astrocytoma, CNS WHO Grade 1	diagnosis	PBCEXI	phs002790_PBCEXI_PBCEXI	phs002790_PBCEXI
+Choroid plexus papilloma (WHO grade 1)	diagnosis	PBCEBM	phs002790_PBCEBM_PBCEBM	phs002790_PBCEBM
+Embryonal rhabdomyosarcoma	diagnosis	PBCDJM	phs002790_PBCDJM_PBCDJM	phs002790_PBCDJM
+Ganglioglioma, CNS WHO Grade 1	diagnosis	PBCDBX	phs002790_PBCDBX_PBCDBX	phs002790_PBCDBX
+Low grade glial neoplasm	diagnosis	PBCDFA	phs002790_PBCDFA_PBCDFA	phs002790_PBCDFA
+Malignant peripheral nerve sheath tumor, FNCLCC Grade 2	diagnosis	PBCELV	phs002790_PBCELV_PBCELV	phs002790_PBCELV
+Poorly differentiated malignant neoplasm consistent with embryonal rhabdomyosarcoma	diagnosis	PBCEPC	phs002790_PBCEPC_PBCEPC	phs002790_PBCEPC
+Pilocytic Astrocytoma	diagnosis	PBCDFE	phs002790_PBCDFE_PBCDFE	phs002790_PBCDFE
+Hemangioma	diagnosis	PBCCRL	phs002790_PBCCRL_PBCCRL	phs002790_PBCCRL
+Medulloblastoma, desmoplastic / nodular, CNS WHO 4	diagnosis	PBCDWG	phs002790_PBCDWG_PBCDWG	phs002790_PBCDWG
+Rhabdomyosarcoma	diagnosis	PBCDSX	phs002790_PBCDSX_PBCDSX	phs002790_PBCDSX
+Embryonal neoplasm, favor medulloblastoma	diagnosis	PBCENF	phs002790_PBCENF_PBCENF	phs002790_PBCENF
+Low grade glial tumor, hypervascular	diagnosis	PBCDHU	phs002790_PBCDHU_PBCDHU	phs002790_PBCDHU
+Embryonal neoplasm	diagnosis	PBCDBS	phs002790_PBCDBS_PBCDBS	phs002790_PBCDBS
+Diffuse midline glioma, H3K27 altered, CNS WHO Grade 4	diagnosis	PBCDDX	phs002790_PBCDDX_PBCDDX	phs002790_PBCDDX
+Pilocytic Astrocytoma	diagnosis	PBCBAI	phs002790_PBCBAI_PBCBAI	phs002790_PBCBAI
+Alveolar rhabdomyosarcoma, with FOXO-1 rearrangement by FISH, Alveolar rhabdomyosarcoma, with FOXO1 rearrangement by FISH	diagnosis	PBCEJN	phs002790_PBCEJN_PBCEJN	phs002790_PBCEJN
+Juvenile granulosa cell tumor	diagnosis	PBCEVY	phs002790_PBCEVY_PBCEVY	phs002790_PBCEVY
+Atypical teratoid/ rhabdoid tumor	diagnosis	PBCENU	phs002790_PBCENU_PBCENU	phs002790_PBCENU
+Paraganglioma	diagnosis	PBCCZB	phs002790_PBCCZB_PBCCZB	phs002790_PBCCZB
+Medulloblastoma	diagnosis	PBCDMN	phs002790_PBCDMN_PBCDMN	phs002790_PBCDMN
+Pineal parenchymal tumor of intermediate differentiation (PPTID)	diagnosis	PBCEKG	phs002790_PBCEKG_PBCEKG	phs002790_PBCEKG
+Rhabdomyosarcoma	diagnosis	PBCCDY	phs002790_PBCCDY_PBCCDY	phs002790_PBCCDY
+Supratentorial ependymoma	diagnosis	PBCDLF	phs002790_PBCDLF_PBCDLF	phs002790_PBCDLF
+Retinoblastoma	diagnosis	PBCDGZ	phs002790_PBCDGZ_PBCDGZ	phs002790_PBCDGZ
+High grade malignant neoplasm	diagnosis	PBCDCG	phs002790_PBCDCG_PBCDCG	phs002790_PBCDCG
+Glial/glioneruonal neoplasm, histologically low-grade, Glial/glioneuronal neoplasm, histologically low-grade	diagnosis	PBCDYN	phs002790_PBCDYN_PBCDYN	phs002790_PBCDYN
+Alveolar Rhabdomyosarcoma	diagnosis	PBCCXB	phs002790_PBCCXB_PBCCXB	phs002790_PBCCXB
+Medulloblastoma, classic type, histologically defined, WHO grade 4	diagnosis	PBCELG	phs002790_PBCELG_PBCELG	phs002790_PBCELG
+Rhabdomyosarcoma	diagnosis	PBCEKM	phs002790_PBCEKM_PBCEKM	phs002790_PBCEKM
+Craniopharyngioma, WHO Grade 1	diagnosis	PBCBIB	phs002790_PBCBIB_PBCBIB	phs002790_PBCBIB
+Paratesticular embryonal rhabdomyosarcoma	diagnosis	PBCDHN	phs002790_PBCDHN_PBCDHN	phs002790_PBCDHN
+Extrarenal rhabdoid tumor (malignant rhabdoid tumor)	diagnosis	PBCDUV	phs002790_PBCDUV_PBCDUV	phs002790_PBCDUV
+Embryonal rhabdomyosarcoma	diagnosis	PBCBDY	phs002790_PBCBDY_PBCBDY	phs002790_PBCBDY
+Pilocytic Astrocytoma, CNS WHO Grade 1	diagnosis	PBCEJM	phs002790_PBCEJM_PBCEJM	phs002790_PBCEJM
+high-grade astrocytoma	diagnosis	PBCEHB	phs002790_PBCEHB_PBCEHB	phs002790_PBCEHB
+Subependymal giant cell astrocytoma, CNS WHO grade 1	diagnosis	PBCBVP	phs002790_PBCBVP_PBCBVP	phs002790_PBCBVP
+Skull Base, Nasal Cavity, Right Sphenoid Embryonal rhabdomyosarcoma	diagnosis	PBCEDL	phs002790_PBCEDL_PBCEDL	phs002790_PBCEDL
+Malignant neoplasm with myxoid and rhabdoid features and loss of INI-1 by immunohistochemistry, pending further studies	diagnosis	PBCETZ	phs002790_PBCETZ_PBCETZ	phs002790_PBCETZ
+Primary CNS neoplasm	diagnosis	PBCEVI	phs002790_PBCEVI_PBCEVI	phs002790_PBCEVI
+Infiltrative spindle cell proliferation	diagnosis	PBCDLM	phs002790_PBCDLM_PBCDLM	phs002790_PBCDLM
+Pineal parenchymal tumor of intermediate, differentiation, CNS WHO Grade 2	diagnosis	PBCETK	phs002790_PBCETK_PBCETK	phs002790_PBCETK
+Glioma with piloid features.	diagnosis	PBCDTJ	phs002790_PBCDTJ_PBCDTJ	phs002790_PBCDTJ
+Glial neoplasm, favor astrocytoma	diagnosis	PBCDSK	phs002790_PBCDSK_PBCDSK	phs002790_PBCDSK
+favor pilomyxoid astrocytoma,	diagnosis	PBCEWI	phs002790_PBCEWI_PBCEWI	phs002790_PBCEWI
+Embryonal tumor with multilayered rosettes	diagnosis	PBCBGH	phs002790_PBCBGH_PBCBGH	phs002790_PBCBGH
+Malignant neoplasm with features suggestive of primary intracranial sarcoma, DICER1-mutant	diagnosis	PBCEAF	phs002790_PBCEAF_PBCEAF	phs002790_PBCEAF
+Medulloblastoma	diagnosis	PBCDKR	phs002790_PBCDKR_PBCDKR	phs002790_PBCDKR
+Rhabdomyosarcoma	diagnosis	PBCENX	phs002790_PBCENX_PBCENX	phs002790_PBCENX
+Intermediate grade glioma most consistent with Ependymoma	diagnosis	PBCAET	phs002790_PBCAET_PBCAET	phs002790_PBCAET
+Low-grade glial neoplasm	diagnosis	PBCEEB	phs002790_PBCEEB_PBCEEB	phs002790_PBCEEB
+Rhabdomyosarcoma	diagnosis	PBCEXH	phs002790_PBCEXH_PBCEXH	phs002790_PBCEXH
+Papillary carcinoma, Papillary thyroid carcinoma	diagnosis	PBCDEY	phs002790_PBCDEY_PBCDEY	phs002790_PBCDEY
+Atypical teratoid-rhabdoid tumor	diagnosis	PBCDYY	phs002790_PBCDYY_PBCDYY	phs002790_PBCDYY
+Compatible with small blue cell tumor; favor primary CNS origin	diagnosis	PBCEID	phs002790_PBCEID_PBCEID	phs002790_PBCEID
+High grade glioma, consistent with glioblastoma	diagnosis	PBCDLD	phs002790_PBCDLD_PBCDLD	phs002790_PBCDLD
+Small round blue cell tumor	diagnosis	PBCDLX	phs002790_PBCDLX_PBCDLX	phs002790_PBCDLX
+"Medulloblastoma, """"""""""""""""classic"""""""""""""""" histopathological subtype (NOS)"	diagnosis	PBCDRP	phs002790_PBCDRP_PBCDRP	phs002790_PBCDRP
+Central neurocytoma, WHO Grade 2	diagnosis	PBCEPA	phs002790_PBCEPA_PBCEPA	phs002790_PBCEPA
+Rhabdomyosarcoma	diagnosis	PBCECL	phs002790_PBCECL_PBCECL	phs002790_PBCECL
+low grade glial tumor	diagnosis	PBCDNM	phs002790_PBCDNM_PBCDNM	phs002790_PBCDNM
+Medulloblastoma, classic histology, CNS WHO grade 4	diagnosis	PBCDDC	phs002790_PBCDDC_PBCDDC	phs002790_PBCDDC
+Medulloblastoma	diagnosis	PBCDVZ	phs002790_PBCDVZ_PBCDVZ	phs002790_PBCDVZ
+Undifferentiated Small Round Cell Sarcoma	diagnosis	PBCFAK	phs002790_PBCFAK_PBCFAK	phs002790_PBCFAK
+Well-differentiated neuroendocrine tumor, G1	diagnosis	PBCBCH	phs002790_PBCBCH_PBCBCH	phs002790_PBCBCH
+Low grade glioneuronal neoplasm consistent with ganglioglioma, CNS WHO Grade 1	diagnosis	PBCESN	phs002790_PBCESN_PBCESN	phs002790_PBCESN
+Adenocarcinoma with clear cell features	diagnosis	PBCDYK	phs002790_PBCDYK_PBCDYK	phs002790_PBCDYK
+Glial neoplasm, favor supratentorial ependymoma	diagnosis	PBCDTI	phs002790_PBCDTI_PBCDTI	phs002790_PBCDTI
+Posterior fossa ependymoma, CNS WHO grade 3	diagnosis	PBCDDR	phs002790_PBCDDR_PBCDDR	phs002790_PBCDDR
+Embryonal tumor with multilayered rosettes (WHO Grade 4)	diagnosis	PBCDYM	phs002790_PBCDYM_PBCDYM	phs002790_PBCDYM
+Diffuse Midline Glioma	diagnosis	PBCEGU	phs002790_PBCEGU_PBCEGU	phs002790_PBCEGU
+Brain, Midline supracellar; Diffuse leptomeningeal glioneuronal tumor	diagnosis	PBCDUA	phs002790_PBCDUA_PBCDUA	phs002790_PBCDUA
+Small round blue cell tumor suspicious for high-grade glioma/possible medulloblastoma	diagnosis	PBCEDS	phs002790_PBCEDS_PBCEDS	phs002790_PBCEDS
+"Dural Tumor"""""""" Pediatric-type high grade glioma"	diagnosis	PBCDNI	phs002790_PBCDNI_PBCDNI	phs002790_PBCDNI
+Residual Synovial sarcoma	diagnosis	PBCCEU	phs002790_PBCCEU_PBCCEU	phs002790_PBCCEU
+Mesenchymal neoplasm, favor meningioma	diagnosis	PBCDZM	phs002790_PBCDZM_PBCDZM	phs002790_PBCDZM
+Medulloblastoma, CNS WHO grade 4	diagnosis	PBCCTV	phs002790_PBCCTV_PBCCTV	phs002790_PBCCTV
+Pilocytic Astrocytoma, CNS WHO Grade 1	diagnosis	PBCESL	phs002790_PBCESL_PBCESL	phs002790_PBCESL
+Glial neoplasm (favor astrocytoma family)	diagnosis	PBBXRX	phs002790_PBBXRX_PBBXRX	phs002790_PBBXRX
+Low-grade neuroepithelial tumor	diagnosis	PBCDVY	phs002790_PBCDVY_PBCDVY	phs002790_PBCDVY
+Rhabdomyosarcoma	diagnosis	PBCCVR	phs002790_PBCCVR_PBCCVR	phs002790_PBCCVR
+Embryonal tumor, with features suggestive of embryonal tumor with multilayered rosettes	diagnosis	PBCDLI	phs002790_PBCDLI_PBCDLI	phs002790_PBCDLI
+Ganglioglioma	diagnosis	PBCEFH	phs002790_PBCEFH_PBCEFH	phs002790_PBCEFH
+Pilocytic Astrocytoma	diagnosis	PBCBDE	phs002790_PBCBDE_PBCBDE	phs002790_PBCBDE
+Epithelioid sarcoma	diagnosis	PBCDPG	phs002790_PBCDPG_PBCDPG	phs002790_PBCDPG
+High grade glioma	diagnosis	PBCEHF	phs002790_PBCEHF_PBCEHF	phs002790_PBCEHF
+Ependymoma	diagnosis	PBCDHX	phs002790_PBCDHX_PBCDHX	phs002790_PBCDHX
+Malignant neoplasm with features of embryonal tumor with multilayered rosettes, CNS WHO Grade 4	diagnosis	PBCEHM	phs002790_PBCEHM_PBCEHM	phs002790_PBCEHM
+Medulloblastoma	diagnosis	PBCETG	phs002790_PBCETG_PBCETG	phs002790_PBCETG
+Unclassified round cell sarcoma	diagnosis	PBCDPB	phs002790_PBCDPB_PBCDPB	phs002790_PBCDPB
+Low-grade glial neoplasm with BRAF V600E mutation	diagnosis	PBCDZF	phs002790_PBCDZF_PBCDZF	phs002790_PBCDZF
+Nasal embryonal rhabdomyosarcoma	diagnosis	PBCEEC	phs002790_PBCEEC_PBCEEC	phs002790_PBCEEC
+Pilocytic Astrocytoma	diagnosis	PBBZXE	phs002790_PBBZXE_PBBZXE	phs002790_PBBZXE
+Rhabdomyosarcoma with spindle cell features, extending to surgical margin resection	diagnosis	PBCEPM	phs002790_PBCEPM_PBCEPM	phs002790_PBCEPM
+Rhabdomyosarcoma	diagnosis	PBCBXJ	phs002790_PBCBXJ_PBCBXJ	phs002790_PBCBXJ
+Posterior Fossa Ependymoma WHO 3	diagnosis	PBCCNC	phs002790_PBCCNC_PBCCNC	phs002790_PBCCNC
+Rhabdomyosrcoma	diagnosis	PBCENC	phs002790_PBCENC_PBCENC	phs002790_PBCENC
+Dysembryoplastic neuroepithelial tumor (DNT), CNS WHO grade 1	diagnosis	PBCEFP	phs002790_PBCEFP_PBCEFP	phs002790_PBCEFP
+Pilocytic astrocytoma with pilomyxoid features WHO grade 1	diagnosis	PBCESI	phs002790_PBCESI_PBCESI	phs002790_PBCESI
+Atypical meningioma, WHO grade 2	diagnosis	PBCCTE	phs002790_PBCCTE_PBCCTE	phs002790_PBCCTE
+Thyroid carcinoma	diagnosis	PBCDBV	phs002790_PBCDBV_PBCDBV	phs002790_PBCDBV
+Well-differentiated neuroendocrine tumor	diagnosis	PBCDVA	phs002790_PBCDVA_PBCDVA	phs002790_PBCDVA
+Pilocytic astrocytoma, BRAF p.V600E-mutant (WHO grade 1)	diagnosis	PBCCED	phs002790_PBCCED_PBCCED	phs002790_PBCCED
+favor pilocytic astrocytoma, cannnot entirely exclude higher grade tumor	diagnosis	PBCEAX	phs002790_PBCEAX_PBCEAX	phs002790_PBCEAX
+Medulloblastoma	diagnosis	PBCDZY	phs002790_PBCDZY_PBCDZY	phs002790_PBCDZY
+Pilocytic Astrocytoma, WHO Grade 1	diagnosis	PBCDLB	phs002790_PBCDLB_PBCDLB	phs002790_PBCDLB
+Mass, Sinonasal Tumor; Rhabdomyosarcoma	diagnosis	PBCELM	phs002790_PBCELM_PBCELM	phs002790_PBCELM
+Infiltrative low-grade glioneuronal tumor, favor ganglioglioma	diagnosis	PBCEVK	phs002790_PBCEVK_PBCEVK	phs002790_PBCEVK
+Monophasic Synovial sarcoma	diagnosis	PBCEND	phs002790_PBCEND_PBCEND	phs002790_PBCEND
+Medulloblastoma, SHH-activated, p53 wild-type pattern (by IHC). CNS WHO grade: 4	diagnosis	PBCDWK	phs002790_PBCDWK_PBCDWK	phs002790_PBCDWK
+Subependymal giant cell astrocytoma (WHO grade 1), Subependymoma giant cell astrocytoma (WHO grade 1)	diagnosis	PBCEUP	phs002790_PBCEUP_PBCEUP	phs002790_PBCEUP
+Myxoid spindle cell neoplasm	diagnosis	PBCDKZ	phs002790_PBCDKZ_PBCDKZ	phs002790_PBCDKZ
+Pilocytic Astrocytoma, CNS WHO Grade 1	diagnosis	PBCDMG	phs002790_PBCDMG_PBCDMG	phs002790_PBCDMG
+Myofibroblastic proliferation most consistent with Desmoplastic fibromatosis	diagnosis	PBCACG	phs002790_PBCACG_PBCACG	phs002790_PBCACG
+Craniopharyngioma (WHO Grade I)	diagnosis	PBCDPN	phs002790_PBCDPN_PBCDPN	phs002790_PBCDPN
+Ewing Sarcoma	diagnosis	PBCDMK	phs002790_PBCDMK_PBCDMK	phs002790_PBCDMK
+Supratentorial ependymoma	diagnosis	PBCDXB	phs002790_PBCDXB_PBCDXB	phs002790_PBCDXB
+High-grade glial neoplasm	diagnosis	PBCENI	phs002790_PBCENI_PBCENI	phs002790_PBCENI
+Spindle cell neoplasm with features of Low-grade fibromyxoid sarcoma	diagnosis	PBCBKH	phs002790_PBCBKH_PBCBKH	phs002790_PBCBKH
+Malignant small blue cell tumor consistent with medulloblastoma	diagnosis	PBCDZR	phs002790_PBCDZR_PBCDZR	phs002790_PBCDZR
+Mesenchymal chondrosarcoma	diagnosis	PBCDNW	phs002790_PBCDNW_PBCDNW	phs002790_PBCDNW
+Desmoid type fibromatosis	diagnosis	PBCDVC	phs002790_PBCDVC_PBCDVC	phs002790_PBCDVC
+Meningeal Tumor, Meningioma, transitional subtype. CNS WHO Grade 1.	diagnosis	PBCDNA	phs002790_PBCDNA_PBCDNA	phs002790_PBCDNA
+Glioneuronal tumor high grade	diagnosis	PBCEFL	phs002790_PBCEFL_PBCEFL	phs002790_PBCEFL
+Medulloblastoma, non-WNT / non-SHH (CNS WHO grade 4)	diagnosis	PBCENE	phs002790_PBCENE_PBCENE	phs002790_PBCENE
+Infantile rhabdomyosarcoma, spindle cell type, high grade	diagnosis	PBCDKF	phs002790_PBCDKF_PBCDKF	phs002790_PBCDKF
+Gastrointestinal stromal tumor, mixed type, high grade	diagnosis	PBCADA	phs002790_PBCADA_PBCADA	phs002790_PBCADA
+BCOR-rearranged sarcoma	diagnosis	PBCDPH	phs002790_PBCDPH_PBCDPH	phs002790_PBCDPH
+Low-grade sarcoma	diagnosis	PBCBXZ	phs002790_PBCBXZ_PBCBXZ	phs002790_PBCBXZ
+Diffuse midline glioma, H3 K27-altered, H3 p.K27M-mutant subgroup, CNS WHO grade 4	diagnosis	PBCEET	phs002790_PBCEET_PBCEET	phs002790_PBCEET

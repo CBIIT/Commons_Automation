@@ -1,0 +1,2 @@
+vital_status	primary_diagnosis	tumor_grade	morphology	progression_or_recurrence	days_to_last_followup	last_known_disease_status	days_to_last_known_status	type	diagnosis_id	study_diagnosis_id	participant.study_participant_id
+Alive	Ductal Carcinoma In Situ, NOS	High Grade	Not Reported	Yes	4014	Tumor free	4014	diagnosis	HTA6_116	phs002371_HTA6_116_HTA6_116	phs002371_HTA6_116

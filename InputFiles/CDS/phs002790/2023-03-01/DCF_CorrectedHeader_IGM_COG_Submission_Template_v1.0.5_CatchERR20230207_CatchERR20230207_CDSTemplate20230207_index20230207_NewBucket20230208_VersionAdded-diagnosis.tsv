@@ -1,0 +1,978 @@
+diagnosis_id	disease_type	primary_site	age_at_diagnosis	type	study_diagnosis_id	participant.study_participant_id	primary_diagnosis
+PBBLSZ_4	Meningioma, NOS	Frontal lobe	6500	diagnosis	phs002790_PBBLSZ_PBBLSZ_4	phs002790_PBBLSZ	Not specified in data
+PBBPPW_4	Medulloblastoma, NOS	Cerebellum, NOS	3081	diagnosis	phs002790_PBBPPW_PBBPPW_4	phs002790_PBBPPW	Not specified in data
+PBBTNE_4	Medulloblastoma, NOS	Brain, NOS	3465	diagnosis	phs002790_PBBTNE_PBBTNE_4	phs002790_PBBTNE	Not specified in data
+PBBPWU_4	Sex cord-gonadal stromal tumor, mixed forms	Ovary	5043	diagnosis	phs002790_PBBPWU_PBBPWU_4	phs002790_PBBPWU	Not specified in data
+PBBTBG_4	Rhabdomyosarcoma, NOS	Parotid Gland	3875	diagnosis	phs002790_PBBTBG_PBBTBG_4	phs002790_PBBTBG	Not specified in data
+PBBSYE_4	Myofibroblastic tumor, NOS	Connective, subcutaneous and other soft tissues of pelvis	610	diagnosis	phs002790_PBBSYE_PBBSYE_4	phs002790_PBBSYE	Not specified in data
+PBBMGD_4	Embryonal rhabdomyosarcoma, NOS	Orbit, NOS	5264	diagnosis	phs002790_PBBMGD_PBBMGD_4	phs002790_PBBMGD	Not specified in data
+PBBNCV_4	Large cell medulloblastoma	Brain, NOS	1077	diagnosis	phs002790_PBBNCV_PBBNCV_4	phs002790_PBBNCV	Not specified in data
+PBBTIB_4	Medulloblastoma, NOS	Brain, NOS	5305	diagnosis	phs002790_PBBTIB_PBBTIB_4	phs002790_PBBTIB	Not specified in data
+PBBSXB_4	Unknown, to be completed later	Vertebral column (excludes sacrum and coccyx C41.4)	1018	diagnosis	phs002790_PBBSXB_PBBSXB_4	phs002790_PBBSXB	Not specified in data
+PBBKHG_4	Glioma, malignant	Brain, NOS	2719	diagnosis	phs002790_PBBKHG_PBBKHG_4	phs002790_PBBKHG	Not specified in data
+PBBNWE_4	Neurofibromatosis, NOS	Brain, NOS	6130	diagnosis	phs002790_PBBNWE_PBBNWE_4	phs002790_PBBNWE	Not specified in data
+PBBLLP_4	Embryonal sarcoma	Liver	4340	diagnosis	phs002790_PBBLLP_PBBLLP_4	phs002790_PBBLLP	Not specified in data
+PBBIMV_4	Medulloblastoma, NOS	Brain, NOS	2393	diagnosis	phs002790_PBBIMV_PBBIMV_4	phs002790_PBBIMV	Not specified in data
+PBBPLC_4	Pilocytic astrocytoma	Brain, NOS	5353	diagnosis	phs002790_PBBPLC_PBBPLC_4	phs002790_PBBPLC	Not specified in data
+PBBKXH_4	Tumor cells, malignant	Occipital lobe	172	diagnosis	phs002790_PBBKXH_PBBKXH_4	phs002790_PBBKXH	Not specified in data
+PBBHMA_4	Medulloblastoma, NOS	Brain, NOS	2579	diagnosis	phs002790_PBBHMA_PBBHMA_4	phs002790_PBBHMA	Not specified in data
+PBBSCT_4	Chordoma, NOS	Bones of skull and face and associated joints (excludes mandible C41.1)	3970	diagnosis	phs002790_PBBSCT_PBBSCT_4	phs002790_PBBSCT	Not specified in data
+PBBLZZ_4	Large cell medulloblastoma	Cerebellum, NOS	2592	diagnosis	phs002790_PBBLZZ_PBBLZZ_4	phs002790_PBBLZZ	Not specified in data
+PBBUCE_4	Atypical teratoid/rhabdoid tumor	Brain, NOS	203	diagnosis	phs002790_PBBUCE_PBBUCE_4	phs002790_PBBUCE	Not specified in data
+PBBSLV_4	Myofibroblastic tumor, NOS	Abdomen, NOS	2310	diagnosis	phs002790_PBBSLV_PBBSLV_4	phs002790_PBBSLV	Not specified in data
+PBBNNR_4	Pilocytic astrocytoma	Cerebellum, NOS	1278	diagnosis	phs002790_PBBNNR_PBBNNR_4	phs002790_PBBNNR	Not specified in data
+PBBRUS_4	Neoplasm, malignant	Ventricle, NOS	956	diagnosis	phs002790_PBBRUS_PBBRUS_4	phs002790_PBBRUS	Not specified in data
+PBBSIU_4	Glioma, malignant	Brain, NOS	6085	diagnosis	phs002790_PBBSIU_PBBSIU_4	phs002790_PBBSIU	Not specified in data
+PBBNFX_4	Neoplasm, uncertain whether benign or malignant	Eye, NOS	887	diagnosis	phs002790_PBBNFX_PBBNFX_4	phs002790_PBBNFX	Not specified in data
+PBBSRF_4	Embryonal rhabdomyosarcoma, NOS	Pelvis, NOS	1156	diagnosis	phs002790_PBBSRF_PBBSRF_4	phs002790_PBBSRF	Not specified in data
+PBBUAW_4	Rhabdomyosarcoma, NOS	External ear	1772	diagnosis	phs002790_PBBUAW_PBBUAW_4	phs002790_PBBUAW	Not specified in data
+PBBMLJ_4	Medulloblastoma, NOS	Cerebellum, NOS	2333	diagnosis	phs002790_PBBMLJ_PBBMLJ_4	phs002790_PBBMLJ	Not specified in data
+PBBJSS_4	Astrocytoma, NOS	Brain stem	5180	diagnosis	phs002790_PBBJSS_PBBJSS_4	phs002790_PBBJSS	Not specified in data
+PBBSDG_4	Pilocytic astrocytoma	Cerebellum, NOS	5868	diagnosis	phs002790_PBBSDG_PBBSDG_4	phs002790_PBBSDG	Not specified in data
+PBBTTL_4	Sarcoma, NOS	Rib, sternum, clavicle and associated joints	1586	diagnosis	phs002790_PBBTTL_PBBTTL_4	phs002790_PBBTTL	Not specified in data
+PBBMIY_4	Glioma, malignant	Brain, NOS	2809	diagnosis	phs002790_PBBMIY_PBBMIY_4	phs002790_PBBMIY	Not specified in data
+PBBLXY_4	Desmoplastic small round cell tumor	Peritoneum, NOS	4046	diagnosis	phs002790_PBBLXY_PBBLXY_4	phs002790_PBBLXY	Not specified in data
+PBBNLA_4	Ependymoma, anaplastic	Brain, NOS	5917	diagnosis	phs002790_PBBNLA_PBBNLA_4	phs002790_PBBNLA	Not specified in data
+PBBPFI_4	Rhabdomyosarcoma, NOS	Nasal cavity (excludes nose, NOS C76.0)	4777	diagnosis	phs002790_PBBPFI_PBBPFI_4	phs002790_PBBPFI	Not specified in data
+PBBLYZ_4	Medulloblastoma, NOS	Brain, NOS	3361	diagnosis	phs002790_PBBLYZ_PBBLYZ_4	phs002790_PBBLYZ	Not specified in data
+PBBJIL_4	Astrocytoma, NOS	Cerebrum	202	diagnosis	phs002790_PBBJIL_PBBJIL_4	phs002790_PBBJIL	Not specified in data
+PBBRLP_4	Germinoma	Brain, NOS	4311	diagnosis	phs002790_PBBRLP_PBBRLP_4	phs002790_PBBRLP	Not specified in data
+PBBJVH_4	Astrocytoma, anaplastic	Brain, NOS	6077	diagnosis	phs002790_PBBJVH_PBBJVH_4	phs002790_PBBJVH	Not specified in data
+PBBMIX_4	Ependymoma, NOS	Brain, NOS	575	diagnosis	phs002790_PBBMIX_PBBMIX_4	phs002790_PBBMIX	Not specified in data
+PBBLWR_4	Glioma, malignant	Brain stem	3444	diagnosis	phs002790_PBBLWR_PBBLWR_4	phs002790_PBBLWR	Not specified in data
+PBBMAW_4	Medulloblastoma, NOS	Brain, NOS	5646	diagnosis	phs002790_PBBMAW_PBBMAW_4	phs002790_PBBMAW	Not specified in data
+PBBNKV_4	Glioblastoma, NOS	Brain, NOS	2127	diagnosis	phs002790_PBBNKV_PBBNKV_4	phs002790_PBBNKV	Not specified in data
+PBBTXA_4	Angiomyosarcoma	Breast, NOS	5407	diagnosis	phs002790_PBBTXA_PBBTXA_4	phs002790_PBBTXA	Not specified in data
+PBBSVE_4	Medulloblastoma, NOS	Brain, NOS	5738	diagnosis	phs002790_PBBSVE_PBBSVE_4	phs002790_PBBSVE	Not specified in data
+PBBRVP_4	Choroid plexus papilloma, NOS	Brain, NOS	2249	diagnosis	phs002790_PBBRVP_PBBRVP_4	phs002790_PBBRVP	Not specified in data
+PBBMNL_4	Ganglioglioma, NOS	Brain, NOS	1381	diagnosis	phs002790_PBBMNL_PBBMNL_4	phs002790_PBBMNL	Not specified in data
+PBBLPL_4	Rhabdomyosarcoma, NOS	Nasopharynx, NOS	1053	diagnosis	phs002790_PBBLPL_PBBLPL_4	phs002790_PBBLPL	Not specified in data
+PBBTRC_4	Ependymoma, NOS	Brain, NOS	551	diagnosis	phs002790_PBBTRC_PBBTRC_4	phs002790_PBBTRC	Not specified in data
+PBBREH_4	Central neurocytoma	Brain, NOS	5343	diagnosis	phs002790_PBBREH_PBBREH_4	phs002790_PBBREH	Not specified in data
+PBBMHS_4	Neoplasm, uncertain whether benign or malignant	Frontal lobe	6084	diagnosis	phs002790_PBBMHS_PBBMHS_4	phs002790_PBBMHS	Not specified in data
+PBBSPF_4	Medulloblastoma, NOS	Cerebellum, NOS	878	diagnosis	phs002790_PBBSPF_PBBSPF_4	phs002790_PBBSPF	Not specified in data
+PBBMEH_4	Medulloblastoma, NOS	Brain, NOS	4442	diagnosis	phs002790_PBBMEH_PBBMEH_4	phs002790_PBBMEH	Not specified in data
+PBBPEI_4	Medulloblastoma, NOS	Brain, NOS	1652	diagnosis	phs002790_PBBPEI_PBBPEI_4	phs002790_PBBPEI	Not specified in data
+PBBLEJ_4	Medulloblastoma, NOS	Brain, NOS	465	diagnosis	phs002790_PBBLEJ_PBBLEJ_4	phs002790_PBBLEJ	Not specified in data
+PBBUGE_4	Alveolar rhabdomyosarcoma	Pelvis, NOS	5975	diagnosis	phs002790_PBBUGE_PBBUGE_4	phs002790_PBBUGE	Not specified in data
+PBBICF_4	Medulloblastoma, NOS	Brain, NOS	4958	diagnosis	phs002790_PBBICF_PBBICF_4	phs002790_PBBICF	Not specified in data
+PBBIDM_4	Neoplasm, malignant	Brain, NOS	4588	diagnosis	phs002790_PBBIDM_PBBIDM_4	phs002790_PBBIDM	Not specified in data
+PBBKGG_4	Atypical choroid plexus papilloma	Ventricle, NOS	200	diagnosis	phs002790_PBBKGG_PBBKGG_4	phs002790_PBBKGG	Not specified in data
+PBBLHI_4	Undifferentiated sarcoma	Connective, subcutaneous and other soft tissues of lower limb and hip	6216	diagnosis	phs002790_PBBLHI_PBBLHI_4	phs002790_PBBLHI	Not specified in data
+PBBNSH_4	Ependymoma, NOS	Brain, NOS	548	diagnosis	phs002790_PBBNSH_PBBNSH_4	phs002790_PBBNSH	Not specified in data
+PBBPVR_4	Rhabdomyosarcoma, NOS	Testis, NOS	6970	diagnosis	phs002790_PBBPVR_PBBPVR_4	phs002790_PBBPVR	Not specified in data
+PBBTTN_4	Medulloblastoma, NOS	Cerebellum, NOS	1793	diagnosis	phs002790_PBBTTN_PBBTTN_4	phs002790_PBBTTN	Not specified in data
+PBBIJX_4	Dysembryoplastic neuroepithelial tumor	Temporal lobe	1324	diagnosis	phs002790_PBBIJX_PBBIJX_4	phs002790_PBBIJX	Not specified in data
+PBBRJL_4	Undifferentiated sarcoma	Spinal cord	74	diagnosis	phs002790_PBBRJL_PBBRJL_4	phs002790_PBBRJL	Not specified in data
+PBBTXT_4	Precursor cell lymphoblastic leukemia, NOS	Bone marrow	3208	diagnosis	phs002790_PBBTXT_PBBTXT_4	phs002790_PBBTXT	Not specified in data
+PBBUHB_4	Embryonal rhabdomyosarcoma, NOS	Testis, NOS	129	diagnosis	phs002790_PBBUHB_PBBUHB_4	phs002790_PBBUHB	Not specified in data
+PBBITE_4	Ependymoma, anaplastic	Brain stem	860	diagnosis	phs002790_PBBITE_PBBITE_4	phs002790_PBBITE	Not specified in data
+PBBPNM_4	Rhabdomyosarcoma, NOS	Middle ear	2520	diagnosis	phs002790_PBBPNM_PBBPNM_4	phs002790_PBBPNM	Not specified in data
+PBBTUV_4	Pilocytic astrocytoma	Cerebellum, NOS	3328	diagnosis	phs002790_PBBTUV_PBBTUV_4	phs002790_PBBTUV	Not specified in data
+PBBSXR_4	Germinoma	Brain, NOS	5975	diagnosis	phs002790_PBBSXR_PBBSXR_4	phs002790_PBBSXR	Not specified in data
+PBBJVW_4	Myxopapillary ependymoma	Spinal cord	5812	diagnosis	phs002790_PBBJVW_PBBJVW_4	phs002790_PBBJVW	Not specified in data
+PBBTEC_4	Neoplasm, malignant	Adrenal gland, NOS	2587	diagnosis	phs002790_PBBTEC_PBBTEC_4	phs002790_PBBTEC	Not specified in data
+PBBISY_4	Pilocytic astrocytoma	Brain, NOS	4392	diagnosis	phs002790_PBBISY_PBBISY_4	phs002790_PBBISY	Not specified in data
+PBBMCU_4	Glioma, malignant	Brain, NOS	111	diagnosis	phs002790_PBBMCU_PBBMCU_4	phs002790_PBBMCU	Not specified in data
+PBBIUB_4	Ependymoma, NOS	Brain, NOS	495	diagnosis	phs002790_PBBIUB_PBBIUB_4	phs002790_PBBIUB	Not specified in data
+PBBSHC_4	Neoplasm, uncertain whether benign or malignant	Brain, NOS	1595	diagnosis	phs002790_PBBSHC_PBBSHC_4	phs002790_PBBSHC	Not specified in data
+PBBRZB_4	Sarcoma, NOS	Connective, subcutaneous and other soft tissues of thorax (excludes thymus C37.9, heart and mediastinum C38._)	5495	diagnosis	phs002790_PBBRZB_PBBRZB_4	phs002790_PBBRZB	Not specified in data
+PBBNYE_4	Pilocytic astrocytoma	Brain, NOS	2382	diagnosis	phs002790_PBBNYE_PBBNYE_4	phs002790_PBBNYE	Not specified in data
+PBBSTM_4	Ganglioglioma, NOS	Overlapping lesion of respiratory system and intrathoracic organs	2148	diagnosis	phs002790_PBBSTM_PBBSTM_4	phs002790_PBBSTM	Not specified in data
+PBBPDS_4	Embryonal rhabdomyosarcoma, NOS	Head, face or neck, NOS	105	diagnosis	phs002790_PBBPDS_PBBPDS_4	phs002790_PBBPDS	Not specified in data
+PBBRZV_4	Rhabdomyosarcoma, NOS	Bone, NOS	1211	diagnosis	phs002790_PBBRZV_PBBRZV_4	phs002790_PBBRZV	Not specified in data
+PBBSFT_4	Myofibroblastic tumor, NOS	Trachea	871	diagnosis	phs002790_PBBSFT_PBBSFT_4	phs002790_PBBSFT	Not specified in data
+PBBRLC_4	Pilocytic astrocytoma	Cerebellum, NOS	4647	diagnosis	phs002790_PBBRLC_PBBRLC_4	phs002790_PBBRLC	Not specified in data
+PBBKZD_4	Alveolar rhabdomyosarcoma	Lower limb, NOS	3381	diagnosis	phs002790_PBBKZD_PBBKZD_4	phs002790_PBBKZD	Not specified in data
+PBBKGV_4	Neoplasm, uncertain whether benign or malignant	Frontal lobe	2491	diagnosis	phs002790_PBBKGV_PBBKGV_4	phs002790_PBBKGV	Not specified in data
+PBBICS_4	Gliosarcoma	Temporal lobe	6373	diagnosis	phs002790_PBBICS_PBBICS_4	phs002790_PBBICS	Not specified in data
+PBBKEG_4	Atypical teratoid/rhabdoid tumor	Overlapping lesion of brain	355	diagnosis	phs002790_PBBKEG_PBBKEG_4	phs002790_PBBKEG	Not specified in data
+PBBLAC_4	Dysembryoplastic neuroepithelial tumor	Brain, NOS	1894	diagnosis	phs002790_PBBLAC_PBBLAC_4	phs002790_PBBLAC	Not specified in data
+PBBNCA_4	Pilocytic astrocytoma	Brain, NOS	812	diagnosis	phs002790_PBBNCA_PBBNCA_4	phs002790_PBBNCA	Not specified in data
+PBBINB_4	Medulloblastoma, NOS	Brain, NOS	3206	diagnosis	phs002790_PBBINB_PBBINB_4	phs002790_PBBINB	Not specified in data
+PBBPAJ_4	Alveolar rhabdomyosarcoma	Unknown primary site	7329	diagnosis	phs002790_PBBPAJ_PBBPAJ_4	phs002790_PBBPAJ	Not specified in data
+PBBKUP_4	Pilocytic astrocytoma	Brain, NOS	2937	diagnosis	phs002790_PBBKUP_PBBKUP_4	phs002790_PBBKUP	Not specified in data
+PBBNUZ_4	Medulloblastoma, NOS	Cerebellum, NOS	2231	diagnosis	phs002790_PBBNUZ_PBBNUZ_4	phs002790_PBBNUZ	Not specified in data
+PBBPGZ_4	Rhabdomyosarcoma, NOS	Mandible	937	diagnosis	phs002790_PBBPGZ_PBBPGZ_4	phs002790_PBBPGZ	Not specified in data
+PBBRET_4	Neoplasm, uncertain whether benign or malignant	Brain, NOS	4934	diagnosis	phs002790_PBBRET_PBBRET_4	phs002790_PBBRET	Not specified in data
+PBBUKM_4	Glioma, malignant	Brain stem	3776	diagnosis	phs002790_PBBUKM_PBBUKM_4	phs002790_PBBUKM	Not specified in data
+PBBLSC_4	Glioma, malignant	Spinal cord	4356	diagnosis	phs002790_PBBLSC_PBBLSC_4	phs002790_PBBLSC	Not specified in data
+PBBRWM_4	Undifferentiated sarcoma	Connective, subcutaneous and other soft tissues of lower limb and hip	5086	diagnosis	phs002790_PBBRWM_PBBRWM_4	phs002790_PBBRWM	Not specified in data
+PBBMBX_4	Pilocytic astrocytoma	Brain, NOS	5301	diagnosis	phs002790_PBBMBX_PBBMBX_4	phs002790_PBBMBX	Not specified in data
+PBBRGW_4	Medulloblastoma, NOS	Brain, NOS	1134	diagnosis	phs002790_PBBRGW_PBBRGW_4	phs002790_PBBRGW	Not specified in data
+PBBRYJ_4	Sarcoma, NOS	Connective, subcutaneous and other soft tissues, NOS	3772	diagnosis	phs002790_PBBRYJ_PBBRYJ_4	phs002790_PBBRYJ	Not specified in data
+PBBSJU_4	Adenocarcinoma, NOS	Colon, NOS	5145	diagnosis	phs002790_PBBSJU_PBBSJU_4	phs002790_PBBSJU	Not specified in data
+PBBKHM_4	Pilocytic astrocytoma	Cerebellum, NOS	4962	diagnosis	phs002790_PBBKHM_PBBKHM_4	phs002790_PBBKHM	Not specified in data
+PBBTGI_4	Pilocytic astrocytoma	Cerebellum, NOS	617	diagnosis	phs002790_PBBTGI_PBBTGI_4	phs002790_PBBTGI	Not specified in data
+PBBIET_4	Neoplasm, uncertain whether benign or malignant	Brain, NOS	4678	diagnosis	phs002790_PBBIET_PBBIET_4	phs002790_PBBIET	Not specified in data
+PBBIRM_4	Medulloblastoma, NOS	Brain stem	2806	diagnosis	phs002790_PBBIRM_PBBIRM_4	phs002790_PBBIRM	Not specified in data
+PBBLWW_4	Pilocytic astrocytoma	Brain, NOS	4180	diagnosis	phs002790_PBBLWW_PBBLWW_4	phs002790_PBBLWW	Not specified in data
+PBBNZJ_4	Ependymoma, NOS	Brain, NOS	1712	diagnosis	phs002790_PBBNZJ_PBBNZJ_4	phs002790_PBBNZJ	Not specified in data
+PBBTNG_4	Rhabdomyosarcoma, NOS	Unknown primary site	3720	diagnosis	phs002790_PBBTNG_PBBTNG_4	phs002790_PBBTNG	Not specified in data
+PBBMEG_4	Ependymoma, NOS	Frontal lobe	646	diagnosis	phs002790_PBBMEG_PBBMEG_4	phs002790_PBBMEG	Not specified in data
+PBBUJJ_4	Medulloblastoma, NOS	Overlapping lesion of brain and central nervous system	2212	diagnosis	phs002790_PBBUJJ_PBBUJJ_4	phs002790_PBBUJJ	Not specified in data
+PBBKIA_4	Dysembryoplastic neuroepithelial tumor	Temporal lobe	1752	diagnosis	phs002790_PBBKIA_PBBKIA_4	phs002790_PBBKIA	Not specified in data
+PBBPCL_4	Pilocytic astrocytoma	Brain, NOS	1959	diagnosis	phs002790_PBBPCL_PBBPCL_4	phs002790_PBBPCL	Not specified in data
+PBBPKG_4	Papillary carcinoma, NOS	Thyroid Gland	6337	diagnosis	phs002790_PBBPKG_PBBPKG_4	phs002790_PBBPKG	Not specified in data
+PBBRYT_4	Medulloblastoma, NOS	Brain, NOS	5510	diagnosis	phs002790_PBBRYT_PBBRYT_4	phs002790_PBBRYT	Not specified in data
+PBBNAU_4	Medulloblastoma, NOS	Brain, NOS	4799	diagnosis	phs002790_PBBNAU_PBBNAU_4	phs002790_PBBNAU	Not specified in data
+PBBMJZ_4	Astrocytoma, NOS	Brain, NOS	3105	diagnosis	phs002790_PBBMJZ_PBBMJZ_4	phs002790_PBBMJZ	Not specified in data
+PBBSUL_4	Ganglioneuroma	Ventricle, NOS	3677	diagnosis	phs002790_PBBSUL_PBBSUL_4	phs002790_PBBSUL	Not specified in data
+PBBHHZ_4	Medulloblastoma, NOS	Cerebellum, NOS	2780	diagnosis	phs002790_PBBHHZ_PBBHHZ_4	phs002790_PBBHHZ	Not specified in data
+PBBSSK_4	Neuroendocrine carcinoma, NOS	Mandible	8656	diagnosis	phs002790_PBBSSK_PBBSSK_4	phs002790_PBBSSK	Not specified in data
+PBBMVS_4	Rhabdoid tumor, NOS	Pharynx, NOS	781	diagnosis	phs002790_PBBMVS_PBBMVS_4	phs002790_PBBMVS	Not specified in data
+PBBKVB_4	Neoplasm, uncertain whether benign or malignant	Brain, NOS	5445	diagnosis	phs002790_PBBKVB_PBBKVB_4	phs002790_PBBKVB	Not specified in data
+PBBSWU_4	Germ cell tumor, nonseminomatous	Pituitary gland	3610	diagnosis	phs002790_PBBSWU_PBBSWU_4	phs002790_PBBSWU	Not specified in data
+PBBTNX_4	Granulosa cell tumor, juvenile	Ovary	5531	diagnosis	phs002790_PBBTNX_PBBTNX_4	phs002790_PBBTNX	Not specified in data
+PBBLYB_4	Neoplasm, uncertain whether benign or malignant	Brain, NOS	3690	diagnosis	phs002790_PBBLYB_PBBLYB_4	phs002790_PBBLYB	Not specified in data
+PBBSTE_4	Ganglioglioma, NOS	Temporal lobe	5493	diagnosis	phs002790_PBBSTE_PBBSTE_4	phs002790_PBBSTE	Not specified in data
+PBBTCS_4	Glioma, malignant	Brain, NOS	7402	diagnosis	phs002790_PBBTCS_PBBTCS_4	phs002790_PBBTCS	Not specified in data
+PBBSRV_4	Angiomatoid fibrous histiocytoma	Connective, subcutaneous and other soft tissues of pelvis	3332	diagnosis	phs002790_PBBSRV_PBBSRV_4	phs002790_PBBSRV	Not specified in data
+PBBPAA_4	Glioma, malignant	Brain, NOS	3828	diagnosis	phs002790_PBBPAA_PBBPAA_4	phs002790_PBBPAA	Not specified in data
+PBBMZY_4	Neoplasm, uncertain whether benign or malignant	Cerebellum, NOS	950	diagnosis	phs002790_PBBMZY_PBBMZY_4	phs002790_PBBMZY	Not specified in data
+PBBRCF_4	Embryonal rhabdomyosarcoma, NOS	Testis, NOS	6610	diagnosis	phs002790_PBBRCF_PBBRCF_4	phs002790_PBBRCF	Not specified in data
+PBBNWV_4	Ependymoma, NOS	Cerebellum, NOS	1616	diagnosis	phs002790_PBBNWV_PBBNWV_4	phs002790_PBBNWV	Not specified in data
+PBBLES_4	Craniopharyngioma, adamantinomatous	Brain, NOS	1721	diagnosis	phs002790_PBBLES_PBBLES_4	phs002790_PBBLES	Not specified in data
+PBBPXA_4	Carcinoma, metastatic, NOS	Lateral wall of nasopharynx	6016	diagnosis	phs002790_PBBPXA_PBBPXA_4	phs002790_PBBPXA	Not specified in data
+PBBJGY_4	Ganglioglioma, NOS	Spinal cord	2116	diagnosis	phs002790_PBBJGY_PBBJGY_4	phs002790_PBBJGY	Not specified in data
+PBBRLX_4	Pilocytic astrocytoma	Brain, NOS	1993	diagnosis	phs002790_PBBRLX_PBBRLX_4	phs002790_PBBRLX	Not specified in data
+PBBNPJ_4	Sarcoma, NOS	Connective, subcutaneous and other soft tissues of lower limb and hip	4510	diagnosis	phs002790_PBBNPJ_PBBNPJ_4	phs002790_PBBNPJ	Not specified in data
+PBBMAR_4	Central neurocytoma	Brain, NOS	3297	diagnosis	phs002790_PBBMAR_PBBMAR_4	phs002790_PBBMAR	Not specified in data
+PBBPGU_4	Astrocytoma, NOS	Brain, NOS	5578	diagnosis	phs002790_PBBPGU_PBBPGU_4	phs002790_PBBPGU	Not specified in data
+PBBUET_4	Medulloblastoma, NOS	Cerebellum, NOS	4621	diagnosis	phs002790_PBBUET_PBBUET_4	phs002790_PBBUET	Not specified in data
+PBBMFU_5	Glioma, malignant	Brain, NOS	2139	diagnosis	phs002790_PBBMFU_PBBMFU_5	phs002790_PBBMFU	Not specified in data
+PBBPSZ_4	Papillary carcinoma, NOS	Thyroid Gland	6803	diagnosis	phs002790_PBBPSZ_PBBPSZ_4	phs002790_PBBPSZ	Not specified in data
+PBBSIL_4	Astrocytoma, NOS	Pineal gland	4620	diagnosis	phs002790_PBBSIL_PBBSIL_4	phs002790_PBBSIL	Not specified in data
+PBBSIH_4	Ependymoma, NOS	Brain, NOS	3086	diagnosis	phs002790_PBBSIH_PBBSIH_4	phs002790_PBBSIH	Not specified in data
+PBBKJI_4	Neoplasm, uncertain whether benign or malignant	Brain, NOS	1766	diagnosis	phs002790_PBBKJI_PBBKJI_4	phs002790_PBBKJI	Not specified in data
+PBBTPZ_4	Astrocytoma, NOS	Frontal lobe	7743	diagnosis	phs002790_PBBTPZ_PBBTPZ_4	phs002790_PBBTPZ	Not specified in data
+PBBNFH_4	Pilocytic astrocytoma	Spinal cord	4278	diagnosis	phs002790_PBBNFH_PBBNFH_4	phs002790_PBBNFH	Not specified in data
+PBBPTU_4	Glioma, malignant	Brain, NOS	3457	diagnosis	phs002790_PBBPTU_PBBPTU_4	phs002790_PBBPTU	Not specified in data
+PBBNBU_5	Spindle cell sarcoma	Connective, subcutaneous and other soft tissues of lower limb and hip	5286	diagnosis	phs002790_PBBNBU_PBBNBU_5	phs002790_PBBNBU	Not specified in data
+PBBIVB_4	Glioma, malignant	Brain, NOS	5064	diagnosis	phs002790_PBBIVB_PBBIVB_4	phs002790_PBBIVB	Not specified in data
+PBBUHP_4	Neoplasm, uncertain whether benign or malignant	Brain, NOS	1967	diagnosis	phs002790_PBBUHP_PBBUHP_4	phs002790_PBBUHP	Not specified in data
+PBBSNL_4	Ependymoma, NOS	Brain, NOS	4799	diagnosis	phs002790_PBBSNL_PBBSNL_4	phs002790_PBBSNL	Not specified in data
+PBBLZF_4	Tumor cells, malignant	Frontal lobe	1206	diagnosis	phs002790_PBBLZF_PBBLZF_4	phs002790_PBBLZF	Not specified in data
+PBBRVM_4	Ependymoma, NOS	Brain, NOS	1553	diagnosis	phs002790_PBBRVM_PBBRVM_4	phs002790_PBBRVM	Not specified in data
+PBBTNR_4	Pilocytic astrocytoma	Brain, NOS	4688	diagnosis	phs002790_PBBTNR_PBBTNR_4	phs002790_PBBTNR	Not specified in data
+PBBHYD_4	Ependymoma, NOS	Brain stem	690	diagnosis	phs002790_PBBHYD_PBBHYD_4	phs002790_PBBHYD	Not specified in data
+PBBISR_4	Ependymoma, anaplastic	Frontal lobe	5739	diagnosis	phs002790_PBBISR_PBBISR_4	phs002790_PBBISR	Not specified in data
+PBBRGM_4	Embryonal rhabdomyosarcoma, NOS	Orbit, NOS	1889	diagnosis	phs002790_PBBRGM_PBBRGM_4	phs002790_PBBRGM	Not specified in data
+PBBRIL_4	Ganglioglioma, NOS	Brain, NOS	2307	diagnosis	phs002790_PBBRIL_PBBRIL_4	phs002790_PBBRIL	Not specified in data
+PBBUKY_4	Medulloblastoma, NOS	Cerebellum, NOS	3667	diagnosis	phs002790_PBBUKY_PBBUKY_4	phs002790_PBBUKY	Not specified in data
+PBBIMX_4	Neoplasm, benign	Brain, NOS	542	diagnosis	phs002790_PBBIMX_PBBIMX_4	phs002790_PBBIMX	Not specified in data
+PBBKXJ_4	Dysembryoplastic neuroepithelial tumor	Brain, NOS	2495	diagnosis	phs002790_PBBKXJ_PBBKXJ_4	phs002790_PBBKXJ	Not specified in data
+PBBPZW_4	Pilocytic astrocytoma	Brain, NOS	4129	diagnosis	phs002790_PBBPZW_PBBPZW_4	phs002790_PBBPZW	Not specified in data
+PBBSAX_4	Pilocytic astrocytoma	Brain stem	6031	diagnosis	phs002790_PBBSAX_PBBSAX_4	phs002790_PBBSAX	Not specified in data
+PBBMZU_4	Neoplasm, uncertain whether benign or malignant	Brain, NOS	1044	diagnosis	phs002790_PBBMZU_PBBMZU_4	phs002790_PBBMZU	Not specified in data
+PBBPVS_4	Rhabdomyosarcoma, NOS	Pelvis, NOS	6292	diagnosis	phs002790_PBBPVS_PBBPVS_4	phs002790_PBBPVS	Not specified in data
+PBBRIE_4	Pleomorphic liposarcoma	Long bones of lower limb and associated joints	5904	diagnosis	phs002790_PBBRIE_PBBRIE_4	phs002790_PBBRIE	Not specified in data
+PBBRKP_4	Glioma, malignant	Cerebellum, NOS	1770	diagnosis	phs002790_PBBRKP_PBBRKP_4	phs002790_PBBRKP	Not specified in data
+PBBRBY_4	Myxoid liposarcoma	Connective, subcutaneous and other soft tissues of lower limb and hip	6089	diagnosis	phs002790_PBBRBY_PBBRBY_4	phs002790_PBBRBY	Not specified in data
+PBBPDF_4	Pilocytic astrocytoma	Brain, NOS	4451	diagnosis	phs002790_PBBPDF_PBBPDF_4	phs002790_PBBPDF	Not specified in data
+PBBKAF_4	Astrocytoma, NOS	Cerebellum, NOS	2590	diagnosis	phs002790_PBBKAF_PBBKAF_4	phs002790_PBBKAF	Not specified in data
+PBBTRI_4	Glioma, malignant	Brain, NOS	6153	diagnosis	phs002790_PBBTRI_PBBTRI_4	phs002790_PBBTRI	Not specified in data
+PBBPNE_4	Pilocytic astrocytoma	Cerebellum, NOS	5371	diagnosis	phs002790_PBBPNE_PBBPNE_4	phs002790_PBBPNE	Not specified in data
+PBBLFD_4	Neoplasm, malignant	Brain, NOS	3248	diagnosis	phs002790_PBBLFD_PBBLFD_4	phs002790_PBBLFD	Not specified in data
+PBBSCI_4	Pilocytic astrocytoma	Brain, NOS	2851	diagnosis	phs002790_PBBSCI_PBBSCI_4	phs002790_PBBSCI	Not specified in data
+PBBTZY_4	Pilocytic astrocytoma	Cerebellum, NOS	984	diagnosis	phs002790_PBBTZY_PBBTZY_4	phs002790_PBBTZY	Not specified in data
+PBBRXN_4	Ganglioglioma, NOS	Brain, NOS	6322	diagnosis	phs002790_PBBRXN_PBBRXN_4	phs002790_PBBRXN	Not specified in data
+PBBMFF_4	Malignant peripheral nerve sheath tumor, NOS	Peripheral nerves and autonomic nervous system of upper limb and shoulder	7719	diagnosis	phs002790_PBBMFF_PBBMFF_4	phs002790_PBBMFF	Not specified in data
+PBBUBZ_4	Neoplasm, malignant	Brain, NOS	1413	diagnosis	phs002790_PBBUBZ_PBBUBZ_4	phs002790_PBBUBZ	Not specified in data
+PBBSUU_4	Rhabdomyosarcoma, NOS	Head, face or neck, NOS	3963	diagnosis	phs002790_PBBSUU_PBBSUU_4	phs002790_PBBSUU	Not specified in data
+PBBTAK_5	Embryonal rhabdomyosarcoma, NOS	Connective, subcutaneous and other soft tissues of pelvis	287	diagnosis	phs002790_PBBTAK_PBBTAK_5	phs002790_PBBTAK	Not specified in data
+PBBRBI_4	Ewing sarcoma	Pelvis, NOS	6219	diagnosis	phs002790_PBBRBI_PBBRBI_4	phs002790_PBBRBI	Not specified in data
+PBBMZW_4	Glioma, malignant	Frontal lobe	8140	diagnosis	phs002790_PBBMZW_PBBMZW_4	phs002790_PBBMZW	Not specified in data
+PBBIUS_4	Glioma, malignant	Brain, NOS	3695	diagnosis	phs002790_PBBIUS_PBBIUS_4	phs002790_PBBIUS	Not specified in data
+PBBPUC_4	Glioma, malignant	Brain, NOS	6632	diagnosis	phs002790_PBBPUC_PBBPUC_4	phs002790_PBBPUC	Not specified in data
+PBBLDX_4	Pilocytic astrocytoma	Brain, NOS	3999	diagnosis	phs002790_PBBLDX_PBBLDX_4	phs002790_PBBLDX	Not specified in data
+PBBRDL_4	Embryonal rhabdomyosarcoma, NOS	Soft palate, NOS (excludes nasopharyngeal surface of soft palate C11.3)	5762	diagnosis	phs002790_PBBRDL_PBBRDL_4	phs002790_PBBRDL	Not specified in data
+PBBUJZ_4	Neoplasm, malignant	Cerebrum	93	diagnosis	phs002790_PBBUJZ_PBBUJZ_4	phs002790_PBBUJZ	Not specified in data
+PBBNSZ_4	Papillary carcinoma, NOS	Thyroid Gland	3802	diagnosis	phs002790_PBBNSZ_PBBNSZ_4	phs002790_PBBNSZ	Not specified in data
+PBBNMG_4	Embryonal rhabdomyosarcoma, NOS	Ovary	6524	diagnosis	phs002790_PBBNMG_PBBNMG_4	phs002790_PBBNMG	Not specified in data
+PBBIJB_4	Ganglioglioma, NOS	Parietal lobe	6257	diagnosis	phs002790_PBBIJB_PBBIJB_4	phs002790_PBBIJB	Not specified in data
+PBBJTC_4	Atypical teratoid/rhabdoid tumor	Brain, NOS	669	diagnosis	phs002790_PBBJTC_PBBJTC_4	phs002790_PBBJTC	Not specified in data
+PBBLBD_4	Germ cell tumor, nonseminomatous	Brain, NOS	4249	diagnosis	phs002790_PBBLBD_PBBLBD_4	phs002790_PBBLBD	Not specified in data
+PBBNTY_4	Glioma, malignant	Temporal lobe	1513	diagnosis	phs002790_PBBNTY_PBBNTY_4	phs002790_PBBNTY	Not specified in data
+PBBKSP_4	Rhabdoid tumor, NOS	Brain stem	1816	diagnosis	phs002790_PBBKSP_PBBKSP_4	phs002790_PBBKSP	Not specified in data
+PBBIIF_4	Pilocytic astrocytoma	Brain, NOS	6268	diagnosis	phs002790_PBBIIF_PBBIIF_4	phs002790_PBBIIF	Not specified in data
+PBBNXU_4	Osteosarcoma, NOS	Long bones of upper limb, scapula and  associated joints	5957	diagnosis	phs002790_PBBNXU_PBBNXU_4	phs002790_PBBNXU	Not specified in data
+PBBPAP_4	Glioma, malignant	Brain, NOS	269	diagnosis	phs002790_PBBPAP_PBBPAP_4	phs002790_PBBPAP	Not specified in data
+PBBPYD_4	Adrenal cortical carcinoma	Adrenal gland, NOS	5533	diagnosis	phs002790_PBBPYD_PBBPYD_4	phs002790_PBBPYD	Not specified in data
+PBBTYK_4	Unknown, to be completed later	Brain, NOS	5871	diagnosis	phs002790_PBBTYK_PBBTYK_4	phs002790_PBBTYK	Not specified in data
+PBBMAX_4	Medulloblastoma, NOS	Brain, NOS	5431	diagnosis	phs002790_PBBMAX_PBBMAX_4	phs002790_PBBMAX	Not specified in data
+PBBPTC_4	Myofibroma	Abdomen, NOS	261	diagnosis	phs002790_PBBPTC_PBBPTC_4	phs002790_PBBPTC	Not specified in data
+PBBIPL_4	Pilocytic astrocytoma	Cerebellum, NOS	4377	diagnosis	phs002790_PBBIPL_PBBIPL_4	phs002790_PBBIPL	Not specified in data
+PBBSEP_4	Neoplasm, uncertain whether benign or malignant	Brain, NOS	5580	diagnosis	phs002790_PBBSEP_PBBSEP_4	phs002790_PBBSEP	Not specified in data
+PBBJIA_4	Astrocytoma, NOS	Spinal cord	4976	diagnosis	phs002790_PBBJIA_PBBJIA_4	phs002790_PBBJIA	Not specified in data
+PBBSWK_4	Papillary carcinoma, NOS	Thyroid Gland	6682	diagnosis	phs002790_PBBSWK_PBBSWK_4	phs002790_PBBSWK	Not specified in data
+PBBMKK_4	Medulloblastoma, NOS	Cerebellum, NOS	5147	diagnosis	phs002790_PBBMKK_PBBMKK_4	phs002790_PBBMKK	Not specified in data
+PBBPJN_4	Medulloblastoma, NOS	Cerebellum, NOS	2869	diagnosis	phs002790_PBBPJN_PBBPJN_4	phs002790_PBBPJN	Not specified in data
+PBBRYA_4	Glioma, malignant	Brain, NOS	2176	diagnosis	phs002790_PBBRYA_PBBRYA_4	phs002790_PBBRYA	Not specified in data
+PBBJAU_4	Unknown, to be completed later	Brain, NOS	287	diagnosis	phs002790_PBBJAU_PBBJAU_4	phs002790_PBBJAU	Not specified in data
+PBBMFM_4	Small cell sarcoma	Abdomen, NOS	6598	diagnosis	phs002790_PBBMFM_PBBMFM_4	phs002790_PBBMFM	Not specified in data
+PBBMPD_4	Pilocytic astrocytoma	Brain stem	6226	diagnosis	phs002790_PBBMPD_PBBMPD_4	phs002790_PBBMPD	Not specified in data
+PBBPPA_4	Dysembryoplastic neuroepithelial tumor	Brain, NOS	4299	diagnosis	phs002790_PBBPPA_PBBPPA_4	phs002790_PBBPPA	Not specified in data
+PBBMNW_4	Glioma, malignant	Brain, NOS	870	diagnosis	phs002790_PBBMNW_PBBMNW_4	phs002790_PBBMNW	Not specified in data
+PBBNSG_5	Ganglioglioma, NOS	Temporal lobe	2387	diagnosis	phs002790_PBBNSG_PBBNSG_5	phs002790_PBBNSG	Not specified in data
+PBBNJH_4	Pilocytic astrocytoma	Temporal lobe	3278	diagnosis	phs002790_PBBNJH_PBBNJH_4	phs002790_PBBNJH	Not specified in data
+PBBSFM_4	Pilocytic astrocytoma	Brain, NOS	4758	diagnosis	phs002790_PBBSFM_PBBSFM_4	phs002790_PBBSFM	Not specified in data
+PBBNVP_4	Ewing sarcoma	Connective, subcutaneous and other soft tissues of lower limb and hip	4555	diagnosis	phs002790_PBBNVP_PBBNVP_4	phs002790_PBBNVP	Not specified in data
+PBBKBT_4	Glioma, malignant	Brain, NOS	1759	diagnosis	phs002790_PBBKBT_PBBKBT_4	phs002790_PBBKBT	Not specified in data
+PBBLEW_4	Medulloblastoma, NOS	Cerebellum, NOS	2466	diagnosis	phs002790_PBBLEW_PBBLEW_4	phs002790_PBBLEW	Not specified in data
+PBBMCN_4	Astrocytoma, NOS	Brain, NOS	239	diagnosis	phs002790_PBBMCN_PBBMCN_4	phs002790_PBBMCN	Not specified in data
+PBBTCV_4	Glioma, malignant	Cerebrum	3266	diagnosis	phs002790_PBBTCV_PBBTCV_4	phs002790_PBBTCV	Not specified in data
+PBBNRK_4	Medulloblastoma, NOS	Brain stem	519	diagnosis	phs002790_PBBNRK_PBBNRK_4	phs002790_PBBNRK	Not specified in data
+PBBUCX_4	Glioma, malignant	Brain, NOS	5242	diagnosis	phs002790_PBBUCX_PBBUCX_4	phs002790_PBBUCX	Not specified in data
+PBBUFE_4	Melanoma in situ	Skin, NOS (excludes skin of labia majora C51.0, skin of vulva C51.9, skin of penis C60.9 and skin of scrotum C63.2)	6313	diagnosis	phs002790_PBBUFE_PBBUFE_4	phs002790_PBBUFE	Not specified in data
+PBBKCL_4	Craniopharyngioma, adamantinomatous	Brain, NOS	4966	diagnosis	phs002790_PBBKCL_PBBKCL_4	phs002790_PBBKCL	Not specified in data
+PBBLIA_4	Ependymoma, NOS	Brain, NOS	2975	diagnosis	phs002790_PBBLIA_PBBLIA_4	phs002790_PBBLIA	Not specified in data
+PBBKKX_4	Glioma, malignant	Overlapping lesion of brain	2456	diagnosis	phs002790_PBBKKX_PBBKKX_4	phs002790_PBBKKX	Not specified in data
+PBBNFL_4	Pilocytic astrocytoma	Cerebellum, NOS	1469	diagnosis	phs002790_PBBNFL_PBBNFL_4	phs002790_PBBNFL	Not specified in data
+PBBSUN_4	Alveolar rhabdomyosarcoma	Lower limb, NOS	559	diagnosis	phs002790_PBBSUN_PBBSUN_4	phs002790_PBBSUN	Not specified in data
+PBBTTX_4	Pineoblastoma	Pineal gland	1029	diagnosis	phs002790_PBBTTX_PBBTTX_4	phs002790_PBBTTX	Not specified in data
+PBBIDZ_4	Ependymoma, NOS	Spinal cord	3798	diagnosis	phs002790_PBBIDZ_PBBIDZ_4	phs002790_PBBIDZ	Not specified in data
+PBBPKN_4	Embryonal rhabdomyosarcoma, NOS	Testis, NOS	7576	diagnosis	phs002790_PBBPKN_PBBPKN_4	phs002790_PBBPKN	Not specified in data
+PBBMYJ_4	Glioma, malignant	Brain, NOS	1675	diagnosis	phs002790_PBBMYJ_PBBMYJ_4	phs002790_PBBMYJ	Not specified in data
+PBBKMV_4	Unknown, to be completed later	Brain, NOS	2483	diagnosis	phs002790_PBBKMV_PBBKMV_4	phs002790_PBBKMV	Not specified in data
+PBBNND_4	Germinoma	Cerebrum	4269	diagnosis	phs002790_PBBNND_PBBNND_4	phs002790_PBBNND	Not specified in data
+PBBPMJ_4	Ependymoma, NOS	Brain, NOS	399	diagnosis	phs002790_PBBPMJ_PBBPMJ_4	phs002790_PBBPMJ	Not specified in data
+PBBNDK_4	Dermatofibroma, NOS	Lower limb, NOS	3053	diagnosis	phs002790_PBBNDK_PBBNDK_4	phs002790_PBBNDK	Not specified in data
+PBBTJR_4	Glioma, malignant	Brain, NOS	4	diagnosis	phs002790_PBBTJR_PBBTJR_4	phs002790_PBBTJR	Not specified in data
+PBBTTS_4	Alveolar rhabdomyosarcoma	Upper limb, NOS	1414	diagnosis	phs002790_PBBTTS_PBBTTS_4	phs002790_PBBTTS	Not specified in data
+PBBLBT_4	Medulloblastoma, NOS	Brain, NOS	1618	diagnosis	phs002790_PBBLBT_PBBLBT_4	phs002790_PBBLBT	Not specified in data
+PBBTBM_4	Aggressive fibromatosis	Connective, subcutaneous and other soft tissues of lower limb and hip	4563	diagnosis	phs002790_PBBTBM_PBBTBM_4	phs002790_PBBTBM	Not specified in data
+PBBTDD_4	Embryonal rhabdomyosarcoma, NOS	Pelvis, NOS	4160	diagnosis	phs002790_PBBTDD_PBBTDD_4	phs002790_PBBTDD	Not specified in data
+PBBMLH_4	Glioma, malignant	Frontal lobe	1139	diagnosis	phs002790_PBBMLH_PBBMLH_4	phs002790_PBBMLH	Not specified in data
+PBBJNW_4	Medulloblastoma, NOS	Brain, NOS	3050	diagnosis	phs002790_PBBJNW_PBBJNW_4	phs002790_PBBJNW	Not specified in data
+PBBLFI_4	Embryonal rhabdomyosarcoma, NOS	Orbit, NOS	2567	diagnosis	phs002790_PBBLFI_PBBLFI_4	phs002790_PBBLFI	Not specified in data
+PBBRGE_4	Glioma, malignant	Brain, NOS	1527	diagnosis	phs002790_PBBRGE_PBBRGE_4	phs002790_PBBRGE	Not specified in data
+PBBPHZ_4	Ependymoma, NOS	Brain, NOS	433	diagnosis	phs002790_PBBPHZ_PBBPHZ_4	phs002790_PBBPHZ	Not specified in data
+PBBTLT_4	Pilocytic astrocytoma	Cerebellum, NOS	2062	diagnosis	phs002790_PBBTLT_PBBTLT_4	phs002790_PBBTLT	Not specified in data
+PBBUEX_4	Glioma, malignant	Brain, NOS	2094	diagnosis	phs002790_PBBUEX_PBBUEX_4	phs002790_PBBUEX	Not specified in data
+PBBSRT_4	Glioma, malignant	Brain, NOS	64	diagnosis	phs002790_PBBSRT_PBBSRT_4	phs002790_PBBSRT	Not specified in data
+PBBUFM_4	Pilocytic astrocytoma	Brain, NOS	369	diagnosis	phs002790_PBBUFM_PBBUFM_4	phs002790_PBBUFM	Not specified in data
+PBBTHI_4	Neoplasm, malignant	Brain, NOS	3567	diagnosis	phs002790_PBBTHI_PBBTHI_4	phs002790_PBBTHI	Not specified in data
+PBBSSV_4	Embryonal rhabdomyosarcoma, NOS	Descended testis	5490	diagnosis	phs002790_PBBSSV_PBBSSV_4	phs002790_PBBSSV	Not specified in data
+PBBPFA_4	Medulloblastoma, NOS	Brain stem	2650	diagnosis	phs002790_PBBPFA_PBBPFA_4	phs002790_PBBPFA	Not specified in data
+PBBIDL_4	Neoplasm, metastatic	Brain, NOS	332	diagnosis	phs002790_PBBIDL_PBBIDL_4	phs002790_PBBIDL	Not specified in data
+PBBPNK_4	Pilocytic astrocytoma	Brain, NOS	3432	diagnosis	phs002790_PBBPNK_PBBPNK_4	phs002790_PBBPNK	Not specified in data
+PBBKTU_4	Glioma, malignant	Brain, NOS	3627	diagnosis	phs002790_PBBKTU_PBBKTU_4	phs002790_PBBKTU	Not specified in data
+PBBLUX_4	Embryonal rhabdomyosarcoma, NOS	Testis, NOS	373	diagnosis	phs002790_PBBLUX_PBBLUX_4	phs002790_PBBLUX	Not specified in data
+PBBRLU_4	Pilocytic astrocytoma	Brain, NOS	1794	diagnosis	phs002790_PBBRLU_PBBRLU_4	phs002790_PBBRLU	Not specified in data
+PBBIDT_4	Neoplasm, malignant	Brain, NOS	3814	diagnosis	phs002790_PBBIDT_PBBIDT_4	phs002790_PBBIDT	Not specified in data
+PBBRDM_4	Choroid plexus papilloma, NOS	Brain, NOS	1477	diagnosis	phs002790_PBBRDM_PBBRDM_4	phs002790_PBBRDM	Not specified in data
+PBBPGJ_4	Glioma, malignant	Brain, NOS	594	diagnosis	phs002790_PBBPGJ_PBBPGJ_4	phs002790_PBBPGJ	Not specified in data
+PBBTSD_4	Neoplasm, malignant	Brain, NOS	4142	diagnosis	phs002790_PBBTSD_PBBTSD_4	phs002790_PBBTSD	Not specified in data
+PBBPEU_4	Medulloblastoma, NOS	Brain, NOS	2364	diagnosis	phs002790_PBBPEU_PBBPEU_4	phs002790_PBBPEU	Not specified in data
+PBBRPL_4	Glioblastoma, NOS	Overlapping lesion of brain and central nervous system	5438	diagnosis	phs002790_PBBRPL_PBBRPL_4	phs002790_PBBRPL	Not specified in data
+PBBKUH_4	Astrocytoma, NOS	Brain, NOS	969	diagnosis	phs002790_PBBKUH_PBBKUH_4	phs002790_PBBKUH	Not specified in data
+PBBLXX_4	Ependymoma, NOS	Brain, NOS	375	diagnosis	phs002790_PBBLXX_PBBLXX_4	phs002790_PBBLXX	Not specified in data
+PBBRLS_4	Carcinoma in situ, NOS	Larynx, NOS	8910	diagnosis	phs002790_PBBRLS_PBBRLS_4	phs002790_PBBRLS	Not specified in data
+PBBUGL_4	Pilocytic astrocytoma	Cerebellum, NOS	4361	diagnosis	phs002790_PBBUGL_PBBUGL_4	phs002790_PBBUGL	Not specified in data
+PBBUKU_4	Neoplasm, malignant	Ventricle, NOS	745	diagnosis	phs002790_PBBUKU_PBBUKU_4	phs002790_PBBUKU	Not specified in data
+PBBPPC_4	Alveolar rhabdomyosarcoma	Nasal cavity (excludes nose, NOS C76.0)	4656	diagnosis	phs002790_PBBPPC_PBBPPC_4	phs002790_PBBPPC	Not specified in data
+PBBRFJ_4	Alveolar rhabdomyosarcoma	Connective, subcutaneous and other soft tissues, NOS	4025	diagnosis	phs002790_PBBRFJ_PBBRFJ_4	phs002790_PBBRFJ	Not specified in data
+PBBMAB_4	Unknown, to be completed later	Abdomen, NOS	6516	diagnosis	phs002790_PBBMAB_PBBMAB_4	phs002790_PBBMAB	Not specified in data
+PBBTLY_4	Medulloblastoma, NOS	Ventricle, NOS	1807	diagnosis	phs002790_PBBTLY_PBBTLY_4	phs002790_PBBTLY	Not specified in data
+PBBIKD_4	CNS embryonal tumor, NOS	Brain, NOS	2365	diagnosis	phs002790_PBBIKD_PBBIKD_4	phs002790_PBBIKD	Not specified in data
+PBBTCY_4	CNS embryonal tumor, NOS	Frontal lobe	1603	diagnosis	phs002790_PBBTCY_PBBTCY_4	phs002790_PBBTCY	Not specified in data
+PBBSDA_4	Rhabdomyosarcoma, NOS	Prostate Gland	2379	diagnosis	phs002790_PBBSDA_PBBSDA_4	phs002790_PBBSDA	Not specified in data
+PBBUBL_4	Craniopharyngioma	Brain, NOS	1920	diagnosis	phs002790_PBBUBL_PBBUBL_4	phs002790_PBBUBL	Not specified in data
+PBBIHD_4	Glioma, malignant	Brain, NOS	1701	diagnosis	phs002790_PBBIHD_PBBIHD_4	phs002790_PBBIHD	Not specified in data
+PBBLHT_4	Glioma, malignant	Brain stem	3324	diagnosis	phs002790_PBBLHT_PBBLHT_4	phs002790_PBBLHT	Not specified in data
+PBBJTB_4	Neoplasm, benign	Optic nerve	4487	diagnosis	phs002790_PBBJTB_PBBJTB_4	phs002790_PBBJTB	Not specified in data
+PBBLKA_4	Pilocytic astrocytoma	Brain, NOS	2836	diagnosis	phs002790_PBBLKA_PBBLKA_4	phs002790_PBBLKA	Not specified in data
+PBBSCK_4	Sarcoma, NOS	Base of tongue, NOS	5919	diagnosis	phs002790_PBBSCK_PBBSCK_4	phs002790_PBBSCK	Not specified in data
+PBBKAW_4	Glioma, malignant	Cerebellum, NOS	1117	diagnosis	phs002790_PBBKAW_PBBKAW_4	phs002790_PBBKAW	Not specified in data
+PBBSED_4	Leiomyosarcoma, NOS	Thorax, NOS	2640	diagnosis	phs002790_PBBSED_PBBSED_4	phs002790_PBBSED	Not specified in data
+PBBPJV_4	Rhabdomyosarcoma, NOS	Eyelid	2241	diagnosis	phs002790_PBBPJV_PBBPJV_4	phs002790_PBBPJV	Not specified in data
+PBBRUP_4	Undifferentiated sarcoma	Connective, subcutaneous and other soft tissues, NOS	265	diagnosis	phs002790_PBBRUP_PBBRUP_4	phs002790_PBBRUP	Not specified in data
+PBBRKN_4	Pilocytic astrocytoma	Brain stem	4246	diagnosis	phs002790_PBBRKN_PBBRKN_4	phs002790_PBBRKN	Not specified in data
+PBBTYG_4	Unknown, to be completed later	Brain, NOS	2999	diagnosis	phs002790_PBBTYG_PBBTYG_4	phs002790_PBBTYG	Not specified in data
+PBBUJL_4	Malignant melanoma, NOS	Skin of lower limb and hip	3793	diagnosis	phs002790_PBBUJL_PBBUJL_4	phs002790_PBBUJL	Not specified in data
+PBBPMY_4	Spindle cell rhabdomyosarcoma	Thorax, NOS	3583	diagnosis	phs002790_PBBPMY_PBBPMY_4	phs002790_PBBPMY	Not specified in data
+PBBTFZ_4	Rhabdomyosarcoma, NOS	Lower limb, NOS	3833	diagnosis	phs002790_PBBTFZ_PBBTFZ_4	phs002790_PBBTFZ	Not specified in data
+PBBTPH_4	Neoplasm, uncertain whether benign or malignant	Eye, NOS	1270	diagnosis	phs002790_PBBTPH_PBBTPH_4	phs002790_PBBTPH	Not specified in data
+PBBRFM_4	Craniopharyngioma, adamantinomatous	Brain, NOS	2539	diagnosis	phs002790_PBBRFM_PBBRFM_4	phs002790_PBBRFM	Not specified in data
+PBBUKV_4	Pilocytic astrocytoma	Brain, NOS	2749	diagnosis	phs002790_PBBUKV_PBBUKV_4	phs002790_PBBUKV	Not specified in data
+PBBPMT_4	Pilocytic astrocytoma	Brain, NOS	4506	diagnosis	phs002790_PBBPMT_PBBPMT_4	phs002790_PBBPMT	Not specified in data
+PBBJRM_4	Pilocytic astrocytoma	Brain, NOS	1338	diagnosis	phs002790_PBBJRM_PBBJRM_4	phs002790_PBBJRM	Not specified in data
+PBBLPD_4	Medulloblastoma, NOS	Brain, NOS	1123	diagnosis	phs002790_PBBLPD_PBBLPD_4	phs002790_PBBLPD	Not specified in data
+PBBLPC_4	Pilocytic astrocytoma	Brain, NOS	4353	diagnosis	phs002790_PBBLPC_PBBLPC_4	phs002790_PBBLPC	Not specified in data
+PBBSVB_4	Alveolar rhabdomyosarcoma	Connective, subcutaneous and other soft tissues of pelvis	5544	diagnosis	phs002790_PBBSVB_PBBSVB_4	phs002790_PBBSVB	Not specified in data
+PBBSFA_4	Rhabdomyosarcoma, NOS	Eyelid	1250	diagnosis	phs002790_PBBSFA_PBBSFA_4	phs002790_PBBSFA	Not specified in data
+PBBLKT_4	Medulloblastoma, NOS	Brain, NOS	1343	diagnosis	phs002790_PBBLKT_PBBLKT_4	phs002790_PBBLKT	Not specified in data
+PBBKGA_4	Unknown, to be completed later	Brain, NOS	1755	diagnosis	phs002790_PBBKGA_PBBKGA_4	phs002790_PBBKGA	Not specified in data
+PBBRUJ_4	Glioma, malignant	Brain, NOS	7742	diagnosis	phs002790_PBBRUJ_PBBRUJ_4	phs002790_PBBRUJ	Not specified in data
+PBBLSD_4	Craniopharyngioma, adamantinomatous	Brain, NOS	2731	diagnosis	phs002790_PBBLSD_PBBLSD_4	phs002790_PBBLSD	Not specified in data
+PBBTHB_4	Ewing sarcoma	Lower limb, NOS	5498	diagnosis	phs002790_PBBTHB_PBBTHB_4	phs002790_PBBTHB	Not specified in data
+PBBRUR_4	Sertoli-Leydig cell tumor, poorly differentiated	Ovary	5155	diagnosis	phs002790_PBBRUR_PBBRUR_4	phs002790_PBBRUR	Not specified in data
+PBBUFI_4	Pilocytic astrocytoma	Brain, NOS	1555	diagnosis	phs002790_PBBUFI_PBBUFI_4	phs002790_PBBUFI	Not specified in data
+PBBMII_4	Ewing sarcoma	Kidney, NOS	3959	diagnosis	phs002790_PBBMII_PBBMII_4	phs002790_PBBMII	Not specified in data
+PBBRHM_4	Atypical choroid plexus papilloma	Brain, NOS	1445	diagnosis	phs002790_PBBRHM_PBBRHM_4	phs002790_PBBRHM	Not specified in data
+PBBNSB_4	Craniopharyngioma, adamantinomatous	Brain, NOS	3052	diagnosis	phs002790_PBBNSB_PBBNSB_4	phs002790_PBBNSB	Not specified in data
+PBBPEP_4	Synovial sarcoma, NOS	Thorax, NOS	3407	diagnosis	phs002790_PBBPEP_PBBPEP_4	phs002790_PBBPEP	Not specified in data
+PBBNPF_4	Medulloblastoma, NOS	Brain, NOS	3429	diagnosis	phs002790_PBBNPF_PBBNPF_4	phs002790_PBBNPF	Not specified in data
+PBBMYD_4	Glioma, malignant	Brain, NOS	6634	diagnosis	phs002790_PBBMYD_PBBMYD_4	phs002790_PBBMYD	Not specified in data
+PBBJWM_4	Neoplasm, benign	Brain, NOS	3546	diagnosis	phs002790_PBBJWM_PBBJWM_4	phs002790_PBBJWM	Not specified in data
+PBBSZP_4	Retinoblastoma, NOS	Eye, NOS	286	diagnosis	phs002790_PBBSZP_PBBSZP_4	phs002790_PBBSZP	Not specified in data
+PBBKXM_4	Ganglioglioma, NOS	Brain, NOS	6512	diagnosis	phs002790_PBBKXM_PBBKXM_4	phs002790_PBBKXM	Not specified in data
+PBBUGH_4	Neoplasm, uncertain whether benign or malignant	Cerebellum, NOS	4370	diagnosis	phs002790_PBBUGH_PBBUGH_4	phs002790_PBBUGH	Not specified in data
+PBBNDZ_4	Oligodendroglioma, NOS	Brain, NOS	8998	diagnosis	phs002790_PBBNDZ_PBBNDZ_4	phs002790_PBBNDZ	Not specified in data
+PBBRXF_4	Neoplasm, uncertain whether benign or malignant	Brain, NOS	1777	diagnosis	phs002790_PBBRXF_PBBRXF_4	phs002790_PBBRXF	Not specified in data
+PBBLGZ_4	Atypical choroid plexus papilloma	Choroid	152	diagnosis	phs002790_PBBLGZ_PBBLGZ_4	phs002790_PBBLGZ	Not specified in data
+PBBTVN_4	Neoplasm, malignant	Occipital lobe	779	diagnosis	phs002790_PBBTVN_PBBTVN_4	phs002790_PBBTVN	Not specified in data
+PBBTBL_4	Embryonal rhabdomyosarcoma, NOS	Vagina, NOS	3869	diagnosis	phs002790_PBBTBL_PBBTBL_4	phs002790_PBBTBL	Not specified in data
+PBBPVC_4	Glioma, malignant	Brain, NOS	4176	diagnosis	phs002790_PBBPVC_PBBPVC_4	phs002790_PBBPVC	Not specified in data
+PBBIGN_4	Glioma, malignant	Brain, NOS	97	diagnosis	phs002790_PBBIGN_PBBIGN_4	phs002790_PBBIGN	Not specified in data
+PBBPXU_4	Pilocytic astrocytoma	Brain, NOS	282	diagnosis	phs002790_PBBPXU_PBBPXU_4	phs002790_PBBPXU	Not specified in data
+PBBSYF_4	Medulloblastoma, NOS	Brain, NOS	5383	diagnosis	phs002790_PBBSYF_PBBSYF_4	phs002790_PBBSYF	Not specified in data
+PBBLNE_4	Pilocytic astrocytoma	Brain, NOS	1896	diagnosis	phs002790_PBBLNE_PBBLNE_4	phs002790_PBBLNE	Not specified in data
+PBBTVK_4	Glioma, malignant	Brain, NOS	4092	diagnosis	phs002790_PBBTVK_PBBTVK_4	phs002790_PBBTVK	Not specified in data
+PBBNRL_4	Neoplasm, malignant	Frontal lobe	791	diagnosis	phs002790_PBBNRL_PBBNRL_4	phs002790_PBBNRL	Not specified in data
+PBBSRJ_4	Alveolar rhabdomyosarcoma	Retroperitoneum	3740	diagnosis	phs002790_PBBSRJ_PBBSRJ_4	phs002790_PBBSRJ	Not specified in data
+PBBMJV_4	Germinoma	Pineal gland	5489	diagnosis	phs002790_PBBMJV_PBBMJV_4	phs002790_PBBMJV	Not specified in data
+PBBJKN_4	Medulloblastoma, NOS	Brain, NOS	1123	diagnosis	phs002790_PBBJKN_PBBJKN_4	phs002790_PBBJKN	Not specified in data
+PBBJNV_4	Glioma, malignant	Brain stem	4281	diagnosis	phs002790_PBBJNV_PBBJNV_4	phs002790_PBBJNV	Not specified in data
+PBBTYJ_4	Glioma, malignant	Brain, NOS	1864	diagnosis	phs002790_PBBTYJ_PBBTYJ_4	phs002790_PBBTYJ	Not specified in data
+PBBTYZ_4	Spindle cell rhabdomyosarcoma	Abdomen, NOS	744	diagnosis	phs002790_PBBTYZ_PBBTYZ_4	phs002790_PBBTYZ	Not specified in data
+PBBITF_4	Atypical choroid plexus papilloma	Ventricle, NOS	296	diagnosis	phs002790_PBBITF_PBBITF_4	phs002790_PBBITF	Not specified in data
+PBBSWG_4	Papillary carcinoma, NOS	Thyroid Gland	6543	diagnosis	phs002790_PBBSWG_PBBSWG_4	phs002790_PBBSWG	Not specified in data
+PBBTUR_4	Abdominal fibromatosis	Abdomen, NOS	6307	diagnosis	phs002790_PBBTUR_PBBTUR_4	phs002790_PBBTUR	Not specified in data
+PBBMPA_4	Neoplasm, uncertain whether benign or malignant	Frontal lobe	5350	diagnosis	phs002790_PBBMPA_PBBMPA_4	phs002790_PBBMPA	Not specified in data
+PBBRKB_4	Embryonal rhabdomyosarcoma, NOS	Scrotum, NOS	1308	diagnosis	phs002790_PBBRKB_PBBRKB_4	phs002790_PBBRKB	Not specified in data
+PBBTFL_4	Pinealoma	Pineal gland	5608	diagnosis	phs002790_PBBTFL_PBBTFL_4	phs002790_PBBTFL	Not specified in data
+PBBNXR_4	Pilocytic astrocytoma	Brain, NOS	4831	diagnosis	phs002790_PBBNXR_PBBNXR_4	phs002790_PBBNXR	Not specified in data
+PBBRLV_4	Medulloblastoma, NOS	Brain, NOS	250	diagnosis	phs002790_PBBRLV_PBBRLV_4	phs002790_PBBRLV	Not specified in data
+PBBTNU_4	Rhabdomyosarcoma, NOS	Testis, NOS	6074	diagnosis	phs002790_PBBTNU_PBBTNU_4	phs002790_PBBTNU	Not specified in data
+PBBMUT_4	Astrocytoma, NOS	Brain, NOS	4857	diagnosis	phs002790_PBBMUT_PBBMUT_4	phs002790_PBBMUT	Not specified in data
+PBBLSU_4	Smooth muscle tumor of uncertain malignant potential	Connective, subcutaneous and other soft tissues of trunk, NOS	526	diagnosis	phs002790_PBBLSU_PBBLSU_4	phs002790_PBBLSU	Not specified in data
+PBBIDB_4	Glioma, malignant	Overlapping lesion of brain	1501	diagnosis	phs002790_PBBIDB_PBBIDB_4	phs002790_PBBIDB	Not specified in data
+PBBMYI_4	Glioma, malignant	Brain, NOS	1040	diagnosis	phs002790_PBBMYI_PBBMYI_4	phs002790_PBBMYI	Not specified in data
+PBBTAE_4	Pilocytic astrocytoma	Brain, NOS	6220	diagnosis	phs002790_PBBTAE_PBBTAE_4	phs002790_PBBTAE	Not specified in data
+PBBTUE_4	Sarcoma, NOS	Connective, subcutaneous and other soft tissues, NOS	162	diagnosis	phs002790_PBBTUE_PBBTUE_4	phs002790_PBBTUE	Not specified in data
+PBBUEV_4	Embryonal rhabdomyosarcoma, NOS	Anterior wall of nasopharynx	3702	diagnosis	phs002790_PBBUEV_PBBUEV_4	phs002790_PBBUEV	Not specified in data
+PBBLKN_4	Medulloblastoma, NOS	Brain, NOS	4329	diagnosis	phs002790_PBBLKN_PBBLKN_4	phs002790_PBBLKN	Not specified in data
+PBBJRI_4	Large cell medulloblastoma	Cerebellum, NOS	5072	diagnosis	phs002790_PBBJRI_PBBJRI_4	phs002790_PBBJRI	Not specified in data
+PBBIDG_4	Unknown, to be completed later	Brain, NOS	4188	diagnosis	phs002790_PBBIDG_PBBIDG_4	phs002790_PBBIDG	Not specified in data
+PBBIYG_4	Medulloblastoma, NOS	Cerebellum, NOS	4956	diagnosis	phs002790_PBBIYG_PBBIYG_4	phs002790_PBBIYG	Not specified in data
+PBBJZI_4	Craniopharyngioma, adamantinomatous	Brain, NOS	4172	diagnosis	phs002790_PBBJZI_PBBJZI_4	phs002790_PBBJZI	Not specified in data
+PBBSTK_4	Neoplasm, malignant	Brain, NOS	5703	diagnosis	phs002790_PBBSTK_PBBSTK_4	phs002790_PBBSTK	Not specified in data
+PBBMBM_5	Ependymoma, NOS	Brain, NOS	617	diagnosis	phs002790_PBBMBM_PBBMBM_5	phs002790_PBBMBM	Not specified in data
+PBBNTF_5	Embryonal rhabdomyosarcoma, NOS	Connective, subcutaneous and other soft tissues of head, face, and neck (excludes connective tissue of orbit C69.6 and nasal cartilage C30.0)	1437	diagnosis	phs002790_PBBNTF_PBBNTF_5	phs002790_PBBNTF	Not specified in data
+PBBMIP_4	Pilocytic astrocytoma	Brain, NOS	2242	diagnosis	phs002790_PBBMIP_PBBMIP_4	phs002790_PBBMIP	Not specified in data
+PBBSKM_4	Glioma, malignant	Spinal cord	5850	diagnosis	phs002790_PBBSKM_PBBSKM_4	phs002790_PBBSKM	Not specified in data
+PBBTNY_4	Neoplasm, malignant	Cerebellum, NOS	912	diagnosis	phs002790_PBBTNY_PBBTNY_4	phs002790_PBBTNY	Not specified in data
+PBBNBW_4	Epithelioid sarcoma	Upper limb, NOS	3259	diagnosis	phs002790_PBBNBW_PBBNBW_4	phs002790_PBBNBW	Not specified in data
+PBBPUW_4	Embryonal rhabdomyosarcoma, NOS	Orbit, NOS	3336	diagnosis	phs002790_PBBPUW_PBBPUW_4	phs002790_PBBPUW	Not specified in data
+PBBKTD_4	Glioma, malignant	Brain, NOS	2273	diagnosis	phs002790_PBBKTD_PBBKTD_4	phs002790_PBBKTD	Not specified in data
+PBBLXV_4	Rhabdomyosarcoma, NOS	Head, face or neck, NOS	6231	diagnosis	phs002790_PBBLXV_PBBLXV_4	phs002790_PBBLXV	Not specified in data
+PBBSRS_4	Glioma, malignant	Brain stem	1398	diagnosis	phs002790_PBBSRS_PBBSRS_4	phs002790_PBBSRS	Not specified in data
+PBBRJZ_4	Embryonal rhabdomyosarcoma, NOS	Orbit, NOS	3521	diagnosis	phs002790_PBBRJZ_PBBRJZ_4	phs002790_PBBRJZ	Not specified in data
+PBBKLK_4	Mixed germ cell tumor	Brain, NOS	6986	diagnosis	phs002790_PBBKLK_PBBKLK_4	phs002790_PBBKLK	Not specified in data
+PBBPNS_4	Pineoblastoma	Pineal gland	6694	diagnosis	phs002790_PBBPNS_PBBPNS_4	phs002790_PBBPNS	Not specified in data
+PBBLJE_4	Medulloblastoma, NOS	Cerebellum, NOS	1425	diagnosis	phs002790_PBBLJE_PBBLJE_4	phs002790_PBBLJE	Not specified in data
+PBBLMW_4	Sarcoma, NOS	Connective, subcutaneous and other soft tissues of upper limb and shoulder	2497	diagnosis	phs002790_PBBLMW_PBBLMW_4	phs002790_PBBLMW	Not specified in data
+PBBKMK_4	Astrocytoma, NOS	Brain, NOS	5435	diagnosis	phs002790_PBBKMK_PBBKMK_4	phs002790_PBBKMK	Not specified in data
+PBBPDY_4	Medulloblastoma, NOS	Brain, NOS	4727	diagnosis	phs002790_PBBPDY_PBBPDY_4	phs002790_PBBPDY	Not specified in data
+PBBPWD_4	Neoplasm, malignant	Overlapping lesion of respiratory system and intrathoracic organs	5463	diagnosis	phs002790_PBBPWD_PBBPWD_4	phs002790_PBBPWD	Not specified in data
+PBBJAY_4	Medulloblastoma, NOS	Brain, NOS	1479	diagnosis	phs002790_PBBJAY_PBBJAY_4	phs002790_PBBJAY	Not specified in data
+PBBIUC_4	Neoplasm, malignant	Brain, NOS	1762	diagnosis	phs002790_PBBIUC_PBBIUC_4	phs002790_PBBIUC	Not specified in data
+PBBMJN_4	Spindle cell sarcoma	Lower limb, NOS	1081	diagnosis	phs002790_PBBMJN_PBBMJN_4	phs002790_PBBMJN	Not specified in data
+PBBNTK_4	Pilocytic astrocytoma	Spinal cord	2935	diagnosis	phs002790_PBBNTK_PBBNTK_4	phs002790_PBBNTK	Not specified in data
+PBBPGX_4	Neoplasm, benign	Brain, NOS	3690	diagnosis	phs002790_PBBPGX_PBBPGX_4	phs002790_PBBPGX	Not specified in data
+PBBMWE_4	Astrocytoma, NOS	Brain, NOS	1175	diagnosis	phs002790_PBBMWE_PBBMWE_4	phs002790_PBBMWE	Not specified in data
+PBBNIZ_4	Glioma, malignant	Spinal cord	4608	diagnosis	phs002790_PBBNIZ_PBBNIZ_4	phs002790_PBBNIZ	Not specified in data
+PBBRHB_4	Ependymoma, NOS	Frontal lobe	5261	diagnosis	phs002790_PBBRHB_PBBRHB_4	phs002790_PBBRHB	Not specified in data
+PBBRNE_4	Pilocytic astrocytoma	Brain, NOS	5828	diagnosis	phs002790_PBBRNE_PBBRNE_4	phs002790_PBBRNE	Not specified in data
+PBBUBT_4	Embryonal rhabdomyosarcoma, NOS	Connective, subcutaneous and other soft tissues of lower limb and hip	209	diagnosis	phs002790_PBBUBT_PBBUBT_4	phs002790_PBBUBT	Not specified in data
+PBBPSM_4	Ependymoma, NOS	Brain stem	643	diagnosis	phs002790_PBBPSM_PBBPSM_4	phs002790_PBBPSM	Not specified in data
+PBBKNA_4	Glioma, malignant	Brain, NOS	7	diagnosis	phs002790_PBBKNA_PBBKNA_4	phs002790_PBBKNA	Not specified in data
+PBBPLA_4	Choroid plexus carcinoma	Ventricle, NOS	6468	diagnosis	phs002790_PBBPLA_PBBPLA_4	phs002790_PBBPLA	Not specified in data
+PBBSVM_5	Pleomorphic xanthoastrocytoma	Brain, NOS	4912	diagnosis	phs002790_PBBSVM_PBBSVM_5	phs002790_PBBSVM	Not specified in data
+PBBTSW_4	Glioma, malignant	Brain, NOS	2918	diagnosis	phs002790_PBBTSW_PBBTSW_4	phs002790_PBBTSW	Not specified in data
+PBBJHS_4	Glioma, malignant	Brain, NOS	5851	diagnosis	phs002790_PBBJHS_PBBJHS_4	phs002790_PBBJHS	Not specified in data
+PBBMYG_4	Atypical teratoid/rhabdoid tumor	Brain, NOS	1414	diagnosis	phs002790_PBBMYG_PBBMYG_4	phs002790_PBBMYG	Not specified in data
+PBBNVV_4	Astrocytoma, NOS	Brain, NOS	6445	diagnosis	phs002790_PBBNVV_PBBNVV_4	phs002790_PBBNVV	Not specified in data
+PBBNNM_4	Spindle cell carcinoma, NOS	Connective, subcutaneous and other soft tissues of upper limb and shoulder	72	diagnosis	phs002790_PBBNNM_PBBNNM_4	phs002790_PBBNNM	Not specified in data
+PBBSXN_4	Alveolar soft part sarcoma	Lower limb, NOS	1960	diagnosis	phs002790_PBBSXN_PBBSXN_4	phs002790_PBBSXN	Not specified in data
+PBBRYM_4	Medulloblastoma, NOS	Brain, NOS	188	diagnosis	phs002790_PBBRYM_PBBRYM_4	phs002790_PBBRYM	Not specified in data
+PBBNDI_4	Glioma, malignant	Brain, NOS	6426	diagnosis	phs002790_PBBNDI_PBBNDI_4	phs002790_PBBNDI	Not specified in data
+PBBPPS_4	Rhabdomyosarcoma, NOS	Peritoneum, NOS	2590	diagnosis	phs002790_PBBPPS_PBBPPS_4	phs002790_PBBPPS	Not specified in data
+PBBRAZ_4	Aggressive fibromatosis	Abdomen, NOS	5838	diagnosis	phs002790_PBBRAZ_PBBRAZ_4	phs002790_PBBRAZ	Not specified in data
+PBBKVP_4	Unknown, to be completed later	Spinal cord	1462	diagnosis	phs002790_PBBKVP_PBBKVP_4	phs002790_PBBKVP	Not specified in data
+PBBHYV_4	Germ cell tumor, nonseminomatous	Pineal gland	5113	diagnosis	phs002790_PBBHYV_PBBHYV_4	phs002790_PBBHYV	Not specified in data
+PBBLEG_4	Astrocytoma, NOS	Brain, NOS	3672	diagnosis	phs002790_PBBLEG_PBBLEG_4	phs002790_PBBLEG	Not specified in data
+PBBKND_4	Glioma, malignant	Brain stem	4322	diagnosis	phs002790_PBBKND_PBBKND_4	phs002790_PBBKND	Not specified in data
+PBBRAK_4	Atypical choroid plexus papilloma	Brain, NOS	1551	diagnosis	phs002790_PBBRAK_PBBRAK_4	phs002790_PBBRAK	Not specified in data
+PBBHUB_4	Pineoblastoma	Brain, NOS	411	diagnosis	phs002790_PBBHUB_PBBHUB_4	phs002790_PBBHUB	Not specified in data
+PBBTZN_4	Medulloblastoma, NOS	Brain, NOS	4429	diagnosis	phs002790_PBBTZN_PBBTZN_4	phs002790_PBBTZN	Not specified in data
+PBBPME_4	Ganglioglioma, NOS	Brain, NOS	6243	diagnosis	phs002790_PBBPME_PBBPME_4	phs002790_PBBPME	Not specified in data
+PBBUBN_4	Medulloblastoma, NOS	Brain, NOS	7596	diagnosis	phs002790_PBBUBN_PBBUBN_4	phs002790_PBBUBN	Not specified in data
+PBBSTP_4	Neoplasm, uncertain whether benign or malignant	Brain, NOS	2378	diagnosis	phs002790_PBBSTP_PBBSTP_4	phs002790_PBBSTP	Not specified in data
+PBBUIB_4	Medulloblastoma, NOS	Brain, NOS	4130	diagnosis	phs002790_PBBUIB_PBBUIB_4	phs002790_PBBUIB	Not specified in data
+PBBHIA_4	Atypical teratoid/rhabdoid tumor	Brain, NOS	38	diagnosis	phs002790_PBBHIA_PBBHIA_4	phs002790_PBBHIA	Not specified in data
+PBBSGA_4	Medulloblastoma, NOS	Cerebellum, NOS	4984	diagnosis	phs002790_PBBSGA_PBBSGA_4	phs002790_PBBSGA	Not specified in data
+PBBIMH_4	Myxopapillary ependymoma	Spinal cord	5453	diagnosis	phs002790_PBBIMH_PBBIMH_4	phs002790_PBBIMH	Not specified in data
+PBBKPN_4	Pilocytic astrocytoma	Cerebrum	1358	diagnosis	phs002790_PBBKPN_PBBKPN_4	phs002790_PBBKPN	Not specified in data
+PBBNHL_4	Ganglioglioma, NOS	Brain, NOS	353	diagnosis	phs002790_PBBNHL_PBBNHL_4	phs002790_PBBNHL	Not specified in data
+PBBHTY_4	Ganglioglioma, NOS	Brain, NOS	3904	diagnosis	phs002790_PBBHTY_PBBHTY_4	phs002790_PBBHTY	Not specified in data
+PBBNLI_4	Spindle cell carcinoma, NOS	Connective, subcutaneous and other soft tissues of lower limb and hip	4540	diagnosis	phs002790_PBBNLI_PBBNLI_4	phs002790_PBBNLI	Not specified in data
+PBBRBS_4	Desmoplastic small round cell tumor	Pelvis, NOS	5156	diagnosis	phs002790_PBBRBS_PBBRBS_4	phs002790_PBBRBS	Not specified in data
+PBBKYK_4	Lipoblastomatosis	Head, face or neck, NOS	432	diagnosis	phs002790_PBBKYK_PBBKYK_4	phs002790_PBBKYK	Not specified in data
+PBBNWG_4	Medulloblastoma, NOS	Brain, NOS	1834	diagnosis	phs002790_PBBNWG_PBBNWG_4	phs002790_PBBNWG	Not specified in data
+PBBSJY_4	Desmoplastic nodular medulloblastoma	Cerebellum, NOS	568	diagnosis	phs002790_PBBSJY_PBBSJY_4	phs002790_PBBSJY	Not specified in data
+PBBRCR_4	Medulloblastoma, NOS	Cerebellum, NOS	350	diagnosis	phs002790_PBBRCR_PBBRCR_4	phs002790_PBBRCR	Not specified in data
+PBBSJN_4	Glioma, malignant	Temporal lobe	1947	diagnosis	phs002790_PBBSJN_PBBSJN_4	phs002790_PBBSJN	Not specified in data
+PBBSKD_4	Glioma, malignant	Brain, NOS	3907	diagnosis	phs002790_PBBSKD_PBBSKD_4	phs002790_PBBSKD	Not specified in data
+PBBRBP_4	Choroid plexus carcinoma	Brain, NOS	890	diagnosis	phs002790_PBBRBP_PBBRBP_4	phs002790_PBBRBP	Not specified in data
+PBBLJJ_4	Pilocytic astrocytoma	Brain stem	6071	diagnosis	phs002790_PBBLJJ_PBBLJJ_4	phs002790_PBBLJJ	Not specified in data
+PBBMFA_4	Pilocytic astrocytoma	Cerebellum, NOS	5498	diagnosis	phs002790_PBBMFA_PBBMFA_4	phs002790_PBBMFA	Not specified in data
+PBBHSU_4	Neoplasm, uncertain whether benign or malignant	Pineal gland	3660	diagnosis	phs002790_PBBHSU_PBBHSU_4	phs002790_PBBHSU	Not specified in data
+PBBPMR_4	Alveolar rhabdomyosarcoma	Lymph nodes of inguinal region or leg	942	diagnosis	phs002790_PBBPMR_PBBPMR_4	phs002790_PBBPMR	Not specified in data
+PBBKCW_4	Craniopharyngioma, adamantinomatous	Brain, NOS	1778	diagnosis	phs002790_PBBKCW_PBBKCW_4	phs002790_PBBKCW	Not specified in data
+PBBTKF_4	Neoplasm, uncertain whether benign or malignant	Brain, NOS	296	diagnosis	phs002790_PBBTKF_PBBTKF_4	phs002790_PBBTKF	Not specified in data
+PBBNZL_4	Glioma, malignant	Frontal lobe	5846	diagnosis	phs002790_PBBNZL_PBBNZL_4	phs002790_PBBNZL	Not specified in data
+PBBSEE_4	Pilocytic astrocytoma	Brain, NOS	3896	diagnosis	phs002790_PBBSEE_PBBSEE_4	phs002790_PBBSEE	Not specified in data
+PBBSAE_4	Astrocytoma, NOS	Frontal lobe	6100	diagnosis	phs002790_PBBSAE_PBBSAE_4	phs002790_PBBSAE	Not specified in data
+PBBLUN_4	Sclerotic fibroma	Pleura, NOS	2948	diagnosis	phs002790_PBBLUN_PBBLUN_4	phs002790_PBBLUN	Not specified in data
+PBBSEW_4	Pilocytic astrocytoma	Ventricle, NOS	4715	diagnosis	phs002790_PBBSEW_PBBSEW_4	phs002790_PBBSEW	Not specified in data
+PBBKEC_4	Neoplasm, malignant	Cerebellum, NOS	6367	diagnosis	phs002790_PBBKEC_PBBKEC_4	phs002790_PBBKEC	Not specified in data
+PBBSHZ_4	Neoplasm, uncertain whether benign or malignant	Brain, NOS	2476	diagnosis	phs002790_PBBSHZ_PBBSHZ_4	phs002790_PBBSHZ	Not specified in data
+PBBUAT_4	CNS embryonal tumor, NOS	Brain, NOS	1125	diagnosis	phs002790_PBBUAT_PBBUAT_4	phs002790_PBBUAT	Not specified in data
+PBBUIS_4	Atypical choroid plexus papilloma	Brain, NOS	7763	diagnosis	phs002790_PBBUIS_PBBUIS_4	phs002790_PBBUIS	Not specified in data
+PBBRVH_4	Astrocytoma, anaplastic	Brain, NOS	5116	diagnosis	phs002790_PBBRVH_PBBRVH_4	phs002790_PBBRVH	Not specified in data
+PBBPRN_4	Pigmented dermatofibrosarcoma protuberans	Connective, subcutaneous and other soft tissues of abdomen	5514	diagnosis	phs002790_PBBPRN_PBBPRN_4	phs002790_PBBPRN	Not specified in data
+PBBNSR_4	Pilocytic astrocytoma	Optic nerve	6344	diagnosis	phs002790_PBBNSR_PBBNSR_4	phs002790_PBBNSR	Not specified in data
+PBBRKD_4	Choroid plexus papilloma, NOS	Brain, NOS	151	diagnosis	phs002790_PBBRKD_PBBRKD_4	phs002790_PBBRKD	Not specified in data
+PBBSFF_4	Ganglioglioma, NOS	Spinal cord	6126	diagnosis	phs002790_PBBSFF_PBBSFF_4	phs002790_PBBSFF	Not specified in data
+PBBTFJ_4	Medulloblastoma, NOS	Brain, NOS	4753	diagnosis	phs002790_PBBTFJ_PBBTFJ_4	phs002790_PBBTFJ	Not specified in data
+PBBTMV_4	Rhabdomyosarcoma, NOS	Retroperitoneum	4150	diagnosis	phs002790_PBBTMV_PBBTMV_4	phs002790_PBBTMV	Not specified in data
+PBBIHA_4	Medulloblastoma, NOS	Brain, NOS	2288	diagnosis	phs002790_PBBIHA_PBBIHA_4	phs002790_PBBIHA	Not specified in data
+PBBJUH_4	Medulloblastoma, NOS	Brain stem	848	diagnosis	phs002790_PBBJUH_PBBJUH_4	phs002790_PBBJUH	Not specified in data
+PBBPHE_4	Pilocytic astrocytoma	Brain, NOS	6096	diagnosis	phs002790_PBBPHE_PBBPHE_4	phs002790_PBBPHE	Not specified in data
+PBBPKI_4	Sarcoma, NOS	Lymph nodes of head, face and neck	899	diagnosis	phs002790_PBBPKI_PBBPKI_4	phs002790_PBBPKI	Not specified in data
+PBBPBM_4	Embryonal sarcoma	Liver	1575	diagnosis	phs002790_PBBPBM_PBBPBM_4	phs002790_PBBPBM	Not specified in data
+PBBRPX_4	Glioma, malignant	Brain, NOS	1116	diagnosis	phs002790_PBBRPX_PBBRPX_4	phs002790_PBBRPX	Not specified in data
+PBBTRA_4	Synovial sarcoma, NOS	Connective, subcutaneous and other soft tissues of upper limb and shoulder	1914	diagnosis	phs002790_PBBTRA_PBBTRA_4	phs002790_PBBTRA	Not specified in data
+PBBPAM_4	Astrocytoma, NOS	Brain, NOS	1634	diagnosis	phs002790_PBBPAM_PBBPAM_4	phs002790_PBBPAM	Not specified in data
+PBBPDU_4	Myxoid liposarcoma	Connective, subcutaneous and other soft tissues of lower limb and hip	6875	diagnosis	phs002790_PBBPDU_PBBPDU_4	phs002790_PBBPDU	Not specified in data
+PBBRZX_4	Glioblastoma, NOS	Brain, NOS	4439	diagnosis	phs002790_PBBRZX_PBBRZX_4	phs002790_PBBRZX	Not specified in data
+PBBUBA_4	Glioma, malignant	Temporal lobe	707	diagnosis	phs002790_PBBUBA_PBBUBA_4	phs002790_PBBUBA	Not specified in data
+PBBRXI_4	Retinoblastoma, NOS	Retina	120	diagnosis	phs002790_PBBRXI_PBBRXI_4	phs002790_PBBRXI	Not specified in data
+PBBSPA_4	Neoplasm, uncertain whether benign or malignant	Brain, NOS	6259	diagnosis	phs002790_PBBSPA_PBBSPA_4	phs002790_PBBSPA	Not specified in data
+PBBTMD_4	Neoplasm, malignant, uncertain whether primary or metastatic	Brain, NOS	1219	diagnosis	phs002790_PBBTMD_PBBTMD_4	phs002790_PBBTMD	Not specified in data
+PBBUGF_4	Myofibromatosis	Connective, subcutaneous and other soft tissues of upper limb and shoulder	1891	diagnosis	phs002790_PBBUGF_PBBUGF_4	phs002790_PBBUGF	Not specified in data
+PBBJHD_4	Medulloblastoma, NOS	Brain, NOS	2534	diagnosis	phs002790_PBBJHD_PBBJHD_4	phs002790_PBBJHD	Not specified in data
+PBBIJS_4	Pilocytic astrocytoma	Brain, NOS	2377	diagnosis	phs002790_PBBIJS_PBBIJS_4	phs002790_PBBIJS	Not specified in data
+PBBSEY_4	Medulloblastoma, NOS	Brain, NOS	1747	diagnosis	phs002790_PBBSEY_PBBSEY_4	phs002790_PBBSEY	Not specified in data
+PBBMXY_4	Rhabdomyosarcoma, NOS	Nasal cavity (excludes nose, NOS C76.0)	225	diagnosis	phs002790_PBBMXY_PBBMXY_4	phs002790_PBBMXY	Not specified in data
+PBBRLD_4	Spindle cell sarcoma	Long bones of lower limb and associated joints	5061	diagnosis	phs002790_PBBRLD_PBBRLD_4	phs002790_PBBRLD	Not specified in data
+PBBRST_4	Desmoplastic small round cell tumor	Connective, subcutaneous and other soft tissues of lower limb and hip	5262	diagnosis	phs002790_PBBRST_PBBRST_4	phs002790_PBBRST	Not specified in data
+PBBPVX_4	Neoplasm, malignant	Brain, NOS	4762	diagnosis	phs002790_PBBPVX_PBBPVX_4	phs002790_PBBPVX	Not specified in data
+PBBSFK_4	Ependymoma, NOS	Brain, NOS	650	diagnosis	phs002790_PBBSFK_PBBSFK_4	phs002790_PBBSFK	Not specified in data
+PBBKYI_4	Rhabdomyosarcoma, NOS	Connective, subcutaneous and other soft tissues of lower limb and hip	2263	diagnosis	phs002790_PBBKYI_PBBKYI_4	phs002790_PBBKYI	Not specified in data
+PBBLYY_4	Pilocytic astrocytoma	Brain, NOS	5574	diagnosis	phs002790_PBBLYY_PBBLYY_4	phs002790_PBBLYY	Not specified in data
+PBBMFY_4	Ependymoma, anaplastic	Brain, NOS	6082	diagnosis	phs002790_PBBMFY_PBBMFY_4	phs002790_PBBMFY	Not specified in data
+PBBTSE_4	Glioma, malignant	Brain, NOS	146	diagnosis	phs002790_PBBTSE_PBBTSE_4	phs002790_PBBTSE	Not specified in data
+PBBPCE_4	Neoplasm, uncertain whether benign or malignant	Brain, NOS	4232	diagnosis	phs002790_PBBPCE_PBBPCE_4	phs002790_PBBPCE	Not specified in data
+PBBMTJ_4	Myxopapillary ependymoma	Spinal cord	5083	diagnosis	phs002790_PBBMTJ_PBBMTJ_4	phs002790_PBBMTJ	Not specified in data
+PBBLLB_4	Ganglioglioma, NOS	Brain, NOS	6434	diagnosis	phs002790_PBBLLB_PBBLLB_4	phs002790_PBBLLB	Not specified in data
+PBBRND_4	Tumor cells, uncertain whether benign or malignant	Brain, NOS	1350	diagnosis	phs002790_PBBRND_PBBRND_4	phs002790_PBBRND	Not specified in data
+PBBKCM_5	Pilocytic astrocytoma	Cerebellum, NOS	1191	diagnosis	phs002790_PBBKCM_PBBKCM_5	phs002790_PBBKCM	Not specified in data
+PBBLEY_4	Atypical teratoid/rhabdoid tumor	Brain, NOS	1189	diagnosis	phs002790_PBBLEY_PBBLEY_4	phs002790_PBBLEY	Not specified in data
+PBBMHC_4	Germinoma	Ventricle, NOS	2868	diagnosis	phs002790_PBBMHC_PBBMHC_4	phs002790_PBBMHC	Not specified in data
+PBBIDF_4	Pilocytic astrocytoma	Brain, NOS	4283	diagnosis	phs002790_PBBIDF_PBBIDF_4	phs002790_PBBIDF	Not specified in data
+PBBPTS_4	Ependymoma, NOS	Ventricle, NOS	1406	diagnosis	phs002790_PBBPTS_PBBPTS_4	phs002790_PBBPTS	Not specified in data
+PBBPDC_4	Pilocytic astrocytoma	Brain, NOS	2680	diagnosis	phs002790_PBBPDC_PBBPDC_4	phs002790_PBBPDC	Not specified in data
+PBBRZH_4	Medulloblastoma, NOS	Brain, NOS	1715	diagnosis	phs002790_PBBRZH_PBBRZH_4	phs002790_PBBRZH	Not specified in data
+PBBSZG_4	Embryonal rhabdomyosarcoma, NOS	Orbit, NOS	3296	diagnosis	phs002790_PBBSZG_PBBSZG_4	phs002790_PBBSZG	Not specified in data
+PBBUGC_4	Alveolar rhabdomyosarcoma	Unknown primary site	5704	diagnosis	phs002790_PBBUGC_PBBUGC_4	phs002790_PBBUGC	Not specified in data
+PBBKDM_4	Pilocytic astrocytoma	Brain, NOS	4228	diagnosis	phs002790_PBBKDM_PBBKDM_4	phs002790_PBBKDM	Not specified in data
+PBBUEW_4	CNS embryonal tumor, NOS	Spinal cord	2769	diagnosis	phs002790_PBBUEW_PBBUEW_4	phs002790_PBBUEW	Not specified in data
+PBBMBK_4	Glioma, malignant	Brain, NOS	112	diagnosis	phs002790_PBBMBK_PBBMBK_4	phs002790_PBBMBK	Not specified in data
+PBBNVL_4	Fibrosarcoma, NOS	Other ill-defined sites	7082	diagnosis	phs002790_PBBNVL_PBBNVL_4	phs002790_PBBNVL	Not specified in data
+PBBKHR_4	Glioma, malignant	Cerebellum, NOS	2966	diagnosis	phs002790_PBBKHR_PBBKHR_4	phs002790_PBBKHR	Not specified in data
+PBBNVH_4	Pilocytic astrocytoma	Brain, NOS	1584	diagnosis	phs002790_PBBNVH_PBBNVH_4	phs002790_PBBNVH	Not specified in data
+PBBJCX_4	Pilocytic astrocytoma	Brain, NOS	3503	diagnosis	phs002790_PBBJCX_PBBJCX_4	phs002790_PBBJCX	Not specified in data
+PBBHXT_4	Pilocytic astrocytoma	Brain, NOS	3340	diagnosis	phs002790_PBBHXT_PBBHXT_4	phs002790_PBBHXT	Not specified in data
+PBBRXR_4	Pilocytic astrocytoma	Cerebellum, NOS	2444	diagnosis	phs002790_PBBRXR_PBBRXR_4	phs002790_PBBRXR	Not specified in data
+PBBLWB_4	Neoplasm, uncertain whether benign or malignant	Cerebellum, NOS	1839	diagnosis	phs002790_PBBLWB_PBBLWB_4	phs002790_PBBLWB	Not specified in data
+PBBPVW_4	Ependymoma, anaplastic	Brain, NOS	3746	diagnosis	phs002790_PBBPVW_PBBPVW_4	phs002790_PBBPVW	Not specified in data
+PBBRLR_4	Sclerosing stromal tumor	Fallopian tube	5217	diagnosis	phs002790_PBBRLR_PBBRLR_4	phs002790_PBBRLR	Not specified in data
+PBBLMB_4	Schwannoma, NOS	Spinal cord	5213	diagnosis	phs002790_PBBLMB_PBBLMB_4	phs002790_PBBLMB	Not specified in data
+PBBTSU_4	Craniopharyngioma, adamantinomatous	Brain, NOS	4452	diagnosis	phs002790_PBBTSU_PBBTSU_4	phs002790_PBBTSU	Not specified in data
+PBBIDY_4	Medulloblastoma, NOS	Brain, NOS	2267	diagnosis	phs002790_PBBIDY_PBBIDY_4	phs002790_PBBIDY	Not specified in data
+PBBSTU_4	Desmoplastic nodular medulloblastoma	Cerebellum, NOS	286	diagnosis	phs002790_PBBSTU_PBBSTU_4	phs002790_PBBSTU	Not specified in data
+PBBLSE_4	Neoplasm, uncertain whether benign or malignant	Frontal lobe	2919	diagnosis	phs002790_PBBLSE_PBBLSE_4	phs002790_PBBLSE	Not specified in data
+PBBPGA_4	Mixed germ cell tumor	Pineal gland	5675	diagnosis	phs002790_PBBPGA_PBBPGA_4	phs002790_PBBPGA	Not specified in data
+PBBTRR_4	Adrenal cortical carcinoma	Adrenal gland, NOS	6738	diagnosis	phs002790_PBBTRR_PBBTRR_4	phs002790_PBBTRR	Not specified in data
+PBBSCL_4	Rhabdomyosarcoma, NOS	Anterior mediastinum	6690	diagnosis	phs002790_PBBSCL_PBBSCL_4	phs002790_PBBSCL	Not specified in data
+PBBUDY_4	Sertoli cell tumor, NOS	Ovary	5205	diagnosis	phs002790_PBBUDY_PBBUDY_4	phs002790_PBBUDY	Not specified in data
+PBBIXR_4	Glioma, malignant	Brain stem	3020	diagnosis	phs002790_PBBIXR_PBBIXR_4	phs002790_PBBIXR	Not specified in data
+PBBLLJ_4	Pilocytic astrocytoma	Brain, NOS	6508	diagnosis	phs002790_PBBLLJ_PBBLLJ_4	phs002790_PBBLLJ	Not specified in data
+PBBTND_4	Malignant tumor, spindle cell type	Mandible	6876	diagnosis	phs002790_PBBTND_PBBTND_4	phs002790_PBBTND	Not specified in data
+PBBSUK_5	Medulloblastoma, NOS	Brain stem	2303	diagnosis	phs002790_PBBSUK_PBBSUK_5	phs002790_PBBSUK	Not specified in data
+PBBHGB_4	Giant cell glioblastoma	Parietal lobe	2197	diagnosis	phs002790_PBBHGB_PBBHGB_4	phs002790_PBBHGB	Not specified in data
+PBBPJD_4	Neuroblastoma, NOS	Brain, NOS	583	diagnosis	phs002790_PBBPJD_PBBPJD_4	phs002790_PBBPJD	Not specified in data
+PBBPLH_4	Craniopharyngioma, adamantinomatous	Brain, NOS	2476	diagnosis	phs002790_PBBPLH_PBBPLH_4	phs002790_PBBPLH	Not specified in data
+PBBTLB_4	Pilocytic astrocytoma	Brain, NOS	2994	diagnosis	phs002790_PBBTLB_PBBTLB_4	phs002790_PBBTLB	Not specified in data
+PBBJMC_4	Medulloblastoma, NOS	Brain, NOS	4207	diagnosis	phs002790_PBBJMC_PBBJMC_4	phs002790_PBBJMC	Not specified in data
+PBBNAY_4	Medulloblastoma, NOS	Brain stem	2222	diagnosis	phs002790_PBBNAY_PBBNAY_4	phs002790_PBBNAY	Not specified in data
+PBBNAV_4	Epithelioid sarcoma	Supraglottis	2982	diagnosis	phs002790_PBBNAV_PBBNAV_4	phs002790_PBBNAV	Not specified in data
+PBBRUK_4	Astroblastoma	Brain, NOS	3113	diagnosis	phs002790_PBBRUK_PBBRUK_4	phs002790_PBBRUK	Not specified in data
+PBBULF_4	Papillary carcinoma, NOS	Thyroid Gland	5632	diagnosis	phs002790_PBBULF_PBBULF_4	phs002790_PBBULF	Not specified in data
+PBBTNS_4	Sarcoma, NOS	Lymph nodes of inguinal region or leg	8693	diagnosis	phs002790_PBBTNS_PBBTNS_4	phs002790_PBBTNS	Not specified in data
+PBBJMI_4	Medulloblastoma, NOS	Brain, NOS	2105	diagnosis	phs002790_PBBJMI_PBBJMI_4	phs002790_PBBJMI	Not specified in data
+PBBTCE_4	Neoplasm, malignant	Nasal cavity (excludes nose, NOS C76.0)	2812	diagnosis	phs002790_PBBTCE_PBBTCE_4	phs002790_PBBTCE	Not specified in data
+PBBLHM_4	Ependymoma, NOS	Brain, NOS	535	diagnosis	phs002790_PBBLHM_PBBLHM_4	phs002790_PBBLHM	Not specified in data
+PBBTMS_4	Desmoplastic small round cell tumor	Abdomen, NOS	3509	diagnosis	phs002790_PBBTMS_PBBTMS_4	phs002790_PBBTMS	Not specified in data
+PBBHFF_4	Neoplasm, malignant	Brain, NOS	2601	diagnosis	phs002790_PBBHFF_PBBHFF_4	phs002790_PBBHFF	Not specified in data
+PBBTPN_4	Embryonal rhabdomyosarcoma, NOS	Connective, subcutaneous and other soft tissues of head, face, and neck (excludes connective tissue of orbit C69.6 and nasal cartilage C30.0)	4885	diagnosis	phs002790_PBBTPN_PBBTPN_4	phs002790_PBBTPN	Not specified in data
+PBBIBE_4	Ependymoma, NOS	Brain, NOS	790	diagnosis	phs002790_PBBIBE_PBBIBE_4	phs002790_PBBIBE	Not specified in data
+PBBIBT_4	Glioma, malignant	Frontal lobe	6138	diagnosis	phs002790_PBBIBT_PBBIBT_4	phs002790_PBBIBT	Not specified in data
+PBBNDR_4	Rhabdomyosarcoma, NOS	Pelvis, NOS	6131	diagnosis	phs002790_PBBNDR_PBBNDR_4	phs002790_PBBNDR	Not specified in data
+PBBNKF_4	Glioma, malignant	Brain, NOS	2698	diagnosis	phs002790_PBBNKF_PBBNKF_4	phs002790_PBBNKF	Not specified in data
+PBBTTG_4	Glioma, malignant	Brain stem	4349	diagnosis	phs002790_PBBTTG_PBBTTG_4	phs002790_PBBTTG	Not specified in data
+PBBRYS_4	Ependymoma, NOS	Brain, NOS	328	diagnosis	phs002790_PBBRYS_PBBRYS_4	phs002790_PBBRYS	Not specified in data
+PBBMTH_4	Embryonal rhabdomyosarcoma, NOS	Connective, subcutaneous and other soft tissues of trunk, NOS	1534	diagnosis	phs002790_PBBMTH_PBBMTH_4	phs002790_PBBMTH	Not specified in data
+PBBNAN_4	Medulloblastoma, NOS	Brain, NOS	4764	diagnosis	phs002790_PBBNAN_PBBNAN_4	phs002790_PBBNAN	Not specified in data
+PBBSYU_4	Rhabdomyosarcoma, NOS	Orbit, NOS	3524	diagnosis	phs002790_PBBSYU_PBBSYU_4	phs002790_PBBSYU	Not specified in data
+PBBTTU_4	Medulloblastoma, NOS	Brain, NOS	3462	diagnosis	phs002790_PBBTTU_PBBTTU_4	phs002790_PBBTTU	Not specified in data
+PBBKZM_4	Medulloblastoma, NOS	Brain, NOS	3097	diagnosis	phs002790_PBBKZM_PBBKZM_4	phs002790_PBBKZM	Not specified in data
+PBBIBP_4	Neoplasm, benign	Brain, NOS	5968	diagnosis	phs002790_PBBIBP_PBBIBP_4	phs002790_PBBIBP	Not specified in data
+PBBNFB_4	Pilocytic astrocytoma	Cerebellum, NOS	1734	diagnosis	phs002790_PBBNFB_PBBNFB_4	phs002790_PBBNFB	Not specified in data
+PBBRIH_4	Medulloblastoma, NOS	Brain, NOS	2418	diagnosis	phs002790_PBBRIH_PBBRIH_4	phs002790_PBBRIH	Not specified in data
+PBBISG_4	Pilocytic astrocytoma	Brain, NOS	4781	diagnosis	phs002790_PBBISG_PBBISG_4	phs002790_PBBISG	Not specified in data
+PBBSKE_4	Neoplasm, malignant	Brain, NOS	1606	diagnosis	phs002790_PBBSKE_PBBSKE_4	phs002790_PBBSKE	Not specified in data
+PBBSYL_4	Desmoplastic nodular medulloblastoma	Brain, NOS	1404	diagnosis	phs002790_PBBSYL_PBBSYL_4	phs002790_PBBSYL	Not specified in data
+PBBIEN_4	Medulloblastoma, NOS	Brain stem	3215	diagnosis	phs002790_PBBIEN_PBBIEN_4	phs002790_PBBIEN	Not specified in data
+PBBJNF_4	Medulloblastoma, NOS	Brain, NOS	1684	diagnosis	phs002790_PBBJNF_PBBJNF_4	phs002790_PBBJNF	Not specified in data
+PBBNST_4	Glioma, malignant	Brain, NOS	5965	diagnosis	phs002790_PBBNST_PBBNST_4	phs002790_PBBNST	Not specified in data
+PBBTAS_4	Pilocytic astrocytoma	Brain, NOS	5090	diagnosis	phs002790_PBBTAS_PBBTAS_4	phs002790_PBBTAS	Not specified in data
+PARGFV_3	Precursor B-cell lymphoblastic leukemia Pro-B ALL Common pre	Blood	1033	diagnosis	phs002790_PARGFV_PARGFV_3	phs002790_PARGFV	Not specified in data
+PBBRSL_4	Medulloblastoma, NOS	Brain, NOS	3800	diagnosis	phs002790_PBBRSL_PBBRSL_4	phs002790_PBBRSL	Not specified in data
+PBBSRN_4	Medulloblastoma, NOS	Brain, NOS	4031	diagnosis	phs002790_PBBSRN_PBBSRN_4	phs002790_PBBSRN	Not specified in data
+PBBPGM_4	Retinoblastoma, NOS	Eye, NOS	68	diagnosis	phs002790_PBBPGM_PBBPGM_4	phs002790_PBBPGM	Not specified in data
+PBBRAT_4	Alveolar rhabdomyosarcoma	Retroperitoneum	8906	diagnosis	phs002790_PBBRAT_PBBRAT_4	phs002790_PBBRAT	Not specified in data
+PBBRAW_4	Glioma, malignant	Frontal lobe	8154	diagnosis	phs002790_PBBRAW_PBBRAW_4	phs002790_PBBRAW	Not specified in data
+PBBTKE_4	Alveolar soft part sarcoma	Connective, subcutaneous and other soft tissues of upper limb and shoulder	5228	diagnosis	phs002790_PBBTKE_PBBTKE_4	phs002790_PBBTKE	Not specified in data
+PBBPRL_4	Ependymoma, NOS	Brain, NOS	4519	diagnosis	phs002790_PBBPRL_PBBPRL_4	phs002790_PBBPRL	Not specified in data
+PBBSJS_4	Epithelioid sarcoma	Connective, subcutaneous and other soft tissues of lower limb and hip	3891	diagnosis	phs002790_PBBSJS_PBBSJS_4	phs002790_PBBSJS	Not specified in data
+PBBPLW_4	Myxopapillary ependymoma	Cauda equina	4117	diagnosis	phs002790_PBBPLW_PBBPLW_4	phs002790_PBBPLW	Not specified in data
+PBBKIK_4	Pilocytic astrocytoma	Brain, NOS	5541	diagnosis	phs002790_PBBKIK_PBBKIK_4	phs002790_PBBKIK	Not specified in data
+PBBLGF_4	Malignant peripheral nerve sheath tumor, NOS	Posterior mediastinum	5949	diagnosis	phs002790_PBBLGF_PBBLGF_4	phs002790_PBBLGF	Not specified in data
+PBBPNV_4	Ependymoma, NOS	Brain, NOS	3576	diagnosis	phs002790_PBBPNV_PBBPNV_4	phs002790_PBBPNV	Not specified in data
+PBBJKE_4	CNS embryonal tumor, NOS	Brain, NOS	4863	diagnosis	phs002790_PBBJKE_PBBJKE_4	phs002790_PBBJKE	Not specified in data
+PBBSCH_4	Pilocytic astrocytoma	Brain, NOS	1188	diagnosis	phs002790_PBBSCH_PBBSCH_4	phs002790_PBBSCH	Not specified in data
+PBBPKM_4	Medulloblastoma, NOS	Brain, NOS	6180	diagnosis	phs002790_PBBPKM_PBBPKM_4	phs002790_PBBPKM	Not specified in data
+PBBKRS_4	Medulloblastoma, NOS	Brain, NOS	2633	diagnosis	phs002790_PBBKRS_PBBKRS_4	phs002790_PBBKRS	Not specified in data
+PBBIDH_4	Neoplasm, malignant	Brain, NOS	3699	diagnosis	phs002790_PBBIDH_PBBIDH_4	phs002790_PBBIDH	Not specified in data
+PBBHVH_4	Pilocytic astrocytoma	Spinal cord	4768	diagnosis	phs002790_PBBHVH_PBBHVH_4	phs002790_PBBHVH	Not specified in data
+PBBLCW_4	Pigmented dermatofibrosarcoma protuberans	Connective, subcutaneous and other soft tissues of lower limb and hip	781	diagnosis	phs002790_PBBLCW_PBBLCW_4	phs002790_PBBLCW	Not specified in data
+PBBRIC_4	Pilocytic astrocytoma	Brain, NOS	199	diagnosis	phs002790_PBBRIC_PBBRIC_4	phs002790_PBBRIC	Not specified in data
+PBBSFL_5	Astroblastoma	Parietal lobe	4805	diagnosis	phs002790_PBBSFL_PBBSFL_5	phs002790_PBBSFL	Not specified in data
+PBBSIJ_4	Synovial sarcoma, biphasic	Connective, subcutaneous and other soft tissues of head, face, and neck (excludes connective tissue of orbit C69.6 and nasal cartilage C30.0)	3904	diagnosis	phs002790_PBBSIJ_PBBSIJ_4	phs002790_PBBSIJ	Not specified in data
+PBBKFX_4	Oligoastrocytoma, NOS	Frontal lobe	3792	diagnosis	phs002790_PBBKFX_PBBKFX_4	phs002790_PBBKFX	Not specified in data
+PBBPCC_4	Synovial sarcoma, NOS	Lower limb, NOS	5225	diagnosis	phs002790_PBBPCC_PBBPCC_4	phs002790_PBBPCC	Not specified in data
+PBBJJP_4	Medulloblastoma, NOS	Brain, NOS	2104	diagnosis	phs002790_PBBJJP_PBBJJP_4	phs002790_PBBJJP	Not specified in data
+PBBMRT_4	Neoplasm, malignant	Brain, NOS	2781	diagnosis	phs002790_PBBMRT_PBBMRT_4	phs002790_PBBMRT	Not specified in data
+PBBTYI_4	Tumor cells, uncertain whether benign or malignant	Brain, NOS	317	diagnosis	phs002790_PBBTYI_PBBTYI_4	phs002790_PBBTYI	Not specified in data
+PBBTGZ_4	Neoplasm, uncertain whether benign or malignant	Retroperitoneum	572	diagnosis	phs002790_PBBTGZ_PBBTGZ_4	phs002790_PBBTGZ	Not specified in data
+PBBHZD_4	Atypical teratoid/rhabdoid tumor	Ventricle, NOS	1785	diagnosis	phs002790_PBBHZD_PBBHZD_4	phs002790_PBBHZD	Not specified in data
+PBBJNH_4	Neoplasm, uncertain whether benign or malignant	Brain, NOS	4173	diagnosis	phs002790_PBBJNH_PBBJNH_4	phs002790_PBBJNH	Not specified in data
+PBBKER_4	Medulloblastoma, NOS	Brain, NOS	8381	diagnosis	phs002790_PBBKER_PBBKER_4	phs002790_PBBKER	Not specified in data
+PBBTXH_4	Medulloblastoma, NOS	Brain, NOS	1107	diagnosis	phs002790_PBBTXH_PBBTXH_4	phs002790_PBBTXH	Not specified in data
+PBBLSB_4	Undifferentiated sarcoma	Bones of skull and face and associated joints (excludes mandible C41.1)	183	diagnosis	phs002790_PBBLSB_PBBLSB_4	phs002790_PBBLSB	Not specified in data
+PBBREK_4	Medulloblastoma, NOS	Brain, NOS	3566	diagnosis	phs002790_PBBREK_PBBREK_4	phs002790_PBBREK	Not specified in data
+PBBJTG_4	Pineoblastoma	Pineal gland	6644	diagnosis	phs002790_PBBJTG_PBBJTG_4	phs002790_PBBJTG	Not specified in data
+PBBHCR_4	Medulloepithelioma, NOS	Spinal cord	4503	diagnosis	phs002790_PBBHCR_PBBHCR_4	phs002790_PBBHCR	Not specified in data
+PBBJJE_4	Ependymoma, NOS	Overlapping lesion of brain and central nervous system	4329	diagnosis	phs002790_PBBJJE_PBBJJE_4	phs002790_PBBJJE	Not specified in data
+PBBPNR_4	Ependymoma, anaplastic	Brain, NOS	758	diagnosis	phs002790_PBBPNR_PBBPNR_4	phs002790_PBBPNR	Not specified in data
+PBBKEA_4	Neoplasm, benign	Brain, NOS	2460	diagnosis	phs002790_PBBKEA_PBBKEA_4	phs002790_PBBKEA	Not specified in data
+PBBMYX_4	Ependymoma, NOS	Brain, NOS	805	diagnosis	phs002790_PBBMYX_PBBMYX_4	phs002790_PBBMYX	Not specified in data
+PBBRJW_4	Pilocytic astrocytoma	Cerebellum, NOS	5925	diagnosis	phs002790_PBBRJW_PBBRJW_4	phs002790_PBBRJW	Not specified in data
+PBBNIJ_4	Myxoid liposarcoma	Connective, subcutaneous and other soft tissues of lower limb and hip	6868	diagnosis	phs002790_PBBNIJ_PBBNIJ_4	phs002790_PBBNIJ	Not specified in data
+PBBJJS_4	Hemangioblastoma	Cerebellum, NOS	6638	diagnosis	phs002790_PBBJJS_PBBJJS_4	phs002790_PBBJJS	Not specified in data
+PBBNDM_4	Neoplasm, uncertain whether benign or malignant	Brain stem	2255	diagnosis	phs002790_PBBNDM_PBBNDM_4	phs002790_PBBNDM	Not specified in data
+PBBNKS_4	Pilocytic astrocytoma	Brain, NOS	1782	diagnosis	phs002790_PBBNKS_PBBNKS_4	phs002790_PBBNKS	Not specified in data
+PBBLHR_4	Medulloblastoma, NOS	Brain, NOS	3672	diagnosis	phs002790_PBBLHR_PBBLHR_4	phs002790_PBBLHR	Not specified in data
+PBBTAD_4	Ependymoma, NOS	Brain, NOS	4172	diagnosis	phs002790_PBBTAD_PBBTAD_4	phs002790_PBBTAD	Not specified in data
+PBBMCC_4	Glioma, malignant	Brain, NOS	2315	diagnosis	phs002790_PBBMCC_PBBMCC_4	phs002790_PBBMCC	Not specified in data
+PBBPXX_4	Synovial sarcoma, biphasic	Connective, subcutaneous and other soft tissues of pelvis	5006	diagnosis	phs002790_PBBPXX_PBBPXX_4	phs002790_PBBPXX	Not specified in data
+PBBSZE_4	Germinoma	Pineal gland	5910	diagnosis	phs002790_PBBSZE_PBBSZE_4	phs002790_PBBSZE	Not specified in data
+PBBSBS_4	Rhabdomyosarcoma, NOS	Nasopharynx, NOS	1750	diagnosis	phs002790_PBBSBS_PBBSBS_4	phs002790_PBBSBS	Not specified in data
+PBBTFD_4	Neoplasm, uncertain whether benign or malignant	Brain, NOS	5292	diagnosis	phs002790_PBBTFD_PBBTFD_4	phs002790_PBBTFD	Not specified in data
+PBBUFD_4	Neoplasm, uncertain whether benign or malignant	Brain, NOS	6036	diagnosis	phs002790_PBBUFD_PBBUFD_4	phs002790_PBBUFD	Not specified in data
+PBBLNB_4	Neoplasm, uncertain whether benign or malignant	Pelvic bones, sacrum, coccyx and associated joints	738	diagnosis	phs002790_PBBLNB_PBBLNB_4	phs002790_PBBLNB	Not specified in data
+PBBLPG_4	Atypical teratoid/rhabdoid tumor	Brain, NOS	61	diagnosis	phs002790_PBBLPG_PBBLPG_4	phs002790_PBBLPG	Not specified in data
+PBBRFR_4	Medulloblastoma, NOS	Brain, NOS	4946	diagnosis	phs002790_PBBRFR_PBBRFR_4	phs002790_PBBRFR	Not specified in data
+PBBMLA_4	Rhabdoid tumor, NOS	Kidney, NOS	146	diagnosis	phs002790_PBBMLA_PBBMLA_4	phs002790_PBBMLA	Not specified in data
+PBBPLT_4	Pilocytic astrocytoma	Brain, NOS	1118	diagnosis	phs002790_PBBPLT_PBBPLT_4	phs002790_PBBPLT	Not specified in data
+PBBTRP_4	Craniopharyngioma	Frontal lobe	2137	diagnosis	phs002790_PBBTRP_PBBTRP_4	phs002790_PBBTRP	Not specified in data
+PBBMFN_4	Pituitary adenoma, NOS	Brain, NOS	4525	diagnosis	phs002790_PBBMFN_PBBMFN_4	phs002790_PBBMFN	Not specified in data
+PBBTEM_4	Tumor cells, uncertain whether benign or malignant	Brain, NOS	2991	diagnosis	phs002790_PBBTEM_PBBTEM_4	phs002790_PBBTEM	Not specified in data
+PBBTFP_4	Myxopapillary ependymoma	Spinal cord	2256	diagnosis	phs002790_PBBTFP_PBBTFP_4	phs002790_PBBTFP	Not specified in data
+PBBPMZ_4	Aggressive fibromatosis	Thorax, NOS	6584	diagnosis	phs002790_PBBPMZ_PBBPMZ_4	phs002790_PBBPMZ	Not specified in data
+PBBRSW_4	Embryonal rhabdomyosarcoma, NOS	Nasopharynx, NOS	1545	diagnosis	phs002790_PBBRSW_PBBRSW_4	phs002790_PBBRSW	Not specified in data
+PBBMIZ_4	Alveolar rhabdomyosarcoma	Connective, subcutaneous and other soft tissues of lower limb and hip	2939	diagnosis	phs002790_PBBMIZ_PBBMIZ_4	phs002790_PBBMIZ	Not specified in data
+PBBMJT_4	Medulloblastoma, NOS	Brain, NOS	1905	diagnosis	phs002790_PBBMJT_PBBMJT_4	phs002790_PBBMJT	Not specified in data
+PBBIDW_4	Pilocytic astrocytoma	Ventricle, NOS	1473	diagnosis	phs002790_PBBIDW_PBBIDW_4	phs002790_PBBIDW	Not specified in data
+PBBILM_4	Astrocytoma, NOS	Frontal lobe	4797	diagnosis	phs002790_PBBILM_PBBILM_4	phs002790_PBBILM	Not specified in data
+PBBHPP_4	Glioma, malignant	Brain, NOS	3384	diagnosis	phs002790_PBBHPP_PBBHPP_4	phs002790_PBBHPP	Not specified in data
+PBBIVU_4	Medulloblastoma, NOS	Brain, NOS	3492	diagnosis	phs002790_PBBIVU_PBBIVU_4	phs002790_PBBIVU	Not specified in data
+PBBIVW_4	Ependymoma, NOS	Brain, NOS	966	diagnosis	phs002790_PBBIVW_PBBIVW_4	phs002790_PBBIVW	Not specified in data
+PBBMMW_4	Alveolar rhabdomyosarcoma	Connective, subcutaneous and other soft tissues of head, face, and neck (excludes connective tissue of orbit C69.6 and nasal cartilage C30.0)	2315	diagnosis	phs002790_PBBMMW_PBBMMW_4	phs002790_PBBMMW	Not specified in data
+PBBRNY_4	Choroid plexus papilloma, NOS	Brain, NOS	5801	diagnosis	phs002790_PBBRNY_PBBRNY_4	phs002790_PBBRNY	Not specified in data
+PBBRZR_4	Neoplasm, malignant	Brain, NOS	2117	diagnosis	phs002790_PBBRZR_PBBRZR_4	phs002790_PBBRZR	Not specified in data
+PBBIZK_4	Ependymoma, NOS	Cerebellum, NOS	933	diagnosis	phs002790_PBBIZK_PBBIZK_4	phs002790_PBBIZK	Not specified in data
+PBBSDR_4	Glioma, malignant	Brain, NOS	5552	diagnosis	phs002790_PBBSDR_PBBSDR_4	phs002790_PBBSDR	Not specified in data
+PBBSKL_4	Glioma, malignant	Brain, NOS	1622	diagnosis	phs002790_PBBSKL_PBBSKL_4	phs002790_PBBSKL	Not specified in data
+PBBKJT_4	Medulloblastoma, NOS	Brain, NOS	5438	diagnosis	phs002790_PBBKJT_PBBKJT_4	phs002790_PBBKJT	Not specified in data
+PBBSPP_4	Undifferentiated sarcoma	Connective, subcutaneous and other soft tissues of head, face, and neck (excludes connective tissue of orbit C69.6 and nasal cartilage C30.0)	3375	diagnosis	phs002790_PBBSPP_PBBSPP_4	phs002790_PBBSPP	Not specified in data
+PBBIEL_4	Pilocytic astrocytoma	Brain, NOS	5053	diagnosis	phs002790_PBBIEL_PBBIEL_4	phs002790_PBBIEL	Not specified in data
+PBBPLF_4	Glioma, malignant	Brain, NOS	387	diagnosis	phs002790_PBBPLF_PBBPLF_4	phs002790_PBBPLF	Not specified in data
+PBBSXH_4	Glioma, malignant	Brain, NOS	6045	diagnosis	phs002790_PBBSXH_PBBSXH_4	phs002790_PBBSXH	Not specified in data
+PBBJIB_4	Pilocytic astrocytoma	Cerebellum, NOS	6067	diagnosis	phs002790_PBBJIB_PBBJIB_4	phs002790_PBBJIB	Not specified in data
+PBBTWG_4	Astrocytoma, NOS	Brain, NOS	1753	diagnosis	phs002790_PBBTWG_PBBTWG_4	phs002790_PBBTWG	Not specified in data
+PBBKCI_4	Medulloblastoma, NOS	Cerebellum, NOS	3145	diagnosis	phs002790_PBBKCI_PBBKCI_4	phs002790_PBBKCI	Not specified in data
+PBBLFW_4	Glioma, malignant	Brain, NOS	1925	diagnosis	phs002790_PBBLFW_PBBLFW_4	phs002790_PBBLFW	Not specified in data
+PBBJZW_4	Craniopharyngioma, adamantinomatous	Brain, NOS	2895	diagnosis	phs002790_PBBJZW_PBBJZW_4	phs002790_PBBJZW	Not specified in data
+PBBLIH_4	Atypical teratoid/rhabdoid tumor	Brain, NOS	184	diagnosis	phs002790_PBBLIH_PBBLIH_4	phs002790_PBBLIH	Not specified in data
+PBBMPH_4	Rhabdomyosarcoma, NOS	Retroperitoneum	6217	diagnosis	phs002790_PBBMPH_PBBMPH_4	phs002790_PBBMPH	Not specified in data
+PBBNZZ_4	Medulloblastoma, NOS	Brain, NOS	6185	diagnosis	phs002790_PBBNZZ_PBBNZZ_4	phs002790_PBBNZZ	Not specified in data
+PBBLSI_4	Medulloblastoma, NOS	Cerebellum, NOS	2296	diagnosis	phs002790_PBBLSI_PBBLSI_4	phs002790_PBBLSI	Not specified in data
+PBBMKD_4	Tumor cells, uncertain whether benign or malignant	Brain, NOS	1891	diagnosis	phs002790_PBBMKD_PBBMKD_4	phs002790_PBBMKD	Not specified in data
+PBBHGT_4	Ependymoma, NOS	Parietal lobe	2799	diagnosis	phs002790_PBBHGT_PBBHGT_4	phs002790_PBBHGT	Not specified in data
+PBBRSX_4	Embryonal rhabdomyosarcoma, NOS	Mouth, NOS	6050	diagnosis	phs002790_PBBRSX_PBBRSX_4	phs002790_PBBRSX	Not specified in data
+PBBLNU_4	Glioma, malignant	Spinal cord	3007	diagnosis	phs002790_PBBLNU_PBBLNU_4	phs002790_PBBLNU	Not specified in data
+PBBNFJ_4	Craniopharyngioma, adamantinomatous	Brain, NOS	3176	diagnosis	phs002790_PBBNFJ_PBBNFJ_4	phs002790_PBBNFJ	Not specified in data
+PBBIXX_4	Neoplasm, benign	Brain, NOS	6882	diagnosis	phs002790_PBBIXX_PBBIXX_4	phs002790_PBBIXX	Not specified in data
+PBBTTZ_4	Ependymoma, NOS	Brain, NOS	475	diagnosis	phs002790_PBBTTZ_PBBTTZ_4	phs002790_PBBTTZ	Not specified in data
+PBBPWK_4	Medulloblastoma, NOS	Cerebellum, NOS	3863	diagnosis	phs002790_PBBPWK_PBBPWK_4	phs002790_PBBPWK	Not specified in data
+PBBRFA_4	Germinoma	Brain, NOS	6384	diagnosis	phs002790_PBBRFA_PBBRFA_4	phs002790_PBBRFA	Not specified in data
+PBBUAB_4	Ependymoma, NOS	Brain, NOS	81	diagnosis	phs002790_PBBUAB_PBBUAB_4	phs002790_PBBUAB	Not specified in data
+PBBPAR_4	Retinoblastoma, NOS	Retina	72	diagnosis	phs002790_PBBPAR_PBBPAR_4	phs002790_PBBPAR	Not specified in data
+PBBJVU_4	Astroblastoma	Brain, NOS	2399	diagnosis	phs002790_PBBJVU_PBBJVU_4	phs002790_PBBJVU	Not specified in data
+PBBRKJ_4	Glioma, malignant	Parietal lobe	2161	diagnosis	phs002790_PBBRKJ_PBBRKJ_4	phs002790_PBBRKJ	Not specified in data
+PBBKLS_4	Pilocytic astrocytoma	Ventricle, NOS	6049	diagnosis	phs002790_PBBKLS_PBBKLS_4	phs002790_PBBKLS	Not specified in data
+PBBNJW_4	Medulloblastoma, NOS	Brain, NOS	4579	diagnosis	phs002790_PBBNJW_PBBNJW_4	phs002790_PBBNJW	Not specified in data
+PBBKFC_4	Astrocytoma, NOS	Brain, NOS	3080	diagnosis	phs002790_PBBKFC_PBBKFC_4	phs002790_PBBKFC	Not specified in data
+PBBRPW_4	Sarcoma, NOS	Overlapping lesion of brain	4439	diagnosis	phs002790_PBBRPW_PBBRPW_4	phs002790_PBBRPW	Not specified in data
+PBBNYL_4	Epithelioid sarcoma	Bladder, NOS	5582	diagnosis	phs002790_PBBNYL_PBBNYL_4	phs002790_PBBNYL	Not specified in data
+PBBPWH_4	Glioma, malignant	Brain, NOS	5332	diagnosis	phs002790_PBBPWH_PBBPWH_4	phs002790_PBBPWH	Not specified in data
+PBBSSM_5	Glioma, malignant	Brain, NOS	2333	diagnosis	phs002790_PBBSSM_PBBSSM_5	phs002790_PBBSSM	Not specified in data
+PBBUKK_4	Pilocytic astrocytoma	Brain stem	799	diagnosis	phs002790_PBBUKK_PBBUKK_4	phs002790_PBBUKK	Not specified in data
+PBBLMC_4	Glioma, malignant	Brain, NOS	6088	diagnosis	phs002790_PBBLMC_PBBLMC_4	phs002790_PBBLMC	Not specified in data
+PBBNLF_4	Alveolar rhabdomyosarcoma	Nasal cavity (excludes nose, NOS C76.0)	5150	diagnosis	phs002790_PBBNLF_PBBNLF_4	phs002790_PBBNLF	Not specified in data
+PBBUEK_4	Germinoma	Pineal gland	4875	diagnosis	phs002790_PBBUEK_PBBUEK_4	phs002790_PBBUEK	Not specified in data
+PBBSGU_4	Glioma, malignant	Brain, NOS	1448	diagnosis	phs002790_PBBSGU_PBBSGU_4	phs002790_PBBSGU	Not specified in data
+PBBNHH_4	Pilocytic astrocytoma	Brain, NOS	4166	diagnosis	phs002790_PBBNHH_PBBNHH_4	phs002790_PBBNHH	Not specified in data
+PBBPVG_4	Mixed germ cell tumor	Brain, NOS	5382	diagnosis	phs002790_PBBPVG_PBBPVG_4	phs002790_PBBPVG	Not specified in data
+PBBSJL_4	Neoplasm, uncertain whether benign or malignant	Brain, NOS	7488	diagnosis	phs002790_PBBSJL_PBBSJL_4	phs002790_PBBSJL	Not specified in data
+PBBTRZ_4	Neoplasm, uncertain whether benign or malignant	Brain, NOS	3590	diagnosis	phs002790_PBBTRZ_PBBTRZ_4	phs002790_PBBTRZ	Not specified in data
+PBBMNX_4	Pilocytic astrocytoma	Brain, NOS	1341	diagnosis	phs002790_PBBMNX_PBBMNX_4	phs002790_PBBMNX	Not specified in data
+PBBNFE_4	Glioma, malignant	Brain, NOS	1967	diagnosis	phs002790_PBBNFE_PBBNFE_4	phs002790_PBBNFE	Not specified in data
+PBBKUF_4	Myofibroma	Bones of skull and face and associated joints (excludes mandible C41.1)	1335	diagnosis	phs002790_PBBKUF_PBBKUF_4	phs002790_PBBKUF	Not specified in data
+PBBRLH_4	Sertoli-Leydig cell tumor, poorly differentiated, with heterologous elements	Ovary	5335	diagnosis	phs002790_PBBRLH_PBBRLH_4	phs002790_PBBRLH	Not specified in data
+PBBMVY_4	Glioma, malignant	Brain, NOS	2066	diagnosis	phs002790_PBBMVY_PBBMVY_4	phs002790_PBBMVY	Not specified in data
+PBBSWP_4	Tumor cells, uncertain whether benign or malignant	Spinal cord	4850	diagnosis	phs002790_PBBSWP_PBBSWP_4	phs002790_PBBSWP	Not specified in data
+PBBKCT_4	Astrocytoma, NOS	Brain, NOS	5000	diagnosis	phs002790_PBBKCT_PBBKCT_4	phs002790_PBBKCT	Not specified in data
+PBBJYH_4	Neoplasm, malignant	Brain, NOS	6973	diagnosis	phs002790_PBBJYH_PBBJYH_4	phs002790_PBBJYH	Not specified in data
+PBBLIX_4	Pinealoma	Brain, NOS	3653	diagnosis	phs002790_PBBLIX_PBBLIX_4	phs002790_PBBLIX	Not specified in data
+PBBTDA_4	Pilocytic astrocytoma	Spinal cord	145	diagnosis	phs002790_PBBTDA_PBBTDA_4	phs002790_PBBTDA	Not specified in data
+PBBTMJ_4	Ewing sarcoma	Abdomen, NOS	5984	diagnosis	phs002790_PBBTMJ_PBBTMJ_4	phs002790_PBBTMJ	Not specified in data
+PBBRIA_4	Glioma, malignant	Frontal lobe	4925	diagnosis	phs002790_PBBRIA_PBBRIA_4	phs002790_PBBRIA	Not specified in data
+PBBLXS_4	Rhabdomyosarcoma, NOS	Abdomen, NOS	2157	diagnosis	phs002790_PBBLXS_PBBLXS_4	phs002790_PBBLXS	Not specified in data
+PBBIKP_4	Medulloblastoma, NOS	Brain, NOS	2839	diagnosis	phs002790_PBBIKP_PBBIKP_4	phs002790_PBBIKP	Not specified in data
+PBBKSG_4	Glioma, malignant	Frontal lobe	6337	diagnosis	phs002790_PBBKSG_PBBKSG_4	phs002790_PBBKSG	Not specified in data
+PBBLRV_4	Synovial sarcoma, spindle cell	Connective, subcutaneous and other soft tissues of lower limb and hip	2247	diagnosis	phs002790_PBBLRV_PBBLRV_4	phs002790_PBBLRV	Not specified in data
+PBBPRP_4	Medulloblastoma, NOS	Cerebellum, NOS	770	diagnosis	phs002790_PBBPRP_PBBPRP_4	phs002790_PBBPRP	Not specified in data
+PBBJZE_5	Medulloblastoma, NOS	Brain, NOS	2887	diagnosis	phs002790_PBBJZE_PBBJZE_5	phs002790_PBBJZE	Not specified in data
+PBBJLB_4	Glioma, malignant	Brain, NOS	3646	diagnosis	phs002790_PBBJLB_PBBJLB_4	phs002790_PBBJLB	Not specified in data
+PBBRKT_4	Mixed germ cell tumor	Brain, NOS	6391	diagnosis	phs002790_PBBRKT_PBBRKT_4	phs002790_PBBRKT	Not specified in data
+PBBRWZ_4	Neoplasm, malignant	Brain, NOS	1784	diagnosis	phs002790_PBBRWZ_PBBRWZ_4	phs002790_PBBRWZ	Not specified in data
+PBBSEG_5	Medulloblastoma, NOS	Brain, NOS	825	diagnosis	phs002790_PBBSEG_PBBSEG_5	phs002790_PBBSEG	Not specified in data
+PBBKBC_4	Medulloblastoma, NOS	Cerebellum, NOS	6396	diagnosis	phs002790_PBBKBC_PBBKBC_4	phs002790_PBBKBC	Not specified in data
+PBBNYH_4	Retinoblastoma, NOS	Retina	1156	diagnosis	phs002790_PBBNYH_PBBNYH_4	phs002790_PBBNYH	Not specified in data
+PBBKBK_4	Choroid plexus carcinoma	Brain, NOS	1214	diagnosis	phs002790_PBBKBK_PBBKBK_4	phs002790_PBBKBK	Not specified in data
+PBBMKM_4	Pilocytic astrocytoma	Brain, NOS	6190	diagnosis	phs002790_PBBMKM_PBBMKM_4	phs002790_PBBMKM	Not specified in data
+PBBRUG_4	Adenocarcinoma, NOS	Lung, NOS	5304	diagnosis	phs002790_PBBRUG_PBBRUG_4	phs002790_PBBRUG	Not specified in data
+PBBLNJ_4	Medulloblastoma, NOS	Brain, NOS	2536	diagnosis	phs002790_PBBLNJ_PBBLNJ_4	phs002790_PBBLNJ	Not specified in data
+PBBSYH_4	Neoplasm, malignant	Temporal lobe	704	diagnosis	phs002790_PBBSYH_PBBSYH_4	phs002790_PBBSYH	Not specified in data
+PBBPLS_4	Choroid plexus papilloma, NOS	Brain, NOS	300	diagnosis	phs002790_PBBPLS_PBBPLS_4	phs002790_PBBPLS	Not specified in data
+PBBIFL_4	Astroblastoma	Overlapping lesion of brain	4646	diagnosis	phs002790_PBBIFL_PBBIFL_4	phs002790_PBBIFL	Not specified in data
+PBBTHU_4	Malignant tumor, spindle cell type	Connective, subcutaneous and other soft tissues of thorax (excludes thymus C37.9, heart and mediastinum C38._)	5234	diagnosis	phs002790_PBBTHU_PBBTHU_4	phs002790_PBBTHU	Not specified in data
+PBBUCU_4	Dermatofibroma, NOS	Connective, subcutaneous and other soft tissues of pelvis	2990	diagnosis	phs002790_PBBUCU_PBBUCU_4	phs002790_PBBUCU	Not specified in data
+PBBPSJ_4	Pilocytic astrocytoma	Ventricle, NOS	2126	diagnosis	phs002790_PBBPSJ_PBBPSJ_4	phs002790_PBBPSJ	Not specified in data
+PBBJBJ_4	Astrocytoma, NOS	Cerebellum, NOS	7319	diagnosis	phs002790_PBBJBJ_PBBJBJ_4	phs002790_PBBJBJ	Not specified in data
+PBBLSH_4	Ependymoma, NOS	Brain, NOS	5227	diagnosis	phs002790_PBBLSH_PBBLSH_4	phs002790_PBBLSH	Not specified in data
+PBBMHY_4	Neoplasm, malignant	Temporal lobe	1049	diagnosis	phs002790_PBBMHY_PBBMHY_4	phs002790_PBBMHY	Not specified in data
+PBBSRR_4	Sarcoma, NOS	Upper limb, NOS	6039	diagnosis	phs002790_PBBSRR_PBBSRR_4	phs002790_PBBSRR	Not specified in data
+PBBTKI_4	Neoplasm, uncertain whether benign or malignant	Brain, NOS	1080	diagnosis	phs002790_PBBTKI_PBBTKI_4	phs002790_PBBTKI	Not specified in data
+PBBTZC_4	Neoplasm, malignant	Cerebrum	2166	diagnosis	phs002790_PBBTZC_PBBTZC_4	phs002790_PBBTZC	Not specified in data
+PBBRRI_4	Embryonal rhabdomyosarcoma, NOS	Testis, NOS	5133	diagnosis	phs002790_PBBRRI_PBBRRI_4	phs002790_PBBRRI	Not specified in data
+PBBTYY_4	Neoplasm, uncertain whether benign or malignant	Brain, NOS	2708	diagnosis	phs002790_PBBTYY_PBBTYY_4	phs002790_PBBTYY	Not specified in data
+PBBTBU_4	Tumor cells, uncertain whether benign or malignant	Brain, NOS	2311	diagnosis	phs002790_PBBTBU_PBBTBU_4	phs002790_PBBTBU	Not specified in data
+PBBTVS_4	Neoplasm, uncertain whether benign or malignant	Brain, NOS	6232	diagnosis	phs002790_PBBTVS_PBBTVS_4	phs002790_PBBTVS	Not specified in data
+PBBIJK_4	CNS embryonal tumor, NOS	Brain, NOS	1786	diagnosis	phs002790_PBBIJK_PBBIJK_4	phs002790_PBBIJK	Not specified in data
+PBBLXR_4	Rhabdomyosarcoma, NOS	Nasopharynx, NOS	1205	diagnosis	phs002790_PBBLXR_PBBLXR_4	phs002790_PBBLXR	Not specified in data
+PBBNMN_4	Malignant tumor, spindle cell type	Upper limb, NOS	2186	diagnosis	phs002790_PBBNMN_PBBNMN_4	phs002790_PBBNMN	Not specified in data
+PBBJMK_4	Neoplasm, uncertain whether benign or malignant	Brain, NOS	903	diagnosis	phs002790_PBBJMK_PBBJMK_4	phs002790_PBBJMK	Not specified in data
+PBBJJD_4	Glioma, malignant	Brain, NOS	5180	diagnosis	phs002790_PBBJJD_PBBJJD_4	phs002790_PBBJJD	Not specified in data
+PBBNVU_4	Medulloblastoma, NOS	Brain, NOS	5558	diagnosis	phs002790_PBBNVU_PBBNVU_4	phs002790_PBBNVU	Not specified in data
+PBBILL_4	Neoplasm, uncertain whether benign or malignant	Brain, NOS	2454	diagnosis	phs002790_PBBILL_PBBILL_4	phs002790_PBBILL	Not specified in data
+PBBKDD_4	Astrocytoma, NOS	Brain, NOS	6069	diagnosis	phs002790_PBBKDD_PBBKDD_4	phs002790_PBBKDD	Not specified in data
+PBBLPZ_5	Glioma, malignant	Brain stem	6133	diagnosis	phs002790_PBBLPZ_PBBLPZ_5	phs002790_PBBLPZ	Not specified in data
+PBBILN_4	Neoplasm, benign	Brain, NOS	3605	diagnosis	phs002790_PBBILN_PBBILN_4	phs002790_PBBILN	Not specified in data
+PBBRBK_4	Ependymoma, NOS	Brain, NOS	3538	diagnosis	phs002790_PBBRBK_PBBRBK_4	phs002790_PBBRBK	Not specified in data
+PBBPDR_4	Sarcoma, NOS	Liver	6419	diagnosis	phs002790_PBBPDR_PBBPDR_4	phs002790_PBBPDR	Not specified in data
+PBBSGJ_4	Medulloblastoma, NOS	Brain, NOS	4490	diagnosis	phs002790_PBBSGJ_PBBSGJ_4	phs002790_PBBSGJ	Not specified in data
+PBBTWL_4	Glioma, malignant	Brain, NOS	3883	diagnosis	phs002790_PBBTWL_PBBTWL_4	phs002790_PBBTWL	Not specified in data
+PBBSJH_4	Central neurocytoma	Brain, NOS	2345	diagnosis	phs002790_PBBSJH_PBBSJH_4	phs002790_PBBSJH	Not specified in data
+PBBJAD_4	Astrocytoma, NOS	Brain, NOS	5961	diagnosis	phs002790_PBBJAD_PBBJAD_4	phs002790_PBBJAD	Not specified in data
+PBBRAB_4	Medulloblastoma, NOS	Brain, NOS	4391	diagnosis	phs002790_PBBRAB_PBBRAB_4	phs002790_PBBRAB	Not specified in data
+PBBJXV_4	Craniopharyngioma, adamantinomatous	Brain, NOS	1403	diagnosis	phs002790_PBBJXV_PBBJXV_4	phs002790_PBBJXV	Not specified in data
+PBBTIX_4	Glioma, malignant	Overlapping lesion of brain	3584	diagnosis	phs002790_PBBTIX_PBBTIX_4	phs002790_PBBTIX	Not specified in data
+PBBPJS_4	Medulloblastoma, NOS	Brain, NOS	3926	diagnosis	phs002790_PBBPJS_PBBPJS_4	phs002790_PBBPJS	Not specified in data
+PBBSBL_4	Carcinoma, NOS	Cerebellum, NOS	2391	diagnosis	phs002790_PBBSBL_PBBSBL_4	phs002790_PBBSBL	Not specified in data
+PBBJKP_4	Choroid plexus papilloma, NOS	Ventricle, NOS	117	diagnosis	phs002790_PBBJKP_PBBJKP_4	phs002790_PBBJKP	Not specified in data
+PBBNVD_4	Glioma, malignant	Brain stem	2293	diagnosis	phs002790_PBBNVD_PBBNVD_4	phs002790_PBBNVD	Not specified in data
+PBBPBJ_4	Glioma, malignant	Frontal lobe	6010	diagnosis	phs002790_PBBPBJ_PBBPBJ_4	phs002790_PBBPBJ	Not specified in data
+PBBMUA_4	Ependymoma, NOS	Brain, NOS	127	diagnosis	phs002790_PBBMUA_PBBMUA_4	phs002790_PBBMUA	Not specified in data
+PBBIZT_4	Medulloblastoma, NOS	Cerebellum, NOS	2122	diagnosis	phs002790_PBBIZT_PBBIZT_4	phs002790_PBBIZT	Not specified in data
+PBBMCH_4	Rhabdomyosarcoma, NOS	Pelvis, NOS	2325	diagnosis	phs002790_PBBMCH_PBBMCH_4	phs002790_PBBMCH	Not specified in data
+PBBPIH_4	Atypical teratoid/rhabdoid tumor	Brain stem	2408	diagnosis	phs002790_PBBPIH_PBBPIH_4	phs002790_PBBPIH	Not specified in data
+PBBJFI_4	Myxopapillary ependymoma	Spinal cord	5656	diagnosis	phs002790_PBBJFI_PBBJFI_4	phs002790_PBBJFI	Not specified in data
+PBBRGU_4	Pilocytic astrocytoma	Cerebellum, NOS	5609	diagnosis	phs002790_PBBRGU_PBBRGU_4	phs002790_PBBRGU	Not specified in data
+PBBHGD_4	Medulloblastoma, NOS	Brain, NOS	4800	diagnosis	phs002790_PBBHGD_PBBHGD_4	phs002790_PBBHGD	Not specified in data
+PBBILS_4	Glioma, malignant	Brain, NOS	1434	diagnosis	phs002790_PBBILS_PBBILS_4	phs002790_PBBILS	Not specified in data
+PBBUDU_4	Embryonal rhabdomyosarcoma, NOS	Mediastinum, NOS	5111	diagnosis	phs002790_PBBUDU_PBBUDU_4	phs002790_PBBUDU	Not specified in data
+PBBRNA_4	Infantile fibrosarcoma	Jejunum	1	diagnosis	phs002790_PBBRNA_PBBRNA_4	phs002790_PBBRNA	Not specified in data
+PBBNBV_4	Neoplasm, uncertain whether benign or malignant	Brain, NOS	3746	diagnosis	phs002790_PBBNBV_PBBNBV_4	phs002790_PBBNBV	Not specified in data
+PBBTHD_4	Carcinoma, metastatic, NOS	Spinal cord	4066	diagnosis	phs002790_PBBTHD_PBBTHD_4	phs002790_PBBTHD	Not specified in data
+PBBPXH_4	Glioma, malignant	Brain, NOS	4125	diagnosis	phs002790_PBBPXH_PBBPXH_4	phs002790_PBBPXH	Not specified in data
+PBBKRT_4	Medulloblastoma, NOS	Brain, NOS	1616	diagnosis	phs002790_PBBKRT_PBBKRT_4	phs002790_PBBKRT	Not specified in data
+PBBNKZ_4	Neuroblastoma, NOS	Abdomen, NOS	1615	diagnosis	phs002790_PBBNKZ_PBBNKZ_4	phs002790_PBBNKZ	Not specified in data
+PBBIVA_4	Pilocytic astrocytoma	Cerebellum, NOS	4545	diagnosis	phs002790_PBBIVA_PBBIVA_4	phs002790_PBBIVA	Not specified in data
+PBBPXG_4	Glioma, malignant	Brain, NOS	5951	diagnosis	phs002790_PBBPXG_PBBPXG_4	phs002790_PBBPXG	Not specified in data
+PBBRNG_4	Pleomorphic xanthoastrocytoma	Brain, NOS	5482	diagnosis	phs002790_PBBRNG_PBBRNG_4	phs002790_PBBRNG	Not specified in data
+PBBKPM_4	Neoplasm, malignant	Brain, NOS	3873	diagnosis	phs002790_PBBKPM_PBBKPM_4	phs002790_PBBKPM	Not specified in data
+PBBRYC_4	Osteosarcoma, NOS	Long bones of upper limb, scapula and  associated joints	3162	diagnosis	phs002790_PBBRYC_PBBRYC_4	phs002790_PBBRYC	Not specified in data
+PBBJVN_4	Glioma, malignant	Brain, NOS	1198	diagnosis	phs002790_PBBJVN_PBBJVN_4	phs002790_PBBJVN	Not specified in data
+PBBPWE_4	Ganglioglioma, NOS	Brain, NOS	4051	diagnosis	phs002790_PBBPWE_PBBPWE_4	phs002790_PBBPWE	Not specified in data
+PBBINZ_4	Glioma, malignant	Overlapping lesion of brain	4382	diagnosis	phs002790_PBBINZ_PBBINZ_4	phs002790_PBBINZ	Not specified in data
+PBBNVW_4	Embryonal rhabdomyosarcoma, NOS	Bladder, NOS	3088	diagnosis	phs002790_PBBNVW_PBBNVW_4	phs002790_PBBNVW	Not specified in data
+PBBNZF_4	Neoplasm, benign	Cerebellum, NOS	5764	diagnosis	phs002790_PBBNZF_PBBNZF_4	phs002790_PBBNZF	Not specified in data
+PBBLSG_4	Medulloblastoma, NOS	Brain, NOS	1675	diagnosis	phs002790_PBBLSG_PBBLSG_4	phs002790_PBBLSG	Not specified in data
+PBBJFF_4	Ependymoma, anaplastic	Parietal lobe	199	diagnosis	phs002790_PBBJFF_PBBJFF_4	phs002790_PBBJFF	Not specified in data
+PBBSKG_4	Myxoid liposarcoma	Abdomen, NOS	5570	diagnosis	phs002790_PBBSKG_PBBSKG_4	phs002790_PBBSKG	Not specified in data
+PBBUCS_4	Rhabdoid tumor, NOS	Posterior mediastinum	70	diagnosis	phs002790_PBBUCS_PBBUCS_4	phs002790_PBBUCS	Not specified in data
+PBBUIL_4	Sarcoma, NOS	Head, face or neck, NOS	485	diagnosis	phs002790_PBBUIL_PBBUIL_4	phs002790_PBBUIL	Not specified in data
+PBBSSU_4	Pilocytic astrocytoma	Brain, NOS	3235	diagnosis	phs002790_PBBSSU_PBBSSU_4	phs002790_PBBSSU	Not specified in data
+PBBMYK_4	Ganglioglioma, NOS	Temporal lobe	3960	diagnosis	phs002790_PBBMYK_PBBMYK_4	phs002790_PBBMYK	Not specified in data
+PBBRZD_4	Astrocytoma, NOS	Cerebellum, NOS	4089	diagnosis	phs002790_PBBRZD_PBBRZD_4	phs002790_PBBRZD	Not specified in data
+PBBUDK_4	Ependymoma, NOS	Brain, NOS	1833	diagnosis	phs002790_PBBUDK_PBBUDK_4	phs002790_PBBUDK	Not specified in data
+PBBJJT_4	Glioma, malignant	Brain, NOS	2719	diagnosis	phs002790_PBBJJT_PBBJJT_4	phs002790_PBBJJT	Not specified in data
+PBBKZS_4	Dysembryoplastic neuroepithelial tumor	Temporal lobe	3553	diagnosis	phs002790_PBBKZS_PBBKZS_4	phs002790_PBBKZS	Not specified in data
+PBBPIX_4	Glioma, malignant	Temporal lobe	4292	diagnosis	phs002790_PBBPIX_PBBPIX_4	phs002790_PBBPIX	Not specified in data
+PBBPUJ_4	Papillary adenocarcinoma, NOS	Thyroid Gland	5563	diagnosis	phs002790_PBBPUJ_PBBPUJ_4	phs002790_PBBPUJ	Not specified in data
+PBBSJK_4	Undifferentiated sarcoma	Connective, subcutaneous and other soft tissues of lower limb and hip	785	diagnosis	phs002790_PBBSJK_PBBSJK_4	phs002790_PBBSJK	Not specified in data
+PBBNSW_4	Glioblastoma, NOS	Frontal lobe	6159	diagnosis	phs002790_PBBNSW_PBBNSW_4	phs002790_PBBNSW	Not specified in data
+PBBPNU_4	Glioma, malignant	Brain, NOS	2102	diagnosis	phs002790_PBBPNU_PBBPNU_4	phs002790_PBBPNU	Not specified in data
+PBBMBU_4	Pilocytic astrocytoma	Brain, NOS	1592	diagnosis	phs002790_PBBMBU_PBBMBU_4	phs002790_PBBMBU	Not specified in data
+PBBKXV_4	Medulloblastoma, NOS	Brain, NOS	3926	diagnosis	phs002790_PBBKXV_PBBKXV_4	phs002790_PBBKXV	Not specified in data
+PBBPWT_4	Choroid plexus carcinoma	Brain, NOS	2448	diagnosis	phs002790_PBBPWT_PBBPWT_4	phs002790_PBBPWT	Not specified in data
+PBBSRE_4	Malignant tumor, spindle cell type	Lung, NOS	3879	diagnosis	phs002790_PBBSRE_PBBSRE_4	phs002790_PBBSRE	Not specified in data
+PBBRDE_4	Neoplasm, uncertain whether benign or malignant	Brain, NOS	2011	diagnosis	phs002790_PBBRDE_PBBRDE_4	phs002790_PBBRDE	Not specified in data
+PBBTKZ_4	Pilocytic astrocytoma	Brain, NOS	5974	diagnosis	phs002790_PBBTKZ_PBBTKZ_4	phs002790_PBBTKZ	Not specified in data
+PBBTTH_4	Glioma, malignant	Cerebellum, NOS	3557	diagnosis	phs002790_PBBTTH_PBBTTH_4	phs002790_PBBTTH	Not specified in data
+PBBIBR_4	Neoplasm, malignant	Brain, NOS	4702	diagnosis	phs002790_PBBIBR_PBBIBR_4	phs002790_PBBIBR	Not specified in data
+PBBUCL_4	Ependymoma, NOS	Brain, NOS	975	diagnosis	phs002790_PBBUCL_PBBUCL_4	phs002790_PBBUCL	Not specified in data
+PBBKPA_4	Myxopapillary ependymoma	Spinal cord	4856	diagnosis	phs002790_PBBKPA_PBBKPA_4	phs002790_PBBKPA	Not specified in data
+PBBJPU_4	Medulloblastoma, NOS	Brain, NOS	2719	diagnosis	phs002790_PBBJPU_PBBJPU_4	phs002790_PBBJPU	Not specified in data
+PBBMSR_4	Alveolar rhabdomyosarcoma	Connective, subcutaneous and other soft tissues of upper limb and shoulder	5074	diagnosis	phs002790_PBBMSR_PBBMSR_4	phs002790_PBBMSR	Not specified in data
+PBBNXF_4	Pilocytic astrocytoma	Brain, NOS	3746	diagnosis	phs002790_PBBNXF_PBBNXF_4	phs002790_PBBNXF	Not specified in data
+PBBSGI_4	Glioma, malignant	Brain, NOS	2271	diagnosis	phs002790_PBBSGI_PBBSGI_4	phs002790_PBBSGI	Not specified in data
+PBBHRU_4	Ependymoma, NOS	Ventricle, NOS	3787	diagnosis	phs002790_PBBHRU_PBBHRU_4	phs002790_PBBHRU	Not specified in data
+PBBNVX_4	Pilocytic astrocytoma	Brain, NOS	890	diagnosis	phs002790_PBBNVX_PBBNVX_4	phs002790_PBBNVX	Not specified in data
+PBBUDL_4	Dermatofibroma, NOS	Skin of scalp and neck	8405	diagnosis	phs002790_PBBUDL_PBBUDL_4	phs002790_PBBUDL	Not specified in data
+PBBPSX_4	Neoplasm, uncertain whether benign or malignant	Cerebrum	3400	diagnosis	phs002790_PBBPSX_PBBPSX_4	phs002790_PBBPSX	Not specified in data
+PBBMCX_4	Pituitary adenoma, NOS	Pituitary gland	6621	diagnosis	phs002790_PBBMCX_PBBMCX_4	phs002790_PBBMCX	Not specified in data
+PBBKFN_4	Medulloblastoma, NOS	Brain, NOS	8891	diagnosis	phs002790_PBBKFN_PBBKFN_4	phs002790_PBBKFN	Not specified in data
+PBBLTX_4	Undifferentiated sarcoma	Nasal cavity (excludes nose, NOS C76.0)	6419	diagnosis	phs002790_PBBLTX_PBBLTX_4	phs002790_PBBLTX	Not specified in data
+PBBNXZ_4	Neoplasm, malignant	Brain, NOS	2807	diagnosis	phs002790_PBBNXZ_PBBNXZ_4	phs002790_PBBNXZ	Not specified in data
+PBBNZV_4	Pilocytic astrocytoma	Brain, NOS	3767	diagnosis	phs002790_PBBNZV_PBBNZV_4	phs002790_PBBNZV	Not specified in data
+PBBPBB_4	Neoplasm, uncertain whether benign or malignant	Brain, NOS	4861	diagnosis	phs002790_PBBPBB_PBBPBB_4	phs002790_PBBPBB	Not specified in data
+PBBMKF_4	Neoplasm, malignant	Spinal cord	5148	diagnosis	phs002790_PBBMKF_PBBMKF_4	phs002790_PBBMKF	Not specified in data
+PBBUCK_4	Neoplasm, benign	Brain, NOS	4979	diagnosis	phs002790_PBBUCK_PBBUCK_4	phs002790_PBBUCK	Not specified in data
+PBBUCV_4	Medulloblastoma, NOS	Brain, NOS	5245	diagnosis	phs002790_PBBUCV_PBBUCV_4	phs002790_PBBUCV	Not specified in data
+PBBKTB_4	Rhabdomyosarcoma, NOS	Orbit, NOS	3282	diagnosis	phs002790_PBBKTB_PBBKTB_4	phs002790_PBBKTB	Not specified in data
+PBBPMG_4	Sarcoma, NOS	Connective, subcutaneous and other soft tissues of upper limb and shoulder	298	diagnosis	phs002790_PBBPMG_PBBPMG_4	phs002790_PBBPMG	Not specified in data
+PBBPIV_4	Sarcoma, NOS	Connective, subcutaneous and other soft tissues, NOS	5715	diagnosis	phs002790_PBBPIV_PBBPIV_4	phs002790_PBBPIV	Not specified in data
+PBBLKF_4	Pleomorphic xanthoastrocytoma	Brain, NOS	4824	diagnosis	phs002790_PBBLKF_PBBLKF_4	phs002790_PBBLKF	Not specified in data
+PBBIMT_4	Pleomorphic xanthoastrocytoma	Parietal lobe	6146	diagnosis	phs002790_PBBIMT_PBBIMT_4	phs002790_PBBIMT	Not specified in data
+PBBIBH_4	Medulloblastoma, NOS	Brain, NOS	3218	diagnosis	phs002790_PBBIBH_PBBIBH_4	phs002790_PBBIBH	Not specified in data
+PBBTCP_4	Ependymoma, NOS	Brain, NOS	656	diagnosis	phs002790_PBBTCP_PBBTCP_4	phs002790_PBBTCP	Not specified in data
+PBBTED_4	Glioma, malignant	Brain, NOS	2312	diagnosis	phs002790_PBBTED_PBBTED_4	phs002790_PBBTED	Not specified in data
+PBBRDV_4	Glioma, malignant	Brain, NOS	4332	diagnosis	phs002790_PBBRDV_PBBRDV_4	phs002790_PBBRDV	Not specified in data
+PBBRUN_4	Adenocarcinoma, metastatic, NOS	Pancreatic duct	3502	diagnosis	phs002790_PBBRUN_PBBRUN_4	phs002790_PBBRUN	Not specified in data
+PBBNFP_4	Pilocytic astrocytoma	Brain, NOS	3311	diagnosis	phs002790_PBBNFP_PBBNFP_4	phs002790_PBBNFP	Not specified in data
+PBBIIW_4	Glioma, malignant	Brain, NOS	7176	diagnosis	phs002790_PBBIIW_PBBIIW_4	phs002790_PBBIIW	Not specified in data
+PBBTYM_4	Medulloblastoma, NOS	Brain, NOS	4320	diagnosis	phs002790_PBBTYM_PBBTYM_4	phs002790_PBBTYM	Not specified in data
+PBBPEH_4	Embryonal rhabdomyosarcoma, NOS	Nasopharynx, NOS	1217	diagnosis	phs002790_PBBPEH_PBBPEH_4	phs002790_PBBPEH	Not specified in data
+PBBLKB_4	Synovial sarcoma, NOS	Long bones of lower limb and associated joints	5571	diagnosis	phs002790_PBBLKB_PBBLKB_4	phs002790_PBBLKB	Not specified in data
+PBBNPG_4	Neurofibroma, NOS	Spinal meninges	2660	diagnosis	phs002790_PBBNPG_PBBNPG_4	phs002790_PBBNPG	Not specified in data
+PBBPWG_4	Glioma, malignant	Brain, NOS	3898	diagnosis	phs002790_PBBPWG_PBBPWG_4	phs002790_PBBPWG	Not specified in data
+PBBHXE_4	Malignant histiocytosis	Brain, NOS	4547	diagnosis	phs002790_PBBHXE_PBBHXE_4	phs002790_PBBHXE	Not specified in data
+PBBRCW_4	Aggressive fibromatosis	Peritoneum, NOS	6257	diagnosis	phs002790_PBBRCW_PBBRCW_4	phs002790_PBBRCW	Not specified in data
+PBBRBG_4	Sarcoma, NOS	Liver	1878	diagnosis	phs002790_PBBRBG_PBBRBG_4	phs002790_PBBRBG	Not specified in data
+PBBPFG_4	Medulloblastoma, NOS	Brain, NOS	1305	diagnosis	phs002790_PBBPFG_PBBPFG_4	phs002790_PBBPFG	Not specified in data
+PBBSVA_4	Rhabdoid tumor, NOS	Vertebral column (excludes sacrum and coccyx C41.4)	2405	diagnosis	phs002790_PBBSVA_PBBSVA_4	phs002790_PBBSVA	Not specified in data
+PBBLBN_4	Medulloblastoma, NOS	Cerebellum, NOS	839	diagnosis	phs002790_PBBLBN_PBBLBN_4	phs002790_PBBLBN	Not specified in data
+PBBPMB_4	Medulloblastoma, NOS	Brain, NOS	8772	diagnosis	phs002790_PBBPMB_PBBPMB_4	phs002790_PBBPMB	Not specified in data
+PBBHMI_4	Ependymoma, NOS	Brain, NOS	2918	diagnosis	phs002790_PBBHMI_PBBHMI_4	phs002790_PBBHMI	Not specified in data
+PBBIXN_4	Glioma, malignant	Brain stem	2584	diagnosis	phs002790_PBBIXN_PBBIXN_4	phs002790_PBBIXN	Not specified in data
+PBBMLN_4	Alveolar rhabdomyosarcoma	Bladder, NOS	1494	diagnosis	phs002790_PBBMLN_PBBMLN_4	phs002790_PBBMLN	Not specified in data
+PBBPRU_4	Medulloblastoma, NOS	Brain, NOS	462	diagnosis	phs002790_PBBPRU_PBBPRU_4	phs002790_PBBPRU	Not specified in data
+PBBMRN_4	Rhabdomyosarcoma, NOS	Nasopharynx, NOS	2315	diagnosis	phs002790_PBBMRN_PBBMRN_4	phs002790_PBBMRN	Not specified in data
+PBBTLR_4	Glioma, malignant	Brain, NOS	4583	diagnosis	phs002790_PBBTLR_PBBTLR_4	phs002790_PBBTLR	Not specified in data
+PBBIHJ_4	Pilocytic astrocytoma	Brain, NOS	6318	diagnosis	phs002790_PBBIHJ_PBBIHJ_4	phs002790_PBBIHJ	Not specified in data
+PBBRWJ_4	Medulloblastoma, NOS	Cerebellum, NOS	6030	diagnosis	phs002790_PBBRWJ_PBBRWJ_4	phs002790_PBBRWJ	Not specified in data
+PBBRNV_4	Aggressive fibromatosis	Retroperitoneum	5908	diagnosis	phs002790_PBBRNV_PBBRNV_4	phs002790_PBBRNV	Not specified in data
+PBBRAH_4	Undifferentiated sarcoma	Lower limb, NOS	531	diagnosis	phs002790_PBBRAH_PBBRAH_4	phs002790_PBBRAH	Not specified in data
+PBBMJK_4	Ependymoma, NOS	Brain, NOS	467	diagnosis	phs002790_PBBMJK_PBBMJK_4	phs002790_PBBMJK	Not specified in data
+PBBSZS_4	Embryonal rhabdomyosarcoma, NOS	Testis, NOS	1522	diagnosis	phs002790_PBBSZS_PBBSZS_4	phs002790_PBBSZS	Not specified in data
+PBBPNC_4	Embryonal carcinoma, NOS	Brain stem	4047	diagnosis	phs002790_PBBPNC_PBBPNC_4	phs002790_PBBPNC	Not specified in data
+PBBRSA_4	Synovial sarcoma, NOS	Connective, subcutaneous and other soft tissues, NOS	1919	diagnosis	phs002790_PBBRSA_PBBRSA_4	phs002790_PBBRSA	Not specified in data
+PBBRDG_4	Dysembryoplastic neuroepithelial tumor	Brain, NOS	2254	diagnosis	phs002790_PBBRDG_PBBRDG_4	phs002790_PBBRDG	Not specified in data
+PBBJGW_4	Ependymoma, NOS	Brain, NOS	1933	diagnosis	phs002790_PBBJGW_PBBJGW_4	phs002790_PBBJGW	Not specified in data
+PBBKSS_4	Astrocytoma, NOS	Temporal lobe	7163	diagnosis	phs002790_PBBKSS_PBBKSS_4	phs002790_PBBKSS	Not specified in data
+PBBHWP_4	Glioma, malignant	Brain stem	4912	diagnosis	phs002790_PBBHWP_PBBHWP_4	phs002790_PBBHWP	Not specified in data
+PBBRPZ_4	Medullary carcinoma, NOS	Kidney, NOS	5522	diagnosis	phs002790_PBBRPZ_PBBRPZ_4	phs002790_PBBRPZ	Not specified in data
+PBBJUK_4	Pilocytic astrocytoma	Brain, NOS	9261	diagnosis	phs002790_PBBJUK_PBBJUK_4	phs002790_PBBJUK	Not specified in data
+PBBLPX_4	Pilocytic astrocytoma	Cerebellum, NOS	1759	diagnosis	phs002790_PBBLPX_PBBLPX_4	phs002790_PBBLPX	Not specified in data
+PBBKPJ_4	Neoplasm, uncertain whether benign or malignant	Brain, NOS	4970	diagnosis	phs002790_PBBKPJ_PBBKPJ_4	phs002790_PBBKPJ	Not specified in data
+PBBUAY_4	Medulloblastoma, NOS	Brain, NOS	1099	diagnosis	phs002790_PBBUAY_PBBUAY_4	phs002790_PBBUAY	Not specified in data
+PBBMEY_4	Embryonal rhabdomyosarcoma, NOS	Vagina, NOS	578	diagnosis	phs002790_PBBMEY_PBBMEY_4	phs002790_PBBMEY	Not specified in data
+PBBLML_4	Medulloblastoma, NOS	Brain, NOS	452	diagnosis	phs002790_PBBLML_PBBLML_4	phs002790_PBBLML	Not specified in data
+PBBNWB_4	Medulloblastoma, NOS	Brain, NOS	2709	diagnosis	phs002790_PBBNWB_PBBNWB_4	phs002790_PBBNWB	Not specified in data
+PBBNTU_4	Medulloblastoma, NOS	Brain, NOS	5803	diagnosis	phs002790_PBBNTU_PBBNTU_4	phs002790_PBBNTU	Not specified in data
+PBBIRB_4	Astrocytoma, NOS	Brain, NOS	2783	diagnosis	phs002790_PBBIRB_PBBIRB_4	phs002790_PBBIRB	Not specified in data
+PBBKXE_4	Tumor cells, uncertain whether benign or malignant	Brain, NOS	3389	diagnosis	phs002790_PBBKXE_PBBKXE_4	phs002790_PBBKXE	Not specified in data
+PBBPJK_4	Neoplasm, uncertain whether benign or malignant	Brain, NOS	4950	diagnosis	phs002790_PBBPJK_PBBPJK_4	phs002790_PBBPJK	Not specified in data
+PBBRUB_4	Medulloblastoma, NOS	Cerebellum, NOS	2879	diagnosis	phs002790_PBBRUB_PBBRUB_4	phs002790_PBBRUB	Not specified in data
+PBBRWR_4	Alveolar rhabdomyosarcoma	Lower limb, NOS	1680	diagnosis	phs002790_PBBRWR_PBBRWR_4	phs002790_PBBRWR	Not specified in data
+PBBMKI_4	Central neurocytoma	Ventricle, NOS	6863	diagnosis	phs002790_PBBMKI_PBBMKI_4	phs002790_PBBMKI	Not specified in data
+PBBNFF_4	Ganglioglioma, NOS	Brain, NOS	4851	diagnosis	phs002790_PBBNFF_PBBNFF_4	phs002790_PBBNFF	Not specified in data
+PBBTDW_4	Sarcoma, NOS	Brain, NOS	3957	diagnosis	phs002790_PBBTDW_PBBTDW_4	phs002790_PBBTDW	Not specified in data
+PBBSRD_4	Glioma, malignant	Brain, NOS	5613	diagnosis	phs002790_PBBSRD_PBBSRD_4	phs002790_PBBSRD	Not specified in data
+PBBILR_4	Unknown, to be completed later	Brain, NOS	833	diagnosis	phs002790_PBBILR_PBBILR_4	phs002790_PBBILR	Not specified in data
+PBBJPI_4	Pinealoma	Brain, NOS	4186	diagnosis	phs002790_PBBJPI_PBBJPI_4	phs002790_PBBJPI	Not specified in data
+PBBHIL_4	Glioma, malignant	Temporal lobe	1386	diagnosis	phs002790_PBBHIL_PBBHIL_4	phs002790_PBBHIL	Not specified in data
+PBBHYH_4	Glioma, malignant	Brain, NOS	5326	diagnosis	phs002790_PBBHYH_PBBHYH_4	phs002790_PBBHYH	Not specified in data
+PBBNBI_4	Astrocytoma, NOS	Brain, NOS	2163	diagnosis	phs002790_PBBNBI_PBBNBI_4	phs002790_PBBNBI	Not specified in data
+PBBRGL_4	Subependymal giant cell astrocytoma	Brain, NOS	91	diagnosis	phs002790_PBBRGL_PBBRGL_4	phs002790_PBBRGL	Not specified in data
+PBBPKJ_4	Neoplasm, uncertain whether benign or malignant	Frontal lobe	757	diagnosis	phs002790_PBBPKJ_PBBPKJ_4	phs002790_PBBPKJ	Not specified in data
+PBBMTC_4	Alveolar rhabdomyosarcoma	Connective, subcutaneous and other soft tissues, NOS	1425	diagnosis	phs002790_PBBMTC_PBBMTC_4	phs002790_PBBMTC	Not specified in data
+PBBTEJ_4	Infantile fibrosarcoma	Connective, subcutaneous and other soft tissues of lower limb and hip	93	diagnosis	phs002790_PBBTEJ_PBBTEJ_4	phs002790_PBBTEJ	Not specified in data
+PBBSXV_4	Glioma, malignant	Brain, NOS	5046	diagnosis	phs002790_PBBSXV_PBBSXV_4	phs002790_PBBSXV	Not specified in data
+PBBISC_4	Neoplasm, malignant	Brain, NOS	56	diagnosis	phs002790_PBBISC_PBBISC_4	phs002790_PBBISC	Not specified in data
+PBBKIL_4	Glioma, malignant	Brain, NOS	5704	diagnosis	phs002790_PBBKIL_PBBKIL_4	phs002790_PBBKIL	Not specified in data
+PBBKBP_4	Medulloblastoma, NOS	Occipital lobe	1344	diagnosis	phs002790_PBBKBP_PBBKBP_4	phs002790_PBBKBP	Not specified in data
+PBBIRI_4	Medulloblastoma, NOS	Brain, NOS	2395	diagnosis	phs002790_PBBIRI_PBBIRI_4	phs002790_PBBIRI	Not specified in data
+PBBMSC_4	Ganglioglioma, NOS	Brain, NOS	3580	diagnosis	phs002790_PBBMSC_PBBMSC_4	phs002790_PBBMSC	Not specified in data
+PBBPYI_4	Medulloblastoma, NOS	Brain, NOS	3912	diagnosis	phs002790_PBBPYI_PBBPYI_4	phs002790_PBBPYI	Not specified in data
+PBBTUW_4	Neoplasm, uncertain whether benign or malignant	Brain stem	1346	diagnosis	phs002790_PBBTUW_PBBTUW_4	phs002790_PBBTUW	Not specified in data
+PBBPYS_4	Glioma, malignant	Temporal lobe	2858	diagnosis	phs002790_PBBPYS_PBBPYS_4	phs002790_PBBPYS	Not specified in data
+PBBUKA_4	Embryonal rhabdomyosarcoma, NOS	Connective, subcutaneous and other soft tissues of head, face, and neck (excludes connective tissue of orbit C69.6 and nasal cartilage C30.0)	1194	diagnosis	phs002790_PBBUKA_PBBUKA_4	phs002790_PBBUKA	Not specified in data
+PBBNFR_4	Pilocytic astrocytoma	Brain, NOS	3571	diagnosis	phs002790_PBBNFR_PBBNFR_4	phs002790_PBBNFR	Not specified in data
+PBBJIF_4	Astrocytoma, NOS	Brain, NOS	1545	diagnosis	phs002790_PBBJIF_PBBJIF_4	phs002790_PBBJIF	Not specified in data
+PBBRVL_4	Medulloblastoma, NOS	Brain stem	1896	diagnosis	phs002790_PBBRVL_PBBRVL_4	phs002790_PBBRVL	Not specified in data
+PBBJDE_4	Schwannoma, NOS	Brain, NOS	3818	diagnosis	phs002790_PBBJDE_PBBJDE_4	phs002790_PBBJDE	Not specified in data
+PBBRRE_4	Medulloblastoma, NOS	Brain, NOS	946	diagnosis	phs002790_PBBRRE_PBBRRE_4	phs002790_PBBRRE	Not specified in data
+PBBMME_4	Spindle cell sarcoma	Abdomen, NOS	66	diagnosis	phs002790_PBBMME_PBBMME_4	phs002790_PBBMME	Not specified in data
+PBBNGE_4	Ganglioglioma, NOS	Spinal cord	3020	diagnosis	phs002790_PBBNGE_PBBNGE_4	phs002790_PBBNGE	Not specified in data
+PBBPJU_4	Glioma, malignant	Brain, NOS	5492	diagnosis	phs002790_PBBPJU_PBBPJU_4	phs002790_PBBPJU	Not specified in data
+PBBRBZ_4	Teratoma, malignant, NOS	Brain, NOS	0	diagnosis	phs002790_PBBRBZ_PBBRBZ_4	phs002790_PBBRBZ	Not specified in data
+PBBSER_4	Neoplasm, malignant	Brain, NOS	469	diagnosis	phs002790_PBBSER_PBBSER_4	phs002790_PBBSER	Not specified in data
+PBBREU_4	Sertoli cell tumor, NOS	Testis, NOS	6412	diagnosis	phs002790_PBBREU_PBBREU_4	phs002790_PBBREU	Not specified in data
+PBBUBR_4	Embryonal rhabdomyosarcoma, NOS	Vagina, NOS	604	diagnosis	phs002790_PBBUBR_PBBUBR_4	phs002790_PBBUBR	Not specified in data
+PBBLPR_4	Medulloblastoma, NOS	Brain, NOS	4007	diagnosis	phs002790_PBBLPR_PBBLPR_4	phs002790_PBBLPR	Not specified in data
+PBBNJM_4	Pilocytic astrocytoma	Brain, NOS	1722	diagnosis	phs002790_PBBNJM_PBBNJM_4	phs002790_PBBNJM	Not specified in data
+PBBPVL_4	Choroid plexus carcinoma	Ventricle, NOS	445	diagnosis	phs002790_PBBPVL_PBBPVL_4	phs002790_PBBPVL	Not specified in data
+PBBUFR_4	Sarcoma, NOS	Adrenal gland, NOS	1546	diagnosis	phs002790_PBBUFR_PBBUFR_4	phs002790_PBBUFR	Not specified in data
+PBBKSJ_4	Medulloblastoma, NOS	Brain, NOS	3009	diagnosis	phs002790_PBBKSJ_PBBKSJ_4	phs002790_PBBKSJ	Not specified in data
+PBBSAI_4	Papillary carcinoma, NOS	Thyroid Gland	5051	diagnosis	phs002790_PBBSAI_PBBSAI_4	phs002790_PBBSAI	Not specified in data
+PBBPUG_4	Neoplasm, uncertain whether benign or malignant	Brain, NOS	806	diagnosis	phs002790_PBBPUG_PBBPUG_4	phs002790_PBBPUG	Not specified in data
+PBBIWP_4	Medulloblastoma, NOS	Brain, NOS	1906	diagnosis	phs002790_PBBIWP_PBBIWP_4	phs002790_PBBIWP	Not specified in data
+PBBSMY_4	Meningioma, malignant	Brain, NOS	5255	diagnosis	phs002790_PBBSMY_PBBSMY_4	phs002790_PBBSMY	Not specified in data
+PBBTXS_4	Glioma, malignant	Brain, NOS	4154	diagnosis	phs002790_PBBTXS_PBBTXS_4	phs002790_PBBTXS	Not specified in data
+PBBMEA_4	Neurofibromatosis, NOS	Spinal cord	4850	diagnosis	phs002790_PBBMEA_PBBMEA_4	phs002790_PBBMEA	Not specified in data
+PBBTDX_4	Pilocytic astrocytoma	Cerebellum, NOS	3165	diagnosis	phs002790_PBBTDX_PBBTDX_4	phs002790_PBBTDX	Not specified in data
+PBBMSY_4	Ependymoma, NOS	Brain stem	906	diagnosis	phs002790_PBBMSY_PBBMSY_4	phs002790_PBBMSY	Not specified in data
+PBBKPL_4	Atypical teratoid/rhabdoid tumor	Brain, NOS	783	diagnosis	phs002790_PBBKPL_PBBKPL_4	phs002790_PBBKPL	Not specified in data
+PBBKKT_4	Glioma, malignant	Brain, NOS	4750	diagnosis	phs002790_PBBKKT_PBBKKT_4	phs002790_PBBKKT	Not specified in data
+PBBLXG_4	Glioma, malignant	Brain, NOS	5027	diagnosis	phs002790_PBBLXG_PBBLXG_4	phs002790_PBBLXG	Not specified in data
+PBBJNB_4	Neoplasm, uncertain whether benign or malignant	Brain, NOS	758	diagnosis	phs002790_PBBJNB_PBBJNB_4	phs002790_PBBJNB	Not specified in data
+PBBSID_4	Pilocytic astrocytoma	Brain, NOS	1751	diagnosis	phs002790_PBBSID_PBBSID_4	phs002790_PBBSID	Not specified in data
+PBBTUH_4	Glioma, malignant	Temporal lobe	2856	diagnosis	phs002790_PBBTUH_PBBTUH_4	phs002790_PBBTUH	Not specified in data
+PBBTLN_4	Neoplasm, malignant	Parietal lobe	2107	diagnosis	phs002790_PBBTLN_PBBTLN_4	phs002790_PBBTLN	Not specified in data
+PBBUDJ_4	Sertoli-Leydig cell tumor, poorly differentiated	Ovary	4475	diagnosis	phs002790_PBBUDJ_PBBUDJ_4	phs002790_PBBUDJ	Not specified in data
+PBBKZT_4	Unknown, to be completed later	Brain, NOS	5678	diagnosis	phs002790_PBBKZT_PBBKZT_4	phs002790_PBBKZT	Not specified in data
+PBBPRS_4	Medulloblastoma, NOS	Brain stem	2520	diagnosis	phs002790_PBBPRS_PBBPRS_4	phs002790_PBBPRS	Not specified in data
+PBBPPV_4	Medulloblastoma, NOS	Brain, NOS	5827	diagnosis	phs002790_PBBPPV_PBBPPV_4	phs002790_PBBPPV	Not specified in data
+PBBSVZ_4	Medulloblastoma, NOS	Brain, NOS	2659	diagnosis	phs002790_PBBSVZ_PBBSVZ_4	phs002790_PBBSVZ	Not specified in data
+PBBKDK_4	Medulloblastoma, NOS	Cerebellum, NOS	5961	diagnosis	phs002790_PBBKDK_PBBKDK_4	phs002790_PBBKDK	Not specified in data
+PBBPLU_4	Atypical teratoid/rhabdoid tumor	Spinal cord	3969	diagnosis	phs002790_PBBPLU_PBBPLU_4	phs002790_PBBPLU	Not specified in data
+PBBTMF_4	Neoplasm, uncertain whether benign or malignant	Brain, NOS	4711	diagnosis	phs002790_PBBTMF_PBBTMF_4	phs002790_PBBTMF	Not specified in data
+PBBPPY_4	Ganglioglioma, NOS	Brain, NOS	5836	diagnosis	phs002790_PBBPPY_PBBPPY_4	phs002790_PBBPPY	Not specified in data
+PBBLDU_4	Glioma, malignant	Cerebrum	951	diagnosis	phs002790_PBBLDU_PBBLDU_4	phs002790_PBBLDU	Not specified in data
+PBBKWB_4	Medulloblastoma, NOS	Brain, NOS	2774	diagnosis	phs002790_PBBKWB_PBBKWB_4	phs002790_PBBKWB	Not specified in data
+PBBSHJ_4	Choroid plexus carcinoma	Ventricle, NOS	809	diagnosis	phs002790_PBBSHJ_PBBSHJ_4	phs002790_PBBSHJ	Not specified in data
+PBBTDS_4	Glioma, malignant	Parietal lobe	2593	diagnosis	phs002790_PBBTDS_PBBTDS_4	phs002790_PBBTDS	Not specified in data
+PBBTXM_4	Ependymoma, NOS	Spinal cord	4343	diagnosis	phs002790_PBBTXM_PBBTXM_4	phs002790_PBBTXM	Not specified in data
+PBBTWM_4	Rhabdomyosarcoma, NOS	Nasopharynx, NOS	2533	diagnosis	phs002790_PBBTWM_PBBTWM_4	phs002790_PBBTWM	Not specified in data
+PBBJJX_4	Pilocytic astrocytoma	Brain stem	1724	diagnosis	phs002790_PBBJJX_PBBJJX_4	phs002790_PBBJJX	Not specified in data
+PBBTAY_4	Glioma, malignant	Brain, NOS	4138	diagnosis	phs002790_PBBTAY_PBBTAY_4	phs002790_PBBTAY	Not specified in data
+PBBINC_4	Craniopharyngioma	Brain, NOS	3124	diagnosis	phs002790_PBBINC_PBBINC_4	phs002790_PBBINC	Not specified in data
+PBBMFZ_4	Aggressive fibromatosis	Connective, subcutaneous and other soft tissues of head, face, and neck (excludes connective tissue of orbit C69.6 and nasal cartilage C30.0)	809	diagnosis	phs002790_PBBMFZ_PBBMFZ_4	phs002790_PBBMFZ	Not specified in data
+PBBPTA_4	Glioma, malignant	Spinal cord	1140	diagnosis	phs002790_PBBPTA_PBBPTA_4	phs002790_PBBPTA	Not specified in data
+PBBILT_4	Unknown, to be completed later	Brain, NOS	5587	diagnosis	phs002790_PBBILT_PBBILT_4	phs002790_PBBILT	Not specified in data
+PBBJPZ_4	Pilocytic astrocytoma	Cerebellum, NOS	1040	diagnosis	phs002790_PBBJPZ_PBBJPZ_4	phs002790_PBBJPZ	Not specified in data
+PBBSME_4	Medulloblastoma, NOS	Brain, NOS	6013	diagnosis	phs002790_PBBSME_PBBSME_4	phs002790_PBBSME	Not specified in data
+PBBSUA_4	Neuroendocrine carcinoma, NOS	Pancreas, NOS	6851	diagnosis	phs002790_PBBSUA_PBBSUA_4	phs002790_PBBSUA	Not specified in data
+PBBNPB_4	Alveolar rhabdomyosarcoma	Lymph nodes of inguinal region or leg	5438	diagnosis	phs002790_PBBNPB_PBBNPB_4	phs002790_PBBNPB	Not specified in data
+PBBTYW_4	Synovial sarcoma, spindle cell	Connective, subcutaneous and other soft tissues of upper limb and shoulder	5547	diagnosis	phs002790_PBBTYW_PBBTYW_4	phs002790_PBBTYW	Not specified in data
+PBBKPY_4	Pilocytic astrocytoma	Parietal lobe	3573	diagnosis	phs002790_PBBKPY_PBBKPY_4	phs002790_PBBKPY	Not specified in data
+PBBNMC_4	Atypical teratoid/rhabdoid tumor	Brain, NOS	434	diagnosis	phs002790_PBBNMC_PBBNMC_4	phs002790_PBBNMC	Not specified in data
+PBBSBT_4	Ganglioglioma, NOS	Brain, NOS	3870	diagnosis	phs002790_PBBSBT_PBBSBT_4	phs002790_PBBSBT	Not specified in data
+PBBMCS_4	Myxoid liposarcoma	Lymph nodes of inguinal region or leg	5737	diagnosis	phs002790_PBBMCS_PBBMCS_4	phs002790_PBBMCS	Not specified in data
+PBBRLT_4	Mucoepidermoid carcinoma	Hard palate	2556	diagnosis	phs002790_PBBRLT_PBBRLT_4	phs002790_PBBRLT	Not specified in data
+PBBSZR_4	Ganglioglioma, NOS	Occipital lobe	4927	diagnosis	phs002790_PBBSZR_PBBSZR_4	phs002790_PBBSZR	Not specified in data
+PBBUBH_4	Medulloblastoma, NOS	Cerebellum, NOS	1528	diagnosis	phs002790_PBBUBH_PBBUBH_4	phs002790_PBBUBH	Not specified in data
+PBBTWI_4	Neoplasm, uncertain whether benign or malignant	Brain, NOS	780	diagnosis	phs002790_PBBTWI_PBBTWI_4	phs002790_PBBTWI	Not specified in data
+PBBHWY_5	Neoplasm, malignant	Brain, NOS	949	diagnosis	phs002790_PBBHWY_PBBHWY_5	phs002790_PBBHWY	Not specified in data
+PBBRXL_4	Neoplasm, malignant	Brain, NOS	605	diagnosis	phs002790_PBBRXL_PBBRXL_4	phs002790_PBBRXL	Not specified in data
+PBBREX_4	Glioma, malignant	Brain, NOS	1358	diagnosis	phs002790_PBBREX_PBBREX_4	phs002790_PBBREX	Not specified in data
+PBBPGL_4	Ganglioglioma, NOS	Brain, NOS	5560	diagnosis	phs002790_PBBPGL_PBBPGL_4	phs002790_PBBPGL	Not specified in data
+PBBLXN_4	Aggressive fibromatosis	Connective, subcutaneous and other soft tissues of pelvis	3713	diagnosis	phs002790_PBBLXN_PBBLXN_4	phs002790_PBBLXN	Not specified in data
+PBBMEX_4	Ganglioglioma, NOS	Brain, NOS	6134	diagnosis	phs002790_PBBMEX_PBBMEX_4	phs002790_PBBMEX	Not specified in data
+PBBKTT_4	Medulloblastoma, NOS	Brain, NOS	4623	diagnosis	phs002790_PBBKTT_PBBKTT_4	phs002790_PBBKTT	Not specified in data
+PBBMVW_4	Spindle cell rhabdomyosarcoma	Orbit, NOS	2754	diagnosis	phs002790_PBBMVW_PBBMVW_4	phs002790_PBBMVW	Not specified in data
+PBBSBG_4	Pilocytic astrocytoma	Cerebrum	3437	diagnosis	phs002790_PBBSBG_PBBSBG_4	phs002790_PBBSBG	Not specified in data
+PBBNMV_4	Medulloblastoma, NOS	Cerebellum, NOS	2890	diagnosis	phs002790_PBBNMV_PBBNMV_4	phs002790_PBBNMV	Not specified in data
+PBBLXA_4	Craniopharyngioma	Brain, NOS	1892	diagnosis	phs002790_PBBLXA_PBBLXA_4	phs002790_PBBLXA	Not specified in data
+PBBTGR_4	Malignant melanoma, NOS	Upper limb, NOS	2567	diagnosis	phs002790_PBBTGR_PBBTGR_4	phs002790_PBBTGR	Not specified in data
+PBBTKG_4	Craniopharyngioma	Brain, NOS	3786	diagnosis	phs002790_PBBTKG_PBBTKG_4	phs002790_PBBTKG	Not specified in data
+PBBNXT_4	Ganglioglioma, NOS	Spinal cord	1093	diagnosis	phs002790_PBBNXT_PBBNXT_4	phs002790_PBBNXT	Not specified in data
+PBBMCL_4	Glioma, malignant	Brain, NOS	1449	diagnosis	phs002790_PBBMCL_PBBMCL_4	phs002790_PBBMCL	Not specified in data
+PBBNHM_4	Astrocytoma, NOS	Brain, NOS	4314	diagnosis	phs002790_PBBNHM_PBBNHM_4	phs002790_PBBNHM	Not specified in data
+PBBMJP_4	Glioma, malignant	Parietal lobe	3628	diagnosis	phs002790_PBBMJP_PBBMJP_4	phs002790_PBBMJP	Not specified in data
+PBBIUN_4	Glioma, malignant	Brain, NOS	4802	diagnosis	phs002790_PBBIUN_PBBIUN_4	phs002790_PBBIUN	Not specified in data
+PBBPKC_4	Pilocytic astrocytoma	Cerebellum, NOS	1708	diagnosis	phs002790_PBBPKC_PBBPKC_4	phs002790_PBBPKC	Not specified in data
+PBBTPR_4	Atypical teratoid/rhabdoid tumor	Frontal lobe	1589	diagnosis	phs002790_PBBTPR_PBBTPR_4	phs002790_PBBTPR	Not specified in data
+PBBNWS_4	Medulloblastoma, NOS	Cerebellum, NOS	5224	diagnosis	phs002790_PBBNWS_PBBNWS_4	phs002790_PBBNWS	Not specified in data
+PBBJGC_4	Ependymoma, NOS	Temporal lobe	4644	diagnosis	phs002790_PBBJGC_PBBJGC_4	phs002790_PBBJGC	Not specified in data
+PBBHMD_4	Neoplasm, uncertain whether benign or malignant	Brain, NOS	5214	diagnosis	phs002790_PBBHMD_PBBHMD_4	phs002790_PBBHMD	Not specified in data
