@@ -4,5 +4,6 @@
    <name>TC02_CDS_phs003164_Gender_Female</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>f90fe3bb-bfd7-4840-9718-335ca6e24f8b</testCaseGuid>
 </TestCaseEntity>
