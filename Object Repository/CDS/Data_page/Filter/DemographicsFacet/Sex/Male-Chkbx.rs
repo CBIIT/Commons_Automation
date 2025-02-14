@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Male-Chkbx</name>
+   <tag></tag>
+   <elementGuidId>324f07a0-12bc-445a-9468-e98dba1649c1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;checkbox_Sex_Male&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;checkbox_Sex_Male&quot;]</value>
+      <webElementGuid>7ef01478-2b46-46e6-967f-b3d16b4739d8</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

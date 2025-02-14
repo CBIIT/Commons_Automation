@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;File Type&quot;]</value>
+         <value>//*[@id=&quot;File Type&quot;]/div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;File Type&quot;]</value>
-      <webElementGuid>795625e9-c2b3-4883-b100-c32066e2e0a3</webElementGuid>
+      <value>//*[@id=&quot;File Type&quot;]/div[2]</value>
+      <webElementGuid>9cdc88cd-0d51-475a-a6bf-8d365a30fe3a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

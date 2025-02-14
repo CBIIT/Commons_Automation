@@ -1,0 +1,2 @@
+file_id	file_name	file_type	file_size	md5sum	file_url_in_cds	experimental_strategy_and_data_subtypes	submission_version	type	sample.sample_id	study.phs_accession	participant.study_participant_id
+dg.4DFC/2fb012a8-0fac-11ee-a5c9-7b3e0301f4a9	140915_UNC18-D00493_0128_BHAJJWADXX_CCGAAGTA_L002_1.fastq.gz	FASTQ	640606520	45e6e87fb4d4dc1ee424b307ca8f7171	s3://cds-211-phs001713/140915_UNC18-D00493_0128_BHAJJWADXX_CCGAAGTA_L002_1.fastq.gz	Targeted-Capture	phs001713.v1.p1	file	99988_T_DNA	phs001713	phs001713_99988

@@ -1,0 +1,2 @@
+file_id	file_name	file_type	file_size	md5sum	file_url_in_cds	submission_version	type	study.phs_accession	experimental_strategy_and_data_subtypes
+dg.4DFC/edc55506-def0-11ed-bf75-ff7efcdee83f	MCI_Metadata_manifest.xlsx	XLSX	11686500	fceabf529271787b8074d438e69a619e	s3://cds-305-phs002790-production-ccdi-ctsmc/MCI_Metadata_manifest.xlsx	phs002790.v6.p1	file	phs002790	

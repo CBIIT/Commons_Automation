@@ -1,0 +1,186 @@
+sample_id	sample_type	sample_anatomic_site	type	participant.study_participant_id	sample_tumor_status
+CPLX.WES_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM3960	Not specified in data
+wm3960.WES_Skin	Skin	Skin	sample	phs002432_WM3960	Not specified in data
+wm3960n.WES_peripheral blood - Blood Derived Cancer	Blood	Skin	sample	phs002432_WM3960	Not specified in data
+wm3907MP1.WES_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM3907	Not specified in data
+wm3907MP5.WES_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM3907	Not specified in data
+wm3907n.WES_peripheral blood - Blood Derived Cancer	Blood	Skin	sample	phs002432_WM3907	Not specified in data
+wm3907PLX.WES_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM3907	Not specified in data
+wm3922n.WES_peripheral blood - Blood Derived Cancer	Blood	Skin	sample	phs002432_WM3922	Not specified in data
+wm3926n.WES_peripheral blood - Blood Derived Cancer	Blood	Skin	sample	phs002432_WM3926	Not specified in data
+wm3926PLX.WES_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM3926	Not specified in data
+wm3934.WES_Skin	Skin	Skin	sample	phs002432_WM3934	Not specified in data
+wm3934n.WES_peripheral blood - Blood Derived Cancer	Blood	Skin	sample	phs002432_WM3934	Not specified in data
+wm3936.WES_Skin	Skin	Skin	sample	phs002432_WM3936	Not specified in data
+wm3936-1.WES_Skin	Skin	Skin	sample	phs002432_WM3936	Not specified in data
+wm3936-1PLX.WES_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM3936	Not specified in data
+wm3936-2MP1.WES_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM3936	Not specified in data
+wm3936-2MP5.WES_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM3936	Not specified in data
+wm3936-2PLX.WES_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM3936	Not specified in data
+wm3936n.WES_peripheral blood - Blood Derived Cancer	Blood	Skin	sample	phs002432_WM3936	Not specified in data
+WM3939-2_6575.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM3939	Not specified in data
+WM3939-2_7168.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM3939	Not specified in data
+WM3939-2_7169.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM3939	Not specified in data
+WM3939-2_CPLX__6676.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM3939	Not specified in data
+WM3939-2_CPLX__6678.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM3939	Not specified in data
+WM3939-2_CPLX__6679.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM3939	Not specified in data
+wm3939-2.WES_Skin	Skin	Skin	sample	phs002432_WM3939	Not specified in data
+wm3939-2CPLX.WES_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM3939	Not specified in data
+wm3939-2n.WES_peripheral blood - Blood Derived Cancer	Blood	Skin	sample	phs002432_WM3939	Not specified in data
+wm3941.WES_Skin	Skin	Skin	sample	phs002432_WM3941	Not specified in data
+wm3941n.WES_peripheral blood - Blood Derived Cancer	Blood	Skin	sample	phs002432_WM3941	Not specified in data
+WM3942_8752.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM3942	Not specified in data
+WM3942_CPLX__8881.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM3942	Not specified in data
+WM3942_CPLX__8883.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM3942	Not specified in data
+WM3942_CPLX__8884.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM3942	Not specified in data
+wm3942.WES_Skin	Skin	Skin	sample	phs002432_WM3942	Not specified in data
+wm3942CPLX.WES_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM3942	Not specified in data
+wm3942n.WES_peripheral blood - Blood Derived Cancer	Blood	Skin	sample	phs002432_WM3942	Not specified in data
+wm3963-2n.WES_peripheral blood - Blood Derived Cancer	Blood	Skin	sample	phs002432_WM3963	Not specified in data
+wm3973.WES_Skin	Skin	Skin	sample	phs002432_WM3973	Not specified in data
+wm3973n.WES_peripheral blood - Blood Derived Cancer	Blood	Skin	sample	phs002432_WM3973	Not specified in data
+wm3973PLX.WES_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM3973	Not specified in data
+wm3983.WES_Skin	Skin	Skin	sample	phs002432_WM3983	Not specified in data
+wm3983n.WES_peripheral blood - Blood Derived Cancer	Blood	Skin	sample	phs002432_WM3983	Not specified in data
+wm3983PLX.WES_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM3983	Not specified in data
+wm3994-1.WES_Skin	Skin	Skin	sample	phs002432_WM3994	Not specified in data
+wm3994-3.WES_Skin	Skin	Skin	sample	phs002432_WM3994	Not specified in data
+wm3994n.WES_peripheral blood - Blood Derived Cancer	Blood	Skin	sample	phs002432_WM3994	Not specified in data
+wm4008.WES_Skin	Skin	Skin	sample	phs002432_WM4008	Not specified in data
+wm4008CPLX.WES_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4008	Not specified in data
+wm4008n.WES_peripheral blood - Blood Derived Cancer	Blood	Skin	sample	phs002432_WM4008	Not specified in data
+WM4011-1_6128.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4011	Not specified in data
+wm4011-1.WES_Skin	Skin	Skin	sample	phs002432_WM4011	Not specified in data
+WM4011-2_6121.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4011	Not specified in data
+WM4011-2_6124.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4011	Not specified in data
+WM4011-2_6125.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4011	Not specified in data
+wm4011-2.WES_Skin	Skin	Skin	sample	phs002432_WM4011	Not specified in data
+wm4011-2MP.WES_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4011	Not specified in data
+WM4011-3_6131.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4011	Not specified in data
+WM4011-3_6132.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4011	Not specified in data
+WM4011-3_6133.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4011	Not specified in data
+wm4011-3.WES_Skin	Skin	Skin	sample	phs002432_WM4011	Not specified in data
+wm4011-3MP.WES_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4011	Not specified in data
+wm4011n.WES_peripheral blood - Blood Derived Cancer	Blood	Skin	sample	phs002432_WM4011	Not specified in data
+wm4018-5.WES_Skin	Skin	Skin	sample	phs002432_WM4018	Not specified in data
+wm4018-6.WES_Skin	Skin	Skin	sample	phs002432_WM4018	Not specified in data
+wm4018-6MP.WES_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4018	Not specified in data
+WM4018-7_1326.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4018	Not specified in data
+WM4018-7_1328.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4018	Not specified in data
+WM4018-7_CPLX_5073.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4018	Not specified in data
+WM4018-7_CPLX_5074.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4018	Not specified in data
+WM4018-7_CPLX_5075.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4018	Not specified in data
+wm4018-7.WES_Skin	Skin	Skin	sample	phs002432_WM4018	Not specified in data
+wm4018-7CPLX.WES_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4018	Not specified in data
+wm4018n.WES_peripheral blood - Blood Derived Cancer	Blood	Skin	sample	phs002432_WM4018	Not specified in data
+wm4037.WES_Skin	Skin	Skin	sample	phs002432_WM4037	Not specified in data
+wm4037n.WES_peripheral blood - Blood Derived Cancer	Blood	Skin	sample	phs002432_WM4037	Not specified in data
+wm4039-1.WES_Skin	Skin	Skin	sample	phs002432_WM4039	Not specified in data
+wm4039-2.WES_Skin	Skin	Skin	sample	phs002432_WM4039	Not specified in data
+wm4039n.WES_peripheral blood - Blood Derived Cancer	Blood	Skin	sample	phs002432_WM4039	Not specified in data
+wm4053.WES_Skin	Skin	Skin	sample	phs002432_WM4053	Not specified in data
+wm4053n.WES_peripheral blood - Blood Derived Cancer	Blood	Skin	sample	phs002432_WM4053	Not specified in data
+wm4061.WES_Skin	Skin	Skin	sample	phs002432_WM4061	Not specified in data
+wm4061n.WES_peripheral blood - Blood Derived Cancer	Blood	Skin	sample	phs002432_WM4061	Not specified in data
+wm4068.WES_Skin	Skin	Skin	sample	phs002432_WM4068	Not specified in data
+wm4068n.WES_peripheral blood - Blood Derived Cancer	Blood	Skin	sample	phs002432_WM4068	Not specified in data
+wm4070-1.WES_Skin	Skin	Skin	sample	phs002432_WM4070	Not specified in data
+wm4070-2.WES_Skin	Skin	Skin	sample	phs002432_WM4070	Not specified in data
+wm4070-2PLX.WES_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4070	Not specified in data
+wm4070n.WES_peripheral blood - Blood Derived Cancer	Blood	Skin	sample	phs002432_WM4070	Not specified in data
+wm4071-1.WES_Skin	Skin	Skin	sample	phs002432_WM4071	Not specified in data
+wm4071-2.WES_Skin	Skin	Skin	sample	phs002432_WM4071	Not specified in data
+wm4071-2PLX.WES_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4071	Not specified in data
+wm4071n.WES_peripheral blood - Blood Derived Cancer	Blood	Skin	sample	phs002432_WM4071	Not specified in data
+wm4082.WES_Skin	Skin	Skin	sample	phs002432_WM4082	Not specified in data
+wm4082n.WES_peripheral blood - Blood Derived Cancer	Blood	Skin	sample	phs002432_WM4082	Not specified in data
+wm4089.WES_Skin	Skin	Skin	sample	phs002432_WM4089	Not specified in data
+wm4089n.WES_peripheral blood - Blood Derived Cancer	Blood	Skin	sample	phs002432_WM4089	Not specified in data
+wm4099.WES_Skin	Skin	Skin	sample	phs002432_WM4099	Not specified in data
+wm4099n.WES_peripheral blood - Blood Derived Cancer	Blood	Skin	sample	phs002432_WM4099	Not specified in data
+wm4206.WES_Skin	Skin	Skin	sample	phs002432_WM4206	Not specified in data
+wm4206n.WES_peripheral blood - Blood Derived Cancer	Blood	Skin	sample	phs002432_WM4206	Not specified in data
+wm4208.WES_Skin	Skin	Skin	sample	phs002432_WM4208	Not specified in data
+wm4208n.WES_peripheral blood - Blood Derived Cancer	Blood	Skin	sample	phs002432_WM4208	Not specified in data
+wm4214.WES_Skin	Skin	Skin	sample	phs002432_WM4214	Not specified in data
+wm4214n.WES_peripheral blood - Blood Derived Cancer	Blood	Skin	sample	phs002432_WM4214	Not specified in data
+wm4224.WES_Skin	Skin	Skin	sample	phs002432_WM4224	Not specified in data
+wm4224n.WES_peripheral blood - Blood Derived Cancer	Blood	Skin	sample	phs002432_WM4224	Not specified in data
+WM4237-1_8871.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4237	Not specified in data
+WM4237-1_8872.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4237	Not specified in data
+WM4237-1_8873.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4237	Not specified in data
+wm4237-1.WES_Skin	Skin	Skin	sample	phs002432_WM4237	Not specified in data
+WM4237-2_0301.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4237	Not specified in data
+WM4237-2_0302.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4237	Not specified in data
+WM4237-2_0304.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4237	Not specified in data
+wm4237-2.WES_Skin	Skin	Skin	sample	phs002432_WM4237	Not specified in data
+wm4237-3.WES_Skin	Skin	Skin	sample	phs002432_WM4237	Not specified in data
+wm4237-3MP.WES_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4237	Not specified in data
+WM4237-4_3872.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4237	Not specified in data
+WM4237-4_3873.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4237	Not specified in data
+WM4237-4_3874.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4237	Not specified in data
+wm4237-4.WES_Skin	Skin	Skin	sample	phs002432_WM4237	Not specified in data
+wm4237n.WES_peripheral blood - Blood Derived Cancer	Blood	Skin	sample	phs002432_WM4237	Not specified in data
+wm4239n.WES_peripheral blood - Blood Derived Cancer	Blood	Skin	sample	phs002432_WM4239	Not specified in data
+wm4239PLX.WES_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4239	Not specified in data
+wm4254.WES_Skin	Skin	Skin	sample	phs002432_WM4254	Not specified in data
+wm4254n.WES_peripheral blood - Blood Derived Cancer	Blood	Skin	sample	phs002432_WM4254	Not specified in data
+WM4262_8537.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4262	Not specified in data
+WM4262_8538.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4262	Not specified in data
+WM4262_CPLX__8592.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4262	Not specified in data
+WM4262_CPLX__8593.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4262	Not specified in data
+WM4262_CPLX__8594.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4262	Not specified in data
+wm4273.WES_Skin	Skin	Skin	sample	phs002432_WM4273	Not specified in data
+wm4273n.WES_peripheral blood - Blood Derived Cancer	Blood	Skin	sample	phs002432_WM4273	Not specified in data
+WM4276-2_2602.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4276	Not specified in data
+WM4276-2_2603.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4276	Not specified in data
+WM4276-2_2605.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4276	Not specified in data
+wm4281.WES_Skin	Skin	Skin	sample	phs002432_WM4281	Not specified in data
+wm4281n.WES_peripheral blood - Blood Derived Cancer	Blood	Skin	sample	phs002432_WM4281	Not specified in data
+WM4298-2_8251.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4298	Not specified in data
+WM4298-2_8253.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4298	Not specified in data
+WM4298-2_8254.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4298	Not specified in data
+WM4298-2_CPLX__1079.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4298	Not specified in data
+WM4298-2_CPLX__1080.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4298	Not specified in data
+wm4304.WES_Skin	Skin	Skin	sample	phs002432_WM4304	Not specified in data
+wm4304n.WES_peripheral blood - Blood Derived Cancer	Blood	Skin	sample	phs002432_WM4304	Not specified in data
+WM4335-1_1387.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4335	Not specified in data
+WM4335-1_1389.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4335	Not specified in data
+WM4335-1_3754.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4335	Not specified in data
+WM4335-1_CPLX__5778.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4335	Not specified in data
+WM4335-1_CPLX__5779.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4335	Not specified in data
+wm4336-1.WES_Skin	Skin	Skin	sample	phs002432_WM4336	Not specified in data
+wm4336-2.WES_Skin	Skin	Skin	sample	phs002432_WM4336	Not specified in data
+wm4336-2MP.WES_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4336	Not specified in data
+wm4336-3.WES_Skin	Skin	Skin	sample	phs002432_WM4336	Not specified in data
+wm4336-4.WES_Skin	Skin	Skin	sample	phs002432_WM4336	Not specified in data
+wm4336-4CPLX.WES_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4336	Not specified in data
+wm4336-4MP.WES_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4336	Not specified in data
+wm4336-5.WES_Skin	Skin	Skin	sample	phs002432_WM4336	Not specified in data
+wm4336-5CPLX.WES_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4336	Not specified in data
+wm4336-5MP.WES_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4336	Not specified in data
+wm4336n.WES_peripheral blood - Blood Derived Cancer	Blood	Skin	sample	phs002432_WM4336	Not specified in data
+WM4352_1037.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4352	Not specified in data
+WM4352_CPLX__3993.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4352	Not specified in data
+WM4352_CPLX__3994.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4352	Not specified in data
+WM4352_CPLX__3995.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4352	Not specified in data
+wm4361-2.WES_Skin	Skin	Skin	sample	phs002432_WM4361	Not specified in data
+wm4361-3.WES_Skin	Skin	Skin	sample	phs002432_WM4361	Not specified in data
+wm4361-4.WES_Skin	Skin	Skin	sample	phs002432_WM4361	Not specified in data
+wm4361n.WES_peripheral blood - Blood Derived Cancer	Blood	Skin	sample	phs002432_WM4361	Not specified in data
+WM4404-1_1916.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4404	Not specified in data
+WM4404-1_1918.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4404	Not specified in data
+WM4404-2_1886.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4404	Not specified in data
+WM4404-2_1919.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4404	Not specified in data
+WM4404-3_8832.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4404	Not specified in data
+WM4404-3_8836.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4404	Not specified in data
+WM4404-3_8839.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4404	Not specified in data
+WM4404-3_CPLX_1071.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4404	Not specified in data
+WM4404-3_CPLX_1072.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4404	Not specified in data
+WM4404-3_CPLX_1074.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4404	Not specified in data
+WM4408_1963.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4408	Not specified in data
+WM4408_1964.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4408	Not specified in data
+WM4408_1965.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4408	Not specified in data
+WM4494_6246.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4494	Not specified in data
+WM4494_6248.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4494	Not specified in data
+WM4494_6250.RNA-Seq_Xenograft Tissue	Xenograft Tissue	Skin	sample	phs002432_WM4494	Not specified in data

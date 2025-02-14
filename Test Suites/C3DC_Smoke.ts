@@ -158,4 +158,11 @@
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs002790/TC01_C3DC_phs002790_SexAtBirth-Male</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>7e957843-92c1-4e46-a21e-c21ce9ed49c6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/C3DC_TestCases/Studies/StaticData/TC01_C3DC_StaticData</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

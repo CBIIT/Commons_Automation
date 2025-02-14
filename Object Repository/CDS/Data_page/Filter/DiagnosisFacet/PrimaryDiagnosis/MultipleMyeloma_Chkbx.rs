@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_PRIMARY DIAGNOSIS_Multiple Myeloma&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Primary Diagnosis_Multiple Myeloma&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_PRIMARY DIAGNOSIS_Multiple Myeloma&quot;]</value>
-      <webElementGuid>3b152ea4-166d-44b0-bb36-ed7cfd191194</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Primary Diagnosis_Multiple Myeloma&quot;]</value>
+      <webElementGuid>48e3798b-df50-4b01-b99b-b429b6782f24</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

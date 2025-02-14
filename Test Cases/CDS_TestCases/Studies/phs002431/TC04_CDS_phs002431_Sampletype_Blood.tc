@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_CDS_phs002431_Sampletype_Blood</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>56138d95-9fa6-483c-ba88-17f35aa2f92c</testCaseGuid>
+</TestCaseEntity>

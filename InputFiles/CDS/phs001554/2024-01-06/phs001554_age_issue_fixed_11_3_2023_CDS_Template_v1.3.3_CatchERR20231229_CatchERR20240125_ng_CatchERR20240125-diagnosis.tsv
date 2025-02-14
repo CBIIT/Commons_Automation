@@ -1,0 +1,5 @@
+primary_diagnosis	age_at_diagnosis	type	diagnosis_id	study_diagnosis_id	participant.study_participant_id
+Colorectal Carcinoma	90	diagnosis	118272.0	phs001554_118272_118272	phs001554_118272
+Colorectal Carcinoma	90	diagnosis	117921.0	phs001554_117921_117921	phs001554_117921
+Colorectal Carcinoma	90	diagnosis	117828.0	phs001554_117828_117828	phs001554_117828
+Colorectal Carcinoma	90	diagnosis	118154.0	phs001554_118154_118154	phs001554_118154

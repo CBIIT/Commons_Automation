@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC14_CDS_phs002517_PrimDiag_Adenoma</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>15c1cd34-9297-4e3d-b4de-e1ffd1176ee9</testCaseGuid>
+</TestCaseEntity>

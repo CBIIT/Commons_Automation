@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC09_CDS_phs003164_LibrarySelection_rRNA-Depletion</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b4de0fc9-5981-4045-9e0c-3ba3cece6dec</testCaseGuid>
+</TestCaseEntity>

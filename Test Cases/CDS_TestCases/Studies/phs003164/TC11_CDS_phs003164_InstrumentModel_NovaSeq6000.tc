@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC11_CDS_phs003164_InstrumentModel_NovaSeq6000</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3e8df162-2d77-4ab5-aac7-e81317df0766</testCaseGuid>
+</TestCaseEntity>

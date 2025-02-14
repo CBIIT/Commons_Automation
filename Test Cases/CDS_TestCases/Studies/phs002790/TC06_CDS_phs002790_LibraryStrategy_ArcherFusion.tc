@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC06_CDS_phs002790_LibraryStrategy_ArcherFusion</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>898ec6d1-5982-4600-9fc4-da268567d82e</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,45 @@
+vital_status	primary_diagnosis	age_at_diagnosis	tumor_grade	morphology	progression_or_recurrence	days_to_last_followup	last_known_disease_status	days_to_last_known_status	type	diagnosis_id	study_diagnosis_id	participant.study_participant_id
+Not Reported	Acute lymphoblastic leukemia precursor cell type	18	Not Reported	Not Reported	Unknown	Not Reported	Not Applicable	Not Reported	diagnosis	HTA4_11	phs002371_HTA4_11_HTA4_11	phs002371_HTA4_11
+Not Reported	Acute lymphoblastic leukemia precursor cell type	18	Not Reported	Not Reported	Unknown	Not Reported	Not Applicable	Not Reported	diagnosis	HTA4_6	phs002371_HTA4_6_HTA4_6	phs002371_HTA4_6
+Not Reported	Acute lymphoblastic leukemia NOS	18	Not Reported	Not Reported	Unknown	Not Reported	Not Applicable	Not Reported	diagnosis	HTA4_22	phs002371_HTA4_22_HTA4_22	phs002371_HTA4_22
+Alive	Pancreatobiliary-Type Carcinoma	62	G2		No	443	Tumor free	443	diagnosis	HTA12_23	phs002371_HTA12_23_HTA12_23	phs002371_HTA12_23
+Dead	Pancreatobiliary-Type Carcinoma	70	G2		Yes	444	Distant met recurrence/progression	444	diagnosis	HTA12_25	phs002371_HTA12_25_HTA12_25	phs002371_HTA12_25
+Not Reported	Acute lymphoblastic leukemia precursor cell type	18	Not Reported	Not Reported	Unknown	Not Reported	Not Applicable	Not Reported	diagnosis	HTA4_8	phs002371_HTA4_8_HTA4_8	phs002371_HTA4_8
+Not Reported	Acute lymphoblastic leukemia precursor cell type	18	Not Reported	Not Reported	Unknown	Not Reported	Not Applicable	Not Reported	diagnosis	HTA4_12	phs002371_HTA4_12_HTA4_12	phs002371_HTA4_12
+Not Reported	Acute lymphoblastic leukemia precursor cell type	18	Not Reported	Not Reported	Unknown	Not Reported	Not Applicable	Not Reported	diagnosis	HTA4_9	phs002371_HTA4_9_HTA4_9	phs002371_HTA4_9
+Not Reported	Acute lymphoblastic leukemia precursor cell type	18	Not Reported	Not Reported	Unknown	Not Reported	Not Applicable	Not Reported	diagnosis	HTA4_1	phs002371_HTA4_1_HTA4_1	phs002371_HTA4_1
+Not Reported	Acute lymphoblastic leukemia precursor cell type	18	Not Reported	Not Reported	Unknown	Not Reported	Not Applicable	Not Reported	diagnosis	HTA4_17	phs002371_HTA4_17_HTA4_17	phs002371_HTA4_17
+Not Reported	Acute lymphoblastic leukemia precursor cell type	18	Not Reported	Not Reported	Unknown	Not Reported	Not Applicable	Not Reported	diagnosis	HTA4_13	phs002371_HTA4_13_HTA4_13	phs002371_HTA4_13
+Alive	Pancreatobiliary-Type Carcinoma	59	G4		No	778	Loco-regional recurrence/progression	778	diagnosis	HTA12_24	phs002371_HTA12_24_HTA12_24	phs002371_HTA12_24
+Dead	Pancreatobiliary-Type Carcinoma	74	G3		No	45	Not Reported	45	diagnosis	HTA12_31	phs002371_HTA12_31_HTA12_31	phs002371_HTA12_31
+Alive	Not Reported		Not Reported	Not Applicable	No	Not Reported	Not Applicable	Not Reported	diagnosis	HTA4_29	phs002371_HTA4_29_HTA4_29	phs002371_HTA4_29
+Alive	Not Reported		Not Reported	Not Applicable	No	Not Reported	Not Applicable	Not Reported	diagnosis	HTA4_30	phs002371_HTA4_30_HTA4_30	phs002371_HTA4_30
+Not Reported	Acute lymphoblastic leukemia precursor cell type	18	Not Reported	Not Reported	Unknown	Not Reported	Not Applicable	Not Reported	diagnosis	HTA4_19	phs002371_HTA4_19_HTA4_19	phs002371_HTA4_19
+Dead	Pancreatobiliary-Type Carcinoma	68	G2		No	32	unknown tumor status	32	diagnosis	HTA12_26	phs002371_HTA12_26_HTA12_26	phs002371_HTA12_26
+Alive	Renal Cell Adenocarcinoma	64	G2	8310	Unknown	716	Tumor free	716	diagnosis	HTA12_34	phs002371_HTA12_34_HTA12_34	phs002371_HTA12_34
+Not Reported	Acute lymphoblastic leukemia precursor cell type	18	Not Reported	Not Reported	Unknown	Not Reported	Not Applicable	Not Reported	diagnosis	HTA4_25	phs002371_HTA4_25_HTA4_25	phs002371_HTA4_25
+Not Reported	Acute myeloid leukemia MLL	18	Not Reported	Not Reported	Unknown	Not Reported	Not Applicable	Not Reported	diagnosis	HTA4_23	phs002371_HTA4_23_HTA4_23	phs002371_HTA4_23
+Alive	Not Reported		Not Reported	Not Applicable	No	Not Reported	Not Applicable	Not Reported	diagnosis	HTA4_26	phs002371_HTA4_26_HTA4_26	phs002371_HTA4_26
+Alive	Renal Cell Adenocarcinoma	65	G2	8310	Unknown	727	unknown tumor status	727	diagnosis	HTA12_33	phs002371_HTA12_33_HTA12_33	phs002371_HTA12_33
+Not Reported	Acute lymphoblastic leukemia precursor cell type	18	Not Reported	Not Reported	Unknown	Not Reported	Not Applicable	Not Reported	diagnosis	HTA4_5	phs002371_HTA4_5_HTA4_5	phs002371_HTA4_5
+Not Reported	Acute myeloid leukemia MLL	18	Not Reported	Not Reported	Unknown	Not Reported	Not Applicable	Not Reported	diagnosis	HTA4_24	phs002371_HTA4_24_HTA4_24	phs002371_HTA4_24
+Alive	Not Reported		Not Reported	Not Applicable	No	Not Reported	Not Applicable	Not Reported	diagnosis	HTA4_27	phs002371_HTA4_27_HTA4_27	phs002371_HTA4_27
+Not Reported	Acute lymphoblastic leukemia precursor cell type	18	Not Reported	Not Reported	Yes	Not Reported	Not Applicable	Not Reported	diagnosis	HTA4_21	phs002371_HTA4_21_HTA4_21	phs002371_HTA4_21
+Not Reported	Acute lymphoblastic leukemia precursor cell type	18	Not Reported	Not Reported	Unknown	Not Reported	Not Applicable	Not Reported	diagnosis	HTA4_4	phs002371_HTA4_4_HTA4_4	phs002371_HTA4_4
+Not Reported	Acute lymphoblastic leukemia precursor cell type	18	Not Reported	Not Reported	Yes	Not Reported	Not Applicable	Not Reported	diagnosis	HTA4_20	phs002371_HTA4_20_HTA4_20	phs002371_HTA4_20
+Not Reported	Acute lymphoblastic leukemia precursor cell type	18	Not Reported	Not Reported	Unknown	Not Reported	Not Applicable	Not Reported	diagnosis	HTA4_16	phs002371_HTA4_16_HTA4_16	phs002371_HTA4_16
+Alive	Pancreatobiliary-Type Carcinoma	77	Not Applicable		No	106	unknown tumor status	106	diagnosis	HTA12_27	phs002371_HTA12_27_HTA12_27	phs002371_HTA12_27
+Alive	Pancreatobiliary-Type Carcinoma	53	G2		No	360	Distant met recurrence/progression	360	diagnosis	HTA12_18	phs002371_HTA12_18_HTA12_18	phs002371_HTA12_18
+Not Reported	Acute lymphoblastic leukemia precursor cell type	18	Not Reported	Not Reported	Unknown	Not Reported	Not Applicable	Not Reported	diagnosis	HTA4_15	phs002371_HTA4_15_HTA4_15	phs002371_HTA4_15
+Alive	Pancreatobiliary-Type Carcinoma	73	G2		No	424	Tumor free	424	diagnosis	HTA12_30	phs002371_HTA12_30_HTA12_30	phs002371_HTA12_30
+Alive	Pancreatobiliary-Type Carcinoma	60	G2		No	456	Distant met recurrence/progression	456	diagnosis	HTA12_28	phs002371_HTA12_28_HTA12_28	phs002371_HTA12_28
+Not Reported	Acute lymphoblastic leukemia precursor cell type	18	Not Reported	Not Reported	Unknown	Not Reported	Not Applicable	Not Reported	diagnosis	HTA4_18	phs002371_HTA4_18_HTA4_18	phs002371_HTA4_18
+Alive	Pancreatobiliary-Type Carcinoma	60	G2		No	229	Distant met recurrence/progression	229	diagnosis	HTA12_22	phs002371_HTA12_22_HTA12_22	phs002371_HTA12_22
+Not Reported	Acute lymphoblastic leukemia precursor cell type	18	Not Reported	Not Reported	Unknown	Not Reported	Not Applicable	Not Reported	diagnosis	HTA4_3	phs002371_HTA4_3_HTA4_3	phs002371_HTA4_3
+Alive	Pancreatobiliary-Type Carcinoma	76	G1		No	441	Tumor free	441	diagnosis	HTA12_29	phs002371_HTA12_29_HTA12_29	phs002371_HTA12_29
+Not Reported	Acute lymphoblastic leukemia precursor cell type	18	Not Reported	Not Reported	Unknown	Not Reported	Not Applicable	Not Reported	diagnosis	HTA4_2	phs002371_HTA4_2_HTA4_2	phs002371_HTA4_2
+Not Reported	Acute lymphoblastic leukemia precursor cell type	18	Not Reported	Not Reported	Unknown	Not Reported	Not Applicable	Not Reported	diagnosis	HTA4_7	phs002371_HTA4_7_HTA4_7	phs002371_HTA4_7
+Not Reported	Acute lymphoblastic leukemia precursor cell type	18	Not Reported	Not Reported	Unknown	Not Reported	Not Applicable	Not Reported	diagnosis	HTA4_14	phs002371_HTA4_14_HTA4_14	phs002371_HTA4_14
+Alive	Not Reported		Not Reported	Not Applicable	No	Not Reported	Not Applicable	Not Reported	diagnosis	HTA4_28	phs002371_HTA4_28_HTA4_28	phs002371_HTA4_28
+Alive	Pancreatobiliary-Type Carcinoma	82	G1		No	424	Tumor free	424	diagnosis	HTA12_11	phs002371_HTA12_11_HTA12_11	phs002371_HTA12_11
+Not Reported	Acute lymphoblastic leukemia precursor cell type	18	Not Reported	Not Reported	Unknown	Not Reported	Not Applicable	Not Reported	diagnosis	HTA4_10	phs002371_HTA4_10_HTA4_10	phs002371_HTA4_10

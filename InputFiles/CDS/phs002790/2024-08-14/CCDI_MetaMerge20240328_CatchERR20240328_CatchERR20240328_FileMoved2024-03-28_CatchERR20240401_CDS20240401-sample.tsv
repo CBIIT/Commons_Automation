@@ -1,0 +1,453 @@
+sample_id	sample_type	sample_tumor_status	sample_anatomic_site	type	participant.study_participant_id
+0DUXOE_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBBWPZ
+0DUXOW_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBBWPZ
+0DUXNS_Blood	Blood	Normal	Blood	sample	phs002790_PBBWPZ
+0DUXOF_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBBYIM
+0DUXOX_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBBYIM
+0DUXNT_Blood	Blood	Normal	Blood	sample	phs002790_PBBYIM
+0DV7GP_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCEHT
+0DV7GW_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCEHT
+0DV7GT_Blood	Blood	Normal	Blood	sample	phs002790_PBCEHT
+0DVDT7_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCGAB
+0DV99L_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCGRK
+0DV990_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCGRK
+0DV98L_Blood	Blood	Normal	Blood	sample	phs002790_PBCGRK
+0DV143_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCHAJ
+0DV151_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCHAJ
+0DV14G_Blood	Blood	Normal	Blood	sample	phs002790_PBCHAJ
+0DUNP5_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCIJR
+0DUNOX_Blood	Blood	Normal	Blood	sample	phs002790_PBCIJR
+0DV5VS_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCISH
+0DV2R6_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCIWY
+0DV2RA_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCIWY
+0DV2QT_Blood	Blood	Normal	Blood	sample	phs002790_PBCIWY
+0DV4L0_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCIZM
+0DV144_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCJMP
+0DV152_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCJMP
+0DV14H_Blood	Blood	Normal	Blood	sample	phs002790_PBCJMP
+0DV99M_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCJXK
+0DV994_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCJXK
+0DV98M_Blood	Blood	Normal	Blood	sample	phs002790_PBCJXK
+0DVHAW_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCJYX
+0DVHB1_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCJYX
+0DVHAX_Blood	Blood	Normal	Blood	sample	phs002790_PBCJYX
+0DUUP1_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCKCZ
+0DUUQ7_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCKCZ
+0DUUPJ_Blood	Blood	Normal	Blood	sample	phs002790_PBCKCZ
+0DVCDO_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCKDN
+0DVCF2_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCKDN
+0DVCFM_Blood	Blood	Normal	Blood	sample	phs002790_PBCKDN
+0DUKGL_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCKHD
+0DVBRM_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCKIZ
+0DVBR9_Blood	Blood	Normal	Blood	sample	phs002790_PBCKIZ
+0DUKGM_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCKJH
+0DVJO0_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCKNR
+0DVJOF_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCKNR
+0DVJNN_Blood	Blood	Normal	Blood	sample	phs002790_PBCKNR
+0DVF8S_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCKNY
+0DVF8W_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCKNY
+0DVF8P_Blood	Blood	Normal	Blood	sample	phs002790_PBCKNY
+0DUSSK_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCKPX
+0DUSSG_Blood	Blood	Normal	Blood	sample	phs002790_PBCKPX
+0DVDT8_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCKRP
+0DVDU7_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCKRP
+0DVDUU_Blood	Blood	Normal	Blood	sample	phs002790_PBCKRP
+0DV5S1_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCKSA
+0DV5SC_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCKSA
+0DV5RO_Blood	Blood	Normal	Blood	sample	phs002790_PBCKSA
+0DUNO7_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCKSN
+0DUNPC_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCKSN
+0DUNOY_Blood	Blood	Normal	Blood	sample	phs002790_PBCKSN
+0DUUPZ_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCKTD
+0DVDT9_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCKTE
+0DVDUB_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCKTE
+0DVDUV_Blood	Blood	Normal	Blood	sample	phs002790_PBCKTE
+0DUP1M_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCKUB
+0DUP1L_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCKUB
+0DUP1K_Blood	Blood	Normal	Blood	sample	phs002790_PBCKUB
+0DUMDS_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCKVW
+0DUME2_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCKVW
+0DUMDL_Blood	Blood	Normal	Blood	sample	phs002790_PBCKVW
+0DUMDT_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCKWF
+0DUME3_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCKWF
+0DUMDM_Blood	Blood	Normal	Blood	sample	phs002790_PBCKWF
+0DVDTA_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCKXG
+0DVDU8_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCKXG
+0DVDUW_Blood	Blood	Normal	Blood	sample	phs002790_PBCKXG
+0DV145_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCKXS
+0DV14Y_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCKXS
+0DV14I_Blood	Blood	Normal	Blood	sample	phs002790_PBCKXS
+0DVBVM_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCKYW
+0DVBVQ_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCKYW
+0DVBVD_Blood	Blood	Normal	Blood	sample	phs002790_PBCKYW
+0DUETQ_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLAC
+0DUETK_Blood	Blood	Normal	Blood	sample	phs002790_PBCLAC
+0DUETR_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLAD
+0DUETL_Blood	Blood	Normal	Blood	sample	phs002790_PBCLAD
+0DUKH9_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLAI
+0DUKIN_Blood	Blood	Normal	Blood	sample	phs002790_PBCLAI
+0DVDU9_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLAK
+0DVDUX_Blood	Blood	Normal	Blood	sample	phs002790_PBCLAK
+0DUNO8_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLBI
+0DUNP6_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLBI
+0DUNOZ_Blood	Blood	Normal	Blood	sample	phs002790_PBCLBI
+0DUUP2_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLBP
+0DUUQ0_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLBP
+0DUUPL_Blood	Blood	Normal	Blood	sample	phs002790_PBCLBP
+0DUKGP_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLCB
+0DUKI8_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLCB
+0DUKIO_Blood	Blood	Normal	Blood	sample	phs002790_PBCLCB
+0DUVT9_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLCC
+0DUVTP_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLCC
+0DUVT0_Blood	Blood	Normal	Blood	sample	phs002790_PBCLCC
+0DV4KS_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLCT
+0DV4IX_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLCT
+0DV4IO_Blood	Blood	Normal	Blood	sample	phs002790_PBCLCT
+0DUUP3_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLDA
+0DUUQ8_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLDA
+0DUUPM_Blood	Blood	Normal	Blood	sample	phs002790_PBCLDA
+0DVCEU_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLDR
+0DVCF3_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLDR
+0DVCFN_Blood	Blood	Normal	Blood	sample	phs002790_PBCLDR
+0DUKHI_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLDU
+0DUKIQ_Blood	Blood	Normal	Blood	sample	phs002790_PBCLDU
+0DV4KT_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLEK
+0DV4IY_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLEK
+0DV4IP_Blood	Blood	Normal	Blood	sample	phs002790_PBCLEK
+0DUNO9_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLEL
+0DUNPE_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLEL
+0DUNP0_Blood	Blood	Normal	Blood	sample	phs002790_PBCLEL
+0DUSSH_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLEM
+0DUSSL_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLEM
+0DUSSC_Blood	Blood	Normal	Blood	sample	phs002790_PBCLEM
+0DUMDU_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLEW
+0DUME4_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLEW
+0DUMDN_Blood	Blood	Normal	Blood	sample	phs002790_PBCLEW
+0DUXOG_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLEX
+0DUXOY_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLEX
+0DUXNU_Blood	Blood	Normal	Blood	sample	phs002790_PBCLEX
+0DUME5_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLFY
+0DUMDO_Blood	Blood	Normal	Blood	sample	phs002790_PBCLFY
+0DUQYO_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLFZ
+0DUQYT_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLFZ
+0DUR01_Blood	Blood	Normal	Blood	sample	phs002790_PBCLFZ
+0DUKIC_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLGT
+0DUKIR_Blood	Blood	Normal	Blood	sample	phs002790_PBCLGT
+0DUNP7_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLGZ
+0DUNP1_Blood	Blood	Normal	Blood	sample	phs002790_PBCLGZ
+0DUIX9_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLHE
+0DUIWQ_Blood	Blood	Normal	Blood	sample	phs002790_PBCLHE
+0DUKHJ_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLHP
+0DUKIT_Blood	Blood	Normal	Blood	sample	phs002790_PBCLHP
+0DUQYP_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLHU
+0DUQYU_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLHU
+0DUR02_Blood	Blood	Normal	Blood	sample	phs002790_PBCLHU
+0DUNOA_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLIN
+0DVBRN_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLIN
+0DUNP2_Blood	Blood	Normal	Blood	sample	phs002790_PBCLIN
+0DUMDW_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLIT
+0DUME6_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLIT
+0DUMDP_Blood	Blood	Normal	Blood	sample	phs002790_PBCLIT
+0DUKHA_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLIU
+0DUKIU_Blood	Blood	Normal	Blood	sample	phs002790_PBCLIU
+0DUVTA_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLIW
+0DUVTU_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLIW
+0DUVT1_Blood	Blood	Normal	Blood	sample	phs002790_PBCLIW
+0DUKHB_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLJI
+0DUKIV_Blood	Blood	Normal	Blood	sample	phs002790_PBCLJI
+0DUXOH_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLJR
+0DUXPO_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLJR
+0DUXNV_Blood	Blood	Normal	Blood	sample	phs002790_PBCLJR
+0DV2R7_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLJZ
+0DV2RX_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLJZ
+0DV2QU_Blood	Blood	Normal	Blood	sample	phs002790_PBCLJZ
+0DUKHK_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLKC
+0DUKIW_Blood	Blood	Normal	Blood	sample	phs002790_PBCLKC
+0DV7GQ_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLKS
+0DV7GX_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLKS
+0DV7GU_Blood	Blood	Normal	Blood	sample	phs002790_PBCLKS
+0DUKGV_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLLF
+0DUKHC_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLLF
+0DUKIX_Blood	Blood	Normal	Blood	sample	phs002790_PBCLLF
+0DUKHD_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLLK
+0DUKIY_Blood	Blood	Normal	Blood	sample	phs002790_PBCLLK
+0DUMDX_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLLP
+0DUME7_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLLP
+0DUMDQ_Blood	Blood	Normal	Blood	sample	phs002790_PBCLLP
+0DUXPP_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLLW
+0DUXO1_Blood	Blood	Normal	Blood	sample	phs002790_PBCLLW
+0DUYNQ_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLLX
+0DUYNV_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLLX
+0DUYNS_Blood	Blood	Normal	Blood	sample	phs002790_PBCLLX
+0DUKIJ_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLME
+0DUKIZ_Blood	Blood	Normal	Blood	sample	phs002790_PBCLME
+0DUQYW_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLMN
+0DUR03_Blood	Blood	Normal	Blood	sample	phs002790_PBCLMN
+0DUMDY_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLNB
+0DUME8_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLNB
+0DUMDR_Blood	Blood	Normal	Blood	sample	phs002790_PBCLNB
+0DUXOI_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLNE
+0DUXPQ_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLNE
+0DUXNW_Blood	Blood	Normal	Blood	sample	phs002790_PBCLNE
+0DVCDP_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLNF
+0DVCF4_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLNF
+0DVCFO_Blood	Blood	Normal	Blood	sample	phs002790_PBCLNF
+0DUUQ9_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLNW
+0DUUPT_Blood	Blood	Normal	Blood	sample	phs002790_PBCLNW
+0DUQYQ_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLNX
+0DUQYX_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLNX
+0DUR04_Blood	Blood	Normal	Blood	sample	phs002790_PBCLNX
+0DUNOB_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLPF
+0DUNPZ_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLPF
+0DUNP3_Blood	Blood	Normal	Blood	sample	phs002790_PBCLPF
+0DUNOC_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLPG
+0DUNQ0_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLPG
+0DUNP4_Blood	Blood	Normal	Blood	sample	phs002790_PBCLPG
+0DUUP4_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLPI
+0DUUQ1_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLPI
+0DUUPN_Blood	Blood	Normal	Blood	sample	phs002790_PBCLPI
+0DV5S2_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLRC
+0DV5SI_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLRC
+0DV5RP_Blood	Blood	Normal	Blood	sample	phs002790_PBCLRC
+0DUVTB_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLRF
+0DUVUN_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLRF
+0DUVT2_Blood	Blood	Normal	Blood	sample	phs002790_PBCLRF
+0DVCDQ_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLRG
+0DVCFE_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLRG
+0DVCFP_Blood	Blood	Normal	Blood	sample	phs002790_PBCLRG
+0DVCDR_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLRU
+0DVCF5_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLRU
+0DVCFQ_Blood	Blood	Normal	Blood	sample	phs002790_PBCLRU
+0DV7GR_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLSC
+0DV7GY_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLSC
+0DV7GV_Blood	Blood	Normal	Blood	sample	phs002790_PBCLSC
+0DUVTC_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLSI
+0DUVTQ_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLSI
+0DUVT3_Blood	Blood	Normal	Blood	sample	phs002790_PBCLSI
+0DUVTD_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLSM
+0DUVTR_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLSM
+0DUVT4_Blood	Blood	Normal	Blood	sample	phs002790_PBCLSM
+0DUYNR_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLSN
+0DV4IZ_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLSN
+0DUYNW_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLSN
+0DUYNT_Blood	Blood	Normal	Blood	sample	phs002790_PBCLSN
+0DUYNX_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLSS
+0DUYNU_Blood	Blood	Normal	Blood	sample	phs002790_PBCLSS
+0DVKDT_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLTH
+0DUUP5_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLTL
+0DUUQ2_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLTL
+0DUUPO_Blood	Blood	Normal	Blood	sample	phs002790_PBCLTL
+0DUQYR_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLTN
+0DUQYV_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLTN
+0DUR05_Blood	Blood	Normal	Blood	sample	phs002790_PBCLTN
+0DUSSI_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLTP
+0DUSSU_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLTP
+0DUSSD_Blood	Blood	Normal	Blood	sample	phs002790_PBCLTP
+0DUVTE_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLTW
+0DUVUX_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLTW
+0DUVT5_Blood	Blood	Normal	Blood	sample	phs002790_PBCLTW
+0DUUP6_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLUI
+0DUUQ3_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLUI
+0DUUPP_Blood	Blood	Normal	Blood	sample	phs002790_PBCLUI
+0DUQYS_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLUR
+0DUQYY_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLUR
+0DUR06_Blood	Blood	Normal	Blood	sample	phs002790_PBCLUR
+0DUVTF_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLUV
+0DUVTS_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLUV
+0DUVT6_Blood	Blood	Normal	Blood	sample	phs002790_PBCLUV
+0DVF8R_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLVB
+0DUXOZ_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLVB
+0DUXNX_Blood	Blood	Normal	Blood	sample	phs002790_PBCLVB
+0DUUP7_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLVD
+0DUUQ4_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLVD
+0DUUPQ_Blood	Blood	Normal	Blood	sample	phs002790_PBCLVD
+0DV99N_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLWD
+0DV991_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLWD
+0DV98N_Blood	Blood	Normal	Blood	sample	phs002790_PBCLWD
+0DVBVN_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLWK
+0DVBVR_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLWK
+0DVBVE_Blood	Blood	Normal	Blood	sample	phs002790_PBCLWK
+0DV146_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLWL
+0DV158_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLWL
+0DV14J_Blood	Blood	Normal	Blood	sample	phs002790_PBCLWL
+0DVBVO_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLWM
+0DVBVS_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLWM
+0DVBVF_Blood	Blood	Normal	Blood	sample	phs002790_PBCLWM
+0DV99O_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLWS
+0DUXPR_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLWS
+0DUXNY_Blood	Blood	Normal	Blood	sample	phs002790_PBCLWS
+0DUVTG_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLXD
+0DUVUY_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLXD
+0DUVT7_Blood	Blood	Normal	Blood	sample	phs002790_PBCLXD
+0DUSSJ_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLXN
+0DUSSV_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLXN
+0DUSSE_Blood	Blood	Normal	Blood	sample	phs002790_PBCLXN
+0DUUP8_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLYG
+0DUUQA_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLYG
+0DUUPR_Blood	Blood	Normal	Blood	sample	phs002790_PBCLYG
+0DV995_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLYL
+0DV98P_Blood	Blood	Normal	Blood	sample	phs002790_PBCLYL
+0DUUP9_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLYM
+0DUUQB_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLYM
+0DUUPS_Blood	Blood	Normal	Blood	sample	phs002790_PBCLYM
+0DV147_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLZM
+0DV159_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLZM
+0DV14K_Blood	Blood	Normal	Blood	sample	phs002790_PBCLZM
+0DV99P_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLZN
+0DV992_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLZN
+0DV98O_Blood	Blood	Normal	Blood	sample	phs002790_PBCLZN
+0DVBRJ_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCLZS
+0DVBRA_Blood	Blood	Normal	Blood	sample	phs002790_PBCLZS
+0DV148_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLZT
+0DV15A_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCLZT
+0DV14L_Blood	Blood	Normal	Blood	sample	phs002790_PBCLZT
+0DV149_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMAI
+0DV14Z_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMAI
+0DV14M_Blood	Blood	Normal	Blood	sample	phs002790_PBCMAI
+0DV14A_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMAJ
+0DV150_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMAJ
+0DV14N_Blood	Blood	Normal	Blood	sample	phs002790_PBCMAJ
+0DV5S3_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCMAM
+0DV5SD_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCMAM
+0DV5RQ_Blood	Blood	Normal	Blood	sample	phs002790_PBCMAM
+0DUXOJ_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMAS
+0DUXP0_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMAS
+0DUXNZ_Blood	Blood	Normal	Blood	sample	phs002790_PBCMAS
+0DV2R8_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMBF
+0DV2RZ_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMBF
+0DV2QV_Blood	Blood	Normal	Blood	sample	phs002790_PBCMBF
+0DV14B_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMBH
+0DV15B_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMBH
+0DV14O_Blood	Blood	Normal	Blood	sample	phs002790_PBCMBH
+0DUXOK_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMBN
+0DUXPS_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMBN
+0DUXO0_Blood	Blood	Normal	Blood	sample	phs002790_PBCMBN
+0DUVTH_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCMBU
+0DUVTT_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCMBU
+0DUVT8_Blood	Blood	Normal	Blood	sample	phs002790_PBCMBU
+0DVCDS_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMBZ
+0DVCF6_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMBZ
+0DVCFR_Blood	Blood	Normal	Blood	sample	phs002790_PBCMBZ
+0DV5S4_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMCT
+0DV5SJ_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMCT
+0DV5RR_Blood	Blood	Normal	Blood	sample	phs002790_PBCMCT
+0DV15C_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCMCW
+0DV14P_Blood	Blood	Normal	Blood	sample	phs002790_PBCMCW
+0DVKDK_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMDA
+0DVKDW_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMDA
+0DV4KU_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMDF
+0DV4J5_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMDF
+0DV4IQ_Blood	Blood	Normal	Blood	sample	phs002790_PBCMDF
+0DVCDT_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCMDS
+0DVCFH_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCMDS
+0DVCFS_Blood	Blood	Normal	Blood	sample	phs002790_PBCMDS
+0DVDTB_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMED
+0DVDUA_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMED
+0DVDUY_Blood	Blood	Normal	Blood	sample	phs002790_PBCMED
+0DV2R9_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMEL
+0DV2RY_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMEL
+0DV2QW_Blood	Blood	Normal	Blood	sample	phs002790_PBCMEL
+0DV4KV_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCMEU
+0DV4J0_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCMEU
+0DV4IR_Blood	Blood	Normal	Blood	sample	phs002790_PBCMEU
+0DV4J6_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCMFD
+0DV4IS_Blood	Blood	Normal	Blood	sample	phs002790_PBCMFD
+0DVNYA_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCMFH
+0DV4KW_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMFK
+0DV4J2_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMFK
+0DV4IT_Blood	Blood	Normal	Blood	sample	phs002790_PBCMFK
+0DVPOL_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCMFT
+0DV5S5_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMGG
+0DV5SK_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMGG
+0DV5RS_Blood	Blood	Normal	Blood	sample	phs002790_PBCMGG
+0DV5SE_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCMGH
+0DV5RT_Blood	Blood	Normal	Blood	sample	phs002790_PBCMGH
+0DVBVT_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCMGP
+0DVBVG_Blood	Blood	Normal	Blood	sample	phs002790_PBCMGP
+0DV5S6_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCMGT
+0DV5SF_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCMGT
+0DV5RU_Blood	Blood	Normal	Blood	sample	phs002790_PBCMGT
+0DVJOG_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMGW
+0DV4KX_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMGZ
+0DV4J1_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMGZ
+0DV4IU_Blood	Blood	Normal	Blood	sample	phs002790_PBCMGZ
+0DVBVP_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMHC
+0DVBVU_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMHC
+0DVBVH_Blood	Blood	Normal	Blood	sample	phs002790_PBCMHC
+0DV5S7_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCMHN
+0DV5SG_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCMHN
+0DV5RV_Blood	Blood	Normal	Blood	sample	phs002790_PBCMHN
+0DVJOH_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCMIJ
+0DV4KZ_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMIR
+0DV4J8_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMIR
+0DV4IW_Blood	Blood	Normal	Blood	sample	phs002790_PBCMIR
+0DV5S8_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMJC
+0DV5SH_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMJC
+0DV5RW_Blood	Blood	Normal	Blood	sample	phs002790_PBCMJC
+0DVCDU_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMJT
+0DVCFI_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMJT
+0DVBRE_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMKE
+0DVBRK_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMKE
+0DVBRB_Blood	Blood	Normal	Blood	sample	phs002790_PBCMKE
+0DVCDV_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCMKS
+0DVCFJ_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCMKS
+0DVCFU_Blood	Blood	Normal	Blood	sample	phs002790_PBCMKS
+0DVCDW_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMKT
+0DVCFK_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMKT
+0DVCFV_Blood	Blood	Normal	Blood	sample	phs002790_PBCMKT
+0DVJON_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMLA
+0DVJNP_Blood	Blood	Normal	Blood	sample	phs002790_PBCMLA
+0DVBRF_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMLI
+0DVBRL_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMLI
+0DVBRC_Blood	Blood	Normal	Blood	sample	phs002790_PBCMLI
+0DVCDX_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMLK
+0DVCF7_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMLK
+0DVCFW_Blood	Blood	Normal	Blood	sample	phs002790_PBCMLK
+0DVJOU_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCMLN
+0DVJNY_Blood	Blood	Normal	Blood	sample	phs002790_PBCMLN
+0DVHB2_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCMLS
+0DVHAY_Blood	Blood	Normal	Blood	sample	phs002790_PBCMLS
+0DVKDL_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCMNS
+0DVKE8_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCMNS
+0DVJO2_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMNT
+0DVJOI_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMNT
+0DVM1M_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCMNY
+0DVJO3_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMNZ
+0DVJOJ_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMNZ
+0DVJNR_Blood	Blood	Normal	Blood	sample	phs002790_PBCMNZ
+0DVDUD_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCMPD
+0DVDV0_Blood	Blood	Normal	Blood	sample	phs002790_PBCMPD
+0DVCDY_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMPH
+0DVCFL_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMPH
+0DVCFX_Blood	Blood	Normal	Blood	sample	phs002790_PBCMPH
+0DVCEY_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMSE
+0DVCF8_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMSE
+0DVCFY_Blood	Blood	Normal	Blood	sample	phs002790_PBCMSE
+0DVJOO_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMSF
+0DVDTC_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMSH
+0DVDUF_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMSH
+0DVDUZ_Blood	Blood	Normal	Blood	sample	phs002790_PBCMSH
+0DVJO5_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMTA
+0DVJOV_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMTA
+0DVKDM_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMTU
+0DVKDX_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMTU
+0DVKDN_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMTW
+0DVKDY_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMTW
+0DVKEG_Blood	Blood	Normal	Blood	sample	phs002790_PBCMTW
+0DVNX9_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMTZ
+0DVF8T_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMUK
+0DVF8X_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMUK
+0DVF8Q_Blood	Blood	Normal	Blood	sample	phs002790_PBCMUK
+0DVJOK_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCMVV
+0DVJNU_Blood	Blood	Normal	Blood	sample	phs002790_PBCMVV
+0DVKDO_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMXB
+0DVKE9_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMXB
+0DVJO7_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMXN
+0DVJOL_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMXN
+0DVJO8_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCMYB
+0DVJOM_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCMYB
+0DVNXF_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCMYH
+0DVKG7_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCMZJ
+0DVKDZ_Central Nervous System	Central Nervous System	Tumor	Central Nervous System	sample	phs002790_PBCMZN
+0DVKG8_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCMZY
+0DVM0P_Invalid value	Not specified in data	Tumor	Not specified in data	sample	phs002790_PBCNAX

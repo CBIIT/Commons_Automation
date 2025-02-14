@@ -1,0 +1,24 @@
+study_name	study_description	study_external_url	primary_investigator_name	primary_investigator_email	phs_accession	number_of_participants	number_of_samples	study_data_types	acl	study_access	authz	study_version	type	program.program_acronym	data_access_level	file_types_and_format
+Human Tumor Atlas Network (HTAN) primary sequencing data	"An NCI-funded Cancer Moonshot initiative to construct 3-dimensional atlases of the dynamic cellular, morphological, and molecular features of human cancers as they evolve from precancerous lesions to advanced disease.
+
+Study Design:
+Collection
+Study Type:
+Clinical Diagnostic Testing
+Clinical Genetic Testing
+Exome Sequencing
+GWAS
+Individual-Level Genomic Data
+Longitudinal
+Metastasis
+Methylation Sequencing
+Multicenter
+RNA Sequencing
+Sequencing
+Single Cell Analysis
+Tissue Expression
+Transcriptome Analysis
+Transcriptome Sequencing
+Tumor
+Whole Genome Sequencing
+Total number of consented subjects: 1547"	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002371.v1.p1	Avrum Spira,Steven Dubinett, Dana Pe'er,Christine Iacobuzio-Donahue, Eun-sil (Shelley) Hwang,Carlo Maley,Robert West, Jeremy Goecks,Gordon Mills,George Thomas, Kai Tan,Stephen Hunger,, Ken S. Lau,Robert Coffey,Martha Shrubsole, Li Ding,Ryan Fields,William Gillanders,Samuel Achilefu, Michael P. Snyder,James Ford,William Greenleaf	aspira@bu.edu,sdubinett@mednet.ucla.edu, goecksj@ohsu.edu,millsg@ohsu.edu,thomasge@ohsu.edu, ken.s.lau@vanderbilt.edu,robert.coffey@vumc.org,martha.shrubsole@vumc.org, lding@wustl.edu,rcfields@wustl.edu,gillandersw@wustl.edu,BME@UTSouthwestern.edu, mpsnyder@stanford.edu,jmf@stanford.edu,wjg@stanford.edu, peerd@mskcc.org,iacobuzc@mskcc.org, shelley.hwang@duke.edu,maley@asu.edu,rbwest@stanford.edu, tank1@chop.edu,hungers@chop.edu	phs002371	301	836	Genomic	['phs002371']	Controlled	['/programs/phs002371']	phs002371.v6.p1|phs002371.v5.p1|phs002371.v3.p1|phs002371.v2.p1|phs002371.v1.p1	study	HTAN	Not specified in data	

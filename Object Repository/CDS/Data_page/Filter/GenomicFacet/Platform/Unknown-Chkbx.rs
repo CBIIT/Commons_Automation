@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Unknown-Chkbx</name>
+   <tag></tag>
+   <elementGuidId>c4c3f4ce-95c1-4900-8f1e-67260abb1d04</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;checkbox_platform_Unknown&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;checkbox_platform_Unknown&quot;]</value>
+      <webElementGuid>93657d05-27fd-4fa7-a010-a626e0b9cae6</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

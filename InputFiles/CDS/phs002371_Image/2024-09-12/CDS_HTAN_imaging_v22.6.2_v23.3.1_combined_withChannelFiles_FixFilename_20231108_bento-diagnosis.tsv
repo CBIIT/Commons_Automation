@@ -1,0 +1,711 @@
+vital_status	primary_diagnosis	age_at_diagnosis	tumor_grade	morphology	progression_or_recurrence	days_to_recurrence	days_to_last_followup	last_known_disease_status	days_to_last_known_status	type	diagnosis_id	study_diagnosis_id	participant.study_participant_id
+Dead	Ductal Carcinoma NOS	50	Unknown		Yes	Unknown	1532	With tumor	1483	diagnosis	HTA1_519	phs002371_image_HTA1_519_HTA1_519	phs002371_image_HTA1_519
+Not Reported	Not Reported	18	Not Applicable		Not Reported		Not Reported	Not Applicable	Not Reported	diagnosis	HTA13_2	phs002371_image_HTA13_2_HTA13_2	phs002371_image_HTA13_2
+Dead	Ductal Carcinoma NOS	69	High Grade		No	Not Applicable	659	Tumor free	659	diagnosis	HTA6_2390	phs002371_image_HTA6_2390_HTA6_2390	phs002371_image_HTA6_2390
+Alive	Adenocarcinoma	49	High Grade		No		1792	Tumor free	1594	diagnosis	HTA7_930	phs002371_image_HTA7_930_HTA7_930	phs002371_image_HTA7_930
+Unknown	Ductal Carcinoma NOS	39	High Grade		Yes	15087	6315	unknown tumor status	652	diagnosis	HTA6_2279	phs002371_image_HTA6_2279_HTA6_2279	phs002371_image_HTA6_2279
+Alive	Ductal Carcinoma NOS	38	Intermediate Grade		No	Not Applicable	3751	Tumor free	3751	diagnosis	HTA6_2200	phs002371_image_HTA6_2200_HTA6_2200	phs002371_image_HTA6_2200
+Alive	Ductal Carcinoma NOS	47	Low Grade		Yes	25305	8633	unknown tumor status	7867	diagnosis	HTA6_2217	phs002371_image_HTA6_2217_HTA6_2217	phs002371_image_HTA6_2217
+Alive	Mucous adenocarcinoma	61	High Grade		No		2129	Tumor free	1867	diagnosis	HTA7_918	phs002371_image_HTA7_918_HTA7_918	phs002371_image_HTA7_918
+Dead	Small cell neuroendocrine carcinoma	77	High Grade		Yes	28748	1215	With tumor	1215	diagnosis	HTA8_2030	phs002371_image_HTA8_2030_HTA8_2030	phs002371_image_HTA8_2030
+Alive	Ductal Carcinoma NOS	49	Low Grade		No	Not Applicable	3911	Tumor free	3911	diagnosis	HTA6_2131	phs002371_image_HTA6_2131_HTA6_2131	phs002371_image_HTA6_2131
+Alive	Pancreatobiliary-type carcinoma	59	G2		No		188	Tumor free	188	diagnosis	HTA12_19	phs002371_image_HTA12_19_HTA12_19	phs002371_image_HTA12_19
+Alive	Ductal Carcinoma NOS	45	G3	Unknown	Yes	17461	159	unknown tumor status	159	diagnosis	HTA6_1125	phs002371_image_HTA6_1125_HTA6_1125	phs002371_image_HTA6_1125
+Alive	Ductal Carcinoma NOS	47	G3	Unknown	No	Not Applicable	178	Tumor free	178	diagnosis	HTA6_2118	phs002371_image_HTA6_2118_HTA6_2118	phs002371_image_HTA6_2118
+Alive	Ductal Carcinoma NOS	47	Intermediate Grade		No	Not Applicable	823	Tumor free	823	diagnosis	HTA6_2210	phs002371_image_HTA6_2210_HTA6_2210	phs002371_image_HTA6_2210
+Dead	Infiltrating duct carcinoma NOS	63	G3		Yes	25726	4314	Distant met recurrence/progression	4314	diagnosis	HTA9_1	phs002371_image_HTA9_1_HTA9_1	phs002371_image_HTA9_1
+Alive	Adenocarcinoma	66	Low Grade		No		1452	Tumor free	1452	diagnosis	HTA7_975	phs002371_image_HTA7_975_HTA7_975	phs002371_image_HTA7_975
+Alive	Ductal Carcinoma NOS	50	Intermediate Grade		Yes	18431	510	unknown tumor status	0	diagnosis	HTA6_1157	phs002371_image_HTA6_1157_HTA6_1157	phs002371_image_HTA6_1157
+Alive	Pancreatobiliary-type carcinoma	60	G3		No		658	Tumor free	658	diagnosis	HTA12_2	phs002371_image_HTA12_2_HTA12_2	phs002371_image_HTA12_2
+Dead	Ductal Carcinoma NOS	83	Intermediate Grade		No	Not Applicable	2248	Tumor free	2248	diagnosis	HTA6_2276	phs002371_image_HTA6_2276_HTA6_2276	phs002371_image_HTA6_2276
+Alive	Ductal Carcinoma NOS	48	Intermediate Grade		No	Not Applicable	957	Tumor free	957	diagnosis	HTA6_2377	phs002371_image_HTA6_2377_HTA6_2377	phs002371_image_HTA6_2377
+Alive	Ductal Carcinoma NOS	41	Unknown		Yes	15214	450	unknown tumor status	192	diagnosis	HTA6_2248	phs002371_image_HTA6_2248_HTA6_2248	phs002371_image_HTA6_2248
+Alive	Ductal Carcinoma NOS	54	High Grade		No	Not Applicable	4824	Tumor free	4824	diagnosis	HTA6_1066	phs002371_image_HTA6_1066_HTA6_1066	phs002371_image_HTA6_1066
+Unknown	Ductal Carcinoma NOS	42	High Grade		Yes	16052	414	unknown tumor status	414	diagnosis	HTA6_1103	phs002371_image_HTA6_1103_HTA6_1103	phs002371_image_HTA6_1103
+Alive	Ductal Carcinoma NOS	41	High Grade		No	Not Applicable	6596	Tumor free	6596	diagnosis	HTA6_2177	phs002371_image_HTA6_2177_HTA6_2177	phs002371_image_HTA6_2177
+Alive	Ductal Carcinoma NOS	53	Low Grade		No	Not Applicable	4966	Tumor free	4966	diagnosis	HTA6_1095	phs002371_image_HTA6_1095_HTA6_1095	phs002371_image_HTA6_1095
+Alive	Ductal Carcinoma NOS	47	Intermediate Grade		No	Not Applicable	6909	Tumor free	6909	diagnosis	HTA6_2259	phs002371_image_HTA6_2259_HTA6_2259	phs002371_image_HTA6_2259
+Alive	Ductal Carcinoma NOS	39	High Grade		Yes	20044	6182	unknown tumor status	5462	diagnosis	HTA6_2227	phs002371_image_HTA6_2227_HTA6_2227	phs002371_image_HTA6_2227
+Dead	Ductal Carcinoma NOS	48	Low Grade		No	Not Applicable	4080	Tumor free	4080	diagnosis	HTA6_2364	phs002371_image_HTA6_2364_HTA6_2364	phs002371_image_HTA6_2364
+Alive	Ductal Carcinoma NOS	41	Intermediate Grade		No	Not Applicable	2884	Tumor free	2884	diagnosis	HTA6_2138	phs002371_image_HTA6_2138_HTA6_2138	phs002371_image_HTA6_2138
+Dead	Ductal Carcinoma NOS	69	Low Grade		No	Not Applicable	2597	Tumor free	2597	diagnosis	HTA6_2391	phs002371_image_HTA6_2391_HTA6_2391	phs002371_image_HTA6_2391
+Dead	Small cell neuroendocrine carcinoma	69	High Grade		Yes	25482	743	Loco-regional recurrence/progression	743	diagnosis	HTA8_2020	phs002371_image_HTA8_2020_HTA8_2020	phs002371_image_HTA8_2020
+Alive	Ductal Carcinoma NOS	66	Intermediate Grade		Yes	26472	4059	unknown tumor status	2034	diagnosis	HTA6_2240	phs002371_image_HTA6_2240_HTA6_2240	phs002371_image_HTA6_2240
+Alive	Ductal Carcinoma NOS	52	Unknown		No	Not Applicable	5235	Tumor free	5235	diagnosis	HTA6_1063	phs002371_image_HTA6_1063_HTA6_1063	phs002371_image_HTA6_1063
+Not Reported	Malignant Melanoma NOS	37	Not Applicable		Not Reported		869	Tumor free	869	diagnosis	HTA7_14	phs002371_image_HTA7_14_HTA7_14	phs002371_image_HTA7_14
+Alive	Ductal Carcinoma NOS	53	Low Grade		No	Not Applicable	3014	Tumor free	3014	diagnosis	HTA6_1110	phs002371_image_HTA6_1110_HTA6_1110	phs002371_image_HTA6_1110
+Unknown	Ductal Carcinoma NOS	45	Low Grade		No	Not Applicable	7022	Tumor free	7022	diagnosis	HTA6_2243	phs002371_image_HTA6_2243_HTA6_2243	phs002371_image_HTA6_2243
+Alive	Ductal Carcinoma NOS	51	High Grade		No	Not Applicable	3669	Tumor free	3669	diagnosis	HTA6_2204	phs002371_image_HTA6_2204_HTA6_2204	phs002371_image_HTA6_2204
+Dead	Small cell neuroendocrine carcinoma	58	High Grade		Yes	21733	265	With tumor	265	diagnosis	HTA8_2034	phs002371_image_HTA8_2034_HTA8_2034	phs002371_image_HTA8_2034
+Alive	Ductal Carcinoma NOS	61	Intermediate Grade		No	Not Applicable	10312	Tumor free	10312	diagnosis	HTA6_2266	phs002371_image_HTA6_2266_HTA6_2266	phs002371_image_HTA6_2266
+Unknown	Neuroblastoma	18	Not Applicable		Not Reported		Not Reported	Not Reported	Not Reported	diagnosis	HTA1_102	phs002371_image_HTA1_102_HTA1_102	phs002371_image_HTA1_102
+Alive	Ductal Carcinoma NOS	61	Low Grade		Yes	22608	3687	unknown tumor status	2644	diagnosis	HTA6_1019	phs002371_image_HTA6_1019_HTA6_1019	phs002371_image_HTA6_1019
+Alive	Ductal Carcinoma NOS	57	High Grade		No	Not Applicable	1521	Tumor free	1521	diagnosis	HTA6_2139	phs002371_image_HTA6_2139_HTA6_2139	phs002371_image_HTA6_2139
+Alive	Ductal Carcinoma NOS	58	G2	Unknown	Yes	22310	94	unknown tumor status	94	diagnosis	HTA6_2254	phs002371_image_HTA6_2254_HTA6_2254	phs002371_image_HTA6_2254
+Alive	Ductal Carcinoma NOS	57	High Grade		Yes	21857	7765	unknown tumor status	821	diagnosis	HTA6_1047	phs002371_image_HTA6_1047_HTA6_1047	phs002371_image_HTA6_1047
+Alive	Ductal Carcinoma NOS	44	High Grade		No	Not Applicable	6031	Tumor free	6031	diagnosis	HTA6_1056	phs002371_image_HTA6_1056_HTA6_1056	phs002371_image_HTA6_1056
+Alive	Ductal Carcinoma NOS	46	Low Grade		Yes	18596	4420	unknown tumor status	1667	diagnosis	HTA6_2315	phs002371_image_HTA6_2315_HTA6_2315	phs002371_image_HTA6_2315
+Alive	Ductal Carcinoma NOS	37	Intermediate Grade		No	Not Applicable	3250	Tumor free	3250	diagnosis	HTA6_1137	phs002371_image_HTA6_1137_HTA6_1137	phs002371_image_HTA6_1137
+Alive	Ductal Carcinoma NOS	63	High Grade		No	Not Applicable	4690	Tumor free	4690	diagnosis	HTA6_2092	phs002371_image_HTA6_2092_HTA6_2092	phs002371_image_HTA6_2092
+Alive	Ductal Carcinoma NOS	57	Intermediate Grade		No	Not Applicable	2517	Tumor free	2517	diagnosis	HTA6_2288	phs002371_image_HTA6_2288_HTA6_2288	phs002371_image_HTA6_2288
+Alive	Ductal Carcinoma NOS	50	G2	Unknown	No	Not Applicable	134	Tumor free	134	diagnosis	HTA6_2383	phs002371_image_HTA6_2383_HTA6_2383	phs002371_image_HTA6_2383
+Alive	Ductal Carcinoma NOS	37	Intermediate Grade		Yes	18602	5594	unknown tumor status	4802	diagnosis	HTA6_1166	phs002371_image_HTA6_1166_HTA6_1166	phs002371_image_HTA6_1166
+Alive	Ductal Carcinoma NOS	38	Low Grade		Yes	17768	8451	unknown tumor status	3736	diagnosis	HTA6_2020	phs002371_image_HTA6_2020_HTA6_2020	phs002371_image_HTA6_2020
+Alive	Ductal Carcinoma NOS	50	Intermediate Grade		No	Not Applicable	2489	Tumor free	2489	diagnosis	HTA6_1013	phs002371_image_HTA6_1013_HTA6_1013	phs002371_image_HTA6_1013
+Not Reported	Malignant Melanoma NOS	44	Not Applicable		Yes	unknown	468	Loco-regional recurrence/progression	468	diagnosis	HTA7_6	phs002371_image_HTA7_6_HTA7_6	phs002371_image_HTA7_6
+Dead	Ductal Carcinoma NOS	50	Intermediate Grade		No	Not Applicable	7126	Tumor free	7126	diagnosis	HTA6_2226	phs002371_image_HTA6_2226_HTA6_2226	phs002371_image_HTA6_2226
+Alive	Ductal Carcinoma NOS	72	Low Grade		No	Not Applicable	1467	Tumor free	1467	diagnosis	HTA6_1153	phs002371_image_HTA6_1153_HTA6_1153	phs002371_image_HTA6_1153
+Alive	Central neuroblastoma	18	Unknown		Yes	unknown	587	Tumor free	581	diagnosis	HTA1_656	phs002371_image_HTA1_656_HTA1_656	phs002371_image_HTA1_656
+Dead	Ductal Carcinoma NOS	79	High Grade		No	Not Applicable	3463	Tumor free	3463	diagnosis	HTA6_2142	phs002371_image_HTA6_2142_HTA6_2142	phs002371_image_HTA6_2142
+Alive	Ductal Carcinoma NOS	51	Low Grade		Yes	20970	9368	unknown tumor status	1979	diagnosis	HTA6_2085	phs002371_image_HTA6_2085_HTA6_2085	phs002371_image_HTA6_2085
+Alive	Ductal Carcinoma NOS	47	Intermediate Grade		No	Not Applicable	1451	Tumor free	1451	diagnosis	HTA6_1146	phs002371_image_HTA6_1146_HTA6_1146	phs002371_image_HTA6_1146
+Alive	Ductal Carcinoma NOS	52	G2		Yes	Unknown	3262	With tumor	3174	diagnosis	HTA1_783	phs002371_image_HTA1_783_HTA1_783	phs002371_image_HTA1_783
+Alive	Ductal Carcinoma NOS	58	G1	Unknown	No	Not Applicable	230	Tumor free	230	diagnosis	HTA6_2183	phs002371_image_HTA6_2183_HTA6_2183	phs002371_image_HTA6_2183
+Alive	Ductal Carcinoma NOS	50	High Grade		Yes	23053	6016	unknown tumor status	4517	diagnosis	HTA6_2363	phs002371_image_HTA6_2363_HTA6_2363	phs002371_image_HTA6_2363
+Alive	Ductal Carcinoma NOS	49	High Grade		No	Not Applicable	4052	Tumor free	4052	diagnosis	HTA6_2170	phs002371_image_HTA6_2170_HTA6_2170	phs002371_image_HTA6_2170
+Alive	Pancreatobiliary-type carcinoma	75	G2		No		503	Tumor free	503	diagnosis	HTA12_13	phs002371_image_HTA12_13_HTA12_13	phs002371_image_HTA12_13
+Alive	Ductal Carcinoma NOS	52	Intermediate Grade		No	Not Applicable	4136	Tumor free	4136	diagnosis	HTA6_1144	phs002371_image_HTA6_1144_HTA6_1144	phs002371_image_HTA6_1144
+Dead	Ductal Carcinoma NOS	66	Low Grade		No	Not Applicable	2927	Tumor free	2927	diagnosis	HTA6_2187	phs002371_image_HTA6_2187_HTA6_2187	phs002371_image_HTA6_2187
+Alive	Ductal Carcinoma NOS	41	Low Grade		No	Not Applicable	7956	Tumor free	7956	diagnosis	HTA6_2271	phs002371_image_HTA6_2271_HTA6_2271	phs002371_image_HTA6_2271
+Dead	Mucous adenocarcinoma	47	Low Grade		No		808	Tumor free	786	diagnosis	HTA7_986	phs002371_image_HTA7_986_HTA7_986	phs002371_image_HTA7_986
+Alive	Ductal Carcinoma NOS	48	Intermediate Grade		No	Not Applicable	1628	Tumor free	1628	diagnosis	HTA6_2299	phs002371_image_HTA6_2299_HTA6_2299	phs002371_image_HTA6_2299
+Alive	Ductal Carcinoma NOS	48	High Grade		Yes	18108	10060	unknown tumor status	433	diagnosis	HTA6_1002	phs002371_image_HTA6_1002_HTA6_1002	phs002371_image_HTA6_1002
+Alive	Ductal Carcinoma NOS	53	High Grade		No	Not Applicable	4048	Tumor free	4048	diagnosis	HTA6_1090	phs002371_image_HTA6_1090_HTA6_1090	phs002371_image_HTA6_1090
+Not Reported	Malignant Melanoma NOS	55	Not Applicable		Not Reported		632	Tumor free	632	diagnosis	HTA7_22	phs002371_image_HTA7_22_HTA7_22	phs002371_image_HTA7_22
+Dead	Ductal Carcinoma NOS	81	Intermediate Grade		Yes	30662	1071	unknown tumor status	726	diagnosis	HTA6_1026	phs002371_image_HTA6_1026_HTA6_1026	phs002371_image_HTA6_1026
+Alive	Ductal Carcinoma NOS	53	Low Grade		No	Not Applicable	7910	Tumor free	7910	diagnosis	HTA6_1073	phs002371_image_HTA6_1073_HTA6_1073	phs002371_image_HTA6_1073
+Alive	Ductal Carcinoma NOS	47	Unknown		No	Not Applicable	2919	Tumor free	2919	diagnosis	HTA6_2148	phs002371_image_HTA6_2148_HTA6_2148	phs002371_image_HTA6_2148
+Alive	Ductal Carcinoma NOS	52	Intermediate Grade		Yes	20223	4487	unknown tumor status	1022	diagnosis	HTA6_2202	phs002371_image_HTA6_2202_HTA6_2202	phs002371_image_HTA6_2202
+Alive	Ductal Carcinoma NOS	53	Intermediate Grade		No	Not Applicable	373	Tumor free	373	diagnosis	HTA6_1155	phs002371_image_HTA6_1155_HTA6_1155	phs002371_image_HTA6_1155
+Unknown	Neuroblastoma	18	Not Applicable		Not Reported		Not Reported	Not Reported	Not Reported	diagnosis	HTA1_125	phs002371_image_HTA1_125_HTA1_125	phs002371_image_HTA1_125
+Dead	Ductal Carcinoma NOS	83	Low Grade		No	Not Applicable	1146	Tumor free	1146	diagnosis	HTA6_2380	phs002371_image_HTA6_2380_HTA6_2380	phs002371_image_HTA6_2380
+Alive	Ductal Carcinoma NOS	38	High Grade		No	Not Applicable	1813	Tumor free	1813	diagnosis	HTA6_2074	phs002371_image_HTA6_2074_HTA6_2074	phs002371_image_HTA6_2074
+Alive	Adenocarcinoma	32	High Grade		Yes	529	2233	Distant met recurrence/progression	529	diagnosis	HTA7_909	phs002371_image_HTA7_909_HTA7_909	phs002371_image_HTA7_909
+Dead	Adenocarcinoma	67	Low Grade		Yes	26	613	Distant met recurrence/progression	26	diagnosis	HTA7_989	phs002371_image_HTA7_989_HTA7_989	phs002371_image_HTA7_989
+Alive	Ductal Carcinoma NOS	40	High Grade		No	Not Applicable	5927	Tumor free	5927	diagnosis	HTA6_2328	phs002371_image_HTA6_2328_HTA6_2328	phs002371_image_HTA6_2328
+Alive	Adenocarcinoma	39	Low Grade		Yes	91	1612	Distant met recurrence/progression	91	diagnosis	HTA7_972	phs002371_image_HTA7_972_HTA7_972	phs002371_image_HTA7_972
+Dead	Small cell neuroendocrine carcinoma	67	High Grade		Yes	24809	757	With tumor	757	diagnosis	HTA8_2054	phs002371_image_HTA8_2054_HTA8_2054	phs002371_image_HTA8_2054
+Alive	Intraductal Carcinoma NOS	57	G3		Yes	Unknown	2364	With tumor	2335	diagnosis	HTA1_853	phs002371_image_HTA1_853_HTA1_853	phs002371_image_HTA1_853
+Alive	Ductal Carcinoma NOS	48	G1	Unknown	No	Not Applicable	125	Tumor free	125	diagnosis	HTA6_2207	phs002371_image_HTA6_2207_HTA6_2207	phs002371_image_HTA6_2207
+Dead	Ductal Carcinoma NOS	65	High Grade		No	Not Applicable	2789	Tumor free	2789	diagnosis	HTA6_2332	phs002371_image_HTA6_2332_HTA6_2332	phs002371_image_HTA6_2332
+Alive	Ductal Carcinoma NOS	43	Unknown		Yes	16823	2111	unknown tumor status	773	diagnosis	HTA6_2235	phs002371_image_HTA6_2235_HTA6_2235	phs002371_image_HTA6_2235
+Dead	Ductal Carcinoma NOS	83	Low Grade		No	Not Applicable	2185	Tumor free	2185	diagnosis	HTA6_2182	phs002371_image_HTA6_2182_HTA6_2182	phs002371_image_HTA6_2182
+Alive	Ductal Carcinoma NOS	54	Intermediate Grade		No	Not Applicable	3928	Tumor free	3928	diagnosis	HTA6_1074	phs002371_image_HTA6_1074_HTA6_1074	phs002371_image_HTA6_1074
+Alive	Ductal Carcinoma NOS	70	Low Grade		No	Not Applicable	900	Tumor free	900	diagnosis	HTA6_2263	phs002371_image_HTA6_2263_HTA6_2263	phs002371_image_HTA6_2263
+Alive	Ductal Carcinoma NOS	64	High Grade		No	Not Applicable	2900	Tumor free	2900	diagnosis	HTA6_2273	phs002371_image_HTA6_2273_HTA6_2273	phs002371_image_HTA6_2273
+Alive	Ductal Carcinoma NOS	55	High Grade		No	Not Applicable	3809	Tumor free	3809	diagnosis	HTA6_2158	phs002371_image_HTA6_2158_HTA6_2158	phs002371_image_HTA6_2158
+Alive	Ductal Carcinoma NOS	52	High Grade		No	Not Applicable	11578	Tumor free	11578	diagnosis	HTA6_2400	phs002371_image_HTA6_2400_HTA6_2400	phs002371_image_HTA6_2400
+Alive	Pancreatobiliary-type carcinoma	49	G1		No		424	Distant met recurrence/progression	424	diagnosis	HTA12_17	phs002371_image_HTA12_17_HTA12_17	phs002371_image_HTA12_17
+Dead	Ductal Carcinoma NOS	74	Intermediate Grade		No	Not Applicable	5714	Tumor free	5714	diagnosis	HTA6_2220	phs002371_image_HTA6_2220_HTA6_2220	phs002371_image_HTA6_2220
+Dead	Ductal Carcinoma NOS	54	G3		Yes	Unknown	989	With tumor	884	diagnosis	HTA1_917	phs002371_image_HTA1_917_HTA1_917	phs002371_image_HTA1_917
+Dead	Adenocarcinoma	62	Low Grade		Yes	275	945	Distant met recurrence/progression	275	diagnosis	HTA7_922	phs002371_image_HTA7_922_HTA7_922	phs002371_image_HTA7_922
+Alive	Mucous adenocarcinoma	70	Low Grade		No		1841	Tumor free	1598	diagnosis	HTA7_928	phs002371_image_HTA7_928_HTA7_928	phs002371_image_HTA7_928
+Alive	Ductal Carcinoma NOS	66	Low Grade		No	Not Applicable	5340	Tumor free	5340	diagnosis	HTA6_2117	phs002371_image_HTA6_2117_HTA6_2117	phs002371_image_HTA6_2117
+Alive	Ductal Carcinoma NOS	60	Low Grade		No	Not Applicable	1574	Tumor free	1574	diagnosis	HTA6_1001	phs002371_image_HTA6_1001_HTA6_1001	phs002371_image_HTA6_1001
+Alive	Ductal Carcinoma NOS	47	Unknown		No	Not Applicable	3937	Tumor free	3937	diagnosis	HTA6_2091	phs002371_image_HTA6_2091_HTA6_2091	phs002371_image_HTA6_2091
+Alive	Ductal Carcinoma NOS	61	Low Grade		Yes	26769	4368	unknown tumor status	4167	diagnosis	HTA6_2232	phs002371_image_HTA6_2232_HTA6_2232	phs002371_image_HTA6_2232
+Alive	Ductal Carcinoma NOS	39	Intermediate Grade		Yes	14477	722	unknown tumor status	50	diagnosis	HTA6_2257	phs002371_image_HTA6_2257_HTA6_2257	phs002371_image_HTA6_2257
+Alive	Ductal Carcinoma NOS	58	Intermediate Grade		No	Not Applicable	3107	Tumor free	3107	diagnosis	HTA6_2351	phs002371_image_HTA6_2351_HTA6_2351	phs002371_image_HTA6_2351
+Dead	Ductal Carcinoma NOS	69	High Grade		No	Not Applicable	7957	Tumor free	7957	diagnosis	HTA6_2126	phs002371_image_HTA6_2126_HTA6_2126	phs002371_image_HTA6_2126
+Unknown	Ductal Carcinoma NOS	70	High Grade		No	Not Applicable	7165	Tumor free	7165	diagnosis	HTA6_2132	phs002371_image_HTA6_2132_HTA6_2132	phs002371_image_HTA6_2132
+Alive	Adenocarcinoma	68	Low Grade		No		1928	Tumor free	1793	diagnosis	HTA7_910	phs002371_image_HTA7_910_HTA7_910	phs002371_image_HTA7_910
+Dead	Ductal Carcinoma NOS	79	Intermediate Grade		No	Not Applicable	4786	Tumor free	4786	diagnosis	HTA6_2320	phs002371_image_HTA6_2320_HTA6_2320	phs002371_image_HTA6_2320
+Alive	Ductal Carcinoma NOS	77	Low Grade		No	Not Applicable	755	Tumor free	755	diagnosis	HTA6_2389	phs002371_image_HTA6_2389_HTA6_2389	phs002371_image_HTA6_2389
+Dead	Small cell neuroendocrine carcinoma	71	High Grade		No		1052	Tumor free	1052	diagnosis	HTA8_2040	phs002371_image_HTA8_2040_HTA8_2040	phs002371_image_HTA8_2040
+Alive	Adenocarcinoma	72	High Grade		No		1583	Tumor free	1361	diagnosis	HTA7_956	phs002371_image_HTA7_956_HTA7_956	phs002371_image_HTA7_956
+Alive	Ductal Carcinoma NOS	37	Unknown		No	Not Applicable	9357	Tumor free	9357	diagnosis	HTA6_2333	phs002371_image_HTA6_2333_HTA6_2333	phs002371_image_HTA6_2333
+Dead	Ductal Carcinoma NOS	37	G2		Yes	Unknown	1133	With tumor	1132	diagnosis	HTA1_878	phs002371_image_HTA1_878_HTA1_878	phs002371_image_HTA1_878
+Alive	Pancreatobiliary-type carcinoma	63	G2		No		556	Distant met recurrence/progression	556	diagnosis	HTA12_12	phs002371_image_HTA12_12_HTA12_12	phs002371_image_HTA12_12
+Unknown	Ductal Carcinoma NOS	81	Low Grade		No	Not Applicable	1867	Tumor free	1867	diagnosis	HTA6_2191	phs002371_image_HTA6_2191_HTA6_2191	phs002371_image_HTA6_2191
+Unknown	Neuroblastoma	18	Not Applicable		Not Reported		Not Reported	Not Reported	Not Reported	diagnosis	HTA1_120	phs002371_image_HTA1_120_HTA1_120	phs002371_image_HTA1_120
+Alive	Ductal Carcinoma NOS	45	High Grade		No	Not Applicable	3548	Tumor free	3548	diagnosis	HTA6_1150	phs002371_image_HTA6_1150_HTA6_1150	phs002371_image_HTA6_1150
+Alive	Ductal Carcinoma NOS	41	High Grade		Yes	16332	10163	unknown tumor status	1061	diagnosis	HTA6_2110	phs002371_image_HTA6_2110_HTA6_2110	phs002371_image_HTA6_2110
+Dead	Infiltrating duct carcinoma NOS	54	Unknown		Yes	unknown	1560	Distant met recurrence/progression	1560	diagnosis	HTA9_3	phs002371_image_HTA9_3_HTA9_3	phs002371_image_HTA9_3
+Not Reported	Malignant Melanoma NOS	53	Not Applicable		Yes	unknown	917	Loco-regional recurrence/progression	917	diagnosis	HTA7_8	phs002371_image_HTA7_8_HTA7_8	phs002371_image_HTA7_8
+Dead	Small cell neuroendocrine carcinoma	56	High Grade		Yes	20967	389	With tumor	389	diagnosis	HTA8_2022	phs002371_image_HTA8_2022_HTA8_2022	phs002371_image_HTA8_2022
+Alive	Ductal Carcinoma NOS	51	G2	Unknown	No	Not Applicable	134	Tumor free	134	diagnosis	HTA6_1089	phs002371_image_HTA6_1089_HTA6_1089	phs002371_image_HTA6_1089
+Not Reported	Malignant Melanoma NOS	61	Not Applicable		Yes	unknown	730	Loco-regional recurrence/progression	730	diagnosis	HTA7_1	phs002371_image_HTA7_1_HTA7_1	phs002371_image_HTA7_1
+Dead	Ductal Carcinoma NOS	73	Intermediate Grade		No	Not Applicable	2415	Tumor free	2415	diagnosis	HTA6_2080	phs002371_image_HTA6_2080_HTA6_2080	phs002371_image_HTA6_2080
+Alive	Adenocarcinoma	55	Low Grade		No		1636	Tumor free	1036	diagnosis	HTA7_952	phs002371_image_HTA7_952_HTA7_952	phs002371_image_HTA7_952
+Dead	Ductal Carcinoma NOS	51	High Grade		No	Not Applicable	66	Tumor free	66	diagnosis	HTA6_2168	phs002371_image_HTA6_2168_HTA6_2168	phs002371_image_HTA6_2168
+Dead	Combined small cell-adenocarcinoma	63	High Grade		No		1575	Tumor free	1575	diagnosis	HTA8_2051	phs002371_image_HTA8_2051_HTA8_2051	phs002371_image_HTA8_2051
+Dead	Ductal Carcinoma NOS	69	Unknown		No	Not Applicable	6278	Tumor free	6278	diagnosis	HTA6_2122	phs002371_image_HTA6_2122_HTA6_2122	phs002371_image_HTA6_2122
+Alive	Small cell neuroendocrine carcinoma	64	High Grade		Unknown		30	With tumor	30	diagnosis	HTA8_2046	phs002371_image_HTA8_2046_HTA8_2046	phs002371_image_HTA8_2046
+Alive	Ductal Carcinoma NOS	65	G1	Unknown	No	Not Applicable	149	Tumor free	149	diagnosis	HTA6_2115	phs002371_image_HTA6_2115_HTA6_2115	phs002371_image_HTA6_2115
+Alive	Ductal Carcinoma NOS	52	G2	Unknown	Yes	26558	271	unknown tumor status	271	diagnosis	HTA6_2281	phs002371_image_HTA6_2281_HTA6_2281	phs002371_image_HTA6_2281
+Alive	Combined small cell-adenocarcinoma	61	High Grade		No		4350	Tumor free	4350	diagnosis	HTA8_2045	phs002371_image_HTA8_2045_HTA8_2045	phs002371_image_HTA8_2045
+Unknown	Ductal Carcinoma NOS	53	High Grade		Yes	20476	4755	unknown tumor status	1113	diagnosis	HTA6_2152	phs002371_image_HTA6_2152_HTA6_2152	phs002371_image_HTA6_2152
+Alive	Ductal Carcinoma NOS	57	Intermediate Grade		No	Not Applicable	2556	Tumor free	2556	diagnosis	HTA6_1064	phs002371_image_HTA6_1064_HTA6_1064	phs002371_image_HTA6_1064
+Unknown	Adenocarcinoma metastatic NOS	75	High Grade		Not Reported		unknown	Not Reported	unknown	diagnosis	HTA7_987	phs002371_image_HTA7_987_HTA7_987	phs002371_image_HTA7_987
+Dead	Ductal Carcinoma NOS	66	Low Grade		No	Not Applicable	3064	Tumor free	3064	diagnosis	HTA6_2238	phs002371_image_HTA6_2238_HTA6_2238	phs002371_image_HTA6_2238
+Alive	Pancreatobiliary-type carcinoma	58	G3		No		356	Tumor free	356	diagnosis	HTA12_10	phs002371_image_HTA12_10_HTA12_10	phs002371_image_HTA12_10
+Alive	Ductal Carcinoma NOS	60	G1	Unknown	No	Not Applicable	150	Tumor free	150	diagnosis	HTA6_2348	phs002371_image_HTA6_2348_HTA6_2348	phs002371_image_HTA6_2348
+Unknown	Ductal Carcinoma NOS	58	Low Grade		No	Not Applicable	5932	Tumor free	5932	diagnosis	HTA6_2374	phs002371_image_HTA6_2374_HTA6_2374	phs002371_image_HTA6_2374
+Unknown	Ductal Carcinoma NOS	44	Intermediate Grade		No	Not Applicable	6363	Tumor free	6363	diagnosis	HTA6_2375	phs002371_image_HTA6_2375_HTA6_2375	phs002371_image_HTA6_2375
+Alive	Mucous adenocarcinoma	63	Low Grade		No		1727	Tumor free	889	diagnosis	HTA7_946	phs002371_image_HTA7_946_HTA7_946	phs002371_image_HTA7_946
+Alive	Adenocarcinoma	43	Low Grade		No		1665	Tumor free	1146	diagnosis	HTA7_948	phs002371_image_HTA7_948_HTA7_948	phs002371_image_HTA7_948
+Alive	Ductal Carcinoma NOS	52	G3	Unknown	No	Not Applicable	168	Tumor free	168	diagnosis	HTA6_1065	phs002371_image_HTA6_1065_HTA6_1065	phs002371_image_HTA6_1065
+Alive	Ductal Carcinoma NOS	60	Low Grade		No	Not Applicable	2793	Tumor free	2793	diagnosis	HTA6_1079	phs002371_image_HTA6_1079_HTA6_1079	phs002371_image_HTA6_1079
+Alive	Pancreatobiliary-type carcinoma	53	G1		No		279	Tumor free	279	diagnosis	HTA12_21	phs002371_image_HTA12_21_HTA12_21	phs002371_image_HTA12_21
+Alive	Mucous adenocarcinoma	56	Low Grade		No		1837	Tumor free	1648	diagnosis	HTA7_939	phs002371_image_HTA7_939_HTA7_939	phs002371_image_HTA7_939
+Alive	Ductal Carcinoma NOS	52	Intermediate Grade		No	Not Applicable	1006	Tumor free	1006	diagnosis	HTA6_2354	phs002371_image_HTA6_2354_HTA6_2354	phs002371_image_HTA6_2354
+Alive	Pancreatobiliary-type carcinoma	66	G3		No		571	unknown tumor status	571	diagnosis	HTA12_4	phs002371_image_HTA12_4_HTA12_4	phs002371_image_HTA12_4
+Alive	Ductal Carcinoma NOS	58	Low Grade		No	Not Applicable	11144	Tumor free	11144	diagnosis	HTA6_2095	phs002371_image_HTA6_2095_HTA6_2095	phs002371_image_HTA6_2095
+Alive	Ductal Carcinoma NOS	48	High Grade		No	Not Applicable	1891	Tumor free	1891	diagnosis	HTA6_2149	phs002371_image_HTA6_2149_HTA6_2149	phs002371_image_HTA6_2149
+Alive	Adenocarcinoma	53	Low Grade		No		1521	Tumor free	1521	diagnosis	HTA7_979	phs002371_image_HTA7_979_HTA7_979	phs002371_image_HTA7_979
+Alive	Adenocarcinoma	40	Low Grade		Yes	448	1932	Distant met recurrence/progression	448	diagnosis	HTA7_927	phs002371_image_HTA7_927_HTA7_927	phs002371_image_HTA7_927
+Alive	Ductal Carcinoma NOS	43	High Grade		No	Not Applicable	5463	Tumor free	5463	diagnosis	HTA6_1014	phs002371_image_HTA6_1014_HTA6_1014	phs002371_image_HTA6_1014
+Alive	Ductal Carcinoma NOS	44	G2	Unknown	No	Not Applicable	107	Tumor free	107	diagnosis	HTA6_2071	phs002371_image_HTA6_2071_HTA6_2071	phs002371_image_HTA6_2071
+Dead	Ductal Carcinoma NOS	58	Intermediate Grade		No	Not Applicable	769	Tumor free	769	diagnosis	HTA6_2206	phs002371_image_HTA6_2206_HTA6_2206	phs002371_image_HTA6_2206
+Dead	Ductal Carcinoma NOS	69	Intermediate Grade		No	Not Applicable	1861	Tumor free	1861	diagnosis	HTA6_2275	phs002371_image_HTA6_2275_HTA6_2275	phs002371_image_HTA6_2275
+Alive	Pancreatobiliary-type carcinoma	62	G1		No		504	Distant met recurrence/progression	504	diagnosis	HTA12_15	phs002371_image_HTA12_15_HTA12_15	phs002371_image_HTA12_15
+Alive	Ductal Carcinoma NOS	57	Intermediate Grade		Yes	23893	3417	unknown tumor status	3044	diagnosis	HTA6_1094	phs002371_image_HTA6_1094_HTA6_1094	phs002371_image_HTA6_1094
+Alive	Ductal Carcinoma NOS	49	Unknown		No	Not Applicable	2546	Tumor free	2546	diagnosis	HTA6_2108	phs002371_image_HTA6_2108_HTA6_2108	phs002371_image_HTA6_2108
+Dead	Ductal Carcinoma NOS	59	Intermediate Grade		Yes	22417	8886	With tumor	635	diagnosis	HTA6_1129	phs002371_image_HTA6_1129_HTA6_1129	phs002371_image_HTA6_1129
+Alive	Ductal Carcinoma NOS	52	Intermediate Grade		Yes	21269	8208	unknown tumor status	1918	diagnosis	HTA6_2282	phs002371_image_HTA6_2282_HTA6_2282	phs002371_image_HTA6_2282
+Dead	Pancreatobiliary-type carcinoma	73	G3		No		670	Tumor free	670	diagnosis	HTA12_3	phs002371_image_HTA12_3_HTA12_3	phs002371_image_HTA12_3
+Alive	Ductal Carcinoma NOS	51	G2	Unknown	Yes	19748	131	unknown tumor status	131	diagnosis	HTA6_1072	phs002371_image_HTA6_1072_HTA6_1072	phs002371_image_HTA6_1072
+Alive	Adenocarcinoma	35	Low Grade		No		1546	Tumor free	489	diagnosis	HTA7_977	phs002371_image_HTA7_977_HTA7_977	phs002371_image_HTA7_977
+Dead	Combined small cell-adenocarcinoma	63	High Grade		Yes	23324	1373	With tumor	1373	diagnosis	HTA8_2049	phs002371_image_HTA8_2049_HTA8_2049	phs002371_image_HTA8_2049
+Dead	Ductal Carcinoma NOS	43	Intermediate Grade		Yes	20581	4728	With tumor	4728	diagnosis	HTA6_2368	phs002371_image_HTA6_2368_HTA6_2368	phs002371_image_HTA6_2368
+Alive	Ductal Carcinoma NOS	50	G2	Unknown	No	Not Applicable	115	Tumor free	115	diagnosis	HTA6_1080	phs002371_image_HTA6_1080_HTA6_1080	phs002371_image_HTA6_1080
+Alive	Ductal Carcinoma NOS	68	Low Grade		No	Not Applicable	6762	Tumor free	6762	diagnosis	HTA6_2357	phs002371_image_HTA6_2357_HTA6_2357	phs002371_image_HTA6_2357
+Dead	Ductal Carcinoma NOS	27	G3		Yes	Unknown	520	With tumor	509	diagnosis	HTA1_514	phs002371_image_HTA1_514_HTA1_514	phs002371_image_HTA1_514
+Alive	Ductal Carcinoma NOS	58	Intermediate Grade		Yes	21451	4366	unknown tumor status	270	diagnosis	HTA6_1051	phs002371_image_HTA6_1051_HTA6_1051	phs002371_image_HTA6_1051
+Alive	Ductal Carcinoma NOS	47	Low Grade		Yes	17360	3384	unknown tumor status	162	diagnosis	HTA6_1160	phs002371_image_HTA6_1160_HTA6_1160	phs002371_image_HTA6_1160
+Alive	Ductal Carcinoma NOS	77	Intermediate Grade		No	Not Applicable	1514	Tumor free	1514	diagnosis	HTA6_2307	phs002371_image_HTA6_2307_HTA6_2307	phs002371_image_HTA6_2307
+Alive	Small cell neuroendocrine carcinoma	71	High Grade		Yes	26379	1055	With tumor	1055	diagnosis	HTA8_2047	phs002371_image_HTA8_2047_HTA8_2047	phs002371_image_HTA8_2047
+Alive	Adenocarcinoma	50	Low Grade		No		1478	Tumor free	1478	diagnosis	HTA7_992	phs002371_image_HTA7_992_HTA7_992	phs002371_image_HTA7_992
+Dead	Ductal Carcinoma NOS	63	Intermediate Grade		No	Not Applicable	3845	Tumor free	3845	diagnosis	HTA6_2222	phs002371_image_HTA6_2222_HTA6_2222	phs002371_image_HTA6_2222
+Alive	Ductal Carcinoma NOS	66	Low Grade		No	Not Applicable	744	Tumor free	744	diagnosis	HTA6_2162	phs002371_image_HTA6_2162_HTA6_2162	phs002371_image_HTA6_2162
+Alive	Central neuroblastoma	18	Unknown		No		399	With tumor	13	diagnosis	HTA1_672	phs002371_image_HTA1_672_HTA1_672	phs002371_image_HTA1_672
+Alive	Ductal Carcinoma NOS	54	G1	Unknown	No	Not Applicable	167	Tumor free	167	diagnosis	HTA6_2113	phs002371_image_HTA6_2113_HTA6_2113	phs002371_image_HTA6_2113
+Alive	Ductal Carcinoma NOS	75	Intermediate Grade		Yes	29799	5849	unknown tumor status	2158	diagnosis	HTA6_2116	phs002371_image_HTA6_2116_HTA6_2116	phs002371_image_HTA6_2116
+Alive	Ductal Carcinoma NOS	49	Intermediate Grade		No	Not Applicable	1360	Tumor free	1360	diagnosis	HTA6_2037	phs002371_image_HTA6_2037_HTA6_2037	phs002371_image_HTA6_2037
+Dead	Ductal Carcinoma NOS	66	High Grade		No	Not Applicable	6415	Tumor free	6415	diagnosis	HTA6_1134	phs002371_image_HTA6_1134_HTA6_1134	phs002371_image_HTA6_1134
+Unknown	Ductal Carcinoma NOS	67	High Grade		No	Not Applicable	5061	Tumor free	5061	diagnosis	HTA6_2180	phs002371_image_HTA6_2180_HTA6_2180	phs002371_image_HTA6_2180
+Dead	Small cell neuroendocrine carcinoma	65	High Grade		Yes	24274	483	With tumor	483	diagnosis	HTA8_2029	phs002371_image_HTA8_2029_HTA8_2029	phs002371_image_HTA8_2029
+Alive	Mucous adenocarcinoma	69	G3		Yes	365	720	Tumor free	720	diagnosis	HTA13_1	phs002371_image_HTA13_1_HTA13_1	phs002371_image_HTA13_1
+Alive	Ductal Carcinoma NOS	53	Low Grade		Yes	19638	441	unknown tumor status	15	diagnosis	HTA6_1131	phs002371_image_HTA6_1131_HTA6_1131	phs002371_image_HTA6_1131
+Alive	Ductal Carcinoma NOS	45	G3	Unknown	No	Not Applicable	131	Tumor free	131	diagnosis	HTA6_2306	phs002371_image_HTA6_2306_HTA6_2306	phs002371_image_HTA6_2306
+Dead	Ductal Carcinoma NOS	58	High Grade		No	Not Applicable	3840	Tumor free	3840	diagnosis	HTA6_1084	phs002371_image_HTA6_1084_HTA6_1084	phs002371_image_HTA6_1084
+Alive	Combined small cell-large carcinoma	66	High Grade		No		2446	Tumor free	2446	diagnosis	HTA8_2048	phs002371_image_HTA8_2048_HTA8_2048	phs002371_image_HTA8_2048
+Alive	Ductal Carcinoma NOS	43	Unknown		No	Not Applicable	5780	Tumor free	5780	diagnosis	HTA6_2406	phs002371_image_HTA6_2406_HTA6_2406	phs002371_image_HTA6_2406
+Alive	Adenocarcinoma	66	High Grade		No		2156	Tumor free	1820	diagnosis	HTA7_907	phs002371_image_HTA7_907_HTA7_907	phs002371_image_HTA7_907
+Alive	Combined small cell-adenocarcinoma	62	High Grade		No		2703	Tumor free	2703	diagnosis	HTA8_2023	phs002371_image_HTA8_2023_HTA8_2023	phs002371_image_HTA8_2023
+Alive	Ductal Carcinoma NOS	44	Low Grade		No	Not Applicable	9334	Tumor free	9334	diagnosis	HTA6_2140	phs002371_image_HTA6_2140_HTA6_2140	phs002371_image_HTA6_2140
+Alive	Adenocarcinoma	80	Low Grade		No		1643	Tumor free	1525	diagnosis	HTA7_965	phs002371_image_HTA7_965_HTA7_965	phs002371_image_HTA7_965
+Unknown	Ductal Carcinoma NOS	43	High Grade		No	Not Applicable	3571	Tumor free	3571	diagnosis	HTA6_2136	phs002371_image_HTA6_2136_HTA6_2136	phs002371_image_HTA6_2136
+Dead	Combined small cell-adenocarcinoma	79	High Grade		Yes	29360	271	With tumor	271	diagnosis	HTA8_2050	phs002371_image_HTA8_2050_HTA8_2050	phs002371_image_HTA8_2050
+Alive	Pancreatobiliary-type carcinoma	72	G1		No		467	Tumor free	467	diagnosis	HTA12_16	phs002371_image_HTA12_16_HTA12_16	phs002371_image_HTA12_16
+Dead	Ductal Carcinoma NOS	62	Low Grade		Yes	24733	9024	unknown tumor status	1845	diagnosis	HTA6_2086	phs002371_image_HTA6_2086_HTA6_2086	phs002371_image_HTA6_2086
+Alive	Ductal Carcinoma NOS	53	Intermediate Grade		No	Not Applicable	3366	Tumor free	3366	diagnosis	HTA6_2055	phs002371_image_HTA6_2055_HTA6_2055	phs002371_image_HTA6_2055
+Dead	Ductal Carcinoma NOS	37	High Grade		Yes	14783	1032	With tumor	1028	diagnosis	HTA6_2174	phs002371_image_HTA6_2174_HTA6_2174	phs002371_image_HTA6_2174
+Alive	Adenocarcinoma	68	Low Grade		No		702	With tumor	701	diagnosis	HTA7_921	phs002371_image_HTA7_921_HTA7_921	phs002371_image_HTA7_921
+Alive	Adenocarcinoma	65	High Grade		No		1701	Tumor free	1526	diagnosis	HTA7_955	phs002371_image_HTA7_955_HTA7_955	phs002371_image_HTA7_955
+Dead	Lobular and ductal carcinoma	41	Unknown		Yes	Unknown	2275	With tumor	2256	diagnosis	HTA1_982	phs002371_image_HTA1_982_HTA1_982	phs002371_image_HTA1_982
+Alive	Adenocarcinoma	27	Low Grade		Yes	208	2024	Distant met recurrence/progression	208	diagnosis	HTA7_911	phs002371_image_HTA7_911_HTA7_911	phs002371_image_HTA7_911
+Not Reported	Malignant Melanoma NOS	59	Not Applicable		Not Reported		826	Tumor free	826	diagnosis	HTA7_13	phs002371_image_HTA7_13_HTA7_13	phs002371_image_HTA7_13
+Alive	Ductal Carcinoma NOS	43	G1	Unknown	No	Not Applicable	198	Tumor free	198	diagnosis	HTA6_2176	phs002371_image_HTA6_2176_HTA6_2176	phs002371_image_HTA6_2176
+Alive	Ductal Carcinoma NOS	61	Intermediate Grade		Yes	25161	2768	unknown tumor status	2739	diagnosis	HTA6_2325	phs002371_image_HTA6_2325_HTA6_2325	phs002371_image_HTA6_2325
+Unknown	Ductal Carcinoma NOS	47	Unknown		No	Not Applicable	2272	Tumor free	2272	diagnosis	HTA6_2102	phs002371_image_HTA6_2102_HTA6_2102	phs002371_image_HTA6_2102
+Alive	Ductal Carcinoma NOS	49	G3	Unknown	Yes	21524	192	unknown tumor status	192	diagnosis	HTA6_2166	phs002371_image_HTA6_2166_HTA6_2166	phs002371_image_HTA6_2166
+Alive	Ductal Carcinoma NOS	39	High Grade		Yes	17848	5932	unknown tumor status	3517	diagnosis	HTA6_1111	phs002371_image_HTA6_1111_HTA6_1111	phs002371_image_HTA6_1111
+Unknown	Neuroblastoma	18	Not Applicable		Not Reported		Not Reported	Not Reported	Not Reported	diagnosis	HTA1_116	phs002371_image_HTA1_116_HTA1_116	phs002371_image_HTA1_116
+Alive	Adenocarcinoma	37	Low Grade		No		2118	Tumor free	1360	diagnosis	HTA7_915	phs002371_image_HTA7_915_HTA7_915	phs002371_image_HTA7_915
+Dead	Adenocarcinoma	85	High Grade		Yes	87	291	Distant met recurrence/progression	87	diagnosis	HTA7_943	phs002371_image_HTA7_943_HTA7_943	phs002371_image_HTA7_943
+Alive	Ductal Carcinoma NOS	47	Low Grade		No	Not Applicable	1856	Tumor free	1856	diagnosis	HTA6_2303	phs002371_image_HTA6_2303_HTA6_2303	phs002371_image_HTA6_2303
+Alive	Pancreatobiliary-type carcinoma	52	G3		No		162	Distant met recurrence/progression	162	diagnosis	HTA12_8	phs002371_image_HTA12_8_HTA12_8	phs002371_image_HTA12_8
+Dead	Ductal Carcinoma NOS	68	Intermediate Grade		Yes	25211	2619	Tumor free	361	diagnosis	HTA6_1021	phs002371_image_HTA6_1021_HTA6_1021	phs002371_image_HTA6_1021
+Dead	Ductal Carcinoma NOS	37	High Grade		No	Not Applicable	3870	Tumor free	3870	diagnosis	HTA6_2246	phs002371_image_HTA6_2246_HTA6_2246	phs002371_image_HTA6_2246
+Alive	Ductal Carcinoma NOS	39	Intermediate Grade		No	Not Applicable	10339	Tumor free	10339	diagnosis	HTA6_1008	phs002371_image_HTA6_1008_HTA6_1008	phs002371_image_HTA6_1008
+Alive	Ductal Carcinoma NOS	52	Intermediate Grade		Yes	20584	2016	unknown tumor status	1558	diagnosis	HTA6_1061	phs002371_image_HTA6_1061_HTA6_1061	phs002371_image_HTA6_1061
+Alive	Ductal Carcinoma NOS	61	High Grade		No	Not Applicable	3932	Tumor free	3932	diagnosis	HTA6_2114	phs002371_image_HTA6_2114_HTA6_2114	phs002371_image_HTA6_2114
+Alive	Ductal Carcinoma NOS	81	Intermediate Grade		Yes	30987	2042	unknown tumor status	1330	diagnosis	HTA6_2253	phs002371_image_HTA6_2253_HTA6_2253	phs002371_image_HTA6_2253
+Alive	Ductal Carcinoma NOS	59	Low Grade		No	Not Applicable	2548	Tumor free	2548	diagnosis	HTA6_2143	phs002371_image_HTA6_2143_HTA6_2143	phs002371_image_HTA6_2143
+Unknown	Neuroblastoma	18	Not Applicable		Not Reported		Not Reported	Not Reported	Not Reported	diagnosis	HTA1_148	phs002371_image_HTA1_148_HTA1_148	phs002371_image_HTA1_148
+Dead	Ductal Carcinoma NOS	52	Low Grade		No	Not Applicable	2330	Tumor free	2330	diagnosis	HTA6_2094	phs002371_image_HTA6_2094_HTA6_2094	phs002371_image_HTA6_2094
+Dead	Ductal Carcinoma NOS	72	Unknown		Yes	29061	2592	Tumor free	2472	diagnosis	HTA6_2373	phs002371_image_HTA6_2373_HTA6_2373	phs002371_image_HTA6_2373
+Dead	Ductal Carcinoma NOS	62	Low Grade		No	Not Applicable	1488	Tumor free	1488	diagnosis	HTA6_1086	phs002371_image_HTA6_1086_HTA6_1086	phs002371_image_HTA6_1086
+Alive	Ductal Carcinoma NOS	29	G2		Yes	Unknown	2814	With tumor	2783	diagnosis	HTA1_330	phs002371_image_HTA1_330_HTA1_330	phs002371_image_HTA1_330
+Dead	Ductal Carcinoma NOS	78	Low Grade		No	Not Applicable	2815	Tumor free	2815	diagnosis	HTA6_2134	phs002371_image_HTA6_2134_HTA6_2134	phs002371_image_HTA6_2134
+Unknown	Mucous adenocarcinoma	39	Low Grade		Not Reported		789	Not Reported	unknown	diagnosis	HTA7_982	phs002371_image_HTA7_982_HTA7_982	phs002371_image_HTA7_982
+Dead	Ductal Carcinoma NOS	57	Intermediate Grade		Yes	22580	1856	With tumor	1395	diagnosis	HTA6_1127	phs002371_image_HTA6_1127_HTA6_1127	phs002371_image_HTA6_1127
+Alive	Ductal Carcinoma NOS	45	G3	Unknown	No	Not Applicable	256	Tumor free	256	diagnosis	HTA6_1136	phs002371_image_HTA6_1136_HTA6_1136	phs002371_image_HTA6_1136
+Alive	Ductal Carcinoma NOS	55	Intermediate Grade		No	Not Applicable	3285	Tumor free	3285	diagnosis	HTA6_2301	phs002371_image_HTA6_2301_HTA6_2301	phs002371_image_HTA6_2301
+Not Reported	Malignant Melanoma NOS	24	Not Applicable		Not Reported		771	Tumor free	771	diagnosis	HTA7_32	phs002371_image_HTA7_32_HTA7_32	phs002371_image_HTA7_32
+Alive	Ductal Carcinoma NOS	44	High Grade		No	Not Applicable	6435	Tumor free	6435	diagnosis	HTA6_1025	phs002371_image_HTA6_1025_HTA6_1025	phs002371_image_HTA6_1025
+Unknown	Ductal Carcinoma NOS	55	Low Grade		No	Not Applicable	3902	Tumor free	3902	diagnosis	HTA6_2401	phs002371_image_HTA6_2401_HTA6_2401	phs002371_image_HTA6_2401
+Alive	Adenocarcinoma	69	Low Grade		No		10	Tumor free	5	diagnosis	HTA7_991	phs002371_image_HTA7_991_HTA7_991	phs002371_image_HTA7_991
+Alive	Ductal Carcinoma NOS	48	High Grade		Yes	22301	7962	unknown tumor status	4662	diagnosis	HTA6_2089	phs002371_image_HTA6_2089_HTA6_2089	phs002371_image_HTA6_2089
+Alive	Adenocarcinoma	51	Low Grade		No		98	Tumor free	unknown	diagnosis	HTA7_935	phs002371_image_HTA7_935_HTA7_935	phs002371_image_HTA7_935
+Alive	Adenocarcinoma	71	High Grade		No		1800	Tumor free	1659	diagnosis	HTA7_941	phs002371_image_HTA7_941_HTA7_941	phs002371_image_HTA7_941
+Alive	Adenocarcinoma	58	Low Grade		Yes	445	1887	Loco-regional recurrence/progression	445	diagnosis	HTA7_932	phs002371_image_HTA7_932_HTA7_932	phs002371_image_HTA7_932
+Alive	Ductal Carcinoma NOS	54	G3	Unknown	Yes	20725	144	unknown tumor status	144	diagnosis	HTA6_2014	phs002371_image_HTA6_2014_HTA6_2014	phs002371_image_HTA6_2014
+Not Reported	Malignant Melanoma NOS	77	Not Applicable		Not Reported		913	Tumor free	913	diagnosis	HTA7_15	phs002371_image_HTA7_15_HTA7_15	phs002371_image_HTA7_15
+Alive	Ductal Carcinoma NOS	62	Low Grade		No	Not Applicable	10550	Tumor free	10550	diagnosis	HTA6_1017	phs002371_image_HTA6_1017_HTA6_1017	phs002371_image_HTA6_1017
+Alive	Ductal Carcinoma NOS	41	High Grade		No	Not Applicable	3656	Tumor free	3656	diagnosis	HTA6_2163	phs002371_image_HTA6_2163_HTA6_2163	phs002371_image_HTA6_2163
+Alive	Pancreatobiliary-type carcinoma	82	G1		No		424	Tumor free	424	diagnosis	HTA12_11	phs002371_image_HTA12_11_HTA12_11	phs002371_image_HTA12_11
+Unknown	Ductal Carcinoma NOS	46	High Grade		No	Not Applicable	8	Tumor free	8	diagnosis	HTA6_1152	phs002371_image_HTA6_1152_HTA6_1152	phs002371_image_HTA6_1152
+Dead	Ductal Carcinoma NOS	54	G2		Yes	Unknown	1670	With tumor	1622	diagnosis	HTA1_225	phs002371_image_HTA1_225_HTA1_225	phs002371_image_HTA1_225
+Alive	Ductal Carcinoma NOS	68	G2	Unknown	No	Not Applicable	87	Tumor free	87	diagnosis	HTA6_2212	phs002371_image_HTA6_2212_HTA6_2212	phs002371_image_HTA6_2212
+Alive	Adenocarcinoma	69	Low Grade		No		1405	Tumor free	1405	diagnosis	HTA7_951	phs002371_image_HTA7_951_HTA7_951	phs002371_image_HTA7_951
+Dead	Ductal Carcinoma NOS	82	Intermediate Grade		No	Not Applicable	4656	Tumor free	4656	diagnosis	HTA6_2349	phs002371_image_HTA6_2349_HTA6_2349	phs002371_image_HTA6_2349
+Alive	Ductal Carcinoma NOS	58	G2	Unknown	No	Not Applicable	233	Tumor free	233	diagnosis	HTA6_1043	phs002371_image_HTA6_1043_HTA6_1043	phs002371_image_HTA6_1043
+Alive	Ductal Carcinoma NOS	58	G3	Unknown	No	Not Applicable	218	Tumor free	218	diagnosis	HTA6_2156	phs002371_image_HTA6_2156_HTA6_2156	phs002371_image_HTA6_2156
+Alive	Ductal Carcinoma NOS	49	Low Grade		No	Not Applicable	2582	Tumor free	2582	diagnosis	HTA6_2159	phs002371_image_HTA6_2159_HTA6_2159	phs002371_image_HTA6_2159
+Dead	Ductal Carcinoma NOS	55	Low Grade		Yes	20423	2389	With tumor	9	diagnosis	HTA6_1154	phs002371_image_HTA6_1154_HTA6_1154	phs002371_image_HTA6_1154
+Dead	Pancreatobiliary-type carcinoma	50	G2		No		304	Distant met recurrence/progression	304	diagnosis	HTA12_6	phs002371_image_HTA12_6_HTA12_6	phs002371_image_HTA12_6
+Alive	Ductal Carcinoma NOS	51	High Grade		No	Not Applicable	3738	Tumor free	3738	diagnosis	HTA6_2287	phs002371_image_HTA6_2287_HTA6_2287	phs002371_image_HTA6_2287
+Alive	Ductal Carcinoma NOS	42	Intermediate Grade		No	Not Applicable	2940	Tumor free	2940	diagnosis	HTA6_1102	phs002371_image_HTA6_1102_HTA6_1102	phs002371_image_HTA6_1102
+Alive	Ductal Carcinoma NOS	46	G3	Unknown	Yes	18072	257	unknown tumor status	257	diagnosis	HTA6_2179	phs002371_image_HTA6_2179_HTA6_2179	phs002371_image_HTA6_2179
+Dead	Ductal Carcinoma NOS	74	Intermediate Grade		No	Not Applicable	4206	Tumor free	4206	diagnosis	HTA6_1023	phs002371_image_HTA6_1023_HTA6_1023	phs002371_image_HTA6_1023
+Alive	Ductal Carcinoma NOS	50	Intermediate Grade		No	Not Applicable	8376	Tumor free	8376	diagnosis	HTA6_2184	phs002371_image_HTA6_2184_HTA6_2184	phs002371_image_HTA6_2184
+Dead	Adenocarcinoma	56	High Grade		Yes	459	778	Distant met recurrence/progression	459	diagnosis	HTA7_934	phs002371_image_HTA7_934_HTA7_934	phs002371_image_HTA7_934
+Alive	Ductal Carcinoma NOS	44	Intermediate Grade		No	Not Applicable	3312	Tumor free	3312	diagnosis	HTA6_1004	phs002371_image_HTA6_1004_HTA6_1004	phs002371_image_HTA6_1004
+Dead	Ductal Carcinoma NOS	67	High Grade		No	Not Applicable	4098	Tumor free	4098	diagnosis	HTA6_2150	phs002371_image_HTA6_2150_HTA6_2150	phs002371_image_HTA6_2150
+Alive	Ductal Carcinoma NOS	64	Low Grade		No	Not Applicable	4233	Tumor free	4233	diagnosis	HTA6_2291	phs002371_image_HTA6_2291_HTA6_2291	phs002371_image_HTA6_2291
+Alive	Ductal Carcinoma NOS	43	Intermediate Grade		Yes	24310	11288	unknown tumor status	8297	diagnosis	HTA6_2088	phs002371_image_HTA6_2088_HTA6_2088	phs002371_image_HTA6_2088
+Alive	Ductal Carcinoma NOS	43	Low Grade		No	Not Applicable	6886	Tumor free	6886	diagnosis	HTA6_2286	phs002371_image_HTA6_2286_HTA6_2286	phs002371_image_HTA6_2286
+Dead	Ductal Carcinoma NOS	63	Intermediate Grade		Yes	25088	7382	Tumor free	1776	diagnosis	HTA6_2311	phs002371_image_HTA6_2311_HTA6_2311	phs002371_image_HTA6_2311
+Alive	Ductal Carcinoma NOS	47	High Grade		No	Not Applicable	2077	Tumor free	2077	diagnosis	HTA6_2147	phs002371_image_HTA6_2147_HTA6_2147	phs002371_image_HTA6_2147
+Alive	Mucous adenocarcinoma	60	Low Grade		No		1798	Tumor free	1792	diagnosis	HTA7_925	phs002371_image_HTA7_925_HTA7_925	phs002371_image_HTA7_925
+Alive	Adenocarcinoma	47	Low Grade		No		1819	Tumor free	1816	diagnosis	HTA7_929	phs002371_image_HTA7_929_HTA7_929	phs002371_image_HTA7_929
+Alive	Ductal Carcinoma NOS	44	High Grade		Yes	22183	8832	unknown tumor status	5763	diagnosis	HTA6_2112	phs002371_image_HTA6_2112_HTA6_2112	phs002371_image_HTA6_2112
+Alive	Ductal Carcinoma NOS	48	Unknown		No	Not Applicable	8415	Tumor free	8415	diagnosis	HTA6_2340	phs002371_image_HTA6_2340_HTA6_2340	phs002371_image_HTA6_2340
+Dead	Ductal Carcinoma NOS	59	High Grade		Yes	22770	2889	Tumor free	1104	diagnosis	HTA6_1105	phs002371_image_HTA6_1105_HTA6_1105	phs002371_image_HTA6_1105
+Alive	Ductal Carcinoma NOS	66	Intermediate Grade		Yes	26314	1941	unknown tumor status	1928	diagnosis	HTA6_2308	phs002371_image_HTA6_2308_HTA6_2308	phs002371_image_HTA6_2308
+Dead	Ductal Carcinoma NOS	54	G3		Yes	Unknown	685	With tumor	666	diagnosis	HTA1_213	phs002371_image_HTA1_213_HTA1_213	phs002371_image_HTA1_213
+Dead	Ductal Carcinoma NOS	69	High Grade		No	Not Applicable	5617	Tumor free	5617	diagnosis	HTA6_2096	phs002371_image_HTA6_2096_HTA6_2096	phs002371_image_HTA6_2096
+Dead	Combined small cell-adenocarcinoma	64	High Grade		No		2410	Tumor free	2410	diagnosis	HTA8_2026	phs002371_image_HTA8_2026_HTA8_2026	phs002371_image_HTA8_2026
+Dead	Ductal Carcinoma NOS	42	Unknown		No	Not Applicable	9329	Tumor free	9329	diagnosis	HTA6_2345	phs002371_image_HTA6_2345_HTA6_2345	phs002371_image_HTA6_2345
+Alive	Ductal Carcinoma NOS	61	Intermediate Grade		Yes	22571	5995	unknown tumor status	0	diagnosis	HTA6_1046	phs002371_image_HTA6_1046_HTA6_1046	phs002371_image_HTA6_1046
+Alive	Ductal Carcinoma NOS	45	G3	Unknown	No	Not Applicable	151	Tumor free	151	diagnosis	HTA6_2268	phs002371_image_HTA6_2268_HTA6_2268	phs002371_image_HTA6_2268
+Alive	Ductal Carcinoma NOS	77	Low Grade		No	Not Applicable	1095	Tumor free	1095	diagnosis	HTA6_2378	phs002371_image_HTA6_2378_HTA6_2378	phs002371_image_HTA6_2378
+Alive	Adenocarcinoma	57	High Grade		No		2170	Tumor free	966	diagnosis	HTA7_908	phs002371_image_HTA7_908_HTA7_908	phs002371_image_HTA7_908
+Alive	Ductal Carcinoma NOS	64	Intermediate Grade		Yes	24706	5841	unknown tumor status	1068	diagnosis	HTA6_1113	phs002371_image_HTA6_1113_HTA6_1113	phs002371_image_HTA6_1113
+Dead	Ductal Carcinoma NOS	55	Intermediate Grade		No	Not Applicable	6757	Tumor free	6757	diagnosis	HTA6_2079	phs002371_image_HTA6_2079_HTA6_2079	phs002371_image_HTA6_2079
+Dead	Ductal Carcinoma NOS	52	Intermediate Grade		Yes	19688	10089	Tumor free	601	diagnosis	HTA6_2244	phs002371_image_HTA6_2244_HTA6_2244	phs002371_image_HTA6_2244
+Alive	Ductal Carcinoma NOS	32	Intermediate Grade		Yes	13242	4830	unknown tumor status	1520	diagnosis	HTA6_1033	phs002371_image_HTA6_1033_HTA6_1033	phs002371_image_HTA6_1033
+Alive	Ductal Carcinoma NOS	66	High Grade		No	Not Applicable	4035	Tumor free	4035	diagnosis	HTA6_2125	phs002371_image_HTA6_2125_HTA6_2125	phs002371_image_HTA6_2125
+Alive	Ductal Carcinoma NOS	64	High Grade		No	Not Applicable	6062	Tumor free	6062	diagnosis	HTA6_2130	phs002371_image_HTA6_2130_HTA6_2130	phs002371_image_HTA6_2130
+Alive	Ductal Carcinoma NOS	52	High Grade		No	Not Applicable	7394	Tumor free	7394	diagnosis	HTA6_2343	phs002371_image_HTA6_2343_HTA6_2343	phs002371_image_HTA6_2343
+Alive	Ductal Carcinoma NOS	73	Low Grade		No	Not Applicable	1945	Tumor free	1945	diagnosis	HTA6_2128	phs002371_image_HTA6_2128_HTA6_2128	phs002371_image_HTA6_2128
+Alive	Ductal Carcinoma NOS	58	Intermediate Grade		No	Not Applicable	1678	Tumor free	1678	diagnosis	HTA6_2298	phs002371_image_HTA6_2298_HTA6_2298	phs002371_image_HTA6_2298
+Alive	Ductal Carcinoma NOS	54	G3	Unknown	Yes	20937	230	unknown tumor status	230	diagnosis	HTA6_2360	phs002371_image_HTA6_2360_HTA6_2360	phs002371_image_HTA6_2360
+Alive	Ductal Carcinoma NOS	71	High Grade		Yes	27009	1249	unknown tumor status	849	diagnosis	HTA6_1091	phs002371_image_HTA6_1091_HTA6_1091	phs002371_image_HTA6_1091
+Dead	Ductal Carcinoma NOS	61	High Grade		No	Not Applicable	4217	Tumor free	4217	diagnosis	HTA6_2167	phs002371_image_HTA6_2167_HTA6_2167	phs002371_image_HTA6_2167
+Alive	Ductal Carcinoma NOS	69	Low Grade		No	Not Applicable	2358	Tumor free	2358	diagnosis	HTA6_1092	phs002371_image_HTA6_1092_HTA6_1092	phs002371_image_HTA6_1092
+Alive	Ductal Carcinoma NOS	53	Intermediate Grade		Yes	24315	5623	unknown tumor status	4826	diagnosis	HTA6_1085	phs002371_image_HTA6_1085_HTA6_1085	phs002371_image_HTA6_1085
+Alive	Ductal Carcinoma NOS	53	High Grade		No	Not Applicable	2843	Tumor free	2843	diagnosis	HTA6_2205	phs002371_image_HTA6_2205_HTA6_2205	phs002371_image_HTA6_2205
+Dead	Ductal Carcinoma NOS	65	Low Grade		No	Not Applicable	5897	Tumor free	5897	diagnosis	HTA6_2405	phs002371_image_HTA6_2405_HTA6_2405	phs002371_image_HTA6_2405
+Alive	Ductal Carcinoma NOS	43	Intermediate Grade		Yes	18125	2623	unknown tumor status	2205	diagnosis	HTA6_2249	phs002371_image_HTA6_2249_HTA6_2249	phs002371_image_HTA6_2249
+Alive	Adenocarcinoma	30	Low Grade		No		1609	Tumor free	1393	diagnosis	HTA7_969	phs002371_image_HTA7_969_HTA7_969	phs002371_image_HTA7_969
+Alive	Ductal Carcinoma NOS	38	Unknown		Yes	Unknown	1781	With tumor	1773	diagnosis	HTA1_812	phs002371_image_HTA1_812_HTA1_812	phs002371_image_HTA1_812
+Alive	Ductal Carcinoma NOS	56	High Grade		Yes	22156	2604	unknown tumor status	1480	diagnosis	HTA6_2361	phs002371_image_HTA6_2361_HTA6_2361	phs002371_image_HTA6_2361
+Dead	Ductal Carcinoma NOS	79	Intermediate Grade		No	Not Applicable	1711	Tumor free	1711	diagnosis	HTA6_1007	phs002371_image_HTA6_1007_HTA6_1007	phs002371_image_HTA6_1007
+Dead	Ductal Carcinoma NOS	35	G2		Yes	Unknown	2102	With tumor	2136	diagnosis	HTA1_890	phs002371_image_HTA1_890_HTA1_890	phs002371_image_HTA1_890
+Alive	Adenocarcinoma	25	Low Grade		Yes	659	1524	Distant met recurrence/progression	659	diagnosis	HTA7_931	phs002371_image_HTA7_931_HTA7_931	phs002371_image_HTA7_931
+Alive	Ductal Carcinoma NOS	55	High Grade		No	Not Applicable	3660	Tumor free	3660	diagnosis	HTA6_1037	phs002371_image_HTA6_1037_HTA6_1037	phs002371_image_HTA6_1037
+Alive	Ductal Carcinoma NOS	54	Low Grade		Yes	22086	3639	unknown tumor status	2152	diagnosis	HTA6_2247	phs002371_image_HTA6_2247_HTA6_2247	phs002371_image_HTA6_2247
+Alive	Ductal Carcinoma NOS	48	Intermediate Grade		Yes	27081	10846	unknown tumor status	9218	diagnosis	HTA6_1165	phs002371_image_HTA6_1165_HTA6_1165	phs002371_image_HTA6_1165
+Alive	Mucous adenocarcinoma	48	Low Grade		Yes	1115	1879	Distant met recurrence/progression	1115	diagnosis	HTA7_933	phs002371_image_HTA7_933_HTA7_933	phs002371_image_HTA7_933
+Dead	Ductal Carcinoma NOS	72	High Grade		No	Not Applicable	4611	Tumor free	4611	diagnosis	HTA6_2376	phs002371_image_HTA6_2376_HTA6_2376	phs002371_image_HTA6_2376
+Alive	Ductal Carcinoma NOS	55	High Grade		Yes	20892	1642	unknown tumor status	794	diagnosis	HTA6_1106	phs002371_image_HTA6_1106_HTA6_1106	phs002371_image_HTA6_1106
+Dead	Ductal Carcinoma NOS	74	Intermediate Grade		Yes	28853	2126	With tumor	1808	diagnosis	HTA6_1112	phs002371_image_HTA6_1112_HTA6_1112	phs002371_image_HTA6_1112
+Alive	Ductal Carcinoma NOS	57	Intermediate Grade		Yes	21118	2626	unknown tumor status	0	diagnosis	HTA6_2026	phs002371_image_HTA6_2026_HTA6_2026	phs002371_image_HTA6_2026
+Alive	Ductal Carcinoma NOS	39	Unknown		No	Not Applicable	377	Tumor free	377	diagnosis	HTA6_2265	phs002371_image_HTA6_2265_HTA6_2265	phs002371_image_HTA6_2265
+Dead	Ductal Carcinoma NOS	51	Low Grade		No	Not Applicable	2628	Tumor free	2628	diagnosis	HTA6_1099	phs002371_image_HTA6_1099_HTA6_1099	phs002371_image_HTA6_1099
+Alive	Ductal Carcinoma NOS	63	High Grade		No	Not Applicable	5094	Tumor free	5094	diagnosis	HTA6_2294	phs002371_image_HTA6_2294_HTA6_2294	phs002371_image_HTA6_2294
+Alive	Ductal Carcinoma NOS	75	G3		Yes	Unknown	1127	Tumor free	906	diagnosis	HTA1_254	phs002371_image_HTA1_254_HTA1_254	phs002371_image_HTA1_254
+Alive	Ductal Carcinoma NOS	54	Low Grade		No	Not Applicable	3644	Tumor free	3644	diagnosis	HTA6_2393	phs002371_image_HTA6_2393_HTA6_2393	phs002371_image_HTA6_2393
+Dead	Ductal Carcinoma NOS	84	High Grade		Yes	33359	4281	unknown tumor status	2419	diagnosis	HTA6_2370	phs002371_image_HTA6_2370_HTA6_2370	phs002371_image_HTA6_2370
+Alive	Ductal Carcinoma NOS	43	G1	Unknown	Yes	18769	263	unknown tumor status	263	diagnosis	HTA6_2353	phs002371_image_HTA6_2353_HTA6_2353	phs002371_image_HTA6_2353
+Alive	Ductal Carcinoma NOS	65	Intermediate Grade		No	Not Applicable	1600	Tumor free	1600	diagnosis	HTA6_1081	phs002371_image_HTA6_1081_HTA6_1081	phs002371_image_HTA6_1081
+Alive	Ductal Carcinoma NOS	56	Low Grade		Yes	24250	7582	unknown tumor status	3685	diagnosis	HTA6_1032	phs002371_image_HTA6_1032_HTA6_1032	phs002371_image_HTA6_1032
+Alive	Ductal Carcinoma NOS	38	High Grade		No	Not Applicable	4595	Tumor free	4595	diagnosis	HTA6_2350	phs002371_image_HTA6_2350_HTA6_2350	phs002371_image_HTA6_2350
+Alive	Ductal Carcinoma NOS	55	High Grade		Yes	24975	5064	unknown tumor status	4518	diagnosis	HTA6_2153	phs002371_image_HTA6_2153_HTA6_2153	phs002371_image_HTA6_2153
+Dead	Ductal Carcinoma NOS	73	Low Grade		No	Not Applicable	1404	Tumor free	1404	diagnosis	HTA6_2172	phs002371_image_HTA6_2172_HTA6_2172	phs002371_image_HTA6_2172
+Dead	Ductal Carcinoma NOS	62	High Grade		Yes	24546	5568	Tumor free	1557	diagnosis	HTA6_2178	phs002371_image_HTA6_2178_HTA6_2178	phs002371_image_HTA6_2178
+Alive	Ductal Carcinoma NOS	43	G2	Unknown	Yes	16845	95	unknown tumor status	95	diagnosis	HTA6_1098	phs002371_image_HTA6_1098_HTA6_1098	phs002371_image_HTA6_1098
+Alive	Ductal Carcinoma NOS	41	Low Grade		No	Not Applicable	5870	Tumor free	5870	diagnosis	HTA6_2337	phs002371_image_HTA6_2337_HTA6_2337	phs002371_image_HTA6_2337
+Alive	Ductal Carcinoma NOS	59	Low Grade		No	Not Applicable	1389	Tumor free	1389	diagnosis	HTA6_2379	phs002371_image_HTA6_2379_HTA6_2379	phs002371_image_HTA6_2379
+Alive	Ductal Carcinoma NOS	35	Low Grade		No	Not Applicable	5361	Tumor free	5361	diagnosis	HTA6_2154	phs002371_image_HTA6_2154_HTA6_2154	phs002371_image_HTA6_2154
+Alive	Adenocarcinoma	67	Low Grade		No		2077	Tumor free	1980	diagnosis	HTA7_917	phs002371_image_HTA7_917_HTA7_917	phs002371_image_HTA7_917
+Alive	Adenocarcinoma	73	High Grade		Yes	56	1534	Distant met recurrence/progression	56	diagnosis	HTA7_966	phs002371_image_HTA7_966_HTA7_966	phs002371_image_HTA7_966
+Alive	Ductal Carcinoma NOS	49	Low Grade		Yes	21109	3092	unknown tumor status	2929	diagnosis	HTA6_1130	phs002371_image_HTA6_1130_HTA6_1130	phs002371_image_HTA6_1130
+Unknown	Ductal Carcinoma NOS	42	Low Grade		No	Not Applicable	0	Tumor free	0	diagnosis	HTA6_2250	phs002371_image_HTA6_2250_HTA6_2250	phs002371_image_HTA6_2250
+Dead	Small cell neuroendocrine carcinoma	58	High Grade		Yes	21679	426	With tumor	426	diagnosis	HTA8_2027	phs002371_image_HTA8_2027_HTA8_2027	phs002371_image_HTA8_2027
+Alive	Ductal Carcinoma NOS	37	High Grade		No	Not Applicable	5786	Tumor free	5786	diagnosis	HTA6_1039	phs002371_image_HTA6_1039_HTA6_1039	phs002371_image_HTA6_1039
+Alive	Ductal Carcinoma NOS	51	Unknown		Yes	23685	5036	unknown tumor status	4783	diagnosis	HTA6_2285	phs002371_image_HTA6_2285_HTA6_2285	phs002371_image_HTA6_2285
+Alive	Adenocarcinoma	61	High Grade		No		1688	Tumor free	1503	diagnosis	HTA7_953	phs002371_image_HTA7_953_HTA7_953	phs002371_image_HTA7_953
+Alive	Ductal Carcinoma NOS	40	Intermediate Grade		No	Not Applicable	7678	Tumor free	7678	diagnosis	HTA6_2230	phs002371_image_HTA6_2230_HTA6_2230	phs002371_image_HTA6_2230
+Alive	Small cell neuroendocrine carcinoma	63	High Grade		No		3716	Tumor free	3716	diagnosis	HTA8_2042	phs002371_image_HTA8_2042_HTA8_2042	phs002371_image_HTA8_2042
+Alive	Ductal Carcinoma NOS	62	Intermediate Grade		Yes	24450	3515	unknown tumor status	1677	diagnosis	HTA6_1078	phs002371_image_HTA6_1078_HTA6_1078	phs002371_image_HTA6_1078
+Dead	Adenocarcinoma	57	Low Grade		No		109	Tumor free	98	diagnosis	HTA7_904	phs002371_image_HTA7_904_HTA7_904	phs002371_image_HTA7_904
+Alive	Ductal Carcinoma NOS	43	Low Grade		Yes	17907	2362	unknown tumor status	2168	diagnosis	HTA6_2322	phs002371_image_HTA6_2322_HTA6_2322	phs002371_image_HTA6_2322
+Dead	Adenocarcinoma	47	Low Grade		No		707	Tumor free	704	diagnosis	HTA7_983	phs002371_image_HTA7_983_HTA7_983	phs002371_image_HTA7_983
+Alive	Ductal Carcinoma NOS	46	High Grade		Yes	18504	2318	unknown tumor status	1449	diagnosis	HTA6_2371	phs002371_image_HTA6_2371_HTA6_2371	phs002371_image_HTA6_2371
+Alive	Ductal Carcinoma NOS	60	Low Grade		No	Not Applicable	4434	Tumor free	4434	diagnosis	HTA6_2397	phs002371_image_HTA6_2397_HTA6_2397	phs002371_image_HTA6_2397
+Alive	Adenocarcinoma	50	Low Grade		No		1736	Tumor free	1698	diagnosis	HTA7_944	phs002371_image_HTA7_944_HTA7_944	phs002371_image_HTA7_944
+Dead	Small cell neuroendocrine carcinoma	76	High Grade		Yes	28037	128	With tumor	128	diagnosis	HTA8_2021	phs002371_image_HTA8_2021_HTA8_2021	phs002371_image_HTA8_2021
+Alive	Ductal Carcinoma NOS	64	High Grade		No	Not Applicable	2201	Tumor free	2201	diagnosis	HTA6_2160	phs002371_image_HTA6_2160_HTA6_2160	phs002371_image_HTA6_2160
+Unknown	Ductal Carcinoma NOS	66	Low Grade		No	Not Applicable	5053	Tumor free	5053	diagnosis	HTA6_2189	phs002371_image_HTA6_2189_HTA6_2189	phs002371_image_HTA6_2189
+Alive	Adenocarcinoma	71	Not Reported		Yes	412	1311	Distant met recurrence/progression	412	diagnosis	HTA7_906	phs002371_image_HTA7_906_HTA7_906	phs002371_image_HTA7_906
+Alive	Ductal Carcinoma NOS	51	Intermediate Grade		Yes	18824	262	unknown tumor status	61	diagnosis	HTA6_1055	phs002371_image_HTA6_1055_HTA6_1055	phs002371_image_HTA6_1055
+Alive	Ductal Carcinoma NOS	50	Low Grade		Yes	20409	2462	unknown tumor status	1868	diagnosis	HTA6_2310	phs002371_image_HTA6_2310_HTA6_2310	phs002371_image_HTA6_2310
+Dead	Ductal Carcinoma NOS	65	Intermediate Grade		Yes	24975	1209	unknown tumor status	1094	diagnosis	HTA6_1022	phs002371_image_HTA6_1022_HTA6_1022	phs002371_image_HTA6_1022
+Alive	Ductal Carcinoma NOS	69	Low Grade		No	Not Applicable	5547	Tumor free	5547	diagnosis	HTA6_2121	phs002371_image_HTA6_2121_HTA6_2121	phs002371_image_HTA6_2121
+Dead	Ductal Carcinoma NOS	45	Intermediate Grade		Yes	19381	7351	With tumor	2749	diagnosis	HTA6_1128	phs002371_image_HTA6_1128_HTA6_1128	phs002371_image_HTA6_1128
+Alive	Ductal Carcinoma NOS	55	Intermediate Grade		No	Not Applicable	3539	Tumor free	3539	diagnosis	HTA6_1141	phs002371_image_HTA6_1141_HTA6_1141	phs002371_image_HTA6_1141
+Alive	Adenocarcinoma	62	Low Grade		No		1535	Tumor free	1321	diagnosis	HTA7_976	phs002371_image_HTA7_976_HTA7_976	phs002371_image_HTA7_976
+Alive	Ductal Carcinoma NOS	51	Intermediate Grade		No	Not Applicable	6357	Tumor free	6357	diagnosis	HTA6_2242	phs002371_image_HTA6_2242_HTA6_2242	phs002371_image_HTA6_2242
+Alive	Ductal Carcinoma NOS	65	Intermediate Grade		Yes	23769	6079	unknown tumor status	32	diagnosis	HTA6_2103	phs002371_image_HTA6_2103_HTA6_2103	phs002371_image_HTA6_2103
+Alive	Ductal Carcinoma NOS	52	G2	Unknown	Yes	19652	154	unknown tumor status	154	diagnosis	HTA6_1036	phs002371_image_HTA6_1036_HTA6_1036	phs002371_image_HTA6_1036
+Alive	Ductal Carcinoma NOS	50	Low Grade		Yes	20717	3342	unknown tumor status	2281	diagnosis	HTA6_2270	phs002371_image_HTA6_2270_HTA6_2270	phs002371_image_HTA6_2270
+Dead	Small cell neuroendocrine carcinoma	70	High Grade		Yes	26080	870	With tumor	870	diagnosis	HTA8_2041	phs002371_image_HTA8_2041_HTA8_2041	phs002371_image_HTA8_2041
+Dead	Combined small cell-adenocarcinoma	68	High Grade		No		526	Tumor free	526	diagnosis	HTA8_2028	phs002371_image_HTA8_2028_HTA8_2028	phs002371_image_HTA8_2028
+Alive	Ductal Carcinoma NOS	38	Intermediate Grade		No	Not Applicable	3389	Tumor free	3389	diagnosis	HTA6_1148	phs002371_image_HTA6_1148_HTA6_1148	phs002371_image_HTA6_1148
+Unknown	Ductal Carcinoma NOS	51	High Grade		Yes	19637	8714	unknown tumor status	861	diagnosis	HTA6_1118	phs002371_image_HTA6_1118_HTA6_1118	phs002371_image_HTA6_1118
+Unknown	Ductal Carcinoma NOS	51	Low Grade		No	Not Applicable	3375	Tumor free	3375	diagnosis	HTA6_2341	phs002371_image_HTA6_2341_HTA6_2341	phs002371_image_HTA6_2341
+Alive	Ductal Carcinoma NOS	61	G2	Unknown	No	Not Applicable	182	Tumor free	182	diagnosis	HTA6_1067	phs002371_image_HTA6_1067_HTA6_1067	phs002371_image_HTA6_1067
+Alive	Ductal Carcinoma NOS	51	Intermediate Grade		No	Not Applicable	4920	Tumor free	4920	diagnosis	HTA6_1038	phs002371_image_HTA6_1038_HTA6_1038	phs002371_image_HTA6_1038
+Alive	Ductal Carcinoma NOS	60	High Grade		No	Not Applicable	9634	Tumor free	9634	diagnosis	HTA6_1031	phs002371_image_HTA6_1031_HTA6_1031	phs002371_image_HTA6_1031
+Alive	Ductal Carcinoma NOS	52	Unknown		No	Not Applicable	3100	Tumor free	3100	diagnosis	HTA6_1041	phs002371_image_HTA6_1041_HTA6_1041	phs002371_image_HTA6_1041
+Dead	Ductal Carcinoma NOS	78	Intermediate Grade		No	Not Applicable	5403	Tumor free	5403	diagnosis	HTA6_2137	phs002371_image_HTA6_2137_HTA6_2137	phs002371_image_HTA6_2137
+Dead	Ductal Carcinoma NOS	80	High Grade		No	Not Applicable	2666	Tumor free	2666	diagnosis	HTA6_2181	phs002371_image_HTA6_2181_HTA6_2181	phs002371_image_HTA6_2181
+Alive	Ductal Carcinoma NOS	50	G3	Unknown	No	Not Applicable	254	Tumor free	254	diagnosis	HTA6_1015	phs002371_image_HTA6_1015_HTA6_1015	phs002371_image_HTA6_1015
+Alive	Ductal Carcinoma NOS	64	G2	Unknown	Yes	24968	249	unknown tumor status	249	diagnosis	HTA6_1054	phs002371_image_HTA6_1054_HTA6_1054	phs002371_image_HTA6_1054
+Alive	Ductal Carcinoma NOS	45	Low Grade		No	Not Applicable	3551	Tumor free	3551	diagnosis	HTA6_1142	phs002371_image_HTA6_1142_HTA6_1142	phs002371_image_HTA6_1142
+Dead	Small cell neuroendocrine carcinoma	51	High Grade		Yes	19157	980	With tumor	980	diagnosis	HTA8_2025	phs002371_image_HTA8_2025_HTA8_2025	phs002371_image_HTA8_2025
+Alive	Ductal Carcinoma NOS	60	Intermediate Grade		Yes	22417	4901	unknown tumor status	335	diagnosis	HTA6_1034	phs002371_image_HTA6_1034_HTA6_1034	phs002371_image_HTA6_1034
+Alive	Ductal Carcinoma NOS	40	Intermediate Grade		Yes	16820	3143	unknown tumor status	1986	diagnosis	HTA6_1117	phs002371_image_HTA6_1117_HTA6_1117	phs002371_image_HTA6_1117
+Alive	Ductal Carcinoma NOS	49	Low Grade		No	Not Applicable	9016	Tumor free	9016	diagnosis	HTA6_2327	phs002371_image_HTA6_2327_HTA6_2327	phs002371_image_HTA6_2327
+Alive	Ductal Carcinoma NOS	52	Intermediate Grade		Yes	21615	4884	unknown tumor status	2404	diagnosis	HTA6_1159	phs002371_image_HTA6_1159_HTA6_1159	phs002371_image_HTA6_1159
+Alive	Ductal Carcinoma NOS	61	Intermediate Grade		Yes	23191	1708	unknown tumor status	628	diagnosis	HTA6_2023	phs002371_image_HTA6_2023_HTA6_2023	phs002371_image_HTA6_2023
+Alive	Ductal Carcinoma NOS	39	High Grade		No	Not Applicable	1704	Tumor free	1704	diagnosis	HTA6_2186	phs002371_image_HTA6_2186_HTA6_2186	phs002371_image_HTA6_2186
+Dead	Ductal Carcinoma NOS	44	Intermediate Grade		No	Not Applicable	3005	Tumor free	3005	diagnosis	HTA6_2342	phs002371_image_HTA6_2342_HTA6_2342	phs002371_image_HTA6_2342
+Dead	Ductal Carcinoma NOS	84	Intermediate Grade		No	Not Applicable	210	Tumor free	210	diagnosis	HTA6_2099	phs002371_image_HTA6_2099_HTA6_2099	phs002371_image_HTA6_2099
+Alive	Adenocarcinoma	80	Low Grade		No		1660	Tumor free	1658	diagnosis	HTA7_959	phs002371_image_HTA7_959_HTA7_959	phs002371_image_HTA7_959
+Alive	Ductal Carcinoma NOS	43	High Grade		Yes	16427	2762	unknown tumor status	505	diagnosis	HTA6_1123	phs002371_image_HTA6_1123_HTA6_1123	phs002371_image_HTA6_1123
+Alive	Ductal Carcinoma NOS	57	Low Grade		Yes	24761	4029	unknown tumor status	3700	diagnosis	HTA6_2255	phs002371_image_HTA6_2255_HTA6_2255	phs002371_image_HTA6_2255
+Alive	Ductal Carcinoma NOS	55	G3		Yes	Unknown	1942	With tumor	1862	diagnosis	HTA1_364	phs002371_image_HTA1_364_HTA1_364	phs002371_image_HTA1_364
+Alive	Ductal Carcinoma NOS	52	Intermediate Grade		Yes	19096	620	unknown tumor status	0	diagnosis	HTA6_1161	phs002371_image_HTA6_1161_HTA6_1161	phs002371_image_HTA6_1161
+Alive	Adenocarcinoma	76	Low Grade		No		1672	Tumor free	1422	diagnosis	HTA7_949	phs002371_image_HTA7_949_HTA7_949	phs002371_image_HTA7_949
+Alive	Ductal Carcinoma NOS	80	Intermediate Grade		No	Not Applicable	1202	Tumor free	1202	diagnosis	HTA6_2387	phs002371_image_HTA6_2387_HTA6_2387	phs002371_image_HTA6_2387
+Alive	Ductal Carcinoma NOS	56	G1	Unknown	No	Not Applicable	87	Tumor free	87	diagnosis	HTA6_2214	phs002371_image_HTA6_2214_HTA6_2214	phs002371_image_HTA6_2214
+Alive	Ductal Carcinoma NOS	67	High Grade		Yes	29870	5471	unknown tumor status	5119	diagnosis	HTA6_2252	phs002371_image_HTA6_2252_HTA6_2252	phs002371_image_HTA6_2252
+Alive	Adenocarcinoma	59	Low Grade		No		1571	Tumor free	1558	diagnosis	HTA7_971	phs002371_image_HTA7_971_HTA7_971	phs002371_image_HTA7_971
+Dead	Ductal Carcinoma NOS	43	Intermediate Grade		Yes	20266	8037	Tumor free	4454	diagnosis	HTA6_2082	phs002371_image_HTA6_2082_HTA6_2082	phs002371_image_HTA6_2082
+Alive	Ductal Carcinoma NOS	50	Low Grade		Yes	28353	9675	unknown tumor status	9645	diagnosis	HTA6_2399	phs002371_image_HTA6_2399_HTA6_2399	phs002371_image_HTA6_2399
+Dead	Ductal Carcinoma NOS	55	Low Grade		No	Not Applicable	9308	Tumor free	9308	diagnosis	HTA6_2193	phs002371_image_HTA6_2193_HTA6_2193	phs002371_image_HTA6_2193
+Alive	Ductal Carcinoma NOS	64	Low Grade		Yes	25522	2154	unknown tumor status	2082	diagnosis	HTA6_2155	phs002371_image_HTA6_2155_HTA6_2155	phs002371_image_HTA6_2155
+Alive	Adenocarcinoma	48	Low Grade		No		251	Tumor free	251	diagnosis	HTA7_984	phs002371_image_HTA7_984_HTA7_984	phs002371_image_HTA7_984
+Alive	Ductal Carcinoma NOS	61	G3	Unknown	No	Not Applicable	243	Tumor free	243	diagnosis	HTA6_2145	phs002371_image_HTA6_2145_HTA6_2145	phs002371_image_HTA6_2145
+Alive	Ductal Carcinoma NOS	80	Intermediate Grade		Yes	30175	1807	unknown tumor status	919	diagnosis	HTA6_2395	phs002371_image_HTA6_2395_HTA6_2395	phs002371_image_HTA6_2395
+Dead	Small cell neuroendocrine carcinoma	66	High Grade		Yes	24373	616	With tumor	616	diagnosis	HTA8_2055	phs002371_image_HTA8_2055_HTA8_2055	phs002371_image_HTA8_2055
+Alive	Ductal Carcinoma NOS	44	High Grade		Yes	17111	4809	unknown tumor status	1036	diagnosis	HTA6_2106	phs002371_image_HTA6_2106_HTA6_2106	phs002371_image_HTA6_2106
+Alive	Ductal Carcinoma NOS	47	High Grade		No	Not Applicable	3311	Tumor free	3311	diagnosis	HTA6_1164	phs002371_image_HTA6_1164_HTA6_1164	phs002371_image_HTA6_1164
+Alive	Ductal Carcinoma NOS	50	Intermediate Grade		No	Not Applicable	1694	Tumor free	1694	diagnosis	HTA6_2038	phs002371_image_HTA6_2038_HTA6_2038	phs002371_image_HTA6_2038
+Alive	Ductal Carcinoma NOS	61	Low Grade		Yes	23704	2229	unknown tumor status	1098	diagnosis	HTA6_1119	phs002371_image_HTA6_1119_HTA6_1119	phs002371_image_HTA6_1119
+Alive	Pancreatobiliary-type carcinoma	62	G2		No		190	Tumor free	190	diagnosis	HTA12_20	phs002371_image_HTA12_20_HTA12_20	phs002371_image_HTA12_20
+Alive	Ductal Carcinoma NOS	61	High Grade		Yes	23231	3780	unknown tumor status	861	diagnosis	HTA6_2362	phs002371_image_HTA6_2362_HTA6_2362	phs002371_image_HTA6_2362
+Alive	Adenocarcinoma	74	Low Grade		No		478	Tumor free	349	diagnosis	HTA7_980	phs002371_image_HTA7_980_HTA7_980	phs002371_image_HTA7_980
+Dead	Ductal Carcinoma NOS	67	Unknown		Yes	26196	7073	Tumor free	1440	diagnosis	HTA6_2295	phs002371_image_HTA6_2295_HTA6_2295	phs002371_image_HTA6_2295
+Dead	Combined small cell-squamous cell carcinoma	90	High Grade		Yes	34136	1080	With tumor	1080	diagnosis	HTA8_2037	phs002371_image_HTA8_2037_HTA8_2037	phs002371_image_HTA8_2037
+Dead	Infiltrating duct carcinoma NOS		Unknown	Unknown	Yes	unknown	unknown	Distant met recurrence/progression	unknown	diagnosis	HTA9_2	phs002371_image_HTA9_2_HTA9_2	phs002371_image_HTA9_2
+Alive	Ductal Carcinoma NOS	56	Low Grade		Yes	20931	715	unknown tumor status	356	diagnosis	HTA6_2245	phs002371_image_HTA6_2245_HTA6_2245	phs002371_image_HTA6_2245
+Dead	Ductal Carcinoma NOS	59	Intermediate Grade		No	Not Applicable	1093	Tumor free	1093	diagnosis	HTA6_1018	phs002371_image_HTA6_1018_HTA6_1018	phs002371_image_HTA6_1018
+Dead	Ductal Carcinoma NOS	71	Intermediate Grade		Yes	29933	4884	Tumor free	3835	diagnosis	HTA6_1140	phs002371_image_HTA6_1140_HTA6_1140	phs002371_image_HTA6_1140
+Alive	Adenocarcinoma	57	Low Grade		No		1245	Tumor free	1245	diagnosis	HTA7_950	phs002371_image_HTA7_950_HTA7_950	phs002371_image_HTA7_950
+Alive	Ductal Carcinoma NOS	66	Low Grade		No	Not Applicable	1612	Tumor free	1612	diagnosis	HTA6_2278	phs002371_image_HTA6_2278_HTA6_2278	phs002371_image_HTA6_2278
+Unknown	Neuroblastoma	18	Not Applicable		Not Reported		Not Reported	Not Reported	Not Reported	diagnosis	HTA1_204	phs002371_image_HTA1_204_HTA1_204	phs002371_image_HTA1_204
+Alive	Ductal Carcinoma NOS	45	Intermediate Grade		No	Not Applicable	10091	Tumor free	10091	diagnosis	HTA6_1087	phs002371_image_HTA6_1087_HTA6_1087	phs002371_image_HTA6_1087
+Alive	Adenocarcinoma	48	Low Grade		No		2125	Tumor free	2118	diagnosis	HTA7_905	phs002371_image_HTA7_905_HTA7_905	phs002371_image_HTA7_905
+Unknown	Neuroblastoma	18	Not Applicable		Not Reported		Not Reported	Not Reported	Not Reported	diagnosis	HTA1_130	phs002371_image_HTA1_130_HTA1_130	phs002371_image_HTA1_130
+Alive	Ductal Carcinoma NOS	57	Intermediate Grade		No	Not Applicable	6497	Tumor free	6497	diagnosis	HTA6_2339	phs002371_image_HTA6_2339_HTA6_2339	phs002371_image_HTA6_2339
+Dead	Ductal Carcinoma NOS	58	Intermediate Grade		Yes	22658	9291	Tumor free	1128	diagnosis	HTA6_1049	phs002371_image_HTA6_1049_HTA6_1049	phs002371_image_HTA6_1049
+Dead	Ductal Carcinoma NOS	74	Low Grade		No	Not Applicable	7398	Tumor free	7398	diagnosis	HTA6_2223	phs002371_image_HTA6_2223_HTA6_2223	phs002371_image_HTA6_2223
+Alive	Ductal Carcinoma NOS	40	Intermediate Grade		No	Not Applicable	780	Tumor free	780	diagnosis	HTA6_2261	phs002371_image_HTA6_2261_HTA6_2261	phs002371_image_HTA6_2261
+Not Reported	Malignant Melanoma NOS	62	Not Applicable		Not Reported		879	Tumor free	879	diagnosis	HTA7_49	phs002371_image_HTA7_49_HTA7_49	phs002371_image_HTA7_49
+Alive	Ductal Carcinoma NOS	46	Intermediate Grade		No	Not Applicable	10344	Tumor free	10344	diagnosis	HTA6_1052	phs002371_image_HTA6_1052_HTA6_1052	phs002371_image_HTA6_1052
+Unknown	Ductal Carcinoma NOS	50	Low Grade		No	Not Applicable	699	Tumor free	699	diagnosis	HTA6_1088	phs002371_image_HTA6_1088_HTA6_1088	phs002371_image_HTA6_1088
+Alive	Ductal Carcinoma NOS	56	Low Grade		Yes	20494	749	unknown tumor status	0	diagnosis	HTA6_1138	phs002371_image_HTA6_1138_HTA6_1138	phs002371_image_HTA6_1138
+Alive	Ductal Carcinoma NOS	56	High Grade		No	Not Applicable	646	Tumor free	646	diagnosis	HTA6_2124	phs002371_image_HTA6_2124_HTA6_2124	phs002371_image_HTA6_2124
+Dead	Small cell neuroendocrine carcinoma	57	High Grade		Yes	21691	2797	Tumor free	2797	diagnosis	HTA8_2044	phs002371_image_HTA8_2044_HTA8_2044	phs002371_image_HTA8_2044
+Alive	Ductal Carcinoma NOS	54	G2	Unknown	No	Not Applicable	130	Tumor free	130	diagnosis	HTA6_2213	phs002371_image_HTA6_2213_HTA6_2213	phs002371_image_HTA6_2213
+Alive	Ductal Carcinoma NOS	61	Intermediate Grade		No	Not Applicable	2910	Tumor free	2910	diagnosis	HTA6_2277	phs002371_image_HTA6_2277_HTA6_2277	phs002371_image_HTA6_2277
+Alive	Ductal Carcinoma NOS	68	Low Grade		Yes	27054	6781	unknown tumor status	2182	diagnosis	HTA6_2289	phs002371_image_HTA6_2289_HTA6_2289	phs002371_image_HTA6_2289
+Alive	Ductal Carcinoma NOS	61	High Grade		Yes	22593	3079	unknown tumor status	31	diagnosis	HTA6_2107	phs002371_image_HTA6_2107_HTA6_2107	phs002371_image_HTA6_2107
+Alive	Ductal Carcinoma NOS	51	Unknown		Yes	20985	3785	unknown tumor status	2321	diagnosis	HTA6_1114	phs002371_image_HTA6_1114_HTA6_1114	phs002371_image_HTA6_1114
+Alive	Ductal Carcinoma NOS	36	Intermediate Grade		Yes	14380	1188	unknown tumor status	1044	diagnosis	HTA6_2321	phs002371_image_HTA6_2321_HTA6_2321	phs002371_image_HTA6_2321
+Alive	Ductal Carcinoma NOS	52	Unknown		Yes	23908	4744	unknown tumor status	4740	diagnosis	HTA6_1158	phs002371_image_HTA6_1158_HTA6_1158	phs002371_image_HTA6_1158
+Alive	Adenocarcinoma	40	Low Grade		No		1304	Tumor free	1302	diagnosis	HTA7_970	phs002371_image_HTA7_970_HTA7_970	phs002371_image_HTA7_970
+Alive	Ductal Carcinoma NOS	53	High Grade		No	Not Applicable	6381	Tumor free	6381	diagnosis	HTA6_1057	phs002371_image_HTA6_1057_HTA6_1057	phs002371_image_HTA6_1057
+Alive	Ductal Carcinoma NOS	60	High Grade		No	Not Applicable	4044	Tumor free	4044	diagnosis	HTA6_1059	phs002371_image_HTA6_1059_HTA6_1059	phs002371_image_HTA6_1059
+Dead	Ductal Carcinoma NOS	76	High Grade		No	Not Applicable	1094	Tumor free	1094	diagnosis	HTA6_2386	phs002371_image_HTA6_2386_HTA6_2386	phs002371_image_HTA6_2386
+Alive	Ductal Carcinoma NOS	39	Unknown		Yes	17595	3091	unknown tumor status	3091	diagnosis	HTA6_2272	phs002371_image_HTA6_2272_HTA6_2272	phs002371_image_HTA6_2272
+Alive	Ductal Carcinoma NOS	42	High Grade		Yes	19283	4898	unknown tumor status	3613	diagnosis	HTA6_1124	phs002371_image_HTA6_1124_HTA6_1124	phs002371_image_HTA6_1124
+Dead	Ductal Carcinoma NOS	48	G2	Unknown	No	Not Applicable	224	Tumor free	224	diagnosis	HTA6_1053	phs002371_image_HTA6_1053_HTA6_1053	phs002371_image_HTA6_1053
+Unknown	Adenocarcinoma	62	Not Reported		Not Reported		unknown	Not Reported	unknown	diagnosis	HTA7_967	phs002371_image_HTA7_967_HTA7_967	phs002371_image_HTA7_967
+Alive	Ductal Carcinoma NOS	72	High Grade		Yes	26580	5536	unknown tumor status	178	diagnosis	HTA6_2318	phs002371_image_HTA6_2318_HTA6_2318	phs002371_image_HTA6_2318
+Dead	Ductal Carcinoma NOS	56	Low Grade		No	Not Applicable	7759	Tumor free	7759	diagnosis	HTA6_2093	phs002371_image_HTA6_2093_HTA6_2093	phs002371_image_HTA6_2093
+Alive	Ductal Carcinoma NOS	56	G1	Unknown	No	Not Applicable	219	Tumor free	219	diagnosis	HTA6_2135	phs002371_image_HTA6_2135_HTA6_2135	phs002371_image_HTA6_2135
+Dead	Ductal Carcinoma NOS	81	Low Grade		Yes	30007	4787	Tumor free	391	diagnosis	HTA6_2228	phs002371_image_HTA6_2228_HTA6_2228	phs002371_image_HTA6_2228
+Dead	Pancreatobiliary-type carcinoma	47	G3		No		545	Distant met recurrence/progression	545	diagnosis	HTA12_1	phs002371_image_HTA12_1_HTA12_1	phs002371_image_HTA12_1
+Alive	Ductal Carcinoma NOS	37	Unknown		Yes	15126	6426	unknown tumor status	1261	diagnosis	HTA6_2319	phs002371_image_HTA6_2319_HTA6_2319	phs002371_image_HTA6_2319
+Alive	Ductal Carcinoma NOS	63	Low Grade		No	Not Applicable	2944	Tumor free	2944	diagnosis	HTA6_1082	phs002371_image_HTA6_1082_HTA6_1082	phs002371_image_HTA6_1082
+Alive	Small cell neuroendocrine carcinoma	79	High Grade		Not Reported		31	Tumor free	31	diagnosis	HTA8_2033	phs002371_image_HTA8_2033_HTA8_2033	phs002371_image_HTA8_2033
+Alive	Ductal Carcinoma NOS	60	Unknown		No	Not Applicable	7436	Tumor free	7436	diagnosis	HTA6_2236	phs002371_image_HTA6_2236_HTA6_2236	phs002371_image_HTA6_2236
+Alive	Adenocarcinoma	60	Low Grade		No		1458	Tumor free	904	diagnosis	HTA7_978	phs002371_image_HTA7_978_HTA7_978	phs002371_image_HTA7_978
+Alive	Adenocarcinoma	38	High Grade		No		679	Tumor free	28	diagnosis	HTA7_988	phs002371_image_HTA7_988_HTA7_988	phs002371_image_HTA7_988
+Alive	Adenocarcinoma	57	Low Grade		Yes	1481	1532	Distant met recurrence/progression	1481	diagnosis	HTA7_985	phs002371_image_HTA7_985_HTA7_985	phs002371_image_HTA7_985
+Dead	Ductal Carcinoma NOS	47	Low Grade		Yes	17970	7459	With tumor	751	diagnosis	HTA6_2229	phs002371_image_HTA6_2229_HTA6_2229	phs002371_image_HTA6_2229
+Alive	Ductal Carcinoma NOS	50	High Grade		Yes	22757	4451	unknown tumor status	4358	diagnosis	HTA6_2323	phs002371_image_HTA6_2323_HTA6_2323	phs002371_image_HTA6_2323
+Dead	Ductal Carcinoma NOS	69	Low Grade		No	Not Applicable	3851	Tumor free	3851	diagnosis	HTA6_2359	phs002371_image_HTA6_2359_HTA6_2359	phs002371_image_HTA6_2359
+Alive	Mucous adenocarcinoma	69	Low Grade		Yes	397	1965	Distant met recurrence/progression	397	diagnosis	HTA7_926	phs002371_image_HTA7_926_HTA7_926	phs002371_image_HTA7_926
+Alive	Small cell neuroendocrine carcinoma	68	High Grade		Yes	25342	2299	Tumor free	2299	diagnosis	HTA8_2031	phs002371_image_HTA8_2031_HTA8_2031	phs002371_image_HTA8_2031
+Dead	Adenocarcinoma	77	High Grade		No		86	Tumor free	84	diagnosis	HTA7_957	phs002371_image_HTA7_957_HTA7_957	phs002371_image_HTA7_957
+Dead	Ductal Carcinoma NOS	46	G3		Yes	Unknown	5406	With tumor	5404	diagnosis	HTA1_870	phs002371_image_HTA1_870_HTA1_870	phs002371_image_HTA1_870
+Alive	Ductal Carcinoma NOS	58	Intermediate Grade		No	Not Applicable	3378	Tumor free	3378	diagnosis	HTA6_2305	phs002371_image_HTA6_2305_HTA6_2305	phs002371_image_HTA6_2305
+Alive	Ductal Carcinoma NOS	41	Intermediate Grade		No	Not Applicable	1510	Tumor free	1510	diagnosis	HTA6_2296	phs002371_image_HTA6_2296_HTA6_2296	phs002371_image_HTA6_2296
+Alive	Ductal Carcinoma NOS	71	Low Grade		No	Not Applicable	8187	Tumor free	8187	diagnosis	HTA6_2090	phs002371_image_HTA6_2090_HTA6_2090	phs002371_image_HTA6_2090
+Alive	Ductal Carcinoma NOS	43	Intermediate Grade		No	Not Applicable	1620	Tumor free	1620	diagnosis	HTA6_2141	phs002371_image_HTA6_2141_HTA6_2141	phs002371_image_HTA6_2141
+Alive	Ductal Carcinoma NOS	62	Low Grade		No	Not Applicable	6234	Tumor free	6234	diagnosis	HTA6_2293	phs002371_image_HTA6_2293_HTA6_2293	phs002371_image_HTA6_2293
+Dead	Ductal Carcinoma NOS	82	High Grade		No	Not Applicable	1812	Tumor free	1812	diagnosis	HTA6_2188	phs002371_image_HTA6_2188_HTA6_2188	phs002371_image_HTA6_2188
+Alive	Adenocarcinoma	74	Low Grade		Yes	314	2121	Distant met recurrence/progression	314	diagnosis	HTA7_914	phs002371_image_HTA7_914_HTA7_914	phs002371_image_HTA7_914
+Alive	Adenocarcinoma	66	High Grade		No		1466	Tumor free	1464	diagnosis	HTA7_990	phs002371_image_HTA7_990_HTA7_990	phs002371_image_HTA7_990
+Dead	Ductal Carcinoma NOS	74	Low Grade		Yes	30300	6767	Tumor free	3227	diagnosis	HTA6_2231	phs002371_image_HTA6_2231_HTA6_2231	phs002371_image_HTA6_2231
+Alive	Adenocarcinoma	67	Low Grade		No		19	Tumor free	19	diagnosis	HTA7_945	phs002371_image_HTA7_945_HTA7_945	phs002371_image_HTA7_945
+Alive	Ductal Carcinoma NOS	57	High Grade		No	Not Applicable	3479	Tumor free	3479	diagnosis	HTA6_2274	phs002371_image_HTA6_2274_HTA6_2274	phs002371_image_HTA6_2274
+Alive	Ductal Carcinoma NOS	54	Low Grade		No	Not Applicable	1517	Tumor free	1517	diagnosis	HTA6_2297	phs002371_image_HTA6_2297_HTA6_2297	phs002371_image_HTA6_2297
+Alive	Ductal Carcinoma NOS	43	G1	Unknown	No	Not Applicable	87	Tumor free	87	diagnosis	HTA6_2218	phs002371_image_HTA6_2218_HTA6_2218	phs002371_image_HTA6_2218
+Alive	Ductal Carcinoma NOS	79	Low Grade		No	Not Applicable	1908	Tumor free	1908	diagnosis	HTA6_2198	phs002371_image_HTA6_2198_HTA6_2198	phs002371_image_HTA6_2198
+Dead	Ductal Carcinoma NOS	64	Intermediate Grade		Yes	23772	6332	unknown tumor status	182	diagnosis	HTA6_2329	phs002371_image_HTA6_2329_HTA6_2329	phs002371_image_HTA6_2329
+Unknown	Ductal Carcinoma NOS	43	G1	Unknown	No	Not Applicable	145	Tumor free	145	diagnosis	HTA6_2185	phs002371_image_HTA6_2185_HTA6_2185	phs002371_image_HTA6_2185
+Alive	Ductal Carcinoma NOS	36	Unknown		No	Not Applicable	4748	Tumor free	4748	diagnosis	HTA6_2290	phs002371_image_HTA6_2290_HTA6_2290	phs002371_image_HTA6_2290
+Unknown	Ductal Carcinoma NOS	50	High Grade		Yes	18786	7755	unknown tumor status	470	diagnosis	HTA6_2004	phs002371_image_HTA6_2004_HTA6_2004	phs002371_image_HTA6_2004
+Dead	Ductal Carcinoma NOS	77	Intermediate Grade		No	Not Applicable	278	Tumor free	278	diagnosis	HTA6_2283	phs002371_image_HTA6_2283_HTA6_2283	phs002371_image_HTA6_2283
+Alive	Ductal Carcinoma NOS	38	Intermediate Grade		No	Not Applicable	6438	Tumor free	6438	diagnosis	HTA6_2199	phs002371_image_HTA6_2199_HTA6_2199	phs002371_image_HTA6_2199
+Alive	Ductal Carcinoma NOS	56	G3	Unknown	No	Not Applicable	90	Tumor free	90	diagnosis	HTA6_2267	phs002371_image_HTA6_2267_HTA6_2267	phs002371_image_HTA6_2267
+Alive	Ductal Carcinoma NOS	49	Intermediate Grade		No	Not Applicable	1304	Tumor free	1304	diagnosis	HTA6_1040	phs002371_image_HTA6_1040_HTA6_1040	phs002371_image_HTA6_1040
+Alive	Ductal Carcinoma NOS	53	G2	Unknown	Yes	20685	165	unknown tumor status	165	diagnosis	HTA6_2355	phs002371_image_HTA6_2355_HTA6_2355	phs002371_image_HTA6_2355
+Alive	Adenocarcinoma	40	G2		Yes	Unknown	1540	With tumor	1475	diagnosis	HTA1_313	phs002371_image_HTA1_313_HTA1_313	phs002371_image_HTA1_313
+Not Reported	Malignant Melanoma NOS	42	Not Applicable		Not Reported		763	Tumor free	763	diagnosis	HTA7_16	phs002371_image_HTA7_16_HTA7_16	phs002371_image_HTA7_16
+Alive	Ductal Carcinoma NOS	59	G2	Unknown	Yes	22442	54	unknown tumor status	54	diagnosis	HTA6_2317	phs002371_image_HTA6_2317_HTA6_2317	phs002371_image_HTA6_2317
+Dead	Ductal Carcinoma NOS	66	High Grade		No	Not Applicable	6761	Tumor free	6761	diagnosis	HTA6_2048	phs002371_image_HTA6_2048_HTA6_2048	phs002371_image_HTA6_2048
+Alive	Ductal Carcinoma NOS	51	Intermediate Grade		No	Not Applicable	5641	Tumor free	5641	diagnosis	HTA6_1060	phs002371_image_HTA6_1060_HTA6_1060	phs002371_image_HTA6_1060
+Dead	Ductal Carcinoma NOS	78	Low Grade		Yes	29003	1733	With tumor	357	diagnosis	HTA6_2356	phs002371_image_HTA6_2356_HTA6_2356	phs002371_image_HTA6_2356
+Dead	Ductal Carcinoma NOS	51	High Grade		Yes	20964	3041	With tumor	2169	diagnosis	HTA6_2216	phs002371_image_HTA6_2216_HTA6_2216	phs002371_image_HTA6_2216
+Alive	Adenocarcinoma	66	Low Grade		No		1542	Tumor free	1542	diagnosis	HTA7_961	phs002371_image_HTA7_961_HTA7_961	phs002371_image_HTA7_961
+Alive	Ductal Carcinoma NOS	65	Intermediate Grade		No	Not Applicable	5801	Tumor free	5801	diagnosis	HTA6_1149	phs002371_image_HTA6_1149_HTA6_1149	phs002371_image_HTA6_1149
+Dead	Ductal Carcinoma NOS	59	Low Grade		No	Not Applicable	6443	Tumor free	6443	diagnosis	HTA6_2078	phs002371_image_HTA6_2078_HTA6_2078	phs002371_image_HTA6_2078
+Alive	Ductal Carcinoma NOS	72	Intermediate Grade		No	Not Applicable	1994	Tumor free	1994	diagnosis	HTA6_2219	phs002371_image_HTA6_2219_HTA6_2219	phs002371_image_HTA6_2219
+Dead	Ductal Carcinoma NOS	77	High Grade		Yes	29650	3863	Tumor free	1484	diagnosis	HTA6_1115	phs002371_image_HTA6_1115_HTA6_1115	phs002371_image_HTA6_1115
+Alive	Ductal Carcinoma NOS	78	Unknown		No	Not Applicable	217	Tumor free	217	diagnosis	HTA6_1143	phs002371_image_HTA6_1143_HTA6_1143	phs002371_image_HTA6_1143
+Alive	Ductal Carcinoma NOS	40	High Grade		No	Not Applicable	10966	Tumor free	10966	diagnosis	HTA6_2196	phs002371_image_HTA6_2196_HTA6_2196	phs002371_image_HTA6_2196
+Alive	Adenocarcinoma	26	High Grade		No		2233	Tumor free	1552	diagnosis	HTA7_995	phs002371_image_HTA7_995_HTA7_995	phs002371_image_HTA7_995
+Dead	Ductal Carcinoma NOS	72	Low Grade		No	Not Applicable	4125	Tumor free	4125	diagnosis	HTA6_1167	phs002371_image_HTA6_1167_HTA6_1167	phs002371_image_HTA6_1167
+Alive	Ductal Carcinoma NOS	50	High Grade		Yes	18538	2078	unknown tumor status	34	diagnosis	HTA6_2100	phs002371_image_HTA6_2100_HTA6_2100	phs002371_image_HTA6_2100
+Dead	Ductal Carcinoma NOS	79	Low Grade		Yes	32035	4292	Tumor free	2862	diagnosis	HTA6_2352	phs002371_image_HTA6_2352_HTA6_2352	phs002371_image_HTA6_2352
+Unknown	Adenocarcinoma	48	Low Grade		No		unknown	Tumor free	unknown	diagnosis	HTA7_962	phs002371_image_HTA7_962_HTA7_962	phs002371_image_HTA7_962
+Alive	Adenocarcinoma	84	Low Grade		No		1492	Tumor free	198	diagnosis	HTA7_981	phs002371_image_HTA7_981_HTA7_981	phs002371_image_HTA7_981
+Dead	Ductal Carcinoma NOS	62	High Grade		No	Not Applicable	5886	Tumor free	5886	diagnosis	HTA6_1028	phs002371_image_HTA6_1028_HTA6_1028	phs002371_image_HTA6_1028
+Alive	Ductal Carcinoma NOS	55	High Grade		Yes	20096	86	unknown tumor status	0	diagnosis	HTA6_1030	phs002371_image_HTA6_1030_HTA6_1030	phs002371_image_HTA6_1030
+Alive	Ductal Carcinoma NOS	47	Intermediate Grade		No	Not Applicable	8731	Tumor free	8731	diagnosis	HTA6_2173	phs002371_image_HTA6_2173_HTA6_2173	phs002371_image_HTA6_2173
+Alive	Small cell neuroendocrine carcinoma	58	High Grade		Yes	21725	2603	Tumor free	2603	diagnosis	HTA8_2052	phs002371_image_HTA8_2052_HTA8_2052	phs002371_image_HTA8_2052
+Alive	Ductal Carcinoma NOS	55	G1	Unknown	Yes	22870	90	unknown tumor status	90	diagnosis	HTA6_2209	phs002371_image_HTA6_2209_HTA6_2209	phs002371_image_HTA6_2209
+Alive	Ductal Carcinoma NOS	39	High Grade		Yes	15169	8252	unknown tumor status	777	diagnosis	HTA6_1116	phs002371_image_HTA6_1116_HTA6_1116	phs002371_image_HTA6_1116
+Alive	Ductal Carcinoma NOS	38	High Grade		No	Not Applicable	2142	Tumor free	2142	diagnosis	HTA6_2215	phs002371_image_HTA6_2215_HTA6_2215	phs002371_image_HTA6_2215
+Dead	Adenocarcinoma	70	High Grade		Yes	67	618	Distant met recurrence/progression	67	diagnosis	HTA7_940	phs002371_image_HTA7_940_HTA7_940	phs002371_image_HTA7_940
+Dead	Adenocarcinoma	58	Low Grade		Yes	195	425	Distant met recurrence/progression	195	diagnosis	HTA7_947	phs002371_image_HTA7_947_HTA7_947	phs002371_image_HTA7_947
+Dead	Ductal Carcinoma NOS	66	Intermediate Grade		No	Not Applicable	4527	Tumor free	4527	diagnosis	HTA6_1020	phs002371_image_HTA6_1020_HTA6_1020	phs002371_image_HTA6_1020
+Dead	Ductal Carcinoma NOS	63	Intermediate Grade		No	Not Applicable	1362	Tumor free	1362	diagnosis	HTA6_1068	phs002371_image_HTA6_1068_HTA6_1068	phs002371_image_HTA6_1068
+Alive	Ductal Carcinoma NOS	52	High Grade		No	Not Applicable	1318	Tumor free	1318	diagnosis	HTA6_1027	phs002371_image_HTA6_1027_HTA6_1027	phs002371_image_HTA6_1027
+Alive	Ductal Carcinoma NOS	47	High Grade		No	Not Applicable	2398	Tumor free	2398	diagnosis	HTA6_1069	phs002371_image_HTA6_1069_HTA6_1069	phs002371_image_HTA6_1069
+Dead	Ductal Carcinoma NOS	77	Low Grade		No	Not Applicable	2785	Tumor free	2785	diagnosis	HTA6_2133	phs002371_image_HTA6_2133_HTA6_2133	phs002371_image_HTA6_2133
+Alive	Ductal Carcinoma NOS	36	Intermediate Grade		No	Not Applicable	5923	Tumor free	5923	diagnosis	HTA6_1045	phs002371_image_HTA6_1045_HTA6_1045	phs002371_image_HTA6_1045
+Dead	Mucous adenocarcinoma	64	High Grade		Yes	147	278	Distant met recurrence/progression	147	diagnosis	HTA7_963	phs002371_image_HTA7_963_HTA7_963	phs002371_image_HTA7_963
+Dead	Small cell neuroendocrine carcinoma	72	High Grade		Yes	27376	1878	Tumor free	1878	diagnosis	HTA8_2036	phs002371_image_HTA8_2036_HTA8_2036	phs002371_image_HTA8_2036
+Dead	Small cell neuroendocrine carcinoma	65	High Grade		Yes	24390	635	With tumor	635	diagnosis	HTA8_2056	phs002371_image_HTA8_2056_HTA8_2056	phs002371_image_HTA8_2056
+Dead	Ductal Carcinoma NOS	54	Low Grade		Yes	27174	7651	unknown tumor status	7288	diagnosis	HTA6_1101	phs002371_image_HTA6_1101_HTA6_1101	phs002371_image_HTA6_1101
+Dead	Ductal Carcinoma NOS	55	Low Grade		No	Not Applicable	7524	Tumor free	7524	diagnosis	HTA6_2314	phs002371_image_HTA6_2314_HTA6_2314	phs002371_image_HTA6_2314
+Dead	Ductal Carcinoma NOS	39	G3		Yes	Unknown	1471	With tumor	1457	diagnosis	HTA1_516	phs002371_image_HTA1_516_HTA1_516	phs002371_image_HTA1_516
+Alive	Ductal Carcinoma NOS	53	High Grade		No	Not Applicable	9182	Tumor free	9182	diagnosis	HTA6_1042	phs002371_image_HTA6_1042_HTA6_1042	phs002371_image_HTA6_1042
+Dead	Ductal Carcinoma NOS	31	Unknown		Yes	Unknown	8852	With tumor	8852	diagnosis	HTA1_997	phs002371_image_HTA1_997_HTA1_997	phs002371_image_HTA1_997
+Alive	Ductal Carcinoma NOS	66	G1	Unknown	No	Not Applicable	133	Tumor free	133	diagnosis	HTA6_2384	phs002371_image_HTA6_2384_HTA6_2384	phs002371_image_HTA6_2384
+Alive	Ductal Carcinoma NOS	58	Low Grade		No	Not Applicable	1029	Tumor free	1029	diagnosis	HTA6_2211	phs002371_image_HTA6_2211_HTA6_2211	phs002371_image_HTA6_2211
+Dead	Small cell neuroendocrine carcinoma	65	High Grade		Yes	24647	801	With tumor	801	diagnosis	HTA8_2035	phs002371_image_HTA8_2035_HTA8_2035	phs002371_image_HTA8_2035
+Alive	Ductal Carcinoma NOS	41	G2	Unknown	No	Not Applicable	100	Tumor free	100	diagnosis	HTA6_2302	phs002371_image_HTA6_2302_HTA6_2302	phs002371_image_HTA6_2302
+Alive	Ductal Carcinoma NOS	36	High Grade		No	Not Applicable	3396	Tumor free	3396	diagnosis	HTA6_1162	phs002371_image_HTA6_1162_HTA6_1162	phs002371_image_HTA6_1162
+Dead	Ductal Carcinoma NOS	54	High Grade		No	Not Applicable	1398	Tumor free	1398	diagnosis	HTA6_2195	phs002371_image_HTA6_2195_HTA6_2195	phs002371_image_HTA6_2195
+Alive	Ductal Carcinoma NOS	51	High Grade		No	Not Applicable	5485	Tumor free	5485	diagnosis	HTA6_2316	phs002371_image_HTA6_2316_HTA6_2316	phs002371_image_HTA6_2316
+Dead	Ductal Carcinoma NOS	57	Intermediate Grade		No	Not Applicable	2984	Tumor free	2984	diagnosis	HTA6_1083	phs002371_image_HTA6_1083_HTA6_1083	phs002371_image_HTA6_1083
+Alive	Ductal Carcinoma NOS	51	G3	Unknown	No	Not Applicable	187	Tumor free	187	diagnosis	HTA6_2203	phs002371_image_HTA6_2203_HTA6_2203	phs002371_image_HTA6_2203
+Alive	Ductal Carcinoma NOS	41	Intermediate Grade		No	Not Applicable	884	Tumor free	884	diagnosis	HTA6_2382	phs002371_image_HTA6_2382_HTA6_2382	phs002371_image_HTA6_2382
+Alive	Ductal Carcinoma NOS	60	High Grade		Yes	26664	7676	unknown tumor status	4468	diagnosis	HTA6_2221	phs002371_image_HTA6_2221_HTA6_2221	phs002371_image_HTA6_2221
+Alive	Ductal Carcinoma NOS	38	G2		Yes	Unknown	4711	With tumor	4642	diagnosis	HTA1_562	phs002371_image_HTA1_562_HTA1_562	phs002371_image_HTA1_562
+Alive	Ductal Carcinoma NOS	58	Intermediate Grade		No	Not Applicable	6978	Tumor free	6978	diagnosis	HTA6_1132	phs002371_image_HTA6_1132_HTA6_1132	phs002371_image_HTA6_1132
+Dead	Ductal Carcinoma NOS	55	High Grade		No	Not Applicable	3843	Tumor free	3843	diagnosis	HTA6_2280	phs002371_image_HTA6_2280_HTA6_2280	phs002371_image_HTA6_2280
+Alive	Ductal Carcinoma NOS	53	Intermediate Grade		Yes	21190	1852	unknown tumor status	1794	diagnosis	HTA6_1139	phs002371_image_HTA6_1139_HTA6_1139	phs002371_image_HTA6_1139
+Unknown	Ductal Carcinoma NOS	66	Low Grade		Yes	27740	7681	unknown tumor status	3266	diagnosis	HTA6_1071	phs002371_image_HTA6_1071_HTA6_1071	phs002371_image_HTA6_1071
+Alive	Ductal Carcinoma NOS	43	Unknown		No	Not Applicable	4995	Tumor free	4995	diagnosis	HTA6_2251	phs002371_image_HTA6_2251_HTA6_2251	phs002371_image_HTA6_2251
+Alive	Adenocarcinoma	61	High Grade		No		598	Tumor free	596	diagnosis	HTA7_958	phs002371_image_HTA7_958_HTA7_958	phs002371_image_HTA7_958
+Alive	Pancreatobiliary-type carcinoma	70	G2		No		404	Tumor free	404	diagnosis	HTA12_9	phs002371_image_HTA12_9_HTA12_9	phs002371_image_HTA12_9
+Dead	Ductal Carcinoma NOS	44	Intermediate Grade		Yes	20163	4238	Tumor free	3778	diagnosis	HTA6_2347	phs002371_image_HTA6_2347_HTA6_2347	phs002371_image_HTA6_2347
+Alive	Ductal Carcinoma NOS	54	G2	Unknown	No	Not Applicable	132	Tumor free	132	diagnosis	HTA6_1122	phs002371_image_HTA6_1122_HTA6_1122	phs002371_image_HTA6_1122
+Alive	Ductal Carcinoma NOS	41	High Grade		Yes	23604	9102	unknown tumor status	8299	diagnosis	HTA6_1009	phs002371_image_HTA6_1009_HTA6_1009	phs002371_image_HTA6_1009
+Alive	Adenocarcinoma	53	Low Grade		No		2183	Tumor free	2182	diagnosis	HTA7_912	phs002371_image_HTA7_912_HTA7_912	phs002371_image_HTA7_912
+Dead	Ductal Carcinoma NOS	53	High Grade		Yes	21089	8174	Tumor free	1441	diagnosis	HTA6_1016	phs002371_image_HTA6_1016_HTA6_1016	phs002371_image_HTA6_1016
+Alive	Ductal Carcinoma NOS	54	High Grade		No	Not Applicable	2611	Tumor free	2611	diagnosis	HTA6_2313	phs002371_image_HTA6_2313_HTA6_2313	phs002371_image_HTA6_2313
+Dead	Adenocarcinoma	84	High Grade		Yes	311	1064	Distant met recurrence/progression	311	diagnosis	HTA7_994	phs002371_image_HTA7_994_HTA7_994	phs002371_image_HTA7_994
+Dead	Ductal Carcinoma NOS	53	Low Grade		Yes	22436	5984	Tumor free	2967	diagnosis	HTA6_1062	phs002371_image_HTA6_1062_HTA6_1062	phs002371_image_HTA6_1062
+Alive	Ductal Carcinoma NOS	65	High Grade		Yes	26070	3806	unknown tumor status	1985	diagnosis	HTA6_2369	phs002371_image_HTA6_2369_HTA6_2369	phs002371_image_HTA6_2369
+Alive	Ductal Carcinoma NOS	43	Low Grade		Yes	19282	10472	unknown tumor status	3285	diagnosis	HTA6_2404	phs002371_image_HTA6_2404_HTA6_2404	phs002371_image_HTA6_2404
+Alive	Ductal Carcinoma NOS	48	G3	Unknown	No	Not Applicable	137	Tumor free	137	diagnosis	HTA6_2396	phs002371_image_HTA6_2396_HTA6_2396	phs002371_image_HTA6_2396
+Dead	Ductal Carcinoma NOS	73	High Grade		Yes	26969	4517	Tumor free	0	diagnosis	HTA6_2101	phs002371_image_HTA6_2101_HTA6_2101	phs002371_image_HTA6_2101
+Alive	Ductal Carcinoma NOS	54	Intermediate Grade		No	Not Applicable	6752	Tumor free	6752	diagnosis	HTA6_2119	phs002371_image_HTA6_2119_HTA6_2119	phs002371_image_HTA6_2119
+Alive	Ductal Carcinoma NOS	61	Low Grade		Yes	23705	1737	unknown tumor status	1104	diagnosis	HTA6_1109	phs002371_image_HTA6_1109_HTA6_1109	phs002371_image_HTA6_1109
+Not Reported	Malignant Melanoma NOS	56	Not Applicable		Not Reported		829	Tumor free	829	diagnosis	HTA7_10	phs002371_image_HTA7_10_HTA7_10	phs002371_image_HTA7_10
+Dead	Ductal Carcinoma NOS	60	Low Grade		Yes	24043	8537	unknown tumor status	1839	diagnosis	HTA6_1126	phs002371_image_HTA6_1126_HTA6_1126	phs002371_image_HTA6_1126
+Alive	Pancreatobiliary-type carcinoma	53	G2		No		360	Distant met recurrence/progression	360	diagnosis	HTA12_18	phs002371_image_HTA12_18_HTA12_18	phs002371_image_HTA12_18
+Alive	Ductal Carcinoma NOS	54	Intermediate Grade		No	Not Applicable	1346	Tumor free	1346	diagnosis	HTA6_2304	phs002371_image_HTA6_2304_HTA6_2304	phs002371_image_HTA6_2304
+Alive	Ductal Carcinoma NOS	41	G1		Yes	Unknown	5221	With tumor	5132	diagnosis	HTA1_752	phs002371_image_HTA1_752_HTA1_752	phs002371_image_HTA1_752
+Alive	Ductal Carcinoma NOS	66	Low Grade		Yes	30840	8003	unknown tumor status	6378	diagnosis	HTA6_1120	phs002371_image_HTA6_1120_HTA6_1120	phs002371_image_HTA6_1120
+Alive	Adenocarcinoma	46	Low Grade		No		2167	Tumor free	1888	diagnosis	HTA7_913	phs002371_image_HTA7_913_HTA7_913	phs002371_image_HTA7_913
+Alive	Ductal Carcinoma NOS	50	Unknown		No	Not Applicable	586	Tumor free	586	diagnosis	HTA6_1058	phs002371_image_HTA6_1058_HTA6_1058	phs002371_image_HTA6_1058
+Alive	Ductal Carcinoma NOS	48	Intermediate Grade		No	Not Applicable	2803	Tumor free	2803	diagnosis	HTA6_2300	phs002371_image_HTA6_2300_HTA6_2300	phs002371_image_HTA6_2300
+Alive	Ductal Carcinoma NOS	50	Intermediate Grade		No	Not Applicable	1467	Tumor free	1467	diagnosis	HTA6_1163	phs002371_image_HTA6_1163_HTA6_1163	phs002371_image_HTA6_1163
+Dead	Ductal Carcinoma NOS	67	High Grade		No	Not Applicable	2283	Tumor free	2283	diagnosis	HTA6_1006	phs002371_image_HTA6_1006_HTA6_1006	phs002371_image_HTA6_1006
+Alive	Ductal Carcinoma NOS	42	Low Grade		Yes	20285	6867	unknown tumor status	4700	diagnosis	HTA6_2366	phs002371_image_HTA6_2366_HTA6_2366	phs002371_image_HTA6_2366
+Unknown	Adenocarcinoma	50	Low Grade		Not Reported		unknown	Not Reported	unknown	diagnosis	HTA7_964	phs002371_image_HTA7_964_HTA7_964	phs002371_image_HTA7_964
+Alive	Ductal Carcinoma NOS	49	Low Grade		No	Not Applicable	1456	Tumor free	1456	diagnosis	HTA6_1035	phs002371_image_HTA6_1035_HTA6_1035	phs002371_image_HTA6_1035
+Alive	Ductal Carcinoma NOS	53	High Grade		Yes	21851	8258	unknown tumor status	2311	diagnosis	HTA6_1121	phs002371_image_HTA6_1121_HTA6_1121	phs002371_image_HTA6_1121
+Dead	Ductal Carcinoma NOS	86	Low Grade		No	Not Applicable	2777	Tumor free	2777	diagnosis	HTA6_2029	phs002371_image_HTA6_2029_HTA6_2029	phs002371_image_HTA6_2029
+Alive	Ductal Carcinoma NOS	47	Low Grade		No	Not Applicable	1211	Tumor free	1211	diagnosis	HTA6_2392	phs002371_image_HTA6_2392_HTA6_2392	phs002371_image_HTA6_2392
+Alive	Ductal Carcinoma NOS	53	G1	Unknown	No	Not Applicable	163	Tumor free	163	diagnosis	HTA6_2077	phs002371_image_HTA6_2077_HTA6_2077	phs002371_image_HTA6_2077
+Alive	Ductal Carcinoma NOS	64	High Grade		Yes	24258	1614	unknown tumor status	706	diagnosis	HTA6_2234	phs002371_image_HTA6_2234_HTA6_2234	phs002371_image_HTA6_2234
+Dead	Ductal Carcinoma NOS	60	Low Grade		No	Not Applicable	7008	Tumor free	7008	diagnosis	HTA6_2197	phs002371_image_HTA6_2197_HTA6_2197	phs002371_image_HTA6_2197
+Alive	Mucous adenocarcinoma	45	Low Grade		No		1440	Tumor free	1402	diagnosis	HTA7_993	phs002371_image_HTA7_993_HTA7_993	phs002371_image_HTA7_993
+Dead	Small cell neuroendocrine carcinoma	67	High Grade		No		1615	Tumor free	1615	diagnosis	HTA8_2038	phs002371_image_HTA8_2038_HTA8_2038	phs002371_image_HTA8_2038
+Dead	Small cell neuroendocrine carcinoma	70	High Grade		Yes	25940	554	With tumor	554	diagnosis	HTA8_2024	phs002371_image_HTA8_2024_HTA8_2024	phs002371_image_HTA8_2024
+Alive	Ductal Carcinoma NOS	49	Unknown		Yes	18100	3405	unknown tumor status	13	diagnosis	HTA6_2105	phs002371_image_HTA6_2105_HTA6_2105	phs002371_image_HTA6_2105
+Dead	Ductal Carcinoma NOS	53	Low Grade		No	Not Applicable	144	Tumor free	144	diagnosis	HTA6_1100	phs002371_image_HTA6_1100_HTA6_1100	phs002371_image_HTA6_1100
+Alive	Ductal Carcinoma NOS	47	G3	Unknown	No	Not Applicable	209	Tumor free	209	diagnosis	HTA6_2165	phs002371_image_HTA6_2165_HTA6_2165	phs002371_image_HTA6_2165
+Dead	Ductal Carcinoma NOS	37	Intermediate Grade		No	Not Applicable	1589	Tumor free	1589	diagnosis	HTA6_2335	phs002371_image_HTA6_2335_HTA6_2335	phs002371_image_HTA6_2335
+Alive	Ductal Carcinoma NOS	66	High Grade		No	Not Applicable	2906	Tumor free	2906	diagnosis	HTA6_2146	phs002371_image_HTA6_2146_HTA6_2146	phs002371_image_HTA6_2146
+Alive	Ductal Carcinoma NOS	43	Low Grade		Yes	15887	1829	unknown tumor status	0	diagnosis	HTA6_2326	phs002371_image_HTA6_2326_HTA6_2326	phs002371_image_HTA6_2326
+Alive	Ductal Carcinoma NOS	47	Unknown		Yes	26089	9534	unknown tumor status	8755	diagnosis	HTA6_1156	phs002371_image_HTA6_1156_HTA6_1156	phs002371_image_HTA6_1156
+Dead	Adenocarcinoma	90	High Grade		No		337	Tumor free	337	diagnosis	HTA7_924	phs002371_image_HTA7_924_HTA7_924	phs002371_image_HTA7_924
+Alive	Ductal Carcinoma NOS	48	Intermediate Grade		No	Not Applicable	8809	Tumor free	8809	diagnosis	HTA6_2224	phs002371_image_HTA6_2224_HTA6_2224	phs002371_image_HTA6_2224
+Dead	Ductal Carcinoma NOS	74	Intermediate Grade		Yes	28786	5026	Tumor free	1493	diagnosis	HTA6_2309	phs002371_image_HTA6_2309_HTA6_2309	phs002371_image_HTA6_2309
+Alive	Ductal Carcinoma NOS	57	High Grade		Yes	24538	3919	unknown tumor status	3471	diagnosis	HTA6_2233	phs002371_image_HTA6_2233_HTA6_2233	phs002371_image_HTA6_2233
+Alive	Mucous adenocarcinoma	58	High Grade		Yes	681	1991	Distant met recurrence/progression	681	diagnosis	HTA7_920	phs002371_image_HTA7_920_HTA7_920	phs002371_image_HTA7_920
+Dead	Pancreatobiliary-type carcinoma	66	G3		No		514	Tumor free	514	diagnosis	HTA12_5	phs002371_image_HTA12_5_HTA12_5	phs002371_image_HTA12_5
+Alive	Ductal Carcinoma NOS	48	G3	Unknown	No	Not Applicable	177	Tumor free	177	diagnosis	HTA6_2169	phs002371_image_HTA6_2169_HTA6_2169	phs002371_image_HTA6_2169
+Alive	Adenocarcinoma	59	Low Grade		No		308	Tumor free	204	diagnosis	HTA7_960	phs002371_image_HTA7_960_HTA7_960	phs002371_image_HTA7_960
+Alive	Ductal Carcinoma NOS	65	High Grade		No	Not Applicable	4431	Tumor free	4431	diagnosis	HTA6_1005	phs002371_image_HTA6_1005_HTA6_1005	phs002371_image_HTA6_1005
+Alive	Ductal Carcinoma NOS	58	High Grade		No	Not Applicable	4981	Tumor free	4981	diagnosis	HTA6_2123	phs002371_image_HTA6_2123_HTA6_2123	phs002371_image_HTA6_2123
+Alive	Ductal Carcinoma NOS	58	Low Grade		Yes	21247	3736	unknown tumor status	31	diagnosis	HTA6_2109	phs002371_image_HTA6_2109_HTA6_2109	phs002371_image_HTA6_2109
+Alive	Ductal Carcinoma NOS	48	Low Grade		No	Not Applicable	3998	Tumor free	3998	diagnosis	HTA6_2239	phs002371_image_HTA6_2239_HTA6_2239	phs002371_image_HTA6_2239
+Alive	Ductal Carcinoma NOS	51	G2	Unknown	No	Not Applicable	149	Tumor free	149	diagnosis	HTA6_2381	phs002371_image_HTA6_2381_HTA6_2381	phs002371_image_HTA6_2381
+Dead	Adenocarcinoma	48	High Grade		Yes	181	205	Distant met recurrence/progression	181	diagnosis	HTA7_968	phs002371_image_HTA7_968_HTA7_968	phs002371_image_HTA7_968
+Alive	Adenocarcinoma	70	Low Grade		No		1450	Tumor free	1105	diagnosis	HTA7_973	phs002371_image_HTA7_973_HTA7_973	phs002371_image_HTA7_973
+Alive	Ductal Carcinoma NOS	76	Low Grade		No	Not Applicable	5863	Tumor free	5863	diagnosis	HTA6_2284	phs002371_image_HTA6_2284_HTA6_2284	phs002371_image_HTA6_2284
+Alive	Ductal Carcinoma NOS	75	Low Grade		Yes	30988	3511	unknown tumor status	3511	diagnosis	HTA6_2398	phs002371_image_HTA6_2398_HTA6_2398	phs002371_image_HTA6_2398
+Dead	Ductal Carcinoma NOS	58	G3	Unknown	No	Not Applicable	82	Tumor free	82	diagnosis	HTA6_2129	phs002371_image_HTA6_2129_HTA6_2129	phs002371_image_HTA6_2129
+Alive	Ductal Carcinoma NOS	68	G2	Unknown	Yes	28440	143	unknown tumor status	143	diagnosis	HTA6_2256	phs002371_image_HTA6_2256_HTA6_2256	phs002371_image_HTA6_2256
+Dead	Neuroblastoma	18	Not Applicable		Not Reported		Not Reported	Not Reported	Not Reported	diagnosis	HTA1_136	phs002371_image_HTA1_136_HTA1_136	phs002371_image_HTA1_136
+Alive	Ductal Carcinoma NOS	58	High Grade		No	Not Applicable	7236	Tumor free	7236	diagnosis	HTA6_2346	phs002371_image_HTA6_2346_HTA6_2346	phs002371_image_HTA6_2346
+Alive	Ductal Carcinoma NOS	61	G2	Unknown	No	Not Applicable	148	Tumor free	148	diagnosis	HTA6_1097	phs002371_image_HTA6_1097_HTA6_1097	phs002371_image_HTA6_1097
+Alive	Ductal Carcinoma NOS	62	Intermediate Grade		Yes	23466	2414	unknown tumor status	561	diagnosis	HTA6_1096	phs002371_image_HTA6_1096_HTA6_1096	phs002371_image_HTA6_1096
+Alive	Ductal Carcinoma NOS	45	G3	Unknown	No	Not Applicable	71	Tumor free	71	diagnosis	HTA6_1147	phs002371_image_HTA6_1147_HTA6_1147	phs002371_image_HTA6_1147
+Dead	Combined small cell-squamous cell carcinoma	60	High Grade		Yes	22300	466	With tumor	466	diagnosis	HTA8_2039	phs002371_image_HTA8_2039_HTA8_2039	phs002371_image_HTA8_2039
+Alive	Lobular carcinoma NOS	63	G2		Yes	Unknown	1714	With tumor	1057	diagnosis	HTA1_880	phs002371_image_HTA1_880_HTA1_880	phs002371_image_HTA1_880
+Alive	Ductal Carcinoma NOS	35	Intermediate Grade		Yes	16506	11270	unknown tumor status	3667	diagnosis	HTA6_1104	phs002371_image_HTA6_1104_HTA6_1104	phs002371_image_HTA6_1104
+Alive	Ductal Carcinoma NOS	65	High Grade		No	Not Applicable	959	Tumor free	959	diagnosis	HTA6_2264	phs002371_image_HTA6_2264_HTA6_2264	phs002371_image_HTA6_2264
+Alive	Pancreatobiliary-type carcinoma	67	G4		No		448	Distant met recurrence/progression	448	diagnosis	HTA12_7	phs002371_image_HTA12_7_HTA12_7	phs002371_image_HTA12_7
+Alive	Ductal Carcinoma NOS	32	Low Grade		No	Not Applicable	3242	Tumor free	3242	diagnosis	HTA6_1029	phs002371_image_HTA6_1029_HTA6_1029	phs002371_image_HTA6_1029
+Alive	Ductal Carcinoma NOS	66	Intermediate Grade		No	Not Applicable	988	Tumor free	988	diagnosis	HTA6_2260	phs002371_image_HTA6_2260_HTA6_2260	phs002371_image_HTA6_2260
+Alive	Ductal Carcinoma NOS	42	G2	Unknown	No	Not Applicable	84	Tumor free	84	diagnosis	HTA6_2208	phs002371_image_HTA6_2208_HTA6_2208	phs002371_image_HTA6_2208
+Dead	Ductal Carcinoma NOS	70	Low Grade		No	Not Applicable	4586	Tumor free	4586	diagnosis	HTA6_2330	phs002371_image_HTA6_2330_HTA6_2330	phs002371_image_HTA6_2330
+Alive	Ductal Carcinoma NOS	49	High Grade		No	Not Applicable	3300	Tumor free	3300	diagnosis	HTA6_2201	phs002371_image_HTA6_2201_HTA6_2201	phs002371_image_HTA6_2201
+Alive	Ductal Carcinoma NOS	45	Low Grade		Yes	17990	8646	unknown tumor status	1318	diagnosis	HTA6_2344	phs002371_image_HTA6_2344_HTA6_2344	phs002371_image_HTA6_2344
+Alive	Ductal Carcinoma NOS	70	G2	Unknown	No	Not Applicable	199	Tumor free	199	diagnosis	HTA6_2292	phs002371_image_HTA6_2292_HTA6_2292	phs002371_image_HTA6_2292
+Alive	Ductal Carcinoma NOS	40	Intermediate Grade		No	Not Applicable	599	Tumor free	599	diagnosis	HTA6_1133	phs002371_image_HTA6_1133_HTA6_1133	phs002371_image_HTA6_1133
+Alive	Ductal Carcinoma NOS	57	Low Grade		Yes	21866	6541	unknown tumor status	870	diagnosis	HTA6_2336	phs002371_image_HTA6_2336_HTA6_2336	phs002371_image_HTA6_2336
+Alive	Ductal Carcinoma NOS	59	Low Grade		Yes	22332	2934	unknown tumor status	734	diagnosis	HTA6_1108	phs002371_image_HTA6_1108_HTA6_1108	phs002371_image_HTA6_1108
+Dead	Ductal Carcinoma NOS	53	Intermediate Grade		No	Not Applicable	6442	Tumor free	6442	diagnosis	HTA6_2365	phs002371_image_HTA6_2365_HTA6_2365	phs002371_image_HTA6_2365
+Alive	Ductal Carcinoma NOS	52	Low Grade		No	Not Applicable	7803	Tumor free	7803	diagnosis	HTA6_2225	phs002371_image_HTA6_2225_HTA6_2225	phs002371_image_HTA6_2225
+Alive	Ductal Carcinoma NOS	69	High Grade		Yes	28835	3705	unknown tumor status	3276	diagnosis	HTA6_2367	phs002371_image_HTA6_2367_HTA6_2367	phs002371_image_HTA6_2367
+Alive	Adenocarcinoma	48	High Grade		No		1870	Tumor free	1540	diagnosis	HTA7_936	phs002371_image_HTA7_936_HTA7_936	phs002371_image_HTA7_936
+Alive	Ductal Carcinoma NOS	56	Low Grade		No	Not Applicable	1003	Tumor free	1003	diagnosis	HTA6_2324	phs002371_image_HTA6_2324_HTA6_2324	phs002371_image_HTA6_2324
+Alive	Adenocarcinoma	63	Low Grade		No		2103	Tumor free	1787	diagnosis	HTA7_919	phs002371_image_HTA7_919_HTA7_919	phs002371_image_HTA7_919
+Dead	Ductal Carcinoma NOS	56	High Grade		No	Not Applicable	5715	Tumor free	5715	diagnosis	HTA6_2151	phs002371_image_HTA6_2151_HTA6_2151	phs002371_image_HTA6_2151
+Dead	Ductal Carcinoma NOS	68	High Grade		No	Not Applicable	2535	Tumor free	2535	diagnosis	HTA6_2120	phs002371_image_HTA6_2120_HTA6_2120	phs002371_image_HTA6_2120
+Dead	Ductal Carcinoma NOS	61	Low Grade		No	Not Applicable	2319	Tumor free	2319	diagnosis	HTA6_2331	phs002371_image_HTA6_2331_HTA6_2331	phs002371_image_HTA6_2331
+Alive	Ductal Carcinoma NOS	44	High Grade		No	Not Applicable	8272	Tumor free	8272	diagnosis	HTA6_2258	phs002371_image_HTA6_2258_HTA6_2258	phs002371_image_HTA6_2258
+Alive	Ductal Carcinoma NOS	41	High Grade		No	Not Applicable	2170	Tumor free	2170	diagnosis	HTA6_2269	phs002371_image_HTA6_2269_HTA6_2269	phs002371_image_HTA6_2269
+Alive	Adenocarcinoma	64	Low Grade		No		1783	Tumor free	1727	diagnosis	HTA7_916	phs002371_image_HTA7_916_HTA7_916	phs002371_image_HTA7_916
+Alive	Ductal Carcinoma NOS	71	Low Grade		Yes	28732	2960	unknown tumor status	2552	diagnosis	HTA6_1075	phs002371_image_HTA6_1075_HTA6_1075	phs002371_image_HTA6_1075
+Unknown	Neuroblastoma	18	Not Applicable		Not Reported		Not Reported	Not Reported	Not Reported	diagnosis	HTA1_141	phs002371_image_HTA1_141_HTA1_141	phs002371_image_HTA1_141
+Alive	Ductal Carcinoma NOS	54	Intermediate Grade		No	Not Applicable	3947	Tumor free	3947	diagnosis	HTA6_2127	phs002371_image_HTA6_2127_HTA6_2127	phs002371_image_HTA6_2127
+Dead	Small cell neuroendocrine carcinoma	71	High Grade		Yes	26582	615	With tumor	615	diagnosis	HTA8_2053	phs002371_image_HTA8_2053_HTA8_2053	phs002371_image_HTA8_2053
+Alive	Ductal Carcinoma NOS	67	Intermediate Grade		No	Not Applicable	2194	Tumor free	2194	diagnosis	HTA6_2237	phs002371_image_HTA6_2237_HTA6_2237	phs002371_image_HTA6_2237
+Alive	Ductal Carcinoma NOS	48	High Grade		Yes	20207	3331	unknown tumor status	2417	diagnosis	HTA6_1093	phs002371_image_HTA6_1093_HTA6_1093	phs002371_image_HTA6_1093
+Unknown	Adenocarcinoma metastatic NOS	66	Low Grade		Not Reported		unknown	Not Reported	unknown	diagnosis	HTA7_937	phs002371_image_HTA7_937_HTA7_937	phs002371_image_HTA7_937
+Dead	Combined small cell-squamous cell carcinoma	72	High Grade		Yes	26800	455	With tumor	455	diagnosis	HTA8_2043	phs002371_image_HTA8_2043_HTA8_2043	phs002371_image_HTA8_2043
+Unknown	Ductal Carcinoma NOS	64	Low Grade		No	Not Applicable	3666	Tumor free	3666	diagnosis	HTA6_1003	phs002371_image_HTA6_1003_HTA6_1003	phs002371_image_HTA6_1003
+Alive	Ductal Carcinoma NOS	70	High Grade		No	Not Applicable	2985	Tumor free	2985	diagnosis	HTA6_1011	phs002371_image_HTA6_1011_HTA6_1011	phs002371_image_HTA6_1011
+Dead	Ductal Carcinoma NOS	74	Low Grade		No	Not Applicable	8723	Tumor free	8723	diagnosis	HTA6_2083	phs002371_image_HTA6_2083_HTA6_2083	phs002371_image_HTA6_2083
+Alive	Ductal Carcinoma NOS	53	G3	Unknown	No	Not Applicable	158	Tumor free	158	diagnosis	HTA6_2157	phs002371_image_HTA6_2157_HTA6_2157	phs002371_image_HTA6_2157
+Alive	Ductal Carcinoma NOS	50	High Grade		No	Not Applicable	5451	Tumor free	5451	diagnosis	HTA6_2161	phs002371_image_HTA6_2161_HTA6_2161	phs002371_image_HTA6_2161
+Alive	Ductal Carcinoma NOS	72	Intermediate Grade		No	Not Applicable	4242	Tumor free	4242	diagnosis	HTA6_2358	phs002371_image_HTA6_2358_HTA6_2358	phs002371_image_HTA6_2358
+Alive	Ductal Carcinoma NOS	50	G3	Unknown	No	Not Applicable	163	Tumor free	163	diagnosis	HTA6_1135	phs002371_image_HTA6_1135_HTA6_1135	phs002371_image_HTA6_1135
+Alive	Ductal Carcinoma NOS	56	Low Grade		No	Not Applicable	8267	Tumor free	8267	diagnosis	HTA6_1024	phs002371_image_HTA6_1024_HTA6_1024	phs002371_image_HTA6_1024
+Dead	Ductal Carcinoma NOS	61	Intermediate Grade		No	Not Applicable	1649	Tumor free	1649	diagnosis	HTA6_1145	phs002371_image_HTA6_1145_HTA6_1145	phs002371_image_HTA6_1145
+Dead	Ductal Carcinoma NOS	53	Unknown		No	Not Applicable	9273	Tumor free	9273	diagnosis	HTA6_2262	phs002371_image_HTA6_2262_HTA6_2262	phs002371_image_HTA6_2262
+Alive	Adenocarcinoma	67	Low Grade		No		1758	Tumor free	1485	diagnosis	HTA7_942	phs002371_image_HTA7_942_HTA7_942	phs002371_image_HTA7_942
+Alive	Ductal Carcinoma NOS	51	High Grade		Yes	24016	5900	unknown tumor status	5287	diagnosis	HTA6_2312	phs002371_image_HTA6_2312_HTA6_2312	phs002371_image_HTA6_2312
+Alive	Ductal Carcinoma NOS	46	High Grade		No	Not Applicable	816	Tumor free	816	diagnosis	HTA6_2403	phs002371_image_HTA6_2403_HTA6_2403	phs002371_image_HTA6_2403
+Dead	Ductal Carcinoma NOS	43	G3	Unknown	Yes	16379	41	unknown tumor status	41	diagnosis	HTA6_2372	phs002371_image_HTA6_2372_HTA6_2372	phs002371_image_HTA6_2372
+Alive	Adenocarcinoma	65	Low Grade		Yes	653	1819	Distant met recurrence/progression	653	diagnosis	HTA7_938	phs002371_image_HTA7_938_HTA7_938	phs002371_image_HTA7_938
+Not Reported	Malignant Melanoma NOS	24	Not Applicable		Not Reported		1111	Tumor free	1111	diagnosis	HTA7_47	phs002371_image_HTA7_47_HTA7_47	phs002371_image_HTA7_47
+Alive	Ductal Carcinoma NOS	50	G1	Unknown	No	Not Applicable	158	Tumor free	158	diagnosis	HTA6_1012	phs002371_image_HTA6_1012_HTA6_1012	phs002371_image_HTA6_1012
+Alive	Ductal Carcinoma NOS	47	G3	Unknown	No	Not Applicable	161	Tumor free	161	diagnosis	HTA6_1050	phs002371_image_HTA6_1050_HTA6_1050	phs002371_image_HTA6_1050
+Alive	Ductal Carcinoma NOS	55	Low Grade		Yes	24000	8649	unknown tumor status	3728	diagnosis	HTA6_2111	phs002371_image_HTA6_2111_HTA6_2111	phs002371_image_HTA6_2111
+Alive	Ductal Carcinoma NOS	65	G2	Unknown	No	Not Applicable	147	Tumor free	147	diagnosis	HTA6_2402	phs002371_image_HTA6_2402_HTA6_2402	phs002371_image_HTA6_2402
+Dead	Adenocarcinoma	55	Low Grade		Yes	76	918	Distant met recurrence/progression	76	diagnosis	HTA7_923	phs002371_image_HTA7_923_HTA7_923	phs002371_image_HTA7_923
+Alive	Ductal Carcinoma NOS	59	High Grade		No	Not Applicable	5520	Tumor free	5520	diagnosis	HTA6_2144	phs002371_image_HTA6_2144_HTA6_2144	phs002371_image_HTA6_2144
+Alive	Ductal Carcinoma NOS	63	Unknown		No	Not Applicable	964	Tumor free	964	diagnosis	HTA6_2388	phs002371_image_HTA6_2388_HTA6_2388	phs002371_image_HTA6_2388
+Alive	Ductal Carcinoma NOS	42	Low Grade		Yes	19222	4312	unknown tumor status	3609	diagnosis	HTA6_1107	phs002371_image_HTA6_1107_HTA6_1107	phs002371_image_HTA6_1107
+Alive	Ductal Carcinoma NOS	42	Intermediate Grade		Yes	15470	5709	unknown tumor status	38	diagnosis	HTA6_2104	phs002371_image_HTA6_2104_HTA6_2104	phs002371_image_HTA6_2104
+Dead	Ductal Carcinoma NOS	65	High Grade		Yes	26439	10017	unknown tumor status	2329	diagnosis	HTA6_2098	phs002371_image_HTA6_2098_HTA6_2098	phs002371_image_HTA6_2098
+Alive	Ductal Carcinoma NOS	55	Low Grade		Yes	24428	12253	unknown tumor status	4057	diagnosis	HTA6_1010	phs002371_image_HTA6_1010_HTA6_1010	phs002371_image_HTA6_1010
+Alive	Ductal Carcinoma NOS	49	Intermediate Grade		No	Not Applicable	3332	Tumor free	3332	diagnosis	HTA6_1151	phs002371_image_HTA6_1151_HTA6_1151	phs002371_image_HTA6_1151
+Dead	Ductal Carcinoma NOS	79	Low Grade		Yes	29926	883	Tumor free	877	diagnosis	HTA6_2084	phs002371_image_HTA6_2084_HTA6_2084	phs002371_image_HTA6_2084
+Alive	Ductal Carcinoma NOS	56	High Grade		No	Not Applicable	6547	Tumor free	6547	diagnosis	HTA6_1048	phs002371_image_HTA6_1048_HTA6_1048	phs002371_image_HTA6_1048
+Dead	Ductal Carcinoma NOS	47	Low Grade		Yes	24415	9191	Tumor free	6868	diagnosis	HTA6_2171	phs002371_image_HTA6_2171_HTA6_2171	phs002371_image_HTA6_2171
+Unknown	Ductal Carcinoma NOS	54	Low Grade		No	Not Applicable	0	Tumor free	0	diagnosis	HTA6_2192	phs002371_image_HTA6_2192_HTA6_2192	phs002371_image_HTA6_2192
+Alive	Ductal Carcinoma NOS	51	High Grade		No	Not Applicable	6761	Tumor free	6761	diagnosis	HTA6_2087	phs002371_image_HTA6_2087_HTA6_2087	phs002371_image_HTA6_2087
+Alive	Ductal Carcinoma NOS	42	High Grade		No	Not Applicable	3106	Tumor free	3106	diagnosis	HTA6_2175	phs002371_image_HTA6_2175_HTA6_2175	phs002371_image_HTA6_2175
+Alive	Ductal Carcinoma NOS	47	Low Grade		No	Not Applicable	3309	Tumor free	3309	diagnosis	HTA6_2334	phs002371_image_HTA6_2334_HTA6_2334	phs002371_image_HTA6_2334
+Alive	Pancreatobiliary-type carcinoma	58	G3		No		392	Tumor free	392	diagnosis	HTA12_14	phs002371_image_HTA12_14_HTA12_14	phs002371_image_HTA12_14
+Dead	Ductal Carcinoma NOS	61	Intermediate Grade		No	Not Applicable	9202	Tumor free	9202	diagnosis	HTA6_2081	phs002371_image_HTA6_2081_HTA6_2081	phs002371_image_HTA6_2081
+Alive	Ductal Carcinoma NOS	52	G1	Unknown	No	Not Applicable	121	Tumor free	121	diagnosis	HTA6_1077	phs002371_image_HTA6_1077_HTA6_1077	phs002371_image_HTA6_1077
+Alive	Ductal Carcinoma NOS	63	Intermediate Grade		No	Not Applicable	2670	Tumor free	2670	diagnosis	HTA6_2385	phs002371_image_HTA6_2385_HTA6_2385	phs002371_image_HTA6_2385
+Dead	Adenocarcinoma	64	Low Grade		No		1295	Tumor free	777	diagnosis	HTA7_954	phs002371_image_HTA7_954_HTA7_954	phs002371_image_HTA7_954
+Alive	Ductal Carcinoma NOS	41	Low Grade		No	Not Applicable	2672	Tumor free	2672	diagnosis	HTA6_2394	phs002371_image_HTA6_2394_HTA6_2394	phs002371_image_HTA6_2394
+Alive	Adenocarcinoma	67	Low Grade		No		1514	Tumor free	1423	diagnosis	HTA7_974	phs002371_image_HTA7_974_HTA7_974	phs002371_image_HTA7_974
+Dead	Ductal Carcinoma NOS	58	Intermediate Grade		No	Not Applicable	6456	Tumor free	6456	diagnosis	HTA6_2338	phs002371_image_HTA6_2338_HTA6_2338	phs002371_image_HTA6_2338
+Alive	Ductal Carcinoma NOS	46	Low Grade		No	Not Applicable	11050	Tumor free	11050	diagnosis	HTA6_2190	phs002371_image_HTA6_2190_HTA6_2190	phs002371_image_HTA6_2190
+Alive	Ductal Carcinoma NOS	47	Intermediate Grade		No	Not Applicable	942	Tumor free	942	diagnosis	HTA6_1044	phs002371_image_HTA6_1044_HTA6_1044	phs002371_image_HTA6_1044
+Alive	Ductal Carcinoma NOS	71	Low Grade		No	Not Applicable	9183	Tumor free	9183	diagnosis	HTA6_1076	phs002371_image_HTA6_1076_HTA6_1076	phs002371_image_HTA6_1076
+Alive	Ductal Carcinoma NOS	42	Intermediate Grade		Yes	17725	2642	unknown tumor status	2339	diagnosis	HTA6_1070	phs002371_image_HTA6_1070_HTA6_1070	phs002371_image_HTA6_1070
+Dead	Ductal Carcinoma NOS	69	Low Grade		No	Not Applicable	3749	Tumor free	3749	diagnosis	HTA6_2194	phs002371_image_HTA6_2194_HTA6_2194	phs002371_image_HTA6_2194
+Not Reported	Malignant Melanoma NOS	69	Not Applicable		Not Reported		819	Tumor free	819	diagnosis	HTA7_52	phs002371_image_HTA7_52_HTA7_52	phs002371_image_HTA7_52
+Dead	Combined small cell-large carcinoma	55	High Grade		Yes	20575	707	With tumor	707	diagnosis	HTA8_2032	phs002371_image_HTA8_2032_HTA8_2032	phs002371_image_HTA8_2032
+Alive	Ductal Carcinoma NOS	52	Low Grade		No	Not Applicable	4169	Tumor free	4169	diagnosis	HTA6_2164	phs002371_image_HTA6_2164_HTA6_2164	phs002371_image_HTA6_2164
+Dead	Ductal Carcinoma NOS	71	Intermediate Grade		Yes	25963	3375	Tumor free	44	diagnosis	HTA6_1000	phs002371_image_HTA6_1000_HTA6_1000	phs002371_image_HTA6_1000
+Alive	Ductal Carcinoma NOS	63	Low Grade		No	Not Applicable	8662	Tumor free	8662	diagnosis	HTA6_2097	phs002371_image_HTA6_2097_HTA6_2097	phs002371_image_HTA6_2097
+Alive	Ductal Carcinoma NOS	47	Low Grade		No	Not Applicable	10568	Tumor free	10568	diagnosis	HTA6_2241	phs002371_image_HTA6_2241_HTA6_2241	phs002371_image_HTA6_2241

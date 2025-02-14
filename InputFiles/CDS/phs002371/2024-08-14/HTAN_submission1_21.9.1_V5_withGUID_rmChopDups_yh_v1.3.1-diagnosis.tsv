@@ -1,0 +1,302 @@
+vital_status	primary_diagnosis	age_at_diagnosis	tumor_grade	morphology	progression_or_recurrence	days_to_last_followup	last_known_disease_status	days_to_last_known_status	type	diagnosis_id	study_diagnosis_id	participant.study_participant_id
+Alive	Ductal carcinoma in situ NOS		High Grade	Solid	No	3132.2	Tumor free	3132.2	diagnosis	HTA6_80	phs002371_HTA6_80_HTA6_80	phs002371_HTA6_80
+Not Reported	Acute lymphoblastic leukemia precursor cell type	18	Not Reported	Not Reported	Not Reported	Not Reported	Not Applicable	Not Reported	diagnosis	HTA4_25	phs002371_HTA4_25_HTA4_25	phs002371_HTA4_25
+Alive	Adenocarcinoma NOS	73	G1	8140/3	Yes	657	Loco-regional recurrence/progression	657	diagnosis	HTA8_1004	phs002371_HTA8_1004_HTA8_1004	phs002371_HTA8_1004
+Alive	Ductal carcinoma in situ NOS		High Grade	Solid, Cribiform, Comedo	Yes	1094.8	Tumor free	1094.8	diagnosis	HTA6_91	phs002371_HTA6_91_HTA6_91	phs002371_HTA6_91
+Alive	Ductal carcinoma in situ NOS		High Grade	Cribriform	Yes	5108.9	With tumor	5108.9	diagnosis	HTA6_97	phs002371_HTA6_97_HTA6_97	phs002371_HTA6_97
+Alive	Ductal carcinoma in situ NOS		High Grade	Not Provided	No	2645.7	Tumor free	2645.7	diagnosis	HTA6_130	phs002371_HTA6_130_HTA6_130	phs002371_HTA6_130
+Alive	Ductal carcinoma in situ NOS		High Grade	Comedo, Solid	Yes	5108.9	Tumor free	5108.9	diagnosis	HTA6_108	phs002371_HTA6_108_HTA6_108	phs002371_HTA6_108
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Solid, Cribrifom, Micropapillary	No	4379	Tumor free	4379	diagnosis	HTA6_46	phs002371_HTA6_46_HTA6_46	phs002371_HTA6_46
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_347	phs002371_HTA11_347_HTA11_347	phs002371_HTA11_347
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_2951	phs002371_HTA11_2951_HTA11_2951	phs002371_HTA11_2951
+Dead	Small Cell Neuroendocrine Carcinoma	67	High Grade	8041/3	Yes	312	Distant met recurrence/progression	312	diagnosis	HTA8_2002	phs002371_HTA8_2002_HTA8_2002	phs002371_HTA8_2002
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Cribriform, Micropapillary	No	3101.8	Tumor free	3101.8	diagnosis	HTA6_44	phs002371_HTA6_44_HTA6_44	phs002371_HTA6_44
+Alive	Small Cell Neuroendocrine Carcinoma	71	High Grade	8041/3	No	651	Tumor free	651	diagnosis	HTA8_2008	phs002371_HTA8_2008_HTA8_2008	phs002371_HTA8_2008
+Alive	Ductal carcinoma in situ NOS		High Grade	Comedo, Cribriform, Micropapillary	Yes	1459.7	With tumor	1459.7	diagnosis	HTA6_11	phs002371_HTA6_11_HTA6_11	phs002371_HTA6_11
+Alive	Small Cell Neuroendocrine Carcinoma	65	High Grade	8041/3	Yes	724	Distant met recurrence/progression	724	diagnosis	HTA8_2017	phs002371_HTA8_2017_HTA8_2017	phs002371_HTA8_2017
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Solid	Yes	1459.7	Tumor free	1459.7	diagnosis	HTA6_150	phs002371_HTA6_150_HTA6_150	phs002371_HTA6_150
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Solid, Cribriform	Yes	4379	Tumor free	4379	diagnosis	HTA6_100	phs002371_HTA6_100_HTA6_100	phs002371_HTA6_100
+Alive	Adenocarcinoma NOS	58	G2	8140/3	Yes	2000	Tumor free	2000	diagnosis	HTA8_1012	phs002371_HTA8_1012_HTA8_1012	phs002371_HTA8_1012
+	Not specified in data								diagnosis	HTA3_8002	phs002371_HTA3_8002_HTA3_8002	phs002371_HTA3_8002
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_3331	phs002371_HTA11_3331_HTA11_3331	phs002371_HTA11_3331
+Alive	Ductal carcinoma in situ NOS		Low Grade	Not Provided	No	2919.4	Tumor free	2919.4	diagnosis	HTA6_118	phs002371_HTA6_118_HTA6_118	phs002371_HTA6_118
+Alive	Small Cell Neuroendocrine Carcinoma	72	High Grade	8041/3	Yes	1333	Loco-regional recurrence/progression	1333	diagnosis	HTA8_2016	phs002371_HTA8_2016_HTA8_2016	phs002371_HTA8_2016
+Alive	Ductal carcinoma in situ NOS		High Grade	Comedo, Cribriform	No	2493.6	Tumor free	2493.6	diagnosis	HTA6_17	phs002371_HTA6_17_HTA6_17	phs002371_HTA6_17
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Comedo, Micropapillary	No	2736.9	Tumor free	2736.9	diagnosis	HTA6_33	phs002371_HTA6_33_HTA6_33	phs002371_HTA6_33
+	Not specified in data								diagnosis	HTA3_8001	phs002371_HTA3_8001_HTA3_8001	phs002371_HTA3_8001
+Dead	Small Cell Neuroendocrine Carcinoma	62	High Grade	8041/3	Yes	224	Distant met recurrence/progression	224	diagnosis	HTA8_2018	phs002371_HTA8_2018_HTA8_2018	phs002371_HTA8_2018
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Solid, Cribriform	Yes	2919.4	With tumor	2919.4	diagnosis	HTA6_62	phs002371_HTA6_62_HTA6_62	phs002371_HTA6_62
+Alive	Ductal carcinoma in situ NOS		High Grade	Solid	Yes	3284.3	Tumor free	3284.3	diagnosis	HTA6_95	phs002371_HTA6_95_HTA6_95	phs002371_HTA6_95
+Alive	Ductal carcinoma in situ NOS		High Grade	Comedo, Cribriform, Solid	No	2676	Tumor free	2676	diagnosis	HTA6_27	phs002371_HTA6_27_HTA6_27	phs002371_HTA6_27
+Alive	Not Reported		Not Reported	Not Applicable	No	Not Reported	Not Applicable	Not Reported	diagnosis	HTA4_27	phs002371_HTA4_27_HTA4_27	phs002371_HTA4_27
+Dead	Ductal carcinoma in situ NOS		High Grade	Not Provided	Yes	1094.8	With tumor	1094.8	diagnosis	HTA6_1	phs002371_HTA6_1_HTA6_1	phs002371_HTA6_1
+Alive	Adenocarcinoma NOS	78	G2	8140/3	No	791	Tumor free	791	diagnosis	HTA8_1025	phs002371_HTA8_1025_HTA8_1025	phs002371_HTA8_1025
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Micropapillary	No	3618.8	Tumor free	3618.8	diagnosis	HTA6_76	phs002371_HTA6_76_HTA6_76	phs002371_HTA6_76
+Not Reported	Acute lymphoblastic leukemia NOS	18	Not Reported	Not Reported	Not Reported	Not Reported	Not Applicable	Not Reported	diagnosis	HTA4_22	phs002371_HTA4_22_HTA4_22	phs002371_HTA4_22
+Alive	Pancreatobiliary-Type Carcinoma	59	G2		No	188	Tumor free	188	diagnosis	HTA12_19	phs002371_HTA12_19_HTA12_19	phs002371_HTA12_19
+Dead	Ductal carcinoma in situ NOS		High Grade	Cribriform, Solid	No	6933.5	Tumor free	6933.5	diagnosis	HTA6_7	phs002371_HTA6_7_HTA6_7	phs002371_HTA6_7
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Solid, Cribriform	Yes	5473.8	Tumor free	5473.8	diagnosis	HTA6_28	phs002371_HTA6_28_HTA6_28	phs002371_HTA6_28
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Solid, Cribriform	No	2615.3	Tumor free	2615.3	diagnosis	HTA6_18	phs002371_HTA6_18_HTA6_18	phs002371_HTA6_18
+Alive	Ductal carcinoma in situ NOS		High Grade	Micropapillary	No	2980.2	Tumor free	2980.2	diagnosis	HTA6_70	phs002371_HTA6_70_HTA6_70	phs002371_HTA6_70
+Not Reported	Acute lymphoblastic leukemia precursor cell type	18	Not Reported	Not Reported	Not Reported	Not Reported	Not Applicable	Not Reported	diagnosis	HTA4_4	phs002371_HTA4_4_HTA4_4	phs002371_HTA4_4
+Alive	Familial adenomatous polyposis	18	Not Applicable	Not Reported	Unknown	Unknown	Not Reported	Unknown	diagnosis	HTA10_05	phs002371_HTA10_05_HTA10_05	phs002371_HTA10_05
+	Not specified in data								diagnosis	HTA3_8005	phs002371_HTA3_8005_HTA3_8005	phs002371_HTA3_8005
+Alive	Small Cell Neuroendocrine Carcinoma	51	High Grade	8041/3	Yes	512	Distant met recurrence/progression	512	diagnosis	HTA8_2004	phs002371_HTA8_2004_HTA8_2004	phs002371_HTA8_2004
+Alive	Ductal carcinoma in situ NOS		High Grade	Comedo	No	4044.5	Tumor free	4044.5	diagnosis	HTA6_25	phs002371_HTA6_25_HTA6_25	phs002371_HTA6_25
+Dead	Pancreatobiliary-Type Carcinoma	47	G3		No	545	Distant met recurrence/progression	545	diagnosis	HTA12_1	phs002371_HTA12_1_HTA12_1	phs002371_HTA12_1
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Not Provided	No	2463.2	Tumor free	2463.2	diagnosis	HTA6_120	phs002371_HTA6_120_HTA6_120	phs002371_HTA6_120
+Alive	Pancreatobiliary-Type Carcinoma	53	G1		No	279	Tumor free	279	diagnosis	HTA12_21	phs002371_HTA12_21_HTA12_21	phs002371_HTA12_21
+Alive	Ductal carcinoma in situ NOS		High Grade	Comedo, Solid, Cribriform	No	4105.4	Tumor free	4105.4	diagnosis	HTA6_9	phs002371_HTA6_9_HTA6_9	phs002371_HTA6_9
+Alive	Ductal carcinoma in situ NOS		Low Grade	Micropapillary	No	2919.36	Tumor free	2919.36	diagnosis	HTA6_31	phs002371_HTA6_31_HTA6_31	phs002371_HTA6_31
+Alive	Ductal carcinoma in situ NOS		High Grade	Not Provided	No	2762.3	Tumor free	2762.3	diagnosis	HTA6_107	phs002371_HTA6_107_HTA6_107	phs002371_HTA6_107
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Comedo, Solid, Cribriform, Micropapillary	No	2189.5	Tumor free	2189.5	diagnosis	HTA6_72	phs002371_HTA6_72_HTA6_72	phs002371_HTA6_72
+Dead	Small Cell Neuroendocrine Carcinoma	73	High Grade	8041/3	Yes	207	Distant met recurrence/progression	207	diagnosis	HTA8_2012	phs002371_HTA8_2012_HTA8_2012	phs002371_HTA8_2012
+Dead	Adenocarcinoma Combined With Other Types Of Carcinoma	68	G2	8013/3	Yes	1156	Distant met recurrence/progression	1156	diagnosis	HTA8_1024	phs002371_HTA8_1024_HTA8_1024	phs002371_HTA8_1024
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Solid, Cribriform	No	1824.6	Tumor free	1824.6	diagnosis	HTA6_19	phs002371_HTA6_19_HTA6_19	phs002371_HTA6_19
+Unknown	Ductal carcinoma in situ NOS		High Grade	Comedo, Solid	No	2037.5	Tumor free	2037.5	diagnosis	HTA6_38	phs002371_HTA6_38_HTA6_38	phs002371_HTA6_38
+Alive	Ductal carcinoma in situ NOS		High Grade	Comedo, Solid	Yes	3284.3	With tumor	3284.3	diagnosis	HTA6_21	phs002371_HTA6_21_HTA6_21	phs002371_HTA6_21
+Dead	Small Cell Neuroendocrine Carcinoma	64	High Grade	8041/3	Yes	1164	Loco-regional recurrence/progression	1164	diagnosis	HTA8_2011	phs002371_HTA8_2011_HTA8_2011	phs002371_HTA8_2011
+Alive	Adenocarcinoma NOS	70	G2	8140/3	Unknown	299	unknown tumor status	299	diagnosis	HTA8_1016	phs002371_HTA8_1016_HTA8_1016	phs002371_HTA8_1016
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Not Provided	Yes	2189.5	Tumor free	2189.5	diagnosis	HTA6_169	phs002371_HTA6_169_HTA6_169	phs002371_HTA6_169
+Not Reported	Acute myeloid leukemia MLL	18	Not Reported	Not Reported	Not Reported	Not Reported	Not Applicable	Not Reported	diagnosis	HTA4_24	phs002371_HTA4_24_HTA4_24	phs002371_HTA4_24
+Dead	Small Cell Neuroendocrine Carcinoma	52	High Grade	8041/3	Yes	189	Distant met recurrence/progression	189	diagnosis	HTA8_2015	phs002371_HTA8_2015_HTA8_2015	phs002371_HTA8_2015
+Alive	Ductal carcinoma in situ NOS		High Grade	Solid	No	4105.4	Tumor free	4105.4	diagnosis	HTA6_85	phs002371_HTA6_85_HTA6_85	phs002371_HTA6_85
+Alive	Ductal carcinoma in situ NOS		High Grade	Comedo, Cribriform, Micropapillary	No	3770.8	Tumor free	3770.8	diagnosis	HTA6_83	phs002371_HTA6_83_HTA6_83	phs002371_HTA6_83
+Alive	Pancreatobiliary-Type Carcinoma	66	G3		No	571	unknown tumor status	571	diagnosis	HTA12_4	phs002371_HTA12_4_HTA12_4	phs002371_HTA12_4
+Alive	Adenocarcinoma NOS	76	Not Reported	8140/3	Yes	382	Distant met recurrence/progression	382	diagnosis	HTA8_1011	phs002371_HTA8_1011_HTA8_1011	phs002371_HTA8_1011
+Alive	Ductal carcinoma in situ NOS		High Grade	Not Provided	No	4379	Tumor free	4379	diagnosis	HTA6_119	phs002371_HTA6_119_HTA6_119	phs002371_HTA6_119
+Not Reported	Acute lymphoblastic leukemia precursor cell type	18	Not Reported	Not Reported	Yes	Not Reported	Not Applicable	Not Reported	diagnosis	HTA4_20	phs002371_HTA4_20_HTA4_20	phs002371_HTA4_20
+Alive	Not Reported		Not Reported	Not Applicable	No	Not Reported	Not Applicable	Not Reported	diagnosis	HTA4_30	phs002371_HTA4_30_HTA4_30	phs002371_HTA4_30
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Not Provided	Yes	1459.7	Tumor free	1459.7	diagnosis	HTA6_164	phs002371_HTA6_164_HTA6_164	phs002371_HTA6_164
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Cribriform, Papillary	No	3010.6	Tumor free	3010.6	diagnosis	HTA6_77	phs002371_HTA6_77_HTA6_77	phs002371_HTA6_77
+Alive	Ductal carcinoma in situ NOS		High Grade	Comedo, Solid, Cribriform	No	4014.1	Tumor free	4014.1	diagnosis	HTA6_74	phs002371_HTA6_74_HTA6_74	phs002371_HTA6_74
+Alive	Pancreatobiliary-Type Carcinoma	67	G4		No	448	Distant met recurrence/progression	448	diagnosis	HTA12_7	phs002371_HTA12_7_HTA12_7	phs002371_HTA12_7
+Alive	Pancreatobiliary-Type Carcinoma	62	G2		No	190	Tumor free	190	diagnosis	HTA12_20	phs002371_HTA12_20_HTA12_20	phs002371_HTA12_20
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Solid, Cribriform	No	2493.6	Tumor free	2493.6	diagnosis	HTA6_39	phs002371_HTA6_39_HTA6_39	phs002371_HTA6_39
+Alive	Ductal carcinoma in situ NOS		High Grade	Not Provided	Yes	3284.3	With tumor	3284.3	diagnosis	HTA6_99	phs002371_HTA6_99_HTA6_99	phs002371_HTA6_99
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_546	phs002371_HTA11_546_HTA11_546	phs002371_HTA11_546
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Cribriform	Yes	1824.6	Tumor free	1824.6	diagnosis	HTA6_102	phs002371_HTA6_102_HTA6_102	phs002371_HTA6_102
+Alive	Ductal carcinoma in situ NOS		High Grade	Cribiform, Comedo, Micropapillary	Yes	4743.9	Tumor free	4743.9	diagnosis	HTA6_36	phs002371_HTA6_36_HTA6_36	phs002371_HTA6_36
+Alive	Ductal carcinoma in situ NOS		Low Grade	Cribriform, Micropapillary	Yes	6933.5	With tumor	6933.5	diagnosis	HTA6_63	phs002371_HTA6_63_HTA6_63	phs002371_HTA6_63
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_3252	phs002371_HTA11_3252_HTA11_3252	phs002371_HTA11_3252
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Solid, Micropapillary, Cribriform	No	3770.8	Tumor free	3770.8	diagnosis	HTA6_84	phs002371_HTA6_84_HTA6_84	phs002371_HTA6_84
+Alive	Ductal carcinoma in situ NOS		Low Grade	Cribriform, Micropapillary	Yes	1824.6	Tumor free	1824.6	diagnosis	HTA6_138	phs002371_HTA6_138_HTA6_138	phs002371_HTA6_138
+Alive	Pancreatobiliary-Type Carcinoma	63	G2		No	556	Distant met recurrence/progression	556	diagnosis	HTA12_12	phs002371_HTA12_12_HTA12_12	phs002371_HTA12_12
+Alive	Ductal carcinoma in situ NOS		High Grade	Comedo, Solid, Cribriform	No	1885.4	Tumor free	1885.4	diagnosis	HTA6_42	phs002371_HTA6_42_HTA6_42	phs002371_HTA6_42
+Alive	Ductal carcinoma in situ NOS		High Grade	Not Provided	Yes	4379	Tumor free	4379	diagnosis	HTA6_124	phs002371_HTA6_124_HTA6_124	phs002371_HTA6_124
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Cribriform	No	2584.9	Tumor free	2584.9	diagnosis	HTA6_61	phs002371_HTA6_61_HTA6_61	phs002371_HTA6_61
+Alive	Ductal carcinoma in situ NOS		High Grade	Comedo, Solid	Yes	729.8	Tumor free	729.8	diagnosis	HTA6_60	phs002371_HTA6_60_HTA6_60	phs002371_HTA6_60
+	Not specified in data								diagnosis	HTA3_8006	phs002371_HTA3_8006_HTA3_8006	phs002371_HTA3_8006
+Alive	Ductal carcinoma in situ NOS		High Grade	Not Provided	Yes	1459.7	Tumor free	1459.7	diagnosis	HTA6_160	phs002371_HTA6_160_HTA6_160	phs002371_HTA6_160
+Alive	Pancreatobiliary-Type Carcinoma	72	G1		No	467	Tumor free	467	diagnosis	HTA12_16	phs002371_HTA12_16_HTA12_16	phs002371_HTA12_16
+Alive	Ductal carcinoma in situ NOS		High Grade	Solid, Cribriform	No	3892.5	Tumor free	3892.5	diagnosis	HTA6_78	phs002371_HTA6_78_HTA6_78	phs002371_HTA6_78
+Alive	Familial adenomatous polyposis	18	Not Applicable	Not Reported	Unknown	Unknown	Not Reported	Unknown	diagnosis	HTA10_03	phs002371_HTA10_03_HTA10_03	phs002371_HTA10_03
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Not Provided	Yes	3649.2	With tumor	3649.2	diagnosis	HTA6_143	phs002371_HTA6_143_HTA6_143	phs002371_HTA6_143
+Alive	Familial adenomatous polyposis	18	Not Applicable	Not Reported	Unknown	Unknown	Not Reported	Unknown	diagnosis	HTA10_04	phs002371_HTA10_04_HTA10_04	phs002371_HTA10_04
+Alive	Ductal carcinoma in situ NOS		High Grade	Solid, Comedo	No	2676.1	Tumor free	2676.1	diagnosis	HTA6_43	phs002371_HTA6_43_HTA6_43	phs002371_HTA6_43
+Alive	Adenocarcinoma NOS	60	G3	8140/3	Yes	1144	Distant met recurrence/progression	1144	diagnosis	HTA8_1008	phs002371_HTA8_1008_HTA8_1008	phs002371_HTA8_1008
+Not Reported	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_99999965062	phs002371_HTA11_99999965062_HTA11_99999965062	phs002371_HTA11_99999965062
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_3410	phs002371_HTA11_3410_HTA11_3410	phs002371_HTA11_3410
+Alive	Ductal carcinoma in situ NOS		High Grade	Comedo, Solid, Cribriform	No	2767.3	Tumor free	2767.3	diagnosis	HTA6_51	phs002371_HTA6_51_HTA6_51	phs002371_HTA6_51
+Dead	Ductal carcinoma in situ NOS		Low Grade	Cribriform	Yes	5838.7	Tumor free	5838.7	diagnosis	HTA6_54	phs002371_HTA6_54_HTA6_54	phs002371_HTA6_54
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Solid, Cribriform	Yes	4014.1	Tumor free	4014.1	diagnosis	HTA6_92	phs002371_HTA6_92_HTA6_92	phs002371_HTA6_92
+Dead	Ductal carcinoma in situ NOS		Low Grade	Not Provided	Yes	2554.4	With tumor	2554.4	diagnosis	HTA6_121	phs002371_HTA6_121_HTA6_121	phs002371_HTA6_121
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_2235	phs002371_HTA11_2235_HTA11_2235	phs002371_HTA11_2235
+Alive	Ductal carcinoma in situ NOS		High Grade	Comedo, Solid	Yes	4743.9	Tumor free	4743.9	diagnosis	HTA6_125	phs002371_HTA6_125_HTA6_125	phs002371_HTA6_125
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Not Provided	Yes	1094.8	Tumor free	1094.8	diagnosis	HTA6_166	phs002371_HTA6_166_HTA6_166	phs002371_HTA6_166
+Alive	Ductal carcinoma in situ NOS		High Grade	Papillary	No	1946.2	Tumor free	1946.2	diagnosis	HTA6_50	phs002371_HTA6_50_HTA6_50	phs002371_HTA6_50
+Alive	Ductal carcinoma in situ NOS		High Grade	Not Provided	Yes	4014	Tumor free	4014	diagnosis	HTA6_116	phs002371_HTA6_116_HTA6_116	phs002371_HTA6_116
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Comedo	Yes	5473.8	Tumor free	5473.8	diagnosis	HTA6_98	phs002371_HTA6_98_HTA6_98	phs002371_HTA6_98
+Alive	Ductal carcinoma in situ NOS		High Grade	Not Provided	Yes	4014.1	Tumor free	4014.1	diagnosis	HTA6_127	phs002371_HTA6_127_HTA6_127	phs002371_HTA6_127
+Alive	Ductal carcinoma in situ NOS		High Grade	Not Provided	Yes	4014.1	Tumor free	4014.1	diagnosis	HTA6_123	phs002371_HTA6_123_HTA6_123	phs002371_HTA6_123
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_6147	phs002371_HTA11_6147_HTA11_6147	phs002371_HTA11_6147
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Comedo, Solid, Cribriform	Yes	2919.4	Tumor free	2919.4	diagnosis	HTA6_137	phs002371_HTA6_137_HTA6_137	phs002371_HTA6_137
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Cribriform	No	2128.7	Tumor free	2128.7	diagnosis	HTA6_56	phs002371_HTA6_56_HTA6_56	phs002371_HTA6_56
+Alive	Ductal carcinoma in situ NOS		High Grade	Solid, Cribriform	No	4561.5	Tumor free	4561.5	diagnosis	HTA6_32	phs002371_HTA6_32_HTA6_32	phs002371_HTA6_32
+Alive	Adenocarcinoma NOS	77	Not Applicable	8140/3	No	1318	Not Applicable	1318	diagnosis	HTA8_3004	phs002371_HTA8_3004_HTA8_3004	phs002371_HTA8_3004
+Alive	Not Reported		Not Reported	Not Applicable	No	Not Reported	Not Applicable	Not Reported	diagnosis	HTA4_28	phs002371_HTA4_28_HTA4_28	phs002371_HTA4_28
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Not Provided	Yes	1824.6	Tumor free	1824.6	diagnosis	HTA6_104	phs002371_HTA6_104_HTA6_104	phs002371_HTA6_104
+Alive	Ductal carcinoma in situ NOS		High Grade	Not Provided	No	3193.1	Tumor free	3193.1	diagnosis	HTA6_132	phs002371_HTA6_132_HTA6_132	phs002371_HTA6_132
+Alive	Ductal carcinoma in situ NOS		High Grade	Not Provided	Yes	4379	Tumor free	4379	diagnosis	HTA6_122	phs002371_HTA6_122_HTA6_122	phs002371_HTA6_122
+Alive	Adenocarcinoma NOS	61	G2	8140/3	No	1357	Tumor free	1357	diagnosis	HTA8_1017	phs002371_HTA8_1017_HTA8_1017	phs002371_HTA8_1017
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Comedo, Solid	No	3557.9	Tumor free	3557.9	diagnosis	HTA6_26	phs002371_HTA6_26_HTA6_26	phs002371_HTA6_26
+Alive	Pancreatobiliary-Type Carcinoma	53	G2		No	360	Distant met recurrence/progression	360	diagnosis	HTA12_18	phs002371_HTA12_18_HTA12_18	phs002371_HTA12_18
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Not Provided	Yes	1094.8	Tumor free	1094.8	diagnosis	HTA6_151	phs002371_HTA6_151_HTA6_151	phs002371_HTA6_151
+Not Reported	Acute lymphoblastic leukemia precursor cell type	18	Not Reported	Not Reported	Not Reported	Not Reported	Not Applicable	Not Reported	diagnosis	HTA4_19	phs002371_HTA4_19_HTA4_19	phs002371_HTA4_19
+Dead	Adenocarcinoma NOS	77	G2	8140/3	Yes	1776	Distant met recurrence/progression	1776	diagnosis	HTA8_1022	phs002371_HTA8_1022_HTA8_1022	phs002371_HTA8_1022
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_6310	phs002371_HTA11_6310_HTA11_6310	phs002371_HTA11_6310
+Alive	Ductal carcinoma in situ NOS		High Grade	Comedo, Cribriform	No	3862.1	Tumor free	3862.1	diagnosis	HTA6_69	phs002371_HTA6_69_HTA6_69	phs002371_HTA6_69
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Papillary	Yes	7298.4	Tumor free	7298.4	diagnosis	HTA6_55	phs002371_HTA6_55_HTA6_55	phs002371_HTA6_55
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Not Provided	Yes	5473.8	Tumor free	5473.8	diagnosis	HTA6_144	phs002371_HTA6_144_HTA6_144	phs002371_HTA6_144
+Alive	Ductal carcinoma in situ NOS		High Grade	Micropapillary	Yes	3694.2	Tumor free	3694.2	diagnosis	HTA6_155	phs002371_HTA6_155_HTA6_155	phs002371_HTA6_155
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Solid, Cribriform	No	4318.2	Tumor free	4318.2	diagnosis	HTA6_73	phs002371_HTA6_73_HTA6_73	phs002371_HTA6_73
+Alive	Small Cell Neuroendocrine Carcinoma	58	High Grade	8041/3	Yes	1793	Distant met recurrence/progression	1793	diagnosis	HTA8_2007	phs002371_HTA8_2007_HTA8_2007	phs002371_HTA8_2007
+Dead	Adenocarcinoma NOS	65	Not Reported	8140/3	Yes	2159	Distant met recurrence/progression	2159	diagnosis	HTA8_1018	phs002371_HTA8_1018_HTA8_1018	phs002371_HTA8_1018
+Alive	Pancreatobiliary-Type Carcinoma	58	G3		No	356	Tumor free	356	diagnosis	HTA12_10	phs002371_HTA12_10_HTA12_10	phs002371_HTA12_10
+Dead	Small Cell Neuroendocrine Carcinoma	77	High Grade	8041/3	Yes	790	Distant met recurrence/progression	790	diagnosis	HTA8_2019	phs002371_HTA8_2019_HTA8_2019	phs002371_HTA8_2019
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_6025	phs002371_HTA11_6025_HTA11_6025	phs002371_HTA11_6025
+Alive	Ductal carcinoma in situ NOS		High Grade	Solid, Cribriform	Yes	5108.9	Tumor free	5108.9	diagnosis	HTA6_167	phs002371_HTA6_167_HTA6_167	phs002371_HTA6_167
+Alive	Familial adenomatous polyposis	18	Not Applicable	Not Reported	Unknown	Unknown	Not Reported	Unknown	diagnosis	HTA10_02	phs002371_HTA10_02_HTA10_02	phs002371_HTA10_02
+Alive	Infiltrating Duct Carcinoma NOS		G3	8500/3	Yes	4314	Distant met recurrence/progression	4314	diagnosis	HTA9_1	phs002371_HTA9_1_HTA9_1	phs002371_HTA9_1
+Alive	Ductal carcinoma in situ NOS		High Grade	Not Provided	No	2554.4	Tumor free	2554.4	diagnosis	HTA6_131	phs002371_HTA6_131_HTA6_131	phs002371_HTA6_131
+Alive	Ductal carcinoma in situ NOS		High Grade	Solid, Cribriform, Apocrine	Yes	1824.6	With tumor	1824.6	diagnosis	HTA6_5	phs002371_HTA6_5_HTA6_5	phs002371_HTA6_5
+Alive	Ductal carcinoma in situ NOS		High Grade	Cribriform	Yes	2919.4	Tumor free	2919.4	diagnosis	HTA6_149	phs002371_HTA6_149_HTA6_149	phs002371_HTA6_149
+Alive	Ductal carcinoma in situ NOS		High Grade	Comedo, Solid, Cribriform, Micropapillary	Yes	2919.4	Tumor free	2919.4	diagnosis	HTA6_48	phs002371_HTA6_48_HTA6_48	phs002371_HTA6_48
+Alive	Small Cell Neuroendocrine Carcinoma	39	High Grade	8041/3	Yes	2563	Distant met recurrence/progression	2563	diagnosis	HTA8_2005	phs002371_HTA8_2005_HTA8_2005	phs002371_HTA8_2005
+Alive	Adenocarcinoma NOS	75	G1	8140/3	No	1301	Tumor free	1301	diagnosis	HTA8_1014	phs002371_HTA8_1014_HTA8_1014	phs002371_HTA8_1014
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_377	phs002371_HTA11_377_HTA11_377	phs002371_HTA11_377
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_6134	phs002371_HTA11_6134_HTA11_6134	phs002371_HTA11_6134
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Solid, Cribriform	Yes	1459.7	Tumor free	1459.7	diagnosis	HTA6_89	phs002371_HTA6_89_HTA6_89	phs002371_HTA6_89
+Dead	Pancreatobiliary-Type Carcinoma	66	G3		No	514	Tumor free	514	diagnosis	HTA12_5	phs002371_HTA12_5_HTA12_5	phs002371_HTA12_5
+Alive	Ductal carcinoma in situ NOS		Low Grade	Not Provided	Yes	1094.8	Tumor free	1094.8	diagnosis	HTA6_163	phs002371_HTA6_163_HTA6_163	phs002371_HTA6_163
+Alive	Ductal carcinoma in situ NOS		High Grade	Comedo, Solid	No	2189.5	Tumor free	2189.5	diagnosis	HTA6_30	phs002371_HTA6_30_HTA6_30	phs002371_HTA6_30
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_1938	phs002371_HTA11_1938_HTA11_1938	phs002371_HTA11_1938
+Alive	Pancreatobiliary-Type Carcinoma	62	G1		No	504	Distant met recurrence/progression	504	diagnosis	HTA12_15	phs002371_HTA12_15_HTA12_15	phs002371_HTA12_15
+Dead	Small Cell Neuroendocrine Carcinoma	59	High Grade	8041/3	Yes	93	With tumor	93	diagnosis	HTA8_2010	phs002371_HTA8_2010_HTA8_2010	phs002371_HTA8_2010
+Alive	Pancreatobiliary-Type Carcinoma	58	G3		No	392	Tumor free	392	diagnosis	HTA12_14	phs002371_HTA12_14_HTA12_14	phs002371_HTA12_14
+Alive	Ductal carcinoma in situ NOS		High Grade	Comedo, Cribriform, Micropapillary	Yes	2919.4	Tumor free	2919.4	diagnosis	HTA6_88	phs002371_HTA6_88_HTA6_88	phs002371_HTA6_88
+Alive	Pancreatobiliary-Type Carcinoma	52	G3		No	162	Distant met recurrence/progression	162	diagnosis	HTA12_8	phs002371_HTA12_8_HTA12_8	phs002371_HTA12_8
+Alive	Ductal carcinoma in situ NOS		High Grade	Comedo, Solid, Cribriform	No	2858.5	Tumor free	2858.5	diagnosis	HTA6_10	phs002371_HTA6_10_HTA6_10	phs002371_HTA6_10
+Alive	Ductal carcinoma in situ NOS		High Grade	Comedo, Solid	No	3345.1	Tumor free	3345.1	diagnosis	HTA6_45	phs002371_HTA6_45_HTA6_45	phs002371_HTA6_45
+Dead	Adenocarcinoma NOS	52	Not Reported	8140/3	Yes	1977	Distant met recurrence/progression	1977	diagnosis	HTA8_1026	phs002371_HTA8_1026_HTA8_1026	phs002371_HTA8_1026
+Dead	Small Cell Neuroendocrine Carcinoma	64	High Grade	8041/3	Yes	246	Distant met recurrence/progression	246	diagnosis	HTA8_2006	phs002371_HTA8_2006_HTA8_2006	phs002371_HTA8_2006
+Alive	Familial adenomatous polyposis	18	Not Applicable	Not Reported	Unknown	Unknown	Not Reported	Unknown	diagnosis	HTA10_01	phs002371_HTA10_01_HTA10_01	phs002371_HTA10_01
+Alive	Ductal carcinoma in situ NOS		High Grade	Cribriform	Yes	2189.5	Tumor free	2189.5	diagnosis	HTA6_165	phs002371_HTA6_165_HTA6_165	phs002371_HTA6_165
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Cribriform	No	2584.9	Tumor free	2584.9	diagnosis	HTA6_81	phs002371_HTA6_81_HTA6_81	phs002371_HTA6_81
+Dead	Adenocarcinoma NOS	59	Not Reported	8140/3	Yes	1817	Distant met recurrence/progression	1817	diagnosis	HTA8_1027	phs002371_HTA8_1027_HTA8_1027	phs002371_HTA8_1027
+Alive	Ductal carcinoma in situ NOS		High Grade	Comedo, Solid, Cribriform	Yes	2554.4	Tumor free	2554.4	diagnosis	HTA6_14	phs002371_HTA6_14_HTA6_14	phs002371_HTA6_14
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Papillary, Cribriform	Yes	4379	Tumor free	4379	diagnosis	HTA6_68	phs002371_HTA6_68_HTA6_68	phs002371_HTA6_68
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Cribriform	No	3162.6	Tumor free	3162.6	diagnosis	HTA6_86	phs002371_HTA6_86_HTA6_86	phs002371_HTA6_86
+Alive	Adenocarcinoma NOS	65	G2	8140/3	No	687	Tumor free	687	diagnosis	HTA8_1006	phs002371_HTA8_1006_HTA8_1006	phs002371_HTA8_1006
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_3361	phs002371_HTA11_3361_HTA11_3361	phs002371_HTA11_3361
+Alive	Ductal carcinoma in situ NOS		High Grade	Not Provided	Yes	2554.4	With tumor	2554.4	diagnosis	HTA6_4	phs002371_HTA6_4_HTA6_4	phs002371_HTA6_4
+Alive	Ductal carcinoma in situ NOS		High Grade	Solid, Micropapillary	No	3710	Tumor free	3710	diagnosis	HTA6_82	phs002371_HTA6_82_HTA6_82	phs002371_HTA6_82
+Alive	Small Cell Neuroendocrine Carcinoma	71	High Grade	8041/3	Unknown	390	unknown tumor status	390	diagnosis	HTA8_2014	phs002371_HTA8_2014_HTA8_2014	phs002371_HTA8_2014
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Cribriform	Yes	3649.2	Tumor free	3649.2	diagnosis	HTA6_37	phs002371_HTA6_37_HTA6_37	phs002371_HTA6_37
+Alive	Ductal carcinoma in situ NOS		High Grade	Not Provided	Yes	2554.4	Tumor free	2554.4	diagnosis	HTA6_3	phs002371_HTA6_3_HTA6_3	phs002371_HTA6_3
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_1391	phs002371_HTA11_1391_HTA11_1391	phs002371_HTA11_1391
+Not Reported	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_99999970781	phs002371_HTA11_99999970781_HTA11_99999970781	phs002371_HTA11_99999970781
+Alive	Adenocarcinoma NOS	70	Not Applicable	8140/3	No	299	Not Applicable	299	diagnosis	HTA8_3001	phs002371_HTA8_3001_HTA8_3001	phs002371_HTA8_3001
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Comedo, Cribriform, Micropapillary	No	2189.52	Tumor free	2189.52	diagnosis	HTA6_40	phs002371_HTA6_40_HTA6_40	phs002371_HTA6_40
+Alive	Pancreatobiliary-Type Carcinoma	60	G3		No	658	Tumor free	658	diagnosis	HTA12_2	phs002371_HTA12_2_HTA12_2	phs002371_HTA12_2
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Not Provided	No	3740.4	Tumor free	3740.4	diagnosis	HTA6_101	phs002371_HTA6_101_HTA6_101	phs002371_HTA6_101
+Alive	Ductal carcinoma in situ NOS		Low Grade	Solid, Cribriform	Yes	729.8	Tumor free	729.8	diagnosis	HTA6_113	phs002371_HTA6_113_HTA6_113	phs002371_HTA6_113
+Alive	Ductal carcinoma in situ NOS		High Grade	Comedo	Yes	2919.4	Tumor free	2919.4	diagnosis	HTA6_139	phs002371_HTA6_139_HTA6_139	phs002371_HTA6_139
+Alive	Ductal carcinoma in situ NOS		High Grade	Comedo, Solid	No	6234.1	Tumor free	6234.1	diagnosis	HTA6_15	phs002371_HTA6_15_HTA6_15	phs002371_HTA6_15
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Cribriform	Yes	5473.8	Tumor free	5473.8	diagnosis	HTA6_58	phs002371_HTA6_58_HTA6_58	phs002371_HTA6_58
+Alive	Adenocarcinoma NOS	75	Not Applicable	8140/3	No	1135	Not Applicable	1135	diagnosis	HTA8_3002	phs002371_HTA8_3002_HTA8_3002	phs002371_HTA8_3002
+Dead	Ductal carcinoma in situ NOS		High Grade	Cribiform, Micropapillary	Yes	4014.1	With tumor	4014.1	diagnosis	HTA6_20	phs002371_HTA6_20_HTA6_20	phs002371_HTA6_20
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_2487	phs002371_HTA11_2487_HTA11_2487	phs002371_HTA11_2487
+Alive	Adenocarcinoma NOS	66	G1	8140/3	No	979	Tumor free	979	diagnosis	HTA8_1020	phs002371_HTA8_1020_HTA8_1020	phs002371_HTA8_1020
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_2992	phs002371_HTA11_2992_HTA11_2992	phs002371_HTA11_2992
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_392	phs002371_HTA11_392_HTA11_392	phs002371_HTA11_392
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_83	phs002371_HTA11_83_HTA11_83	phs002371_HTA11_83
+	Not specified in data								diagnosis	HTA3_8004	phs002371_HTA3_8004_HTA3_8004	phs002371_HTA3_8004
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_411	phs002371_HTA11_411_HTA11_411	phs002371_HTA11_411
+Alive	Ductal carcinoma in situ NOS		High Grade	Comedo, Solid, Cribriform, Micropapillary	No	4379.04	Tumor free	4379.04	diagnosis	HTA6_57	phs002371_HTA6_57_HTA6_57	phs002371_HTA6_57
+Dead	Ductal carcinoma in situ NOS		High Grade	Not Provided	Yes	2189.5	With tumor	2189.5	diagnosis	HTA6_152	phs002371_HTA6_152_HTA6_152	phs002371_HTA6_152
+Alive	Familial adenomatous polyposis	18	Not Applicable	Not Reported	Unknown	Unknown	Not Reported	Unknown	diagnosis	HTA10_06	phs002371_HTA10_06_HTA10_06	phs002371_HTA10_06
+Not Reported	Acute myeloid leukemia MLL	18	Not Reported	Not Reported	Not Reported	Not Reported	Not Applicable	Not Reported	diagnosis	HTA4_23	phs002371_HTA4_23_HTA4_23	phs002371_HTA4_23
+Alive	Adenocarcinoma NOS	52	G2	8140/3	No	1165	Tumor free	1165	diagnosis	HTA8_1013	phs002371_HTA8_1013_HTA8_1013	phs002371_HTA8_1013
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Not Provided	No	2493.6	Tumor free	2493.6	diagnosis	HTA6_103	phs002371_HTA6_103_HTA6_103	phs002371_HTA6_103
+Alive	Ductal carcinoma in situ NOS		High Grade	Comedo, Solid, Micropapillary	No	2037.5	Tumor free	2037.5	diagnosis	HTA6_71	phs002371_HTA6_71_HTA6_71	phs002371_HTA6_71
+Alive	Adenocarcinoma NOS	74	G3	8140/3	No	528	Tumor free	528	diagnosis	HTA8_1010	phs002371_HTA8_1010_HTA8_1010	phs002371_HTA8_1010
+Dead	Pancreatobiliary-Type Carcinoma	50	G2		No	304	Distant met recurrence/progression	304	diagnosis	HTA12_6	phs002371_HTA12_6_HTA12_6	phs002371_HTA12_6
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Cribriform	Yes	4014.1	Tumor free	4014.1	diagnosis	HTA6_126	phs002371_HTA6_126_HTA6_126	phs002371_HTA6_126
+Alive	Ductal carcinoma in situ NOS		High Grade	Solid, Comedo, Micropapillary	Yes	1459.7	With tumor	1459.7	diagnosis	HTA6_90	phs002371_HTA6_90_HTA6_90	phs002371_HTA6_90
+Alive	Ductal carcinoma in situ NOS		High Grade	Not Provided	Yes	1824.6	Tumor free	1824.6	diagnosis	HTA6_162	phs002371_HTA6_162_HTA6_162	phs002371_HTA6_162
+Alive	Ductal carcinoma in situ NOS		High Grade	Not Provided	Yes	2554.4	With tumor	2554.4	diagnosis	HTA6_153	phs002371_HTA6_153_HTA6_153	phs002371_HTA6_153
+Dead	Ductal carcinoma in situ NOS		High Grade	Not Provided	Yes	4014.1	Tumor free	4014.1	diagnosis	HTA6_133	phs002371_HTA6_133_HTA6_133	phs002371_HTA6_133
+Alive	Adenocarcinoma NOS	37	G3	8140/3	Yes	1191	Distant met recurrence/progression	1191	diagnosis	HTA8_1021	phs002371_HTA8_1021_HTA8_1021	phs002371_HTA8_1021
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_5363	phs002371_HTA11_5363_HTA11_5363	phs002371_HTA11_5363
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_3077	phs002371_HTA11_3077_HTA11_3077	phs002371_HTA11_3077
+Alive	Ductal carcinoma in situ NOS		High Grade	Not Provided	No	5473.8	Tumor free	5473.8	diagnosis	HTA6_129	phs002371_HTA6_129_HTA6_129	phs002371_HTA6_129
+Alive	Ductal carcinoma in situ NOS		High Grade	Not Provided	Yes	3284.3	Tumor free	3284.3	diagnosis	HTA6_158	phs002371_HTA6_158_HTA6_158	phs002371_HTA6_158
+Alive	Ductal carcinoma in situ NOS		High Grade	Solid, Cribriform, Micropapillary	No	4074.9	Tumor free	4074.9	diagnosis	HTA6_35	phs002371_HTA6_35_HTA6_35	phs002371_HTA6_35
+Dead	Ductal carcinoma in situ NOS		Intermediate Grade	Cribriform, Papillary	Yes	4014.1	With tumor	4014.1	diagnosis	HTA6_23	phs002371_HTA6_23_HTA6_23	phs002371_HTA6_23
+Alive	Ductal carcinoma in situ NOS		High Grade	Not Provided	No	1824.6	Tumor free	1824.6	diagnosis	HTA6_154	phs002371_HTA6_154_HTA6_154	phs002371_HTA6_154
+Alive	Ductal carcinoma in situ NOS		Low Grade	Not Provided	No	2615.3	Tumor free	2615.3	diagnosis	HTA6_105	phs002371_HTA6_105_HTA6_105	phs002371_HTA6_105
+Alive	Not Reported		Not Reported	Not Applicable	No	Not Reported	Not Applicable	Not Reported	diagnosis	HTA4_29	phs002371_HTA4_29_HTA4_29	phs002371_HTA4_29
+Dead	Not Reported		Not Applicable	Not Reported	Unknown	Unknown	Not Reported	Unknown	diagnosis	HTA10_07	phs002371_HTA10_07_HTA10_07	phs002371_HTA10_07
+Alive	Pancreatobiliary-Type Carcinoma	82	G1		No	424	Tumor free	424	diagnosis	HTA12_11	phs002371_HTA12_11_HTA12_11	phs002371_HTA12_11
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Not Provided	Yes	2554.4	Tumor free	2554.4	diagnosis	HTA6_146	phs002371_HTA6_146_HTA6_146	phs002371_HTA6_146
+Alive	Ductal carcinoma in situ NOS		High Grade	Comedo	Yes	2554.4	Tumor free	2554.4	diagnosis	HTA6_128	phs002371_HTA6_128_HTA6_128	phs002371_HTA6_128
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Not Provided	Yes	2189.5	Tumor free	2189.5	diagnosis	HTA6_110	phs002371_HTA6_110_HTA6_110	phs002371_HTA6_110
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Cribriform	Yes	2919.4	Tumor free	2919.4	diagnosis	HTA6_156	phs002371_HTA6_156_HTA6_156	phs002371_HTA6_156
+Alive	Ductal carcinoma in situ NOS		High Grade	Solid, Cribriform	No	1824.6	Tumor free	1824.6	diagnosis	HTA6_29	phs002371_HTA6_29_HTA6_29	phs002371_HTA6_29
+Alive	Ductal carcinoma in situ NOS		High Grade	Solid	Yes	2554.4	Tumor free	2554.4	diagnosis	HTA6_115	phs002371_HTA6_115_HTA6_115	phs002371_HTA6_115
+Not Reported	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_99999965104	phs002371_HTA11_99999965104_HTA11_99999965104	phs002371_HTA11_99999965104
+Alive	Small Cell Neuroendocrine Carcinoma	71	High Grade	8041/3	Unknown	490	unknown tumor status	490	diagnosis	HTA8_2003	phs002371_HTA8_2003_HTA8_2003	phs002371_HTA8_2003
+Alive	Ductal carcinoma in situ NOS		High Grade	Not Provided	Yes	6203.6	Tumor free	6203.6	diagnosis	HTA6_142	phs002371_HTA6_142_HTA6_142	phs002371_HTA6_142
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_696	phs002371_HTA11_696_HTA11_696	phs002371_HTA11_696
+Alive	Ductal carcinoma in situ NOS		High Grade	Comedo, Solid	No	4622.3	Tumor free	4622.3	diagnosis	HTA6_79	phs002371_HTA6_79_HTA6_79	phs002371_HTA6_79
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_5216	phs002371_HTA11_5216_HTA11_5216	phs002371_HTA11_5216
+Dead	Ductal carcinoma in situ NOS		Intermediate Grade	Papillary	Yes	1459.7	With tumor	1459.7	diagnosis	HTA6_64	phs002371_HTA6_64_HTA6_64	phs002371_HTA6_64
+	Not specified in data								diagnosis	HTA3_8003	phs002371_HTA3_8003_HTA3_8003	phs002371_HTA3_8003
+Alive	Ductal carcinoma in situ NOS		High Grade	Cribriform	Yes	3284.3	Tumor free	3284.3	diagnosis	HTA6_114	phs002371_HTA6_114_HTA6_114	phs002371_HTA6_114
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Comedo, Solid, Micropapillary	Yes	4014.1	Tumor free	4014.1	diagnosis	HTA6_13	phs002371_HTA6_13_HTA6_13	phs002371_HTA6_13
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Solid, Cribriform	No	5230.5	Tumor free	5230.5	diagnosis	HTA6_53	phs002371_HTA6_53_HTA6_53	phs002371_HTA6_53
+Alive	Ductal carcinoma in situ NOS		High Grade	Not Provided	Yes	1459.7	With tumor	1459.7	diagnosis	HTA6_161	phs002371_HTA6_161_HTA6_161	phs002371_HTA6_161
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Comedo	Yes	6203.6	Tumor free	6203.6	diagnosis	HTA6_148	phs002371_HTA6_148_HTA6_148	phs002371_HTA6_148
+Dead	Small Cell Neuroendocrine Carcinoma	69	High Grade	8041/3	Yes	559	Distant met recurrence/progression	559	diagnosis	HTA8_2009	phs002371_HTA8_2009_HTA8_2009	phs002371_HTA8_2009
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Solid, Cribiform	Yes	5108.9	Tumor free	5108.9	diagnosis	HTA6_8	phs002371_HTA6_8_HTA6_8	phs002371_HTA6_8
+Alive	Adenocarcinoma NOS	66	Not Applicable	8140/3	No	979	Not Applicable	979	diagnosis	HTA8_3003	phs002371_HTA8_3003_HTA8_3003	phs002371_HTA8_3003
+Alive	Ductal carcinoma in situ NOS		High Grade	Not Provided	Yes	2189.5	Tumor free	2189.5	diagnosis	HTA6_94	phs002371_HTA6_94_HTA6_94	phs002371_HTA6_94
+Alive	Ductal carcinoma in situ NOS		High Grade	Solid, Micropapillary	Yes	2554.4	Tumor free	2554.4	diagnosis	HTA6_134	phs002371_HTA6_134_HTA6_134	phs002371_HTA6_134
+Alive	Ductal carcinoma in situ NOS		High Grade	Solid, Cribriform	Yes	2554.4	Tumor free	2554.4	diagnosis	HTA6_157	phs002371_HTA6_157_HTA6_157	phs002371_HTA6_157
+Alive	Ductal carcinoma in situ NOS		High Grade	Comedo, Solid, Micropapillary, Cribriform	No	3710	Tumor free	3710	diagnosis	HTA6_6	phs002371_HTA6_6_HTA6_6	phs002371_HTA6_6
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Not Provided	Yes	4379	Tumor free	4379	diagnosis	HTA6_109	phs002371_HTA6_109_HTA6_109	phs002371_HTA6_109
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_104	phs002371_HTA11_104_HTA11_104	phs002371_HTA11_104
+Alive	Ductal carcinoma in situ NOS		High Grade	Solid	Yes	1824.6	Tumor free	1824.6	diagnosis	HTA6_2	phs002371_HTA6_2_HTA6_2	phs002371_HTA6_2
+Alive	Adenocarcinoma NOS	64	G3	8140/3	No	782	Tumor free	782	diagnosis	HTA8_1002	phs002371_HTA8_1002_HTA8_1002	phs002371_HTA8_1002
+Alive	Not Reported		Not Reported	Not Applicable	No	Not Reported	Not Applicable	Not Reported	diagnosis	HTA4_26	phs002371_HTA4_26_HTA4_26	phs002371_HTA4_26
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Solid	No	2007.1	Tumor free	2007.1	diagnosis	HTA6_52	phs002371_HTA6_52_HTA6_52	phs002371_HTA6_52
+Alive	Ductal carcinoma in situ NOS		High Grade	Not Provided	Yes	1824.6	Tumor free	1824.6	diagnosis	HTA6_135	phs002371_HTA6_135_HTA6_135	phs002371_HTA6_135
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_5212	phs002371_HTA11_5212_HTA11_5212	phs002371_HTA11_5212
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Not Provided	Yes	6203.6	Tumor free	6203.6	diagnosis	HTA6_168	phs002371_HTA6_168_HTA6_168	phs002371_HTA6_168
+Dead	Adenocarcinoma Combined With Other Types Of Carcinoma	63	Not Reported	8045/3	Yes	1072	Distant met recurrence/progression	1072	diagnosis	HTA8_2001	phs002371_HTA8_2001_HTA8_2001	phs002371_HTA8_2001
+Alive	Ductal carcinoma in situ NOS		High Grade	Not Provided	Yes	1459.7	With tumor	1459.7	diagnosis	HTA6_140	phs002371_HTA6_140_HTA6_140	phs002371_HTA6_140
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_5994	phs002371_HTA11_5994_HTA11_5994	phs002371_HTA11_5994
+Alive	Ductal carcinoma in situ NOS		High Grade	Not Provided	Yes	2919.4	Tumor free	2919.4	diagnosis	HTA6_136	phs002371_HTA6_136_HTA6_136	phs002371_HTA6_136
+Alive	Ductal carcinoma in situ NOS		High Grade	Not Provided	Yes	4379	Tumor free	4379	diagnosis	HTA6_96	phs002371_HTA6_96_HTA6_96	phs002371_HTA6_96
+Alive	Ductal carcinoma in situ NOS		High Grade	Solid	Yes	2919.4	Tumor free	2919.4	diagnosis	HTA6_117	phs002371_HTA6_117_HTA6_117	phs002371_HTA6_117
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Comedo, Solid	No	2189.5	Tumor free	2189.5	diagnosis	HTA6_87	phs002371_HTA6_87_HTA6_87	phs002371_HTA6_87
+Alive	Pancreatobiliary-Type Carcinoma	49	G1		No	424	Distant met recurrence/progression	424	diagnosis	HTA12_17	phs002371_HTA12_17_HTA12_17	phs002371_HTA12_17
+Alive	Ductal carcinoma in situ NOS		High Grade	Not Provided	No	2767.3	Tumor free	2767.3	diagnosis	HTA6_159	phs002371_HTA6_159_HTA6_159	phs002371_HTA6_159
+Dead	Ductal carcinoma in situ NOS		High Grade	Comedo, Solid, Cribriform	Yes	3649.2	With tumor	3649.2	diagnosis	HTA6_65	phs002371_HTA6_65_HTA6_65	phs002371_HTA6_65
+Alive	Ductal carcinoma in situ NOS		High Grade	Comedo, Cribriform, Micropapillary	Yes	1824.6	Tumor free	1824.6	diagnosis	HTA6_66	phs002371_HTA6_66_HTA6_66	phs002371_HTA6_66
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Cribriform, Papillary	Yes	1824.6	Tumor free	1824.6	diagnosis	HTA6_47	phs002371_HTA6_47_HTA6_47	phs002371_HTA6_47
+Alive	Ductal carcinoma in situ NOS		Low Grade	Cribriform, Micropapillary	Yes	6568.6	With tumor	6568.6	diagnosis	HTA6_145	phs002371_HTA6_145_HTA6_145	phs002371_HTA6_145
+Alive	Ductal carcinoma in situ NOS		High Grade	Comedo, Solid, Cribriform	No	2980.2	Tumor free	2980.2	diagnosis	HTA6_24	phs002371_HTA6_24_HTA6_24	phs002371_HTA6_24
+Not Reported	Acute lymphoblastic leukemia precursor cell type	18	Not Reported	Not Reported	Yes	Not Reported	Not Applicable	Not Reported	diagnosis	HTA4_21	phs002371_HTA4_21_HTA4_21	phs002371_HTA4_21
+Alive	Pancreatobiliary-Type Carcinoma	70	G2		No	404	Tumor free	404	diagnosis	HTA12_9	phs002371_HTA12_9_HTA12_9	phs002371_HTA12_9
+Alive	Adenocarcinoma NOS	80	G2	8140/3	No	631	Tumor free	631	diagnosis	HTA8_1001	phs002371_HTA8_1001_HTA8_1001	phs002371_HTA8_1001
+Alive	Adenocarcinoma Combined With Other Types Of Carcinoma	73	G3	8560/3	No	788	Distant met recurrence/progression	788	diagnosis	HTA8_1003	phs002371_HTA8_1003_HTA8_1003	phs002371_HTA8_1003
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Cribriform, Micropapillary, Papillary	Yes	2189.5	Tumor free	2189.5	diagnosis	HTA6_67	phs002371_HTA6_67_HTA6_67	phs002371_HTA6_67
+Alive	Adenocarcinoma NOS	77	G2	8140/3	Yes	762	Loco-regional recurrence/progression	762	diagnosis	HTA8_1005	phs002371_HTA8_1005_HTA8_1005	phs002371_HTA8_1005
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_78	phs002371_HTA11_78_HTA11_78	phs002371_HTA11_78
+Alive	Ductal carcinoma in situ NOS		High Grade	Comedo, Micropapillary, Cribriform	No	2554.4	Tumor free	2554.4	diagnosis	HTA6_49	phs002371_HTA6_49_HTA6_49	phs002371_HTA6_49
+Alive	Adenocarcinoma Combined With Other Types Of Carcinoma	68	Not Reported	8013/3	Yes	1300	Tumor free	1300	diagnosis	HTA8_1023	phs002371_HTA8_1023_HTA8_1023	phs002371_HTA8_1023
+Alive	Adenocarcinoma NOS	75	G2	8140/3	No	1135	Tumor free	1135	diagnosis	HTA8_1019	phs002371_HTA8_1019_HTA8_1019	phs002371_HTA8_1019
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Cribriform, Solid	No	5230.5	Tumor free	5230.5	diagnosis	HTA6_16	phs002371_HTA6_16_HTA6_16	phs002371_HTA6_16
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Not Provided	Yes	2554.4	With tumor	2554.4	diagnosis	HTA6_111	phs002371_HTA6_111_HTA6_111	phs002371_HTA6_111
+Alive	Pancreatobiliary-Type Carcinoma	75	G2		No	503	Tumor free	503	diagnosis	HTA12_13	phs002371_HTA12_13_HTA12_13	phs002371_HTA12_13
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Cribriform, Micropapillary	No	2736.9	Tumor free	2736.9	diagnosis	HTA6_41	phs002371_HTA6_41_HTA6_41	phs002371_HTA6_41
+Dead	Adenocarcinoma NOS	64	G3	8140/3	Yes	425	Distant met recurrence/progression	425	diagnosis	HTA8_1015	phs002371_HTA8_1015_HTA8_1015	phs002371_HTA8_1015
+Alive	Ductal carcinoma in situ NOS		High Grade	Comedo, Solid, Cribriform	No	3588.4	Tumor free	3588.4	diagnosis	HTA6_75	phs002371_HTA6_75_HTA6_75	phs002371_HTA6_75
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Not Provided	Yes	2554.4	Tumor free	2554.4	diagnosis	HTA6_170	phs002371_HTA6_170_HTA6_170	phs002371_HTA6_170
+Dead	Adenocarcinoma NOS	62	G3	8140/3	Yes	342	Distant met recurrence/progression	342	diagnosis	HTA8_1007	phs002371_HTA8_1007_HTA8_1007	phs002371_HTA8_1007
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Cribriform, Solid	No	3953.3	Tumor free	3953.3	diagnosis	HTA6_34	phs002371_HTA6_34_HTA6_34	phs002371_HTA6_34
+Alive	Ductal carcinoma in situ NOS		High Grade	Comedo	Yes	1459.7	Tumor free	1459.7	diagnosis	HTA6_141	phs002371_HTA6_141_HTA6_141	phs002371_HTA6_141
+Alive	Adenocarcinoma NOS	65	G2	8140/3	No	707	Tumor free	707	diagnosis	HTA8_1009	phs002371_HTA8_1009_HTA8_1009	phs002371_HTA8_1009
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_866	phs002371_HTA11_866_HTA11_866	phs002371_HTA11_866
+Dead	Pancreatobiliary-Type Carcinoma	73	G3		No	670	Tumor free	670	diagnosis	HTA12_3	phs002371_HTA12_3_HTA12_3	phs002371_HTA12_3
+Alive	Ductal carcinoma in situ NOS		High Grade	Comedo, Clinging	Yes	1824.6	Tumor free	1824.6	diagnosis	HTA6_93	phs002371_HTA6_93_HTA6_93	phs002371_HTA6_93
+Alive	Ductal carcinoma in situ NOS		High Grade	Not Provided	Yes	2554.4	Tumor free	2554.4	diagnosis	HTA6_106	phs002371_HTA6_106_HTA6_106	phs002371_HTA6_106
+Alive	Not Reported	0	Not Reported	Not Reported	Not Reported	0	Not Reported	0	diagnosis	HTA11_2112	phs002371_HTA11_2112_HTA11_2112	phs002371_HTA11_2112
+Alive	Small Cell Neuroendocrine Carcinoma	69	High Grade	8041/3	No	441	Tumor free	441	diagnosis	HTA8_2013	phs002371_HTA8_2013_HTA8_2013	phs002371_HTA8_2013
+Alive	Ductal carcinoma in situ NOS		High Grade	Not Provided	Yes	5108.9	Tumor free	5108.9	diagnosis	HTA6_147	phs002371_HTA6_147_HTA6_147	phs002371_HTA6_147
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Solid	Yes	3284.3	Tumor free	3284.3	diagnosis	HTA6_112	phs002371_HTA6_112_HTA6_112	phs002371_HTA6_112
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Cribriform, Micropapillary	Yes	2919.4	Tumor free	2919.4	diagnosis	HTA6_12	phs002371_HTA6_12_HTA6_12	phs002371_HTA6_12
+Alive	Ductal carcinoma in situ NOS		Intermediate Grade	Solid, Cribriform	Yes	1824.6	With tumor	1824.6	diagnosis	HTA6_22	phs002371_HTA6_22_HTA6_22	phs002371_HTA6_22
+Alive	Ductal carcinoma in situ NOS		High Grade	Comedo, Solid, Cribriform	Yes	729.8	Tumor free	729.8	diagnosis	HTA6_59	phs002371_HTA6_59_HTA6_59	phs002371_HTA6_59

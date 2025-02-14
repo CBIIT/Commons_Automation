@@ -1,0 +1,2 @@
+diagnosis_id	disease_type	type	study_diagnosis_id	participant.study_participant_id	primary_diagnosis
+99988_diagnosis	Unknown	diagnosis	phs001713_99988_99988_diagnosis	phs001713_99988	Not specified in data
