@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[contains(text(),'COTC007B')]</value>
+         <value>//*[@id='checkbox_Study_OSA02 (000012)']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

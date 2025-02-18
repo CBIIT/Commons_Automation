@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Sample Pathology_Osteoblastic and Chrondroblastic Osteosarcoma&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Sample Pathology_Osteoblastic and Chondroblastic Osteosarcoma&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Sample Pathology_Osteoblastic and Chrondroblastic Osteosarcoma&quot;]</value>
-      <webElementGuid>5dadfa1f-13c4-4645-8454-59cef8ef4452</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Sample Pathology_Osteoblastic and Chondroblastic Osteosarcoma&quot;]</value>
+      <webElementGuid>ea7035e4-0a21-48b6-b5e7-8b2112e70fb9</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
