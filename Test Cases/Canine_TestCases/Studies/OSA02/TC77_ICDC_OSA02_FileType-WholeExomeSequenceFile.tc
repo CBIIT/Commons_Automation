@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC77_ICDC_OSA02_FileType-WholeExomeSequenceFile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0bbdcef3-465b-44da-99ae-a05ebc4b4317</testCaseGuid>
+</TestCaseEntity>

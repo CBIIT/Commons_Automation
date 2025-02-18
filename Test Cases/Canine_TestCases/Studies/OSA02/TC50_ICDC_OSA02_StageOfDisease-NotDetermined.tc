@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC50_ICDC_OSA02_StageOfDisease-NotDetermined</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9da877b5-dfbc-4cc3-97d4-469ba3892d9f</testCaseGuid>
+</TestCaseEntity>
