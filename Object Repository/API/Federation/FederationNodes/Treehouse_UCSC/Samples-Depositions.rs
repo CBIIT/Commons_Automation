@@ -114,7 +114,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://ccdi.treehouse.gi.ucsc.edu/api/v1/sample/by/age_at_collection/count</restUrl>
+   <restUrl>https://ccdi.treehouse.gi.ucsc.edu/api/v1/sample/by/depositions/count</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

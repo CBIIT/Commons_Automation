@@ -35,7 +35,7 @@ import com.kms.katalon.core.context.TestSuiteContext
         if (testCaseId.contains('/API/')) {
             // Get the current test case name from the context
             String testCaseName = testCaseId.split('/').last()
-            println("Running test case: " + testCaseName + " in API_POC folder")
+            println("Running test case: " + testCaseName + " in API folder")
 
             // Save the test case name in global variable for later use
             GlobalVariable.currentTestCaseName = testCaseName
