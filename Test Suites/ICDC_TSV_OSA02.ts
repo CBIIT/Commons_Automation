@@ -516,13 +516,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>62917e69-eec1-41ab-bac4-78d17a9934e0</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Canine_TestCases/Studies/OSA02/TC74_ICDC_OSA02_FileType-AffymtrxGeneChipAnalysFile</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>63192ced-8c81-4088-a96b-16adde3e19c4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
