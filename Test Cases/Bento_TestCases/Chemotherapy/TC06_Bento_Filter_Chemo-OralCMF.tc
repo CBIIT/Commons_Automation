@@ -4,5 +4,6 @@
    <name>TC06_Bento_Filter_Chemo-OralCMF</name>
    <tag>Filter</tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>88d4d4fc-6f40-4cab-969e-a5c4b269264c</testCaseGuid>
 </TestCaseEntity>

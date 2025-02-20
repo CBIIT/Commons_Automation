@@ -4,5 +4,6 @@
    <name>TC12_Bento_Filter_Chemo-StandardAcWithTaxane</name>
    <tag>Filter</tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>022355fd-6374-45e6-88cf-f7c09123128f</testCaseGuid>
 </TestCaseEntity>

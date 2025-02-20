@@ -4,5 +4,6 @@
    <name>TC10_Bento_Filter_Chemo-OtherTreatment</name>
    <tag>Filter</tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>491b03eb-b73a-440e-9784-d869c9a0aa8c</testCaseGuid>
 </TestCaseEntity>
