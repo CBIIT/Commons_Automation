@@ -4,5 +4,6 @@
    <name>TC09_Bento_Filter_Chemo-OtherWithoutTaxane</name>
    <tag>Filter</tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>73a259c2-a624-4980-9ea3-bf5a38a418ef</testCaseGuid>
 </TestCaseEntity>

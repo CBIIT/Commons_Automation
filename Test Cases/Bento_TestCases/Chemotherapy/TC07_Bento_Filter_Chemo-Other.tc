@@ -4,5 +4,6 @@
    <name>TC07_Bento_Filter_Chemo-Other</name>
    <tag>Filter</tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>82d115ac-e852-49a6-a810-88572106e974</testCaseGuid>
 </TestCaseEntity>
