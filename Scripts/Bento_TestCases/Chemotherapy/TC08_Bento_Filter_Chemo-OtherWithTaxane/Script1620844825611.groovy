@@ -29,18 +29,18 @@ import java.nio.file.Paths as Paths
 
 /*This test script:
  - Opens the browser of choice: Chrome, Firefox or Edge
- - Driver opened by Katalon is used in Selenium.
- - Takes the Query from input excel and fetches data from Neo4j database.
-   Saves the results from neo4j and application in the same name mentioned in the input excel.
- - Clicks on the Cases button in the Navbar of ICDC's homepage.
- - Clicks on the Filter 'Breed' from left pane
- - Selects the specific check box from 'Breed' filter.
- - Reads the results displayed for the selected filter (from all the pages in UI) and saves in the excel mentioned in Input file
- - Reads Neo4j DB using the query from Input file and saves the data in the excel mentioned in Input file
- - Reads Neo4j excel and Webdata excel as lists and compares the data.
+ - Initializes the Driver by Katalon and used in Selenium
+ - Takes the query from input Excel file and stores for usage
+ - Navigates the application and applies filters based on test case
+ - Chooses the tab(s) for verification
+ - Reads the results displayed in the UI for the selected filter (for 10 pages) and saves results in the web data sheet mentioned in input file
+ - Runs Python scripts for each tab: merges disparate TSV files into one, creates dataframes tables in runtime, runs queries, and writes to db data sheet mentioned in input file
+ - Compares web data sheet to db data sheet
+ - Verifies stat bar numbers are as expected 
  */
 WebUI.closeBrowser()
 
+//Initiate
 CustomKeywords.'utilities.TestRunner.RunKatalon'('TC08_Bento_Filter_Chemo-OtherWithTaxane.xlsx')
 
 CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Bento/Banner/Bento_Warning_Continue_Btn')
@@ -49,40 +49,35 @@ System.out.println ("Closed the warning window");
 WebUI.waitForElementClickable(findTestObject('Object Repository/Bento/NavBar/Bento_Cases-Btn'),5)
 CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Bento/NavBar/Bento_Cases-Btn')
 
-//WebUI.waitForElementClickable(findTestObject('Bento/Cases_page/Filter/FilterByCases_Facet'),5)
-//CustomKeywords.'utilities.TestRunner.clickTab'('Bento/Cases_page/Filter/FilterByCases_Facet')
- 
-
+//Filter
 WebUI.waitForElementClickable(findTestObject('Bento/Cases_page/Filter/Chemotherapy/Chemotherapy_Ddn'),5)
 CustomKeywords.'utilities.TestRunner.clickTab'('Bento/Cases_page/Filter/Chemotherapy/Chemotherapy_Ddn')
 CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Bento/Cases_page/Filter/Chemotherapy/OtherAnthraWithTaxane_Chkbx')
 
- 
-//Read statbar 
+//Statbar
 CustomKeywords.'utilities.TestRunner.readStatBarBento'('Object Repository/Bento/StatBar/Bento_StatBar-Programs',
 	'Object Repository/Bento/StatBar/Bento_StatBar-Arms', 'Object Repository/Bento/StatBar/Bento_StatBar-Cases', 'Object Repository/Bento/StatBar/Bento_StatBar-Samples',
 	'Object Repository/Bento/StatBar/Bento_StatBar-Assays', 'Object Repository/Bento/StatBar/Bento_StatBar-Files')
- 
-//Clicking the cases tab 
+
+//Cases tab
 WebUI.waitForElementPresent(findTestObject('Object Repository/Bento/Cases_page/BentoResults_Cases_Tab'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Bento/Cases_page/BentoResults_Cases_Tab')
 CustomKeywords.'utilities.TestRunner.multiFunction'('Bento',GlobalVariable.G_StatBar_Cases, 'Object Repository/Bento/Cases_page/Bento_CasesTable',
 	'Object Repository/Bento/Cases_page/Bento_CasesTableHeader', 'Object Repository/Bento/Cases_page/Bento_CasesTabNextBtn', GlobalVariable.G_WebTabnameCases,
-	GlobalVariable.G_CypherTabnameCases, GlobalVariable.G_QueryCasesTab)
+	'TsvDataCases', GlobalVariable.G_QueryCasesTab)
 
-
-//clicking the Samples tab
+//Samples tab
 WebUI.waitForElementPresent(findTestObject('Object Repository/Bento/Cases_page/BentoResults_Samples_Tab'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Bento/Cases_page/BentoResults_Samples_Tab')
 CustomKeywords.'utilities.TestRunner.multiFunction'('Bento',GlobalVariable.G_StatBar_Samples, 'Object Repository/Bento/Cases_page/Bento_SamplesTable',
 	'Object Repository/Bento/Cases_page/Bento_SamplesTableHeader', 'Object Repository/Bento/Cases_page/Bento_SamplesTabNextBtn', GlobalVariable.G_WebTabnameSamples,
-	GlobalVariable.G_CypherTabnameSamples, GlobalVariable.G_QuerySamplesTab)
+	'TsvDataSamples', GlobalVariable.G_QuerySamplesTab)
 	
-//clicking the Files tab
+//Files tab
 WebUI.waitForElementPresent(findTestObject('Object Repository/Bento/Cases_page/BentoResults_Files_Tab'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Bento/Cases_page/BentoResults_Files_Tab')
 CustomKeywords.'utilities.TestRunner.multiFunction'('Bento',GlobalVariable.G_StatBar_Files, 'Object Repository/Bento/Cases_page/Bento_FilesTable',
 	'Object Repository/Bento/Cases_page/Bento_FilesTableHeader', 'Object Repository/Bento/Cases_page/Bento_FilesTabNextBtn', GlobalVariable.G_WebTabnameFiles,
-	GlobalVariable.G_CypherTabnameFiles, GlobalVariable.G_QueryFilesTab)
+	'TsvDataFiles', GlobalVariable.G_QueryFilesTab)
 
 WebUI.closeBrowser()

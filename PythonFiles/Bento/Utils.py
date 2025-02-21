@@ -133,7 +133,8 @@ index_columns = {
     'laboratory_procedure': 'laboratory_procedure_id',
     'file': 'file_id',
     'file_vcf': 'file_id',
-    'file_bam': 'file_id'
+    'file_bam': 'file_id',
+    'therapeutic_procedure': 'therapeutic_procedure_id'
 }
 
 
@@ -202,6 +203,7 @@ df_laboratory_procedure = dataframes['laboratory_procedure']
 df_file = dataframes['file']
 df_file_vcf = dataframes['file_vcf']
 df_file_bam = dataframes['file_bam']
+df_therapeutic_procedure = dataframes['therapeutic_procedure']
 
 
 #Print each DataFrame
@@ -227,5 +229,7 @@ print("\nDataFrame: df_file_vcf")
 print(df_file_vcf)
 print("\nDataFrame: df_file_bam")
 print(df_file_bam)
+print("\nDataFrame: df_therapeutic_procedure")
+print(df_therapeutic_procedure)
 
 df_run_query = lambda q: ps.sqldf(q, globals())

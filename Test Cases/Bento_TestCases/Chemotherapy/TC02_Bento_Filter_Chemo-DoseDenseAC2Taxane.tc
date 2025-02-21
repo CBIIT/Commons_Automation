@@ -4,5 +4,6 @@
    <name>TC02_Bento_Filter_Chemo-DoseDenseAC2Taxane</name>
    <tag>Filter</tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>4f48e6c3-4739-445e-8c4e-8900d2a669c8</testCaseGuid>
 </TestCaseEntity>
