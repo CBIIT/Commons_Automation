@@ -4,5 +4,6 @@
    <name>TC15_Bento_Filter_Chemo-TC</name>
    <tag>Filter</tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>580ed0e5-d8fb-4475-be80-111d6fd536b4</testCaseGuid>
 </TestCaseEntity>
