@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC03_Bento_Filter_Diagnosis-Comedocarcinoma</name>
+   <name>TC07_Bento_Filter_Diagnosis-MedullaryCarcinoma</name>
    <tag>Filter</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>aecf369c-04c5-4d2b-bcf9-39f62cfa526d</testCaseGuid>
+   <testCaseGuid>ce79d1db-99e4-46ed-859c-1e36492fbc74</testCaseGuid>
 </TestCaseEntity>

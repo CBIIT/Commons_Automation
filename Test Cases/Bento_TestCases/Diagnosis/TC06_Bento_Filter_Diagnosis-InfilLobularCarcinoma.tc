@@ -4,5 +4,6 @@
    <name>TC06_Bento_Filter_Diagnosis-InfilLobularCarcinoma</name>
    <tag>Filter</tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>d22648f2-5be3-41ac-895e-c30c4347585c</testCaseGuid>
 </TestCaseEntity>

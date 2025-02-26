@@ -28,13 +28,6 @@ import java.nio.file.Path as Path
 import java.nio.file.Paths as Paths
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
-import java.io.File;
-
- 
-
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.Cookie as Cookie
-import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 /*This test script:
  - Opens the browser of choice: Chrome, Firefox or Edge
  - Initializes the Driver by Katalon and used in Selenium
@@ -44,24 +37,22 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
  - Reads the results displayed in the UI for the selected filter (for 10 pages) and saves results in the web data sheet mentioned in input file
  - Runs Python scripts for each tab: merges disparate TSV files into one, creates dataframes tables in runtime, runs queries, and writes to db data sheet mentioned in input file
  - Compares web data sheet to db data sheet
- - Verifies stat bar numbers are as expected 
+ - Verifies stat bar numbers are as expected
  */
 WebUI.closeBrowser()
 
 //Initiate
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC02_Bento_Filter_Diagnosis-Carcinoma.xlsx')
-
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC07_Bento_Filter_Diagnosis-MedullaryCarcinoma.xlsx')
 CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Bento/Banner/Bento_Warning_Continue_Btn')
-
 WebUI.waitForElementClickable(findTestObject('Object Repository/Bento/NavBar/Bento_Cases-Btn'),5)
 CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Bento/NavBar/Bento_Cases-Btn')
 
 //Filter
 WebUI.waitForElementClickable(findTestObject('Bento/Cases_page/Filter/Diagnosis/DIAGNOSIS_Ddn'),5)
 CustomKeywords.'utilities.TestRunner.clickTab'('Bento/Cases_page/Filter/Diagnosis/DIAGNOSIS_Ddn')
-WebUI.waitForElementClickable(findTestObject('Bento/Cases_page/Filter/Diagnosis/CarcinomaNOS_Chkbx'),5)
-CustomKeywords.'utilities.TestRunner.clickTab'('Bento/Cases_page/Filter/Diagnosis/CarcinomaNOS_Chkbx')
- 
+WebUI.waitForElementClickable(findTestObject('Bento/Cases_page/Filter/Diagnosis/MedullaryCarcinoma_Chkbx'),5)
+CustomKeywords.'utilities.TestRunner.clickTab'('Bento/Cases_page/Filter/Diagnosis/MedullaryCarcinoma_Chkbx')
+
 //Statbar
 CustomKeywords.'utilities.TestRunner.readStatBarBento'('Object Repository/Bento/StatBar/Bento_StatBar-Programs',
 	'Object Repository/Bento/StatBar/Bento_StatBar-Arms', 'Object Repository/Bento/StatBar/Bento_StatBar-Cases', 'Object Repository/Bento/StatBar/Bento_StatBar-Samples',
