@@ -4,5 +4,6 @@
    <name>TC09_Bento_Filter_Diagnosis-NotReported</name>
    <tag>Filter</tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>06304c8e-37af-4ad6-a522-01d244eefc43</testCaseGuid>
 </TestCaseEntity>
