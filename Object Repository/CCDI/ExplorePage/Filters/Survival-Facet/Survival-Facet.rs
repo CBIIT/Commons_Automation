@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Survival-Facet</name>
+   <tag></tag>
+   <elementGuidId>a4be1f0f-ae3f-4762-b7cb-61a584cdef57</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//*[text()=&quot;Survival&quot;])[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//*[text()=&quot;Survival&quot;])[1]</value>
+      <webElementGuid>877b50f9-8722-4a3d-a4be-1dff5252f565</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

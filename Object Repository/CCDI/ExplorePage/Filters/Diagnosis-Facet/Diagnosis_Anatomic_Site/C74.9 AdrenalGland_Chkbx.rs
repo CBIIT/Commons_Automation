@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Anatomic Site_C74.9 : Adrenal gland, NOS&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Anatomic Site_C70.0 : Cerebral meninges&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Anatomic Site_C74.9 : Adrenal gland, NOS&quot;]</value>
-      <webElementGuid>e79a1b2a-9634-4aa4-a681-742bcbcc7c2c</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Anatomic Site_C70.0 : Cerebral meninges&quot;]</value>
+      <webElementGuid>85664cad-5ee3-475c-b2f7-d91f0fa515cc</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

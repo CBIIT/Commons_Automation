@@ -15,7 +15,7 @@
       <guid>bea38588-1d77-4a53-90e1-3828bdbb6121</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CCDI_TestCases/Studies/phs002430/TC01_CCDI_phs002430_Race-Asian</testCaseId>
+      <testCaseId>Test Cases/CCDI_TestCases/Studies/phs002430/TC01_CCDI_phs002430_Sex-Female_Race-Asian</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

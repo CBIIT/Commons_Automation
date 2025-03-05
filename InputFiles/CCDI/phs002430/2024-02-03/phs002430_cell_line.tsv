@@ -1,22 +1,22 @@
-id	sample.id	study.id	cell_line_id	source	updated	type	study
-phs002430::052-10cell_line	phs002430::052-10		052-10cell_line	patient-derived	2024-05-23T14:50:28.654000000+00:00	cell_line	phs002430
-phs002430::143B		phs002430::phs002430	143B	commercial	2024-05-23T14:50:28.891000000+00:00	cell_line	phs002430
-phs002430::152-5cell_line	phs002430::152-5		152-5cell_line	patient-derived	2024-05-23T14:50:28.823000000+00:00	cell_line	phs002430
-phs002430::186-7cell_line	phs002430::186-7		186-7cell_line	patient-derived	2024-05-23T14:50:28.856000000+00:00	cell_line	phs002430
-phs002430::384-9cell_line	phs002430::384-9		384-9cell_line	patient-derived	2024-05-23T14:50:28.859000000+00:00	cell_line	phs002430
-phs002430::456-4cell_line	phs002430::456-4		456-4cell_line	patient-derived	2024-05-23T14:50:28.862000000+00:00	cell_line	phs002430
-phs002430::457-1cell_line	phs002430::457-1		457-1cell_line	patient-derived	2024-05-23T14:50:28.864000000+00:00	cell_line	phs002430
-phs002430::525-0cell_line	phs002430::525-0		525-0cell_line	patient-derived	2024-05-23T14:50:28.867000000+00:00	cell_line	phs002430
-phs002430::742-4cell_line	phs002430::742-4		742-4cell_line	patient-derived	2024-05-23T14:50:28.872000000+00:00	cell_line	phs002430
-phs002430::766-1cell_line	phs002430::766-1		766-1cell_line	patient-derived	2024-05-23T14:50:28.874000000+00:00	cell_line	phs002430
-phs002430::774-3cell_line	phs002430::774-3		774-3cell_line	patient-derived	2024-05-23T14:50:28.877000000+00:00	cell_line	phs002430
-phs002430::799-1cell_line	phs002430::799-1		799-1cell_line	patient-derived	2024-05-23T14:50:28.879000000+00:00	cell_line	phs002430
-phs002430::833-2_2_cell_line	phs002430::833-2_2		833-2_2_cell_line	patient-derived	2024-05-23T14:50:28.886000000+00:00	cell_line	phs002430
-phs002430::HOS		phs002430::phs002430	HOS	commercial	2024-05-23T14:50:28.893000000+00:00	cell_line	phs002430
-phs002430::MG63		phs002430::phs002430	MG63	commercial	2024-05-23T14:50:28.895000000+00:00	cell_line	phs002430
-phs002430::MG63.3		phs002430::phs002430	MG63.3	commercial	2024-05-23T14:50:28.897000000+00:00	cell_line	phs002430
-phs002430::PSS112cell_line	phs002430::PSS112		PSS112cell_line	patient-derived	2024-05-23T14:50:28.869000000+00:00	cell_line	phs002430
-phs002430::SAOS2		phs002430::phs002430	SAOS2	commercial	2024-05-23T14:50:28.900000000+00:00	cell_line	phs002430
-phs002430::SJSA		phs002430::phs002430	SJSA	commercial	2024-05-23T14:50:28.901000000+00:00	cell_line	phs002430
-phs002430::U2OS		phs002430::phs002430	U2OS	commercial	2024-05-23T14:50:28.904000000+00:00	cell_line	phs002430
-phs002430::hFOB1_19		phs002430::phs002430	hFOB1_19	commercial	2024-05-23T14:50:28.889000000+00:00	cell_line	phs002430
+id	sample.id	study.id	cell_line_id	source	type
+06de28fd-c001-5801-b5f5-9f60970694c2	64b45cf4-13d2-5945-a37f-26859afcea26		456-4cell_line	patient-derived	cell_line
+0e9a9aa7-854f-5a36-b673-065fe4f4a47c	93459d4c-a394-5c16-be16-ad1b474d22cf		525-0cell_line	patient-derived	cell_line
+16f9d405-815d-52e2-8a7f-f3dcf0da04a5	09a74cfc-660c-53ab-9e14-26942e08371d		457-1cell_line	patient-derived	cell_line
+2886bed3-1bde-542e-8a7d-8a2cae9aa163	2cbd35ab-c395-591f-b9fc-747f9e3f033c		833-2_2_cell_line	patient-derived	cell_line
+3d21d1ef-a8c1-5ab7-bf83-a6e65bf726aa	4f44f047-e448-5455-8793-bb03e5c235ea		774-3cell_line	patient-derived	cell_line
+521563d2-36c2-5660-b62f-06cd0ea21e9c	8510a5a3-ad60-5ace-8e7d-c7d48219d06a		152-5cell_line	patient-derived	cell_line
+54a15374-12b0-57d7-8d23-0f87363d5cc5		bdd5ec95-ec3c-58ed-aaaa-54819d95f0cf	MG63.3	commercial	cell_line
+5da3391e-5590-555f-babe-3350d4bdf046	e532218d-593f-5cc1-87ce-0b770cdcb7bd		799-1cell_line	patient-derived	cell_line
+5de0a1f3-1690-50e1-b8ea-bd71db84636e	dc14211f-7666-55f1-9e0c-9db19a5b5ca3		052-10cell_line	patient-derived	cell_line
+6347741a-e0e4-5753-8e71-2cfab9e33ec6		bdd5ec95-ec3c-58ed-aaaa-54819d95f0cf	143B	commercial	cell_line
+6847f221-aa00-5252-97d4-33cb446d7835		bdd5ec95-ec3c-58ed-aaaa-54819d95f0cf	MG63	commercial	cell_line
+70fd9209-87ca-5eaa-b2e7-a0a847579560	65853dd4-2e6d-5914-9e0f-0aac2461b1e6		742-4cell_line	patient-derived	cell_line
+7f67ebec-3b53-5080-90dc-40f73b42a137		bdd5ec95-ec3c-58ed-aaaa-54819d95f0cf	HOS	commercial	cell_line
+90faf389-4571-53f0-9743-18b13886daf4	e12a8519-2f0b-5d80-a190-c7cda9e3e953		186-7cell_line	patient-derived	cell_line
+b3e471b3-b81b-5e82-b541-aaaaa903023f	ef9f3e81-b36b-5d1e-97bf-66f8902e1a5a		PSS112cell_line	patient-derived	cell_line
+b5d997e8-3cc6-515b-b051-8e63c9d36fc9		bdd5ec95-ec3c-58ed-aaaa-54819d95f0cf	hFOB1_19	commercial	cell_line
+cd536c47-786f-5a56-88a8-791b35f942ea		bdd5ec95-ec3c-58ed-aaaa-54819d95f0cf	SAOS2	commercial	cell_line
+d8e332e0-9fbf-523a-a8ca-8e8c936e2d6f		bdd5ec95-ec3c-58ed-aaaa-54819d95f0cf	SJSA	commercial	cell_line
+ed49e6d2-b10f-5601-a76a-4777fa9ba2ac	a322a9cd-9006-5aac-b2b8-46849d8457a2		766-1cell_line	patient-derived	cell_line
+efd64249-b698-5ab1-aab9-6357f3c58792		bdd5ec95-ec3c-58ed-aaaa-54819d95f0cf	U2OS	commercial	cell_line
+fbac2635-3272-576c-9d2a-cc59add13173	5d4ddd16-7017-5cc7-b7b6-be28b4e4a429		384-9cell_line	patient-derived	cell_line

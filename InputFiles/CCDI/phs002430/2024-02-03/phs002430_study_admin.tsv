@@ -1,2 +1,2 @@
-id	study.id	adult_or_childhood_study	data_types	file_types_and_format	number_of_participants	number_of_samples	organism_species	study_admin_id	updated	type	study
-phs002430::phs002430_admin	phs002430::phs002430	Pediatric			231	500	Human	phs002430_admin	2024-04-30T18:33:38.448000000+00:00	study_admin	phs002430
+id	study.id	adult_or_childhood_study	data_types	file_types_and_format	number_of_participants	number_of_samples	organism_species	study_admin_id	type
+e33534f4-64da-52f2-bbfc-08f4e3bf495a	bdd5ec95-ec3c-58ed-aaaa-54819d95f0cf	Pediatric			231	500	Human	phs002430_admin	study_admin

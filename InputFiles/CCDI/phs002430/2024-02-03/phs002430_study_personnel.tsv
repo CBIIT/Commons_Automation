@@ -1,12 +1,12 @@
-id	study.id	email_address	institution	personnel_name	personnel_type	study	study_personnel_id	updated	type
-phs002430::AL	phs002430::phs002430	alex.lee2@ucsf.edu	UCSF	Alex Lee	Bioinformatics	phs002430	AL	2024-04-30T18:33:38.454000000+00:00	study_personnel
-phs002430::AM	phs002430::phs002430	amanda.marinoff@ucsf.edu	UCSF	Amanda Marinoff	Data Manager	phs002430	AM	2024-04-30T18:33:38.465000000+00:00	study_personnel
-phs002430::AP	phs002430::phs002430	apribnow@stanford.edu	Stanford	Allison Pribnow	Collaborator	phs002430	AP	2024-04-30T18:33:38.466000000+00:00	study_personnel
-phs002430::AQA	phs002430::phs002430	kintanageo@gmail.com	University of Missouri	Ana Quintanar Alfaro	Clinical Research Coordinator	phs002430	AQA	2024-04-30T18:33:38.458000000+00:00	study_personnel
-phs002430::ASC	phs002430::phs002430	alejandro.sweet-cordero@ucsf.edu	UCSF	Alejandro Sweet-Cordero, MD	PI	phs002430	ASC	2024-04-30T18:33:38.453000000+00:00	study_personnel
-phs002430::CS	phs002430::phs002430	cschott@uoguelph.ca	University of Guelph	Courtney Schott	Scientist	phs002430	CS	2024-04-30T18:33:38.457000000+00:00	study_personnel
-phs002430::LS	phs002430::phs002430	leanne.sayles@ucsf.edu	UCSF	Leanne Sayles	Lab Manager	phs002430	LS	2024-04-30T18:33:38.464000000+00:00	study_personnel
-phs002430::MB	phs002430::phs002430	marcus.breese@ucsf.edu	UCSF	Martin Breese	Bioinformatics	phs002430	MB	2024-04-30T18:33:38.455000000+00:00	study_personnel
-phs002430::MPV	phs002430::phs002430	mvponsventura@gmail.com	UCSF	Maria Pons-Ventura	Lab Technician	phs002430	MPV	2024-04-30T18:33:38.463000000+00:00	study_personnel
-phs002430::MT	phs002430::phs002430	michelle.turski@ucsf.edu	UCSF	Michelle Turski	Data Manager	phs002430	MT	2024-04-30T18:33:38.456000000+00:00	study_personnel
-phs002430::SL	phs002430::phs002430	stanleung@berkeley.edu	UCSF	Stanley Leung	Data Manager	phs002430	SL	2024-04-30T18:33:38.459000000+00:00	study_personnel
+id	study.id	crdc_id	email_address	institution	orcid	personnel_name	personnel_type	study_personnel_id	type
+33246dc0-46fb-5170-a0e4-479c4b748e7c	bdd5ec95-ec3c-58ed-aaaa-54819d95f0cf		alejandro.sweet-cordero@ucsf.edu	University of California, San Francisco	https://orcid.org/0000-0002-9787-9351	Alejandro Sweet-Cordero, MD	PI	person_1	study_personnel
+3651b59e-714b-566f-a66c-94180a23d849	bdd5ec95-ec3c-58ed-aaaa-54819d95f0cf		cschott@uoguelph.ca	University of Guelph	https://orcid.org/0000-0003-2147-6297	Courtney Schott	Scientist	person_5	study_personnel
+4ef07af4-d025-5d65-a616-74bc85898b21	bdd5ec95-ec3c-58ed-aaaa-54819d95f0cf		amanda.marinoff@ucsf.edu	University of California, San Francisco	Not Available	Amanda Marinoff	Data Manager	person_10	study_personnel
+69d2df71-0c43-5e80-a327-0fb529577541	bdd5ec95-ec3c-58ed-aaaa-54819d95f0cf		alex.lee2@ucsf.edu	University of California, San Francisco	https://orcid.org/0000-0003-0001-2848	Alex Lee	Bioinformatics	person_2	study_personnel
+6d67fc89-12cc-559e-b644-e0a7d11f0129	bdd5ec95-ec3c-58ed-aaaa-54819d95f0cf		michelle.turski@ucsf.edu	University of California, San Francisco	Not Available	Michelle Turski	Data Manager	person_4	study_personnel
+735e00eb-f692-5e15-9419-552669b970ea	bdd5ec95-ec3c-58ed-aaaa-54819d95f0cf		apribnow@stanford.edu	Stanford University	https://orcid.org/0000-0001-7069-3402	Allison Pribnow	Collaborator	person_11	study_personnel
+82b4fbc5-9559-5bb1-aea6-2bc170fec945	bdd5ec95-ec3c-58ed-aaaa-54819d95f0cf		marcus.breese@ucsf.edu	University of California, San Francisco	Not Available	Martin Breese	Bioinformatics	person_3	study_personnel
+c2ee3484-21b2-5163-b8a3-6cdb4520a39d	bdd5ec95-ec3c-58ed-aaaa-54819d95f0cf		kintanageo@gmail.com	University of Missouri	https://orcid.org/0000-0001-5004-0148	Ana Quintanar Alfaro	Clinical Research Coordinator	person_6	study_personnel
+e1be876d-4b96-50bb-8894-a9b85924cac8	bdd5ec95-ec3c-58ed-aaaa-54819d95f0cf		leanne.sayles@ucsf.edu	University of California, San Francisco	https://orcid.org/0000-0003-3963-6412	Leanne Sayles	Lab Manager	person_9	study_personnel
+fcb25c0d-79f9-532f-9a87-063ac96852ef	bdd5ec95-ec3c-58ed-aaaa-54819d95f0cf		stanleung@berkeley.edu	University of California, San Francisco	Not Available	Stanley Leung	Data Manager	person_7	study_personnel
+ffae3722-c5fa-571d-ae62-df1d377464ee	bdd5ec95-ec3c-58ed-aaaa-54819d95f0cf		mvponsventura@gmail.com	University of California, San Francisco	https://orcid.org/0009-0003-9516-2052	Maria Pons-Ventura	Lab Technician	person_8	study_personnel

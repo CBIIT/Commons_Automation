@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_CCDI_phs002517_Sampltumorstat-NotReported_Datacat-Radiologyimaging</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>16995e74-9fbd-429c-b704-ed0b4268230a</testCaseGuid>
+</TestCaseEntity>
