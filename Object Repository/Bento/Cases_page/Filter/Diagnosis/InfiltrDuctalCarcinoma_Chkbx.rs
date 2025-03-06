@@ -7,16 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id='checkbox_Diagnosis_Infiltrating Ductal &amp; Lobular Carcinoma']</value>
+         <value>//*[@id='checkbox_Diagnosis_Infiltrating Ductal Carcinoma']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id='checkbox_Diagnosis_Infiltrating Ductal &amp; Lobular Carcinoma']</value>
+      <value>//*[@id='checkbox_Diagnosis_Infiltrating Ductal Carcinoma']</value>
+      <webElementGuid>c44f30a8-0833-4fa3-b0ca-94dd8eee0e35</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

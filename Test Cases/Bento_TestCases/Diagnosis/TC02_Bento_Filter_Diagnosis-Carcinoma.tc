@@ -4,5 +4,6 @@
    <name>TC02_Bento_Filter_Diagnosis-Carcinoma</name>
    <tag>Filter</tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>a508d5ed-b7f4-4c1f-9ce1-ad76ab059e61</testCaseGuid>
 </TestCaseEntity>
