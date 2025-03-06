@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
  */
 WebUI.closeBrowser()
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC15_ICDC_GLIOMA01_FileFormat-gz.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC14_ICDC_GLIOMA01_FileType-VariantCallFile.xlsx')
 
 CustomKeywords.'utilities.TestRunner.clickTab'('Canine/Canine_PopUp_Continue_Btn')
 System.out.println ("Closed the popup window");
@@ -32,11 +32,11 @@ CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Canine/Filter/Study/Ca
 WebUI.waitForElementPresent(findTestObject('Canine/Filter/Study/Canine_Filter_Study-GLIOMA_Chkbx'), 5)
 CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Canine/Filter/Study/Canine_Filter_Study-GLIOMA_Chkbx')
 
-WebUI.waitForElementPresent(findTestObject('Canine/Filter/FileFormat/FILEFORMAT_Ddn'), 5)
-CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Canine/Filter/FileFormat/FILEFORMAT_Ddn')
+WebUI.waitForElementPresent(findTestObject('Canine/Filter/FileType/FILETYPE_Ddn'), 5)
+CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Canine/Filter/FileType/FILETYPE_Ddn')
 
-WebUI.verifyElementPresent(findTestObject('Canine/Filter/FileFormat/gz_Chkbx'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('Canine/Filter/FileFormat/gz_Chkbx')
+WebUI.verifyElementPresent(findTestObject('Canine/Filter/FileType/VariantCallFile_Chkbx'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('Canine/Filter/FileType/VariantCallFile_Chkbx')
 
 //Read Statbar
 CustomKeywords.'utilities.TestRunner.readStatBarCanine'('Canine/StatBar/Canine_StatBar-Programs','Canine/StatBar/Canine_StatBar-Studies',

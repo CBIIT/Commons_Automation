@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC15_ICDC_GLIOMA01_FileFormat-gz</name>
+   <name>TC15_ICDC_GLIOMA01_FileFormat-tbi</name>
    <tag></tag>
    <comment></comment>
-   <recordOption>OTHER</recordOption>
    <testCaseGuid>eeff1af0-b142-444c-a57c-d2fcecb9f9f8</testCaseGuid>
 </TestCaseEntity>
