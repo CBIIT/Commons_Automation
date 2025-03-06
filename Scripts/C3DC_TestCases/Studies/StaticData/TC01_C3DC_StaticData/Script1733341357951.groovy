@@ -30,9 +30,12 @@ CustomKeywords.'utilities.TestRunner.verifyStaticData'("V_DataModelPage")
 //Work-around for not being able to navigate via menu in pipeline run
 if (GlobalVariable.G_Urlname.toString().contains("qa")) {
 	WebUI.navigateToUrl('https://clinicalcommons-qa.ccdi.cancer.gov/resources')
+} else if (GlobalVariable.G_Urlname.toString().contains("stage")) {
+	WebUI.navigateToUrl('https://clinicalcommons-stage.ccdi.cancer.gov/resources')
 } else {
 	WebUI.navigateToUrl('https://clinicalcommons.ccdi.cancer.gov/resources')
 }
+
 
 //Verify static data text - Resources page
 CustomKeywords.'utilities.TestRunner.verifyStaticData'("V_ResourcesPage")
@@ -42,10 +45,13 @@ CustomKeywords.'utilities.TestRunner.verifyStaticData'("V_ResourcesPage")
 //WebUI.click(findTestObject('C3DC/NavBar/About-About-Btn'))
 //Work-around for not being able to navigate via menu in pipeline run
 if (GlobalVariable.G_Urlname.toString().contains("qa")) {
-	WebUI.navigateToUrl('https://clinicalcommons-qa.ccdi.cancer.gov/about')
+    WebUI.navigateToUrl('https://clinicalcommons-qa.ccdi.cancer.gov/about')
+} else if (GlobalVariable.G_Urlname.toString().contains("stage")) {
+    WebUI.navigateToUrl('https://clinicalcommons-stage.ccdi.cancer.gov/about')
 } else {
-	WebUI.navigateToUrl('https://clinicalcommons.ccdi.cancer.gov/about')
+    WebUI.navigateToUrl('https://clinicalcommons.ccdi.cancer.gov/about')
 }
+
 
 //Verify static data text - About > About page
 CustomKeywords.'utilities.TestRunner.verifyStaticData'("V_AboutAboutPage")

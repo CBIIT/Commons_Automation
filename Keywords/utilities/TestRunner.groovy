@@ -2026,9 +2026,23 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 
 					// If element is a link, also verify URL
 					if (testObjectId.contains("Link")) {
+						String env;
+						if (GlobalVariable.G_Urlname.toString().contains("qa")) {
+							env = "qa";
+						} else if (GlobalVariable.G_Urlname.toString().contains("stage")) {
+							env = "stage";
+						} else {
+							env = ""; //prod
+						}
+						String baseExpectedUrl;
+						if (env.isEmpty()) {
+						    baseExpectedUrl = expectedUrl.replace("-qa", ""); //prod
+						} else {
+						    baseExpectedUrl = expectedUrl.replace("-qa", "-" + env); //qa or stage
+						}
 						String actualUrl = WebUI.getAttribute(testObject, 'href').replaceAll("%20", " ")
-						System.out.println("Verifying URL: " + testObjectId + " - Expected: " + expectedUrl + ", Actual: " + actualUrl);
-						if (actualUrl.equals(expectedUrl.replaceAll("%20", " "))) {
+						System.out.println("Verifying URL: " + testObjectId + " - Expected: " + baseExpectedUrl + ", Actual: " + actualUrl);
+						if (actualUrl.equals(baseExpectedUrl.replaceAll("%20", " "))) {
 							verifyUrlPass = true;
 							row.add((verifyTextPass && verifyUrlPass).toString())
 						} else {
