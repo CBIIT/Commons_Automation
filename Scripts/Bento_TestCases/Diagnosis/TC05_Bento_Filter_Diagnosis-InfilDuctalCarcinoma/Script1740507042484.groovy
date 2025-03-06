@@ -26,6 +26,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions as ExpectedConditions
 import org.openqa.selenium.support.ui.WebDriverWait as WebDriverWait
 import java.nio.file.Path as Path
 import java.nio.file.Paths as Paths
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 /*This test script:
  - Opens the browser of choice: Chrome, Firefox or Edge
@@ -39,17 +40,18 @@ import java.nio.file.Paths as Paths
  - Verifies stat bar numbers are as expected 
  */
 WebUI.closeBrowser()
- 
+
 //Initiate
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC01_Bento_Filter_EndocrineTherapy-AI.xlsx')
-CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Bento/Banner/Bento_Warning_Continue_Btn') 
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC05_Bento_Filter_Diagnosis-InfilDuctalCarcinoma.xlsx')
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Bento/Banner/Bento_Warning_Continue_Btn')
 WebUI.waitForElementClickable(findTestObject('Object Repository/Bento/NavBar/Bento_Cases-Btn'),5)
 CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Bento/NavBar/Bento_Cases-Btn')
 
 //Filter
-WebUI.waitForElementClickable(findTestObject('Bento/Cases_page/Filter/EndocrineTherapy/ENDOCRINETHERAPY_Ddn'),5)
-CustomKeywords.'utilities.TestRunner.clickTab'('Bento/Cases_page/Filter/EndocrineTherapy/ENDOCRINETHERAPY_Ddn')
-CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Bento/Cases_page/Filter/EndocrineTherapy/AI_Chkbx')
+WebUI.waitForElementClickable(findTestObject('Bento/Cases_page/Filter/Diagnosis/DIAGNOSIS_Ddn'),5)
+CustomKeywords.'utilities.TestRunner.clickTab'('Bento/Cases_page/Filter/Diagnosis/DIAGNOSIS_Ddn')
+WebUI.waitForElementClickable(findTestObject('Bento/Cases_page/Filter/Diagnosis/InfiltrDuctalCarcinoma_Chkbx'),5)
+CustomKeywords.'utilities.TestRunner.clickTab'('Bento/Cases_page/Filter/Diagnosis/InfiltrDuctalCarcinoma_Chkbx')
 
 //Statbar
 CustomKeywords.'utilities.TestRunner.readStatBarBento'('Object Repository/Bento/StatBar/Bento_StatBar-Programs',

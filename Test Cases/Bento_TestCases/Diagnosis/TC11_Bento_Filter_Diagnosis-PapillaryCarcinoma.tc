@@ -4,5 +4,6 @@
    <name>TC11_Bento_Filter_Diagnosis-PapillaryCarcinoma</name>
    <tag>Filter</tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>079585e4-c439-42ac-afc0-cdd506a04e2e</testCaseGuid>
 </TestCaseEntity>

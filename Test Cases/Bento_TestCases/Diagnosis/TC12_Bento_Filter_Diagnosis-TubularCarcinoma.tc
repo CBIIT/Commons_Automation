@@ -4,5 +4,6 @@
    <name>TC12_Bento_Filter_Diagnosis-TubularCarcinoma</name>
    <tag>Filter</tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>63df5ff6-acb6-4e22-92d8-3737e3f1e8e7</testCaseGuid>
 </TestCaseEntity>

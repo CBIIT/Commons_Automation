@@ -12,38 +12,45 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>903af0ee-36df-4bab-bb2b-660c17a084cf</testSuiteGuid>
    <testCaseLink>
-      <guid>3d917444-1078-4674-92f9-5ad41f8e6896</guid>
+      <guid>24a7c3d9-6678-4763-8d53-798f7baec0f5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Bento_TestCases/Chemotherapy/TC01_Bento_Filter_Chemo-DoseDenseAC2Wk</testCaseId>
+      <testCaseId>Test Cases/Bento_TestCases/EndocrineTherapy/TC01_Bento_Filter_EndocrineTherapy-AI</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>9f0a9389-f3c6-40a9-8297-a11b19c60c44</guid>
+      <guid>d3efbb90-00c0-4871-9116-fe74b331ac64</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Bento_TestCases/Chemotherapy/TC02_Bento_Filter_Chemo-DoseDenseAC2Taxane</testCaseId>
+      <testCaseId>Test Cases/Bento_TestCases/EndocrineTherapy/TC07_Bento_Filter_EndocrineTherapy-Tam_AI</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>e46f0502-491d-4643-9576-8f9e865ae0a6</guid>
+      <guid>49fbbcfe-cbd2-4e67-adb2-95f62bae57a3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Bento_TestCases/Chemotherapy/TC03_Bento_Filter_Chemo-FEC3WkCycles</testCaseId>
+      <testCaseId>Test Cases/Bento_TestCases/EndocrineTherapy/TC06_Bento_Filter_EndocrineTherapy-Tam</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>70164246-e8ac-4f61-8482-9e0497584021</guid>
+      <guid>859fc5b4-6ad7-454e-a880-2fa0159c5c8c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Bento_TestCases/Chemotherapy/TC04_Bento_Filter_Chemo-IV_CMF</testCaseId>
+      <testCaseId>Test Cases/Bento_TestCases/EndocrineTherapy/TC04_Bento_Filter_EndocrineTherapy-OFS_AI</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d3fcc863-bbf6-4e19-9370-e266eb0c97fc</guid>
+      <guid>72a7582c-23c5-40b4-b62d-c70d89e4c1fb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Bento_TestCases/Chemotherapy/TC05_Bento_Filter_Chemo-None</testCaseId>
+      <testCaseId>Test Cases/Bento_TestCases/EndocrineTherapy/TC03_Bento_Filter_EndocrineTherapy-OFS</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>594d95dc-d88c-4ace-839b-a64012ce7f21</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Bento_TestCases/EndocrineTherapy/TC02_Bento_Filter_EndocrineTherapy-None</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

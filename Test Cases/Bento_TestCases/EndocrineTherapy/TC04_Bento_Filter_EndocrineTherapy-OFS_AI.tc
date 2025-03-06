@@ -4,5 +4,6 @@
    <name>TC04_Bento_Filter_EndocrineTherapy-OFS_AI</name>
    <tag>Filter</tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>44c8bc8d-d3b2-4ebe-9691-9df2a83ea9c0</testCaseGuid>
 </TestCaseEntity>
