@@ -62,12 +62,20 @@ class API_Functions {
 			testCaseName = RunConfiguration.getExecutionSourceName()
 		}
 		println("This is the test case name: " + testCaseName)
+		
+// Load the API request object
+    RequestObject request = findTestObject(apiObjectPath)
 
+    // Set timeouts using global configuration
+    request.setHttpHeaderProperties([
+        new TestObjectProperty('Connection-Timeout', com.kms.katalon.core.testobject.ConditionType.EQUALS, '10000'),
+        new TestObjectProperty('Socket-Timeout', com.kms.katalon.core.testobject.ConditionType.EQUALS, '10000')
+    ])
 		// Send the API request
 		ResponseObject response = WS.sendRequest(findTestObject(apiObjectPath))
 		println("Response Status: " + response.getStatusCode())
 		println("Response Body: " + response.getResponseBodyContent())
-
+/*
 		// Extract the API name to use as part of the file name
 		String apiName = apiObjectPath.split('/').last().replaceAll(' ', '_')
 
@@ -77,7 +85,7 @@ class API_Functions {
 		// Write the response to the file
 		responseFile.write("Response Status: " + response.getStatusCode() + "\n")
 		responseFile << "Response Body: " + response.getResponseBodyContent() + "\n"
-
+*/
 		return response
 	}
 
