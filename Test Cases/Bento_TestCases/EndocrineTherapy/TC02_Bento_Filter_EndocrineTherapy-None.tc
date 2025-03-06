@@ -4,5 +4,6 @@
    <name>TC02_Bento_Filter_EndocrineTherapy-None</name>
    <tag>Filter</tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>df1e11dd-76ea-45de-b1af-589310ebed17</testCaseGuid>
 </TestCaseEntity>
