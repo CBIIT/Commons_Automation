@@ -63,7 +63,7 @@
    <testCaseLink>
       <guid>ec7135ef-b728-43ce-97b0-e4830f484ccb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/API/Federation/Response_Comparison_AL_vs_Nodes/File_Counts/TC02_API_Federation_FilesCountBySize</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
