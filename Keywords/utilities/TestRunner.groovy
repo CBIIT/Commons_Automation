@@ -367,9 +367,12 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 			}else if(appKey.equals("CCDI")) {
 				if(dbdataSheetName.equals("TsvDataParticipants")){
 					PythonReader.readFile('ParticipantsTab.py')
-				}else if(dbdataSheetName.equals("TsvDataDiagnosis")){
-					PythonReader.readFile('DiagnosisTab.py')
-				}else if(dbdataSheetName.equals("TsvDataStudies")){
+				}
+				//commenting the Diagnosis part as it is removed from CCDI Hub
+//				else if(dbdataSheetName.equals("TsvDataDiagnosis")){
+//					PythonReader.readFile('DiagnosisTab.py')
+//				}
+				else if(dbdataSheetName.equals("TsvDataStudies")){
 					PythonReader.readFile('StudiesTab.py')
 				}else if(dbdataSheetName.equals("TsvDataSamples")){
 					PythonReader.readFile('SamplesTab.py')
@@ -600,9 +603,15 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 			columns_count = (colHeader.size())
 			columns_count=columns_count-1;
 			System.out.println("Inside CCDI switch case for header data::  " +columns_count)
+			
+				//If the column header is Study Status or Manifest, ignore it from data collection and ignore from writing it to output file
+			
 			for(int c=1;c<=columns_count;c++){
+				if (((colHeader.get(c).getAttribute("innerText") !=("Study Status")) && (colHeader.get(c).getAttribute("innerText")!=("Manifest")))){
 				hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
 			}
+			}
+		
 
 			//******** C3DC function starts below ********
 		}else if(appKey.equals("C3DC")){
@@ -878,7 +887,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 								System.out.println("Inside CCDI switch case for body data")
 								int tblcol=GlobalVariable.G_rowcountFiles
 								System.out.println ("This is the value of tblcol from CCDI body data :"+tblcol)
-
+								//*[@id="tableContainer"]
 								if((tbl_main).equals('//*[@id="participant_tab_table"]')){
 									System.out.println("Inside CCDI participants switch")
 									tblcol=tblcol-3;    //8-3=5 leaves out alternate id col   change to 8-2
@@ -889,27 +898,15 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/p")).getAttribute("innerText")) +"||")
 										System.out.println("This is the value of data : "+data)
 									}
-								}else if((tbl_main).equals("//*[@id='diagnosis_tab_table']")){
-									System.out.println("Inside CCDI diagnosis switch")
-									tblcol=tblcol+2;  //tblcol comes from the top as 8. need to add 3 to get 11 cols
-									System.out.println("Value of tblcol from the diagnosis section is: "+tblcol)
-									for (int j = 1; j <=tblcol; j = j +1) {
-										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
-										// only for this Age column the xpath will not have the /p tag
-										if(((tbl_main).equals("//*[@id='diagnosis_tab_table']")) && (colHeader.get(j).getAttribute("innerText")=="Age at Diagnosis (days)")) {
-											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
-											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr[" + i + "]/*[" + (j+1) +"]")).getAttribute("innerText")) +"||")
-										}else {
-
-											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
-											//*[@id="participant_tab_table"]/div[2]/table/tbody/tr[1]/td[3]/p
-											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr[" + i + "]/*[" + (j+1) +"]")).getAttribute("innerText")) +"||")
-										}
-										System.out.println("This is the value of data : "+data)
-									}
+									//removed diagnosis table part on 3-March-2025
+									
+									
+									
+									
+									
 								}else if((tbl_main).equals("//*[@id='study_tab_table']")){
-									System.out.println("Inside CCDI studies switch")
-									tblcol=tblcol+3;
+									System.out.println("Inside CCDI studies switch. This is the value of the tblbody: "+tbl_bdy) //*[@id='study_tab_table']//tbody
+									tblcol=tblcol+5;
 									System.out.println("Value of tblcol from the studies section is: "+tblcol)
 									for (int j = 1; j <=tblcol; j = j +1) {
 										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
@@ -924,16 +921,27 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 										}else if(((tbl_main).equals("//*[@id='study_tab_table']")) && (colHeader.get(j).getAttribute("innerText")=="File Type (Top 5)")) {
 											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
 											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]")).getAttribute("innerText")) +"||")
-										}
-										else {
-											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+										}   
+									//	else if (!colHeader.get(j).getAttribute("innerText").equals("Study Status") && !colHeader.get(j).getAttribute("innerText").equals("Manifest")){
+										else if (((colHeader.get(j).getAttribute("innerText") !=("Study Status")) && (colHeader.get(j).getAttribute("innerText")!=("Manifest")))){
 
+																						 
+											
+											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+											//*[@id="study_tab_table"]//tbody/tr[1]/td[2]/p  -- this is the updated one
+											
+											//*[@id="tableContainer"]/table/tbody/tr/td[2]/p    //*[@id="tableContainer"]/table/tbody/tr/td[2]/p 
 											//*[@id="study_tab_table"]/div[2]/table/tbody/tr[5]/td[10]/p
-											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/p")).getAttribute("innerText")) +"||")
+											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/td[" + (j+1) +"]")).getAttribute("innerText")) +"||")
 										}
 										System.out.println("This is the value of data : "+data)
 									}
-								}else if((tbl_main).equals("//*[@id='sample_tab_table']")){
+								}
+								
+								
+								
+								
+								else if((tbl_main).equals("//*[@id='sample_tab_table']")){
 									System.out.println("Inside CCDI samples tab switch")
 									tblcol=tblcol-1;
 									System.out.println("Value of tblcol from the samples section is: "+tblcol)
@@ -2053,7 +2061,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 			}
 		}
 	}
-	
+
 	/** vleung
 	 * This function clears the text field with backspace based on operating system
 	 * @param textfield - Text field to be cleared
