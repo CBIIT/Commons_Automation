@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;Sex&quot;]</value>
+         <value>//*[@id=&quot;Sex at Birth&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;Sex&quot;]</value>
-      <webElementGuid>ccd5af15-2431-44ca-9ab3-72511ec80a1a</webElementGuid>
+      <value>//*[@id=&quot;Sex at Birth&quot;]</value>
+      <webElementGuid>00e2fd3e-ed4f-48ce-b6f1-0a2650dab865</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
