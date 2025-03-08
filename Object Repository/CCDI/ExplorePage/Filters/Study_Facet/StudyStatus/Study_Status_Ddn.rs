@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>White_Chkbx</name>
+   <name>Study_Status_Ddn</name>
    <tag></tag>
-   <elementGuidId>03883068-5c74-4fdd-9af2-1db9b16364ad</elementGuidId>
+   <elementGuidId>92bc6bb3-c93d-4b5f-bf47-7924f0ae2d0e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Race_White&quot;]</value>
+         <value>(//*[@id=&quot;Study Status&quot;])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Race_White&quot;]</value>
-      <webElementGuid>fbdf6c09-b73a-45c1-ae63-03baca296e9b</webElementGuid>
+      <value>(//*[@id=&quot;Study Status&quot;])[2]</value>
+      <webElementGuid>7d2838f8-d5ba-456e-88f9-4c2c7143d067</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
