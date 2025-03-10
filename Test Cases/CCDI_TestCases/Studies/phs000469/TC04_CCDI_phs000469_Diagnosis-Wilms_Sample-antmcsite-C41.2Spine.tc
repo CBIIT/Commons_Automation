@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_CCDI_phs000469_Diagnosis-Wilms_Sample-antmcsite-C41.2Spine</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7b489685-070a-44ec-aa48-efad509a7230</testCaseGuid>
+</TestCaseEntity>

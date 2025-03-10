@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>C76.3Pelvis,NOS-Chkbx</name>
+   <name>Generic_Chkbx</name>
    <tag></tag>
-   <elementGuidId>fa54e914-da40-4a48-a72c-6193727961d2</elementGuidId>
+   <elementGuidId>b9b2275a-4a04-4159-b950-386178274dbe</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Anatomic site_C72.9: Central nervous system&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Data Category_Generic&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Anatomic site_C72.9: Central nervous system&quot;]</value>
-      <webElementGuid>5f0407cd-a56e-4dba-b98f-c03c828f8085</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Data Category_Generic&quot;]</value>
+      <webElementGuid>43f0f78f-31d9-4469-9863-f000ba02838a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

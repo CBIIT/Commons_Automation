@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CCDI_phs000469_Diagnosis-EwingSarcoma_DiseasePhs-InitialDiag</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2123e2df-264c-4328-8d2d-e94f5ab10846</testCaseGuid>
+</TestCaseEntity>

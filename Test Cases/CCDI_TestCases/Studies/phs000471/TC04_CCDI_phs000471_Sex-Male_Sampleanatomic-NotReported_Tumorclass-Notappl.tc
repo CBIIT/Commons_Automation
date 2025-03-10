@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_CCDI_phs000471_Sex-Male_Sampleanatomic-NotReported_Tumorclass-Notappl</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>08290d77-9570-46d2-a015-922710af2910</testCaseGuid>
+</TestCaseEntity>

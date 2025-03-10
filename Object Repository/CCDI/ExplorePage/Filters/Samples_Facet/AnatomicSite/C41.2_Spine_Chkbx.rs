@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>C76.3Pelvis,NOS-Chkbx</name>
+   <name>C41.2_Spine_Chkbx</name>
    <tag></tag>
-   <elementGuidId>fa54e914-da40-4a48-a72c-6193727961d2</elementGuidId>
+   <elementGuidId>0dbd9aad-6a56-4688-aa2c-3c8196e94cb3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Anatomic site_C72.9: Central nervous system&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Anatomic site_C41.1 : Spine&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Anatomic site_C72.9: Central nervous system&quot;]</value>
-      <webElementGuid>5f0407cd-a56e-4dba-b98f-c03c828f8085</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Anatomic site_C41.1 : Spine&quot;]</value>
+      <webElementGuid>4264db5d-62a0-4c78-ac89-5697b75deb08</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

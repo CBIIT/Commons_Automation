@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC02_CCDI_phs000720_Filetype-dicom_Tumorclassf-Primary</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>8a26c697-adc8-4566-9c16-623d5a041de1</testCaseGuid>
-</TestCaseEntity>

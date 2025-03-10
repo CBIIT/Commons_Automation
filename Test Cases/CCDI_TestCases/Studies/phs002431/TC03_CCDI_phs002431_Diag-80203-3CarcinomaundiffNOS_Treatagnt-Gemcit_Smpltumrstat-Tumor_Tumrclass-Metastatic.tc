@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_CCDI_phs002431_Diag-80203-3CarcinomaundiffNOS_Treatagnt-Gemcit_Smpltumrstat-Tumor_Tumrclass-Metastatic</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b73a0eb7-1090-4241-a1b5-bfc72e00af71</testCaseGuid>
+</TestCaseEntity>

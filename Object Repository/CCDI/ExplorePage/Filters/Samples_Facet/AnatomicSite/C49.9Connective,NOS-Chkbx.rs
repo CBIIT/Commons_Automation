@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>C76.3Pelvis,NOS-Chkbx</name>
+   <name>C49.9Connective,NOS-Chkbx</name>
    <tag></tag>
-   <elementGuidId>fa54e914-da40-4a48-a72c-6193727961d2</elementGuidId>
+   <elementGuidId>34ae90e9-d7cd-427c-b63f-ec428beb2b89</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Anatomic site_C72.9: Central nervous system&quot;]</value>
+         <value>(//*[@id=&quot;checkbox_Anatomic site_C49.9 : Connective, subcutaneous and other soft tissues, NOS&quot;])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Anatomic site_C72.9: Central nervous system&quot;]</value>
-      <webElementGuid>5f0407cd-a56e-4dba-b98f-c03c828f8085</webElementGuid>
+      <value>(//*[@id=&quot;checkbox_Anatomic site_C49.9 : Connective, subcutaneous and other soft tissues, NOS&quot;])[2]</value>
+      <webElementGuid>48d8f32d-ecc7-4482-bd8c-ac96e5eb3bb9</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_CCDI_phs000470_Sex-Female_Race_Unknown_FirstEvent-Death</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>977e744f-d634-4fd4-84f1-fcd2af788b20</testCaseGuid>
+</TestCaseEntity>

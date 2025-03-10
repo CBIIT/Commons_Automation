@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_CCDI_phs000471_Sex-Female_FirstEvent-Relapse_TumorClass-Primary</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bb322ebe-847a-4c2c-aa38-afa301cdf56b</testCaseGuid>
+</TestCaseEntity>
