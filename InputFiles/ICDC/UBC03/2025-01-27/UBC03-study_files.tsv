@@ -1,0 +1,3 @@
+type	file_name	uuid	file_size	md5sum	file_status	file_location	file_format	acl	study.clinical_study_designation	sample.sample_id	file_type	file_description
+file	UBC03 Study Protocol.docx	230f6b7a-9f0f-5371-9a3c-7a1843a1f39d	34983	b85638a290c4264aa19f6f1c3323e480	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/UBC03/UBC03 Study Protocol.docx	docx	['Open']	UBC03		Study Protocol	"Background, methods, key findings and clinical and pathological data"
+file	UBC03_Supp_Data.csv	3c34a56b-b6da-5850-a8d3-2977205348b6	5451	a2a4c7fe831b41b5001c90a899088db2	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/UBC03/UBC03_Supp_Data.csv	csv	['Open']	UBC03		Supplemental Data File	Supplemental clinical and longitudinal data

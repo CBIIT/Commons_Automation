@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC14_ICDC_UC01_FileType-WholeExomeSeqFile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6580a134-a3ff-4c64-8246-0d3afa03dfd1</testCaseGuid>
+</TestCaseEntity>

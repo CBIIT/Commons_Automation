@@ -1,0 +1,61 @@
+type	case.case_record_id	diagnosis_record_id	disease_term	primary_disease_site	stage_of_disease	date_of_diagnosis	best_response	treatment_data	follow_up_data	pathology_report	concurrent_disease	concurrent_disease_type
+diagnosis	UBC02-699-989-2	UBC02-699-989-2	Bladder Cancer	Bladder	T2N0M0	2006-10-25	Not Determined	Yes	Yes	No	Yes	Diabetes Mellitus, Splenic Leiomyosarcoma
+diagnosis	UBC02-725-540-Sn	UBC02-725-540-Sn	Bladder Cancer	Bladder, Urethra	T2N0M0	2007-10-12	Not Determined	Yes	Yes	No	No	
+diagnosis	UBC02-726-843-Ab	UBC02-726-843-Ab	Bladder Cancer	Bladder	T2N0M0	2005-05-04	Not Determined	Yes	Yes	No	Yes	Obese
+diagnosis	UBC02-727-745-Po	UBC02-727-745-Po	Bladder Cancer	Bladder, Urethra	T2N1M1	2005-08-04	Not Determined	Yes	Yes	No	No	
+diagnosis	UBC02-728-463-Ch	UBC02-728-463-Ch	Bladder Cancer	Bladder	T2N0M0	2006-09-11	Not Determined	Yes	Yes	No	No	
+diagnosis	UBC02-730-901-Za	UBC02-730-901-Za	Bladder Cancer	Bladder	T2N0M0	2006-05-27	Not Determined	Yes	Yes	No	Yes	Heart Failure
+diagnosis	UBC02-730-904-Ja	UBC02-730-904-Ja	Bladder Cancer	Bladder	T2N0M1	2006-05-24	Not Determined	Yes	Yes	No	No	
+diagnosis	UBC02-731-763-Mis	UBC02-731-763-Mis	Bladder Cancer	Bladder	T2N0M0	2006-08-24	Not Determined	Yes	Yes	No	No	
+diagnosis	UBC02-731-958-57	UBC02-731-958-57	Bladder Cancer	Bladder	T2N0M0	2007-05-23	Not Determined	Yes	Yes	No	No	
+diagnosis	UBC02-732-317-Je	UBC02-732-317-Je	Bladder Cancer	Bladder, Urethra, Vagina	T3N0M0	2006-09-21	Not Determined	Yes	Yes	No	No	
+diagnosis	UBC02-733-364-Sp	UBC02-733-364-Sp	Bladder Cancer	Bladder	T2N0M0	2007-01-25	Not Determined	Yes	Yes	No	No	
+diagnosis	UBC02-733-488-4	UBC02-733-488-4	Bladder Cancer	Bladder, Urethra	T2N0M0	2007-01-19	Not Determined	Yes	Yes	No	No	
+diagnosis	UBC02-733-548-58	UBC02-733-548-58	Bladder Cancer	Bladder, Urethra, Prostate	T3N0M0	2007-01-26	Not Determined	Yes	Yes	No	No	
+diagnosis	UBC02-733-695-Da	UBC02-733-695-Da	Bladder Cancer	Bladder, Urethra, Vagina	T3N0M0	2007-02-09	Not Determined	Yes	Yes	No	No	
+diagnosis	UBC02-733-858-7	UBC02-733-858-7	Bladder Cancer	Bladder	T2N0M0	2007-03-02	Not Determined	Yes	Yes	No	No	
+diagnosis	UBC02-734-148-Mi	UBC02-734-148-Mi	Bladder Cancer	Bladder, Urethra	T2N0M0	2007-03-29	Not Determined	Yes	Yes	No	No	
+diagnosis	UBC02-734-223-8	UBC02-734-223-8	Bladder Cancer	Bladder, Urethra	T2N0M0	2007-04-06	Not Determined	Yes	Yes	No	No	
+diagnosis	UBC02-736-477-60	UBC02-736-477-60	Bladder Cancer	Bladder	T2N0M0	2007-10-24	Not Determined	Yes	Yes	No	No	
+diagnosis	UBC02-737-562-59	UBC02-737-562-59	Bladder Cancer	Bladder, Urethra, Prostate	T3N1M1	2008-02-25	Not Determined	Yes	Yes	No	No	
+diagnosis	UBC02-756-165-20	UBC02-756-165-20	Bladder Cancer	Bladder	T2N0M0	2016-08-11	Not Determined	Yes	Yes	No	Yes	Hypothyroidism, Calcium Oxalate Uroliths
+diagnosis	UBC02-758-158-54	UBC02-758-158-54	Bladder Cancer	Bladder, Urethra	T3N0M0	2016-05-09	Not Determined	Yes	Yes	No	Yes	Hydronephrosis With Medullary Atrophy
+diagnosis	UBC02-765-478-68	UBC02-765-478-68	Bladder Cancer	Bladder, Urethra	T3N0M0	2017-01-19	Not Determined	Yes	Yes	No	No	
+diagnosis	UBC02-774-569-51	UBC02-774-569-51	Bladder Cancer	Bladder, Urethra	T2N0M0	2015-07-01	Not Determined	Yes	Yes	No	Yes	Mammary Carcinoma, Cuteanous Low Grade Mast Cell Tumor
+diagnosis	UBC02-774-615-70	UBC02-774-615-70	Bladder Cancer	Bladder	T2N0M0	2016-11-16	Not Determined	Yes	Yes	No	Yes	Gallbladder Mucocele
+diagnosis	UBC02-774-859-1	UBC02-774-859-1	Bladder Cancer	Bladder	T3N0M0	2014-12-17	Not Determined	Yes	Yes	No	No	
+diagnosis	UBC02-775-801-2	UBC02-775-801-2	Bladder Cancer	Bladder	T2N0M0	2014-12-17	Not Determined	Yes	Yes	No	No	
+diagnosis	UBC02-776-675-63	UBC02-776-675-63	Bladder Cancer	Bladder	T2N0M0	2016-11-09	Not Determined	Yes	Yes	No	No	
+diagnosis	UBC02-776-679-3	UBC02-776-679-3	Bladder Cancer	Bladder, Urethra	T2N0M0	2015-02-12	Not Determined	Yes	Yes	No	No	
+diagnosis	UBC02-777-587-16	UBC02-777-587-16	Bladder Cancer	Bladder, Urethra	T2N0M0	2015-04-08	Not Determined	Yes	Yes	No	Yes	Gallbladder Mucocele
+diagnosis	UBC02-777-592-80	UBC02-777-592-80	Bladder Cancer	Bladder	T2N0M0	2015-04-08	Not Determined	Yes	Yes	No	No	
+diagnosis	UBC02-779-032-18	UBC02-779-032-18	Bladder Cancer	Bladder, Urethra	T2N0M0	2015-06-08	Not Determined	Yes	Yes	No	No	
+diagnosis	UBC02-780-519-15	UBC02-780-519-15	Bladder Cancer	Bladder, Urethra, Prostate	T2N0M0	2015-10-07	Not Determined	Yes	Yes	No	Yes	Addison's Disese
+diagnosis	UBC02-782-492-5	UBC02-782-492-5	Bladder Cancer	Bladder, Urethra	T2N0M0	2016-01-14	Not Determined	Yes	Yes	No	Yes	Hypothyroidism 
+diagnosis	UBC02-783-693-7	UBC02-783-693-7	Bladder Cancer	Bladder, Urethra	T2N0M1	2016-05-03	Not Determined	Yes	Yes	No	No	
+diagnosis	UBC02-784-128-53	UBC02-784-128-53	Bladder Cancer	Bladder	T2N0M0	2016-04-21	Not Determined	Yes	Yes	No	Yes	Tooth Root Abscess
+diagnosis	UBC02-784-135-19	UBC02-784-135-19	Bladder Cancer	Bladder, Urethra, Prostate	T3N0M0	2016-08-05	Not Determined	Yes	Yes	No	Yes	Heartworm Disease
+diagnosis	UBC02-784-373-9	UBC02-784-373-9	Bladder Cancer	Bladder, Urethra	T2N0M0	2016-05-04	Not Determined	Yes	Yes	No	No	
+diagnosis	UBC02-785-313-10	UBC02-785-313-10	Bladder Cancer	Bladder, Urethra, Prostate	T3N1M0	2016-06-29	Not Determined	Yes	Yes	No	No	
+diagnosis	UBC02-785-315-11	UBC02-785-315-11	Bladder Cancer	Bladder, Urethra	T2N0M0	2016-07-01	Not Determined	Yes	Yes	No	Yes	Hypercholesterolemia
+diagnosis	UBC02-785-590-12	UBC02-785-590-12	Bladder Cancer	Bladder, Urethra, Vagina	T2N0M0	2016-07-14	Not Determined	Yes	Yes	No	No	
+diagnosis	UBC02-786-694-64	UBC02-786-694-64	Bladder Cancer	Bladder, Urethra	T2N0M0	2016-09-14	Not Determined	Yes	Yes	No	Yes	Mitral And Tricuspid Encardiosis
+diagnosis	UBC02-786-695-61	UBC02-786-695-61	Bladder Cancer	Bladder, Urethra	T2N1M0	2016-09-14	Not Determined	Yes	Yes	No	Yes	Nasal Mass 
+diagnosis	UBC02-787-089-62	UBC02-787-089-62	Bladder Cancer	Bladder	T2N0M0	2016-10-10	Not Determined	Yes	Yes	No	No	
+diagnosis	UBC02-787-915-73	UBC02-787-915-73	Bladder Cancer	Bladder, Urethra, Prostate	T3N0M0	2016-11-28	Not Determined	Yes	Yes	No	No	
+diagnosis	UBC02-788-241-72	UBC02-788-241-72	Bladder Cancer	Bladder, Urethra	T2N0M0	2016-12-14	Not Determined	Yes	Yes	No	No	
+diagnosis	UBC02-788-334-71	UBC02-788-334-71	Bladder Cancer	Bladder	T2N0M0	2016-12-21	Not Determined	Yes	Yes	No	Yes	Chronic Eye Irritation
+diagnosis	UBC02-788-700-66	UBC02-788-700-66	Bladder Cancer	Bladder	T2N0M0	2017-01-30	Not Determined	Yes	Yes	No	No	
+diagnosis	UBC02-788-991-76	UBC02-788-991-76	Bladder Cancer	Bladder, Urethra	T2N0M0	2017-02-07	Not Determined	Yes	Yes	No	No	
+diagnosis	UBC02-789-025-75	UBC02-789-025-75	Bladder Cancer	Bladder	T2N0M0	2017-02-08	Not Determined	Yes	Yes	No	No	
+diagnosis	UBC02-789-341-77	UBC02-789-341-77	Bladder Cancer	Bladder	T2N0M0	2017-03-02	Not Determined	Yes	Yes	No	Yes	Chronic Lymphocytic Leukemia
+diagnosis	UBC02-789-913-78	UBC02-789-913-78	Bladder Cancer	Bladder	T2N0M0	2017-04-06	Not Determined	Yes	Yes	No	No	
+diagnosis	UBC02-795-409-2z	UBC02-795-409-2z	Bladder Cancer	Bladder	T2N0M0	2018-02-07	Not Determined	Yes	Yes	No	Yes	Hamartoma Left Thigh
+diagnosis	UBC02-795-868-3z	UBC02-795-868-3z	Bladder Cancer	Bladder	T2N0M0	2018-03-07	Not Determined	Yes	Yes	No	No	
+diagnosis	UBC02-795-869-4z	UBC02-795-869-4z	Bladder Cancer	Bladder, Urethra	T2N0M0	2018-03-07	Not Determined	Yes	Yes	No	No	
+diagnosis	UBC02-796-233-1z	UBC02-796-233-1z	Bladder Cancer	Bladder, Urethra	T2N1M0	2018-03-29	Not Determined	Yes	Yes	No	No	
+diagnosis	UBC02-798-150-Hb	UBC02-798-150-Hb	Bladder Cancer	Bladder, Urethra	T2N1M0	2018-07-12	Not Determined	Yes	Yes	No	No	
+diagnosis	UBC02-PCBCC-CDHMCL	UBC02-PCBCC-CDHMCL	Healthy Control	Not Applicable	Not Applicable		Not Applicable	No	No	No	No	
+diagnosis	UBC02-PCBCC-CDGMDD	UBC02-PCBCC-CDGMDD	Healthy Control	Not Applicable	Not Applicable		Not Applicable	No	No	No	No	
+diagnosis	UBC02-PCBCC-CDDMAH	UBC02-PCBCC-CDDMAH	Healthy Control	Not Applicable	Not Applicable		Not Applicable	No	No	No	No	
+diagnosis	UBC02-PCBCC-CDEMBC	UBC02-PCBCC-CDEMBC	Healthy Control	Not Applicable	Not Applicable		Not Applicable	No	No	No	No	

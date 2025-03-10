@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_ICDC_ORGANOIDS01_Diagnosis-BladderCancer</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ae5a6325-149b-4bcc-bef1-550a0f842ab0</testCaseGuid>
+</TestCaseEntity>

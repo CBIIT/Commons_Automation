@@ -1,0 +1,21 @@
+type	cohort.cohort_record_id	study.clinical_study_designation	study_arm.arm_id	case_record_id	patient_id	patient_first_name
+case	UBC03-Luminal Tumors	UBC03		UBC03-775-307	775-307	Cristal
+case	UBC03-Basal Tumors	UBC03		UBC03-776-675	776-675	Danny
+case	UBC03-Luminal Tumors	UBC03		UBC03-775-214	775-214	Dexter
+case	UBC03-Basal Tumors	UBC03		UBC03-774-615	774-615	Emma
+case	UBC03-Basal Tumors	UBC03		UBC03-787-089	787-089	Flair
+case	UBC03-Luminal Tumors	UBC03		UBC03-775-099	775-099	Maxwell
+case	UBC03-Luminal Tumors	UBC03		UBC03-775-220	775-220	McCrae
+case	UBC03-Luminal Tumors	UBC03		UBC03-775-221	775-221	Murphy
+case	UBC03-Luminal Tumors	UBC03		UBC03-775-801	775-801	Nikki
+case	UBC03-Luminal Tumors	UBC03		UBC03-775-230	775-230	Pumpkin
+case	UBC03-Basal Tumors	UBC03		UBC03-774-569	774-569	Rachel
+case	UBC03-Luminal Tumors	UBC03		UBC03-774-859	774-859	Reudi
+case	UBC03-Basal Tumors	UBC03		UBC03-784-881	784-881	Rosie
+case	UBC03-Luminal Tumors	UBC03		UBC03-774-967	774-967	Ruby
+case	UBC03-Basal Tumors	UBC03		UBC03-758-158	758-158	Tempest
+case	UBC03-Luminal Tumors	UBC03		UBC03-800-425	800-425	Zoey
+case	UBC03-Healthy Controls	UBC03		UBC03-PCBCC-CDHMCL-CONT	PCBCC-CDHMCL-CONT	
+case	UBC03-Healthy Controls	UBC03		UBC03-PCBCC-CDGMDD-CONT	PCBCC-CDGMDD-CONT	
+case	UBC03-Healthy Controls	UBC03		UBC03-PCBCC-CDDMAH-CONT	PCBCC-CDDMAH-CONT	
+case	UBC03-Healthy Controls	UBC03		UBC03-PCBCC-CDEMBC-CONT	PCBCC-CDEMBC-CONT	

@@ -1,39 +1,39 @@
 type	case.case_record_id	demographic_record_id	breed	patient_age_at_enrollment	date_of_birth	sex	neutered_indicator	weight
-demographic	UBC01-783-879-Vm01	UBC01-783-879-Vm01	Scottish Terrier	8.2	2008-03-01	Male	Yes	12
-demographic	UBC01-784-125-Vm02	UBC01-784-125-Vm02	Labrador Retriever	10.8	2005-07-01	Female	Yes	31
-demographic	UBC01-784-877-Vm03	UBC01-784-877-Vm03	Chihuahua	11.7	2004-09-15	Male	Yes	7
-demographic	UBC01-785-211-Vm04	UBC01-785-211-Vm04	Labrador Retriever	14	2002-07-01	Female	Yes	33
-demographic	UBC01-779-441-Vm05	UBC01-779-441-Vm05	Irish Terrier	13.1	2003-06-25	Female	Yes	17.3
-demographic	UBC01-786-332-Vm06	UBC01-786-332-Vm06	Mixed Breed	10.7	2006-01-01	Female	Yes	10.3
-demographic	UBC01-787-138-Vm07	UBC01-787-138-Vm07	West Highland White Terrier	12.8	2004-01-01	Male	Yes	8.4
-demographic	UBC01-780-519-Vm08	UBC01-780-519-Vm08	Beagle	12.8	2004-01-01	Male	Yes	13.9
-demographic	UBC01-787-269-Vm09	UBC01-787-269-Vm09	Beagle	9.5	2007-05-21	Female	Yes	12
-demographic	UBC01-787-917-Vm10	UBC01-787-917-Vm10	Scottish Terrier	9.9	2006-12-25	Female	Yes	13
-demographic	UBC01-788-602-Vm11	UBC01-788-602-Vm11	Poodle	9.1	2007-12-07	Female	Yes	20
-demographic	UBC01-788-785-Vm12	UBC01-788-785-Vm12	Belgian Malinois	11.3	2005-10-20	Female	Yes	16.7
-demographic	UBC01-781-811-Vm13	UBC01-781-811-Vm13	Basset Hound	11.3	2005-10-10	Male	Yes	28
-demographic	UBC01-789-334-Vm14	UBC01-789-334-Vm14	Mixed Breed	13.9	2003-04-03	Female	Yes	18
-demographic	UBC01-742-616-Vm15	UBC01-742-616-Vm15	Beagle	10.8	2006-07-15	Male	Yes	20
-demographic	UBC01-789-663-Vm16	UBC01-789-663-Vm16	Mixed Breed	14.6	2002-09-20	Male	Yes	4.7
-demographic	UBC01-785-315-Vm17	UBC01-785-315-Vm17	Scottish Terrier	15.8	2001-06-24	Female	Yes	7
-demographic	UBC01-775-099-Vm18	UBC01-775-099-Vm18	Scottish Terrier	9.1	2008-04-22	Male	Yes	13
-demographic	UBC01-790-651-Vm19	UBC01-790-651-Vm19	Scottish Terrier	11.2	2006-04-07	Male	Yes	12.6
-demographic	UBC01-776-675-Vm20	UBC01-776-675-Vm20	Scottish Terrier	10.9	2006-07-01	Male	Yes	12.5
-demographic	UBC01-790-957-Vm21	UBC01-790-957-Vm21	Labrador Retriever	12	2005-05-29	Female	Yes	32
-demographic	UBC01-790-955-Vm22	UBC01-790-955-Vm22	Mixed Breed	12.5	2004-12-15	Female	Yes	12
-demographic	UBC01-791-182-Vm23	UBC01-791-182-Vm23	West Highland White Terrier	8.4	2009-02-06	Male	Yes	8.3
-demographic	UBC01-791-476-Vm24	UBC01-791-476-Vm24	Shetland Sheepdog	10.1	2007-06-14	Male	Yes	13
-demographic	UBC01-792-523-Vm25	UBC01-792-523-Vm25	Mixed Breed	12.9	2004-10-21	Female	Yes	19
-demographic	UBC01-792-406-Vm26	UBC01-792-406-Vm26	Wire Fox Terrier	11.6	2006-01-23	Female	Yes	10
-demographic	UBC01-791-912-Vm27	UBC01-791-912-Vm27	Mixed Breed	11.7	2005-12-10	Female	Yes	30
-demographic	UBC01-792-526-Vm28	UBC01-792-526-Vm28	Mixed Breed	9.7	2008-01-04	Male	Yes	32.8
-demographic	UBC01-793-014-Vm29	UBC01-793-014-Vm29	Miniature Pinscher	13.2	2004-07-26	Male	Yes	7.3
-demographic	UBC01-793-142-Vm30	UBC01-793-142-Vm30	Border Collie	13.4	2004-05-30	Female	Yes	16.8
-demographic	UBC01-793-265-Vm31	UBC01-793-265-Vm31	Maltese	9	2008-09-30	Female	Yes	3.8
-demographic	UBC01-793-464-Vm32	UBC01-793-464-Vm32	Shetland Sheepdog	8	2009-10-12	Male	Yes	15.4
-demographic	UBC01-748-065-Vm33	UBC01-748-065-Vm33	Labrador Retriever	13.9	2004-01-01	Male	Yes	24.2
-demographic	UBC01-793-959-Vm34	UBC01-793-959-Vm34	Beagle	11.1	2006-10-06	Female	Yes	14.6
-demographic	UBC01-PCBCC-CDHMCL	UBC01-PCBCC-CDHMCL	Mixed Breed		2012-03-15	Female	No	18
-demographic	UBC01-PCBCC-CDGMDD	UBC01-PCBCC-CDGMDD	Mixed Breed		2012-03-01	Female	No	18.7
-demographic	UBC01-PCBCC-CDDMAH	UBC01-PCBCC-CDDMAH	Mixed Breed		2012-02-10	Female	No	19
-demographic	UBC01-PCBCC-CDEMBC	UBC01-PCBCC-CDEMBC	Mixed Breed		2012-01-30	Female	No	18
+demographic	UBC01-783-879-Vm01	UBC01-783-879-Vm01	Scottish Terrier	8.2	3/1/2008	Male	Yes	12
+demographic	UBC01-784-125-Vm02	UBC01-784-125-Vm02	Labrador Retriever	10.8	7/1/2005	Female	Yes	31
+demographic	UBC01-784-877-Vm03	UBC01-784-877-Vm03	Chihuahua	11.7	9/15/2004	Male	Yes	7
+demographic	UBC01-785-211-Vm04	UBC01-785-211-Vm04	Labrador Retriever	14	7/1/2002	Female	Yes	33
+demographic	UBC01-779-441-Vm05	UBC01-779-441-Vm05	Irish Terrier	13.1	6/25/2003	Female	Yes	17.3
+demographic	UBC01-786-332-Vm06	UBC01-786-332-Vm06	Mixed Breed	10.7	1/1/2006	Female	Yes	10.3
+demographic	UBC01-787-138-Vm07	UBC01-787-138-Vm07	West Highland White Terrier	12.8	1/1/2004	Male	Yes	8.4
+demographic	UBC01-780-519-Vm08	UBC01-780-519-Vm08	Beagle	12.8	1/1/2004	Male	Yes	13.9
+demographic	UBC01-787-269-Vm09	UBC01-787-269-Vm09	Beagle	9.5	5/21/2007	Female	Yes	12
+demographic	UBC01-787-917-Vm10	UBC01-787-917-Vm10	Scottish Terrier	9.9	12/25/2006	Female	Yes	13
+demographic	UBC01-788-602-Vm11	UBC01-788-602-Vm11	Poodle	9.1	12/7/2007	Female	Yes	20
+demographic	UBC01-788-785-Vm12	UBC01-788-785-Vm12	Belgian Malinois	11.3	10/20/2005	Female	Yes	16.7
+demographic	UBC01-781-811-Vm13	UBC01-781-811-Vm13	Basset Hound	11.3	10/10/2005	Male	Yes	28
+demographic	UBC01-789-334-Vm14	UBC01-789-334-Vm14	Mixed Breed	13.9	4/3/2003	Female	Yes	18
+demographic	UBC01-742-616-Vm15	UBC01-742-616-Vm15	Beagle	10.8	7/15/2006	Male	Yes	20
+demographic	UBC01-789-663-Vm16	UBC01-789-663-Vm16	Mixed Breed	14.6	9/20/2002	Male	Yes	4.7
+demographic	UBC01-785-315-Vm17	UBC01-785-315-Vm17	Scottish Terrier	15.8	6/24/2001	Female	Yes	7
+demographic	UBC01-775-099-Vm18	UBC01-775-099-Vm18	Scottish Terrier	9.1	4/22/2008	Male	Yes	13
+demographic	UBC01-790-651-Vm19	UBC01-790-651-Vm19	Scottish Terrier	11.2	4/7/2006	Male	Yes	12.6
+demographic	UBC01-776-675-Vm20	UBC01-776-675-Vm20	Scottish Terrier	10.9	7/1/2006	Male	Yes	12.5
+demographic	UBC01-790-957-Vm21	UBC01-790-957-Vm21	Labrador Retriever	12	5/29/2005	Female	Yes	32
+demographic	UBC01-790-955-Vm22	UBC01-790-955-Vm22	Mixed Breed	12.5	12/15/2004	Female	Yes	12
+demographic	UBC01-791-182-Vm23	UBC01-791-182-Vm23	West Highland White Terrier	8.4	2/6/2009	Male	Yes	8.3
+demographic	UBC01-791-476-Vm24	UBC01-791-476-Vm24	Shetland Sheepdog	10.1	6/14/2007	Male	Yes	13
+demographic	UBC01-792-523-Vm25	UBC01-792-523-Vm25	Mixed Breed	12.9	10/21/2004	Female	Yes	19
+demographic	UBC01-792-406-Vm26	UBC01-792-406-Vm26	Wire Fox Terrier	11.6	1/23/2006	Female	Yes	10
+demographic	UBC01-791-912-Vm27	UBC01-791-912-Vm27	Mixed Breed	11.7	12/10/2005	Female	Yes	30
+demographic	UBC01-792-526-Vm28	UBC01-792-526-Vm28	Mixed Breed	9.7	1/4/2008	Male	Yes	32.8
+demographic	UBC01-793-014-Vm29	UBC01-793-014-Vm29	Miniature Pinscher	13.2	7/26/2004	Male	Yes	7.3
+demographic	UBC01-793-142-Vm30	UBC01-793-142-Vm30	Border Collie	13.4	5/30/2004	Female	Yes	16.8
+demographic	UBC01-793-265-Vm31	UBC01-793-265-Vm31	Maltese	9	9/30/2008	Female	Yes	3.8
+demographic	UBC01-793-464-Vm32	UBC01-793-464-Vm32	Shetland Sheepdog	8	10/12/2009	Male	Yes	15.4
+demographic	UBC01-748-065-Vm33	UBC01-748-065-Vm33	Labrador Retriever	13.9	1/1/2004	Male	Yes	24.2
+demographic	UBC01-793-959-Vm34	UBC01-793-959-Vm34	Beagle	11.1	10/6/2006	Female	Yes	14.6
+demographic	UBC01-PCBCC-CDHMCL	UBC01-PCBCC-CDHMCL	Mixed Breed		3/15/2012	Female	No	18
+demographic	UBC01-PCBCC-CDGMDD	UBC01-PCBCC-CDGMDD	Mixed Breed		3/1/2012	Female	No	18.7
+demographic	UBC01-PCBCC-CDDMAH	UBC01-PCBCC-CDDMAH	Mixed Breed		2/10/2012	Female	No	19
+demographic	UBC01-PCBCC-CDEMBC	UBC01-PCBCC-CDEMBC	Mixed Breed		1/30/2012	Female	No	18

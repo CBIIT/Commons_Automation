@@ -1,0 +1,145 @@
+type	case.case_record_id	visit.visit_id	sample_id	sample_site	physical_sample_type	general_sample_pathology	tumor_sample_origin	summarized_sample_type	molecular_subtype	specific_sample_pathology	date_of_sample_collection	sample_chronology	necropsy_sample	tumor_grade	length_of_tumor	width_of_tumor	volume_of_tumor	percentage_tumor	sample_preservation	comment
+sample	OSA02-T223986		OSA02-T223986	Femur	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	5/3/2006	Before Treatment	No	Unknown				Not Determined	Snap Frozen	
+sample	OSA02-T212759		OSA02-T212759	Humerus	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	11/3/2004	Before Treatment	No	Unknown				Not Determined	Snap Frozen	
+sample	OSA02-T208911		OSA02-T208911	Humerus	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Giant Cell Osteosarcoma	4/30/2004	Before Treatment	No	Unknown				Not Determined	Snap Frozen	
+sample	OSA02-T208756		OSA02-T208756	Humerus	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	4/29/2004	Before Treatment	No	Unknown				Not Determined	Snap Frozen	
+sample	OSA02-T208513		OSA02-T208513	Humerus	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	4/7/2004	Before Treatment	No	Unknown				Not Determined	Snap Frozen	
+sample	OSA02-T204714		OSA02-T204714	Tibia	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Giant Cell Osteosarcoma	9/19/2003	Before Treatment	No	Unknown				Not Determined	Snap Frozen	
+sample	OSA02-T193231		OSA02-T193231	Radius	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	3/20/2002	Before Treatment	No	Unknown				Not Determined	Snap Frozen	
+sample	OSA02-T190030		OSA02-T190030	Radius	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	10/18/2001	Before Treatment	No	Unknown				Not Determined	Snap Frozen	
+sample	OSA02-T188084		OSA02-T188084	Radius	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteosarcoma	7/19/2001	Before Treatment	No	Unknown				Not Determined	Snap Frozen	
+sample	OSA02-T184844		OSA02-T184844	Humerus	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	2/22/2001	Before Treatment	No	Unknown				Not Determined	Snap Frozen	
+sample	OSA02-T180223		OSA02-T180223	Femur	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	7/19/2000	Before Treatment	No	Unknown				Not Determined	Snap Frozen	
+sample	OSA02-T180119		OSA02-T180119	Femur	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	7/11/2000	Before Treatment	No	Unknown				Not Determined	Snap Frozen	
+sample	OSA02-T179891		OSA02-T179891	Humerus	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteosarcoma	7/3/2000	Before Treatment	No	Unknown				Not Determined	Snap Frozen	
+sample	OSA02-T173175		OSA02-T173175	Femur	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	7/23/1999	Before Treatment	No	Unknown				Not Determined	Snap Frozen	
+sample	OSA02-T168327		OSA02-T168327	Radius	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	11/10/1998	Before Treatment	No	Unknown				Not Determined	Snap Frozen	
+sample	OSA02-T153599		OSA02-T153599	Tibia	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Giant Cell Osteosarcoma	11/7/1996	Before Treatment	No	Unknown				Not Determined	Snap Frozen	
+sample	OSA02-T881		OSA02-T881	Radius	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteosarcoma	9/27/2007	Before Treatment	No	Unknown				100	Snap Frozen	
+sample	OSA02-T763		OSA02-T763	Radius	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteosarcoma	4/16/2007	Before Treatment	No	Unknown				100	Snap Frozen	
+sample	OSA02-T497		OSA02-T497	Radius	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteosarcoma	3/10/2006	Before Treatment	No	Unknown				100	Snap Frozen	
+sample	OSA02-T448		OSA02-T448	Radius	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteosarcoma	1/24/2006	Before Treatment	No	Unknown				100	Snap Frozen	
+sample	OSA02-T430		OSA02-T430	Radius	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteosarcoma	1/10/2006	Before Treatment	No	Unknown				100	Snap Frozen	
+sample	OSA02-T362		OSA02-T362	Tibia	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Chondroblastic Osteosarcoma	10/11/2005	Before Treatment	No	Unknown				100	Snap Frozen	
+sample	OSA02-T266		OSA02-T266	Tibia	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteosarcoma	2/7/2005	Before Treatment	No	Unknown				Not Determined	Snap Frozen	
+sample	OSA02-T15		OSA02-T15	Radius	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteosarcoma	11/3/2003	Before Treatment	No	Unknown				100	Snap Frozen	
+sample	OSA02-T105		OSA02-T105	Femur	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	7/20/2004	Before Treatment	No	Unknown				100	Snap Frozen	
+sample	OSA02-T-999		OSA02-T-999	Radius	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteosarcoma	3/18/2008	Before Treatment	No	High				100	Snap Frozen	
+sample	OSA02-T-992		OSA02-T-992	Tibia	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteosarcoma	3/11/2008	Before Treatment	No	High				100	Snap Frozen	
+sample	OSA02-T-907		OSA02-T-907	Tibia	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteosarcoma	11/9/2007	Before Treatment	No	High				100	Snap Frozen	
+sample	OSA02-T-856		OSA02-T-856	Humerus	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	8/28/2007	Before Treatment	No	High				100	Snap Frozen	
+sample	OSA02-T-843		OSA02-T-843	Tibia	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	8/17/2007	Before Treatment	No	High				100	Snap Frozen	
+sample	OSA02-T-74		OSA02-T-74	Radius	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	4/22/2004	Before Treatment	No	High				80	Snap Frozen	
+sample	OSA02-T-554		OSA02-T-554	Scapula	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Telangiectatic Osteosarcoma	6/5/2006	Before Treatment	No	High				80	Snap Frozen	
+sample	OSA02-T-458		OSA02-T-458	Humerus	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteosarcoma	2/1/2006	Before Treatment	No	High				50	Snap Frozen	
+sample	OSA02-T-424		OSA02-T-424	Radius	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteosarcoma	12/29/2005	Before Treatment	No	High				100	Snap Frozen	
+sample	OSA02-T-399		OSA02-T-399	Femur	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	11/23/2005	Before Treatment	No	High				80	Snap Frozen	
+sample	OSA02-T-346		OSA02-T-346	Radius	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteosarcoma	9/19/2005	Before Treatment	No	High				100	Snap Frozen	
+sample	OSA02-T-343		OSA02-T-343	Femur	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteosarcoma	9/15/2005	Before Treatment	No	High				100	Snap Frozen	
+sample	OSA02-T-276		OSA02-T-276	Humerus	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteosarcoma	6/30/2005	Before Treatment	No	High				Not Determined	Snap Frozen	
+sample	OSA02-T-153		OSA02-T-153	Radius	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	10/29/2004	Before Treatment	No	High				100	Snap Frozen	
+sample	OSA02-T-149		OSA02-T-149	Humerus	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	10/20/2004	Before Treatment	No	High				100	Snap Frozen	
+sample	OSA02-T-134		OSA02-T-134	Humerus	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteosarcoma	10/4/2004	Before Treatment	No	High				100	Snap Frozen	
+sample	OSA02-T-1272		OSA02-T-1272	Humerus	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteosarcoma	8/9/2010	Before Treatment	No	High				100	Snap Frozen	
+sample	OSA02-T-1247		OSA02-T-1247	Humerus	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteosarcoma	4/30/2010	Before Treatment	No	High				100	Snap Frozen	
+sample	OSA02-T-1246		OSA02-T-1246	Radius	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	4/30/2010	Before Treatment	No	High				100	Snap Frozen	
+sample	OSA02-T-1192		OSA02-T-1192	Radius	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteosarcoma	8/19/2009	Before Treatment	No	High				75	Snap Frozen	
+sample	OSA02-T-1166		OSA02-T-1166	Tibia	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteosarcoma	5/20/2008	Before Treatment	No	High				50	Snap Frozen	
+sample	OSA02-T-1096		OSA02-T-1096	Radius	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Giant Cell Osteosarcoma	10/28/2008	Before Treatment	No	High				Not Determined	Snap Frozen	
+sample	OSA02-T-1087		OSA02-T-1087	Humerus	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteosarcoma	10/3/2008	Before Treatment	No	High				100	Snap Frozen	
+sample	OSA02-T-1023		OSA02-T-1023	Tibia	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Chondroblastic Osteosarcoma	4/17/2008	Before Treatment	No	High				100	Snap Frozen	
+sample	OSA02-T9B		OSA02-T9B	Femur	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic and Chondroblastic Osteosarcoma	2/25/2016	Before Treatment	No	1				75	Snap Frozen	
+sample	OSA02-T8A		OSA02-T8A	Tibia	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	2/23/2016	Before Treatment	No	1				100	Snap Frozen	
+sample	OSA02-T7B		OSA02-T7B	Radius	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic and Chondroblastic Osteosarcoma	2/4/2016	Before Treatment	No	1				80	Snap Frozen	
+sample	OSA02-T70B		OSA02-T70B	Femur	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic and Chondroblastic Osteosarcoma	10/2/2018	Before Treatment	No	1				>95	Snap Frozen	
+sample	OSA02-T6C		OSA02-T6C	Radius	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	1/29/2016	Before Treatment	No	1				>95	Snap Frozen	
+sample	OSA02-T68A		OSA02-T68A	Radius	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Fibroblastic Osteosarcoma	8/7/2018	Before Treatment	No	3				95	Snap Frozen	
+sample	OSA02-T67A		OSA02-T67A	Femur	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	7/20/2018	Before Treatment	No	3				>95	Snap Frozen	
+sample	OSA02-T63B		OSA02-T63B	Tibia	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic and Chondroblastic Osteosarcoma	6/29/2018	Before Treatment	No	2				95	Snap Frozen	
+sample	OSA02-T62A		OSA02-T62A	Tibia	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	6/7/2018	Before Treatment	No	3				95	Snap Frozen	
+sample	OSA02-T61C		OSA02-T61C	Radius	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	5/15/2018	Before Treatment	No	1				30	Snap Frozen	
+sample	OSA02-T5B		OSA02-T5B	Humerus	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteosarcoma	11/10/2015	Before Treatment	No	Unknown				45	Snap Frozen	
+sample	OSA02-T59A		OSA02-T59A	Tibia	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	4/20/2018	Before Treatment	No	3				95	Snap Frozen	
+sample	OSA02-T57C		OSA02-T57C	Radius	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	4/10/2018	Before Treatment	No	3				100	Snap Frozen	
+sample	OSA02-T56C		OSA02-T56C	Radius	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	2/27/2018	Before Treatment	No	3				95	Snap Frozen	
+sample	OSA02-T55C		OSA02-T55C	Tibia	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	2/9/2018	Before Treatment	No	3				>95	Snap Frozen	
+sample	OSA02-T54B		OSA02-T54B	Humerus	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	2/6/2018	Before Treatment	No	3				60	Snap Frozen	
+sample	OSA02-T53B		OSA02-T53B	Femur	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	1/25/2018	Before Treatment	No	Unknown				70	Snap Frozen	
+sample	OSA02-T52A		OSA02-T52A	Radius	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	1/18/2018	Before Treatment	No	2				>95	Snap Frozen	
+sample	OSA02-T51C		OSA02-T51C	Radius	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	1/18/2018	Before Treatment	No	2				>95	Snap Frozen	
+sample	OSA02-T50C		OSA02-T50C	Tibia	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Giant Cell Osteosarcoma	1/5/2018	Before Treatment	No	2				45	Snap Frozen	
+sample	OSA02-T4B		OSA02-T4B	Radius	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteosarcoma	10/29/2015	Before Treatment	No	Unknown				100	Snap Frozen	
+sample	OSA02-T49B		OSA02-T49B	Radius	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	1/5/2018	Before Treatment	No	2				75	Snap Frozen	
+sample	OSA02-T47A		OSA02-T47A	Humerus	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic and Chondroblastic Osteosarcoma	12/15/2017	Before Treatment	No	2				80	Snap Frozen	
+sample	OSA02-T46A		OSA02-T46A	Radius	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	12/1/2017	Before Treatment	No	2				>95	Snap Frozen	
+sample	OSA02-T45A		OSA02-T45A	Tibia	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	11/21/2017	Before Treatment	No	3				>95	Snap Frozen	
+sample	OSA02-T43A		OSA02-T43A	Tibia	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Chondroblastic Osteosarcoma	10/24/2017	Before Treatment	No	2				85	Snap Frozen	
+sample	OSA02-T42A		OSA02-T42A	Tibia	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	9/21/2017	Before Treatment	No	1				90	Snap Frozen	
+sample	OSA02-T41B		OSA02-T41B	Radius	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Giant Cell Osteosarcoma	9/19/2017	Before Treatment	No	3				100	Snap Frozen	
+sample	OSA02-T40B		OSA02-T40B	Tibia	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	9/14/2017	Before Treatment	No	2				>95	Snap Frozen	
+sample	OSA02-T3C		OSA02-T3C	Radius	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteosarcoma	10/14/2015	Before Treatment	No	Unknown				Not Determined	Snap Frozen	
+sample	OSA02-T39A		OSA02-T39A	Femur	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	8/17/2017	Before Treatment	No	3				75	Snap Frozen	
+sample	OSA02-T38C		OSA02-T38C	Tibia	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	8/11/2017	Before Treatment	No	2				70	Snap Frozen	
+sample	OSA02-T37B		OSA02-T37B	Tibia	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	7/17/2017	Before Treatment	No	3				85	Snap Frozen	
+sample	OSA02-T36B		OSA02-T36B	Femur	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	7/6/2017	Before Treatment	No	Unknown				>95	Snap Frozen	
+sample	OSA02-T35C		OSA02-T35C	Radius	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	6/15/2017	Before Treatment	No	3				>95	Snap Frozen	
+sample	OSA02-T34B		OSA02-T34B	Scapula	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	5/30/2017	Before Treatment	No	2				50	Snap Frozen	
+sample	OSA02-T32C		OSA02-T32C	Radius	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	5/4/2017	Before Treatment	No	Unknown				>95	Snap Frozen	
+sample	OSA02-T31B		OSA02-T31B	Radius	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	3/24/2017	Before Treatment	No	3				>95	Snap Frozen	
+sample	OSA02-T30A		OSA02-T30A	Radius	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic and Chondroblastic Osteosarcoma	3/16/2017	Before Treatment	No	3				>95	Snap Frozen	
+sample	OSA02-T2C		OSA02-T2C	Radius	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteosarcoma	10/13/2015	Before Treatment	No	Unknown				Not Determined	Snap Frozen	
+sample	OSA02-T27C		OSA02-T27C	Radius	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	2/23/2017	Before Treatment	No	Unknown				75	Snap Frozen	
+sample	OSA02-T26B		OSA02-T26B	Tibia	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	2/2/2017	Before Treatment	No	3				>95	Snap Frozen	
+sample	OSA02-T24D		OSA02-T24D	Radius	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic and Chondroblastic Osteosarcoma	12/28/2016	Before Treatment	No	1				>95	Snap Frozen	
+sample	OSA02-T23B		OSA02-T23B	Radius	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	11/17/2016	Before Treatment	No	Unknown				80	Snap Frozen	
+sample	OSA02-T22A		OSA02-T22A	Radius	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	11/1/2016	Before Treatment	No	2				75	Snap Frozen	
+sample	OSA02-T21A		OSA02-T21A	Humerus	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Fibroblastic Osteosarcoma	10/28/2016	Before Treatment	No	3				>95	Snap Frozen	
+sample	OSA02-T20A		OSA02-T20A	Ulna	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteosarcoma	10/27/2016	Before Treatment	No	3				>95	Snap Frozen	
+sample	OSA02-T1C		OSA02-T1C	Radius	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteosarcoma	10/6/2015	Before Treatment	No	Unknown				95	Snap Frozen	
+sample	OSA02-T19B		OSA02-T19B	Humerus	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteosarcoma	10/14/2016	Before Treatment	No	2				100	Snap Frozen	
+sample	OSA02-T18B		OSA02-T18B	Tibia	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic and Chondroblastic Osteosarcoma	10/13/2016	Before Treatment	No	2				90	Snap Frozen	
+sample	OSA02-T17B		OSA02-T17B	Radius	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	10/11/2016	Before Treatment	No	1				90	Snap Frozen	
+sample	OSA02-T16B		OSA02-T16B	Radius	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	9/22/2016	Before Treatment	No	3				25	Snap Frozen	
+sample	OSA02-T15A		OSA02-T15A	Femur	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	8/30/2016	Before Treatment	No	1				50	Snap Frozen	
+sample	OSA02-T14B		OSA02-T14B	Radius	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	8/23/2016	Before Treatment	No	3				100	Snap Frozen	
+sample	OSA02-T13C		OSA02-T13C	Humerus	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	8/19/2016	Before Treatment	No	3				>95	Snap Frozen	
+sample	OSA02-T12A		OSA02-T12A	Humerus	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	7/28/2016	Before Treatment	No	3				85	Snap Frozen	
+sample	OSA02-T11B		OSA02-T11B	Femur	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Fibroblastic Osteosarcoma	7/8/2016	Before Treatment	No	1				>95	Snap Frozen	
+sample	OSA02-T10A		OSA02-T10A	Radius	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Fibroblastic Osteosarcoma	3/24/2016	Before Treatment	No	3				100	Snap Frozen	
+sample	OSA02-T-29C		OSA02-T-29C	Tibia	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic Osteosarcoma	3/14/2017	Before Treatment	No	3				60	Snap Frozen	
+sample	OSA02-T-25		OSA02-T-25	Tibia	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue		Osteoblastic and Chondroblastic Osteosarcoma	1/20/2017	Before Treatment	No	1				50	Snap Frozen	
+sample	OSA02-N1		OSA02-N1	Radius	Tissue	Normal	Not Applicable	Normal Tissue		Not Applicable	4/30/2010	Before Treatment	No	Not Applicable				Not Applicable	Snap Frozen	
+sample	OSA02-N2		OSA02-N2	Humerus	Tissue	Normal	Not Applicable	Normal Tissue		Not Applicable	2/23/2010	Before Treatment	No	Not Applicable				Not Applicable	Snap Frozen	
+sample	OSA02-N3		OSA02-N3	Humerus	Tissue	Normal	Not Applicable	Normal Tissue		Not Applicable	1/28/2010	Before Treatment	No	Not Applicable				Not Applicable	Snap Frozen	
+sample	OSA02-N4		OSA02-N4	Femur	Tissue	Normal	Not Applicable	Normal Tissue		Not Applicable	3/5/2010	Before Treatment	No	Not Applicable				Not Applicable	Snap Frozen	
+sample	OSA02-N5		OSA02-N5	Tibia	Tissue	Normal	Not Applicable	Normal Tissue		Not Applicable	10/5/2009	Before Treatment	No	Not Applicable				Not Applicable	Snap Frozen	
+sample	OSA02-N8		OSA02-N8	Femur	Tissue	Normal	Not Applicable	Normal Tissue		Not Applicable	9/30/2009	Before Treatment	No	Not Applicable				Not Applicable	Snap Frozen	
+sample	OSA02-N9		OSA02-N9	Humerus	Tissue	Normal	Not Applicable	Normal Tissue		Not Applicable	4/30/2010	Before Treatment	No	Not Applicable				Not Applicable	Snap Frozen	
+sample	OSA02-N10		OSA02-N10	Tibia	Tissue	Normal	Not Applicable	Normal Tissue		Not Applicable	9/10/2009	Before Treatment	No	Not Applicable				Not Applicable	Snap Frozen	
+sample	OSA02-T-1166		OSA02-M-1166	Lung	Tissue	Malignant	Metastatic	Metastatic Tumor Tissue		Undefined	7/22/2009	After Treatment	Unknown	Unknown				Not Determined	Snap Frozen	
+sample	OSA02-T-1023		OSA02-N-1023	Skin and Muscle	Tissue	Normal	Not Applicable	Normal Tissue		Not Applicable	4/17/2008	Before Treatment	No	Not Applicable				Not Applicable	Snap Frozen	
+sample	OSA02-T-1087		OSA02-N-1087	Blood	Whole Blood	Not Applicable	Not Applicable	Whole Blood		Not Applicable	10/3/2008	Before Treatment	No	Not Applicable				Not Applicable	Snap Frozen	
+sample	OSA02-T-1096		OSA02-N-1096	Skin and Muscle	Tissue	Normal	Not Applicable	Normal Tissue		Not Applicable	10/28/2008	Before Treatment	No	Not Applicable				Not Applicable	Snap Frozen	
+sample	OSA02-T-1166		OSA02-N-1166	Blood	Whole Blood	Not Applicable	Not Applicable	Whole Blood		Not Applicable	5/20/2008	Before Treatment	No	Not Applicable				Not Applicable	Snap Frozen	
+sample	OSA02-T-1192		OSA02-N-1192	Blood	Whole Blood	Not Applicable	Not Applicable	Whole Blood		Not Applicable	8/19/2009	Before Treatment	No	Not Applicable				Not Applicable	Snap Frozen	
+sample	OSA02-T-1246		OSA02-N-1246	Blood	Whole Blood	Not Applicable	Not Applicable	Whole Blood		Not Applicable	4/30/2010	Before Treatment	No	Not Applicable				Not Applicable	Snap Frozen	
+sample	OSA02-T-1247		OSA02-N-1247	Skin 	Tissue	Normal	Not Applicable	Normal Tissue		Not Applicable	4/30/2010	Before Treatment	No	Not Applicable				Not Applicable	Snap Frozen	
+sample	OSA02-T-1272		OSA02-N-1272	Skin	Tissue	Normal	Not Applicable	Normal Tissue		Not Applicable	8/9/2010	Before Treatment	No	Not Applicable				Not Applicable	Snap Frozen	
+sample	OSA02-T-134		OSA02-N-134	Skin	Tissue	Normal	Not Applicable	Normal Tissue		Not Applicable	10/4/2004	Before Treatment	No	Not Applicable				Not Applicable	Snap Frozen	
+sample	OSA02-T-149		OSA02-N-149	Skin	Tissue	Normal	Not Applicable	Normal Tissue		Not Applicable	10/20/2004	Before Treatment	No	Not Applicable				Not Applicable	Snap Frozen	
+sample	OSA02-T-153		OSA02-N-153	Skin	Tissue	Normal	Not Applicable	Normal Tissue		Not Applicable	10/29/2004	Before Treatment	No	Not Applicable				Not Applicable	Snap Frozen	
+sample	OSA02-T-25		OSA02-N-25	Blood	Whole Blood	Not Applicable	Not Applicable	Whole Blood		Not Applicable	1/20/2017	Before Treatment	No	Not Applicable				Not Applicable	Snap Frozen	
+sample	OSA02-T-276		OSA02-N-276	Skin	Tissue	Normal	Not Applicable	Normal Tissue		Not Applicable	6/30/2005	Before Treatment	No	Not Applicable				Not Applicable	Snap Frozen	
+sample	OSA02-T-29C		OSA02-N-29C	Blood	Whole Blood	Not Applicable	Not Applicable	Whole Blood		Not Applicable	3/14/2017	Before Treatment	No	Not Applicable				Not Applicable	Snap Frozen	
+sample	OSA02-T-343		OSA02-N-343	Skin	Tissue	Normal	Not Applicable	Normal Tissue		Not Applicable	9/15/2005	Before Treatment	No	Not Applicable				Not Applicable	Snap Frozen	
+sample	OSA02-T-346		OSA02-N-346	Skin	Tissue	Normal	Not Applicable	Normal Tissue		Not Applicable	9/19/2005	Before Treatment	No	Not Applicable				Not Applicable	Snap Frozen	
+sample	OSA02-T-399		OSA02-N-399	Skin	Tissue	Normal	Not Applicable	Normal Tissue		Not Applicable	11/23/2005	Before Treatment	No	Not Applicable				Not Applicable	Snap Frozen	
+sample	OSA02-T-424		OSA02-N-424	Skin	Tissue	Normal	Not Applicable	Normal Tissue		Not Applicable	12/29/2005	Before Treatment	No	Not Applicable				Not Applicable	Snap Frozen	
+sample	OSA02-T-458		OSA02-N-458	Skin and Muscle	Tissue	Normal	Not Applicable	Normal Tissue		Not Applicable	2/1/2006	Before Treatment	No	Not Applicable				Not Applicable	Snap Frozen	
+sample	OSA02-T-554		OSA02-N-554	Skin and Muscle	Tissue	Normal	Not Applicable	Normal Tissue		Not Applicable	6/5/2006	Before Treatment	No	Not Applicable				Not Applicable	Snap Frozen	
+sample	OSA02-T-74		OSA02-N-74	Skin	Tissue	Normal	Not Applicable	Normal Tissue		Not Applicable	4/22/2004	Before Treatment	No	Not Applicable				Not Applicable	Snap Frozen	
+sample	OSA02-T-843		OSA02-N-843	Skin and Muscle	Tissue	Normal	Not Applicable	Normal Tissue		Not Applicable	8/17/2007	Before Treatment	No	Not Applicable				Not Applicable	Snap Frozen	
+sample	OSA02-T-856		OSA02-N-856	Skin and Muscle	Tissue	Normal	Not Applicable	Normal Tissue		Not Applicable	8/28/2007	Before Treatment	No	Not Applicable				Not Applicable	Snap Frozen	
+sample	OSA02-T-907		OSA02-N-907	Skin and Muscle	Tissue	Normal	Not Applicable	Normal Tissue		Not Applicable	11/9/2007	Before Treatment	No	Not Applicable				Not Applicable	Snap Frozen	
+sample	OSA02-T-992		OSA02-N-992	Skin and Muscle	Tissue	Normal	Not Applicable	Normal Tissue		Not Applicable	3/11/2008	Before Treatment	No	Not Applicable				Not Applicable	Snap Frozen	
+sample	OSA02-T-999		OSA02-N-999	Skin and Muscle	Tissue	Normal	Not Applicable	Normal Tissue		Not Applicable	3/18/2008	Before Treatment	No	Not Applicable				Not Applicable	Snap Frozen	

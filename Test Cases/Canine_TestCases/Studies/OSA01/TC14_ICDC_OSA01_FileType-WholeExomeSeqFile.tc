@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC14_ICDC_OSA01_FileType-WholeExomeSeqFile</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>7c9e7a28-ec6e-45ec-ad32-ead85cac7e45</testCaseGuid>
-</TestCaseEntity>
