@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>This is 'Akita' checkbox inside Breed filter</description>
+   <description></description>
    <name>Newfoundland_Chkbx</name>
    <tag></tag>
    <elementGuidId>e47b891f-bee5-4d18-9408-6aa0c360dd8f</elementGuidId>
@@ -11,6 +11,7 @@
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -18,5 +19,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id='checkbox_Breed_Newfoundland']</value>
+      <webElementGuid>02da0c6e-584d-4755-8ba2-e07c5e3a43e6</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

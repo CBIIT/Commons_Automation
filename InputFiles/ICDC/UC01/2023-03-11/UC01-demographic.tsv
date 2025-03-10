@@ -1,0 +1,37 @@
+type	case.case_record_id	demographic_record_id	breed	additional_breed_detail	patient_age_at_enrollment	date_of_birth	sex	weight	neutered_indicator
+demographic	UC01-UD-001	UC01-UD-001	Border Terrier		11		Female		Yes
+demographic	UC01-UD-003	UC01-UD-003	Beagle		12		Female		Yes
+demographic	UC01-UD-007	UC01-UD-007	American Staffordshire Terrier		14		Female		Yes
+demographic	UC01-UD-018	UC01-UD-018	Mixed Breed	Labrador mix	12		Female		Yes
+demographic	UC01-UD-027	UC01-UD-027	Rat Terrier		14		Female		Yes
+demographic	UC01-UD-033	UC01-UD-033	Toy Poodle		12		Female		Yes
+demographic	UC01-UD-049	UC01-UD-049	Scottish Terrier		13		Female		Yes
+demographic	UC01-UD-054	UC01-UD-054	Beagle		8		Female		Yes
+demographic	UC01-UD-081	UC01-UD-081	Miniature Dachshund		9		Female		Yes
+demographic	UC01-UD-082	UC01-UD-082	Boston Terrier		13		Female		Yes
+demographic	UC01-UD-084	UC01-UD-084	Mixed Breed		10		Female		Yes
+demographic	UC01-UD-085	UC01-UD-085	Labrador Retriever		13		Male		Yes
+demographic	UC01-UD-088	UC01-UD-088	Unknown		12		Male		Yes
+demographic	UC01-UD-091	UC01-UD-091	Great Dane		8		Female		Yes
+demographic	UC01-UD-092	UC01-UD-092	Mixed Breed	Terrier mix	11		Male		Yes
+demographic	UC01-UD-097	UC01-UD-097	Beagle		11		Female		Yes
+demographic	UC01-UD-098	UC01-UD-098	Boston Terrier		9		Female		Yes
+demographic	UC01-UD-099	UC01-UD-099	Beagle		8		Female		Yes
+demographic	UC01-UD-100	UC01-UD-100	Mixed Breed	Beagle/Terrier mix	13		Female		Yes
+demographic	UC01-UD-102	UC01-UD-102	Mixed Breed	German Shepherd mix	14		Male		Yes
+demographic	UC01-UD-104	UC01-UD-104	Bluetick Coonhound		13		Female		No
+demographic	UC01-UD-105	UC01-UD-105	Beagle		13		Male		Yes
+demographic	UC01-UD-106	UC01-UD-106	Mixed Breed	Golden Retriever/Collie mix	11		Female		Yes
+demographic	UC01-UD-108	UC01-UD-108	Basset Hound		11		Male		Yes
+demographic	UC01-UD-109	UC01-UD-109	Beagle		12		Female		Yes
+demographic	UC01-UD-110	UC01-UD-110	Collie		12		Female		Yes
+demographic	UC01-UD-112	UC01-UD-112	Pomeranian		14		Female		Yes
+demographic	UC01-UD-113	UC01-UD-113	Beagle		13		Female		Yes
+demographic	UC01-POS-124	UC01-POS-124	Coton de Tulear		13		Female		Yes
+demographic	UC01-POS-125	UC01-POS-125	Mixed Breed	Labrador mix	9		Female		Yes
+demographic	UC01-POS-127	UC01-POS-127	Mixed Breed	Labrador/Poodle mix	8		Female		Yes
+demographic	UC01-POS-128	UC01-POS-128	Miniature Schnauzer		10		Female		Yes
+demographic	UC01-POS-131	UC01-POS-131	Labrador Retriever		12		Unknown		Unknown
+demographic	UC01-POS-134	UC01-POS-134	Australian Cattle Dog		8		Female		Yes
+demographic	UC01-POS-138	UC01-POS-138	Mixed Breed		14		Female		Yes
+demographic	UC01-POS-2027	UC01-POS-2027	Mixed Breed	Yorkshire Terrier/Shih Tzu mix	11		Male		Yes

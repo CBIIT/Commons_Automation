@@ -1,0 +1,5 @@
+type	 study.clinical_study_designation	publication_title	authorship	year_of_publication	journal_citation	digital_object_id	pubmed_id
+publication	OSA02	Immune pathways and TP53 missense mutations are associated with longer survival in canine osteosarcoma.	"Das, S et al."	2021	Commun Biol. 4(1):1178	10.1038/s42003-021-02683-0	34635775
+publication	OSA02	Prospective clinical trial testing COXEN-based gene expression models of chemosensitivity in dogs with spontaneous osteosarcoma.	"Gustafson, DL et al."	2021	Cancer Chemother Pharmacol. 88(4):699-712	10.1007/s00280-021-04325-y	34263337
+publication	OSA02	Intra- and interspecies gene expression models for predicting drug response in canine osteosarcoma.	"Fowles, JS et al."	2016	BMC Bioinformatics. 17:93	10.1186/s12859-016-0942-8	26892349
+publication	OSA02	Expression profiling in canine osteosarcoma: identification of biomarkers and pathways associated with outcome.	O'Donoghue LE et al.	2010	BMC Cancer 10:506	10.1186/1471-2407-10-506	20860831

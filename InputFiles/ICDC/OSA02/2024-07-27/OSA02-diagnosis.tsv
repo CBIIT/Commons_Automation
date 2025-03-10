@@ -1,0 +1,118 @@
+type	case.case_record_id	diagnosis_record_id	disease_term	primary_disease_site	stage_of_disease	date_of_diagnosis	histology_cytopathology	date_of_histology_confirmation	histological_grade	best_response	pathology_report	treatment_data	follow_up_data	concurrent_disease	concurrent_disease_type
+diagnosis	OSA02-T223986	OSA02-T223986	Osteosarcoma	Bone (Appendicular)	Not Determined	5/3/2006				Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T212759	OSA02-T212759	Osteosarcoma	Bone (Appendicular)	Not Determined	11/3/2004				Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T208911	OSA02-T208911	Osteosarcoma	Bone (Appendicular)	Not Determined	4/30/2004				Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T208756	OSA02-T208756	Osteosarcoma	Bone (Appendicular)	Not Determined	4/29/2004				Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T208513	OSA02-T208513	Osteosarcoma	Bone (Appendicular)	Not Determined	4/7/2004				Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T204714	OSA02-T204714	Osteosarcoma	Bone (Appendicular)	Not Determined	9/19/2003				Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T193231	OSA02-T193231	Osteosarcoma	Bone (Appendicular)	Not Determined	3/20/2002				Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T190030	OSA02-T190030	Osteosarcoma	Bone (Appendicular)	Not Determined	10/18/2001				Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T188084	OSA02-T188084	Osteosarcoma	Bone (Appendicular)	Not Determined	7/19/2001				Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T184844	OSA02-T184844	Osteosarcoma	Bone (Appendicular)	Not Determined	2/22/2001				Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T180223	OSA02-T180223	Osteosarcoma	Bone (Appendicular)	Not Determined	7/19/2000				Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T180119	OSA02-T180119	Osteosarcoma	Bone (Appendicular)	Not Determined	7/11/2000				Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T179891	OSA02-T179891	Osteosarcoma	Bone (Appendicular)	Not Determined	7/3/2000				Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T173175	OSA02-T173175	Osteosarcoma	Bone (Appendicular)	Not Determined	7/23/1999				Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T168327	OSA02-T168327	Osteosarcoma	Bone (Appendicular)	Not Determined	11/10/1998				Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T153599	OSA02-T153599	Osteosarcoma	Bone (Appendicular)	Not Determined	11/7/1996				Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T881	OSA02-T881	Osteosarcoma	Bone (Appendicular)	Not Determined	9/27/2007				Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T763	OSA02-T763	Osteosarcoma	Bone (Appendicular)	Not Determined	4/16/2007				Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T497	OSA02-T497	Osteosarcoma	Bone (Appendicular)	Not Determined	3/10/2006				Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T448	OSA02-T448	Osteosarcoma	Bone (Appendicular)	Not Determined	1/24/2006				Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T430	OSA02-T430	Osteosarcoma	Bone (Appendicular)	Not Determined	1/10/2006				Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T362	OSA02-T362	Osteosarcoma	Bone (Appendicular)	Not Determined	10/11/2005				Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T266	OSA02-T266	Osteosarcoma	Bone (Appendicular)	Not Determined	2/7/2005				Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T15	OSA02-T15	Osteosarcoma	Bone (Appendicular)	Not Determined	11/3/2003				Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T105	OSA02-T105	Osteosarcoma	Bone (Appendicular)	Not Determined	7/20/2004				Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T-999	OSA02-T-999	Osteosarcoma	Bone (Appendicular)	IIb	3/18/2008				Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T-992	OSA02-T-992	Osteosarcoma	Bone (Appendicular)	IIIb	3/11/2008				Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T-907	OSA02-T-907	Osteosarcoma	Bone (Appendicular)	IIb	11/9/2007				Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T-856	OSA02-T-856	Osteosarcoma	Bone (Appendicular)	II	8/28/2007				Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T-843	OSA02-T-843	Osteosarcoma	Bone (Appendicular)	II	8/17/2007				Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T-74	OSA02-T-74	Osteosarcoma	Bone (Appendicular)	IIb	4/22/2004				Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T-554	OSA02-T-554	Osteosarcoma	Bone (Appendicular)	IIb	6/5/2006				Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T-458	OSA02-T-458	Osteosarcoma	Bone (Appendicular)	IIb	2/1/2006				Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T-424	OSA02-T-424	Osteosarcoma	Bone (Appendicular)	II	12/29/2005				Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T-399	OSA02-T-399	Osteosarcoma	Bone (Appendicular)	IIb	11/23/2005				Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T-346	OSA02-T-346	Osteosarcoma	Bone (Appendicular)	IIb	9/19/2005				Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T-343	OSA02-T-343	Osteosarcoma	Bone (Appendicular)	IIb	9/15/2005				Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T-276	OSA02-T-276	Osteosarcoma	Bone (Appendicular)	II	6/30/2005				Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T-153	OSA02-T-153	Osteosarcoma	Bone (Appendicular)	IIb	10/29/2004				Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T-149	OSA02-T-149	Osteosarcoma	Bone (Appendicular)	IIb	10/20/2004				Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T-134	OSA02-T-134	Osteosarcoma	Bone (Appendicular)	IIb	10/4/2004				Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T-1272	OSA02-T-1272	Osteosarcoma	Bone (Appendicular)	IIb	8/9/2010				Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T-1247	OSA02-T-1247	Osteosarcoma	Bone (Appendicular)	IIb	4/30/2010				Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T-1246	OSA02-T-1246	Osteosarcoma	Bone (Appendicular)	IIb	4/30/2010				Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T-1192	OSA02-T-1192	Osteosarcoma	Bone (Appendicular)	II	8/19/2009				Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T-1166	OSA02-T-1166	Osteosarcoma	Bone (Appendicular)	II	5/20/2008				Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T-1096	OSA02-T-1096	Osteosarcoma	Bone (Appendicular)	IIb	10/28/2008				Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T-1087	OSA02-T-1087	Osteosarcoma	Bone (Appendicular)	IIb	10/3/2008				Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T-1023	OSA02-T-1023	Osteosarcoma	Bone (Appendicular)	IIb	4/17/2008				Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T9B	OSA02-T9B	Osteosarcoma	Bone (Appendicular)	Not Determined	2/25/2016		2/25/2016	1	Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T8A	OSA02-T8A	Osteosarcoma	Bone (Appendicular)	Not Determined	2/23/2016		2/23/2016	1	Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T7B	OSA02-T7B	Osteosarcoma	Bone (Appendicular)	Not Determined	2/4/2016		2/4/2016	1	Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T70B	OSA02-T70B	Osteosarcoma	Bone (Appendicular)	Not Determined	10/2/2018		10/2/2018	1	Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T6C	OSA02-T6C	Osteosarcoma	Bone (Appendicular)	Not Determined	1/29/2016		1/29/2016	1	Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T68A	OSA02-T68A	Osteosarcoma	Bone (Appendicular)	Not Determined	8/7/2018		8/7/2018	3	Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T67A	OSA02-T67A	Osteosarcoma	Bone (Appendicular)	Not Determined	7/20/2018		7/20/2018	3	Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T63B	OSA02-T63B	Osteosarcoma	Bone (Appendicular)	Not Determined	6/29/2018		6/29/2018	2	Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T62A	OSA02-T62A	Osteosarcoma	Bone (Appendicular)	Not Determined	6/7/2018		6/7/2018	3	Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T61C	OSA02-T61C	Osteosarcoma	Bone (Appendicular)	Not Determined	5/15/2018		5/15/2018	1	Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T5B	OSA02-T5B	Osteosarcoma	Bone (Appendicular)	Not Determined	11/10/2015		11/10/2015		Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T59A	OSA02-T59A	Osteosarcoma	Bone (Appendicular)	Not Determined	4/20/2018		4/20/2018	3	Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T57C	OSA02-T57C	Osteosarcoma	Bone (Appendicular)	Not Determined	4/10/2018		4/10/2018	3	Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T56C	OSA02-T56C	Osteosarcoma	Bone (Appendicular)	Not Determined	2/27/2018		2/27/2018	3	Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T55C	OSA02-T55C	Osteosarcoma	Bone (Appendicular)	Not Determined	2/9/2018		2/9/2018	3	Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T54B	OSA02-T54B	Osteosarcoma	Bone (Appendicular)	Not Determined	2/6/2018		2/6/2018	3	Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T53B	OSA02-T53B	Osteosarcoma	Bone (Appendicular)	Not Determined	1/25/2018		2/2/2018		Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T52A	OSA02-T52A	Osteosarcoma	Bone (Appendicular)	Not Determined	1/18/2018		1/18/2018	2	Not Applicable	No	Yes	Yes	Yes	Hemangiosarcoma
+diagnosis	OSA02-T51C	OSA02-T51C	Osteosarcoma	Bone (Appendicular)	Not Determined	1/18/2018		1/18/2018	2	Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T50C	OSA02-T50C	Osteosarcoma	Bone (Appendicular)	Not Determined	1/5/2018		1/5/2018	2	Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T4B	OSA02-T4B	Osteosarcoma	Bone (Appendicular)	Not Determined	10/29/2015		10/29/2015		Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T49B	OSA02-T49B	Osteosarcoma	Bone (Appendicular)	Not Determined	1/5/2018		1/5/2018	2	Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T47A	OSA02-T47A	Osteosarcoma	Bone (Appendicular)	Not Determined	12/15/2017		12/15/2017	2	Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T46A	OSA02-T46A	Osteosarcoma	Bone (Appendicular)	Not Determined	12/1/2017		12/1/2017	2	Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T45A	OSA02-T45A	Osteosarcoma	Bone (Appendicular)	Not Determined	11/21/2017		11/21/2017	3	Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T43A	OSA02-T43A	Osteosarcoma	Bone (Appendicular)	Not Determined	10/24/2017		10/24/2017	2	Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T42A	OSA02-T42A	Osteosarcoma	Bone (Appendicular)	Not Determined	9/21/2017		9/21/2017	1	Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T41B	OSA02-T41B	Osteosarcoma	Bone (Appendicular)	Not Determined	9/19/2017		9/19/2017	3	Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T40B	OSA02-T40B	Osteosarcoma	Bone (Appendicular)	Not Determined	9/14/2017		9/14/2017	2	Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T3C	OSA02-T3C	Osteosarcoma	Bone (Appendicular)	Not Determined	10/14/2015		10/14/2015		Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T39A	OSA02-T39A	Osteosarcoma	Bone (Appendicular)	Not Determined	8/17/2017		8/18/2017	3	Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T38C	OSA02-T38C	Osteosarcoma	Bone (Appendicular)	Not Determined	8/11/2017		8/11/2017	2	Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T37B	OSA02-T37B	Osteosarcoma	Bone (Appendicular)	Not Determined	7/17/2017		8/11/2017	3	Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T36B	OSA02-T36B	Osteosarcoma	Bone (Appendicular)	Not Determined	7/6/2017		7/6/2017		Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T35C	OSA02-T35C	Osteosarcoma	Bone (Appendicular)	Not Determined	6/15/2017		6/15/2017	3	Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T34B	OSA02-T34B	Osteosarcoma	Bone (Appendicular)	Not Determined	5/30/2017		5/30/2017	2	Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T32C	OSA02-T32C	Osteosarcoma	Bone (Appendicular)	Not Determined	5/4/2017		5/4/2017		Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T31B	OSA02-T31B	Osteosarcoma	Bone (Appendicular)	Not Determined	3/24/2017		3/24/2017	3	Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T30A	OSA02-T30A	Osteosarcoma	Bone (Appendicular)	Not Determined	3/16/2017		3/16/2017	3	Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T2C	OSA02-T2C	Osteosarcoma	Bone (Appendicular)	Not Determined	10/13/2015		10/13/2015		Not Applicable	No	Yes	Yes	Yes	Hemangiosarcoma
+diagnosis	OSA02-T27C	OSA02-T27C	Osteosarcoma	Bone (Appendicular)	Not Determined	2/23/2017		2/23/2017		Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T26B	OSA02-T26B	Osteosarcoma	Bone (Appendicular)	Not Determined	2/2/2017		2/2/2017	3	Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T24D	OSA02-T24D	Osteosarcoma	Bone (Appendicular)	Not Determined	12/28/2016		12/28/2016	1	Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T23B	OSA02-T23B	Osteosarcoma	Bone (Appendicular)	Not Determined	11/17/2016		11/17/2016		Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T22A	OSA02-T22A	Osteosarcoma	Bone (Appendicular)	Not Determined	11/1/2016		11/1/2016	2	Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T21A	OSA02-T21A	Osteosarcoma	Bone (Appendicular)	Not Determined	10/28/2016		10/28/2016	3	Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T20A	OSA02-T20A	Osteosarcoma	Bone (Appendicular)	Not Determined	10/27/2016		10/27/2016	3	Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T1C	OSA02-T1C	Osteosarcoma	Bone (Appendicular)	Not Determined	10/6/2015		10/6/2015		Not Applicable	No	Yes	Yes	Yes	B-cell Lymphoma
+diagnosis	OSA02-T19B	OSA02-T19B	Osteosarcoma	Bone (Appendicular)	Not Determined	10/14/2016		10/14/2016	2	Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T18B	OSA02-T18B	Osteosarcoma	Bone (Appendicular)	Not Determined	10/13/2016		10/13/2016	2	Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T17B	OSA02-T17B	Osteosarcoma	Bone (Appendicular)	Not Determined	10/11/2016		10/11/2016	1	Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T16B	OSA02-T16B	Osteosarcoma	Bone (Appendicular)	Not Determined	9/22/2016		9/22/2016	3	Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T15A	OSA02-T15A	Osteosarcoma	Bone (Appendicular)	Not Determined	8/30/2016		8/30/2016	1	Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T14B	OSA02-T14B	Osteosarcoma	Bone (Appendicular)	Not Determined	8/23/2016		8/22/2016	3	Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T13C	OSA02-T13C	Osteosarcoma	Bone (Appendicular)	Not Determined	8/19/2016		8/9/2016	3	Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T12A	OSA02-T12A	Osteosarcoma	Bone (Appendicular)	Not Determined	7/28/2016		7/28/2016	3	Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T11B	OSA02-T11B	Osteosarcoma	Bone (Appendicular)	Not Determined	7/8/2016		7/8/2016	1	Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T10A	OSA02-T10A	Osteosarcoma	Bone (Appendicular)	Not Determined	3/24/2016		3/24/2016	3	Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T-29C	OSA02-T-29C	Osteosarcoma	Bone (Appendicular)	Not Determined	3/14/2017		3/14/2017	3	Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-T-25	OSA02-T-25	Osteosarcoma	Bone (Appendicular)	Not Determined	1/20/2017		1/20/2017	1	Not Applicable	No	Yes	Yes	Unknown	
+diagnosis	OSA02-N1	OSA02-N1	Osteosarcoma	Bone (Appendicular)	Not Determined					Not Applicable	No	No	No	Unknown	
+diagnosis	OSA02-N2	OSA02-N2	Osteosarcoma	Bone (Appendicular)	Not Determined					Not Applicable	No	No	No	Unknown	
+diagnosis	OSA02-N3	OSA02-N3	Osteosarcoma	Bone (Appendicular)	Not Determined					Not Applicable	No	No	No	Unknown	
+diagnosis	OSA02-N4	OSA02-N4	Osteosarcoma	Bone (Appendicular)	Not Determined					Not Applicable	No	No	No	Unknown	
+diagnosis	OSA02-N5	OSA02-N5	Osteosarcoma	Bone (Appendicular)	Not Determined					Not Applicable	No	No	No	Unknown	
+diagnosis	OSA02-N8	OSA02-N8	Osteosarcoma	Bone (Appendicular)	Not Determined					Not Applicable	No	No	No	Unknown	
+diagnosis	OSA02-N9	OSA02-N9	Osteosarcoma	Bone (Appendicular)	Not Determined					Not Applicable	No	No	No	Unknown	
+diagnosis	OSA02-N10	OSA02-N10	Osteosarcoma	Bone (Appendicular)	Not Determined					Not Applicable	No	No	No	Unknown	

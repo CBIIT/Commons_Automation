@@ -1,0 +1,6 @@
+type	study_arm.arm_id	cohort_record_id	cohort_description	cohort_dose
+cohort	UBC02-High Risk Breed	UBC02-High Risk Breed; Luminal	High Risk Breed; Luminal	
+cohort	UBC02-High Risk Breed	UBC02-High Risk Breed; Basal	High Risk Breed; Basal	
+cohort	UBC02-Average Risk Breed	UBC02-Average Risk Breed; Luminal	Average Risk Breed; Luminal	
+cohort	UBC02-Average Risk Breed	UBC02-Average Risk Breed; Basal	Average Risk Breed; Basal	
+cohort	UBC02-Healthy Controls	UBC02-Healthy Controls	Healthy Controls	

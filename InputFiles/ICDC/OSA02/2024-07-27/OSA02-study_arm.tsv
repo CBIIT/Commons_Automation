@@ -1,0 +1,5 @@
+type	 study.clinical_study_designation	arm	ctep_treatment_assignment_code	arm_description	arm_id
+study_arm	OSA02	DFI		The purpose of DFI was to identify differentially expressed genes between tumors from patients that were metastasis free for either greater than 300 days or less than 100 days following treatment with amputation of the affected limb and chemotherapy with doxorubicin and/or a platinum-based therapy.	OSA02-DFI
+study_arm	OSA02	COXEN1		The purpose of Coxen 1 was a retrospective study to generate gene expression algorithms that could discriminate patients that would respond well to treatment with doxorubicin or platinum based therapies.	OSA02-COXEN1
+study_arm	OSA02	COXEN2		Coxen 2 was a prospective clinical trial to apply the gene expression signatures identified in Coxen 1 to a cohort of dogs with osteosarcoma to determine if those gene expression signature would improve patient responses to therapies with doxorubicin and/or carboplatin.	OSA02-COXEN2
+study_arm	OSA02	Control		Dogs used as controls for gene expression analysis.	OSA02-Controls

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC09_ICDC_OSA01_NeuterStatus-Yes</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>18fa40f4-44ce-4cac-960f-7dd426bee1a4</testCaseGuid>
-</TestCaseEntity>

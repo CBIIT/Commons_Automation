@@ -1,0 +1,61 @@
+clinical_study_designation	case_id	patient_id	date_of_registration	site_short_name	breed	sex	neutered_indicator	weight	patient_age_at_enrollment	disease_term	primary_disease_site	stage_of_disease	date_of_diagnosis	pathology_report	treatment_data	follow_up_data	concurrent_disease	concurrent_disease_type
+NCATS-COP01	NCATS-COP01-CCB010015	CCB010015	2007-07-13	Colorado State	Mixed Breed	M	Y	38	12	B Cell Lymphoma	Lymph Node	III		Y	Y	Y	U	
+NCATS-COP01	NCATS-COP01-CCB010031	CCB010031	2007-10-01	Colorado State	Mixed Breed	M	Y	31	8	T Cell Lymphoma	Lymph Node	III		Y	Y	Y	U	
+NCATS-COP01	NCATS-COP01-CCB010045	CCB010045	2008-01-03	Colorado State	Beagle	F	Y	12	5	T Cell Lymphoma	Lymph Node	III		Y	Y	Y	U	
+NCATS-COP01	NCATS-COP01-CCB010072	CCB010072	2008-05-27	Colorado State	Akita	F	Y	31.8	10	Osteosarcoma	Bone			Y	Y	Y	U	
+NCATS-COP01	NCATS-COP01-CCB010091	CCB010091	2008-07-23	Colorado State	Labrador Retriever	F	Y	28	9	Osteosarcoma	Bone			Y	Y	Y	U	
+NCATS-COP01	NCATS-COP01-CCB010093	CCB010093	2008-07-28	Colorado State	Mixed Breed	M	Y	49.8	7	T Cell Lymphoma	Lymph Node	III		Y	Y	Y	U	
+NCATS-COP01	NCATS-COP01-CCB010178	CCB010178	2009-04-27	Colorado State	Staffordshire Bull Terrier	M	Y	37.2	7	B Cell Lymphoma	Lymph Node	III		Y	Y	Y	U	
+NCATS-COP01	NCATS-COP01-CCB010208	CCB010208	2009-07-23	Colorado State	Vizsla	F	Y	22.4	3	B Cell Lymphoma	Lymph Node	III		Y	Y	Y	U	
+NCATS-COP01	NCATS-COP01-CCB010233	CCB010233	2010-02-11	Colorado State	Golden Retriever	M	Y	38	6	T Cell Lymphoma	Lymph Node	III		Y	Y	Y	U	
+NCATS-COP01	NCATS-COP01-CCB010234	CCB010234	2010-02-15	Colorado State	Mixed Breed	M	Y	30	7	B Cell Lymphoma	Lymph Node	III		Y	Y	Y	U	
+NCATS-COP01	NCATS-COP01-CCB010235	CCB010235	2010-02-16	Colorado State	Mixed Breed	F	Y	35.5	8	B Cell Lymphoma	Lymph Node	III		Y	Y	Y	U	
+NCATS-COP01	NCATS-COP01-CCB010243	CCB010243	2010-04-19	Colorado State	Golden Retriever	F	Y	25	7	T Cell Lymphoma	Lymph Node	III		Y	Y	Y	U	
+NCATS-COP01	NCATS-COP01-CCB010285	CCB010285	2010-11-22	Colorado State	Doberman Pinscher	F	Y	28	10	Pulmonary Neoplasms	Lung			Y	Y	Y	U	
+NCATS-COP01	NCATS-COP01-CCB010311	CCB010311	2011-03-14	Colorado State	Mixed Breed	F	Y	22.3	10	B Cell Lymphoma	Lymph Node	III		Y	Y	Y	U	
+NCATS-COP01	NCATS-COP01-CCB010378	CCB010378	2012-06-05	Colorado State	Mixed Breed	F	Y	27.5	12	Melanoma	Mouth			Y	Y	Y	N	 
+NCATS-COP01	NCATS-COP01-CCB020018	CCB020018	2007-11-02	OSU	Mixed Breed	M	Y	18.8	12	Osteosarcoma	Bone			Y	Y	Y	N	
+NCATS-COP01	NCATS-COP01-CCB020026	CCB020026	2008-02-20	OSU	Greyhound	M	Y	37.5	7	Osteosarcoma	Bone			Y	Y	Y	N	
+NCATS-COP01	NCATS-COP01-CCB020027	CCB020027	2008-02-25	OSU	German Shepherd Dog	F	Y	35	7	Osteosarcoma	Bone			Y	Y	Y	N	
+NCATS-COP01	NCATS-COP01-CCB020031	CCB020031	2008-04-11	OSU	Bernese Mountain Dog	M	N	44.8	8	B Cell Lymphoma	Lymph Node	IV		Y	Y	Y	Y	anorexia;increased WBC and neutrophils,increased liver enzymes;small nodule in left testicle
+NCATS-COP01	NCATS-COP01-CCB020035	CCB020035	2008-06-23	OSU	Labrador Retriever	F	Y	32	9	B Cell Lymphoma	Lymph Node	IV		Y	Y	Y	N	
+NCATS-COP01	NCATS-COP01-CCB020036	CCB020036	2008-07-01	OSU	Black and Tan Coonhound	F	Y	34.1	10	B Cell Lymphoma	Lymph Node	IV		Y	Y	Y	N	
+NCATS-COP01	NCATS-COP01-CCB020054	CCB020054	2008-09-12	OSU	Labrador Retriever	M	Y	37.1	7	B Cell Lymphoma	Lymph Node	II		Y	Y	Y	N	
+NCATS-COP01	NCATS-COP01-CCB020128	CCB020128	2009-06-25	OSU	Miniature Schnauzer	F	Y	4	10	Melanoma	Mouth			Y	Y	Y	Y	Mammary masses;Suspect Left Thalamocortical lesion;Grade III/VI systolic heart murmur;Dental Disease
+NCATS-COP01	NCATS-COP01-CCB030001	CCB030001	2007-05-21	Wisconsin	Labrador Retriever	F	Y	36	5	B Cell Lymphoma	Lymph Node	III		Y	Y	Y	N	
+NCATS-COP01	NCATS-COP01-CCB030003	CCB030003	2007-06-06	Wisconsin	Golden Retriever	M	Y	39	6	T Cell Lymphoma	Lymph Node	V		Y	Y	Y	N	
+NCATS-COP01	NCATS-COP01-CCB030026	CCB030026	2007-09-18	Wisconsin	Golden Retriever	M	Y	42	9	T Cell Lymphoma	Lymph Node	IV		Y	Y	Y	N	
+NCATS-COP01	NCATS-COP01-CCB030035	CCB030035	2007-11-09	Wisconsin	Saint Bernard	F	Y	62	8	Osteosarcoma	Bone			Y	Y	Y	N	
+NCATS-COP01	NCATS-COP01-CCB030064	CCB030064	2008-03-21	Wisconsin	Labrador Retriever	F	Y	30	8	Osteosarcoma	Bone			Y	Y	Y	N	
+NCATS-COP01	NCATS-COP01-CCB030077	CCB030077	2008-05-09	Wisconsin	Golden Retriever	M	Y	33	10	Osteosarcoma	Bone			Y	Y	Y	N	
+NCATS-COP01	NCATS-COP01-CCB030078	CCB030078	2008-05-09	Wisconsin	Golden Retriever	M	Y	37	9	Osteosarcoma	Bone			Y	Y	Y	N	
+NCATS-COP01	NCATS-COP01-CCB030156	CCB030156	2009-05-05	Wisconsin	Golden Retriever	M	Y	40	4	T Cell Lymphoma	Lymph Node	III		Y	Y	Y	N	
+NCATS-COP01	NCATS-COP01-CCB030162	CCB030162	2009-06-01	Wisconsin	Mixed Breed	F	Y	30	12	Melanoma	Mouth			Y	Y	Y	N	
+NCATS-COP01	NCATS-COP01-CCB030227	CCB030227	2010-01-21	Wisconsin	Golden Retriever	M	Y	37	13	Melanoma	Mouth			Y	Y	Y	N	
+NCATS-COP01	NCATS-COP01-CCB030255	CCB030255	2010-04-14	Wisconsin	Mixed Breed	F	Y	13	7	Pulmonary Neoplasms	Lung			Y	Y	Y	Y	Heart murmur: 2/6 systolic, left apical
+NCATS-COP01	NCATS-COP01-CCB030258	CCB030258	2010-04-28	Wisconsin	Golden Retriever	M	Y	32.6	9	T Cell Lymphoma	Lymph Node	II		Y	Y	Y	N	
+NCATS-COP01	NCATS-COP01-CCB030300	CCB030300	2010-10-07	Wisconsin	Golden Retriever	M	Y	33.8	9	T Cell Lymphoma	Lymph Node	III		Y	Y	Y	N	
+NCATS-COP01	NCATS-COP01-CCB040184	CCB040184	2009-10-06	Tufts	Boxer	M	Y	39.1	4	T Cell Lymphoma	Lymph Node	IV		Y	Y	Y	Y	on prednisone
+NCATS-COP01	NCATS-COP01-CCB040254	CCB040254	2010-03-01	Tufts	American Staffordshire Terrier	F	Y	27.3	13	Pulmonary Neoplasms	Lung			Y	Y	Y	Y	Allergies, on prednisone
+NCATS-COP01	NCATS-COP01-CCB040382	CCB040382	2011-01-20	Tufts	Gordon Setter	F	Y	32	10	Pulmonary Neoplasms	Lung			Y	Y	Y	N	
+NCATS-COP01	NCATS-COP01-CCB050004	CCB050004	2008-05-14	Davis	Bouvier des Flandres	F	Y	29.4	13	B Cell Lymphoma	Lymph Node	III		Y	Y	Y	N	
+NCATS-COP01	NCATS-COP01-CCB050022	CCB050022	2008-08-06	Davis	Greyhound	M	Y	29.4	10	Osteosarcoma	Bone			Y	Y	Y	N	
+NCATS-COP01	NCATS-COP01-CCB050096	CCB050096	2009-06-09	Davis	Labrador Retriever	M	Y	35.8	8	Melanoma	Mouth			Y	N	Y	N	
+NCATS-COP01	NCATS-COP01-CCB050170	CCB050170	2010-01-25	Davis	German Shepherd Dog	M	Y	46.1	10	Melanoma	Mouth			Y	Y	N	N	
+NCATS-COP01	NCATS-COP01-CCB050177	CCB050177	2010-02-24	Davis	Rottweiler	F	Y	31.6	13	Melanoma	Mouth			Y	Y	Y	N	
+NCATS-COP01	NCATS-COP01-CCB050216	CCB050216	2010-07-08	Davis	Mixed Breed	M	Y	23.7	13	Pulmonary Neoplasms	Lung			N	N	N	Y	Oral Melanoma
+NCATS-COP01	NCATS-COP01-CCB050227	CCB050227	2010-07-23	Davis	Labrador Retriever	F	Y	36.5	11	Pulmonary Neoplasms	Lung			Y	N	N	N	
+NCATS-COP01	NCATS-COP01-CCB050297	CCB050297	2011-02-17	Davis	Australian Shepherd	F	Y	21.5	10	Pulmonary Neoplasms	Lung			Y	N	N	N	
+NCATS-COP01	NCATS-COP01-CCB050327	CCB050327	2011-09-01	Davis	Doberman Pinscher	M	Y	43	8	Pulmonary Neoplasms	Lung			Y	N	Y	N	
+NCATS-COP01	NCATS-COP01-CCB060030	CCB060030	2008-12-16	Missouri	Giant Schnauzer	F	Y	31.2	12	Melanoma	Mouth			Y	Y	Y	N	
+NCATS-COP01	NCATS-COP01-CCB060034	CCB060034	2009-01-09	Missouri	Boxer	F	Y	29	4	T Cell Lymphoma	Lymph Node	V		Y	Y	Y	N	
+NCATS-COP01	NCATS-COP01-CCB060039	CCB060039	2009-02-04	Missouri	Cocker Spaniel	M	Y	15	10	Melanoma	Mouth			Y	Y	Y	N	
+NCATS-COP01	NCATS-COP01-CCB060051	CCB060051	2009-04-24	Missouri	Weimaraner	F	Y	28	13	Pulmonary Neoplasms	Lung			Y	Y	Y	Y	fibrosarcoma
+NCATS-COP01	NCATS-COP01-CCB070003	CCB070003	2008-05-09	MSU	German Shorthaired Pointer	F	Y	35.2	12	Osteosarcoma	Bone			Y	Y	Y	N	
+NCATS-COP01	NCATS-COP01-CCB070007	CCB070007	2008-06-03	MSU	West Highland White Terrier	M	Y	7.3	6	Pulmonary Neoplasms	Lung			Y	N	N	Y	Cushings
+NCATS-COP01	NCATS-COP01-CCB070013	CCB070013	2008-03-28	MSU	Rottweiler	M	Y	35	11	Osteosarcoma	Bone			Y	Y	Y	N	
+NCATS-COP01	NCATS-COP01-CCB070020	CCB070020	2008-07-10	MSU	Golden Retriever	F	Y	34	13	Pulmonary Neoplasms	Lung			Y	Y	N	N	
+NCATS-COP01	NCATS-COP01-CCB070034	CCB070034	2008-08-13	MSU	Saint Bernard	F	Y	63.9	9	Pulmonary Neoplasms	Lung			Y	N	N	N	
+NCATS-COP01	NCATS-COP01-CCB070102	CCB070102	2009-06-12	MSU	Mixed Breed	F	Y	3.9	12	Melanoma	Mouth			Y	Y	Y	N	
+NCATS-COP01	NCATS-COP01-CCB080012	CCB080012	2009-03-06	UT	Chinese Shar-Pei	F	Y	20.5	9	Melanoma	Mouth			Y	Y	Y	Y	osteoarthritis, hip
+NCATS-COP01	NCATS-COP01-CCB080018	CCB080018	2009-04-30	UT	Doberman Pinscher	F	Y	43.2	9	Melanoma	Mouth			Y	Y	Y	Y	lick granuloma that is chronic on right hind leg being treated with Primor

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Leonberger_Chkbx</name>
+   <tag></tag>
+   <elementGuidId>037274e0-118c-4c57-8fcd-3053a66f023e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id='checkbox_Breed_Leonberger']&#xd;
+</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id='checkbox_Breed_Leonberger']&#xd;
+</value>
+      <webElementGuid>1049ace8-8fb5-40b4-97aa-f241badc279d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

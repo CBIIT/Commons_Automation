@@ -1,0 +1,21 @@
+type	case.case_record_id	diagnosis_record_id	disease_term	primary_disease_site	stage_of_disease	date_of_diagnosis	histology_cytopathology	date_of_histology_confirmation	histological_grade	best_response	pathology_report	treatment_data	follow_up_data	concurrent_disease	concurrent_disease_type
+diagnosis	UBC03-775-307	UBC03-775-307	Bladder Cancer	"Bladder, Urethra"	T2N0M0	11/17/2014	Urothelial Carcinoma	11/17/2014	3	Partial Response	Yes	Yes	Yes	No	No
+diagnosis	UBC03-776-675	UBC03-776-675	Bladder Cancer	Bladder 	T2N0M0	11/9/2016	Urothelial Carcinoma	11/9/2016	4	Stable Disease	Yes	Yes	Yes	Yes	Bacterial Conjunctivitis
+diagnosis	UBC03-775-214	UBC03-775-214	Bladder Cancer	Bladder	T2N0M0	11/30/2016	Urothelial Carcinoma	11/30/2016	4	Partial Response	Yes	Yes	Yes	Yes	"Gallbladder Mucocele, Congestive Heart Failure"
+diagnosis	UBC03-774-615	UBC03-774-615	Bladder Cancer	Bladder	T2N0M0	11/16/2016	Urothelial Carcinoma	11/16/2016	4	Stable Disease	Yes	Yes	Yes	Yes	"Gallbladder Mucocele, Cirrhosis"
+diagnosis	UBC03-787-089	UBC03-787-089	Bladder Cancer	Bladder	T2N0M0	10/10/2016	Urothelial Carcinoma	10/10/2016	2	Stable Disease	Yes	Yes	Yes	Yes	Vaginitis
+diagnosis	UBC03-775-099	UBC03-775-099	Bladder Cancer	Bladder	T1N0M0	5/18/2017	Urothelial Carcinoma	5/18/2017	3	Not Determined	Yes	Yes	Yes	Yes	Lymphoma
+diagnosis	UBC03-775-220	UBC03-775-220	Bladder Cancer	"Bladder, Urethra"	T2N0M0	11/19/2014	Urothelial Carcinoma	11/19/2014	4	Stable Disease	Yes	Yes	Yes	Yes	Gallbladder Mucocele 
+diagnosis	UBC03-775-221	UBC03-775-221	Bladder Cancer	"Bladder, Urethra"	T3N0M0	11/24/2014	Urothelial Carcinoma	11/24/2014	4	Stable Disease	Yes	Yes	Yes	Yes	Osteoarthritis
+diagnosis	UBC03-775-801	UBC03-775-801	Bladder Cancer	Bladder	T2N0M0	12/24/2014	Urothelial Carcinoma	12/24/2014	3	Partial Response	Yes	Yes	Yes	Yes	Renal Cyst
+diagnosis	UBC03-775-230	UBC03-775-230	Bladder Cancer	Bladder	T2N0M0	4/27/2017	Urothelial Carcinoma	4/27/2017	4	Partial Response	Yes	Yes	Yes	Yes	Pneumonia
+diagnosis	UBC03-774-569	UBC03-774-569	Bladder Cancer	Bladder	T1N0M0	10/6/2014	Urothelial Carcinoma	10/6/2014	Unknown	Not Determined	Yes	Yes	Yes	Yes	"Mammary Carcinoma, Low Grade Mast Cell Tumor"
+diagnosis	UBC03-774-859	UBC03-774-859	Bladder Cancer	Bladder	T2N0M0	12/24/2014	Urothelial Carcinoma	12/24/2014	3	Stable Disease	Yes	Yes	Yes	No	No
+diagnosis	UBC03-784-881	UBC03-784-881	Bladder Cancer	Bladder	T2N0M0	5/18/2017	Urothelial Carcinoma	5/18/2017	4	Stable Disease	Yes	Yes	Yes	Yes	Mammary Carcinoma
+diagnosis	UBC03-774-967	UBC03-774-967	Bladder Cancer	Bladder	T2N0M0	10/27/2014	Urothelial Carcinoma	10/27/2014	4	Partial Response	Yes	Yes	Yes	No	No
+diagnosis	UBC03-758-158	UBC03-758-158	Bladder Cancer	Bladder	T3N0M0 	5/9/2016	Urothelial Carcinoma	5/9/2016	4	Stable Disease	Yes	Yes	Yes	Yes	Cushings Disease
+diagnosis	UBC03-800-425	UBC03-800-425	Bladder Cancer	Bladder	T2N0M0	10/31/2018	Urothelial Carcinoma	10/31/2018	4	Not Determined	Yes	Yes	Yes	No	No
+diagnosis	UBC03-PCBCC-CDHMCL-CONT	UBC03-PCBCC-CDHMCL-CONT	Healthy Control	Not Applicable	Not Applicable		Normal Bladder	3/21/2013	Not Applicable	Not Applicable	Yes	Not Applicable	Not Applicable	No	No
+diagnosis	UBC03-PCBCC-CDGMDD-CONT	UBC03-PCBCC-CDGMDD-CONT	Healthy Control	Not Applicable	Not Applicable		Normal Bladder	3/22/2013	Not Applicable	Not Applicable	Yes	Not Applicable	Not Applicable	No	No
+diagnosis	UBC03-PCBCC-CDDMAH-CONT	UBC03-PCBCC-CDDMAH-CONT	Healthy Control	Not Applicable	Not Applicable		Normal Bladder	3/23/2013	Not Applicable	Not Applicable	Yes	Not Applicable	Not Applicable	No	No
+diagnosis	UBC03-PCBCC-CDEMBC-CONT	UBC03-PCBCC-CDEMBC-CONT	Healthy Control	Not Applicable	Not Applicable		Normal Bladder	3/24/2013	Not Applicable	Not Applicable	Yes	Not Applicable	Not Applicable	No	No

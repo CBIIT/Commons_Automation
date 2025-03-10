@@ -1,0 +1,2 @@
+type	 case.case_id	study.clinical_study_designation	sample.sample_id	 diagnosis.diagnosis_id	file_name	file_type	file_description	original_file_size	original_md5sum	file_size
+file										

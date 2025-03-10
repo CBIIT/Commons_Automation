@@ -1,0 +1,11 @@
+type	study.clinical_study_designation	sample.sample_id	 diagnosis.diagnosis_id	file_name	file_type	file_description	original_file_size	original_md5sum	file_size	file_format
+file	PRECINCT01			PRECINCT01 Cytokine 13-Plex Discovery Assay Results.xlsx	"	
+Supplemental Data File"	Longitudinal results from 13-Plex Discovery Assay analysis			97.61 KB	xlsx
+file	PRECINCT01			PRECINCT01 Demographics and Clinical Data.xlsx	"	
+Supplemental Data File"	"Summarized demographic, disease and outcome data"			90.04 KB	xlsx
+file	PRECINCT01			PRECINCT01 Laboratory Analysis Data.xlsx	"	
+Supplemental Data File"	Longitudinal CBC laboratory analysis data			58.45 KB	xlsx
+file	PRECINCT01			PRECINCT01 Phase 1 Response Measurements.xlsx	"	
+Supplemental Data File"	Phase 1 treatment response measurements			21.6 KB	xlsx
+file	PRECINCT01			PRECINCT01 Quality of Life Assessments.xlsx	"	
+Supplemental Data File"	Owner-reported canine quality of life assessments			17.59 KB	xlsx
