@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_CCDI_phs000469_Sex-NtReprtd_Sampleanatomic-C42.0Blood-SampleTumorstat-Normal</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a561d7fd-57b4-47d1-926e-34068a3d6fce</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CCDI_phs000466_Sex-Male_Race-White</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>27014a56-63d3-4aed-864e-2f4cad6e1b2a</testCaseGuid>
+</TestCaseEntity>

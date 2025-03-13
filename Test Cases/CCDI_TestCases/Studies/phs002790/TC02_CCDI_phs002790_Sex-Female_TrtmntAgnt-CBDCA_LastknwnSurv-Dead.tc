@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_CCDI_phs002790_Sex-Female_TrtmntAgnt-CBDCA_LastknwnSurv-Dead</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dbab2f67-466c-4f90-8125-71b24e1b7114</testCaseGuid>
+</TestCaseEntity>

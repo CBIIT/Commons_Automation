@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_CCDI_phs002430_SampleAnatomicsite-C42.1Bonemarrow</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5217b0f6-5545-4e45-a980-ed31a1f4da5b</testCaseGuid>
+</TestCaseEntity>

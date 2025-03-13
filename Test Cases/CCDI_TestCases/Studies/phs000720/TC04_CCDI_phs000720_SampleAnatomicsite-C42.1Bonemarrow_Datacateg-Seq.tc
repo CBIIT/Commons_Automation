@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_CCDI_phs000720_SampleAnatomicsite-C42.1Bonemarrow_Datacateg-Seq</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1ab58370-8b88-4ff5-b5f6-1197dc2d4672</testCaseGuid>
+</TestCaseEntity>

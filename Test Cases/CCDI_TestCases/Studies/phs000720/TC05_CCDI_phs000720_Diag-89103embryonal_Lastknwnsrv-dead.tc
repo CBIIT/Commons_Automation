@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_CCDI_phs000720_Diag-89103embryonal_Lastknwnsrv-dead</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d20efa10-9fe2-4704-a12b-cd54aecd5cef</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_CCDI_phs000468_Race-Asian_Sampletumorstat-Tumor</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0582c2e8-eeb7-4bc0-a2f0-bf25049f0638</testCaseGuid>
+</TestCaseEntity>
