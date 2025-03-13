@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_CCDI_phs000470_Race-White_SampleAnatomic_C49.9ConnectiveNOS</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b1ad9c27-c3fd-402d-bf02-ac5d9646a3f7</testCaseGuid>
+</TestCaseEntity>
