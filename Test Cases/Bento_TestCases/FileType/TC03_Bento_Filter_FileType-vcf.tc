@@ -4,5 +4,6 @@
    <name>TC03_Bento_Filter_FileType-vcf</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>36d73501-eaf3-45a2-9cde-990c01af0983</testCaseGuid>
 </TestCaseEntity>

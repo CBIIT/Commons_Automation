@@ -12,45 +12,59 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>903af0ee-36df-4bab-bb2b-660c17a084cf</testSuiteGuid>
    <testCaseLink>
-      <guid>24a7c3d9-6678-4763-8d53-798f7baec0f5</guid>
+      <guid>c119807d-8919-4f57-85fa-4a9578b9c15a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Bento_TestCases/EndocrineTherapy/TC01_Bento_Filter_EndocrineTherapy-AI</testCaseId>
+      <testCaseId>Test Cases/Bento_TestCases/ERStatus/TC03_Bento_Filter_ERStatus-Positive</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d3efbb90-00c0-4871-9116-fe74b331ac64</guid>
+      <guid>9589eebb-9a12-47b9-9124-d969c9cd8c8b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Bento_TestCases/EndocrineTherapy/TC07_Bento_Filter_EndocrineTherapy-Tam_AI</testCaseId>
+      <testCaseId>Test Cases/Bento_TestCases/ERStatus/TC01_Bento_Filter_ERStatus-Negative</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>49fbbcfe-cbd2-4e67-adb2-95f62bae57a3</guid>
+      <guid>303bac2d-5877-493b-8355-fc6f86e748b2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Bento_TestCases/EndocrineTherapy/TC06_Bento_Filter_EndocrineTherapy-Tam</testCaseId>
+      <testCaseId>Test Cases/Bento_TestCases/ERStatus/TC02_Bento_Filter_ERStatus-NotReported</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>859fc5b4-6ad7-454e-a880-2fa0159c5c8c</guid>
+      <guid>920a549d-fde1-471f-849e-24b75e4abbfd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Bento_TestCases/EndocrineTherapy/TC04_Bento_Filter_EndocrineTherapy-OFS_AI</testCaseId>
+      <testCaseId>Test Cases/Bento_TestCases/FileAssociation/TC01_Bento_Filter_FileAssoc-Sample</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>72a7582c-23c5-40b4-b62d-c70d89e4c1fb</guid>
+      <guid>15724c5d-73a7-47d9-887b-8ca26e58e7c4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Bento_TestCases/EndocrineTherapy/TC03_Bento_Filter_EndocrineTherapy-OFS</testCaseId>
+      <testCaseId>Test Cases/Bento_TestCases/FileType/TC01_Bento_Filter_FileType-text</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>594d95dc-d88c-4ace-839b-a64012ce7f21</guid>
+      <guid>501fa322-fcff-49f2-8f98-01402fbcf4dc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Bento_TestCases/EndocrineTherapy/TC02_Bento_Filter_EndocrineTherapy-None</testCaseId>
+      <testCaseId>Test Cases/Bento_TestCases/FileType/TC03_Bento_Filter_FileType-vcf</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c838d833-a7c7-47c9-83da-2653a09b99cf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Bento_TestCases/FileType/TC04_Bento_Filter_FileType-bam</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>72db86ff-7533-4eb7-b9d5-db2010feb111</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Bento_TestCases/FileType/TC02_Bento_Filter_FileType-bai</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
