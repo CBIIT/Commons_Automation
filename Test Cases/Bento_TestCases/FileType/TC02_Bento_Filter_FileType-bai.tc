@@ -4,5 +4,6 @@
    <name>TC02_Bento_Filter_FileType-bai</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>473740a4-6388-46fd-a372-839c545e77f7</testCaseGuid>
 </TestCaseEntity>

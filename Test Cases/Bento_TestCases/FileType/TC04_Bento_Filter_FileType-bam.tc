@@ -4,5 +4,6 @@
    <name>TC04_Bento_Filter_FileType-bam</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>475ea5ff-85a1-4c46-8920-fa0dad459935</testCaseGuid>
 </TestCaseEntity>
