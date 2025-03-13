@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_CCDI_phs002517_Sex-Male_Diaganatomic-C70cerebralmeninges_Datacategory-Seq</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0b9b6984-ef7d-4b2f-a716-3e8d6e9eda42</testCaseGuid>
+</TestCaseEntity>

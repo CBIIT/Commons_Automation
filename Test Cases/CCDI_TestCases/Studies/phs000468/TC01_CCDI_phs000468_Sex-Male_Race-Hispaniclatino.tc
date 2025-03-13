@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CCDI_phs000468_Sex-Male_Race-Hispaniclatino</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3120e6e8-6690-4f20-94db-c04963f36f4b</testCaseGuid>
+</TestCaseEntity>

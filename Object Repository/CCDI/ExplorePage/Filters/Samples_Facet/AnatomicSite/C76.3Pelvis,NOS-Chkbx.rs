@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Anatomic site_C76.3 : Pelvis, NOS&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Anatomic site_C72.9: Central nervous system&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Anatomic site_C76.3 : Pelvis, NOS&quot;]</value>
-      <webElementGuid>e3b45727-b077-4c31-850d-eeb36582dbea</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Anatomic site_C72.9: Central nervous system&quot;]</value>
+      <webElementGuid>5f0407cd-a56e-4dba-b98f-c03c828f8085</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

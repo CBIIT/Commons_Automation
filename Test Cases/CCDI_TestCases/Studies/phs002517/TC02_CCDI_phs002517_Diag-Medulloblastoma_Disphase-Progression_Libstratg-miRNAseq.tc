@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_CCDI_phs002517_Diag-Medulloblastoma_Disphase-Progression_Libstratg-miRNAseq</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>13e67c39-4416-4518-9720-5fb58e7b3cd0</testCaseGuid>
+</TestCaseEntity>

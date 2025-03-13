@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_CCDI_phs002790_Sex-Female_TrtmntType-Celltherp_Sampleanatmcsite-C72.9cns_Datacat-Clinical</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>052e3a6b-2c78-485d-93c5-24766081d3c8</testCaseGuid>
+</TestCaseEntity>

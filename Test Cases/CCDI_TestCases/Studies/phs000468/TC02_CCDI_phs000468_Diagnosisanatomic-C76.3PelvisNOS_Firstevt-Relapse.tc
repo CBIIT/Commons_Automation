@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_CCDI_phs000468_Diagnosisanatomic-C76.3PelvisNOS_Firstevt-Relapse</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f27d2191-1fb7-4f1d-8277-b553209877f1</testCaseGuid>
+</TestCaseEntity>

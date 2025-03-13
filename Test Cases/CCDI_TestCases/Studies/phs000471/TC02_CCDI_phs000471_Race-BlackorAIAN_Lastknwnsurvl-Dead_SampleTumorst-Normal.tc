@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_CCDI_phs000471_Race-BlackorAIAN_Lastknwnsurvl-Dead_SampleTumorst-Normal</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ad5aa5e3-f9f4-48f8-8492-864396418f10</testCaseGuid>
+</TestCaseEntity>

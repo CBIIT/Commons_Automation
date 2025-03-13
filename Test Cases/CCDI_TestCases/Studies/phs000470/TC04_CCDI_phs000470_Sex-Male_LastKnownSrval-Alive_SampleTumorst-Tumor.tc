@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_CCDI_phs000470_Sex-Male_LastKnownSrval-Alive_SampleTumorst-Tumor</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a7dc00c2-de84-41ee-be7f-b6fff5ebd166</testCaseGuid>
+</TestCaseEntity>

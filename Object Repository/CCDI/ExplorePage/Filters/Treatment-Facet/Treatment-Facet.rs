@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Treatment-Facet</name>
+   <tag></tag>
+   <elementGuidId>713b16a0-f484-470b-9ea6-755ba35884ca</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//*[text()=&quot;Treatment&quot;])[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//*[text()=&quot;Treatment&quot;])[1]</value>
+      <webElementGuid>ef226fcc-bcea-41db-8e0c-d93efa63fc34</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

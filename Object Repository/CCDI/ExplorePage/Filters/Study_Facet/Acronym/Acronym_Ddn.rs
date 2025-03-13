@@ -6,11 +6,16 @@
    <elementGuidId>ed2ededb-ac97-4c0b-b639-5facc7a7c73d</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>(//*[@id=&quot;Acronym&quot;])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -18,6 +23,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>(//*[@id=&quot;Acronym&quot;])[2]</value>
-      <webElementGuid>571a9e0e-e3ef-4977-aecd-00f2a33af76c</webElementGuid>
+      <webElementGuid>10f36d1e-c88c-4747-8c59-5c5421985372</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -6,11 +6,16 @@
    <elementGuidId>ea971a09-3935-45f2-9db5-b6dff4b7848d</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//*[@id=&quot;Sex&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -18,6 +23,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;Sex&quot;]</value>
-      <webElementGuid>ccd5af15-2431-44ca-9ab3-72511ec80a1a</webElementGuid>
+      <webElementGuid>8ff96d82-d4ba-40f9-b0aa-67bf7e412322</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

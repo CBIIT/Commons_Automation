@@ -1,34 +1,34 @@
-id	sample.id	implantation_site	implantation_type	is_tumor_from_untreated_patient	model_id	mouse_strain	passage_number	passages_tested	pdx_id	sample_type_for_implantation	tumor_confirmed_not_to_be_mus_or_ebv_origin	updated	validation_technique	type	study
-phs002430::454-22	phs002430::454-21	subcutaneous	injection	Not Reported	OS454	NSG			454-22	Not Reported		2024-05-23T14:50:31.599000000+00:00		pdx	phs002430
-phs002430::624-8x0	phs002430::624-3	subcutaneous	injection	Not Reported	EWS624	NSG			624-8x0	Not Reported		2024-05-23T14:50:31.612000000+00:00		pdx	phs002430
-phs002430::640-8	phs002430::640-3	subcutaneous	injection	Not Reported	FPRMS640	NSG			640-8	Not Reported		2024-05-23T14:50:31.614000000+00:00		pdx	phs002430
-phs002430::701-8	phs002430::701-3	subcutaneous	injection	Not Reported	FPRMS701	NSG			701-8	Not Reported		2024-05-23T14:50:31.617000000+00:00		pdx	phs002430
-phs002430::766-9	phs002430::766-1	subcutaneous	injection	Not Reported	OS766	NSG			766-9	Not Reported		2024-05-23T14:50:31.624000000+00:00		pdx	phs002430
-phs002430::EWS799	phs002430::799-1	subcutaneous	injection	Not Reported	EWS799	NSG			EWS799	Not Reported		2024-05-23T14:50:31.638000000+00:00		pdx	phs002430
-phs002430::NRSTS600	phs002430::600-1	subcutaneous	injection	Not Reported	NRSTS600	NSG			NRSTS600	Not Reported		2024-05-23T14:50:31.611000000+00:00		pdx	phs002430
-phs002430::OS708	phs002430::708-10	subcutaneous	injection	Not Reported	OS708	NSG			OS708	Not Reported		2024-05-23T14:50:31.619000000+00:00		pdx	phs002430
-phs002430::OS742	phs002430::742-4	subcutaneous	injection	Not Reported	OS742	NSG			OS742	Not Reported		2024-05-23T14:50:31.621000000+00:00		pdx	phs002430
-phs002430::OS774	phs002430::774-3	subcutaneous	injection	Not Reported	OS774	NSG			OS774	Not Reported		2024-05-23T14:50:31.634000000+00:00		pdx	phs002430
-phs002430::OS833	phs002430::833-2_2	subcutaneous	injection	Not Reported	OS833	NSG			OS833	Not Reported		2024-05-23T14:50:31.642000000+00:00		pdx	phs002430
-phs002430::PSS008	phs002430::052-10	subcutaneous	injection	Not Reported	OS052	NSG			PSS008	Not Reported		2024-05-23T14:50:31.563000000+00:00		pdx	phs002430
-phs002430::PSS018	phs002430::128-3	subcutaneous	injection	Not Reported	OS128	NSG			PSS018	Not Reported		2024-05-23T14:50:31.569000000+00:00		pdx	phs002430
-phs002430::PSS050	phs002430::525-0	subcutaneous	injection	Not Reported	OS525	NSG			PSS050	Not Reported		2024-05-23T14:50:31.605000000+00:00		pdx	phs002430
-phs002430::PSS077	phs002430::106-5	subcutaneous	injection	Not Reported	OS106	NSG			PSS077	Not Reported		2024-05-23T14:50:31.565000000+00:00		pdx	phs002430
-phs002430::PSS078	phs002430::107-7	subcutaneous	injection	Not Reported	OS107	NSG			PSS078	Not Reported		2024-05-23T14:50:31.566000000+00:00		pdx	phs002430
-phs002430::PSS085_1	phs002430::152-5	subcutaneous	injection	Not Reported	OS152	NSG			PSS085_1	Not Reported		2024-05-23T14:50:31.572000000+00:00		pdx	phs002430
-phs002430::PSS085_2	phs002430::PSS085	subcutaneous	injection	Not Reported	OS152	NSG			PSS085_2	Not Reported		2024-05-23T14:50:31.644000000+00:00		pdx	phs002430
-phs002430::PSS089	phs002430::186-7	subcutaneous	injection	Not Reported	OS186	NSG			PSS089	Not Reported		2024-05-23T14:50:31.574000000+00:00		pdx	phs002430
-phs002430::PSS091A	phs002430::337-0	subcutaneous	injection	Not Reported	OS337	NSG			PSS091A	Not Reported		2024-05-23T14:50:31.583000000+00:00		pdx	phs002430
-phs002430::PSS112	phs002430::526-0	subcutaneous	injection	Not Reported	OS526	NSG			PSS112	Not Reported		2024-05-23T14:50:31.606000000+00:00		pdx	phs002430
-phs002430::PSS113	phs002430::301-4	subcutaneous	injection	Not Reported	OS301	NSG			PSS113	Not Reported		2024-05-23T14:50:31.579000000+00:00		pdx	phs002430
-phs002430::PSS119	phs002430::661-5	subcutaneous	injection	Not Reported	OS661	NSG			PSS119	Not Reported		2024-05-23T14:50:31.616000000+00:00		pdx	phs002430
-phs002430::PSS121	phs002430::322-1	subcutaneous	injection	Not Reported	NRSTS322	NSG			PSS121	Not Reported		2024-05-23T14:50:31.581000000+00:00		pdx	phs002430
-phs002430::PSS126M	phs002430::357-13	subcutaneous	injection	Not Reported	OS357	NSG			PSS126M	Not Reported		2024-05-23T14:50:31.584000000+00:00		pdx	phs002430
-phs002430::PSS131	phs002430::384-3	subcutaneous	injection	Not Reported	OS384D	NSG			PSS131	Not Reported		2024-05-23T14:50:31.593000000+00:00		pdx	phs002430
-phs002430::PSS131R	phs002430::384-9	subcutaneous	injection	Not Reported	OS384R	NSG			PSS131R	Not Reported		2024-05-23T14:50:31.595000000+00:00		pdx	phs002430
-phs002430::PSS132	phs002430::390-3	subcutaneous	injection	Not Reported	EWS390	NSG			PSS132	Not Reported		2024-05-23T14:50:31.598000000+00:00		pdx	phs002430
-phs002430::PSS140Q	phs002430::010-19	subcutaneous	injection	Not Reported	NRSTS010	NSG			PSS140Q	Not Reported		2024-05-23T14:50:31.526000000+00:00		pdx	phs002430
-phs002430::PSS141	phs002430::457-1	subcutaneous	injection	Not Reported	OS457	NSG			PSS141	Not Reported		2024-05-23T14:50:31.603000000+00:00		pdx	phs002430
-phs002430::PSS142	phs002430::456-4	subcutaneous	injection	Not Reported	EMRS456	NSG			PSS142	Not Reported		2024-05-23T14:50:31.601000000+00:00		pdx	phs002430
-phs002430::PSS157	phs002430::560-8	subcutaneous	injection	Not Reported	OS560	NSG			PSS157	Not Reported		2024-05-23T14:50:31.608000000+00:00		pdx	phs002430
-phs002430::PSS159	phs002430::563-1	subcutaneous	injection	Not Reported	EWS563	NSG			PSS159	Not Reported		2024-05-23T14:50:31.609000000+00:00		pdx	phs002430
+id	sample.id	implantation_site	implantation_type	is_tumor_from_untreated_patient	model_id	mouse_strain	passage_number	passages_tested	pdx_id	sample_type_for_implantation	tumor_confirmed_not_to_be_mus_or_ebv_origin	validation_technique	type
+05ba53d0-9ea1-59cd-bc1c-c835eb7202f7	cc18cdb8-30a1-51da-b60f-fdc43fa7b62a	subcutaneous	injection	Not Reported	FPRMS701	NSG			701-8	Not Reported			pdx
+09579ac3-a793-52f3-974a-f87652a4ed8b	a322a9cd-9006-5aac-b2b8-46849d8457a2	subcutaneous	injection	Not Reported	OS766	NSG			766-9	Not Reported			pdx
+139900da-733f-51fd-b389-6a802e98e0d8	e12a8519-2f0b-5d80-a190-c7cda9e3e953	subcutaneous	injection	Not Reported	OS186	NSG			PSS089	Not Reported			pdx
+1cabec31-3dc5-5ad5-aff9-e18a89d06c01	a2e8fded-234d-5c5c-b817-531ffeaf6672	subcutaneous	injection	Not Reported	OS337	NSG			PSS091A	Not Reported			pdx
+1cce1d08-c704-5942-bed4-a10ff946659d	2cfecd54-55af-5684-b66b-f8ae58c5545e	subcutaneous	injection	Not Reported	OS454	NSG			454-22	Not Reported			pdx
+2038b788-bcb5-5fc9-bf89-f5ea6cebcf39	c986decc-0d72-52ea-90bd-2c9e2b7fec78	subcutaneous	injection	Not Reported	OS357	NSG			PSS126M	Not Reported			pdx
+2231d9bf-13af-53e0-bc3c-984d938893fa	3ba5a39f-9cb7-5bc5-9b60-994551676a03	subcutaneous	injection	Not Reported	OS128	NSG			PSS018	Not Reported			pdx
+3cdfae66-8d82-53ce-af6e-2a001f7e97bd	7177cc6f-99b4-511c-963b-1904cfe32d6b	subcutaneous	injection	Not Reported	OS301	NSG			PSS113	Not Reported			pdx
+40b48000-f692-5140-9c3d-de195cd8da31	3360666e-3d1e-51a7-9c47-f02061975ec4	subcutaneous	injection	Not Reported	EWS390	NSG			PSS132	Not Reported			pdx
+45b39326-1d93-5750-ab9f-ec5bee378647	4d68436d-d645-598b-b402-39b8c7dea8e6	subcutaneous	injection	Not Reported	NRSTS322	NSG			PSS121	Not Reported			pdx
+46d44c4c-a67c-5a9e-86df-4e0dccdde987	de10da84-9fdc-545a-b9ad-7dc5431c3f6b	subcutaneous	injection	Not Reported	OS560	NSG			PSS157	Not Reported			pdx
+57f875a7-397e-5ba5-8cdd-998140ca6457	dc14211f-7666-55f1-9e0c-9db19a5b5ca3	subcutaneous	injection	Not Reported	OS052	NSG			PSS008	Not Reported			pdx
+58579fea-8f1d-5a25-b7fe-ac387f856134	5d4ddd16-7017-5cc7-b7b6-be28b4e4a429	subcutaneous	injection	Not Reported	OS384R	NSG			PSS131R	Not Reported			pdx
+596be120-35c6-5eef-b7ce-a25352041eb0	7449e02a-3e3c-5365-a97b-396c9121a908	subcutaneous	injection	Not Reported	FPRMS640	NSG			640-8	Not Reported			pdx
+68758900-d9c0-5455-8597-2b3470828890	21983da3-f86c-500f-aad3-5aeb4ba03431	subcutaneous	injection	Not Reported	NRSTS010	NSG			PSS140Q	Not Reported			pdx
+6ecc8d64-e9ac-5c58-a647-85b166992306	32286b48-71ec-52d9-a93e-11e1ea1a611d	subcutaneous	injection	Not Reported	EWS563	NSG			PSS159	Not Reported			pdx
+7742eeb2-75ca-5a5d-af59-9a291816da3a	4f44f047-e448-5455-8793-bb03e5c235ea	subcutaneous	injection	Not Reported	OS774	NSG			OS774	Not Reported			pdx
+94a39e5b-5703-5758-8eea-d733da9ad5e2	2cbd35ab-c395-591f-b9fc-747f9e3f033c	subcutaneous	injection	Not Reported	OS833	NSG			OS833	Not Reported			pdx
+958d1829-7b6f-5059-abf5-c5e993d9cefd	498feccb-7773-5a72-a909-ff8ebe50b900	subcutaneous	injection	Not Reported	NRSTS600	NSG			NRSTS600	Not Reported			pdx
+9b381c84-0f49-5702-93b4-86ec91e0ded9	70f5e112-2d0b-53dd-a2ab-6f40cc2ab264	subcutaneous	injection	Not Reported	OS708	NSG			OS708	Not Reported			pdx
+ae3e5c7f-7478-5183-9b91-e0c19eac35a7	65853dd4-2e6d-5914-9e0f-0aac2461b1e6	subcutaneous	injection	Not Reported	OS742	NSG			OS742	Not Reported			pdx
+af847b3f-6a14-5c95-a74a-718dce138bfd	f5ab8acc-74f5-5572-9e52-25c3b0494a74	subcutaneous	injection	Not Reported	OS661	NSG			PSS119	Not Reported			pdx
+b22ae7dd-6368-5e08-be26-7a9549cf817a	64b45cf4-13d2-5945-a37f-26859afcea26	subcutaneous	injection	Not Reported	EMRS456	NSG			PSS142	Not Reported			pdx
+b836cdcb-1030-5ed5-85ca-b079f9a0b244	6154568a-6ae1-5259-a939-8923bdcfbbc0	subcutaneous	injection	Not Reported	OS152	NSG			PSS085_2	Not Reported			pdx
+c57645f4-cd23-5bc4-8606-0e632f32d9b5	e532218d-593f-5cc1-87ce-0b770cdcb7bd	subcutaneous	injection	Not Reported	EWS799	NSG			EWS799	Not Reported			pdx
+d7d4f51f-9278-543a-be71-dc27ca976188	8510a5a3-ad60-5ace-8e7d-c7d48219d06a	subcutaneous	injection	Not Reported	OS152	NSG			PSS085_1	Not Reported			pdx
+de5f7061-eded-5ee9-b4fe-55f9cc9051dd	93459d4c-a394-5c16-be16-ad1b474d22cf	subcutaneous	injection	Not Reported	OS525	NSG			PSS050	Not Reported			pdx
+ebbde658-7a2c-5935-82f7-e935d84fb500	09a74cfc-660c-53ab-9e14-26942e08371d	subcutaneous	injection	Not Reported	OS457	NSG			PSS141	Not Reported			pdx
+f07d1f2b-1a99-5eb5-90c1-4b1c6ccc3df0	5d7cca7f-ef1b-570a-9937-1164a0a29527	subcutaneous	injection	Not Reported	OS384D	NSG			PSS131	Not Reported			pdx
+f37b6324-0f2f-5602-af13-30b1b5e07bbe	19eab89c-eb3a-5c03-8894-1efa6011e870	subcutaneous	injection	Not Reported	OS106	NSG			PSS077	Not Reported			pdx
+f386ad00-1c71-513c-ae0c-21d867f9527a	2602722b-5948-52ce-a2ad-48a3070ac5a7	subcutaneous	injection	Not Reported	OS526	NSG			PSS112	Not Reported			pdx
+fc00798d-4c2f-5815-a499-3cef9445b797	f701e367-d0c3-5715-bc67-1555c65a25cc	subcutaneous	injection	Not Reported	EWS624	NSG			624-8x0	Not Reported			pdx
+fdd62f4f-8bb4-5c89-9bd8-d775c3f32c44	3c4bbca1-52f7-5ef8-8e2a-c96aaeafaef4	subcutaneous	injection	Not Reported	OS107	NSG			PSS078	Not Reported			pdx

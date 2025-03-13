@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_CCDI_phs000468_Sex-Female_StudyStatus-Completed</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>eeae6aa5-62ea-4399-a544-384bed580415</testCaseGuid>
+</TestCaseEntity>
