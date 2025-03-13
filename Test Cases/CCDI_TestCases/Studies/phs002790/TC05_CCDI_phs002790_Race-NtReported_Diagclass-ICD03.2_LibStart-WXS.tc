@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_CCDI_phs002790_Race-NtReported_Diagclass-ICD03.2_LibStart-WXS</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ac798634-3dab-4dd5-8c74-cca148c637ee</testCaseGuid>
+</TestCaseEntity>

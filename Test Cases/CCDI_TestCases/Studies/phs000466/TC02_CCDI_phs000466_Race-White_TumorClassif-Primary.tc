@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_CCDI_phs000466_Race-White_TumorClassif-Primary</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0c71817c-bbe3-496e-90ab-9da418deca3a</testCaseGuid>
+</TestCaseEntity>

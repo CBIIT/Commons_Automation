@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CCDI_phs000470_Sampleanatomic-C64.9KidneyNOS_Tumorclass-Notappl</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9563f7ef-7564-43b6-869e-d3004f6eb31a</testCaseGuid>
+</TestCaseEntity>
