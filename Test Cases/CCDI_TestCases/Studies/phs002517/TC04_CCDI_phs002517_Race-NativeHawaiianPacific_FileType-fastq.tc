@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_CCDI_phs002517_Race-NativeHawaiianPacific_FileType-fastq</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6e1576dd-9ace-4bd5-8d11-2f13b19fc53a</testCaseGuid>
+</TestCaseEntity>

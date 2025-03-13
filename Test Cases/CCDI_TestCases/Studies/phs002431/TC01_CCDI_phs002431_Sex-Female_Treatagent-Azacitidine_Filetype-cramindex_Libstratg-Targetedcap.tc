@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CCDI_phs002431_Sex-Female_Treatagent-Azacitidine_Filetype-cramindex_Libstratg-Targetedcap</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5e5ab956-8c0a-4c00-be5d-fdb0e0048b70</testCaseGuid>
+</TestCaseEntity>

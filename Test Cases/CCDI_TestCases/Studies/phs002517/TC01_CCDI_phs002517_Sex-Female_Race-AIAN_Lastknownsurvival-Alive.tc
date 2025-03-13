@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CCDI_phs002517_Sex-Female_Race-AIAN_Lastknownsurvival-Alive</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2811fb12-1c86-4f6c-998b-40f4fd4a3f9e</testCaseGuid>
+</TestCaseEntity>

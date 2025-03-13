@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_CCDI_phs000469_Sex-Male_Race-BlackorAfricanAmerican_StudyStatus-Completed</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>22a7b15e-e114-4b16-a388-641aa9f6bdb4</testCaseGuid>
+</TestCaseEntity>
