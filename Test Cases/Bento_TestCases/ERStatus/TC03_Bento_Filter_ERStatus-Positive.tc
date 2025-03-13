@@ -4,5 +4,6 @@
    <name>TC03_Bento_Filter_ERStatus-Positive</name>
    <tag>Filter</tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>45fa221b-e222-41da-8813-424e9723de59</testCaseGuid>
 </TestCaseEntity>

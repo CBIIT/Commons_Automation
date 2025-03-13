@@ -4,5 +4,6 @@
    <name>TC01_Bento_Filter_FileAssoc-Sample</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>045fb1e1-b354-4ad7-a60e-a0e0e5703fd9</testCaseGuid>
 </TestCaseEntity>

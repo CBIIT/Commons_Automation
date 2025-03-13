@@ -4,5 +4,6 @@
    <name>TC01_Bento_Filter_FileType-text</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>841e9c0e-0645-45af-aeb0-e2e20ec3b3de</testCaseGuid>
 </TestCaseEntity>
