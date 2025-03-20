@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_ICDC_NCATSCOP01_StudyType-Transcriptomics</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>26ef564b-3d44-4a4c-9e6c-71356af709b4</testCaseGuid>
+</TestCaseEntity>
