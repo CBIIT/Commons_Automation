@@ -12,59 +12,45 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>903af0ee-36df-4bab-bb2b-660c17a084cf</testSuiteGuid>
    <testCaseLink>
-      <guid>c119807d-8919-4f57-85fa-4a9578b9c15a</guid>
+      <guid>3dc151e5-7145-4ffb-8c09-27851a5ac4ac</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Bento_TestCases/ERStatus/TC03_Bento_Filter_ERStatus-Positive</testCaseId>
+      <testCaseId>Test Cases/Bento_TestCases/MenopauseStatus/TC01_Bento_Filter_MenoStatus-Post</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>9589eebb-9a12-47b9-9124-d969c9cd8c8b</guid>
+      <guid>411e3d17-6cd0-4409-bcec-6f6dbc327c43</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Bento_TestCases/ERStatus/TC01_Bento_Filter_ERStatus-Negative</testCaseId>
+      <testCaseId>Test Cases/Bento_TestCases/MenopauseStatus/TC02_Bento_Filter_MenoStatus-Pre</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>303bac2d-5877-493b-8355-fc6f86e748b2</guid>
+      <guid>45547905-da56-4dac-881f-553f538f26a5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Bento_TestCases/ERStatus/TC02_Bento_Filter_ERStatus-NotReported</testCaseId>
+      <testCaseId>Test Cases/Bento_TestCases/Program/TC01_Bento_Filter_Program-TailorX</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>920a549d-fde1-471f-849e-24b75e4abbfd</guid>
+      <guid>a6df6441-dea9-4318-83cf-0f19b2d1d4df</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Bento_TestCases/FileAssociation/TC01_Bento_Filter_FileAssoc-Sample</testCaseId>
+      <testCaseId>Test Cases/Bento_TestCases/PRStatus/TC01_Bento_Filter_PRStatus-Negative</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>15724c5d-73a7-47d9-887b-8ca26e58e7c4</guid>
+      <guid>de3c329b-2eff-4bff-a446-ea687c40bb94</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Bento_TestCases/FileType/TC01_Bento_Filter_FileType-text</testCaseId>
+      <testCaseId>Test Cases/Bento_TestCases/PRStatus/TC03_Bento_Filter_PRStatus-Positive</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>501fa322-fcff-49f2-8f98-01402fbcf4dc</guid>
+      <guid>69e53859-d6e9-445b-804f-9ce6d043fd87</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Bento_TestCases/FileType/TC03_Bento_Filter_FileType-vcf</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>c838d833-a7c7-47c9-83da-2653a09b99cf</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Bento_TestCases/FileType/TC04_Bento_Filter_FileType-bam</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>72db86ff-7533-4eb7-b9d5-db2010feb111</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Bento_TestCases/FileType/TC02_Bento_Filter_FileType-bai</testCaseId>
+      <testCaseId>Test Cases/Bento_TestCases/PRStatus/TC02_Bento_Filter_PRStatus-NotReported</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
