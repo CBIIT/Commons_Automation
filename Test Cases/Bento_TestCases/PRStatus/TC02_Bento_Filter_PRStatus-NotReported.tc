@@ -4,5 +4,6 @@
    <name>TC02_Bento_Filter_PRStatus-NotReported</name>
    <tag>Filter</tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>c0538fd3-66e3-4b25-96ba-410fb54cb599</testCaseGuid>
 </TestCaseEntity>
