@@ -4,5 +4,6 @@
    <name>TC01_Bento_Filter_Program-TailorX</name>
    <tag>Filter</tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>72757a6b-f173-4417-afe4-97bee723c730</testCaseGuid>
 </TestCaseEntity>

@@ -4,5 +4,6 @@
    <name>TC01_Bento_Filter_MenoStatus-Post</name>
    <tag>Filter</tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>f1f8cc93-b1be-471d-b47d-58d5cdaaf2dd</testCaseGuid>
 </TestCaseEntity>
