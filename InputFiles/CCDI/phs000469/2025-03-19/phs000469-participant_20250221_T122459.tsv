@@ -1,0 +1,96 @@
+type	participant_id	race	sex_at_birth	crdc_id	id	study.id
+participant	TARGET-64-PPT008	Black or African American	Male		00a42d63-634d-5c1e-81d5-9ec7f4b9fbe4	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-40-PPT073	White	Female		0175953d-29c0-5d3b-b143-15ef6868f32d	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-30-PPT120	Not Reported	Female		03593139-6076-54f8-b125-e2dcd62c0980	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	DAP132	White	Female		087d7d0b-29e0-55bd-b0f5-8200fd1b5c5e	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-80-PPT042	White	Female		0cc82700-f65e-5638-bb70-86c85bbf81fa	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-30-PPT062	Not Reported	Male		0d8b6cf6-7243-5804-9b69-e0123493d069	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-10-PPT085	Not Reported	Female		0e0d97d3-309a-5157-9613-4d1661fd486b	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-10-PPT108	Not Reported	Not Reported		142e4ac2-cf64-59c6-a24c-3c72b1b96a7c	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-64-PPT014	Hispanic or Latino	Male		156c19c7-fef3-5307-adf5-2826cb664791	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-30-PPT059	Not Reported	Male		15c13b3a-c9fb-518f-91b9-abd22aafc367	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-30-PPT061	Not Reported	Male		15d61b5f-f6f9-57d3-9b2d-a4385822fc15	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-61-PPT020	Black or African American	Female		19344114-9065-5970-9760-5c4358e3f8b8	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-10-PPT104	Not Reported	Not Reported		1b4465e5-a736-56cc-bf9c-69c93795ddea	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-30-NAABZJ	Not Reported	Not Reported		1c7fcfcf-260c-5c59-b249-4e2ae901a3a0	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-64-PPT013	Black or African American	Male		2491a5a5-a7f8-543b-a048-510ddf4fad09	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-64-PPT012	Black or African American	Female		2850eff3-ae2f-58f6-89a7-ba3425408024	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-10-PPT109	Not Reported	Female		28d66926-bad9-5b63-841f-729c4ea2c743	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-40-PPT069	White	Male		290fae49-9fc1-5126-ac67-d466cdc909e4	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-61-PPT019	Hispanic or Latino	Male		2b279a61-2b3b-5307-afbd-3eac67d08431	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-62-PPT111	Not Reported	Not Reported		2d32ef2f-9847-5b4c-9b10-30b414e45c7b	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-80-PPT115	White	Female		2d76a0de-7f75-561f-9935-042e10059714	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-80-PPT049	White	Female		2fb0853c-584d-59c1-bf53-0db43db910ff	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-10-PPT105	Not Reported	Not Reported		34344da5-46ab-5500-b6b9-b2d4ea6a1d79	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-30-PPT065	Not Reported	Female		3a013c91-3d8e-5e9b-8a44-bf3483a52e11	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-10-PPT123	White	Male		41c4685c-40e6-5e81-b805-05743ae1bca1	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-10-PPT125	White	Female		48e4d281-3c63-5a1f-91b5-c8ebd112d118	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-41-PPT113	Not Reported	Female		4b191882-04be-555a-89cb-3852b180299d	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-30-PAMYEF	White	Male		4b8ab0df-f2e0-5336-a927-94f8929f868c	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-80-PPT048	White	Female		51173c24-97ca-5e69-a3a0-d909ee01fe08	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-41-PPT038	Not Reported	Male		58289e92-5901-5212-a3c8-4443fe7acd98	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-30-PPT119	Not Reported	Male		599cb618-3e98-56fd-aa7d-652e72584dbc	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-80-PPT043	White	Female		5a695a5b-c86a-5e44-b4b5-4046e1505466	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-10-PPT103	Not Reported	Not Reported		5ec5dc18-9f9c-5527-b558-fa49b55ede63	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-80-PPT046	White	Male		5fd93bf4-d1ce-5d89-b0e4-16a368b5c642	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-40-PPT072	Black or African American	Female		60a9e8f4-df4f-5276-9a2d-d6b23c35780d	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-62-PPT001	White	Male		654682d4-eb8d-5b8a-acd3-77f74275deff	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-30-PASXWX	White	Female		698cc0e3-1f0c-538a-b475-0fed41445f2b	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-64-PPT011	White	Male		6bf2dd21-c842-5899-9ce2-54349f92a25b	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-30-PPT117	Not Reported	Female		6c9b6b3b-a3ca-5557-b049-09779444e079	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-62-PPT110	White	Female		712433a7-c679-59d4-a2ee-466ff8cffa57	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-61-PPT023	White	Female		71ce9dc3-c2de-5b05-93e5-270517b9dc6b	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-52-PPT004	Native Hawaiian or other Pacific Islander	Female		75aab4f0-d206-5bb8-9f76-f16f660b79f4	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-10-PPT124	Not Reported	Male		76715411-1d95-5746-a32d-39f97b695abf	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-10-PPT090	Not Reported	Male		78a7e915-5185-5c23-a542-c3e7f4836655	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-30-PPT063	Not Reported	Female		78e711fd-eb28-5ff0-92ea-4437a9dd4373	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-30-NAABZM	Not Reported	Not Reported		7b877a4c-4594-5d35-b1fb-9484b227f2c7	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-30-NAABZK	Not Reported	Not Reported		80491f79-924f-5084-a727-59c0b12a80e1	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-50-PPT026	Black or African American	Female		805b4d2c-d4ad-55ae-880d-663ab0f2a5b7	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-10-PPT094	Not Reported	Male		83bf7800-9867-577d-be0d-5e81144f6011	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-10-PPT107	Not Reported	Not Reported		891c7b03-ab78-5823-b8b7-7d1e270d30f0	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-52-PPT003	Not Reported	Female		89beb9b6-bc3e-5805-af52-c0882dacbbd3	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-50-PPT025	Black or African American	Male		89c2950d-3f68-5541-89f6-5f319af324ba	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-71-PPT131	White	Male		8d0aefa5-59e8-5207-b4bd-5d284cc5bf2f	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-52-PPT002	White	Male		8daefbf3-50d3-5095-abae-129835c90c7c	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-61-PPT018	White	Female		90d059a5-1a94-5c8f-9125-7f3942b9d2d1	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-10-PPT092	Not Reported	Female		926000af-f4f2-511b-874f-4669c0052cf6	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-50-PPT027	White	Female		955babe0-5b29-57e2-9f14-df1bf75b5ae3	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-40-PPT071	White	Male		957a0897-64ad-5405-881b-821926479a84	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-10-PPT106	Not Reported	Not Reported		981599f0-2362-5f92-9c1a-1a4067ccd81b	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-10-PPT086	Not Reported	Female		9c2c8328-71c6-5cbf-81f8-57b8fcc463b6	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-64-PPT015	White	Male		9c767b07-9daf-50d8-af28-37a7ba955e6a	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-40-PPT067	Black or African American	Male		9ce4d74e-e681-5214-b07e-5d6d63c327a4	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-64-PPT009	White	Female		9d3970d4-34c1-5afa-868d-e9df9b0cffb7	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-80-PPT044	White	Male		9ed69e28-0d4b-5af5-a130-43bd60c716c4	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-41-PPT035	White	Male		a2cfed5c-64ef-5202-b106-84db75c0dc3e	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-50-PPT024	White	Male		a889a97c-1490-57c4-9ede-e4b9befdb239	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-41-PPT039	Not Reported	Not Reported		a904557b-2191-5302-8bbe-0a1a5978ff9f	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-80-PPT045	White	Male		aaec18fb-3f2c-5686-9b8d-d85842d6790f	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-30-NAABZL	Not Reported	Not Reported		b7005248-cbe1-524e-bbd1-380dea255d7a	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-30-PPT066	White	Female		bd8d4971-82c5-540a-98bb-e36a3d668a9b	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-40-PPT068	White	Female		c064cc37-046d-586c-a246-c0bcc584d293	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-30-NAABZN	Not Reported	Not Reported		c06a1f2a-9656-568a-873e-1bdbeb6dccfe	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-30-PPT060	Not Reported	Male		c1e5e875-fe09-5afb-8838-5cd4f822b298	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-10-PPT126	White	Female		c9fe7b8c-eeda-5bf2-8b96-488958e848e9	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-41-PPT037	White	Female		cf0cfcce-874c-5869-923e-fc5becbac340	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-10-PPT089	Not Reported	Male		d162291e-6550-5b29-aaab-d91f956a5bdf	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-61-PPT021	White	Female		d2bffcb1-ac4c-51b4-b060-778ed3e61e94	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-10-PPT091	Not Reported	Female		d4ad78d6-6a5c-5b15-8fe3-3d7cdbe51621	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-40-PPT070	White	Male		d6b8090a-2e10-5715-8d41-3f937b897e20	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-10-PPT087	Not Reported	Male		d7784f28-fa8e-5431-a4b8-586455bd3a20	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-10-PPT093	Not Reported	Female		dbce6a80-abc9-5998-a0f1-831ce04a4981	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-70-PPT129	Not Reported	Male		dc43d286-684c-5b55-b081-bc4fcf1969ac	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-30-PPT064	Not Reported	Male		dccca1e5-8ecc-5e38-9187-d079b718ba6d	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-80-PPT047	White	Male		dcdb9fab-def3-5edc-b10c-58e01553ca01	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	DAP139	White	Male		e003730f-b130-5e33-a18f-acbadbf40bfa	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-41-PPT036	White	Male		e1023f7f-c179-5ed3-be48-27704e270da6	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-20-PPT127	Asian	Male		e450771a-b43a-5034-8146-dac66d59e111	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-20-PPT128	Not Reported	Male		e4d8b1e6-7ebf-5448-b09e-f6931e37b985	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-70-PPT130	White	Male		ea3bfa5e-03ea-51c5-b7f7-0dd7a743a37b	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-30-PPT118	Not Reported	Male		ece7f59b-3be2-5ff2-aca0-bece977b71b2	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-61-PPT022	White	Female		f153ddb8-fff4-5cff-9df9-d06382400012	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-41-PPT112	Not Reported	Not Reported		f7880c6c-fda6-5934-ac18-2b359dc8b584	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-10-PPT102	Not Reported	Not Reported		fb459260-efb8-578b-82b6-74651114067b	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-10-PPT088	Not Reported	Male		fd083f15-52d5-5d09-ace0-05a25c7900bb	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+participant	TARGET-10-PPT122	Not Reported	Male		ffcb38bb-30ed-5f19-a430-c39ec88c6783	d7d2e44c-f6cf-536d-b67d-930f66923fc0

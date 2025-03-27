@@ -1,0 +1,2 @@
+type	study_personnel_id	personnel_name	personnel_type	email_address	institution	orcid	crdc_id	id	study.id
+study_personnel	person_1	Elizabeth J. Perlman, MD	PI	eperlman@luriechildrens.org	Ann and Robert H. Lurie Children's Hospital of Chicago	https://orcid.org/0000-0001-6853-6221		9776da7e-613b-51ef-978d-32b5c0d7e2e8	23802269-0118-5371-8505-f0e5cc068b51
