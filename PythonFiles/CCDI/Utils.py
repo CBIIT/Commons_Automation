@@ -135,7 +135,12 @@ def is_date_format(date_str, date_format):
 #     'methylation_array_file': 'methylation_array_file_id',
 #     'synonym': 'synonym_id',
 #     'treatment': 'treatment_id',
-#     'treatment_response': 'treatment_response_id'
+#     'treatment_response': 'treatment_response_id',
+#     'clinical_measure_file': 'clinical_measure_file_id',
+#     'pathology_file': 'pathology_file_id',
+#     'cytogenomic_file': 'cytogenomic_file_id',
+#     'generic_file': 'generic_file_id',
+#     'pdx': 'pdx_id'
 # }
 index_columns = {
     'study': 'id',
@@ -152,7 +157,12 @@ index_columns = {
     'synonym': 'id',
     'treatment': 'id',
     'treatment_response': 'id',
-    'survival': 'id'
+    'survival': 'id',
+    'clinical_measure_file': 'id',
+    'pathology_file': 'id',
+    'cytogenomic_file': 'id',
+    'generic_file': 'id',
+    'pdx': 'id'
 }
 
 # Write data to excel
@@ -194,6 +204,11 @@ df_synonym = dataframes['synonym']
 df_treatment = dataframes['treatment']
 df_treatment_resp = dataframes['treatment_response']
 df_survival = dataframes['survival']
+df_clinical_measure_file = dataframes['clinical_measure_file']
+df_pathology_file = dataframes['pathology_file']
+df_cytogenomic_file = dataframes['cytogenomic_file']
+df_generic_file = dataframes['generic_file']
+df_pdx = dataframes['pdx']
 
 #Print each DataFrame
 print("\nDataFrame: df_study")
@@ -222,6 +237,18 @@ print("\nDataFrame: df_treatment_resp")
 print(df_treatment_resp)
 print("\nDataFrame: df_survival")
 print(df_survival)
+print("\nDataFrame: df_methylation_array_file")
+print(df_methylation_array_file)
+print("\nDataFrame: df_clinical_measure_file")
+print(df_clinical_measure_file)
+print("\nDataFrame: df_pathology_file")
+print(df_pathology_file)
+print("\nDataFrame: df_cytogenomic_file")
+print(df_cytogenomic_file)
+print("\nDataFrame: df_generic_file")
+print(df_generic_file)
+print("\nDataFrame: df_pdx")
+print(df_pdx)
 
 df_run_query = lambda q: ps.sqldf(q, globals())
 
