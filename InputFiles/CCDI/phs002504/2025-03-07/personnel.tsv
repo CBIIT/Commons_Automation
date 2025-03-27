@@ -1,0 +1,2 @@
+type	study_personnel_id	personnel_name	personnel_type	email_address	institution	orcid	crdc_id	id	study.id
+study_personnel	phs002504_pers_1	Elliot Stieglitz, MD	PI	elliot.stieglitz@ucsf.edu	University of California San Francisco	0000-0001-7032-4623		f330da84-0916-5470-87d8-4ea4e1e2a778	1850c1db-ee82-5be7-8e74-a243547b2963

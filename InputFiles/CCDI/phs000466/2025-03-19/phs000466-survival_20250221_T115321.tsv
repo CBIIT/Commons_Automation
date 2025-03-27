@@ -1,0 +1,14 @@
+type	survival_id	last_known_survival_status	age_at_last_known_survival_status	first_event	event_free_survival_status	age_at_event_free_survival_status	follow_up_category	follow_up_other	adverse_event	comorbidity	comorbidity_method_of_diagnosis	risk_factor	cause_of_death	id	participant.id
+survival	surv_5	Alive	5505	Relapse										02a7edd1-5fc3-5804-ae43-d6ef1a14f810	1af1d894-8463-57a9-8def-a25abc7dd2ed
+survival	surv_2	Dead	808	Relapse										03c3adf3-32a8-5c24-a180-df6d8fb90ced	f9d857a5-c264-5164-840a-0c015be9cdde
+survival	surv_12	Alive	2382											1460d5ef-e267-5fe5-a23d-a595b014cc38	324c5c54-e4df-5bcf-864e-1187c312ac3c
+survival	surv_13	Dead	2651	Relapse										35304455-cd69-5332-80ae-1da71be3340e	364c4ead-12f9-5b4a-92d3-c2502e325632
+survival	surv_10	Alive	839											48de65ed-de42-55e2-95dd-8e0df33eaa80	eeccc293-f4ac-5e05-8f65-467e68f85ee3
+survival	surv_6	Alive	4084											4b989e9f-301a-530c-ac20-144e5779dafb	661e753b-400f-5341-91e6-b38feae77cb1
+survival	surv_8	Dead	966	Relapse										4bfd2144-199c-5323-99a4-1f71c2e911a6	9f92d7e2-24d3-598b-a4f3-a1ec3daca6d5
+survival	surv_11	Dead	1258	Relapse										a95c9ece-34ce-5d22-a3ed-a9b542690ee6	11bdb76f-dc2f-569a-bd43-0e562c5c8637
+survival	surv_4	Alive	2575											b04823dc-f1bd-5a2a-8fc2-0b7fd5789e11	6df8eea6-a382-5a91-8a7a-41bf24c31055
+survival	surv_9	Alive	3551	Relapse										b0b28afe-e092-5736-821a-90fcd2492e1b	6703f38f-5e1b-54f4-9c51-228240d53ac4
+survival	surv_7	Alive	4299											c083f231-8226-569c-a485-ab7cd4aacc73	692d843e-fcd2-529d-8ec8-3b94d598e8a9
+survival	surv_3	Alive	6320											d6a4bab1-7954-5146-9e4c-f3f00a25f526	b4a98621-b2d4-5f0b-8cdf-9032afbd485a
+survival	surv_1	Alive	3302											ea921cd1-fe84-5c7c-b85f-995917c5703f	debb6e17-0a64-532f-8eda-834be7fd7284

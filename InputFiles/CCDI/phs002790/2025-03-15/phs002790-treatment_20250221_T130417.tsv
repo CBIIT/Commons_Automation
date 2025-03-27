@@ -1,0 +1,1011 @@
+type	treatment_id	age_at_treatment_start	age_at_treatment_end	treatment_type	treatment_agent	dose	dose_unit	dose_route	dose_frequency	id	participant.id
+treatment	PANLMU_treatment	-999	-999	Surgical Procedure						0f373e4e-5929-5cd5-a465-d89acdcca272	c55a48fa-5c82-5bfb-9563-2f7a0353ea20
+treatment	PARGFV_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy	Temozolomide (TMZ, Temodar)					99ea8fd0-1385-5609-bb41-97da96a35264	a79b020a-0ab9-5078-bae3-81dd044d7b70
+treatment	PBBHCR_treatment	-999	-999	Radiation Therapy;Surgical Procedure						cc48ab2e-e4b8-5a95-9c45-85dba5e0a7e9	070b7a82-837c-5830-bedc-40e20f7f1e1f
+treatment	PBBHFF_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						d1b93059-6730-55ff-b92d-e9c2d10c135d	a0074bbe-5148-5a11-9657-4f9f6c6d61b9
+treatment	PBBHGB_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						5535e492-272e-5e4c-84f9-f48ccdd57da2	ce45921a-b94c-5f70-bd8d-a82ac3afd131
+treatment	PBBHGD_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						9eeaa29e-1532-5ce7-9336-99b83bd18de3	fcbde284-de58-5b52-ab74-c5129e0ba743
+treatment	PBBHGT_treatment	-999	-999	Radiation Therapy;Surgical Procedure						fb779ecc-8714-5820-b0ab-60c06ea3a0c7	eb32e789-3a96-5b3d-9491-6bdff2a5ee7c
+treatment	PBBHIL_treatment	-999	-999	Surgical Procedure						bd35426d-584e-567f-be7f-0f506814c81b	29350bf8-6eca-5b64-9661-93a914642f1f
+treatment	PBBHMA_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						bccc15f2-932b-50c0-af06-a8cb7ea75b08	56c90160-2f70-5196-acdb-4b44a88f8cea
+treatment	PBBHMI_treatment	-999	-999	Radiation Therapy;Surgical Procedure						a27b01b4-9e20-5ff6-b855-0bb6932422a8	d0ea5c19-9c92-5722-b633-68d7ed650393
+treatment	PBBHRU_treatment	-999	-999	Surgical Procedure						cfd9628d-e7d7-5d7c-a036-2fc74dfd4abf	fe20ef02-976b-5f96-98be-3d13db17d35a
+treatment	PBBHTY_treatment	-999	-999	Surgical Procedure						1e08aaf0-e1f1-55a8-a2ff-6f3b63162de8	2b144f76-c533-5323-9f72-e5b28d49eb48
+treatment	PBBHUB_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Stem Cell Transplant;Surgical Procedure						328eaf2f-57ce-53d2-bea3-75ceba4f2a88	9deec15f-fe96-574f-b405-bfd30118c519
+treatment	PBBHWP_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						c4083a43-e58d-549f-987b-98f798651998	c2849672-6b47-53a0-8ea4-d57da6089224
+treatment	PBBHWY_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						cbdf8fde-0a00-57ff-9d87-4519075d33eb	488f8189-3113-5886-b531-4ed90897b5bb
+treatment	PBBHXE_treatment	-999	-999	Chemotherapy;Immunotherapy						4743d3a3-68e5-5398-b3ca-16bdb80e4ade	435cce5a-a78a-5d2b-8fca-4145ea74575e
+treatment	PBBHYH_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure	Temozolomide (TMZ, Temodar)					3e98568d-f415-5da1-9990-db2eabba2742	1f6f444f-9486-5053-85f4-266d6bdd06f8
+treatment	PBBHYV_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						95dd0a06-203b-5cd3-baca-a68cfe83b7b9	ec41c76c-55df-5569-8381-430daf3e3126
+treatment	PBBHZD_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						20b4816e-eb9e-5928-ad6d-0925b6dc14fa	710ffc97-4af6-5d02-b600-cbfc083ff17c
+treatment	PBBIBE_treatment	-999	-999	Chemotherapy;Immunotherapy						33d78cb5-7e24-5e31-aad9-9a57146ba558	0815a2ac-abe3-5ba4-979d-58fb52cf0086
+treatment	PBBIBH_treatment	-999	-999	Chemotherapy;Immunotherapy						b964923e-ee96-5fb9-88c2-ef3b91920dfd	6156ac31-be57-5b90-ba2a-99cc072b8e45
+treatment	PBBIBP_treatment	-999	-999	Surgical Procedure						9e83367f-e466-58bb-83c2-051f043522b0	687e69b2-9cf2-57df-b033-1afc484914de
+treatment	PBBIBT_treatment	-999	-999	Surgical Procedure						369ba8a0-b205-5298-978c-778896b4e068	e1e5ce07-c7de-50b3-ad6e-43e3bcfa01e1
+treatment	PBBICF_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						e620239e-935a-5217-a9f0-771117fd70c8	e85194aa-17a7-53e4-af7d-cf46d649f3e0
+treatment	PBBICS_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						015a7884-5a88-51f5-adf6-8b41dfab0b37	883167d6-a387-5056-b128-43682596ee80
+treatment	PBBIDF_treatment	-999	-999	Other;Surgical Procedure						a5654d33-0d41-521d-9c7a-00ec00dd5bbb	30ed14f5-bd16-56ce-ae81-b4c3e88566b3
+treatment	PBBIDG_treatment	-999	-999	Surgical Procedure						36a394bd-8e88-537d-a2a8-8add04637e65	3e5ff359-33be-5c5d-aaec-11f9d4a9c4f7
+treatment	PBBIDY_treatment	-999	-999	Chemotherapy;Immunotherapy						6392885d-8149-52a4-9844-25f6ff5eda69	265185f8-0f17-5665-b3d0-ee3b3ef70b8f
+treatment	PBBIDZ_treatment	-999	-999	Surgical Procedure						f6216046-94e8-592f-816c-cbe92750810d	c51b2338-9ae5-5fdf-84ea-68aea59c4236
+treatment	PBBIEL_treatment	-999	-999	Surgical Procedure						a60751de-0666-5a4f-b5d3-aaaa207c0467	e4867c91-d79e-58c1-879c-9938daccd0a7
+treatment	PBBIGN_treatment	-999	-999	Chemotherapy;Immunotherapy						b97c240b-dd38-5ddb-ac1e-dacf1b0438f9	28d9a85e-0f03-5735-9aec-9bfd7f694231
+treatment	PBBIHA_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						086d3d3a-0d65-5285-aaff-e6ee8e4270fa	94721454-26cd-528b-9936-a4c2a55293f6
+treatment	PBBIHJ_treatment	-999	-999	Radiation Therapy;Surgical Procedure						fc3be32e-4733-5de8-b38d-7b7b96326755	29d04189-0660-5bbd-83ab-005a1fab2bfb
+treatment	PBBIIF_treatment	-999	-999	Chemotherapy;Immunotherapy						057b0e1d-fd71-5e8f-b307-ddda65eaf340	8d107c4b-41fc-5f95-98d5-e47cced99ded
+treatment	PBBIIH_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						e52b6d5c-1579-5893-911e-b54654db4a0a	71de8d57-8d76-50bd-b505-827ed0b52291
+treatment	PBBIIW_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						722c210e-f754-5ec5-bd2f-a5256ccbe76c	5dbcdfc3-5ab0-5133-9725-8a1aacff1d74
+treatment	PBBIJK_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Stem Cell Transplant;Surgical Procedure						65f0578b-a01a-5109-8585-4441fcbb6705	550e8a41-80d6-568f-aa86-d7146e461bef
+treatment	PBBIKD_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Stem Cell Transplant;Surgical Procedure						89d50b23-46d8-58ea-8b7f-8bc727913f26	cb9e501f-bd0b-5d4e-9e2c-e3392692fa03
+treatment	PBBIKP_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						20aa66f9-eaba-566b-b9b6-9e8a7655c8c9	754d5692-1e21-52b3-a339-74f3a297eaf1
+treatment	PBBILM_treatment	-999	-999	Chemotherapy;Immunotherapy						947d1d10-c0e4-540d-8848-205937f0e6cd	7c621159-0ed4-5f8c-b59b-4b46150bbcd0
+treatment	PBBILN_treatment	-999	-999	Surgical Procedure						1f69dba6-b8ce-5a16-909f-e4e3639a8445	057eeb28-9b80-509f-a711-8221a4ab33d8
+treatment	PBBIMH_treatment	-999	-999	Radiation Therapy;Surgical Procedure						c35d3b67-09b7-5de1-8418-ce639d57ad04	fc2fddec-72bf-51d9-ba6e-9a9e253f3147
+treatment	PBBIMT_treatment	-999	-999	Surgical Procedure						77333fcc-3a7e-5b49-9716-221c561e0118	865c37f4-0d88-55a6-b5ae-73ab1ec0ce36
+treatment	PBBIMX_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						e0237b82-ebfe-5e5b-988e-40800019921f	d390aa4a-4adc-553b-91d3-98ac7250631b
+treatment	PBBINB_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						067e3367-40da-5e78-a29c-fb0317b9f46b	16164f79-2b75-5b60-b465-f1d0552de4b6
+treatment	PBBINC_treatment	-999	-999	Surgical Procedure						5a9ba86c-3510-5e15-b800-1311ec03d977	17bf4fb8-7c49-5823-a782-6f846b128f2f
+treatment	PBBINV_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						b908bc02-a33e-5ef5-9fe4-21748c0c4315	a5442e33-ce80-506a-9f87-20dfb17170f3
+treatment	PBBIPL_treatment	-999	-999	Surgical Procedure						f02fbbad-6a5a-59d8-ac17-93c6d4b4b512	3c347e15-7100-588f-9d85-86824e4fed15
+treatment	PBBIRB_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy	Temozolomide (TMZ, Temodar)					36243057-2ca9-5564-afd3-fda0d4036fad	c2a8f13f-610a-5f1f-ae22-4349fa719c76
+treatment	PBBIRI_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						50eb516b-a360-585c-834a-1666feab6a3e	029892a2-cb26-5a71-98e8-15094ace7dec
+treatment	PBBIRM_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						3f7f9668-6f34-5ecd-b5e8-60076d014d43	dea8abd5-edf7-5f85-befb-2e83cf3f375f
+treatment	PBBISC_treatment	-999	-999	Chemotherapy;Immunotherapy;Stem Cell Transplant;Surgical Procedure	Cisplatin (Platinol, CDDP);Cyclophosphamide (Cytoxan, CTX);Cytarabine (Ara-C, Cytosine arabinoside, Cytosar);Dactinomycin (Cosmegen, ACT-D, actinomycin-D);Doxorubicin (Adriamycin, ADR);Etoposide (VePesid, VP-16);Other;Vincristine (Oncovin, VCR)					1f992787-8b52-5bc6-ad86-820f172e6dc3	b4c1df8f-0176-52c1-801d-38452c987931
+treatment	PBBISG_treatment	-999	-999	Chemotherapy;Immunotherapy						8b7edb18-4aa0-5eff-b2ae-fe393db350b5	bcba018a-b576-565f-9596-868c8a05916d
+treatment	PBBITE_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						d4c6de3f-f6a0-5afb-bd9f-55d71e60b6b5	52cc213b-20af-5e63-b75f-429fe765ef9e
+treatment	PBBIUB_treatment	-999	-999	Radiation Therapy						08c3f795-494b-568f-bc7e-b7b36475e6b4	da39813f-cc50-5e0c-af9e-e2e001c8e4b9
+treatment	PBBIUC_treatment	-999	-999	Surgical Procedure						b44b796b-9f86-5d18-855b-d1459d253088	4153448b-314f-5423-8976-6ff9b9851fa9
+treatment	PBBIUN_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						105107c5-f68c-573d-b272-95a069148baf	048f79c1-ba6b-5846-973b-aaa9351889d0
+treatment	PBBIUS_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy	Bevacizumab (Avastin)					ea170d13-7f0d-595e-bd54-3cc8b8b813a1	008da891-5626-5863-b514-a201ccbd6265
+treatment	PBBIVA_treatment	-999	-999	Surgical Procedure						47541ea5-d393-5f80-90cb-94719071381f	dfba8638-3d82-5f85-b5dd-68d2c0291363
+treatment	PBBIVU_treatment	-999	-999	Chemotherapy;Immunotherapy;Other;Radiation Therapy;Surgical Procedure						2ae1f0e1-5441-5daa-ac15-79dffec29567	f28a8c12-5c86-5e21-8986-ca350d9f6581
+treatment	PBBIXN_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						79b0d397-75d6-5080-bcde-5e4855ac34f6	9160c2a0-238a-5e26-acc1-ce2e578ec6a8
+treatment	PBBIXR_treatment	-999	-999	Chemotherapy;Immunotherapy	Bevacizumab (Avastin);Cisplatin (Platinol, CDDP);Cyclophosphamide (Cytoxan, CTX);Irinotecan (CPT-11, Camptosar);Temozolomide (TMZ, Temodar);Vincristine (Oncovin, VCR)					f07c7465-b1cc-5526-95ff-b36df7f96bc2	2560a852-1390-5a15-b236-4586c4d58cc5
+treatment	PBBIXX_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure	Dexamethasone (Decadron, DEX)					5ca969eb-785b-53cd-afd2-c80e8a94323b	a65f869a-83d0-51b7-a41d-ab08568a7154
+treatment	PBBIYG_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						0cdb2651-b1b0-5f2b-8f82-aba8e3a2b549	39ce24f9-b493-5c9e-b4b6-08330603f3ed
+treatment	PBBIZK_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						c6d68b81-41b8-5f8e-981c-fc275e0ac5fc	7a806aa4-ee81-50e0-b944-65eb6118a984
+treatment	PBBIZT_treatment	-999	-999	Chemotherapy;Immunotherapy;Stem Cell Transplant;Surgical Procedure						e8144f5a-e12f-5548-a9c2-c048b28a77de	194097f5-1f4d-5ca6-a473-af2e9e7670c2
+treatment	PBBJAD_treatment	-999	-999	Chemotherapy;Immunotherapy	Other					a50467d6-c12c-51b5-80b5-49bd88e873b3	60232809-9a7d-58f6-864c-2f4eed5add77
+treatment	PBBJCX_treatment	-999	-999	Surgical Procedure						c3c7cbca-9438-5b5f-a154-4d2fff1d1c6e	40a7055c-1b36-575e-b460-f1b8243e6c3c
+treatment	PBBJDE_treatment	-999	-999	Surgical Procedure						9ea846d3-06e1-5fef-b3e6-6fa98eeaea66	1aefc17c-632d-59a1-bfdc-64bcb9381e58
+treatment	PBBJGC_treatment	-999	-999	Radiation Therapy;Surgical Procedure						53449a1c-4f76-5b95-8984-d4ae8f3c4adb	215c01f2-67bf-541b-8da0-410311dda4e7
+treatment	PBBJGW_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						cc8b298e-95c9-5122-9df0-bb0fe4841669	40b85c57-8373-558b-8ba7-ec9d154a5197
+treatment	PBBJHS_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						1703af86-138b-5c85-b589-b170860f0712	c13dabc1-027d-5ee9-9eff-1f5b683707c5
+treatment	PBBJIA_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy	Bevacizumab (Avastin);Other					c15451cb-3df4-57a9-a3ab-65bf885193af	95539ddf-7ac4-56c5-953d-d31d6eb9514b
+treatment	PBBJIB_treatment	-999	-999	Surgical Procedure						af365c5a-0871-59f6-adb3-1745924da3a9	ef569d21-8be2-59ad-91fd-bd75f524ec49
+treatment	PBBJIL_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						f3bf0551-a034-5092-8244-3e30ba9a3996	eb6d0e6d-38fe-56a8-87fe-6fdf9ac475cb
+treatment	PBBJJD_treatment	-999	-999	Surgical Procedure						53bded27-1c9e-5762-bc5d-0644fa2680d0	4126002f-f96d-5120-8cfc-6cd8f0db201e
+treatment	PBBJJE_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						a8316793-bfd7-5c2e-a73b-e49276ec570f	b0d64622-3937-5906-ad3b-cd8120e747c0
+treatment	PBBJJS_treatment	-999	-999	Surgical Procedure						d4df7744-a3d3-5e91-b726-24780764f83b	439c1811-62ba-50c6-8e87-25e4212ae9c1
+treatment	PBBJKN_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						314ed341-9c96-5d88-9b41-223ddd6b5306	c69a4230-fd2e-525f-8f6a-a5296c0c5497
+treatment	PBBJNB_treatment	-999	-999	Stem Cell Transplant						566b6b25-f6f3-5b2f-bab4-1729bd90d06f	c72a0f27-178c-55f8-8fdb-d4ee91c08079
+treatment	PBBJNF_treatment	-999	-999	Chemotherapy;Immunotherapy;Stem Cell Transplant						775b9276-bdf0-559a-a0d1-66d3af0e0cee	c7fec8ea-e1ae-5375-a640-4fb44c7704dd
+treatment	PBBJNW_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						e232f2a5-4d4b-5af1-904d-ef69aef07a3b	f5d21ead-da80-5901-91b1-cf7ef33fcf9a
+treatment	PBBJPU_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						b19ad17b-719c-51a9-91f7-00eefc9d185f	f619298c-56ba-55cf-ae0e-ee9c80f62026
+treatment	PBBJPZ_treatment	-999	-999	Surgical Procedure						bdce2138-d4ee-55a5-9d5f-08fcae05b415	1a0af2f2-5415-57c3-b9c4-0acdde3a95db
+treatment	PBBJRM_treatment	-999	-999	Surgical Procedure						6f7f3489-bf38-5c6c-ac92-00d1cf44edd0	a0ac1541-aa4e-55bf-99b4-d4d45dcf1ca1
+treatment	PBBJTB_treatment	-999	-999	Radiation Therapy						b4626a48-ce2d-5cb8-aa46-9ac2c8d31600	f519bfcc-c4b5-54cd-a38a-ea4b9a635037
+treatment	PBBJTC_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						49e626a6-af94-5c7c-993a-15a9ba4b551d	09960538-b399-54b6-b5bf-8cc8bfc45cd5
+treatment	PBBJVH_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure	Bevacizumab (Avastin);Irinotecan (CPT-11, Camptosar);Temozolomide (TMZ, Temodar)					e8374497-f396-5a0f-84cb-3511f0537b5e	4d8e8464-1325-5e66-a479-bf1ed2441bfe
+treatment	PBBJWM_treatment	-999	-999	Surgical Procedure						182f6683-9495-5637-a3f2-2728071b647b	b6da765b-753f-5448-8d7d-fd981365d79e
+treatment	PBBJZI_treatment	-999	-999	Surgical Procedure						741d66f2-f7e4-576e-a593-918e652abfd9	7928ea3e-6d48-5f72-91e7-4c7784abbfc7
+treatment	PBBJZW_treatment	-999	-999	Surgical Procedure						7e6ea07a-3aa5-5a66-a5e3-9c735e957278	b4a87983-752f-50e3-9a16-a345c432d52b
+treatment	PBBKBK_treatment	-999	-999	Chemotherapy;Immunotherapy	Carboplatin (CBDCA);Etoposide (VePesid, VP-16);Ifosfamide (IFOS, IFEX)					a09f6245-c05d-5e6c-bc60-475c038e0df5	d519b047-3df9-56d5-88cf-87eae18c3833
+treatment	PBBKCT_treatment	-999	-999	Radiation Therapy						75f07bac-d5b2-5a1f-a53f-c7fabbd5eefe	8fb1ff57-fde2-53ed-9926-62e2440a0603
+treatment	PBBKDK_treatment	-999	-999	Chemotherapy;Immunotherapy						572abf1e-db4e-5b2f-b6ff-9abbfca84952	3f813968-b3c0-557b-9711-d1969b743a01
+treatment	PBBKDM_treatment	-999	-999	Surgical Procedure						de43deb5-89f9-5c6b-a821-005132df1981	41bfad53-91ef-5e2a-878b-e2ae84256a09
+treatment	PBBKEA_treatment	-999	-999	Radiation Therapy;Surgical Procedure						9007f64c-e96f-59fc-9402-0bbf535bfd22	34cff4e2-e279-5556-be8a-eafd4091b7e9
+treatment	PBBKEC_treatment	-999	-999	Surgical Procedure						4e876c76-229e-55c3-881a-9bc544166ea7	aa0a53ab-49a7-5b57-8b05-2cbcfcb406f3
+treatment	PBBKER_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure	Carboplatin (CBDCA);Cyclophosphamide (Cytoxan, CTX);Vincristine (Oncovin, VCR)					1a56808c-9d7e-5b5e-9e93-aa24f5ab738c	234856e0-dd49-519c-ab04-c67aa6242690
+treatment	PBBKFC_treatment	-999	-999	Chemotherapy;Immunotherapy;Other						1c81c986-a730-5c49-aa21-a904d5dbd589	6febffce-4abb-5170-8d68-e5f4358a5628
+treatment	PBBKGA_treatment	-999	-999	Chemotherapy;Immunotherapy						999ba215-b543-5f32-8450-2a9e35416780	ef7693b3-e33b-517d-99c5-95a0b3ce6a6d
+treatment	PBBKGG_treatment	-999	-999	Surgical Procedure						658d7f8c-3680-52ad-ae4e-b45696def0e1	282f65c0-e615-5646-ac1f-ca38ecf4513c
+treatment	PBBKGV_treatment	-999	-999	Radiation Therapy;Surgical Procedure						875bad2d-1f97-52de-bbf5-a08ab8a7f31e	de852573-b9d3-5b3e-b376-6c6c1c088c6c
+treatment	PBBKHM_treatment	-999	-999	Surgical Procedure						78658984-0337-5433-8833-d7ea66579a5f	4a0c673c-302b-5b98-a92d-4da6dcc388f2
+treatment	PBBKIL_treatment	-999	-999	Surgical Procedure						553dcc08-d6af-5c1f-a3f3-6dc0adc42ee4	9446988d-67a4-5fe3-a8d7-44c917deca26
+treatment	PBBKJT_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						fb0571a4-afca-593b-b8ca-48930fec2174	a04c0238-f328-5009-b1c0-4d249749a6b9
+treatment	PBBKKT_treatment	-999	-999	Chemotherapy;Immunotherapy	Temozolomide (TMZ, Temodar)					39602d76-c962-5653-8a2b-d0bbc41025d6	62e66324-a2ed-57e8-afd9-22be1569e907
+treatment	PBBKKX_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						c255cfe7-ecbc-5c39-befd-30201da27d04	d67a846f-a63a-5aee-97a8-468023509e90
+treatment	PBBKLK_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						39102426-f1a0-5b3d-9917-f035537eabc6	7e929ed6-1c98-550c-a796-8b083e50fb2e
+treatment	PBBKMV_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy	Other					66ccfe0c-f037-593f-af1d-1fd18f5ecf23	925f4c8f-914a-5eca-a8d5-9b31852b95a3
+treatment	PBBKNA_treatment	-999	-999	Chemotherapy;Immunotherapy;Stem Cell Transplant	Carboplatin (CBDCA);Cisplatin (Platinol, CDDP);Cyclophosphamide (Cytoxan, CTX);Etoposide (VePesid, VP-16);Vincristine (Oncovin, VCR)					615066b2-75e5-59df-a1ff-aa989843cd0b	f75658ba-37a1-593b-a3c3-179f722b6bf5
+treatment	PBBKPA_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy	Dexamethasone (Decadron, DEX);Temozolomide (TMZ, Temodar)					4d2b2688-834d-5440-a880-652d91252aea	6f4290f4-bd5a-51e3-af21-63b0f3ec413e
+treatment	PBBKPL_treatment	-999	-999	Chemotherapy;Immunotherapy;Stem Cell Transplant						a2d3c96e-733c-590d-b22e-d6b1e2cc7a65	a8401999-1476-502c-b13f-4d5fb1460f23
+treatment	PBBKPM_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						5dd10b17-4916-5bdc-86bf-4a5989d4001b	74e28863-da7c-5abc-a7a3-877e10bc2377
+treatment	PBBKRS_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						af738ac2-25de-5b74-bb09-02fa80eb1525	521abcb0-95fd-5b5e-b107-ae3a4c0d9cf4
+treatment	PBBKRT_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						3e973f9c-077e-55df-af1f-06b7147ed2dd	84a35e1d-2110-5f61-883a-227d2de5d9aa
+treatment	PBBKSG_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						acb6bcd2-a721-56d9-b929-a571c658a1cf	a9e87311-e3d2-5086-bd72-b1cb3d4b1fe0
+treatment	PBBKSJ_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						13612568-4264-563b-af45-62ed35e46600	dd87bc25-bc63-52aa-a144-6c1dd46116b1
+treatment	PBBKTB_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						190eb8fb-6ab4-5872-b9e1-8f6fcfd6b7c3	6171e92d-6934-52dc-9d8d-6e38c99a74cc
+treatment	PBBKTJ_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						fabdb359-d6f5-5749-8904-8347a7548c23	1a2f7ead-8c6f-53d7-876d-a47deb9eb853
+treatment	PBBKTT_treatment	-999	-999	Chemotherapy;Immunotherapy						220be276-5d60-5aca-a4fe-92ebe54b09b6	60850448-43c5-547e-8a7a-28c8bfa5df40
+treatment	PBBKTU_treatment	-999	-999	Chemotherapy;Immunotherapy						7144cc1c-c2d0-59ff-aa38-e161d7011a9a	f0cc0f5b-b486-51d1-a05f-3b8d15559565
+treatment	PBBKUN_treatment	-999	-999	Chemotherapy;Immunotherapy						fc9f9539-a619-5cfc-a2c5-6fe30f0fa038	aa830b0b-5002-5cb4-ad46-51bf6aabfe01
+treatment	PBBKUP_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure	Other					8043396b-eaaa-525f-8d64-85bbb3ea5e6a	380c897a-79bb-5ceb-91c1-c013d42fe5c7
+treatment	PBBKVP_treatment	-999	-999	Chemotherapy;Immunotherapy						3a807e29-334a-55d9-a8a1-6f8e6c52ade1	5cd8d814-5267-56ae-95de-f654592ddb5f
+treatment	PBBKWB_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						7d7770d7-ab2d-58bd-85a9-1c85e4bfac65	36e0553a-1df0-59c5-9fa7-e35aff1364b9
+treatment	PBBKWX_treatment	-999	-999	Surgical Procedure						7a630752-8c60-5f3f-9efd-bdfc202eb400	2992268b-316b-5278-a1a6-e5aee0c40c6e
+treatment	PBBKXE_treatment	-999	-999	Surgical Procedure						b0a22222-bb5f-57d4-b2c3-ff21cbe82922	da71e151-c897-5547-b9c1-cfc95ce69e32
+treatment	PBBKXH_treatment	-999	-999	Chemotherapy;Immunotherapy						f9c9bf91-e6f5-5c49-9d9a-33d8fa187631	4a9e7b54-c9ba-57b6-9eae-c8f6040d83bd
+treatment	PBBKXM_treatment	-999	-999	Surgical Procedure						b3d7fe91-8900-5f45-b8cf-5fc8f6a373de	9703ee5c-11c1-5604-ab73-932801bdb9ce
+treatment	PBBKXV_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						05d9652a-d4bb-5cc4-b923-1190e805556a	3f7b5cf6-84ae-59f7-b9c5-0fdb10e7a8f4
+treatment	PBBKYI_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						c2208548-7d4a-5246-b863-242b309f40a0	935affef-43d9-504c-ba55-91744c31c0b9
+treatment	PBBKZD_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						c7f60a6c-82c3-5fd7-967f-b893450f3247	16d695ba-3d57-50d4-9ce0-948cd7f22e33
+treatment	PBBKZM_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						77fc88b0-b85d-533c-8485-a4fcec1d438e	fd833c8d-42d1-5afc-9bf5-fa98850eb3ec
+treatment	PBBLAC_treatment	-999	-999	Surgical Procedure						88f15b35-d6d1-550e-86c6-8b618c9063eb	e4329125-8620-5084-ad35-f566606b428c
+treatment	PBBLEW_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						ac707c4b-4f98-53a4-9f81-8b266a62857d	f67d4749-91f5-56e5-a594-175d23dc1966
+treatment	PBBLEY_treatment	-999	-999	Radiation Therapy						92899d36-b0f8-5591-9d4f-514fc0ebd74f	a2bf1996-49fe-5f12-b86c-a1e9fcd67128
+treatment	PBBLFD_treatment	-999	-999	Surgical Procedure						53d11cc9-4b59-515a-bb19-1f043eaa863c	ac67ebac-a0c2-5c42-8587-c6a2510ab800
+treatment	PBBLFI_treatment	-999	-999	Chemotherapy;Immunotherapy						ed658cd9-8be2-577d-8061-c21e887dde4c	11832dc9-dcb4-5a62-b7b9-b3b3e68009e6
+treatment	PBBLFW_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						5a88054e-bea9-5478-850b-dc837fa22916	5d213b8e-bc53-5100-826e-9e6dcd6a9ad5
+treatment	PBBLGF_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						5b840913-5c78-51ef-86ec-f06008983603	c3c0c73b-0c6e-59fb-b445-38d2d1dd80c9
+treatment	PBBLGZ_treatment	-999	-999	Surgical Procedure						5e2876bd-b768-5793-840c-0ec73638b455	6a0bbe8e-59e9-5994-b4d9-c29c83110de6
+treatment	PBBLHI_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						320c2c19-10d3-5f91-bfb8-f60571a0c311	8a9b3a03-d856-5c84-845e-c21736b6c349
+treatment	PBBLHM_treatment	-999	-999	Radiation Therapy						2d1daed1-bf21-5aab-8f7e-b09cb8912870	e53b3367-5f42-53c7-b8cb-e0943bca7396
+treatment	PBBLHT_treatment	-999	-999	Radiation Therapy						a2722601-224d-53df-a0aa-50576a57d81f	f1c419e9-fd0e-5c8d-883b-e3780acb1c21
+treatment	PBBLIH_treatment	-999	-999	Chemotherapy;Immunotherapy;Stem Cell Transplant;Surgical Procedure						66544ef8-0590-56d4-8fd1-ab9a85b741e3	5fc9073a-870d-5341-bfd8-71f220b86769
+treatment	PBBLIX_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						708252c1-a27c-5c40-9df8-b8e6296a8706	0d587f42-7f0c-506e-a959-139b683ec132
+treatment	PBBLJE_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						aa5a986e-91dc-5b4e-b670-79001735f934	15006070-b74c-546a-9f20-27b50d015cb0
+treatment	PBBLKB_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						3ce3ca99-bb7c-5f61-a7c7-e38dad9260e0	5a61333d-97d3-540c-bee9-3e5e376ee591
+treatment	PBBLKF_treatment	-999	-999	Surgical Procedure						94e6196a-9650-5662-bf0a-ed38a4695327	547893f8-e8ef-53f6-802c-dea7c479d7de
+treatment	PBBLKN_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						3450e2cc-6197-5710-9b48-cf4170e38ec6	a9ea9c70-ee91-51b8-953a-92ed82d8684d
+treatment	PBBLKT_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						155ba8b7-ee2f-5670-a379-7e1d140cec1a	a73dd42e-fed4-5870-9884-044c5b7961c8
+treatment	PBBLLJ_treatment	-999	-999	Surgical Procedure						74c1ddeb-3c7e-58b6-8513-10dd1d0c7b6b	9c8f2155-d080-532c-a77a-a4ab9dd6fa34
+treatment	PBBLLP_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						04fdba67-4592-59e8-8e96-977afc4efc5b	8d92dd5f-5077-5e95-8a78-ce0512943ed6
+treatment	PBBLMW_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						53899e15-dbb4-5189-9f48-4f4f5ad19ee4	ac973359-100f-5b38-8546-bd1b16e436b3
+treatment	PBBLNB_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure	Other					db9d0f7e-d3c0-5536-9fb4-bd5271ce7263	0d5a6a90-73ec-5e05-95bc-14add1b4fcc4
+treatment	PBBLNE_treatment	-999	-999	Surgical Procedure						624e83f2-e0db-5793-8d32-6662576a1317	2d044be4-3fd1-551c-a1aa-8ca8bf421c69
+treatment	PBBLNJ_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						77b44965-09a2-5d26-af4b-0a29b577f769	8404f007-abc0-5027-8b0a-3ebb318d76a9
+treatment	PBBLPC_treatment	-999	-999	Surgical Procedure						56c75615-d85d-5cbd-a23b-4a28ff4b78eb	aeeb631f-f6f1-59de-ad7f-343c7c39087a
+treatment	PBBLPD_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						fcbf078a-e1ad-5630-b491-dea91db7a9a8	95a58bfe-905f-532d-8748-f3ef499685ad
+treatment	PBBLPG_treatment	-999	-999	Chemotherapy;Immunotherapy						a0630cda-60df-582a-88fd-4b355fda88e7	162c0b89-fb06-54c1-88a0-3818d1da7379
+treatment	PBBLPL_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						f88db723-b4d0-56c2-9195-ccf2609c4ac5	e00e5657-efe2-51b3-91c1-7a894af2bdaa
+treatment	PBBLPR_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						6916d48d-57df-5120-be9e-71090b12b757	f923a0b6-d3a9-5b1c-916b-1d96e86f7056
+treatment	PBBLPZ_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						d88fac27-a2f5-51da-b208-6b1d96fa79a8	4a6623c7-2258-5f6a-b7cb-5d91733c996a
+treatment	PBBLRV_treatment	-999	-999	Surgical Procedure						b346ee9a-563f-5bf7-850d-dc8af78174c4	a7a57dac-717d-5e40-9823-8c064b20514e
+treatment	PBBLSD_treatment	-999	-999	Surgical Procedure						b704ce12-f60b-5208-a26c-c0928a8371c6	5c685ab1-2a50-5ba4-9a44-50b6f0b77c95
+treatment	PBBLSE_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure	Vincristine (Oncovin, VCR)					986267ac-1cb7-555b-b4d1-8fd58c8a3d76	8b8028fa-dcf7-530d-8249-c387ff74c9b4
+treatment	PBBLSI_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						2e2c639d-6b72-5acb-8615-ce7705ae63e7	0f9bc8f9-32cd-511e-b2d6-bfc674df5e44
+treatment	PBBLSU_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						c45eb9a0-af54-5cce-bf57-e23e256f874e	e4ecf6f9-68ed-501a-be12-561a93db4bb3
+treatment	PBBLTX_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						5f8e0b66-ab3f-5054-a0b5-f3a49d30b6bc	4ce95343-ea09-5a16-9439-6f6872edbb2b
+treatment	PBBLUX_treatment	-999	-999	Chemotherapy;Immunotherapy						b9373482-2426-5aa3-9488-2d2a55f48e75	3b8b7b26-9c7b-5ac4-937f-57c2457220b6
+treatment	PBBLWB_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						805c2ba3-6683-50e8-803d-252ccbc1c132	d1358981-403e-5a76-957e-fa4a1db94ec9
+treatment	PBBLWR_treatment	-999	-999	Chemotherapy;Immunotherapy	Bevacizumab (Avastin);Dexamethasone (Decadron, DEX);Irinotecan (CPT-11, Camptosar);Other;Temozolomide (TMZ, Temodar)					2918a56b-5fdb-55bf-9d3d-e802d7d508b0	df630bfe-caeb-54f9-a357-d9cc756d312c
+treatment	PBBLXN_treatment	-999	-999	Chemotherapy;Immunotherapy	Pazopanib (Votrient)					7b0f7883-2d24-5d17-a34a-3c5476caff29	1f25ac5a-8979-5778-a20f-c621ccb678d4
+treatment	PBBLXR_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						6efa2009-e623-5da5-9c00-b1e1083e820d	a2322274-eaf7-5705-8742-94897a0d6e47
+treatment	PBBLXS_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						63977497-4e02-50f0-916b-1378e2c158f4	97cedf77-396c-512a-9555-6ea953171992
+treatment	PBBLXV_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						57f6f7d4-edbb-511e-b035-807ae90b3f22	c767fb1e-007e-55d0-9cbb-e19404dac624
+treatment	PBBLXX_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						d41b7a3c-de0f-5201-8d7a-702da8bbe34e	53775895-5151-5e65-b09e-6f643619c608
+treatment	PBBLXY_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						5695726d-9c9a-5b62-bb10-85998b3ac426	4527a435-bde4-556c-81c8-ba1fd081b4fb
+treatment	PBBLYZ_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						5a8a2761-0029-5c5c-98c2-6c1f03e114c5	413b01fc-6821-5315-a726-3a3021c352eb
+treatment	PBBLZZ_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						d760d802-6326-570a-802f-c08752597fe6	42781282-91c4-5596-a0b6-e3786b980152
+treatment	PBBMAR_treatment	-999	-999	Surgical Procedure						4028e4a6-2019-5126-97be-780cddec52f3	29246af0-7da2-5806-a66d-2fe16264860c
+treatment	PBBMAX_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure	Bevacizumab (Avastin);Irinotecan (CPT-11, Camptosar);Temozolomide (TMZ, Temodar)					d875a8a9-2914-50cf-a2ef-5b19ced03fd4	2657ae7d-90b3-5270-ae52-fe6f98c7751e
+treatment	PBBMBK_treatment	-999	-999	Chemotherapy;Immunotherapy						4de605dd-edc8-544a-8a32-527014d8594e	1156ff53-86ae-55b3-a0ef-8466e461862c
+treatment	PBBMBM_treatment	-999	-999	Radiation Therapy;Surgical Procedure						11458c93-9e9b-5fe3-bce9-ec40d2edccf0	820912d2-a6ed-5d5a-aea5-4f3a87375d9a
+treatment	PBBMBU_treatment	-999	-999	Surgical Procedure						e0e819bc-e95b-5dd1-a533-bd7703ae6ddb	9113ebf9-868c-5fd4-876b-703797dac28a
+treatment	PBBMBX_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						d3f6399d-de3b-51d9-80a8-8cc44c1a4e8c	e0dc1735-026b-569b-a481-dcb2e3c7626d
+treatment	PBBMCC_treatment	-999	-999	Chemotherapy;Immunotherapy						5d01b0cc-6ec3-54a0-9640-25efd6fc403b	7dc93a34-f67c-5230-ba81-5f7221f8cc08
+treatment	PBBMCH_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						3e3dbef7-d50b-512d-aed6-debe2e8a97f2	cb568b0f-a515-50c7-b22e-821e120fce09
+treatment	PBBMCL_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						e04a80c8-6267-5942-b20b-5c13aa93ece3	c46f9930-aa28-548f-9438-dc3848370151
+treatment	PBBMCU_treatment	-999	-999	Chemotherapy;Immunotherapy						0d100c8a-edee-5be9-8d94-162ed79e97dc	7dd70105-11aa-52ff-9473-8160c02bf932
+treatment	PBBMCX_treatment	-999	-999	Surgical Procedure						e305c5b8-38f4-5f27-80e6-72b8e9e5182f	a0e1d68a-af16-5a0d-9249-1abd7ab06376
+treatment	PBBMEA_treatment	-999	-999	Chemotherapy;Immunotherapy						40fb150f-2796-5483-a718-734445404f15	d7e6e97f-343b-5019-86df-5e951ac4848e
+treatment	PBBMEG_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure	Carboplatin (CBDCA);Etoposide (VePesid, VP-16);Ifosfamide (IFOS, IFEX)					8b8b66c2-3d43-5f3c-b336-7ee4bc9de651	030742f1-6896-57b4-a1f6-ffa8452d3b52
+treatment	PBBMEH_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						5a39833b-1d8e-5852-a549-1b8953fc7c78	1db76118-24c8-5fa0-b162-bc8f37397585
+treatment	PBBMEY_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						bc5b3ae9-04eb-5775-ba2a-2eefcd2bca68	6790586f-e2e8-5653-800d-75b97407b36a
+treatment	PBBMFF_treatment	-999	-999	Surgical Procedure						6cce91ea-1267-5a9b-a7f0-717162274483	2853ff21-0197-50f4-b0dc-a7187bf90498
+treatment	PBBMFM_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						ae19ec65-af13-5e84-bf9b-508dea482a2f	b0215fb6-39f3-5ba3-b7b2-fa72deb2f1f3
+treatment	PBBMFN_treatment	-999	-999	Other;Surgical Procedure						e81dccd1-9514-55fd-91a3-6cf8df0c8df9	83295d34-8e78-5777-b8db-27d4b30f4b29
+treatment	PBBMFZ_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure	Sorafenib (Nexavar)					f94e400a-8325-576c-a457-a2c8e165ab2e	3e501056-64f8-50de-85a6-b05176c8ec47
+treatment	PBBMHS_treatment	-999	-999	Surgical Procedure						4ffd88a5-e6fc-53b8-8224-175ba5c42197	5ce51ef2-9b3a-5398-bbf2-75ebc5d06a7a
+treatment	PBBMHY_treatment	-999	-999	Surgical Procedure						1a8a3a4d-4e4e-590b-8918-d704b3acb82b	a3301046-978c-5fe2-8d72-f68dd563d227
+treatment	PBBMII_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						291f6fd1-94ff-5308-b217-78aee367acdf	f8320f6a-2687-5ad0-9352-310e9cf5de12
+treatment	PBBMIP_treatment	-999	-999	Chemotherapy;Immunotherapy	Other					b80c650c-6183-5f77-874a-03bc143eeb05	6abf636c-04ab-57bc-b2fd-6c1cdaaa9950
+treatment	PBBMIX_treatment	-999	-999	Chemotherapy;Immunotherapy						8f8865ca-821c-5ec0-a861-87cdb36aae53	946959c7-054a-5981-b28c-d9fdb87ffa7f
+treatment	PBBMJP_treatment	-999	-999	Radiation Therapy						cdc56d80-3345-5dbf-b7d6-e6c16be348ea	e4970eb6-07cf-5907-bca9-5b76cf3173b5
+treatment	PBBMKF_treatment	-999	-999	Radiation Therapy;Surgical Procedure						f3f374cf-bf7d-5d68-9d64-0df6a2d7a860	2e7b4ca6-53c7-5d93-a60a-a5977442b4ab
+treatment	PBBMKI_treatment	-999	-999	Surgical Procedure						8094c359-619d-50a2-98ea-01cb9c7a8561	50754158-fa72-5380-953a-586c53fb69c4
+treatment	PBBMKK_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						5ea9a9b7-d5c3-5cad-9116-0bafd0b96a99	51afb815-e102-5f4b-9835-e5d5764fd1c5
+treatment	PBBMLJ_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						72471d6b-b365-50e5-8472-4f0352cb73dc	e273cc9f-418d-5b87-800f-45b9f26c8d9b
+treatment	PBBMMW_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						8a3a8ad2-e7d3-51fd-81ab-6e3e620d9256	fc04a356-5cef-537e-b485-2b29e0b8b0da
+treatment	PBBMNL_treatment	-999	-999	Chemotherapy;Immunotherapy						c72d6978-9c84-5a07-8a8a-09130e5d5807	2c9390a6-3053-53da-8baf-d0c414563919
+treatment	PBBMNW_treatment	-999	-999	Chemotherapy;Immunotherapy	Other					3f3e46e3-498c-5070-9f9f-00213e8c0be9	51733af1-56c2-5679-8f4b-5e3a666f3651
+treatment	PBBMNX_treatment	-999	-999	Chemotherapy;Immunotherapy	Carboplatin (CBDCA);Other					353f5fa9-ae4d-549a-a75b-1ab65af31a49	823d6143-77d2-5137-b806-3e3dcfe20c72
+treatment	PBBMPA_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						0c17bd8d-385e-5834-8ff3-65d3acf07cd5	11564294-e4b9-54b9-b3f5-f7a2fde2bc0c
+treatment	PBBMPD_treatment	-999	-999	Surgical Procedure						c9c9e2ae-17ba-53ef-8901-dbcb0aa0efa0	b447af62-ec80-5e7e-adb6-6891478119a9
+treatment	PBBMRT_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						c17a5efb-4380-5fce-89f1-c39d00a8a6bc	34d3a7d4-2cfd-5375-b625-548d175893c0
+treatment	PBBMSC_treatment	-999	-999	Chemotherapy;Immunotherapy						d73d12ab-1e4c-5d05-bb60-d8d5fcaf33f1	50199d1b-b648-5928-8a35-73612a2604cc
+treatment	PBBMSY_treatment	-999	-999	Radiation Therapy;Surgical Procedure						15f2aa44-403d-56a1-bec3-a6db0176b2ce	827d92df-9c4a-5e0c-a8d2-323045ace096
+treatment	PBBMTH_treatment	-999	-999	Chemotherapy;Immunotherapy						46d330fb-f194-5dd4-a2b4-105d84559093	ca49cada-013e-5c90-9aa8-e9e176aba60e
+treatment	PBBMTJ_treatment	-999	-999	Radiation Therapy;Surgical Procedure						34564538-3bd5-5dfc-88b0-1da76441780b	6fa519e7-17d7-57c3-b35b-d8f2a9dd46c3
+treatment	PBBMUT_treatment	-999	-999	Radiation Therapy						34e158ab-8df3-5052-814c-4b928aec1e54	263f31d9-8794-5b9d-9480-95ebfcf38a72
+treatment	PBBMVS_treatment	-999	-999	Chemotherapy;Immunotherapy						4e4a1841-c05d-5f8c-bffc-3a39ecd341ba	d9958fd0-dcd6-5cc2-b806-0d96b02c6388
+treatment	PBBMXN_treatment	-999	-999	Surgical Procedure						7b642fe3-13ef-5d55-8aab-65a4575177d8	092053de-3f4d-56bf-b3a0-455d264821b3
+treatment	PBBMXX_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						cb916c10-c860-5235-81c8-a1830ad67040	15db7ee1-c5d1-5e8c-8f99-922a568f6e2f
+treatment	PBBMXY_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						337c2d60-dc57-5fbe-b960-b71aed130bc6	5d689e18-7e2c-593d-836d-6d6733aa24cf
+treatment	PBBMYD_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure	Etoposide (VePesid, VP-16);Temozolomide (TMZ, Temodar)					0811a2ce-3a8c-534d-889b-4ba49e416efc	cf636941-225c-5646-a126-9780a701a768
+treatment	PBBMYI_treatment	-999	-999	Chemotherapy;Immunotherapy	Vinblastine (Velban, VLB)					0da24003-bf35-568e-a4eb-f44418741e55	535f73c2-a4be-5492-81d8-720fb4a3f0bd
+treatment	PBBMZV_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure	Dexamethasone (Decadron, DEX);Doxorubicin (Adriamycin, ADR);Ifosfamide (IFOS, IFEX);Other					68033204-c0c4-5497-9352-1f654a8857f4	08c2d2ea-70d4-583a-887e-b19241722f46
+treatment	PBBMZW_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure	Bevacizumab (Avastin);Temozolomide (TMZ, Temodar)					b1b5a156-5a3d-5527-8ba0-9aec1290a641	59c87481-f393-5bf3-b68c-9963e0fd0642
+treatment	PBBMZY_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure	Carboplatin (CBDCA);Vincristine (Oncovin, VCR)					61f77936-f1a1-58fd-a17f-d0dc1a3baea9	8b3f3947-2c59-5525-a00e-0ad7ed3a2d5d
+treatment	PBBNAU_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						a1d54b12-67be-576f-a6c8-7f47b2137f11	d28b2c90-145b-56c1-b35b-9a4453ca2e0b
+treatment	PBBNAV_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						83d7174b-3f90-5559-8e4a-b71306841e4b	5dda9e5d-faa2-576b-86b1-f48b61797ca8
+treatment	PBBNAY_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Stem Cell Transplant						83f69b91-f981-59d9-bddb-f6232395545e	cb50a308-6b56-5ba5-bef2-c88dcda8991e
+treatment	PBBNBW_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure	Carboplatin (CBDCA);Etoposide (VePesid, VP-16);Ifosfamide (IFOS, IFEX)					9fb091fd-7df1-5bd2-ac20-807e10ede3df	28101473-0be5-5601-a08f-2db9cb80636c
+treatment	PBBNCA_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						f4209474-0380-518b-8683-fc03bfb029a8	c09a26b9-f6d9-5e2b-a412-27b64adb4844
+treatment	PBBNCU_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure	Irinotecan (CPT-11, Camptosar);Other;Temozolomide (TMZ, Temodar)					5831f1fb-d701-57ca-b175-d9dea43fbb2b	4e041ec9-12c3-56eb-8113-575b27dddf57
+treatment	PBBNCV_treatment	-999	-999	Chemotherapy;Immunotherapy;Stem Cell Transplant;Surgical Procedure						a02e3351-75f8-5032-a4f9-fc1a383d0fe5	f267441b-e72d-5eeb-8b4d-4acda5e138c0
+treatment	PBBNDK_treatment	-999	-999	Chemotherapy;Immunotherapy	Other					1c8895c5-d37e-5235-98b0-4f27bc33efd1	e31ad555-0402-5271-bde7-341d239d8e98
+treatment	PBBNDM_treatment	-999	-999	Chemotherapy;Immunotherapy;Other;Radiation Therapy						aafd72cb-f27e-5a6e-95cc-958332d7f3e5	7f3d9a4e-b3a3-508c-88f1-895a9fccd8a5
+treatment	PBBNDR_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						480ecdb0-1446-5490-a5d8-69324a13d071	7e158b8c-9b7f-5a22-8c12-ca44c1858831
+treatment	PBBNDZ_treatment	-999	-999	Chemotherapy;Immunotherapy	Carboplatin (CBDCA);Vinblastine (Velban, VLB)					67cad774-817c-5847-abf9-ad0d88b7aba2	da92d22a-e501-5f3d-81e3-45cf5a7910fe
+treatment	PBBNEE_treatment	-999	-999	Surgical Procedure						0c6910a7-f227-5c3f-994b-0521ff30cb05	19e274ac-72f6-51b6-9660-e4e3623fc183
+treatment	PBBNEJ_treatment	-999	-999	Surgical Procedure						8194f040-02ac-580e-a27d-5395ffe5d2da	b71e37e3-39db-5fa6-926c-ac7c2f3b2445
+treatment	PBBNFE_treatment	-999	-999	Surgical Procedure						f3bcf595-40cd-5abc-9b43-0bac71c456ea	901ce1fe-b11e-5c96-8825-374ef9d36b2a
+treatment	PBBNFF_treatment	-999	-999	Surgical Procedure						d61a7959-1656-59aa-85b4-8a3abc5ff627	326d2452-61b7-5dcb-b3f5-5f4c8d7da970
+treatment	PBBNFH_treatment	-999	-999	Surgical Procedure						1524a012-c394-5969-a58c-cc7767aa9e80	c4a07bdc-ca8b-55ca-ae0b-5924a49f40e5
+treatment	PBBNFJ_treatment	-999	-999	Surgical Procedure						8d3256c3-3829-5c31-b5b4-53183459feb4	50cb1719-689e-5353-8d61-9ea31cc5a0de
+treatment	PBBNFP_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure	Other					e7fff11e-6853-5ac3-a359-dcd45fa0803f	f6b8051a-6926-56f6-9d68-00ff59a92126
+treatment	PBBNFS_treatment	-999	-999	Surgical Procedure						3bbe6456-c0b5-5ea5-a685-0801c5dd7388	9ac82223-f30d-5d34-994b-d184bf704815
+treatment	PBBNHL_treatment	-999	-999	Surgical Procedure						b8d6098f-00e5-5975-87a5-9747cabc4c53	f2fff73c-52d6-55db-aa96-5ac52358d7a1
+treatment	PBBNHM_treatment	-999	-999	Surgical Procedure						919f3ac0-690c-5a54-b9e7-372251b8f6e7	554655c6-3981-5153-b263-701513016205
+treatment	PBBNHP_treatment	-999	-999	Radiation Therapy;Surgical Procedure						8a0b73bf-1ad0-5339-9455-d18123983aca	1249da65-c387-5564-b4ef-2d9dcf44d1a8
+treatment	PBBNIJ_treatment	-999	-999	Surgical Procedure						ff8ed0d6-39de-525a-819f-f5b152b784a0	c332a527-2f09-5f82-8d59-8cee881cad3a
+treatment	PBBNIR_treatment	-999	-999	Chemotherapy;Immunotherapy	Carboplatin (CBDCA);Etoposide (VePesid, VP-16);Ifosfamide (IFOS, IFEX)					3fcbbcae-49bb-5cdc-aba2-09ad2c466de2	e53a1030-7493-5a82-bf07-2766f294e98f
+treatment	PBBNIZ_treatment	-999	-999	Radiation Therapy;Surgical Procedure						e79ceff1-46f5-5df8-abc5-eddff9bdaaa6	77b0aa79-b44a-525e-aad1-1cf50fd27254
+treatment	PBBNLA_treatment	-999	-999	Radiation Therapy;Surgical Procedure						71ba98b0-00f8-5110-a3f4-dd0bbd4efaf4	3f48062a-4878-5822-9776-d82e63cfaf75
+treatment	PBBNMC_treatment	-999	-999	Chemotherapy;Immunotherapy						6ee58d4f-9cbf-5984-a298-e9a8e3acd406	993e726c-7579-5555-92f9-ee5dc67c2c0e
+treatment	PBBNMN_treatment	-999	-999	Chemotherapy;Immunotherapy	Other					645f94f9-e8a6-5012-bb7a-ef41b894bb8f	c3dc90c1-8b06-5d06-a9c3-24117b7289bb
+treatment	PBBNMV_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						29908080-f5e0-5807-baa9-3f204cc1a9c0	ad41672f-3d95-543b-adac-411794dd12db
+treatment	PBBNND_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						a2b2cbd5-3b46-5b73-953a-784627596bb0	2cf1c1d3-f85a-554b-a2ec-cc3d9581233e
+treatment	PBBNNR_treatment	-999	-999	Surgical Procedure						537f7ed8-3966-5b92-acc3-ce32c80ac234	968e53dc-5348-56f2-a85d-9721b936b284
+treatment	PBBNPB_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						b5378a12-cad4-5a34-985d-0bdb2fe09336	c37c1d2c-af3c-57e5-9784-23ba09ac79f9
+treatment	PBBNRL_treatment	-999	-999	Chemotherapy;Immunotherapy;Stem Cell Transplant;Surgical Procedure						58328827-8a3c-50ab-b8dd-3ed9025ff84a	d59c27a2-d0b7-5c89-be42-4402efad6c88
+treatment	PBBNSB_treatment	-999	-999	Radiation Therapy;Surgical Procedure						4671feeb-3daa-5a85-89fd-c334169fb497	42694828-26d3-538b-8693-6ed8e59ba2cf
+treatment	PBBNSG_treatment	-999	-999	Surgical Procedure						366e4684-8ccc-54fd-8cc1-e738d47e8a27	82a9b52f-63d9-55ed-b608-58ab421622c0
+treatment	PBBNSH_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						f897b2e4-6dbd-585f-983a-5337168f6ed2	7a096841-14a8-530e-a8a8-45825dfc58e8
+treatment	PBBNSR_treatment	-999	-999	Chemotherapy;Immunotherapy						3dc0f2bd-b164-53e9-8b8e-7757f179870d	36bf83b8-8772-529e-8d99-4cc8eafa0b9a
+treatment	PBBNST_treatment	-999	-999	Chemotherapy;Immunotherapy						71ce6ed5-c092-50e2-a5da-ebe8e574af32	06e0fcc9-5b8f-5b70-ba9c-5a9440e2835c
+treatment	PBBNTI_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						71a474ee-8b25-55c1-b8d0-30fdccc10d8f	b7a75349-03b1-5a3d-987f-487eb14becee
+treatment	PBBNTK_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						71316da5-4e81-553f-8817-ab03949fbbe3	614c5da3-3e87-5b36-83ae-f241c60054bc
+treatment	PBBNTY_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						b354c8f7-176d-52a2-98a8-8ea9c3c4a104	414be4d7-3868-5f54-ad21-ea35a62eb2fa
+treatment	PBBNUZ_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						bbe9dde5-6723-5b7b-a22a-99c02ed70f5b	7f123985-588d-5f01-9967-b3bb70818d07
+treatment	PBBNVD_treatment	-999	-999	Chemotherapy;Immunotherapy						c08d54c6-5691-59af-bf14-4439feb95945	6c779065-e040-5faa-9f96-c915d9b7f1ae
+treatment	PBBNVL_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						c56222b3-2125-5ba3-99bd-4ee3ed7da927	5123f119-61e9-5a4d-8753-57d8797cd211
+treatment	PBBNVP_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						fc3ef397-9661-5963-bbb4-faaa426d2bb4	58330c55-8a34-56eb-b8b8-caf0c9b8c066
+treatment	PBBNVV_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						0d3dfbe4-e457-5cbd-8e9d-95fd08aff8b5	068ba27f-1982-5b1b-acb4-582766508806
+treatment	PBBNVW_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						af01d2cd-c450-5f5b-a9dd-61701cbf14da	e942ee51-1a86-54dd-8ee6-5f5f07fd60e1
+treatment	PBBNVX_treatment	-999	-999	Surgical Procedure						6cef46c3-b5a2-539d-ba17-657263d72737	4b9954d7-7422-54a0-88c4-3b1c5924cee3
+treatment	PBBNWE_treatment	-999	-999	Surgical Procedure						e4eb1f20-6c61-5f0e-bc4d-98b7755aac95	f1139f75-be38-506c-8c47-22a99b89f978
+treatment	PBBNWV_treatment	-999	-999	Radiation Therapy;Surgical Procedure						efb02fac-a9a2-5d73-9bb7-a18680bef4c7	aa3c9f7a-6a6c-55f5-a0a9-7320cf3462a1
+treatment	PBBNYE_treatment	-999	-999	Chemotherapy;Immunotherapy	Vinblastine (Velban, VLB)					45370297-4f69-567c-9000-6858249db736	50242bfe-9f0f-5a38-87ae-b5de42344cdc
+treatment	PBBNYH_treatment	-999	-999	Surgical Procedure						d88e2953-d175-5be6-a039-104f4c291ea8	44bfe95f-6f1a-579c-8a25-76e5097b6982
+treatment	PBBNYL_treatment	-999	-999	Surgical Procedure						9c379abc-9d44-58e6-838a-7c112744a346	aa1eef28-ac3f-56fc-b4a7-1b3cb9aadcbf
+treatment	PBBNZF_treatment	-999	-999	Surgical Procedure						b7b1a95a-522c-5100-a2fa-97625502352f	c0c7cba6-f668-58a9-a6ae-d8f4cad29785
+treatment	PBBNZJ_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						051c361d-38fe-5f8d-b760-68758dd3ddc9	bbf63651-b59d-5b82-aa2f-7912ebc7dc4a
+treatment	PBBNZZ_treatment	-999	-999	Chemotherapy;Immunotherapy						ceae0ba1-f5d1-5bc9-a5ae-905048fe56ec	99165519-8d00-5252-95d0-f18a52cd91a3
+treatment	PBBPAR_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy	Carboplatin (CBDCA);Melphalan (Alkeran, l-PAM);Topotecan (Hycamptin)					b1b51851-98bb-5674-be0c-8cfe53c2fdf1	207a65af-4a2d-5731-a6c8-1168347d2091
+treatment	PBBPBM_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						68846e70-6ae1-54f6-aa74-d6bb04424848	ebb5c675-6b8f-5e09-811d-dba43acb5693
+treatment	PBBPCC_treatment	-999	-999	Surgical Procedure						973d8c48-0536-5d00-8fac-d760af44b135	2b1c261c-5cfa-59b5-a64e-c1f3b96ade88
+treatment	PBBPCL_treatment	-999	-999	Surgical Procedure						0a50fa9e-9df6-5170-891f-b37d20e4db7c	8e9be3aa-4f08-5bcc-aead-ce9061eab6f6
+treatment	PBBPDC_treatment	-999	-999	Chemotherapy;Immunotherapy						619aa1ee-9035-59d8-89d6-c1d5824b7078	f6b83fda-b3e7-540f-9e89-6064a6521687
+treatment	PBBPDS_treatment	-999	-999	Chemotherapy;Immunotherapy						b42618e0-7aed-5251-bbc0-6bbceb3fa1aa	da29a22e-af8a-5d36-86d6-cb47d76aca91
+treatment	PBBPDY_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						fa521677-0ccd-583f-a4f4-d40e3b8aa93c	3a33f101-afbc-5376-924a-c60105921399
+treatment	PBBPEH_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						a1068fa6-d4cb-5798-a6a0-376d13ab42c1	69765fca-e057-5913-b7ee-73f0bb8c1f5c
+treatment	PBBPEP_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						2917db23-a8fb-503e-a935-e6fc1e5c65a1	7dda403d-9c0e-547d-b505-3ee0efdc37b0
+treatment	PBBPEU_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						7fe9c79b-89bd-55aa-bc88-2b914e43f908	68807b14-2db8-5d1a-abdc-a31cb69c4d27
+treatment	PBBPFA_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						6f0fdc96-4a5d-5025-8737-f88d8095315e	5101588f-7187-528d-85ee-9740d21ce895
+treatment	PBBPFG_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						817a18cd-062b-53b2-a021-d2fae9c642f4	365bff5e-58ae-574d-83b2-3fe0a24bb234
+treatment	PBBPGA_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						70a298b1-8146-52ad-8880-f279d5351a29	4956f9f6-0cd4-5305-befe-4b8b08a42e7b
+treatment	PBBPGJ_treatment	-999	-999	Surgical Procedure						a0227674-ff92-5f91-bb12-f5e70205776c	02cb481c-4694-5c9d-af50-b60c12dcce7c
+treatment	PBBPGL_treatment	-999	-999	Surgical Procedure						758ee17e-04d7-5574-8a28-4959132aeeb8	b122161c-c7f2-5dcf-8630-84f9f89198c1
+treatment	PBBPGM_treatment	-999	-999	Surgical Procedure						3f1c4558-472a-55d9-99ce-84bb0ad5da59	0a450405-59c0-5204-ad65-09d1243ddd06
+treatment	PBBPHZ_treatment	-999	-999	Radiation Therapy;Surgical Procedure						e398ac25-f9a4-5690-b11e-6461529177d1	c2657ad5-6bd6-5495-b040-24532a78dc0c
+treatment	PBBPIH_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Stem Cell Transplant						85eeb009-3e8f-5a13-a349-88a557585114	454fee6a-70f8-5b7a-8f59-0eb22d7fa6cb
+treatment	PBBPJU_treatment	-999	-999	Radiation Therapy;Surgical Procedure						b65c8dd5-d700-5567-9f4d-4a134a6f9e89	031794d9-eac4-51fc-803f-94d2d9ca73d2
+treatment	PBBPJV_treatment	-999	-999	Chemotherapy;Immunotherapy						98f610f2-1982-5806-a33a-c15352676a31	294008e5-0a16-549b-bbf6-e0801d331f1c
+treatment	PBBPKC_treatment	-999	-999	Surgical Procedure						b357bd0c-7593-5adf-a068-ef2105e93d62	b5e1be7c-141d-50c1-9e62-fd24452c6209
+treatment	PBBPKG_treatment	-999	-999	Surgical Procedure						e6c24143-61ba-5e5a-a5cf-52895fd0a6cf	367a553f-4d22-5e54-9fc4-e2ebef0e8000
+treatment	PBBPKI_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						016288f5-8267-53d1-b13f-55ec11c658ac	7f5f0ce2-ea73-5667-b451-797e2ae869bd
+treatment	PBBPKN_treatment	-999	-999	Chemotherapy;Immunotherapy						252139fa-ab4e-52d0-bc21-3fc7b39e7828	6b9fa2f9-b855-5997-b298-8b29d112815d
+treatment	PBBPLF_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						bed4d688-1a92-588c-9958-c03c3e68612d	ec04ecb8-df4f-5aba-994d-1a6a12fba220
+treatment	PBBPLS_treatment	-999	-999	Surgical Procedure						c1934a97-2b98-581a-b5a8-46e1ab8e864f	8d159a20-31cf-5f0e-be4e-72391a943373
+treatment	PBBPMB_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure	Bevacizumab (Avastin);Vincristine (Oncovin, VCR)					71452576-5feb-53d3-a06b-d903b1266db6	986cba22-ef52-53ea-985a-f45ed6f846ed
+treatment	PBBPMG_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						b7b86c0c-1b03-5517-8712-d59479e63f04	5a4172c9-2889-5d68-8aa8-a59c33e09a46
+treatment	PBBPMJ_treatment	-999	-999	Radiation Therapy;Surgical Procedure						0b87f60b-4502-5201-91ce-9e1bd5814c50	797bc1f2-eb75-5994-8c41-0c0e9fa42c66
+treatment	PBBPMT_treatment	-999	-999	Surgical Procedure						11353e9a-776b-5a25-8238-f1c207d64b73	47af71c4-68fa-51f7-90a6-870fae9b37ed
+treatment	PBBPMY_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						2c25fd60-6e4d-55d4-9e0b-e6f9db04329c	03eb15cc-cee5-576d-b45c-7cfe0de6e23e
+treatment	PBBPMZ_treatment	-999	-999	Chemotherapy;Immunotherapy	Pazopanib (Votrient)					c292f59f-b542-5a54-8b57-d1fed50e72e0	7dadff2e-5dab-5a8b-933a-a80838415d11
+treatment	PBBPNC_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						8295d606-f8ab-5622-9c17-77ce37f5a79b	bbe95154-6757-514f-b999-2fd2640bbf67
+treatment	PBBPNK_treatment	-999	-999	Surgical Procedure						75899aaf-d08c-59b7-8b3f-badb2b9bfbdc	ca3163e2-c048-5b64-85b4-eb3833b6aa67
+treatment	PBBPNS_treatment	-999	-999	Chemotherapy;Immunotherapy	Bevacizumab (Avastin);Irinotecan (CPT-11, Camptosar);Temozolomide (TMZ, Temodar)					83db84e6-f064-5d45-8eab-cd578a9debae	fd5d8283-175e-566b-97ac-bf6e310dca76
+treatment	PBBPNV_treatment	-999	-999	Surgical Procedure						495dc92a-f584-5f12-8c20-71dec10d87cb	00ff41f9-84b8-57f0-9bdd-b3344642a397
+treatment	PBBPPA_treatment	-999	-999	Surgical Procedure						20713138-237f-5012-bac8-fcc4a575872f	a680e3a1-709f-5df2-85bb-900812c542dd
+treatment	PBBPPV_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						8880261f-10c3-503b-93ef-cf6938f4fd62	c879bd16-f10d-5ade-9baf-ca201a909cd8
+treatment	PBBPPW_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						c91721aa-04f1-54c9-9f2d-5800e850befa	98537530-5e85-555c-8ae5-cb0dff593703
+treatment	PBBPRD_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure	Cisplatin (Platinol, CDDP);Etoposide (VePesid, VP-16);Fluorouracil (5-FU);Irinotecan (CPT-11, Camptosar);Other					2588674b-db25-543b-8195-b906be741812	768cf73b-7dc4-59e1-9ea1-f0b3e7351062
+treatment	PBBPRN_treatment	-999	-999	Surgical Procedure						a2ac3e3e-ce83-53d2-b47e-2620318202f1	0c14757c-7162-5b1b-80dd-f424bd2fe179
+treatment	PBBPRP_treatment	-999	-999	Chemotherapy;Immunotherapy;Stem Cell Transplant						ca3fcf1d-1926-5b6e-b636-14b566d82e9b	a7127ac7-7a7a-503b-9bb7-cb93b9c497f5
+treatment	PBBPRS_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						db84dfe3-06d3-5b33-88df-7e9ce27da196	74c21051-b8ff-5c5b-8259-8a150e30562d
+treatment	PBBPSX_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure	Other					6e1129d9-c9f5-5fb2-a613-aabaac2740a4	a45e2705-9c72-5446-bc71-28025233929e
+treatment	PBBPTC_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						e9dbfdca-e542-5b9e-83b7-f0d5df70005a	effd29d1-f7f5-5ec1-a5a6-3a443ad5cd1b
+treatment	PBBPUW_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						d500c1dd-a084-52fb-b19a-16444c4ae123	b8c25131-fd5c-5a36-b83d-6e67d1f49bd4
+treatment	PBBPVG_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						88cf6eb0-2024-54c4-b089-1d09968a8f2c	0a35b5b1-4976-5402-a525-485d4be5344d
+treatment	PBBPVS_treatment	-999	-999	Chemotherapy;Immunotherapy	Cyclophosphamide (Cytoxan, CTX);Topotecan (Hycamptin);Vinorelbine (Navelbine)					80265a66-2f81-5efd-a88f-cf6192a7c712	484d6ca8-6b75-5e1d-9d5a-2b7ab9760086
+treatment	PBBPWD_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						9370c6e7-86c0-582f-a8a0-3f2205b51802	cff9fb52-1b7b-5689-8454-2fe487c0c7bb
+treatment	PBBPWE_treatment	-999	-999	Surgical Procedure						8272ac04-6f4c-572d-9fa9-152e46aa47b5	9177d407-313e-54f2-a4c8-ca566079a199
+treatment	PBBPWH_treatment	-999	-999	Surgical Procedure						4718fde7-cc96-5850-9076-0f7a8fe32d30	08fdfb24-3cdd-5685-bbdf-b74a1e6f7f2f
+treatment	PBBPWK_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						4a9b3778-a456-56fb-bdee-d381d8406bb1	43a5cf0d-d908-5ce7-83dd-063ebfcff50e
+treatment	PBBPWT_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure	Carboplatin (CBDCA);Etoposide (VePesid, VP-16);Ifosfamide (IFOS, IFEX)					4d7af043-0115-5ae3-b0c9-897125c069cb	b362536b-0250-57d7-8a6b-668e26a7e686
+treatment	PBBPXA_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						d6331cb5-15d5-5fd6-be6e-35792754f4e7	f0f67633-72d8-5415-9ed5-9faf7c3613d0
+treatment	PBBPXU_treatment	-999	-999	Chemotherapy;Immunotherapy						c70513a7-03e9-58f4-a4b1-201c67466fbc	31cec79c-4c38-521e-ae80-36320fc1dfe1
+treatment	PBBPXX_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						b4e285a9-2ee5-5bcb-87eb-c078a9ceb2e8	4247957a-6807-5a07-a012-f6f12690bcd3
+treatment	PBBPYD_treatment	-999	-999	Surgical Procedure						99b3b59d-c73e-5231-8173-37fc1a84b086	06c32d36-d8b8-543f-8bdb-9e7e253f0944
+treatment	PBBPZW_treatment	-999	-999	Chemotherapy;Immunotherapy	Other;Vinblastine (Velban, VLB)					3a8c2a7e-87ed-5a44-a6f8-db33dcbc2b31	dc8c40b5-c15c-54e0-9bfa-9f18774c1832
+treatment	PBBRAT_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						d16caf47-c565-544b-bb5d-506ab850e91c	8dd75f1c-5b96-5164-88ce-4f41b285b96a
+treatment	PBBRAZ_treatment	-999	-999	Surgical Procedure						60224b97-216c-5b89-bfde-535d930e5f83	0c43e9b2-e67d-57db-babf-f8e456ec68a6
+treatment	PBBRBG_treatment	-999	-999	Chemotherapy;Immunotherapy						6dd0f3b6-7806-5a53-be39-fce217b71ba2	6acf1bd4-3a67-53b1-8b7d-ba97e78f686a
+treatment	PBBRBP_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						db4ad998-e691-5f4b-861d-1175771c828a	7959c4a1-0750-568a-b0d2-4a40de307ffa
+treatment	PBBRBS_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						473305c1-8225-5cc8-8220-091e5e754a8a	106e8b53-c5b9-537e-b1c1-c69d152665fb
+treatment	PBBRBY_treatment	-999	-999	Radiation Therapy;Surgical Procedure						b1f24eff-fc38-59fd-bc73-36da41cf8c61	d33c4073-2469-5aa9-b6ea-6a3f775d993e
+treatment	PBBRCF_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						8d5e3829-348e-525a-8c8f-abb06434a2a1	8fc6c900-a299-55ba-8d2d-ac717b4ec2ae
+treatment	PBBRDE_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						94f587bd-ce81-51a1-a13f-234636fd2263	5030c21c-8778-52ab-a98d-907e205f1ba9
+treatment	PBBRDM_treatment	-999	-999	Surgical Procedure						a716ff52-ac78-5de8-b3eb-9d7ab8643bd3	8547c4d3-7226-565b-8ede-eea9933723f3
+treatment	PBBREK_treatment	-999	-999	Chemotherapy;Immunotherapy	Vincristine (Oncovin, VCR)					921a67f0-0ffd-57b6-a4ad-f8007d5edf0f	c0876e70-83a3-5557-a7eb-db5cf6e76899
+treatment	PBBRET_treatment	-999	-999	Radiation Therapy;Surgical Procedure						632315d8-6e49-5621-9213-2f2be5289928	f08f8ed6-e4c8-57b7-83a4-1bea8faaf931
+treatment	PBBREU_treatment	-999	-999	Surgical Procedure						33b3a0c9-c2aa-543b-87a9-85228db6185e	c880f586-c73d-5164-8476-af81923224aa
+treatment	PBBREX_treatment	-999	-999	Surgical Procedure						8ab367c6-ed93-5c12-8883-e3395df77de1	ef9db211-ec08-57ef-8eaa-aaa075e1ae8b
+treatment	PBBRFA_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						546f1432-9d60-586d-b689-baf91ea76de9	dbb07112-a994-5da0-9ed6-7e7e572161ae
+treatment	PBBRFM_treatment	-999	-999	Radiation Therapy						6e82da69-d6d7-5e9e-a919-218f36ebd28d	15d0ca02-8fbe-5c7d-95ea-3a4317516554
+treatment	PBBRGL_treatment	-999	-999	Surgical Procedure						f782604e-063b-5ba4-b2ed-d03a16367ca4	7c4b831e-a768-51a0-a7ef-e50c3b8c8fde
+treatment	PBBRGW_treatment	-999	-999	Chemotherapy;Immunotherapy;Stem Cell Transplant						b0f818f0-c815-5771-b5a8-a65ebc0f9050	f2a5dec7-6bfc-5518-b8f9-96baaa2d94fe
+treatment	PBBRHB_treatment	-999	-999	Radiation Therapy;Surgical Procedure						76c0fb6e-4db8-5eb7-9d78-e6569643512c	7d846612-d76c-50aa-976c-434d70f358ff
+treatment	PBBRHM_treatment	-999	-999	Surgical Procedure						0ec0192a-dd9d-5603-b773-d827acf2fd2a	fb8e294e-ffd7-5ade-9620-f610999fb63d
+treatment	PBBRIE_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						730a833d-d7bb-5c95-b800-cef1877bf197	b7eade2e-960d-5bd7-b765-8b9ddf40f32c
+treatment	PBBRJF_treatment	-999	-999	Surgical Procedure						75e730ac-022f-5781-8e15-50ca6d6b2ce4	6ff5b85e-7f3a-59e1-acf7-a055870bc179
+treatment	PBBRJL_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						79e48a97-69a4-5cc3-bda1-79a9986764ee	2317443d-4056-50c6-940c-a576c8485601
+treatment	PBBRKB_treatment	-999	-999	Chemotherapy;Immunotherapy	Cyclophosphamide (Cytoxan, CTX);Dactinomycin (Cosmegen, ACT-D, actinomycin-D);Vincristine (Oncovin, VCR)					4d5b36b7-0837-536a-b601-54292fef7362	aac74a18-df8a-5f1e-8c49-2889a834dd40
+treatment	PBBRKD_treatment	-999	-999	Surgical Procedure						f40a2cf9-2207-55e2-84f2-7e4a02cadab8	8207e8dc-4324-5e1d-a3da-35ba3892d37e
+treatment	PBBRKJ_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure	Temozolomide (TMZ, Temodar)					97a529a4-1205-5aae-b115-13278f454b99	f514aef7-4ae9-5e24-80cd-a48813313ac3
+treatment	PBBRKN_treatment	-999	-999	Chemotherapy;Immunotherapy	Vinblastine (Velban, VLB)					55a4cca9-a321-58f2-9be7-45883df5d33b	637e8ede-9dab-5e38-8273-25da98841119
+treatment	PBBRKP_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						a2384459-d01e-5fd8-bc97-bc4021222644	176e34d5-e06a-51ef-941c-42724fc0e832
+treatment	PBBRLD_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						e7453ac5-d7d1-5483-91ab-61d4d3714991	3fb512a2-86a1-57c1-afe2-a4c19e49472e
+treatment	PBBRLH_treatment	-999	-999	Chemotherapy;Immunotherapy						3a7f5649-8897-59d1-9384-5c36b7147916	8736ba04-2236-5da3-a95f-ce86187d0ed8
+treatment	PBBRLR_treatment	-999	-999	Surgical Procedure						a488ada7-69df-5153-aa78-c320abc821fe	5e3486d9-d854-5569-8ebb-93fb05e3790a
+treatment	PBBRLS_treatment	-999	-999	Chemotherapy;Immunotherapy;Other	Bevacizumab (Avastin)					57bf595e-6129-52eb-b704-07f639a333c7	9041a36f-9bb4-5864-b997-1be48e8c89e0
+treatment	PBBRNA_treatment	-999	-999	Surgical Procedure						1cd089c8-b4c9-5950-83fe-acd80038b815	a5f32708-2b84-5095-a353-d92c0c08bbf9
+treatment	PBBRND_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						515d8fe9-6822-57ea-bfd3-f5417387ff17	2e717b75-482e-5507-98bf-6a685162a012
+treatment	PBBRNY_treatment	-999	-999	Surgical Procedure						05d08028-1b1a-5d40-9077-bbac8b69b77f	b4f263ed-4beb-571c-97cb-0d62b5525bd8
+treatment	PBBRPL_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						646fdb25-89b9-59eb-93f3-382269baedde	f683ca4e-dae5-5f36-ade9-c567e0b55113
+treatment	PBBRPW_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						db536550-6b30-5dab-8925-c75b9668d836	fc247ead-7e83-55c9-aeff-431e417092c2
+treatment	PBBRPX_treatment	-999	-999	Surgical Procedure						808ffd57-53ef-5ef0-9274-261516ce2895	f0389e7a-3ecd-5114-9c27-6eb32b6f6d7f
+treatment	PBBRPZ_treatment	-999	-999	Chemotherapy;Immunotherapy	Carboplatin (CBDCA);Cisplatin (Platinol, CDDP);Gemcitabine (Gemzar, dFdC);Paclitaxel (Taxol)					f07911e1-2907-53fd-ae6f-ad592a81e135	adc3a87e-720c-545f-bf91-344769ac32d7
+treatment	PBBRRE_treatment	-999	-999	Chemotherapy;Immunotherapy;Stem Cell Transplant;Surgical Procedure						c134aae2-437c-5c0d-b5eb-3465f6976228	69375ce5-e198-5488-b8ad-a80aa949f01d
+treatment	PBBRRI_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						45ff7497-9f8e-53e1-81c6-6fd144bca16f	b3b30ec8-9abe-5cbd-b439-e40bdeb0829e
+treatment	PBBRSA_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						498564f9-85ee-585c-aee1-012a4a5e228e	a8d9db55-abcd-59ff-b2d6-b32a57785b21
+treatment	PBBRSL_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						94f121c2-3c26-5399-86b7-f7f0d5ba2a9a	9956b62b-7512-5058-af43-15ac20366920
+treatment	PBBRSX_treatment	-999	-999	Surgical Procedure						d589013e-4c12-5a99-b528-4919199804bb	57af6c5f-a6e2-5c08-86ec-8bb6efcc215e
+treatment	PBBRUB_treatment	-999	-999	Chemotherapy;Immunotherapy						14af8e0d-e373-5d27-bfec-f4dfe8037b6b	9667711b-358e-5a98-9047-5edc0755b436
+treatment	PBBRUG_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure	Bevacizumab (Avastin);Carboplatin (CBDCA);Other					c87e7c24-508b-50c5-9a05-16328644457d	7abd6851-ebe7-5c0d-a526-82105cbf47bd
+treatment	PBBRUJ_treatment	-999	-999	Surgical Procedure						29ac313e-3b4c-52e5-a9e2-003a0256636b	9a6f21f4-3032-568c-85fc-af119b9cad2c
+treatment	PBBRUR_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure	Carboplatin (CBDCA);Paclitaxel (Taxol)					ae09d2f1-4545-5d4d-93f0-7d51c082006f	7d2093c5-4ee0-5dbd-b956-70391be1b25e
+treatment	PBBRVP_treatment	-999	-999	Surgical Procedure						a4c68abd-9ffa-5496-a4d6-589cc66345f8	fc0e0329-34a1-50b4-b64c-4664caa8b4bb
+treatment	PBBRWM_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						a115d4d3-13f7-5a22-801f-7b414f0fba30	e97ad475-52c1-5245-b118-abb6d9dd1653
+treatment	PBBRWR_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						7f0ac29b-56a6-5e4e-b5ad-22a97c3e116d	8a0751ff-0820-525d-acd4-849f79858833
+treatment	PBBRWZ_treatment	-999	-999	Surgical Procedure						b6548548-a2e9-5091-ad94-d783730574b6	73989b72-eff1-598b-9707-69ceee40e195
+treatment	PBBRXI_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						33630e87-f92a-533e-a665-df4966d7f0cf	ac1b1a93-800b-50b3-b4a5-4c890848f185
+treatment	PBBRXL_treatment	-999	-999	Radiation Therapy;Surgical Procedure						6633befb-438c-578f-8827-3fc0e1462f84	38e530c5-204b-51cc-acbf-6f3370eb9465
+treatment	PBBRXR_treatment	-999	-999	Surgical Procedure						eee4de8f-c00f-5443-8eff-bc92067a7b56	354d7173-2087-5a1f-a4e6-f1184ae5dfba
+treatment	PBBRYA_treatment	-999	-999	Chemotherapy;Immunotherapy;Other;Radiation Therapy;Surgical Procedure						5f2dd471-f512-5d3c-9bd7-e9f5953a953d	34808d59-cdda-57b0-956c-4d42f3733ba0
+treatment	PBBRYM_treatment	-999	-999	Chemotherapy;Immunotherapy;Stem Cell Transplant;Surgical Procedure						44de1ad1-777c-50d4-981d-eeba6c774113	9b41d4f2-021e-5a9a-9051-689f1b0b8a19
+treatment	PBBRYS_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						ae3e3741-482e-54c1-8e70-c7b489470dd3	583dcfe7-04c0-5603-af9c-d592f81e00d2
+treatment	PBBRYT_treatment	-999	-999	Radiation Therapy;Surgical Procedure						513b6645-4780-5a5a-b7a7-ba91e52d5108	2be6f089-0b9f-5663-9069-3277eb61d3ba
+treatment	PBBRZB_treatment	-999	-999	Chemotherapy;Immunotherapy	Sorafenib (Nexavar)					20c14a32-8668-53ad-b4ab-145014d6d0c1	c42aa468-4d00-54cc-b6aa-e38a9d171b5f
+treatment	PBBRZD_treatment	-999	-999	Surgical Procedure						dd29b358-9664-5e1b-8555-d5afb707fbdf	dc09b7a1-36a7-5bd1-9ff3-df843e24d009
+treatment	PBBRZR_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy	Bevacizumab (Avastin)					7e9d8da0-5d73-5397-87c8-6e1c7ef79d3e	d592d5af-48a6-56b3-8ba1-c0b501208d44
+treatment	PBBRZV_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						2d47b470-ae0a-51dd-9154-fa6802542678	9999e4c4-e6b1-5461-bcca-2d5a2fcca793
+treatment	PBBRZX_treatment	-999	-999	Radiation Therapy;Surgical Procedure						5c14c7a5-d944-58c3-b3cd-8e62527c9ccf	d32d4548-35f5-5eae-8282-d2d459ab3244
+treatment	PBBSAI_treatment	-999	-999	Other;Surgical Procedure						7ce34765-9796-5475-9514-984144c9a07d	e91da683-ade4-5c33-ac47-303acb2902bc
+treatment	PBBSAX_treatment	-999	-999	Chemotherapy;Immunotherapy						074549b1-9b44-58de-ae5c-f5b6d3c122ca	9855d266-aa83-5b0b-9471-ff15a3937c63
+treatment	PBBSBL_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						5fca7aa9-76e8-5279-8b79-74ebd1253db2	76c4e0a6-6844-5623-a2a7-7e56b23e755b
+treatment	PBBSBS_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						856b07f2-b465-52fa-8bcb-fd2f6c915f6c	d932085a-8ea5-510f-a53d-7c6fbd00a70a
+treatment	PBBSBT_treatment	-999	-999	Surgical Procedure						adf070b1-7227-5170-a4c4-3f9beb34d7a4	57f647aa-79b2-58f6-9fad-0f5309040530
+treatment	PBBSCH_treatment	-999	-999	Chemotherapy;Immunotherapy						231deae1-d35c-58e3-9ad2-a9c0c8e2582b	5b65fa91-6661-5cba-8c41-37b1960d7b72
+treatment	PBBSCI_treatment	-999	-999	Surgical Procedure						cf448ff0-dc18-5442-97a4-4e0ce4e89e0f	8e8f592c-e0d3-5eeb-92ba-3a573f020372
+treatment	PBBSCK_treatment	-999	-999	Chemotherapy;Immunotherapy						1d297e5c-8592-53ed-9240-ae04f4b452e9	d27f1e2d-3d90-529f-9f98-41c24fb90116
+treatment	PBBSCL_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						a0b78562-d57d-5046-b137-44f053f6c2d5	f902d38e-dc11-566a-8945-95bed7fa6919
+treatment	PBBSCT_treatment	-999	-999	Radiation Therapy;Surgical Procedure						954ec456-28f8-54da-91b2-eaca7e8c509d	b4d1c76b-38f3-5214-bf80-d6bfc369791f
+treatment	PBBSDA_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						0eb3b088-4465-52a4-a429-9e619c8d0ab0	c4eaae74-384c-579f-a8c2-5cb9886e256d
+treatment	PBBSEE_treatment	-999	-999	Surgical Procedure						7303e1e8-42bc-517d-92ce-4369dc52049e	1ca0e1e2-f6d3-5e5d-80ed-3b9d1f9d8bc1
+treatment	PBBSEG_treatment	-999	-999	Chemotherapy;Immunotherapy;Stem Cell Transplant						b3b58fd2-dd91-5052-aebe-e71cab9687c5	ca4382c0-a2ba-573b-b93f-bfa6d380f178
+treatment	PBBSER_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						e70aad01-966d-5f82-881a-1a1960d96e87	b31ebb22-97b0-59ac-a89c-011ccab07f6d
+treatment	PBBSEW_treatment	-999	-999	Chemotherapy;Immunotherapy						13abbfe8-1666-5bff-b289-ee901e7b0d31	20822a6b-acd6-5beb-9d65-db287a12ebc2
+treatment	PBBSEY_treatment	-999	-999	Cellular Therapy;Chemotherapy;Immunotherapy						11c0bb64-39b9-5992-9d22-db59bb1687b7	61e40e26-4c44-51ff-9a2e-8e4cbfc3090d
+treatment	PBBSFM_treatment	-999	-999	Surgical Procedure						563d24f6-8565-5257-a856-5923273918aa	ec01fd3c-e89b-5c36-a697-88190c8c3525
+treatment	PBBSFT_treatment	-999	-999	Chemotherapy;Immunotherapy	Crizotinib (Xalkori)					16175c00-520e-5186-b2c3-1e0c22c96b34	2c98eb59-c921-5f3c-b7a1-8243c1dd67b1
+treatment	PBBSGA_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						cec4983c-13d3-58ad-bcad-9e076b5eae4e	1fd80025-402f-5eb8-9db3-cdf3a54d3c80
+treatment	PBBSGI_treatment	-999	-999	Chemotherapy;Immunotherapy						a8f4a626-9e40-590d-928c-4cbd7c4d3586	02e74468-e161-5c71-85fa-1fab081561e7
+treatment	PBBSGU_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						0a7f7855-c684-5199-9da9-a933976645c3	d12f152f-61d2-5700-92b3-7c5873826b3e
+treatment	PBBSHJ_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						4a89c528-a795-585a-8d49-8681699bfc2a	d29fdca7-1e55-51d1-89a5-04112028a9ef
+treatment	PBBSIH_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						705330d6-a15c-5596-821f-9568f14610e1	7ef17f55-d565-5b18-bca9-7af73817525a
+treatment	PBBSIL_treatment	-999	-999	Other						b2adda97-c0ff-5096-aa2f-c17c499970a2	251550c8-2c8c-5c0f-af4c-804162c4e3e7
+treatment	PBBSIU_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy	Bevacizumab (Avastin);Temozolomide (TMZ, Temodar)					3c12961a-15c9-50b3-ab24-633476019caf	defe3d8a-e9c0-5172-841c-7a6844bf3321
+treatment	PBBSJL_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						caef598e-782e-5f6c-ae09-592345b28c13	12287052-e238-5332-874c-5213f22e1244
+treatment	PBBSJS_treatment	-999	-999	Cellular Therapy;Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						c9263671-be85-54f7-97f1-acd0b3428a26	06215fe7-7d24-5102-825f-a2a41676f7db
+treatment	PBBSJU_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						08d70172-8d2a-5d99-8364-7ec22fdc523e	8d9152e2-2646-53b1-b95e-6afb59dfc4ba
+treatment	PBBSJY_treatment	-999	-999	Chemotherapy;Immunotherapy;Stem Cell Transplant;Surgical Procedure						45ed8938-63c3-528c-9f67-66b53bf97188	055a940b-9c18-5678-a622-0eb585813479
+treatment	PBBSKD_treatment	-999	-999	Chemotherapy;Immunotherapy	Bevacizumab (Avastin)					ff5c81ca-ae08-5916-bf5e-5a89a6e9860c	874dcef2-d427-5798-bdfb-d9c628de0750
+treatment	PBBSKE_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy	Other					53e8ca25-5bd6-5fc3-b9bc-b3b0657069e7	13763b21-002a-5934-b1ff-ae27c6795863
+treatment	PBBSKM_treatment	-999	-999	Radiation Therapy						28767062-3755-5a2e-96d9-1cfbd0c03a4b	57dcd457-6eb9-58c2-a3f0-79b0e3c87cf7
+treatment	PBBSME_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						54a61027-ad0e-567a-9540-70ae04867231	e7de76ba-c903-5e65-a2ad-390e9c9c8e8b
+treatment	PBBSMY_treatment	-999	-999	Radiation Therapy;Surgical Procedure						41c3ddea-916f-5635-b32f-1aa0eac64a56	b15d99d9-a9f7-59d5-aae5-22abad9b53c4
+treatment	PBBSPA_treatment	-999	-999	Surgical Procedure						aa16d37e-ee9d-5f17-b7e5-80de193338f5	08f54192-2c4d-59c6-9bc4-d91e08b7da8b
+treatment	PBBSPF_treatment	-999	-999	Radiation Therapy						0641d546-4ce1-501d-9729-68d96b10961b	8a23e948-795f-5f72-bf5a-40be2c1f125a
+treatment	PBBSPP_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						8e62b965-ef00-5335-a290-ba525b552459	64ecf134-fc4d-5c99-aefd-80da06238718
+treatment	PBBSRF_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						105997e6-89d9-5e16-88f9-e028144dec7d	ca5c1cbf-11b6-58e2-9489-dd45eb645906
+treatment	PBBSRN_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						671a49b8-6789-5e36-a4d7-f434cbcb1980	2c1e0371-0448-5c89-ba7d-4096dcb5edb0
+treatment	PBBSRR_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure	Cyclophosphamide (Cytoxan, CTX);Doxorubicin (Adriamycin, ADR);Etoposide (VePesid, VP-16);Ifosfamide (IFOS, IFEX);Vincristine (Oncovin, VCR)					b37ce9ba-c4ee-5237-89d2-6d45a9973e31	46bef599-a128-59e2-a995-72c84efc5f3f
+treatment	PBBSSK_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						38f442c3-75c8-551d-9815-bd4cd956ec59	79870854-da4d-56d6-9b2f-6031930069e5
+treatment	PBBSSV_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure	Cyclophosphamide (Cytoxan, CTX);Dactinomycin (Cosmegen, ACT-D, actinomycin-D);Vincristine (Oncovin, VCR)					5c2c7a31-6470-5a41-9f67-9ac7872bff9c	321ef0bc-50ca-5a31-92a5-dc40bc9352f9
+treatment	PBBSUK_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						65eda0f1-70c9-56cd-a0a8-1829e32b7912	5782c9ae-7f18-5d1c-b365-586cb595f2e2
+treatment	PBBSUL_treatment	-999	-999	Surgical Procedure						571ff535-d601-5f7c-a632-3b76bac98662	bb89c741-1e93-5e1e-a200-0044f58c14cf
+treatment	PBBSUN_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						8cddaef3-ddef-5c18-bc08-aa6f6001ccc1	8b002dc0-e4e2-554e-8e6d-7d904a58aaf8
+treatment	PBBSVA_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Stem Cell Transplant;Surgical Procedure	Cyclophosphamide (Cytoxan, CTX);Doxorubicin (Adriamycin, ADR);Vincristine (Oncovin, VCR)					f4bd50cf-dafb-5cc5-ba0f-15ba52d83969	a56ee9a2-36dc-5f1f-a2f0-c576ed2c1d3b
+treatment	PBBSVM_treatment	-999	-999	Radiation Therapy						bdb9cf7d-88a9-5338-8d0e-e5e672164823	1af70f78-469c-577b-ba92-87d9c815b930
+treatment	PBBSVZ_treatment	-999	-999	Chemotherapy;Immunotherapy;Stem Cell Transplant						618f6260-3987-57db-b55b-844ad3b509fa	808e9915-18ad-534b-adb6-4c1c1dfeb580
+treatment	PBBSWG_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure	Other					5ee93e37-5e46-59b5-a51c-b700151df7b4	e9233aee-6225-594d-a5b9-fd3a03a35349
+treatment	PBBSWK_treatment	-999	-999	Surgical Procedure						a213ee99-b967-5883-8630-ba6da0666f07	0f7e1d52-36bb-5b54-b0a5-0a791e66fda4
+treatment	PBBSWP_treatment	-999	-999	Radiation Therapy;Surgical Procedure						6473c241-ecdd-5428-a492-85b62de34a79	032b0d27-c1d4-5d0e-932e-ae440a220209
+treatment	PBBSXN_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure	Other					1ec31faa-53bd-58e9-8124-253f4e61a752	2c8b0ff1-553c-5857-9e61-7b6b34ff5474
+treatment	PBBSXR_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						3587dd70-8fc8-530f-ae6d-5ab49f02ff90	5342d4b1-f66e-5a47-8932-a7d07e209313
+treatment	PBBSYE_treatment	-999	-999	Chemotherapy;Immunotherapy	Crizotinib (Xalkori)					5a890462-dc6d-5fba-b7b4-6184368a2a5c	e14c4e4b-7a0a-5e20-a87f-6ab4c019da23
+treatment	PBBSYF_treatment	-999	-999	Chemotherapy;Immunotherapy						c8cd2304-5d6f-5d8a-85cd-1eb4badb754b	0af7b50e-c934-5a0c-998f-b9c8c2dd2167
+treatment	PBBSYH_treatment	-999	-999	Surgical Procedure						2c7a793e-2b49-56e9-84d7-a1ce6e0e5ac8	0b6813c2-bf83-5e93-ad0b-9b53899f0100
+treatment	PBBSYL_treatment	-999	-999	Chemotherapy;Immunotherapy;Stem Cell Transplant;Surgical Procedure						15d392da-f785-5643-961b-0220f8e39d3b	2a938a27-889d-5dec-bd96-980f3c8b0de0
+treatment	PBBSZE_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						cdfb3b1d-be6d-5846-a449-807d316fd671	dfc19da7-5750-5851-afb0-3113ddca6ff6
+treatment	PBBSZP_treatment	-999	-999	Surgical Procedure						801a463e-f44f-5614-bb08-1c68ede7b672	fbf7c013-c53a-5b9f-9d29-a16c902ee343
+treatment	PBBTAE_treatment	-999	-999	Chemotherapy;Immunotherapy						da546ebb-7dfb-5d70-aa3d-07301a3f588f	b59406d0-0ca3-5d3e-87a8-0e5b74370e5e
+treatment	PBBTAS_treatment	-999	-999	Surgical Procedure						bf19a259-be0e-5f2d-a254-03846400f358	216bf780-7d48-5ebc-a937-d7217a4b58c8
+treatment	PBBTBG_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						ca9691bf-8bdf-56f9-9c76-05f7192a8519	110508d1-33a9-55e2-a4d3-223a13cd9d8d
+treatment	PBBTBU_treatment	-999	-999	Surgical Procedure						302db97f-63f2-57f3-a2b1-f5eec5ccbc62	9540f7da-9fef-5c63-93a5-d7129beb27bd
+treatment	PBBTCE_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						4e90e32d-0bf8-56c0-a0a8-f8b9b6a2370e	00d0cb22-4036-56fe-93d0-b83b15631c7e
+treatment	PBBTCP_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						ea62afc1-6ead-5ee7-870a-5767b1f24fed	17ebf8d0-f21c-52ce-8c19-b9361179b68d
+treatment	PBBTCS_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						164db677-a37b-5b5a-9cf4-0c4f12b46cfb	ebb15639-d297-5431-92ee-8e1518631afa
+treatment	PBBTCY_treatment	-999	-999	Chemotherapy;Immunotherapy;Stem Cell Transplant;Surgical Procedure						7576d4cf-2389-556c-8945-b92dfe9e8284	f0129e83-fc3d-5b56-909e-638770af41e1
+treatment	PBBTDA_treatment	-999	-999	Surgical Procedure						fd157d1d-74dc-58bc-9355-afa3aa23726a	57081f81-df81-5356-bab1-8714ae981cb6
+treatment	PBBTEC_treatment	-999	-999	Surgical Procedure						a0baa093-fcca-5222-aace-aaa8edb76bb0	46d5e26d-69b1-55b0-adcb-5de7fef58e1f
+treatment	PBBTED_treatment	-999	-999	Other;Radiation Therapy						d5db22b3-2509-5bb9-8700-b3a93eb1d27a	aeb335ab-753e-5bd1-b5ed-07b58ed81fbc
+treatment	PBBTEJ_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						de9034fc-24f7-5edd-a182-63738f0e712a	84c5df8e-5528-505b-80ab-1d6c8141f4be
+treatment	PBBTFD_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure	Other					fbd728f7-35d9-512a-9139-3702a3ae7c2f	f95efd3e-2d06-54ef-a962-5f0456dda43b
+treatment	PBBTFL_treatment	-999	-999	Radiation Therapy;Surgical Procedure						862ce9ed-4adf-55c5-b79e-be43ae024dcf	04d8b4b2-d8b5-5163-bfb6-36e5b3467d4f
+treatment	PBBTGI_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						d8caec6b-4cd9-5f4e-99dd-4de001c0090d	26899bd0-8586-5c6f-af42-d1c9dfb0636e
+treatment	PBBTGZ_treatment	-999	-999	Chemotherapy;Immunotherapy						1701dbb0-5622-541b-b11d-dc369011250a	1def2920-a0f5-50b8-ad4c-bc0f90cce7e1
+treatment	PBBTHD_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						e0540d90-c7f2-594f-8cdd-0aa2a19818e8	223dff68-271e-5523-a011-ae45ad22b3c3
+treatment	PBBTIB_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						2e66669b-c28b-5ff1-94fe-cfa9da64bc4a	abaa99df-0f39-517b-8829-e010441703e4
+treatment	PBBTKE_treatment	-999	-999	Surgical Procedure						59487b9c-f9d7-54b2-b6e2-abac9f919656	6b604143-f228-553b-aed6-d22960617d65
+treatment	PBBTKF_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Stem Cell Transplant;Surgical Procedure						3891241f-ae74-5022-bbfd-a8e00d75ac43	4741702e-2122-5de9-b46d-c46bb8b4494e
+treatment	PBBTMD_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure	Other					50e76591-9555-55fb-9f38-fc51a64620c1	d8a0ba8a-c8ba-56c8-b4d1-4eeb6fdbe0f0
+treatment	PBBTMJ_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						abcbde1b-f61d-5e3e-9c55-a6acb150b381	7f8bcc61-b737-5a36-90e6-516de0c18034
+treatment	PBBTMS_treatment	-999	-999	Chemotherapy;Immunotherapy	Cyclophosphamide (Cytoxan, CTX);Doxorubicin (Adriamycin, ADR);Etoposide (VePesid, VP-16);Ifosfamide (IFOS, IFEX);Vincristine (Oncovin, VCR)					6cf9b2a0-0efd-51c9-ae5c-b953b05a06be	66eda212-766f-59c3-8505-d4c10c496fdf
+treatment	PBBTND_treatment	-999	-999	Surgical Procedure						97e59013-d060-54f9-a0cb-651a5e051db6	6a68eaf1-fb11-5caa-8ea4-1ed4e6d0f2e1
+treatment	PBBTNE_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						83ba9cc2-2e87-5439-95fe-b0eca8a05d19	ddb6be0a-cfb9-5848-ab94-0a0a11c0b50f
+treatment	PBBTNS_treatment	-999	-999	Surgical Procedure						5d71edb0-aa13-5774-852e-a2247b926258	a0ac5e4a-7832-56e5-bb63-cbf2c9cf223f
+treatment	PBBTNW_treatment	-999	-999	Surgical Procedure						b738e294-677f-5ae1-9811-04585f49fc05	80b0f301-a1e9-53b9-bd0f-b0c73ec9c422
+treatment	PBBTNX_treatment	-999	-999	Chemotherapy;Immunotherapy						587d9b64-ccc4-5fa7-87c0-d1a4eb82cd23	551e3ab8-7782-5089-a91c-e69443e17238
+treatment	PBBTNY_treatment	-999	-999	Chemotherapy;Immunotherapy;Stem Cell Transplant;Surgical Procedure						030cf221-d360-5ce0-a17d-80d98b35c12f	5b69a620-da86-570b-8bef-8485dca49b0b
+treatment	PBBTPN_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						dc6bb7da-5e2e-53c3-9417-2c51e26564f3	f99a844e-a87f-5f11-9adb-ec10229aa7ec
+treatment	PBBTRC_treatment	-999	-999	Radiation Therapy;Surgical Procedure						5e4a8e32-cba6-520d-bf03-94b05546721f	92ab923d-d3f9-5c44-803e-c00247faa088
+treatment	PBBTRI_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure	Other					cf8994d7-daa0-538f-9275-c81763f64002	bd014719-4654-5c36-ac0b-f1825dd794bf
+treatment	PBBTRR_treatment	-999	-999	Chemotherapy;Immunotherapy						7770fae5-053b-53f9-9b82-86c38ee8cb59	2bc47051-70ce-51cf-9edb-7146e4497bfb
+treatment	PBBTSC_treatment	-999	-999	Surgical Procedure						22c68a22-828d-5d1a-bfdf-2f630b29c3e8	56e76c9e-d1fe-55b0-86ca-1f3b534187b5
+treatment	PBBTSU_treatment	-999	-999	Radiation Therapy						0018d9c0-f547-52dd-bd18-452f8942ca2d	e36f6fb1-6bda-5d4e-9ec0-f75f7377cc72
+treatment	PBBTTN_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						054f7500-372d-5123-b1c4-021e520dc750	27d48e34-5048-58f0-bdc5-30d61874e790
+treatment	PBBTTS_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						98050aa5-bfae-55a3-818a-c9a62e940169	67bdad7e-5ae5-51ed-91ee-eef96c3fa3af
+treatment	PBBTTX_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Stem Cell Transplant;Surgical Procedure						ce2ee293-84c9-5586-b300-2331fd67fca3	d6ab2103-e4fc-58a5-848a-230f2a041822
+treatment	PBBTTZ_treatment	-999	-999	Radiation Therapy;Surgical Procedure						e1cd6718-6737-5514-8dea-e0f96e2c29f3	42ab57b6-dd5f-5a6a-8f85-74dfe89b1f5d
+treatment	PBBTUE_treatment	-999	-999	Surgical Procedure						3f78bec4-8e3b-5008-933d-cb2ad3a2404f	4b0e49e3-78ea-5ec4-846a-65d4ea319b0a
+treatment	PBBTUR_treatment	-999	-999	Surgical Procedure						d49b3d12-04fa-52a8-966b-ef342f24dfb8	88102a62-9e92-5f72-9f82-709a19aba26a
+treatment	PBBTUV_treatment	-999	-999	Surgical Procedure						b5c1930a-7fa0-574c-ab67-4c62dbf0cf44	e23a3971-a66b-532b-a928-a64ac5673d88
+treatment	PBBTUW_treatment	-999	-999	Radiation Therapy;Surgical Procedure						9fe7d93c-effd-5d9f-83a8-ac1bcaf72bab	f06c3503-c6f6-5397-9ae1-24d49479a958
+treatment	PBBTVK_treatment	-999	-999	Radiation Therapy;Surgical Procedure						cf8f60df-5bf6-5e2e-b685-668df3333427	6153918a-fdea-5db6-aef5-a5e61a827631
+treatment	PBBTVN_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						830d7921-1b3f-5edb-8b06-9218dacc48e6	1f2aec78-f8a6-505e-b6f0-55fad97b7c62
+treatment	PBBTWI_treatment	-999	-999	Chemotherapy;Immunotherapy						94abd610-6599-5fbe-959d-d66057fbf9b3	36d8ff75-8b29-5b5d-9228-43f0aba02806
+treatment	PBBTWM_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						268ed8de-b0a9-5936-950d-f936a9795435	5c15e8a7-45d6-575b-8019-3a838839dc82
+treatment	PBBTXA_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						51d4c4e2-006d-51b7-b9fa-d02474940ce6	434ef6d8-d190-5588-8381-315f451d2a67
+treatment	PBBTXH_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Stem Cell Transplant						83521771-dbec-5ff7-9507-76496c911011	dfcc097b-8c19-5ad4-a891-2597cfaf2d56
+treatment	PBBTYI_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure	Carboplatin (CBDCA);Cisplatin (Platinol, CDDP);Cyclophosphamide (Cytoxan, CTX);Methotrexate (MTX);Vincristine (Oncovin, VCR)					966d5b8a-ffdb-5815-9177-27aa1ea398fe	fc32dde8-f858-5ac5-a123-c5cf63d89317
+treatment	PBBTYK_treatment	-999	-999	Surgical Procedure						8c998b5d-ab5d-54c1-b561-33ed394538a2	bc363b81-4b88-506c-9aa4-43f9835a2eb2
+treatment	PBBTYR_treatment	-999	-999	Chemotherapy;Immunotherapy;Stem Cell Transplant						27726e9b-698d-519d-b739-8fd2ac285c3f	a5a9efd5-cd0c-574f-8777-308994b59f8a
+treatment	PBBTYW_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						24f33d5d-ed21-5ab8-8e9d-141ef52889c0	6be7e0b3-d322-5dc1-98af-b02f2507f36c
+treatment	PBBTZK_treatment	-999	-999	Chemotherapy;Immunotherapy						c63deb70-71d0-5dec-a4e4-6228133cb812	fe7213e4-77ac-5af2-82dd-cb73c7ab7477
+treatment	PBBTZN_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy	Vincristine (Oncovin, VCR)					39fcd67d-adf6-5c1d-9125-4962fcffd8c4	cba89dbe-b9f6-5892-86f3-bfaca9b9b8b5
+treatment	PBBUAB_treatment	-999	-999	Surgical Procedure						ee7e486d-c138-5d64-abff-ca0a44fdd319	884eeae9-5f99-5a17-a46e-c48020845748
+treatment	PBBUAF_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						482d3c91-421f-5671-aed6-b69901a90665	353486b5-5bcc-51f8-91b8-302dd128f418
+treatment	PBBUAN_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						54ea9b8e-b7f0-59ac-84f9-85e5b7350f9b	dd7c4a1a-866b-556f-bcd2-fdd8d383e0ab
+treatment	PBBUAT_treatment	-999	-999	Chemotherapy;Immunotherapy;Other;Radiation Therapy;Stem Cell Transplant						26e533e6-0789-5ae3-9669-a61e4dd4e02b	52bddbc8-63cc-5c62-b374-08dc8d821773
+treatment	PBBUAW_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy	Cyclophosphamide (Cytoxan, CTX);Vincristine (Oncovin, VCR)					aa01a312-3317-5f41-9fcb-8311155525dc	5f4d1297-509a-57f3-91c7-6166f61261a0
+treatment	PBBUAY_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Stem Cell Transplant;Surgical Procedure						a3257363-a255-5628-b554-2c9963e51b3a	bd1797d2-efad-5c83-a953-55d6898fd646
+treatment	PBBUBH_treatment	-999	-999	Chemotherapy;Immunotherapy;Stem Cell Transplant;Surgical Procedure						6746b129-f6ad-5db8-bc74-4a1592780cc3	c4ee035b-fcbf-55bd-82e2-cb8f32b06f52
+treatment	PBBUBN_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						5ee439fa-cd54-55ac-a49e-1e58fad826a4	ff3d62bb-8cf4-5d7e-9bed-234240fa8aef
+treatment	PBBUBR_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						576cbfea-d2bd-5109-9bb7-76ff9830fdd9	da63df08-7827-56a4-8380-cc5c0f3611ef
+treatment	PBBUBZ_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						3aec4f0a-1f41-5236-b9ad-7fe8415eb9c5	4baee3dd-d54f-5f7a-b4c2-4823211acb7e
+treatment	PBBUCE_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Stem Cell Transplant;Surgical Procedure						b437462f-f72d-5238-babf-cca9b7d1625f	def3c401-d545-5946-b5b1-c05a4dda2dbd
+treatment	PBBUCK_treatment	-999	-999	Surgical Procedure						4b8a8802-7ec2-5e72-bafc-65266070f9d8	9ddbed2a-76e4-5e54-940a-3b0707a0f4d3
+treatment	PBBUCL_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						510dc84c-15a8-5c11-90be-667e36189551	7c71fef3-43b8-512b-9324-cb4d7be62b37
+treatment	PBBUDJ_treatment	-999	-999	Chemotherapy;Immunotherapy						2b4f42c7-ee38-5698-9eec-4094c4546a8d	d542eb44-aee6-5c05-8330-f497887ee598
+treatment	PBBUDL_treatment	-999	-999	Radiation Therapy;Surgical Procedure						394aa495-d60f-5ac2-8b8c-180582358445	eeda4afb-33b8-5790-9035-69155602b0b9
+treatment	PBBUDW_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						77f183ef-a938-56c2-8bbd-c31416bc773d	8b2b24d0-68e6-527a-81ef-91a26caa05ad
+treatment	PBBUDY_treatment	-999	-999	Chemotherapy;Immunotherapy						e12b58ab-9434-57c5-9cf7-56e378fbc482	b22018bb-3bcb-5ca6-8fd5-bca11c6022e0
+treatment	PBBUET_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						1635de5c-6c6f-5ab8-aaab-e6d0f2ef3e32	2e53aaea-6409-5163-b200-a40c8ea1bec8
+treatment	PBBUEW_treatment	-999	-999	Radiation Therapy;Surgical Procedure						005d493e-0ac6-5608-92c0-f0ef6cd7b86d	3bad86d4-714a-5fe7-90a5-257489e404bc
+treatment	PBBUFE_treatment	-999	-999	Surgical Procedure						52094355-a9c8-5bd6-8cea-9b7fcb0f044d	679574cd-8937-5e24-b1b1-651f0d228d9c
+treatment	PBBUFF_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						8852a621-ea2a-5ea7-a55d-62e95fd4829d	e570e6b0-b659-54de-847a-14ab7e3bc40b
+treatment	PBBUFM_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						2cf9839c-cac9-5e68-b2cf-2ac54ed82ae9	4655a503-7ca7-577c-9e8b-c947b6bff8a5
+treatment	PBBUFR_treatment	-999	-999	Chemotherapy;Immunotherapy	Carboplatin (CBDCA);Doxorubicin (Adriamycin, ADR);Etoposide (VePesid, VP-16);Ifosfamide (IFOS, IFEX)					1fd1baad-3c5e-53be-9d75-f6cc9fa9f1ca	4b8a70c8-7aec-5c3c-9ee5-18d3624f2e79
+treatment	PBBUGC_treatment	-999	-999	Chemotherapy;Immunotherapy						6eac8ceb-64c0-5f99-a198-74a6f3734d3d	0db826e9-f96b-5ceb-b899-2b0238a76aca
+treatment	PBBUGH_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						2927b7e3-8f0e-5478-85fd-d3a01b407a26	f6405c72-4a76-5636-8060-57c03a1eaacb
+treatment	PBBUII_treatment	-999	-999	Surgical Procedure						1f0583ac-38bc-5e06-a64b-babafbbb1236	52321937-0339-59f8-bd17-e3459f1f3a0f
+treatment	PBBUIL_treatment	-999	-999	Surgical Procedure						60b549de-8024-58d2-a685-04bc64a003e9	3ec48ef9-8f9b-5d32-a65a-190b7cf2b071
+treatment	PBBUIS_treatment	-999	-999	Surgical Procedure						19d52c8a-1510-5939-a385-9203a641c1cf	de6a95ed-7fcd-540c-952d-8950061a6f8f
+treatment	PBBUJL_treatment	-999	-999	Surgical Procedure						b96d9999-5105-5ba4-b256-add5115f2ed3	aaf372d7-2db4-5a93-946c-cc2eee0ae25d
+treatment	PBBUKA_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						a745c8c9-cb01-57ae-8046-f8f63cac63cc	d8d0ecb8-4da9-5b29-9877-86c81f008ac3
+treatment	PBBUKI_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						b7ef98d9-3bd3-5478-b70f-b2e5aead11c4	858d3837-5f57-57d7-b31d-b4c7b7d5f835
+treatment	PBBUKK_treatment	-999	-999	Chemotherapy;Immunotherapy						19edc06e-43b3-59fb-975e-0398351d0979	2045032d-f18c-5858-900d-cb59dfbb9572
+treatment	PBBUKV_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure	Other					b631922f-c892-5d47-b135-490a88150bfe	df54288c-3cec-5491-afb9-f4cdd32e8806
+treatment	PBBULG_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure	Other					0ae25681-29c0-5c62-befe-1789ca7c89d0	8edee8c9-b7af-57ed-9cf9-1b515c1beb5c
+treatment	PBBULZ_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure	Other					151fe6ca-66e0-5ecc-8d44-81b15e631250	57929921-17fe-5dca-a5b6-f82938979d44
+treatment	PBBUMF_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						dca6307b-469e-5c6f-a64b-cf45881437d0	7a2c46b3-f346-5edd-ab21-99d656861195
+treatment	PBBUMH_treatment	-999	-999	Surgical Procedure						1552b7e4-6684-5345-982f-c20bdd22106c	a00403ba-8424-592a-85c9-47c7bb4c38f7
+treatment	PBBUML_treatment	-999	-999	Other						b075efc4-f711-59c9-9d0e-f98931b5f242	1baedae8-e0ae-510f-9fc7-cc54d8f387ac
+treatment	PBBUNA_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure	Bevacizumab (Avastin);Irinotecan (CPT-11, Camptosar);Temozolomide (TMZ, Temodar)					81a449f7-ef4e-59ed-ae2d-824a7936d598	139b6140-620b-5bd0-9fe4-d7d970f57dd6
+treatment	PBBUNC_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						dc1c3674-afc7-5eb1-9e9d-63d9ac03b1f2	eed42d11-dbba-5ada-b19c-1dd7798bc712
+treatment	PBBUND_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						3a16fde6-5a6e-5897-9932-2a7c99314247	f10a32e0-777c-5de9-94c3-885024c8c859
+treatment	PBBUNK_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						133f458e-0b98-57c7-96e4-bc12998e5514	a74ffbae-8480-532b-ae6a-ae910f2f8615
+treatment	PBBUNU_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						bbc331cb-3519-5b9c-99cf-2615f94d7517	d3c18e4a-0f69-5d79-ba91-4031f0892c0a
+treatment	PBBUPV_treatment	-999	-999	Surgical Procedure						9558ac2a-f9b1-5f05-996d-fb107c38f73e	0f014b18-d755-5a9d-9174-ceaf2ef24cbf
+treatment	PBBUPW_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						527b9a85-6547-5c51-ae5c-208e390ed74f	f31dd126-fc87-50d0-95ef-1798d5606d88
+treatment	PBBURB_treatment	-999	-999	Chemotherapy;Immunotherapy	Carboplatin (CBDCA);Vincristine (Oncovin, VCR)					5eabd7e9-316c-52f6-a0b7-7f991467b1f3	95a32564-a1ac-595a-b408-e598e32e7060
+treatment	PBBURC_treatment	-999	-999	Surgical Procedure						1fe68bea-b4cb-5976-8801-2e45036b7563	5debe449-1ce5-5d1d-b555-e48deafe5ddf
+treatment	PBBURD_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						ed1ec94e-8bba-5cbe-a6ec-1aed7988524b	438f48d1-974a-5e88-b4eb-62c3bddc6b9b
+treatment	PBBUSK_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						354b15d6-d0f3-54f7-b25e-10df9f99dc3b	86176761-1883-5b46-bb2d-52afa254d440
+treatment	PBBUTS_treatment	-999	-999	Surgical Procedure						8c056ff9-346e-51ce-945a-a21a5860cbd4	c158c516-4a80-516c-950f-bd402fd2d643
+treatment	PBBUTU_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						c4e300ac-3a72-52c3-adba-50624e5845d5	b4c63567-8738-59c0-b73b-8fd1bc5f7c8f
+treatment	PBBUTV_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						ab10fbd1-d026-5f04-9f2e-77650e802f26	f7a95398-d0fa-5dbd-a2de-39d0c3d1ca29
+treatment	PBBUVE_treatment	-999	-999	Radiation Therapy						b5c1ac2b-9aec-551f-b0f4-54b0a5e4dff7	ffa9da21-4a78-581c-b587-322b1ac4900a
+treatment	PBBUVM_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						2295bc00-6353-5a82-ab56-208330c8b123	f270700f-620c-54fa-994a-1cc140077c08
+treatment	PBBUWT_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						616ab5ad-9ab0-57b1-81cd-bc7eb0f9969b	ca3628e9-ce0f-5dec-b7dd-65025c3790f1
+treatment	PBBUWZ_treatment	-999	-999	Surgical Procedure						4f393167-7673-5eaf-a36d-72811557ba38	60214248-a222-5a5c-a55c-635355736715
+treatment	PBBUXB_treatment	-999	-999	Chemotherapy;Immunotherapy;Other;Surgical Procedure	Carboplatin (CBDCA);Doxorubicin (Adriamycin, ADR);Etoposide (VePesid, VP-16);Ifosfamide (IFOS, IFEX);Other;Vincristine (Oncovin, VCR)					a499aac9-f924-5ef3-b19a-994a21bfd58d	08223a53-fe3e-5b1c-8c22-94d7c36416b0
+treatment	PBBUXI_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						13b5b873-2cb8-538f-9fe1-956cb68421ca	1b9623fb-b59f-50eb-81fc-49e5419844b2
+treatment	PBBUXS_treatment	-999	-999	Cellular Therapy;Chemotherapy;Immunotherapy;Stem Cell Transplant;Surgical Procedure						d0511b36-d6d4-5eb9-a70a-7706e619af35	1b41d707-dceb-5f15-b3aa-3078402ce8e9
+treatment	PBBUXT_treatment	-999	-999	Chemotherapy;Immunotherapy						8ff3b0ae-463a-576b-975b-6907e847754f	855eb2c3-d910-55b6-a338-f51ba4cbdd67
+treatment	PBBUYL_treatment	-999	-999	Chemotherapy;Immunotherapy						6569ede4-f7c0-58a4-b021-54e683cad587	731d48a7-d972-50cc-a390-fef35b89b94b
+treatment	PBBUYU_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						a445dc58-8d79-5a24-b1ae-cb4cd6bb2a44	9bf42baa-cd47-57c0-a9a6-e5dca299d32d
+treatment	PBBUZA_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						d8cd3de8-3f86-511b-a311-da4db5aaba62	300adad7-b752-5e6d-9273-92574c6bd24e
+treatment	PBBUZI_treatment	-999	-999	Surgical Procedure						84cc3b7b-400c-5e2e-a924-2bc20fe9b4e2	fe486a8c-26ab-5a08-9979-e6e6823c5e95
+treatment	PBBUZK_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						a4dbf9b9-148b-54fe-98a5-b64cd18088a5	fbdc4de4-3bbe-528f-9ea2-373a80fce21d
+treatment	PBBVAE_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						ca0970b7-5222-578d-8d71-0f925f8e1733	10f71c1c-3996-5b2c-af42-9101212ab8af
+treatment	PBBVAT_treatment	-999	-999	Surgical Procedure						c4499a3f-184c-565e-9b8c-e7247df5117c	30828ecf-98de-5925-8f2e-f72df7a3ed69
+treatment	PBBVBB_treatment	-999	-999	Chemotherapy;Immunotherapy						c95a7e65-04e3-51d8-91d5-81999db2bdfc	0a103d17-4703-513f-bea1-78eedb360582
+treatment	PBBVBH_treatment	-999	-999	Surgical Procedure						7a8f6832-4167-50d9-993b-afa8da5f39dd	e8f4928e-e5bd-5882-b5b6-6dfc27159061
+treatment	PBBVBX_treatment	-999	-999	Radiation Therapy						00bd5616-60ff-5102-8bc8-96e5203c7fba	6db52bf6-1f8c-5295-a454-8ad27459f161
+treatment	PBBVCD_treatment	-999	-999	Surgical Procedure						5d93eb60-cb55-57c1-831f-72ed496e846d	0a140a84-01e0-5433-b937-354f6b688efd
+treatment	PBBVCK_treatment	-999	-999	Surgical Procedure						8573f1ca-2db6-5038-b12b-eb99a223da32	9949f2ea-e2c9-5e42-86f9-1a45548fec20
+treatment	PBBVCM_treatment	-999	-999	Surgical Procedure						75a65aa4-52eb-5822-a7e9-07c999c8e1e3	4c3506d6-68a3-5bf8-9ee6-c454ed24535d
+treatment	PBBVCP_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						29fee7fe-4239-53f2-928a-9ca9c6e38d1c	a59c5a1d-e20b-5516-b181-9b68cb990b9c
+treatment	PBBVDC_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						cbc408ca-ffde-5d67-8603-79b34426f9f6	9034c3b6-03cc-523e-8bf1-d96ac1570d7a
+treatment	PBBVDH_treatment	-999	-999	Surgical Procedure						1b74d4a7-111f-508d-b58e-a7bdccb16551	746f95b6-808c-51fa-a85e-dd83573c0d46
+treatment	PBBVDR_treatment	-999	-999	Chemotherapy;Immunotherapy						52e61672-481f-507e-a853-e6a544a5b8ca	efe5ed96-020e-51b1-9d0f-b53f34a4b73c
+treatment	PBBVDV_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						5299eee3-bd82-587e-9f1c-720b177ead6f	425540a1-8e03-5556-b295-1ea3c9a440a2
+treatment	PBBVDX_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						4e7cfcf3-c6f7-5da4-bc9f-80e1da181f5f	25dd8702-2579-5f21-bba3-028f41087234
+treatment	PBBVEH_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						be845471-9fa9-5d1e-adab-a224bf3135f6	6660668d-7b47-5650-b2d7-4b60269ff981
+treatment	PBBVEK_treatment	-999	-999	Chemotherapy;Immunotherapy						f1dcf755-616f-5162-922e-efb3813a6b62	5d8969a6-b563-5b7e-be12-8895b510af59
+treatment	PBBVFA_treatment	-999	-999	Radiation Therapy;Surgical Procedure						b24e19c0-3dd6-5c5b-b838-695692de43e9	c908a004-f00b-573c-873a-ac9aed1bf078
+treatment	PBBVFB_treatment	-999	-999	Chemotherapy;Immunotherapy	Other					745c69b9-265a-54ae-a6c2-a59b44160f2a	0cfc7547-31cb-57d3-bf24-f99aced74d31
+treatment	PBBVFV_treatment	-999	-999	Surgical Procedure						ba59b1ed-c334-556d-aadf-efd4f034f418	8f805b3f-7b53-5be2-931a-30fe6f105afe
+treatment	PBBVFY_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						44a207c5-5d5f-584b-aa63-6f89c0829e90	dea3a345-4e7a-58b0-8546-7b50da937976
+treatment	PBBVGC_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						152832b4-e743-521d-bf4e-7c9f9669056f	a152ad48-f19a-5e25-b430-ce519feffc9c
+treatment	PBBVHR_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						d0bf520c-7f91-5646-a30e-49795c3b0f74	c38b007f-6b94-5aff-8639-1e1fd1352a26
+treatment	PBBVIA_treatment	-999	-999	Chemotherapy;Immunotherapy						498c9fa5-a1e8-5277-b7a6-a4c658008b4f	8e2b9f33-0134-5094-a147-187d8c7ab842
+treatment	PBBVIK_treatment	-999	-999	Radiation Therapy						813bed2c-ef22-56cc-a070-89e007175a08	5c352ee0-756b-5b8f-a190-f5b83a2d3cca
+treatment	PBBVIS_treatment	-999	-999	Surgical Procedure						81b054fa-ed1b-5780-8b49-fe6bededae3a	cd66cbf0-2012-5899-ad66-dfbc6774bf73
+treatment	PBBVJB_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						9b8ec681-87ce-5265-8d92-99996a73b2be	214f1cc7-6cb8-532a-a25f-06a2974ae74e
+treatment	PBBVJN_treatment	-999	-999	Surgical Procedure						c1172f3d-8aab-5079-a8ea-ed717ee5d012	6a35832a-bcf4-51a9-9aec-313dcf820c0f
+treatment	PBBVJR_treatment	-999	-999	Surgical Procedure						37b4bf58-4bfb-5394-a535-a7a57ff976e4	b509104a-f29d-524b-8489-727af89f0ac1
+treatment	PBBVJV_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						ba984b0a-528c-506d-96bc-8b007c6aef62	33f07822-a3e1-559d-b371-d1e8a8838ed0
+treatment	PBBVKE_treatment	-999	-999	Other						e1e5064a-fb85-566b-bbb3-91947f00ebec	b5642eaf-6794-5598-9187-7c2612129c4c
+treatment	PBBVKI_treatment	-999	-999	Surgical Procedure						4d8e7cad-48ea-5bf9-89a2-c33856f2247f	e5b05c90-9d6f-5338-9eb2-dfa6df8d27f8
+treatment	PBBVLG_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Stem Cell Transplant;Surgical Procedure						813a3561-ab99-5288-ac73-a0396e54c0ff	b97abce5-6ce7-5589-ad25-dfa4a86f0a8b
+treatment	PBBVLK_treatment	-999	-999	Radiation Therapy						49149301-ed39-5c21-83a7-f1f70f1be176	c56a007c-8d58-5d06-b5e9-06df2333d89c
+treatment	PBBVLL_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						50d5169b-1e62-50e4-b02c-b1c846606bd8	60a1cb86-a5f6-55a9-849c-f0d3db2d9390
+treatment	PBBVLV_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure	Fluorouracil (5-FU);Oxaliplatin (Eloxatin)					d28a7c40-73be-59f7-b0df-170808b40828	d328f92c-75b4-51e9-8429-f834c12d335d
+treatment	PBBVME_treatment	-999	-999	Radiation Therapy;Surgical Procedure						41e04c05-e085-564c-8e86-fd2a631805ff	7ad02c88-eb33-5710-bf00-b600b085d4a0
+treatment	PBBVMK_treatment	-999	-999	Surgical Procedure						f3576f57-dae0-5ed8-ba57-62b2c599cc66	d60c5b54-a6e5-5510-88f7-7d7bbc6b2bef
+treatment	PBBVMZ_treatment	-999	-999	Surgical Procedure						d0a30d40-35a6-5b56-bf2b-cc6b0da5b584	10e0236f-2b8d-5883-8b16-a473d5744f95
+treatment	PBBVNR_treatment	-999	-999	Chemotherapy;Immunotherapy						fc351858-69f0-5156-ba5c-b38ca687788f	8c34081e-70d3-5968-8865-b26522190dea
+treatment	PBBVPA_treatment	-999	-999	Surgical Procedure						f6cbecf4-d426-598f-850c-0b2bc903cc5c	65c9656e-0303-5ce0-b9f6-22a1eed5d9d0
+treatment	PBBVPC_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						179a361c-c1d7-5a14-b9b5-923445b15f8d	ed988c47-9d94-5f86-8f7b-0f4a1a2ffce0
+treatment	PBBVPL_treatment	-999	-999	Surgical Procedure						b62d58c4-6da8-5e46-8c03-341ab9d6c7c0	03582043-8287-5991-8c42-295da4eb685f
+treatment	PBBVPP_treatment	-999	-999	Radiation Therapy;Surgical Procedure						461ea498-c601-55b0-b505-5b00a9601923	af6a6f3a-d7ea-5c40-944c-1e4020101c3d
+treatment	PBBVPZ_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						ba81daf4-3252-55cd-9c0f-de247c2c3d11	df2f8b0c-46ed-5a3f-959d-12136c0a4571
+treatment	PBBVRA_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure	Other					39a91095-bfe9-5adb-88f9-8c570f13192a	d34f1808-e5e6-5454-ab2f-258855bec7cd
+treatment	PBBVRC_treatment	-999	-999	Chemotherapy;Immunotherapy						9de9a386-2359-5e9d-b166-667343d38d4c	2549c924-6fa2-545c-8470-82ab16993ec8
+treatment	PBBVRI_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						0da743be-aad6-5a16-9e8e-9087f8340902	09caf83f-2c5e-55c5-8b26-50e306259588
+treatment	PBBVRV_treatment	-999	-999	Chemotherapy;Immunotherapy	Temozolomide (TMZ, Temodar)					48e99d27-a8cf-510f-a8d1-fa04e0b9af09	a10cba15-a75c-5ff3-ac4a-fe847cab3026
+treatment	PBBVSC_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						3df07cf7-3cfe-5a15-bc53-22d1e2248b8a	042dabaa-2a1f-5016-b5c3-795077f298f9
+treatment	PBBVTB_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure	Other					f88db32c-52ae-5453-bd39-7cb873970135	51e36674-7782-5056-bd66-c392d13af152
+treatment	PBBVUA_treatment	-999	-999	Surgical Procedure						69143f00-7b17-51b2-8b87-ec4c37c462fc	b8f552a0-75b6-566f-a84a-fb1b6a21b54d
+treatment	PBBVUD_treatment	-999	-999	Radiation Therapy						6ebdc4d4-d804-571b-af7b-c003422a7fc4	bece4f34-d717-586f-86bc-72d5f6efaac2
+treatment	PBBVUE_treatment	-999	-999	Surgical Procedure						432d7986-e908-56ab-961a-2d0e4772740a	de82e242-b5e4-57eb-bd92-3dbd7aa391b0
+treatment	PBBVUU_treatment	-999	-999	Surgical Procedure						8121b958-8ac5-5ff3-bfe1-036f61422c82	755730ab-6df4-5f0f-b908-c00c579b10b1
+treatment	PBBVUY_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure	Other					4e8e8a89-da75-50a0-a154-02faaa0d6f1a	eda87d5c-5243-5555-b25c-f06ceb6dc4ca
+treatment	PBBVVP_treatment	-999	-999	Other;Surgical Procedure						106c30ed-9785-584b-b53b-aeca7e2141d6	9d242e9f-0821-5370-aa50-869603083b4d
+treatment	PBBVVV_treatment	-999	-999	Radiation Therapy;Surgical Procedure						c9e5fda8-206e-59a0-972f-e5134eb6204c	d75ba842-d621-5910-8ee0-c0de927b4583
+treatment	PBBVWK_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						d0b2c8b8-2837-552e-ae45-53c878ed0664	e36c6f28-0c6a-5752-8507-bae0ee8f40d5
+treatment	PBBVWM_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						be22750d-7e10-552d-a18c-9e451d37d12f	c62ce490-9173-5d66-bd35-9b8365143132
+treatment	PBBVXF_treatment	-999	-999	Surgical Procedure						f5ffe1f2-f347-5eac-bf8e-3f2fd51962ac	4c3dc3cc-4228-5c00-8a31-93a10b303b84
+treatment	PBBVXM_treatment	-999	-999	Surgical Procedure						b88a07e5-4b0c-599f-810b-eddb7f077101	101ea534-af0f-549e-b808-a4123cac1c8d
+treatment	PBBVYF_treatment	-999	-999	Surgical Procedure						ed931861-545b-5222-8e49-78cee1683270	f3b91054-d241-5ab1-8cb5-720b669697f3
+treatment	PBBVYY_treatment	-999	-999	Surgical Procedure						8d9f5193-d2d5-53c6-a9e5-34fc2c6221c3	3031b893-f294-5687-bbbc-92b379bac065
+treatment	PBBVZC_treatment	-999	-999	Chemotherapy;Immunotherapy						8a8e9ed6-7ac3-5625-8d65-a0c220ca203a	99e7a408-a91c-5929-b462-8d35618ac505
+treatment	PBBVZG_treatment	-999	-999	Surgical Procedure						33d0f1fe-b9c0-507b-b5c7-abb276bfe12b	c51415ee-0765-57ce-affe-2c5d2df556ad
+treatment	PBBVZJ_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						84d4a403-04e9-52da-8748-59fcb2c7d8e6	d9c06e25-2605-51e9-bf28-f0b13222e411
+treatment	PBBVZL_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						dda0d347-1468-5647-b448-70aeba1971df	fae01a21-0800-5ef2-a556-a2e6bf0217e5
+treatment	PBBVZS_treatment	-999	-999	Radiation Therapy;Surgical Procedure						b3ce044d-b0af-5e53-8a53-115e86d3fb92	dd6e5871-176a-5fdb-8015-7634ce433917
+treatment	PBBVZZ_treatment	-999	-999	Radiation Therapy;Surgical Procedure						e858fea3-7230-526d-b120-1a9f38234b57	c09ac565-0625-56e8-bca9-f24b14c639ea
+treatment	PBBWAC_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure	Other					cf5b7681-72a7-5416-a8df-278bcf04d003	babc9335-8a6e-5489-a4bd-41bd995acc19
+treatment	PBBWAD_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						24d17ba0-fed2-5778-b79e-954b7dc7ddb6	cb8fa934-2b4f-5c6e-9139-1672729bb66b
+treatment	PBBWAH_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						4f06ecaf-af34-5a2e-bfc5-d720ade8cd84	9f3faf5e-406d-5974-8463-d7f9738baa72
+treatment	PBBWAN_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						3d5dd832-e7e7-52d0-bf7e-30ca9f74a2f7	716bb97c-a343-5d28-a937-c375e1eb5ef2
+treatment	PBBWAS_treatment	-999	-999	Surgical Procedure						253e717f-5f12-5043-81a4-4d7bd018cbb2	7b5ec250-9112-5e05-9a75-de385da7179b
+treatment	PBBWBL_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						a22fe55f-4a3b-58a5-a955-5e7da912b857	82a1eba4-dc31-5892-89a6-a98038db3d94
+treatment	PBBWBP_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						4524da32-e187-5126-8a11-3f2fc74f2b3a	fba74560-f731-5950-b84c-95d2b5ece48c
+treatment	PBBWBV_treatment	-999	-999	Radiation Therapy						02cea72a-e916-5042-807b-76adc64436ba	9692257f-8b76-5b3d-bf73-bfe829784fa3
+treatment	PBBWBX_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Stem Cell Transplant						8eee82d1-2d5f-5644-a6ce-a12750bd4b36	fd089e24-6ecc-5423-bf17-91221a8b9f7b
+treatment	PBBWCI_treatment	-999	-999	Chemotherapy;Immunotherapy	Other					0550c264-5073-5f72-b7ff-51c397fa2c34	b3c4a410-052e-5e0f-af3b-821da286c887
+treatment	PBBWCW_treatment	-999	-999	Surgical Procedure						fd4171b3-aaad-56ac-8fbd-b2bfc339f15b	d197e064-7d26-5377-93e3-1d5077256092
+treatment	PBBWCX_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						776fab71-c273-5592-b814-cb8cc9dc9f9c	90d7c19c-82aa-5935-80a5-894e13fd951c
+treatment	PBBWDF_treatment	-999	-999	Chemotherapy;Immunotherapy;Stem Cell Transplant;Surgical Procedure						1025f9ac-0102-5b4f-8378-795e240eae05	62e46aad-896d-546b-be9a-0a4439089bc9
+treatment	PBBWDW_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						ac32b120-baea-5e5f-85ba-606b370c2a32	fa9f9cd3-48a7-5570-a085-809ccbd55787
+treatment	PBBWDY_treatment	-999	-999	Chemotherapy;Immunotherapy;Stem Cell Transplant						500b6d37-f153-5619-a1b9-c6b6601e0258	cfbfa38e-c100-510f-b08a-267841542b29
+treatment	PBBWEL_treatment	-999	-999	Other;Surgical Procedure						861577ed-7000-5dd1-bb65-6cf290eb263f	2fc15519-0eee-5376-829d-27216695710c
+treatment	PBBWER_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						e8fe44fe-f60e-5ccb-898f-14c238489d62	8e15bbc6-8023-5681-a55b-a1f775c0f394
+treatment	PBBWET_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy	Pazopanib (Votrient)					b33f711b-9c16-5657-9df0-a4bf23a84269	7c9e4060-c0b5-5431-87ae-5b4132101a80
+treatment	PBBWFB_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						9e870a28-4837-5ee7-a0a1-359b99a261eb	6675da88-4c05-5157-a381-26cf54a1b296
+treatment	PBBWFD_treatment	-999	-999	Surgical Procedure						57cf10f2-22c7-5892-8d78-eb9df4724853	a4ed6f9e-f4c5-5371-9cc7-817a3293c36f
+treatment	PBBWFG_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure	Dexamethasone (Decadron, DEX)					13c9e611-d31b-557c-a81e-29330dbfb9a9	cc9ce6b1-e120-5c7a-bf38-2151a80a09c6
+treatment	PBBWFN_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						725e8aa8-11cf-5e49-9188-2c194a431cc7	b0ed46c1-15ae-5eeb-9acd-8bef93a548e9
+treatment	PBBWGJ_treatment	-999	-999	Chemotherapy;Immunotherapy;Stem Cell Transplant						88528add-309d-58a1-8eb7-b4dd9defcd45	376827a8-f0c7-558e-a7f3-31c2615d629d
+treatment	PBBWGK_treatment	-999	-999	Chemotherapy;Immunotherapy						bbcdfade-bcd7-5480-9fd6-bf833b6c6692	a291e57f-5772-5335-a76e-405471bdce99
+treatment	PBBWGP_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						0bae7b53-a533-5308-be7b-abcce579a99c	caa99ac6-db71-55d0-b407-bc9941977b88
+treatment	PBBWGV_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						4ddb5811-730d-5003-8223-ba2c410a2545	8d4693df-804a-5b88-9158-453d2487e449
+treatment	PBBWGY_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						0e1094c5-fa6c-578a-8cb9-bd0a5fbfee89	eaf2ead4-4af5-504e-8b45-46fd058dd057
+treatment	PBBWHU_treatment	-999	-999	Surgical Procedure						ff5d67d7-4d97-5641-b2da-962ae222969f	5b111361-44fa-5fa5-85ac-927b8eed45be
+treatment	PBBWHY_treatment	-999	-999	Chemotherapy;Immunotherapy						6e2d9a47-25b7-5830-a013-c39913bb1ab8	75831d2a-2950-55c8-8d1d-4c7d0f990578
+treatment	PBBWID_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						4a5d0e33-51cd-5f3c-9a2f-251b97aa5bf7	547bfecd-2571-5501-b318-59c09975561f
+treatment	PBBWIJ_treatment	-999	-999	Surgical Procedure						40180ac3-8b8e-565a-abe1-0457904aa1e7	7ba284c6-53f1-59a4-ac7a-9df5ad73f7d2
+treatment	PBBWIL_treatment	-999	-999	Radiation Therapy						e8e9d8a4-6cb3-539a-9ef4-3f67bd2a9af7	b3a01f3a-199a-5604-89a9-99a19b3aa204
+treatment	PBBWKG_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						3e83413e-a5cd-51c9-a814-5a2ab077cb21	79d058aa-605f-575c-b8b0-b083fa153541
+treatment	PBBWKJ_treatment	-999	-999	Surgical Procedure						b6e6c767-d183-5de5-85b0-7e893bd7d096	05f9a063-026a-5cec-9ca8-a65870f0ad98
+treatment	PBBWKT_treatment	-999	-999	Surgical Procedure						eb3e57b3-7fb7-56a7-b666-3a796820618c	9d6d4595-9edc-595a-ac28-882a01504837
+treatment	PBBWLR_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						73231d39-f103-5f7e-bf4b-64496e6f6f2b	83148ef7-26b7-55a3-8e29-ae72547a6255
+treatment	PBBWLY_treatment	-999	-999	Radiation Therapy;Surgical Procedure						255340e9-33a8-5e9a-9b9a-95cf733258cc	f26aef27-9ec6-5c0f-8acb-0426a0c74d21
+treatment	PBBWMI_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						954dd1cc-d659-52fc-8211-95450272c75d	dc3ea372-9d97-59ab-aec5-0cb5500c608b
+treatment	PBBWNB_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure	Other					0d6d0a03-7823-54cc-8e57-ba3eac2e8e76	d0c4a642-bd60-591d-836f-9d91ed6fd992
+treatment	PBBWNF_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure	Carboplatin (CBDCA);Other;Vincristine (Oncovin, VCR)					f298abb8-d8a9-5839-b5ac-d0df2da44a30	7d32c886-7b5e-5b4e-b1e3-2aa7e7d9b6a1
+treatment	PBBWNM_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						8530be48-f41d-52be-a39a-548aa14701e4	3973ebdb-6e89-5de5-8bda-0787740581a6
+treatment	PBBWNR_treatment	-999	-999	Chemotherapy;Immunotherapy						fc29a10f-be61-51a8-ac2a-7d74b3b41527	685b2f46-01fa-5d1e-800f-814a3b02e4a2
+treatment	PBBWPH_treatment	-999	-999	Chemotherapy;Immunotherapy						7daf3376-967a-5f48-981f-ca348eb758e6	200a3c86-31d6-537e-be60-632c20af5640
+treatment	PBBWPP_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						f8953956-8b28-59ea-9235-6566d0fee0d3	aca6d376-a591-5a7c-95b7-015fc4a7345e
+treatment	PBBWSN_treatment	-999	-999	Chemotherapy;Immunotherapy						032e2ff2-ea25-5c4f-96d9-0fe7c267fc41	8e3b7d11-e1d2-5487-9728-0c581c3f972e
+treatment	PBBWSX_treatment	-999	-999	Surgical Procedure						e8e9e032-7bf4-55ef-8cef-2fb39938f178	2eb392c4-e624-5d5b-9faa-375e9a3480bb
+treatment	PBBWTN_treatment	-999	-999	Surgical Procedure						dc3eba5e-6fb3-59cb-840b-1179f025b9b5	7fd49e80-6483-54e8-a8d4-101747ff4785
+treatment	PBBWUG_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						6f346421-7abb-5578-8777-1964f67deca5	69ed6cb8-40a2-5b5e-9134-622d14ae8b8b
+treatment	PBBWUK_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure	Cisplatin (Platinol, CDDP);Cyclophosphamide (Cytoxan, CTX);Etoposide (VePesid, VP-16);Methotrexate (MTX);Vincristine (Oncovin, VCR)					940a7551-22fa-526f-b4c0-2a1a448fde89	fd1de039-eccc-57af-aa78-76cf9c629738
+treatment	PBBWUN_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Stem Cell Transplant;Surgical Procedure						210de3bd-f39f-5147-b31c-9506e5ea4e21	c39b8a90-b8d3-54e2-9649-fcf88d41bea5
+treatment	PBBWUS_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy	Temozolomide (TMZ, Temodar)					a3e5b558-e779-5104-ba8b-90d079faf1d4	b2d12693-647a-5153-b974-f189acc6955d
+treatment	PBBWVB_treatment	-999	-999	Radiation Therapy						d23f3011-9002-5dca-b593-97b79f7bd00c	e7615160-4974-5960-af65-37bd401e7721
+treatment	PBBWVC_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure	Other					2c565a57-56bf-5764-aba1-a4c4edd02683	553a9dc2-1a12-5637-ad98-c2296ffb6618
+treatment	PBBWVF_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure	Carboplatin (CBDCA);Vincristine (Oncovin, VCR)					9eade244-7a8e-52cb-b25a-f274b5f48455	73156ec0-bb50-510c-b38e-d03845b81a2c
+treatment	PBBWVP_treatment	-999	-999	Chemotherapy;Immunotherapy	Other					eda708e7-9ab6-546b-84de-693145e540dd	a5f44e35-41ef-5f37-9a62-43627434535d
+treatment	PBBWVY_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						244b6f36-1adc-516a-8659-2e0296bf5b72	926af8ec-2c51-52aa-87c2-4ca32b35fca4
+treatment	PBBWWW_treatment	-999	-999	Chemotherapy;Immunotherapy	Carboplatin (CBDCA);Vincristine (Oncovin, VCR)					9b368e6c-8aae-55eb-a6ea-d844c866cde0	0b64ec77-983b-5edc-bd48-4938917c8966
+treatment	PBBWXT_treatment	-999	-999	Surgical Procedure						41397a40-be0f-5aa7-bb64-ea024aaecb99	a8b1828a-ba2e-5d3f-b580-29dbe61101e7
+treatment	PBBWYG_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						940797b8-34d0-5477-8e59-b003c75b3683	f94027d8-7648-5e54-891a-82e806764689
+treatment	PBBWYI_treatment	-999	-999	Other;Surgical Procedure						ba29a213-104e-5afb-983e-3d58e9f8b96d	d54d6ff2-79ca-5c79-81a7-ec1682d26b56
+treatment	PBBWYM_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						2050c154-f190-5a50-b704-736d9b6f7c33	e99ea5df-e2d9-5ef4-84f0-8298aacece55
+treatment	PBBWYT_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						2062fa23-91b2-5b65-b9ed-ffe760d76f1e	f94ac1f4-eac0-5f4c-acf7-76a4ea4bd0a6
+treatment	PBBWYZ_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Stem Cell Transplant						5ca0d549-bb0d-5d60-90f0-82fa887bb55d	c0733f45-2c80-5dee-aa82-3f2aa4663245
+treatment	PBBWZK_treatment	-999	-999	Chemotherapy;Immunotherapy	Vinblastine (Velban, VLB)					67553e1f-e50c-5362-a288-b5da0f747038	1d7187bb-44f9-5eb2-a3b2-02dc13405394
+treatment	PBBWZM_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						7ec30835-c548-50ed-be4f-fd579b91aad9	2167c958-b287-5a05-8856-9998a2c1d4b7
+treatment	PBBWZR_treatment	-999	-999	Chemotherapy;Immunotherapy						34ea125a-1eba-5b71-9675-3db633006cb9	65b68f98-8df2-5f9d-bb32-79e3d1befb92
+treatment	PBBWZU_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure	Cyclophosphamide (Cytoxan, CTX);Dactinomycin (Cosmegen, ACT-D, actinomycin-D);Vincristine (Oncovin, VCR)					29c94c95-d205-5362-8000-63c5d364a21c	c0652de6-2d9e-5f00-9d96-05099821b88b
+treatment	PBBWZZ_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						8e14e818-bcac-506b-a79c-c2a910b1a729	330c2797-b289-5e3e-9631-3ced61ff7d1b
+treatment	PBBXAI_treatment	-999	-999	Surgical Procedure						e0800bb0-eca1-55ea-aea7-f5dc7801a48a	4a07586a-690d-54d6-bd27-411a08eb88d8
+treatment	PBBXAT_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure	Dexamethasone (Decadron, DEX)					f07faa5c-225d-5623-82b8-f56e8c95215f	27b57762-4554-5e8e-bd4f-d37f433c9860
+treatment	PBBXAU_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						e639ef27-cc0b-5cda-ba06-382b90275f8a	0fbcc29a-7149-58e9-bb2f-7d6a2379118f
+treatment	PBBXBJ_treatment	-999	-999	Chemotherapy;Immunotherapy						ad5c4f12-e936-55e9-bbdf-1649bde21a01	f892fd93-bb86-5b9d-9f83-64cff3d4c1c4
+treatment	PBBXBK_treatment	-999	-999	Surgical Procedure						b9527bca-1d44-5486-88a3-b70b95a420ed	49a62eb5-8f30-5818-aaef-081043f95879
+treatment	PBBXBL_treatment	-999	-999	Surgical Procedure						dd762fa9-1438-5186-8aed-3c7ec3ae43fc	baf2a578-8cbb-5550-b540-4572e0f7a376
+treatment	PBBXCB_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						9a31374a-c97b-55df-afb8-37b7d6fc2ca9	a9d95de0-d9c1-5fe0-a69a-8c1ef0c64f54
+treatment	PBBXCD_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						be9c5108-ff1f-58cc-a1ff-e57eb751e323	141825a9-8d69-548d-a9a3-748b0ee9ef40
+treatment	PBBXCJ_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure	Bevacizumab (Avastin);Vinblastine (Velban, VLB)					7df5c1f5-d415-50b4-989e-e882f73979b9	15a35bd8-a277-5b71-9f7a-7a9519b39e69
+treatment	PBBXCU_treatment	-999	-999	Surgical Procedure						6aa68726-dbe4-505a-b2cc-fdfe8403b702	a0560e5f-e387-5f57-9784-74181cc22278
+treatment	PBBXDF_treatment	-999	-999	Surgical Procedure						38e955f9-12cd-5ade-b49c-db1d7182570f	3b3ee793-cb7e-514f-a94b-63c73df5115a
+treatment	PBBXDR_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						5453af53-501d-5839-afde-32b0f4275f7b	a52605b5-9870-515e-a114-5f4bf0a31ae5
+treatment	PBBXEA_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						249ec626-0e7a-5974-80a8-2f13527b1fbb	1e24be73-77ec-5b41-b5bf-c61daffa5360
+treatment	PBBXEN_treatment	-999	-999	Chemotherapy;Immunotherapy	Melphalan (Alkeran, l-PAM)					595d1a61-f858-5e8a-901e-1a23a23b93ff	79d807dd-ff73-5868-99ff-289da6e34fae
+treatment	PBBXEP_treatment	-999	-999	Radiation Therapy						d3b55b02-7975-5b19-931c-f93d54bd774a	f2b27d54-8b97-55bf-a582-6e7e2c51ee01
+treatment	PBBXEU_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						0fcb1677-37c5-59bf-909e-b17847a92805	30152899-2462-5ac2-bd2f-9d66e1009ef9
+treatment	PBBXFC_treatment	-999	-999	Surgical Procedure						59060d58-0df1-5e84-9653-0bc901fe1a9e	9f4ae41d-1cfa-50ff-bfcb-e637702b82d5
+treatment	PBBXGB_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Stem Cell Transplant						f9dd9f45-264a-5364-8ae6-64a58a599959	d348e432-e6f1-5492-b06d-503149f8418f
+treatment	PBBXGW_treatment	-999	-999	Chemotherapy;Immunotherapy	Carboplatin (CBDCA);Vinblastine (Velban, VLB);Vincristine (Oncovin, VCR)					1c755b88-9d61-588c-b9ba-437977be489f	a6cf9f03-b7c6-5848-a458-568b1064fc71
+treatment	PBBXHT_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						2e33e24d-cee8-5cf9-99be-368d08a57d2a	1a70e3f8-64b3-5f39-8a8b-ee235ac3a5a1
+treatment	PBBXHW_treatment	-999	-999	Surgical Procedure						d1030b47-146c-5188-95ee-686e12fbb0a8	41816e29-4899-5f9e-a83a-8884b243b0aa
+treatment	PBBXHY_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						899c3ee9-6f6b-5a83-88c5-81a7db36d4cf	ad72035a-8872-507a-bb36-c705ebf32598
+treatment	PBBXIA_treatment	-999	-999	Surgical Procedure						1c1a9e55-3ef4-5802-ace7-ca8b4431420c	45e86167-d1d4-5a69-adc7-950fa87e79a5
+treatment	PBBXIX_treatment	-999	-999	Surgical Procedure						c2035163-d81f-5a62-8f3b-d087de2ba574	c727bd95-ebfe-5054-8bab-86af521d900c
+treatment	PBBXJB_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure	Temozolomide (TMZ, Temodar)					22d1e422-6fec-576d-8952-59cc2170e623	b8cd9ca2-e479-56d3-ab5b-b8bb1515c59b
+treatment	PBBXJD_treatment	-999	-999	Surgical Procedure						0bffcdb0-65ed-598d-8bc1-1aa298af2225	846366a5-8387-52d1-8d6a-b7360d517d67
+treatment	PBBXJG_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						f5a3ab11-195f-5ce4-b92b-30a2b4bc7d68	4a2e3afe-5696-5007-8cc5-b6e13c7ecc29
+treatment	PBBXKI_treatment	-999	-999	Chemotherapy;Immunotherapy	Bevacizumab (Avastin);Vinblastine (Velban, VLB)					d384c4f1-d278-5d37-914f-0b764690459b	ca85134e-d969-5ad2-9e4b-41b9a0fdd80e
+treatment	PBBXKJ_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						19e5ec64-c06a-5ef2-adff-7fe77699f64e	e06c1da3-c963-536d-88e0-ee01dfa33aef
+treatment	PBBXKW_treatment	-999	-999	Chemotherapy;Immunotherapy						a845f23a-274f-5ca5-b1fc-c6429f22398a	8db8e3ad-d6eb-53ad-8923-6e14a4e89afc
+treatment	PBBXKX_treatment	-999	-999	Chemotherapy;Immunotherapy						d39542ac-ecad-53af-aa9d-470f2340432e	ceba28c4-b03c-500a-b1be-7f55aa1f298f
+treatment	PBBXLC_treatment	-999	-999	Radiation Therapy						5aad7227-f844-578e-8c44-c806204e98b8	efce40ab-a928-5583-9dab-9a72fde19ce4
+treatment	PBBXME_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						f0f7348b-583a-5f16-b8e8-09dc1abccb52	8befb2c2-6251-5bc2-9c57-04bb0984e249
+treatment	PBBXMJ_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure	Temozolomide (TMZ, Temodar)					1e418b88-c64d-552c-842c-dfda406cab15	60b5d10e-9b8a-58b9-864c-bfe51afb94ea
+treatment	PBBXMP_treatment	-999	-999	Radiation Therapy;Surgical Procedure						864ae2fb-4631-5f21-a712-524beaf823be	c30363bf-d82c-5220-87c3-b1501e2ad025
+treatment	PBBXMR_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						8bdf18bd-384d-52d5-b73d-32f748badcfd	f8fe5f6e-8891-57d0-9e93-f385a5c14f3e
+treatment	PBBXMV_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						e6b074cd-c4da-5a1c-9378-ee89da1634e1	51f9f85c-a0a9-5f67-a3fd-b8eb2539870f
+treatment	PBBXMW_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						b8f6ede2-a65f-556d-95de-cf1087c48489	1cd84215-c028-5933-bf88-7d414725f25f
+treatment	PBBXNH_treatment	-999	-999	Surgical Procedure						90ff9072-c1b5-521f-a3ea-39a9471c6455	9df683a1-8dc9-5b96-9a3c-bb0ef81f73de
+treatment	PBBXPD_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						c7c6ac97-5782-5da9-b834-04d33c7018df	e63cd314-cf51-50f5-af0f-5470460f1506
+treatment	PBBXRG_treatment	-999	-999	Radiation Therapy;Surgical Procedure						b3a8c22a-8a52-5cc7-a27a-f9afe3b07697	cad8edac-1ec8-5ddb-8bc1-d8b7175b7ace
+treatment	PBBXRR_treatment	-999	-999	Surgical Procedure						c4e64c23-4f5a-5a4d-bb26-bf7b5d6a3585	eb99f9b0-5365-58aa-926c-db325044b5e2
+treatment	PBBXRU_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						a0449f55-724a-5de2-ac91-866678a5a439	00879c49-bf09-52e4-917b-4e7daa96df30
+treatment	PBBXRV_treatment	-999	-999	Surgical Procedure						f60fbd94-8b62-5392-91eb-1b33d8d7bb9e	49a9ac12-0e06-5a52-80c0-408e45070eb3
+treatment	PBBXRX_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						d3428975-27a3-52c3-bf07-2ac8d0458e9a	5d6d76c6-674e-506b-880b-a0c74b5c92d9
+treatment	PBBXSU_treatment	-999	-999	Chemotherapy;Immunotherapy	Carboplatin (CBDCA);Other;Vincristine (Oncovin, VCR)					b13ccc4a-98aa-54e4-94ed-82c7e0b020e7	53e571b1-246e-5291-baec-854ca6d5669e
+treatment	PBBXSZ_treatment	-999	-999	Surgical Procedure						d1a7802b-4838-5975-943d-7ebd45edeb47	7479c2a5-c0c4-577e-b9b5-6fbe1820220e
+treatment	PBBXTG_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						67a396d7-a040-5552-8324-0ae0d42e348d	66a2d5c3-9a6c-591c-aebc-e57d7021b45c
+treatment	PBBXTK_treatment	-999	-999	Chemotherapy;Immunotherapy	Carboplatin (CBDCA);Vincristine (Oncovin, VCR)					11f456b1-9d1b-5d93-8b18-7ae6b2894db1	aa5818ae-a591-5c77-bcf6-5c7a395c67ce
+treatment	PBBXTS_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						441777a8-7126-5a00-8b43-5286ea49b5f0	c3984568-80c3-58c5-8eac-e907b6a293ea
+treatment	PBBXTZ_treatment	-999	-999	Chemotherapy;Immunotherapy						168bb686-4da2-5c50-b781-86a9505d115a	f2f42262-56ba-5282-ac18-16249dae9365
+treatment	PBBXUP_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						87fdd257-b08b-5774-836c-dfe5ce890527	578cf040-9b10-52fb-99c3-bc3661c20d64
+treatment	PBBXUS_treatment	-999	-999	Surgical Procedure						d4b0d79b-b1f5-56ba-9c8c-e130a2671844	2ea80a74-162c-52ff-878e-c2d78c46527f
+treatment	PBBXWE_treatment	-999	-999	Surgical Procedure						cf12a831-23c5-5c34-9344-0c11fa990af8	66d9561c-1c5f-5a6e-9dc7-2b1c0886a1c1
+treatment	PBBXXP_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						ce9dec05-2113-5be7-8824-cc6993d34cf3	59851ac4-e72b-5086-8bfb-92bd9b4240f6
+treatment	PBBXYA_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						e2aebe64-f7b9-5e3e-b1ee-9168508ffcca	2f86a8c2-7eb4-564e-9749-66849fe7f457
+treatment	PBBXYE_treatment	-999	-999	Surgical Procedure						c92b92f4-b89a-5564-b5f4-e051c3d99a29	e6ae2b49-656b-5e63-adf2-ef9c280bc263
+treatment	PBBXYP_treatment	-999	-999	Surgical Procedure						0a9f160c-bf0e-5426-88a8-efc4fe71c80c	97ea10c9-eb4a-52b5-b2cf-ae699c152ad1
+treatment	PBBXYX_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure	Carboplatin (CBDCA);Vinblastine (Velban, VLB)					553c6a82-73d4-5e00-a3f7-d98cb0147cde	12d22e2d-0455-536a-a935-fa2a151caffd
+treatment	PBBXZM_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						3a44a469-0da0-5af1-89ba-13b8bce4fc19	d28bf354-282b-56bb-83e7-0ae5b345d3aa
+treatment	PBBYAE_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Stem Cell Transplant;Surgical Procedure						52d6c85c-b7e6-5ae0-a036-4b089efe58ab	5c11146a-de62-5631-b4a0-18ea1729808d
+treatment	PBBYAU_treatment	-999	-999	Surgical Procedure						debed2dc-aa2c-571c-ac50-d13da510d012	332530b2-aab4-58cd-9a89-5118a9b07166
+treatment	PBBYAV_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure	Carboplatin (CBDCA);Vinblastine (Velban, VLB);Vincristine (Oncovin, VCR)					27301804-4f32-57b4-b205-2ba2d47d50ef	23c02d8e-0a4f-56b8-a752-d9b21a021369
+treatment	PBBYBD_treatment	-999	-999	Surgical Procedure						0ebd220e-c183-5d26-8e60-6bf6903f262c	f5c84a8e-ae34-5d11-9dfd-97177714c37a
+treatment	PBBYBJ_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure	Carboplatin (CBDCA);Vincristine (Oncovin, VCR)					037ad814-629e-5d60-8139-5b930f278813	3e0b57b0-4259-5c9a-b62f-aae0728bffad
+treatment	PBBYCC_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						54bb3600-dc17-5e79-a8d6-181f6cca7706	30440cab-d10c-53fa-bbd6-431dcc8f4270
+treatment	PBBYCK_treatment	-999	-999	Chemotherapy;Immunotherapy						2391a5c9-ea19-5e6c-8dc7-f053269038ca	7b2c8118-0816-5ea9-8e7e-798db67c2042
+treatment	PBBYCL_treatment	-999	-999	Surgical Procedure						6454d159-d80d-55be-9780-297e608e213c	69e01485-5fae-500c-ac10-a6e04b0662e0
+treatment	PBBYCP_treatment	-999	-999	Surgical Procedure						870475fd-33f6-5578-9013-3f86ff3ba303	592ac1fd-204f-5355-8e11-e5672d7c1cef
+treatment	PBBYCR_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						5b0f310b-71ed-5ec2-b017-0ceb8160f634	e9c79a5d-5337-532f-9105-157edec6788c
+treatment	PBBYEE_treatment	-999	-999	Surgical Procedure						78219212-52e9-56cb-af0e-a83ba7798dbe	1f77b059-8230-5668-85b6-f9c91cca1cf3
+treatment	PBBYFB_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						92315219-5d2b-5b22-9291-a00f48b7bbb8	825687fe-7020-5042-9699-772ecf6b3f93
+treatment	PBBYFG_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						172d362e-2659-5211-bdbe-171888d1f506	6ea14a31-e278-525f-b5ea-e6cc96c0e2a4
+treatment	PBBYFL_treatment	-999	-999	Surgical Procedure						b56e2cd0-0f55-53d6-9fba-4a074f549f43	b29aff84-e7d8-5465-9faf-95e7b05ce939
+treatment	PBBYFU_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure	Sorafenib (Nexavar)					f37ccff3-ce5c-527f-96af-0b98a2dfb47b	aa3d88b7-e77c-5a77-ba63-1e55e5b548ae
+treatment	PBBYGA_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						f6aaaf42-db79-51f6-b66d-d106b9c86d9b	b96451b3-1320-5086-8759-5f86be5b105b
+treatment	PBBYGB_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure	Other					73f4d225-47f2-5bba-b2dc-da25a694626d	6d122502-bbbe-5d24-ae5f-b7dd589704f2
+treatment	PBBYGC_treatment	-999	-999	Chemotherapy;Immunotherapy	Carboplatin (CBDCA);Vincristine (Oncovin, VCR)					9cf982c7-d444-5397-abe0-1fa5408837c9	29a3144f-ece5-5f3e-aa6f-d0ebb7e8663d
+treatment	PBBYGE_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure	Cyclophosphamide (Cytoxan, CTX);Vincristine (Oncovin, VCR)					104cd4b7-9df7-56ff-a3e3-0650198555b7	bc950141-dd95-5fe8-a34e-266859058100
+treatment	PBBYHF_treatment	-999	-999	Chemotherapy;Immunotherapy	Other					0e7d2659-1ec0-5cf1-a9ff-668f9a6113ae	2f0e6c1f-e129-53e7-a819-6c9dce0ab6fe
+treatment	PBBYHL_treatment	-999	-999	Radiation Therapy;Surgical Procedure						f4cfd01e-b559-5ff4-8660-9d9690e741c3	84d47b92-324e-5fa9-bee9-a35d5fe78548
+treatment	PBBYHR_treatment	-999	-999	Radiation Therapy;Surgical Procedure						e84558fd-4053-5167-b261-8da1462ec519	40ef49b7-42de-5554-bb45-6dad2b73fda0
+treatment	PBBYIB_treatment	-999	-999	Surgical Procedure						61ce7c5d-ece4-51d6-953e-169c7c3eb731	f7b47ecf-dd8e-57f8-9288-d8c7b31a4efa
+treatment	PBBYID_treatment	-999	-999	Radiation Therapy;Surgical Procedure						2ffd13b2-210e-5441-85db-6cc3a92a71f5	b4044422-e3b8-5eb0-a955-5711ed38734a
+treatment	PBBYIK_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy	Cyclophosphamide (Cytoxan, CTX);Doxorubicin (Adriamycin, ADR);Etoposide (VePesid, VP-16);Fluorouracil (5-FU);Ifosfamide (IFOS, IFEX);Irinotecan (CPT-11, Camptosar);Oxaliplatin (Eloxatin);Vincristine (Oncovin, VCR)					bc6928a8-c042-5b3a-82c9-9785dde1e851	4558eb77-5699-56fe-8b30-1d0ac1944fe3
+treatment	PBBYIT_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						8a5c70c4-3cd2-51a8-96bd-60dd87a0885d	196375ba-02fc-54c7-a339-a4a3672d32b0
+treatment	PBBYIU_treatment	-999	-999	Surgical Procedure						da565963-03eb-5798-a57c-c52c4ea2e909	857c7809-9364-50cd-b02b-db16abc10128
+treatment	PBBYIV_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						8d7d5423-349a-566f-844e-14709afeb6d9	f0451c75-d31d-5fdc-abdd-46790e5a0cf2
+treatment	PBBYJY_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						52f1f906-4d5a-51c9-b18d-f84254470508	7d1ddb96-b678-591a-a853-e98ce075d2c3
+treatment	PBBYJZ_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						1c8c8b83-bb50-5970-a41a-07f4c3be91d6	7b15e30a-a691-5a00-889f-a71b93d5f148
+treatment	PBBYKE_treatment	-999	-999	Surgical Procedure						5d87525d-9e10-57c4-9bc7-e54e33ca60c7	71b05ba2-715e-536f-aa5a-8c60f8e3e8a6
+treatment	PBBYKH_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						820b7564-cb43-56d0-9adc-27a1180b1b4f	5c7718f8-f334-5bee-826d-234e160c6f7b
+treatment	PBBYKI_treatment	-999	-999	Chemotherapy;Immunotherapy						e7f2c3ed-09de-559f-bb35-0bb075bcdb1d	45e3d704-5de8-56ac-b0fd-4ce79bbd4e03
+treatment	PBBYKX_treatment	-999	-999	Surgical Procedure						d2dcb5b5-94c3-5055-a875-3d9147bb01df	77b1c58b-6ca9-5527-9a89-6d10fc9f150f
+treatment	PBBYLT_treatment	-999	-999	Other;Surgical Procedure						9a20d4cb-d5fc-5256-abce-402ab5b39d18	afbc255e-5e2b-56ae-b8af-4fee0ea3d1f0
+treatment	PBBYMJ_treatment	-999	-999	Surgical Procedure						1b542583-20c3-5809-a5c3-0ddfc7f418b3	98fc96ce-b875-5450-8481-6461f29a2029
+treatment	PBBYNE_treatment	-999	-999	Chemotherapy;Immunotherapy	Cisplatin (Platinol, CDDP);Doxorubicin (Adriamycin, ADR);Methotrexate (MTX)					70ef03ef-dc37-5f0f-b56e-0fc0be5a3fbe	8e3e0831-c1af-5146-8c51-88724160edf9
+treatment	PBBYNW_treatment	-999	-999	Chemotherapy;Immunotherapy						4db85c17-42cd-5586-811c-b648bdff76ac	3ef3ca7f-ed10-54f3-9295-a3e6ed03bb5a
+treatment	PBBYNX_treatment	-999	-999	Chemotherapy;Immunotherapy	Carboplatin (CBDCA);Vincristine (Oncovin, VCR)					19200532-c4e8-5601-9d8a-975a2d239f42	c3d3db1a-c8dc-52ae-a579-4e89e504e7bb
+treatment	PBBYPL_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						418293a1-0aaa-50cc-989d-c0e7e41ab45c	34e6718c-6e80-501b-af89-7bec5573fb35
+treatment	PBBYPM_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						f7465290-3f77-543d-8bfd-de14caf64b2b	a1240a24-874c-59c1-ad52-4fd993cad40e
+treatment	PBBYPY_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						afa52609-310d-5389-937c-26785ca03317	bebe20f7-19f4-584b-b154-3d322ba97220
+treatment	PBBYRF_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						9b5c92ef-f51e-58c0-89ee-45bc0dd69dd2	9ac34d48-fb3d-53ff-bcac-7e593183bab5
+treatment	PBBYRL_treatment	-999	-999	Chemotherapy;Immunotherapy;Stem Cell Transplant						480ec202-ebf1-597b-a945-9f04387ea74b	e5efeb5e-4771-572a-a7d9-b3c38af37666
+treatment	PBBYRP_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure	Cisplatin (Platinol, CDDP);Doxorubicin (Adriamycin, ADR);Methotrexate (MTX)					c8cbf541-333e-58b1-9db1-84b49f00e758	fbb37d49-4ebf-5dbc-a704-87cbd21429c6
+treatment	PBBYRW_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure	Cisplatin (Platinol, CDDP);Cyclophosphamide (Cytoxan, CTX);Vincristine (Oncovin, VCR)					6abaafc0-0a85-5f47-b085-47acb5149411	7437a7ba-3eba-5ce9-89a4-c2e2836f8fe2
+treatment	PBBYRZ_treatment	-999	-999	Chemotherapy;Immunotherapy						239c1f3c-81ba-511c-b6d0-b72b81c2919f	33689b9b-291e-5efa-ae94-badbae717487
+treatment	PBBYSB_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						6cf92ccb-23de-54b7-9c19-bd0cb8e25e87	94288d4f-4412-5bff-926f-44b621d3ad99
+treatment	PBBYSF_treatment	-999	-999	Radiation Therapy						90af08f6-f9de-5c99-9665-9a24eb1ec12b	f742c2db-3a86-5bad-ac50-cd8be63f9308
+treatment	PBBYSK_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						bff90ee9-3fda-59e1-bac7-5fa93a67d405	a7169a05-86fb-5aec-9180-bad5a31a2773
+treatment	PBBYSP_treatment	-999	-999	Surgical Procedure						a6b16ce5-9846-537e-80be-837ea8c3b06f	93136df5-9cd3-5edc-95d1-fb725d17d069
+treatment	PBBYTD_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure	Other					4961c9c2-3ead-556d-bc5e-11406cb080c0	a3fb158b-4b00-510a-973c-49ddc37c60de
+treatment	PBBYTK_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						a5448d8c-8756-516f-827e-34a73364a185	c74b8a0b-b4f7-53eb-97e6-704aaedb195e
+treatment	PBBYTY_treatment	-999	-999	Surgical Procedure						3c7e9f2d-1e90-5447-a134-eeb95ee50107	d70a55fc-aca5-50d0-86dc-72a5557bf72b
+treatment	PBBYUE_treatment	-999	-999	Other;Surgical Procedure						60d2fc0b-00d4-5c6e-9331-f83eea7a2e9c	4c1d8bd0-0f12-557b-b384-f3a2ae63ea7b
+treatment	PBBYUF_treatment	-999	-999	Surgical Procedure						93ebe8d5-ce48-582c-a27e-618370595411	6f70f3a2-75ae-5661-8d16-e47d7bc29f79
+treatment	PBBYVA_treatment	-999	-999	Surgical Procedure						e706b224-87b3-5225-877a-69e92101aa71	8a252d60-85d6-5275-bed0-fdd0b34f9381
+treatment	PBBYVV_treatment	-999	-999	Radiation Therapy;Surgical Procedure						ec24f1af-fcbf-5fca-8936-81906f4307d2	4b31ce03-d422-55ac-aff6-ca2b233a7d0a
+treatment	PBBYVY_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						5718bddc-2dce-5e2f-b7fc-b4511eef5c74	3b0c9820-c8f4-5126-8097-078a6f3f3656
+treatment	PBBYWV_treatment	-999	-999	Surgical Procedure						93392806-c425-535b-9db1-4c102c53eca3	2d83acc1-1b06-5d62-ae4e-e62d83e388a5
+treatment	PBBYXU_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						33c31692-19cc-5153-8bcb-1952d64d0838	b23db7ab-9ee1-59a9-9338-dc8a4d271f58
+treatment	PBBYYY_treatment	-999	-999	Chemotherapy;Immunotherapy						e36a469e-6607-5a86-be8f-f7b3aa0a115a	dbb4dc29-d159-57df-8861-e95f7bb7bdf9
+treatment	PBBYZL_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy	Other					35a7d334-4610-587b-bd0b-3957a47e5ac5	eba60867-22e4-567b-a36c-ddc9b5db63a5
+treatment	PBBYZN_treatment	-999	-999	Surgical Procedure						98b7346d-b3ab-512e-9d5d-083b59161f2a	84286f4f-16b8-53a5-97a4-3d4f889fa3d9
+treatment	PBBZAE_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						4b6fd042-e98f-5416-af5f-cc0430a295c2	37d278bc-c9f3-53c4-9534-06e205f61a7b
+treatment	PBBZAH_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						8134cbc3-6930-5851-9633-2e6f0afb96ae	20eb82a1-ed50-5bf3-ac94-0d1eff4a365b
+treatment	PBBZAL_treatment	-999	-999	Surgical Procedure						f9ab0bb1-449e-5572-b45b-669eacc88e8e	941b852c-5a34-58a4-8902-c9e046767890
+treatment	PBBZAR_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure	Other					4aed2741-03a4-56a8-9c5a-1ac12dd7c6a0	2af4b539-2e49-5fb3-b846-a3cc427a90db
+treatment	PBBZBS_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						a17dc6c7-e8c0-56c5-8439-0fb22c200a92	1d02f550-a62e-5c4e-bc41-3e87cec55417
+treatment	PBBZBT_treatment	-999	-999	Chemotherapy;Immunotherapy	Other					a0953d72-b0be-585a-8fb2-a7422803e718	982614b7-8764-5f41-bcbe-757bc7c4b198
+treatment	PBBZBY_treatment	-999	-999	Other						34935b7c-40c0-52e6-aae8-50d8177c3b69	fa3399ec-99f6-5510-84dd-d0542f80365c
+treatment	PBBZCF_treatment	-999	-999	Chemotherapy;Immunotherapy						97e40248-9e90-5761-8db7-a118facc99b0	90523b8c-c150-5012-b9d0-0faa72ede2be
+treatment	PBBZDG_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						e1e92c2a-d53a-5040-bbbd-e0756d2402c8	0b319013-479f-5d7d-9903-ff902b434563
+treatment	PBBZDH_treatment	-999	-999	Chemotherapy;Immunotherapy;Stem Cell Transplant						5efc0bcb-50fd-55fd-b1f8-26b3d38b2c84	3872057b-eb16-5ccc-b2e4-a1840c5cf6e5
+treatment	PBBZDU_treatment	-999	-999	Radiation Therapy						0446ba50-f26d-5c70-82cc-be6e91aa56e6	7e2fe8ca-0644-55ed-a625-e5d673a90eaf
+treatment	PBBZDY_treatment	-999	-999	Radiation Therapy						8cfad38b-6888-57b3-966c-3052e2fcb6e1	0c4f3275-b4d8-5b0f-a75c-94e301762676
+treatment	PBBZEJ_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						d23200a5-cc46-586f-bbbe-d45fe1dd478e	e8cbc55b-5165-5796-9dcc-f4eb1fc60915
+treatment	PBBZER_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure	Other					2f432298-df21-5385-8640-282bac4119ba	888f0162-637e-5baf-8785-cea984362966
+treatment	PBBZFM_treatment	-999	-999	Radiation Therapy						a4336a03-8b34-507d-b279-5e5700371b10	4ae62fc8-2f64-5ae2-b5fc-4e480c27e768
+treatment	PBBZGF_treatment	-999	-999	Radiation Therapy;Surgical Procedure						4e21c674-7322-58e4-ab8d-36f129152a83	79060a74-4c3c-5288-8b70-25c8c0b7b487
+treatment	PBBZGW_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure	Carboplatin (CBDCA);Etoposide (VePesid, VP-16);Vincristine (Oncovin, VCR)					7f1ce700-1994-510f-a900-04b5fe0cfc8b	b080e7fc-6c0d-564a-961c-0e3e8a7f8d5e
+treatment	PBBZHB_treatment	-999	-999	Chemotherapy;Immunotherapy;Stem Cell Transplant;Surgical Procedure						81722c86-27c6-5ab7-a6f3-8dc4bd53c78e	6068aab8-ceb2-50fb-b903-5100a885b3bf
+treatment	PBBZHJ_treatment	-999	-999	Chemotherapy;Immunotherapy;Other;Radiation Therapy;Stem Cell Transplant						23ea98f6-4e24-5713-8198-3eff6ac98082	a7433f42-7baa-550f-be19-a43d0b61838e
+treatment	PBBZHZ_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						44b2bcb4-6fad-5ace-a71e-e6ac6269a364	7544e0f7-abd5-505a-b115-26073d05cf47
+treatment	PBBZJH_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure	Cyclophosphamide (Cytoxan, CTX);Dactinomycin (Cosmegen, ACT-D, actinomycin-D);Doxorubicin (Adriamycin, ADR);Ifosfamide (IFOS, IFEX);Vincristine (Oncovin, VCR)					66da4d5a-629e-5041-a8d1-f43cfc413afe	606cab7e-0d84-58b2-826f-e75321eefb5f
+treatment	PBBZKC_treatment	-999	-999	Surgical Procedure						40112cf4-74c4-5f36-a6cf-39a7a3db42d7	113ee4bb-75a2-512a-afb6-379348afcd08
+treatment	PBBZKJ_treatment	-999	-999	Surgical Procedure						e6cdbbf1-fed5-5053-8cae-9a544be491be	d67c6f11-16b5-509d-b27b-5ea29653788f
+treatment	PBBZKS_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						1e5df83e-6849-50e2-95b2-70030dc992f0	a6e3cafe-48c4-5dc3-9cc6-b8cebcf1bb74
+treatment	PBBZKV_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy	Cisplatin (Platinol, CDDP);Gemcitabine (Gemzar, dFdC)					0f387bbb-5adf-5eab-b4cf-6036a0f9ff58	ee16f109-8bcf-5608-8144-9806f2c3b0c2
+treatment	PBBZLT_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						370db421-8851-5e6b-a137-f3807e537d59	adef919e-fcfa-5e3e-b418-0c9c5dd47939
+treatment	PBBZLU_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						552181ca-c9bd-51b4-b715-a31b43e58c65	fd494de5-7f26-5679-a717-1a271cab4f2d
+treatment	PBBZLW_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						caf9d746-d91f-57e7-bd7d-ce5eaa32275c	82a53999-08f9-5e6c-b020-57ca04402f56
+treatment	PBBZMM_treatment	-999	-999	Surgical Procedure						eb7c2825-eec1-5df9-a61f-e660a9879b1f	2653750b-45d5-5adc-8ec0-8c091d12e241
+treatment	PBBZMT_treatment	-999	-999	Chemotherapy;Immunotherapy						2c54b760-c02b-5dba-8854-11ecab8b694c	8c9d65b1-6c90-5468-b463-2a0d5c97558a
+treatment	PBBZNE_treatment	-999	-999	Surgical Procedure						6ab16c63-c946-5479-8e87-b5c222f5cd3d	7da6fb91-2512-593c-a7c4-3a6be8bc7cb2
+treatment	PBBZNR_treatment	-999	-999	Surgical Procedure						e743f1ee-4e8d-578f-a470-b6af06302ad4	9b746754-aabe-5efe-9f0e-64c3e43ea6cb
+treatment	PBBZNV_treatment	-999	-999	Surgical Procedure						870b5392-ccd5-54b4-9612-c5435c44edd8	14e46995-fb96-5c47-ac5e-898c8069e543
+treatment	PBBZPG_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Stem Cell Transplant						4d54c5aa-6c1b-51ea-81a9-a336f7118cd1	1ea402e8-b121-5724-877e-d5cad6551510
+treatment	PBBZPM_treatment	-999	-999	Surgical Procedure						1c678eed-20d8-5d04-b691-c8185555a00e	d4b815b1-7af8-5b2f-8d2b-1b697180474c
+treatment	PBBZPX_treatment	-999	-999	Chemotherapy;Immunotherapy						56d581bd-1625-5ee6-a03a-ddfee9783548	a4e30385-87e0-5761-9451-4b9f7c8507c7
+treatment	PBBZRX_treatment	-999	-999	Chemotherapy;Immunotherapy	Sorafenib (Nexavar)					6023f671-20de-5ab4-ac8f-57a2f475dc52	c4446ae4-638f-5fb8-8185-444af0bed3b4
+treatment	PBBZSX_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						73b31f32-6f3e-5c5b-a8e2-74652e715bdb	91575f12-73b7-572a-9076-fa0cefadc402
+treatment	PBBZSZ_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						20170d8d-6c4b-571f-985c-abb408e37316	4a3e52ed-ffd6-5fc6-90d3-4ab10afde536
+treatment	PBBZTK_treatment	-999	-999	Surgical Procedure						ebca932d-acd1-5f13-bba2-6a82ca7f566b	fa58b166-491c-5d06-89b0-f179ee32115d
+treatment	PBBZTL_treatment	-999	-999	Chemotherapy;Immunotherapy;Stem Cell Transplant						9797b067-7ad3-5b6f-8cad-700e06b1a0fc	0d507768-b1d3-506e-a220-aa4a61b75127
+treatment	PBBZTT_treatment	-999	-999	Surgical Procedure						76b9be9f-c067-5a21-9c43-269c1cc35fd8	a0a2a706-d043-5d43-b64e-639c68e37e78
+treatment	PBBZUJ_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						1335d4a6-129d-5211-b752-1b1e6c6f72fa	5faa98cc-eaa3-5329-9b38-07e45e9d2cee
+treatment	PBBZUL_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						621c48d8-e0b3-579b-9641-3eb3cd14a04f	66ec86e2-a8c6-505d-b519-948cda9744b6
+treatment	PBBZVD_treatment	-999	-999	Radiation Therapy						7f2d8caa-ab66-5c32-b0f2-cf36d46de047	d0497e68-8398-58c4-a75b-beb855a154c3
+treatment	PBBZWS_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure	Carboplatin (CBDCA);Paclitaxel (Taxol)					1b5d2d3d-822b-52b7-979a-6ed9d193bd8d	cd8cb8e4-ad6b-5db0-8376-60dc1e01763e
+treatment	PBBZWX_treatment	-999	-999	Chemotherapy;Immunotherapy						1c800892-9f4f-5f26-80c5-9595901fca50	ec0fb028-1e9e-50de-8e02-e659919a6f4f
+treatment	PBBZXS_treatment	-999	-999	Chemotherapy;Immunotherapy						313d7156-1150-50f8-bad5-12a81fa90392	1d794296-c1c7-5009-9c04-1467f1259c3e
+treatment	PBBZXT_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						68fea3b7-31c6-5e44-96a7-3fe06380594c	7232a5e1-0bc1-5da0-b7ee-e640522c410d
+treatment	PBBZYB_treatment	-999	-999	Surgical Procedure						c441f3af-433c-50c5-ab1f-699e4e33d98e	d198a647-ce99-58a8-85ad-45ca92b9d00e
+treatment	PBBZYH_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						b0d056f3-0de6-5a16-aa0e-cee8341c59b8	cd80ea68-d1b2-5bdf-bb38-f3689224fb9f
+treatment	PBBZZA_treatment	-999	-999	Radiation Therapy;Surgical Procedure						f13ce68a-b972-59a4-8595-fd7ec833f463	2fefb4f5-34c8-5023-8d9b-1f9b6ea3218d
+treatment	PBBZZV_treatment	-999	-999	Chemotherapy;Immunotherapy						336056e2-cea0-51cd-8099-700b52e43c3d	9885caa5-46d1-5440-9197-be700c4eab11
+treatment	PBCAAI_treatment	-999	-999	Surgical Procedure						9c58477e-fe6e-5395-82cf-650eca3259d7	44ddecd0-516a-5a12-89bf-40c224fddc45
+treatment	PBCABJ_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						e15fa8d5-e819-55a9-9abb-d2ed84755722	982e655c-6a05-53f9-85ce-f323d1b9105c
+treatment	PBCABM_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						f3464231-e3fb-5665-ae23-0a4d46480ced	2de871a9-1ee1-5015-a014-23c30a8d392a
+treatment	PBCABT_treatment	-999	-999	Surgical Procedure						d243054e-58aa-5565-8297-befc3f4d1a9d	447a5233-6538-58f2-8fe1-aea2f2d0bcd8
+treatment	PBCACC_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure	Other					46057c7e-5d40-5c98-861f-ac2bea14bdd9	58872d28-c22d-53d1-9c35-a95cbb373dc6
+treatment	PBCACG_treatment	-999	-999	Chemotherapy;Immunotherapy	Sorafenib (Nexavar)					aee944b8-d9fc-5e24-8759-93b34d47ce7d	c21d5766-dec3-5af3-9ec5-e3411f583e56
+treatment	PBCACJ_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Stem Cell Transplant						3a38a11d-255f-5663-9953-0078acca0406	9fb64d2c-0643-5c11-beba-779b76548c8d
+treatment	PBCADA_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure	Other;Sunitinib (Sutent)					7a731a25-ce25-57b9-8176-1db0ac7e4799	d91a4042-33d8-52a8-b7b8-1ddc2ddbffb4
+treatment	PBCADR_treatment	-999	-999	Surgical Procedure						7d20077b-2070-5cbf-9090-40b07e8c676b	ede82a44-6c41-5a1b-aee3-32413a27d775
+treatment	PBCADX_treatment	-999	-999	Surgical Procedure						797e14bb-0ee1-5da5-bbc9-c8b175496341	722546e8-8032-59da-8657-1301fae2a6cb
+treatment	PBCAEC_treatment	-999	-999	Surgical Procedure						72ece9d0-3284-501b-aa09-dc293fb4f1b5	5c31f35e-ca2e-5fa6-8067-c2c3cca137ff
+treatment	PBCAEH_treatment	-999	-999	Other;Surgical Procedure						f7f6e4d3-8890-506e-ac24-b66431479f23	b60f1d15-10d1-5f52-9bfa-9cfce2c26246
+treatment	PBCAER_treatment	-999	-999	Chemotherapy;Immunotherapy						2a238c56-563f-5fce-8643-402d11e53f75	3aef4438-8218-57f1-9750-61cbc5c8f2be
+treatment	PBCAET_treatment	-999	-999	Surgical Procedure						2b4b4edd-1970-5b12-af3c-a8735854096a	b102cdb4-48c8-5e27-abfa-6a9f39039fd2
+treatment	PBCAFM_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						86c2031b-dca3-5e3c-8194-52c430e1a2e7	1a2627ff-3bf5-5f28-99b1-89ad17af3dd4
+treatment	PBCAFP_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						70998681-fb8f-5a2f-9f2b-2a09a67c139a	b84579f7-49fa-5a41-8afc-8354c4dcf695
+treatment	PBCAFX_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure	Vinblastine (Velban, VLB)					f409bef5-532d-59f5-8b4b-8d07a752d50d	ef650285-bb7f-542c-b97e-960f457add06
+treatment	PBCAGD_treatment	-999	-999	Surgical Procedure						a7e83ae2-6bee-53cd-a49a-2ce374bd7c38	61a4abc4-25b7-55ef-9658-4948ba1b8711
+treatment	PBCAGI_treatment	-999	-999	Surgical Procedure						1e7f4b6d-0650-5f61-8bf5-d47e489f0d6f	e6ae09bf-73f3-5818-a3bb-bc57527396e7
+treatment	PBCAGL_treatment	-999	-999	Radiation Therapy						f878287e-8e37-5cd7-9384-881a81329109	15aecd48-68ad-526f-a7b9-3b8e4ca86c47
+treatment	PBCAGR_treatment	-999	-999	Radiation Therapy;Surgical Procedure						014740e6-eb1c-5f6a-ae53-25bbd66b2e93	92667c49-c04d-5d9d-8326-a78e5cbaf031
+treatment	PBCAHE_treatment	-999	-999	Surgical Procedure						2e5465d4-64f1-59af-81f0-ee6c4d48b3bf	9a9e5ef3-4f02-5da8-86c0-41074c5d2eb7
+treatment	PBCAIZ_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						ec41cc1a-336c-5440-a8ec-ed7299780874	31fc79a1-d5aa-564a-bdd5-796680909836
+treatment	PBCAKH_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						f94563c8-7341-5603-b32c-709cd833c2a6	8925acc3-1ee9-5736-9db0-9fb726a8fd99
+treatment	PBCAKM_treatment	-999	-999	Surgical Procedure						02d11a89-8e58-5b18-bdc5-f3af8dcefa24	808ba6ef-6884-5b33-9e52-4d9e476cd6e2
+treatment	PBCAKS_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						05f3743b-826b-5a42-a363-cc554551982e	cd89b839-2aa1-570f-8d21-cbbcea8b8054
+treatment	PBCALM_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						ec3ca6c6-5fbf-551f-a2eb-ce1f230ff808	a581a8e6-51bb-5feb-ba85-0fcce113f59b
+treatment	PBCALN_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						e290c6c9-763e-5714-9cb8-48f20133aae2	df060088-30f3-5df6-a794-6a887d4eaed3
+treatment	PBCAMB_treatment	-999	-999	Chemotherapy;Immunotherapy						24b975a0-5ab9-5bb1-b5aa-c1d53e745e6d	5ad3b77a-abaa-5a95-a6d1-0fbcc372702d
+treatment	PBCAMC_treatment	-999	-999	Surgical Procedure						d872b2ef-c795-578f-96e3-76b880c9856f	31d1a6eb-a40a-5997-ab51-21e5a77b83cc
+treatment	PBCAMH_treatment	-999	-999	Other;Surgical Procedure						59e39387-4980-5f5e-977e-1e340b42bea5	8ed4f520-e5df-56cf-8fa7-1878766fe8b4
+treatment	PBCANC_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						a9ca60ac-63e4-5172-b256-b7f27d916735	692e3e22-d5b3-5f71-bab3-d200e6aa8ea4
+treatment	PBCANF_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy	Bevacizumab (Avastin);Irinotecan (CPT-11, Camptosar);Other;Temozolomide (TMZ, Temodar)					941e312e-d572-5a24-959b-fee64dfdbd1f	5121c869-1620-5e16-9c5a-f5d79479a434
+treatment	PBCAPC_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure	Bevacizumab (Avastin);Carboplatin (CBDCA);Irinotecan (CPT-11, Camptosar);Vincristine (Oncovin, VCR)					02073e0c-5866-5696-9cfd-4bf892faadd4	a01db81f-5e91-50df-9dad-1243b5a6c67e
+treatment	PBCARH_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						64880cf2-d548-54f7-82f5-d279cd698d8b	1fe06d67-deac-5bfa-8284-45568c491055
+treatment	PBCARU_treatment	-999	-999	Radiation Therapy;Surgical Procedure						90be0bab-d631-5894-a46f-13601d03ba28	1e42fed4-a96e-58aa-b65d-11816491320d
+treatment	PBCASH_treatment	-999	-999	Surgical Procedure						4b0110ec-85ff-5b35-a729-4f28b356ddbe	8c2edf08-4ae3-55b5-8335-fd4e2526b7d3
+treatment	PBCASM_treatment	-999	-999	Radiation Therapy;Surgical Procedure						282d53dd-a922-56be-b1cb-2262a2c64490	2a502aef-2ac0-54d6-9ac7-6b54a9c32afb
+treatment	PBCASS_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						ebfa0447-7816-5a05-bfc6-dc5819116636	ecb095de-ce9f-56c9-aa32-f65b06c1a269
+treatment	PBCAST_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						baa48df7-d145-5858-b834-efeb1bddd3ea	bc51605d-c9b1-5ba7-8d25-21971c7fa279
+treatment	PBCATH_treatment	-999	-999	Surgical Procedure						9533eb0a-f9f5-58d8-a27a-149fe3b95a3c	b5e31866-00b0-57dd-a615-9444aed5235a
+treatment	PBCATZ_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						f52dff72-f051-53a8-928e-42bb515d8a71	4b84782b-ae6c-5056-8150-f986cdbf5cdb
+treatment	PBCAUA_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						112cacc3-ee03-546f-aca9-925481821f72	570333af-88b2-5d09-82d4-076eb91034b4
+treatment	PBCAUI_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						709952c8-c723-59b7-b28c-2ff3acbd6bff	e3033a40-5a34-5b69-9eb6-e8107a048d2c
+treatment	PBCAUK_treatment	-999	-999	Chemotherapy;Immunotherapy						f446c6b3-af47-54b3-b05f-4bf36293d3f6	2d9d48f8-07bc-5e07-8d7e-e49d165113c0
+treatment	PBCAWW_treatment	-999	-999	Surgical Procedure						2fa7c197-f178-5855-9734-4eb5ae2b36f0	fad5817a-d955-5948-b779-ce894683ecce
+treatment	PBCAXG_treatment	-999	-999	Surgical Procedure						ad0909fe-8141-57f8-b192-0ef6ce20a6a2	7eddd6ef-283d-5cc2-b90b-24af61a4fbcb
+treatment	PBCAXI_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						74084883-56b8-5682-9d5c-df31df1ec82f	8309b70a-93bf-5b86-a669-2a1263135c3a
+treatment	PBCAXJ_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						54cc5423-a7d6-5734-aaf6-4508f5ad3b45	1788fbd2-a57a-5e64-81a5-4aac0d44c347
+treatment	PBCAXL_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						3e180e95-e10e-5d34-b10e-f086e58429b7	c6a7f5ea-4a00-5c0d-8776-dbabdd066dec
+treatment	PBCAXU_treatment	-999	-999	Surgical Procedure						9cbdc29e-0bbc-55da-9856-42e4853fe355	5d4ab9ec-e7a5-5f55-be4f-df0a10c9b4ce
+treatment	PBCAYB_treatment	-999	-999	Surgical Procedure						1342ad84-a6e8-5b04-82ac-03ac55f8209e	9b239824-50f9-5a65-94d0-4af8b7aee743
+treatment	PBCAYN_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						7b3d17e8-c425-5896-a388-34c9ddda9437	580b8851-93b8-5082-abff-1929e8be6f11
+treatment	PBCAZF_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure	Other					19f089ee-9100-52d1-9cb0-83f2bcdc0a66	f297241b-3615-567c-9f3d-97349cc17ff4
+treatment	PBCAZG_treatment	-999	-999	Surgical Procedure						f4f7a728-816f-5c7c-9a10-629a2aa41ff2	0cf8c137-31fb-5ab1-9203-fe5835ee9028
+treatment	PBCAZM_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						4c8c7904-32b7-5845-b7fc-e33577696cc9	5e56beb1-c72f-5a10-a632-2d89748e1462
+treatment	PBCBAH_treatment	-999	-999	Surgical Procedure						413b2226-a765-58ba-a9cc-9cba86477751	42354c32-5d1e-534a-8757-62dbdbb36001
+treatment	PBCBBE_treatment	-999	-999	Surgical Procedure						5cc55e47-47db-5663-a320-f5726430ea3d	e7f6d03a-b2c3-5c88-aa65-23f51c5eb094
+treatment	PBCBBP_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure	Cisplatin (Platinol, CDDP)					cfcd7a63-7841-580c-b838-dce18fa102a9	5b565d53-1718-52d3-9fcb-a6d64ef9b637
+treatment	PBCBCB_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure	Carboplatin (CBDCA);Etoposide (VePesid, VP-16);Ifosfamide (IFOS, IFEX)					47f05c3b-e853-5beb-b387-85664b791369	5b1a0bfe-ce6c-5133-a98a-2605db3b4841
+treatment	PBCBCD_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure	Cisplatin (Platinol, CDDP);Lomustine (CeeNU, CCNU);Vincristine (Oncovin, VCR)					581ad7f6-f2a8-58c6-99fb-8a9d03bfe797	1555b354-4959-510d-8303-19a9b582579a
+treatment	PBCBCH_treatment	-999	-999	Surgical Procedure						573c3f93-fb5c-56ec-a9f0-3fb8a4b0dbe1	9b968c8d-bdc0-5f47-865f-efd5cf3f4557
+treatment	PBCBCI_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						eb4f8dbf-6013-5990-89dd-924d8354d3a0	5f976e37-a43e-52c2-a990-60d630255d55
+treatment	PBCBCK_treatment	-999	-999	Chemotherapy;Immunotherapy						6dde41a6-f28f-5b61-8d2b-ad951e62ba02	bab9b9cc-58a3-5bce-a5c8-26defe425c86
+treatment	PBCBDU_treatment	-999	-999	Surgical Procedure						29181a8e-7898-5a55-9ba3-d15562b5efc3	6e08b70a-8507-5e6a-8822-be4f7bdcd277
+treatment	PBCBDZ_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						d2622419-5f23-58bb-9fee-5c24ba9addd0	19f12ba3-22f1-5b80-b7e2-ed9dc3cb20b5
+treatment	PBCBEA_treatment	-999	-999	Chemotherapy;Immunotherapy						112973b0-a8b0-504a-9aa3-d5f89d21a4a7	410268c6-6be2-598d-badc-833c6aacff72
+treatment	PBCBEB_treatment	-999	-999	Chemotherapy;Immunotherapy						13759208-954b-54d6-9bb1-59e70bc38ab8	eac183ee-0de1-51e2-991e-37a7cbd396bf
+treatment	PBCBED_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						3f9fc9df-3eb9-5148-84f5-ca00ed1cc7b4	0f65a360-f669-5472-b7d3-aa3ec587d56f
+treatment	PBCBFR_treatment	-999	-999	Surgical Procedure						5a26a3cd-1fef-5541-8291-8000291a0c0d	b537b1dc-360f-5e32-8043-f066ff34cdf8
+treatment	PBCBFT_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						2d62b4bc-34a1-5540-85fb-41e9e92466a9	983b4b16-8100-5bd7-9dd5-f299f2c0716c
+treatment	PBCBGM_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						1c93e924-f731-5de5-972d-75058b208a68	90d9bd38-81fc-5283-818c-0d5769fc646c
+treatment	PBCBGY_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure	Vincristine (Oncovin, VCR)					efd0925a-eda9-5787-a8a4-b8c5f8a5cace	1fb63079-2160-5c8e-82e3-1d8f1e6a883f
+treatment	PBCBHV_treatment	-999	-999	Surgical Procedure						452a5802-699c-5d01-ade0-4fac8258ab7b	233dabb8-793c-5ad3-aad4-98a2cd0e17e4
+treatment	PBCBIM_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						4fe33e31-89ef-5aac-b669-52f6eac84a3e	6e70e370-b8e3-5500-bee8-1880a779b60f
+treatment	PBCBIR_treatment	-999	-999	Surgical Procedure						9aa6d284-ddb0-5bf7-82d2-b5d8118d5f42	027b280b-c5ab-5c04-bd50-db58cff08505
+treatment	PBCBKG_treatment	-999	-999	Chemotherapy;Immunotherapy						d0d2c538-73d0-5331-839c-5eb2bbcfe73d	bfbbc0a5-3c05-5251-afe0-85e30449ae2d
+treatment	PBCBKR_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						2b6e23ba-d9e6-54fd-a1dc-1a7f9d10d98f	5f9b0126-c1c4-5b7f-abbe-e559da31a85a
+treatment	PBCBMJ_treatment	-999	-999	Chemotherapy;Immunotherapy;Stem Cell Transplant;Surgical Procedure						62a83861-95af-54a0-8053-2bf248f215cb	dd3e12b2-ef3d-549d-bc4a-c21014fb5592
+treatment	PBCBTY_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Stem Cell Transplant;Surgical Procedure						92354a94-d46e-5829-9c41-c665b675edec	ef8aed12-79d8-55d0-84c7-41d509d152e0
+treatment	PBCBUS_treatment	-999	-999	Radiation Therapy;Surgical Procedure						fd1d03a3-8c4d-51a2-9554-9b3803a9011e	7f1f3e2b-f8e4-5d73-aa23-655d056abff7
+treatment	PBCBUW_treatment	-999	-999	Chemotherapy;Immunotherapy						e9d4a948-c39d-552c-9ee2-978195d7c51c	8e0b1680-980e-5584-a2bc-1561dfbda07c
+treatment	PBCCBE_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						73885698-2343-5755-b88c-96b51cd85c20	859574d6-f2a1-57a2-bcb3-26882e6cd09c
+treatment	PBCCEA_treatment	-999	-999	Surgical Procedure						f54827fa-fc44-591b-b495-d5b687786ec3	8ac91b31-2c65-54d0-9b3c-6d8180b8794f
+treatment	PBCCEB_treatment	-999	-999	Surgical Procedure						48b21a21-52ae-5824-8f32-a9dfafc96a9f	6431d37a-fae0-552d-8889-33a4280a6490
+treatment	PBCCLC_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						1e9665ce-d94b-53bc-9e72-e8f4ac381524	0d0c6339-cacf-55f4-bc87-76d750456899
+treatment	PBCCLP_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						bfc8c3b8-fbc7-5eba-8bd9-17aa124441a4	90d58958-07b7-5187-b4fa-006023f27ca4
+treatment	PBCDJT_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						8fe44ca8-1057-504a-b79a-f504f39f521d	dab870fc-6218-547d-902f-49e3fba25899
+treatment	PBCDLX_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						4ab1213f-55ed-5a78-a3e6-d0f3421b85a0	935ecbb6-681e-592d-bbfa-e18bd6396e02
+treatment	PBCDVZ_treatment	-999	-999	Chemotherapy;Immunotherapy	Cisplatin (Platinol, CDDP);Cyclophosphamide (Cytoxan, CTX);Etoposide (VePesid, VP-16);Methotrexate (MTX);Vincristine (Oncovin, VCR)					40a6fb7a-b906-5a2a-9d50-fecc936c22db	3d489636-019e-5e12-8db4-25c97839a1ef
+treatment	PBCEBH_treatment	-999	-999	Chemotherapy;Immunotherapy	Cisplatin (Platinol, CDDP);Doxorubicin (Adriamycin, ADR);Etoposide (VePesid, VP-16);Other					c64c3024-b38e-542a-85f9-68fc6774fead	449dfa90-87b2-58ed-aff7-ef6c727dc931
+treatment	PBCEIH_treatment	-999	-999	Radiation Therapy;Surgical Procedure						a0b3a166-20b8-567d-8218-86cc8fcf30e1	546a9ce4-8d52-5e09-b465-f06702f018fb
+treatment	PBCEPC_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						35b17513-33ef-5685-9b23-5d62e4fffc9f	6033c7a1-cfe6-5ced-8b6a-790ae66971f0
+treatment	PBCEWX_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						50b39a3e-7702-5767-953a-b97bf8691774	d0ef795b-03de-5557-ba7b-1d9c944f4506
+treatment	PBCFPI_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						1a87636f-fe8e-57ef-abf8-0faa281403b1	ef401aa6-eddd-5123-9688-06fde5fe0a40
+treatment	PBCFTI_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						989b8a5b-455e-5e3a-afc0-b1cdf455fbfc	ef5944d9-17f2-5ba9-baf6-b269da3d1642
+treatment	PBCFXX_treatment	-999	-999	Chemotherapy;Immunotherapy						dde7a6c4-329f-5b99-ab73-f837b52e0566	24122dcc-c81b-55cf-981c-46418df13364
+treatment	PBCFYG_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						a0bc11d3-1731-5995-a431-053283c10623	ac6bd3bf-6b13-5b29-9538-0dfcaa457905
+treatment	PBCGHM_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						6d7b0320-08b3-51e0-bc85-24c7e7ec9802	0eac596c-88de-59f8-8220-6bf58b3345bb
+treatment	PBCHNY_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						a111abd1-189a-523f-beb8-10ab2e987517	f802d524-4d67-5bd2-a513-0a80abc6428a
+treatment	PBCIEN_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						96aa44a2-f0fc-5f8f-aa60-b2f5dc264625	04c711ad-f449-5821-a5bf-d7ef9c1794ae
+treatment	PBCIVE_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy;Surgical Procedure						3ba8f53e-9203-58f9-a6c2-083ce8429fcc	4e8b1898-f84d-5cd1-a88e-56593e569a17
+treatment	PBCJAZ_treatment	-999	-999	Radiation Therapy						7065a9b3-a3df-58c7-a068-ee1c4c934f37	8811255b-fb85-5b4d-89c6-4a70dc9f6427
+treatment	PBCJEJ_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy	Doxorubicin (Adriamycin, ADR);Ifosfamide (IFOS, IFEX)					b2c18c84-f7f8-5a35-aafe-f84889bd7b8f	1430bd93-478f-5e06-a46f-e8e0c5565600
+treatment	PBCJXC_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy						188a8c42-dfcb-51ae-b231-0f142336abc0	3a6c857b-f623-55b5-9615-7067d568e93f
+treatment	PBCKZM_treatment	-999	-999	Surgical Procedure						f00e2a01-bb69-5237-9fa6-6a2338451b22	5fa11834-935b-5974-9426-1abc0a67588d
+treatment	PBCMET_treatment	-999	-999	Chemotherapy;Immunotherapy						fae7a293-7b74-5617-9931-f11ed0ef55ca	cd73271c-13ec-5fc2-8aa5-404ccd2060b4
+treatment	PBCMJN_treatment	-999	-999	Chemotherapy;Immunotherapy;Surgical Procedure						0772bbd5-d25e-5ce5-bbb2-dd35e3835d42	e05db5c2-b605-561c-8ee7-2e5dfcba4154
+treatment	PBCPGJ_treatment	-999	-999	Chemotherapy;Immunotherapy;Radiation Therapy	Doxorubicin (Adriamycin, ADR);Ifosfamide (IFOS, IFEX)					97afdd26-87f4-57fe-b5c7-a1c4de01f4a6	04a4d045-f6ad-5836-bd04-a88a48317640
+treatment	PBCRDZ_treatment	-999	-999	Chemotherapy;Immunotherapy	Carboplatin (CBDCA)					e6515055-d021-52a7-9286-e13c605885a0	6d07a75f-2ad6-5c10-ab0c-0f071ab6589c

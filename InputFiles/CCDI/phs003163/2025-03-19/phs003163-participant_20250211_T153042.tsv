@@ -1,0 +1,37 @@
+type	participant_id	race	sex_at_birth	crdc_id	id	study.id
+participant	NP019x_RH07-3x	White	Female		1239141c-e1ff-56ab-a428-e33b0e8d60c6	b7f629a6-8d15-5bb5-a4d7-e2c165ebae24
+participant	NP039x	Black or African American	Female		1861e1a1-01a6-5843-b73c-0d73acc0c4e7	b7f629a6-8d15-5bb5-a4d7-e2c165ebae24
+participant	YDLRx	Asian	Male		218a9bf3-a0c9-52a4-a59f-53b1191ab694	b7f629a6-8d15-5bb5-a4d7-e2c165ebae24
+participant	YDLFx	Asian	Male		2258acb2-7947-5a4b-a6c1-5d1d38c26e77	b7f629a6-8d15-5bb5-a4d7-e2c165ebae24
+participant	NP049x	Not Reported	Female		24d43e4c-31d0-5a12-986c-cf561db0c20e	b7f629a6-8d15-5bb5-a4d7-e2c165ebae24
+participant	JG-Rx	Hispanic or Latino;White	Female		2d77ed82-77b8-5cb7-b25f-b4b576729eab	b7f629a6-8d15-5bb5-a4d7-e2c165ebae24
+participant	NP053x	White	Male		2e63925c-778c-5ef9-ab47-ed66f0f213f5	b7f629a6-8d15-5bb5-a4d7-e2c165ebae24
+participant	Brooke-PDX	White	Female		309d9b37-4cb1-5f8b-aeb2-f3bf208d2c8f	b7f629a6-8d15-5bb5-a4d7-e2c165ebae24
+participant	JG-Fx	Hispanic or Latino;White	Female		33bac207-dab6-5e50-ac8a-80978e9232e4	b7f629a6-8d15-5bb5-a4d7-e2c165ebae24
+participant	NP018x_RH07-2x	White	Female		3992b490-888c-5877-8ddb-f83f9e1ca3aa	b7f629a6-8d15-5bb5-a4d7-e2c165ebae24
+participant	NP040x	Black or African American	Female		3d58efd8-d023-568d-9faf-ae3feccae347	b7f629a6-8d15-5bb5-a4d7-e2c165ebae24
+participant	Adam-Rx_ALK-R-PDX	Not Reported	Male		47b66806-4ee3-53ec-98ef-d8b2a4e6429b	b7f629a6-8d15-5bb5-a4d7-e2c165ebae24
+participant	Obelix-Rx	White	Male		4b679924-e1f6-5e8b-9b3a-059ac41d649f	b7f629a6-8d15-5bb5-a4d7-e2c165ebae24
+participant	NP030x	Black or African American	Male		5029ec7b-0354-562c-956c-f84bb02d43a6	b7f629a6-8d15-5bb5-a4d7-e2c165ebae24
+participant	KWK-6062x	White	Male		58b61be1-608d-5787-ae93-cc451ff12df8	b7f629a6-8d15-5bb5-a4d7-e2c165ebae24
+participant	COG-N-470x	Not Reported	Female		5d905fcc-a028-56ad-acac-35d22694f5c2	b7f629a6-8d15-5bb5-a4d7-e2c165ebae24
+participant	NP016x	White	Male		6609c2d5-4060-54dc-86bc-398fef7ed914	b7f629a6-8d15-5bb5-a4d7-e2c165ebae24
+participant	NP015x	White	Male		699e3264-bfd2-5173-a9c3-97c2e75af915	b7f629a6-8d15-5bb5-a4d7-e2c165ebae24
+participant	NP036x	Unknown	Male		6b46e7a4-eb5b-5a9d-a825-5e459015da7f	b7f629a6-8d15-5bb5-a4d7-e2c165ebae24
+participant	Obelix-Fx	White	Male		70446412-234d-5466-96ba-d443bf1ff3a7	b7f629a6-8d15-5bb5-a4d7-e2c165ebae24
+participant	NP031x	Black or African American	Male		7bea5175-7020-5b92-860d-66840432a4fc	b7f629a6-8d15-5bb5-a4d7-e2c165ebae24
+participant	NP017x_RH07-1x	White	Female		8813be6d-5abd-57f8-a732-c735c9676148	b7f629a6-8d15-5bb5-a4d7-e2c165ebae24
+participant	NP037x	White	Male		8de92ffb-1d65-59f9-9e68-455f28e6aa6d	b7f629a6-8d15-5bb5-a4d7-e2c165ebae24
+participant	NP043x	Black or African American	Male		96a4c83f-ad8f-57e6-89f2-5ec19dd6836f	b7f629a6-8d15-5bb5-a4d7-e2c165ebae24
+participant	NP020x_RH07-4x	White	Female		9d4bc309-b507-5105-a20c-0b8eccd12f2f	b7f629a6-8d15-5bb5-a4d7-e2c165ebae24
+participant	COG-N-573x	Not Reported	Male		bcac8edd-eee9-582e-98f4-53300d8c60d1	b7f629a6-8d15-5bb5-a4d7-e2c165ebae24
+participant	NP012x	Black or African American	Female		c155e2d8-f12b-5ca4-b921-62c39007b9af	b7f629a6-8d15-5bb5-a4d7-e2c165ebae24
+participant	LS_Luke-PDX	White	Male		cc88454a-55b7-54ec-ba57-25897f2b0852	b7f629a6-8d15-5bb5-a4d7-e2c165ebae24
+participant	Adam-Lx_ALK-L-PDX	Not Reported	Male		d4c2dbb0-9e05-59de-9dd5-ba52102b329c	b7f629a6-8d15-5bb5-a4d7-e2c165ebae24
+participant	Adam-Fx_ALK-F-PDX	Not Reported	Male		d5c2bed7-847f-5d80-93cb-29ab918c8ff7	b7f629a6-8d15-5bb5-a4d7-e2c165ebae24
+participant	NP045x	White	Male		e580d5be-8f59-5458-84fa-21db74ab0255	b7f629a6-8d15-5bb5-a4d7-e2c165ebae24
+participant	HG-Rx	White	Female		ecebbb74-3a40-5ab4-ab3b-647c31187c48	b7f629a6-8d15-5bb5-a4d7-e2c165ebae24
+participant	Obelix-2x	White	Male		ef4fbeba-ac3c-5fc1-a079-e273c5b12660	b7f629a6-8d15-5bb5-a4d7-e2c165ebae24
+participant	N0619x	Not Reported	Female		fa5d2643-c4c8-5221-a4d4-a65014aa10ff	b7f629a6-8d15-5bb5-a4d7-e2c165ebae24
+participant	NP021x_RH07-5x	White	Female		fe910bbf-f533-5033-b4b7-5c1949003069	b7f629a6-8d15-5bb5-a4d7-e2c165ebae24
+participant	HG-Lx	White	Female		feaf46aa-141d-56da-8441-e22b1471f96a	b7f629a6-8d15-5bb5-a4d7-e2c165ebae24

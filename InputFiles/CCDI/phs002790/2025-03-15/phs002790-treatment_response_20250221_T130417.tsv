@@ -1,0 +1,1108 @@
+type	treatment_response_id	response	age_at_response	response_category	response_system	id	participant.id
+treatment_response	PANLMU_treatment_response	Complete Remission	-999	Not Reported	Not Reported	6c30136c-53f1-51f7-8fa2-6afb375ffbfb	c55a48fa-5c82-5bfb-9563-2f7a0353ea20
+treatment_response	PARGFV_treatment_response	Unknown	-999	Not Reported	Not Reported	04157be1-bc21-5a02-9576-a3cb33cc21fd	a79b020a-0ab9-5078-bae3-81dd044d7b70
+treatment_response	PBBHCR_treatment_response	Unknown	-999	Not Reported	Not Reported	e4284e78-c793-5a4e-ae08-db20904d600f	070b7a82-837c-5830-bedc-40e20f7f1e1f
+treatment_response	PBBHFF_treatment_response	Unknown	-999	Not Reported	Not Reported	6f3ffd3d-a5ae-53a4-ada3-24c834bfefd1	a0074bbe-5148-5a11-9657-4f9f6c6d61b9
+treatment_response	PBBHGB_treatment_response	Unknown	-999	Not Reported	Not Reported	b58fadc2-2c89-5b17-a22b-a825b31b6f07	ce45921a-b94c-5f70-bd8d-a82ac3afd131
+treatment_response	PBBHGD_treatment_response	Complete Remission	-999	Not Reported	Not Reported	85cc0534-0e51-5032-841e-be4e9d6b406d	fcbde284-de58-5b52-ab74-c5129e0ba743
+treatment_response	PBBHGT_treatment_response	Complete Remission	-999	Not Reported	Not Reported	86ec8d5e-a3d5-58c7-840b-a171e4c148f4	eb32e789-3a96-5b3d-9491-6bdff2a5ee7c
+treatment_response	PBBHIL_treatment_response	Unknown	-999	Not Reported	Not Reported	6a4609f3-09bb-5129-aadb-0ffba537e674	29350bf8-6eca-5b64-9661-93a914642f1f
+treatment_response	PBBHMA_treatment_response	Unknown	-999	Not Reported	Not Reported	b805119c-b947-5521-b42b-2e0125146bed	56c90160-2f70-5196-acdb-4b44a88f8cea
+treatment_response	PBBHMI_treatment_response	Complete Remission	-999	Not Reported	Not Reported	108f2714-80f3-58db-b503-1e6341a0f640	d0ea5c19-9c92-5722-b633-68d7ed650393
+treatment_response	PBBHRU_treatment_response	Complete Remission	-999	Not Reported	Not Reported	7dce3d90-a7e4-56d1-ba78-4cbcbd320f22	fe20ef02-976b-5f96-98be-3d13db17d35a
+treatment_response	PBBHTY_treatment_response	Unknown	-999	Not Reported	Not Reported	901cdf64-d8a9-5ab5-b5e9-67959bf73cdf	2b144f76-c533-5323-9f72-e5b28d49eb48
+treatment_response	PBBHUB_treatment_response	Unknown	-999	Not Reported	Not Reported	e3ba4a0e-9203-5ce1-b980-d168b2ec245b	9deec15f-fe96-574f-b405-bfd30118c519
+treatment_response	PBBHWP_treatment_response	Unknown	-999	Not Reported	Not Reported	9aa3d43e-a071-547c-bdf0-25d2d9472bcc	c2849672-6b47-53a0-8ea4-d57da6089224
+treatment_response	PBBHWY_treatment_response	Unknown	-999	Not Reported	Not Reported	e15df951-6342-5dcc-9f02-39099d5e83d0	488f8189-3113-5886-b531-4ed90897b5bb
+treatment_response	PBBHXE_treatment_response	Unknown	-999	Not Reported	Not Reported	fc72539e-b811-5687-9159-d758cf2622dd	435cce5a-a78a-5d2b-8fca-4145ea74575e
+treatment_response	PBBHXT_treatment_response	Complete Remission	-999	Not Reported	Not Reported	d33ea0b3-e4a0-5e9b-89bc-96c0ba380e87	e503c263-13c5-5b16-97e0-a6b4183f7db3
+treatment_response	PBBHYH_treatment_response	Complete Remission	-999	Not Reported	Not Reported	45e6af26-207d-5e05-ab24-2b92ca20e4b1	1f6f444f-9486-5053-85f4-266d6bdd06f8
+treatment_response	PBBHYV_treatment_response	Unknown	-999	Not Reported	Not Reported	d8b3b660-ca3a-509a-91fc-ee68d30d0351	ec41c76c-55df-5569-8381-430daf3e3126
+treatment_response	PBBHZD_treatment_response	Unknown	-999	Not Reported	Not Reported	32163559-f87f-51e0-a369-8a6856146909	710ffc97-4af6-5d02-b600-cbfc083ff17c
+treatment_response	PBBIBE_treatment_response	Complete Remission	-999	Not Reported	Not Reported	652f4313-0592-57b0-97d2-f1b1e10871e8	0815a2ac-abe3-5ba4-979d-58fb52cf0086
+treatment_response	PBBIBH_treatment_response	Complete Remission	-999	Not Reported	Not Reported	e32bd669-2165-59b9-b110-1de45151ce39	6156ac31-be57-5b90-ba2a-99cc072b8e45
+treatment_response	PBBIBP_treatment_response	Unknown	-999	Not Reported	Not Reported	1b0ae981-16c3-566e-9c04-472d8752450d	687e69b2-9cf2-57df-b033-1afc484914de
+treatment_response	PBBIBT_treatment_response	Complete Remission	-999	Not Reported	Not Reported	215f5cef-ce17-5f14-b4f8-30e78778f51c	e1e5ce07-c7de-50b3-ad6e-43e3bcfa01e1
+treatment_response	PBBICF_treatment_response	Complete Remission	-999	Not Reported	Not Reported	a2d32ba8-e93d-51f5-bbb3-5537692be8f9	e85194aa-17a7-53e4-af7d-cf46d649f3e0
+treatment_response	PBBICS_treatment_response	Unknown	-999	Not Reported	Not Reported	f0e8f0e9-7688-5f13-bf24-39e32bd5bc84	883167d6-a387-5056-b128-43682596ee80
+treatment_response	PBBIDF_treatment_response	Unknown	-999	Not Reported	Not Reported	337c8f31-436c-5395-9223-91bff9dcc345	30ed14f5-bd16-56ce-ae81-b4c3e88566b3
+treatment_response	PBBIDG_treatment_response	Complete Remission	-999	Not Reported	Not Reported	44dbb522-b594-5de3-b3c3-6bb37387b0ff	3e5ff359-33be-5c5d-aaec-11f9d4a9c4f7
+treatment_response	PBBIDY_treatment_response	Complete Remission	-999	Not Reported	Not Reported	7b109981-401b-5bee-a094-c21b396bf1a5	265185f8-0f17-5665-b3d0-ee3b3ef70b8f
+treatment_response	PBBIDZ_treatment_response	Unknown	-999	Not Reported	Not Reported	b220cc45-9664-5758-b611-e7231bea635c	c51b2338-9ae5-5fdf-84ea-68aea59c4236
+treatment_response	PBBIEL_treatment_response	Complete Remission	-999	Not Reported	Not Reported	0985d3ed-6b91-58a1-b4eb-7f3abb83a913	e4867c91-d79e-58c1-879c-9938daccd0a7
+treatment_response	PBBIET_treatment_response	Unknown	-999	Not Reported	Not Reported	dec77e3a-ca9f-529d-9861-d6f43666fe67	aa8bf132-f914-579d-a451-fc666c93564e
+treatment_response	PBBIGN_treatment_response	Unknown	-999	Not Reported	Not Reported	7b5b196c-2a65-529f-8d32-4fbb14a1d652	28d9a85e-0f03-5735-9aec-9bfd7f694231
+treatment_response	PBBIHA_treatment_response	Complete Remission	-999	Not Reported	Not Reported	4be140e1-a396-5073-873c-061ffa4ae03b	94721454-26cd-528b-9936-a4c2a55293f6
+treatment_response	PBBIHJ_treatment_response	Complete Remission	-999	Not Reported	Not Reported	36cb2f06-c706-5bfe-aa58-bbfbd3ca6d54	29d04189-0660-5bbd-83ab-005a1fab2bfb
+treatment_response	PBBIIF_treatment_response	Unknown	-999	Not Reported	Not Reported	7f8aff39-7a74-56bc-a821-6a6097c6a5eb	8d107c4b-41fc-5f95-98d5-e47cced99ded
+treatment_response	PBBIIH_treatment_response	Complete Remission	-999	Not Reported	Not Reported	f6383d27-365b-56b2-af17-df8456df0c00	71de8d57-8d76-50bd-b505-827ed0b52291
+treatment_response	PBBIIW_treatment_response	Unknown	-999	Not Reported	Not Reported	17f9bfab-a69f-5cc5-a7e4-6e67abeb3fa5	5dbcdfc3-5ab0-5133-9725-8a1aacff1d74
+treatment_response	PBBIJK_treatment_response	Unknown	-999	Not Reported	Not Reported	f6464cee-4a10-59f3-853f-29fc53009c63	550e8a41-80d6-568f-aa86-d7146e461bef
+treatment_response	PBBIKD_treatment_response	Complete Remission	-999	Not Reported	Not Reported	59dd420f-88b9-5a41-946f-9fe761ca6ccb	cb9e501f-bd0b-5d4e-9e2c-e3392692fa03
+treatment_response	PBBIKP_treatment_response	Complete Remission	-999	Not Reported	Not Reported	2defd49d-24c5-570b-993b-6cc6843c9109	754d5692-1e21-52b3-a339-74f3a297eaf1
+treatment_response	PBBILM_treatment_response	Not Reported	-999	Not Reported	Not Reported	c84b5ac8-f5dd-5c74-a1ab-562c63362cf1	7c621159-0ed4-5f8c-b59b-4b46150bbcd0
+treatment_response	PBBILN_treatment_response	Unknown	-999	Not Reported	Not Reported	98eae321-9879-58ec-9fb9-5fab2d2d12d8	057eeb28-9b80-509f-a711-8221a4ab33d8
+treatment_response	PBBIMH_treatment_response	Complete Remission	-999	Not Reported	Not Reported	50945213-5e00-5421-bdf1-70b43fabe927	fc2fddec-72bf-51d9-ba6e-9a9e253f3147
+treatment_response	PBBIMT_treatment_response	Complete Remission	-999	Not Reported	Not Reported	5860eda8-9faf-5c48-8c15-0478924028f3	865c37f4-0d88-55a6-b5ae-73ab1ec0ce36
+treatment_response	PBBIMX_treatment_response	Complete Remission	-999	Not Reported	Not Reported	97a8e990-212c-5f30-9c4b-771fb09f6a22	d390aa4a-4adc-553b-91d3-98ac7250631b
+treatment_response	PBBINB_treatment_response	Complete Remission	-999	Not Reported	Not Reported	82219ea2-9ade-529b-9f08-aa18f9281170	16164f79-2b75-5b60-b465-f1d0552de4b6
+treatment_response	PBBINC_treatment_response	Unknown	-999	Not Reported	Not Reported	4a45b357-16cc-5b34-9d33-255124454a57	17bf4fb8-7c49-5823-a782-6f846b128f2f
+treatment_response	PBBINV_treatment_response	Complete Remission	-999	Not Reported	Not Reported	78ec3cbd-cefa-5b93-b831-e0dbdf2136fd	a5442e33-ce80-506a-9f87-20dfb17170f3
+treatment_response	PBBIPL_treatment_response	Complete Remission	-999	Not Reported	Not Reported	bc21d977-5343-5066-910b-61d477969705	3c347e15-7100-588f-9d85-86824e4fed15
+treatment_response	PBBIRB_treatment_response	Unknown	-999	Not Reported	Not Reported	35f8005b-1319-51f9-821c-1ea2de5dddcb	c2a8f13f-610a-5f1f-ae22-4349fa719c76
+treatment_response	PBBIRI_treatment_response	Complete Remission	-999	Not Reported	Not Reported	e96b547c-b6d0-5d2a-922c-56c8f51113e8	029892a2-cb26-5a71-98e8-15094ace7dec
+treatment_response	PBBIRM_treatment_response	Complete Remission	-999	Not Reported	Not Reported	c944220d-45da-5bef-932e-c14081c46675	dea8abd5-edf7-5f85-befb-2e83cf3f375f
+treatment_response	PBBISC_treatment_response	Unknown	-999	Not Reported	Not Reported	9469c13f-d22f-59f6-bb7b-36da365b083a	b4c1df8f-0176-52c1-801d-38452c987931
+treatment_response	PBBISG_treatment_response	Unknown	-999	Not Reported	Not Reported	303970e4-4758-5a93-837d-2434175eca79	bcba018a-b576-565f-9596-868c8a05916d
+treatment_response	PBBISY_treatment_response	Complete Remission	-999	Not Reported	Not Reported	f897b2ac-5242-5266-a312-e6c743f61fe7	32bbb0c2-cea3-512c-821a-11dc7f6452bf
+treatment_response	PBBITE_treatment_response	Complete Remission	-999	Not Reported	Not Reported	4546d5ea-ac2a-5e41-87aa-f5276584c850	52cc213b-20af-5e63-b75f-429fe765ef9e
+treatment_response	PBBIUB_treatment_response	Complete Remission	-999	Not Reported	Not Reported	cfdc9ca3-9c13-5ac4-8e3e-f4c6501d15f6	da39813f-cc50-5e0c-af9e-e2e001c8e4b9
+treatment_response	PBBIUC_treatment_response	Complete Remission	-999	Not Reported	Not Reported	41848d2f-e3dd-5b00-8cd0-c82b527251b6	4153448b-314f-5423-8976-6ff9b9851fa9
+treatment_response	PBBIUN_treatment_response	Unknown	-999	Not Reported	Not Reported	98dfd5b9-33c0-5d75-a0ea-07617b32679b	048f79c1-ba6b-5846-973b-aaa9351889d0
+treatment_response	PBBIUS_treatment_response	Unknown	-999	Not Reported	Not Reported	fac9c49c-3fc4-5512-85a4-67bd616a3a80	008da891-5626-5863-b514-a201ccbd6265
+treatment_response	PBBIVA_treatment_response	Complete Remission	-999	Not Reported	Not Reported	96bef033-b878-5abb-9974-95a13c27b72b	dfba8638-3d82-5f85-b5dd-68d2c0291363
+treatment_response	PBBIVU_treatment_response	Complete Remission	-999	Not Reported	Not Reported	ad3d60b6-9867-5c26-b6b4-c19a7e2cb6ad	f28a8c12-5c86-5e21-8986-ca350d9f6581
+treatment_response	PBBIXN_treatment_response	Unknown	-999	Not Reported	Not Reported	04afdc0c-cdfb-559a-985d-b512d43572ae	9160c2a0-238a-5e26-acc1-ce2e578ec6a8
+treatment_response	PBBIXR_treatment_response	Unknown	-999	Not Reported	Not Reported	5ece518d-0df9-5a8a-83a4-071d2762ccd9	2560a852-1390-5a15-b236-4586c4d58cc5
+treatment_response	PBBIXX_treatment_response	Complete Remission	-999	Not Reported	Not Reported	5b6969af-9784-50b5-9fd0-4c6fc4074dfa	a65f869a-83d0-51b7-a41d-ab08568a7154
+treatment_response	PBBIYG_treatment_response	Complete Remission	-999	Not Reported	Not Reported	b10ca9df-d66a-55ce-a1e7-d28e1bfc93c6	39ce24f9-b493-5c9e-b4b6-08330603f3ed
+treatment_response	PBBIZK_treatment_response	Complete Remission	-999	Not Reported	Not Reported	b3fc34bd-db36-5dc1-9086-3cf91781bb94	7a806aa4-ee81-50e0-b944-65eb6118a984
+treatment_response	PBBIZT_treatment_response	Complete Remission	-999	Not Reported	Not Reported	62fb5831-6cf5-5786-b8da-c99c7700fa70	194097f5-1f4d-5ca6-a473-af2e9e7670c2
+treatment_response	PBBJAD_treatment_response	Unknown	-999	Not Reported	Not Reported	ad7c02d3-5761-50f8-89f9-2e899e7446b5	60232809-9a7d-58f6-864c-2f4eed5add77
+treatment_response	PBBJCX_treatment_response	Complete Remission	-999	Not Reported	Not Reported	62814b97-e47a-5c30-9d62-58af4b771cdb	40a7055c-1b36-575e-b460-f1b8243e6c3c
+treatment_response	PBBJDE_treatment_response	Complete Remission	-999	Not Reported	Not Reported	fd2d6594-edb6-5519-a7c6-8cacba4051e8	1aefc17c-632d-59a1-bfdc-64bcb9381e58
+treatment_response	PBBJGC_treatment_response	Unknown	-999	Not Reported	Not Reported	14cae36a-bbb3-52f0-93ba-981263539076	215c01f2-67bf-541b-8da0-410311dda4e7
+treatment_response	PBBJGW_treatment_response	Unknown	-999	Not Reported	Not Reported	c39913a2-2d04-5d45-8873-95da486e7253	40b85c57-8373-558b-8ba7-ec9d154a5197
+treatment_response	PBBJHS_treatment_response	Complete Remission	-999	Not Reported	Not Reported	3f06f068-66d2-558d-a925-64fef6fbc804	c13dabc1-027d-5ee9-9eff-1f5b683707c5
+treatment_response	PBBJIA_treatment_response	Unknown	-999	Not Reported	Not Reported	792f1d1e-9838-5003-a9a1-2ff4c3e7ddc2	95539ddf-7ac4-56c5-953d-d31d6eb9514b
+treatment_response	PBBJIB_treatment_response	Unknown	-999	Not Reported	Not Reported	a0a69a83-0ec6-5861-8ece-44a7dd335a5a	ef569d21-8be2-59ad-91fd-bd75f524ec49
+treatment_response	PBBJIF_treatment_response	Unknown	-999	Not Reported	Not Reported	a1ed3c0b-ef4a-5ff1-9872-62a8465e9da4	ce5a4270-1385-5b62-ad36-a8060d91c035
+treatment_response	PBBJIL_treatment_response	Unknown	-999	Not Reported	Not Reported	c3bc730c-2855-5427-873e-0b42717451d8	eb6d0e6d-38fe-56a8-87fe-6fdf9ac475cb
+treatment_response	PBBJJD_treatment_response	Unknown	-999	Not Reported	Not Reported	01db5b33-ce26-5a8f-8160-c708c843b89e	4126002f-f96d-5120-8cfc-6cd8f0db201e
+treatment_response	PBBJJE_treatment_response	Unknown	-999	Not Reported	Not Reported	5ee9474e-958b-51f8-9ee1-5c06985e8bc1	b0d64622-3937-5906-ad3b-cd8120e747c0
+treatment_response	PBBJJS_treatment_response	Complete Remission	-999	Not Reported	Not Reported	18f97495-e17e-5759-887d-6cbfbef010d7	439c1811-62ba-50c6-8e87-25e4212ae9c1
+treatment_response	PBBJKN_treatment_response	Complete Remission	-999	Not Reported	Not Reported	ad9d6434-3e40-5526-b75f-7bb29f1916c5	c69a4230-fd2e-525f-8f6a-a5296c0c5497
+treatment_response	PBBJNB_treatment_response	Unknown	-999	Not Reported	Not Reported	0f0191f1-66ab-5703-a82a-d0c9620d0336	c72a0f27-178c-55f8-8fdb-d4ee91c08079
+treatment_response	PBBJNF_treatment_response	Complete Remission	-999	Not Reported	Not Reported	047cc375-16d8-510b-807b-6b7bec52603f	c7fec8ea-e1ae-5375-a640-4fb44c7704dd
+treatment_response	PBBJNW_treatment_response	Unknown	-999	Not Reported	Not Reported	971641d4-4c66-5186-ba48-c65bbfbcf57e	f5d21ead-da80-5901-91b1-cf7ef33fcf9a
+treatment_response	PBBJPU_treatment_response	Complete Remission	-999	Not Reported	Not Reported	c9e4573f-aff8-588d-be01-71d4501a3982	f619298c-56ba-55cf-ae0e-ee9c80f62026
+treatment_response	PBBJPZ_treatment_response	Complete Remission	-999	Not Reported	Not Reported	27606424-fc41-5306-8221-3182c9810fd9	1a0af2f2-5415-57c3-b9c4-0acdde3a95db
+treatment_response	PBBJRM_treatment_response	Complete Remission	-999	Not Reported	Not Reported	b816d3c1-e714-575b-96b6-bcf9666cd1fd	a0ac1541-aa4e-55bf-99b4-d4d45dcf1ca1
+treatment_response	PBBJTB_treatment_response	Unknown	-999	Not Reported	Not Reported	44737ee8-a562-5aa1-94c3-e602998340b7	f519bfcc-c4b5-54cd-a38a-ea4b9a635037
+treatment_response	PBBJTC_treatment_response	Unknown	-999	Not Reported	Not Reported	c0de8d14-403f-51b6-a84e-ee810c768e32	09960538-b399-54b6-b5bf-8cc8bfc45cd5
+treatment_response	PBBJVH_treatment_response	Complete Remission	-999	Not Reported	Not Reported	7c65d608-aeb7-5018-80a5-67e62f0848b9	4d8e8464-1325-5e66-a479-bf1ed2441bfe
+treatment_response	PBBJWM_treatment_response	Complete Remission	-999	Not Reported	Not Reported	0864bc71-6ae5-5b0a-85f6-d0dfb9ae2189	b6da765b-753f-5448-8d7d-fd981365d79e
+treatment_response	PBBJXV_treatment_response	Complete Remission	-999	Not Reported	Not Reported	090cf8a7-f4ca-58ed-95a7-420b94f28148	65d90e25-6b5e-5558-9920-dabc5528092d
+treatment_response	PBBJZI_treatment_response	Complete Remission	-999	Not Reported	Not Reported	62636164-c35e-5ae0-9389-d355e7110903	7928ea3e-6d48-5f72-91e7-4c7784abbfc7
+treatment_response	PBBJZW_treatment_response	Complete Remission	-999	Not Reported	Not Reported	7c0fa61e-785a-54c7-9cb2-5e3275703c82	b4a87983-752f-50e3-9a16-a345c432d52b
+treatment_response	PBBKBK_treatment_response	Complete Remission	-999	Not Reported	Not Reported	3ec7658c-e9c7-5332-9663-2a379c5e1b11	d519b047-3df9-56d5-88cf-87eae18c3833
+treatment_response	PBBKCT_treatment_response	Unknown	-999	Not Reported	Not Reported	d57643e9-ce5a-57b5-aa71-b8cb6c15194e	8fb1ff57-fde2-53ed-9926-62e2440a0603
+treatment_response	PBBKCW_treatment_response	Unknown	-999	Not Reported	Not Reported	2d7c02dc-2c45-5230-980e-d26c6d12ae3f	2d743e03-a9f6-5bbb-a3d5-caab7c6e5a7a
+treatment_response	PBBKDD_treatment_response	Unknown	-999	Not Reported	Not Reported	7f23dcab-ec4c-58e7-be77-4ed05a866a8a	2c969bca-a13a-53c4-ba51-ac4b18e86943
+treatment_response	PBBKDK_treatment_response	Unknown	-999	Not Reported	Not Reported	85b5c9cc-2082-5c4b-b252-be9131e9a818	3f813968-b3c0-557b-9711-d1969b743a01
+treatment_response	PBBKDM_treatment_response	Unknown	-999	Not Reported	Not Reported	2ae15bc3-51f3-5c60-8c5c-c7b2c701376b	41bfad53-91ef-5e2a-878b-e2ae84256a09
+treatment_response	PBBKEA_treatment_response	Complete Remission	-999	Not Reported	Not Reported	588453ed-5436-568b-a5e4-f9e817a9a0fe	34cff4e2-e279-5556-be8a-eafd4091b7e9
+treatment_response	PBBKEC_treatment_response	Unknown	-999	Not Reported	Not Reported	1f8bd51d-f858-5682-9b10-f5ed271cefb3	aa0a53ab-49a7-5b57-8b05-2cbcfcb406f3
+treatment_response	PBBKEG_treatment_response	Not Reported	-999	Not Reported	Not Reported	0160705f-eab7-54cf-bea5-34a39a1bd6c0	b83e3411-8248-55f3-b440-d561c37731d8
+treatment_response	PBBKER_treatment_response	Complete Remission	-999	Not Reported	Not Reported	f9d575e2-491c-5527-a78f-3cd9cc5d4d10	234856e0-dd49-519c-ab04-c67aa6242690
+treatment_response	PBBKFC_treatment_response	Unknown	-999	Not Reported	Not Reported	e3a6df8b-961b-5b95-9fda-0f7ce3de1cba	6febffce-4abb-5170-8d68-e5f4358a5628
+treatment_response	PBBKGA_treatment_response	Unknown	-999	Not Reported	Not Reported	df9a94cc-3d98-5925-a234-630d334f445f	ef7693b3-e33b-517d-99c5-95a0b3ce6a6d
+treatment_response	PBBKGG_treatment_response	Unknown	-999	Not Reported	Not Reported	dddb65a8-1143-5d0d-8d1e-081eff71cd53	282f65c0-e615-5646-ac1f-ca38ecf4513c
+treatment_response	PBBKGV_treatment_response	Complete Remission	-999	Not Reported	Not Reported	0f14e49e-b741-5c53-b0df-15022e5623e5	de852573-b9d3-5b3e-b376-6c6c1c088c6c
+treatment_response	PBBKHM_treatment_response	Complete Remission	-999	Not Reported	Not Reported	b967fb40-bfee-57e1-b6a6-b25199204314	4a0c673c-302b-5b98-a92d-4da6dcc388f2
+treatment_response	PBBKHR_treatment_response	Complete Remission	-999	Not Reported	Not Reported	0e6f83a7-489d-5338-97a1-2ea473c38897	e7ff868c-4349-5810-a22c-5615472469dc
+treatment_response	PBBKIL_treatment_response	Complete Remission	-999	Not Reported	Not Reported	251a9351-02e8-5e33-9151-d0fd2fb9efe4	9446988d-67a4-5fe3-a8d7-44c917deca26
+treatment_response	PBBKJT_treatment_response	Unknown	-999	Not Reported	Not Reported	64d3ada9-d364-5442-8587-1a0ecb6bfc06	a04c0238-f328-5009-b1c0-4d249749a6b9
+treatment_response	PBBKKT_treatment_response	Unknown	-999	Not Reported	Not Reported	64fbb0f4-6d76-5712-96e4-4c89eff09c70	62e66324-a2ed-57e8-afd9-22be1569e907
+treatment_response	PBBKKX_treatment_response	Unknown	-999	Not Reported	Not Reported	f09a418f-2ba4-5ae9-be53-ad79ec160e21	d67a846f-a63a-5aee-97a8-468023509e90
+treatment_response	PBBKLK_treatment_response	Unknown	-999	Not Reported	Not Reported	fe926f06-2848-5e52-afb7-617a9d4218c6	7e929ed6-1c98-550c-a796-8b083e50fb2e
+treatment_response	PBBKMV_treatment_response	Unknown	-999	Not Reported	Not Reported	0e8274ff-356b-5afb-a59e-39dce2b7e0e6	925f4c8f-914a-5eca-a8d5-9b31852b95a3
+treatment_response	PBBKNA_treatment_response	Unknown	-999	Not Reported	Not Reported	74bbc944-0461-5a8d-a915-94ace5014884	f75658ba-37a1-593b-a3c3-179f722b6bf5
+treatment_response	PBBKPA_treatment_response	Complete Remission	-999	Not Reported	Not Reported	6e0073ce-c823-5522-b534-61f10dbd8bc8	6f4290f4-bd5a-51e3-af21-63b0f3ec413e
+treatment_response	PBBKPL_treatment_response	Complete Remission	-999	Not Reported	Not Reported	db81116c-73c0-5768-84fc-d0466e5c26d0	a8401999-1476-502c-b13f-4d5fb1460f23
+treatment_response	PBBKPM_treatment_response	Complete Remission	-999	Not Reported	Not Reported	574baf0a-684d-5d5c-b75b-948819cdf757	74e28863-da7c-5abc-a7a3-877e10bc2377
+treatment_response	PBBKRS_treatment_response	Unknown	-999	Not Reported	Not Reported	1c2cd95b-c182-57c5-970d-4d0a9dac7fdd	521abcb0-95fd-5b5e-b107-ae3a4c0d9cf4
+treatment_response	PBBKRT_treatment_response	Complete Remission	-999	Not Reported	Not Reported	e61fe5e6-2196-5c15-9122-963d7d528125	84a35e1d-2110-5f61-883a-227d2de5d9aa
+treatment_response	PBBKSG_treatment_response	Complete Remission	-999	Not Reported	Not Reported	14b6cfad-89d9-5775-ab3f-acef0711cd7e	a9e87311-e3d2-5086-bd72-b1cb3d4b1fe0
+treatment_response	PBBKSJ_treatment_response	Unknown	-999	Not Reported	Not Reported	f477b245-4a61-5626-b3da-d074138b6412	dd87bc25-bc63-52aa-a144-6c1dd46116b1
+treatment_response	PBBKTB_treatment_response	Complete Remission	-999	Not Reported	Not Reported	3a4c0b93-b6d9-5fc9-ad08-7994284e72bf	6171e92d-6934-52dc-9d8d-6e38c99a74cc
+treatment_response	PBBKTJ_treatment_response	Complete Remission	-999	Not Reported	Not Reported	96cd6833-4648-525f-81c0-5a0d9caa0cc0	1a2f7ead-8c6f-53d7-876d-a47deb9eb853
+treatment_response	PBBKTT_treatment_response	Not Reported	-999	Not Reported	Not Reported	807b6b4f-d9a0-5f1b-9442-1c33aee8149d	60850448-43c5-547e-8a7a-28c8bfa5df40
+treatment_response	PBBKTU_treatment_response	Not Reported	-999	Not Reported	Not Reported	b5c39783-5065-5259-8101-f7fb0c963592	f0cc0f5b-b486-51d1-a05f-3b8d15559565
+treatment_response	PBBKUN_treatment_response	Not Reported	-999	Not Reported	Not Reported	01077d93-d7fb-5f1a-a34a-7a29b792f575	aa830b0b-5002-5cb4-ad46-51bf6aabfe01
+treatment_response	PBBKUP_treatment_response	Unknown	-999	Not Reported	Not Reported	5124feeb-d0f4-5812-84b4-85bac232bdad	380c897a-79bb-5ceb-91c1-c013d42fe5c7
+treatment_response	PBBKVP_treatment_response	Unknown	-999	Not Reported	Not Reported	0c9f0e0b-b620-5a94-9b34-d120564a1cd2	5cd8d814-5267-56ae-95de-f654592ddb5f
+treatment_response	PBBKWB_treatment_response	Complete Remission	-999	Not Reported	Not Reported	7a16ccdd-f7aa-57fa-bdd2-4784ba3c2dd7	36e0553a-1df0-59c5-9fa7-e35aff1364b9
+treatment_response	PBBKWX_treatment_response	Unknown	-999	Not Reported	Not Reported	3ef9bcce-b31e-5087-874c-fae38313d9ef	2992268b-316b-5278-a1a6-e5aee0c40c6e
+treatment_response	PBBKXE_treatment_response	Complete Remission	-999	Not Reported	Not Reported	af6b0bbf-7c46-5ee0-a504-f47d6fa54e30	da71e151-c897-5547-b9c1-cfc95ce69e32
+treatment_response	PBBKXH_treatment_response	Unknown	-999	Not Reported	Not Reported	4337fdd7-f368-5763-9cf0-d1886b5d82d1	4a9e7b54-c9ba-57b6-9eae-c8f6040d83bd
+treatment_response	PBBKXM_treatment_response	Unknown	-999	Not Reported	Not Reported	5ce2a586-7649-5f42-b9b4-e8d151a23dc8	9703ee5c-11c1-5604-ab73-932801bdb9ce
+treatment_response	PBBKXV_treatment_response	Complete Remission	-999	Not Reported	Not Reported	746a70b4-a8de-5bcd-9b1c-4d3918f8d7ba	3f7b5cf6-84ae-59f7-b9c5-0fdb10e7a8f4
+treatment_response	PBBKYI_treatment_response	Unknown	-999	Not Reported	Not Reported	bbf391cd-d5bb-5154-9a77-de658c7aa11c	935affef-43d9-504c-ba55-91744c31c0b9
+treatment_response	PBBKZD_treatment_response	Unknown	-999	Not Reported	Not Reported	f302bbb5-7bef-5e6d-937c-142c670026af	16d695ba-3d57-50d4-9ce0-948cd7f22e33
+treatment_response	PBBKZM_treatment_response	Unknown	-999	Not Reported	Not Reported	f623eb7b-caf9-503f-9962-ddac9c5be999	fd833c8d-42d1-5afc-9bf5-fa98850eb3ec
+treatment_response	PBBKZS_treatment_response	Complete Remission	-999	Not Reported	Not Reported	f8016bf5-630a-5636-8235-32c4a0df6a49	dace32bb-50b6-525d-b4e5-9169158e189e
+treatment_response	PBBLAC_treatment_response	Complete Remission	-999	Not Reported	Not Reported	027f8c57-11a8-583e-8634-b2d8a589748a	e4329125-8620-5084-ad35-f566606b428c
+treatment_response	PBBLEW_treatment_response	Complete Remission	-999	Not Reported	Not Reported	18aee6a7-80b6-5b74-b46f-76888ccc2d6a	f67d4749-91f5-56e5-a594-175d23dc1966
+treatment_response	PBBLEY_treatment_response	Unknown	-999	Not Reported	Not Reported	71bcc0c6-db5d-5f82-a557-80eeaed7b4e4	a2bf1996-49fe-5f12-b86c-a1e9fcd67128
+treatment_response	PBBLFD_treatment_response	Complete Remission	-999	Not Reported	Not Reported	36ccd791-430e-5d78-9be8-b56ec31fc37a	ac67ebac-a0c2-5c42-8587-c6a2510ab800
+treatment_response	PBBLFI_treatment_response	Complete Remission	-999	Not Reported	Not Reported	b92dd832-d60b-5946-b6e6-f28c31ad3b44	11832dc9-dcb4-5a62-b7b9-b3b3e68009e6
+treatment_response	PBBLFW_treatment_response	Unknown	-999	Not Reported	Not Reported	ee3d5f04-c460-5f8f-ab90-ca8fa92e8b98	5d213b8e-bc53-5100-826e-9e6dcd6a9ad5
+treatment_response	PBBLGF_treatment_response	Complete Remission	-999	Not Reported	Not Reported	a81df5c7-3891-59a4-9ff3-963808f949ec	c3c0c73b-0c6e-59fb-b445-38d2d1dd80c9
+treatment_response	PBBLGZ_treatment_response	Complete Remission	-999	Not Reported	Not Reported	422ee87c-52b5-5064-99c2-9d2ef1c39e44	6a0bbe8e-59e9-5994-b4d9-c29c83110de6
+treatment_response	PBBLHI_treatment_response	Unknown	-999	Not Reported	Not Reported	cf6883d5-8e9c-5814-8050-1ad687998661	8a9b3a03-d856-5c84-845e-c21736b6c349
+treatment_response	PBBLHM_treatment_response	Not Reported	-999	Not Reported	Not Reported	e7eeb24a-9e9b-5f4c-9db7-96e168df813f	e53b3367-5f42-53c7-b8cb-e0943bca7396
+treatment_response	PBBLHT_treatment_response	Unknown	-999	Not Reported	Not Reported	cfcc42b7-c3ce-5fa0-8b05-37d1dc7aacfe	f1c419e9-fd0e-5c8d-883b-e3780acb1c21
+treatment_response	PBBLIH_treatment_response	Complete Remission	-999	Not Reported	Not Reported	88cc6cb1-0d99-503d-bb9b-305196f8afce	5fc9073a-870d-5341-bfd8-71f220b86769
+treatment_response	PBBLIX_treatment_response	Complete Remission	-999	Not Reported	Not Reported	6ca75fb6-c6b7-5e29-9436-e5ec34dee561	0d587f42-7f0c-506e-a959-139b683ec132
+treatment_response	PBBLJE_treatment_response	Complete Remission	-999	Not Reported	Not Reported	e7b548a4-89dd-5fa0-b6c5-afb6d3a4e68e	15006070-b74c-546a-9f20-27b50d015cb0
+treatment_response	PBBLJJ_treatment_response	Complete Remission	-999	Not Reported	Not Reported	0e79f5d1-f469-538d-a415-5d7985b30222	6ec24ea3-73a5-516f-99a3-1916f0f5c1da
+treatment_response	PBBLKB_treatment_response	Complete Remission	-999	Not Reported	Not Reported	ac8414fa-6c78-5d2c-8f07-522b5939a36e	5a61333d-97d3-540c-bee9-3e5e376ee591
+treatment_response	PBBLKF_treatment_response	Complete Remission	-999	Not Reported	Not Reported	f0b68cfd-0230-597d-b508-6e716deba330	547893f8-e8ef-53f6-802c-dea7c479d7de
+treatment_response	PBBLKN_treatment_response	Complete Remission	-999	Not Reported	Not Reported	812b5e8d-87a9-5225-abd0-5ddfab003f6a	a9ea9c70-ee91-51b8-953a-92ed82d8684d
+treatment_response	PBBLKT_treatment_response	Complete Remission	-999	Not Reported	Not Reported	425a3938-dbd3-55a9-8b54-35fca1be011a	a73dd42e-fed4-5870-9884-044c5b7961c8
+treatment_response	PBBLLP_treatment_response	Complete Remission	-999	Not Reported	Not Reported	6a211965-4cf2-536b-b6b5-3470bbc75993	8d92dd5f-5077-5e95-8a78-ce0512943ed6
+treatment_response	PBBLMW_treatment_response	Unknown	-999	Not Reported	Not Reported	dfed0396-4628-5e12-94ba-72573402297b	ac973359-100f-5b38-8546-bd1b16e436b3
+treatment_response	PBBLNB_treatment_response	Complete Remission	-999	Not Reported	Not Reported	112828bb-82c8-5153-adda-d4787ae6819d	0d5a6a90-73ec-5e05-95bc-14add1b4fcc4
+treatment_response	PBBLNE_treatment_response	Unknown	-999	Not Reported	Not Reported	f3bd4237-5e7f-5b86-8684-44553c35e65e	2d044be4-3fd1-551c-a1aa-8ca8bf421c69
+treatment_response	PBBLNJ_treatment_response	Complete Remission	-999	Not Reported	Not Reported	b1b33b9c-aa95-5092-a23c-1e16e8ab3029	8404f007-abc0-5027-8b0a-3ebb318d76a9
+treatment_response	PBBLPC_treatment_response	Unknown	-999	Not Reported	Not Reported	2fde0386-e656-539d-94e7-8de2280398ec	aeeb631f-f6f1-59de-ad7f-343c7c39087a
+treatment_response	PBBLPD_treatment_response	Complete Remission	-999	Not Reported	Not Reported	17489f35-de7e-5a88-a39b-7c0df5f9580a	95a58bfe-905f-532d-8748-f3ef499685ad
+treatment_response	PBBLPG_treatment_response	Unknown	-999	Not Reported	Not Reported	32933a71-e089-58be-b0ef-05ab6f1e3297	162c0b89-fb06-54c1-88a0-3818d1da7379
+treatment_response	PBBLPL_treatment_response	Unknown	-999	Not Reported	Not Reported	e12de352-7723-56ed-aaa5-d273e7320cb0	e00e5657-efe2-51b3-91c1-7a894af2bdaa
+treatment_response	PBBLPR_treatment_response	Unknown	-999	Not Reported	Not Reported	b7765eb6-3716-59d8-b4f1-1782a297cccf	f923a0b6-d3a9-5b1c-916b-1d96e86f7056
+treatment_response	PBBLPX_treatment_response	Complete Remission	-999	Not Reported	Not Reported	2d7ebc12-971e-5446-9996-30f73d0d7ba9	fe384b61-5fbf-5596-a367-2ff61aaa6694
+treatment_response	PBBLPZ_treatment_response	Unknown	-999	Not Reported	Not Reported	533fa92f-a885-5c14-aa98-ef2f819b42f2	4a6623c7-2258-5f6a-b7cb-5d91733c996a
+treatment_response	PBBLRV_treatment_response	Complete Remission	-999	Not Reported	Not Reported	ac78ccb3-778f-51bc-a894-e2a8d30ff2db	a7a57dac-717d-5e40-9823-8c064b20514e
+treatment_response	PBBLSC_treatment_response	Unknown	-999	Not Reported	Not Reported	65fdb742-dbed-59f6-8f9c-79164e34a757	030f2771-dbdc-548e-ad2a-2758c8e6a037
+treatment_response	PBBLSD_treatment_response	Complete Remission	-999	Not Reported	Not Reported	1d7847f1-316e-5938-a790-7f0c89464d98	5c685ab1-2a50-5ba4-9a44-50b6f0b77c95
+treatment_response	PBBLSE_treatment_response	Unknown	-999	Not Reported	Not Reported	c83dbe2a-7a8c-5276-8d89-a3053524e7b5	8b8028fa-dcf7-530d-8249-c387ff74c9b4
+treatment_response	PBBLSI_treatment_response	Unknown	-999	Not Reported	Not Reported	cda7f223-b6d8-5f16-9aea-57cd981cdf9b	0f9bc8f9-32cd-511e-b2d6-bfc674df5e44
+treatment_response	PBBLSU_treatment_response	Complete Remission	-999	Not Reported	Not Reported	3ec9e26e-a25a-52e7-baef-4c325e898238	e4ecf6f9-68ed-501a-be12-561a93db4bb3
+treatment_response	PBBLTX_treatment_response	Complete Remission	-999	Not Reported	Not Reported	a3507e71-9d47-5783-a59b-c15a75db398d	4ce95343-ea09-5a16-9439-6f6872edbb2b
+treatment_response	PBBLUN_treatment_response	Complete Remission	-999	Not Reported	Not Reported	c0b72f05-f47e-5564-9ae7-ea7cb174a64d	044b293d-5855-535d-ab82-dbddd00c667b
+treatment_response	PBBLUX_treatment_response	Complete Remission	-999	Not Reported	Not Reported	3672b267-aadf-5e5a-ade5-18b38d007054	3b8b7b26-9c7b-5ac4-937f-57c2457220b6
+treatment_response	PBBLWB_treatment_response	Unknown	-999	Not Reported	Not Reported	aee07070-cc23-5255-bd58-a4fd4fbe0c80	d1358981-403e-5a76-957e-fa4a1db94ec9
+treatment_response	PBBLWR_treatment_response	Complete Remission	-999	Not Reported	Not Reported	cc9d19a7-6e22-589e-83db-a356aab1db31	df630bfe-caeb-54f9-a357-d9cc756d312c
+treatment_response	PBBLXA_treatment_response	Unknown	-999	Not Reported	Not Reported	e1bd6ad4-0f51-5602-a5a7-9193c4e9c267	ebb6ead8-7771-5d16-a2c5-10c9df4c7af6
+treatment_response	PBBLXG_treatment_response	Unknown	-999	Not Reported	Not Reported	796accc0-0fdc-5a00-aee1-6468530074f9	313d32eb-6b41-5516-9738-039d3b8949a1
+treatment_response	PBBLXN_treatment_response	Unknown	-999	Not Reported	Not Reported	b6a8b2df-699b-573e-8112-062866c55869	1f25ac5a-8979-5778-a20f-c621ccb678d4
+treatment_response	PBBLXR_treatment_response	Unknown	-999	Not Reported	Not Reported	3e283fcd-2e73-5902-a999-44a4c4ec0cf2	a2322274-eaf7-5705-8742-94897a0d6e47
+treatment_response	PBBLXS_treatment_response	Complete Remission	-999	Not Reported	Not Reported	f27585c4-9a7a-5ff9-bb76-d922b6d98fe1	97cedf77-396c-512a-9555-6ea953171992
+treatment_response	PBBLXV_treatment_response	Unknown	-999	Not Reported	Not Reported	87f49221-dbac-5f16-8b81-317b46242c00	c767fb1e-007e-55d0-9cbb-e19404dac624
+treatment_response	PBBLXX_treatment_response	Unknown	-999	Not Reported	Not Reported	18206cdd-6946-5137-9bb3-19016feadf6c	53775895-5151-5e65-b09e-6f643619c608
+treatment_response	PBBLXY_treatment_response	Unknown	-999	Not Reported	Not Reported	a7cb9de6-8b5b-54b2-8768-836753f62b48	4527a435-bde4-556c-81c8-ba1fd081b4fb
+treatment_response	PBBLYB_treatment_response	Complete Remission	-999	Not Reported	Not Reported	b2f22425-23d6-5f3a-a0d8-545669fdc631	e93f0f65-e4d3-52a4-a43c-0b06de5b8fb8
+treatment_response	PBBLYY_treatment_response	Complete Remission	-999	Not Reported	Not Reported	a6a0fbb3-d5a4-5fc1-832b-1276ff21154f	ebf452ef-862f-5a86-8d9d-f32e6e71bca4
+treatment_response	PBBLYZ_treatment_response	Complete Remission	-999	Not Reported	Not Reported	5966a714-724a-55c3-93bb-4af012976d14	413b01fc-6821-5315-a726-3a3021c352eb
+treatment_response	PBBLZZ_treatment_response	Complete Remission	-999	Not Reported	Not Reported	5ffc279e-4b58-54fb-a231-8f176ffc8b37	42781282-91c4-5596-a0b6-e3786b980152
+treatment_response	PBBMAR_treatment_response	Complete Remission	-999	Not Reported	Not Reported	70ffe707-a323-5cbb-b4f0-e03cf8963e1b	29246af0-7da2-5806-a66d-2fe16264860c
+treatment_response	PBBMAX_treatment_response	Unknown	-999	Not Reported	Not Reported	2083b741-e7dd-5152-a256-796fdc468baf	2657ae7d-90b3-5270-ae52-fe6f98c7751e
+treatment_response	PBBMBK_treatment_response	Unknown	-999	Not Reported	Not Reported	5da56a80-1210-5883-b0a9-39df60fd244c	1156ff53-86ae-55b3-a0ef-8466e461862c
+treatment_response	PBBMBM_treatment_response	Complete Remission	-999	Not Reported	Not Reported	98a673a3-9402-577e-a5c3-2fb10da05643	820912d2-a6ed-5d5a-aea5-4f3a87375d9a
+treatment_response	PBBMBU_treatment_response	Complete Remission	-999	Not Reported	Not Reported	16b4e9eb-8b95-52e2-bb09-426ac3a0823c	9113ebf9-868c-5fd4-876b-703797dac28a
+treatment_response	PBBMBX_treatment_response	Complete Remission	-999	Not Reported	Not Reported	b21c03ae-4952-5a77-bce7-d5915918e376	e0dc1735-026b-569b-a481-dcb2e3c7626d
+treatment_response	PBBMCC_treatment_response	Unknown	-999	Not Reported	Not Reported	3252082c-1145-52b0-9a8f-ae8e36972c84	7dc93a34-f67c-5230-ba81-5f7221f8cc08
+treatment_response	PBBMCH_treatment_response	Complete Remission	-999	Not Reported	Not Reported	34818ba1-9baa-5508-b3e3-4cf8544384c0	cb568b0f-a515-50c7-b22e-821e120fce09
+treatment_response	PBBMCL_treatment_response	Complete Remission	-999	Not Reported	Not Reported	22b80cd1-7cb2-593e-87f3-3507ed87a2e8	c46f9930-aa28-548f-9438-dc3848370151
+treatment_response	PBBMCU_treatment_response	Complete Remission	-999	Not Reported	Not Reported	206ec9ae-a946-5f6e-bc2b-655d6016e0f1	7dd70105-11aa-52ff-9473-8160c02bf932
+treatment_response	PBBMCX_treatment_response	Complete Remission	-999	Not Reported	Not Reported	269d91b2-824f-594e-883b-da875f12b551	a0e1d68a-af16-5a0d-9249-1abd7ab06376
+treatment_response	PBBMEA_treatment_response	Unknown	-999	Not Reported	Not Reported	d48bc7fb-6ca7-531d-8970-7937dca6d2b7	d7e6e97f-343b-5019-86df-5e951ac4848e
+treatment_response	PBBMEG_treatment_response	Complete Remission	-999	Not Reported	Not Reported	e1e3ccb8-0381-5ecc-b65a-70c623cacc84	030742f1-6896-57b4-a1f6-ffa8452d3b52
+treatment_response	PBBMEH_treatment_response	Complete Remission	-999	Not Reported	Not Reported	60b9832e-616a-5350-9e3b-04eb57066ea2	1db76118-24c8-5fa0-b162-bc8f37397585
+treatment_response	PBBMEY_treatment_response	Complete Remission	-999	Not Reported	Not Reported	95b19c03-791d-5f05-8d1c-b94f4f5c2a98	6790586f-e2e8-5653-800d-75b97407b36a
+treatment_response	PBBMFF_treatment_response	Unknown	-999	Not Reported	Not Reported	026a68ba-435a-5e5f-8588-7e4a5c8b8dcd	2853ff21-0197-50f4-b0dc-a7187bf90498
+treatment_response	PBBMFM_treatment_response	Unknown	-999	Not Reported	Not Reported	53f3aa9f-fa20-5643-aa5a-6f33e6095c7f	b0215fb6-39f3-5ba3-b7b2-fa72deb2f1f3
+treatment_response	PBBMFN_treatment_response	Unknown	-999	Not Reported	Not Reported	d6b2f0ab-56de-5e74-b00e-f0238c411a50	83295d34-8e78-5777-b8db-27d4b30f4b29
+treatment_response	PBBMFZ_treatment_response	Unknown	-999	Not Reported	Not Reported	f6923a44-4041-5140-8bb3-d281559e3de8	3e501056-64f8-50de-85a6-b05176c8ec47
+treatment_response	PBBMHS_treatment_response	Complete Remission	-999	Not Reported	Not Reported	887d53b4-9a61-51b5-bf47-0dfa34097749	5ce51ef2-9b3a-5398-bbf2-75ebc5d06a7a
+treatment_response	PBBMHY_treatment_response	Complete Remission	-999	Not Reported	Not Reported	1b9732b8-e171-5f1c-aedd-631e8ccf4a1a	a3301046-978c-5fe2-8d72-f68dd563d227
+treatment_response	PBBMII_treatment_response	Complete Remission	-999	Not Reported	Not Reported	dd59dee5-b68c-57ae-81eb-8211a98fe0ff	f8320f6a-2687-5ad0-9352-310e9cf5de12
+treatment_response	PBBMIP_treatment_response	Complete Remission	-999	Not Reported	Not Reported	caf538f1-7ea6-5a61-9f77-dd0763195165	6abf636c-04ab-57bc-b2fd-6c1cdaaa9950
+treatment_response	PBBMIX_treatment_response	Unknown	-999	Not Reported	Not Reported	4547f798-d568-56dd-b10e-7e53d4f67baa	946959c7-054a-5981-b28c-d9fdb87ffa7f
+treatment_response	PBBMJK_treatment_response	Not Reported	-999	Not Reported	Not Reported	d0c3ffcb-1ffb-5c32-a3cd-376b143d1fed	3fc6827a-c970-51e1-bded-85131c913a21
+treatment_response	PBBMJN_treatment_response	Unknown	-999	Not Reported	Not Reported	3fd15cdb-a5c5-5d03-85c9-ec9d9cfb2f3e	7ae0c34c-5ad1-5be7-ab19-763249932b11
+treatment_response	PBBMJP_treatment_response	Unknown	-999	Not Reported	Not Reported	b5f89281-119b-50a3-84b0-44d63155a2d9	e4970eb6-07cf-5907-bca9-5b76cf3173b5
+treatment_response	PBBMKF_treatment_response	Unknown	-999	Not Reported	Not Reported	0ce052ec-03a7-53ba-a4d9-66b8a9159ec7	2e7b4ca6-53c7-5d93-a60a-a5977442b4ab
+treatment_response	PBBMKI_treatment_response	Complete Remission	-999	Not Reported	Not Reported	bf0e3403-ab6a-59de-ab30-3ad6f005fbfa	50754158-fa72-5380-953a-586c53fb69c4
+treatment_response	PBBMKK_treatment_response	Complete Remission	-999	Not Reported	Not Reported	de9fe4d1-20d9-5f7f-9497-b674fcc0c042	51afb815-e102-5f4b-9835-e5d5764fd1c5
+treatment_response	PBBMLJ_treatment_response	Complete Remission	-999	Not Reported	Not Reported	18941f38-19bb-5e9c-af4b-5498dd7224a1	e273cc9f-418d-5b87-800f-45b9f26c8d9b
+treatment_response	PBBMMW_treatment_response	Complete Remission	-999	Not Reported	Not Reported	21710354-dcc9-575d-a310-03492f4995c4	fc04a356-5cef-537e-b485-2b29e0b8b0da
+treatment_response	PBBMNL_treatment_response	Unknown	-999	Not Reported	Not Reported	09249e67-ffc6-5125-983d-075c91d0c2a9	2c9390a6-3053-53da-8baf-d0c414563919
+treatment_response	PBBMNW_treatment_response	Unknown	-999	Not Reported	Not Reported	6fc64b3a-c3fe-515e-9a3d-a653f3e49c87	51733af1-56c2-5679-8f4b-5e3a666f3651
+treatment_response	PBBMNX_treatment_response	Unknown	-999	Not Reported	Not Reported	dc59a2c2-f418-5fbc-801d-6acf16c1f980	823d6143-77d2-5137-b806-3e3dcfe20c72
+treatment_response	PBBMPA_treatment_response	Unknown	-999	Not Reported	Not Reported	8977300a-502c-58f0-b16e-5c52e8fea19d	11564294-e4b9-54b9-b3f5-f7a2fde2bc0c
+treatment_response	PBBMPD_treatment_response	Unknown	-999	Not Reported	Not Reported	ffa59713-772b-5448-8a81-e37c9e2f76d4	b447af62-ec80-5e7e-adb6-6891478119a9
+treatment_response	PBBMRT_treatment_response	Unknown	-999	Not Reported	Not Reported	284fce9f-9c0c-5412-8c7c-7e6073bb9e20	34d3a7d4-2cfd-5375-b625-548d175893c0
+treatment_response	PBBMSC_treatment_response	Unknown	-999	Not Reported	Not Reported	d6427905-71ee-5323-9a0d-397fa7dcf7fb	50199d1b-b648-5928-8a35-73612a2604cc
+treatment_response	PBBMSY_treatment_response	Complete Remission	-999	Not Reported	Not Reported	af2cee62-0f4c-52f0-be08-0de39d6150de	827d92df-9c4a-5e0c-a8d2-323045ace096
+treatment_response	PBBMTH_treatment_response	Complete Remission	-999	Not Reported	Not Reported	c15d838c-e131-5865-9939-689733ab3f2b	ca49cada-013e-5c90-9aa8-e9e176aba60e
+treatment_response	PBBMTJ_treatment_response	Complete Remission	-999	Not Reported	Not Reported	2c2a68b3-57db-5f38-a4a6-9689c259946c	6fa519e7-17d7-57c3-b35b-d8f2a9dd46c3
+treatment_response	PBBMUT_treatment_response	Unknown	-999	Not Reported	Not Reported	46b90557-5563-5e95-bc11-5105e5657705	263f31d9-8794-5b9d-9480-95ebfcf38a72
+treatment_response	PBBMVS_treatment_response	Complete Remission	-999	Not Reported	Not Reported	5553ada0-fcaa-5868-b8d9-fb7cbae0389b	d9958fd0-dcd6-5cc2-b806-0d96b02c6388
+treatment_response	PBBMXN_treatment_response	Unknown	-999	Not Reported	Not Reported	52f3d1bd-bbe3-566c-88c0-e6bda3f200eb	092053de-3f4d-56bf-b3a0-455d264821b3
+treatment_response	PBBMXX_treatment_response	Complete Remission	-999	Not Reported	Not Reported	f15cdc36-8e3a-55f5-8c9b-0b50b44a2661	15db7ee1-c5d1-5e8c-8f99-922a568f6e2f
+treatment_response	PBBMXY_treatment_response	Unknown	-999	Not Reported	Not Reported	c9967c00-44f9-574d-a0e9-fd22f0687b04	5d689e18-7e2c-593d-836d-6d6733aa24cf
+treatment_response	PBBMYD_treatment_response	Unknown	-999	Not Reported	Not Reported	45483535-77eb-521c-ac11-0e12b6a15d14	cf636941-225c-5646-a126-9780a701a768
+treatment_response	PBBMYI_treatment_response	Unknown	-999	Not Reported	Not Reported	32b56f2b-bef8-535b-b610-01eef27cb291	535f73c2-a4be-5492-81d8-720fb4a3f0bd
+treatment_response	PBBMYJ_treatment_response	Complete Remission	-999	Not Reported	Not Reported	3622192a-746c-5029-aa4d-63608e96ee49	0018d276-9e1d-518d-88b5-dcd108853c31
+treatment_response	PBBMYK_treatment_response	Complete Remission	-999	Not Reported	Not Reported	c0409359-68e4-58a4-a8d7-0c257ce4a3e6	dfdae208-efea-57de-8b92-4a1d45382e06
+treatment_response	PBBMZV_treatment_response	Complete Remission	-999	Not Reported	Not Reported	89fdade0-5922-5c15-a0af-fb0a93b44328	08c2d2ea-70d4-583a-887e-b19241722f46
+treatment_response	PBBMZW_treatment_response	Complete Remission	-999	Not Reported	Not Reported	af54d4fe-814e-5f69-acca-4bbcefa3974c	59c87481-f393-5bf3-b68c-9963e0fd0642
+treatment_response	PBBMZY_treatment_response	Complete Remission	-999	Not Reported	Not Reported	ac8454b0-b229-5d4e-b568-117612423069	8b3f3947-2c59-5525-a00e-0ad7ed3a2d5d
+treatment_response	PBBNAU_treatment_response	Unknown	-999	Not Reported	Not Reported	58e54aea-b3da-52e5-8ed3-5c5d82724d74	d28b2c90-145b-56c1-b35b-9a4453ca2e0b
+treatment_response	PBBNAV_treatment_response	Complete Remission	-999	Not Reported	Not Reported	991b46cf-5094-5ed1-bf0b-be460a92dcf7	5dda9e5d-faa2-576b-86b1-f48b61797ca8
+treatment_response	PBBNAY_treatment_response	Unknown	-999	Not Reported	Not Reported	533c7923-f050-577d-887e-ae4fcab6081e	cb50a308-6b56-5ba5-bef2-c88dcda8991e
+treatment_response	PBBNBW_treatment_response	Complete Remission	-999	Not Reported	Not Reported	b11436b3-3b04-56bb-9b20-a44c7f3a240f	28101473-0be5-5601-a08f-2db9cb80636c
+treatment_response	PBBNCA_treatment_response	Unknown	-999	Not Reported	Not Reported	cf5b2783-b9bd-5efc-b8f7-e42d30408fcf	c09a26b9-f6d9-5e2b-a412-27b64adb4844
+treatment_response	PBBNCU_treatment_response	Unknown	-999	Not Reported	Not Reported	60e61048-46f6-57d0-90e9-5abcc88da1b6	4e041ec9-12c3-56eb-8113-575b27dddf57
+treatment_response	PBBNCV_treatment_response	Unknown	-999	Not Reported	Not Reported	309c2633-bf75-5153-87dd-cd4d0c920921	f267441b-e72d-5eeb-8b4d-4acda5e138c0
+treatment_response	PBBNDK_treatment_response	Complete Remission	-999	Not Reported	Not Reported	002f43eb-b9e8-5607-beb6-ad97bfe6a90f	e31ad555-0402-5271-bde7-341d239d8e98
+treatment_response	PBBNDM_treatment_response	Unknown	-999	Not Reported	Not Reported	3c7f7251-59ce-5497-a0c3-96675d0b9ad1	7f3d9a4e-b3a3-508c-88f1-895a9fccd8a5
+treatment_response	PBBNDR_treatment_response	Unknown	-999	Not Reported	Not Reported	fe23b1b0-c3f9-5753-b17b-e0bde7e3ddd6	7e158b8c-9b7f-5a22-8c12-ca44c1858831
+treatment_response	PBBNDZ_treatment_response	Unknown	-999	Not Reported	Not Reported	16f896e7-13d3-593d-a2d5-bb2d5790f4a3	da92d22a-e501-5f3d-81e3-45cf5a7910fe
+treatment_response	PBBNEE_treatment_response	Complete Remission	-999	Not Reported	Not Reported	b8400b7a-9708-5b19-abe1-bf2fbcc0c173	19e274ac-72f6-51b6-9660-e4e3623fc183
+treatment_response	PBBNEJ_treatment_response	Complete Remission	-999	Not Reported	Not Reported	d2c878b6-4896-57ac-abba-38f298914aad	b71e37e3-39db-5fa6-926c-ac7c2f3b2445
+treatment_response	PBBNFB_treatment_response	Unknown	-999	Not Reported	Not Reported	aad88898-aeaa-5317-b1d8-ce6a8593b224	02b93457-6a02-5135-bba0-8ed319c3b621
+treatment_response	PBBNFE_treatment_response	Unknown	-999	Not Reported	Not Reported	08ed3665-5227-5801-a069-bb90eba2309b	901ce1fe-b11e-5c96-8825-374ef9d36b2a
+treatment_response	PBBNFF_treatment_response	Complete Remission	-999	Not Reported	Not Reported	4df1beb0-5dbe-5802-ba1a-9b3716c6025a	326d2452-61b7-5dcb-b3f5-5f4c8d7da970
+treatment_response	PBBNFH_treatment_response	Unknown	-999	Not Reported	Not Reported	afa775ab-e76c-537a-b3b4-3840190df7a8	c4a07bdc-ca8b-55ca-ae0b-5924a49f40e5
+treatment_response	PBBNFJ_treatment_response	Complete Remission	-999	Not Reported	Not Reported	57b950be-bab9-5b4b-a6af-523d639d24bf	50cb1719-689e-5353-8d61-9ea31cc5a0de
+treatment_response	PBBNFP_treatment_response	Complete Remission	-999	Not Reported	Not Reported	d0138aac-f838-5064-9782-2884b7fe4d20	f6b8051a-6926-56f6-9d68-00ff59a92126
+treatment_response	PBBNFS_treatment_response	Complete Remission	-999	Not Reported	Not Reported	d295e440-c0fc-50f1-be0f-0fc260da2c5a	9ac82223-f30d-5d34-994b-d184bf704815
+treatment_response	PBBNGE_treatment_response	Complete Remission	-999	Not Reported	Not Reported	71fbbce5-005a-5947-931b-48322e4fddec	46f6daf1-e22c-54dd-94e9-3cf83f15f5e1
+treatment_response	PBBNHL_treatment_response	Complete Remission	-999	Not Reported	Not Reported	473bc630-5124-5df5-801a-cebd98cd8539	f2fff73c-52d6-55db-aa96-5ac52358d7a1
+treatment_response	PBBNHM_treatment_response	Complete Remission	-999	Not Reported	Not Reported	ad5295e8-8209-5e9b-9b98-3d6e5c738e11	554655c6-3981-5153-b263-701513016205
+treatment_response	PBBNHP_treatment_response	Complete Remission	-999	Not Reported	Not Reported	bdc3e959-e6d8-53be-8109-3fe8f0e67451	1249da65-c387-5564-b4ef-2d9dcf44d1a8
+treatment_response	PBBNIJ_treatment_response	Complete Remission	-999	Not Reported	Not Reported	1217de9a-56d3-5c33-ba47-b837f52fab1c	c332a527-2f09-5f82-8d59-8cee881cad3a
+treatment_response	PBBNIR_treatment_response	Unknown	-999	Not Reported	Not Reported	e3a57291-ca6b-5677-8b04-323f50c87a8e	e53a1030-7493-5a82-bf07-2766f294e98f
+treatment_response	PBBNIZ_treatment_response	Unknown	-999	Not Reported	Not Reported	fbc7fd2a-9a41-513a-937b-b8a65163658e	77b0aa79-b44a-525e-aad1-1cf50fd27254
+treatment_response	PBBNJH_treatment_response	Complete Remission	-999	Not Reported	Not Reported	da95d02e-a15c-52dc-b60f-db3b9212c0ca	282f8531-008b-5766-adb3-ca9f095181d9
+treatment_response	PBBNJM_treatment_response	Complete Remission	-999	Not Reported	Not Reported	0b6d78e1-6617-5c39-8f14-69f44ed7647c	b48f37c8-9b4e-5fa9-9a80-e40e32f8da4c
+treatment_response	PBBNLA_treatment_response	Complete Remission	-999	Not Reported	Not Reported	5da7ffc7-9a35-5c69-a37e-00f227e3c480	3f48062a-4878-5822-9776-d82e63cfaf75
+treatment_response	PBBNLF_treatment_response	Unknown	-999	Not Reported	Not Reported	ba557b26-a79e-5c71-907b-58cf9e6d1388	4fda356b-4cd0-57c7-8fdf-dfac836302fc
+treatment_response	PBBNMC_treatment_response	Complete Remission	-999	Not Reported	Not Reported	38906973-43ec-56ae-8ec5-dec52ed07f20	993e726c-7579-5555-92f9-ee5dc67c2c0e
+treatment_response	PBBNMN_treatment_response	Complete Remission	-999	Not Reported	Not Reported	85ad6b60-fb93-5a13-be33-98efc7662358	c3dc90c1-8b06-5d06-a9c3-24117b7289bb
+treatment_response	PBBNMV_treatment_response	Complete Remission	-999	Not Reported	Not Reported	7c34f6be-b2a2-5d4a-8d31-e07a6d86f9ed	ad41672f-3d95-543b-adac-411794dd12db
+treatment_response	PBBNND_treatment_response	Complete Remission	-999	Not Reported	Not Reported	237a4426-dd95-5ba8-95d7-2add3a182de0	2cf1c1d3-f85a-554b-a2ec-cc3d9581233e
+treatment_response	PBBNNM_treatment_response	Unknown	-999	Not Reported	Not Reported	cc2bedea-bc33-51c5-8c3d-cf397135a0be	e27c9158-fee6-532d-b8b7-5f334f27ec78
+treatment_response	PBBNNR_treatment_response	Unknown	-999	Not Reported	Not Reported	48f276eb-8b20-5b03-be5d-a90bf156f767	968e53dc-5348-56f2-a85d-9721b936b284
+treatment_response	PBBNPB_treatment_response	Unknown	-999	Not Reported	Not Reported	4f7b0435-ad19-5ad0-ab12-af1fc83d1240	c37c1d2c-af3c-57e5-9784-23ba09ac79f9
+treatment_response	PBBNRL_treatment_response	Complete Remission	-999	Not Reported	Not Reported	7b807c83-eda3-5797-baa0-ad72097862a6	d59c27a2-d0b7-5c89-be42-4402efad6c88
+treatment_response	PBBNSB_treatment_response	Unknown	-999	Not Reported	Not Reported	89154dba-435d-5c4a-be73-15cc7f4f6fe2	42694828-26d3-538b-8693-6ed8e59ba2cf
+treatment_response	PBBNSG_treatment_response	Unknown	-999	Not Reported	Not Reported	731dc24d-2b8b-5a08-b37b-99d96fa1026b	82a9b52f-63d9-55ed-b608-58ab421622c0
+treatment_response	PBBNSH_treatment_response	Complete Remission	-999	Not Reported	Not Reported	867b814b-794d-5d4d-96b0-24870d1620ec	7a096841-14a8-530e-a8a8-45825dfc58e8
+treatment_response	PBBNSR_treatment_response	Unknown	-999	Not Reported	Not Reported	fb04ed26-8022-5a09-b812-83fb9758d2d5	36bf83b8-8772-529e-8d99-4cc8eafa0b9a
+treatment_response	PBBNST_treatment_response	Unknown	-999	Not Reported	Not Reported	6b67b726-ecfe-53de-b111-f07883e92b14	06e0fcc9-5b8f-5b70-ba9c-5a9440e2835c
+treatment_response	PBBNSZ_treatment_response	Complete Remission	-999	Not Reported	Not Reported	f2fc6223-738d-5ed5-a0d5-4a7bc2eb06f3	1bbd984b-65d9-5cfd-8865-22e6052126e4
+treatment_response	PBBNTI_treatment_response	Unknown	-999	Not Reported	Not Reported	d00c37dc-8cb0-50c8-8cfc-4e71091cd3d3	b7a75349-03b1-5a3d-987f-487eb14becee
+treatment_response	PBBNTK_treatment_response	Unknown	-999	Not Reported	Not Reported	155125b5-fe19-583c-89fb-85f797912e98	614c5da3-3e87-5b36-83ae-f241c60054bc
+treatment_response	PBBNTY_treatment_response	Unknown	-999	Not Reported	Not Reported	f2b394a2-361a-59f2-954a-10aaf8703a5c	414be4d7-3868-5f54-ad21-ea35a62eb2fa
+treatment_response	PBBNUZ_treatment_response	Complete Remission	-999	Not Reported	Not Reported	6d96ef90-a2d9-59e6-8ea0-a1da0dc2655e	7f123985-588d-5f01-9967-b3bb70818d07
+treatment_response	PBBNVD_treatment_response	Unknown	-999	Not Reported	Not Reported	4f0aeb7a-8839-51e1-bdc0-08fabe069eca	6c779065-e040-5faa-9f96-c915d9b7f1ae
+treatment_response	PBBNVL_treatment_response	Complete Remission	-999	Not Reported	Not Reported	d5cacac9-4b35-5163-b924-4fb442c112b6	5123f119-61e9-5a4d-8753-57d8797cd211
+treatment_response	PBBNVP_treatment_response	Unknown	-999	Not Reported	Not Reported	5132ce58-73c4-51e9-b00c-1143fdb7adf5	58330c55-8a34-56eb-b8b8-caf0c9b8c066
+treatment_response	PBBNVV_treatment_response	Unknown	-999	Not Reported	Not Reported	21995cf6-13c9-5e8c-9897-a3d557a8d39b	068ba27f-1982-5b1b-acb4-582766508806
+treatment_response	PBBNVW_treatment_response	Complete Remission	-999	Not Reported	Not Reported	920d6cb6-29df-57ff-bfcf-1b83f0c15d1b	e942ee51-1a86-54dd-8ee6-5f5f07fd60e1
+treatment_response	PBBNVX_treatment_response	Complete Remission	-999	Not Reported	Not Reported	30a3e8b6-818e-5e27-bf5a-9ed7c374d20a	4b9954d7-7422-54a0-88c4-3b1c5924cee3
+treatment_response	PBBNWE_treatment_response	Unknown	-999	Not Reported	Not Reported	6a2eb51c-d4d6-5d2f-968a-4f3b36774cb2	f1139f75-be38-506c-8c47-22a99b89f978
+treatment_response	PBBNWV_treatment_response	Complete Remission	-999	Not Reported	Not Reported	e2d4b1a7-4422-5a4a-abc2-d1bb21b1b2ca	aa3c9f7a-6a6c-55f5-a0a9-7320cf3462a1
+treatment_response	PBBNYE_treatment_response	Unknown	-999	Not Reported	Not Reported	949960f0-7e5c-5eaf-97dc-eb5a4c13c1fd	50242bfe-9f0f-5a38-87ae-b5de42344cdc
+treatment_response	PBBNYH_treatment_response	Complete Remission	-999	Not Reported	Not Reported	12495995-e34e-5122-8866-b8c898eef90e	44bfe95f-6f1a-579c-8a25-76e5097b6982
+treatment_response	PBBNYL_treatment_response	Complete Remission	-999	Not Reported	Not Reported	7e927849-31fb-5000-b774-d08a48ce1275	aa1eef28-ac3f-56fc-b4a7-1b3cb9aadcbf
+treatment_response	PBBNZF_treatment_response	Unknown	-999	Not Reported	Not Reported	3c1e2fad-7640-5856-9f54-08bc42dd16a7	c0c7cba6-f668-58a9-a6ae-d8f4cad29785
+treatment_response	PBBNZJ_treatment_response	Unknown	-999	Not Reported	Not Reported	289cbf1e-4094-5f12-952a-5e2ab9547693	bbf63651-b59d-5b82-aa2f-7912ebc7dc4a
+treatment_response	PBBNZZ_treatment_response	Complete Remission	-999	Not Reported	Not Reported	4339e24e-8e11-526b-a42f-5b87833b5194	99165519-8d00-5252-95d0-f18a52cd91a3
+treatment_response	PBBPAR_treatment_response	Unknown	-999	Not Reported	Not Reported	38d7fdbf-0913-509b-a007-7224b4069653	207a65af-4a2d-5731-a6c8-1168347d2091
+treatment_response	PBBPBB_treatment_response	Complete Remission	-999	Not Reported	Not Reported	f304f879-23a2-525d-8488-d1fd691ebfa9	c15ea962-609e-54bd-9fd5-b7e00be26905
+treatment_response	PBBPBM_treatment_response	Complete Remission	-999	Not Reported	Not Reported	fca0aa09-b790-57ab-ab92-30351df0d553	ebb5c675-6b8f-5e09-811d-dba43acb5693
+treatment_response	PBBPCC_treatment_response	Complete Remission	-999	Not Reported	Not Reported	5db14d2b-2adf-5895-80b2-954418184b85	2b1c261c-5cfa-59b5-a64e-c1f3b96ade88
+treatment_response	PBBPCL_treatment_response	Complete Remission	-999	Not Reported	Not Reported	efe292d0-b5bb-5b34-982b-fb8ff56b5fe7	8e9be3aa-4f08-5bcc-aead-ce9061eab6f6
+treatment_response	PBBPDC_treatment_response	Unknown	-999	Not Reported	Not Reported	ddc4141d-7f65-5a73-bf92-f74f845b5b37	f6b83fda-b3e7-540f-9e89-6064a6521687
+treatment_response	PBBPDS_treatment_response	Complete Remission	-999	Not Reported	Not Reported	0201c355-c403-54c6-882f-61a088ceb817	da29a22e-af8a-5d36-86d6-cb47d76aca91
+treatment_response	PBBPDU_treatment_response	Not Reported	-999	Not Reported	Not Reported	cc9ce1f7-ec4f-5a03-af36-e00c0b06e001	ee13a03a-333e-5d9b-9d34-9ad1db61ffe5
+treatment_response	PBBPDY_treatment_response	Complete Remission	-999	Not Reported	Not Reported	02fef00c-0f87-5a22-86f5-8ef85395a167	3a33f101-afbc-5376-924a-c60105921399
+treatment_response	PBBPEH_treatment_response	Unknown	-999	Not Reported	Not Reported	a30c4955-da3d-5d52-9837-5fdf7d7070eb	69765fca-e057-5913-b7ee-73f0bb8c1f5c
+treatment_response	PBBPEP_treatment_response	Complete Remission	-999	Not Reported	Not Reported	a9d73c3a-09bb-5ee7-a976-8f2de22cd35b	7dda403d-9c0e-547d-b505-3ee0efdc37b0
+treatment_response	PBBPEU_treatment_response	Complete Remission	-999	Not Reported	Not Reported	53ffa89f-f1fd-5e2b-8a69-256c60aedb8e	68807b14-2db8-5d1a-abdc-a31cb69c4d27
+treatment_response	PBBPFA_treatment_response	Complete Remission	-999	Not Reported	Not Reported	8389fb5f-701c-52cf-9b3f-6822ecd48f3c	5101588f-7187-528d-85ee-9740d21ce895
+treatment_response	PBBPFG_treatment_response	Unknown	-999	Not Reported	Not Reported	e0679e40-0b80-554d-840b-e67bfbe1a8d5	365bff5e-58ae-574d-83b2-3fe0a24bb234
+treatment_response	PBBPGA_treatment_response	Unknown	-999	Not Reported	Not Reported	9fcc000d-83e7-5a1f-8cb2-26353a4fba9e	4956f9f6-0cd4-5305-befe-4b8b08a42e7b
+treatment_response	PBBPGJ_treatment_response	Complete Remission	-999	Not Reported	Not Reported	bc20a431-a554-5b3f-9cb6-2a2b4f0a69c0	02cb481c-4694-5c9d-af50-b60c12dcce7c
+treatment_response	PBBPGL_treatment_response	Complete Remission	-999	Not Reported	Not Reported	2ea360b6-39f3-5753-acc7-3970f9d0941e	b122161c-c7f2-5dcf-8630-84f9f89198c1
+treatment_response	PBBPGM_treatment_response	Complete Remission	-999	Not Reported	Not Reported	d3cbec0d-d746-5eb3-a2fb-91ccfa34df89	0a450405-59c0-5204-ad65-09d1243ddd06
+treatment_response	PBBPHZ_treatment_response	Complete Remission	-999	Not Reported	Not Reported	1a624804-5df8-50cd-b793-91f6bcda4f68	c2657ad5-6bd6-5495-b040-24532a78dc0c
+treatment_response	PBBPIH_treatment_response	Unknown	-999	Not Reported	Not Reported	823dee5b-6524-5506-bb3a-61802f77f7ac	454fee6a-70f8-5b7a-8f59-0eb22d7fa6cb
+treatment_response	PBBPJU_treatment_response	Complete Remission	-999	Not Reported	Not Reported	7d5c521a-e17f-5e51-a429-bea9d457d707	031794d9-eac4-51fc-803f-94d2d9ca73d2
+treatment_response	PBBPJV_treatment_response	Complete Remission	-999	Not Reported	Not Reported	8b4982ff-8918-506b-99cf-04e15b698415	294008e5-0a16-549b-bbf6-e0801d331f1c
+treatment_response	PBBPKC_treatment_response	Unknown	-999	Not Reported	Not Reported	ad3524d3-32c6-527e-b92b-7d4515bcc56b	b5e1be7c-141d-50c1-9e62-fd24452c6209
+treatment_response	PBBPKG_treatment_response	Complete Remission	-999	Not Reported	Not Reported	eb123476-1714-52dd-a8c9-3eebbb2dd88b	367a553f-4d22-5e54-9fc4-e2ebef0e8000
+treatment_response	PBBPKI_treatment_response	Complete Remission	-999	Not Reported	Not Reported	c1f4cadb-dcce-5508-8b10-7d4a2779e930	7f5f0ce2-ea73-5667-b451-797e2ae869bd
+treatment_response	PBBPKN_treatment_response	Complete Remission	-999	Not Reported	Not Reported	0d248da7-7baf-5e21-b3be-c3ac79c49a8e	6b9fa2f9-b855-5997-b298-8b29d112815d
+treatment_response	PBBPLF_treatment_response	Complete Remission	-999	Not Reported	Not Reported	9f2e6aeb-81f9-5ea8-9717-76f12643401a	ec04ecb8-df4f-5aba-994d-1a6a12fba220
+treatment_response	PBBPLH_treatment_response	Unknown	-999	Not Reported	Not Reported	eb70d131-934b-5f2c-9ebd-b306c7533741	5ad1da83-c6b6-5347-b708-51b829db03cf
+treatment_response	PBBPLS_treatment_response	Complete Remission	-999	Not Reported	Not Reported	4d6e5db7-a9d7-5e64-ad48-d80e9343108d	8d159a20-31cf-5f0e-be4e-72391a943373
+treatment_response	PBBPMB_treatment_response	Complete Remission	-999	Not Reported	Not Reported	b71a8e85-a7e6-59b5-8c93-c0c5460bf291	986cba22-ef52-53ea-985a-f45ed6f846ed
+treatment_response	PBBPMG_treatment_response	Unknown	-999	Not Reported	Not Reported	85a93a9d-9496-5dc5-861b-7171a031a5c5	5a4172c9-2889-5d68-8aa8-a59c33e09a46
+treatment_response	PBBPMJ_treatment_response	Complete Remission	-999	Not Reported	Not Reported	d2b94a79-2a4b-5b6b-aa03-84571de2abac	797bc1f2-eb75-5994-8c41-0c0e9fa42c66
+treatment_response	PBBPMT_treatment_response	Complete Remission	-999	Not Reported	Not Reported	e3ac4064-ae70-55bf-8871-4a23993768ee	47af71c4-68fa-51f7-90a6-870fae9b37ed
+treatment_response	PBBPMY_treatment_response	Unknown	-999	Not Reported	Not Reported	d7597fce-3829-5b1d-88b2-7686c87c29cb	03eb15cc-cee5-576d-b45c-7cfe0de6e23e
+treatment_response	PBBPMZ_treatment_response	Unknown	-999	Not Reported	Not Reported	d371ee95-f2fa-559e-a849-17d4789ab122	7dadff2e-5dab-5a8b-933a-a80838415d11
+treatment_response	PBBPNC_treatment_response	Unknown	-999	Not Reported	Not Reported	6289c37e-1b55-557b-bd6e-a7e5b00f50cd	bbe95154-6757-514f-b999-2fd2640bbf67
+treatment_response	PBBPNK_treatment_response	Complete Remission	-999	Not Reported	Not Reported	fe827ffd-fa2f-56f1-9426-a268dcc0ada3	ca3163e2-c048-5b64-85b4-eb3833b6aa67
+treatment_response	PBBPNS_treatment_response	Unknown	-999	Not Reported	Not Reported	c0fb0398-3c28-5bc5-9763-da20c9a890bc	fd5d8283-175e-566b-97ac-bf6e310dca76
+treatment_response	PBBPNV_treatment_response	Complete Remission	-999	Not Reported	Not Reported	99c1be13-f7bc-5d58-8ba4-c6542fdae44b	00ff41f9-84b8-57f0-9bdd-b3344642a397
+treatment_response	PBBPPA_treatment_response	Unknown	-999	Not Reported	Not Reported	492fbe13-073b-557a-9239-6cd7b72a41ec	a680e3a1-709f-5df2-85bb-900812c542dd
+treatment_response	PBBPPV_treatment_response	Complete Remission	-999	Not Reported	Not Reported	285a2f30-6a14-5cca-b94a-31886e033f6e	c879bd16-f10d-5ade-9baf-ca201a909cd8
+treatment_response	PBBPPW_treatment_response	Unknown	-999	Not Reported	Not Reported	4ea12f58-7dd2-58ec-9da5-8a418c741004	98537530-5e85-555c-8ae5-cb0dff593703
+treatment_response	PBBPRD_treatment_response	Unknown	-999	Not Reported	Not Reported	d181a182-49fe-5acb-bc25-867fbac82394	768cf73b-7dc4-59e1-9ea1-f0b3e7351062
+treatment_response	PBBPRN_treatment_response	Complete Remission	-999	Not Reported	Not Reported	6045eeb8-0bf9-5767-8023-ef16e0b6400b	0c14757c-7162-5b1b-80dd-f424bd2fe179
+treatment_response	PBBPRP_treatment_response	Complete Remission	-999	Not Reported	Not Reported	5d9dda49-3826-5eae-a214-d48878b58c3e	a7127ac7-7a7a-503b-9bb7-cb93b9c497f5
+treatment_response	PBBPRS_treatment_response	Complete Remission	-999	Not Reported	Not Reported	28ad69de-ce26-542f-b706-b36bf25746bc	74c21051-b8ff-5c5b-8259-8a150e30562d
+treatment_response	PBBPSX_treatment_response	Unknown	-999	Not Reported	Not Reported	7cb49dc3-2f24-52d0-9bf0-14a56fa0ca05	a45e2705-9c72-5446-bc71-28025233929e
+treatment_response	PBBPTC_treatment_response	Complete Remission	-999	Not Reported	Not Reported	6e596fa0-26ac-5db6-ae81-f093ec05f9d0	effd29d1-f7f5-5ec1-a5a6-3a443ad5cd1b
+treatment_response	PBBPUC_treatment_response	Unknown	-999	Not Reported	Not Reported	3e567a75-d88c-57e7-906a-81a52900b838	3b7935c3-b00b-5d4c-a7eb-9aa73aa246cd
+treatment_response	PBBPUW_treatment_response	Complete Remission	-999	Not Reported	Not Reported	1b2dc4d7-df26-544b-bff0-62709be9a74a	b8c25131-fd5c-5a36-b83d-6e67d1f49bd4
+treatment_response	PBBPVG_treatment_response	Complete Remission	-999	Not Reported	Not Reported	19bcbc6c-2fdb-5e55-9048-f7b3e96cb495	0a35b5b1-4976-5402-a525-485d4be5344d
+treatment_response	PBBPVS_treatment_response	Unknown	-999	Not Reported	Not Reported	592e015e-1c97-56a0-8209-66406b67c6ca	484d6ca8-6b75-5e1d-9d5a-2b7ab9760086
+treatment_response	PBBPWD_treatment_response	Complete Remission	-999	Not Reported	Not Reported	56831c56-0874-51e0-952b-8a15efb5395c	cff9fb52-1b7b-5689-8454-2fe487c0c7bb
+treatment_response	PBBPWE_treatment_response	Complete Remission	-999	Not Reported	Not Reported	5ba25c2f-1ec6-589a-8b4b-5c80cd40b7ea	9177d407-313e-54f2-a4c8-ca566079a199
+treatment_response	PBBPWH_treatment_response	Unknown	-999	Not Reported	Not Reported	30a233d6-f807-5f05-842c-b28575b54b76	08fdfb24-3cdd-5685-bbdf-b74a1e6f7f2f
+treatment_response	PBBPWK_treatment_response	Complete Remission	-999	Not Reported	Not Reported	8a757ce1-ef48-5c1f-a56f-e0e664befafb	43a5cf0d-d908-5ce7-83dd-063ebfcff50e
+treatment_response	PBBPWT_treatment_response	Complete Remission	-999	Not Reported	Not Reported	accb3c79-155d-5c53-8e3a-69a0f366a775	b362536b-0250-57d7-8a6b-668e26a7e686
+treatment_response	PBBPXA_treatment_response	Complete Remission	-999	Not Reported	Not Reported	072f2bae-61b7-50bd-953b-95901fb38375	f0f67633-72d8-5415-9ed5-9faf7c3613d0
+treatment_response	PBBPXU_treatment_response	Unknown	-999	Not Reported	Not Reported	48050ff9-86ab-550e-afe4-89adf940e9eb	31cec79c-4c38-521e-ae80-36320fc1dfe1
+treatment_response	PBBPXX_treatment_response	Complete Remission	-999	Not Reported	Not Reported	9d6b3208-98ad-53f1-87c6-93922bf77c14	4247957a-6807-5a07-a012-f6f12690bcd3
+treatment_response	PBBPYD_treatment_response	Complete Remission	-999	Not Reported	Not Reported	ae8002b4-b803-532b-87a5-d56ee154ad06	06c32d36-d8b8-543f-8bdb-9e7e253f0944
+treatment_response	PBBPYS_treatment_response	Unknown	-999	Not Reported	Not Reported	ddbef1cb-5396-5e44-bcb2-823e35e18052	e8009c7e-4050-56c0-b8c2-bb5d8f753937
+treatment_response	PBBPZW_treatment_response	Unknown	-999	Not Reported	Not Reported	91b11004-832d-50ed-a273-2ab77cb1347f	dc8c40b5-c15c-54e0-9bfa-9f18774c1832
+treatment_response	PBBRAT_treatment_response	Unknown	-999	Not Reported	Not Reported	13c0415e-0d2f-58aa-bc2e-b5b9e884dff7	8dd75f1c-5b96-5164-88ce-4f41b285b96a
+treatment_response	PBBRAW_treatment_response	Unknown	-999	Not Reported	Not Reported	2c11bce1-cd4f-5f52-a194-88dbba4960d5	4a283c8d-4d56-5e38-9454-c85856ad35c6
+treatment_response	PBBRAZ_treatment_response	Complete Remission	-999	Not Reported	Not Reported	d2a9907b-5938-5273-9017-3ec0c1a97438	0c43e9b2-e67d-57db-babf-f8e456ec68a6
+treatment_response	PBBRBG_treatment_response	Complete Remission	-999	Not Reported	Not Reported	739c651b-c039-55ee-89ee-604ef72d1a22	6acf1bd4-3a67-53b1-8b7d-ba97e78f686a
+treatment_response	PBBRBP_treatment_response	Complete Remission	-999	Not Reported	Not Reported	55932706-1339-52bc-8fa1-91ec9487ccb9	7959c4a1-0750-568a-b0d2-4a40de307ffa
+treatment_response	PBBRBS_treatment_response	Unknown	-999	Not Reported	Not Reported	169d536a-2a16-5f1c-81e7-5d6b2d171f79	106e8b53-c5b9-537e-b1c1-c69d152665fb
+treatment_response	PBBRBY_treatment_response	Complete Remission	-999	Not Reported	Not Reported	b3d3be85-3452-5e28-b74c-f4b150800944	d33c4073-2469-5aa9-b6ea-6a3f775d993e
+treatment_response	PBBRCF_treatment_response	Unknown	-999	Not Reported	Not Reported	1ee85860-205a-5959-ab5d-eb57224a3359	8fc6c900-a299-55ba-8d2d-ac717b4ec2ae
+treatment_response	PBBRCW_treatment_response	Complete Remission	-999	Not Reported	Not Reported	fe363c7b-d282-5055-bddb-e90110810fdb	fc0a85e5-48b6-5639-a555-fcfebe3d5ef1
+treatment_response	PBBRDE_treatment_response	Unknown	-999	Not Reported	Not Reported	b945a225-cbe7-5f21-a409-a32fde6b2426	5030c21c-8778-52ab-a98d-907e205f1ba9
+treatment_response	PBBRDM_treatment_response	Complete Remission	-999	Not Reported	Not Reported	a1346fb3-85dc-5b96-9a63-34d9a4ba22f6	8547c4d3-7226-565b-8ede-eea9933723f3
+treatment_response	PBBREK_treatment_response	Unknown	-999	Not Reported	Not Reported	874069b5-a62f-5f6b-b61b-29bedda6d4e6	c0876e70-83a3-5557-a7eb-db5cf6e76899
+treatment_response	PBBRET_treatment_response	Unknown	-999	Not Reported	Not Reported	f127440d-9029-5fb4-b9cf-903cfb653c8a	f08f8ed6-e4c8-57b7-83a4-1bea8faaf931
+treatment_response	PBBREU_treatment_response	Complete Remission	-999	Not Reported	Not Reported	5a78ea71-6848-5ba5-9faa-707225171da3	c880f586-c73d-5164-8476-af81923224aa
+treatment_response	PBBREX_treatment_response	Complete Remission	-999	Not Reported	Not Reported	ce7c2317-4f2b-55af-8b58-4430bacb4046	ef9db211-ec08-57ef-8eaa-aaa075e1ae8b
+treatment_response	PBBRFA_treatment_response	Unknown	-999	Not Reported	Not Reported	3cdf48d9-cba3-59a0-87f0-6844a2361e06	dbb07112-a994-5da0-9ed6-7e7e572161ae
+treatment_response	PBBRFM_treatment_response	Unknown	-999	Not Reported	Not Reported	3650ce25-00be-59bb-bc7b-e51be8cce59b	15d0ca02-8fbe-5c7d-95ea-3a4317516554
+treatment_response	PBBRGL_treatment_response	Unknown	-999	Not Reported	Not Reported	bc1f76e3-717d-59b6-9e31-09c936d1b56e	7c4b831e-a768-51a0-a7ef-e50c3b8c8fde
+treatment_response	PBBRGW_treatment_response	Unknown	-999	Not Reported	Not Reported	abdcd1d7-ff93-5b66-a4d6-9f451af087d8	f2a5dec7-6bfc-5518-b8f9-96baaa2d94fe
+treatment_response	PBBRHB_treatment_response	Complete Remission	-999	Not Reported	Not Reported	fb0e1518-e264-579a-9daf-cccff5e83759	7d846612-d76c-50aa-976c-434d70f358ff
+treatment_response	PBBRHM_treatment_response	Complete Remission	-999	Not Reported	Not Reported	b913424d-a002-52dc-80d3-0b4f43194b37	fb8e294e-ffd7-5ade-9620-f610999fb63d
+treatment_response	PBBRIE_treatment_response	Complete Remission	-999	Not Reported	Not Reported	f95953ff-3bf9-56e6-bf01-8ab64cb2e434	b7eade2e-960d-5bd7-b765-8b9ddf40f32c
+treatment_response	PBBRIL_treatment_response	Unknown	-999	Not Reported	Not Reported	5e93d959-6be9-5a85-bb6a-00eac988d90b	066a641f-8d0e-59d4-a5ac-e21c791921ac
+treatment_response	PBBRJF_treatment_response	Complete Remission	-999	Not Reported	Not Reported	a29fd48e-f444-5078-93f1-214b75fe4001	6ff5b85e-7f3a-59e1-acf7-a055870bc179
+treatment_response	PBBRJL_treatment_response	Complete Remission	-999	Not Reported	Not Reported	cff343ba-53fb-58d5-a555-9ea13a664ba1	2317443d-4056-50c6-940c-a576c8485601
+treatment_response	PBBRKB_treatment_response	Complete Remission	-999	Not Reported	Not Reported	5fe56d63-084d-590a-b6e8-f12eea1f1058	aac74a18-df8a-5f1e-8c49-2889a834dd40
+treatment_response	PBBRKD_treatment_response	Complete Remission	-999	Not Reported	Not Reported	d99389b9-8fb3-58d6-8891-9af071314e3f	8207e8dc-4324-5e1d-a3da-35ba3892d37e
+treatment_response	PBBRKJ_treatment_response	Unknown	-999	Not Reported	Not Reported	3c4ba67c-747d-5325-a514-9d62f55b5830	f514aef7-4ae9-5e24-80cd-a48813313ac3
+treatment_response	PBBRKN_treatment_response	Unknown	-999	Not Reported	Not Reported	65858f46-164a-588c-8dd5-48fd82353617	637e8ede-9dab-5e38-8273-25da98841119
+treatment_response	PBBRKP_treatment_response	Complete Remission	-999	Not Reported	Not Reported	001fad30-30d3-50f1-9efb-1e3d4a843c62	176e34d5-e06a-51ef-941c-42724fc0e832
+treatment_response	PBBRLC_treatment_response	Complete Remission	-999	Not Reported	Not Reported	5f98d0b3-d3ed-5655-a1ef-e6217c1e784b	f3badbda-79c5-5a1a-b17c-a84e6a44407e
+treatment_response	PBBRLD_treatment_response	Complete Remission	-999	Not Reported	Not Reported	23a5cc48-e1f5-5431-987b-215d7d97f886	3fb512a2-86a1-57c1-afe2-a4c19e49472e
+treatment_response	PBBRLH_treatment_response	Complete Remission	-999	Not Reported	Not Reported	fff8a9bb-af4d-5ac4-9d0b-fea4a657b851	8736ba04-2236-5da3-a95f-ce86187d0ed8
+treatment_response	PBBRLR_treatment_response	Complete Remission	-999	Not Reported	Not Reported	f32e2238-2bad-5e4b-abd8-48425492b6ad	5e3486d9-d854-5569-8ebb-93fb05e3790a
+treatment_response	PBBRLS_treatment_response	Unknown	-999	Not Reported	Not Reported	c7456032-2544-5e00-b32a-f886a3004508	9041a36f-9bb4-5864-b997-1be48e8c89e0
+treatment_response	PBBRLT_treatment_response	Complete Remission	-999	Not Reported	Not Reported	8dc4d8e7-f53d-5158-a4a5-939eb6fa0670	b1cc50a4-b470-5799-a289-25a2e91322c2
+treatment_response	PBBRLX_treatment_response	Unknown	-999	Not Reported	Not Reported	e5ec94b2-0b1f-5ae1-8c34-e3f49acdf326	7ac6f436-a6b7-50cb-afc2-e524b7f20b21
+treatment_response	PBBRNA_treatment_response	Complete Remission	-999	Not Reported	Not Reported	5bce5255-e33e-55cb-ae95-f114a4fb66e7	a5f32708-2b84-5095-a353-d92c0c08bbf9
+treatment_response	PBBRND_treatment_response	Unknown	-999	Not Reported	Not Reported	9818feda-55a3-5256-bbf3-41c95ea179f6	2e717b75-482e-5507-98bf-6a685162a012
+treatment_response	PBBRNY_treatment_response	Complete Remission	-999	Not Reported	Not Reported	e0581eca-76ad-5b51-bb3c-dd45f29f8e45	b4f263ed-4beb-571c-97cb-0d62b5525bd8
+treatment_response	PBBRPL_treatment_response	Unknown	-999	Not Reported	Not Reported	0b0ee7e5-b4ca-57b8-9753-0da18aed56e9	f683ca4e-dae5-5f36-ade9-c567e0b55113
+treatment_response	PBBRPW_treatment_response	Complete Remission	-999	Not Reported	Not Reported	e062644f-46b0-5638-a38c-2f827a8293dd	fc247ead-7e83-55c9-aeff-431e417092c2
+treatment_response	PBBRPX_treatment_response	Complete Remission	-999	Not Reported	Not Reported	c120e9c5-2644-5dfa-a06a-cc71f026841b	f0389e7a-3ecd-5114-9c27-6eb32b6f6d7f
+treatment_response	PBBRPZ_treatment_response	Unknown	-999	Not Reported	Not Reported	a087cd8d-0750-51f2-9db9-e1b452f49421	adc3a87e-720c-545f-bf91-344769ac32d7
+treatment_response	PBBRRE_treatment_response	Complete Remission	-999	Not Reported	Not Reported	9e8a62eb-6e90-5ebd-a47b-dd672acae438	69375ce5-e198-5488-b8ad-a80aa949f01d
+treatment_response	PBBRRI_treatment_response	Complete Remission	-999	Not Reported	Not Reported	56071620-ba67-57a3-9b25-ed39c6f88f80	b3b30ec8-9abe-5cbd-b439-e40bdeb0829e
+treatment_response	PBBRSA_treatment_response	Complete Remission	-999	Not Reported	Not Reported	3b77a3c7-233b-5cfa-ad62-3b32a8cd36e3	a8d9db55-abcd-59ff-b2d6-b32a57785b21
+treatment_response	PBBRSL_treatment_response	Complete Remission	-999	Not Reported	Not Reported	4ebbc868-437c-50a6-bf1a-a9cf39a9cfec	9956b62b-7512-5058-af43-15ac20366920
+treatment_response	PBBRSX_treatment_response	Unknown	-999	Not Reported	Not Reported	d46f7a14-d2eb-5ec2-886b-cb811917f708	57af6c5f-a6e2-5c08-86ec-8bb6efcc215e
+treatment_response	PBBRUB_treatment_response	Complete Remission	-999	Not Reported	Not Reported	43e5db7e-ca88-594a-9252-da4079629860	9667711b-358e-5a98-9047-5edc0755b436
+treatment_response	PBBRUG_treatment_response	Unknown	-999	Not Reported	Not Reported	dcb00cea-5382-532d-ad94-d90bf500d207	7abd6851-ebe7-5c0d-a526-82105cbf47bd
+treatment_response	PBBRUJ_treatment_response	Complete Remission	-999	Not Reported	Not Reported	279a4b7d-7f8f-557b-8e65-36dbfe21ed93	9a6f21f4-3032-568c-85fc-af119b9cad2c
+treatment_response	PBBRUR_treatment_response	Complete Remission	-999	Not Reported	Not Reported	16ce6c71-344e-5c57-a3fd-6557ad8ddf85	7d2093c5-4ee0-5dbd-b956-70391be1b25e
+treatment_response	PBBRVP_treatment_response	Complete Remission	-999	Not Reported	Not Reported	98efbba9-6cff-5218-93ad-ebcc1eb76f11	fc0e0329-34a1-50b4-b64c-4664caa8b4bb
+treatment_response	PBBRWM_treatment_response	Complete Remission	-999	Not Reported	Not Reported	d58d8985-5252-532b-b945-2de63ace8991	e97ad475-52c1-5245-b118-abb6d9dd1653
+treatment_response	PBBRWR_treatment_response	Complete Remission	-999	Not Reported	Not Reported	05785e21-e033-5fe6-8447-f0dd39fb551a	8a0751ff-0820-525d-acd4-849f79858833
+treatment_response	PBBRWZ_treatment_response	Complete Remission	-999	Not Reported	Not Reported	716190c6-5b5c-5de8-9e7c-d727544e07e1	73989b72-eff1-598b-9707-69ceee40e195
+treatment_response	PBBRXI_treatment_response	Complete Remission	-999	Not Reported	Not Reported	4e31d508-a383-5916-b402-21449c2c4681	ac1b1a93-800b-50b3-b4a5-4c890848f185
+treatment_response	PBBRXL_treatment_response	Unknown	-999	Not Reported	Not Reported	37351fca-d4c8-5371-9d78-ed5d701120f2	38e530c5-204b-51cc-acbf-6f3370eb9465
+treatment_response	PBBRXN_treatment_response	Complete Remission	-999	Not Reported	Not Reported	2febc5a6-1655-5d34-ba27-078555dcfd5a	73fedb82-d137-56f9-a8a9-43c24d27d051
+treatment_response	PBBRXR_treatment_response	Complete Remission	-999	Not Reported	Not Reported	1ba1e8b1-6304-5519-a48f-9d10f402a502	354d7173-2087-5a1f-a4e6-f1184ae5dfba
+treatment_response	PBBRYA_treatment_response	Unknown	-999	Not Reported	Not Reported	18be4dca-3ca1-58e2-acb7-023c6e30c38c	34808d59-cdda-57b0-956c-4d42f3733ba0
+treatment_response	PBBRYM_treatment_response	Complete Remission	-999	Not Reported	Not Reported	98aa2152-b316-5b04-a5b8-6920a3758885	9b41d4f2-021e-5a9a-9051-689f1b0b8a19
+treatment_response	PBBRYS_treatment_response	Complete Remission	-999	Not Reported	Not Reported	6a326007-2b9b-54b0-99a1-5443fd45e444	583dcfe7-04c0-5603-af9c-d592f81e00d2
+treatment_response	PBBRYT_treatment_response	Complete Remission	-999	Not Reported	Not Reported	cb022143-a1c8-5df9-8c35-948c81e56a24	2be6f089-0b9f-5663-9069-3277eb61d3ba
+treatment_response	PBBRZB_treatment_response	Unknown	-999	Not Reported	Not Reported	94d608f3-5ba2-5b6f-a72a-3f06b79a69eb	c42aa468-4d00-54cc-b6aa-e38a9d171b5f
+treatment_response	PBBRZD_treatment_response	Unknown	-999	Not Reported	Not Reported	cd76cb81-af68-53b7-81f0-ec82bd73994b	dc09b7a1-36a7-5bd1-9ff3-df843e24d009
+treatment_response	PBBRZR_treatment_response	Unknown	-999	Not Reported	Not Reported	fc965c3f-421b-5fab-a613-71f0ce0c0396	d592d5af-48a6-56b3-8ba1-c0b501208d44
+treatment_response	PBBRZV_treatment_response	Unknown	-999	Not Reported	Not Reported	ab72362f-24eb-52ac-bbb1-1496a6dc8d63	9999e4c4-e6b1-5461-bcca-2d5a2fcca793
+treatment_response	PBBRZX_treatment_response	Unknown	-999	Not Reported	Not Reported	e7ed1160-359c-5be2-99d4-50eb84195d33	d32d4548-35f5-5eae-8282-d2d459ab3244
+treatment_response	PBBSAI_treatment_response	Unknown	-999	Not Reported	Not Reported	ed4b920f-4375-575b-b86f-2ab0b7cc945a	e91da683-ade4-5c33-ac47-303acb2902bc
+treatment_response	PBBSAX_treatment_response	Unknown	-999	Not Reported	Not Reported	25025359-4c25-5a50-9226-1f7c41944b2e	9855d266-aa83-5b0b-9471-ff15a3937c63
+treatment_response	PBBSBL_treatment_response	Unknown	-999	Not Reported	Not Reported	92389505-4864-58ca-8399-1f5fb5337d7d	76c4e0a6-6844-5623-a2a7-7e56b23e755b
+treatment_response	PBBSBS_treatment_response	Complete Remission	-999	Not Reported	Not Reported	ef2dd260-d8b0-5daa-b7db-8bf57972e968	d932085a-8ea5-510f-a53d-7c6fbd00a70a
+treatment_response	PBBSBT_treatment_response	Complete Remission	-999	Not Reported	Not Reported	d7643f26-1ffb-5c89-85b6-f9ad93e2422c	57f647aa-79b2-58f6-9fad-0f5309040530
+treatment_response	PBBSCH_treatment_response	Unknown	-999	Not Reported	Not Reported	89d547cc-d4f1-5866-a423-dc1471edde4f	5b65fa91-6661-5cba-8c41-37b1960d7b72
+treatment_response	PBBSCI_treatment_response	Complete Remission	-999	Not Reported	Not Reported	47814c63-46e8-5b21-8d59-f9e869941ee8	8e8f592c-e0d3-5eeb-92ba-3a573f020372
+treatment_response	PBBSCK_treatment_response	Complete Remission	-999	Not Reported	Not Reported	cb5eabce-c5ec-5659-a537-dc6c6b068948	d27f1e2d-3d90-529f-9f98-41c24fb90116
+treatment_response	PBBSCL_treatment_response	Unknown	-999	Not Reported	Not Reported	2d9452ba-9c36-53b1-bd79-5322a9f30cd0	f902d38e-dc11-566a-8945-95bed7fa6919
+treatment_response	PBBSCT_treatment_response	Unknown	-999	Not Reported	Not Reported	1d4e73b6-89f6-5c94-92c2-08e9b26ce72d	b4d1c76b-38f3-5214-bf80-d6bfc369791f
+treatment_response	PBBSDA_treatment_response	Complete Remission	-999	Not Reported	Not Reported	9df48618-3e53-56f0-92ee-077868a92ca8	c4eaae74-384c-579f-a8c2-5cb9886e256d
+treatment_response	PBBSEE_treatment_response	Complete Remission	-999	Not Reported	Not Reported	70656d2a-8a26-55fe-b614-44ff99f78d13	1ca0e1e2-f6d3-5e5d-80ed-3b9d1f9d8bc1
+treatment_response	PBBSEG_treatment_response	Complete Remission	-999	Not Reported	Not Reported	e134702a-9165-5afa-a1cf-cce3be0fc781	ca4382c0-a2ba-573b-b93f-bfa6d380f178
+treatment_response	PBBSER_treatment_response	Unknown	-999	Not Reported	Not Reported	17f214ce-2537-5c6a-936e-7517b1b7fc09	b31ebb22-97b0-59ac-a89c-011ccab07f6d
+treatment_response	PBBSEW_treatment_response	Complete Remission	-999	Not Reported	Not Reported	8dab9ed8-3ae8-528b-a15d-337754082840	20822a6b-acd6-5beb-9d65-db287a12ebc2
+treatment_response	PBBSEY_treatment_response	Unknown	-999	Not Reported	Not Reported	c9ec7bd6-0fa2-5681-88fa-bc35ee3bee41	61e40e26-4c44-51ff-9a2e-8e4cbfc3090d
+treatment_response	PBBSFM_treatment_response	Complete Remission	-999	Not Reported	Not Reported	f05d7c9c-d8de-57a2-9bbd-cb8021c56ab1	ec01fd3c-e89b-5c36-a697-88190c8c3525
+treatment_response	PBBSFT_treatment_response	Unknown	-999	Not Reported	Not Reported	4823c8f1-d6d2-533c-bec4-1371d4b6d032	2c98eb59-c921-5f3c-b7a1-8243c1dd67b1
+treatment_response	PBBSGA_treatment_response	Complete Remission	-999	Not Reported	Not Reported	e18f3654-5342-5f45-8294-010fa46492d6	1fd80025-402f-5eb8-9db3-cdf3a54d3c80
+treatment_response	PBBSGI_treatment_response	Unknown	-999	Not Reported	Not Reported	97363b24-adeb-57e6-a3be-527e89ff84fe	02e74468-e161-5c71-85fa-1fab081561e7
+treatment_response	PBBSGU_treatment_response	Complete Remission	-999	Not Reported	Not Reported	47188462-3926-51dd-ba63-a1a0491223fe	d12f152f-61d2-5700-92b3-7c5873826b3e
+treatment_response	PBBSHC_treatment_response	Not Reported	-999	Not Reported	Not Reported	4e64213e-7c28-5e71-aa62-a20ceccab81c	f80f95b0-2717-5849-8af3-e37a00c4c23a
+treatment_response	PBBSHJ_treatment_response	Complete Remission	-999	Not Reported	Not Reported	38742aad-f025-5eab-bba3-84541b6da03f	d29fdca7-1e55-51d1-89a5-04112028a9ef
+treatment_response	PBBSID_treatment_response	Complete Remission	-999	Not Reported	Not Reported	dd82f1fe-6e3b-5e14-b68a-3cb58fef9583	ff75db5a-9c41-536a-bfa0-e572b418f364
+treatment_response	PBBSIH_treatment_response	Complete Remission	-999	Not Reported	Not Reported	7f04811f-73a2-510d-a05c-025625f6756a	7ef17f55-d565-5b18-bca9-7af73817525a
+treatment_response	PBBSIL_treatment_response	Unknown	-999	Not Reported	Not Reported	472dc99f-a13a-5af9-ab0a-d940bc1c1f4f	251550c8-2c8c-5c0f-af4c-804162c4e3e7
+treatment_response	PBBSIU_treatment_response	Unknown	-999	Not Reported	Not Reported	955ae6ef-236e-5a88-af57-d887114c91b3	defe3d8a-e9c0-5172-841c-7a6844bf3321
+treatment_response	PBBSJH_treatment_response	Complete Remission	-999	Not Reported	Not Reported	cbf2260a-e3fa-5011-9b43-8d8043ac212a	86db77b3-59e8-51cb-96eb-9b1254b5bf11
+treatment_response	PBBSJL_treatment_response	Complete Remission	-999	Not Reported	Not Reported	c5b6ced7-4464-5e5b-8fbe-3e6154c52442	12287052-e238-5332-874c-5213f22e1244
+treatment_response	PBBSJS_treatment_response	Unknown	-999	Not Reported	Not Reported	d714dd89-59c5-541c-8cfa-fd4e5f5dd331	06215fe7-7d24-5102-825f-a2a41676f7db
+treatment_response	PBBSJU_treatment_response	Complete Remission	-999	Not Reported	Not Reported	ab655b7d-1c4a-5022-97d7-0fd6b64b18b3	8d9152e2-2646-53b1-b95e-6afb59dfc4ba
+treatment_response	PBBSJY_treatment_response	Complete Remission	-999	Not Reported	Not Reported	81801f64-91fc-5b78-bfc2-18c68f07a9d0	055a940b-9c18-5678-a622-0eb585813479
+treatment_response	PBBSKD_treatment_response	Unknown	-999	Not Reported	Not Reported	490d646e-5ed9-5a6c-af35-bf9319c9b282	874dcef2-d427-5798-bdfb-d9c628de0750
+treatment_response	PBBSKE_treatment_response	Unknown	-999	Not Reported	Not Reported	19602374-b28d-5fc9-8cdc-9433ce0a6aec	13763b21-002a-5934-b1ff-ae27c6795863
+treatment_response	PBBSKM_treatment_response	Unknown	-999	Not Reported	Not Reported	559cf7a9-a02c-5f77-9a4a-58da8872d5d2	57dcd457-6eb9-58c2-a3f0-79b0e3c87cf7
+treatment_response	PBBSME_treatment_response	Complete Remission	-999	Not Reported	Not Reported	261b5245-6083-573b-998e-07bb5650e7be	e7de76ba-c903-5e65-a2ad-390e9c9c8e8b
+treatment_response	PBBSMY_treatment_response	Complete Remission	-999	Not Reported	Not Reported	22f4a235-bf88-546b-8683-ef3115ca1bab	b15d99d9-a9f7-59d5-aae5-22abad9b53c4
+treatment_response	PBBSNL_treatment_response	Complete Remission	-999	Not Reported	Not Reported	08b0ebfc-0d22-57be-9740-903bcbe9bf54	ccaf5b72-2587-5a8e-973d-dc7fb1a53693
+treatment_response	PBBSPA_treatment_response	Complete Remission	-999	Not Reported	Not Reported	b73deb8c-5b9d-5372-acc7-8da6a9f1f7a4	08f54192-2c4d-59c6-9bc4-d91e08b7da8b
+treatment_response	PBBSPF_treatment_response	Unknown	-999	Not Reported	Not Reported	358d48fc-12a4-5c22-94bf-b966e49f590a	8a23e948-795f-5f72-bf5a-40be2c1f125a
+treatment_response	PBBSPP_treatment_response	Unknown	-999	Not Reported	Not Reported	09063bc0-80fc-5477-8083-00da52fc3bb4	64ecf134-fc4d-5c99-aefd-80da06238718
+treatment_response	PBBSRF_treatment_response	Complete Remission	-999	Not Reported	Not Reported	f6ca0b1d-db45-5dd0-a2cb-6668ec1bd82f	ca5c1cbf-11b6-58e2-9489-dd45eb645906
+treatment_response	PBBSRN_treatment_response	Unknown	-999	Not Reported	Not Reported	c01ea86b-a51e-5150-91dd-b9540f9ced4f	2c1e0371-0448-5c89-ba7d-4096dcb5edb0
+treatment_response	PBBSRR_treatment_response	Complete Remission	-999	Not Reported	Not Reported	bd8b1d78-6ffc-54de-8776-80d69a973f95	46bef599-a128-59e2-a995-72c84efc5f3f
+treatment_response	PBBSRV_treatment_response	Complete Remission	-999	Not Reported	Not Reported	194e4cab-03c0-512c-9ae1-e810aa574f90	f3891e7d-fd5e-562f-b7df-1a6c9252b07e
+treatment_response	PBBSSK_treatment_response	Complete Remission	-999	Not Reported	Not Reported	bb2c161b-4d53-52ae-8cbe-46fff3a1c394	79870854-da4d-56d6-9b2f-6031930069e5
+treatment_response	PBBSSV_treatment_response	Complete Remission	-999	Not Reported	Not Reported	ff953153-c083-5db7-9c2c-b815878fd2a0	321ef0bc-50ca-5a31-92a5-dc40bc9352f9
+treatment_response	PBBSTM_treatment_response	Unknown	-999	Not Reported	Not Reported	59aa7087-10de-52e4-83f1-93e9258e7cb6	dce95b66-2311-58c9-bf4d-bd844b1015dc
+treatment_response	PBBSUK_treatment_response	Unknown	-999	Not Reported	Not Reported	9e0ded8e-19e4-599f-acf8-79f812174f7d	5782c9ae-7f18-5d1c-b365-586cb595f2e2
+treatment_response	PBBSUL_treatment_response	Complete Remission	-999	Not Reported	Not Reported	1f898d2e-16b8-57ad-bb4d-b48f14bd5f52	bb89c741-1e93-5e1e-a200-0044f58c14cf
+treatment_response	PBBSUN_treatment_response	Complete Remission	-999	Not Reported	Not Reported	e6ab2a4c-080f-57ca-a006-966cef953d48	8b002dc0-e4e2-554e-8e6d-7d904a58aaf8
+treatment_response	PBBSVA_treatment_response	Complete Remission	-999	Not Reported	Not Reported	aaf8dca7-627b-51a1-b78f-d0a45b38099d	a56ee9a2-36dc-5f1f-a2f0-c576ed2c1d3b
+treatment_response	PBBSVM_treatment_response	Unknown	-999	Not Reported	Not Reported	39d41685-e033-5196-bfa4-0873ca429e1c	1af70f78-469c-577b-ba92-87d9c815b930
+treatment_response	PBBSVZ_treatment_response	Complete Remission	-999	Not Reported	Not Reported	84878c35-ddb1-5d82-8856-14480d0d1a80	808e9915-18ad-534b-adb6-4c1c1dfeb580
+treatment_response	PBBSWG_treatment_response	Unknown	-999	Not Reported	Not Reported	6523f91d-3e7e-571e-b877-2fbc247ed346	e9233aee-6225-594d-a5b9-fd3a03a35349
+treatment_response	PBBSWK_treatment_response	Unknown	-999	Not Reported	Not Reported	7ade23cf-95a1-5ee9-9bf1-0ed5691770ed	0f7e1d52-36bb-5b54-b0a5-0a791e66fda4
+treatment_response	PBBSWP_treatment_response	Unknown	-999	Not Reported	Not Reported	2fbc5561-0e35-5b7e-b616-14d0f65bd430	032b0d27-c1d4-5d0e-932e-ae440a220209
+treatment_response	PBBSXN_treatment_response	Unknown	-999	Not Reported	Not Reported	462cb764-d7ff-5d50-a250-80ceea4c43c2	2c8b0ff1-553c-5857-9e61-7b6b34ff5474
+treatment_response	PBBSXR_treatment_response	Unknown	-999	Not Reported	Not Reported	5643db20-7b24-5254-b279-72bc4ff47912	5342d4b1-f66e-5a47-8932-a7d07e209313
+treatment_response	PBBSYE_treatment_response	Complete Remission	-999	Not Reported	Not Reported	966f06e1-be1f-5c84-86f8-f7e308c99f1e	e14c4e4b-7a0a-5e20-a87f-6ab4c019da23
+treatment_response	PBBSYF_treatment_response	Unknown	-999	Not Reported	Not Reported	ab676277-b743-5426-9467-7c33ae891ab1	0af7b50e-c934-5a0c-998f-b9c8c2dd2167
+treatment_response	PBBSYH_treatment_response	Unknown	-999	Not Reported	Not Reported	c4f4c93e-6a49-55f6-9fd6-84290a8afb5c	0b6813c2-bf83-5e93-ad0b-9b53899f0100
+treatment_response	PBBSYL_treatment_response	Complete Remission	-999	Not Reported	Not Reported	6ace25ed-415f-5db4-b76f-6d39b5ded09b	2a938a27-889d-5dec-bd96-980f3c8b0de0
+treatment_response	PBBSZE_treatment_response	Complete Remission	-999	Not Reported	Not Reported	36095fc9-a1b7-5363-81e0-e0dc82349606	dfc19da7-5750-5851-afb0-3113ddca6ff6
+treatment_response	PBBSZP_treatment_response	Complete Remission	-999	Not Reported	Not Reported	77aa58ea-66cb-5690-a60f-0265d0bd7bbb	fbf7c013-c53a-5b9f-9d29-a16c902ee343
+treatment_response	PBBTAD_treatment_response	Complete Remission	-999	Not Reported	Not Reported	d42bd8b7-afc3-558c-9c8a-5351b93bc2fb	d978c98b-8ef6-5c44-b8bf-8d5d9ed06364
+treatment_response	PBBTAE_treatment_response	Unknown	-999	Not Reported	Not Reported	a8fae4a8-7ad8-5211-992c-2ee7555a319b	b59406d0-0ca3-5d3e-87a8-0e5b74370e5e
+treatment_response	PBBTAS_treatment_response	Complete Remission	-999	Not Reported	Not Reported	e0e940e0-de91-5d78-8682-4b435b6179c6	216bf780-7d48-5ebc-a937-d7217a4b58c8
+treatment_response	PBBTBG_treatment_response	Complete Remission	-999	Not Reported	Not Reported	838bd7fa-bbb1-5f81-93e6-432da57ac1f6	110508d1-33a9-55e2-a4d3-223a13cd9d8d
+treatment_response	PBBTBU_treatment_response	Complete Remission	-999	Not Reported	Not Reported	0f7314c6-acd7-5a26-a7bf-258d106bb79a	9540f7da-9fef-5c63-93a5-d7129beb27bd
+treatment_response	PBBTCE_treatment_response	Complete Remission	-999	Not Reported	Not Reported	9472e6de-3d99-5fb7-a838-0fe3dd241b49	00d0cb22-4036-56fe-93d0-b83b15631c7e
+treatment_response	PBBTCP_treatment_response	Unknown	-999	Not Reported	Not Reported	b44c6792-d355-5aa8-b7ee-a5759a9fb002	17ebf8d0-f21c-52ce-8c19-b9361179b68d
+treatment_response	PBBTCS_treatment_response	Unknown	-999	Not Reported	Not Reported	7cd676f6-378e-5f25-a7d5-13a986887b7f	ebb15639-d297-5431-92ee-8e1518631afa
+treatment_response	PBBTCY_treatment_response	Complete Remission	-999	Not Reported	Not Reported	9d55527b-7ce0-516c-843b-26e31c9d4fef	f0129e83-fc3d-5b56-909e-638770af41e1
+treatment_response	PBBTDA_treatment_response	Unknown	-999	Not Reported	Not Reported	ca0fa770-b1f7-57d6-8992-83417015eb5f	57081f81-df81-5356-bab1-8714ae981cb6
+treatment_response	PBBTDW_treatment_response	Unknown	-999	Not Reported	Not Reported	9b4875f4-a207-5571-8002-dd5db7d4f3aa	2dd1ee77-de6e-5223-8f2c-c578b53714a1
+treatment_response	PBBTEC_treatment_response	Complete Remission	-999	Not Reported	Not Reported	0ef87000-e4f9-521d-87c9-77ab413ff162	46d5e26d-69b1-55b0-adcb-5de7fef58e1f
+treatment_response	PBBTED_treatment_response	Unknown	-999	Not Reported	Not Reported	090f7236-a16b-5775-bf94-51702212208d	aeb335ab-753e-5bd1-b5ed-07b58ed81fbc
+treatment_response	PBBTEJ_treatment_response	Complete Remission	-999	Not Reported	Not Reported	74fb4c77-57a5-5beb-a7ac-9ac05c077f06	84c5df8e-5528-505b-80ab-1d6c8141f4be
+treatment_response	PBBTFD_treatment_response	Unknown	-999	Not Reported	Not Reported	14f97363-0764-5c0d-aea6-2301d60ab7eb	f95efd3e-2d06-54ef-a962-5f0456dda43b
+treatment_response	PBBTFL_treatment_response	Complete Remission	-999	Not Reported	Not Reported	dd5ceba0-b628-5bef-9580-03fc60e6668e	04d8b4b2-d8b5-5163-bfb6-36e5b3467d4f
+treatment_response	PBBTGI_treatment_response	Unknown	-999	Not Reported	Not Reported	911c83b1-e73a-5bda-8ca9-767bce5982c1	26899bd0-8586-5c6f-af42-d1c9dfb0636e
+treatment_response	PBBTGR_treatment_response	Unknown	-999	Not Reported	Not Reported	fd688a23-e1ee-589f-8940-4495c2ac368d	17597e12-ebff-5f4f-bc3f-fdbf7a6bef24
+treatment_response	PBBTGZ_treatment_response	Unknown	-999	Not Reported	Not Reported	25d36442-5cf8-52bd-8fbe-5d14ef381acc	1def2920-a0f5-50b8-ad4c-bc0f90cce7e1
+treatment_response	PBBTHD_treatment_response	Unknown	-999	Not Reported	Not Reported	13a8134a-b0b3-5dd0-9949-048437683ceb	223dff68-271e-5523-a011-ae45ad22b3c3
+treatment_response	PBBTIB_treatment_response	Complete Remission	-999	Not Reported	Not Reported	a90c504a-3a47-5d53-833f-a46ac5f870df	abaa99df-0f39-517b-8829-e010441703e4
+treatment_response	PBBTKE_treatment_response	Complete Remission	-999	Not Reported	Not Reported	45354b0c-8300-54b6-afb1-5e72cc220b70	6b604143-f228-553b-aed6-d22960617d65
+treatment_response	PBBTKF_treatment_response	Complete Remission	-999	Not Reported	Not Reported	66a1cc29-d782-527f-8c14-fc27120535bc	4741702e-2122-5de9-b46d-c46bb8b4494e
+treatment_response	PBBTLY_treatment_response	Complete Remission	-999	Not Reported	Not Reported	be3a84b7-1e17-54c5-91c4-7eae3bbc2bf7	dfec12e2-9103-5af0-b298-557a8d6c32fa
+treatment_response	PBBTMD_treatment_response	Unknown	-999	Not Reported	Not Reported	747b6935-3ba1-5fee-a9e5-038b067ca657	d8a0ba8a-c8ba-56c8-b4d1-4eeb6fdbe0f0
+treatment_response	PBBTMJ_treatment_response	Complete Remission	-999	Not Reported	Not Reported	3bdef267-cb5b-50f2-a7b5-fcf363db908c	7f8bcc61-b737-5a36-90e6-516de0c18034
+treatment_response	PBBTMS_treatment_response	Unknown	-999	Not Reported	Not Reported	97b42f3a-c74e-535f-8cdb-d088d8fd9a38	66eda212-766f-59c3-8505-d4c10c496fdf
+treatment_response	PBBTND_treatment_response	Unknown	-999	Not Reported	Not Reported	62543e9a-f769-5982-92bb-0b51f20ef4c2	6a68eaf1-fb11-5caa-8ea4-1ed4e6d0f2e1
+treatment_response	PBBTNE_treatment_response	Complete Remission	-999	Not Reported	Not Reported	1936b4ed-4f5f-5609-bdfd-e7c9b402ac2f	ddb6be0a-cfb9-5848-ab94-0a0a11c0b50f
+treatment_response	PBBTNS_treatment_response	Complete Remission	-999	Not Reported	Not Reported	c18209c8-c9cc-5b96-912d-b48e9b31b142	a0ac5e4a-7832-56e5-bb63-cbf2c9cf223f
+treatment_response	PBBTNW_treatment_response	Complete Remission	-999	Not Reported	Not Reported	a4c6c057-0697-5bf6-bbff-b06138f5cf68	80b0f301-a1e9-53b9-bd0f-b0c73ec9c422
+treatment_response	PBBTNX_treatment_response	Complete Remission	-999	Not Reported	Not Reported	b5230792-984a-53da-980e-9e3105a47b0e	551e3ab8-7782-5089-a91c-e69443e17238
+treatment_response	PBBTNY_treatment_response	Complete Remission	-999	Not Reported	Not Reported	d3f9f2ca-7ea7-5e42-8de5-21608981528d	5b69a620-da86-570b-8bef-8485dca49b0b
+treatment_response	PBBTPN_treatment_response	Complete Remission	-999	Not Reported	Not Reported	6531ff19-d905-5f66-aee9-3c34879cc520	f99a844e-a87f-5f11-9adb-ec10229aa7ec
+treatment_response	PBBTRC_treatment_response	Complete Remission	-999	Not Reported	Not Reported	ad34c0a1-29df-51b1-99b4-72eae49d0c45	92ab923d-d3f9-5c44-803e-c00247faa088
+treatment_response	PBBTRI_treatment_response	Unknown	-999	Not Reported	Not Reported	cdc1fb2a-65fd-5e8b-ba9c-96187d2feec0	bd014719-4654-5c36-ac0b-f1825dd794bf
+treatment_response	PBBTRP_treatment_response	Complete Remission	-999	Not Reported	Not Reported	39b70a70-7c6b-55d0-b68f-d4e2cb65c5ab	f615147c-e0e0-589b-8244-c4fdc8e16ef2
+treatment_response	PBBTRR_treatment_response	Unknown	-999	Not Reported	Not Reported	073c6b5c-0d02-51ea-a682-b91c3b56e01e	2bc47051-70ce-51cf-9edb-7146e4497bfb
+treatment_response	PBBTSC_treatment_response	Complete Remission	-999	Not Reported	Not Reported	2c194c04-0a33-5e6b-ab1b-95ef89a3bd4f	56e76c9e-d1fe-55b0-86ca-1f3b534187b5
+treatment_response	PBBTSU_treatment_response	Unknown	-999	Not Reported	Not Reported	e958cc06-99cf-51e6-9570-a8dbdfd04f35	e36f6fb1-6bda-5d4e-9ec0-f75f7377cc72
+treatment_response	PBBTTN_treatment_response	Complete Remission	-999	Not Reported	Not Reported	3b25dde9-39b5-5fb1-9263-530642279c7e	27d48e34-5048-58f0-bdc5-30d61874e790
+treatment_response	PBBTTS_treatment_response	Complete Remission	-999	Not Reported	Not Reported	0bb5d92a-2701-567e-9189-c098546e2c49	67bdad7e-5ae5-51ed-91ee-eef96c3fa3af
+treatment_response	PBBTTX_treatment_response	Unknown	-999	Not Reported	Not Reported	9e73d7ea-e14e-5400-a947-10363c1e02a9	d6ab2103-e4fc-58a5-848a-230f2a041822
+treatment_response	PBBTTZ_treatment_response	Complete Remission	-999	Not Reported	Not Reported	fca51a09-6d8a-5e50-9f41-0972429653f3	42ab57b6-dd5f-5a6a-8f85-74dfe89b1f5d
+treatment_response	PBBTUE_treatment_response	Complete Remission	-999	Not Reported	Not Reported	dd933ae2-ea1e-5b57-8360-b0336462ebe7	4b0e49e3-78ea-5ec4-846a-65d4ea319b0a
+treatment_response	PBBTUH_treatment_response	Unknown	-999	Not Reported	Not Reported	e4f12d0e-b3a7-57b1-b73b-831267fc3b7c	2ee5adb5-e025-50e9-9724-02de29bdd952
+treatment_response	PBBTUR_treatment_response	Unknown	-999	Not Reported	Not Reported	699f4d30-e3d5-5b79-bc36-1d8c629d103b	88102a62-9e92-5f72-9f82-709a19aba26a
+treatment_response	PBBTUV_treatment_response	Unknown	-999	Not Reported	Not Reported	c8231d26-00ef-5967-b0fd-77dd706adbc2	e23a3971-a66b-532b-a928-a64ac5673d88
+treatment_response	PBBTUW_treatment_response	Complete Remission	-999	Not Reported	Not Reported	d268aac7-10fd-52cf-b9be-39b19d73c3d4	f06c3503-c6f6-5397-9ae1-24d49479a958
+treatment_response	PBBTVK_treatment_response	Complete Remission	-999	Not Reported	Not Reported	897a088a-38b5-5359-9615-1895244bce4f	6153918a-fdea-5db6-aef5-a5e61a827631
+treatment_response	PBBTVN_treatment_response	Complete Remission	-999	Not Reported	Not Reported	7e78df2c-6ba8-500f-8ac3-6e3afe61787b	1f2aec78-f8a6-505e-b6f0-55fad97b7c62
+treatment_response	PBBTWI_treatment_response	Unknown	-999	Not Reported	Not Reported	7a6fc505-8621-5a59-9d14-e716cd8d2c04	36d8ff75-8b29-5b5d-9228-43f0aba02806
+treatment_response	PBBTWM_treatment_response	Complete Remission	-999	Not Reported	Not Reported	114bebcf-9f01-5ecb-a7f5-0ffc93336183	5c15e8a7-45d6-575b-8019-3a838839dc82
+treatment_response	PBBTXA_treatment_response	Complete Remission	-999	Not Reported	Not Reported	622fa17b-20a7-50a8-bd81-472d8a0e169f	434ef6d8-d190-5588-8381-315f451d2a67
+treatment_response	PBBTXH_treatment_response	Complete Remission	-999	Not Reported	Not Reported	982bd5fb-cf97-5a26-8260-0cedbc17fe8c	dfcc097b-8c19-5ad4-a891-2597cfaf2d56
+treatment_response	PBBTYI_treatment_response	Complete Remission	-999	Not Reported	Not Reported	6ff9bfef-9298-5eec-bd41-d6fc149e3e80	fc32dde8-f858-5ac5-a123-c5cf63d89317
+treatment_response	PBBTYK_treatment_response	Complete Remission	-999	Not Reported	Not Reported	6f5ec4db-25e3-5b6a-8b9e-9973c167301c	bc363b81-4b88-506c-9aa4-43f9835a2eb2
+treatment_response	PBBTYR_treatment_response	Unknown	-999	Not Reported	Not Reported	97185e78-9ed3-573a-8c42-d07b1229ab0d	a5a9efd5-cd0c-574f-8777-308994b59f8a
+treatment_response	PBBTYW_treatment_response	Complete Remission	-999	Not Reported	Not Reported	488c8c59-6765-5ffc-afc0-fe2afb4a017a	6be7e0b3-d322-5dc1-98af-b02f2507f36c
+treatment_response	PBBTZK_treatment_response	Complete Remission	-999	Not Reported	Not Reported	301b2f1b-3010-5d1e-8a54-71b324527628	fe7213e4-77ac-5af2-82dd-cb73c7ab7477
+treatment_response	PBBTZN_treatment_response	Unknown	-999	Not Reported	Not Reported	42b23967-11d4-5621-8296-6d23c18904ab	cba89dbe-b9f6-5892-86f3-bfaca9b9b8b5
+treatment_response	PBBUAB_treatment_response	Complete Remission	-999	Not Reported	Not Reported	a9c45160-86b6-50c2-afe2-6f0949a83fa9	884eeae9-5f99-5a17-a46e-c48020845748
+treatment_response	PBBUAF_treatment_response	Unknown	-999	Not Reported	Not Reported	55b0d41d-2384-5fd8-bf24-4263f3992d10	353486b5-5bcc-51f8-91b8-302dd128f418
+treatment_response	PBBUAN_treatment_response	Complete Remission	-999	Not Reported	Not Reported	300b5ce7-12e4-5c14-8c05-5f2f57513458	dd7c4a1a-866b-556f-bcd2-fdd8d383e0ab
+treatment_response	PBBUAT_treatment_response	Complete Remission	-999	Not Reported	Not Reported	0ec3781e-49f3-577b-9c5a-ab13201bc7d7	52bddbc8-63cc-5c62-b374-08dc8d821773
+treatment_response	PBBUAW_treatment_response	Unknown	-999	Not Reported	Not Reported	9f85bd0b-0da7-5738-9886-449620196e22	5f4d1297-509a-57f3-91c7-6166f61261a0
+treatment_response	PBBUAY_treatment_response	Unknown	-999	Not Reported	Not Reported	0f61090c-f9d4-5cfc-9401-ac7472cb4a32	bd1797d2-efad-5c83-a953-55d6898fd646
+treatment_response	PBBUBH_treatment_response	Complete Remission	-999	Not Reported	Not Reported	8dfcf400-28a8-52d3-b3d8-d6c20f8566fb	c4ee035b-fcbf-55bd-82e2-cb8f32b06f52
+treatment_response	PBBUBN_treatment_response	Complete Remission	-999	Not Reported	Not Reported	84e90518-d9ce-51ea-a595-9e9fd1699344	ff3d62bb-8cf4-5d7e-9bed-234240fa8aef
+treatment_response	PBBUBR_treatment_response	Complete Remission	-999	Not Reported	Not Reported	a102547f-d7c7-5848-abc2-3d03348e5a5f	da63df08-7827-56a4-8380-cc5c0f3611ef
+treatment_response	PBBUBZ_treatment_response	Complete Remission	-999	Not Reported	Not Reported	2bf96c98-cd4c-5fb2-ae7f-64124a4651bd	4baee3dd-d54f-5f7a-b4c2-4823211acb7e
+treatment_response	PBBUCE_treatment_response	Complete Remission	-999	Not Reported	Not Reported	1750367a-f7b6-5e28-9a6a-b014c5e55284	def3c401-d545-5946-b5b1-c05a4dda2dbd
+treatment_response	PBBUCK_treatment_response	Complete Remission	-999	Not Reported	Not Reported	266679cc-9e08-57ec-bf40-620f186198ba	9ddbed2a-76e4-5e54-940a-3b0707a0f4d3
+treatment_response	PBBUCL_treatment_response	Unknown	-999	Not Reported	Not Reported	504519ed-43ea-5ae2-9849-820ebab86a26	7c71fef3-43b8-512b-9324-cb4d7be62b37
+treatment_response	PBBUDJ_treatment_response	Complete Remission	-999	Not Reported	Not Reported	a7a9406d-d260-5096-ac72-bc3759699d33	d542eb44-aee6-5c05-8330-f497887ee598
+treatment_response	PBBUDL_treatment_response	Complete Remission	-999	Not Reported	Not Reported	56676422-c9db-5160-8846-3abedf1f5d3a	eeda4afb-33b8-5790-9035-69155602b0b9
+treatment_response	PBBUDW_treatment_response	Unknown	-999	Not Reported	Not Reported	b6538e36-cbf1-57c1-8759-36f7ae56e097	8b2b24d0-68e6-527a-81ef-91a26caa05ad
+treatment_response	PBBUDY_treatment_response	Complete Remission	-999	Not Reported	Not Reported	e7ba1869-9f6b-5bea-a88b-548f41f60773	b22018bb-3bcb-5ca6-8fd5-bca11c6022e0
+treatment_response	PBBUET_treatment_response	Unknown	-999	Not Reported	Not Reported	73f64862-b8d8-594d-b769-97bf2bc670f1	2e53aaea-6409-5163-b200-a40c8ea1bec8
+treatment_response	PBBUEW_treatment_response	Complete Remission	-999	Not Reported	Not Reported	7642db73-cd15-5765-a50d-82dabdcd5443	3bad86d4-714a-5fe7-90a5-257489e404bc
+treatment_response	PBBUFE_treatment_response	Complete Remission	-999	Not Reported	Not Reported	a7b46229-3425-5070-9440-7364fb92f25b	679574cd-8937-5e24-b1b1-651f0d228d9c
+treatment_response	PBBUFF_treatment_response	Complete Remission	-999	Not Reported	Not Reported	a789b5b9-bd7a-5be2-a6c4-a29a6cc68692	e570e6b0-b659-54de-847a-14ab7e3bc40b
+treatment_response	PBBUFM_treatment_response	Unknown	-999	Not Reported	Not Reported	41deef1d-1efe-5659-ae1d-42458905c8e0	4655a503-7ca7-577c-9e8b-c947b6bff8a5
+treatment_response	PBBUFR_treatment_response	Unknown	-999	Not Reported	Not Reported	5e513e91-3461-54e4-8d50-f479c16144fa	4b8a70c8-7aec-5c3c-9ee5-18d3624f2e79
+treatment_response	PBBUGC_treatment_response	Unknown	-999	Not Reported	Not Reported	7d50a62f-561b-5ba2-9142-3be84f4ef282	0db826e9-f96b-5ceb-b899-2b0238a76aca
+treatment_response	PBBUGH_treatment_response	Complete Remission	-999	Not Reported	Not Reported	69a56f18-a7d5-5dac-bfaa-b1c2b735792b	f6405c72-4a76-5636-8060-57c03a1eaacb
+treatment_response	PBBUII_treatment_response	Complete Remission	-999	Not Reported	Not Reported	305e4800-1584-52ee-b653-da04624dcd51	52321937-0339-59f8-bd17-e3459f1f3a0f
+treatment_response	PBBUIL_treatment_response	Complete Remission	-999	Not Reported	Not Reported	76eb9740-f791-5acb-9860-cfae1931c592	3ec48ef9-8f9b-5d32-a65a-190b7cf2b071
+treatment_response	PBBUIS_treatment_response	Complete Remission	-999	Not Reported	Not Reported	2fc97ebb-0d15-5ca0-8540-7005dfab9974	de6a95ed-7fcd-540c-952d-8950061a6f8f
+treatment_response	PBBUJL_treatment_response	Complete Remission	-999	Not Reported	Not Reported	43698e67-7d0e-5959-9ba5-1804338bfaa9	aaf372d7-2db4-5a93-946c-cc2eee0ae25d
+treatment_response	PBBUKA_treatment_response	Complete Remission	-999	Not Reported	Not Reported	f9476c3c-6bdd-55fb-90c2-72c21ddd52eb	d8d0ecb8-4da9-5b29-9877-86c81f008ac3
+treatment_response	PBBUKI_treatment_response	Unknown	-999	Not Reported	Not Reported	cd2af1f9-4963-5204-8e38-8d012fbbe75c	858d3837-5f57-57d7-b31d-b4c7b7d5f835
+treatment_response	PBBUKK_treatment_response	Unknown	-999	Not Reported	Not Reported	4c8084af-9d74-5c48-ad82-f477d4b06e53	2045032d-f18c-5858-900d-cb59dfbb9572
+treatment_response	PBBUKV_treatment_response	Unknown	-999	Not Reported	Not Reported	01469b41-f814-5904-bda1-a9d9ef75f391	df54288c-3cec-5491-afb9-f4cdd32e8806
+treatment_response	PBBULF_treatment_response	Complete Remission	-999	Not Reported	Not Reported	bea6c2d8-8860-5a8d-9ab6-be711cd52dd8	2893d72e-1ac7-5301-9c42-a4834cdf1733
+treatment_response	PBBULG_treatment_response	Unknown	-999	Not Reported	Not Reported	320959d3-a221-510d-be97-6ac4782b2842	8edee8c9-b7af-57ed-9cf9-1b515c1beb5c
+treatment_response	PBBULZ_treatment_response	Unknown	-999	Not Reported	Not Reported	8a755e88-e09f-56e8-a47b-737aa361ffed	57929921-17fe-5dca-a5b6-f82938979d44
+treatment_response	PBBUMF_treatment_response	Complete Remission	-999	Not Reported	Not Reported	83ed607d-250a-54af-84a6-c193ff32a779	7a2c46b3-f346-5edd-ab21-99d656861195
+treatment_response	PBBUMH_treatment_response	Complete Remission	-999	Not Reported	Not Reported	d61bcbb1-fe1c-5f02-9afb-cdd3dcd8fa3b	a00403ba-8424-592a-85c9-47c7bb4c38f7
+treatment_response	PBBUML_treatment_response	Unknown	-999	Not Reported	Not Reported	99be13a4-c86e-5fa0-8820-36d8730bd663	1baedae8-e0ae-510f-9fc7-cc54d8f387ac
+treatment_response	PBBUNA_treatment_response	Unknown	-999	Not Reported	Not Reported	bf525203-bf0a-5ea7-96df-5bf71ac40cd5	139b6140-620b-5bd0-9fe4-d7d970f57dd6
+treatment_response	PBBUNC_treatment_response	Not Reported	-999	Not Reported	Not Reported	24354cc5-cd75-502d-9a3e-620bea654630	eed42d11-dbba-5ada-b19c-1dd7798bc712
+treatment_response	PBBUND_treatment_response	Unknown	-999	Not Reported	Not Reported	c83e69ba-60e9-525a-b0e6-35ea734300ce	f10a32e0-777c-5de9-94c3-885024c8c859
+treatment_response	PBBUNK_treatment_response	Complete Remission	-999	Not Reported	Not Reported	c9d4121e-d087-5693-b690-50d430448bad	a74ffbae-8480-532b-ae6a-ae910f2f8615
+treatment_response	PBBUNU_treatment_response	Unknown	-999	Not Reported	Not Reported	e098eda1-09da-52cf-8655-aadd6852ccf7	d3c18e4a-0f69-5d79-ba91-4031f0892c0a
+treatment_response	PBBUPV_treatment_response	Complete Remission	-999	Not Reported	Not Reported	6ae9b141-908c-518e-8dcb-7103c7ee17a5	0f014b18-d755-5a9d-9174-ceaf2ef24cbf
+treatment_response	PBBUPW_treatment_response	Unknown	-999	Not Reported	Not Reported	426b23ed-c5a1-5d3f-8185-94e0a377052f	f31dd126-fc87-50d0-95ef-1798d5606d88
+treatment_response	PBBURB_treatment_response	Unknown	-999	Not Reported	Not Reported	266a5d7d-fde5-5dce-aed8-8472aca54692	95a32564-a1ac-595a-b408-e598e32e7060
+treatment_response	PBBURC_treatment_response	Complete Remission	-999	Not Reported	Not Reported	da6d73f0-ebc4-5aa6-ac18-dc4f02946c24	5debe449-1ce5-5d1d-b555-e48deafe5ddf
+treatment_response	PBBURD_treatment_response	Complete Remission	-999	Not Reported	Not Reported	8da29146-45f2-5c6b-b1f2-3815b0e9ff3a	438f48d1-974a-5e88-b4eb-62c3bddc6b9b
+treatment_response	PBBUSK_treatment_response	Complete Remission	-999	Not Reported	Not Reported	7fde06fe-bfaa-54da-ad5a-b8b62e1d4a08	86176761-1883-5b46-bb2d-52afa254d440
+treatment_response	PBBUTS_treatment_response	Unknown	-999	Not Reported	Not Reported	40e34148-0b62-5a1f-b24b-ebacd982796e	c158c516-4a80-516c-950f-bd402fd2d643
+treatment_response	PBBUTU_treatment_response	Unknown	-999	Not Reported	Not Reported	59a58b74-27c8-5a0a-8f85-a00432a985b0	b4c63567-8738-59c0-b73b-8fd1bc5f7c8f
+treatment_response	PBBUTV_treatment_response	Unknown	-999	Not Reported	Not Reported	f2e66a25-2f4b-50f1-9832-95f333b6ac56	f7a95398-d0fa-5dbd-a2de-39d0c3d1ca29
+treatment_response	PBBUUR_treatment_response	Complete Remission	-999	Not Reported	Not Reported	ce1bda76-fedf-52ae-9b87-fc36c130ab05	5f99efc5-fb44-571d-b1a0-fce782323a4a
+treatment_response	PBBUVE_treatment_response	Unknown	-999	Not Reported	Not Reported	8a44dc62-3411-5d61-91fd-6975256a6745	ffa9da21-4a78-581c-b587-322b1ac4900a
+treatment_response	PBBUVM_treatment_response	Unknown	-999	Not Reported	Not Reported	ca3e7db6-b0bf-5a98-a4ea-3fe8e21267ff	f270700f-620c-54fa-994a-1cc140077c08
+treatment_response	PBBUWE_treatment_response	Complete Remission	-999	Not Reported	Not Reported	84369d71-55cc-5355-a8fe-f36f3aa8e613	77e5e65c-065f-5c26-9e86-9400d2104993
+treatment_response	PBBUWR_treatment_response	Unknown	-999	Not Reported	Not Reported	6bd0707a-204b-5670-af5f-c1e2a05bd2a9	ad2fda60-c789-5661-a533-cbf61d8904e4
+treatment_response	PBBUWT_treatment_response	Unknown	-999	Not Reported	Not Reported	ae2ecfd7-0d44-5df0-ac4d-699beab886e0	ca3628e9-ce0f-5dec-b7dd-65025c3790f1
+treatment_response	PBBUWZ_treatment_response	Complete Remission	-999	Not Reported	Not Reported	089d76e1-ef48-5904-b7fd-2988072088e9	60214248-a222-5a5c-a55c-635355736715
+treatment_response	PBBUXB_treatment_response	Unknown	-999	Not Reported	Not Reported	35e511c7-7dac-52be-9ac9-0d14cca15861	08223a53-fe3e-5b1c-8c22-94d7c36416b0
+treatment_response	PBBUXI_treatment_response	Unknown	-999	Not Reported	Not Reported	930626d1-00ae-55ef-baed-4e36096e87ab	1b9623fb-b59f-50eb-81fc-49e5419844b2
+treatment_response	PBBUXS_treatment_response	Complete Remission	-999	Not Reported	Not Reported	4de92bb1-abc5-5f52-9d25-d3f2b42637fd	1b41d707-dceb-5f15-b3aa-3078402ce8e9
+treatment_response	PBBUXT_treatment_response	Unknown	-999	Not Reported	Not Reported	212c576a-21a3-58f0-bfaf-a49370638a55	855eb2c3-d910-55b6-a338-f51ba4cbdd67
+treatment_response	PBBUYE_treatment_response	Complete Remission	-999	Not Reported	Not Reported	4a5de15b-f6d5-5809-9854-471d5dae9567	e06efce0-26af-5824-ae3b-d21c51aa00a8
+treatment_response	PBBUYL_treatment_response	Unknown	-999	Not Reported	Not Reported	38eb1c8b-3f58-50e6-b152-84c029f10b3a	731d48a7-d972-50cc-a390-fef35b89b94b
+treatment_response	PBBUYU_treatment_response	Unknown	-999	Not Reported	Not Reported	091a9d03-f7c0-54be-86ed-2da2bd00b92a	9bf42baa-cd47-57c0-a9a6-e5dca299d32d
+treatment_response	PBBUZA_treatment_response	Complete Remission	-999	Not Reported	Not Reported	80ec0e6e-3808-55a7-8429-c500018fdfdf	300adad7-b752-5e6d-9273-92574c6bd24e
+treatment_response	PBBUZI_treatment_response	Unknown	-999	Not Reported	Not Reported	206711f9-9b6e-5400-b3f8-94bf12f569ec	fe486a8c-26ab-5a08-9979-e6e6823c5e95
+treatment_response	PBBUZK_treatment_response	Complete Remission	-999	Not Reported	Not Reported	a69f67e1-e4eb-5203-9332-fdd3b5924dfc	fbdc4de4-3bbe-528f-9ea2-373a80fce21d
+treatment_response	PBBVAE_treatment_response	Unknown	-999	Not Reported	Not Reported	b0caf39b-8425-5eb6-a54b-38bac57ec894	10f71c1c-3996-5b2c-af42-9101212ab8af
+treatment_response	PBBVAK_treatment_response	Complete Remission	-999	Not Reported	Not Reported	9796ad86-b299-5699-9df9-6d3c3975d301	6700ab73-08b4-5dc3-95f8-7015124f29b2
+treatment_response	PBBVAT_treatment_response	Complete Remission	-999	Not Reported	Not Reported	efc81491-7cdc-5ed5-b88e-c604c814a942	30828ecf-98de-5925-8f2e-f72df7a3ed69
+treatment_response	PBBVBB_treatment_response	Unknown	-999	Not Reported	Not Reported	fb73f528-8773-5d0e-b9c7-dacc975c957a	0a103d17-4703-513f-bea1-78eedb360582
+treatment_response	PBBVBH_treatment_response	Unknown	-999	Not Reported	Not Reported	3ceed0c8-e10c-5f17-8744-63a51dcf139a	e8f4928e-e5bd-5882-b5b6-6dfc27159061
+treatment_response	PBBVBX_treatment_response	Unknown	-999	Not Reported	Not Reported	5e89b96a-8d11-5a02-b606-bd0efff87a59	6db52bf6-1f8c-5295-a454-8ad27459f161
+treatment_response	PBBVCD_treatment_response	Complete Remission	-999	Not Reported	Not Reported	595c5c3a-950b-565b-9371-5a989aa534a4	0a140a84-01e0-5433-b937-354f6b688efd
+treatment_response	PBBVCK_treatment_response	Complete Remission	-999	Not Reported	Not Reported	fe67b786-c7b3-5653-828e-455b9167ce1c	9949f2ea-e2c9-5e42-86f9-1a45548fec20
+treatment_response	PBBVCM_treatment_response	Complete Remission	-999	Not Reported	Not Reported	0abf74d9-136d-50cd-8c83-d91384dbc1b5	4c3506d6-68a3-5bf8-9ee6-c454ed24535d
+treatment_response	PBBVCN_treatment_response	Complete Remission	-999	Not Reported	Not Reported	5efaea16-93c4-5076-ac29-69a0d2018c49	f64c30e1-eebc-507a-a7b3-c48935db97f2
+treatment_response	PBBVCP_treatment_response	Complete Remission	-999	Not Reported	Not Reported	c8159ed7-dfe3-55ff-a33a-fbeed8687275	a59c5a1d-e20b-5516-b181-9b68cb990b9c
+treatment_response	PBBVCS_treatment_response	Complete Remission	-999	Not Reported	Not Reported	dceaa336-78f9-552f-a32d-d04be5213d8f	672d354f-2dc3-59ba-802b-94f11adbd5bf
+treatment_response	PBBVDC_treatment_response	Complete Remission	-999	Not Reported	Not Reported	be92574b-cce2-519a-9b56-86ecedc08015	9034c3b6-03cc-523e-8bf1-d96ac1570d7a
+treatment_response	PBBVDH_treatment_response	Unknown	-999	Not Reported	Not Reported	f9e2c375-1fcf-5c02-ac55-89270397007c	746f95b6-808c-51fa-a85e-dd83573c0d46
+treatment_response	PBBVDR_treatment_response	Complete Remission	-999	Not Reported	Not Reported	16a88609-c1c5-5ddd-86d8-cedcdbe62d78	efe5ed96-020e-51b1-9d0f-b53f34a4b73c
+treatment_response	PBBVDV_treatment_response	Complete Remission	-999	Not Reported	Not Reported	3071c3a6-831c-5794-adc6-968ffed82d71	425540a1-8e03-5556-b295-1ea3c9a440a2
+treatment_response	PBBVDX_treatment_response	Unknown	-999	Not Reported	Not Reported	d2c258d9-70ef-5100-8ee7-d71e23e7e49c	25dd8702-2579-5f21-bba3-028f41087234
+treatment_response	PBBVEH_treatment_response	Complete Remission	-999	Not Reported	Not Reported	939e1df4-c60b-504e-981b-3d1c782d2c25	6660668d-7b47-5650-b2d7-4b60269ff981
+treatment_response	PBBVEK_treatment_response	Unknown	-999	Not Reported	Not Reported	a3fe309e-96bb-52d8-b3e4-51d199660bb6	5d8969a6-b563-5b7e-be12-8895b510af59
+treatment_response	PBBVEW_treatment_response	Not Reported	-999	Not Reported	Not Reported	53e7674f-cd5d-57b3-89d6-4f5a715aba7f	93413d1c-4b3c-52dc-87b1-a70dc555a3ed
+treatment_response	PBBVFA_treatment_response	Complete Remission	-999	Not Reported	Not Reported	013b3e67-c068-5ccf-8ab1-c073b5e80ddb	c908a004-f00b-573c-873a-ac9aed1bf078
+treatment_response	PBBVFB_treatment_response	Unknown	-999	Not Reported	Not Reported	eca3e440-8321-547f-a75b-949cdea4b52b	0cfc7547-31cb-57d3-bf24-f99aced74d31
+treatment_response	PBBVFV_treatment_response	Complete Remission	-999	Not Reported	Not Reported	a9b9ce9a-f6b1-5356-99f5-a7a23d628ccb	8f805b3f-7b53-5be2-931a-30fe6f105afe
+treatment_response	PBBVFY_treatment_response	Complete Remission	-999	Not Reported	Not Reported	17b180f2-3cd6-54a1-a302-1ce5bd600be5	dea3a345-4e7a-58b0-8546-7b50da937976
+treatment_response	PBBVGC_treatment_response	Unknown	-999	Not Reported	Not Reported	860acf32-982f-5c3b-8680-ac5b00d5a63a	a152ad48-f19a-5e25-b430-ce519feffc9c
+treatment_response	PBBVHR_treatment_response	Complete Remission	-999	Not Reported	Not Reported	02faeea5-a19e-59df-b80f-a3a4ffde27e3	c38b007f-6b94-5aff-8639-1e1fd1352a26
+treatment_response	PBBVIA_treatment_response	Unknown	-999	Not Reported	Not Reported	1bfcd0a8-a6fd-5730-9254-ab28f36c7ec4	8e2b9f33-0134-5094-a147-187d8c7ab842
+treatment_response	PBBVIK_treatment_response	Unknown	-999	Not Reported	Not Reported	3cf0c6c2-07a9-560b-ac75-79b83ac9c9af	5c352ee0-756b-5b8f-a190-f5b83a2d3cca
+treatment_response	PBBVIS_treatment_response	Complete Remission	-999	Not Reported	Not Reported	289db8ef-c73e-56cb-b36f-4cd7a7b682bb	cd66cbf0-2012-5899-ad66-dfbc6774bf73
+treatment_response	PBBVJB_treatment_response	Complete Remission	-999	Not Reported	Not Reported	338f72cb-8d46-5c5d-8b79-c4f3184c2caf	214f1cc7-6cb8-532a-a25f-06a2974ae74e
+treatment_response	PBBVJN_treatment_response	Complete Remission	-999	Not Reported	Not Reported	3cadcdfa-21c4-50d0-bbf7-6cf384c1feef	6a35832a-bcf4-51a9-9aec-313dcf820c0f
+treatment_response	PBBVJR_treatment_response	Complete Remission	-999	Not Reported	Not Reported	f28ad7f9-b051-5f9a-828d-0417482372b1	b509104a-f29d-524b-8489-727af89f0ac1
+treatment_response	PBBVJV_treatment_response	Complete Remission	-999	Not Reported	Not Reported	766fa0c6-83b1-5908-89b0-a154705231f2	33f07822-a3e1-559d-b371-d1e8a8838ed0
+treatment_response	PBBVKE_treatment_response	Complete Remission	-999	Not Reported	Not Reported	19a27436-cee5-5f1c-990b-4cf48b83e69d	b5642eaf-6794-5598-9187-7c2612129c4c
+treatment_response	PBBVKI_treatment_response	Complete Remission	-999	Not Reported	Not Reported	8131522a-193a-51c1-ba4d-a41590c3d653	e5b05c90-9d6f-5338-9eb2-dfa6df8d27f8
+treatment_response	PBBVLG_treatment_response	Unknown	-999	Not Reported	Not Reported	c5f9de37-56e8-5223-8b55-0d8e611c6318	b97abce5-6ce7-5589-ad25-dfa4a86f0a8b
+treatment_response	PBBVLK_treatment_response	Complete Remission	-999	Not Reported	Not Reported	96c982fe-6394-5b50-9f69-3ec832ec7635	c56a007c-8d58-5d06-b5e9-06df2333d89c
+treatment_response	PBBVLL_treatment_response	Unknown	-999	Not Reported	Not Reported	c6b38bf4-99b8-5ae2-b7d3-71b820c678c1	60a1cb86-a5f6-55a9-849c-f0d3db2d9390
+treatment_response	PBBVLV_treatment_response	Unknown	-999	Not Reported	Not Reported	22faf1fb-3176-5e62-a091-0281fd4956d5	d328f92c-75b4-51e9-8429-f834c12d335d
+treatment_response	PBBVME_treatment_response	Complete Remission	-999	Not Reported	Not Reported	df4d35b1-4075-5298-9614-e162a0e32ae3	7ad02c88-eb33-5710-bf00-b600b085d4a0
+treatment_response	PBBVMK_treatment_response	Complete Remission	-999	Not Reported	Not Reported	8a2a35d6-6c52-5305-9fab-451c4369d2e7	d60c5b54-a6e5-5510-88f7-7d7bbc6b2bef
+treatment_response	PBBVMV_treatment_response	Unknown	-999	Not Reported	Not Reported	108f8d06-b398-5f20-a90f-8347d21e1634	ed6c4f26-c55e-5e83-b4a4-207511540d3b
+treatment_response	PBBVMZ_treatment_response	Unknown	-999	Not Reported	Not Reported	4adc7d81-8a60-538c-97f4-44145ebfb9a6	10e0236f-2b8d-5883-8b16-a473d5744f95
+treatment_response	PBBVND_treatment_response	Complete Remission	-999	Not Reported	Not Reported	2e942e1b-51ad-5b66-b317-d8d08b8d6c4e	c96fade1-28eb-58dd-922c-9329cc194151
+treatment_response	PBBVNR_treatment_response	Unknown	-999	Not Reported	Not Reported	bc6013a3-f0e0-5e51-bc6a-b4c0c4021559	8c34081e-70d3-5968-8865-b26522190dea
+treatment_response	PBBVNZ_treatment_response	Complete Remission	-999	Not Reported	Not Reported	5e4e0c3a-e967-5882-99db-174e7c649e76	63942273-8b40-52af-ab25-d463431e2030
+treatment_response	PBBVPA_treatment_response	Complete Remission	-999	Not Reported	Not Reported	fa8d5c3d-a041-50e0-aa2e-842d5761f631	65c9656e-0303-5ce0-b9f6-22a1eed5d9d0
+treatment_response	PBBVPC_treatment_response	Unknown	-999	Not Reported	Not Reported	956b8800-016e-5883-abd1-54597bbef2ac	ed988c47-9d94-5f86-8f7b-0f4a1a2ffce0
+treatment_response	PBBVPL_treatment_response	Complete Remission	-999	Not Reported	Not Reported	4d8c2a67-aecd-5a34-9781-ef7f9e86a0b6	03582043-8287-5991-8c42-295da4eb685f
+treatment_response	PBBVPP_treatment_response	Unknown	-999	Not Reported	Not Reported	adb31c77-94f1-56ed-910b-35dcbf8d87e0	af6a6f3a-d7ea-5c40-944c-1e4020101c3d
+treatment_response	PBBVPZ_treatment_response	Unknown	-999	Not Reported	Not Reported	37bcbe60-9278-5c41-ae60-0bc07ffd8380	df2f8b0c-46ed-5a3f-959d-12136c0a4571
+treatment_response	PBBVRA_treatment_response	Complete Remission	-999	Not Reported	Not Reported	8a78c4d3-a8b7-557e-9bd0-9cc4c7d6bd75	d34f1808-e5e6-5454-ab2f-258855bec7cd
+treatment_response	PBBVRC_treatment_response	Complete Remission	-999	Not Reported	Not Reported	65cdc276-3cae-5c48-959e-32464c928076	2549c924-6fa2-545c-8470-82ab16993ec8
+treatment_response	PBBVRI_treatment_response	Complete Remission	-999	Not Reported	Not Reported	9c81d2b0-8bca-57af-a644-1b6659f07b68	09caf83f-2c5e-55c5-8b26-50e306259588
+treatment_response	PBBVRV_treatment_response	Unknown	-999	Not Reported	Not Reported	76c4e1d1-f2b0-5659-9b37-3498fb3679da	a10cba15-a75c-5ff3-ac4a-fe847cab3026
+treatment_response	PBBVSC_treatment_response	Unknown	-999	Not Reported	Not Reported	9b9b177d-3135-5543-82ee-355afc912798	042dabaa-2a1f-5016-b5c3-795077f298f9
+treatment_response	PBBVTB_treatment_response	Unknown	-999	Not Reported	Not Reported	3c60d1b7-806d-5d3d-880f-7e2d1a6308f7	51e36674-7782-5056-bd66-c392d13af152
+treatment_response	PBBVUA_treatment_response	Complete Remission	-999	Not Reported	Not Reported	55812279-ad06-588c-8a9d-3bf743a6d158	b8f552a0-75b6-566f-a84a-fb1b6a21b54d
+treatment_response	PBBVUD_treatment_response	Unknown	-999	Not Reported	Not Reported	0b5b27d8-30c3-5f8e-895d-5e7384da4ba2	bece4f34-d717-586f-86bc-72d5f6efaac2
+treatment_response	PBBVUE_treatment_response	Unknown	-999	Not Reported	Not Reported	20546096-b00f-5f60-9a5f-2c2e3453a0a2	de82e242-b5e4-57eb-bd92-3dbd7aa391b0
+treatment_response	PBBVUP_treatment_response	Unknown	-999	Not Reported	Not Reported	bea90a1e-87d5-548c-b901-fbe2358fcdb1	16825066-b203-5c3a-8de2-276809280bec
+treatment_response	PBBVUU_treatment_response	Unknown	-999	Not Reported	Not Reported	193eb9cb-b48f-5485-84fe-3a5aa67c4bd7	755730ab-6df4-5f0f-b908-c00c579b10b1
+treatment_response	PBBVUY_treatment_response	Complete Remission	-999	Not Reported	Not Reported	0fd22167-e2f1-5718-a5df-078ab5e4cb85	eda87d5c-5243-5555-b25c-f06ceb6dc4ca
+treatment_response	PBBVVI_treatment_response	Unknown	-999	Not Reported	Not Reported	5952ea71-a772-5ac8-afb7-f8b8aa7c74fa	31961603-fc06-54a4-bf8b-5ebfc5436ccd
+treatment_response	PBBVVP_treatment_response	Unknown	-999	Not Reported	Not Reported	a562cf7a-e781-565b-becc-6dd4922c9f2c	9d242e9f-0821-5370-aa50-869603083b4d
+treatment_response	PBBVVV_treatment_response	Unknown	-999	Not Reported	Not Reported	f94e2c25-b6f3-5243-8f27-b8a2508d46fe	d75ba842-d621-5910-8ee0-c0de927b4583
+treatment_response	PBBVWK_treatment_response	Complete Remission	-999	Not Reported	Not Reported	d09e0250-a09f-5f40-8897-fc9b300411ce	e36c6f28-0c6a-5752-8507-bae0ee8f40d5
+treatment_response	PBBVWM_treatment_response	Unknown	-999	Not Reported	Not Reported	a98d064f-b055-5bac-b625-e99860b4fbe4	c62ce490-9173-5d66-bd35-9b8365143132
+treatment_response	PBBVXF_treatment_response	Unknown	-999	Not Reported	Not Reported	b4126696-5e3f-5909-aca1-9ebb65a01425	4c3dc3cc-4228-5c00-8a31-93a10b303b84
+treatment_response	PBBVXM_treatment_response	Complete Remission	-999	Not Reported	Not Reported	0e59a7ac-9d26-5221-8cce-d70ed2ee9719	101ea534-af0f-549e-b808-a4123cac1c8d
+treatment_response	PBBVYF_treatment_response	Complete Remission	-999	Not Reported	Not Reported	8025243c-2940-5219-a8e9-2a36a6df57a6	f3b91054-d241-5ab1-8cb5-720b669697f3
+treatment_response	PBBVYY_treatment_response	Complete Remission	-999	Not Reported	Not Reported	0ef65a5c-d69d-5839-b56d-5c9e6e5053ce	3031b893-f294-5687-bbbc-92b379bac065
+treatment_response	PBBVZC_treatment_response	Unknown	-999	Not Reported	Not Reported	b4cc65af-ac61-5f07-b6ce-be9bbe1b8069	99e7a408-a91c-5929-b462-8d35618ac505
+treatment_response	PBBVZG_treatment_response	Unknown	-999	Not Reported	Not Reported	4203bafd-ff4c-512c-a69c-97050a407c23	c51415ee-0765-57ce-affe-2c5d2df556ad
+treatment_response	PBBVZJ_treatment_response	Unknown	-999	Not Reported	Not Reported	650d53b1-a219-5f28-9d12-593e19f943c6	d9c06e25-2605-51e9-bf28-f0b13222e411
+treatment_response	PBBVZL_treatment_response	Unknown	-999	Not Reported	Not Reported	2ad66c6d-4d45-507e-b555-66d5bd1b7290	fae01a21-0800-5ef2-a556-a2e6bf0217e5
+treatment_response	PBBVZS_treatment_response	Unknown	-999	Not Reported	Not Reported	95a72e96-32e2-5b88-a917-74e87b364b24	dd6e5871-176a-5fdb-8015-7634ce433917
+treatment_response	PBBVZZ_treatment_response	Complete Remission	-999	Not Reported	Not Reported	b12b9627-c0bd-5648-8983-f1469847d440	c09ac565-0625-56e8-bca9-f24b14c639ea
+treatment_response	PBBWAC_treatment_response	Unknown	-999	Not Reported	Not Reported	7bf91559-f33a-5e1e-baa1-94d9980d109d	babc9335-8a6e-5489-a4bd-41bd995acc19
+treatment_response	PBBWAD_treatment_response	Unknown	-999	Not Reported	Not Reported	d8bb7f82-5bde-5fc5-8863-b192be9cb3a2	cb8fa934-2b4f-5c6e-9139-1672729bb66b
+treatment_response	PBBWAH_treatment_response	Unknown	-999	Not Reported	Not Reported	12761f20-d003-569a-9511-a1126343c375	9f3faf5e-406d-5974-8463-d7f9738baa72
+treatment_response	PBBWAN_treatment_response	Unknown	-999	Not Reported	Not Reported	73f7c605-1146-5f8f-9201-fa3c2f98ee0f	716bb97c-a343-5d28-a937-c375e1eb5ef2
+treatment_response	PBBWAS_treatment_response	Complete Remission	-999	Not Reported	Not Reported	7d5eed7c-b799-5ad0-be56-02f36734cf3e	7b5ec250-9112-5e05-9a75-de385da7179b
+treatment_response	PBBWBL_treatment_response	Complete Remission	-999	Not Reported	Not Reported	75557b7b-689f-5462-8409-072f75883941	82a1eba4-dc31-5892-89a6-a98038db3d94
+treatment_response	PBBWBP_treatment_response	Unknown	-999	Not Reported	Not Reported	e4ef1ed4-3658-51ca-a3e5-90a28278aec9	fba74560-f731-5950-b84c-95d2b5ece48c
+treatment_response	PBBWBV_treatment_response	Complete Remission	-999	Not Reported	Not Reported	ad767a04-e6e2-57f7-951a-d180ae61d9ab	9692257f-8b76-5b3d-bf73-bfe829784fa3
+treatment_response	PBBWBX_treatment_response	Unknown	-999	Not Reported	Not Reported	3b5a2a8f-89fa-5097-9e6b-dab786a30d1b	fd089e24-6ecc-5423-bf17-91221a8b9f7b
+treatment_response	PBBWCI_treatment_response	Unknown	-999	Not Reported	Not Reported	1e153f6a-c606-59ce-8f87-6de52b3983c8	b3c4a410-052e-5e0f-af3b-821da286c887
+treatment_response	PBBWCW_treatment_response	Complete Remission	-999	Not Reported	Not Reported	79a9ec93-de36-5507-8265-337d8f330043	d197e064-7d26-5377-93e3-1d5077256092
+treatment_response	PBBWCX_treatment_response	Unknown	-999	Not Reported	Not Reported	360a8a51-c459-5a6f-b94e-ade78def3ded	90d7c19c-82aa-5935-80a5-894e13fd951c
+treatment_response	PBBWDF_treatment_response	Complete Remission	-999	Not Reported	Not Reported	751e0a08-7282-5929-905a-5ea95fceffcd	62e46aad-896d-546b-be9a-0a4439089bc9
+treatment_response	PBBWDW_treatment_response	Complete Remission	-999	Not Reported	Not Reported	5ca1764f-1f54-5a00-b700-9d45167e37c0	fa9f9cd3-48a7-5570-a085-809ccbd55787
+treatment_response	PBBWDY_treatment_response	Unknown	-999	Not Reported	Not Reported	86ce27a7-8811-5d63-a7fb-50d29dde0e8c	cfbfa38e-c100-510f-b08a-267841542b29
+treatment_response	PBBWEL_treatment_response	Complete Remission	-999	Not Reported	Not Reported	dc1bc297-7ccd-5369-add9-507c0ad049a2	2fc15519-0eee-5376-829d-27216695710c
+treatment_response	PBBWER_treatment_response	Unknown	-999	Not Reported	Not Reported	690717e3-50b7-5a41-89ad-3ae630ec860e	8e15bbc6-8023-5681-a55b-a1f775c0f394
+treatment_response	PBBWET_treatment_response	Unknown	-999	Not Reported	Not Reported	3e2430db-3dbf-52aa-959f-f61208f594bf	7c9e4060-c0b5-5431-87ae-5b4132101a80
+treatment_response	PBBWFB_treatment_response	Complete Remission	-999	Not Reported	Not Reported	bb910c9b-06d7-5297-851a-89738b228223	6675da88-4c05-5157-a381-26cf54a1b296
+treatment_response	PBBWFD_treatment_response	Complete Remission	-999	Not Reported	Not Reported	991ab2da-bbdc-5566-8ff9-59ed2122e5e8	a4ed6f9e-f4c5-5371-9cc7-817a3293c36f
+treatment_response	PBBWFG_treatment_response	Complete Remission	-999	Not Reported	Not Reported	61a26084-ac65-5f41-baed-f2250280d8ec	cc9ce6b1-e120-5c7a-bf38-2151a80a09c6
+treatment_response	PBBWFN_treatment_response	Complete Remission	-999	Not Reported	Not Reported	6bd64148-b9ed-5a92-806b-6f6eede6b393	b0ed46c1-15ae-5eeb-9acd-8bef93a548e9
+treatment_response	PBBWGJ_treatment_response	Complete Remission	-999	Not Reported	Not Reported	f5d7073e-e707-5375-8efe-9177877eeb7c	376827a8-f0c7-558e-a7f3-31c2615d629d
+treatment_response	PBBWGK_treatment_response	Unknown	-999	Not Reported	Not Reported	7fa37191-ee1e-5f92-a5fb-1d0c46cf3afe	a291e57f-5772-5335-a76e-405471bdce99
+treatment_response	PBBWGP_treatment_response	Unknown	-999	Not Reported	Not Reported	492a566c-760b-5132-92a4-4eb30c89b82b	caa99ac6-db71-55d0-b407-bc9941977b88
+treatment_response	PBBWGV_treatment_response	Unknown	-999	Not Reported	Not Reported	90918dff-f584-54ff-bc88-3ff61a4e47c4	8d4693df-804a-5b88-9158-453d2487e449
+treatment_response	PBBWGY_treatment_response	Unknown	-999	Not Reported	Not Reported	4f170db7-f785-5c01-b38c-9019e5988b84	eaf2ead4-4af5-504e-8b45-46fd058dd057
+treatment_response	PBBWHU_treatment_response	Complete Remission	-999	Not Reported	Not Reported	8a40b98c-9fcf-5bd4-ada2-2d437ed95892	5b111361-44fa-5fa5-85ac-927b8eed45be
+treatment_response	PBBWHY_treatment_response	Complete Remission	-999	Not Reported	Not Reported	e4083850-b1b0-5813-a558-9445aa54c1c6	75831d2a-2950-55c8-8d1d-4c7d0f990578
+treatment_response	PBBWID_treatment_response	Unknown	-999	Not Reported	Not Reported	ae3c8102-fa25-5bdd-abac-3f48359247b2	547bfecd-2571-5501-b318-59c09975561f
+treatment_response	PBBWIJ_treatment_response	Complete Remission	-999	Not Reported	Not Reported	04f1a590-f721-5d14-b004-304c37f56fbc	7ba284c6-53f1-59a4-ac7a-9df5ad73f7d2
+treatment_response	PBBWIL_treatment_response	Not Reported	-999	Not Reported	Not Reported	18316139-2e43-51d0-b3a0-c9a54626d0cb	b3a01f3a-199a-5604-89a9-99a19b3aa204
+treatment_response	PBBWJP_treatment_response	Complete Remission	-999	Not Reported	Not Reported	c8fe22e2-8942-5433-bebd-ef5be8e11abe	5417d3e6-156e-58c5-be7e-5d955265a255
+treatment_response	PBBWKG_treatment_response	Unknown	-999	Not Reported	Not Reported	3b943697-ff00-59f7-849c-cf3b4634a564	79d058aa-605f-575c-b8b0-b083fa153541
+treatment_response	PBBWKJ_treatment_response	Unknown	-999	Not Reported	Not Reported	dff6410d-711c-563d-ba0c-c2eb162a5be6	05f9a063-026a-5cec-9ca8-a65870f0ad98
+treatment_response	PBBWKT_treatment_response	Complete Remission	-999	Not Reported	Not Reported	6098570f-d7bf-5f73-b071-7d718ed557d6	9d6d4595-9edc-595a-ac28-882a01504837
+treatment_response	PBBWLR_treatment_response	Complete Remission	-999	Not Reported	Not Reported	f38f706e-51f5-57e2-a383-cac07b19ab4c	83148ef7-26b7-55a3-8e29-ae72547a6255
+treatment_response	PBBWLY_treatment_response	Complete Remission	-999	Not Reported	Not Reported	da95a267-3c7b-5fab-aa04-3896ba253600	f26aef27-9ec6-5c0f-8acb-0426a0c74d21
+treatment_response	PBBWMI_treatment_response	Unknown	-999	Not Reported	Not Reported	7f5f7a45-dc64-5c89-85b5-efe930a119e3	dc3ea372-9d97-59ab-aec5-0cb5500c608b
+treatment_response	PBBWNB_treatment_response	Complete Remission	-999	Not Reported	Not Reported	011d0cdd-38c1-5de9-9c15-f0ad53fb9d34	d0c4a642-bd60-591d-836f-9d91ed6fd992
+treatment_response	PBBWNF_treatment_response	Unknown	-999	Not Reported	Not Reported	ec2dae23-9b7f-577a-a00e-d8dcc5d20f9e	7d32c886-7b5e-5b4e-b1e3-2aa7e7d9b6a1
+treatment_response	PBBWNI_treatment_response	Complete Remission	-999	Not Reported	Not Reported	cff8ef24-6928-51b1-83c4-f66825bf9ffb	066365de-127e-5d41-89c3-76e0130ed444
+treatment_response	PBBWNM_treatment_response	Complete Remission	-999	Not Reported	Not Reported	f6353e97-6c7f-5980-8a47-2347385fac23	3973ebdb-6e89-5de5-8bda-0787740581a6
+treatment_response	PBBWNR_treatment_response	Unknown	-999	Not Reported	Not Reported	bc2506ae-ed13-579a-bb52-df4d9f9bc77c	685b2f46-01fa-5d1e-800f-814a3b02e4a2
+treatment_response	PBBWNX_treatment_response	Complete Remission	-999	Not Reported	Not Reported	99f8493b-03cf-54e5-87f2-ced2482eb6ab	8212fcda-babe-5a03-8852-c70bb8d64756
+treatment_response	PBBWPH_treatment_response	Unknown	-999	Not Reported	Not Reported	a0cd7228-7d7a-5e69-8450-33ba731487b1	200a3c86-31d6-537e-be60-632c20af5640
+treatment_response	PBBWPP_treatment_response	Complete Remission	-999	Not Reported	Not Reported	a95d0d81-48a2-5d3c-b826-4a3d9bd0fdc0	aca6d376-a591-5a7c-95b7-015fc4a7345e
+treatment_response	PBBWSN_treatment_response	Unknown	-999	Not Reported	Not Reported	2a9ac230-d014-52c1-bc1f-3473d61aae76	8e3b7d11-e1d2-5487-9728-0c581c3f972e
+treatment_response	PBBWSX_treatment_response	Complete Remission	-999	Not Reported	Not Reported	1cf357e7-d8fe-5b74-bb9e-cd16d6b9889a	2eb392c4-e624-5d5b-9faa-375e9a3480bb
+treatment_response	PBBWTN_treatment_response	Unknown	-999	Not Reported	Not Reported	f071a0c0-5dd7-5b95-a2b3-b4e9357bb018	7fd49e80-6483-54e8-a8d4-101747ff4785
+treatment_response	PBBWUG_treatment_response	Complete Remission	-999	Not Reported	Not Reported	241da75d-783d-5f12-8c26-5524017964cf	69ed6cb8-40a2-5b5e-9134-622d14ae8b8b
+treatment_response	PBBWUK_treatment_response	Complete Remission	-999	Not Reported	Not Reported	0db6d3ea-baae-54e9-bab9-fa0a7035c1b3	fd1de039-eccc-57af-aa78-76cf9c629738
+treatment_response	PBBWUN_treatment_response	Unknown	-999	Not Reported	Not Reported	06038cd6-30c8-58a7-9577-b115d33c2a33	c39b8a90-b8d3-54e2-9649-fcf88d41bea5
+treatment_response	PBBWUS_treatment_response	Unknown	-999	Not Reported	Not Reported	e2fc3c91-1ef8-5fea-ab0f-198890d558fd	b2d12693-647a-5153-b974-f189acc6955d
+treatment_response	PBBWVB_treatment_response	Unknown	-999	Not Reported	Not Reported	636923f8-e337-53f9-aa62-c34f9257e27e	e7615160-4974-5960-af65-37bd401e7721
+treatment_response	PBBWVC_treatment_response	Unknown	-999	Not Reported	Not Reported	8dd9b25e-e06e-5c8c-904a-babeaab88658	553a9dc2-1a12-5637-ad98-c2296ffb6618
+treatment_response	PBBWVF_treatment_response	Unknown	-999	Not Reported	Not Reported	48dfa960-aee2-5187-bb13-17506909a7b1	73156ec0-bb50-510c-b38e-d03845b81a2c
+treatment_response	PBBWVP_treatment_response	Unknown	-999	Not Reported	Not Reported	0dc6e82d-084c-5b9f-bb28-321baf8b8a1e	a5f44e35-41ef-5f37-9a62-43627434535d
+treatment_response	PBBWVY_treatment_response	Complete Remission	-999	Not Reported	Not Reported	37799e50-4758-5cec-82c9-59d7f217f40c	926af8ec-2c51-52aa-87c2-4ca32b35fca4
+treatment_response	PBBWWW_treatment_response	Unknown	-999	Not Reported	Not Reported	ee505d9f-e541-51a1-9893-77afb4d760f6	0b64ec77-983b-5edc-bd48-4938917c8966
+treatment_response	PBBWXH_treatment_response	Complete Remission	-999	Not Reported	Not Reported	2d55e057-5120-5d91-943d-d8af6f174cd0	c57df290-b37e-520e-ae9d-2fc6d92f9260
+treatment_response	PBBWXT_treatment_response	Complete Remission	-999	Not Reported	Not Reported	d8a43a08-32c5-5a42-b283-3ab5848ef92f	a8b1828a-ba2e-5d3f-b580-29dbe61101e7
+treatment_response	PBBWYG_treatment_response	Unknown	-999	Not Reported	Not Reported	f759c25f-9615-5d51-b261-4f4438d13595	f94027d8-7648-5e54-891a-82e806764689
+treatment_response	PBBWYI_treatment_response	Unknown	-999	Not Reported	Not Reported	3140943c-a189-565b-95f0-775bfc62b8b0	d54d6ff2-79ca-5c79-81a7-ec1682d26b56
+treatment_response	PBBWYM_treatment_response	Complete Remission	-999	Not Reported	Not Reported	cd0ef6bb-a24b-5933-bfac-ab2dcda08531	e99ea5df-e2d9-5ef4-84f0-8298aacece55
+treatment_response	PBBWYT_treatment_response	Unknown	-999	Not Reported	Not Reported	3cd43327-d914-5ef1-980a-642874e6effc	f94ac1f4-eac0-5f4c-acf7-76a4ea4bd0a6
+treatment_response	PBBWYZ_treatment_response	Complete Remission	-999	Not Reported	Not Reported	509cd643-d7c6-5508-b867-0331158675f1	c0733f45-2c80-5dee-aa82-3f2aa4663245
+treatment_response	PBBWZK_treatment_response	Unknown	-999	Not Reported	Not Reported	d9e13983-a095-5e51-97da-7c0b1238d16b	1d7187bb-44f9-5eb2-a3b2-02dc13405394
+treatment_response	PBBWZM_treatment_response	Complete Remission	-999	Not Reported	Not Reported	3a9f8c14-28f1-5f5b-b3c2-41a8383cbd13	2167c958-b287-5a05-8856-9998a2c1d4b7
+treatment_response	PBBWZR_treatment_response	Unknown	-999	Not Reported	Not Reported	ba26485f-6121-5453-ab4c-6e813102bcea	65b68f98-8df2-5f9d-bb32-79e3d1befb92
+treatment_response	PBBWZU_treatment_response	Complete Remission	-999	Not Reported	Not Reported	d6cae42f-13e9-54f5-b94b-d242c8f3ca94	c0652de6-2d9e-5f00-9d96-05099821b88b
+treatment_response	PBBWZZ_treatment_response	Complete Remission	-999	Not Reported	Not Reported	4ed1cfb5-b263-56a0-814c-26e45804021a	330c2797-b289-5e3e-9631-3ced61ff7d1b
+treatment_response	PBBXAI_treatment_response	Complete Remission	-999	Not Reported	Not Reported	b5deb439-88d2-561a-8db5-5c337d8a17bc	4a07586a-690d-54d6-bd27-411a08eb88d8
+treatment_response	PBBXAT_treatment_response	Unknown	-999	Not Reported	Not Reported	f8a7362f-2ad4-5e9d-b7c5-885e822b2e69	27b57762-4554-5e8e-bd4f-d37f433c9860
+treatment_response	PBBXAU_treatment_response	Complete Remission	-999	Not Reported	Not Reported	9a5d8e30-741a-5249-8282-0f61aac822ec	0fbcc29a-7149-58e9-bb2f-7d6a2379118f
+treatment_response	PBBXBJ_treatment_response	Complete Remission	-999	Not Reported	Not Reported	9ba1fd57-c7a2-5b0e-9e48-70dc59cadce8	f892fd93-bb86-5b9d-9f83-64cff3d4c1c4
+treatment_response	PBBXBK_treatment_response	Complete Remission	-999	Not Reported	Not Reported	6997be8c-1e27-5edf-81e8-9fbbad69baec	49a62eb5-8f30-5818-aaef-081043f95879
+treatment_response	PBBXBL_treatment_response	Complete Remission	-999	Not Reported	Not Reported	025ae410-cc30-539f-98db-bb1e806960a0	baf2a578-8cbb-5550-b540-4572e0f7a376
+treatment_response	PBBXCB_treatment_response	Unknown	-999	Not Reported	Not Reported	d67f6c0f-dd23-5b82-8dfa-4554e1b765c6	a9d95de0-d9c1-5fe0-a69a-8c1ef0c64f54
+treatment_response	PBBXCD_treatment_response	Complete Remission	-999	Not Reported	Not Reported	028a8d53-a71a-5691-992f-fde010f28ffc	141825a9-8d69-548d-a9a3-748b0ee9ef40
+treatment_response	PBBXCJ_treatment_response	Unknown	-999	Not Reported	Not Reported	a3b83106-9bc2-52fa-8431-4c6d2d6943b4	15a35bd8-a277-5b71-9f7a-7a9519b39e69
+treatment_response	PBBXCU_treatment_response	Complete Remission	-999	Not Reported	Not Reported	5321ce21-0ad2-5259-8973-ca08d03263f5	a0560e5f-e387-5f57-9784-74181cc22278
+treatment_response	PBBXDF_treatment_response	Complete Remission	-999	Not Reported	Not Reported	679257be-b2e2-5c8c-9273-636cd66d0852	3b3ee793-cb7e-514f-a94b-63c73df5115a
+treatment_response	PBBXDR_treatment_response	Unknown	-999	Not Reported	Not Reported	6549f715-dc60-5672-a11d-ef2725491940	a52605b5-9870-515e-a114-5f4bf0a31ae5
+treatment_response	PBBXEA_treatment_response	Complete Remission	-999	Not Reported	Not Reported	2e78d979-bef1-51fe-8a58-e007e8256453	1e24be73-77ec-5b41-b5bf-c61daffa5360
+treatment_response	PBBXEN_treatment_response	Unknown	-999	Not Reported	Not Reported	a30a22a3-3c4f-5486-9cae-937c0dcd7565	79d807dd-ff73-5868-99ff-289da6e34fae
+treatment_response	PBBXEP_treatment_response	Complete Remission	-999	Not Reported	Not Reported	0c48e915-e734-517c-8940-35787f807048	f2b27d54-8b97-55bf-a582-6e7e2c51ee01
+treatment_response	PBBXEU_treatment_response	Unknown	-999	Not Reported	Not Reported	64cca084-9410-5b31-ac0b-dbc81186fef8	30152899-2462-5ac2-bd2f-9d66e1009ef9
+treatment_response	PBBXFC_treatment_response	Complete Remission	-999	Not Reported	Not Reported	786181ec-31e2-560b-9efe-fe52df422bf4	9f4ae41d-1cfa-50ff-bfcb-e637702b82d5
+treatment_response	PBBXGB_treatment_response	Complete Remission	-999	Not Reported	Not Reported	b621f502-3bd0-5df5-9da5-c60144c085f6	d348e432-e6f1-5492-b06d-503149f8418f
+treatment_response	PBBXGW_treatment_response	Unknown	-999	Not Reported	Not Reported	90bd6c14-3309-527a-94ac-6d8770df79b4	a6cf9f03-b7c6-5848-a458-568b1064fc71
+treatment_response	PBBXHT_treatment_response	Complete Remission	-999	Not Reported	Not Reported	468e3af8-b3aa-5104-a3b4-81c2ebc1cecb	1a70e3f8-64b3-5f39-8a8b-ee235ac3a5a1
+treatment_response	PBBXHW_treatment_response	Complete Remission	-999	Not Reported	Not Reported	d0a4bbfe-2b81-5261-9cfd-4025ec2e988d	41816e29-4899-5f9e-a83a-8884b243b0aa
+treatment_response	PBBXHY_treatment_response	Complete Remission	-999	Not Reported	Not Reported	dfce9700-ce8c-5e3b-86d8-f8e1e6b20be0	ad72035a-8872-507a-bb36-c705ebf32598
+treatment_response	PBBXIA_treatment_response	Unknown	-999	Not Reported	Not Reported	4693334f-f9ef-5e4c-ab59-338648d8f307	45e86167-d1d4-5a69-adc7-950fa87e79a5
+treatment_response	PBBXIX_treatment_response	Unknown	-999	Not Reported	Not Reported	9b3bad34-a0b6-5b0a-95e6-2fd26a4be762	c727bd95-ebfe-5054-8bab-86af521d900c
+treatment_response	PBBXJB_treatment_response	Unknown	-999	Not Reported	Not Reported	0a7c7007-d44a-5f27-ae68-38bd0076f8e2	b8cd9ca2-e479-56d3-ab5b-b8bb1515c59b
+treatment_response	PBBXJD_treatment_response	Unknown	-999	Not Reported	Not Reported	a6c2b644-49c0-5027-abe6-cdcf0bb1e431	846366a5-8387-52d1-8d6a-b7360d517d67
+treatment_response	PBBXJG_treatment_response	Complete Remission	-999	Not Reported	Not Reported	d7861801-259f-57d9-b1b6-8d7d52f9a171	4a2e3afe-5696-5007-8cc5-b6e13c7ecc29
+treatment_response	PBBXJZ_treatment_response	Unknown	-999	Not Reported	Not Reported	861c3643-a3bb-528d-8c31-3b3746c4ee8d	dbeddada-c3a8-5eb2-83d4-4fa607c15267
+treatment_response	PBBXKI_treatment_response	Unknown	-999	Not Reported	Not Reported	922e577e-6602-553b-8641-f47c7f020d7d	ca85134e-d969-5ad2-9e4b-41b9a0fdd80e
+treatment_response	PBBXKJ_treatment_response	Unknown	-999	Not Reported	Not Reported	e61e52fc-c2a9-5b3b-b36b-771573b4fb64	e06c1da3-c963-536d-88e0-ee01dfa33aef
+treatment_response	PBBXKW_treatment_response	Complete Remission	-999	Not Reported	Not Reported	3ae09de0-2a87-548e-8607-0235380a3f35	8db8e3ad-d6eb-53ad-8923-6e14a4e89afc
+treatment_response	PBBXKX_treatment_response	Unknown	-999	Not Reported	Not Reported	8d0f8923-331e-5bed-85da-98af534785a4	ceba28c4-b03c-500a-b1be-7f55aa1f298f
+treatment_response	PBBXLC_treatment_response	Unknown	-999	Not Reported	Not Reported	aff06e8d-4bbe-5f39-b16f-59eb8d2b02f3	efce40ab-a928-5583-9dab-9a72fde19ce4
+treatment_response	PBBXME_treatment_response	Complete Remission	-999	Not Reported	Not Reported	9e327302-21c0-5842-9185-019ce733b8e6	8befb2c2-6251-5bc2-9c57-04bb0984e249
+treatment_response	PBBXMJ_treatment_response	Unknown	-999	Not Reported	Not Reported	56b32341-0530-5ec7-badb-f99f7d127626	60b5d10e-9b8a-58b9-864c-bfe51afb94ea
+treatment_response	PBBXMP_treatment_response	Unknown	-999	Not Reported	Not Reported	e9ec08b4-30d6-5abe-9f82-971922e1c289	c30363bf-d82c-5220-87c3-b1501e2ad025
+treatment_response	PBBXMR_treatment_response	Complete Remission	-999	Not Reported	Not Reported	b62c3d67-0257-5ed5-80f3-6321e36db17b	f8fe5f6e-8891-57d0-9e93-f385a5c14f3e
+treatment_response	PBBXMV_treatment_response	Complete Remission	-999	Not Reported	Not Reported	79666e94-7f8d-5f30-8f8a-b9dad00aedf5	51f9f85c-a0a9-5f67-a3fd-b8eb2539870f
+treatment_response	PBBXMW_treatment_response	Complete Remission	-999	Not Reported	Not Reported	943c8a83-4584-5c75-a9f1-dbbf670cd681	1cd84215-c028-5933-bf88-7d414725f25f
+treatment_response	PBBXNH_treatment_response	Complete Remission	-999	Not Reported	Not Reported	31806a47-7217-5ee5-9a79-5ea7c028ec03	9df683a1-8dc9-5b96-9a3c-bb0ef81f73de
+treatment_response	PBBXPD_treatment_response	Complete Remission	-999	Not Reported	Not Reported	28ead876-64a2-5263-9382-1afcedbe425f	e63cd314-cf51-50f5-af0f-5470460f1506
+treatment_response	PBBXRG_treatment_response	Unknown	-999	Not Reported	Not Reported	92cc5121-2548-5275-b997-bf62ad94444c	cad8edac-1ec8-5ddb-8bc1-d8b7175b7ace
+treatment_response	PBBXRR_treatment_response	Complete Remission	-999	Not Reported	Not Reported	6d29f676-b175-5249-9bb6-6c954c77da7f	eb99f9b0-5365-58aa-926c-db325044b5e2
+treatment_response	PBBXRU_treatment_response	Unknown	-999	Not Reported	Not Reported	f0807ccb-6f30-5a1f-af4f-11a521de1803	00879c49-bf09-52e4-917b-4e7daa96df30
+treatment_response	PBBXRV_treatment_response	Complete Remission	-999	Not Reported	Not Reported	a8fccd48-170c-55fa-9f69-ecfd3b355e5d	49a9ac12-0e06-5a52-80c0-408e45070eb3
+treatment_response	PBBXRX_treatment_response	Complete Remission	-999	Not Reported	Not Reported	ea657204-b0bf-5637-815f-84d1359670fb	5d6d76c6-674e-506b-880b-a0c74b5c92d9
+treatment_response	PBBXSJ_treatment_response	Unknown	-999	Not Reported	Not Reported	867bd303-53fb-5ba1-ad8a-bf338a85f0e8	aa614bd8-aaa3-5915-8f52-55bcf7147b59
+treatment_response	PBBXSM_treatment_response	Unknown	-999	Not Reported	Not Reported	943f312a-d2a2-5e86-aa8b-6b67d2d10a57	5039af57-963d-599f-83d5-4dc8a2dda6df
+treatment_response	PBBXSU_treatment_response	Unknown	-999	Not Reported	Not Reported	480c0147-e6ec-573e-9166-21e6721db666	53e571b1-246e-5291-baec-854ca6d5669e
+treatment_response	PBBXSZ_treatment_response	Unknown	-999	Not Reported	Not Reported	44d6a2eb-3e94-574d-8c14-8689567d2f94	7479c2a5-c0c4-577e-b9b5-6fbe1820220e
+treatment_response	PBBXTG_treatment_response	Complete Remission	-999	Not Reported	Not Reported	4fbdd74f-b2c6-5ca2-9169-ccb4ac862b7e	66a2d5c3-9a6c-591c-aebc-e57d7021b45c
+treatment_response	PBBXTK_treatment_response	Unknown	-999	Not Reported	Not Reported	7e7d9f89-585e-5476-a4a2-b3324fbe5a43	aa5818ae-a591-5c77-bcf6-5c7a395c67ce
+treatment_response	PBBXTS_treatment_response	Complete Remission	-999	Not Reported	Not Reported	8eee445c-5aaf-5ee4-a3ba-7a5a5629a2b2	c3984568-80c3-58c5-8eac-e907b6a293ea
+treatment_response	PBBXTZ_treatment_response	Unknown	-999	Not Reported	Not Reported	2a834c19-f722-555b-a58e-c2f8cbc15ffe	f2f42262-56ba-5282-ac18-16249dae9365
+treatment_response	PBBXUJ_treatment_response	Complete Remission	-999	Not Reported	Not Reported	1fb8b455-c874-59b5-aa9c-1cb9fbf43e19	8d83f37f-ffb9-56d8-8df0-9bed7c3edc83
+treatment_response	PBBXUP_treatment_response	Unknown	-999	Not Reported	Not Reported	af3943c6-9af9-5ee8-b36b-46bc795ccb1d	578cf040-9b10-52fb-99c3-bc3661c20d64
+treatment_response	PBBXUS_treatment_response	Unknown	-999	Not Reported	Not Reported	ab706a05-8297-5b3b-9206-78f350815767	2ea80a74-162c-52ff-878e-c2d78c46527f
+treatment_response	PBBXWC_treatment_response	Complete Remission	-999	Not Reported	Not Reported	8eb4f446-2d70-51de-bb88-c1aed50aadbe	3ac93658-0420-5245-a6d3-eebf0ac75a67
+treatment_response	PBBXWE_treatment_response	Complete Remission	-999	Not Reported	Not Reported	8e4c3774-91c8-5df7-8b8e-6c2f456ef2cc	66d9561c-1c5f-5a6e-9dc7-2b1c0886a1c1
+treatment_response	PBBXXP_treatment_response	Complete Remission	-999	Not Reported	Not Reported	8927995f-8ada-544c-8e77-66bd58ce45e1	59851ac4-e72b-5086-8bfb-92bd9b4240f6
+treatment_response	PBBXYA_treatment_response	Unknown	-999	Not Reported	Not Reported	739220a1-3d7b-5c55-be35-cccbe830a946	2f86a8c2-7eb4-564e-9749-66849fe7f457
+treatment_response	PBBXYE_treatment_response	Complete Remission	-999	Not Reported	Not Reported	c5ceb467-f69a-5010-b6d1-8778cadc5f14	e6ae2b49-656b-5e63-adf2-ef9c280bc263
+treatment_response	PBBXYP_treatment_response	Complete Remission	-999	Not Reported	Not Reported	e6335b77-548e-5ca5-b62f-67f1ed474429	97ea10c9-eb4a-52b5-b2cf-ae699c152ad1
+treatment_response	PBBXYX_treatment_response	Unknown	-999	Not Reported	Not Reported	049f0ef0-8110-5815-9bda-b9bc0a7daa91	12d22e2d-0455-536a-a935-fa2a151caffd
+treatment_response	PBBXZM_treatment_response	Complete Remission	-999	Not Reported	Not Reported	5932c933-8653-53d3-949c-2ae4cf27c70c	d28bf354-282b-56bb-83e7-0ae5b345d3aa
+treatment_response	PBBYAE_treatment_response	Complete Remission	-999	Not Reported	Not Reported	9adc58cf-1992-520a-a58e-305cfac74d81	5c11146a-de62-5631-b4a0-18ea1729808d
+treatment_response	PBBYAU_treatment_response	Complete Remission	-999	Not Reported	Not Reported	98422f5f-28c1-5ab3-8e3c-79a38301d7b3	332530b2-aab4-58cd-9a89-5118a9b07166
+treatment_response	PBBYAV_treatment_response	Unknown	-999	Not Reported	Not Reported	6fc552c0-dbd3-510d-a813-044fb60a9e97	23c02d8e-0a4f-56b8-a752-d9b21a021369
+treatment_response	PBBYBD_treatment_response	Complete Remission	-999	Not Reported	Not Reported	31b62290-520f-5994-b2bd-d1db0a0a6bbb	f5c84a8e-ae34-5d11-9dfd-97177714c37a
+treatment_response	PBBYBJ_treatment_response	Unknown	-999	Not Reported	Not Reported	a4ea2177-ca72-58b8-880b-91967ab6306d	3e0b57b0-4259-5c9a-b62f-aae0728bffad
+treatment_response	PBBYCC_treatment_response	Complete Remission	-999	Not Reported	Not Reported	93132ce5-7f1a-579a-b3bc-48698511f439	30440cab-d10c-53fa-bbd6-431dcc8f4270
+treatment_response	PBBYCK_treatment_response	Unknown	-999	Not Reported	Not Reported	8eddabcf-f0be-5feb-9cc9-ba3559f3385a	7b2c8118-0816-5ea9-8e7e-798db67c2042
+treatment_response	PBBYCL_treatment_response	Complete Remission	-999	Not Reported	Not Reported	bd40ba32-8704-59f8-b824-b307908b586e	69e01485-5fae-500c-ac10-a6e04b0662e0
+treatment_response	PBBYCP_treatment_response	Complete Remission	-999	Not Reported	Not Reported	8bf44c1d-ebb8-5acd-88e4-4e70591b8381	592ac1fd-204f-5355-8e11-e5672d7c1cef
+treatment_response	PBBYCR_treatment_response	Complete Remission	-999	Not Reported	Not Reported	940457fe-a2b9-5bc3-b99a-b56cc6625bdf	e9c79a5d-5337-532f-9105-157edec6788c
+treatment_response	PBBYEE_treatment_response	Complete Remission	-999	Not Reported	Not Reported	12d9dc05-06d6-5a04-8719-ef7ebf9895c0	1f77b059-8230-5668-85b6-f9c91cca1cf3
+treatment_response	PBBYFB_treatment_response	Unknown	-999	Not Reported	Not Reported	f8fecef6-4406-5cf9-ad49-42a79ed34019	825687fe-7020-5042-9699-772ecf6b3f93
+treatment_response	PBBYFG_treatment_response	Complete Remission	-999	Not Reported	Not Reported	903a2ba4-d35e-5649-8c49-92fc5f4db6fe	6ea14a31-e278-525f-b5ea-e6cc96c0e2a4
+treatment_response	PBBYFL_treatment_response	Complete Remission	-999	Not Reported	Not Reported	7005c4a0-9a9e-54dd-876d-4d9e6d7ec7de	b29aff84-e7d8-5465-9faf-95e7b05ce939
+treatment_response	PBBYFU_treatment_response	Unknown	-999	Not Reported	Not Reported	37fcb570-19bc-5276-ac15-a022e8826bbf	aa3d88b7-e77c-5a77-ba63-1e55e5b548ae
+treatment_response	PBBYGA_treatment_response	Complete Remission	-999	Not Reported	Not Reported	163075b2-c95a-5517-9ed3-711825e8e394	b96451b3-1320-5086-8759-5f86be5b105b
+treatment_response	PBBYGB_treatment_response	Complete Remission	-999	Not Reported	Not Reported	4992cd6c-26b6-5441-9015-1d0a54a55bca	6d122502-bbbe-5d24-ae5f-b7dd589704f2
+treatment_response	PBBYGC_treatment_response	Complete Remission	-999	Not Reported	Not Reported	0ab87fb6-87c1-506c-8946-7f147ff754e1	29a3144f-ece5-5f3e-aa6f-d0ebb7e8663d
+treatment_response	PBBYGE_treatment_response	Unknown	-999	Not Reported	Not Reported	3f4d85ee-13d5-5fd2-a0b7-efd8e62523be	bc950141-dd95-5fe8-a34e-266859058100
+treatment_response	PBBYHF_treatment_response	Complete Remission	-999	Not Reported	Not Reported	dc019abc-09f2-5f3d-a3bf-06d73dee93f2	2f0e6c1f-e129-53e7-a819-6c9dce0ab6fe
+treatment_response	PBBYHL_treatment_response	Complete Remission	-999	Not Reported	Not Reported	11848e96-408d-515b-933e-ee532cf02eb9	84d47b92-324e-5fa9-bee9-a35d5fe78548
+treatment_response	PBBYHR_treatment_response	Unknown	-999	Not Reported	Not Reported	517c2f3b-8d95-5d1e-880f-3111b46ce8cc	40ef49b7-42de-5554-bb45-6dad2b73fda0
+treatment_response	PBBYIB_treatment_response	Complete Remission	-999	Not Reported	Not Reported	295b9fd7-5af5-5d63-a97c-ee098e104286	f7b47ecf-dd8e-57f8-9288-d8c7b31a4efa
+treatment_response	PBBYID_treatment_response	Complete Remission	-999	Not Reported	Not Reported	30814694-7f56-56fb-b9c7-f153a3d0ae1b	b4044422-e3b8-5eb0-a955-5711ed38734a
+treatment_response	PBBYIK_treatment_response	Unknown	-999	Not Reported	Not Reported	33b48938-2367-5024-b7cc-a29a807f7e93	4558eb77-5699-56fe-8b30-1d0ac1944fe3
+treatment_response	PBBYIT_treatment_response	Unknown	-999	Not Reported	Not Reported	c64ef9a6-4e54-5484-b78a-22c8c6a8a923	196375ba-02fc-54c7-a339-a4a3672d32b0
+treatment_response	PBBYIU_treatment_response	Unknown	-999	Not Reported	Not Reported	b7d7911e-8b64-5423-a729-0e7082f5db3e	857c7809-9364-50cd-b02b-db16abc10128
+treatment_response	PBBYIV_treatment_response	Complete Remission	-999	Not Reported	Not Reported	d397b3f0-e91b-58d5-bb91-7f236b17a361	f0451c75-d31d-5fdc-abdd-46790e5a0cf2
+treatment_response	PBBYJY_treatment_response	Unknown	-999	Not Reported	Not Reported	d0d803b3-e020-5091-9f7f-a15b7974d38b	7d1ddb96-b678-591a-a853-e98ce075d2c3
+treatment_response	PBBYJZ_treatment_response	Unknown	-999	Not Reported	Not Reported	78fe53eb-95eb-5cc6-b7d7-362dee957ef3	7b15e30a-a691-5a00-889f-a71b93d5f148
+treatment_response	PBBYKE_treatment_response	Unknown	-999	Not Reported	Not Reported	8a6f032c-7707-57c3-9783-acc21ae3166a	71b05ba2-715e-536f-aa5a-8c60f8e3e8a6
+treatment_response	PBBYKH_treatment_response	Complete Remission	-999	Not Reported	Not Reported	8c6398c2-1a04-5e42-b28c-ae3ab3d3502c	5c7718f8-f334-5bee-826d-234e160c6f7b
+treatment_response	PBBYKI_treatment_response	Unknown	-999	Not Reported	Not Reported	e3ffcc9b-09e6-5201-8e82-c8ff0ff633f1	45e3d704-5de8-56ac-b0fd-4ce79bbd4e03
+treatment_response	PBBYKX_treatment_response	Complete Remission	-999	Not Reported	Not Reported	8e5fef4d-1d7b-5905-a2ab-913b10972d57	77b1c58b-6ca9-5527-9a89-6d10fc9f150f
+treatment_response	PBBYLT_treatment_response	Complete Remission	-999	Not Reported	Not Reported	dfa5f516-585c-5f14-9517-7e7953d7dcd9	afbc255e-5e2b-56ae-b8af-4fee0ea3d1f0
+treatment_response	PBBYMJ_treatment_response	Complete Remission	-999	Not Reported	Not Reported	9916e32f-ac6d-5fc3-b940-048d2adcfca1	98fc96ce-b875-5450-8481-6461f29a2029
+treatment_response	PBBYNE_treatment_response	Complete Remission	-999	Not Reported	Not Reported	9346a114-3033-5ce3-a753-130b16d95d20	8e3e0831-c1af-5146-8c51-88724160edf9
+treatment_response	PBBYNW_treatment_response	Unknown	-999	Not Reported	Not Reported	b6965575-0cb0-5575-a1fc-7d78bc0382a1	3ef3ca7f-ed10-54f3-9295-a3e6ed03bb5a
+treatment_response	PBBYNX_treatment_response	Complete Remission	-999	Not Reported	Not Reported	ee7427c6-5a0f-5b18-b350-4e45637ddc03	c3d3db1a-c8dc-52ae-a579-4e89e504e7bb
+treatment_response	PBBYPL_treatment_response	Complete Remission	-999	Not Reported	Not Reported	3316bdcb-6729-5209-a0f5-5a827f8da259	34e6718c-6e80-501b-af89-7bec5573fb35
+treatment_response	PBBYPM_treatment_response	Complete Remission	-999	Not Reported	Not Reported	443fa356-5a58-5c54-9811-160da0802234	a1240a24-874c-59c1-ad52-4fd993cad40e
+treatment_response	PBBYPY_treatment_response	Unknown	-999	Not Reported	Not Reported	52ae0a1c-1a81-5825-8d9f-ab04a25933d2	bebe20f7-19f4-584b-b154-3d322ba97220
+treatment_response	PBBYRF_treatment_response	Unknown	-999	Not Reported	Not Reported	6afbf8da-6530-58d9-81fe-d17570cb041c	9ac34d48-fb3d-53ff-bcac-7e593183bab5
+treatment_response	PBBYRL_treatment_response	Unknown	-999	Not Reported	Not Reported	b71e85d0-d3c0-5496-85ed-d91729aa0a56	e5efeb5e-4771-572a-a7d9-b3c38af37666
+treatment_response	PBBYRP_treatment_response	Complete Remission	-999	Not Reported	Not Reported	491481d1-55be-5e48-bb09-ad1f2b8caaa3	fbb37d49-4ebf-5dbc-a704-87cbd21429c6
+treatment_response	PBBYRS_treatment_response	Unknown	-999	Not Reported	Not Reported	5da578f3-c867-5fec-8704-d495c4903805	9c1b8ecf-6673-5255-a29b-1eb15f1a63a5
+treatment_response	PBBYRW_treatment_response	Complete Remission	-999	Not Reported	Not Reported	c4a5614a-6cf5-50d4-9bfc-d36975cb30cc	7437a7ba-3eba-5ce9-89a4-c2e2836f8fe2
+treatment_response	PBBYRZ_treatment_response	Unknown	-999	Not Reported	Not Reported	f1345c1f-17b1-56fe-8990-35a3175f1be4	33689b9b-291e-5efa-ae94-badbae717487
+treatment_response	PBBYSB_treatment_response	Complete Remission	-999	Not Reported	Not Reported	33374523-648c-5c8c-941b-a2c28b21043b	94288d4f-4412-5bff-926f-44b621d3ad99
+treatment_response	PBBYSF_treatment_response	Unknown	-999	Not Reported	Not Reported	b98f0ee2-9344-554e-9139-736d49b1946b	f742c2db-3a86-5bad-ac50-cd8be63f9308
+treatment_response	PBBYSK_treatment_response	Unknown	-999	Not Reported	Not Reported	898b1055-2e63-5f30-a490-7c1f2fc938e6	a7169a05-86fb-5aec-9180-bad5a31a2773
+treatment_response	PBBYSP_treatment_response	Unknown	-999	Not Reported	Not Reported	10803f16-a806-5a99-939e-b1665c591bcf	93136df5-9cd3-5edc-95d1-fb725d17d069
+treatment_response	PBBYTD_treatment_response	Complete Remission	-999	Not Reported	Not Reported	c74f64cc-761e-50f6-b6c6-ecdfc843faa9	a3fb158b-4b00-510a-973c-49ddc37c60de
+treatment_response	PBBYTK_treatment_response	Unknown	-999	Not Reported	Not Reported	d174cdda-5d06-53b6-8ba6-daaa950bbd48	c74b8a0b-b4f7-53eb-97e6-704aaedb195e
+treatment_response	PBBYTY_treatment_response	Complete Remission	-999	Not Reported	Not Reported	22408bb7-b330-51ba-9f64-0280b11034fa	d70a55fc-aca5-50d0-86dc-72a5557bf72b
+treatment_response	PBBYTZ_treatment_response	Complete Remission	-999	Not Reported	Not Reported	fd64b07a-4da7-5d01-8841-19a74794acac	34ff10f4-e6ea-5ec7-a553-841ace827c3c
+treatment_response	PBBYUE_treatment_response	Complete Remission	-999	Not Reported	Not Reported	f0583562-cdbf-5c9f-93e3-feba1a92439c	4c1d8bd0-0f12-557b-b384-f3a2ae63ea7b
+treatment_response	PBBYUF_treatment_response	Complete Remission	-999	Not Reported	Not Reported	807e71e8-2047-59c8-a040-38756fba5e59	6f70f3a2-75ae-5661-8d16-e47d7bc29f79
+treatment_response	PBBYUN_treatment_response	Unknown	-999	Not Reported	Not Reported	324baab9-a996-50f7-82b2-16e9a1d96a67	ec7f3f6d-cc70-5e03-acda-185834fb1ff1
+treatment_response	PBBYVA_treatment_response	Complete Remission	-999	Not Reported	Not Reported	4c9dc52a-a3c0-500c-9930-a56e6b2667d3	8a252d60-85d6-5275-bed0-fdd0b34f9381
+treatment_response	PBBYVV_treatment_response	Complete Remission	-999	Not Reported	Not Reported	394c1400-ecb7-5366-8cb8-91ad66b78353	4b31ce03-d422-55ac-aff6-ca2b233a7d0a
+treatment_response	PBBYVY_treatment_response	Complete Remission	-999	Not Reported	Not Reported	388ebd14-bc65-5a48-983f-05559e047e80	3b0c9820-c8f4-5126-8097-078a6f3f3656
+treatment_response	PBBYWV_treatment_response	Unknown	-999	Not Reported	Not Reported	af904c7d-4fe0-5edc-98e1-76e7e70a7ee7	2d83acc1-1b06-5d62-ae4e-e62d83e388a5
+treatment_response	PBBYXU_treatment_response	Unknown	-999	Not Reported	Not Reported	aec9ec60-414f-581b-8e49-85a4574e9ea5	b23db7ab-9ee1-59a9-9338-dc8a4d271f58
+treatment_response	PBBYYY_treatment_response	Unknown	-999	Not Reported	Not Reported	f1164ada-59ea-5722-a9ee-1c7a189bdc4a	dbb4dc29-d159-57df-8861-e95f7bb7bdf9
+treatment_response	PBBYZL_treatment_response	Complete Remission	-999	Not Reported	Not Reported	4ca18767-821d-556e-ba3b-6c728fe0e4e1	eba60867-22e4-567b-a36c-ddc9b5db63a5
+treatment_response	PBBYZN_treatment_response	Complete Remission	-999	Not Reported	Not Reported	1c601f6e-e28c-57ca-84bc-60e8516c078a	84286f4f-16b8-53a5-97a4-3d4f889fa3d9
+treatment_response	PBBZAE_treatment_response	Complete Remission	-999	Not Reported	Not Reported	e99df2dd-d58e-5410-a0d4-c82f1902955f	37d278bc-c9f3-53c4-9534-06e205f61a7b
+treatment_response	PBBZAH_treatment_response	Unknown	-999	Not Reported	Not Reported	8808062e-62cb-50bd-9378-563e248f1ffb	20eb82a1-ed50-5bf3-ac94-0d1eff4a365b
+treatment_response	PBBZAL_treatment_response	Complete Remission	-999	Not Reported	Not Reported	6aa9328a-4239-5739-9260-b84873082143	941b852c-5a34-58a4-8902-c9e046767890
+treatment_response	PBBZAR_treatment_response	Complete Remission	-999	Not Reported	Not Reported	900ae2f9-05d7-5e7f-86e1-58de1c00d38a	2af4b539-2e49-5fb3-b846-a3cc427a90db
+treatment_response	PBBZBS_treatment_response	Complete Remission	-999	Not Reported	Not Reported	f25af759-8236-50d5-a257-bc70ff043ccd	1d02f550-a62e-5c4e-bc41-3e87cec55417
+treatment_response	PBBZBT_treatment_response	Unknown	-999	Not Reported	Not Reported	2f0687d5-2449-59b7-96c7-78e15d026d80	982614b7-8764-5f41-bcbe-757bc7c4b198
+treatment_response	PBBZBY_treatment_response	Unknown	-999	Not Reported	Not Reported	033cc78a-da8b-589b-9c5c-d91e0d945ffe	fa3399ec-99f6-5510-84dd-d0542f80365c
+treatment_response	PBBZCE_treatment_response	Unknown	-999	Not Reported	Not Reported	2547bbd8-13d4-5526-95f3-32aab0821b64	3ee39bab-a1d7-56ae-9d07-447461c38236
+treatment_response	PBBZCF_treatment_response	Complete Remission	-999	Not Reported	Not Reported	32322fac-4b8c-5c98-b40c-53a30a1ef9c5	90523b8c-c150-5012-b9d0-0faa72ede2be
+treatment_response	PBBZDG_treatment_response	Unknown	-999	Not Reported	Not Reported	97c7b03e-bd99-5477-9ff5-f30ec92e14e8	0b319013-479f-5d7d-9903-ff902b434563
+treatment_response	PBBZDH_treatment_response	Complete Remission	-999	Not Reported	Not Reported	27e09684-da48-5299-858e-a254643ff20d	3872057b-eb16-5ccc-b2e4-a1840c5cf6e5
+treatment_response	PBBZDU_treatment_response	Unknown	-999	Not Reported	Not Reported	f00db82c-95fc-5f21-952c-cc475a92dba5	7e2fe8ca-0644-55ed-a625-e5d673a90eaf
+treatment_response	PBBZDY_treatment_response	Unknown	-999	Not Reported	Not Reported	aaad40e9-75cc-5a13-a265-62d57a44548f	0c4f3275-b4d8-5b0f-a75c-94e301762676
+treatment_response	PBBZEB_treatment_response	Complete Remission	-999	Not Reported	Not Reported	7657054e-9143-5dd9-b252-705f86c3d697	158f73fd-61f0-5b71-a58c-91d73551019f
+treatment_response	PBBZEF_treatment_response	Unknown	-999	Not Reported	Not Reported	646d464e-34e2-5948-9b0e-7c35dd148c8d	a1613c5e-d2ce-543e-8af9-b7e60630c6fb
+treatment_response	PBBZEJ_treatment_response	Complete Remission	-999	Not Reported	Not Reported	d1f2b05f-0f06-5656-bc72-429d448c3b5e	e8cbc55b-5165-5796-9dcc-f4eb1fc60915
+treatment_response	PBBZER_treatment_response	Complete Remission	-999	Not Reported	Not Reported	03ec8498-99c3-5af0-8bda-fa131338767c	888f0162-637e-5baf-8785-cea984362966
+treatment_response	PBBZFI_treatment_response	Complete Remission	-999	Not Reported	Not Reported	2e7e5502-182b-56f4-9718-3ce82109dd1d	5fedf692-0ad6-5313-86c9-e7b6802fde19
+treatment_response	PBBZFM_treatment_response	Complete Remission	-999	Not Reported	Not Reported	44668746-9ef6-5f9a-b4fa-db67b426ab58	4ae62fc8-2f64-5ae2-b5fc-4e480c27e768
+treatment_response	PBBZGF_treatment_response	Unknown	-999	Not Reported	Not Reported	c307813e-271c-5e54-a661-0366265c50d2	79060a74-4c3c-5288-8b70-25c8c0b7b487
+treatment_response	PBBZGK_treatment_response	Unknown	-999	Not Reported	Not Reported	fb1b47da-39d6-5023-8d4c-e49fd1251966	40124592-559e-5319-b68a-9092fc090c81
+treatment_response	PBBZGW_treatment_response	Complete Remission	-999	Not Reported	Not Reported	85cc98d3-b8ef-5055-8ec2-f721fe8af235	b080e7fc-6c0d-564a-961c-0e3e8a7f8d5e
+treatment_response	PBBZHB_treatment_response	Complete Remission	-999	Not Reported	Not Reported	c7e0077e-5238-5229-966b-987062cc3356	6068aab8-ceb2-50fb-b903-5100a885b3bf
+treatment_response	PBBZHJ_treatment_response	Unknown	-999	Not Reported	Not Reported	495de0da-2ef3-5a44-b310-deac58b800f1	a7433f42-7baa-550f-be19-a43d0b61838e
+treatment_response	PBBZHZ_treatment_response	Unknown	-999	Not Reported	Not Reported	c3477d82-6e38-54c2-81f0-32e9ca45bd82	7544e0f7-abd5-505a-b115-26073d05cf47
+treatment_response	PBBZJH_treatment_response	Complete Remission	-999	Not Reported	Not Reported	51ad2a41-0c59-562a-aaa1-56da0b66bf7f	606cab7e-0d84-58b2-826f-e75321eefb5f
+treatment_response	PBBZKC_treatment_response	Complete Remission	-999	Not Reported	Not Reported	7fc59057-50dd-5df2-b633-d5ddae57d6fd	113ee4bb-75a2-512a-afb6-379348afcd08
+treatment_response	PBBZKJ_treatment_response	Complete Remission	-999	Not Reported	Not Reported	1b62a8f6-dad1-579f-81d9-de53c012b91f	d67c6f11-16b5-509d-b27b-5ea29653788f
+treatment_response	PBBZKS_treatment_response	Unknown	-999	Not Reported	Not Reported	77babd74-8bc2-5b4d-9cba-ef6ebe11b9e0	a6e3cafe-48c4-5dc3-9cc6-b8cebcf1bb74
+treatment_response	PBBZKV_treatment_response	Complete Remission	-999	Not Reported	Not Reported	ebac4cf5-1348-5e98-8c0f-6de93548e6a5	ee16f109-8bcf-5608-8144-9806f2c3b0c2
+treatment_response	PBBZLT_treatment_response	Complete Remission	-999	Not Reported	Not Reported	f77e4f60-63cb-5bc1-b61e-122b444f9224	adef919e-fcfa-5e3e-b418-0c9c5dd47939
+treatment_response	PBBZLU_treatment_response	Complete Remission	-999	Not Reported	Not Reported	835d59bb-95ef-53db-bdac-c080289d31dc	fd494de5-7f26-5679-a717-1a271cab4f2d
+treatment_response	PBBZLW_treatment_response	Unknown	-999	Not Reported	Not Reported	526af8e0-8282-5eb5-b812-89265c105d64	82a53999-08f9-5e6c-b020-57ca04402f56
+treatment_response	PBBZMM_treatment_response	Complete Remission	-999	Not Reported	Not Reported	c95227d2-5d8c-5a75-9282-d5df8be8a1b1	2653750b-45d5-5adc-8ec0-8c091d12e241
+treatment_response	PBBZMT_treatment_response	Complete Remission	-999	Not Reported	Not Reported	5488c431-4e1a-55a9-82f3-da7899b95c2f	8c9d65b1-6c90-5468-b463-2a0d5c97558a
+treatment_response	PBBZNE_treatment_response	Complete Remission	-999	Not Reported	Not Reported	c460e9cf-b9a2-56d9-bf5f-1d45aa7de556	7da6fb91-2512-593c-a7c4-3a6be8bc7cb2
+treatment_response	PBBZNR_treatment_response	Complete Remission	-999	Not Reported	Not Reported	23d0eab9-6a92-57c7-a99b-ce8a8f244cb6	9b746754-aabe-5efe-9f0e-64c3e43ea6cb
+treatment_response	PBBZNV_treatment_response	Unknown	-999	Not Reported	Not Reported	02a0fdf4-2b37-5017-bc06-8fa0bfcefe54	14e46995-fb96-5c47-ac5e-898c8069e543
+treatment_response	PBBZPG_treatment_response	Unknown	-999	Not Reported	Not Reported	984e1ef9-df83-50f8-8460-d601b56ca7a1	1ea402e8-b121-5724-877e-d5cad6551510
+treatment_response	PBBZPM_treatment_response	Complete Remission	-999	Not Reported	Not Reported	5d2c7418-2b74-59e5-ad03-7156b03d9f83	d4b815b1-7af8-5b2f-8d2b-1b697180474c
+treatment_response	PBBZPX_treatment_response	Complete Remission	-999	Not Reported	Not Reported	a35962bb-2909-5ba5-bc28-bdcf5facea6b	a4e30385-87e0-5761-9451-4b9f7c8507c7
+treatment_response	PBBZRX_treatment_response	Complete Remission	-999	Not Reported	Not Reported	165f60a4-8519-5b44-85b8-62861a5e52ff	c4446ae4-638f-5fb8-8185-444af0bed3b4
+treatment_response	PBBZSX_treatment_response	Unknown	-999	Not Reported	Not Reported	770bfb45-5d65-5cda-b299-412106196711	91575f12-73b7-572a-9076-fa0cefadc402
+treatment_response	PBBZSZ_treatment_response	Complete Remission	-999	Not Reported	Not Reported	4da8a95c-62fe-5dfb-8f32-be58da92e316	4a3e52ed-ffd6-5fc6-90d3-4ab10afde536
+treatment_response	PBBZTK_treatment_response	Complete Remission	-999	Not Reported	Not Reported	da849de4-1906-587f-b44e-84595684f6d5	fa58b166-491c-5d06-89b0-f179ee32115d
+treatment_response	PBBZTL_treatment_response	Complete Remission	-999	Not Reported	Not Reported	dd0b6c8d-1385-52f7-9c50-8b9cef3cd34f	0d507768-b1d3-506e-a220-aa4a61b75127
+treatment_response	PBBZTT_treatment_response	Complete Remission	-999	Not Reported	Not Reported	23056b65-ebe3-53a6-9cf5-90dc56537232	a0a2a706-d043-5d43-b64e-639c68e37e78
+treatment_response	PBBZUJ_treatment_response	Complete Remission	-999	Not Reported	Not Reported	9fb26b67-4852-5a7d-a868-a70f1fb4c867	5faa98cc-eaa3-5329-9b38-07e45e9d2cee
+treatment_response	PBBZUL_treatment_response	Complete Remission	-999	Not Reported	Not Reported	a437410a-755f-5d33-a2fe-89e98749fed8	66ec86e2-a8c6-505d-b519-948cda9744b6
+treatment_response	PBBZUR_treatment_response	Complete Remission	-999	Not Reported	Not Reported	0f3e6138-2acf-5994-ab0c-146003623cbf	5d950970-a2be-5e19-a3c9-adc732145060
+treatment_response	PBBZVD_treatment_response	Complete Remission	-999	Not Reported	Not Reported	18f0afe0-aa8b-5c45-84f8-e6af7ecc5b35	d0497e68-8398-58c4-a75b-beb855a154c3
+treatment_response	PBBZVU_treatment_response	Complete Remission	-999	Not Reported	Not Reported	fa4af161-1bfc-520a-a562-11c0d71b62c8	20eb2dfa-b977-56fc-a8fc-46facc533a70
+treatment_response	PBBZWS_treatment_response	Complete Remission	-999	Not Reported	Not Reported	0e53ec42-2bb7-59ea-928e-a3b8a1f87ce9	cd8cb8e4-ad6b-5db0-8376-60dc1e01763e
+treatment_response	PBBZWX_treatment_response	Complete Remission	-999	Not Reported	Not Reported	3124f4aa-1c2f-5865-a172-594602572e8c	ec0fb028-1e9e-50de-8e02-e659919a6f4f
+treatment_response	PBBZXS_treatment_response	Complete Remission	-999	Not Reported	Not Reported	03660886-f420-5b10-a0ee-3cbbff78ab43	1d794296-c1c7-5009-9c04-1467f1259c3e
+treatment_response	PBBZXT_treatment_response	Unknown	-999	Not Reported	Not Reported	f29e41e2-da62-5ce5-92fa-7d042972564b	7232a5e1-0bc1-5da0-b7ee-e640522c410d
+treatment_response	PBBZYB_treatment_response	Unknown	-999	Not Reported	Not Reported	047d65ae-d5d3-5ac7-8657-c9a3a8af464b	d198a647-ce99-58a8-85ad-45ca92b9d00e
+treatment_response	PBBZYE_treatment_response	Complete Remission	-999	Not Reported	Not Reported	f783c810-86a8-51e8-8375-da168c75e9e5	6a14ed84-a071-5f66-b68f-47fa66d21436
+treatment_response	PBBZYH_treatment_response	Complete Remission	-999	Not Reported	Not Reported	4116b6fb-f4ae-5835-8de9-10e829674f8a	cd80ea68-d1b2-5bdf-bb38-f3689224fb9f
+treatment_response	PBBZZA_treatment_response	Complete Remission	-999	Not Reported	Not Reported	d955b061-dfae-506d-9d97-cd19fd244e0d	2fefb4f5-34c8-5023-8d9b-1f9b6ea3218d
+treatment_response	PBBZZV_treatment_response	Unknown	-999	Not Reported	Not Reported	8c8602df-2673-57cc-b3c8-dc0eb882a7b3	9885caa5-46d1-5440-9197-be700c4eab11
+treatment_response	PBCAAI_treatment_response	Complete Remission	-999	Not Reported	Not Reported	a3f62e9e-6560-5f96-bf2c-c5c9dedf231e	44ddecd0-516a-5a12-89bf-40c224fddc45
+treatment_response	PBCABJ_treatment_response	Unknown	-999	Not Reported	Not Reported	88853592-b431-5d4f-836a-c1dde68e880b	982e655c-6a05-53f9-85ce-f323d1b9105c
+treatment_response	PBCABM_treatment_response	Complete Remission	-999	Not Reported	Not Reported	b1e144f3-cd50-5c71-b9fd-798f4189000a	2de871a9-1ee1-5015-a014-23c30a8d392a
+treatment_response	PBCABT_treatment_response	Unknown	-999	Not Reported	Not Reported	2cf28841-ad45-5706-9a70-14ae1df5d88e	447a5233-6538-58f2-8fe1-aea2f2d0bcd8
+treatment_response	PBCACC_treatment_response	Unknown	-999	Not Reported	Not Reported	1dd57cf3-b337-50a3-a517-ee03ad042e59	58872d28-c22d-53d1-9c35-a95cbb373dc6
+treatment_response	PBCACG_treatment_response	Unknown	-999	Not Reported	Not Reported	23212d50-400d-5950-b0c2-43cb2cc3a861	c21d5766-dec3-5af3-9ec5-e3411f583e56
+treatment_response	PBCACJ_treatment_response	Complete Remission	-999	Not Reported	Not Reported	5124d1eb-bb17-5b12-a4d5-7572403c677e	9fb64d2c-0643-5c11-beba-779b76548c8d
+treatment_response	PBCADA_treatment_response	Unknown	-999	Not Reported	Not Reported	ea1acfc3-97f0-559a-bdca-5dbe71540893	d91a4042-33d8-52a8-b7b8-1ddc2ddbffb4
+treatment_response	PBCADR_treatment_response	Unknown	-999	Not Reported	Not Reported	537afdc3-61c8-5c18-a3eb-33de1eaf8230	ede82a44-6c41-5a1b-aee3-32413a27d775
+treatment_response	PBCADX_treatment_response	Complete Remission	-999	Not Reported	Not Reported	2dcb5f5c-184b-58f5-bd70-ccf61d8a041c	722546e8-8032-59da-8657-1301fae2a6cb
+treatment_response	PBCAEC_treatment_response	Complete Remission	-999	Not Reported	Not Reported	0219ee77-273f-5976-bb17-73c21a3c5b3e	5c31f35e-ca2e-5fa6-8067-c2c3cca137ff
+treatment_response	PBCAEH_treatment_response	Complete Remission	-999	Not Reported	Not Reported	3b91c990-4267-52c0-861f-5e338a72edc0	b60f1d15-10d1-5f52-9bfa-9cfce2c26246
+treatment_response	PBCAER_treatment_response	Unknown	-999	Not Reported	Not Reported	ecd05b55-48a5-5e03-be9f-821d1dc2817b	3aef4438-8218-57f1-9750-61cbc5c8f2be
+treatment_response	PBCAET_treatment_response	Complete Remission	-999	Not Reported	Not Reported	670ee895-7cfa-51fd-bb0a-4d6010937242	b102cdb4-48c8-5e27-abfa-6a9f39039fd2
+treatment_response	PBCAFM_treatment_response	Complete Remission	-999	Not Reported	Not Reported	588a72fb-116c-5627-bb5d-5e3b65b061e8	1a2627ff-3bf5-5f28-99b1-89ad17af3dd4
+treatment_response	PBCAFP_treatment_response	Unknown	-999	Not Reported	Not Reported	eabb7c56-f65c-5a5d-bcb1-caef1164d807	b84579f7-49fa-5a41-8afc-8354c4dcf695
+treatment_response	PBCAFX_treatment_response	Unknown	-999	Not Reported	Not Reported	75d55cf0-68b5-53cd-8612-3155a13931db	ef650285-bb7f-542c-b97e-960f457add06
+treatment_response	PBCAGD_treatment_response	Complete Remission	-999	Not Reported	Not Reported	108b5c32-d9a6-5c0f-bce7-5b4d5efc0e07	61a4abc4-25b7-55ef-9658-4948ba1b8711
+treatment_response	PBCAGI_treatment_response	Complete Remission	-999	Not Reported	Not Reported	68376730-6b39-5b76-89a7-b82a12166ded	e6ae09bf-73f3-5818-a3bb-bc57527396e7
+treatment_response	PBCAGL_treatment_response	Unknown	-999	Not Reported	Not Reported	c7e23b7d-20d2-54bb-843c-11ddac674379	15aecd48-68ad-526f-a7b9-3b8e4ca86c47
+treatment_response	PBCAGR_treatment_response	Complete Remission	-999	Not Reported	Not Reported	79062021-8f67-5c3d-9aeb-4e84dd2e0cec	92667c49-c04d-5d9d-8326-a78e5cbaf031
+treatment_response	PBCAHE_treatment_response	Complete Remission	-999	Not Reported	Not Reported	9f1fa2dd-3433-5192-9978-8d5a5c46c15b	9a9e5ef3-4f02-5da8-86c0-41074c5d2eb7
+treatment_response	PBCAHK_treatment_response	Complete Remission	-999	Not Reported	Not Reported	71a7b8be-9521-5f16-bd73-638ddbb858c7	89eb31f1-fd74-5e53-81c4-8f10c082290c
+treatment_response	PBCAHU_treatment_response	Complete Remission	-999	Not Reported	Not Reported	70431b4d-f02d-5e5a-ad49-d0caeb06c8d5	125822a2-2b07-5b0d-9dcd-9cfd43b6fb47
+treatment_response	PBCAIZ_treatment_response	Complete Remission	-999	Not Reported	Not Reported	dea67abe-13a1-5cb1-8364-399db599e11c	31fc79a1-d5aa-564a-bdd5-796680909836
+treatment_response	PBCAKE_treatment_response	Unknown	-999	Not Reported	Not Reported	2fba9e40-2c85-55ac-a529-24e82cb0e611	71a3bc2b-af52-5186-9989-5c31789b1f38
+treatment_response	PBCAKH_treatment_response	Unknown	-999	Not Reported	Not Reported	af0c4862-93d9-54c3-866e-5cb7365c33d9	8925acc3-1ee9-5736-9db0-9fb726a8fd99
+treatment_response	PBCAKM_treatment_response	Complete Remission	-999	Not Reported	Not Reported	8b9c036e-7cb3-5000-ae8c-f4ca57ae4991	808ba6ef-6884-5b33-9e52-4d9e476cd6e2
+treatment_response	PBCAKS_treatment_response	Unknown	-999	Not Reported	Not Reported	eb85b69d-89ed-560e-ba54-dc5924c7d4e0	cd89b839-2aa1-570f-8d21-cbbcea8b8054
+treatment_response	PBCALM_treatment_response	Complete Remission	-999	Not Reported	Not Reported	be686761-88f9-5806-bc4c-82c77362828d	a581a8e6-51bb-5feb-ba85-0fcce113f59b
+treatment_response	PBCALN_treatment_response	Unknown	-999	Not Reported	Not Reported	35790671-f3d2-5786-8dfe-020f88a1812e	df060088-30f3-5df6-a794-6a887d4eaed3
+treatment_response	PBCAMB_treatment_response	Unknown	-999	Not Reported	Not Reported	42c2cb76-9c84-5c55-abf6-f1766292837b	5ad3b77a-abaa-5a95-a6d1-0fbcc372702d
+treatment_response	PBCAMC_treatment_response	Complete Remission	-999	Not Reported	Not Reported	fc15b11d-6275-502a-8243-2be05519b26e	31d1a6eb-a40a-5997-ab51-21e5a77b83cc
+treatment_response	PBCAMH_treatment_response	Complete Remission	-999	Not Reported	Not Reported	2f032c44-04ef-5b72-9658-0b5e4f166a0f	8ed4f520-e5df-56cf-8fa7-1878766fe8b4
+treatment_response	PBCANC_treatment_response	Unknown	-999	Not Reported	Not Reported	fd9b16ab-1f81-5914-b72c-8b14cb295eee	692e3e22-d5b3-5f71-bab3-d200e6aa8ea4
+treatment_response	PBCANF_treatment_response	Unknown	-999	Not Reported	Not Reported	9cc30037-1551-539e-94f9-9dd69fcafb85	5121c869-1620-5e16-9c5a-f5d79479a434
+treatment_response	PBCAPC_treatment_response	Unknown	-999	Not Reported	Not Reported	304ac24f-b2b3-5df9-92c0-7bcee0f4abc5	a01db81f-5e91-50df-9dad-1243b5a6c67e
+treatment_response	PBCARH_treatment_response	Unknown	-999	Not Reported	Not Reported	04caa502-6765-579c-95b0-caa929b88156	1fe06d67-deac-5bfa-8284-45568c491055
+treatment_response	PBCARU_treatment_response	Unknown	-999	Not Reported	Not Reported	ce7e1b02-ccb3-5187-8148-3f7ff213a8a5	1e42fed4-a96e-58aa-b65d-11816491320d
+treatment_response	PBCASH_treatment_response	Complete Remission	-999	Not Reported	Not Reported	d20913c6-a90b-53b8-9e8d-88a972988f76	8c2edf08-4ae3-55b5-8335-fd4e2526b7d3
+treatment_response	PBCASM_treatment_response	Complete Remission	-999	Not Reported	Not Reported	96912855-84d1-5c21-af19-ba55104e3e2b	2a502aef-2ac0-54d6-9ac7-6b54a9c32afb
+treatment_response	PBCASS_treatment_response	Complete Remission	-999	Not Reported	Not Reported	d2389714-e329-50c7-9080-205218fb7157	ecb095de-ce9f-56c9-aa32-f65b06c1a269
+treatment_response	PBCAST_treatment_response	Unknown	-999	Not Reported	Not Reported	9073ea64-78f7-5ee6-a0cf-80864d9b291c	bc51605d-c9b1-5ba7-8d25-21971c7fa279
+treatment_response	PBCATH_treatment_response	Unknown	-999	Not Reported	Not Reported	95349d53-88f9-5a1b-8a81-e5347a63411b	b5e31866-00b0-57dd-a615-9444aed5235a
+treatment_response	PBCATZ_treatment_response	Complete Remission	-999	Not Reported	Not Reported	6a45ec47-1fd6-5c59-af2c-b8d4a91343e1	4b84782b-ae6c-5056-8150-f986cdbf5cdb
+treatment_response	PBCAUA_treatment_response	Complete Remission	-999	Not Reported	Not Reported	5fdaf3d3-fa52-510d-b5d6-c180abeebe97	570333af-88b2-5d09-82d4-076eb91034b4
+treatment_response	PBCAUI_treatment_response	Complete Remission	-999	Not Reported	Not Reported	486f113a-deb4-505b-a516-48a50cd110a1	e3033a40-5a34-5b69-9eb6-e8107a048d2c
+treatment_response	PBCAUK_treatment_response	Unknown	-999	Not Reported	Not Reported	023d0697-dc05-5c17-ae9b-84ed886cc1f3	2d9d48f8-07bc-5e07-8d7e-e49d165113c0
+treatment_response	PBCAWP_treatment_response	Complete Remission	-999	Not Reported	Not Reported	0ff0f3c5-5c89-514d-98ed-87225d715d9a	8b2065a6-82ce-5e10-b6b2-0b9b57574f57
+treatment_response	PBCAWW_treatment_response	Unknown	-999	Not Reported	Not Reported	af2e3b5a-c593-50ed-a7e4-ff2ce2504aca	fad5817a-d955-5948-b779-ce894683ecce
+treatment_response	PBCAXG_treatment_response	Complete Remission	-999	Not Reported	Not Reported	240c83ba-7a22-5a14-86c0-05a8e7088275	7eddd6ef-283d-5cc2-b90b-24af61a4fbcb
+treatment_response	PBCAXI_treatment_response	Unknown	-999	Not Reported	Not Reported	a0e37a69-890a-59cf-8fb2-02d681dc79c5	8309b70a-93bf-5b86-a669-2a1263135c3a
+treatment_response	PBCAXJ_treatment_response	Complete Remission	-999	Not Reported	Not Reported	0a076509-febe-58e4-b274-394729025c00	1788fbd2-a57a-5e64-81a5-4aac0d44c347
+treatment_response	PBCAXL_treatment_response	Complete Remission	-999	Not Reported	Not Reported	99be0c66-3d38-51b1-a8b5-bf8d1dda67ed	c6a7f5ea-4a00-5c0d-8776-dbabdd066dec
+treatment_response	PBCAXU_treatment_response	Unknown	-999	Not Reported	Not Reported	f7e719d7-2baf-5ed4-9982-efd0299d4cc5	5d4ab9ec-e7a5-5f55-be4f-df0a10c9b4ce
+treatment_response	PBCAYB_treatment_response	Unknown	-999	Not Reported	Not Reported	934ac3e3-a2df-5c7f-aba5-98e4b6def18a	9b239824-50f9-5a65-94d0-4af8b7aee743
+treatment_response	PBCAYN_treatment_response	Complete Remission	-999	Not Reported	Not Reported	433ed187-cab8-5348-87c1-3e7278bbf80e	580b8851-93b8-5082-abff-1929e8be6f11
+treatment_response	PBCAZF_treatment_response	Unknown	-999	Not Reported	Not Reported	bc12d8b8-397a-59e3-9323-2914b4785b90	f297241b-3615-567c-9f3d-97349cc17ff4
+treatment_response	PBCAZG_treatment_response	Complete Remission	-999	Not Reported	Not Reported	84719595-ba33-55a7-9b21-88b348dd391b	0cf8c137-31fb-5ab1-9203-fe5835ee9028
+treatment_response	PBCAZM_treatment_response	Complete Remission	-999	Not Reported	Not Reported	2ba10bc9-f443-559c-aed7-666bfa579edc	5e56beb1-c72f-5a10-a632-2d89748e1462
+treatment_response	PBCBAH_treatment_response	Unknown	-999	Not Reported	Not Reported	a64f6f1a-66f7-5731-9f86-13dd9fb9fae6	42354c32-5d1e-534a-8757-62dbdbb36001
+treatment_response	PBCBBE_treatment_response	Unknown	-999	Not Reported	Not Reported	9b300aaf-2aaa-5b2f-904a-bc11d1ee9a51	e7f6d03a-b2c3-5c88-aa65-23f51c5eb094
+treatment_response	PBCBBP_treatment_response	Complete Remission	-999	Not Reported	Not Reported	22ba1f63-7d41-5a35-9059-55c52273141d	5b565d53-1718-52d3-9fcb-a6d64ef9b637
+treatment_response	PBCBBW_treatment_response	Unknown	-999	Not Reported	Not Reported	c48ea913-7533-5ea5-9310-0228dbb8e86b	2df4446c-c628-5edb-85b9-bcf9d2895bd7
+treatment_response	PBCBCB_treatment_response	Unknown	-999	Not Reported	Not Reported	7c3183aa-dc9f-5f2b-89b7-af66a73bcb75	5b1a0bfe-ce6c-5133-a98a-2605db3b4841
+treatment_response	PBCBCD_treatment_response	Complete Remission	-999	Not Reported	Not Reported	94260541-0d77-5574-a534-16c9697e3c8e	1555b354-4959-510d-8303-19a9b582579a
+treatment_response	PBCBCH_treatment_response	Complete Remission	-999	Not Reported	Not Reported	12e72897-fdd4-5c52-b286-c54737f52bc6	9b968c8d-bdc0-5f47-865f-efd5cf3f4557
+treatment_response	PBCBCI_treatment_response	Complete Remission	-999	Not Reported	Not Reported	c8551f50-02f8-5d2a-a5a4-5ffe6c3b68fc	5f976e37-a43e-52c2-a990-60d630255d55
+treatment_response	PBCBCK_treatment_response	Unknown	-999	Not Reported	Not Reported	0b4cbca5-2dae-5f96-815a-c94355542cf4	bab9b9cc-58a3-5bce-a5c8-26defe425c86
+treatment_response	PBCBDU_treatment_response	Complete Remission	-999	Not Reported	Not Reported	c5c76f14-212c-53b7-a6c1-e578fe03ecad	6e08b70a-8507-5e6a-8822-be4f7bdcd277
+treatment_response	PBCBDZ_treatment_response	Unknown	-999	Not Reported	Not Reported	8317d5d6-6c6d-5091-80f3-0d599cb74d16	19f12ba3-22f1-5b80-b7e2-ed9dc3cb20b5
+treatment_response	PBCBEA_treatment_response	Complete Remission	-999	Not Reported	Not Reported	29a672ea-6b30-53f3-abf6-dbf1782bdba3	410268c6-6be2-598d-badc-833c6aacff72
+treatment_response	PBCBEB_treatment_response	Complete Remission	-999	Not Reported	Not Reported	ea47f6bd-ab83-5053-a7f2-6d9ada282a80	eac183ee-0de1-51e2-991e-37a7cbd396bf
+treatment_response	PBCBED_treatment_response	Complete Remission	-999	Not Reported	Not Reported	7845ea25-8b6d-59a7-bd7f-975b4c2fa55c	0f65a360-f669-5472-b7d3-aa3ec587d56f
+treatment_response	PBCBFR_treatment_response	Complete Remission	-999	Not Reported	Not Reported	2338e290-2ce6-5b03-9dc9-953edce0461c	b537b1dc-360f-5e32-8043-f066ff34cdf8
+treatment_response	PBCBFT_treatment_response	Complete Remission	-999	Not Reported	Not Reported	ca7c7f26-ee49-5fa3-904f-f736f3ef3046	983b4b16-8100-5bd7-9dd5-f299f2c0716c
+treatment_response	PBCBGM_treatment_response	Complete Remission	-999	Not Reported	Not Reported	5dc9dfe9-9ab5-5bf5-8cc8-c9021e5bfd9d	90d9bd38-81fc-5283-818c-0d5769fc646c
+treatment_response	PBCBGY_treatment_response	Unknown	-999	Not Reported	Not Reported	00423b27-3d4a-5158-b241-8d9fce06cbd6	1fb63079-2160-5c8e-82e3-1d8f1e6a883f
+treatment_response	PBCBHV_treatment_response	Unknown	-999	Not Reported	Not Reported	58446336-2120-5c43-a9ed-3c4c182bc857	233dabb8-793c-5ad3-aad4-98a2cd0e17e4
+treatment_response	PBCBIM_treatment_response	Unknown	-999	Not Reported	Not Reported	ae6c647a-728a-5ee6-9029-1af11cd1de68	6e70e370-b8e3-5500-bee8-1880a779b60f
+treatment_response	PBCBIR_treatment_response	Unknown	-999	Not Reported	Not Reported	7880b45d-26ed-5257-bcb2-7fa4cc7e7df1	027b280b-c5ab-5c04-bd50-db58cff08505
+treatment_response	PBCBKG_treatment_response	Unknown	-999	Not Reported	Not Reported	d5f65705-c19c-57a8-bb56-a375bce92e99	bfbbc0a5-3c05-5251-afe0-85e30449ae2d
+treatment_response	PBCBKR_treatment_response	Unknown	-999	Not Reported	Not Reported	2063fc5f-1205-5693-91de-3cc17dfd25f7	5f9b0126-c1c4-5b7f-abbe-e559da31a85a
+treatment_response	PBCBMJ_treatment_response	Complete Remission	-999	Not Reported	Not Reported	26b83894-5f73-5f62-bb08-f0c4789985d0	dd3e12b2-ef3d-549d-bc4a-c21014fb5592
+treatment_response	PBCBML_treatment_response	Complete Remission	-999	Not Reported	Not Reported	f0593412-1e0f-5f06-b142-86c37ba3c63c	9d58ddbb-1b91-59e7-a789-6fb326998595
+treatment_response	PBCBNM_treatment_response	Unknown	-999	Not Reported	Not Reported	24b2c78c-1594-5a57-a260-0984a9627cae	39889a6c-a38d-511b-a96c-4dd9e1c371dc
+treatment_response	PBCBTY_treatment_response	Unknown	-999	Not Reported	Not Reported	82d7fc4c-a1de-5f50-8e94-1255a6708e98	ef8aed12-79d8-55d0-84c7-41d509d152e0
+treatment_response	PBCBUS_treatment_response	Complete Remission	-999	Not Reported	Not Reported	ede66895-db3e-53c8-86ed-987a2c1c5fc2	7f1f3e2b-f8e4-5d73-aa23-655d056abff7
+treatment_response	PBCBUW_treatment_response	Unknown	-999	Not Reported	Not Reported	ac71b38f-b4f8-554f-b1ef-a79a265ba71a	8e0b1680-980e-5584-a2bc-1561dfbda07c
+treatment_response	PBCCBE_treatment_response	Complete Remission	-999	Not Reported	Not Reported	9df60ae5-2632-55ba-beaa-ccfb299313d7	859574d6-f2a1-57a2-bcb3-26882e6cd09c
+treatment_response	PBCCEA_treatment_response	Complete Remission	-999	Not Reported	Not Reported	51522dd3-62b5-5c74-8778-3deab4505bbb	8ac91b31-2c65-54d0-9b3c-6d8180b8794f
+treatment_response	PBCCEB_treatment_response	Unknown	-999	Not Reported	Not Reported	cb27ea3d-95bd-5121-9c6f-8d274a879e8b	6431d37a-fae0-552d-8889-33a4280a6490
+treatment_response	PBCCLC_treatment_response	Unknown	-999	Not Reported	Not Reported	2c36dad3-5153-5fce-955a-6089b9013b48	0d0c6339-cacf-55f4-bc87-76d750456899
+treatment_response	PBCCLP_treatment_response	Complete Remission	-999	Not Reported	Not Reported	10db75b7-967d-55d1-b090-3dbd0a663478	90d58958-07b7-5187-b4fa-006023f27ca4
+treatment_response	PBCDJT_treatment_response	Unknown	-999	Not Reported	Not Reported	928ec1b1-a159-5bf4-9550-65d48a2586ee	dab870fc-6218-547d-902f-49e3fba25899
+treatment_response	PBCDLX_treatment_response	Complete Remission	-999	Not Reported	Not Reported	09c33779-d508-5d69-9673-d27e0b800f37	935ecbb6-681e-592d-bbfa-e18bd6396e02
+treatment_response	PBCDVZ_treatment_response	Unknown	-999	Not Reported	Not Reported	d34196ee-dfd8-5271-9063-062509620867	3d489636-019e-5e12-8db4-25c97839a1ef
+treatment_response	PBCEBH_treatment_response	Not Reported	-999	Not Reported	Not Reported	1caa9326-0de0-533b-a881-98bb7bb11aa4	449dfa90-87b2-58ed-aff7-ef6c727dc931
+treatment_response	PBCEIH_treatment_response	Unknown	-999	Not Reported	Not Reported	c350ae79-63f1-5c9b-b602-c7c3cc073cd4	546a9ce4-8d52-5e09-b465-f06702f018fb
+treatment_response	PBCEPC_treatment_response	Unknown	-999	Not Reported	Not Reported	5240c0c4-ab18-5462-8e0a-3eaf499f88da	6033c7a1-cfe6-5ced-8b6a-790ae66971f0
+treatment_response	PBCEWX_treatment_response	Unknown	-999	Not Reported	Not Reported	184ea841-d742-597b-aa5b-a9cddfe6eb0a	d0ef795b-03de-5557-ba7b-1d9c944f4506
+treatment_response	PBCFPI_treatment_response	Complete Remission	-999	Not Reported	Not Reported	256e9546-e062-5a19-a63d-81bd403e0e58	ef401aa6-eddd-5123-9688-06fde5fe0a40
+treatment_response	PBCFTI_treatment_response	Unknown	-999	Not Reported	Not Reported	cd91921f-25c6-52ac-b879-c022cd934117	ef5944d9-17f2-5ba9-baf6-b269da3d1642
+treatment_response	PBCFXX_treatment_response	Unknown	-999	Not Reported	Not Reported	1da602c0-c0b5-57ba-9ee2-1ea6f8951375	24122dcc-c81b-55cf-981c-46418df13364
+treatment_response	PBCFYG_treatment_response	Unknown	-999	Not Reported	Not Reported	d20d9fb1-4ca8-5772-9136-c668a588875f	ac6bd3bf-6b13-5b29-9538-0dfcaa457905
+treatment_response	PBCGHM_treatment_response	Unknown	-999	Not Reported	Not Reported	79309845-a8f4-5a44-ad68-8921a6decfb2	0eac596c-88de-59f8-8220-6bf58b3345bb
+treatment_response	PBCHLS_treatment_response	Unknown	-999	Not Reported	Not Reported	033fcdc5-6271-54f1-90e7-61ade1bfa408	bc3b1471-abca-508c-a816-33e4ac8853cd
+treatment_response	PBCHNY_treatment_response	Unknown	-999	Not Reported	Not Reported	cfd66281-536a-52b8-8879-77979b5b5d5f	f802d524-4d67-5bd2-a513-0a80abc6428a
+treatment_response	PBCIEN_treatment_response	Unknown	-999	Not Reported	Not Reported	c779665d-14fa-5b43-af4d-028102f6ae94	04c711ad-f449-5821-a5bf-d7ef9c1794ae
+treatment_response	PBCIVE_treatment_response	Unknown	-999	Not Reported	Not Reported	946cc903-47ad-5042-b6ea-35c58942f207	4e8b1898-f84d-5cd1-a88e-56593e569a17
+treatment_response	PBCJAZ_treatment_response	Unknown	-999	Not Reported	Not Reported	0254c18a-bb20-5d74-ad93-41bdb159cf62	8811255b-fb85-5b4d-89c6-4a70dc9f6427
+treatment_response	PBCJEJ_treatment_response	Unknown	-999	Not Reported	Not Reported	3cfb6bb0-d541-51d0-a34c-92cbac551093	1430bd93-478f-5e06-a46f-e8e0c5565600
+treatment_response	PBCJXC_treatment_response	Unknown	-999	Not Reported	Not Reported	c8038508-bfaf-5e31-8d41-716d7ea54c3f	3a6c857b-f623-55b5-9615-7067d568e93f
+treatment_response	PBCKRA_treatment_response	Unknown	-999	Not Reported	Not Reported	fef7154a-6fd1-5f52-a30c-9bcf8ae1e5de	5b3987b0-bed9-5314-8102-1e3ecd72592e
+treatment_response	PBCKZM_treatment_response	Unknown	-999	Not Reported	Not Reported	9be7d934-16ee-53b9-ab1a-2d76adcab46a	5fa11834-935b-5974-9426-1abc0a67588d
+treatment_response	PBCMAV_treatment_response	Unknown	-999	Not Reported	Not Reported	ec20910e-dbee-505e-af17-ec6a25f8da7e	b7b1a556-d480-538d-9556-0aa762006826
+treatment_response	PBCMET_treatment_response	Not Reported	-999	Not Reported	Not Reported	1f69a170-d411-562b-b198-9a4286f317bc	cd73271c-13ec-5fc2-8aa5-404ccd2060b4
+treatment_response	PBCMJN_treatment_response	Unknown	-999	Not Reported	Not Reported	8bbd1961-cdd7-54d9-9f03-1d974910c5ab	e05db5c2-b605-561c-8ee7-2e5dfcba4154
+treatment_response	PBCPGJ_treatment_response	Unknown	-999	Not Reported	Not Reported	816fc6bf-3225-5820-8c15-8f2a094a05ab	04a4d045-f6ad-5836-bd04-a88a48317640
+treatment_response	PBCPKT_treatment_response	Not Reported	-999	Not Reported	Not Reported	90c3e30a-85cb-5208-9fdb-04990dc7aa37	2e6c2a6a-2561-5936-923d-fb1cf635f1b1
+treatment_response	PBCRDZ_treatment_response	Unknown	-999	Not Reported	Not Reported	130fb868-3e6c-5a4c-bb2f-aab12e1e9168	6d07a75f-2ad6-5c10-ab0c-0f071ab6589c

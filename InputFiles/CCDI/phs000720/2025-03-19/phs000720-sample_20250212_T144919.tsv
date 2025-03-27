@@ -1,0 +1,404 @@
+type	sample_id	tumor_classification	anatomic_site	participant_age_at_collection	sample_tumor_status	sample_description	crdc_id	id	participant.id	pdx.id	cell_line.id
+sample	PANDHP	Metastatic	C62.9 : Testis, NOS	5307	Tumor			016817fc-da47-5106-aa7a-c307f2c63748	7ab2bf07-dd9d-51f1-8525-9962bb93e1da		
+sample	PATVPL	Primary	C80 : UNKNOWN PRIMARY SITE	302	Tumor			01afc773-e838-514b-bd1c-0079dfc78204	f9960537-18cf-569f-8e95-c6beeb5af157		
+sample	PAKZRD	Primary	C21.8 : Overlapping lesion of rectum, anus and anal canal	6533	Tumor			0264663a-ccb5-53f7-9f65-1ca58a0488e7	3c3b746a-d402-58b3-aba0-259c4092e1df		
+sample	PARPDV	Primary	C76.3 : Pelvis, NOS	1580	Tumor			02958271-cc96-5d11-847c-e19ee06ede39	eb560086-a93a-5068-aa04-4744287dfd8b		
+sample	PAVLSC	Primary	C62.9 : Testis, NOS	5493	Tumor			03286bfc-787b-56ba-8ee9-9727c4b44a94	5cf67a1d-83b5-5011-afc1-0678961ac160		
+sample	PAVMVP	Primary	C76.5 : Foot, NOS	1821	Tumor			039ce6e5-6926-5e6f-97e8-503db5e34a16	37c4e0e4-55ba-5b15-9ced-e7b2e3104e99		
+sample	PASZEU	Primary	C53.9 : Cervix uteri	6610	Tumor			03ff2b57-4c1e-55e9-b045-e44cb8958744	348703a6-81c0-511a-a73d-3620b94811a1		
+sample	PARSYF	Primary	C69.9 : Eye, NOS	2252	Tumor			045e8b76-a793-5ea9-b06c-9c7ae84a8cdd	b59657d1-85db-51fd-80bc-362690567211		
+sample	PANBXB	Primary	C48.0 : Retroperitoneum	711	Tumor			047108be-04f7-5dfb-b904-c269b598f1dc	f5477521-cbb5-5c51-af75-d7ff849dae07		
+sample	PAUWFI	Primary	C76.2 : Abdomen, NOS	467	Tumor			04761092-ccc9-519f-9032-20f4fe54b09b	c67a54ec-944f-54cf-bb18-2947ce0c6e64		
+sample	PASWIH	Primary	C76.0 : Head, face or neck, NOS	2365	Tumor			05251a09-bd23-5604-9b7b-b4f0110c3581	5d17926d-afce-58ce-89d5-31d795606459		
+sample	PASTPC	Metastatic	C77.9 : Lymph node, NOS	3832	Tumor			05d9c2c6-91eb-54ff-8875-f2047994a5fd	dd908448-ab79-5f0c-a85a-66404202e3e7		
+sample	PAVNPZ	Primary	C62.9 : Testis, NOS	5916	Tumor			05db00c4-5aa3-5a75-8e15-925c8523f519	0b88d0c7-3532-5428-8cec-9391672ddd69		
+sample	PAVXKW	Primary	C61.9 : Prostate gland	1500	Tumor			07ce4989-6637-53a0-a055-1ffcf5f5a4ab	6e75e2ef-24df-5a0c-9a54-67beb1a1efae		
+sample	PARYFU	Metastatic	C67.9 : Bladder, NOS	6748	Tumor			08f226ce-0452-506a-b372-79cdcb4e93a9	ecfdd06f-4914-5074-a6f6-4b67dac47074		
+sample	PAUUTF	Primary	C06.0 : Cheek mucosa	3931	Tumor			09265018-e16f-5536-9a8b-20a7de62cc05	2e39c41d-a949-5a7e-b580-232b27f97011		
+sample	PATZBV	Primary	C41.0 : Bones of skull and face and associated joints	5270	Tumor			09ba1f96-740c-5021-b08d-9de062152740	e9688831-90f5-52fd-a4e8-d0dbdd1443b8		
+sample	PATHRZ	Metastatic	C11.9 : Nasopharynx, NOS	1850	Tumor			09dc29a4-6e4d-52f6-b480-1a0b17a8e357	9ac8196c-1732-5116-8366-9b233a8eb22f		
+sample	PANWZV	Primary	C76.0 : Head, face or neck, NOS	1708	Tumor			0a06c4ce-774e-5af4-ba9b-c48914c59213	aa18f760-5711-5638-b511-972f0c3dc038		
+sample	PATTTV	Primary	C11.9 : Nasopharynx, NOS	1945	Tumor			0adab818-6171-5723-ba24-23cfa1d439ab	48a68120-d9a7-5a2f-b9b8-8e73a65aaaf7		
+sample	PAUUCM	Primary	C80 : UNKNOWN PRIMARY SITE	2434	Tumor			0b6925b1-4038-5e61-b30f-7310f3b88a6a	75350305-29f5-58c6-998c-94a284b3c2fd		
+sample	PAVVUV	Metastatic	C62.9 : Testis, NOS	5219	Tumor			0bc3d2d1-6799-5cca-b679-7ad329ce89d2	a79847dc-41c3-5371-8792-6db7c111758d		
+sample	PARBRH	Primary	C62.9 : Testis, NOS	1752	Tumor			0c17ddc7-be46-50a2-a914-56a5ed53143d	f16deaef-2c82-5033-938f-308d6d7a94c8		
+sample	PAWEJL	Primary	C22.0 : Liver	1200	Tumor			0c5a4416-1e9d-5b05-9bff-f0194d35785c	8a8abee4-88dc-5e4d-a248-8455430726ef		
+sample	PANAZG	Primary	C62.9 : Testis, NOS	5964	Tumor			0c951c97-5a59-56cf-9cd4-74b59a38fbc8	6a79ee12-0b4e-5c44-b322-f4dffd628415		
+sample	PAUCLD	Primary	C41.9 : Bone, NOS	2755	Tumor			0ce6409c-2e3d-5f29-aace-acf72a79a28a	97893075-7f00-568a-849b-7fdab2e15982		
+sample	PAUFGC	Primary	C76.3 : Pelvis, NOS	6139	Tumor			0dd5717e-ae26-5ffa-9e49-c3388d6c7297	7759bb3a-b514-56bd-9079-250a8ec6bf14		
+sample	PALMPL	Primary	C63.2 : Scrotum, NOS	708	Tumor			0ea85765-8d43-55dc-9dd9-4eb83778c899	0452b2b5-062a-53ec-b5fb-d096b56f6b70		
+sample	PASFYZ	Primary	C11.9 : Nasopharynx, NOS	624	Tumor			0ff896f4-06ad-54ac-8b39-55a9e88ff108	1db12ebb-9164-5f7b-b81e-20c84a79b216		
+sample	PALWAA	Primary	C76.2 : Abdomen, NOS	6555	Tumor			109d2d9e-ee5e-546f-958c-cce3ded770d2	799d7af8-d59d-53d9-b386-f2f1c8d5aeaa		
+sample	PASXYZ	Primary	C14.0 : Pharynx, NOS	788	Tumor			11b20cf1-408c-52c0-b868-1ec6295fd102	ee344c76-8b43-5478-a411-64101b533da7		
+sample	PAUCAX	Metastatic	C76.3 : Pelvis, NOS	1565	Tumor			11bddb1d-4100-5d6f-9763-484f73a7569c	094dd40c-0527-54d8-bd59-7def62c1259c		
+sample	PATZJS	Primary	C76.4 : Upper limb, NOS	843	Tumor			120b226e-b851-5122-b256-7bb3788bdc74	d2582bbc-ed8c-57e8-95b9-8fb26960e21d		
+sample	PAUPLR	Primary	C11.9 : Nasopharynx, NOS	4066	Tumor			13c2559f-6fce-56f9-95fb-aaf27f13b0eb	b205a65d-6327-53be-9108-bcffb8cbbd79		
+sample	PASSHU	Primary	C62.9 : Testis, NOS	660	Tumor			14badca6-e7f5-5123-9c80-559fbf8d57fb	e39dc963-2ea6-559c-be5b-b61a0211b3a6		
+sample	PATPDS	Primary	C80 : UNKNOWN PRIMARY SITE	459	Tumor			151ea43b-9af8-54a5-b071-579ab64d3881	bf032d38-cd5e-55fd-8957-38fc24a98d62		
+sample	PAPREK	Primary	C80 : UNKNOWN PRIMARY SITE	2252	Tumor			1527caeb-c3d6-55ac-9db0-1abe720b4c25	2c20a1d1-9fab-5c6c-902b-730dc2c6f7e4		
+sample	PAMSJL	Primary	C76.3 : Pelvis, NOS	1007	Tumor			1587e564-fedc-51c4-9400-488651303410	324194d9-63a5-5dfb-9b02-6041dead65bd		
+sample	PATWRT	Metastatic	C76.2 : Abdomen, NOS	1664	Tumor			15acd588-1486-5b78-a75a-6da0d0123995	86088741-dc50-572d-a2e1-1ea4b96f618a		
+sample	PAWVSZ	Metastatic	C44.2 : External ear	2018	Tumor			15d1e280-ddc6-5548-9ffc-cb194970c371	35deff0f-da64-5338-a37f-64e4eef0cb72		
+sample	PATKKB	Metastatic	C76.4 : Upper limb, NOS	3536	Tumor			16122955-f08b-5ff6-9dca-280e4739f405	4d7f2a55-784a-5e18-a8fa-d7b591c31ee5		
+sample	PASSSN	Primary	C76.2 : Abdomen, NOS	1372	Tumor			165cba1f-ab8d-5659-9a55-562178d960fc	186ae607-4efe-5c2e-85e8-5143a6099a32		
+sample	PATZHV	Primary	C48.0 : Retroperitoneum	1237	Tumor			16775e9e-e4d4-55cd-8bdf-6412df8dd942	d802d505-c183-5b21-95c2-ea05dbf43254		
+sample	PAUIKL	Primary	C06.0 : Cheek mucosa	7296	Tumor			169d65ed-5399-507c-ba5c-e63171228dc3	d2c6d85d-d351-5e7b-bb32-72880efbaf4b		
+sample	PAUMLA	Primary	C55.9 : Uterus, NOS	6434	Tumor			16d4baa9-d011-5a6f-a6d8-ac8458047e89	8398d9a1-0ba0-57f7-8f05-1da5cafc4b6d		
+sample	PASHDC	Primary	C69.9 : Eye, NOS	4098	Tumor			1737fed1-ad42-5acc-836c-8ff8eb7e1258	873b8426-4e33-568b-bd47-9bfb595dcb37		
+sample	PAUXEA	Primary	C44.2 : External ear	1773	Tumor			18476e22-b1aa-58af-9300-3b2d698ffa00	5500de1c-2858-59ed-a741-2b0039140496		
+sample	PATDZX	Primary	C69.9 : Eye, NOS	3591	Tumor			19cf0c77-6040-5673-a0ab-f3ce0f7402b8	f006e5ee-cae6-5437-b6e4-3f0ba2b77784		
+sample	PASXZU	Primary	C62.9 : Testis, NOS	7394	Tumor			1a348385-a3b5-54ec-8c40-2f88d6829e96	24f92156-4afd-58da-8227-305e05ac62c8		
+sample	PATLBW	Primary	C80 : UNKNOWN PRIMARY SITE	1401	Tumor			1a7ad70f-92dd-5d8a-a8ea-a633d2dd64a0	d61eb95e-dfe9-595c-89a5-0e94a7c2b4da		
+sample	PASDIL	Primary	C62.9 : Testis, NOS	6712	Tumor			1a7b4010-4d4c-5c65-8952-540b0f59cb05	724c5fe5-ba82-5caf-8477-4b29a65cbcc9		
+sample	PAUIFW	Metastatic	C11.9 : Nasopharynx, NOS	1635	Tumor			1adf0f3d-6d5b-5829-aef1-62cb5b0b3346	36e502e7-a41d-5708-94ee-67a0c6cccbde		
+sample	PATKBC	Primary	C76.1 : Chest wall, NOS	580	Tumor			1b27ffae-ec54-54da-b3cd-d5e3b3d545f8	9c5080e5-bb81-5a49-b770-35d334ad9dcd		
+sample	PASSKI	Primary	C76.4 : Upper limb, NOS	7219	Tumor			1bf168a6-92c7-5e33-ad0c-65a2beab16db	f521a948-d4da-528f-ac80-a42172a1cd97		
+sample	PASVWJ	Primary	C69.9 : Eye, NOS	2284	Tumor			1c5bfcfc-1bfa-54fb-a2d7-f8b5802d934c	0f690b37-06e7-582e-8d91-a2b82eaf0ff7		
+sample	PAUARR	Metastatic	C62.9 : Testis, NOS	5088	Tumor			1d83aac7-d952-5d78-81e2-913f8c19ba2c	d5b3747c-eb42-58fb-a508-f3bebc85804d		
+sample	PAMZYH	Primary	C76.7 : Other ill-defined sites	1496	Tumor			1ff14855-9613-577b-8d68-c146f4b00a0c	7c10a30c-4217-58ce-8489-f883b6d89fc8		
+sample	PAPMGC	Primary	C14.0 : Pharynx, NOS	4828	Tumor			20a9f1c7-c843-5a5e-b6a3-83f3a098ca1e	4a48dc55-17b0-53a8-8841-f1025f2c2556		
+sample	PASYKR	Metastatic	C61.9 : Prostate gland	6321	Tumor			22bcf397-48be-5a65-aeaa-f7ca0c412a2f	122868fd-2bd3-5242-a650-1545b3f9709d		
+sample	PAWMCH	Metastatic	C76.5 : Lower limb, NOS	3514	Tumor			22c757cb-be47-583a-87de-52fb8187528e	cca4d454-26ff-5cbd-9344-1d2ca7f92ddc		
+sample	PAREJI	Primary	C69.9 : Eye, NOS	5080	Tumor			237e03ef-ca01-53d9-a1f1-8a4ccb159bed	39d85777-1b1b-579a-9880-444801df6181		
+sample	PATRTV	Primary	C80 : UNKNOWN PRIMARY SITE	4190	Tumor			245faa67-448b-543c-9847-04a439355f83	4147d049-77c5-519f-a449-480274db5b32		
+sample	PAUIPE	Primary	C76.4 : Upper limb, NOS	605	Tumor			255c43e0-7f96-55cd-80cd-44e19276d219	332c48ca-52da-5e34-893b-51136b155974		
+sample	PASFPN	Primary	C76.1 : Chest wall, NOS	4190	Tumor			26f01006-0c79-533c-b7a1-69c8ef9c0408	2b294c73-0b57-5559-a09b-7b8e635a2679		
+sample	PANVPH	Primary	C31.0 : Maxillary sinus	5555	Tumor			2738498f-cba9-5774-b497-9db80fc10521	00d829a2-2821-5f4a-96a7-3462ee4e6442		
+sample	PASRNN	Primary	C48.0 : Retroperitoneum	1748	Tumor			273ec36b-f73a-5916-9c9c-74f5335f00c0	29b6e54f-883b-580e-ad47-122fd1764d0b		
+sample	PAUEHI	Primary	C80 : UNKNOWN PRIMARY SITE	5281	Tumor			2839226b-75e1-5739-a3f1-5c83320086ee	ffc4c349-7dc8-5af7-9007-d85d6b956f8c		
+sample	PAWLYZ	Primary	C62.9 : Testis, NOS	2649	Tumor			28c6e67d-7631-5a0d-8ae4-2479d9455cbf	4c7b74b7-fa9e-5d3c-a8e6-a351001cc8b6		
+sample	PAVZVD	Primary	C76.3 : Pelvis, NOS	1766	Tumor			28db542d-2beb-5871-95ec-b113c7b71553	ee3979d8-c150-55ea-a2ac-9b4869a1f2cb		
+sample	PANSXX	Metastatic	C76.4 : Upper limb, NOS	4047	Tumor			2b0414dd-f439-59d0-967b-e79a172462ad	e9861d5d-2091-5189-8483-d9fdb5d218d9		
+sample	PAWKDJ	Primary	C52.9 : Vagina, NOS	781	Tumor			2b46ea03-83f9-5d8f-94f1-fd3ba4c837a7	d8b6dc07-6b94-5325-bcbc-4c341faf76b0		
+sample	PARFTT	Metastatic	C09.9 : Tonsil, NOS	1346	Tumor			2b4d3eb8-e0e9-53b5-9daf-dd6307e3b659	88864ec7-0f48-568b-bebb-df5a79a6563f		
+sample	PASXWK	Metastatic	C61.9 : Prostate gland	4653	Tumor			2b50af73-907c-516b-87f5-b358059c3d54	74eaf849-7658-5615-a6f9-30d1f26c7389		
+sample	PAUGAY	Primary	C76.3 : Pelvis, NOS	375	Tumor			2c4ca77e-ea81-528a-8a44-24e9eee0dd7d	ff441a96-34bc-5c73-82a8-f02c33e8215f		
+sample	PAWEPI	Metastatic	C67.9 : Bladder, NOS	755	Tumor			2ca34f04-742b-5c77-b8ef-93d596ea3ff0	7b72253c-ae42-5c83-9cb1-100a062e5ae3		
+sample	PAULZG	Primary	C61.9 : Prostate gland	5730	Tumor			2ccc5f5f-ce61-5569-ae8b-dd8aea1a033e	092ac4e0-a846-562c-8f96-d5e9ccb6af4c		
+sample	PAUSVD	Primary	C80 : UNKNOWN PRIMARY SITE	2518	Tumor			2cfc24ad-4b33-5abf-82b9-b367d3cbae66	677697eb-c131-5792-9310-43b8775ddcb0		
+sample	PAUSDR	Primary	C80 : UNKNOWN PRIMARY SITE	3073	Tumor			2de37baf-e285-5430-8cdc-4921a60fde40	4e59c70b-2c4d-50a5-b548-b080547aaa88		
+sample	PAVCTB	Primary	C76.5 : Thigh, NOS	1835	Tumor			2f8d85af-4231-5328-b056-d7f108063d3c	d5534ed0-4a8a-53c0-8284-0c7c700dfb95		
+sample	PASYFC	Primary	C76.2 : Abdomen, NOS	1379	Tumor			2fac50c1-c0bd-50f2-8ad7-a0548c2e7024	bc3c15db-ae29-51f0-903f-67ba5c068d82		
+sample	PAPRFM	Metastatic	C80 : UNKNOWN PRIMARY SITE	3062	Tumor			3092e5dc-b376-56ab-a3b2-b8e4afcd38a9	a509baa9-372b-59fd-9de7-9f5f08249bff		
+sample	PASBZB	Primary	C07.9 : Parotid gland	4818	Tumor			313ccdc7-1f00-5986-8b5c-8b5354c9a808	72af8673-b993-5983-a4d7-2324cfe91ed5		
+sample	PAUUFC	Primary	C62.9 : Testis, NOS	5931	Tumor			3203b121-9cb5-58b4-9c3c-ae587a2157ce	b3faa48b-15b4-599f-bf0f-e09eee14c123		
+sample	PANSLZ	Primary	C76.5 : Foot, NOS	5533	Tumor			32f60404-c09b-5033-9ad7-e0e349dae882	59d1cee7-8ebd-540d-8f32-9f7848ecbc25		
+sample	PAMFXC	Primary	C41.0 : Bones of skull and face and associated joints	3942	Tumor			34e1f029-8ed7-5395-bb86-9085df95b8f3	c8abca95-e2d8-5f80-b8c9-d338ebaea324		
+sample	PAUSSC	Primary	C07.9 : Parotid gland	3361	Tumor			35002620-4e18-5689-9607-e1c416d4026c	b5ffc355-251f-5658-b41f-bfca3aceec0c		
+sample	PARFXM	Primary	C41.0 : Bones of skull and face and associated joints	1485	Tumor			35c119a9-7e4a-5168-9d9a-bf7502142564	9a42926b-e90f-53d5-9bb0-4664f896f26c		
+sample	PALWNW	Metastatic	C48.0 : Retroperitoneum	1989	Tumor			35de449e-9940-5465-89bc-0f570327a370	d0db5b87-36b4-5a92-a4d4-9f3667d8cda4		
+sample	PAMMAU	Metastatic	C62.9 : Testis, NOS	9606	Tumor			375ad374-a172-5944-8768-4279eedbdb0f	5e47bc77-17ba-5170-a7d4-66bc59199b32		
+sample	PAUBIR	Primary	C76.3 : Pelvis, NOS	737	Tumor			38115a8f-6860-5001-a5ec-c2bf1b1c6e05	cc60c9cd-3bfd-5daa-860e-1728551e32ad		
+sample	PAUMJF	Primary	C62.9 : Testis, NOS	2598	Tumor			38582dc9-42b3-534d-bf9f-d612ea0c8d5b	d1dfe5fd-4e71-5c6f-8f40-6f68bf499eac		
+sample	PASAVP	Primary	C62.9 : Testis, NOS	5548	Tumor			392e0099-c673-57e1-bb64-d001ae6ca2f9	7f522530-4c7c-533d-9dc1-bf44895f22bc		
+sample	PAUTDB	Primary	C76.3 : Pelvis, NOS	580	Tumor			398d406b-95bf-52a0-822a-80e030f7d48c	57fd17d4-a1e7-5097-907b-6cdef23d4721		
+sample	PAKTYJ	Primary	C11.9 : Nasopharynx, NOS	649	Tumor			39fac87a-90ae-5890-853c-2934ce7288a7	80d8a967-89fe-5664-a799-e5bbfc592e2c		
+sample	PARMKD	Primary	C63.2 : Scrotum, NOS	3573	Tumor			3a6eb119-d654-5fa8-93e4-403672c27a41	644a5695-b333-504e-9ba7-13835db8ab4c		
+sample	PAUKHP	Primary	C80 : UNKNOWN PRIMARY SITE	992	Tumor			3d1d0d15-3a39-5b22-9866-aab74c0045ae	0c953411-490e-5ca3-b569-052c01bc0785		
+sample	PAPNAL	Primary	C76.3 : Pelvis, NOS	2989	Tumor			3d2e7370-7aa0-507c-b8a4-a8461923b388	24be4b4b-7d2c-53cc-95b6-be6763e89f85		
+sample	PARVES	Primary	C76.2 : Abdomen, NOS	76	Tumor			3d8e96c5-01d6-5267-8fb0-797c3cfc673c	b10086d3-637f-5197-b354-8756fbacaf17		
+sample	PATXVU	Primary	C80 : UNKNOWN PRIMARY SITE	6617	Tumor			3db1a376-3c9a-51f3-94e2-9f0df2e6e768	e2ba66f9-3540-5d67-84d3-87ca5c1a4d65		
+sample	PAKIET	Primary	C76.4 : Upper limb, NOS	5230	Tumor			3ef6ce48-fc38-5126-bc39-e1d77475281a	c7c32fc1-6b9e-5794-b50a-ad9c1c5282c8		
+sample	PATNPC	Primary	C80 : UNKNOWN PRIMARY SITE	4376	Tumor			3f510aab-ed1c-52ac-8164-b7f1073770b0	e3e7f2be-21b4-5c92-bd34-d03aa371786a		
+sample	PAVVTY	Primary	C67.9 : Bladder, NOS	657	Tumor			3fbce687-1073-58a0-bcc0-c3b56c066747	6a057805-1e1a-5d1d-9b45-71f313ab5889		
+sample	PASWHD	Metastatic	C61.9 : Prostate gland	5230	Tumor			40070a60-b6ff-54e9-91aa-381b57b50487	4a0a17a6-d49e-530e-b3e7-d970edde45c2		
+sample	PANETX	Primary	C11.9 : Nasopharynx, NOS	4164	Tumor			40346001-caaa-5fc5-8191-90daebfaa817	c31c96be-bbb6-58a3-96a2-cd18b6e14b69		
+sample	PAKHYN	Primary	C69.9 : Eye, NOS	1168	Tumor			4066608b-b851-5a1d-a0c2-c33cc246ae10	027f991c-be28-5c19-994a-ba9918f1fa6e		
+sample	PATPAS	Primary	C80 : UNKNOWN PRIMARY SITE	2120	Tumor			40e413d5-9148-560d-a2b8-757a6092ce66	a30ec4c7-7935-5cfd-ab6d-6b1d4ee8703a		
+sample	PAUSIU	Primary	C76.3 : Pelvis, NOS	1379	Tumor			40e56ed5-c8d4-5ee1-ad48-ea37f6b8ccde	dfb441e3-6cd7-5cbe-84d8-25da700ee1e9		
+sample	PAJAKA	Metastatic	C80 : UNKNOWN PRIMARY SITE	4675	Tumor			4183ded2-4e30-51a7-865c-2131e447725d	907b1d34-ddbd-5611-8d11-9e9950403d6b		
+sample	PAVFDL	Primary	C11.9 : Nasopharynx, NOS	4109	Tumor			418cc2e8-961d-5860-8f9e-f5cf8ed9c40c	cc415fbb-2a02-582c-8022-15c77f6cfd91		
+sample	PALTNM	Metastatic	C76.4 : Upper limb, NOS	5365	Tumor			43636832-0619-532f-9fc9-0bdf017e4a67	ce82d4ff-70b4-589a-80da-a04a8eb37ec6		
+sample	PATUNA	Primary	C48.0 : Retroperitoneum	824	Tumor			43adf3b5-2e89-5127-a83c-e4f9b339af34	adcd7a72-3858-547f-bd61-33892644d608		
+sample	PATPTK	Metastatic	C76.2 : Abdomen, NOS	740	Tumor			43c94c15-e46c-58d3-9eda-10644712d159	2354bb9e-bcca-5b41-a254-b8646c70b4c4		
+sample	PAUJPV	Primary	C62.9 : Testis, NOS	1350	Tumor			461828ae-30d2-505a-8ca8-c79373015402	82cb1f0f-c5d7-579d-a52b-269212fb188e		
+sample	PATNGT	Primary	C80 : UNKNOWN PRIMARY SITE	2197	Tumor			466b0427-e535-5464-82b3-29d1dee2a9a3	f04d618d-9dfd-57e7-ae92-bdb6db545060		
+sample	PAPAPB	Primary	C76.5 : Lower limb, NOS	5124	Tumor			4696c08d-0348-584e-a2a4-4d33d96a56bf	7c350324-1258-59f9-a47a-998f3907ec9b		
+sample	PATKRX	Metastatic	C76.5 : Foot, NOS	5529	Tumor			46ed6cde-a9df-59a8-9a5a-d825ab720243	e117bc13-283d-53f0-9a14-f4528b4a4298		
+sample	PATXGA	Primary	C41.9 : Bone, NOS	4796	Tumor			474ec5df-08ac-5cf1-a631-f867c67d4b2b	a0254fc3-d305-515a-b79a-87e43d0ac527		
+sample	PASVYH	Primary	C11.9 : Nasopharynx, NOS	2711	Tumor			485c600a-f952-5564-a0de-0017cbd14e4e	22378280-4e53-5ddf-938b-104308a9e868		
+sample	PATDZG	Metastatic	C76.4 : Upper limb, NOS	3569	Tumor			48a01c02-0bcd-5317-a8e5-938bb23774ca	a7b5d48e-4631-5867-b4c2-f0533a3b714b		
+sample	PARZFY	Metastatic	C76.4 : Upper limb, NOS	5555	Tumor			48ab4157-743d-5598-9a6b-929b7ba0eae7	902cfa72-b49c-56c4-86ce-d54c6a581b2b		
+sample	PASFWG	Primary	C62.9 : Testis, NOS	335	Tumor			48e320d4-6418-5503-ace0-5adb932cd795	b42c6c6d-badd-5871-9652-08e1c90feab2		
+sample	PAUXSH	Primary	C61.9 : Prostate gland	697	Tumor			49746174-c151-589d-986f-6650cd302383	6ee21bce-6924-5b55-968f-c215363da820		
+sample	PAVCHP	Primary	C76.3 : Pelvis, NOS	4325	Tumor			4a28314e-ac46-5409-b3da-78c61237e3fe	0117038a-f9fb-536f-a363-f29a482cb405		
+sample	PAJAGJ	Primary	C41.0 : Bones of skull and face and associated joints	2533	Tumor			4a80c27e-f1c2-55c7-86ca-377fff962d66	c8a010d3-c4c0-5584-b596-a6aff752e6f0		
+sample	PATVLS	Primary	C62.9 : Testis, NOS	6467	Tumor			4bf40352-2163-57ab-9ae3-ed548962ceca	e0cebc51-5ab6-5ba4-b765-1d4ae372d2d2		
+sample	PASEMM	Primary	C11.9 : Nasopharynx, NOS	2598	Tumor			4c0fe784-2b7a-5687-ab7b-d98523f24d89	18c1ea63-c330-5f77-bdef-86143894d77c		
+sample	PAUUVJ	Primary	C76.3 : Pelvis, NOS	1934	Tumor			4c940c3a-4722-508c-b380-36a2d62a3269	1943a25e-f455-5b6a-8e27-325d12d40d7d		
+sample	PAUMGG	Primary	C76.3 : Pelvis, NOS	1142	Tumor			4f2115f9-0ed1-57bc-843f-64f82f1071e4	f0f860df-6796-5011-ab4d-f2abbf3b90d4		
+sample	PAUFPI	Primary	C24.9 : Biliary tract, NOS	1000	Tumor			4fcf0153-ce82-5f87-9231-06f3a9cafcc5	7e90cdb8-df34-5b38-b755-154a74160cfa		
+sample	PAVZJY	Metastatic	C30.0 : Nasal cavity	861	Tumor			50c57581-d51c-5971-b703-47b607cffdc4	24c4b824-0c8b-53d1-8827-251892996323		
+sample	PAWBUH	Metastatic	C11.9 : Nasopharynx, NOS	1022	Tumor			51a31cdb-8490-501c-9aec-875283b85649	4b524b9b-0e1e-5948-8ab0-8dbae2043eec		
+sample	PAPEXK	Primary	C62.9 : Testis, NOS	2014	Tumor			532e7e17-e711-56b1-a6a9-a79bba083f81	53589c5d-c57a-5c79-bdba-2422e93529d2		
+sample	PARPEI	Primary	C69.6 : Orbit, NOS	2303	Tumor			53531c21-f286-5549-90f2-8607102b6ffa	127c14b4-3ea9-5f29-96f1-172791118cee		
+sample	PARFKG	Metastatic	C40.2 : Long bones of lower limb and associated joints	5431	Tumor			539cfc71-187e-52cf-ad53-230272dc81b7	775bed33-db89-5f9a-90b3-e8ad263e301e		
+sample	PARXGP	Primary	C62.9 : Testis, NOS	6504	Tumor			54c830b8-a33c-5f3b-b647-bb42a0f641ac	8c914ebe-52d5-521e-978f-48e28214b311		
+sample	PAKREB	Primary	C38.3 : Mediastinum, NOS	6705	Tumor			54d4d4d6-f459-54ab-ac97-80ffd38977cd	c63b7b5e-12dc-53da-a9ad-d884290c3a0e		
+sample	PASMPK	Primary	C69.6 : Orbit, NOS	3058	Tumor			55b6aba9-e22e-5e27-9643-2b199de715c5	01e4f227-0dc0-5b14-9837-29282765c858		
+sample	PAWVVD	Primary	C52.9 : Vagina, NOS	1500	Tumor			55cdc014-64d5-55e0-a01b-e0c2fa5eac50	2e74286e-c0bf-56ad-a291-b3c75e63a339		
+sample	PAPYKF	Primary	C67.9 : Bladder, NOS	215	Tumor			56ee1d5d-dc95-5d86-a5c8-a96dc4c2a3ce	5f265af7-583d-58ef-8c3a-315591e9072b		
+sample	PASDRI	Primary	C11.9 : Nasopharynx, NOS	2726	Tumor			5725e801-c270-5c63-b5eb-737af3351a97	9e53d199-724f-5045-a15e-99726f962f26		
+sample	PARLXP	Primary	C69.9 : Eye, NOS	2076	Tumor			574aae03-c95e-5d6e-8cfa-8c587e4b76c2	4786c563-9e53-59f5-93ac-96b5a536c789		
+sample	PAPZLW	Primary	C69.9 : Eye, NOS	4901	Tumor			57f9996b-b89b-5b63-a089-60c7e764bce4	77369cc5-7e7f-52aa-8cf4-f41a12176d36		
+sample	PATPXV	Primary	C80 : UNKNOWN PRIMARY SITE	7376	Tumor			58aa272f-92e8-55a2-aa8d-d461b59caefa	8b441de2-ab1d-57e4-a64a-8590b9b25dba		
+sample	PAKNTC	Primary	C30.0 : Nasal cavity	6518	Tumor			58c3f2f5-1bc9-580b-95af-915b99947e82	c1a4f962-f243-5cbd-af87-65ac8c7c716d		
+sample	PAUHAC	Primary	C61.9 : Prostate gland	5902	Tumor			591ec12f-490e-528c-979d-4c71ec3f4732	a9f6fe26-e33b-52cc-8de2-366ec595a4a8		
+sample	PAVAVJ	Primary	C76.3 : Pelvis, NOS	3354	Tumor			5948e8ac-c52d-5856-a01b-3ba1faab8db7	00e08d70-8344-571d-a249-606f0ff10e78		
+sample	PAVAHI	Metastatic	C48.2 : Peritoneum, NOS	6069	Tumor			5a913070-5fec-5894-8fab-7dc63c4cd8a3	d171d389-8078-5c01-979f-bab504dbb165		
+sample	PATPIS	Primary	C80 : UNKNOWN PRIMARY SITE	3022	Tumor			5b145a61-cde2-52bc-8296-f307cf89a48b	d1339e51-96dc-5b3c-9395-8d4c36c34077		
+sample	PAPHVF	Primary	C62.9 : Testis, NOS	3668	Tumor			5c104f38-83bd-51f6-994c-5b255d44a791	9e2cb292-6ba3-537b-8d07-dacfab148ad8		
+sample	PATMDI	Primary	C80 : UNKNOWN PRIMARY SITE	328	Tumor			5cbc494f-9a13-5ab6-8a35-4c170fc534e0	59d89af3-1316-5eff-a517-8d1b267f27aa		
+sample	PAVCGJ	Primary	C77.9 : Lymph node, NOS	6544	Tumor			5d3360ae-e394-52be-ad08-fcdf804c5c44	d393f03d-27fe-5628-a576-da04d07358d8		
+sample	PAUBXX	Metastatic	C76.5 : Lower limb, NOS	3909	Tumor			5d53f075-2b41-5f2b-847b-536951b3f672	57505de5-55d7-52a6-ae2e-50f442e82172		
+sample	PAUJYJ	Primary	C62.9 : Testis, NOS	784	Tumor			5ecdbd10-4bf0-503c-8ab2-a93cdea1655e	76aac8e7-db52-591e-9da2-92769752dd19		
+sample	PAPLYV	Primary	C48.0 : Retroperitoneum	1339	Tumor			5ee7d7b7-2a70-5410-a3af-0fdde7f0dc53	aa282000-598b-54eb-a684-c7395eae97ae		
+sample	PAWHDA	Metastatic	C76.2 : Abdomen, NOS	1219	Tumor			5f953305-bfd3-5f5e-9813-724f50ee234b	e5193152-02c7-5fc3-9a5c-3a0075b9b95b		
+sample	PAWPPI	Primary	C80 : UNKNOWN PRIMARY SITE	4785	Tumor			5f9a5139-82f9-5259-9cbf-553b3703ba92	374bba14-d785-523f-8039-fb232409349b		
+sample	PATYWR	Primary	C76.3 : Pelvis, NOS	175	Tumor			600bc15f-df7c-545b-a019-602ff084a557	bfb09e90-79df-5427-b915-dc2df948c681		
+sample	PATADR	Metastatic	C76.7 : Other ill-defined sites	313	Tumor			601f5c77-0ac1-5f43-92c0-899f1d89ba59	3a2ac7a4-70d8-5bf7-91b4-9bd5accd608a		
+sample	PATIGD	Primary	C69.9 : Eye, NOS	2054	Tumor			603f17f6-979e-5554-b7d4-ca1432d92a6d	e8dcbe28-7203-5c75-ba6a-c038d4eb826f		
+sample	PASGZC	Primary	C62.9 : Testis, NOS	248	Tumor			60fc30a2-de03-572f-a42c-4d31095dd47d	099aad52-2455-5f36-8069-1b93c95e3eab		
+sample	PARZJF	Primary	C69.9 : Eye, NOS	4347	Tumor			63c8d7c2-f94c-524b-bf20-259a5bd41b87	95e7524d-f60d-5354-927d-7c3a714692b7		
+sample	PAVXXG	Metastatic	C76.4 : Upper limb, NOS	401	Tumor			6452870e-d0ae-57a3-bbb9-b60673797b99	35be022f-4d4c-5668-939b-37ae0118350c		
+sample	PASJPR	Primary	C76.5 : Thigh, NOS	1620	Tumor			649202f9-912c-5773-93ca-878e0fa6b8c5	904f33af-887e-58a9-828e-6a171ee92772		
+sample	PATMRM	Primary	C80 : UNKNOWN PRIMARY SITE	397	Tumor			667f6050-b06a-5e2c-b770-35ae62edbcee	6e09ffd9-ca5b-5aee-8138-d1ff9713f674		
+sample	PARKEV	Primary	C69.6 : Orbit, NOS	981	Tumor			6750d3c3-d32c-594e-9d90-841fb88d1239	7360464b-0e75-5e87-b0e6-b1b972b674ca		
+sample	PALHJZ	Primary	C76.2 : Abdomen, NOS	1109	Tumor			67611af7-000b-54c0-9398-98bb4f03bbd3	ff0a6d18-0b69-5222-bdfd-5be26c80a25b		
+sample	PAVSCH	Primary	C62.9 : Testis, NOS	4920	Tumor			678e3845-c402-5f36-b5a5-1d419860b6f4	b8016041-644c-5fc1-81ad-b65ee3d9843c		
+sample	PAUSXJ	Metastatic	C48.0 : Retroperitoneum	3084	Tumor			67a6da83-87cb-5fde-8ed4-50ec665b5a88	fb97e920-1e21-51c3-a1df-d4c1d6c3a852		
+sample	PASIVM	Metastatic	C44.4 : Skin of scalp and neck	4639	Tumor			67e0d58e-b829-5f82-8f61-691dbc016e31	fd0ff09c-59b0-5136-92ea-6e1a6e6bc2dc		
+sample	PAUBBY	Primary	C41.0 : Bones of skull and face and associated joints	4040	Tumor			68874547-2bde-5001-bdb8-adf66c6eb405	6975e608-bf00-51e2-8b98-81e019c933b4		
+sample	PAUPUC	Primary	C69.6 : Orbit, NOS	846	Tumor			68ae7eb1-6045-5ccf-b8fe-e85dbdffdb12	d2191de5-b225-54e5-8acf-e6fbbded3ddd		
+sample	PATLYX	Primary	C80 : UNKNOWN PRIMARY SITE	3051	Tumor			695f35f0-e704-55f4-b3a4-657a00db3431	9e360e74-c41f-552f-84f6-d6bbb288e8c0		
+sample	PANJXS	Primary	C21.8 : Overlapping lesion of rectum, anus and anal canal	3044	Tumor			69c7f29f-73f8-5123-a2a9-b9b34b481417	1bf3701d-9abf-5f3a-a0cf-810f14255352		
+sample	PAUJZI	Primary	C61.9 : Prostate gland	624	Tumor			6aa9bf61-69ed-59fe-ad44-a9a1583dc450	0a2e895a-38b8-5527-aa75-68b75652b35c		
+sample	PAVBME	Primary	C40.2 : Long bones of lower limb and associated joints	2606	Tumor			6b17b038-3dc9-5032-9bd6-c7382705a673	1fe28de9-9c8e-5b56-8b9e-5ce8daf1b727		
+sample	PATWUJ	Primary	C76.3 : Pelvis, NOS	2346	Tumor			6c5f97f4-1eb8-5bab-b536-2ab44e75e2f2	a481b77d-6c44-576c-b404-9c0b0740c590		
+sample	PATZDM	Primary	C80 : UNKNOWN PRIMARY SITE	1547	Tumor			6cdc40ee-d552-555c-9a87-985fd6cff949	a0ea6bbb-0c66-525b-9b7a-2d717df4f092		
+sample	PAUKPD	Primary	C61.9 : Prostate gland	434	Tumor			6d79a5ab-7e17-533e-97a0-9075513623af	e9db5583-ce9b-59ad-8f2e-31510bab78d1		
+sample	PAKXHZ	Primary	C76.5 : Thigh, NOS	423	Tumor			6e822174-9daf-52d2-a099-49267cbef617	d25bb461-8ea6-5e0f-bcf0-a85bb47abc15		
+sample	PAWZJD	Primary	C76.0 : Head, face or neck, NOS	2434	Tumor			700839ea-70ae-58b0-a1c4-aa9c201869e7	f47c6d3c-9ff4-5a65-a2e9-d65ee4f3eaed		
+sample	PATWZG	Primary	C76.3 : Pelvis, NOS	1898	Tumor			70655b2a-ef74-5e5d-8d81-8c0a33cf076b	39490157-4711-5a4c-a206-d03029e92b90		
+sample	PAUEDW	Primary	C67.9 : Bladder, NOS	408	Tumor			73049093-edf7-5be6-bbc5-5d1d9230b341	17b88964-f014-5839-8570-ed03770c4052		
+sample	PAUADS	Metastatic	C30.0 : Nasal cavity	817	Tumor			73068667-83e6-5753-8dde-42eb086accda	c5193a5c-3933-5731-a36b-e179808f4bfd		
+sample	PAWXFU	Primary	C76.4 : Upper limb, NOS	102	Tumor			739f0f0f-e6ad-5aa6-b18f-08b5c989f3d9	7034956f-2ef3-5d9e-9abe-8bfc49aae2df		
+sample	PATNVW	Metastatic	C30.0 : Nasal cavity	4945	Tumor			740a8fe4-04a6-5aae-bd5e-ce1ed1bac1d3	10b3ed65-d992-5a5b-bfa5-85d991c8e336		
+sample	PANAUY	Metastatic	C76.1 : Chest wall, NOS	4956	Tumor			7508550c-b784-5cc2-8d9d-a52b2297e10c	d5f879bc-a83a-516b-a467-a468367bf0e8		
+sample	PAUFYP	Primary	C76.2 : Abdomen, NOS	1324	Tumor			75766b3d-7555-5eae-9070-16f8ccdea83a	3f6e1f9f-752c-5d35-b363-a389d3989a04		
+sample	PASRNA	Primary	C76.3 : Pelvis, NOS	1879	Tumor			764948a6-cbc0-5e1f-8a19-8361438a0084	69b89834-97c7-5115-9c5f-91a673e33363		
+sample	PANECC	Primary	C44.2 : External ear	1467	Tumor			7678698a-65e0-5f2e-8252-1c95b5b80132	66d0ca90-60ad-51b6-9d20-ce59c9f56dcc		
+sample	PAVHYZ	Primary	C76.3 : Pelvis, NOS	733	Tumor			76e83980-bf66-5915-8c1a-a225a208855a	a6e6b71c-b96f-582f-a43e-f86145f2b0be		
+sample	PAVHUU	Primary	C11.9 : Nasopharynx, NOS	1784	Tumor			77f26c9f-aa51-598e-a558-e5495b5e9a1e	3d843f15-a92d-5f90-8b4d-243acb281a8b		
+sample	PATSZM	Metastatic	C41.0 : Bones of skull and face and associated joints	1215	Tumor			782d96cc-b48d-5163-ba7c-6281e4ec42e1	99be43fc-c8c8-56a8-91e4-c01cccf6c069		
+sample	PASKFT	Metastatic	C76.4 : Hand, NOS	4084	Tumor			786d3843-8467-5a2a-9437-d00b4a54cd5f	db91de30-3702-5d7b-b5d6-284c66f3df17		
+sample	PAVWXT	Primary	C62.9 : Testis, NOS	1755	Tumor			786dddfe-14d8-5907-a2fe-f81f382fbba3	7a3328b3-3775-5626-bdfb-a79c5dc3b80b		
+sample	PAURGH	Primary	C44.2 : External ear	905	Tumor			786f333d-b081-58de-9d6a-2c3abe3b7776	2e7fbd5c-d1b7-5f1a-9deb-7777ab10028a		
+sample	PAJALV	Primary	C76.4 : Hand, NOS	4387	Tumor			797afad2-3186-5c7f-b98b-a1d8039bec5b	139c9944-d7ac-5221-89a0-6a74fff8f9fa		
+sample	PASWGU	Primary	C69.9 : Eye, NOS	8555	Tumor			79abdbb6-a1de-5e4c-9fa4-306e439e8019	712a81ff-94ed-5f07-b858-916327fe8c85		
+sample	PASIKX	Primary	C62.9 : Testis, NOS	6110	Tumor			79bcda26-8c5f-5e91-a5bd-d2041053373e	53272b68-3020-5bf1-8d6e-15c42f6857a7		
+sample	PARJVB	Metastatic	C72 : SPINAL CORD, CRANIAL NERVES, AND OTHER PARTS OF CENTRAL NERVOUS SYSTEM	3989	Tumor			7a77d5ad-de6a-5e86-a2f7-dcf16450497d	98751dfd-71db-5269-9dd9-22a6ac398592		
+sample	PALWZD	Metastatic	C76.4 : Hand, NOS	1299	Tumor			7b368705-b3a1-5d27-b6f4-b56072246c0a	a98abec6-9489-5189-9c2c-b1ede602fbf3		
+sample	PAUHTW	Primary	C76.2 : Abdomen, NOS	21	Tumor			7b521f69-a87f-5c33-8706-0ca5372ae15f	9ed754e0-bca1-5cc4-af62-5af6f1fe8956		
+sample	PASFZV	Primary	C44.2 : External ear	1616	Tumor			7bb26e54-6de3-5419-b80a-014b515975e3	881a01a0-8a8e-5b65-8068-66ac941e0977		
+sample	PATXJE	Primary	C76.3 : Pelvis, NOS	339	Tumor			7c0a1c72-182e-54c6-8a97-bba7a03494ef	eef1cab6-bdd5-5757-880b-873923522ac3		
+sample	PAPWFD	Primary	C49.5 : Connective, subcutaneous and other soft tissues of pelvis	956	Tumor			7cdb088a-b7f4-576c-aa05-27acff2e1317	d426a244-818c-547b-8879-1195eb85c2d5		
+sample	PAWRJF	Primary	C06.0 : Cheek mucosa	726	Tumor			7d33fc36-7984-5855-b160-a40b96dfd0c9	8220b56c-1ba4-5301-861e-c727f6187309		
+sample	PAMVBG	Primary	C41.0 : Bones of skull and face and associated joints	5715	Tumor			7e0659bd-8506-5c48-a992-41413611b1c4	5721c984-4d5e-5b31-8a1b-e36599673422		
+sample	PANNCS	Primary	C76.4 : Upper limb, NOS	562	Tumor			7eb8cd7e-b24a-5f0e-9279-2a1c2fab86bf	3f930b85-60b1-59ad-9fb6-93a2f7e99621		
+sample	PASUYA	Primary	C76.3 : Pelvis, NOS	485	Tumor			7f15a8f5-c0b8-56fe-bfd0-2aedd6650e43	6020b5ae-8e38-5d0e-b5b8-4c8339ec6048		
+sample	PAUKGK	Metastatic	C41.0 : Bones of skull and face and associated joints	6223	Tumor			801ab5ab-7ea8-519a-8b7b-d154a424110c	86e61709-a2e9-50b3-9608-2877c21d57d7		
+sample	PAVSPZ	Primary	C30.0 : Nasal cavity	5522	Tumor			80e6febe-ca9a-5cb3-8ebe-c33f938eb109	beb17c9a-0417-576f-9760-7b8ac66b7bab		
+sample	PASSAT	Primary	C80 : UNKNOWN PRIMARY SITE	1343	Tumor			817c4129-9baf-5502-8b0d-be9f517ddf25	781ce30f-0008-5011-aa88-7d25e28c63e4		
+sample	PARJFS	Metastatic	C76.5 : Lower limb, NOS	1164	Tumor			81f8ac50-b855-50f1-97a2-f81563816e4a	04d0ec8a-89f0-5249-96a5-771d4dcb997c		
+sample	PATBPM	Primary	C44.2 : External ear	3208	Tumor			82450366-0fc9-591c-87c7-5db73d5cc788	2901ba8d-15e0-5d22-a17d-38796c35bb92		
+sample	PATXNW	Primary	C80 : UNKNOWN PRIMARY SITE	5270	Tumor			837daae9-6c49-5ca8-aebe-c6a4e894279a	f5a8964a-ea46-5ae7-a298-194306e9e416		
+sample	PAVESC	Primary	C76.3 : Pelvis, NOS	5909	Tumor			83a030d5-127d-5c29-8ba3-2f9b4ed2f0e4	d6e5b126-807b-56b8-b9a5-802dec0407d8		
+sample	PAVAFP	Primary	C62.9 : Testis, NOS	7369	Tumor			853f5421-63f3-5e68-b86f-ca8a713e7446	43cfec24-4d80-5763-9fcf-34834dfe43a2		
+sample	PAPBGW	Metastatic	C80 : UNKNOWN PRIMARY SITE	3128	Tumor			8586f7e2-237f-5a0c-9482-8720b97d547c	a1859020-e2ea-593e-a87d-a6d7bfefa582		
+sample	PAUSCH	Primary	C62.9 : Testis, NOS	4996	Tumor			85d0d4ba-a851-5454-b1aa-ef6b5214e69c	17dfc1ae-7162-5057-bcb2-ec0b2eecbe4a		
+sample	PATMAZ	Primary	C76.3 : Pelvis, NOS	1430	Tumor			8602fd4d-60bb-56de-b980-3da9b5a9a04f	83b0b5cb-deb7-54ac-867a-a88032af2d79		
+sample	PASCSM	Primary	C72 : SPINAL CORD, CRANIAL NERVES, AND OTHER PARTS OF CENTRAL NERVOUS SYSTEM	5909	Tumor			8634bfd2-4265-5e35-b377-103c7ec5ac86	24959c9d-e887-5a6f-9474-566ec4d90292		
+sample	PAULVU	Primary	C11.9 : Nasopharynx, NOS	1887	Tumor			870ea7c8-b6bb-5f21-b990-206582e59216	9f3dfcb9-60ed-5c9d-b574-c15db4d20b6a		
+sample	PASXTY	Primary	C53.9 : Cervix uteri	5208	Tumor			87261922-ed45-5260-ab86-6efb75d774db	d995765f-46a9-5647-9251-99c03bd20822		
+sample	PAWDLM	Primary	C76.5 : Lower limb, NOS	16264	Tumor			874a5cfc-715a-5fa5-9228-5d881b9ce628	2074daed-b192-5cff-a47b-46ed58564671		
+sample	PATLHR	Primary	C80 : UNKNOWN PRIMARY SITE	4146	Tumor			8773306d-aacf-51dd-b591-92c812422bd5	423c4fc9-78b8-5bb4-84d3-a01511dffe17		
+sample	PASGCC	Primary	C76.2 : Abdomen, NOS	792	Tumor			87c90f8a-f463-5bc4-8fb5-2cb446b17558	89c85603-5218-503d-8646-54ab3f3310a6		
+sample	PATDIG	Primary	C44.2 : External ear	1485	Tumor			87effe84-ab52-5643-9513-608dad5b3973	0daec7b3-3300-5461-941a-4e05ee8db030		
+sample	PANRUT	Primary	C76.5 : Thigh, NOS	649	Tumor			88d8af9d-3947-524b-98a9-865dd0cdea9a	de221f81-0577-50b3-8d3f-601118c62fa7		
+sample	PATMYX	Primary	C80 : UNKNOWN PRIMARY SITE	7106	Tumor			890ff212-0bca-5d86-b71e-470d71173e9b	11996752-6e03-5287-8104-b55244292a04		
+sample	PARBED	Primary	C62.9 : Testis, NOS	580	Tumor			8996aaab-0053-5d91-a5de-282a322ef9eb	6030618b-60c4-507e-b231-d9f16b41056f		
+sample	PASHJF	Primary	C69.9 : Eye, NOS	3040	Tumor			89afc66f-83c8-5ff0-a80c-b13b730a6163	a3c84f04-6ac3-514f-aa61-f40d17a74d00		
+sample	PARNJS	Primary	C62.9 : Testis, NOS	5307	Tumor			8ab6a792-913f-578e-8c88-b73e9d370228	8378ae86-3c74-5104-9203-4792b9e6e5ad		
+sample	PAUXAW	Primary	C67.9 : Bladder, NOS	624	Tumor			8c76bb2f-becf-57ca-8568-e47528d30ee3	01a83395-4279-54a0-bf44-df35a5a06ed0		
+sample	PARKWI	Metastatic	C44.2 : External ear	2033	Tumor			8ca6056d-0a47-596b-9a54-d9e0ba655409	054364fe-5a3a-51d6-9725-0e77d788a8da		
+sample	PANDZA	Primary	C62.9 : Testis, NOS	2233	Tumor			8d1641ab-94a8-57fd-95fc-f9bc29838578	80c6bbb2-1ac9-5707-960f-b48c5adb8585		
+sample	PATAXC	Primary	C62.9 : Testis, NOS	1496	Tumor			8da100db-33c2-5918-a83b-0226c72f64e2	89fb644e-6e08-5d9d-87d5-be40dd570127		
+sample	PANJXX	Primary	C31.0 : Maxillary sinus	5266	Tumor			8dcc16e0-a220-5c27-8008-57dd5f2cabc4	18bfafd6-2fa8-58aa-992f-e422497459ce		
+sample	PAPXEN	Primary	C41.9 : Bone, NOS	2350	Tumor			8e0856d9-f6e0-5b77-a732-d0cc607fe3e7	3b81584b-9d5c-5a38-8069-ae24335c2981		
+sample	PAUNSE	Primary	C11.9 : Nasopharynx, NOS	2095	Tumor			8e7133b5-84c0-5dff-8853-31f228ceca56	90c6eafe-35ff-5357-9537-f30bfd4e4f01		
+sample	PATKBG	Metastatic	C48.2 : Peritoneum, NOS	1978	Tumor			8eecb336-f92c-5f5e-8561-baa0e74a907e	96b72223-22cd-5a16-8c81-b60a1559e98b		
+sample	PARTJV	Primary	C05.2 : Uvula	777	Tumor			8fa28dbc-2a5d-5103-bf6e-32c00d1eafc9	19e5151e-705e-5b76-9018-3ce462b2719a		
+sample	PATNYZ	Metastatic	C76.3 : Pelvis, NOS	2244	Tumor			9075f6ac-83c3-5dfd-89b3-0a2e8c725cf8	ef8c3fea-afac-5f54-8c0c-5a1d145c086d		
+sample	PAUBRI	Primary	C80 : UNKNOWN PRIMARY SITE	6062	Tumor			9205034e-e9dd-5e1c-a3c2-e87f4993fbeb	a858400d-53b1-5b5b-ba55-a8b0a378d78e		
+sample	PAMZUH	Primary	C30.0 : Nasal cavity	4186	Tumor			92602fac-a3bd-59ff-a09e-cc3454fcb0ab	380388c3-a7bf-5212-9ec2-8e1e2617b3f6		
+sample	PAVUKF	Primary	C71.9 : Brain, NOS	1719	Tumor			92e276b5-db51-5a90-8a45-a6fc623b317c	b1b8cc0e-1523-5daa-9a11-056c5e9f621a		
+sample	PAURAJ	Primary	C44.2 : External ear	1762	Tumor			9355afbc-e9db-5cb0-bf96-58b2436b9f0c	00755ee2-7926-5e07-8471-4d83a336efc2		
+sample	PASIWI	Primary	C62.9 : Testis, NOS	3752	Tumor			93c2ebef-6004-5378-a56d-efd4996bc831	91b9d34e-5757-55db-8a15-8669adb03fa0		
+sample	PAMFGS	Primary	C69.9 : Eye, NOS	3409	Tumor			94682a82-01a9-52ee-b76c-72d96c669d6e	e3e1a2fc-0c0d-53af-bfb8-d0084d42177f		
+sample	PAVPSH	Primary	C42.1 : Bone marrow	1288	Tumor			951fc8ca-ddc2-5306-800a-3d12fbc1aa21	af148887-73af-5f1c-83ac-5448a8dbc5d6		
+sample	PASLZS	Primary	C69.9 : Eye, NOS	1551	Tumor			9632d3fe-d8df-5469-b113-9a0fd60ee207	783c683e-63b5-5cdb-a069-0f2efc2c182d		
+sample	PARTEW	Metastatic	C62.9 : Testis, NOS	5281	Tumor			96468747-426a-5eee-81df-301590f00cab	a739ce52-efe4-5e5c-9e17-4485a4fc9359		
+sample	PAUTTP	Primary	C06.0 : Cheek mucosa	1146	Tumor			96809dff-b2a2-540d-b72a-ddd16a7ed654	aff81df1-1b83-5a82-b70c-3fb79e4d19db		
+sample	PATYHY	Primary	C55.9 : Uterus, NOS	6241	Tumor			96d8fd41-da15-5bfa-a2f2-ca194b451104	6cb9c220-bc4d-5012-a705-f8ebc7ba2ee1		
+sample	PAMLJE	Primary	C76.4 : Hand, NOS	5120	Tumor			9848d0c6-2b9b-5d72-8293-98478b333366	c4de8d75-aa90-560f-b769-d50856b0f08d		
+sample	PAMJNE	Primary	C76.2 : Abdomen, NOS	2281	Tumor			98e5b7e3-1712-5bc3-89ca-3c7cbe3a35a4	1e186199-2395-5292-b03f-2d5489008f43		
+sample	PAUXPX	Primary	C62.9 : Testis, NOS	2022	Tumor			9a60bdb2-147e-5eb2-8ca3-3d9620eaeffd	6a0d2029-1ccc-5480-9066-e85d2a5a3231		
+sample	PAPMWE	Primary	C76.3 : Perineum, NOS	21	Tumor			9a8832e9-28e6-5c7a-893c-37321afde37f	607aecc8-bee1-56ba-81e8-e52dda610d65		
+sample	PATPXA	Metastatic	C76.3 : Pelvis, NOS	2690	Tumor			9d105cd5-aa02-5821-ad67-c08191706ad4	aea6a0ef-b170-5b92-99dd-9b498942f142		
+sample	PAUHVM	Metastatic	C76.5 : Lower limb, NOS	4562	Tumor			9d1d10bf-bead-52eb-92f0-85f3cf59644d	9d06265f-419f-5a10-9c6f-031a5fd47aea		
+sample	PAUNUC	Primary	C30.0 : Nasal cavity	1540	Tumor			9d4eb6bc-dc1a-514f-acd0-2fd24c43cec4	c3579bc3-4424-5b9f-a27c-879c1b7c822e		
+sample	PASPLN	Metastatic	C76.5 : Lower limb, NOS	959	Tumor			9d642b85-1709-55de-aab5-d4f675eafad0	628aa2d2-dda8-5757-85df-9c3e020ff737		
+sample	PAVRAE	Primary	C62.9 : Testis, NOS	5496	Tumor			9df39835-78e8-5302-a6a7-9936886cdfdc	2a630070-0f1c-5bd6-ae32-ee950d7b46ca		
+sample	PAVLFL	Primary	C06.0 : Cheek mucosa	6296	Tumor			9e518b76-e66d-5904-b89a-b122a9f76c21	d34ae811-85bf-5aef-b9d2-4e3a73695078		
+sample	PAVRNH	Primary	C44.2 : External ear	908	Tumor			9e8000f6-575f-5f6a-afc4-5826648cf460	62342600-2cd3-5841-8aec-afd1bcb9431d		
+sample	PASWJV	Primary	C62.9 : Testis, NOS	1657	Tumor			9e84b14b-1d39-581e-9c0e-8999882320d9	6c982823-e5a3-5e87-a51f-91f7fa34e588		
+sample	PAWMFL	Primary	C76.3 : Pelvis, NOS	1397	Tumor			9eda1059-1edf-5448-b376-028843b8fa0f	0e6d947f-8f1c-57ac-b0a3-61304d17f152		
+sample	PARNED	Metastatic	C76.0 : Head, face or neck, NOS	1777	Tumor			9ef4bf66-f576-5810-a7c8-d0f0116fae9b	8c3a0d7b-fee7-5fe2-9c04-69f4f14087b4		
+sample	PAVAHF	Metastatic	C44.2 : External ear	2252	Tumor			9f7bf138-c924-541f-bb88-0b1eb6871412	69f990b6-42f2-5079-8cee-d519cdac763f		
+sample	PASDXS	Primary	C62.9 : Testis, NOS	3398	Tumor			9fa68490-af03-551c-9a5e-29425fa5d7a7	5c23ce94-baae-5170-a0da-66c0b45af4f0		
+sample	PAUNLH	Primary	C76.5 : Thigh, NOS	872	Tumor			9fcdf32c-7671-57ba-9926-138f630ca0ff	29496913-71b7-5476-bf15-f8dc9c48240f		
+sample	PATBYY	Primary	C76.2 : Abdomen, NOS	602	Tumor			a02d3d02-f092-55ae-baa3-918508583c86	b929c13e-f793-5156-947a-861c5b7a5ffa		
+sample	PAUBJN	Metastatic	C80 : UNKNOWN PRIMARY SITE	3489	Tumor			a0cdc139-d1a0-5be5-93dd-a9684c8375dc	4c74ab34-459f-5a27-923e-294bfafd264c		
+sample	PATJHZ	Primary	C77.9 : Lymph node, NOS	2555	Tumor			a21204ea-1ba0-51b2-b19b-f252ab855126	91574b22-a00d-5a13-92ad-8a0a8d4208bf		
+sample	PAMUXL	Primary	C69.6 : Orbit, NOS	2014	Tumor			a27ce58c-510b-5e77-929f-a4ed372476f8	a6971388-aa5e-564f-aee2-8446bb39adbb		
+sample	PAVRSU	Primary	C44.2 : External ear	1689	Tumor			a2dd59a4-95ec-5f63-873a-2db1d645c7a1	ef80bd51-e2a5-50b7-9a2c-9ba84e8bbb5b		
+sample	PARXLA	Primary	C62.9 : Testis, NOS	3219	Tumor			a3a4aef9-e7b9-5cac-b25f-fa547514ac88	b19d8cff-e5b7-518c-a500-57cab876f41a		
+sample	PAUENM	Primary	C69.9 : Eye, NOS	1565	Tumor			a42264f3-aa6a-5c40-b4aa-eaa5c7fe1c8d	d249c5d4-1663-59c8-8854-722a093514a1		
+sample	PAUKIG	Primary	C62.9 : Testis, NOS	6256	Tumor			a4c0f124-c033-52f7-9fac-04b5507b53e5	ffa87369-ac82-5c18-a03e-2f5a30e7b0c4		
+sample	PARHZT	Metastatic	C72 : SPINAL CORD, CRANIAL NERVES, AND OTHER PARTS OF CENTRAL NERVOUS SYSTEM	1565	Tumor			a5412ae3-55c1-5d6d-b809-f595b6da4375	48d9b794-88ea-523e-892e-4e7a42214450		
+sample	PAUXEV	Primary	C69.6 : Orbit, NOS	2281	Tumor			a59c2662-45d1-5904-83f3-641bb7757cee	32214be8-db25-5db4-91cd-8c31f875cd10		
+sample	PAMAXZ	Primary	C76.4 : Upper limb, NOS	2576	Tumor			a663e907-cb72-54ef-8298-6c999a265dee	33902cf5-0fbe-5e63-83e9-f3799301aa67		
+sample	PAMHCR	Metastatic	C76.5 : Foot, NOS	6281	Tumor			a867f4c7-7b75-5fa4-83ea-e03587c42622	929f3cbc-d1de-544c-98eb-c339c8570da0		
+sample	PARFTU	Metastatic	C76.2 : Abdomen, NOS	1219	Tumor			a885163b-92b0-5949-94f0-e62a5379ea3c	df000925-634b-51f8-8ba4-e33ee2989fe8		
+sample	PATNPK	Metastatic	C76.5 : Foot, NOS	3934	Tumor			a94ec5da-55ff-5648-ac06-9ab697726cb9	f6ef5777-9b81-5173-b079-48dfd5134e6a		
+sample	PATYWU	Primary	C76.2 : Abdomen, NOS	894	Tumor			a97b0539-5260-560f-97a3-724eab45ab91	c502128d-093b-519e-a4d9-a90b964c3130		
+sample	PAUYKU	Primary	C76.3 : Pelvis, NOS	200	Tumor			a986dce2-0bb1-5c0d-ae9f-b0aefcd86755	b4219a46-a05a-53e9-9965-47348480b68f		
+sample	PAUXVX	Primary	C62.9 : Testis, NOS	1467	Tumor			aa0cb8b5-3b64-5c45-bc61-45ea0e0bff5d	19d97c65-6631-5a0b-be98-b9e75b018cd1		
+sample	PASFRU	Primary	C62.9 : Testis, NOS	3390	Tumor			abbc1ee2-9942-5153-88b0-2d5d64084116	df51f411-2126-5c06-b45f-0a7fb9293fa2		
+sample	PAUJJR	Primary	C76.3 : Pelvis, NOS	3274	Tumor			ac96953f-8169-58f0-9352-6a95f301a114	8962f72c-6a69-5a54-813f-4ebe57a230cb		
+sample	PATRYN	Primary	C48.0 : Retroperitoneum	1222	Tumor			ad5476a4-cbde-5191-afe0-b81d5ab0b017	037b9a69-dfb6-55fd-a678-14c558c4b229		
+sample	PASNWB	Primary	C76.0 : Head, face or neck, NOS	1533	Tumor			ad6ed763-880c-5b05-9b07-afb8ff4a1b09	ab22913b-7bd6-5fd2-bd3e-ef4ca317becd		
+sample	PAUPMF	Primary	C11.9 : Nasopharynx, NOS	2007	Tumor			af907528-857c-55c1-9a23-23a33d40a587	1c181f4a-9fb8-5619-8062-290989277257		
+sample	PAWGJV	Primary	C05.1 : Soft palate, NOS	3679	Tumor			b07824af-3322-5d8e-bf55-4d17c775de89	af985afe-682e-5560-9a25-ffc57d49b4a4		
+sample	PASEDI	Primary	C76.0 : Head, face or neck, NOS	2365	Tumor			b13696d2-67a6-5267-88a3-9e7a92e6f412	fbd02cc5-9cae-5779-bda1-79ca4cc95895		
+sample	PAUFNF	Primary	C76.4 : Upper limb, NOS	1018	Tumor			b1cef41d-872e-5bb3-b847-e7d69fe923a9	9e0155b4-d530-59bb-8dbf-66a342bb0627		
+sample	PATLTX	Primary	C80 : UNKNOWN PRIMARY SITE	5752	Tumor			b2cff2c5-129c-5e53-b0d3-9c0f17c633ff	c26b8ca0-fab1-5c02-a109-5b7d1601a9ff		
+sample	PAWDJF	Metastatic	C76.5 : Thigh, NOS	2259	Tumor			b653f9fa-462a-5233-a49d-91c74f5ccdf0	e56211a6-25be-56a0-953d-87e82d4e9f50		
+sample	PAUPGR	Primary	C69.9 : Eye, NOS	2558	Tumor			b6785c61-3dad-5a0c-a599-6bab16ca34e7	f6f45916-84aa-5d8f-a0eb-2914d4ac75bc		
+sample	PASXXC	Primary	C30.0 : Nasal cavity	2365	Tumor			b67fb288-f6b9-5d64-aae3-931d271695ef	e5772c1f-2783-5a33-8747-5f855bece233		
+sample	PATZPA	Metastatic	C76.5 : Thigh, NOS	1226	Tumor			b6dd5a7f-1909-53d9-9d71-e4dc285b609a	86b94970-a78c-5eca-97b5-0b48b6e34bee		
+sample	PAVBAZ	Primary	C14.0 : Pharynx, NOS	7716	Tumor			b776a289-8664-5414-8abf-c385d6e97535	ffb10f4d-09dc-568b-a104-18acb5f2f9b9		
+sample	PASZXP	Metastatic	C76.5 : Thigh, NOS	2266	Tumor			b89f038f-b887-5965-af61-b36e88172a92	b8446ed2-1e1f-543c-9f49-c22f4031a3ae		
+sample	PASYIZ	Primary	C62.9 : Testis, NOS	7785	Tumor			b9d983f1-362e-5b83-99f9-601f2cdd90cd	9a6dcdd1-2ae7-59b1-9a84-4016da05c8d8		
+sample	PATYYW	Primary	C80 : UNKNOWN PRIMARY SITE	390	Tumor			ba731d9d-8084-5f34-83aa-f35841332432	24710f7a-8501-5f66-9a50-8be58bec4cef		
+sample	PAUAHN	Metastatic	C80 : UNKNOWN PRIMARY SITE	1795	Tumor			bb2623e5-9d81-5b92-94eb-1b09c04a3768	d5af2eca-8d0e-5ac7-868e-93bf0c9aee94		
+sample	PATJUF	Primary	C80 : UNKNOWN PRIMARY SITE	3712	Tumor			bba8ab78-d0a4-515b-ae7f-c060fe4605ce	5a81fe84-6ab0-57cc-ac50-c733b4cfc01b		
+sample	PANBZD	Primary	C44.2 : External ear	1427	Tumor			bbd462d6-98ab-5c78-b0d8-a11d99117568	510a135b-9659-5a5a-9b9d-523417dce81c		
+sample	PAUKNM	Primary	C76.4 : Upper limb, NOS	452	Tumor			bc2c164e-83e7-57f6-ac9e-315b272219e3	7de0f401-135e-5b73-9c4b-421dd788c3ae		
+sample	PARIXG	Primary	C76.7 : Other ill-defined sites	29	Tumor			bccbd377-ae6a-5e06-a6f6-3316dd003dcd	14fa8dc4-ea0e-5711-b55c-4f6bd7f910e4		
+sample	PALCNS	Primary	C62.9 : Testis, NOS	1529	Tumor			be096284-825d-59bb-861a-c2ead3c710b2	676a2482-19de-5847-881f-a3de440caa24		
+sample	PATSLK	Primary	C61.9 : Prostate gland	7150	Tumor			bfc3761f-b09e-5792-976b-11b8620e4ec3	e9b9154c-5932-5cf6-bcd3-ca0f8502caa5		
+sample	PAUKMC	Primary	C41.0 : Bones of skull and face and associated joints	2022	Tumor			bfea3b40-56f5-54c5-9249-5ade7e31ab08	a019f843-40c3-513d-92ee-a9a1635e2b84		
+sample	PAUDIZ	Primary	C61.9 : Prostate gland	4277	Tumor			c1c42d72-9b17-50c4-b707-e5767fb507ca	96d22497-1803-5191-8738-4ca55ef8ce29		
+sample	PATHNY	Metastatic	C76.2 : Abdomen, NOS	1193	Tumor			c249917c-e476-5c6f-bcda-ff49a4948cc0	07a7c0f3-764c-5d90-9615-da7cc849a865		
+sample	PARSZK	Metastatic	C76.2 : Abdomen, NOS	1171	Tumor			c478c982-d7dc-5882-9c86-a748e0c677ba	e4a98127-40ec-5baf-b754-7ce0821fd497		
+sample	PAUKJG	Primary	C63.2 : Scrotum, NOS	886	Tumor			c4c2c7f4-412e-54fb-b1ac-a85c3fa70ccb	ab5030d5-ac02-5f06-ae95-94be2faa5ea7		
+sample	PAVAZS	Primary	C44.1 : Eyelid	2817	Tumor			c523c9c9-3f71-5cfa-b78b-70eca3df65fb	209beb32-3a41-5d27-821e-a17d74e796aa		
+sample	PALBLT	Primary	C51.9 : Vulva, NOS	6212	Tumor			c8c4a6c6-f3b7-51f8-a7d9-85386ada4a17	40e8a259-8cc5-5cb6-8e15-e736374f45c7		
+sample	PAKPED	Primary	C50.9 : Breast, NOS	5288	Tumor			c946b74d-1a5c-5a66-840d-4820d814f467	d366b5a5-5429-53c4-bad4-524db610f9ca		
+sample	PAWRUL	Metastatic	C06.0 : Cheek mucosa	13793	Tumor			c9c3ece5-d94e-5f3e-8621-8dc827daebf4	6b4e8c99-2438-5c69-9b1a-ef73550f3e43		
+sample	PARVTP	Primary	C69.6 : Orbit, NOS	2430	Tumor			ca18875f-bd35-5ef5-ac99-b11b7e270c7e	d18eb46f-ae61-534f-bf17-b31ef8d337ac		
+sample	PASXRZ	Primary	C62.9 : Testis, NOS	3985	Tumor			cac657f8-dea7-5599-a3f6-6e9cfe0bbdcf	e3f6db5c-20e7-5266-bc3c-5d768ac274a6		
+sample	PASDYC	Primary	C67.9 : Bladder, NOS	2507	Tumor			cb299ab1-a5a8-59f8-aaf1-a5cfdab7a125	171c0893-5273-59f3-b970-5c692e796768		
+sample	PARIAG	Primary	C80 : UNKNOWN PRIMARY SITE	2511	Tumor			cb4653a8-bf47-5ad1-b33e-72d9a8208e3d	1e08180a-0cc4-57c1-a4e4-3755cb0e73bd		
+sample	PAJALK	Primary	C76.5 : Thigh, NOS	810	Tumor			cb75d6d5-3258-5e7b-a663-875ea2b04b88	3e1b49da-3424-5627-a447-b82efaa15ef1		
+sample	PASGUG	Primary	C62.9 : Testis, NOS	5591	Tumor			cbe2a560-58ed-53fb-b53a-34e6ef1c7079	15329d5c-95fb-519e-a618-fd35a3277001		
+sample	PARIVX	Primary	C69.9 : Eye, NOS	1357	Tumor			cc4da9be-fe67-543b-b38c-12b0f850f485	770bafd9-1bcf-5908-9ecb-78a79176c4c1		
+sample	PAVBWN	Primary	C67.9 : Bladder, NOS	2102	Tumor			cd1bb8d5-c004-5687-8ab0-d3966efbcbef	a69cada7-44c1-5494-885f-deada597fc12		
+sample	PAKJHG	Primary	C80 : UNKNOWN PRIMARY SITE	2474	Tumor			cdd5715f-91dc-57db-8ec0-7844a2d1b6b2	38797341-5754-50d6-b9ac-a06dba314c45		
+sample	PASKWV	Primary	C41.0 : Bones of skull and face and associated joints	1197	Tumor			cf141f34-8edb-56c9-8b3c-06273ff0c83c	71752138-4255-598e-879b-aaae8b5b6bb5		
+sample	PAWBZH	Metastatic	C14.0 : Pharynx, NOS	54	Tumor			cf4797ba-dffd-50e9-b7fd-f02ce220d598	fb8810b1-596c-5879-8f8f-eac235e40027		
+sample	PASLCB	Primary	C76.3 : Pelvis, NOS	4244	Tumor			d29e1046-192e-5aaa-90b1-ec2d2085f187	c2f3f819-6243-57f0-8326-59a18d8460df		
+sample	PAWLCX	Metastatic	C76.4 : Upper limb, NOS	6037	Tumor			d2d68cc8-27c8-5012-90b2-e487abf209f9	2fbfd393-4255-5d8a-8b24-e06a695e7d15		
+sample	PALMHC	Metastatic	C76.1 : Chest wall, NOS	6460	Tumor			d610fdd3-ae87-5833-afef-d293bf0cf152	5be8431d-4a2f-58bd-96aa-ddaf862a5c64		
+sample	PATMPD	Primary	C80 : UNKNOWN PRIMARY SITE	3631	Tumor			d64f9227-85cb-59db-aeae-256bdf24a430	d5b423a1-9ce5-5aa0-9e14-2889feb0222f		
+sample	PASTMB	Primary	C44.2 : External ear	2328	Tumor			d6715517-8fe3-5381-b764-a3ddfcaac1c8	2365fb81-bde2-5578-bc37-1cf802c084ef		
+sample	PAKKWT	Primary	C76.5 : Foot, NOS	3686	Tumor			d8545231-c5dd-578a-afb9-1a82aeba23f6	01e9fc3c-26b6-5635-8c9e-63df21e4fa46		
+sample	PAPJAD	Metastatic	C76.5 : Thigh, NOS	3821	Tumor			d8a7bc96-8b2d-511d-addc-66409066836a	b8fbd88f-15d5-5aaa-a276-3154e0645acf		
+sample	PASXLW	Primary	C30.0 : Nasal cavity	835	Tumor			d950541a-37d4-5718-8d1f-c06a76121878	53ffbedc-480c-5147-ace9-cb2019df45c7		
+sample	PATLJL	Metastatic	C76.7 : Other ill-defined sites	1755	Tumor			d978d67c-f8d8-5671-8f2f-3e64c976d2a9	6ab42c2a-e637-538d-8210-8d17702b4485		
+sample	PASZFA	Primary	C69.9 : Eye, NOS	2894	Tumor			d98a80cf-a506-5756-a1d3-a3efd7323e03	842d5aaa-067e-5a2f-b460-533a827eb5dc		
+sample	PAUUAX	Primary	C76.3 : Pelvis, NOS	127	Tumor			d9f32e22-524b-5cd1-9c68-f6cbd609d5b6	cdda1db7-e123-5b3e-b806-1547eaec844b		
+sample	PAPSHJ	Primary	C76.5 : Lower limb, NOS	719	Tumor			daca4535-0042-5a59-8bff-d0440957ff37	4cd85c75-b3dc-5758-889d-5ef28c791500		
+sample	PAULSR	Primary	C76.7 : Other ill-defined sites	65	Tumor			dc42a453-c734-5c7f-9ccd-eed1c9bb3266	60f2d61b-1452-5624-8181-100397da41a2		
+sample	PAUSPS	Primary	C63.2 : Scrotum, NOS	5296	Tumor			dd29116a-24f8-5fa4-a9a8-6a1657e20c51	9426de7f-511a-5b84-bdff-f7653e72fee7		
+sample	PAUWXU	Primary	C61.9 : Prostate gland	2624	Tumor			dd39188c-7323-5c1c-a86b-0cf85a15a7dc	7c367fa1-b3f4-5519-bd9a-821fdd09384f		
+sample	PARRXG	Primary	C76.2 : Abdomen, NOS	751	Tumor			de5390fc-dc12-5b78-9240-6445d80c2edf	fc6b5365-0b78-5fb4-8671-da5dfca6a696		
+sample	PATSND	Primary	C80 : UNKNOWN PRIMARY SITE	16516	Tumor			de71fbf1-c9c9-5d57-b2d4-831021e45a38	c4fc30b7-8eb1-5b31-a59a-0d071de756e3		
+sample	PAPBXZ	Metastatic	C76.2 : Abdomen, NOS	1394	Tumor			dfe8cc85-3d63-55c1-975b-7f6ec71d2d74	463a926f-5531-5a00-a0ee-1ae2bab4443f		
+sample	PAMTTX	Primary	C62.9 : Testis, NOS	2967	Tumor			e0260586-bd45-51a7-a4fa-6ff5589dbf8b	4fe91585-4fae-5bba-8580-b4a0c2a7f924		
+sample	PARJLL	Metastatic	C76.5 : Thigh, NOS	5069	Tumor			e05250fe-a6fa-529a-bd37-a8a4919a57bc	48aa5a60-9a62-5f9c-ad38-d6a5fce8b576		
+sample	PAVSGG	Metastatic	C76.4 : Upper limb, NOS	2540	Tumor			e07adcbb-22de-5605-b47d-17e9c2916d38	ff114427-6e09-5214-b5fb-db38a662cd40		
+sample	PAREVH	Primary	C09.9 : Tonsil, NOS	1401	Tumor			e08f912c-d94b-5203-8aa5-17a8af38381d	9e952c28-748d-5fc0-8f61-dcafc67ae69e		
+sample	PARTAZ	Primary	C62.9 : Testis, NOS	1890	Tumor			e09d781d-3770-5ae8-9789-05e8f93f3664	03d5dcf3-88c0-5adf-aab3-1e0b370c11e0		
+sample	PANASJ	Primary	C30.0 : Nasal cavity	916	Tumor			e0c32b05-51a2-5f02-9444-87b47aaf1eec	ac04fba0-ec34-5de6-ac54-a85706507652		
+sample	PATSHL	Metastatic	C30.0 : Nasal cavity	4077	Tumor			e209759c-2ea6-56d1-8eae-837989bbf0df	646ea628-50e8-5929-a5a2-05c23f219ead		
+sample	PATTKC	Metastatic	C76.2 : Abdomen, NOS	1470	Tumor			e4bcdab1-192e-52c1-bda9-de33661b79ca	64108973-5b29-5669-a7d0-f73361666092		
+sample	PATNZF	Metastatic	C38.3 : Mediastinum, NOS	3847	Tumor			e50e16e4-7bd0-5f69-837b-ffa2b67f3496	bef6399d-9239-527d-b8fe-fc0e0f3a0b78		
+sample	PAVWUW	Primary	C62.9 : Testis, NOS	6069	Tumor			e589b54f-3340-51e4-ad65-05ca12a1b612	bdb023c9-2aaa-535e-9fd0-6479c751df76		
+sample	PAWABV	Primary	C76.2 : Abdomen, NOS	401	Tumor			e6727b38-9555-50cd-a481-ba6b4be5c1e5	36e8325e-364f-54f7-abcc-89f0b2281d5f		
+sample	PAUGRM	Metastatic	C48.0 : Retroperitoneum	1503	Tumor			e7665e89-8466-5880-a18a-510c8f5afffa	e4a88b69-0f88-5c0a-8ff2-0452eb26641f		
+sample	PARMPU	Metastatic	C62.9 : Testis, NOS	5270	Tumor			e7baea25-650f-5e47-85c2-54984cf45fc4	e102e2c2-44ca-58f5-860c-64f02f354bf7		
+sample	PAUNHP	Primary	C76.1 : Chest wall, NOS	872	Tumor			ea53eba2-90f2-5b6d-b73a-dc2bf3f0188c	dfa956ce-851d-5721-bf16-5b396d857d97		
+sample	PAKSEI	Primary	C41.0 : Bones of skull and face and associated joints	1682	Tumor			eb52274a-69d0-5ed1-9c38-8fef76678157	fd252867-15a0-5b9b-b75c-1e563bbd89e9		
+sample	PATXEX	Primary	C11.9 : Nasopharynx, NOS	2394	Tumor			ebd83a18-1959-5d6d-8f36-db58cc2f9c7d	8a337ac2-8a38-599c-9c05-4aad1c53c205		
+sample	PAVTKW	Primary	C10.9 : Oropharynx, NOS	4438	Tumor			ec5b9bae-3da9-5af2-a5cd-a84d6c692d5f	29061785-46c3-50ea-8c21-9986aa754041		
+sample	PATMSL	Not Reported	C80 : UNKNOWN PRIMARY SITE	5920	Tumor			ed8c8fda-ab78-5fc4-b288-ceaf138a9f7f	6b333a91-f3c4-5b59-9e3c-92f90bfd720f		
+sample	PASGTU	Primary	C62.9 : Testis, NOS	427	Tumor			ee296091-41b6-580f-a58a-eb1734bb935e	b21d1404-6dcc-55d3-924b-1531c97e20f3		
+sample	PAPYLE	Metastatic	C76.3 : Pelvis, NOS	2784	Tumor			ee6844c7-bb6b-5696-a7f6-fd4dac32682b	291e3d17-09f6-5db0-8cf1-6cd826ab974b		
+sample	PARYJE	Metastatic	C76.1 : Chest wall, NOS	3219	Tumor			ee7b4f66-a21e-50cf-943c-6c24bb169338	cc0e40d2-2836-5fe2-b614-6c0dff0029b8		
+sample	PAUKPW	Primary	C80 : UNKNOWN PRIMARY SITE	558	Tumor			ee901a1a-9c7a-5104-b843-48b1d042075b	71bad540-b86b-52f8-acae-8c4f5aa8ca1c		
+sample	PARWUG	Primary	C69.6 : Orbit, NOS	2405	Tumor			ee9eaff2-6967-54bc-9b87-4aa4942ab367	cb765687-2e9e-5f61-8f80-414fb9677bdb		
+sample	PAUPMJ	Primary	C48.0 : Retroperitoneum	1073	Tumor			f028929f-3000-5936-845c-4e54d5c80237	664fe23d-dc7a-5053-8798-d0978ac1411f		
+sample	PARLFB	Primary	C41.0 : Bones of skull and face and associated joints	1354	Tumor			f138faf2-8d53-5e88-a218-68ba8fc48fb1	37b865d5-d910-59f8-bbc4-f63c9f6d65fc		
+sample	PATKWC	Primary	C80 : UNKNOWN PRIMARY SITE	740	Tumor			f1dbc770-ccca-5163-a14c-fd02f90fe2b5	f86b3c2b-bc8b-5daa-a4d3-1fb3cb2638f1		
+sample	PASFGK	Primary	C80 : UNKNOWN PRIMARY SITE	3146	Tumor			f27a935a-66c8-5f1b-ab58-389d09964c02	3a4268c3-bb84-57ab-9fa2-c0a49b374abd		
+sample	PASVLS	Primary	C62.9 : Testis, NOS	5321	Tumor			f338c129-0e32-51a7-9cd9-5c890d82f97f	d1e10906-d2ea-563d-bd89-7f643dd1b762		
+sample	PARJIL	Primary	C62.9 : Testis, NOS	6956	Tumor			f3443671-7c3e-547a-af10-8148d516bfff	e9cbfb34-05b9-5392-9a65-47a5ca960ca8		
+sample	PATCNR	Metastatic	C76.4 : Hand, NOS	4120	Tumor			f58c80a8-a428-52ec-9a09-971c55ad8406	73dcba55-8155-599a-aa7d-0e1459dcb59a		
+sample	PAWHTR	Primary	C05.1 : Soft palate, NOS	2576	Tumor			f680fdd1-d2b3-509e-a406-e6513bc9e761	186c7e4f-a759-5615-8a39-67386fa6d6d7		
+sample	PASCRX	Primary	C62.9 : Testis, NOS	2941	Tumor			f6fe833a-8da4-5022-87f5-d53d040e15b4	ff5ea1a5-35b7-58d0-b5cb-7505c6cdafd6		
+sample	PAWWNV	Metastatic	C76.3 : Pelvis, NOS	3080	Tumor			f73895dd-8423-5151-ba68-7a1ef11eb411	d69459de-6634-5de5-ae86-4ddb3fc366f7		
+sample	PAUPVA	Primary	C62.9 : Testis, NOS	897	Tumor			f8749b66-9d28-578d-862c-3aae7f7e07fd	11470c82-c0d3-5ec7-918b-719defad624b		
+sample	PATMKF	Metastatic	C76.3 : Pelvis, NOS	1744	Tumor			f8b6c269-62d9-5b4d-acf0-e653b4cbe248	b214898d-ecd3-52c3-bfb6-00c9065641f4		
+sample	PAPXHD	Primary	C76.4 : Upper limb, NOS	5562	Tumor			f8bdd4cc-f5de-5196-a855-8787ee1d8303	6e2179ab-0a1f-5131-927a-dc7b54783b6c		
+sample	PASAYC	Primary	C62.9 : Testis, NOS	2726	Tumor			f96579e6-c87e-5937-b568-a1af355f03ad	cc4c369d-e11e-5d45-b7cf-ca5872b4baf7		
+sample	PASUVK	Primary	C76.2 : Abdomen, NOS	7	Tumor			f96c02fe-3c33-5941-8468-e7158bced1eb	f78568e5-f1c7-583e-937d-8f1d9180fd58		
+sample	PAUJIX	Primary	C11.9 : Nasopharynx, NOS	3047	Tumor			f98a5f5b-8173-5fd4-9e9d-d35bfc82f2b8	afee2f70-61a3-5254-8a98-bc7291cc4a3f		
+sample	PAMTCY	Primary	C11.9 : Nasopharynx, NOS	1441	Tumor			f9b639cf-a31b-5d75-90c8-61adbba69d76	00efdad2-d406-5dcf-b82d-6f6c3f67fd20		
+sample	PAUMHN	Primary	C62.9 : Testis, NOS	8913	Tumor			fa3fce2e-156a-5e65-9e0a-71a33fa62df2	97f32b23-2dc5-5eb4-b704-60d5eb505fd2		
+sample	PAWBTM	Primary	C55.9 : Uterus, NOS	5719	Tumor			fa7ada5a-e4e6-5c66-8418-9193099d4033	665cfc56-d5f3-546d-8478-3433bd42bb39		
+sample	PAUFIG	Primary	C80 : UNKNOWN PRIMARY SITE	1069	Tumor			fa8a5a0d-ca9e-51ba-a82a-59cfcea70f0e	49c94bea-59c8-5002-8290-76c2c040ff0b		
+sample	PASXRR	Primary	C62.9 : Testis, NOS	3259	Tumor			fa9a910c-3bc0-5fc8-afec-44197f6c7565	83331c54-0302-5d19-b1f8-21065b7d707b		
+sample	PAUSNP	Primary	C44.2 : External ear	667	Tumor			fa9c4afa-1cde-5856-b37a-09bc3c067480	47df71b8-f414-5127-9987-579016ec147b		
+sample	PAIZZZ	Primary	C69.6 : Orbit, NOS	4544	Tumor			fbb9f2ce-6450-565b-9cc2-dccb0f9d9138	58020a78-4fe7-5cf6-ab83-d67bfa31cd2f		
+sample	PARNVT	Primary	C62.9 : Testis, NOS	2993	Tumor			fbe6028c-8cb2-5532-bc97-1be2ffd76186	d80c7f3e-8901-5765-8070-6cd710e0985d		
+sample	PATWBI	Primary	C34.9 : Lung, NOS	1379	Tumor			fc9cb09b-bfea-5829-8cb0-4c457e55954b	048eb947-0333-5bb9-be81-d3cb37b568a8		
+sample	PAUVTZ	Metastatic	C76.5 : Lower limb, NOS	1682	Tumor			fd28ab3c-5831-5e16-a20a-b2d72cc22443	9f997e1c-1562-54f0-a220-376697b744fe		
+sample	PAUISA	Primary	C40.2 : Long bones of lower limb and associated joints	5982	Tumor			fe591244-1e0f-5170-ba89-fa28a83e4f0a	f7b711af-4427-598c-bd50-ca43f2ce260f		
+sample	PAMYPI	Primary	C52.9 : Vagina, NOS	653	Tumor			fe810e89-9496-5891-8972-f81285dbe474	c806d4e8-0286-566a-bf27-d7cdad0ca166		
+sample	PAUAKZ	Primary	C80 : UNKNOWN PRIMARY SITE	1149	Tumor			fea43fcb-a669-5394-8cbb-3e72b41fe75e	30ac13b6-befa-57ba-a299-9cbc7f527a7f		
+sample	PATAPN	Metastatic	C76.5 : Foot, NOS	3405	Tumor			fef480c9-2803-509a-a491-509e53c3eb4c	105dcf46-4ea0-5dc4-aeb7-140fc88d921f		
+sample	PASJIW	Primary	C69.9 : Eye, NOS	824	Tumor			ff87bf17-bc14-58dc-9817-e1ba25b00036	54101f4a-9ab3-50c3-9eb1-0f172c08bacc		
+sample	PAPXDL	Primary	C80 : UNKNOWN PRIMARY SITE	416	Tumor			ff8ecb88-9572-5169-bc3c-0228f00a6637	49c6ba70-5b8a-5529-9899-69b4c0d144e1		

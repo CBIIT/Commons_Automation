@@ -1,0 +1,70 @@
+type	participant_id	race	sex_at_birth	crdc_id	id	study.id
+participant	TARGET-52-PARGRN	White	Male		06e90517-a393-5f11-aeb5-9383dbfc1e32	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PAUHAZ	White	Female		0cca0c69-bc09-59ee-931a-645b077f118e	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PAJNFZ	Black or African American	Male		0f6c3200-d0b5-5424-b61f-c615c84c2604	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PAKLYZ	Unknown	Male		0fc0cce0-1058-5834-99a0-e407b5aa392a	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PATFZZ	Black or African American	Female		122d1610-3c71-5e51-82e7-b01494ace61a	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PAWFWK	White	Male		126b79e4-ddf5-5723-b7de-4b840c72ee9e	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PASGCL	Hispanic or Latino;White	Male		142268fa-b17f-568f-9151-a7fb148fe25e	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PASCDH	White	Male		1947c10b-9cf0-5950-b0f2-22d1df4132c4	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PARIRN	Unknown	Female		1a223632-352b-5490-966e-7061c921a33f	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PARZBI	White	Female		1bbb7505-73fe-5b0f-b7aa-a7946e932f12	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PASVDP	White	Female		2234be9a-1694-5d57-bab7-26eee0cba10c	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PAJNFP	White	Male		2cc82c51-b11c-5157-9650-7d075b6d229c	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PASWZZ	Unknown	Female		2ce13899-73ac-55f6-8cd9-3d3cce5f824d	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PAUFVP	Hispanic or Latino;White	Male		2d6db672-3aa7-558d-a8bb-4c0d1fdfee14	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PARPFY	White	Male		2f42f65b-a92c-52fa-87a4-baf6eb02ad9c	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PASAMZ	Hispanic or Latino;White	Female		37a1abd6-ad36-5e3f-829b-b98a74777daa	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PAWDGA	White	Male		38066d76-b3cf-55b0-869a-4804eecde256	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PADYCE	Black or African American	Male		489e72af-7306-5530-a330-6d8bf1db9779	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PAUGYZ	White	Female		4ae9bb0e-63d3-57ce-8352-781337894065	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PAUCGJ	White	Female		4b0365f3-15ea-5a65-9ea6-fd5ce53b1fbf	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PASABD	Hispanic or Latino;White	Female		4b4993d1-04be-598d-91f6-bb452ce3b21f	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PASXGF	Unknown	Male		50c6ab2a-7ac2-5568-9240-14f750a4772d	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PABKLN	White	Male		59df7c0b-6ce0-5b97-9342-5b64615d5c22	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PATENH	White	Female		59e48854-df5e-558b-aad8-eb403d388dee	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PASZYE	White	Male		5b5dd619-c497-5328-b0fa-23652e0592f1	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PAVDPR	White	Male		5b8d48ef-6aa4-517c-be5d-272d945ce314	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PATXKA	Black or African American	Female		5df64b37-25e8-513f-a9c2-525a0ce2fff3	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PAJLWM	White	Male		5e7fea30-1d3c-541f-bffe-f2ea2f919088	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PARECB	Unknown	Female		5ef0c931-b583-58a9-a032-4322aacfd162	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PAKTCT	White	Male		63d9089d-d248-55a4-bbea-d9649dc7df12	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PATAFT	White	Female		67734cc2-1fe8-52e7-ba0c-56685524969f	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PARTKH	Hispanic or Latino;White	Male		680e04c4-b3aa-5ec9-86a1-08193973073a	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PARKKN	Black or African American	Female		6ec929c3-be4a-5e83-8c79-563e634a5fe2	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PAEHIP	Unknown	Male		7a78fd7a-b74b-579f-a8af-c31c22a70b98	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PAKPEW	White	Male		7ce14858-d215-53fb-9034-f0d84e3e58bd	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PAVVIT	Hispanic or Latino;White	Male		7f7c67a5-894d-513b-805b-88e83576a1d2	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PATFXW	White	Male		8099c0ab-dd65-5cfd-a88c-b0cc2d47e50c	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PASYNF	White	Male		815d84c4-40b8-5721-ae53-7f5710ab5d85	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PASRHU	White	Male		83b239d5-0e30-559b-bcff-e46352c77af9	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PAUEKW	Unknown	Female		84cac6e8-43b6-5187-b723-e688b9cfd658	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PASILR	White	Female		8c1c5406-6342-57c8-b1a6-b9924906c8fc	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PASADZ	Black or African American	Female		974f4880-233b-5e6f-a281-ccf92e1be9a2	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PAVYKD	Unknown	Female		991cb57c-33c3-5f9f-b118-7e1b623aed82	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PATXEE	White	Female		99f2b102-52a4-519e-b394-f22edee875b0	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PADWRZ	White	Female		9ac62b74-eb21-52b9-80b5-7d1a766ea0ca	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PAVYDM	Unknown	Female		9bfa2c09-151e-5b9c-8097-5b7e75025913	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PASXNA	White	Male		a90fc7c2-89db-58de-8dd9-de52d81b7f53	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PASNED	White	Female		aa55dfbb-bc1e-5f75-8806-e5d60bc492c3	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PAJMBW	White	Male		ae1187e0-eeb1-59d1-a9c8-79c7afc0e977	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PAREWI	White	Female		b2327827-7de7-56e8-888c-5d7f2263a4da	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PAJLRA	White	Female		b72a32c4-6e50-5f8f-a47d-25c6f6c8a1b2	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PARZRH	White	Male		be9e1865-3131-57d6-8345-0efaa5e1dbcc	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PATYUA	White	Male		c134033d-75a7-52c5-8073-38f1078f0cbe	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PAWFBL	White	Male		c21af644-a32d-5fe7-9e33-afc307aaaa93	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PATBLF	White	Female		c77bf492-44a7-56c8-b718-04dd1cd5a7ad	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PATDVL	Black or African American	Male		c7de7326-94ff-5b1c-8a91-ccfbcd1b40c9	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PARUGK	Hispanic or Latino;White	Male		d4e769ae-3e4f-508c-b5d9-593d217db083	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PAVCKS	White	Male		db2e668f-9f1c-5d59-be50-4e379cfe9b20	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PAJPHJ	Black or African American	Female		e194438c-488c-51e9-860e-bf80ede18d51	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PASGGN	White	Male		e36ba9cc-371d-5cf6-afe1-f3afb343fbc9	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PASDLA	Hispanic or Latino;White	Female		e40ca62c-14df-539c-9641-76e2dd8d5a58	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PAKHTL	White	Male		e7218d03-0d55-56c9-9d86-e8c1f544a998	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PAVITI	Hispanic or Latino;White	Female		e98ca8e7-b75d-555d-a0e2-f8d7034a3966	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PADYZI	Hispanic or Latino	Male		ed5cdc1d-1c82-5e38-989a-fce3b29bd593	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PARRCL	Hispanic or Latino;White	Female		eda95734-b5ae-5839-a3d2-86c264c6be1f	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PAJNER	White	Female		f0c89ceb-41b9-51e2-a577-d0073f189c73	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PAUDPV	White	Female		f544030e-edeb-5d16-9fee-853c05cf155c	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PAJMRB	Unknown	Female		faed811f-0017-5306-aa1b-86885ecbe638	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+participant	TARGET-52-PAUNPA	White	Male		fb31316c-d0da-502e-ba70-7e4e6f59de76	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3

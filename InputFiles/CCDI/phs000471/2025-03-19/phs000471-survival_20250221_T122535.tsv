@@ -1,0 +1,655 @@
+type	survival_id	last_known_survival_status	age_at_last_known_survival_status	first_event	event_free_survival_status	age_at_event_free_survival_status	follow_up_category	follow_up_other	adverse_event	comorbidity	comorbidity_method_of_diagnosis	risk_factor	cause_of_death	id	participant.id
+survival	surv_530	Alive	3305											003746f1-56cc-5d0f-ae94-e2c3671b3160	53f2a56d-4a3e-599c-a94a-bbede923c104
+survival	surv_226	Alive	4967											00c3b21f-fdec-5f68-beca-b15d056e1c15	78705658-c911-54df-bf63-1a3faa717348
+survival	surv_278	Alive	4688											013771f0-5bff-5572-a5d2-bbc8e03ba6da	4ac04dee-9337-5ba1-b26f-5cb9dbcef527
+survival	surv_173	Alive	4230											015c2691-99a6-5627-b8c7-024c307ebb04	d1368632-738e-5955-b927-62a5303ef2c2
+survival	surv_47	Alive	3730											01947279-7a34-555e-80f4-34d6527f8a1a	94e3e116-ced8-50d9-81b9-52a61811ddb6
+survival	surv_380	Alive	1575											02034fc7-7ba6-53f4-81f6-0b13eb924674	4892a6e0-b337-5fe5-967c-8d011d10d5e5
+survival	surv_145	Alive	4330											027ebabe-fff7-5d4d-9793-16e45b6ca0d2	f8179b69-59c1-5c69-afbb-3ffb0a12a0b6
+survival	surv_433	Alive	702											02dbf87c-8f1a-56da-bff6-dfa451ec1b8d	a1a7efb8-5ab5-52fe-ba6b-0f4bd72dcb07
+survival	surv_651	Alive	3449											02f72380-f3ca-551c-bba2-76936a4828c6	e33a8fe6-c9b7-54fd-9343-c2cc70031af7
+survival	surv_465	Alive	6235											04343610-5d1e-5f84-b3f0-51c626f9fa89	b07c074c-a0ee-5b59-9b10-4277b850c750
+survival	surv_323	Alive	2486											0443413b-98ed-53b1-af5f-c4675c43e175	a724b027-53a4-537d-b0d7-e24e524e6f22
+survival	surv_276	Alive	2169											0471d2e2-d4a6-57fa-b5a3-6a4a62f16a50	9075781f-6802-57ad-be41-ede25df05d5e
+survival	surv_243	Alive	4631											04c0abfa-7cd9-5e84-9a00-417eef94ff90	6787eb5b-21ad-5af4-bbe9-fca69f5199c5
+survival	surv_369	Alive	3788	Relapse										0504e151-67c7-5c4e-8d56-648179feefa3	29e38719-ee2b-54ea-a95b-5efb8970fec0
+survival	surv_520	Alive	3288											053e6a4d-3a7c-5bf8-953a-23ce5869d1a4	edfe36fe-42a4-53c3-a392-b278c2e8792b
+survival	surv_509	Alive	5770											0580ddd4-b442-5b27-beaa-1d3ad57e1b4d	0592d80a-b92f-52c9-9e51-93b3960d0f9a
+survival	surv_25	Alive	5878	Relapse										0596c430-0a0e-58d3-8862-bbe950c2deb5	e89d21a9-7540-5d44-bae8-6d5eb4f3f6a0
+survival	surv_619	Alive	4207											059a08d2-427a-5d76-a623-ffccfdc5a2e2	c39bfcf0-8fd1-5b16-a01b-8ec4eaca26f2
+survival	surv_587	Alive	3661											05aa7117-8204-55a9-b0b0-8f957889cd00	b095b711-5f99-5d8b-b666-dbfd2b0e158e
+survival	surv_608	Dead	2504	Relapse									Due to this disease	060d85df-7c2d-5b22-b212-bd0d261929a0	6fcc3f7b-06fe-5b4f-88ad-93fade338fb5
+survival	surv_258	Alive	5807											0672f239-7e6b-582d-8f2b-1f1d157ad74e	4a6b3143-6fad-5890-9821-4f5f07d8b164
+survival	surv_237	Alive	1789											06d634a6-2263-5db1-a113-58d2bedd7686	696e80c9-c86a-580f-bda4-8ca595c8875a
+survival	surv_147	Alive	6348											072f3de1-6cc1-5bcb-996a-59f53d52bcc5	8d2a45ae-6705-5364-b953-9e45c3f8fbfc
+survival	surv_360	Alive	5585											07545cd8-742d-53c7-b33c-0e95214e8b6f	eb5025f5-0b79-51d4-9817-db3a6faffad3
+survival	surv_170	Alive	3715	Relapse										07b20e80-1f4f-5fef-8471-9415d066be6b	f3b6cf21-2a6b-5281-b88c-ec76573a094e
+survival	surv_460	Alive	4678											081443c0-362f-5e3d-99e9-3638d7ce30f6	688f2b15-0abf-589f-8817-3dfea44ad5b3
+survival	surv_114	Alive	1828	Relapse										08172b7d-34d9-51a8-bab0-2a1cca61019d	57326ab7-9e1d-5d2d-846b-24202dbd69ac
+survival	surv_84	Alive	4823	Relapse										08360f4c-4076-50a2-8bd8-0b70b51798d6	ad023ed6-0479-576f-a9cb-c4476e1ae974
+survival	surv_613	Alive	2275											0933990f-1e7e-5db9-b057-8a88ba4d3309	144a4047-dc3c-5eb1-86e4-3526d38cf504
+survival	surv_160	Alive	1624											0966ab3a-f8db-5f8d-b8a7-f7e1820671bb	6ea46194-b4bf-57f1-a420-914adaa118c2
+survival	surv_215	Alive	2076											098676ca-9131-5c59-9031-fad8213b6fb5	dc1ea0b5-f41b-59f9-ad62-970ee1d256ec
+survival	surv_18	Alive	5770											0a4bfdcf-d1b4-51ed-b481-57f484d355f0	1fe8d572-3c93-58f3-9cd5-5b72527933d1
+survival	surv_166	Dead	3225	Relapse									Due to this disease	0a619576-6d38-54c8-b303-62b79842dc4a	b191645a-0f05-5c18-ab9a-21ad39f88649
+survival	surv_154	Alive	4248	Relapse										0b9709d7-3ba1-582b-8594-d5f0cae7b387	a2e31c77-2ad3-581c-abc7-e95bce5c96f7
+survival	surv_479	Alive	2233											0c9564ff-0e03-581c-8bcd-bb0dc17ddc87	16c28d4f-f5ce-54d7-a0b1-eba5c95b148a
+survival	surv_54	Alive	4160	Relapse										0cb6d392-23e3-55cb-939f-0248f9a8bc59	50fcfb83-d9b8-5036-bc7f-b5dcc81bfdf0
+survival	surv_461	Alive	3496											0cd5f92d-9e97-582a-acbf-bbf495167a2a	6dad9f1a-31b4-5e1d-b584-246dc2a990e1
+survival	surv_570	Alive	2038											0d2844bd-a229-5258-bceb-df903fc1a6ad	5e1e8a21-52e1-5b1f-b9bf-7e071b2bf095
+survival	surv_449	Dead	1742	Relapse									Due to this disease	0e0496fe-b210-56ad-9862-6f0f49df1c4a	4c0d9a4d-af60-5c8c-a9c3-d33bae23300f
+survival	surv_344	Alive	3734											0e17fa82-41e6-57f1-a26a-dea1d28824af	8a6a1a3e-d9e2-5301-bf9b-62a551103027
+survival	surv_251	Alive	3164											0e52cf20-7c1c-5739-b5f0-a1c952f50565	42b7efbe-aa1a-50ae-8246-a1bfcb211439
+survival	surv_129	Alive	5158											0e712547-f05d-5e6c-8b6c-7a05899bae0c	a2330347-0689-539c-a252-78b93ad5dd9f
+survival	surv_65	Dead	1720	Relapse									Due to protocol treatment	0eaf151d-d1ae-5b74-8100-ebd5cb120dfb	913732e0-93a6-5918-90a6-a9ac6d3afcb5
+survival	surv_480	Alive	4637	Relapse										0ecca8f9-5dd1-5624-a500-eba8872eafb2	d4928d8a-f574-5ea2-b3fd-a5efdbcc5f63
+survival	surv_633	Alive	3264											0f11a9a4-7d2f-53d3-a723-f4cad7d6ecd6	108c603f-3955-5d2f-80bd-13943c9b5e70
+survival	surv_551	Alive	6916											0fc4d3fc-5d72-5c0c-829a-8d944d215e99	ad0c1936-4778-52e3-8f1a-02f9d52e4af2
+survival	surv_590	Alive	3264											10480df9-a4ec-582f-bdd1-6c288e78cb27	388fd4f2-260a-5697-9174-0b5a28963cc6
+survival	surv_50	Dead	2354	Relapse									Due to this disease	12c48348-020f-5f64-b19e-3213b89bd469	1ce2736f-49a8-5289-98aa-40cec6ef60d9
+survival	surv_26	Alive	4256	Relapse										12dfe64e-c683-5330-a468-6c462e72c20b	7f420a3c-cf3c-58c2-a833-85e3731b3783
+survival	surv_325	Alive	5186											130f777e-78c0-5fa0-9fde-63d0a655df57	1ffaca52-2763-56b1-821f-334c048c4237
+survival	surv_58	Alive	8783	Relapse										13208d7d-a97b-584b-a259-74c5cba492c7	5dc89276-7f68-5e85-b064-4e65761c939c
+survival	surv_567	Alive	5557											13813869-3236-5c28-9698-95d306efd4b3	18ac4749-973f-5055-a820-e97f6ccc0ea9
+survival	surv_144	Alive	5149											13de1c25-3877-5a1b-b4cd-2158f182cf62	dfbed8c7-b7c3-5bce-a60d-eddd3a974ea7
+survival	surv_641	Alive	3026											13ff1e4f-9a96-59ab-bf99-69ce49299786	c952540b-cc5a-500c-83d4-c38af991e59a
+survival	surv_578	Alive	4480											144d57ec-dca4-56a8-90c7-b4d2de15afc5	d98f2292-087b-567c-b966-a9146bf75813
+survival	surv_493	Alive	2199											14850e00-5b8a-5943-89e0-ea0dc2234dc3	418de65f-c402-559c-8aa5-46e8a4332c72
+survival	surv_514	Dead	3494	Relapse									Due to this disease	151c9a9c-443f-5daa-9686-9360cf21b101	cbd74f9f-0ba9-5971-a221-18f904552886
+survival	surv_77	Alive	4875											156c391b-82ed-5ebe-a815-d61a3fcc5947	373d9a42-ed00-5654-8c60-00165493753a
+survival	surv_208	Alive	3655											15832e2f-454d-54f9-8074-63ea465b1c7a	a1dd15e1-4710-58b0-b513-6b9a6a998111
+survival	surv_69	Dead	1792	Relapse									Due to this disease	16faf60d-8a30-5a3f-ac49-6fb50f83b768	eeaede56-f87c-523f-a431-2856de373bcd
+survival	surv_382	Alive	1919											1827bb30-1171-5a16-8f9c-f714d44e1cc1	53b62d62-a2ee-5c09-9211-b07965092793
+survival	surv_403	Alive	4536											18cac3ae-3d6b-5d66-baf3-cecac1a59afd	b2021075-ea93-5f1d-b572-55ebe5063616
+survival	surv_591	Alive	2158											191168b3-bc6e-5f0e-9932-5413b751b7c2	86ec3bad-37f8-51b8-a837-6b25e81ebeb6
+survival	surv_412	Alive	3478											1946c66d-cf0d-50bd-8707-82230ac3d69e	c30a9f1b-e0b2-5975-ac2e-54283b220f35
+survival	surv_490	Alive	1290											196e252d-b351-5f1a-b00e-5cde394c9e6e	e437441a-78bd-58ab-8961-3ccf974aadff
+survival	surv_20	Alive	4836	Relapse										19c6526f-e825-5e00-9f10-49a88673bfa2	c000ce2c-6ba8-55f6-9b49-d2c9ca14732a
+survival	surv_277	Alive	4400	Relapse										1b0e15d6-e7cf-548d-abcd-a94ca215b1f5	f38f531f-f808-5a33-b961-f16b63043f81
+survival	surv_111	Alive	5119											1b35edc3-76a0-540c-a505-b2f58c200c38	021a6e93-a49b-5d95-a5b0-13272e68c4a8
+survival	surv_583	Alive	3324											1b5a3649-b1f9-56ba-bb9c-09684dd89b32	2778c464-74b5-5e51-8439-a6f71caa5213
+survival	surv_265	Alive	5937	Relapse										1bcbbbaf-e00f-59c0-876a-73ab9b800b9f	1fd47e05-1d35-541f-85c3-832441f194ab
+survival	surv_499	Alive	4120											1bf3a2ab-37ce-5131-8e85-ff324df81414	5bac8027-257b-53d7-a67e-5d6b0dacd463
+survival	surv_252	Alive	5676											1c0debb3-16a7-5850-9120-1ded615fee7e	51903842-0ad7-5f2a-bd13-d4f74415c7cb
+survival	surv_432	Alive	2873											1c99c6fb-227f-5fc2-8729-b2554890ef03	b37dcbb8-2f57-544f-9d23-0065ff21460c
+survival	surv_303	Alive	4532											1cb85660-1e7f-580e-99a6-130fd19cf08a	e19680a8-346b-54ef-b35c-896b861036fd
+survival	surv_565	Alive	3467											1d33286a-4584-55b7-860c-2aa9cdc0ed40	a05ad81b-8827-5bc8-bbd0-e66791328f99
+survival	surv_515	Alive	4936											1d94311a-1e20-576b-a5a6-6ca5cde8b814	71b30802-1223-5c30-ba0a-d8eac5b02e63
+survival	surv_446	Alive	3957											1e438273-63e8-5ab7-83a2-3b47f8ad46e0	c16bc765-b5bb-5a50-a10f-6cb5f01ae55e
+survival	surv_236	Alive	2114	Relapse										1e748a1e-3c27-5e57-9ed2-fe1e9fdf802e	1472eb62-bb52-5161-a254-366e7cb5a92d
+survival	surv_459	Alive	3617											1ebfa020-9387-5546-8555-25aa85797156	5ff040d8-99c4-5081-acc7-4f46fffdab46
+survival	surv_484	Alive	3962											1ed86e87-3314-5829-9fb2-373bed8ae23e	5343a41a-2cec-5d35-9637-343de5281c00
+survival	surv_17	Dead	1089	Relapse									Due to other cause	1f148941-0340-51f9-98d1-7a23336d23d4	ded85549-e23f-5eaa-b662-9222cfc50f17
+survival	surv_610	Alive	4106											1f46d0aa-86b6-5153-b0e4-764945d948e5	71c273fa-d5c5-55ee-a2ea-e3ca036b1fb6
+survival	surv_246	Alive	1991											1f605500-954e-5421-b3c3-c0730a065bda	81aebf32-01e3-5c99-9183-f03842562bfe
+survival	surv_309	Alive	4933											20deb663-7e8c-5d30-a9cd-34bc44d58a8e	8e0d2e0a-2455-5d02-9589-89266f69afa3
+survival	surv_311	Alive	5476											213001c2-0804-5319-9a7c-dbc7522ce900	4d1c2152-12ab-522a-a032-c8631501619b
+survival	surv_409	Alive	980											217421d9-482f-5586-a002-4c9e0836950a	521576c6-3445-56fe-8c70-69fb5c53fa0f
+survival	surv_101	Alive	3192	Relapse										218a1beb-a8b8-5986-aab0-71dcd8428231	5778f919-844e-5f05-bf55-0a3ceb5c1c32
+survival	surv_177	Alive	5746											21c3e103-d53e-5ed7-b42f-4fdbe3405174	3b2065cc-0aff-5f20-98b4-e262967af4b3
+survival	surv_222	Alive	3774	Relapse										21faa56e-0c70-5abd-b70e-ea5da90cfc34	bebd5ba2-224a-56d2-bbdc-18c4c7b3b9f5
+survival	surv_464	Alive	2962											222a2924-cc08-5061-b4e7-e831d5851477	eae195e8-d050-5cc1-be86-b8cc32538a51
+survival	surv_122	Dead	1601	Relapse									Due to this disease	224c4d00-0415-5d4f-9a70-616d36030153	cb9bd975-5358-5113-85f7-0554d4c03621
+survival	surv_39	Alive	2282											226057f3-a918-5bb9-8573-4e81753cf387	f9ec3ec8-be3b-5620-85e2-014075f64ae3
+survival	surv_648	Alive	1403											227c738a-8434-5427-9196-1e09ed645d31	4f75f73e-651b-5b94-a92c-a59cad8e38f3
+survival	surv_279	Dead	585	Relapse									Due to this disease	2318c61c-0461-5079-841e-3ec0d89a4adc	0e84fd5e-cb70-55bf-99e3-66bdddedb8c6
+survival	surv_415	Alive	3576											23197ac3-aa29-5816-92e8-25ae39b96875	ae206cd4-bf82-5b39-a77f-f43b713484df
+survival	surv_427	Alive	2111											237100c2-c9e4-581b-b3cf-0ca66e30b5e2	28229df4-5fba-5564-909f-2c8d2196b2bf
+survival	surv_282	Alive	4675											237594fa-6e66-5758-9ea3-49c97857e95b	e8c017f8-5dde-5db9-a8fc-edac00822756
+survival	surv_140	Dead	2821	Relapse									Due to this disease	23ccfcb0-5671-58a9-9d39-8aad7adebcfd	d2cb840a-e25e-5394-a0c9-f8039eb23976
+survival	surv_142	Alive	2558											24717612-0350-5d54-ae09-3761d9f433bd	fc99f7a7-5fc2-590c-bb39-c21073a0de4a
+survival	surv_159	Alive	5481											261dfbf0-1dc8-5efe-be5b-8faffbca8046	279a8334-eede-5c8b-9d58-c644e89e7deb
+survival	surv_455	Alive	3095											2622b369-08d0-5ffa-a0f0-970a37b3463f	ed869a84-de03-5f6d-93f5-d4e54f6542ad
+survival	surv_398	Alive	3735											266d9b78-0551-5ab0-82a2-5c83ca663ffe	ac85e121-bb7c-5551-a0f6-d327e68f049e
+survival	surv_566	Alive	4604											27801e91-b673-5e55-b161-7f3c01ba53de	098d3275-13ad-5ce3-9779-864ba318a1c0
+survival	surv_308	Dead	2422	Relapse									Due to other cause	28e774e1-fd2a-5024-8425-3c9621f9889a	b7eb0f0f-9832-5648-872f-5ed8ee9e6e8c
+survival	surv_48	Dead	3749	Relapse									Due to this disease	29307ff5-78b7-5ec2-ae25-023a0c724e1d	7687f0b1-a6a2-5cce-be5c-b0afaf007bfa
+survival	surv_238	Alive	5596											29c2331b-db07-5466-8eff-66edc9ee2672	3cf3141f-00b4-5d36-b281-d3344a37b139
+survival	surv_64	Alive	2150	Relapse										2a0503d4-3e25-5085-a154-f3f2f27eef71	c7729b25-c128-56df-a867-a0e5dc9267e9
+survival	surv_592	Alive	3962											2a32949e-59ae-58b5-b2d0-8fa66de8a735	1858e25e-0386-5b35-87b9-ca176128486d
+survival	surv_546	Alive	3965	Relapse										2a404d79-76d5-5486-b07d-061acaba5c46	3631aa7f-41d0-53da-80dc-8d7cd176a5a7
+survival	surv_234	Alive	5227											2ac3b9bc-0e2c-537a-aa71-26b9d6899ceb	8178d2df-3330-5973-a45a-143613cf560d
+survival	surv_45	Alive	4376	Relapse										2b1a8554-26d0-51fb-a1da-1881447582c5	93d8d85e-e49d-5f7f-be95-96a6ae2cf643
+survival	surv_30	Dead	3240	Relapse									Due to this disease	2b273cc1-ad05-54f9-bf35-d331b6027a3f	dec4c941-79cd-5186-ab6a-cfc2090ccd66
+survival	surv_241	Alive	2118											2b3b22b0-e2b7-5b3c-a5a2-28366b1c953f	794b2dae-f560-5e97-bd28-1e30657a7ad4
+survival	surv_654	Alive	1799											2c01b21e-4d17-5446-911c-5facf620e761	07a93433-03cc-58bb-99ac-08ab029831f5
+survival	surv_91	Alive	2772	Relapse										2c3bcdf0-4984-513f-9aec-2fb2497c94a2	72827fc7-587c-5ac8-bb26-857e5bcbabf0
+survival	surv_98	Dead	2257	Relapse									Due to this disease	2c840b7f-eba4-5045-93a7-1e19778ce473	d3ce4f1b-ea15-5ec4-b650-02903c0e6c16
+survival	surv_518	Alive	2177											2d7c988b-1246-5deb-94ab-d93ac05e61a8	1a47afbe-ac94-581d-afb5-bd9414781d1a
+survival	surv_210	Alive	4579											2d94e460-4d54-53f8-9395-ecbdf98d501c	872d1f52-812a-57da-9cfc-c54dd788eeb1
+survival	surv_9	Alive	3485											2dbec517-4d74-527f-8bb4-7201a68556bb	fbb46911-e3ef-5c68-9242-861e472a30f6
+survival	surv_537	Alive	4185	Relapse										2dca0ce3-9f72-539a-8b7d-f5631c05e5a5	5b80773f-1dee-5634-9ca7-1926cfe46ede
+survival	surv_255	Dead	1775	Relapse									Due to this disease	2dcfb297-8c47-59e6-93b8-394469f47eae	c5c94587-1049-5c8f-8a03-2b982bd71289
+survival	surv_572	Alive	1400											2df7f43d-27da-592f-86c6-203bff3cef1f	2f1e3da4-a280-5400-8366-be4cf57490c4
+survival	surv_586	Alive	4427											2ed3bee0-c448-5a83-9394-f4d0544b6a99	9d9bec2d-4d0b-5207-933e-6992bdbaf173
+survival	surv_295	Alive	6530											2f1482fe-06d4-5ab5-8bf8-58a2d3446ed4	eac692f3-1bbe-59bf-8b81-000ca0bf5107
+survival	surv_8	Dead	1998	Relapse									Due to this disease	301ebd1d-9f4c-5118-b47a-b350d22e23f6	31c1f3b9-596f-561b-ae84-597d028a78fc
+survival	surv_293	Alive	4274											306e6839-8bc5-5444-ac9c-d8e698e8feef	0c25b295-d2cb-59cf-bf10-720537dbc92b
+survival	surv_424	Alive	4038											309e906c-96d4-5c4b-bdb5-b3ee53329426	915078b7-79c2-56de-8561-450ac76bb324
+survival	surv_471	Alive	3859											30b58f4d-3798-5a75-94f2-d13887a22052	97f28f25-98cb-5368-a407-c1105d5e9278
+survival	surv_247	Alive	5606											3156b6a4-d443-52cf-95cb-47681b760796	c5bba855-60cd-5487-b580-581542a4adbe
+survival	surv_41	Dead	1682	Relapse									Due to this disease	31bfa167-d10b-50c2-83d6-4835a8a30de3	234bb39d-3279-57ec-849d-3d0aad077ca1
+survival	surv_132	Dead	2925	Relapse									Due to other cause	3322ec7b-a404-5994-b32a-010c5cbede14	24773d8b-7e48-5cdb-be59-a5de4d559426
+survival	surv_497	Alive	6448											33514e8a-e385-5a88-bd2a-528d087c1bc5	94b238d8-9bc9-5ba8-91c2-c55c48025101
+survival	surv_594	Alive	2945											3352f3dc-44b1-53e5-9eeb-2923a27afd9f	0832f547-8781-50dc-9a8f-a4fa4d454293
+survival	surv_438	Alive	2986											336d6fda-3461-5fa0-82c8-29ea749637fa	645eea58-0144-5542-8a78-660ace2207db
+survival	surv_476	Alive	3876	Relapse										33d51e02-9bb2-56c1-819a-0ecf81eff56a	7b283bc1-970c-5724-8529-4f5290e364fe
+survival	surv_470	Alive	2841											3409f438-4c6a-58e9-927a-abf46fb5c70d	762e7271-10e6-50de-84ec-4a6e282a0249
+survival	surv_463	Alive	4298											3584881d-4d98-5a3f-ae00-dc038f665be1	9ea8a2c8-f56b-5f64-918d-a7ecfaa00927
+survival	surv_55	Alive	5308	Relapse										35b15dbe-293f-5d04-bc85-64242d876096	ccce78b7-42ac-54e8-a461-8a3e2daad6bf
+survival	surv_138	Alive	1855											3600c1fc-ba74-50e0-8cd3-4346e60fe8f5	ce94ab24-9b1e-58e9-a160-28ba09c46053
+survival	surv_422	Alive	3169											36697af3-699f-5f33-bb63-dcd96f81bb67	98692db4-b3bb-5f5e-aabb-63cde826d1f6
+survival	surv_108	Dead	3139	Progression									Due to this disease	36880e5b-6a19-5431-ab85-9dbc44c40c25	77d34f74-1524-52e2-88b4-e02dbea52230
+survival	surv_347	Alive	4151											36aeeebe-57fc-5f61-9a58-167328277e47	867e6380-62ba-5cf7-8805-7c14928c365b
+survival	surv_621	Alive	2533											36b83404-1973-5254-8caa-9b82494b6aaa	75341f6c-df34-5f7a-a6cd-4e367f5543e7
+survival	surv_274	Alive	4436	Relapse										3702bfab-8749-5343-8fd5-be74a120db89	bf2c4774-627c-5801-9461-bc8e427c8004
+survival	surv_364	Dead	2097	Relapse									Due to this disease	37039352-66b3-53e3-85ed-10ad71ea5a81	1768f52f-c91c-5e10-b542-edc5e8993e64
+survival	surv_414	Alive	2305											3719c820-2ddd-5388-90cf-78ff4ab7ddb4	65b935d8-0daf-5959-9997-a36f7320c865
+survival	surv_335	Alive	1701											37763916-8387-5021-97b3-65a792633677	b7feab63-8103-58fa-bf2e-1f6fc30445b2
+survival	surv_330	Alive	3320											37f5f84a-84b7-59fe-913d-d484f32558c9	008b12d0-e1ce-511a-840f-17d13924b2ca
+survival	surv_375	Alive	2550	Relapse										3851fde7-9423-5fad-b8ad-1f2931f3c523	73b08833-5904-5ad4-b06d-d370d45afa58
+survival	surv_428	Alive	3415											385267f4-cd1f-5bb2-b2be-29f18db5e057	d8f0c6ce-0a14-5a70-9436-ffd0e6fad0c7
+survival	surv_262	Alive	4603	Relapse										38bb0187-5a95-58d4-ad85-7b97345ea083	f31a824a-8ba2-56ab-9b68-4ce16f5bf2b3
+survival	surv_526	Alive	2798											38c1b586-77d4-5fff-8017-56bee5f09ec1	66d80a59-c5bc-5de8-a0a6-5dfbead7fd3c
+survival	surv_502	Alive	2749											38cd31c1-0e1a-5cc3-be56-3b4298ce254a	c79b3643-c1d4-503c-a517-df2dad93b66b
+survival	surv_76	Alive	3739	Relapse										39711b57-0049-53e0-8abd-df2c47d8e926	a529663e-9ee9-5b20-95de-176ea116c3dd
+survival	surv_126	Dead	2387	Relapse									Due to this disease	39726e35-18ce-539d-adc7-5c02576ccb65	5eab2cfa-d9c7-5ea6-abfd-46f738d28a1b
+survival	surv_312	Alive	4382											39e74984-9e29-5a54-9609-1ee74644f185	c8d34d44-9538-5988-9f02-606062335315
+survival	surv_478	Alive	2013											3a336e5e-ec2b-51f5-8a1f-8fce80f8623e	4f25da16-f0e7-5f9a-bc8f-6f99dc9784b9
+survival	surv_280	Alive	3039											3a898671-2977-59fe-b1eb-6a27509c1a74	25d208d1-c713-51f6-a564-0b37edc08e39
+survival	surv_141	Alive	6188											3b5098eb-6402-50f6-89c8-d69724a1c69b	8bc31378-540c-563a-a926-ff46c1d0afaa
+survival	surv_156	Alive	6599	Relapse										3bd9f2a4-3a33-58e0-b129-2c5a9e5aa18f	aa5460e7-8438-5b82-8ba7-5bb3ddc951be
+survival	surv_373	Alive	5658											3ce09122-cf30-5d97-8c28-1c3a2cf13592	bc37b782-1858-552b-8413-28b5978959b0
+survival	surv_636	Dead	1786	Relapse									Due to this disease	3d152b77-21e4-50cd-8b44-f407b5c0da40	00e978d8-2f43-5a06-ae10-1a4c4a58f2e3
+survival	surv_638	Alive	4410											3dc82607-a158-5c33-b065-7588cd86d21a	946cd477-113d-5ba3-900d-daa96d5f2125
+survival	surv_507	Alive	1848											3dfcc5ab-38ed-551c-9db3-9c5fc7a1c411	6dac4a10-c17f-56ab-9457-15eb7c92a969
+survival	surv_202	Alive	5411											3e40a91b-4678-54d2-9572-da64acda2743	fda41649-bb8b-578d-aeb2-6260d89b1e3c
+survival	surv_602	Alive	3752											3ebcb285-7344-5bb4-b194-0cfe23538926	18501b47-f6ef-5535-811d-2e440c196b23
+survival	surv_321	Alive	5118											3eda09cb-53c8-579a-a0f2-3a662934d37f	15ae6ad0-3736-544d-bfbc-9e328c709770
+survival	surv_302	Alive	3915	Relapse										3f0d27d1-eb11-56c2-967b-0c69f183b243	90f8563c-af7a-5aa6-b4d6-b4cf0de3aa5d
+survival	surv_634	Alive	2138											3f9824ab-d274-54d5-9d6a-f190ea133aa9	551f84c9-2300-5dfb-9364-199f51ed8460
+survival	surv_506	Alive	5133											4015071b-badd-5232-9b92-0380efaa7374	3319fc9d-63ce-579f-b16b-74170ce15d9a
+survival	surv_469	Alive	5481											40851781-a48c-5661-9407-149d5cce8aa0	e9ab3815-907a-5c49-91f0-96765ba28714
+survival	surv_34	Dead	2668	Progression									Due to this disease	40cd2d4c-1544-5956-9fee-bc00a9aeb3ce	bbd3bd37-198c-5654-a4bc-ffc4550e689c
+survival	surv_579	Alive	3481											41f2d355-c2c9-573b-adea-2b912c9f9f2d	47aa6272-d362-5171-851c-d9a448fe028b
+survival	surv_650	Alive	2531											42a5c92a-c70c-5d71-a6c2-ad91b0065a33	e54e1601-fc86-5b80-ba82-0023ac1462d5
+survival	surv_19	Alive	5394											42d6f64f-89c3-515c-a182-c7f237ba5999	7e9d512b-da6e-51f6-b92f-66a313217f4c
+survival	surv_426	Alive	3831											42d7236b-3387-5e65-b5d3-27f04c9f0845	e6896dac-69da-5f71-912c-c4b6095d3b9f
+survival	surv_44	Dead	2209	Relapse									Due to this disease	42efe53e-3c4f-5b55-8303-5c8506ca70c5	defd3fb4-fe1d-5870-b567-e8f1eee74435
+survival	surv_604	Alive	3041											432d8f0f-6d28-55eb-9a31-7ed30d81fec4	b63ae76f-9c2c-5964-9b1f-b6659bb93ac2
+survival	surv_395	Alive	4527	Relapse										434d84fc-ae67-5548-9e7f-7498139467dd	157810c9-9069-56c2-9b29-05609de58934
+survival	surv_207	Dead	1846	Relapse									Due to this disease	43c90da6-e090-5686-8e9e-4da6f2d52a37	370989c0-a47f-5f14-a4cb-2f703e0c3ebb
+survival	surv_560	Alive	5107											44073654-6b39-5800-b3e7-b5860a6d8a30	00ec9308-1806-5bb7-a075-cf4650a272f4
+survival	surv_316	Alive	4348											44d61ee1-2827-5c50-b15e-10e93f27625f	7fac6ed7-242a-5322-a528-b985a5b1de63
+survival	surv_541	Alive	4313											4509f5f5-b615-56a7-99bd-40a83757982d	4f198341-6d2f-5d85-83c9-459eafbc1595
+survival	surv_181	Alive	5405											4520c732-87e4-50c2-ad69-2b5580980ba3	5fbfab79-d5f5-50dd-930b-59644c5db9b3
+survival	surv_121	Dead	644	Relapse									Due to this disease	456f2c96-aa70-5b4d-b6e7-a51d6e048c8b	5f0e1dd1-9376-5018-b576-65d1b9cd1ba5
+survival	surv_240	Alive	5063											45777967-1223-5a30-9cc1-d2de02254bf1	f25ae938-ead9-52c9-a1a8-e2023de848cc
+survival	surv_535	Alive	2184											457cb770-951b-51d2-9c01-069ea6e89a70	f62e3bf3-0faf-5f0d-8a13-d6cb6e1f0afb
+survival	surv_78	Alive	5269	Relapse										45912d85-06a7-5a93-bd91-d139c9867c62	ce96efa0-74ef-5dd1-930f-5040ba87c0c9
+survival	surv_272	Alive	4062											461dff96-20c5-5713-9b58-3630f075361b	5cc23a61-45c8-5821-9ec0-f96a0220226a
+survival	surv_430	Alive	3391											46d28d7b-5ffb-5203-b17c-56bc1c639cf8	98d6f58c-e3e4-5873-bc5d-d6140a25fb52
+survival	surv_67	Dead	1534	Relapse									Due to this disease	47315aae-81bf-50e7-a63f-3cb4b282722b	fc2be11d-5fbb-54f4-85d9-0b5c9b6a5b04
+survival	surv_340	Dead	1879	Progression									Due to this disease	47fcb683-9074-55a8-aef0-22aeb35a0dbb	e9d953d0-5ae2-5dc2-b9a0-8d957dc0f162
+survival	surv_559	Dead	2466	Relapse									Due to this disease	48f96e0c-fb9c-58b7-b2e8-c184a68ba90d	357550e2-b13a-5ded-b3d4-3d11663b52ea
+survival	surv_576	Alive	2469											49779293-8d9e-502d-9039-b2147da84f2f	7140e70a-bbf6-5c19-9aa8-6aee569d36ec
+survival	surv_595	Alive	3692											499db128-7f81-5be4-b0cc-22270abbf75e	9aa88b42-a54d-5795-ab6d-5dee1adf5ef8
+survival	surv_352	Dead	2534	Relapse									Due to this disease	4a90e7e1-b8d3-5e2a-8568-274b6c35cb41	7002494b-a48b-582e-b315-f4b8456a8db3
+survival	surv_320	Alive	4337											4adae57a-7392-5678-a312-fa7dba59348f	50f181b1-13fd-5690-a338-d15ab4e1ea94
+survival	surv_148	Alive	5630											4b875560-bb1e-53b5-b3c1-a34fa41bd2cd	30f8416e-500d-599b-8e9b-42c991e97e1e
+survival	surv_83	Alive	4560											4b952789-2253-528c-99dc-c43a34b793e3	b6fade95-4e88-5ddf-9e41-e5c2edb1fc22
+survival	surv_317	Alive	8417											4bf4ef68-a27e-5f47-95ea-2a905f6e8342	8ad641f8-c50f-57b8-b96e-cb0f5475cd40
+survival	surv_161	Alive	5205											4d1c31f7-f209-5ead-8970-adb3acc58010	ad42bfae-19ec-51fe-98f2-55352450e02e
+survival	surv_180	Alive	2764											4da93dbb-2fef-5643-ad50-3904f91269ca	e3db7157-d258-5ea2-9c31-555bf2bfd172
+survival	surv_402	Alive	4918											4e303e56-e3ce-519b-ba77-9466adb0d7c7	051b33ec-df6b-5c09-a144-5ebcd42f9d11
+survival	surv_598	Dead	1392	Progression									Due to this disease	4fb82525-67a8-5539-95d9-a06cd6820240	4235d74e-49a7-5656-b636-927170153415
+survival	surv_498	Alive	3922											4fbd934a-a861-52b6-9fd8-aac35363c425	19a76d75-ccbd-5a7b-b191-35c071f6050a
+survival	surv_557	Alive	6300	Relapse										4fe139f7-5bb3-5433-b69d-47a983690c4d	f5f9ffb4-f60e-5628-9d46-dc3e969c0230
+survival	surv_609	Alive	4368											500f1e42-b68c-5c22-98c6-f887bc3fcf9b	6c22df99-1d2c-578c-9700-d47324257041
+survival	surv_397	Alive	3467	Relapse										5029ddcf-21b4-501c-ba2c-317a6b6467df	c2e5906a-4f58-520f-bf9a-b17a648bdaf7
+survival	surv_416	Alive	5161											507586c1-5d19-52c7-8d58-5074f3341908	12a43987-9db7-50c8-a0a7-d0ef00f69f75
+survival	surv_622	Alive	2678											50864322-bb15-577a-972a-daf7f8303467	a5f0fffc-b62a-5a73-a0e5-ee45ec665554
+survival	surv_523	Alive	4943											50aa4bad-b9e4-5fa2-9375-e9b29effa592	acca841f-0e1d-52a5-9965-3968667b2a94
+survival	surv_22	Dead	1183	Relapse									Due to this disease	516a6593-7ef0-58e2-8473-60fcc598daaa	217b6cab-3ee4-59dd-8686-6aa57f1b3d00
+survival	surv_284	Alive	3427											51c33fef-f9e9-5c4c-a033-263010e905da	a654f1e2-50dc-571c-9c01-a423d7586477
+survival	surv_305	Alive	1821											51c46823-4f9e-5dee-ad50-19a924c8ca40	1aff1449-63f7-561c-8fbb-7b7d9163ea05
+survival	surv_253	Alive	6693											52990c14-09b5-5f75-9245-928b90080b0c	bb5cda97-e215-5d02-ba77-bdc1182a62a6
+survival	surv_343	Alive	4667											52c69d0d-da63-54b9-bcbc-22611f6a2e2f	69a78fd7-c685-50f3-b79d-35bfa95d3655
+survival	surv_642	Alive	3757											52e3aaaa-3a0e-5cf4-9832-a6f21e240ae2	5da94bb1-f981-5e02-8b4b-a8e22bb38f5a
+survival	surv_627	Alive	4245											52f84a04-aedc-5e30-8da5-99fe41280df2	4c82f3a3-454a-54df-9f3d-ec8869610028
+survival	surv_37	Dead	2798	Relapse									Due to this disease	532483d5-afc6-5648-979f-29b867fa0d34	f442a10b-f6db-54c1-9d68-14bd649e06e9
+survival	surv_504	Alive	2713	Relapse										535a35c1-5617-53cb-a9d3-041dbbe7d013	abbf2ab8-bf58-525d-91e1-275c9c473d85
+survival	surv_104	Dead	1464	Relapse									Due to this disease	538c59ae-26fa-5190-80eb-bf821f763948	d4527236-55c0-5b72-a864-65a562a2b722
+survival	surv_640	Dead	2386	Relapse									Due to this disease	53bc8285-ee83-58f0-8527-318cfe67edb7	6ee3d5d5-fdc2-5213-8686-21eeab571853
+survival	surv_394	Alive	4314											5473789f-d5fa-5b2f-9270-dfbff71703ba	4179fb3b-965c-5070-b9d4-2e031fad1410
+survival	surv_155	Alive	6475											556df72b-cb6d-5aca-932b-7c329a9ddc18	aa4eaab9-eafa-53cb-ab59-d7d8ca1ae296
+survival	surv_637	Alive	3428											55f8a0be-a228-5551-a3e0-9a2e4d64454b	a875dc6c-3d46-5df2-8560-1b277472631b
+survival	surv_544	Alive	3626											56216251-569c-58fc-9e4a-c860d4c0c352	95707fc5-3fe5-5731-908d-bb4ecf8219c0
+survival	surv_217	Alive	3849											5627aea4-ce32-546f-99e9-f57931875be8	52348ff4-fcbd-5e0a-beb5-e860ad38acea
+survival	surv_81	Alive	5032	Relapse										5675dcae-3a66-5d10-9711-f7aa1d58fd53	a3317f60-1936-5386-ba05-29469b927da6
+survival	surv_4	Dead	2021	Relapse									Due to this disease	5726da41-b31d-5f4f-a135-45a136eadd01	db737910-6dc8-5d26-9474-08a7710cfb6e
+survival	surv_23	Alive	5274											573bdc7a-a24d-5ff4-9579-5dbd1ac5b1b1	6ec82cc5-5e18-580d-9515-88aa3fae0f27
+survival	surv_6	Alive	4888	Relapse										5752aa57-09b8-56d5-b2cc-2247f85c3389	67d5a434-ea3d-5eeb-b4a3-663e30172de2
+survival	surv_575	Alive	1718											57bcfd1b-9e45-588e-b257-5a413e9a3561	86ac2064-de33-5d89-b5ba-893d3791fa2b
+survival	surv_283	Alive	7528											5831d822-50c6-505d-b1e3-7273ca56285e	7e7e29aa-7158-5c09-a54e-a7e133ab0f0a
+survival	surv_405	Alive	2533											58e23231-ffb6-5ef6-a69b-f551f7d02fbc	b4224e01-eac3-5a9b-9229-c2ab9a77e949
+survival	surv_227	Alive	2559											5ac87679-c4ba-54ac-b9ea-7a8fa18fe7fa	c604308f-d0ce-5d79-a124-669624e3ad5b
+survival	surv_406	Alive	5176											5aed2f8f-fda3-5e91-a374-96f2c6933eb8	f925e830-9be3-51b6-89c0-1272875d8b3b
+survival	surv_624	Alive	1818											5af55306-6712-5c23-835a-e7d34f165a5b	b9b8fa1f-36e9-5c3a-83d7-307a15312aa4
+survival	surv_372	Alive	3511											5b0240c6-6e54-5398-98f5-fa1920a6f93f	b3ef02e8-aefa-58e8-a544-39416ddfff21
+survival	surv_49	Alive	6175											5b18e634-ba78-5e2b-bbeb-ac3716b982b7	cda441d8-55e4-5d43-85ff-f9defc90366a
+survival	surv_187	Alive	3236											5c783f06-b1f5-5d4b-b01d-e655850baea1	fcd2291f-de9c-54b1-929d-e8fc6f54f76d
+survival	surv_206	Alive	5824											5cd96e3a-b03b-5291-ad61-2861d7d5d439	671f298d-a313-59d3-bd95-3ba965621a7f
+survival	surv_378	Alive	4730											5d208e91-8dc6-5d1d-b922-ea45a4cf7fc7	11314bfb-d09f-5547-803f-cf4cb34d2869
+survival	surv_242	Alive	3517											5dee510e-0822-58e1-8ffe-4d4006c34275	3a671a6a-10cd-5fdf-9d55-1dcc243f6e19
+survival	surv_125	Alive	3005	Relapse										5ee111ac-246d-500d-9223-4935834f1c28	58c3f979-7541-5381-974d-228f0350d0c5
+survival	surv_93	Alive	2889	Relapse										5f18ebcc-603d-5c38-882c-b4b759c47a24	5706f52d-488b-5d72-b7b9-3001fc389db0
+survival	surv_618	Alive	1288											5f2be48b-42b3-5e52-acfc-eda0fe276e74	bdaa13af-54a8-59e3-8310-86d2305b1d6b
+survival	surv_310	Alive	4782											5f5c11a9-e6c6-50a4-beee-1e860652001d	8171375f-fa52-5955-86bb-cb752e332042
+survival	surv_204	Alive	5401											5f73ab01-b102-5da2-ac10-06c93664bb45	8902a077-5b15-5e3e-98bb-aaa2f581fc99
+survival	surv_629	Alive	1092											5f73e507-deea-5b67-9051-0ec5e5c3ae4a	d1de0429-e9ee-57fd-a044-868e33c13100
+survival	surv_250	Alive	5012											5f82c2e6-8736-5745-9e93-8973ef5f07c5	3be222e6-af10-586c-8225-b115f91a6400
+survival	surv_35	Alive	2198	Relapse										5fd30c31-a7a2-5229-8321-ce09dc9a635c	dead6555-9b16-59a5-b427-e11e1313c890
+survival	surv_298	Dead	3807	Relapse									Due to this disease	60099167-d661-50e3-9f5f-1334c9f8f0a5	1c2fc10b-780d-5a96-9191-21e0378752ac
+survival	surv_16	Dead	2306	Relapse									Due to this disease	6078dfad-776a-5609-9977-aa4a495ec392	6e1d45ab-1604-5613-b31b-a88f5014ceea
+survival	surv_209	Alive	5883											60eac08f-c289-5aa0-8a0b-0049aefaf1ba	29459db1-048f-5a35-a61c-ecfa07e25a13
+survival	surv_457	Alive	4524											612df541-a84c-5bcd-a9ad-0b3a32c50484	2ce7f53f-8cc3-5797-9d1e-c6b25d775a60
+survival	surv_53	Alive	5451	Relapse										620c5b20-38a9-5e0d-989c-d13cd4cfe5da	5b9bf210-334a-53d8-a8c6-3979545a4c1c
+survival	surv_386	Alive	2437											623435f2-5a9a-57a2-a719-bca95a9302c3	2c832f9b-e160-527e-8216-d5d72c4f4b83
+survival	surv_550	Alive	3664											62494b8d-56f9-5bbc-8894-7a60a265c6dd	79da1a2a-1134-5733-92cb-6b9fb5d5e310
+survival	surv_359	Alive	2020											628e8240-1beb-5fdc-a018-6a0e5b86ab47	68f0861d-86d5-5b40-80da-0195a70f91b5
+survival	surv_336	Dead	5104	Relapse									Due to this disease	638860cc-c08d-5e61-9d5d-4b837380cd66	8bea02bf-bf24-5d97-90fd-5996c4f67e48
+survival	surv_233	Alive	5092											639aa984-05a9-5119-a3da-719e958a54f2	797effcd-b02d-544c-91ab-3d93c7723661
+survival	surv_450	Dead	2095	Relapse									Due to this disease	63d1332f-f95d-5a7b-aad8-654c7f5e8edc	e9fc0c3b-f617-515f-a23d-3e9493e01396
+survival	surv_350	Alive	4442	Relapse										64524184-cac8-5fab-ab18-1d00cbc30407	ce0b921a-db69-5781-98a0-b23d4db6b1b0
+survival	surv_419	Alive	3869											646ca899-92f3-547d-886e-b0ddba30d817	42727c7c-8983-58c7-8f8e-6afcd22ba630
+survival	surv_333	Alive	2417											657ce0e8-833b-5910-97d7-8d2b84969bbd	b17a9060-c16a-5868-890d-29083855119c
+survival	surv_384	Alive	4021											65b5df13-fc72-5a65-a818-f8538f4aa57c	023f859a-ed97-5e16-b452-05231574ba7a
+survival	surv_300	Alive	3537											6667f5bd-be74-57c1-a76a-5d0b6d134fe9	602e9d1b-ad7a-5c6b-9c18-6d7cd097b0fb
+survival	surv_652	Alive	3846											666c088a-6960-56f0-bc05-5b845f44f341	e20487c8-b05a-5b5c-914f-fcf47ca0cdcd
+survival	surv_538	Alive	2273											67625772-a25f-5ca2-8efa-336f1bb96da5	539a714f-6e59-5b16-a6be-2ec07fd0799c
+survival	surv_505	Alive	3993											6791f0d9-1031-5814-8893-0f6269a0d02b	16203d2e-d0ce-5b68-9840-779217d3ec7a
+survival	surv_88	Alive	4164	Relapse										68142cc0-b1bb-59c5-b146-c98f3f7b3454	421922a1-b053-53f3-a1bf-ba0263d8c0cf
+survival	surv_561	Alive	2397											6894e0f0-1504-5b99-b6d6-3cc79d5d13c4	9f85c847-063c-536a-9f89-8d5029ffeb6b
+survival	surv_339	Alive	4158											68d925f8-50b5-5280-9836-0d9c40d8c546	74fc962c-22af-5384-8284-ffcc37aa6da7
+survival	surv_224	Alive	4143											6911efee-fadd-5fa3-a0fd-c4d620731ca0	f457e9ca-e12f-5747-9e5c-32761813f41b
+survival	surv_260	Alive	5415											697b6db2-8aec-50e5-a184-3340d20da530	02bb56b8-e08e-5d8c-a89c-696cf738f5d3
+survival	surv_211	Dead	4653	Relapse									Due to this disease	699524b6-1935-53e1-affd-3ab6dccecead	eb4e3d4c-69d6-5316-a48a-1cfc226c1b9f
+survival	surv_445	Dead	934	Relapse									Due to this disease	69b39c63-4d0f-5073-a33d-8f53f8b24b8f	42b76d86-4499-5200-83b5-cbecb5f28797
+survival	surv_563	Alive	3144											6a75c96f-0645-563a-b015-6ec6bdaf3ac4	67ad00d3-db6f-5978-8a2a-9220fb8a161b
+survival	surv_7	Alive	6010											6a8b40cb-433f-502f-ae2b-a3cf9b83c3ac	01a6a319-f186-587c-a195-e89c3745915c
+survival	surv_112	Alive	5100	Relapse										6b8e0740-ad35-5575-920b-b8be5f249fdc	41b0dc6c-f48d-589f-8bff-dfb32d15e91c
+survival	surv_256	Alive	5222											6b9f664f-ab62-505b-808b-3b32f60958f9	88f3d707-3939-592b-997c-03904172c159
+survival	surv_137	Alive	1885											6ce4b5fa-1b83-5220-bbc3-5eaf66dd8dca	b45ec9af-f4a8-540b-8163-8716df0bbf18
+survival	surv_71	Alive	3771											6ce95209-43e4-5758-95f2-efb58db168b6	1a467792-a908-5036-83b1-cf6dca96ba66
+survival	surv_510	Alive	3807											6cef1257-47cc-55c5-97fa-a96d5111004a	1d16531b-d52e-5cdd-9251-ea478a91f3a5
+survival	surv_157	Alive	4091											6e13fc96-e3a5-5d27-b003-bbf8c57fd62a	dc593336-4613-5e7d-b843-1cbb80a152cb
+survival	surv_106	Alive	1880											6e803a0a-1465-5108-a844-d28d5e55f8c7	0d84ac0c-80e9-5d59-8a6d-bc4c4735b4a5
+survival	surv_109	Dead	2237	Relapse									Due to this disease	6ed1dee8-2055-5b2b-9b99-dc39ecd0066b	cecebbb0-6d01-5634-a8c5-704dc43bc2b2
+survival	surv_503	Alive	4058											6f2093f1-7987-5c40-bd2a-f084cc7b602f	98943f0e-d22d-5628-8ffe-8871f4803e5a
+survival	surv_345	Alive	3210											6f6cfac5-ca0d-5e7d-acd2-18672ee34a86	3e359acf-e4bb-525b-81d6-c4d571ab6f79
+survival	surv_259	Alive	2107	Relapse										6f9c32b2-794e-5083-9b6f-adf76eafe863	d5bcc0eb-9444-5ae6-9494-0999e3e9f821
+survival	surv_261	Alive	3256											6fe75192-3c10-5de3-8867-9e8434bb4914	64f2074c-2bfd-511e-8ab7-709007fe69c4
+survival	surv_581	Alive	2132											7005e6b1-7f8f-5a47-9ddc-c752572406fa	608ada95-08b9-556b-aacd-ad80e4d2c48b
+survival	surv_548	Alive	4409											7051df7e-9906-5e36-8f36-b4a2e588434c	4d72b16b-6493-5394-b59c-6b7f99ee7d12
+survival	surv_324	Alive	6272											705af7ae-969f-54a7-9298-50e4030894b3	c798249b-4617-5a45-a1ba-00aff71ffdb0
+survival	surv_533	Alive	1423											712184d1-4129-55ba-896b-a47eed642ea9	f3ee20d5-4151-58f9-9b74-4f108b0b549d
+survival	surv_554	Dead	3844	Relapse									Due to this disease	717d4519-1550-5697-8d1d-67d01765b90c	604a502e-e964-5d4b-ab2d-0751d59b576c
+survival	surv_275	Alive	5554											71885c67-2f2c-542c-81a7-2eec587ba39f	092350af-2ae7-5961-ba45-872556617a04
+survival	surv_569	Alive	3944											72038872-5243-5bc4-a8ab-067db8f089eb	a92905c7-9c7e-5410-9481-d9dcc1dee9d1
+survival	surv_135	Alive	4530											7230ff34-21bf-5847-8615-f60b71fb2d9d	0cf07365-f8e2-5832-8f79-62ff1e6f7b12
+survival	surv_118	Alive	4728											723d07ed-6617-55ad-a1b7-bcf0c79dca93	6601ad88-e1e3-5685-bb0e-b564041f6a92
+survival	surv_13	Alive	6753											72528f36-59b9-54c2-b5d2-0a29a059c103	4f035876-305b-5f2c-853d-f1bd8fbfca49
+survival	surv_589	Alive	3542											726c31b4-d719-57f1-9ee8-cc2389c72336	8854821e-1872-5632-b37c-f9a3116eebbf
+survival	surv_307	Alive	3333											727ebd72-7ab8-523c-8b14-08428fa909d1	b5b8a573-0d82-5c4c-baa6-9dbf8f9d9e02
+survival	surv_116	Dead	2632	Relapse									Due to this disease	7284ce22-37da-5897-833e-5059cc2186eb	b6b80d34-511c-56d3-9d3c-faeecf28ccc9
+survival	surv_318	Dead	1729	Progression									Due to this disease	736b37d5-bd5d-580a-bb49-01856d2adbeb	82cf0a56-95ea-57de-a519-ea5288b48304
+survival	surv_179	Alive	6221											73c7111e-d5fa-5f2a-b818-909a3802fc3f	53582760-278d-5b97-bdf0-a4047970a6e0
+survival	surv_540	Alive	3972											74266dae-4554-5b00-a981-c451dd8e5f01	37d072af-1238-5dc6-a1fe-8a9aa1b30e58
+survival	surv_61	Dead	2482	Progression									Due to this disease	74739371-41af-5dcb-a9d6-ff27b1becbb0	1123de55-3cd4-5e34-8693-37a3cd27d3c2
+survival	surv_527	Alive	2506											75dab09e-a156-5915-a9fb-acbb23a96b26	644c9bfc-dc7d-5fdb-af54-d18620645290
+survival	surv_417	Alive	1492											76ed428b-4bbe-5acc-8c51-de47cc17640b	6c74cd6e-100a-546f-a50a-d23e1ea77dbd
+survival	surv_434	Alive	3208											771cc48d-6653-586c-a0f0-b048534567a3	ff0244c0-d408-546e-b5ae-550ee88d772a
+survival	surv_377	Alive	6637											778900d3-1d00-51a0-aead-6527442c567a	01779f7a-ba82-53ff-97da-2dd04755b3c4
+survival	surv_603	Dead	2257	Relapse									Due to this disease	78cc4a08-2f7c-50d4-942f-33074667e169	e1fb79af-5838-5daf-9f17-9059dcc96dff
+survival	surv_425	Alive	3011											79a70a82-82c4-530f-881e-7034ef2277d6	e0cff2bf-d8f2-5cb0-a3f7-52d070e6f5dc
+survival	surv_176	Alive	4502											79bc10f1-4555-5759-9b6b-30538c09f70b	ab4c958d-e4e2-5a9a-ab86-9a4a4d4c467e
+survival	surv_545	Alive	3580											79ee0996-cd3a-518f-9f99-4a9bf909c11b	872155fc-b6e6-5eef-9bda-a1e21987c3f7
+survival	surv_12	Alive	3115	Relapse										7a8afcf5-9b54-56e1-b9ad-3a92b6705145	9087d460-f528-5eaf-82e7-52808627639c
+survival	surv_46	Alive	2275											7aa876b1-5202-5e2a-8fcf-97109efc748f	0b8b72ae-e19c-51cf-9905-e6f3e1a39d57
+survival	surv_524	Alive	3420											7ab4b09b-f918-5c9f-9470-0d3a553d0e29	e861061e-44c5-5946-a0be-e7c65b663526
+survival	surv_456	Alive	2919											7bc60b62-f1ce-5605-bdb6-6abe1afb0b89	903f960e-72b6-53c3-8f3e-8cca9131a849
+survival	surv_337	Dead	1551	Relapse									Due to this disease	7bfa356c-398c-5b6e-8b09-bc6d11827645	a04503be-096a-5843-913d-220db3c2ddb2
+survival	surv_542	Alive	2485											7c458101-dc0f-56d4-b858-655b57238531	d7cdce9c-1872-55a0-b095-ed75c83146c6
+survival	surv_168	Alive	2634											7cf03550-ac98-550c-a1da-1dc713e776ef	4cc82260-d968-53a8-a0aa-0ddb7dd78eb3
+survival	surv_51	Dead	2268	Relapse									Due to this disease	7d346ceb-b677-52ad-8b51-d1034f8ed357	f8466ef6-855d-54f9-a624-cbecfa5ed477
+survival	surv_289	Alive	2923											7d7ced29-97ac-568e-83ed-cae8d09cf999	992bb41c-c263-5d17-81d8-f59bedc399f6
+survival	surv_389	Alive	4480											7e3f73b0-fada-52bd-8a7e-629c27a69472	dbbee588-6645-5237-adff-a5fae7fd01ed
+survival	surv_534	Alive	4217											7f280438-8df4-55cb-922f-1d46d5bdaaa0	35c5ddf5-70bf-55de-b9af-41fc78c54829
+survival	surv_281	Alive	6236											7f56f794-d52f-5575-83d3-3871f948c439	6350466f-965b-52ed-a030-8ff005f54140
+survival	surv_487	Alive	3228	Relapse										7f72f354-285f-5610-870d-2ee670030da3	7c5a238f-8b4b-51f4-a320-5b8ed56822c1
+survival	surv_555	Alive	2780											805595fa-763d-58bb-b9d3-b52c3baee6ab	9486e287-fd8b-57fb-85d4-bc294b138ffb
+survival	surv_169	Alive	4641											80acbbbd-43ad-5060-8874-3a3bd32062ad	15f9fb5b-2560-5a96-99ac-5112f3c5cc96
+survival	surv_268	Alive	3275											813a722c-490d-5557-9663-8a2a8bd2e36c	1f1ca80a-d2ce-557e-ac09-9dc9589d531e
+survival	surv_349	Alive	4360											813d56d7-2b12-5a0d-947f-b5ef2adb8e92	60cfc6bb-1500-53b3-b010-86d759ddad29
+survival	surv_473	Dead	458	Progression									Due to protocol treatment	8229fd7e-1afb-57ac-af03-42b39ee9263c	f465857e-8efd-5f01-abc8-99716061c84d
+survival	surv_174	Alive	4235	Relapse										82668fdf-5665-5bcf-a76d-226e89d64e2f	a9a6abef-b692-5a86-bb93-269162755cbf
+survival	surv_556	Alive	1677											82a13a5d-9e2c-5732-b479-6bde4d3c4431	535a25bb-dbbe-573d-8460-7ba15f5d4a5b
+survival	surv_401	Dead	524	Relapse									Due to other cause	82f26827-16a9-527e-a364-2bdc292d8f2a	c808db25-d22e-5122-ba75-5dba238de104
+survival	surv_82	Alive	3019	Relapse										82f7e1ae-e6aa-5b52-bca6-cf4dff51d711	2f3f36f1-fbd6-5ae2-8540-ef02a93be79c
+survival	surv_501	Alive	1098											84110bb6-7eaf-5ab3-b9b1-f0349cd6fd84	ddf9bae3-e34f-5183-af0c-2de4c9fa87d4
+survival	surv_2	Dead	2693	Relapse									Due to this disease	841d67e5-707f-51a4-af40-d504b1de2c47	356e920e-7d51-5ada-9595-e73374a24885
+survival	surv_342	Alive	909											84d77432-caa1-59e9-ba56-1b806b4ea7c3	c95a7064-1b52-53b9-8228-96f9dda35d01
+survival	surv_367	Alive	3385											84ea3c9c-4db7-532d-acbb-7657c37d16c5	2ca41e5d-7944-5562-929d-9e63fc3f10b8
+survival	surv_605	Alive	1833	Relapse										86d05e6f-f889-5828-b466-46adb3341ec8	9a2eeb79-4d96-559c-aaa7-2900e237da1a
+survival	surv_248	Alive	3808											87137b5e-5d29-57bf-b210-521dc8ef51db	e4ce83a6-fa52-5b14-82f9-44d09c0a192f
+survival	surv_404	Alive	4513											877ff1df-2ce2-5598-8675-9162eacb6f28	d5084879-8475-595c-99e4-3e3eaf992987
+survival	surv_188	Alive	4075											878d2941-bfa9-56ef-92fb-68e5646b0f70	0415e328-6c93-513c-99bc-a5a841c76d52
+survival	surv_436	Alive	3005											87fef4d1-de77-5cef-8042-7fa8c0edab6e	81c3ad99-9881-5040-bdad-8db75be7c4d2
+survival	surv_326	Alive	2984											8852641b-cd80-5952-badc-387d4b31e033	43139a78-1382-5c3f-ac17-f5cb68c00c1f
+survival	surv_466	Alive	3199											88783201-4f81-5fde-8b8f-b7ca5e7f63d2	c1cdf6a6-4996-57b5-a6c3-c66faac635d3
+survival	surv_452	Alive	3576											887c29fa-e814-5668-813a-760159700fde	78d17b4d-fd61-5675-96c5-6f81185205c3
+survival	surv_390	Alive	2990											88baa0f6-4b5f-5236-9acd-837430334b83	790ff47b-0364-5a97-b227-44b699c7a33e
+survival	surv_219	Alive	5275	Relapse										8a22be35-9f49-5a1d-85e3-04435ed7ce3b	ae5f17d8-a93c-51cd-8bdd-8c8320868140
+survival	surv_105	Dead	1405	Progression									Due to this disease	8a371652-54b7-5d70-83c2-de6b1c3d1af2	b55ca28b-62af-58e9-aa25-3711f02aa4de
+survival	surv_304	Alive	5451											8a58fbaf-16a7-5514-b186-d4a9a13c74c7	87b5735a-adf8-5e56-acb1-00f09a79ff11
+survival	surv_24	Alive	3495	Relapse										8a907c1d-0144-5e75-8b2e-6ec1993508b7	ef47ff2f-9f4e-5087-a3ba-295e0213c8a8
+survival	surv_355	Alive	2539											8b5d4342-3262-5505-87a7-eadc8092f9b6	28c0fdda-d294-557a-8183-0b44a2a5df4e
+survival	surv_379	Alive	2728											8c232949-a5f6-5c2c-bb07-3d94cd67ea7d	70991261-6d55-5bac-8434-e7b87415a156
+survival	surv_607	Alive	3537	Relapse										8c62d293-059e-5e4c-b661-35e8c2b066c6	8d20806c-6ba5-5a9a-b18e-29771126a11f
+survival	surv_374	Alive	2976											8cd9f03d-b7c7-54cf-8011-519112bc9d0c	e44887e0-e8a3-5a6b-979d-1ae9e2bffad3
+survival	surv_354	Alive	2998	Relapse										8d3a94a4-1858-5a14-8136-d7edc1eee975	d4f58645-18f3-5785-ba81-415efe9e23a3
+survival	surv_413	Alive	3535											8d817cf4-d3cd-5a6c-90f5-169e9367fe0c	c2ae6481-89dd-5ebf-979e-5987474099f8
+survival	surv_631	Alive	2691											8d84ea93-ade8-57fd-90e3-cdb74e42eb40	2aa13dc1-0b16-52fc-a7c6-c8935f66ab1c
+survival	surv_3	Dead	4859	Relapse									Due to this disease	8e80bee1-7c07-5c91-8d93-945cbd7cd489	016892bb-382b-5699-abcc-ad48f541317d
+survival	surv_385	Alive	4699											8eb1a59a-9b5c-5cc8-8e15-d90efc8654e2	0444e957-ae72-5ecf-ab3f-6433eda5a91d
+survival	surv_516	Alive	2219											8f0abdc3-96e8-56d0-99d7-32e95b31c93a	3e3fb0ea-678d-5e01-ab7f-9a0ece687d60
+survival	surv_313	Alive	4093											8f4b8d5a-5f42-5b81-a1f2-941497b8c6d1	64b27959-3052-5739-9e09-e9d44812f1a1
+survival	surv_393	Dead	5428	Relapse									Due to this disease	9059be01-67b7-5aee-a474-834be10df112	06ef9e00-1624-58d3-9bd5-10a0d5eee841
+survival	surv_351	Alive	2494	Relapse										905ea265-5ca6-5a03-88bd-ce208bbbff41	98dec5af-4b0d-54ae-925e-9fba3a715874
+survival	surv_322	Alive	5269											90799068-938a-5b31-8f28-be45d8aac9e4	609b75d7-1bd8-5770-ae3c-784417bb8c29
+survival	surv_178	Alive	4418											915eae5d-aef0-5c73-aa92-5d5e9dd9f8d4	521eec33-fbce-58d0-a0da-5c6e24a4508a
+survival	surv_149	Alive	4715											92b2bd10-5bc6-5e7e-86ee-94f738e0b974	932976ba-ae93-5bfe-82b5-b489e88db06d
+survival	surv_646	Alive	3118	Relapse										92b3e5d3-bf07-5563-ab12-68760beded6a	4d258a07-0ed0-5422-a1f1-055ea78d4309
+survival	surv_626	Dead	2378	Relapse									Due to this disease	93589a9d-239f-5076-9cf5-1a7241c1e577	7d2b3d2a-a89f-5cd2-a60a-e613ee9bcb19
+survival	surv_383	Alive	4218											943f9f6d-89e6-59ad-95b6-a0b55c532756	1b0bd687-af14-51cb-ae44-418b55c393c9
+survival	surv_616	Alive	3917											945d32e8-b724-58b0-a269-e19c14055169	12b812e1-7c1b-56be-b141-e1072918957a
+survival	surv_95	Dead	2371	Relapse									Due to this disease	9482625e-2380-5202-8f54-242c420540fa	6f5535bf-9532-5529-b0aa-3c02c1246d6e
+survival	surv_370	Alive	2101											9499b8a5-e5cf-5286-bee4-b9037dbfa723	a9807cdd-966f-5f67-881e-80c01d10eccd
+survival	surv_645	Dead	2599	Relapse									Due to this disease	94a79abf-7097-522c-8ad5-168a86d77cf0	b98a6144-cdb5-536d-b176-90be6c9d7ad5
+survival	surv_117	Alive	2946	Relapse										953f7e01-6e89-584e-a2d7-944bd94b457b	61b18ab0-06a9-566f-8f63-0412b3b555b9
+survival	surv_391	Alive	4727											96345486-46b3-58c1-83b0-5dff676860f0	ea77be5a-058a-58d4-bf96-33663c2a13ad
+survival	surv_214	Alive	4359											96527abc-cb4d-516d-8a71-e870cd075a34	534d4c20-b858-50b2-bb86-1b96b416cf1e
+survival	surv_158	Alive	6465											967dbd47-0c23-5b56-b3fe-6b7292c48909	f7688e39-c23b-570d-aa98-1629edf626ce
+survival	surv_612	Alive	3556											96c28222-7d04-577e-b75f-2a9f98de996b	8441bd72-7628-5ddb-9ba5-5a7f11942957
+survival	surv_264	Alive	5148											973e459a-d514-5623-a226-31cbfe23b690	d9ab4477-00f2-58bb-a11a-d755f167a889
+survival	surv_444	Alive	4869											97400b7e-df0d-5cd5-99ae-697e078b5eb8	47163fb6-63ad-5761-bb74-297ee2042433
+survival	surv_197	Alive	5617											975f1bd2-b3c6-5376-91f4-2243d7144cd5	7998787f-d50d-51b6-9808-bc802c0b166d
+survival	surv_564	Alive	3284											97a2aa25-9810-52c0-9eec-ceb39b644165	0d159d6d-ad99-5735-a316-65cbdf3dc75d
+survival	surv_571	Alive	1976											97b0d200-2aa3-5964-b622-75faa5e9c336	47a2870d-aef7-5743-839b-76c86025e3d4
+survival	surv_294	Alive	5540											9836260f-513f-5d3f-8bf0-45e9d2934690	c7d1bfc1-7310-5fcc-a62e-5298ae78ac2f
+survival	surv_368	Alive	4929											9849ca6c-b658-574b-9a9a-4d9f1c6682bd	9a1d3ef1-37a8-53f8-88f0-ebaef5541e70
+survival	surv_381	Alive	5733											98866c2a-8707-578c-9e79-15389ad7f996	2eeb1fbd-7dd7-5809-b117-0e0cdd631ecf
+survival	surv_299	Alive	2318											988dee0b-58f6-5995-b70c-c54b14ccf4fe	86bd0502-5dd3-55ed-8a4a-e3ef5f57bea8
+survival	surv_60	Alive	2013	Relapse										98b74cef-8b46-500e-826c-7c3103f31ecf	895eb5f1-09e3-5371-90d9-e97004bb26a8
+survival	surv_285	Alive	4794											98caf37d-fa38-5757-8198-ee0262249d7a	0e1ec681-619f-5189-ab6f-9f10c27fa63f
+survival	surv_124	Dead	2559	Relapse									Due to this disease	98f507db-995e-5089-b402-42a71c84829d	e0e0df2d-9248-552c-ab87-dd112d66019a
+survival	surv_63	Dead	1732	Relapse									Due to this disease	996b140a-cb25-51ec-8f4a-242ca90314a5	69275c14-7c86-56f0-b339-9aec4a451a87
+survival	surv_597	Alive	4332											999e318c-a571-5f59-8cc8-04ac176d56b8	c5273824-c829-514c-acc7-7bb99d88d8ec
+survival	surv_396	Alive	4506											9a456756-e926-51d7-bb23-e4fec21c5f7f	20228515-ffe6-55ea-8197-82b6f103a664
+survival	surv_134	Alive	6853											9a464bf1-0fd8-52a2-8b23-51ba017613fd	acffff8a-7bec-5498-94f9-5ddb0c3a6e1f
+survival	surv_553	Alive	5101											9ae435a4-f2d8-54bc-b9da-de891d45a940	81693e9f-d317-568b-8a9f-6aeee2af5d7d
+survival	surv_212	Alive	2753											9b04a97c-da60-573b-ab68-f9d2e9aab5f0	128e0d26-9e13-5ed4-a4f6-cd138462723b
+survival	surv_371	Dead	2560	Relapse									Due to this disease	9b12ae05-6d6c-5a58-9193-8965a8ad1b9d	65b3c435-500f-5fb0-b259-9e00e23ad0f5
+survival	surv_42	Alive	6116	Relapse										9b4bdb41-7079-5a3f-ad12-d3e343cc3327	96373655-d69e-5e54-9591-0421d3687bf4
+survival	surv_577	Alive	3465											9b882f0d-c28d-5eb2-8800-619821056c6e	24bf0ace-d0f5-51d0-a6c3-4b48981d1230
+survival	surv_448	Alive	4059											9b94741c-79b5-51a5-8150-c593980423c3	6bdb81d1-011a-5363-9200-70b7d9defac7
+survival	surv_562	Alive	4437											9c0361c3-5d85-5829-80ec-08e7c5c9e250	300e5eee-e44f-5d80-9919-58adee919b9a
+survival	surv_453	Alive	2920											9c0b30de-bee6-5b6d-b190-9fe3771fbf48	5fd2819d-97ea-56a2-9fbd-86ac45e6d7fe
+survival	surv_5	Alive	3786	Relapse										9c2aff2d-6e92-5312-8f02-08c85ac4775b	e2d72c70-383b-50d2-bc14-3acffcdf6d95
+survival	surv_15	Dead	2635	Relapse									Due to this disease	9c53f0e6-754b-52c4-aa14-0e81b95d27ae	ab16efdd-4ee1-5e72-82f8-84b591dfbe86
+survival	surv_306	Alive	4362	Relapse										9d683c0b-99a5-536f-962f-891df723e2f1	e5c07e4d-24ea-5daf-b0ec-808390fcf27f
+survival	surv_102	Alive	2319	Relapse										9d92d8f3-b768-5069-9e73-e34c35f6b035	d957d7b8-477b-5b5a-a165-3346cf462fd0
+survival	surv_228	Alive	2589											9e0edce2-4e6a-5dd3-97f0-ef8fa5bf2df1	982b10c7-5dc7-52a5-b94d-d2123680f19c
+survival	surv_235	Alive	5115											9e59ae07-38b7-513c-a959-b0655e19d3ae	0fb74a94-a3d8-5a63-b06d-e4ebab850cf8
+survival	surv_489	Alive	2931											9f216265-ff1b-5378-8d14-dac5e76aaac3	912a19fe-c420-5004-bfff-06ac277dadd0
+survival	surv_221	Alive	5233											9f28ea15-d1e9-51c7-9cf3-be6794473786	1c4f81b9-0984-5dbe-adfb-0731c73b2c66
+survival	surv_543	Alive	2977											9f4762a7-a4d6-558d-bacc-8ed5ed25730f	21ce151b-8e25-5af1-8bf7-9739a4e69bbb
+survival	surv_483	Alive	1985											9f5c88b1-929b-5a70-888f-612e00e4612b	ecae1af1-eebf-5751-a699-405c9e077c73
+survival	surv_649	Dead	1819	Relapse									Due to this disease	9fc747e3-2062-5975-8e31-8b4a03ad493a	0edae547-3e25-5b72-84a1-a534bcb53f1e
+survival	surv_223	Alive	6510											9fe77b66-ffa6-5068-ac69-985f108ffe4a	4b32f634-204c-5167-a25a-968af2991e3b
+survival	surv_568	Alive	4735											a00e00ba-cafe-5fa8-bd35-28869c08526f	88d9d751-2764-58e5-baa2-ade3c45db923
+survival	surv_496	Alive	2281											a05268b2-ff17-541a-beeb-ff439a5d1237	ae8a5664-33fd-5096-8950-3d50ab2fc139
+survival	surv_99	Alive	4681	Relapse										a06a0507-5fcb-59c2-82a7-d950a98dc599	bc090ff6-3ef5-5361-b615-04a2b3939d5a
+survival	surv_127	Dead	1528	Relapse									Due to this disease	a07c63ac-e9b6-5fd9-95f2-6b66d062f14f	f5e17e6b-2ee4-50f5-a8fd-80cb98428175
+survival	surv_338	Alive	4275											a10b8b1a-23dd-53cd-9b99-3621d008cccd	974a03c0-d714-58a8-bb2f-4748f36db06f
+survival	surv_21	Alive	4959											a14be582-e273-56f2-9532-9608895da144	33292851-36fc-5624-9bd6-e534ecb2527f
+survival	surv_198	Dead	1789	Progression									Due to this disease	a249ce91-2a6d-525e-968d-58695c5a5d13	f3335a26-1eb0-5210-a6bf-4ca40840bf35
+survival	surv_269	Dead	2209	Progression									Due to this disease	a3564c43-cf53-51db-8822-4a164549a475	67310893-537a-5c17-bc9c-310ce96ed5c5
+survival	surv_628	Alive	5139											a36633d8-1712-505f-85e4-d4f71a74dc56	afbe08f4-ec9f-5e88-b20c-eb9f8293a7ae
+survival	surv_632	Dead	2921	Relapse									Due to this disease	a40dad2b-736f-5745-8cb0-d2be0581447e	a5491798-a0f6-579d-816a-c0c5597a3b72
+survival	surv_89	Dead	1416	Relapse									Due to this disease	a442c413-af4d-5baa-a635-a391a700fe45	0d14b322-6e07-5ecb-b193-d53259a7a1fb
+survival	surv_600	Alive	1335											a44ddfb6-ac99-5878-8456-4183c2159a50	be584832-7fd6-5ee0-8994-d65a4a56db55
+survival	surv_472	Alive	4815											a4557629-722b-52d6-b919-5de6c18115f0	703cb602-b755-5ab6-b026-281eff7717f4
+survival	surv_290	Alive	2108											a46bb568-daab-591e-b0af-25975d813267	676219fa-e20c-5c05-929c-0455edffdea9
+survival	surv_623	Alive	4425											a4ae19c2-ec45-5f2a-801f-c301ec8e42b9	ec314a61-497b-5e4d-b7fa-47e76b83a5f7
+survival	surv_231	Alive	4541	Relapse										a5962bdd-6ce2-5a4b-9f1b-17f27c98f1f9	8b77ec5d-af6c-5eff-9883-9123953a8faf
+survival	surv_625	Alive	3817											a605052c-7624-57b3-97e1-aba58f1ac63d	65ee4ac1-7047-55a1-8549-74d279379775
+survival	surv_182	Alive	4213											a6537d96-c926-5020-b878-f9603df32477	46577a31-cb14-5403-bab0-339b789cba2a
+survival	surv_162	Alive	3370											a6e6dc0d-9133-5536-a976-017edb381f0f	376ae58c-0dbb-5ded-847e-c81547e4884a
+survival	surv_62	Alive	3043											a7c19496-1da2-5e78-a6fc-ef7e3b72df0c	9a875e14-939e-5148-9654-6c80dd1e0147
+survival	surv_332	Alive	2169											a7cc4cd9-fc8f-5ef5-bd4d-e92b3a459a9b	06ef0fbb-3528-5372-938a-947571808052
+survival	surv_361	Dead	1456	Relapse									Due to protocol treatment	a83ee536-6bb1-51f5-8f67-d314322f55f8	32901033-e0ea-584c-98b1-4b71b2ea0895
+survival	surv_167	Alive	6266											a86e9a31-44ba-535f-9676-50dfed92e53c	7cb76e42-7d35-5413-ada5-ed17cbc7d057
+survival	surv_599	Alive	596											a8b9d070-1aef-5160-b72a-25476db1f758	54377c7e-0fa4-545f-9b61-e508349bf160
+survival	surv_399	Alive	3598											a9f8c6e4-0459-53ea-ac81-984665834a56	3e5f15c8-9e0f-5159-b21b-50475266a77d
+survival	surv_341	Alive	3442											aa749e54-2d61-55b3-a982-a74d9d4f72e3	4c26d093-8a94-5f57-b084-0f7817a1cd0d
+survival	surv_96	Alive	5069											ac24b959-ce86-52c7-9990-017ec843adc3	092891ab-d958-5161-93d5-537cde3374a4
+survival	surv_468	Alive	2224											ac5ec1ee-2ece-5d62-baf9-6cfde000404d	3acd7ce9-e036-53cc-89f4-c152271911cf
+survival	surv_346	Alive	3828											ac7f6a8e-c934-5ef1-b5ea-5b514e6ce334	30ac8afb-a562-572c-8bab-ceaec2966846
+survival	surv_68	Alive	4182											ad8e09e1-37ea-538b-babf-deba54770dfa	ccb590ae-bc78-5939-ab74-e055528bb1e2
+survival	surv_365	Dead	2184	Relapse									Due to this disease	ae5419e1-a86b-5a10-ae0d-74979ff152a0	dbcc7444-fd9a-5db3-8c66-ab42d81bed96
+survival	surv_100	Alive	5787	Relapse										ae556c2e-b78a-560f-8ae7-1cf33ed9b71b	e7d0d38d-9134-5eb1-bd75-6d0f60902a9b
+survival	surv_512	Alive	3283											af4e70b6-1053-5ea5-a93c-0ca2fa927ce6	2353f66e-8ee1-504b-b56e-016efd6b6c1e
+survival	surv_528	Alive	1811											afa0693a-cffc-5644-a701-90ee37cf7016	f3acbc47-0538-504d-a286-95d82f78944d
+survival	surv_362	Alive	4498											afa0de21-ae1e-539c-b010-27d6a8d145ac	ca4ea72d-cda9-52a0-a6a7-e73d9ebea9d5
+survival	surv_186	Alive	5482											afc2d753-ec2a-522c-8285-25f284869539	9f4e3622-c430-5651-bce4-72a6854567e8
+survival	surv_407	Alive	3291											b04ae80f-d100-57ff-8f28-5045398c786c	5b79f0d9-2181-57ce-a158-09f6605e35f1
+survival	surv_130	Dead	3340	Relapse									Due to this disease	b05e45e9-db0a-562f-ab23-8d77c6740837	bddc8426-aac4-51f4-b831-ddbd96ab7285
+survival	surv_80	Alive	8323	Relapse										b081cb11-5310-5aa2-8fdb-7eaf732b88bc	9c91176c-71b6-5d36-bce0-26c5be18e874
+survival	surv_230	Alive	2974											b097bdbf-9167-5547-bf49-f28c466ab2d9	cf64d959-67b0-54c2-bd33-8d136f6f3ced
+survival	surv_232	Alive	2837	Relapse										b0fea7fb-881a-50bb-928f-22d4002dd3f7	fcf85133-9870-5544-acde-1e11525c4345
+survival	surv_617	Dead	253	Progression									Due to protocol treatment	b1208399-55ab-5f71-9381-22929901dc3e	94209b3f-6f65-5422-b769-6dbe3395f592
+survival	surv_477	Alive	2695											b13de181-59fd-5fbc-b4e3-91b553532108	1514cb28-f3c4-5dc0-89a5-a6e95f9efafa
+survival	surv_193	Alive	4780	Relapse										b162d41a-d0d4-5c7c-ac5f-99ef22d6d3d0	3e3da1d8-b38c-5a01-82ff-b6df1043047b
+survival	surv_36	Alive	5963	Relapse										b17ad956-fd7d-5479-98f6-2f449a78f4cd	3343b9b5-6355-5885-9114-66724d4eabcc
+survival	surv_131	Alive	1745											b347d402-27b4-57d4-a046-ca8165f617cd	ef2799d8-6d79-5345-a857-dbc4dbca1363
+survival	surv_266	Alive	3872	Relapse										b4888454-5b0b-56b2-a58d-ff1f80318b2a	1321bcf3-2508-5e00-b344-1923ced7f20f
+survival	surv_270	Alive	4837											b4c95b1b-ffbb-5733-9103-5a204125597a	0ff0fa73-b3e1-544e-a661-c6198822fc0e
+survival	surv_437	Alive	7665											b54554ac-aea2-5657-b3e9-ee1c78affe98	27afd079-d930-54d5-9f1e-41277718d980
+survival	surv_647	Alive	1927											b5531d21-6d8f-590e-8e56-901a2fde58f8	6a3948ee-ac83-5cfc-898e-e3fe8bdcef2c
+survival	surv_521	Dead	1584	Relapse									Due to this disease	b56d591e-593b-54fc-b352-09ecc1ba917d	759e5483-63fd-5a35-9fe2-67b39aec08a0
+survival	surv_315	Alive	3583											b6352e0e-e36b-544a-b0ae-76a696a05b6a	0135109c-cb65-527f-828c-bc46589ce9db
+survival	surv_301	Dead	2145	Relapse									Due to this disease	b722a926-9da4-5e31-b1ee-b8b32f7e16ad	40abb03e-26d0-5f4d-adb7-4bbe8f9fc6f2
+survival	surv_245	Alive	4873	Relapse										b734d9d4-44d0-5244-9719-ea920e170fbd	e9ffec38-f0dd-5040-ae87-4bb40f99479f
+survival	surv_110	Alive	1700	Relapse										b78781b6-1b5d-547a-ba21-a4e950a70003	d49c2f6b-6b45-5df5-882a-91e62f17044b
+survival	surv_435	Alive	3254											b8058cf7-59eb-564a-9fba-7e1e60c3bcbd	559b90bf-c5d9-5477-81b6-65823076b8ed
+survival	surv_357	Alive	5408											b8499de1-5b28-5e92-95dc-93bcfd3e6c05	55592158-f520-5dc8-a6c8-abd812d8c214
+survival	surv_611	Alive	2649											b867903a-c06a-57b6-9895-38f14e3103ca	29deff27-6460-5cb3-a31f-6176868e67e2
+survival	surv_488	Alive	3626											b97e1852-00a6-53c8-8473-4a13c877adc8	b3f0d756-468c-5816-8278-a325477a6557
+survival	surv_165	Alive	4202											ba2086b8-905f-53f0-9b98-a6d09153cd72	3fbfe0d5-564e-52e3-af22-9f4424b6c583
+survival	surv_196	Alive	3493											ba9ddfd5-a2c7-567d-ac4f-607a9b9dacf9	a0d22c87-4ce7-51ca-a58c-38b8d8766fdd
+survival	surv_431	Alive	2998											bb28425d-ba49-5896-a8d3-7d40c1f3b9da	1b4c50da-5965-57de-9d28-8de05a5b72ef
+survival	surv_225	Dead	706	Relapse									Due to this disease	bba94d5a-19e3-505e-b962-b4457e7fb8ab	bea68be2-a813-597b-a050-399d9addfdd1
+survival	surv_287	Alive	5556											bbcf81b9-3715-5472-871f-d48c1c298924	08f3ffa3-2cd3-57e8-8132-812e4e072c03
+survival	surv_72	Alive	2572	Relapse										bc19c61c-3e69-5ff3-9376-2fb8d222cf6a	68393b6b-ce03-534b-863d-68fa420b2ec0
+survival	surv_458	Alive	4322											bcbabe19-36cb-5042-af65-6fca0a98e87e	36a793d6-6a02-5d25-9ab0-378ad5ee8ab0
+survival	surv_492	Dead	1470	Relapse									Due to this disease	bceb76cc-d3dc-59ee-addb-d4002f18b7d8	88a01c41-55d3-5f3c-9cc2-be28877d1780
+survival	surv_653	Alive	2661											bda3bfc2-3ecd-5fa2-8407-fe5389943415	674644de-97a8-5f85-b1dd-7afa3e7d7b60
+survival	surv_485	Dead	1244	Progression									Due to this disease	bdfacb68-93e8-56f4-a4a2-a9338ee5ada6	ba168277-ea0f-57dd-bac9-e202a645ed15
+survival	surv_1	Dead	2543	Relapse									Due to this disease	be51b307-fd53-5850-8fa8-820b70ca3085	2f4a448c-f85a-5a8a-aadb-3b9e630256f8
+survival	surv_90	Alive	2342											bed22935-de68-583e-a92c-938ac297cba0	033be066-ae0a-5da8-af50-5f31b49f70e9
+survival	surv_120	Alive	3205	Relapse										bee876cd-24e8-51c4-8874-317bb54a9d64	dc4d52d6-dbe6-5952-8e3a-e61d3aad33b6
+survival	surv_43	Dead	2371	Relapse									Due to this disease	c0972d03-7da7-59c6-8f87-94f20af4316a	7f48fd05-da62-5ab6-a2e0-a538bccdcdad
+survival	surv_239	Dead	2317	Relapse									Due to this disease	c15f2c7b-16e3-51fd-91ae-22224807e081	4e750b4e-6ac3-573e-a0ad-7d6cf7efca37
+survival	surv_150	Dead	1386	Relapse									Due to this disease	c1af5647-94b7-58dc-bdf9-d330f023265a	693f0ea9-2608-5b0a-b576-f1610be81818
+survival	surv_128	Dead	3222	Progression									Due to this disease	c26fbec2-d7d1-5a73-99fb-1978f4bbf7db	8016e5cc-315a-580e-8fbf-a35aa02d3364
+survival	surv_423	Alive	4761											c2d4664c-83aa-5c87-b225-5cb70a6f4a2a	798f1f17-25f1-5553-a1f2-9132dc9bbd14
+survival	surv_421	Alive	3447											c2f2493e-d5c1-579e-8ff4-17926408a2a1	b6cfcd9e-844f-5575-980e-f15eb1122a09
+survival	surv_205	Alive	5186											c31a59ec-83ed-5c1f-910a-be31eabcb65f	190d1319-4d89-5e08-91ee-40f35c34f014
+survival	surv_531	Dead	3849	Relapse									Due to other cause	c35bfeac-7c0c-5ee5-a13d-626bf9d93e65	6154f9c9-677e-5fe3-a244-4fab1f3b210a
+survival	surv_220	Alive	2291	Relapse										c35f79ff-2397-597f-8ab3-ecb3955f405e	dd2cd6e3-9873-504e-84a8-074c5c882486
+survival	surv_29	Alive	5338	Relapse										c39f61b0-7501-503d-a3b1-0b9c833290f9	cd7f40f8-6715-5600-84b7-7faac7c47563
+survival	surv_11	Alive	3856	Relapse										c3e375ee-4fde-536e-96c7-007d13df76b4	15ec8009-1af2-570c-90d9-b4372322c68e
+survival	surv_606	Alive	3318											c3fa6081-752f-5826-b2b7-91c46aa3efc4	0006f97b-3639-5238-a5e3-01780a0226f3
+survival	surv_59	Dead	1986	Progression									Due to this disease	c521d243-c08d-5982-9168-0a0a6997c8ae	c3800851-0cb6-5655-aee6-ef510ba35fcb
+survival	surv_184	Dead	2692	Relapse									Due to this disease	c581b017-2abd-53e0-91a6-8064d4b6732f	08af4546-1ac9-51d0-b880-0bb04e0192ae
+survival	surv_92	Dead	2701	Relapse									Due to this disease	c5d1eb9b-bae8-5729-8b15-e301bfb99241	c3981f35-a50b-5984-90be-4e87133e1e26
+survival	surv_163	Alive	5914											c5d7e7d3-951a-5217-8964-9974c13625b9	2fd84958-3eaa-5249-ab5d-f2e05845132c
+survival	surv_199	Alive	5318	Relapse										c6b3a455-2db1-5f33-9142-295229ae9871	eda0d3da-5ef0-5875-8b1e-235c6fb61e70
+survival	surv_192	Dead	4082	Relapse									Due to this disease	c6e1b14e-7e83-58c2-b7d8-a13d8808606e	a1508e7b-a2ae-526b-8943-805c8ce094ef
+survival	surv_331	Alive	4171											c72d5e32-df3a-52c7-bce9-0d8e182a6566	d62a7479-b3ed-51de-bd22-d3b49bfe2ba8
+survival	surv_474	Alive	6453											c7955e52-6a3e-5aa5-8ec3-0b25d5c181af	ca426485-d425-560e-9ae3-13d41da82b8e
+survival	surv_151	Alive	5794											c7a642a3-bcfb-5589-9091-d6a60b67b166	e7d0bb97-d754-5cef-9416-977cd2006e28
+survival	surv_57	Dead	2080	Relapse									Due to this disease	c7b4f057-b7f3-501f-99eb-1ceb2ceb6ec6	a316b035-e7f0-5fc9-8de9-99c298dedd91
+survival	surv_229	Alive	5062											c83a68c4-9ab9-51a5-bce4-ab230cce85a3	ae713b5a-01b3-516c-8e24-1624c27cdc47
+survival	surv_153	Alive	7057											c9283c96-6825-5c74-8e2a-abecf98548e1	e104e78c-d80f-5b38-b21f-cc2bc043fe96
+survival	surv_87	Alive	3905											c930e18b-8cdc-592e-9ff1-ec4070cd7ae3	9d281b62-a905-58cd-bbda-b9db36c457ac
+survival	surv_97	Dead	1574	Relapse									Due to this disease	c95cbebb-2d58-5c2f-a7e6-ff4b94e11ce2	246b6c03-8d9a-5d6b-87f3-ceb8affbb3eb
+survival	surv_113	Alive	3413	Relapse										c9f73f83-f216-503f-90a2-675e6545d9de	68999117-89fb-5fec-83a1-7edf2ea2e3f8
+survival	surv_511	Alive	4247											ca3afda1-fe11-5b0d-8d4f-f7beec5f089f	edd69308-6473-5064-99d4-10da4aab0b38
+survival	surv_467	Alive	4305											cacd8bfe-7fa0-5990-8d8e-732900884b38	2f8243bc-4387-59af-8373-a5f042538a5d
+survival	surv_334	Alive	3059											ce193701-61ad-5de0-9c23-7dc186d7310d	dc69d01b-84d1-5c76-8ed7-5fba2e6cd32d
+survival	surv_475	Dead	783	Relapse									Due to this disease	cec25099-168e-5c12-a065-2c9f377ec2f2	4086a474-12ae-5f69-95ec-ceab2cb7c5da
+survival	surv_451	Alive	3940											cf037ab3-7fab-5ae0-86a6-da58a0e2d812	65804f70-1885-54fa-912b-d830f1f74653
+survival	surv_133	Alive	4265	Relapse										cf9e7cf0-fd48-5336-93e2-f3aee190adf0	1ba05933-fb73-541f-a2cd-0b8bbf35826a
+survival	surv_482	Alive	3683											cfa78715-a65a-5673-a75d-f6e30662161d	2612122b-6e5c-5e69-b033-4d63978fb3be
+survival	surv_115	Alive	3530	Relapse										d0b032d1-7f8e-56ed-849a-4072474d7c9c	9c80bd23-bace-5998-954e-76a3ec5dc2b8
+survival	surv_195	Alive	4991											d21cab08-62cf-5d94-bf7e-c0041da8d330	5e74a7a2-2888-5f0e-935c-bb7c65ba8ae6
+survival	surv_635	Alive	2581	Relapse										d2ac6dca-6e99-5865-880a-333c838acedd	339b3933-fef2-5184-a12c-f3b407c002e6
+survival	surv_319	Alive	3375											d2f9dd81-f016-5695-8d15-e72e3e9f17ec	6479c095-eb71-5dad-8674-71d0a59d5df0
+survival	surv_244	Alive	2614											d3103a7f-d659-5ed0-abd5-25ff869a86f8	a1dd7433-02fb-5017-bb6d-7e78a24471d6
+survival	surv_387	Alive	5307											d44f7099-5a4a-569a-a642-46566d420dbc	b3412442-ffea-56b7-b2ed-714d2b096119
+survival	surv_582	Alive	3108											d46a8632-d7b2-5e24-93d2-c1b006d3a3fd	839daaea-b881-5bf1-9869-5c9d7c2fb4eb
+survival	surv_328	Dead	2089	Progression									Due to this disease	d53ca1d9-981e-5dc6-955b-4ace1518d6d2	62251488-1773-577d-83ac-ba2a1c54bfb0
+survival	surv_85	Dead	1926	Progression									Due to this disease	d7127f37-8183-5174-b79a-2397915d0340	d17439cd-2a66-5825-97ef-a3e80b7b83db
+survival	surv_33	Alive	2616	Relapse										d7d18b53-0484-51f2-acde-d202596e657e	ee64a21e-c04f-5a4b-9183-5a060978398e
+survival	surv_164	Alive	6096											d7e0a76f-1702-5305-ac9b-7512591b3276	0ef914ee-7b12-52a6-8918-8d9248b26da0
+survival	surv_194	Alive	5767											d801668c-c386-57d9-99ab-d49897f622f5	c1f8144c-7ab5-56fa-bf44-afe076960134
+survival	surv_353	Alive	4259											d8baa78d-a000-5399-b728-7af92ff65856	d81b20d5-5355-5d15-9157-8228db289964
+survival	surv_356	Alive	1403											d9cb8c62-85e9-50d9-8122-a90c33035c85	6597a38d-8733-5a3b-868c-42986ecfa179
+survival	surv_439	Dead	1574	Relapse									Due to this disease	d9dd11ae-1553-5aa3-8428-9b1b8f886471	34973e0c-5a88-53f1-ad3c-628a72007ad2
+survival	surv_440	Alive	3162											db10000c-81de-5a09-98cc-62c3da9e751d	e81edb07-9013-5670-be3f-63f0245867ff
+survival	surv_596	Alive	3677											db826639-11eb-50a4-a4ab-6dfd92c22228	cba4f0b0-3c83-5182-a247-818cf19fbc96
+survival	surv_620	Alive	4212											dc24cdd5-62f0-5d81-8425-8150a6d663d1	637c1dea-7165-53de-bd80-73ec98c52304
+survival	surv_532	Alive	5054											dc55288e-b9c7-5841-9338-86f26da30409	c9ec75f9-ab50-5035-9a67-f50b2d3fec1d
+survival	surv_14	Dead	6828	Relapse									Due to this disease	dec4dbe9-6b72-58c1-a607-1a15289a37d6	9434c00e-118f-5bb9-9eee-174943eb0bd0
+survival	surv_454	Alive	2389											df191569-a41c-5452-803c-df05723567f0	862f5869-e1b1-57f9-b202-1c369933fd4e
+survival	surv_588	Dead	5890	Progression									Due to this disease	df7feb1b-1ae9-58fd-9e5a-11965fc8b557	f4e820c4-0682-5fd1-8558-734cd372f195
+survival	surv_580	Alive	3916											dff36300-2139-5a16-9e5b-d4b333a90550	e6775f0f-468f-5e14-8803-f0d3fd91f0ae
+survival	surv_27	Alive	6775	Relapse										e002a6da-8e90-5866-afbc-68fec59e8349	a27df434-13ae-57ff-9f61-4c46c652d380
+survival	surv_200	Alive	3699											e0366d99-3611-539c-80a6-016c9c53c088	8dd011c8-69c1-5c8b-8999-97fef08991d8
+survival	surv_410	Dead	3830	Relapse									Due to this disease	e0607c6f-bf52-5ecc-b81d-36e740e87471	71cf9a40-ffb0-5da1-87af-df3bc8ee8beb
+survival	surv_519	Dead	779	Relapse									Due to this disease	e07961a9-f9c8-5ac3-b9f2-e4957e4140a5	b0bfebb7-42cf-595b-9071-81cd02ab8f5a
+survival	surv_190	Alive	2757											e095a8fd-a9f1-5e28-996c-5a4c8e63992e	6f23d861-478a-5ee3-b236-17bab796ab2d
+survival	surv_573	Dead	2222	Relapse									Due to this disease	e0b982f5-36f1-55c1-b7b0-479b57e961fe	9569dc0a-ea50-5cf5-bc25-cc06187ef5f4
+survival	surv_103	Dead	1704	Relapse									Due to this disease	e0d55b3b-107e-5a09-9577-8d309ea8d851	d9bb991d-4655-5969-a96c-e2b23a536f94
+survival	surv_363	Alive	1852											e12a7760-bc08-576f-aeaa-f0d892485c29	df215c0b-8a87-51b3-aa0e-5a10f760bda2
+survival	surv_429	Alive	2510											e1624d5c-b1ce-5147-8a16-113ac7ddf3bb	548f8704-6431-5a28-a631-e6aa0fe5a2d6
+survival	surv_418	Alive	2215											e16f301e-ec83-5b07-a966-b6c1455ae5b8	8fe8db8f-d9f2-5b5d-8f1e-2ec0b7101a36
+survival	surv_143	Alive	5236											e1f12a2e-8cdc-59e8-992a-e811bf86d2df	3cc95c89-2b68-5054-bec0-90c97afddcea
+survival	surv_585	Alive	3653											e2e7c9ca-4532-5b00-ad1c-c5ff5ece5213	990c3095-8cf1-5d3d-8160-eb8510289913
+survival	surv_529	Alive	3714											e2ee5ccf-aee9-5e43-8ddb-147eec7cc37a	fbed4209-9643-5eca-9fe9-9a41c23c6783
+survival	surv_271	Alive	4119											e2f25be8-fa89-5c11-8392-bba033e23c55	7d21a48a-3a97-543a-aaf5-0a96b73cb655
+survival	surv_491	Alive	2654	Relapse										e3396f22-5840-5611-a467-66f36444f51c	9782c86e-5665-58ff-a0de-9463bbbc28b4
+survival	surv_183	Alive	3366											e33e1e68-169f-5c63-b7cd-8d90771b34f4	0274b14f-4333-5ff9-9f1d-e78b6e1b0993
+survival	surv_175	Alive	4095											e35e391b-ad93-5c9f-9c31-5ce68099f519	d6bcc0e1-7b07-584c-aee7-650dff9c97b4
+survival	surv_584	Alive	2414											e362aaac-88be-5090-8809-504d52ed09b8	cae25a99-3282-582d-b07f-0cd5598f7ad4
+survival	surv_547	Alive	3771											e3bde525-90c3-5d1e-8d3b-9576254452e4	fce72cf8-fd8c-501b-b394-b9caecf190a0
+survival	surv_31	Dead	2233	Relapse									Due to this disease	e3c0dbe3-a08e-52cb-bcc5-fa7f5c062fdf	941c9981-7e8d-5607-b4d5-f8f5bfb3f231
+survival	surv_408	Alive	3084											e3ef78da-879a-57a1-9f28-09f7855056ad	71dffd51-7870-54aa-8a24-652b6a667a20
+survival	surv_500	Alive	3993											e414035f-5289-5f8c-9fec-55b251fdd809	7f1192d8-18ce-5236-ba1a-6623b3f4a9d0
+survival	surv_549	Alive	3795											e4fa8598-bb11-58c0-906a-809a0d966f9f	1f7d8cd1-5e08-5b29-af79-29d700797f79
+survival	surv_123	Alive	2468	Relapse										e5ae4920-0ac7-5075-b2a8-739d655ce179	95d85b11-87c1-54be-b509-d2544699cac9
+survival	surv_273	Dead	2573	Relapse									Due to this disease	e5c09ee6-2965-52c5-b0ef-230242681f45	7f9e2e20-3822-55fd-b6e7-93a954864aea
+survival	surv_639	Alive	5348											e5c8b2f4-b85a-595d-9866-4e59f3453b6a	fb0646b2-21e5-5c4a-9c60-e84fd9d22f1d
+survival	surv_388	Alive	4668											e62c7d18-6d6c-5967-8baf-0886cb7cf397	feb6d90f-1c55-5b49-b7a5-1ace85c6a370
+survival	surv_136	Alive	5756											e6d25222-a06b-55e8-bab0-1f1156175499	eab0fc2a-f0df-5c60-9452-5f479d08bf91
+survival	surv_552	Alive	2952											e7c7043a-ad59-56f7-84bb-4601d30eae16	a5cdacfc-f319-5aad-b571-8bb29d5af979
+survival	surv_254	Alive	5683	Relapse										e7e31e05-d4cd-5baa-9214-faef85148334	b5de741b-f7e2-59f9-b391-ac444dce20fa
+survival	surv_508	Dead	4316	Progression									Due to other cause	e854f52f-0d1a-5cf2-8c86-0002b97b36bf	d594adcd-1379-5f13-9048-b7c25a47e9a3
+survival	surv_86	Alive	4600											e875535d-6531-5e63-bcc1-b2490694de9b	860aec4f-06bf-5c24-b0da-ae9335227840
+survival	surv_119	Dead	3970	Relapse									Due to other cause	e91443eb-4f36-5258-8e84-53861293c058	fc7b5a47-fac4-5056-a04e-5adfbac64dd4
+survival	surv_513	Alive	2803											ea1b9cc4-bbe8-5df8-8d7e-b11c9877aa69	191623b8-6d48-5565-882d-ee41e8469b62
+survival	surv_314	Alive	4455											eb1b545f-2b40-5c22-9379-c6e855c01eab	2abf62f9-a6d2-540f-9b4d-1268ed2f0316
+survival	surv_327	Alive	2257											eb24a487-3ab6-52fc-922e-e0f8a4806274	9682fdc4-b3df-55c1-ac8c-dd00e36d7913
+survival	surv_152	Alive	4460											eb39e2bf-834a-56be-96d1-d27b7d43123e	a6691e7c-8097-5034-b82a-05db8aeaba03
+survival	surv_38	Alive	4106	Relapse										eb678722-a876-5fe7-bd41-6c7a7cf85f7f	cfc8d5dc-67e0-5ff1-8b64-fe19baecd576
+survival	surv_558	Alive	3701											eb91d1ba-f587-5fc5-9e4a-8982be4f2174	358cac81-c75f-5f47-b7c8-7540c172cfa0
+survival	surv_79	Alive	3099											ec119b32-1159-5b66-bae4-cfecd16f4a9f	b409df06-0d63-5c06-b844-31634901a66a
+survival	surv_213	Alive	4142											ec1b8aef-3999-5e87-8e8c-caf35277a2c1	80eb1481-ea33-5887-a484-3cfd46f5a681
+survival	surv_139	Alive	5093											ec8f23c6-50f2-51b8-b65e-8b6fe7f8810d	8cdab963-2296-5034-adea-0810cb0f6ac0
+survival	surv_94	Alive	3562											ed177ef6-dad4-53c3-b97d-4bedf424ec8f	f3ed92ea-2882-56e1-9c1f-4c0022c9d301
+survival	surv_358	Alive	4187											ee42fca9-752a-5a7d-adf2-3c2bad2834d1	fe8a4606-1c27-5749-a310-91520aeef5e3
+survival	surv_292	Alive	8243	Relapse										eea92a44-3304-5b38-84ca-47f277c91c8b	0d3d4197-771d-57ec-b1b9-c3008faa3f5a
+survival	surv_522	Alive	4300											ef55122e-5056-5cf2-a5e2-63bd5e403e7f	870d2199-92ea-5579-8058-a71c21f3f7a0
+survival	surv_257	Alive	5704											efb486f4-403e-5682-a88a-2270085a1d87	0eebd70f-7dee-5185-aedb-10a54bad0a90
+survival	surv_539	Dead	2481	Relapse									Due to this disease	f027c926-9281-52b0-a003-b247dd582a16	db91b9cc-f5ac-5adb-b6f3-62de12a4b4b8
+survival	surv_185	Dead	2224	Relapse									Due to this disease	f03a76d6-fcf1-571b-b3af-ac37b3766227	95973cb4-bc33-5964-98c7-627813050bca
+survival	surv_329	Alive	5435	Relapse										f0857ed1-26ee-56d9-b0cc-a05268ad3bfc	cc20808f-ce42-5aec-bfc1-c24b3da65a39
+survival	surv_536	Alive	4427											f0a6f795-f8cb-5d48-9e84-1e307ed843b1	7f8396be-cee3-5434-82ff-77654ebff86b
+survival	surv_400	Alive	3007											f1caef4d-fc1b-508e-a548-db944fda9dcd	f2f06a67-51dd-59ec-bbb3-4a59409d1e7a
+survival	surv_10	Alive	3788	Relapse										f2eedb75-50ba-55e1-a451-b7dbfc90b6da	b7b2e2ce-d16d-57c6-a1d3-0377909cd7d6
+survival	surv_442	Alive	6669											f317af9b-cc37-5395-838e-d8bc3164776b	6af52f2b-7f9e-5643-9679-2268899926ee
+survival	surv_630	Alive	829											f39c3531-2a50-5bf9-b889-56a46fa24f8f	29bc72f3-de35-5f21-9111-1e4504ed351b
+survival	surv_52	Alive	3642	Relapse										f3e38fcc-30ad-5d36-9dd9-344fbeb6bc6f	30bb6fb5-5345-50a2-aee7-e2012505ec7f
+survival	surv_593	Alive	5254											f40734db-7844-5867-bd70-4e9f70ba28eb	526d60a6-4d34-5277-99f9-01006fca0e5b
+survival	surv_28	Dead	2256	Relapse									Due to this disease	f42be17a-47e0-5577-a5b3-5f3f1e952bc6	19239c28-d16b-5473-a822-c3edcb780d4b
+survival	surv_411	Alive	4275											f4c279bb-bea7-5429-8366-e7cfc77b76fa	a1e2c3c5-412e-5aec-a462-dbf1618a2bec
+survival	surv_218	Alive	3883											f4d5499d-39bc-5037-88f5-899ef59725f6	e6c8c5c4-59c7-5262-97cf-837e7db3133a
+survival	surv_56	Dead	2540	Relapse									Due to this disease	f4ff6f5a-8e4d-5c0c-a6d5-4a0fe044c762	6770d6aa-8053-5678-a686-37ead3f963fe
+survival	surv_189	Alive	5151											f5364b75-df05-5fa3-b357-a26f81c2c7b8	34703937-1469-5988-ac83-3d07b3b84959
+survival	surv_75	Dead	2492	Relapse									Due to this disease	f55229a2-3ef9-5948-b08f-ec425919bd92	568f8d3e-84c6-518e-a1ab-ac9a4ff00403
+survival	surv_249	Alive	6301											f5651c46-615d-555f-8a35-1bd4d0730f45	c06c1453-7d46-5526-b155-6b91d465ff48
+survival	surv_203	Alive	5503											f5e67b8d-e49b-596d-a2e3-a908301c1098	496ad6e7-5a27-57c7-bcef-590c9606e641
+survival	surv_601	Alive	4702											f6141665-fed7-53d4-a347-f3ca1dd82ab9	cb1ae5ad-c7aa-5196-afa8-cf7705343800
+survival	surv_267	Alive	2621											f659cd72-07f5-576d-9713-b27f414b908e	7243cbe3-a678-52d0-83d8-458974571265
+survival	surv_296	Alive	2428											f6a4cadc-6adc-5860-9428-36e229b7cf10	8b3b6a8e-d86a-5aa9-b2d5-b038de10be58
+survival	surv_66	Dead	2953	Relapse									Due to this disease	f6d0d19f-7b21-51d3-b219-b3047d6a936c	3b39122e-0295-5dfa-bb96-74f8eaeb1dbb
+survival	surv_216	Alive	2267											f74b8553-c773-5644-b6c4-2d2185596bee	754e2dec-748c-5f97-87d2-d4650323ade7
+survival	surv_481	Alive	4130											f7f3f6be-d138-5219-ad72-c01b1682e40b	ff46e26a-e597-582f-8d26-8f310818f221
+survival	surv_462	Alive	2802											f7f8b882-e721-51e6-9cf2-2913d9114f3d	47a0993d-15db-5a21-832b-426a5f1ac0eb
+survival	surv_614	Alive	3242											f815d24e-406a-58e3-bff1-1e4db3411471	9fca6a74-a720-56f7-a53d-9d69d416e57a
+survival	surv_495	Alive	4175	Relapse										f87f5666-154d-5f79-96fb-bc38aaa5d37d	29d20a88-cd34-501f-a2dc-bd127bff7267
+survival	surv_263	Alive	3166											f8a53a3e-62c3-5e55-b05e-ac7ed2a70664	54bbc570-c355-55b3-90db-e98d7eecc17d
+survival	surv_643	Alive	2413											f8aef398-ad76-5225-afa2-f294240e3f82	3b0c8485-035d-532f-9d45-db058de1d043
+survival	surv_74	Alive	4421	Relapse										f8c9bfe0-2683-5655-bdbd-36f7424963f4	19133fae-cc9a-545c-9570-8b2bca3f4689
+survival	surv_574	Alive	3833											f8cd7819-0c24-554a-95fb-1d187010324b	4063ec16-128b-5f69-b233-eab11b0e955d
+survival	surv_146	Alive	6766											f92c99a3-adea-58be-bc3a-98b694dea1f9	d9643aa7-7f3b-5c00-a77b-81cb0411e795
+survival	surv_40	Dead	1607	Relapse									Due to this disease	f93e46c9-d12e-590f-a139-7d390b1da146	b3a3eaa2-7ca6-5005-9115-db27d14d54fe
+survival	surv_615	Alive	1044	Relapse										f958c8e9-0807-5149-a2ef-5b45f2a19386	a22ea2d1-c6f1-5212-944e-7883097f6c82
+survival	surv_191	Dead	7700	Relapse									Due to this disease	f9977f15-0dd7-58de-8ba9-63d52a0898cb	b0bf4498-3d75-5819-b75e-29ef8807f78f
+survival	surv_348	Alive	1561											fa03453b-ed22-5a52-920d-56055f0f714a	33b9d9de-9255-510b-8e13-149aa69085c5
+survival	surv_494	Alive	4657	Relapse										fa0fd6b5-0b69-57b5-8cf7-1c12a03b4967	86004b23-dc82-5da6-87ea-0f23b9b694bd
+survival	surv_443	Alive	2286											fa29fb7c-57f6-51bf-a773-a8fc43a80952	ab6f8546-c6b5-58d3-8329-c7a7a2b639ba
+survival	surv_32	Alive	4242											fa56996b-faaf-59c9-ab5d-1e14d44ece17	582ccb66-f37e-546b-a948-a6fd81301f77
+survival	surv_70	Dead	1122	Relapse									Due to this disease	fa6ee11d-3c20-5242-8d1b-51ddbe44e53a	5182c899-5f84-5f22-92a6-7dbc42cc0655
+survival	surv_486	Alive	4714	Relapse										fabf884f-5070-5453-b073-30bb43ee8043	dcc821d0-8305-53d7-9844-ce3cc032a856
+survival	surv_172	Alive	6507											fac0fd19-3214-5714-ba99-758d92b3c626	2de427a5-2ed9-56e0-8efc-eb8710f90573
+survival	surv_525	Alive	2964											faca0ea4-283c-5c39-b593-f2656549a781	dd37fc0f-a22c-5279-8e1a-4efa8fdf016d
+survival	surv_171	Alive	1904											faf824ee-06d1-50e4-ac83-6ec7ac16b993	c20198d8-bda1-5738-bf31-00959b8640b2
+survival	surv_286	Alive	3116											fb28fd5c-a292-5d8f-941b-b1b9674f1192	399d96b6-3a0c-5c0f-b143-9fcc4633586c
+survival	surv_517	Alive	2338											fc108df7-522e-50c8-9408-6b0a2f1c0c38	c595335e-3436-5575-aa62-3a9eef0cfa14
+survival	surv_107	Alive	4802	Relapse										fc353047-13e5-58ae-8612-4d82c9373c32	64bf90a1-eacb-5d23-b3d0-2556bea7a93b
+survival	surv_376	Alive	5221											fc7bf494-3f24-5fa6-a9b0-9df66f152972	68639b22-9d00-54e6-a9f8-24e20112a916
+survival	surv_366	Alive	6713											fc92ef5c-902c-5083-81cb-3fa868206a98	a65a63aa-c885-5474-9eac-814766775ece
+survival	surv_73	Alive	3457											fc9c356f-3b90-5a5e-8611-b1f9e7f080b5	ee6fc699-6e71-500c-ad9d-aab8e9b7ca38
+survival	surv_201	Alive	4689											fcaca112-b65f-593f-adc1-01715c68955b	79638ac0-1b1a-51e0-92af-344a542f0006
+survival	surv_420	Alive	4990											fce7969b-4b97-5f81-af0e-16a3789aec62	eabd401a-afb1-5b31-bd5c-c4f80e9a830b
+survival	surv_441	Alive	4168											fd24eff8-1c18-5f85-aa31-1f95c93782d0	93e55ed2-83a5-5734-ad9c-18da8fc8ac02
+survival	surv_392	Alive	1485											fd643d8b-df7e-5e97-9380-07c18ff69a23	39864599-d7f4-56e3-b81b-4d3578d03472
+survival	surv_447	Alive	4223											fd99bba0-5243-5304-a04d-68fc239c588e	467e876d-2223-50af-8980-a4c60d7d0efc
+survival	surv_644	Alive	2427											fe03b2c6-f275-53f0-b6a9-0f82a6273963	b99a4eba-92b4-5ddd-8c9e-9a81e46833ec
+survival	surv_297	Alive	5030											fec3985c-383a-5797-bafb-54115bed2f3e	92e97bad-c14c-5eac-97aa-cb2cae968b5b
+survival	surv_288	Alive	4032											fef38a7a-4e35-515d-9081-761e1c75d198	5c5edb52-9986-55cb-acd7-f7b42ae403c4
+survival	surv_291	Alive	4703											ff772357-402c-5a62-8893-67764f503939	6324564e-cc7c-5de0-bb0e-5bce76de7c72

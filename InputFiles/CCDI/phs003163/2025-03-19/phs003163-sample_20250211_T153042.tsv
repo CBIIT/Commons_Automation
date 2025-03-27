@@ -1,0 +1,251 @@
+type	sample_id	tumor_classification	anatomic_site	participant_age_at_collection	sample_tumor_status	sample_description	crdc_id	id	participant.id	pdx.id	cell_line.id
+sample	6949-JMM-0062.pdx.samp	Metastatic	Not Reported	-999	Tumor			00f68664-e6d0-5e83-a55b-70ad8c9b0ba2		6fb5d190-16f3-5394-82bb-d84faee2f697	
+sample	6949-JMM-0068	Not Reported	Not Reported	-999	Tumor			01b83e2b-cbf4-5170-b9fc-6b3a4514255d	bcac8edd-eee9-582e-98f4-53300d8c60d1		
+sample	6949-JMM-0049_FP.pdx.samp	Metastatic	C41.9 : Bone, NOS	-999	Tumor			03a81536-e9a2-5781-97f3-b02ac00ed79e		d2588ac2-c6bd-52e6-bf39-f30f878f8b9e	
+sample	6949-JMM-0082.pdx.samp	Metastatic	C34.9 : Lung, NOS	2675	Tumor			03c3c571-c409-5e70-a0b7-8e5fad3df6c4		eb20c606-bd49-5c25-b315-b30d0b874d48	
+sample	6949-JMM-0072	Metastatic	Not Reported	-999	Tumor			07577ce1-c7e8-585a-9de1-e8f3080360ee	2e63925c-778c-5ef9-ab47-ed66f0f213f5		
+sample	6949-JMM-0045	Metastatic	C77.9 : Lymph node, NOS	-999	Tumor			077d05fe-2d63-5a16-8ffc-c4a9e1ba1633	fe910bbf-f533-5033-b4b7-5c1949003069		
+sample	6949-JMM-0038_FP	Not Reported	Not Reported	-999	Tumor	Local relapse		087614e7-36c8-5f81-96ec-d476dafa78e0	c155e2d8-f12b-5ca4-b921-62c39007b9af		
+sample	6949-JMM-0052_2.pdx.samp	Metastatic	C41.9 : Bone, NOS;C77.9 : Lymph node, NOS	-999	Tumor			08e87fac-096a-5bdb-8333-ff1372dc7c31		b5d738c5-2504-5af6-97ea-25c803b5af05	
+sample	6949-JMM-0071_FP	Metastatic	Not Reported	-999	Tumor			08fb047c-0c55-50a3-a0d5-76a9323e70a9	24d43e4c-31d0-5a12-986c-cf561db0c20e		
+sample	6949-JMM-0046_FP.pdx.samp	Metastatic	C34.9 : Lung, NOS	-999	Tumor			0a730e49-5ee6-50e3-8687-97e7110f0c1e		c3535c43-eb66-52e2-a73a-c09b693e1e7b	
+sample	6949-JMM-0056	Metastatic	C41.0 : Bones of skull and face and associated joints	-999	Tumor			0ae4ec71-b670-5b6d-86a4-583191001e82	58b61be1-608d-5787-ae93-cc451ff12df8		
+sample	6949-JMM-0041.pdx.samp	Metastatic	C41.9 : Bone, NOS	-999	Tumor			0b138368-d248-5717-9bff-cb4cccc40c6f		7a46dd70-9e3a-589f-9dd6-b4db770cffc6	
+sample	6949-JMM-0070	Metastatic	C49.9 : Connective, subcutaneous and other soft tissues, NOS	-999	Tumor			0df93e70-9922-5977-8ab4-4e52ea3c64c1	cc88454a-55b7-54ec-ba57-25897f2b0852		
+sample	6949-JMM-0055_FP.pdx.samp	Metastatic	Not Reported	-999	Tumor			0f2ae946-65b4-548e-b39a-696ff4fd99a4		25a50a00-035a-5d0c-974e-4c73bb8ca7be	
+sample	6949-JMM-0089.pdx.samp	Metastatic	Not Reported	-999	Tumor			104bb2bc-875b-5ff0-a772-222d50ba4fa6		5a70114f-7adf-53b9-96f4-648b916c8085	
+sample	6949-JMM-0048_FP	Not Reported	C48.0 : Retroperitoneum	-999	Tumor	Local relapse		10d3b8c8-8d22-54de-aaa4-96eb63b95012	6b46e7a4-eb5b-5a9d-a825-5e459015da7f		
+sample	6949-JMM-0102	Metastatic	C42.0 : Blood	1033	Tumor			115bd068-5bd4-514a-8fc4-1399906a733e	33bac207-dab6-5e50-ac8a-80978e9232e4		
+sample	6949-JMM-0058.pdx.samp	Metastatic	C34.9 : Lung, NOS	-999	Tumor			12e02345-3c15-5241-b69e-e6626298c02a		021f17a3-f628-534c-9e66-9739382fb455	
+sample	6949-JMM-0071.pdx.samp	Metastatic	Not Reported	-999	Tumor			13195e94-1048-5308-99a7-1248e97a8a45		90d55878-ad3e-5df6-963a-ce66fb3476c7	
+sample	6949-JMM-0040	Metastatic	Not Reported	-999	Tumor			13d91bc6-8355-5f2c-a910-098fbc3877b4	6609c2d5-4060-54dc-86bc-398fef7ed914		
+sample	6949-JMM-0062_FP.pdx.samp	Metastatic	Not Reported	-999	Tumor			159d5d04-837d-59ed-bc5e-79d37e37f0c6		0b75fbb7-ef4c-5333-b3b5-a6cc86dff25a	
+sample	6949-JMM-0057_2	Metastatic	C42.1 : Bone marrow	-999	Tumor			16015bf8-7fde-53c0-9076-688261287a48	fa5d2643-c4c8-5221-a4d4-a65014aa10ff		
+sample	6949-JMM-0070_FP.pdx.samp	Metastatic	C49.9 : Connective, subcutaneous and other soft tissues, NOS	-999	Tumor			16290783-4755-5cc4-9783-d86d864f6e68		ba02ecf4-9868-5c9b-9e6e-619d1cb704b1	
+sample	6949-JMM-0069.pdx.samp	Metastatic	Not Reported	-999	Tumor			16755c67-004c-53b0-ba2b-fb75a814082a		56d14090-68b8-55da-9792-bf06eb8a62f6	
+sample	6949-JMM-0048_FP.pdx.samp	Not Reported	C48.0 : Retroperitoneum	-999	Tumor			170c291c-92e5-5dcf-8e88-ac26151c61c2		4ca18a52-2c4b-5377-866a-c6cf10d71baa	
+sample	6949-JMM-0060.pdx.samp	Metastatic	C42.0 : Blood	-999	Tumor			1787ad09-1ca9-522f-8b43-7ffe2d546465		610baf1f-f045-5269-ae9f-6c108d035f40	
+sample	6949-JMM-0087.pdx.samp	Metastatic	C77.9 : Lymph node, NOS	-999	Tumor			19183c46-7951-5668-a992-c007630a4e38		36f899b9-c1c8-5503-a50a-978a5887841a	
+sample	6949-JMM-0049.pdx.samp	Metastatic	C41.9 : Bone, NOS	-999	Tumor			1a4d0301-d800-527a-b0c4-b2a4dae99db1		0b689556-9a7f-5161-bcba-c1427193ba82	
+sample	6949-JMM-0059.pdx.samp	Metastatic	C42.0 : Blood	-999	Tumor			1add5ca2-219d-5a51-8d16-0a60502a0057		b4614f8a-0c59-5375-9bcf-9c29bc7c0cfd	
+sample	6949-JMM-0045_FP.pdx.samp	Metastatic	C77.9 : Lymph node, NOS	-999	Tumor			1b301e32-cd3d-5341-a9e3-d3953397dc9e		d2b5582a-d001-5981-87b5-48778ce537e5	
+sample	6949-JMM-0075	Metastatic	Not Reported	-999	Tumor			1c439dc3-5f84-5437-ab14-428737b5b71b	699e3264-bfd2-5173-a9c3-97c2e75af915		
+sample	6949-JMM-0066_FP	Metastatic	C42.0 : Blood	-999	Tumor			1f2879ef-2dbc-5d08-ad02-c366028245d9	33bac207-dab6-5e50-ac8a-80978e9232e4		
+sample	6949-JMM-0057_FP	Metastatic	C42.1 : Bone marrow	-999	Tumor			20706d10-7b4e-5775-9721-f961e2a7b7da	fa5d2643-c4c8-5221-a4d4-a65014aa10ff		
+sample	6949-JMM-0072_FP.pdx.samp	Metastatic	Not Reported	-999	Tumor			2189e2d0-1da1-56cf-92fb-aac331dd5e13		b48438cd-3787-5b48-bc84-60dcc39c8e2b	
+sample	6949-JMM-0072_2	Metastatic	Not Reported	-999	Tumor			2215150f-6f1c-5c38-9958-610460ae639d	2e63925c-778c-5ef9-ab47-ed66f0f213f5		
+sample	6949-JMM-0069	Metastatic	Not Reported	-999	Tumor			223dd69f-8ffb-5cfa-8209-533a3250c692	5d905fcc-a028-56ad-acac-35d22694f5c2		
+sample	6949-JMM-0057	Metastatic	C42.1 : Bone marrow	-999	Tumor			23831eb6-e72b-5ada-86cc-3e65cd3ca03b	fa5d2643-c4c8-5221-a4d4-a65014aa10ff		
+sample	6949-JMM-0054_FP.pdx.samp	Metastatic	Not Reported	-999	Tumor			247b2ba1-a27b-5bae-95b2-acce9e5331da		76d84ad0-dadb-50fa-bad0-14b62946b796	
+sample	6949-JMM-0040_FP.pdx.samp	Metastatic	Not Reported	-999	Tumor			248b45fd-f887-5cae-bfdf-57a02d68292e		79083aa4-8d62-588f-a5f8-f9f17102232a	
+sample	6949-JMM-0097	Metastatic	Not Reported	-999	Tumor			2814a329-2762-5a45-9138-b727749799be	218a9bf3-a0c9-52a4-a59f-53b1191ab694		
+sample	6949-JMM-0086.pdx.samp	Metastatic	C77.9 : Lymph node, NOS	-999	Tumor			283b4df9-0c97-5600-bea0-4cecd59e3f3e		d626361d-88e4-55d3-b98e-728ec5297090	
+sample	6949-JMM-0038	Not Reported	Not Reported	-999	Tumor	Local relapse		296fdb4f-bca5-5dba-b092-28cd680e572e	c155e2d8-f12b-5ca4-b921-62c39007b9af		
+sample	6949-JMM-0062	Metastatic	Not Reported	-999	Tumor			2adfaad3-bb7e-5c75-aea1-d431e856279e	2258acb2-7947-5a4b-a6c1-5d1d38c26e77		
+sample	6949-JMM-0054_2.pdx.samp	Metastatic	Not Reported	-999	Tumor			2b3a11c6-1e26-50fb-8430-4badc0f0a9ab		d2fe8fbe-e1bd-5248-bba4-4b581a035ec3	
+sample	6949-JMM-0059_2	Metastatic	C42.0 : Blood	-999	Tumor			2b82df70-47ca-5056-945d-5ee06997cb6c	47b66806-4ee3-53ec-98ef-d8b2a4e6429b		
+sample	6949-JMM-0067_FP.pdx.samp	Metastatic	Not Reported	-999	Tumor			2cecc7cd-90fd-5dab-a4ec-801892c7504b		b7d0cd40-7f1f-549a-bca7-04f436dce047	
+sample	6949-JMM-0056_FP	Metastatic	C41.0 : Bones of skull and face and associated joints	-999	Tumor			2e91bb76-0ab2-5b3b-8051-bc13fb7dc17b	58b61be1-608d-5787-ae93-cc451ff12df8		
+sample	6949-JMM-0054_2	Metastatic	Not Reported	-999	Tumor			2ea117c3-f122-59ea-a868-9ad2898e2acf	4b679924-e1f6-5e8b-9b3a-059ac41d649f		
+sample	6949-JMM-0071_FP.pdx.samp	Metastatic	Not Reported	-999	Tumor			2ef0bf80-445d-5624-a08b-abedcf957305		58da5c37-2bb4-5e83-80aa-ae14b36e5206	
+sample	6949-JMM-0087	Metastatic	C77.9 : Lymph node, NOS	-999	Tumor			305b64c2-b48e-5388-a1db-af672870a758	3d58efd8-d023-568d-9faf-ae3feccae347		
+sample	6949-JMM-0051	Metastatic	C77.9 : Lymph node, NOS	-999	Tumor			30d4b3e3-fa05-51e4-af5c-d5f2308978ff	3d58efd8-d023-568d-9faf-ae3feccae347		
+sample	6949-JMM-0096	Metastatic	C42.0 : Blood	-999	Tumor			31705e81-d75e-5593-9f26-3ccf5fcb5092	d5c2bed7-847f-5d80-93cb-29ab918c8ff7		
+sample	6949-JMM-0098	Metastatic	Not Reported	-999	Tumor			31e54f15-924e-580e-8655-bf438786ede3	2258acb2-7947-5a4b-a6c1-5d1d38c26e77		
+sample	6949-JMM-0054_FP	Metastatic	Not Reported	-999	Tumor			32220dea-4341-5106-a51e-a2b95f085907	4b679924-e1f6-5e8b-9b3a-059ac41d649f		
+sample	6949-JMM-0056.pdx.samp	Metastatic	C41.0 : Bones of skull and face and associated joints	-999	Tumor			36bbb3e1-0de2-5705-a296-bb4f08d1b646		fc2c52d5-bd19-5a39-9478-8d8202c471f0	
+sample	6949-JMM-0051_FP.pdx.samp	Metastatic	C77.9 : Lymph node, NOS	-999	Tumor			36d682dc-464e-5b66-922d-319941321831		384e581a-0c03-5bf6-938d-d0c9a8ee2a1d	
+sample	6949-JMM-0074.pdx.samp	Not Reported	Not Reported	-999	Tumor			38c46dd2-900d-59b2-8949-19f1326c3df0		8e888211-b369-583f-9e6f-a4f30a0e8275	
+sample	6949-JMM-0065.pdx.samp	Metastatic	C42.0 : Blood	-999	Tumor			39559fdf-b1f2-507c-bb7c-fea4978bcbfe		aca92ee5-1379-592f-93cc-d9c68cb98944	
+sample	6949-JMM-0072_FP	Metastatic	Not Reported	-999	Tumor			3a9594b6-52fc-568d-9bdf-e7920abfa489	2e63925c-778c-5ef9-ab47-ed66f0f213f5		
+sample	6949-JMM-0069_2	Metastatic	Not Reported	-999	Tumor			3ac14883-ebdb-569e-970f-511b7251bbc1	5d905fcc-a028-56ad-acac-35d22694f5c2		
+sample	6949-JMM-0054	Metastatic	Not Reported	-999	Tumor			3af5bd00-df50-5a73-ab87-0f2463aaf789	4b679924-e1f6-5e8b-9b3a-059ac41d649f		
+sample	6949-JMM-0073.pdx.samp	Metastatic	Not Reported	-999	Tumor			3b7b320d-c02d-5aa8-a6af-332c47472dcd		17233446-ae08-5cc1-a6b8-9a0dec046018	
+sample	6949-JMM-0091.pdx.samp	Metastatic	Not Reported	-999	Tumor			3c01c5b8-411d-5092-82d4-90483002453f		bf82c61f-2637-555e-a76f-8c0e7afae236	
+sample	6949-JMM-0092.pdx.samp	Metastatic	C41.0 : Bones of skull and face and associated joints	759	Tumor			3c5bafd6-6170-54c0-9de8-e27b5d489e52		5b2d9f6d-7b33-5ecf-b901-5389db66c310	
+sample	6949-JMM-0050_FP.pdx.samp	Metastatic	Not Reported	-999	Tumor			3d861c26-e71d-5474-a010-8f35ace92735		027199e4-1cd4-5b43-965e-96386b21211b	
+sample	6949-JMM-0039	Metastatic	Not Reported	-999	Tumor			3e61d0b6-83c1-5e84-8f8e-6cbec9250618	699e3264-bfd2-5173-a9c3-97c2e75af915		
+sample	6949-JMM-0058_FP.pdx.samp	Metastatic	C34.9 : Lung, NOS	-999	Tumor			3f4b91ed-f5e9-5053-bb89-8971c8767c86		82b882dc-3566-50b0-8d7d-5da48f35120e	
+sample	6949-JMM-0081	Metastatic	C77.9 : Lymph node, NOS	2891	Tumor			3fae1e07-fb7d-5e17-816d-1d35d13158c5	fe910bbf-f533-5033-b4b7-5c1949003069		
+sample	6949-JMM-0052.pdx.samp	Metastatic	C41.9 : Bone, NOS;C77.9 : Lymph node, NOS	-999	Tumor			40701aba-19cf-5e87-81ac-22fc63edc1b6		4d8e8fd5-e86d-50ea-bc14-e500e43f3d7d	
+sample	6949-JMM-0065_2.pdx.samp	Metastatic	C42.0 : Blood	-999	Tumor			4236206f-802d-569b-a4d4-09fb5a993b82		751f2fc2-91d6-59d8-92c5-91fe5754335a	
+sample	6949-JMM-0096.pdx.samp	Metastatic	C42.0 : Blood	-999	Tumor			438de5b6-692f-5f5a-90ae-c8a7a43a4d7d		436d448e-2026-584f-84be-62b308f3ca5a	
+sample	6949-JMM-0066_2	Metastatic	C42.0 : Blood	-999	Tumor			442b8620-3fb6-53b6-b9a6-a317131d724a	33bac207-dab6-5e50-ac8a-80978e9232e4		
+sample	6949-JMM-0067_FP	Metastatic	Not Reported	-999	Tumor			445f36de-fcd4-5da3-b9ea-9d67aeb4fb40	e580d5be-8f59-5458-84fa-21db74ab0255		
+sample	6949-JMM-0099	Metastatic	C42.1 : Bone marrow	548	Tumor			448413ec-2d1b-5ae4-a056-d33252687b9c	ecebbb74-3a40-5ab4-ab3b-647c31187c48		
+sample	6949-JMM-0042_FP.pdx.samp	Metastatic	Not Reported	-999	Tumor			46bb01c6-0ae4-576c-8d8c-aac453b3ea3b		8f42ba9e-e5f0-5019-b5dc-67b489c67377	
+sample	6949-JMM-0043	Metastatic	Not Reported	-999	Tumor			476dfae2-e178-5eb0-8418-82150842b14f	1239141c-e1ff-56ab-a428-e33b0e8d60c6		
+sample	6949-JMM-0037_FP	Metastatic	Not Reported	-999	Tumor			48a72351-83ed-5085-8e1f-0a42643b5409	309d9b37-4cb1-5f8b-aeb2-f3bf208d2c8f		
+sample	6949-JMM-0052_FP.pdx.samp	Metastatic	C41.9 : Bone, NOS;C77.9 : Lymph node, NOS	-999	Tumor			49703402-c697-555e-b398-af137ac9b1cd		c904b70c-e0f9-59bd-a3d2-4691d14932fd	
+sample	6949-JMM-0062_FP	Metastatic	Not Reported	-999	Tumor			4b961a6a-321f-5ce8-9e45-2fd9fe0ff748	2258acb2-7947-5a4b-a6c1-5d1d38c26e77		
+sample	6949-JMM-0038_FP.pdx.samp	Not Reported	Not Reported	-999	Tumor			4bff829c-b903-5372-b03d-d6a79ad5346b		6d579c7a-8415-5219-a43b-58cf0dffdc8e	
+sample	6949-JMM-0055	Metastatic	Not Reported	-999	Tumor			4ee6ccc3-12ac-5990-a68f-3124e116ef5f	70446412-234d-5466-96ba-d443bf1ff3a7		
+sample	6949-JMM-0076	Metastatic	Not Reported	-999	Tumor			508e6e5a-0797-540b-84ca-279bcebec6b2	6609c2d5-4060-54dc-86bc-398fef7ed914		
+sample	6949-JMM-0042	Metastatic	Not Reported	-999	Tumor			5156591b-3772-51f6-b5cd-5fe9b7519f5b	3992b490-888c-5877-8ddb-f83f9e1ca3aa		
+sample	6949-JMM-0055_2	Metastatic	Not Reported	-999	Tumor			5250c8ed-9313-5502-92dd-c281f74ff8e9	70446412-234d-5466-96ba-d443bf1ff3a7		
+sample	6949-JMM-0052	Metastatic	C41.9 : Bone, NOS;C77.9 : Lymph node, NOS	-999	Tumor			52603315-0301-5cf7-a8c4-97b3e427b0d2	96a4c83f-ad8f-57e6-89f2-5ec19dd6836f		
+sample	6949-JMM-0101	Metastatic	C42.0 : Blood	1033	Tumor			52b67bb6-6795-5e90-b236-8e79477bde2e	2d77ed82-77b8-5cb7-b25f-b4b576729eab		
+sample	6949-JMM-0055.pdx.samp	Metastatic	Not Reported	-999	Tumor			545a36f7-405f-5bee-a489-852332468ada		7516ca0d-2e47-558e-a12f-784f02eef2eb	
+sample	6949-JMM-0068_2	Not Reported	Not Reported	-999	Tumor			5b78a2ee-4957-5719-b526-25a31b57a309	bcac8edd-eee9-582e-98f4-53300d8c60d1		
+sample	6949-JMM-0039_FP.pdx.samp	Metastatic	Not Reported	-999	Tumor			5be316dd-f9e8-5f4e-a79d-8eb463220f17		4f369336-8626-54d2-a5b0-1fea9ce7811e	
+sample	6949-JMM-0078	Metastatic	Not Reported	-999	Tumor			5e3ee284-1226-5695-b415-d64deb4b73b5	3992b490-888c-5877-8ddb-f83f9e1ca3aa		
+sample	6949-JMM-0063_FP	Metastatic	C42.1 : Bone marrow	-999	Tumor			5e59b996-59e4-54da-a0a9-97bc436fb21c	ecebbb74-3a40-5ab4-ab3b-647c31187c48		
+sample	6949-JMM-0068_FP.pdx.samp	Not Reported	Not Reported	-999	Tumor			5ea7cf23-fbcc-5737-acdc-3661f569ef9a		f782a9d7-536b-59c3-8c01-ebdb28606857	
+sample	6949-JMM-0061	Metastatic	Not Reported	-999	Tumor			5f73b39d-3bc2-51d7-b9ba-24c4a8edddc3	218a9bf3-a0c9-52a4-a59f-53b1191ab694		
+sample	6949-JMM-0083	Metastatic	Not Reported	-999	Tumor			6003de67-04d6-5ad3-824c-47ee6d470716	7bea5175-7020-5b92-860d-66840432a4fc		
+sample	6949-JMM-0066.pdx.samp	Metastatic	C42.0 : Blood	-999	Tumor			60fd37d2-a72d-51f0-a8df-1acec187d9d0		410b78e2-fab9-58a7-93fa-9b8577504cc4	
+sample	6949-JMM-0064_FP.pdx.samp	Metastatic	C42.1 : Bone marrow	-999	Tumor			617c8805-cd10-5c4d-a3e6-c030c8f1df2e		577bc1e8-2132-58ae-ad65-0d3278b388b8	
+sample	6949-JMM-0094.pdx.samp	Metastatic	C34.9 : Lung, NOS	-999	Tumor			61c497fc-1bfa-5ffe-80fc-19f0bb958e18		42cefea5-a58f-57c1-aecc-87049d1a4355	
+sample	6949-JMM-0108	Metastatic	Not Reported	-999	Tumor			62a6dc81-1cd8-5fe4-8fb6-0a92fbf38c8e	2e63925c-778c-5ef9-ab47-ed66f0f213f5		
+sample	6949-JMM-0107.pdx.samp	Metastatic	Not Reported	-999	Tumor			62d0eeda-edbc-5cb5-891f-94ff94ff019f		d3ac291a-6c1b-538a-991d-d6df05bcbfa4	
+sample	6949-JMM-0047_FP.pdx.samp	Metastatic	Not Reported	-999	Tumor			638aa78b-bd9c-53d7-a308-9dedde9c64b8		a853ac41-7287-5c6d-ad40-d29fe500a63d	
+sample	6949-JMM-0058_FP	Metastatic	C34.9 : Lung, NOS	-999	Tumor			638bbdd5-f240-583b-9603-7c19387fc117	d4c2dbb0-9e05-59de-9dd5-ba52102b329c		
+sample	6949-JMM-0042_FP	Metastatic	Not Reported	-999	Tumor			66d0c26a-1c37-5746-b2eb-5241fb4af605	3992b490-888c-5877-8ddb-f83f9e1ca3aa		
+sample	6949-JMM-0074	Not Reported	Not Reported	-999	Tumor	Local relapse		66e7b2ff-9131-539b-86fd-f69612d76120	c155e2d8-f12b-5ca4-b921-62c39007b9af		
+sample	6949-JMM-0071	Metastatic	Not Reported	-999	Tumor			66f3530d-10ed-5e77-8f3b-fb93252ccbaa	24d43e4c-31d0-5a12-986c-cf561db0c20e		
+sample	6949-JMM-0066_FP.pdx.samp	Metastatic	C42.0 : Blood	-999	Tumor			673154ae-65c1-55ef-b630-f31e6f1d25b7		74e7cf87-102e-5fda-a82d-bdad4c86b34a	
+sample	6949-JMM-0052_FP	Metastatic	C41.9 : Bone, NOS;C77.9 : Lymph node, NOS	-999	Tumor			69c8370c-0224-514b-b0a7-32ca23a32064	96a4c83f-ad8f-57e6-89f2-5ec19dd6836f		
+sample	6949-JMM-0104.pdx.samp	Not Reported	Not Reported	-999	Tumor			69f80a62-0eea-581c-8261-56744d0ba839		65e2a47e-70ff-542d-a7e7-4289ed2c20e5	
+sample	6949-JMM-0099.pdx.samp	Metastatic	C42.1 : Bone marrow	548	Tumor			6a493ecb-d57d-5f7b-aff0-adf596e679aa		8792f53e-ca7c-590c-813a-09b92ee90594	
+sample	6949-JMM-0084	Not Reported	C48.0 : Retroperitoneum	3296	Tumor	Local relapse		6aad11f5-acce-5f56-b1ea-0c68997d8a17	6b46e7a4-eb5b-5a9d-a825-5e459015da7f		
+sample	6949-JMM-0067.pdx.samp	Metastatic	Not Reported	-999	Tumor			6d88e91b-d41b-52b3-b5f6-2edf3eb8a895		14933056-9754-53cc-8b10-6ae25417f5f1	
+sample	6949-JMM-0044_FP.pdx.samp	Metastatic	C42.0 : Blood	-999	Tumor			6e34e3d3-5426-534b-9865-22f1b2ac5ab5		670dd58d-314a-5a5a-bf6d-4852d7b076a4	
+sample	6949-JMM-0056_2	Metastatic	C41.0 : Bones of skull and face and associated joints	-999	Tumor			6eac6aea-949c-54bd-95ff-ab29dc50ec6a	58b61be1-608d-5787-ae93-cc451ff12df8		
+sample	6949-JMM-0063_2.pdx.samp	Metastatic	C42.1 : Bone marrow	-999	Tumor			701842d1-41c0-5002-956e-e6ee9bb7f4de		02266f4d-da67-5196-9c1e-ec953cfd99c9	
+sample	6949-JMM-0060_2	Metastatic	C42.0 : Blood	-999	Tumor			70646350-6ad9-58a1-a79f-16ea51055cc6	d5c2bed7-847f-5d80-93cb-29ab918c8ff7		
+sample	6949-JMM-0065	Metastatic	C42.0 : Blood	-999	Tumor			72f8e1cc-6b24-5aab-a59e-c32ee6d10e32	2d77ed82-77b8-5cb7-b25f-b4b576729eab		
+sample	6949-JMM-0055_FP	Metastatic	Not Reported	-999	Tumor			75771db0-d0bd-5cda-98e0-0ed4e347ab1f	70446412-234d-5466-96ba-d443bf1ff3a7		
+sample	6949-JMM-0093	Metastatic	C42.1 : Bone marrow	-999	Tumor			758094b5-9740-5d83-8bb0-2b8853221683	fa5d2643-c4c8-5221-a4d4-a65014aa10ff		
+sample	6949-JMM-0044.pdx.samp	Metastatic	C42.0 : Blood	-999	Tumor			758102ce-5197-5d6a-99ae-0883d37a1cf1		87a8028c-cc3a-522a-8f14-82f2823bd57d	
+sample	6949-JMM-0084.pdx.samp	Not Reported	C48.0 : Retroperitoneum	3296	Tumor			75a9df2a-9438-526d-baff-31e0ea8b3d32		fe9df52c-842a-5d82-b8ef-2f03747bd64e	
+sample	6949-JMM-0045.pdx.samp	Metastatic	C77.9 : Lymph node, NOS	-999	Tumor			75f45309-edbb-5fac-81c5-9d5c66ca0be5		04679ca9-823b-5170-9e3c-60d185ecb55f	
+sample	6949-JMM-0108.pdx.samp	Metastatic	Not Reported	-999	Tumor			7725564d-8f83-58f9-86be-5813631ec667		6bd8099e-8533-5108-a8ed-4a432a8db73d	
+sample	6949-JMM-0069_FP	Metastatic	Not Reported	-999	Tumor			7818ad1c-c2ff-5a06-ac79-39815f040fad	5d905fcc-a028-56ad-acac-35d22694f5c2		
+sample	6949-JMM-0045_FP	Metastatic	C77.9 : Lymph node, NOS	-999	Tumor			781b13ac-5bc7-542b-a550-04a6a650c3eb	fe910bbf-f533-5033-b4b7-5c1949003069		
+sample	6949-JMM-0049_FP	Metastatic	C41.9 : Bone, NOS	-999	Tumor			78493fb1-669a-5c3c-a6de-fb524536f193	8de92ffb-1d65-59f9-9e68-455f28e6aa6d		
+sample	6949-JMM-0043.pdx.samp	Metastatic	Not Reported	-999	Tumor			79cf5fb4-6152-5ada-b2b7-8f206227b698		f0de49f0-eb3a-5ac0-b5ef-f835093c0069	
+sample	6949-JMM-0047	Metastatic	Not Reported	-999	Tumor			7b9d40aa-3878-5b5b-b07c-b88cd94a32cb	7bea5175-7020-5b92-860d-66840432a4fc		
+sample	6949-JMM-0105.pdx.samp	Metastatic	Not Reported	-999	Tumor			7e95a6a9-5ed7-52f8-88ee-1e95c1e2f927		f834991b-a5e5-5a9d-a527-2f4cb650f9af	
+sample	6949-JMM-0038.pdx.samp	Not Reported	Not Reported	-999	Tumor			7ef88573-3fe5-58cb-bc3f-765628d1d0a5		4d5e5f15-2d6e-5b14-b600-e4ef6000c4be	
+sample	6949-JMM-0061_2	Metastatic	Not Reported	-999	Tumor			7f4a96fb-2163-5dc5-b057-a493dd6b718c	218a9bf3-a0c9-52a4-a59f-53b1191ab694		
+sample	6949-JMM-0106	Metastatic	C49.9 : Connective, subcutaneous and other soft tissues, NOS	-999	Tumor			81253bd9-1dae-5ec7-bfdd-dbeb495b623b	cc88454a-55b7-54ec-ba57-25897f2b0852		
+sample	6949-JMM-0039.pdx.samp	Metastatic	Not Reported	-999	Tumor			81766a78-e4b9-5ab9-b568-fbef4a3ba4aa		ff6c4761-b525-5dc1-90a2-3428e751156e	
+sample	6949-JMM-0092	Metastatic	C41.0 : Bones of skull and face and associated joints	759	Tumor			81efc9be-e61f-52ba-811c-15d07692706e	58b61be1-608d-5787-ae93-cc451ff12df8		
+sample	6949-JMM-0063	Metastatic	C42.1 : Bone marrow	-999	Tumor			8225e9cc-ef0b-54de-9a99-be63ad390f73	ecebbb74-3a40-5ab4-ab3b-647c31187c48		
+sample	6949-JMM-0060_2.pdx.samp	Metastatic	C42.0 : Blood	-999	Tumor			835d62e1-8f9a-54e7-8f67-24ffb42d6252		9dc06d37-54fe-5eea-be4d-355ab315e8be	
+sample	6949-JMM-0064	Metastatic	C42.1 : Bone marrow	-999	Tumor			83711073-64d0-538c-96e9-162a619f3c7a	feaf46aa-141d-56da-8441-e22b1471f96a		
+sample	6949-JMM-0059	Metastatic	C42.0 : Blood	-999	Tumor			84bde840-3c5e-55f3-b23f-84761c28879a	47b66806-4ee3-53ec-98ef-d8b2a4e6429b		
+sample	6949-JMM-0061_FP.pdx.samp	Metastatic	Not Reported	-999	Tumor			84f2c0ec-2d2d-5d23-ae1b-b3e54c6637bb		8ea179f3-3b49-5280-b4c8-a87e07780cd8	
+sample	6949-JMM-0044_FP	Metastatic	C42.0 : Blood	-999	Tumor			8754cf53-5461-50f6-bcde-ef31eb5bc5c5	9d4bc309-b507-5105-a20c-0b8eccd12f2f		
+sample	6949-JMM-0046	Metastatic	C34.9 : Lung, NOS	-999	Tumor			88a92643-992c-57bc-b4fe-cd181a54c662	5029ec7b-0354-562c-956c-f84bb02d43a6		
+sample	6949-JMM-0059_FP	Metastatic	C42.0 : Blood	-999	Tumor			8abc2616-550c-5488-959c-392678c08445	47b66806-4ee3-53ec-98ef-d8b2a4e6429b		
+sample	6949-JMM-0069_FP.pdx.samp	Metastatic	Not Reported	-999	Tumor			8b40a09d-6cd1-516d-a32c-72f9f17ffea0		a699c2b0-41d6-5538-9204-ec7934eef724	
+sample	6949-JMM-0095	Metastatic	C42.0 : Blood	-999	Tumor			8c3252b7-0bd3-592b-962f-c1ad79f019de	47b66806-4ee3-53ec-98ef-d8b2a4e6429b		
+sample	6949-JMM-0063_2	Metastatic	C42.1 : Bone marrow	-999	Tumor			8c6a7e16-2092-5b01-b1f6-fc270c84c183	ecebbb74-3a40-5ab4-ab3b-647c31187c48		
+sample	6949-JMM-0100.pdx.samp	Metastatic	C42.1 : Bone marrow	548	Tumor			8d62d985-0e0a-51ca-91ac-c05a641e1194		1e887990-a36b-5913-8420-0f239f373897	
+sample	6949-JMM-0070_FP	Metastatic	C49.9 : Connective, subcutaneous and other soft tissues, NOS	-999	Tumor			8f0fc7b6-323d-50dc-a372-a20f92a0bcc0	cc88454a-55b7-54ec-ba57-25897f2b0852		
+sample	6949-JMM-0043_FP	Metastatic	Not Reported	-999	Tumor			8f51a060-9df0-51f8-a970-2e6972db35f7	1239141c-e1ff-56ab-a428-e33b0e8d60c6		
+sample	6949-JMM-0040_FP	Metastatic	Not Reported	-999	Tumor			8f6af3c7-c9c8-52e9-b5e2-05a39d473e71	6609c2d5-4060-54dc-86bc-398fef7ed914		
+sample	6949-JMM-0072.pdx.samp	Metastatic	Not Reported	-999	Tumor			90fba26c-e84b-5ea0-86ee-b1aa96ae78f4		c04976d0-e8c3-5d25-a46c-0743dd50e23a	
+sample	6949-JMM-0070.pdx.samp	Metastatic	C49.9 : Connective, subcutaneous and other soft tissues, NOS	-999	Tumor			920deb4e-ecb5-57c9-a42d-a557013c30ce		c78469ab-6ebc-5561-89ca-f8f3e2da41f9	
+sample	6949-JMM-0068_2.pdx.samp	Not Reported	Not Reported	-999	Tumor			921a7cf6-d19a-5b27-9757-3fe7e72ee368		80397997-12c8-5dd1-a856-0d8fce6f7ce5	
+sample	6949-JMM-0107	Metastatic	Not Reported	-999	Tumor			954904f3-eac8-5507-80a7-e15be8aaf55c	24d43e4c-31d0-5a12-986c-cf561db0c20e		
+sample	6949-JMM-0063.pdx.samp	Metastatic	C42.1 : Bone marrow	-999	Tumor			966fcfdc-0a82-5590-b9e7-b97f7e9b551c		a8dc8d45-0c13-57ae-b95e-6e1bf529b54e	
+sample	6949-JMM-0086	Metastatic	C77.9 : Lymph node, NOS	-999	Tumor			97e5bf60-4132-52e1-85d6-91134975464f	1861e1a1-01a6-5843-b73c-0d73acc0c4e7		
+sample	6949-JMM-0037_FP.pdx.samp	Metastatic	Not Reported	-999	Tumor			996eb6c3-f373-5e15-a912-080e66eb62ed		e0d91c29-4649-5772-949c-e86a3b67c066	
+sample	6949-JMM-0056_FP.pdx.samp	Metastatic	C41.0 : Bones of skull and face and associated joints	-999	Tumor			99d1745e-5321-5bcf-9daf-67171aee2461		c29d1f3f-dd0f-5391-9686-6b08f6fb39cb	
+sample	6949-JMM-0047_FP	Metastatic	Not Reported	-999	Tumor			9b689e32-7bd9-585a-b9c8-3d2fae24a168	7bea5175-7020-5b92-860d-66840432a4fc		
+sample	6949-JMM-0067	Metastatic	Not Reported	-999	Tumor			9b7beb73-fb9c-548e-b530-846978ffd8a9	e580d5be-8f59-5458-84fa-21db74ab0255		
+sample	6949-JMM-0106.pdx.samp	Metastatic	C49.9 : Connective, subcutaneous and other soft tissues, NOS	-999	Tumor			9d9bcc4b-db7f-5cff-9861-06f6f39b9f16		0dff9bea-09e3-5ef7-a19f-f19fd1b34577	
+sample	6949-JMM-0042.pdx.samp	Metastatic	Not Reported	-999	Tumor			9dc95536-c323-59cd-8ac8-66415b48a7a6		2fe9fa81-25ad-5e63-8458-ff994544f1b8	
+sample	6949-JMM-0105	Metastatic	Not Reported	-999	Tumor			9eeae6c5-34b5-5dfa-91ca-ace2e13a188b	5d905fcc-a028-56ad-acac-35d22694f5c2		
+sample	6949-JMM-0095.pdx.samp	Metastatic	C42.0 : Blood	-999	Tumor			9f3beaca-a55d-5b55-bfb5-27fb2d249a96		e0ecc3fb-3906-5806-b19c-1835378b2ade	
+sample	6949-JMM-0046_FP	Metastatic	C34.9 : Lung, NOS	-999	Tumor			9fe23d30-cbdb-591a-b6fc-0d5d9049cf4a	5029ec7b-0354-562c-956c-f84bb02d43a6		
+sample	6949-JMM-0088.pdx.samp	Metastatic	C41.9 : Bone, NOS;C77.9 : Lymph node, NOS	-999	Tumor			a0b6daa2-baa5-505c-84d0-3bcad523ed8d		c2d25917-509c-5369-a400-142d260336fd	
+sample	6949-JMM-0100	Metastatic	C42.1 : Bone marrow	548	Tumor			a21512da-fda6-5fb9-81ee-ed3704fecde2	feaf46aa-141d-56da-8441-e22b1471f96a		
+sample	6949-JMM-0070_2.pdx.samp	Metastatic	C49.9 : Connective, subcutaneous and other soft tissues, NOS	-999	Tumor			a26a9c4a-4dda-56c3-81de-4296a0c3483c		3f7d44a8-b56e-5f4e-9365-03a8d61f7c18	
+sample	6949-JMM-0104	Not Reported	Not Reported	-999	Tumor			a276b5fc-4ae5-56a7-a549-e575365fe270	bcac8edd-eee9-582e-98f4-53300d8c60d1		
+sample	6949-JMM-0088	Metastatic	C41.9 : Bone, NOS;C77.9 : Lymph node, NOS	-999	Tumor			a2c71211-e834-5e1e-bfe0-a65578ef22b4	96a4c83f-ad8f-57e6-89f2-5ec19dd6836f		
+sample	6949-JMM-0063_FP.pdx.samp	Metastatic	C42.1 : Bone marrow	-999	Tumor			a457f831-f9d8-51a9-aee4-99f2526d9a17		8ef85cbe-1f28-581b-a582-1a9eceb78057	
+sample	6949-JMM-0067_2.pdx.samp	Metastatic	Not Reported	-999	Tumor			a4e7ee75-51a7-54bc-8420-b1701b563596		9a7d6941-ae71-54b6-bd6d-3cdba695768a	
+sample	6949-JMM-0050.pdx.samp	Metastatic	Not Reported	-999	Tumor			a65cdb44-9274-5578-9700-7a69deea9d69		24b75f05-e860-550b-9f0c-a4ee26c20168	
+sample	6949-JMM-0050_FP	Metastatic	Not Reported	-999	Tumor			a696da7c-3d8f-5fa6-a712-74624933c912	1861e1a1-01a6-5843-b73c-0d73acc0c4e7		
+sample	6949-JMM-0041_FP.pdx.samp	Metastatic	C41.9 : Bone, NOS	-999	Tumor			a84cac3e-ae80-52cb-ae26-9822799c383b		7a1ea775-eb89-50f3-be7f-e2a1794c810b	
+sample	6949-JMM-0081.pdx.samp	Metastatic	C77.9 : Lymph node, NOS	2891	Tumor			a99bd635-3041-50d2-8526-31a87a0c5dc2		57961b9b-d9cd-5f48-822f-010ae924bae7	
+sample	6949-JMM-0064_FP	Metastatic	C42.1 : Bone marrow	-999	Tumor			aa8c7cb8-814c-58e9-b87e-2f99fd6f1b33	feaf46aa-141d-56da-8441-e22b1471f96a		
+sample	6949-JMM-0047.pdx.samp	Metastatic	Not Reported	-999	Tumor			ab5a7dad-4b45-5e47-88ad-a6c2635ecffc		003b5e80-febd-510d-9ac6-18aca56cd06c	
+sample	6949-JMM-0055_2.pdx.samp	Metastatic	Not Reported	-999	Tumor			ab6dc303-539a-5a0e-8daf-c9e07c721fae		e8a2c694-fd1f-5751-a82f-326030de5e09	
+sample	6949-JMM-0061_2.pdx.samp	Metastatic	Not Reported	-999	Tumor			ad23c760-5db6-5955-8d90-ac601696964f		3d51ae0d-8540-5acc-a206-28a8e3798b9b	
+sample	6949-JMM-0050	Metastatic	Not Reported	-999	Tumor			aeae91ff-6315-509d-9318-a3821c914447	1861e1a1-01a6-5843-b73c-0d73acc0c4e7		
+sample	6949-JMM-0101.pdx.samp	Metastatic	C42.0 : Blood	1033	Tumor			aedb004b-1aec-59fc-b7ac-1f4e0e8fd16c		4b51f690-abcb-537f-861d-9894e6bbe6a5	
+sample	6949-JMM-0059_FP.pdx.samp	Metastatic	C42.0 : Blood	-999	Tumor			aef9e1bb-e25e-5f37-bddd-12ec5f7135dd		db50662a-0f45-5241-b349-13128648d8b6	
+sample	6949-JMM-0052_2	Metastatic	C41.9 : Bone, NOS;C77.9 : Lymph node, NOS	-999	Tumor			af297010-f4fa-5da5-99f4-142ae13644a6	96a4c83f-ad8f-57e6-89f2-5ec19dd6836f		
+sample	6949-JMM-0093.pdx.samp	Metastatic	C42.1 : Bone marrow	-999	Tumor			af854be9-006c-519a-aeaf-9f95e3813f9d		accd88d5-7e02-52c1-96b9-ddd9dfff7072	
+sample	6949-JMM-0102.pdx.samp	Metastatic	C42.0 : Blood	1033	Tumor			afac7fd4-b268-5660-b0a3-0f71d0acfa9a		6f624a76-b85b-5154-af3a-2b71c38220a5	
+sample	6949-JMM-0082	Metastatic	C34.9 : Lung, NOS	2675	Tumor			b0589c55-a5f2-5be5-a6ad-336b5b4bc6dd	5029ec7b-0354-562c-956c-f84bb02d43a6		
+sample	6949-JMM-0078.pdx.samp	Metastatic	Not Reported	-999	Tumor			b101f2d7-d302-5afa-a9d7-728958f97ced		346478d9-f001-5b23-9f16-64ad52fafc5a	
+sample	6949-JMM-0077	Metastatic	C41.9 : Bone, NOS	2858	Tumor			b27b1f14-3f60-5fa8-8212-7828c81e6bcd	8813be6d-5abd-57f8-a732-c735c9676148		
+sample	6949-JMM-0051.pdx.samp	Metastatic	C77.9 : Lymph node, NOS	-999	Tumor			b461acc4-4ad4-5ebd-9a87-a9187013ed23		dfc74621-f0bd-566b-b76a-08512a3bfc9c	
+sample	6949-JMM-0064_2	Metastatic	C42.1 : Bone marrow	-999	Tumor			b4a9d21b-d9de-53aa-a51a-06d10ebab8b1	feaf46aa-141d-56da-8441-e22b1471f96a		
+sample	6949-JMM-0077.pdx.samp	Metastatic	C41.9 : Bone, NOS	2858	Tumor			b4c6d4dd-0709-5121-8cc4-35266f86e574		0897b32e-2e98-5d65-b48b-ee729ed3dd97	
+sample	6949-JMM-0061.pdx.samp	Metastatic	Not Reported	-999	Tumor			b55d967e-f079-5f92-b940-a925b791c667		15853275-b419-590e-b8d7-9b06a06d3918	
+sample	6949-JMM-0065_FP.pdx.samp	Metastatic	C42.0 : Blood	-999	Tumor			b8152e32-c493-5abe-bbd9-9e48e22f75e9		1e082677-e0d1-5e10-bb5e-84f7bcf52a0d	
+sample	6949-JMM-0068_FP	Not Reported	Not Reported	-999	Tumor			bb06bcca-2736-596f-a5eb-a0d63f108b3d	bcac8edd-eee9-582e-98f4-53300d8c60d1		
+sample	6949-JMM-0037	Metastatic	Not Reported	-999	Tumor			bb1d2506-015e-52a9-a50b-acf7f9d7ad97	309d9b37-4cb1-5f8b-aeb2-f3bf208d2c8f		
+sample	6949-JMM-0065_FP	Metastatic	C42.0 : Blood	-999	Tumor			bdbd8dc5-28c5-5235-b344-23eafbb13749	2d77ed82-77b8-5cb7-b25f-b4b576729eab		
+sample	6949-JMM-0103.pdx.samp	Metastatic	Not Reported	-999	Tumor			be658aff-230e-51df-8a62-0f9faa2d994e		ca5aec4b-b4f5-5370-b544-00a2361678c2	
+sample	6949-JMM-0072_2.pdx.samp	Metastatic	Not Reported	-999	Tumor			be8b4643-e363-5107-b121-b3def0a41e85		24f10913-760e-5975-a013-faf95391a377	
+sample	6949-JMM-0041_FP	Metastatic	C41.9 : Bone, NOS	-999	Tumor			c0efd517-99ee-5110-88ef-d03ba9f870c6	8813be6d-5abd-57f8-a732-c735c9676148		
+sample	6949-JMM-0040.pdx.samp	Metastatic	Not Reported	-999	Tumor			c11158eb-74a9-51dc-a73a-432d4949eb39		b38a263a-2e8a-5825-a8e5-9ea2b684ec32	
+sample	6949-JMM-0079.pdx.samp	Metastatic	Not Reported	-999	Tumor			c29f758a-7709-5100-81f8-68baff3b16cb		f985ccac-b7cf-583c-a1e2-de1a0626c969	
+sample	6949-JMM-0060_FP.pdx.samp	Metastatic	C42.0 : Blood	-999	Tumor			c5e7f00c-d1f0-5d01-8ffd-ba74f793a721		507c3c3c-0b97-523c-8e71-8bf88623ee73	
+sample	6949-JMM-0066	Metastatic	C42.0 : Blood	-999	Tumor			c6063b1b-0b43-5f41-918a-d82c297ad4a9	33bac207-dab6-5e50-ac8a-80978e9232e4		
+sample	6949-JMM-0060	Metastatic	C42.0 : Blood	-999	Tumor			c648825d-e5a9-5420-98ff-f8f057705730	d5c2bed7-847f-5d80-93cb-29ab918c8ff7		
+sample	6949-JMM-0103	Metastatic	Not Reported	-999	Tumor			c70c81ff-a7d7-5763-92bd-668e6e8e0f0a	e580d5be-8f59-5458-84fa-21db74ab0255		
+sample	6949-JMM-0089	Metastatic	Not Reported	-999	Tumor			c7132376-35d9-5d8d-9a9e-a47df40adaa3	ef4fbeba-ac3c-5fc1-a079-e273c5b12660		
+sample	6949-JMM-0053_FP.pdx.samp	Metastatic	Not Reported	-999	Tumor			c72b2517-2c4b-5adb-9775-c3fdb7fea54f		4249f86e-4412-51bc-b87a-f087240b90c8	
+sample	6949-JMM-0043_FP.pdx.samp	Metastatic	Not Reported	-999	Tumor			c95e5e35-f0f4-5226-8029-a39f0863cdd7		12da9bb3-c8d0-52c5-8c80-1fbe62c639ec	
+sample	6949-JMM-0057.pdx.samp	Metastatic	C42.1 : Bone marrow	-999	Tumor			c98ef365-d003-50de-a963-51e193d2522b		553226a8-4d7c-53a2-9edb-1756b011008b	
+sample	6949-JMM-0080.pdx.samp	Metastatic	C42.0 : Blood	2891	Tumor			ca7e3dbc-ef67-517f-b0da-cebef05d2b2e		64b72f1f-f3d4-5397-8477-26260a1e6eca	
+sample	6949-JMM-0049	Metastatic	C41.9 : Bone, NOS	-999	Tumor			cdbcc5fc-6cc7-5df3-9f55-c367a242eeb7	8de92ffb-1d65-59f9-9e68-455f28e6aa6d		
+sample	6949-JMM-0064_2.pdx.samp	Metastatic	C42.1 : Bone marrow	-999	Tumor			cdf214f0-8f0e-5b4f-a8a7-798a72a92dd8		32832598-c0e9-5eba-948e-e647aa97acb4	
+sample	6949-JMM-0066_2.pdx.samp	Metastatic	C42.0 : Blood	-999	Tumor			ced98afa-6c2b-5833-b103-a15c2ab66230		109e2d8e-911d-5820-9b11-697553ddb65e	
+sample	6949-JMM-0068.pdx.samp	Not Reported	Not Reported	-999	Tumor			d0610a8b-1ad9-5143-8041-c827309b05f6		c27af2b5-582c-5729-bce2-5444746f9e75	
+sample	6949-JMM-0059_2.pdx.samp	Metastatic	C42.0 : Blood	-999	Tumor			d16529f5-10cd-518b-8d11-5f5237a799a0		15bdacca-83c8-52a8-baf6-0e75f0ff03f1	
+sample	6949-JMM-0053.pdx.samp	Metastatic	Not Reported	-999	Tumor			d22db9db-cb9b-5584-a4a6-63a55bf5078e		c4ecaa50-82d3-59a1-b391-9b2ec4310cff	
+sample	6949-JMM-0070_2	Metastatic	C49.9 : Connective, subcutaneous and other soft tissues, NOS	-999	Tumor			d36aa274-7de3-5c13-b647-aede3b9e37e5	cc88454a-55b7-54ec-ba57-25897f2b0852		
+sample	6949-JMM-0057_2.pdx.samp	Metastatic	C42.1 : Bone marrow	-999	Tumor			d3adea69-cd97-5b26-8d5d-3c9f74706cd4		97cddf37-5dc6-5c51-b8d8-378f9d4f5646	
+sample	6949-JMM-0069_2.pdx.samp	Metastatic	Not Reported	-999	Tumor			d76f592e-e7ff-531f-af9a-3caaf41c7e5a		35862f2a-e596-53d2-b42c-1afe993ac1af	
+sample	6949-JMM-0073	Metastatic	Not Reported	-999	Tumor			d881dd35-dc42-57ed-8dfb-064daa43dc9f	309d9b37-4cb1-5f8b-aeb2-f3bf208d2c8f		
+sample	6949-JMM-0058	Metastatic	C34.9 : Lung, NOS	-999	Tumor			da4f5dfa-36cf-5dbf-b9af-e2b94c3d661f	d4c2dbb0-9e05-59de-9dd5-ba52102b329c		
+sample	6949-JMM-0085	Metastatic	C41.9 : Bone, NOS	-999	Tumor			da8264de-1f03-59e9-afd6-aaced55c0682	8de92ffb-1d65-59f9-9e68-455f28e6aa6d		
+sample	6949-JMM-0083.pdx.samp	Metastatic	Not Reported	-999	Tumor			dcb9a8d0-f031-5add-822a-79183bff9d3d		c575a437-6f4b-5525-8a2b-c4129216d138	
+sample	6949-JMM-0053_2	Metastatic	Not Reported	-999	Tumor			dd28d4ad-af7d-553f-9109-e7e742c4f09d	ef4fbeba-ac3c-5fc1-a079-e273c5b12660		
+sample	6949-JMM-0090	Metastatic	Not Reported	-999	Tumor			de20cbc9-a191-5ebf-ba04-d12ba64562af	4b679924-e1f6-5e8b-9b3a-059ac41d649f		
+sample	6949-JMM-0079	Metastatic	Not Reported	-999	Tumor			de87880d-e02c-5d9c-a04f-c6e233041079	1239141c-e1ff-56ab-a428-e33b0e8d60c6		
+sample	6949-JMM-0091	Metastatic	Not Reported	-999	Tumor			df5e40ef-f528-5a66-84ba-74218dd2dd3f	70446412-234d-5466-96ba-d443bf1ff3a7		
+sample	6949-JMM-0053_2.pdx.samp	Metastatic	Not Reported	-999	Tumor			df8f18c6-532b-57c9-a5c2-0a191e8bd76a		dc5e2fc0-68c0-52b3-96b8-1b6d554c2f54	
+sample	6949-JMM-0064.pdx.samp	Metastatic	C42.1 : Bone marrow	-999	Tumor			dfde3955-2686-5c97-8824-d21ed4df16a7		a837a9a8-8ce0-516f-a6df-30bbb32e9345	
+sample	6949-JMM-0057_FP.pdx.samp	Metastatic	C42.1 : Bone marrow	-999	Tumor			e2268c8d-6f52-5b20-b017-c98f674071b1		ef1827ee-e543-5310-88b2-ad3dd3af06ed	
+sample	6949-JMM-0056_2.pdx.samp	Metastatic	C41.0 : Bones of skull and face and associated joints	-999	Tumor			e2525cb6-b6b0-5dd9-b305-66c9d861782f		aa89674b-e8a9-5df5-9b2c-360389490306	
+sample	6949-JMM-0051_FP	Metastatic	C77.9 : Lymph node, NOS	-999	Tumor			e28786cc-66f7-52b4-9eb1-858c3106d8ae	3d58efd8-d023-568d-9faf-ae3feccae347		
+sample	6949-JMM-0054.pdx.samp	Metastatic	Not Reported	-999	Tumor			e4130f7d-87c3-5cb0-bf81-94920da45028		6f62c476-0213-53e9-b20c-03cc65b9d0b7	
+sample	6949-JMM-0039_FP	Metastatic	Not Reported	-999	Tumor			e42c0c6b-1f54-5c92-9e3d-f5908240e951	699e3264-bfd2-5173-a9c3-97c2e75af915		
+sample	6949-JMM-0061_FP	Metastatic	Not Reported	-999	Tumor			e718c997-7882-5ef2-9ea4-7889acd6d428	218a9bf3-a0c9-52a4-a59f-53b1191ab694		
+sample	6949-JMM-0075.pdx.samp	Metastatic	Not Reported	-999	Tumor			ea1f3671-bf7c-5f7f-b712-05c633581182		e8da086a-0b0a-5bab-96c1-bcabf37de428	
+sample	6949-JMM-0098.pdx.samp	Metastatic	Not Reported	-999	Tumor			ebf980bd-00d4-5b2b-ae5e-6dc882d467cf		ca7b8cc2-1ed8-5184-9628-efd31ad50e28	
+sample	6949-JMM-0053	Metastatic	Not Reported	-999	Tumor			ecea3038-bf52-5248-a032-c3194dc360e9	ef4fbeba-ac3c-5fc1-a079-e273c5b12660		
+sample	6949-JMM-0046.pdx.samp	Metastatic	C34.9 : Lung, NOS	-999	Tumor			ed0e87f0-478b-52a6-8248-dd76b12832ab		16b597da-70e1-544a-9767-c4759d4af570	
+sample	6949-JMM-0041	Metastatic	C41.9 : Bone, NOS	-999	Tumor			f1427c17-53ca-5519-981e-8408d1620e05	8813be6d-5abd-57f8-a732-c735c9676148		
+sample	6949-JMM-0067_2	Metastatic	Not Reported	-999	Tumor			f14b0b5a-7525-505f-8118-503af3fac7a9	e580d5be-8f59-5458-84fa-21db74ab0255		
+sample	6949-JMM-0076.pdx.samp	Metastatic	Not Reported	-999	Tumor			f17649fe-3ca3-5745-9abd-f01569d14177		f3e936c3-bede-502f-8d1d-a057fa826905	
+sample	6949-JMM-0065_2	Metastatic	C42.0 : Blood	-999	Tumor			f4c399f7-7ce7-5db1-acec-7950a99426fc	2d77ed82-77b8-5cb7-b25f-b4b576729eab		
+sample	6949-JMM-0080	Metastatic	C42.0 : Blood	2891	Tumor			f8c4b195-899b-55d4-911d-318b67dd2897	9d4bc309-b507-5105-a20c-0b8eccd12f2f		
+sample	6949-JMM-0060_FP	Metastatic	C42.0 : Blood	-999	Tumor			f96d6920-0115-5f57-8b4d-530f3e3c9051	d5c2bed7-847f-5d80-93cb-29ab918c8ff7		
+sample	6949-JMM-0053_FP	Metastatic	Not Reported	-999	Tumor			fa482387-83a5-5755-b46f-e1efbfb119c8	ef4fbeba-ac3c-5fc1-a079-e273c5b12660		
+sample	6949-JMM-0097.pdx.samp	Metastatic	Not Reported	-999	Tumor			fa82b8df-3dd6-57a6-a065-c5405f6deac3		a9749230-94f2-5ad4-a78c-72bf35c6d10a	
+sample	6949-JMM-0085.pdx.samp	Metastatic	C41.9 : Bone, NOS	-999	Tumor			fb34763b-f887-5b87-94a4-be4ff01e3ffe		789344fb-09f9-5746-87da-d44b409d8735	
+sample	6949-JMM-0044	Metastatic	C42.0 : Blood	-999	Tumor			fb6c3f27-4943-5631-881b-463e06f3bdc3	9d4bc309-b507-5105-a20c-0b8eccd12f2f		
+sample	6949-JMM-0037.pdx.samp	Metastatic	Not Reported	-999	Tumor			fc4b4ac2-6ec0-5d53-aadd-cad6608dd80c		70b1c39b-15ad-585d-8207-39aa75cfcfd2	
+sample	6949-JMM-0090.pdx.samp	Metastatic	Not Reported	-999	Tumor			fc64386a-46f3-5352-b821-38a196f59c4c		0dad02e6-e209-59ab-bdb7-f70d69e17197	
+sample	6949-JMM-0094	Metastatic	C34.9 : Lung, NOS	-999	Tumor			ff041046-96ac-5678-87db-4799c2fede1c	d4c2dbb0-9e05-59de-9dd5-ba52102b329c		
