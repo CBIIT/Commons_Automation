@@ -1,0 +1,13 @@
+id	participant.id	age_at_response	response	response_category	response_system	study	treatment_response_id	type
+phs002504::UPN1744.tr	phs002504::UPN1744	165	Complete Remission	Unknown	Unknown	phs002504	UPN1744.tr	treatment_response
+phs002504::UPN2951.tr	phs002504::UPN2951	2706	Progressive Disease	Unknown	Unknown	phs002504	UPN2951.tr	treatment_response
+phs002504::UPN2987.tr	phs002504::UPN2987	3248	Progressive Disease	Unknown	Unknown	phs002504	UPN2987.tr	treatment_response
+phs002504::UPN3031.tr	phs002504::UPN3031	932	Complete Remission	Unknown	Unknown	phs002504	UPN3031.tr	treatment_response
+phs002504::UPN3037.tr	phs002504::UPN3037	2612	Progressive Disease	Unknown	Unknown	phs002504	UPN3037.tr	treatment_response
+phs002504::UPN3050.tr	phs002504::UPN3050	1141	Complete Remission	Unknown	Unknown	phs002504	UPN3050.tr	treatment_response
+phs002504::UPN3074.tr	phs002504::UPN3074	1612	Stable Disease	Unknown	Unknown	phs002504	UPN3074.tr	treatment_response
+phs002504::UPN3080.tr	phs002504::UPN3080	862	Complete Remission	Unknown	Unknown	phs002504	UPN3080.tr	treatment_response
+phs002504::UPN3153.tr	phs002504::UPN3153	809	Complete Remission	Unknown	Unknown	phs002504	UPN3153.tr	treatment_response
+phs002504::UPN3154.tr	phs002504::UPN3154	372	Stable Disease	Unknown	Unknown	phs002504	UPN3154.tr	treatment_response
+phs002504::UPN3242.tr	phs002504::UPN3242	2303	Complete Remission	Unknown	Unknown	phs002504	UPN3242.tr	treatment_response
+phs002504::UPN3426.tr	phs002504::UPN3426	1974	Stable Disease	Unknown	Unknown	phs002504	UPN3426.tr	treatment_response

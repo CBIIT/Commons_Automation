@@ -1,0 +1,142 @@
+type	treatment_id	age_at_treatment_start	age_at_treatment_end	treatment_type	treatment_agent	dose	dose_unit	dose_route	dose_frequency	id	participant.id
+treatment	P026_proc	-999	-999	Chemotherapy	Cytarabine;Daunorubicin;Etoposide					003f99b9-7fe9-51f5-aad6-7a43d20095d1	b390b043-6812-5859-97b1-e1a5b27784a2
+treatment	P039_proc	-999	-999	Chemotherapy	Cytarabine;Mitoxantrone					019e4365-0b54-5cdc-8554-ebc2ee832093	762a1c18-8985-5a89-901c-a1fd8c533c58
+treatment	P103_proc_2	-999	-999	Radiation Therapy						0226f382-2e77-5cd9-9c06-cd51304f47d4	a520600d-37cb-5904-8665-4e2d60e1a904
+treatment	P093_proc_2	-999	-999	Radiation Therapy						02afa09a-973d-5fb9-a09f-227204abe062	d6222ffd-1e6c-5040-a082-1c086bd2afa1
+treatment	P104_proc	-999	-999	Chemotherapy	Asparaginase;Cyclophosphamide;Cytarabine;Doxorubicin;Etoposide;Filgrastim;Mercaptopurine;Methotrexate;Pegaspargase;Vincristine					032f9d15-95d6-5d48-8203-1a43250d3f6d	2c3b672a-7948-582f-8f7c-9205c524d30d
+treatment	P062_proc	-999	-999	Chemotherapy	Cyclophosphamide;Cytarabine;Doxorubicin;Mercaptopurine;Methotrexate;Pegaspargase;Thioguanine;Vincristine					0459ea3a-0fac-5fe5-a4bc-b0c27025a89a	9d291b13-ae00-5eb8-8767-774b20c7a4f7
+treatment	P088_proc	-999	-999	Not Reported						05409a5b-6dab-5038-a0a7-9476021b7ccc	72e2f99c-f714-55de-bb8f-d17fae574516
+treatment	P085_proc	-999	-999	Chemotherapy	Cyclophosphamide;Cytarabine;Doxorubicin;Mercaptopurine;Methotrexate;Pegaspargase;Thioguanine;Vincristine					073bdc11-054e-55bb-88c4-21b4390fe5a0	67d078f5-242f-50db-92ae-e7f5521c2957
+treatment	P061_proc	-999	-999	Not Reported						07fe469a-bc47-5fa7-a57d-e8e8d0da74c8	39e250b3-19d8-5b33-9498-3ca8b2c8d046
+treatment	P045_proc	-999	-999	Chemotherapy	Cytarabine;Idarubicin;Mitoxantrone;Tretinoin					087d0b2f-0cfe-54c9-8ab6-ed13ac016683	7cb668a9-3229-5af9-825e-a2f9d91f02f8
+treatment	P100_proc_1	-999	-999	Stem Cell Transplant	Cyclophosphamide;Fludarabine					0a385ed9-a21e-5701-a35f-cd86a105e0d0	aa15b75f-1b56-5878-a1b7-ff14a2faf568
+treatment	P023_proc_2	-999	-999	Radiation Therapy						0adfaca4-b5cf-528f-9923-689ffc6acc8e	21fb9c2d-03ca-542f-9d79-0ccc46a34796
+treatment	P018_proc	-999	-999	Chemotherapy	Cyclophosphamide;Cytarabine;Doxorubicin;Mercaptopurine;Methotrexate;Pegaspargase;Thioguanine;Vincristine					0c944a5d-001b-542b-98d0-5acaa0a41d92	48e78dca-0137-5fbb-9479-b879041dc1ee
+treatment	P089_proc_2	-999	-999	Radiation Therapy						0d6fc599-9291-56d4-bd89-601d940af380	60bd4701-6334-5690-a59f-5ab967a3b7aa
+treatment	P022_proc	-999	-999	Not Reported						0f8f48a9-d049-5bfa-89b6-9f81cbd902fa	a330faa6-0c41-570d-bf8e-fc4c88834871
+treatment	P035_proc_1	-999	-999	Stem Cell Transplant	Cyclophosphamide;Fludarabine					10cf804a-d550-5dd4-80cc-05e22117dcd5	57db0568-2c2d-50b5-87c6-95d82919f677
+treatment	P053_proc_1	-999	-999	Stem Cell Transplant	Fludarabine;Thiotepa					14d83322-ea0d-54d9-bd8b-7f19f11a4113	94afb84e-433f-5a4e-a337-998f6da99f4b
+treatment	P096_proc	-999	-999	Chemotherapy	Cytarabine;Methotrexate					165c5185-8cfd-5878-adbd-c57fdb76c2c6	6906fbde-334b-5adb-8036-8409bc0b7338
+treatment	P030_proc	-999	-999	Chemotherapy	Cytarabine;Idarubicin;Tretinoin					1934d7f2-49d4-5d96-9ad1-9a727bb9e335	37686a91-00db-5f59-960e-16483ad632f1
+treatment	P037_proc_1	-999	-999	Stem Cell Transplant	Cyclophosphamide					1a70f1ef-cff7-588f-81c7-acf7310f568a	a5305364-da20-5950-bd3a-56650592439f
+treatment	P002_proc_1	-999	-999	Stem Cell Transplant	Cyclophosphamide;Cytarabine					1a7f2958-d2dd-5bff-8695-97a2f4fa4fc1	aa0dfca2-476d-5600-9c83-920bb70c4d68
+treatment	P074_proc	-999	-999	Chemotherapy	Asparaginase;Cyclophosphamide;Cytarabine;Daunorubicin;Etoposide;Filgrastim;Lestaurtinib;Mercaptopurine;Methotrexate;Pegaspargase;Vincristine					1af36d5f-4715-5e41-b69e-486b895c5c75	d1c114f3-a4bf-5cd5-8b29-ace7d6351c8f
+treatment	P044_proc	-999	-999	Not Reported						1b1be56d-acf9-5316-a468-3658111a851d	3fe46b0f-b165-57c2-b860-26650e207bd8
+treatment	P095_proc	-999	-999	Chemotherapy	Asparaginase;Bortezomib;Cyclophosphamide;Cytarabine;Doxorubicin;Etoposide;Filgrastim;Methotrexate;Pegaspargase;Vincristine					1f53c9b8-4c2d-5424-a4a3-fc71959022aa	af7f32c5-481a-5ca8-9117-ecfbbb6808d3
+treatment	P102_proc	-999	-999	Not Reported						20b6672e-69cd-53c6-af6a-9d91490694d9	6cb5e226-6aa8-53d3-b109-36d5f8e1a26e
+treatment	P081_proc_1	-999	-999	Chemotherapy	Cyclophosphamide;Cytarabine;Daunorubicin;Doxorubicin;Mercaptopurine;Methotrexate;Pegaspargase;Thioguanine;Vincristine					21af2c28-1628-51cb-9c0a-c74c74636488	fe924625-c323-54c1-98a7-d5b81dd7bfe9
+treatment	P052_proc	-999	-999	Not Reported						21e591c4-9652-5ff4-912f-a72cc56be56e	c83f240a-21c3-5a5b-b2b5-ebd27cc0a301
+treatment	P019_proc	-999	-999	Not Reported						22ac5395-626b-5746-8f40-e1369b04ede1	437eabd8-de57-5a2d-be3f-db35ff237067
+treatment	P012_proc_1	-999	-999	Stem Cell Transplant	Cyclophosphamide;Fludarabine					24b4ec36-51d8-5a63-b3d7-e7b0fe3d1a69	e1001080-0e0a-55e4-81e6-3b591fb2ca84
+treatment	P069_proc	-999	-999	Stem Cell Transplant	Busulfan;Cyclophosphamide					250fd75a-5919-592b-9130-54e27f631db0	fa437a92-ffe1-56ed-87c3-dbe987a75850
+treatment	P013_proc	-999	-999	Chemotherapy	Cyclophosphamide;Cytarabine;Doxorubicin;Mercaptopurine;Methotrexate;Pegaspargase;Thioguanine;Vincristine					2584a6bd-6ad0-52fc-8e7f-c6d47fd865fa	2ddc490c-fe8b-5120-a465-90742c5ae4e8
+treatment	P012_proc_2	-999	-999	Radiation Therapy						26bcb361-72e5-542a-a5d2-906cf8498673	e1001080-0e0a-55e4-81e6-3b591fb2ca84
+treatment	P021_proc_2	-999	-999	Radiation Therapy						275da762-674d-5b5c-8c44-4508661c6cd6	75607799-7a0b-5f93-8e1a-042cdbfd598b
+treatment	P009_proc_2	-999	-999	Radiation Therapy						28bf9e96-fccf-5b9a-b958-a14e85dcd72c	28cf4b61-a495-5fa5-b805-a8dedd1547f6
+treatment	P037_proc_2	-999	-999	Radiation Therapy						2aa075e8-4f1d-5c45-8dbb-7761fb9978a7	a5305364-da20-5950-bd3a-56650592439f
+treatment	P021_proc_1	-999	-999	Chemotherapy	Asparaginase;Cyclophosphamide;Cytarabine;Daunorubicin;Doxorubicin;Mercaptopurine;Methotrexate;Nelarabine;Pegaspargase;Thioguanine;Vincristine					2bc9c5bd-26d4-5e0d-af7e-b0e508c609d0	75607799-7a0b-5f93-8e1a-042cdbfd598b
+treatment	P082_proc	-999	-999	Unknown	Ibrutinib					2c134fd2-a767-5155-90e0-b848a6b5f575	7cb7169c-7310-5c4e-aedd-fcf0cc22c9f1
+treatment	P047_proc	-999	-999	Targeted Molecular Therapy	Ruxolitinib					2e6d4fc6-55ee-528e-905e-fcfd34b78e84	cff0bcc9-2533-57e6-a9bc-62c4b5cf99a7
+treatment	P042_proc_2	-999	-999	Radiation Therapy						2fc8bcf6-b25c-5a5e-b6d1-d4b31b8067af	60ce2a26-1507-5b53-91cd-7ad534538c73
+treatment	P015_proc_2	-999	-999	Radiation Therapy						34a3355d-4c5c-5eb2-a203-828c1c7b4a8b	4a1b5a24-e857-5047-b5ac-1351ae082770
+treatment	P004_proc_2	-999	-999	Radiation Therapy						357dbd7c-eafc-5c80-9d39-34131036e32d	85d4ade3-519a-548f-a1d3-9c668d7f7cec
+treatment	P083_proc	-999	-999	Stem Cell Transplant	Busulfan;Cyclophosphamide					361956a6-9463-51f7-a4f7-bd99df724302	db5cac3c-62e1-5fbb-b5c6-c449e8923bf0
+treatment	P071_proc_1	-999	-999	Chemotherapy	Asparaginase;Cyclophosphamide;Cytarabine;Dasatinib;Daunorubicin;Etoposide;Filgrastim;Ifosfamide;Mercaptopurine;Methotrexate;Pegaspargase;Vincristine					361adf90-07f3-51fd-88b5-9bfc39177625	c34a3ade-fb2c-546b-bb08-d03f67701c23
+treatment	P097_proc_2	-999	-999	Radiation Therapy						3b0a5453-572e-5f79-b6eb-757f43afe3a8	0539b6e7-0bf4-50c4-9923-663538184ab1
+treatment	P028_proc	-999	-999	Not Reported						3d2890de-6110-5f9b-8fdd-fb4d2374ff2b	af77ee64-469c-5508-a359-d1787b35c952
+treatment	P027_proc	-999	-999	Not Reported						3df764ef-041b-52d5-b659-2ebb9f0711c7	094f943b-b119-532d-a685-ceea76e6d68a
+treatment	P054_proc	-999	-999	Not Reported						3fe92e23-3cf8-595b-ac48-36872d78c7a6	ccf65421-861d-54a9-859f-4704cf0bfdb7
+treatment	P060_proc_1	-999	-999	Chemotherapy	Cyclophosphamide;Cytarabine;Daunorubicin;Doxorubicin;Mercaptopurine;Methotrexate;Pegaspargase;Thioguanine;Vincristine					43577d1c-fd84-546a-8a45-0cf3498d1fcf	98ff82f0-888a-5c0f-a28e-393728c5e360
+treatment	P048_proc_2	-999	-999	Radiation Therapy						45abae47-add1-570b-9187-956dd2778a80	d44ebbd5-e2dc-5287-a073-34e5af84db28
+treatment	P087_proc_2	-999	-999	Radiation Therapy						4a9136ee-1f5f-5f62-8a13-2413353b4069	3e475d07-5bb8-5ac2-b934-db4d1224ac5e
+treatment	P040_proc	-999	-999	Not Reported						4bd4b4f0-70b0-5e9a-be4f-f4422eaaba93	0d66b70d-75dd-5ea0-91d0-ff60f12b8ac5
+treatment	P015_proc_1	-999	-999	Stem Cell Transplant	Cyclophosphamide					4c0af7ed-de7c-5589-856d-5e6403192f9b	4a1b5a24-e857-5047-b5ac-1351ae082770
+treatment	P046_proc_1	-999	-999	Stem Cell Transplant	Cyclophosphamide					534288c4-7960-587a-89e6-46dd0f6351e2	34b70d49-5e96-5830-802a-0fcdda28629e
+treatment	P067_proc	-999	-999	Chemotherapy	Etoposide;Ifosfamide					5b96fe57-dfcd-52cb-bd34-064bbfb57304	b6b9ad2b-8d9d-5ade-b48e-ecdb046635a0
+treatment	P020_proc	-999	-999	Not Reported						64e2c7dd-6d52-50c4-be0c-e1a2c1187ebe	d10ce852-626b-5e0d-8c52-a825230605c9
+treatment	P058_proc	-999	-999	Not Reported						6725bdd6-165a-50b9-88b2-622b0953d7a3	c11746c0-075c-5d68-9833-cb3c691d9004
+treatment	P079_proc_2	-999	-999	Radiation Therapy						68caaf2b-36a2-5467-91b7-afd9b70fe5a1	2355399a-0c14-5ece-993b-7d19c2a665fe
+treatment	P029_proc	-999	-999	Chemotherapy	Cytarabine;Dexamethasone;Mitoxantrone;Vincristine					69a2707d-acf7-52fa-a444-d1edb86be8c1	0766c5e6-6549-5bd2-a45d-8d97a7e830a7
+treatment	P005_proc	-999	-999	Chemotherapy	Cyclophosphamide;Cytarabine;Doxorubicin;Mercaptopurine;Methotrexate;Pegaspargase;Thioguanine;Vincristine					6a777395-0f6c-5246-bf4c-57a528f8cbbe	70d74417-30cb-55e9-a87c-2b6245ad6a09
+treatment	P089_proc_1	-999	-999	Chemotherapy	Asparaginase;Cyclophosphamide;Cytarabine;Daunorubicin;Etoposide;Ifosfamide;Imatinib;Mercaptopurine;Methotrexate;Pegaspargase;Vincristine					6e02f788-3c11-57a1-86e9-079b3487556e	60bd4701-6334-5690-a59f-5ab967a3b7aa
+treatment	P036_proc_1	-999	-999	Chemotherapy	Cyclophosphamide;Cytarabine;Daunorubicin;Doxorubicin;Mercaptopurine;Methotrexate;Pegaspargase;Thioguanine;Vincristine					6e9f5965-8f73-5262-aa83-b8aba872a0a6	4d0abd4f-90f8-5c13-8a03-d26cf2680ffd
+treatment	P041_proc_1	-999	-999	Stem Cell Transplant	Cyclophosphamide;Fludarabine					74324c25-0939-5fdf-9593-f198622c1624	31bcfc35-16cf-5b36-b8ff-7ea47d675b75
+treatment	P090_proc	-999	-999	Chemotherapy	Cytarabine;Idarubicin					7649f459-2934-5cd9-ab27-f570555f7536	1c24fd0d-ff53-5f0c-91f4-e21f9b6fc183
+treatment	P071_proc_2	-999	-999	Radiation Therapy						7666b64c-1310-5d61-8f79-b7ad13a1be1e	c34a3ade-fb2c-546b-bb08-d03f67701c23
+treatment	P094_proc_1	-999	-999	Chemotherapy	Cyclophosphamide;Cytarabine;Daunorubicin;Doxorubicin;Mercaptopurine;Methotrexate;Pegaspargase;Thioguanine;Vincristine					7735bf2c-084e-5ee1-993c-cd20b9c68de7	c00b469e-c597-5acc-aa4d-264308cb058a
+treatment	P007_proc_2	-999	-999	Radiation Therapy						7ae3e97e-3163-558c-8f87-e1e9007973d3	6d868616-5fba-56b2-9fab-735d09bed40d
+treatment	P023_proc_1	-999	-999	Chemotherapy	Cyclophosphamide;Cytarabine;Daunorubicin;Doxorubicin;Mercaptopurine;Methotrexate;Pegaspargase;Thioguanine;Vincristine					7ba02701-eefa-53ff-a2a5-430bdcd2b5b6	21fb9c2d-03ca-542f-9d79-0ccc46a34796
+treatment	P075_proc_1	-999	-999	Stem Cell Transplant	Fludarabine					7dc52c90-fced-5356-8102-98f80f6007b1	46b84edf-6452-51f7-8ea0-dc117ef33ac7
+treatment	P065_proc	-999	-999	Not Reported						7f219d06-df49-5764-880d-9caa47c64fc0	cc0afff4-8d01-5824-b05a-cbb0570ad6d0
+treatment	P091_proc_1	-999	-999	Chemotherapy	Asparaginase;Cyclophosphamide;Cytarabine;Daunorubicin;Doxorubicin;Mercaptopurine;Methotrexate;Nelarabine;Pegaspargase;Thioguanine;Vincristine					80e78877-73ec-5228-9fa8-7da824626ab9	9f6c65f4-ad31-5841-8bab-f4d4cefa39c9
+treatment	P101_proc_1	-999	-999	Stem Cell Transplant	Cyclophosphamide					84954bcf-9b2e-5855-837b-fe6c16077ac5	c5d31b11-91a8-51c2-b914-f6b40fd3657a
+treatment	P076_proc	-999	-999	Chemotherapy	Hydroxyurea					84e241fa-c072-5d2f-a7ea-40daf4b547c1	d14d7d86-cbae-5858-bf4c-578513c888da
+treatment	P031_proc	-999	-999	Chemotherapy	Cyclophosphamide;Dexamethasone;Doxorubicin;Vincristine					86451eca-cc1d-5e6a-8d77-dbde71f610a7	1d5096c5-63fc-53e5-8927-1bfeb7521c14
+treatment	P101_proc_2	-999	-999	Radiation Therapy						8928229f-3e09-5924-8983-9666fba8e2bf	c5d31b11-91a8-51c2-b914-f6b40fd3657a
+treatment	P098_proc	-999	-999	Not Reported						898fda8d-40d6-5b56-a666-0e989eac530f	af785d85-df85-5f28-aab3-9fb26cf3e0a5
+treatment	P081_proc_2	-999	-999	Radiation Therapy						8cec1fc0-0b21-51ee-bfa5-593bad156cc9	fe924625-c323-54c1-98a7-d5b81dd7bfe9
+treatment	P036_proc_2	-999	-999	Radiation Therapy						8e27bcc5-19eb-584f-b965-1b17ac22d313	4d0abd4f-90f8-5c13-8a03-d26cf2680ffd
+treatment	P066_proc	-999	-999	Chemotherapy	Blinatumomab					8f3054ba-2811-5ff5-81ac-96d9a60579ad	05014d8c-eeb8-531a-ae07-86a215369019
+treatment	P032_proc	-999	-999	Chemotherapy	Azacitidine					8fb2cef9-80ae-5acb-a8b9-e6362691c1f3	0d3462ba-4796-5ac9-aeb0-7863d6ea783a
+treatment	P080_proc	-999	-999	Not Reported						910051b8-b02c-52fb-84ec-af989a6dbdd3	cc12f222-39db-5973-b10b-7f1e0d1be639
+treatment	P001_proc	-999	-999	Not Reported						9163db50-777e-5061-8279-b2ffc2153594	4a9b6dc4-32b6-53d0-9e6e-4015a55c453f
+treatment	P079_proc_1	-999	-999	Stem Cell Transplant	Cyclophosphamide;Fludarabine					921e3449-66a7-52be-98cb-2080070eccd9	2355399a-0c14-5ece-993b-7d19c2a665fe
+treatment	P041_proc_2	-999	-999	Radiation Therapy						9278fc6f-9be4-590f-b89c-89df39bb46f5	31bcfc35-16cf-5b36-b8ff-7ea47d675b75
+treatment	P063_proc	-999	-999	Not Reported						927e5e07-ee30-566b-88a7-871e0995e897	0811b0b9-b421-572c-930c-76695b5f8460
+treatment	P007_proc_1	-999	-999	Chemotherapy	Cyclophosphamide;Cytarabine;Doxorubicin;Mercaptopurine;Methotrexate;Pegaspargase;Thioguanine;Vincristine					93049dd2-530e-5ed3-a304-d51e8c025d6d	6d868616-5fba-56b2-9fab-735d09bed40d
+treatment	P093_proc_1	-999	-999	Stem Cell Transplant	Cyclophosphamide;Fludarabine					958660da-fafd-5f4d-bb72-071e3225a05e	d6222ffd-1e6c-5040-a082-1c086bd2afa1
+treatment	P073_proc	-999	-999	Not Reported						96e945b0-5bdf-5712-8f9b-87b149fa326f	2a4875d3-b16b-51ed-b1c5-6e1f72b5d744
+treatment	P092_proc	-999	-999	Not Reported						9a64a3f6-ee14-5dbe-a659-319d112480be	fee30c22-217f-59a8-b502-5c7020fed005
+treatment	P016_proc_1	-999	-999	Chemotherapy	Asparaginase;Cyclophosphamide;Cytarabine;Daunorubicin;Doxorubicin;Mercaptopurine;Methotrexate;Nelarabine;Pegaspargase;Thioguanine;Vincristine					9bd874b7-5584-5a73-8f3e-8c6ca3bde97f	705b2a00-fba0-57f3-bb75-08f8bda04452
+treatment	P068_proc	-999	-999	Not Reported						9e7562ff-4598-5d52-a62d-1c553eee5866	93389ec4-fe33-5e13-9423-5160fd66f5a1
+treatment	P024_proc	-999	-999	Not Reported						a07ead08-b3aa-51e6-a7c5-2f83d0c786b8	0a1dc8bd-a7ea-5f5d-937e-de529fe97194
+treatment	P077_proc	-999	-999	Not Reported						a417f2ab-ac86-56fd-85f1-ae1e0f6a44f0	025c2eb2-19b7-5b81-bdbb-c5ee06a049e8
+treatment	P035_proc_2	-999	-999	Radiation Therapy						a6727019-60e3-5cb6-a438-35b65e344dd8	57db0568-2c2d-50b5-87c6-95d82919f677
+treatment	P051_proc_1	-999	-999	Chemotherapy	Asparaginase;Cyclophosphamide;Cytarabine;Daunorubicin;Doxorubicin;Idarubicin;Mercaptopurine;Methotrexate;Pegaspargase;Thioguanine;Vincristine					a845a0c7-8cdc-5d11-830d-5d055a82d440	59e9952d-57ed-52e1-863b-57dbba38e6cd
+treatment	P057_proc	-999	-999	Palliative Care	Etoposide					a93bb5e0-fbdc-5fb0-91e3-0f2f23811835	8ea15f72-896f-5ef5-992e-464edfda5079
+treatment	P059_proc	-999	-999	Not Reported						a9791d2d-0f00-527a-934a-7d08fd8c035e	ffa7e97f-c003-5b9b-8f68-87d5291fff14
+treatment	P003_proc	-999	-999	Not Reported						a9b0d59f-da86-567d-8bc9-438c048175f0	2f7b2dd0-9cf9-55f4-b3f8-82bbfd0f2c4e
+treatment	P033_proc	-999	-999	Palliative Care	Cytarabine;Mitoxantrone					ab844e2d-7d9d-5ca2-b917-a94e60850222	96b2d95d-c873-55bd-915b-bed8afc517fc
+treatment	P038_proc	-999	-999	Chemotherapy	Cytarabine					aceb012b-9b69-52c1-8f8f-f5c2886786d5	ea3d2451-4b07-5ab0-b808-d8c9d976aeef
+treatment	P086_proc	-999	-999	Chemotherapy	Cytarabine;Etoposide;Mitoxantrone					adcdc142-e65f-58f1-a9ac-8101d4b9e66a	59c5eb8c-c26e-5c43-b8b2-54ae0c858072
+treatment	P087_proc_1	-999	-999	Chemotherapy	Asparaginase;Cyclophosphamide;Cytarabine;Daunorubicin;Doxorubicin;Mercaptopurine;Methotrexate;Nelarabine;Pegaspargase;Thioguanine;Vincristine					b1787ad0-c28d-5139-bc8b-3efa6b847156	3e475d07-5bb8-5ac2-b934-db4d1224ac5e
+treatment	P010_proc	-999	-999	Chemotherapy	Other					b82bda0d-11d5-5019-9b2d-328f06c5dea8	46d616f1-229c-5508-96f7-564179cc6269
+treatment	P084_proc_2	-999	-999	Radiation Therapy						b9353be3-5091-5733-8a59-2b772b810e09	a15a242d-6124-5d7e-ab7e-6c2319380ba8
+treatment	P091_proc_2	-999	-999	Radiation Therapy						b9567707-1d97-54e0-892c-2faa76654423	9f6c65f4-ad31-5841-8bab-f4d4cefa39c9
+treatment	P060_proc_2	-999	-999	Radiation Therapy						b9d99a29-3acf-5c9d-99e9-9691752fcf23	98ff82f0-888a-5c0f-a28e-393728c5e360
+treatment	P094_proc_2	-999	-999	Radiation Therapy						bb244e29-c4f8-57d6-ab3c-1a90f50377f7	c00b469e-c597-5acc-aa4d-264308cb058a
+treatment	P049_proc	-999	-999	Chemotherapy	Cytarabine;Mitoxantrone					c1657835-054c-5417-b3fa-5d352d7fc1f8	364a2444-4cf0-5e59-8142-2aa263a602c2
+treatment	P078_proc_1	-999	-999	Stem Cell Transplant	Busulfan;Fludarabine					c3205468-9c1a-5176-b210-c4eaaebe9e6f	06514cf5-811e-534e-b3b1-0460088e6b2f
+treatment	P034_proc	-999	-999	Not Reported						c4cd93bc-4763-5875-936f-21729cd7fa97	10d5fe0e-7545-5865-9bf5-5ebe7d564f0c
+treatment	P004_proc_1	-999	-999	Stem Cell Transplant	Cyclophosphamide					c87c8045-9097-5105-ba5b-a97700bd4f2f	85d4ade3-519a-548f-a1d3-9c668d7f7cec
+treatment	P051_proc_2	-999	-999	Radiation Therapy						d224423d-49d3-52df-8ad4-12fbc48edac8	59e9952d-57ed-52e1-863b-57dbba38e6cd
+treatment	P002_proc_2	-999	-999	Radiation Therapy						d3912cf6-37ac-5e6f-bac9-e5d1b448c7e3	aa0dfca2-476d-5600-9c83-920bb70c4d68
+treatment	P078_proc_2	-999	-999	Radiation Therapy						d562bcaa-aef0-5f58-8c31-25ce2431d7f6	06514cf5-811e-534e-b3b1-0460088e6b2f
+treatment	P046_proc_2	-999	-999	Radiation Therapy						d77874aa-ec4e-5217-9a61-ec6cda82f7e1	34b70d49-5e96-5830-802a-0fcdda28629e
+treatment	P008_proc_2	-999	-999	Radiation Therapy						d86b49b1-9a3e-55b1-bd7f-504c174d11ec	65120b90-af6d-5a6c-9638-00f4b2534c8b
+treatment	P042_proc_1	-999	-999	Stem Cell Transplant	Cyclophosphamide;Fludarabine					d9c5a272-c2a5-5d51-a154-6b63bb94d941	60ce2a26-1507-5b53-91cd-7ad534538c73
+treatment	P048_proc_1	-999	-999	Chemotherapy	Cyclophosphamide;Cytarabine;Daunorubicin;Doxorubicin;Mercaptopurine;Methotrexate;Pegaspargase;Thioguanine;Vincristine					dabcb3a0-3469-5908-b852-a5e959cf53ae	d44ebbd5-e2dc-5287-a073-34e5af84db28
+treatment	P100_proc_2	-999	-999	Radiation Therapy						de3a4077-5b8c-50c2-9def-eb8b3eb3030c	aa15b75f-1b56-5878-a1b7-ff14a2faf568
+treatment	P050_proc_2	-999	-999	Radiation Therapy						dea0cd52-1d35-5200-b171-0da5dab58b8c	a9c1022a-c502-5343-a534-58e8aaaf9e40
+treatment	P072_proc	-999	-999	Chemotherapy	Cytarabine					e03da7e7-03b9-5517-9bf9-2dc190263c95	b08e7d1c-8273-5e60-a0ae-d340d4ebeb51
+treatment	P097_proc_1	-999	-999	Chemotherapy	Cyclophosphamide;Cytarabine;Doxorubicin;Mercaptopurine;Methotrexate;Pegaspargase;Thioguanine;Vincristine					e0bc50e3-ed62-585d-8c1d-bfff930b860c	0539b6e7-0bf4-50c4-9923-663538184ab1
+treatment	P053_proc_2	-999	-999	Radiation Therapy						e11d335d-6dde-5896-9728-622edf20e0f0	94afb84e-433f-5a4e-a337-998f6da99f4b
+treatment	P025_proc	-999	-999	Chemotherapy	Asparaginase;Cytarabine;Daunorubicin;Etoposide;Gemtuzumab Ozogamicin;Mitoxantrone					e24aca7a-5886-54d1-b6fb-33b5b9309662	a04411e6-1da1-5f29-bb09-cc0a1a8373c3
+treatment	P084_proc_1	-999	-999	Stem Cell Transplant	Cyclophosphamide					e37bffdb-c4b6-54a8-a611-366369197b4d	a15a242d-6124-5d7e-ab7e-6c2319380ba8
+treatment	P008_proc_1	-999	-999	Chemotherapy	Cyclophosphamide;Cytarabine;Daunorubicin;Doxorubicin;Mercaptopurine;Methotrexate;Pegaspargase;Thioguanine;Vincristine					e3f78b14-f485-59aa-b894-61a5ac01d4f5	65120b90-af6d-5a6c-9638-00f4b2534c8b
+treatment	P064_proc_1	-999	-999	Stem Cell Transplant	Cyclophosphamide;Fludarabine					e4f83b22-f7c4-56c1-a629-6dfe048876b8	e7201f34-eabc-5416-99e3-39ff4b7ad22e
+treatment	P014_proc	-999	-999	Not Reported						e57b8671-8008-5d9c-bc2f-04be5b4908e6	681fa0ea-a294-544d-81f6-22facfd13162
+treatment	P055_proc	-999	-999	Not Reported						e62af984-0cf0-5eec-a879-f6aca8d56e61	ac7c45f4-88f4-5a84-81d6-dafc3528a4bf
+treatment	P099_proc	-999	-999	Other Treatment Type	Cytarabine					ea9c3100-8a30-57af-8a66-07779f11bee3	d7dec23e-dd61-5f9d-847f-8028d57a5c0e
+treatment	P006_proc	-999	-999	Not Reported						eaf1a3a1-71f5-5e37-ad6f-c496432a90ee	7c8c0b10-9036-5fe1-89db-b522cf55326d
+treatment	P064_proc_2	-999	-999	Radiation Therapy						eb150437-6455-5342-b7a1-e4ca39c857ac	e7201f34-eabc-5416-99e3-39ff4b7ad22e
+treatment	P070_proc	-999	-999	Chemotherapy	Cytarabine					eced7f9a-4117-5589-b725-b40d9b762c81	e7a32686-3d0f-5b67-bad9-e225c445c1c2
+treatment	P011_proc	-999	-999	Not Reported						ed3b0c32-9cb7-5b9d-9be1-9143be7248e6	9f82e1c0-ae40-5df5-92dc-efcbc28b16cd
+treatment	P075_proc_2	-999	-999	Radiation Therapy						f09379f7-8a67-5fc2-993c-1ff0b3f2fd5a	46b84edf-6452-51f7-8ea0-dc117ef33ac7
+treatment	P103_proc_1	-999	-999	Chemotherapy	Cyclophosphamide;Cytarabine;Daunorubicin;Doxorubicin;Mercaptopurine;Methotrexate;Pegaspargase;Thioguanine;Vincristine					f2602e1a-c53b-5ef1-b957-91b9bf31b620	a520600d-37cb-5904-8665-4e2d60e1a904
+treatment	P056_proc	-999	-999	Not Reported						f4dce026-ef13-5f64-a177-645c09c5e834	d505c4ad-64de-5bbd-b4a4-0ed7992c35c5
+treatment	P043_proc	-999	-999	Not Reported						f82ace48-9333-5ed2-bef3-5532c40233d0	a690b7db-07f8-5940-9a93-bb9be0c3e1d5
+treatment	P017_proc	-999	-999	Not Reported						fa795bf5-c911-5182-83df-9e29bfecaf93	8947a5ca-6ea4-5c23-8d96-2036857984e5
+treatment	P016_proc_2	-999	-999	Radiation Therapy						fac21280-e17f-5f1a-a319-8c3969eafb98	705b2a00-fba0-57f3-bb75-08f8bda04452
+treatment	P050_proc_1	-999	-999	Chemotherapy	Cyclophosphamide;Cytarabine;Doxorubicin;Mercaptopurine;Methotrexate;Pegaspargase;Thioguanine;Vincristine					fcc43b39-babb-5063-8c5d-0f643a786570	a9c1022a-c502-5343-a534-58e8aaaf9e40
+treatment	P009_proc_1	-999	-999	Chemotherapy	Cyclophosphamide;Cytarabine;Daunorubicin;Doxorubicin;Mercaptopurine;Methotrexate;Pegaspargase;Thioguanine;Vincristine					ff93612e-dc7d-5eb2-b406-75e6078d1886	28cf4b61-a495-5fa5-b805-a8dedd1547f6

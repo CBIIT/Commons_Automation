@@ -1,0 +1,2 @@
+type	study_personnel_id	personnel_name	personnel_type	email_address	institution	orcid	crdc_id	id	study.id
+study_personnel	person_1	Peter Houghton, PhD	PI	houghtonp@uthscsa.edu	The Research Institute at Nationwide Children's Hospital	https://orcid.org/0000-0002-2400-8184		666fe0a7-3610-5e06-98d1-375eceed0c6a	d7d2e44c-f6cf-536d-b67d-930f66923fc0

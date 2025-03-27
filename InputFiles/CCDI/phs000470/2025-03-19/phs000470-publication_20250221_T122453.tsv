@@ -1,0 +1,3 @@
+type	publication_id	pubmed_id	id	study.id
+publication	pub_1	26977886	5d8e088a-55bf-57b5-844b-e3bf7be62800	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
+publication	pub_2	31708418	75194e1e-476d-5972-ba2b-429b202c0375	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3

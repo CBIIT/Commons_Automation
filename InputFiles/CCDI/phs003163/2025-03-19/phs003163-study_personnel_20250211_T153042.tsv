@@ -1,0 +1,3 @@
+type	study_personnel_id	personnel_name	personnel_type	email_address	institution	orcid	crdc_id	id	study.id
+study_personnel	phs003163.jm	John Maris	Co-PI	maris@chop.edu	Children's Hospital of Philadelphia	https://orcid.org/0000-0002-8088-7929		a2bec63e-5400-503b-a57b-f1bfc3acb3f3	b7f629a6-8d15-5bb5-a4d7-e2c165ebae24
+study_personnel	phs003163.ym	Yael Mosse	Co-PI	mosse@chop.edu	Children's Hospital of Philadelphia	https://orcid.org/0000-0002-3463-0399		c132660a-1c9d-590b-8d62-8a943d140ad1	b7f629a6-8d15-5bb5-a4d7-e2c165ebae24
