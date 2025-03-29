@@ -1,0 +1,1 @@
+type	pdx_id	model_id	mouse_strain	sample_type_for_implantation	implantation_type	implantation_site	tumor_confirmed_not_to_be_mus_or_ebv_origin	is_tumor_from_untreated_patient	passage_number	passages_tested	validation_technique	id	study.id	sample.id

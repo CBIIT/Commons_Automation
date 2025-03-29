@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@index='1' and @role='tab']</value>
+         <value>//*[@index='2' and @role='tab']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@index='1' and @role='tab']</value>
-      <webElementGuid>c80f763d-5230-4f64-87b7-8af2c7c2033b</webElementGuid>
+      <value>//*[@index='2' and @role='tab']</value>
+      <webElementGuid>1d686d7c-f8e8-4e80-b6e0-b19aa4cec181</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
