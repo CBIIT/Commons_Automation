@@ -916,7 +916,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
 											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]")).getAttribute("innerText")) +"||")
 										}else if (!colHeader.get(j).getAttribute("innerText").equals("Manifest")){
-										
+
 											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
 											//*[@id="study_tab_table"]//tbody/tr[1]/td[2]/p  -- this is the updated one
 
