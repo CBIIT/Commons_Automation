@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Files_ResultsTab</name>
+   <name>phs000466_Chkbx</name>
    <tag></tag>
-   <elementGuidId>72b8ff26-3d45-4bd9-a080-45ef33d9c8d9</elementGuidId>
+   <elementGuidId>ce680730-20cb-48de-9ec1-8064eae9eb23</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@index='3' and @role='tab']</value>
+         <value>//*[@id=&quot;checkbox_dbGaP accession_phs000466&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@index='3' and @role='tab']</value>
-      <webElementGuid>7de95944-6220-40d2-aa67-ce37d30f3bd6</webElementGuid>
+      <value>//*[@id=&quot;checkbox_dbGaP accession_phs000466&quot;]</value>
+      <webElementGuid>70a13656-4603-4f81-bcae-31e94f7805ee</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
