@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC14_ICDC_NCATSCOP01_FileType-PathologyReport</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e7c3607e-5ca5-4f2a-a486-8ad982cd7710</testCaseGuid>
+</TestCaseEntity>
