@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_CCDI_phs000466_SmplAnatomicst-NotRprtd_Lastknwnsrvlstats-Alive</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>af1bae80-fc32-46b0-8953-a4c54bd6c69d</testCaseGuid>
+</TestCaseEntity>
