@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_CCDI_phs000467_Sex-Male_Diagn-Ganlionrblstoma_DiagAnatSite-C48RetroPeritoneum</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2e69f620-3a11-4369-bf46-3ef67cfec3e2</testCaseGuid>
+</TestCaseEntity>
