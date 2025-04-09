@@ -1,0 +1,5 @@
+type	study_funding_id	funding_agency	grant_id	funding_source_program_name	id	study.id
+study_funding	fund_3	National Cancer Institute	CA42326		1a2f6c44-2085-50c0-a2bb-64ccc888487b	23802269-0118-5371-8505-f0e5cc068b51
+study_funding	fund_2	National Cancer Institute	HHSN261200800001E		ae0bfaad-46ab-5160-bb41-bf3758f9bf6f	23802269-0118-5371-8505-f0e5cc068b51
+study_funding	fund_4	National Cancer Institute	CA88131		c72d9cbc-0553-53fd-98e1-9e88b77e8d51	23802269-0118-5371-8505-f0e5cc068b51
+study_funding	fund_1	National Cancer Institute	CA98543		da3156af-e56a-51f7-bd8b-6e1ff28e88f5	23802269-0118-5371-8505-f0e5cc068b51

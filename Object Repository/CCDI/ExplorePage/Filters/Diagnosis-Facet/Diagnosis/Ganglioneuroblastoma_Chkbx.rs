@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Ganglioneuroblastoma_Chkbx</name>
+   <tag></tag>
+   <elementGuidId>74b9153a-2a61-4d6d-9f8c-7b0d3efe7c81</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;checkbox_Diagnosis_Ganglioneuroblastoma&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;checkbox_Diagnosis_Ganglioneuroblastoma&quot;]</value>
+      <webElementGuid>7b298dcb-f3fe-458b-87d9-2a48b9a9bbcd</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

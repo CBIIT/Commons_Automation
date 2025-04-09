@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC01_CCDI_phs000467_Sex-Female_Race-Asian</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>2961a324-ae04-462c-8fc6-235216a56aea</testCaseGuid>
-</TestCaseEntity>

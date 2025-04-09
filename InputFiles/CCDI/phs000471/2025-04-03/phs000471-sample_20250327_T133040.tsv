@@ -1,0 +1,271 @@
+type	sample_id	tumor_classification	anatomic_site	participant_age_at_collection	sample_tumor_status	sample_description	crdc_id	id	participant.id	pdx.id	cell_line.id
+sample	TARGET-50-PALDWP-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		0176bbd5-1eba-567f-bed9-d3c2d3a96498	b6b80d34-511c-56d3-9d3c-faeecf28ccc9		
+sample	TARGET-50-PAKUCW-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		029fbb26-36bd-5cb6-9415-773239a77979	f4e820c4-0682-5fd1-8558-734cd372f195		
+sample	TARGET-50-PAKGMU-11A	Not Applicable	Not Reported	-999	Normal	normal solid tissue		02d8cb37-2feb-5c0f-8d62-60b66494e996	9d281b62-a905-58cd-bbda-b9db36c457ac		
+sample	TARGET-50-PAJPEW-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		032833fe-a71a-5e98-a823-aae551f5ef70	9c91176c-71b6-5d36-bce0-26c5be18e874		
+sample	TARGET-50-PAJMEL-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		03e7203d-af8d-544a-af22-38656bfbeafe	cd7f40f8-6715-5600-84b7-7faac7c47563		
+sample	TARGET-50-PAEALK-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		062ec083-aeec-544c-9ff0-d5c441008770	f3b6cf21-2a6b-5281-b88c-ec76573a094e		
+sample	TARGET-50-PAJMMY-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		075d3cb6-4063-5ba7-b31b-7d3cb01a59db	96373655-d69e-5e54-9591-0421d3687bf4		
+sample	TARGET-50-CAAAAQ-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		089b4f0b-f2ca-5432-9988-e7e3c65d8ae8	b7b2e2ce-d16d-57c6-a1d3-0377909cd7d6		
+sample	TARGET-50-PAJMLY-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		09dbd6a5-2af8-5c29-84c9-e3dddd381e9f	40abb03e-26d0-5f4d-adb7-4bbe8f9fc6f2		
+sample	TARGET-50-CAAAAR-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		0a31f556-f790-56db-a784-071b34afbb2a	15ec8009-1af2-570c-90d9-b4372322c68e		
+sample	TARGET-50-PAEAFB-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		0ae7ba27-ddd5-56cb-a428-1363b6dab524	ab16efdd-4ee1-5e72-82f8-84b591dfbe86		
+sample	TARGET-50-PAJLPX-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		0b086219-4dc2-5705-ad1b-46c9e98b8090	6ec82cc5-5e18-580d-9515-88aa3fae0f27		
+sample	TARGET-50-PAJMLI-11A	Not Applicable	Not Reported	-999	Normal	normal solid tissue		0bc13b26-964c-505a-b1b7-bc03b15f2bdb	b3a3eaa2-7ca6-5005-9115-db27d14d54fe		
+sample	TARGET-50-PAKSDG-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		0c098c8d-0a8b-5fb4-8208-b44765498159	d9bb991d-4655-5969-a96c-e2b23a536f94		
+sample	TARGET-50-PAJNCJ-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		0e6e2694-327f-5e59-b6dd-4ca9142ca0f3	5b9bf210-334a-53d8-a8c6-3979545a4c1c		
+sample	TARGET-50-PAJMSE-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		0eee8f6b-bcb2-54cc-9657-53fae6ef915a	defd3fb4-fe1d-5870-b567-e8f1eee74435		
+sample	TARGET-50-CAAAAJ-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		1046fa43-3de9-5ec3-b355-899ceec1cd78	e2d72c70-383b-50d2-bc14-3acffcdf6d95		
+sample	TARGET-50-PALFRD-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		128fbba8-5814-5fff-b1a8-4cab67c7478e	dc4d52d6-dbe6-5952-8e3a-e61d3aad33b6		
+sample	TARGET-50-PAJNSL-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		14963dc3-e862-590a-bc97-c2110fff9b8b	c7729b25-c128-56df-a867-a0e5dc9267e9		
+sample	TARGET-50-PAJLTI-11A	Not Applicable	Not Reported	-999	Normal	Normal solid tissue		14d73b1c-ca6d-5935-8703-1640760d7000	7f420a3c-cf3c-58c2-a833-85e3731b3783		
+sample	TARGET-50-PAJLTH-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		151859bf-2583-55e2-98d1-c2a0b5af7a60	e89d21a9-7540-5d44-bae8-6d5eb4f3f6a0		
+sample	TARGET-50-PAJLXH-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		1641c9d5-9ebd-52f1-ba0a-35ee652ce05d	0eebd70f-7dee-5185-aedb-10a54bad0a90		
+sample	TARGET-50-PAJMMW-11A	Not Applicable	Not Reported	-999	Normal	normal solid tissue		1987e64c-a053-5d85-88c2-168d89ce045c	b5b8a573-0d82-5c4c-baa6-9dbf8f9d9e02		
+sample	TARGET-50-CAAAAO-11A	Not Applicable	Not Reported	-999	Normal	Normal solid tissue		1a43f8fc-aefe-525e-8f0f-b2c3b039bb46	31c1f3b9-596f-561b-ae84-597d028a78fc		
+sample	TARGET-50-PAJNVE-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		1a8049a2-5515-5b1b-bb67-0002a7d24ae6	ccb590ae-bc78-5939-ab74-e055528bb1e2		
+sample	TARGET-50-PALGLU-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		1bea3727-7780-56e9-980d-b01741f7b1dd	cb9bd975-5358-5113-85f7-0554d4c03621		
+sample	TARGET-50-PAJNJL-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		1caf0e0e-3689-5761-9c0d-10fc468404a4	71cf9a40-ffb0-5da1-87af-df3bc8ee8beb		
+sample	TARGET-50-PAJMUF-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		1cd5fc7f-e144-59eb-b3aa-ea0e4eddaed9	93d8d85e-e49d-5f7f-be95-96a6ae2cf643		
+sample	TARGET-50-PAKJGM-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		1dacc205-5a6b-501f-b469-11c558f9a926	0d14b322-6e07-5ecb-b193-d53259a7a1fb		
+sample	TARGET-50-PAJNGH-01A-02	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		1deab879-a65e-592c-991a-46217af3629b	a316b035-e7f0-5fc9-8de9-99c298dedd91		
+sample	TARGET-50-CAAAAL-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		1e04c703-4df6-5f61-8f4c-b255ea9f597d	67d5a434-ea3d-5eeb-b4a3-663e30172de2		
+sample	TARGET-50-PAJLUJ-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		1ef95ad1-92eb-51f4-858f-da527733c179	a27df434-13ae-57ff-9f61-4c46c652d380		
+sample	TARGET-50-PALGAZ-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		1f2e7349-3c48-5fde-9b91-7e56dcd3e8a8	5f0e1dd1-9376-5018-b576-65d1b9cd1ba5		
+sample	TARGET-50-PAJNYT-11A	Not Applicable	Not Reported	-999	Normal	normal solid tissue		1f55aaac-0fe2-52f9-8003-c21ea424409e	5182c899-5f84-5f22-92a6-7dbc42cc0655		
+sample	TARGET-50-PAJLIP-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		2032a6c8-5b75-58e5-a851-a116bad6dc66	1fe8d572-3c93-58f3-9cd5-5b72527933d1		
+sample	TARGET-50-PALDTE-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		209206f9-a465-54f2-85b7-933bf50d06ae	9c80bd23-bace-5998-954e-76a3ec5dc2b8		
+sample	TARGET-50-CAAAAB-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		20e51eb6-8274-516d-9791-d45b23f43a0d	356e920e-7d51-5ada-9595-e73374a24885		
+sample	TARGET-50-PAKXXF-11A	Not Applicable	Not Reported	-999	Normal	normal solid tissue		216b0a78-30ba-57ec-82dc-8f654743c4e4	cecebbb0-6d01-5634-a8c5-704dc43bc2b2		
+sample	TARGET-50-CAAAAR-11A	Not Applicable	Not Reported	-999	Normal	Normal solid tissue		21f224b6-20ad-54ba-a80d-4ac13683cae8	15ec8009-1af2-570c-90d9-b4372322c68e		
+sample	TARGET-50-PAJPGY-11A	Not Applicable	Not Reported	-999	Normal	normal solid tissue		2314c118-edca-54c9-ad0c-7d2aab4ce610	a3317f60-1936-5386-ba05-29469b927da6		
+sample	TARGET-50-PAJNCC-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		243d55dc-5536-5b4c-9cb4-a342b0a2b34d	30bb6fb5-5345-50a2-aee7-e2012505ec7f		
+sample	TARGET-50-PAKZHF-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		2457c242-5991-5cd8-b16c-426373804274	57326ab7-9e1d-5d2d-846b-24202dbd69ac		
+sample	TARGET-50-CAAAAC-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		2460229e-c85b-56f8-ae32-e635ea3710dd	016892bb-382b-5699-abcc-ad48f541317d		
+sample	TARGET-50-PALERC-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		25639f79-e784-56ab-a146-00a0e1ac719e	61b18ab0-06a9-566f-8f63-0412b3b555b9		
+sample	TARGET-50-PAJLKR-11A	Not Applicable	Not Reported	-999	Normal	Normal solid tissue		27520a9d-4478-5f56-b056-1946b991360a	c000ce2c-6ba8-55f6-9b49-d2c9ca14732a		
+sample	TARGET-50-PALLFB-11A-02	Not Applicable	Not Reported	-999	Normal	Normal solid tissue		27bd1416-e6a0-5c5c-ae17-60e9a8afb0d5	8016e5cc-315a-580e-8fbf-a35aa02d3364		
+sample	TARGET-50-PAJLNJ-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		28831624-340c-55b7-89d6-39ae84668adb	217b6cab-3ee4-59dd-8686-6aa57f1b3d00		
+sample	TARGET-50-PAJNZZ-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		28d9dcc0-c9db-5475-a70a-59cc0247d709	7b283bc1-970c-5724-8529-4f5290e364fe		
+sample	TARGET-50-PAKRCC-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		291eedce-2ad0-570e-9d57-ed10491d15f0	bc090ff6-3ef5-5361-b615-04a2b3939d5a		
+sample	TARGET-50-PALLCK-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		29b7951f-11a4-5395-98b7-7148b686af3d	f5e17e6b-2ee4-50f5-a8fd-80cb98428175		
+sample	TARGET-50-PAJPDN-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		29fe885c-92be-5824-b27a-38369559786b	b409df06-0d63-5c06-b844-31634901a66a		
+sample	TARGET-50-PAJNZS-11A	Not Applicable	Not Reported	-999	Normal	normal solid tissue		2a5049ce-a7f2-54b5-90cd-552b0d55e6b8	ee6fc699-6e71-500c-ad9d-aab8e9b7ca38		
+sample	TARGET-50-PAKECR-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		2b4993c0-61f2-55dc-8e90-9222cf361426	b6fade95-4e88-5ddf-9e41-e5c2edb1fc22		
+sample	TARGET-50-PALDWP-10A	Not Applicable	C42.0 : Blood	-999	Normal	Normal blood		2c62a389-26e0-54e4-93aa-93ce91d20681	b6b80d34-511c-56d3-9d3c-faeecf28ccc9		
+sample	TARGET-50-PALJIP-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		2d56f3eb-3090-5730-91e7-3a7146ef1b49	e0e0df2d-9248-552c-ab87-dd112d66019a		
+sample	TARGET-50-PAJLTD-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		2dbb8ec7-261c-5ae6-9d6d-ca1ff352c12e	fcf85133-9870-5544-acde-1e11525c4345		
+sample	TARGET-50-PAKKZG-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		2dd42bd3-fe50-51cb-bc69-7bad7839a26e	604a502e-e964-5d4b-ab2d-0751d59b576c		
+sample	TARGET-50-PAECJB-10A	Not Applicable	Not Reported	-999	Normal	Normal solid tissue		303576b3-c779-54b1-b8a2-6bafde2c69df	ded85549-e23f-5eaa-b662-9222cfc50f17		
+sample	TARGET-50-PAKFME-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		3075005e-87ce-5334-aa66-f044e5c88949	ad023ed6-0479-576f-a9cb-c4476e1ae974		
+sample	TARGET-50-PAJNCJ-11A-01	Not Applicable	Not Reported	-999	Normal	normal solid tissue		30c7be5a-94f9-58d2-b620-e56e143b4a85	5b9bf210-334a-53d8-a8c6-3979545a4c1c		
+sample	TARGET-50-PALERC-11A-01	Not Applicable	Not Reported	-999	Normal	normal solid tissue		3300f022-9191-5352-8c73-9b4f51cd22d8	61b18ab0-06a9-566f-8f63-0412b3b555b9		
+sample	TARGET-50-PAJMJT-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		33d0e94b-53aa-5746-b791-125aca087c81	3343b9b5-6355-5885-9114-66724d4eabcc		
+sample	TARGET-50-PAJMVK-01A-02	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		34573b0e-6c6d-5c5f-84fe-5ec236f9c2ef	8bea02bf-bf24-5d97-90fd-5996c4f67e48		
+sample	TARGET-50-PALFME-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		347de247-8d5f-5f6a-8f3b-3d399774e8d0	fc7b5a47-fac4-5056-a04e-5adfbac64dd4		
+sample	TARGET-50-PALLFB-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		34a8db81-d5c6-560a-bdc8-025fdd6ba807	8016e5cc-315a-580e-8fbf-a35aa02d3364		
+sample	TARGET-50-PAKMSV-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		34ca654e-5f42-564f-a123-85d4f0c9111a	c3981f35-a50b-5984-90be-4e87133e1e26		
+sample	TARGET-50-PALKRS-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		35bec74b-9222-59ce-996a-28f02e34ce92	5eab2cfa-d9c7-5ea6-abfd-46f738d28a1b		
+sample	TARGET-50-PAJLTI-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		35f25552-e589-5bb9-a7cb-82855635d610	7f420a3c-cf3c-58c2-a833-85e3731b3783		
+sample	TARGET-50-PALAXJ-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		35fb1e47-3e62-5930-9152-b898178aa4ea	8441bd72-7628-5ddb-9ba5-5a7f11942957		
+sample	TARGET-50-PAJNJL-01A-02	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		370cc40e-8b56-5f99-8688-7659da23d1c1	71cf9a40-ffb0-5da1-87af-df3bc8ee8beb		
+sample	TARGET-50-PALLFB-11A	Not Applicable	Not Reported	-999	Normal	Normal solid tissue		37f18b3d-90c3-58c0-99a1-f9debd27b667	8016e5cc-315a-580e-8fbf-a35aa02d3364		
+sample	TARGET-50-PALGVY-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		3845e9fc-e397-590b-9c51-fa1e8913a491	95d85b11-87c1-54be-b509-d2544699cac9		
+sample	TARGET-50-PADYRW-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		3adbd0db-3763-501c-be60-695a6865ce12	a2e31c77-2ad3-581c-abc7-e95bce5c96f7		
+sample	TARGET-50-PAJNEC-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		3b9528b0-f475-59f5-93d9-3369e4263790	6770d6aa-8053-5678-a686-37ead3f963fe		
+sample	TARGET-50-PALKCW-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		3c8605ce-bfe2-5b6d-bd89-b0397577c9e8	58c3f979-7541-5381-974d-228f0350d0c5		
+sample	TARGET-50-PAJPHA-11A-01	Not Applicable	Not Reported	-999	Normal	normal solid tissue		3d371c83-8c75-5a6d-840e-ac89b8e9b944	2f3f36f1-fbd6-5ae2-8540-ef02a93be79c		
+sample	TARGET-50-PAJPFR-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		3fe670bf-0234-52d9-a864-64c6d10e3cb8	abbf2ab8-bf58-525d-91e1-275c9c473d85		
+sample	TARGET-50-PALCMK-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		40847704-603e-57dc-a507-4e35bf1e081c	a22ea2d1-c6f1-5212-944e-7883097f6c82		
+sample	TARGET-50-PALEFG-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		40e45b07-59c7-549b-a9b6-f5822a564abe	7d2b3d2a-a89f-5cd2-a60a-e613ee9bcb19		
+sample	TARGET-50-PAJNCL-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		41268dfd-4113-50c2-8dd5-d81306924a4f	65b3c435-500f-5fb0-b259-9e00e23ad0f5		
+sample	TARGET-50-PAJMBG-01A-02	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		41abd469-6cc9-52ac-908b-f4ea2d5aba96	67310893-537a-5c17-bc9c-310ce96ed5c5		
+sample	TARGET-50-PAKRVH-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		42f6479f-2739-5756-8046-b5b4835adfdc	e7d0d38d-9134-5eb1-bd75-6d0f60902a9b		
+sample	TARGET-50-PAJMEN-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		4342beb1-c624-5633-9fbc-bfdc10a18142	dec4c941-79cd-5186-ab6a-cfc2090ccd66		
+sample	TARGET-50-PAJLNJ-11A	Not Applicable	Not Reported	-999	Normal	Normal solid tissue		43bf873d-ca14-5fae-98e0-3eccb8bf4c06	217b6cab-3ee4-59dd-8686-6aa57f1b3d00		
+sample	TARGET-50-PAKYFC-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		43ecde82-ce7a-50e8-b57e-02876a755a5a	d49c2f6b-6b45-5df5-882a-91e62f17044b		
+sample	TARGET-50-PAJNDU-11A	Not Applicable	Not Reported	-999	Normal	normal solid tissue		45847832-0a33-5ca2-9be1-7c83246b4d26	ccce78b7-42ac-54e8-a461-8a3e2daad6bf		
+sample	TARGET-50-PAKGMU-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		45da13d8-67a2-5157-b72f-c71d2b96a2fb	9d281b62-a905-58cd-bbda-b9db36c457ac		
+sample	TARGET-50-PAKJGM-11A-02	Not Applicable	Not Reported	-999	Normal	frozen normal tissue		46c5d3ae-525d-5a0d-a2f9-f592e71a7d42	0d14b322-6e07-5ecb-b193-d53259a7a1fb		
+sample	TARGET-50-PAJNCZ-11A-01	Not Applicable	Not Reported	-999	Normal	normal solid tissue		480bc672-df37-5461-b9b3-08509bcc88ce	50fcfb83-d9b8-5036-bc7f-b5dcc81bfdf0		
+sample	TARGET-50-PAJNAA-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		48cd0ff1-db78-5524-8ab7-73eb244bf9ed	cda441d8-55e4-5d43-85ff-f9defc90366a		
+sample	TARGET-50-PAJMXF-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		4a7146a0-f15e-5595-9106-4eb63f401299	7687f0b1-a6a2-5cce-be5c-b0afaf007bfa		
+sample	TARGET-50-PAKVET-11A-01	Not Applicable	Not Reported	-999	Normal	normal solid tissue		4a7f4ce9-3a63-58e5-9185-f7df3286ea9e	0d84ac0c-80e9-5d59-8a6d-bc4c4735b4a5		
+sample	TARGET-50-PAJNNC-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		4b4edaea-86e3-53bb-aefc-6a54c8e664b8	895eb5f1-09e3-5371-90d9-e97004bb26a8		
+sample	TARGET-50-PAJLMV-11A	Not Applicable	Not Reported	-999	Normal	Normal solid tissue		4bcb41b2-2381-54fb-99f2-96262fa19b8b	370989c0-a47f-5f14-a4cb-2f703e0c3ebb		
+sample	TARGET-50-PAKFYV-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		4c17398d-d228-546c-9405-f7ed4ec6221d	d17439cd-2a66-5825-97ef-a3e80b7b83db		
+sample	TARGET-50-PAJMJK-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		4c805f8a-8029-5e3b-90c3-40f193b4983d	dead6555-9b16-59a5-b427-e11e1313c890		
+sample	TARGET-50-PAKECR-11A	Not Applicable	Not Reported	-999	Normal	normal solid tissue		4dfb0a20-09b3-5f7c-af3e-1dc9e3cdbc54	b6fade95-4e88-5ddf-9e41-e5c2edb1fc22		
+sample	TARGET-50-PAKZHF-11A-01	Not Applicable	Not Reported	-999	Normal	normal solid tissue		507cbad5-45c1-5d8f-a3d3-1a3e2563ac60	57326ab7-9e1d-5d2d-846b-24202dbd69ac		
+sample	TARGET-50-CAAAAB-11A	Not Applicable	Not Reported	-999	Normal	Normal solid tissue		51936c02-accc-59ba-83d1-3b41b6df60d9	356e920e-7d51-5ada-9595-e73374a24885		
+sample	TARGET-50-PAKUIT-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		527aadd5-041c-53f8-a88b-930db557e115	d4527236-55c0-5b72-a864-65a562a2b722		
+sample	TARGET-50-PAKNAL-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		5441a824-986a-55cf-aac6-70bf1cc863cf	f3ed92ea-2882-56e1-9c1f-4c0022c9d301		
+sample	TARGET-50-PAKKSE-11A-01	Not Applicable	Not Reported	-999	Normal	normal solid tissue		564c2a04-22a4-534c-9073-3e52e01e41d7	72827fc7-587c-5ac8-bb26-857e5bcbabf0		
+sample	TARGET-50-PAJNZK-11A-01	Not Applicable	Not Reported	-999	Normal	normal solid tissue		5830baec-0696-5c7d-b328-2339982fe86b	68393b6b-ce03-534b-863d-68fa420b2ec0		
+sample	TARGET-50-CAAAAS-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		586ce11f-dc17-5492-b5b2-e5018ad48e7f	9087d460-f528-5eaf-82e7-52808627639c		
+sample	TARGET-50-PAJNDU-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		58e055d4-b3ec-549b-9e5b-63be7eed1ff2	ccce78b7-42ac-54e8-a461-8a3e2daad6bf		
+sample	TARGET-50-PAJMFY-11A-01	Not Applicable	Not Reported	-999	Normal	normal solid tissue		597f250b-c9bb-5475-b0fb-e652495cbfb6	ee64a21e-c04f-5a4b-9183-5a060978398e		
+sample	TARGET-50-PAKSCC-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		5a5b314a-e269-59aa-be48-0757f15dbf15	d957d7b8-477b-5b5a-a165-3346cf462fd0		
+sample	TARGET-50-PAKYGM-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		5ae2077a-28e4-5a64-8f3e-7dec17bae1e1	e1fb79af-5838-5daf-9f17-9059dcc96dff		
+sample	TARGET-50-PAEAMT-01A-02	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		5c7821b6-3e56-5302-a94d-72c9c4385789	c20198d8-bda1-5738-bf31-00959b8640b2		
+sample	TARGET-50-PAJMRL-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		5d41a7db-2421-564d-8cde-15a11c33113c	7f48fd05-da62-5ab6-a2e0-a538bccdcdad		
+sample	TARGET-50-PAJNCC-11A-01	Not Applicable	Not Reported	-999	Normal	normal solid tissue		5d8a472d-b4d0-54e5-b416-0bca11c0a345	30bb6fb5-5345-50a2-aee7-e2012505ec7f		
+sample	TARGET-50-PAJMKJ-11A-01	Not Applicable	Not Reported	-999	Normal	normal solid tissue		5ee3f11f-8379-5ef3-a9ba-ffe7b2b08455	cfc8d5dc-67e0-5ff1-8b64-fe19baecd576		
+sample	TARGET-50-PAJNLT-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		60a7cf3c-ffed-5d2f-b09c-c0687f9af429	c3800851-0cb6-5655-aee6-ef510ba35fcb		
+sample	TARGET-50-PAJNSI-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		60a9a226-cecb-5e59-a4f3-17e3c8f55884	42b76d86-4499-5200-83b5-cbecb5f28797		
+sample	TARGET-50-PAJPEW-11A-01	Not Applicable	Not Reported	-999	Normal	normal solid tissue		60cb7e30-efa1-5d05-a49a-4ed277d1c20f	9c91176c-71b6-5d36-bce0-26c5be18e874		
+sample	TARGET-50-PAKGZX-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		63658ed7-d964-5591-a6b1-cced450c3135	421922a1-b053-53f3-a1bf-ba0263d8c0cf		
+sample	TARGET-50-PAEAMT-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		640759a0-9211-54dc-afd3-95675fb0bd34	c20198d8-bda1-5738-bf31-00959b8640b2		
+sample	TARGET-50-PAJNVX-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		64585ee6-a43c-5005-acdf-5b9dc7e00ecf	eeaede56-f87c-523f-a431-2856de373bcd		
+sample	TARGET-50-CAAAAM-11A	Not Applicable	Not Reported	-999	Normal	Normal solid tissue		64e861d6-9d48-597e-9a0a-d533d3cccbbb	01a6a319-f186-587c-a195-e89c3745915c		
+sample	TARGET-50-PAJLIH-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		65f4ab43-e24f-57de-876d-da2449f76c0e	b0bf4498-3d75-5819-b75e-29ef8807f78f		
+sample	TARGET-50-PAJLZC-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		65fea096-0339-54d2-8dc3-4256ecfc0671	1fd47e05-1d35-541f-85c3-832441f194ab		
+sample	TARGET-50-PAJNEC-11A	Not Applicable	Not Reported	-999	Normal	normal solid tissue		660c0f08-8728-5ccb-9ea0-723ae2cfd2c4	6770d6aa-8053-5678-a686-37ead3f963fe		
+sample	TARGET-50-PAKKNS-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		68f52042-ca6c-5a01-96f5-64e589bf6a05	033be066-ae0a-5da8-af50-5f31b49f70e9		
+sample	TARGET-50-PAJNBN-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		69be90c8-26ce-5374-8c48-89551c5662b5	f8466ef6-855d-54f9-a624-cbecfa5ed477		
+sample	TARGET-50-PAJLLF-11A	Not Applicable	Not Reported	-999	Normal	Normal solid tissue		6c369d6c-eac6-50e0-90e7-017cfbb9b88a	33292851-36fc-5624-9bd6-e534ecb2527f		
+sample	TARGET-50-PAEBXA-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		6cdb2e95-d7ce-54be-9bc0-264350733591	6e1d45ab-1604-5613-b31b-a88f5014ceea		
+sample	TARGET-50-PAKYLT-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		6d4a0441-1765-5362-8a52-b21c9a02b33a	021a6e93-a49b-5d95-a5b0-13272e68c4a8		
+sample	TARGET-50-PAJPCF-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		6eead01b-d9e8-5b98-a1a1-cf79c0bd14c7	dcc821d0-8305-53d7-9844-ce3cc032a856		
+sample	TARGET-50-PAJNJJ-11A-01	Not Applicable	Not Reported	-999	Normal	normal solid tissue		71062db9-034a-5e09-9ce8-f07b70da39de	5dc89276-7f68-5e85-b064-4e65761c939c		
+sample	TARGET-50-PAJNRL-11A	Not Applicable	Not Reported	-999	Normal	normal solid tissue		71522266-8792-5940-ba60-fd787b9cd11e	69275c14-7c86-56f0-b339-9aec4a451a87		
+sample	TARGET-50-PAJMVK-11A	Not Applicable	Not Reported	-999	Normal	normal solid tissue		72425718-db57-52d5-9bec-b238a54e6427	8bea02bf-bf24-5d97-90fd-5996c4f67e48		
+sample	TARGET-50-PAJMMY-11A-1	Not Applicable	Not Reported	-999	Normal	normal solid tissue		72577ddb-5d5d-5ff4-9520-b8d5cdea754f	96373655-d69e-5e54-9591-0421d3687bf4		
+sample	TARGET-50-PAJLLF-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		72fbc5ca-58e5-5f1c-875b-77644d868e60	33292851-36fc-5624-9bd6-e534ecb2527f		
+sample	TARGET-50-PAKMUB-01A-02	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		737b5764-d19e-597d-9635-f4c934dd52ce	5706f52d-488b-5d72-b7b9-3001fc389db0		
+sample	TARGET-50-PAJNZI-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		7387172a-db31-5d14-a3f1-f6bf05affb7d	1a467792-a908-5036-83b1-cf6dca96ba66		
+sample	TARGET-50-PAKMUB-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		73b71453-e461-5f66-a465-2f2a7a0e7a3a	5706f52d-488b-5d72-b7b9-3001fc389db0		
+sample	TARGET-50-PAJNNR-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		7431c93d-a400-5d87-b581-0934becd17ea	1123de55-3cd4-5e34-8693-37a3cd27d3c2		
+sample	TARGET-50-PAJPDC-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		74328896-6de0-57ab-8953-95481acc1c78	ce96efa0-74ef-5dd1-930f-5040ba87c0c9		
+sample	TARGET-50-PAJNAV-11A	Not Applicable	Not Reported	-999	Normal	normal solid tissue		74c93f81-ac1a-59c5-8670-f3913b14eb41	1ce2736f-49a8-5289-98aa-40cec6ef60d9		
+sample	TARGET-50-CAAAAJ-11A	Not Applicable	Not Reported	-999	Normal	Normal solid tissue		767c2d90-f208-5881-8423-3fc775be94f5	e2d72c70-383b-50d2-bc14-3acffcdf6d95		
+sample	TARGET-50-PAEHLJ-01A-02	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		77b76b0a-259e-5592-bafa-e1540892b0d3	95973cb4-bc33-5964-98c7-627813050bca		
+sample	TARGET-50-PAJNHN-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		78eb4c0c-bb5b-5901-99fb-14a896dd03b7	c2e5906a-4f58-520f-bf9a-b17a648bdaf7		
+sample	TARGET-50-PAJMFU-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		7939340c-07ce-564f-bedf-8fe0c0266274	582ccb66-f37e-546b-a948-a6fd81301f77		
+sample	TARGET-50-PALEZT-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		7a7b2120-0906-59e9-8885-b634742c36a9	6601ad88-e1e3-5685-bb0e-b564041f6a92		
+sample	TARGET-50-PAJLSP-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		7bc496f5-30c6-5352-9065-f1bfe9e0efab	ef47ff2f-9f4e-5087-a3ba-295e0213c8a8		
+sample	TARGET-50-PAKGED-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		7c4fb2d7-6a98-5498-90fc-8642003692e4	860aec4f-06bf-5c24-b0da-ae9335227840		
+sample	TARGET-50-PAJMKJ-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		7e4344e6-ff5f-56f1-aad7-6994b2b7e2bb	cfc8d5dc-67e0-5ff1-8b64-fe19baecd576		
+sample	TARGET-50-PAJMVU-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		7fe79e92-074d-5d89-b4cf-84fd8d982f5f	94e3e116-ced8-50d9-81b9-52a61811ddb6		
+sample	TARGET-50-PALJHR-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		81c919ec-df35-5c2f-88d2-fa2e681b1f7a	6ee3d5d5-fdc2-5213-8686-21eeab571853		
+sample	TARGET-50-PALKCW-11A	Not Applicable	Not Reported	-999	Normal	normal solid tissue		82a3a6ec-e0e3-50c5-896f-302b136b2bef	58c3f979-7541-5381-974d-228f0350d0c5		
+sample	TARGET-50-PAJMVC-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		82e023f1-0ae0-5aa1-8317-738579754acf	0b8b72ae-e19c-51cf-9905-e6f3e1a39d57		
+sample	TARGET-50-PAJLKR-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		83a1704d-118c-54ea-a281-bbf70498b7de	c000ce2c-6ba8-55f6-9b49-d2c9ca14732a		
+sample	TARGET-50-PAKXXF-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		83e0af7e-196b-58ca-b8f7-700c0152e30e	cecebbb0-6d01-5634-a8c5-704dc43bc2b2		
+sample	TARGET-50-PAKZFK-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		8649f66f-c095-59f3-9b7e-73d8173849ab	68999117-89fb-5fec-83a1-7edf2ea2e3f8		
+sample	TARGET-50-CAAAAA-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		86e14550-654e-59cc-8dcd-a02ce4931a26	2f4a448c-f85a-5a8a-aadb-3b9e630256f8		
+sample	TARGET-50-PAJNCZ-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		86f45bad-5a1c-5dd1-8978-354490e58883	50fcfb83-d9b8-5036-bc7f-b5dcc81bfdf0		
+sample	TARGET-50-PAJMMW-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		86ff196a-3673-5a94-ac6b-7b55fb40bb93	b5b8a573-0d82-5c4c-baa6-9dbf8f9d9e02		
+sample	TARGET-50-PAJMYA-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		87256722-9a4e-5349-8ffd-456093c62477	ce0b921a-db69-5781-98a0-b23d4db6b1b0		
+sample	TARGET-50-PAJLZA-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		877f1736-3252-5b69-a88d-588729315ceb	d9ab4477-00f2-58bb-a11a-d755f167a889		
+sample	TARGET-50-PALFME-11A	Not Applicable	Not Reported	-999	Normal	normal solid tissue		8a33d9b8-f5b6-512d-a69f-4bc3c08a8339	fc7b5a47-fac4-5056-a04e-5adfbac64dd4		
+sample	TARGET-50-PAJNXT-01A-02	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		8b6f6b16-59cf-55db-a71a-728a3c7f52cd	703cb602-b755-5ab6-b026-281eff7717f4		
+sample	TARGET-50-PAJLZC-11A-01	Not Applicable	Not Reported	-999	Normal	normal solid tissue		8bbe711d-9a09-5cbd-a7eb-b8baa94d51e6	1fd47e05-1d35-541f-85c3-832441f194ab		
+sample	TARGET-50-PAJMLY-01A-02	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		8c5b5dd2-7897-5fb2-bdd0-bd21434b4803	40abb03e-26d0-5f4d-adb7-4bbe8f9fc6f2		
+sample	TARGET-50-PAJNYT-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		8d38536b-3e45-5d60-8bed-a140c66efb6a	5182c899-5f84-5f22-92a6-7dbc42cc0655		
+sample	TARGET-50-PAJNSL-11A-01	Not Applicable	Not Reported	-999	Normal	normal solid tissue		935f4889-e622-5558-899f-4295ca98305c	c7729b25-c128-56df-a867-a0e5dc9267e9		
+sample	TARGET-50-CAAAAO-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		93bc9135-9ff0-5202-aab2-4c53b2cdecb9	31c1f3b9-596f-561b-ae84-597d028a78fc		
+sample	TARGET-50-PAJLWT-11A	Not Applicable	Not Reported	-999	Normal	normal solid tissue		944a8f11-6ea4-5d77-b0cc-b5d44316a028	19239c28-d16b-5473-a822-c3edcb780d4b		
+sample	TARGET-50-PAKKSE-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		94e42bb5-1db2-5b4f-ad13-f2f5ea0ce11a	72827fc7-587c-5ac8-bb26-857e5bcbabf0		
+sample	TARGET-50-PAJMBG-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		94fd6c1b-8b9f-5c4e-b04a-fadf67a3ba40	67310893-537a-5c17-bc9c-310ce96ed5c5		
+sample	TARGET-50-PAJNZS-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		95a34d34-f3ef-5d71-808e-9b07d15b8ad0	ee6fc699-6e71-500c-ad9d-aab8e9b7ca38		
+sample	TARGET-50-PAKXWB-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		9835f482-5523-51c4-b26b-bdbd18f4d4c8	77d34f74-1524-52e2-88b4-e02dbea52230		
+sample	TARGET-50-PAJMKN-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		98626ff9-eba6-5802-9dd7-21644124d5d2	f9ec3ec8-be3b-5620-85e2-014075f64ae3		
+sample	TARGET-50-PAKWPM-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		98921270-a13b-5113-9824-35a1817af35f	64bf90a1-eacb-5d23-b3d0-2556bea7a93b		
+sample	TARGET-50-CAAAAM-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		9aa9e440-0131-58d0-8dc6-7634c67a9f7d	01a6a319-f186-587c-a195-e89c3745915c		
+sample	TARGET-50-PAJLSV-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		9af4b0e5-cd28-55f7-83a3-509288ff03f6	982b10c7-5dc7-52a5-b94d-d2123680f19c		
+sample	TARGET-50-PAKPDF-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		9b18b2cc-cdfb-504f-9dd7-6a4a597891f9	d3ce4f1b-ea15-5ec4-b650-02903c0e6c16		
+sample	TARGET-50-PAKSCC-11A-01	Not Applicable	Not Reported	-999	Normal	normal solid tissue		9c35acc2-75a1-5142-b6c3-05d3f2ba14a3	d957d7b8-477b-5b5a-a165-3346cf462fd0		
+sample	TARGET-50-PAKRZW-11A-01	Not Applicable	Not Reported	-999	Normal	normal solid tissue		9cdab40b-4b1f-5aaa-90db-18eff1b2b650	5778f919-844e-5f05-bf55-0a3ceb5c1c32		
+sample	TARGET-50-PAJLXM-11A-01	Not Applicable	Not Reported	-999	Normal	normal solid tissue		9ceebc54-80f9-5983-bdd7-26e44663afdf	d5bcc0eb-9444-5ae6-9494-0999e3e9f821		
+sample	TARGET-50-PAJMFY-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		9eccf8f5-4b60-58e6-83f6-687844398241	ee64a21e-c04f-5a4b-9183-5a060978398e		
+sample	TARGET-50-PAKZFK-11A-01	Not Applicable	Not Reported	-999	Normal	normal solid tissue		a16ffe3a-7d0a-52fd-9197-9cf3238fec18	68999117-89fb-5fec-83a1-7edf2ea2e3f8		
+sample	TARGET-50-PAJMLI-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		a24ac473-da1d-5b34-847b-1ae25bf24a90	b3a3eaa2-7ca6-5005-9115-db27d14d54fe		
+sample	TARGET-50-PAJMMW-01A-02	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		a29f2fb2-dd83-54f7-8e36-fad98b75973b	b5b8a573-0d82-5c4c-baa6-9dbf8f9d9e02		
+sample	TARGET-50-PAJPAR-11A	Not Applicable	Not Reported	-999	Normal	Normal solid tissue		a3087e04-fb31-55f4-b5ff-758f71864c23	568f8d3e-84c6-518e-a1ab-ac9a4ff00403		
+sample	TARGET-50-PALJIP-11A	Not Applicable	Not Reported	-999	Normal	normal solid tissue		a4b8f7e0-d59c-5221-ab8e-e272202e4cc3	e0e0df2d-9248-552c-ab87-dd112d66019a		
+sample	TARGET-50-PAJNXT-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		a544d019-31d7-5c6b-9145-4a0cacb2ed88	703cb602-b755-5ab6-b026-281eff7717f4		
+sample	TARGET-50-PAJMDL-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		a56e6ccf-532e-5300-9a17-ea50fac469a6	f38f531f-f808-5a33-b961-f16b63043f81		
+sample	TARGET-50-PAJMEP-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		a58ae8b6-3925-5c13-8912-2b4895bbd106	941c9981-7e8d-5607-b4d5-f8f5bfb3f231		
+sample	TARGET-50-PAKULH-01A-02	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		a59f8c6b-643c-54d4-9780-5d7678d183ad	b55ca28b-62af-58e9-aa25-3711f02aa4de		
+sample	TARGET-50-PAJNTJ-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		a67f4d7e-b912-577b-8c26-faf55bccc162	913732e0-93a6-5918-90a6-a9ac6d3afcb5		
+sample	TARGET-50-PADYYC-01A-02	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		a6dcd27a-f1e6-5ae8-aaac-8735513fd04a	279a8334-eede-5c8b-9d58-c644e89e7deb		
+sample	TARGET-50-PAJPEJ-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		a7db6862-074c-5ae3-873d-5bc3b4a80e55	86004b23-dc82-5da6-87ea-0f23b9b694bd		
+sample	TARGET-50-PAJPHA-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		a851f38f-5a1d-5d7f-b30b-1b384069a673	2f3f36f1-fbd6-5ae2-8540-ef02a93be79c		
+sample	TARGET-50-PAJMFU-11A	Not Applicable	Not Reported	-999	Normal	normal solid tissue		a9c37cd2-24ff-5e9a-b1a8-2c165b527326	582ccb66-f37e-546b-a948-a6fd81301f77		
+sample	TARGET-50-PAKYFC-11A-01	Not Applicable	Not Reported	-999	Normal	normal solid tissue		ab2c3848-3e49-582c-a477-da13199fb866	d49c2f6b-6b45-5df5-882a-91e62f17044b		
+sample	TARGET-50-PALAXJ-01A-02	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		aeda0d5c-c99c-534d-a38c-302ef6b4ef2f	8441bd72-7628-5ddb-9ba5-5a7f11942957		
+sample	TARGET-50-PADYYC-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		af2fadeb-19c2-5cd8-998e-a22ed632cb4b	279a8334-eede-5c8b-9d58-c644e89e7deb		
+sample	TARGET-50-PAKYNK-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		affefe39-ad8f-5f56-9563-e5011d220f78	9a2eeb79-4d96-559c-aaa7-2900e237da1a		
+sample	TARGET-50-CAAAAO-11A-02	Not Applicable	Not Reported	-999	Normal	Normal solid tissue		b0a18430-9596-5dc7-af9b-85fabdcb2bc1	31c1f3b9-596f-561b-ae84-597d028a78fc		
+sample	TARGET-50-PAJNHN-01A-02	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		b2170cc7-2cd3-5b52-8093-1e6d4fbe445d	c2e5906a-4f58-520f-bf9a-b17a648bdaf7		
+sample	TARGET-50-PAKRZW-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		b39acad6-462c-5a23-a633-9fa20b9cdcea	5778f919-844e-5f05-bf55-0a3ceb5c1c32		
+sample	TARGET-50-PAKVXE-01A-02	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		b3e26052-a689-593c-8a68-8cdb6d90268c	1858e25e-0386-5b35-87b9-ca176128486d		
+sample	TARGET-50-PAJNGH-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		b6f69707-c3cb-50df-befe-7d430b74f91c	a316b035-e7f0-5fc9-8de9-99c298dedd91		
+sample	TARGET-50-PAJNRL-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		bbb8a5e7-9213-5dc8-84db-332a282c609e	69275c14-7c86-56f0-b339-9aec4a451a87		
+sample	TARGET-50-PALMAM-01A-02	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		bc6c8d7c-12e4-5092-8c71-d9522409a424	0edae547-3e25-5b72-84a1-a534bcb53f1e		
+sample	TARGET-50-PAJLXM-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		be24ae04-8699-5d5a-8250-7140ea24f90b	d5bcc0eb-9444-5ae6-9494-0999e3e9f821		
+sample	TARGET-50-PAJMLZ-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		be802283-5f86-5b15-a21d-b32c65977a25	234bb39d-3279-57ec-849d-3d0aad077ca1		
+sample	TARGET-50-PAJNJJ-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		beb67672-18c2-5666-819b-9c7fb658bba7	5dc89276-7f68-5e85-b064-4e65761c939c		
+sample	TARGET-50-PAJMIZ-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		bf07b413-5a4e-5f3f-b543-e3679f9857b7	bbd3bd37-198c-5654-a4bc-ffc4550e689c		
+sample	TARGET-50-PAKULH-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		bf35167a-c1ee-5e80-8ecc-a50bcf011d50	b55ca28b-62af-58e9-aa25-3711f02aa4de		
+sample	TARGET-50-PAJNRH-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		bfa8b096-cc82-5e35-8df0-0a6e4429775c	9a875e14-939e-5148-9654-6c80dd1e0147		
+sample	TARGET-50-PAKNTW-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		bfc936dd-1252-5aa3-8dc7-fbe41dc7918c	092891ab-d958-5161-93d5-537cde3374a4		
+sample	TARGET-50-PAJLZN-01A-02	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		c026bbe8-f796-5eee-8e5f-ae9677c1625b	1321bcf3-2508-5e00-b344-1923ced7f20f		
+sample	TARGET-50-PAJNZI-11A	Not Applicable	Not Reported	-999	Normal	Normal solid tissue		c216b142-3229-5f29-ba47-7b4a2ac9a9fb	1a467792-a908-5036-83b1-cf6dca96ba66		
+sample	TARGET-50-PALMAM-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		c350f4ff-cb8d-5e4d-b8ec-61269d7714fb	0edae547-3e25-5b72-84a1-a534bcb53f1e		
+sample	TARGET-50-PAJMJM-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		c4a3cf11-83c3-511d-9bc3-91d3ca1d3552	0d3d4197-771d-57ec-b1b9-c3008faa3f5a		
+sample	TARGET-50-PAKNRX-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		c5ff6ecb-ed39-5951-b25d-6ae44d29e45d	6f5535bf-9532-5529-b0aa-3c02c1246d6e		
+sample	TARGET-50-PAJNYT-01A-02	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		c6813d1e-b14e-5dcc-bb22-7a7a7258f21c	5182c899-5f84-5f22-92a6-7dbc42cc0655		
+sample	TARGET-50-PAJMKI-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		c789d267-6bb2-5cf4-af44-8ef116bfbe31	f442a10b-f6db-54c1-9d68-14bd649e06e9		
+sample	TARGET-50-PAJMVC-11A	Not Applicable	Not Reported	-999	Normal	normal solid tissue		c78a1fc4-a2f8-5b5c-99e0-f03c01792322	0b8b72ae-e19c-51cf-9905-e6f3e1a39d57		
+sample	TARGET-50-PAJLLD-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		c8cacdea-7526-5e00-9f97-669af6f8d268	f3335a26-1eb0-5210-a6bf-4ca40840bf35		
+sample	TARGET-50-CAAAAH-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		c907ab62-03c9-5d66-9cbc-bc4077181abe	db737910-6dc8-5d26-9474-08a7710cfb6e		
+sample	TARGET-50-PAKZER-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		cb8edd70-a669-5129-aa41-f93aa3b8116d	41b0dc6c-f48d-589f-8bff-dfb32d15e91c		
+sample	TARGET-50-PAKNXS-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		cc6fc06f-4658-5ed5-892b-f1638166979a	246b6c03-8d9a-5d6b-87f3-ceb8affbb3eb		
+sample	TARGET-50-CAAAAP-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		ccf53d24-23c8-5e82-be5d-05585ee8d23f	fbb46911-e3ef-5c68-9242-861e472a30f6		
+sample	TARGET-50-PAEALK-11A	Not Applicable	Not Reported	-999	Normal	Normal solid tissue		cf02fd6f-35a7-52e6-a93b-0adb10e624b8	f3b6cf21-2a6b-5281-b88c-ec76573a094e		
+sample	TARGET-50-PAJLLD-11A	Not Applicable	Not Reported	-999	Normal	Normal solid tissue		d02f1447-8978-519b-b170-99dcff5979a2	f3335a26-1eb0-5210-a6bf-4ca40840bf35		
+sample	TARGET-50-PADZUB-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		d07a0e89-a0fe-59f1-9c71-af7b7331c2c8	9434c00e-118f-5bb9-9eee-174943eb0bd0		
+sample	TARGET-50-PAJNNC-11A	Not Applicable	Not Reported	-999	Normal	normal solid tissue		d187a03e-6dea-5201-900a-e80a07b00817	895eb5f1-09e3-5371-90d9-e97004bb26a8		
+sample	TARGET-50-PALDWP-11A	Not Applicable	Not Reported	-999	Normal	Normal solid tissue		d1f6fe02-7c14-559e-96ee-c335c3250515	b6b80d34-511c-56d3-9d3c-faeecf28ccc9		
+sample	TARGET-50-PAKLRW-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		d2752eed-f6c2-5e67-8135-db8d4de4d8e6	f5f9ffb4-f60e-5628-9d46-dc3e969c0230		
+sample	TARGET-50-PAJNZK-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		d2d4eb10-dcb4-57ff-9f10-a52babe42b3d	68393b6b-ce03-534b-863d-68fa420b2ec0		
+sample	TARGET-50-PAJNAV-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		d4133a7d-7ab1-5a89-8e7d-b165719be86e	1ce2736f-49a8-5289-98aa-40cec6ef60d9		
+sample	TARGET-50-PAJLZN-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		d44a77cd-a43f-555e-9c9d-ca9ba45d0e39	1321bcf3-2508-5e00-b344-1923ced7f20f		
+sample	TARGET-50-PAJLWT-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		d4aea329-ee19-5d7e-a496-d55eff57b8dc	19239c28-d16b-5473-a822-c3edcb780d4b		
+sample	TARGET-50-PAEHLJ-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		d4b1288e-65c6-5515-9fc6-9e8b671aefd0	95973cb4-bc33-5964-98c7-627813050bca		
+sample	TARGET-50-PAKVXE-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		d7e5ea32-dd4f-50eb-9640-c4c3e92d698b	1858e25e-0386-5b35-87b9-ca176128486d		
+sample	TARGET-50-PAJLPX-11A	Not Applicable	Not Reported	-999	Normal	Normal solid tissue		d83432d0-20cb-55ca-9457-b3f0f5a01baa	6ec82cc5-5e18-580d-9515-88aa3fae0f27		
+sample	TARGET-50-PAJLSP-11A-01	Not Applicable	Not Reported	-999	Normal	normal solid tissue		d90d2a4e-1122-5059-93eb-8a5a26baa790	ef47ff2f-9f4e-5087-a3ba-295e0213c8a8		
+sample	TARGET-50-PAJLTD-11A	Not Applicable	Not Reported	-999	Normal	normal solid tissue		db531e8d-fa47-54b7-b500-506392947b56	fcf85133-9870-5544-acde-1e11525c4345		
+sample	TARGET-50-PAJLMV-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		dd24e1ab-59d3-5cf0-89ca-aa8b6e1c29ee	370989c0-a47f-5f14-a4cb-2f703e0c3ebb		
+sample	TARGET-50-PAJMEP-11A	Not Applicable	Not Reported	-999	Normal	normal solid tissue		df88e9b1-4d0f-5951-b70a-0abee37ce830	941c9981-7e8d-5607-b4d5-f8f5bfb3f231		
+sample	TARGET-50-PAJPAU-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		e0c3f6e5-1cd2-5e7c-a44f-502cf509d1b9	a529663e-9ee9-5b20-95de-176ea116c3dd		
+sample	TARGET-50-PAKJGM-11A	Not Applicable	Not Reported	-999	Normal	frozen normal tissue		e191420b-1cba-5c42-9d81-f55f399f9333	0d14b322-6e07-5ecb-b193-d53259a7a1fb		
+sample	TARGET-50-PAJMPH-11A	Not Applicable	Not Reported	-999	Normal	Normal solid tissue		e4b1f517-c9b4-51dd-b46b-d1ee278008b2	64b27959-3052-5739-9e09-e9d44812f1a1		
+sample	TARGET-50-PAJNUP-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		e5bc814c-fd1a-58f6-a76d-33797987589c	3b39122e-0295-5dfa-bb96-74f8eaeb1dbb		
+sample	TARGET-50-PAECJB-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		e6c7408b-f27e-5b9c-b085-400e34437f90	ded85549-e23f-5eaa-b662-9222cfc50f17		
+sample	TARGET-50-PADVNN-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		ea32a8d3-7831-5e6c-8fc6-ab2408cea381	24773d8b-7e48-5cdb-be59-a5de4d559426		
+sample	TARGET-50-PAJMKI-11A	Not Applicable	Not Reported	-999	Normal	normal solid tissue		effb412d-4143-5019-9c5e-31caf6aa3e5c	f442a10b-f6db-54c1-9d68-14bd649e06e9		
+sample	TARGET-50-PAJMVK-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		f0f609d6-3b25-52a1-8568-c0e71272ce21	8bea02bf-bf24-5d97-90fd-5996c4f67e48		
+sample	TARGET-50-PAKNTW-01A-02	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		f13f0970-f4fc-5560-91bb-501e09b6fd3f	092891ab-d958-5161-93d5-537cde3374a4		
+sample	TARGET-50-PAJPAR-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		f190d6b1-8ed0-5750-8158-4e5ce91df03a	568f8d3e-84c6-518e-a1ab-ac9a4ff00403		
+sample	TARGET-50-PAJNNC-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		f1d69b09-9064-55e8-867f-da260f2b0d8c	895eb5f1-09e3-5371-90d9-e97004bb26a8		
+sample	TARGET-50-PAJNUS-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		f2955bd7-90eb-5ae3-afc0-69ae0fc3b790	fc2be11d-5fbb-54f4-85d9-0b5c9b6a5b04		
+sample	TARGET-50-PAJPCM-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		f32d6f90-7eb4-545a-809a-9584e7c1f546	373d9a42-ed00-5654-8c60-00165493753a		
+sample	TARGET-50-PAJLKC-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		f368be00-a3ff-5359-9ad4-0ca313d87444	7e9d512b-da6e-51f6-b92f-66a313217f4c		
+sample	TARGET-50-PADXAY-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		f40635aa-724d-5f1b-9ba0-06719e70984d	4f035876-305b-5f2c-853d-f1bd8fbfca49		
+sample	TARGET-50-PAKVET-01A-01	Not Reported	Not Reported	-999	Not Reported			f4d4eec9-34db-5ff3-b6c4-876b798b61f4	0d84ac0c-80e9-5d59-8a6d-bc4c4735b4a5		
+sample	TARGET-50-PALEFG-01A-02	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		f69ea411-d6a4-5717-af3b-44451c32c53e	7d2b3d2a-a89f-5cd2-a60a-e613ee9bcb19		
+sample	TARGET-50-PAJNCL-01A-02	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		f7f70123-3a97-537e-9b57-dfc5cb84d820	65b3c435-500f-5fb0-b259-9e00e23ad0f5		
+sample	TARGET-50-PAJPAH-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		f9a8a94e-2b54-5bb0-9d52-f8b49b312963	d4928d8a-f574-5ea2-b3fd-a5efdbcc5f63		
+sample	TARGET-50-PAKRCC-01A-02	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		f9d3f70e-96f2-53c6-89d4-1516995e22bf	bc090ff6-3ef5-5361-b615-04a2b3939d5a		
+sample	TARGET-50-CAAAAQ-11A	Not Applicable	Not Reported	-999	Normal	Normal solid tissue		f9f69f53-b7e7-5427-a6bb-c86ea951304b	b7b2e2ce-d16d-57c6-a1d3-0377909cd7d6		
+sample	TARGET-50-PAJMPH-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		faaadaa1-bcb2-5d2d-9d10-fb6353cc9a92	64b27959-3052-5739-9e09-e9d44812f1a1		
+sample	TARGET-50-PAJNZU-11A-01	Not Applicable	Not Reported	-999	Normal	normal solid tissue		fb67ccad-8a37-5aec-94d6-496d691b2932	19133fae-cc9a-545c-9570-8b2bca3f4689		
+sample	TARGET-50-PAJPGY-01A	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		fbc0b834-88d5-5ffb-9642-625ab8c6f7fa	a3317f60-1936-5386-ba05-29469b927da6		
+sample	TARGET-50-PAJLUJ-10A	Not Applicable	Not Reported	-999	Normal	normal solid tissue		fbf26c2e-21a7-587e-a29e-0a0d266ab917	a27df434-13ae-57ff-9f61-4c46c652d380		
+sample	TARGET-50-CAAAAM-10A	Not Applicable	C42.0 : Blood	-999	Normal	Normal blood		fdef393e-0eb9-5c8e-9247-24447fa6137d	01a6a319-f186-587c-a195-e89c3745915c		
+sample	TARGET-50-PAJMDL-11A-01	Not Applicable	Not Reported	-999	Normal	normal solid tissue		fe29eca3-d8aa-559e-bcae-39c9c1a3fdfe	f38f531f-f808-5a33-b961-f16b63043f81		
+sample	TARGET-50-PAJNZU-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor	frozen solid tumor		ff862545-ed31-558e-a7df-b3a11f1e361f	19133fae-cc9a-545c-9570-8b2bca3f4689		

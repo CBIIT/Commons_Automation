@@ -16,7 +16,7 @@ import internal.GlobalVariable as GlobalVariable
  */
 WebUI.closeBrowser()
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC01_CCDI_phs000466_Sex-Male_Race-White.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC02_CCDI_phs000466_Race-White_TumorClassif-Primary.xlsx')
 CustomKeywords.'utilities.TestRunner.clickTab'('Bento/Banner/Bento_Warning_Continue_Btn')
 
 WebUI.waitForElementPresent(findTestObject('CCDI/Navbar/Explore_Menu'), 5)
@@ -31,17 +31,18 @@ CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Study_F
 WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Study_Facet/PHS_Accession/phs000466_Chkbx'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Study_Facet/PHS_Accession/phs000466_Chkbx')
 
-WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Demographics-Facet/Sex/Sex_Ddn'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Demographics-Facet/Sex/Sex_Ddn')
-
-WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Demographics-Facet/Sex/Male_Chkbx'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Demographics-Facet/Sex/Male_Chkbx')
 
 WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Demographics-Facet/Race/Race_Ddn'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Demographics-Facet/Race/Race_Ddn'
+CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Demographics-Facet/Race/Race_Ddn')
 
-WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Demographics-Facet/Race/Hispaniclatino_Chkbx'), 5)
+WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Demographics-Facet/Race/White_Chkbx'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Demographics-Facet/Race/White_Chkbx')
+
+WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Samples_Facet/SampleTumorClassification/SampleTumorClassif_Ddn'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Samples_Facet/SampleTumorClassification/SampleTumorClassif_Ddn')
+
+WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Samples_Facet/SampleTumorClassification/Primary_Chkbx'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Samples_Facet/SampleTumorClassification/Primary_Chkbx')
 
 //Read Statbar
 CustomKeywords.'utilities.TestRunner.readStatBarCCDIhub'('CCDI/Statbar/Studies_Cnt', 'CCDI/Statbar/Participants_Cnt',
