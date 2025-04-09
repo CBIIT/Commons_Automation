@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_CCDI_phs000466_Diagnosis-89643clearcellsarcoma_Race-Blkafrcamerican_Lastknwnsrvl-Alive</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0372a6e2-f651-426b-8c22-96e4f3829315</testCaseGuid>
+</TestCaseEntity>

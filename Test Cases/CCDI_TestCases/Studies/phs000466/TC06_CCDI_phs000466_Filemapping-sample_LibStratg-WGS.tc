@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC06_CCDI_phs000466_Filemapping-sample_LibStratg-WGS</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>282daf1d-3368-4fed-a2f3-5a649f833b6a</testCaseGuid>
-</TestCaseEntity>

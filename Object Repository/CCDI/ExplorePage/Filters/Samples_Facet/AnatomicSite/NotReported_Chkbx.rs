@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Anatomic site_Not Reported&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Sample Anatomic Site_Not Reported&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Anatomic site_Not Reported&quot;]</value>
-      <webElementGuid>62f9fadf-0c04-4c06-8aa6-ea2ec5ff8dc6</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Sample Anatomic Site_Not Reported&quot;]</value>
+      <webElementGuid>0326c737-cf36-479d-9a96-38678b9e435c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

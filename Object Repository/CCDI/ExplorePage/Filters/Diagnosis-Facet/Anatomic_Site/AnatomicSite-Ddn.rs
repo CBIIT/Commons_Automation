@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@id=&quot;Anatomic Site&quot;])[1]</value>
+         <value>(//*[@id=&quot;Diagnosis Anatomic site&quot;])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@id=&quot;Anatomic Site&quot;])[1]</value>
-      <webElementGuid>2cb3d9a0-7a1e-461a-be21-2a611fbf780b</webElementGuid>
+      <value>(//*[@id=&quot;Diagnosis Anatomic site&quot;])[1]</value>
+      <webElementGuid>4d4f0f89-f115-42af-b84f-2f4dd163bffd</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
