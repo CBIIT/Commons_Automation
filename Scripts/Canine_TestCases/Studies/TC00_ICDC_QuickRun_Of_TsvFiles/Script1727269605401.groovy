@@ -37,11 +37,11 @@ import com.kms.katalon.core.util.KeywordUtil
 import java.nio.file.Paths
 
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC15_ICDC_NCATSCOP01_FileFormat-rtf.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC31_ICDC_OSA04_FileFormat-tsv.xlsx')
 
 CustomKeywords.'utilities.PythonReader.readFile'('CasesTab.py')
-CustomKeywords.'utilities.PythonReader.readFile'('SamplesTab.py')
-CustomKeywords.'utilities.PythonReader.readFile'('CaseFilesTab.py')
-CustomKeywords.'utilities.PythonReader.readFile'('StudyFilesTab.py')
-CustomKeywords.'utilities.PythonReader.readFile'('Statbar.py')
+//CustomKeywords.'utilities.PythonReader.readFile'('SamplesTab.py')
+//CustomKeywords.'utilities.PythonReader.readFile'('CaseFilesTab.py')
+//CustomKeywords.'utilities.PythonReader.readFile'('StudyFilesTab.py')
+//CustomKeywords.'utilities.PythonReader.readFile'('Statbar.py')
 

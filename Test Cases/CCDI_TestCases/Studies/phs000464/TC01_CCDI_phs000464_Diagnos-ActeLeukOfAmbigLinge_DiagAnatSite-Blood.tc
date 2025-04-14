@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CCDI_phs000464_Diagnos-ActeLeukOfAmbigLinge_DiagAnatSite-Blood</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e5072d8e-8ce7-41b7-b51d-dc3258cad5da</testCaseGuid>
+</TestCaseEntity>
