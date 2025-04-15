@@ -1,0 +1,24 @@
+disease_type	primary_diagnosis	primary_site	age_at_diagnosis	tumor_stage_clinical_t	type	diagnosis_id	study_diagnosis_id	participant.study_participant_id
+Epithelial Neoplasm	Renal Cell Carcinoma, NOS	Kidney	66	pT1a	diagnosis	C3L-00448	phs001287_C3L-00448_C3L-00448	phs001287_C3L-00448
+Epithelial Neoplasm	Renal Cell Carcinoma, NOS	Kidney	37	pT1a	diagnosis	C3L-00917	phs001287_C3L-00917_C3L-00917	phs001287_C3L-00917
+Epithelial Neoplasm	Renal Cell Carcinoma, NOS	Kidney	72	pT3	diagnosis	C3L-00004	phs001287_C3L-00004_C3L-00004	phs001287_C3L-00004
+Epithelial Neoplasm	Renal Cell Carcinoma, NOS	Kidney	55	pT1a	diagnosis	C3L-00583	phs001287_C3L-00583_C3L-00583	phs001287_C3L-00583
+Epithelial Neoplasm	Renal Cell Carcinoma, NOS	Kidney	30	pT1b	diagnosis	C3L-00010	phs001287_C3L-00010_C3L-00010	phs001287_C3L-00010
+Epithelial Neoplasm	Renal Cell Carcinoma, NOS	Kidney	69	pT1a	diagnosis	C3N-00242	phs001287_C3N-00242_C3N-00242	phs001287_C3N-00242
+Epithelial Neoplasm	Renal Cell Carcinoma, NOS	Kidney	63	pT3a	diagnosis	C3L-01313	phs001287_C3L-01313_C3L-01313	phs001287_C3L-01313
+Epithelial Neoplasm	Renal Cell Carcinoma, NOS	Kidney	68	pT3a	diagnosis	C3N-01213	phs001287_C3N-01213_C3N-01213	phs001287_C3N-01213
+Epithelial Neoplasm	Renal Cell Carcinoma, NOS	Kidney	60	pT2b	diagnosis	C3L-00908	phs001287_C3L-00908_C3L-00908	phs001287_C3L-00908
+Epithelial Neoplasm	Renal Cell Carcinoma, NOS	Kidney	56	pT4	diagnosis	C3N-01200	phs001287_C3N-01200_C3N-01200	phs001287_C3N-01200
+Epithelial Neoplasm	Renal Cell Carcinoma, NOS	Kidney	49	pT3a	diagnosis	C3L-00079	phs001287_C3L-00079_C3L-00079	phs001287_C3L-00079
+Epithelial Neoplasm	Renal Cell Carcinoma, NOS	Kidney	56	pT3a	diagnosis	C3N-00733	phs001287_C3N-00733_C3N-00733	phs001287_C3N-00733
+Epithelial Neoplasm	Renal Cell Carcinoma, NOS	Kidney	74	pT1b	diagnosis	C3N-00317	phs001287_C3N-00317_C3N-00317	phs001287_C3N-00317
+Epithelial Neoplasm	Renal Cell Carcinoma, NOS	Kidney	52	pT3a	diagnosis	C3L-00096	phs001287_C3L-00096_C3L-00096	phs001287_C3L-00096
+Epithelial Neoplasm	Renal Cell Carcinoma, NOS	Kidney	67	pT1a	diagnosis	C3N-00495	phs001287_C3N-00495_C3N-00495	phs001287_C3N-00495
+Epithelial Neoplasm	Renal Cell Carcinoma, NOS	Kidney	69	pT3a	diagnosis	C3N-00437	phs001287_C3N-00437_C3N-00437	phs001287_C3N-00437
+Epithelial Neoplasm	Renal Cell Carcinoma, NOS	Kidney	72	pT3a	diagnosis	C3L-00088	phs001287_C3L-00088_C3L-00088	phs001287_C3L-00088
+Epithelial Neoplasm	Renal Cell Carcinoma, NOS	Kidney	62	pT3b	diagnosis	C3L-00416	phs001287_C3L-00416_C3L-00416	phs001287_C3L-00416
+Epithelial Neoplasm	Renal Cell Carcinoma, NOS	Kidney	57	pT1b	diagnosis	C3L-00610	phs001287_C3L-00610_C3L-00610	phs001287_C3L-00610
+Epithelial Neoplasm	Renal Cell Carcinoma, NOS	Kidney	60	pT3a	diagnosis	C3L-01287	phs001287_C3L-01287_C3L-01287	phs001287_C3L-01287
+Epithelial Neoplasm	Renal Cell Carcinoma, NOS	Kidney	44	pT1b	diagnosis	C3L-00790	phs001287_C3L-00790_C3L-00790	phs001287_C3L-00790
+Epithelial Neoplasm	Renal Cell Carcinoma, NOS	Kidney	71	pT3a	diagnosis	C3L-01302	phs001287_C3L-01302_C3L-01302	phs001287_C3L-01302
+Epithelial Neoplasm	Renal Cell Carcinoma, NOS	Kidney	65	pT1a	diagnosis	C3L-00026	phs001287_C3L-00026_C3L-00026	phs001287_C3L-00026

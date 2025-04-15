@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC08_CDS_phs002371_LibraryLayout_SingleIndexed</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>11e13a96-25b5-4bec-b3d6-0dfbd0381c5d</testCaseGuid>
-</TestCaseEntity>

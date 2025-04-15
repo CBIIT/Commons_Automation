@@ -1,0 +1,1072 @@
+vital_status	primary_diagnosis	type	diagnosis_id	study_diagnosis_id	participant.study_participant_id
+Alive	Not specified in data	diagnosis	09CO006	phs001287_09CO006_09CO006	phs001287_09CO006
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-01413	phs001287_C3N-01413_C3N-01413	phs001287_C3N-01413
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-01842	phs001287_C3N-01842_C3N-01842	phs001287_C3N-01842
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-03965	phs001287_C3L-03965_C3L-03965	phs001287_C3L-03965
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-01283	phs001287_C3L-01283_C3L-01283	phs001287_C3L-01283
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-04080	phs001287_C3L-04080_C3L-04080	phs001287_C3L-04080
+Alive	High grade serous carcinoma	diagnosis	17OV033	phs001287_17OV033_17OV033	phs001287_17OV033
+Alive	Infiltrating Ductal Carcinoma	diagnosis	01BR027	phs001287_01BR027_01BR027	phs001287_01BR027
+Alive	High grade serous carcinoma	diagnosis	17OV018	phs001287_17OV018_17OV018	phs001287_17OV018
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-00422	phs001287_C3L-00422_C3L-00422	phs001287_C3L-00422
+Alive	Colon Adenocarcinoma	diagnosis	05CO020	phs001287_05CO020_05CO020	phs001287_05CO020
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3L-02617	phs001287_C3L-02617_C3L-02617	phs001287_C3L-02617
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3L-00674	phs001287_C3L-00674_C3L-00674	phs001287_C3L-00674
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-00965	phs001287_C3L-00965_C3L-00965	phs001287_C3L-00965
+Alive	Glioblastoma Multiforme (GBM)	diagnosis	C3N-01517	phs001287_C3N-01517_C3N-01517	phs001287_C3N-01517
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-02969	phs001287_C3L-02969_C3L-02969	phs001287_C3L-02969
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-00401	phs001287_C3L-00401_C3L-00401	phs001287_C3L-00401
+Alive	Infiltrating Ductal Carcinoma	diagnosis	01BR015	phs001287_01BR015_01BR015	phs001287_01BR015
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-02899	phs001287_C3L-02899_C3L-02899	phs001287_C3L-02899
+Unknown	Not specified in data	diagnosis	01BR026	phs001287_01BR026_01BR026	phs001287_01BR026
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-02163	phs001287_C3L-02163_C3L-02163	phs001287_C3L-02163
+Alive	Colon Adenocarcinoma	diagnosis	11CO062	phs001287_11CO062_11CO062	phs001287_11CO062
+Alive	Colon Adenocarcinoma	diagnosis	20CO007	phs001287_20CO007_20CO007	phs001287_20CO007
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-01052	phs001287_C3L-01052_C3L-01052	phs001287_C3L-01052
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-00249	phs001287_C3N-00249_C3N-00249	phs001287_C3N-00249
+Alive	Colon Adenocarcinoma	diagnosis	11CO008	phs001287_11CO008_11CO008	phs001287_11CO008
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3N-00326	phs001287_C3N-00326_C3N-00326	phs001287_C3N-00326
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-00144	phs001287_C3L-00144_C3L-00144	phs001287_C3L-00144
+Alive	Infiltrating Ductal Carcinoma	diagnosis	09BR005	phs001287_09BR005_09BR005	phs001287_09BR005
+Alive	Invasive Lobular Carcinoma	diagnosis	11BR018	phs001287_11BR018_11BR018	phs001287_11BR018
+Alive	High grade serous carcinoma	diagnosis	02OV022	phs001287_02OV022_02OV022	phs001287_02OV022
+Alive	Glioblastoma Multiforme (GBM)	diagnosis	C3N-02786	phs001287_C3N-02786_C3N-02786	phs001287_C3N-02786
+Dead	High grade serous carcinoma	diagnosis	01OV026	phs001287_01OV026_01OV026	phs001287_01OV026
+Alive	Colon Adenocarcinoma	diagnosis	11CO079	phs001287_11CO079_11CO079	phs001287_11CO079
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-00556	phs001287_C3N-00556_C3N-00556	phs001287_C3N-00556
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-01553	phs001287_C3L-01553_C3L-01553	phs001287_C3L-01553
+Dead	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-00445	phs001287_C3L-00445_C3L-00445	phs001287_C3L-00445
+Dead	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-01884	phs001287_C3L-01884_C3L-01884	phs001287_C3L-01884
+Alive	Glioblastoma Multiforme (GBM)	diagnosis	C3L-03400	phs001287_C3L-03400_C3L-03400	phs001287_C3L-03400
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-02592	phs001287_C3N-02592_C3N-02592	phs001287_C3N-02592
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-03069	phs001287_C3N-03069_C3N-03069	phs001287_C3N-03069
+Alive	Glioblastoma Multiforme (GBM)	diagnosis	C3N-01852	phs001287_C3N-01852_C3N-01852	phs001287_C3N-01852
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3N-01825	phs001287_C3N-01825_C3N-01825	phs001287_C3N-01825
+Alive	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-04479	phs001287_C3L-04479_C3L-04479	phs001287_C3L-04479
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-00622	phs001287_C3L-00622_C3L-00622	phs001287_C3L-00622
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-03458	phs001287_C3N-03458_C3N-03458	phs001287_C3N-03458
+Alive	Infiltrating Ductal Carcinoma	diagnosis	11BR011	phs001287_11BR011_11BR011	phs001287_11BR011
+Alive	High grade serous carcinoma	diagnosis	04OV023	phs001287_04OV023_04OV023	phs001287_04OV023
+Unknown	Not specified in data	diagnosis	604	phs001287_604_604	phs001287_604
+Alive	Infiltrating Ductal Carcinoma	diagnosis	11BR015	phs001287_11BR015_11BR015	phs001287_11BR015
+Alive	Colon Adenocarcinoma	diagnosis	11CO005	phs001287_11CO005_11CO005	phs001287_11CO005
+Dead	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-02552	phs001287_C3L-02552_C3L-02552	phs001287_C3L-02552
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3L-00008	phs001287_C3L-00008_C3L-00008	phs001287_C3L-00008
+Alive	Infiltrating Ductal Carcinoma	diagnosis	11BR074	phs001287_11BR074_11BR074	phs001287_11BR074
+Alive	Colon Adenocarcinoma	diagnosis	09CO014	phs001287_09CO014_09CO014	phs001287_09CO014
+Alive	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-03006	phs001287_C3N-03006_C3N-03006	phs001287_C3N-03006
+Alive	Colon Adenocarcinoma	diagnosis	06CO002	phs001287_06CO002_06CO002	phs001287_06CO002
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-00908	phs001287_C3L-00908_C3L-00908	phs001287_C3L-00908
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-03848	phs001287_C3N-03848_C3N-03848	phs001287_C3N-03848
+Alive	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-02585	phs001287_C3N-02585_C3N-02585	phs001287_C3N-02585
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-02701	phs001287_C3L-02701_C3L-02701	phs001287_C3L-02701
+Dead	Endometrioid Carcinoma, NOS	diagnosis	C3N-01520	phs001287_C3N-01520_C3N-01520	phs001287_C3N-01520
+Alive	Glioblastoma Multiforme (GBM)	diagnosis	C3N-03184	phs001287_C3N-03184_C3N-03184	phs001287_C3N-03184
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-03426	phs001287_C3N-03426_C3N-03426	phs001287_C3N-03426
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-00910	phs001287_C3L-00910_C3L-00910	phs001287_C3L-00910
+Unknown	Infiltrating Ductal Carcinoma	diagnosis	01BR042	phs001287_01BR042_01BR042	phs001287_01BR042
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3N-00168	phs001287_C3N-00168_C3N-00168	phs001287_C3N-00168
+Unknown	Infiltrating Ductal Carcinoma	diagnosis	05BR042	phs001287_05BR042_05BR042	phs001287_05BR042
+Dead	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-02729	phs001287_C3N-02729_C3N-02729	phs001287_C3N-02729
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-02425	phs001287_C3N-02425_C3N-02425	phs001287_C3N-02425
+Alive	High grade serous carcinoma	diagnosis	04OV017	phs001287_04OV017_04OV017	phs001287_04OV017
+Alive	Colon Adenocarcinoma	diagnosis	11CO051	phs001287_11CO051_11CO051	phs001287_11CO051
+Alive	Infiltrating Ductal Carcinoma	diagnosis	11BR051	phs001287_11BR051_11BR051	phs001287_11BR051
+Dead	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-00088	phs001287_C3L-00088_C3L-00088	phs001287_C3L-00088
+Unknown	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-03093	phs001287_C3N-03093_C3N-03093	phs001287_C3N-03093
+Alive	Glioblastoma Multiforme (GBM)	diagnosis	C3N-02181	phs001287_C3N-02181_C3N-02181	phs001287_C3N-02181
+Alive	Colon Adenocarcinoma	diagnosis	11CO030	phs001287_11CO030_11CO030	phs001287_11CO030
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3N-02256	phs001287_C3N-02256_C3N-02256	phs001287_C3N-02256
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3N-00850	phs001287_C3N-00850_C3N-00850	phs001287_C3N-00850
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-02115	phs001287_C3L-02115_C3L-02115	phs001287_C3L-02115
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-00447	phs001287_C3L-00447_C3L-00447	phs001287_C3L-00447
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-01053	phs001287_C3L-01053_C3L-01053	phs001287_C3L-01053
+Dead	Kidney Clear Cell Renal Carcinoma	diagnosis	C3N-00831	phs001287_C3N-00831_C3N-00831	phs001287_C3N-00831
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3L-03681	phs001287_C3L-03681_C3L-03681	phs001287_C3L-03681
+Alive	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-03839	phs001287_C3N-03839_C3N-03839	phs001287_C3N-03839
+Dead	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-00578	phs001287_C3N-00578_C3N-00578	phs001287_C3N-00578
+Alive	Glioblastoma Multiforme (GBM)	diagnosis	C3L-02707	phs001287_C3L-02707_C3L-02707	phs001287_C3L-02707
+Alive	High grade serous carcinoma	diagnosis	04OV028	phs001287_04OV028_04OV028	phs001287_04OV028
+Alive	Glioblastoma Multiforme (GBM)	diagnosis	C3N-00661	phs001287_C3N-00661_C3N-00661	phs001287_C3N-00661
+Dead	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-00871	phs001287_C3N-00871_C3N-00871	phs001287_C3N-00871
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-01021	phs001287_C3N-01021_C3N-01021	phs001287_C3N-01021
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-02149	phs001287_C3N-02149_C3N-02149	phs001287_C3N-02149
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-01944	phs001287_C3N-01944_C3N-01944	phs001287_C3N-01944
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-02665	phs001287_C3L-02665_C3L-02665	phs001287_C3L-02665
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-03424	phs001287_C3N-03424_C3N-03424	phs001287_C3N-03424
+Alive	Infiltrating Ductal Carcinoma	diagnosis	18BR010	phs001287_18BR010_18BR010	phs001287_18BR010
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-01381	phs001287_C3N-01381_C3N-01381	phs001287_C3N-01381
+Dead	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-01892	phs001287_C3N-01892_C3N-01892	phs001287_C3N-01892
+Alive	Infiltrating Ductal Carcinoma	diagnosis	11BR056	phs001287_11BR056_11BR056	phs001287_11BR056
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-00302	phs001287_C3N-00302_C3N-00302	phs001287_C3N-00302
+Alive	High grade serous carcinoma	diagnosis	04OV049	phs001287_04OV049_04OV049	phs001287_04OV049
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3N-00150	phs001287_C3N-00150_C3N-00150	phs001287_C3N-00150
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-02345	phs001287_C3L-02345_C3L-02345	phs001287_C3L-02345
+Alive	Adenocarcinoma, Not Otherwise Specified	diagnosis	C3N-01175	phs001287_C3N-01175_C3N-01175	phs001287_C3N-01175
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-03007	phs001287_C3N-03007_C3N-03007	phs001287_C3N-03007
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-01719	phs001287_C3N-01719_C3N-01719	phs001287_C3N-01719
+Dead	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-03027	phs001287_C3N-03027_C3N-03027	phs001287_C3N-03027
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-03662	phs001287_C3N-03662_C3N-03662	phs001287_C3N-03662
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3N-00324	phs001287_C3N-00324_C3N-00324	phs001287_C3N-00324
+Alive	High grade serous carcinoma	diagnosis	04OV040	phs001287_04OV040_04OV040	phs001287_04OV040
+Alive	Glioblastoma Multiforme (GBM)	diagnosis	C3N-02782	phs001287_C3N-02782_C3N-02782	phs001287_C3N-02782
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-02300	phs001287_C3N-02300_C3N-02300	phs001287_C3N-02300
+Alive	Infiltrating Ductal Carcinoma	diagnosis	20BR001	phs001287_20BR001_20BR001	phs001287_20BR001
+Alive	Colon Adenocarcinoma	diagnosis	05CO026	phs001287_05CO026_05CO026	phs001287_05CO026
+Alive	Infiltrating Ductal Carcinoma	diagnosis	11BR025	phs001287_11BR025_11BR025	phs001287_11BR025
+Alive	High grade serous carcinoma	diagnosis	04OV057	phs001287_04OV057_04OV057	phs001287_04OV057
+Dead	High grade serous carcinoma	diagnosis	04OV055	phs001287_04OV055_04OV055	phs001287_04OV055
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3L-04791	phs001287_C3L-04791_C3L-04791	phs001287_C3L-04791
+Dead	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-00096	phs001287_C3L-00096_C3L-00096	phs001287_C3L-00096
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3N-01515	phs001287_C3N-01515_C3N-01515	phs001287_C3N-01515
+Alive	Colon Adenocarcinoma	diagnosis	16CO011	phs001287_16CO011_16CO011	phs001287_16CO011
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3N-01366	phs001287_C3N-01366_C3N-01366	phs001287_C3N-01366
+Dead	High grade serous carcinoma	diagnosis	04OV054	phs001287_04OV054_04OV054	phs001287_04OV054
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3N-00848	phs001287_C3N-00848_C3N-00848	phs001287_C3N-00848
+Unknown	Infiltrating Ductal Carcinoma	diagnosis	05BR045	phs001287_05BR045_05BR045	phs001287_05BR045
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-01606	phs001287_C3L-01606_C3L-01606	phs001287_C3L-01606
+Alive	Infiltrating Ductal Carcinoma	diagnosis	01BR030	phs001287_01BR030_01BR030	phs001287_01BR030
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-03639	phs001287_C3L-03639_C3L-03639	phs001287_C3L-03639
+Dead	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-03678	phs001287_C3L-03678_C3L-03678	phs001287_C3L-03678
+Alive	Colon Adenocarcinoma	diagnosis	11CO070	phs001287_11CO070_11CO070	phs001287_11CO070
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3L-04084	phs001287_C3L-04084_C3L-04084	phs001287_C3L-04084
+Alive	Infiltrating Ductal Carcinoma	diagnosis	01BR031	phs001287_01BR031_01BR031	phs001287_01BR031
+Alive	High grade serous carcinoma	diagnosis	04OV001	phs001287_04OV001_04OV001	phs001287_04OV001
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-04475	phs001287_C3L-04475_C3L-04475	phs001287_C3L-04475
+Alive	Colon Adenocarcinoma	diagnosis	09CO018	phs001287_09CO018_09CO018	phs001287_09CO018
+Alive	Infiltrating Ductal Carcinoma	diagnosis	11BR058	phs001287_11BR058_11BR058	phs001287_11BR058
+Alive	High grade serous carcinoma	diagnosis	04OV045	phs001287_04OV045_04OV045	phs001287_04OV045
+Dead	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-00904	phs001287_C3L-00904_C3L-00904	phs001287_C3L-00904
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3N-00388	phs001287_C3N-00388_C3N-00388	phs001287_C3N-00388
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3N-03188	phs001287_C3N-03188_C3N-03188	phs001287_C3N-03188
+Dead	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	11LU016	phs001287_11LU016_11LU016	phs001287_11LU016
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-01410	phs001287_C3N-01410_C3N-01410	phs001287_C3N-01410
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-00568	phs001287_C3L-00568_C3L-00568	phs001287_C3L-00568
+Alive	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-01124	phs001287_C3L-01124_C3L-01124	phs001287_C3L-01124
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-01946	phs001287_C3N-01946_C3N-01946	phs001287_C3N-01946
+Alive	Adenocarcinoma, Not Otherwise Specified	diagnosis	C3N-00435	phs001287_C3N-00435_C3N-00435	phs001287_C3N-00435
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3N-01646	phs001287_C3N-01646_C3N-01646	phs001287_C3N-01646
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-02619	phs001287_C3L-02619_C3L-02619	phs001287_C3L-02619
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-03439	phs001287_C3N-03439_C3N-03439	phs001287_C3N-03439
+Alive	Colon Adenocarcinoma	diagnosis	05CO041	phs001287_05CO041_05CO041	phs001287_05CO041
+Alive	Infiltrating Ductal Carcinoma	diagnosis	11BR004	phs001287_11BR004_11BR004	phs001287_11BR004
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-00436	phs001287_C3N-00436_C3N-00436	phs001287_C3N-00436
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3N-01816	phs001287_C3N-01816_C3N-01816	phs001287_C3N-01816
+Dead	Infiltrating Ductal Carcinoma	diagnosis	11BR017	phs001287_11BR017_11BR017	phs001287_11BR017
+Alive	Colon Adenocarcinoma	diagnosis	09CO022	phs001287_09CO022_09CO022	phs001287_09CO022
+Alive	Glioblastoma Multiforme (GBM)	diagnosis	C3N-00665	phs001287_C3N-00665_C3N-00665	phs001287_C3N-00665
+Alive	Glioblastoma Multiforme (GBM)	diagnosis	C3N-02186	phs001287_C3N-02186_C3N-02186	phs001287_C3N-02186
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-00102	phs001287_C3L-00102_C3L-00102	phs001287_C3L-00102
+Dead	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-02586	phs001287_C3N-02586_C3N-02586	phs001287_C3N-02586
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3N-00312	phs001287_C3N-00312_C3N-00312	phs001287_C3N-00312
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-03428	phs001287_C3N-03428_C3N-03428	phs001287_C3N-03428
+Alive	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-03440	phs001287_C3N-03440_C3N-03440	phs001287_C3N-03440
+Alive	High grade serous carcinoma	diagnosis	02OV005	phs001287_02OV005_02OV005	phs001287_02OV005
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-01071	phs001287_C3N-01071_C3N-01071	phs001287_C3N-01071
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-01838	phs001287_C3L-01838_C3L-01838	phs001287_C3L-01838
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-03394	phs001287_C3L-03394_C3L-03394	phs001287_C3L-03394
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-02650	phs001287_C3L-02650_C3L-02650	phs001287_C3L-02650
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3N-01505	phs001287_C3N-01505_C3N-01505	phs001287_C3N-01505
+Alive	Glioblastoma Multiforme (GBM)	diagnosis	C3L-01061	phs001287_C3L-01061_C3L-01061	phs001287_C3L-01061
+Alive	High grade serous carcinoma	diagnosis	15OV001	phs001287_15OV001_15OV001	phs001287_15OV001
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3L-01887	phs001287_C3L-01887_C3L-01887	phs001287_C3L-01887
+Alive	Colon Adenocarcinoma	diagnosis	21CO007	phs001287_21CO007_21CO007	phs001287_21CO007
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3L-00921	phs001287_C3L-00921_C3L-00921	phs001287_C3L-00921
+Alive	Colon Adenocarcinoma	diagnosis	01CO008	phs001287_01CO008_01CO008	phs001287_01CO008
+Dead	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-00204	phs001287_C3N-00204_C3N-00204	phs001287_C3N-00204
+Alive	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-01051	phs001287_C3L-01051_C3L-01051	phs001287_C3L-01051
+Alive	Infiltrating Ductal Carcinoma	diagnosis	20BR002	phs001287_20BR002_20BR002	phs001287_20BR002
+Dead	Kidney Clear Cell Renal Carcinoma	diagnosis	C3N-00314	phs001287_C3N-00314_C3N-00314	phs001287_C3N-00314
+Alive	Colon Adenocarcinoma	diagnosis	05CO011	phs001287_05CO011_05CO011	phs001287_05CO011
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3L-00770	phs001287_C3L-00770_C3L-00770	phs001287_C3L-00770
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-03226	phs001287_C3N-03226_C3N-03226	phs001287_C3N-03226
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3L-01275	phs001287_C3L-01275_C3L-01275	phs001287_C3L-01275
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-01388	phs001287_C3N-01388_C3N-01388	phs001287_C3N-01388
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-01757	phs001287_C3N-01757_C3N-01757	phs001287_C3N-01757
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-04155	phs001287_C3N-04155_C3N-04155	phs001287_C3N-04155
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3L-02504	phs001287_C3L-02504_C3L-02504	phs001287_C3L-02504
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-03441	phs001287_C3N-03441_C3N-03441	phs001287_C3N-03441
+Alive	Infiltrating Ductal Carcinoma	diagnosis	11BR049	phs001287_11BR049_11BR049	phs001287_11BR049
+Alive	Infiltrating Ductal Carcinoma	diagnosis	01BR032	phs001287_01BR032_01BR032	phs001287_01BR032
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3N-00834	phs001287_C3N-00834_C3N-00834	phs001287_C3N-00834
+Dead	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-01893	phs001287_C3N-01893_C3N-01893	phs001287_C3N-01893
+Alive	Glioblastoma Multiforme (GBM)	diagnosis	C3L-01048	phs001287_C3L-01048_C3L-01048	phs001287_C3L-01048
+Alive	High grade serous carcinoma	diagnosis	17OV039	phs001287_17OV039_17OV039	phs001287_17OV039
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-01637	phs001287_C3L-01637_C3L-01637	phs001287_C3L-01637
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-03395	phs001287_C3L-03395_C3L-03395	phs001287_C3L-03395
+Dead	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-00822	phs001287_C3N-00822_C3N-00822	phs001287_C3N-00822
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-02434	phs001287_C3N-02434_C3N-02434	phs001287_C3N-02434
+Alive	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-01031	phs001287_C3L-01031_C3L-01031	phs001287_C3L-01031
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-03430	phs001287_C3N-03430_C3N-03430	phs001287_C3N-03430
+Alive	Colon Adenocarcinoma	diagnosis	15CO001	phs001287_15CO001_15CO001	phs001287_15CO001
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-04391	phs001287_C3L-04391_C3L-04391	phs001287_C3L-04391
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-02579	phs001287_C3N-02579_C3N-02579	phs001287_C3N-02579
+Alive	High grade serous carcinoma	diagnosis	04OV033	phs001287_04OV033_04OV033	phs001287_04OV033
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-00814	phs001287_C3L-00814_C3L-00814	phs001287_C3L-00814
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3N-00573	phs001287_C3N-00573_C3N-00573	phs001287_C3N-00573
+Dead	Colon Adenocarcinoma	diagnosis	11CO052	phs001287_11CO052_11CO052	phs001287_11CO052
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-00598	phs001287_C3L-00598_C3L-00598	phs001287_C3L-00598
+Dead	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-01286	phs001287_C3L-01286_C3L-01286	phs001287_C3L-01286
+Alive	Glioblastoma Multiforme (GBM)	diagnosis	C3N-01364	phs001287_C3N-01364_C3N-01364	phs001287_C3N-01364
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-02971	phs001287_C3N-02971_C3N-02971	phs001287_C3N-02971
+Dead	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-03876	phs001287_C3N-03876_C3N-03876	phs001287_C3N-03876
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3N-00389	phs001287_C3N-00389_C3N-00389	phs001287_C3N-00389
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-01194	phs001287_C3N-01194_C3N-01194	phs001287_C3N-01194
+Alive	High grade serous carcinoma	diagnosis	04OV018	phs001287_04OV018_04OV018	phs001287_04OV018
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-00303	phs001287_C3N-00303_C3N-00303	phs001287_C3N-00303
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3N-00743	phs001287_C3N-00743_C3N-00743	phs001287_C3N-00743
+Dead	Endometrioid Carcinoma, NOS	diagnosis	C3L-00961	phs001287_C3L-00961_C3L-00961	phs001287_C3L-00961
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3L-00413	phs001287_C3L-00413_C3L-00413	phs001287_C3L-00413
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-01557	phs001287_C3L-01557_C3L-01557	phs001287_C3L-01557
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-01620	phs001287_C3N-01620_C3N-01620	phs001287_C3N-01620
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-01882	phs001287_C3L-01882_C3L-01882	phs001287_C3L-01882
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-00416	phs001287_C3L-00416_C3L-00416	phs001287_C3L-00416
+Dead	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-02549	phs001287_C3L-02549_C3L-02549	phs001287_C3L-02549
+Dead	Pancreas-Adenosquamous Carcinoma	diagnosis	C3L-02606	phs001287_C3L-02606_C3L-02606	phs001287_C3L-02606
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-02809	phs001287_C3L-02809_C3L-02809	phs001287_C3L-02809
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-00927	phs001287_C3L-00927_C3L-00927	phs001287_C3L-00927
+Alive	Infiltrating Ductal Carcinoma	diagnosis	11BR072	phs001287_11BR072_11BR072	phs001287_11BR072
+Dead	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-03841	phs001287_C3N-03841_C3N-03841	phs001287_C3N-03841
+Alive	Colon Adenocarcinoma	diagnosis	11CO033	phs001287_11CO033_11CO033	phs001287_11CO033
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3N-00339	phs001287_C3N-00339_C3N-00339	phs001287_C3N-00339
+Alive	Colon Adenocarcinoma	diagnosis	11CO072	phs001287_11CO072_11CO072	phs001287_11CO072
+Dead	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-02365	phs001287_C3L-02365_C3L-02365	phs001287_C3L-02365
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3L-00781	phs001287_C3L-00781_C3L-00781	phs001287_C3L-00781
+Alive	Infiltrating Ductal Carcinoma	diagnosis	01BR018	phs001287_01BR018_01BR018	phs001287_01BR018
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3N-00847	phs001287_C3N-00847_C3N-00847	phs001287_C3N-00847
+Dead	Colon Adenocarcinoma	diagnosis	11CO044	phs001287_11CO044_11CO044	phs001287_11CO044
+Unknown	Glioblastoma Multiforme (GBM)	diagnosis	C3N-01369	phs001287_C3N-01369_C3N-01369	phs001287_C3N-01369
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3L-01246	phs001287_C3L-01246_C3L-01246	phs001287_C3L-01246
+Alive	High grade serous carcinoma	diagnosis	17OV040	phs001287_17OV040_17OV040	phs001287_17OV040
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-00277	phs001287_C3L-00277_C3L-00277	phs001287_C3L-00277
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-00097	phs001287_C3L-00097_C3L-00097	phs001287_C3L-00097
+Dead	Kidney Clear Cell Renal Carcinoma	diagnosis	C3N-00310	phs001287_C3N-00310_C3N-00310	phs001287_C3N-00310
+Alive	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-01328	phs001287_C3L-01328_C3L-01328	phs001287_C3L-01328
+Alive	Colon Adenocarcinoma	diagnosis	11CO042	phs001287_11CO042_11CO042	phs001287_11CO042
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3N-01217	phs001287_C3N-01217_C3N-01217	phs001287_C3N-01217
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3N-01261	phs001287_C3N-01261_C3N-01261	phs001287_C3N-01261
+Dead	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-01338	phs001287_C3N-01338_C3N-01338	phs001287_C3N-01338
+Dead	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-03433	phs001287_C3N-03433_C3N-03433	phs001287_C3N-03433
+Alive	High grade serous carcinoma	diagnosis	04OV021	phs001287_04OV021_04OV021	phs001287_04OV021
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3N-00494	phs001287_C3N-00494_C3N-00494	phs001287_C3N-00494
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-02289	phs001287_C3N-02289_C3N-02289	phs001287_C3N-02289
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-02700	phs001287_C3N-02700_C3N-02700	phs001287_C3N-02700
+Unknown	Not specified in data	diagnosis	21BR001	phs001287_21BR001_21BR001	phs001287_21BR001
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-02164	phs001287_C3L-02164_C3L-02164	phs001287_C3L-02164
+Alive	High grade serous carcinoma	diagnosis	26OV002	phs001287_26OV002_26OV002	phs001287_26OV002
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-02118	phs001287_C3L-02118_C3L-02118	phs001287_C3L-02118
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-01689	phs001287_C3L-01689_C3L-01689	phs001287_C3L-01689
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-02424	phs001287_C3N-02424_C3N-02424	phs001287_C3N-02424
+Alive	Infiltrating Ductal Carcinoma	diagnosis	03BR013	phs001287_03BR013_03BR013	phs001287_03BR013
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-02374	phs001287_C3N-02374_C3N-02374	phs001287_C3N-02374
+Alive	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-00017	phs001287_C3L-00017_C3L-00017	phs001287_C3L-00017
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3L-01154	phs001287_C3L-01154_C3L-01154	phs001287_C3L-01154
+Unknown	Not specified in data	diagnosis	01BR010	phs001287_01BR010_01BR010	phs001287_01BR010
+Alive	Colon Adenocarcinoma	diagnosis	16CO003	phs001287_16CO003_16CO003	phs001287_16CO003
+Alive	Colon Adenocarcinoma	diagnosis	11CO031	phs001287_11CO031_11CO031	phs001287_11CO031
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3N-01213	phs001287_C3N-01213_C3N-01213	phs001287_C3N-01213
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-00510	phs001287_C3L-00510_C3L-00510	phs001287_C3L-00510
+Unknown	Infiltrating Ductal Carcinoma	diagnosis	13BR009	phs001287_13BR009_13BR009	phs001287_13BR009
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-00825	phs001287_C3N-00825_C3N-00825	phs001287_C3N-00825
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	11LU035	phs001287_11LU035_11LU035	phs001287_11LU035
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-01645	phs001287_C3N-01645_C3N-01645	phs001287_C3N-01645
+Dead	Colon Adenocarcinoma	diagnosis	20CO003	phs001287_20CO003_20CO003	phs001287_20CO003
+Dead	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-01339	phs001287_C3N-01339_C3N-01339	phs001287_C3N-01339
+Alive	High grade serous carcinoma	diagnosis	02OV032	phs001287_02OV032_02OV032	phs001287_02OV032
+Alive	High grade serous carcinoma	diagnosis	20OV005	phs001287_20OV005_20OV005	phs001287_20OV005
+Dead	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-00180	phs001287_C3N-00180_C3N-00180	phs001287_C3N-00180
+Alive	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-01166	phs001287_C3N-01166_C3N-01166	phs001287_C3N-01166
+Alive	Infiltrating Ductal Carcinoma	diagnosis	18BR007	phs001287_18BR007_18BR007	phs001287_18BR007
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-02168	phs001287_C3L-02168_C3L-02168	phs001287_C3L-02168
+Alive	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-02940	phs001287_C3N-02940_C3N-02940	phs001287_C3N-02940
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3N-02183	phs001287_C3N-02183_C3N-02183	phs001287_C3N-02183
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-02716	phs001287_C3N-02716_C3N-02716	phs001287_C3N-02716
+Dead	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-00011	phs001287_C3L-00011_C3L-00011	phs001287_C3L-00011
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-00790	phs001287_C3L-00790_C3L-00790	phs001287_C3L-00790
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-00004	phs001287_C3L-00004_C3L-00004	phs001287_C3L-00004
+Alive	High grade serous carcinoma	diagnosis	17OV027	phs001287_17OV027_17OV027	phs001287_17OV027
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3N-00380	phs001287_C3N-00380_C3N-00380	phs001287_C3N-00380
+Alive	Colon Adenocarcinoma	diagnosis	09CO005	phs001287_09CO005_09CO005	phs001287_09CO005
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3N-00880	phs001287_C3N-00880_C3N-00880	phs001287_C3N-00880
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3N-00733	phs001287_C3N-00733_C3N-00733	phs001287_C3N-00733
+Dead	Endometrioid Carcinoma, NOS	diagnosis	C3N-00200	phs001287_C3N-00200_C3N-00200	phs001287_C3N-00200
+Alive	Colon Adenocarcinoma	diagnosis	01CO022	phs001287_01CO022_01CO022	phs001287_01CO022
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3N-02770	phs001287_C3N-02770_C3N-02770	phs001287_C3N-02770
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-04275	phs001287_C3N-04275_C3N-04275	phs001287_C3N-04275
+Alive	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-03632	phs001287_C3L-03632_C3L-03632	phs001287_C3L-03632
+Alive	High grade serous carcinoma	diagnosis	26OV011	phs001287_26OV011_26OV011	phs001287_26OV011
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-01716	phs001287_C3N-01716_C3N-01716	phs001287_C3N-01716
+Alive	Infiltrating Ductal Carcinoma	diagnosis	11BR003	phs001287_11BR003_11BR003	phs001287_11BR003
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-00001	phs001287_C3L-00001_C3L-00001	phs001287_C3L-00001
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-00580	phs001287_C3N-00580_C3N-00580	phs001287_C3N-00580
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-03486	phs001287_C3N-03486_C3N-03486	phs001287_C3N-03486
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-02295	phs001287_C3N-02295_C3N-02295	phs001287_C3N-02295
+Alive	High grade serous carcinoma	diagnosis	01OV041	phs001287_01OV041_01OV041	phs001287_01OV041
+Alive	High grade serous carcinoma	diagnosis	04OV036	phs001287_04OV036_04OV036	phs001287_04OV036
+Alive	High grade serous carcinoma	diagnosis	01OV030	phs001287_01OV030_01OV030	phs001287_01OV030
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3N-01521	phs001287_C3N-01521_C3N-01521	phs001287_C3N-01521
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-01415	phs001287_C3N-01415_C3N-01415	phs001287_C3N-01415
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-02589	phs001287_C3N-02589_C3N-02589	phs001287_C3N-02589
+Unknown	Infiltrating Ductal Carcinoma	diagnosis	05BR044	phs001287_05BR044_05BR044	phs001287_05BR044
+Dead	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-00857	phs001287_C3N-00857_C3N-00857	phs001287_C3N-00857
+Unknown	Not specified in data	diagnosis	01BR009	phs001287_01BR009_01BR009	phs001287_01BR009
+Alive	Colon Adenocarcinoma	diagnosis	11CO057	phs001287_11CO057_11CO057	phs001287_11CO057
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-03619	phs001287_C3N-03619_C3N-03619	phs001287_C3N-03619
+Alive	Infiltrating Ductal Carcinoma	diagnosis	11BR010	phs001287_11BR010_11BR010	phs001287_11BR010
+Alive	High grade serous carcinoma	diagnosis	04OV039	phs001287_04OV039_04OV039	phs001287_04OV039
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3N-01368	phs001287_C3N-01368_C3N-01368	phs001287_C3N-01368
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-01947	phs001287_C3N-01947_C3N-01947	phs001287_C3N-01947
+Alive	Colon Adenocarcinoma	diagnosis	05CO006	phs001287_05CO006_05CO006	phs001287_05CO006
+Alive	Infiltrating Ductal Carcinoma	diagnosis	14BR005	phs001287_14BR005_14BR005	phs001287_14BR005
+Dead	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-01859	phs001287_C3N-01859_C3N-01859	phs001287_C3N-01859
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-00549	phs001287_C3N-00549_C3N-00549	phs001287_C3N-00549
+Dead	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-02379	phs001287_C3N-02379_C3N-02379	phs001287_C3N-02379
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-03272	phs001287_C3L-03272_C3L-03272	phs001287_C3L-03272
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-02713	phs001287_C3N-02713_C3N-02713	phs001287_C3N-02713
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-00923	phs001287_C3L-00923_C3L-00923	phs001287_C3L-00923
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3L-00161	phs001287_C3L-00161_C3L-00161	phs001287_C3L-00161
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-03928	phs001287_C3N-03928_C3N-03928	phs001287_C3N-03928
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-04278	phs001287_C3N-04278_C3N-04278	phs001287_C3N-04278
+Alive	Mucinous Carcinoma	diagnosis	11BR050	phs001287_11BR050_11BR050	phs001287_11BR050
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-00817	phs001287_C3L-00817_C3L-00817	phs001287_C3L-00817
+Dead	Endometrioid Carcinoma, NOS	diagnosis	C3L-00139	phs001287_C3L-00139_C3L-00139	phs001287_C3L-00139
+Alive	Colon Adenocarcinoma	diagnosis	09CO013	phs001287_09CO013_09CO013	phs001287_09CO013
+Alive	Infiltrating Ductal Carcinoma	diagnosis	09BR007	phs001287_09BR007_09BR007	phs001287_09BR007
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3N-00149	phs001287_C3N-00149_C3N-00149	phs001287_C3N-00149
+Alive	High grade serous carcinoma	diagnosis	02OV041	phs001287_02OV041_02OV041	phs001287_02OV041
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-04072	phs001287_C3L-04072_C3L-04072	phs001287_C3L-04072
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-02350	phs001287_C3L-02350_C3L-02350	phs001287_C3L-02350
+Alive	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-02010	phs001287_C3N-02010_C3N-02010	phs001287_C3N-02010
+Alive	Infiltrating Ductal Carcinoma	diagnosis	11BR042	phs001287_11BR042_11BR042	phs001287_11BR042
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3N-00377	phs001287_C3N-00377_C3N-00377	phs001287_C3N-00377
+Alive	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-02897	phs001287_C3L-02897_C3L-02897	phs001287_C3L-02897
+Dead	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-03009	phs001287_C3N-03009_C3N-03009	phs001287_C3N-03009
+Alive	High grade serous carcinoma	diagnosis	02OV036	phs001287_02OV036_02OV036	phs001287_02OV036
+Alive	Colon Adenocarcinoma	diagnosis	01CO013	phs001287_01CO013_01CO013	phs001287_01CO013
+Dead	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-02422	phs001287_C3N-02422_C3N-02422	phs001287_C3N-02422
+Unknown	Not specified in data	diagnosis	09BR001	phs001287_09BR001_09BR001	phs001287_09BR001
+Alive	Infiltrating Ductal Carcinoma	diagnosis	18BR017	phs001287_18BR017_18BR017	phs001287_18BR017
+Alive	Colon Adenocarcinoma	diagnosis	20CO001	phs001287_20CO001_20CO001	phs001287_20CO001
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-02572	phs001287_C3N-02572_C3N-02572	phs001287_C3N-02572
+Alive	Infiltrating Ductal Carcinoma	diagnosis	18BR004	phs001287_18BR004_18BR004	phs001287_18BR004
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-01662	phs001287_C3L-01662_C3L-01662	phs001287_C3L-01662
+Dead	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-02694	phs001287_C3N-02694_C3N-02694	phs001287_C3N-02694
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3L-01046	phs001287_C3L-01046_C3L-01046	phs001287_C3L-01046
+Alive	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-00881	phs001287_C3L-00881_C3L-00881	phs001287_C3L-00881
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-03877	phs001287_C3N-03877_C3N-03877	phs001287_C3N-03877
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-03888	phs001287_C3N-03888_C3N-03888	phs001287_C3N-03888
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3L-00563	phs001287_C3L-00563_C3L-00563	phs001287_C3L-00563
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-00095	phs001287_C3L-00095_C3L-00095	phs001287_C3L-00095
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-00247	phs001287_C3N-00247_C3N-00247	phs001287_C3N-00247
+Alive	Glioblastoma Multiforme (GBM)	diagnosis	C3L-01155	phs001287_C3L-01155_C3L-01155	phs001287_C3L-01155
+Alive	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-03356	phs001287_C3L-03356_C3L-03356	phs001287_C3L-03356
+Alive	Colon Adenocarcinoma	diagnosis	05CO049	phs001287_05CO049_05CO049	phs001287_05CO049
+Alive	Adenocarcinoma, Not Otherwise Specified	diagnosis	C3N-01180	phs001287_C3N-01180_C3N-01180	phs001287_C3N-01180
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3L-01237	phs001287_C3L-01237_C3L-01237	phs001287_C3L-01237
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-03880	phs001287_C3N-03880_C3N-03880	phs001287_C3N-03880
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-02925	phs001287_C3N-02925_C3N-02925	phs001287_C3N-02925
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-01285	phs001287_C3L-01285_C3L-01285	phs001287_C3L-01285
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3L-03392	phs001287_C3L-03392_C3L-03392	phs001287_C3L-03392
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3L-00601	phs001287_C3L-00601_C3L-00601	phs001287_C3L-00601
+Dead	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-00211	phs001287_C3N-00211_C3N-00211	phs001287_C3N-00211
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3N-00334	phs001287_C3N-00334_C3N-00334	phs001287_C3N-00334
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-01890	phs001287_C3L-01890_C3L-01890	phs001287_C3L-01890
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-01682	phs001287_C3L-01682_C3L-01682	phs001287_C3L-01682
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3N-02188	phs001287_C3N-02188_C3N-02188	phs001287_C3N-02188
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-02000	phs001287_C3N-02000_C3N-02000	phs001287_C3N-02000
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-00448	phs001287_C3L-00448_C3L-00448	phs001287_C3L-00448
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-03015	phs001287_C3N-03015_C3N-03015	phs001287_C3N-03015
+Dead	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-00103	phs001287_C3L-00103_C3L-00103	phs001287_C3L-00103
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-01489	phs001287_C3N-01489_C3N-01489	phs001287_C3N-01489
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-02629	phs001287_C3L-02629_C3L-02629	phs001287_C3L-02629
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-04277	phs001287_C3N-04277_C3N-04277	phs001287_C3N-04277
+Unknown	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-04611	phs001287_C3N-04611_C3N-04611	phs001287_C3N-04611
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-00799	phs001287_C3L-00799_C3L-00799	phs001287_C3L-00799
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-00199	phs001287_C3N-00199_C3N-00199	phs001287_C3N-00199
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3N-00734	phs001287_C3N-00734_C3N-00734	phs001287_C3N-00734
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-00973	phs001287_C3L-00973_C3L-00973	phs001287_C3L-00973
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-01885	phs001287_C3L-01885_C3L-01885	phs001287_C3L-01885
+Dead	Infiltrating Ductal Carcinoma	diagnosis	22BR006	phs001287_22BR006_22BR006	phs001287_22BR006
+Dead	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-00079	phs001287_C3L-00079_C3L-00079	phs001287_C3L-00079
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3N-00194	phs001287_C3N-00194_C3N-00194	phs001287_C3N-00194
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3N-00148	phs001287_C3N-00148_C3N-00148	phs001287_C3N-00148
+Dead	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-02646	phs001287_C3L-02646_C3L-02646	phs001287_C3L-02646
+Alive	High grade serous carcinoma	diagnosis	02OV044	phs001287_02OV044_02OV044	phs001287_02OV044
+Alive	Colon Adenocarcinoma	diagnosis	11CO047	phs001287_11CO047_11CO047	phs001287_11CO047
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3N-00335	phs001287_C3N-00335_C3N-00335	phs001287_C3N-00335
+Dead	Colon Adenocarcinoma	diagnosis	01CO005	phs001287_01CO005_01CO005	phs001287_01CO005
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-04279	phs001287_C3N-04279_C3N-04279	phs001287_C3N-04279
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3N-01178	phs001287_C3N-01178_C3N-01178	phs001287_C3N-01178
+Alive	High grade serous carcinoma	diagnosis	02OV023	phs001287_02OV023_02OV023	phs001287_02OV023
+Alive	Glioblastoma Multiforme (GBM)	diagnosis	C3L-03390	phs001287_C3L-03390_C3L-03390	phs001287_C3L-03390
+Dead	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-04273	phs001287_C3N-04273_C3N-04273	phs001287_C3N-04273
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-01858	phs001287_C3N-01858_C3N-01858	phs001287_C3N-01858
+Unknown	Not specified in data	diagnosis	01BR008	phs001287_01BR008_01BR008	phs001287_01BR008
+Dead	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-01663	phs001287_C3L-01663_C3L-01663	phs001287_C3L-01663
+Dead	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-00829	phs001287_C3N-00829_C3N-00829	phs001287_C3N-00829
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-03878	phs001287_C3N-03878_C3N-03878	phs001287_C3N-03878
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-03962	phs001287_C3L-03962_C3L-03962	phs001287_C3L-03962
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-00792	phs001287_C3L-00792_C3L-00792	phs001287_C3L-00792
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-03456	phs001287_C3N-03456_C3N-03456	phs001287_C3N-03456
+Alive	Infiltrating Ductal Carcinoma	diagnosis	11BR031	phs001287_11BR031_11BR031	phs001287_11BR031
+Alive	Infiltrating Ductal Carcinoma	diagnosis	11BR023	phs001287_11BR023_11BR023	phs001287_11BR023
+Alive	Colon Adenocarcinoma	diagnosis	11CO007	phs001287_11CO007_11CO007	phs001287_11CO007
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-00561	phs001287_C3L-00561_C3L-00561	phs001287_C3L-00561
+Unknown	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-03042	phs001287_C3N-03042_C3N-03042	phs001287_C3N-03042
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-00368	phs001287_C3L-00368_C3L-00368	phs001287_C3L-00368
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-04284	phs001287_C3N-04284_C3N-04284	phs001287_C3N-04284
+Alive	Colon Adenocarcinoma	diagnosis	05CO034	phs001287_05CO034_05CO034	phs001287_05CO034
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3L-00358	phs001287_C3L-00358_C3L-00358	phs001287_C3L-00358
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-01687	phs001287_C3L-01687_C3L-01687	phs001287_C3L-01687
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-00183	phs001287_C3L-00183_C3L-00183	phs001287_C3L-00183
+Unknown	Not specified in data	diagnosis	05BR004	phs001287_05BR004_05BR004	phs001287_05BR004
+Dead	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-02964	phs001287_C3L-02964_C3L-02964	phs001287_C3L-02964
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3L-01045	phs001287_C3L-01045_C3L-01045	phs001287_C3L-01045
+Alive	Glioblastoma Multiforme (GBM)	diagnosis	C3N-03070	phs001287_C3N-03070_C3N-03070	phs001287_C3N-03070
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-01281	phs001287_C3L-01281_C3L-01281	phs001287_C3L-01281
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3N-00340	phs001287_C3N-00340_C3N-00340	phs001287_C3N-00340
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3L-00586	phs001287_C3L-00586_C3L-00586	phs001287_C3L-00586
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3L-00362	phs001287_C3L-00362_C3L-00362	phs001287_C3L-00362
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-03780	phs001287_C3N-03780_C3N-03780	phs001287_C3N-03780
+Alive	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-03123	phs001287_C3L-03123_C3L-03123	phs001287_C3L-03123
+Dead	Head & Neck Squamous Cell Carcinoma	diagnosis	C3L-00994	phs001287_C3L-00994_C3L-00994	phs001287_C3L-00994
+Alive	Colon Adenocarcinoma	diagnosis	11CO010	phs001287_11CO010_11CO010	phs001287_11CO010
+Dead	Colon Adenocarcinoma	diagnosis	05CO015	phs001287_05CO015_05CO015	phs001287_05CO015
+Dead	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-02648	phs001287_C3L-02648_C3L-02648	phs001287_C3L-02648
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3N-00495	phs001287_C3N-00495_C3N-00495	phs001287_C3N-00495
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-01756	phs001287_C3N-01756_C3N-01756	phs001287_C3N-01756
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-03204	phs001287_C3N-03204_C3N-03204	phs001287_C3N-03204
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-02435	phs001287_C3N-02435_C3N-02435	phs001287_C3N-02435
+Alive	Colon Adenocarcinoma	diagnosis	01CO014	phs001287_01CO014_01CO014	phs001287_01CO014
+Alive	Colon Adenocarcinoma	diagnosis	05CO050	phs001287_05CO050_05CO050	phs001287_05CO050
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3L-00963	phs001287_C3L-00963_C3L-00963	phs001287_C3L-00963
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-00167	phs001287_C3N-00167_C3N-00167	phs001287_C3N-00167
+Alive	Invasive Lobular Carcinoma	diagnosis	01BR033	phs001287_01BR033_01BR033	phs001287_01BR033
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3N-00337	phs001287_C3N-00337_C3N-00337	phs001287_C3N-00337
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3N-00663	phs001287_C3N-00663_C3N-00663	phs001287_C3N-00663
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3L-00104	phs001287_C3L-00104_C3L-00104	phs001287_C3L-00104
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-01168	phs001287_C3N-01168_C3N-01168	phs001287_C3N-01168
+Alive	Colon Adenocarcinoma	diagnosis	14CO003	phs001287_14CO003_14CO003	phs001287_14CO003
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3L-03405	phs001287_C3L-03405_C3L-03405	phs001287_C3L-03405
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-01023	phs001287_C3N-01023_C3N-01023	phs001287_C3N-01023
+Alive	Infiltrating Ductal Carcinoma	diagnosis	11BR030	phs001287_11BR030_11BR030	phs001287_11BR030
+Dead	Adenocarcinoma, Not Otherwise Specified	diagnosis	C3L-00359	phs001287_C3L-00359_C3L-00359	phs001287_C3L-00359
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-02279	phs001287_C3N-02279_C3N-02279	phs001287_C3N-02279
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-00433	phs001287_C3N-00433_C3N-00433	phs001287_C3N-00433
+Alive	Glioblastoma Multiforme (GBM)	diagnosis	C3L-02984	phs001287_C3L-02984_C3L-02984	phs001287_C3L-02984
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3N-01176	phs001287_C3N-01176_C3N-01176	phs001287_C3N-01176
+Alive	Invasive Lobular Carcinoma	diagnosis	05BR009	phs001287_05BR009_05BR009	phs001287_05BR009
+Alive	Colon Adenocarcinoma	diagnosis	09CO008	phs001287_09CO008_09CO008	phs001287_09CO008
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3N-00323	phs001287_C3N-00323_C3N-00323	phs001287_C3N-00323
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-03664	phs001287_C3N-03664_C3N-03664	phs001287_C3N-03664
+Dead	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-00828	phs001287_C3N-00828_C3N-00828	phs001287_C3N-00828
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-01330	phs001287_C3L-01330_C3L-01330	phs001287_C3L-01330
+Dead	Endometrioid Carcinoma, NOS	diagnosis	C3L-00090	phs001287_C3L-00090_C3L-00090	phs001287_C3L-00090
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-03061	phs001287_C3N-03061_C3N-03061	phs001287_C3N-03061
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3N-03182	phs001287_C3N-03182_C3N-03182	phs001287_C3N-03182
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-01337	phs001287_C3N-01337_C3N-01337	phs001287_C3N-01337
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-03782	phs001287_C3N-03782_C3N-03782	phs001287_C3N-03782
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3N-00151	phs001287_C3N-00151_C3N-00151	phs001287_C3N-00151
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-01414	phs001287_C3N-01414_C3N-01414	phs001287_C3N-01414
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-03612	phs001287_C3N-03612_C3N-03612	phs001287_C3N-03612
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-00514	phs001287_C3N-00514_C3N-00514	phs001287_C3N-00514
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-00766	phs001287_C3L-00766_C3L-00766	phs001287_C3L-00766
+Dead	Head & Neck Squamous Cell Carcinoma	diagnosis	C3L-00977	phs001287_C3L-00977_C3L-00977	phs001287_C3L-00977
+Alive	High grade serous carcinoma	diagnosis	01OV018	phs001287_01OV018_01OV018	phs001287_01OV018
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-00559	phs001287_C3N-00559_C3N-00559	phs001287_C3N-00559
+Alive	Colon Adenocarcinoma	diagnosis	05CO029	phs001287_05CO029_05CO029	phs001287_05CO029
+Alive	Infiltrating Ductal Carcinoma	diagnosis	01BR025	phs001287_01BR025_01BR025	phs001287_01BR025
+Alive	Colon Adenocarcinoma	diagnosis	11CO045	phs001287_11CO045_11CO045	phs001287_11CO045
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3L-03387	phs001287_C3L-03387_C3L-03387	phs001287_C3L-03387
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-00796	phs001287_C3L-00796_C3L-00796	phs001287_C3L-00796
+Alive	Infiltrating Ductal Carcinoma	diagnosis	03BR002	phs001287_03BR002_03BR002	phs001287_03BR002
+Alive	Infiltrating Ductal Carcinoma	diagnosis	11BR059	phs001287_11BR059_11BR059	phs001287_11BR059
+Dead	Pancreas-Undifferentiated Carcinoma	diagnosis	C3L-01037	phs001287_C3L-01037_C3L-01037	phs001287_C3L-01037
+Alive	Glioblastoma Multiforme (GBM)	diagnosis	C3L-02704	phs001287_C3L-02704_C3L-02704	phs001287_C3L-02704
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3N-01522	phs001287_C3N-01522_C3N-01522	phs001287_C3N-01522
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-01016	phs001287_C3N-01016_C3N-01016	phs001287_C3N-01016
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-02349	phs001287_C3L-02349_C3L-02349	phs001287_C3L-02349
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-03211	phs001287_C3N-03211_C3N-03211	phs001287_C3N-03211
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-03425	phs001287_C3N-03425_C3N-03425	phs001287_C3N-03425
+Dead	Colon Adenocarcinoma	diagnosis	11CO021	phs001287_11CO021_11CO021	phs001287_11CO021
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-02158	phs001287_C3N-02158_C3N-02158	phs001287_C3N-02158
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-03490	phs001287_C3N-03490_C3N-03490	phs001287_C3N-03490
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-00902	phs001287_C3L-00902_C3L-00902	phs001287_C3L-00902
+Alive	Colon Adenocarcinoma	diagnosis	11CO037	phs001287_11CO037_11CO037	phs001287_11CO037
+Alive	Infiltrating Ductal Carcinoma	diagnosis	20BR006	phs001287_20BR006_20BR006	phs001287_20BR006
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-01352	phs001287_C3L-01352_C3L-01352	phs001287_C3L-01352
+Alive	Infiltrating Ductal Carcinoma	diagnosis	18BR016	phs001287_18BR016_18BR016	phs001287_18BR016
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3L-00032	phs001287_C3L-00032_C3L-00032	phs001287_C3L-00032
+Dead	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-01455	phs001287_C3L-01455_C3L-01455	phs001287_C3L-01455
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-01382	phs001287_C3N-01382_C3N-01382	phs001287_C3N-01382
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3L-04025	phs001287_C3L-04025_C3L-04025	phs001287_C3L-04025
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-00765	phs001287_C3L-00765_C3L-00765	phs001287_C3L-00765
+Alive	High grade serous carcinoma	diagnosis	18OV001	phs001287_18OV001_18OV001	phs001287_18OV001
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-03875	phs001287_C3N-03875_C3N-03875	phs001287_C3N-03875
+Alive	Glioblastoma Multiforme (GBM)	diagnosis	C3L-01142	phs001287_C3L-01142_C3L-01142	phs001287_C3L-01142
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3L-00137	phs001287_C3L-00137_C3L-00137	phs001287_C3L-00137
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3N-00383	phs001287_C3N-00383_C3N-00383	phs001287_C3N-00383
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3N-00662	phs001287_C3N-00662_C3N-00662	phs001287_C3N-00662
+Alive	Infiltrating Ductal Carcinoma	diagnosis	11BR006	phs001287_11BR006_11BR006	phs001287_11BR006
+Alive	Colon Adenocarcinoma	diagnosis	05CO053	phs001287_05CO053_05CO053	phs001287_05CO053
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-02283	phs001287_C3N-02283_C3N-02283	phs001287_C3N-02283
+Dead	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-02675	phs001287_C3N-02675_C3N-02675	phs001287_C3N-02675
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-04014	phs001287_C3L-04014_C3L-04014	phs001287_C3L-04014
+Dead	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-01074	phs001287_C3N-01074_C3N-01074	phs001287_C3N-01074
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-03886	phs001287_C3N-03886_C3N-03886	phs001287_C3N-03886
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-00189	phs001287_C3L-00189_C3L-00189	phs001287_C3L-00189
+Alive	High grade serous carcinoma	diagnosis	17OV029	phs001287_17OV029_17OV029	phs001287_17OV029
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-00217	phs001287_C3N-00217_C3N-00217	phs001287_C3N-00217
+Alive	High grade serous carcinoma	diagnosis	04OV005	phs001287_04OV005_04OV005	phs001287_04OV005
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-02155	phs001287_C3N-02155_C3N-02155	phs001287_C3N-02155
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-02288	phs001287_C3N-02288_C3N-02288	phs001287_C3N-02288
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-04119	phs001287_C3N-04119_C3N-04119	phs001287_C3N-04119
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-01072	phs001287_C3N-01072_C3N-01072	phs001287_C3N-01072
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3L-01043	phs001287_C3L-01043_C3L-01043	phs001287_C3L-01043
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	11LU022	phs001287_11LU022_11LU022	phs001287_11LU022
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-01603	phs001287_C3L-01603_C3L-01603	phs001287_C3L-01603
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3N-00866	phs001287_C3N-00866_C3N-00866	phs001287_C3N-00866
+Alive	Colon Adenocarcinoma	diagnosis	09CO019	phs001287_09CO019_09CO019	phs001287_09CO019
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3L-01249	phs001287_C3L-01249_C3L-01249	phs001287_C3L-01249
+Alive	Colon Adenocarcinoma	diagnosis	11CO027	phs001287_11CO027_11CO027	phs001287_11CO027
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-01643	phs001287_C3N-01643_C3N-01643	phs001287_C3N-01643
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-00263	phs001287_C3L-00263_C3L-00263	phs001287_C3L-00263
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-03076	phs001287_C3N-03076_C3N-03076	phs001287_C3N-03076
+Alive	Colon Adenocarcinoma	diagnosis	05CO035	phs001287_05CO035_05CO035	phs001287_05CO035
+Alive	Infiltrating Ductal Carcinoma	diagnosis	11BR038	phs001287_11BR038_11BR038	phs001287_11BR038
+Alive	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-02944	phs001287_C3N-02944_C3N-02944	phs001287_C3N-02944
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-01715	phs001287_C3N-01715_C3N-01715	phs001287_C3N-01715
+Alive	High grade serous carcinoma	diagnosis	17OV025	phs001287_17OV025_17OV025	phs001287_17OV025
+Alive	High grade serous carcinoma	diagnosis	17OV002	phs001287_17OV002_17OV002	phs001287_17OV002
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3N-01651	phs001287_C3N-01651_C3N-01651	phs001287_C3N-01651
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-03000	phs001287_C3N-03000_C3N-03000	phs001287_C3N-03000
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3L-04354	phs001287_C3L-04354_C3L-04354	phs001287_C3L-04354
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3N-01196	phs001287_C3N-01196_C3N-01196	phs001287_C3N-01196
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3L-04849	phs001287_C3L-04849_C3L-04849	phs001287_C3L-04849
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3L-00932	phs001287_C3L-00932_C3L-00932	phs001287_C3L-00932
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-03190	phs001287_C3N-03190_C3N-03190	phs001287_C3N-03190
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-01754	phs001287_C3N-01754_C3N-01754	phs001287_C3N-01754
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3N-00953	phs001287_C3N-00953_C3N-00953	phs001287_C3N-00953
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-02588	phs001287_C3N-02588_C3N-02588	phs001287_C3N-02588
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3N-00242	phs001287_C3N-00242_C3N-00242	phs001287_C3N-00242
+Alive	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-02112	phs001287_C3L-02112_C3L-02112	phs001287_C3L-02112
+Alive	Colon Adenocarcinoma	diagnosis	11CO019	phs001287_11CO019_11CO019	phs001287_11CO019
+Alive	High grade serous carcinoma	diagnosis	17OV014	phs001287_17OV014_17OV014	phs001287_17OV014
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-02375	phs001287_C3N-02375_C3N-02375	phs001287_C3N-02375
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3L-03407	phs001287_C3L-03407_C3L-03407	phs001287_C3L-03407
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-03051	phs001287_C3N-03051_C3N-03051	phs001287_C3N-03051
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3L-00677	phs001287_C3L-00677_C3L-00677	phs001287_C3L-00677
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-02627	phs001287_C3L-02627_C3L-02627	phs001287_C3L-02627
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-02433	phs001287_C3N-02433_C3N-02433	phs001287_C3N-02433
+Alive	High grade serous carcinoma	diagnosis	04OV004	phs001287_04OV004_04OV004	phs001287_04OV004
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-00959	phs001287_C3N-00959_C3N-00959	phs001287_C3N-00959
+Dead	Kidney Clear Cell Renal Carcinoma	diagnosis	C3N-01220	phs001287_C3N-01220_C3N-01220	phs001287_C3N-01220
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3L-00098	phs001287_C3L-00098_C3L-00098	phs001287_C3L-00098
+Dead	Kidney Clear Cell Renal Carcinoma	diagnosis	C3N-00491	phs001287_C3N-00491_C3N-00491	phs001287_C3N-00491
+Alive	Infiltrating Ductal Carcinoma	diagnosis	18BR006	phs001287_18BR006_18BR006	phs001287_18BR006
+Alive	Adenocarcinoma, Not Otherwise Specified	diagnosis	C3N-00313	phs001287_C3N-00313_C3N-00313	phs001287_C3N-00313
+Alive	Glioblastoma Multiforme (GBM)	diagnosis	C3N-01814	phs001287_C3N-01814_C3N-01814	phs001287_C3N-01814
+Alive	Colon Adenocarcinoma	diagnosis	11CO039	phs001287_11CO039_11CO039	phs001287_11CO039
+Dead	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-02625	phs001287_C3L-02625_C3L-02625	phs001287_C3L-02625
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-00572	phs001287_C3N-00572_C3N-00572	phs001287_C3N-00572
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3L-00949	phs001287_C3L-00949_C3L-00949	phs001287_C3L-00949
+Alive	High grade serous carcinoma	diagnosis	17OV011	phs001287_17OV011_17OV011	phs001287_17OV011
+Unknown	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-00738	phs001287_C3N-00738_C3N-00738	phs001287_C3N-00738
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3L-01327	phs001287_C3L-01327_C3L-01327	phs001287_C3L-01327
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-02127	phs001287_C3L-02127_C3L-02127	phs001287_C3L-02127
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3L-01138	phs001287_C3L-01138_C3L-01138	phs001287_C3L-01138
+Unknown	Infiltrating Ductal Carcinoma	diagnosis	05BR043	phs001287_05BR043_05BR043	phs001287_05BR043
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3N-02788	phs001287_C3N-02788_C3N-02788	phs001287_C3N-02788
+Alive	Infiltrating Ductal Carcinoma	diagnosis	05BR001	phs001287_05BR001_05BR001	phs001287_05BR001
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-00819	phs001287_C3L-00819_C3L-00819	phs001287_C3L-00819
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-01971	phs001287_C3L-01971_C3L-01971	phs001287_C3L-01971
+Unknown	Infiltrating Ductal Carcinoma	diagnosis	01BR040	phs001287_01BR040_01BR040	phs001287_01BR040
+Alive	High grade serous carcinoma	diagnosis	04OV011	phs001287_04OV011_04OV011	phs001287_04OV011
+Alive	Glioblastoma Multiforme (GBM)	diagnosis	C3L-02041	phs001287_C3L-02041_C3L-02041	phs001287_C3L-02041
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-01924	phs001287_C3L-01924_C3L-01924	phs001287_C3L-01924
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-02714	phs001287_C3N-02714_C3N-02714	phs001287_C3N-02714
+Dead	Endometrioid Carcinoma, NOS	diagnosis	C3L-00918	phs001287_C3L-00918_C3L-00918	phs001287_C3L-00918
+Alive	Glioblastoma Multiforme (GBM)	diagnosis	C3L-01149	phs001287_C3L-01149_C3L-01149	phs001287_C3L-01149
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-02768	phs001287_C3N-02768_C3N-02768	phs001287_C3N-02768
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-03884	phs001287_C3N-03884_C3N-03884	phs001287_C3N-03884
+Dead	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-01028	phs001287_C3N-01028_C3N-01028	phs001287_C3N-01028
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-01889	phs001287_C3L-01889_C3L-01889	phs001287_C3L-01889
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-04280	phs001287_C3N-04280_C3N-04280	phs001287_C3N-04280
+Alive	Colon Adenocarcinoma	diagnosis	05CO045	phs001287_05CO045_05CO045	phs001287_05CO045
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3L-02970	phs001287_C3L-02970_C3L-02970	phs001287_C3L-02970
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3L-01252	phs001287_C3L-01252_C3L-01252	phs001287_C3L-01252
+Alive	Colon Adenocarcinoma	diagnosis	22CO006	phs001287_22CO006_22CO006	phs001287_22CO006
+Alive	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-02463	phs001287_C3L-02463_C3L-02463	phs001287_C3L-02463
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3L-03266	phs001287_C3L-03266_C3L-03266	phs001287_C3L-03266
+Alive	Invasive Lobular Carcinoma	diagnosis	05BR026	phs001287_05BR026_05BR026	phs001287_05BR026
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-01607	phs001287_C3L-01607_C3L-01607	phs001287_C3L-01607
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-02508	phs001287_C3L-02508_C3L-02508	phs001287_C3L-02508
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3N-01798	phs001287_C3N-01798_C3N-01798	phs001287_C3N-01798
+Alive	Infiltrating Ductal Carcinoma	diagnosis	06BR005	phs001287_06BR005_06BR005	phs001287_06BR005
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-03457	phs001287_C3N-03457_C3N-03457	phs001287_C3N-03457
+Dead	High grade serous carcinoma	diagnosis	04OV048	phs001287_04OV048_04OV048	phs001287_04OV048
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-01000	phs001287_C3L-01000_C3L-01000	phs001287_C3L-01000
+Alive	Colon Adenocarcinoma	diagnosis	11CO061	phs001287_11CO061_11CO061	phs001287_11CO061
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-03754	phs001287_C3N-03754_C3N-03754	phs001287_C3N-03754
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-04853	phs001287_C3L-04853_C3L-04853	phs001287_C3L-04853
+Alive	Infiltrating Ductal Carcinoma	diagnosis	05BR038	phs001287_05BR038_05BR038	phs001287_05BR038
+Dead	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-01945	phs001287_C3N-01945_C3N-01945	phs001287_C3N-01945
+Alive	Infiltrating Ductal Carcinoma	diagnosis	11BR009	phs001287_11BR009_11BR009	phs001287_11BR009
+Dead	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-01943	phs001287_C3N-01943_C3N-01943	phs001287_C3N-01943
+Alive	High grade serous carcinoma	diagnosis	01OV047	phs001287_01OV047_01OV047	phs001287_01OV047
+Alive	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-00198	phs001287_C3N-00198_C3N-00198	phs001287_C3N-00198
+Alive	Colon Adenocarcinoma	diagnosis	05CO047	phs001287_05CO047_05CO047	phs001287_05CO047
+Alive	Infiltrating Ductal Carcinoma	diagnosis	20BR005	phs001287_20BR005_20BR005	phs001287_20BR005
+Alive	Infiltrating Ductal Carcinoma	diagnosis	21BR010	phs001287_21BR010_21BR010	phs001287_21BR010
+Alive	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-02109	phs001287_C3L-02109_C3L-02109	phs001287_C3L-02109
+Dead	High grade serous carcinoma	diagnosis	26OV008	phs001287_26OV008_26OV008	phs001287_26OV008
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3N-01537	phs001287_C3N-01537_C3N-01537	phs001287_C3N-01537
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3N-02190	phs001287_C3N-02190_C3N-02190	phs001287_C3N-02190
+Dead	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-00093	phs001287_C3L-00093_C3L-00093	phs001287_C3L-00093
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-00517	phs001287_C3N-00517_C3N-00517	phs001287_C3N-00517
+Alive	Infiltrating Ductal Carcinoma	diagnosis	11BR036	phs001287_11BR036_11BR036	phs001287_11BR036
+Alive	Infiltrating Ductal Carcinoma	diagnosis	05BR005	phs001287_05BR005_05BR005	phs001287_05BR005
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3N-01267	phs001287_C3N-01267_C3N-01267	phs001287_C3N-01267
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3L-00361	phs001287_C3L-00361_C3L-00361	phs001287_C3L-00361
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-00279	phs001287_C3L-00279_C3L-00279	phs001287_C3L-00279
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3N-01648	phs001287_C3N-01648_C3N-01648	phs001287_C3N-01648
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-02604	phs001287_C3L-02604_C3L-02604	phs001287_C3L-02604
+Alive	Invasive Ductal Carcinoma	diagnosis	20BR008	phs001287_20BR008_20BR008	phs001287_20BR008
+Alive	Glioblastoma Multiforme (GBM)	diagnosis	C3L-03968	phs001287_C3L-03968_C3L-03968	phs001287_C3L-03968
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3L-01834	phs001287_C3L-01834_C3L-01834	phs001287_C3L-01834
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3L-01304	phs001287_C3L-01304_C3L-01304	phs001287_C3L-01304
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3L-00905	phs001287_C3L-00905_C3L-00905	phs001287_C3L-00905
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3L-02955	phs001287_C3L-02955_C3L-02955	phs001287_C3L-02955
+Unknown	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-00704	phs001287_C3N-00704_C3N-00704	phs001287_C3N-00704
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3L-00449	phs001287_C3L-00449_C3L-00449	phs001287_C3L-00449
+Dead	Endometrioid Carcinoma, NOS	diagnosis	C3N-01003	phs001287_C3N-01003_C3N-01003	phs001287_C3N-01003
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-01703	phs001287_C3L-01703_C3L-01703	phs001287_C3L-01703
+Dead	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-02649	phs001287_C3L-02649_C3L-02649	phs001287_C3L-02649
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-02891	phs001287_C3L-02891_C3L-02891	phs001287_C3L-02891
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-04495	phs001287_C3L-04495_C3L-04495	phs001287_C3L-04495
+Unknown	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-03092	phs001287_C3N-03092_C3N-03092	phs001287_C3N-03092
+Alive	High grade serous carcinoma	diagnosis	04OV044	phs001287_04OV044_04OV044	phs001287_04OV044
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-00516	phs001287_C3N-00516_C3N-00516	phs001287_C3N-00516
+Unknown	Glioblastoma Multiforme (GBM)	diagnosis	C3N-01367	phs001287_C3N-01367_C3N-01367	phs001287_C3N-01367
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3N-02784	phs001287_C3N-02784_C3N-02784	phs001287_C3N-02784
+Alive	High grade serous carcinoma	diagnosis	04OV063	phs001287_04OV063_04OV063	phs001287_04OV063
+Alive	Colon Adenocarcinoma	diagnosis	11CO058	phs001287_11CO058_11CO058	phs001287_11CO058
+Alive	High grade serous carcinoma	diagnosis	17OV017	phs001287_17OV017_17OV017	phs001287_17OV017
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-00083	phs001287_C3L-00083_C3L-00083	phs001287_C3L-00083
+Alive	Infiltrating Ductal Carcinoma	diagnosis	11BR080	phs001287_11BR080_11BR080	phs001287_11BR080
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-00604	phs001287_C3L-00604_C3L-00604	phs001287_C3L-00604
+Dead	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-02130	phs001287_C3L-02130_C3L-02130	phs001287_C3L-02130
+Dead	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-00581	phs001287_C3L-00581_C3L-00581	phs001287_C3L-00581
+Alive	High grade serous carcinoma	diagnosis	04OV012	phs001287_04OV012_04OV012	phs001287_04OV012
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-01167	phs001287_C3N-01167_C3N-01167	phs001287_C3N-01167
+Alive	High grade serous carcinoma	diagnosis	04OV027	phs001287_04OV027_04OV027	phs001287_04OV027
+Dead	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-00094	phs001287_C3L-00094_C3L-00094	phs001287_C3L-00094
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3L-00767	phs001287_C3L-00767_C3L-00767	phs001287_C3L-00767
+Alive	Colon Adenocarcinoma	diagnosis	20CO004	phs001287_20CO004_20CO004	phs001287_20CO004
+Alive	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-04027	phs001287_C3L-04027_C3L-04027	phs001287_C3L-04027
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-00360	phs001287_C3L-00360_C3L-00360	phs001287_C3L-00360
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-02546	phs001287_C3L-02546_C3L-02546	phs001287_C3L-02546
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3N-01815	phs001287_C3N-01815_C3N-01815	phs001287_C3N-01815
+Alive	Colon Adenocarcinoma	diagnosis	16CO002	phs001287_16CO002_16CO002	phs001287_16CO002
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3N-00317	phs001287_C3N-00317_C3N-00317	phs001287_C3N-00317
+Unknown	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-00203	phs001287_C3N-00203_C3N-00203	phs001287_C3N-00203
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-00140	phs001287_C3L-00140_C3L-00140	phs001287_C3L-00140
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3L-02705	phs001287_C3L-02705_C3L-02705	phs001287_C3L-02705
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3N-01334	phs001287_C3N-01334_C3N-01334	phs001287_C3N-01334
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-03963	phs001287_C3L-03963_C3L-03963	phs001287_C3L-03963
+Dead	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-02575	phs001287_C3N-02575_C3N-02575	phs001287_C3N-02575
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3N-03183	phs001287_C3N-03183_C3N-03183	phs001287_C3N-03183
+Dead	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-02669	phs001287_C3L-02669_C3L-02669	phs001287_C3L-02669
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-02890	phs001287_C3L-02890_C3L-02890	phs001287_C3L-02890
+Unknown	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-02252	phs001287_C3N-02252_C3N-02252	phs001287_C3N-02252
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3L-00006	phs001287_C3L-00006_C3L-00006	phs001287_C3L-00006
+Dead	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-00607	phs001287_C3L-00607_C3L-00607	phs001287_C3L-00607
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-00513	phs001287_C3N-00513_C3N-00513	phs001287_C3N-00513
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-00555	phs001287_C3N-00555_C3N-00555	phs001287_C3N-00555
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3L-00997	phs001287_C3L-00997_C3L-00997	phs001287_C3L-00997
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3N-01518	phs001287_C3N-01518_C3N-01518	phs001287_C3N-01518
+Alive	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-00589	phs001287_C3L-00589_C3L-00589	phs001287_C3L-00589
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-00800	phs001287_C3L-00800_C3L-00800	phs001287_C3L-00800
+Alive	Invasive Lobular Carcinoma	diagnosis	11BR032	phs001287_11BR032_11BR032	phs001287_11BR032
+Dead	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-03785	phs001287_C3N-03785_C3N-03785	phs001287_C3N-03785
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-04282	phs001287_C3N-04282_C3N-04282	phs001287_C3N-04282
+Alive	High grade serous carcinoma	diagnosis	17OV036	phs001287_17OV036_17OV036	phs001287_17OV036
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-00737	phs001287_C3N-00737_C3N-00737	phs001287_C3N-00737
+Alive	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-00957	phs001287_C3N-00957_C3N-00957	phs001287_C3N-00957
+Alive	Colon Adenocarcinoma	diagnosis	11CO018	phs001287_11CO018_11CO018	phs001287_11CO018
+Alive	Colon Adenocarcinoma	diagnosis	11CO032	phs001287_11CO032_11CO032	phs001287_11CO032
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3N-00321	phs001287_C3N-00321_C3N-00321	phs001287_C3N-00321
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-00599	phs001287_C3L-00599_C3L-00599	phs001287_C3L-00599
+Dead	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-02529	phs001287_C3N-02529_C3N-02529	phs001287_C3N-02529
+Alive	High grade serous carcinoma	diagnosis	04OV037	phs001287_04OV037_04OV037	phs001287_04OV037
+Alive	Colon Adenocarcinoma	diagnosis	15CO002	phs001287_15CO002_15CO002	phs001287_15CO002
+Dead	High grade serous carcinoma	diagnosis	04OV058	phs001287_04OV058_04OV058	phs001287_04OV058
+Dead	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-03781	phs001287_C3N-03781_C3N-03781	phs001287_C3N-03781
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-02275	phs001287_C3N-02275_C3N-02275	phs001287_C3N-02275
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3L-01925	phs001287_C3L-01925_C3L-01925	phs001287_C3L-01925
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-01836	phs001287_C3L-01836_C3L-01836	phs001287_C3L-01836
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3N-01857	phs001287_C3N-01857_C3N-01857	phs001287_C3N-01857
+Alive	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-01453	phs001287_C3L-01453_C3L-01453	phs001287_C3L-01453
+Dead	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-03008	phs001287_C3N-03008_C3N-03008	phs001287_C3N-03008
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-02089	phs001287_C3N-02089_C3N-02089	phs001287_C3N-02089
+Alive	Colon Adenocarcinoma	diagnosis	21CO006	phs001287_21CO006_21CO006	phs001287_21CO006
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3L-00946	phs001287_C3L-00946_C3L-00946	phs001287_C3L-00946
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-02170	phs001287_C3L-02170_C3L-02170	phs001287_C3L-02170
+Alive	Colon Adenocarcinoma	diagnosis	14CO005	phs001287_14CO005_14CO005	phs001287_14CO005
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3N-01510	phs001287_C3N-01510_C3N-01510	phs001287_C3N-01510
+Alive	Invasive Lobular Carcinoma	diagnosis	11BR047	phs001287_11BR047_11BR047	phs001287_11BR047
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3L-00156	phs001287_C3L-00156_C3L-00156	phs001287_C3L-00156
+Unknown	Not specified in data	diagnosis	01BR044	phs001287_01BR044_01BR044	phs001287_01BR044
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-00813	phs001287_C3L-00813_C3L-00813	phs001287_C3L-00813
+Alive	Colon Adenocarcinoma	diagnosis	09CO011	phs001287_09CO011_09CO011	phs001287_09CO011
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-01017	phs001287_C3N-01017_C3N-01017	phs001287_C3N-01017
+Dead	Kidney Clear Cell Renal Carcinoma	diagnosis	C3N-01200	phs001287_C3N-01200_C3N-01200	phs001287_C3N-01200
+Alive	Infiltrating Ductal Carcinoma	diagnosis	11BR055	phs001287_11BR055_11BR055	phs001287_11BR055
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-00306	phs001287_C3N-00306_C3N-00306	phs001287_C3N-00306
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3L-00942	phs001287_C3L-00942_C3L-00942	phs001287_C3L-00942
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3N-01524	phs001287_C3N-01524_C3N-01524	phs001287_C3N-01524
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3L-01311	phs001287_C3L-01311_C3L-01311	phs001287_C3L-01311
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3L-01744	phs001287_C3L-01744_C3L-01744	phs001287_C3L-01744
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-02968	phs001287_C3L-02968_C3L-02968	phs001287_C3L-02968
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3L-01157	phs001287_C3L-01157_C3L-01157	phs001287_C3L-01157
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-03853	phs001287_C3N-03853_C3N-03853	phs001287_C3N-03853
+Alive	Infiltrating Ductal Carcinoma	diagnosis	03BR004	phs001287_03BR004_03BR004	phs001287_03BR004
+Alive	Infiltrating Ductal Carcinoma	diagnosis	18BR009	phs001287_18BR009_18BR009	phs001287_18BR009
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-00415	phs001287_C3L-00415_C3L-00415	phs001287_C3L-00415
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3L-01312	phs001287_C3L-01312_C3L-01312	phs001287_C3L-01312
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-04473	phs001287_C3L-04473_C3L-04473	phs001287_C3L-04473
+Dead	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-00606	phs001287_C3L-00606_C3L-00606	phs001287_C3L-00606
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3L-04844	phs001287_C3L-04844_C3L-04844	phs001287_C3L-04844
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3L-02465	phs001287_C3L-02465_C3L-02465	phs001287_C3L-02465
+Dead	High grade serous carcinoma	diagnosis	17OV028	phs001287_17OV028_17OV028	phs001287_17OV028
+Alive	Infiltrating Ductal Carcinoma	diagnosis	16BR012	phs001287_16BR012_16BR012	phs001287_16BR012
+Alive	Infiltrating Ductal Carcinoma	diagnosis	11BR073	phs001287_11BR073_11BR073	phs001287_11BR073
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-02423	phs001287_C3N-02423_C3N-02423	phs001287_C3N-02423
+Alive	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-03173	phs001287_C3N-03173_C3N-03173	phs001287_C3N-03173
+Alive	Infiltrating Ductal Carcinoma	diagnosis	11BR014	phs001287_11BR014_11BR014	phs001287_11BR014
+Alive	Infiltrating Ductal Carcinoma	diagnosis	11BR075	phs001287_11BR075_11BR075	phs001287_11BR075
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-01165	phs001287_C3N-01165_C3N-01165	phs001287_C3N-01165
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-01411	phs001287_C3N-01411_C3N-01411	phs001287_C3N-01411
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3N-01851	phs001287_C3N-01851_C3N-01851	phs001287_C3N-01851
+Alive	Colon Adenocarcinoma	diagnosis	27CO004	phs001287_27CO004_27CO004	phs001287_27CO004
+Unknown	Not specified in data	diagnosis	01BR043	phs001287_01BR043_01BR043	phs001287_01BR043
+Dead	Head & Neck Squamous Cell Carcinoma	diagnosis	C3L-00995	phs001287_C3L-00995_C3L-00995	phs001287_C3L-00995
+Alive	Invasive Lobular Carcinoma	diagnosis	11BR013	phs001287_11BR013_11BR013	phs001287_11BR013
+Dead	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-00913	phs001287_C3L-00913_C3L-00913	phs001287_C3L-00913
+Alive	Infiltrating Ductal Carcinoma	diagnosis	11BR024	phs001287_11BR024_11BR024	phs001287_11BR024
+Alive	Colon Adenocarcinoma	diagnosis	11CO036	phs001287_11CO036_11CO036	phs001287_11CO036
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-01488	phs001287_C3N-01488_C3N-01488	phs001287_C3N-01488
+Alive	Colon Adenocarcinoma	diagnosis	05CO054	phs001287_05CO054_05CO054	phs001287_05CO054
+Dead	Endometrioid Carcinoma, NOS	diagnosis	C3N-01349	phs001287_C3N-01349_C3N-01349	phs001287_C3N-01349
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-02116	phs001287_C3L-02116_C3L-02116	phs001287_C3L-02116
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3L-02621	phs001287_C3L-02621_C3L-02621	phs001287_C3L-02621
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3L-01146	phs001287_C3L-01146_C3L-01146	phs001287_C3L-01146
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-02285	phs001287_C3N-02285_C3N-02285	phs001287_C3N-02285
+Alive	High grade serous carcinoma	diagnosis	02OV029	phs001287_02OV029_02OV029	phs001287_02OV029
+Alive	Infiltrating Ductal Carcinoma	diagnosis	05BR003	phs001287_05BR003_05BR003	phs001287_05BR003
+Dead	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-01758	phs001287_C3N-01758_C3N-01758	phs001287_C3N-01758
+Alive	Infiltrating Ductal Carcinoma	diagnosis	18BR002	phs001287_18BR002_18BR002	phs001287_18BR002
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3L-00987	phs001287_C3L-00987_C3L-00987	phs001287_C3L-00987
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-02610	phs001287_C3L-02610_C3L-02610	phs001287_C3L-02610
+Alive	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-01012	phs001287_C3N-01012_C3N-01012	phs001287_C3N-01012
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-00846	phs001287_C3N-00846_C3N-00846	phs001287_C3N-00846
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-03961	phs001287_C3L-03961_C3L-03961	phs001287_C3L-03961
+Alive	Colon Adenocarcinoma	diagnosis	05CO048	phs001287_05CO048_05CO048	phs001287_05CO048
+Alive	High grade serous carcinoma	diagnosis	01OV007	phs001287_01OV007_01OV007	phs001287_01OV007
+Alive	Colon Adenocarcinoma	diagnosis	11CO022	phs001287_11CO022_11CO022	phs001287_11CO022
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-00791	phs001287_C3L-00791_C3L-00791	phs001287_C3L-00791
+Dead	Kidney Clear Cell Renal Carcinoma	diagnosis	C3N-00437	phs001287_C3N-00437_C3N-00437	phs001287_C3N-00437
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-04276	phs001287_C3N-04276_C3N-04276	phs001287_C3N-04276
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-02284	phs001287_C3N-02284_C3N-02284	phs001287_C3N-02284
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3L-02651	phs001287_C3L-02651_C3L-02651	phs001287_C3L-02651
+Alive	Infiltrating Ductal Carcinoma	diagnosis	01BR017	phs001287_01BR017_01BR017	phs001287_01BR017
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-03743	phs001287_C3L-03743_C3L-03743	phs001287_C3L-03743
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-03635	phs001287_C3L-03635_C3L-03635	phs001287_C3L-03635
+Alive	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-03665	phs001287_C3N-03665_C3N-03665	phs001287_C3N-03665
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-01020	phs001287_C3N-01020_C3N-01020	phs001287_C3N-01020
+Alive	Colon Adenocarcinoma	diagnosis	11CO053	phs001287_11CO053_11CO053	phs001287_11CO053
+Dead	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-02087	phs001287_C3N-02087_C3N-02087	phs001287_C3N-02087
+Alive	Infiltrating Ductal Carcinoma	diagnosis	15BR003	phs001287_15BR003_15BR003	phs001287_15BR003
+Alive	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-03670	phs001287_C3N-03670_C3N-03670	phs001287_C3N-03670
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3N-00246	phs001287_C3N-00246_C3N-00246	phs001287_C3N-00246
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3L-01257	phs001287_C3L-01257_C3L-01257	phs001287_C3L-01257
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3L-00136	phs001287_C3L-00136_C3L-00136	phs001287_C3L-00136
+Alive	Colon Adenocarcinoma	diagnosis	11CO077	phs001287_11CO077_11CO077	phs001287_11CO077
+Unknown	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	11LU013	phs001287_11LU013_11LU013	phs001287_11LU013
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-00511	phs001287_C3N-00511_C3N-00511	phs001287_C3N-00511
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-03837	phs001287_C3N-03837_C3N-03837	phs001287_C3N-03837
+Alive	Invasive Lobular Carcinoma	diagnosis	14BR008	phs001287_14BR008_14BR008	phs001287_14BR008
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3N-00322	phs001287_C3N-00322_C3N-00322	phs001287_C3N-00322
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3L-03748	phs001287_C3L-03748_C3L-03748	phs001287_C3L-03748
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3N-02769	phs001287_C3N-02769_C3N-02769	phs001287_C3N-02769
+Alive	Infiltrating Ductal Carcinoma	diagnosis	11BR028	phs001287_11BR028_11BR028	phs001287_11BR028
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3N-01808	phs001287_C3N-01808_C3N-01808	phs001287_C3N-01808
+Dead	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-01302	phs001287_C3L-01302_C3L-01302	phs001287_C3L-01302
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3L-00605	phs001287_C3L-00605_C3L-00605	phs001287_C3L-00605
+Alive	Colon Adenocarcinoma	diagnosis	01CO015	phs001287_01CO015_01CO015	phs001287_01CO015
+Dead	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-01287	phs001287_C3L-01287_C3L-01287	phs001287_C3L-01287
+Alive	Colon Adenocarcinoma	diagnosis	11CO043	phs001287_11CO043_11CO043	phs001287_11CO043
+Alive	High grade serous carcinoma	diagnosis	26OV013	phs001287_26OV013_26OV013	phs001287_26OV013
+Dead	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-00175	phs001287_C3N-00175_C3N-00175	phs001287_C3N-00175
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-02421	phs001287_C3N-02421_C3N-02421	phs001287_C3N-02421
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-00560	phs001287_C3N-00560_C3N-00560	phs001287_C3N-00560
+Alive	High grade serous carcinoma	diagnosis	14OV011	phs001287_14OV011_14OV011	phs001287_14OV011
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-03488	phs001287_C3N-03488_C3N-03488	phs001287_C3N-03488
+Alive	Glioblastoma Multiforme (GBM)	diagnosis	C3N-02185	phs001287_C3N-02185_C3N-02185	phs001287_C3N-02185
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-01799	phs001287_C3N-01799_C3N-01799	phs001287_C3N-01799
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3L-00780	phs001287_C3L-00780_C3L-00780	phs001287_C3L-00780
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-00498	phs001287_C3N-00498_C3N-00498	phs001287_C3N-00498
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-03013	phs001287_C3N-03013_C3N-03013	phs001287_C3N-03013
+Dead	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-00081	phs001287_C3L-00081_C3L-00081	phs001287_C3L-00081
+Alive	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-00640	phs001287_C3L-00640_C3L-00640	phs001287_C3L-00640
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-02333	phs001287_C3N-02333_C3N-02333	phs001287_C3N-02333
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3N-01361	phs001287_C3N-01361_C3N-01361	phs001287_C3N-01361
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3N-01856	phs001287_C3N-01856_C3N-01856	phs001287_C3N-01856
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3L-02642	phs001287_C3L-02642_C3L-02642	phs001287_C3L-02642
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-00497	phs001287_C3N-00497_C3N-00497	phs001287_C3N-00497
+Dead	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-02660	phs001287_C3L-02660_C3L-02660	phs001287_C3L-02660
+Unknown	High grade serous carcinoma	diagnosis	11OV002	phs001287_11OV002_11OV002	phs001287_11OV002
+Unknown	Not specified in data	diagnosis	03BR006	phs001287_03BR006_03BR006	phs001287_03BR006
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3N-00320	phs001287_C3N-00320_C3N-00320	phs001287_C3N-00320
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3N-00729	phs001287_C3N-00729_C3N-00729	phs001287_C3N-00729
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-00928	phs001287_C3L-00928_C3L-00928	phs001287_C3L-00928
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-02067	phs001287_C3N-02067_C3N-02067	phs001287_C3N-02067
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-01755	phs001287_C3N-01755_C3N-01755	phs001287_C3N-01755
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-03388	phs001287_C3L-03388_C3L-03388	phs001287_C3L-03388
+Dead	Colon Adenocarcinoma	diagnosis	05CO039	phs001287_05CO039_05CO039	phs001287_05CO039
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-00550	phs001287_C3N-00550_C3N-00550	phs001287_C3N-00550
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-00294	phs001287_C3N-00294_C3N-00294	phs001287_C3N-00294
+Alive	Infiltrating Ductal Carcinoma	diagnosis	11BR044	phs001287_11BR044_11BR044	phs001287_11BR044
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3N-01219	phs001287_C3N-01219_C3N-01219	phs001287_C3N-01219
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3L-03727	phs001287_C3L-03727_C3L-03727	phs001287_C3L-03727
+Dead	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-02426	phs001287_C3N-02426_C3N-02426	phs001287_C3N-02426
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-04848	phs001287_C3L-04848_C3L-04848	phs001287_C3L-04848
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3N-02255	phs001287_C3N-02255_C3N-02255	phs001287_C3N-02255
+Dead	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-00307	phs001287_C3N-00307_C3N-00307	phs001287_C3N-00307
+Alive	High grade serous carcinoma	diagnosis	17OV001	phs001287_17OV001_17OV001	phs001287_17OV001
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-00418	phs001287_C3L-00418_C3L-00418	phs001287_C3L-00418
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-00551	phs001287_C3N-00551_C3N-00551	phs001287_C3N-00551
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-02998	phs001287_C3N-02998_C3N-02998	phs001287_C3N-02998
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-00223	phs001287_C3N-00223_C3N-00223	phs001287_C3N-00223
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3N-00305	phs001287_C3N-00305_C3N-00305	phs001287_C3N-00305
+Alive	Infiltrating Ductal Carcinoma	diagnosis	18BR003	phs001287_18BR003_18BR003	phs001287_18BR003
+Alive	Infiltrating Ductal Carcinoma	diagnosis	05BR029	phs001287_05BR029_05BR029	phs001287_05BR029
+Alive	Colon Adenocarcinoma	diagnosis	05CO003	phs001287_05CO003_05CO003	phs001287_05CO003
+Unknown	Not specified in data	diagnosis	01BR020	phs001287_01BR020_01BR020	phs001287_01BR020
+Alive	Infiltrating Ductal Carcinoma	diagnosis	11BR060	phs001287_11BR060_11BR060	phs001287_11BR060
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3L-02708	phs001287_C3L-02708_C3L-02708	phs001287_C3L-02708
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-03889	phs001287_C3N-03889_C3N-03889	phs001287_C3N-03889
+Unknown	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-03039	phs001287_C3N-03039_C3N-03039	phs001287_C3N-03039
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-02002	phs001287_C3N-02002_C3N-02002	phs001287_C3N-02002
+Dead	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-02695	phs001287_C3N-02695_C3N-02695	phs001287_C3N-02695
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3N-01179	phs001287_C3N-01179_C3N-01179	phs001287_C3N-01179
+Dead	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-00009	phs001287_C3L-00009_C3L-00009	phs001287_C3L-00009
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3N-00244	phs001287_C3N-00244_C3N-00244	phs001287_C3N-00244
+Dead	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-00299	phs001287_C3N-00299_C3N-00299	phs001287_C3N-00299
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3N-00315	phs001287_C3N-00315_C3N-00315	phs001287_C3N-00315
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-01997	phs001287_C3N-01997_C3N-01997	phs001287_C3N-01997
+Alive	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-03840	phs001287_C3N-03840_C3N-03840	phs001287_C3N-03840
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-00297	phs001287_C3N-00297_C3N-00297	phs001287_C3N-00297
+Dead	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-00519	phs001287_C3N-00519_C3N-00519	phs001287_C3N-00519
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-01025	phs001287_C3N-01025_C3N-01025	phs001287_C3N-01025
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-03028	phs001287_C3N-03028_C3N-03028	phs001287_C3N-03028
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3N-01214	phs001287_C3N-01214_C3N-01214	phs001287_C3N-01214
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-02145	phs001287_C3N-02145_C3N-02145	phs001287_C3N-02145
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-04127	phs001287_C3N-04127_C3N-04127	phs001287_C3N-04127
+Alive	Colon Adenocarcinoma	diagnosis	16CO006	phs001287_16CO006_16CO006	phs001287_16CO006
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-00293	phs001287_C3N-00293_C3N-00293	phs001287_C3N-00293
+Dead	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-03012	phs001287_C3N-03012_C3N-03012	phs001287_C3N-03012
+Dead	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-01340	phs001287_C3N-01340_C3N-01340	phs001287_C3N-01340
+Alive	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-01011	phs001287_C3N-01011_C3N-01011	phs001287_C3N-01011
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-02358	phs001287_C3L-02358_C3L-02358	phs001287_C3L-02358
+Alive	Infiltrating Ductal Carcinoma	diagnosis	14BR014	phs001287_14BR014_14BR014	phs001287_14BR014
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-02003	phs001287_C3N-02003_C3N-02003	phs001287_C3N-02003
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-00080	phs001287_C3L-00080_C3L-00080	phs001287_C3L-00080
+Unknown	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-02523	phs001287_C3N-02523_C3N-02523	phs001287_C3N-02523
+Alive	Adenocarcinoma	diagnosis	22BR005	phs001287_22BR005_22BR005	phs001287_22BR005
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-04126	phs001287_C3N-04126_C3N-04126	phs001287_C3N-04126
+Alive	Colon Adenocarcinoma	diagnosis	06CO001	phs001287_06CO001_06CO001	phs001287_06CO001
+Alive	High grade serous carcinoma	diagnosis	04OV013	phs001287_04OV013_04OV013	phs001287_04OV013
+Alive	High grade serous carcinoma	diagnosis	17OV013	phs001287_17OV013_17OV013	phs001287_17OV013
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-00221	phs001287_C3N-00221_C3N-00221	phs001287_C3N-00221
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3N-01346	phs001287_C3N-01346_C3N-01346	phs001287_C3N-01346
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3N-00386	phs001287_C3N-00386_C3N-00386	phs001287_C3N-00386
+Alive	Glioblastoma Multiforme (GBM)	diagnosis	C3N-02783	phs001287_C3N-02783_C3N-02783	phs001287_C3N-02783
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-00010	phs001287_C3L-00010_C3L-00010	phs001287_C3L-00010
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3N-01212	phs001287_C3N-01212_C3N-01212	phs001287_C3N-01212
+Alive	Colon Adenocarcinoma	diagnosis	05CO032	phs001287_05CO032_05CO032	phs001287_05CO032
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-02348	phs001287_C3L-02348_C3L-02348	phs001287_C3L-02348
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-00169	phs001287_C3N-00169_C3N-00169	phs001287_C3N-00169
+Alive	Infiltrating Ductal Carcinoma	diagnosis	11BR022	phs001287_11BR022_11BR022	phs001287_11BR022
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-00917	phs001287_C3L-00917_C3L-00917	phs001287_C3L-00917
+Alive	Infiltrating Ductal Carcinoma	diagnosis	01BR001	phs001287_01BR001_01BR001	phs001287_01BR001
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3N-00577	phs001287_C3N-00577_C3N-00577	phs001287_C3N-00577
+Alive	Adenocarcinoma, Not Otherwise Specified	diagnosis	C3N-00832	phs001287_C3N-00832_C3N-00832	phs001287_C3N-00832
+Alive	Colon Adenocarcinoma	diagnosis	05CO033	phs001287_05CO033_05CO033	phs001287_05CO033
+Alive	Infiltrating Ductal Carcinoma	diagnosis	18BR019	phs001287_18BR019_18BR019	phs001287_18BR019
+Alive	Infiltrating Ductal Carcinoma	diagnosis	20BR007	phs001287_20BR007_20BR007	phs001287_20BR007
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-00610	phs001287_C3L-00610_C3L-00610	phs001287_C3L-00610
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-01861	phs001287_C3L-01861_C3L-01861	phs001287_C3L-01861
+Alive	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-03630	phs001287_C3L-03630_C3L-03630	phs001287_C3L-03630
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3L-01248	phs001287_C3L-01248_C3L-01248	phs001287_C3L-01248
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-01598	phs001287_C3L-01598_C3L-01598	phs001287_C3L-01598
+Alive	Glioblastoma Multiforme (GBM)	diagnosis	C3L-03744	phs001287_C3L-03744_C3L-03744	phs001287_C3L-03744
+Alive	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-02573	phs001287_C3N-02573_C3N-02573	phs001287_C3N-02573
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-04071	phs001287_C3L-04071_C3L-04071	phs001287_C3L-04071
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3N-01211	phs001287_C3N-01211_C3N-01211	phs001287_C3N-01211
+Alive	High grade serous carcinoma	diagnosis	01OV023	phs001287_01OV023_01OV023	phs001287_01OV023
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-03620	phs001287_C3N-03620_C3N-03620	phs001287_C3N-03620
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-00907	phs001287_C3L-00907_C3L-00907	phs001287_C3L-00907
+Dead	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-01846	phs001287_C3N-01846_C3N-01846	phs001287_C3N-01846
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3N-01649	phs001287_C3N-01649_C3N-01649	phs001287_C3N-01649
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-01998	phs001287_C3N-01998_C3N-01998	phs001287_C3N-01998
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-01948	phs001287_C3N-01948_C3N-01948	phs001287_C3N-01948
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3L-01049	phs001287_C3L-01049_C3L-01049	phs001287_C3L-01049
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3L-03728	phs001287_C3L-03728_C3L-03728	phs001287_C3L-03728
+Alive	Invasive Carcinoma With Ductal And Lobular Features	diagnosis	11BR019	phs001287_11BR019_11BR019	phs001287_11BR019
+Alive	High grade serous carcinoma	diagnosis	04OV024	phs001287_04OV024_04OV024	phs001287_04OV024
+Alive	Infiltrating Ductal Carcinoma	diagnosis	11BR012	phs001287_11BR012_11BR012	phs001287_11BR012
+Alive	Colon Adenocarcinoma	diagnosis	05CO044	phs001287_05CO044_05CO044	phs001287_05CO044
+Alive	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-03086	phs001287_C3N-03086_C3N-03086	phs001287_C3N-03086
+Dead	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-03783	phs001287_C3N-03783_C3N-03783	phs001287_C3N-03783
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3N-01818	phs001287_C3N-01818_C3N-01818	phs001287_C3N-01818
+Dead	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-02219	phs001287_C3L-02219_C3L-02219	phs001287_C3L-02219
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3N-03088	phs001287_C3N-03088_C3N-03088	phs001287_C3N-03088
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-03487	phs001287_C3N-03487_C3N-03487	phs001287_C3N-03487
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3N-00333	phs001287_C3N-00333_C3N-00333	phs001287_C3N-00333
+Alive	Glioblastoma Multiforme (GBM)	diagnosis	C3L-01040	phs001287_C3L-01040_C3L-01040	phs001287_C3L-01040
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-00512	phs001287_C3N-00512_C3N-00512	phs001287_C3N-00512
+Alive	Colon Adenocarcinoma	diagnosis	11CO020	phs001287_11CO020_11CO020	phs001287_11CO020
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-00625	phs001287_C3L-00625_C3L-00625	phs001287_C3L-00625
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-04152	phs001287_C3N-04152_C3N-04152	phs001287_C3N-04152
+Alive	Infiltrating Ductal Carcinoma	diagnosis	11BR016	phs001287_11BR016_11BR016	phs001287_11BR016
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3L-00999	phs001287_C3L-00999_C3L-00999	phs001287_C3L-00999
+Alive	Infiltrating Ductal Carcinoma	diagnosis	11BR054	phs001287_11BR054_11BR054	phs001287_11BR054
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-03072	phs001287_C3N-03072_C3N-03072	phs001287_C3N-03072
+Dead	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-00369	phs001287_C3L-00369_C3L-00369	phs001287_C3L-00369
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3N-03473	phs001287_C3N-03473_C3N-03473	phs001287_C3N-03473
+Dead	Endometrioid Carcinoma, NOS	diagnosis	C3L-00771	phs001287_C3L-00771_C3L-00771	phs001287_C3L-00771
+Dead	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-02582	phs001287_C3N-02582_C3N-02582	phs001287_C3N-02582
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3L-02542	phs001287_C3L-02542_C3L-02542	phs001287_C3L-02542
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-01560	phs001287_C3L-01560_C3L-01560	phs001287_C3L-01560
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3N-03186	phs001287_C3N-03186_C3N-03186	phs001287_C3N-03186
+Unknown	Not specified in data	diagnosis	01BR023	phs001287_01BR023_01BR023	phs001287_01BR023
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-03933	phs001287_C3N-03933_C3N-03933	phs001287_C3N-03933
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-01380	phs001287_C3N-01380_C3N-01380	phs001287_C3N-01380
+Alive	High grade serous carcinoma	diagnosis	04OV053	phs001287_04OV053_04OV053	phs001287_04OV053
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3N-00390	phs001287_C3N-00390_C3N-00390	phs001287_C3N-00390
+Alive	Colon Adenocarcinoma	diagnosis	22CO004	phs001287_22CO004_22CO004	phs001287_22CO004
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-00583	phs001287_C3L-00583_C3L-00583	phs001287_C3L-00583
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-00552	phs001287_C3N-00552_C3N-00552	phs001287_C3N-00552
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3N-00858	phs001287_C3N-00858_C3N-00858	phs001287_C3N-00858
+Unknown	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-03045	phs001287_C3N-03045_C3N-03045	phs001287_C3N-03045
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-00574	phs001287_C3N-00574_C3N-00574	phs001287_C3N-00574
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-03628	phs001287_C3L-03628_C3L-03628	phs001287_C3L-03628
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-03882	phs001287_C3N-03882_C3N-03882	phs001287_C3N-03882
+Alive	High grade serous carcinoma	diagnosis	04OV008	phs001287_04OV008_04OV008	phs001287_04OV008
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3L-01282	phs001287_C3L-01282_C3L-01282	phs001287_C3L-01282
+Alive	High grade serous carcinoma	diagnosis	02OV015	phs001287_02OV015_02OV015	phs001287_02OV015
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3L-00145	phs001287_C3L-00145_C3L-00145	phs001287_C3L-00145
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-03851	phs001287_C3N-03851_C3N-03851	phs001287_C3N-03851
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-04013	phs001287_C3L-04013_C3L-04013	phs001287_C3L-04013
+Alive	Colon Adenocarcinoma	diagnosis	05CO028	phs001287_05CO028_05CO028	phs001287_05CO028
+Dead	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-00412	phs001287_C3L-00412_C3L-00412	phs001287_C3L-00412
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3N-00177	phs001287_C3N-00177_C3N-00177	phs001287_C3N-00177
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-01714	phs001287_C3N-01714_C3N-01714	phs001287_C3N-01714
+Dead	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-01313	phs001287_C3L-01313_C3L-01313	phs001287_C3L-01313
+Alive	Infiltrating Ductal Carcinoma	diagnosis	11BR053	phs001287_11BR053_11BR053	phs001287_11BR053
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-00603	phs001287_C3L-00603_C3L-00603	phs001287_C3L-00603
+Dead	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-01823	phs001287_C3N-01823_C3N-01823	phs001287_C3N-01823
+Unknown	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-00709	phs001287_C3N-00709_C3N-00709	phs001287_C3N-00709
+Alive	Colon Adenocarcinoma	diagnosis	11CO054	phs001287_11CO054_11CO054	phs001287_11CO054
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-01416	phs001287_C3N-01416_C3N-01416	phs001287_C3N-01416
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-02963	phs001287_C3L-02963_C3L-02963	phs001287_C3L-02963
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-01375	phs001287_C3N-01375_C3N-01375	phs001287_C3N-01375
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-00812	phs001287_C3L-00812_C3L-00812	phs001287_C3L-00812
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3N-00154	phs001287_C3N-00154_C3N-00154	phs001287_C3N-00154
+Unknown	Not specified in data	diagnosis	21BR002	phs001287_21BR002_21BR002	phs001287_21BR002
+Alive	Infiltrating Ductal Carcinoma	diagnosis	06BR006	phs001287_06BR006_06BR006	phs001287_06BR006
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-04283	phs001287_C3N-04283_C3N-04283	phs001287_C3N-04283
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3L-00769	phs001287_C3L-00769_C3L-00769	phs001287_C3L-00769
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-00546	phs001287_C3N-00546_C3N-00546	phs001287_C3N-00546
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-01383	phs001287_C3N-01383_C3N-01383	phs001287_C3N-01383
+Alive	Colon Adenocarcinoma	diagnosis	11CO048	phs001287_11CO048_11CO048	phs001287_11CO048
+Dead	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-01752	phs001287_C3N-01752_C3N-01752	phs001287_C3N-01752
+Alive	High grade serous carcinoma	diagnosis	26OV009	phs001287_26OV009_26OV009	phs001287_26OV009
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-02693	phs001287_C3N-02693_C3N-02693	phs001287_C3N-02693
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-02613	phs001287_C3L-02613_C3L-02613	phs001287_C3L-02613
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-02380	phs001287_C3N-02380_C3N-02380	phs001287_C3N-02380
+Alive	Infiltrating Ductal Carcinoma	diagnosis	11BR040	phs001287_11BR040_11BR040	phs001287_11BR040
+Alive	High grade serous carcinoma	diagnosis	13OV003	phs001287_13OV003_13OV003	phs001287_13OV003
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3L-01256	phs001287_C3L-01256_C3L-01256	phs001287_C3L-01256
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-00295	phs001287_C3N-00295_C3N-00295	phs001287_C3N-00295
+Alive	Infiltrating Ductal Carcinoma	diagnosis	11BR027	phs001287_11BR027_11BR027	phs001287_11BR027
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-01054	phs001287_C3L-01054_C3L-01054	phs001287_C3L-01054
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-00579	phs001287_C3N-00579_C3N-00579	phs001287_C3N-00579
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-02339	phs001287_C3N-02339_C3N-02339	phs001287_C3N-02339
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3N-03180	phs001287_C3N-03180_C3N-03180	phs001287_C3N-03180
+Alive	High grade serous carcinoma	diagnosis	17OV010	phs001287_17OV010_17OV010	phs001287_17OV010
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-00026	phs001287_C3L-00026_C3L-00026	phs001287_C3L-00026
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3L-03260	phs001287_C3L-03260_C3L-03260	phs001287_C3L-03260
+Dead	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-03011	phs001287_C3N-03011_C3N-03011	phs001287_C3N-03011
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-04162	phs001287_C3N-04162_C3N-04162	phs001287_C3N-04162
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3L-00365	phs001287_C3L-00365_C3L-00365	phs001287_C3L-00365
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3L-01036	phs001287_C3L-01036_C3L-01036	phs001287_C3L-01036
+Alive	Not specified in data	diagnosis	06BR014	phs001287_06BR014_06BR014	phs001287_06BR014
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3L-00947	phs001287_C3L-00947_C3L-00947	phs001287_C3L-00947
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-01405	phs001287_C3N-01405_C3N-01405	phs001287_C3N-01405
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3L-03378	phs001287_C3L-03378_C3L-03378	phs001287_C3L-03378
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-03666	phs001287_C3N-03666_C3N-03666	phs001287_C3N-03666
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-01024	phs001287_C3N-01024_C3N-01024	phs001287_C3N-01024
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-04124	phs001287_C3N-04124_C3N-04124	phs001287_C3N-04124
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3N-02785	phs001287_C3N-02785_C3N-02785	phs001287_C3N-02785
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-02727	phs001287_C3N-02727_C3N-02727	phs001287_C3N-02727
+Alive	Invasive Lobular Carcinoma	diagnosis	03BR005	phs001287_03BR005_03BR005	phs001287_03BR005
+Dead	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-00518	phs001287_C3N-00518_C3N-00518	phs001287_C3N-00518
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3L-02900	phs001287_C3L-02900_C3L-02900	phs001287_C3L-02900
+Dead	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-01862	phs001287_C3L-01862_C3L-01862	phs001287_C3L-01862
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-02587	phs001287_C3N-02587_C3N-02587	phs001287_C3N-02587
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3L-01156	phs001287_C3L-01156_C3L-01156	phs001287_C3L-01156
+Alive	High grade serous carcinoma	diagnosis	17OV015	phs001287_17OV015_17OV015	phs001287_17OV015
+Dead	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-00993	phs001287_C3L-00993_C3L-00993	phs001287_C3L-00993
+Unknown	Infiltrating Ductal Carcinoma	diagnosis	09BR004	phs001287_09BR004_09BR004	phs001287_09BR004
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3L-00143	phs001287_C3L-00143_C3L-00143	phs001287_C3L-00143
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3N-00852	phs001287_C3N-00852_C3N-00852	phs001287_C3N-00852
+Alive	Colon Adenocarcinoma	diagnosis	09CO015	phs001287_09CO015_09CO015	phs001287_09CO015
+Alive	Adenocarcinoma, Not Otherwise Specified	diagnosis	C3N-00492	phs001287_C3N-00492_C3N-00492	phs001287_C3N-00492
+Alive	High grade serous carcinoma	diagnosis	02OV008	phs001287_02OV008_02OV008	phs001287_02OV008
+Alive	High grade serous carcinoma	diagnosis	04OV031	phs001287_04OV031_04OV031	phs001287_04OV031
+Dead	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-01632	phs001287_C3L-01632_C3L-01632	phs001287_C3L-01632
+Dead	Endometrioid Carcinoma, NOS	diagnosis	C3L-01307	phs001287_C3L-01307_C3L-01307	phs001287_C3L-01307
+Alive	High grade serous carcinoma	diagnosis	02OV046	phs001287_02OV046_02OV046	phs001287_02OV046
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3N-00379	phs001287_C3N-00379_C3N-00379	phs001287_C3N-00379
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-00547	phs001287_C3N-00547_C3N-00547	phs001287_C3N-00547
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-02730	phs001287_C3N-02730_C3N-02730	phs001287_C3N-02730
+Alive	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-02951	phs001287_C3L-02951_C3L-02951	phs001287_C3L-02951
+Alive	High grade serous carcinoma	diagnosis	02OV006	phs001287_02OV006_02OV006	phs001287_02OV006
+Alive	Infiltrating Ductal Carcinoma	diagnosis	11BR020	phs001287_11BR020_11BR020	phs001287_11BR020
+Alive	Head & Neck Squamous Cell Carcinoma	diagnosis	C3N-03849	phs001287_C3N-03849_C3N-03849	phs001287_C3N-03849
+Alive	Infiltrating Ductal Carcinoma	diagnosis	05BR016	phs001287_05BR016_05BR016	phs001287_05BR016
+Alive	Colon Adenocarcinoma	diagnosis	01CO019	phs001287_01CO019_01CO019	phs001287_01CO019
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3L-01288	phs001287_C3L-01288_C3L-01288	phs001287_C3L-01288
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3N-01802	phs001287_C3N-01802_C3N-01802	phs001287_C3N-01802
+Alive	Kidney Clear Cell Renal Carcinoma	diagnosis	C3N-00646	phs001287_C3N-00646_C3N-00646	phs001287_C3N-00646
+Alive	Infiltrating Ductal Carcinoma	diagnosis	11BR043	phs001287_11BR043_11BR043	phs001287_11BR043
+Alive	High grade serous carcinoma	diagnosis	04OV051	phs001287_04OV051_04OV051	phs001287_04OV051
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-01030	phs001287_C3N-01030_C3N-01030	phs001287_C3N-01030
+Alive	Infiltrating Ductal Carcinoma	diagnosis	06BR003	phs001287_06BR003_06BR003	phs001287_06BR003
+Alive	Invasive Lobular Carcinoma	diagnosis	03BR010	phs001287_03BR010_03BR010	phs001287_03BR010
+Alive	High grade serous carcinoma	diagnosis	01OV017	phs001287_01OV017_01OV017	phs001287_01OV017
+Alive	High grade serous carcinoma	diagnosis	04OV050	phs001287_04OV050_04OV050	phs001287_04OV050
+Alive	Colon Adenocarcinoma	diagnosis	05CO037	phs001287_05CO037_05CO037	phs001287_05CO037
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3N-00836	phs001287_C3N-00836_C3N-00836	phs001287_C3N-00836
+Alive	Colon Adenocarcinoma	diagnosis	01CO006	phs001287_01CO006_01CO006	phs001287_01CO006
+Dead	Glioblastoma Multiforme (GBM)	diagnosis	C3N-01192	phs001287_C3N-01192_C3N-01192	phs001287_C3N-01192
+Alive	Colon Adenocarcinoma	diagnosis	05CO002	phs001287_05CO002_05CO002	phs001287_05CO002
+Unknown	Lung Squamous Cell Carcinoma- Not Otherwise Specified (NOS)	diagnosis	C3N-02494	phs001287_C3N-02494_C3N-02494	phs001287_C3N-02494
+Alive	Pancreas-Adenocarcinoma Ductal Type	diagnosis	C3N-01502	phs001287_C3N-01502_C3N-01502	phs001287_C3N-01502
+Alive	High grade serous carcinoma	diagnosis	17OV030	phs001287_17OV030_17OV030	phs001287_17OV030
+Alive	Endometrioid Carcinoma, NOS	diagnosis	C3N-00328	phs001287_C3N-00328_C3N-00328	phs001287_C3N-00328
+Alive	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-00893	phs001287_C3L-00893_C3L-00893	phs001287_C3L-00893
+Dead	Lung Adenocarcinoma- Not Otherwise Specified (NOS)	diagnosis	C3L-01683	phs001287_C3L-01683_C3L-01683	phs001287_C3L-01683
+Alive	High grade serous carcinoma	diagnosis	01OV039	phs001287_01OV039_01OV039	phs001287_01OV039

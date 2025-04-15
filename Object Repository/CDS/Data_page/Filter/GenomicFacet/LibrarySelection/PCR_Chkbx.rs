@@ -6,20 +6,22 @@
    <elementGuidId>7e552a60-c243-42ac-a23b-6b21cde05561</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_library selection_PCR&quot;]</value>
-      <webElementGuid>dbc9ddbd-ae84-42c2-bdc4-7ae1f635a70e</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Library Selection_PCR&quot;]</value>
+      <webElementGuid>159e36c9-9905-47d6-9c1a-c887aa450215</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
