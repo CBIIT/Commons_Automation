@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC14_CDS_phs002293_PrimDiag_ClearCellCarcinoma</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>73c0a543-7c47-4507-bc6f-51562ae1f4bb</testCaseGuid>
+</TestCaseEntity>

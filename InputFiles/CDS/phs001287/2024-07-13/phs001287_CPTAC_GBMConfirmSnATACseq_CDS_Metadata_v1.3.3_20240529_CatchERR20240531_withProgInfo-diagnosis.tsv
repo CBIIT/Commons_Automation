@@ -1,0 +1,11 @@
+primary_diagnosis	type	diagnosis_id	study_diagnosis_id	participant.study_participant_id
+Glioblastoma, IDH Wildtype	diagnosis	C229764	phs001287_C229764_C229764	phs001287_C229764
+Glioblastoma, IDH Wildtype	diagnosis	C247230	phs001287_C247230_C247230	phs001287_C247230
+Anaplastic astrocytoma, IDH-wildtype, Glioblastoma, IDH wildtype	diagnosis	C760878	phs001287_C760878_C760878	phs001287_C760878
+Glioblastoma, IDH Wildtype	diagnosis	C204057	phs001287_C204057_C204057	phs001287_C204057
+Glioblastoma, IDH Wildtype	diagnosis	C2415597	phs001287_C2415597_C2415597	phs001287_C2415597
+Glioblastoma, IDH Wildtype	diagnosis	C207624	phs001287_C207624_C207624	phs001287_C207624
+Glioblastoma, IDH Wildtype	diagnosis	C287328	phs001287_C287328_C287328	phs001287_C287328
+Glioblastoma, IDH Wildtype	diagnosis	C761370	phs001287_C761370_C761370	phs001287_C761370
+Glioblastoma, IDH Wildtype	diagnosis	C1245129	phs001287_C1245129_C1245129	phs001287_C1245129
+Glioblastoma, IDH Wildtype	diagnosis	C1230738	phs001287_C1230738_C1230738	phs001287_C1230738
