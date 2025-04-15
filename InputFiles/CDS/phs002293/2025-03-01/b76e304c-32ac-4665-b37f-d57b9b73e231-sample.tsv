@@ -1,0 +1,482 @@
+type	sample_id	participant.study_participant_id	derived_from_specimen	sample_anatomic_site	sample_description	sample_type	sample_tumor_status	crdc_id	sample_age_at_collection	sample_type_category	biosample_accession
+sample	MP2PRT-GAAACV-NB1-A-1-0-D-A83Y-48	phs002293_GAAACV		Peripheral blood	Blood Derived Normal	DNA	Normal	fdee72c2-95cc-48d0-819c-efac3287404e			
+sample	MP2PRT-GAAACV-TTP1-A-1-0-D-A83Y-48	phs002293_GAAACV		Cervix	Primary Tumor	DNA	Tumor	e5c8bd7b-27f5-4d4b-8134-053e5b6a357a			
+sample	MP2PRT-GAAACV-TTP1-A-1-0-R-A83Z-41	phs002293_GAAACV		Cervix	Primary Tumor	RNA	Tumor	5ee1135d-3279-486b-b1a2-06141896c090			
+sample	MP2PRT-GAAAMM-NB1-A-1-0-D-A87Z-48	phs002293_GAAAMM		Peripheral blood	Blood Derived Normal	DNA	Normal	9161eae8-6091-4284-ab5b-efab714507ae			
+sample	MP2PRT-GAAAMM-TTR1-A-1-0-D-A87Z-48	phs002293_GAAAMM		Cervix	Recurrent Tumor	DNA	Tumor	42706f0e-a552-490e-b127-c39f9ea8f2ab			
+sample	MP2PRT-GAAAPC-TTP1-A-1-0-D-A87Z-48	phs002293_GAAAPC		Cervix	Primary Tumor	DNA	Tumor	34cc34cb-8d8d-41a2-9ee6-4d0a4c75f1d8			
+sample	MP2PRT-GAAAPC-TTP1-A-1-0-R-A87Y-41	phs002293_GAAAPC		Cervix	Primary Tumor	RNA	Tumor	5a5a4bb8-47e7-48f0-8dec-966fa96c3a94			
+sample	MP2PRT-GAAAYD-TTP1-A-1-0-D-A87Z-48	phs002293_GAAAYD		Cervix	Primary Tumor	DNA	Tumor	b68130b7-18cf-45c8-974c-40885a51a79c			
+sample	MP2PRT-GAAAYD-TTP1-A-1-0-R-A87Y-41	phs002293_GAAAYD		Cervix	Primary Tumor	RNA	Tumor	bdf0f200-7b73-4dd1-bce5-5adb335f19b7			
+sample	MP2PRT-GAABDN-TTP1-A-1-0-R-A87Y-41	phs002293_GAABDN		Cervix	Primary Tumor	RNA	Tumor	d7cf5bc1-1243-4c38-b89b-c99f09d76468			
+sample	MP2PRT-GAABEN-TTP1-A-1-0-D-A87Z-48	phs002293_GAABEN		Cervix	Primary Tumor	DNA	Tumor	a6876e33-cbea-4fa2-86dd-d2bebbd40777			
+sample	MP2PRT-GAABEN-TTP1-A-1-0-R-A87Y-41	phs002293_GAABEN		Cervix	Primary Tumor	RNA	Tumor	dbf1d83f-7174-4c89-ac2a-a4e6171dae2c			
+sample	MP2PRT-GAABRK-NB1-A-1-0-D-A85N-48	phs002293_GAABRK		Peripheral blood	Blood Derived Normal	DNA	Normal	bb36b90c-59cf-465f-869e-5c0cbb1ca562			
+sample	MP2PRT-GAABRK-TTP1-A-1-0-D-A85N-48	phs002293_GAABRK		Cervix	Primary Tumor	DNA	Tumor	6e82c269-2abf-45bf-848a-de16969d5dd4			
+sample	MP2PRT-GAABRK-TTP1-A-1-0-R-A85O-41	phs002293_GAABRK		Cervix	Primary Tumor	RNA	Tumor	f78fe105-120c-4fae-8075-71e5c06b78bb			
+sample	MP2PRT-GAABTA-NB1-A-1-0-D-A87P-48	phs002293_GAABTA		Peripheral blood	Blood Derived Normal	DNA	Normal	1080d1a2-726d-4cb2-ab9e-ff8c2cbc84f6			
+sample	MP2PRT-GAABTA-TTP1-A-1-0-D-A87P-48	phs002293_GAABTA		Cervix	Primary Tumor	DNA	Tumor	fe6c86c3-a846-4bb2-a922-17114d237a91			
+sample	MP2PRT-GAABTA-TTP1-A-1-0-R-A87Q-41	phs002293_GAABTA		Cervix	Primary Tumor	RNA	Tumor	9fb5fa4c-a53a-45d2-8b14-5bc184825f0c			
+sample	MP2PRT-GAACAC-NB1-A-1-0-D-A87P-48	phs002293_GAACAC		Peripheral blood	Blood Derived Normal	DNA	Normal	ad5c1a99-989e-4d35-91c3-ab8f8708ec6d			
+sample	MP2PRT-GAACAC-TTR1-A-1-0-D-A87P-48	phs002293_GAACAC		Cervix	Recurrent Tumor	DNA	Tumor	f2b4e2d4-2c6c-4d70-91b4-8942e9d9f452			
+sample	MP2PRT-GAACAC-TTR1-A-1-0-R-A87Q-41	phs002293_GAACAC		Cervix	Recurrent Tumor	RNA	Tumor	45f966e6-16b4-47ad-8125-933a44af1ecd			
+sample	MP2PRT-GAACAC-TTR1-A-1-0-R-A88C-41	phs002293_GAACAC		Cervix	Recurrent Tumor	RNA	Tumor	0244b1c6-0961-4012-9901-99b2bfc2d8b7			
+sample	MP2PRT-GAACAS-TTP1-A-1-0-D-A87Z-48	phs002293_GAACAS		Cervix	Primary Tumor	DNA	Tumor	7c70e4ca-e476-402c-9966-6a78c99a1fee			
+sample	MP2PRT-GAACAS-TTP1-A-1-0-R-A87Y-41	phs002293_GAACAS		Cervix	Primary Tumor	RNA	Tumor	0f95bce9-2ec2-4af3-b7ef-6751d130dbd0			
+sample	MP2PRT-GAACLC-NB1-A-1-0-D-A87Z-48	phs002293_GAACLC		Peripheral blood	Blood Derived Normal	DNA	Normal	8ea89861-2060-4844-b15f-e01e9f7bb476			
+sample	MP2PRT-GAACLC-TTP1-A-1-0-D-A87Z-48	phs002293_GAACLC		Cervix	Primary Tumor	DNA	Tumor	71324105-524c-4976-9b6b-a3e89331e1a6			
+sample	MP2PRT-GAACLC-TTP1-A-1-0-R-A87Y-41	phs002293_GAACLC		Cervix	Primary Tumor	RNA	Tumor	f7eb2298-309d-4239-8f9d-110498404462			
+sample	MP2PRT-GAACMR-NB1-A-1-0-D-A85N-48	phs002293_GAACMR		Peripheral blood	Blood Derived Normal	DNA	Normal	943fb11c-2457-4d1a-82d7-e3e975f5d93b			
+sample	MP2PRT-GAACMR-TTP1-A-1-0-D-A85N-48	phs002293_GAACMR		Cervix	Primary Tumor	DNA	Tumor	9b94fdc6-8644-408b-b82a-9ac1ac79110e			
+sample	MP2PRT-GAACMR-TTP1-A-1-0-R-A85O-41	phs002293_GAACMR		Cervix	Primary Tumor	RNA	Tumor	41a49cec-2bb8-44ff-bcc4-4a2ad289cde7			
+sample	MP2PRT-GAACWR-NB1-A-1-0-D-A87Z-48	phs002293_GAACWR		Peripheral blood	Blood Derived Normal	DNA	Normal	c66fd31c-116e-4e3d-9696-88992218b2fc			
+sample	MP2PRT-GAACWR-TTM1-A-1-0-D-A87Z-48	phs002293_GAACWR		Cervix	Metastatic	DNA	Tumor	be035798-2cdd-4088-9b00-1dc23ebd139e			
+sample	MP2PRT-GAADAF-TTP1-A-1-0-D-A85N-48	phs002293_GAADAF		Cervix	Primary Tumor	DNA	Tumor	70bf02dc-19f7-4382-a0b8-62de32e563ba			
+sample	MP2PRT-GAADAF-TTP1-A-1-0-R-A85O-41	phs002293_GAADAF		Cervix	Primary Tumor	RNA	Tumor	bba2f1a5-0bc0-4723-974f-6e6e9a06ff23			
+sample	MP2PRT-GAADCT-NB1-A-1-0-D-A85N-48	phs002293_GAADCT		Peripheral blood	Blood Derived Normal	DNA	Normal	525206e3-2c14-4b91-8712-09cc15355e5d			
+sample	MP2PRT-GAADCT-TTP1-A-1-0-D-A85N-48	phs002293_GAADCT		Cervix	Primary Tumor	DNA	Tumor	3014f6db-c145-41b9-b55c-59e897a52e53			
+sample	MP2PRT-GAADCT-TTP1-A-1-0-R-A85O-41	phs002293_GAADCT		Cervix	Primary Tumor	RNA	Tumor	18eb12e4-151e-45d4-9fd8-a2a9a35e795c			
+sample	MP2PRT-GAADFL-NB1-A-1-0-D-A87P-48	phs002293_GAADFL		Peripheral blood	Blood Derived Normal	DNA	Normal	7071c603-2fac-41d8-bf09-5d81b379d6b1			
+sample	MP2PRT-GAADFL-TTP1-A-1-0-D-A87P-48	phs002293_GAADFL		Cervix	Primary Tumor	DNA	Tumor	c415f5a2-8dcb-49f6-9375-2a19587a52a9			
+sample	MP2PRT-GAADFL-TTP1-A-1-0-R-A87Q-41	phs002293_GAADFL		Cervix	Primary Tumor	RNA	Tumor	ffffb10e-96e3-487e-b8f6-f87eb97ac93e			
+sample	MP2PRT-GAADHK-NB1-A-1-0-D-A87Z-48	phs002293_GAADHK		Peripheral blood	Blood Derived Normal	DNA	Normal	578e60f6-e7d7-46e8-b822-76e2a5d69a3a			
+sample	MP2PRT-GAADHK-TTR1-A-1-0-D-A87Z-48	phs002293_GAADHK		Cervix	Recurrent Tumor	DNA	Tumor	355c3ff1-e8ad-4e87-a3fc-521134b85766			
+sample	MP2PRT-GAADHK-TTR1-A-1-0-R-A87Y-41	phs002293_GAADHK		Cervix	Recurrent Tumor	RNA	Tumor	29420ac9-9f60-4819-83a8-e08740b801d4			
+sample	MP2PRT-GAAEBF-NB1-A-1-0-D-A83Y-48	phs002293_GAAEBF		Peripheral blood	Blood Derived Normal	DNA	Normal	b832b7d9-f484-49c3-b485-2e52f6df575c			
+sample	MP2PRT-GAAEBF-TTP1-A-1-0-D-A83Y-48	phs002293_GAAEBF		Cervix	Primary Tumor	DNA	Tumor	3671fcfc-a4a9-482b-b5ab-8a55a7c8a3c4			
+sample	MP2PRT-GAAFAW-NB1-A-1-0-D-A87Z-48	phs002293_GAAFAW		Peripheral blood	Blood Derived Normal	DNA	Normal	eab931af-dd40-44fe-9032-d78b4cde2639			
+sample	MP2PRT-GAAFAW-TTP1-A-1-0-D-A87Z-48	phs002293_GAAFAW		Cervix	Primary Tumor	DNA	Tumor	e4eba38c-6ddf-454d-9040-e432b91380c8			
+sample	MP2PRT-GAAFAW-TTP1-A-1-0-R-A87Y-41	phs002293_GAAFAW		Cervix	Primary Tumor	RNA	Tumor	6ccbf6ca-00ac-4960-96ea-9277a4b66cab			
+sample	MP2PRT-GAAFAZ-NB1-A-1-0-D-A87Z-48	phs002293_GAAFAZ		Peripheral blood	Blood Derived Normal	DNA	Normal	c48554db-2c6a-45dd-8120-95b0bd65237c			
+sample	MP2PRT-GAAFAZ-TTP1-A-1-0-D-A87Z-48	phs002293_GAAFAZ		Cervix	Primary Tumor	DNA	Tumor	fade287a-e488-4998-b07e-d79624d485cf			
+sample	MP2PRT-GAAFAZ-TTP1-A-1-0-R-A87Y-41	phs002293_GAAFAZ		Cervix	Primary Tumor	RNA	Tumor	33b467c2-e767-4a9c-8739-e7f029aece05			
+sample	MP2PRT-GAAFHK-NB1-A-1-0-D-A85N-48	phs002293_GAAFHK		Peripheral blood	Blood Derived Normal	DNA	Normal	8c22725d-6b40-4871-8e35-f13010103c79			
+sample	MP2PRT-GAAFHK-TTP1-A-1-0-D-A85N-48	phs002293_GAAFHK		Cervix	Primary Tumor	DNA	Tumor	89f891d9-1693-408f-9e49-bcb3485df831			
+sample	MP2PRT-GAAFHK-TTP1-A-1-0-R-A85O-41	phs002293_GAAFHK		Cervix	Primary Tumor	RNA	Tumor	e9a95a87-9189-41d6-8b8d-61eba823ca77			
+sample	MP2PRT-GAAFKA-NB1-A-1-0-D-A87P-48	phs002293_GAAFKA		Peripheral blood	Blood Derived Normal	DNA	Normal	e0fb7588-fcae-412f-b236-7d8ed834aeae			
+sample	MP2PRT-GAAFKA-TTP1-A-1-0-D-A87P-48	phs002293_GAAFKA		Cervix	Primary Tumor	DNA	Tumor	107cbbc0-3a7e-4e71-a7c8-832339ce9d89			
+sample	MP2PRT-GAAFKA-TTP1-A-1-0-R-A87Q-41	phs002293_GAAFKA		Cervix	Primary Tumor	RNA	Tumor	9e272d1d-d72f-4f36-a5ce-219d871867ca			
+sample	MP2PRT-GAAFYE-NB1-A-1-0-D-A85N-48	phs002293_GAAFYE		Peripheral blood	Blood Derived Normal	DNA	Normal	ddad8cae-c210-471c-b88f-9bf5d1d9a838			
+sample	MP2PRT-GAAFYE-TTM1-A-1-0-D-A85N-48	phs002293_GAAFYE		Cervix	Metastatic	DNA	Tumor	04f12d83-71e5-489c-9489-69bc20c6d024			
+sample	MP2PRT-GAAFYE-TTM1-A-1-0-R-A85O-41	phs002293_GAAFYE		Cervix	Metastatic	RNA	Tumor	e5260d37-e476-4f32-8c85-3988ac75cae8			
+sample	MP2PRT-GAAGFT-TTP1-A-1-0-D-A87Z-48	phs002293_GAAGFT		Cervix	Primary Tumor	DNA	Tumor	da4e2407-25c2-40e4-acc2-646cf3d9e2c4			
+sample	MP2PRT-GAAGFT-TTP1-A-1-0-R-A87Y-41	phs002293_GAAGFT		Cervix	Primary Tumor	RNA	Tumor	cd54d5ac-0ffc-4c08-89bf-6926ab2d925f			
+sample	MP2PRT-GAAGMX-NB1-A-1-0-D-A87Z-48	phs002293_GAAGMX		Peripheral blood	Blood Derived Normal	DNA	Normal	6c64458d-35ba-454a-b9c4-48691711336c			
+sample	MP2PRT-GAAGMX-TTP1-A-1-0-D-A87Z-48	phs002293_GAAGMX		Cervix	Primary Tumor	DNA	Tumor	197e565a-0192-4ad9-8936-732ed7496c8f			
+sample	MP2PRT-GAAGRY-NB1-A-1-0-D-A83Y-48	phs002293_GAAGRY		Peripheral blood	Blood Derived Normal	DNA	Normal	4aaafdce-a8af-4b3f-8c02-78ca8a82c8b3			
+sample	MP2PRT-GAAGRY-TTP1-A-1-0-D-A83Y-48	phs002293_GAAGRY		Cervix	Primary Tumor	DNA	Tumor	0d8d2fa5-49ee-466b-998f-20216b783110			
+sample	MP2PRT-GAAGRY-TTP1-A-1-0-R-A83Z-41	phs002293_GAAGRY		Cervix	Primary Tumor	RNA	Tumor	62dab7e6-1fa1-4dcb-8960-fc15336c2340			
+sample	MP2PRT-GAAGWN-TTP1-A-1-0-D-A87P-48	phs002293_GAAGWN		Cervix	Primary Tumor	DNA	Tumor	d4dfbb7e-0257-48d9-b49d-67488e6e0c7a			
+sample	MP2PRT-GAAGWN-TTP1-A-1-0-R-A87Q-41	phs002293_GAAGWN		Cervix	Primary Tumor	RNA	Tumor	2ee9a225-598e-4194-aee4-201cf149c6cb			
+sample	MP2PRT-GAAHGH-NB1-A-1-0-D-A87P-48	phs002293_GAAHGH		Peripheral blood	Blood Derived Normal	DNA	Normal	c3efe8c9-9068-48a3-9f14-82e64c595beb			
+sample	MP2PRT-GAAHGH-TTP1-A-1-0-D-A87P-48	phs002293_GAAHGH		Cervix	Primary Tumor	DNA	Tumor	97f1df03-0919-46b9-9acd-8f324f01ed59			
+sample	MP2PRT-GAAHGH-TTP1-A-1-0-R-A87Q-41	phs002293_GAAHGH		Cervix	Primary Tumor	RNA	Tumor	91699fee-574c-4c07-be43-b2dcbd43590f			
+sample	MP2PRT-GAAHNH-NB1-A-1-0-D-A83Y-48	phs002293_GAAHNH		Peripheral blood	Blood Derived Normal	DNA	Normal	aab05a87-e049-45c8-9fce-cd4f635ce5a3			
+sample	MP2PRT-GAAHNH-TTP1-A-1-0-D-A83Y-48	phs002293_GAAHNH		Cervix	Primary Tumor	DNA	Tumor	7e1eee4e-31d9-4743-b0e3-75487e27b002			
+sample	MP2PRT-GAAHNH-TTP1-A-1-0-R-A83Z-41	phs002293_GAAHNH		Cervix	Primary Tumor	RNA	Tumor	bc8c7046-68ba-4857-9492-9684342ffe8f			
+sample	MP2PRT-GAAHPD-NB1-A-1-0-D-A83Y-48	phs002293_GAAHPD		Peripheral blood	Blood Derived Normal	DNA	Normal	970ee43a-9dec-4b59-b500-cf88148ecd0e			
+sample	MP2PRT-GAAHPD-TTP1-A-1-0-D-A83Y-48	phs002293_GAAHPD		Cervix	Primary Tumor	DNA	Tumor	ec9cb69c-9b4d-42a9-85fc-78847341a763			
+sample	MP2PRT-GAAHPD-TTP1-A-1-0-R-A83Z-41	phs002293_GAAHPD		Cervix	Primary Tumor	RNA	Tumor	60128279-ad9e-413e-aa93-a5b60963faa0			
+sample	MP2PRT-GAAIKX-NB1-A-1-0-D-A87P-48	phs002293_GAAIKX		Peripheral blood	Blood Derived Normal	DNA	Normal	80b45736-2dd7-4598-8568-768d484986ff			
+sample	MP2PRT-GAAIKX-TTP1-A-1-0-D-A87P-48	phs002293_GAAIKX		Cervix	Primary Tumor	DNA	Tumor	c4d7970b-5d43-48cd-9db9-9a4d3bb83f96			
+sample	MP2PRT-GAAIKX-TTP1-A-1-0-R-A87Q-41	phs002293_GAAIKX		Cervix	Primary Tumor	RNA	Tumor	aeac7d97-4568-4e1f-81e0-02bea1acc4e8			
+sample	MP2PRT-GAAIKX-TTP1-A-1-0-R-A88C-41	phs002293_GAAIKX		Cervix	Primary Tumor	RNA	Tumor	30aeaa8e-269a-40ac-ac00-4994a968105f			
+sample	MP2PRT-GAAJDN-NB1-A-1-0-D-A87P-48	phs002293_GAAJDN		Peripheral blood	Blood Derived Normal	DNA	Normal	087111ed-7333-4ca0-927f-cb1c89ca428b			
+sample	MP2PRT-GAAJDN-TTP1-A-1-0-D-A87P-48	phs002293_GAAJDN		Cervix	Primary Tumor	DNA	Tumor	87280636-7a1a-44af-8406-417db80edd6e			
+sample	MP2PRT-GAAJDN-TTP1-A-1-0-R-A87Q-41	phs002293_GAAJDN		Cervix	Primary Tumor	RNA	Tumor	0d7b9003-cdec-4c19-a21c-4d551b3e95b2			
+sample	MP2PRT-GAAJEX-TTP1-A-1-0-D-A87Z-48	phs002293_GAAJEX		Cervix	Primary Tumor	DNA	Tumor	771c89cb-9986-4486-85ed-fd09fb148365			
+sample	MP2PRT-GAAJEX-TTP1-A-1-0-R-A87Y-41	phs002293_GAAJEX		Cervix	Primary Tumor	RNA	Tumor	c149ec1e-a68a-4642-9218-f31ca0d29eaa			
+sample	MP2PRT-GAAJGK-TTM1-A-1-0-D-A83Y-48	phs002293_GAAJGK		Cervix	Metastatic	DNA	Tumor	c009382a-e2ba-46fd-8d1e-6c1819298733			
+sample	MP2PRT-GAAJGK-TTM1-A-1-0-R-A83Z-41	phs002293_GAAJGK		Cervix	Metastatic	RNA	Tumor	956b02ed-503c-4e34-a25a-312460260479			
+sample	MP2PRT-GAAJSZ-TTP1-A-1-0-D-A87P-48	phs002293_GAAJSZ		Cervix	Primary Tumor	DNA	Tumor	2fed98fd-5550-4cf4-9321-518b36b6fd7c			
+sample	MP2PRT-GAAJSZ-TTP1-A-1-0-R-A87Q-41	phs002293_GAAJSZ		Cervix	Primary Tumor	RNA	Tumor	9e57f5a4-2953-42f3-b88c-96641f089d3f			
+sample	MP2PRT-GAAJXW-NB1-A-1-0-D-A87P-48	phs002293_GAAJXW		Peripheral blood	Blood Derived Normal	DNA	Normal	70f0e6a2-1bf3-405b-8a42-137d3a22a978			
+sample	MP2PRT-GAAJXW-TTP1-B-1-0-D-A88B-48	phs002293_GAAJXW		Cervix	Primary Tumor	DNA	Tumor	8498a1ee-71d6-4ceb-ab68-2671bbc345e5			
+sample	MP2PRT-GAAKCD-NB1-A-1-0-D-A87Z-48	phs002293_GAAKCD		Peripheral blood	Blood Derived Normal	DNA	Normal	cf3261e4-5abb-4b77-9d66-bf430f1e3202			
+sample	MP2PRT-GAAKCD-TTP1-A-1-0-D-A87Z-48	phs002293_GAAKCD		Cervix	Primary Tumor	DNA	Tumor	3da77f86-e904-4270-9fd6-f22810639e0b			
+sample	MP2PRT-GAAKCD-TTP1-A-1-0-R-A87Y-41	phs002293_GAAKCD		Cervix	Primary Tumor	RNA	Tumor	cd304efd-98df-469f-8a2b-8e8a3c24064e			
+sample	MP2PRT-GAAKYP-NB1-B-1-0-D-A85N-48	phs002293_GAAKYP		Peripheral blood	Blood Derived Normal	DNA	Normal	eb098ea7-7f02-4f33-a303-3881d6d3622f			
+sample	MP2PRT-GAAKYP-TTP1-A-1-0-D-A83Y-48	phs002293_GAAKYP		Cervix	Primary Tumor	DNA	Tumor	37192e69-43c4-4051-bfdc-63f2e262c6ae			
+sample	MP2PRT-GAAKYP-TTP1-A-1-0-R-A83Z-41	phs002293_GAAKYP		Cervix	Primary Tumor	RNA	Tumor	3c45237f-4706-4e8a-83fc-198f74d755d7			
+sample	MP2PRT-GAALBJ-NB1-A-1-0-D-A85N-48	phs002293_GAALBJ		Peripheral blood	Blood Derived Normal	DNA	Normal	5bd4a50f-e758-4f54-9a96-cefc603e786b			
+sample	MP2PRT-GAALBJ-TTP1-A-1-0-D-A85N-48	phs002293_GAALBJ		Cervix	Primary Tumor	DNA	Tumor	b8103d4d-4064-471f-8af5-5ef3f9cb57b2			
+sample	MP2PRT-GAALBX-TTP1-A-1-0-D-A85N-48	phs002293_GAALBX		Cervix	Primary Tumor	DNA	Tumor	a0820e87-8e01-45e7-9f58-a9f71d20936e			
+sample	MP2PRT-GAALBX-TTP1-A-1-0-R-A85O-41	phs002293_GAALBX		Cervix	Primary Tumor	RNA	Tumor	ce32201b-261c-4b51-b12c-94968e83aeb0			
+sample	MP2PRT-GAALHC-NB1-A-1-0-D-A87Z-48	phs002293_GAALHC		Peripheral blood	Blood Derived Normal	DNA	Normal	3fc6c363-67f5-4f78-942e-2a60fc76c64c			
+sample	MP2PRT-GAALHC-TTP1-A-1-0-D-A87Z-48	phs002293_GAALHC		Cervix	Primary Tumor	DNA	Tumor	51cc67f2-ceb4-4510-8343-8d6d311a7bb9			
+sample	MP2PRT-GAALHC-TTP1-A-1-0-R-A87Y-41	phs002293_GAALHC		Cervix	Primary Tumor	RNA	Tumor	6bcf90f4-8127-4a88-8e32-d7e42e0dac05			
+sample	MP2PRT-GAALNB-NB1-A-1-0-D-A83Y-48	phs002293_GAALNB		Peripheral blood	Blood Derived Normal	DNA	Normal	ab63e2da-8d48-462d-a7f7-4efda0f9d471			
+sample	MP2PRT-GAALNB-TTP1-A-1-0-D-A83Y-48	phs002293_GAALNB		Cervix	Primary Tumor	DNA	Tumor	ad8a149e-7127-457d-8ba6-21eab8bc18da			
+sample	MP2PRT-GAALNB-TTP1-A-1-0-R-A83Z-41	phs002293_GAALNB		Cervix	Primary Tumor	RNA	Tumor	9fac6167-87ea-4509-9673-bf1593557005			
+sample	MP2PRT-GAALRT-TTM1-A-1-0-D-A83Y-48	phs002293_GAALRT		Cervix	Metastatic	DNA	Tumor	397e521e-202a-4dca-a58c-f8f3fccd02a0			
+sample	MP2PRT-GAALRT-TTM1-A-1-0-R-A83Z-41	phs002293_GAALRT		Cervix	Metastatic	RNA	Tumor	3a98593c-0eed-41b9-a88f-0b47c7ec55c1			
+sample	MP2PRT-GAALTS-NB1-A-1-0-D-A87P-48	phs002293_GAALTS		Peripheral blood	Blood Derived Normal	DNA	Normal	31e41996-602c-4ba4-925d-0746a9bf4cc4			
+sample	MP2PRT-GAALTS-TTP1-A-1-0-D-A87P-48	phs002293_GAALTS		Cervix	Primary Tumor	DNA	Tumor	4dcae8f3-13ba-4ed2-8a6e-bc22ba32f0e3			
+sample	MP2PRT-GAALTS-TTP1-A-1-0-R-A87Q-41	phs002293_GAALTS		Cervix	Primary Tumor	RNA	Tumor	eb410608-7c83-40fe-aaef-eb8810dcc54e			
+sample	MP2PRT-GAALVC-TTP1-A-1-0-D-A87P-48	phs002293_GAALVC		Cervix	Primary Tumor	DNA	Tumor	02cee416-dcd8-434a-aa8f-4983e0c08332			
+sample	MP2PRT-GAALVC-TTP1-A-1-0-R-A87Q-41	phs002293_GAALVC		Cervix	Primary Tumor	RNA	Tumor	8ff4bd7e-9c23-48ec-8f34-67aa2e6331be			
+sample	MP2PRT-GAAMDU-NB1-A-1-0-D-A87Z-48	phs002293_GAAMDU		Peripheral blood	Blood Derived Normal	DNA	Normal	b452fb03-d0c3-4d1f-9abe-17df8ec912f4			
+sample	MP2PRT-GAAMDU-TTR1-A-1-0-D-A87Z-48	phs002293_GAAMDU		Cervix	Recurrent Tumor	DNA	Tumor	8a2a81fd-e7da-415e-bf95-5b916c4ed1b8			
+sample	MP2PRT-GAAMHK-TTR1-A-1-0-D-A85N-48	phs002293_GAAMHK		Cervix	Recurrent Tumor	DNA	Tumor	d9319ab2-d0b9-409d-aabe-4981822fb58a			
+sample	MP2PRT-GAAMHK-TTR1-A-1-0-R-A85O-41	phs002293_GAAMHK		Cervix	Recurrent Tumor	RNA	Tumor	f39b51fc-3bef-4eaf-8d4b-c920042d09a8			
+sample	MP2PRT-GAAMUD-NB1-A-1-0-D-A87P-48	phs002293_GAAMUD		Peripheral blood	Blood Derived Normal	DNA	Normal	d6d22e4a-8f71-440c-89f8-6d4ad4bc58ee			
+sample	MP2PRT-GAAMUD-TTP1-A-1-0-D-A87P-48	phs002293_GAAMUD		Cervix	Primary Tumor	DNA	Tumor	b87cc87b-ca76-4d3a-83f6-4d65dd07c74d			
+sample	MP2PRT-GAAMUD-TTP1-A-1-0-R-A87Q-41	phs002293_GAAMUD		Cervix	Primary Tumor	RNA	Tumor	9b882be7-98b2-4551-ad39-723decdc49e4			
+sample	MP2PRT-GAAMUD-TTP1-A-1-0-R-A88C-41	phs002293_GAAMUD		Cervix	Primary Tumor	RNA	Tumor	85119ba5-141f-4333-82f3-d423bf9c123d			
+sample	MP2PRT-GAANNG-NB1-A-1-0-D-A87P-48	phs002293_GAANNG		Peripheral blood	Blood Derived Normal	DNA	Normal	a198ced2-c3d3-412e-96e1-9be725dbe22d			
+sample	MP2PRT-GAANNG-TTP1-A-1-0-D-A87P-48	phs002293_GAANNG		Cervix	Primary Tumor	DNA	Tumor	4f3975c1-ce0b-4b0f-8586-5f1b991e9e20			
+sample	MP2PRT-GAANNG-TTP1-A-1-0-R-A87Q-41	phs002293_GAANNG		Cervix	Primary Tumor	RNA	Tumor	b0887b7b-3f0b-435a-95dc-0cf752bb7beb			
+sample	MP2PRT-GAAPAN-NB1-A-1-0-D-A87P-48	phs002293_GAAPAN		Peripheral blood	Blood Derived Normal	DNA	Normal	e2081411-3aec-4b00-a50b-3677ee8323cc			
+sample	MP2PRT-GAAPAN-TTP1-A-1-0-D-A87P-48	phs002293_GAAPAN		Cervix	Primary Tumor	DNA	Tumor	198bf55c-6e40-4c7e-b078-f4483be02ade			
+sample	MP2PRT-GAAPAN-TTP1-A-1-0-R-A87Q-41	phs002293_GAAPAN		Cervix	Primary Tumor	RNA	Tumor	18138332-8f0a-4059-86fe-40772ea833b6			
+sample	MP2PRT-GAAPEI-NB1-A-1-0-D-A85N-48	phs002293_GAAPEI		Peripheral blood	Blood Derived Normal	DNA	Normal	a5c783eb-1608-4cd3-954c-c91838829cbd			
+sample	MP2PRT-GAAPEI-TTP1-A-1-0-D-A85N-48	phs002293_GAAPEI		Cervix	Primary Tumor	DNA	Tumor	a4fca9e5-73c6-4f0a-b33a-c9760069e3d5			
+sample	MP2PRT-GAAPEI-TTP1-A-1-0-R-A85O-41	phs002293_GAAPEI		Cervix	Primary Tumor	RNA	Tumor	7e8a3f2f-8b28-479b-8ee0-ff24e2454070			
+sample	MP2PRT-GAAPEW-NB1-A-1-0-D-A85N-48	phs002293_GAAPEW		Peripheral blood	Blood Derived Normal	DNA	Normal	976faa5f-da61-44ea-bcfe-3880aec9ae94			
+sample	MP2PRT-GAAPEW-TTR1-B-1-0-D-A85N-48	phs002293_GAAPEW		Cervix	Recurrent Tumor	DNA	Tumor	859f031b-2521-41a3-82e2-53511bc2b05a			
+sample	MP2PRT-GAAPEW-TTR1-B-1-0-R-A85O-41	phs002293_GAAPEW		Cervix	Recurrent Tumor	RNA	Tumor	17a13aa0-e997-4977-9602-91e6f6d1d46c			
+sample	MP2PRT-GAAPEY-NB1-A-1-0-D-A87P-48	phs002293_GAAPEY		Peripheral blood	Blood Derived Normal	DNA	Normal	545658b1-2901-4bff-8dfd-23a55816eb6c			
+sample	MP2PRT-GAAPEY-TTP1-A-1-0-D-A87P-48	phs002293_GAAPEY		Cervix	Primary Tumor	DNA	Tumor	6275d102-5d6b-4f1c-98fb-cd77209a0072			
+sample	MP2PRT-GAAPEY-TTP1-A-1-0-R-A87Q-41	phs002293_GAAPEY		Cervix	Primary Tumor	RNA	Tumor	835cb274-9c98-4f36-94a7-4ab2e0cfd912			
+sample	MP2PRT-GAAPKD-TTP1-A-1-0-D-A87P-48	phs002293_GAAPKD		Cervix	Primary Tumor	DNA	Tumor	fd775cda-578b-49ad-8f78-4514f510fca3			
+sample	MP2PRT-GAAPKD-TTP1-A-1-0-R-A87Q-41	phs002293_GAAPKD		Cervix	Primary Tumor	RNA	Tumor	00b73d56-a66e-4b71-8ccc-33c29d00e3ce			
+sample	MP2PRT-GAAPSK-NB1-A-1-0-D-A87P-48	phs002293_GAAPSK		Peripheral blood	Blood Derived Normal	DNA	Normal	3273e479-865c-4003-bee6-2d3f13ec004c			
+sample	MP2PRT-GAAPSK-TTR1-A-1-0-D-A87P-48	phs002293_GAAPSK		Cervix	Recurrent Tumor	DNA	Tumor	c73e9614-6fbb-4227-9826-224b793a9e3a			
+sample	MP2PRT-GAAPSK-TTR1-A-1-0-R-A87Q-41	phs002293_GAAPSK		Cervix	Recurrent Tumor	RNA	Tumor	1b9cc2a7-b587-41f6-a9e6-6eec4c141180			
+sample	MP2PRT-GAAPSK-TTR1-A-1-0-R-A88C-41	phs002293_GAAPSK		Cervix	Recurrent Tumor	RNA	Tumor	94b54983-3afe-426a-818a-181ea29ef01f			
+sample	MP2PRT-GAARDU-NB1-A-1-0-D-A83Y-48	phs002293_GAARDU		Peripheral blood	Blood Derived Normal	DNA	Normal	3db72c82-d517-4c8c-9656-ffa853c3302c			
+sample	MP2PRT-GAARDU-TTP1-A-1-0-D-A83Y-48	phs002293_GAARDU		Cervix	Primary Tumor	DNA	Tumor	2fe33c6a-4b17-44fc-a7dc-38811cb0c158			
+sample	MP2PRT-GAARDU-TTP1-A-1-0-R-A83Z-41	phs002293_GAARDU		Cervix	Primary Tumor	RNA	Tumor	3381e9e8-5499-48d2-8a60-4a5240932603			
+sample	MP2PRT-GAARIW-NB1-A-1-0-D-A83Y-48	phs002293_GAARIW		Peripheral blood	Blood Derived Normal	DNA	Normal	dbf29d70-f18f-4e7f-a4c5-4633fbaaaebc			
+sample	MP2PRT-GAARIW-TTP1-A-1-0-D-A83Y-48	phs002293_GAARIW		Cervix	Primary Tumor	DNA	Tumor	5c042085-9ed8-4d9c-8b71-8c8b590e50b2			
+sample	MP2PRT-GAARIW-TTP1-A-1-0-R-A83Z-41	phs002293_GAARIW		Cervix	Primary Tumor	RNA	Tumor	dfe2a888-6162-491d-86c7-8f35da1294d1			
+sample	MP2PRT-GAARXU-TTP1-A-1-0-D-A87P-48	phs002293_GAARXU		Cervix	Primary Tumor	DNA	Tumor	936fdf5b-9972-4031-ae0d-fe4915905f23			
+sample	MP2PRT-GAARXU-TTP1-A-1-0-R-A87Q-41	phs002293_GAARXU		Cervix	Primary Tumor	RNA	Tumor	c06acb39-1cb2-4c61-896b-d11f1cfdb76b			
+sample	MP2PRT-GAARXU-TTP1-A-1-0-R-A88C-41	phs002293_GAARXU		Cervix	Primary Tumor	RNA	Tumor	335239ba-edd6-4df1-b977-c7ec86b77bcb			
+sample	MP2PRT-GAARYH-NB1-A-1-0-D-A85N-48	phs002293_GAARYH		Peripheral blood	Blood Derived Normal	DNA	Normal	4e736a8a-e5ca-41da-85ab-70056f72f32a			
+sample	MP2PRT-GAARYH-TTP1-A-1-0-D-A85N-48	phs002293_GAARYH		Cervix	Primary Tumor	DNA	Tumor	56d71899-2933-4d58-a401-bc4b4b4b10d0			
+sample	MP2PRT-GAARYH-TTP1-A-1-0-R-A85O-41	phs002293_GAARYH		Cervix	Primary Tumor	RNA	Tumor	c9adb9df-95ea-4537-9812-78df541705ef			
+sample	MP2PRT-GAASJJ-NB1-A-1-0-D-A87P-48	phs002293_GAASJJ		Peripheral blood	Blood Derived Normal	DNA	Normal	ec7f42b7-4f0d-40b1-a253-4756a9eb367a			
+sample	MP2PRT-GAASJJ-TTM1-A-1-0-D-A87P-48	phs002293_GAASJJ		Cervix	Metastatic	DNA	Tumor	dbdb103a-5956-4a8a-a11c-6abffe2db1be			
+sample	MP2PRT-GAASJJ-TTM1-A-1-0-R-A87Q-41	phs002293_GAASJJ		Cervix	Metastatic	RNA	Tumor	adf365c9-5e7b-46ef-b1e3-2efb47d21253			
+sample	MP2PRT-GAASRT-NB1-A-1-0-D-A87P-48	phs002293_GAASRT		Peripheral blood	Blood Derived Normal	DNA	Normal	5dcaad94-fc3c-43d7-93f8-1d820696224e			
+sample	MP2PRT-GAASRT-TTP1-A-1-0-D-A87P-48	phs002293_GAASRT		Cervix	Primary Tumor	DNA	Tumor	ac24f17d-334b-4ae2-aac6-3bef080daebf			
+sample	MP2PRT-GAASUC-NB1-A-1-0-D-A87Z-48	phs002293_GAASUC		Peripheral blood	Blood Derived Normal	DNA	Normal	7a5feac3-197f-4128-8323-e07d671768e9			
+sample	MP2PRT-GAASUC-TTR1-A-1-0-D-A87Z-48	phs002293_GAASUC		Cervix	Recurrent Tumor	DNA	Tumor	e6239580-751d-48d7-a8ff-8b8d5fd7e2d3			
+sample	MP2PRT-GAASUC-TTR1-A-1-0-R-A87Y-41	phs002293_GAASUC		Cervix	Recurrent Tumor	RNA	Tumor	a371caee-7cf9-4f00-96e5-34c77e45973e			
+sample	MP2PRT-GAATVJ-TTP1-A-1-0-D-A87P-48	phs002293_GAATVJ		Cervix	Primary Tumor	DNA	Tumor	2152c7ba-8471-4179-949d-a47356743864			
+sample	MP2PRT-GAATVJ-TTP1-A-1-0-R-A87Q-41	phs002293_GAATVJ		Cervix	Primary Tumor	RNA	Tumor	2a9d16c7-ddaf-44e7-93a7-dc6ef8efa23d			
+sample	MP2PRT-GAATZY-TTM1-A-1-0-D-A85N-48	phs002293_GAATZY		Cervix	Metastatic	DNA	Tumor	7568e1fb-cf37-4aca-92d2-2703ff8eec4f			
+sample	MP2PRT-GAATZY-TTM1-A-1-0-R-A85O-41	phs002293_GAATZY		Cervix	Metastatic	RNA	Tumor	b774f081-04b9-4cc7-89b8-61ff08dc61c7			
+sample	MP2PRT-GAAUPP-TTP1-A-1-0-D-A87Z-48	phs002293_GAAUPP		Cervix	Primary Tumor	DNA	Tumor	82cccbe1-46e2-4750-bbe7-5db4c5b4270b			
+sample	MP2PRT-GAAUPP-TTP1-A-1-0-R-A87Y-41	phs002293_GAAUPP		Cervix	Primary Tumor	RNA	Tumor	8a5fc32f-bf05-4066-8031-8fea8f581b1d			
+sample	MP2PRT-GAAUUC-NB1-A-1-0-D-A87P-48	phs002293_GAAUUC		Peripheral blood	Blood Derived Normal	DNA	Normal	41abf7c5-e05b-4516-9d45-d567462fa455			
+sample	MP2PRT-GAAUUC-TTP1-A-1-0-D-A87P-48	phs002293_GAAUUC		Cervix	Primary Tumor	DNA	Tumor	7f9076e5-a2fe-4b10-b26f-25f8d2eac6a0			
+sample	MP2PRT-GAAUUC-TTP1-A-1-0-R-A87Q-41	phs002293_GAAUUC		Cervix	Primary Tumor	RNA	Tumor	4f218462-f4fa-44a9-9713-0e79b94baa0d			
+sample	MP2PRT-GAAUYN-TTR1-A-1-0-D-A87P-48	phs002293_GAAUYN		Cervix	Recurrent Tumor	DNA	Tumor	158f6be7-2073-4f05-9de3-619236c16791			
+sample	MP2PRT-GAAUYN-TTR1-A-1-0-R-A87Q-41	phs002293_GAAUYN		Cervix	Recurrent Tumor	RNA	Tumor	56fd076a-f106-49f3-8418-dca90b97f775			
+sample	MP2PRT-GAAVGN-NB1-A-1-0-D-A87Z-48	phs002293_GAAVGN		Peripheral blood	Blood Derived Normal	DNA	Normal	e318c9c8-baae-4b90-9a42-216d231c3dd4			
+sample	MP2PRT-GAAVGN-TTP1-A-1-0-D-A87Z-48	phs002293_GAAVGN		Cervix	Primary Tumor	DNA	Tumor	939bc38c-b2c1-4e6b-b18d-1be613327795			
+sample	MP2PRT-GAAVGN-TTP1-A-1-0-R-A87Y-41	phs002293_GAAVGN		Cervix	Primary Tumor	RNA	Tumor	6660844c-2404-4161-8a4a-514d055b7f8c			
+sample	MP2PRT-GAAVJB-NB1-A-1-0-D-A83Y-48	phs002293_GAAVJB		Peripheral blood	Blood Derived Normal	DNA	Normal	2ef62a1f-8bcb-4121-ab8b-21211597803c			
+sample	MP2PRT-GAAVJB-TTP1-A-1-0-D-A83Y-48	phs002293_GAAVJB		Cervix	Primary Tumor	DNA	Tumor	0ec7fda0-07f3-4910-a3eb-5f1b1ee9f012			
+sample	MP2PRT-GAAVJB-TTP1-A-1-0-R-A83Z-41	phs002293_GAAVJB		Cervix	Primary Tumor	RNA	Tumor	05cfcba9-6190-47c7-a1ee-2005bc49c6d6			
+sample	MP2PRT-GAAVJI-TTP1-A-1-0-D-A83Y-48	phs002293_GAAVJI		Cervix	Primary Tumor	DNA	Tumor	b63cfd7d-8f24-4972-bcfa-be803e46c7f6			
+sample	MP2PRT-GAAVJI-TTP1-A-1-0-R-A83Z-41	phs002293_GAAVJI		Cervix	Primary Tumor	RNA	Tumor	c98e4578-00dd-4010-be2f-61ec6234cb2b			
+sample	MP2PRT-GAAVSU-TTP1-B-1-0-D-A88B-48	phs002293_GAAVSU		Cervix	Primary Tumor	DNA	Tumor	5a409cd5-8021-4250-999d-a796a709e251			
+sample	MP2PRT-GAAVSU-TTP1-B-1-0-R-A87Y-41	phs002293_GAAVSU		Cervix	Primary Tumor	RNA	Tumor	f999bb4b-58a2-4492-a226-49fa30aa8b8b			
+sample	MP2PRT-GAAVZI-NB1-A-1-0-D-A83Y-48	phs002293_GAAVZI		Peripheral blood	Blood Derived Normal	DNA	Normal	5d7873e0-90be-45d4-bcc8-0a568cfd8248			
+sample	MP2PRT-GAAVZI-TTP1-A-1-0-D-A83Y-48	phs002293_GAAVZI		Cervix	Primary Tumor	DNA	Tumor	c2867332-f10a-4254-808c-4cf9f6a5a820			
+sample	MP2PRT-GAAVZI-TTP1-A-1-0-R-A83Z-41	phs002293_GAAVZI		Cervix	Primary Tumor	RNA	Tumor	872dc734-992b-4f86-a4a2-c2fa17efa3eb			
+sample	MP2PRT-GAAWAH-NB1-A-1-0-D-A83Y-48	phs002293_GAAWAH		Peripheral blood	Blood Derived Normal	DNA	Normal	7d160196-0fd7-4537-8eda-b2f23ca86a26			
+sample	MP2PRT-GAAWAH-TTR1-A-1-0-D-A83Y-48	phs002293_GAAWAH		Cervix	Recurrent Tumor	DNA	Tumor	b016fbd9-aca8-4303-bce0-9b2aef64521b			
+sample	MP2PRT-GAAWAH-TTR1-A-1-0-R-A83Z-41	phs002293_GAAWAH		Cervix	Recurrent Tumor	RNA	Tumor	08afc826-86f9-40df-8940-720798f3d365			
+sample	MP2PRT-GAAWHP-TTP1-A-1-0-D-A83Y-48	phs002293_GAAWHP		Cervix	Primary Tumor	DNA	Tumor	87ef5726-6004-43ea-80c0-d28df23c9d10			
+sample	MP2PRT-GAAWHP-TTP1-A-1-0-R-A83Z-41	phs002293_GAAWHP		Cervix	Primary Tumor	RNA	Tumor	d4642690-ef2a-442a-afa8-68b395b7de7a			
+sample	MP2PRT-GAAWJL-TTP1-A-1-0-D-A85N-48	phs002293_GAAWJL		Cervix	Primary Tumor	DNA	Tumor	f7e09869-1986-4064-9aaf-34f4b128675a			
+sample	MP2PRT-GAAWJL-TTP1-A-1-0-R-A85O-41	phs002293_GAAWJL		Cervix	Primary Tumor	RNA	Tumor	d737a1d1-6314-4ece-935f-bf50e3211bfe			
+sample	MP2PRT-GAAWKT-NB1-A-1-0-D-A83Y-48	phs002293_GAAWKT		Peripheral blood	Blood Derived Normal	DNA	Normal	3d22cd80-35e9-4c25-acc1-242b004a7d89			
+sample	MP2PRT-GAAWKT-TTP1-B-1-0-D-A83Y-48	phs002293_GAAWKT		Cervix	Primary Tumor	DNA	Tumor	98e7dd68-45b7-4777-b291-289580c3e367			
+sample	MP2PRT-GAAWKT-TTP1-B-1-0-R-A83Z-41	phs002293_GAAWKT		Cervix	Primary Tumor	RNA	Tumor	93448286-1a67-4c76-9257-6abd7fd48ad9			
+sample	MP2PRT-GAAWKZ-NB1-A-1-0-D-A85N-48	phs002293_GAAWKZ		Peripheral blood	Blood Derived Normal	DNA	Normal	c18f96ee-66a5-44a9-84f7-8658eb14f33d			
+sample	MP2PRT-GAAWKZ-TTP1-A-1-0-D-A85N-48	phs002293_GAAWKZ		Cervix	Primary Tumor	DNA	Tumor	bebb2942-504f-4a8d-8871-2851e634b999			
+sample	MP2PRT-GAAWKZ-TTP1-A-1-0-R-A85O-41	phs002293_GAAWKZ		Cervix	Primary Tumor	RNA	Tumor	6d80def8-0719-4317-874f-3c0ba288646e			
+sample	MP2PRT-GAAXAD-TTP1-A-1-0-D-A83Y-48	phs002293_GAAXAD		Cervix	Primary Tumor	DNA	Tumor	65d277c4-4400-41b4-8852-a66f2d931353			
+sample	MP2PRT-GAAXAD-TTP1-A-1-0-R-A83Z-41	phs002293_GAAXAD		Cervix	Primary Tumor	RNA	Tumor	87cf5182-4b19-41dd-8f0a-8029151cf38b			
+sample	MP2PRT-GAAXCZ-TTP1-A-1-0-D-A87P-48	phs002293_GAAXCZ		Cervix	Primary Tumor	DNA	Tumor	a66fcd51-7f1f-40a0-97fa-0faa75597660			
+sample	MP2PRT-GAAXCZ-TTP1-A-1-0-R-A87Q-41	phs002293_GAAXCZ		Cervix	Primary Tumor	RNA	Tumor	02e0d306-bee7-4bb5-84d3-8f1dc3931cf0			
+sample	MP2PRT-GAAXNT-TTP1-A-1-0-D-A83Y-48	phs002293_GAAXNT		Cervix	Primary Tumor	DNA	Tumor	78a7c8db-5fa4-43f7-b919-2865a3e7174c			
+sample	MP2PRT-GAAXNT-TTP1-A-1-0-R-A83Z-41	phs002293_GAAXNT		Cervix	Primary Tumor	RNA	Tumor	3df08fac-4df9-4dd7-9095-4880c13be3f8			
+sample	MP2PRT-GAAYBL-NB1-A-1-0-D-A87P-48	phs002293_GAAYBL		Peripheral blood	Blood Derived Normal	DNA	Normal	6ff23b08-4cb5-4052-b3a4-aec98a1efec1			
+sample	MP2PRT-GAAYBL-TTP1-A-1-0-D-A87P-48	phs002293_GAAYBL		Cervix	Primary Tumor	DNA	Tumor	1f051b66-63b9-42ad-9901-c9a636f477d5			
+sample	MP2PRT-GAAYBL-TTP1-A-1-0-R-A87Q-41	phs002293_GAAYBL		Cervix	Primary Tumor	RNA	Tumor	b25f82c6-44e6-4648-ac24-da685e69df79			
+sample	MP2PRT-GAAYHV-NB1-A-1-0-D-A87P-48	phs002293_GAAYHV		Peripheral blood	Blood Derived Normal	DNA	Normal	8de737fb-f896-4ab0-ab93-be7280da3607			
+sample	MP2PRT-GAAYHV-TTP1-A-1-0-D-A87P-48	phs002293_GAAYHV		Cervix	Primary Tumor	DNA	Tumor	2794d46e-b7ee-4740-9d64-6e1edb99ffb0			
+sample	MP2PRT-GAAYYI-NB1-A-1-0-D-A87P-48	phs002293_GAAYYI		Peripheral blood	Blood Derived Normal	DNA	Normal	c6fa47ce-179a-4ccc-874b-c86d4cd49d14			
+sample	MP2PRT-GAAYYI-TTP1-A-1-0-D-A87P-48	phs002293_GAAYYI		Cervix	Primary Tumor	DNA	Tumor	6b08b5cd-d985-4997-9f24-4ee4a98304f2			
+sample	MP2PRT-GAAYYI-TTP1-A-1-0-R-A87Q-41	phs002293_GAAYYI		Cervix	Primary Tumor	RNA	Tumor	fc530a57-b16f-4ddd-8e67-b7c6e04b9f23			
+sample	MP2PRT-GAAYYI-TTP1-A-1-0-R-A88C-41	phs002293_GAAYYI		Cervix	Primary Tumor	RNA	Tumor	2f8c398f-be71-4089-bebc-6e287a9b879c			
+sample	MP2PRT-GAAZAX-TTP1-A-1-0-D-A87P-48	phs002293_GAAZAX		Cervix	Primary Tumor	DNA	Tumor	fcc52f42-b97b-4533-a4b5-6d67573d3534			
+sample	MP2PRT-GAAZAX-TTP1-A-1-0-R-A87Q-41	phs002293_GAAZAX		Cervix	Primary Tumor	RNA	Tumor	1e4e7944-b96d-4559-bd12-2e45846045ba			
+sample	MP2PRT-GAAZGH-TTP1-A-1-0-D-A85N-48	phs002293_GAAZGH		Cervix	Primary Tumor	DNA	Tumor	0f327679-bf61-42f1-aeb3-c9968cbd3865			
+sample	MP2PRT-GAAZGH-TTP1-A-1-0-R-A85O-41	phs002293_GAAZGH		Cervix	Primary Tumor	RNA	Tumor	dba5a157-8210-484d-b414-f55451d3b609			
+sample	MP2PRT-GAAZHY-NB1-A-1-0-D-A87P-48	phs002293_GAAZHY		Peripheral blood	Blood Derived Normal	DNA	Normal	4338c8df-ea97-4d82-858d-30ab40ce5937			
+sample	MP2PRT-GAAZHY-TTP1-A-1-0-D-A87P-48	phs002293_GAAZHY		Cervix	Primary Tumor	DNA	Tumor	a273eafa-ff79-43da-8546-9973e826c082			
+sample	MP2PRT-GAAZHY-TTP1-A-1-0-R-A87Q-41	phs002293_GAAZHY		Cervix	Primary Tumor	RNA	Tumor	1427c138-5fdf-495c-92da-5149bcf5ff7c			
+sample	MP2PRT-GAAZNH-NB1-A-1-0-D-A83Y-48	phs002293_GAAZNH		Peripheral blood	Blood Derived Normal	DNA	Normal	fa5ddcad-5a77-4709-861a-83f8b587e66a			
+sample	MP2PRT-GAAZNH-TTP1-A-1-0-D-A83Y-48	phs002293_GAAZNH		Cervix	Primary Tumor	DNA	Tumor	1aa8ccc8-ec6c-4878-875b-ef83f79127ff			
+sample	MP2PRT-GAAZNH-TTP1-A-1-0-R-A83Z-41	phs002293_GAAZNH		Cervix	Primary Tumor	RNA	Tumor	0dc7c9c2-ef37-4390-b60c-331b967c6786			
+sample	MP2PRT-GAAZNW-NB1-A-1-0-D-A85N-48	phs002293_GAAZNW		Peripheral blood	Blood Derived Normal	DNA	Normal	136e670f-e1eb-4131-985a-a4b57bf75f83			
+sample	MP2PRT-GAAZNW-TTP1-A-1-0-D-A85N-48	phs002293_GAAZNW		Cervix	Primary Tumor	DNA	Tumor	a5ecd38c-e944-48aa-ba11-575c6d81e4e8			
+sample	MP2PRT-GAAZNW-TTP1-A-1-0-R-A85O-41	phs002293_GAAZNW		Cervix	Primary Tumor	RNA	Tumor	64ed5f60-aafa-4309-83b6-8f07d7cefede			
+sample	MP2PRT-GAAZTL-NB1-A-1-0-D-A85N-48	phs002293_GAAZTL		Peripheral blood	Blood Derived Normal	DNA	Normal	7172f713-a245-4aa8-94ec-7c1b6e8fa043			
+sample	MP2PRT-GAAZTL-TTP1-A-1-0-D-A85N-48	phs002293_GAAZTL		Cervix	Primary Tumor	DNA	Tumor	bae11595-e1e6-4304-b398-98bdedd6422b			
+sample	MP2PRT-GAAZTL-TTP1-A-1-0-R-A85O-41	phs002293_GAAZTL		Cervix	Primary Tumor	RNA	Tumor	d82690a0-8f2e-4b13-8512-db1d6972bbd3			
+sample	MP2PRT-GAAZUN-TTP1-A-1-0-D-A87Z-48	phs002293_GAAZUN		Cervix	Primary Tumor	DNA	Tumor	b870861c-cc94-4d71-8a74-d69b0c95356a			
+sample	MP2PRT-GAAZUN-TTP1-A-1-0-R-A87Y-41	phs002293_GAAZUN		Cervix	Primary Tumor	RNA	Tumor	158aa376-1fc4-42c1-8079-673f605017dc			
+sample	MP2PRT-GAAZWH-NB1-A-1-0-D-A87P-48	phs002293_GAAZWH		Peripheral blood	Blood Derived Normal	DNA	Normal	1fad7713-a23e-476d-9810-fdee052722f2			
+sample	MP2PRT-GAAZWH-TTR1-A-1-0-D-A87P-48	phs002293_GAAZWH		Cervix	Recurrent Tumor	DNA	Tumor	81af3a6f-a06b-4cdf-972f-18ba0c00b661			
+sample	MP2PRT-GAAZWP-NB1-A-1-0-D-A85N-48	phs002293_GAAZWP		Peripheral blood	Blood Derived Normal	DNA	Normal	741908f4-d552-43a5-a16f-8eac8d32c29f			
+sample	MP2PRT-GAAZWP-TTP1-A-1-0-D-A85N-48	phs002293_GAAZWP		Cervix	Primary Tumor	DNA	Tumor	3e4e0d0e-0721-4f55-99fc-64d6d677d938			
+sample	MP2PRT-GAAZWP-TTP1-A-1-0-R-A85O-41	phs002293_GAAZWP		Cervix	Primary Tumor	RNA	Tumor	6437d811-7dfa-451b-83bf-cf47b95717c8			
+sample	MP2PRT-GAAZYU-TTR1-A-1-0-D-A87P-48	phs002293_GAAZYU		Cervix	Recurrent Tumor	DNA	Tumor	72a8fc21-7d80-4767-a6f3-8517f12cb971			
+sample	MP2PRT-GAAZYU-TTR1-A-1-0-R-A87Q-41	phs002293_GAAZYU		Cervix	Recurrent Tumor	RNA	Tumor	4ac11dc9-1c5f-405d-94fb-e4c5d78e3ad6			
+sample	MP2PRT-GABABY-NB1-A-1-0-D-A85N-48	phs002293_GABABY		Peripheral blood	Blood Derived Normal	DNA	Normal	5f19dcff-b26c-4534-a287-9c6da57c9b08			
+sample	MP2PRT-GABABY-TTP1-A-1-0-D-A85N-48	phs002293_GABABY		Cervix	Primary Tumor	DNA	Tumor	31439d55-6158-4538-975a-95ced6d930b9			
+sample	MP2PRT-GABABY-TTP1-A-1-0-R-A85O-41	phs002293_GABABY		Cervix	Primary Tumor	RNA	Tumor	787e5245-c235-416d-934e-f40ba8a22056			
+sample	MP2PRT-GABASM-NB1-A-1-0-D-A87Z-48	phs002293_GABASM		Peripheral blood	Blood Derived Normal	DNA	Normal	8964f643-cb3d-4275-8da5-f6e5ab7e6ff6			
+sample	MP2PRT-GABASM-TTP1-A-1-0-D-A87Z-48	phs002293_GABASM		Cervix	Primary Tumor	DNA	Tumor	96cd639d-1ef3-4d03-8128-0dfd633f7808			
+sample	MP2PRT-GABASM-TTP1-A-1-0-R-A87Y-41	phs002293_GABASM		Cervix	Primary Tumor	RNA	Tumor	0bf2596d-0390-451d-854f-c3d7fc550706			
+sample	MP2PRT-GABASV-TTP1-A-1-0-D-A83Y-48	phs002293_GABASV		Cervix	Primary Tumor	DNA	Tumor	7d07d2a4-f144-4266-b900-0050c2519683			
+sample	MP2PRT-GABASV-TTP1-A-1-0-R-A83Z-41	phs002293_GABASV		Cervix	Primary Tumor	RNA	Tumor	6b7c54b7-17e4-4655-a3e8-06a1e11541c6			
+sample	MP2PRT-GABBDC-NB1-A-1-0-D-A87P-48	phs002293_GABBDC		Peripheral blood	Blood Derived Normal	DNA	Normal	eff338fc-d27f-4b4e-b79e-0a1c82363e83			
+sample	MP2PRT-GABBDC-TTP1-A-1-0-D-A87P-48	phs002293_GABBDC		Cervix	Primary Tumor	DNA	Tumor	ddab61df-b317-4398-aafd-57b09ead8f31			
+sample	MP2PRT-GABBDC-TTP1-A-1-0-R-A87Q-41	phs002293_GABBDC		Cervix	Primary Tumor	RNA	Tumor	6a1ad1f0-3f21-4750-93d7-6bf2b23a3769			
+sample	MP2PRT-GABBDW-TTP1-A-1-0-D-A85N-48	phs002293_GABBDW		Cervix	Primary Tumor	DNA	Tumor	def7d245-39ef-4d7f-8db7-78c1c4a77ae2			
+sample	MP2PRT-GABBDW-TTP1-A-1-0-R-A85O-41	phs002293_GABBDW		Cervix	Primary Tumor	RNA	Tumor	2ddbebbf-4c03-4c7e-a386-34675cc96ebb			
+sample	MP2PRT-GABBHZ-NB1-A-1-0-D-A87Z-48	phs002293_GABBHZ		Peripheral blood	Blood Derived Normal	DNA	Normal	ae40b2f9-8e73-4e40-ab6f-da40a0639796			
+sample	MP2PRT-GABBHZ-TTP1-A-1-0-D-A87Z-48	phs002293_GABBHZ		Cervix	Primary Tumor	DNA	Tumor	9093baef-0557-44e6-ab89-b0d98b6730b1			
+sample	MP2PRT-GABBHZ-TTP1-A-1-0-R-A87Y-41	phs002293_GABBHZ		Cervix	Primary Tumor	RNA	Tumor	9f6d9d66-43e9-4942-a36a-e678f826e652			
+sample	MP2PRT-GABBJF-NB1-A-1-0-D-A87P-48	phs002293_GABBJF		Peripheral blood	Blood Derived Normal	DNA	Normal	d6d15015-7406-4b1c-9871-bdf5aaa3b677			
+sample	MP2PRT-GABBJF-TTP1-A-1-0-D-A87P-48	phs002293_GABBJF		Cervix	Primary Tumor	DNA	Tumor	f6d820bf-cdbd-4c11-bcaa-999422ad1ac1			
+sample	MP2PRT-GABBJF-TTP1-A-1-0-R-A87Q-41	phs002293_GABBJF		Cervix	Primary Tumor	RNA	Tumor	3b1e946c-d6ab-4867-9f56-3ca6a89522c0			
+sample	MP2PRT-GABBPF-NB1-A-1-0-D-A85N-48	phs002293_GABBPF		Peripheral blood	Blood Derived Normal	DNA	Normal	eac832d5-4350-45a0-9a72-5ec6eacbd6c3			
+sample	MP2PRT-GABBPF-TTP1-A-1-0-D-A85N-48	phs002293_GABBPF		Cervix	Primary Tumor	DNA	Tumor	527184e0-d0cd-4fd1-8db2-3cd978a727eb			
+sample	MP2PRT-GABBPF-TTP1-A-1-0-R-A85O-41	phs002293_GABBPF		Cervix	Primary Tumor	RNA	Tumor	35c69337-f1a3-4d48-9b47-3bd904a8f22a			
+sample	MP2PRT-GABBXB-TTP1-A-1-0-D-A83Y-48	phs002293_GABBXB		Cervix	Primary Tumor	DNA	Tumor	5e0d393a-a8e9-4cbf-a1d4-7c934e90a5ca			
+sample	MP2PRT-GABBXB-TTP1-A-1-0-R-A83Z-41	phs002293_GABBXB		Cervix	Primary Tumor	RNA	Tumor	b71134c3-6449-489e-ba94-7edc31897bc9			
+sample	MP2PRT-GABBXR-NB1-A-1-0-D-A87P-48	phs002293_GABBXR		Peripheral blood	Blood Derived Normal	DNA	Normal	0788093f-11a5-4b73-b026-53d768a9e2e8			
+sample	MP2PRT-GABBXR-TTP1-A-1-0-D-A87P-48	phs002293_GABBXR		Cervix	Primary Tumor	DNA	Tumor	4eccf255-7297-4f7f-be7d-23c85bef4447			
+sample	MP2PRT-GABBXR-TTP1-A-1-0-R-A87Q-41	phs002293_GABBXR		Cervix	Primary Tumor	RNA	Tumor	8850ef12-1830-4b61-a8d4-9abacd2a76ee			
+sample	MP2PRT-GABBYD-NB1-A-1-0-D-A85N-48	phs002293_GABBYD		Peripheral blood	Blood Derived Normal	DNA	Normal	47b3fe74-7996-4789-a3f6-950f79e4cda0			
+sample	MP2PRT-GABBYD-TTP1-A-1-0-D-A85N-48	phs002293_GABBYD		Cervix	Primary Tumor	DNA	Tumor	504ed933-f715-4ae9-91f6-a0d94804aa18			
+sample	MP2PRT-GABBYD-TTP1-A-1-0-R-A85O-41	phs002293_GABBYD		Cervix	Primary Tumor	RNA	Tumor	1853d19a-67d4-47b1-a924-362c860ea7df			
+sample	MP2PRT-GABBYD-TTP1-A-1-0-R-A87Y-41	phs002293_GABBYD		Cervix	Primary Tumor	RNA	Tumor	22cde0da-ceb0-4ea1-8f00-08733bd9e64e			
+sample	MP2PRT-GABCTB-NB1-A-1-0-D-A83Y-48	phs002293_GABCTB		Peripheral blood	Blood Derived Normal	DNA	Normal	85a1e406-8942-4794-a0b8-6b8a01522207			
+sample	MP2PRT-GABCTB-TTP1-A-1-0-D-A83Y-48	phs002293_GABCTB		Cervix	Primary Tumor	DNA	Tumor	ea7874ec-4d7c-4938-b12d-b0ea318111bb			
+sample	MP2PRT-GABCTB-TTP1-A-1-0-R-A83Z-41	phs002293_GABCTB		Cervix	Primary Tumor	RNA	Tumor	4a82d3b3-cc34-46ed-97e4-e19125a87236			
+sample	MP2PRT-GABCUR-TTP1-A-1-0-D-A83Y-48	phs002293_GABCUR		Cervix	Primary Tumor	DNA	Tumor	687e1ced-eff6-441d-a17e-ef9e2ce4987e			
+sample	MP2PRT-GABCUR-TTP1-A-1-0-R-A83Z-41	phs002293_GABCUR		Cervix	Primary Tumor	RNA	Tumor	6449dc7b-7425-4c7e-b1ad-c0614eef998e			
+sample	MP2PRT-GABCZN-NB1-A-1-0-D-A87Z-48	phs002293_GABCZN		Peripheral blood	Blood Derived Normal	DNA	Normal	229c49f3-c594-465f-bda5-fd6ad8f1a954			
+sample	MP2PRT-GABCZN-TTP1-A-1-0-D-A87Z-48	phs002293_GABCZN		Cervix	Primary Tumor	DNA	Tumor	55a06a98-4043-4ba9-987b-5489040c7545			
+sample	MP2PRT-GABCZN-TTP1-A-1-0-R-A87Y-41	phs002293_GABCZN		Cervix	Primary Tumor	RNA	Tumor	f33e73ae-8818-4e06-ad4b-7bcd05cb0756			
+sample	MP2PRT-GABDDP-NB1-A-1-0-D-A83Y-48	phs002293_GABDDP		Peripheral blood	Blood Derived Normal	DNA	Normal	f9341f2e-8a68-47d4-a42a-01ead9b09452			
+sample	MP2PRT-GABDDP-TTP1-A-1-0-D-A83Y-48	phs002293_GABDDP		Cervix	Primary Tumor	DNA	Tumor	0dc27197-1baf-4c21-8cf2-de5051e41819			
+sample	MP2PRT-GABDDP-TTP1-A-1-0-R-A83Z-41	phs002293_GABDDP		Cervix	Primary Tumor	RNA	Tumor	2788f062-8d6f-4c23-a934-f61a57262ca4			
+sample	MP2PRT-GABDFJ-NB1-A-1-0-D-A85N-48	phs002293_GABDFJ		Peripheral blood	Blood Derived Normal	DNA	Normal	55a7a442-1c93-42e6-b331-9764adf1c32e			
+sample	MP2PRT-GABDFJ-TTP1-A-1-0-D-A85N-48	phs002293_GABDFJ		Cervix	Primary Tumor	DNA	Tumor	0c4c8676-2582-44f5-ba42-9dd36c282083			
+sample	MP2PRT-GABDFJ-TTP1-A-1-0-R-A85O-41	phs002293_GABDFJ		Cervix	Primary Tumor	RNA	Tumor	a1a8110c-6a3a-4ca4-85a4-52f34a241601			
+sample	MP2PRT-GABDLV-NB1-A-1-0-D-A85N-48	phs002293_GABDLV		Peripheral blood	Blood Derived Normal	DNA	Normal	e1532dad-b0ff-4ed7-bbe9-b0d86a2be612			
+sample	MP2PRT-GABDLV-TTP1-A-1-0-D-A85N-48	phs002293_GABDLV		Cervix	Primary Tumor	DNA	Tumor	f0e86807-d4d2-44be-836e-57f8e4f7e09e			
+sample	MP2PRT-GABDLV-TTP1-A-1-0-R-A85O-41	phs002293_GABDLV		Cervix	Primary Tumor	RNA	Tumor	e270ef2d-2814-4265-b81c-24e503cdaf32			
+sample	MP2PRT-GABEHD-TTP1-A-1-0-D-A87Z-48	phs002293_GABEHD		Cervix	Primary Tumor	DNA	Tumor	a728154f-ad12-4b78-8908-acd56ea29aa2			
+sample	MP2PRT-GABEHD-TTP1-A-1-0-R-A87Y-41	phs002293_GABEHD		Cervix	Primary Tumor	RNA	Tumor	cf1f74a1-cf12-43fc-930d-24ba534657d8			
+sample	MP2PRT-GABEJG-NB1-A-1-0-D-A87P-48	phs002293_GABEJG		Peripheral blood	Blood Derived Normal	DNA	Normal	5e7fea49-55ab-4af6-b934-94b664cd2a6e			
+sample	MP2PRT-GABEJG-TTP1-A-1-0-D-A87P-48	phs002293_GABEJG		Cervix	Primary Tumor	DNA	Tumor	e91c23ac-579a-4549-97df-40aadbaa2e62			
+sample	MP2PRT-GABEVA-TTP1-A-1-0-D-A87Z-48	phs002293_GABEVA		Cervix	Primary Tumor	DNA	Tumor	2838470b-3dc1-4f19-81e3-3fef53c038a1			
+sample	MP2PRT-GABEVA-TTP1-A-1-0-R-A87Y-41	phs002293_GABEVA		Cervix	Primary Tumor	RNA	Tumor	9b298be7-0af7-404b-b125-b7df7d40e3c1			
+sample	MP2PRT-GABEVV-TTP1-A-1-0-D-A87P-48	phs002293_GABEVV		Cervix	Primary Tumor	DNA	Tumor	06eeb9bb-582f-4081-b1ec-93cf6307ab21			
+sample	MP2PRT-GABEVV-TTP1-A-1-0-R-A87Q-41	phs002293_GABEVV		Cervix	Primary Tumor	RNA	Tumor	9b22846f-2dbc-45d0-8c19-0859a7e9fffd			
+sample	MP2PRT-GABFDW-TTP1-A-1-0-D-A88B-48	phs002293_GABFDW		Cervix	Primary Tumor	DNA	Tumor	7fa93d5f-2321-4111-a323-c2b0b170f98e			
+sample	MP2PRT-GABFDW-TTP1-A-1-0-R-A88C-41	phs002293_GABFDW		Cervix	Primary Tumor	RNA	Tumor	4ca869f9-eccd-4296-bde4-8b01ac9cc651			
+sample	MP2PRT-GABFEH-NB1-A-1-0-D-A87P-48	phs002293_GABFEH		Peripheral blood	Blood Derived Normal	DNA	Normal	eff4ada5-6ce4-49a4-94f1-7747ed0e5686			
+sample	MP2PRT-GABFEH-TTP1-A-1-0-D-A87P-48	phs002293_GABFEH		Cervix	Primary Tumor	DNA	Tumor	5d071d61-b838-445f-bb89-fca9d156eeca			
+sample	MP2PRT-GABFEH-TTP1-A-1-0-R-A87Q-41	phs002293_GABFEH		Cervix	Primary Tumor	RNA	Tumor	7cf6e17b-0268-4d82-a3c7-309ec5cfc105			
+sample	MP2PRT-GABFMA-NB1-A-1-0-D-A87Z-48	phs002293_GABFMA		Peripheral blood	Blood Derived Normal	DNA	Normal	0dee2c45-1440-45cf-84b9-4755cd923d4c			
+sample	MP2PRT-GABFMA-TTP1-A-1-0-D-A87Z-48	phs002293_GABFMA		Cervix	Primary Tumor	DNA	Tumor	fc6b92f3-770a-4763-a1af-bf6c91338ab1			
+sample	MP2PRT-GABFMA-TTP1-A-1-0-R-A87Y-41	phs002293_GABFMA		Cervix	Primary Tumor	RNA	Tumor	ba0afc16-83c6-4aec-a764-1b7e6ce25ce7			
+sample	MP2PRT-GABFMF-TTP1-A-1-0-D-A83Y-48	phs002293_GABFMF		Cervix	Primary Tumor	DNA	Tumor	07b0b971-3fb4-417a-ba7c-543fe123e34e			
+sample	MP2PRT-GABFMF-TTP1-A-1-0-R-A83Z-41	phs002293_GABFMF		Cervix	Primary Tumor	RNA	Tumor	a633dce1-2d26-42db-af8b-b57b2b79bed0			
+sample	MP2PRT-GABFMG-TTP1-A-1-0-D-A87P-48	phs002293_GABFMG		Cervix	Primary Tumor	DNA	Tumor	f27f8246-8668-421c-8b21-8431dfbfd6fb			
+sample	MP2PRT-GABFMG-TTP1-A-1-0-R-A87Q-41	phs002293_GABFMG		Cervix	Primary Tumor	RNA	Tumor	861e5c61-645e-4dac-85ec-928728fcd03b			
+sample	MP2PRT-GABFUP-TTP1-A-1-0-D-A85N-48	phs002293_GABFUP		Cervix	Primary Tumor	DNA	Tumor	328ef98a-5b73-4193-92d1-fd13afedfd00			
+sample	MP2PRT-GABFUP-TTP1-A-1-0-R-A85O-41	phs002293_GABFUP		Cervix	Primary Tumor	RNA	Tumor	15de824c-676e-4c0a-9b2b-6867bc90ce7d			
+sample	MP2PRT-GABFYG-TTP1-A-1-0-D-A87P-48	phs002293_GABFYG		Cervix	Primary Tumor	DNA	Tumor	e5105ef5-18cf-423e-8889-1c266e705d32			
+sample	MP2PRT-GABFYG-TTP1-A-1-0-R-A87Q-41	phs002293_GABFYG		Cervix	Primary Tumor	RNA	Tumor	af5de77c-d74e-4871-a54e-b7104bf26909			
+sample	MP2PRT-GABFZS-NB1-A-1-0-D-A85N-48	phs002293_GABFZS		Peripheral blood	Blood Derived Normal	DNA	Normal	1eaf9f6e-37ee-4ce8-a01d-d2316255f4cb			
+sample	MP2PRT-GABFZS-TTR1-A-1-0-D-A85N-48	phs002293_GABFZS		Cervix	Recurrent Tumor	DNA	Tumor	849213cc-4bce-46c9-b27c-71d1f837203b			
+sample	MP2PRT-GABFZS-TTR1-A-1-0-R-A85O-41	phs002293_GABFZS		Cervix	Recurrent Tumor	RNA	Tumor	b50a70ad-37ee-427e-8868-bfba8f3f3c55			
+sample	MP2PRT-GABGAJ-NB1-A-1-0-D-A87P-48	phs002293_GABGAJ		Peripheral blood	Blood Derived Normal	DNA	Normal	78b087ca-898f-45bb-9a95-b1a6395d04bc			
+sample	MP2PRT-GABGAJ-TTP1-A-1-0-D-A87P-48	phs002293_GABGAJ		Cervix	Primary Tumor	DNA	Tumor	7f5377fc-34bb-42bf-b684-bf61eec5a3dd			
+sample	MP2PRT-GABGAJ-TTP1-A-1-0-R-A87Q-41	phs002293_GABGAJ		Cervix	Primary Tumor	RNA	Tumor	9785535b-f3d0-4d41-9c54-e26594d22f07			
+sample	MP2PRT-GABGFX-TTP1-A-1-0-D-A87Z-48	phs002293_GABGFX		Cervix	Primary Tumor	DNA	Tumor	8a49ac6e-c46c-407b-ae0a-d75c38dfbfab			
+sample	MP2PRT-GABGFX-TTP1-A-1-0-R-A87Y-41	phs002293_GABGFX		Cervix	Primary Tumor	RNA	Tumor	9d5cacc7-4c7c-4787-acc7-324e48e96280			
+sample	MP2PRT-GABGHL-NB1-A-1-0-D-A83Y-48	phs002293_GABGHL		Peripheral blood	Blood Derived Normal	DNA	Normal	9fa97ad7-79f9-4400-a5cd-2e25f41ed3e4			
+sample	MP2PRT-GABGHL-TTP1-A-1-0-D-A83Y-48	phs002293_GABGHL		Cervix	Primary Tumor	DNA	Tumor	efc98254-9837-428c-a184-79a63b6f2c0c			
+sample	MP2PRT-GABGNL-NB1-A-1-0-D-A87Z-48	phs002293_GABGNL		Peripheral blood	Blood Derived Normal	DNA	Normal	a5353f11-ca26-4f0f-9c72-c9abc6411fd2			
+sample	MP2PRT-GABGNL-TTP1-B-1-0-D-A87Z-48	phs002293_GABGNL		Cervix	Primary Tumor	DNA	Tumor	3cb0594a-b8be-4e98-95bf-d22c7f611143			
+sample	MP2PRT-GABGNL-TTP1-B-1-0-R-A87Y-41	phs002293_GABGNL		Cervix	Primary Tumor	RNA	Tumor	6ada3159-b257-469e-b87f-cd4084241c49			
+sample	MP2PRT-GABGPV-NB1-A-1-0-D-A85N-48	phs002293_GABGPV		Peripheral blood	Blood Derived Normal	DNA	Normal	88434fe2-0604-4a0a-9b06-2499d1f9c531			
+sample	MP2PRT-GABGPV-TTP1-A-1-0-D-A85N-48	phs002293_GABGPV		Cervix	Primary Tumor	DNA	Tumor	20cd7d38-c29f-4acb-a64f-acfb7479fbd9			
+sample	MP2PRT-GABGPV-TTP1-A-1-0-R-A85O-41	phs002293_GABGPV		Cervix	Primary Tumor	RNA	Tumor	3191255e-8b37-49e6-af15-53222d46f8b1			
+sample	MP2PRT-GABGWH-TTP1-A-1-0-R-A87Y-41	phs002293_GABGWH		Cervix	Primary Tumor	RNA	Tumor	6f5d2cf3-83bd-45cb-84f7-2625a0f1db8b			
+sample	MP2PRT-GABHGS-NB1-A-1-0-D-A85N-48	phs002293_GABHGS		Peripheral blood	Blood Derived Normal	DNA	Normal	ecf5ca12-e855-435c-bfb3-b34938040335			
+sample	MP2PRT-GABHGS-TTP1-A-1-0-D-A85N-48	phs002293_GABHGS		Cervix	Primary Tumor	DNA	Tumor	b520fa38-9526-4781-92ab-183e5416159b			
+sample	MP2PRT-GABHLL-NB1-A-1-0-D-A87P-48	phs002293_GABHLL		Peripheral blood	Blood Derived Normal	DNA	Normal	36dc87dd-5f8f-45aa-b36b-43b028d609c5			
+sample	MP2PRT-GABHLL-TTP1-A-1-0-D-A87P-48	phs002293_GABHLL		Cervix	Primary Tumor	DNA	Tumor	ef816d89-292e-46e7-8ac2-ec8493af55d7			
+sample	MP2PRT-GABHLL-TTP1-A-1-0-R-A87Q-41	phs002293_GABHLL		Cervix	Primary Tumor	RNA	Tumor	40719a39-d206-4609-8dbe-0e38db84ac38			
+sample	MP2PRT-GABHRE-NB1-A-1-0-D-A85N-48	phs002293_GABHRE		Peripheral blood	Blood Derived Normal	DNA	Normal	e5929f16-e402-45c9-bbf1-66a611739e87			
+sample	MP2PRT-GABHRE-TTP1-B-1-0-D-A88B-48	phs002293_GABHRE		Cervix	Primary Tumor	DNA	Tumor	470d6c45-8504-401d-bd56-dbbc6aa94361			
+sample	MP2PRT-GABHRE-TTP1-B-1-0-R-A87Y-41	phs002293_GABHRE		Cervix	Primary Tumor	RNA	Tumor	ec002e0a-fa8b-4efe-a020-531ffdf6a81d			
+sample	MP2PRT-GABIDE-TTP1-A-1-0-D-A85N-48	phs002293_GABIDE		Cervix	Primary Tumor	DNA	Tumor	78e223a0-b07c-437c-918e-054a943a60b4			
+sample	MP2PRT-GABIDE-TTP1-A-1-0-R-A87Y-41	phs002293_GABIDE		Cervix	Primary Tumor	RNA	Tumor	7c0d2c85-24cb-4693-a1e9-285ed3ea53d3			
+sample	MP2PRT-GABIJD-TTP1-B-1-0-D-A88B-48	phs002293_GABIJD		Cervix	Primary Tumor	DNA	Tumor	c43cc26c-3eac-4e10-8c72-eec554798c15			
+sample	MP2PRT-GABIJD-TTP1-B-1-0-R-A87Q-41	phs002293_GABIJD		Cervix	Primary Tumor	RNA	Tumor	7e3f8112-e3f0-4b3f-8576-aa8702ac9daa			
+sample	MP2PRT-GABIJE-TTP1-A-1-0-D-A85N-48	phs002293_GABIJE		Cervix	Primary Tumor	DNA	Tumor	7ad6d03d-a24d-4955-9995-9edd2b554f30			
+sample	MP2PRT-GABIJE-TTP1-A-1-0-R-A85O-41	phs002293_GABIJE		Cervix	Primary Tumor	RNA	Tumor	b2672fa9-1528-432d-a6f7-c8dbabe5c1b8			
+sample	MP2PRT-GABIJM-NB1-B-1-0-D-A87P-48	phs002293_GABIJM		Peripheral blood	Blood Derived Normal	DNA	Normal	b00b43d8-2064-43c4-aac3-3d5a19a4f82b			
+sample	MP2PRT-GABIJM-TTP1-A-1-0-D-A87P-48	phs002293_GABIJM		Cervix	Primary Tumor	DNA	Tumor	0b57f1dd-891a-4cea-a8c4-81d89fc33809			
+sample	MP2PRT-GABIJM-TTP1-A-1-0-R-A87Q-41	phs002293_GABIJM		Cervix	Primary Tumor	RNA	Tumor	54a1d4b4-3a59-40a1-a772-89461bdf40d2			
+sample	MP2PRT-GABISW-TTM1-B-1-0-D-A88B-48	phs002293_GABISW		Cervix	Metastatic	DNA	Tumor	7f33d161-d101-4db2-8284-f2ff12e9ac2b			
+sample	MP2PRT-GABISW-TTM1-B-1-0-R-A88C-41	phs002293_GABISW		Cervix	Metastatic	RNA	Tumor	abfdf745-64a8-4fba-82e8-83e8460fe5a1			
+sample	MP2PRT-GABIXP-TTP1-A-1-0-D-A85N-48	phs002293_GABIXP		Cervix	Primary Tumor	DNA	Tumor	1ab3594f-9a94-405a-b4a1-3aeec3135a24			
+sample	MP2PRT-GABIXP-TTP1-A-1-0-R-A85O-41	phs002293_GABIXP		Cervix	Primary Tumor	RNA	Tumor	85b5fce4-35b8-4059-9215-5e4f4be87721			
+sample	MP2PRT-GABJES-TTP1-A-1-0-D-A87P-48	phs002293_GABJES		Cervix	Primary Tumor	DNA	Tumor	e58fe260-1d18-4495-8014-830603efccee			
+sample	MP2PRT-GABJLM-NB1-A-1-0-D-A87P-48	phs002293_GABJLM		Peripheral blood	Blood Derived Normal	DNA	Normal	3c4e94dd-981e-4852-b779-c7728496bfe1			
+sample	MP2PRT-GABJLM-TTP1-A-1-0-D-A87P-48	phs002293_GABJLM		Cervix	Primary Tumor	DNA	Tumor	a3a60dd2-504f-4965-8881-1c09fa6c1764			
+sample	MP2PRT-GABJLM-TTP1-A-1-0-R-A87Q-41	phs002293_GABJLM		Cervix	Primary Tumor	RNA	Tumor	025c613a-008a-4272-8217-68f25c0aa03c			
+sample	MP2PRT-GABJPK-NB1-A-1-0-D-A85N-48	phs002293_GABJPK		Peripheral blood	Blood Derived Normal	DNA	Normal	c9334bcc-1466-44d2-abd2-60f4fbc38db8			
+sample	MP2PRT-GABJPK-TTP1-A-1-0-D-A85N-48	phs002293_GABJPK		Cervix	Primary Tumor	DNA	Tumor	eb9d0dc1-9c22-48c4-b2af-510afa375e1d			
+sample	MP2PRT-GABJPK-TTP1-A-1-0-R-A85O-41	phs002293_GABJPK		Cervix	Primary Tumor	RNA	Tumor	0f7b5227-6a53-40d6-9d1a-16b01add42e5			
+sample	MP2PRT-GABJPK-TTP1-A-1-0-R-A87Y-41	phs002293_GABJPK		Cervix	Primary Tumor	RNA	Tumor	ece9812c-a641-4252-ab6c-3ba92814cd90			
+sample	MP2PRT-GABKLH-NB1-A-1-0-D-A83Y-48	phs002293_GABKLH		Peripheral blood	Blood Derived Normal	DNA	Normal	a7c314df-1188-4189-a9c1-f514bff96f6b			
+sample	MP2PRT-GABKLH-TTP1-A-1-0-D-A83Y-48	phs002293_GABKLH		Cervix	Primary Tumor	DNA	Tumor	273087a4-f4f5-4513-9220-189f782daf9c			
+sample	MP2PRT-GABKLH-TTP1-A-1-0-R-A83Z-41	phs002293_GABKLH		Cervix	Primary Tumor	RNA	Tumor	5d0b8fbd-dd7f-4eb8-a4b0-20f6deda3365			
+sample	MP2PRT-GABKPM-NB1-A-1-0-D-A87P-48	phs002293_GABKPM		Peripheral blood	Blood Derived Normal	DNA	Normal	2d7487f3-bc4d-4144-8951-318d6a835bcf			
+sample	MP2PRT-GABKPM-TTP1-A-1-0-D-A87P-48	phs002293_GABKPM		Cervix	Primary Tumor	DNA	Tumor	40ec5829-c9a2-4583-b2db-b261005a291e			
+sample	MP2PRT-GABKPM-TTP1-A-1-0-R-A87Q-41	phs002293_GABKPM		Cervix	Primary Tumor	RNA	Tumor	c59466c7-d6a5-4255-ba78-1e4a4cfe841d			
+sample	MP2PRT-GABKRV-NB1-A-1-0-D-A85N-48	phs002293_GABKRV		Peripheral blood	Blood Derived Normal	DNA	Normal	02b6fdeb-37a2-4245-9276-a8a9c2fa5651			
+sample	MP2PRT-GABKRV-TTP1-A-1-0-D-A85N-48	phs002293_GABKRV		Cervix	Primary Tumor	DNA	Tumor	ef7ce234-4118-47c8-99c0-b69db5b6ceae			
+sample	MP2PRT-GABKRV-TTP1-A-1-0-R-A85O-41	phs002293_GABKRV		Cervix	Primary Tumor	RNA	Tumor	c11a3765-b550-401d-92d1-61b5183f13ea			
+sample	MP2PRT-GABLDB-NB1-A-1-0-D-A85N-48	phs002293_GABLDB		Peripheral blood	Blood Derived Normal	DNA	Normal	1b516b60-af1c-4c9e-b887-c24febd09132			
+sample	MP2PRT-GABLDB-TTP1-A-1-0-D-A85N-48	phs002293_GABLDB		Cervix	Primary Tumor	DNA	Tumor	b6dbaf7f-34c2-46c9-9397-16a8f6ce9c13			
+sample	MP2PRT-GABLDB-TTP1-A-1-0-R-A85O-41	phs002293_GABLDB		Cervix	Primary Tumor	RNA	Tumor	0060ed55-527e-4174-8184-d154f7e3172a			
+sample	MP2PRT-GABLFY-NB1-A-1-0-D-A85N-48	phs002293_GABLFY		Peripheral blood	Blood Derived Normal	DNA	Normal	49df247c-cb70-4072-9d8d-1c3600e802f9			
+sample	MP2PRT-GABLFY-TTP1-A-1-0-D-A85N-48	phs002293_GABLFY		Cervix	Primary Tumor	DNA	Tumor	85046f87-3300-4792-929b-96517419720e			
+sample	MP2PRT-GABLFY-TTP1-A-1-0-R-A85O-41	phs002293_GABLFY		Cervix	Primary Tumor	RNA	Tumor	cce3a7a7-7aa3-498c-9bca-0ef28aa22337			
+sample	MP2PRT-GABLMT-TTP1-A-1-0-D-A87P-48	phs002293_GABLMT		Cervix	Primary Tumor	DNA	Tumor	c6c9c0eb-bdfc-4e6b-ab4b-4a7aa3254aa4			
+sample	MP2PRT-GABLMT-TTP1-A-1-0-R-A87Q-41	phs002293_GABLMT		Cervix	Primary Tumor	RNA	Tumor	0b5f9b29-1820-4ce1-ad9d-7c0331e39d73			
+sample	MP2PRT-GABLMT-TTP1-A-1-0-R-A88C-41	phs002293_GABLMT		Cervix	Primary Tumor	RNA	Tumor	d633ee3d-c803-4b74-800c-d7664244e7ff			
+sample	MP2PRT-GABLMZ-NB1-A-1-0-D-A87Z-48	phs002293_GABLMZ		Peripheral blood	Blood Derived Normal	DNA	Normal	8e07dd22-06a8-45af-9823-94b10e37e361			
+sample	MP2PRT-GABLMZ-TTP1-B-1-0-D-A87Z-48	phs002293_GABLMZ		Cervix	Primary Tumor	DNA	Tumor	e13edf44-e137-4135-9b51-ceaf0cde8859			
+sample	MP2PRT-GABLMZ-TTP1-B-1-0-R-A87Y-41	phs002293_GABLMZ		Cervix	Primary Tumor	RNA	Tumor	0ec9adbb-3afe-4c9b-af29-f3e4bfee09eb			
+sample	MP2PRT-GABLRJ-NB1-A-1-0-D-A87P-48	phs002293_GABLRJ		Peripheral blood	Blood Derived Normal	DNA	Normal	5867356b-d491-4c68-b720-be97b0bbad8c			
+sample	MP2PRT-GABLRJ-TTP1-A-1-0-D-A87P-48	phs002293_GABLRJ		Cervix	Primary Tumor	DNA	Tumor	0a99709e-ebf9-4165-b475-97335495ceb1			
+sample	MP2PRT-GABLRJ-TTP1-A-1-0-R-A87Q-41	phs002293_GABLRJ		Cervix	Primary Tumor	RNA	Tumor	b79748b1-47c8-40fc-8f17-3aa15dd8a13d			
+sample	MP2PRT-GABLUM-NB1-A-1-0-D-A87P-48	phs002293_GABLUM		Peripheral blood	Blood Derived Normal	DNA	Normal	ace25762-1302-498d-9d1a-b8c8a6bd10c0			
+sample	MP2PRT-GABLUM-TTP1-A-1-0-D-A87P-48	phs002293_GABLUM		Cervix	Primary Tumor	DNA	Tumor	cde8a8f5-d43c-4ace-8505-87a48057d9d8			
+sample	MP2PRT-GABLUM-TTP1-A-1-0-R-A87Q-41	phs002293_GABLUM		Cervix	Primary Tumor	RNA	Tumor	787f8ed3-17e6-4b79-a990-9a5bd53bfd5d			
+sample	MP2PRT-GABLUX-TTP1-A-1-0-D-A87Z-48	phs002293_GABLUX		Cervix	Primary Tumor	DNA	Tumor	2cf3206e-bdd8-41ee-8675-04b1bd2af9d3			
+sample	MP2PRT-GABLUX-TTP1-A-1-0-R-A87Y-41	phs002293_GABLUX		Cervix	Primary Tumor	RNA	Tumor	16c8e268-d9b7-49d7-b11c-46c896986db7			
+sample	MP2PRT-GABLWU-NB1-A-1-0-D-A85N-48	phs002293_GABLWU		Peripheral blood	Blood Derived Normal	DNA	Normal	e32d6699-62af-4041-9855-6b8041fedf43			
+sample	MP2PRT-GABLWU-TTP1-A-1-0-D-A85N-48	phs002293_GABLWU		Cervix	Primary Tumor	DNA	Tumor	b219f366-5f88-4009-8caf-efbb6d75dece			
+sample	MP2PRT-GABLWU-TTP1-A-1-0-R-A85O-41	phs002293_GABLWU		Cervix	Primary Tumor	RNA	Tumor	f6befa19-9dd2-48a8-811c-d81cbd1f0634			
+sample	MP2PRT-GABLXR-NB1-A-1-0-D-A83Y-48	phs002293_GABLXR		Peripheral blood	Blood Derived Normal	DNA	Normal	03996162-1bb8-4aa2-bcea-40810564cdf6			
+sample	MP2PRT-GABLXR-TTP1-A-1-0-D-A83Y-48	phs002293_GABLXR		Cervix	Primary Tumor	DNA	Tumor	4b3bd9a4-0aac-4120-8908-e5ee7026e5e9			
+sample	MP2PRT-GABLXR-TTP1-A-1-0-R-A83Z-41	phs002293_GABLXR		Cervix	Primary Tumor	RNA	Tumor	d421faec-0d76-4720-b264-a79ff09208a0			
+sample	MP2PRT-GABMFJ-NB1-A-1-0-D-A85N-48	phs002293_GABMFJ		Peripheral blood	Blood Derived Normal	DNA	Normal	be611cba-1781-4717-ad76-f21b96c934e4			
+sample	MP2PRT-GABMFJ-TTP1-A-1-0-D-A85N-48	phs002293_GABMFJ		Cervix	Primary Tumor	DNA	Tumor	ddcd2f6b-b85e-4ebc-b28f-bd6b22085615			
+sample	MP2PRT-GABMFJ-TTP1-A-1-0-R-A87Y-41	phs002293_GABMFJ		Cervix	Primary Tumor	RNA	Tumor	8d4fe737-9d2e-4210-a36e-ecaaf506e8f6			
+sample	MP2PRT-GABMJL-NB1-A-1-0-D-A87Z-48	phs002293_GABMJL		Peripheral blood	Blood Derived Normal	DNA	Normal	c1bd00de-4f22-428b-a35a-bbb555eb8564			
+sample	MP2PRT-GABMJL-TTP1-A-1-0-D-A87Z-48	phs002293_GABMJL		Cervix	Primary Tumor	DNA	Tumor	8b1f8ce1-316a-4b90-ad7f-2edfa01cd19d			
+sample	MP2PRT-GABMJL-TTP1-A-1-0-R-A87Y-41	phs002293_GABMJL		Cervix	Primary Tumor	RNA	Tumor	b192e4fe-f704-45ff-81af-e721bc023d1c			
+sample	MP2PRT-GABMKC-TTP1-A-1-0-D-A85N-48	phs002293_GABMKC		Cervix	Primary Tumor	DNA	Tumor	dab07cdb-8591-43fb-9b8a-49b50b4588ec			
+sample	MP2PRT-GABMKC-TTP1-A-1-0-R-A85O-41	phs002293_GABMKC		Cervix	Primary Tumor	RNA	Tumor	d46da524-08f2-47fb-b752-0957d1153707			
+sample	MP2PRT-GABMZI-NB1-A-1-0-D-A85N-48	phs002293_GABMZI		Peripheral blood	Blood Derived Normal	DNA	Normal	e6176513-8eb3-4713-af5a-a4b5511c4c79			
+sample	MP2PRT-GABMZI-TTP1-A-1-0-D-A85N-48	phs002293_GABMZI		Cervix	Primary Tumor	DNA	Tumor	e0868074-5fb6-4767-898e-59560b174d7e			
+sample	MP2PRT-GABMZI-TTP1-A-1-0-R-A85O-41	phs002293_GABMZI		Cervix	Primary Tumor	RNA	Tumor	05e1fcc9-fea8-42a6-9414-0266d65e6bf1			
+sample	MP2PRT-GABNEK-NB1-A-1-0-D-A87Z-48	phs002293_GABNEK		Peripheral blood	Blood Derived Normal	DNA	Normal	035228c0-bde4-4cfd-a8c7-522a4b37da13			
+sample	MP2PRT-GABNEK-TTP1-A-1-0-D-A87Z-48	phs002293_GABNEK		Cervix	Primary Tumor	DNA	Tumor	5e24f582-36e7-4380-a036-7428f93c838d			
+sample	MP2PRT-GABNEK-TTP1-A-1-0-R-A87Y-41	phs002293_GABNEK		Cervix	Primary Tumor	RNA	Tumor	78f03e53-0f96-4a42-9d1b-35c15ef4e579			
+sample	MP2PRT-GABNEV-NB1-A-1-0-D-A85N-48	phs002293_GABNEV		Peripheral blood	Blood Derived Normal	DNA	Normal	8c153548-ac57-4181-ade4-d8b3ab922e79			
+sample	MP2PRT-GABNEV-TTP1-A-1-0-D-A85N-48	phs002293_GABNEV		Cervix	Primary Tumor	DNA	Tumor	34db9be8-8b3b-4319-9e2f-7f2b065ec2d9			
+sample	MP2PRT-GABNEV-TTP1-A-1-0-R-A85O-41	phs002293_GABNEV		Cervix	Primary Tumor	RNA	Tumor	b29ff3e9-f2e7-4b9f-967e-5a1cce419f2c			
+sample	MP2PRT-GABNPT-NB1-A-1-0-D-A83Y-48	phs002293_GABNPT		Peripheral blood	Blood Derived Normal	DNA	Normal	8e2cbd80-f970-40cf-9459-5817c449c8be			
+sample	MP2PRT-GABNPT-TTP1-A-1-0-D-A83Y-48	phs002293_GABNPT		Cervix	Primary Tumor	DNA	Tumor	31afe7c4-0dec-4db3-b4c4-44abda8450a2			
+sample	MP2PRT-GABNPT-TTP1-B-1-0-D-A88B-48	phs002293_GABNPT		Cervix	Primary Tumor	DNA	Tumor	8cf84fb8-6e17-4201-ad9f-c258c2bdfc20			
+sample	MP2PRT-GABNPT-TTP1-B-1-0-R-A87Q-41	phs002293_GABNPT		Cervix	Primary Tumor	RNA	Tumor	5adb6b47-c61e-414c-9e35-942bda6d2849			
+sample	MP2PRT-GABNTM-NB1-A-1-0-D-A85N-48	phs002293_GABNTM		Peripheral blood	Blood Derived Normal	DNA	Normal	7831e5a7-6652-48d1-a5ca-41bc33df19a5			
+sample	MP2PRT-GABNTM-TTP1-A-1-0-D-A85N-48	phs002293_GABNTM		Cervix	Primary Tumor	DNA	Tumor	ea165766-3577-4779-81bc-fba9bd9fd19b			
+sample	MP2PRT-GABNTM-TTP1-A-1-0-R-A85O-41	phs002293_GABNTM		Cervix	Primary Tumor	RNA	Tumor	f4a0c0aa-5002-44ea-b1b3-11897575f051			
+sample	MP2PRT-GABNZS-NB1-A-1-0-D-A87P-48	phs002293_GABNZS		Peripheral blood	Blood Derived Normal	DNA	Normal	16b20b9c-0bd6-41f7-bcd6-59a982559de1			
+sample	MP2PRT-GABNZS-TTP1-A-1-0-D-A87P-48	phs002293_GABNZS		Cervix	Primary Tumor	DNA	Tumor	97a7c111-a76a-4824-ac52-e6f6e4d62537			
+sample	MP2PRT-GABNZS-TTP1-A-1-0-R-A87Q-41	phs002293_GABNZS		Cervix	Primary Tumor	RNA	Tumor	360b517f-dc70-4617-b8bd-398f8629133d			
+sample	MP2PRT-GABNZS-TTP1-A-1-0-R-A88C-41	phs002293_GABNZS		Cervix	Primary Tumor	RNA	Tumor	3dbd4b95-bac4-4bbe-bead-4eab87d2a9ca			
+sample	MP2PRT-GABPCP-NB1-A-1-0-D-A85N-48	phs002293_GABPCP		Peripheral blood	Blood Derived Normal	DNA	Normal	92d4228c-1098-40b8-ad33-876876553d7f			
+sample	MP2PRT-GABPCP-TTP1-A-1-0-D-A85N-48	phs002293_GABPCP		Cervix	Primary Tumor	DNA	Tumor	437972eb-4fb1-4949-877b-9843ce25df94			
+sample	MP2PRT-GABPCP-TTP1-A-1-0-R-A85O-41	phs002293_GABPCP		Cervix	Primary Tumor	RNA	Tumor	b907e28e-2d6f-4832-95e3-58fce83b2c4f			
+sample	MP2PRT-GABPNR-NB1-A-1-0-D-A87Z-48	phs002293_GABPNR		Peripheral blood	Blood Derived Normal	DNA	Normal	7444b903-7a3f-437c-b89d-981a06468ed2			
+sample	MP2PRT-GABPNR-TTP1-A-1-0-D-A87Z-48	phs002293_GABPNR		Cervix	Primary Tumor	DNA	Tumor	26ad73bb-d000-43cc-9d23-95a9838d1da2			
+sample	MP2PRT-GABPNR-TTP1-A-1-0-R-A87Y-41	phs002293_GABPNR		Cervix	Primary Tumor	RNA	Tumor	ac50a882-f8ad-434a-b028-c1208d233369			
+sample	MP2PRT-GABPUL-NB1-A-1-0-D-A87Z-48	phs002293_GABPUL		Peripheral blood	Blood Derived Normal	DNA	Normal	f4e9235d-325a-4b4c-a8f3-20198bd35603			
+sample	MP2PRT-GABPUL-TTP1-A-1-0-D-A87Z-48	phs002293_GABPUL		Cervix	Primary Tumor	DNA	Tumor	1240a7d5-7b49-46b4-8a28-2615cec1cb92			
+sample	MP2PRT-GABPUL-TTP1-A-1-0-R-A87Y-41	phs002293_GABPUL		Cervix	Primary Tumor	RNA	Tumor	ddbb4b3b-a120-4dbc-aeee-82ca64a3c82c			
+sample	MP2PRT-GABRDF-NB1-A-1-0-D-A87P-48	phs002293_GABRDF		Peripheral blood	Blood Derived Normal	DNA	Normal	2e5ab780-b59b-476d-87e8-8dc2f0420cbc			
+sample	MP2PRT-GABRDF-TTP1-A-1-0-D-A87P-48	phs002293_GABRDF		Cervix	Primary Tumor	DNA	Tumor	51972f11-c639-4517-8a78-6d8bc68ba13a			
+sample	MP2PRT-GABRDF-TTP1-A-1-0-R-A87Q-41	phs002293_GABRDF		Cervix	Primary Tumor	RNA	Tumor	4b098886-e9e0-47d9-b848-763e7682e9dc			
+sample	MP2PRT-GABRPM-NB1-A-1-0-D-A87Z-48	phs002293_GABRPM		Peripheral blood	Blood Derived Normal	DNA	Normal	8e7d8b99-a6e8-4662-aa03-f625f36f9bb0			
+sample	MP2PRT-GABRPM-TTP1-A-1-0-D-A87Z-48	phs002293_GABRPM		Cervix	Primary Tumor	DNA	Tumor	aa40e073-ef7a-4cdd-9018-3f90559b7150			
+sample	MP2PRT-GABRPM-TTP1-A-1-0-R-A87Y-41	phs002293_GABRPM		Cervix	Primary Tumor	RNA	Tumor	db11ec59-ac3f-45c2-9ac6-9e42bcbabd64			
+sample	MP2PRT-GABRRK-NB1-A-1-0-D-A87Z-48	phs002293_GABRRK		Peripheral blood	Blood Derived Normal	DNA	Normal	3bbec9be-227e-4cfb-97c9-047804a855bd			
+sample	MP2PRT-GABRRK-TTP1-A-1-0-D-A87Z-48	phs002293_GABRRK		Cervix	Primary Tumor	DNA	Tumor	d732c976-d1d1-4054-9ff0-9dbff8b2adf6			
+sample	MP2PRT-GABRRK-TTP1-A-1-0-R-A87Y-41	phs002293_GABRRK		Cervix	Primary Tumor	RNA	Tumor	580089f9-8229-4e23-86e8-a5a7073be52d			
+sample	MP2PRT-GABTDF-NB1-A-1-0-D-A87P-48	phs002293_GABTDF		Peripheral blood	Blood Derived Normal	DNA	Normal	95b87b38-0feb-4d00-a3e4-1b25d8192319			
+sample	MP2PRT-GABTDF-TTM1-A-1-0-D-A87P-48	phs002293_GABTDF		Cervix	Metastatic	DNA	Tumor	9de76aa7-7bcb-43ed-9543-0106ee45330a			
+sample	MP2PRT-GABTDF-TTM1-A-1-0-R-A87Q-41	phs002293_GABTDF		Cervix	Metastatic	RNA	Tumor	444ac24a-26c4-45de-9f08-545b974c60b4			
+sample	MP2PRT-GABTGU-NB1-A-1-0-D-A87Z-48	phs002293_GABTGU		Peripheral blood	Blood Derived Normal	DNA	Normal	e38288b4-930f-4fca-abc5-5dd89099a6ac			
+sample	MP2PRT-GABTGU-TTP1-A-1-0-D-A87Z-48	phs002293_GABTGU		Cervix	Primary Tumor	DNA	Tumor	15adc133-c6ba-4fef-9565-6c873ca5bcf7			
+sample	MP2PRT-GABTGU-TTP1-A-1-0-R-A87Y-41	phs002293_GABTGU		Cervix	Primary Tumor	RNA	Tumor	afd737e0-68e1-4488-a8a3-9325169f662b			
+sample	MP2PRT-GABTTH-NB1-A-1-0-D-A87P-48	phs002293_GABTTH		Peripheral blood	Blood Derived Normal	DNA	Normal	e7a2484f-193b-47bf-b220-3d7b3bccdcdf			
+sample	MP2PRT-GABTTH-TTP1-A-1-0-D-A87P-48	phs002293_GABTTH		Cervix	Primary Tumor	DNA	Tumor	987ca195-170b-4294-9a18-f7815a6fda35			
+sample	MP2PRT-GABTTH-TTP1-A-1-0-R-A87Q-41	phs002293_GABTTH		Cervix	Primary Tumor	RNA	Tumor	b9c3b7c1-c029-4a54-9007-f220cdf43691			
+sample	MP2PRT-GABTYA-NB1-A-1-0-D-A85N-48	phs002293_GABTYA		Peripheral blood	Blood Derived Normal	DNA	Normal	d424d4b0-5593-407b-8694-351bf1ad7b71			
+sample	MP2PRT-GABTYA-TTP1-B-1-0-D-A85N-48	phs002293_GABTYA		Cervix	Primary Tumor	DNA	Tumor	065b69c5-41cc-4df6-b45a-2b32ee2f0270			
+sample	MP2PRT-GABTYA-TTP1-B-1-0-R-A85O-41	phs002293_GABTYA		Cervix	Primary Tumor	RNA	Tumor	290cb243-f967-423d-8944-0331945f464c			
+sample	MP2PRT-GABUCW-NB1-A-1-0-D-A83Y-48	phs002293_GABUCW		Peripheral blood	Blood Derived Normal	DNA	Normal	5bf90bbc-76e4-42aa-a8b3-09e0f1996a59			
+sample	MP2PRT-GABUCW-TTP1-A-1-0-D-A83Y-48	phs002293_GABUCW		Cervix	Primary Tumor	DNA	Tumor	afc04c26-e3d7-4b79-9128-dc48c51ee684			
+sample	MP2PRT-GABUCW-TTP1-A-1-0-R-A83Z-41	phs002293_GABUCW		Cervix	Primary Tumor	RNA	Tumor	06ee2b84-ad01-4455-9732-c2ba0d486b23			
+sample	MP2PRT-GABUHZ-NB1-A-1-0-D-A87Z-48	phs002293_GABUHZ		Peripheral blood	Blood Derived Normal	DNA	Normal	59330c89-0a59-44eb-9c55-6e8dde158e25			
+sample	MP2PRT-GABUHZ-TTR1-A-1-0-D-A87Z-48	phs002293_GABUHZ		Cervix	Recurrent Tumor	DNA	Tumor	473ae125-2537-458f-8278-cd23e6c565c4			
+sample	MP2PRT-GABUHZ-TTR1-A-1-0-R-A87Y-41	phs002293_GABUHZ		Cervix	Recurrent Tumor	RNA	Tumor	5c5ab0f5-a149-44b4-b172-bdd7f218b60a			
+sample	MP2PRT-GABUIE-TTP1-A-1-0-D-A87Z-48	phs002293_GABUIE		Cervix	Primary Tumor	DNA	Tumor	63a51041-77a7-44c4-8d60-f470d95f9f1d			
+sample	MP2PRT-GABUIE-TTP1-A-1-0-R-A87Y-41	phs002293_GABUIE		Cervix	Primary Tumor	RNA	Tumor	8df068bb-0fc9-434b-b49a-22315799db9e			
+sample	MP2PRT-GABUIW-NB1-A-1-0-D-A87Z-48	phs002293_GABUIW		Peripheral blood	Blood Derived Normal	DNA	Normal	3e5c355d-7ab6-450c-bd30-3cf69670eaf8			
+sample	MP2PRT-GABUIW-TTP1-A-1-0-D-A87Z-48	phs002293_GABUIW		Cervix	Primary Tumor	DNA	Tumor	0dc31c85-779e-451d-b4bb-a9ee07e1f5a8			
+sample	MP2PRT-GABUIW-TTP1-A-1-0-R-A87Y-41	phs002293_GABUIW		Cervix	Primary Tumor	RNA	Tumor	d94b5696-076c-481f-9993-89d48ec17936			
+sample	MP2PRT-GABUKB-TTP1-A-1-0-D-A87Z-48	phs002293_GABUKB		Cervix	Primary Tumor	DNA	Tumor	5548c46d-a660-41c1-8443-8ba72f6351cb			
+sample	MP2PRT-GABUKB-TTP1-A-1-0-R-A87Y-41	phs002293_GABUKB		Cervix	Primary Tumor	RNA	Tumor	0f66e303-8772-41a6-8db3-a02a66e0fdd3			
+sample	MP2PRT-GABUMM-TTP1-B-1-0-D-A85N-48	phs002293_GABUMM		Cervix	Primary Tumor	DNA	Tumor	050df905-a853-49a8-8235-5284530ba701			
+sample	MP2PRT-GABUMM-TTP1-B-1-0-R-A85O-41	phs002293_GABUMM		Cervix	Primary Tumor	RNA	Tumor	4d724730-8ec5-4db9-a314-05f295474e87			
+sample	MP2PRT-GABUPS-TTP1-A-1-0-D-A87Z-48	phs002293_GABUPS		Cervix	Primary Tumor	DNA	Tumor	32cf7b5b-79c0-4d6d-9311-350452b712dc			
+sample	MP2PRT-GABUPS-TTP1-A-1-0-R-A87Y-41	phs002293_GABUPS		Cervix	Primary Tumor	RNA	Tumor	206d1d56-0786-4f7a-8d97-9660c5ebfb8c			
+sample	MP2PRT-GABURI-NB1-A-1-0-D-A87P-48	phs002293_GABURI		Peripheral blood	Blood Derived Normal	DNA	Normal	314f2204-5d88-4fb1-a9d4-1326e6f12b1a			
+sample	MP2PRT-GABURI-TTP1-A-1-0-D-A87P-48	phs002293_GABURI		Cervix	Primary Tumor	DNA	Tumor	850690a2-95f3-4b58-be5b-f70f65004d9f			
+sample	MP2PRT-GABURI-TTP1-A-1-0-R-A87Q-41	phs002293_GABURI		Cervix	Primary Tumor	RNA	Tumor	8795b924-096f-4b83-b1fa-9a5435c5a8f1			
+sample	MP2PRT-GABUXN-NB1-A-1-0-D-A87Z-48	phs002293_GABUXN		Peripheral blood	Blood Derived Normal	DNA	Normal	be0e48a6-7dba-4bdb-9a90-e7ba919173f6			
+sample	MP2PRT-GABUXN-TTP1-A-1-0-D-A87Z-48	phs002293_GABUXN		Cervix	Primary Tumor	DNA	Tumor	241167f3-6aa0-454c-b6c5-6adc16eb4583			
+sample	MP2PRT-GABUXN-TTP1-A-1-0-R-A87Y-41	phs002293_GABUXN		Cervix	Primary Tumor	RNA	Tumor	90221bdf-57ba-4e9f-a09b-4efa2c3b4a03			
+sample	MP2PRT-GABYTP-TTP1-A-1-0-D-A83Y-48	phs002293_GABYTP		Cervix	Primary Tumor	DNA	Tumor	324fa1d7-007b-4d95-8249-f1d3e3c31e05			
+sample	MP2PRT-GABYTP-TTP1-A-1-0-R-A83Z-41	phs002293_GABYTP		Cervix	Primary Tumor	RNA	Tumor	b297a978-8e5e-4878-ac3f-253bba87994e			
+sample	MP2PRT-GACDYJ-NB1-A-1-0-D-A87Z-48	phs002293_GACDYJ		Peripheral blood	Blood Derived Normal	DNA	Normal	8dd9e722-a5c0-47d6-845c-3c95e42ff6b7			
+sample	MP2PRT-GACDYJ-TTP1-A-1-0-D-A87Z-48	phs002293_GACDYJ		Cervix	Primary Tumor	DNA	Tumor	2089c285-5a9a-4e61-8b52-38aa1b73ecf8			
+sample	MP2PRT-GACDYJ-TTP1-A-1-0-R-A87Y-41	phs002293_GACDYJ		Cervix	Primary Tumor	RNA	Tumor	f5fa2544-1015-44c2-afdb-a31bddb929df			

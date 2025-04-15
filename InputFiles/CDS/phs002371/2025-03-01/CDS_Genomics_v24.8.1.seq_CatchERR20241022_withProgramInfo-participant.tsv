@@ -1,0 +1,457 @@
+participant_id	race	ethnicity	sex	type	study_participant_id	study.phs_accession	gender
+HTA3_50044	Asian	Not Hispanic or Latino	Male	participant	phs002371_HTA3_50044	phs002371	Not specified in data
+HTA12_299	White	Not Hispanic or Latino	Male	participant	phs002371_HTA12_299	phs002371	Not specified in data
+HTA12_300	White	Not Hispanic or Latino	Male	participant	phs002371_HTA12_300	phs002371	Not specified in data
+HTA12_303	White	Not Hispanic or Latino	Male	participant	phs002371_HTA12_303	phs002371	Not specified in data
+HTA12_304	White	Not Hispanic or Latino	Female	participant	phs002371_HTA12_304	phs002371	Not specified in data
+HTA12_307	White	Not Hispanic or Latino	Male	participant	phs002371_HTA12_307	phs002371	Not specified in data
+HTA12_308	White	Not Hispanic or Latino	Male	participant	phs002371_HTA12_308	phs002371	Not specified in data
+HTA12_309	White	Not Hispanic or Latino	Female	participant	phs002371_HTA12_309	phs002371	Not specified in data
+HTA12_311	White	Not Hispanic or Latino	Male	participant	phs002371_HTA12_311	phs002371	Not specified in data
+HTA12_312	White	Not Hispanic or Latino	Male	participant	phs002371_HTA12_312	phs002371	Not specified in data
+HTA10_01	White	Hispanic or Latino	Male	participant	phs002371_HTA10_01	phs002371	Not specified in data
+HTA10_02	White	Not Hispanic or Latino	Female	participant	phs002371_HTA10_02	phs002371	Not specified in data
+HTA10_03	White	Not Hispanic or Latino	Female	participant	phs002371_HTA10_03	phs002371	Not specified in data
+HTA10_04	White	Hispanic or Latino	Female	participant	phs002371_HTA10_04	phs002371	Not specified in data
+HTA10_28	Unknown	Unknown	Male	participant	phs002371_HTA10_28	phs002371	Not specified in data
+HTA10_29	Unknown	Unknown	Unknown	participant	phs002371_HTA10_29	phs002371	Not specified in data
+HTA10_30	Unknown	Unknown	Unknown	participant	phs002371_HTA10_30	phs002371	Not specified in data
+HTA10_32	Unknown	Unknown	Female	participant	phs002371_HTA10_32	phs002371	Not specified in data
+HTA10_33	Unknown	Unknown	Male	participant	phs002371_HTA10_33	phs002371	Not specified in data
+HTA10_34	Unknown	Hispanic or Latino	Male	participant	phs002371_HTA10_34	phs002371	Not specified in data
+HTA3_70147	White	Not Hispanic or Latino	Male	participant	phs002371_HTA3_70147	phs002371	Not specified in data
+HTA3_70153	White	Not Hispanic or Latino	Female	participant	phs002371_HTA3_70153	phs002371	Not specified in data
+HTA3_70150	White	Not Hispanic or Latino	Male	participant	phs002371_HTA3_70150	phs002371	Not specified in data
+HTA3_70149	White	Not Hispanic or Latino	Male	participant	phs002371_HTA3_70149	phs002371	Not specified in data
+HTA3_70152	White	Not Hispanic or Latino	Male	participant	phs002371_HTA3_70152	phs002371	Not specified in data
+HTA3_70005	White	Not Hispanic or Latino	Male	participant	phs002371_HTA3_70005	phs002371	Not specified in data
+HTA3_70145	White	Not Hispanic or Latino	Male	participant	phs002371_HTA3_70145	phs002371	Not specified in data
+HTA3_70161	White	Not Hispanic or Latino	Male	participant	phs002371_HTA3_70161	phs002371	Not specified in data
+HTA3_70142	White	Not Hispanic or Latino	Female	participant	phs002371_HTA3_70142	phs002371	Not specified in data
+HTA3_70127	White	Not Hispanic or Latino	Male	participant	phs002371_HTA3_70127	phs002371	Not specified in data
+HTA3_70081	White	Not Hispanic or Latino	Male	participant	phs002371_HTA3_70081	phs002371	Not specified in data
+HTA3_70102	White	Not Hispanic or Latino	Male	participant	phs002371_HTA3_70102	phs002371	Not specified in data
+HTA3_70106	White	Not Hispanic or Latino	Male	participant	phs002371_HTA3_70106	phs002371	Not specified in data
+HTA3_70111	White	Not Hispanic or Latino	Male	participant	phs002371_HTA3_70111	phs002371	Not specified in data
+HTA3_70119	White	Not Hispanic or Latino	Male	participant	phs002371_HTA3_70119	phs002371	Not specified in data
+HTA3_70128	White	Not Hispanic or Latino	Female	participant	phs002371_HTA3_70128	phs002371	Not specified in data
+HTA3_70132	White	Not Hispanic or Latino	Male	participant	phs002371_HTA3_70132	phs002371	Not specified in data
+HTA3_70134	Not Reported	Not Reported	Not Reported	participant	phs002371_HTA3_70134	phs002371	Not specified in data
+HTA3_70137	White	Not Hispanic or Latino	Female	participant	phs002371_HTA3_70137	phs002371	Not specified in data
+HTA12_233	White	Not Hispanic or Latino	Female	participant	phs002371_HTA12_233	phs002371	Not specified in data
+HTA12_118	Black or African American	Not Hispanic or Latino	Female	participant	phs002371_HTA12_118	phs002371	Not specified in data
+HTA12_119	White	Not Hispanic or Latino	Female	participant	phs002371_HTA12_119	phs002371	Not specified in data
+HTA12_234	Black or African American	Not Hispanic or Latino	Female	participant	phs002371_HTA12_234	phs002371	Not specified in data
+HTA12_235	White	Not Hispanic or Latino	Female	participant	phs002371_HTA12_235	phs002371	Not specified in data
+HTA12_236	Black or African American	Not Hispanic or Latino	Female	participant	phs002371_HTA12_236	phs002371	Not specified in data
+HTA12_237	White	Not Hispanic or Latino	Female	participant	phs002371_HTA12_237	phs002371	Not specified in data
+HTA12_238	White	Not Hispanic or Latino	Female	participant	phs002371_HTA12_238	phs002371	Not specified in data
+HTA12_239	White	Not Hispanic or Latino	Female	participant	phs002371_HTA12_239	phs002371	Not specified in data
+HTA12_240	White	Not Hispanic or Latino	Female	participant	phs002371_HTA12_240	phs002371	Not specified in data
+HTA12_120	White	Not Hispanic or Latino	Female	participant	phs002371_HTA12_120	phs002371	Not specified in data
+HTA12_241	White	Not Hispanic or Latino	Female	participant	phs002371_HTA12_241	phs002371	Not specified in data
+HTA12_242	White	Not Hispanic or Latino	Female	participant	phs002371_HTA12_242	phs002371	Not specified in data
+HTA12_243	White	Not Hispanic or Latino	Female	participant	phs002371_HTA12_243	phs002371	Not specified in data
+HTA12_123	Black or African American	Not Hispanic or Latino	Female	participant	phs002371_HTA12_123	phs002371	Not specified in data
+HTA12_124	White	Not Hispanic or Latino	Female	participant	phs002371_HTA12_124	phs002371	Not specified in data
+HTA12_244	Not Allowed to Collect	Hispanic or Latino	Female	participant	phs002371_HTA12_244	phs002371	Not specified in data
+HTA12_127	White	Not Hispanic or Latino	Female	participant	phs002371_HTA12_127	phs002371	Not specified in data
+HTA12_245	Black or African American	Not Hispanic or Latino	Female	participant	phs002371_HTA12_245	phs002371	Not specified in data
+HTA12_129	White	Not Hispanic or Latino	Female	participant	phs002371_HTA12_129	phs002371	Not specified in data
+HTA12_130	White	Not Hispanic or Latino	Female	participant	phs002371_HTA12_130	phs002371	Not specified in data
+HTA12_131	Black or African American	Not Hispanic or Latino	Female	participant	phs002371_HTA12_131	phs002371	Not specified in data
+HTA12_134	White	Not Hispanic or Latino	Female	participant	phs002371_HTA12_134	phs002371	Not specified in data
+HTA12_135	White	Not Hispanic or Latino	Female	participant	phs002371_HTA12_135	phs002371	Not specified in data
+HTA12_246	White	Not Hispanic or Latino	Female	participant	phs002371_HTA12_246	phs002371	Not specified in data
+HTA12_139	White	Not Hispanic or Latino	Female	participant	phs002371_HTA12_139	phs002371	Not specified in data
+HTA12_142	White	Not Hispanic or Latino	Female	participant	phs002371_HTA12_142	phs002371	Not specified in data
+HTA12_145	White	Not Hispanic or Latino	Female	participant	phs002371_HTA12_145	phs002371	Not specified in data
+HTA12_248	White	Not Hispanic or Latino	Female	participant	phs002371_HTA12_248	phs002371	Not specified in data
+HTA12_249	White	Not Hispanic or Latino	Female	participant	phs002371_HTA12_249	phs002371	Not specified in data
+HTA12_250	White	Not Hispanic or Latino	Female	participant	phs002371_HTA12_250	phs002371	Not specified in data
+HTA12_251	White	Not Hispanic or Latino	Female	participant	phs002371_HTA12_251	phs002371	Not specified in data
+HTA12_252	White	Not Hispanic or Latino	Female	participant	phs002371_HTA12_252	phs002371	Not specified in data
+HTA12_257	White	Not Hispanic or Latino	Female	participant	phs002371_HTA12_257	phs002371	Not specified in data
+HTA12_258	White	Not Hispanic or Latino	Male	participant	phs002371_HTA12_258	phs002371	Not specified in data
+HTA12_259	White	Not Hispanic or Latino	Male	participant	phs002371_HTA12_259	phs002371	Not specified in data
+HTA12_132	White	Not Hispanic or Latino	Female	participant	phs002371_HTA12_132	phs002371	Not specified in data
+HTA12_260	White	Not Hispanic or Latino	Female	participant	phs002371_HTA12_260	phs002371	Not specified in data
+HTA12_133	White	Not Hispanic or Latino	Male	participant	phs002371_HTA12_133	phs002371	Not specified in data
+HTA12_138	White	Not Hispanic or Latino	Male	participant	phs002371_HTA12_138	phs002371	Not specified in data
+HTA12_247	Black or African American	Not Hispanic or Latino	Female	participant	phs002371_HTA12_247	phs002371	Not specified in data
+HTA12_140	White	Not Hispanic or Latino	Female	participant	phs002371_HTA12_140	phs002371	Not specified in data
+HTA12_253	Black or African American	Not Hispanic or Latino	Female	participant	phs002371_HTA12_253	phs002371	Not specified in data
+HTA12_264	Black or African American	Not Hispanic or Latino	Female	participant	phs002371_HTA12_264	phs002371	Not specified in data
+HTA12_266	Asian	Not Hispanic or Latino	Female	participant	phs002371_HTA12_266	phs002371	Not specified in data
+HTA12_270	White	Not Hispanic or Latino	Male	participant	phs002371_HTA12_270	phs002371	Not specified in data
+HTA12_254	Asian	Not Hispanic or Latino	Female	participant	phs002371_HTA12_254	phs002371	Not specified in data
+HTA12_271	White	Not Hispanic or Latino	Female	participant	phs002371_HTA12_271	phs002371	Not specified in data
+HTA12_272	White	Not Hispanic or Latino	Male	participant	phs002371_HTA12_272	phs002371	Not specified in data
+HTA12_255	White	Not Hispanic or Latino	Female	participant	phs002371_HTA12_255	phs002371	Not specified in data
+HTA3_50203	White	Not Hispanic or Latino	Male	participant	phs002371_HTA3_50203	phs002371	Not specified in data
+HTA3_50301	White	Not Hispanic or Latino	Female	participant	phs002371_HTA3_50301	phs002371	Not specified in data
+HTA3_50302	White	Not Hispanic or Latino	Male	participant	phs002371_HTA3_50302	phs002371	Not specified in data
+HTA3_50303	White	Not Hispanic or Latino	Female	participant	phs002371_HTA3_50303	phs002371	Not specified in data
+HTA3_50304	White	Not Hispanic or Latino	Male	participant	phs002371_HTA3_50304	phs002371	Not specified in data
+HTA3_50305	White	Not Hispanic or Latino	Female	participant	phs002371_HTA3_50305	phs002371	Not specified in data
+HTA3_50306	White	Not Hispanic or Latino	Male	participant	phs002371_HTA3_50306	phs002371	Not specified in data
+HTA3_50307	Black or African American	Not Hispanic or Latino	Male	participant	phs002371_HTA3_50307	phs002371	Not specified in data
+HTA3_50308	Black or African American	Not Hispanic or Latino	Female	participant	phs002371_HTA3_50308	phs002371	Not specified in data
+HTA3_50309	Black or African American	Not Hispanic or Latino	Female	participant	phs002371_HTA3_50309	phs002371	Not specified in data
+HTA3_50310	White	Not Hispanic or Latino	Male	participant	phs002371_HTA3_50310	phs002371	Not specified in data
+HTA3_50311	White	Not Hispanic or Latino	Male	participant	phs002371_HTA3_50311	phs002371	Not specified in data
+HTA3_50312	White	Not Hispanic or Latino	Male	participant	phs002371_HTA3_50312	phs002371	Not specified in data
+HTA3_50313	White	Not Hispanic or Latino	Female	participant	phs002371_HTA3_50313	phs002371	Not specified in data
+HTA3_50401	White	Not Hispanic or Latino	Male	participant	phs002371_HTA3_50401	phs002371	Not specified in data
+HTA3_50402	White	Not Hispanic or Latino	Female	participant	phs002371_HTA3_50402	phs002371	Not specified in data
+HTA3_50403	White	Not Hispanic or Latino	Male	participant	phs002371_HTA3_50403	phs002371	Not specified in data
+HTA3_50404	White	Not Hispanic or Latino	Male	participant	phs002371_HTA3_50404	phs002371	Not specified in data
+HTA3_50405	White	Not Hispanic or Latino	Male	participant	phs002371_HTA3_50405	phs002371	Not specified in data
+HTA3_50406	White	Not Hispanic or Latino	Female	participant	phs002371_HTA3_50406	phs002371	Not specified in data
+HTA3_50407	White	Not Hispanic or Latino	Male	participant	phs002371_HTA3_50407	phs002371	Not specified in data
+HTA3_50408	White	Not Hispanic or Latino	Female	participant	phs002371_HTA3_50408	phs002371	Not specified in data
+HTA3_50409	White	Not Hispanic or Latino	Female	participant	phs002371_HTA3_50409	phs002371	Not specified in data
+HTA3_50410	White	Not Hispanic or Latino	Male	participant	phs002371_HTA3_50410	phs002371	Not specified in data
+HTA3_50411	White	Not Hispanic or Latino	Female	participant	phs002371_HTA3_50411	phs002371	Not specified in data
+HTA3_50412	White	Not Hispanic or Latino	Female	participant	phs002371_HTA3_50412	phs002371	Not specified in data
+HTA3_50413	White	Not Hispanic or Latino	Male	participant	phs002371_HTA3_50413	phs002371	Not specified in data
+HTA3_50414	White	Not Hispanic or Latino	Female	participant	phs002371_HTA3_50414	phs002371	Not specified in data
+HTA3_50415	White	Not Hispanic or Latino	Male	participant	phs002371_HTA3_50415	phs002371	Not specified in data
+HTA3_50416	White	Not Hispanic or Latino	Female	participant	phs002371_HTA3_50416	phs002371	Not specified in data
+HTA3_50417	White	Not Hispanic or Latino	Male	participant	phs002371_HTA3_50417	phs002371	Not specified in data
+HTA3_50418	White	Not Hispanic or Latino	Male	participant	phs002371_HTA3_50418	phs002371	Not specified in data
+HTA3_50419	White	Not Hispanic or Latino	Female	participant	phs002371_HTA3_50419	phs002371	Not specified in data
+HTA3_50420	White	Not Hispanic or Latino	Female	participant	phs002371_HTA3_50420	phs002371	Not specified in data
+HTA3_50421	White	Not Hispanic or Latino	Male	participant	phs002371_HTA3_50421	phs002371	Not specified in data
+HTA3_50422	White	Not Hispanic or Latino	Female	participant	phs002371_HTA3_50422	phs002371	Not specified in data
+HTA3_80002	White	Not Hispanic or Latino	Female	participant	phs002371_HTA3_80002	phs002371	Not specified in data
+HTA3_80005	White	Not Hispanic or Latino	Female	participant	phs002371_HTA3_80005	phs002371	Not specified in data
+HTA3_80009	White	Not Hispanic or Latino	Female	participant	phs002371_HTA3_80009	phs002371	Not specified in data
+HTA3_80018	Unknown	Hispanic or Latino	Male	participant	phs002371_HTA3_80018	phs002371	Not specified in data
+HTA3_80019	Black or African American	Not Hispanic or Latino	Female	participant	phs002371_HTA3_80019	phs002371	Not specified in data
+HTA3_80020	White	Not Hispanic or Latino	Female	participant	phs002371_HTA3_80020	phs002371	Not specified in data
+HTA3_80021	Asian	Not Hispanic or Latino	Female	participant	phs002371_HTA3_80021	phs002371	Not specified in data
+HTA3_80022	Asian	Not Hispanic or Latino	Female	participant	phs002371_HTA3_80022	phs002371	Not specified in data
+HTA3_80023	White	Not Hispanic or Latino	Male	participant	phs002371_HTA3_80023	phs002371	Not specified in data
+HTA3_80024	White	Not Hispanic or Latino	Not Reported	participant	phs002371_HTA3_80024	phs002371	Not specified in data
+HTA3_80025	White	Not Hispanic or Latino	Male	participant	phs002371_HTA3_80025	phs002371	Not specified in data
+HTA3_80026	Unknown	Not Hispanic or Latino	Not Reported	participant	phs002371_HTA3_80026	phs002371	Not specified in data
+HTA4_1016	White	Not Hispanic or Latino	Male	participant	phs002371_HTA4_1016	phs002371	Not specified in data
+HTA4_1007	Black or African American	Not Hispanic or Latino	Male	participant	phs002371_HTA4_1007	phs002371	Not specified in data
+HTA4_1004	White	Not Hispanic or Latino	Female	participant	phs002371_HTA4_1004	phs002371	Not specified in data
+HTA4_1013	Asian	Hispanic or Latino	Male	participant	phs002371_HTA4_1013	phs002371	Not specified in data
+HTA4_1008	White	Not Hispanic or Latino	Female	participant	phs002371_HTA4_1008	phs002371	Not specified in data
+HTA4_1022	Black or African American	Not Hispanic or Latino	Male	participant	phs002371_HTA4_1022	phs002371	Not specified in data
+HTA4_1006	White	Not Hispanic or Latino	Female	participant	phs002371_HTA4_1006	phs002371	Not specified in data
+HTA4_1020	White	Not Hispanic or Latino	Female	participant	phs002371_HTA4_1020	phs002371	Not specified in data
+HTA4_1015	White	Not Hispanic or Latino	Female	participant	phs002371_HTA4_1015	phs002371	Not specified in data
+HTA4_1011	Asian	Not Hispanic or Latino	Female	participant	phs002371_HTA4_1011	phs002371	Not specified in data
+HTA4_1005	White	Not Hispanic or Latino	Male	participant	phs002371_HTA4_1005	phs002371	Not specified in data
+HTA4_1009	Black or African American	Not Hispanic or Latino	Female	participant	phs002371_HTA4_1009	phs002371	Not specified in data
+HTA4_1023	White	Not Hispanic or Latino	Female	participant	phs002371_HTA4_1023	phs002371	Not specified in data
+HTA4_1014	White	Not Hispanic or Latino	Female	participant	phs002371_HTA4_1014	phs002371	Not specified in data
+HTA4_1017	White	Not Hispanic or Latino	Female	participant	phs002371_HTA4_1017	phs002371	Not specified in data
+HTA4_1018	White	Not Hispanic or Latino	Male	participant	phs002371_HTA4_1018	phs002371	Not specified in data
+HTA4_1010	White	Unknown	Female	participant	phs002371_HTA4_1010	phs002371	Not specified in data
+HTA4_1002	White	Not Hispanic or Latino	Female	participant	phs002371_HTA4_1002	phs002371	Not specified in data
+HTA4_1012	Black or African American	Not Hispanic or Latino	Male	participant	phs002371_HTA4_1012	phs002371	Not specified in data
+HTA4_1019	White	Unknown	Male	participant	phs002371_HTA4_1019	phs002371	Not specified in data
+HTA4_2007	Not Reported	Not Reported	Not Reported	participant	phs002371_HTA4_2007	phs002371	Not specified in data
+HTA4_2005	Not Reported	Not Reported	Not Reported	participant	phs002371_HTA4_2005	phs002371	Not specified in data
+HTA4_2001	Not Reported	Not Reported	Not Reported	participant	phs002371_HTA4_2001	phs002371	Not specified in data
+HTA4_2003	Not Reported	Not Reported	Not Reported	participant	phs002371_HTA4_2003	phs002371	Not specified in data
+HTA4_2002	Not Reported	Not Reported	Not Reported	participant	phs002371_HTA4_2002	phs002371	Not specified in data
+HTA4_2004	Not Reported	Not Reported	Not Reported	participant	phs002371_HTA4_2004	phs002371	Not specified in data
+HTA4_2012	Not Reported	Not Reported	Not Reported	participant	phs002371_HTA4_2012	phs002371	Not specified in data
+HTA4_2009	Not Reported	Not Reported	Not Reported	participant	phs002371_HTA4_2009	phs002371	Not specified in data
+HTA4_2013	Not Reported	Not Reported	Not Reported	participant	phs002371_HTA4_2013	phs002371	Not specified in data
+HTA4_2008	Not Reported	Not Reported	Not Reported	participant	phs002371_HTA4_2008	phs002371	Not specified in data
+HTA4_2006	Not Reported	Not Reported	Not Reported	participant	phs002371_HTA4_2006	phs002371	Not specified in data
+HTA4_2014	Not Reported	Not Reported	Not Reported	participant	phs002371_HTA4_2014	phs002371	Not specified in data
+HTA4_2016	Not Reported	Not Reported	Not Reported	participant	phs002371_HTA4_2016	phs002371	Not specified in data
+HTA4_2015	Not Reported	Not Reported	Not Reported	participant	phs002371_HTA4_2015	phs002371	Not specified in data
+HTA4_2011	Not Reported	Not Reported	Not Reported	participant	phs002371_HTA4_2011	phs002371	Not specified in data
+HTA4_2010	Not Reported	Not Reported	Not Reported	participant	phs002371_HTA4_2010	phs002371	Not specified in data
+HTA10_05	White	Hispanic or Latino	Female	participant	phs002371_HTA10_05	phs002371	Not specified in data
+HTA10_06	White	Hispanic or Latino	Male	participant	phs002371_HTA10_06	phs002371	Not specified in data
+HTA12_301	White	Not Hispanic or Latino	Male	participant	phs002371_HTA12_301	phs002371	Not specified in data
+HTA12_302	White	Not Hispanic or Latino	Male	participant	phs002371_HTA12_302	phs002371	Not specified in data
+HTA12_305	White	Not Hispanic or Latino	Female	participant	phs002371_HTA12_305	phs002371	Not specified in data
+HTA12_306	White	Not Hispanic or Latino	Male	participant	phs002371_HTA12_306	phs002371	Not specified in data
+HTA12_310	White	Not Hispanic or Latino	Female	participant	phs002371_HTA12_310	phs002371	Not specified in data
+HTA12_143	White	Not Hispanic or Latino	Female	participant	phs002371_HTA12_143	phs002371	Not specified in data
+HTA12_146	Not Allowed to Collect	Not Hispanic or Latino	Female	participant	phs002371_HTA12_146	phs002371	Not specified in data
+HTA11_2951	Black or African American	Not Hispanic or Latino	Female	participant	phs002371_HTA11_2951	phs002371	Not specified in data
+HTA11_4223	Not Reported	Not Reported	Female	participant	phs002371_HTA11_4223	phs002371	Not specified in data
+HTA11_5150	White	Not Hispanic or Latino	Male	participant	phs002371_HTA11_5150	phs002371	Not specified in data
+HTA11_5812	White	Not Hispanic or Latino	Female	participant	phs002371_HTA11_5812	phs002371	Not specified in data
+HTA11_6639	White	Not Hispanic or Latino	Male	participant	phs002371_HTA11_6639	phs002371	Not specified in data
+HTA11_7128	Black or African American	Not Hispanic or Latino	Female	participant	phs002371_HTA11_7128	phs002371	Not specified in data
+HTA11_8539	White	Not Hispanic or Latino	Male	participant	phs002371_HTA11_8539	phs002371	Not specified in data
+HTA11_10568	White	Not Hispanic or Latino	Female	participant	phs002371_HTA11_10568	phs002371	Not specified in data
+HTA11_14678	Black or African American	Not Hispanic or Latino	Male	participant	phs002371_HTA11_14678	phs002371	Not specified in data
+HTA11_15824	White	Not Hispanic or Latino	Female	participant	phs002371_HTA11_15824	phs002371	Not specified in data
+HTA11_16052	Black or African American	Not Hispanic or Latino	Male	participant	phs002371_HTA11_16052	phs002371	Not specified in data
+HTA11_7821	White	Not Hispanic or Latino	Male	participant	phs002371_HTA11_7821	phs002371	Not specified in data
+HTA11_99999971397	Not Reported	Not Reported	Not Reported	participant	phs002371_HTA11_99999971397	phs002371	Not specified in data
+HTA11_99999973899	Not Reported	Not Reported	Female	participant	phs002371_HTA11_99999973899	phs002371	Not specified in data
+HTA11_99999974143	Not Reported	Not Reported	Male	participant	phs002371_HTA11_99999974143	phs002371	Not specified in data
+HTA11_99999965104	Not Reported	Not Reported	Female	participant	phs002371_HTA11_99999965104	phs002371	Not specified in data
+HTA11_99999970781	Not Reported	Not Reported	Male	participant	phs002371_HTA11_99999970781	phs002371	Not specified in data
+HTA11_99999965062	Not Reported	Not Reported	Male	participant	phs002371_HTA11_99999965062	phs002371	Not specified in data
+HTA9_1	White	Not Hispanic or Latino	Female	participant	phs002371_HTA9_1	phs002371	Not specified in data
+HTA9_10	White	Not Hispanic or Latino	Female	participant	phs002371_HTA9_10	phs002371	Not specified in data
+HTA9_11	White	Not Hispanic or Latino	Female	participant	phs002371_HTA9_11	phs002371	Not specified in data
+HTA9_12	White	Not Hispanic or Latino	Female	participant	phs002371_HTA9_12	phs002371	Not specified in data
+HTA9_13	Black or African American	Not Hispanic or Latino	Female	participant	phs002371_HTA9_13	phs002371	Not specified in data
+HTA9_14	White	Not Hispanic or Latino	Female	participant	phs002371_HTA9_14	phs002371	Not specified in data
+HTA9_15	American Indian or Alaska Native	Not Hispanic or Latino	Female	participant	phs002371_HTA9_15	phs002371	Not specified in data
+HTA9_3	White	Not Hispanic or Latino	Female	participant	phs002371_HTA9_3	phs002371	Not specified in data
+HTA9_7	White	Not Hispanic or Latino	Female	participant	phs002371_HTA9_7	phs002371	Not specified in data
+HTA9_8	White	Not Hispanic or Latino	Female	participant	phs002371_HTA9_8	phs002371	Not specified in data
+HTA9_9	White	Not Hispanic or Latino	Female	participant	phs002371_HTA9_9	phs002371	Not specified in data
+HTA9_2	White	Not Hispanic or Latino	Female	participant	phs002371_HTA9_2	phs002371	Not specified in data
+HTA12_268	White	Not Hispanic or Latino	Female	participant	phs002371_HTA12_268	phs002371	Not specified in data
+HTA12_34	White	Not Hispanic or Latino	Female	participant	phs002371_HTA12_34	phs002371	Not specified in data
+HTA12_33	White	Not Hispanic or Latino	Male	participant	phs002371_HTA12_33	phs002371	Not specified in data
+HTA5_1156	Black or African American	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1156	phs002371	Not specified in data
+HTA5_1475	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1475	phs002371	Not specified in data
+HTA5_1676	White	Unknown	Female	participant	phs002371_HTA5_1676	phs002371	Not specified in data
+HTA5_1794	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1794	phs002371	Not specified in data
+HTA5_1907	Native Hawaiian or Other Pacific Islander	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1907	phs002371	Not specified in data
+HTA5_1039	White	Not Hispanic or Latino	Male	participant	phs002371_HTA5_1039	phs002371	Not specified in data
+HTA5_1107	White	Not Hispanic or Latino	Male	participant	phs002371_HTA5_1107	phs002371	Not specified in data
+HTA5_1130	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1130	phs002371	Not specified in data
+HTA5_1135	White	Not Hispanic or Latino	Male	participant	phs002371_HTA5_1135	phs002371	Not specified in data
+HTA5_1184	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1184	phs002371	Not specified in data
+HTA5_1240	White	Not Hispanic or Latino	Male	participant	phs002371_HTA5_1240	phs002371	Not specified in data
+HTA5_1243	White	Not Hispanic or Latino	Male	participant	phs002371_HTA5_1243	phs002371	Not specified in data
+HTA5_1248	White	Not Hispanic or Latino	Male	participant	phs002371_HTA5_1248	phs002371	Not specified in data
+HTA5_1266	White	Not Hispanic or Latino	Not Reported	participant	phs002371_HTA5_1266	phs002371	Not specified in data
+HTA5_1299	White	Not Hispanic or Latino	Male	participant	phs002371_HTA5_1299	phs002371	Not specified in data
+HTA5_1314	White	Not Hispanic or Latino	Male	participant	phs002371_HTA5_1314	phs002371	Not specified in data
+HTA5_1325	White	Not Hispanic or Latino	Male	participant	phs002371_HTA5_1325	phs002371	Not specified in data
+HTA5_1348	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1348	phs002371	Not specified in data
+HTA5_1360	White	Not Hispanic or Latino	Male	participant	phs002371_HTA5_1360	phs002371	Not specified in data
+HTA5_1361	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1361	phs002371	Not specified in data
+HTA5_1405	White	Not Hispanic or Latino	Male	participant	phs002371_HTA5_1405	phs002371	Not specified in data
+HTA5_1430	White	Not Hispanic or Latino	Male	participant	phs002371_HTA5_1430	phs002371	Not specified in data
+HTA5_1470	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1470	phs002371	Not specified in data
+HTA5_1536	White	Not Hispanic or Latino	Male	participant	phs002371_HTA5_1536	phs002371	Not specified in data
+HTA5_1587	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1587	phs002371	Not specified in data
+HTA5_1597	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1597	phs002371	Not specified in data
+HTA5_1648	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1648	phs002371	Not specified in data
+HTA5_1649	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1649	phs002371	Not specified in data
+HTA5_1664	White	Not Hispanic or Latino	Male	participant	phs002371_HTA5_1664	phs002371	Not specified in data
+HTA5_1665	Unknown	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1665	phs002371	Not specified in data
+HTA5_1678	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1678	phs002371	Not specified in data
+HTA5_1685	White	Not Hispanic or Latino	Male	participant	phs002371_HTA5_1685	phs002371	Not specified in data
+HTA5_1703	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1703	phs002371	Not specified in data
+HTA5_1736	White	Not Hispanic or Latino	Male	participant	phs002371_HTA5_1736	phs002371	Not specified in data
+HTA5_1749	White	Not Hispanic or Latino	Male	participant	phs002371_HTA5_1749	phs002371	Not specified in data
+HTA5_1765	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1765	phs002371	Not specified in data
+HTA5_1781	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1781	phs002371	Not specified in data
+HTA5_1803	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1803	phs002371	Not specified in data
+HTA5_1839	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1839	phs002371	Not specified in data
+HTA5_1848	White	Not Hispanic or Latino	Male	participant	phs002371_HTA5_1848	phs002371	Not specified in data
+HTA5_1855	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1855	phs002371	Not specified in data
+HTA5_1876	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1876	phs002371	Not specified in data
+HTA5_1898	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1898	phs002371	Not specified in data
+HTA5_1904	White	Not Hispanic or Latino	Male	participant	phs002371_HTA5_1904	phs002371	Not specified in data
+HTA5_1906	Unknown	Unknown	Female	participant	phs002371_HTA5_1906	phs002371	Not specified in data
+HTA5_1939	White	Not Hispanic or Latino	Male	participant	phs002371_HTA5_1939	phs002371	Not specified in data
+HTA5_1950	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1950	phs002371	Not specified in data
+HTA5_1977	White	Not Hispanic or Latino	Male	participant	phs002371_HTA5_1977	phs002371	Not specified in data
+HTA5_1978	White	Not Hispanic or Latino	Male	participant	phs002371_HTA5_1978	phs002371	Not specified in data
+HTA5_1537	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1537	phs002371	Not specified in data
+HTA5_1625	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1625	phs002371	Not specified in data
+HTA5_1770	White	Not Hispanic or Latino	Male	participant	phs002371_HTA5_1770	phs002371	Not specified in data
+HTA5_1920	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1920	phs002371	Not specified in data
+HTA5_1109	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1109	phs002371	Not specified in data
+HTA5_1172	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1172	phs002371	Not specified in data
+HTA5_1180	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1180	phs002371	Not specified in data
+HTA5_1190	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1190	phs002371	Not specified in data
+HTA5_1193	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1193	phs002371	Not specified in data
+HTA5_1211	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1211	phs002371	Not specified in data
+HTA5_1238	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1238	phs002371	Not specified in data
+HTA5_1247	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1247	phs002371	Not specified in data
+HTA5_1274	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1274	phs002371	Not specified in data
+HTA5_1305	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1305	phs002371	Not specified in data
+HTA5_1307	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1307	phs002371	Not specified in data
+HTA5_1315	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1315	phs002371	Not specified in data
+HTA5_1343	White	Unknown	Female	participant	phs002371_HTA5_1343	phs002371	Not specified in data
+HTA5_1344	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1344	phs002371	Not specified in data
+HTA5_1375	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1375	phs002371	Not specified in data
+HTA5_1416	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1416	phs002371	Not specified in data
+HTA5_1457	Black or African American	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1457	phs002371	Not specified in data
+HTA5_1466	Black or African American	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1466	phs002371	Not specified in data
+HTA5_1487	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1487	phs002371	Not specified in data
+HTA5_1499	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1499	phs002371	Not specified in data
+HTA5_1503	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1503	phs002371	Not specified in data
+HTA5_1534	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1534	phs002371	Not specified in data
+HTA5_1538	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1538	phs002371	Not specified in data
+HTA5_1589	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1589	phs002371	Not specified in data
+HTA5_1590	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1590	phs002371	Not specified in data
+HTA5_1593	Native Hawaiian or Other Pacific Islander	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1593	phs002371	Not specified in data
+HTA5_1610	Black or African American	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1610	phs002371	Not specified in data
+HTA5_1620	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1620	phs002371	Not specified in data
+HTA5_1694	Black or African American	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1694	phs002371	Not specified in data
+HTA5_1697	Native Hawaiian or Other Pacific Islander	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1697	phs002371	Not specified in data
+HTA5_1746	White	Hispanic or Latino	Female	participant	phs002371_HTA5_1746	phs002371	Not specified in data
+HTA5_1753	Black or African American	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1753	phs002371	Not specified in data
+HTA5_1782	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1782	phs002371	Not specified in data
+HTA5_1787	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1787	phs002371	Not specified in data
+HTA5_1789	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1789	phs002371	Not specified in data
+HTA5_1792	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1792	phs002371	Not specified in data
+HTA5_1793	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1793	phs002371	Not specified in data
+HTA5_1802	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1802	phs002371	Not specified in data
+HTA5_1821	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1821	phs002371	Not specified in data
+HTA5_1843	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1843	phs002371	Not specified in data
+HTA5_1853	Black or African American	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1853	phs002371	Not specified in data
+HTA5_1860	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1860	phs002371	Not specified in data
+HTA5_1865	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1865	phs002371	Not specified in data
+HTA5_1866	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1866	phs002371	Not specified in data
+HTA5_1868	Black or African American	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1868	phs002371	Not specified in data
+HTA5_1872	Unknown	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1872	phs002371	Not specified in data
+HTA5_1892	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1892	phs002371	Not specified in data
+HTA5_1909	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1909	phs002371	Not specified in data
+HTA5_1925	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1925	phs002371	Not specified in data
+HTA5_1957	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1957	phs002371	Not specified in data
+HTA5_1192	White	Not Hispanic or Latino	Male	participant	phs002371_HTA5_1192	phs002371	Not specified in data
+HTA5_1260	White	Not Hispanic or Latino	Male	participant	phs002371_HTA5_1260	phs002371	Not specified in data
+HTA5_1357	White	Not Hispanic or Latino	Male	participant	phs002371_HTA5_1357	phs002371	Not specified in data
+HTA5_1633	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1633	phs002371	Not specified in data
+HTA5_1661	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1661	phs002371	Not specified in data
+HTA5_1687	Asian	Not Hispanic or Latino	Male	participant	phs002371_HTA5_1687	phs002371	Not specified in data
+HTA5_1725	White	Not Hispanic or Latino	Male	participant	phs002371_HTA5_1725	phs002371	Not specified in data
+HTA5_1798	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1798	phs002371	Not specified in data
+HTA5_1919	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1919	phs002371	Not specified in data
+HTA5_1934	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1934	phs002371	Not specified in data
+HTA15_12254			Not specified in data	participant	phs002371_HTA15_12254	phs002371	Not specified in data
+HTA15_12342			Not specified in data	participant	phs002371_HTA15_12342	phs002371	Not specified in data
+HTA15_51430	White	Not Hispanic or Latino	Male	participant	phs002371_HTA15_51430	phs002371	Not specified in data
+HTA15_51703	White	Not Hispanic or Latino	Female	participant	phs002371_HTA15_51703	phs002371	Not specified in data
+HTA15_100004	Unknown	Hispanic or Latino	Male	participant	phs002371_HTA15_100004	phs002371	Not specified in data
+HTA15_100005			Not specified in data	participant	phs002371_HTA15_100005	phs002371	Not specified in data
+HTA3_50202	White	Not Hispanic or Latino	Female	participant	phs002371_HTA3_50202	phs002371	Not specified in data
+HTA3_50204	White	Not Hispanic or Latino	Male	participant	phs002371_HTA3_50204	phs002371	Not specified in data
+HTA3_50206	White	Not Hispanic or Latino	Male	participant	phs002371_HTA3_50206	phs002371	Not specified in data
+HTA3_70073	White	Not Hispanic or Latino	Male	participant	phs002371_HTA3_70073	phs002371	Not specified in data
+HTA3_70133	Asian	Not Hispanic or Latino	Male	participant	phs002371_HTA3_70133	phs002371	Not specified in data
+HTA3_70151	White	Not Hispanic or Latino	Male	participant	phs002371_HTA3_70151	phs002371	Not specified in data
+HTA3_70154	Not Reported	Not Reported	Not Reported	participant	phs002371_HTA3_70154	phs002371	Not specified in data
+HTA3_70155	White	Not Hispanic or Latino	Female	participant	phs002371_HTA3_70155	phs002371	Not specified in data
+HTA3_70160	White	Not Hispanic or Latino	Female	participant	phs002371_HTA3_70160	phs002371	Not specified in data
+HTA12_136	Black or African American	Not Hispanic or Latino	Female	participant	phs002371_HTA12_136	phs002371	Not specified in data
+HTA12_24	White	Not Hispanic or Latino	Female	participant	phs002371_HTA12_24	phs002371	Not specified in data
+HTA12_262	White	Not Hispanic or Latino	Female	participant	phs002371_HTA12_262	phs002371	Not specified in data
+HTA12_149	Black or African American	Not Hispanic or Latino	Female	participant	phs002371_HTA12_149	phs002371	Not specified in data
+HTA12_EXT313	Unknown	Unknown	Female	participant	phs002371_HTA12_EXT313	phs002371	Not specified in data
+HTA12_314	White	Not Hispanic or Latino	Male	participant	phs002371_HTA12_314	phs002371	Not specified in data
+HTA12_315	White	Not Hispanic or Latino	Male	participant	phs002371_HTA12_315	phs002371	Not specified in data
+HTA12_316	Black or African American	Not Hispanic or Latino	Male	participant	phs002371_HTA12_316	phs002371	Not specified in data
+HTA12_317	White	Not Hispanic or Latino	Female	participant	phs002371_HTA12_317	phs002371	Not specified in data
+HTA12_318	White	Hispanic or Latino	Male	participant	phs002371_HTA12_318	phs002371	Not specified in data
+HTA5_1279	White	Unknown	Female	participant	phs002371_HTA5_1279	phs002371	Not specified in data
+HTA5_1282	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1282	phs002371	Not specified in data
+HTA5_1874	White	Not Hispanic or Latino	Female	participant	phs002371_HTA5_1874	phs002371	Not specified in data
+HTA12_227	White	Not Hispanic or Latino	Male	participant	phs002371_HTA12_227	phs002371	Not specified in data
+HTA12_228	White	Not Hispanic or Latino	Male	participant	phs002371_HTA12_228	phs002371	Not specified in data
+HTA12_229	White	Not Hispanic or Latino	Female	participant	phs002371_HTA12_229	phs002371	Not specified in data
+HTA12_231	White	Not Hispanic or Latino	Male	participant	phs002371_HTA12_231	phs002371	Not specified in data
+HTA12_232	White	Not Hispanic or Latino	Male	participant	phs002371_HTA12_232	phs002371	Not specified in data
+HTA12_230	White	Not Hispanic or Latino	Female	participant	phs002371_HTA12_230	phs002371	Not specified in data
+HTA4_1021	Asian	Unknown	Female	participant	phs002371_HTA4_1021	phs002371	Not specified in data
+HTA4_1003	Unknown	Unknown	Female	participant	phs002371_HTA4_1003	phs002371	Not specified in data
+HTA4_1001	Unknown	Not Hispanic or Latino	Female	participant	phs002371_HTA4_1001	phs002371	Not specified in data
+HTA12_97	Black or African American	Not Hispanic or Latino	Female	participant	phs002371_HTA12_97	phs002371	Not specified in data
+HTA12_98	White	Not Hispanic or Latino	Female	participant	phs002371_HTA12_98	phs002371	Not specified in data
+HTA12_99	White	Not Hispanic or Latino	Female	participant	phs002371_HTA12_99	phs002371	Not specified in data
+HTA12_100	White	Not Hispanic or Latino	Female	participant	phs002371_HTA12_100	phs002371	Not specified in data
+HTA9_24	White	Not Hispanic or Latino	Female	participant	phs002371_HTA9_24	phs002371	Not specified in data
+HTA9_28	White	Not Hispanic or Latino	Female	participant	phs002371_HTA9_28	phs002371	Not specified in data
+HTA9_16	White	Not Hispanic or Latino	Female	participant	phs002371_HTA9_16	phs002371	Not specified in data
+HTA9_17	White	Not Hispanic or Latino	Female	participant	phs002371_HTA9_17	phs002371	Not specified in data
+HTA9_18	White	Not Hispanic or Latino	Female	participant	phs002371_HTA9_18	phs002371	Not specified in data
+HTA1_976	White	Not Hispanic or Latino	Female	participant	phs002371_HTA1_976	phs002371	Not specified in data
+HTA1_624	White	Not Hispanic or Latino	Female	participant	phs002371_HTA1_624	phs002371	Not specified in data
+HTA1_613	White	Not Hispanic or Latino	Female	participant	phs002371_HTA1_613	phs002371	Not specified in data
+HTA1_708	White	Not Hispanic or Latino	Female	participant	phs002371_HTA1_708	phs002371	Not specified in data
+HTA1_636	White	Not Hispanic or Latino	Female	participant	phs002371_HTA1_636	phs002371	Not specified in data
+HTA1_790	White	Not Hispanic or Latino	Female	participant	phs002371_HTA1_790	phs002371	Not specified in data
+HTA1_949	White	Not Hispanic or Latino	Female	participant	phs002371_HTA1_949	phs002371	Not specified in data
+HTA1_850	White	Not Hispanic or Latino	Female	participant	phs002371_HTA1_850	phs002371	Not specified in data
+HTA1_630	White	Not Hispanic or Latino	Female	participant	phs002371_HTA1_630	phs002371	Not specified in data
+HTA1_659	White	Not Hispanic or Latino	Female	participant	phs002371_HTA1_659	phs002371	Not specified in data
+HTA1_336	White	Not Hispanic or Latino	Female	participant	phs002371_HTA1_336	phs002371	Not specified in data
+HTA1_734	White	Not Hispanic or Latino	Female	participant	phs002371_HTA1_734	phs002371	Not specified in data
+HTA1_822	White	Not Hispanic or Latino	Female	participant	phs002371_HTA1_822	phs002371	Not specified in data
+HTA1_937	White	Not Hispanic or Latino	Male	participant	phs002371_HTA1_937	phs002371	Not specified in data
+HTA1_322	White	Not Hispanic or Latino	Female	participant	phs002371_HTA1_322	phs002371	Not specified in data
+HTA1_791	White	Not Hispanic or Latino	Male	participant	phs002371_HTA1_791	phs002371	Not specified in data
+HTA1_661	White	Not Hispanic or Latino	Female	participant	phs002371_HTA1_661	phs002371	Not specified in data
+HTA1_339	White	Not Hispanic or Latino	Male	participant	phs002371_HTA1_339	phs002371	Not specified in data
+HTA12_144	White	Not Hispanic or Latino	Female	participant	phs002371_HTA12_144	phs002371	Not specified in data
+HTA12_274			Not specified in data	participant	phs002371_HTA12_274	phs002371	Not specified in data
+HTA12_275			Not specified in data	participant	phs002371_HTA12_275	phs002371	Not specified in data
+HTA12_292			Not specified in data	participant	phs002371_HTA12_292	phs002371	Not specified in data
+HTA12_291			Not specified in data	participant	phs002371_HTA12_291	phs002371	Not specified in data
+HTA12_263	White	Not Hispanic or Latino	Male	participant	phs002371_HTA12_263	phs002371	Not specified in data
+HTA12_273	White	Not Hispanic or Latino	Male	participant	phs002371_HTA12_273	phs002371	Not specified in data
+HTA12_51			Not specified in data	participant	phs002371_HTA12_51	phs002371	Not specified in data
+HTA12_64			Not specified in data	participant	phs002371_HTA12_64	phs002371	Not specified in data
+HTA12_256			Not specified in data	participant	phs002371_HTA12_256	phs002371	Not specified in data
+HTA12_293			Not specified in data	participant	phs002371_HTA12_293	phs002371	Not specified in data
+HTA12_290			Not specified in data	participant	phs002371_HTA12_290	phs002371	Not specified in data
+HTA12_288			Not specified in data	participant	phs002371_HTA12_288	phs002371	Not specified in data
+HTA12_289			Not specified in data	participant	phs002371_HTA12_289	phs002371	Not specified in data
+HTA12_286			Not specified in data	participant	phs002371_HTA12_286	phs002371	Not specified in data
+HTA12_281			Not specified in data	participant	phs002371_HTA12_281	phs002371	Not specified in data
+HTA12_282			Not specified in data	participant	phs002371_HTA12_282	phs002371	Not specified in data
+HTA12_284			Not specified in data	participant	phs002371_HTA12_284	phs002371	Not specified in data
+HTA12_287			Not specified in data	participant	phs002371_HTA12_287	phs002371	Not specified in data
+HTA12_137	White	Not Hispanic or Latino	Female	participant	phs002371_HTA12_137	phs002371	Not specified in data
+HTA12_27	White	Not Hispanic or Latino	Female	participant	phs002371_HTA12_27	phs002371	Not specified in data
+HTA12_28	White	Not Hispanic or Latino	Male	participant	phs002371_HTA12_28	phs002371	Not specified in data
+HTA12_261	White	Not Hispanic or Latino	Male	participant	phs002371_HTA12_261	phs002371	Not specified in data
+HTA12_265	White	Not Hispanic or Latino	Male	participant	phs002371_HTA12_265	phs002371	Not specified in data
+HTA12_267	White	Hispanic or Latino	Female	participant	phs002371_HTA12_267	phs002371	Not specified in data
+HTA12_269	White	Not Hispanic or Latino	Female	participant	phs002371_HTA12_269	phs002371	Not specified in data
+HTA12_276			Not specified in data	participant	phs002371_HTA12_276	phs002371	Not specified in data
+HTA12_277			Not specified in data	participant	phs002371_HTA12_277	phs002371	Not specified in data
+HTA12_278			Not specified in data	participant	phs002371_HTA12_278	phs002371	Not specified in data
+HTA12_279			Not specified in data	participant	phs002371_HTA12_279	phs002371	Not specified in data
+HTA12_280			Not specified in data	participant	phs002371_HTA12_280	phs002371	Not specified in data
+HTA12_283	Black or African American	Not Hispanic or Latino	Female	participant	phs002371_HTA12_283	phs002371	Not specified in data
+HTA12_285	Black or African American	Not Hispanic or Latino	Female	participant	phs002371_HTA12_285	phs002371	Not specified in data
+HTA12_294			Not specified in data	participant	phs002371_HTA12_294	phs002371	Not specified in data
+HTA12_295			Not specified in data	participant	phs002371_HTA12_295	phs002371	Not specified in data
+HTA12_296			Not specified in data	participant	phs002371_HTA12_296	phs002371	Not specified in data
+HTA12_297			Not specified in data	participant	phs002371_HTA12_297	phs002371	Not specified in data
+HTA12_298			Not specified in data	participant	phs002371_HTA12_298	phs002371	Not specified in data
+HTA10_31	Unknown	Unknown	Male	participant	phs002371_HTA10_31	phs002371	Not specified in data
+HTA1_812	White	Not Hispanic or Latino	Female	participant	phs002371_HTA1_812	phs002371	Not specified in data
+HTA1_878	White	Not Hispanic or Latino	Female	participant	phs002371_HTA1_878	phs002371	Not specified in data
+HTA1_880	White	Not Hispanic or Latino	Female	participant	phs002371_HTA1_880	phs002371	Not specified in data
+HTA1_313	White	Not Hispanic or Latino	Female	participant	phs002371_HTA1_313	phs002371	Not specified in data
+HTA1_853	White	Not Hispanic or Latino	Female	participant	phs002371_HTA1_853	phs002371	Not specified in data
+HTA1_917	White	Not Hispanic or Latino	Female	participant	phs002371_HTA1_917	phs002371	Not specified in data
+HTA1_982	White	Not Hispanic or Latino	Female	participant	phs002371_HTA1_982	phs002371	Not specified in data
+HTA1_997	White	Not Hispanic or Latino	Female	participant	phs002371_HTA1_997	phs002371	Not specified in data
+HTA1_330	White	Not Hispanic or Latino	Female	participant	phs002371_HTA1_330	phs002371	Not specified in data
+HTA1_514	White	Not Hispanic or Latino	Female	participant	phs002371_HTA1_514	phs002371	Not specified in data
+HTA1_895	Black or African American	Not Hispanic or Latino	Female	participant	phs002371_HTA1_895	phs002371	Not specified in data
+HTA1_944	White	Not Hispanic or Latino	Female	participant	phs002371_HTA1_944	phs002371	Not specified in data
+HTA1_213	White	Not Hispanic or Latino	Female	participant	phs002371_HTA1_213	phs002371	Not specified in data
+HTA1_364	Asian	Not Hispanic or Latino	Female	participant	phs002371_HTA1_364	phs002371	Not specified in data
+HTA1_783	Asian	Not Hispanic or Latino	Female	participant	phs002371_HTA1_783	phs002371	Not specified in data
+HTA1_102	White	Not Reported	Male	participant	phs002371_HTA1_102	phs002371	Not specified in data
+HTA1_116	White	Not Reported	Female	participant	phs002371_HTA1_116	phs002371	Not specified in data
+HTA1_120	White	Not Reported	Male	participant	phs002371_HTA1_120	phs002371	Not specified in data
+HTA1_125	Black or African American	Not Reported	Female	participant	phs002371_HTA1_125	phs002371	Not specified in data
+HTA1_130	White	Not Reported	Male	participant	phs002371_HTA1_130	phs002371	Not specified in data
+HTA1_136	White	Not Reported	Female	participant	phs002371_HTA1_136	phs002371	Not specified in data
+HTA1_141	Black or African American	Not Reported	Female	participant	phs002371_HTA1_141	phs002371	Not specified in data
+HTA1_148	Black or African American	Not Reported	Female	participant	phs002371_HTA1_148	phs002371	Not specified in data
+HTA1_204	White	Not Reported	Male	participant	phs002371_HTA1_204	phs002371	Not specified in data
+HTA1_672	White	Not Hispanic or Latino	Male	participant	phs002371_HTA1_672	phs002371	Not specified in data
