@@ -1,0 +1,21 @@
+sample_id	sample_type	sample_tumor_status	sample_anatomic_site	type	participant.study_participant_id
+CPT0405830002_Recurrent Tumor	Recurrent Tumor	Tumor	Brain	sample	phs001287_C1230738
+CPT0417940000_Primary Tumor	Primary Tumor	Tumor	Brain	sample	phs001287_C1230738
+CPT0405890001_Primary Tumor	Primary Tumor	Tumor	Brain	sample	phs001287_C1245129
+CPT0418000002_Recurrent Tumor	Recurrent Tumor	Tumor	Brain	sample	phs001287_C1245129
+CPT0406220001_Recurrent Tumor	Recurrent Tumor	Tumor	Brain	sample	phs001287_C204057
+CPT0416720002_Primary Tumor	Primary Tumor	Tumor	Brain	sample	phs001287_C204057
+CPT0416640002_Recurrent Tumor	Recurrent Tumor	Tumor	Other	sample	phs001287_C207624
+CPT0418130000_Primary Tumor	Primary Tumor	Tumor	Brain	sample	phs001287_C207624
+CPT0406000001_Primary Tumor	Primary Tumor	Tumor	Brain	sample	phs001287_C229764
+CPT0417930001_Recurrent Tumor	Recurrent Tumor	Tumor	Other	sample	phs001287_C229764
+CPT0406200002_Primary Tumor	Primary Tumor	Tumor	Brain	sample	phs001287_C2415597
+CPT0418080001_Recurrent Tumor	Recurrent Tumor	Tumor	Brain	sample	phs001287_C2415597
+CPT0405850003_Recurrent Tumor	Recurrent Tumor	Tumor	Other	sample	phs001287_C247230
+CPT0406030002_Primary Tumor	Primary Tumor	Tumor	Other	sample	phs001287_C247230
+CPT0405660003_Recurrent Tumor	Recurrent Tumor	Tumor	Brain	sample	phs001287_C287328
+CPT0416680001_Primary Tumor	Primary Tumor	Tumor	Brain	sample	phs001287_C287328
+CPT0405870002_Recurrent Tumor	Recurrent Tumor	Tumor	Other	sample	phs001287_C760878
+CPT0406330001_Primary Tumor	Primary Tumor	Tumor	Brain	sample	phs001287_C760878
+CPT0405970001_Primary Tumor	Primary Tumor	Tumor	Brain	sample	phs001287_C761370
+CPT0406190001_Recurrent Tumor	Recurrent Tumor	Tumor	Other	sample	phs001287_C761370

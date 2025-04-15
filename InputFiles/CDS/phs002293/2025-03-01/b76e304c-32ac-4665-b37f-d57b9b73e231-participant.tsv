@@ -1,0 +1,183 @@
+type	study_participant_id	participant_id	race	crdc_id	gender	study.phs_accession	dbGaP_subject_id	ethnicity	sex
+participant	phs002293_GAAACV	GAAACV	White	1361d239-1cdb-4638-9e3c-bf244d3db4cf	Female	phs002293	GAAACV	Hispanic or Latino	Female
+participant	phs002293_GAAAMM	GAAAMM	White	a0439362-a86c-436e-9adb-4ffe710f2ad4	Female	phs002293	GAAAMM	Not Hispanic or Latino	Female
+participant	phs002293_GAAAPC	GAAAPC	White	0984961a-586f-4259-b0a6-7bd2beed88b2	Female	phs002293	GAAAPC	Hispanic or Latino	Female
+participant	phs002293_GAAAYD	GAAAYD	White	f6081b71-be36-422e-b37a-a9ebff9bb1ef	Female	phs002293	GAAAYD	Not Hispanic or Latino	Female
+participant	phs002293_GAABDN	GAABDN	White	a2589238-c68b-4a73-9fd9-fe82e0a2326f	Female	phs002293	GAABDN	Unknown	Female
+participant	phs002293_GAABEN	GAABEN	White	be983424-f660-408e-b137-272d24f72a0b	Female	phs002293	GAABEN	Not Hispanic or Latino	Female
+participant	phs002293_GAABRK	GAABRK	White	e2867f68-ad03-4642-83c9-f735869cbb4e	Female	phs002293	GAABRK	Not Hispanic or Latino	Female
+participant	phs002293_GAABTA	GAABTA	Unknown	f18e13dc-c725-4f33-871b-5f1ad9d45bcc	Female	phs002293	GAABTA	Unknown	Female
+participant	phs002293_GAACAC	GAACAC	White	bd70c379-44c9-49d8-98ea-37d63259a003	Female	phs002293	GAACAC	Not Hispanic or Latino	Female
+participant	phs002293_GAACAS	GAACAS	White	8d9df360-8f9b-4a25-b21c-000a048e5b69	Female	phs002293	GAACAS	Not Hispanic or Latino	Female
+participant	phs002293_GAACLC	GAACLC	White	490b2d5f-6131-4971-86c9-773dfd8a2a51	Female	phs002293	GAACLC	Not Hispanic or Latino	Female
+participant	phs002293_GAACMR	GAACMR	White	b1b70c11-7769-41e8-9d59-5f3c39575d6f	Female	phs002293	GAACMR	Not Hispanic or Latino	Female
+participant	phs002293_GAACWR	GAACWR	White	aa12a31d-b959-4ce9-8135-ca604e4eae01	Female	phs002293	GAACWR	Not Hispanic or Latino	Female
+participant	phs002293_GAADAF	GAADAF	White	012334e2-1957-4568-833c-22c07220faec	Female	phs002293	GAADAF	Hispanic or Latino	Female
+participant	phs002293_GAADCT	GAADCT	White	96965834-847b-44a5-a219-e10370fbd39b	Female	phs002293	GAADCT	Not Hispanic or Latino	Female
+participant	phs002293_GAADFL	GAADFL	Black or African American	849a9937-1986-421b-958e-9dafb05637c7	Female	phs002293	GAADFL	Not Hispanic or Latino	Female
+participant	phs002293_GAADHK	GAADHK	White	f368fa88-9a34-43a0-afaa-b10c369b19ff	Female	phs002293	GAADHK	Not Hispanic or Latino	Female
+participant	phs002293_GAAEBF	GAAEBF	Asian	9bc70736-2bb5-475c-babe-77a51472b9d6	Female	phs002293	GAAEBF	Not Hispanic or Latino	Female
+participant	phs002293_GAAFAW	GAAFAW	White	ea10c9f7-ec5c-425b-95eb-9ab25b231688	Female	phs002293	GAAFAW	Not Hispanic or Latino	Female
+participant	phs002293_GAAFAZ	GAAFAZ	White	ac08facf-f698-4d98-8a72-dae68d1dc558	Female	phs002293	GAAFAZ	Not Hispanic or Latino	Female
+participant	phs002293_GAAFHK	GAAFHK	White	011fdadd-cb74-4339-849d-a698a7ed9a43	Female	phs002293	GAAFHK	Not Hispanic or Latino	Female
+participant	phs002293_GAAFKA	GAAFKA	Unknown	5cd5bf4f-6a4c-4aa5-926e-a1e97d6ac26a	Female	phs002293	GAAFKA	Not Hispanic or Latino	Female
+participant	phs002293_GAAFYE	GAAFYE	White	7cc142fe-697d-44be-a81c-ff82b5ed12c8	Female	phs002293	GAAFYE	Not Hispanic or Latino	Female
+participant	phs002293_GAAGFT	GAAGFT	White	b6ed854e-491d-48d9-a11c-533368834359	Female	phs002293	GAAGFT	Not Hispanic or Latino	Female
+participant	phs002293_GAAGMX	GAAGMX	White	ef09552e-57f3-4eb8-9b2d-e83fe87ffa3c	Female	phs002293	GAAGMX	Hispanic or Latino	Female
+participant	phs002293_GAAGRY	GAAGRY	White	c34704fd-466c-4142-b9ba-86eed254b8fa	Female	phs002293	GAAGRY	Not Hispanic or Latino	Female
+participant	phs002293_GAAGWN	GAAGWN	Black or African American	5596ddea-5d27-46b3-9ab9-4019328a493d	Female	phs002293	GAAGWN	Unknown	Female
+participant	phs002293_GAAHGH	GAAHGH	Asian	eb117b5c-309b-4cac-9a72-91ff120545d9	Female	phs002293	GAAHGH	Not Hispanic or Latino	Female
+participant	phs002293_GAAHNH	GAAHNH	White	e0a72c8c-def4-4b8c-8333-5b37c6a7c6ce	Female	phs002293	GAAHNH	Not Hispanic or Latino	Female
+participant	phs002293_GAAHPD	GAAHPD	White	ec3f03e6-a2ec-4aa3-bae3-893048613d54	Female	phs002293	GAAHPD	Not Hispanic or Latino	Female
+participant	phs002293_GAAIKX	GAAIKX	White	02a4d5e3-32b8-414f-a109-03440ba60fab	Female	phs002293	GAAIKX	Not Hispanic or Latino	Female
+participant	phs002293_GAAJDN	GAAJDN	Black or African American	80638304-4f5c-4fb0-b661-555bf27e1846	Female	phs002293	GAAJDN	Not Hispanic or Latino	Female
+participant	phs002293_GAAJEX	GAAJEX	White	2aaa5814-e8e0-4c24-ae5a-ffaa1fc6c8f7	Female	phs002293	GAAJEX	Not Hispanic or Latino	Female
+participant	phs002293_GAAJGK	GAAJGK	White	20526f65-504b-4632-94cd-a26ab88fa7a1	Female	phs002293	GAAJGK	Not Hispanic or Latino	Female
+participant	phs002293_GAAJSZ	GAAJSZ	White	ffd3ab8b-556b-4885-9d1b-ad6080bad8d8	Female	phs002293	GAAJSZ	Not Hispanic or Latino	Female
+participant	phs002293_GAAJXW	GAAJXW	White	d4757e48-aed4-4336-9304-e82c24256c2b	Female	phs002293	GAAJXW	Not Hispanic or Latino	Female
+participant	phs002293_GAAKCD	GAAKCD	White	479dd5f8-ce04-4f64-a00e-0a748e3f35f1	Female	phs002293	GAAKCD	Not Hispanic or Latino	Female
+participant	phs002293_GAAKYP	GAAKYP	White	fa861609-7732-4dfe-8af4-597ceefde37e	Female	phs002293	GAAKYP	Not Hispanic or Latino	Female
+participant	phs002293_GAALBJ	GAALBJ	White	34fab0e1-a439-47f3-b6f1-057fa558c46f	Female	phs002293	GAALBJ	Not Hispanic or Latino	Female
+participant	phs002293_GAALBX	GAALBX	White	be91e9c1-5dc5-4253-b56c-7cef02d91099	Female	phs002293	GAALBX	Not Hispanic or Latino	Female
+participant	phs002293_GAALHC	GAALHC	White	f3db0c73-9cc7-491b-8078-16612df603ad	Female	phs002293	GAALHC	Not Hispanic or Latino	Female
+participant	phs002293_GAALNB	GAALNB	White	079f1fef-e312-497c-8edc-d74fe8272be7	Female	phs002293	GAALNB	Not Hispanic or Latino	Female
+participant	phs002293_GAALRT	GAALRT	White	cde53e79-4c5b-4bc8-afc4-a931a8ff79d6	Female	phs002293	GAALRT	Not Hispanic or Latino	Female
+participant	phs002293_GAALTS	GAALTS	White	fb14ed6d-dfb6-4c70-a79d-44750905046f	Female	phs002293	GAALTS	Not Hispanic or Latino	Female
+participant	phs002293_GAALVC	GAALVC	White	abe9c4f9-8d27-48ab-88d8-ffa2e5e9ce6a	Female	phs002293	GAALVC	Not Hispanic or Latino	Female
+participant	phs002293_GAAMDU	GAAMDU	White	b83affc8-0eb8-4494-be85-0a8f5bf996fe	Female	phs002293	GAAMDU	Not Hispanic or Latino	Female
+participant	phs002293_GAAMHK	GAAMHK	Black or African American	22fcc28b-e7c6-423d-bf92-78646ec5e8d7	Female	phs002293	GAAMHK	Not Hispanic or Latino	Female
+participant	phs002293_GAAMUD	GAAMUD	White	f0c741b7-9b7c-4099-ad2e-b11cfae473f7	Female	phs002293	GAAMUD	Not Hispanic or Latino	Female
+participant	phs002293_GAANNG	GAANNG	White	815cf8b1-ceaf-47da-8390-77c673fe5023	Female	phs002293	GAANNG	Not Hispanic or Latino	Female
+participant	phs002293_GAAPAN	GAAPAN	White	a613ad2f-4ddd-46cd-b5e6-4a1ceb3806a5	Female	phs002293	GAAPAN	Not Hispanic or Latino	Female
+participant	phs002293_GAAPEI	GAAPEI	White	2e89113d-d71e-4a6b-abd7-389d718718c0	Female	phs002293	GAAPEI	Not Hispanic or Latino	Female
+participant	phs002293_GAAPEW	GAAPEW	White	281dc7c3-deb0-4adc-a104-a019c026269d	Female	phs002293	GAAPEW	Not Hispanic or Latino	Female
+participant	phs002293_GAAPEY	GAAPEY	White	8a81db48-9403-43e4-9485-60004d967f7b	Female	phs002293	GAAPEY	Not Hispanic or Latino	Female
+participant	phs002293_GAAPKD	GAAPKD	White	abd682c0-2f27-4bea-b846-bc9760b93454	Female	phs002293	GAAPKD	Not Hispanic or Latino	Female
+participant	phs002293_GAAPSK	GAAPSK	White	8a372794-118c-4025-b4df-fadfa3fb3801	Female	phs002293	GAAPSK	Hispanic or Latino	Female
+participant	phs002293_GAARDU	GAARDU	White	0fbc9e06-f510-422c-a915-e66724dfbf48	Female	phs002293	GAARDU	Not Hispanic or Latino	Female
+participant	phs002293_GAARIW	GAARIW	White	208610bf-df5d-4801-ab35-f25552ef7161	Female	phs002293	GAARIW	Not Hispanic or Latino	Female
+participant	phs002293_GAARXU	GAARXU	Black or African American	afba72c7-9bde-4187-ada4-7ca633b64ece	Female	phs002293	GAARXU	Not Hispanic or Latino	Female
+participant	phs002293_GAARYH	GAARYH	White	29d4ac0a-4ef5-4f70-8d5d-e2ed5014847c	Female	phs002293	GAARYH	Not Hispanic or Latino	Female
+participant	phs002293_GAASJJ	GAASJJ	Black or African American	286b42fe-1c37-4bb6-80f1-1d2776a6899b	Female	phs002293	GAASJJ	Not Hispanic or Latino	Female
+participant	phs002293_GAASRT	GAASRT	White	52217e30-3eae-4cb4-a15e-d7c8552a3600	Female	phs002293	GAASRT	Unknown	Female
+participant	phs002293_GAASUC	GAASUC	White	f4f9773c-2fed-45fc-80b1-c49b46d58e6a	Female	phs002293	GAASUC	Not Hispanic or Latino	Female
+participant	phs002293_GAATVJ	GAATVJ	Black or African American	752e49da-9540-410b-9de6-13a2edcd8daa	Female	phs002293	GAATVJ	Unknown	Female
+participant	phs002293_GAATZY	GAATZY	White	8f00e155-e2c3-4eea-ad06-56e4038c037e	Female	phs002293	GAATZY	Not Hispanic or Latino	Female
+participant	phs002293_GAAUPP	GAAUPP	White	1cae3363-05c0-4ae8-bbbf-8323397b3ce7	Female	phs002293	GAAUPP	Not Hispanic or Latino	Female
+participant	phs002293_GAAUUC	GAAUUC	American Indian or Alaska Native	09d40e7e-6993-4174-b769-65d13f538106	Female	phs002293	GAAUUC	Not Hispanic or Latino	Female
+participant	phs002293_GAAUYN	GAAUYN	White	d1588d03-5e9e-41fd-b752-e049479c3126	Female	phs002293	GAAUYN	Not Hispanic or Latino	Female
+participant	phs002293_GAAVGN	GAAVGN	Black or African American	49dd5cfd-abe0-438c-8a6c-65f86c90a7fd	Female	phs002293	GAAVGN	Not Hispanic or Latino	Female
+participant	phs002293_GAAVJB	GAAVJB	White	c1d7611e-d50e-4182-9beb-15617d54aa75	Female	phs002293	GAAVJB	Not Hispanic or Latino	Female
+participant	phs002293_GAAVJI	GAAVJI	White	6e7f114a-77de-4476-9ceb-f681215ee0f8	Female	phs002293	GAAVJI	Not Hispanic or Latino	Female
+participant	phs002293_GAAVSU	GAAVSU	White	32a58f54-b1ce-40e5-b35e-a416c2f17109	Female	phs002293	GAAVSU	Not Hispanic or Latino	Female
+participant	phs002293_GAAVZI	GAAVZI	White	1afc87bc-a51b-4fd7-8882-1b753718b223	Female	phs002293	GAAVZI	Not Hispanic or Latino	Female
+participant	phs002293_GAAWAH	GAAWAH	White	ee928433-e25b-4012-84d7-b88246adedab	Female	phs002293	GAAWAH	Unknown	Female
+participant	phs002293_GAAWHP	GAAWHP	White	4912e1f4-95cd-42d0-897e-9a0dfda81f4a	Female	phs002293	GAAWHP	Not Hispanic or Latino	Female
+participant	phs002293_GAAWJL	GAAWJL	White	ef012407-b740-449c-bee4-cf23652045a5	Female	phs002293	GAAWJL	Not Hispanic or Latino	Female
+participant	phs002293_GAAWKT	GAAWKT	White	f3d01715-6dcf-4f62-b3e9-4a22a91e6631	Female	phs002293	GAAWKT	Not Hispanic or Latino	Female
+participant	phs002293_GAAWKZ	GAAWKZ	White	b136ac4f-e880-4581-9893-d95a147a510c	Female	phs002293	GAAWKZ	Not Hispanic or Latino	Female
+participant	phs002293_GAAXAD	GAAXAD	White	457b01e7-bea8-4fd9-984e-049d738388c0	Female	phs002293	GAAXAD	Not Hispanic or Latino	Female
+participant	phs002293_GAAXCZ	GAAXCZ	White	3154e12f-094d-434c-9724-6e706dbca3c8	Female	phs002293	GAAXCZ	Not Hispanic or Latino	Female
+participant	phs002293_GAAXNT	GAAXNT	White	9c9bf2dc-d68f-4e19-af00-29e2fa84784f	Female	phs002293	GAAXNT	Not Hispanic or Latino	Female
+participant	phs002293_GAAYBL	GAAYBL	White	b30ff157-98ab-49d7-a390-94208f6d2078	Female	phs002293	GAAYBL	Not Hispanic or Latino	Female
+participant	phs002293_GAAYHV	GAAYHV	White	750ab091-5877-43ea-a590-ddc5ec5ac595	Female	phs002293	GAAYHV	Not Hispanic or Latino	Female
+participant	phs002293_GAAYYI	GAAYYI	White	cc46e750-109a-4dcd-a56f-4f4b64f8ffc5	Female	phs002293	GAAYYI	Not Hispanic or Latino	Female
+participant	phs002293_GAAZAX	GAAZAX	Asian	4917c29c-07d3-4aaf-8732-59711766cf15	Female	phs002293	GAAZAX	Not Hispanic or Latino	Female
+participant	phs002293_GAAZGH	GAAZGH	White	3ab9cce2-376c-477b-ad48-fcb2475485e9	Female	phs002293	GAAZGH	Not Hispanic or Latino	Female
+participant	phs002293_GAAZHY	GAAZHY	White	fbf6f1f0-824b-4285-8d49-c55745fd57b8	Female	phs002293	GAAZHY	Not Hispanic or Latino	Female
+participant	phs002293_GAAZNH	GAAZNH	Black or African American	670446da-bfcf-4384-b45f-37f13bc22a4a	Female	phs002293	GAAZNH	Not Hispanic or Latino	Female
+participant	phs002293_GAAZNW	GAAZNW	White	8ec95a23-7856-4846-8e55-08883b528548	Female	phs002293	GAAZNW	Not Hispanic or Latino	Female
+participant	phs002293_GAAZTL	GAAZTL	White	1ff0c785-b302-4291-825e-b67a0f673edf	Female	phs002293	GAAZTL	Not Hispanic or Latino	Female
+participant	phs002293_GAAZUN	GAAZUN	White	a50bf156-06cf-423f-b77d-229df75aac51	Female	phs002293	GAAZUN	Not Hispanic or Latino	Female
+participant	phs002293_GAAZWH	GAAZWH	White	a386e873-d673-4136-bf29-a7c6822fc8bd	Female	phs002293	GAAZWH	Not Hispanic or Latino	Female
+participant	phs002293_GAAZWP	GAAZWP	White	385fbd19-c9fc-4efc-a53c-06f60a3d611e	Female	phs002293	GAAZWP	Not Hispanic or Latino	Female
+participant	phs002293_GAAZYU	GAAZYU	White	9de6925b-5870-4330-9fe7-fceff3943616	Female	phs002293	GAAZYU	Not Hispanic or Latino	Female
+participant	phs002293_GABABY	GABABY	White	514dcc25-fdc7-4a39-9448-f5a67887cfcf	Female	phs002293	GABABY	Hispanic or Latino	Female
+participant	phs002293_GABASM	GABASM	White	22a4fdfb-e1e7-4255-b55f-4520f7730ea4	Female	phs002293	GABASM	Not Hispanic or Latino	Female
+participant	phs002293_GABASV	GABASV	White	1ad15e02-4a46-4ab3-a483-cae3efc0455e	Female	phs002293	GABASV	Unknown	Female
+participant	phs002293_GABBDC	GABBDC	White	7b5ce53f-67d0-4249-b50c-a4eeca3fcd53	Female	phs002293	GABBDC	Not Hispanic or Latino	Female
+participant	phs002293_GABBDW	GABBDW	White	ce85723f-1f4a-414f-a9c6-4a40d2de9719	Female	phs002293	GABBDW	Not Hispanic or Latino	Female
+participant	phs002293_GABBHZ	GABBHZ	White	e048ba74-eb82-4df1-aa4a-a3bd96c0a64c	Female	phs002293	GABBHZ	Not Hispanic or Latino	Female
+participant	phs002293_GABBJF	GABBJF	Black or African American	6d2111d0-95b8-43f8-9a69-80edac0c9d54	Female	phs002293	GABBJF	Unknown	Female
+participant	phs002293_GABBPF	GABBPF	Unknown	b49a3d8b-5b53-4d4f-8b12-87b8e93a2982	Female	phs002293	GABBPF	Not Hispanic or Latino	Female
+participant	phs002293_GABBXB	GABBXB	White	6ec85d12-3673-4ae3-b9a8-d8ae843430d0	Female	phs002293	GABBXB	Not Hispanic or Latino	Female
+participant	phs002293_GABBXR	GABBXR	White	2f60eadb-ce7b-4c85-9e6e-30d270b1e7ab	Female	phs002293	GABBXR	Hispanic or Latino	Female
+participant	phs002293_GABBYD	GABBYD	Black or African American	089fee98-f73b-4f39-b71e-8550c0141f13	Female	phs002293	GABBYD	Not Hispanic or Latino	Female
+participant	phs002293_GABCTB	GABCTB	Unknown	c331b424-a7f0-48d8-a7f5-a606a6d1cbc5	Female	phs002293	GABCTB	Hispanic or Latino	Female
+participant	phs002293_GABCUR	GABCUR	Unknown	7b26931c-b3ab-42d1-9c80-019c0209d0ee	Female	phs002293	GABCUR	Hispanic or Latino	Female
+participant	phs002293_GABCZN	GABCZN	White	b77f3d2b-ebc6-4e93-a99c-a22f9cce8e5e	Female	phs002293	GABCZN	Not Hispanic or Latino	Female
+participant	phs002293_GABDDP	GABDDP	Unknown	812d2f5c-d44b-4998-85d4-ae355b9ef23e	Female	phs002293	GABDDP	Hispanic or Latino	Female
+participant	phs002293_GABDFJ	GABDFJ	White	0ccd0803-f786-4d19-badf-51465482b14b	Female	phs002293	GABDFJ	Not Hispanic or Latino	Female
+participant	phs002293_GABDLV	GABDLV	White	149ec4c6-cd72-4814-8fbc-8a3359d2b3de	Female	phs002293	GABDLV	Not Hispanic or Latino	Female
+participant	phs002293_GABEHD	GABEHD	White	423981c2-06f9-4dd9-9abf-84257340882e	Female	phs002293	GABEHD	Not Hispanic or Latino	Female
+participant	phs002293_GABEJG	GABEJG	White	d076c711-c184-4dee-9da1-3bc02ec9e629	Female	phs002293	GABEJG	Not Hispanic or Latino	Female
+participant	phs002293_GABEVA	GABEVA	American Indian or Alaska Native	5d932e4e-e2e2-4a43-a475-6fe62dbaf01d	Female	phs002293	GABEVA	Not Hispanic or Latino	Female
+participant	phs002293_GABEVV	GABEVV	Black or African American	1aa9dc6d-f4a2-4035-b2b7-5b4742e96a45	Female	phs002293	GABEVV	Not Hispanic or Latino	Female
+participant	phs002293_GABFDW	GABFDW	White	02f1310a-8e40-4e0c-8f14-3975ff4f0c29	Female	phs002293	GABFDW	Not Hispanic or Latino	Female
+participant	phs002293_GABFEH	GABFEH	White	b254909f-b820-46ef-8375-7b7bc86526e8	Female	phs002293	GABFEH	Not Hispanic or Latino	Female
+participant	phs002293_GABFMA	GABFMA	White	833fd624-c627-4384-b529-d329f67c88ea	Female	phs002293	GABFMA	Not Hispanic or Latino	Female
+participant	phs002293_GABFMF	GABFMF	White	f5092897-a369-4254-99fc-541ee9e45936	Female	phs002293	GABFMF	Not Hispanic or Latino	Female
+participant	phs002293_GABFMG	GABFMG	White	ba292f1c-ad8e-43eb-8205-630cf2d5a913	Female	phs002293	GABFMG	Hispanic or Latino	Female
+participant	phs002293_GABFUP	GABFUP	Black or African American	8cabb08f-1cc9-4d12-b256-1744a7d1bee3	Female	phs002293	GABFUP	Hispanic or Latino	Female
+participant	phs002293_GABFYG	GABFYG	White	d5bb9d18-5b2f-4e77-b20e-2865607c03fe	Female	phs002293	GABFYG	Not Hispanic or Latino	Female
+participant	phs002293_GABFZS	GABFZS	Asian	e5f4dba1-1896-4201-a675-3bb7c99fd1a6	Female	phs002293	GABFZS	Not Hispanic or Latino	Female
+participant	phs002293_GABGAJ	GABGAJ	White	44518cfe-0f85-43bc-8665-2456bc9b9e23	Female	phs002293	GABGAJ	Not Hispanic or Latino	Female
+participant	phs002293_GABGFX	GABGFX	Asian	a12af624-1169-4271-960e-9e6c26ea66e0	Female	phs002293	GABGFX	Not Hispanic or Latino	Female
+participant	phs002293_GABGHL	GABGHL	White	b7a24ec1-d8ff-49b8-af37-df2203ffe4c6	Female	phs002293	GABGHL	Not Hispanic or Latino	Female
+participant	phs002293_GABGNL	GABGNL	White	545a19e4-37ac-4306-a647-a2075fc9038e	Female	phs002293	GABGNL	Not Hispanic or Latino	Female
+participant	phs002293_GABGPV	GABGPV	White	8b713914-bdfb-4890-8e7e-5b5576a8d3f4	Female	phs002293	GABGPV	Not Hispanic or Latino	Female
+participant	phs002293_GABGWH	GABGWH	Black or African American	fd2a9b75-b166-4b0e-bbbe-978cecf34e6d	Female	phs002293	GABGWH	Not Hispanic or Latino	Female
+participant	phs002293_GABHGS	GABHGS	White	849612c2-bfdb-4ec5-8e14-989ab13027a3	Female	phs002293	GABHGS	Hispanic or Latino	Female
+participant	phs002293_GABHLL	GABHLL	Black or African American	260cf56b-ad55-4a4b-9080-90f46736b06a	Female	phs002293	GABHLL	Not Hispanic or Latino	Female
+participant	phs002293_GABHRE	GABHRE	White	eb763c8c-a2c2-48f7-8688-3d02a2becf45	Female	phs002293	GABHRE	Unknown	Female
+participant	phs002293_GABIDE	GABIDE	White	a2f24347-9c74-400e-a132-4d146ce7698a	Female	phs002293	GABIDE	Not Hispanic or Latino	Female
+participant	phs002293_GABIJD	GABIJD	White	36b870eb-0547-4369-aeb8-85c2736f4861	Female	phs002293	GABIJD	Hispanic or Latino	Female
+participant	phs002293_GABIJE	GABIJE	White	fb596c86-d822-42a7-89bd-814e419605b3	Female	phs002293	GABIJE	Not Hispanic or Latino	Female
+participant	phs002293_GABIJM	GABIJM	White	5d6d5652-206e-4b32-8024-aecab1ec4e55	Female	phs002293	GABIJM	Not Hispanic or Latino	Female
+participant	phs002293_GABISW	GABISW	Asian	dc39e19b-35ae-44ee-9265-56fcbe1d0ee3	Female	phs002293	GABISW	Not Hispanic or Latino	Female
+participant	phs002293_GABIXP	GABIXP	White	28e69d62-8e19-4f15-bd50-cf9240d08248	Female	phs002293	GABIXP	Not Hispanic or Latino	Female
+participant	phs002293_GABJES	GABJES	White	3b63c9fe-b549-4fe8-a0b8-625f0e363f8d	Female	phs002293	GABJES	Not Hispanic or Latino	Female
+participant	phs002293_GABJLM	GABJLM	Black or African American	229898e3-3dc2-41ac-b26a-1db5aacad758	Female	phs002293	GABJLM	Not Hispanic or Latino	Female
+participant	phs002293_GABJPK	GABJPK	White	fed399b8-a5fa-4984-91a0-8d75c038582a	Female	phs002293	GABJPK	Not Hispanic or Latino	Female
+participant	phs002293_GABKLH	GABKLH	White	1067cca6-cf38-4e7a-a32a-6c76237ebe76	Female	phs002293	GABKLH	Not Hispanic or Latino	Female
+participant	phs002293_GABKPM	GABKPM	White	97c319cd-9d51-4743-91f4-76467d909456	Female	phs002293	GABKPM	Not Hispanic or Latino	Female
+participant	phs002293_GABKRV	GABKRV	White	70ae45ee-a705-484e-ab7e-e10f9082253e	Female	phs002293	GABKRV	Not Hispanic or Latino	Female
+participant	phs002293_GABLDB	GABLDB	White	0d271d53-fcf2-48a5-9474-2a36bbb66092	Female	phs002293	GABLDB	Not Hispanic or Latino	Female
+participant	phs002293_GABLFY	GABLFY	White	e268a37c-7ef7-4cd4-84f2-f07946a82d87	Female	phs002293	GABLFY	Not Hispanic or Latino	Female
+participant	phs002293_GABLMT	GABLMT	American Indian or Alaska Native	2aff477d-65a4-46d2-a87b-bb695aa25082	Female	phs002293	GABLMT	Hispanic or Latino	Female
+participant	phs002293_GABLMZ	GABLMZ	Black or African American	5afcb482-ba1f-4162-8cd8-2bcb73dbae21	Female	phs002293	GABLMZ	Not Hispanic or Latino	Female
+participant	phs002293_GABLRJ	GABLRJ	Black or African American	84edf5cd-5235-4a82-8b85-723f361e9ec2	Female	phs002293	GABLRJ	Not Hispanic or Latino	Female
+participant	phs002293_GABLUM	GABLUM	White	8a94bff8-9e9a-43c2-9632-7df209663f40	Female	phs002293	GABLUM	Not Hispanic or Latino	Female
+participant	phs002293_GABLUX	GABLUX	Black or African American	aa6d3964-186d-4680-a4ea-4db884afde2a	Female	phs002293	GABLUX	Not Hispanic or Latino	Female
+participant	phs002293_GABLWU	GABLWU	White	3899fd1c-6bd9-4e31-a63a-b24f773b5179	Female	phs002293	GABLWU	Not Hispanic or Latino	Female
+participant	phs002293_GABLXR	GABLXR	White	5a4046b0-ce58-4bad-ab12-0c6f755b96ef	Female	phs002293	GABLXR	Not Hispanic or Latino	Female
+participant	phs002293_GABMFJ	GABMFJ	White	6f2546f0-c66b-41e0-8dd0-2f7d67398ffe	Female	phs002293	GABMFJ	Not Hispanic or Latino	Female
+participant	phs002293_GABMJL	GABMJL	White	9cbe9164-3030-4801-bb6e-7004fd9b6219	Female	phs002293	GABMJL	Hispanic or Latino	Female
+participant	phs002293_GABMKC	GABMKC	White	30f6aa05-70d0-4a9b-8a0f-9bc671143341	Female	phs002293	GABMKC	Not Hispanic or Latino	Female
+participant	phs002293_GABMZI	GABMZI	White	bb983cd2-f7e0-4c90-9486-8905af678033	Female	phs002293	GABMZI	Not Hispanic or Latino	Female
+participant	phs002293_GABNEK	GABNEK	White	f755a336-35b0-4fd3-8b5c-ceca95b2a854	Female	phs002293	GABNEK	Not Hispanic or Latino	Female
+participant	phs002293_GABNEV	GABNEV	Black or African American	4fc0fb06-11f4-46ae-b287-9fe76efedc09	Female	phs002293	GABNEV	Not Hispanic or Latino	Female
+participant	phs002293_GABNPT	GABNPT	White	dd82c2b2-29d9-4f96-b09c-484728e4b2a8	Female	phs002293	GABNPT	Not Hispanic or Latino	Female
+participant	phs002293_GABNTM	GABNTM	White	27d5fc2a-ae76-42bd-9da9-d3d02db19670	Female	phs002293	GABNTM	Hispanic or Latino	Female
+participant	phs002293_GABNZS	GABNZS	Black or African American	cc7b8908-8b93-4d7d-8350-615014db9d7c	Female	phs002293	GABNZS	Not Hispanic or Latino	Female
+participant	phs002293_GABPCP	GABPCP	White	a37d6b47-a921-4ef3-bed2-3dba4201ec88	Female	phs002293	GABPCP	Not Hispanic or Latino	Female
+participant	phs002293_GABPNR	GABPNR	White	517f90d9-f3bf-47ae-8abe-0ef07cdb1ecf	Female	phs002293	GABPNR	Not Hispanic or Latino	Female
+participant	phs002293_GABPUL	GABPUL	Black or African American	e1eea9f9-f5c2-424f-83de-a16efc1ce218	Female	phs002293	GABPUL	Not Hispanic or Latino	Female
+participant	phs002293_GABRDF	GABRDF	White	c1c17c33-49ff-4bf5-8416-a3587ea700ea	Female	phs002293	GABRDF	Not Hispanic or Latino	Female
+participant	phs002293_GABRPM	GABRPM	Black or African American	fb579919-d03e-402f-a4ce-c9e287ea6c82	Female	phs002293	GABRPM	Not Hispanic or Latino	Female
+participant	phs002293_GABRRK	GABRRK	White	4c54d786-5d08-40ac-a6f5-11d0c92c9659	Female	phs002293	GABRRK	Not Hispanic or Latino	Female
+participant	phs002293_GABTDF	GABTDF	White	3d243a24-56c7-462f-8e0c-bbde0a74df54	Female	phs002293	GABTDF	Hispanic or Latino	Female
+participant	phs002293_GABTGU	GABTGU	White	1c37934f-e45b-4cc1-b541-7e1e522c552e	Female	phs002293	GABTGU	Not Hispanic or Latino	Female
+participant	phs002293_GABTTH	GABTTH	Black or African American	0132dfe4-6d3b-4b71-a354-98ff3a941cf3	Female	phs002293	GABTTH	Not Hispanic or Latino	Female
+participant	phs002293_GABTYA	GABTYA	White	d92d74c3-50f2-46b1-863e-da2ccae461a5	Female	phs002293	GABTYA	Not Hispanic or Latino	Female
+participant	phs002293_GABUCW	GABUCW	White	d7ec396d-940b-40e8-b92e-65a2bdef75b0	Female	phs002293	GABUCW	Not Hispanic or Latino	Female
+participant	phs002293_GABUHZ	GABUHZ	White	6f67bcee-0ef1-454e-a646-eae9d5994f05	Female	phs002293	GABUHZ	Hispanic or Latino	Female
+participant	phs002293_GABUIE	GABUIE	Black or African American	8c23738a-e480-4df9-86da-1f591b42c080	Female	phs002293	GABUIE	Unknown	Female
+participant	phs002293_GABUIW	GABUIW	White	d2d826fc-e6c8-442f-9010-43eb5d96721f	Female	phs002293	GABUIW	Not Hispanic or Latino	Female
+participant	phs002293_GABUKB	GABUKB	White	bb33b473-de8c-4b0d-a170-d2d5622b708c	Female	phs002293	GABUKB	Not Hispanic or Latino	Female
+participant	phs002293_GABUMM	GABUMM	Unknown	06d6daad-f9b4-41ce-864a-97ec31fa2bcc	Female	phs002293	GABUMM	Hispanic or Latino	Female
+participant	phs002293_GABUPS	GABUPS	White	b0ea16e3-71e2-46fc-b424-b0ff81ce857d	Female	phs002293	GABUPS	Not Hispanic or Latino	Female
+participant	phs002293_GABURI	GABURI	White	da758b57-d394-4fde-be05-259e9f73180f	Female	phs002293	GABURI	Not Hispanic or Latino	Female
+participant	phs002293_GABUXN	GABUXN	American Indian or Alaska Native	f9cfe71e-e6a2-42e1-9f90-13a09d0d564c	Female	phs002293	GABUXN	Not Hispanic or Latino	Female
+participant	phs002293_GABYTP	GABYTP	Black or African American	55680912-0285-4379-b319-8e0792f53daf	Female	phs002293	GABYTP	Not Hispanic or Latino	Female
+participant	phs002293_GACDYJ	GACDYJ	White	fb57c968-febf-4f5d-a550-8d2e64f50b02	Female	phs002293	GACDYJ	Hispanic or Latino	Female

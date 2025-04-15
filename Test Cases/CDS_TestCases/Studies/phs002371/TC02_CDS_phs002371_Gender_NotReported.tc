@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC02_CDS_phs002371_Gender_NotReported</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>b2b82414-45ae-45b0-8ea5-f83d6ba215fd</testCaseGuid>
-</TestCaseEntity>
