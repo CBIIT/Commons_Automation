@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC26_ICDC_OSA04_FileType-scATACSequenceFile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e6398d65-41fc-4202-9914-15ab5ec8d3a1</testCaseGuid>
+</TestCaseEntity>
