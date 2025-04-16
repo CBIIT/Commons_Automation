@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_CCDI_phs000463_DiagAnatSite-C42.0Blood_FirsEvent-Death</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a24e62bb-3239-41bb-9166-92686e5472a2</testCaseGuid>
+</TestCaseEntity>

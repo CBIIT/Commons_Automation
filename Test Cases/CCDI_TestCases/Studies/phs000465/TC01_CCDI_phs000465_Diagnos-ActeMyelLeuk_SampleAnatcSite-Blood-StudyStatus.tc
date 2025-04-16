@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CCDI_phs000465_Diagnos-ActeMyelLeuk_SampleAnatcSite-Blood-StudyStatus</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d223027f-c3b1-4afa-ae1e-713c6fa8bffc</testCaseGuid>
+</TestCaseEntity>

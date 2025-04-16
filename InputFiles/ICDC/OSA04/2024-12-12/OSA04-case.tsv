@@ -1,0 +1,8 @@
+type	cohort.cohort_record_id	study.clinical_study_designation	 study_arm.arm_id	case_record_id	patient_id	patient_first_name
+case		OSA04		OSA04-A	A	Charlie
+case		OSA04		OSA04-B	B	Nubbins
+case		OSA04		OSA04-C	C	Kyland
+case		OSA04		OSA04-D	D	Gauge
+case		OSA04		OSA04-E	E	BettyBoo
+case		OSA04		OSA04-F	F	Rocky
+case		OSA04		OSA04-G	G	Shiner

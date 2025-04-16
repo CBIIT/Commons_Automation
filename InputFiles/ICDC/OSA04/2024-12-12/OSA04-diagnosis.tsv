@@ -1,0 +1,8 @@
+type	case.case_record_id	diagnosis_record_id	disease_term	primary_disease_site	stage_of_disease	date_of_diagnosis	histology_cytopathology	date_of_histology_confirmation	histological_grade	best_response	pathology_report	treatment_data	follow_up_data	concurrent_disease	concurrent_disease_type
+diagnosis	OSA04-A	OSA04-A	Osteosarcoma	Bone (Appendicular)	Unknown		Osteosarcoma-NOS			Not Determined	No	No	No	No	
+diagnosis	OSA04-B	OSA04-B	Osteosarcoma	Bone (Appendicular)	Unknown		Osteosarcoma-NOS			Not Determined	No	No	No	No	
+diagnosis	OSA04-C	OSA04-C	Osteosarcoma	Bone (Appendicular)	Unknown		Osteosarcoma-NOS			Not Determined	No	No	No	No	
+diagnosis	OSA04-D	OSA04-D	Osteosarcoma	Bone (Appendicular)	Unknown		Osteosarcoma-NOS			Not Determined	No	No	No	No	
+diagnosis	OSA04-E	OSA04-E	Osteosarcoma	Bone (Appendicular)	Unknown		Osteosarcoma-NOS			Not Determined	No	No	No	No	
+diagnosis	OSA04-F	OSA04-F	Osteosarcoma	Bone (Appendicular)	Unknown		Osteosarcoma-NOS			Not Determined	No	No	No	No	
+diagnosis	OSA04-G	OSA04-G	Osteosarcoma	Bone (Appendicular)	Unknown		Osteosarcoma-NOS			Not Determined	No	No	No	No	

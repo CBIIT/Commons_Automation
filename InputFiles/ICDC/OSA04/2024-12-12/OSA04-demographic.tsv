@@ -1,0 +1,8 @@
+type	case.case_record_id	demographic_record_id	breed	additional_breed_detail	patient_age_at_enrollment	date_of_birth	sex	weight	neutered_indicator
+demographic	OSA04-A	OSA04-A	Golden Retriever		10	2/25/2007	Male	50.1	Yes
+demographic	OSA04-B	OSA04-B	Rottweiler		7	8/28/2010	Male	45.7	Yes
+demographic	OSA04-C	OSA04-C	Doberman Pinscher		7	9/28/2010	Male	38.9	Yes
+demographic	OSA04-D	OSA04-D	Greyhound		12	1/12/2006	Male	33	Yes
+demographic	OSA04-E	OSA04-E	Great Pyrenees		10	1/19/2010	Female	40	Yes
+demographic	OSA04-F	OSA04-F	Golden Retriever		7	12/1/2010	Male	32.4	Yes
+demographic	OSA04-G	OSA04-G	Greyhound		10	4/1/2008	Female	27.2	Yes
