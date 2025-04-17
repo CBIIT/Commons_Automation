@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>C42.0_Blood_Chkbx</name>
+   <name>C41.2_Spine_Chkbx</name>
    <tag></tag>
-   <elementGuidId>7df49e98-2a52-49e2-941d-04eaa8c67e0f</elementGuidId>
+   <elementGuidId>6d71facc-c4fd-4d25-b9d1-1019dd73122c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Sample Anatomic Site_C42.0 : Blood&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Sample Anatomic Site_C41.2 : Spine&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Sample Anatomic Site_C42.0 : Blood&quot;]</value>
-      <webElementGuid>212dc1b0-e7ae-4163-bcc1-eb492ac7a50d</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Sample Anatomic Site_C41.2 : Spine&quot;]</value>
+      <webElementGuid>1de64e8a-58cb-4ef0-99f3-8b1df0c89c01</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

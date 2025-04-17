@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>C42.0_Blood_Chkbx</name>
+   <name>Wilms_Chkbx</name>
    <tag></tag>
-   <elementGuidId>7df49e98-2a52-49e2-941d-04eaa8c67e0f</elementGuidId>
+   <elementGuidId>baac9b18-091a-4e7a-82cc-2a3feb43ba36</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Sample Anatomic Site_C42.0 : Blood&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Diagnosis_Wilms&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Sample Anatomic Site_C42.0 : Blood&quot;]</value>
-      <webElementGuid>212dc1b0-e7ae-4163-bcc1-eb492ac7a50d</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Diagnosis_Wilms&quot;]</value>
+      <webElementGuid>6d1443ae-f408-4efb-b52b-93cd1df0738a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
