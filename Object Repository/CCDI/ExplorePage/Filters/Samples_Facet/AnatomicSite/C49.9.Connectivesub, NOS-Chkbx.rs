@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>C42.0_Blood_Chkbx</name>
+   <name>C49.9.Connectivesub, NOS-Chkbx</name>
    <tag></tag>
-   <elementGuidId>7df49e98-2a52-49e2-941d-04eaa8c67e0f</elementGuidId>
+   <elementGuidId>d16d3e99-93e1-4db4-a9a3-1ccab1bf194b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Sample Anatomic Site_C42.0 : Blood&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Sample Anatomic Site_C49.9 : Connective, subcutaneous and other soft tissues, NOS&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Sample Anatomic Site_C42.0 : Blood&quot;]</value>
-      <webElementGuid>212dc1b0-e7ae-4163-bcc1-eb492ac7a50d</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Sample Anatomic Site_C49.9 : Connective, subcutaneous and other soft tissues, NOS&quot;]</value>
+      <webElementGuid>43eae652-9ef0-40cb-a4a5-a54cbf605041</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

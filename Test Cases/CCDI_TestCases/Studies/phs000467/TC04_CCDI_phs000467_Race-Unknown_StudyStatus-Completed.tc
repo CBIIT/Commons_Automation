@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC01_CCDI_phs000468_Sex-Male_Race-Hispaniclatino</name>
+   <name>TC04_CCDI_phs000467_Race-Unknown_StudyStatus-Completed</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>3120e6e8-6690-4f20-94db-c04963f36f4b</testCaseGuid>
+   <testCaseGuid>3a3d47f1-3885-4d26-8448-2f17106a7781</testCaseGuid>
 </TestCaseEntity>
