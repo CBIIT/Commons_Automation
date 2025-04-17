@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>C42.0_Blood_Chkbx</name>
+   <name>C76.3PelvisNOS_Chkbx</name>
    <tag></tag>
-   <elementGuidId>7df49e98-2a52-49e2-941d-04eaa8c67e0f</elementGuidId>
+   <elementGuidId>847368c1-8bc0-4733-afd2-f7aa73ea4b3e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Sample Anatomic Site_C42.0 : Blood&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Diagnosis Anatomic site_C76.3 : Pelvis, NOS&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Sample Anatomic Site_C42.0 : Blood&quot;]</value>
-      <webElementGuid>212dc1b0-e7ae-4163-bcc1-eb492ac7a50d</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Diagnosis Anatomic site_C76.3 : Pelvis, NOS&quot;]</value>
+      <webElementGuid>80d2831f-61a6-4321-b60f-749043608b70</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

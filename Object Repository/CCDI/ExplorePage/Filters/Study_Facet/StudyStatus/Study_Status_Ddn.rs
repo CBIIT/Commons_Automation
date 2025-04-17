@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>C42.0_Blood_Chkbx</name>
+   <name>Study_Status_Ddn</name>
    <tag></tag>
-   <elementGuidId>7df49e98-2a52-49e2-941d-04eaa8c67e0f</elementGuidId>
+   <elementGuidId>60dc6840-db10-4f3a-8fe4-17e9a96e8399</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Sample Anatomic Site_C42.0 : Blood&quot;]</value>
+         <value>(//*[@id='Study Status'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Sample Anatomic Site_C42.0 : Blood&quot;]</value>
-      <webElementGuid>212dc1b0-e7ae-4163-bcc1-eb492ac7a50d</webElementGuid>
+      <value>(//*[@id='Study Status'])[1]</value>
+      <webElementGuid>ad6605c8-eded-4708-8890-736656cb5339</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
