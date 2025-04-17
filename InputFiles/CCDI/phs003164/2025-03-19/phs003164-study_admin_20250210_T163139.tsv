@@ -1,0 +1,2 @@
+type	study_admin_id	organism_species	adult_or_childhood_study	file_types_and_format	number_of_participants	number_of_samples	id	study.id
+study_admin	phs003164_admin	Human	Pediatric	fastq			1f929375-e89b-5a6d-8201-c3aae5d72ad6	426932fc-f903-5e88-9895-c23d40cfc3f9

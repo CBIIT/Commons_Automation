@@ -1,0 +1,2 @@
+type	study_personnel_id	personnel_name	personnel_type	email_address	institution	orcid	crdc_id	id	study.id
+study_personnel	phs003164.pi	Richard Lock, PhD	PI	rlock@ccia.org.au	Children's Cancer Institute	https://orcid.org/0000-0002-3436-9071		a5b0be5c-27f4-5f6d-946d-5e11c71b0c77	426932fc-f903-5e88-9895-c23d40cfc3f9
