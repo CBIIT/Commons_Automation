@@ -1,0 +1,2 @@
+type	study_admin_id	organism_species	adult_or_childhood_study	file_types_and_format	number_of_participants	number_of_samples	id	study.id
+study_admin	phs002431_admin	Human	Pediatric	FASTQ; CRAM; CRAI; TXT	611	1441	b3faf530-7617-5945-ac31-22490607daa9	f4bf3540-f73b-5034-9595-7ab4b0fdafe4
