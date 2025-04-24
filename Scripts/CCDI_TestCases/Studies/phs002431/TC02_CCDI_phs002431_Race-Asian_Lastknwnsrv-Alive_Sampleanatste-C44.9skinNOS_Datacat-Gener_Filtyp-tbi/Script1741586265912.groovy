@@ -43,10 +43,10 @@ CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Surviva
 WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Survival-Facet/Lastknownsurvivalstatus/Alive_Chkbx'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Survival-Facet/Lastknownsurvivalstatus/Alive_Chkbx')
 
-WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Samples_Facet/AnatomicSite/AnatomicSite_Ddn'), 5)
+WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Samples_Facet/SampleAnatomicSite/AnatomicSite_Ddn'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Samples_Facet/AnatomicSite/AnatomicSite_Ddn')
 
-WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Samples_Facet/AnatomicSite/C44.9SkinNOS_Chkbx'), 5)
+WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Samples_Facet/SampleAnatomicSite/C44.9SkinNOS_Chkbx'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Samples_Facet/AnatomicSite/C44.9SkinNOS_Chkbx')
 
 WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/DataCategory_Facet/DataCategory_Facet'), 5)

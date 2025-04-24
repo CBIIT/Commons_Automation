@@ -1,0 +1,41 @@
+type	cell_line_id	source	id	study.id	sample.id
+cell_line	COGN534_cellLine	Childhood Cancer Repository	040a47f0-3f26-50bb-bc9f-72176ec27cf8		3be07ae5-eb56-5679-ab9c-cf3dc6706247
+cell_line	SKNDZ_cellLine	American Type Culture Collection	0561e2c2-81d5-575a-ad0c-a2296409273a		6acc95f4-f2af-57a7-9897-899876b70dc0
+cell_line	NGP_cellLine	DSMZ-German Collection of Microorganisms and Cell Cultures GmbH	1515be47-39d9-52a2-8a6a-4742bb26235f		728c6c4d-1d08-58f3-ba94-48e7ac6c1dfb
+cell_line	IMR5_cellLine	American Type Culture Collection	15acd36e-cbcd-54c5-98b4-0bdb2f1ff92d		f241d6a4-0bb3-583f-bc8d-9057432535eb
+cell_line	SKNBE2C_cellLine	American Type Culture Collection	1835014b-21c3-5707-8c28-27d290315dde		2787d86e-3d13-5922-8b6d-a6643ed1c398
+cell_line	LAN6_cellLine	Childhood Cancer Repository	193d8863-4b5d-5e66-9b5f-c94f3f40c683		ddecaef2-1205-5396-a1c8-a3d06282a0af
+cell_line	IMR32_cellLine	IRCCS Ospedale Policlinico San Martino	1d3210a1-9891-5b60-a02b-27f5150d8c56		3b6fb909-0eda-5a06-bf9c-cc5b8feeefaa
+cell_line	COGN415_cellLine	Childhood Cancer Repository	23911a5c-3d91-5d4b-b03a-1856e2b1af3f		41f37b92-84fe-54ea-83be-000b171df231
+cell_line	RPE1_cellLine	American Type Culture Collection	248a8b04-dca4-542f-9b19-2d9a79c9e95e		908f1f2f-7288-5680-b078-331f993fd6c9
+cell_line	NB69_cellLine	European Collection of Authenticated Cell Cultures	24a60325-9b80-560e-87f3-c3384bbd4d4f		462832c4-2da5-5250-a868-5654e7e85f3e
+cell_line	CHP212_cellLine	Children's Hospital of Philadelphia	27a2d7be-30f5-5846-9f1f-fad979c515ed		785b1326-e4aa-5561-bd9f-253209d585d7
+cell_line	NB1691_cellLine	Pediatric Preclinical Testing Program	2b2ff34e-e282-590e-a30e-72bd7cfe13d5		fe0a3634-4b19-5db3-9084-00082b321932
+cell_line	SMSKAN_cellLine	Childhood Cancer Repository	30c12e36-45ba-585f-a0cb-8490cc646232		4c74464c-f74a-50e4-944a-f88c93deaa0b
+cell_line	SKNSH_cellLine	American Type Culture Collection	36c9d0f6-bfde-59f0-9225-ac2a90021410		fa5a8dec-b474-5702-9d93-a70efef5389f
+cell_line	CHP134_cellLine	Children's Hospital of Philadelphia	4884432d-c6fd-583e-a5e3-d62203faa144		86bf2e66-e52e-5109-a38f-942cb0e2cf2a
+cell_line	NBSD_cellLine	Pediatric Preclinical Testing Program	495ffde9-d1db-5443-b98a-62e04318dc00		fcd0b04b-0744-5693-973c-832323feb480
+cell_line	COGN471_cellLine	Childhood Cancer Repository	581e9881-e0d2-559b-8aee-0f6b1acc946a		b068d21d-e45b-5556-b1d4-8de2cf34b7ff
+cell_line	NBLS_cellLine	DSMZ-German Collection of Microorganisms and Cell Cultures GmbH	5b38ecea-e8b8-5488-b614-5a46e825869e		06ca8533-a8f0-57f3-96a8-c9245b57846c
+cell_line	SHSY5Y_cellLine	American Type Culture Collection	660ef194-f9c6-5d7a-aa04-11c0d1198821		a2bc38a2-2694-5288-b24a-a278f6848d45
+cell_line	LAN5_cellLine	Childhood Cancer Repository	817e3a7d-2fe9-55ff-bd69-f2adb3d1251b		56841535-5b1e-516b-b9a5-a37fb73ed1b5
+cell_line	SMSSAN_cellLine	Childhood Cancer Repository	82ef51fb-1881-5a57-b1a8-e9a0ecc97eee		58e63597-5eb4-52ea-a1e0-f6b9e9e4ae13
+cell_line	COGN519_cellLine	Childhood Cancer Repository	8d5c50da-151d-523b-b009-06dc0292c773		3ba4f09a-29cb-5f1d-9334-18e6b65ef556
+cell_line	COGN453_cellLine	Childhood Cancer Repository	8e2ac99e-e658-5858-b5b1-f85ef60c9f02		3086aed1-7e75-5e1b-97ee-7bcbe691c4a0
+cell_line	FELIX_cellLine	Childhood Cancer Repository	9158e697-da74-57f0-90ba-97e4af5a3f4a		513857ea-bc29-53ef-b171-bbd0d52d7293
+cell_line	NBEBC1_cellLine	Childhood Cancer Repository	920be953-75fa-50dc-8003-c3022d9bdf1a		26b4fd5a-9bfe-5ff6-874f-5b9207d24bad
+cell_line	HU-FETAL-BRAIN_cellLine	Children's Hospital of Philadelphia	b068c29e-0e8d-587e-9d8d-de5395d912dd		fab833b2-eef2-517a-9978-1cb932b86e58
+cell_line	SKNBE2_cellLine	American Type Culture Collection	b70a65d5-ce25-5d7e-a4a0-9d3dbb875419		32ebd94b-f164-50b6-97de-035d8697b3d9
+cell_line	COGN557_cellLine	Childhood Cancer Repository	b70f98ed-3e13-5497-8393-54f7e7be2729		3dbd549a-1f50-5403-8bdc-8d33e9f29ad3
+cell_line	NB1_cellLine	National Institutes of Biomedical Innovation, Health and Nutrition JRCB Cell Bank	c17526bc-8b4f-58f0-90d3-5a753bc78f16		eeb8108b-ed9f-5f58-90fb-f508ed39cc55
+cell_line	NB1643_cellLine	Childhood Cancer Repository	c8bf0ce8-e97a-5cb5-9ab7-80bbc35ee0c9		823c44c0-1549-574f-9ee7-2188a47675dd
+cell_line	KELLY_cellLine	European Collection of Authenticated Cell Cultures	d2c3d1fe-1c0a-53b2-a261-78242973b7f8		4019841f-c2fa-5f76-bc86-38f25545f11c
+cell_line	COGN496_cellLine	Childhood Cancer Repository	d6f4ff63-2320-564e-8d32-2389643282a9		120e8636-4ac9-502d-a96c-aa1cae3b7383
+cell_line	COGN549_cellLine	Childhood Cancer Repository	d9d6ccfa-c372-5c3b-95c1-19dc2d3fde2f		4b909088-0236-5ac2-a4b2-a9e2fda7cb9f
+cell_line	COGN440_cellLine	Childhood Cancer Repository	db29e95a-5c6e-537d-8360-2183b555cbac		6b917462-96dc-5eaa-a562-113834e33c0c
+cell_line	COGN573_cellLine	Childhood Cancer Repository	dff31373-cfaa-573e-87f2-6ae2a94c8ca5		b0d74464-9789-5082-b90d-50ce89e08185
+cell_line	SKNFI_cellLine	American Type Culture Collection	e3078cf0-ece3-5e69-83f2-a9f00a297362		e9bdf586-8fb4-5183-ae73-b5f0baa47df7
+cell_line	SKNAS_cellLine	American Type Culture Collection	e5721464-f4ec-5102-8ca5-352f11f48999		7ddfc242-8820-5af0-9855-2ed3ac391c3c
+cell_line	NLF_cellLine	Kerafast	f2dd0337-8732-5350-a716-48ee560fa51c		c7fbb899-96a5-5dcf-8137-e9be2de3418f
+cell_line	NMB_cellLine	DSMZ-German Collection of Microorganisms and Cell Cultures GmbH	fd52f6e5-e105-5087-a334-4955c252da97		652d58a5-c94f-5099-a2d9-7a7a94362aec
+cell_line	COGN561_cellLine	Childhood Cancer Repository	fdf89f83-d99b-5506-8cae-8e8f3ef66aa8		9bbe2f0d-6ddc-58e8-a3b0-97fdbff998b1
