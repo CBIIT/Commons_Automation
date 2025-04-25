@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC03_CCDI_phs002430_Sex-Female_Diagnosis-Basis-Clinical</name>
+   <name>TC05_CCDI_phs002431_Sex-Female_LibrarySelection-PolyA</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
