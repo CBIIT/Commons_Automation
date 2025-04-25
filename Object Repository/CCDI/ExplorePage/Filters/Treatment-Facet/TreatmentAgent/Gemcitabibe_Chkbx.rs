@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>C42.1_Bonemarrow_Chkbx</name>
+   <name>Gemcitabibe_Chkbx</name>
    <tag></tag>
-   <elementGuidId>1f78367f-4419-4062-9e32-d10139e98f73</elementGuidId>
+   <elementGuidId>e70e7b73-ab06-4e9d-9ce0-dad169be0dd3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div/p[contains(text(), 'Bone marrow')]</value>
+         <value>//*[@id=&quot;checkbox_Treatment Agent_Gemcitabine&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div/p[contains(text(), 'Bone marrow')]</value>
-      <webElementGuid>a0245d90-992d-4e03-8d3b-8a70d4208485</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Treatment Agent_Gemcitabine&quot;]</value>
+      <webElementGuid>825b3818-2ad8-479e-ba48-bfedcd83c4df</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

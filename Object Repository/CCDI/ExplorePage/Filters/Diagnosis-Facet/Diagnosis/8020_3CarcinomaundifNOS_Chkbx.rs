@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>C42.1_Bonemarrow_Chkbx</name>
+   <name>8020_3CarcinomaundifNOS_Chkbx</name>
    <tag></tag>
-   <elementGuidId>1f78367f-4419-4062-9e32-d10139e98f73</elementGuidId>
+   <elementGuidId>67b28299-6ba7-4f6c-8eb5-850ac081e7a6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div/p[contains(text(), 'Bone marrow')]</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div/p[contains(text(), 'Bone marrow')]</value>
-      <webElementGuid>a0245d90-992d-4e03-8d3b-8a70d4208485</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Diagnosis_8020/3 : Carcinoma, undifferentiated, NOS&quot;]</value>
+      <webElementGuid>56b3905d-0221-4229-8429-1e406fafe308</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

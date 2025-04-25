@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>C42.1_Bonemarrow_Chkbx</name>
+   <name>Buccalmucosa_Chkbx</name>
    <tag></tag>
-   <elementGuidId>1f78367f-4419-4062-9e32-d10139e98f73</elementGuidId>
+   <elementGuidId>5d3e07c0-be96-4f66-9f49-32fdeede018f</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//div/p[contains(text(), 'Bone marrow')]</value>
+         <value>//input[@id='checkbox_Sample Anatomic Site_C06.0 : Buccal mucosa']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +21,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div/p[contains(text(), 'Bone marrow')]</value>
-      <webElementGuid>a0245d90-992d-4e03-8d3b-8a70d4208485</webElementGuid>
+      <value>//input[@id='checkbox_Sample Anatomic Site_C06.0 : Buccal mucosa']</value>
+      <webElementGuid>1733163d-348a-47bf-9635-3208e406de8f</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
