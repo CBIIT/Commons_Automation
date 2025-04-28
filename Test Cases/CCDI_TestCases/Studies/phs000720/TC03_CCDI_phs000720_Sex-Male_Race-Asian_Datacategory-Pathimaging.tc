@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_CCDI_phs000720_Sex-Male_Race-Asian_Datacategory-Pathimaging</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f18234c9-b6cc-42aa-a798-1879b6baec0e</testCaseGuid>
+</TestCaseEntity>

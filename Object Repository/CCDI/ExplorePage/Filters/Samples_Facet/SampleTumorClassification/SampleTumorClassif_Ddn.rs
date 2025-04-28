@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;Tumor classification&quot;]</value>
+         <value>(//*[@id=&quot;Tumor classification&quot;])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;Tumor classification&quot;]</value>
-      <webElementGuid>5581f2c1-6de8-4d3f-9ad1-8a763431101c</webElementGuid>
+      <value>(//*[@id=&quot;Tumor classification&quot;])[1]</value>
+      <webElementGuid>80651331-d191-4eb2-8769-10085f252215</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
