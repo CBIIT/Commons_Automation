@@ -7,7 +7,11 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+<<<<<<< HEAD:Object Repository/CCDI/ExplorePage/Filters/Samples_Facet/AnatomicSite/C42.1_Bonemarrow_Chkbx.rs
+         <value>//div/p[contains(text(), 'Bone marrow')]</value>
+=======
          <value>//*[@id=&quot;checkbox_Sample Anatomic Site_C42.1 : Bone marrow&quot;]</value>
+>>>>>>> c5b3d902e47bcd63a7408257e727f83d22af12be:Object Repository/CCDI/ExplorePage/Filters/Samples_Facet/SampleAnatomicSite/C42.1_Bonemarrow_Chkbx.rs
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +22,12 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
+<<<<<<< HEAD:Object Repository/CCDI/ExplorePage/Filters/Samples_Facet/AnatomicSite/C42.1_Bonemarrow_Chkbx.rs
+      <value>//div/p[contains(text(), 'Bone marrow')]</value>
+      <webElementGuid>a0245d90-992d-4e03-8d3b-8a70d4208485</webElementGuid>
+=======
       <value>//*[@id=&quot;checkbox_Sample Anatomic Site_C42.1 : Bone marrow&quot;]</value>
       <webElementGuid>38386c76-e47b-4536-b6f5-15ab10992481</webElementGuid>
+>>>>>>> c5b3d902e47bcd63a7408257e727f83d22af12be:Object Repository/CCDI/ExplorePage/Filters/Samples_Facet/SampleAnatomicSite/C42.1_Bonemarrow_Chkbx.rs
    </webElementProperties>
 </WebElementEntity>
