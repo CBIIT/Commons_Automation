@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC01_CCDI_phs000471_FirstEvent-Progression_Sampleanatomic-NtReported_FileType-pdf</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>751c3314-1028-4ac8-8784-08514dce32a2</testCaseGuid>
-</TestCaseEntity>

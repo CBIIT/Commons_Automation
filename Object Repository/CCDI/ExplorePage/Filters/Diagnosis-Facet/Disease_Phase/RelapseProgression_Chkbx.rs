@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Disease Phase_Relapse/Progression&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Disease Phase_Relapse&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Disease Phase_Relapse/Progression&quot;]</value>
-      <webElementGuid>c7d8003e-ef17-4b2f-bb66-b66609466fda</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Disease Phase_Relapse&quot;]</value>
+      <webElementGuid>d1fd848d-95f9-47bb-9fdb-4c93c49f48f8</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

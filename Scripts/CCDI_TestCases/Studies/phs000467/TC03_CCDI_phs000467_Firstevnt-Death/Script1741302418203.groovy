@@ -31,10 +31,10 @@ CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Study_F
 WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Study_Facet/PHS_Accession/phs000466_Chkbx'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Study_Facet/PHS_Accession/phs000466_Chkbx')
 
-WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Samples_Facet/AnatomicSite/AnatomicSite_Ddn'), 5)
+WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Samples_Facet/SampleAnatomicSite/AnatomicSite_Ddn'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Samples_Facet/AnatomicSite/AnatomicSite_Ddn')
 
-WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Samples_Facet/AnatomicSite/NotReported_Chkbx'), 5)
+WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Samples_Facet/SampleAnatomicSite/NotReported_Chkbx'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Samples_Facet/AnatomicSite/NotReported_Chkbx')
 
 //Read Statbar

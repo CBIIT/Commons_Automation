@@ -1,0 +1,603 @@
+type	sample_id	tumor_classification	anatomic_site	participant_age_at_collection	sample_tumor_status	sample_description	crdc_id	id	participant.id	pdx.id	cell_line.id
+sample	PALLSD_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			003c6d0d-ed9d-5165-b36d-0396d844846e		f2e8f676-369e-5831-97aa-03ac0c7c5933	
+sample	ETP-5_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			00527ccf-26f3-5678-8888-281dde31cb84		8d385c84-9e2d-575d-981d-24c37000bd96	
+sample	COG-N-549x_pdx_samp	Unknown	C76.2 : Abdomen, NOS	-999	Tumor			0155445c-5b7e-5fc9-9d29-5d78506fb0a4		7dd519c3-4fef-576d-9999-692732d21501	
+sample	ICb-2002EPN	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			017a2f8f-dc5d-5142-8bfb-690d8cece24e	f27dc122-43ba-5c74-93ea-3bf534bd6733		
+sample	ALL-106	Unknown	C42.1 : Bone marrow	-999	Tumor			01f58397-9272-54db-9da6-b3ce3668a82a	46736332-3697-5637-b953-9597444edbef		
+sample	OS-25	Unknown	C40.9 : Bone of limb, NOS	-999	Tumor			0259ac92-0b0a-5dd2-a342-4b3a4235f204	950132d9-2b97-5110-a4a2-5315d8c57dde		
+sample	ALL-02_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			03835358-e3dd-5782-b34c-1f5e90dc8581		f93145a9-af61-5340-abe1-61e9d18f3dc0	
+sample	ALL-107_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			03b02067-2b03-5110-a1cd-48013ebf8f22		11547068-261a-58ca-b23a-0da14b9abe29	
+sample	NCH-PXA-1_pdx_samp	Primary	C71.9 : Brain, NOS	-999	Tumor			03e3a462-000e-578c-a4f8-ba3938897a4f		aecd62f6-4c1d-5ccd-9022-652ba243ad96	
+sample	NCH-RBD-1_pdx_samp	Metastatic	C34.9 : Lung, NOS	-999	Tumor			046953d3-81dd-5b2d-b0e9-a6ab992741f6		f4dae974-a402-5e9b-b8f2-f5b9f0a2b38c	
+sample	NB-1382	Primary	C48.0 : Retroperitoneum	-999	Tumor			04ae444f-2226-5f40-ba83-7ab788f41d54	b098c1ac-5a99-5ba3-9a74-daaeebc44366		
+sample	IC-9635EPN	Primary	C71.0 : Cerebrum	-999	Tumor			04c4e87d-cb19-5b50-8b2b-6de864bb672c	dfee8e44-1c86-51df-9770-1e987f7cbb3a		
+sample	ALL-90	Unknown	C42.1 : Bone marrow	-999	Tumor			04c78242-8852-54b6-987e-a0b6a24f70f0	46263093-675b-54b5-bd2b-d9246311611d		
+sample	ICb-J1017MB_pdx_samp	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			056e9c94-6922-5f9d-9e47-0067cc7c4613		6a0f9fee-572c-5ca7-bc86-1b06beb8419a	
+sample	OS-36	Metastatic	C34.9 : Lung, NOS	-999	Tumor			059b4bd1-fadb-5392-8b88-634b825d5d8b	3fda0660-77b0-5ebd-a9a4-703ac4c81dd9		
+sample	SMSSAN_cellLine_samp	Unknown	C42.1 : Bone marrow	-999	Tumor	SMS-SAN cell line		06a6c9de-7ebd-591c-ae7d-5374b75123ce			82ef51fb-1881-5a57-b1a8-e9a0ecc97eee
+sample	NBLS	Unknown	C74.9 : Adrenal gland, NOS	-999	Tumor	NBL-S cell line		06ca8533-a8f0-57f3-96a8-c9245b57846c	64fd3705-021a-5034-85e8-d625ce10568d		
+sample	NB-1643	Primary	C48.0 : Retroperitoneum	-999	Tumor			07d5083a-ebe1-56b5-b0de-91ce22b53ccd	e8aff77a-0cf1-5152-b6c3-ebc48a2e0aa2		
+sample	NMB_cellLine_samp	Unknown	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	NMB cell line		07e9f5de-7f2f-55e9-9a85-a0165f9cbd90			fd52f6e5-e105-5087-a334-4955c252da97
+sample	COG-N-426x-Felix-PDX_pdx_samp	Unknown	C42.0 : Blood	-999	Tumor			08032df0-175a-572b-89e2-afcd32bcdc2d		ec9d82dd-a16b-5eef-8cb2-1f9ec4b354ec	
+sample	COG-N-625x	Unknown	C80 : UNKNOWN PRIMARY SITE	-999	Tumor			080e2451-e657-5fa2-bef4-bea58a75128c	db4ac240-6d83-5f8b-a724-16b7decbe73a		
+sample	Rh-30_pdx_samp	Metastatic	C42.1 : Bone marrow	-999	Tumor			085d6983-2509-574a-b1c4-09c6c85b0588		ddd39e64-4d56-5488-af35-58e4df22f502	
+sample	COG-N-471x	Unknown	C42.0 : Blood	-999	Tumor			086b1588-7439-52e5-a5f6-c1fe0794ed83	14528ee4-8f8f-5521-9e8c-ee6aecf7c1d0		
+sample	COG-N-426x-Felix-PDX	Unknown	C42.0 : Blood	-999	Tumor			088b852d-003c-5d89-ad8e-aeed6ad0be7f	731a6a4e-08bd-5ced-91f8-098a02ae08d7		
+sample	ALL-11	Unknown	C42.1 : Bone marrow	-999	Tumor			0897356c-dbac-5a4b-806b-8cb6f1e58996	4708c9e1-7e2d-58d1-9edd-f813207f764b		
+sample	OS-36_pdx_samp	Metastatic	C34.9 : Lung, NOS	-999	Tumor			08cb235e-34d8-50b3-aea3-1235f13e4e8b		456bf2dc-b165-54d9-a429-a2983779754b	
+sample	NB-1382_pdx_samp	Primary	C48.0 : Retroperitoneum	-999	Tumor			08d09b4f-6aa6-5004-bcd0-058a4428a673		a2ae070b-f766-58cb-9275-0ba651029c55	
+sample	ASPS-KY_pdx_samp	Unknown	C80 : UNKNOWN PRIMARY SITE	-999	Tumor			08fbf50a-cd03-5fa1-b25a-eccbd4da671b		7ef9cc42-adeb-545a-93ef-dc1a064c217f	
+sample	NCH-OS-1	Primary	C40.9 : Bone of limb, NOS	-999	Tumor			09185c3e-99a2-5dc9-8c47-e10645aa0691	76d10486-d87b-5c99-9aaf-99db5949150b		
+sample	COG-N-561x_pdx_samp	Unknown	C42.0 : Blood	-999	Tumor			09361601-6993-5d6b-8531-184d1d32d909		e3bc6e68-9fe3-508a-9508-95baa06d2352	
+sample	IC-3635PXA	Primary	C71.0 : Cerebrum	-999	Tumor			0a1eb121-1fc3-5cbb-a59e-ac8feb5adcc8	eab471fe-0866-5264-b789-2a3545f87c16		
+sample	ICb-984MB	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			0a84eccf-c5c9-520a-9243-5dd222b17c83	47d1b228-e838-522a-8fc1-f9b319dd7b49		
+sample	ALL-80	Unknown	C42.1 : Bone marrow	-999	Tumor			0ab6f720-e05a-5d88-ad07-f23094c48c36	62e38b9a-cbad-57a8-bc0a-32f5822d6360		
+sample	COG-N-415x_pdx_samp	Unknown	C42.0 : Blood	-999	Tumor			0b78e44d-2815-5b35-a02b-3c1b08231e8e		daacfac9-bc71-5e54-b82d-319370088a5a	
+sample	NB-Fly-623m_pdx_samp	Unknown	C42.0 : Blood	-999	Tumor			0b8b05a7-350b-59e8-adae-350cecb66bed		50205fb1-266b-5cb1-a3a2-5a9844365962	
+sample	CHP134_cellLine_samp	Unknown	C74.9 : Adrenal gland, NOS	-999	Tumor	CHP-134 cell line		0b976f33-0fe4-50c1-ae2e-d4ef5ee89e99			4884432d-c6fd-583e-a5e3-d62203faa144
+sample	OS-60	Primary	C40.9 : Bone of limb, NOS	-999	Tumor			0b97fd20-ffad-5237-87e9-d04c296cff22	037bbc72-74f0-5e28-b095-f9dbc2c08718		
+sample	Rh-36_pdx_samp	Primary	C62.9 : Testis, NOS	-999	Tumor			0cafe20a-622f-50b1-9f15-7fc4ac2c7e7a		e1d94b54-5c12-5d52-b28e-a60bb937e3d4	
+sample	OS-17	Unknown	C40.9 : Bone of limb, NOS	-999	Tumor			0d68edbe-6785-5558-b02c-450467dc3859	84ab38a7-06d5-5113-a1d1-39224bd5ef65		
+sample	COG-N-557x	Unknown	C76.2 : Abdomen, NOS	-999	Tumor			0e6b6c02-aca2-5fa6-a8e1-5bb8b22f2be9	8bd6af64-dcf3-5a9a-baa3-89ef34dc0ed2		
+sample	OS-41_pdx_samp	Primary	C40.2 : Tibia	-999	Tumor			0ead7c4a-c404-5f27-9bd5-e80e194cb6be		022b778b-ae86-5a65-80df-21cfcd4e6689	
+sample	NCH-WT-8-S13-3700_pdx_samp	Primary	C64.9 : Kidney, NOS	-999	Tumor			0ebb7d69-4a03-58e7-9955-f078e3ac051f		9d94c25a-f80f-54fc-a584-540a98339909	
+sample	NCH-MB-1_pdx_samp	Primary	C71.5 : Ventricle, NOS	-999	Tumor			0f4f57a2-15d1-5290-9928-7f17f3630f05		e9ecd099-48a6-533c-af7f-f7ca1712c75a	
+sample	ALL-55_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			0fff697d-8c05-514a-8d53-3703551db475		fe1e02a6-c2d4-5d86-b521-14bd4c4f73f8	
+sample	NCH-CCS-1_pdx_samp	Metastatic	C77.9 : Lymph node, NOS	-999	Tumor			1020ab10-99cd-5040-8d93-f64515a57af0		a54ef66e-8c39-5e0b-96d0-81335459119d	
+sample	PALJDL	Unknown	C42.1 : Bone marrow	-999	Tumor			10b09add-a008-50f0-8131-6afee69b9573	c6ee7f51-c76e-55fc-b62a-ffa9514a2fc7		
+sample	ICb-1343ENB	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			1190815a-96c8-55c7-9ed9-475d59ad17f3	bd15b55a-7b59-5972-95f4-a54fffb8e52f		
+sample	COGN496	Primary	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	COG-N-496 cell line		120e8636-4ac9-502d-a96c-aa1cae3b7383	dee1d88b-209d-5617-b5b6-7ab2052d0ac3		
+sample	ALL-122_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			1210a4b4-d1e1-5a66-85ae-c60f31a86bd7		03d98bda-df11-5610-a01d-948395c5bd1b	
+sample	COG-N-557x_pdx_samp	Unknown	C76.2 : Abdomen, NOS	-999	Tumor			1262c8b9-e315-5c1c-9884-2f9972299918		956e9b73-ded1-51fd-a121-22d20dae8cd6	
+sample	ICb-1343ENB_pdx_samp	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			128a0f84-9c68-562e-8a62-35185de12835		6e1af9b9-d93e-58d8-b5a4-fd2dda92c20d	
+sample	ALL-80_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			135776ef-2ab2-5fd3-8bd4-5444c506c833		b55fab44-3af6-565b-b2d9-852adf99a18c	
+sample	ICb-5323EPN	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			13813e1c-57d7-52d2-9a7e-e1c33092700a	37a49426-559c-5f89-aa50-181adbe91cd8		
+sample	NCH-PXA-1	Primary	C71.9 : Brain, NOS	-999	Tumor			138a8960-2755-59eb-b8e6-f309cbd3340f	f0e15393-87fe-5e46-9deb-db66d882560c		
+sample	IC-9320GCT_pdx_samp	Primary	C71.0 : Cerebrum	-999	Tumor			13bc87a2-23c7-59e1-8f2d-a8818cfeeb69		de6e928d-130c-54d7-b3aa-174096fc3f48	
+sample	ICb-6753ATRT_pdx_samp	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			14059d44-0dba-55ed-b2b2-f12e875ac2b0		4e8691b5-613f-5ae4-8a84-f2d590201614	
+sample	IC-3752GBM	Primary	C71.0 : Cerebrum	-999	Tumor			14079969-efcb-5ee1-9e57-f0dc66d03452	d6dd2ab2-ac2e-5126-ac87-55e944ae709e		
+sample	COGN519_cellLine_samp	Unknown	C74.9 : Adrenal gland, NOS	-999	Tumor	COG-N-519 cell line		14118eb8-18f6-5922-8a1e-b7f96fb0885b			8d5c50da-151d-523b-b009-06dc0292c773
+sample	ALL-95	Unknown	C42.1 : Bone marrow	-999	Tumor			14495173-055c-5a8f-9118-42e548e25284	83fa0fc4-60a0-57c1-bee5-d8f5384160a4		
+sample	IC-1128GBM_pdx_samp	Primary	C71.0 : Cerebrum	-999	Tumor			14723ab7-45a6-5953-b562-4c067d46ccd0		4aaaac73-081e-5600-a44b-2a60291d5852	
+sample	SKNFI_cellLine_samp	Unknown	C42.1 : Bone marrow	-999	Tumor	SK-N-FI cell line		149dbfcc-7699-5379-b943-c81a95fc063f			e3078cf0-ece3-5e69-83f2-a9f00a297362
+sample	IC-9811EPN_pdx_samp	Primary	C71.0 : Cerebrum	-999	Tumor			14d9f684-1fa3-5c15-aa8a-5545897a91b2		b760f10e-1035-51aa-a868-d5f0b188b6bf	
+sample	MLL-5	Unknown	C42.0 : Blood	-999	Tumor			158ab358-6962-5162-9d7a-01bb7fbd6c88	dd9bc640-983f-51f7-8f27-1abc6a014298		
+sample	ICb-2164MB	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			15cafb31-bb44-5ed4-a7e7-d062d91e4fdd	b007a46e-7fc2-5263-8390-3a6bba2c2e22		
+sample	OS-55-SBX_pdx_samp	Primary	C40.9 : Bone of limb, NOS	-999	Tumor			15d9eb89-8de8-5f1e-a2d2-c01c919e1d48		7e49c085-48e7-59b7-9e96-495058402ab4	
+sample	ICb-L1115ATRT	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			162e9236-8042-5d84-bde2-0215f0d9514c	2d29efbb-4556-58f5-8952-ff91b6e642fc		
+sample	ICb-1595MB_pdx_samp	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			1663ed8f-c869-5aa5-9edf-07da949203da		a12d75c7-5120-5c5c-a023-4785afb28e1c	
+sample	ALL-46_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			16ba6a45-704e-5831-9a7c-50a76c6e888b		e9d50f36-2763-5c72-a250-65d567b3ee71	
+sample	OS-44-KPDX-x	Primary	C40.9 : Bone of limb, NOS	-999	Tumor			17245d5d-8cb8-519e-8d88-ef24370abf24	2cdab855-476d-5304-b0de-ffe3a8283618		
+sample	ETP-6	Unknown	C42.1 : Bone marrow	-999	Tumor			17674b96-ed54-59fc-9c2e-4c596154eb92	884ceebf-e74b-53ee-a4bf-168a00eeceea		
+sample	ALL-94	Unknown	C42.1 : Bone marrow	-999	Tumor			17a76d95-8610-5587-8e69-c94eb20624b2	a1b85cbe-21f4-557c-bd8f-396ff51aa3ec		
+sample	ICb-10614EPN	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			189a0db1-b944-51f4-9667-f486e44fb3a3	d310c138-381d-53d6-9cef-497fcd2b874a		
+sample	PAKVKK_pdx_samp	Unknown	C42.0 : Blood	-999	Tumor			1935b45d-8dbe-5537-9914-326e42fa2110		1a8ea736-4312-577b-952a-15b218aa345a	
+sample	COG-N-549x	Unknown	C76.2 : Abdomen, NOS	-999	Tumor			19607727-e3e6-564f-ad66-8c8fc34af977	fc1c40b1-72b7-5bbe-8b94-f27835a3bd30		
+sample	BT-27_pdx_samp	Unknown	C80 : UNKNOWN PRIMARY SITE	-999	Tumor			1bb122bb-52ef-5fd0-b54c-29b22274e52f		709157b1-9d31-5dab-a9d6-3d69db345fdb	
+sample	ALL-88_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			1cdb5eec-e312-5d2a-8a1f-f280232bef49		6a6998aa-c38f-5c60-bf76-835a4c033e95	
+sample	IBs-W0128DIPG_pdx_samp	Primary	C71.7 : Brain stem	-999	Tumor			1cdd4ab1-09fe-51b9-85a5-39d31ba37ced		14105ca3-4917-51a7-94fd-e827272628cb	
+sample	ALL-07	Unknown	C42.1 : Bone marrow	-999	Tumor			1e1ca0c3-e919-5066-a693-703ffe78cc47	a53514ab-7275-56fd-a1fc-633814ea34de		
+sample	OS-25_pdx_samp	Unknown	C40.9 : Bone of limb, NOS	-999	Tumor			1f23885f-9cb8-5217-afbe-e52a1ee23122		202f6bbc-7359-5879-a2d3-d77beb01b62b	
+sample	ALL-84	Unknown	C42.1 : Bone marrow	-999	Tumor			2082dd4e-d4b4-580f-b16f-dbeb96108e7a	471e4051-68c7-52a8-9e4e-4e931deb547a		
+sample	MLL-1	Unknown	C42.1 : Bone marrow	-999	Tumor			20f50503-af77-51b4-8959-01cd952096cc	49524f02-e697-52d7-acfa-3c469af9570f		
+sample	NCH-EWS-1_pdx_samp	Metastatic	C34.9 : Lung, NOS	-999	Tumor			22686db0-26c1-5a81-b78f-45c5b4cb6eb5		e6fe418e-84f0-5e34-a62c-57e671939d5a	
+sample	ALL-102_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			22854667-7553-564b-818b-27c1289cb5b1		fff0f19d-5010-5ee1-a78c-9cf97dc5a0f6	
+sample	COG-N-453x	Primary	C22.0 : Liver	-999	Tumor			22ee45d8-96c8-5b97-bb77-2ffdadf8d776	ab65f812-f55d-5ca5-b840-105fb04ef68a		
+sample	OS-2	Primary	C40.9 : Bone of limb, NOS	-999	Tumor			23b4e686-2e93-5d02-acbd-b369e48ee3f7	966ef7a0-a087-599f-821d-cc5a8ef7e30d		
+sample	OS-50-SJ	Primary	C40.2 : Tibia	-999	Tumor			2401d96b-e315-50c3-a3eb-0ac9d1d6ae3b	7270a823-05d9-5a74-a403-f8b323a17d40		
+sample	ALL-105	Unknown	C42.1 : Bone marrow	-999	Tumor			2415d17d-361c-5a6e-b494-e85c763f5d02	77507294-d124-5811-a87e-a19f81b6a95f		
+sample	ETP-3_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			24577203-3dec-5377-8f8b-a34cdd21b6c7		80442aba-22de-5bbc-a140-db3f727441fe	
+sample	NCH-NB-1	Primary	C38.2 : Posterior mediastinum	-999	Tumor			2482c1d2-f8ed-5c9c-99f5-6ba3b3e299f3	3592a0a7-6463-5f44-984d-144ca712ad05		
+sample	ALL-50_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			249e7cc8-0ac3-59c5-a2c6-5e2b3650831f		2bb6ace9-5295-556e-b079-8c0b06ebefab	
+sample	MLL-3	Unknown	C42.1 : Bone marrow	-999	Tumor			24e6882a-bef5-5b02-b87c-3c9963f39798	6c5b9464-07ea-5e60-82c6-230933f641f1		
+sample	OS-45-TSX-pr1	Primary	C40.9 : Bone of limb, NOS	-999	Tumor			250328de-15de-56dd-afd8-0f90a574e69f	1e249910-51de-5581-bfdf-bcef72c5fbcb		
+sample	ICb-9850PNET_pdx_samp	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			25051074-28a7-501c-8d39-c76f03afa565		690710ea-c797-5e10-a45c-27b7404e57b4	
+sample	NCH-MN-1	Primary	C71.4 : Occipital lobe	-999	Tumor			2546f88e-78d2-5078-bf4b-4e74afdd0a48	da506b1c-22fc-5dfe-9aeb-0fdf236d9135		
+sample	Rh-65_pdx_samp	Unknown	C77.0 : Lymph nodes of head, face and neck	-999	Tumor			255c2c2a-fea1-5131-b382-501a2269f51a		8c06fd4f-6674-59ee-986a-0572939e4ae8	
+sample	ICb-3400MB	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			2577cebb-06c7-5798-b878-0df3b77cfde0	9c461a5e-c42c-5564-8bfc-346c9906ec8f		
+sample	ALL-30	Unknown	C42.1 : Bone marrow	-999	Tumor			258b30f6-5462-5e6b-8b77-2fab21c1a86e	d2c88b39-6b3f-5685-93a7-fdcfb209db52		
+sample	ALL-57_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			25b3fdeb-8efc-52ba-abc3-cb3de1098e3b		1525efe2-7144-5b40-b67b-7fd76cf0c45d	
+sample	MLL-2_pdx_samp	Unknown	C42.0 : Blood	-999	Tumor			25bbf1a9-24bd-5620-9dd4-3199a1288b0e		c1f0c501-83df-5b9a-99e5-ac04e70860f2	
+sample	ALL-26	Unknown	C42.1 : Bone marrow	-999	Tumor			265c74a0-6b45-55de-9170-ec101d4d5eff	f6cd382a-4ffc-5f2d-8402-013bfc329ae8		
+sample	KT-12	Primary	C71.5 : Ventricle, NOS	-999	Tumor			267ffcc1-2ae1-5254-8f85-f3b7266cd344	3a7d24bf-cede-5480-a89a-990b84e1c46f		
+sample	NBEBC1	Unknown	C74.9 : Adrenal gland, NOS	-999	Tumor	NBEBC1 cell line		26b4fd5a-9bfe-5ff6-874f-5b9207d24bad	f818bb48-4e66-5542-afb5-3a64b7eada4f		
+sample	IRS-56	Primary	C76.3 : Buttock, NOS	-999	Tumor			26d0cb71-a412-598a-98df-0019f5882796	7bfe5717-3a42-534d-809b-ef24bbe9b08f		
+sample	CHP212_cellLine_samp	Unknown	C71.9 : Brain, NOS	-999	Tumor	CHP-212 cell line		26d3cdaf-dc51-51a7-af20-abc10bbe3766			27a2d7be-30f5-5846-9f1f-fad979c515ed
+sample	OS-42_pdx_samp	Metastatic	C34.9 : Lung, NOS	-999	Tumor			2714c519-347e-5378-b22e-56bd61747f28		20dc5468-ceb5-55b4-bca7-e35aca86753d	
+sample	ICb-1487MB_pdx_samp	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			271b3317-e15e-5028-b308-e2ed2089dd0d		a1a91916-73f7-576c-a80a-5a3bfbc52c03	
+sample	PAKSWW_pdx_samp	Unknown	C42.0 : Blood	-999	Tumor			2729399d-c0fb-5e9f-bd8d-c35818a20764		30e4efd6-6c2d-58f4-b46f-09b168d97b4f	
+sample	SKNBE2C	Unknown	C42.1 : Bone marrow	-999	Tumor	SK-N-BE2-C cell line		2787d86e-3d13-5922-8b6d-a6643ed1c398	2e3dd4fc-e0ef-58a0-ae1d-6ce3159a43f2		
+sample	COG-N-618x_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			28195ab5-0810-5ab6-800d-9abe2e137cc3		ff02738d-bfc3-5a52-8115-85184fedba52	
+sample	ICB-1744MB_pdx_samp	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			285d2a5d-63a0-59ef-8bcf-c4f449339507		0e94a258-08b6-537a-9931-61e70ea8ae60	
+sample	ALL-16	Unknown	C42.1 : Bone marrow	-999	Tumor			289ef38b-c26b-5597-9c91-a8d5bd374b8c	268c7618-a669-5a4e-944f-cc36ce1997c9		
+sample	ICb-S1129MB_pdx_samp	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			292371d4-9607-5f2d-a3d6-d210230f7de8		ae9ef2c4-d565-5e59-8a82-fb1e7e4866ec	
+sample	ALL-33_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			294dd881-2ffb-56f6-9f6b-a85bc2297f1b		4c3df240-5965-5bd5-8962-cd440d87a50d	
+sample	FELIX_cellLine_samp	Unknown	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Felix-COG-N-426 cell line		29f6fcde-a4fa-558a-87ca-3a36fc60236e			9158e697-da74-57f0-90ba-97e4af5a3f4a
+sample	ALL-81	Unknown	C42.1 : Bone marrow	-999	Tumor			2aa80dcb-5b8a-5934-948b-8b16fa565919	62e38b9a-cbad-57a8-bc0a-32f5822d6360		
+sample	NCH-CA-1_pdx_samp	Primary	C76.2 : Abdomen, NOS	-999	Tumor			2aaad1fd-70ea-54a5-b859-d52c3e6f58af		b369726a-507a-59e8-927a-e7dc58cb936c	
+sample	IBs-2373PNET_pdx_samp	Primary	C71.7 : Brain stem	-999	Tumor			2bb27aeb-531f-537b-a173-d542c05c475d		455c8d5f-8ba7-5135-a945-72ffd5ed1668	
+sample	ETP-4_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			2c02a599-4f39-5486-823e-5e6de92d11e8		e0a35b98-cda3-5b0f-9679-8203ed06b01a	
+sample	COGN496_cellLine_samp	Primary	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	COG-N-496 cell line		2c86bf95-70e2-5546-9211-3a1fb7ff9457			d6f4ff63-2320-564e-8d32-2389643282a9
+sample	ALL-08_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			2cb53c03-0c8b-597e-9545-d8fab12a7e94		b622abda-6b4d-5af8-89c2-c17b1e96eb79	
+sample	PAKVKK	Unknown	C42.0 : Blood	-999	Tumor			2d3a8417-ccde-5edf-8b68-0ac87b8413e8	247be1c2-a54b-5284-9a92-87a437edb35b		
+sample	KT-18_pdx_samp	Regional	C64.9 : Kidney, NOS	-999	Tumor			2dc0df26-5418-52bb-84fb-af1575d29cc9		e9c40666-a4af-50d7-804e-ccf6c44915c8	
+sample	OS-46-AOX	Primary	C40.9 : Bone of limb, NOS	-999	Tumor			2e27e6c3-1118-5423-8383-c9b050e9796e	6b7064cb-8d6a-5175-a908-80f807ff58b7		
+sample	IBs-P1215DIPG	Primary	C71.7 : Brain stem	-999	Tumor			2e92be2f-9eaa-5220-84c4-ac605795604d	b83f6e04-1914-59c1-98f0-24cf02405ce6		
+sample	NCH-CA-3	Primary	C18.4 : Transverse colon	-999	Tumor			2e9752d5-a09e-5b3e-bfee-ca8fde873304	b89a2d0e-1465-5174-924d-5380b0ca91a3		
+sample	NCH-RBD-1	Metastatic	C34.9 : Lung, NOS	-999	Tumor			2ef9e02e-33bb-568d-9135-714dd37029d8	837b6429-8c29-5216-9935-f5cec0dd52fa		
+sample	PALTWS_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			2fdde1e2-e592-5602-a92b-870ba023437e		75d8c4b1-9768-57a8-819f-c25380f12137	
+sample	COGN453_cellLine_samp	Unknown	C74.9 : Adrenal gland, NOS	-999	Tumor	COG-N-453 cell line		302c6a33-5e4d-5a31-8a13-336161c5bca2			8e2ac99e-e658-5858-b5b1-f85ef60c9f02
+sample	MLL-5_pdx_samp	Unknown	C42.0 : Blood	-999	Tumor			30535059-76a5-5072-860f-52c8a78f8956		1fe515bb-4739-5289-b2de-0cc6c8b06b3d	
+sample	COGN453	Unknown	C74.9 : Adrenal gland, NOS	-999	Tumor	COG-N-453 cell line		3086aed1-7e75-5e1b-97ee-7bcbe691c4a0	ab65f812-f55d-5ca5-b840-105fb04ef68a		
+sample	NCH-WT-5_pdx_samp	Primary	C64.9 : Kidney, NOS	-999	Tumor			30a112b9-e27f-5093-878c-516e7ab6866a		e61e29f4-6391-5465-9d0c-56371ba93c72	
+sample	OS-44-KPDX-x_pdx_samp	Primary	C40.9 : Bone of limb, NOS	-999	Tumor			32298aa6-dd09-5d79-91e6-7472fd9b4197		d3d6b5eb-93d9-5371-affb-3e81d911b835	
+sample	MLL-7_pdx_samp	Unknown	C42.0 : Blood	-999	Tumor			324c5570-039d-5474-8bdf-010b5a1d0316		00a757e1-122b-59a1-ad82-b94882c755eb	
+sample	COGN549_cellLine_samp	Unknown	C76.2 : Abdomen, NOS	-999	Tumor	COG-N-549 cell line		3252b1e4-ed8b-5058-a05a-fb4b5aa5f7d8			d9d6ccfa-c372-5c3b-95c1-19dc2d3fde2f
+sample	COG-N-453x_pdx_samp	Primary	C22.0 : Liver	-999	Tumor			32e87ce9-d115-5121-a7bd-08730427f578		399df9d7-662c-5e7e-b6a4-fb674a6a95a9	
+sample	SKNBE2	Unknown	C42.1 : Bone marrow	-999	Tumor	SK-N-BE2 cell line		32ebd94b-f164-50b6-97de-035d8697b3d9	2e3dd4fc-e0ef-58a0-ae1d-6ce3159a43f2		
+sample	CHLA-258_pdx_samp	Unknown	C34.9 : Lung, NOS	-999	Tumor			337d8337-bd9c-5b96-8f58-5edaf438323e		083fb739-8c4d-5305-bfc5-d8c3eaf44344	
+sample	NCH-RBD-4_pdx_samp	Primary	C71.3 : Parietal lobe	-999	Tumor			33e9de9b-7ced-5a1d-bb02-bb3a2c1a7e5c		a3555fa5-2d60-5ac9-827a-f4148417a7eb	
+sample	BT-29_pdx_samp	Primary	C71.1 : Frontal lobe	-999	Tumor			345cd44a-d5e2-5f65-a19a-dacf690c2838		35c05c01-0187-546c-b2a8-ce3399e02290	
+sample	ICb-2555MB	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			34874466-cc27-52fd-ba7e-473675f8afa1	be5c1896-0cf9-5e98-b8b5-a4d131e33a12		
+sample	OS-9	Primary	C40.9 : Bone of limb, NOS	-999	Tumor			34e0fdec-9de5-5713-91b2-aee96357ca7a	7acc41ba-e5e1-5ece-a816-3d787036ab6c		
+sample	ALL-94_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			35a395da-d7c0-5d5b-9275-55337a605bac		1e67139b-e856-5db8-b521-16ace71ccef6	
+sample	ALL-28	Unknown	C42.1 : Bone marrow	-999	Tumor			36c958f3-8544-5002-aa70-49b80ab6a289	882a9e99-092a-5670-8e28-3be1ca001ac2		
+sample	OS-51-CHLX	Primary	C40.9 : Bone of limb, NOS	-999	Tumor			373d8f2b-6c91-54b0-a65d-e10c2289039f	b1ba4ce6-a1bd-5f6d-9099-0f3fd57c68d5		
+sample	COG-N-560x	Unknown	C76.2 : Abdomen, NOS	-999	Tumor			381147b3-f4a7-5935-addf-96655d804e0a	ce3e6dd3-e8ea-5c75-ad9d-770a4e614f34		
+sample	Rh-30R_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			38caa886-8e28-59c5-9e9c-e9ae387a2225		bc2c812f-f1f8-51a0-8366-f69a2d066b45	
+sample	KT-6_pdx_samp	Primary	C64.9 : Kidney, NOS	-999	Tumor			39569515-d288-5950-87ae-ec50d8802241		4da39e87-ecad-53f1-a914-52911b0caacb	
+sample	NB1691_cellLine_samp	Unknown	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	NB1691 cell line		39a1adad-7296-51f9-a8ba-de3cba3c89ad			2b2ff34e-e282-590e-a30e-72bd7cfe13d5
+sample	ICb-984MB_pdx_samp	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			39d23062-03ea-58b1-b405-e4339827faef		3eeb4407-0517-517a-8bdf-1111a328f45b	
+sample	KT-18	Regional	C64.9 : Kidney, NOS	-999	Tumor			3a083803-11d6-5381-af74-3276b17ea416	80dc592d-03f7-5e89-afc8-b76ee8a52ad4		
+sample	NCH-CA-2	Metastatic	C77.9 : Lymph node, NOS	-999	Tumor			3a55c4a8-c592-5f95-8c82-95d88b790232	f69dfcfe-c955-5fc8-bc28-f5aa91cf2d63		
+sample	ALL-63	Unknown	C42.1 : Bone marrow	-999	Tumor			3a6effde-c2e8-5621-8425-f71553dd70fd	04967dfc-5f94-50ff-afe9-b219c8979e1c		
+sample	MLL-14	Unknown	C42.1 : Bone marrow	-999	Tumor			3b4d6ec0-49ac-5623-9501-80dd5e2653de	7c84c803-1e35-54a1-ae84-22951921711e		
+sample	IMR32	Unknown	C76.2 : Abdomen, NOS	-999	Tumor	IMR-05 cell line		3b6fb909-0eda-5a06-bf9c-cc5b8feeefaa	3c29137a-1ce7-5a7c-9d55-f8e0e8aecc0e		
+sample	COGN519	Unknown	C74.9 : Adrenal gland, NOS	-999	Tumor	COG-N-519 cell line		3ba4f09a-29cb-5f1d-9334-18e6b65ef556	69b1ea8e-bf31-558e-9834-0707f04100b6		
+sample	NB-1771	Primary	C74.9 : Adrenal gland, NOS	-999	Tumor			3bd85e6e-e707-55d2-af42-c518ebca1b73	c67fc6be-db67-528e-b365-b0b073431cb8		
+sample	COGN534	Unknown	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	COG-N-534 cell line		3be07ae5-eb56-5679-ab9c-cf3dc6706247	999d1c43-d12d-5d0c-8107-c3575ba1c46f		
+sample	ETP-6_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			3c1010c7-8bb2-5b17-9d08-823ab84c8f55		6f49be0c-b79e-50c8-9f2a-16d3b0ad4472	
+sample	RPE1_cellLine_samp	Unknown	C69.2 : Retina	-999	Normal	RPE-1 cell line		3c917a0c-6be3-5774-929f-179d0371c679			248a8b04-dca4-542f-9b19-2d9a79c9e95e
+sample	OS-56_pdx_samp	Primary	C40.9 : Bone of limb, NOS	-999	Tumor			3c994ba2-02cf-5338-a7a1-a06e84130c32		a669f9e9-fb7d-524c-97f7-31932e51b060	
+sample	KT-13_pdx_samp	Regional	C64.9 : Kidney, NOS	-999	Tumor			3ce853ff-a36b-53f6-9376-06112b4ab724		af0dd9de-fad0-5f99-83d7-a12dfd068cef	
+sample	COGN557	Primary	C76.2 : Abdomen, NOS	-999	Tumor	COG-N-557nb cell line		3dbd549a-1f50-5403-8bdc-8d33e9f29ad3	8bd6af64-dcf3-5a9a-baa3-89ef34dc0ed2		
+sample	KT-5_pdx_samp	Primary	C64.9 : Kidney, NOS	-999	Tumor			3ddfa43f-9b22-534f-b071-93020eecf13e		2d0c2995-4cd0-52d1-9cc9-cb69c8e94cbc	
+sample	ALL-56	Unknown	C42.1 : Bone marrow	-999	Tumor			3e4662ac-7f8d-5aee-be4f-e15a8eea449c	a1377f00-4b35-545f-bca0-0acac26fd68c		
+sample	ALL-123_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			3e59774c-a247-5c3c-84a5-d0bb3df55ed4		f242fe02-3959-5e01-8067-b8ba370920da	
+sample	OS-34	Primary	C40.9 : Bone of limb, NOS	-999	Tumor			3eb2c11b-5857-54d1-8eee-84e71d513120	3b305b3f-d28d-5404-9e25-047bc2f30e30		
+sample	COGN573_cellLine_samp	Unknown	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	COG-N-573 cell line		3ecfb475-2d29-5433-92d1-4b2c7c77ef3c			dff31373-cfaa-573e-87f2-6ae2a94c8ca5
+sample	ALL-43_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			3f5a3eb0-1927-52f9-a41f-be62fd85bf45		62ba6b7b-ba4b-54d4-b850-80725193a918	
+sample	Rh-10	Primary	C76.3 : Perineum, NOS	-999	Tumor			3f8bcf32-1b30-5ea1-a423-6d5f1efb94b5	533c46ab-c93a-5a78-ae2f-64634fa431ad		
+sample	KELLY	Unknown	C71.9 : Brain, NOS	-999	Tumor	KELLY cell line		4019841f-c2fa-5f76-bc86-38f25545f11c	3df07feb-d8ad-5ab6-adef-463e2c837136		
+sample	NCH-WT-6-S13-1506	Primary	C64.9 : Kidney, NOS	-999	Tumor			402f3c8c-9276-55f7-a722-3199383678dd	c9a2bb28-8336-572d-8168-6115ffc4c3e6		
+sample	COG-N-496x	Unknown	C42.1 : Bone marrow	-999	Tumor			40684da7-5409-59eb-992d-14448fc78f6e	dee1d88b-209d-5617-b5b6-7ab2052d0ac3		
+sample	ALL-42_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			41aa706d-ebcc-51e5-bff8-1418cdbfcc50		30b6d409-8982-5a77-b019-5e5120bd8c8c	
+sample	COGN415	Unknown	C74.9 : Adrenal gland, NOS	-999	Tumor	COG-N-415 cell line		41f37b92-84fe-54ea-83be-000b171df231	f0d6c1b3-fcca-5134-a2df-140ef97bd903		
+sample	EW-5	Primary	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Paraspinal mass		41f846b7-952e-5d62-819b-46b135538677	a0b0445c-2afb-502e-8970-93b94917c51e		
+sample	OS-45-TSX-pr1_pdx_samp	Primary	C40.9 : Bone of limb, NOS	-999	Tumor			4263e1bc-c830-530d-967d-9f8053fc3350		fe9f905b-0e68-5bea-a58c-d1d2ba86426e	
+sample	EW-5_pdx_samp	Primary	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Paraspinal mass		42d03361-b853-5872-a9c1-19e5f83ab795		d1a9ee8f-274e-57c9-86f8-5455a5e5d490	
+sample	OS-34-SJ_pdx_samp	Primary	C40.9 : Bone of limb, NOS	-999	Tumor			43dbbdd3-4d8a-578f-aa73-3b172fb4f932		b114b159-e3ac-50da-a594-ef4737f2eb1e	
+sample	ALL-39	Unknown	C42.1 : Bone marrow	-999	Tumor			43ea9000-7cae-5158-b888-59fea75764f0	f862ca6d-6127-504a-8a19-8a49860f29dd		
+sample	COG-N-480x_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			43f2e56f-024e-5d86-9496-c59669c2fc26		d42c0068-d2d5-5bc5-b22f-e99fc1e51a04	
+sample	ALL-55	Unknown	C42.1 : Bone marrow	-999	Tumor			440a0e29-5a78-5469-be3c-d81f724fd3de	2a833aff-0731-51f2-af18-0576bfe157c9		
+sample	MLL-6	Unknown	C42.1 : Bone marrow	-999	Tumor			4421f1ad-1868-52d9-ac14-e65dbd609925	a97074cd-185e-546c-bc5f-6149d5df1010		
+sample	OS-46-AOX_pdx_samp	Primary	C40.9 : Bone of limb, NOS	-999	Tumor			4444fde4-031e-5056-9a57-59e24552c9a8		89785d2e-bbcc-5e74-9aae-0ff7e23fe6da	
+sample	NCH-WT-4	Primary	C64.9 : Kidney, NOS	-999	Tumor			44642921-635e-579c-bb7c-0948fd0cf139	9b3f90d6-cea1-5f1e-b9ae-bd8767095585		
+sample	KT-8	Primary	C64.9 : Kidney, NOS	-999	Tumor			450e1ca4-db75-5e8b-a3b1-b35609303659	e64a79d4-94bf-5599-bc60-d1587f57f6c4		
+sample	OS-52-SJ	Primary	C40.2 : Tibia	-999	Tumor			457584d9-f08a-5341-a79f-78a730ad54ec	3665b3b8-def5-57e6-a9fe-dc7b3e579d8e		
+sample	NB69	Unknown	C71.9 : Brain, NOS	-999	Tumor	NB-69 cell line		462832c4-2da5-5250-a868-5654e7e85f3e	dbd09645-3d97-5b82-aaf2-ff06f92361af		
+sample	KT-13	Regional	C64.9 : Kidney, NOS	-999	Tumor			462aa8e2-4df2-5182-9dc7-407708ad0119	c4004e22-949f-5733-a3f9-13c06da00974		
+sample	NBLS_cellLine_samp	Unknown	C74.9 : Adrenal gland, NOS	-999	Tumor	NBL-S cell line		4653a6e1-be7d-5a70-8e0e-38b9de051b5c			5b38ecea-e8b8-5488-b614-5a46e825869e
+sample	KT-14_pdx_samp	Primary	C64.9 : Kidney, NOS	-999	Tumor			465440fc-886d-5911-8d39-316efcd1b43f		94e580fb-6ba6-54e6-931e-5f7008220504	
+sample	COG-N-561x	Unknown	C42.0 : Blood	-999	Tumor			469c95c9-5e40-5f19-9abb-d0b7f6ea803c	4870eee8-b203-5b69-bb6a-2f84495d21f5		
+sample	ETP-1	Unknown	C42.1 : Bone marrow	-999	Tumor			47a3c830-0084-5dca-a1d7-f0317c9e3d1f	434ec2fe-f13e-5a36-8f53-79e827132fb1		
+sample	ALL-85_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			481191fa-401f-5980-9c86-79bec891d610		70612634-9881-5053-b74b-6cf1d948078d	
+sample	ALL-59	Unknown	C42.1 : Bone marrow	-999	Tumor			4941999e-b034-501b-8acc-79e4bb97ade4	6a37b6f6-6f15-5980-963f-91a6e8f9ff2b		
+sample	MLL-2	Unknown	C42.0 : Blood	-999	Tumor			49badc5a-200e-5c8e-9f85-44f76963f727	e3699d04-d430-556e-a862-fb84a97f5c1a		
+sample	ALL-93	Unknown	C42.1 : Bone marrow	-999	Tumor			4a6dc9ce-e9a1-52d0-b460-b279b54d730a	b26cf0d0-23c2-53d5-a40d-8fd8975a9e2c		
+sample	NCH-RBD-4	Primary	C71.3 : Parietal lobe	-999	Tumor			4a904e8d-e471-5f93-a967-df644e37f76e	040bcd46-2e93-5d63-af78-e641b5fd46bc		
+sample	COGN549	Unknown	C76.2 : Abdomen, NOS	-999	Tumor	COG-N-549 cell line		4b909088-0236-5ac2-a4b2-a9e2fda7cb9f	fc1c40b1-72b7-5bbe-8b94-f27835a3bd30		
+sample	ALL-107	Unknown	C42.1 : Bone marrow	-999	Tumor			4c6c7a1c-be1d-57b0-91e9-ad6383ff1703	854f787a-5901-5a55-af2b-77957ede836b		
+sample	SMSKAN	Unknown	C76.3 : Pelvis, NOS	-999	Tumor	SMS-KAN cell line		4c74464c-f74a-50e4-944a-f88c93deaa0b	e1d21731-be28-55b1-a4b7-0d4b92c32465		
+sample	IBs-2373PNET	Primary	C71.7 : Brain stem	-999	Tumor			4caab708-40db-5bdc-9d77-62f4b8577835	cd049e08-c400-5dbc-ba6d-97c423b63f62		
+sample	ALL-82	Unknown	C42.1 : Bone marrow	-999	Tumor			4cc93da3-8639-58b2-9b1b-e73412ce0866	fe2a93ed-283f-58f8-8add-db6e65b474a0		
+sample	NBSD_cellLine_samp	Unknown	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	NBSD cell line		4cf8903b-8757-55ec-ba57-aec64c14216a			495ffde9-d1db-5443-b98a-62e04318dc00
+sample	COG-N-618x	Unknown	C42.1 : Bone marrow	-999	Tumor			4e629314-b8fd-5d41-8197-d464a8dc29be	a8b3e54d-84e9-50a6-af49-11e6f386a3ef		
+sample	NCH-WT-6-S13-1506_pdx_samp	Primary	C64.9 : Kidney, NOS	-999	Tumor			4efa7ee4-5787-534a-b6ca-169752efdc9c		5074cad2-6913-5b36-9a8c-a73a09e524f0	
+sample	NCH-EWS-1	Metastatic	C34.9 : Lung, NOS	-999	Tumor			4fa3d647-4b25-560c-8ae7-14ec8af248ae	8e95f1c6-56bb-5514-9512-cab020ec42cd		
+sample	HU-FETAL-BRAIN_cellLine_samp	Unknown	C71.9 : Brain, NOS	-999	Normal	Human-fetal-brain cell line		4fe9ae5a-63b2-5f8e-91c5-35adfc8425d9			b068c29e-0e8d-587e-9d8d-de5395d912dd
+sample	OS-50-SJ_pdx_samp	Primary	C40.2 : Tibia	-999	Tumor			4ff6a234-b463-5eac-92c8-8bbc7965df51		5681c483-ee51-536c-a266-edd4ed70d717	
+sample	ALL-19_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			505daeda-4b1b-564d-a72c-ff0b59b809ad		8413b200-e76b-569c-90c4-a334f40e5d39	
+sample	ALL-87_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			506e8fc4-a6c6-53fe-8816-a8c6f9afe96a		37f21a01-b3b5-5880-814d-56b25d575769	
+sample	OS-60_pdx_samp	Primary	C40.9 : Bone of limb, NOS	-999	Tumor			507af605-7353-5156-9a6f-33189997d869		b56a6f26-3693-5a96-9e3c-5a73422cd66c	
+sample	MLL-86	Unknown	C42.1 : Bone marrow	-999	Tumor			50922499-dfa9-50fc-930a-09dedc9d0e07	59af30d7-fefe-546c-8ce6-67d68734b038		
+sample	ALL-52	Unknown	C42.1 : Bone marrow	-999	Tumor			50ed8802-7bb3-57e4-a762-a11b3ab5c9a4	7c75131d-5b3c-5b24-949d-0434a8615111		
+sample	FELIX	Unknown	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Felix-COG-N-426 cell line		513857ea-bc29-53ef-b171-bbd0d52d7293	731a6a4e-08bd-5ced-91f8-098a02ae08d7		
+sample	COGN471_cellLine_samp	Unknown	C74.9 : Adrenal gland, NOS	-999	Tumor	COG-N-471nb cell line		518e9f7e-19d0-53d2-875f-efc7fedf4a68			581e9881-e0d2-559b-8aee-0f6b1acc946a
+sample	ALL-30_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			520f7061-24de-5f0a-b868-e96179d333de		ca8e9ddf-d7eb-5c8f-9d41-2fa5172e873b	
+sample	NCH-MN-1_pdx_samp	Primary	C71.4 : Occipital lobe	-999	Tumor			52c5548a-16d2-5c71-a115-6c0bd4cc6a24		7bdf2562-1226-5536-a87f-c3889e996e6b	
+sample	IC-1621GBM	Primary	C71.0 : Cerebrum	-999	Tumor			5301a189-8c67-53a3-8559-4678832b2f13	15e637d9-41d8-5b6b-8034-7200bc6f1223		
+sample	COG-N-603x_pdx_samp	Unknown	C74.9 : Adrenal gland, NOS	-999	Tumor			53da4fec-ad31-54c9-b761-909ddff57265		ae0a4214-690b-53d0-8227-a56eb38b4480	
+sample	ICB-1744MB	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			53f76ac6-4c7c-54cd-b0e3-3cee898025c9	a99227f7-45f4-5c93-9b67-465dcfa2148b		
+sample	COG-N-628x	Unknown	C42.1 : Bone marrow	-999	Tumor			5597d35c-6b46-5ee5-9124-b4adf9a18a6f	5fb68d4c-0201-5504-b774-47dee1ee4cb4		
+sample	PALNTB_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			560fda4f-8c76-56f8-ac90-fe0ef51791dd		7ab0def9-1014-5b69-942b-d40f4c631e65	
+sample	ALL-115	Unknown	C42.1 : Bone marrow	-999	Tumor			5616e824-69f5-5e55-af7a-8e4dc9b2dc31	77507294-d124-5811-a87e-a19f81b6a95f		
+sample	LAN5	Unknown	C42.1 : Bone marrow	-999	Tumor	LA-N-5 cell line		56841535-5b1e-516b-b9a5-a37fb73ed1b5	ebb30496-c341-5e4c-ba22-aaa89c669eca		
+sample	Rh-36	Primary	C62.9 : Testis, NOS	-999	Tumor			56cda5c5-edd2-5ffa-b6ae-db5505bab7c9	29632326-9909-5814-b8fb-a76c0ab5139f		
+sample	SMSKAN_cellLine_samp	Unknown	C76.3 : Pelvis, NOS	-999	Tumor	SMS-KAN cell line		576f468f-e419-546d-bc48-9dd6aecc26e2			30c12e36-45ba-585f-a0cb-8490cc646232
+sample	IC-9635EPN_pdx_samp	Primary	C71.0 : Cerebrum	-999	Tumor			57b8dc07-cd79-5d9f-a171-5bf6ec9944b0		ae4ade98-588f-5c7a-9ccc-f69f0830de92	
+sample	TC-71	Primary	C40.9 : Bone of limb, NOS	-999	Tumor			588fa157-e3a2-5f08-aabd-ef48146a1d17	4b2e0eb6-354e-501c-8604-05058132a6cd		
+sample	KT-9	Regional	C64.9 : Kidney, NOS	-999	Tumor			58903773-968c-5f31-912d-2d38084f5d8f	a98d3edd-d137-5f71-a954-b2a361859331		
+sample	SMSSAN	Unknown	C42.1 : Bone marrow	-999	Tumor	SMS-SAN cell line		58e63597-5eb4-52ea-a1e0-f6b9e9e4ae13	f6c4f9b2-b01e-5b12-b6a2-26d0f3446260		
+sample	COG-N-564x_pdx_samp	Unknown	C42.0 : Blood	-999	Tumor			59327723-753f-5106-9c01-81869f37cc96		bfe16f5b-fdeb-5b4b-8f6d-34aa0e364b62	
+sample	OS-44	Metastatic	C34.9 : Lung, NOS	-999	Tumor			5ab5f3ef-e6fc-5dfa-a66c-16e980344b9f	45da2450-0a96-5de5-b2ff-2d0effe06a01		
+sample	NCH-MB-1	Primary	C71.5 : Ventricle, NOS	-999	Tumor			5b466cea-24f9-5f30-acd6-06b307432ece	814e1704-effe-528c-b7b5-df5275a3bf6b		
+sample	ALL-121	Unknown	C42.1 : Bone marrow	-999	Tumor			5b5d7b49-bf28-5a35-b1fa-6d5d03facdf9	8cf471a9-37c3-57a8-bf8a-5f62271bdc04		
+sample	ALL-108_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			5c7975d1-9c14-5602-b867-4d224b3f8d01		c00b9e0f-587a-5d94-87b3-7dbab71ab458	
+sample	ALL-50	Unknown	C42.1 : Bone marrow	-999	Tumor			5c9366c6-b0de-532f-9697-f5b8047f05b4	e3dc9015-bd92-545a-81ef-cdc28f27636d		
+sample	ALL-105_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			5dcfadac-1af7-5282-97c5-5a23e3adcdc2		5160cdb1-b44c-515d-9cfe-a426004131f1	
+sample	OS-29	Metastatic	C34.9 : Lung, NOS	-999	Tumor			5e08fdfc-3c90-5ce2-a073-6d3aa51a3170	27258f7f-4b51-56a0-8480-d7458833e61c		
+sample	Rh-70_pdx_samp	Primary	C76.0 : Head, face or neck, NOS	-999	Tumor			5e2a672b-79b6-550e-b24f-d7b6aa5e49c0		b422df4c-c754-5387-9efd-2c13be761fd3	
+sample	ICb-6753ATRT	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			5efe63e2-f7da-5adc-addc-67521630623d	115d650d-77ee-5426-a07c-22daf1381f59		
+sample	KT-9_pdx_samp	Regional	C64.9 : Kidney, NOS	-999	Tumor			5f44b2ee-2f27-50f7-abb0-daf1c92d1e58		fa9ffbc5-d338-5610-9238-1e31a1998ae3	
+sample	COG-N-603x	Unknown	C74.9 : Adrenal gland, NOS	-999	Tumor			5f724c25-5289-5f4a-bc43-02dc89103125	2caf8c6a-a8f7-5f5c-921d-b28e5827250a		
+sample	NCH-RBD-2_pdx_samp	Metastatic	C22.0 : Liver	-999	Tumor			5fe6849c-3901-5310-804a-c6b727818b5f		72c0286a-10ae-5cbb-b0b3-a2d7899b7761	
+sample	PAKYEP_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			605b21fc-39e7-5b1a-ab82-460d664d63b6		6195c7cf-27d9-591e-aa7e-59bb286230f7	
+sample	ICb-1140MB_pdx_samp	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			607d351c-1703-5bd3-a46f-809ad26571be		5e399442-184a-5b2b-8cbd-0b715c4c34bd	
+sample	ETP-2	Unknown	C42.1 : Bone marrow	-999	Tumor			6086d69b-943e-54f3-9cfa-6e27fe88d7a8	29b2b332-3bfe-5d32-a8a3-bd0876681ce3		
+sample	MLL-14_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			613fe21c-050f-526e-a519-6e3990af5f88		950cf152-4df2-57a6-a19f-d29dbbec330f	
+sample	OS-46	Primary	C40.9 : Bone of limb, NOS	-999	Tumor			616a77ed-6074-5fb7-b687-ea3199870156	09870bd2-3eb5-503c-bad5-b1ef6a03e71b		
+sample	ALL-75	Unknown	C42.1 : Bone marrow	-999	Tumor			61d3143f-8600-5b86-b96f-98f3c4588dc8	86e450f7-2cfa-533c-a349-62b124b9b1c8		
+sample	ALL-10	Unknown	C42.1 : Bone marrow	-999	Tumor			62182ff6-92d3-5981-aa9a-befd45188ff4	150f4966-5b14-5486-a672-3d3427cfa945		
+sample	ALL-54_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			621f85fb-3ae1-52c4-a450-8b31df5ac7a0		c8af2a14-9c3c-565c-abf6-bbf64b2011d6	
+sample	ETP-5	Unknown	C42.1 : Bone marrow	-999	Tumor			6243d3c5-a69a-5b5f-828c-b6e1d9619465	d3934386-5e41-5c90-8c45-213869f4f873		
+sample	ES-8	Metastatic	C40.9 : Bone of limb, NOS	-999	Tumor			62eddc3a-6676-52ce-8f2c-82de957ff618	cc378afe-305e-5a5b-a2c4-df475acc2f70		
+sample	OS-54-SJ	Primary	C40.9 : Bone of limb, NOS	-999	Tumor			64545a6a-be71-586b-ac34-05792add64f6	e271a098-74cd-5c21-8b55-b646e9d6f1ff		
+sample	COG-N-590x_pdx_samp	Unknown	C48.0 : Retroperitoneum	-999	Tumor			648304c5-9cf5-523b-aad0-116b2933a5c5		4a6a7821-144e-5e92-b1e4-23b5da261ab2	
+sample	NMB	Unknown	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	NMB cell line		652d58a5-c94f-5099-a2d9-7a7a94362aec	945feff9-d63d-541b-bf2b-4782b66f8e09		
+sample	COGN415_cellLine_samp	Unknown	C74.9 : Adrenal gland, NOS	-999	Tumor	COG-N-415 cell line		65607468-04e6-53e1-90e3-e8918b571a42			23911a5c-3d91-5d4b-b03a-1856e2b1af3f
+sample	ALL-29_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			66f5449c-e72c-5072-9e1e-162fb21447db		90f0321f-55b7-5962-824b-b14fd8739db2	
+sample	ALL-97_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			67236bdb-bb1f-5442-a07a-1197b80441b5		0dd6da27-8702-5f82-bb1b-2bab7037de85	
+sample	ALL-28_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			67ea9a82-82d1-5995-a233-5224b6f6134a		f0a1fe7e-0875-5846-b81e-0e2d50be5089	
+sample	ES-6_pdx_samp	Metastatic	C41.9 : Bone, NOS	-999	Tumor			6840939f-c1aa-5219-ac46-d740a9147ff5		140f798f-8aa1-5884-a809-ed3dc8193bcc	
+sample	ICb-1218ATRT_pdx_samp	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			684c8196-6694-52fd-b4ec-e0af99cae348		857f0540-66fc-5e31-86df-1f3e4705bb94	
+sample	OS-56-TTX_pdx_samp	Primary	C40.9 : Bone of limb, NOS	-999	Tumor			6909d32c-f40e-5b97-9d4f-fbe7d60668b6		c004f4ec-e421-58ac-8277-203089f77383	
+sample	OS-48_pdx_samp	Metastatic	C34.9 : Lung, NOS	-999	Tumor			695847d9-f3cf-57e0-9f56-b0987480497c		fba80001-bebc-5dd3-b785-c1f5b85e45e3	
+sample	COG-N-452x_pdx_samp	Unknown	C42.0 : Blood	-999	Tumor			69967d64-fe0e-5c14-9ff6-ec93fadc9729		5eef6819-3790-5069-b54b-2aea2e2dd955	
+sample	IC-9811EPN	Primary	C71.0 : Cerebrum	-999	Tumor			6a033104-7919-5559-b0c0-f332320f8d73	73e42287-11ed-5a38-8b41-c66d5c1c6194		
+sample	ALL-90_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			6ab2ec37-29ce-500b-99cf-e314cdbdf92e		ce4b0a47-99c2-58d9-9c0c-e5bedab8bb94	
+sample	SKNDZ	Unknown	C42.1 : Bone marrow	-999	Tumor	SK-N-DZ cell line		6acc95f4-f2af-57a7-9897-899876b70dc0	d27b6e58-cd12-5f3a-9a23-59b46080badf		
+sample	COGN440	Unknown	C74.9 : Adrenal gland, NOS	-999	Tumor	COG-N-440 cell line		6b917462-96dc-5eaa-a562-113834e33c0c	b0c9fccf-3d50-59fe-a39e-9295daffa60a		
+sample	COG-N-421x_pdx_samp	Unknown	C42.0 : Blood	-999	Tumor			6bd0528c-3728-5d3f-81d9-21fee13db304		dd314e09-8093-58d9-ad1c-c2209bdabfba	
+sample	NBEBC1_cellLine_samp	Unknown	C74.9 : Adrenal gland, NOS	-999	Tumor	NBEBC1 cell line		6c662b4e-e1dd-5d0e-91ad-284be30cdd20			920be953-75fa-50dc-8003-c3022d9bdf1a
+sample	NB-Fly-623m	Unknown	C42.0 : Blood	-999	Tumor			6d000348-8dc1-5926-a8a9-3a5f5a6f6f13	8f64ecaf-3d1c-5fe3-848f-25e29da26f35		
+sample	Rh-10_pdx_samp	Primary	C76.3 : Perineum, NOS	-999	Tumor			6d0e7201-128d-516b-9df1-a07b36fae655		f3531738-de12-5954-94f3-f69907c931af	
+sample	ALL-56_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			6d1f2b61-8cb8-566a-b885-9d195f19320c		6678a78c-7e14-5b8a-a313-6e31dda856dc	
+sample	IBs-W0128DIPG	Primary	C71.7 : Brain stem	-999	Tumor			6d9b9ef4-a584-5ca6-935a-f1daee2c53c1	761ae719-67a4-51f1-86a9-99f3138e2370		
+sample	NCH-NB-1_pdx_samp	Primary	C38.2 : Posterior mediastinum	-999	Tumor			6db45fc2-3b3f-5445-ad9b-131c02222445		54807d77-0672-5167-8f59-d7e96f3eae65	
+sample	ETP-3	Unknown	C42.1 : Bone marrow	-999	Tumor			6dc1128b-59c6-5d73-97dd-f9ffc560848b	70f06a06-d04a-51b6-ae81-d6b0f7478ebf		
+sample	COG-N-623x	Unknown	C74.9 : Adrenal gland, NOS	-999	Tumor			6e5f77b3-d086-54a2-926f-c6605fb98bc8	2caf8c6a-a8f7-5f5c-921d-b28e5827250a		
+sample	ALL-43	Unknown	C42.1 : Bone marrow	-999	Tumor			6ed88b96-b946-5456-bc59-8abb58c5c000	66a2d4d4-4a3c-59fc-aa16-ad71f7f0ea83		
+sample	KT-6	Primary	C64.9 : Kidney, NOS	-999	Tumor			6f0dddc9-f321-5ea0-a541-1c7ebcc19dc5	044f5314-f0fd-5263-8237-b61df2d9652c		
+sample	KT-8_pdx_samp	Primary	C64.9 : Kidney, NOS	-999	Tumor			6fdf0380-a1be-5fc6-92d6-f0badafbfd17		7829b250-e766-52a5-b049-ce09b54512e5	
+sample	COG-N-624x_pdx_samp	Unknown	C80 : UNKNOWN PRIMARY SITE	-999	Tumor			707640a1-25a6-52ac-b8d4-ee5901f2f6ea		91fffce0-7f4c-5520-81d5-9ee676635bad	
+sample	ALL-03	Unknown	C42.1 : Bone marrow	-999	Tumor			70f3bbd2-5416-5e83-98cf-cf9a29a41c60	0e999d97-f50b-5f75-8e5d-7d89ae104872		
+sample	ES-4	Metastatic	C34.9 : Lung, NOS	-999	Tumor			71546461-88aa-5e94-81a0-8c9c1d6e0f79	730cf25b-18ea-5854-84a3-293d5a124fc7		
+sample	OS-48	Metastatic	C34.9 : Lung, NOS	-999	Tumor			718f83a6-4b3a-5ab8-b5c8-4ddd6e4997e8	1eee9a38-d982-545c-905d-4f6759debd20		
+sample	ASPS-KY	Unknown	C80 : UNKNOWN PRIMARY SITE	-999	Tumor			71b29260-e06e-5b94-9bdf-8e222cb81211	f2d72cc0-5799-5c4b-85d5-d83df46ffaf5		
+sample	OS-41	Primary	C40.2 : Tibia	-999	Tumor			71d7a66e-96b3-5f98-b2fb-14cb02f1757f	b25dab1f-2ccd-542c-a841-81afd2283dbf		
+sample	ALL-31_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			72261439-a18d-50fe-9806-221f94cf48e4		9d8f691a-6426-54ce-a9d0-198662b9b70c	
+sample	ALL-85	Unknown	C42.1 : Bone marrow	-999	Tumor			722c7d26-71b6-5266-997b-498863d55259	e2f75db7-fc1f-540f-a5a5-647b6fa612ab		
+sample	OS-47-SJ	Primary	C40.9 : Bone of limb, NOS	-999	Tumor			72514030-da3e-5d3a-bb6a-21033e14c905	e8bc2038-5270-5a55-8a50-88b26159ce6d		
+sample	NGP	Unknown	C34.9 : Lung, NOS	-999	Tumor	NGP cell line		728c6c4d-1d08-58f3-ba94-48e7ac6c1dfb	a3616d19-0225-58c0-b771-1ca8913abb58		
+sample	OS-2_pdx_samp	Primary	C40.9 : Bone of limb, NOS	-999	Tumor			728c8696-d1a8-5cf4-be4e-f899e7675c63		1e004232-4126-597f-8462-3de3a46bff72	
+sample	EW-8	Primary	C76.2 : Abdomen, NOS	-999	Tumor			73688fad-e20b-50a0-b2e1-85bcad95cba6	377fc0a4-d204-5163-a9d7-364baee40332		
+sample	OS-29_pdx_samp	Metastatic	C34.9 : Lung, NOS	-999	Tumor			7416b69b-4709-5341-aa37-5feb8005707a		5390341a-b543-5634-b4f1-67ed544d1c3d	
+sample	OS-51-CHLX_pdx_samp	Primary	C40.9 : Bone of limb, NOS	-999	Tumor			76813b7f-ebf1-558f-9106-013f440f172e		129122bf-1fbd-5c96-8244-93138f5273f8	
+sample	OS-56	Primary	C40.9 : Bone of limb, NOS	-999	Tumor			76b8f47b-f04a-52cc-9da5-eb1dc2b10477	07d120c8-2efe-5822-ac2b-c169e867c58e		
+sample	COG-N-452x	Unknown	C42.0 : Blood	-999	Tumor			7713b1f2-6213-572c-9c18-35b606bd4ec7	ab65f812-f55d-5ca5-b840-105fb04ef68a		
+sample	COG-N-440x	Unknown	C42.0 : Blood	-999	Tumor			77fbef10-a11d-5bb1-862e-47c298f94f5d	b0c9fccf-3d50-59fe-a39e-9295daffa60a		
+sample	CHP212	Unknown	C71.9 : Brain, NOS	-999	Tumor	CHP-212 cell line		785b1326-e4aa-5561-bd9f-253209d585d7	98e191e0-8733-5457-a63c-e9006eea4f45		
+sample	Rh-70	Primary	C76.0 : Head, face or neck, NOS	-999	Tumor			785fbd73-6684-58f7-9a3f-728976414d4d	38ad21a4-f353-5049-b3f1-2387d44f0fde		
+sample	NCH-OS-1_pdx_samp	Primary	C40.9 : Bone of limb, NOS	-999	Tumor			78e45d0c-2786-57fc-9625-abfbaca2b5be		e1555117-fafc-53e9-98fd-597b2fecaa47	
+sample	BT-29	Primary	C71.1 : Frontal lobe	-999	Tumor			790554aa-53dd-5543-9da1-1609f8a510f0	bb709e46-6a29-544c-ac58-09813b45ab6c		
+sample	MLL-3_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			7958ebb2-200a-57c5-83bb-d69c07726f5f		fe5981b2-ff45-55e6-8952-fe408b0f0734	
+sample	OS-54-OHS-x_pdx_samp	Primary	C40.9 : Bone of limb, NOS	-999	Tumor			79c8dbe5-d6b7-5122-baea-62c164731765		cabddf9a-4357-50c4-bb91-0c20545d5167	
+sample	ICb-5610MB_pdx_samp	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			79efe90c-706e-5842-8a23-ebdfc050593a		c0b0bd76-27c4-50ce-a5cd-586bb20ccb7d	
+sample	NB-1691_pdx_samp	Primary	C48.0 : Retroperitoneum	-999	Tumor			7a34cedd-bc7e-5099-9c5b-ef1526ccdc08		57f20fd9-f941-5b85-bacf-f4bcee2d7eb9	
+sample	ICb-2002EPN_pdx_samp	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			7a3e1cdb-7d5e-587b-bc67-8ecba50a0861		5768e992-c826-52a1-acee-1496268eb6e1	
+sample	NB-1691	Primary	C48.0 : Retroperitoneum	-999	Tumor			7aacf152-65d7-5330-9e4a-488f68edbaca	c01bdcb9-2ccd-5527-bec5-1c7234d2bd29		
+sample	NB-EBc1	Primary	C74.9 : Adrenal gland, NOS	-999	Tumor			7acda5e9-2ea6-56cd-9b10-ed432ed5a0b7	f818bb48-4e66-5542-afb5-3a64b7eada4f		
+sample	KT-11	Primary	C64.9 : Kidney, NOS	-999	Tumor			7bb79b4e-2545-5773-a063-94f26d7c4c08	7f18de55-5ffd-55ac-8009-aa76f71abe05		
+sample	SHSY5Y_cellLine_samp	Unknown	C42.1 : Bone marrow	-999	Tumor	SH-SY5Y cell line		7c0162cd-726d-5ca1-bc7b-3ea77fab8d12			660ef194-f9c6-5d7a-aa04-11c0d1198821
+sample	ALL-83_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			7c6e8263-b059-58aa-9a14-40fbd183463e		d73f7e54-2ea5-566e-8f82-8e9d6394a436	
+sample	ICb-1487MB	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			7c9290e2-d819-592c-a3f5-94bce304f86a	4d469c77-c233-5ea9-8b4b-625a4c81fa85		
+sample	ALL-31	Unknown	C42.1 : Bone marrow	-999	Tumor			7ca97990-7111-5a24-bcc8-c1e283b70259	fdfa653c-e331-5953-9ffa-3b1278f5daee		
+sample	PALKTY	Unknown	C42.0 : Blood	-999	Tumor			7cde5211-e146-503c-8363-6799190e40b4	e591f321-2467-5604-b7c6-bff91387ea6a		
+sample	TC-71_pdx_samp	Primary	C40.9 : Bone of limb, NOS	-999	Tumor			7d248f50-875d-504f-bb67-5753c47d3b2a		63c08a73-f73f-59d7-8db3-de3d033dfab1	
+sample	COG-N-424x_pdx_samp	Unknown	C74.9 : Adrenal gland, NOS	-999	Tumor			7d2fca9c-647c-5ca7-b1e5-cda7b28bd75b		cf218589-18a5-5a9b-8722-7f6f782bfa1d	
+sample	ICb-5610MB	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			7db56df3-7248-5fc0-8084-dae55451c428	7c3b0e03-fb31-5081-85ff-dd377cb1ba49		
+sample	SKNAS	Unknown	C42.1 : Bone marrow	-999	Tumor	SK-N-AS cell line		7ddfc242-8820-5af0-9855-2ed3ac391c3c	7125f379-50f1-51a2-8fdb-9ddde18a34db		
+sample	COG-N-625x_pdx_samp	Unknown	C80 : UNKNOWN PRIMARY SITE	-999	Tumor			7de0f83c-0981-5aba-9a7b-1e108cc68712		761dfe1b-7f9d-5e93-b64b-2a30a5f9dbab	
+sample	ICb-1595MB	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			7e990a04-ad7a-5356-8fe7-64058c7008fd	0fed3dad-ad70-54c4-a18e-db0f8350b3b9		
+sample	NCH-ARMS-2-NCH-S13-7484	Metastatic	C50.9 : Breast, NOS	-999	Tumor			7f241eef-e04b-5df6-9ac7-3b0431182d65	e4d58a68-560b-5ca4-84f5-b8706bab1fa0		
+sample	ICb-9508MB_pdx_samp	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			815dc233-c03a-567a-9690-a960e48a927a		f21cc33e-96c6-564b-bb67-889c2638407d	
+sample	PALLSD	Unknown	C42.1 : Bone marrow	-999	Tumor			81a004fa-d452-59e6-a2a1-f0f7fc57da2b	61d61ba4-9af5-5452-be59-e57b53825b44		
+sample	NB1643	Primary	C48.0 : Retroperitoneum	-999	Tumor	NB1643 cell line		823c44c0-1549-574f-9ee7-2188a47675dd	e8aff77a-0cf1-5152-b6c3-ebc48a2e0aa2		
+sample	ALL-47_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			823d3fe3-a4a6-52ac-9469-b2a7c4cca7cf		eff81182-67bf-5c66-b626-69f3f2648504	
+sample	ICb-1494MB	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			82a3c0cf-bb98-5c04-bb9b-97702f99ba26	06b2edcd-92d8-5adc-aaf9-a97623cffe3d		
+sample	ALL-121_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			82d8eba8-dc03-5b44-905c-d1cb4ba53e9d		e87f8c1d-faa2-532c-86ec-a6d03cf62c6e	
+sample	IC-9320GCT	Primary	C71.0 : Cerebrum	-999	Tumor			82e80d27-de64-5c1b-9f07-6ec748ee193a	162bd4c6-cb06-5c09-8820-6175d5fb6fcd		
+sample	NCI-ASPS_pdx_samp	Unknown	C80 : UNKNOWN PRIMARY SITE	-999	Tumor			83db54e8-2475-5b3b-8f66-2cc0636282fd		abe871ca-35bd-5306-b67b-cd47bbcf9158	
+sample	ALL-25	Unknown	C42.1 : Bone marrow	-999	Tumor			83f62afa-8227-5e16-8f40-653da1de53c0	a9c504df-a2e3-5836-b033-d9f3ca9650b4		
+sample	ALL-17_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			85a9664e-247b-53c3-91bf-9e2eff82297c		5e45cf63-81c6-5d16-995d-3d314e449e8a	
+sample	CHP134	Unknown	C74.9 : Adrenal gland, NOS	-999	Tumor	CHP-134 cell line		86bf2e66-e52e-5109-a38f-942cb0e2cf2a	f0b3f6bb-3f35-5dda-8993-5601ef29de1b		
+sample	IC-22909PNET-rIII_pdx_samp	Primary	C71.0 : Cerebrum	-999	Tumor			875f6bab-ad20-5229-95ec-31f151733d87		a9e398c6-dba1-5390-869f-50767effac4b	
+sample	ICb-3130MB_pdx_samp	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			876e2dbd-9e88-5695-904e-0cd1611d48a7		fdc588ec-813f-58d9-bf28-ef1fe1f2f808	
+sample	NCH-WT-7_pdx_samp	Metastatic	C34.9 : Lung, NOS	-999	Tumor			8a0e2fb7-c32c-5b96-914c-fb0f8ab4047a		9cead0f4-2faf-56f8-b0a9-e812dec526b6	
+sample	ES-8_pdx_samp	Metastatic	C40.9 : Bone of limb, NOS	-999	Tumor			8bb3f1fa-1a7b-578d-80e6-865d33d0b5d4		89b77a69-e919-514d-9ebf-624fef8bc0c4	
+sample	COGN534_cellLine_samp	Unknown	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	COG-N-534 cell line		8bc3c44e-d05c-5c5e-82a3-0a5f936fe069			040a47f0-3f26-50bb-bc9f-72176ec27cf8
+sample	ALL-116	Unknown	C42.0 : Blood	-999	Tumor			8bcce0ab-572d-5662-a171-13dc34a7044a	4769ad89-a490-5fac-bfd0-b4854e7332d4		
+sample	ALL-106_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			8bea3a44-6738-50d5-b86c-12a05a507c46		f4e4b220-925a-578f-a99c-e2d30e8f2ac0	
+sample	OS-31_pdx_samp	Unknown	C40.9 : Bone of limb, NOS	-999	Tumor			8cbabb16-b029-55bf-91fc-dceddf45adb1		bbdced54-eef0-5c20-aef5-a5ca984c4744	
+sample	OS-54-OHS-x	Primary	C40.9 : Bone of limb, NOS	-999	Tumor			8d0a0ddc-35a7-5f4c-b4b9-ec2f8d9a340a	4d70e307-8658-558d-988f-148fe779b9e6		
+sample	ALL-102	Unknown	C42.1 : Bone marrow	-999	Tumor			8d9c1369-87de-5826-bd5e-e186a25e358d	77507294-d124-5811-a87e-a19f81b6a95f		
+sample	NB1_cellLine_samp	Unknown	C77.0 : Lymph nodes of head, face and neck	-999	Tumor	NB-1 cell line		8e2d7cc9-6d77-56fb-aaa4-caa6b6ef0c4c			c17526bc-8b4f-58f0-90d3-5a753bc78f16
+sample	SKNAS_cellLine_samp	Unknown	C42.1 : Bone marrow	-999	Tumor	SK-N-AS cell line		8e365bcc-9d36-5b73-bdcb-e2fdc857fd93			e5721464-f4ec-5102-8ca5-352f11f48999
+sample	ALL-51_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			8f604129-75f8-5a7e-ad6b-fc8c594258fd		3dc29dff-c0cb-54f4-aa40-ab882120d83a	
+sample	OS-56-TTX	Primary	C40.9 : Bone of limb, NOS	-999	Tumor			8fc27a27-ac58-5b90-9879-c47a535728c6	0c027d91-6b7c-5d74-a12d-fce55213f809		
+sample	RPE1	Unknown	C69.2 : Retina	-999	Normal	RPE-1 cell line		908f1f2f-7288-5680-b078-331f993fd6c9	08f5a7b5-e47f-56e9-b0a0-c25bedf53e76		
+sample	ICb-9850PNET	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			90e168a0-4d93-5786-a146-851b676b791a	f8436751-7fc9-53d5-a6ca-a2600ca14c82		
+sample	ALL-93_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			9180ce76-8150-56c5-980d-3fd2a5585deb		c3b5bc8f-8bf7-5f1d-a325-727d3babf167	
+sample	ALL-26_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			918bd6bb-cb66-522d-919a-d97e9167b87b		c858e772-0ac2-5a4e-91e2-a90ab938183f	
+sample	SKNBE2_cellLine_samp	Unknown	C42.1 : Bone marrow	-999	Tumor	SK-N-BE2 cell line		921ded43-71a3-5aee-bcf0-0d05e65e1bae			b70a65d5-ce25-5d7e-a4a0-9d3dbb875419
+sample	COG-N-589x_pdx_samp	Unknown	C48.0 : Retroperitoneum	-999	Tumor			925ce0f7-7c2c-538a-a647-099bf8ea0745		ca5a9a6f-5ce7-5437-aa7a-2c70fcb4b3b0	
+sample	KT-10_pdx_samp	Primary	C64.9 : Kidney, NOS	-999	Tumor			92810f77-e33c-5f36-b337-3f0d31ef7746		0a0b5f2a-270f-5a7d-9786-68c8e240ff27	
+sample	COG-N-589x	Unknown	C48.0 : Retroperitoneum	-999	Tumor			9349c0f9-2a4c-577a-b154-76422869d564	c79bb332-308c-510b-b2e2-441f5d3435af		
+sample	ALL-02	Unknown	C42.1 : Bone marrow	-999	Tumor			938f883e-8c68-59d9-a9e9-350c22d3d85f	937b5824-d981-5bb4-98b9-ed8e43989099		
+sample	ICb-5108ATRT_pdx_samp	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			940ee46f-3603-52e2-9985-1ae9708bd45e		e9052d43-2151-514b-87f9-ba20637d34ed	
+sample	SK-NEP-1	Metastatic	C38.4 : Pleura, NOS	-999	Tumor			94cbfc10-3aa8-545b-abb6-33215692d2a1	1eecd6ae-a986-59aa-a348-0f9076c7478e		
+sample	ICb-2555MB_pdx_samp	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			9533be99-0cc5-567c-b49a-ccac813c091c		0d5d953d-9575-552e-a4f9-b48ddf39d6cf	
+sample	COG-N-421x	Unknown	C42.0 : Blood	-999	Tumor			954100f1-0a1c-5859-aac3-2dc753c09eb1	4042eace-390c-5663-85fc-bf0e47576955		
+sample	ALL-117_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			958a047f-2ff8-504e-94b8-fde8faa919bc		5156c106-1b09-57d4-b4e6-e8fb4b246a58	
+sample	NB-1643_pdx_samp	Primary	C48.0 : Retroperitoneum	-999	Tumor			95bb7b18-1b6a-551b-93b5-7f4c66d03c29		ebd591b2-a165-5a9d-b08f-26a8e74766ba	
+sample	ALL-58_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			95bcb46a-f43f-569c-bef9-099f446d1ddc		5e16af04-a369-5c23-af30-ff82d6d718ec	
+sample	COG-N-496x_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			97271a7c-3744-52cb-a210-abf89cca45bb		3dbfb7e3-f981-5eee-adfc-a3d35d51fa98	
+sample	COG-N-424x	Unknown	C74.9 : Adrenal gland, NOS	-999	Tumor			972850ec-2795-52eb-a389-f1f78ef794ab	ff26078f-81ba-55bc-9f21-fa92a969c55b		
+sample	ALL-88	Unknown	C42.1 : Bone marrow	-999	Tumor			97ab976a-9dc5-56fe-9034-ff52c0107998	43f23d18-2129-5b2a-9277-6862e09b0431		
+sample	IC-3752GBM_pdx_samp	Primary	C71.0 : Cerebrum	-999	Tumor			97ad0ebd-eac2-58d6-9ebb-8d26de5e0557		2a7b338a-77ad-501e-a24f-ea0829f57aad	
+sample	ALL-61	Unknown	C42.1 : Bone marrow	-999	Tumor			97dfedef-1340-5890-b633-841b1398fc30	a9c504df-a2e3-5836-b033-d9f3ca9650b4		
+sample	Rh-41	Metastatic	C22.0 : Liver	-999	Tumor			9969c0fa-f227-5767-b5f6-39c1796c74e5	7f3c8b2d-bf94-5a55-9796-c425a667911a		
+sample	COG-N-620x	Unknown	C80 : UNKNOWN PRIMARY SITE	-999	Tumor			9a2a1e02-308e-574a-91a0-89d3cf18a1cb	c177e433-974f-5b4b-9fcb-a8d2bc37cf39		
+sample	ALL-04	Unknown	C42.1 : Bone marrow	-999	Tumor			9a55ec26-4049-5ff2-974f-cafa853e07cc	f916d6dd-b797-58b5-81f5-a8ce3a20f549		
+sample	OS-49-STTX-sc_pdx_samp	Primary	C41.0 : Bones of skull and face and associated joints	-999	Tumor			9a9954ee-d1e7-585d-b519-5d5e6cf7d0e9		48a68a01-780f-5fc2-b308-5b029efc39f3	
+sample	OS-43-TPMX_pdx_samp	Metastatic	C34.9 : Lung, NOS	-999	Tumor			9ac246e7-21cd-5ffa-9502-f1a34202fb5c		34e0a2bc-e20d-5265-b30b-7ee184497dbf	
+sample	IC-3704GBM_pdx_samp	Primary	C71.0 : Cerebrum	-999	Tumor			9adf0e87-d989-5567-9caf-a28259c1acc7		ad5e7269-b62a-5ec2-8da5-e957d9777c8b	
+sample	ETP-4	Unknown	C42.1 : Bone marrow	-999	Tumor			9aee0ef8-1325-5594-ad15-b939757e8212	e2c3a0dc-10d4-5f86-87c9-9a5dd6f32a47		
+sample	OS-1_pdx_samp	Unknown	C40.2 : Tibia	-999	Tumor			9b31e9b0-3089-523d-9122-208ca396f890		fe98e770-5a1f-5cc4-8199-f9da9aa35df4	
+sample	ALL-52_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			9b5910ad-ad6d-5835-be1a-e1a584d17f76		bfe4f962-a062-5717-a3f3-168bb59cee4a	
+sample	ES-1	Primary	C76.5 : Thigh, NOS	-999	Tumor			9b5afe49-5a7d-5ab2-b629-86e6faf76053	189c4e51-7b05-5606-96ec-19f7537b89c5		
+sample	IC-6634GBM	Primary	C71.0 : Cerebrum	-999	Tumor			9b72f2ad-0d72-5fd0-a293-f6873dea3819	30f6657b-a58b-5674-b058-795ca4c5d0df		
+sample	IC-1128GBM	Primary	C71.0 : Cerebrum	-999	Tumor			9b880893-ff54-5f1c-85e0-204396a5cd05	bb41f16b-14d4-585f-9d46-cd0e27db6bd4		
+sample	IRS-68_pdx_samp	Primary	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Shoulder		9bbdfb12-dc33-574a-8366-dfd5a0343530		221935d6-b008-5312-941f-8ec295694585	
+sample	COGN561	Unknown	C48.0 : Retroperitoneum	-999	Tumor	COG-N-561 cell line		9bbe2f0d-6ddc-58e8-a3b0-97fdbff998b1	4870eee8-b203-5b69-bb6a-2f84495d21f5		
+sample	ICb-1197MB	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			9bcb9ab9-80f7-5b44-af6b-1ebbef22e0c9	943d2dcf-5f64-5818-9ed5-f1242c7747f1		
+sample	COG-N-624x	Unknown	C80 : UNKNOWN PRIMARY SITE	-999	Tumor			9bf0744b-9d31-5f45-9a54-bed203d8deec	01564e4d-79a1-5441-bbf2-736cbf0be849		
+sample	Rh-41_pdx_samp	Metastatic	C22.0 : Liver	-999	Tumor			9bf1d6f1-2014-503d-a510-6cd89037339a		9b4a55e5-dae8-53d3-a6f3-9d4fa5234862	
+sample	IC-2305GBM	Primary	C71.0 : Cerebrum	-999	Tumor			9c4e9672-4940-5d4e-ac26-a0ec4f99b0ae	5e02a863-e22f-5a23-823b-99d2c60e69f2		
+sample	CHLA-79_pdx_samp	Unknown	C80 : UNKNOWN PRIMARY SITE	-999	Tumor			9d2d60ed-fcf3-5160-9003-e72ba0a13915		16df0e9f-3fa3-538d-b06a-491e3351c08a	
+sample	ALL-108	Unknown	C42.1 : Bone marrow	-999	Tumor			9e011b79-9c20-580f-b184-5e5d768da39a	fc6ae6ef-95a5-5720-b3d8-36fc0b535e54		
+sample	ALL-84_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			9e596f66-316f-5776-8109-03030d237d5c		baf03e49-f146-597e-9b16-13f198c0f627	
+sample	IC-2664PNET_pdx_samp	Primary	C71.0 : Cerebrum	-999	Tumor			9ec4a883-1d47-54e4-81c1-0c95ccfc2671		becdee30-b190-56e2-b5b8-5a59f7a689a8	
+sample	IC-1425EPN_pdx_samp	Primary	C71.0 : Cerebrum	-999	Tumor			9f670d69-7ed4-5f70-8ca2-fd19517be6ef		ea233494-2f56-5760-ad40-bbb6f2d7bc75	
+sample	NCH-ERMS-1-NCH-RMS-1_pdx_samp	Primary	C69.6 : Orbit, NOS	-999	Tumor			9f692658-4c44-5e51-b04a-727bb09d3b50		31fb78c9-3030-56e9-ba15-81afb744c7c8	
+sample	CHLA-79	Unknown	C80 : UNKNOWN PRIMARY SITE	-999	Tumor			a09b8f22-0fd8-50ba-a3be-722b482d9485	ab1e9e4c-3ad3-54d7-9433-8925cf1b8ff2		
+sample	NCH-WT-8-S13-3700	Primary	C64.9 : Kidney, NOS	-999	Tumor			a1c2f23a-11c1-587a-b8aa-7710874c4358	7495c8a9-9fe7-51b1-8c84-d3f532adf130		
+sample	SHSY5Y	Unknown	C42.1 : Bone marrow	-999	Tumor	SH-SY5Y cell line		a2bc38a2-2694-5288-b24a-a278f6848d45	1f21fb21-ee0b-5ad4-9f14-bbb961b262ee		
+sample	ALL-117	Unknown	C42.1 : Bone marrow	-999	Tumor			a31c0de0-722e-5d53-8780-8b4e573ef318	7b8021a1-fa38-5c53-8b35-1b84f9cb76b6		
+sample	ALL-03_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			a34d8ee2-3641-52da-af16-c89a4a020019		e75935eb-ba4f-5b20-aab6-8f3f6325ff92	
+sample	ICb-1494MB_pdx_samp	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			a3893094-55d8-58f6-aafd-1d3cc9c0063a		56ba0b2b-257f-5d5a-b527-b4b4e23f4f15	
+sample	ICb-1078MB_pdx_samp	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			a40cdd1a-4e7b-560f-b4fe-34afcec41eaf		597b1625-e357-5c9b-ab8f-2cd3693900f4	
+sample	IMR32_cellLine_samp	Unknown	C76.2 : Abdomen, NOS	-999	Tumor	IMR-05 cell line		a43791d6-8091-5754-85b0-f86247f58dbe			1d3210a1-9891-5b60-a02b-27f5150d8c56
+sample	MLL-86_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			a4c84bde-0ae4-525b-8b4f-4cb2b1f51c2b		b576bc4a-361d-55ad-8b07-47f058779d15	
+sample	ALL-116_pdx_samp	Unknown	C42.0 : Blood	-999	Tumor			a5136696-a3b6-58c5-a12f-3224b564802f		05f8ecd5-6619-5c67-ac0e-3797b5903bb9	
+sample	KT-11_pdx_samp	Primary	C64.9 : Kidney, NOS	-999	Tumor			a6ae843f-a4a0-5c29-851e-7429c8b5b1ed		349e4d36-b9ef-522d-84d3-648af08d44f8	
+sample	CHLA-258	Unknown	C34.9 : Lung, NOS	-999	Tumor			a81a55e0-04c9-5368-b6e2-ebc256e7620f	f2842398-1f71-5e28-ba5a-bd8c0b5c6592		
+sample	ALL-46	Unknown	C42.1 : Bone marrow	-999	Tumor			a8ab441b-a491-58d9-91ce-3550b235b5ac	8cf471a9-37c3-57a8-bf8a-5f62271bdc04		
+sample	ALL-53	Unknown	C42.1 : Bone marrow	-999	Tumor			aacf0aa9-ce79-59f1-9ec1-eb788dceebdf	101675b1-ce9b-5b17-a15b-7deb92d49231		
+sample	ALL-91	Unknown	C42.1 : Bone marrow	-999	Tumor			ac049645-ba86-583f-915e-98d7ab813165	58df3ac2-2ebb-5a24-b519-e05060d770e1		
+sample	OS-33_pdx_samp	Unknown	C40.9 : Bone of limb, NOS	-999	Tumor			aca8f6d2-802d-5a26-9889-173398c06eb0		82b62383-a3f5-5cb8-9912-c4cb510a1d86	
+sample	PAMDRM_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			ad105b71-1c6f-59db-a995-a02baa6f4a38		c0afefdb-7d54-5a01-ab60-0ee524614cb1	
+sample	NCH-HEP1_pdx_samp	Primary	C22.0 : Liver	-999	Tumor			ad2e86f7-3bc7-5ade-9a6e-8aa6c7c2072f		c52e5023-aead-5ae9-b3e8-5cfb6ca2a684	
+sample	PAMDRM	Unknown	C42.1 : Bone marrow	-999	Tumor			ae05ce88-aca1-59c6-b263-9cc00866f956	daa56665-9618-59b1-8f87-8d78163d2c6a		
+sample	IRS-68	Primary	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Shoulder		af3bbf53-d304-5b2b-9cc4-0a36ae39b9d5	3dfaa515-55c5-5ae4-b1fa-1ecc3f7a9731		
+sample	OS-52-SJ_pdx_samp	Primary	C40.2 : Tibia	-999	Tumor			af903f80-6035-55af-ae31-1efe5398bd81		9c7ecad9-08b3-5434-8bfe-6da0d4c66351	
+sample	COG-N-564x	Unknown	C42.0 : Blood	-999	Tumor			b0382237-bf51-5d60-9694-5f3c0408f39b	c54d2aa9-2c81-5b90-9bd9-1257c8750b56		
+sample	COGN471	Unknown	C74.9 : Adrenal gland, NOS	-999	Tumor	COG-N-471nb cell line		b068d21d-e45b-5556-b1d4-8de2cf34b7ff	14528ee4-8f8f-5521-9e8c-ee6aecf7c1d0		
+sample	COGN573	Unknown	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	COG-N-573 cell line		b0d74464-9789-5082-b90d-50ce89e08185	ed81f9cf-98a4-547b-a8a6-017938e1cbd1		
+sample	ALL-32	Unknown	C42.1 : Bone marrow	-999	Tumor			b27eec21-1948-51ae-bbb8-d3da737d1535	46263093-675b-54b5-bd2b-d9246311611d		
+sample	COG-N-590x	Unknown	C48.0 : Retroperitoneum	-999	Tumor			b2809089-7262-5152-b5a0-816fef2ddb6f	ce74552e-d921-53c6-a0aa-6edc8f7a9d8a		
+sample	NCH-HEP1	Primary	C22.0 : Liver	-999	Tumor			b4e3aa5b-04c5-59e4-b7c8-cdd48bbd4e40	c062bdd6-39f8-570d-8b0e-b5e39f6a96a1		
+sample	NB-SD_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			b556e591-0a67-5f8a-80fa-5a6a7a09907a		2f1ddbb8-b849-5227-bad1-00da56f95e34	
+sample	ALL-54	Unknown	C42.1 : Bone marrow	-999	Tumor			b5c26ed7-c4c0-5f4d-98bb-14e6e73f7bc1	a575b127-f050-5fdc-a530-7810e9492a41		
+sample	ALL-32_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			b6044fd1-7e61-59f5-b37a-7de763b582cc		f85eb69c-7a3e-5805-a9d5-008b318a807c	
+sample	IMR5_cellLine_samp	Unknown	C76.2 : Abdomen, NOS	-999	Tumor	IMR-32 cell line		b6139bfd-557b-546a-9260-48e7dbf34ab6			15acd36e-cbcd-54c5-98b4-0bdb2f1ff92d
+sample	G401_pdx_samp	Primary	C64.9 : Kidney, NOS	-999	Tumor			b6177ff2-5974-5a37-a21e-2df3a3aca9d5		6ab8b084-5467-5c6d-943f-fee341c5469c	
+sample	COG-N-519x	Unknown	C42.0 : Blood	-999	Tumor			b61bc56c-b508-5ed1-8573-2509398b4883	69b1ea8e-bf31-558e-9834-0707f04100b6		
+sample	ALL-07_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			b6976bb2-d72e-5746-8067-2517db266d0b		ee9bc655-8e34-5eb5-acc5-bcc2dab7b528	
+sample	NCH-CA-2_pdx_samp	Metastatic	C77.9 : Lymph node, NOS	-999	Tumor			b71767d3-88b1-59f0-8377-1766f96789b8		f20b0df4-cae8-525b-a798-dfc3d02a7754	
+sample	MLL-7	Unknown	C42.0 : Blood	-999	Tumor			b846a002-8741-55e7-b015-67a33dd92c8b	c89b645a-61f6-5492-b06b-d15efe011da1		
+sample	IC-6634GBM_pdx_samp	Primary	C71.0 : Cerebrum	-999	Tumor			b87efde4-eb4e-50fe-afa5-69f0ed52129f		2bbae1d5-d8ab-5c4d-b653-ac77db22ae34	
+sample	KT-12_pdx_samp	Primary	C71.5 : Ventricle, NOS	-999	Tumor			b9741b32-384c-5327-9619-e0ad7e35a15e		705acf7a-429d-5aeb-bda1-9d20f4f7c001	
+sample	ES-1_pdx_samp	Primary	C76.5 : Thigh, NOS	-999	Tumor			ba063b9e-772b-5748-b322-e4d0532a60a2		0cf51b6c-b60a-5c7d-9150-45cab19feb0c	
+sample	NB-SD	Unknown	C42.1 : Bone marrow	-999	Tumor			ba5c556d-3c7a-531d-948b-c1b0c644ce75	513cfe88-6a75-5fed-94c1-7aef9f979f32		
+sample	ICb-5108ATRT	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			ba98f630-b09e-5c91-bee3-94531889e50e	f04a0843-9c6e-5061-ad00-64a070c3d0e3		
+sample	LAN5_cellLine_samp	Unknown	C42.1 : Bone marrow	-999	Tumor	LA-N-5 cell line		bad41ba8-3b49-5082-bf79-a52cebf1c1db			817e3a7d-2fe9-55ff-bd69-f2adb3d1251b
+sample	Rh-12	Primary	C76.3 : Buttock, NOS	-999	Tumor			baf87b2d-944c-5836-95c1-acaacbea4042	dc4d4122-99ac-5cc0-8fea-ab415f6ca861		
+sample	ICb-9508MB	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			bb3e7c23-8161-5246-aa2c-06ed27e1581d	102861e9-43c3-5ab7-880c-9b27961c0e23		
+sample	ALL-25_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			bbe519c7-1f33-51f0-bca8-e53eefbbd495		2200b9f8-94b5-5951-9a1b-10358ead17fa	
+sample	KT-10	Primary	C64.9 : Kidney, NOS	-999	Tumor			bbf37a8c-8d71-54b8-8fde-e8cce8af9771	8bd20587-0085-5e33-ab6b-34bde6770a94		
+sample	ALL-42	Unknown	C42.1 : Bone marrow	-999	Tumor			bc185748-897f-5fae-82eb-eea1b8badfa1	6df7c1ac-4d1d-5b6d-b735-4c2e9845fefb		
+sample	OS-34-SJ	Primary	C40.9 : Bone of limb, NOS	-999	Tumor			bc369e01-d7fb-53de-8973-e35a98662d32	3b305b3f-d28d-5404-9e25-047bc2f30e30		
+sample	IC-1499EPB	Primary	C71.0 : Cerebrum	-999	Tumor			bcbd15f1-d5fb-566c-b52f-cc4d7516dfc8	8328aab4-9825-57fb-9801-a84b84dd8668		
+sample	COG-N-471x_pdx_samp	Unknown	C42.0 : Blood	-999	Tumor			bcc9792d-871e-5c28-9b6e-2ee48aaf7a67		1f0ed319-e55b-5f65-81b8-f5810cdf4330	
+sample	ALL-97	Unknown	C42.1 : Bone marrow	-999	Tumor			bd593e4e-deab-581c-8a73-0052beea528d	8dbd0c45-ecf3-5f52-bdbd-ab470cb7211e		
+sample	G401	Primary	C64.9 : Kidney, NOS	-999	Tumor			be512471-1f94-56a0-b68e-ca8d24d75710	f3c319a6-17e5-537c-9145-5df64d73cc55		
+sample	ALL-29	Unknown	C42.1 : Bone marrow	-999	Tumor			bfcd601c-f6d0-507f-85f6-514ff82c02e9	090ea0af-1ee6-53bb-bc5e-d89ddfcd4a39		
+sample	OS-31	Unknown	C40.9 : Bone of limb, NOS	-999	Tumor			c074942e-fef7-5c26-9339-b13ccd031905	acf7b54e-4a75-5976-ac30-dd38af1c32d8		
+sample	ICb-1218ATRT	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			c0a13444-f930-5425-9e1f-e2151e946d49	d4aa16c9-f96c-5020-abe1-f8efeae230c9		
+sample	OS-55_pdx_samp	Primary	C40.9 : Bone of limb, NOS	-999	Tumor			c0e0447a-0a21-5fe1-8271-2989af426ca1		dac70e53-9c88-55be-a95a-538da71c15c0	
+sample	ES-6	Metastatic	C41.9 : Bone, NOS	-999	Tumor			c2bdd9cb-b8ee-5fb5-92fc-eb6de7fe6391	e350ab43-3d46-5c38-bc64-06ded496830f		
+sample	SKNBE2C_cellLine_samp	Unknown	C42.1 : Bone marrow	-999	Tumor	SK-N-BE2-C cell line		c348a73c-e7c0-5543-980b-53bb17fe821f			1835014b-21c3-5707-8c28-27d290315dde
+sample	COG-N-619x_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			c3aae6bb-3033-5e72-872c-4377a9f32c10		a845d800-20e6-51d3-bac3-d5f5554e407f	
+sample	ICb-J1017MB	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			c3b84d6c-e6ae-50cf-8a84-a7cc7157934c	5b2f86bd-89a0-5065-930d-361a904a2219		
+sample	NCH-CA-1	Primary	C76.2 : Abdomen, NOS	-999	Tumor			c3de1195-72ea-57c9-90ec-37b6723ec53e	f69dfcfe-c955-5fc8-bc28-f5aa91cf2d63		
+sample	ALL-47	Unknown	C42.1 : Bone marrow	-999	Tumor			c4456bdd-dfaf-54cd-8473-3495ec079e80	9aeca567-f152-5a7f-abdd-7799e35e9c71		
+sample	ALL-91_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			c4bee891-9a15-5c53-855d-444044ea3c2e		add5e641-a53f-574e-98a5-c8ebcdcfcb96	
+sample	ICb-10614EPN_pdx_samp	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			c590e233-f5e0-5901-9b09-ef76c5478678		11c24371-b9aa-5e07-845b-f9f55da65178	
+sample	NCH-WT-5	Primary	C64.9 : Kidney, NOS	-999	Tumor			c62af173-cfc1-580b-a1a0-c04f55d4ddd6	a4e73634-c110-548f-95e1-7c8e906ea6d5		
+sample	ICb-1572MB_pdx_samp	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			c6bf2a0f-be4b-566e-8b48-f8f5c68032e1		9419e310-9967-533a-a603-ca5e172b016b	
+sample	PAKRSL	Unknown	C42.0 : Blood	-999	Tumor			c6dc37d2-8517-52f8-be2d-be60b513ba3c	53f7e4c8-d3ac-59a5-88f1-3f838b1c6366		
+sample	ALL-63_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			c6dd94a4-9b79-50e7-8afa-3858e8087a9f		e9fc37c9-6ff6-51b6-becb-68cd7135f477	
+sample	ICb-2164MB_pdx_samp	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			c7635c08-deaa-5798-8836-ec48117ad24f		6f68d58d-527c-5a84-8dea-04b1e108caf1	
+sample	PAKYEP	Unknown	C42.1 : Bone marrow	-999	Tumor			c7d19364-829e-5928-8f49-eecb38fe4d3c	a023590e-4d94-5419-83bd-182006c1a8f2		
+sample	NB69_cellLine_samp	Unknown	C71.9 : Brain, NOS	-999	Tumor	NB-69 cell line		c7e11fa3-fc44-551a-a8cd-d732c83342b7			24a60325-9b80-560e-87f3-c3384bbd4d4f
+sample	NLF	Unknown	C76.2 : Abdomen, NOS	-999	Tumor	NLF cell line		c7fbb899-96a5-5dcf-8137-e9be2de3418f	e9d27d44-5f27-551c-b37d-4464b3a8f5a6		
+sample	PAKHZT_pdx_samp	Unknown	C42.0 : Blood	-999	Tumor			c83ff7d6-ccf9-57c7-9e14-a1afc633322a		533eb1fc-b9e8-5bed-909a-18919fb14a3d	
+sample	IC-1425EPN	Primary	C71.0 : Cerebrum	-999	Tumor			ca288a47-56c3-5a69-ab2b-08a79c5f0fb4	28df6981-57d9-5592-9193-84c72194fe7b		
+sample	COGN557_cellLine_samp	Primary	C76.2 : Abdomen, NOS	-999	Tumor	COG-N-557nb cell line		caee27fc-dc2b-57fc-ab3f-3d9455f7aad4			b70f98ed-3e13-5497-8393-54f7e7be2729
+sample	NCH-WT-7	Metastatic	C34.9 : Lung, NOS	-999	Tumor			cbea1650-aff3-551a-b995-2a45c0229e91	79bf6a55-2703-5b0e-8dba-1cdd3305e2b3		
+sample	ICb-5323EPN_pdx_samp	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			cc388123-b193-5301-b012-4c7920668d9d		b400672b-0b00-5afb-9b0c-076f36a7001e	
+sample	LAN6_cellLine_samp	Unknown	C42.1 : Bone marrow	-999	Tumor	LA-N-6 cell line		ccf0356d-bd53-5ad7-8359-b0000f852b33			193d8863-4b5d-5e66-9b5f-c94f3f40c683
+sample	IBs-P1215DIPG_pdx_samp	Primary	C71.7 : Brain stem	-999	Tumor			cdaf070c-0735-59ca-9702-92112e1dc437		2b4adcbe-3223-536d-80f7-6b53e007fd5e	
+sample	ALL-122	Unknown	C42.1 : Bone marrow	-999	Tumor			cde78dce-4e54-563d-9136-1c34e6da761e	49d68cdd-443b-5480-b950-a25bde6f3323		
+sample	ALL-33	Unknown	C42.1 : Bone marrow	-999	Tumor			ce2a2ee1-2820-58f8-b03b-a4a1ce7e8555	ac1ec99a-ba0a-59ce-92e7-83ab77f4e3e2		
+sample	IC-3704GBM	Primary	C71.0 : Cerebrum	-999	Tumor			ce9866a8-a653-5205-b0a0-dedf23256e6e	16016de1-a405-5d78-a37a-45e3a31be55d		
+sample	PALTWS	Unknown	C42.1 : Bone marrow	-999	Tumor			ceb77a66-318e-58ee-8df4-ed730bc3f8e5	0d9272b5-c1a1-598e-b380-56e81c186760		
+sample	Rh-12_pdx_samp	Primary	C76.3 : Buttock, NOS	-999	Tumor			cf536d0a-62cf-5451-8409-7bf76d4dad10		81033526-7cde-553e-be66-40c111480234	
+sample	ALL-82_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			cfe105e0-8c92-5292-954d-110488df0236		f810012f-5bce-53cd-a759-a477bb5d1a0a	
+sample	EW-8_pdx_samp	Primary	C76.2 : Abdomen, NOS	-999	Tumor			d004a58b-607a-5ef0-b39e-630c9c052a2d		747abd5e-f6d8-5f38-bda4-7020a08201d7	
+sample	ICb-8008MB_pdx_samp	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			d02e2d47-82ea-5477-94b2-9718358122f1		ce228aa1-72b5-5c54-b91f-dcac781fe03c	
+sample	NCH-RBD-2	Metastatic	C22.0 : Liver	-999	Tumor			d0d99cc9-82b1-511c-b505-102da1947e2e	31bac818-fd46-5d02-b047-168e19967b69		
+sample	ALL-27_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			d0f17727-6c02-5456-819d-b80067f2efe9		815f412d-4bf8-5326-8d9d-13597ffd83c1	
+sample	ALL-59_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			d121e39d-0ec7-551d-9a73-ca48b9be17dc		80fbed8a-8e4e-5656-a5ab-7975253b9904	
+sample	Rh-30R	Unknown	C42.1 : Bone marrow	-999	Tumor			d1355d70-25b6-5db7-9883-af027978a149	469f5574-8878-5b00-ad51-4a6156954dc4		
+sample	ICb-1572MB	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			d138970d-0105-59b5-bd9c-ffd187de072d	14b1787b-a9b6-5e58-99ba-6bcf0cd7c9b2		
+sample	ICb-3130MB	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			d37af82b-5348-56e9-8b6a-d1dd2f471322	6da6ade8-1c77-5d00-9658-6745fc7f5a9e		
+sample	MLL-1_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			d38b2fa3-879d-5211-96d0-c41f15389eca		fab0fd0e-ed05-5ae1-a135-4524c0572c55	
+sample	SKNSH_cellLine_samp	Unknown	C42.1 : Bone marrow	-999	Tumor	SK-N-SH cell line		d3be7f0b-5162-5fb9-b744-d40c58dd0c5a			36c9d0f6-bfde-59f0-9225-ac2a90021410
+sample	OS-55	Primary	C40.9 : Bone of limb, NOS	-999	Tumor			d5292f87-865b-5dbb-86b3-303d7c1fb7af	2ad75fea-edcd-5dce-b2fd-5043982de151		
+sample	ALL-57	Unknown	C42.1 : Bone marrow	-999	Tumor			d535c9a5-774a-5aa4-b48b-8a971b415992	a4f2fca8-23b1-52a9-88e9-7e3279f71806		
+sample	COG-N-619x	Unknown	C42.1 : Bone marrow	-999	Tumor			d5e8151a-a5c7-55f9-aad6-35a9e41e1519	a8b3e54d-84e9-50a6-af49-11e6f386a3ef		
+sample	OS-32_pdx_samp	Primary	C40.2 : Tibia	-999	Tumor			d603068a-050f-5f88-ba49-07de94183310		64290273-e775-5ed3-aec9-ada5450a01f9	
+sample	OS-43-TPMX	Metastatic	C34.9 : Lung, NOS	-999	Tumor			d6bb8bda-7dba-52e6-8edd-9d0836b72f45	37e803ec-79f0-556d-82a4-503a199ffc6c		
+sample	OS-9_pdx_samp	Primary	C40.9 : Bone of limb, NOS	-999	Tumor			d7307dda-5573-5756-b9da-bcf44d7cd770		e0f85f51-bda0-525a-a692-4e7bd58a2755	
+sample	OS-49-SJ_pdx_samp	Primary	C40.9 : Bone of limb, NOS	-999	Tumor			d784cd27-ab24-55bd-b0ce-e5334aed5016		29366e79-b054-5759-be01-d68d722011fc	
+sample	Rh-30	Metastatic	C42.1 : Bone marrow	-999	Tumor			d799c3c7-5a30-5a49-ba56-a65a76080278	469f5574-8878-5b00-ad51-4a6156954dc4		
+sample	ALL-04_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			d7acbf74-f4de-5c26-97c3-6cce22b24813		f6b01931-a958-5f6b-98ad-ad828fe86fc5	
+sample	KT-14	Primary	C64.9 : Kidney, NOS	-999	Tumor			d859d33b-50be-5782-b76b-8fcf5b4ef7dc	8760465b-483f-5dda-b712-ea49b6cf89fd		
+sample	ICb-10593ATRT	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			d85d80cc-05b9-506f-b4ee-92873cdb9098	981ec9f1-55ee-5207-817c-ef3bc988b0b5		
+sample	ICb-1338MB	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			d8ae08a2-b8a6-589d-be95-1988335891de	e87b8b30-e9ad-5122-a6d1-c101c4cc35bd		
+sample	COG-N-440x_pdx_samp	Unknown	C42.0 : Blood	-999	Tumor			da58f1d0-096b-59e8-ba77-e35d82a7ab95		ca390f40-1cc7-5035-9458-644ca2dadbd4	
+sample	PALNTB	Unknown	C42.1 : Bone marrow	-999	Tumor			da9c6dec-3ab5-5b9f-ab49-c9e0583f89fb	b5285171-9a62-549f-8029-28325da86265		
+sample	COG-N-623x_pdx_samp	Unknown	C74.9 : Adrenal gland, NOS	-999	Tumor			db1b7b20-b9db-50e5-8186-bb6f441bf06e		61218c3f-22d3-5eb1-9bd3-2deb3f99a165	
+sample	OS-49-SJ	Primary	C40.9 : Bone of limb, NOS	-999	Tumor			db4babc5-3083-5054-ba04-3938aa19f0b7	765f2427-743b-5f7d-b48b-68513e0c7f73		
+sample	ALL-11_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			db62814c-b0e3-5e71-9c31-67d0d3ff0ecc		1998ac9c-8b26-574b-8e0e-680a9a7f0aba	
+sample	IC-3635PXA_pdx_samp	Primary	C71.0 : Cerebrum	-999	Tumor			db9cb598-c9eb-50bc-a389-257487aefb13		8b0c507d-277e-54f8-89c3-8c3d0f2269b8	
+sample	OS-46_pdx_samp	Primary	C40.9 : Bone of limb, NOS	-999	Tumor			dc71c343-d78d-5b93-9c81-015b0e90f534		bd1570d0-a8a7-519e-8ac1-3d0948385a39	
+sample	ICb-1197MB_pdx_samp	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			dc8167ad-f9e3-577c-92af-239d330ad316		443f3836-afa8-55e5-91e9-fcdf55bb1947	
+sample	ALL-58	Unknown	C42.1 : Bone marrow	-999	Tumor			dc84994e-dbee-5447-b53f-494caf0f5a1e	9e81fd2e-2f85-58d9-abd4-e8c1065dc1ba		
+sample	NCH-CCS-1	Metastatic	C77.9 : Lymph node, NOS	-999	Tumor			dc8a3200-1c70-5a7a-8fc8-4994c9bb520f	b0ae847e-966c-5677-83e6-80af04bb6812		
+sample	NCH-WT-4_pdx_samp	Primary	C64.9 : Kidney, NOS	-999	Tumor			dcb77bc2-07a0-5fc2-a088-4d73f912f321		1e3e34c4-fffd-5e8e-9fdc-fc754d7fb3e7	
+sample	ALL-60_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			dccba703-e653-563c-9019-d79039c652f4		8edf9555-bda5-5e7c-b591-764ede4c56d5	
+sample	ICb-8008MB	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			dd062b1c-d0d3-5a14-93aa-6d45b63cd34f	e430fe27-fae6-52ff-91b5-0872f770fb97		
+sample	KT-5	Primary	C64.9 : Kidney, NOS	-999	Tumor			dd27ecba-ac7f-50b5-acdb-9defb72c2d14	09454f8d-a395-5a9c-950a-fd963c054e99		
+sample	NCI-ASPS	Unknown	C80 : UNKNOWN PRIMARY SITE	-999	Tumor			dd39c810-b56c-5305-87f9-319c3b09a6e9	da5e3bf9-59e4-5ace-a766-07f706a02168		
+sample	LAN6	Unknown	C42.1 : Bone marrow	-999	Tumor	LA-N-6 cell line		ddecaef2-1205-5396-a1c8-a3d06282a0af	9fe0a008-babc-5234-b8f8-0d359b0c1a25		
+sample	NB1643_cellLine_samp	Primary	C48.0 : Retroperitoneum	-999	Tumor	NB1643 cell line		dded3d4c-a1e4-57ad-baa8-a53717a372d2			c8bf0ce8-e97a-5cb5-9ab7-80bbc35ee0c9
+sample	IC-2664PNET	Primary	C71.0 : Cerebrum	-999	Tumor			de01426b-3d3d-59e5-89dd-5cc392f1eea8	58032a32-a541-5a35-be1e-ca44dd998c1a		
+sample	OS-33	Unknown	C40.9 : Bone of limb, NOS	-999	Tumor			de33d64f-8449-5079-9076-e21ca48d93e7	81127f9c-9db1-5709-9037-f0919c4d5dca		
+sample	OS-17_pdx_samp	Unknown	C40.9 : Bone of limb, NOS	-999	Tumor			de518049-23b9-52e1-8936-83086dd76619		b08c4eba-ee14-53e3-9164-d14fceadf0dc	
+sample	COG-N-560x_pdx_samp	Unknown	C76.2 : Abdomen, NOS	-999	Tumor			de917e8c-7eb5-5323-bad3-421e00b8fcdb		3a7474d1-4e80-588a-811e-5b7a36b40492	
+sample	ALL-08	Unknown	C42.1 : Bone marrow	-999	Tumor			e0a98b98-1c2b-5382-afbf-7b3eba351ad7	cf4a5048-76d8-5bf4-891a-4aa2db803c2a		
+sample	ALL-10_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			e0dc84c6-06ea-5984-babc-8de3ae057167		948b8ec3-21aa-51e5-a636-073a1d971b00	
+sample	IC-1621GBM_pdx_samp	Primary	C71.0 : Cerebrum	-999	Tumor			e1549140-c3ac-5b14-9191-cda11446e6ca		4fd9072b-c611-575f-bc52-3adc82efcd5d	
+sample	IC-2305GBM_pdx_samp	Primary	C71.0 : Cerebrum	-999	Tumor			e2038ac8-7116-5bf6-afbf-5e3f939a367c		357784c2-638c-5201-a56a-fcc02ab67dfd	
+sample	OS-47-SJ_pdx_samp	Primary	C40.9 : Bone of limb, NOS	-999	Tumor			e25468d7-f693-5cee-86c6-197823999603		429f9187-a10a-5a57-b29b-ac89f6fa7433	
+sample	ALL-17	Unknown	C42.1 : Bone marrow	-999	Tumor			e2655116-23c2-546c-bd66-ef15e4f66cbd	12a6d3c3-af1b-5a89-8b96-fa88ece18d44		
+sample	ES-4_pdx_samp	Metastatic	C34.9 : Lung, NOS	-999	Tumor			e36957e0-2607-5a10-89af-f655fdf416ae		e698f47c-a3ac-51c8-ae65-282fbde47769	
+sample	ALL-51	Unknown	C42.1 : Bone marrow	-999	Tumor			e37f42ae-c3fd-5548-a62f-5a275375039c	8c0d45b7-41a5-5df5-8431-fb6ff92c7181		
+sample	COG-N-628x_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			e3b1efdb-629c-58aa-87e4-d2a9c15a905c		6def32f6-589b-5657-bab0-a074952eea28	
+sample	NB-EBc1_pdx_samp	Primary	C74.9 : Adrenal gland, NOS	-999	Tumor			e3c03d55-9c29-5bf1-8a7f-22078f085c4e		89aca80f-fcae-5340-a926-2bf75a1840e8	
+sample	OS-34_pdx_samp	Primary	C40.9 : Bone of limb, NOS	-999	Tumor			e4066882-c666-5f5f-b621-ece5ce875c83		08c5e921-aef8-52f5-a228-cc29725d5497	
+sample	ICb-2123MB_pdx_samp	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			e67195e2-810c-5cd5-9527-0e8e75404826		67efbff5-cc1e-5f33-81c3-d30e48f192b2	
+sample	ICb-S1129MB	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			e7443c21-14c4-5014-8e50-4ba3e8bd9f80	6770dd78-f459-5621-a9e8-80694873a7c2		
+sample	OS-36-SJ	Metastatic	C34.9 : Lung, NOS	-999	Tumor			e780ff30-c5de-592b-a30f-026b0666c986	3fda0660-77b0-5ebd-a9a4-703ac4c81dd9		
+sample	ICb-3400MB_pdx_samp	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			e8709e70-956e-59b7-b354-52fa840b01c5		1a0ad1b1-d53d-5e90-bcc5-4349fe911346	
+sample	ALL-39_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			e88532f1-6a7b-5143-bb29-e1126a7fa7c6		6294d426-fe22-5b9e-94e3-573dfa1fe7a8	
+sample	ALL-83	Unknown	C42.1 : Bone marrow	-999	Tumor			e8a87ffb-e062-5148-98e2-40a631f2aa91	fe2a93ed-283f-58f8-8add-db6e65b474a0		
+sample	COG-N-415x	Unknown	C42.0 : Blood	-999	Tumor			e8b6cf02-2c4d-52db-b04e-5c76d2a5078d	f0d6c1b3-fcca-5134-a2df-140ef97bd903		
+sample	NCH-ARMS-2-NCH-S13-7484_pdx_samp	Metastatic	C50.9 : Breast, NOS	-999	Tumor			e90891ed-2ed5-5e2b-84e0-38f1852a621e		69496729-b0ed-5972-9323-e86b5515dfe7	
+sample	NLF_cellLine_samp	Unknown	C76.2 : Abdomen, NOS	-999	Tumor	NLF cell line		e92f0431-043f-5ddd-988a-85f3031afefa			f2dd0337-8732-5350-a716-48ee560fa51c
+sample	ALL-81_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			e9a3d12e-5efe-588d-a33f-6869aba79567		9979c0eb-5bd2-54c9-8f5f-7758d6b2093f	
+sample	IC-1499EPB_pdx_samp	Primary	C71.0 : Cerebrum	-999	Tumor			e9b1ff43-8bee-508c-8068-2400765b6eb6		de8f2ccd-01d5-525f-b96b-864cf2556ef7	
+sample	SKNFI	Unknown	C42.1 : Bone marrow	-999	Tumor	SK-N-FI cell line		e9bdf586-8fb4-5183-ae73-b5f0baa47df7	06cf030e-dcb7-5a25-864f-b373d87718d8		
+sample	PAKSWW	Unknown	C42.0 : Blood	-999	Tumor			e9e524d5-d0a2-5497-b104-0d1d75d3c686	7be78d3f-b68c-59d2-93a6-7ca8a804087e		
+sample	ALL-60	Unknown	C42.1 : Bone marrow	-999	Tumor			ea9f8f0b-1124-54e2-95fb-1b99a32a649f	b883a27f-156d-5269-9b2a-57f72fb7d637		
+sample	ETP-1_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			eb562758-83e5-53b5-bd79-304f66008b6b		76e51124-86ed-59c9-b170-2977768db3f9	
+sample	ALL-53_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			eb7e64ea-5eb7-5ff4-b1fd-ea446911f360		37973658-e3fa-5a89-a829-5d8a2f725f58	
+sample	ALL-95_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			ebdc4990-3c11-5e71-a0e6-76129f851661		df2244dd-d5ab-5c9b-9e5b-1f90aa4534df	
+sample	ALL-123	Unknown	C42.1 : Bone marrow	-999	Tumor			ec0b89fc-3ed3-5970-b88c-88a82aac4de6	9e81fd2e-2f85-58d9-abd4-e8c1065dc1ba		
+sample	ALL-118	Unknown	C42.1 : Bone marrow	-999	Tumor			ecf3db8c-2634-5bc4-baba-cdf0694d5a73	808428f1-e5fb-5ba2-9c55-5afcf8f935f9		
+sample	MLL-6_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			ed034f01-b386-5725-a437-7b349498452a		a3133a11-fa01-5a27-b7f7-6318b1917979	
+sample	ALL-87	Unknown	C42.1 : Bone marrow	-999	Tumor			ed8e801d-6fc8-53a1-a68c-3b32f31df153	b61a0213-c5d4-568f-85c7-ab5f74c3a5e6		
+sample	IRS-56_pdx_samp	Primary	C76.3 : Buttock, NOS	-999	Tumor			edc60a1f-d13f-5a67-8bc3-17b840922180		bf81f032-87a4-5bc0-9195-c1addf596e8c	
+sample	PAKHZT	Unknown	C42.0 : Blood	-999	Tumor			edd0f0e9-8dd7-5014-b13c-6d8a41d8bf87	7ace4d71-bed5-54d0-bb6d-5e292cd1003c		
+sample	OS-1	Unknown	C40.2 : Tibia	-999	Tumor			edf17dd7-e8b3-52e1-80cb-8e3892123129	4421a2d9-c2ee-5fb6-8181-1ab8fdefeb5d		
+sample	OS-49-STTX-sc	Primary	C41.0 : Bones of skull and face and associated joints	-999	Tumor			ee4958a8-e3d4-5d51-95d4-47649ba32de1	e5063a7b-dca0-5e0e-a23d-dbad96b882f7		
+sample	COG-N-519x_pdx_samp	Unknown	C42.0 : Blood	-999	Tumor			ee80c710-9d59-5b74-bdd8-61f66fc5c6ed		710b9b48-15ce-5d64-bb3d-6046e9f06403	
+sample	NB1	Unknown	C77.0 : Lymph nodes of head, face and neck	-999	Tumor	NB-1 cell line		eeb8108b-ed9f-5f58-90fb-f508ed39cc55	f160005d-cf40-53b6-90cd-951bf7624c1d		
+sample	PALKTY_pdx_samp	Unknown	C42.0 : Blood	-999	Tumor			eee0c180-937e-5770-b551-ef32f87a547a		500a6a88-590e-5567-ad45-311e0e230ebd	
+sample	ICb-10593ATRT_pdx_samp	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			ef3a5046-2d9e-57bf-8216-6dd5558c99b8		5109ea1e-c190-5db5-94ae-3d01abede752	
+sample	MLL-8_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			efd60430-c6fe-5989-87bd-4de9801175b2		52693074-92ab-5041-8ebc-f372dfef5fb1	
+sample	COG-N-620x_pdx_samp	Unknown	C80 : UNKNOWN PRIMARY SITE	-999	Tumor			f0c3f64d-0466-5aee-a0b9-16d6d00c505e		176c31f6-1d35-57bf-bb12-bb1f81f14610	
+sample	ALL-75_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			f0eefa84-b961-52c9-88bc-e13d2b8d78b8		78671e6a-8b95-5115-93da-31d639aeff80	
+sample	ETP-2_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			f1f58258-3477-59f1-81d3-abc4fa760eb6		0aeae4a7-65a2-5e9b-8bde-39c092f9e68a	
+sample	IMR5	Unknown	C76.2 : Abdomen, NOS	-999	Tumor	IMR-32 cell line		f241d6a4-0bb3-583f-bc8d-9057432535eb	3c29137a-1ce7-5a7c-9d55-f8e0e8aecc0e		
+sample	NGP_cellLine_samp	Unknown	C34.9 : Lung, NOS	-999	Tumor	NGP cell line		f315965d-b312-5a99-913d-99b99e39cdf8			1515be47-39d9-52a2-8a6a-4742bb26235f
+sample	PAKRSL_pdx_samp	Unknown	C42.0 : Blood	-999	Tumor			f33c6822-2821-52af-9ebc-917cdf015908		8725461a-0a0f-5977-ad97-816d8b3a9ae9	
+sample	ICb-1140MB	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			f48e51b2-1cf4-5c5a-9283-6cddf23ff915	f1fbedbb-94e3-55ee-b298-d963506dfc24		
+sample	NCH-CA-3_pdx_samp	Primary	C18.4 : Transverse colon	-999	Tumor			f4d2b339-fa96-52c3-a042-105b1e8cfcce		da3bf00c-f2ef-52ce-90c8-a91eea68fa0b	
+sample	NCH-ERMS-1-NCH-RMS-1	Primary	C69.6 : Orbit, NOS	-999	Tumor			f5a72caf-024c-5f75-ad38-92593d016c8c	69fcecd5-707b-55b6-98c5-87b8de67ffd8		
+sample	IC-22909PNET-rIII	Primary	C71.0 : Cerebrum	-999	Tumor			f5ec7fab-ec41-53ec-ae54-671d74f34d2a	f8436751-7fc9-53d5-a6ca-a2600ca14c82		
+sample	OS-42	Metastatic	C34.9 : Lung, NOS	-999	Tumor			f61896c6-0a3c-57b6-ad14-3b93856a9220	1e9f0952-3f1a-56e3-a3a0-54bd2df8bad6		
+sample	ICb-2123MB	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			f65046ab-6d07-53b9-9fe1-7c5959c73298	d7d0fe11-266f-5b9c-9804-9c8ed85dd771		
+sample	ALL-27	Unknown	C42.1 : Bone marrow	-999	Tumor			f67eb307-85f2-5d49-9a37-50ff8d390372	79dffb88-61c5-557c-b9de-dff700aa76fd		
+sample	Rh-65	Unknown	C77.0 : Lymph nodes of head, face and neck	-999	Tumor			f6dffe77-0512-599f-a139-06f7396bf898	f01c7159-df46-5baf-b832-1a20df6ee8df		
+sample	ALL-118_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			f7206cb4-318e-5cb7-8172-1566f895233d		d48f6170-0b75-570c-b6c4-35a3c0985747	
+sample	ALL-16_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			f83f6587-ab8e-5f4e-b87e-a9908ec49e75		148a523c-bdf0-516c-bb6a-75863482a7a6	
+sample	OS-55-SBX	Primary	C40.9 : Bone of limb, NOS	-999	Tumor			f874915f-b801-5fb3-889e-0eafe9fe38a1	87f91d47-5f71-5daf-b39e-82fbbdf5c130		
+sample	COGN561_cellLine_samp	Unknown	C48.0 : Retroperitoneum	-999	Tumor	COG-N-561 cell line		f91cd643-8c94-5d9e-a2da-c8676fc4decb			fdf89f83-d99b-5506-8cae-8e8f3ef66aa8
+sample	PALJDL_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			f91da3d1-28ee-5c5e-a16d-e9e8e8ba5770		afcb4544-e67f-5318-b7f8-8d98143997f5	
+sample	KELLY_cellLine_samp	Unknown	C71.9 : Brain, NOS	-999	Tumor	KELLY cell line		f94d53da-12e9-55e4-a307-d31adee4b36d			d2c3d1fe-1c0a-53b2-a261-78242973b7f8
+sample	ALL-19	Unknown	C42.1 : Bone marrow	-999	Tumor			f9d32382-1a10-5813-8aee-45c531d531ae	bc2fbefd-7cbf-5353-843b-85630fe82edf		
+sample	COGN440_cellLine_samp	Unknown	C74.9 : Adrenal gland, NOS	-999	Tumor	COG-N-440 cell line		fa0e1865-367c-5589-a9bb-5ca41d725f1c			db29e95a-5c6e-537d-8360-2183b555cbac
+sample	SKNSH	Unknown	C42.1 : Bone marrow	-999	Tumor	SK-N-SH cell line		fa5a8dec-b474-5702-9d93-a70efef5389f	1f21fb21-ee0b-5ad4-9f14-bbb961b262ee		
+sample	HU-FETAL-BRAIN	Unknown	C71.9 : Brain, NOS	-999	Normal	Human-fetal-brain cell line		fab833b2-eef2-517a-9978-1cb932b86e58	5e30e629-6a11-5969-b844-77344298ff08		
+sample	OS-32	Primary	C40.2 : Tibia	-999	Tumor			fabd1e55-1133-5ed1-af0c-96d1c97d4067	3fda0660-77b0-5ebd-a9a4-703ac4c81dd9		
+sample	SK-NEP-1_pdx_samp	Metastatic	C38.4 : Pleura, NOS	-999	Tumor			facc6353-b9be-54bf-90f4-c7e43f9442b0		58f471f7-6868-557d-8353-22176bad6943	
+sample	NB-1771_pdx_samp	Primary	C74.9 : Adrenal gland, NOS	-999	Tumor			fb0c06c3-d8a1-5be5-95eb-0b555164f88f		d9fae02c-6081-5a7b-81e1-7ec425e74fb4	
+sample	ICb-L1115ATRT_pdx_samp	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			fb7af76b-cab4-5359-8542-aa6f91be09d2		d930b14a-6b05-5438-bef5-1e7b05508024	
+sample	ALL-61_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			fb7b2f3d-7c88-517c-9f97-643ae9d99149		427621e3-bca6-5b7c-bd76-5b12d476f289	
+sample	SKNDZ_cellLine_samp	Unknown	C42.1 : Bone marrow	-999	Tumor	SK-N-DZ cell line		fc757148-7454-5df0-a6cb-ef888549de11			0561e2c2-81d5-575a-ad0c-a2296409273a
+sample	NBSD	Unknown	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	NBSD cell line		fcd0b04b-0744-5693-973c-832323feb480	513cfe88-6a75-5fed-94c1-7aef9f979f32		
+sample	BT-27	Unknown	C80 : UNKNOWN PRIMARY SITE	-999	Tumor			fd08904d-4dba-5c1e-9cfe-7501cb37fffb	577ad517-d529-5554-b52f-ddc9a69c9726		
+sample	OS-44_pdx_samp	Metastatic	C34.9 : Lung, NOS	-999	Tumor			fd5fda88-312e-580c-bb70-f48f7c5a0a1c		e27e0e9f-9882-59b3-a5e1-3ad83fcff184	
+sample	ALL-115_pdx_samp	Unknown	C42.1 : Bone marrow	-999	Tumor			fd73814b-e8c9-5a33-af84-9cf6cd4a1ffd		a8e0b475-ae1b-5443-8b11-64f06f255aa9	
+sample	ICb-1078MB	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			fd9172ea-d21a-5028-aced-b5c05f0988a0	1032976f-9e36-5bd5-889b-d0a2372eceb8		
+sample	OS-36-SJ_pdx_samp	Metastatic	C34.9 : Lung, NOS	-999	Tumor			fda8a8fb-0dfd-5e45-8194-4ec973ff9f92		2b00b821-9dc6-5575-bf1b-961cd22d6667	
+sample	NB1691	Unknown	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	NB1691 cell line		fe0a3634-4b19-5db3-9084-00082b321932	c01bdcb9-2ccd-5527-bec5-1c7234d2bd29		
+sample	COG-N-480x	Unknown	C42.1 : Bone marrow	-999	Tumor			fe515d71-c1ce-5d85-b967-8113a400d5e4	f6c89e46-5d0e-53bf-895a-8c5c7e3e2e7d		
+sample	MLL-8	Unknown	C42.1 : Bone marrow	-999	Tumor			feae9e26-c049-5f49-8909-5493d7efe00d	77101da4-275f-523d-9e8f-53189be45586		
+sample	OS-54-SJ_pdx_samp	Primary	C40.9 : Bone of limb, NOS	-999	Tumor			fec69978-56d4-5ef6-a73f-2ed9d883538e		2d54abf3-7b81-532d-b75e-7883f28d1f16	
+sample	ICb-1338MB_pdx_samp	Primary	C71.6 : Cerebellum, NOS	-999	Tumor			fef700ca-f1ff-50db-8040-c1e5e6b33fd4		9a2cc902-9501-556a-aa93-fc8448220804	
