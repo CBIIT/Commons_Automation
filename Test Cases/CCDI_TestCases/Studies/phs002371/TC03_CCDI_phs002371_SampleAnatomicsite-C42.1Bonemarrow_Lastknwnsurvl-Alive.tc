@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC03_CCDI_phs002371_SampleAnatomicsite-C42.1Bonemarrow</name>
+   <name>TC03_CCDI_phs002371_SampleAnatomicsite-C42.1Bonemarrow_Lastknwnsurvl-Alive</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>11d5762c-4848-49b0-9f1a-66ae78a2dcff</testCaseGuid>
 </TestCaseEntity>

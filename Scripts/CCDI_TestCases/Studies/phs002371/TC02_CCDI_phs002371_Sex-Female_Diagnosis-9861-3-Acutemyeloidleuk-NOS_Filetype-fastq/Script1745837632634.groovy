@@ -16,7 +16,7 @@ import internal.GlobalVariable as GlobalVariable
  */
 WebUI.closeBrowser()
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC01_CCDI_phs001437_DiagAnatomicsite-C40-2-Tibia_Sex-Female_Tumorclass-Primary.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC02_CCDI_phs002371_Sex-Female_Diagnosis-9861-3-Acutemyeloidleuk-NOS_Filetype-fastq.xlsx')
 CustomKeywords.'utilities.TestRunner.clickTab'('Bento/Banner/Bento_Warning_Continue_Btn')
 
 WebUI.waitForElementPresent(findTestObject('CCDI/Navbar/Explore_Menu'), 5)
@@ -28,8 +28,8 @@ CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Study_F
 WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Study_Facet/PHS_Accession/PHS_Accession_Ddn'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Study_Facet/PHS_Accession/PHS_Accession_Ddn')
 
-WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Study_Facet/PHS_Accession/phs001437_Chkbx'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Study_Facet/PHS_Accession/phs001437_Chkbx')
+WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Study_Facet/PHS_Accession/phs002371_Chkbx'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Study_Facet/PHS_Accession/phs002371_Chkbx')
 
 WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Demographics-Facet/SexAtBirth/Sex_Ddn'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Demographics-Facet/SexAtBirth/Sex_Ddn')
@@ -37,20 +37,20 @@ CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Demogra
 WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Demographics-Facet/SexAtBirth/Female_Chkbx'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Demographics-Facet/SexAtBirth/Female_Chkbx')
 
-WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Diagnosis-Facet/Anatomic_Site/AnatomicSite-Ddn'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Diagnosis-Facet/Anatomic_Site/AnatomicSite-Ddn')
+WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Diagnosis-Facet/Diagnosis-Facet'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Diagnosis-Facet/Diagnosis-Facet')
 
-WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Diagnosis-Facet/Anatomic_Site/C40.2Tibia-Chkbx'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Diagnosis-Facet/Anatomic_Site/C40.2Tibia-Chkbx')
+WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Diagnosis-Facet/Diagnosis/Diagnosis_Ddn'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Diagnosis-Facet/Diagnosis/Diagnosis_Ddn')
 
-WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Samples_Facet/Samples_Facet'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Samples_Facet/Samples_Facet')
+WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Diagnosis-Facet/Diagnosis/98613_Acutemyloidlukemia_Chkbx'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Diagnosis-Facet/Diagnosis/98613_Acutemyloidlukemia_Chkbx')
 
-WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Samples_Facet/SampleTumorClassification/SampleTumorClassif_Ddn'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Samples_Facet/SampleTumorClassification/SampleTumorClassif_Ddn')
+WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/DataCategory_Facet/FileType/FileType_Ddn'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/DataCategory_Facet/FileType/FileType_Ddn')
 
-WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Samples_Facet/SampleTumorClassification/Primary_Chkbx'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Samples_Facet/SampleTumorClassification/Primary_Chkbx')
+WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/DataCategory_Facet/FileType/fastq_Chkbx'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/DataCategory_Facet/FileType/fastq_Chkbx')
 
 //Read Statbar
 CustomKeywords.'utilities.TestRunner.readStatBarCCDIhub'('CCDI/Statbar/Studies_Cnt', 'CCDI/Statbar/Participants_Cnt', 
@@ -64,7 +64,7 @@ CustomKeywords.'utilities.TestRunner.multiFunction'('CCDI', GlobalVariable.G_Sta
 	'TsvDataParticipants', GlobalVariable.G_QueryParticipantsTab)
 
 
-////clicking the Diagnosis tab
+//clicking the Diagnosis tab
 //WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Diagnosis_ResultsTab'), 5)
 //CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Diagnosis_ResultsTab')
 //CustomKeywords.'utilities.TestRunner.multiFunction'('CCDI', GlobalVariable.G_StatBar_Participants, 'CCDI/ExplorePage/CCDI_Diagnosis_Tbl',
