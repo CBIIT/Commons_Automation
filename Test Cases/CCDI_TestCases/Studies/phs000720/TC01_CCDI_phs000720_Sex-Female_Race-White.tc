@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC01_CCDI_phs000720_Sex-Female_Race-White</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>6bd1d002-1b0a-4641-ac74-2040dfa231ca</testCaseGuid>
-</TestCaseEntity>
