@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Anatomic site_C62.9 : Testis, NOS&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Diagnosis Anatomic site_C62.9 : Testis, NOS&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Anatomic site_C62.9 : Testis, NOS&quot;]</value>
-      <webElementGuid>ed62e194-399e-4d79-9126-79f1a093b29f</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Diagnosis Anatomic site_C62.9 : Testis, NOS&quot;]</value>
+      <webElementGuid>eb0dcef9-f4ac-449c-bbec-4d369229435e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
