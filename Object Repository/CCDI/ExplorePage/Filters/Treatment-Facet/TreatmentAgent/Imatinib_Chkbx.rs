@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>C22.0-Liver-Chkbx</name>
+   <name>Imatinib_Chkbx</name>
    <tag></tag>
-   <elementGuidId>5a80119a-a1da-4c09-bbe4-d743166d3802</elementGuidId>
+   <elementGuidId>0c388fb7-ddc3-4355-a5c1-42f98755b9de</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Diagnosis Anatomic site_C22.0 : Liver&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Treatment Agent_Imatinib&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Diagnosis Anatomic site_C22.0 : Liver&quot;]</value>
-      <webElementGuid>3a5ccc90-c119-475b-8153-e773c63fc41a</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Treatment Agent_Imatinib&quot;]</value>
+      <webElementGuid>01dddc03-5106-4b52-a694-003959622b4d</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

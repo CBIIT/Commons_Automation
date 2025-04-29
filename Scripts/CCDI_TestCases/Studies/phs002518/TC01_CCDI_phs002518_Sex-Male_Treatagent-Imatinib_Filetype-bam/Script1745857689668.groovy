@@ -1,5 +1,7 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+
 import internal.GlobalVariable as GlobalVariable
 
 /*This test script:
@@ -16,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
  */
 WebUI.closeBrowser()
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC03_CCDI_phs002431_Diag-80203-3CarcinomaundiffNOS_Treatagnt-Gemcit_Smpltumrstat-Tumor_Tumrclass-Metastatic.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC01_CCDI_phs002518_Sex-Male_Treatagent-Imatinib_Filetype-bam.xlsx')
 CustomKeywords.'utilities.TestRunner.clickTab'('Bento/Banner/Bento_Warning_Continue_Btn')
 
 WebUI.waitForElementPresent(findTestObject('CCDI/Navbar/Explore_Menu'), 5)
@@ -28,14 +30,17 @@ CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Study_F
 WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Study_Facet/PHS_Accession/PHS_Accession_Ddn'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Study_Facet/PHS_Accession/PHS_Accession_Ddn')
 
-WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Study_Facet/PHS_Accession/phs002431_Chkbx'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Study_Facet/PHS_Accession/phs002431_Chkbx')
+WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Study_Facet/PHS_Accession/phs002518_Chkbx'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Study_Facet/PHS_Accession/phs002518_Chkbx')
 
-WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Diagnosis-Facet/Diagnosis/Diagnosis_Ddn'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Diagnosis-Facet/Diagnosis/Diagnosis_Ddn')
+WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Demographics-Facet/Demographics_Facet'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Demographics-Facet/Demographics_Facet')
 
-//WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Diagnosis-Facet/Diagnosis/8020_3CarcinomaundifNOS_Chkbx'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Diagnosis-Facet/Diagnosis/8020_3CarcinomaundifNOS_Chkbx')
+WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Demographics-Facet/SexAtBirth/Sex_Ddn'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Demographics-Facet/SexAtBirth/Sex_Ddn')
+
+WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Demographics-Facet/SexAtBirth/Male_Chkbx'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Demographics-Facet/SexAtBirth/Male_Chkbx')
 
 WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Treatment-Facet/Treatment-Facet'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Treatment-Facet/Treatment-Facet')
@@ -43,30 +48,29 @@ CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Treatme
 WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Treatment-Facet/TreatmentAgent/TreatmentAgent-Ddn'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Treatment-Facet/TreatmentAgent/TreatmentAgent-Ddn')
 
-WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Treatment-Facet/TreatmentAgent/Gemcitabibe_Chkbx'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Treatment-Facet/TreatmentAgent/Gemcitabibe_Chkbx')
+WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Treatment-Facet/TreatmentAgent/Imatinib_Chkbx'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Treatment-Facet/TreatmentAgent/Imatinib_Chkbx')
 
-WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Samples_Facet/SampleTumorClassification/SampleTumorClassif_Ddn'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Samples_Facet/SampleTumorClassification/SampleTumorClassif_Ddn')
+WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/DataCategory_Facet/DataCategory_Facet'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/DataCategory_Facet/DataCategory_Facet')
 
-WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Samples_Facet/SampleTumorClassification/Metastatic_Chkbx'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Samples_Facet/SampleTumorClassification/Metastatic_Chkbx')
+WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/DataCategory_Facet/FileType/FileType_Ddn'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/DataCategory_Facet/FileType/FileType_Ddn')
 
-WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Samples_Facet/SampleTumorStatus/SampleTumorStatus_Ddn'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Samples_Facet/SampleTumorStatus/SampleTumorStatus_Ddn')
+WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/DataCategory_Facet/FileType/bam_Chkbx'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/DataCategory_Facet/FileType/bam_Chkbx')
 
-WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Samples_Facet/SampleTumorStatus/Tumor_Chkbx'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Samples_Facet/SampleTumorStatus/Tumor_Chkbx')
+
 
 //Read Statbar
-CustomKeywords.'utilities.TestRunner.readStatBarCCDIhub'('CCDI/Statbar/Studies_Cnt', 'CCDI/Statbar/Participants_Cnt',
-	'CCDI/Statbar/Samples_Cnt', 'CCDI/Statbar/Files_Cnt')
+CustomKeywords.'utilities.TestRunner.readStatBarCCDIhub'('CCDI/Statbar/Studies_Cnt', 'CCDI/Statbar/Participants_Cnt', 
+    'CCDI/Statbar/Samples_Cnt', 'CCDI/Statbar/Files_Cnt')
 
 //Participants tab
 WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Participants_ResultsTab'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Participants_ResultsTab')
 CustomKeywords.'utilities.TestRunner.multiFunction'('CCDI', GlobalVariable.G_StatBar_Participants, 'CCDI/ExplorePage/CCDI_Participants_Tbl',
-	'CCDI/ExplorePage/CCDI_Participants_TblHdr', 'CCDI/ExplorePage/CCDI_Participants_TblNextBtn', GlobalVariable.G_WebTabnameParticipants,
+	'CCDI/ExplorePage/CCDI_Participants_TblHdr', 'CCDI/ExplorePage/CCDI_Participants_TblNextBtn', GlobalVariable.G_WebTabnameParticipants,	
 	'TsvDataParticipants', GlobalVariable.G_QueryParticipantsTab)
 
 
@@ -76,25 +80,25 @@ CustomKeywords.'utilities.TestRunner.multiFunction'('CCDI', GlobalVariable.G_Sta
 //CustomKeywords.'utilities.TestRunner.multiFunction'('CCDI', GlobalVariable.G_StatBar_Participants, 'CCDI/ExplorePage/CCDI_Diagnosis_Tbl',
 //	'CCDI/ExplorePage/CCDI_Diagnosis_TblHdr', 'CCDI/ExplorePage/CCDI_Diagnosis_TblNextBtn', GlobalVariable.G_WebTabnameDiagnosis,
 //	'TsvDataDiagnosis', GlobalVariable.G_QueryDiagnosisTab)
-//
-//
-//////clicking the Studies tab - Query needs to be fixed
-////WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Studies_ResultsTab'), 5)
-////CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Studies_ResultsTab')
-////CustomKeywords.'utilities.TestRunner.multiFunction'('CCDI', GlobalVariable.G_StatBar_Studies, 'CCDI/ExplorePage/CCDI_Studies_Tbl',
-////	'CCDI/ExplorePage/CCDI_Studies_TblHdr', 'CCDI/ExplorePage/CCDI_Studies_TblNextBtn', GlobalVariable.G_WebTabnameStudies,
-////	'TsvDataStudies', GlobalVariable.G_QueryStudiesTab)
+
+
+//clicking the Studies tab
+//WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Studies_ResultsTab'), 5)
+//CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Studies_ResultsTab')
+//CustomKeywords.'utilities.TestRunner.multiFunction'('CCDI', GlobalVariable.G_StatBar_Studies, 'CCDI/ExplorePage/CCDI_Studies_Tbl',
+//	'CCDI/ExplorePage/CCDI_Studies_TblHdr', 'CCDI/ExplorePage/CCDI_Studies_TblNextBtn', GlobalVariable.G_WebTabnameStudies,	
+//	'TsvDataStudies', GlobalVariable.G_QueryStudiesTab)
 
 
 //clicking the Samples tab
 WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Samples_ResultsTab'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Samples_ResultsTab')
 CustomKeywords.'utilities.TestRunner.multiFunction'('CCDI', GlobalVariable.G_StatBar_Samples, 'CCDI/ExplorePage/CCDI_Samples_Tbl',
-	'CCDI/ExplorePage/CCDI_Samples_TblHdr', 'CCDI/ExplorePage/CCDI_Samples_TblNextBtn', GlobalVariable.G_WebTabnameSamples,
+	'CCDI/ExplorePage/CCDI_Samples_TblHdr', 'CCDI/ExplorePage/CCDI_Samples_TblNextBtn', GlobalVariable.G_WebTabnameSamples,	
 	'TsvDataSamples', GlobalVariable.G_QuerySamplesTab)
  
 
-//clicking the Files tab - Query needs to be fixed
+//clicking the Files tab
 WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Files_ResultsTab'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Files_ResultsTab')
 CustomKeywords.'utilities.TestRunner.multiFunction'('CCDI', GlobalVariable.G_StatBar_Files, 'CCDI/ExplorePage/CCDI_Files_Tbl',

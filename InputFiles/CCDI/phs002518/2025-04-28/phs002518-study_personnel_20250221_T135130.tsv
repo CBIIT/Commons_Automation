@@ -1,0 +1,2 @@
+type	study_personnel_id	personnel_name	personnel_type	email_address	institution	orcid	crdc_id	id	study.id
+study_personnel	phs002518_pers1	Amie E. Hwang, PhD	PI	amiehwan@usc.edu	University of Southern California	https://orcid.org/0000-0002-5538-131X		de8661b3-21c4-505b-8405-aae3a00b2e3f	808c3a85-cf8c-52e8-8cfc-e24f9dc85759

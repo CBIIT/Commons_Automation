@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>C22.0-Liver-Chkbx</name>
+   <name>SurgicalProcedure_Chkbx</name>
    <tag></tag>
-   <elementGuidId>5a80119a-a1da-4c09-bbe4-d743166d3802</elementGuidId>
+   <elementGuidId>9f206faa-06e7-4388-ae35-bb156b207a93</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Diagnosis Anatomic site_C22.0 : Liver&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Treatment Type_Surgical Procedure&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Diagnosis Anatomic site_C22.0 : Liver&quot;]</value>
-      <webElementGuid>3a5ccc90-c119-475b-8153-e773c63fc41a</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Treatment Type_Surgical Procedure&quot;]</value>
+      <webElementGuid>f4c7d278-47f9-44e7-9513-dc54201fad4b</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
