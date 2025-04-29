@@ -1,0 +1,31 @@
+type	molecular_test_id	anatomic_site	age_at_molecular_test	gene_symbol	molecular_analysis_method	laboratory_test_name	test_result_text	test_result_numeric	test_unit	aa_change	antigen	blood_test_normal_range_upper	blood_test_normal_range_lower	cell_count	copy_number	cytoband	exon	gene_mutation_abnormality_type	histone_family	histone_variant	intron	loci_abnormal_count	loci_count	locus	mismatch_repair_mutation	pathogenicity	ploidy	second_exon	second_gene_symbol	specialized_molecular_test	test_analyte_type	transcript	variant_origin	variant_type	zygosity	id	participant.id
+molecular_test	HTA4_5_mol_test	C80 : UNKNOWN PRIMARY SITE	-999	KMT2A	FISH		Positive																													023003a7-e1bf-5b45-86aa-0a75b2e63672	0ae2fd34-f125-5b73-9dfa-84d683b5ddd7
+molecular_test	HTA4_4_mol_test	C80 : UNKNOWN PRIMARY SITE	-999	KMT2A	FISH		Positive																													04166f67-b28d-5835-9042-756864e853dd	c30a6b9b-3712-5428-8425-eddc89671911
+molecular_test	HTA4_7_mol_test	C80 : UNKNOWN PRIMARY SITE	-999	KMT2A	FISH		Positive																													0c5c20ad-eb83-5590-ae50-ab55fbb8fedb	2d17e784-4063-58d4-8b27-57f0ea2bc227
+molecular_test	HTA4_15_mol_test	C80 : UNKNOWN PRIMARY SITE	-999	KMT2A	FISH		Positive																													1244b93f-ba34-549c-92c7-4903b6d3f680	986fe07c-79f2-57d5-88e6-cad0fc77cadb
+molecular_test	HTA4_18_mol_test	C80 : UNKNOWN PRIMARY SITE	-999	KMT2A	FISH		Positive																													18e790b7-d6d6-5707-ad21-96ededf5077f	2fe35215-d5ed-531b-bd91-fb2840a45f54
+molecular_test	HTA4_30_mol_test	C80 : UNKNOWN PRIMARY SITE	-999	Not Applicable	Not Applicable		Not Applicable																													19949a65-0e0a-5f1c-903b-e5de05979e95	0afc474d-fcd7-5958-a718-8a8d1da778e4
+molecular_test	HTA4_27_mol_test	C80 : UNKNOWN PRIMARY SITE	-999	Not Applicable	Not Applicable		Not Applicable																													1b7f2226-a5da-55f0-8696-82ec2088f405	a59a2ff3-f33e-5ce7-bda9-b588fd2e9559
+molecular_test	HTA4_16_mol_test	C80 : UNKNOWN PRIMARY SITE	-999	KMT2A	FISH		Positive																													1db2e27a-72b0-5f7f-9bee-c25552cbf1ff	7c2a6ed4-1136-5700-a2b7-1012db51d181
+molecular_test	HTA4_23_mol_test	C80 : UNKNOWN PRIMARY SITE	-999	KMT2A	FISH		Positive																													27ea07f6-1f6d-527d-94ad-5c349205f270	facd7af0-9ca8-58e0-95f8-3ccb149edd9c
+molecular_test	HTA4_8_mol_test	C80 : UNKNOWN PRIMARY SITE	-999	KMT2A	FISH		Positive																													29ec06bd-aad3-55b3-a460-f4298514ec45	9c3a8c7b-7200-55e4-a9b5-9fd0e9a23154
+molecular_test	HTA4_1_mol_test	C80 : UNKNOWN PRIMARY SITE	-999	KMT2A	FISH		Positive																													2c1a8c6e-2172-5f85-9d37-3859ed96212a	206c3df1-6a66-5805-9256-db321b4f1229
+molecular_test	HTA4_9_mol_test	C80 : UNKNOWN PRIMARY SITE	-999	KMT2A	FISH		Positive																													343f8242-f0c6-5c2b-8361-04c7216adadb	17d80e7b-c01a-5605-a929-6aaf4ed2812e
+molecular_test	HTA4_26_mol_test	C80 : UNKNOWN PRIMARY SITE	-999	Not Applicable	Not Applicable		Not Applicable																													46bee564-d873-5a70-aef6-d3b4cdf617ec	951346f3-f945-5b83-8ae7-09dd1e0a10e2
+molecular_test	HTA4_11_mol_test	C80 : UNKNOWN PRIMARY SITE	-999	KMT2A	FISH		Positive																													49f734e0-7ac7-59ec-8005-5438b3753445	48e66daf-ecc2-5bda-8116-0d0e226f8295
+molecular_test	HTA4_14_mol_test	C80 : UNKNOWN PRIMARY SITE	-999	KMT2A	FISH		Positive																													5dd9acde-ee2d-549f-8d9a-46a6eb51fc25	5a0d1baf-d3d6-5440-be4f-a9512219869f
+molecular_test	HTA4_28_mol_test	C80 : UNKNOWN PRIMARY SITE	-999	Not Applicable	Not Applicable		Not Applicable																													6f3c65dc-9b07-5df0-9005-bf52bfc18a5a	4fcf57a0-d583-5de2-80d4-62e55f7daf11
+molecular_test	HTA4_12_mol_test	C80 : UNKNOWN PRIMARY SITE	-999	KMT2A	FISH		Positive																													72fd8f17-d90f-573a-853a-f0a029cdc8ec	5ff65582-245c-5bd5-875c-7b310d6f6b49
+molecular_test	HTA4_20_mol_test	C80 : UNKNOWN PRIMARY SITE	-999	KMT2A	FISH		Positive																													7f0ff5a8-aa22-5de3-9e2b-d70045c72b05	d7914477-5dde-5b69-8f64-1780a811b0b6
+molecular_test	HTA4_6_mol_test	C80 : UNKNOWN PRIMARY SITE	-999	KMT2A	FISH		Positive																													80165cda-950e-53b4-b67c-5c58a9156428	68055cda-9479-5f59-8be5-f680e87039c8
+molecular_test	HTA4_24_mol_test	C80 : UNKNOWN PRIMARY SITE	-999	KMT2A	FISH		Positive																													8383b4cf-9dc3-53be-9eda-3c5df756810a	ae790881-7bd1-53ce-8346-f49446cb6270
+molecular_test	HTA4_3_mol_test	C80 : UNKNOWN PRIMARY SITE	-999	KMT2A	FISH		Positive																													86279e31-733c-5280-a8c3-4e3a4acf07db	f6f62c73-1671-59a4-9551-e7cc8c64fac0
+molecular_test	HTA4_13_mol_test	C80 : UNKNOWN PRIMARY SITE	-999	KMT2A	FISH		Positive																													8dde8af1-3e6f-5baa-bfc8-dd7b27ee1070	c1df72d4-4280-5dd8-b439-07dd63f2255b
+molecular_test	HTA4_21_mol_test	C80 : UNKNOWN PRIMARY SITE	-999	KMT2A	FISH		Positive																													90742524-c491-537b-925d-f81d59c259f0	5a3fe970-14c0-5560-b105-372f12153444
+molecular_test	HTA4_17_mol_test	C80 : UNKNOWN PRIMARY SITE	-999	KMT2A	FISH		Positive																													a4663da9-093b-53dd-941f-8bdf5c00a4cc	73d0a2c7-0002-5e74-9af7-27b7ec0bd49a
+molecular_test	HTA4_22_mol_test	C80 : UNKNOWN PRIMARY SITE	-999	KMT2A	FISH		Positive																													a56bcc8b-95ab-543e-8fb8-29245db74bad	8bca8830-2713-50fd-bf93-f9234d133659
+molecular_test	HTA4_25_mol_test	C80 : UNKNOWN PRIMARY SITE	-999	KMT2A	FISH		Positive																													ac2382d1-0385-5abc-a354-18efa3727176	d9d47228-bf1a-5a32-99fc-9eb126ec6db1
+molecular_test	HTA4_10_mol_test	C80 : UNKNOWN PRIMARY SITE	-999	KMT2A	FISH		Positive																													c08c09c3-c4fa-52d3-bf65-86a6ca9f7583	83ec2d26-0c9c-53d5-acc4-006342fea5e9
+molecular_test	HTA4_2_mol_test	C80 : UNKNOWN PRIMARY SITE	-999	KMT2A	FISH		Positive																													ceb1cc02-25ca-5318-85e7-f9d05d07bdd0	a2435b75-2bd6-5464-a251-d8bef74589f0
+molecular_test	HTA4_29_mol_test	C80 : UNKNOWN PRIMARY SITE	-999	Not Applicable	Not Applicable		Not Applicable																													ea8c54c3-24df-5e1f-8198-3b35515c47f4	4e03d5a5-7c40-566e-b1b5-d15ca1a561aa
+molecular_test	HTA4_19_mol_test	C80 : UNKNOWN PRIMARY SITE	-999	KMT2A	FISH		Positive																													fb348ee4-14e5-54a7-a87b-f470c01d2ab4	6ae09bb9-4588-54b0-9235-2cb134600ef5

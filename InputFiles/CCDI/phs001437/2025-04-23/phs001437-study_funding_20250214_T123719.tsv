@@ -1,0 +1,16 @@
+type	study_funding_id	funding_agency	grant_id	funding_source_program_name	id	study.id
+study_funding	PPTC_funding_05	NIH NCI	U01CA199297		24d1155a-4247-5ee3-8589-afe403629233	20a0909b-7fc9-5e23-88b4-9b59fdea5254
+study_funding	PPTC_funding_04	NIH NCI	U01CA199221		3cdedcf4-74cb-5357-abff-a6228f733f5b	20a0909b-7fc9-5e23-88b4-9b59fdea5254
+study_funding	PPTC_funding_11	Giulio D’Angio Endowed Chair	PPTC		5db7bffc-affd-5e3c-8bb0-a6e4573a3518	20a0909b-7fc9-5e23-88b4-9b59fdea5254
+study_funding	PPTC_funding_13	National Health and Medical Research Council of Australia	APP1157871		6c13fc4d-e5b7-59ed-9d54-4d53e07bf5b2	20a0909b-7fc9-5e23-88b4-9b59fdea5254
+study_funding	PPTC_funding_08	NIH NCI	R01CA221957		6e20978f-1856-57cb-b2f1-653bee72cf25	20a0909b-7fc9-5e23-88b4-9b59fdea5254
+study_funding	PPTC_funding_01	NIH NCI	U01CA199287		726ef2dd-541b-5a59-9d58-874c30b8b157	20a0909b-7fc9-5e23-88b4-9b59fdea5254
+study_funding	PPTC_funding_03	NIH NCI	U01CA199288		8f7c9e52-31b3-5cd9-be10-14c863e4d5d9	20a0909b-7fc9-5e23-88b4-9b59fdea5254
+study_funding	PPTC_funding_06	NIH NCI	U01CA199222		9efeb233-6bf8-5061-b3f0-18f3d1da8ccf	20a0909b-7fc9-5e23-88b4-9b59fdea5254
+study_funding	PPTC_funding_02	NIH NCI	U01CA199000		a20a1ce8-614e-5455-a3cc-29482fdb6ee8	20a0909b-7fc9-5e23-88b4-9b59fdea5254
+study_funding	PPTC_funding_07	NIH NCI	R35CA220500		ab56b782-f779-5bf6-b460-9686f1a4d3b8	20a0909b-7fc9-5e23-88b4-9b59fdea5254
+study_funding	PPTC_funding_10	NIH NINDS	R01NS09541101A1		b36a065b-acce-52b9-a8ff-764a649dc6bc	20a0909b-7fc9-5e23-88b4-9b59fdea5254
+study_funding	PPTC_funding_09	Alex's Lemonade Stand Foundation	PPTC		c797b8be-5ffe-5add-9619-c6ef868c9eaa	20a0909b-7fc9-5e23-88b4-9b59fdea5254
+study_funding	PPTC_funding_15	Cancer Council New South Wales	PG16-01		ce6feb86-1f16-5c6f-93cd-1041a201fa45	20a0909b-7fc9-5e23-88b4-9b59fdea5254
+study_funding	PPTC_funding_12	National Health and Medical Research Council of Australia	APP1059804		def216ed-eb85-5843-8665-84850bfa7f6e	20a0909b-7fc9-5e23-88b4-9b59fdea5254
+study_funding	PPTC_funding_14	National Health and Medical Research Council of Australia	APP1091261		e9d8ff54-0e62-59fc-a57d-3cb571f46215	20a0909b-7fc9-5e23-88b4-9b59fdea5254

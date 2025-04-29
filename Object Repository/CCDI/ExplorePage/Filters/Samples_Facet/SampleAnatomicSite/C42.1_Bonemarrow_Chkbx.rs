@@ -8,6 +8,8 @@
       <entry>
          <key>BASIC</key>
          <value>//*[@id=&quot;checkbox_Sample Anatomic Site_C42.1 : Bone marrow&quot;]</value>
+ c5b3d902e47bcd63a7408257e727f83d22af12be:Object Repository/CCDI/ExplorePage/Filters/Samples_Facet/SampleAnatomicSite/C42.1_Bonemarrow_Chkbx.rs
+
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -19,6 +21,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;checkbox_Sample Anatomic Site_C42.1 : Bone marrow&quot;]</value>
-      <webElementGuid>c5f7ce0d-1a9c-4a8a-a860-574718b9b651</webElementGuid>
+      <webElementGuid>38386c76-e47b-4536-b6f5-15ab10992481</webElementGuid>
+ c5b3d902e47bcd63a7408257e727f83d22af12be:Object Repository/CCDI/ExplorePage/Filters/Samples_Facet/SampleAnatomicSite/C42.1_Bonemarrow_Chkbx.rs
    </webElementProperties>
 </WebElementEntity>
