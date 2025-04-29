@@ -3,11 +3,11 @@
    <description></description>
    <name>DataCategory_Ddn</name>
    <tag></tag>
-   <elementGuidId>498fe211-5813-4f17-bd0a-d5bcaa21a98e</elementGuidId>
+   <elementGuidId>33456ae2-72ee-4aed-b9d0-21c8dd730740</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@id=&quot;Data Category&quot;])[2]</value>
+         <value>(//*[@id=&quot;Data Category&quot;])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@id=&quot;Data Category&quot;])[2]</value>
-      <webElementGuid>5010c022-591f-4b33-8bed-459f6ddec613</webElementGuid>
+      <value>(//*[@id=&quot;Data Category&quot;])[1]</value>
+      <webElementGuid>59c4cb89-4cf6-4e9e-954a-8531f7684e4a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

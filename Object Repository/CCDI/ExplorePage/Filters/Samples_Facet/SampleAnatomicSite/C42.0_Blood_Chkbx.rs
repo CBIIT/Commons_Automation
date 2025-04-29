@@ -19,6 +19,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;checkbox_Sample Anatomic Site_C42.0 : Blood&quot;]</value>
-      <webElementGuid>cfa3c9b2-ae7b-49e9-b056-c5dc7ce5ee3b</webElementGuid>
+      <webElementGuid>212dc1b0-e7ae-4163-bcc1-eb492ac7a50d</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
