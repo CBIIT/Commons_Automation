@@ -3,11 +3,11 @@
    <description></description>
    <name>Treatment-Facet</name>
    <tag></tag>
-   <elementGuidId>cf0e8dc1-5d42-4509-8e89-72b79ff2e65a</elementGuidId>
+   <elementGuidId>e0137f42-915c-4330-b00f-3b8cd4a7e25c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@id=&quot;[object Object]&quot;])[3]</value>
+         <value>//*[text()='Treatment']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@id=&quot;[object Object]&quot;])[3]</value>
-      <webElementGuid>3bfed32f-5227-402e-afea-59708838e160</webElementGuid>
+      <value>//*[text()='Treatment']</value>
+      <webElementGuid>4e1475f5-76e4-4253-b7db-3ff6536c44f3</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

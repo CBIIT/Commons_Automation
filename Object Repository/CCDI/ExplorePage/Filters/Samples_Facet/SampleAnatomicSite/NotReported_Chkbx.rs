@@ -19,6 +19,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;checkbox_Sample Anatomic Site_Not Reported&quot;]</value>
-      <webElementGuid>2eb8dd7c-8fcf-4677-a90f-8c4289cb6be7</webElementGuid>
+      <webElementGuid>0326c737-cf36-479d-9a96-38678b9e435c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

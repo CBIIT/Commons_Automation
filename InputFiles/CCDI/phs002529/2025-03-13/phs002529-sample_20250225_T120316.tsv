@@ -1,0 +1,393 @@
+type	sample_id	tumor_classification	anatomic_site	participant_age_at_collection	sample_tumor_status	sample_description	crdc_id	id	participant.id	pdx.id	cell_line.id
+sample	TB-000142-D1TNBL-01	Unknown	C74.9 : Adrenal gland, NOS	-999	Tumor			01320259-610d-5bbf-8fc3-dd0fd0fdfaaf	7699fe18-11a7-52da-aea4-6744c9dcfd76		
+sample	TB-000011-D1WTLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			020dabca-2b0b-596f-b241-1fb66f20af6b	07b6122d-f2ef-5549-b6c3-143ab389784a		
+sample	TB-000033-D1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			020e79d3-baf9-5378-b45d-02d3bdf2d762	77d24fb4-491f-51ae-b5bd-93a4a541a55f		
+sample	TB-000111-D1TNBL-01	Unknown	C74.9 : Adrenal gland, NOS	-999	Tumor			02a60b6c-c42e-5da2-a70e-c0fc5ce1f34d	a9bbde65-a39d-5487-9925-440cc22af029		
+sample	TB-000195-D1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			03337608-df2f-573f-9b86-c1d0e7523e84	02f0fa89-e080-5813-bac3-f27f7d091c83		
+sample	TB-000172-M1BBLL-01	Unknown	C42.0 : Blood	-999	Normal			03b25a9d-7528-5877-834e-dc3f181c1383	d64f91b4-d683-51b0-9684-501a89386a32		
+sample	TB-000033-M1BBLL-01	Unknown	C42.0 : Blood	-999	Normal			059be0aa-badd-53b0-b6f8-bef4705500d7	77d24fb4-491f-51ae-b5bd-93a4a541a55f		
+sample	TB-000193-D1BBLL-01	Unknown	C42.0 : Blood	-999	Tumor			0637fb53-075a-5ad3-9a40-c0eba4d6d363	bd568f11-21de-5c8e-9df1-06ce17081e2d		
+sample	TB-000103-D1TPNT-01	Unknown	C41.9 : Bone, NOS	-999	Tumor			06858ab2-669f-5066-b51a-68ea4240575a	9025b327-d587-5b9b-8b1c-6c299ed34dfd		
+sample	TB-000140-D1TGCT-01	Unknown	C41.9 : Bone, NOS	-999	Tumor			0840aedc-b265-59c6-8f1c-ad439415524b	0d0856ce-5f56-5fb6-a82c-7c6c12cea489		
+sample	TB-000096-M1WGNL-01	Unknown	C42.1 : Bone marrow	-999	Normal			08850d3a-6153-5fbc-b3b3-240853f0ba5f	de7a85ce-5a78-50ba-8340-01d34cac8942		
+sample	TB-000140-M1BGCT-01	Unknown	C42.0 : Blood	-999	Normal			08cb999d-3c3a-5bd3-8a6b-f3f59dfc7db0	0d0856ce-5f56-5fb6-a82c-7c6c12cea489		
+sample	TB-000107-D1TACT-01	Unknown	C74.9 : Adrenal gland, NOS	-999	Tumor			08f3979e-cbe8-5cd4-bd43-80a00d875d05	0dac0c3a-c7dd-55ff-ac36-9f1e7d3f173e		
+sample	TB-000108-M1WAML-01	Unknown	C42.1 : Bone marrow	-999	Normal			0993f917-94b7-581f-838f-3d9ca083428c	70dcaaad-71db-5bc6-8e8e-c5ef242537a5		
+sample	TB-000133-D1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			09b25c06-553d-5b47-9d76-0cc9ee026efb	673350f3-80a2-5d42-aa6d-97852a1054de		
+sample	TB-000168-D1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			0a18fa5c-b9de-5a2a-9329-ab4f4029eded	9f813efe-6be0-5a3b-8ffe-e082ec605961		
+sample	TB-000016-M1BAML-01	Unknown	C42.0 : Blood	-999	Normal			0a44e56d-2931-5219-b9db-7e7c2f83f157	8ed89651-c600-5f5d-9d4a-534df63f4395		
+sample	TB-000081-R1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			0a6635c2-272b-5b3f-a4bf-0eef37da09da	055916cf-09ff-5cc3-8926-e80814d220be		
+sample	TB-000163-M1BOST-01	Unknown	C42.0 : Blood	-999	Normal			0afcb475-4502-5376-8446-09a541c447ec	d2fbbcbd-f6b6-5fb2-9932-6fba4f900077		
+sample	TB-000161-D1WLCL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			0b96f886-e2e4-5cc2-a453-61956274c6a3	163b0ed4-b305-54ee-89cd-9f0928dd57b1		
+sample	TB-000118-M1BRMS-01	Unknown	C42.0 : Blood	-999	Normal			0bde39a5-5f04-5e0b-94d5-9d063f258645	f41d1909-a032-5d78-a31f-11165adc4f2a		
+sample	TB-000015-D1BAGL-01	Unknown	C42.0 : Blood	-999	Tumor			0d8108c7-89ff-5ea4-8679-17cfb2fcc6b0	f3ba8374-8e73-53a0-93ca-8728deca72c3		
+sample	TB-000205-M1UBLL-01	Unknown	C06.0 : Cheek mucosa	-999	Normal			0e2a0039-cb7f-531e-80a3-c2676691b007	3651229c-374d-5c93-ae7c-faa047fa3610		
+sample	TB-000036-R1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			0e9e9d57-ec27-5b74-ab4f-e68fa8bdf9e4	77ed7484-41d4-5ac4-96b7-c7e9f5d27424		
+sample	TB-000120-M1BBLL-01	Unknown	C42.0 : Blood	-999	Normal			0ee684f0-ee4d-5597-ba09-2acb4da789e0	93169f23-83e4-5cbe-9d18-7a6e738e06fc		
+sample	TB-000187-D1TGNB-01	Unknown	C74.9 : Adrenal gland, NOS	-999	Tumor			0f88e37a-8da8-5f3a-938a-3a1b8403c531	ea47bba7-9900-5fb9-b92d-9affce395b66		
+sample	TB-000202-D1THBA-01	Unknown	C22.0 : Liver	-999	Tumor			1033df79-0945-513c-b7f9-532b3c9202a5	3f9dffbe-0828-5dd5-a5af-80a6e125a607		
+sample	TB-000081-M2WBLL-01	Unknown	C42.1 : Bone marrow	-999	Normal			1058666a-e876-5aaa-ac4f-b85424a6b3fe	055916cf-09ff-5cc3-8926-e80814d220be		
+sample	TB-000080-D1TOVR-01	Unknown	C56.9 : Ovary	-999	Tumor			10de9d5f-d707-5019-98a7-91c9f9663253	f16007aa-c432-5175-8e0e-a33567bd7db4		
+sample	TB-000097-M1BGCT-01	Unknown	C42.0 : Blood	-999	Normal			10f7b495-54c0-5991-a1a9-fc1efb471c05	f3807cdd-707a-5114-9099-243dbf95ad26		
+sample	TB-000121-D1WAML-01	Unknown	C42.1 : Bone marrow	-999	Tumor			12916c4f-b8fb-5df7-a7a1-292cf9aa6d98	1d4ce88c-b707-57dc-b961-5d1023310474		
+sample	TB-000004-R1WPLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			135c83b7-ccfa-547d-8db1-3839d90fbe94	66b4bb5a-e7fa-556f-b695-a6a37b836d64		
+sample	TB-000049-M1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Normal			1415203c-4578-527e-ba36-fadb0dc40110	a5e00cb7-8cd6-5a31-b18e-111e2e38b7d5		
+sample	TB-000013-D1BTLL-01	Unknown	C42.0 : Blood	-999	Tumor			14162cc3-d2f2-54cb-8079-09095dd433f6	66ad3a49-b04e-5661-aee5-72aa395d14ea		
+sample	TB-000135-D1TRMS-01	Unknown	C49.9 : Connective, subcutaneous and other soft tissues, NOS	-999	Tumor			146b7237-3eac-569d-94f6-953fc55bddb8	90139ae2-ac5e-5fb5-946d-c0ca3c95e655		
+sample	TB-000101-D1TMBA-01	Unknown	C41.9 : Bone, NOS	-999	Tumor			14fd64c1-bfda-56e4-8776-7b3037a82e61	1cabbc2d-2534-526d-a485-1fc01a1aa7bd		
+sample	TB-000102-M1BATR-01	Unknown	C42.0 : Blood	-999	Normal			15fa9e95-47bc-5fde-9c21-4709d242a71d	7daa336a-74d0-56c5-af32-08bb568d064d		
+sample	TB-000136-D1BBLL-01	Unknown	C42.0 : Blood	-999	Tumor			1698f098-64bc-5112-97e3-c51d754c2ec1	d1538c31-83be-5739-9351-5dff083f123f		
+sample	TB-000162-M1BBLL-01	Unknown	C42.0 : Blood	-999	Normal			17826744-90f4-55e7-aef7-893ba3706eb6	0d58b628-1a15-5c73-a7d5-92135fe0aa75		
+sample	TB-000012-D1BTLL-01	Unknown	C42.0 : Blood	-999	Tumor			1831fb2d-ec26-5718-8fec-29807a97bff0	c499e8e9-9496-5c6a-b363-dacea9bf515f		
+sample	TB-000110-M1BWLM-01	Unknown	C42.0 : Blood	-999	Normal			185b0e75-5dd4-55c1-94d9-ab04fbb720bc	0c04dd7b-bed1-507e-9481-2e8399185674		
+sample	TB-000024-M1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Normal			1891c138-0401-5f38-9d86-cd089f794b9a	885864cb-99c9-590e-a210-d3a23672bebe		
+sample	TB-000196-D1THGK-01	Unknown	C77.9 : Lymph node, NOS	-999	Tumor			18cf2039-2bd2-5975-8e5a-184b495f5066	48b97d96-6f51-55a7-aeca-277d9615327f		
+sample	TB-000166-D1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			1920d5be-3043-5472-9756-2131df6d5b4b	f22f33f0-c1c5-5050-b300-6d177d22ac1d		
+sample	TB-000068-D1TRMS-01	Unknown	C30.0 : Nasal cavity	-999	Tumor			197e6223-6111-5318-99d2-f1053db1f10a	44ab6c4a-6c41-52a5-b861-85a1f9dd0cef		
+sample	TB-000201-D1TMBA-01	Unknown	C41.9 : Bone, NOS	-999	Tumor			198cf495-d388-5390-99e3-7611d6467612	ab7401e3-c147-5037-9177-0220c90cab18		
+sample	TB-000125-M1BTLL-01	Unknown	C42.0 : Blood	-999	Normal			19a35771-4d1c-58b2-b436-aa0d3785d055	6d3f4da2-ecd3-557b-b4d6-8a5d2c3a0163		
+sample	TB-000114-M1BWLM-01	Unknown	C42.0 : Blood	-999	Normal			19a3cebf-b63f-560f-9b4b-49837f2e5f1f	12d045d7-bffd-5aa0-b39f-e3e464d4e74f		
+sample	TB-000019-D1WAML-01	Unknown	C42.1 : Bone marrow	-999	Tumor			1a1cfe4b-f1c1-5b31-bfc5-136e1c9698b4	0f1a306e-a7fd-529d-9ead-911470267d76		
+sample	TB-000012-M1WTLL-01	Unknown	C42.1 : Bone marrow	-999	Normal			1ad61ebe-768c-5eee-bb3d-ea37ca183531	c499e8e9-9496-5c6a-b363-dacea9bf515f		
+sample	TB-000177-D1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			1afddc96-6508-5eb0-9d1d-c0b5c94fca75	e4b5c65c-3993-548a-9673-72a1a7008a08		
+sample	TB-000134-M1BBLL-01	Unknown	C42.0 : Blood	-999	Normal			1c9033c6-8e0b-5a33-b5ab-88e6a154f85a	0301396f-97e7-5907-93c3-4af05e0230ed		
+sample	TB-000093-M1BHBA-01	Unknown	C42.0 : Blood	-999	Normal			1d30dee0-b0a4-537c-b87d-c8ec7fcb3868	b27fe849-a995-5d37-8342-84a210a24c81		
+sample	TB-000122-M1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Normal			1d3747f5-dbe4-58fc-a57b-89a0c84412f1	7120d70c-191a-5170-8419-85d19adf4a15		
+sample	TB-000181-D1THGG-01	Unknown	C41.9 : Bone, NOS	-999	Tumor			1ef467d9-f219-5adb-a649-7564fc5a5094	cb4c6901-1352-536f-810c-285978a7f11e		
+sample	TB-000011-M1WTLL-01	Unknown	C42.1 : Bone marrow	-999	Normal			1f59b6cd-1f29-5d69-b156-b1213cabfb31	07b6122d-f2ef-5549-b6c3-143ab389784a		
+sample	TB-000195-M1UBLL-01	Unknown	C06.0 : Cheek mucosa	-999	Normal			1f68f677-b146-526a-b1fb-458a23b0b49e	02f0fa89-e080-5813-bac3-f27f7d091c83		
+sample	TB-000005-M1BPLL-01	Unknown	C42.0 : Blood	-999	Normal			21024cd8-8bea-5a5c-bffb-1fb125bdb7de	ee5b3509-812f-5408-b993-80f5028d28fc		
+sample	TB-000028-M1WTLL-01	Unknown	C42.1 : Bone marrow	-999	Normal			2188514f-dfa9-50ed-80fa-d6771b4067a3	44b4fe89-4494-5977-bb6e-f760fe9d678b		
+sample	TB-000003-R2WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			23313e93-c367-5155-b457-2a911e81030b	4f5fa60c-478e-536a-a638-ea8149836e1a		
+sample	TB-000177-M1BBLL-01	Unknown	C42.0 : Blood	-999	Normal			23e7e76a-1791-5849-90c3-f5cd99b268df	e4b5c65c-3993-548a-9673-72a1a7008a08		
+sample	TB-000208-M1UTLL-01	Unknown	C06.0 : Cheek mucosa	-999	Normal			24ab8098-9200-5f95-9a7e-8b1f9f32ef92	9953f77d-025f-5b8d-b80a-9ed30e7c49e8		
+sample	TB-000018-M1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Normal			2594912f-43ae-547c-bf62-ba279774bea5	8603c075-0534-5427-a2f3-2b844c27b7dd		
+sample	TB-000226-D1THGG-01	Unknown	C41.9 : Bone, NOS	-999	Tumor			25c2e1a6-54ab-570c-b99d-4bfdc43f6e58	e9ccd428-56e0-5b5d-8cab-fc26561f9b6e		
+sample	TB-000132-M1BHCC-01	Unknown	C42.0 : Blood	-999	Normal			25cfa609-4dfa-50f3-93ef-96959410da70	ccc6b003-dc4c-5664-81d5-3184894949c2		
+sample	TB-000051-M1BBKL-01	Unknown	C42.0 : Blood	-999	Normal			2645491b-c73e-53f0-8d38-663f05af4f91	1aa96a08-50a4-5a53-8b62-c7cda7a35fcc		
+sample	TB-000035-D1WAML-01	Unknown	C42.1 : Bone marrow	-999	Tumor			265006c7-ad5a-5f72-8043-c5dbff21af2e	b9cc3e2f-74aa-5e1b-a1fe-7c5eab11cd65		
+sample	TB-000184-D1TEWG-01	Unknown	C49.9 : Connective, subcutaneous and other soft tissues, NOS	-999	Tumor			27f2cc26-04ff-5299-b809-3fa9aaa77aea	bed56f9e-42b2-5aaf-9841-ca9ee8db64b4		
+sample	TB-000179-M1BAML-01	Unknown	C42.0 : Blood	-999	Normal			281e6937-7c65-54a7-a773-69b93414e3ab	cf557a11-d30e-5609-9fc1-12feccd38a0a		
+sample	TB-000178-D1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			2841e8b3-552e-539a-9773-1ad1aa9ef291	31081ae0-aed1-5e2a-9434-8fbbfe49b6bf		
+sample	TB-000018-D1BBLL-01	Unknown	C42.0 : Blood	-999	Tumor			28ba64d7-49e2-5bfc-a021-f802691bf8e1	8603c075-0534-5427-a2f3-2b844c27b7dd		
+sample	TB-000138-M1BBLL-01	Unknown	C42.0 : Blood	-999	Normal			2959c48b-9da2-5ad7-98c4-da543e55fe19	aaaaad36-3cf0-5dde-8d59-0a3023da294c		
+sample	TB-000125-D1WTLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			29ee9d17-f2cb-571f-88a1-779a4f7336a0	6d3f4da2-ecd3-557b-b4d6-8a5d2c3a0163		
+sample	TB-000191-D1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			2a715da0-ff56-5d55-9d3d-a97692431a80	06a7cbb8-192c-5a3e-9532-8fd380234b16		
+sample	TB-000221-D1TSRC-01	Unknown	C49.9 : Connective, subcutaneous and other soft tissues, NOS	-999	Tumor			2b1d8f38-7fa3-5950-9421-3a24983bf813	55811152-f33d-5bf2-9502-601fc8f36382		
+sample	TB-000106-D1BBLL-01	Unknown	C42.0 : Blood	-999	Tumor			2b58d119-b2c6-57de-9bbd-002250fb5323	1a69a5b7-3cc5-5935-9409-19a1e6d43eb2		
+sample	TB-000104-M1BAML-01	Unknown	C42.0 : Blood	-999	Normal			2b97d514-226c-5943-93bb-8c7818d14d04	597e695e-1d34-5457-9687-b5ad633b7772		
+sample	TB-000176-M1BBLL-01	Unknown	C42.0 : Blood	-999	Normal			2c845de1-b5da-51a0-bf8e-51dcde697c86	e63f2c84-8d52-59d5-975a-4c38dbf42f7f		
+sample	TB-000050-D1WAML-01	Unknown	C42.1 : Bone marrow	-999	Tumor			2d815289-6561-544a-a7ff-4f5fcd18b856	31657cac-3526-519f-bb08-1422dcc25c06		
+sample	TB-000112-D1TWLM-01	Unknown	C64.9 : Kidney, NOS	-999	Tumor			2e277bd7-e1a9-56c7-9d43-7cf39ab02ff5	47df9650-6138-59d6-92b3-57a960d8d6c8		
+sample	TB-000025-M1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Normal			2f31ad90-a0ac-52b3-b6c0-eda199108848	bd5fe87c-0683-51ba-bc2f-4dbb9848bace		
+sample	TB-000156-D1TWLM-01	Unknown	C64.9 : Kidney, NOS	-999	Tumor			30cc96cc-a4c4-576d-8499-a8820bfd188b	a5d73f69-e5e8-515c-862a-e8ae92ea1b03		
+sample	TB-000222-D1TMBA-01	Unknown	C41.9 : Bone, NOS	-999	Tumor			310c748b-78c9-5a00-9d51-fda269049dfe	6e58d531-a9b0-5a8a-a715-840c88a871c0		
+sample	TB-000101-M1BMBA-01	Unknown	C42.0 : Blood	-999	Normal			32152815-cc59-562f-9b70-30b42b5877a4	1cabbc2d-2534-526d-a485-1fc01a1aa7bd		
+sample	TB-000117-D1TRMS-01	Unknown	C49.9 : Connective, subcutaneous and other soft tissues, NOS	-999	Tumor			33c6f9ae-3cef-5f5e-ae20-5fcc18e9f31a	04885925-527c-55a2-afea-efaa1bc719fe		
+sample	TB-000204-M1UAML-01	Unknown	C06.0 : Cheek mucosa	-999	Normal			33d4000c-bd2a-547d-b285-4d5d82f1db09	4e66df9b-a40d-5507-92fe-77f2348e180b		
+sample	TB-000123-M1WTLL-01	Unknown	C42.1 : Bone marrow	-999	Normal			34064a2a-72b7-5397-8353-52c4d2087629	67e95d83-d0c7-57eb-8618-ac9355a8b24a		
+sample	TB-000149-M1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Normal			3602b192-1206-56cd-a1fb-11bb05b3d200	ca96a7c1-b312-5b13-a183-07bad9f04881		
+sample	TB-000146-D1TNBL-01	Unknown	C74.9 : Adrenal gland, NOS	-999	Tumor			36f740e8-ed59-5c11-810a-6075c0462fcb	1a67a2d5-8555-5a8f-bf65-a782036e2500		
+sample	TB-000089-D1BAML-01	Unknown	C42.0 : Blood	-999	Tumor			3967f758-6464-55c5-96cb-650656f4e32c	0dba6172-4eb3-5cca-8ed7-1e479cc0850f		
+sample	TB-000164-D1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			39bbce03-220c-51c3-80e1-8bf7c03edb36	9e456d6a-2d28-5077-ad5f-f041fa2683ee		
+sample	TB-000117-M1BRMS-01	Unknown	C42.0 : Blood	-999	Normal			39efdde8-da39-5793-bfbf-d8fe1f33762f	04885925-527c-55a2-afea-efaa1bc719fe		
+sample	TB-000026-D1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			3a13e1b4-1f68-5b83-8798-d2ce46eb42a8	4a77a1b3-2a73-5354-98b3-d1a4987f4b5e		
+sample	TB-000013-D1WTLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			3bb53555-8256-5c8c-8323-a3715470d79e	66ad3a49-b04e-5661-aee5-72aa395d14ea		
+sample	TB-000098-M1WAML-01	Unknown	C42.1 : Bone marrow	-999	Normal			3bed98f1-ae70-5fdf-9427-c1049593a94c	08cc721b-012e-5509-9a7a-3323d39d0b1c		
+sample	TB-000057-D1TEPN-01	Unknown	C41.9 : Bone, NOS	-999	Tumor			3c2f37a6-2092-5100-a835-a8714e9dd61f	dd91ff49-52ff-5fee-abfb-baae9bca0940		
+sample	TB-000031-R1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			3cae6234-668e-5ec1-8588-29029db35eb8	ce094278-5813-5f1b-9fb0-7e9128431811		
+sample	TB-000225-M1BATR-01	Unknown	C42.0 : Blood	-999	Normal			3d5b4b04-775f-59f5-90fa-5309bdd83dcd	ab94c720-64a3-5556-b487-00c63f03b8bf		
+sample	TB-000071-D1WPLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			3dba8577-5572-59b7-986f-22b459717e1c	a79a568b-6baa-513f-bdcc-24e32d682cf5		
+sample	TB-000097-D1TGCT-01	Unknown	C62.9 : Testis, NOS	-999	Tumor			3e764bc8-48d8-5644-82df-98e5b8fb1748	f3807cdd-707a-5114-9099-243dbf95ad26		
+sample	TB-000173-M1BBLL-01	Unknown	C42.0 : Blood	-999	Normal			3f91f049-f650-5bf3-b00d-0135ab26dbf8	9f6e6492-1fc5-5865-9117-a37d6345ac61		
+sample	TB-000209-M1BRMS-01	Unknown	C42.0 : Blood	-999	Normal			4250ff08-8c7b-5715-9a96-3d1bf351cec1	f249ff64-8be8-5aba-aab3-0cc1c5077349		
+sample	TB-000158-M1WEWG-01	Unknown	C42.1 : Bone marrow	-999	Normal			42ccbeb4-e587-544a-98c9-f44630623663	1b7adaa8-f934-5dc2-b867-a66b15006b91		
+sample	TB-000143-M1BPLL-01	Unknown	C42.0 : Blood	-999	Normal			431861b1-5593-5444-875a-2974b7eca511	c7436b71-1571-538e-b996-e17c1f655d98		
+sample	TB-000051-D1LBKL-01	Unknown	C77.8 : Lymph nodes of multiple regions	-999	Tumor			4327e923-f1fe-550b-b96c-567803eb76e1	1aa96a08-50a4-5a53-8b62-c7cda7a35fcc		
+sample	TB-000105-D1WMPL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			43b58185-9872-546e-8e48-82427e6bf970	05a34b4e-a74b-5f14-8328-3fb3ff98c44c		
+sample	TB-000109-M1UAGL-01	Unknown	C06.0 : Cheek mucosa	-999	Normal			4450598e-36b5-50b2-8f00-987c1dbcac36	79aaf760-17ed-52cf-91bd-0c1398cd1725		
+sample	TB-000075-D1TRMS-01	Unknown	C49.9 : Connective, subcutaneous and other soft tissues, NOS	-999	Tumor			4478235d-ca78-54e4-8eb8-40bf29435e0b	78636d11-2d83-5b55-a041-28454d08728f		
+sample	TB-000043-M1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Normal			44c361f0-b752-5379-8a3e-f9eceb678f8c	1db330ed-3cae-518d-8525-746694381bcc		
+sample	TB-000123-D1LTLL-01	Unknown	C77.8 : Lymph nodes of multiple regions	-999	Tumor			44f7dfcf-da89-5efc-9552-cabbaf46896b	67e95d83-d0c7-57eb-8618-ac9355a8b24a		
+sample	TB-000186-D1TRCC-01	Unknown	C64.9 : Kidney, NOS	-999	Tumor			45141fdd-35cd-52cf-8004-d3ab9d00c96c	06f82ecf-c2be-59ed-aa97-b503d7216700		
+sample	TB-000156-M1BWLM-01	Unknown	C42.0 : Blood	-999	Normal			45c08f21-83d7-5804-a0d0-6bf658625c78	a5d73f69-e5e8-515c-862a-e8ae92ea1b03		
+sample	TB-000151-M1BFLL-01	Unknown	C42.0 : Blood	-999	Normal			47788afd-cb88-595b-9ff1-da2ae7b3f48a	d22922fc-e483-5468-a0de-ec385f1016c9		
+sample	TB-000010-D1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			477a3c40-ea1f-54b2-af5d-6c125fcdd269	6c063e37-b85b-5e9a-9ed9-18873c1cad40		
+sample	TB-000226-M1BHGG-01	Unknown	C42.0 : Blood	-999	Normal			477e0f56-59b5-55e0-bd5a-c14d4fc28138	e9ccd428-56e0-5b5d-8cab-fc26561f9b6e		
+sample	TB-000202-M1BHBA-01	Unknown	C42.0 : Blood	-999	Normal			4867c12d-20bc-572a-b444-e0fb79275827	3f9dffbe-0828-5dd5-a5af-80a6e125a607		
+sample	TB-000088-M1BBLL-01	Unknown	C42.0 : Blood	-999	Normal			4a95cdac-52fa-57b2-97df-317e7468f8ce	a8780e32-406b-563d-8f06-49368ed226a0		
+sample	TB-000141-M1BPNT-01	Unknown	C42.0 : Blood	-999	Normal			4aa551c5-b89a-5c66-9b5f-9eb78485059a	bc804637-4099-5396-837a-2bada0beed23		
+sample	TB-000169-D1BTLL-01	Unknown	C42.0 : Blood	-999	Tumor			4b83fcb7-1877-503b-b496-e0515af00f91	6926fdd7-4f61-556f-bd11-dd7b26bb6997		
+sample	TB-000168-M1BBLL-01	Unknown	C42.0 : Blood	-999	Normal			4c0e8d6f-9fb9-528e-8587-0d7d7d04eb45	9f813efe-6be0-5a3b-8ffe-e082ec605961		
+sample	TB-000005-D1WPLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			4de36e53-3bb9-5405-a694-640a49fae1a9	ee5b3509-812f-5408-b993-80f5028d28fc		
+sample	TB-000205-D1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			4f8e3f36-23eb-5893-abf7-c7ea925692a7	3651229c-374d-5c93-ae7c-faa047fa3610		
+sample	TB-000061-D1TLGG-01	Unknown	C41.9 : Bone, NOS	-999	Tumor			4fd76c68-1f69-580d-b707-f96395dd29a2	c02a3f59-273e-517d-93a9-46583027dfd5		
+sample	TB-000026-M1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Normal			50662945-33c5-5d84-995e-79ccf4eefecd	4a77a1b3-2a73-5354-98b3-d1a4987f4b5e		
+sample	TB-000108-D1WAML-01	Unknown	C42.1 : Bone marrow	-999	Tumor			51f6ad69-21b6-5325-91b4-4a244285ccda	70dcaaad-71db-5bc6-8e8e-c5ef242537a5		
+sample	TB-000169-M1BTLL-01	Unknown	C42.0 : Blood	-999	Normal			5205d930-5da7-5d9f-8c96-f1e1464338bf	6926fdd7-4f61-556f-bd11-dd7b26bb6997		
+sample	TB-000144-M1BMBA-01	Unknown	C42.0 : Blood	-999	Normal			53d78b60-9ce2-5209-ac87-e8e6b49f9687	057a46d3-387b-5a07-8c4b-f8a9c4c157d7		
+sample	TB-000099-M1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Normal			54745fa2-484e-549c-ad1e-4e029612f721	7ffb90c8-b7fb-5b68-934e-990301dc63a8		
+sample	TB-000039-M1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Normal			54f021ba-e5fc-56c6-a697-7375643a5684	4a0aab92-bf99-5952-94b0-00e6a6c1099b		
+sample	TB-000181-M1BHGG-01	Unknown	C42.0 : Blood	-999	Normal			55e64d6d-0148-5ac8-bb09-d00e0072c1dd	cb4c6901-1352-536f-810c-285978a7f11e		
+sample	TB-000102-D1TATR-01	Unknown	C41.9 : Bone, NOS	-999	Tumor			5615f979-1ce8-500a-afa7-2717f40cf474	7daa336a-74d0-56c5-af32-08bb568d064d		
+sample	TB-000104-D1BAML-01	Unknown	C42.0 : Blood	-999	Tumor			5667472a-3762-5169-8889-e55c7cc58c0d	597e695e-1d34-5457-9687-b5ad633b7772		
+sample	TB-000084-M1BWLM-01	Unknown	C42.0 : Blood	-999	Normal			584be51c-7863-50f9-bb8b-010b4eac3f2b	781c3a14-30c6-592c-87a4-b4b09192b708		
+sample	TB-000040-D1BBLL-01	Unknown	C42.0 : Blood	-999	Tumor			585a83a3-a2bd-54c9-86a3-2dd177bd21fc	e563a35d-170d-50ef-962f-86e27ce9d279		
+sample	TB-000211-M1BBLL-01	Unknown	C42.0 : Blood	-999	Normal			59033ef1-f5d9-58ee-8131-ad90db67f4be	f93669ff-5521-50f9-b7c8-3362ea089c47		
+sample	TB-000093-D1THBA-01	Unknown	C22.0 : Liver	-999	Tumor			5925c8a4-1572-53e6-ae76-cb23d63254a7	b27fe849-a995-5d37-8342-84a210a24c81		
+sample	TB-000129-M1BRMS-01	Unknown	C42.0 : Blood	-999	Normal			59e6019f-1b9c-55a3-aa30-c978e31f46c6	a4329148-9411-5b6e-8f4f-23ea52598bce		
+sample	TB-000147-M1BWLM-01	Unknown	C42.0 : Blood	-999	Normal			5b897e36-f075-56e2-9a6c-aa3474daea64	f2a35863-edc4-594c-987a-c8c3b49c489c		
+sample	TB-000072-D1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			5c247277-ca79-5c29-966b-97119614117e	b45293e7-6000-57f5-a12f-e5304a6f0947		
+sample	TB-000141-D1TPNT-01	Unknown	C41.9 : Bone, NOS	-999	Tumor			5c5d6bf6-4423-5c30-adfa-cb314c7a1678	bc804637-4099-5396-837a-2bada0beed23		
+sample	TB-000124-M1BBLL-01	Unknown	C42.0 : Blood	-999	Normal			5cde8648-66ab-5754-9122-f1e78992ce08	b8251ff1-b992-5bd8-96e9-0dcc8ab2bee0		
+sample	TB-000043-D1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			5da5eac7-3010-5fae-a661-0fe1256cdbf6	1db330ed-3cae-518d-8525-746694381bcc		
+sample	TB-000014-M1FAML-01	Unknown	C44.9 : Skin, NOS	-999	Normal			5e6899a9-65fb-53da-b6f8-648a1b3ce545	579de681-10d4-55eb-857d-4fe0e5fa73c2		
+sample	TB-000152-D1WTLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			5eebb5cc-652e-55e4-a415-6a7fa1f38e61	42366bea-3eae-583b-a218-adcc6bcf3614		
+sample	TB-000085-D1TWLM-01	Unknown	C64.9 : Kidney, NOS	-999	Tumor			5f2ad491-ca3f-55ef-828a-5df04a68fbfb	58b6fd83-c229-5905-8dca-7509a516716c		
+sample	TB-000133-M1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Normal			5f437510-e7c8-5b20-8ade-46d8fd4b3b37	673350f3-80a2-5d42-aa6d-97852a1054de		
+sample	TB-000190-D1BBLL-01	Unknown	C42.0 : Blood	-999	Tumor			6153f807-1a92-5f08-bb1d-cad7c2a4b610	46480cc8-242d-5d0b-81fc-9bccafb36744		
+sample	TB-000110-D1TWLM-01	Unknown	C64.9 : Kidney, NOS	-999	Tumor			61cc6d86-5c1c-5b5a-ba27-f04a1c760909	0c04dd7b-bed1-507e-9481-2e8399185674		
+sample	TB-000042-D1BBLL-01	Unknown	C42.0 : Blood	-999	Tumor			62cf2bae-f12b-5112-8769-f6ced9b32a7d	e79c6d7c-2918-5d40-969d-9a67956e18ba		
+sample	TB-000163-D1TOST-01	Unknown	C41.9 : Bone, NOS	-999	Tumor			63192fe7-44b7-51f5-9077-f1847e59c222	d2fbbcbd-f6b6-5fb2-9932-6fba4f900077		
+sample	TB-000161-M1BLCL-01	Unknown	C42.0 : Blood	-999	Normal			6378f422-8ae7-5ac4-a41d-8f48fbb6f4fb	163b0ed4-b305-54ee-89cd-9f0928dd57b1		
+sample	TB-000201-M1BMBA-01	Unknown	C42.0 : Blood	-999	Normal			63dfbcb6-9324-56e0-9221-37ed9c939bb9	ab7401e3-c147-5037-9177-0220c90cab18		
+sample	TB-000106-M1FBLL-01	Unknown	C44.9 : Skin, NOS	-999	Normal			66488cce-ab41-5f72-9c8d-3430aafa439c	1a69a5b7-3cc5-5935-9409-19a1e6d43eb2		
+sample	TB-000098-D1BAML-01	Unknown	C42.0 : Blood	-999	Tumor			664fc7d0-6e5c-5764-b970-9f6eacc8f712	08cc721b-012e-5509-9a7a-3323d39d0b1c		
+sample	TB-000197-M1UBLL-01	Unknown	C06.0 : Cheek mucosa	-999	Normal			67d3f1ab-82c6-5e81-ab39-e772eab57147	fe6e0b48-1e77-5112-8bb5-da0f550e9b7b		
+sample	TB-000031-M2WBLL-01	Unknown	C42.1 : Bone marrow	-999	Normal			68cbb898-3070-5d67-9925-d28c8fa10c64	ce094278-5813-5f1b-9fb0-7e9128431811		
+sample	TB-000107-M1BACT-01	Unknown	C42.0 : Blood	-999	Normal			6a275e8c-7ec9-5727-b730-b455192b4707	0dac0c3a-c7dd-55ff-ac36-9f1e7d3f173e		
+sample	TB-000059-X1BATR-01	Unknown	C42.0 : Blood	-999	Normal			6a80e3c1-44a9-558b-b85f-cea59d6fd247	74cad29b-0a97-57af-9388-41aec6362b0c		
+sample	TB-000151-D1TFLL-01	Unknown	C77.9 : Lymph node, NOS	-999	Tumor			6b935578-352f-52f0-88f5-1f9ad2cbdc2a	d22922fc-e483-5468-a0de-ec385f1016c9		
+sample	TB-000139-D1BTLL-01	Unknown	C42.0 : Blood	-999	Tumor			6cd4325f-07a7-547e-9860-9b01415bdbbb	10c23e73-f2bd-5d08-920b-a43dd8b28122		
+sample	TB-000187-M1WGNB-01	Unknown	C42.1 : Bone marrow	-999	Normal			6d5ade2d-3af3-505b-88a5-b5f49b10d520	ea47bba7-9900-5fb9-b92d-9affce395b66		
+sample	TB-000092-D1BAML-01	Unknown	C42.0 : Blood	-999	Tumor			6d7aae74-231d-5d70-a1ac-2ce1b4bb4246	706489ca-7154-5dba-9d9d-0446d3ee0b3e		
+sample	TB-000017-D1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			6e378850-30f2-5cd5-8371-d2d3a30e6715	5daf27ab-92bd-584b-834e-616a28bd900a		
+sample	TB-000067-M1BGGL-01	Unknown	C42.0 : Blood	-999	Normal			6ee660a6-4ecf-531d-8abe-6bf60a8a3a3e	56f83ef2-d82d-5b7c-b4a2-fac2794fba5b		
+sample	TB-000189-D1BBLL-01	Unknown	C42.0 : Blood	-999	Tumor			6f918f8c-6269-5cfc-957c-dda0e8c66b3a	7ff76be3-495b-58bf-9f2d-b2a4336fe819		
+sample	TB-000174-D1WPLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			706b9366-529d-5bec-b3ae-d611a9b3dbb4	8827379f-7581-5638-8faf-26f47d039e4d		
+sample	TB-000199-M1BTLL-01	Unknown	C42.0 : Blood	-999	Normal			710e6e67-b337-5fcf-a37a-0e8823f9287c	16c152a6-61b9-5e1b-8dd1-c5283dea3606		
+sample	TB-000055-R1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			713a765d-fadc-515a-b7a3-2f4ff2b751a4	aea84d95-bfe2-58aa-af95-8b1a90971b7e		
+sample	TB-000138-D1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			7167b45a-0e4d-57b0-bdff-d896edecedf2	aaaaad36-3cf0-5dde-8d59-0a3023da294c		
+sample	TB-000157-D1TNBL-01	Unknown	C74.9 : Adrenal gland, NOS	-999	Tumor			71ded111-f107-5396-af73-92dddf881158	02cf94c1-eeaf-5d63-8285-584608ec6aed		
+sample	TB-000185-M1UTLL-01	Unknown	C06.0 : Cheek mucosa	-999	Normal			7258ea5c-53cd-5137-8204-62a78d122133	ef251ef2-995c-55be-996c-39201a898379		
+sample	TB-000049-D1BBLL-01	Unknown	C42.0 : Blood	-999	Tumor			72dabd87-dd01-5acf-bb40-67985f167ba4	a5e00cb7-8cd6-5a31-b18e-111e2e38b7d5		
+sample	TB-000223-M1BMBA-01	Unknown	C42.0 : Blood	-999	Normal			73de3739-fad4-5d9b-9651-738ed0b555a6	c20fdcdb-32a3-5be4-b651-4178439768ad		
+sample	TB-000194-M1BWLM-01	Unknown	C42.0 : Blood	-999	Normal			744f6489-7762-55e1-a8bd-13becb7105d0	2ee7058f-f504-508e-b311-6e3eda86094c		
+sample	TB-000211-D1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			764ddf33-1a5e-53ba-8b32-0afd37ea3e66	f93669ff-5521-50f9-b7c8-3362ea089c47		
+sample	TB-000130-D1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			7680afd1-7384-5f50-9175-719427da4c9b	284c1eae-eb9c-506c-946c-9ec9e404d178		
+sample	TB-000054-D1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			76a9c99a-8e1a-5312-9ddd-b440bee41031	627e589e-e33c-5e18-8a3e-b72253687aaf		
+sample	TB-000082-M1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Normal			77c4e8c4-8e23-544c-b9f0-650388b81bdf	8b49845e-792c-5496-ab7e-82f4b272fa5c		
+sample	TB-000122-D1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			79b5e67d-70d2-563a-9bd1-91e416381ee0	7120d70c-191a-5170-8419-85d19adf4a15		
+sample	TB-000075-M1BRMS-01	Unknown	C42.0 : Blood	-999	Normal			7a6a42a7-0339-5f4c-a69e-78f0a511dbbb	78636d11-2d83-5b55-a041-28454d08728f		
+sample	TB-000064-D1TEPN-01	Unknown	C72.0 : Spinal cord	-999	Tumor			7a8ff2ae-63e2-541c-9d10-1af9cc7e12d8	56856f4c-e08d-5701-9083-78c8baf101b2		
+sample	TB-000194-D1TWLM-01	Unknown	C64.9 : Kidney, NOS	-999	Tumor			7b13a130-7cbf-55d4-b6ff-0438e75592af	2ee7058f-f504-508e-b311-6e3eda86094c		
+sample	TB-000228-M1BBLL-01	Unknown	C42.0 : Blood	-999	Normal			7b26e2a4-be08-514b-94e3-48afc9d7ef25	26ec4886-2d12-5e85-8c23-7a78da09cbfa		
+sample	TB-000126-D1WNBL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			7c8f2192-0b8b-5b7c-8252-7710f292fc31	1e67f18d-691c-5e6f-8aa4-75be0620676b		
+sample	TB-000050-M1WAML-01	Unknown	C42.1 : Bone marrow	-999	Normal			7cdcfa9a-add7-53fd-9c43-5e9fecc50839	31657cac-3526-519f-bb08-1422dcc25c06		
+sample	TB-000196-M1BHGK-01	Unknown	C42.0 : Blood	-999	Normal			7d1e96f2-76d8-57c0-ac26-7857a9779692	48b97d96-6f51-55a7-aeca-277d9615327f		
+sample	TB-000167-D1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			7dbe17b0-4880-5d17-b946-3a6e070e8efa	e2f34e3f-dcac-5fac-bbae-d3bb7d0b5baf		
+sample	TB-000178-M1BBLL-01	Unknown	C42.0 : Blood	-999	Normal			7e1735ca-aca0-5bd9-9ed2-2e09824e2965	31081ae0-aed1-5e2a-9434-8fbbfe49b6bf		
+sample	TB-000071-M1UPLL-01	Unknown	C06.0 : Cheek mucosa	-999	Normal			7e49fa35-8469-59ed-9ce3-c2c17101be8d	a79a568b-6baa-513f-bdcc-24e32d682cf5		
+sample	TB-000199-D1LTLL-01	Unknown	C77.8 : Lymph nodes of multiple regions	-999	Tumor			7ff323d3-2643-5ca5-b2e6-e61ffc8816fb	16c152a6-61b9-5e1b-8dd1-c5283dea3606		
+sample	TB-000095-D1WNBL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			80144d3f-a0b5-5209-a808-7d1e7a10a198	1d620d6b-a1f6-5e90-8e46-482293396764		
+sample	TB-000025-D1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			811e5181-fe71-5fa7-9fdc-f41825f946b5	bd5fe87c-0683-51ba-bc2f-4dbb9848bace		
+sample	TB-000200-D1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			82f8f4d3-4912-5d97-9f2d-020fd50e9fc7	686760d7-353e-5ac6-9469-b1e7d32a3145		
+sample	TB-000067-D1TGGL-01	Unknown	C41.9 : Bone, NOS	-999	Tumor			83dca0c0-9ad7-5947-9564-20b620b59d37	56f83ef2-d82d-5b7c-b4a2-fac2794fba5b		
+sample	TB-000018-D1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			843724fd-ca0c-5ea7-bd66-e67b4890a674	8603c075-0534-5427-a2f3-2b844c27b7dd		
+sample	TB-000085-M1BWLM-01	Unknown	C42.0 : Blood	-999	Normal			849edfa7-fb89-50ee-809a-f1f3d19e39a1	58b6fd83-c229-5905-8dca-7509a516716c		
+sample	TB-000063-D1TMBA-01	Unknown	C41.9 : Bone, NOS	-999	Tumor			84a5c4a8-d55f-5197-a154-baf8c775360d	ac71d91d-3b71-5bf8-b205-6e5956b75c3e		
+sample	TB-000072-M1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Normal			8531d280-21dc-5b29-9b2a-f426504cdaec	b45293e7-6000-57f5-a12f-e5304a6f0947		
+sample	TB-000159-D1WTLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			85896254-c52a-5392-8abf-3a16b9ae7591	824af024-2307-5ba2-bcf5-d44fd9485534		
+sample	TB-000188-D1BAML-01	Unknown	C42.0 : Blood	-999	Tumor			85902685-42ad-51aa-b9ba-d45277108c65	a2c34583-96d8-5173-860e-2c1d75c39934		
+sample	TB-000103-M1BPNT-01	Unknown	C42.0 : Blood	-999	Normal			85a2a8b1-5ec0-5c03-8130-92ef901946a5	9025b327-d587-5b9b-8b1c-6c299ed34dfd		
+sample	TB-000167-M1BBLL-01	Unknown	C42.0 : Blood	-999	Normal			863fdd7b-9d35-5e7a-b5f2-0690ff107ae9	e2f34e3f-dcac-5fac-bbae-d3bb7d0b5baf		
+sample	TB-000179-D1WAML-01	Unknown	C42.1 : Bone marrow	-999	Tumor			86d3a37d-de63-59b5-acd3-0018d135bc20	cf557a11-d30e-5609-9fc1-12feccd38a0a		
+sample	TB-000094-D1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			87c1d27f-2900-54a4-b1a2-a0c20798f9eb	3e18d65d-35a4-5dd2-93c2-39aa22056136		
+sample	TB-000114-D1TWLM-01	Unknown	C64.9 : Kidney, NOS	-999	Tumor			8873b893-f862-5eb6-92a7-30659db140b4	12d045d7-bffd-5aa0-b39f-e3e464d4e74f		
+sample	TB-000183-M1BATR-01	Unknown	C42.0 : Blood	-999	Normal			88f9397e-4e0b-54b3-b775-0eca06baf026	afd71eea-2a44-5599-b3b7-046a23fd21f3		
+sample	TB-000158-D1TEWG-01	Unknown	C49.9 : Connective, subcutaneous and other soft tissues, NOS	-999	Tumor			8952a62d-f035-565f-b7a2-21c7d39ab105	1b7adaa8-f934-5dc2-b867-a66b15006b91		
+sample	TB-000066-X1BNBL-01	Unknown	C42.0 : Blood	-999	Normal			8a368aab-9229-5b28-9d24-b38dea32cc06	37c01ea3-adbb-5aca-9185-931a7415dd2c		
+sample	TB-000206-D1TMBA-01	Unknown	C41.9 : Bone, NOS	-999	Tumor			8c1e0f39-1663-57f7-8b2c-56a2240e0fd1	39ae7995-1ed3-50de-a219-b6867014ca4e		
+sample	TB-000225-D1TATR-01	Unknown	C41.9 : Bone, NOS	-999	Tumor			8c8c2522-ad3f-5a68-a054-d30327cfa455	ab94c720-64a3-5556-b487-00c63f03b8bf		
+sample	TB-000207-M1UBLL-01	Unknown	C06.0 : Cheek mucosa	-999	Normal			8cedd6e6-ad81-5c2d-9304-1638f20c66f4	523ea5c8-8878-57f0-bc07-a69f57672936		
+sample	TB-000048-D1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			8d9dd441-232c-543c-929f-e84be1165c15	9eb93b41-3896-5e78-a9e2-327a9982a06a		
+sample	TB-000209-D1TRMS-01	Unknown	C49.9 : Connective, subcutaneous and other soft tissues, NOS	-999	Tumor			908ad149-fb21-52f3-ba5b-17b0db9a6115	f249ff64-8be8-5aba-aab3-0cc1c5077349		
+sample	TB-000186-M1URCC-01	Unknown	C06.0 : Cheek mucosa	-999	Normal			90a8679e-3b49-5e65-9a9c-92c14e3876ef	06f82ecf-c2be-59ed-aa97-b503d7216700		
+sample	TB-000165-M1BBLL-01	Unknown	C42.0 : Blood	-999	Normal			931b5974-c80a-5466-98ad-36547ebdb789	6d001b27-93ba-55ca-8d57-f7950ee7188b		
+sample	TB-000100-D1TNBL-01	Unknown	C74.9 : Adrenal gland, NOS	-999	Tumor			93365ed8-5c5b-5c68-a222-e82845e5031b	21390cbc-e5fb-5258-89ad-aa62ad5bfad6		
+sample	TB-000224-M1BPLL-01	Unknown	C42.0 : Blood	-999	Normal			93aaca6d-9e67-52c7-82ff-e19cc725db6e	6a1f3c43-04cf-58a6-b905-e424cf97f6ea		
+sample	TB-000015-M1WAGL-01	Unknown	C42.1 : Bone marrow	-999	Normal			940bf0a8-0707-5531-bef6-ff91540667a0	f3ba8374-8e73-53a0-93ca-8728deca72c3		
+sample	TB-000100-M1WNBL-01	Unknown	C42.1 : Bone marrow	-999	Normal			942380a1-a32e-59a7-b553-08ee0dfab828	21390cbc-e5fb-5258-89ad-aa62ad5bfad6		
+sample	TB-000128-M1BBLL-01	Unknown	C42.0 : Blood	-999	Normal			9499262d-b921-5667-92f8-57ffa329dafe	992578a0-d941-5058-9e8c-463fecc08943		
+sample	TB-000001-M1BBLL-01	Unknown	C42.0 : Blood	-999	Normal			9539d89b-8e26-54f3-b5c4-d1829a60e32a	420b1471-6800-5367-8cce-72ea0350bc5d		
+sample	TB-000008-M2WBLL-01	Unknown	C42.1 : Bone marrow	-999	Normal			95a58122-0291-5dea-b170-889f65406c27	ea42bfeb-9ccb-52e3-b29e-df592d7894eb		
+sample	TB-000008-R1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			95b1a694-b69f-50af-a939-f08a07325c01	ea42bfeb-9ccb-52e3-b29e-df592d7894eb		
+sample	TB-000119-M1WEWG-01	Unknown	C42.1 : Bone marrow	-999	Normal			95f9a667-fdae-5ff2-a4d0-2a5fef94e9cd	19757331-14ac-5e01-97a9-dce5d53a9204		
+sample	TB-000136-M1BBLL-01	Unknown	C42.0 : Blood	-999	Normal			9627996b-5c43-5482-ace2-e3c0da81fee5	d1538c31-83be-5739-9351-5dff083f123f		
+sample	TB-000090-M1BWLM-01	Unknown	C42.0 : Blood	-999	Normal			972526aa-147b-5b3d-950e-a300fc1460ea	334ea807-40f5-56f1-9fd2-e099713713a9		
+sample	TB-000171-M1BOST-01	Unknown	C42.0 : Blood	-999	Normal			97ece0e7-01ad-5c1d-bbd5-3df25a44a8f3	29b15457-de66-5a29-ae39-734bb81a48e7		
+sample	TB-000111-M1WNBL-01	Unknown	C42.1 : Bone marrow	-999	Normal			98a81f70-9945-581b-86a5-ba6f1daf2a5b	a9bbde65-a39d-5487-9925-440cc22af029		
+sample	TB-000063-X1BMBA-01	Unknown	C42.0 : Blood	-999	Normal			98fc121d-4ca6-505b-aff6-c64a0cfe2db1	ac71d91d-3b71-5bf8-b205-6e5956b75c3e		
+sample	TB-000029-M1WMPL-01	Unknown	C42.1 : Bone marrow	-999	Normal			993cdcea-34d2-5a97-b6b5-57889fdea697	285ee6bd-5abb-5f12-9da0-5aa919112818		
+sample	TB-000134-D1TBLL-01	Unknown	C77.9 : Lymph node, NOS	-999	Tumor			9af2c1c8-420a-511a-b2b2-d848008dc183	0301396f-97e7-5907-93c3-4af05e0230ed		
+sample	TB-000076-M1UMDS-01	Unknown	C06.0 : Cheek mucosa	-999	Normal			9b592efe-673c-5aa9-b287-0495def74e5a	e581b1bc-e656-563a-948a-19b8cac91f3b		
+sample	TB-000038-M1BBLL-01	Unknown	C42.0 : Blood	-999	Normal			9c9405e0-e578-59d4-8dbc-7305650f801f	4956bebc-485e-5bff-a26d-7a8371a22b96		
+sample	TB-000023-M1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Normal			9cc33390-18d1-598a-b5a5-13197322da4d	915661a7-73a8-5012-b8ee-b87c044264d4		
+sample	TB-000055-R1BBLL-01	Unknown	C42.0 : Blood	-999	Tumor			9d8bc46e-cc31-5f77-a3f7-db7d34f6503e	aea84d95-bfe2-58aa-af95-8b1a90971b7e		
+sample	TB-000203-D1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			9d96be75-7a11-5413-9274-c22c2067d10b	cac63d40-eb2e-58ba-a728-a696691ad657		
+sample	TB-000175-M1BMDS-01	Unknown	C42.0 : Blood	-999	Normal			9e26fc0d-ddc8-5387-8a2d-cadc24fa9558	e5d0fe64-6d7d-5c5e-b254-18b52eabf3db		
+sample	TB-000034-D1WAML-01	Unknown	C42.1 : Bone marrow	-999	Tumor			9f7359c0-12cd-5e89-919f-51b27a22507a	ec3819de-f459-533c-bf05-0a6a5573026b		
+sample	TB-000230-M1WTLL-01	Unknown	C42.1 : Bone marrow	-999	Normal			a1546985-8fe5-53ac-9251-6cf6df0a58ab	96010d6c-6842-50a0-be31-b215716aa845		
+sample	TB-000105-M1WMPL-01	Unknown	C42.1 : Bone marrow	-999	Normal			a1cbce67-e131-5582-ace1-0722833dc6f5	05a34b4e-a74b-5f14-8328-3fb3ff98c44c		
+sample	TB-000193-M1BBLL-01	Unknown	C42.0 : Blood	-999	Normal			a294a5b2-0ca3-5ebb-9041-c1a19eff025e	bd568f11-21de-5c8e-9df1-06ce17081e2d		
+sample	TB-000027-L2BBLL-01	Unknown	C42.0 : Blood	-999	Normal			a29614da-16b5-505e-be11-12de1a1cdead	9a1aae23-0f99-5b46-8634-071517d889e3		
+sample	TB-000021-R1BBLL-01	Unknown	C42.0 : Blood	-999	Tumor			a2f67b82-dd33-5885-9e32-fca198f8b41e	adf3606b-49c6-53c6-8957-b295aac57f61		
+sample	TB-000192-M1UBLL-01	Unknown	C06.0 : Cheek mucosa	-999	Normal			a3a98a93-927a-555d-905e-c6d8976d76fd	bf913727-da79-537d-ba1b-b745e3d60808		
+sample	TB-000191-M1UBLL-01	Unknown	C06.0 : Cheek mucosa	-999	Normal			a444987b-3b1a-540a-8c6f-764c9e594473	06a7cbb8-192c-5a3e-9532-8fd380234b16		
+sample	TB-000139-M1BTLL-01	Unknown	C42.0 : Blood	-999	Normal			a50a4fea-c861-572f-8c9e-77a4be082ea2	10c23e73-f2bd-5d08-920b-a43dd8b28122		
+sample	TB-000208-D1WTLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			a676c261-8f9a-5330-9a39-e268d725585e	9953f77d-025f-5b8d-b80a-9ed30e7c49e8		
+sample	TB-000019-M1WAML-01	Unknown	C42.1 : Bone marrow	-999	Normal			a7d9402f-fda3-548a-840b-2a2df9877b88	0f1a306e-a7fd-529d-9ead-911470267d76		
+sample	TB-000180-M1BAML-01	Unknown	C42.0 : Blood	-999	Normal			a8319e12-c3de-5e3d-8596-c3752ee64739	781b19ef-ee3b-56e3-94dc-3c1ce43488fc		
+sample	TB-000079-D1WTLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			a8702bde-e87a-56c8-bd1b-1d2705e356be	88df4dee-4203-5ef5-a89c-46f60b282851		
+sample	TB-000056-D1TLGG-01	Unknown	C41.9 : Bone, NOS	-999	Tumor			a8840677-6de3-5f8d-9838-48f7b1afe01d	f4baa857-d394-55ab-a53f-055153e01825		
+sample	TB-000035-M1WAML-01	Unknown	C42.1 : Bone marrow	-999	Normal			a8854324-5757-5a6d-8eef-4e24682ebe56	b9cc3e2f-74aa-5e1b-a1fe-7c5eab11cd65		
+sample	TB-000224-D1WPLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			a8a4a103-e0bf-554c-ba9f-efdcce3cb82c	6a1f3c43-04cf-58a6-b905-e424cf97f6ea		
+sample	TB-000095-M1BNBL-01	Unknown	C42.0 : Blood	-999	Normal			a8ac7e56-8df4-585f-a285-c228114077a8	1d620d6b-a1f6-5e90-8e46-482293396764		
+sample	TB-000027-R2WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			a948d719-e274-5ee0-b73e-1aca2adb4210	9a1aae23-0f99-5b46-8634-071517d889e3		
+sample	TB-000029-D1WMPL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			a9dfa13b-8261-5f85-8567-5d27334e67b5	285ee6bd-5abb-5f12-9da0-5aa919112818		
+sample	TB-000113-D1WAML-01	Unknown	C42.1 : Bone marrow	-999	Tumor			aa4ea417-7b6d-5857-b3fb-2369a6afd862	e36f74b4-d759-5f71-b7b7-4e40b9f48278		
+sample	TB-000012-D1WTLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			aa7e092e-1431-516e-95d5-e08ce54f12fc	c499e8e9-9496-5c6a-b363-dacea9bf515f		
+sample	TB-000030-M1BBLL-01	Unknown	C42.0 : Blood	-999	Normal			ab28e40e-7774-5747-961e-cdb3daec8c66	c69967e4-8d5c-5bd4-b7f6-cb030a8ad343		
+sample	TB-000129-D1TRMS-01	Unknown	C49.9 : Connective, subcutaneous and other soft tissues, NOS	-999	Tumor			accb5ffd-125c-5802-8130-f8747531a2d9	a4329148-9411-5b6e-8f4f-23ea52598bce		
+sample	TB-000171-D1TOST-01	Unknown	C41.9 : Bone, NOS	-999	Tumor			ad0b352d-f568-5b39-80ad-bbf2ac138044	29b15457-de66-5a29-ae39-734bb81a48e7		
+sample	TB-000091-D1BAML-01	Unknown	C42.0 : Blood	-999	Tumor			ad966832-8632-5459-858c-59b5b8800cac	1186548b-2b87-57c9-9827-9907194bddf7		
+sample	TB-000221-M1BSRC-01	Unknown	C42.0 : Blood	-999	Normal			ad9a69fa-dd2c-5b69-8abe-861574e7d1a8	55811152-f33d-5bf2-9502-601fc8f36382		
+sample	TB-000030-D1BBLL-01	Unknown	C42.0 : Blood	-999	Tumor			af16b736-c585-58d9-b6b3-f6590eccdb4d	c69967e4-8d5c-5bd4-b7f6-cb030a8ad343		
+sample	TB-000131-M1BBLL-01	Unknown	C42.0 : Blood	-999	Normal			af969d36-bcd0-580c-a087-5a0bba694240	2dc0bf40-c491-52ae-a986-68af0ddce970		
+sample	TB-000155-D1TMBA-01	Unknown	C41.9 : Bone, NOS	-999	Tumor			afc89002-74f5-5e77-8c78-6564cc92d7e2	34c197a0-a05a-507c-af1b-d36e50534329		
+sample	TB-000174-M1BPLL-01	Unknown	C42.0 : Blood	-999	Normal			b0996179-d69c-5e91-81ce-307109453fea	8827379f-7581-5638-8faf-26f47d039e4d		
+sample	TB-000170-M1WCML-01	Unknown	C42.1 : Bone marrow	-999	Normal			b2321922-999f-5c07-b883-012ad0954565	5ac6d0a0-3001-52e5-bb35-fd4c83ad9c66		
+sample	TB-000040-M1BBLL-01	Unknown	C42.0 : Blood	-999	Normal			b262b9d9-7f6f-5a6d-bcd3-d81dedb30d2d	e563a35d-170d-50ef-962f-86e27ce9d279		
+sample	TB-000062-D1TWLM-01	Unknown	C64.9 : Kidney, NOS	-999	Tumor			b2ceda97-19d0-511c-95af-6b795ec2aef2	eabc0a51-b0a2-5220-814c-baed362b3c7c		
+sample	TB-000080-M1BOVR-01	Unknown	C42.0 : Blood	-999	Normal			b34f92d8-93de-5757-865e-25e4b8a5ed21	f16007aa-c432-5175-8e0e-a33567bd7db4		
+sample	TB-000066-D1TNBL-01	Unknown	C38.2 : Posterior mediastinum	-999	Tumor			b3b7d6fc-79b4-58de-9a41-37b7e8f53a0b	37c01ea3-adbb-5aca-9185-931a7415dd2c		
+sample	TB-000099-D1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			b3dea7ef-dc7c-54c1-86b4-774bc4dfe3e3	7ffb90c8-b7fb-5b68-934e-990301dc63a8		
+sample	TB-000223-D1TMBA-01	Unknown	C41.9 : Bone, NOS	-999	Tumor			b3e852b6-7563-5ec5-a0da-e2323a276eba	c20fdcdb-32a3-5be4-b651-4178439768ad		
+sample	TB-000149-D1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			b5116d33-c894-5476-bb30-fea476abae61	ca96a7c1-b312-5b13-a183-07bad9f04881		
+sample	TB-000150-M1BLCL-01	Unknown	C42.0 : Blood	-999	Normal			b5783a59-dc9d-5d0a-bc2c-b195393e97a7	a52508c9-6b10-5689-93c1-cc9d9d4f99a5		
+sample	TB-000074-D1LTLL-01	Unknown	C77.8 : Lymph nodes of multiple regions	-999	Tumor			ba0e1421-8cb0-5ec6-a7e7-4c0c8e7eb935	783536ae-9ac9-5960-9e48-bd7c62857d23		
+sample	TB-000159-M1BTLL-01	Unknown	C42.0 : Blood	-999	Normal			bb25afd1-9415-5ed8-b62b-8ec638c455fb	824af024-2307-5ba2-bcf5-d44fd9485534		
+sample	TB-000042-M1BBLL-01	Unknown	C42.0 : Blood	-999	Normal			bc2e9d31-c1ca-5c17-8ca0-0f9627f42f70	e79c6d7c-2918-5d40-969d-9a67956e18ba		
+sample	TB-000127-M1BPLL-01	Unknown	C42.0 : Blood	-999	Normal			bc4f6fea-e46c-5ea1-99f4-326754229dc9	c011d13c-7a79-53e3-8b9c-aaaa5086f062		
+sample	TB-000230-D1BTLL-01	Unknown	C42.0 : Blood	-999	Tumor			bdaa4f70-e7a5-5d95-9f09-7573e2a78ed4	96010d6c-6842-50a0-be31-b215716aa845		
+sample	TB-000164-M1BBLL-01	Unknown	C42.0 : Blood	-999	Normal			bdbada27-00b1-5961-b3aa-0e26a84d99b4	9e456d6a-2d28-5077-ad5f-f041fa2683ee		
+sample	TB-000165-D1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			bdf24171-237a-5c5e-99e4-357996002f6a	6d001b27-93ba-55ca-8d57-f7950ee7188b		
+sample	TB-000034-M1WAML-01	Unknown	C42.1 : Bone marrow	-999	Normal			be045c93-6476-5f66-a93a-1485c940f017	ec3819de-f459-533c-bf05-0a6a5573026b		
+sample	TB-000180-D2WAML-01	Unknown	C42.1 : Bone marrow	-999	Tumor			be08137a-ce3e-5391-950e-f54870bde66f	781b19ef-ee3b-56e3-94dc-3c1ce43488fc		
+sample	TB-000155-M1BMBA-01	Unknown	C42.0 : Blood	-999	Normal			bf295cd5-00cb-5077-95fa-2eceaf716e22	34c197a0-a05a-507c-af1b-d36e50534329		
+sample	TB-000137-D1TMBA-01	Unknown	C41.9 : Bone, NOS	-999	Tumor			bf89608a-09e5-5b63-8ef7-f6e572315857	9c2d3b5e-c2ac-5aa9-a88b-4d5da826bc5f		
+sample	TB-000028-D1WTLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			bf949f29-d1c4-5c63-a8b0-9cb41a3b6a79	44b4fe89-4494-5977-bb6e-f760fe9d678b		
+sample	TB-000189-M1UBLL-01	Unknown	C06.0 : Cheek mucosa	-999	Normal			c0da8013-ccdd-50f4-a028-d55afce2b848	7ff76be3-495b-58bf-9f2d-b2a4336fe819		
+sample	TB-000192-D1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			c164d17d-8f84-580a-89af-b255a091f450	bf913727-da79-537d-ba1b-b745e3d60808		
+sample	TB-000188-M1UAML-01	Unknown	C06.0 : Cheek mucosa	-999	Normal			c1eb236e-906d-5edd-848d-1fa5fe993b5a	a2c34583-96d8-5173-860e-2c1d75c39934		
+sample	TB-000145-M1BCML-01	Unknown	C42.0 : Blood	-999	Normal			c28d6a67-0ee6-5e68-8ae2-ea7164aad71c	72a8b010-387c-58ec-a788-6270bb91dd08		
+sample	TB-000130-M1BBLL-01	Unknown	C42.0 : Blood	-999	Normal			c3bcde15-5804-5e9a-9e08-afca6e9b7f0c	284c1eae-eb9c-506c-946c-9ec9e404d178		
+sample	TB-000198-M1BSRC-01	Unknown	C42.0 : Blood	-999	Normal			c433bb99-486f-5d91-a062-7a8b583e549d	e350719d-1d1f-5e79-a8cb-29ca7a5a2a04		
+sample	TB-000016-D1WAML-01	Unknown	C42.1 : Bone marrow	-999	Tumor			c50191ce-7632-5ece-a72b-c260feec57ff	8ed89651-c600-5f5d-9d4a-534df63f4395		
+sample	TB-000073-M1WAML-01	Unknown	C42.1 : Bone marrow	-999	Normal			c5681523-49b7-52cf-82e4-2bc52fe74800	2c4b1101-79d2-5d65-94f4-54f0c035a8e1		
+sample	TB-000090-D1TWLM-01	Unknown	C64.9 : Kidney, NOS	-999	Tumor			c599c525-4d71-56e2-99a9-ef0bd50e09eb	334ea807-40f5-56f1-9fd2-e099713713a9		
+sample	TB-000162-D1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			c5f104ad-389e-5873-bb9f-bca82fa1d624	0d58b628-1a15-5c73-a7d5-92135fe0aa75		
+sample	TB-000020-M1BBLL-01	Unknown	C42.0 : Blood	-999	Normal			c6665b4c-f4f1-5ffa-b3b1-cf2ce9d4d91c	4db996e1-d806-5d11-bce4-e7590045b561		
+sample	TB-000228-D1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			c74321df-0f2c-5ab2-a248-985dc1ee46b1	26ec4886-2d12-5e85-8c23-7a78da09cbfa		
+sample	TB-000137-M1BMBA-01	Unknown	C42.0 : Blood	-999	Normal			c78df04d-e118-5b48-8324-9818f1de98ec	9c2d3b5e-c2ac-5aa9-a88b-4d5da826bc5f		
+sample	TB-000147-D1TWLM-01	Unknown	C64.9 : Kidney, NOS	-999	Tumor			c7c646c0-0adc-5641-890a-454a64ba26b7	f2a35863-edc4-594c-987a-c8c3b49c489c		
+sample	TB-000206-M1BMBA-01	Unknown	C42.0 : Blood	-999	Normal			c8b6a105-0f68-54fc-93a2-5f28f23f82c4	39ae7995-1ed3-50de-a219-b6867014ca4e		
+sample	TB-000039-D1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			c8c7d9e3-6a91-57a7-bbb5-2fdb6891cf62	4a0aab92-bf99-5952-94b0-00e6a6c1099b		
+sample	TB-000120-D1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			c9777af0-0eac-5eb5-9e62-97797aa54091	93169f23-83e4-5cbe-9d18-7a6e738e06fc		
+sample	TB-000084-D1TWLM-01	Unknown	C64.9 : Kidney, NOS	-999	Tumor			ca4c55fa-c6d6-5948-9e19-f6d5256c8909	781c3a14-30c6-592c-87a4-b4b09192b708		
+sample	TB-000001-D1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			cb7b4d77-c866-58c6-82b1-0445ec32b06f	420b1471-6800-5367-8cce-72ea0350bc5d		
+sample	TB-000146-M1BNBL-01	Unknown	C42.0 : Blood	-999	Normal			cc13d00c-01f3-5f53-a182-9d73e96b3007	1a67a2d5-8555-5a8f-bf65-a782036e2500		
+sample	TB-000121-M1WAML-01	Unknown	C42.1 : Bone marrow	-999	Normal			cc5d3c5a-aeae-5f35-849b-2ea580d03ca8	1d4ce88c-b707-57dc-b961-5d1023310474		
+sample	TB-000150-D1TLCL-01	Unknown	C77.9 : Lymph node, NOS	-999	Tumor			ce2f7eb5-f653-5caa-a068-8d01f55b3b77	a52508c9-6b10-5689-93c1-cc9d9d4f99a5		
+sample	TB-000148-D1BBLL-01	Unknown	C42.0 : Blood	-999	Tumor			ce54b246-07c6-581e-be02-f9890207f059	a612e925-5af9-5868-93e6-f098150a079f		
+sample	TB-000231-D1TTLL-01	Unknown	C77.9 : Lymph node, NOS	-999	Tumor			ce90d603-b279-5c66-b064-5b89093815ff	6f10db70-dd8a-52c4-99e2-c312f076581e		
+sample	TB-000089-M1BAML-01	Unknown	C42.0 : Blood	-999	Normal			cf70aeef-2173-5329-82db-4b6b54d21680	0dba6172-4eb3-5cca-8ed7-1e479cc0850f		
+sample	TB-000124-D1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			d063661f-4a80-50a0-aee4-409747fbd292	b8251ff1-b992-5bd8-96e9-0dcc8ab2bee0		
+sample	TB-000023-D1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			d221627c-3e05-5006-ae3d-95aeddac8b42	915661a7-73a8-5012-b8ee-b87c044264d4		
+sample	TB-000109-D1WAGL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			d28f97fd-d1f8-5a0e-bb0e-35c5f6dff2f6	79aaf760-17ed-52cf-91bd-0c1398cd1725		
+sample	TB-000074-M1BTLL-01	Unknown	C42.0 : Blood	-999	Normal			d29b4a6f-3f4b-55b7-9f2e-865ce3f02838	783536ae-9ac9-5960-9e48-bd7c62857d23		
+sample	TB-000175-D1WMDS-01	Unknown	C42.1 : Bone marrow	-999	Tumor			d2a7fef9-442e-51b0-b233-8d882a05fc49	e5d0fe64-6d7d-5c5e-b254-18b52eabf3db		
+sample	TB-000060-D1TMRT-01	Unknown	C64.9 : Kidney, NOS	-999	Tumor			d42ba00b-7ac6-5ef2-9b0d-49ae995b0950	011ccbc5-89e0-578f-a67d-9e3db3f0e1e1		
+sample	TB-000020-D1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			d4cfe01b-6ea3-5dce-a844-f4d703da66b1	4db996e1-d806-5d11-bce4-e7590045b561		
+sample	TB-000053-M1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Normal			d5907b8c-8f77-5e9b-9fff-6bea022c4da8	d69f6c3a-73e4-5f8e-ae9c-5dd64632d91a		
+sample	TB-000092-M1BAML-01	Unknown	C42.0 : Blood	-999	Normal			d5d72e06-0fed-58a5-a2bc-fb596308e4bc	706489ca-7154-5dba-9d9d-0446d3ee0b3e		
+sample	TB-000231-M1BTLL-01	Unknown	C42.0 : Blood	-999	Normal			d5ed094e-9471-53f5-8e7a-91138997d879	6f10db70-dd8a-52c4-99e2-c312f076581e		
+sample	TB-000112-M1BWLM-01	Unknown	C42.0 : Blood	-999	Normal			d674aef6-0acd-5c87-8297-08ed364c8f08	47df9650-6138-59d6-92b3-57a960d8d6c8		
+sample	TB-000073-D1WAML-01	Unknown	C42.1 : Bone marrow	-999	Tumor			d733853d-40ee-5f0d-a28e-271667bbe792	2c4b1101-79d2-5d65-94f4-54f0c035a8e1		
+sample	TB-000200-M1UBLL-01	Unknown	C06.0 : Cheek mucosa	-999	Normal			d7836164-5788-5e4c-bc07-a9445c72c701	686760d7-353e-5ac6-9469-b1e7d32a3145		
+sample	TB-000126-M1BNBL-01	Unknown	C42.0 : Blood	-999	Normal			d7c9759e-6310-5701-9e2d-77fd6f228a77	1e67f18d-691c-5e6f-8aa4-75be0620676b		
+sample	TB-000052-M1BAML-01	Unknown	C42.0 : Blood	-999	Normal			d91e53d9-63e3-5eb7-b6d9-8533ac19ca8e	38abd9d3-696b-5720-b263-c3d8f42b6f5f		
+sample	TB-000135-M1BRMS-01	Unknown	C42.0 : Blood	-999	Normal			d9896ecb-9ee1-5eb8-b5a2-56626de5fd61	90139ae2-ac5e-5fb5-946d-c0ca3c95e655		
+sample	TB-000052-D1BAML-01	Unknown	C42.0 : Blood	-999	Tumor			d9dc9abb-e7fc-5b6a-b441-4ae816f15684	38abd9d3-696b-5720-b263-c3d8f42b6f5f		
+sample	TB-000204-D1WAML-01	Unknown	C42.1 : Bone marrow	-999	Tumor			da0ef9aa-82cb-55b0-bfb5-689c34223e95	4e66df9b-a40d-5507-92fe-77f2348e180b		
+sample	TB-000210-M1BBLL-01	Unknown	C42.0 : Blood	-999	Normal			dc30a332-0187-51c0-b96b-18953bababd1	14a552bd-024d-509f-9429-0cf2a9e313d4		
+sample	TB-000131-D1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			dc94f1f3-49da-5a92-8fc6-d35089aaf650	2dc0bf40-c491-52ae-a986-68af0ddce970		
+sample	TB-000160-D1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			dcbb27ce-f8ff-5720-9638-cb946ad8d58a	80f76e04-ca22-5ea1-8a57-e30f81a6cc0b		
+sample	TB-000128-D1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			de5c120e-7477-50ae-b533-917bb6258781	992578a0-d941-5058-9e8c-463fecc08943		
+sample	TB-000118-D1TRMS-01	Unknown	C41.9 : Bone, NOS	-999	Tumor			df2c09f1-6e9a-5d30-85fb-3f7cf78ee326	f41d1909-a032-5d78-a31f-11165adc4f2a		
+sample	TB-000144-D1TMBA-01	Unknown	C41.9 : Bone, NOS	-999	Tumor			df7703b2-96a3-55b7-afc1-f6cae175468f	057a46d3-387b-5a07-8c4b-f8a9c4c157d7		
+sample	TB-000207-D1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			dff17fea-1246-5e0e-b663-d57d939464e5	523ea5c8-8878-57f0-bc07-a69f57672936		
+sample	TB-000166-M1BBLL-01	Unknown	C42.0 : Blood	-999	Normal			e02a3b4a-aaed-52f7-ae1b-4cab881ff0e2	f22f33f0-c1c5-5050-b300-6d177d22ac1d		
+sample	TB-000048-D1BBLL-01	Unknown	C42.0 : Blood	-999	Tumor			e16519cd-1f17-5f0e-8c6e-5bb124bac2ad	9eb93b41-3896-5e78-a9e2-327a9982a06a		
+sample	TB-000172-D1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			e1ad9972-5fd3-5783-a80a-2ef64ca055d0	d64f91b4-d683-51b0-9684-501a89386a32		
+sample	TB-000119-D1TEWG-01	Unknown	C49.9 : Connective, subcutaneous and other soft tissues, NOS	-999	Tumor			e20b1d28-afdc-5f80-952e-d49c5764df25	19757331-14ac-5e01-97a9-dce5d53a9204		
+sample	TB-000115-D1WPLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			e5646ae2-3310-5557-a4f0-110f490a2bec	8b4dba36-9181-5747-9e4f-0489804eb4f1		
+sample	TB-000086-D1TMRT-01	Unknown	C64.9 : Kidney, NOS	-999	Tumor			e69d3b61-f1dd-5fe9-8885-c34a49b8b431	a68ee9bc-41ea-5a15-867c-a2065641e48f		
+sample	TB-000183-D1TATR-01	Unknown	C41.9 : Bone, NOS	-999	Tumor			e6c3a024-1026-5601-9442-00ce8762498f	afd71eea-2a44-5599-b3b7-046a23fd21f3		
+sample	TB-000157-M1WNBL-01	Unknown	C42.1 : Bone marrow	-999	Normal			e6fd0609-403d-5e7b-8e82-3955f60e7495	02cf94c1-eeaf-5d63-8285-584608ec6aed		
+sample	TB-000152-M1BTLL-01	Unknown	C42.0 : Blood	-999	Normal			e7607efc-5aec-5ebd-a630-5dc4b2fb36b5	42366bea-3eae-583b-a218-adcc6bcf3614		
+sample	TB-000053-D1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			e7be605c-894d-5bcf-aad3-2226f8f72d1f	d69f6c3a-73e4-5f8e-ae9c-5dd64632d91a		
+sample	TB-000154-D1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			e82b78fa-ed4f-54f6-904f-c1515de5c8a5	92fd39ee-2b12-5dbd-bbe5-8b0e6ee9bd21		
+sample	TB-000142-M1BNBL-01	Unknown	C42.0 : Blood	-999	Normal			e849150f-a697-53f0-9f14-8a24adbd3ee3	7699fe18-11a7-52da-aea4-6744c9dcfd76		
+sample	TB-000113-M1WAML-01	Unknown	C42.1 : Bone marrow	-999	Normal			e98e3aa0-8535-51bc-900c-4730e60291e6	e36f74b4-d759-5f71-b7b7-4e40b9f48278		
+sample	TB-000173-D1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			ea1c83fa-0a0a-5f17-98d6-71bbbf9abb43	9f6e6492-1fc5-5865-9117-a37d6345ac61		
+sample	TB-000116-M1BHBA-01	Unknown	C42.0 : Blood	-999	Normal			eab9b8a7-8c87-5ec5-987b-aab4d49633be	e479cdb5-375d-54bd-8512-0235ba22b7e6		
+sample	TB-000079-M1BTLL-01	Unknown	C42.0 : Blood	-999	Normal			eb41c902-a3de-520e-97bb-68143540acb0	88df4dee-4203-5ef5-a89c-46f60b282851		
+sample	TB-000076-D1WMDS-01	Unknown	C42.1 : Bone marrow	-999	Tumor			eb775dd6-1ba9-5f52-8cb0-6b514c050768	e581b1bc-e656-563a-948a-19b8cac91f3b		
+sample	TB-000154-M1BBLL-01	Unknown	C42.0 : Blood	-999	Normal			ebee8e0e-6f7d-51b6-be89-ca5a5a6eed6d	92fd39ee-2b12-5dbd-bbe5-8b0e6ee9bd21		
+sample	TB-000091-M1BAML-01	Unknown	C42.0 : Blood	-999	Normal			ec4b7a3a-60e9-59c7-bf79-9f30282dc0b5	1186548b-2b87-57c9-9827-9907194bddf7		
+sample	TB-000222-M1BMBA-01	Unknown	C42.0 : Blood	-999	Normal			ec70a777-0a6b-5920-b2d3-b0c69256fac9	6e58d531-a9b0-5a8a-a715-840c88a871c0		
+sample	TB-000036-M2BBLL-01	Unknown	C42.0 : Blood	-999	Normal			ecfaedd2-51dc-565f-a001-6c95cb45d73f	77ed7484-41d4-5ac4-96b7-c7e9f5d27424		
+sample	TB-000088-D1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			ee1b8bb0-771b-5ad2-9057-7053b44741a0	a8780e32-406b-563d-8f06-49368ed226a0		
+sample	TB-000198-D1TSRC-01	Unknown	C49.9 : Connective, subcutaneous and other soft tissues, NOS	-999	Tumor			ee8fd480-72c6-5f1a-a221-4a0dff1f9cfb	e350719d-1d1f-5e79-a8cb-29ca7a5a2a04		
+sample	TB-000065-D1WAML-01	Unknown	C42.1 : Bone marrow	-999	Tumor			eeb2c9c5-ad5b-5239-bae8-e6f2e052df55	be470754-9322-512f-90a8-c966abc5dde1		
+sample	TB-000017-M1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Normal			f02c122c-3733-57c6-89a0-a2432037f7e4	5daf27ab-92bd-584b-834e-616a28bd900a		
+sample	TB-000127-D1WPLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			f0e23c6e-7e09-56d3-81cd-c5be0d9158b9	c011d13c-7a79-53e3-8b9c-aaaa5086f062		
+sample	TB-000153-M1WNBL-01	Unknown	C42.1 : Bone marrow	-999	Normal			f155fcd0-e61b-5df5-95b3-385646a67831	6d636cd1-03be-5ecf-8f56-c43983ef478d		
+sample	TB-000143-D1WPLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			f17c95b9-45ba-59de-a803-215681c34c67	c7436b71-1571-538e-b996-e17c1f655d98		
+sample	TB-000170-D1WCML-01	Unknown	C42.1 : Bone marrow	-999	Tumor			f1dc6fdd-ad1f-5367-884b-e7116d72dce6	5ac6d0a0-3001-52e5-bb35-fd4c83ad9c66		
+sample	TB-000153-D1TNBL-01	Unknown	C74.9 : Adrenal gland, NOS	-999	Tumor			f27291dc-59bc-51b6-898a-1cd832f18331	6d636cd1-03be-5ecf-8f56-c43983ef478d		
+sample	TB-000024-D1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			f2be3faa-0ce3-5727-803f-77ded1e2e52e	885864cb-99c9-590e-a210-d3a23672bebe		
+sample	TB-000096-D1TGNL-01	Unknown	C74.9 : Adrenal gland, NOS	-999	Tumor			f2d21dd2-1035-5cd0-883e-883c774b05db	de7a85ce-5a78-50ba-8340-01d34cac8942		
+sample	TB-000190-M1UBLL-01	Unknown	C06.0 : Cheek mucosa	-999	Normal			f2f9c669-8729-5a0d-ad2f-b51e2082f6fd	46480cc8-242d-5d0b-81fc-9bccafb36744		
+sample	TB-000059-D1TATR-01	Unknown	C41.9 : Bone, NOS	-999	Tumor			f373d959-db59-5ac5-8af0-8c90ab1857f4	74cad29b-0a97-57af-9388-41aec6362b0c		
+sample	TB-000094-M1UBLL-01	Unknown	C06.0 : Cheek mucosa	-999	Normal			f4085ba9-1982-5b2d-bdbb-a185d73de130	3e18d65d-35a4-5dd2-93c2-39aa22056136		
+sample	TB-000185-D1WTLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			f4460ddb-93ad-53eb-8d4e-bef8af5a28a0	ef251ef2-995c-55be-996c-39201a898379		
+sample	TB-000132-D1THCC-01	Unknown	C22.0 : Liver	-999	Tumor			f54b4d51-2bcd-5a4f-937a-3626fb5acc6b	ccc6b003-dc4c-5664-81d5-3184894949c2		
+sample	TB-000148-M1BBLL-01	Unknown	C42.0 : Blood	-999	Normal			f855d2e3-48ad-5847-b32f-738d52866865	a612e925-5af9-5868-93e6-f098150a079f		
+sample	TB-000145-D1WCML-01	Unknown	C42.1 : Bone marrow	-999	Tumor			f85f11dd-cd61-58ad-b707-5908180fb939	72a8b010-387c-58ec-a788-6270bb91dd08		
+sample	TB-000203-M1UBLL-01	Unknown	C06.0 : Cheek mucosa	-999	Normal			f89cc6f2-df72-5d8c-bcbd-d26ac09c8052	cac63d40-eb2e-58ba-a728-a696691ad657		
+sample	TB-000056-X1BLGG-01	Unknown	C42.0 : Blood	-999	Normal			f8a6a2ec-a7c5-52c6-95c9-3dd0658a0b8d	f4baa857-d394-55ab-a53f-055153e01825		
+sample	TB-000197-D1TBLL-01	Unknown	C77.9 : Lymph node, NOS	-999	Tumor			f8e23551-59ea-51f8-8d36-391d3cb890f0	fe6e0b48-1e77-5112-8bb5-da0f550e9b7b		
+sample	TB-000116-D1THBA-01	Unknown	C22.0 : Liver	-999	Tumor			f9025906-3cb9-5b97-a9c6-8145678b90d4	e479cdb5-375d-54bd-8512-0235ba22b7e6		
+sample	TB-000176-D1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			f9d5bb42-1611-5995-9d28-f0d9862caf3f	e63f2c84-8d52-59d5-975a-4c38dbf42f7f		
+sample	TB-000184-M1BEWG-01	Unknown	C42.0 : Blood	-999	Normal			fa7adbe3-b84a-58cc-8bf4-23ec5e1cbdc2	bed56f9e-42b2-5aaf-9841-ca9ee8db64b4		
+sample	TB-000014-D1WAML-01	Unknown	C42.1 : Bone marrow	-999	Tumor			fb08429d-7836-5f65-980c-cb9646b28637	579de681-10d4-55eb-857d-4fe0e5fa73c2		
+sample	TB-000082-D1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			fb50a26d-d719-587e-9c59-496616a99f4c	8b49845e-792c-5496-ab7e-82f4b272fa5c		
+sample	TB-000038-D1WBLL-01	Unknown	C42.1 : Bone marrow	-999	Tumor			fc54b435-ba69-5469-8d36-0d332c9c0417	4956bebc-485e-5bff-a26d-7a8371a22b96		
+sample	TB-000160-M1BBLL-01	Unknown	C42.0 : Blood	-999	Normal			fcfa166a-802e-5530-a6d8-58e16637709e	80f76e04-ca22-5ea1-8a57-e30f81a6cc0b		
+sample	TB-000086-M1BMRT-01	Unknown	C42.0 : Blood	-999	Normal			fe14e54a-87b3-5497-8cfc-af6a16e359a1	a68ee9bc-41ea-5a15-867c-a2065641e48f		
+sample	TB-000115-M1WPLL-01	Unknown	C42.1 : Bone marrow	-999	Normal			fe6760c6-b6e7-5677-a171-d67abae5b35e	8b4dba36-9181-5747-9e4f-0489804eb4f1		
+sample	TB-000010-M1BBLL-01	Unknown	C42.0 : Blood	-999	Normal			fe6c0184-9716-51f9-82d2-4b7a479d0eb6	6c063e37-b85b-5e9a-9ed9-18873c1cad40		
+sample	TB-000055-M2WBLL-01	Unknown	C42.1 : Bone marrow	-999	Normal			fe887769-d72f-55c4-8457-eff3fde73202	aea84d95-bfe2-58aa-af95-8b1a90971b7e		
+sample	TB-000210-D1TBLL-01	Unknown	C77.9 : Lymph node, NOS	-999	Tumor			fecdecf0-3f81-5512-8f2e-529291431e5c	14a552bd-024d-509f-9429-0cf2a9e313d4		
