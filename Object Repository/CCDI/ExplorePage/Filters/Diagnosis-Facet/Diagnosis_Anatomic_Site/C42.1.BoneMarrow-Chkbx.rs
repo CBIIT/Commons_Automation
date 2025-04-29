@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Anatomic Site_C42.1 : Bone marrow&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Diagnosis Anatomic site_C42.1 : Bone marrow&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Anatomic Site_C42.1 : Bone marrow&quot;]</value>
-      <webElementGuid>018fed2f-ec71-4f1d-ae82-8defbfdb2bce</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Diagnosis Anatomic site_C42.1 : Bone marrow&quot;]</value>
+      <webElementGuid>eaba8757-fa8c-483e-a733-f3764dd29a49</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
