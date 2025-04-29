@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@class='MuiGrid-root MuiGrid-container']/div/div/div/div/div[1]</value>
+         <value>//h1[contains(text(),'C3DC Community')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[@class='MuiGrid-root MuiGrid-container']/div/div/div/div/div[1]</value>
-      <webElementGuid>b0c7a3ae-c97a-4b03-8f4d-8d24fb4c13b2</webElementGuid>
+      <value>//h1[contains(text(),'C3DC Community')]</value>
+      <webElementGuid>21715ebd-8420-4da1-8776-722e9168c042</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
