@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>C22.0-Liver-Chkbx</name>
+   <name>C41.8OverlappingLesion-Chkbx</name>
    <tag></tag>
-   <elementGuidId>5a80119a-a1da-4c09-bbe4-d743166d3802</elementGuidId>
+   <elementGuidId>8c3d2924-e5cd-4127-873c-5010e3c33d31</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Diagnosis Anatomic site_C22.0 : Liver&quot;]</value>
+         <value>//*[@id='checkbox_Diagnosis Anatomic site_C41.8 : Overlapping lesion of bones, joints and articular cartilage']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Diagnosis Anatomic site_C22.0 : Liver&quot;]</value>
-      <webElementGuid>3a5ccc90-c119-475b-8153-e773c63fc41a</webElementGuid>
+      <value>//*[@id='checkbox_Diagnosis Anatomic site_C41.8 : Overlapping lesion of bones, joints and articular cartilage']</value>
+      <webElementGuid>816bf814-46db-4353-81ae-3d203ad66578</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
