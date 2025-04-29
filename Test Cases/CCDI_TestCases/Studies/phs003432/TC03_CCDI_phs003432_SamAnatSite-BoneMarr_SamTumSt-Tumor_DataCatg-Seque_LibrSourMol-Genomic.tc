@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_CCDI_phs003432_SamAnatSite-BoneMarr_SamTumSt-Tumor_DataCatg-Seque_LibrSourMol-Genomic</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cbe703b0-2879-4174-87ee-1050f8eb3f06</testCaseGuid>
+</TestCaseEntity>
