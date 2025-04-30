@@ -3,7 +3,7 @@
    <description></description>
    <name>tbi_Chkbx</name>
    <tag></tag>
-   <elementGuidId>2530f51c-ae9e-4317-ab45-97706d711989</elementGuidId>
+   <elementGuidId>0059cdac-8221-464e-8e99-bee50220f6ae</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -19,6 +19,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;checkbox_File Type_tbi&quot;]</value>
-      <webElementGuid>66dd2e13-1e57-4b85-bf68-d63b112f6685</webElementGuid>
+      <webElementGuid>d9983ab4-ead2-4e10-aecf-77197e1238ad</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
