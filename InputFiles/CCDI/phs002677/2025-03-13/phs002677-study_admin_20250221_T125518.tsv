@@ -1,0 +1,2 @@
+type	study_admin_id	organism_species	adult_or_childhood_study	file_types_and_format	number_of_participants	number_of_samples	id	study.id
+study_admin	phs002677_admin	Human	Pediatric	(Genomics) MAF; tsv	835	835	88cef53a-d598-5250-8b0d-100e5618eb9b	d46120e8-5b72-5aec-a06c-8df737ad2289

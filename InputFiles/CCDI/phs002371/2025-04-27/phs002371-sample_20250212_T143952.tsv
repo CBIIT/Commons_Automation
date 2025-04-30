@@ -1,0 +1,35 @@
+type	sample_id	tumor_classification	anatomic_site	participant_age_at_collection	sample_tumor_status	sample_description	crdc_id	id	participant.id	pdx.id	cell_line.id
+sample	HTA4_8_1024	Primary	C42.0 : Blood	6570	Tumor	Blood Biospecimen Type		01b84251-e610-5bfa-a309-4ca0627dbdac	9c3a8c7b-7200-55e4-a9b5-9fd0e9a23154		
+sample	HTA4_10_1045	Primary	C42.0 : Blood	6570	Tumor	Blood Biospecimen Type		036347bd-c8ab-5b2a-896d-1cf0252fbf0f	83ec2d26-0c9c-53d5-acc4-006342fea5e9		
+sample	HTA4_2_1066	Primary	C42.0 : Blood	6570	Tumor	Blood Biospecimen Type		0c52d86e-16a3-5b90-8f2f-0dcdc4569b17	a2435b75-2bd6-5464-a251-d8bef74589f0		
+sample	HTA4_29_1000	Primary	C42.1 : Bone marrow	-999	Tumor	Bone Marrow Biospecimen Type		150012ec-1ab1-5765-8dc2-bde280c09691	4e03d5a5-7c40-566e-b1b5-d15ca1a561aa		
+sample	HTA4_24_1084	Primary	C42.0 : Blood	6570	Tumor	Blood Biospecimen Type		1f626889-ae2e-5b2c-805a-d4b1f1bfed1e	ae790881-7bd1-53ce-8346-f49446cb6270		
+sample	HTA4_20_1087	Primary	C42.1 : Bone marrow	6570	Tumor	Bone Marrow Biospecimen Type		2036f5b3-f523-51d3-a45f-e35e0472f3df	d7914477-5dde-5b69-8f64-1780a811b0b6		
+sample	HTA4_21_1069	Primary	C42.0 : Blood	6570	Tumor	Blood Biospecimen Type		29993a2f-2cbe-52e2-80e8-091746cb3a22	5a3fe970-14c0-5560-b105-372f12153444		
+sample	HTA4_21_1078	Primary	C42.1 : Bone marrow	6570	Tumor	Bone Marrow Biospecimen Type		321721ac-01c8-501f-b317-f45d8987d72a	5a3fe970-14c0-5560-b105-372f12153444		
+sample	HTA4_12_1027	Primary	C42.0 : Blood	6570	Tumor	Blood Biospecimen Type		349a8d49-5162-5e0d-aaef-015b4a7ee581	5ff65582-245c-5bd5-875c-7b310d6f6b49		
+sample	HTA4_23_1081	Primary	C42.0 : Blood	6570	Tumor	Blood Biospecimen Type		3613b978-6aae-51de-b85d-fe09401324c2	facd7af0-9ca8-58e0-95f8-3ccb149edd9c		
+sample	HTA4_14_1063	Primary	C42.0 : Blood	6570	Tumor	Blood Biospecimen Type		37d9b337-9b8a-551d-b170-6ec68cfd11e9	5a0d1baf-d3d6-5440-be4f-a9512219869f		
+sample	HTA4_25_1093	Primary	C42.1 : Bone marrow	6570	Tumor	Bone Marrow Biospecimen Type		3944442c-61fe-596c-b9cb-7fc52ae77c26	d9d47228-bf1a-5a32-99fc-9eb126ec6db1		
+sample	HTA4_27_1009	Primary	C42.1 : Bone marrow	-999	Tumor	Bone Marrow Biospecimen Type		42002148-1097-5087-9005-305df55df245	a59a2ff3-f33e-5ce7-bda9-b588fd2e9559		
+sample	HTA4_5_1018	Primary	C42.0 : Blood	6570	Tumor	Blood Biospecimen Type		46805c80-44bc-593f-8508-55e8b12d5591	0ae2fd34-f125-5b73-9dfa-84d683b5ddd7		
+sample	HTA4_7_1036	Primary	C42.0 : Blood	6570	Tumor	Blood Biospecimen Type		52770d2b-f43f-55bf-9a3b-46a1d4271826	2d17e784-4063-58d4-8b27-57f0ea2bc227		
+sample	HTA4_11_1021	Primary	C42.0 : Blood	6570	Tumor	Blood Biospecimen Type		63f45902-c85d-5973-a9a8-0119264ea422	48e66daf-ecc2-5bda-8116-0d0e226f8295		
+sample	HTA4_17_1048	Primary	C42.0 : Blood	6570	Tumor	Blood Biospecimen Type		75d50b9a-2915-52a1-91ab-34e571de86c3	73d0a2c7-0002-5e74-9af7-27b7ec0bd49a		
+sample	HTA4_21_1072	Primary	C42.1 : Bone marrow	6570	Tumor	Bone Marrow Biospecimen Type		771a3cb5-0ac6-5e02-8154-4be6c7ac43b8	5a3fe970-14c0-5560-b105-372f12153444		
+sample	HTA4_22_1096	Primary	C42.0 : Blood	6570	Tumor	Blood Biospecimen Type		7b478169-8188-5094-9f33-a0f07508cc09	8bca8830-2713-50fd-bf93-f9234d133659		
+sample	HTA4_26_1003	Primary	C42.1 : Bone marrow	-999	Tumor	Bone Marrow Biospecimen Type		819eea35-53d3-5bf9-b60e-77c4848ce8a2	951346f3-f945-5b83-8ae7-09dd1e0a10e2		
+sample	HTA4_16_1054	Primary	C42.0 : Blood	6570	Tumor	Blood Biospecimen Type		91e85e78-e178-5a9d-a6ac-45d59465752b	7c2a6ed4-1136-5700-a2b7-1012db51d181		
+sample	HTA4_28_1006	Primary	C42.1 : Bone marrow	-999	Tumor	Bone Marrow Biospecimen Type		95fe35ad-228b-522f-9e96-75ec93b20f67	4fcf57a0-d583-5de2-80d4-62e55f7daf11		
+sample	HTA4_19_1099	Primary	C42.1 : Bone marrow	6570	Tumor	Bone Marrow Biospecimen Type		99e98a10-a3df-5931-9097-162ab5ecb7df	6ae09bb9-4588-54b0-9235-2cb134600ef5		
+sample	HTA4_6_1060	Primary	C42.0 : Blood	6570	Tumor	Blood Biospecimen Type		9e4ce4b2-e1f8-5ee4-ad6f-e19b1dc68d6a	68055cda-9479-5f59-8be5-f680e87039c8		
+sample	HTA4_9_1057	Primary	C42.0 : Blood	6570	Tumor	Blood Biospecimen Type		9ed6785a-a95f-5ef9-ad6a-ea6401c5dac5	17d80e7b-c01a-5605-a929-6aaf4ed2812e		
+sample	HTA4_13_1039	Primary	C42.0 : Blood	6570	Tumor	Blood Biospecimen Type		a570ea6e-60ba-5f4a-b0f6-9314916f4914	c1df72d4-4280-5dd8-b439-07dd63f2255b		
+sample	HTA4_15_1042	Primary	C42.0 : Blood	6570	Tumor	Blood Biospecimen Type		ac8625ff-3ffc-5379-bda1-74c26c3a0b86	986fe07c-79f2-57d5-88e6-cad0fc77cadb		
+sample	HTA4_1_1033	Primary	C42.0 : Blood	6570	Tumor	Blood Biospecimen Type		b7f6216c-b603-5561-8d5f-55896601d5e3	206c3df1-6a66-5805-9256-db321b4f1229		
+sample	HTA4_21_1075	Primary	C42.0 : Blood	6570	Tumor	Blood Biospecimen Type		c1573188-f154-5be4-bdd1-6c29fd3c7092	5a3fe970-14c0-5560-b105-372f12153444		
+sample	HTA4_20_1090	Primary	C42.0 : Blood	6570	Tumor	Blood Biospecimen Type		d808199a-3b90-5a01-80bb-86c8e08fdcb2	d7914477-5dde-5b69-8f64-1780a811b0b6		
+sample	HTA4_3_1030	Primary	C42.0 : Blood	6570	Tumor	Blood Biospecimen Type		da864933-e927-50bd-8265-d49c4cf30473	f6f62c73-1671-59a4-9551-e7cc8c64fac0		
+sample	HTA4_4_1015	Primary	C42.0 : Blood	6570	Tumor	Blood Biospecimen Type		df2e9538-a58d-532f-b907-cbe4afc64143	c30a6b9b-3712-5428-8425-eddc89671911		
+sample	HTA4_30_1012	Primary	C42.1 : Bone marrow	-999	Tumor	Bone Marrow Biospecimen Type		e566267d-8fc8-567b-b9c2-38679980a755	0afc474d-fcd7-5958-a718-8a8d1da778e4		
+sample	HTA4_18_1051	Primary	C42.0 : Blood	6570	Tumor	Blood Biospecimen Type		edbe47d8-7353-5f44-a697-5e416d9ff45e	2fe35215-d5ed-531b-bd91-fb2840a45f54		

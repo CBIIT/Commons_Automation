@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_CCDI_phs002599_DiagBasis-Clinical_DiseasePhase-Unknown_Sex-Female_TreatmAgent-Cytarabine_LastKwnSurSt-Alive</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>80e48ac4-53b6-45b6-8bcf-67e4d4a93de1</testCaseGuid>
+</TestCaseEntity>
