@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_CCDI_phs000465_DiagClasSyst-IndicForStudy_DiagBasis-Clinical-SampleTumSt-Tumor</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e8a2d0e6-1e5e-4cc6-9c87-717ad6669818</testCaseGuid>
+</TestCaseEntity>

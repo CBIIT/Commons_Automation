@@ -1,0 +1,60 @@
+type	sample_id	tumor_classification	anatomic_site	participant_age_at_collection	sample_tumor_status	sample_description	crdc_id	id	participant.id	pdx.id	cell_line.id
+sample	PAUKIZ.PDX.sample	Primary	C42.1 : Bone marrow	-999	Tumor			035fbc5b-2418-5274-95c0-75446792c040		8b1bf4d2-f9af-5ecb-ab90-c0c6443e0a53	
+sample	PAVTCV	Primary	C42.1 : Bone marrow	3177	Tumor			064243ba-db40-5eca-aa32-cf039d59a96e	6e3c7e39-c967-53c0-9173-661d11571a72		
+sample	PAUYJE	Primary	C42.0 : Blood	2436	Tumor			0aa326bc-a59a-563f-bb9e-96896a9251c6	eb94f693-a441-5ad8-8fea-2343846b25e1		
+sample	T1	Not Applicable	C37.9 : Thymus	1825	Normal			0b370ee4-c28c-5527-9f3e-0782a649d3bc	379d0274-1568-50a3-9a4e-423b299cdaae		
+sample	PAVVVF	Primary	C42.1 : Bone marrow	6252	Tumor			0c394174-ebef-5e69-9391-36e7ad1d3028	74fa5357-9bb8-5c61-81f1-037c7e20c10f		
+sample	PASWWT.PDX.sample	Primary	C42.0 : Blood	-999	Tumor			15ad1549-bdf4-507c-b647-bda3f707b971		5179f73c-d67a-5fde-8988-bb9fa1fc8978	
+sample	PASKMG.PDX.sample	Primary	C42.1 : Bone marrow	-999	Tumor			19b5313a-d0b8-5a64-8043-2151b7e30b76		fd2935d6-9ee6-5f9f-bbc7-654a447ab4b4	
+sample	PAUNZE	Primary	C42.0 : Blood	3219	Tumor			19e21f83-864b-5cea-abb4-582a523b8914	23392fa8-01df-513a-9f80-fb020402afce		
+sample	T2	Not Applicable	C37.9 : Thymus	730	Normal			1c0b61ab-a60d-5fdc-ac14-a10eae7ab596	2f053db8-f512-59af-8aca-ce9702dbefb3		
+sample	PAUMAV	Primary	C42.1 : Bone marrow	4930	Tumor			1c0d2498-f275-59ad-ad4d-c285cef11d04	b6a9265d-d601-5e03-9969-f947125afd29		
+sample	PAUNZE.PDX.sample	Primary	C42.1 : Bone marrow	-999	Tumor			1c8a6ec5-6811-5146-8310-170f56daa22a		efdec10d-222f-5e7f-a61c-9a2c654a7b94	
+sample	PAVLKA.PDX.sample	Primary	C42.1 : Bone marrow	-999	Tumor			1f470d89-68e7-5817-9a7c-7c5942e7f3e6		3d40a5da-c69a-5481-9a2e-e5298545eaf0	
+sample	PAUPTX	Primary	C42.1 : Bone marrow	3516	Tumor			208fbd1c-8484-5c6a-8b77-f44bb0862d9f	61828032-7b72-58a2-9ee9-08258b0f9108		
+sample	PATPKZ.PDX.sample	Primary	C42.0 : Blood	-999	Tumor			269deb77-05cb-502e-8c9d-e0de135205c4		a6e16c2c-444f-51b6-8da6-ddce14d04e23	
+sample	PATTDP	Primary	C42.1 : Bone marrow	9978	Tumor			2b492dd9-006d-507d-a4db-81b747029ebb	0323b682-a048-5909-bd4b-371d64a72895		
+sample	PAVJCH	Primary	C42.1 : Bone marrow	2754	Tumor			2d54f3e9-59c4-5f0f-83a2-ffee0b07e38c	f7922312-f1ef-5be2-9b34-ac84fc1c1f45		
+sample	PASZKM	Primary	C42.1 : Bone marrow	1110	Tumor			2dcb3176-4112-5d29-9cc9-ba6e052fe92f	4adbf0de-c22a-5839-b318-128650021d18		
+sample	PATDFE	Primary	C42.1 : Bone marrow	1835	Tumor			32436fa0-c50b-58de-9adb-2d63b23bbeb1	81045c17-0f8e-5276-a62c-899d8c9ac8e9		
+sample	PASZMC.PDX.sample	Primary	C42.1 : Bone marrow	-999	Tumor			32a954a0-e0e6-5d1b-a8ac-cf0969d3d365		6d162f1b-3cb0-5e77-80ae-413e7b8cbc8e	
+sample	PAUNDK	Primary	C42.1 : Bone marrow	3129	Tumor			35e6f94c-eecd-53c2-b034-b2690f08d096	1713deeb-88cc-5d3b-bc61-ea7220ffaf1b		
+sample	PAVYVY.PDX.sample	Primary	C42.1 : Bone marrow	-999	Tumor			36346ec0-1412-5ede-a42d-fe23de44e5cb		5d87df73-90cd-5a00-9d58-b6e40af8891c	
+sample	PATIPB	Primary	C42.0 : Blood	1665	Tumor			36b60b53-4b9e-5d2a-ba52-c24acd9dedf8	463c097d-594a-5506-bb95-c122d8b83026		
+sample	PAUMXB	Primary	C42.1 : Bone marrow	3957	Tumor			5b6dd12a-9779-5175-9e9b-f71f457c4fcf	2465f116-31f3-5408-a0a6-9112f3600b0d		
+sample	PAVSEI	Primary	C42.1 : Bone marrow	4756	Tumor			6277729e-3fff-52e6-8cdd-9d689009ca5e	47e402e1-cde0-5d12-8e11-b0dde13ebabc		
+sample	PAVSRU	Primary	C42.1 : Bone marrow	3088	Tumor			6e1398c2-ca29-59af-bdc0-b6be62dd3077	9a63b8cb-506e-502a-bd1b-12c120142d2f		
+sample	PAVVVF.PDX.sample	Primary	C42.1 : Bone marrow	-999	Tumor			70ce728c-768d-50d2-8340-55e09fede70b		14e38993-4cad-5196-b988-c645baa01ff3	
+sample	PATPKZ	Primary	C42.0 : Blood	3185	Tumor			7159e69e-a93e-5249-9f34-a20efb952b92	f01ed6a6-e391-593e-b5d6-db64c443da18		
+sample	PAURXZ	Primary	C42.1 : Bone marrow	5725	Tumor			74b44f00-cc31-5699-b2a5-969c20de2dd2	3fb6c884-6c84-594a-bfd1-d7b3b7bd797e		
+sample	PATENL	Primary	C42.1 : Bone marrow	1345	Tumor			7578c326-6788-581e-83e5-1edf0cbfdfba	cbd2c67e-9ee8-5256-bf1e-52e48a9a3b9b		
+sample	PAVUFK	Primary	C42.1 : Bone marrow	7159	Tumor			758a3bc0-83c4-58d7-b429-599e7c5214d1	c4a69b75-f5e0-5889-961a-f1a917cb0cdc		
+sample	PAVFKN	Primary	C42.0 : Blood	4047	Tumor			767a1668-d180-5a00-ac9b-37c40232b4ce	1f7380c3-764f-5f4b-98ca-7f75da7a1a55		
+sample	PAUUZY	Primary	C42.1 : Bone marrow	5567	Tumor			776895ff-6b0d-505b-a095-d045365a1eb3	b92844a1-2648-54d6-9ed4-a89a4731b8d7		
+sample	PAVLII	Primary	C42.0 : Blood	6469	Tumor			815fc9be-7e78-5c2c-9cbd-0f84bb02f632	92247f24-7068-5b7a-8fb3-41bcf15839ba		
+sample	PAVLUN	Primary	C42.1 : Bone marrow	2079	Tumor			822c2895-0bcf-525e-b424-ed1efda8fe72	e95e817c-ca42-56a8-ba7e-ddb157467425		
+sample	PAVTXP	Primary	C42.1 : Bone marrow	4465	Tumor			85e1b0f7-7be8-5aa5-96db-bf00f98aa38c	310d176e-3723-5ca6-9446-a8019722ce87		
+sample	PAUNDK.PDX.sample	Primary	C42.0 : Blood	-999	Tumor			8adbd5ed-c976-5136-9426-b7a78b8cb6a0		af7aa833-4dad-5dc1-bde7-ceab7b685736	
+sample	T3	Not Applicable	C37.9 : Thymus	128	Normal			8d3eb938-5be1-5c2e-8f92-8a6771f861ea	b2c51d24-d2bd-5ccd-821e-fd5246fa3867		
+sample	PAVYVY	Primary	C42.1 : Bone marrow	4087	Tumor			8eac5087-6541-5c2f-b9d6-8c43e495d3d5	d5fcca5f-96d7-54db-b189-197a3f3fefbb		
+sample	PAVLKA	Primary	C42.1 : Bone marrow	2253	Tumor			9916af8f-2456-58f6-8f43-f700936517fd	a09aaf2d-e875-5c6b-8412-9da1c7c9998b		
+sample	PATMYZ	Primary	C42.1 : Bone marrow	4421	Tumor			9b8399db-c726-585f-be7a-73d00d301a58	12b5baa3-8499-5ee4-bb38-d88355367aca		
+sample	PAVVVK	Primary	C42.1 : Bone marrow	2212	Tumor			9c283d3d-95dd-5897-af7c-961b0d7e70bf	dea1843e-62c8-5353-a4a2-a76201c5b323		
+sample	PAURIX	Primary	C42.1 : Bone marrow	6293	Tumor			9d264d4b-9ce4-5607-b0b0-78b00c4a6b7a	8bf52df4-db4b-5edc-b739-e233dc2fcf56		
+sample	PATTDP.PDX.sample	Primary	C42.0 : Blood	-999	Tumor			a2656da0-2cd1-5ab7-829a-6b214e679ad7		18c19b3f-f5fe-5a79-8d52-210ba3b8b20a	
+sample	PAWIIR.PDX.sample	Primary	C42.1 : Bone marrow	-999	Tumor			b219b16a-7a67-5ae3-937b-efd7e4272eb5		17edc274-d5a7-52e8-ad5b-5760c78b533a	
+sample	PAUFAM	Primary	C42.1 : Bone marrow	6409	Tumor			b22e8a99-e5f6-54e0-9d17-1a198c47132f	1f037d44-2d8e-5e64-9e5c-63d06caec6be		
+sample	PAVINC	Primary	C42.1 : Bone marrow	3892	Tumor			b3977942-0523-57fc-85e0-7ee201260a52	741bea52-e98f-5b2b-9c71-2b004b3b138e		
+sample	PASZMC	Primary	C42.1 : Bone marrow	2697	Tumor			b8039a1c-4300-5244-a4dd-dec74eed03db	8af120e5-634a-5ef4-8956-74be001671d1		
+sample	PAURXZ.PDX.sample	Primary	C42.1 : Bone marrow	-999	Tumor			ba5b3ff6-089b-5480-a8a7-ff635f941fbe		0c306289-f320-5ead-8bcc-a0917163d816	
+sample	PASKMG	Primary	C42.1 : Bone marrow	7118	Tumor			be88cee9-ddde-567c-a1b9-c086ef320c13	790ac770-b2e7-514b-8c04-b0a87746085d		
+sample	PASWWT	Primary	C42.0 : Blood	680	Tumor			bfc9e15f-820a-5117-917a-bf56b9d32bd7	ef0a8312-2f04-59e3-99bd-6a93ac0a5039		
+sample	PAUPVR	Primary	C42.1 : Bone marrow	956	Tumor			c64358ed-abd9-56d0-accf-764930e9cfdb	f8dd6d13-e949-5898-8baa-1bbacc1761d5		
+sample	PATEVG	Primary	C42.0 : Blood	4454	Tumor			c8f643b1-8d15-5d7c-b69a-66a21071822b	2ceb336e-d60b-581a-8b5c-8450e1df8988		
+sample	PAUKIZ	Primary	C42.1 : Bone marrow	1939	Tumor			d15b3f5b-0c02-579c-9201-d22619cae60c	45376b56-efed-58fc-b2f8-1fa8a87019a9		
+sample	PAWIIR	Primary	C42.1 : Bone marrow	6255	Tumor			dcde5480-486c-5c70-967f-e91f16bbf23a	9dc11ed9-3491-5c63-af35-01afb3964fe0		
+sample	PAWGWD	Primary	C42.1 : Bone marrow	6356	Tumor			e1b2d59a-0f1b-53c6-8a17-56dbd16363a2	c57e3369-766a-5164-b281-4bceb6679323		
+sample	PATENL.PDX.sample	Primary	C42.1 : Bone marrow	-999	Tumor			e6b4efbd-f242-5ea5-95e0-3983d69ed7b0		732a36a8-8bdb-5ae0-9365-afb2a2b1c9fc	
+sample	PATIPB.PDX.sample	Primary	C42.1 : Bone marrow	-999	Tumor			e78f6d2c-fe6d-59d7-b855-33010277ba1d		040f52d5-ef76-56d6-955b-a688c683a40c	
+sample	PATDFE.PDX.sample	Primary	C42.1 : Bone marrow	-999	Tumor			ede2764e-cc78-507d-a49d-953ecda1cfba		67b9aeb1-5be5-5d6e-a2ff-a63e4d692390	
+sample	PAUHWY	Primary	C42.1 : Bone marrow	3228	Tumor			fffbc4b3-d801-54fb-9626-232250dd7924	9fd1078d-95b1-50fc-87cc-20d722defeff		
