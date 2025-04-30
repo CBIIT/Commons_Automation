@@ -249,4 +249,32 @@
       <testCaseId>Test Cases/CCDI_TestCases/Studies/phs002431/TC04_CCDI_phs002431_SampleAnatomicsite-Buccalmucosa</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>9fdf92f3-186f-4455-b2e3-48d8f1c19156</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CCDI_TestCases/Studies/phs002518/TC01_CCDI_phs002518_Sex-Male_Treatagent-Imatinib_Filetype-bam</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>275f16f6-85a2-4bb7-85cb-d983ca4f5e4c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CCDI_TestCases/Studies/phs002518/TC02_CCDI_phs002518_Race-White_Lastknwnsrv-Dead_Diagnosisanatste-C220Liver</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0dfc88a0-6a02-4240-8904-92de5c771ef7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CCDI_TestCases/Studies/phs002518/TC04_CCDI_phs002518_Race-Hispanic_Lastknwnsrv-Alive_Diagnosisanatste-C418OverlappingLesion</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2aef358f-023c-4edb-a7e9-8d45650b8e9f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CCDI_TestCases/Studies/phs002518/TC03_CCDI_phs002518_Diag-80003NeoplasmMal_TreatType-SurgProc</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
