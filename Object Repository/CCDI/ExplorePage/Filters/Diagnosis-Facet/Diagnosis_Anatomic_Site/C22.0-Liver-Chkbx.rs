@@ -19,6 +19,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;checkbox_Diagnosis Anatomic site_C22.0 : Liver&quot;]</value>
-      <webElementGuid>3a5ccc90-c119-475b-8153-e773c63fc41a</webElementGuid>
+      <webElementGuid>1c6b653c-8d91-4b42-bd0b-61bce37e55d6</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

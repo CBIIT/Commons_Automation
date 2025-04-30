@@ -1,0 +1,15 @@
+type	survival_id	last_known_survival_status	age_at_last_known_survival_status	first_event	event_free_survival_status	age_at_event_free_survival_status	follow_up_category	follow_up_other	adverse_event	comorbidity	comorbidity_method_of_diagnosis	risk_factor	cause_of_death	id	participant.id
+survival	PASKMG.vstatus	Dead	7426											11a095a3-1ffa-5777-bbf9-dac02070bc14	790ac770-b2e7-514b-8c04-b0a87746085d
+survival	PAUPVR.vstatus	Dead	1147											2c038cf3-b16c-5b2b-bd4b-d32262a76e3f	f8dd6d13-e949-5898-8baa-1bbacc1761d5
+survival	PAVINC.vstatus	Dead	5765											2d3ea404-03be-580d-80e9-208f3b1f79e1	741bea52-e98f-5b2b-9c71-2b004b3b138e
+survival	PAVVVF.vstatus	Dead	6694											61bb448c-abdb-5762-ad9a-57edb927a43e	74fa5357-9bb8-5c61-81f1-037c7e20c10f
+survival	PAVYVY.vstatus	Dead	4309											65b978f2-6180-5f80-aa11-119a414dbd81	d5fcca5f-96d7-54db-b189-197a3f3fefbb
+survival	PAVSRU.vstatus	Dead	3515											6becde27-e1d1-55f1-be89-1e27ccc17810	9a63b8cb-506e-502a-bd1b-12c120142d2f
+survival	PAUPTX.vstatus	Dead	4701											6eadee0c-0e65-56c2-b111-650e4877c731	61828032-7b72-58a2-9ee9-08258b0f9108
+survival	PATTDP.vstatus	Dead	10723											75772962-9c82-52dd-9aa7-34f379721a8a	0323b682-a048-5909-bd4b-371d64a72895
+survival	PAURXZ.vstatus	Dead	6790											a14b1869-120c-5020-ab28-bc645d3cd6aa	3fb6c884-6c84-594a-bfd1-d7b3b7bd797e
+survival	PAURIX.vstatus	Dead	9130											d847f9ec-41c6-526c-9b1e-f29bbb7aae50	8bf52df4-db4b-5edc-b739-e233dc2fcf56
+survival	PATEVG.vstatus	Dead	4877											dbed9b47-34c0-59e6-ab83-eebe6626e662	2ceb336e-d60b-581a-8b5c-8450e1df8988
+survival	PASZMC.vstatus	Dead	2876											e0153395-9256-597d-904d-45999b50ab17	8af120e5-634a-5ef4-8956-74be001671d1
+survival	PATENL.vstatus	Dead	1950											e60d06d3-ee4b-5ce0-96fe-2a1f3b8e0f6f	cbd2c67e-9ee8-5256-bf1e-52e48a9a3b9b
+survival	PAUKIZ.vstatus	Dead	3751											eae961fa-72c2-5e2b-9f11-28570d4b651a	45376b56-efed-58fc-b2f8-1fa8a87019a9

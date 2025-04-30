@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_CCDI_phs002529_Sex-Female_StudyName_FileMap-Sample_LibrSelec-Random_LibrSourMol-Transcriptmic</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c30cced5-b911-481d-a9d2-29c7d2224fe5</testCaseGuid>
+</TestCaseEntity>

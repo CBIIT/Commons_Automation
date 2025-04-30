@@ -1,0 +1,1187 @@
+type	treatment_id	age_at_treatment_start	age_at_treatment_end	treatment_type	treatment_agent	dose	dose_unit	dose_route	dose_frequency	id	participant.id
+treatment	R30327636_ther_proc_2	-999	-999	Chemotherapy	Cyclophosphamide;Fludarabine;Melphalan;Thiotepa;Tumor-Infiltrating Lymphocytes					0084715a-5bed-5792-b476-30c4d029a372	34269dfa-6590-50f5-a746-ed885700a676
+treatment	R29293238_ther_proc	-999	-999	Not Reported						0088da29-8769-51aa-9e1d-a605b4a7fb8f	2afb47de-c68a-5cd2-977a-5c328e8ae9d4
+treatment	R93363095_ther_proc	-999	-999	Not Reported						010be72e-6f43-52ba-8122-3c464b6354c1	3dd3e1c0-7678-56be-aacc-cf83d09ab8fa
+treatment	R83180901_ther_proc	-999	-999	Surgical Procedure						01184672-5c19-5fb2-aa3b-ec5fc0c2b37e	25d76f69-309d-5716-914c-d84875a3e173
+treatment	R91545099_ther_proc	-999	-999	Not Reported						0119c370-8bb2-59fd-8fb7-17ced728b02e	4260020e-0f06-5136-aa54-f488a5d159f9
+treatment	R67897188_ther_proc	-999	-999	Not Reported						011afb5e-3b55-58a7-8efe-cc57c06b598b	00339dea-b6b7-56cd-8374-2b0965278969
+treatment	R59573359_ther_proc	-999	-999	Not Reported						013423a6-283b-59f0-8080-98d1dd52060a	5a3d8e11-ff71-5884-a54e-1437a0b265f9
+treatment	R35733667_ther_proc	-999	-999	Not Reported						01c2f64d-5339-5896-b84a-752dc92a7126	3f11d519-f9af-5e1e-9032-29a79f4c56aa
+treatment	R43383191_ther_proc_2	-999	-999	Surgical Procedure						02188426-9dcc-504b-82bf-db7625789f32	d44e7db2-8f59-5fb2-9c8e-b5570ce1cdb2
+treatment	R98828019_ther_proc	-999	-999	Surgical Procedure						022462cf-1b36-5f0f-9f57-ef464e515774	013fbd15-2122-5392-9da8-5d783e4845cc
+treatment	R79611302_ther_proc_1	-999	-999	Chemotherapy						024d71ca-f155-55f6-890a-03ae58d5cb42	8576b9f5-17ad-5e4c-8093-997fdcb1c413
+treatment	R30285874_ther_proc	-999	-999	Chemotherapy						02b45dc3-bcc0-5993-ae00-7f22b176cf98	3c12eb13-0e7e-5567-a5e2-f185e5267a1a
+treatment	R32612006_ther_proc	-999	-999	Chemotherapy						02c08b28-46d0-56e3-ba2e-71c662538464	6af2c2bb-51e5-57af-aca0-974ec27b14fc
+treatment	R35100371_ther_proc	-999	-999	Not Reported						02e95552-9a19-50fa-8a79-4ff0bb61385e	c301d1a6-c976-5457-af0e-0cc21e900d23
+treatment	R48514109_ther_proc_2	-999	-999	Surgical Procedure						02f328c5-f59d-56a7-bb70-cd1d63285a37	c410504d-c688-5d20-8181-9d02555c548d
+treatment	R95229437_ther_proc	-999	-999	Not Reported						03185bbe-1617-550a-a0c3-7e4e29a7403b	0976cc04-6e78-5c99-8a63-aae03c222c0b
+treatment	R76653446_ther_proc_1	-999	-999	Chemotherapy	Cyclophosphamide;Fludarabine;Thiotepa					031d0e53-b8e8-5cd1-b504-1794908bb52c	7cb937f4-baea-5044-be38-f48d98c97da5
+treatment	R33890864_ther_proc	-999	-999	Chemotherapy	Cyclophosphamide;Fludarabine;Obinutuzumab					0325566b-430a-5892-a273-41080560f96c	5d694315-90b6-55cc-8209-7b63d36557cb
+treatment	R2869223_ther_proc	-999	-999	Surgical Procedure						035b9eb9-b444-52f9-9496-eaceeb1a94e3	29c79768-cede-5182-a6b6-ffc811a34f8e
+treatment	R69102161_ther_proc	-999	-999	Not Reported						03824f0d-10a9-59a4-839c-04d0611ea9ef	97a81abd-b080-5f39-89fa-e144c5b71b0e
+treatment	R78197340_ther_proc	-999	-999	Chemotherapy						03bc96f0-27da-5cbc-86dd-491240006561	e085ac2f-a2c1-52a7-a2d0-d208e2217476
+treatment	R86473343_ther_proc_1	-999	-999	Chemotherapy	Temozolomide					040b7fc4-0b5a-5fb7-bcc1-7923739f0b00	0e9b205d-66e3-5ac8-a474-7eda316f539d
+treatment	R79928038_ther_proc_1	-999	-999	Chemotherapy						0412208e-a957-5c4d-a156-606db8b31d35	e03a7094-654c-53c8-ba71-bf01a5876049
+treatment	R36009854_ther_proc	-999	-999	Chemotherapy	Dasatinib;Imatinib;Nilotinib					041eb4e3-30f8-508e-9a83-8cfd87841001	fe2b29d2-c52a-582f-a16d-1a9d5456a383
+treatment	R13580147_ther_proc	-999	-999	Not Reported						0427860d-b970-5140-9479-68acc138229d	030ce871-a931-5bbb-bfc4-8a7a75afdfe1
+treatment	R74522636_ther_proc	-999	-999	Chemotherapy	Bortezomib;Cytarabine;Etoposide					0427f3fd-9b73-5e1d-a86c-2ee194648bdd	aa1aec3d-a6d5-52c4-8172-077dd2cd43dd
+treatment	R65960862_ther_proc	-999	-999	Chemotherapy						048efc47-f557-5c39-8009-47cdbed552eb	56fb4251-7053-5d87-a696-05da61e2202a
+treatment	R41552554_ther_proc_3	-999	-999	Stem Cell Transplantation, Haploidentical						04be9a4f-4849-5f9d-9343-bdb62d3f99cb	eead2b1e-db2d-50c7-95cc-db398f6706a9
+treatment	R92120844_ther_proc	-999	-999	Chemotherapy						051ec9a5-d437-5e39-99d5-27d230ec437e	0136e4ab-0971-5daa-8f0e-f59b2015703a
+treatment	R28982468_ther_proc	-999	-999	Not Reported						0548e9eb-bac0-5648-96fb-54869c3d493d	a6c544f7-ed56-59a3-8362-3513dff11198
+treatment	R63613677_ther_proc	-999	-999	Surgical Procedure						056bacec-5520-5c7a-b222-72f964493df3	1c4b2c1d-b0f9-5654-a978-676921c14db1
+treatment	R40998752_ther_proc	-999	-999	Not Reported						057c9c9a-5ca0-5d29-b717-5420c5a11123	548dbed7-5496-5910-9f33-5cf6513a5f7b
+treatment	R48474813_ther_proc	-999	-999	Chemotherapy						05f4b5cd-aff0-5605-aab6-4898b724ee4e	82c763b5-fdb8-59e8-96ce-ff2779a6898e
+treatment	R28817580_ther_proc	-999	-999	Unknown						0607fa4d-8fa4-5703-9a1d-44a243712af8	73144021-30e0-565f-b0ae-8c75cfcb8fdf
+treatment	R55828169_ther_proc	-999	-999	Not Reported						0625c75e-9477-541f-b8c5-b0c0e76e674f	09eb837c-4704-53cc-ae4d-e2be72d9c73c
+treatment	R37030816_ther_proc	-999	-999	Chemotherapy						063c03a4-796e-5cdc-8d44-5ba4d2c12841	c182a5e5-c044-5626-83ae-121fb9705223
+treatment	R22879764_ther_proc	-999	-999	Not Reported						064e58dc-a248-5ffe-af55-50dfce4723e3	4553f4ca-bb4b-5595-989b-250488018888
+treatment	R40264600_ther_proc	-999	-999	Surgical Procedure						065a334c-b5f9-5b4b-b73c-3847b78cd186	e0de38ea-88bd-56a9-b598-36af6c7f2a53
+treatment	R67968968_ther_proc	-999	-999	Surgical Procedure						06725791-4d54-5385-9536-a6f4edd62276	4226c52d-ea05-5efe-9ab1-b49135cf3800
+treatment	R10572154_ther_proc	-999	-999	Not Reported						068ca556-d41c-5503-aea9-5de60e434559	f2bb9342-b361-5b37-a319-7d0349d786f5
+treatment	R52387805_ther_proc_2	-999	-999	Chemotherapy						06aca7ea-661b-5de2-9298-f2ddd9c2052e	8e4da616-a976-59ab-8ac2-d14f9861fc7d
+treatment	R5497006_ther_proc	-999	-999	Chemotherapy						06e4a8dd-f720-5399-beba-7acc16fec8fa	a88bcf36-7444-57dc-90f5-8062bfdff8e3
+treatment	R54554150_ther_proc	-999	-999	Not Reported						070018b1-9cd8-5c44-b10f-6df6ce834b05	b2f11fac-bdde-5c39-ba43-38808bd31d13
+treatment	R64480217_ther_proc	-999	-999	Not Reported						070457bb-5703-5714-a99d-406fa38cc548	cd440446-a69a-598e-af3c-8056994e7643
+treatment	R95854284_ther_proc	-999	-999	Chemotherapy						0705d935-9380-5150-a407-0a8348fedaa5	022d9062-c64f-54c6-9f35-e50c764047ce
+treatment	R38738001_ther_proc_1	-999	-999	Radiation Therapy						0740de8d-996d-54bb-a360-bd5bfef64b8a	4dce9d0b-946b-543f-bee4-c8f58db637cc
+treatment	R21721253_ther_proc	-999	-999	Surgical Procedure						074d5cb8-bf59-56f5-9b83-dad988685eb7	20e6e845-5bf4-5417-b106-64e4e9bf1211
+treatment	R19622249_ther_proc_2	-999	-999	Unknown						076448a7-0a21-5c4c-b06a-dba6e40b0694	25969ad7-c067-5fd2-b4d8-ab41bb20c3c5
+treatment	R22503234_ther_proc	-999	-999	Not Reported						07d384b1-2144-5e7e-87b2-ab6cb562fc66	1bd6a8bd-8dcc-536d-abe8-2a59937809a2
+treatment	R31387219_ther_proc	-999	-999	Chemotherapy	Cyclophosphamide;Fludarabine					07f51a04-047a-5f4d-abac-68d093255f69	c44d1525-8720-5a35-89d5-9a58917ffe61
+treatment	R83468428_ther_proc	-999	-999	Surgical Procedure						0818dd66-3dfc-5e42-97f7-b046701fe9da	5b453812-ac03-5425-a759-80df8017bdf8
+treatment	R56198240_ther_proc	-999	-999	Not Reported						0821be36-e486-5978-b25a-62fdd246be52	50402f13-df6f-543c-9832-900bdf0a49b5
+treatment	R41094048_ther_proc	-999	-999	Chemotherapy						082c2f33-18cc-5b05-87d7-37fa29a0cb16	c6853efb-c1cd-5a53-92bf-5672096d7aa7
+treatment	R96404439_ther_proc	-999	-999	Not Reported						08bd839e-c244-5327-9ae9-801ee12203ec	c05f7418-fe84-5090-bd44-65a30a98dfbc
+treatment	R20169660_ther_proc_2	-999	-999	Stem Cell Transplantation, Haploidentical						08c32fb0-576d-5ba1-ac11-d03b89ca3fda	1369b5a0-2c07-5674-aaa5-2609ac2bd3c7
+treatment	R77359594_ther_proc	-999	-999	Surgical Procedure						08d873ed-6215-5dc9-a46c-d75e9dfd984f	1b1cbac6-a71e-579f-81b7-e335cd94c62a
+treatment	R95395931_ther_proc	-999	-999	Surgical Procedure						08f01cbd-a847-5dc8-bd7d-2d9a0c01f1e3	efe1c70a-6025-54f2-992f-03eba08629bc
+treatment	R41024297_ther_proc	-999	-999	Chemotherapy						093da750-b1aa-59f3-a30d-ebde37e38d49	e0b3ce07-11d0-56d2-92d4-35b6e4f76052
+treatment	R73039164_ther_proc_2	-999	-999	Unknown						0a864a50-f5a2-5216-9e64-1fef5ba93108	625eb0e9-d579-52c7-bd45-e835302ad07b
+treatment	R98097831_ther_proc	-999	-999	Chemotherapy	Obinutuzumab;Venetoclax					0aa526ea-3586-5a71-827b-c01e462ce0b0	c63f19c9-6376-5c93-ba14-705e3b3434e1
+treatment	R75876124_ther_proc	-999	-999	Unknown						0ad9f901-9514-58ca-b87b-38528ef2e743	3c879bf9-5fa8-5618-92c8-80c6d98a3bbf
+treatment	R5394045_ther_proc	-999	-999	Not Reported						0bac9ff5-0b7d-5aae-af82-2e07f546404d	6dae7338-62c9-586f-997a-5e330e161494
+treatment	R91258457_ther_proc	-999	-999	Unknown						0bd6df8b-230a-58ea-a0d4-5ae9a9f6d78b	58847b7d-1c44-524b-bdcc-c231b6cfb7aa
+treatment	R19909338_ther_proc_2	-999	-999	Chemotherapy	Temozolomide					0c0c2dca-d473-55a4-97c5-e9c0cbade6ab	59dbc19e-3eaf-539b-94a0-f00d6f999fc5
+treatment	R40559633_ther_proc	-999	-999	Not Reported						0c5e2609-4125-5258-81a0-be76637dbe46	0f93067a-d171-5ef6-aef2-f85810cc5626
+treatment	R99219653_ther_proc	-999	-999	Not Reported						0c5ff467-91ee-5d08-9785-8daee3a85ded	683750f6-4f30-5863-aa5f-c47bdab9328d
+treatment	R92755318_ther_proc	-999	-999	Chemotherapy						0c95d865-bcba-5e6f-9c0f-81de3b0e71f7	c9492fc0-501f-584d-8b11-345d6963f1ed
+treatment	R3100608_ther_proc	-999	-999	Surgical Procedure						0caf972e-522d-5713-a77f-a7f1b6087d4f	46488cee-eb42-5f6f-8f59-a9f69e59bdf5
+treatment	R75662816_ther_proc	-999	-999	Not Reported						0cb10e15-2662-51b2-ac04-b6d8dfe7aeaf	1b4aa1a2-94ac-595b-be62-19f9baf97642
+treatment	R81018671_ther_proc_3	-999	-999	Unknown						0cc21469-4f08-5455-ade3-e873ccf2512d	dfdbc994-a1c6-590b-be59-7c485f2c85d5
+treatment	R18276330_ther_proc	-999	-999	Not Reported						0cd8aa39-e2b9-5b76-91e9-8d590834c9b6	fe563871-177a-5255-a5dc-3473b173368c
+treatment	R60592417_ther_proc	-999	-999	Chemotherapy						0cedd7f3-5248-5689-adce-ff428b5b77e5	d5422193-7b02-558c-aba9-230a5e7729b6
+treatment	R41755664_ther_proc_1	-999	-999	Chemotherapy	Cyclophosphamide;Fludarabine;Total Body Irradiation					0cfb9c38-0c2e-5438-a7f9-413e87067410	56050066-e834-5050-97fd-543828cd8e68
+treatment	R57140410_ther_proc	-999	-999	Radiation Therapy						0d177e67-c2f6-596c-966d-8dbbb8c7f567	6f0bdb41-1d76-5a42-b936-1e4e7b7090ff
+treatment	R31434217_ther_proc_2	-999	-999	Chemotherapy						0d18b9a6-6e21-5f38-b3c8-f98795ac9257	c0343433-e3f1-5ec1-8348-c96e32caa17a
+treatment	R71933493_ther_proc_2	-999	-999	Stem Cell Transplant						0d311b1f-6c49-5096-a2b9-358c483eb2c3	ebea5eb7-d601-56de-b12c-2c798cbe66a6
+treatment	R86868853_ther_proc_1	-999	-999	Chemotherapy	Dabrafenib					0d3c91b0-3752-5a08-92a9-4ccddf6632a5	eca86fc0-c033-5a78-9f54-460a61cf7192
+treatment	R55388610_ther_proc	-999	-999	Not Reported						0d9ffc37-294c-5e0e-9b8e-ccf5c5ccc21b	f5405597-3cb4-5932-9382-11bc01925ea9
+treatment	R2529900_ther_proc	-999	-999	Radiation Therapy						0da06329-b981-595d-ab3d-2709ad9d5e10	23f3941c-15a8-520e-832a-f91cf6780a15
+treatment	R53704512_ther_proc_1	-999	-999	Radiation Therapy						0dd27d0d-ba2f-5006-bc04-27cfc4457429	159478a2-4451-55cf-8477-76639d349709
+treatment	R830418_ther_proc_2	-999	-999	Chemotherapy						0e40a138-d534-51cc-8b81-433b4dbfbd8a	a93df017-24c2-570f-92db-049460ac34b7
+treatment	R62291154_ther_proc	-999	-999	Not Reported						0e7eac4f-1ebc-5729-a223-a64039a3d065	3b9a7fcd-9448-5fef-8486-6511fe6b831b
+treatment	R18758169_ther_proc	-999	-999	Chemotherapy						0e95fa45-9936-5298-98b6-46bf93a962bf	9b390d3f-a458-5065-90b0-dfdfbc9ecccd
+treatment	R61135362_ther_proc	-999	-999	Not Reported						0eaae21c-697e-522a-9a5b-a44e7ea8d93f	ab3bd1f0-c386-531a-8542-26b7d5bd12ee
+treatment	R53085893_ther_proc	-999	-999	Chemotherapy	Cyclophosphamide;Fludarabine					0eae6788-cdd1-5313-9c6c-ee1abade5d5a	0bb45851-0a3d-5295-99a5-10232732257c
+treatment	R42272381_ther_proc	-999	-999	Not Reported						0eb55ca2-8265-56ab-9038-54dddad48022	4f082b61-e069-5350-8937-b7d61e4ff26f
+treatment	R77843140_ther_proc_2	-999	-999	Chemotherapy	Temozolomide					0eb80bbc-f8bb-5828-906c-6db422715c24	42dbcc60-7982-5299-8b9e-0858622cff53
+treatment	R59361476_ther_proc	-999	-999	Not Reported						0ef909a4-8dc6-5c40-8ef6-f3a226ca6964	dc9466a4-ae2d-5316-8476-dffdddc3fbb5
+treatment	R90406053_ther_proc	-999	-999	Not Reported						0f2d4308-0f07-5247-82de-dd7fd5135af0	a377a001-d84b-588e-b416-77181dadc7f7
+treatment	R34533376_ther_proc	-999	-999	Chemotherapy						0f71db7f-5761-552e-8e4e-12d04d90f2c4	7f3bd030-8268-5bce-8641-4cc76daf740c
+treatment	R74225296_ther_proc	-999	-999	Not Reported						0fb812a8-4828-5d1e-9ebc-dddbe4986b11	bff448fc-f9ea-5103-907e-8f6661cbeafa
+treatment	R90454427_ther_proc	-999	-999	Unknown						0fd021ea-1315-5a58-8a0e-3577ab5efb14	c4079a73-e2c4-503d-9acb-22d24dadb1a7
+treatment	R29830997_ther_proc_2	-999	-999	Unknown						1035d359-da5a-5519-adab-976156ee54a6	c9417415-e09c-50c4-8d09-7c6819c50387
+treatment	R665921_ther_proc	-999	-999	Chemotherapy						10e21e47-b429-5be9-81a5-168c16422141	3522a583-e60e-5670-9d0f-a9bb0e3a9459
+treatment	R33685944_ther_proc	-999	-999	Not Reported						10e36100-f8c0-545f-959c-17119af26ac6	2ab42f09-9341-57b5-9d9a-dc4a73abb611
+treatment	R55289395_ther_proc	-999	-999	Chemotherapy						10f1586b-8076-52f4-ac11-d7b1d327ff28	d19227dd-175a-5d08-9546-4053f985d9ef
+treatment	R85444538_ther_proc	-999	-999	Chemotherapy						119eeffd-277c-5555-96c5-48cc2d685d0e	9bdc9407-3321-56a6-999a-c6c77e683782
+treatment	R41801925_ther_proc	-999	-999	Not Reported						11b58c2e-14ae-5325-a22b-b76bfa43e168	3874f6aa-3c00-5cad-8560-07d57bbde664
+treatment	R2084421_ther_proc	-999	-999	Not Reported						11d58c62-59c4-5572-9617-a0b5e812be27	cca148ba-d7d0-53d6-83c4-64c88eb1e4d5
+treatment	R80507815_ther_proc_2	-999	-999	Surgical Procedure						123f2407-426d-5d54-a4a5-54c04f173285	e2f45e23-b7be-5ab7-a4ad-718d9981e81f
+treatment	R82296518_ther_proc	-999	-999	Not Reported						127c9e2d-27a2-5263-bf25-d25ea38bfe65	3f5e6ff9-4a7d-5522-a5c3-c58715042ed9
+treatment	R55743386_ther_proc_2	-999	-999	Radiation Therapy						1298d0a8-a463-5006-a433-c0602b6c2f4f	ab6eeeb4-37f8-583a-ad68-41dd2288cd7a
+treatment	R76832460_ther_proc_2	-999	-999	Unknown						12c73fb0-268d-59c5-8fed-68659af66840	5676273d-8515-54b1-aca9-1969c9dc13ef
+treatment	R31718051_ther_proc_1	-999	-999	Radiation Therapy						12dafc49-b92b-53ea-b1fa-67217f88088e	9da0d080-2c56-5a13-a91f-19f450295db1
+treatment	R49088384_ther_proc_1	-999	-999	Chemotherapy						131a8fc6-13fd-5812-9e35-4b3d22c3fa32	fa63291a-c1e8-57a9-be99-459ed61c3d09
+treatment	R27319411_ther_proc	-999	-999	Not Reported						131d6b59-e93d-53cb-a71e-6f425d112fe6	74f44001-b0c8-5a78-9750-6fd5d36b1e55
+treatment	R33413116_ther_proc	-999	-999	Not Reported						1364b84b-4de5-5011-bd0b-6e8d7941d22b	8d5675c6-59fa-517a-84c4-021f76b425ce
+treatment	R30843678_ther_proc	-999	-999	Unknown						13696218-31b0-56e5-b278-c662071736a0	d1ae8135-28c9-5b5d-b713-975dbf841980
+treatment	R7638233_ther_proc	-999	-999	Surgical Procedure						1369e54d-e020-5191-b363-c9a9ab0a4c29	04c1b9ee-f3f4-54ad-86c0-10ce3573e12f
+treatment	R26663106_ther_proc	-999	-999	Chemotherapy						138ea125-6727-5961-977d-8a15e6d07ac0	ea5b9ad8-cf03-52c4-9cf4-c0c478d3d63b
+treatment	R89314695_ther_proc	-999	-999	Chemotherapy						13de2374-b8a3-547e-bac1-ae0e06f5343c	1917b456-2ced-5645-9e7b-a7d09b54e78c
+treatment	R47151909_ther_proc	-999	-999	Chemotherapy						1406c4c5-649e-5fbc-9216-aef9909d10b7	c05d0592-4b59-5c45-86d0-f0f7b5aecb04
+treatment	R65715130_ther_proc	-999	-999	Surgical Procedure						141ea232-6e3a-51f3-a0d8-5bdb9ec4f429	26af9722-2611-531b-ad1c-8a87b1544c3d
+treatment	R64934523_ther_proc	-999	-999	Chemotherapy	Blinatumomab					143f2685-ce7f-5755-9308-df42ed2ace99	918341c9-127c-54cb-b335-a644567991ac
+treatment	R73412701_ther_proc	-999	-999	Surgical Procedure						14878a79-d7ca-58b6-9193-57e1cffb8bfc	2ddb7600-3305-5c05-8633-b2e9426d2b82
+treatment	R16573453_ther_proc	-999	-999	Not Reported						14963fc3-a9af-5205-9f46-d63df0cae3f2	db0a8121-2a06-51b2-ad74-2d6f8797a2ba
+treatment	R12312901_ther_proc	-999	-999	Chemotherapy						14f02d7b-98fa-5584-883c-66c8ce9459ef	6c779c2e-6030-563a-a012-2621872bbe03
+treatment	R8185772_ther_proc_2	-999	-999	Surgical Procedure						157b3559-274e-532c-afce-f59f63d51880	8c14c9b9-235d-5f80-8bcd-492a9bed80fe
+treatment	R75879491_ther_proc	-999	-999	Chemotherapy						15f1c2e1-6c30-58c6-afda-68bf8271ca84	fd1598b4-e2db-5648-9d3a-54c3e20b7f39
+treatment	R54046961_ther_proc_3	-999	-999	Unknown						162704e6-6fe6-5a76-acf6-5db0710c9d23	37899c3a-6999-5601-95a7-89049f7d0e53
+treatment	R5500220_ther_proc	-999	-999	Chemotherapy						163c74fc-009d-5150-be01-778c0b262140	85fb2ded-7196-5b2c-bed9-11f6169d5a7b
+treatment	R637734_ther_proc_3	-999	-999	Stem Cell Transplant						16934f43-0cef-5ee2-bbe0-8bfddb117c80	e0f2549d-ae66-5bbd-8e08-de8bdb30bd9b
+treatment	R40749016_ther_proc	-999	-999	Surgical Procedure						16bb915c-85bc-580c-b747-622df4a5d92f	5732d41c-8772-5f6c-b800-65526c58c49b
+treatment	R94961375_ther_proc	-999	-999	Surgical Procedure						16e7187c-36b8-5a81-a335-7c67267e3bb4	fb7f668e-1ede-5718-baab-3f6dcdaa3c0a
+treatment	R84629001_ther_proc	-999	-999	Surgical Procedure						17042cae-4d07-58d6-8d77-8d4ff9520e71	ce12630b-310e-5593-8bd9-11a192c3dcb0
+treatment	R11635185_ther_proc	-999	-999	Not Reported						17345ea6-79bc-5eed-9ddb-bd2ba2eb81d9	29094dcd-9541-50e2-8c2a-6a39002555d5
+treatment	R71841902_ther_proc	-999	-999	Not Reported						17d73484-d761-51a2-af45-a6b1bd55b4d7	a4ba84a4-7c0e-539d-9faa-f928ea7d9bd8
+treatment	R95354840_ther_proc	-999	-999	Chemotherapy						17efface-71ad-574e-b972-5089cdf3c394	a9587196-ef9a-5ae1-8b1d-995d9ae00ad0
+treatment	R60085211_ther_proc	-999	-999	Not Reported						17f8f706-13ee-5d86-852e-189c0df02243	bea3f8cb-fe0c-5ca1-a825-624f9df29f8d
+treatment	R27082326_ther_proc	-999	-999	Surgical Procedure						180c6117-ca62-5abc-93e0-83988db97f79	52bb826f-4c83-5e3a-9a57-fbf4baa81e87
+treatment	R44659648_ther_proc	-999	-999	Chemotherapy						18e6bfa7-2b7f-5509-8381-1330bc3eafa1	b3c3f601-e480-529f-939f-68117a2cbfd2
+treatment	R18972177_ther_proc	-999	-999	Not Reported						18fe8bcd-2aad-53e9-98ad-31704d30b672	d4189795-18dc-587e-81e8-327f84e952fe
+treatment	R88094419_ther_proc	-999	-999	Unknown						19289ea9-1a80-533b-b32d-7284da163f46	dbed85bb-ac00-5f2c-88bf-e6d89ad5754c
+treatment	R42430283_ther_proc	-999	-999	Surgical Procedure						19369a5c-f7fb-5051-81c1-ccfaa404445d	4ae702d5-f0a0-50f1-91f1-dfb7dbe1ea30
+treatment	R29697976_ther_proc	-999	-999	Not Reported						194edaf4-3185-5010-993b-edb4004573b6	f3c7b031-4d26-58a6-83a2-d277fa39ae6b
+treatment	R60903292_ther_proc	-999	-999	Chemotherapy						195b5210-2ae8-5d3f-9cfb-6fbd15c1b251	2fd1aa3b-a8ee-5107-a112-19c25b8466d6
+treatment	R28743076_ther_proc_1	-999	-999	Unknown						19b89505-fa03-5e72-be7e-86b9bbfd85a3	00555688-2b98-583f-a815-e61d87a781f7
+treatment	R90109193_ther_proc	-999	-999	Not Reported						19bfaf50-9bb3-5882-86b7-bd880a579bb9	9e084d85-28a0-5567-83c2-fed1f5456a87
+treatment	R35234824_ther_proc	-999	-999	Surgical Procedure						19d27ffc-efc7-55cf-83ef-b276a207936a	b5ea81cf-54a2-51c5-b3fb-731685decb4d
+treatment	R64259906_ther_proc	-999	-999	Surgical Procedure						19d8c43a-476b-5b56-88fb-08bb2a400934	df0cbc03-6868-59fa-ad6f-50f77065fe28
+treatment	R52114771_ther_proc	-999	-999	Chemotherapy						19e7b884-39ce-57df-9c9c-13f6ef9ba66e	8bb7744e-c297-58f3-b0da-60d621e0771f
+treatment	R78891961_ther_proc	-999	-999	Surgical Procedure						1a0933da-34b5-5c3c-9ec9-004a66a3e596	02ffa4c2-8064-5a6a-82b2-4c45359017a4
+treatment	R29027575_ther_proc	-999	-999	Chemotherapy						1a99c15f-2156-5950-8d05-d9a824e5ed28	9370f46e-92cb-5cf9-b4ba-b3af728c989e
+treatment	R31434217_ther_proc_1	-999	-999	Radiation Therapy						1a9c85ed-0280-5525-81ff-906c7ae26e20	c0343433-e3f1-5ec1-8348-c96e32caa17a
+treatment	R11694542_ther_proc	-999	-999	Chemotherapy						1abb055d-5ba5-5219-b3b1-fe766a983610	53b8c3dc-1602-54d8-ab84-323e72e846bb
+treatment	R48520693_ther_proc	-999	-999	Unknown						1ac5f355-ac20-53df-9f21-d6bce6e7c081	718b92ca-5750-539d-b199-caee8e0da176
+treatment	R76653446_ther_proc_3	-999	-999	Stem Cell Transplantation, Haploidentical						1ada8bd7-4c89-5a45-8dd5-3d10d7c61cc9	7cb937f4-baea-5044-be38-f48d98c97da5
+treatment	R76641092_ther_proc	-999	-999	Not Reported						1afb6ba6-0b3a-5ab6-99e1-d972552b6a11	b7030418-40f5-564e-9d7b-34925a4dbee2
+treatment	R9220636_ther_proc	-999	-999	Not Reported						1b163f7c-8ece-5601-a974-b4c3cbcaf060	89a90ea7-3c5e-5b09-a73a-365a7a2484e2
+treatment	R60373657_ther_proc	-999	-999	Chemotherapy						1b93f503-1ed6-54ea-bb43-e3498168897b	d0cadb16-b8ef-5a2e-a592-8392f122cff6
+treatment	R44327156_ther_proc_2	-999	-999	Chemotherapy	Carboplatin;Cyclophosphamide;Dexamethasone;Doxorubicin;Etoposide;Fludarabine;Ifosfamide;Vincristine					1ba808cb-0c5f-5b14-a377-89466e7aa70f	adc905f2-8af5-560a-9abb-a770bb34ed76
+treatment	R29041833_ther_proc	-999	-999	Unknown						1bba63a9-f7c7-56fa-897a-c36cf8164bd7	5ac080fc-1780-588b-8535-2f5940d7da80
+treatment	R79611302_ther_proc_2	-999	-999	Surgical Procedure						1c138f79-a8c1-54d7-96da-4bbf58e4d383	8576b9f5-17ad-5e4c-8093-997fdcb1c413
+treatment	R85362399_ther_proc	-999	-999	Surgical Procedure						1c6714bb-c6e6-51e1-971b-af2f467412d2	a751883e-1c09-5466-9a16-617e0aa79fac
+treatment	R83467417_ther_proc	-999	-999	Radiation Therapy						1c77b0fe-2ac5-553d-a6eb-0cc9f20220bc	cf5c7d06-2fe8-519d-b781-7eaea807154b
+treatment	R22760472_ther_proc	-999	-999	Not Reported						1c967887-cdde-57d9-976d-68d281d145a2	a7e7e42f-5a4e-57c8-8d9a-67ad17ca466f
+treatment	R9805018_ther_proc	-999	-999	Chemotherapy	Dasatinib;Imatinib					1ce7b8e9-b804-584e-a6c5-fb0eddfe71f0	e79b0b14-0e29-59eb-a478-d59eac141f00
+treatment	R53038769_ther_proc	-999	-999	Chemotherapy	Cyclophosphamide;Cytarabine;Dexamethasone;Etoposide;Fludarabine					1d11264d-c3ee-53da-a2a9-48384d2a6408	36457e69-c328-561d-8e49-ee8b4ea0a754
+treatment	R10817838_ther_proc_2	-999	-999	Surgical Procedure						1d9d453c-1e01-5880-9d13-1a7804420565	c4f9bd3e-a86e-587a-97b7-e0b54ec6bd1d
+treatment	R62441568_ther_proc	-999	-999	Chemotherapy						1db23b9a-dc86-561f-968e-a5cb136e63da	d3f8be77-98f2-5316-9c69-025c0e3a1148
+treatment	R14763784_ther_proc	-999	-999	Surgical Procedure						1e352758-fa99-5928-b5b7-3cfe9490080a	5723de75-450a-5a46-bf1a-cb4abf2dc986
+treatment	R44505155_ther_proc	-999	-999	Chemotherapy						1e513038-6d43-5137-80f6-f09abe507b40	b2a576a1-55a5-5321-88c2-6ad7929337b3
+treatment	R15936760_ther_proc	-999	-999	Not Reported						1e5da4d0-7939-57a6-b596-981090c682b1	f5492862-0045-5e70-9e67-eb4f28957fcd
+treatment	R96341124_ther_proc_1	-999	-999	Radiation Therapy						1e6f059f-6c37-5319-9156-b0ed899672ff	89b72ecd-8dac-5aac-bebd-337984eb5a3a
+treatment	R13349591_ther_proc_3	-999	-999	Chemotherapy	Fludarabine;Inotuzumab Ozogamicin;Melphalan					1ed5f239-b6c7-584a-b942-988901679834	ddb59c4d-c35f-58db-9b5d-b005ac183f3f
+treatment	R82354617_ther_proc	-999	-999	Surgical Procedure						1f9488c1-76ad-5dc7-a0db-fde2d51f77f2	2dfcce29-3781-5954-ba56-dd7f89483815
+treatment	R98345406_ther_proc_2	-999	-999	Surgical Procedure						1fa913df-927b-54c7-b97e-2137d77a4e99	c99e61da-6173-5dc4-b79e-99e9841da9c7
+treatment	R93243658_ther_proc_1	-999	-999	Radiation Therapy						1fd665c3-f6a2-5fad-8fed-c3e2c2eda3fd	81b09da6-e0f9-522c-9973-9f448586d80e
+treatment	R23896614_ther_proc	-999	-999	Chemotherapy						20103f28-ef82-5c58-8e19-f3fe1ce5d753	41b88e1f-f658-5868-8646-6b7a0e4c941e
+treatment	R44685886_ther_proc	-999	-999	Not Reported						214501cc-92ea-5698-9264-b5a60b9cd371	8d48a3bc-dce5-5786-8269-ee5af4433c00
+treatment	R72588426_ther_proc	-999	-999	Not Reported						219f7ec8-d633-5ff3-b666-bb8491bce23d	56447161-c59a-5ff9-8932-f259d4d7f1e1
+treatment	R36984108_ther_proc_2	-999	-999	Stem Cell Transplantation, Haploidentical						21b48713-0075-59f6-871b-177a5395aca3	59e42f11-4612-53f6-88f2-1ee2116a9a8e
+treatment	R83827723_ther_proc	-999	-999	Chemotherapy						21ce7b6a-350c-597e-a074-87d89ec2ba09	c1462efc-3f20-5a24-9bc6-078505ac279a
+treatment	R49957996_ther_proc	-999	-999	Chemotherapy						223ba03f-a652-5cca-b655-742ac7df332a	1989227b-288b-5355-bdd1-f696036e832d
+treatment	R86052581_ther_proc	-999	-999	Not Reported						22600e44-dc0b-5864-b56f-0572881913d7	2d36fdfd-3b02-5099-9aa9-9ffb35e2e5c5
+treatment	R13362718_ther_proc	-999	-999	Unknown						22851d7f-d25f-5b05-a8cf-bdceea09591e	9ed0bf41-d61a-5666-966e-f9ac6dda48b1
+treatment	R96341124_ther_proc_2	-999	-999	Surgical Procedure						22e39dd4-557f-5065-a88d-e33eaa093ec0	89b72ecd-8dac-5aac-bebd-337984eb5a3a
+treatment	R19875007_ther_proc	-999	-999	Not Reported						234584a2-bbe0-5616-b8ba-5dd8d2905e53	322bfcbd-3fe0-599d-9238-993edc4f04a8
+treatment	R79730412_ther_proc	-999	-999	Not Reported						235fbe76-82f1-5bde-b3e5-3f74c1b612a9	ac43cc20-1c85-5ab3-9ddb-8ab9068f8b95
+treatment	R13679799_ther_proc	-999	-999	Unknown						2367e0d0-7866-52ac-ac0a-413da75b16bd	08e0b998-a7e9-57a3-99a5-a938fd63356b
+treatment	R15652371_ther_proc	-999	-999	Chemotherapy						23ebd9e8-c997-5076-8bce-ab7cedbc1a60	64828307-dc3e-53ed-a5ae-9d4ed1d43a46
+treatment	R48441358_ther_proc	-999	-999	Surgical Procedure						2443ccbd-ad37-55db-ab60-48b827c5a43f	d8ca9a79-b5b9-5ddb-9816-ecc5f23ba62f
+treatment	R19670639_ther_proc_1	-999	-999	Radiation Therapy						2455f549-780a-532a-b05c-9b16b29c2f0a	1ed2e0a2-647e-5cf8-a751-72e43bb0a929
+treatment	R5861176_ther_proc	-999	-999	Chemotherapy						249b0454-7875-59aa-8f4c-f99f775478a5	2a2feb3a-1ebf-51be-aef3-9bb24cb0b8c6
+treatment	R78297474_ther_proc	-999	-999	Not Reported						24c0650a-ec8e-5dbe-8e38-ff36ca7f32b9	71b135ed-df39-566c-b383-7f701ad8abb0
+treatment	R46121771_ther_proc	-999	-999	Unknown						24ce3573-ac30-55e2-b218-7e7a17c0a043	308e4cdf-59cc-586e-abcb-912788568068
+treatment	R32708689_ther_proc	-999	-999	Not Reported						2507cb55-398b-5ca8-ba98-1b8c439ce762	0c717185-6c21-56f6-80a0-d0cb81267522
+treatment	R36984108_ther_proc_1	-999	-999	Chemotherapy	Cyclophosphamide;Fludarabine;Melphalan;Thiotepa;Tumor-Infiltrating Lymphocytes					254d2d0c-e145-57ca-8c96-1fac61e1ad69	59e42f11-4612-53f6-88f2-1ee2116a9a8e
+treatment	R3185496_ther_proc	-999	-999	Chemotherapy						256190c9-edcf-554a-8221-66049cbd5f54	a60b20f5-c817-543d-a659-780ae7f8df4b
+treatment	R58622020_ther_proc	-999	-999	Surgical Procedure						2620aba0-98eb-5432-a948-d85e826de55b	949928da-8578-505c-9433-c10ba2f41fdf
+treatment	R42096936_ther_proc	-999	-999	Not Reported						26b6bbb2-192c-5c9a-be52-fa75fc25f984	0aeab986-50e9-5a5c-bbca-6b4ff040e1ad
+treatment	R1403703_ther_proc	-999	-999	Not Reported						27416d63-ddd8-5042-bdcd-130ab151187b	9fd13b23-ed06-5e57-9940-c694a340f77c
+treatment	R84816200_ther_proc	-999	-999	Chemotherapy						278f8348-784a-5234-8f16-0d8f195d4104	f671cb14-e257-595d-8d36-20a4ae49b15d
+treatment	R76505567_ther_proc	-999	-999	Surgical Procedure						27935ce8-d293-5dad-9bbc-0e9d9f31bc4c	4508323b-8dc7-5726-be23-7ce86bcc3692
+treatment	R91642135_ther_proc	-999	-999	Not Reported						27b3093b-d54d-5ab7-b640-6adbfa703b58	034091b8-9b03-5ac5-ae4c-ed2c343b1616
+treatment	R6845488_ther_proc	-999	-999	Chemotherapy	Dexrazoxane;Mitoxantrone;Sorafenib					280cdcd6-8c59-5e57-bf56-e5d4d494b01d	e735d6f5-cc15-56e2-8c57-d64dff7f7a3a
+treatment	R16706980_ther_proc	-999	-999	Surgical Procedure						281bfb15-5260-56a8-a5c5-73648a439bfa	e5ab0ca7-241b-53b8-b955-1b46052d6bd6
+treatment	R24670730_ther_proc	-999	-999	Chemotherapy						28748e01-c43e-57fe-bc9a-44928ed8a780	a5b71244-507f-52b0-a754-e484d439b146
+treatment	R95738771_ther_proc	-999	-999	Not Reported						28ed0022-3232-52e9-a3ef-969e37ff53d8	70eaad57-fb43-5c3a-a100-5d51a4ef8990
+treatment	R17397516_ther_proc_1	-999	-999	Unknown						2905e7bf-039a-5c21-9a5b-e8a926371457	b3f06534-95bd-5839-b848-92b568172528
+treatment	R56089642_ther_proc	-999	-999	Surgical Procedure						29644f63-4032-58d6-8a96-807a67148b4e	d5a9d4a7-7a3d-5658-8801-3574364b474d
+treatment	R21146117_ther_proc	-999	-999	Chemotherapy						2a1f78ab-003b-579d-a728-b256f44c5bd5	27fa9468-b27f-5bb9-91e8-7e29594816cb
+treatment	R75655413_ther_proc	-999	-999	Chemotherapy						2a2cd097-4fbb-5afa-9880-0dc5b4e725b0	6419016f-2f52-5540-8551-7a4c53487a76
+treatment	R74222827_ther_proc	-999	-999	Not Reported						2a7031da-1816-5c84-896e-0cf0f537900a	2e6aca46-2843-5e26-8851-f645bd90aab2
+treatment	R393334_ther_proc	-999	-999	Chemotherapy						2ab5222c-521f-5c65-8043-9fa652acee28	d3ed4bdf-3175-5562-bb21-3461b0ae692f
+treatment	R69129741_ther_proc	-999	-999	Unknown						2ac45763-a1c6-5f6f-b194-56d55ec46122	19319f31-d604-53a1-8cdc-30337bb01742
+treatment	R82768116_ther_proc	-999	-999	Chemotherapy	Dasatinib					2acdea27-a1a4-5f2c-be02-b086278a0969	0ab47dc4-93f8-5af6-80fc-5fe5077301f2
+treatment	R49809750_ther_proc_2	-999	-999	Chemotherapy						2b049417-2338-5a56-8375-0b624ded2fbc	c5c7131c-cd9a-57c2-92df-768e2bafa2f3
+treatment	R18342676_ther_proc_3	-999	-999	Stem Cell Transplantation, Haploidentical						2b4ba6da-c379-5853-be14-34214d9c1412	b6a33866-e73a-53ab-8ae9-d6fa520080bf
+treatment	R74734396_ther_proc	-999	-999	Chemotherapy						2c13fcac-a88b-5894-af5f-fc45b070c969	a4249b62-02c9-554a-b7b1-57a44ca5c3f0
+treatment	R35210270_ther_proc	-999	-999	Surgical Procedure						2cc0e358-35c8-5c40-98c5-eadd8dcb12c4	31ec50ce-f82a-5b6f-bb48-bdab82b964bf
+treatment	R25083756_ther_proc	-999	-999	Surgical Procedure						2d54f78c-84dc-570b-9b12-2a2eb01dce58	ea4e965a-731b-5120-82f0-bc96f6d12f96
+treatment	R11933353_ther_proc	-999	-999	Not Reported						2da83e1a-8692-5efd-bfe0-d3d7e2910adf	f67d6f78-6fc6-5ac4-b62f-9e9ececb34c8
+treatment	R61252046_ther_proc_2	-999	-999	Radiation Therapy						2dae56eb-9630-5055-958b-84102ca1a727	e8f3d135-c47a-5d6d-a6d8-71c72970d8c4
+treatment	R92501606_ther_proc_1	-999	-999	Radiation Therapy						2dc82d6c-fb88-5d3b-81a9-4c9c9d70fe85	d6be906c-c8e3-586a-b5b3-d31539743053
+treatment	R69254232_ther_proc	-999	-999	Chemotherapy						2dd4a963-4f8d-55af-94d6-975bc2a36101	4388a57c-58f7-5697-93a6-54d4004e4863
+treatment	R31039319_ther_proc	-999	-999	Not Reported						2df5ca39-ca1f-5e29-a2c7-9abe027e0424	1ce57e2b-7dc4-54c4-a5aa-c674d06b0023
+treatment	R81349814_ther_proc_1	-999	-999	Radiation Therapy						2e26a9ed-92ae-5baa-88b5-ad8e2e20ec46	df450e18-4730-5d0b-8680-15f30e6718fb
+treatment	R84419435_ther_proc	-999	-999	Surgical Procedure						2e344793-e9f9-5dae-85b9-2bd08be732cf	c85b05c5-b6ef-56e4-b0ca-6e97978b0503
+treatment	R511499_ther_proc_2	-999	-999	Surgical Procedure						2e3e65ee-da1d-5c30-a887-a42741c35339	5f4924b2-3cf9-5176-932d-0d42f01b6407
+treatment	R60458315_ther_proc	-999	-999	Not Reported						2eae0008-3cfd-5e3b-9f3d-10daa9170cfc	4d1777d5-3c5c-5bc9-864e-0d2838266864
+treatment	R41552554_ther_proc_1	-999	-999	Radiation Therapy						2ed01c41-7bf0-51b8-8f1d-7581adbca8d6	eead2b1e-db2d-50c7-95cc-db398f6706a9
+treatment	R95453587_ther_proc	-999	-999	Surgical Procedure						2ed17554-6af4-5923-8eb4-519a0737446a	59e7df86-c7db-57d3-b5bd-2e88bde4e79a
+treatment	R44093430_ther_proc	-999	-999	Surgical Procedure						2edaa7c5-e8d5-5888-b683-3dfb88fc9968	1604849a-2608-5886-abd7-56c65c188b24
+treatment	R26624774_ther_proc	-999	-999	Chemotherapy	Cyclophosphamide;Fludarabine					2edb3913-6913-5eeb-af52-85270918ec8d	9a78a5c5-f69d-50fc-85f8-ce8ec49cd2ec
+treatment	R12325935_ther_proc	-999	-999	Surgical Procedure						2ef8d613-d285-5c95-a0ef-a3080a305f1b	763a2325-5186-5007-a2a1-48ef28fbced1
+treatment	R1308576_ther_proc	-999	-999	Not Reported						2f14896f-ebbf-5afc-8fe5-8ee354d59d4a	893dec21-fc36-5488-aa5e-0eb11f1ba5a9
+treatment	R69980554_ther_proc	-999	-999	Not Reported						2f4ba313-b89f-5984-90ef-f8fec1fe16ce	d909d18e-7db1-5253-8fdb-324b1df4ef59
+treatment	R93640769_ther_proc	-999	-999	Not Reported						2f4d7d8f-b959-5902-a6ba-0c8c34fd4741	8e7f5753-a259-5e4e-8ae9-0665f8924616
+treatment	R75871509_ther_proc	-999	-999	Unknown						2f7993b5-e0db-5635-ba81-d3347ccf6cf9	4a6424fd-56ed-5f4c-8a3c-7361a49ec868
+treatment	R85989636_ther_proc	-999	-999	Not Reported						2fc134c7-e78b-542e-8c19-5f0ddb9df98d	a47c6784-ede8-5add-af61-fd422c75cb0f
+treatment	R28483984_ther_proc	-999	-999	Chemotherapy						304c8198-b39c-5fee-9969-13d021936255	b764748f-3ebd-5bf1-9346-5cb9f9796ebd
+treatment	R76007241_ther_proc	-999	-999	Chemotherapy						30531c9b-f5ed-5e79-a687-0245f45dfc10	45ee1c65-436d-56db-aa32-0ccbbab586d1
+treatment	R71933493_ther_proc_1	-999	-999	Radiation Therapy						30727532-407d-5893-a084-2d3be3fde9b5	ebea5eb7-d601-56de-b12c-2c798cbe66a6
+treatment	R57632818_ther_proc	-999	-999	Surgical Procedure						30a45125-17e3-5ec5-954b-71d3b71e6f69	caf32105-65df-5520-b572-f8494cee5679
+treatment	R65677964_ther_proc_3	-999	-999	Surgical Procedure						30af1582-515f-5878-9ab9-e8e548777954	f72a72db-6d50-5bc3-820e-cca933cf8b96
+treatment	R84983382_ther_proc	-999	-999	Surgical Procedure						30bf3842-a817-51ab-92e4-1ac89b10c66c	674b311b-5981-5b57-b963-cc7d71fb0d2e
+treatment	R31304477_ther_proc	-999	-999	Chemotherapy						30d0d986-5ca4-5b95-9a25-66ceb68d61bc	64c838dd-8fb4-5341-bd3a-c4a25e4d98df
+treatment	R7024561_ther_proc	-999	-999	Not Reported						30df73bb-7678-572e-b078-611f7e26afcf	2af08854-e65d-5925-b1e8-bee453481274
+treatment	R51651780_ther_proc	-999	-999	Surgical Procedure						30fc368a-7a12-52bb-baa7-3e092abe6953	a64b5659-a3a9-55a8-86d5-acc169b10c9c
+treatment	R78767582_ther_proc	-999	-999	Chemotherapy						31421811-0b67-5e13-9920-4e022e35c601	bd37f965-ab1d-5b0a-bcc8-259706a8a7b6
+treatment	R69290149_ther_proc	-999	-999	Chemotherapy						315d1b71-1998-512a-9d97-4467933a340e	969fc7b4-31bb-57b8-a9e2-eb1337c4942e
+treatment	R47521680_ther_proc	-999	-999	Not Reported						31bac0f2-6c74-5fa6-a3e6-de29f07517a9	a424c303-4884-5c2d-bffb-7494fd83e7ba
+treatment	R26028260_ther_proc	-999	-999	Chemotherapy						31db7e64-8a5a-5985-afb4-f8d456a8e64b	6b9d02b8-6334-577c-9aca-e7aa272cc1f4
+treatment	R7599816_ther_proc_3	-999	-999	Unknown						3215eaf4-6ecd-59eb-a3ce-c9e093ccaf7b	d090cfe2-987b-5afe-a1ab-ee7154350f9f
+treatment	R66201347_ther_proc	-999	-999	Not Reported						321eaffb-62e5-58ea-bc3e-2a8fbe329682	441812bc-77f7-5dde-8a2e-0cf7cec0fbeb
+treatment	R72324541_ther_proc	-999	-999	Unknown						323b847e-0799-5d0b-b8d3-47885d1d263e	6c4b10fc-1fe7-56ae-a4bb-e2fca07188c9
+treatment	R81865135_ther_proc	-999	-999	Not Reported						32894cdd-d29a-5f77-b9f4-f45353161bff	7d0bc8d1-642a-5bd4-ba5d-c54676909ebc
+treatment	R49890927_ther_proc	-999	-999	Surgical Procedure						32928cae-c28e-5af3-8f1e-32d9bbe64ba4	6dcf6df8-820a-598b-992a-95c9937e5a7f
+treatment	R37558180_ther_proc	-999	-999	Not Reported						32ceec05-50e1-5570-8ef7-7197e3928b56	12cfcf5a-98d4-50ef-9041-88bf149b970f
+treatment	R99727550_ther_proc	-999	-999	Chemotherapy	Imatinib					32d0f8af-a761-5612-84de-8e49cffd9673	3770882f-6e11-5611-8cf6-d2e3fc45cf4d
+treatment	R70246831_ther_proc	-999	-999	Surgical Procedure						332855c2-dc00-5f19-82b5-8a4469b5fd2b	c1d8e205-6990-5867-9a2e-c07b6612c4e0
+treatment	R52387805_ther_proc_3	-999	-999	Surgical Procedure						334c7bb3-7f40-5dcc-9085-4bcf8c2b0f61	8e4da616-a976-59ab-8ac2-d14f9861fc7d
+treatment	R94356751_ther_proc	-999	-999	Not Reported						335da45c-987b-51e8-ad52-7af100d6d497	11875b65-f41a-5a37-bdc8-b683dbbffd39
+treatment	R64940724_ther_proc_3	-999	-999	Stem Cell Transplantation, Haploidentical						3381dd19-65cd-5665-a55b-cc745648027c	56ed1b74-ed02-51da-a560-145daacbbf2d
+treatment	R830418_ther_proc_1	-999	-999	Radiation Therapy						33f680a5-c02f-570d-8447-3c46803299c8	a93df017-24c2-570f-92db-049460ac34b7
+treatment	R46895334_ther_proc_2	-999	-999	Chemotherapy	Cyclophosphamide;Rabbit Antithymocyte Globulin;Rituximab;Thiotepa					3400d229-a60a-56c3-9ee7-01c014c3ae17	d5067f5f-6c37-5239-a0ba-ab50860d35ad
+treatment	R20486935_ther_proc	-999	-999	Unknown						348d53f0-7cfb-5498-9364-03b0e80c18af	cb4a9d9e-1ba4-591d-be77-8d88c8b587aa
+treatment	R67409390_ther_proc	-999	-999	Not Reported						34da4a1f-af46-5601-bbd6-01b6f9bc5866	173e162a-c968-53c5-8b43-fd832358333c
+treatment	R35469222_ther_proc	-999	-999	Surgical Procedure						35270d03-9e52-54ea-9b46-255f0ef01230	28654ae0-76c8-55e2-a46a-058cd9cb1833
+treatment	R23629510_ther_proc	-999	-999	Not Reported						35a925fe-6ab0-5406-851a-18bf98c20afd	3cbf94e7-d448-54a9-bc1b-d54f928e93d4
+treatment	R49279259_ther_proc	-999	-999	Chemotherapy						35c3b232-5a80-549f-8c91-217f7d50be60	00379acb-1d42-5c41-a664-a58ad44e1ef1
+treatment	R40104312_ther_proc	-999	-999	Not Reported						36754240-decd-53b0-9469-d70341555ade	3184b62a-5490-5485-9732-c3f9b302623c
+treatment	R60800109_ther_proc	-999	-999	Not Reported						3689ef8f-59fa-513b-9039-27a95fb3e35d	13c54593-84c9-5908-b5ed-e83f2ce4018b
+treatment	R96988703_ther_proc	-999	-999	Not Reported						368d3dcb-8e38-5176-99c5-6cfdda47d12f	8a1d0bbb-4d52-5b6c-8113-202c23e3e1a2
+treatment	R17850932_ther_proc_1	-999	-999	Chemotherapy						36a77388-253d-5d47-8858-1f9a51062861	d1f563fa-357e-50bb-bcfa-42db3f899ce6
+treatment	R63123573_ther_proc	-999	-999	Chemotherapy						36f496a0-bbbc-5be7-837f-33d1a499bded	d3060cf5-d3f0-51cb-8d92-f07373760387
+treatment	R33183892_ther_proc	-999	-999	Surgical Procedure						3708284e-1fe8-5328-a7bc-b69734baf028	21e96e95-8d2a-5cc9-8715-02a342110aad
+treatment	R64360744_ther_proc_2	-999	-999	Surgical Procedure						37184ace-d12c-5d9d-b27d-8635d3ca9c15	a7e11854-d3bb-53d7-8cbf-99172ef2b904
+treatment	R46134495_ther_proc	-999	-999	Surgical Procedure						371c2c3a-0692-5d69-97b2-85b91fc36c56	fd6f3261-6371-5744-968d-0a5fb75894df
+treatment	R87836149_ther_proc	-999	-999	Unknown						371ffa12-c6d3-51c1-8dec-766605135e12	65b5ec1c-c891-58bf-9a46-0d050ceb61c9
+treatment	R33008817_ther_proc	-999	-999	Not Reported						37871504-6506-5b3d-bafa-c2efa5e37764	5c516862-c06a-5830-b241-5088fd35efa0
+treatment	R18521637_ther_proc	-999	-999	Not Reported						37993908-bf1a-5109-9d91-caf2ed3d356f	fead419d-5dff-5512-a491-83ae3cd098c7
+treatment	R31890901_ther_proc	-999	-999	Not Reported						37a4bfd1-688e-54e7-b6bf-fc4e3cf7f8d0	6acca1b0-bba0-5218-bf66-6e7a53b37720
+treatment	R38610086_ther_proc	-999	-999	Chemotherapy	Cyclophosphamide;Fludarabine;Kymriah CART Cell Therapy					37c4081e-4422-5c44-aa99-ebb6908e2146	397acd5b-ade0-5b9f-9c93-5e2bdbef6654
+treatment	R55714157_ther_proc	-999	-999	Unknown						37f62b32-933f-59ae-bf25-94fef29a15df	fa0bebe2-8aa4-5959-9a29-64523134491c
+treatment	R82141525_ther_proc	-999	-999	Not Reported						380a0d60-6ce9-561b-8b49-e469fbcd8054	5076468a-d743-516b-ada5-ccdba338967f
+treatment	R29399757_ther_proc	-999	-999	Chemotherapy						3872702f-57d4-5c59-bf33-e57df3402c30	d4b95658-0ad4-50ca-b6b3-9bc949c8400e
+treatment	R40613451_ther_proc_3	-999	-999	Unknown						391f70d3-eede-5cff-9501-c987017ffbb3	7a34e203-b1fa-541f-b7c5-41af8eea562b
+treatment	R85582779_ther_proc	-999	-999	Not Reported						39382f43-98e6-521f-824c-e06805f78f62	18cf3f85-26a7-5cc3-ba74-d617abd90c5e
+treatment	R67893061_ther_proc	-999	-999	Chemotherapy						393cfc8f-ea75-5b61-993f-70ec93086ff7	341dc602-a795-5f54-bc72-e419e7ad203f
+treatment	R81018671_ther_proc_1	-999	-999	Radiation Therapy						395c1057-ddfe-5f8a-83d6-6a2b8500207a	dfdbc994-a1c6-590b-be59-7c485f2c85d5
+treatment	R42986815_ther_proc	-999	-999	Surgical Procedure						398aa218-48e2-5e3b-838e-02f7b44bbc3e	c7989436-0561-5310-a1a5-2127e2779655
+treatment	R86462057_ther_proc	-999	-999	Not Reported						39eb71ef-3363-53ac-91f6-0b24c718fe99	f64c8aef-4da6-565d-ba27-0fb3ae197624
+treatment	R66304008_ther_proc_3	-999	-999	Stem Cell Transplantation, Haploidentical						3a17f3b6-6f21-5362-aaa0-a4ea124ea16f	dfc1ca47-5d17-5ccc-9e33-eed9d4e91cc9
+treatment	R93904955_ther_proc	-999	-999	Surgical Procedure						3a3765f5-4603-521d-aa1d-d925405af4a0	ac69689e-e2de-5d2d-a84a-4c8f8c286de4
+treatment	R19264080_ther_proc_1	-999	-999	Radiation Therapy						3a416780-0191-5d18-9ea7-c2b39d66593a	82c9b732-69e3-5183-b776-3803a7c888e8
+treatment	R851912_ther_proc	-999	-999	Chemotherapy						3aa577c8-415d-57a3-9c82-18a97e46db4e	34c0ad46-2f1e-50c2-ae3c-b8a6ea32c516
+treatment	R27524019_ther_proc	-999	-999	Not Reported						3ab983ad-be6b-59f1-8178-485665589e21	06ff5a07-6162-5885-b7ba-b36227479221
+treatment	R13349591_ther_proc_2	-999	-999	Stem Cell Transplant						3b33f786-406f-58ba-9e53-893c0032ed42	ddb59c4d-c35f-58db-9b5d-b005ac183f3f
+treatment	R84011603_ther_proc	-999	-999	Not Reported						3b5081ca-5d7b-574f-93eb-6cc8da1f0016	3b4ab051-72f1-5db6-8a57-7ca3a70a815d
+treatment	R46895334_ther_proc_1	-999	-999	Radiation Therapy						3ba14960-2dfc-5804-af90-d0203a5b926d	d5067f5f-6c37-5239-a0ba-ab50860d35ad
+treatment	R57920717_ther_proc	-999	-999	Not Reported						3bce0504-c7e0-5bb6-b25e-b2a7a3a80aea	d7c81dbf-367f-589a-b7e3-6ee2cde3bce8
+treatment	R63514565_ther_proc_2	-999	-999	Chemotherapy						3c07bce6-1efa-527d-85b5-458a84918997	913ca85c-1c99-5077-aea5-79e0aa4b2656
+treatment	R44722440_ther_proc	-999	-999	Surgical Procedure						3c4077ee-ee60-5ae6-bde1-c197f2712a7c	6daeea11-5c78-52a3-be0c-112d59beaddb
+treatment	R75738510_ther_proc	-999	-999	Surgical Procedure						3c4ddcfc-64fe-5849-9de3-f98e3d189af2	02b80f7c-876d-5d0e-9985-6111df6d5b01
+treatment	R78652121_ther_proc	-999	-999	Unknown						3c4f1b5f-2ade-57e1-b66d-2b6a98ad87ce	7d216bb6-ac73-5379-b7d4-73ee8e5ab298
+treatment	R64912623_ther_proc	-999	-999	Surgical Procedure						3c86f991-7ec9-5749-ad2f-96d611607f05	7d2b684e-4b96-5650-9bca-0fb44e6e74ad
+treatment	R18668594_ther_proc	-999	-999	Not Reported						3cf1ba96-5102-5751-b413-80f8d7a8897a	bcf639a0-fcc9-5987-a106-25f3c0a9dec4
+treatment	R77548054_ther_proc_1	-999	-999	Chemotherapy						3cf2a142-5da0-51c6-aee9-871c3e0b86c0	622ec527-183a-5219-8996-03c3443401e3
+treatment	R62204778_ther_proc	-999	-999	Unknown						3cf375f6-544d-5727-b315-6fa17373b545	984d500e-583d-5091-9152-3135e36cf0de
+treatment	R53458745_ther_proc	-999	-999	Unknown						3d8270aa-c1f7-52f6-b891-8258be62bad8	e01d10a2-02df-594e-867d-7c461a8dd4a1
+treatment	R67278086_ther_proc	-999	-999	Chemotherapy						3db08028-4e7e-528f-aa5d-c0274bb4e193	de81d0c2-4e0b-56cb-a352-310de9748a66
+treatment	R26789421_ther_proc	-999	-999	Unknown						3de0164c-dd66-558a-8126-2376b08f6eed	95898e44-d66f-52ee-b49f-cefd0de02371
+treatment	R76653446_ther_proc_2	-999	-999	Radiation Therapy						3e6f761c-a0aa-541e-a447-325c2f3e9568	7cb937f4-baea-5044-be38-f48d98c97da5
+treatment	R85718752_ther_proc_2	-999	-999	Unknown						3e7488e8-3ba0-599e-8efc-5a34e9163871	162e4c95-c11d-5f6b-9aec-2d1e878e4936
+treatment	R74289361_ther_proc	-999	-999	Not Reported						3e98f35f-064e-5be6-b0bc-8af8c02921b9	1bab3e69-fd41-5ef6-871a-02ae2d75bead
+treatment	R46536596_ther_proc	-999	-999	Chemotherapy						3ec0c125-0ce0-510a-8c36-2dd1784ebfcb	50104f4d-3477-5f8a-aa26-701ac25b15df
+treatment	R98419178_ther_proc	-999	-999	Surgical Procedure						3f1c65d7-5152-5697-a6eb-59c5258eebc8	4f427d8c-da89-58ad-a3fe-30a32efd7dfd
+treatment	R49169114_ther_proc	-999	-999	Unknown						3f3bf20d-1ae4-5b3f-8e8a-36794c7df2eb	7c3a4094-8754-54fd-9f18-abc8bcad98a6
+treatment	R19670639_ther_proc_2	-999	-999	Chemotherapy	Bortezomib;Cyclophosphamide;Dexamethasone;Fludarabine;Inotuzumab Ozogamicin;Mitoxantrone;Vinblastine					4033d38c-e80c-58c7-8e1b-a2869f2e88eb	1ed2e0a2-647e-5cf8-a751-72e43bb0a929
+treatment	R93496749_ther_proc	-999	-999	Chemotherapy						40adc1ab-cb47-5f5a-a1f9-56348fee4ea4	f270e0a6-10dc-5cc9-82fa-31538399db57
+treatment	R2079607_ther_proc	-999	-999	Surgical Procedure						40d2c6a9-e7ce-5c12-b98f-6b599efacfee	b86bafe6-42a5-58bd-93e0-461271c3e283
+treatment	R4231995_ther_proc	-999	-999	Not Reported						41097209-f3be-5554-b427-8023f426baea	e8d74fe2-25cd-5137-bc2c-c2c1d9bc52b0
+treatment	R78209136_ther_proc	-999	-999	Surgical Procedure						4130dd48-ee59-5318-a340-6655db0bbe65	cd444807-f365-5129-9b34-638645a9280d
+treatment	R88633148_ther_proc	-999	-999	Not Reported						419c656e-adc2-55d9-bd1d-c7066c275212	5db7d73a-fdb0-516a-beac-393306b0072c
+treatment	R92816998_ther_proc	-999	-999	Not Reported						41c60147-7f19-5edb-a3be-fa52b4bd8bff	f142ec7a-005c-5b5c-98bb-971f1d3aa974
+treatment	R13349591_ther_proc_1	-999	-999	Radiation Therapy						4202ce39-08cb-5f28-aee9-5e02ac111853	ddb59c4d-c35f-58db-9b5d-b005ac183f3f
+treatment	R63514565_ther_proc_1	-999	-999	Radiation Therapy						42438e2a-e14a-5f06-b1bb-f0844cc76082	913ca85c-1c99-5077-aea5-79e0aa4b2656
+treatment	R82589423_ther_proc_2	-999	-999	Chemotherapy	Temozolomide					425100f5-8604-5f8b-9a11-59d0b28743c0	ee1c880e-56ca-55a0-aadd-e55e8028df67
+treatment	R29990293_ther_proc_2	-999	-999	Surgical Procedure						428fe7fc-9bd5-5ca2-81d5-63fe93611297	3fd74f0d-32c3-513c-bcf9-88ee38df5163
+treatment	R53110790_ther_proc_1	-999	-999	Chemotherapy						429aa177-4641-57a5-89e7-3383470dc2a6	7b3fed9a-b2c0-5cec-a70a-23434716c9ad
+treatment	R52998557_ther_proc	-999	-999	Chemotherapy	Alemtuzumab;Busulfan;Cytarabine;Fludarabine;Melphalan					42e4fefd-6c5e-59d9-8ba6-3c0f1c78419a	9bb155f6-23c0-5e2c-ba97-b4ab04636869
+treatment	R89132036_ther_proc_1	-999	-999	Radiation Therapy						42eab872-a458-54bc-a3e9-4efd78a40da6	8fe30da8-4cc7-5695-9a55-7c9ac3e7cbb2
+treatment	R28592776_ther_proc	-999	-999	Surgical Procedure						42ef553d-62a3-57b7-8529-62c0d48f97bd	5df99e3e-d7e4-5bf5-b43e-af34d89eb34b
+treatment	R43084656_ther_proc	-999	-999	Unknown						439f459a-5a76-5915-9358-1dee763dc5c4	ad1cebdb-6172-5a59-8869-9aaaf6edff73
+treatment	R72028557_ther_proc_2	-999	-999	Chemotherapy	Cisplatin;Cyclophosphamide;Etoposide;Temozolomide					43a95b59-26e6-511d-8987-b68e86904848	4fc898b5-a6d2-5871-a406-aa91988ed40a
+treatment	R12324546_ther_proc	-999	-999	Chemotherapy						43da1d69-0203-5278-8104-e1b70c32b6ca	b1fe4d8a-ef2f-54fc-8d0a-279512923e8a
+treatment	R7599763_ther_proc	-999	-999	Surgical Procedure						4482a2e8-cde8-556f-9a34-89d05734abe9	d35c6af2-1e88-53e0-8840-6ab7702df8a1
+treatment	R20169660_ther_proc_3	-999	-999	Chemotherapy	Blinatumomab;Cyclophosphamide;Dasatinib;Rituximab;Thiotepa					44b316ec-d2f5-5bb5-bc54-52082e194a55	1369b5a0-2c07-5674-aaa5-2609ac2bd3c7
+treatment	R65138532_ther_proc	-999	-999	Not Reported						4509c907-c77b-5adc-a5d8-70da04f88d28	62f87c8b-ce86-5d55-8107-80e706ed0264
+treatment	R63895027_ther_proc	-999	-999	Chemotherapy						452a2612-7bf5-5eea-9409-7513d5ceb5b4	7f49b763-0978-5eb8-8578-85bb5cd853c1
+treatment	R98294078_ther_proc	-999	-999	Chemotherapy						455fee1e-0b3d-56bf-82ca-63105f7416fb	df19518d-cab7-5cc6-b4a9-061510058189
+treatment	R41562865_ther_proc	-999	-999	Chemotherapy						4590f257-6b1a-5d8c-9ed0-bd23df0e9334	66a9ccbc-77c5-5c0d-a9a4-1da50f49f33a
+treatment	R80742303_ther_proc	-999	-999	Not Reported						45bd2e39-4674-57bd-becc-04a980a923b2	ef136c0a-9953-5138-aa4b-a7aaed704d88
+treatment	R15121371_ther_proc_2	-999	-999	Surgical Procedure						45f5e7dc-6374-5219-95fe-937582a912d8	a34ad904-9d0a-590a-b828-218dd6ecb1e4
+treatment	R8731167_ther_proc	-999	-999	Unknown						462356be-1d44-562f-80e6-a9743005b0ac	776e4206-1f8e-591f-90c9-f2af310ea944
+treatment	R85461741_ther_proc	-999	-999	Not Reported						46297057-0d73-570d-b712-35ebac55f2a1	25b59912-4f0e-5916-ba68-c0542a6ff869
+treatment	R96810546_ther_proc_2	-999	-999	Surgical Procedure						462daaf1-0d6e-5812-8bc8-71102c443aff	458bc473-f48f-5a96-b28d-5954b2166bd8
+treatment	R6336681_ther_proc	-999	-999	Unknown						4681b804-2a0b-5bff-bda0-124002a57340	a51f6330-1ec8-5801-8344-5f11a1957f5c
+treatment	R84943891_ther_proc	-999	-999	Surgical Procedure						46c9fb2e-f8ae-52d5-9f81-7759dccce094	78987a56-bde0-542c-88a5-03a110f02d37
+treatment	R85144706_ther_proc	-999	-999	Not Reported						470cd473-d0e8-5841-af5f-bc04d9afd533	7bf0e930-0f26-57db-af27-95a917bdcbf9
+treatment	R73871740_ther_proc	-999	-999	Chemotherapy						4730e1f7-2985-5ff3-ad72-0d0e205a49d4	c3d7376b-c6f7-5c25-99a4-3bf92476a7e0
+treatment	R34996413_ther_proc_2	-999	-999	Chemotherapy	Temozolomide					47379aa1-6d46-5087-808b-96d923e6f759	dfe7912a-19d4-5732-8306-4064142f4fc5
+treatment	R23217977_ther_proc_1	-999	-999	Stem Cell Transplantation, Haploidentical						4741145a-5639-5116-9c63-1b378746bddb	0ae7e723-87c3-5ee9-bb3e-a98610cfc296
+treatment	R3493206_ther_proc	-999	-999	Not Reported						4782e936-a52a-5ad1-949f-f5149109401a	fc7b37af-08b9-5c9d-8ef7-f78d4787befb
+treatment	R28527845_ther_proc	-999	-999	Chemotherapy						4783b784-fedf-5bfd-ae0d-04d79012474c	2527087a-e2de-5ee2-a2f7-6e0082f3377d
+treatment	R58079691_ther_proc	-999	-999	Not Reported						47c67f68-65b2-5c9e-b3a4-7f0d6643dda0	01118a93-3f3e-598c-9188-ae7f531d11b5
+treatment	R3719769_ther_proc_2	-999	-999	Stem Cell Transplantation, Haploidentical						47d0731b-1995-54c4-8aa4-25e331ddb98f	d208b6c6-9726-57b5-a4ee-745828b6694d
+treatment	R65387836_ther_proc	-999	-999	Surgical Procedure						4800bc4a-4644-57f7-a613-f59d9c5bd6e0	eaa113ef-7ebe-5d2c-934b-0f1f3884aa1b
+treatment	R90595103_ther_proc	-999	-999	Not Reported						4802f894-49ae-56f9-bc6a-277017bf8fde	83d11991-ae5c-5a83-80c3-692000a489bf
+treatment	R71663092_ther_proc	-999	-999	Chemotherapy						480a90f7-0f6e-5e11-be3b-482239446f55	48eca7aa-ec44-57dd-bd32-1950d847f561
+treatment	R41542800_ther_proc	-999	-999	Not Reported						48320180-e42b-517a-a99c-df1072c37314	78108e7b-981e-5f94-9718-0ed9b7277d38
+treatment	R9605815_ther_proc	-999	-999	Not Reported						48351dc7-f0b0-5c41-a72c-124604ca642d	36918814-204b-5237-8217-774b2a3a2e91
+treatment	R88584136_ther_proc	-999	-999	Not Reported						4843a707-ba02-5cb8-9253-ac586cb40743	efdc75d6-b9a0-559f-bdbb-4f89b3f7ce95
+treatment	R71327132_ther_proc	-999	-999	Not Reported						48633c7f-0963-57da-8e36-ab1ccbbadf4c	23a0154c-bc37-5c38-8917-8d98c1b7238e
+treatment	R51721138_ther_proc	-999	-999	Not Reported						48724b99-fdc9-5f6e-99e9-7306ba83ed39	d5b7bc6c-5e60-5a5e-8527-4b51e3834b72
+treatment	R91178779_ther_proc	-999	-999	Surgical Procedure						4885c9f8-4bad-5afc-b27e-488d3ab12d26	256af678-37c0-533e-8d0d-82e263bfb138
+treatment	R86868853_ther_proc_2	-999	-999	Surgical Procedure	Dabrafenib					48c9d791-48a0-5791-ba4b-2a261c456074	eca86fc0-c033-5a78-9f54-460a61cf7192
+treatment	R34826443_ther_proc_1	-999	-999	Radiation Therapy						48f85baf-3c91-550d-b8a2-44915206f93b	7cd10be8-15cc-57a2-b84e-9ce9774677ae
+treatment	R7007954_ther_proc	-999	-999	Chemotherapy						492d4250-1bd1-5a31-985b-eac512a4a19f	7053e0f6-5bf5-54cc-a848-00794bf119d1
+treatment	R26589766_ther_proc	-999	-999	Not Reported						49685b47-6d22-5788-8d2c-e0de01966552	f14957d1-9acf-5eb7-8ee9-51e9c088e936
+treatment	R21877913_ther_proc	-999	-999	Chemotherapy						498113d1-6b3f-5378-83cf-2f90ffe4d4b4	ed37374f-5ee4-56da-90c7-f60edb57e603
+treatment	R77947560_ther_proc	-999	-999	Not Reported						499f54ea-0c04-55e9-b3c5-98591e1f6d34	0aa7385e-8524-579a-ad45-4f23dbed4843
+treatment	R66304008_ther_proc_1	-999	-999	Radiation Therapy						49db9430-94be-5b98-b6c2-08dbc2ef4529	dfc1ca47-5d17-5ccc-9e33-eed9d4e91cc9
+treatment	R80507815_ther_proc_1	-999	-999	Unknown						4a0b0f45-9299-5969-8b69-42bf51ac530f	e2f45e23-b7be-5ab7-a4ad-718d9981e81f
+treatment	R66096793_ther_proc	-999	-999	Surgical Procedure						4a263146-6a53-55db-a5d6-e136b18c93c8	12c14664-9f2b-5f6f-8ebf-8e7f43620870
+treatment	R10817838_ther_proc_1	-999	-999	Chemotherapy	Irinotecan;Temozolomide					4a9e3d4b-dedc-531a-b1a6-6846c31a7992	c4f9bd3e-a86e-587a-97b7-e0b54ec6bd1d
+treatment	R98467389_ther_proc	-999	-999	Surgical Procedure						4aa0f1eb-6f13-5bd2-b82b-822609dc960e	65098112-349c-5022-8779-9baafdf3d9f4
+treatment	R18054440_ther_proc	-999	-999	Surgical Procedure						4aaaff35-71aa-5298-8852-ecc011f3fd51	b36e6c43-cd67-54b9-adb0-e29fedd198f2
+treatment	R34554207_ther_proc	-999	-999	Not Reported						4ac70d2d-72e1-59b3-b25f-5cf23314a737	215a073d-4d86-5e2d-b6f0-a112a29003fc
+treatment	R76832460_ther_proc_1	-999	-999	Chemotherapy						4ae67880-1ad2-5d89-bb3f-4ac8e569c2a8	5676273d-8515-54b1-aca9-1969c9dc13ef
+treatment	R81605222_ther_proc	-999	-999	Chemotherapy						4af5581d-4b4e-51f9-9d14-5c7fce961726	346d960d-03fa-5c9b-8bd3-13044447ece0
+treatment	R65677964_ther_proc_1	-999	-999	Chemotherapy						4b47b3b9-463d-59d7-a8cd-bdadb9c1c452	f72a72db-6d50-5bc3-820e-cca933cf8b96
+treatment	R45867850_ther_proc	-999	-999	Surgical Procedure						4b6fdacc-2425-5d1c-8000-5f35a7510097	fc9cc6d6-7e76-5ebb-9b45-8ad36d43eb2a
+treatment	R53704512_ther_proc_2	-999	-999	Chemotherapy	Temozolomide					4bc0c334-e99f-5c38-b317-269001f08bd6	159478a2-4451-55cf-8477-76639d349709
+treatment	R1502301_ther_proc	-999	-999	Chemotherapy						4c50f7fe-9bad-587a-8b39-7156c4829145	fe3e1bb4-f684-5c92-8535-974b053b7a6d
+treatment	R4459972_ther_proc	-999	-999	Radiation Therapy						4c6c59e9-2548-538d-9e2e-398ef6407746	9d706333-0577-5aba-9aa0-abb1ab3aa1b2
+treatment	R58936992_ther_proc	-999	-999	Chemotherapy						4cd432b5-bd2d-592c-957e-f316f2b2769a	c64741a3-fa8d-5827-859a-9ede595119d2
+treatment	R48655751_ther_proc_3	-999	-999	Surgical Procedure						4cdb4d4b-1674-5f37-b1bf-c19b4aad7d2f	2a26fff8-8493-5ac2-8e49-1c0d63f8b103
+treatment	R54444277_ther_proc	-999	-999	Not Reported						4ce38444-f832-558c-b3f4-a3ef45e57750	277de9df-6e09-52c1-a2a0-c25874c3e686
+treatment	R82242364_ther_proc	-999	-999	Not Reported						4cf449c5-fafd-5221-ab67-a19525035089	280ea975-a58c-59ab-8d4f-70d3679d12dc
+treatment	R35642048_ther_proc	-999	-999	Chemotherapy						4cf945d7-e566-540e-8e7a-1df18128cdbd	34c01111-d5fb-5e30-a565-080548b66fb8
+treatment	R87694316_ther_proc	-999	-999	Chemotherapy	Cyclophosphamide;Fludarabine					4d00cf27-5da0-57a9-a8ae-ee5a5854cf24	0c541f60-5dda-5521-9a74-b7e13d6b64b3
+treatment	R97018250_ther_proc	-999	-999	Chemotherapy						4d8ff8c0-996b-5b1e-bcce-c7f7875c66f5	012a1c69-00e4-5570-98a7-54641963ee16
+treatment	R86045703_ther_proc	-999	-999	Surgical Procedure						4daae745-61f0-5b2f-80f7-e65baa58b63a	e8bc1fb3-5508-5642-8f51-ed814cd1d218
+treatment	R23520439_ther_proc	-999	-999	Chemotherapy						4de636dd-df53-5853-9489-2c44f8540bf8	a4c3d421-0e88-5b0f-ac3f-067345fffdbd
+treatment	R83544571_ther_proc	-999	-999	Surgical Procedure						4e11d4ac-eb9b-566b-934c-b95b96c18dc9	f2a3e33f-d293-5d12-90ec-fa56d410059b
+treatment	R60118965_ther_proc	-999	-999	Surgical Procedure						4e436b7c-c54e-50da-9669-ab435355b770	f1052301-f00a-587c-a89c-7673194262dc
+treatment	R64940724_ther_proc_2	-999	-999	Chemotherapy	Blinatumomab;Cyclophosphamide;Thiotepa					4eab714c-40a1-5044-9cee-e1a632a222e4	56ed1b74-ed02-51da-a560-145daacbbf2d
+treatment	R13182047_ther_proc	-999	-999	Chemotherapy						4eb3e35d-b347-5401-8f76-894802ba1a6f	f4c7616a-dcec-5f91-b2b7-60a6d961729c
+treatment	R81520798_ther_proc	-999	-999	Chemotherapy						4f199939-88e3-5542-993b-3ce9226e060e	a6979e13-5aed-5bce-bdd1-9ddc6fda0622
+treatment	R51369981_ther_proc	-999	-999	Chemotherapy						4f6c7c7c-66cc-53a3-ac8a-00eb5d252786	626da003-23f9-5621-8369-49c0ad6f41da
+treatment	R93464217_ther_proc	-999	-999	Unknown						4fcdc5c0-98a4-5f48-91fa-bce258eb19a6	4cace668-0178-5c28-accf-6877cd6e5876
+treatment	R82117513_ther_proc	-999	-999	Chemotherapy						5010cf63-1344-537c-8f06-c61220d0193b	1548c350-82fd-59a5-a136-309a9fb951ea
+treatment	R63862793_ther_proc_2	-999	-999	Unknown						506439fa-5a1e-5ce7-bccb-435907cc7d68	5d67c1c7-96c7-59ad-9c6b-17a7d7958509
+treatment	R7401058_ther_proc	-999	-999	Chemotherapy						507068b1-4cfa-5288-9230-2d2a55846068	90320477-6ae1-52bc-bd31-af0fb72ce37b
+treatment	R24347013_ther_proc_2	-999	-999	Chemotherapy	Temozolomide					50725510-ec0d-504d-ad32-b719a46912c4	ce05587c-f5f3-5079-b6f3-b2577f360bc8
+treatment	R24477292_ther_proc	-999	-999	Chemotherapy						507b9ce2-1811-5159-b4e2-e0ba6b01b8b1	9f22bd60-9200-5f5d-b9d4-5b7545f6360e
+treatment	R94098040_ther_proc	-999	-999	Chemotherapy	Cyclophosphamide;Fludarabine					50d3790b-54ed-5985-86c6-061b3c3a164f	c21c3de2-0a56-5b0c-8e9d-3e3cdce60572
+treatment	R20566615_ther_proc	-999	-999	Surgical Procedure						51035463-7d51-5c20-84b8-7e9db96db4fa	24b2879f-82c3-53b1-a0a3-1778faba3302
+treatment	R31385370_ther_proc	-999	-999	Chemotherapy						5107f1d3-3776-5ddc-9f7d-9a411ad9bccc	b9b24cb8-1231-586b-86be-f0c962dc501b
+treatment	R48368867_ther_proc	-999	-999	Not Reported						512472f4-0723-55a7-a941-6ff18e9cb498	e8f04462-6bf6-59bf-bf17-c351e57e7be5
+treatment	R47180640_ther_proc	-999	-999	Not Reported						5124f460-829b-5616-868c-02d4a2c90756	056da652-0bd2-5f69-bc64-b7f29d024e18
+treatment	R90798620_ther_proc	-999	-999	Surgical Procedure						5146895e-ec9f-5ab9-943b-32e5055edaaa	0980e98b-c2fe-5474-8237-31c6a355a660
+treatment	R49809750_ther_proc_1	-999	-999	Radiation Therapy						51732b5f-b17e-54e7-8d20-552921c474fb	c5c7131c-cd9a-57c2-92df-768e2bafa2f3
+treatment	R19909338_ther_proc_1	-999	-999	Radiation Therapy						51e8322d-0510-5979-b13a-25f605f68d45	59dbc19e-3eaf-539b-94a0-f00d6f999fc5
+treatment	R41057555_ther_proc_3	-999	-999	Surgical Procedure						525b5437-1bf0-58c6-96fe-ca7f61db26ea	691c8994-9ed2-5027-93a4-e2e9f0c7b0fd
+treatment	R17139917_ther_proc	-999	-999	Chemotherapy						52c225cc-111f-5cef-a690-726259429e2b	024c4061-dd42-5a82-9679-01bd934d8982
+treatment	R33562637_ther_proc	-999	-999	Not Reported						52df7a7c-49dc-597c-85af-33ae6ff020f2	23111bb6-4051-5674-bd72-0647f3d528dd
+treatment	R24451608_ther_proc	-999	-999	Not Reported						531d0eb7-84c2-50f2-8283-524450f818c2	773a1dce-6850-5ec3-ae10-7f50b5982aab
+treatment	R60074358_ther_proc	-999	-999	Not Reported						53321e0f-5cdb-574b-b007-68283b36ec5a	cf89bcb5-1a38-54ed-9900-e7ebe1937e9f
+treatment	R64384977_ther_proc_3	-999	-999	Surgical Procedure						5362d95d-046a-5b9b-832f-5a5926395b19	231ef506-7466-5fa9-9e77-18f8a9c1d15e
+treatment	R62592850_ther_proc	-999	-999	Not Reported						538c4244-ec9d-5ba5-8d48-7e38d8f6da4a	608b73b6-b11f-56ed-88b2-68c3be1d1b82
+treatment	R5359714_ther_proc	-999	-999	Chemotherapy						539737a7-a890-5c2c-b258-dfdf380e9c8d	1952870d-9b89-5da1-8882-4367f997a5c2
+treatment	R19104131_ther_proc	-999	-999	Unknown						53ff7a9a-ebe8-54d9-91c4-7f74ad00efcb	55c46a28-a469-589b-b775-ff2e6dda7599
+treatment	R68734479_ther_proc	-999	-999	Unknown						5407a8dd-00f4-5b62-89a2-ef82abdee706	2c82f91b-8600-59bd-8cf4-ffda06a299cb
+treatment	R10529639_ther_proc	-999	-999	Surgical Procedure						5474e595-dbdd-588c-894a-74dbe3b3c1eb	1c7d1dc3-a9f0-5901-bf44-2429d5a47434
+treatment	R22638134_ther_proc	-999	-999	Surgical Procedure						5480df93-564f-5f11-ada0-287c309fcdc1	7d506b00-2b93-58d7-b91f-88a8eb2e0fc9
+treatment	R78402375_ther_proc_1	-999	-999	Chemotherapy	Etoposide;Ifosfamide					54a9596a-1bf3-52d9-a8fc-6c6a9da8f46e	95da8525-1d62-566e-b76d-50afe1a1e3fe
+treatment	R25769301_ther_proc	-999	-999	Chemotherapy						54d49ca1-f9ee-5030-a2f0-492efcd1d33e	ece2b961-772b-5e88-a7b7-b9349fcac032
+treatment	R22113125_ther_proc	-999	-999	Surgical Procedure						55113ad6-1ae0-5c60-8287-bba2a58aa677	1b48262d-da54-5849-888a-ae42e0f002ef
+treatment	R72358215_ther_proc	-999	-999	Chemotherapy						5563e33a-3a6a-5f1c-8953-ac3cb3e8e091	2967fc50-0abc-5f2d-a491-40e1dbcd1af9
+treatment	R5910853_ther_proc	-999	-999	Surgical Procedure						55a616a9-2cb4-5cf1-b39f-ba0bd8fb1c77	0576aeb1-5811-5430-9b65-c0029094e3bb
+treatment	R14169092_ther_proc	-999	-999	Surgical Procedure						55c07b30-fa04-56f7-ac66-ee941f6070b4	21d7c082-bb0a-53a7-8ff4-ee75ded6d8a1
+treatment	R48152505_ther_proc	-999	-999	Not Reported						55fc4d26-9713-5820-9ada-c4f024ddfaef	41c4f86d-967b-5659-8ebd-648c894d85f5
+treatment	R18088041_ther_proc	-999	-999	Not Reported						5680930a-496e-5ac2-a75e-7c13a9abc120	211cede1-014e-50dd-8573-16a10de677ea
+treatment	R12494701_ther_proc_1	-999	-999	Chemotherapy						5703d3c7-e754-5742-af41-87d0259947ba	328a5ff0-c20d-5828-bb25-0ce0547d6f25
+treatment	R92501606_ther_proc_2	-999	-999	Chemotherapy						57077ec2-a4a1-5a8a-9d0c-615d14f183ec	d6be906c-c8e3-586a-b5b3-d31539743053
+treatment	R80050019_ther_proc	-999	-999	Not Reported						575460b4-7a9f-5f07-8f65-56735d9ede5d	1e4d3df4-4581-5ac7-8690-6c5783d0e818
+treatment	R61700598_ther_proc	-999	-999	Chemotherapy						57845e38-c7a7-5dc9-828e-c567d2cc9fb3	cb4dd382-5307-506d-b92d-8d17d6cc5040
+treatment	R33615597_ther_proc	-999	-999	Not Reported						583b6309-f533-54ea-9c3c-529efaca03d5	aba8e339-a613-5d59-8092-aa7fa399ea8d
+treatment	R87085611_ther_proc	-999	-999	Surgical Procedure						58661b9b-cfc1-55fa-867a-d93310f815d9	a5840b22-b111-532c-85fb-75137fe1c880
+treatment	R91313664_ther_proc	-999	-999	Chemotherapy	Vinblastine					587e26ae-4079-5cc1-810b-68e8e6fb6ae4	59245f87-ff67-5f33-a2b2-3c0135150fc5
+treatment	R54036380_ther_proc	-999	-999	Chemotherapy						591a329b-86dd-5ff9-85eb-71054ae71543	bba9b897-1dff-5b17-90ca-abd1ce73716a
+treatment	R7826670_ther_proc	-999	-999	Not Reported						596bc597-2c44-5619-b2a7-5bb5f23546ee	f740ec09-f70a-579f-b572-98b8a760b04f
+treatment	R24320130_ther_proc	-999	-999	Surgical Procedure						59f55f70-59d9-5fe4-b9d0-0c2252ebd0da	c6807696-a8af-55c5-bb5a-9d65fc881b76
+treatment	R52600827_ther_proc	-999	-999	Not Reported						5a0f1559-f375-5843-9a0d-349f9537bf21	3c07c4ca-f9d6-5a3f-95ae-bd40f54fdabc
+treatment	R41057555_ther_proc_2	-999	-999	Radiation Therapy						5a4de093-1f43-58e1-a908-4c7c98e2c0a9	691c8994-9ed2-5027-93a4-e2e9f0c7b0fd
+treatment	R47254669_ther_proc	-999	-999	Chemotherapy						5a5d4bb3-758e-5f34-abd9-c134d72114da	ed6b821a-4fe2-5956-9cb0-1849c0596349
+treatment	R51145099_ther_proc	-999	-999	Not Reported						5ad9f77d-ca0f-5348-8c3b-80db8be0607a	88c0f996-7ce7-5da6-a569-21f8230c7793
+treatment	R81018671_ther_proc_2	-999	-999	Chemotherapy						5aec2f5e-3141-5bee-a6ee-f66d92c9ef78	dfdbc994-a1c6-590b-be59-7c485f2c85d5
+treatment	R68675787_ther_proc	-999	-999	Not Reported						5af31333-55cd-53db-aa1a-cbbb82ab2895	d46fee1e-a6c5-513f-8aab-09ea1baea9be
+treatment	R43868355_ther_proc	-999	-999	Not Reported						5b019bbc-c9c7-5b6d-aeb2-5fee6d2fe46e	c6d4d790-04ca-5111-8ae2-513944f54767
+treatment	R86393791_ther_proc_2	-999	-999	Surgical Procedure						5b4d4002-10c4-58fa-bf6f-95c9931ab07c	703e88fd-b5e7-50a7-8052-1b94e1e31476
+treatment	R27066489_ther_proc	-999	-999	Not Reported						5bccd4f6-de4c-562a-b072-138b21f7d83d	482af134-814f-51c2-9e17-f88125334293
+treatment	R42800048_ther_proc	-999	-999	Not Reported						5cc7344c-da8a-5e6d-a056-10a3e88b0987	c26986bd-b743-5cc2-8413-1e32adf0fbb7
+treatment	R79806724_ther_proc	-999	-999	Not Reported						5cdd0df2-ad4f-5f4e-8795-2aa0bc0bb698	ac3c9f31-d36c-5b9a-a5bf-6b7fb1c33d69
+treatment	R98345406_ther_proc_3	-999	-999	Chemotherapy	Temozolomide					5d0260cb-8ea8-53ce-bce2-b9b743ac221d	c99e61da-6173-5dc4-b79e-99e9841da9c7
+treatment	R65159352_ther_proc_2	-999	-999	Surgical Procedure						5db16686-ecc2-5951-a85d-b581d3870d9b	94c860f7-91d9-59e8-bd56-76f9695f5d1d
+treatment	R19731467_ther_proc_1	-999	-999	Unknown						5dd99c34-1280-538d-b1be-54967f8b9f0c	5ffc7a20-acde-563e-bb55-532229f51370
+treatment	R48655751_ther_proc_1	-999	-999	Radiation Therapy						5e02e3d9-26b7-51f2-aa97-28d14f931a00	2a26fff8-8493-5ac2-8e49-1c0d63f8b103
+treatment	R19264080_ther_proc_2	-999	-999	Chemotherapy	Cyclophosphamide;Etoposide;Vincristine					5e336ec0-7724-56fb-a93a-e9e2293e874b	82c9b732-69e3-5183-b776-3803a7c888e8
+treatment	R38278955_ther_proc	-999	-999	Chemotherapy						5e768f2c-066f-5da0-9472-b89b8a4d6a85	fcbbe0e6-1493-5c5f-92ac-7daf06ac74a8
+treatment	R46572422_ther_proc	-999	-999	Not Reported						5f6be655-2322-5e66-ad03-b5cc2f67ef02	75b49fce-e601-5519-bf82-cdab6c6c5c3c
+treatment	R74892321_ther_proc	-999	-999	Not Reported						5f744d23-b172-52aa-86f1-d4022fc5b86b	4fa3aeb4-669f-5508-90dd-b964aec11438
+treatment	R46895334_ther_proc_3	-999	-999	Stem Cell Transplantation, Haploidentical						5fdf37dd-b8f1-5e5a-94d8-14ea9aa7f188	d5067f5f-6c37-5239-a0ba-ab50860d35ad
+treatment	R67053650_ther_proc	-999	-999	Chemotherapy						601b1d8c-b5a0-5cd0-b289-92b40f4b8b43	fca79396-87a1-5803-b499-af92bb8d0981
+treatment	R77793096_ther_proc	-999	-999	Not Reported						60239439-2105-5ab5-b098-4eb5599ad415	ad709dcd-f258-5c09-9aec-72f1cafb09b9
+treatment	R40302526_ther_proc	-999	-999	Not Reported						6040aef8-4f4c-5646-948b-d7d8909d7ad6	c77a7fa4-9249-5d56-beef-f70969ee2166
+treatment	R52387805_ther_proc_1	-999	-999	Radiation Therapy						613389bc-bf49-5f5a-831c-9e0867f14e01	8e4da616-a976-59ab-8ac2-d14f9861fc7d
+treatment	R790024_ther_proc	-999	-999	Surgical Procedure						613b2845-be70-5321-99dc-511af7833ccf	88a62ce1-0485-5cdf-87a1-2e641fe3ffdb
+treatment	R85718752_ther_proc_1	-999	-999	Chemotherapy						61694566-1778-5af7-ab85-741ccf2e8135	162e4c95-c11d-5f6b-9aec-2d1e878e4936
+treatment	R24138928_ther_proc	-999	-999	Chemotherapy	Arsenic Trioxide;Tretinoin					61c0fd50-e9b7-53ec-998a-7723b214919c	ef335e59-33ad-5b8d-bbca-ad51825035cb
+treatment	R10610670_ther_proc	-999	-999	Chemotherapy						62036e78-860f-50b9-9af4-7c53b1c534ec	750168c5-2a5e-5302-852a-05dd3aa09800
+treatment	R14003239_ther_proc	-999	-999	Not Reported						6284f8af-5c78-55cb-91cf-d5ecb7a28db1	8660da43-86bb-5e5c-90c1-ceea6a493467
+treatment	R62602844_ther_proc	-999	-999	Unknown						630e0eb1-d1d1-5b27-b5be-a6f15fa8a23b	2c83bbc5-17de-5451-8a80-573289b232af
+treatment	R62384088_ther_proc_2	-999	-999	Surgical Procedure						63234b12-b681-5ee1-b00e-793d0b884511	aee27383-90ea-5d48-aaab-4d7df8fc11e4
+treatment	R17166487_ther_proc	-999	-999	Not Reported						633ddb1c-144c-5154-b95e-c37bef548f64	3ab3c8c0-1636-567d-847c-e5e30d243f22
+treatment	R52361203_ther_proc	-999	-999	Not Reported						638f6277-fff7-5964-ae11-1c3d4ad1e75b	53ee0815-110e-59d0-afbf-610f8bfacdc5
+treatment	R29777316_ther_proc	-999	-999	Unknown						63e7a2f6-3063-51f2-94fb-0ff2de0e2612	9bedcb13-0b58-5fa3-bbfb-dc00ff28cde3
+treatment	R29567036_ther_proc	-999	-999	Not Reported						63ee8868-631f-5928-b82b-1923e3594a68	a9d4b3b1-1248-5410-a0fe-85d9bc1f9abb
+treatment	R93243658_ther_proc_2	-999	-999	Chemotherapy	Dasatinib;Etoposide					6407e128-f1ff-517f-910a-e7404edbdef2	81b09da6-e0f9-522c-9973-9f448586d80e
+treatment	R33383417_ther_proc	-999	-999	Chemotherapy						64364353-2c73-5bc1-b4a3-585fd0180187	63775f0b-95c6-5dc7-ab5b-e388ec190345
+treatment	R25596823_ther_proc	-999	-999	Unknown						6481ec3b-c693-5211-bfde-6f0e377bde21	3871e843-a7a0-51c0-a3c4-25fb2c53b491
+treatment	R71169396_ther_proc	-999	-999	Surgical Procedure						6590e24e-18b3-5827-a70d-ac1b4304843a	30bf6cd6-d68a-5f3e-9d7e-9b14d57b7169
+treatment	R95330421_ther_proc	-999	-999	Not Reported						65b50b96-3bc5-58b9-bbda-6af7ddb3e953	1d5e618f-6cca-59dd-99a9-7527861cefa0
+treatment	R96737037_ther_proc	-999	-999	Not Reported						65b9c765-e37e-5dba-abbd-dde49a177cbc	14b9ec58-cf7c-5f40-bc5a-948c71dec1a8
+treatment	R90935333_ther_proc	-999	-999	Surgical Procedure						65ca873e-0172-587e-8257-45845ed86769	4cb7979f-2f13-513c-b475-b69d6d3bb5f9
+treatment	R3994626_ther_proc	-999	-999	Not Reported						661243ac-0e83-5a5c-b51c-4ad1e5c4014e	7a815ec0-de0f-58f2-98be-81d620806a89
+treatment	R37550536_ther_proc_1	-999	-999	Unknown						6629829a-df04-5e81-bc85-2d3b9bb2b95c	868bc6ee-7818-5610-a17a-45c63d80ba5d
+treatment	R44520832_ther_proc	-999	-999	Chemotherapy						664cfcc8-0a07-5bff-a357-0ee7862a328d	9cb95470-8ee9-5c1b-8cff-d183622798f4
+treatment	R36284273_ther_proc	-999	-999	Not Reported						66789532-046e-5983-936b-037c6ca861d6	f044d109-cfa4-57e6-b5de-0e912e99e117
+treatment	R28605017_ther_proc	-999	-999	Chemotherapy	Fludarabine;Melphalan					6693a765-986c-5cfa-aa1c-6b2adaf4c83c	c480aa08-e909-542e-b626-2e0bdef01177
+treatment	R26647879_ther_proc	-999	-999	Not Reported						66b95648-7078-5d66-a88e-075a0406c1da	853a1ff5-a705-5fe2-bcdc-68837524d46d
+treatment	R73569682_ther_proc	-999	-999	Not Reported						66bb260d-757e-5aaf-a2f6-05960642de6b	a0f75b81-ce0b-5291-9405-71737ac1704f
+treatment	R28232938_ther_proc	-999	-999	Chemotherapy						66c8a7b2-c4f4-56c2-a68f-f75155b0aa64	6698daff-828e-5544-b310-400f168e8b60
+treatment	R47746595_ther_proc_1	-999	-999	Radiation Therapy						676ae3e1-9c71-5ef2-93bc-0f4242895523	6205d728-3484-5c74-997a-30964a60b0d7
+treatment	R93456182_ther_proc	-999	-999	Chemotherapy						67a629ca-a58f-54c6-b958-46b90f3e4a50	9cf63133-4d30-5aff-99d5-9aedfd6e9195
+treatment	R75488071_ther_proc	-999	-999	Not Reported						67b03d92-b563-5266-a62a-ccf36326157b	eaadfc13-743b-5349-939d-e4fc3229038f
+treatment	R10851799_ther_proc	-999	-999	Surgical Procedure						67b64e4c-b1cd-5f4a-9c37-65658f401f19	cd30cb3b-106a-5451-bda2-279e933b4341
+treatment	R61307269_ther_proc_1	-999	-999	Radiation Therapy						67c062cd-a006-5e0f-81c3-691d783a6b82	0ae7cd36-3127-52ac-bdf4-dee205a573a4
+treatment	R86393791_ther_proc_1	-999	-999	Chemotherapy						67cf6374-367b-5876-8451-4a4bc9312be7	703e88fd-b5e7-50a7-8052-1b94e1e31476
+treatment	R84181064_ther_proc	-999	-999	Unknown						67ea25aa-9366-541e-9163-20e94598fd2d	720f483f-3ebe-5129-8080-b95e66dcfa35
+treatment	R89132036_ther_proc_2	-999	-999	Chemotherapy	Temozolomide					6835361a-fd35-507d-b781-5e32310d82ed	8fe30da8-4cc7-5695-9a55-7c9ac3e7cbb2
+treatment	R49564317_ther_proc	-999	-999	Chemotherapy						688c2080-374b-5524-b88d-6b60a93e2613	4082e944-1a1a-511a-b0e9-e76dc3bedb37
+treatment	R23311453_ther_proc	-999	-999	Not Reported						68e8a5c5-d7ca-5587-99a9-e804bdb9dc54	ec527044-4a07-50d1-9c40-f51d5c720cc5
+treatment	R37907633_ther_proc_1	-999	-999	Chemotherapy						68faee67-66c1-5dcb-ba1d-ae84c6ff11d6	793a43fa-755c-52fd-bed7-8cab9cfa6bd7
+treatment	R11581100_ther_proc	-999	-999	Surgical Procedure						69348d61-fd7c-5d3d-8143-bec09a8d15c1	c8276af8-598b-502e-ad20-52e537d397b8
+treatment	R1473272_ther_proc	-999	-999	Surgical Procedure						694b1138-f657-550a-925b-3d6b8a75985c	f6263c56-306a-5179-9a4e-b7470be4c71f
+treatment	R84100364_ther_proc	-999	-999	Not Reported						6998b588-5764-50a5-81e3-05c6a64fb1e1	3313da28-1def-50b6-9e44-ca063c3d0657
+treatment	R70725624_ther_proc	-999	-999	Not Reported						69a441e3-1c71-518b-900c-7dd24348ff4e	fd2eabc1-7fcf-5306-8409-d3052cacfec5
+treatment	R35049168_ther_proc	-999	-999	Chemotherapy						6a471f5c-6ede-5495-b198-89a73d2165d2	3a8742a6-f034-5075-872c-bf14c0c225c7
+treatment	R86143669_ther_proc	-999	-999	Unknown						6a7654cd-4e7c-507a-9788-c3ccf794e84d	5a879fc9-0664-526b-9002-52a02a2882bf
+treatment	R79406431_ther_proc_1	-999	-999	Chemotherapy						6a91b8da-008b-5b4d-99fa-5b5e25231265	68b160e9-8cad-5401-84c1-329d32c4dca8
+treatment	R29931295_ther_proc	-999	-999	Surgical Procedure						6a961940-06d3-5720-9676-5f5d55cb0a6a	53d37fc1-5d5e-5b7b-9c4e-1c2bf13842d1
+treatment	R75028295_ther_proc	-999	-999	Chemotherapy	Cyclophosphamide;Etoposide					6ab65e49-629a-59f9-9ab2-ebb29def9ba4	b747ef41-7a3b-5a6a-bffb-3d79ea760a0c
+treatment	R14677767_ther_proc	-999	-999	Not Reported						6acabd17-0124-5091-8479-d303244f8288	cd79aae5-75be-553b-851d-922bfc7340a2
+treatment	R94504538_ther_proc_1	-999	-999	Radiation Therapy						6b218bea-542b-53c3-a011-cfdf0025f66b	24d7328a-8eb6-5481-ad53-6fca034082fd
+treatment	R40464383_ther_proc	-999	-999	Not Reported						6b377901-675f-558d-9b70-04df7f4501bf	6b9fbcd4-c68f-5a00-9a30-d12fde5201aa
+treatment	R40592595_ther_proc	-999	-999	Not Reported						6b9bc569-c2bf-52c6-b062-a0b6e33f5841	8fb99817-4a01-5ced-95b6-e0bb67df916f
+treatment	R27772866_ther_proc	-999	-999	Not Reported						6ba5bedd-bffb-5e04-b1d3-a83c09e4a325	a44c4121-ec29-50f0-879a-43f772d82e88
+treatment	R34297637_ther_proc	-999	-999	Chemotherapy	Imatinib					6bbe8a01-ab0b-5500-a026-a6f12ed7414d	41c7b2e4-137c-5fe2-8444-ebe205f586d6
+treatment	R75756770_ther_proc	-999	-999	Not Reported						6bc37164-f921-57d8-b493-d9a6bd894e5a	eea9eccf-09bb-5221-8917-c1e2a5da32f7
+treatment	R89253700_ther_proc	-999	-999	Chemotherapy						6c2c3f3c-5057-5354-89ff-66c09235044a	e51bc821-00ea-5b25-bbb1-ac845cc176ea
+treatment	R24508521_ther_proc	-999	-999	Unknown						6c592d47-4d69-5438-9861-7aa243e9e458	72e6ca2e-103d-5f6d-903d-dcdfdc14dbaa
+treatment	R54009370_ther_proc	-999	-999	Not Reported						6cbd0c10-fb53-5682-915d-80ae5b93a143	e825d42a-67f6-52dd-b771-51c03f83e458
+treatment	R3477882_ther_proc	-999	-999	Not Reported						6d102855-e956-5cbd-a6c6-08278c0b0509	a0adc572-fb0a-520a-9611-2ddef7c5b92c
+treatment	R74925870_ther_proc	-999	-999	Chemotherapy						6d13d10d-3c2e-519a-a95b-5218183df2d8	73f11974-2ebf-5195-9ce3-48c638490659
+treatment	R34376943_ther_proc	-999	-999	Surgical Procedure						6ed868df-49ab-54a5-b115-449e9b160071	1cf8e724-927a-57be-a34d-5d0614e599be
+treatment	R56874752_ther_proc	-999	-999	Not Reported						6f510c9d-491a-5e98-9879-e4928dee528a	21df4c51-6886-5e9f-a2f7-0b78cd9285e3
+treatment	R7717990_ther_proc	-999	-999	Unknown						6f83157a-1c21-50b4-960e-5a982a9b5d76	a7e91070-9c6e-5866-8a36-02a31900cfb5
+treatment	R68498030_ther_proc	-999	-999	Chemotherapy	Dabrafenib;Trametinib					6f956f50-a50c-59e2-8841-dc03f4e1bcad	6507bfa8-76e2-542f-b69a-89cca6605036
+treatment	R83508119_ther_proc	-999	-999	Chemotherapy						6ffb80df-ca7e-54a1-a1fe-a7e0274825b6	f0e1fc33-3de0-505e-833e-f54b6e2fe7e3
+treatment	R1266912_ther_proc	-999	-999	Radiation Therapy						70982df5-1b8f-5cb0-8273-a476b6c300ff	a037214c-fb22-5a89-bcb1-c54412ece99c
+treatment	R511499_ther_proc_1	-999	-999	Unknown						70bab759-6376-5453-928a-5ec741091971	5f4924b2-3cf9-5176-932d-0d42f01b6407
+treatment	R10400226_ther_proc	-999	-999	Chemotherapy						71757456-9cf8-5a5e-9b04-f4a18be21fd4	af356553-9765-5119-bf46-1bc745ccd87c
+treatment	R32964496_ther_proc	-999	-999	Not Reported						71b39b59-1e22-5b8a-9866-94a9a152c46f	197b6fa8-5ce7-5240-b46e-8da77c743093
+treatment	R36435801_ther_proc	-999	-999	Surgical Procedure						721d958c-c368-5ca4-a26d-946b168b6e2b	145ee1bf-25b3-5e6c-8eda-a24b1889efcc
+treatment	R83839238_ther_proc	-999	-999	Not Reported						7246b2b8-92c3-5691-8dac-8deeeeda7ab4	0238a520-8044-542b-9ad9-0eae59ec7c43
+treatment	R77548054_ther_proc_2	-999	-999	Radiation Therapy						726a4275-5b61-54be-b8cf-4a552dfc8c9d	622ec527-183a-5219-8996-03c3443401e3
+treatment	R76014455_ther_proc	-999	-999	Not Reported						727d93c1-6727-51e3-a5b0-97783dc1f569	c77e390e-a92d-5a0c-89c3-7ac5d84d9532
+treatment	R8088216_ther_proc	-999	-999	Not Reported						72c713de-87a8-5a58-8f95-31df719404bf	09d02d1e-7d59-5718-8f06-7706200efdf3
+treatment	R2928985_ther_proc	-999	-999	Chemotherapy						7391c3f3-92b4-5934-8eac-4010fc580263	7cee5181-6abd-532d-a0ac-2cdcdcd86a5d
+treatment	R38788646_ther_proc	-999	-999	Not Reported						7437dc8f-7c26-5a03-8445-55ca75f54d7c	d965b1f4-3ee4-5e7f-be0d-5a230b8e3f38
+treatment	R55996933_ther_proc_3	-999	-999	Chemotherapy	Clofarabine;Ponatinib					745e34fe-ee4a-5ee1-9334-35d6953e0dd8	6ec14bfb-bbfd-50c3-a186-787bd8288eac
+treatment	R75614856_ther_proc	-999	-999	Not Reported						74658601-4027-541d-8021-bf16509394d4	92a48cc4-f1e6-57e5-8447-690f1187beda
+treatment	R5014061_ther_proc	-999	-999	Chemotherapy						7483b418-0bbe-52d4-9973-9ae81104569e	a4a99a6c-ce17-521a-bf08-97c67b03c808
+treatment	R94504538_ther_proc_2	-999	-999	Chemotherapy	Headstart II D2					749caf64-5438-5f7a-9ed3-2faa30e8a26a	24d7328a-8eb6-5481-ad53-6fca034082fd
+treatment	R78262449_ther_proc	-999	-999	Chemotherapy	Cyclophosphamide;Cytarabine;Dexamethasone;Etoposide;Fludarabine;Ruxolitinib					74a1a935-26cc-5959-aeb3-136e1621a0a6	e587f678-9dc6-5f01-992d-7017c6304f95
+treatment	R27921272_ther_proc	-999	-999	Unknown						74c67866-ce53-5985-97d7-5a5aaa20496d	c0a54296-f249-5edb-81a1-b63251cdbfc5
+treatment	R44680844_ther_proc	-999	-999	Chemotherapy						74ec436b-dd4d-544b-b3b6-89f339c4965b	43737a8b-1bb7-5ab2-9638-69d8702a0609
+treatment	R75179981_ther_proc	-999	-999	Not Reported						756d00ba-8a36-5bd8-ad92-4a9637dd1193	79198ea3-9a2b-5f0f-926f-903daf840fda
+treatment	R48514109_ther_proc_1	-999	-999	Chemotherapy						758c09af-0c20-56d2-9af5-4e008bf579c3	c410504d-c688-5d20-8181-9d02555c548d
+treatment	R35269850_ther_proc	-999	-999	Not Reported						764eae63-89c6-5093-ae68-46cd93f7c0b1	5bc53823-e813-5731-9e67-6647d81c99e8
+treatment	R21239247_ther_proc	-999	-999	Surgical Procedure						766ae34d-5a8c-5ef0-b746-9eb97b6db8ac	4cf6bd36-22fa-557b-964b-6b08ba7f04b5
+treatment	R28422112_ther_proc_2	-999	-999	Chemotherapy	Arsenic Trioxide;Busulfan;Cyclophosphamide;Idarubicin;Isotretinoin					766fe4f5-101d-5c6d-b54c-6af3320b510c	e9de1d97-80ae-5855-87dd-8478c6d38b7a
+treatment	R43391659_ther_proc_1	-999	-999	Chemotherapy						772c7555-1f5c-5d8b-b5ea-a39c6a44898c	80b31d4a-4b17-5c2b-92d2-c4c69942daf5
+treatment	R70239120_ther_proc	-999	-999	Not Reported						775eff0b-00a8-53be-aefa-110e1dd176c0	00dea444-8cc5-507d-84cc-a452ac53af70
+treatment	R6377363_ther_proc	-999	-999	Surgical Procedure						775f7e53-d658-506c-80d7-25a78882f25b	403f5b0d-f9b1-569c-86ac-ff8de7a0d55b
+treatment	R86206864_ther_proc	-999	-999	Chemotherapy						77735118-9405-5942-82e2-0d0429bc427d	e2588d82-f328-52d9-aed3-265d1366a74c
+treatment	R99727565_ther_proc	-999	-999	Not Reported						777f311a-7b50-5fa1-a352-a469c849f237	50a68ee4-8fe6-5ecd-b43f-0ac338ac019b
+treatment	R10130226_ther_proc	-999	-999	Unknown						7789ef99-bd7a-5788-8329-6fef0ad98c15	8e646edf-daa4-5e90-8d63-67e1d259b891
+treatment	R52808911_ther_proc	-999	-999	Not Reported						77c71a36-6789-50d7-bda2-287dbb38ef15	fda47e5f-7634-5817-a15e-38e60d40c534
+treatment	R22622745_ther_proc	-999	-999	Chemotherapy						77fbc87c-99d0-5c3b-8dbf-8071b945f0c9	9ec68432-5610-50f1-b1e4-5b43f96b8fcd
+treatment	R45664352_ther_proc	-999	-999	Chemotherapy						7804f223-de3b-5266-aa58-a9d47dd00080	a6bdd1d3-1dac-5b30-879a-b54e643f8473
+treatment	R58091608_ther_proc	-999	-999	Chemotherapy						780b75b2-1e05-5a31-988d-ffe376efe094	49704d82-d60d-580c-acac-ed729ef04248
+treatment	R74225854_ther_proc	-999	-999	Chemotherapy						7898e88d-d678-5373-800f-e3d621a7e649	689ccd6b-2367-53fd-a034-b7d6a40e80d5
+treatment	R51111803_ther_proc	-999	-999	Not Reported						78c1d3d3-b2f7-5a4d-9937-46d362f9f4dc	a4d92fa1-260a-533e-ac99-6e6b3549f0c0
+treatment	R37907633_ther_proc_2	-999	-999	Unknown						78c5fd36-c3d9-5b12-8a15-a53e0fb148b6	793a43fa-755c-52fd-bed7-8cab9cfa6bd7
+treatment	R61390821_ther_proc	-999	-999	Not Reported						7962564f-7c42-5329-900e-7b146bd65d76	18a2dddd-bf9f-5a1b-8fd7-37b0274f8c5b
+treatment	R7652265_ther_proc	-999	-999	Not Reported						797aec84-5103-50eb-bd9b-d93fcd1314fb	882267e9-29c5-5f74-96d7-b908270ef546
+treatment	R82568002_ther_proc_1	-999	-999	Radiation Therapy						79962ed1-55b3-5555-b4da-f4ca13d35f3d	b6469038-0d15-5474-b931-9b6090a616fb
+treatment	R8953958_ther_proc	-999	-999	Chemotherapy						79ca46b7-bd9c-5f0f-8e2f-9b8e89a7c493	8af4b0fa-db7a-54c2-a645-47e590da67fe
+treatment	R69165484_ther_proc	-999	-999	Not Reported						79e99bce-44d2-5c81-8feb-d2f1d4131d1f	f31f69ae-d1fd-5367-b015-33014df43a32
+treatment	R40871472_ther_proc	-999	-999	Surgical Procedure						7a46757e-dba1-5d55-885e-090da56ebb17	3dbb7095-7431-5902-a17c-0e8e6c9c43f6
+treatment	R47865525_ther_proc	-999	-999	Chemotherapy	Cytarabine;Daunorubicin;Decitabine;Gemtuzumab Ozogamicin					7a7fd55a-cfe3-506b-9a8c-2f77dc68a73b	c915b80b-657d-5d04-b030-431781e59460
+treatment	R51975721_ther_proc	-999	-999	Unknown						7aac7464-46e1-5215-a152-5e17df83ffef	a21972ba-20b5-5d99-a559-3f8e2dbbd754
+treatment	R66072854_ther_proc	-999	-999	Chemotherapy						7aba6721-5e3e-5f8b-a99d-829a3ecaefec	6d22238e-9d25-5ee3-9451-d7376236078b
+treatment	R81767445_ther_proc	-999	-999	Unknown						7af7c21e-798b-5bdc-b1bb-1b194f29204e	fd1d440d-2a4e-5673-b7bf-075cd53dec43
+treatment	R30327636_ther_proc_1	-999	-999	Stem Cell Transplantation, Haploidentical						7b7c1707-6566-5c4b-b8c3-193d8bd29cb6	34269dfa-6590-50f5-a746-ed885700a676
+treatment	R41030149_ther_proc	-999	-999	Surgical Procedure						7bbf84ee-f438-5f65-aef9-289aee8ebe3f	36eff094-9bce-5af1-997a-7a7247f3d1ca
+treatment	R21407750_ther_proc	-999	-999	Not Reported						7c23be50-b8c2-5ca8-b435-ca106b0a6fcc	305548f3-97a9-531d-a0b7-c691f12645b4
+treatment	R19731467_ther_proc_2	-999	-999	Organ Transplantation						7c3504f0-948f-5c62-86ac-6ab2f690479a	5ffc7a20-acde-563e-bb55-532229f51370
+treatment	R43438420_ther_proc	-999	-999	Chemotherapy						7c37a40d-39f4-51c7-9f59-134be53df16a	3e93166c-e2c8-581c-a2dc-804cdca0d822
+treatment	R5243323_ther_proc_1	-999	-999	Radiation Therapy						7c56b649-7152-5da9-abc4-614e92218338	0022ea61-8237-5ac7-b309-b64971d4bb04
+treatment	R2659361_ther_proc	-999	-999	Not Reported						7ca88d0a-ebac-5342-b59a-d4098b92929d	fd2d0200-6075-573c-a004-4399a2a70a78
+treatment	R19987930_ther_proc	-999	-999	Surgical Procedure						7ccb733d-a0f2-51e1-a8e0-84f07a2cc185	acdf3eb2-17c9-5c59-ae9e-4c571a50ed32
+treatment	R89824391_ther_proc_1	-999	-999	Radiation Therapy						7d1308ef-aae5-5a90-997b-2a9d37859ee7	d6fb9eb2-e306-5624-9eac-95f41599d69d
+treatment	R40815770_ther_proc	-999	-999	Not Reported						7d316af2-2891-542b-97c3-f904b1555711	714a233e-02bb-544c-b77f-0275d46e1320
+treatment	R64554134_ther_proc_2	-999	-999	Surgical Procedure						7d6ca1f8-761d-5530-89bb-bd4a4406e39b	60031d57-8a08-51df-a3f8-51261e24a765
+treatment	R63146584_ther_proc	-999	-999	Not Reported						7d7140f2-8792-52d1-9a0b-945e3145f359	84886a14-053f-5fcd-99a5-f422445172f7
+treatment	R37739909_ther_proc	-999	-999	Surgical Procedure						7dc05906-30a3-58a8-8512-67b4aa82f4d1	ad0ddd70-3a93-5056-a933-986e32e750d3
+treatment	R18169066_ther_proc	-999	-999	Not Reported						7dd800fc-b288-573a-b2ad-35caea91d29a	d4ae2fe1-45ad-51b3-b72c-45f215657972
+treatment	R95092702_ther_proc_1	-999	-999	Radiation Therapy						7e0b554f-7684-5c1b-9d49-57465580f18c	397d0085-28ef-5872-8edc-0c1ab3ceba24
+treatment	R88683053_ther_proc	-999	-999	Surgical Procedure						7e20ff06-f487-5a22-8fae-faa41dc7e955	3b1e1aa5-a0cf-5ef0-aef0-e331fb94c893
+treatment	R65819434_ther_proc	-999	-999	Not Reported						7e3563b0-742c-5349-95eb-1f00c8253669	8b48813e-a77d-5cae-966d-6a4844d562b3
+treatment	R31484833_ther_proc	-999	-999	Not Reported						7e8fec27-f0d4-57a1-ad0d-9d0c6e384982	5b06de76-4b80-5a1d-8dcd-86985c143042
+treatment	R89507968_ther_proc	-999	-999	Radiation Therapy						7f000673-6910-5f5e-92f8-90649c30983c	2504c886-b84b-5ccb-93e0-9e7e209a192d
+treatment	R26820174_ther_proc	-999	-999	Not Reported						7f05b0b5-fcf9-59f6-a86d-7291acbc9c8d	7e031d38-b807-5f2b-ae4b-31da046f193d
+treatment	R65624917_ther_proc	-999	-999	Surgical Procedure						7fc58ed4-cd53-5535-991b-0e93371863ab	8cc0d50b-6ded-5f12-903f-2a4f1cd12e82
+treatment	R85984278_ther_proc	-999	-999	Surgical Procedure						7fc594aa-1abb-55ed-981e-41a26d6ccd00	981ed95d-972c-50d5-821f-51bcb4700604
+treatment	R12663565_ther_proc	-999	-999	Surgical Procedure						7fddbb32-97df-557b-90c6-3e7a8100f560	85825580-94c1-5776-b031-02bbb65f2801
+treatment	R7599816_ther_proc_1	-999	-999	Radiation Therapy						7fe46651-ac9a-5da3-9e4b-c5241600bde6	d090cfe2-987b-5afe-a1ab-ee7154350f9f
+treatment	R71003296_ther_proc	-999	-999	Chemotherapy						80f5cdc0-cf9b-57e4-af41-d80b9ad694ba	b07a0cbe-cc4d-5e32-ad12-622c5c29d7f1
+treatment	R11403669_ther_proc	-999	-999	Unknown						8109abc3-b58e-574f-bbf5-26bc93935ae4	3dea1a49-f4fe-5dc6-b752-9c73cf9c3322
+treatment	R53110790_ther_proc_2	-999	-999	Surgical Procedure						816410cd-f646-50a1-b06f-a4a71becdacd	7b3fed9a-b2c0-5cec-a70a-23434716c9ad
+treatment	R7954013_ther_proc_1	-999	-999	Radiation Therapy						81907d63-8aa5-5b6d-b69e-cdb019735989	0f7ef6cd-b6d3-5983-9926-c47876aa74ff
+treatment	R40613451_ther_proc_1	-999	-999	Chemotherapy						81a11896-bdfc-5f2f-b509-0c932839686e	7a34e203-b1fa-541f-b7c5-41af8eea562b
+treatment	R35879098_ther_proc_1	-999	-999	Chemotherapy						81fed0c8-a6a5-51f4-8e70-540220113d33	85fb4a6c-4810-5be6-957a-b1ff9eca1fa7
+treatment	R94735620_ther_proc	-999	-999	Not Reported						8290bde2-a397-551d-91f2-2e2e9c28450f	db1592fc-daa7-5f26-b94e-49ab325761dc
+treatment	R43114347_ther_proc	-999	-999	Not Reported						8299a01c-cbde-5bf2-b9f3-46e1fcb1dac4	52a058c8-5ddc-55e4-bc9c-3c1b6ecad0f8
+treatment	R7599816_ther_proc_2	-999	-999	Chemotherapy	Carboplatin;Etoposide					82e50229-1da7-51f5-9316-fa8cfea5e6b3	d090cfe2-987b-5afe-a1ab-ee7154350f9f
+treatment	R87334529_ther_proc	-999	-999	Chemotherapy						83186a4b-a2f5-5d2c-96f9-a25b6d10a91f	8e675009-7940-58e9-807f-d248876b7744
+treatment	R1482728_ther_proc	-999	-999	Chemotherapy						836581ee-6516-5965-84ce-3c93b1f94beb	7c049a29-c6e1-5200-80b8-a5ce728e2154
+treatment	R55996933_ther_proc_1	-999	-999	Radiation Therapy						8374662e-5f59-586e-a1ae-d565eecc1821	6ec14bfb-bbfd-50c3-a186-787bd8288eac
+treatment	R85489199_ther_proc	-999	-999	Surgical Procedure						83857d49-de61-5bd4-b615-acadf3ff7ad7	e15fa02e-9717-55e5-bd63-7f20fd57e1ca
+treatment	R3149114_ther_proc	-999	-999	Chemotherapy						83b9081e-34ba-545e-81fa-0dd0dc84cd46	02d5a7f9-07b7-50ad-a380-8634b985336c
+treatment	R45706555_ther_proc	-999	-999	Not Reported						83fcdb37-c269-5fc7-a21b-eeef08367239	ec2bf61e-8ed1-5f0a-b807-905306990a48
+treatment	R17963984_ther_proc	-999	-999	Not Reported						844cab50-8701-590f-b9e2-529ea4bd8503	e8808a00-fa47-57b2-9dee-6fcdc43b2d08
+treatment	R43682750_ther_proc	-999	-999	Surgical Procedure						846ffea0-7c63-5144-b8cd-8dc384a01136	eb2d1cb4-8939-52d6-9df2-2c15760397c8
+treatment	R17850932_ther_proc_2	-999	-999	Surgical Procedure						847db9fc-337e-5091-98d5-aa2373e23f75	d1f563fa-357e-50bb-bcfa-42db3f899ce6
+treatment	R71508531_ther_proc	-999	-999	Chemotherapy						84fe2f9f-d790-5246-8fe4-5356fd847c7c	8e18d622-3587-52ce-8162-db7ee7f32e7f
+treatment	R20169660_ther_proc_1	-999	-999	Radiation Therapy						85800022-33a2-524a-883d-a9a366ee439f	1369b5a0-2c07-5674-aaa5-2609ac2bd3c7
+treatment	R24347013_ther_proc_3	-999	-999	Surgical Procedure						85d965bc-f782-503c-b9e4-645e5c889282	ce05587c-f5f3-5079-b6f3-b2577f360bc8
+treatment	R92393468_ther_proc	-999	-999	Not Reported						863115a7-83fe-56b1-8d3a-bfc30cdc6cdc	40278c63-92b3-5073-9ce0-7a873fff3199
+treatment	R75782417_ther_proc	-999	-999	Chemotherapy	Cyclophosphamide;Fludarabine;KITE CD19 CAR-T Cell Therapy					864909b7-3d9c-574f-87cd-9e939d6863c5	50c1f537-8c5c-5105-87ae-cd62ee1f1c7e
+treatment	R52695160_ther_proc	-999	-999	Surgical Procedure						86590bfd-62fa-5a54-acdb-1a905d4a2510	d78f3fd6-5494-5cbd-8321-b6fd771006fd
+treatment	R23829613_ther_proc	-999	-999	Unknown						86aec979-67e5-546f-a312-2d06c70e0565	df4cb7b6-f10f-57fb-9d12-cbb35cd95bb5
+treatment	R76765082_ther_proc	-999	-999	Surgical Procedure						86c6058c-3dac-5c8f-9c92-f9e32b18a986	625b2d0a-b710-5975-9bde-ed8afc28ed02
+treatment	R55918588_ther_proc	-999	-999	Chemotherapy						8707c945-210a-5fd8-8544-3f19b9bba580	a2501696-edf4-548e-b704-b969a9b40ce3
+treatment	R28743076_ther_proc_2	-999	-999	Surgical Procedure						872611ba-1f0d-5b14-b0e1-75b2199c0d74	00555688-2b98-583f-a815-e61d87a781f7
+treatment	R34355926_ther_proc	-999	-999	Not Reported						87c70b67-7fc6-5d34-b283-53889c87fa13	cced1512-39ea-5007-8ef1-87d50dda7ad5
+treatment	R58722230_ther_proc	-999	-999	Chemotherapy						881c2397-9401-5461-bb01-cadf3bf08c88	d04f1d57-7956-5e95-a8f7-c4a2d642f2ff
+treatment	R56031008_ther_proc	-999	-999	Not Reported						882bc5e7-2aec-5fed-b9af-342f2774bb3a	2efe8c0d-e0fc-5e56-bf7a-922710574364
+treatment	R44327156_ther_proc_1	-999	-999	Radiation Therapy						884851ee-f456-5d26-9889-c7f7a323b837	adc905f2-8af5-560a-9abb-a770bb34ed76
+treatment	R49675839_ther_proc_2	-999	-999	Chemotherapy	Cyclophosphamide;Dasatinib;Fludarabine					88702904-cfc8-5601-85dc-f75915655fe7	ded4395f-ee27-540e-b568-a909e4cba78c
+treatment	R33160176_ther_proc	-999	-999	Chemotherapy	Cyclophosphamide;Fludarabine					88935dc8-986e-59ff-9877-7e819807c6dc	c1c3f6f5-fcff-5cec-ad2b-dc8f9d3a2a12
+treatment	R41294322_ther_proc	-999	-999	Not Reported						88a1f5bb-3e25-59bf-9f1b-1fc265e205ab	485fd7aa-30bc-5f62-a069-1bff7a4edff9
+treatment	R48620247_ther_proc	-999	-999	Chemotherapy	Dasatinib;Imatinib					88c4010c-b357-5c02-b1c9-a6f771db8eab	41b3d936-a796-5cf7-b80c-8af037453752
+treatment	R50343424_ther_proc	-999	-999	Not Reported						88c76365-c158-5e91-93cd-87a62125a97a	99248aec-13b0-57fa-b2da-7ccab60e2b2f
+treatment	R35894879_ther_proc	-999	-999	Surgical Procedure						892f2113-dcba-5dc0-893c-6ea736d493e9	dd42a370-a2dc-5848-8593-afbdc841c199
+treatment	R29836631_ther_proc	-999	-999	Surgical Procedure						898b4f72-daa6-5803-83df-bb9429affe3a	0eaef969-e982-500b-9397-e93867120d42
+treatment	R63185656_ther_proc	-999	-999	Surgical Procedure						89a63838-ee19-5f9a-989c-08c208fca62e	5c297d1c-1720-5b62-be00-4397b21cb2a1
+treatment	R41718932_ther_proc	-999	-999	Surgical Procedure						89b69cb8-a08f-55fd-904f-b8e2fb4c7fd7	fe07520c-5ff6-5077-84b7-8a36891dad24
+treatment	R43391659_ther_proc_2	-999	-999	Surgical Procedure						89d8fae0-e08e-5ff7-8835-775574681138	80b31d4a-4b17-5c2b-92d2-c4c69942daf5
+treatment	R9739220_ther_proc	-999	-999	Chemotherapy						8a2af06e-dbf2-5640-adf9-03f8bd418d44	ca6d4920-bd09-50b6-90dc-449e7cf5f0dc
+treatment	R1386818_ther_proc	-999	-999	Chemotherapy	Vinblastine					8a5ee0c9-2a76-51be-a2bf-56dfef0dd7c5	b8b64aca-1d54-5c16-bbfa-56238a295bcb
+treatment	R41356810_ther_proc	-999	-999	Surgical Procedure						8aee2687-f30d-55e9-8359-f1584a53bcab	6d4349a4-5ba5-5c8a-9b38-4c98b37bab74
+treatment	R36057847_ther_proc	-999	-999	Not Reported						8afee261-c63a-512b-ab4f-a5d0e86351ec	766b4564-d2a2-5c6a-9cec-46ed6382722e
+treatment	R54046961_ther_proc_2	-999	-999	Chemotherapy	Temozolomide					8b8721b5-ad6e-50a3-b64b-07f837d772a1	37899c3a-6999-5601-95a7-89049f7d0e53
+treatment	R78700159_ther_proc	-999	-999	Not Reported						8ba5fe32-c034-595c-af5e-5d418a8a36eb	a3dd26b6-94e9-5efe-b304-8e26a636ab4c
+treatment	R36703116_ther_proc	-999	-999	Not Reported						8bb166ca-f42e-520d-ac05-927fe9ac92ad	708b944d-19a7-5c97-ac7a-2546b933935d
+treatment	R15388790_ther_proc	-999	-999	Not Reported						8bc3b819-7696-5409-a117-c94417c1f68b	10569db8-b977-545f-92b6-41eb8fa7e86d
+treatment	R81333024_ther_proc	-999	-999	Unknown						8bdf006f-5713-580c-9a3b-b633bbb665ee	d903bc94-441e-5204-ae34-0c76ee6f004a
+treatment	R38734039_ther_proc	-999	-999	Chemotherapy						8bdf90c6-0794-545e-9b47-db8757723eeb	67c83274-c4a8-5fab-800e-25e5b18798fa
+treatment	R81202836_ther_proc	-999	-999	Surgical Procedure						8bed1e30-ed98-5573-807f-62d7bda41bd6	80f6e6f6-2ccc-5dda-8059-67868f950da9
+treatment	R19579714_ther_proc	-999	-999	Not Reported						8c00cb25-cd6e-5dfd-93d7-a613116795f3	8d55eb14-a8aa-5782-ab46-285b28b878ed
+treatment	R81927961_ther_proc_1	-999	-999	Radiation Therapy						8c346c9b-c50a-5fd1-9a1a-08291fd7d911	d5932daf-c4de-521a-a8af-e0b97ab77788
+treatment	R30223468_ther_proc	-999	-999	Not Reported						8c39e067-1926-5679-ba14-ee85322a8786	8df66d8e-241c-5930-98cb-8cbcf3afd928
+treatment	R94399722_ther_proc	-999	-999	Radiation Therapy						8c7214d6-ea25-540a-8549-55c3ba36934c	cf0b2778-1eb4-51fe-ba74-e8140e10c9df
+treatment	R20517902_ther_proc	-999	-999	Not Reported						8cf8ef57-91f2-5cb7-a3eb-b295f18dd59f	b4519ee6-9e9f-5f53-ace2-c4be3c6184ae
+treatment	R66844405_ther_proc	-999	-999	Radiation Therapy						8cfb8d3d-0b79-5d26-91c9-9762ef8e4f4f	077e2d99-1a10-51d9-8f32-89b8f151d027
+treatment	R31048073_ther_proc	-999	-999	Chemotherapy						8d0a93bc-9572-5f15-9759-de41edbee109	c6158db8-09bb-5dfd-8378-3e30375b8a3f
+treatment	R81349814_ther_proc_2	-999	-999	Chemotherapy	Temozolomide					8d2936db-9e1e-517d-91d0-0355ec3497e3	df450e18-4730-5d0b-8680-15f30e6718fb
+treatment	R67594087_ther_proc	-999	-999	Surgical Procedure						8d582f7d-7f44-5fdc-9862-92c7b53aeadf	b12d87fb-ead0-5c42-aa7f-82a376bbc3d3
+treatment	R89900473_ther_proc	-999	-999	Not Reported						8d6ac356-d752-57fd-bc22-c0a9f9ca11f2	98ff975f-8d05-5f93-9ba7-dd0f7fd739f3
+treatment	R91118012_ther_proc_2	-999	-999	Unknown						8d77bbfd-4efb-5998-96fe-653dec816127	2f1b0bdf-8580-5e29-8c36-3c6eaad1ee6c
+treatment	R637734_ther_proc_1	-999	-999	Chemotherapy	Cyclophosphamide;Fludarabine;Kymriah CART Cell Therapy;Rabbit Antithymocyte Globulin;Thiotepa					8db1ea93-e008-53e7-9b99-1ff14423d25a	e0f2549d-ae66-5bbd-8e08-de8bdb30bd9b
+treatment	R35815707_ther_proc	-999	-999	Not Reported						8dbb4c7f-52b1-595d-95a0-f14651eb98d5	2398aef6-16dc-53cf-80b3-9b5c8390365d
+treatment	R42407665_ther_proc	-999	-999	Not Reported						8dbcb124-6068-52a4-baed-82b1bf9372ac	a4a09944-c359-5c77-b8d6-41ca3b9eab16
+treatment	R64384977_ther_proc_1	-999	-999	Chemotherapy						8e038096-9d24-5418-b9ce-07f04ce2523d	231ef506-7466-5fa9-9e77-18f8a9c1d15e
+treatment	R5243323_ther_proc_2	-999	-999	Surgical Procedure						8e25c252-abf4-5936-854d-f9a63dc3905b	0022ea61-8237-5ac7-b309-b64971d4bb04
+treatment	R97599928_ther_proc	-999	-999	Chemotherapy						8e36bfca-fefb-568f-841d-3cfcb1b969b2	860e1fb3-ad1b-5eed-8ecd-980043bd3f74
+treatment	R85074601_ther_proc	-999	-999	Surgical Procedure						8e5815ba-ad7f-526e-9ca9-5a676669b321	fec4cffa-5558-5fde-816c-59d2e6faf13f
+treatment	R49456990_ther_proc	-999	-999	Not Reported						8eb5b0ef-82f1-598c-ae73-8e9d6e582af5	46ff8cc7-5e48-554b-901c-11b6177e41f4
+treatment	R93008380_ther_proc	-999	-999	Surgical Procedure						8f00171f-e3d2-5ea5-9083-23a4bc1369f6	94c6aa45-4c56-517a-9b72-8d1cba3c9d3f
+treatment	R34473754_ther_proc	-999	-999	Chemotherapy						8f28df43-6c56-5f21-89e6-dcfd43f79744	793e6d42-e9c8-593a-9fc6-7c0ed5d5fec2
+treatment	R57608155_ther_proc	-999	-999	Chemotherapy	Etoposide					8f395c91-791c-52b2-aeac-2295ded2d1ee	4219448b-d7d3-5d07-a9ba-3057436438d8
+treatment	R31434217_ther_proc_3	-999	-999	Unknown						8f7acdb3-556d-574c-804a-256c6e56b9c3	c0343433-e3f1-5ec1-8348-c96e32caa17a
+treatment	R637734_ther_proc_2	-999	-999	Radiation Therapy						8f988c6e-cd9d-5a8a-8686-fe44f378cb20	e0f2549d-ae66-5bbd-8e08-de8bdb30bd9b
+treatment	R14053726_ther_proc	-999	-999	Not Reported						8fbe0313-4449-51a6-a8cf-2a9caab7ec75	06a6d99d-a6c7-59b5-85a3-392344e13af4
+treatment	R11741784_ther_proc	-999	-999	Not Reported						901d272b-dfa3-50c3-b928-a5cec3424942	f2ad8f67-494a-5d0f-8d6e-e0b5cd4ea06e
+treatment	R88456442_ther_proc	-999	-999	Not Reported						90244a91-7781-5799-bbd8-d401e8e6f28d	48aaf553-76aa-50df-9ea2-1a5a51d97448
+treatment	R85532392_ther_proc	-999	-999	Not Reported						90b11f1a-94d6-54a0-863a-2c940e24f601	26189a6e-8fce-5128-9392-faaf7612c39f
+treatment	R69241719_ther_proc	-999	-999	Unknown						914625f2-8223-5598-a165-19ee660c02dd	d3353dfe-9f5b-5b2e-a62f-1961d448415b
+treatment	R65283884_ther_proc	-999	-999	Not Reported						9165f59b-b1cc-5445-b9db-c51a7e02b776	b65a2945-f8b0-58b9-af1a-03efe34dba4a
+treatment	R53556598_ther_proc	-999	-999	Surgical Procedure						91717c0e-5ce7-57ec-98f9-38f1e49ab08c	8426a946-1208-57d1-b8e3-a595176d8895
+treatment	R66815252_ther_proc	-999	-999	Surgical Procedure						918b9e32-9553-5965-bf63-70cfa96d5e22	129494bf-2489-5a27-9c22-e82b3ab100ac
+treatment	R72043783_ther_proc_2	-999	-999	Stem Cell Transplantation, Haploidentical						918f17dd-b4a7-598c-bcfe-dfc344601720	b0c69924-9b5a-534f-950d-5dfce9446764
+treatment	R6778594_ther_proc	-999	-999	Surgical Procedure						920489fa-acd4-5a7f-9d2a-4656718333e5	d0110af7-d9a0-590b-9abb-9f2798fb9cb5
+treatment	R77843140_ther_proc_1	-999	-999	Radiation Therapy						921d7d83-0ee7-5773-9084-d649a2924414	42dbcc60-7982-5299-8b9e-0858622cff53
+treatment	R47472306_ther_proc	-999	-999	Chemotherapy						9267200b-890c-5402-bae0-26ca3901677f	d5281f0d-4b82-50c3-9757-be805ce09b2c
+treatment	R22289078_ther_proc	-999	-999	Unknown						928c447d-140f-5984-ae6e-0684425d341e	71b355b9-fa97-5dd6-af8d-d12960c7b439
+treatment	R54391743_ther_proc	-999	-999	Chemotherapy						92a705c3-b7ac-5605-bde3-4dcc4c0b0387	6108b024-9d09-502f-93da-3aee8dbb5308
+treatment	R78246234_ther_proc	-999	-999	Unknown						9303cece-0f83-50d9-98c1-5c6e276359c1	5e9f73d9-16df-5dd4-8f61-e4e1713ff6f6
+treatment	R39494732_ther_proc	-999	-999	Unknown						9310583c-8769-5b07-b914-b465521e0ec6	2705c079-2e51-57dc-a7ee-c5e76dfe6c2a
+treatment	R6768775_ther_proc	-999	-999	Surgical Procedure						931b6a56-a807-567e-aedc-15036269f5c0	ce3640df-3f8f-5b2e-8cd7-a44828a0f579
+treatment	R36550224_ther_proc	-999	-999	Chemotherapy						932964d0-17af-5d08-9b1d-d86c8a87e9d2	37700182-f5f9-51d9-8d5b-a425ce067a06
+treatment	R3718673_ther_proc	-999	-999	Not Reported						9369ad7b-30ed-52a8-8e4f-db8991aa98dd	0d9002a1-06e9-5b6f-baeb-2c671902c8f4
+treatment	R8413908_ther_proc	-999	-999	Chemotherapy						93964973-c67a-5895-b3bc-cf595d720e2c	65dfb566-ded7-57b9-8cf0-15bc0c55ae22
+treatment	R81960578_ther_proc	-999	-999	Not Reported						939fccef-30c1-5511-bfa9-4e9bfa215a5c	e9f0f8f4-e1b4-58e6-b238-6050001aa604
+treatment	R49291811_ther_proc_1	-999	-999	Chemotherapy						93a590cd-2ab3-54cb-b99d-7ab68d50eacd	e91e87a3-2e8c-58da-9a30-2128e87302b5
+treatment	R94418399_ther_proc	-999	-999	Not Reported						93cc4443-9b8c-5437-8fd9-0da1966d7905	fbfa4067-b279-50d0-8266-99cfd4b72254
+treatment	R78209411_ther_proc	-999	-999	Chemotherapy						9435ce3c-07cb-5abb-bdb0-e81389d41678	fc4b2445-5aef-5f26-8548-976e0d1bf19e
+treatment	R47988559_ther_proc	-999	-999	Surgical Procedure						946916ae-3e4a-5463-893f-d7780939ad17	ee641090-9e35-51c7-a492-e13389b910a0
+treatment	R37253988_ther_proc	-999	-999	Not Reported						94e8cab3-0492-543a-adc6-1b32933e239e	93e1f640-c560-511b-a4e0-bde37ce874ae
+treatment	R35190754_ther_proc	-999	-999	Not Reported						9572994f-fed4-58a3-a848-7d5c872735ed	1eebe595-3577-5e7c-8960-8a70d184b65c
+treatment	R22927518_ther_proc	-999	-999	Not Reported						961d31c0-9c12-57d2-9717-5da23f257ba6	db5b6997-c56c-51a3-a128-28165c779b2d
+treatment	R39079557_ther_proc	-999	-999	Not Reported						96d13df7-4562-513b-b5b7-1e134e42b41d	7883b1cf-c0f5-522a-bc21-0c53be74d5c2
+treatment	R98992384_ther_proc	-999	-999	Surgical Procedure						96fb87a3-c388-5947-8315-7eab3d806b76	860b54d2-719d-55d1-bc72-96fd4588b9ad
+treatment	R39889623_ther_proc	-999	-999	Chemotherapy	Cyclophosphamide;Fludarabine					970e2247-d848-5f93-8940-1cc369a7e3a1	5bdcc2c4-fcf2-5014-a316-3e2c75f53911
+treatment	R57746589_ther_proc	-999	-999	Surgical Procedure						97674761-f0f0-5311-b092-0aec965a7605	f69b5ca2-48dd-5302-9b71-1265c2988b57
+treatment	R24347013_ther_proc_1	-999	-999	Radiation Therapy						978347f4-5956-58d3-88c6-8c8ca2949449	ce05587c-f5f3-5079-b6f3-b2577f360bc8
+treatment	R27818905_ther_proc	-999	-999	Chemotherapy						97d1a056-519e-5625-8d24-d82961534336	a9c32637-1d49-5f20-83d7-e19dd8abc077
+treatment	R54318779_ther_proc	-999	-999	Unknown						97db5c16-79a6-59f7-a724-405e9a490b21	a7823e01-c90b-5cdf-afbf-399fe01b9f21
+treatment	R76999663_ther_proc	-999	-999	Chemotherapy						98584f5e-2fe3-5103-9d89-4289f4e8f9a4	c74e2236-f960-5223-9fe2-33c8a4662103
+treatment	R53727229_ther_proc	-999	-999	Not Reported						985a905d-ec09-5848-bb38-d49dc91978c0	fd09a664-c909-56df-8910-6a9206ac5241
+treatment	R24867122_ther_proc	-999	-999	Not Reported						9866d7c3-1632-5ce6-85c1-93fbda520baf	4a9ab0e0-9758-54fd-a541-8640d03b21ce
+treatment	R66304008_ther_proc_2	-999	-999	Chemotherapy	Cyclophosphamide;Etoposide;Nelarabine;Rabbit Antithymocyte Globulin;Thiotepa					9888a3c2-b26b-599f-970b-bbae8594428e	dfc1ca47-5d17-5ccc-9e33-eed9d4e91cc9
+treatment	R53246353_ther_proc	-999	-999	Chemotherapy						988a6256-c9b2-572d-a992-6506d57f73a9	58b9ddbd-ef07-5d0c-b19b-a59e92c453c8
+treatment	R35879098_ther_proc_2	-999	-999	Unknown						9894e4f7-378f-53b1-9c37-9acef256dd88	85fb4a6c-4810-5be6-957a-b1ff9eca1fa7
+treatment	R42384124_ther_proc	-999	-999	Chemotherapy	Busulfan;Cyclophosphamide;Rabbit Antithymocyte Globulin					98a7b4dc-c80b-508a-9b39-fa6e36873e7e	4bdc4ced-02ba-5e96-b42c-685a4d066d6a
+treatment	R58276235_ther_proc_2	-999	-999	Chemotherapy	Temozolomide					99589de3-817f-525b-832b-81598043e338	8f98e126-74bc-54ce-a412-b21f646245e3
+treatment	R27792000_ther_proc	-999	-999	Chemotherapy	Imatinib					99dcc96d-b721-53f1-91f0-b543844fa838	aa8f9c73-3569-5284-bd4c-09c6c822f97f
+treatment	R27915852_ther_proc	-999	-999	Not Reported						99e5e9f4-939f-50b9-87d0-bfe5692a30b0	1d459b18-1b10-5d14-a56f-6a43e81c2bf0
+treatment	R81943609_ther_proc	-999	-999	Not Reported						9a6e4c50-3e8d-5bf1-a39b-d5e6043d5ff1	d6650e48-f9d4-51ab-9c2e-eb6bdaaf4f01
+treatment	R87581704_ther_proc	-999	-999	Not Reported						9a97a0ee-33e8-5d80-a138-feef4570bb9e	ce67bc87-336d-5415-b69d-764fa24b2ea5
+treatment	R50305301_ther_proc	-999	-999	Not Reported						9b1deff9-f2e9-5278-be89-dfa1d223dd80	393bf666-ff8c-51e1-84a1-d1f5c3815da2
+treatment	R40458332_ther_proc	-999	-999	Not Reported						9b71f4ba-5b8b-5d80-91b1-f22156888923	3c71fea4-6a55-5fd3-9db6-2c8636ade80f
+treatment	R50228032_ther_proc	-999	-999	Chemotherapy	Busulfan;Cyclophosphamide;Fludarabine					9b996bdd-df3d-5a2b-8a4c-f32897574f98	0e8abe07-c8a6-5019-8cf9-5f392a2e2acf
+treatment	R10634480_ther_proc_2	-999	-999	Autologous Stem Cell Transplantation						9c205f0e-ac54-5571-b90c-37fa169c6500	19f0574d-75d1-5196-9e20-c33a9c2dd5f1
+treatment	R2603920_ther_proc	-999	-999	Not Reported						9c96297a-20d7-5e4c-b4d2-95edaa182e4a	deb9e03e-bfa8-5967-bd67-299f5894ec06
+treatment	R7457094_ther_proc	-999	-999	Not Reported						9cb23712-ba83-5dd7-88c2-99e481397ef4	624c38a6-c394-52e1-96f7-8ec37657ebe8
+treatment	R7996941_ther_proc	-999	-999	Unknown						9cef5d72-9fce-5495-bcf7-b05a0415070f	ff769651-53b7-540e-933c-49ac6fbaca78
+treatment	R49753764_ther_proc	-999	-999	Chemotherapy						9cf0bd79-1650-57bf-849d-ac3df9940bb0	e8803b59-58fa-539d-928b-36cc4f821efd
+treatment	R53159918_ther_proc	-999	-999	Surgical Procedure						9d1e387c-6889-5524-a6d4-fd29135b0144	e8b9c4d7-3b75-58c3-927a-63d4e5722b23
+treatment	R61252046_ther_proc_3	-999	-999	Stem Cell Transplant						9d57b326-abd7-538b-acf8-73d9f4dfe2dd	e8f3d135-c47a-5d6d-a6d8-71c72970d8c4
+treatment	R99024720_ther_proc	-999	-999	Surgical Procedure						9d6e6cf0-72f9-522b-80f6-d74f6ef16acb	19251160-3828-5499-98fa-7dd4bf4cf7bb
+treatment	R72281698_ther_proc	-999	-999	Not Reported						9d7011c5-0194-54d3-a634-cc4b0514ddad	c7e06688-18ca-51e4-9a0a-67623ee430cf
+treatment	R23217977_ther_proc_2	-999	-999	Chemotherapy	Busulfan;Cyclophosphamide;Thiotepa					9d7a8ce6-8b45-5f44-85b1-e49b6851e460	0ae7e723-87c3-5ee9-bb3e-a98610cfc296
+treatment	R61831927_ther_proc	-999	-999	Not Reported						9d8f7750-8fb9-5b24-aba0-ff3ea4c1193f	6238cc89-90bf-5aa5-af60-4deaa61ab737
+treatment	R31516811_ther_proc	-999	-999	Chemotherapy	Cytarabine;Fludarabine					9d96b43a-15db-5b6a-80c0-d58e9ded33f9	3532eefd-ecce-57b0-9ab1-cde759e5ed56
+treatment	R44107898_ther_proc	-999	-999	Chemotherapy						9d9d7e5d-03ae-581a-83dd-b5936d1bc7fb	7fd3d9e5-9aef-5f5e-b4ed-658f5ff6f590
+treatment	R23125382_ther_proc	-999	-999	Radiation Therapy						9dff8544-7a71-5f28-a53a-9eec3e1aa12b	b36144a2-9624-5d64-b9d1-07b67246a067
+treatment	R62521105_ther_proc	-999	-999	Not Reported						9e4bc3ed-2483-5495-b248-4edf916d80a7	3aceb080-b70e-5e7b-aa9f-dcac2fcc312d
+treatment	R10656925_ther_proc	-999	-999	Surgical Procedure						9e4cf87f-4812-57f0-862a-2b0a1b1b51df	1ac27928-09b7-5181-8494-3e5fb918cddf
+treatment	R61252046_ther_proc_1	-999	-999	Chemotherapy	Cyclophosphamide;Fludarabine;KITE CD19 CAR-T Cell Therapy					9e9d882b-d5bf-58a7-a3d2-0fe5762a99ff	e8f3d135-c47a-5d6d-a6d8-71c72970d8c4
+treatment	R14018252_ther_proc	-999	-999	Not Reported						9ead4ede-eebc-5788-b8d9-3a401d063bad	d3c008b8-b739-5860-a597-0b5d0fb212fa
+treatment	R3982686_ther_proc	-999	-999	Not Reported						9eb76baf-f75f-5755-83f0-dc354a2c9368	fa215be3-6fa4-5f33-9d61-36090987f7b0
+treatment	R31965751_ther_proc	-999	-999	Not Reported						9f39fb86-ab6c-5164-8c08-631a52be5d51	33af354b-fc2c-51c7-b13f-19a310ad968a
+treatment	R69370515_ther_proc	-999	-999	Not Reported						9f5d9b86-5520-5a97-a70d-f088290f7f59	04ff1f69-cb47-5110-8ec1-cff991eda615
+treatment	R81906939_ther_proc	-999	-999	Chemotherapy	Inotuzumab Ozogamicin					9f8486fc-76ff-50e3-a837-67ea627c5fe1	9d7adab8-fb69-5d06-84f2-e1aa4b3bf4fa
+treatment	R17397516_ther_proc_2	-999	-999	Surgical Procedure						9ff3deae-bb43-5c32-a09d-7b4840f0d81e	b3f06534-95bd-5839-b848-92b568172528
+treatment	R3161289_ther_proc	-999	-999	Not Reported						9ffad6b9-4d7a-546b-ad7f-92c9011bfaf3	e947812a-d257-5fa6-ad96-6b9340a47598
+treatment	R70926457_ther_proc	-999	-999	Chemotherapy	Cyclophosphamide;Fludarabine					a0261750-79e9-5de8-8686-544405c41415	c24f7b7e-c348-536a-bc9e-113e218f1631
+treatment	R33051469_ther_proc	-999	-999	Not Reported						a0503707-99fa-5af4-a2e4-f26978983832	1add5d4d-c272-55b7-a836-9366fc5f06cc
+treatment	R89344265_ther_proc	-999	-999	Not Reported						a07a82bb-77c0-5b03-8fda-3b7c31a896a9	053cf7e1-aac4-51db-8aeb-b577eabf8c05
+treatment	R47019278_ther_proc	-999	-999	Not Reported						a07b7c59-d2ef-5b92-b414-d2ef67eded40	80fa5497-b6e8-56bd-9da2-7f056145379d
+treatment	R22006839_ther_proc	-999	-999	Surgical Procedure						a0a7cc33-1510-545c-b8cf-ecb63692204f	b07146d6-5952-583e-8281-b8f1e64ef4ce
+treatment	R43596675_ther_proc	-999	-999	Not Reported						a0e17eae-175e-5d94-a4a0-8004fd8d9a2b	593ef4b3-b49f-5807-9322-e08ee96474bb
+treatment	R64384977_ther_proc_2	-999	-999	Radiation Therapy						a12c21f3-40f5-5f71-9469-6e1ce446b745	231ef506-7466-5fa9-9e77-18f8a9c1d15e
+treatment	R10830684_ther_proc	-999	-999	Unknown						a17f84e3-a8b0-535e-873d-0eeb582ffd1d	cd9f3eb6-25fe-5ae4-a669-adc979071243
+treatment	R47874657_ther_proc	-999	-999	Chemotherapy						a1eb9c31-9f32-581e-babf-d96ee5535863	af816ac9-c051-573e-893a-6fd321671d36
+treatment	R9568352_ther_proc	-999	-999	Chemotherapy	Vinblastine					a2b188f9-bdc2-5def-b5cc-190eea539c92	e8efa444-9339-574e-b48a-971a289b670e
+treatment	R72516443_ther_proc	-999	-999	Surgical Procedure						a2c1a2a9-782d-52a6-84fc-2370b768437a	75ba3ea5-9d3d-5c21-b641-821bbd5a2a6b
+treatment	R43145413_ther_proc	-999	-999	Not Reported						a326185b-29cb-5cf4-8515-f708abd397f9	232d9f49-fde8-578b-bcec-b515ceb33c53
+treatment	R84686868_ther_proc	-999	-999	Chemotherapy						a35d93d5-a1d1-560b-b2e2-342dc904bc3a	375776ee-6250-566d-88a9-424cb5b42bc9
+treatment	R47042448_ther_proc_2	-999	-999	Radiation Therapy						a36ee6c5-8b83-590f-9cbe-fb0d45c6e594	915a08f1-bdb7-561a-b85a-fb2749a04dcb
+treatment	R649311_ther_proc	-999	-999	Chemotherapy						a39211b2-4b0a-51bb-82f2-31bec8af7d33	a07f560d-fc51-595e-aa46-59cd8d32a7e6
+treatment	R97664649_ther_proc	-999	-999	Unknown						a3fb2a4f-52f7-52d9-ab02-0ce550877cc4	a4565ee7-f335-5410-b1f4-a978d72acbde
+treatment	R66424892_ther_proc	-999	-999	Chemotherapy	Azacitidine;Venetoclax					a3fb7802-d228-5a1b-a0a7-cb991a6d94f6	5ed3211f-52d9-5c88-a622-654c614e0e33
+treatment	R98744224_ther_proc	-999	-999	Unknown						a421fbb4-6d4a-589e-8d92-07017ca87e1f	4915f717-d1eb-5b48-a48a-4e4cb754e78d
+treatment	R41755664_ther_proc_2	-999	-999	Organ Transplantation						a4a23638-0634-57ab-891f-10bd7812beb5	56050066-e834-5050-97fd-543828cd8e68
+treatment	R49088384_ther_proc_2	-999	-999	Unknown						a4bdde57-fc62-502e-a939-9ce5d499d9f6	fa63291a-c1e8-57a9-be99-459ed61c3d09
+treatment	R74971899_ther_proc	-999	-999	Chemotherapy						a54d3e1e-267d-5cea-8281-edb16f418247	a4efebe7-20b7-57ba-891d-b10f0f3084a0
+treatment	R23876646_ther_proc	-999	-999	Surgical Procedure						a58135ea-d828-5119-b0b8-3dd7e69d000b	3c68382f-7e05-54d7-9773-5673ef10f9b0
+treatment	R4351598_ther_proc	-999	-999	Surgical Procedure						a5829744-6e53-592f-a57d-30a079567fc2	1b58cd4f-fe87-5d18-9cdb-5e028a689cfc
+treatment	R65825466_ther_proc	-999	-999	Not Reported						a584b230-7330-5fdd-80f4-5b28ff509432	59f768fb-87ab-5e61-a24a-33aa1998fa94
+treatment	R98225862_ther_proc	-999	-999	Chemotherapy						a5ae8708-246b-55df-8a40-929405b35a76	0543b841-cb95-5626-8a65-c5a40c23a13a
+treatment	R49675839_ther_proc_1	-999	-999	Radiation Therapy						a5f539be-db2d-5174-b8dd-61e8a4098683	ded4395f-ee27-540e-b568-a909e4cba78c
+treatment	R13015718_ther_proc	-999	-999	Surgical Procedure						a5faa538-350a-575f-ba6b-f84caebc929d	a78c129a-5386-56fa-a575-ebcb4992be2b
+treatment	R25787479_ther_proc	-999	-999	Not Reported						a607d7bf-2f5c-50e5-baa8-e2e66da89c41	2632b172-ba2a-5ea5-9da7-63ae20b1e5e9
+treatment	R5485912_ther_proc	-999	-999	Chemotherapy						a61e7689-f39b-53a5-a1c3-1f0e76e526fa	2f670529-6e6e-5cdc-bba9-08ec5ae2cbf1
+treatment	R7236686_ther_proc	-999	-999	Not Reported						a69a97c7-2a49-5fe2-9c5b-c89803ea425a	6a7f2d75-db5f-551d-aa17-8e824d48e988
+treatment	R86507242_ther_proc	-999	-999	Surgical Procedure						a69dc842-453d-5dc2-912d-5fc0b1f3f292	503b9011-a935-57b9-be9b-00b920363f0f
+treatment	R38738001_ther_proc_3	-999	-999	Chemotherapy	Temozolomide					a6ac3eae-7f94-579a-9ec7-04b5e7204a14	4dce9d0b-946b-543f-bee4-c8f58db637cc
+treatment	R82568002_ther_proc_2	-999	-999	Surgical Procedure						a6c2ef5c-d621-537c-ab0e-5377cf68203f	b6469038-0d15-5474-b931-9b6090a616fb
+treatment	R46977514_ther_proc	-999	-999	Unknown						a73d1dbe-62cd-5901-8414-df130ebc7e12	a90b345a-9e7c-5d89-abe2-0d27511f0bae
+treatment	R38738001_ther_proc_2	-999	-999	Surgical Procedure						a742d789-cb7f-59c9-ad37-f1981a80f489	4dce9d0b-946b-543f-bee4-c8f58db637cc
+treatment	R76914161_ther_proc	-999	-999	Unknown						a77debb2-0713-5fa8-9855-37e72fd5f334	d5d4a560-48a1-55f9-85fd-eb9039148738
+treatment	R43205864_ther_proc	-999	-999	Not Reported						a797d165-e322-5ad2-9406-0a29aaeec7c6	1210fbf3-34a3-5841-ad12-264fb76cdf39
+treatment	R37640584_ther_proc	-999	-999	Not Reported						a7b58145-2157-58e4-8fc2-af5545b201a9	f36c1b93-4e3c-5a35-9f18-17bcd627ab5b
+treatment	R95936989_ther_proc	-999	-999	Surgical Procedure						a891b762-d1f1-5def-b502-1266863c48e6	3d0d9742-5cd5-57f4-bce6-7ae7e890ddf8
+treatment	R79298009_ther_proc	-999	-999	Unknown						a8a8becb-6038-5c38-a636-b1135a58148f	5497b22f-b583-524d-a601-04d64720a259
+treatment	R75557058_ther_proc	-999	-999	Chemotherapy	Cyclophosphamide;Fludarabine					a8be33c9-10a1-5d3f-a291-d9811e35b844	10fa14bd-4473-5f53-ae67-e3e172d267d5
+treatment	R46273123_ther_proc	-999	-999	Not Reported						a934a2ab-1588-580b-910e-44d34a38a6d5	e31f36b5-2bd6-5c26-8970-b41772424788
+treatment	R29580196_ther_proc	-999	-999	Chemotherapy	Cisplatin;Cyclophosphamide;Etoposide;Vincristine					a94bf780-107e-565a-bd93-5ce18f54fbf0	db2726c2-4d7b-551c-aea6-7a6eced0f241
+treatment	R81927961_ther_proc_2	-999	-999	Chemotherapy	Cyclophosphamide;Fludarabine					a98628eb-a021-5d02-a815-ea983284f350	d5932daf-c4de-521a-a8af-e0b97ab77788
+treatment	R36972797_ther_proc	-999	-999	Surgical Procedure						a9d1dedd-8284-52f9-b396-271657b94924	8c908c60-ff43-57cf-be8b-35033236b0b1
+treatment	R66054611_ther_proc	-999	-999	Not Reported						aa12ad09-4990-5c42-9f5d-17732115b45e	3f4a10a6-5652-5cf7-9b61-b0b18f7ed7f6
+treatment	R8345539_ther_proc	-999	-999	Chemotherapy						aa24fc02-df6e-58da-99b2-317e774b56df	385f637e-f4ee-54b4-bd02-cdbd3e3e94de
+treatment	R6774893_ther_proc	-999	-999	Not Reported						aa53602f-21e9-5737-a748-cae3d010db55	8411c6a9-9b65-5413-aa08-d4d7661b22c7
+treatment	R20580187_ther_proc	-999	-999	Not Reported						aa70acf8-7809-58ea-9cb5-2209e0635a0c	72547019-866c-554f-8fc3-aaf1460e4b86
+treatment	R9179079_ther_proc	-999	-999	Unknown						aa804216-bae7-5a15-a1aa-f52772cb48a4	251d8aa9-66bc-56ce-9966-81ca152d1bf2
+treatment	R97359766_ther_proc	-999	-999	Chemotherapy	Dasatinib					aabf65f4-aa89-513a-a3f4-ffa485564b0b	5b4f7986-c4b4-5a4f-8055-d33b4440170d
+treatment	R31737188_ther_proc_1	-999	-999	Radiation Therapy						aacbecf5-eff7-59f2-8da8-5888e2f4d270	c73ce9d1-4aad-57d5-b57d-0804d8310ac5
+treatment	R36361253_ther_proc	-999	-999	Chemotherapy	Decitabine					ab311d44-1a99-5f08-9b94-ebd9dfc2405e	fcf62fda-d7b9-5198-a838-fa75a63deec9
+treatment	R22366897_ther_proc	-999	-999	Surgical Procedure						ab7b65a6-9722-505c-b43f-42740f2594e7	43415f7c-33f7-58bb-9421-5d49f824d7ba
+treatment	R62384088_ther_proc_1	-999	-999	Chemotherapy						ab8d5c8c-1ae8-598b-903f-a06123d05aff	aee27383-90ea-5d48-aaab-4d7df8fc11e4
+treatment	R33622401_ther_proc	-999	-999	Surgical Procedure						ab9ff8d0-e9b2-59f3-b991-ad83d9dc42b4	7299915c-9da1-5539-957c-bc995e4ad4b0
+treatment	R76800118_ther_proc	-999	-999	Not Reported						abc997c7-cba4-50a9-9e46-a45528d09158	ef517eb8-6e6d-5a21-b261-b33f880b1140
+treatment	R67791960_ther_proc	-999	-999	Chemotherapy						ac1281b1-b6e2-5960-8c20-21c832d51f7b	67f16ae8-337a-5e40-bf89-642143a2664f
+treatment	R15145317_ther_proc	-999	-999	Surgical Procedure						ac1f5ab5-3a9d-5032-9588-00384159d72b	61958f89-2e03-531f-a533-9edf2a48bef7
+treatment	R74114457_ther_proc	-999	-999	Chemotherapy	Carboplatin;Vincristine					ac4778e1-6d88-5f72-898f-914b1bb04a4b	8d188e07-a2bc-5b09-b800-d70f2ae5a6e4
+treatment	R79799027_ther_proc	-999	-999	Surgical Procedure						ac666012-cad9-5120-a6fb-0b0789a1e1d1	c894e82b-96ef-5177-83d9-cacb55cd92c3
+treatment	R46065556_ther_proc	-999	-999	Chemotherapy	Cyclophosphamide;Fludarabine;Gemtuzumab Ozogamicin;Melphalan;Thiotepa					acf88077-f073-5bf2-8888-3a9aa0856bfc	5c0bd3e0-61b8-5efa-8d2d-47bcabd90b24
+treatment	R11755446_ther_proc	-999	-999	Chemotherapy						ad538fc5-0876-510b-a479-2a0a6a66f83c	99538a98-08a2-52a5-bab5-2c8707da26d9
+treatment	R50791335_ther_proc	-999	-999	Chemotherapy						adbfb1d7-531e-5cdf-bd10-efe953bbd2bc	c3155aa8-29fc-51c0-9eaa-789d8fccb08f
+treatment	R47869430_ther_proc	-999	-999	Chemotherapy						ae0810f3-6c78-552f-950d-ad7e28446c8d	a39cff7a-9c92-5acb-a670-0937111069f8
+treatment	R3376113_ther_proc	-999	-999	Chemotherapy						ae1abb37-f309-52fe-9b11-38396d165102	12892ff6-35cc-5ab9-a101-43cd7c20b944
+treatment	R65788948_ther_proc_2	-999	-999	Chemotherapy	Cyclophosphamide;Equine Anti-Thymocyte Globulin;Fludarabine					ae5ce9d7-077e-5075-83d4-2075ffcb6cbb	8d1effc8-72f8-596f-8b41-c953bb09a057
+treatment	R74687376_ther_proc	-999	-999	Chemotherapy						ae5dee12-fff6-5068-9568-0575455d5527	1d4bcedc-150b-56ff-bc95-8a914b2c8d53
+treatment	R97033695_ther_proc	-999	-999	Surgical Procedure						aebcc595-7d27-5d6a-9d13-93f5e847ee5a	40f0044b-3584-52b3-a90c-dffc0f874c1e
+treatment	R98090398_ther_proc_2	-999	-999	Chemotherapy						aec38f61-c047-5a99-9767-bedff3cbf85c	3e1d308b-6f4d-539e-ae7d-c106d74689c8
+treatment	R31737188_ther_proc_2	-999	-999	Unknown						aecfd6d8-b320-51fe-95d7-fba82ace9384	c73ce9d1-4aad-57d5-b57d-0804d8310ac5
+treatment	R6577502_ther_proc	-999	-999	Surgical Procedure						af06e896-2d89-57fb-996d-c222461047ad	d9307730-abaa-5a8f-90ca-086d8f8bc26e
+treatment	R41077275_ther_proc	-999	-999	Not Reported						af0d6622-c4cb-5dfd-bda6-73dfaae3dedf	0715a0bf-6ae5-5e88-b229-93194f47b23c
+treatment	R10332595_ther_proc	-999	-999	Not Reported						af100d42-5eba-59c2-a1ca-54b7168cc058	8749ba3a-5e01-5861-af95-b0e04a4d5328
+treatment	R95118415_ther_proc	-999	-999	Chemotherapy	Busulfan;Clofarabine;Fludarabine					af461ec6-5c6d-5f26-9e75-3865c04269d4	2a55ae8b-81b0-5495-ab2e-a7665645960b
+treatment	R72028557_ther_proc_1	-999	-999	Radiation Therapy						afee4810-39e2-5021-9c53-23046d8b5a66	4fc898b5-a6d2-5871-a406-aa91988ed40a
+treatment	R46840036_ther_proc	-999	-999	Surgical Procedure						aff848c6-53cc-5969-bb40-7b7fa5d194fc	5ee509ee-1407-567a-9959-5abfda3c8b3f
+treatment	R58963359_ther_proc	-999	-999	Chemotherapy						b04cff22-1ae2-561f-8cd5-5fa94f4f9068	9724c93d-0da9-5d4f-90a5-ddc751a0e4b0
+treatment	R5155763_ther_proc	-999	-999	Surgical Procedure						b0e04ead-3d17-5ae9-bff5-93f62778a99d	3192e461-724c-50d5-9588-75786a97f776
+treatment	R95846994_ther_proc	-999	-999	Not Reported						b1091415-f09c-5f19-8c70-6d8b7ead4f9d	16a43eb0-b03f-5a79-be1c-ea6910a799d4
+treatment	R93452973_ther_proc	-999	-999	Chemotherapy	Busulfan;Cyclophosphamide					b1598f9f-8675-573e-a989-a7f2c54fcbd8	aa16ca19-8a4b-570c-afaa-2dab5da5f7a3
+treatment	R25550107_ther_proc	-999	-999	Unknown						b167b130-3252-5d2f-b483-70f15539f039	1169a60a-f4ce-5fa1-ade6-ca8c9bfd440b
+treatment	R12494701_ther_proc_2	-999	-999	Unknown						b1bdbbb3-4cb2-51fd-af4f-338f5f367782	328a5ff0-c20d-5828-bb25-0ce0547d6f25
+treatment	R19622249_ther_proc_1	-999	-999	Chemotherapy	Larotrectinib					b1ed2cc0-3258-5fbd-95cb-4e30c0ddd8c6	25969ad7-c067-5fd2-b4d8-ab41bb20c3c5
+treatment	R79438532_ther_proc	-999	-999	Not Reported						b1fa28c0-59b6-5ac2-9afd-8955307485a2	cb56454a-9b35-5d19-a005-02d8310dc60c
+treatment	R6392127_ther_proc	-999	-999	Unknown						b209bfac-d2fc-5053-8e63-7ba21cd8fae5	9f4c2f6e-9544-567d-9fa1-2bf8654c3416
+treatment	R35832893_ther_proc	-999	-999	Chemotherapy						b28e460a-19b4-5630-9a2b-7063b5e88913	f91b4045-cacc-549e-8915-82528de0e05a
+treatment	R87715503_ther_proc	-999	-999	Not Reported						b2d9525a-7405-5eeb-81bf-57c771bd2bfa	deec1a9a-3102-5b5c-bd9f-1a7af4c22336
+treatment	R93090195_ther_proc	-999	-999	Not Reported						b2e44d45-281f-556c-9a61-e81c441d7a84	de9b42fc-421a-58dc-b5dd-3b1b7e36a419
+treatment	R87670942_ther_proc	-999	-999	Surgical Procedure						b32a4509-7a45-573f-93ed-c1d6f1b00121	8e963a26-940c-5af2-8c9c-19e13598d397
+treatment	R85509478_ther_proc_1	-999	-999	Chemotherapy						b36d2779-7f4b-59c4-b035-1e05680a16c0	23103fbf-509a-5792-88f5-ddf31fbc21bf
+treatment	R27515075_ther_proc	-999	-999	Chemotherapy						b395bb9f-a2d7-5059-95b0-06f91814ada1	8a5079a5-c323-5aa9-a8e7-10e663459247
+treatment	R28843483_ther_proc	-999	-999	Unknown						b3e8d6c0-49a0-5316-aa94-3c4a531694c0	42ecc070-71fc-58bd-86b2-304a44ffd7bc
+treatment	R62732251_ther_proc	-999	-999	Chemotherapy						b3eb2ec7-f988-5964-bc9b-9a536a657534	e9216a5f-a57d-5a5b-aea6-b1f55f2810c3
+treatment	R17479408_ther_proc	-999	-999	Unknown						b40cdabe-d45d-5e53-a838-778e8151f5cd	c2b44844-5b09-5585-be83-cb3821dfd5b9
+treatment	R15072657_ther_proc	-999	-999	Chemotherapy						b435c43d-63b8-501f-86cf-f7f3d22582e4	f42c770f-0fff-5eae-8ff1-ace6995d8d63
+treatment	R28422112_ther_proc_1	-999	-999	Stem Cell Transplant						b4394eeb-7a33-5567-bc02-6e3808a9d868	e9de1d97-80ae-5855-87dd-8478c6d38b7a
+treatment	R54046961_ther_proc_1	-999	-999	Radiation Therapy						b4573399-a677-58a1-a6a4-251a08180c8b	37899c3a-6999-5601-95a7-89049f7d0e53
+treatment	R15238820_ther_proc	-999	-999	Surgical Procedure						b468e417-9b60-59b3-865f-92f4f93bfbf6	477bcf56-6cb4-58e0-a9e5-f586efe8349b
+treatment	R17250877_ther_proc	-999	-999	Chemotherapy	Dabrafenib					b48ac272-8d96-5f5c-9e4a-94f617d443d3	a02750e8-7b6e-5341-ae02-838b5929c156
+treatment	R86384252_ther_proc	-999	-999	Chemotherapy						b4cd77b8-d7cd-57ae-8681-abe5f7bc6031	2d43e2f9-a59a-5669-83d2-f0f2c3d4e34d
+treatment	R95184983_ther_proc	-999	-999	Not Reported						b50f775a-6e2c-5b92-a827-9786bcb7bc8f	feee38c7-7690-54d1-929f-a3c15d2ca4bb
+treatment	R23180319_ther_proc	-999	-999	Not Reported						b5743b14-0cf7-5f28-8601-fd5f49d8700e	fca59f0b-8f89-5a98-a48c-ed04c749ad19
+treatment	R21339705_ther_proc	-999	-999	Unknown						b5b78cb7-235f-5acb-be54-de0c2b7652cf	435fee79-753b-5af9-9724-48fb0b223040
+treatment	R55475961_ther_proc	-999	-999	Not Reported						b63b2ab1-8fd4-58d0-a0a1-543f1d2d560d	6723b5e9-9bb1-5dee-bffa-7184ca17c7aa
+treatment	R60628107_ther_proc	-999	-999	Chemotherapy	Cyclophosphamide;Cytarabine;Dexamethasone;Etoposide;Fludarabine;Vincristine					b65e8953-ab19-5a20-9f60-31e61a6fc82a	502cf602-b371-563a-8a83-cfbec4d7e5da
+treatment	R17259818_ther_proc	-999	-999	Not Reported						b66307e2-54e3-57f6-a8e1-1ddce4d1647a	e9eb6c20-73cd-5dcb-bc45-e47398e56b69
+treatment	R13823541_ther_proc	-999	-999	Radiation Therapy						b66ecbae-8c07-5293-903b-0410eaa3fd9d	9a87d885-13d2-57fd-8e05-858b3b118105
+treatment	R47746595_ther_proc_2	-999	-999	Chemotherapy						b6ba6083-bf9f-5916-83e4-1284d2e9e48f	6205d728-3484-5c74-997a-30964a60b0d7
+treatment	R57899673_ther_proc	-999	-999	Surgical Procedure						b6c71912-6de1-5700-adfc-c64c07cdba29	f9ef0706-edee-5930-9564-d3f749d48279
+treatment	R34259440_ther_proc	-999	-999	Chemotherapy						b6cae4d4-1a85-532f-bc44-187ef9f335bb	74ede82f-22fd-5a70-be34-8d13f903a599
+treatment	R67694156_ther_proc	-999	-999	Not Reported						b742d687-9b55-5075-bf0d-36e57eaa5f63	393baf9a-0c0c-5ffb-9d4c-a669bd792702
+treatment	R44994270_ther_proc	-999	-999	Not Reported						b78ccc22-4e88-5160-a7ca-8e5a625f16e1	75e2243f-3fd2-536e-b387-cdf765ba63e5
+treatment	R77327047_ther_proc	-999	-999	Chemotherapy						b7b0f334-6cf2-52be-aa78-3c490949ec6c	fdd21af7-baf9-5e80-bc59-9cb8a30fc83b
+treatment	R68495058_ther_proc	-999	-999	Not Reported						b8164d2a-1687-542f-9103-f8c0127bac5f	b0da7012-0393-55ba-9378-f4303bf2a76c
+treatment	R85224007_ther_proc	-999	-999	Not Reported						b8191f98-cc42-58c4-ae23-b652d87287ed	d32eaea4-c3fa-5b5f-a799-a6aa86166c38
+treatment	R92318605_ther_proc	-999	-999	Not Reported						b841ac5f-0ad8-5a9d-b7c5-74fa5f2f505a	0a738580-147e-53bc-9836-cec2f812fa18
+treatment	R26009119_ther_proc	-999	-999	Chemotherapy	Dexamethasone					b87e7b95-de63-54c1-87f0-222056f00803	67109642-2c3d-58d2-9980-4d3a68bae5d4
+treatment	R6789146_ther_proc	-999	-999	Not Reported						b890a120-f1be-5fb9-8e3b-4bc4558e4960	04e34ab2-ecbc-574c-b7c1-278c409ffa19
+treatment	R66279196_ther_proc	-999	-999	Not Reported						b9057e65-5e23-5503-8267-0c770d0a6bd9	01fdd1c1-ff7d-5fd0-9f5e-7c1ccb14ccd6
+treatment	R86067955_ther_proc	-999	-999	Not Reported						b91e3063-bd7e-5e83-be11-937062dc88e4	74ffea70-135b-5d7e-a754-604401a69ca9
+treatment	R19032759_ther_proc	-999	-999	Not Reported						b9296a85-e89b-5adb-b53f-69e2d8777b87	7e037fbc-1e1d-586a-baa0-b3be9c7d5172
+treatment	R89599040_ther_proc	-999	-999	Surgical Procedure						b9e969a4-ba6c-5859-9b8d-6d7200053d29	2bb3ec88-ab3f-58d2-a5e1-f1f702d1ccd5
+treatment	R78245041_ther_proc	-999	-999	Not Reported						b9f2f371-d0de-5cff-8b33-db72d7e6436b	53520fdd-1af8-5173-a8d4-b7df42b18251
+treatment	R86473343_ther_proc_2	-999	-999	Surgical Procedure						ba1b72ee-6181-5d27-9f7c-47029d389028	0e9b205d-66e3-5ac8-a474-7eda316f539d
+treatment	R29830997_ther_proc_3	-999	-999	Radiation Therapy						ba52ee49-6088-5fa3-82fb-bfe714648ab8	c9417415-e09c-50c4-8d09-7c6819c50387
+treatment	R25679146_ther_proc	-999	-999	Chemotherapy	Blinatumomab;Imatinib					ba58616e-0eb4-593c-8d35-6a419f762c83	507f9143-af32-5052-a29e-f736a6765145
+treatment	R81561069_ther_proc	-999	-999	Chemotherapy						ba75c64b-4095-59cb-b18b-665e2f425f25	7a7f8d46-b16d-5cb8-b2cc-e3dbc616a64b
+treatment	R79898537_ther_proc	-999	-999	Not Reported						ba7d810d-f0db-5e20-9010-77f9e36cbab8	3927d43d-8170-5632-975d-fdfe4696ef24
+treatment	R57177746_ther_proc	-999	-999	Surgical Procedure						bb112c5a-9ecb-5cf1-955b-4688dec74c31	06c433be-b095-59bc-ba96-2629fc65e185
+treatment	R46661287_ther_proc	-999	-999	Not Reported						bb4ecdf7-9e53-5b85-8df2-a93688a7eacb	22852977-1ce4-5267-aa55-662e41e7b44d
+treatment	R14006172_ther_proc	-999	-999	Chemotherapy						bb69a7d2-7b00-58bd-b1b5-91cd45029146	41f92ca5-7e7f-5373-b427-e39c1763d09e
+treatment	R88432345_ther_proc	-999	-999	Not Reported						bbb00a4c-6a0f-5ee5-ba90-ddf9e546f740	ab063941-f36c-5f9d-aa4b-fae2b9703a3d
+treatment	R60882154_ther_proc	-999	-999	Chemotherapy						bc094780-1fb0-596e-917a-df29116e15a7	0bfbb3c6-8ed1-5e8e-8792-0d807be697fb
+treatment	R31161739_ther_proc	-999	-999	Not Reported						bc28332b-99b6-5bf7-8a9e-68a32b968292	13787ea6-75cf-56a2-923e-fbd6c4088b0a
+treatment	R95105934_ther_proc	-999	-999	Chemotherapy						bc3e3a79-4bf9-59b1-acf8-e9b54af2a389	58b59281-0c08-53f5-805b-b261df6ad3ef
+treatment	R36927172_ther_proc	-999	-999	Surgical Procedure						bc45c72a-c04e-5340-81e7-954fd84385ea	5ec9e366-4a11-5c05-9435-7996cc4ea844
+treatment	R44684455_ther_proc	-999	-999	Chemotherapy	Dasatinib;Imatinib					bc52d08f-58ac-57b7-b16f-94dc5eff319b	c55aa715-6d5e-5e1f-aab2-7bf7a51f182b
+treatment	R55743386_ther_proc_1	-999	-999	Chemotherapy	Bortezomib;Cyclophosphamide;Cytarabine;Dexamethasone;Etoposide;Fludarabine;Vinblastine					bc54da04-1926-5af2-a694-9d3ddd96fb13	ab6eeeb4-37f8-583a-ad68-41dd2288cd7a
+treatment	R23219971_ther_proc	-999	-999	Surgical Procedure						bc93da6c-92a0-5253-9374-b149fde9e9f1	2e17bc7e-eeae-5b3c-b9e2-916ffea87a7f
+treatment	R29830997_ther_proc_1	-999	-999	Chemotherapy	Bendamustine;Brentuximab					bc9ba10f-b18e-5aa7-9abb-3a871c792bb1	c9417415-e09c-50c4-8d09-7c6819c50387
+treatment	R95092702_ther_proc_3	-999	-999	Stem Cell Transplantation, Haploidentical						bca02ebf-c2c4-59c0-8546-adf1bee17ee1	397d0085-28ef-5872-8edc-0c1ab3ceba24
+treatment	R61947875_ther_proc	-999	-999	Not Reported						bcc31655-a4d8-5ab3-b82c-af6b363c3953	c9de463a-84ee-5565-97b0-39a67d10d038
+treatment	R21349320_ther_proc	-999	-999	Unknown						bccf4d0e-7a9c-5450-bca1-77301537cc4f	de04711a-061c-5067-b0fc-225190efd1b6
+treatment	R82612550_ther_proc	-999	-999	Not Reported						bd1ff5b9-a64d-56f2-8e7c-6d749a0eba13	999f48c5-5168-5b45-a75d-ff4602a57f81
+treatment	R34996413_ther_proc_1	-999	-999	Radiation Therapy						bd9e20be-d246-508d-bc32-69ae9cdeb8a9	dfe7912a-19d4-5732-8306-4064142f4fc5
+treatment	R5664801_ther_proc	-999	-999	Chemotherapy						bd9e403f-3187-5122-82a7-e446053f3891	2b829035-90d4-546c-b14a-068bebab216c
+treatment	R79406431_ther_proc_2	-999	-999	Unknown						bda70aaf-055f-553d-8431-3b802fc36484	68b160e9-8cad-5401-84c1-329d32c4dca8
+treatment	R46036547_ther_proc	-999	-999	Not Reported						bdb2a742-2f4c-5909-9897-4cbfd99bc5f4	a961c0ac-1582-5b16-b602-204b58b6dd03
+treatment	R75666933_ther_proc	-999	-999	Not Reported						bdb7753a-83ae-543b-a84d-c1af7f1fab29	c67386a5-f44c-561a-b161-78469585a6b1
+treatment	R22159297_ther_proc	-999	-999	Not Reported						be3e0eb5-d979-5c2f-8a47-c15edb709542	7941255b-3025-5672-ac9d-3c4cccc13691
+treatment	R93523792_ther_proc_2	-999	-999	Unknown						be845a7a-7fb9-5d84-98f3-471c2fcb769f	f5a1b1d3-f041-5238-868b-cf4918e1cc76
+treatment	R16550260_ther_proc	-999	-999	Not Reported						be99ed1f-11a7-5dc4-b90e-430cf8c36110	e371e7d2-0dc1-59d6-8a7a-c5e96b5cb012
+treatment	R23366959_ther_proc	-999	-999	Not Reported						beac805b-973b-5511-a36d-214c8ff9ae12	b29fc07e-d59f-5ed0-afea-30d15e06a17f
+treatment	R12134512_ther_proc_2	-999	-999	Surgical Procedure						bf3e342c-46aa-5aa5-aed9-f38aeaf9eabf	e37e2bab-f821-5857-959b-8621238f5589
+treatment	R21898562_ther_proc	-999	-999	Chemotherapy						bf7dabb3-ae5c-5051-85e5-353ad80050d0	5ea164ed-f27d-50c7-9357-a731a6ac6741
+treatment	R71298242_ther_proc_2	-999	-999	Surgical Procedure						bf8e0281-c077-5d50-a3fe-874b021d2952	2e42baa1-d1b5-5432-8a01-d80c3e566267
+treatment	R924413_ther_proc	-999	-999	Chemotherapy						bfc3b5df-88d5-5c72-97e1-eaa3afb578fb	e4f676ad-62e9-518e-a3fe-209ba8b2da07
+treatment	R47224842_ther_proc	-999	-999	Chemotherapy						bfe2b07b-1f94-5437-b5da-011d0d0721af	dd66bfc8-5ce0-51ae-8ce2-7bbb50a69362
+treatment	R32570887_ther_proc	-999	-999	Not Reported						c01f4c69-ea90-59d0-87a0-e9885db093b7	1ce58592-0bde-565d-bd56-995eb8ff0ba8
+treatment	R33943772_ther_proc	-999	-999	Unknown						c05f9939-0fef-5726-9f99-39fa3aa27205	c757791e-5f31-5e6d-b813-8933fde8ca77
+treatment	R31206524_ther_proc	-999	-999	Surgical Procedure						c05fb984-4d43-5d3f-8adc-911ba7712563	894aad91-0ce9-5f48-99dc-66e0d45b64b1
+treatment	R49291811_ther_proc_2	-999	-999	Surgical Procedure						c0dbaac8-ceb1-5442-8c29-e47e18947520	e91e87a3-2e8c-58da-9a30-2128e87302b5
+treatment	R89778432_ther_proc	-999	-999	Chemotherapy						c0efa678-1e05-5e66-a288-1ef620aa8216	37c46cbd-45cf-51d9-8583-98d5fa6947a2
+treatment	R12214166_ther_proc	-999	-999	Chemotherapy	Cytarabine;Methotrexate;Therapeutic Hydrocortisone					c0fa00f3-ec16-54f4-af9d-bac361444126	427de854-c34b-5662-a2a4-9084564a807c
+treatment	R21282224_ther_proc	-999	-999	Chemotherapy						c1644ee0-fa92-5d2e-988f-aa420398744c	4b3b25ce-294f-5103-a1a2-cf027643a283
+treatment	R44697137_ther_proc	-999	-999	Surgical Procedure						c210d5dd-a087-500f-8579-80c6a6667fdd	1955489b-0582-5126-8f41-26039220c9c5
+treatment	R62576550_ther_proc	-999	-999	Not Reported						c315b520-7502-5e19-9b30-2a0b7ec9489a	bc9a8091-8647-5732-b186-ad9135ff44f0
+treatment	R51695550_ther_proc	-999	-999	Chemotherapy						c34ea000-2675-5b9c-b125-2881ae45cd8f	fc52af80-8e32-5ff4-9990-ac6ef73dec01
+treatment	R98345406_ther_proc_1	-999	-999	Radiation Therapy						c35095aa-0c5c-5bd0-9d28-1c09653d0c3e	c99e61da-6173-5dc4-b79e-99e9841da9c7
+treatment	R18342676_ther_proc_2	-999	-999	Chemotherapy	Blinatumomab;Cyclophosphamide;Nilotinib;Pegaspargase;Prednisone;Thiotepa;Vincristine					c35d73fc-c201-5e36-8f24-0f10c9fbe089	b6a33866-e73a-53ab-8ae9-d6fa520080bf
+treatment	R81831041_ther_proc	-999	-999	Not Reported						c37a3872-fe57-5ab8-a508-5915f10ccf07	37e4397c-677a-5b03-a0e8-6d4a3fb4ec34
+treatment	R91147273_ther_proc	-999	-999	Not Reported						c3828f1c-26b3-5b36-8aac-b732ac795ef4	226ce64b-7330-5b27-8c36-a87fe24a7882
+treatment	R73039164_ther_proc_1	-999	-999	Chemotherapy						c3ac7dad-ec75-5c7f-ad22-d03c78acc6bf	625eb0e9-d579-52c7-bd45-e835302ad07b
+treatment	R85509478_ther_proc_2	-999	-999	Surgical Procedure						c3bb8164-37ae-5845-a172-cc78222e0158	23103fbf-509a-5792-88f5-ddf31fbc21bf
+treatment	R6582413_ther_proc	-999	-999	Radiation Therapy						c3de7f42-1bb0-5d3d-be52-e94e077a8083	a205398c-2310-5c77-874f-9bde32ba5d41
+treatment	R91466462_ther_proc	-999	-999	Unknown						c3f7d13a-5e77-5516-9936-7888e2a8f025	672519a4-b4c1-5e75-822e-271431a0e403
+treatment	R33115167_ther_proc	-999	-999	Not Reported						c4a03d69-4d72-57b9-8ba1-f7a3b8fa9dcf	3358fa98-1c6d-537c-8872-3f3f03225785
+treatment	R54572949_ther_proc	-999	-999	Not Reported						c4b91da4-b1a3-5247-ab68-ee4cf10a8d99	3df1b630-73c6-5784-a95c-d0423578ccf7
+treatment	R82589423_ther_proc_4	-999	-999	Surgical Procedure						c4e36985-e13d-5227-b7e0-056555eaef63	ee1c880e-56ca-55a0-aadd-e55e8028df67
+treatment	R10634480_ther_proc_1	-999	-999	Chemotherapy	Carboplatin;Carmustine;Cytarabine;Etoposide;Ifosfamide;Melphalan					c558d0b8-cec0-53a8-ba68-0da8df4fc552	19f0574d-75d1-5196-9e20-c33a9c2dd5f1
+treatment	R44297401_ther_proc	-999	-999	Surgical Procedure						c56e1b13-a7b8-50d8-877b-d983f091a64b	7e951c39-5813-5f28-a2d1-e2e55f2fda4e
+treatment	R91118012_ther_proc_1	-999	-999	Chemotherapy						c57c1adc-4cfd-56ce-ad0d-009d24972ce7	2f1b0bdf-8580-5e29-8c36-3c6eaad1ee6c
+treatment	R53259995_ther_proc	-999	-999	Not Reported						c60bd462-f788-503c-bc7d-47a8c2901c81	802f0b16-2239-5f83-a85d-bfd32ed1efeb
+treatment	R11677068_ther_proc	-999	-999	Chemotherapy						c63a4435-c083-5050-9f0a-f18f44f867f4	72251b3a-83dd-5913-9a34-c95416f76337
+treatment	R80757038_ther_proc	-999	-999	Not Reported						c68667a7-ed5c-5307-bf17-3aabf8b5b0e2	7c29dc9c-16de-55cf-9a11-9e1ffb2e2be8
+treatment	R64554134_ther_proc_1	-999	-999	Chemotherapy						c6ffcbc9-c127-587c-a9b5-d8382fc9c65a	60031d57-8a08-51df-a3f8-51261e24a765
+treatment	R56476288_ther_proc	-999	-999	Not Reported						c70c9b68-0965-5037-94c0-3f049d4720ca	7af8779b-72d7-5bcf-9fba-356930c9e262
+treatment	R66523403_ther_proc	-999	-999	Surgical Procedure						c749918d-632b-5cd6-915b-eea178d54898	cf6b26fe-8dde-5491-ba53-6e6ceaaa507b
+treatment	R99281230_ther_proc	-999	-999	Surgical Procedure						c801b179-2551-5d5a-90d7-833795f8242f	efcbd1cf-264b-53dc-aa5e-88435338639f
+treatment	R62532218_ther_proc	-999	-999	Chemotherapy	Bortezomib;Dexamethasone;Mitoxantrone;Nilotinib;Vinorelbine					c8660f70-2cf3-5e57-bef8-09e11e0d25d0	4dfd0519-9f35-56a2-ae22-b5eaab998848
+treatment	R8962700_ther_proc	-999	-999	Chemotherapy	Cyclophosphamide;Fludarabine					c8b799d1-7061-5321-bcdf-b3ec4905fdfa	b0deb6ad-1e1c-5e30-874b-7640f168a4b4
+treatment	R57818898_ther_proc	-999	-999	Chemotherapy						c8c515b1-15ce-572d-8d63-1c9938ab86d5	33890d09-bbc6-5312-8367-78afdb36a6a8
+treatment	R24770240_ther_proc	-999	-999	Unknown						c8c90ad2-ad12-512d-bbfa-bfb0bfd54946	0200fec6-1436-56b5-82e9-294ff5c85831
+treatment	R45018316_ther_proc	-999	-999	Unknown						c8f0905e-7b88-5437-b4e3-d6c7e50b3c9d	97e2a181-9751-53a4-894f-44d62f1457e1
+treatment	R52625365_ther_proc	-999	-999	Not Reported						c903e03f-0fb8-5a30-b8ca-eb13c73040f5	fb389d9b-ce27-5694-afef-d73a1df97415
+treatment	R94632961_ther_proc	-999	-999	Chemotherapy	Cyclophosphamide;Dexamethasone;Etoposide;Fludarabine					c927445c-a165-54f5-9cc7-ddb6b89b1809	1a223e53-41ae-5b45-8b9e-59947591de2c
+treatment	R58083574_ther_proc	-999	-999	Not Reported						c93f2583-60e4-5ad4-af05-175ea5de41b2	dba8a86f-4898-5c85-8e25-0a6472fc3186
+treatment	R88127585_ther_proc	-999	-999	Surgical Procedure						c9542d85-183a-5185-8895-588411d66756	65ba1afc-9a62-586b-8ae2-6a890d5bf0d3
+treatment	R98090398_ther_proc_1	-999	-999	Radiation Therapy						c9821286-7ae7-50a3-9c23-4334ce155b1c	3e1d308b-6f4d-539e-ae7d-c106d74689c8
+treatment	R63954770_ther_proc	-999	-999	Not Reported						c99317d4-a556-51e9-af67-f322cfaa4fd4	8e98e725-0cc5-5ca0-9a6d-78379d4c332a
+treatment	R77605992_ther_proc	-999	-999	Unknown						c9a2c853-330f-50b0-b924-01929b85502e	8d3076c4-0901-5b95-80c6-2c50582a7793
+treatment	R49751667_ther_proc	-999	-999	Chemotherapy						c9e8c8e8-6ed0-5fc4-91a4-571af470e5c6	4eea3e41-29ae-5c28-91f9-d031f5c007f3
+treatment	R90961746_ther_proc_2	-999	-999	Unknown						ca1d6a9b-ba19-5c17-b15b-c953bc549bb8	fbc07ec4-4e87-5e45-a88b-082b1e44d63a
+treatment	R11102185_ther_proc	-999	-999	Not Reported						ca51af09-fe33-58f8-beb2-cd9e372f3ce5	66625cb0-3fde-5dab-bf5a-863cee34d8b4
+treatment	R2936166_ther_proc	-999	-999	Surgical Procedure						ca80e6fa-f730-53ff-9eac-630c0298581f	afbbfd82-265d-5135-8980-353a1c2404b8
+treatment	R70073291_ther_proc	-999	-999	Chemotherapy						ca8e7577-5b84-5ee3-a79f-0dd33366dec0	60516e15-f22d-59fa-a014-7554a184eeb7
+treatment	R62044991_ther_proc	-999	-999	Unknown						cb3c805a-329a-5db0-bf43-d057f166fc85	5cc28500-3655-5cfb-955f-b9f34b6c22de
+treatment	R18171474_ther_proc	-999	-999	Chemotherapy	Cyclophosphamide;Fludarabine					cb4b0481-e045-590f-8e4e-78206d110e97	7137b2f9-f028-570b-a0af-071fd45772cf
+treatment	R34826443_ther_proc_2	-999	-999	Chemotherapy	Blinatumomab;Etoposide					cb59dd14-0fa4-5b0f-a1f5-9e8e9ebff70e	7cd10be8-15cc-57a2-b84e-9ce9774677ae
+treatment	R52889212_ther_proc	-999	-999	Surgical Procedure						cb8009ab-7eca-5f26-bee2-c614ab47aab5	90776f1b-5ada-57e0-bf0b-0c287ff1c5a0
+treatment	R55013871_ther_proc	-999	-999	Not Reported						cb908098-ac1f-5e2f-8e2d-bb99673a145e	2a05ade3-51a4-56b0-a3ab-c6f4d491c13c
+treatment	R84543424_ther_proc	-999	-999	Chemotherapy						cba05a8f-39ce-5f26-9e7a-2d62d99c4d5f	7fcc8210-af64-5b0a-878a-ef1d7de68277
+treatment	R94453442_ther_proc	-999	-999	Surgical Procedure						cbe34227-dade-50df-a291-764a06b9524f	96e6f588-7cfc-5201-9e7d-98953d99cee6
+treatment	R95667564_ther_proc	-999	-999	Surgical Procedure						cc2a221d-3a5a-534d-9d22-ac79438a90d5	c7df8b0f-df8e-54b7-9c47-2a8b072aff95
+treatment	R84593629_ther_proc	-999	-999	Not Reported						cc3c4a7b-b736-5c38-a58f-867f544decbc	d1f48e11-0357-5e3f-a59c-5198d4a50fc3
+treatment	R18342676_ther_proc_1	-999	-999	Radiation Therapy						cc404420-e6ff-53b3-beb0-c467e5aa86f6	b6a33866-e73a-53ab-8ae9-d6fa520080bf
+treatment	R23374497_ther_proc	-999	-999	Not Reported						cc436f38-ea03-5b3a-9e5d-90927b2a8844	3cfe3597-6757-5bd7-8a9f-e4b75eeff653
+treatment	R56951450_ther_proc	-999	-999	Not Reported						cca046eb-d9c7-5624-8451-9d19750ad733	65f8361d-9f23-57fb-bb37-fc35eb9ccf10
+treatment	R78402375_ther_proc_2	-999	-999	Unknown						ccbda793-e7cd-56a5-b319-ead082eeaaf2	95da8525-1d62-566e-b76d-50afe1a1e3fe
+treatment	R31380032_ther_proc_2	-999	-999	Chemotherapy	Etoposide					cd0bd495-6ac5-55b8-a06a-aab218783fe6	f7cb4eab-56a2-55e2-9cfa-b60202aec22a
+treatment	R55226447_ther_proc	-999	-999	Chemotherapy						cd29e9a9-9800-5f82-9142-1ac494d7117b	6c7793cd-3183-5f9e-bf6d-94ab3198c029
+treatment	R84948545_ther_proc	-999	-999	Not Reported						cd60ab13-9bb7-51c3-aec1-31dfb80d1180	6c09bf4f-c983-5c89-8c8a-1fa769673c05
+treatment	R42655193_ther_proc	-999	-999	Surgical Procedure						cdc9dc94-ac1b-5ad1-9c9a-a810d3e061de	0fdbd0eb-f4c9-5b50-9c2b-73203b57e3a0
+treatment	R56367442_ther_proc	-999	-999	Not Reported						ce024f63-fac5-539c-81e2-d143c366008b	67dd16f2-30ee-5846-8f23-ecb98b4ad924
+treatment	R57894017_ther_proc	-999	-999	Chemotherapy						ce4b60e7-f2f7-56bb-a75b-882dd6604ed7	4ffc2987-fe6d-59ab-b50e-7b3b1aad1702
+treatment	R54815357_ther_proc	-999	-999	Chemotherapy						ce85449c-44d3-5cef-9eb0-b63410bb6ace	9571bd56-da44-53a2-9e8b-6f878876d6c8
+treatment	R53704512_ther_proc_3	-999	-999	Surgical Procedure						cf1569f9-28e5-5f68-bcd4-86600856f95d	159478a2-4451-55cf-8477-76639d349709
+treatment	R81927961_ther_proc_3	-999	-999	Unknown						cf346339-e37c-58d9-8197-6847a4a12732	d5932daf-c4de-521a-a8af-e0b97ab77788
+treatment	R15121371_ther_proc_1	-999	-999	Unknown						cfbd4487-6382-5f36-80f5-4a8b6c9fab10	a34ad904-9d0a-590a-b828-218dd6ecb1e4
+treatment	R37550536_ther_proc_2	-999	-999	Surgical Procedure						d05705cd-50bf-5b08-8d7c-61b37f98910c	868bc6ee-7818-5610-a17a-45c63d80ba5d
+treatment	R56530268_ther_proc	-999	-999	Not Reported						d07f9684-e86f-5f78-b90e-95d0c5b8983d	9275efa0-8175-59d2-bdca-297020578dd3
+treatment	R89322886_ther_proc	-999	-999	Radiation Therapy						d0854163-7a6a-5220-8944-b68187d5ccc5	6c97e3d2-2b88-5ccc-897b-174a012031b1
+treatment	R55115039_ther_proc_2	-999	-999	Chemotherapy	Temozolomide					d0e86a6d-0c84-5731-9383-ea0c3891cadc	38564688-7703-5103-bf9c-d6d0abed78b9
+treatment	R58862869_ther_proc	-999	-999	Chemotherapy						d0fb2c83-ed0a-523f-bd7c-1bcfa210162f	20be625a-bff6-588f-aa6e-9bb93409594d
+treatment	R2031756_ther_proc	-999	-999	Unknown						d12df31a-136d-5dd3-b403-1b62f4980487	426e9259-9883-5f92-bcd3-ec9fadfb8805
+treatment	R65675796_ther_proc	-999	-999	Not Reported						d14066bf-2d3c-5375-bd91-9ab5ab8b2b17	5b5c9843-dc4a-5ad0-8a0b-2beed6b9b156
+treatment	R74330754_ther_proc	-999	-999	Chemotherapy						d175936c-82e1-5db5-956e-abf424c1ddfc	ea37b6e8-57d4-540b-809d-b3956272153a
+treatment	R61698296_ther_proc	-999	-999	Not Reported						d18c19b8-d0b7-58bc-8bd0-e52ba01107ce	129a5680-02bf-54f0-92dc-fa0c454a4fd8
+treatment	R63862793_ther_proc_1	-999	-999	Chemotherapy						d1bc1661-00e9-58db-92f0-e864d5b98de7	5d67c1c7-96c7-59ad-9c6b-17a7d7958509
+treatment	R82589423_ther_proc_3	-999	-999	Unknown						d1f25c94-8e27-512c-8043-c41851ef1978	ee1c880e-56ca-55a0-aadd-e55e8028df67
+treatment	R65159352_ther_proc_1	-999	-999	Chemotherapy	Vinblastine					d1f333dc-63bc-5778-80ad-638fe3d613b2	94c860f7-91d9-59e8-bd56-76f9695f5d1d
+treatment	R37477413_ther_proc	-999	-999	Surgical Procedure						d1f4ad6f-42ca-52b1-bb47-00fb1abba815	df1a0ecb-c0a2-5e55-b27b-3b76ff84618e
+treatment	R7369140_ther_proc	-999	-999	Unknown						d23a8d7a-9595-534f-960e-316de7e9c0e1	9e3c4699-a4f3-5475-ba9a-7becdf680891
+treatment	R58419299_ther_proc	-999	-999	Unknown						d250b012-4442-5016-b234-74f0a27d4b48	c07444aa-44bc-536f-9958-9cf64a997f40
+treatment	R46827299_ther_proc	-999	-999	Surgical Procedure						d2629e56-6a48-5154-9dce-2384dcd403df	d728168c-5118-5c2a-9ba0-a4798df97717
+treatment	R67763620_ther_proc_2	-999	-999	Unknown						d268aacd-8ad5-53d8-932b-ec1740e368f9	1ac68704-b123-5b89-8e02-5dedb8706f53
+treatment	R41552554_ther_proc_2	-999	-999	Chemotherapy	Cyclophosphamide;Dexamethasone;Fludarabine;Rabbit Antithymocyte Globulin;Thiotepa;Total Body Irradiation					d2a8b279-75bf-5350-88c4-ad570f75ced5	eead2b1e-db2d-50c7-95cc-db398f6706a9
+treatment	R14231243_ther_proc	-999	-999	Not Reported						d33a1289-88a7-52b3-8c89-2e2e19ea8e42	36636f6e-9317-5d53-95f0-f82828289db3
+treatment	R20901097_ther_proc	-999	-999	Not Reported						d33e4e0d-f63f-5ef4-81fd-e118e925ba4b	3500db42-8bf6-5745-8f41-bba5f112118f
+treatment	R87865998_ther_proc	-999	-999	Chemotherapy						d3925f88-c0e4-58d7-a125-b93647b71aed	3f80f4d7-1625-5c14-9af0-6bb63c31a8bd
+treatment	R17646133_ther_proc	-999	-999	Not Reported						d3c24d47-657d-56f2-94c2-5cd4bdda3f8f	63dbb706-7a4c-5e0a-91eb-7d578346e97a
+treatment	R60886392_ther_proc	-999	-999	Surgical Procedure						d3f86862-db4c-50e4-9e97-c28963b2f8d5	5e592786-08fc-5b65-bbfa-2f451c549227
+treatment	R87358738_ther_proc	-999	-999	Surgical Procedure						d486da30-e61b-5816-9dfb-49ddee2d6dbf	edb6e510-7fac-5d28-a6a7-9252c5b309a0
+treatment	R65788948_ther_proc_1	-999	-999	Radiation Therapy						d5230aaa-ea01-5eda-aa87-7188f58e31e9	8d1effc8-72f8-596f-8b41-c953bb09a057
+treatment	R8177481_ther_proc	-999	-999	Chemotherapy						d58a1886-e3f9-5473-8124-9e030079f30f	4d4da716-b67f-5f8b-9488-57f3bf0fb5d4
+treatment	R96810546_ther_proc_1	-999	-999	Unknown						d5b76451-472b-5404-9a07-3b6fd963fedf	458bc473-f48f-5a96-b28d-5954b2166bd8
+treatment	R8659277_ther_proc	-999	-999	Surgical Procedure						d68aae96-e5da-5dac-a132-f9f4ab9f2b12	0a8c7f94-ffe5-5061-876d-089037875b88
+treatment	R67763620_ther_proc_1	-999	-999	Chemotherapy						d693c090-f460-5b19-9c84-92b8aafe249f	1ac68704-b123-5b89-8e02-5dedb8706f53
+treatment	R11382557_ther_proc	-999	-999	Chemotherapy						d6ada244-c129-5da3-bf54-ff4e1ea166c7	aa860363-f5be-570f-883c-dc3916ac8816
+treatment	R40613451_ther_proc_2	-999	-999	Unknown						d6d3aadf-b56d-537f-8c30-4d27219def4c	7a34e203-b1fa-541f-b7c5-41af8eea562b
+treatment	R4877941_ther_proc	-999	-999	Chemotherapy	Imatinib					d6f47262-e08c-5b0f-964c-e8467b87d070	365b9b4e-e112-53d8-8281-645202ab7486
+treatment	R82334637_ther_proc	-999	-999	Not Reported						d71d7d02-8432-5fc8-9001-f61bd5a0cabc	14f27b1e-738c-5db4-a38e-e3f1a48b743a
+treatment	R29990293_ther_proc_1	-999	-999	Chemotherapy						d748129c-041d-5a75-b9b1-c8b5bff93262	3fd74f0d-32c3-513c-bcf9-88ee38df5163
+treatment	R61817563_ther_proc_1	-999	-999	Radiation Therapy						d76675a4-3d29-580a-b38b-9791f51fc00d	5f401bed-b575-5e65-9e96-8f1212676b3c
+treatment	R64940724_ther_proc_1	-999	-999	Radiation Therapy						d7743156-6c0b-5714-a832-e58b39fe2d8b	56ed1b74-ed02-51da-a560-145daacbbf2d
+treatment	R91569232_ther_proc	-999	-999	Chemotherapy						d7e522aa-70bf-5582-9089-23bcee89fbb8	9b46e8a9-7def-5512-891d-2057abbc5698
+treatment	R65565280_ther_proc	-999	-999	Chemotherapy	Imatinib					d80174df-4b42-524d-9b71-67f918ad2949	8e40d2ee-f29f-50c8-86f9-6d4a206a1700
+treatment	R18976353_ther_proc	-999	-999	Chemotherapy						d823df14-47c1-5ad6-ba00-90330be33d5f	41c626b3-dfa5-5f46-9807-b7f5754db716
+treatment	R98474828_ther_proc	-999	-999	Not Reported						d83682bc-9610-53ae-ad6d-74661189c33c	40e06355-de03-552d-b3a8-9671e5d4ad6c
+treatment	R20660756_ther_proc	-999	-999	Surgical Procedure						d8c5f52a-c9e9-578d-9661-43619e0d1229	cdfea60f-332e-5f74-aea4-47eba5e61f51
+treatment	R89824391_ther_proc_2	-999	-999	Chemotherapy	Carmustine;Cisplatin;Etoposide;Isotretinoin;Thalidomide					d8de9b62-5ed5-5ee3-93c3-82892936c139	d6fb9eb2-e306-5624-9eac-95f41599d69d
+treatment	R56133674_ther_proc	-999	-999	Not Reported						d8fcfbfc-3667-5497-b29d-9e3dfb06f933	55d7c2a3-5bbf-5733-b3ce-e0968a24fb63
+treatment	R74314017_ther_proc	-999	-999	Not Reported						d9081b15-dad4-5719-b6f4-b92bbfd698ab	cb6b1a87-b78e-5897-a0c9-9ace8180aaaf
+treatment	R91109632_ther_proc	-999	-999	Not Reported						d946f5b8-ec16-5767-b8f1-42e8e8b96a19	db0c9fd9-91c0-5848-9ed3-04b488b0b841
+treatment	R3719769_ther_proc_1	-999	-999	Chemotherapy	Cyclophosphamide;Dasatinib;Fludarabine;Melphalan;Thiotepa;Tumor-Infiltrating Lymphocytes					da473939-b2a9-525b-aef7-ded1e6cfd777	d208b6c6-9726-57b5-a4ee-745828b6694d
+treatment	R20649315_ther_proc	-999	-999	Surgical Procedure						da4a35ce-0295-53f9-af7f-3b1ac33ab651	b3de7670-138c-5cd1-98d4-f018a922b848
+treatment	R65677964_ther_proc_2	-999	-999	Radiation Therapy						dabaa8d6-977a-5ad3-a94c-1a8d623bd5a4	f72a72db-6d50-5bc3-820e-cca933cf8b96
+treatment	R54694889_ther_proc	-999	-999	Chemotherapy						db0d3e6e-cd5d-5776-b345-b638b94c59be	82d09e0b-9b6d-5ce8-b120-1ac5a6339c20
+treatment	R54160180_ther_proc	-999	-999	Not Reported						db1280d9-f306-5cc8-b5ec-6ec23e09fe31	bcf27665-8081-531f-a019-7a24d49cd0d2
+treatment	R46176642_ther_proc	-999	-999	Not Reported						db2b712a-a077-5810-a493-9bb4f04e7d19	2be85a10-8754-5fcb-9091-57d52f8baebd
+treatment	R56494310_ther_proc	-999	-999	Unknown						db81456b-d371-5023-bf6b-2e740dc21056	35f0affd-7a89-5849-9cab-7758f30ce4bf
+treatment	R51405206_ther_proc	-999	-999	Chemotherapy	Imatinib					db86a859-bda3-56a4-a34c-e82dccbd4191	03953433-95f4-5222-a46e-8e715e4a0a11
+treatment	R20364134_ther_proc	-999	-999	Radiation Therapy						dba63f93-74cd-54d5-a5ac-ffb3e97be766	377c6db6-8f94-5d08-b1ae-9a2414bf5056
+treatment	R81178502_ther_proc	-999	-999	Not Reported						dbc161d4-0540-5192-8ee8-680d0d60fbd2	18e2d036-5f3d-56b2-be0c-c805e5684dc0
+treatment	R80686787_ther_proc	-999	-999	Chemotherapy						dc067b78-e1e7-5c6b-8eb7-0b01c4007fae	f2132f35-7a74-5f0a-8329-d4cdd8da1c5e
+treatment	R53870401_ther_proc	-999	-999	Not Reported						dc5c5d1c-9641-589e-868b-49c7a273ca75	e8cb12b9-3b28-5c03-bfde-c7eb28795f9d
+treatment	R8185772_ther_proc_1	-999	-999	Chemotherapy						dca98a20-570d-51e4-9786-54d45b8687ce	8c14c9b9-235d-5f80-8bcd-492a9bed80fe
+treatment	R72459989_ther_proc	-999	-999	Chemotherapy						dcb485a2-73f0-5d7a-a6a4-ff28292d6466	ec429525-8fa9-57be-94b8-24bb495c4318
+treatment	R18576663_ther_proc	-999	-999	Chemotherapy						dce536fc-131c-59e6-89e0-3ded05da46e5	c06567a0-2ed3-5bfb-af31-bad0df57c286
+treatment	R21559741_ther_proc	-999	-999	Unknown						dd165ec9-fd17-5e84-8571-6b6cf696281d	9fafb037-7671-5172-bcb3-84b1ffc03b82
+treatment	R67802298_ther_proc	-999	-999	Chemotherapy						dd38f6fe-f1f0-5bad-96ec-8691bc28db89	f58123b6-3cc2-5135-9f6d-f303d0d903e8
+treatment	R41057555_ther_proc_1	-999	-999	Chemotherapy	Asparaginase Erwinia chrysanthemi;Cytarabine					dd723d00-aebf-5476-8d73-b638cd50a09e	691c8994-9ed2-5027-93a4-e2e9f0c7b0fd
+treatment	R23483198_ther_proc	-999	-999	Chemotherapy						dd813988-3529-5b01-83d1-5e7b7e8306e5	35d48f47-66fe-5f28-a46e-49bcedd2f243
+treatment	R18502500_ther_proc	-999	-999	Chemotherapy						ddc7503f-c32e-5f0a-a8a7-057a40a8f1e1	44fa8a69-8f27-5bc7-a34d-682dedac9b5f
+treatment	R55214205_ther_proc	-999	-999	Chemotherapy						ddfcaeeb-c29e-5742-a0a8-e0028ff7d7d9	5764be41-dd0f-57e9-a860-d7cb0edaaae0
+treatment	R65477581_ther_proc	-999	-999	Not Reported						de06850c-133a-59eb-acf9-c729d94dec0e	32c40c2f-47b3-521d-b7b3-66972aed3bf2
+treatment	R19780881_ther_proc	-999	-999	Unknown						de3f29ec-b612-5394-866f-0e86a9d0ed58	5b025035-821c-5a6e-a76e-1ac0eebdf3f6
+treatment	R33587269_ther_proc	-999	-999	Unknown						de5947f8-a0e1-50d3-9a73-4f18c82bba2a	a459a8cb-ef09-5bef-b35c-9953674dfdea
+treatment	R56773679_ther_proc	-999	-999	Chemotherapy	Alemtuzumab;Busulfan;Cytarabine;Fludarabine;Melphalan					ded6460f-eb7d-5134-9dad-6b39bb83008d	3f34962b-3011-5827-95da-2c97e96526e1
+treatment	R90961746_ther_proc_1	-999	-999	Chemotherapy	Trametinib;Vemurafenib					dedc48ad-c5a9-515c-8da2-24ae8266970c	fbc07ec4-4e87-5e45-a88b-082b1e44d63a
+treatment	R89906199_ther_proc	-999	-999	Chemotherapy						df19c009-603c-5c34-9f85-b384556e8d8d	f2e1c545-5a28-5e60-83d5-9c0c82fdb019
+treatment	R42962290_ther_proc	-999	-999	Chemotherapy						df33248f-980b-58b0-b519-bcb9222902e5	88ee8e00-757b-5497-b510-4e9b6cd9158e
+treatment	R58114024_ther_proc	-999	-999	Not Reported						df5ff0dd-4009-5ff0-b2b5-f29e6626b39c	ddd0d75a-f755-5f09-90db-00f5df52fe4b
+treatment	R93523792_ther_proc_1	-999	-999	Radiation Therapy						dfc0014d-b1cb-5a06-8e38-bb936abd99b6	f5a1b1d3-f041-5238-868b-cf4918e1cc76
+treatment	R50646072_ther_proc	-999	-999	Chemotherapy	Busulfan;Cyclophosphamide					dfe90387-26c1-5553-a066-04f59dcc9a9b	ca362b50-4c7e-5645-832f-46f760693ecc
+treatment	R81914395_ther_proc_2	-999	-999	Surgical Procedure						e056d624-2cc3-5f9b-80e9-c1674aaf6bd3	375aac2e-5983-5fbe-9ec1-691866bb1c94
+treatment	R26076710_ther_proc	-999	-999	Not Reported						e05df681-c3a0-5658-9f59-d4c59ea5d950	61619594-6a6e-5055-b1fa-2ebd485f03ec
+treatment	R81584515_ther_proc	-999	-999	Not Reported						e0bba7db-3555-5d1e-8eaa-34cfb05d0387	d77768ff-a5e6-562d-bc25-1675faff8642
+treatment	R57439103_ther_proc	-999	-999	Not Reported						e0fc7165-bd06-560f-b596-6419a6b2b27d	376cb39b-a710-5958-baa6-b63a7d3e4098
+treatment	R88375304_ther_proc	-999	-999	Chemotherapy						e12abd6e-8b58-5267-be59-164d330f1c7a	a3261be6-9e96-5648-a133-de84ac6620fb
+treatment	R37388298_ther_proc	-999	-999	Not Reported						e1879d72-1720-5101-b502-b7ddf1d92888	020775c0-23c2-529c-8ec3-fac189ea7c89
+treatment	R35429540_ther_proc	-999	-999	Chemotherapy						e1ce03ea-efd6-5696-990c-0dfdc832621c	f716fc3c-0545-51e1-8bb4-e1ed71e9fff6
+treatment	R12134512_ther_proc_1	-999	-999	Unknown						e1f82a85-b140-55c1-a8e7-181d262e4dfe	e37e2bab-f821-5857-959b-8621238f5589
+treatment	R1963281_ther_proc	-999	-999	Not Reported						e21ed7ab-1205-54da-97ce-d74511c5cb63	4e93b0b7-153e-5ee5-8a50-b14f40a92069
+treatment	R71934015_ther_proc	-999	-999	Surgical Procedure						e2246d56-824d-5673-82e3-17da617ff5dc	baa0b191-3f08-5e0f-a65c-b25cc7d7068f
+treatment	R31893825_ther_proc_1	-999	-999	Radiation Therapy						e25ee11c-5baf-5f49-ad0c-749af41d3b0f	6a0b69ef-5f66-5acb-b0b8-3f178d228cc5
+treatment	R47473787_ther_proc	-999	-999	Chemotherapy						e360b4a5-93bc-5815-b40a-3c096972e334	acfbcdf1-6636-5e4a-8172-239191dd6c1d
+treatment	R35702900_ther_proc	-999	-999	Chemotherapy						e37ef68b-87dd-50c3-bbd9-e865369e632d	8f00d6e0-968c-591e-9c41-aa5bd11ea8fc
+treatment	R52568733_ther_proc	-999	-999	Not Reported						e380b448-4892-5b6a-9cf6-9da426535c55	26ccacd3-3d7a-5964-bef7-497022efee7d
+treatment	R15558909_ther_proc	-999	-999	Chemotherapy	Azacitidine;Cytarabine;Fludarabine					e3b20e47-81c6-53f3-8974-391a318c9336	9f99f823-e4a3-5372-9645-39a4f785f772
+treatment	R76435372_ther_proc	-999	-999	Chemotherapy						e3b6f4c7-acec-56f2-a8fd-42df787a1d06	62f7929c-8304-5e0e-900c-ce166c63b06b
+treatment	R7954013_ther_proc_2	-999	-999	Chemotherapy	Temozolomide					e3b97943-626a-581f-9b50-88c49520a641	0f7ef6cd-b6d3-5983-9926-c47876aa74ff
+treatment	R60835232_ther_proc	-999	-999	Chemotherapy						e45ee4ca-f910-5817-afea-16fa9c9a3872	308bfed4-4b0b-5f10-b234-2e04260600a3
+treatment	R71313165_ther_proc	-999	-999	Surgical Procedure						e48ba3ee-90cb-5f8e-a682-1074a425cabb	d0373dc2-4fa1-566f-ac21-d3d79bad39d2
+treatment	R19909338_ther_proc_3	-999	-999	Unknown						e495e577-1d13-502b-beae-94d980cbe1f1	59dbc19e-3eaf-539b-94a0-f00d6f999fc5
+treatment	R72070642_ther_proc	-999	-999	Chemotherapy	Busulfan;Cyclophosphamide					e4e7486f-0167-5395-9c59-e92d8a248c26	745cc17d-ad16-5956-90a9-fce3145d0765
+treatment	R30858896_ther_proc	-999	-999	Unknown						e4ef0f04-ca02-520c-9c58-c29cd8d1e3dd	405dedae-54e8-5c46-9d1f-ea86947924f3
+treatment	R71933493_ther_proc_3	-999	-999	Chemotherapy	Etoposide					e4f555b5-641e-5a12-a64e-a1e38dd48909	ebea5eb7-d601-56de-b12c-2c798cbe66a6
+treatment	R74660473_ther_proc	-999	-999	Organ Transplantation						e522871f-862f-531d-b20d-eec96724b4ec	f7a98171-be42-5bcb-987a-fc27a9df86a7
+treatment	R607401_ther_proc	-999	-999	Not Reported						e54453cc-9121-53e2-9c55-a6a158761582	440b3e33-9061-56e5-85db-8e2692c8900c
+treatment	R72043783_ther_proc_1	-999	-999	Chemotherapy	Busulfan;Cyclophosphamide;Rabbit Antithymocyte Globulin;Thiotepa					e56495fb-ea5f-564d-a732-b9446ba02568	b0c69924-9b5a-534f-950d-5dfce9446764
+treatment	R47233401_ther_proc	-999	-999	Not Reported						e59435e0-fdba-577a-9b21-60d55cc27ae8	641bc428-f036-5656-8586-93cb8c1452d4
+treatment	R74654633_ther_proc	-999	-999	Chemotherapy						e5a1fe69-413a-55fc-9cc1-0e2e99466ee1	c25d5e08-8c94-5f94-9c40-4ef6cb28347c
+treatment	R92873710_ther_proc	-999	-999	Chemotherapy						e5f704af-be92-5373-a4ee-0e40f4999543	1e42be1d-ecd7-5e84-bddd-1acf752ee423
+treatment	R10604930_ther_proc	-999	-999	Unknown						e60bde0b-9387-5da5-87f8-5f75e3fb5a25	715a85aa-bd9a-5e7e-8f9c-459856cb971d
+treatment	R61547883_ther_proc	-999	-999	Unknown						e643d2dd-48ab-54f2-a974-1ffcd63e83b1	4d54f982-504f-5c30-aa5c-5c936af8f843
+treatment	R55996933_ther_proc_2	-999	-999	Stem Cell Transplant						e6723568-fd20-5821-8f52-dbaa691651e3	6ec14bfb-bbfd-50c3-a186-787bd8288eac
+treatment	R68819310_ther_proc	-999	-999	Not Reported						e71163e2-cb59-52ea-b7cf-7a241d0e19c9	e0183fe9-679e-587b-b739-1bf60790172e
+treatment	R20062005_ther_proc	-999	-999	Chemotherapy						e73e4b6f-aba7-5a84-b951-a04893dced7c	56ffdaeb-28ca-5b65-b1f2-d88c15ba7ebc
+treatment	R43609193_ther_proc	-999	-999	Unknown						e74c365a-e2df-5334-9b7a-0369815e5b1f	39e95dc7-d8a8-5eed-b0ec-715bb0ef5d74
+treatment	R81379159_ther_proc	-999	-999	Chemotherapy						e761c63f-782e-5a83-bac4-53466fa2f7a3	8f7a2c87-f441-54c4-866e-e6b2f71dba40
+treatment	R44828452_ther_proc	-999	-999	Unknown						e78f51e6-e104-5e53-bb6f-0efe80ef300d	53d6fc68-af8a-5fdf-89b4-c0d444f09eb9
+treatment	R82589423_ther_proc_1	-999	-999	Radiation Therapy						e79e4b8f-3b0a-5c2e-9843-2c5373a186d0	ee1c880e-56ca-55a0-aadd-e55e8028df67
+treatment	R31971028_ther_proc	-999	-999	Surgical Procedure						e7a4b6e2-40c2-5e64-9a42-6dc438bd174f	f4980037-aa00-517a-ac85-d162ea6a3176
+treatment	R95092702_ther_proc_2	-999	-999	Chemotherapy	Cyclophosphamide;Rabbit Antithymocyte Globulin;Rituximab;Thiotepa					e7b57fd1-25f6-5e5f-826c-5d1fe9eda8be	397d0085-28ef-5872-8edc-0c1ab3ceba24
+treatment	R58778320_ther_proc	-999	-999	Chemotherapy						e7bc0fc0-ba76-56f5-b9cb-7e85778c2e8e	f2db4afc-4e5b-5e31-9468-f7d4d40a7e50
+treatment	R22996540_ther_proc	-999	-999	Unknown						e7cd5823-d2be-5b6e-b25d-c10d614dfc98	06159346-9d0e-5cfa-ba85-0074bc2332ec
+treatment	R45950433_ther_proc	-999	-999	Chemotherapy						e800169e-40c8-51f6-8f5e-01f7d7d0c5f6	42b35d30-6bd3-5022-95cc-40a846889844
+treatment	R62245016_ther_proc	-999	-999	Not Reported						e82798b6-d72a-5296-85e6-281f594d3689	58d479de-1335-55d1-bad8-92069c549a31
+treatment	R86243742_ther_proc	-999	-999	Chemotherapy						e86f4259-aeec-58db-af47-bc824a7baf76	db22f912-2853-543f-a6ba-2d7512bafaa2
+treatment	R33405708_ther_proc	-999	-999	Chemotherapy	Cyclophosphamide;Fludarabine					e8d3ad0c-dea4-57a7-a1b1-f3b382ef503b	22e556ef-406b-5dc4-b6db-87b8908dd3cb
+treatment	R61655491_ther_proc	-999	-999	Chemotherapy						e8f2fb58-6235-59f5-81dc-0c29b00b0ba2	9c2cd1dc-730e-5a3c-b037-fe07b0a006af
+treatment	R31168176_ther_proc	-999	-999	Not Reported						e933fc46-3356-5610-ba35-816fc2524fe6	8bc55ba9-7109-58ea-ad97-9eece3b10537
+treatment	R93491551_ther_proc	-999	-999	Unknown						e9682484-8cbd-58df-b350-f5f26a67d852	60028778-88b2-5a95-8f86-b7167dba99a4
+treatment	R15623557_ther_proc	-999	-999	Not Reported						ea61ef91-3729-54d3-aa03-cfca9c8355b1	dbafe2e2-38ed-535f-a6c2-2d059f752a19
+treatment	R41893587_ther_proc	-999	-999	Unknown						ea8509da-6a35-5df0-9212-037d875c8101	4260404d-e13e-5e62-9cc4-2cfe45a87d45
+treatment	R53764860_ther_proc	-999	-999	Chemotherapy						ea894a9c-e0fb-537c-b0c0-091121943565	f173e531-83e7-5600-ba48-8b5331cbe622
+treatment	R79811408_ther_proc	-999	-999	Unknown						eab1c4dd-42d0-507a-b11d-449f43f08ddf	9111af1c-011a-5db0-98bf-41b5c5021a6f
+treatment	R42381537_ther_proc	-999	-999	Surgical Procedure						eb261d62-975f-59a6-b088-bea0103545aa	3d520d7f-904f-5606-bcc6-7bae50af84f0
+treatment	R41137909_ther_proc	-999	-999	Not Reported						eb592d96-4953-5dab-b0e4-de41ca96f87e	45995417-db5a-5d95-9478-e54e915d40a1
+treatment	R64360744_ther_proc_1	-999	-999	Chemotherapy						eb731106-6450-577f-9980-0c2751ec5fcb	a7e11854-d3bb-53d7-8cbf-99172ef2b904
+treatment	R43383191_ther_proc_1	-999	-999	Chemotherapy						ebaf6979-72a9-5fae-a4f4-f61a948dfcfe	d44e7db2-8f59-5fb2-9c8e-b5570ce1cdb2
+treatment	R30695032_ther_proc	-999	-999	Chemotherapy						ebf07991-8d48-587b-a98a-bd3909e8948a	a24c0f78-0887-52b7-b977-f7adfccd560a
+treatment	R75036480_ther_proc	-999	-999	Chemotherapy	Dasatinib;Imatinib					ec45f22a-e4d1-5eed-8eb0-12b68a5e4f7d	44d4922c-79d1-5872-8e18-5c5c340dc555
+treatment	R31380032_ther_proc_1	-999	-999	Radiation Therapy						ecc46724-25fb-55c6-97e9-4d9d88b69007	f7cb4eab-56a2-55e2-9cfa-b60202aec22a
+treatment	R4327457_ther_proc	-999	-999	Not Reported						ecf4f50f-d6bd-5917-b8a3-6ff1af70de4e	cb75c625-3f5e-54d5-ba9d-2788d86de6ab
+treatment	R34177909_ther_proc	-999	-999	Surgical Procedure						ed0d4750-6c44-53a1-883d-758ccd4a7cb7	57e8900a-1299-5dc1-a7b2-a36dbf048a9b
+treatment	R743146_ther_proc	-999	-999	Not Reported						ed1824b9-7ce5-5309-a493-acef18c22231	68f4522b-4209-5ee1-9552-c897ca9da54c
+treatment	R65365087_ther_proc	-999	-999	Chemotherapy	Trametinib;Vemurafenib					ed4ac28e-58d5-5911-ab05-524eee3a4a61	8c74acf8-f754-5645-9672-a36b2d447f93
+treatment	R75564074_ther_proc	-999	-999	Unknown						ed8fe6b9-9878-5eaa-b301-344d70499e24	c48332c6-30ea-5d49-bc4a-b08968ba429a
+treatment	R31718051_ther_proc_2	-999	-999	Chemotherapy	Blinatumomab;Cytarabine;Daunorubicin;Dexamethasone;Etoposide;Pegaspargase;Vincristine					edae75f9-6952-5545-9129-d70b329d0e90	9da0d080-2c56-5a13-a91f-19f450295db1
+treatment	R2275935_ther_proc	-999	-999	Chemotherapy						ee9df4c4-f39a-5e99-b254-09d3f05bba7f	1a72403c-3d62-5a8b-b43f-827885b706a6
+treatment	R56523912_ther_proc	-999	-999	Not Reported						eec55f2d-bab7-5cc1-9c35-aa458b00a544	fcb0c260-e3d1-5f79-8c29-e9bd43a3cf5e
+treatment	R69612479_ther_proc	-999	-999	Not Reported						eee6414f-e6ec-564b-9892-cc9e3f312692	303e603c-6b06-579e-8d58-e4099385f182
+treatment	R52845141_ther_proc	-999	-999	Unknown						efa42397-3055-5901-b96c-07958d3d1468	1cd1356d-5e6a-58d0-8fe2-5debd06d81c8
+treatment	R44061462_ther_proc	-999	-999	Not Reported						effa404d-1d55-5b51-bad2-97d393802b25	15992f9a-8e13-5ca7-9990-3882ad1f37f0
+treatment	R70427023_ther_proc	-999	-999	Not Reported						f06a1274-736b-53a9-b1b7-f8423df16b88	3205069a-a9d9-51a5-9b51-670333c708d1
+treatment	R69750736_ther_proc	-999	-999	Not Reported						f070fe48-5769-5f98-a882-5dbf7810d6d0	4232c112-8cfb-58b5-af98-782d5d87f424
+treatment	R40362681_ther_proc	-999	-999	Surgical Procedure						f0c4329b-8d31-58d4-bddd-c7969850a144	ddc7b21a-d4c5-5278-bf6f-73198cf00be4
+treatment	R71298242_ther_proc_1	-999	-999	Chemotherapy						f156c77b-4ad6-57ac-ad55-42031c6dd30c	2e42baa1-d1b5-5432-8a01-d80c3e566267
+treatment	R12755952_ther_proc	-999	-999	Chemotherapy						f164b5f0-9eb3-507a-a1e6-ae77f2e9fc3b	46d4b734-4f12-5e9f-82dd-df07da7d0752
+treatment	R79153560_ther_proc	-999	-999	Chemotherapy	Busulfan;Fludarabine;Sorafenib					f1cca85f-a60a-5ac9-871c-d6ec7cd4a476	570b3012-cdbe-5822-8833-a23a433d44d9
+treatment	R11414258_ther_proc	-999	-999	Chemotherapy	Cytarabine;Fludarabine;Gemtuzumab Ozogamicin					f1dc4f1d-31fb-5929-9b2d-f211b5bc4ff3	09a7ab77-18b6-567b-8d57-19ad42d6dca1
+treatment	R81987946_ther_proc	-999	-999	Surgical Procedure						f28d9126-5093-5b83-9416-448dfc8c975b	312bd8b8-2714-5d63-9677-5e0d4f550fec
+treatment	R92218181_ther_proc	-999	-999	Chemotherapy						f29e5189-a05b-5e6e-8f85-f477dc695707	975c5a55-9a39-572c-bfa9-8785b59c1744
+treatment	R4094480_ther_proc	-999	-999	Chemotherapy	Busulfan;Fludarabine					f2abb1f1-8812-5cc5-a4be-3f3e79aa5870	f7b0a9d8-1dff-578a-b611-4808fa61e152
+treatment	R14017656_ther_proc	-999	-999	Surgical Procedure						f2cbf62f-5c14-542d-9988-129c91f2fc7b	d9e72789-f9da-511b-a952-3b49669cf411
+treatment	R51616980_ther_proc	-999	-999	Not Reported						f33052a9-6ee3-5019-a74c-1fd9fc7f9a4c	e62c24ba-2087-5f6e-a845-bf2363d35396
+treatment	R13877340_ther_proc	-999	-999	Not Reported						f34276ce-e23d-5c7d-8420-b359afe1ea2f	c9df7ac0-07ee-507b-a20a-5fea01c97c18
+treatment	R37075259_ther_proc	-999	-999	Not Reported						f44f62ec-5484-5296-9102-175df9676d8f	3213893d-1297-5598-bb4e-1beb4321e188
+treatment	R28160954_ther_proc	-999	-999	Chemotherapy						f48112b1-5f67-5a22-bff4-f92f9638b6cd	efcff47d-ff79-5bf2-87c7-0870a1a3ec71
+treatment	R97466485_ther_proc	-999	-999	Chemotherapy						f53e67f7-bf99-526f-8ae0-11591f377c87	e67e6a6e-2353-5cb1-ab6e-417ac70473fd
+treatment	R81914395_ther_proc_1	-999	-999	Chemotherapy						f54c1a8b-28d3-5f2f-8f9c-cc81bcb1520d	375aac2e-5983-5fbe-9ec1-691866bb1c94
+treatment	R86118922_ther_proc	-999	-999	Chemotherapy						f5cc8df8-c6c6-5f0e-9d03-1d5498e38f34	0c565e0e-f529-5824-b070-562c745eefb1
+treatment	R13667990_ther_proc	-999	-999	Chemotherapy						f5f8b677-2068-57ba-859f-f986e17f1d31	44183600-0a30-55dd-a0cd-d078ab9201cc
+treatment	R50261349_ther_proc	-999	-999	Not Reported						f61b6d8a-d3dc-5efc-8032-8a87550d851d	24d7aa36-7156-5c31-8a3c-a26dd3858013
+treatment	R31994381_ther_proc	-999	-999	Chemotherapy	Dasatinib;Imatinib					f61d1319-531c-574a-b98b-48a52cfcd0e6	39801ba3-29c7-5472-ada3-259d64ddbd16
+treatment	R61817563_ther_proc_2	-999	-999	Surgical Procedure						f637a7f8-9777-58c1-ab2a-6180d25e44c8	5f401bed-b575-5e65-9e96-8f1212676b3c
+treatment	R9359399_ther_proc	-999	-999	Chemotherapy	Cytarabine;Etoposide;Inotuzumab Ozogamicin					f64a62b7-44c8-53fa-97a5-1386ed3436da	35b9beff-6fcc-58d8-8635-ea6089562423
+treatment	R31893825_ther_proc_2	-999	-999	Chemotherapy						f6798e45-2bb6-554d-b547-b023f06dfe75	6a0b69ef-5f66-5acb-b0b8-3f178d228cc5
+treatment	R59323101_ther_proc	-999	-999	Surgical Procedure						f6c6f941-8aaa-5877-82e6-23b3aa8c0a4d	540d616a-4f0a-5022-8171-7d33ae6a0a56
+treatment	R42816212_ther_proc	-999	-999	Not Reported						f6f1f180-56a1-5126-82f1-e1ef6b62f188	eb9ed1d9-74e4-5428-8a53-5d2433db0de3
+treatment	R24080393_ther_proc	-999	-999	Unknown						f7029a25-053a-5295-bebe-60980e2ddca1	4b7d57fb-7a09-58e4-a981-755a5e3941d7
+treatment	R41104095_ther_proc	-999	-999	Chemotherapy						f714e3a3-2248-5d5a-b6a9-39d978c403ed	46cf008f-d024-55bc-8298-ef729885bddf
+treatment	R81134546_ther_proc	-999	-999	Surgical Procedure						f71e60b1-6842-580d-9d48-3d4106e3bca3	7fcf2956-1f07-50c8-88ee-6872f5ab84f0
+treatment	R83053850_ther_proc	-999	-999	Surgical Procedure						f7243a57-0105-5a79-be4e-567fa45b7287	9925d78b-b989-5cc0-90da-fbb6138a3037
+treatment	R52574206_ther_proc	-999	-999	Unknown						f7d28bf7-932c-5da9-a87b-e2b6755b0217	5364aa8f-8d8e-5ad2-adea-6b285294030f
+treatment	R88357770_ther_proc	-999	-999	Unknown						f8152fbe-2c30-50ba-9110-83d3c8855989	a52e5f98-b674-5944-bedf-fbeaf2e815cd
+treatment	R10724966_ther_proc	-999	-999	Not Reported						f81850a8-e999-55a5-9078-18781f7f2599	f76ab64f-af3a-5ab1-84ab-9497aabc5382
+treatment	R80700183_ther_proc	-999	-999	Not Reported						f8479a14-cdae-5c37-bdeb-37a43b1b1048	b0b70214-7672-5acf-9d4f-7cfbe7ffa389
+treatment	R72682068_ther_proc	-999	-999	Chemotherapy						f8804cb0-df85-5d88-a178-15c0080eda27	04a14083-bf96-5dcc-a81d-1e4756983c83
+treatment	R73425851_ther_proc	-999	-999	Not Reported						f8993810-20ef-5e8c-a57a-104f649ee19f	81db359e-bf61-5b14-807d-bcd94efac517
+treatment	R61838685_ther_proc	-999	-999	Not Reported						f91440a0-1b23-52a9-90cf-4af18bba7d80	34bb579a-baf8-5817-975d-3f179a34695b
+treatment	R20884103_ther_proc	-999	-999	Not Reported						f97c001f-35f4-5774-8f72-c8aeacdd9322	d6462eb5-0731-5e4f-85e4-390de444b673
+treatment	R28642234_ther_proc	-999	-999	Not Reported						f99d2638-46ee-56e7-b7cc-6b06b57a8d3d	8f6da19b-39b3-5b26-8447-93fdd851cc74
+treatment	R2295315_ther_proc	-999	-999	Not Reported						fa22e115-de9d-5a3b-ad9d-d215f4a0f152	d43bc501-41df-568e-871e-93aeeaab5cc6
+treatment	R40767600_ther_proc	-999	-999	Chemotherapy						fa61d315-870b-517f-b26b-287e92dc243f	eeb5599d-e433-56d1-9c67-74600bf1ee16
+treatment	R98090398_ther_proc_3	-999	-999	Surgical Procedure						faa907de-c4ad-503b-9bbe-fd04219483f6	3e1d308b-6f4d-539e-ae7d-c106d74689c8
+treatment	R61287183_ther_proc	-999	-999	Not Reported						fb31a2e2-1bfc-558b-8016-bfabe0f67771	63329bc6-9137-5994-a049-58e1e9396834
+treatment	R27109515_ther_proc	-999	-999	Chemotherapy						fb7251f7-f440-57a7-9947-c8f1289c79d7	f1acc605-7e0a-55fb-a8b4-6794807e149b
+treatment	R26974017_ther_proc	-999	-999	Chemotherapy						fbcce9ab-5f53-5b07-b834-ece6fca0de99	53861187-f130-551a-bc76-1dadbc0355c1
+treatment	R79224440_ther_proc	-999	-999	Chemotherapy						fc04e124-26b6-5c99-bf47-1a9230314266	91c9ef7e-b17b-5e5c-a091-a91db8d3e091
+treatment	R30307609_ther_proc	-999	-999	Not Reported						fc18be3c-fdcd-5c02-8d50-87633ed925f7	d64002ae-874c-584a-ad9d-849a9cbb792f
+treatment	R3119367_ther_proc	-999	-999	Chemotherapy						fc3f4512-0a77-594b-bc78-3ab46d118e82	7e2a116d-fa38-5855-b0aa-02434879d530
+treatment	R66641146_ther_proc	-999	-999	Surgical Procedure						fc72a445-49b5-5685-b062-6901147103f1	3c4abe6e-1e98-57dd-b3ed-4251749676e9
+treatment	R48655751_ther_proc_2	-999	-999	Chemotherapy	Temozolomide;Vinblastine					fc97ec89-aa04-5083-b6a8-5012825f8838	2a26fff8-8493-5ac2-8e49-1c0d63f8b103
+treatment	R17840495_ther_proc	-999	-999	Radiation Therapy						fc9e0733-8aa6-5182-8bde-c8af4fdc1b9e	aeb73f1e-5eeb-5071-8dcc-0f2b57aee088
+treatment	R58276235_ther_proc_1	-999	-999	Radiation Therapy						fd05f969-7030-5ffd-b62c-96c894044592	8f98e126-74bc-54ce-a412-b21f646245e3
+treatment	R75535525_ther_proc	-999	-999	Not Reported						fd2c27bb-4a81-5650-8650-1379712f27ad	66675014-ca23-538b-ae56-f6ac4b726adf
+treatment	R79928038_ther_proc_2	-999	-999	Surgical Procedure						fd6b27ec-970c-56e3-a6ea-142eecd845c7	e03a7094-654c-53c8-ba71-bf01a5876049
+treatment	R38143616_ther_proc	-999	-999	Chemotherapy						fd866a79-cc84-5103-9918-4579fbf81c77	25f3c0d8-8e9c-5ae8-aac5-ff2c7e627e83
+treatment	R22949564_ther_proc	-999	-999	Surgical Procedure						fdb9e029-2884-5ed7-8b92-613c951cdcff	f986e0a6-7dd0-5cb1-86bd-5fd0738ac896
+treatment	R47042448_ther_proc_1	-999	-999	Unknown						fea897f4-b878-5218-a119-9359f0b31eac	915a08f1-bdb7-561a-b85a-fb2749a04dcb
+treatment	R55115039_ther_proc_1	-999	-999	Radiation Therapy						feb5af17-f319-5772-bca4-7f6f23019ee6	38564688-7703-5103-bf9c-d6d0abed78b9
+treatment	R17198959_ther_proc	-999	-999	Surgical Procedure						febd0328-9423-5413-b841-7b6d66866189	bebe5834-16f4-5484-8f19-d95eb395518b
+treatment	R54326982_ther_proc	-999	-999	Not Reported						fefec959-11d7-5632-a14e-a01b07fac6b0	9a241fe0-34f3-5726-a71a-7527df1ff43d
+treatment	R99850126_ther_proc	-999	-999	Not Reported						ff81d051-a84b-5643-8a97-50fa9a6321cb	4c39614d-66f9-5f15-9804-0d06dcae03a2
+treatment	R83990500_ther_proc	-999	-999	Unknown						ff8a6f7f-6591-5fae-9645-7dba6e66741c	9cd77b7f-df21-5255-a2fe-1fedd802fc74
+treatment	R61307269_ther_proc_2	-999	-999	Chemotherapy	Cyclophosphamide;Fludarabine					ff9333fc-b9e4-5bee-b4a1-32174e2ae497	0ae7cd36-3127-52ac-bdf4-dee205a573a4
+treatment	R74773396_ther_proc	-999	-999	Not Reported						fff6de38-5502-5a8e-8ef8-134370a76b0c	825f275c-57dc-5849-93fa-10ab5cd39335
