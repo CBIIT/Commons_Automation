@@ -4,5 +4,6 @@
    <name>TC02_CCDI_phs003519_DiagAnatSite-C47PeriphNervAutonNervSyst_DiagClassSyst-IndicatForStudy_SampTumSt-Tumor</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>d05b31d5-1b48-4d2f-a3a7-9f8dc2bc72b7</testCaseGuid>
 </TestCaseEntity>

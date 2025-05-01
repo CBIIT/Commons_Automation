@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_CCDI_phs002504_FileType-bam_LibStr-WXS_LibSel-PCR_DC-Sequencing</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7c72f204-9f1e-4f36-960c-5abe3e5d7e29</testCaseGuid>
+</TestCaseEntity>

@@ -38,7 +38,7 @@ import java.nio.file.Paths
 
 
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC02_CCDI_phs002371_Sex-Female_Diagnosis-9861-3-Acutemyeloidleuk-NOS_Filetype-fastq.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC01_CCDI_phs002430_Sex-Male_Tumorclass-primary_Datacat-pathology.xlsx')
 
 CustomKeywords.'utilities.PythonReader.readFile'('ParticipantsTab.py')
 //CustomKeywords.'utilities.PythonReader.readFile'('DiagnosisTab.py')

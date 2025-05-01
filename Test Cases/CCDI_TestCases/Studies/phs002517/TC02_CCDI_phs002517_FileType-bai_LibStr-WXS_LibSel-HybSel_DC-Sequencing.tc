@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_CCDI_phs002517_FileType-bai_LibStr-WXS_LibSel-HybSel_DC-Sequencing</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2811fb12-1c86-4f6c-998b-40f4fd4a3f9e</testCaseGuid>
+</TestCaseEntity>
