@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_CCDI_phs000467_Sex-Male_Firstevenr-secmalignantneopl</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e0f96bcb-cd29-465c-8c0f-2ba78d85145a</testCaseGuid>
+</TestCaseEntity>
