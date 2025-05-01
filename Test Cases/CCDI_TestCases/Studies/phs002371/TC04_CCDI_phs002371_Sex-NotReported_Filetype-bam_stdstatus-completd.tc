@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC05_CCDI_phs002371_Sex-Female_Diagn-9861-acutemyloid-leukn-nos</name>
+   <name>TC04_CCDI_phs002371_Sex-NotReported_Filetype-bam_stdstatus-completd</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>5d9d061b-595d-45a8-ad7b-30103aff4d2e</testCaseGuid>
 </TestCaseEntity>
