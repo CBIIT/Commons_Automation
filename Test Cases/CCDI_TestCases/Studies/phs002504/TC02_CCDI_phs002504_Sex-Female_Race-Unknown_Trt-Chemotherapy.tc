@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_CCDI_phs002504_Sex-Female_Race-Unknown_Trt-Chemotherapy</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3c26a898-e2c8-46ad-bc59-99a758c222df</testCaseGuid>
+</TestCaseEntity>
