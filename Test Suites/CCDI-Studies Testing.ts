@@ -64,14 +64,7 @@
       <guid>09d41349-b273-40d3-af2b-99cd500cfcaa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CCDI_TestCases/Studies/phs000467/TC02_CCDI_phs000467_Sex-Male_TumorClassify-Primary</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>59c5829f-94fd-4864-a6f7-c56b1aa81808</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CCDI_TestCases/Studies/phs000467/TC03_CCDI_phs000467_Firstevnt-Death</testCaseId>
+      <testCaseId>Test Cases/CCDI_TestCases/Studies/phs000467/TC02_CCDI_phs000467_Sex-Male_Firstevenr-secmalignantneopl</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -499,6 +492,20 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CCDI_TestCases/Studies/phs002371/TC03_CCDI_phs002371_SampleAnatomicsite-C42.1Bonemarrow_Lastknwnsurvl-Alive</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d7857e3b-cd02-4ee9-a53f-85dda8e9062f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CCDI_TestCases/Studies/phs002371/TC02_CCDI_phs002371_Sex-Female_Diagnosis-9861-3-Acutemyeloidleuk-NOS_Filetype-fastq</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1432cb0d-cbbe-46ac-8904-603b54094fa7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CCDI_TestCases/Studies/phs002371/TC04_CCDI_phs002371_Sex-NotReported_Filetype-bam_stdstatus-completd</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
