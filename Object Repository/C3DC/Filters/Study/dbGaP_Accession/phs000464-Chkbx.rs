@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Study_Facet</name>
+   <name>phs000464-Chkbx</name>
    <tag></tag>
-   <elementGuidId>503c6957-631b-4d17-88d4-148313620d92</elementGuidId>
+   <elementGuidId>46117918-12c0-42a6-a730-1528116b7360</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@id=&quot;Study&quot;])[1]</value>
+         <value>//*[@id=&quot;checkbox_dbGaP ACCESSION_phs000464&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@id=&quot;Study&quot;])[1]</value>
-      <webElementGuid>6d08aff9-4ad9-4682-bbc9-a154c829b989</webElementGuid>
+      <value>//*[@id=&quot;checkbox_dbGaP ACCESSION_phs000464&quot;]</value>
+      <webElementGuid>0059826a-b4c4-4cc7-938c-e2ee1489311e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
