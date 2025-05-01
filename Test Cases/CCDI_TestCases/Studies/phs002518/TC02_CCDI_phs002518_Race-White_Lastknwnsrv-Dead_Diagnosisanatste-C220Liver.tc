@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_CCDI_phs002518_Race-White_Lastknwnsrv-Dead_Diagnosisanatste-C220Liver</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>54eb3340-31a7-4135-8b7b-15b7d1b4aedd</testCaseGuid>
+</TestCaseEntity>
