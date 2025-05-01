@@ -4,5 +4,6 @@
    <name>TC01_CCDI_phs002677_Diagns-8000.3NeoplMalig_SamAnatSite-Kidney_StudyStatus</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>725e879f-00a8-4e74-90e6-05a8a49e5ab4</testCaseGuid>
 </TestCaseEntity>

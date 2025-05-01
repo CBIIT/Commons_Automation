@@ -4,5 +4,6 @@
    <name>TC01_CCDI_phs002599_Diagnosis-9891.3AcuteMonocytLeuk_DiagAnatSite-BoneMarrw_DiagClasSys-ICD-O3.2_StudyName</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>9bf768eb-7f3b-4c3c-bbf5-db24d13235ee</testCaseGuid>
 </TestCaseEntity>
