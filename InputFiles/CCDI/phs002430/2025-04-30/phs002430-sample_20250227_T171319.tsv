@@ -1,0 +1,555 @@
+type	sample_id	tumor_classification	anatomic_site	participant_age_at_collection	sample_tumor_status	sample_description	crdc_id	id	participant.id	pdx.id	cell_line.id
+sample	622-3	Primary	C40.2 : Long bones of lower limb and associated joints	6209	Tumor	Diagnostic Biopsy		0008b7c5-dcbe-51fe-843e-a76bd32e4bb4	57fd0edc-8502-5a5b-bf25-9a90f167dc95		
+sample	R11-2	Not Applicable	C42.0 : Blood	2766	Normal			00238b97-1da8-557e-9105-e1455ec2b652	06bc82e4-bafa-51c9-b9a2-5d65ba2bf3f5		
+sample	SJSA_samp	Unknown	C41.9 : Bone, NOS	6935	Tumor			0026229f-f544-57a7-9cdd-b0bfd43b7f6a			d8e332e0-9fbf-523a-a8ca-8e8c936e2d6f
+sample	255-1	Primary	C22.0 : Liver	365	Tumor	Diagnostic Resection		0037d914-5d91-5b55-acc1-82fc50e65d0d	ffdb252d-f392-5c07-9c05-978e59077bd8		
+sample	PSS050_sample	Unknown	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Unknown		01cc391b-fc88-5fb6-8c72-f602ffceb130		de5f7061-eded-5ee9-b4fe-55f9cc9051dd	
+sample	436-8	Primary	C76.3 : Pelvis, NOS	6939	Tumor	Relapse Resection		023af06e-0aa5-5c87-9f0c-d7b87dbe47ac	bf38af0c-d2e1-57d5-94b8-46fa70804606		
+sample	HOS_sample	Not Reported	C80 : UNKNOWN PRIMARY SITE	-999	Tumor			026fc29b-075d-5ab5-8992-d846b8721449			7f67ebec-3b53-5080-90dc-40f73b42a137
+sample	625-9	Not Applicable	C42.0 : Blood	5669	Normal			06533972-97b9-5eb4-9935-5f0fc8276845	d73f90f8-c6fc-5ce4-b8fb-c70a3b42b5b5		
+sample	734-10	Not Applicable	C42.0 : Blood	1183	Normal			06e7ecd3-a20a-5b4e-a3e9-70d71bcd934e	9cb95f47-1c41-5541-bf84-d7b8a15a4618		
+sample	720-1	Primary	C48.0 : Retroperitoneum	-999	Tumor	Resection		0775bef6-31e1-5800-aa32-b137c740ac5f	6ea17ddd-e0c7-5701-b131-581230b6c466		
+sample	MG63_sample	Not Reported	C80 : UNKNOWN PRIMARY SITE	-999	Tumor			07a1801c-1eff-5509-8550-430f18817309			6847f221-aa00-5252-97d4-33cb446d7835
+sample	762-1	Primary	C42.1 : Bone marrow	730	Tumor	Diagnostic Biopsy		07bf5197-4394-5656-9d33-8b827fb0fbc3	0d093a79-00a3-5be5-9679-17d382e43a22		
+sample	003-5	Primary	C76.3 : Pelvis, NOS	4017	Tumor	Relapse Biopsy		081e384b-fba4-597d-abb0-5054ae73c337	c123515d-fe44-5b46-8aea-5a6a060da3de		
+sample	005-1	Primary	C40.2 : Long bones of lower limb and associated joints	5113	Tumor	Diagnostic Biopsy		0874456f-86ee-59a3-bdd2-2e79795c6f6e	19242d9b-e044-5321-8fba-b38c5586394d		
+sample	835-7	Not Applicable	C42.0 : Blood	7664	Normal			088422fe-265d-54fe-96d9-86f146e52ae0	3bac012a-184c-5ce0-85f3-a5be5e240cca		
+sample	403-4	Primary	C22.0 : Liver	4748	Tumor	Diagnostic Biopsy		09284875-930f-5e88-bd07-78b3dfa62ca3	9428e32d-1198-544e-b58e-b338891c7b36		
+sample	410-8	Not Applicable	C42.0 : Blood	2525	Normal			09583ec6-b7cf-5925-b991-2034666fd458	fa5dd7b0-c8e7-549e-8fc3-4244fac17f02		
+sample	457-1	Primary	C40.0 : Long bones of upper limb, scapula and associated joints	6209	Tumor	Diagnostic Biopsy		09a74cfc-660c-53ab-9e14-26942e08371d	4f60298b-494b-59ed-ad02-d09419f9b442		
+sample	OS774_sample	Primary	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Diagnostic Biopsy		09b8166a-9e7f-59c4-bb0b-8effd8e63f81		7742eeb2-75ca-5a5d-af59-9a291816da3a	
+sample	PSS085_1_sample	Metastatic	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Metastasis		0a16000e-8059-5d34-916f-81324b96088f		d7d4f51f-9278-543a-be71-dc27ca976188	
+sample	821-3	Primary	C49.3 : Connective, subcutaneous and other soft tissues of thorax	5478	Tumor	Diagnostic Biopsy		0a95779e-f813-5f3e-88d3-d242ac17b9b3	131982db-58d2-5f2f-8248-08b19f4ef47b		
+sample	779-6	Not Applicable	C42.0 : Blood	654	Normal			0aeecc03-c6b0-55cc-8bdd-94083a2a0d3a	a43d6592-42c1-5e8b-a73f-29b2e684b149		
+sample	682-5	Primary	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Naive		0b3cd786-83df-5ce4-a94b-7e1013968d1e	4ada6893-05d1-5d79-95b9-d0f65fbe792d		
+sample	778-19	Not Applicable	C42.0 : Blood	449	Normal			0b839826-3f3a-5dad-9d74-304b11a214b0	bf99dd2b-ce5c-5a24-918f-2e7852daf439		
+sample	579-15	Not Applicable	C42.0 : Blood	6198	Normal			0bb2da49-3bcf-5d48-9cf1-14f156605218	c0585807-5fe9-5cc6-a5e7-550c070a34bf		
+sample	403-5	Metastatic	C34.1 : Upper lobe, lung	4748	Tumor	Metastasis		0c18b1ee-469e-59eb-a5ca-7d29584fed14	9428e32d-1198-544e-b58e-b338891c7b36		
+sample	754-4	Primary	C76.2 : Abdomen, NOS	1826	Tumor	Resection		0cc9e016-bc5f-5542-b59d-13ea089da6fd	97fcf0db-f3b1-56ef-9825-4cab5afa5375		
+sample	186-10	Primary	C76.5 : Lower limb, NOS	4748	Tumor	Resection		0d0537c8-93ca-576c-bff1-60498bf3ae36	4a71ad69-2ef6-52ac-b10c-11959ec6ea7e		
+sample	772-7	Not Applicable	C42.0 : Blood	4930	Normal			0d3f9d35-7a9b-5946-b9cb-3478885d22c7	2d5da197-4105-5d0e-8da1-2e766ce7742b		
+sample	775-2	Primary	C40.2 : Long bones of lower limb and associated joints	2922	Tumor	Diagnostic Biopsy		0d6a9737-e3db-586e-82c0-c6e6ddde9dd6	8a718e69-3299-5a7e-88de-0d62c5f764f7		
+sample	750-1	Primary	C42.1 : Bone marrow	8400	Tumor	Relapse Biopsy		0f72ed4e-4a06-5bc2-ba80-8150724f0e44	91231c3c-1840-5611-80ab-bb759104590f		
+sample	689-2	Primary	C64.9 : Kidney, NOS	-999	Tumor	Diagnostic Biopsy		0fb58e9c-f6b5-5a67-ac34-ffa93ceb9929	b55aa06f-476f-50dd-b103-62680856d5ab		
+sample	703-2	Primary	C48.0 : Retroperitoneum	-999	Tumor	Diagnostic Biopsy		101b844d-b80b-54d1-963b-c9ee9e8156d4	4723f983-9240-5821-99c9-3a90ccdff803		
+sample	784-2	Primary	C76.5 : Lower limb, NOS	2556	Tumor	Diagnostic Biopsy		113b6469-0a4a-5b70-bec8-ec77d312fef8	5f4d4cc4-3e52-598c-9ac4-0f283f424beb		
+sample	PSS121_sample	Primary	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Resection		11d4c8d8-d383-54d2-b8ca-158b23b72c5b		45b39326-1d93-5750-ab9f-ec5bee378647	
+sample	584-1	Primary	C49.6 : Connective, subcutaneous and other soft tissues of trunk, NOS	365	Tumor	Resection		126631b0-2b5d-5474-87ad-f8039ab84c05	e0c82573-714f-5e1e-be71-62a99778bd5a		
+sample	732-1	Primary	C42.1 : Bone marrow	2191	Tumor	Relapse Biopsy		12887c9b-893c-526e-87e1-8af7f8715cf7	b0c31c92-fa73-5199-8da8-83f05875afc9		
+sample	527-1	Primary	C71.9 : Brain, NOS	3287	Tumor	Relapse Resection		12f057b1-55f3-515b-b11c-ab3ff89fa228	78387880-aefe-5e35-9d1d-d321efc69878		
+sample	775-6	Not Applicable	C42.0 : Blood	3136	Normal			131164a8-9b41-57ad-a850-85fc0813b656	8a718e69-3299-5a7e-88de-0d62c5f764f7		
+sample	360-9	Not Applicable	C42.0 : Blood	2983	Normal			1318e380-5411-5d02-a370-933c1f6d949b	4ac10560-7fd8-5923-ac5d-a505a7458282		
+sample	490-1	Primary	C42.1 : Bone marrow	2922	Tumor	Relapse Biopsy		137b2b88-50cf-5cb8-b876-47de82343084	909d68ae-9aba-5cec-b2d7-60d3b47ad807		
+sample	778-10	Primary	C64.9 : Kidney, NOS	365	Tumor	Resection		13a82728-92ff-5525-a83b-893b943f7517	bf99dd2b-ce5c-5a24-918f-2e7852daf439		
+sample	321-8	Not Applicable	C42.0 : Blood	596	Normal			13bc181a-fb8d-51b7-b8d3-d31f43981f6a	29cf8acf-8b5f-57bc-85f4-70efe64909f8		
+sample	778-6	Primary	C76.2 : Abdomen, NOS	351	Tumor	Diagnostic Biopsy		13d839d1-3c30-573f-bcff-e3af6973ee1f	bf99dd2b-ce5c-5a24-918f-2e7852daf439		
+sample	815-1	Primary	C80 : UNKNOWN PRIMARY SITE	4748	Tumor	Relapse Biopsy		140e56fb-f480-5f41-a453-95d35a4530cc	c747f12a-b281-5406-b549-6e04b6f58919		
+sample	728-14	Primary	C49.1 : Connective, subcutaneous and other soft tissues of upper limb and shoulder	6209	Tumor	Relapse Resection		14ab6d57-e026-5ea3-a34c-acd94512184c	77afefdf-b810-52ec-8710-c9f4e2ee2b9b		
+sample	639-3	Primary	C71.9 : Brain, NOS	-999	Tumor	Resection		14bf9887-a153-5894-9969-ff5fcc8f4d76	7801cd18-897f-53b6-9226-20ecfba2ffa3		
+sample	588-3	Primary	C40.0 : Long bones of upper limb, scapula and associated joints	15340	Tumor	Resection		15780ae1-5b25-58b4-938a-14f458ca45b6	689122de-f31d-53b0-a494-1d0ca116a5ed		
+sample	761-4	Primary	C40.0 : Long bones of upper limb, scapula and associated joints	11322	Tumor	Resection		15c57c17-60e7-5234-8376-bb51b45d4b02	1e0317f8-dbf5-5e12-b7ec-8840912ac324		
+sample	535-10	Not Applicable	C42.0 : Blood	7077	Normal			167e3c26-7908-599b-b010-ad3ab7fd97d9	36a7c30a-97d7-5c86-80ca-4c6e35816bcd		
+sample	797-2	Primary	C11.9 : Nasopharynx, NOS	6209	Tumor	Diagnostic Biopsy		17ba17f9-fe71-59f3-8cfc-6b6ada146056	731c3831-1327-5fa9-9fb2-947a02a0aaeb		
+sample	821-5	Not Applicable	C42.0 : Blood	5808	Normal			17c3e9d4-83f6-5eb1-8d00-96ca625aa5d7	131982db-58d2-5f2f-8248-08b19f4ef47b		
+sample	685-2	Primary	C76.3 : Pelvis, NOS	-999	Tumor	Diagnostic Biopsy		17d8cded-69d6-5f64-968f-d4fc5815cc72	a6924a76-451b-513d-8264-928da5582bf7		
+sample	724-1	Primary	C71.9 : Brain, NOS	-999	Tumor	Naïve		18799522-ef81-5abd-8169-9530dfe17442	379d5f77-5208-544a-83f9-d4de5053a33b		
+sample	463-2	Primary	C22.0 : Liver	730	Tumor	Resection		192a7c11-10ff-5ed1-9e06-fd2f668c9dfd	913b5231-974d-5cf4-bc06-6d7f27be03ed		
+sample	106-5	Metastatic	C34.9 : Lung, NOS	5844	Tumor	Metastasis		19eab89c-eb3a-5c03-8894-1efa6011e870	1dbe3906-97f1-5a3e-a859-3da74219911c		
+sample	708-19	Not Applicable	C42.0 : Blood	6059	Normal			19f4df06-d70b-54b2-97dc-9f3ebabc28e7	ca583f5b-acd7-54dd-90f4-f49195b21164		
+sample	647-1	Primary	C40.2 : Long bones of lower limb and associated joints	4748	Tumor	Diagnostic Biopsy		1ae7ed67-dac6-53fa-ba9e-89be38e10659	0152e961-0cab-58bc-9420-432e5d11526d		
+sample	808-1	Primary	C40.2 : Long bones of lower limb and associated joints	5113	Tumor	Diagnostic Biopsy		1c687303-80c5-53aa-a2cd-9eb885dce61d	2a007e10-7157-52d5-bc3c-e5acd1da63c2		
+sample	562-8	Not Applicable	C42.0 : Blood	6040	Normal			1c9ef0e3-4930-58df-a385-6dba7a02c34a	0915d7f3-5b86-526b-8340-882191f29a26		
+sample	766-9_sample	Metastatic	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Metastasis		1d7e2f0a-3ff2-57a8-90ec-4525023b60e5		09579ac3-a793-52f3-974a-f87652a4ed8b	
+sample	432-5	Not Applicable	C42.0 : Blood	1174	Normal			1e356d54-5d6e-5bda-b1c1-8843289d4ce4	95b34567-31de-5eb1-81ac-1e25cc995016		
+sample	357-27	Metastatic	C34.3 : Lower lobe, lung	4017	Tumor	Metastasis		1ebcf70b-1b05-5840-a1e5-e37dc8bb1b76	8535dd64-51f1-5cc3-812a-6289888164b8		
+sample	833-2_2_cell_line_sample	Primary	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Resection		1fbb4e20-62d0-524f-9796-f2c70febb065			2886bed3-1bde-542e-8a7d-8a2cae9aa163
+sample	509-7	Not Applicable	C42.0 : Blood	3884	Normal			207fae51-e596-5d8c-85e2-9ca1c61720ee	9adbf98f-7fe1-5c95-b707-70c9c72667f0		
+sample	010-19	Metastatic	C34.3 : Lower lobe, lung	6574	Tumor	Metastasis		21983da3-f86c-500f-aad3-5aeb4ba03431	73db19ff-9d1c-5a33-9cbd-c72d4a7de205		
+sample	457-1cell_line_sample	Primary	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Diagnostic Biopsy		219a95e0-0f46-59c0-a898-14b7f680b969			16f9d405-815d-52e2-8a7f-f3dcf0da04a5
+sample	307-15	Not Applicable	C42.0 : Blood	6267	Normal			21a943fb-2bee-5c3f-8de6-ad6b4b19c9ff	c30d6b88-5f36-5c7b-9859-151b9c6bbc78		
+sample	836-1	Primary	C42.1 : Bone marrow	8400	Tumor	Diagnostic Biopsy		2238f144-0c44-53d3-be1d-17580963b23b	3157264a-1ed3-5048-864a-fde5eb561f13		
+sample	425-5	Not Applicable	C42.0 : Blood	278	Normal			2250e8e8-a60f-550a-8077-0aa0d7e04652	5dfe561d-b5a4-54d3-8676-08e035628016		
+sample	PSS119_sample	Primary	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Resection		2293aa54-5881-5c6f-851f-c710e9953306		af847b3f-6a14-5c95-a74a-718dce138bfd	
+sample	186-6	Not Applicable	C42.0 : Blood	4880	Normal			232383ed-734b-5262-9978-1eee1f1f9b5e	4a71ad69-2ef6-52ac-b10c-11959ec6ea7e		
+sample	470-3	Primary	C71.9 : Brain, NOS	6209	Tumor	Relapse Resection		2459c01a-5f5a-55ce-ad5f-20f783640736	b922f1de-4e12-58bf-b05e-9661e2d0cc78		
+sample	549-3	Primary	C22.0 : Liver	4383	Tumor	Resection		2473105e-ba54-5be5-b300-6f4c38500123	23b73e7a-8fc1-5acd-b53e-575d0b3716ec		
+sample	817-4	Not Applicable	C42.0 : Blood	10812	Normal			24b6b9d0-8560-55eb-b17d-77d8d3000275	0d26d6d2-714d-50ee-a48f-759699b05e1e		
+sample	641-4	Metastatic	C41.0 : Bones of skull and face and associated joints	4383	Tumor	Relapse Metastasis		251f2f95-5c6d-5c6a-9781-4b8f6db341c7	cf5c7955-f34f-500e-be9f-02fe42deb077		
+sample	503-13	Not Applicable	C42.0 : Blood	3052	Normal			25267276-1f8d-5b48-a492-a8ca490494d6	4e1eae6c-c66e-5910-8bac-00c48b324e81		
+sample	637-7	Not Applicable	C42.0 : Blood	7106	Normal			2547941d-b95d-525c-96d9-a00ac24238a2	0109e082-ebb8-5754-9ff6-acce2ffbd0af		
+sample	526-0	Primary	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Primary		2602722b-5948-52ce-a2ad-48a3070ac5a7	e109bce1-d842-5be9-8752-0b471c209996		
+sample	647-4	Not Applicable	C42.0 : Blood	5148	Normal			26897ba2-d6c2-55fc-888e-570c9cf86b66	0152e961-0cab-58bc-9420-432e5d11526d		
+sample	636-5	Not Applicable	C42.0 : Blood	409	Normal			26fa4097-58d8-5bbf-adf1-c14480a5f995	f922e086-dcad-58e9-a625-8d113b51e464		
+sample	735-1	Primary	C42.1 : Bone marrow	1461	Tumor	Diagnostic Biopsy		2714cf1a-9785-5aa2-9242-4369d206bf87	a9b7ec63-4c44-52ca-8130-e57917c82d54		
+sample	499-1	Primary	C76.2 : Abdomen, NOS	5478	Tumor	Diagnostic Biopsy		2793d43f-9727-5ebf-b8a5-53dbb976ca4c	d553a828-e182-57e1-be4f-ec697ec9ccec		
+sample	003-1	Primary	C76.2 : Abdomen, NOS	1461	Tumor	Diagnostic Biopsy		2828f82f-ab95-5433-9642-59949a4a6221	c123515d-fe44-5b46-8aea-5a6a060da3de		
+sample	449-8	Not Applicable	C42.0 : Blood	6618	Normal			285caf24-1139-5811-af32-718a45d25619	a045a424-da46-5f6d-9b68-636abcf29ccf		
+sample	360-8	Metastatic	C34.3 : Lower lobe, lung	2556	Tumor	Metastasis		2a347efa-2352-50ba-a674-035dc62e28f7	4ac10560-7fd8-5923-ac5d-a505a7458282		
+sample	754-7	Metastatic	C77.9 : Lymph node, NOS	1826	Tumor	Metastasis		2a3657c4-e9f5-581d-8f55-4a004fbc8160	97fcf0db-f3b1-56ef-9825-4cab5afa5375		
+sample	767-4	Primary	C22.0 : Liver	730	Tumor	Resection		2b78e769-041f-5d11-a8fc-e49fe3c042c1	aaed3d75-f42b-56b2-a6fa-102534ed30af		
+sample	143B_sample	Not Reported	C80 : UNKNOWN PRIMARY SITE	-999	Tumor			2bb5154d-5a3a-5aca-b308-a093ce0b93c7			6347741a-e0e4-5753-8e71-2cfab9e33ec6
+sample	833-2_2	Primary	C40.2 : Long bones of lower limb and associated joints	5113	Tumor	Resection		2cbd35ab-c395-591f-b9fc-747f9e3f033c	e3821dc8-a30a-52ad-97d3-57ba3e98ed78		
+sample	008-1	Primary	C41.0 : Bones of skull and face and associated joints	1461	Tumor	Diagnostic Biopsy		2cc524a6-3a6a-5346-90ad-d178d64ca6f5	06bc82e4-bafa-51c9-b9a2-5d65ba2bf3f5		
+sample	454-21	Primary	C40.0 : Long bones of upper limb, scapula and associated joints	5113	Tumor	Resection		2cfecd54-55af-5684-b66b-f8ae58c5545e	ae74abbf-fb3f-5b1b-a579-5459c34a8aab		
+sample	545-3	Primary	C40.0 : Long bones of upper limb, scapula and associated joints	4748	Tumor	Diagnostic Biopsy		2d3f691f-28eb-52ab-8e0e-3cfa499627fd	719f5055-c30e-590d-aff9-f4b117e38307		
+sample	231-1	Primary	C22.0 : Liver	1095	Tumor	Diagnostic Biopsy		2d7bc835-1d09-5574-8741-0acc5a92c109	1670f41d-043f-542a-81c8-7b69626f7213		
+sample	385-12	Primary	C31.0 : Maxillary sinus	6574	Tumor	Diagnostic Biopsy		2e98714b-b575-5639-bec2-19ef3de907a4	c247426c-467a-5a92-846b-3b4f17c9a916		
+sample	454-20	Not Applicable	C42.0 : Blood	4451	Normal			2ff4cf11-d2ad-5c61-b4e7-f057ee92ec04	ae74abbf-fb3f-5b1b-a579-5459c34a8aab		
+sample	384-11	Not Applicable	C42.0 : Blood	4809	Normal			3030eccb-4800-5248-bb0c-00661c431926	cb6217d8-e998-58ed-82cf-a01a1580568f		
+sample	405-5	Not Applicable	C42.0 : Blood	3880	Normal			31462da8-1c67-5355-974f-a5c906bffc68	35fc7a67-cb05-5167-9654-c4d83dfc0398		
+sample	622-9	Not Applicable	C42.0 : Blood	6736	Normal			31a52046-31d5-56b2-a20d-260df3ab94bc	57fd0edc-8502-5a5b-bf25-9a90f167dc95		
+sample	436-12	Primary	C22.0 : Liver	6939	Tumor	Relapse Resection		31b42b0b-271b-534e-9c38-e44f6de6ca54	bf38af0c-d2e1-57d5-94b8-46fa70804606		
+sample	640-8_sample	Metastatic	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Relapse Metastasis		31fabf12-e66a-56ee-b99a-43f9526c35b9		596be120-35c6-5eef-b7ce-a25352041eb0	
+sample	689-5	Not Applicable	C42.0 : Blood	-999	Normal			320e9d38-cb6a-5149-b030-90f1020996bf	b55aa06f-476f-50dd-b103-62680856d5ab		
+sample	270-16	Primary	C80 : UNKNOWN PRIMARY SITE	12783	Tumor	Relapse resection		32228a31-9e88-566f-b4a2-555cd11eb45f	7b9eb2e5-2394-59de-b79a-28f605655ffc		
+sample	563-1	Primary	C76.3 : Pelvis, NOS	10227	Tumor	Diagnostic Biopsy		32286b48-71ec-52d9-a93e-11e1ea1a611d	453d688e-6f83-57c6-9a68-365ec6bb526c		
+sample	436-3	Primary	C76.3 : Pelvis, NOS	6939	Tumor	Relapse Biopsy		33465f90-82fb-504c-b85e-7d1f26bdbadf	bf38af0c-d2e1-57d5-94b8-46fa70804606		
+sample	390-3	Primary	C40.0 : Long bones of upper limb, scapula and associated joints	5113	Tumor	Diagnostic Biopsy		3360666e-3d1e-51a7-9c47-f02061975ec4	9f6ac2b1-cbe9-5320-a1cc-826e5e462882		
+sample	107-1	Not Applicable	C42.0 : Blood	6322	Normal			3369251c-5046-57bd-b37a-24c2d8bf25f6	71be49ba-4bdf-54a0-ac9d-12a3d4b0dc3f		
+sample	636-9	Primary	C76.5 : Lower limb, NOS	365	Tumor	Resection		33f03a44-a2d2-55ff-bb95-7cad469227fe	f922e086-dcad-58e9-a625-8d113b51e464		
+sample	517-1	Primary	C40.0 : Long bones of upper limb, scapula and associated joints	4748	Tumor	Diagnostic Biopsy		33f25c25-040e-5a36-b968-3feddc7f794e	6ca1a6b3-d885-5295-9e3d-26cfd435ee45		
+sample	484-1	Primary	C41.0 : Bones of skull and face and associated joints	365	Tumor	Resection		3463ccc5-be0d-5e0b-a5b4-48f6f33153c2	10a14d7a-2fee-5540-b020-059f5cd1dc12		
+sample	U2OS_samp	Unknown	C41.9 : Bone, NOS	5475	Tumor			34e52479-4955-5914-b6c2-80cb1dea5431			efd64249-b698-5ab1-aab9-6357f3c58792
+sample	669-2	Unknown	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Naïve		3567d4e2-2022-5391-8802-c0aa307fa883	a103a0ef-d343-5b16-b8c4-6565d9e99ac7		
+sample	509-1	Metastatic	C38.0 : Heart	3652	Tumor	Metastasis		359cef1c-ff5b-512d-81df-b973ce2e01f8	9adbf98f-7fe1-5c95-b707-70c9c72667f0		
+sample	484-3	Not Applicable	C42.0 : Blood	719	Normal			35bd0615-c9f6-5d1e-9db4-f95db9da5abf	10a14d7a-2fee-5540-b020-059f5cd1dc12		
+sample	842-7	Not Applicable	C42.0 : Blood	5773	Normal			35bd9b38-3091-5928-8f38-7038fbb79ff2	00a7ee10-c2b7-5daf-824c-29755d1cfba6		
+sample	828-5	Not Applicable	C42.0 : Blood	1893	Normal			35d2731a-cc3c-578e-b409-40ded9b43d0d	dc4ca0d2-4a12-5f4c-8e41-2c526e296a37		
+sample	661-2	Primary	C40.2 : Long bones of lower limb and associated joints	6574	Tumor	Diagnostic Biopsy		362bbe06-bb1f-599e-b287-6078c39af96b	1a85dda1-0173-5ce1-be5c-94553aa3441c		
+sample	490-12	Not Applicable	C42.0 : Blood	3078	Normal			36cc8605-9b9b-56d6-a59d-f68fdc04176c	909d68ae-9aba-5cec-b2d7-60d3b47ad807		
+sample	687-2	Primary	C40.2 : Long bones of lower limb and associated joints	-999	Tumor	Resection		37046bfd-1575-59d5-9d93-c0fead73e5da	2dca4553-9759-53ba-a1d7-c609394f7533		
+sample	744-4	Primary	C22.0 : Liver	1095	Tumor	Resection		377a6545-bc92-51ff-a0aa-d4d27ee9878a	77ab97f5-8a9f-50f5-8176-7f1f88b7f7bc		
+sample	614-4	Primary	C76.5 : Lower limb, NOS	2922	Tumor	Diagnostic Biopsy		37b80bc3-d468-5586-a280-e0ef1ad3c535	829ac5de-75fa-5998-a3a9-728aa6d1aa66		
+sample	560-14	Not Applicable	C42.0 : Blood	10135	Normal			37f213c8-ad3f-55af-a415-a8602e1339dd	761390bd-c3c3-5492-a749-32b32a41fe40		
+sample	410-2	Primary	C10.9 : Oropharynx, NOS	2191	Tumor	Diagnostic Biopsy		38927e03-ab59-5ae8-b941-74d2f3136283	fa5dd7b0-c8e7-549e-8fc3-4244fac17f02		
+sample	159-1	Not Applicable	C42.0 : Blood	5124	Normal			39103aa2-7af8-5ccf-a1f2-ca086c77514d	381607a0-65b5-5340-a960-8db9f3ffe56a		
+sample	728-3	Primary	C76.4 : Upper limb, NOS	5113	Tumor	Relapse Resection		393174a9-5045-5924-88fa-e581907e752c	77afefdf-b810-52ec-8710-c9f4e2ee2b9b		
+sample	166-14	Not Applicable	C42.0 : Blood	6439	Normal			3a2b528f-9a8f-509d-8307-55e758f48012	1f813ee9-3b29-5dbd-b7f3-9d3b4edb9cd3		
+sample	816-1	Primary	C80 : UNKNOWN PRIMARY SITE	8766	Tumor	Relapse Biopsy		3a43257c-8ce3-5560-9db5-5852e2821620	6d4c5493-ba99-50cc-8e5a-0010a16cc512		
+sample	293-14	Primary	C38.3 : Mediastinum, NOS	-999	Tumor	Resection		3b9295d3-4935-5700-bbb7-4d064ad7e6fb	3dda7459-6be5-5843-96cf-53418331ef6c		
+sample	128-3	Primary	C40.0 : Long bones of upper limb, scapula and associated joints	4017	Tumor	Resection		3ba5a39f-9cb7-5bc5-9b60-994551676a03	fbceb2a3-e93a-5318-8cad-b6abcdaacfcb		
+sample	799-7	Not Applicable	C42.0 : Blood	6165	Normal			3c256464-cfe8-580c-a7de-c92dc2b786a4	5901e96a-a37d-56e7-b031-50d7d00ac16b		
+sample	107-7	Metastatic	C34.9 : Lung, NOS	6574	Tumor	Metastasis		3c4bbca1-52f7-5ef8-8e2a-c96aaeafaef4	71be49ba-4bdf-54a0-ac9d-12a3d4b0dc3f		
+sample	819-8	Not Applicable	C42.0 : Blood	6383	Normal			3c63569e-c52c-53d6-bd55-ab3f49987881	b5888711-f238-5487-b1f7-7335c50d4b9e		
+sample	774-8	Not Applicable	C42.0 : Blood	5254	Normal			3c78315b-21bd-5eeb-b9ae-2f95b75cb288	ec105d92-7da8-528d-a0ba-1f79dea729e7		
+sample	293-6	Primary	C38.3 : Mediastinum, NOS	109	Tumor	Relapse Resection		3c952d92-b4c9-5fc8-9a5f-4c20a30d34a7	3dda7459-6be5-5843-96cf-53418331ef6c		
+sample	472-6	Not Applicable	C42.0 : Blood	2147	Normal			3e206641-582d-5b41-8c8b-8d58a0d7425e	b0c20eb2-c0a1-5232-93f7-c51e90564430		
+sample	745-8	Not Applicable	C42.0 : Blood	4385	Normal			3e3fcbbd-9e05-5a35-bc43-5fcded9a196c	4b7c682f-ef66-526a-93e5-4e0a70d1ceed		
+sample	800-3	Primary	C76.3 : Pelvis, NOS	5478	Tumor	Diagnostic Biopsy		3f0b512d-4861-58ee-9243-ce297e726643	8e5c0266-ec8d-5ffb-823a-51fb578abdb4		
+sample	456-10	Not Applicable	C42.0 : Blood	3578	Normal			3f565b48-b882-5faf-83a9-18ba19dd35fc	78b31cd2-a6c1-5368-8905-f7c29f0274eb		
+sample	742-31	Not Applicable	C42.0 : Blood	3837	Normal			40b65b5b-120f-5f1b-8d72-828a83759b69	4a71ff10-6155-5b31-b253-b03848f41822		
+sample	535-5	Primary	C40.2 : Long bones of lower limb and associated joints	6574	Tumor	Resection		41aab177-7e6b-5720-9c4a-d8e849fa2cd6	36a7c30a-97d7-5c86-80ca-4c6e35816bcd		
+sample	535-1	Primary	C76.5 : Lower limb, NOS	6574	Tumor	Diagnostic Biopsy		41cd1eb7-af6e-5ea7-b44f-53af7dbbacfd	36a7c30a-97d7-5c86-80ca-4c6e35816bcd		
+sample	357-16	Not Applicable	C42.0 : Blood	3973	Normal			41fb2fbc-a170-5010-93b3-4a49fdf11787	8535dd64-51f1-5cc3-812a-6289888164b8		
+sample	761-10	Not Applicable	C42.0 : Blood	11402	Normal			425483ed-6469-539c-bc43-0d46de7caa14	1e0317f8-dbf5-5e12-b7ec-8840912ac324		
+sample	780-9	Not Applicable	C42.0 : Blood	718	Normal			425c9299-c856-5c59-bae4-a3caf65495ac	9aa5c19a-2c69-54b2-9dc4-b6fabc9dfd36		
+sample	503-4	Primary	C76.5 : Lower limb, NOS	2922	Tumor	Relapse Biopsy		429ff189-0f7a-5ce3-b43f-839d7e44bc92	4e1eae6c-c66e-5910-8bac-00c48b324e81		
+sample	384-9cell_line_sample	Primary	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Resection		42c50822-83dc-568c-bfee-f80c36b3c6e1			fbac2635-3272-576c-9d2a-cc59add13173
+sample	669-5	Not Applicable	C42.0 : Blood	-999	Normal			43cecd51-607f-561c-9aab-637a54597e0e	a103a0ef-d343-5b16-b8c4-6565d9e99ac7		
+sample	505-3	Primary	C22.0 : Liver	4017	Tumor	Diagnostic Resection		43f1e579-5b52-5761-a70d-7c9aa12c3543	90aa61e5-3334-5077-bc58-df594e170748		
+sample	565-1	Primary	C42.1 : Bone marrow	7670	Tumor	Diagnostic Biopsy		44f77137-e066-503f-9f5e-54f014adb434	8f563532-2c9a-53f3-a3c2-12bfd87a9d0c		
+sample	685-5	Not Applicable	C42.0 : Blood	-999	Normal			45faefd5-908c-55de-aa4f-3b041d25ba92	a6924a76-451b-513d-8264-928da5582bf7		
+sample	186-7cell_line_sample	Metastatic	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Metastasis		46ac9613-e342-5e31-899f-229e9c329b99			90faf389-4571-53f0-9743-18b13886daf4
+sample	301-7	Not Applicable	C42.0 : Blood	5177	Normal			47f565e0-d19a-5777-8b21-f157a7869f5a	49ea0bdc-3c43-5d41-81b1-e798ba0347fd		
+sample	768-1	Primary	C17.9 : Small intestine, NOS	142	Tumor	Diagnostic Biopsy		491d8353-1fba-5832-a264-4b07f470e80d	fe242b59-c952-5e29-a640-90cf91d4cebc		
+sample	433-5	Not Applicable	C42.0 : Blood	5459	Normal			4939600c-cbb9-5de0-8672-d5a1f3b4bd80	5985af97-fac6-5127-b466-67f29dbe6af5		
+sample	600-1	Metastatic	C40.0 : Long bones of upper limb, scapula and associated joints	5844	Tumor	Metastasis		498feccb-7773-5a72-a909-ff8ebe50b900	23e3ed60-05d0-5589-bc65-8a1e01e66bbc		
+sample	762-4	Not Applicable	C42.0 : Blood	1071	Normal			4af5bb29-678b-52af-9102-a45caf3e2f0b	0d093a79-00a3-5be5-9679-17d382e43a22		
+sample	288-1	Not Applicable	C80 : UNKNOWN PRIMARY SITE	2905	Normal			4d1879a7-0780-5265-8c63-2e9f640301cc	94045326-6cc1-507f-b192-0054f4dfb648		
+sample	405-3	Primary	C40.0 : Long bones of upper limb, scapula and associated joints	3652	Tumor	Diagnostic Biopsy		4d46abb6-9cbd-5d76-ad50-852e5e148ab0	35fc7a67-cb05-5167-9654-c4d83dfc0398		
+sample	673-3	Primary	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Resection		4d52e9f4-cc49-533c-b723-2a5e29cca34a	c3b7d2d0-2e50-5388-bea8-729eddf3105d		
+sample	322-1	Primary	C76.5 : Lower limb, NOS	9496	Tumor	Resection		4d68436d-d645-598b-b402-39b8c7dea8e6	e8464063-8311-5c0a-bd35-fd0ac82928b6		
+sample	454-1	Primary	C40.0 : Long bones of upper limb, scapula and associated joints	3287	Tumor	Diagnostic Biopsy		4d6cbdaf-ffd8-57b8-b033-65f3b4518fc9	ae74abbf-fb3f-5b1b-a579-5459c34a8aab		
+sample	522-8	Not Applicable	C42.0 : Blood	2354	Normal			4d974726-f0b8-56cb-a003-b6afd8824f5e	958989c6-6a34-5cef-b36d-57d874aca25b		
+sample	010-16	Not Applicable	C42.0 : Blood	6611	Normal			4df4f668-349a-529f-8915-d4a3d23330b3	73db19ff-9d1c-5a33-9cbd-c72d4a7de205		
+sample	042-1	Not Applicable	C42.0 : Blood	572	Normal			4ed6dcb8-4a05-5004-ae3a-e63dae2aa196	765a2da1-ed53-5046-90d8-40f1e67ee192		
+sample	774-3	Primary	C40.2 : Long bones of lower limb and associated joints	5113	Tumor	Diagnostic Biopsy		4f44f047-e448-5455-8793-bb03e5c235ea	ec105d92-7da8-528d-a0ba-1f79dea729e7		
+sample	476-4	Not Applicable	C42.0 : Blood	4174	Normal			4f5fdb4a-fd1b-5f01-909a-15aeed1c8d70	beb962a7-6b48-5300-aa89-191f709b8aac		
+sample	818-4	Not Applicable	C42.0 : Blood	5301	Normal			4fbf0f0a-f059-503d-8f4d-645328ccdfb3	a07777b7-a55e-5220-ad1d-0bc9e1260e15		
+sample	744-10	Not Applicable	C42.0 : Blood	1400	Normal			504af0b5-dadf-5d12-87d1-f1ac643bb40d	77ab97f5-8a9f-50f5-8176-7f1f88b7f7bc		
+sample	701-7	Not Applicable	C42.0 : Blood	6234	Normal			50c69dd3-0723-56f2-bba9-8e4028e5dec4	aeecb91a-77ac-5a66-abae-271f71f11aac		
+sample	794-15	Primary	C42.1 : Bone marrow	365	Tumor	Relapse Biopsy		5144644a-c26c-5390-8492-0c38a50432fa	420b1d55-7e18-506d-8ade-6a3d18c2ed8a		
+sample	159-4	Primary	C76.3 : Pelvis, NOS	5113	Tumor	Resection		515ddac7-03e0-591b-90d4-8e235b381605	381607a0-65b5-5340-a960-8db9f3ffe56a		
+sample	010-2	Metastatic	C77.9 : Lymph node, NOS	4017	Tumor	Metastasis		51c6890d-9835-5c9a-b35f-500b2368fa15	73db19ff-9d1c-5a33-9cbd-c72d4a7de205		
+sample	PSS089_sample	Metastatic	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Metastasis		52c5da20-a1e9-5f93-9c08-a1b329761f93		139900da-733f-51fd-b389-6a802e98e0d8	
+sample	476-1	Primary	C42.1 : Bone marrow	4017	Tumor	Relapse Resection		5364e814-b6ce-5084-a03e-01dddd546d82	beb962a7-6b48-5300-aa89-191f709b8aac		
+sample	636-3	Primary	C76.5 : Lower limb, NOS	365	Tumor	Diagnostic Biopsy		53ceedff-9b55-563b-b220-0c609213bb21	f922e086-dcad-58e9-a625-8d113b51e464		
+sample	303-4	Metastatic	C34.9 : Lung, NOS	5113	Tumor	Metastasis		54d8e6c3-bfff-50d9-86dc-e0937dd34cfa	5d629876-c77c-51b6-87f5-93900881054a		
+sample	143B_samp	Unknown	C41.9 : Bone, NOS	4745	Tumor			54f1b355-a99e-5a87-9477-35aaccc2838e			6347741a-e0e4-5753-8e71-2cfab9e33ec6
+sample	438-5	Not Applicable	C42.0 : Blood	1733	Normal			5513884b-7ae8-5d57-adad-59489614f38b	cf43d5e9-ab98-5a43-926f-add4c2fabaa8		
+sample	549-6	Not Applicable	C42.0 : Blood	4336	Normal			5518e1bb-465f-518d-85d3-f5bf295f2100	23b73e7a-8fc1-5acd-b53e-575d0b3716ec		
+sample	831-15	Not Applicable	C42.0 : Blood	4605	Normal			5583dd5e-0128-5168-8e2e-87214fd364c7	64283fb1-c330-5ffa-9fa2-328e685d7114		
+sample	705-1	Primary	C41.4 : Pelvic bones, sacrum, coccyx and associated joints	4748	Tumor	Diagnostic Biopsy		55b4a74b-9a8f-5925-88bf-76255738193c	fe60aaf2-6d62-5811-a6ef-46e675e229c3		
+sample	708-11	Metastatic	C34.1 : Upper lobe, lung	5844	Tumor	Relapse Metastasis		55cce289-04bb-5f87-982a-105b34ac8afa	ca583f5b-acd7-54dd-90f4-f49195b21164		
+sample	817-1	Primary	C80 : UNKNOWN PRIMARY SITE	10592	Tumor	Relapse Biopsy		560be187-9241-58d1-9001-21085c33ab34	0d26d6d2-714d-50ee-a48f-759699b05e1e		
+sample	810-1	Primary	C41.0 : Bones of skull and face and associated joints	365	Tumor	Resection		561852a2-c970-59f8-b531-751491d3aa1b	894e5a50-9106-5c00-b4bc-e1e9af22b1ac		
+sample	MG63.3_sample	Not Reported	C80 : UNKNOWN PRIMARY SITE	-999	Tumor			562cbc10-24a2-5b41-b1d2-7b7983c1dea7			54a15374-12b0-57d7-8d23-0f87363d5cc5
+sample	360-3	Primary	C76.5 : Lower limb, NOS	2556	Tumor	Diagnostic Biopsy		5657cc1e-5d79-50ce-a430-c1af881ea85b	4ac10560-7fd8-5923-ac5d-a505a7458282		
+sample	104-15	Not Applicable	C42.0 : Blood	7770	Normal			5809032b-8634-5901-9e85-63e8ecb4fe74	71b14d73-509b-54ac-9c34-9d41d227d91c		
+sample	515-1	Primary	C72.0 : Spinal cord	2922	Tumor	Diagnostic Resection		5849f24b-6a2c-5f6e-8925-63918f7ae02f	9963b36a-4313-5f2a-9775-31ac53e7b593		
+sample	308-3	Primary	C49.6 : Connective, subcutaneous and other soft tissues of trunk, NOS	3287	Tumor	Relapse Biopsy		590e7bfb-989b-5020-a85c-987d533a2971	b1e60bfd-6cd3-5df8-a6c1-39b64b9925f6		
+sample	497-1	Metastatic	C34.9 : Lung, NOS	4383	Tumor	Metastasis		59218cee-ae94-5a34-922a-b18350f4d537	9f337e17-18af-5969-aa2c-739153540766		
+sample	755-8	Not Applicable	C42.0 : Blood	2876	Normal			5abf5a5e-0662-571a-a210-eb83fe9b9244	b51f606a-9ccf-59e8-9a07-6e78ce55daee		
+sample	PSS085_2_sample	Metastatic	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Metastasis		5adcefa2-5e4f-5fbd-a7e7-238b61e1ee26		b836cdcb-1030-5ed5-85ca-b079f9a0b244	
+sample	408-12	Not Applicable	C42.0 : Blood	1609	Normal			5af6b819-30e1-5713-87d0-97c9ea3168ad	ab00af8a-7f20-581b-a5b9-883c9031b8cd		
+sample	270-11	Not Applicable	C42.0 : Blood	13375	Normal			5c25a9de-d458-563d-a662-e8f928eb7654	7b9eb2e5-2394-59de-b79a-28f605655ffc		
+sample	453-1	Primary	C22.0 : Liver	5113	Tumor	Diagnostic Biopsy		5ce39208-3db6-553b-8535-f363c981c043	2ff40f28-0012-59e0-b90f-810e144997f8		
+sample	470-7	Not Applicable	C42.0 : Blood	6507	Normal			5d0f1126-5d27-52cf-a3ac-b1041048cb28	b922f1de-4e12-58bf-b05e-9661e2d0cc78		
+sample	499-6	Not Applicable	C42.0 : Blood	5832	Normal			5d24420b-6b0e-58b1-a021-219489177522	d553a828-e182-57e1-be4f-ec697ec9ccec		
+sample	384-9	Primary	C40.2 : Long bones of lower limb and associated joints	4383	Tumor	Resection		5d4ddd16-7017-5cc7-b7b6-be28b4e4a429	cb6217d8-e998-58ed-82cf-a01a1580568f		
+sample	517-5	Not Applicable	C42.0 : Blood	5176	Normal			5d779482-f022-544e-85d4-b7ca03bc97da	6ca1a6b3-d885-5295-9e3d-26cfd435ee45		
+sample	384-3	Primary	C40.2 : Long bones of lower limb and associated joints	4383	Tumor	Diagnostic Biopsy		5d7cca7f-ef1b-570a-9937-1164a0a29527	cb6217d8-e998-58ed-82cf-a01a1580568f		
+sample	844-4	Not Applicable	C42.0 : Blood	4464	Normal			5e622934-9364-5e45-b6fc-aec125741cd6	a85e225c-11cd-5c29-9426-cee8a1713457		
+sample	458-3	Primary	C49.3 : Connective, subcutaneous and other soft tissues of thorax	4748	Tumor	Resection		5ea97d88-b8b0-54e0-bb2e-cf952d1c49b4	1eefbfcf-c93f-507a-a3cd-56b74d3d203c		
+sample	378-11_3	Primary	C69.6 : Orbit, NOS	4748	Tumor	Relapse Resection		5eaa1283-4382-5f98-a70c-2a3ddf261e74	d0fe16ca-92be-5351-a11d-78685043e5f7		
+sample	737-1	Primary	C42.1 : Bone marrow	3287	Tumor	Relapse Biopsy		5ec867b3-5ea4-5780-b05c-9d7fd9ce105d	86fd81ee-9c77-5e4a-ba47-51c95a466774		
+sample	722-5	Not Applicable	C42.0 : Blood	-999	Normal			605ec269-095d-5103-84af-e56fdcbbd559	2cfbc4c8-0265-5ccb-8734-76c60a7573ba		
+sample	792-2	Primary	C42.1 : Bone marrow	6209	Tumor	Relapse Biopsy		61028714-dfcc-538d-8709-37d91c28f680	20555316-ec74-5d1a-b618-6aa251dc1e14		
+sample	732-8	Not Applicable	C42.0 : Blood	2510	Normal			613c7c9f-b9b8-5735-81e5-98f2db2e51f2	b0c31c92-fa73-5199-8da8-83f05875afc9		
+sample	PSS085	Metastatic	C40.2 : Long bones of lower limb and associated joints	-999	Tumor	Metastasis		6154568a-6ae1-5259-a939-8923bdcfbbc0	f0853e71-060b-5871-878b-3e71a0371e2c		
+sample	R22-6	Not Applicable	C42.0 : Blood	6228	Normal			6156ac5b-4f05-5b7c-8018-330f7a13ef04	19242d9b-e044-5321-8fba-b38c5586394d		
+sample	PSS126M_sample	Metastatic	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Metastasis		61ff4ad6-f67a-59fc-ae63-bf4b093f90d7		2038b788-bcb5-5fc9-bf89-f5ea6cebcf39	
+sample	040-5	Primary	C31.0 : Maxillary sinus	7305	Tumor	Diagnostic Biopsy (SMN)		6236dcff-13a7-539b-b540-c8dc368b475f	35a05b25-1562-58b6-b48a-aa5c155941f0		
+sample	369-9	Not Applicable	C42.0 : Blood	522	Normal			635e5635-d64a-5ed1-97bc-c9aebaab38af	66350e71-91c1-5c56-9ff5-6938763e8013		
+sample	534-3	Primary	C42.1 : Bone marrow	6939	Tumor	Relapse Biopsy		637a7c18-4c91-5c88-ac12-da3a324f69a4	4b0a1b28-94ef-5b4d-abde-37b271d0b093		
+sample	525-0cell_line_sample	Unknown	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Unknown		638bd406-645c-55c1-a9f0-ed3d9e8b6e22			0e9a9aa7-854f-5a36-b673-065fe4f4a47c
+sample	620-3	Primary	C40.2 : Long bones of lower limb and associated joints	4748	Tumor	Diagnostic Biopsy		638fb0af-fd9f-533f-97d7-9c4901e0d5a5	aa8b5363-8253-5c74-a5c0-1f488f715e2a		
+sample	511-6	Not Applicable	C42.0 : Blood	714	Normal			645a2fc9-cb1f-5ec9-8f40-ecc9c3d38cc9	6e9e99f1-7d17-51ab-bc61-c6dcff9fba4c		
+sample	403-7	Not Applicable	C42.0 : Blood	4862	Normal			645edc5c-3dd3-50ee-b80c-a700d9405f05	9428e32d-1198-544e-b58e-b338891c7b36		
+sample	717-5	Not Applicable	C42.0 : Blood	-999	Normal			64a6f7bc-ff2e-5cdc-a235-7c9d69076c34	c154f96d-7cb8-5e4d-b694-82f58ffbebc2		
+sample	456-4	Metastatic	C71.9 : Brain, NOS	3287	Tumor	Metastasis		64b45cf4-13d2-5945-a37f-26859afcea26	78b31cd2-a6c1-5368-8905-f7c29f0274eb		
+sample	742-4	Primary	C40.2 : Long bones of lower limb and associated joints	2922	Tumor	Diagnostic Biopsy		65853dd4-2e6d-5914-9e0f-0aac2461b1e6	4a71ff10-6155-5b31-b253-b03848f41822		
+sample	357-39	Metastatic	C34.1 : Upper lobe, lung	4017	Tumor	Metastasis		65e43598-c6d6-5928-b6e5-322a24e48b3e	8535dd64-51f1-5cc3-812a-6289888164b8		
+sample	572-2	Primary	C42.1 : Bone marrow	128	Tumor	Diagnostic Biopsy		661c3e7c-0703-5608-8dbd-192333e6f05f	ab695af5-1b66-50af-86bc-5767ded010a5		
+sample	550-6	Not Applicable	C42.0 : Blood	4551	Normal			677f317c-39c5-582a-83f7-d4a400d00cbe	e827f1b9-9c49-5def-9141-a2f920033b4a		
+sample	660-3	Primary	C74.9 : Adrenal gland, NOS	3652	Tumor	Diagnostic Biopsy		685bbca9-602f-57fc-9812-ae797cd4bd3b	8d26e85c-9b86-5bc5-a2f4-624b0d2d4eed		
+sample	052-7	Not Applicable	C42.0 : Blood	9008	Normal			68cb6448-4626-54cf-869f-9c13840aedcc	4dda1354-a10b-584b-927c-08add2fd54c0		
+sample	702-3	Primary	C22.0 : Liver	1095	Tumor	Resection		69abbcb0-e3db-503f-83fc-b6919121e9e5	a43028b4-7aba-568f-b7ad-a89649e71ca7		
+sample	456-4cell_line_sample	Metastatic	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Metastasis		6a69528b-1467-5c0e-91b6-732199ceb719			06de28fd-c001-5801-b5f5-9f60970694c2
+sample	587-5	Not Applicable	C42.0 : Blood	2239	Normal			6a816e3c-cd15-50bd-a6fe-d91cd2dd15a5	fc6bc80c-e628-5ff5-aa48-4782f9e82e1d		
+sample	720-5	Not Applicable	C42.0 : Blood	-999	Normal			6b3b1729-f08f-530e-91a0-159937ab0d3f	6ea17ddd-e0c7-5701-b131-581230b6c466		
+sample	303-8	Not Applicable	C42.0 : Blood	5704	Normal			6b53acda-0a7d-5c07-a4ac-7f3127c98dbc	5d629876-c77c-51b6-87f5-93900881054a		
+sample	840-6	Not Applicable	C42.0 : Blood	5941	Normal			6bfe1c00-7794-53eb-9839-4d1a5a42ac20	345884f9-7c36-57c1-89e6-6d8fbbf1ebb9		
+sample	575-4	Primary	C40.2 : Long bones of lower limb and associated joints	4748	Tumor	Diagnostic Biopsy		6c2ea47f-0186-5bfd-8a58-3bfe84bc6bbd	68e95d73-e4f0-5cdc-b549-0a8fa5bddd53		
+sample	463-6	Not Applicable	C42.0 : Blood	782	Normal			6c47da3b-363c-5006-b03e-59dfd520cd16	913b5231-974d-5cf4-bc06-6d7f27be03ed		
+sample	572-1	Metastatic	C77.9 : Lymph node, NOS	130	Tumor	Metastasis		6c567ff2-9b6e-52a1-893b-69db70d6d455	ab695af5-1b66-50af-86bc-5767ded010a5		
+sample	582-3	Primary	C76.5 : Lower limb, NOS	7670	Tumor	Resection		6c9f9d09-9741-54d8-8c91-bd727fc97ef7	6e4faf23-db81-544a-b2ee-f21dc276c86d		
+sample	PSS159_sample	Primary	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Diagnostic Biopsy		6d5a0ba2-370a-5536-9c6a-c6d82daf9f8d		6ecc8d64-e9ac-5c58-a647-85b166992306	
+sample	675-2	Metastatic	C34.3 : Lower lobe, lung	-999	Tumor	Metastasis		6d8a2925-c392-5da9-bb2d-351ad983c40d	2b05f324-27db-516a-9e29-f42fe917169b		
+sample	652-20	Not Applicable	C42.0 : Blood	7220	Normal			6de78cfd-c0f5-544e-9f80-45d1fff3fc9d	0328ace8-5ea8-590d-9674-4cda315e1036		
+sample	472-3	Primary	C44.2 : External ear	1826	Tumor	Diagnostic Biopsy		6ec79093-802d-50ba-be71-50df35fdc21d	b0c20eb2-c0a1-5232-93f7-c51e90564430		
+sample	519-7	Not Applicable	C42.0 : Blood	7500	Normal			6f94daaa-2ab4-5387-bc53-9e7e29125051	d60bbd17-637a-54fd-9aa4-b9e2ee62faab		
+sample	497-7	Not Applicable	C42.0 : Blood	4737	Normal			70a26682-b898-5b32-a8fc-1e98fa3feca8	9f337e17-18af-5969-aa2c-739153540766		
+sample	708-10	Metastatic	C34.2 : Middle lobe, lung	5844	Tumor	Relapse Metastasis		70f5e112-2d0b-53dd-a2ab-6f40cc2ab264	ca583f5b-acd7-54dd-90f4-f49195b21164		
+sample	236-1	Primary	C76.0 : Head, face or neck, NOS	1095	Tumor	Diagnostic Biopsy		717099ea-9cbb-546b-b3d8-efdfccab9ce0	8f262d8f-9a4b-53c8-adef-5c2b5be5493d		
+sample	301-4	Primary	C40.2 : Long bones of lower limb and associated joints	4748	Tumor	Diagnostic Biopsy		7177cc6f-99b4-511c-963b-1904cfe32d6b	49ea0bdc-3c43-5d41-81b1-e798ba0347fd		
+sample	664-1	Primary	C76.4 : Upper limb, NOS	197	Tumor	Diagnostic Biopsy		71940197-65ca-5006-9e00-3feda5e7a9dd	e3cd0597-3822-5f2e-b0f9-30281eebfeb1		
+sample	712-1	Primary	C49.4 : Connective, subcutaneous and other soft tissues of abdomen	365	Tumor	Diagnostic Biopsy		71dfd386-cdc7-5b1f-ab8c-a28fc84ed040	99605f4d-7b0a-5305-9c7f-11b2a778cedd		
+sample	595-1	Primary	C76.5 : Lower limb, NOS	365	Tumor	Resection		72631621-5b9a-5cf6-b9d7-735d4c0a905e	aff7af93-81ea-5256-af30-197146304a7a		
+sample	828-6	Primary	C42.1 : Bone marrow	1461	Tumor	Diagnostic Biopsy		7307d538-0446-5aea-bcc5-c8b8fa649858	dc4ca0d2-4a12-5f4c-8e41-2c526e296a37		
+sample	495-3_1_L	Primary	C40.2 : Long bones of lower limb and associated joints	5844	Tumor	Resection		730c4e71-6da7-512a-87d1-36fafb32a12b	16ea43c2-f25f-55d6-b7e1-6d4306df259f		
+sample	531-1	Primary	C42.0 : Blood	5113	Tumor	Relapse Biopsy		734c8e66-3897-5be9-8d72-8206cad252af	9518f860-d4fc-5bdb-ba09-e094f1412a61		
+sample	640-3	Metastatic	C76.2 : Abdomen, NOS	6939	Tumor	Relapse Metastasis		7449e02a-3e3c-5365-a97b-396c9121a908	7eb06de2-e574-580c-82ba-7e8e8d92b192		
+sample	833-5	Not Applicable	C42.0 : Blood	5366	Normal			74608637-ae58-54ee-aada-2dd101a2b92d	e3821dc8-a30a-52ad-97d3-57ba3e98ed78		
+sample	PSS142_sample	Metastatic	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Metastasis		748db1a7-839d-5a74-9202-591226b89aba		b22ae7dd-6368-5e08-be26-7a9549cf817a	
+sample	673-6	Not Applicable	C42.0 : Blood	-999	Normal			74b54f37-ccc2-50c7-9b0a-e64b2c761a13	c3b7d2d0-2e50-5388-bea8-729eddf3105d		
+sample	626-6	Not Applicable	C42.0 : Blood	-999	Normal			74d41959-899d-5898-a53f-ebf39de45db8	a7ab8ab1-8805-5d65-b533-6002536bab5f		
+sample	625-16	Metastatic	C34.3 : Lower lobe, lung	6209	Tumor	SMN Relapse Metastasis		74f83393-6abb-5c00-bada-9834fc259f50	d73f90f8-c6fc-5ce4-b8fb-c70a3b42b5b5		
+sample	660-7	Not Applicable	C42.0 : Blood	4259	Normal			78aeee48-9238-5f57-9e39-523967ea0575	8d26e85c-9b86-5bc5-a2f4-624b0d2d4eed		
+sample	687-7	Not Applicable	C42.0 : Blood	-999	Normal			78c0d5ec-6fe8-5f4d-a1bd-621ff87dc5b6	2dca4553-9759-53ba-a1d7-c609394f7533		
+sample	106-16	Not Applicable	C42.0 : Blood	6482	Normal			790a7b7b-bda0-5023-b215-f316eea00f19	1dbe3906-97f1-5a3e-a859-3da74219911c		
+sample	497-11	Metastatic	C34.3 : Lower lobe, lung	4748	Tumor	Metastasis		79627dde-446f-513a-b826-1a88db56fa4b	9f337e17-18af-5969-aa2c-739153540766		
+sample	643-1	Primary	C80 : UNKNOWN PRIMARY SITE	5478	Tumor	Relapse Biopsy		79d3aa1f-3e72-53f4-8ff6-0a119d381ac3	5b94c4fe-5d78-5117-825c-1a65ade7293f		
+sample	435-13	Not Applicable	C42.0 : Blood	4983	Normal			7a0be26a-1895-530b-9f66-dcdfccfbdda1	aabd3220-51de-58dc-927c-b76e541af23b		
+sample	229-1	Primary	C22.0 : Liver	365	Tumor	Resection		7a5a3a08-808a-5045-b29b-2ed9d236b237	3ed36d9e-3f30-57e0-914e-b67d897155b7		
+sample	256-1	Primary	C22.0 : Liver	730	Tumor	Diagnostic Resection		7a81f1de-f3c2-5374-b9b8-b3218f9981b5	07cec0f9-0cd2-5155-8f90-674cce69394d		
+sample	360-7	Primary	C76.5 : Lower limb, NOS	2556	Tumor	Resection		7acbda72-1fff-520a-ae23-8f67196d1245	4ac10560-7fd8-5923-ac5d-a505a7458282		
+sample	107-4	Primary	C40.2 : Long bones of lower limb and associated joints	6209	Tumor	Diagnostic Biopsy		7b0bd97f-832d-5f2b-8a08-419a8ac2caa0	71be49ba-4bdf-54a0-ac9d-12a3d4b0dc3f		
+sample	715-5	Not Applicable	C42.0 : Blood	-999	Normal			7b1fdeea-9da4-5d12-b398-5f6076c08242	aec67873-18e5-5ce7-8530-60797ff63b35		
+sample	SJSA_sample	Not Reported	C80 : UNKNOWN PRIMARY SITE	-999	Tumor			7b83e670-c661-534e-8f31-ac6728f808c7			d8e332e0-9fbf-523a-a8ca-8e8c936e2d6f
+sample	390-14	Not Applicable	C42.0 : Blood	5313	Normal			7bf9c40c-cb08-50a0-a509-cce730f7be43	9f6ac2b1-cbe9-5320-a1cc-826e5e462882		
+sample	231-5	Not Applicable	C42.0 : Blood	3298	Normal			7c35e41b-b095-5e54-aa35-52fae193ce9c	1670f41d-043f-542a-81c8-7b69626f7213		
+sample	435-3_2	Primary	C22.0 : Liver	4017	Tumor	Resection		7c5de195-dabe-5ffa-ba88-038aa91aaa76	aabd3220-51de-58dc-927c-b76e541af23b		
+sample	427-9	Not Applicable	C42.0 : Blood	3358	Normal			7c80c0b1-fff2-56dd-9644-81967a9892f2	2f4b741c-e5c4-58b3-b613-3a9c84527b44		
+sample	PSS077_sample	Metastatic	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Metastasis		7d23b25d-eb22-5997-9f25-7af2f319d5e7		f37b6324-0f2f-5602-af13-30b1b5e07bbe	
+sample	435-3_1	Primary	C22.0 : Liver	4017	Tumor	Resection		7d7ea350-987f-51f8-a748-d4c3ee71de0f	aabd3220-51de-58dc-927c-b76e541af23b		
+sample	831-4	Primary	C41.0 : Bones of skull and face and associated joints	4383	Tumor	Resection		7e897dd8-c224-5f4a-a8aa-a78072f8b3c5	64283fb1-c330-5ffa-9fa2-328e685d7114		
+sample	OS708_sample	Metastatic	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Relapse Metastasis		7ed4a6c1-1d9c-5942-96a4-fb9a43317e52		9b381c84-0f49-5702-93b4-86ec91e0ded9	
+sample	SAOS2_sample	Not Reported	C80 : UNKNOWN PRIMARY SITE	-999	Tumor			7f37522e-58f1-582d-baaf-c286ec59a6b4			cd536c47-786f-5a56-88a8-791b35f942ea
+sample	816-4	Not Applicable	C42.0 : Blood	8773	Normal			7fddb18a-ed80-5e10-bac6-0db81d903742	6d4c5493-ba99-50cc-8e5a-0010a16cc512		
+sample	433-3	Metastatic	C38.4 : Pleura, NOS	5113	Tumor	Metastasis		80cceff6-4fa8-5b01-956f-01da1870223b	5985af97-fac6-5127-b466-67f29dbe6af5		
+sample	378-17	Not Applicable	C42.0 : Blood	4986	Normal			82e5abf8-96c2-5c1a-b765-076af8540456	d0fe16ca-92be-5351-a11d-78685043e5f7		
+sample	766-1cell_line_sample	Metastatic	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Metastasis		8301bf30-e22d-5d5b-a420-c56df72d5481			ed49e6d2-b10f-5601-a76a-4777fa9ba2ac
+sample	734-3	Primary	C22.0 : Liver	1095	Tumor	Diagnostic Biopsy		836227ef-a4ad-5986-b3d2-527dc8005e51	9cb95f47-1c41-5541-bf84-d7b8a15a4618		
+sample	425-1_2	Primary	C22.0 : Liver	133	Tumor	Diagnostic Biopsy		838f998c-c9da-5e54-862c-63d6eb60e211	5dfe561d-b5a4-54d3-8676-08e035628016		
+sample	602-6	Not Applicable	C42.0 : Blood	3348	Normal			83d9d1c7-cb62-5943-abcd-2720d1832956	72d92c51-2b04-5800-901c-de34f4007263		
+sample	772-3	Primary	C76.5 : Lower limb, NOS	4748	Tumor	Resection		83f7ca99-8632-53af-b6ba-704eac7bd612	2d5da197-4105-5d0e-8da1-2e766ce7742b		
+sample	477-4	Not Applicable	C42.0 : Blood	938	Normal			8409aeaf-7621-56d3-b498-e88640871cc2	0030b0d6-a40e-56ea-8642-be2883eca9dd		
+sample	528-5	Not Applicable	C42.0 : Blood	1136	Normal			84235a4c-a1ba-51cd-a47d-463e38356af0	2142cd73-95fa-54be-9e61-80a6985b5cc3		
+sample	831-2	Primary	C41.0 : Bones of skull and face and associated joints	4383	Tumor	Diagnostic Biopsy		8447a331-3ce5-5f55-b39e-c2f40aca0ed2	64283fb1-c330-5ffa-9fa2-328e685d7114		
+sample	hFOB1_19_samp	Not Reported	C41.9 : Bone, NOS	0	Not Reported			8449e60d-7623-57ee-9226-e4f896ae518d			b5d997e8-3cc6-515b-b051-8e63c9d36fc9
+sample	152-5	Metastatic	C40.0 : Long bones of upper limb, scapula and associated joints	4383	Tumor	Metastasis		8510a5a3-ad60-5ace-8e7d-c7d48219d06a	f0853e71-060b-5871-878b-3e71a0371e2c		
+sample	752-6	Primary	C11.9 : Nasopharynx, NOS	4748	Tumor	Diagnostic Biopsy		8533bc85-979a-58b6-b2c9-681d88cda772	24f9c948-36bd-567a-a1a3-0c54254b99ec		
+sample	546-3	Primary	C22.0 : Liver	307	Tumor	Diagnostic Biopsy		8542b84f-6dc1-52e8-a272-1d02b5950ac7	f7c35a26-f211-5a37-b961-258bbce0ca88		
+sample	486-8	Not Applicable	C42.0 : Blood	2546	Normal			856a3db4-6d03-56e2-89dc-8b3e5929e004	97409424-c847-5969-8559-599ed254b015		
+sample	842-1	Primary	C42.1 : Bone marrow	5478	Tumor	Diagnostic Biopsy		87911fb4-8670-5a0e-bae4-f4ce1585c29b	00a7ee10-c2b7-5daf-824c-29755d1cfba6		
+sample	778-9	Primary	C64.9 : Kidney, NOS	365	Tumor	Resection		881e2e45-a18b-5dee-8848-ae4a9f126c15	bf99dd2b-ce5c-5a24-918f-2e7852daf439		
+sample	716-1	Primary	C76.2 : Abdomen, NOS	-999	Tumor	Diagnostic Biopsy		8878e36c-94a7-5024-879b-4a97588c4414	72209962-ff4c-5dec-8929-fdda471f7574		
+sample	492-7	Not Applicable	C42.0 : Blood	5646	Normal			88914885-7f35-5169-8f32-a4f1b890c8ee	7557ace7-7a74-5b52-9071-f444fa60e8c0		
+sample	782-4	Primary	C76.2 : Abdomen, NOS	1095	Tumor	Resection		89c67141-642f-5beb-9dc1-f27073644c38	98d8433c-831b-5a8f-b456-4d6e26034a71		
+sample	469-3	Primary	C49.6 : Connective, subcutaneous and other soft tissues of trunk, NOS	13879	Tumor	Resection		8b9fccdc-3cec-5064-956f-51d17a4642d5	6a70ebc5-2d4a-5102-8c13-39f2ebc32723		
+sample	040-7	Not Applicable	C42.0 : Blood	7816	Normal			8c66a359-d225-5bbd-bd97-7179f368009f	35a05b25-1562-58b6-b48a-aa5c155941f0		
+sample	438-1	Primary	C22.0 : Liver	1461	Tumor	Resection		8d59f98f-f4e0-5a2d-ad48-68d86495ac93	cf43d5e9-ab98-5a43-926f-add4c2fabaa8		
+sample	441-9	Metastatic	C34.9 : Lung, NOS	5478	Tumor	Metastasis		8dc35d14-3f7e-5122-9e66-004788d0a0fb	c06502a0-ada3-5498-94d7-7fcc1a17e9e6		
+sample	453-5	Primary	C22.0 : Liver	5113	Tumor	Resection		8de638c9-1096-5503-822f-ddd0679858c3	2ff40f28-0012-59e0-b90f-810e144997f8		
+sample	166-7	Metastatic	C34.9 : Lung, NOS	6209	Tumor	Metastasis		8e658318-ae17-539d-bca0-fa9fb7b77205	1f813ee9-3b29-5dbd-b7f3-9d3b4edb9cd3		
+sample	752-10	Not Applicable	C42.0 : Blood	4887	Normal			8e8d022c-95d8-5c18-9958-fcc5f53d7dd5	24f9c948-36bd-567a-a1a3-0c54254b99ec		
+sample	441-15	Primary	C40.2 : Long bones of lower limb and associated joints	5478	Tumor	Resection		8ee47816-b87d-56e3-afdb-e554df34d345	c06502a0-ada3-5498-94d7-7fcc1a17e9e6		
+sample	792-3	Primary	C42.1 : Bone marrow	6209	Tumor	Diagnostic Biopsy		8f54ffbf-050b-595a-a0e0-634dff2419d9	20555316-ec74-5d1a-b618-6aa251dc1e14		
+sample	578-7	Primary	C69.6 : Orbit, NOS	2922	Tumor	Relapse Resection		9014032f-1796-5110-9611-adff3dc6ab08	8aa748c4-154b-526c-90e3-099b41eb769e		
+sample	578-10	Not Applicable	C42.0 : Blood	3061	Normal			917bebb5-76e8-59b9-8d18-723426e7a2f2	8aa748c4-154b-526c-90e3-099b41eb769e		
+sample	799-1cell_line_sample	Metastatic	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Relapse Metastasis		91ba3a07-0b6f-5efa-b20a-e1e5166ff918			5da3391e-5590-555f-babe-3350d4bdf046
+sample	308-4	Not Applicable	C42.0 : Blood	4085	Normal			91cccf96-4e6c-5502-bf1f-b09b1d0bb181	b1e60bfd-6cd3-5df8-a6c1-39b64b9925f6		
+sample	522-3	Primary	C80 : UNKNOWN PRIMARY SITE	2191	Tumor	Relapse Biopsy		91d49e66-640a-5a46-81e5-bc75db905a51	958989c6-6a34-5cef-b36d-57d874aca25b		
+sample	525-0	Unknown	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Unknown		93459d4c-a394-5c16-be16-ad1b474d22cf	203fd8cf-5b1d-5880-bc6f-7b158d11abf3		
+sample	104-20	Metastatic	C34.9 : Lung, NOS	7670	Tumor	Metastasis		934f7308-28c6-5fa2-931e-ca413980e84e	71b14d73-509b-54ac-9c34-9d41d227d91c		
+sample	588-6	Not Applicable	C42.0 : Blood	15883	Normal			93eb122f-b011-5878-bd7b-574c07889611	689122de-f31d-53b0-a494-1d0ca116a5ed		
+sample	152-10	Not Applicable	C42.0 : Blood	5002	Normal			93ff9517-5cde-578c-8635-8122cb322975	f0853e71-060b-5871-878b-3e71a0371e2c		
+sample	723-5	Not Applicable	C42.0 : Blood	-999	Normal			943b451b-7d9f-515f-be18-b18ffa8bc242	d51b4515-dd48-5b2e-ab8f-81a144e1194f		
+sample	575-19	Not Applicable	C42.0 : Blood	5043	Normal			9493a5e6-85a8-5992-9c17-7c7b94317a0d	68e95d73-e4f0-5cdc-b549-0a8fa5bddd53		
+sample	432-3_2	Primary	C22.0 : Liver	1095	Tumor	Resection		94f93205-6cf7-5fca-8b9c-ddf629ffe1cb	95b34567-31de-5eb1-81ac-1e25cc995016		
+sample	435-3_3	Primary	C22.0 : Liver	4017	Tumor	Resection		95c3d544-9494-5120-9f64-6a852333c1b6	aabd3220-51de-58dc-927c-b76e541af23b		
+sample	457-21	Metastatic	C34.2 : Middle lobe, lung	6574	Tumor	Metastasis		96889d85-481f-5925-aa27-65cdb69f611f	4f60298b-494b-59ed-ad02-d09419f9b442		
+sample	840-4_2	Primary	C48.0 : Retroperitoneum	5844	Tumor	Diagnostic Resection		96dc2392-fbd0-52f1-a36f-be4155f87d22	345884f9-7c36-57c1-89e6-6d8fbbf1ebb9		
+sample	453-13	Not Applicable	C42.0 : Blood	5362	Normal			977d9c7d-4d47-5c40-b575-2168200dbf80	2ff40f28-0012-59e0-b90f-810e144997f8		
+sample	708-9	Metastatic	C34.3 : Lower lobe, lung	5844	Tumor	Relapse Metastasis		979e0260-4090-5fed-a2b2-3b235853a37f	ca583f5b-acd7-54dd-90f4-f49195b21164		
+sample	hFOB1_19_sample	Not Reported	C80 : UNKNOWN PRIMARY SITE	-999	Tumor			980e300d-5bd3-5050-8701-78cc7e2d38f1			b5d997e8-3cc6-515b-b051-8e63c9d36fc9
+sample	826-6	Not Applicable	C42.0 : Blood	419	Normal			984b08bf-07b2-51bd-b333-0ff106c46231	6a5bd576-e7cf-536e-a4d9-88a5376d6664		
+sample	602-3	Primary	C40.2 : Long bones of lower limb and associated joints	3287	Tumor	Diagnostic Biopsy		996e427b-7c9a-5513-b485-eee004299182	72d92c51-2b04-5800-901c-de34f4007263		
+sample	774-3cell_line_sample	Primary	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Diagnostic Biopsy		99773703-6e67-533e-b2dd-ac0cd1b69dcf			3d21d1ef-a8c1-5ab7-bf83-a6e65bf726aa
+sample	492-1	Primary	C40.0 : Long bones of upper limb, scapula and associated joints	5478	Tumor	Diagnostic Biopsy		99bd32b1-a920-533d-839f-f6ab57ba4dfc	7557ace7-7a74-5b52-9071-f444fa60e8c0		
+sample	844-1_3	Primary	C41.0 : Bones of skull and face and associated joints	4383	Tumor	Relapse Resection		99cdb7cd-61ad-5499-aa79-5920ac00226a	a85e225c-11cd-5c29-9426-cee8a1713457		
+sample	543-6	Not Applicable	C42.0 : Blood	6105	Normal			99f41c52-101d-5a16-8aef-0ee4aac428ba	7be593b0-9d57-51b2-a008-b20ecd3241b2		
+sample	427-5	Primary	C22.0 : Liver	2922	Tumor	Resection		9a1f00fe-751e-5b3d-836f-46eba259316e	2f4b741c-e5c4-58b3-b613-3a9c84527b44		
+sample	563-12	Not Applicable	C42.0 : Blood	10850	Normal			9a91e83b-9b79-5c7c-b372-4cd4a3873a39	453d688e-6f83-57c6-9a68-365ec6bb526c		
+sample	794-11	Not Applicable	C42.0 : Blood	676	Normal			9b1ad12e-0b75-51d2-b956-3c77e47a1793	420b1d55-7e18-506d-8ade-6a3d18c2ed8a		
+sample	PSS132_sample	Primary	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Diagnostic Biopsy		9c4403d8-12c8-5e7a-a0c1-680cc3a5ff38		40b48000-f692-5140-9c3d-de195cd8da31	
+sample	091-9	Metastatic	C40.2 : Long bones of lower limb and associated joints	8400	Tumor	Metastasis		9c5addf9-f24d-5238-9020-fb5be30de96c	f758ff5f-5b4d-59b4-aaa0-51c0bb718cd5		
+sample	OS833_sample	Primary	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Resection		9c6d3339-45e7-5cf7-954d-68d68578ef3a		94a39e5b-5703-5758-8eea-d733da9ad5e2	
+sample	496-3	Primary	C22.0 : Liver	365	Tumor	Resection		9cda8508-2e54-565c-9ce5-0c374a6ff663	23a51e3a-9071-5133-9003-0f2454feff32		
+sample	625-3	Metastatic	C71.9 : Brain, NOS	5478	Tumor	SMN Relapse Metastasis		9dbccff5-37c2-50f4-a08f-ced59ffda6cc	d73f90f8-c6fc-5ce4-b8fb-c70a3b42b5b5		
+sample	556-1	Primary	C42.1 : Bone marrow	201	Tumor	Repeat Biopsy		9df4823a-ae92-5ac7-b304-dc94263d596c	d18ad615-1cce-50c9-8b4c-f59467ad212f		
+sample	595-2	Metastatic	C77.4 : Lymph nodes of inguinal region or leg	365	Tumor	Metastasis		9e085c0c-5f6c-5dc1-a112-b2d0d6bd3ad6	aff7af93-81ea-5256-af30-197146304a7a		
+sample	357-10	Primary	C40.2 : Long bones of lower limb and associated joints	3652	Tumor	Resection		9e0a6338-7baf-51ab-a49d-650408989d8f	8535dd64-51f1-5cc3-812a-6289888164b8		
+sample	361-3	Primary	C40.2 : Long bones of lower limb and associated joints	3652	Tumor	Diagnostic Biopsy		9f0498a7-8fb8-5c8f-b7c2-eb5f1c6b2534	39cda9bc-b3f4-5ddd-91c3-4264833753a5		
+sample	104-6	Metastatic	C34.3 : Lower lobe, lung	7305	Tumor	Metastasis		9fa09d11-a815-5e84-9d9c-a0d939d88143	71b14d73-509b-54ac-9c34-9d41d227d91c		
+sample	647-7	Primary	C40.2 : Long bones of lower limb and associated joints	5113	Tumor	Resection		a1ce2a40-dbbf-5754-8328-b0cb9153ee72	0152e961-0cab-58bc-9420-432e5d11526d		
+sample	486-7	Metastatic	C49.6 : Connective, subcutaneous and other soft tissues of trunk, NOS	2191	Tumor	Metastasis		a2721142-2a27-58e3-b29f-209310bba23e	97409424-c847-5969-8559-599ed254b015		
+sample	337-0	Metastatic	C48.2 : Peritoneum, NOS	-999	Tumor	Relapse Metastasis		a2e8fded-234d-5c5c-b817-531ffeaf6672	5b5f9085-366e-5247-ac9f-cf8c7d99a106		
+sample	766-1	Metastatic	C34.9 : Lung, NOS	10957	Tumor	Metastasis		a322a9cd-9006-5aac-b2b8-46849d8457a2	a7b4b6d1-1926-5452-acaa-694d056cfe2a		
+sample	692-4	Not Applicable	C80 : UNKNOWN PRIMARY SITE	99	Normal			a4022dca-a727-5b6f-aff2-645bafc94845	f5375423-13ad-5e0e-bd1d-0a1014f9dcac		
+sample	769-2	Primary	C49.1 : Connective, subcutaneous and other soft tissues of upper limb and shoulder	9496	Tumor	Relapse Resection		a40b2fe2-d3d6-5065-8410-6c6819760506	111ca2d5-ce1d-545a-8c27-c6c1248477a9		
+sample	236-6	Not Applicable	C42.0 : Blood	3287	Normal			a4edd8cf-4255-5616-88ba-4445b5239676	8f262d8f-9a4b-53c8-adef-5c2b5be5493d		
+sample	692-1	Primary	C42.1 : Bone marrow	80	Tumor	Diagnostic Biopsy		a5a7796a-ab4d-545d-bd01-89b4f13ac46c	f5375423-13ad-5e0e-bd1d-0a1014f9dcac		
+sample	361-19	Not Applicable	C42.0 : Blood	3924	Normal			a61ff524-1237-53de-96c9-4634a05c7dc7	39cda9bc-b3f4-5ddd-91c3-4264833753a5		
+sample	186-8	Primary	C40.2 : Long bones of lower limb and associated joints	4383	Tumor	Diagnostic Biopsy		a631efff-f6f4-5f03-8ade-1a129c51ba38	4a71ad69-2ef6-52ac-b10c-11959ec6ea7e		
+sample	747-1	Primary	C42.1 : Bone marrow	9496	Tumor	Diagnostic Biopsy		a711846b-3996-5e42-a05f-3279be0ca0d4	6b2982e1-92e5-5b53-8671-fc1a3eedf60f		
+sample	811-1	Primary	C76.5 : Lower limb, NOS	8766	Tumor	Resection		a7211eec-93eb-55b6-a080-214f092597c0	2be6a8c4-f808-58f3-9e63-3d76966d8397		
+sample	596-5	Not Applicable	C42.0 : Blood	6733	Normal			a734db9e-bacc-58ed-ad72-58d045b55761	a1015087-f787-5844-b852-096efeb3ba42		
+sample	545-6	Not Applicable	C42.0 : Blood	5291	Normal			a7c7f39f-bede-54c5-981d-0a40feff8040	719f5055-c30e-590d-aff9-f4b117e38307		
+sample	511-4	Metastatic	C34.9 : Lung, NOS	365	Tumor	Metastasis		a7fc2d3b-9ff6-5e76-b106-c12c1c88521a	6e9e99f1-7d17-51ab-bc61-c6dcff9fba4c		
+sample	733-7	Not Applicable	C42.0 : Blood	5627	Normal			a81ffc2b-09e2-580a-96d3-36029c4a9aad	443e6709-7369-5e16-9ee5-8298e3bfdb51		
+sample	436-5	Not Applicable	C42.0 : Blood	6996	Normal			a8255454-6424-5db9-bb01-818a4b98e634	bf38af0c-d2e1-57d5-94b8-46fa70804606		
+sample	534-2	Not Applicable	C42.0 : Blood	7335	Normal			a95c057e-3a38-52ce-8386-2a36bd71ef9b	4b0a1b28-94ef-5b4d-abde-37b271d0b093		
+sample	349-9	Not Applicable	C42.0 : Blood	1826	Normal			a99e3a0f-cc47-57e6-b0ee-8ed518413c38	a383e430-2125-5b8e-8118-849d76e7e4e4		
+sample	454-22_sample	Primary	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Resection		a99ea9e3-86ff-5121-9777-3d5373748368		1cce1d08-c704-5942-bed4-a10ff946659d	
+sample	PSS140Q_sample	Metastatic	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Metastasis		a9bbd56d-cbd4-5116-9e54-15dfa9500ec9		68758900-d9c0-5455-8597-2b3470828890	
+sample	797-5	Not Applicable	C42.0 : Blood	6392	Normal			aa23a3e4-a002-50b9-81d8-8ae4477b3d44	731c3831-1327-5fa9-9fb2-947a02a0aaeb		
+sample	307-1	Primary	C40.2 : Long bones of lower limb and associated joints	5844	Tumor	Diagnostic Biopsy		aa3e1fce-ae5b-5c49-ab8d-90144e0a3d1e	c30d6b88-5f36-5c7b-9859-151b9c6bbc78		
+sample	518-5	Primary	C49.6 : Connective, subcutaneous and other soft tissues of trunk, NOS	3652	Tumor	Resection		aac1cb5d-7e2c-5baa-bfe5-73699d93bbde	96c9f445-3ed8-562e-9379-c920af5e451c		
+sample	518-6	Not Applicable	C42.0 : Blood	3707	Normal			aaeb2498-720f-5bba-90f6-732f65b244cc	96c9f445-3ed8-562e-9379-c920af5e451c		
+sample	522-2	Primary	C42.1 : Bone marrow	1461	Tumor	Diagnostic Biopsy		aaeffcaf-3502-5c74-ae63-506b5f178e4f	958989c6-6a34-5cef-b36d-57d874aca25b		
+sample	546-6	Not Applicable	C42.0 : Blood	649	Normal			ab2fdad3-a969-5472-a4cb-696fe35d4133	f7c35a26-f211-5a37-b961-258bbce0ca88		
+sample	820-4	Not Applicable	C42.0 : Blood	2984	Normal			ab7474a7-bc6d-5ee0-a63b-14ad090a6d58	18aa6f96-e7c4-58c3-b2d3-cb919c092ae8		
+sample	229-5	Not Applicable	C42.0 : Blood	2081	Normal			ac695f22-983d-52c4-8fca-3deddd355100	3ed36d9e-3f30-57e0-914e-b67d897155b7		
+sample	482-3	Primary	C22.0 : Liver	365	Tumor	Diagnostic Biopsy		adcfde2b-1dd9-520f-a04d-5d0b165f01f7	11cfbe01-0fe4-5739-b59d-193e6185f4c6		
+sample	236-2	Primary	C77.0 : Lymph nodes of head, face and neck	1095	Tumor	Resection		ae1c0b23-3351-5621-91f1-cf35187b6a4b	8f262d8f-9a4b-53c8-adef-5c2b5be5493d		
+sample	505-5	Not Applicable	C42.0 : Blood	4320	Normal			ae562c50-9413-5b98-950d-b43cf2d462a4	90aa61e5-3334-5077-bc58-df594e170748		
+sample	805-1	Primary	C11.9 : Nasopharynx, NOS	4748	Tumor	Diagnostic Biopsy		aec0458d-aff6-5f9d-ad0f-68ba83860a3b	32476b26-8daa-5697-ab97-3f4bed9253ba		
+sample	PSS131R_sample	Primary	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Resection		aeda171c-6be0-5fcc-b06b-049ed4120633		58579fea-8f1d-5a25-b7fe-ac387f856134	
+sample	477-1	Primary	C42.1 : Bone marrow	730	Tumor	Relapse Biopsy		af4a2dd2-8212-5040-af76-347b94589a09	0030b0d6-a40e-56ea-8642-be2883eca9dd		
+sample	697-7	Not Applicable	C42.0 : Blood	7735	Normal			af5057e9-eee0-5daf-a1c1-bfeffb2547b1	40f65dfd-73ca-5b4b-9d55-8815ffe65031		
+sample	369-6	Primary	C76.2 : Abdomen, NOS	365	Tumor	Relapse Resection		b0529e0e-a956-5c61-a309-8d57d0a9f483	66350e71-91c1-5c56-9ff5-6938763e8013		
+sample	820-6	Primary	C80 : UNKNOWN PRIMARY SITE	2922	Tumor	Relapse Biopsy		b07281e3-5f3b-51f0-a372-4f0f584f2fa2	18aa6f96-e7c4-58c3-b2d3-cb919c092ae8		
+sample	MG63_samp	Unknown	C41.9 : Bone, NOS	5110	Tumor			b10e79ec-3228-5b58-a218-97a304127989			6847f221-aa00-5252-97d4-33cb446d7835
+sample	432-35	Metastatic	C34.3 : Lower lobe, lung	1095	Tumor	Metastasis		b147893d-ab8a-50d8-8838-002d9374d50c	95b34567-31de-5eb1-81ac-1e25cc995016		
+sample	579-18	Primary	C53.9 : Cervix uteri	5478	Tumor	Resection		b248c921-ff9a-58bd-b3be-54c7ffb27dab	c0585807-5fe9-5cc6-a5e7-550c070a34bf		
+sample	804-6	Not Applicable	C42.0 : Blood	595	Normal			b24dc338-fec8-5f87-a27c-9a3bcf67c09d	cea395dc-e333-535a-89eb-32791a6db1bb		
+sample	640-11	Not Applicable	C42.0 : Blood	7808	Normal			b2b8d0a4-4efc-5c69-ad31-4d2172452ad1	7eb06de2-e574-580c-82ba-7e8e8d92b192		
+sample	576-8	Not Applicable	C42.0 : Blood	1719	Normal			b2d7e127-1eaa-5f92-a2d3-edd766ef40a3	127062b0-ece1-5731-9e8e-cf84afa0c1ff		
+sample	579-3	Metastatic	C77.9 : Lymph node, NOS	5844	Tumor	Relapse Metastasis		b3314fc7-8191-506d-b6e9-1d9d73a79f7b	c0585807-5fe9-5cc6-a5e7-550c070a34bf		
+sample	526-1	Primary	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Diagnostic Biopsy		b3eee2d7-87eb-5986-8d4b-d25dd1c337f6	e109bce1-d842-5be9-8752-0b471c209996		
+sample	596-3	Primary	C41.0 : Bones of skull and face and associated joints	6574	Tumor	Diagnostic Biopsy		b47a8d65-f345-5fa3-9de5-b2ba30bb641d	a1015087-f787-5844-b852-096efeb3ba42		
+sample	PSS008_sample	Primary	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Resection		b5022f30-95a6-5086-a49f-a4c4b33b480f		57f875a7-397e-5ba5-8cdd-998140ca6457	
+sample	697-3	Metastatic	C48.0 : Retroperitoneum	7670	Tumor	Metastasis		b55351c2-2bc0-5a4c-9f4f-895b2e827b0a	40f65dfd-73ca-5b4b-9d55-8815ffe65031		
+sample	826-3	Primary	C64.9 : Kidney, NOS	365	Tumor	Resection		b5567781-5ea4-5985-bc9f-2ee706df88c0	6a5bd576-e7cf-536e-a4d9-88a5376d6664		
+sample	U2OS_sample	Not Reported	C80 : UNKNOWN PRIMARY SITE	-999	Tumor			b5b9722b-f7d1-5f0a-b1eb-67782888560a			efd64249-b698-5ab1-aab9-6357f3c58792
+sample	675-1	Not Applicable	C42.0 : Blood	-999	Normal			b62f9a35-8008-5551-8516-e7cf3626502f	2b05f324-27db-516a-9e29-f42fe917169b		
+sample	582-7	Not Applicable	C42.0 : Blood	7730	Normal			b64dac8b-6fe9-5024-ace6-c9670198744a	6e4faf23-db81-544a-b2ee-f21dc276c86d		
+sample	728-6	Not Applicable	C42.0 : Blood	5462	Normal			b6910785-756a-5ff1-90c5-f094c0808493	77afefdf-b810-52ec-8710-c9f4e2ee2b9b		
+sample	207-2	Primary	C40.2 : Long bones of lower limb and associated joints	4748	Tumor	Diagnostic Biopsy		b6e89e8b-9515-5f86-87ad-b07e1f831baa	3ae58877-9bd7-57d5-8b65-98e2c8907477		
+sample	792-4	Not Applicable	C80 : UNKNOWN PRIMARY SITE	6481	Normal			b7101318-e2f7-5b8e-b741-5fc19e418086	20555316-ec74-5d1a-b618-6aa251dc1e14		
+sample	PSS078_sample	Metastatic	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Metastasis		b7bd6d34-6ada-5e4a-b5e3-b64ccf431ba2		fdd62f4f-8bb4-5c89-9bd8-d775c3f32c44	
+sample	476-6	Primary	C42.1 : Bone marrow	4017	Tumor	Relapse Resection		b86650b5-dd16-5ba7-84ca-795abb967a26	beb962a7-6b48-5300-aa89-191f709b8aac		
+sample	EWS799_sample	Metastatic	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Relapse Metastasis		b867303b-d35a-52cd-8522-805f073d3fc6		c57645f4-cd23-5bc4-8606-0e632f32d9b5	
+sample	715-1	Primary	C71.9 : Brain, NOS	-999	Tumor	Resection		b92cb5fa-c9a1-55d3-8047-3e5930cd94c2	aec67873-18e5-5ce7-8530-60797ff63b35		
+sample	804-3	Primary	C49.6 : Connective, subcutaneous and other soft tissues of trunk, NOS	365	Tumor	Resection		b986fa14-73e0-5b57-9b83-4d9a51c26203	cea395dc-e333-535a-89eb-32791a6db1bb		
+sample	PSS112_pdx	Primary	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Primary		e54aab20-b0f5-51a3-b964-ee4bb5808aa3		f386ad00-1c71-513c-ae0c-21d867f9527a	
+sample	495-3R	Primary	C40.2 : Long bones of lower limb and associated joints	5844	Tumor	Resection		ba232f6b-754b-50c7-a864-143eb72e04fa	16ea43c2-f25f-55d6-b7e1-6d4306df259f		
+sample	802-3	Primary	C42.0 : Blood	8035	Tumor	Diagnostic Biopsy		ba56a2a9-b627-5ec3-b392-4656c88e3cad	0a3e66ac-b847-551b-b4f4-308215d07c3d		
+sample	052-9	Primary	C40.2 : Long bones of lower limb and associated joints	5844	Tumor	Diagnostic Biopsy		bbb72ee1-9ac6-5c96-a054-82a497514c06	4dda1354-a10b-584b-927c-08add2fd54c0		
+sample	736-1	Primary	C49.3 : Connective, subcutaneous and other soft tissues of thorax	3287	Tumor	Diagnostic Biopsy		bbcdf295-bfdb-5258-915a-1dae88474c45	232d3a59-adf7-5dba-967e-88922573a3db		
+sample	577-1	Primary	C69.6 : Orbit, NOS	3652	Tumor	Diagnostic Biopsy		bbdb25d5-b886-5e4a-b180-9ee8643b11c3	e4c7c1ec-cac2-51f8-bf68-43005d172349		
+sample	561-1	Primary	C62.9 : Testis, NOS	333	Tumor	Diagnostic Resection		bbfdd366-1e2a-51d5-ac2b-ce677c2fdda4	a72dfa57-d92a-5ea4-ad85-b852a9d6df7f		
+sample	PSS157_sample	Metastatic	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Relapse Metastasis		bd31ae1f-6c37-5f64-9b81-6052cc80d39d		46d44c4c-a67c-5a9e-86df-4e0dccdde987	
+sample	PSS112cell_line_sample	Primary	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Diagnostic Biopsy		bd3eb9bf-3bda-5447-abb1-b81463a2b8b6			b3e471b3-b81b-5e82-b541-aaaaa903023f
+sample	515-5	Not Applicable	C42.0 : Blood	3823	Normal			bddd51d7-2b9b-5d4b-8ebe-433a15da7e63	9963b36a-4313-5f2a-9775-31ac53e7b593		
+sample	787-1	Primary	C76.5 : Lower limb, NOS	9131	Tumor	Resection		be193fea-4f6f-5644-98e1-48530ae14c9a	f6df9b1f-da73-5764-8d94-a0476e7dfa32		
+sample	587-3	Metastatic	C41.3 : Rib, sternum, clavicle and associated joints	1826	Tumor	Relapse Metastasis		be56d71c-8614-5d29-86e0-de7a491f806a	fc6bc80c-e628-5ff5-aa48-4782f9e82e1d		
+sample	733-1	Primary	C42.1 : Bone marrow	5478	Tumor	Diagnostic Biopsy		bf22917c-f910-5fa6-99f8-d75348652f74	443e6709-7369-5e16-9ee5-8298e3bfdb51		
+sample	PSS113_sample	Primary	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Diagnostic Biopsy		bf65f8ab-1950-585d-926a-a62149c6cc60		3cdfae66-8d82-53ce-af6e-2a001f7e97bd	
+sample	PSS018_sample	Primary	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Resection		bf8b93c3-af52-598d-a4da-4e649bdbf676		2231d9bf-13af-53e0-bc3c-984d938893fa	
+sample	003-11	Not Applicable	C42.0 : Blood	4212	Normal			bfd67c7a-f9be-5cb7-b591-90d0ca3b2436	c123515d-fe44-5b46-8aea-5a6a060da3de		
+sample	542-1	Primary	C71.9 : Brain, NOS	5478	Tumor	Relapse Resection		c0b3441c-0ffc-508f-b451-6e676e9238c0	335ff899-2c22-50c8-a461-0f7059b4c876		
+sample	776-1	Primary	C42.1 : Bone marrow	7670	Tumor	Relapse Biopsy		c14264ba-64fc-5815-944b-7115fc7baf79	f9d791c6-b5f0-58bc-8348-3e687bd4a707		
+sample	779-3	Primary	C22.0 : Liver	365	Tumor	Resection		c15ae3e9-9ddd-5984-9fc3-244eeb8af978	a43d6592-42c1-5e8b-a73f-29b2e684b149		
+sample	548-4	Primary	C74.9 : Adrenal gland, NOS	1095	Tumor	Diagnostic Biopsy		c1d7dbe2-1c59-5ab6-bfec-47a2b69baab1	0385ade9-8824-56f5-af9a-b2d3ad3e4989		
+sample	560-6	Metastatic	C34.3 : Lower lobe, lung	9861	Tumor	Relapse Metastasis		c25e140e-3755-5ec9-8029-a277d4ea3136	761390bd-c3c3-5492-a749-32b32a41fe40		
+sample	255-6	Not Applicable	C42.0 : Blood	1777	Normal			c2b268eb-896d-5825-88f6-3efdfc630f0c	ffdb252d-f392-5c07-9c05-978e59077bd8		
+sample	645-1	Primary	C42.1 : Bone marrow	9131	Tumor	Relapse Biopsy		c384b6c4-abcf-5176-824c-ef520f37f8f1	18560a06-c2e3-5583-8b8c-e89ce446cd2a		
+sample	717-1	Primary	C64.9 : Kidney, NOS	-999	Tumor	Naïve		c3a08311-5b97-5ce1-91fe-59c20c99684b	c154f96d-7cb8-5e4d-b694-82f58ffbebc2		
+sample	010-22c	Metastatic	C34.9 : Lung, NOS	6574	Tumor	Metastasis		c434e9b1-caa7-55e6-a0a8-d17055a87647	73db19ff-9d1c-5a33-9cbd-c72d4a7de205		
+sample	454-17	Metastatic	C34.3 : Lower lobe, lung	4017	Tumor	Metastasis		c437bb1e-06e1-5810-8b76-f99ed98184ad	ae74abbf-fb3f-5b1b-a579-5459c34a8aab		
+sample	520-1	Primary	C49.5 : Connective, subcutaneous and other soft tissues of pelvis	1826	Tumor	Diagnostic Biopsy		c4f617a1-07e6-57c0-a043-32bf79b77653	29c321c3-05b6-5ee0-a841-92d6742a4bb8		
+sample	688-1	Metastatic	C71.4 : Occipital lobe	2191	Tumor	Relapse Metastasis		c61459f8-cad2-5df5-b41f-a1c257de35a2	56a500c8-016f-56db-9334-36ac9cd6c6f0		
+sample	152-5cell_line_sample	Metastatic	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Metastasis		c79a2676-19df-5dcb-962e-992ca40bd6ae			521563d2-36c2-5660-b62f-06cd0ea21e9c
+sample	637-3	Primary	C40.2 : Long bones of lower limb and associated joints	6939	Tumor	Diagnostic Biopsy		c82470bf-0339-5417-b6dd-98c8b40aaa02	0109e082-ebb8-5754-9ff6-acce2ffbd0af		
+sample	357-13	Metastatic	C34.3 : Lower lobe, lung	3652	Tumor	Metastasis		c986decc-0d72-52ea-90bd-2c9e2b7fec78	8535dd64-51f1-5cc3-812a-6289888164b8		
+sample	349-3	Primary	C76.2 : Abdomen, NOS	730	Tumor	Diagnostic Biopsy		ca05f78a-8c29-5e20-b808-4f4cfb3d748c	a383e430-2125-5b8e-8118-849d76e7e4e4		
+sample	562-1	Primary	C37.9 : Thymus	5478	Tumor	Resection		ca903463-653a-5d5f-aaf2-e5dce35460e2	0915d7f3-5b86-526b-8340-882191f29a26		
+sample	754-12	Not Applicable	C42.0 : Blood	2017	Normal			cabd2411-9f6c-5106-9806-282bc16c669c	97fcf0db-f3b1-56ef-9825-4cab5afa5375		
+sample	652-4	Primary	C40.2 : Long bones of lower limb and associated joints	6939	Tumor	Resection		cac77037-c9d8-5a1d-ad05-6f6248202ed2	0328ace8-5ea8-590d-9674-4cda315e1036		
+sample	528-1	Primary	C71.9 : Brain, NOS	730	Tumor	Diagnostic Resection		cac7bd88-e9be-5013-ab20-c709cb90e090	2142cd73-95fa-54be-9e61-80a6985b5cc3		
+sample	595-15	Metastatic	C48.2 : Peritoneum, NOS	730	Tumor	Relapse Metastasis		caf11c99-1bc0-5ed3-9f6a-99c14691ead5	aff7af93-81ea-5256-af30-197146304a7a		
+sample	800-5	Not Applicable	C42.0 : Blood	5651	Normal			cb6af7f1-bcaf-5575-af65-87431246a3c7	8e5c0266-ec8d-5ffb-823a-51fb578abdb4		
+sample	457-7	Not Applicable	C42.0 : Blood	6660	Normal			cb6cd0d0-b2be-5059-b3ba-8dbd96b34b9f	4f60298b-494b-59ed-ad02-d09419f9b442		
+sample	829-6	Not Applicable	C42.0 : Blood	1051	Normal			cc05f545-3d99-5d21-900a-848af22148a8	71464159-cfea-5dae-949e-d17160b28589		
+sample	367-11	Not Applicable	C42.0 : Blood	6534	Normal			cc14ba2a-6ed6-5e87-b90f-085bd434a08e	7fc27187-87e1-57ce-8bca-4ee53fdc04df		
+sample	701-3	Metastatic	C34.9 : Lung, NOS	5844	Tumor	Relapse Metastasis		cc18cdb8-30a1-51da-b60f-fdc43fa7b62a	aeecb91a-77ac-5a66-abae-271f71f11aac		
+sample	559-1	Metastatic	C49.2 : Connective, subcutaneous and other soft tissues of lower limb and hip	9496	Tumor	Relapse Metastasis		cca9a627-e96d-52ab-885a-13d7c9423aaa	5b3d409d-706d-52b3-95d2-95459a517d8a		
+sample	782-1	Not Applicable	C42.0 : Blood	1284	Normal			cd2f1214-1df0-5cd2-b049-d93b5687d961	98d8433c-831b-5a8f-b456-4d6e26034a71		
+sample	776-5	Not Applicable	C80 : UNKNOWN PRIMARY SITE	7941	Normal			ce644000-b435-598f-b894-2abf2146ec0c	f9d791c6-b5f0-58bc-8348-3e687bd4a707		
+sample	321-1	Primary	C49.5 : Connective, subcutaneous and other soft tissues of pelvis	241	Tumor	Diagnostic Resection		cf65a2c6-f483-5156-8b8c-e95d48a9d908	29cf8acf-8b5f-57bc-85f4-70efe64909f8		
+sample	316-1	Primary	C49.2 : Connective, subcutaneous and other soft tissues of lower limb and hip	3652	Tumor	Diagnostic Biopsy		cfa83813-abe7-5a17-acf3-d52ff54be1e6	860de23b-1524-5c6b-b370-dcc24b352465		
+sample	716-5	Not Applicable	C42.0 : Blood	-999	Normal			cfc014da-5c8b-5596-a61b-b1260ee3ac09	72209962-ff4c-5dec-8929-fdda471f7574		
+sample	723-1	Primary	C71.9 : Brain, NOS	-999	Tumor	Naïve		d0712480-6150-5bca-8d0a-837cd958b1b9	d51b4515-dd48-5b2e-ab8f-81a144e1194f		
+sample	735-7	Not Applicable	C42.0 : Blood	1585	Normal			d0a39a8a-c542-5411-b3e0-33fb38d3715d	a9b7ec63-4c44-52ca-8130-e57917c82d54		
+sample	091-12	Not Applicable	C42.0 : Blood	8620	Normal			d10caf62-a852-58ad-992b-83f9723d3e66	f758ff5f-5b4d-59b4-aaa0-51c0bb718cd5		
+sample	010-22b	Metastatic	C34.9 : Lung, NOS	6574	Tumor	Metastasis		d1202312-b715-5d8b-bcee-d8843009d34b	73db19ff-9d1c-5a33-9cbd-c72d4a7de205		
+sample	626-3	Metastatic	C34.3 : Lower lobe, lung	-999	Tumor	Relapse Metastasis		d1ab0f23-af2c-57f3-b2ab-34901ba72d6a	a7ab8ab1-8805-5d65-b533-6002536bab5f		
+sample	052-10cell_line_sample	Primary	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Resection		d259837f-a4ac-5774-8fc5-5a772221668c			5de0a1f3-1690-50e1-b8ea-bd71db84636e
+sample	722-1	Primary	C71.9 : Brain, NOS	-999	Tumor	Resection		d26a998e-4478-5675-bfb6-44735ad03647	2cfbc4c8-0265-5ccb-8734-76c60a7573ba		
+sample	810-4	Not Applicable	C42.0 : Blood	636	Normal			d4be1c3e-6ddc-5e59-82ab-8c97c4417f80	894e5a50-9106-5c00-b4bc-e1e9af22b1ac		
+sample	PSS141_sample	Primary	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Diagnostic Biopsy		d5337e04-c84c-57ca-86ad-7a55e0c5ba58		ebbde658-7a2c-5935-82f7-e935d84fb500	
+sample	PSS091A_sample	Metastatic	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Relapse Metastasis		d56f9c1d-f59d-5a54-9503-8cdc7cc856fd		1cabec31-3dc5-5ad5-aff9-e18a89d06c01	
+sample	595-7	Not Applicable	C42.0 : Blood	514	Normal			d5ba59a1-3b17-5b5b-95d2-e1fc8d9110d2	aff7af93-81ea-5256-af30-197146304a7a		
+sample	543-3	Metastatic	C77.9 : Lymph node, NOS	5478	Tumor	Metastasis		d62c99e7-2b4e-5ef5-86d7-ea4bd6cb9813	7be593b0-9d57-51b2-a008-b20ecd3241b2		
+sample	293-11	Not Applicable	C42.0 : Blood	185	Normal			d6c168a6-bfe0-53eb-ae75-941d038b42cf	3dda7459-6be5-5843-96cf-53418331ef6c		
+sample	531-12	Not Applicable	C42.0 : Blood	5453	Normal			d6d049e2-4c09-5bf8-bd69-70bbbc65985a	9518f860-d4fc-5bdb-ba09-e094f1412a61		
+sample	703-5	Not Applicable	C42.0 : Blood	-999	Normal			d75d42ae-a44d-5d9a-9df1-395988437a16	4723f983-9240-5821-99c9-3a90ccdff803		
+sample	166-20	Metastatic	C34.9 : Lung, NOS	6209	Tumor	Metastasis		d7c9bac2-d091-5ab8-b22e-c74f71aef162	1f813ee9-3b29-5dbd-b7f3-9d3b4edb9cd3		
+sample	750-7	Not Applicable	C42.0 : Blood	8618	Normal			d82cdca3-bbb7-5163-9ec8-7a1dc5146229	91231c3c-1840-5611-80ab-bb759104590f		
+sample	830-14	Not Applicable	C42.0 : Blood	5546	Normal			d89fd6a7-24a5-5119-af27-4fe164f5ef66	0d97f563-ac3d-5003-b65e-e878c045308b		
+sample	432-3_1	Primary	C22.0 : Liver	1095	Tumor	Resection		d9f54cc6-d90f-5ad2-93de-2b6a2fdb746d	95b34567-31de-5eb1-81ac-1e25cc995016		
+sample	042-8	Primary	C49.3 : Connective, subcutaneous and other soft tissues of thorax	365	Tumor	Diagnostic Resection		daab573e-b308-5244-b8a1-844ef59c1f45	765a2da1-ed53-5046-90d8-40f1e67ee192		
+sample	288-unknown	Unknown	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Unknown		db0d110a-c2e1-56a7-b33f-dd1fe9fd1776	94045326-6cc1-507f-b192-0054f4dfb648		
+sample	357-40	Metastatic	C34.3 : Lower lobe, lung	4017	Tumor	Metastasis		db22cc30-2524-568c-8e3e-1041d486beb0	8535dd64-51f1-5cc3-812a-6289888164b8		
+sample	010-22a	Metastatic	C34.9 : Lung, NOS	6574	Tumor	Metastasis		db5392ce-5ccc-50ec-aede-a5fe468f7f84	73db19ff-9d1c-5a33-9cbd-c72d4a7de205		
+sample	316-22	Not Applicable	C42.0 : Blood	4287	Normal			db8e95dc-a738-5dc8-bd69-9993a3859ef8	860de23b-1524-5c6b-b370-dcc24b352465		
+sample	040-6	Primary	C31.0 : Maxillary sinus	5113	Tumor	Secondary Malignancy Resection		dbd9fa0e-f4ff-52e4-942b-7daa897c4eaf	35a05b25-1562-58b6-b48a-aa5c155941f0		
+sample	052-10	Primary	C40.2 : Long bones of lower limb and associated joints	6209	Tumor	Resection		dc14211f-7666-55f1-9e0c-9db19a5b5ca3	4dda1354-a10b-584b-927c-08add2fd54c0		
+sample	805-7	Not Applicable	C42.0 : Blood	5161	Normal			dc54476c-2fbb-5adf-87d2-76db88ef1f91	32476b26-8daa-5697-ab97-3f4bed9253ba		
+sample	128-1	Primary	C76.4 : Upper limb, NOS	4017	Tumor	Relapse Resection		dd3df09b-3ffe-5d8c-b82c-6539f5ba462b	fbceb2a3-e93a-5318-8cad-b6abcdaacfcb		
+sample	MG63.3_samp	Unknown	C41.9 : Bone, NOS	5110	Tumor			dd45b516-a5a7-5808-986e-2ad83d717695			54a15374-12b0-57d7-8d23-0f87363d5cc5
+sample	567-3	Metastatic	C49.5 : Connective, subcutaneous and other soft tissues of pelvis	22645	Tumor	Metastasis		dd67eaac-1115-58cf-bd74-aa0c63721e15	5de13eec-483d-5fed-ad8d-48256d6b6cbb		
+sample	560-8	Metastatic	C34.9 : Lung, NOS	9861	Tumor	Relapse Metastasis		de10da84-9fdc-545a-b9ad-7dc5431c3f6b	761390bd-c3c3-5492-a749-32b32a41fe40		
+sample	808-6	Not Applicable	C42.0 : Blood	5229	Normal			de193589-1546-5b01-af84-c52f0e735498	2a007e10-7157-52d5-bc3c-e5acd1da63c2		
+sample	724-5	Not Applicable	C42.0 : Blood	-999	Normal			dee1d070-46ee-5169-9d56-fbcb11880ea2	379d5f77-5208-544a-83f9-d4de5053a33b		
+sample	496-10	Not Applicable	C42.0 : Blood	1355	Normal			df0637e2-c269-5959-9cee-f0a351c22d68	23a51e3a-9071-5133-9003-0f2454feff32		
+sample	575-9	Primary	C40.2 : Long bones of lower limb and associated joints	4748	Tumor	Resection		df242b7f-94cd-503d-9b9e-2834cd2f9dca	68e95d73-e4f0-5cdc-b549-0a8fa5bddd53		
+sample	641-9	Not Applicable	C42.0 : Blood	4461	Normal			df4fb904-99a5-561c-b128-81eba5283d54	cf5c7955-f34f-500e-be9f-02fe42deb077		
+sample	307-10	Primary	C40.2 : Long bones of lower limb and associated joints	5844	Tumor	Resection		dfb8db71-2241-5515-ad0f-5dd6017c4262	c30d6b88-5f36-5c7b-9859-151b9c6bbc78		
+sample	759-9	Not Applicable	C42.0 : Blood	2855	Normal			dfc36d76-7a89-500d-be43-98ef3d2cbc7e	02885a13-0ed2-5a73-86a3-b7c15ec2e67d		
+sample	PSS131_sample	Primary	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Diagnostic Biopsy		e059b52f-b743-55e6-bd45-dcb6408f5788		f07d1f2b-1a99-5eb5-90c1-4b1c6ccc3df0	
+sample	742-4cell_line_sample	Primary	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Diagnostic Biopsy		e08bf8f1-f358-571c-804e-6be593b4c6b1			70fd9209-87ca-5eaa-b2e7-a0a847579560
+sample	186-7	Metastatic	C41.0 : Bones of skull and face and associated joints	4748	Tumor	Metastasis		e12a8519-2f0b-5d80-a190-c7cda9e3e953	4a71ad69-2ef6-52ac-b10c-11959ec6ea7e		
+sample	830-8_2	Primary	C76.5 : Lower limb, NOS	5478	Tumor	Resection		e1d1062d-b59d-54a1-ad39-df315fec7bc4	0d97f563-ac3d-5003-b65e-e878c045308b		
+sample	408-3	Primary	C76.2 : Abdomen, NOS	1095	Tumor	Diagnostic Biopsy		e252236d-766f-56cc-9083-bf63f3571814	ab00af8a-7f20-581b-a5b9-883c9031b8cd		
+sample	619-5	Primary	C07.9 : Parotid gland	4748	Tumor	Resection		e412fcbb-3d1e-54a9-9113-d9b54292e2de	2d586fbf-894d-57b8-9245-2dcc894e50f6		
+sample	364-3	Primary	C40.2 : Long bones of lower limb and associated joints	4748	Tumor	Diagnostic Biopsy		e5241d04-f8c0-5a66-b88e-05d249dedcf6	7d226bd8-d9e9-5a3c-a825-8a9f43adb15c		
+sample	799-1	Metastatic	C71.9 : Brain, NOS	5844	Tumor	Relapse Metastasis		e532218d-593f-5cc1-87ce-0b770cdcb7bd	5901e96a-a37d-56e7-b031-50d7d00ac16b		
+sample	486-4	Metastatic	C76.3 : Pelvis, NOS	2191	Tumor	Metastasis		e5503a48-d9e7-5e49-92c0-36beeb2e1ac5	97409424-c847-5969-8559-599ed254b015		
+sample	432-3_3	Primary	C22.0 : Liver	1095	Tumor	Resection		e5778bdb-f06a-5ea3-a00a-d986d1563472	95b34567-31de-5eb1-81ac-1e25cc995016		
+sample	806-1	Primary	C40.2 : Long bones of lower limb and associated joints	8400	Tumor	Diagnostic Biopsy		e619ab72-ffe2-55ea-bfc3-a172e467fa11	8f78f742-4fca-5000-baeb-27a75e117a91		
+sample	563-6	Metastatic	C42.1 : Bone marrow	10592	Tumor	Relapse Metastasis		e636a4c3-6570-51cc-ae9e-ed424af67d23	453d688e-6f83-57c6-9a68-365ec6bb526c		
+sample	755-3	Primary	C40.2 : Long bones of lower limb and associated joints	2556	Tumor	Diagnostic Biopsy		e6534274-34f5-5ca2-aeda-1f433b7763fc	b51f606a-9ccf-59e8-9a07-6e78ce55daee		
+sample	396-12	Not Applicable	C42.0 : Blood	2552	Normal			e6cddc1a-11ad-59cb-bcf0-2e15c25daeaf	4242baa8-22f1-5094-a13d-4ebed97ed9ca		
+sample	596-10	Primary	C76.3 : Pelvis, NOS	6574	Tumor	Resection		e7454a53-c4c2-5444-8016-e7ce9a95117d	a1015087-f787-5844-b852-096efeb3ba42		
+sample	HOS_samp	Unknown	C41.9 : Bone, NOS	4745	Tumor			e7cc99a3-2dbe-55af-aca9-65d8a97bfb9a			7f67ebec-3b53-5080-90dc-40f73b42a137
+sample	620-16	Not Applicable	C42.0 : Blood	4801	Normal			e81aeb10-f3e9-5ff5-93c8-46023c386805	aa8b5363-8253-5c74-a5c0-1f488f715e2a		
+sample	701-8_sample	Metastatic	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Relapse Metastasis		e825ed21-d09f-5f54-b184-1701f0a736ed		05ba53d0-9ea1-59cd-bc1c-c835eb7202f7	
+sample	OS742_sample	Primary	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Diagnostic Biopsy		e83fcbe4-a42e-5217-b0bd-bdfdef059bd7		ae3e5c7f-7478-5183-9b91-e0c19eac35a7	
+sample	759-4	Primary	C40.0 : Long bones of upper limb, scapula and associated joints	2556	Tumor	Diagnostic Biopsy		e8680b3e-e1bb-5e46-9cac-023bea8c4439	02885a13-0ed2-5a73-86a3-b7c15ec2e67d		
+sample	548-8	Not Applicable	C42.0 : Blood	2307	Normal			e87d77d4-84ba-5cf2-835a-006e633c406b	0385ade9-8824-56f5-af9a-b2d3ad3e4989		
+sample	624-7	Not Applicable	C42.0 : Blood	7779	Normal			e88c83d5-5f5e-5835-9e4c-29fc25acdbd5	5a9b2beb-1e9d-5e88-8628-aecc4abe7e58		
+sample	357-3	Primary	C40.2 : Long bones of lower limb and associated joints	3652	Tumor	Diagnostic Biopsy		ea8b8b60-53d1-572b-a037-f571b25c6ac7	8535dd64-51f1-5cc3-812a-6289888164b8		
+sample	396-9	Primary	C49.6 : Connective, subcutaneous and other soft tissues of trunk, NOS	2191	Tumor	Resection		eb3059d8-2f4c-5327-a2c8-d442e9b98180	4242baa8-22f1-5094-a13d-4ebed97ed9ca		
+sample	449-9	Primary	C42.1 : Bone marrow	6209	Tumor	Relapse Biopsy		eb67b96d-f23b-5c1a-afdc-b2e449db9009	a045a424-da46-5f6d-9b68-636abcf29ccf		
+sample	560-1	Metastatic	C34.3 : Lower lobe, lung	9861	Tumor	Relapse Metastasis		ebb297ad-11b0-5146-ad49-72d08ec611e2	761390bd-c3c3-5492-a749-32b32a41fe40		
+sample	806-7	Not Applicable	C42.0 : Blood	8456	Normal			ec833faa-119e-50f7-b36f-ca25bc0375ac	8f78f742-4fca-5000-baeb-27a75e117a91		
+sample	815-6	Not Applicable	C42.0 : Blood	5101	Normal			ecc64c97-87b5-5b77-b198-6392c175c79e	c747f12a-b281-5406-b549-6e04b6f58919		
+sample	654-1	Primary	C80 : UNKNOWN PRIMARY SITE	8035	Tumor	Relapse Biopsy		ed1fc973-99d5-5894-ba2f-ccf105281bcc	cadf0dce-725e-560a-84d9-e03b89c60f63		
+sample	456-3	Metastatic	C76.2 : Abdomen, NOS	3287	Tumor	Metastasis		ede94559-6a10-5599-9493-23f7f40c7978	78b31cd2-a6c1-5368-8905-f7c29f0274eb		
+sample	734-7A	Primary	C22.0 : Liver	1095	Tumor	Resection		ee0fb021-0dfb-5a81-ad36-0051a141fa1a	9cb95f47-1c41-5541-bf84-d7b8a15a4618		
+sample	819-3	Primary	C40.0 : Long bones of upper limb, scapula and associated joints	6209	Tumor	Diagnostic Biopsy		ee8b01bb-ff6c-51a8-8d86-d8865c9866d3	b5888711-f238-5487-b1f7-7335c50d4b9e		
+sample	PSS112_sample	Primary	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Diagnostic Biopsy		ba0fe3ca-96c9-5c33-bbb4-8bbc43f51675	e109bce1-d842-5be9-8752-0b471c209996		
+sample	270-15	Primary	C76.5 : Lower limb, NOS	12783	Tumor	Relapse resection		efa72721-d0b1-5580-bb69-bd952c2c1b79	7b9eb2e5-2394-59de-b79a-28f605655ffc		
+sample	702-7	Not Applicable	C42.0 : Blood	1261	Normal			f019118a-6476-5867-9ac8-f19ced099108	a43028b4-7aba-568f-b7ad-a89649e71ca7		
+sample	482-5	Not Applicable	C42.0 : Blood	775	Normal			f0a8eb29-b98d-5b9d-b400-1188a4aed350	11cfbe01-0fe4-5739-b59d-193e6185f4c6		
+sample	829-1_1	Primary	C49.6 : Connective, subcutaneous and other soft tissues of trunk, NOS	730	Tumor	Resection		f1cc2733-8dac-5807-8fd9-e258686ac72a	71464159-cfea-5dae-949e-d17160b28589		
+sample	778-12	Primary	C64.9 : Kidney, NOS	365	Tumor	Resection		f1dff02c-2c50-5de2-a289-7c5c9d42ddbb	bf99dd2b-ce5c-5a24-918f-2e7852daf439		
+sample	520-4	Not Applicable	C42.0 : Blood	2211	Normal			f25f23ec-fb98-5e4e-93ba-6d2e2644de17	29c321c3-05b6-5ee0-a841-92d6742a4bb8		
+sample	463-1	Primary	C22.0 : Liver	365	Tumor	Diagnostic Biopsy		f33d722f-94bf-579f-a314-815f65dd8bea	913b5231-974d-5cf4-bc06-6d7f27be03ed		
+sample	745-4	Primary	C07.9 : Parotid gland	4017	Tumor	Resection		f37f8870-fd4f-502f-b747-290727065042	4b7c682f-ef66-526a-93e5-4e0a70d1ceed		
+sample	364-6	Not Applicable	C42.0 : Blood	5111	Normal			f4444197-42cf-52fe-ab79-188136b30f04	7d226bd8-d9e9-5a3c-a825-8a9f43adb15c		
+sample	767-8	Not Applicable	C42.0 : Blood	986	Normal			f467a899-65e2-56de-b0fa-fd5fd8075a1c	aaed3d75-f42b-56b2-a6fa-102534ed30af		
+sample	576-3	Primary	C49.1 : Connective, subcutaneous and other soft tissues of upper limb and shoulder	1461	Tumor	Resection		f4b1b01e-c99a-50fb-ab66-93e938fab7e7	127062b0-ece1-5731-9e8e-cf84afa0c1ff		
+sample	490-2	Primary	C42.1 : Bone marrow	1826	Tumor	Diagnostic Biopsy		f4f8e7ab-fd06-58c8-9986-9c0455788e50	909d68ae-9aba-5cec-b2d7-60d3b47ad807		
+sample	818-1	Primary	C80 : UNKNOWN PRIMARY SITE	5113	Tumor	Relapse Biopsy		f53a3e6a-fb11-5ae3-8882-2784ca6a397a	a07777b7-a55e-5220-ad1d-0bc9e1260e15		
+sample	661-5	Primary	C40.2 : Long bones of lower limb and associated joints	6574	Tumor	Resection		f5ab8acc-74f5-5572-9e52-25c3b0494a74	1a85dda1-0173-5ce1-be5c-94553aa3441c		
+sample	491-1	Primary	C38.3 : Mediastinum, NOS	7305	Tumor	Relapse Biopsy		f5c53680-3583-5185-8657-1df963289781	341ce008-fd37-51cf-b4dd-5f7ed00f4f6f		
+sample	008-11	Primary	C30.0 : Nasal cavity	3652	Tumor	Relapse Biopsy		f676eacf-fe36-540c-ad01-933bcfc14ddb	06bc82e4-bafa-51c9-b9a2-5d65ba2bf3f5		
+sample	624-3	Primary	C41.4 : Pelvic bones, sacrum, coccyx and associated joints	7670	Tumor	Diagnostic Biopsy		f701e367-d0c3-5715-bc67-1555c65a25cc	5a9b2beb-1e9d-5e88-8628-aecc4abe7e58		
+sample	SAOS2_samp	Unknown	C41.9 : Bone, NOS	4015	Tumor			f7333bf1-e552-5e23-af07-7369ef643a5c			cd536c47-786f-5a56-88a8-791b35f942ea
+sample	835-2	Primary	C76.3 : Pelvis, NOS	-999	Tumor	Resection		f76a44bc-6288-5156-826e-0d0086900e99	3bac012a-184c-5ce0-85f3-a5be5e240cca		
+sample	780-4	Primary	C74.9 : Adrenal gland, NOS	365	Tumor	Diagnostic Resection		f831603d-fae0-5826-962e-02a5c7b8aad0	9aa5c19a-2c69-54b2-9dc4-b6fabc9dfd36		
+sample	NRSTS600_sample	Metastatic	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Metastasis		f8819359-abbd-5097-80b3-7bc1fa5e5bb8		958d1829-7b6f-5059-abf5-c5e993d9cefd	
+sample	766-5	Not Applicable	C42.0 : Blood	11353	Normal			f8f03145-6e21-596f-a453-3b03f6c79074	a7b4b6d1-1926-5452-acaa-694d056cfe2a		
+sample	624-8x0_sample	Primary	C80 : UNKNOWN PRIMARY SITE	-999	Tumor	Diagnostic Biopsy		f901ca74-6f47-5659-bcc4-51de17d7f210		fc00798d-4c2f-5815-a499-3cef9445b797	
+sample	519-1	Primary	C71.9 : Brain, NOS	7305	Tumor	Relapse Resection		f9879153-a578-5c31-9e9f-51dd48180ff5	d60bbd17-637a-54fd-9aa4-b9e2ee62faab		
+sample	274-1	Primary	C40.2 : Long bones of lower limb and associated joints	8035	Tumor	Resection		fa226607-15bb-5379-9cb3-ba23a26be16d	950ef630-a60e-5c58-8c9c-94458b6b3b4e		
+sample	550-3	Primary	C31.0 : Maxillary sinus	4017	Tumor	Diagnostic Biopsy		fa33619c-dce9-502e-bbcc-ea2b30d61e5e	e827f1b9-9c49-5def-9141-a2f920033b4a		
+sample	491-8	Not Applicable	C42.0 : Blood	7551	Normal			fd8b168e-c163-5114-97a1-2067ef0606c8	341ce008-fd37-51cf-b4dd-5f7ed00f4f6f		
+sample	256-5	Not Applicable	C42.0 : Blood	2230	Normal			fe1b6440-f129-54df-a001-febc8b76e580	07cec0f9-0cd2-5155-8f90-674cce69394d		
+sample	458-9	Not Applicable	C42.0 : Blood	6115	Normal			fe604e1d-396f-5f87-93c8-3997b6d3ce5e	1eefbfcf-c93f-507a-a3cd-56b74d3d203c		
+sample	367-3	Primary	C49.3 : Connective, subcutaneous and other soft tissues of thorax	6209	Tumor	Diagnostic Biopsy		ff2a1a49-7f2d-5f04-998a-4d6190d6e64a	7fc27187-87e1-57ce-8bca-4ee53fdc04df		
