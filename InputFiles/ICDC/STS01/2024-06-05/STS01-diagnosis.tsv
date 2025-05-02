@@ -1,0 +1,30 @@
+type	case.case_record_id	diagnosis_record_id	disease_term	primary_disease_site	stage_of_disease	date_of_diagnosis	histology_cytopathology	date_of_histology_confirmation	histological_grade	best_response	pathology_report	treatment_data	follow_up_data	concurrent_disease	concurrent_disease_type
+diagnosis	STS01-T148	STS01-T148	Soft Tissue Sarcoma	Hock	II	10/19/2004	Peripheral Nerve Sheath Tumor		1	Not Applicable	No	Yes	No	Yes	Hypothyroidism
+diagnosis	STS01-T167	STS01-T167	Soft Tissue Sarcoma	Cranial Sternum	III	11/17/2004	Fibrosarcoma		3	Not Applicable	No	Yes	No	No	
+diagnosis	STS01-T218	STS01-T218	Soft Tissue Sarcoma	Hip	II	3/15/2005	Peripheral Nerve Sheath Tumor		2	Not Applicable	No	Yes	No	No	
+diagnosis	STS01-T230	STS01-T230	Soft Tissue Sarcoma	Knee Region	III	4/5/2005	Peripheral Nerve Sheath Tumor		1	Not Applicable	No	Yes	No	No	
+diagnosis	STS01-T232	STS01-T232	Soft Tissue Sarcoma	Femur	II	4/13/2005	Peripheral Nerve Sheath Tumor		3	Not Applicable	No	Yes	Yes	No	
+diagnosis	STS01-T282	STS01-T282	Soft Tissue Sarcoma	Lip	III	7/12/2005	Fibrosarcoma		2	Not Applicable	No	Yes	No	Yes	Cutaneous melanoma
+diagnosis	STS01-T311	STS01-T311	Soft Tissue Sarcoma	Inguinal Region	II	8/4/2005	Peripheral Nerve Sheath Tumor		1	Not Applicable	No	Yes	No	No	
+diagnosis	STS01-T320	STS01-T320	Soft Tissue Sarcoma	Flank	III	8/18/2005	Peripheral Nerve Sheath Tumor		2	Not Applicable	No	Yes	Yes	Yes	"Hypoadrenocorticism, hypothyroidism, mitral valve regurgitation"
+diagnosis	STS01-T336	STS01-T336	Soft Tissue Sarcoma	Rib Region	II	9/2/2005	Peripheral Nerve Sheath Tumor		2	Not Applicable	No	Yes	No	No	
+diagnosis	STS01-T344	STS01-T344	Soft Tissue Sarcoma	Humerus	III	9/15/2005	Peripheral Nerve Sheath Tumor		1	Not Applicable	No	Yes	Yes	No	
+diagnosis	STS01-T416	STS01-T416	Soft Tissue Sarcoma	Elbow Joint	II	12/13/2005	Fibrosarcoma		3	Not Applicable	No	Yes	Yes	No	
+diagnosis	STS01-T479	STS01-T479	Soft Tissue Sarcoma	Hip	III	2/22/2006	Peripheral Nerve Sheath Tumor		2	Not Applicable	No	Yes	Yes	No	
+diagnosis	STS01-T485	STS01-T485	Soft Tissue Sarcoma	Maxilla	III	3/1/2006	Fibrosarcoma		1	Not Applicable	No	Yes	No	No	
+diagnosis	STS01-T697	STS01-T697	Soft Tissue Sarcoma	Thorax	II	1/22/2007	Peripheral Nerve Sheath Tumor		3	Not Applicable	No	Yes	No	No	
+diagnosis	STS01-T738	STS01-T738	Soft Tissue Sarcoma	Tarsus	III	3/15/2007	Peripheral Nerve Sheath Tumor		3	Not Applicable	No	Yes	No	No	
+diagnosis	STS01-T1124	STS01-T1124	Soft Tissue Sarcoma	Flank	III	2/12/2009	Fibrosarcoma		3	Not Applicable	No	Yes	No	No	
+diagnosis	STS01-T1238	STS01-T1238	Soft Tissue Sarcoma	Hock	III	4/1/2010	Fibrosarcoma		3	Not Applicable	No	Yes	No	No	
+diagnosis	STS01-T1292	STS01-T1292	Soft Tissue Sarcoma	Maxilla	II	9/10/2010	Fibrosarcoma		3	Not Applicable	No	Yes	No	No	
+diagnosis	STS01-T1407	STS01-T1407	Soft Tissue Sarcoma	Maxilla	III	7/19/2011	Fibrosarcoma		3	Not Applicable	No	Yes	Yes	No	
+diagnosis	STS01-T1462	STS01-T1462	Soft Tissue Sarcoma	Thigh	II	12/20/2011	Fibrosarcoma		3	Not Applicable	No	Yes	Yes	No	
+diagnosis	STS01-T1490	STS01-T1490	Soft Tissue Sarcoma	Hip	III	2/22/2012	Fibrosarcoma		3	Not Applicable	No	Yes	No	No	
+diagnosis	STS01-T1585	STS01-T1585	Soft Tissue Sarcoma	Abdomen	II	10/30/2012	Fibrosarcoma		3	Not Applicable	No	Yes	No	No	
+diagnosis	STS01-T1834	STS01-T1834	Soft Tissue Sarcoma	Mandible	II	8/21/2014	Fibrosarcoma		3	Not Applicable	No	Yes	No	Yes	Thymoma
+diagnosis	STS01-T1860	STS01-T1860	Soft Tissue Sarcoma	Neck	II	9/23/2014	Peripheral Nerve Sheath Tumor		2	Not Applicable	No	Yes	No	No	
+diagnosis	STS01-T1891	STS01-T1891	Soft Tissue Sarcoma	Femur	II	11/12/2014	Fibrosarcoma		2	Not Applicable	No	Yes	No	No	
+diagnosis	STS01-T1921	STS01-T1921	Soft Tissue Sarcoma	Flank	III	1/8/2015	Peripheral Nerve Sheath Tumor		1	Not Applicable	No	Yes	Yes	No	
+diagnosis	STS01-T1923	STS01-T1923	Soft Tissue Sarcoma	Rib Region	III	1/13/2015	Undifferentiated Pleiomorphic Sarcoma		2	Not Applicable	No	Yes	No	No	
+diagnosis	STS01-T1989	STS01-T1989	Soft Tissue Sarcoma	Neck	III	7/21/2015	Fibrosarcoma		2	Not Applicable	No	Yes	No	No	
+diagnosis	STS01-T2063	STS01-T2063	Soft Tissue Sarcoma	Thigh	III	3/1/2016	Peripheral Nerve Sheath Tumor		2	Not Applicable	No	Yes	No	No	

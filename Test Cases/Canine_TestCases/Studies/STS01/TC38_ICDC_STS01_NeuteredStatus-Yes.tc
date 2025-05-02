@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC38_ICDC_STS01_NeuteredStatus-Yes</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c9d798b1-3624-4be3-8772-f2cb20506583</testCaseGuid>
+</TestCaseEntity>
