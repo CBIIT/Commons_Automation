@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_CCDI_phs002518_Diag-80003NeoplasmMal_TreatType-SurgProc</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1038d89e-0b6c-43da-8d8a-e13c4d929c34</testCaseGuid>
+</TestCaseEntity>

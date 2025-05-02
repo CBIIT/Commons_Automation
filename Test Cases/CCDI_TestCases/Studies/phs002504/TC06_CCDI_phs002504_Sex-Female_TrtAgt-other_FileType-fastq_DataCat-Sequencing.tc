@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC06_CCDI_phs002504_Sex-Female_TrtAgt-other_FileType-fastq_DataCat-Sequencing</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0874c545-71d4-4403-98bb-4c37733964e2</testCaseGuid>
+</TestCaseEntity>

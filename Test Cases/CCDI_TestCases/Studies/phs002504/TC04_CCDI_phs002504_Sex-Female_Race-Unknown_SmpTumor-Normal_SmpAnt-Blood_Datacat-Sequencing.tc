@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_CCDI_phs002504_Sex-Female_Race-Unknown_SmpTumor-Normal_SmpAnt-Blood_Datacat-Sequencing</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2af1037a-0c37-4574-bd42-9d3447130997</testCaseGuid>
+</TestCaseEntity>
