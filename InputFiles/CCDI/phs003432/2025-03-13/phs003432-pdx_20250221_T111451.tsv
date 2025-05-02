@@ -1,17 +1,17 @@
-type	pdx_id	model_id	mouse_strain	sample_type_for_implantation	implantation_type	implantation_site	tumor_confirmed_not_to_be_mus_or_ebv_origin	is_tumor_from_untreated_patient	passage_number	passages_tested	validation_technique	id	study.id	sample.id
-pdx	PATIPB.PDX	PATIPB.ETP	NSG	cell suspension	injection	tail vein		Yes				040f52d5-ef76-56d6-955b-a688c683a40c		36b60b53-4b9e-5d2a-ba52-c24acd9dedf8
-pdx	PAURXZ.PDX	PAURXZ.ETP	NSG	cell suspension	injection	tail vein		Yes				0c306289-f320-5ead-8bcc-a0917163d816		74b44f00-cc31-5699-b2a5-969c20de2dd2
-pdx	PAVVVF.PDX	PAVVVF.ETP	NSG	cell suspension	injection	tail vein		Yes				14e38993-4cad-5196-b988-c645baa01ff3		0c394174-ebef-5e69-9391-36e7ad1d3028
-pdx	PAWIIR.PDX	PAWIIR.Non-ETP	NSG	cell suspension	injection	tail vein		Yes				17edc274-d5a7-52e8-ad5b-5760c78b533a		dcde5480-486c-5c70-967f-e91f16bbf23a
-pdx	PATTDP.PDX	PATTDP.ETP	NSG	cell suspension	injection	tail vein		Yes				18c19b3f-f5fe-5a79-8d52-210ba3b8b20a		2b492dd9-006d-507d-a4db-81b747029ebb
-pdx	PAVLKA.PDX	PAVLKA.ETP	NSG	cell suspension	injection	tail vein		Yes				3d40a5da-c69a-5481-9a2e-e5298545eaf0		9916af8f-2456-58f6-8f43-f700936517fd
-pdx	PASWWT.PDX	PASWWT.Near-ETP	NSG	cell suspension	injection	tail vein		Yes				5179f73c-d67a-5fde-8988-bb9fa1fc8978		bfc9e15f-820a-5117-917a-bf56b9d32bd7
-pdx	PAVYVY.PDX	PAVYVY.ETP	NSG	cell suspension	injection	tail vein		Yes				5d87df73-90cd-5a00-9d58-b6e40af8891c		8eac5087-6541-5c2f-b9d6-8c43e495d3d5
-pdx	PATDFE.PDX	PATDFE.Non-ETP	NSG	cell suspension	injection	tail vein		Yes				67b9aeb1-5be5-5d6e-a2ff-a63e4d692390		32436fa0-c50b-58de-9adb-2d63b23bbeb1
-pdx	PASZMC.PDX	PASZMC.ETP	NSG	cell suspension	injection	tail vein		Yes				6d162f1b-3cb0-5e77-80ae-413e7b8cbc8e		b8039a1c-4300-5244-a4dd-dec74eed03db
-pdx	PATENL.PDX	PATENL.Near-ETP	NSG	cell suspension	injection	tail vein		Yes				732a36a8-8bdb-5ae0-9365-afb2a2b1c9fc		7578c326-6788-581e-83e5-1edf0cbfdfba
-pdx	PAUKIZ.PDX	PAUKIZ.Near-ETP	NSG	cell suspension	injection	tail vein		Yes				8b1bf4d2-f9af-5ecb-ab90-c0c6443e0a53		d15b3f5b-0c02-579c-9201-d22619cae60c
-pdx	PATPKZ.PDX	PATPKZ.Near-ETP	NSG	cell suspension	injection	tail vein		Yes				a6e16c2c-444f-51b6-8da6-ddce14d04e23		7159e69e-a93e-5249-9f34-a20efb952b92
-pdx	PAUNDK.PDX	PAUNDK.ETP	NSG	cell suspension	injection	tail vein		Yes				af7aa833-4dad-5dc1-bde7-ceab7b685736		35e6f94c-eecd-53c2-b034-b2690f08d096
-pdx	PAUNZE.PDX	PAUNZE.Non-ETP	NSG	cell suspension	injection	tail vein		Yes				efdec10d-222f-5e7f-a61c-9a2c654a7b94		19e21f83-864b-5cea-abb4-582a523b8914
-pdx	PASKMG.PDX	PASKMG.ETP	NSG	cell suspension	injection	tail vein		Yes				fd2935d6-9ee6-5f9f-bbc7-654a447ab4b4		be88cee9-ddde-567c-a1b9-c086ef320c13
+type	pdx_id	model_id	mouse_strain	sample_type_for_implantation	implantation_type	implantation_site	tumor_confirmed_not_to_be_mus_or_ebv_origin	is_tumor_from_untreated_patient	passage_number	passages_tested	validation_technique	id	study.id	sample.id	anatomic_site
+pdx	PATIPB.PDX	PATIPB.ETP	NSG	cell suspension	injection	tail vein		Yes				040f52d5-ef76-56d6-955b-a688c683a40c		36b60b53-4b9e-5d2a-ba52-c24acd9dedf8	
+pdx	PAURXZ.PDX	PAURXZ.ETP	NSG	cell suspension	injection	tail vein		Yes				0c306289-f320-5ead-8bcc-a0917163d816		74b44f00-cc31-5699-b2a5-969c20de2dd2	
+pdx	PAVVVF.PDX	PAVVVF.ETP	NSG	cell suspension	injection	tail vein		Yes				14e38993-4cad-5196-b988-c645baa01ff3		0c394174-ebef-5e69-9391-36e7ad1d3028	
+pdx	PAWIIR.PDX	PAWIIR.Non-ETP	NSG	cell suspension	injection	tail vein		Yes				17edc274-d5a7-52e8-ad5b-5760c78b533a		dcde5480-486c-5c70-967f-e91f16bbf23a	
+pdx	PATTDP.PDX	PATTDP.ETP	NSG	cell suspension	injection	tail vein		Yes				18c19b3f-f5fe-5a79-8d52-210ba3b8b20a		2b492dd9-006d-507d-a4db-81b747029ebb	
+pdx	PAVLKA.PDX	PAVLKA.ETP	NSG	cell suspension	injection	tail vein		Yes				3d40a5da-c69a-5481-9a2e-e5298545eaf0		9916af8f-2456-58f6-8f43-f700936517fd	
+pdx	PASWWT.PDX	PASWWT.Near-ETP	NSG	cell suspension	injection	tail vein		Yes				5179f73c-d67a-5fde-8988-bb9fa1fc8978		bfc9e15f-820a-5117-917a-bf56b9d32bd7	
+pdx	PAVYVY.PDX	PAVYVY.ETP	NSG	cell suspension	injection	tail vein		Yes				5d87df73-90cd-5a00-9d58-b6e40af8891c		8eac5087-6541-5c2f-b9d6-8c43e495d3d5	
+pdx	PATDFE.PDX	PATDFE.Non-ETP	NSG	cell suspension	injection	tail vein		Yes				67b9aeb1-5be5-5d6e-a2ff-a63e4d692390		32436fa0-c50b-58de-9adb-2d63b23bbeb1	
+pdx	PASZMC.PDX	PASZMC.ETP	NSG	cell suspension	injection	tail vein		Yes				6d162f1b-3cb0-5e77-80ae-413e7b8cbc8e		b8039a1c-4300-5244-a4dd-dec74eed03db	
+pdx	PATENL.PDX	PATENL.Near-ETP	NSG	cell suspension	injection	tail vein		Yes				732a36a8-8bdb-5ae0-9365-afb2a2b1c9fc		7578c326-6788-581e-83e5-1edf0cbfdfba	
+pdx	PAUKIZ.PDX	PAUKIZ.Near-ETP	NSG	cell suspension	injection	tail vein		Yes				8b1bf4d2-f9af-5ecb-ab90-c0c6443e0a53		d15b3f5b-0c02-579c-9201-d22619cae60c	
+pdx	PATPKZ.PDX	PATPKZ.Near-ETP	NSG	cell suspension	injection	tail vein		Yes				a6e16c2c-444f-51b6-8da6-ddce14d04e23		7159e69e-a93e-5249-9f34-a20efb952b92	
+pdx	PAUNDK.PDX	PAUNDK.ETP	NSG	cell suspension	injection	tail vein		Yes				af7aa833-4dad-5dc1-bde7-ceab7b685736		35e6f94c-eecd-53c2-b034-b2690f08d096	
+pdx	PAUNZE.PDX	PAUNZE.Non-ETP	NSG	cell suspension	injection	tail vein		Yes				efdec10d-222f-5e7f-a61c-9a2c654a7b94		19e21f83-864b-5cea-abb4-582a523b8914	
+pdx	PASKMG.PDX	PASKMG.ETP	NSG	cell suspension	injection	tail vein		Yes				fd2935d6-9ee6-5f9f-bbc7-654a447ab4b4		be88cee9-ddde-567c-a1b9-c086ef320c13	

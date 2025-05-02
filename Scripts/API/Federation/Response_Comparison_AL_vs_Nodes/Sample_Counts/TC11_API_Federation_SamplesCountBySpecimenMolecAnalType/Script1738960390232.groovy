@@ -35,7 +35,7 @@ String api1ObjectPath = 'Object Repository/API/Federation/FederationNodes/KidsFi
 String api2ObjectPath = 'Object Repository/API/Federation/FederationNodes/StJude/Samples-SpecimenMolecAnaltype'
 String api3ObjectPath = 'Object Repository/API/Federation/FederationNodes/PCDC_UChicago/Samples-SpecimenMolecAnaltype'
 String api4ObjectPath = 'Object Repository/API/Federation/FederationNodes/Treehouse_UCSC/Samples-SpecimenMolecAnaltype'
-String api5ObjectPath = 'Object Repository/API/Federation/AggregationLayer/AL_SampleCounts_by_SpecimenMolecularAnalytetype'
+String api5ObjectPath = 'Object Repository/API/Federation/AggregationLayer/AL_SampleCounts_by_SpecimenMolecularAnalyteType'
  
 // Step 1: Send Request to the API and Get Response
 ResponseObject response1 = API_Functions.sendRequestAndCaptureResponse(api1ObjectPath) // for kidsfirst

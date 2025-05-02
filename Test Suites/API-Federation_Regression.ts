@@ -61,20 +61,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>ec7135ef-b728-43ce-97b0-e4830f484ccb</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/API/Federation/Response_Comparison_AL_vs_Nodes/File_Counts/TC02_API_Federation_FilesCountBySize</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>af9b0d24-208d-4222-a6b3-4a2c7c4a6554</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/API/Federation/Response_Comparison_AL_vs_Nodes/File_Counts/TC01_API_Federation_FilesCountByType</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>7765b5af-cfef-4bd6-9a17-85b9585d2ccd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -170,6 +156,20 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/API/Federation/Response_Comparison_AL_vs_Nodes/Sample_Counts/TC14_API_Federation_SamplesCountByTumorTissueMorhphology</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>af9b0d24-208d-4222-a6b3-4a2c7c4a6554</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/API/Federation/Response_Comparison_AL_vs_Nodes/File_Counts/TC01_API_Federation_FilesCountByType</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ec7135ef-b728-43ce-97b0-e4830f484ccb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/API/Federation/Response_Comparison_AL_vs_Nodes/File_Counts/TC02_API_Federation_FilesCountBySize</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
