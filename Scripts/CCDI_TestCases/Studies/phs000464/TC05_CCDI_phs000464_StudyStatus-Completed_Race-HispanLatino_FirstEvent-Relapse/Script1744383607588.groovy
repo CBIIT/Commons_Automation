@@ -31,8 +31,8 @@ CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Study_F
 WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Study_Facet/PHS_Accession/phs000464_Chkbx'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Study_Facet/PHS_Accession/phs000464_Chkbx')
 
-WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Study_Facet/StudyStatus/StudyStatus_Ddn'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Study_Facet/StudyStatus/StudyStatus_Ddn')
+WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Study_Facet/StudyStatus/Study_Status_Ddn'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Study_Facet/StudyStatus/Study_Status_Ddn')
 
 WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Study_Facet/StudyStatus/Completed_Chkbx'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Study_Facet/StudyStatus/Completed_Chkbx')
@@ -76,12 +76,12 @@ CustomKeywords.'utilities.TestRunner.multiFunction'('CCDI', GlobalVariable.G_Sta
 //	'TsvDataDiagnosis', GlobalVariable.G_QueryDiagnosisTab)
 
 
-//clicking the Studies tab 
-WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Studies_ResultsTab'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Studies_ResultsTab')
-CustomKeywords.'utilities.TestRunner.multiFunction'('CCDI', GlobalVariable.G_StatBar_Studies, 'CCDI/ExplorePage/CCDI_Studies_Tbl',
-	'CCDI/ExplorePage/CCDI_Studies_TblHdr', 'CCDI/ExplorePage/CCDI_Studies_TblNextBtn', GlobalVariable.G_WebTabnameStudies,
-	'TsvDataStudies', GlobalVariable.G_QueryStudiesTab)
+////clicking the Studies tab 
+//WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Studies_ResultsTab'), 5)
+//CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Studies_ResultsTab')
+//CustomKeywords.'utilities.TestRunner.multiFunction'('CCDI', GlobalVariable.G_StatBar_Studies, 'CCDI/ExplorePage/CCDI_Studies_Tbl',
+//	'CCDI/ExplorePage/CCDI_Studies_TblHdr', 'CCDI/ExplorePage/CCDI_Studies_TblNextBtn', GlobalVariable.G_WebTabnameStudies,
+//	'TsvDataStudies', GlobalVariable.G_QueryStudiesTab)
 
 
 //clicking the Samples tab

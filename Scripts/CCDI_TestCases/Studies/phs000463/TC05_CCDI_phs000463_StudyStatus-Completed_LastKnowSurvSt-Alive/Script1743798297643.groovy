@@ -31,20 +31,20 @@ CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Study_F
 WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Study_Facet/PHS_Accession/phs000463_Chkbx'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Study_Facet/PHS_Accession/phs000463_Chkbx')
 
-WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Study_Facet/StudyStatus/StudyStatus_Ddn'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Study_Facet/StudyStatus/StudyStatus_Ddn')
+WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Study_Facet/StudyStatus/Study_Status_Ddn'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Study_Facet/StudyStatus/Study_Status_Ddn')
 
 WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Study_Facet/StudyStatus/Completed_Chkbx'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Study_Facet/StudyStatus/Completed_Chkbx')
 
-WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Survival_Facet/Survival-Facet'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Survival_Facet/Survival-Facet')
+WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Survival-Facet/Survival-Facet'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Survival-Facet/Survival-Facet')
 
-WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Survival_Facet/LastKnownSurvivalStatus/LastKnownSurvivalStatus_Ddn'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Survival_Facet/LastKnownSurvivalStatus/LastKnownSurvivalStatus_Ddn')
+WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Survival-Facet/Lastknownsurvivalstatus/Lastknownsurvivalstatus-Ddn'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Survival-Facet/Lastknownsurvivalstatus/Lastknownsurvivalstatus-Ddn')
 
-WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Survival_Facet/LastKnownSurvivalStatus/Alive_Chkbx'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Survival_Facet/LastKnownSurvivalStatus/Alive_Chkbx')
+WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Survival-Facet/Lastknownsurvivalstatus/Alive_Chkbx'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Survival-Facet/Lastknownsurvivalstatus/Alive_Chkbx')
 
 
 //Read Statbar

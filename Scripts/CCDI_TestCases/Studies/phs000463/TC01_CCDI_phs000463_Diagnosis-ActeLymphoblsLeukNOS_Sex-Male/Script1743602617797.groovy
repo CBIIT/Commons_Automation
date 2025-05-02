@@ -31,6 +31,12 @@ CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Study_F
 WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Study_Facet/PHS_Accession/phs000463_Chkbx'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Study_Facet/PHS_Accession/phs000463_Chkbx')
 
+WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Diagnosis-Facet/Diagnosis/Diagnosis_Ddn'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Diagnosis-Facet/Diagnosis/Diagnosis_Ddn')
+
+WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Diagnosis-Facet/Diagnosis/ActeLymphoblsLeukNOS_Chkbx'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Diagnosis-Facet/Diagnosis/ActeLymphoblsLeukNOS_Chkbx')
+
 WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Demographics-Facet/Demographics_Facet'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Demographics-Facet/Demographics_Facet')
 
@@ -39,12 +45,6 @@ CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Demogra
 
 WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Demographics-Facet/SexAtBirth/Male_Chkbx'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Demographics-Facet/SexAtBirth/Male_Chkbx')
-
-WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Diagnosis-Facet/Diagnosis/Diagnosis_Ddn'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Diagnosis-Facet/Diagnosis/Diagnosis_Ddn')
-
-WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Diagnosis-Facet/Diagnosis/ActeLymphoblsLeukNOS_Chkbx'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Diagnosis-Facet/Diagnosis/ActeLymphoblsLeukNOS_Chkbx')
 
 
 //Read Statbar
