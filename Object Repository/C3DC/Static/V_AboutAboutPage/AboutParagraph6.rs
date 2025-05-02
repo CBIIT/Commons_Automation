@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>FooterPoliciesLabel</name>
+   <name>AboutParagraph6</name>
    <tag></tag>
-   <elementGuidId>4dd70022-d2c7-4a1a-8ab8-49880b73f5b2</elementGuidId>
+   <elementGuidId>1f74cd08-6e5f-4220-9633-cc3a4df3cab9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class='footItemTitle' and (text() = 'Policies')]</value>
+         <value>//div[@class='fifthParagraph sectionStart']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class='footItemTitle' and (text() = 'Policies')]</value>
-      <webElementGuid>131d5e4b-91b0-4f4d-8bbe-c129e3e48e21</webElementGuid>
+      <value>//div[@class='fifthParagraph sectionStart']</value>
+      <webElementGuid>d71098c3-5ed0-4fb5-aeed-edb3a2c0cae3</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
