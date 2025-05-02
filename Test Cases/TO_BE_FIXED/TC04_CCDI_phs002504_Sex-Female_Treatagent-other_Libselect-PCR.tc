@@ -4,5 +4,6 @@
    <name>TC04_CCDI_phs002504_Sex-Female_Treatagent-other_Libselect-PCR</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>0874c545-71d4-4403-98bb-4c37733964e2</testCaseGuid>
 </TestCaseEntity>
