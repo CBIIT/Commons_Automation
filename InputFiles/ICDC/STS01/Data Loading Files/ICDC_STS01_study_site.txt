@@ -1,0 +1,2 @@
+type	 study.clinical_study_designation	site_short_name	veterinary_medical_center	registering_institution
+study_site	STS01	CSU-FACC	"Colorado State University Flint Animal Cancer Center, Fort Collins, CO"	
