@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//h6[(text() = 'Resources')]</value>
+         <value>//*[@class='footItemTitle' and (text() = 'Resources')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//h6[(text() = 'Resources')]</value>
-      <webElementGuid>e35eaaa0-265e-46a5-b69d-79c7c668b94d</webElementGuid>
+      <value>//*[@class='footItemTitle' and (text() = 'Resources')]</value>
+      <webElementGuid>d8fba4dd-244a-4ad3-9950-8e784d8a5957</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
