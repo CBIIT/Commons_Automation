@@ -38,7 +38,7 @@ import java.nio.file.Paths
 
 
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC01_CCDI_phs002430_Sex-Male_Tumorclass-primary_Datacat-pathology.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC05_CCDI_phs002504_FileType-bam_LibStr-WXS_LibSel-PCR_DC-Sequencing.xlsx')
 
 CustomKeywords.'utilities.PythonReader.readFile'('ParticipantsTab.py')
 //CustomKeywords.'utilities.PythonReader.readFile'('DiagnosisTab.py')

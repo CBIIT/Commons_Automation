@@ -26,20 +26,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>110b8681-21db-4131-95d3-84b100c1896f</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CCDI_TestCases/Studies/phs002504/TC05_CCDI_phs002504_FileType-bam_LibStr-WXS_LibSel-PCR_DC-Sequencing</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>2faa211d-ac34-400d-ba23-777d24cf9b34</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CCDI_TestCases/Studies/phs002504/TC04_CCDI_phs002504_Sex-Female_Treatagent-other_Libselect-PCR</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>bb26fbde-3501-4f1d-905d-5635e5faa6cf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -450,13 +436,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CCDI_TestCases/Studies/phs002529/TC01_CCDI_phs002529_Diagns-9837.3TLymphoblLeukLymph_SamAnatcSite-ChekMuc-StudyStatus_LibrStrg-WXS</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>d774106b-ea6c-4623-8098-b91a94549460</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CCDI_TestCases/Studies/phs002529/TC02_CCDI_phs002529_DiagAnatSite-C22Liver_Race-White-DataCatg-Sequen_FileType-tbi</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
