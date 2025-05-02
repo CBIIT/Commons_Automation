@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC72_ICDC_STS01_FileType-RNASequenceFile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>763c5446-3fce-4742-b6fe-15bb31adbd83</testCaseGuid>
+</TestCaseEntity>

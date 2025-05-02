@@ -1,0 +1,179 @@
+type	case.case_id	study.clinical_study_designation	sample.sample_id	diagnosis.diagnosis_id	file_name	file_type	file_description	original_file_size	original_md5sum
+file		STS01			STS01_Study_Protocol.docx	Study Protocol	Streamlined methods for STS01 study	29866	7b8bc84e963cb1f323a026fb13077d24
+file		STS01			STS01_Gene_Count_Matrix.csv	Supplemental Data File	Genes (rows) by samples (columns) count data matrix	3623272	2c28c75cf4f3807c4f1194dc062e2fc7
+file		STS01			STS01_Supplementary_Figures.pdf	Supplemental Data File	Supplementary figures associated with publication	6371959	b46aacadbd29adef476ea02f7a32d3d3
+file		STS01			STS01_Supplementary_Tables.xlsx	Supplemental Data File	Supplementary tables associated with publication	968014	1128d8e63127cd02ed7061e6a83ecd56
+file			STS01-N1124		N1124_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-N1124 matched normal	5289528	3d73717d97b3a7dfe4114c96d4bf3ed7
+file			STS01-N1124		N1124_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-N1124 matched normal	8292745997	7a66f3be9c09e293dd02b0bf850c9819
+file			STS01-N1238		N1238_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-N1238 matched normal	5287928	32e218d8e27bb0f787e9bd28ffd7c904
+file			STS01-N1238		N1238_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-N1238 matched normal	8181060372	871f272f01718b23e4374d434b072691
+file			STS01-N1292		N1292_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-N1292 matched normal	5276696	2b50120ced2c3cd0fe0a517ae184f501
+file			STS01-N1292		N1292_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-N1292 matched normal	8167395560	5524906ebe49f13df8c79bbbd82c2f39
+file			STS01-N1407		N1407_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-N1407 matched normal	5272400	caf686158fbcc721180053cf6219697c
+file			STS01-N1407		N1407_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-N1407 matched normal	9014254330	cc4215e5ec4038d34a80f24b8b6430ae
+file			STS01-N1462		N1462_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-N1462 matched normal	5035304	6efed398e2ec5316c3cebd652dcd1cc9
+file			STS01-N1462		N1462_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-N1462 matched normal	15691999961	26c5c5a334fb465f42ffef988db89485
+file			STS01-N1490		N1490_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-N1490 matched normal	5070608	02f7ec1ad7633a7622b789ef8d3a43f8
+file			STS01-N1490		N1490_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-N1490 matched normal	16377048838	9e6937357cb2613439171c5a2bd97bb2
+file			STS01-N1585		N1585_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-N1585 matched normal	5319912	b302eda7eb5a6439e8c175a1452e3279
+file			STS01-N1585		N1585_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-N1585 matched normal	18016949980	6bddefa0799b846241da395be70691e3
+file			STS01-N167		N167_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-N167 matched normal	5151016	4d4da4a0d3f48ba62695ab5442f144b3
+file			STS01-N167		N167_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-N167 matched normal	18601545387	9edeb69cfee4a59ef49f9905ffeee310
+file			STS01-N1834		N1834_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-N1834 matched normal	5142120	3437b8be1ec1ca1afecfa35724353826
+file			STS01-N1834		N1834_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-N1834 matched normal	6983438690	274489bc1cdc1c50475248d56a350b3f
+file			STS01-N1860		N1860_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-N1860 matched normal	4975664	99f8bda2615a46b5f8e3bf6d42407c63
+file			STS01-N1860		N1860_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-N1860 matched normal	14079861902	df22db797646f2db32f04f009719bfa7
+file			STS01-N1891		N1891_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-N1891 matched normal	5105752	7450e90c3464d59d5d077f26b71ab162
+file			STS01-N1891		N1891_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-N1891 matched normal	17891543274	a1edce148221b91fababf63ea4037b31
+file			STS01-N1921		N1921_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-N1921 matched normal	5209728	7c1d9891293b8d9036e0dd306e766aad
+file			STS01-N1921		N1921_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-N1921 matched normal	7654175854	3845a3ccf273a03d9505f0d5affd6e67
+file			STS01-N1923		N1923_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-N1923 matched normal	5313392	a0d322bbdf0f9a2c4b0fd92b6836defe
+file			STS01-N1923		N1923_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-N1923 matched normal	18070107527	3999938947589f34880a4f3099f9e15c
+file			STS01-N1989		N1989_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-N1989 matched normal	5250760	c226c5d972e58405e150227d284d3c3b
+file			STS01-N1989		N1989_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-N1989 matched normal	8674069613	16185c3cfb6850eb90fcd047bae0265a
+file			STS01-N2063		N2063_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-N2063 matched normal	5197920	206ab3d873aa9868582e40f195726e20
+file			STS01-N2063		N2063_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-N2063 matched normal	7899992145	1401a5bd007802d1d21a7bbf967389c5
+file			STS01-N148		N212343_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-N148 matched normal	5389088	08479092b469f2f8223f63f77840dd92
+file			STS01-N148		N212343_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-N148 matched normal	19442826783	ab55efd1c9f29b82158ce55ed9f5c0c5
+file			STS01-N218		N218_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-N218 matched normal	5217152	2802eec7005180ac52d60ff9d9461976
+file			STS01-N218		N218_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-N218 matched normal	19126627027	a0af49e74e5cbb0b1b4a3f0b4bf50d31
+file			STS01-N230		N230_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-N230 matched normal	5209896	f8f0a9ae9b08c49cbf00eff824e959e5
+file			STS01-N230		N230_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-N230 matched normal	8004090647	85eff512b1639044058c27a567869304
+file			STS01-N232		N232_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-N232 matched normal	5232504	0a7d54b107aa4ffeba0b17ffdc0a6ed1
+file			STS01-N232		N232_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-N232 matched normal	8600762186	5c6e85e62f3ac4dfdd17da973ce88f3f
+file			STS01-N282		N282_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-N282 matched normal	5198816	540dfe59e4e0cb73a52f3b08399f47a7
+file			STS01-N282		N282_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-N282 matched normal	15336324131	ef952a71f74c3f8446fd94913fd8fb8a
+file			STS01-N311		N311_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-N311 matched normal	5432000	71d2dce079863a3879b2d13dbdbf6c9e
+file			STS01-N311		N311_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-N311 matched normal	9409456275	01e992073b38fa65fe2640ea14d19c19
+file			STS01-N320		N320_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-N320 matched normal	5295416	4655978023431be44d4937fc093ccdd2
+file			STS01-N320		N320_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-N320 matched normal	7691085273	b31904e01d35fa2b05178eedfb4d3388
+file			STS01-N336		N336_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-N336 matched normal	5618512	5923083637f0a14abdcfa6c8cbe99e25
+file			STS01-N336		N336_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-N336 matched normal	17373673686	4cfb96b671899729ffb94f7c1823491a
+file			STS01-N344		N344_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-N344 matched normal	5283232	23526231c2d5d7ae3ad48fa5243cf22d
+file			STS01-N344		N344_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-N344 matched normal	8141275405	01041787feffcb7827159b00cc24d0e6
+file			STS01-N416		N416_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-N416 matched normal	5257760	2f385096651d5148d49d8eeecb5535b5
+file			STS01-N416		N416_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-N416 matched normal	15924752306	e98d1efb974bfd6477c30640dfb54ee7
+file			STS01-N479		N479_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-N479 matched normal	5062904	5c25a12a510059e6df02634793696c3c
+file			STS01-N479		N479_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-N479 matched normal	18132152889	afa85f344e860610027b040a049c036f
+file			STS01-N485		N485_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-N485 matched normal	5236608	bbaea8c606a188a6b614fba4983c2a25
+file			STS01-N485		N485_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-N485 matched normal	16702765864	c27f76889d2e3c801601f4883968e47a
+file			STS01-N697		N697_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-N697 matched normal	5010848	01fe316d07ca24b519c8d3b028a9c7f8
+file			STS01-N697		N697_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-N697 matched normal	16797134632	57ec661649e37a9d3036e2e97e2955ab
+file			STS01-N738		N738_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-N738 matched normal	5431216	cf6d4a423874d0d7b5a816fa1d11de9a
+file			STS01-N738		N738_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-N738 matched normal	19450053547	78ceb64ad324b6b75394c1c3710bd999
+file			STS01-T1124		T1124_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-T1124 tumor	5254072	230a4b7cf8322b7efa2e7e45f89604c7
+file			STS01-T1124		T1124_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-T1124 tumor	18680785523	393ca526afd0f1c4d38a0280d64ced98
+file			STS01-T1238		T1238_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-T1238 tumor	5249256	d47ed81c76c48d051f1eddcd305045c0
+file			STS01-T1238		T1238_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-T1238 tumor	8188631833	c9d5d80e69b121f45fdb8dc15568b6c1
+file			STS01-T1292		T1292_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-T1292 tumor	5118736	bd78791251a13efe3002bf50fcfde73d
+file			STS01-T1292		T1292_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-T1292 tumor	7495400719	102dbf579fc850101d106f40e7942907
+file			STS01-T1407		T1407_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-T1407 tumor	5171520	c3b563b678ade060278c22a2208c373c
+file			STS01-T1407		T1407_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-T1407 tumor	17733204909	582f495ec2deb429c306641721a7fa23
+file			STS01-T1462		T1462_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-T1462 tumor	5274048	de30d9b3d57079fba6694393dd9dba25
+file			STS01-T1462		T1462_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-T1462 tumor	8495035438	8c1282115af67379a6e8d18c32fcdaf8
+file			STS01-T1490		T1490_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-T1490 tumor	5125064	69a647d2291c2899738deff8e1b6a2cb
+file			STS01-T1490		T1490_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-T1490 tumor	20867305781	1053c6d7b4aa4a41c68a062b2f2a632b
+file			STS01-T1585		T1585_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-T1585 tumor	5299272	83c0023a5a8944974c078568097369be
+file			STS01-T1585		T1585_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-T1585 tumor	8783130911	e2917ad60a7b61fac031d0a0d70d1913
+file			STS01-T167		T167_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-T167 tumor	5158536	5a275841ef5b2d8e3db7643cfa08d355
+file			STS01-T167		T167_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-T167 tumor	8417691451	e7038767321ade12cf00f15742e1a925
+file			STS01-T1834		T1834_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-T1834 tumor	5120304	d72fad950a165b8a1a94c2a0bfb74c6d
+file			STS01-T1834		T1834_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-T1834 tumor	8365134268	1809be130e1232d45a0ef0a1c705828b
+file			STS01-T1860		T1860_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-T1860 tumor	5231488	6c3b8d0165009b50c69217f916ad0f6c
+file			STS01-T1860		T1860_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-T1860 tumor	7739472532	6af792b6f4e200530558b0c6b88c7463
+file			STS01-T1891		T1891_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-T1891 tumor	5157304	da1836c5286ed3b188fdaf7a2b0d37c0
+file			STS01-T1891		T1891_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-T1891 tumor	7678794569	718b494791347fe4de0977be1229f730
+file			STS01-T1921		T1921_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-T1921 tumor	5411624	65c8754f8c75c8af9675497401baff43
+file			STS01-T1921		T1921_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-T1921 tumor	18629555495	3481f4afa48bae6cd48a808eb69007ef
+file			STS01-T1923		T1923_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-T1923 tumor	5127112	570034637130a6a61a65e5c3430d04dc
+file			STS01-T1923		T1923_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-T1923 tumor	14859640353	bcbf5819a600d97a29465a69c0ce7993
+file			STS01-T1989		T1989_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-T1989 tumor	5082968	11b60d20cbea118cee2efa2e1926f0f8
+file			STS01-T1989		T1989_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-T1989 tumor	15445287015	35da3c38b535d12f8a9762e1cf47e865
+file			STS01-T2063		T2063_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-T2063 tumor	5148736	b1f0a880a9a0ddf0f116bee1afc1be33
+file			STS01-T2063		T2063_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-T2063 tumor	7829591037	f1900a1bcf8d2632c0de1b8a41b6a884
+file			STS01-T148		T212343_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-T148 tumor	5302024	434a8d787670242dba76f3210bdb5982
+file			STS01-T148		T212343_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-T148 tumor	19149744200	84ef66066e596123c91298f0766db9e6
+file			STS01-T218		T218_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-T218 tumor	5147960	95f7693c221c2407fa6096d1eb3dfd11
+file			STS01-T218		T218_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-T218 tumor	8388733354	93afd70d02950c8a7098945fda30d28e
+file			STS01-T230		T230_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-T230 tumor	5264496	31546f4bcfbfff8756e29c61c0281624
+file			STS01-T230		T230_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-T230 tumor	18097994373	06c17fd9f5c5e745353a6d304cdc4ec1
+file			STS01-T232		T232_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-T232 tumor	5156072	379040e5af51fc236a4ae82c61453d31
+file			STS01-T232		T232_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-T232 tumor	8413455131	91f2f1e88378bfe146b787b8cb73410d
+file			STS01-T282		T282_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-T282 tumor	4834512	f7fa93c70da2a8f74256dc69524b6739
+file			STS01-T282		T282_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-T282 tumor	13446250985	20698d0a6e328a0b4082f55330cde3fc
+file			STS01-T311		T311_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-T311 tumor	5260160	4b39408b227e57b00913ace00fe709d1
+file			STS01-T311		T311_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-T311 tumor	19525927344	a9a31eae0b56a1ea119f8584cf3267bc
+file			STS01-T320		T320_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-T320 tumor	5320880	71383d045c23f90d33bb10a7124a9cac
+file			STS01-T320		T320_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-T320 tumor	9042942608	43eed6818f85ccbf48a668867c0590b9
+file			STS01-T336		T336_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-T336 tumor	5328504	6caf71e295ef4f1e907c2cbbff7be533
+file			STS01-T336		T336_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-T336 tumor	18303147411	7ac8bc7d6b1ff63a7a991afc77c5de9f
+file			STS01-T344		T344_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-T344 tumor	5068632	02ac01b289a57fe23e16b17b6f0a74aa
+file			STS01-T344		T344_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-T344 tumor	7076650673	9f901efe8ee237e0fb5a4e4a38e1aea5
+file			STS01-T416		T416_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-T416 tumor	5166224	8eb9d668ebc98070f0da108d6bd4b0c4
+file			STS01-T416		T416_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-T416 tumor	8141433815	3ab7781dffff00c40d2eb274a4d096af
+file			STS01-T479		T479_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-T479 tumor	5268456	7e7d503c7c1334bf47aaf267e30955a4
+file			STS01-T479		T479_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-T479 tumor	19462612304	1381ee6a235dd897a36b2cad617c33da
+file			STS01-T485		T485_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-T485 tumor	5103752	8705dcbc0c2b1b37d7e73f324a64aace
+file			STS01-T485		T485_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-T485 tumor	15438448949	7059477b6435abf613e9c6571f0cf79c
+file			STS01-T697		T697_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-T697 tumor	5029120	3987caf8d6de9ba65e823711e967e6eb
+file			STS01-T697		T697_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-T697 tumor	18312132976	8a7dfed41a93a96b5ebc3b85a0d08ccd
+file			STS01-T738		T738_recal_reads.bai	Index File	WES reads to CanFam3.1 - STS01-T738 tumor	5167856	a66baae958919b1baaf186614578ac19
+file			STS01-T738		T738_recal_reads.bam	Whole Exome Sequence File	WES reads to CanFam3.1 - STS01-T738 tumor	8328326128	c32d3c6f44d50347f42a7865bbd4e894
+file			STS01-T1124		T1124_Star_Aligned.sortedByCoord.out.bam	RNA Sequence File	RNAseq reads to CanFam3.1 - STS01-T1124 tumor	5331518853	44fb7e00b943e299ee82c766a0890c32
+file			STS01-T1124		T1124_Star_Aligned.sortedByCoord.out.bam.bai	Index File	RNAseq reads to CanFam3.1 - STS01-T1124 tumor	2927800	54cfed5199f8fd2aca34779289b27189
+file			STS01-T1238		T1238_Star_Aligned.sortedByCoord.out.bam	RNA Sequence File	RNAseq reads to CanFam3.1 - STS01-T1238 tumor	6355576745	dab667d8469b702c7813ce6f731ccdd9
+file			STS01-T1238		T1238_Star_Aligned.sortedByCoord.out.bam.bai	Index File	RNAseq reads to CanFam3.1 - STS01-T1238 tumor	3358064	4234754ceafaf2ccb72f884234b8ffcd
+file			STS01-T1292		T1292_Star_Aligned.sortedByCoord.out.bam	RNA Sequence File	RNAseq reads to CanFam3.1 - STS01-T1292 tumor	5351482432	bd8597341cd488ca17f3bdd660add639
+file			STS01-T1292		T1292_Star_Aligned.sortedByCoord.out.bam.bai	Index File	RNAseq reads to CanFam3.1 - STS01-T1292 tumor	3283400	5f34ffcf0350fb5d7fa7da52917f3d39
+file			STS01-T1407		T1407_Star_Aligned.sortedByCoord.out.bam	RNA Sequence File	RNAseq reads to CanFam3.1 - STS01-T1407 tumor	5474351494	6f3fe46107cd253fbe52c6aa1e7807c3
+file			STS01-T1407		T1407_Star_Aligned.sortedByCoord.out.bam.bai	Index File	RNAseq reads to CanFam3.1 - STS01-T1407 tumor	2957176	951ed506905cec17e1703503e2d9f060
+file			STS01-T1462		T1462_Star_Aligned.sortedByCoord.out.bam	RNA Sequence File	RNAseq reads to CanFam3.1 - STS01-T1462 tumor	5852616442	c425aafe560fc31b4bb8a17a8afc600f
+file			STS01-T1462		T1462_Star_Aligned.sortedByCoord.out.bam.bai	Index File	RNAseq reads to CanFam3.1 - STS01-T1462 tumor	3429776	a4c309efb8ba3659c99fe104450333ea
+file			STS01-T1490		T1490_Star_Aligned.sortedByCoord.out.bam	RNA Sequence File	RNAseq reads to CanFam3.1 - STS01-T1490 tumor	5408872510	330de9de24a18edc34c415fd5d25732a
+file			STS01-T1490		T1490_Star_Aligned.sortedByCoord.out.bam.bai	Index File	RNAseq reads to CanFam3.1 - STS01-T1490 tumor	3408112	71870015343614548235c4bad5a6171a
+file			STS01-T1585		T1585_Star_Aligned.sortedByCoord.out.bam	RNA Sequence File	RNAseq reads to CanFam3.1 - STS01-T1585 tumor	5182472563	3d1c26a5893f76ad3a6bb87e0f47d698
+file			STS01-T1585		T1585_Star_Aligned.sortedByCoord.out.bam.bai	Index File	RNAseq reads to CanFam3.1 - STS01-T1585 tumor	3283120	747280281debdeac13afb77f985a7c5d
+file			STS01-T167		T167_Star_Aligned.sortedByCoord.out.bam	RNA Sequence File	RNAseq reads to CanFam3.1 - STS01-T167 tumor	6415810109	5c668cca5f4f2756d782b12976def59f
+file			STS01-T167		T167_Star_Aligned.sortedByCoord.out.bam.bai	Index File	RNAseq reads to CanFam3.1 - STS01-T167 tumor	3564616	d5b3fb2f17b66d6f9466d8c369fd36f3
+file			STS01-T1834		T1834_Star_Aligned.sortedByCoord.out.bam	RNA Sequence File	RNAseq reads to CanFam3.1 - STS01-T1834 tumor	4991636138	79c5af7f700cf32cc136c8292c386e3b
+file			STS01-T1834		T1834_Star_Aligned.sortedByCoord.out.bam.bai	Index File	RNAseq reads to CanFam3.1 - STS01-T1834 tumor	2911784	78886b24fc00208571e92fbe55cc89f5
+file			STS01-T1860		T1860_Star_Aligned.sortedByCoord.out.bam	RNA Sequence File	RNAseq reads to CanFam3.1 - STS01-T1860 tumor	5928552180	8bb63b5988377fca7881204f6e2d3355
+file			STS01-T1860		T1860_Star_Aligned.sortedByCoord.out.bam.bai	Index File	RNAseq reads to CanFam3.1 - STS01-T1860 tumor	3101472	babcf7d2aff7f8c5656ff5edf0026554
+file			STS01-T1891		T1891_Star_Aligned.sortedByCoord.out.bam	RNA Sequence File	RNAseq reads to CanFam3.1 - STS01-T1891 tumor	6048850934	6e5642fe9fed330c605b911f3060cb15
+file			STS01-T1891		T1891_Star_Aligned.sortedByCoord.out.bam.bai	Index File	RNAseq reads to CanFam3.1 - STS01-T1891 tumor	3348736	5e044bc23a850020e3f6a5f54e25220b
+file			STS01-T1921		T1921_Star_Aligned.sortedByCoord.out.bam	RNA Sequence File	RNAseq reads to CanFam3.1 - STS01-T1921 tumor	5329711415	7ecce7fa110b83299b1500f704742ceb
+file			STS01-T1921		T1921_Star_Aligned.sortedByCoord.out.bam.bai	Index File	RNAseq reads to CanFam3.1 - STS01-T1921 tumor	3373200	bd488b9120d988902d45d9ac171e3ab7
+file			STS01-T1923		T1923_Star_Aligned.sortedByCoord.out.bam	RNA Sequence File	RNAseq reads to CanFam3.1 - STS01-T1923 tumor	5639339339	cf99ad252aba1e3b4b6cf6c5daf18891
+file			STS01-T1923		T1923_Star_Aligned.sortedByCoord.out.bam.bai	Index File	RNAseq reads to CanFam3.1 - STS01-T1923 tumor	3367192	f48fc099d24ed491a25925400d91b87a
+file			STS01-T1989		T1989_Star_Aligned.sortedByCoord.out.bam	RNA Sequence File	RNAseq reads to CanFam3.1 - STS01-T1989 tumor	5507095939	48bd3b598b24c0084453bbe68bb82a25
+file			STS01-T1989		T1989_Star_Aligned.sortedByCoord.out.bam.bai	Index File	RNAseq reads to CanFam3.1 - STS01-T1989 tumor	2901824	373ebb6247e586330bf2ed0656ee3829
+file			STS01-T2063		T2063_Star_Aligned.sortedByCoord.out.bam	RNA Sequence File	RNAseq reads to CanFam3.1 - STS01-T2063 tumor	5319609084	78ae9df60c4a853f20b063629abc1937
+file			STS01-T2063		T2063_Star_Aligned.sortedByCoord.out.bam.bai	Index File	RNAseq reads to CanFam3.1 - STS01-T2063 tumor	3388048	c283bd434df5fddc925114854f3690c8
+file			STS01-T148		T212343_Star_Aligned.sortedByCoord.out.bam	RNA Sequence File	RNAseq reads to CanFam3.1 - STS01-T148 tumor	4880478404	fa708830cde281b38432c276d34f2ac7
+file			STS01-T148		T212343_Star_Aligned.sortedByCoord.out.bam.bai	Index File	RNAseq reads to CanFam3.1 - STS01-T148 tumor	2787976	f97e358c9bd4bec26f6dc0c4723acbe5
+file			STS01-T218		T218_Star_Aligned.sortedByCoord.out.bam	RNA Sequence File	RNAseq reads to CanFam3.1 - STS01-T218 tumor	5489063367	c67c1387a3f882c78dfef674616b3c13
+file			STS01-T218		T218_Star_Aligned.sortedByCoord.out.bam.bai	Index File	RNAseq reads to CanFam3.1 - STS01-T218 tumor	3066952	72ac1b52f7c066fc908e8eccf6e088d5
+file			STS01-T230		T230_Star_Aligned.sortedByCoord.out.bam	RNA Sequence File	RNAseq reads to CanFam3.1 - STS01-T230 tumor	5979696822	1e796216d5483b974f66d8f60a0cc677
+file			STS01-T230		T230_Star_Aligned.sortedByCoord.out.bam.bai	Index File	RNAseq reads to CanFam3.1 - STS01-T230 tumor	3512456	aac7d43908a6cdef90cd23aa391a7ab2
+file			STS01-T232		T232_Star_Aligned.sortedByCoord.out.bam	RNA Sequence File	RNAseq reads to CanFam3.1 - STS01-T232 tumor	4642765648	9c959eef4410ba24a5903fe929a46c88
+file			STS01-T232		T232_Star_Aligned.sortedByCoord.out.bam.bai	Index File	RNAseq reads to CanFam3.1 - STS01-T232 tumor	3146208	64f9bf873d7795fba24acfe1c92d6894
+file			STS01-T282		T282_Star_Aligned.sortedByCoord.out.bam	RNA Sequence File	RNAseq reads to CanFam3.1 - STS01-T282 tumor	5515493351	1d0c03a58ec842583d3881b004547dd7
+file			STS01-T282		T282_Star_Aligned.sortedByCoord.out.bam.bai	Index File	RNAseq reads to CanFam3.1 - STS01-T282 tumor	3133096	2b07054d5a10656d4d6fba35d91c6870
+file			STS01-T311		T311_Star_Aligned.sortedByCoord.out.bam	RNA Sequence File	RNAseq reads to CanFam3.1 - STS01-T311 tumor	4237217899	109b811958a31563a6dc785e3205fbc7
+file			STS01-T311		T311_Star_Aligned.sortedByCoord.out.bam.bai	Index File	RNAseq reads to CanFam3.1 - STS01-T311 tumor	3180496	b4495a4c1b96930d485e9b99b3889721
+file			STS01-T320		T320_Star_Aligned.sortedByCoord.out.bam	RNA Sequence File	RNAseq reads to CanFam3.1 - STS01-T320 tumor	6316653326	fe8f0ddeb807fb4063697df71fddcf9b
+file			STS01-T320		T320_Star_Aligned.sortedByCoord.out.bam.bai	Index File	RNAseq reads to CanFam3.1 - STS01-T320 tumor	3168152	4efd16dc0e831604d0831ff3e4fef93e
+file			STS01-T336		T336_Star_Aligned.sortedByCoord.out.bam	RNA Sequence File	RNAseq reads to CanFam3.1 - STS01-T336 tumor	5771134469	4c5b482788afbc400f3b1f41593dd5e7
+file			STS01-T336		T336_Star_Aligned.sortedByCoord.out.bam.bai	Index File	RNAseq reads to CanFam3.1 - STS01-T336 tumor	3053280	80731f22da024ae6ca6b252772ad3ceb
+file			STS01-T344		T344_Star_Aligned.sortedByCoord.out.bam	RNA Sequence File	RNAseq reads to CanFam3.1 - STS01-T344 tumor	6382771692	73c283d3b6ecc5aa33ccaa50223b313c
+file			STS01-T344		T344_Star_Aligned.sortedByCoord.out.bam.bai	Index File	RNAseq reads to CanFam3.1 - STS01-T344 tumor	3300792	dfed70e8fcdd94b876f35a1e7c87ba68
+file			STS01-T416		T416_Star_Aligned.sortedByCoord.out.bam	RNA Sequence File	RNAseq reads to CanFam3.1 - STS01-T416 tumor	6063538502	34493281a24a015a2734517b8dfb6241
+file			STS01-T416		T416_Star_Aligned.sortedByCoord.out.bam.bai	Index File	RNAseq reads to CanFam3.1 - STS01-T416 tumor	3257392	aef8c03fd3dc201da7799e0d1321390b
+file			STS01-T479		T479_Star_Aligned.sortedByCoord.out.bam	RNA Sequence File	RNAseq reads to CanFam3.1 - STS01-T479 tumor	4984438833	f93b5a74d3959e5bc1f57f2a9c8974dc
+file			STS01-T479		T479_Star_Aligned.sortedByCoord.out.bam.bai	Index File	RNAseq reads to CanFam3.1 - STS01-T479 tumor	2859360	48864d4e8ade0dc1b81d685546d1cd12
+file			STS01-T485		T485_Star_Aligned.sortedByCoord.out.bam	RNA Sequence File	RNAseq reads to CanFam3.1 - STS01-T485 tumor	5127298084	72a42a8619ad9662129c6e8efd2cbe73
+file			STS01-T485		T485_Star_Aligned.sortedByCoord.out.bam.bai	Index File	RNAseq reads to CanFam3.1 - STS01-T485 tumor	3234568	f4f459ea9fd4dbd86f9efa453d1014f2
+file			STS01-T697		T697_Star_Aligned.sortedByCoord.out.bam	RNA Sequence File	RNAseq reads to CanFam3.1 - STS01-T697 tumor	5175264526	73d4f8a9c859b9082d4c3636c7ac9fec
+file			STS01-T697		T697_Star_Aligned.sortedByCoord.out.bam.bai	Index File	RNAseq reads to CanFam3.1 - STS01-T697 tumor	2984184	c83576e31f248177ce7005578f2ae091
+file			STS01-T738		T738_Star_Aligned.sortedByCoord.out.bam	RNA Sequence File	RNAseq reads to CanFam3.1 - STS01-T738 tumor	5383857987	af60b74e5a58a52ddd374ea7f7f6edcf
+file			STS01-T738		T738_Star_Aligned.sortedByCoord.out.bam.bai	Index File	RNAseq reads to CanFam3.1 - STS01-T738 tumor	3025336	01cb9f3ec80020d80f082a62eb4ce6c6
