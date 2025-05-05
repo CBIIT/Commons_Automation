@@ -77,6 +77,7 @@ public class CustomBrowserDriver {
 				ChromeOptions options = new ChromeOptions();
 				options.addArguments("--headless");
 				options.addArguments("--disable-dev-shm-usage");
+				options.addArguments("--no-sandbox");
 				options.addArguments("--disable-gpu");
 				options.addArguments("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.6778.85 Safari/18.1.1");
 				DesiredCapabilities dc = new DesiredCapabilities();
