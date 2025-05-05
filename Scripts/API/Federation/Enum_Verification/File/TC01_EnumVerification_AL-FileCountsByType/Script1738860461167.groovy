@@ -24,12 +24,11 @@ import utilities.API_Functions
 import utilities.APIValidationFunctions
 
 // Send API request
-String API_Object_Path ='Object Repository/API/Federation/AL_FileCounts_by_Type'
+String API_Object_Path ='Object Repository/API/Federation/AggregationLayer/AL_FileCounts_by_Type'
 ResponseObject responseAL = API_Functions.sendRequestAndCaptureResponse(API_Object_Path)
-//def response = WS.sendRequest(findTestObject('API_Object_Path'))  
+
 def responseALData = API_Functions.parseResponse(responseAL) //AL response
 System.out.println("This is the content of responseALData :"+responseALData)
-//System.out.println("This is the content of responsebodycontent inbuilt func :"+responseALData.getResponseBodyContent())
 
 // Get allowed values from the data file
 def allowedValuesData = TestDataFactory.findTestData('Data Files/API/Enum-File_Type')
@@ -38,7 +37,9 @@ for (int i = 1; i <= allowedValuesData.getRowNumbers(); i++) {
 	allowedValues.add(allowedValuesData.getValue(1, i))
 }
 
+println("Allowed values loaded: " + allowedValues)
+
 // Validate the API response
 APIValidationFunctions.validateAllowedEnums(responseALData, allowedValues)
-System.out.println("This is the value of responsealdata :"+responseALData)
-System.out.println("This is the value of responsealdata :"+allowedValues)
+System.out.println("This is the value of responsealdata: " + responseALData)
+System.out.println("This is the value of allowedValues: " + allowedValues)
