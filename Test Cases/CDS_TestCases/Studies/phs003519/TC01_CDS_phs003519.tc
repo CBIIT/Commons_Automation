@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC03_CCDI_phs002504_Sex-Unknown_FileType-bam</name>
+   <name>TC01_CDS_phs003519</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>0c541564-bcb7-4ee3-9d9a-289a43848206</testCaseGuid>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e4f43066-faed-4121-963a-e5f55a5b33b0</testCaseGuid>
 </TestCaseEntity>
