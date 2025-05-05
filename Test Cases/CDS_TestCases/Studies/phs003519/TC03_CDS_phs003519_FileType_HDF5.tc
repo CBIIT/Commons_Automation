@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_CDS_phs003519_FileType_HDF5</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>40691eb7-d1b0-4687-b048-d47199219cc6</testCaseGuid>
+</TestCaseEntity>
