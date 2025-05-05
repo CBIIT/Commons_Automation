@@ -390,13 +390,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>e63c9742-b7fd-41a5-887b-c04c14897f31</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CCDI_TestCases/Studies/phs000464/TC05_CCDI_phs000464_StudyStatus-Completed_Race-HispanLatino_FirstEvent-Relapse</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>8cbe692e-2647-4511-9152-53efa783638a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -555,6 +548,13 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CCDI_TestCases/Studies/phs003519/TC05_CCDI_phs003519_FileMap-Sample_StudyStatus-Completed_LibrSourMat-SingleCells_LibrSourMolec-Genomic</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>95a16093-8e41-40fb-becc-af1f67d2947c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CCDI_TestCases/Studies/phs000464/TC05_CCDI_phs000464_StudyStatus-Completed_Race-HispanLatino_FirstEvent-Relapse</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
