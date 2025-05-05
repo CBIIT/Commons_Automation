@@ -37,8 +37,6 @@ for (int i = 1; i <= allowedValuesData.getRowNumbers(); i++) {
 	allowedValues.add(allowedValuesData.getValue(1, i))
 }
 
-println("Allowed values loaded: " + allowedValues)
-
 // Validate the API response
 APIValidationFunctions.validateAllowedEnums(responseALData, allowedValues)
 System.out.println("This is the value of responseALData: " + responseALData)
