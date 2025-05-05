@@ -41,5 +41,5 @@ println("Allowed values loaded: " + allowedValues)
 
 // Validate the API response
 APIValidationFunctions.validateAllowedEnums(responseALData, allowedValues)
-System.out.println("This is the value of responsealdata: " + responseALData)
+System.out.println("This is the value of responseALData: " + responseALData)
 System.out.println("This is the value of allowedValues: " + allowedValues)
