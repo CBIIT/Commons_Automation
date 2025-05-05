@@ -67,6 +67,9 @@ public class APIValidationFunctions {
 					KeywordUtil.markFailed("❌ Unexpected value '${value}' found in response for source '${sourceName}'")
 					hasErrors = true
 				}
+				else {
+					KeywordUtil.logInfo("Allowed value '${value}' found in response for source '${sourceName}'")
+				}
 			}
 		}
 
