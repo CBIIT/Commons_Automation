@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC14_CDS_phs002371_PrimDiag_Carcinoma</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>18dc43a0-7b80-4e1f-93fd-f74812b38418</testCaseGuid>
+</TestCaseEntity>

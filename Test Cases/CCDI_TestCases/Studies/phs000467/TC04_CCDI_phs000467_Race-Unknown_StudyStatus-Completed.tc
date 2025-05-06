@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_CCDI_phs000467_Race-Unknown_StudyStatus-Completed</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3a3d47f1-3885-4d26-8448-2f17106a7781</testCaseGuid>
+</TestCaseEntity>

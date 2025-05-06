@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_CCDI_phs003519_FileMap-Sample_StudyStatus-Completed_LibrSourMat-SingleCells_LibrSourMolec-Genomic</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>21db7647-200c-47c1-ac69-3f116a5d968a</testCaseGuid>
+</TestCaseEntity>

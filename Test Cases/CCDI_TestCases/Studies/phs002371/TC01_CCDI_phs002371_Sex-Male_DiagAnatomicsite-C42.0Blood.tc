@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CCDI_phs002371_Sex-Male_DiagAnatomicsite-C42.0Blood</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c8db83bb-08cb-47bf-8971-a6162f9c2d73</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Wilms_Chkbx</name>
+   <tag></tag>
+   <elementGuidId>baac9b18-091a-4e7a-82cc-2a3feb43ba36</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;checkbox_Diagnosis_Wilms&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;checkbox_Diagnosis_Wilms&quot;]</value>
+      <webElementGuid>6d1443ae-f408-4efb-b52b-93cd1df0738a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

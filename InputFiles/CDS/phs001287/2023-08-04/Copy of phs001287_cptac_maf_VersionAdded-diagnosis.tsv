@@ -1,0 +1,1070 @@
+diagnosis_id	disease_type	primary_diagnosis	primary_site	type	study_diagnosis_id	participant.study_participant_id
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-03877_LSCC	phs001287_C3N-03877
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-00555_LSCC	phs001287_C3N-00555
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-00183_CCRCC	phs001287_C3L-00183
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-03051_LSCC	phs001287_C3N-03051
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-03882_LSCC	phs001287_C3N-03882
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_11CO043_COAD	phs001287_11CO043
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3N-00337_UCEC	phs001287_C3N-00337
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3N-00390_CCRCC	phs001287_C3N-00390
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3N-00491_CCRCC	phs001287_C3N-00491
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_11CO036_COAD	phs001287_11CO036
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3N-00866_UCEC	phs001287_C3N-00866
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3N-00733_CCRCC	phs001287_C3N-00733
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3N-01361_CCRCC	phs001287_C3N-01361
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3L-04844_HNSCC	phs001287_C3L-04844
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-03426_PDAC	phs001287_C3N-03426
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_11BR053_BRCA	phs001287_11BR053
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-04119_PDAC	phs001287_C3N-04119
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-03841_HNSCC	phs001287_C3N-03841
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-01053_PDAC	phs001287_C3L-01053
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3N-00310_CCRCC	phs001287_C3N-00310
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-00203_LUAD	phs001287_C3N-00203
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-00973_LUAD	phs001287_C3L-00973
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-00249_PDAC	phs001287_C3N-00249
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3N-01217_UCEC	phs001287_C3N-01217
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_14OV011_OV	phs001287_14OV011
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-01716_PDAC	phs001287_C3N-01716
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3N-00340_UCEC	phs001287_C3N-00340
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3N-00848_UCEC	phs001287_C3N-00848
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_11BR054_BRCA	phs001287_11BR054
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_11CO051_COAD	phs001287_11CO051
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-00814_CCRCC	phs001287_C3L-00814
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_11CO079_COAD	phs001287_11CO079
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-02345_LUAD	phs001287_C3L-02345
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_20CO007_COAD	phs001287_20CO007
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_11BR011_BRCA	phs001287_11BR011
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_20OV005_OV	phs001287_20OV005
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_02OV032_OV	phs001287_02OV032
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-01414_LUAD	phs001287_C3N-01414
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3L-01049_GBM	phs001287_C3L-01049
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-00610_CCRCC	phs001287_C3L-00610
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-01643_HNSCC	phs001287_C3N-01643
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3N-01852_GBM	phs001287_C3N-01852
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-02579_PDAC	phs001287_C3N-02579
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-02145_LUAD	phs001287_C3N-02145
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_22CO004_COAD	phs001287_22CO004
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3N-01524_CCRCC	phs001287_C3N-01524
+BRCA	Cancer	Mucinous Carcinoma	Breast	diagnosis	phs001287_11BR050_BRCA	phs001287_11BR050
+BRCA	Cancer	Adenocarcinoma, NOS	Breast	diagnosis	phs001287_01BR043_BRCA	phs001287_01BR043
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3N-00646_CCRCC	phs001287_C3N-00646
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_04OV031_OV	phs001287_04OV031
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-00004_CCRCC	phs001287_C3L-00004
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3N-00168_CCRCC	phs001287_C3N-00168
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-02588_LUAD	phs001287_C3N-02588
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3N-01648_CCRCC	phs001287_C3N-01648
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_04OV040_OV	phs001287_04OV040
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-02115_PDAC	phs001287_C3L-02115
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-01383_PDAC	phs001287_C3N-01383
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_05CO041_COAD	phs001287_05CO041
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3N-01179_CCRCC	phs001287_C3N-01179
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_01BR030_BRCA	phs001287_01BR030
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3N-01818_GBM	phs001287_C3N-01818
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3L-00918_UCEC	phs001287_C3L-00918
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-00704_LUAD	phs001287_C3N-00704
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-01011_PDAC	phs001287_C3N-01011
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-02587_LUAD	phs001287_C3N-02587
+BRCA	Cancer	Not Reported	Breast	diagnosis	phs001287_03BR006_BRCA	phs001287_03BR006
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_11BR015_BRCA	phs001287_11BR015
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_11BR060_BRCA	phs001287_11BR060
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-02730_HNSCC	phs001287_C3N-02730
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-01328_PDAC	phs001287_C3L-01328
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_11BR016_BRCA	phs001287_11BR016
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3N-00665_GBM	phs001287_C3N-00665
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_03BR013_BRCA	phs001287_03BR013
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-02899_PDAC	phs001287_C3L-02899
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_01OV047_OV	phs001287_01OV047
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-01302_CCRCC	phs001287_C3L-01302
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-01606_LSCC	phs001287_C3L-01606
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-00513_PDAC	phs001287_C3N-00513
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-00263_LUAD	phs001287_C3L-00263
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_09CO014_COAD	phs001287_09CO014
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-01757_HNSCC	phs001287_C3N-01757
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_20BR007_BRCA	phs001287_20BR007
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-00011_CCRCC	phs001287_C3L-00011
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-00799_CCRCC	phs001287_C3L-00799
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-01607_CCRCC	phs001287_C3L-01607
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_05CO003_COAD	phs001287_05CO003
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-00606_CCRCC	phs001287_C3L-00606
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3L-01045_GBM	phs001287_C3L-01045
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3L-02900_GBM	phs001287_C3L-02900
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_01CO006_COAD	phs001287_01CO006
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-00511_PDAC	phs001287_C3N-00511
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3N-00832_CCRCC	phs001287_C3N-00832
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-00096_CCRCC	phs001287_C3L-00096
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_05CO011_COAD	phs001287_05CO011
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_13OV003_OV	phs001287_13OV003
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3N-00573_CCRCC	phs001287_C3N-00573
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_01BR032_BRCA	phs001287_01BR032
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_09CO015_COAD	phs001287_09CO015
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-03395_PDAC	phs001287_C3L-03395
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-03781_HNSCC	phs001287_C3N-03781
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_05BR043_BRCA	phs001287_05BR043
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-01971_PDAC	phs001287_C3L-01971
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-00447_CCRCC	phs001287_C3L-00447
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_11CO070_COAD	phs001287_11CO070
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-01637_PDAC	phs001287_C3L-01637
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-00709_PDAC	phs001287_C3N-00709
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_04OV063_OV	phs001287_04OV063
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-01892_LSCC	phs001287_C3N-01892
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_05CO002_COAD	phs001287_05CO002
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-00009_LUAD	phs001287_C3L-00009
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-00279_LUAD	phs001287_C3L-00279
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_15BR003_BRCA	phs001287_15BR003
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-00360_CCRCC	phs001287_C3L-00360
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-02693_HNSCC	phs001287_C3N-02693
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_11BR056_BRCA	phs001287_11BR056
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3L-01925_UCEC	phs001287_C3L-01925
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-00549_LUAD	phs001287_C3N-00549
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-02700_HNSCC	phs001287_C3N-02700
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_04OV005_OV	phs001287_04OV005
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-00001_LUAD	phs001287_C3L-00001
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-00217_LUAD	phs001287_C3N-00217
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-04124_LSCC	phs001287_C3N-04124
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-01884_LSCC	phs001287_C3L-01884
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-00580_LUAD	phs001287_C3N-00580
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3L-00770_UCEC	phs001287_C3L-00770
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3N-01368_GBM	phs001287_C3N-01368
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-01054_PDAC	phs001287_C3L-01054
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3N-00334_UCEC	phs001287_C3N-00334
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3L-00361_UCEC	phs001287_C3L-00361
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-00583_CCRCC	phs001287_C3L-00583
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_17OV010_OV	phs001287_17OV010
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-00498_HNSCC	phs001287_C3N-00498
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-01313_CCRCC	phs001287_C3L-01313
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-03889_HNSCC	phs001287_C3N-03889
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-03011_HNSCC	phs001287_C3N-03011
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-02374_LSCC	phs001287_C3N-02374
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3N-03473_GBM	phs001287_C3N-03473
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-04127_LSCC	phs001287_C3N-04127
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-00737_LUAD	phs001287_C3N-00737
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_02OV015_OV	phs001287_02OV015
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_26OV008_OV	phs001287_26OV008
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-00796_CCRCC	phs001287_C3L-00796
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_05CO015_COAD	phs001287_05CO015
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3L-00946_UCEC	phs001287_C3L-00946
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3N-00379_UCEC	phs001287_C3N-00379
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3L-00090_UCEC	phs001287_C3L-00090
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3L-00362_UCEC	phs001287_C3L-00362
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3L-04084_GBM	phs001287_C3L-04084
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_05CO050_COAD	phs001287_05CO050
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-02127_LSCC	phs001287_C3L-02127
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-00846_HNSCC	phs001287_C3N-00846
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-00211_LSCC	phs001287_C3N-00211
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-02252_LSCC	phs001287_C3N-02252
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-03425_LSCC	phs001287_C3N-03425
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3N-00377_UCEC	phs001287_C3N-00377
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-02424_LUAD	phs001287_C3N-02424
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-02649_LSCC	phs001287_C3L-02649
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_04OV004_OV	phs001287_04OV004
+BRCA	Cancer	Infiltrating Lobular Carcinoma, NOS	Breast	diagnosis	phs001287_05BR026_BRCA	phs001287_05BR026
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_11CO061_COAD	phs001287_11CO061
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-01946_HNSCC	phs001287_C3N-01946
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3N-01176_CCRCC	phs001287_C3N-01176
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_04OV027_OV	phs001287_04OV027
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-01288_CCRCC	phs001287_C3L-01288
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_05BR038_BRCA	phs001287_05BR038
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-01882_CCRCC	phs001287_C3L-01882
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3L-02504_GBM	phs001287_C3L-02504
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-00559_LUAD	phs001287_C3N-00559
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_18BR007_BRCA	phs001287_18BR007
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_11CO020_COAD	phs001287_11CO020
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3L-03727_GBM	phs001287_C3L-03727
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-03628_PDAC	phs001287_C3L-03628
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_02OV005_OV	phs001287_02OV005
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3N-01798_GBM	phs001287_C3N-01798
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-00812_CCRCC	phs001287_C3L-00812
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3N-01334_GBM	phs001287_C3N-01334
+BRCA	Cancer	Not Reported	Breast	diagnosis	phs001287_09BR001_BRCA	phs001287_09BR001
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-02714_HNSCC	phs001287_C3N-02714
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-01000_LSCC	phs001287_C3L-01000
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-02295_PDAC	phs001287_C3N-02295
+BRCA	Cancer	Not Reported	Breast	diagnosis	phs001287_01BR009_BRCA	phs001287_01BR009
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_09CO008_COAD	phs001287_09CO008
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3N-01851_GBM	phs001287_C3N-01851
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_04OV028_OV	phs001287_04OV028
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3N-01220_CCRCC	phs001287_C3N-01220
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-03670_PDAC	phs001287_C3N-03670
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-04162_LSCC	phs001287_C3N-04162
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-00415_LSCC	phs001287_C3L-00415
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_04OV058_OV	phs001287_04OV058
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_14CO005_COAD	phs001287_14CO005
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-00589_PDAC	phs001287_C3L-00589
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-01166_PDAC	phs001287_C3N-01166
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3N-02256_GBM	phs001287_C3N-02256
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-01339_HNSCC	phs001287_C3N-01339
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_11BR022_BRCA	phs001287_11BR022
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-00965_LSCC	phs001287_C3L-00965
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-00904_LSCC	phs001287_C3L-00904
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-02951_LSCC	phs001287_C3L-02951
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_17OV018_OV	phs001287_17OV018
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-01037_PDAC	phs001287_C3L-01037
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-02003_LUAD	phs001287_C3N-02003
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-03837_HNSCC	phs001287_C3N-03837
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_04OV039_OV	phs001287_04OV039
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-03006_PDAC	phs001287_C3N-03006
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-04279_HNSCC	phs001287_C3N-04279
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-02729_LUAD	phs001287_C3N-02729
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-03028_HNSCC	phs001287_C3N-03028
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3L-00006_UCEC	phs001287_C3L-00006
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-02529_LUAD	phs001287_C3N-02529
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-02572_LUAD	phs001287_C3N-02572
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-02109_PDAC	phs001287_C3L-02109
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-02971_PDAC	phs001287_C3N-02971
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-00907_CCRCC	phs001287_C3L-00907
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_02OV006_OV	phs001287_02OV006
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-03928_HNSCC	phs001287_C3N-03928
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_05CO037_COAD	phs001287_05CO037
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_06CO001_COAD	phs001287_06CO001
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-01410_LUAD	phs001287_C3N-01410
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-02589_PDAC	phs001287_C3N-02589
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_17OV039_OV	phs001287_17OV039
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3L-00947_UCEC	phs001287_C3L-00947
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_17OV011_OV	phs001287_17OV011
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-00094_LUAD	phs001287_C3L-00094
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-02380_LUAD	phs001287_C3N-02380
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3L-02621_HNSCC	phs001287_C3L-02621
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_26OV002_OV	phs001287_26OV002
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_18BR017_BRCA	phs001287_18BR017
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3L-01249_UCEC	phs001287_C3L-01249
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-01754_HNSCC	phs001287_C3N-01754
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-03027_HNSCC	phs001287_C3N-03027
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-03853_PDAC	phs001287_C3N-03853
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-02168_LSCC	phs001287_C3L-02168
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-01719_PDAC	phs001287_C3N-01719
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_14CO003_COAD	phs001287_14CO003
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-01683_LUAD	phs001287_C3L-01683
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-03226_HNSCC	phs001287_C3N-03226
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_04OV013_OV	phs001287_04OV013
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_05CO053_COAD	phs001287_05CO053
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-00401_PDAC	phs001287_C3L-00401
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_20CO004_COAD	phs001287_20CO004
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3L-02617_HNSCC	phs001287_C3L-02617
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-02809_PDAC	phs001287_C3L-02809
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-00518_PDAC	phs001287_C3N-00518
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3N-01212_UCEC	phs001287_C3N-01212
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-00448_CCRCC	phs001287_C3L-00448
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3N-00151_UCEC	phs001287_C3N-00151
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3L-02707_GBM	phs001287_C3L-02707
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-02582_LUAD	phs001287_C3N-02582
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_11BR042_BRCA	phs001287_11BR042
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_11BR004_BRCA	phs001287_11BR004
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3L-00905_UCEC	phs001287_C3L-00905
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-02333_HNSCC	phs001287_C3N-02333
+BRCA	Cancer	Not Reported	Breast	diagnosis	phs001287_21BR002_BRCA	phs001287_21BR002
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3N-01214_CCRCC	phs001287_C3N-01214
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3L-01327_GBM	phs001287_C3L-01327
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-02650_LSCC	phs001287_C3L-02650
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-03456_HNSCC	phs001287_C3N-03456
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3L-02642_GBM	phs001287_C3L-02642
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_21BR010_BRCA	phs001287_21BR010
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-01413_LUAD	phs001287_C3N-01413
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3N-01856_GBM	phs001287_C3N-01856
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_11BR009_BRCA	phs001287_11BR009
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-00517_PDAC	phs001287_C3N-00517
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-00598_PDAC	phs001287_C3L-00598
+BRCA	Cancer	Squamous Cell Carcinoma, NOS	Breast	diagnosis	phs001287_01BR044_BRCA	phs001287_01BR044
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_01OV017_OV	phs001287_01OV017
+BRCA	Cancer	Not Reported	Breast	diagnosis	phs001287_01BR008_BRCA	phs001287_01BR008
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-02701_PDAC	phs001287_C3L-02701
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-02575_LSCC	phs001287_C3N-02575
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-03665_PDAC	phs001287_C3N-03665
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3N-00380_CCRCC	phs001287_C3N-00380
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3L-00032_UCEC	phs001287_C3L-00032
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-02494_LSCC	phs001287_C3N-02494
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-03962_LSCC	phs001287_C3L-03962
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-03782_HNSCC	phs001287_C3N-03782
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_16BR012_BRCA	phs001287_16BR012
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_09CO022_COAD	phs001287_09CO022
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3N-00314_CCRCC	phs001287_C3N-00314
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3N-00315_CCRCC	phs001287_C3N-00315
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3N-00244_CCRCC	phs001287_C3N-00244
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-01337_HNSCC	phs001287_C3N-01337
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-00579_LUAD	phs001287_C3N-00579
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3L-04849_HNSCC	phs001287_C3L-04849
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_11CO057_COAD	phs001287_11CO057
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-00422_LUAD	phs001287_C3L-00422
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-01415_LUAD	phs001287_C3N-01415
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-03666_PDAC	phs001287_C3N-03666
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3N-00305_CCRCC	phs001287_C3N-00305
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3N-03180_GBM	phs001287_C3N-03180
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_13BR009_BRCA	phs001287_13BR009
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-01755_HNSCC	phs001287_C3N-01755
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_11BR044_BRCA	phs001287_11BR044
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_04OV033_OV	phs001287_04OV033
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_11BR012_BRCA	phs001287_11BR012
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-00293_LUAD	phs001287_C3N-00293
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3N-02181_GBM	phs001287_C3N-02181
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-00144_LUAD	phs001287_C3L-00144
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3N-01003_UCEC	phs001287_C3N-01003
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-01405_LUAD	phs001287_C3N-01405
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_01BR001_BRCA	phs001287_01BR001
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_20CO003_COAD	phs001287_20CO003
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-02365_LUAD	phs001287_C3L-02365
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-02768_PDAC	phs001287_C3N-02768
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3N-03070_GBM	phs001287_C3N-03070
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3N-01346_UCEC	phs001287_C3N-01346
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-01330_LUAD	phs001287_C3L-01330
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-01682_LUAD	phs001287_C3L-01682
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-02648_LSCC	phs001287_C3L-02648
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_05BR029_BRCA	phs001287_05BR029
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3N-02788_GBM	phs001287_C3N-02788
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_18BR010_BRCA	phs001287_18BR010
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3N-02188_GBM	phs001287_C3N-02188
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_04OV037_OV	phs001287_04OV037
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-01453_PDAC	phs001287_C3L-01453
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_18BR006_BRCA	phs001287_18BR006
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3N-03186_GBM	phs001287_C3N-03186
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-02675_LSCC	phs001287_C3N-02675
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-03433_HNSCC	phs001287_C3N-03433
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_01OV007_OV	phs001287_01OV007
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3N-00313_CCRCC	phs001287_C3N-00313
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-01997_PDAC	phs001287_C3N-01997
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3N-00577_CCRCC	phs001287_C3N-00577
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3N-00194_CCRCC	phs001287_C3N-00194
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3N-00831_CCRCC	phs001287_C3N-00831
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3N-00661_GBM	phs001287_C3N-00661
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-02694_HNSCC	phs001287_C3N-02694
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-03356_PDAC	phs001287_C3L-03356
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-03013_HNSCC	phs001287_C3N-03013
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-03876_HNSCC	phs001287_C3N-03876
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_11CO033_COAD	phs001287_11CO033
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_01OV030_OV	phs001287_01OV030
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_11BR014_BRCA	phs001287_11BR014
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-01167_PDAC	phs001287_C3N-01167
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_11CO019_COAD	phs001287_11CO019
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-02665_LSCC	phs001287_C3L-02665
+BRCA	Cancer	Infiltrating Duct And Lobular Carcinoma	Breast	diagnosis	phs001287_22BR005_BRCA	phs001287_22BR005
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-00822_HNSCC	phs001287_C3N-00822
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-03965_LSCC	phs001287_C3L-03965
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3N-00323_UCEC	phs001287_C3N-00323
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-00512_PDAC	phs001287_C3N-00512
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-03783_HNSCC	phs001287_C3N-03783
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-00299_HNSCC	phs001287_C3N-00299
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3N-00333_UCEC	phs001287_C3N-00333
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3L-01156_GBM	phs001287_C3L-01156
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3N-01192_GBM	phs001287_C3N-01192
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3L-01061_GBM	phs001287_C3L-01061
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-00765_CCRCC	phs001287_C3L-00765
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3N-01825_UCEC	phs001287_C3N-01825
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3N-01505_GBM	phs001287_C3N-01505
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3N-00317_CCRCC	phs001287_C3N-00317
+BRCA	Cancer	Infiltrating Lobular Carcinoma, NOS	Breast	diagnosis	phs001287_11BR032_BRCA	phs001287_11BR032
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-01662_PDAC	phs001287_C3L-01662
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-00436_PDAC	phs001287_C3N-00436
+BRCA	Cancer	Not Reported	Breast	diagnosis	phs001287_05BR004_BRCA	phs001287_05BR004
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-00959_LUAD	phs001287_C3N-00959
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-02348_LUAD	phs001287_C3L-02348
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-02421_LUAD	phs001287_C3N-02421
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-04277_HNSCC	phs001287_C3N-04277
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-03490_HNSCC	phs001287_C3N-03490
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-00547_LUAD	phs001287_C3N-00547
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_05CO045_COAD	phs001287_05CO045
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_04OV053_OV	phs001287_04OV053
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-02118_PDAC	phs001287_C3L-02118
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-04071_LSCC	phs001287_C3L-04071
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-02149_LUAD	phs001287_C3N-02149
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-00103_CCRCC	phs001287_C3L-00103
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-02375_LSCC	phs001287_C3N-02375
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-00369_CCRCC	phs001287_C3L-00369
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_01BR015_BRCA	phs001287_01BR015
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_14BR014_BRCA	phs001287_14BR014
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3L-01275_UCEC	phs001287_C3L-01275
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-00221_LSCC	phs001287_C3N-00221
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_05CO028_COAD	phs001287_05CO028
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-00550_LUAD	phs001287_C3N-00550
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3N-01537_UCEC	phs001287_C3N-01537
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3L-00932_UCEC	phs001287_C3L-00932
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_17OV017_OV	phs001287_17OV017
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3N-01816_GBM	phs001287_C3N-01816
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-03878_HNSCC	phs001287_C3N-03878
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3N-02782_GBM	phs001287_C3N-02782
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_11CO031_COAD	phs001287_11CO031
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-00297_HNSCC	phs001287_C3N-00297
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-03848_LSCC	phs001287_C3N-03848
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3L-00977_HNSCC	phs001287_C3L-00977
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3L-00008_UCEC	phs001287_C3L-00008
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-00640_PDAC	phs001287_C3L-00640
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_11CO037_COAD	phs001287_11CO037
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-01287_CCRCC	phs001287_C3L-01287
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-01799_LUAD	phs001287_C3N-01799
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-03007_PDAC	phs001287_C3N-03007
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-04282_PDAC	phs001287_C3N-04282
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_05CO026_COAD	phs001287_05CO026
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-02155_LUAD	phs001287_C3N-02155
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-00790_CCRCC	phs001287_C3L-00790
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-02163_LSCC	phs001287_C3L-02163
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3L-01887_GBM	phs001287_C3L-01887
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-02423_LUAD	phs001287_C3N-02423
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3N-03088_GBM	phs001287_C3N-03088
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-01411_LSCC	phs001287_C3N-01411
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-02940_PDAC	phs001287_C3N-02940
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-02925_HNSCC	phs001287_C3N-02925
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_16CO006_COAD	phs001287_16CO006
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-03840_PDAC	phs001287_C3N-03840
+BRCA	Cancer	Not Reported	Breast	diagnosis	phs001287_01BR020_BRCA	phs001287_01BR020
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3L-00999_HNSCC	phs001287_C3L-00999
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_11BR051_BRCA	phs001287_11BR051
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3L-00987_HNSCC	phs001287_C3L-00987
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-01375_PDAC	phs001287_C3N-01375
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-01944_HNSCC	phs001287_C3N-01944
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3N-00148_CCRCC	phs001287_C3N-00148
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-00088_CCRCC	phs001287_C3L-00088
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-02627_LSCC	phs001287_C3L-02627
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3N-01815_GBM	phs001287_C3N-01815
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-04155_LSCC	phs001287_C3N-04155
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-01165_PDAC	phs001287_C3N-01165
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_01BR042_BRCA	phs001287_01BR042
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_05CO020_COAD	phs001287_05CO020
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_11CO058_COAD	phs001287_11CO058
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-00908_CCRCC	phs001287_C3L-00908
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-03388_PDAC	phs001287_C3L-03388
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-03012_HNSCC	phs001287_C3N-03012
+BRCA	Cancer	Not Reported	Breast	diagnosis	phs001287_21BR001_BRCA	phs001287_21BR001
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3L-03392_GBM	phs001287_C3L-03392
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_04OV057_OV	phs001287_04OV057
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_09BR005_BRCA	phs001287_09BR005
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-04391_LSCC	phs001287_C3L-04391
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-03933_HNSCC	phs001287_C3N-03933
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3L-03748_GBM	phs001287_C3L-03748
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3N-00953_CCRCC	phs001287_C3N-00953
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-01380_PDAC	phs001287_C3N-01380
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-03743_PDAC	phs001287_C3L-03743
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3N-00200_UCEC	phs001287_C3N-00200
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-02170_LSCC	phs001287_C3L-02170
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-03678_LSCC	phs001287_C3L-03678
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_06BR014_BRCA	phs001287_06BR014
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_20BR005_BRCA	phs001287_20BR005
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-02619_LSCC	phs001287_C3L-02619
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3L-00413_UCEC	phs001287_C3L-00413
+BRCA	Cancer	Intraductal Papillary Carcinoma	Breast	diagnosis	phs001287_20BR008_BRCA	phs001287_20BR008
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-03009_HNSCC	phs001287_C3N-03009
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_04OV045_OV	phs001287_04OV045
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3L-01155_GBM	phs001287_C3L-01155
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_21CO007_COAD	phs001287_21CO007
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-00097_CCRCC	phs001287_C3L-00097
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-01194_LSCC	phs001287_C3N-01194
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-03440_PDAC	phs001287_C3N-03440
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-00574_LUAD	phs001287_C3N-00574
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_04OV036_OV	phs001287_04OV036
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_11LU035_LUAD	phs001287_11LU035
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-02552_LSCC	phs001287_C3L-02552
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-00607_CCRCC	phs001287_C3L-00607
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-00093_LUAD	phs001287_C3L-00093
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-00829_HNSCC	phs001287_C3N-00829
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_11CO042_COAD	phs001287_11CO042
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-00551_LUAD	phs001287_C3N-00551
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3N-01808_CCRCC	phs001287_C3N-01808
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3N-01814_GBM	phs001287_C3N-01814
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3N-02186_GBM	phs001287_C3N-02186
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3L-00767_UCEC	phs001287_C3L-00767
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3N-03182_GBM	phs001287_C3N-03182
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-00445_LSCC	phs001287_C3L-00445
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-00800_CCRCC	phs001287_C3L-00800
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-01051_PDAC	phs001287_C3L-01051
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3L-03266_GBM	phs001287_C3L-03266
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-02969_LSCC	phs001287_C3L-02969
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-03123_PDAC	phs001287_C3L-03123
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-00514_PDAC	phs001287_C3N-00514
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_11CO077_COAD	phs001287_11CO077
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_17OV015_OV	phs001287_17OV015
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-01382_PDAC	phs001287_C3N-01382
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_11CO008_COAD	phs001287_11CO008
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3L-01237_HNSCC	phs001287_C3L-01237
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3N-00662_GBM	phs001287_C3N-00662
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_02OV008_OV	phs001287_02OV008
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_11BR028_BRCA	phs001287_11BR028
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_17OV033_OV	phs001287_17OV033
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_05BR042_BRCA	phs001287_05BR042
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3L-00677_GBM	phs001287_C3L-00677
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3N-01518_GBM	phs001287_C3N-01518
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3N-00492_CCRCC	phs001287_C3N-00492
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-02422_LUAD	phs001287_C3N-02422
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_20BR002_BRCA	phs001287_20BR002
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_11CO047_COAD	phs001287_11CO047
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_16CO003_COAD	phs001287_16CO003
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_05CO034_COAD	phs001287_05CO034
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3L-01040_GBM	phs001287_C3L-01040
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_11BR036_BRCA	phs001287_11BR036
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3N-00321_UCEC	phs001287_C3N-00321
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-02000_LUAD	phs001287_C3N-02000
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_04OV044_OV	phs001287_04OV044
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_11CO007_COAD	phs001287_11CO007
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3L-01312_UCEC	phs001287_C3L-01312
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-02358_LSCC	phs001287_C3L-02358
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-02629_LSCC	phs001287_C3L-02629
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3N-00154_CCRCC	phs001287_C3N-00154
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-02164_LSCC	phs001287_C3L-02164
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_11OV002_OV	phs001287_11OV002
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3L-00994_HNSCC	phs001287_C3L-00994
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3L-02955_GBM	phs001287_C3L-02955
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-01885_CCRCC	phs001287_C3L-01885
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-02890_PDAC	phs001287_C3L-02890
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3L-03260_GBM	phs001287_C3L-03260
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-02158_LUAD	phs001287_C3N-02158
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3L-00605_UCEC	phs001287_C3L-00605
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3L-04025_HNSCC	phs001287_C3L-04025
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3L-01744_UCEC	phs001287_C3L-01744
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3L-02708_GBM	phs001287_C3L-02708
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-00180_LUAD	phs001287_C3N-00180
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3L-03728_GBM	phs001287_C3L-03728
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_11CO062_COAD	phs001287_11CO062
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3L-01157_GBM	phs001287_C3L-01157
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-01488_LUAD	phs001287_C3N-01488
+BRCA	Cancer	Not Reported	Breast	diagnosis	phs001287_01BR023_BRCA	phs001287_01BR023
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_11LU022_LUAD	phs001287_11LU022
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-02283_LSCC	phs001287_C3N-02283
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_06BR003_BRCA	phs001287_06BR003
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-00497_LSCC	phs001287_C3N-00497
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-00017_PDAC	phs001287_C3L-00017
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-00223_LUAD	phs001287_C3N-00223
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-02379_LUAD	phs001287_C3N-02379
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_01OV018_OV	phs001287_01OV018
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_06CO002_COAD	phs001287_06CO002
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-03639_PDAC	phs001287_C3L-03639
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-02089_LUAD	phs001287_C3N-02089
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-04152_HNSCC	phs001287_C3N-04152
+BRCA	Cancer	Infiltrating Lobular Carcinoma, NOS	Breast	diagnosis	phs001287_03BR010_BRCA	phs001287_03BR010
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3N-00389_UCEC	phs001287_C3N-00389
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-03619_HNSCC	phs001287_C3N-03619
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-00095_LUAD	phs001287_C3L-00095
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-02116_PDAC	phs001287_C3L-02116
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3L-00769_UCEC	phs001287_C3L-00769
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3L-01154_GBM	phs001287_C3L-01154
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3N-00437_CCRCC	phs001287_C3N-00437
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-02285_LSCC	phs001287_C3N-02285
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-03069_PDAC	phs001287_C3N-03069
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-00568_LSCC	phs001287_C3L-00568
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_05CO049_COAD	phs001287_05CO049
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-02606_PDAC	phs001287_C3L-02606
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3L-00137_UCEC	phs001287_C3L-00137
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3L-00139_UCEC	phs001287_C3L-00139
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3N-00328_UCEC	phs001287_C3N-00328
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_09BR007_BRCA	phs001287_09BR007
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-04479_PDAC	phs001287_C3L-04479
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-00433_LUAD	phs001287_C3N-00433
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3L-00674_GBM	phs001287_C3L-00674
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3N-00743_UCEC	phs001287_C3N-00743
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-03875_LSCC	phs001287_C3N-03875
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-03630_PDAC	phs001287_C3L-03630
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-00957_PDAC	phs001287_C3N-00957
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3N-01261_CCRCC	phs001287_C3N-01261
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-03092_LSCC	phs001287_C3N-03092
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_04OV050_OV	phs001287_04OV050
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-04280_HNSCC	phs001287_C3N-04280
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3N-01367_GBM	phs001287_C3N-01367
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-01031_PDAC	phs001287_C3L-01031
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-00175_LUAD	phs001287_C3N-00175
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_05CO033_COAD	phs001287_05CO033
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_18BR016_BRCA	phs001287_18BR016
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_21CO006_COAD	phs001287_21CO006
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-04013_LSCC	phs001287_C3L-04013
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_11BR017_BRCA	phs001287_11BR017
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-02112_PDAC	phs001287_C3L-02112
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-01846_LSCC	phs001287_C3N-01846
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_02OV036_OV	phs001287_02OV036
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_14BR005_BRCA	phs001287_14BR005
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-01948_HNSCC	phs001287_C3N-01948
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-02695_HNSCC	phs001287_C3N-02695
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3N-01522_CCRCC	phs001287_C3N-01522
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_11BR049_BRCA	phs001287_11BR049
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3N-01515_GBM	phs001287_C3N-01515
+BRCA	Cancer	Infiltrating Lobular Carcinoma, NOS	Breast	diagnosis	phs001287_11BR047_BRCA	phs001287_11BR047
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-01553_CCRCC	phs001287_C3L-01553
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-01030_LUAD	phs001287_C3N-01030
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3L-00771_UCEC	phs001287_C3L-00771
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-00303_PDAC	phs001287_C3N-00303
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3N-00320_CCRCC	phs001287_C3N-00320
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3L-00358_UCEC	phs001287_C3L-00358
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_16CO011_COAD	phs001287_16CO011
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_11CO021_COAD	phs001287_11CO021
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-01945_HNSCC	phs001287_C3N-01945
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-00102_PDAC	phs001287_C3L-00102
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_26OV013_OV	phs001287_26OV013
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3L-00156_UCEC	phs001287_C3L-00156
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-01052_PDAC	phs001287_C3L-01052
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-02610_PDAC	phs001287_C3L-02610
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3N-00322_UCEC	phs001287_C3N-00322
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3N-00663_GBM	phs001287_C3N-00663
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3N-01178_CCRCC	phs001287_C3N-01178
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-01388_PDAC	phs001287_C3N-01388
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3L-00601_UCEC	phs001287_C3L-00601
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3L-03378_HNSCC	phs001287_C3L-03378
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-00792_CCRCC	phs001287_C3L-00792
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3L-03387_GBM	phs001287_C3L-03387
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-00556_LUAD	phs001287_C3N-00556
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3N-01219_UCEC	phs001287_C3N-01219
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-03849_HNSCC	phs001287_C3N-03849
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-02573_PDAC	phs001287_C3N-02573
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-04273_HNSCC	phs001287_C3N-04273
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3L-00161_UCEC	phs001287_C3L-00161
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_11CO027_COAD	phs001287_11CO027
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_11CO039_COAD	phs001287_11CO039
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-01924_LUAD	phs001287_C3L-01924
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3N-02185_GBM	phs001287_C3N-02185
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_01BR025_BRCA	phs001287_01BR025
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3L-01307_UCEC	phs001287_C3L-01307
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_02OV041_OV	phs001287_02OV041
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-02426_LSCC	phs001287_C3N-02426
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3L-03405_GBM	phs001287_C3L-03405
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-04611_HNSCC	phs001287_C3N-04611
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-00079_CCRCC	phs001287_C3L-00079
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-03488_HNSCC	phs001287_C3N-03488
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_01BR017_BRCA	phs001287_01BR017
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-02963_LSCC	phs001287_C3L-02963
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_20CO001_COAD	phs001287_20CO001
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-03093_LSCC	phs001287_C3N-03093
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_05BR001_BRCA	phs001287_05BR001
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-01352_CCRCC	phs001287_C3L-01352
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-02425_LSCC	phs001287_C3N-02425
+BRCA	Cancer	Invasive Lobular Carcinoma	Breast	diagnosis	phs001287_03BR011_BRCA	phs001287_03BR011
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-03880_LSCC	phs001287_C3N-03880
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-00552_LUAD	phs001287_C3N-00552
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3L-04354_HNSCC	phs001287_C3L-04354
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_17OV030_OV	phs001287_17OV030
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-00307_HNSCC	phs001287_C3N-00307
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3N-00494_CCRCC	phs001287_C3N-00494
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-01381_PDAC	phs001287_C3N-01381
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-02585_PDAC	phs001287_C3N-02585
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-00857_HNSCC	phs001287_C3N-00857
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-00828_HNSCC	phs001287_C3N-00828
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-00080_LUAD	phs001287_C3L-00080
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3L-01146_GBM	phs001287_C3L-01146
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-01836_CCRCC	phs001287_C3L-01836
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-00917_CCRCC	phs001287_C3L-00917
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-01017_LSCC	phs001287_C3N-01017
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-02549_LUAD	phs001287_C3L-02549
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-03430_PDAC	phs001287_C3N-03430
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-02002_LUAD	phs001287_C3N-02002
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_01BR031_BRCA	phs001287_01BR031
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_11BR023_BRCA	phs001287_11BR023
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3L-00563_UCEC	phs001287_C3L-00563
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3N-01213_CCRCC	phs001287_C3N-01213
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-03458_HNSCC	phs001287_C3N-03458
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-00189_PDAC	phs001287_C3L-00189
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-03072_LSCC	phs001287_C3N-03072
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3N-00246_CCRCC	phs001287_C3N-00246
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3L-00586_UCEC	phs001287_C3L-00586
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3N-01521_UCEC	phs001287_C3N-01521
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_09CO018_COAD	phs001287_09CO018
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3L-04791_HNSCC	phs001287_C3L-04791
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_01OV023_OV	phs001287_01OV023
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-02891_LSCC	phs001287_C3L-02891
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-00993_LSCC	phs001287_C3L-00993
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-02300_LSCC	phs001287_C3N-02300
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_05BR005_BRCA	phs001287_05BR005
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-00910_CCRCC	phs001287_C3L-00910
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-00599_PDAC	phs001287_C3L-00599
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-01714_PDAC	phs001287_C3N-01714
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-00081_LSCC	phs001287_C3L-00081
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_01BR040_BRCA	phs001287_01BR040
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3N-00324_UCEC	phs001287_C3N-00324
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-01842_LUAD	phs001287_C3N-01842
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_11CO054_COAD	phs001287_11CO054
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-03439_PDAC	phs001287_C3N-03439
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_01CO008_COAD	phs001287_01CO008
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_02OV022_OV	phs001287_02OV022
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-02660_LSCC	phs001287_C3L-02660
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-00902_CCRCC	phs001287_C3L-00902
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-03754_PDAC	phs001287_C3N-03754
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_04OV011_OV	phs001287_04OV011
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_06BR005_BRCA	phs001287_06BR005
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-00412_LUAD	phs001287_C3L-00412
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_06BR006_BRCA	phs001287_06BR006
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-02586_LUAD	phs001287_C3N-02586
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-01703_PDAC	phs001287_C3L-01703
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_04OV017_OV	phs001287_04OV017
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-00306_HNSCC	phs001287_C3N-00306
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-02964_LSCC	phs001287_C3L-02964
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_05CO032_COAD	phs001287_05CO032
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_17OV025_OV	phs001287_17OV025
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_11CO048_COAD	phs001287_11CO048
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_11CO018_COAD	phs001287_11CO018
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-03635_PDAC	phs001287_C3L-03635
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_03BR002_BRCA	phs001287_03BR002
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_11BR038_BRCA	phs001287_11BR038
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3N-00335_UCEC	phs001287_C3N-00335
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3N-01349_UCEC	phs001287_C3N-01349
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_15CO002_COAD	phs001287_15CO002
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_02OV046_OV	phs001287_02OV046
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_11BR030_BRCA	phs001287_11BR030
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3L-02970_GBM	phs001287_C3L-02970
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_11BR075_BRCA	phs001287_11BR075
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3L-00365_GBM	phs001287_C3L-00365
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-01285_LSCC	phs001287_C3L-01285
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3N-02770_GBM	phs001287_C3N-02770
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_01OV026_OV	phs001287_01OV026
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3L-02465_GBM	phs001287_C3L-02465
+BRCA	Cancer	Infiltrating Lobular Carcinoma, NOS	Breast	diagnosis	phs001287_05BR009_BRCA	phs001287_05BR009
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3N-00326_UCEC	phs001287_C3N-00326
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-01823_LUAD	phs001287_C3N-01823
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3N-00729_UCEC	phs001287_C3N-00729
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-03015_HNSCC	phs001287_C3N-03015
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_11LU016_LUAD	phs001287_11LU016
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-00604_LUAD	phs001287_C3L-00604
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-01024_LUAD	phs001287_C3N-01024
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_15CO001_COAD	phs001287_15CO001
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-01074_LUAD	phs001287_C3N-01074
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3L-01311_UCEC	phs001287_C3L-01311
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_01CO005_COAD	phs001287_01CO005
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-00825_HNSCC	phs001287_C3N-00825
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_18BR019_BRCA	phs001287_18BR019
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3N-00858_UCEC	phs001287_C3N-00858
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-03000_PDAC	phs001287_C3N-03000
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-02944_PDAC	phs001287_C3N-02944
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_05CO048_COAD	phs001287_05CO048
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-02288_LSCC	phs001287_C3N-02288
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-01281_CCRCC	phs001287_C3L-01281
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3N-00435_CCRCC	phs001287_C3N-00435
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-03272_LSCC	phs001287_C3L-03272
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-00302_PDAC	phs001287_C3N-00302
+BRCA	Cancer	Not Reported	Breast	diagnosis	phs001287_01BR026_BRCA	phs001287_01BR026
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-01012_PDAC	phs001287_C3N-01012
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_01CO014_COAD	phs001287_01CO014
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_17OV013_OV	phs001287_17OV013
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3L-01304_UCEC	phs001287_C3L-01304
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-04284_PDAC	phs001287_C3N-04284
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3L-00963_UCEC	phs001287_C3L-00963
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3N-01211_UCEC	phs001287_C3N-01211
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-03780_PDAC	phs001287_C3N-03780
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-00368_LUAD	phs001287_C3L-00368
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-03061_PDAC	phs001287_C3N-03061
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_11BR059_BRCA	phs001287_11BR059
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-01947_HNSCC	phs001287_C3N-01947
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-01016_LUAD	phs001287_C3N-01016
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-02279_HNSCC	phs001287_C3N-02279
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-03961_LSCC	phs001287_C3L-03961
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3N-01366_GBM	phs001287_C3N-01366
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3N-01267_UCEC	phs001287_C3N-01267
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-00418_CCRCC	phs001287_C3L-00418
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-00561_CCRCC	phs001287_C3L-00561
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-00026_CCRCC	phs001287_C3L-00026
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-01838_LSCC	phs001287_C3L-01838
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3N-00388_UCEC	phs001287_C3N-00388
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-00519_HNSCC	phs001287_C3N-00519
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_26OV011_OV	phs001287_26OV011
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_02OV023_OV	phs001287_02OV023
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-01620_HNSCC	phs001287_C3N-01620
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3N-00312_CCRCC	phs001287_C3N-00312
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-03632_PDAC	phs001287_C3L-03632
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_05BR045_BRCA	phs001287_05BR045
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_02OV029_OV	phs001287_02OV029
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-02646_LSCC	phs001287_C3L-02646
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_01BR027_BRCA	phs001287_01BR027
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_11BR006_BRCA	phs001287_11BR006
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_09CO019_COAD	phs001287_09CO019
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-02289_LSCC	phs001287_C3N-02289
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_04OV001_OV	phs001287_04OV001
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-02087_LUAD	phs001287_C3N-02087
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3L-00098_UCEC	phs001287_C3L-00098
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-01715_PDAC	phs001287_C3N-01715
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-00881_PDAC	phs001287_C3L-00881
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-00294_LUAD	phs001287_C3N-00294
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_11CO032_COAD	phs001287_11CO032
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_05BR044_BRCA	phs001287_05BR044
+BRCA	Cancer	Infiltrating Lobular Carcinoma, NOS	Breast	diagnosis	phs001287_11BR013_BRCA	phs001287_11BR013
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-04473_PDAC	phs001287_C3L-04473
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-01023_LUAD	phs001287_C3N-01023
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3N-01196_GBM	phs001287_C3N-01196
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-02434_LSCC	phs001287_C3N-02434
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-02897_PDAC	phs001287_C3L-02897
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-04495_PDAC	phs001287_C3L-04495
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-04276_HNSCC	phs001287_C3N-04276
+BRCA	Cancer	Infiltrating Lobular Carcinoma, NOS	Breast	diagnosis	phs001287_01BR033_BRCA	phs001287_01BR033
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-02349_LSCC	phs001287_C3L-02349
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-01340_HNSCC	phs001287_C3N-01340
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-01598_PDAC	phs001287_C3L-01598
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3L-03390_GBM	phs001287_C3L-03390
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-00167_LUAD	phs001287_C3N-00167
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_09BR004_BRCA	phs001287_09BR004
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3N-00852_CCRCC	phs001287_C3N-00852
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-00416_CCRCC	phs001287_C3L-00416
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3N-00242_CCRCC	phs001287_C3N-00242
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-02523_LSCC	phs001287_C3N-02523
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_20BR001_BRCA	phs001287_20BR001
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-01021_LUAD	phs001287_C3N-01021
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-00738_LUAD	phs001287_C3N-00738
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-01632_LUAD	phs001287_C3L-01632
+BRCA	Cancer	Not Reported	Breast	diagnosis	phs001287_604_BRCA	phs001287_604
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_11CO010_COAD	phs001287_11CO010
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-00871_HNSCC	phs001287_C3N-00871
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-02219_LUAD	phs001287_C3L-02219
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-02067_LUAD	phs001287_C3N-02067
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3L-01046_GBM	phs001287_C3L-01046
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3N-01517_GBM	phs001287_C3N-01517
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3N-03184_GBM	phs001287_C3N-03184
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3N-02783_GBM	phs001287_C3N-02783
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-03173_PDAC	phs001287_C3N-03173
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3N-00836_UCEC	phs001287_C3N-00836
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-04275_HNSCC	phs001287_C3N-04275
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3L-01248_UCEC	phs001287_C3L-01248
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3L-02651_HNSCC	phs001287_C3L-02651
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3N-00386_UCEC	phs001287_C3N-00386
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3N-01175_CCRCC	phs001287_C3N-01175
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_11CO022_COAD	phs001287_11CO022
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3N-03188_GBM	phs001287_C3N-03188
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-03839_PDAC	phs001287_C3N-03839
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_05CO039_COAD	phs001287_05CO039
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-03428_PDAC	phs001287_C3N-03428
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_05CO044_COAD	phs001287_05CO044
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_18BR003_BRCA	phs001287_18BR003
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_11CO030_COAD	phs001287_11CO030
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-03487_HNSCC	phs001287_C3N-03487
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_01CO013_COAD	phs001287_01CO013
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3L-01282_UCEC	phs001287_C3L-01282
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_27CO004_COAD	phs001287_27CO004
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-00625_PDAC	phs001287_C3L-00625
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-00198_PDAC	phs001287_C3N-00198
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3L-01048_GBM	phs001287_C3L-01048
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3N-01857_GBM	phs001287_C3N-01857
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_18OV001_OV	phs001287_18OV001
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-03190_PDAC	phs001287_C3N-03190
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_26OV009_OV	phs001287_26OV009
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-04278_HNSCC	phs001287_C3N-04278
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-01687_PDAC	phs001287_C3L-01687
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3L-00949_UCEC	phs001287_C3L-00949
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-01663_LSCC	phs001287_C3L-01663
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-02625_LSCC	phs001287_C3L-02625
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-02435_LSCC	phs001287_C3N-02435
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3L-02542_GBM	phs001287_C3L-02542
+BRCA	Cancer	Infiltrating Duct And Mucinous Carcinoma	Breast	diagnosis	phs001287_18BR004_BRCA	phs001287_18BR004
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3L-01043_GBM	phs001287_C3L-01043
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3N-00149_CCRCC	phs001287_C3N-00149
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3N-01520_UCEC	phs001287_C3N-01520
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3N-02190_GBM	phs001287_C3N-02190
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3N-01646_CCRCC	phs001287_C3N-01646
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_09CO011_COAD	phs001287_09CO011
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_01BR018_BRCA	phs001287_01BR018
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3L-01252_UCEC	phs001287_C3L-01252
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-03204_LSCC	phs001287_C3N-03204
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-01028_LSCC	phs001287_C3N-01028
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3L-01834_GBM	phs001287_C3L-01834
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_11BR058_BRCA	phs001287_11BR058
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_11CO053_COAD	phs001287_11CO053
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3L-00961_UCEC	phs001287_C3L-00961
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_11BR020_BRCA	phs001287_11BR020
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-04080_PDAC	phs001287_C3L-04080
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_04OV008_OV	phs001287_04OV008
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-04014_LSCC	phs001287_C3L-04014
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3L-02705_GBM	phs001287_C3L-02705
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3N-00177_CCRCC	phs001287_C3N-00177
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_05CO054_COAD	phs001287_05CO054
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_11BR073_BRCA	phs001287_11BR073
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-00560_LUAD	phs001287_C3N-00560
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-03076_LSCC	phs001287_C3N-03076
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_17OV040_OV	phs001287_17OV040
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-02613_PDAC	phs001287_C3L-02613
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3N-01651_CCRCC	phs001287_C3N-01651
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3N-00834_CCRCC	phs001287_C3N-00834
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-02727_HNSCC	phs001287_C3N-02727
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-00359_CCRCC	phs001287_C3L-00359
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-03963_LSCC	phs001287_C3L-03963
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_03BR004_BRCA	phs001287_03BR004
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-02604_PDAC	phs001287_C3L-02604
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3L-03400_GBM	phs001287_C3L-03400
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-04283_PDAC	phs001287_C3N-04283
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_09CO005_COAD	phs001287_09CO005
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_05CO047_COAD	phs001287_05CO047
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_11BR010_BRCA	phs001287_11BR010
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3N-01180_CCRCC	phs001287_C3N-01180
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_11LU013_LUAD	phs001287_11LU013
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-02716_HNSCC	phs001287_C3N-02716
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-04072_PDAC	phs001287_C3L-04072
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-01861_CCRCC	phs001287_C3L-01861
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-00516_PDAC	phs001287_C3N-00516
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-01893_LSCC	phs001287_C3N-01893
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3N-02183_GBM	phs001287_C3N-02183
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3N-00495_CCRCC	phs001287_C3N-00495
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-01752_HNSCC	phs001287_C3N-01752
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3N-02255_GBM	phs001287_C3N-02255
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_04OV054_OV	phs001287_04OV054
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-02669_LSCC	phs001287_C3L-02669
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-01020_LSCC	phs001287_C3N-01020
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3L-01257_UCEC	phs001287_C3L-01257
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_01OV039_OV	phs001287_01OV039
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3N-01200_CCRCC	phs001287_C3N-01200
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-01889_LUAD	phs001287_C3L-01889
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_11CO005_COAD	phs001287_11CO005
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-01168_PDAC	phs001287_C3N-01168
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-02010_PDAC	phs001287_C3N-02010
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_09CO013_COAD	phs001287_09CO013
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-00140_LUAD	phs001287_C3L-00140
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-01689_PDAC	phs001287_C3L-01689
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-00277_PDAC	phs001287_C3L-00277
+BRCA	Cancer	Infiltrating Lobular Carcinoma, NOS	Breast	diagnosis	phs001287_11BR018_BRCA	phs001287_11BR018
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3L-00145_UCEC	phs001287_C3L-00145
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-03042_HNSCC	phs001287_C3N-03042
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-03785_HNSCC	phs001287_C3N-03785
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_11CO052_COAD	phs001287_11CO052
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3L-03744_GBM	phs001287_C3L-03744
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_04OV023_OV	phs001287_04OV023
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-01338_HNSCC	phs001287_C3N-01338
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3N-01364_GBM	phs001287_C3N-01364
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3N-02785_GBM	phs001287_C3N-02785
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3N-02786_GBM	phs001287_C3N-02786
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_11BR025_BRCA	phs001287_11BR025
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-02713_HNSCC	phs001287_C3N-02713
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-03886_LSCC	phs001287_C3N-03886
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_11BR080_BRCA	phs001287_11BR080
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_11BR043_BRCA	phs001287_11BR043
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-02463_PDAC	phs001287_C3L-02463
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_05CO029_COAD	phs001287_05CO029
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-02508_LUAD	phs001287_C3L-02508
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-03008_HNSCC	phs001287_C3N-03008
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-01862_LUAD	phs001287_C3L-01862
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3L-01142_GBM	phs001287_C3L-01142
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3N-02784_GBM	phs001287_C3N-02784
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-01858_HNSCC	phs001287_C3N-01858
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-03457_HNSCC	phs001287_C3N-03457
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-02968_LSCC	phs001287_C3L-02968
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-01998_PDAC	phs001287_C3N-01998
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-00928_PDAC	phs001287_C3L-00928
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3L-02041_GBM	phs001287_C3L-02041
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-02275_HNSCC	phs001287_C3N-02275
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_09CO006_COAD	phs001287_09CO006
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3N-02769_GBM	phs001287_C3N-02769
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_01OV041_OV	phs001287_01OV041
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-01557_CCRCC	phs001287_C3L-01557
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3N-01649_CCRCC	phs001287_C3N-01649
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-03086_PDAC	phs001287_C3N-03086
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3N-03183_GBM	phs001287_C3N-03183
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_04OV024_OV	phs001287_04OV024
+BRCA	Cancer	Infiltrating Lobular Carcinoma, NOS	Breast	diagnosis	phs001287_14BR008_BRCA	phs001287_14BR008
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_02OV044_OV	phs001287_02OV044
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_17OV029_OV	phs001287_17OV029
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_17OV027_OV	phs001287_17OV027
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_18BR002_BRCA	phs001287_18BR002
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-01455_LSCC	phs001287_C3L-01455
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3L-03407_GBM	phs001287_C3L-03407
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_04OV049_OV	phs001287_04OV049
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-00923_LSCC	phs001287_C3L-00923
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-00572_LUAD	phs001287_C3N-00572
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3N-00383_UCEC	phs001287_C3N-00383
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-02339_LSCC	phs001287_C3N-02339
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3N-00880_UCEC	phs001287_C3N-00880
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-02998_PDAC	phs001287_C3N-02998
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-01124_PDAC	phs001287_C3L-01124
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3L-01256_UCEC	phs001287_C3L-01256
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3N-01802_UCEC	phs001287_C3N-01802
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_05BR003_BRCA	phs001287_05BR003
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-00247_LSCC	phs001287_C3N-00247
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-03851_LSCC	phs001287_C3N-03851
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_04OV055_OV	phs001287_04OV055
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-02433_LUAD	phs001287_C3N-02433
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_11BR024_BRCA	phs001287_11BR024
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_04OV018_OV	phs001287_04OV018
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3L-00995_HNSCC	phs001287_C3L-00995
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_05CO035_COAD	phs001287_05CO035
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-01283_CCRCC	phs001287_C3L-01283
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3L-02704_GBM	phs001287_C3L-02704
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-04853_PDAC	phs001287_C3L-04853
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-00622_PDAC	phs001287_C3L-00622
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-00510_LUAD	phs001287_C3L-00510
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3L-00781_UCEC	phs001287_C3L-00781
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_05BR016_BRCA	phs001287_05BR016
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-03888_HNSCC	phs001287_C3N-03888
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-00578_LUAD	phs001287_C3N-00578
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_05CO006_COAD	phs001287_05CO006
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-00581_CCRCC	phs001287_C3L-00581
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-01286_CCRCC	phs001287_C3L-01286
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-01603_CCRCC	phs001287_C3L-01603
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-04475_PDAC	phs001287_C3L-04475
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-04848_PDAC	phs001287_C3L-04848
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-01758_HNSCC	phs001287_C3N-01758
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-01502_PDAC	phs001287_C3N-01502
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-00199_LUAD	phs001287_C3N-00199
+BRCA	Cancer	Not Reported	Breast	diagnosis	phs001287_01BR010_BRCA	phs001287_01BR010
+BRCA	Cancer	Infiltrating Duct And Lobular Carcinoma	Breast	diagnosis	phs001287_11BR019_BRCA	phs001287_11BR019
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3L-00921_UCEC	phs001287_C3L-00921
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3N-01510_UCEC	phs001287_C3N-01510
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_04OV051_OV	phs001287_04OV051
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-01416_LUAD	phs001287_C3N-01416
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-00913_LUAD	phs001287_C3L-00913
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-00169_LUAD	phs001287_C3N-00169
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_11BR055_BRCA	phs001287_11BR055
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3L-02984_GBM	phs001287_C3L-02984
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-01071_LUAD	phs001287_C3N-01071
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-01943_HNSCC	phs001287_C3N-01943
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-01025_LSCC	phs001287_C3N-01025
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3N-00734_UCEC	phs001287_C3N-00734
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3N-00847_UCEC	phs001287_C3N-00847
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-00546_LUAD	phs001287_C3N-00546
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-03486_LSCC	phs001287_C3N-03486
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_11BR031_BRCA	phs001287_11BR031
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3L-01149_GBM	phs001287_C3L-01149
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-00603_LSCC	phs001287_C3L-00603
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-03039_PDAC	phs001287_C3N-03039
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_18BR009_BRCA	phs001287_18BR009
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_17OV036_OV	phs001287_17OV036
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_22BR006_BRCA	phs001287_22BR006
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-01489_LUAD	phs001287_C3N-01489
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3L-00136_UCEC	phs001287_C3L-00136
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_17OV014_OV	phs001287_17OV014
+BRCA	Cancer	Infiltrating Lobular Carcinoma, NOS	Breast	diagnosis	phs001287_03BR005_BRCA	phs001287_03BR005
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-03662_LSCC	phs001287_C3N-03662
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_15OV001_OV	phs001287_15OV001
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-00819_PDAC	phs001287_C3L-00819
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-01072_LUAD	phs001287_C3N-01072
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3L-00780_UCEC	phs001287_C3L-00780
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_16CO002_COAD	phs001287_16CO002
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-01645_HNSCC	phs001287_C3N-01645
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-04027_PDAC	phs001287_C3L-04027
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-03211_PDAC	phs001287_C3N-03211
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3L-01138_HNSCC	phs001287_C3L-01138
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-00295_HNSCC	phs001287_C3N-00295
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-04126_PDAC	phs001287_C3N-04126
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-00893_LUAD	phs001287_C3L-00893
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_01CO015_COAD	phs001287_01CO015
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3L-00104_GBM	phs001287_C3L-00104
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-03045_HNSCC	phs001287_C3N-03045
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_11CO072_COAD	phs001287_11CO072
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_11BR027_BRCA	phs001287_11BR027
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_20BR006_BRCA	phs001287_20BR006
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-00204_HNSCC	phs001287_C3N-00204
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3N-01369_GBM	phs001287_C3N-01369
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_11CO045_COAD	phs001287_11CO045
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_17OV001_OV	phs001287_17OV001
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-01036_PDAC	phs001287_C3L-01036
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-00010_CCRCC	phs001287_C3L-00010
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_17OV002_OV	phs001287_17OV002
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3L-00449_UCEC	phs001287_C3L-00449
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-03441_LSCC	phs001287_C3N-03441
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_11BR003_BRCA	phs001287_11BR003
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_04OV012_OV	phs001287_04OV012
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_17OV028_OV	phs001287_17OV028
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3L-01246_UCEC	phs001287_C3L-01246
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3N-00850_UCEC	phs001287_C3N-00850
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-00817_CCRCC	phs001287_C3L-00817
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_22CO006_COAD	phs001287_22CO006
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3L-03394_PDAC	phs001287_C3L-03394
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-02546_LSCC	phs001287_C3L-02546
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-00927_LSCC	phs001287_C3L-00927
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3N-00150_CCRCC	phs001287_C3N-00150
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_04OV021_OV	phs001287_04OV021
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3N-00339_UCEC	phs001287_C3N-00339
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-01859_HNSCC	phs001287_C3N-01859
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-03424_LSCC	phs001287_C3N-03424
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3L-03681_GBM	phs001287_C3L-03681
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3L-00143_UCEC	phs001287_C3L-00143
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-00791_CCRCC	phs001287_C3L-00791
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-01560_CCRCC	phs001287_C3L-01560
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-03884_PDAC	phs001287_C3N-03884
+OV	Cancer	Serous Adenocarcinoma, NOS	Ovary	diagnosis	phs001287_04OV048_OV	phs001287_04OV048
+GBM	Cancer	Glioblastoma	Brain	diagnosis	phs001287_C3L-03968_GBM	phs001287_C3L-03968
+UCEC	Cancer	Endometrioid Adenocarcinoma, NOS	Uterus	diagnosis	phs001287_C3L-00942_UCEC	phs001287_C3L-00942
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-03664_HNSCC	phs001287_C3N-03664
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_01CO022_COAD	phs001287_01CO022
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-01756_HNSCC	phs001287_C3N-01756
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3N-02284_LSCC	phs001287_C3N-02284
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3L-00997_HNSCC	phs001287_C3L-00997
+LUAD	Cancer	Adenocarcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-02350_LUAD	phs001287_C3L-02350
+LSCC	Cancer	Squamous Cell Carcinoma, NOS	Bronchus and Lung	diagnosis	phs001287_C3L-02130_LSCC	phs001287_C3L-02130
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_01CO019_COAD	phs001287_01CO019
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_11BR074_BRCA	phs001287_11BR074
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-00766_CCRCC	phs001287_C3L-00766
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_11BR040_BRCA	phs001287_11BR040
+BRCA	Cancer	Infiltrating Duct Carcinoma NOS	Breast	diagnosis	phs001287_11BR072_BRCA	phs001287_11BR072
+HNSCC	Cancer	Squamous Cell Carcinoma, NOS	Head and Neck	diagnosis	phs001287_C3N-03620_HNSCC	phs001287_C3N-03620
+PDAC	Cancer	Infiltrating Duct Carcinoma NOS	Pancreas	diagnosis	phs001287_C3N-02592_PDAC	phs001287_C3N-02592
+CCRCC	Cancer	Renal Cell Carcinoma, NOS	Kidney	diagnosis	phs001287_C3L-00813_CCRCC	phs001287_C3L-00813
+COAD	Cancer	Adenocarcinoma, NOS	Intestine	diagnosis	phs001287_11CO044_COAD	phs001287_11CO044

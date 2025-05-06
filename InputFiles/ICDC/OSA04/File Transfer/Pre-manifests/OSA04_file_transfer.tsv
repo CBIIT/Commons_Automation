@@ -1,0 +1,33 @@
+type	 case.case_id	 study.clinical_study_designation	 sample.sample_id	 diagnosis.diagnosis_id	file_name	file_type	file_description	original_file_size	original_md5sum			
+file			OSA04-A-Tumor		OSA04-A-Tumor_1_SL325656.fastq.gz	RNA Sequence File	Raw RNA sequence file for OSA04-A-Tumor (read 1)	1216661403	82daa0767e9a8108a506564473c8a641			
+file			OSA04-A-Tumor		OSA04-A-Tumor_2_SL325656.fastq.gz	RNA Sequence File	Raw RNA sequence file for OSA04-A-Tumor (read 2)	1255901573	8b92473d76712d8324d742dd8821d9cb			
+file			OSA04-A-Normal		OSA04-A-Normal_1_SL325661.fastq.gz	RNA Sequence File	Raw RNA sequence file for OSA04-A-Normal (read 1)	1503367906	7b99d452e5253515ec262951252d521b			
+file			OSA04-A-Normal		OSA04-A-Normal_2_SL325661.fastq.gz	RNA Sequence File	Raw RNA sequence file for OSA04-A-Normal (read 2)	1532670272	59e76cd8e20aaaf59e39d3648d74288c			
+file			OSA04-B-Tumor		OSA04-B-Tumor_1_SL325657.fastq.gz	RNA Sequence File	Raw RNA sequence file for OSA04-B-Tumor (read 1)	1586721511	4dc01670e54a07059278a6399c32f453			
+file			OSA04-B-Tumor		OSA04-B-Tumor_2_SL325657.fastq.gz	RNA Sequence File	Raw RNA sequence file for OSA04-B-Tumor (read 2)	1638826757	0999f4658148337a392d135d28a34b50			
+file			OSA04-B-Normal		OSA04-B-Normal_1_SL325662.fastq.gz	RNA Sequence File	Raw RNA sequence file for OSA04-B-Normal (read 1)	1519660041	6e4d35136a3e6f12da147733fae14805			
+file			OSA04-B-Normal		OSA04-B-Normal_2_SL325662.fastq.gz	RNA Sequence File	Raw RNA sequence file for OSA04-B-Normal (read 2)	1562607850	affd31285be97e755aeebc7430149bd3			
+file			OSA04-C-Tumor		OSA04-C-Tumor_1_SL325658.fastq.gz	RNA Sequence File	Raw RNA sequence file for OSA04-C-Tumor (read 1)	1003601064	55adc4436e2a2847a8ce912389636784			
+file			OSA04-C-Tumor		OSA04-C-Tumor_2_SL325658.fastq.gz	RNA Sequence File	Raw RNA sequence file for OSA04-C-Tumor (read 2)	1033192113	e62ea774d3ac566ff378891926f307a1			
+file			OSA04-C-Normal		OSA04-C-Normal_1_SL325663.fastq.gz	RNA Sequence File	Raw RNA sequence file for OSA04-C-Normal (read 1)	1554290671	3773570401caf42da49fbde810dced06			
+file			OSA04-C-Normal		OSA04-C-Normal_2_SL325663.fastq.gz	RNA Sequence File	Raw RNA sequence file for OSA04-C-Normal (read 2)	1603266107	e2bdcbe86f96a11d713f7df7eda61e35			
+file			OSA04-D-Tumor		OSA04-D-Tumor_1_SL325659.fastq.gz	RNA Sequence File	Raw RNA sequence file for OSA04-D-Tumor (read 1)	1365694457	a5834dcbc69512288b8be13594d0846d			
+file			OSA04-D-Tumor		OSA04-D-Tumor_2_SL325659.fastq.gz	RNA Sequence File	Raw RNA sequence file for OSA04-D-Tumor (read 2)	1406005367	6743c1d3a9d4478485f5971ac36ee1d7			
+file			OSA04-D-Normal		OSA04-D-Normal_1_SL325660.fastq.gz	RNA Sequence File	Raw RNA sequence file for OSA04-D-Normal (read 1)	1720391833	458c8e2333945a8281dd99d46ad5ea73			
+file			OSA04-D-Normal		OSA04-D-Normal_2_SL325660.fastq.gz	RNA Sequence File	Raw RNA sequence file for OSA04-D-Normal (read 2)	1763199747	85ecdeb7a1271ce0eb5569ecfce91126			
+file			OSA04-E-Tumor		OSA04-E-Tumor_1_SL325664.fastq.gz	RNA Sequence File	Raw RNA sequence file for OSA04-E-Tumor (read 1)	1501683120	d5f9fbc6f3a4fb62c4a654c38d627322			
+file			OSA04-E-Tumor		OSA04-E-Tumor_2_SL325664.fastq.gz	RNA Sequence File	Raw RNA sequence file for OSA04-E-Tumor (read 2)	1538302167	eafa03b096e6c82f7d71efd4d0c923bd			
+file			OSA04-E-Normal		OSA04-E-Normal_1_SL325665.fastq.gz	RNA Sequence File	Raw RNA sequence file for OSA04-E-Normal (read 1)	1538223328	09e9f2a1b7cc1eb357f486b24cbeb209			
+file			OSA04-E-Normal		OSA04-E-Normal_2_SL325665.fastq.gz	RNA Sequence File	Raw RNA sequence file for OSA04-E-Normal (read 2)	1574829297	e2d46ba323b19927e33255bddc5da60b			
+file			OSA04-F-Tumor		OSA04-F-Tumor_1_SL325670.fastq.gz	RNA Sequence File	Raw RNA sequence file for OSA04-F-Tumor (read 1)	1501873273	e2ffbd90a4ae76387ffff087a401094d			
+file			OSA04-F-Tumor		OSA04-F-Tumor_2_SL325670.fastq.gz	RNA Sequence File	Raw RNA sequence file for OSA04-F-Tumor (read 2)	1539965472	73bfdb6e616447d3dd075dcb9075b30e			
+file			OSA04-F-Normal		OSA04-F-Normal_1_SL325671.fastq.gz	RNA Sequence File	Raw RNA sequence file for OSA04-F-Normal (read 1)	1722669909	e4d116c66c739e53efd3b9ad9eec51f6			
+file			OSA04-F-Normal		OSA04-F-Normal_2_SL325671.fastq.gz	RNA Sequence File	Raw RNA sequence file for OSA04-F-Normal (read 2)	1779662340	6fb287456f791bcaf38017539f88461a			
+file			OSA04-G-Tumor		OSA04-G-Tumor_1_SL325666.fastq.gz	RNA Sequence File	Raw RNA sequence file for OSA04-G-Tumor (read 1)	1507173766	ea33dfb30acd4d98d0c7132915993931			
+file			OSA04-G-Tumor		OSA04-G-Tumor_2_SL325666.fastq.gz	RNA Sequence File	Raw RNA sequence file for OSA04-G-Tumor (read 2)	1544596954	768beae4df6394145f7249b452f2875f			
+file			OSA04-G-Normal		OSA04-G-Normal_1_SL325667.fastq.gz	RNA Sequence File	Raw RNA sequence file for OSA04-G-Normal (read 1)	1654563643	d832f2c322e8ca53b2deeaaefff69770			
+file			OSA04-G-Normal		OSA04-G-Normal_2_SL325667.fastq.gz	RNA Sequence File	Raw RNA sequence file for OSA04-G-Normal (read 2)	1713418006	92e920f444aaad3074d815480f9ddcb5			
+file			OSA04-C-Tumor		OSA04-C-Tumor_filtered_feature_bc_matrix.h5	scH5 Matrix File	Single-nuclei multiome sequencing filtered H5 matrix file for OSA04-C-Tumor	66488728	c8ea151e2874f3b5f3e2c9c70fb33870			
+file			OSA04-C-Tumor		OSA04-C-Tumor_features.tsv.gz	scRNA Sequence File	Single-nuclei multiome sequencing features for OSA04-C-Tumor	2240364	59518e88832de8afb87d999a3fcac31e			
+file			OSA04-C-Tumor		OSA04-C-Tumor_barcodes.tsv.gz	scRNA Sequence File	Single-nuclei multiome sequencing barcodes file for OSA04-C-Tumor	24849	ccd89498d20540f90ca97a9e86b3ab64			
+file			OSA04-C-Tumor		OSA04-C-Tumor_atac_fragments.tsv.gz	scATAC Sequence File	Single-nuclei multiome sequencing ATAC fragments file for OSA04-C-Tumor	1920882177	7717750891426a5de75ca4b54c7ba3cd			

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_CCDI_phs002518_Race-Hispanic_Lastknwnsrv-Alive_Diagnosisanatste-C418OverlappingLesion</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1f91ee6a-66cb-4ed4-8369-9090fbb2ff68</testCaseGuid>
+</TestCaseEntity>

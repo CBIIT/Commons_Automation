@@ -1,0 +1,1103 @@
+type	study_participant_id	participant_id	race	crdc_id	gender	study.phs_accession	dbGaP_subject_id	ethnicity	sex
+participant	phs001287_01BR001	01BR001	Black or African American	a0dda4a3-1494-4d72-a893-ae6597315b3d	Female	phs001287	1362202	Not Hispanic or Latino	Female
+participant	phs001287_01BR008	01BR008	Black or African American	34326a09-6a6d-4d08-a788-b1788cc9bde4	Female	phs001287	2546262	Not Hispanic or Latino	Female
+participant	phs001287_01BR009	01BR009	Black or African American	bae4848f-f105-45d1-82f7-35e5eca8f974	Female	phs001287	2546263	Not Hispanic or Latino	Female
+participant	phs001287_01BR010	01BR010	Black or African American	545e831f-edc5-4b70-9c27-d677ca5b190c	Female	phs001287	2546264	Not Hispanic or Latino	Female
+participant	phs001287_01BR015	01BR015	White	a9c6f45b-d442-48fc-8406-fe83786c5ac7	Female	phs001287	1362203	Not Hispanic or Latino	Female
+participant	phs001287_01BR017	01BR017	White	607b6561-20d7-4026-a989-de33b73982b9	Female	phs001287	1362204	Not Hispanic or Latino	Female
+participant	phs001287_01BR018	01BR018	White	c272eb59-bdc4-400e-9724-a0eb36ae530e	Female	phs001287	1362205	Not Hispanic or Latino	Female
+participant	phs001287_01BR020	01BR020	Black or African American	3b2bac20-337a-4bc1-af85-cbfd31093423	Female	phs001287	2546265	Not Hispanic or Latino	Female
+participant	phs001287_01BR023	01BR023	White	00fd5f1a-7c61-4c47-9279-3e7c061121ec	Female	phs001287	2546266	Not Hispanic or Latino	Female
+participant	phs001287_01BR025	01BR025	Black or African American	ada0e121-c811-4a1d-8552-9721e0ee4ff9	Female	phs001287	1362206	Not Hispanic or Latino	Female
+participant	phs001287_01BR026	01BR026	White	71a68e59-d90c-4c0d-b134-265bf1c7efd0	Female	phs001287	2546267	Not Hispanic or Latino	Female
+participant	phs001287_01BR027	01BR027	Black or African American	dd6c7125-734a-4c11-990d-eeb9e41a94fc	Female	phs001287	1362207	Not Hispanic or Latino	Female
+participant	phs001287_01BR030	01BR030	Black or African American	55f68631-11be-4d0c-868c-d1c68b5b791b	Female	phs001287	1607103	Not Hispanic or Latino	Female
+participant	phs001287_01BR031	01BR031	Black or African American	f7e23e9c-308b-4c60-b8b2-cc47fe00f6d8	Female	phs001287	1607104	Not Hispanic or Latino	Female
+participant	phs001287_01BR032	01BR032	White	acccdc6a-924a-4ffd-a3e0-72bcdd0652e8	Female	phs001287	1607105	Not Hispanic or Latino	Female
+participant	phs001287_01BR033	01BR033	Black or African American	0e50371e-cdec-47e3-8369-a499eb810c15	Female	phs001287	1826069	Not Hispanic or Latino	Female
+participant	phs001287_01BR040	01BR040	Black or African American	a17e2c5a-7cdd-4b47-b438-bf83294db3b1	Female	phs001287	1839038	Not Hispanic or Latino	Female
+participant	phs001287_01BR042	01BR042	Black or African American	842aec48-3bc2-44c2-b906-cae73f73fb06	Female	phs001287	1839039	Unknown	Female
+participant	phs001287_01BR043	01BR043	White	a8718a58-53d3-4161-820d-952724ab8d9b	Female	phs001287	1839040	Not Hispanic or Latino	Female
+participant	phs001287_01BR044	01BR044	White	8be84371-4749-4175-999b-425a0ebed530	Female	phs001287	1839041	Unknown	Female
+participant	phs001287_01CO001	01CO001	White	c4d475b2-f381-467b-8ccd-64ee06eae2db	Male	phs001287	1147366	Not Hispanic or Latino	Male
+participant	phs001287_01CO005	01CO005	White	238c4d07-3187-46ab-95e4-cb68e3352cbe	Female	phs001287	1147367	Not Hispanic or Latino	Female
+participant	phs001287_01CO006	01CO006	White	e61a39fc-3c96-47ec-b398-3dad52cbda49	Female	phs001287	1362208	Not Hispanic or Latino	Female
+participant	phs001287_01CO008	01CO008	Black or African American	ebdc0499-57c2-42b6-9980-d83707d26d53	Female	phs001287	1362209	Not Hispanic or Latino	Female
+participant	phs001287_01CO013	01CO013	White	004b92e4-4b13-4680-99e9-8e21de49e30c	Male	phs001287	1607106	Not Hispanic or Latino	Male
+participant	phs001287_01CO014	01CO014	White	9ecd3ec2-7c80-48f4-9208-624e1116cab2	Female	phs001287	1826070	Not Hispanic or Latino	Female
+participant	phs001287_01CO015	01CO015	White	8aee4af3-cb70-443e-8210-83c9558a52e8	Male	phs001287	1607107	Not Hispanic or Latino	Male
+participant	phs001287_01CO019	01CO019	White	cc72f71f-d2e1-4128-af36-a3e0e1dc0cc2	Female	phs001287	1607108	Not Hispanic or Latino	Female
+participant	phs001287_01CO022	01CO022	White	6a2dc28a-7099-41c0-a537-be932b0a7ab2	Female	phs001287	1826071	Not Hispanic or Latino	Female
+participant	phs001287_01OV007	01OV007	White	e43183b3-7009-47c7-acd2-dffd96f2862b	Female	phs001287	1147369	Not Hispanic or Latino	Female
+participant	phs001287_01OV008	01OV008	White	575a8024-f4d9-49b6-9a35-0929a8cf5197	Female	phs001287	1147370	Not Hispanic or Latino	Female
+participant	phs001287_01OV010	01OV010	Black or African American	a2285b8a-3381-428f-b8fc-f855b799e980	Female	phs001287	1147371	Unknown	Female
+participant	phs001287_01OV013	01OV013	White	56939837-5da9-4974-b7b9-457cf9b807c2	Female	phs001287	1147372	Not Hispanic or Latino	Female
+participant	phs001287_01OV017	01OV017	White	73bad9ba-5b58-43b3-aa77-87799c9e2b92	Female	phs001287	1147373	Not Hispanic or Latino	Female
+participant	phs001287_01OV018	01OV018	White	eebb74b2-8745-44c5-bff3-a4f7283f134f	Female	phs001287	1147374	Not Hispanic or Latino	Female
+participant	phs001287_01OV019	01OV019	White	adfc2dec-eb49-4b49-958b-e324af748137	Female	phs001287	1147375	Not Hispanic or Latino	Female
+participant	phs001287_01OV023	01OV023	White	1f286649-3753-4657-8e97-1d983921e7b5	Female	phs001287	1362210	Not Hispanic or Latino	Female
+participant	phs001287_01OV026	01OV026	White	4c07772c-52d6-4bf4-95ac-7e26bd31769f	Female	phs001287	1147376	Not Hispanic or Latino	Female
+participant	phs001287_01OV029	01OV029	White	501531a7-6b59-4f46-8ce0-4317a1141276	Female	phs001287	1362211	Not Hispanic or Latino	Female
+participant	phs001287_01OV030	01OV030	White	fbde21a8-b096-41a3-b01e-d65e82a9bc84	Female	phs001287	1362212	Unknown	Female
+participant	phs001287_01OV039	01OV039	White	4f525ade-d029-4875-a697-b27c14ac3b53	Female	phs001287	1607109	Not Hispanic or Latino	Female
+participant	phs001287_01OV041	01OV041	White	acafc9a2-0844-4e18-bd8b-addfb35c5f5a	Female	phs001287	1607110	Not Hispanic or Latino	Female
+participant	phs001287_01OV047	01OV047	White	b1f84640-9467-4e19-93d6-eceaf94beb46	Female	phs001287	1826074	Not Hispanic or Latino	Female
+participant	phs001287_02OV005	02OV005	White	3bda9668-8eac-43f4-8f71-1daa3937525c	Female	phs001287	1147377	Not Hispanic or Latino	Female
+participant	phs001287_02OV006	02OV006	White	bd36028f-e0d4-4035-ba75-ea0b0100a7a7	Female	phs001287	1147378	Not Hispanic or Latino	Female
+participant	phs001287_02OV008	02OV008	White	b1c5b7d9-027a-4ee5-b6c7-45fa1698d3c9	Female	phs001287	1362213	Not Hispanic or Latino	Female
+participant	phs001287_02OV015	02OV015	White	04b6b827-c631-4af5-a6e2-0630d0c37412	Female	phs001287	1362214	Not Hispanic or Latino	Female
+participant	phs001287_02OV022	02OV022	Asian	22468621-806c-48f6-93bd-db1e760ff1b6	Female	phs001287	1362215	Not Hispanic or Latino	Female
+participant	phs001287_02OV023	02OV023	White	6cf45160-1ac7-4ee5-a97d-4354297b99a6	Female	phs001287	1362216	Not Hispanic or Latino	Female
+participant	phs001287_02OV029	02OV029	White	0f729cb2-5e05-430f-a849-347db35b878d	Female	phs001287	1826076	Not Hispanic or Latino	Female
+participant	phs001287_02OV032	02OV032	Black or African American	5603d4c8-a5c4-413f-94d8-6a2feabe0c6e	Female	phs001287	1826077	Not Hispanic or Latino	Female
+participant	phs001287_02OV036	02OV036	White	43ec781b-f265-48a7-a289-733c9ba0f20f	Female	phs001287	1826079	Not Hispanic or Latino	Female
+participant	phs001287_02OV041	02OV041	White	a244502e-ed5f-416d-921e-f9303a830e5a	Female	phs001287	1826081	Not Hispanic or Latino	Female
+participant	phs001287_02OV044	02OV044	White	ec3867e6-6e62-4fa2-bcf3-9973f5c5e5f9	Female	phs001287	1826083	Not Hispanic or Latino	Female
+participant	phs001287_02OV046	02OV046	White	f9ca56f2-a9be-4433-8f26-4c131b2daaf9	Female	phs001287	1826085	Not Hispanic or Latino	Female
+participant	phs001287_03BR002	03BR002	White	c2cbec9e-445a-4670-8cb9-54ea587dd412	Female	phs001287	1362217	Not Hispanic or Latino	Female
+participant	phs001287_03BR004	03BR004	White	fcef698d-15af-4514-b466-57629a29e633	Female	phs001287	1362218	Not Hispanic or Latino	Female
+participant	phs001287_03BR005	03BR005	White	1173c499-b5a1-47d6-8847-f343f0c2f3ab	Female	phs001287	1362219	Not Hispanic or Latino	Female
+participant	phs001287_03BR006	03BR006	White	b4716b15-6276-470b-b0e0-e8bc14b77fc5	Female	phs001287	2546268	Not Hispanic or Latino	Female
+participant	phs001287_03BR010	03BR010	White	a8252c9b-8290-449b-a473-4c8eaece7564	Female	phs001287	1362220	Not Hispanic or Latino	Female
+participant	phs001287_03BR011	03BR011	White	799d1bf8-f729-4322-bc83-1f48ae47e940	Female	phs001287	2546269	Not Hispanic or Latino	Female
+participant	phs001287_03BR013	03BR013	Unknown	f1d5e433-5133-4839-ba79-acc7d78d8fbb	Female	phs001287	1607111	Unknown	Female
+participant	phs001287_04OV001	04OV001	White	974e4ea8-948c-471f-90d6-3226227407ac	Female	phs001287	1147379	Not Hispanic or Latino	Female
+participant	phs001287_04OV004	04OV004	White	195dfd69-649f-498f-9a22-1aebbf361d0f	Female	phs001287	1147380	Not Hispanic or Latino	Female
+participant	phs001287_04OV005	04OV005	White	a722c1a6-d5d2-44c5-be39-ea3495a3fa73	Female	phs001287	1147381	Not Hispanic or Latino	Female
+participant	phs001287_04OV008	04OV008	White	de9c9f51-f3cd-417d-ae23-1805f4081c80	Female	phs001287	1362221	Not Hispanic or Latino	Female
+participant	phs001287_04OV011	04OV011	White	f74f3222-6143-4bef-a3d3-a2f783181500	Female	phs001287	1362222	Not Hispanic or Latino	Female
+participant	phs001287_04OV012	04OV012	Asian	1786ccd7-dd5a-470f-8330-06eb03a4d6da	Female	phs001287	1362223	Not Hispanic or Latino	Female
+participant	phs001287_04OV013	04OV013	White	d765e920-47a7-4756-883a-5bf8f294ae07	Female	phs001287	1362224	Not Hispanic or Latino	Female
+participant	phs001287_04OV017	04OV017	White	5b2b3d9b-12eb-46a9-bdb0-606161c7b846	Female	phs001287	1607112	Hispanic or Latino	Female
+participant	phs001287_04OV018	04OV018	White	dbfc9d4c-77db-47bf-9c90-c9886471952b	Female	phs001287	1607113	Not Hispanic or Latino	Female
+participant	phs001287_04OV021	04OV021	White	917afe45-7f96-4a1c-9cee-3c78aa8ccb23	Female	phs001287	1607114	Not Hispanic or Latino	Female
+participant	phs001287_04OV023	04OV023	White	398a0cdd-426e-428b-9b8f-4b15edc17be0	Female	phs001287	1826087	Not Hispanic or Latino	Female
+participant	phs001287_04OV024	04OV024	White	76d54a58-a1d2-4295-8af1-e0bef557d742	Female	phs001287	1826088	Not Hispanic or Latino	Female
+participant	phs001287_04OV027	04OV027	White	e522766e-eeff-44c3-ac07-c13f981840f9	Female	phs001287	1826089	Not Hispanic or Latino	Female
+participant	phs001287_04OV028	04OV028	White	93910c87-3b51-4206-afe6-315287df169b	Female	phs001287	1826090	Not Hispanic or Latino	Female
+participant	phs001287_04OV031	04OV031	Asian	5f3db2c4-4c3d-428a-a80b-97867cdfc74b	Female	phs001287	1826091	Not Hispanic or Latino	Female
+participant	phs001287_04OV033	04OV033	Unknown	52fbe4e7-3205-47f8-bc49-51279f693487	Female	phs001287	1826092	Not Hispanic or Latino	Female
+participant	phs001287_04OV036	04OV036	Asian	abafa879-de70-4171-87a4-df523c7c5894	Female	phs001287	1826093	Not Hispanic or Latino	Female
+participant	phs001287_04OV037	04OV037	White	a33162b2-5154-4565-a675-ac13fd444738	Female	phs001287	1826094	Not Hispanic or Latino	Female
+participant	phs001287_04OV039	04OV039	Unknown	2fd90939-98f7-43fb-b39f-b9199a41269b	Female	phs001287	1826095	Not Hispanic or Latino	Female
+participant	phs001287_04OV040	04OV040	White	07810125-0b9f-4b12-97a1-92e62926296e	Female	phs001287	1826096	Not Hispanic or Latino	Female
+participant	phs001287_04OV044	04OV044	White	ef450526-3fc1-424f-86fd-2112cfe25f7c	Female	phs001287	1826098	Not Hispanic or Latino	Female
+participant	phs001287_04OV045	04OV045	White	046e97d5-4168-4a70-b89b-36a135adffe7	Female	phs001287	1826099	Not Hispanic or Latino	Female
+participant	phs001287_04OV048	04OV048	White	51947c18-bb03-4711-a961-29b4ba645a6e	Female	phs001287	1826100	Not Hispanic or Latino	Female
+participant	phs001287_04OV049	04OV049	White	331e27f8-ab69-4913-8b15-a053368559b2	Female	phs001287	1826101	Not Hispanic or Latino	Female
+participant	phs001287_04OV050	04OV050	White	0fdbd4da-a3a5-4696-add2-95b000759c2d	Female	phs001287	1826102	Not Hispanic or Latino	Female
+participant	phs001287_04OV051	04OV051	White	3772e859-c7fa-4d3b-8a3b-80768043d44c	Female	phs001287	1826103	Not Hispanic or Latino	Female
+participant	phs001287_04OV053	04OV053	White	56a8496f-683d-4a9b-9f42-cd1df8bd22bd	Female	phs001287	1826104	Not Hispanic or Latino	Female
+participant	phs001287_04OV054	04OV054	White	4053abc4-3195-4a4a-9688-0ade597ca4fe	Female	phs001287	1826105	Not Hispanic or Latino	Female
+participant	phs001287_04OV055	04OV055	White	0d4611d1-4bec-45bf-a4f6-6cbccca67be3	Female	phs001287	1826106	Not Hispanic or Latino	Female
+participant	phs001287_04OV057	04OV057	White	336f035b-150f-480f-942f-556438df9304	Female	phs001287	1826107	Not Hispanic or Latino	Female
+participant	phs001287_04OV058	04OV058	White	9b6bfd74-ff7e-417a-a9cb-756d968a3d92	Female	phs001287	1826108	Not Hispanic or Latino	Female
+participant	phs001287_04OV063	04OV063	Asian	6b7afded-e583-460a-af93-476b8028655a	Female	phs001287	1826109	Not Hispanic or Latino	Female
+participant	phs001287_05BR001	05BR001	White	fcaa3a4e-194a-469a-9ee2-7d3a23af1893	Female	phs001287	1362225	Not Hispanic or Latino	Female
+participant	phs001287_05BR003	05BR003	White	706b10dc-af0f-4f50-9208-1a1bf7320c76	Female	phs001287	1362226	Not Hispanic or Latino	Female
+participant	phs001287_05BR004	05BR004	White	65e2ae35-a12a-4bb4-ab52-3c7ed5300de1	Female	phs001287	2546270	Not Hispanic or Latino	Female
+participant	phs001287_05BR005	05BR005	White	26f08b2e-9774-4df8-8be8-77d08ddab874	Female	phs001287	1826110	Not Hispanic or Latino	Female
+participant	phs001287_05BR009	05BR009	White	1de2f80b-ad8f-4eba-9c2d-ad89ac4d3483	Female	phs001287	1362227	Not Hispanic or Latino	Female
+participant	phs001287_05BR016	05BR016	White	d50b43f6-7786-4434-81e9-020f552a5222	Female	phs001287	1362228	Not Hispanic or Latino	Female
+participant	phs001287_05BR026	05BR026	White	10d398d7-68b7-4686-8770-ee42df5c8c18	Female	phs001287	1607115	Not Hispanic or Latino	Female
+participant	phs001287_05BR029	05BR029	White	204a43c8-c3e7-4821-9cbf-acef7cb41648	Female	phs001287	1607116	Not Hispanic or Latino	Female
+participant	phs001287_05BR038	05BR038	White	045d6ba2-0e70-4044-ae83-1b754d58b967	Female	phs001287	1826111	Not Hispanic or Latino	Female
+participant	phs001287_05BR042	05BR042	White	2f194c26-8ee7-4700-a989-e528d2cf8f66	Female	phs001287	1839042	Not Hispanic or Latino	Female
+participant	phs001287_05BR043	05BR043	White	ac9ee4a9-5d9a-47f0-bd1d-4c8f8fd29a59	Female	phs001287	1839043	Not Hispanic or Latino	Female
+participant	phs001287_05BR044	05BR044	White	a377030b-9b81-4fac-b999-645b2ba1ea54	Female	phs001287	1839044	Not Hispanic or Latino	Female
+participant	phs001287_05BR045	05BR045	White	e18fa922-e9c1-4cb4-ae7f-738621b3ba0f	Female	phs001287	1839045	Not Hispanic or Latino	Female
+participant	phs001287_05CO002	05CO002	White	4f7fa6f7-bb1c-4dae-b3b9-841d17b557f2	Female	phs001287	1147382	Not Hispanic or Latino	Female
+participant	phs001287_05CO003	05CO003	White	66def3ee-908c-4428-aac2-c24956dedfba	Male	phs001287	1147383	Not Hispanic or Latino	Male
+participant	phs001287_05CO006	05CO006	White	a5bce8cc-7d60-4fcd-851d-33953c333369	Female	phs001287	1147386	Not Hispanic or Latino	Female
+participant	phs001287_05CO007	05CO007	White	3fb2c200-270a-4c08-8b0c-6dd4a6ad2dd0	Female	phs001287	1147387	Not Hispanic or Latino	Female
+participant	phs001287_05CO011	05CO011	White	91c43075-4fe1-4652-8892-e449fb5da0a0	Male	phs001287	1147388	Not Hispanic or Latino	Male
+participant	phs001287_05CO015	05CO015	White	070dd244-13a7-433e-9ffe-0794655fe95d	Female	phs001287	1362229	Not Hispanic or Latino	Female
+participant	phs001287_05CO020	05CO020	White	0687d95b-c8c0-44ba-99e2-c278bb9aa466	Female	phs001287	1362230	Not Hispanic or Latino	Female
+participant	phs001287_05CO026	05CO026	White	685bf122-d008-48cf-a2d8-088993ed2921	Female	phs001287	1607118	Not Hispanic or Latino	Female
+participant	phs001287_05CO028	05CO028	White	fb7dc1c5-d5d3-4d1f-a9f3-29f122b2420c	Female	phs001287	1362231	Not Hispanic or Latino	Female
+participant	phs001287_05CO029	05CO029	Black or African American	356b78b0-0a79-4d28-9e30-6fb8eef13c91	Female	phs001287	1362232	Not Hispanic or Latino	Female
+participant	phs001287_05CO032	05CO032	White	245af12e-2973-40fb-88cf-121dca483792	Male	phs001287	1362233	Not Hispanic or Latino	Male
+participant	phs001287_05CO033	05CO033	White	c68fc1be-f96c-41f4-954c-2bd2ae1eb9a0	Male	phs001287	1362234	Not Hispanic or Latino	Male
+participant	phs001287_05CO034	05CO034	White	572a2fe6-af8c-426b-85a8-2f480500db3e	Female	phs001287	1607119	Not Hispanic or Latino	Female
+participant	phs001287_05CO035	05CO035	Black or African American	c10dcf25-1046-42c5-b45b-6db82e832d01	Female	phs001287	1607120	Hispanic or Latino	Female
+participant	phs001287_05CO037	05CO037	American Indian or Alaska Native	44b5412b-6556-4f46-acb2-499c8667cd76	Male	phs001287	1607121	Not Hispanic or Latino	Male
+participant	phs001287_05CO039	05CO039	White	57a9cfa7-b40c-461e-b91b-b8bab577e5c4	Male	phs001287	1607122	Not Hispanic or Latino	Male
+participant	phs001287_05CO041	05CO041	White	b4ad655a-c8be-4532-9d64-de28725c4558	Female	phs001287	1607123	Not Hispanic or Latino	Female
+participant	phs001287_05CO044	05CO044	White	ec9dd9ca-5d14-4711-9ee8-7138a05ee860	Female	phs001287	1607124	Not Hispanic or Latino	Female
+participant	phs001287_05CO045	05CO045	White	924fc3d7-3502-4077-bc38-e9f46bcebd34	Female	phs001287	1826112	Unknown	Female
+participant	phs001287_05CO047	05CO047	White	f2911042-1712-40cc-8b6f-ca0604caff5b	Male	phs001287	1826113	Not Hispanic or Latino	Male
+participant	phs001287_05CO048	05CO048	White	1ac2c588-5e91-4240-8456-503e2efdd119	Female	phs001287	1607125	Not Hispanic or Latino	Female
+participant	phs001287_05CO049	05CO049	White	3b4c409c-aca1-4efa-800d-fc178acb33db	Male	phs001287	1607126	Not Hispanic or Latino	Male
+participant	phs001287_05CO050	05CO050	White	6dc0c9ec-9e21-43d2-966c-b15b3bd5985b	Female	phs001287	1826114	Not Hispanic or Latino	Female
+participant	phs001287_05CO053	05CO053	White	fbc65c30-7fcf-46f0-900d-fad01ee2cb11	Male	phs001287	1826115	Not Hispanic or Latino	Male
+participant	phs001287_05CO054	05CO054	White	0f47e9a3-73be-4442-8a52-4148860a4717	Male	phs001287	1826116	Not Hispanic or Latino	Male
+participant	phs001287_06BR003	06BR003	Unknown	b491dfed-31f5-43f1-bae9-37260aa284c3	Female	phs001287	1362235	Hispanic or Latino	Female
+participant	phs001287_06BR005	06BR005	Unknown	8fea80a3-4b01-4948-94d6-6ce63099d624	Female	phs001287	1362236	Hispanic or Latino	Female
+participant	phs001287_06BR006	06BR006	Unknown	6ba675d7-0f8b-495c-a499-5d1013d195a7	Female	phs001287	1362237	Hispanic or Latino	Female
+participant	phs001287_06BR014	06BR014	Unknown	a400bbde-9958-4676-9bfc-2f4035a2202a	Female	phs001287	1826118	Hispanic or Latino	Female
+participant	phs001287_06CO001	06CO001	Unknown	9934a36e-2efd-476f-8bc8-196b1b141819	Male	phs001287	1362238	Hispanic or Latino	Male
+participant	phs001287_06CO002	06CO002	Unknown	8f0e4ebf-c5fb-430b-9c80-c429fdd5635c	Female	phs001287	1362239	Hispanic or Latino	Female
+participant	phs001287_09BR001	09BR001	Black or African American	f8590c05-b3e4-4529-a959-0e19b4cf8172	Female	phs001287	2546271	Not Hispanic or Latino	Female
+participant	phs001287_09BR004	09BR004	White	28627a2c-8080-4504-a7c8-3cb14514dfbc	Female	phs001287	1607127	Not Hispanic or Latino	Female
+participant	phs001287_09BR005	09BR005	White	cc51c8d0-a81a-40b8-a8cd-c40ae983f808	Female	phs001287	1826119	Not Hispanic or Latino	Female
+participant	phs001287_09BR007	09BR007	White	396d3d82-f613-43b4-85a9-657a5dc2be14	Female	phs001287	1607128	Not Hispanic or Latino	Female
+participant	phs001287_09CO005	09CO005	White	a9c7a612-ca1f-4c2c-b5ec-c098bae4f0f2	Female	phs001287	1362240	Not Hispanic or Latino	Female
+participant	phs001287_09CO006	09CO006	White	eb3c72ae-23cd-43d2-be38-efff7ddb3b79	Male	phs001287	1362241	Not Hispanic or Latino	Male
+participant	phs001287_09CO008	09CO008	White	f34b9123-2793-4c26-97c4-16a1fb43a41a	Male	phs001287	1362242	Not Hispanic or Latino	Male
+participant	phs001287_09CO011	09CO011	White	4c7ea3f1-0b56-4d95-84a8-c3c6db28afa5	Female	phs001287	1607129	Not Hispanic or Latino	Female
+participant	phs001287_09CO013	09CO013	White	07c6359b-4f9a-4c19-941d-92576135f3e4	Male	phs001287	1607130	Not Hispanic or Latino	Male
+participant	phs001287_09CO014	09CO014	White	c00c1c66-153e-4a01-b018-1d4b6406b2ba	Male	phs001287	1826120	Not Hispanic or Latino	Male
+participant	phs001287_09CO015	09CO015	White	a4fee998-0977-4b10-bbb2-446930a41fbf	Male	phs001287	1826121	Not Hispanic or Latino	Male
+participant	phs001287_09CO018	09CO018	White	0908cfa3-a8d5-4141-b1c1-29c0548b7425	Female	phs001287	1826122	Not Hispanic or Latino	Female
+participant	phs001287_09CO019	09CO019	Black or African American	fc4a88ab-d305-48d5-bae9-8e8572f1701d	Male	phs001287	1826123	Not Hispanic or Latino	Male
+participant	phs001287_09CO022	09CO022	Black or African American	e5f414b8-2c52-40b4-a0ef-aa2cf4a7a0c1	Female	phs001287	1826124	Not Hispanic or Latino	Female
+participant	phs001287_11BR003	11BR003	Asian	32d6ec3c-d8f5-4830-ba5f-13192ecb1134	Female	phs001287	1362243	Not Hispanic or Latino	Female
+participant	phs001287_11BR004	11BR004	Asian	34473906-0434-4ff7-b16c-d504dcd0c3d4	Female	phs001287	1826125	Not Hispanic or Latino	Female
+participant	phs001287_11BR006	11BR006	Asian	7d1a7e18-d356-44f9-b817-5e6dd1d0d5f8	Female	phs001287	1607131	Not Hispanic or Latino	Female
+participant	phs001287_11BR009	11BR009	Asian	a02a2633-b857-41b6-af9a-9f8c81a10d6a	Female	phs001287	1362244	Not Hispanic or Latino	Female
+participant	phs001287_11BR010	11BR010	Asian	c7c1d783-bc24-4286-b5f9-46a457874745	Female	phs001287	1607132	Not Hispanic or Latino	Female
+participant	phs001287_11BR011	11BR011	Asian	074c2249-d314-4112-9732-ee0bacf1c4e1	Female	phs001287	1607133	Not Hispanic or Latino	Female
+participant	phs001287_11BR012	11BR012	White	5f59e47c-2f15-4778-90b4-457075baedc3	Female	phs001287	1607134	Not Hispanic or Latino	Female
+participant	phs001287_11BR013	11BR013	White	e0b2a51e-ba98-47c9-bd9f-021a56a64d8e	Female	phs001287	1607135	Not Hispanic or Latino	Female
+participant	phs001287_11BR014	11BR014	White	701cb15c-c044-4705-a31f-ac6192f9c386	Female	phs001287	1607136	Not Hispanic or Latino	Female
+participant	phs001287_11BR015	11BR015	White	754179cd-0dec-48bc-b831-a1e7ac8a88d1	Female	phs001287	1607137	Not Hispanic or Latino	Female
+participant	phs001287_11BR016	11BR016	White	137b19ec-3ba9-4536-b317-ea34da3c5eba	Female	phs001287	1607138	Not Hispanic or Latino	Female
+participant	phs001287_11BR017	11BR017	White	db4a434b-9944-4ccf-9efa-012d22646905	Female	phs001287	1607139	Not Hispanic or Latino	Female
+participant	phs001287_11BR018	11BR018	White	633c586a-9a78-4d36-8fab-f061731e4445	Female	phs001287	1607140	Not Hispanic or Latino	Female
+participant	phs001287_11BR019	11BR019	White	ec1f0519-e520-4d8f-b2ed-2d8aed14689b	Female	phs001287	1607141	Not Hispanic or Latino	Female
+participant	phs001287_11BR020	11BR020	White	479f9468-f8a4-4f4a-80f3-942bbbd9a3fa	Female	phs001287	1607142	Not Hispanic or Latino	Female
+participant	phs001287_11BR022	11BR022	White	e50489de-a2a3-47ff-8324-bc13e9210161	Female	phs001287	1607143	Not Hispanic or Latino	Female
+participant	phs001287_11BR023	11BR023	White	1c547550-da23-43f3-878e-e5cb115d1f7b	Female	phs001287	1607144	Not Hispanic or Latino	Female
+participant	phs001287_11BR024	11BR024	White	4b79be69-0e1b-4894-8f7c-1d6d2c2ba04d	Female	phs001287	1607145	Not Hispanic or Latino	Female
+participant	phs001287_11BR025	11BR025	White	2fc686ea-5848-4725-9b6e-947f33459b4c	Female	phs001287	1607146	Not Hispanic or Latino	Female
+participant	phs001287_11BR027	11BR027	White	1d36c9c0-f4c7-490f-bcf2-e8ac5047c6cb	Female	phs001287	1607147	Not Hispanic or Latino	Female
+participant	phs001287_11BR028	11BR028	White	2378806c-1374-400f-8e00-d50967d39184	Female	phs001287	1607148	Not Hispanic or Latino	Female
+participant	phs001287_11BR030	11BR030	Asian	ea2a8f44-86bc-4f28-824c-646e0a3787f1	Female	phs001287	1607149	Not Hispanic or Latino	Female
+participant	phs001287_11BR031	11BR031	Asian	746ca6c6-93a0-4894-bbf4-78140f6917d5	Female	phs001287	1607150	Not Hispanic or Latino	Female
+participant	phs001287_11BR032	11BR032	Asian	8447c24c-f108-4d0d-acf8-3a36a11347e0	Female	phs001287	1607151	Not Hispanic or Latino	Female
+participant	phs001287_11BR036	11BR036	Asian	1d1e8a03-4b58-404d-952a-ac021df2c420	Female	phs001287	1826126	Not Hispanic or Latino	Female
+participant	phs001287_11BR038	11BR038	Asian	c0a032c0-ba9e-4786-8d13-808994d0b575	Female	phs001287	1607152	Not Hispanic or Latino	Female
+participant	phs001287_11BR040	11BR040	Asian	76aa3903-235a-4d64-8f32-d746cdd19ed3	Female	phs001287	1826127	Not Hispanic or Latino	Female
+participant	phs001287_11BR042	11BR042	White	b14eb473-6742-43cb-8c9d-3f151421404f	Female	phs001287	1607153	Not Hispanic or Latino	Female
+participant	phs001287_11BR043	11BR043	White	22d94667-eda6-4ee8-93f0-abb6aaafdfb4	Female	phs001287	1607154	Not Hispanic or Latino	Female
+participant	phs001287_11BR044	11BR044	White	2e6fa48e-5da3-4455-8ef5-00bffb020b93	Female	phs001287	1826128	Not Hispanic or Latino	Female
+participant	phs001287_11BR047	11BR047	Asian	60600a84-e7ef-4ec8-9595-b0b85370d2de	Female	phs001287	1607155	Not Hispanic or Latino	Female
+participant	phs001287_11BR049	11BR049	Asian	60ae4800-4e87-43e3-bfef-0db9e8ce2559	Female	phs001287	1826129	Not Hispanic or Latino	Female
+participant	phs001287_11BR050	11BR050	Asian	a5f7d898-1268-4528-87bd-85bea51f0409	Female	phs001287	1826130	Not Hispanic or Latino	Female
+participant	phs001287_11BR051	11BR051	White	edcefade-1a68-4777-84eb-e1d19c597378	Female	phs001287	1607156	Not Hispanic or Latino	Female
+participant	phs001287_11BR053	11BR053	White	4f0948e3-41e1-4cff-bd32-b893100b1eeb	Female	phs001287	1826131	Not Hispanic or Latino	Female
+participant	phs001287_11BR054	11BR054	White	017d90f2-d3a5-4cc8-818f-c2c06f499f83	Female	phs001287	1607157	Not Hispanic or Latino	Female
+participant	phs001287_11BR055	11BR055	White	c3c0ce19-a14a-4e0e-b739-1fe2caa529ff	Female	phs001287	1607158	Not Hispanic or Latino	Female
+participant	phs001287_11BR056	11BR056	Asian	896e767d-5e02-4233-aec3-5cdb4b7d12ac	Female	phs001287	1607159	Not Hispanic or Latino	Female
+participant	phs001287_11BR058	11BR058	Asian	74f3c85f-749c-4f46-b8b4-f0eeafd81cc8	Female	phs001287	1607160	Not Hispanic or Latino	Female
+participant	phs001287_11BR059	11BR059	Asian	e8385650-84e5-455d-88b1-dc42e1714aae	Female	phs001287	1607161	Not Hispanic or Latino	Female
+participant	phs001287_11BR060	11BR060	Asian	58aeebb0-120a-4094-b1ad-a898ffb02c09	Female	phs001287	1607162	Not Hispanic or Latino	Female
+participant	phs001287_11BR072	11BR072	White	6b51d464-a8ca-427b-89cc-c65deeb1f025	Female	phs001287	1826133	Not Hispanic or Latino	Female
+participant	phs001287_11BR073	11BR073	White	3cd73c51-2417-4656-b55c-a89d34147a3b	Female	phs001287	1826134	Not Hispanic or Latino	Female
+participant	phs001287_11BR074	11BR074	White	690cf9da-f47e-44fa-82c8-751ee052f5dd	Female	phs001287	1826135	Not Hispanic or Latino	Female
+participant	phs001287_11BR075	11BR075	White	52f4d046-0601-49ec-90d1-1c79eb1c64b4	Female	phs001287	1826136	Not Hispanic or Latino	Female
+participant	phs001287_11BR080	11BR080	White	8cfd5864-a20d-4482-8768-21e4a544a119	Female	phs001287	1826137	Not Hispanic or Latino	Female
+participant	phs001287_11CO005	11CO005	Asian	407033c4-5723-46c0-aa32-b8ff0323f1d5	Female	phs001287	1607163	Not Hispanic or Latino	Female
+participant	phs001287_11CO007	11CO007	Asian	fe2d6eae-d0b8-48a8-a34c-354db5675f2d	Female	phs001287	1607164	Not Hispanic or Latino	Female
+participant	phs001287_11CO008	11CO008	Asian	502dfb2e-c3dc-481e-af2b-d2db06f980d8	Female	phs001287	1607165	Not Hispanic or Latino	Female
+participant	phs001287_11CO010	11CO010	Asian	87ae1450-9ae0-4fa0-97ca-d045b99e718b	Female	phs001287	1607166	Not Hispanic or Latino	Female
+participant	phs001287_11CO018	11CO018	White	ae2c2cf5-611e-4267-8fa5-bd4d5294afcc	Male	phs001287	1607167	Not Hispanic or Latino	Male
+participant	phs001287_11CO019	11CO019	White	df7de542-27b1-4949-97d4-e0e5400b88e6	Female	phs001287	1607168	Not Hispanic or Latino	Female
+participant	phs001287_11CO020	11CO020	White	0eaa13bc-9186-42ae-9ab9-5d10aa3a7919	Male	phs001287	1607169	Not Hispanic or Latino	Male
+participant	phs001287_11CO021	11CO021	White	93e993a2-b7b2-42e5-a36c-0f8973fd61d9	Female	phs001287	1826138	Not Hispanic or Latino	Female
+participant	phs001287_11CO022	11CO022	White	9b6d20d3-cd46-436d-a091-ba3de53c8dbb	Male	phs001287	1826139	Not Hispanic or Latino	Male
+participant	phs001287_11CO027	11CO027	Asian	add787e4-3bae-4505-8e52-16a6791a65f2	Female	phs001287	1826140	Not Hispanic or Latino	Female
+participant	phs001287_11CO030	11CO030	Asian	0e9e7228-e09c-4835-ab6b-7674e1b4e01d	Female	phs001287	1607170	Not Hispanic or Latino	Female
+participant	phs001287_11CO031	11CO031	Asian	adb45239-e198-4d07-8999-0ce58750675a	Female	phs001287	1826141	Not Hispanic or Latino	Female
+participant	phs001287_11CO032	11CO032	Asian	8cd788f9-703b-4323-8e33-22bdd5e7a682	Male	phs001287	1607171	Not Hispanic or Latino	Male
+participant	phs001287_11CO033	11CO033	Asian	c9f290ec-9fee-42ca-8bb0-4c5e20f77c80	Male	phs001287	1826142	Not Hispanic or Latino	Male
+participant	phs001287_11CO036	11CO036	Asian	1dd38202-e16f-47e1-8e5d-2d34cb0e74cd	Male	phs001287	1607172	Not Hispanic or Latino	Male
+participant	phs001287_11CO037	11CO037	Asian	9db4d792-d638-46c5-8e71-31d1e4d5cf9e	Female	phs001287	1607173	Not Hispanic or Latino	Female
+participant	phs001287_11CO039	11CO039	Asian	e63a812b-74a4-4571-9082-7d90d0c2f030	Female	phs001287	1826143	Not Hispanic or Latino	Female
+participant	phs001287_11CO042	11CO042	White	512b894a-1bec-492c-a0fa-e799d3efc8e4	Male	phs001287	1826144	Not Hispanic or Latino	Male
+participant	phs001287_11CO043	11CO043	White	a2247a79-c6fd-42b7-8b10-f1715421c721	Female	phs001287	1607174	Not Hispanic or Latino	Female
+participant	phs001287_11CO044	11CO044	White	fb855b94-8d6b-49bc-946f-bcf2413d378f	Female	phs001287	1826145	Not Hispanic or Latino	Female
+participant	phs001287_11CO045	11CO045	White	b5275938-002d-4a59-bc54-74bbd3aaa252	Female	phs001287	1607175	Not Hispanic or Latino	Female
+participant	phs001287_11CO047	11CO047	White	8c1a5ba0-ac54-4060-b42e-0601fd0d827e	Male	phs001287	1826146	Not Hispanic or Latino	Male
+participant	phs001287_11CO048	11CO048	White	baf1fabd-2ea0-4130-bedf-dd49f9563dab	Male	phs001287	1607176	Not Hispanic or Latino	Male
+participant	phs001287_11CO051	11CO051	White	aa36f0ea-d81a-4398-862e-e231aabf424a	Female	phs001287	1826147	Not Hispanic or Latino	Female
+participant	phs001287_11CO052	11CO052	White	1d118599-1860-41bd-aaa0-7b1231ce4d2c	Female	phs001287	1826148	Not Hispanic or Latino	Female
+participant	phs001287_11CO053	11CO053	White	c22fb637-6d0e-4069-b389-9dfb84191ba6	Female	phs001287	1826149	Not Hispanic or Latino	Female
+participant	phs001287_11CO054	11CO054	White	e8abaf09-3cd5-4eac-ac8f-81553679dda5	Female	phs001287	1826150	Not Hispanic or Latino	Female
+participant	phs001287_11CO057	11CO057	White	dd9ac3c3-0d36-41d6-b67c-c1afff595011	Male	phs001287	1826151	Not Hispanic or Latino	Male
+participant	phs001287_11CO058	11CO058	White	e7dbaa2b-d67c-4b5c-b717-04c7d389bc84	Female	phs001287	1826152	Not Hispanic or Latino	Female
+participant	phs001287_11CO060	11CO060	White	fffa758a-3964-45d3-8924-f38810a47272	Female	phs001287	1826154	Not Hispanic or Latino	Female
+participant	phs001287_11CO061	11CO061	Asian	263f601a-b93f-4031-a7e3-1d7f7b95fafa	Female	phs001287	1826155	Not Hispanic or Latino	Female
+participant	phs001287_11CO062	11CO062	Asian	b6b4c62d-ab44-4ac8-a8da-4b5777c2283b	Male	phs001287	1826156	Not Hispanic or Latino	Male
+participant	phs001287_11CO070	11CO070	Asian	c34051c9-6eec-4389-a42f-54b3e669df75	Male	phs001287	1826157	Not Hispanic or Latino	Male
+participant	phs001287_11CO072	11CO072	White	b85687e1-4185-4098-8c06-cac1479c6e2c	Female	phs001287	1826158	Not Hispanic or Latino	Female
+participant	phs001287_11CO077	11CO077	White	c6068fed-1a6b-4c49-bd8f-dc8446dd9c7d	Male	phs001287	1826159	Not Hispanic or Latino	Male
+participant	phs001287_11CO079	11CO079	White	2226e981-e426-4516-84fd-248c14997831	Female	phs001287	1826160	Not Hispanic or Latino	Female
+participant	phs001287_11LU013	11LU013	Unknown	fc644377-c33c-433f-a2f3-426e58bec72e	Male	phs001287	1826161	Unknown	Male
+participant	phs001287_11LU016	11LU016	Unknown	3b504e38-3ff8-45e4-bc3a-4a34a73102ce	Male	phs001287	1826162	Unknown	Male
+participant	phs001287_11LU022	11LU022	Unknown	ad4cf3b6-0f1e-416f-a259-1b41972bec64	Male	phs001287	1826163	Unknown	Male
+participant	phs001287_11LU035	11LU035	Unknown	56c8de43-1fa2-42d9-bdbf-48d618455e7a	Male	phs001287	1826164	Unknown	Male
+participant	phs001287_11OV002	11OV002	Asian	0b4cb193-c52f-48a3-bf5f-f2ea96dd5b4a	Female	phs001287	1826165	Not Hispanic or Latino	Female
+participant	phs001287_13BR009	13BR009	White	975b7fe5-3028-48fa-8187-04145dcc710e	Female	phs001287	1826167	Not Hispanic or Latino	Female
+participant	phs001287_13OV003	13OV003	White	0f7f8b42-7f90-4b1a-af8f-60ad9d2c3fb8	Female	phs001287	1826168	Not Hispanic or Latino	Female
+participant	phs001287_14BR005	14BR005	White	ab5df5f0-f693-4e48-82d4-55fc83841239	Female	phs001287	1607177	Not Hispanic or Latino	Female
+participant	phs001287_14BR008	14BR008	White	811c41a9-cc70-4cb5-bb58-3ffef7ef4a0a	Female	phs001287	1826170	Not Hispanic or Latino	Female
+participant	phs001287_14BR014	14BR014	White	5c6fcd50-b49a-4158-865b-22312c1a4c63	Female	phs001287	1826171	Unknown	Female
+participant	phs001287_14CO002	14CO002	White	34447e70-e50c-44c7-a036-292660cb13a1	Male	phs001287	1607178	Not Hispanic or Latino	Male
+participant	phs001287_14CO003	14CO003	White	c5225608-4632-4f1e-953b-780b683c369c	Female	phs001287	1607179	Not Hispanic or Latino	Female
+participant	phs001287_14CO005	14CO005	White	1a3d7faf-798a-4745-baef-13ec58e8196b	Female	phs001287	1607180	Not Hispanic or Latino	Female
+participant	phs001287_14OV011	14OV011	White	9624131b-f579-47d6-9430-58257d97dfc2	Female	phs001287	1607181	Not Hispanic or Latino	Female
+participant	phs001287_15BR003	15BR003	White	5280c2aa-d9c6-46ac-b96a-c94ef80ad863	Female	phs001287	1826172	Not Hispanic or Latino	Female
+participant	phs001287_15CO001	15CO001	Asian	bfae24ef-0f24-4c30-ad46-497420145142	Female	phs001287	1607182	Hispanic or Latino	Female
+participant	phs001287_15CO002	15CO002	Black or African American	ef1fccd9-5dbc-40b1-8c8b-86f570731ed3	Female	phs001287	1607183	Not Hispanic or Latino	Female
+participant	phs001287_15OV001	15OV001	Asian	00e49e33-e9a9-4007-9ee1-5971dd285686	Female	phs001287	1826173	Not Hispanic or Latino	Female
+participant	phs001287_16BR012	16BR012	White	4a98d51a-5c40-44c6-bb9c-3350d608ebf6	Female	phs001287	1607184	Not Hispanic or Latino	Female
+participant	phs001287_16CO002	16CO002	White	66fc0807-8267-4eb8-9b9f-1b4b9aa22121	Male	phs001287	1607185	Not Hispanic or Latino	Male
+participant	phs001287_16CO003	16CO003	White	064f4e05-2f86-415d-8b5a-ff9953eff6d0	Female	phs001287	1826174	Not Hispanic or Latino	Female
+participant	phs001287_16CO006	16CO006	White	4e0d4139-80ba-4c75-a8da-6b6b2d69f957	Male	phs001287	1607186	Not Hispanic or Latino	Male
+participant	phs001287_16CO011	16CO011	White	94110d0b-ec4a-4ccc-9b2d-3e029bf72e64	Male	phs001287	1826175	Not Hispanic or Latino	Male
+participant	phs001287_17OV001	17OV001	White	da6201a5-3e40-4bde-86b8-94bcb543d60f	Female	phs001287	1362245	Not Hispanic or Latino	Female
+participant	phs001287_17OV002	17OV002	White	9ecf5393-07a2-4cd8-b586-c7965d5329b3	Female	phs001287	1362246	Not Hispanic or Latino	Female
+participant	phs001287_17OV010	17OV010	White	2c465844-022d-40b2-9ffc-a0e568ee0329	Female	phs001287	1607187	Not Hispanic or Latino	Female
+participant	phs001287_17OV011	17OV011	White	7cdb55ab-9fe5-4bac-a1dc-c231ba7199f2	Female	phs001287	1826177	Not Hispanic or Latino	Female
+participant	phs001287_17OV013	17OV013	Black or African American	de4ab76a-8832-4df4-8ba8-c7f24d4c5066	Female	phs001287	1826178	Not Hispanic or Latino	Female
+participant	phs001287_17OV014	17OV014	White	91c45323-99bf-49f6-922a-162cbd56602c	Female	phs001287	1826179	Not Hispanic or Latino	Female
+participant	phs001287_17OV015	17OV015	White	b3e6ebde-3926-46a0-a30e-18d17df8e7a6	Female	phs001287	1826180	Not Hispanic or Latino	Female
+participant	phs001287_17OV017	17OV017	White	62f1c10c-7b17-481b-b0d4-88fa6f806f58	Female	phs001287	1826181	Not Hispanic or Latino	Female
+participant	phs001287_17OV018	17OV018	White	17a217c8-5dc8-4039-999d-45c82ef9c7f4	Female	phs001287	1826182	Not Hispanic or Latino	Female
+participant	phs001287_17OV025	17OV025	White	133dd9d0-54b7-4ea3-90fb-dca61ddabaea	Female	phs001287	1826184	Not Hispanic or Latino	Female
+participant	phs001287_17OV027	17OV027	White	ebc9849b-e84f-4a28-aa44-f1834c15cce1	Female	phs001287	1826185	Unknown	Female
+participant	phs001287_17OV028	17OV028	White	95444dc3-27dc-41d4-8faa-d309c503242f	Female	phs001287	1826186	Not Hispanic or Latino	Female
+participant	phs001287_17OV029	17OV029	White	445fbbbd-f7b1-466e-8d5f-edfb8443b344	Female	phs001287	1826187	Not Hispanic or Latino	Female
+participant	phs001287_17OV030	17OV030	White	69802249-cd85-4742-9999-2c64626b2ef5	Female	phs001287	1826188	Not Hispanic or Latino	Female
+participant	phs001287_17OV033	17OV033	American Indian or Alaska Native	074b3825-702a-42a8-b5c8-0348907fe54e	Female	phs001287	1826189	Not Hispanic or Latino	Female
+participant	phs001287_17OV036	17OV036	White	bac1cc4a-c3e3-47cd-97e1-d67b3fc98fc5	Female	phs001287	1826191	Not Hispanic or Latino	Female
+participant	phs001287_17OV039	17OV039	White	a72fa628-b400-4f8a-ab81-1c823f1dadd3	Female	phs001287	1826192	Not Hispanic or Latino	Female
+participant	phs001287_17OV040	17OV040	White	39403e0c-c519-4598-bc13-3990f27c3240	Female	phs001287	1826193	Not Hispanic or Latino	Female
+participant	phs001287_18BR002	18BR002	White	bfa699b1-3941-468e-92c4-912b29772652	Female	phs001287	1607188	Not Hispanic or Latino	Female
+participant	phs001287_18BR003	18BR003	White	1671624a-b3a7-4eb3-bdeb-7eb9ec324a78	Female	phs001287	1607189	Not Hispanic or Latino	Female
+participant	phs001287_18BR004	18BR004	White	d2486af3-087e-411e-9a98-67461f5fb902	Female	phs001287	1607190	Not Hispanic or Latino	Female
+participant	phs001287_18BR006	18BR006	White	90413a19-7b5b-471a-b545-6f4362e1fcbe	Female	phs001287	1607191	Not Hispanic or Latino	Female
+participant	phs001287_18BR007	18BR007	White	0705c8da-2a16-4d48-a31b-043ee8628e3e	Female	phs001287	1607192	Not Hispanic or Latino	Female
+participant	phs001287_18BR009	18BR009	White	70cf434f-4273-4260-b8ff-13fbace07b06	Female	phs001287	1826194	Not Hispanic or Latino	Female
+participant	phs001287_18BR010	18BR010	White	652b276e-2af6-4e65-bc00-85bc7607aaba	Female	phs001287	1826195	Not Hispanic or Latino	Female
+participant	phs001287_18BR016	18BR016	White	dd98fcde-b308-4839-8970-3aa5f9a10b4e	Female	phs001287	1826196	Not Hispanic or Latino	Female
+participant	phs001287_18BR017	18BR017	White	a7fd5a4a-3642-4bfd-a6e6-314f7ae5a5c7	Female	phs001287	1826197	Not Hispanic or Latino	Female
+participant	phs001287_18BR019	18BR019	White	38ebb11d-d2a3-41c3-9368-529704ea09f6	Female	phs001287	1826198	Not Hispanic or Latino	Female
+participant	phs001287_18OV001	18OV001	White	fdbc9caf-9f46-4c63-8e5d-36f73d0c5fb1	Female	phs001287	1826199	Not Hispanic or Latino	Female
+participant	phs001287_20BR001	20BR001	Black or African American	fee5c2fa-0d50-4549-93a8-8da381c72f9d	Female	phs001287	1826200	Not Hispanic or Latino	Female
+participant	phs001287_20BR002	20BR002	White	786bfc24-3498-40ec-adda-d35709bda001	Female	phs001287	1826201	Not Hispanic or Latino	Female
+participant	phs001287_20BR005	20BR005	Black or African American	4b0eeb3c-fd85-4f21-87b6-40710b5d312b	Female	phs001287	1826202	Not Hispanic or Latino	Female
+participant	phs001287_20BR006	20BR006	White	5b2bc6cc-7f21-4de8-89cb-107e5fbe62fa	Female	phs001287	1826203	Not Hispanic or Latino	Female
+participant	phs001287_20BR007	20BR007	Black or African American	db95c8f0-161e-44f2-9d52-0761162e4b02	Female	phs001287	1826204	Not Hispanic or Latino	Female
+participant	phs001287_20BR008	20BR008	Black or African American	1e38995d-db43-4da5-ba28-5685be059e50	Female	phs001287	1826205	Not Hispanic or Latino	Female
+participant	phs001287_20CO001	20CO001	White	22c8ebd3-679e-4730-b996-2f915c79de57	Female	phs001287	1362247	Not Hispanic or Latino	Female
+participant	phs001287_20CO003	20CO003	White	0fdcfe5b-9a6f-4912-9f43-0110ace9a1d8	Male	phs001287	1607193	Not Hispanic or Latino	Male
+participant	phs001287_20CO004	20CO004	White	0c3b69d4-6856-4630-8ad4-aa7531d8cfdf	Male	phs001287	1826206	Not Hispanic or Latino	Male
+participant	phs001287_20CO007	20CO007	Black or African American	05455436-f17c-44ac-aeaa-53574dd6a3cb	Male	phs001287	1826207	Not Hispanic or Latino	Male
+participant	phs001287_20OV005	20OV005	White	e92dd753-f19e-4987-8cfb-2cef7f59d23f	Female	phs001287	1826208	Not Hispanic or Latino	Female
+participant	phs001287_21BR001	21BR001	White	b2bfe461-fd0f-49c3-966d-78d29669d884	Female	phs001287	2546272	Hispanic or Latino	Female
+participant	phs001287_21BR002	21BR002	White	47a489f1-3088-443c-91bc-d557b75f6bdd	Female	phs001287	2546273	Hispanic or Latino	Female
+participant	phs001287_21BR010	21BR010	White	ab4ae6a1-8951-428f-8dc3-069809d4efcf	Female	phs001287	1826209	Hispanic or Latino	Female
+participant	phs001287_21CO006	21CO006	White	45b64d49-4e8a-40dd-aa8b-196393e93682	Male	phs001287	1826210	Hispanic or Latino	Male
+participant	phs001287_21CO007	21CO007	White	ca6f31ac-a8e4-45cf-94f0-705a61c5b679	Male	phs001287	1607194	Not Hispanic or Latino	Male
+participant	phs001287_22BR005	22BR005	White	9c29e50a-be0d-445d-8010-f48d228914ac	Female	phs001287	1826211	Not Hispanic or Latino	Female
+participant	phs001287_22BR006	22BR006	Black or African American	cbe9e0c6-2bc1-4828-92e6-146ee95cff3e	Female	phs001287	1826212	Not Hispanic or Latino	Female
+participant	phs001287_22CO004	22CO004	White	aa7031d6-aad2-4195-91cf-9e32db2a4275	Male	phs001287	1826213	Hispanic or Latino	Male
+participant	phs001287_22CO006	22CO006	White	04a1381e-bc7d-4333-91d0-fdcc0707362e	Female	phs001287	1607195	Not Hispanic or Latino	Female
+participant	phs001287_26OV002	26OV002	White	8ba3787c-c741-42f5-84b2-2fed2c773132	Female	phs001287	1826216	Not Hispanic or Latino	Female
+participant	phs001287_26OV008	26OV008	White	cd8a11c5-fbdc-4f9c-b121-bf1df83c1274	Female	phs001287	1826217	Unknown	Female
+participant	phs001287_26OV009	26OV009	White	3ca03ce5-82d7-4a8d-babd-c0d4c3e7cc21	Female	phs001287	1826218	Unknown	Female
+participant	phs001287_26OV011	26OV011	White	673262a2-5ba7-471d-9dbb-031a4ab22c0b	Female	phs001287	1826220	Unknown	Female
+participant	phs001287_26OV013	26OV013	White	a3f6c146-0b69-4b13-bcd5-1cf8a7b55493	Female	phs001287	1826221	Unknown	Female
+participant	phs001287_27CO004	27CO004	White	02374bd3-d24b-4203-a5f5-a5d1fee80879	Female	phs001287	1607196	Hispanic or Latino	Female
+participant	phs001287_604	604	Black or African American	220273f1-ac95-4b5f-b14c-514f97711691	Female	phs001287	1839055	Unknown	Female
+participant	phs001287_C3L-00001	C3L-00001	White	92314118-8f76-47bb-9681-3c6c324fd248	Female	phs001287	1833530	Not Hispanic or Latino	Female
+participant	phs001287_C3L-00004	C3L-00004	White	6e4af9c4-517f-44ca-a85e-27cfe52de4ef	Male	phs001287	1833531	Not Hispanic or Latino	Male
+participant	phs001287_C3L-00006	C3L-00006	White	77319f4f-fc96-428a-8b21-7b78ff315ca2	Female	phs001287	1833532	Not Hispanic or Latino	Female
+participant	phs001287_C3L-00008	C3L-00008	White	8210025a-2f21-4d97-9d6b-0aff660bbea9	Female	phs001287	1833533	Not Hispanic or Latino	Female
+participant	phs001287_C3L-00009	C3L-00009	White	88c89d1d-7bc7-462e-8349-3d16d8f08f28	Male	phs001287	2125640	Not Hispanic or Latino	Male
+participant	phs001287_C3L-00010	C3L-00010	White	296a2720-62f0-4a7e-ad44-77a133c0ff3c	Male	phs001287	1833534	Not Hispanic or Latino	Male
+participant	phs001287_C3L-00011	C3L-00011	White	3f7d7fce-94ce-49f9-afd4-3be144199d86	Female	phs001287	1833535	Not Hispanic or Latino	Female
+participant	phs001287_C3L-00017	C3L-00017	White	723e6f73-6e0b-46b9-8cee-955890c586b6	Male	phs001287	2125642	Not Hispanic or Latino	Male
+participant	phs001287_C3L-00026	C3L-00026	White	f9d209fa-60b2-4014-8425-3f61844ed2d9	Female	phs001287	1833536	Not Hispanic or Latino	Female
+participant	phs001287_C3L-00032	C3L-00032	White	80127dd9-91f1-46e0-9ea4-c7413e43e7d2	Female	phs001287	1833537	Not Hispanic or Latino	Female
+participant	phs001287_C3L-00079	C3L-00079	White	6271d359-ae84-4a64-a458-e77cfb23ed2e	Male	phs001287	1833538	Not Hispanic or Latino	Male
+participant	phs001287_C3L-00080	C3L-00080	White	48592cc8-994a-4cf6-83f6-0737c09b0ae9	Male	phs001287	1833539	Not Hispanic or Latino	Male
+participant	phs001287_C3L-00081	C3L-00081	White	3250cb31-dc60-4750-bd12-c529aebe8239	Female	phs001287	1833540	Not Hispanic or Latino	Female
+participant	phs001287_C3L-00083	C3L-00083	White	b2e91f75-ccf6-4123-9f2e-df65e3d77946	Male	phs001287	2400469	Not Hispanic or Latino	Male
+participant	phs001287_C3L-00084	C3L-00084	White	3a875de2-a354-4f20-96fa-f2208c4c8b31	Female	phs001287	1833541	Not Hispanic or Latino	Female
+participant	phs001287_C3L-00088	C3L-00088	White	0334cf83-a6ef-4668-a05c-8e3f0ec52af8	Male	phs001287	1833542	Not Hispanic or Latino	Male
+participant	phs001287_C3L-00090	C3L-00090	White	8a8f375d-27de-47ca-9568-087111c4bd55	Female	phs001287	1833543	Not Hispanic or Latino	Female
+participant	phs001287_C3L-00093	C3L-00093	White	929d67c2-efcb-42e7-8972-a82f20230bff	Female	phs001287	2400471	Not Hispanic or Latino	Female
+participant	phs001287_C3L-00094	C3L-00094	White	6b4fc5c6-9696-42d3-8243-800300a27d81	Male	phs001287	1833544	Not Hispanic or Latino	Male
+participant	phs001287_C3L-00095	C3L-00095	White	1bebe95c-daab-41bc-8a19-cc5efb2997d9	Male	phs001287	1833545	Not Hispanic or Latino	Male
+participant	phs001287_C3L-00096	C3L-00096	White	0b7fd837-1c3a-4cc3-ab32-d8332ff265d0	Male	phs001287	1833546	Not Hispanic or Latino	Male
+participant	phs001287_C3L-00097	C3L-00097	White	ca7f62aa-2e07-4394-afb2-a3afaa274373	Male	phs001287	1833547	Not Hispanic or Latino	Male
+participant	phs001287_C3L-00098	C3L-00098	White	d8351aa8-49c0-4bd7-99f8-7cffbf3b5bd2	Female	phs001287	1833548	Not Hispanic or Latino	Female
+participant	phs001287_C3L-00102	C3L-00102	White	b7e8dfbc-e344-44d8-9607-aee7ffbaa610	Male	phs001287	1833549	Not Hispanic or Latino	Male
+participant	phs001287_C3L-00103	C3L-00103	White	be71f892-4bc3-4e84-acb6-55ba4e407284	Male	phs001287	2125646	Not Hispanic or Latino	Male
+participant	phs001287_C3L-00104	C3L-00104	White	7d480023-4caa-452a-9582-330c6e6067d4	Male	phs001287	2400472	Not Hispanic or Latino	Male
+participant	phs001287_C3L-00136	C3L-00136	White	ae676abf-beb4-445a-8065-d2d5b534b852	Female	phs001287	2125647	Not Hispanic or Latino	Female
+participant	phs001287_C3L-00137	C3L-00137	White	49cda24a-5dcf-44b7-bf5c-b33d061e0f4a	Female	phs001287	2125648	Not Hispanic or Latino	Female
+participant	phs001287_C3L-00139	C3L-00139	White	18f2b5e8-6b20-4062-9c99-991cc343b4a8	Female	phs001287	1833550	Not Hispanic or Latino	Female
+participant	phs001287_C3L-00140	C3L-00140	White	99a896a7-a514-4ce9-b544-5e0543b83485	Male	phs001287	1833551	Not Hispanic or Latino	Male
+participant	phs001287_C3L-00143	C3L-00143	White	21c5d8dd-f9aa-4eb9-8693-d43c8bd06eb1	Female	phs001287	1833552	Not Hispanic or Latino	Female
+participant	phs001287_C3L-00144	C3L-00144	White	87f3545f-56b9-49b9-bce6-9ed19eaa352e	Male	phs001287	1833553	Not Hispanic or Latino	Male
+participant	phs001287_C3L-00145	C3L-00145	White	07ff988b-c95d-4784-9380-1b254d116a16	Female	phs001287	2125649	Not Hispanic or Latino	Female
+participant	phs001287_C3L-00156	C3L-00156	White	7b515c4c-3480-4c9f-b4d8-703449972d04	Female	phs001287	2125650	Not Hispanic or Latino	Female
+participant	phs001287_C3L-00157	C3L-00157	White	6949c745-fcfa-434d-8741-ba5bb1a72445	Female	phs001287	2125651	Hispanic or Latino	Female
+participant	phs001287_C3L-00161	C3L-00161	White	312627d5-5355-4b16-a5d2-d90fd72b224c	Female	phs001287	2125652	Hispanic or Latino	Female
+participant	phs001287_C3L-00183	C3L-00183	White	d0616245-2ab7-41b7-a046-ba3ea8f4b12f	Female	phs001287	2125653	Hispanic or Latino	Female
+participant	phs001287_C3L-00189	C3L-00189	Unknown	b1428ed7-d19e-47ff-85d0-3a26710c3453	Female	phs001287	2125654	Unknown	Female
+participant	phs001287_C3L-00263	C3L-00263	White	4fb791a1-d89d-45a3-b99b-ad3d93fd712b	Male	phs001287	2125655	Not Hispanic or Latino	Male
+participant	phs001287_C3L-00277	C3L-00277	White	fefb72f7-66de-4397-a5bc-09b07549d8d0	Male	phs001287	2125657	Unknown	Male
+participant	phs001287_C3L-00279	C3L-00279	White	fa631836-fb83-4cd3-9793-f11676132ddc	Female	phs001287	2125659	Unknown	Female
+participant	phs001287_C3L-00356	C3L-00356	White	851da51b-3e8c-42be-b48f-b89d1bb60142	Female	phs001287	2125661	Not Hispanic or Latino	Female
+participant	phs001287_C3L-00358	C3L-00358	White	4318cc3d-8709-4e9b-81e4-3db2559c8938	Female	phs001287	2125662	Not Hispanic or Latino	Female
+participant	phs001287_C3L-00359	C3L-00359	White	15239912-fc81-4da6-8150-f0060204201e	Female	phs001287	2125663	Not Hispanic or Latino	Female
+participant	phs001287_C3L-00360	C3L-00360	White	bb20073a-b37c-4285-af15-94ad19a60263	Male	phs001287	2125664	Not Hispanic or Latino	Male
+participant	phs001287_C3L-00361	C3L-00361	White	1b5dc933-50ba-4960-ae85-659db424e90d	Female	phs001287	2125665	Not Hispanic or Latino	Female
+participant	phs001287_C3L-00362	C3L-00362	White	af024983-265c-4281-b00b-1b23629a3b88	Female	phs001287	2125666	Not Hispanic or Latino	Female
+participant	phs001287_C3L-00365	C3L-00365	White	8b203a7b-10b6-49fc-aed0-1d25a999d539	Female	phs001287	2125667	Not Hispanic or Latino	Female
+participant	phs001287_C3L-00368	C3L-00368	White	5468a422-c26d-4ed5-9cf8-6269ae94056b	Female	phs001287	2125668	Not Hispanic or Latino	Female
+participant	phs001287_C3L-00369	C3L-00369	White	00835d72-a07c-4798-8e72-f2fd49f2f76b	Male	phs001287	2125669	Not Hispanic or Latino	Male
+participant	phs001287_C3L-00401	C3L-00401	Unknown	a328d734-a0ee-4ca3-b983-69a8c03b4731	Female	phs001287	2125671	Unknown	Female
+participant	phs001287_C3L-00412	C3L-00412	American Indian or Alaska Native	6b6e7a2f-80d2-40ef-9d24-2461346e53c2	Male	phs001287	2125672	Not Hispanic or Latino	Male
+participant	phs001287_C3L-00413	C3L-00413	White	ed652ac6-a4ff-484c-933a-703a467b5fdc	Female	phs001287	2125673	Not Hispanic or Latino	Female
+participant	phs001287_C3L-00415	C3L-00415	White	91c80dbc-86bf-4020-bda3-08c2f2c98ab2	Female	phs001287	2125674	Not Hispanic or Latino	Female
+participant	phs001287_C3L-00416	C3L-00416	White	39e904ad-86a7-4e06-9e18-0ed6f4c4b324	Male	phs001287	2125675	Not Hispanic or Latino	Male
+participant	phs001287_C3L-00418	C3L-00418	White	a0607239-57d8-4ed5-a188-764eb32a80b1	Female	phs001287	2125676	Not Hispanic or Latino	Female
+participant	phs001287_C3L-00422	C3L-00422	Unknown	3b965e9f-2da6-440e-8377-1f22df0e6c0d	Female	phs001287	2125677	Hispanic or Latino	Female
+participant	phs001287_C3L-00445	C3L-00445	Unknown	40515d8d-9854-4637-acbe-0be1ebcbfdfd	Male	phs001287	2765390	Unknown	Male
+participant	phs001287_C3L-00447	C3L-00447	White	359a5ace-9643-4b4b-8d73-60c0288054e1	Male	phs001287	2125680	Not Hispanic or Latino	Male
+participant	phs001287_C3L-00448	C3L-00448	White	8c7d0bb0-3ef5-4907-a235-b86aa0f4c230	Male	phs001287	2125681	Not Hispanic or Latino	Male
+participant	phs001287_C3L-00449	C3L-00449	White	73955b4f-8203-492a-8f7d-e2a12cf675b8	Female	phs001287	2125682	Not Hispanic or Latino	Female
+participant	phs001287_C3L-00510	C3L-00510	Unknown	bae107dd-f7f0-4575-bfd1-7ebbac91706d	Female	phs001287	2125689	Unknown	Female
+participant	phs001287_C3L-00561	C3L-00561	White	d47729ad-c044-4583-b5d5-1621b4b250b6	Male	phs001287	2125691	Not Hispanic or Latino	Male
+participant	phs001287_C3L-00563	C3L-00563	Asian	763cced9-2c3a-4758-a3ea-0a04be69aeea	Female	phs001287	2125692	Not Hispanic or Latino	Female
+participant	phs001287_C3L-00568	C3L-00568	White	4e6950f9-98e3-409f-bc7f-7e1125673545	Female	phs001287	2125695	Hispanic or Latino	Female
+participant	phs001287_C3L-00581	C3L-00581	White	3bd27afa-c40b-457f-a49c-8f07ff614535	Male	phs001287	2125696	Not Hispanic or Latino	Male
+participant	phs001287_C3L-00583	C3L-00583	White	ee7e084b-8d08-478f-83ef-93a67446522c	Male	phs001287	2125697	Hispanic or Latino	Male
+participant	phs001287_C3L-00586	C3L-00586	White	c2d639c8-7d4e-4ff3-98a5-d9a13509a4dd	Female	phs001287	2125698	Not Hispanic or Latino	Female
+participant	phs001287_C3L-00589	C3L-00589	White	43bc8aec-17a3-405c-b747-c8d1e3118972	Male	phs001287	2125699	Not Hispanic or Latino	Male
+participant	phs001287_C3L-00598	C3L-00598	Unknown	4237be2a-4fce-46e6-bac2-bf31670c848d	Female	phs001287	2125701	Unknown	Female
+participant	phs001287_C3L-00599	C3L-00599	Unknown	6ddbbe0d-bbe7-4dfe-92f7-f1dd8056763c	Male	phs001287	2125702	Unknown	Male
+participant	phs001287_C3L-00601	C3L-00601	White	6ab15753-24ad-4ee3-9ccf-6ba54dcfe5c2	Female	phs001287	2125703	Not Hispanic or Latino	Female
+participant	phs001287_C3L-00603	C3L-00603	White	c2c6e0c3-698a-4c4c-aa5d-b8b74b78ffcf	Male	phs001287	2125704	Not Hispanic or Latino	Male
+participant	phs001287_C3L-00604	C3L-00604	White	6039cc16-2a7b-4ddb-b25f-2448f8058d60	Female	phs001287	2125705	Not Hispanic or Latino	Female
+participant	phs001287_C3L-00605	C3L-00605	White	cc6659ce-a8a7-4fbf-8194-bd57dd3bec48	Female	phs001287	2125706	Not Hispanic or Latino	Female
+participant	phs001287_C3L-00606	C3L-00606	White	7dee7884-d86b-4e64-8447-c577ae359abe	Female	phs001287	2125707	Not Hispanic or Latino	Female
+participant	phs001287_C3L-00607	C3L-00607	White	07c483e2-abdd-495c-971e-f9a05570538b	Male	phs001287	2125708	Not Hispanic or Latino	Male
+participant	phs001287_C3L-00610	C3L-00610	White	39d9114b-bfcf-4177-9321-e8d61952541d	Female	phs001287	2125709	Not Hispanic or Latino	Female
+participant	phs001287_C3L-00622	C3L-00622	Unknown	ce0d691e-8982-4f79-9c6f-8bde104c086d	Male	phs001287	2125710	Unknown	Male
+participant	phs001287_C3L-00625	C3L-00625	Unknown	4c2a0559-4b68-47d1-9999-49313d398b28	Female	phs001287	2125711	Unknown	Female
+participant	phs001287_C3L-00640	C3L-00640	White	c3df99c7-c413-4862-b0d0-21eb9d019d65	Female	phs001287	2125714	Not Hispanic or Latino	Female
+participant	phs001287_C3L-00674	C3L-00674	White	1975c77e-9331-41ca-8f06-7cd19f3d518f	Male	phs001287	2125716	Not Hispanic or Latino	Male
+participant	phs001287_C3L-00677	C3L-00677	White	cb90bfc6-0aee-4a96-9c75-280736526247	Female	phs001287	2125717	Not Hispanic or Latino	Female
+participant	phs001287_C3L-00765	C3L-00765	White	97595f0f-5b8e-41d9-81f6-9fec875a6b50	Female	phs001287	2125718	Unknown	Female
+participant	phs001287_C3L-00766	C3L-00766	White	2c6b115a-5327-42b7-b249-a5754ab76df1	Female	phs001287	2125719	Not Hispanic or Latino	Female
+participant	phs001287_C3L-00767	C3L-00767	White	439cc8ca-a772-4ecb-b3e4-f72fdfddda72	Female	phs001287	2125720	Not Hispanic or Latino	Female
+participant	phs001287_C3L-00769	C3L-00769	White	b83b6a36-124e-4d3b-be8e-5da5321c1d01	Female	phs001287	2125721	Unknown	Female
+participant	phs001287_C3L-00770	C3L-00770	White	99a6d256-77e6-4a3b-b7be-52c1158bf166	Female	phs001287	2125722	Not Hispanic or Latino	Female
+participant	phs001287_C3L-00771	C3L-00771	White	401a7aff-55bb-405a-8b5d-d88b4b2a4716	Female	phs001287	2125723	Not Hispanic or Latino	Female
+participant	phs001287_C3L-00780	C3L-00780	White	7aad5600-86af-4c87-9bf4-03217354a4ce	Female	phs001287	2125724	Hispanic or Latino	Female
+participant	phs001287_C3L-00781	C3L-00781	White	ff671a61-1c83-4958-9e6f-e0e9d2e2da51	Female	phs001287	2125725	Hispanic or Latino	Female
+participant	phs001287_C3L-00790	C3L-00790	White	8c23d217-c942-44e1-af53-03228531d480	Male	phs001287	2125727	Unknown	Male
+participant	phs001287_C3L-00791	C3L-00791	White	32224965-f92c-4b2e-aaa2-b8f74731f755	Male	phs001287	2125728	Unknown	Male
+participant	phs001287_C3L-00792	C3L-00792	White	285ac820-95fe-4eb0-9f24-61928a94f352	Female	phs001287	2125729	Unknown	Female
+participant	phs001287_C3L-00796	C3L-00796	White	e41b5571-5e49-4f40-814e-d33481ccf4f2	Male	phs001287	2125730	Unknown	Male
+participant	phs001287_C3L-00799	C3L-00799	White	640ab6f2-3528-494b-89a0-90a4cc958dff	Male	phs001287	2125731	Not Hispanic or Latino	Male
+participant	phs001287_C3L-00800	C3L-00800	White	9b39fce4-7237-459d-b33b-d0f4226f654b	Male	phs001287	2125732	Unknown	Male
+participant	phs001287_C3L-00812	C3L-00812	White	a652f2f2-47eb-47c9-a4b9-09b815367a29	Male	phs001287	2125733	Unknown	Male
+participant	phs001287_C3L-00813	C3L-00813	White	b45feb66-3c64-4bfa-af8d-07cbf54b15c3	Male	phs001287	2125734	Unknown	Male
+participant	phs001287_C3L-00814	C3L-00814	Unknown	db2af549-c0f7-4eae-97ef-9209c9b7c05e	Male	phs001287	2125735	Unknown	Male
+participant	phs001287_C3L-00817	C3L-00817	White	2ffc86b3-f8e3-4baa-92e1-7a24955feafd	Male	phs001287	2125737	Unknown	Male
+participant	phs001287_C3L-00819	C3L-00819	White	9aa49895-79bc-4e0e-ab0c-d91aeba9769b	Male	phs001287	2125738	Not Hispanic or Latino	Male
+participant	phs001287_C3L-00881	C3L-00881	White	02dafb28-eb99-4e4a-a32b-4a4540568546	Male	phs001287	2125739	Not Hispanic or Latino	Male
+participant	phs001287_C3L-00893	C3L-00893	Unknown	eb351af2-8bb3-42f4-8f4f-ac690ff7c68d	Male	phs001287	2125741	Hispanic or Latino	Male
+participant	phs001287_C3L-00902	C3L-00902	White	9890b900-8916-46c6-8816-734a6e907584	Female	phs001287	2125742	Not Hispanic or Latino	Female
+participant	phs001287_C3L-00904	C3L-00904	White	8414e28f-e09a-4cad-9d8a-d3f0afea42ec	Male	phs001287	2125743	Not Hispanic or Latino	Male
+participant	phs001287_C3L-00905	C3L-00905	White	b143ec55-23b1-4c9e-bce1-4fbc17c0de5f	Female	phs001287	2125744	Not Hispanic or Latino	Female
+participant	phs001287_C3L-00907	C3L-00907	White	8273a469-a134-4815-859a-0b8e4b0b7647	Male	phs001287	2125745	Not Hispanic or Latino	Male
+participant	phs001287_C3L-00908	C3L-00908	White	c3169bc5-486f-4a34-b3ef-1868bbc18c4a	Female	phs001287	2125746	Not Hispanic or Latino	Female
+participant	phs001287_C3L-00910	C3L-00910	White	38a6eab7-63f4-4431-8309-f4459ccd9a9b	Female	phs001287	2125747	Not Hispanic or Latino	Female
+participant	phs001287_C3L-00913	C3L-00913	White	0f587e82-7409-42e0-b148-b76af4f73bdf	Male	phs001287	2400479	Not Hispanic or Latino	Male
+participant	phs001287_C3L-00917	C3L-00917	White	6fff8f8f-fe9a-49a9-8e58-43794a8f2752	Male	phs001287	2125748	Hispanic or Latino	Male
+participant	phs001287_C3L-00918	C3L-00918	White	387f7f8b-2b24-4c1e-b5a7-9b2d316f3847	Female	phs001287	2125749	Not Hispanic or Latino	Female
+participant	phs001287_C3L-00921	C3L-00921	White	e4d39c73-9685-40d2-abc8-270b05952c21	Female	phs001287	2125750	Not Hispanic or Latino	Female
+participant	phs001287_C3L-00923	C3L-00923	White	b24ad972-165e-4850-9af4-0f533bdd55cf	Female	phs001287	2125751	Not Hispanic or Latino	Female
+participant	phs001287_C3L-00927	C3L-00927	White	e3f57fcc-4357-473d-a725-a8d43132286e	Male	phs001287	2125752	Not Hispanic or Latino	Male
+participant	phs001287_C3L-00928	C3L-00928	White	e687014e-33b2-4452-abee-3dd007012f29	Female	phs001287	2125753	Not Hispanic or Latino	Female
+participant	phs001287_C3L-00930	C3L-00930	White	81eda1fb-b8f2-4a51-9e38-7e9f01e08c64	Female	phs001287	2125754	Not Hispanic or Latino	Female
+participant	phs001287_C3L-00932	C3L-00932	White	33c317a7-3585-4c3f-b16a-ea2bd72ec590	Female	phs001287	2125755	Not Hispanic or Latino	Female
+participant	phs001287_C3L-00938	C3L-00938	White	2bd586c0-1cad-4552-a303-aa4e987d4af6	Female	phs001287	2125757	Unknown	Female
+participant	phs001287_C3L-00942	C3L-00942	White	c3f87d62-c385-44c8-829a-5af0acabe7db	Female	phs001287	2125758	Unknown	Female
+participant	phs001287_C3L-00946	C3L-00946	White	ddbd46d0-44c9-46d5-8b47-64d8462f9d5d	Female	phs001287	2125759	Unknown	Female
+participant	phs001287_C3L-00947	C3L-00947	White	0744bcf1-7941-4ec4-be07-c2cc0392d46a	Female	phs001287	2125760	Unknown	Female
+participant	phs001287_C3L-00949	C3L-00949	White	1e2ae3a1-db19-4282-8dfa-150f0701f49d	Female	phs001287	2125761	Unknown	Female
+participant	phs001287_C3L-00961	C3L-00961	White	98ce551d-9e55-44ef-bc36-a172e523437a	Female	phs001287	2125762	Unknown	Female
+participant	phs001287_C3L-00963	C3L-00963	White	393aa366-834b-4f4e-938b-34575ab47a92	Female	phs001287	2125763	Unknown	Female
+participant	phs001287_C3L-00965	C3L-00965	Unknown	d5e8d3ea-356a-4d6e-9b05-111c776db6d1	Male	phs001287	2400481	Unknown	Male
+participant	phs001287_C3L-00973	C3L-00973	Unknown	dafdc818-fbf8-4cb0-b8f3-2ad5a64454ea	Male	phs001287	2400486	Unknown	Male
+participant	phs001287_C3L-00977	C3L-00977	Unknown	d65528bf-d037-4e33-a8a2-8669ce06952d	Male	phs001287	2815909	Unknown	Male
+participant	phs001287_C3L-00987	C3L-00987	Unknown	c7085514-d7d4-44fc-b43e-59291f9b51a6	Male	phs001287	2815910	Unknown	Male
+participant	phs001287_C3L-00993	C3L-00993	Unknown	1e020924-ce7c-423b-a175-e823c433678f	Male	phs001287	2400487	Unknown	Male
+participant	phs001287_C3L-00994	C3L-00994	Unknown	8e4ec0ca-2bd0-4d90-9de0-e59cea69be48	Male	phs001287	2815911	Unknown	Male
+participant	phs001287_C3L-00995	C3L-00995	Unknown	210c66a6-64cc-4188-8c95-0d3da3a53f05	Male	phs001287	2815912	Unknown	Male
+participant	phs001287_C3L-00997	C3L-00997	Unknown	18de148c-ceae-425b-8acd-4d6164bb34b5	Male	phs001287	2815913	Unknown	Male
+participant	phs001287_C3L-00999	C3L-00999	Unknown	db8b8a8b-2434-4611-b916-27452760aaa6	Male	phs001287	2815914	Unknown	Male
+participant	phs001287_C3L-01000	C3L-01000	Unknown	365d86b8-bb83-4fbc-a1f0-3bafad8e5870	Male	phs001287	2765391	Unknown	Male
+participant	phs001287_C3L-01031	C3L-01031	Unknown	593376d4-15ce-4f18-8bf8-dd3e072ae4b3	Female	phs001287	2676581	Unknown	Female
+participant	phs001287_C3L-01036	C3L-01036	Unknown	3f853252-6feb-49f1-b3b9-443b04e8175c	Male	phs001287	2676582	Unknown	Male
+participant	phs001287_C3L-01037	C3L-01037	Unknown	315140e7-8321-4363-ac91-f663f01639f2	Male	phs001287	2936567	Unknown	Male
+participant	phs001287_C3L-01040	C3L-01040	Unknown	d8e215de-806f-409d-962d-e1a796434336	Male	phs001287	2676583	Unknown	Male
+participant	phs001287_C3L-01043	C3L-01043	Unknown	b17685c3-d6ed-4d3a-b58d-00f1710372d5	Male	phs001287	2676584	Unknown	Male
+participant	phs001287_C3L-01045	C3L-01045	Unknown	9f3734db-661c-41d0-9b96-3c01a4955624	Female	phs001287	2676585	Unknown	Female
+participant	phs001287_C3L-01046	C3L-01046	Unknown	106264a0-5b36-463f-b1b7-810659d0e6e2	Male	phs001287	2676586	Unknown	Male
+participant	phs001287_C3L-01048	C3L-01048	Unknown	87e1c6a6-0b9f-4328-b21d-080943e5e6a3	Male	phs001287	2765392	Unknown	Male
+participant	phs001287_C3L-01049	C3L-01049	Unknown	8361e8c6-6c24-49d0-a85a-7b439e2d72f3	Male	phs001287	2765393	Unknown	Male
+participant	phs001287_C3L-01051	C3L-01051	Unknown	2dacafbc-d511-4215-b66f-640c31c55de4	Male	phs001287	2676587	Unknown	Male
+participant	phs001287_C3L-01052	C3L-01052	Unknown	126c63fc-0941-41b4-997a-94515b68f101	Female	phs001287	2676588	Unknown	Female
+participant	phs001287_C3L-01053	C3L-01053	Unknown	55830e09-6364-4511-86ad-3aaf9cdfd3f2	Female	phs001287	2676589	Unknown	Female
+participant	phs001287_C3L-01054	C3L-01054	Unknown	fd644685-612e-4613-9f5e-7e1d405437ec	Female	phs001287	2676590	Unknown	Female
+participant	phs001287_C3L-01061	C3L-01061	Unknown	3ce53a99-7d54-4963-a0b5-69ac8ce2a3c1	Male	phs001287	2765394	Unknown	Male
+participant	phs001287_C3L-01124	C3L-01124	Unknown	9140bc9a-9fbc-4b4a-bd83-c58c2cf07a77	Female	phs001287	2936568	Unknown	Female
+participant	phs001287_C3L-01138	C3L-01138	Unknown	01bc02d8-1c97-41e3-b681-b1a522aa4d6d	Male	phs001287	2815915	Unknown	Male
+participant	phs001287_C3L-01142	C3L-01142	Unknown	7f9190ef-5de1-4c36-958d-8efc1d665069	Female	phs001287	2765395	Unknown	Female
+participant	phs001287_C3L-01146	C3L-01146	Unknown	99ddd0a6-8a4c-43be-bf4e-0ef54dfc7b3c	Male	phs001287	2765396	Unknown	Male
+participant	phs001287_C3L-01149	C3L-01149	Unknown	aaa29069-636e-410e-8adc-d98735688f69	Male	phs001287	2765397	Unknown	Male
+participant	phs001287_C3L-01154	C3L-01154	Unknown	240dde82-4c4a-4322-adb6-951093bdaf34	Female	phs001287	2765398	Unknown	Female
+participant	phs001287_C3L-01155	C3L-01155	Unknown	0626b1b6-0b84-4e9f-b906-254f49bde6f4	Male	phs001287	2765399	Unknown	Male
+participant	phs001287_C3L-01156	C3L-01156	Unknown	1f9bfe1a-5b4c-4929-81ed-3715ff28d83c	Male	phs001287	2765400	Unknown	Male
+participant	phs001287_C3L-01157	C3L-01157	Unknown	d10c591c-694a-4944-bc5e-f81719d76f8c	Female	phs001287	2765401	Unknown	Female
+participant	phs001287_C3L-01237	C3L-01237	Unknown	85bde0be-61b7-42fc-84d9-b054d2c005fb	Male	phs001287	2815916	Unknown	Male
+participant	phs001287_C3L-01246	C3L-01246	White	416f6692-fc4d-475e-a83e-3e2ee55f23f2	Female	phs001287	2125764	Unknown	Female
+participant	phs001287_C3L-01247	C3L-01247	White	960cbddf-b41d-4854-bbaa-977a2faf4858	Female	phs001287	2125765	Unknown	Female
+participant	phs001287_C3L-01248	C3L-01248	White	f8a81b80-5b86-41b2-bd80-7f2cdfe23fa7	Female	phs001287	2125766	Unknown	Female
+participant	phs001287_C3L-01249	C3L-01249	White	9665e261-6624-48bb-8133-d827ab473156	Female	phs001287	2125767	Unknown	Female
+participant	phs001287_C3L-01252	C3L-01252	White	40034819-691c-4074-ae86-2348c18f42e5	Female	phs001287	2125768	Unknown	Female
+participant	phs001287_C3L-01253	C3L-01253	White	59ebc8b2-72dd-49c6-9001-cdbc75122fc8	Female	phs001287	2125769	Unknown	Female
+participant	phs001287_C3L-01256	C3L-01256	White	7fe711f3-db86-477b-8870-5fb9102536a6	Female	phs001287	2125770	Unknown	Female
+participant	phs001287_C3L-01257	C3L-01257	White	e13462b4-d238-4696-b53b-3ee97e482213	Female	phs001287	2125771	Unknown	Female
+participant	phs001287_C3L-01275	C3L-01275	Unknown	c198d4f1-06af-4d79-96ea-86e69235643c	Female	phs001287	2125773	Unknown	Female
+participant	phs001287_C3L-01281	C3L-01281	White	eade2c88-9c4b-4814-a59e-3b181b79c255	Male	phs001287	2125774	Not Hispanic or Latino	Male
+participant	phs001287_C3L-01282	C3L-01282	White	4374ba9c-efcd-4ea0-9de8-87b873f89432	Female	phs001287	2125775	Not Hispanic or Latino	Female
+participant	phs001287_C3L-01283	C3L-01283	White	c9c02865-38f3-42c6-a5c0-df916490bd24	Male	phs001287	2125776	Hispanic or Latino	Male
+participant	phs001287_C3L-01284	C3L-01284	Asian	f30ab8e2-928e-4fc3-86d2-8e02ee3c6974	Female	phs001287	2125777	Not Hispanic or Latino	Female
+participant	phs001287_C3L-01285	C3L-01285	White	c7382913-b9a2-4d54-8465-56a23d3e6100	Male	phs001287	2400490	Not Hispanic or Latino	Male
+participant	phs001287_C3L-01286	C3L-01286	White	093f7d22-5376-4094-8780-a93af3bab220	Male	phs001287	2125778	Not Hispanic or Latino	Male
+participant	phs001287_C3L-01287	C3L-01287	White	6589952b-36d3-4efe-a299-05bdc3beec19	Male	phs001287	2125779	Not Hispanic or Latino	Male
+participant	phs001287_C3L-01288	C3L-01288	White	ee27af65-ae76-46fc-9f3f-b60a66357c36	Female	phs001287	2125780	Not Hispanic or Latino	Female
+participant	phs001287_C3L-01302	C3L-01302	White	d8c2a020-6ca8-40e0-878f-816fa99933b2	Female	phs001287	2125781	Not Hispanic or Latino	Female
+participant	phs001287_C3L-01304	C3L-01304	White	383b4fd6-a2c8-4db0-a9c7-452cfa90300b	Female	phs001287	2125782	Not Hispanic or Latino	Female
+participant	phs001287_C3L-01307	C3L-01307	White	12db02fb-a9b8-4215-8b3c-22f13f1d1756	Female	phs001287	2125783	Not Hispanic or Latino	Female
+participant	phs001287_C3L-01311	C3L-01311	White	dcb559ae-2396-47b8-85ce-69a177e39aee	Female	phs001287	2125784	Not Hispanic or Latino	Female
+participant	phs001287_C3L-01312	C3L-01312	White	d57adc1f-eff5-485d-8049-07fab3aace67	Female	phs001287	2125785	Not Hispanic or Latino	Female
+participant	phs001287_C3L-01313	C3L-01313	White	d09ddef5-b0fc-4a58-b2c7-8aa451bd9741	Male	phs001287	2125786	Not Hispanic or Latino	Male
+participant	phs001287_C3L-01327	C3L-01327	White	d6527bd9-3bfb-489c-8a9c-244209b37d3f	Male	phs001287	2125787	Not Hispanic or Latino	Male
+participant	phs001287_C3L-01328	C3L-01328	White	b7574065-9aa9-4eaf-96df-369836fc476b	Male	phs001287	2125788	Not Hispanic or Latino	Male
+participant	phs001287_C3L-01330	C3L-01330	White	e73f3b86-ad42-4e8e-8e91-ad0b1be7ee27	Female	phs001287	2125789	Not Hispanic or Latino	Female
+participant	phs001287_C3L-01352	C3L-01352	White	c626cd31-2c98-4cba-8ba2-72e3d66fdf37	Female	phs001287	2125790	Hispanic or Latino	Female
+participant	phs001287_C3L-01453	C3L-01453	White	b2fc2a8a-bf0b-4d9b-9b08-72b760b5c7f3	Male	phs001287	2400493	Hispanic or Latino	Male
+participant	phs001287_C3L-01455	C3L-01455	White	12b0b8da-4f1c-4237-9c03-9b29fbb97419	Male	phs001287	2400494	Not Hispanic or Latino	Male
+participant	phs001287_C3L-01553	C3L-01553	White	1b1e0a8f-b9f0-4064-991d-d714c7fcde15	Male	phs001287	2125798	Unknown	Male
+participant	phs001287_C3L-01557	C3L-01557	Black or African American	14f6a778-28d8-45aa-b9a7-e9606d0a7cc4	Male	phs001287	2125799	Unknown	Male
+participant	phs001287_C3L-01560	C3L-01560	White	b90abcb9-447a-4168-9687-0ce98a85ecb2	Female	phs001287	2125800	Unknown	Female
+participant	phs001287_C3L-01598	C3L-01598	White	9536a9d0-5096-462a-9845-c2c3e9f9ce55	Female	phs001287	2400495	Not Hispanic or Latino	Female
+participant	phs001287_C3L-01603	C3L-01603	White	41a987a4-c5f2-457e-8f24-73141c149315	Male	phs001287	2125802	Not Hispanic or Latino	Male
+participant	phs001287_C3L-01606	C3L-01606	White	aa5d973b-8ba6-4e10-a936-dcf041cf4122	Male	phs001287	2400497	Not Hispanic or Latino	Male
+participant	phs001287_C3L-01607	C3L-01607	White	5e3cdba2-8534-4fa8-82c4-62cb9cac3bc7	Male	phs001287	2400498	Not Hispanic or Latino	Male
+participant	phs001287_C3L-01632	C3L-01632	White	a65a466f-4c56-4544-9601-2d7ef6de72d7	Female	phs001287	2400500	Not Hispanic or Latino	Female
+participant	phs001287_C3L-01637	C3L-01637	White	a26cc4ad-d66f-4cbe-8443-88906ab16332	Female	phs001287	2400502	Not Hispanic or Latino	Female
+participant	phs001287_C3L-01662	C3L-01662	White	b2280bc6-6367-411a-8ed4-72254d47f2d8	Female	phs001287	2400504	Not Hispanic or Latino	Female
+participant	phs001287_C3L-01663	C3L-01663	White	307686f7-7707-4e04-befc-da87f5a7885c	Female	phs001287	2400505	Not Hispanic or Latino	Female
+participant	phs001287_C3L-01682	C3L-01682	White	9a1f3a49-2b04-450c-99c2-3c196c4fefaa	Female	phs001287	2400507	Not Hispanic or Latino	Female
+participant	phs001287_C3L-01683	C3L-01683	White	5b4b3267-99bb-4051-be03-5c6234942b6d	Male	phs001287	2400508	Not Hispanic or Latino	Male
+participant	phs001287_C3L-01687	C3L-01687	Unknown	6fa0d3bc-383b-4d39-ab4d-317fb1151c5e	Female	phs001287	2400509	Unknown	Female
+participant	phs001287_C3L-01689	C3L-01689	Unknown	3521b550-a70f-4d2d-a544-9e46887f21e4	Male	phs001287	2400510	Unknown	Male
+participant	phs001287_C3L-01703	C3L-01703	Unknown	27df96dd-f748-4cb4-9197-d115d86a7a14	Male	phs001287	2400512	Unknown	Male
+participant	phs001287_C3L-01744	C3L-01744	White	aa4c3979-b345-453b-a150-597b1a14cfc3	Female	phs001287	2400515	Unknown	Female
+participant	phs001287_C3L-01834	C3L-01834	White	cd063c12-c6eb-4cc6-9857-7f5ed6054f61	Female	phs001287	2676593	Not Hispanic or Latino	Female
+participant	phs001287_C3L-01836	C3L-01836	White	63ccd322-90ae-4823-ba1c-dd74b37a36f8	Male	phs001287	2125805	Not Hispanic or Latino	Male
+participant	phs001287_C3L-01838	C3L-01838	White	ab6373f9-f2a9-49da-9c2a-9184ed243cb4	Male	phs001287	2400517	Not Hispanic or Latino	Male
+participant	phs001287_C3L-01861	C3L-01861	White	a426137f-4700-4722-a01b-3cdd98916e5a	Male	phs001287	2400520	Not Hispanic or Latino	Male
+participant	phs001287_C3L-01862	C3L-01862	White	492305d0-5d21-41c9-9b1b-0fabfe6658bb	Male	phs001287	2400521	Not Hispanic or Latino	Male
+participant	phs001287_C3L-01882	C3L-01882	White	2090965a-042e-4d6b-8a9f-dec15bd9f890	Male	phs001287	2400524	Not Hispanic or Latino	Male
+participant	phs001287_C3L-01884	C3L-01884	White	57d0065f-34f9-4a90-b177-c0a04b3c00bb	Male	phs001287	2765402	Not Hispanic or Latino	Male
+participant	phs001287_C3L-01885	C3L-01885	White	a5f60255-162c-41d7-82c4-31ab33e808a6	Male	phs001287	2400526	Not Hispanic or Latino	Male
+participant	phs001287_C3L-01887	C3L-01887	White	f28f8491-e8cc-4511-8da8-a28abd2279cf	Male	phs001287	2400527	Not Hispanic or Latino	Male
+participant	phs001287_C3L-01889	C3L-01889	White	caa82338-ba3d-4fe4-81fc-ac440eb2eef5	Female	phs001287	2400528	Not Hispanic or Latino	Female
+participant	phs001287_C3L-01890	C3L-01890	White	b28c1ec5-130d-48ef-8c4a-04eb95eb0e1c	Female	phs001287	2400529	Not Hispanic or Latino	Female
+participant	phs001287_C3L-01924	C3L-01924	White	19eb1fc3-0892-430d-87e3-eb97cd760714	Female	phs001287	2400531	Not Hispanic or Latino	Female
+participant	phs001287_C3L-01925	C3L-01925	White	300d5589-61da-44fe-a65b-c4b06620b8eb	Female	phs001287	2676594	Not Hispanic or Latino	Female
+participant	phs001287_C3L-01971	C3L-01971	White	ccac2b48-94c7-4143-b872-5a8a7f99aa53	Male	phs001287	2400539	Not Hispanic or Latino	Male
+participant	phs001287_C3L-02041	C3L-02041	White	477a99ea-2b11-4ab0-a7af-1df2b6ab2204	Female	phs001287	2676595	Not Hispanic or Latino	Female
+participant	phs001287_C3L-02109	C3L-02109	Unknown	422aa978-27f0-40eb-9ec7-cb9ae9be8d26	Female	phs001287	2676596	Unknown	Female
+participant	phs001287_C3L-02112	C3L-02112	Unknown	43efa877-2190-45ee-8b8e-a3dff14f277b	Male	phs001287	2676597	Unknown	Male
+participant	phs001287_C3L-02115	C3L-02115	Unknown	2a06e333-cb08-487b-a8d6-e94e610528dc	Male	phs001287	2676598	Unknown	Male
+participant	phs001287_C3L-02116	C3L-02116	Unknown	f9c23274-baf8-4c52-838a-a32cbe937f46	Male	phs001287	2676599	Unknown	Male
+participant	phs001287_C3L-02118	C3L-02118	Unknown	242d91b3-a718-4629-bdad-9df7ca61edcb	Female	phs001287	2676600	Unknown	Female
+participant	phs001287_C3L-02127	C3L-02127	Unknown	649e2039-48c4-4d57-896b-b8c666979857	Male	phs001287	2765403	Unknown	Male
+participant	phs001287_C3L-02130	C3L-02130	Unknown	22df2d80-5f03-4f67-b8aa-ffa303f5b740	Male	phs001287	2765404	Unknown	Male
+participant	phs001287_C3L-02163	C3L-02163	Unknown	863e624d-de6e-4119-a485-f4f83fdc44a8	Male	phs001287	2765405	Unknown	Male
+participant	phs001287_C3L-02164	C3L-02164	Unknown	c31fcba7-7c46-468f-9eb7-0f864b86d3a1	Male	phs001287	2765406	Unknown	Male
+participant	phs001287_C3L-02168	C3L-02168	Unknown	11a21540-0c1d-4e1b-bdf1-c72b23b4a1d6	Male	phs001287	2765407	Unknown	Male
+participant	phs001287_C3L-02170	C3L-02170	Unknown	f42e34ba-7e41-4bfd-8f43-98d9629d23b5	Male	phs001287	2765408	Unknown	Male
+participant	phs001287_C3L-02219	C3L-02219	White	5a187f33-f1a2-4e82-9a65-c0969121538b	Male	phs001287	2400545	Not Hispanic or Latino	Male
+participant	phs001287_C3L-02345	C3L-02345	White	e4db6da9-50b0-4175-bf11-5debf1926839	Female	phs001287	2400547	Not Hispanic or Latino	Female
+participant	phs001287_C3L-02348	C3L-02348	White	ada1f198-c9f9-425c-b4b1-dd927b8542a1	Female	phs001287	2400548	Not Hispanic or Latino	Female
+participant	phs001287_C3L-02349	C3L-02349	White	40317f50-5c4f-4654-b2f0-01dff503b766	Female	phs001287	2765409	Not Hispanic or Latino	Female
+participant	phs001287_C3L-02350	C3L-02350	White	241aa0f3-6b06-4532-b493-fb11c1592da9	Male	phs001287	2400549	Not Hispanic or Latino	Male
+participant	phs001287_C3L-02358	C3L-02358	White	81cf9860-85ec-4e7f-b501-9b698e2a9b30	Female	phs001287	2765410	Not Hispanic or Latino	Female
+participant	phs001287_C3L-02365	C3L-02365	White	b30b0185-7e16-4f44-8217-00ac73a091ef	Female	phs001287	2400551	Not Hispanic or Latino	Female
+participant	phs001287_C3L-02463	C3L-02463	White	6f0afe82-afa8-4214-a8d6-01abcb8b5eb3	Male	phs001287	2676604	Not Hispanic or Latino	Male
+participant	phs001287_C3L-02465	C3L-02465	Unknown	eb00d8f3-dadf-4cfd-bafb-76933e6f4a99	Male	phs001287	2676605	Hispanic or Latino	Male
+participant	phs001287_C3L-02504	C3L-02504	White	e6f3439e-16c4-4946-b134-8bba27f8ee8b	Male	phs001287	2676606	Not Hispanic or Latino	Male
+participant	phs001287_C3L-02508	C3L-02508	White	7c534ab8-5cbe-4f91-9b09-ef9ebf40c69c	Male	phs001287	2400552	Hispanic or Latino	Male
+participant	phs001287_C3L-02542	C3L-02542	White	29732749-3465-4519-9b61-ee3fc2b7e854	Female	phs001287	2676607	Hispanic or Latino	Female
+participant	phs001287_C3L-02546	C3L-02546	White	43163257-0e96-470e-8efb-203fad9ce15c	Male	phs001287	2765411	Not Hispanic or Latino	Male
+participant	phs001287_C3L-02549	C3L-02549	White	96647bbc-35a8-494f-a7f9-6c4fca06d3fc	Male	phs001287	2400553	Not Hispanic or Latino	Male
+participant	phs001287_C3L-02552	C3L-02552	White	78ad37d6-3560-4dd7-88ae-5aa01a94cb74	Male	phs001287	2765412	Not Hispanic or Latino	Male
+participant	phs001287_C3L-02604	C3L-02604	White	fa000f89-9d65-4bf5-960c-c12e4e6c9958	Female	phs001287	2936591	Not Hispanic or Latino	Female
+participant	phs001287_C3L-02606	C3L-02606	Unknown	003f2cda-ee8d-48b1-834b-65aa713694dd	Female	phs001287	2676608	Unknown	Female
+participant	phs001287_C3L-02610	C3L-02610	Unknown	a3dd0773-fb98-465f-aa37-fb34f274e3fb	Male	phs001287	2676609	Unknown	Male
+participant	phs001287_C3L-02613	C3L-02613	Unknown	00d4d2f1-c587-469b-bbdf-a7ba7ce07138	Female	phs001287	2676610	Unknown	Female
+participant	phs001287_C3L-02617	C3L-02617	Unknown	07b8fe0f-18dd-44f4-9fda-49fea119c382	Male	phs001287	2815917	Unknown	Male
+participant	phs001287_C3L-02619	C3L-02619	Unknown	5225e04e-1955-4823-b978-338ba9ca3392	Male	phs001287	2765413	Unknown	Male
+participant	phs001287_C3L-02621	C3L-02621	Unknown	9e56b5f9-9354-4418-98b3-614a3269deb0	Male	phs001287	2815918	Unknown	Male
+participant	phs001287_C3L-02624	C3L-02624	Unknown	5047e7a5-b9af-49db-8f7b-440ddeffa81a	Male	phs001287	2798354	Unknown	Male
+participant	phs001287_C3L-02625	C3L-02625	Unknown	9906efc4-993e-46f2-993f-0eb55f038766	Male	phs001287	2798355	Unknown	Male
+participant	phs001287_C3L-02627	C3L-02627	Unknown	e07674c4-c53e-4400-9b76-0edb612477d5	Female	phs001287	2798356	Unknown	Female
+participant	phs001287_C3L-02629	C3L-02629	Unknown	19f9119a-3afb-49e3-9a9a-2082bea2c1fc	Male	phs001287	2798357	Unknown	Male
+participant	phs001287_C3L-02642	C3L-02642	Unknown	c2819235-ff50-43bd-9fc7-339d87a754f2	Male	phs001287	2765414	Unknown	Male
+participant	phs001287_C3L-02646	C3L-02646	Unknown	37eb3b7d-c5fb-4f3d-9552-760e0683d94a	Male	phs001287	2798358	Unknown	Male
+participant	phs001287_C3L-02648	C3L-02648	Unknown	7e1eecbb-12a4-4eb4-a214-e60d58e6ef0e	Male	phs001287	2798359	Unknown	Male
+participant	phs001287_C3L-02649	C3L-02649	Unknown	149ddd03-314a-4695-b959-3519250c1e10	Male	phs001287	2798360	Unknown	Male
+participant	phs001287_C3L-02650	C3L-02650	Unknown	a3585a57-5904-4261-b845-5814bc0e6db5	Male	phs001287	2798361	Unknown	Male
+participant	phs001287_C3L-02651	C3L-02651	Unknown	9391219b-ce40-436c-82d9-5b53ecf77849	Male	phs001287	2815919	Unknown	Male
+participant	phs001287_C3L-02660	C3L-02660	Unknown	22b9f8c9-9673-433d-8ca5-f564525602e3	Male	phs001287	2798362	Unknown	Male
+participant	phs001287_C3L-02665	C3L-02665	Unknown	42b1781e-fc0a-4401-9ca0-c9438e2df9c2	Male	phs001287	2798364	Unknown	Male
+participant	phs001287_C3L-02669	C3L-02669	Unknown	5f9de8f9-6143-47fb-849a-7819a6d86024	Male	phs001287	2798365	Unknown	Male
+participant	phs001287_C3L-02701	C3L-02701	Unknown	2064d6d5-5ff1-437b-bf7f-e10994a7f071	Male	phs001287	2936594	Unknown	Male
+participant	phs001287_C3L-02704	C3L-02704	White	409cfed8-b853-4962-957f-cf3068995085	Male	phs001287	2765415	Not Hispanic or Latino	Male
+participant	phs001287_C3L-02705	C3L-02705	White	65c157bc-a8f3-452d-af9d-e262f1e6a0e6	Male	phs001287	2765416	Not Hispanic or Latino	Male
+participant	phs001287_C3L-02707	C3L-02707	White	3ea8bfc4-d0cd-4d8d-9596-8665ede19c31	Male	phs001287	2765417	Not Hispanic or Latino	Male
+participant	phs001287_C3L-02708	C3L-02708	White	38701494-653d-48e1-a2f4-cf42a8085a72	Male	phs001287	2765418	Not Hispanic or Latino	Male
+participant	phs001287_C3L-02809	C3L-02809	White	577602ff-05de-4a61-bb94-08ee381c5357	Male	phs001287	2936600	Not Hispanic or Latino	Male
+participant	phs001287_C3L-02890	C3L-02890	Unknown	03cdb993-1b65-4678-a18e-ef4d6f4d142a	Male	phs001287	2936601	Unknown	Male
+participant	phs001287_C3L-02891	C3L-02891	White	e9415d5f-1f9a-4c80-8c86-2fb6d802d860	Female	phs001287	2798372	Not Hispanic or Latino	Female
+participant	phs001287_C3L-02897	C3L-02897	White	b74620d2-6dbd-4980-b10f-a4ddd20d3db9	Male	phs001287	2936604	Not Hispanic or Latino	Male
+participant	phs001287_C3L-02899	C3L-02899	White	228a3993-5ae0-4ac9-9997-da118b3d9f42	Male	phs001287	2936605	Not Hispanic or Latino	Male
+participant	phs001287_C3L-02900	C3L-02900	White	585540af-5f02-451f-af1e-cc2b7b3f90e1	Male	phs001287	2765419	Not Hispanic or Latino	Male
+participant	phs001287_C3L-02951	C3L-02951	White	be512852-2c0c-4a2a-b093-61ad486bfeb5	Male	phs001287	2765420	Not Hispanic or Latino	Male
+participant	phs001287_C3L-02955	C3L-02955	White	45aafc5d-f0aa-4fbc-b949-e5b93036d8d1	Female	phs001287	2765421	Not Hispanic or Latino	Female
+participant	phs001287_C3L-02963	C3L-02963	White	bf744c69-c2d6-4c93-b116-7b2f58137e50	Male	phs001287	2765422	Not Hispanic or Latino	Male
+participant	phs001287_C3L-02964	C3L-02964	White	76828e6e-f306-435b-a2ed-4179910ff858	Male	phs001287	2765423	Not Hispanic or Latino	Male
+participant	phs001287_C3L-02968	C3L-02968	White	6790cca5-77ff-4f32-bf6e-ab99c32eadb5	Male	phs001287	2765424	Not Hispanic or Latino	Male
+participant	phs001287_C3L-02969	C3L-02969	White	489ae3a2-87ac-4de5-9286-6264f824b0d1	Male	phs001287	2798374	Not Hispanic or Latino	Male
+participant	phs001287_C3L-02970	C3L-02970	White	63e86fad-3cfa-4777-b070-398ae6385965	Male	phs001287	2798375	Not Hispanic or Latino	Male
+participant	phs001287_C3L-02984	C3L-02984	Asian	b0b8271c-1a63-45ae-9399-c64f5d1d0c86	Male	phs001287	2765425	Not Hispanic or Latino	Male
+participant	phs001287_C3L-03123	C3L-03123	Unknown	4f449f50-53a7-44e4-9327-56592bfd3bef	Female	phs001287	2936612	Unknown	Female
+participant	phs001287_C3L-03129	C3L-03129	Unknown	cf0d0223-fb5f-44e7-a6f6-a61947279a71	Male	phs001287	3003930	Unknown	Male
+participant	phs001287_C3L-03260	C3L-03260	White	08c81665-3ff7-40b6-aa82-89fd9befbab7	Female	phs001287	2765426	Not Hispanic or Latino	Female
+participant	phs001287_C3L-03266	C3L-03266	White	2210d045-914a-4308-ba97-b3eca547f2a1	Female	phs001287	2765427	Hispanic or Latino	Female
+participant	phs001287_C3L-03272	C3L-03272	White	a6d9be20-61de-4033-a994-15fa4d28c550	Male	phs001287	2798377	Not Hispanic or Latino	Male
+participant	phs001287_C3L-03350	C3L-03350	Unknown	c6e672ae-873d-41c9-bc08-14f4ed2f3674	Male	phs001287	2936620	Unknown	Male
+participant	phs001287_C3L-03356	C3L-03356	Unknown	7cae6bb8-6c6a-42c4-badb-46d5c8f8757c	Male	phs001287	2936621	Unknown	Male
+participant	phs001287_C3L-03371	C3L-03371	Unknown	ca5633cf-1189-43b0-a5b7-0e12a068c804	Male	phs001287	2936622	Unknown	Male
+participant	phs001287_C3L-03378	C3L-03378	Unknown	c626bd22-4ec0-4912-88e4-72be6b683b09	Male	phs001287	2815920	Unknown	Male
+participant	phs001287_C3L-03387	C3L-03387	Unknown	b333cd49-0031-4466-a50c-937cd1760fc3	Male	phs001287	2815921	Unknown	Male
+participant	phs001287_C3L-03388	C3L-03388	Unknown	7b71da0d-7172-4dad-9c82-f4919c7e143b	Male	phs001287	2936623	Unknown	Male
+participant	phs001287_C3L-03390	C3L-03390	Unknown	2ed08d90-dc72-4596-86b1-7dd4c970ad0e	Female	phs001287	2815922	Unknown	Female
+participant	phs001287_C3L-03392	C3L-03392	Unknown	06124939-d1a5-4413-b0e3-de25c79a56e2	Female	phs001287	2765428	Unknown	Female
+participant	phs001287_C3L-03394	C3L-03394	Unknown	895e2e99-4514-4143-ad31-14db03e1a6c1	Female	phs001287	2936624	Unknown	Female
+participant	phs001287_C3L-03395	C3L-03395	Unknown	85184c98-f8f6-4fad-b0a1-dbae8c445cb5	Male	phs001287	3003931	Unknown	Male
+participant	phs001287_C3L-03400	C3L-03400	Unknown	038a01ce-2d46-4af1-af4b-6e64db2d0ba4	Female	phs001287	2815923	Unknown	Female
+participant	phs001287_C3L-03405	C3L-03405	Unknown	80af5c5f-1e82-47b2-8f21-f12ddc8bef1d	Male	phs001287	2815924	Unknown	Male
+participant	phs001287_C3L-03407	C3L-03407	Unknown	07d93994-0309-4281-8d50-ec74026f5de9	Female	phs001287	2765429	Hispanic or Latino	Female
+participant	phs001287_C3L-03628	C3L-03628	Unknown	600d5f4b-d550-46da-a397-e978de3de4d3	Female	phs001287	2936637	Unknown	Female
+participant	phs001287_C3L-03630	C3L-03630	Unknown	3ebfdefd-f07a-497a-97d5-3293b1802f3b	Male	phs001287	2936638	Unknown	Male
+participant	phs001287_C3L-03632	C3L-03632	Unknown	3b83402a-3e54-4337-b4b3-5bdeb5ff6711	Male	phs001287	2936639	Unknown	Male
+participant	phs001287_C3L-03635	C3L-03635	Unknown	e67c9804-b216-4d86-bd9c-5709efaf73f3	Male	phs001287	2936640	Unknown	Male
+participant	phs001287_C3L-03639	C3L-03639	Unknown	c021f23c-b110-4c27-af8a-6acb6a4677b0	Male	phs001287	2936641	Unknown	Male
+participant	phs001287_C3L-03678	C3L-03678	White	aac93042-e0d3-4913-936b-db003ff24a63	Male	phs001287	2765431	Not Hispanic or Latino	Male
+participant	phs001287_C3L-03681	C3L-03681	White	1ed7ef4d-e641-47d1-b6ce-4a559315d9ea	Female	phs001287	2765432	Not Hispanic or Latino	Female
+participant	phs001287_C3L-03727	C3L-03727	White	f8d5bf07-4cdc-47db-8fe3-cd0353316c68	Female	phs001287	2798379	Not Hispanic or Latino	Female
+participant	phs001287_C3L-03728	C3L-03728	White	19310e0d-ba0c-4af5-9a99-46efc6b4961a	Female	phs001287	2798380	Not Hispanic or Latino	Female
+participant	phs001287_C3L-03743	C3L-03743	White	c89218e7-3822-405a-9e38-e0bfa042b99b	Female	phs001287	2936647	Not Hispanic or Latino	Female
+participant	phs001287_C3L-03744	C3L-03744	White	3a0a011b-1375-42ab-aa0b-46f9161fd8f5	Male	phs001287	2798381	Not Hispanic or Latino	Male
+participant	phs001287_C3L-03747	C3L-03747	White	b5d0044c-0381-404d-8f74-af73040968e9	Male	phs001287	2765433	Not Hispanic or Latino	Male
+participant	phs001287_C3L-03748	C3L-03748	White	f99d5aad-f2d6-449c-aeef-2e354e572ad4	Female	phs001287	2765434	Not Hispanic or Latino	Female
+participant	phs001287_C3L-03961	C3L-03961	Unknown	5f6391de-8cfa-48e1-9a60-b3617947afde	Female	phs001287	2798382	Unknown	Female
+participant	phs001287_C3L-03962	C3L-03962	Unknown	40884669-af8b-46b0-bdf0-9e086c9842c1	Male	phs001287	2798383	Unknown	Male
+participant	phs001287_C3L-03963	C3L-03963	Unknown	ce8e0013-2c8d-48cd-a634-85cf64642abe	Male	phs001287	2798384	Unknown	Male
+participant	phs001287_C3L-03965	C3L-03965	Unknown	adad6f4e-945f-41b3-9692-7076733f68e8	Male	phs001287	2798385	Unknown	Male
+participant	phs001287_C3L-03968	C3L-03968	Unknown	f6a62904-bc82-4709-a2d3-52443f343007	Female	phs001287	2798386	Unknown	Female
+participant	phs001287_C3L-04013	C3L-04013	Unknown	a9ca3560-6876-44cd-a7fa-38a3692e26f5	Male	phs001287	2798387	Unknown	Male
+participant	phs001287_C3L-04014	C3L-04014	Unknown	5a9302f2-744f-45b7-ab6d-859d3e50396e	Male	phs001287	2798388	Unknown	Male
+participant	phs001287_C3L-04025	C3L-04025	Unknown	d57955f7-ae19-4c55-9bfc-d1aa932932b9	Male	phs001287	2815925	Unknown	Male
+participant	phs001287_C3L-04027	C3L-04027	Unknown	9d69925e-873d-41a4-ae38-37a02a34c5d4	Male	phs001287	2936652	Unknown	Male
+participant	phs001287_C3L-04071	C3L-04071	White	006ddd8e-9c68-4d23-991f-48b37c98bb68	Male	phs001287	2798389	Not Hispanic or Latino	Male
+participant	phs001287_C3L-04072	C3L-04072	Black or African American	49cfe5ee-1305-4e1c-8da3-63c9d93c17e7	Male	phs001287	2936657	Not Hispanic or Latino	Male
+participant	phs001287_C3L-04080	C3L-04080	White	47136d4c-4abc-4c85-819a-97e1c5f22239	Male	phs001287	2936658	Not Hispanic or Latino	Male
+participant	phs001287_C3L-04084	C3L-04084	White	27adc55c-c588-491f-a179-40570eb0288c	Female	phs001287	2798390	Not Hispanic or Latino	Female
+participant	phs001287_C3L-04350	C3L-04350	Unknown	5bb1176b-ee32-4a79-8726-83324e5ff78b	Male	phs001287	3496297	Unknown	Male
+participant	phs001287_C3L-04354	C3L-04354	Unknown	e212f95b-4cc1-499f-a9f7-95e92288cbfc	Male	phs001287	2815926	Unknown	Male
+participant	phs001287_C3L-04391	C3L-04391	White	eec57a16-b99f-4d9b-99da-d329f131ea7e	Male	phs001287	2798391	Not Hispanic or Latino	Male
+participant	phs001287_C3L-04473	C3L-04473	Unknown	a83335f9-06f4-4e38-bd23-829c6e204abc	Female	phs001287	2936666	Unknown	Female
+participant	phs001287_C3L-04475	C3L-04475	Unknown	fed057a9-00ab-4568-895c-7e84f98753c9	Male	phs001287	2936667	Unknown	Male
+participant	phs001287_C3L-04479	C3L-04479	Unknown	89193878-b184-4b4a-a210-81356ba06757	Male	phs001287	2936668	Unknown	Male
+participant	phs001287_C3L-04495	C3L-04495	Unknown	237e8fa5-fe0c-4a8c-bf51-ed64942f0f12	Female	phs001287	2936669	Unknown	Female
+participant	phs001287_C3L-04791	C3L-04791	Unknown	adbd3576-24d5-4010-b223-f99b7fb897e1	Male	phs001287	2815927	Unknown	Male
+participant	phs001287_C3L-04844	C3L-04844	Unknown	238c90f8-f995-44cd-a1c9-efb318e16193	Female	phs001287	2815928	Unknown	Female
+participant	phs001287_C3L-04848	C3L-04848	Unknown	45fd6c5a-dac1-4e69-95ba-1c92cf6bec4d	Female	phs001287	2936677	Unknown	Female
+participant	phs001287_C3L-04849	C3L-04849	Unknown	e44ac51b-edfa-418c-a91c-9d649a73cb33	Male	phs001287	2815929	Unknown	Male
+participant	phs001287_C3L-04853	C3L-04853	Unknown	a2f3b315-4679-49b4-8e07-ff1cdf855a41	Female	phs001287	3003932	Unknown	Female
+participant	phs001287_C3L-05257	C3L-05257	Unknown	72e4f64a-8258-4123-97f8-8037f774bc77	Female	phs001287	3496564	Unknown	Female
+participant	phs001287_C3N-00148	C3N-00148	Unknown	b18f6e7c-0213-4cb4-bfd9-bfeafc042201	Male	phs001287	2125806	Unknown	Male
+participant	phs001287_C3N-00149	C3N-00149	Unknown	685847f0-f324-43be-91c5-8d74c14ee25c	Female	phs001287	2125807	Unknown	Female
+participant	phs001287_C3N-00150	C3N-00150	Unknown	d856d89c-b1d3-4ed2-b92b-1e484144be68	Female	phs001287	2125808	Unknown	Female
+participant	phs001287_C3N-00151	C3N-00151	Unknown	53ea3dfc-a825-49f4-b265-328bddbe1487	Female	phs001287	2125809	Unknown	Female
+participant	phs001287_C3N-00154	C3N-00154	Unknown	3a21fb8c-7f72-4917-9a9c-79318e32e1df	Male	phs001287	2125810	Unknown	Male
+participant	phs001287_C3N-00167	C3N-00167	Unknown	d1cc09b1-aa83-4956-b99f-bbcd434daa36	Male	phs001287	2125811	Unknown	Male
+participant	phs001287_C3N-00168	C3N-00168	Unknown	4fc72407-f847-45c7-af55-695d6aca39e3	Male	phs001287	2125812	Unknown	Male
+participant	phs001287_C3N-00169	C3N-00169	Unknown	41e3a97f-8ab2-4ef4-89be-7114b28af1fe	Male	phs001287	2125813	Unknown	Male
+participant	phs001287_C3N-00175	C3N-00175	Unknown	f10940c3-dd82-41f3-a4e5-0ece02791bb1	Male	phs001287	2125815	Unknown	Male
+participant	phs001287_C3N-00177	C3N-00177	Unknown	1b15e86d-6fc4-4730-9f9b-43fc252a00b5	Male	phs001287	2125816	Unknown	Male
+participant	phs001287_C3N-00180	C3N-00180	Unknown	293634d3-e024-4141-b1fd-6549f20f3148	Male	phs001287	2125818	Unknown	Male
+participant	phs001287_C3N-00194	C3N-00194	White	77ae615b-96b0-4253-9aa0-48de10eb206b	Female	phs001287	2125819	Not Hispanic or Latino	Female
+participant	phs001287_C3N-00198	C3N-00198	White	2f55aa27-c865-417b-afb7-811305b961ea	Male	phs001287	2125820	Not Hispanic or Latino	Male
+participant	phs001287_C3N-00199	C3N-00199	White	b6f07f51-2550-4d69-8e5a-35de27094298	Male	phs001287	2125821	Not Hispanic or Latino	Male
+participant	phs001287_C3N-00200	C3N-00200	Black or African American	8763271f-4e08-4de0-8095-cf5ff285629f	Female	phs001287	2125822	Not Hispanic or Latino	Female
+participant	phs001287_C3N-00203	C3N-00203	Unknown	537faade-bb1c-4fe0-b48e-ba09e7a1896f	Male	phs001287	2400554	Unknown	Male
+participant	phs001287_C3N-00204	C3N-00204	Unknown	407e53fc-d334-4d9d-b3d3-f6e00082a49f	Female	phs001287	2400555	Unknown	Female
+participant	phs001287_C3N-00211	C3N-00211	Unknown	240205ee-7d7e-4838-937a-8e884f7554a2	Male	phs001287	2400556	Unknown	Male
+participant	phs001287_C3N-00217	C3N-00217	Unknown	b5165574-6562-4a1f-b22f-c67dbac3ddfc	Female	phs001287	2400557	Unknown	Female
+participant	phs001287_C3N-00221	C3N-00221	Unknown	1702323b-a194-4ff0-8cb0-a9e4c3239b9e	Male	phs001287	2765435	Not Hispanic or Latino	Male
+participant	phs001287_C3N-00223	C3N-00223	Asian	c2da1a93-2d1b-4891-b98f-43e76d57e54f	Female	phs001287	2400558	Not Hispanic or Latino	Female
+participant	phs001287_C3N-00242	C3N-00242	White	3236be23-30b6-4edd-873b-00e468a7b949	Male	phs001287	2125823	Not Hispanic or Latino	Male
+participant	phs001287_C3N-00244	C3N-00244	White	e5fb0cd2-2d4a-4924-8a37-7a0ac166e2df	Male	phs001287	2125824	Not Hispanic or Latino	Male
+participant	phs001287_C3N-00246	C3N-00246	White	d7eee45c-cf88-47c8-8f62-01f221b2bca3	Male	phs001287	2125825	Not Hispanic or Latino	Male
+participant	phs001287_C3N-00247	C3N-00247	White	a560f670-9d74-4c80-a0cf-a20d2f9cdb8c	Female	phs001287	2400559	Not Hispanic or Latino	Female
+participant	phs001287_C3N-00249	C3N-00249	White	fd227207-e37c-4044-bf90-d16a04d61e0c	Male	phs001287	2125826	Not Hispanic or Latino	Male
+participant	phs001287_C3N-00293	C3N-00293	Unknown	fe3e275e-ae70-4db7-8bd7-b52e13acf999	Male	phs001287	2125827	Unknown	Male
+participant	phs001287_C3N-00294	C3N-00294	Unknown	f872c1ad-16da-44e6-af3a-fb822601e6ce	Male	phs001287	2125828	Unknown	Male
+participant	phs001287_C3N-00295	C3N-00295	Unknown	fc1d72bc-3b78-4ac6-9901-2685dd3fce8a	Female	phs001287	2125829	Unknown	Female
+participant	phs001287_C3N-00297	C3N-00297	Unknown	0aca079c-8f6c-43fe-be38-797c38764589	Male	phs001287	2125830	Unknown	Male
+participant	phs001287_C3N-00299	C3N-00299	Unknown	c82d48b3-9532-42f4-9f3f-f5dbfd413cc3	Male	phs001287	2125831	Unknown	Male
+participant	phs001287_C3N-00302	C3N-00302	Unknown	0bb8bdc3-6536-4273-aeae-ca6157418c29	Male	phs001287	2125833	Unknown	Male
+participant	phs001287_C3N-00303	C3N-00303	Unknown	99c58891-a457-493f-aa5c-bc939e5d5bb2	Male	phs001287	2125834	Unknown	Male
+participant	phs001287_C3N-00305	C3N-00305	Unknown	de38e88d-e4f4-482b-aba4-7276bad30717	Female	phs001287	2125835	Unknown	Female
+participant	phs001287_C3N-00306	C3N-00306	Unknown	1efa35f7-9d5e-46e9-a5a3-a46c4bef12fe	Male	phs001287	2125836	Unknown	Male
+participant	phs001287_C3N-00307	C3N-00307	Unknown	146e399c-91ca-40d4-8c39-cca364305bf0	Male	phs001287	2125837	Unknown	Male
+participant	phs001287_C3N-00310	C3N-00310	Unknown	ad21bc7c-2128-4143-b0fd-6150b2933ca4	Male	phs001287	2125839	Unknown	Male
+participant	phs001287_C3N-00312	C3N-00312	Unknown	35b8c175-1582-4793-a571-6e011d14845a	Male	phs001287	2125840	Unknown	Male
+participant	phs001287_C3N-00313	C3N-00313	Unknown	e8a3ca48-49bc-43bc-8554-633329e246e3	Female	phs001287	2125841	Unknown	Female
+participant	phs001287_C3N-00314	C3N-00314	Unknown	3a268e29-745b-4c48-8acb-d4867f74fe66	Male	phs001287	2125842	Unknown	Male
+participant	phs001287_C3N-00315	C3N-00315	Unknown	1c6e7de1-f241-4be4-9ac7-d5e466832ca0	Male	phs001287	2125843	Unknown	Male
+participant	phs001287_C3N-00317	C3N-00317	Unknown	a2094ca9-7a1f-4ae2-aed1-9db7c2816d33	Female	phs001287	2125844	Unknown	Female
+participant	phs001287_C3N-00320	C3N-00320	Unknown	dc9fc11f-bb20-4930-bf07-67e39904c8b5	Male	phs001287	2125845	Unknown	Male
+participant	phs001287_C3N-00321	C3N-00321	Unknown	996c030c-5a52-4a15-9d3b-4bdf9a237c71	Female	phs001287	2125846	Unknown	Female
+participant	phs001287_C3N-00322	C3N-00322	Unknown	2a733d91-8d4c-4b5a-b65f-745a8d36a4b7	Female	phs001287	2125847	Unknown	Female
+participant	phs001287_C3N-00323	C3N-00323	Unknown	3b99523d-74fc-411f-b58b-3fccae4d5b3c	Female	phs001287	2125848	Unknown	Female
+participant	phs001287_C3N-00324	C3N-00324	Unknown	350152d8-e826-4c2d-8209-3eec28c6681e	Female	phs001287	2125849	Unknown	Female
+participant	phs001287_C3N-00326	C3N-00326	Unknown	be1745d7-68ce-4ef2-8281-f8b05197fee5	Female	phs001287	2125850	Unknown	Female
+participant	phs001287_C3N-00328	C3N-00328	Unknown	3f929dcd-664d-4917-a2ea-49999f1df5be	Female	phs001287	2125851	Unknown	Female
+participant	phs001287_C3N-00333	C3N-00333	Unknown	f459283a-f147-4e17-a50b-a34ef0556921	Female	phs001287	2125852	Unknown	Female
+participant	phs001287_C3N-00334	C3N-00334	Unknown	717b53d7-0b33-4fdc-b1ae-5763c8f5bffb	Female	phs001287	2125853	Unknown	Female
+participant	phs001287_C3N-00335	C3N-00335	Unknown	70d57b29-de56-430f-8c4c-55c31aa749ad	Female	phs001287	2125854	Unknown	Female
+participant	phs001287_C3N-00337	C3N-00337	Unknown	fd2a1ab2-bb5c-41a4-9eab-5d269b7d2106	Female	phs001287	2125855	Unknown	Female
+participant	phs001287_C3N-00339	C3N-00339	Unknown	a24b0d35-8e0f-46f1-9dba-2ca1067050eb	Female	phs001287	2125856	Unknown	Female
+participant	phs001287_C3N-00340	C3N-00340	Unknown	a6fb3c24-91d1-40d4-995e-c5c5465a14ab	Female	phs001287	2125857	Unknown	Female
+participant	phs001287_C3N-00377	C3N-00377	Unknown	e96fdd2c-df96-4c33-993c-7bf1b2ead78e	Female	phs001287	2125858	Unknown	Female
+participant	phs001287_C3N-00379	C3N-00379	Unknown	a37bc335-54b9-42e0-91db-ecb8ae0a3417	Female	phs001287	2125859	Unknown	Female
+participant	phs001287_C3N-00380	C3N-00380	Unknown	3999c5ae-dcd4-49e0-aec1-8536fde2c41f	Female	phs001287	2125860	Unknown	Female
+participant	phs001287_C3N-00383	C3N-00383	Unknown	9f55d94c-0a7b-4965-8e89-c749ee6dab11	Female	phs001287	2125861	Unknown	Female
+participant	phs001287_C3N-00386	C3N-00386	Unknown	57ad3074-d199-4033-9999-062491928274	Female	phs001287	2125863	Unknown	Female
+participant	phs001287_C3N-00388	C3N-00388	Unknown	96cd07c3-9e3e-43fd-8e2f-e2917ecc09dd	Female	phs001287	2125864	Unknown	Female
+participant	phs001287_C3N-00389	C3N-00389	Unknown	cbf55a48-634d-4267-a222-9fe6a1467f3b	Female	phs001287	2125865	Unknown	Female
+participant	phs001287_C3N-00390	C3N-00390	Unknown	e1695660-94a0-49ac-a30a-f775b8589901	Male	phs001287	2125866	Unknown	Male
+participant	phs001287_C3N-00433	C3N-00433	Unknown	e46cd1ec-796d-4f7e-adf5-55755b1bd6e7	Male	phs001287	2125868	Unknown	Male
+participant	phs001287_C3N-00435	C3N-00435	Unknown	7943e2c6-7dad-4fe1-983e-5b61bb3905d5	Male	phs001287	2125869	Unknown	Male
+participant	phs001287_C3N-00436	C3N-00436	Unknown	9d1fd0e2-e17f-4e31-b2b8-feefbb7baa71	Female	phs001287	2125870	Unknown	Female
+participant	phs001287_C3N-00437	C3N-00437	Unknown	ab5e7292-ce84-499a-8d2c-be6c48bb384e	Female	phs001287	2125871	Unknown	Female
+participant	phs001287_C3N-00491	C3N-00491	Unknown	c43a7ff2-ec21-492d-a995-3310d34f7135	Male	phs001287	2125873	Unknown	Male
+participant	phs001287_C3N-00492	C3N-00492	Unknown	8e9b8557-697b-4073-bd53-bf27d7a9b97e	Female	phs001287	2125874	Unknown	Female
+participant	phs001287_C3N-00494	C3N-00494	Unknown	ded315f1-66e3-4f4c-ba57-968e008277a4	Male	phs001287	2125875	Unknown	Male
+participant	phs001287_C3N-00495	C3N-00495	Unknown	10c9be17-07eb-4e67-b5eb-1665bf8a3c53	Male	phs001287	2125876	Unknown	Male
+participant	phs001287_C3N-00497	C3N-00497	Unknown	798fbedb-bfae-4b04-8ecd-72bc95dcdf1a	Female	phs001287	2125877	Unknown	Female
+participant	phs001287_C3N-00498	C3N-00498	Unknown	add60600-c3cb-49d0-9db3-70932c3db8f7	Male	phs001287	2125878	Unknown	Male
+participant	phs001287_C3N-00511	C3N-00511	Unknown	8579e85f-683d-4a94-bbf6-82cd605e780f	Female	phs001287	2125879	Unknown	Female
+participant	phs001287_C3N-00512	C3N-00512	Unknown	b04146cf-13ff-47a3-817c-7207ef654f80	Male	phs001287	2125880	Unknown	Male
+participant	phs001287_C3N-00513	C3N-00513	Unknown	728ca589-53d5-4c9b-bc40-fd00c74ec965	Male	phs001287	2125881	Unknown	Male
+participant	phs001287_C3N-00514	C3N-00514	Unknown	1cd18e7a-a755-43dc-9001-353d61078873	Male	phs001287	2125882	Unknown	Male
+participant	phs001287_C3N-00516	C3N-00516	Unknown	a3657825-1018-4a2a-a08a-d845cf3ec33e	Male	phs001287	2125883	Unknown	Male
+participant	phs001287_C3N-00517	C3N-00517	Unknown	04de3a88-4619-49c7-85ed-06c94c8e6486	Female	phs001287	2400563	Unknown	Female
+participant	phs001287_C3N-00518	C3N-00518	Unknown	1f0ce01a-c95e-414f-a13d-440b45ebbbca	Male	phs001287	2125884	Unknown	Male
+participant	phs001287_C3N-00519	C3N-00519	Unknown	c594702d-1089-4265-aa16-63da0a4813ff	Male	phs001287	2125885	Unknown	Male
+participant	phs001287_C3N-00545	C3N-00545	Unknown	0e7b1135-238b-4f79-a977-803f93518e9b	Male	phs001287	2125886	Unknown	Male
+participant	phs001287_C3N-00546	C3N-00546	Unknown	1f1f0d3a-1a0f-49b3-bd19-7a6539bcccaf	Male	phs001287	2125887	Unknown	Male
+participant	phs001287_C3N-00547	C3N-00547	Unknown	ae527e14-a03c-49b0-8388-02ba702866fc	Male	phs001287	2125888	Unknown	Male
+participant	phs001287_C3N-00549	C3N-00549	Unknown	1dc7391c-f932-4f69-9944-964776da7757	Male	phs001287	2125889	Unknown	Male
+participant	phs001287_C3N-00550	C3N-00550	Unknown	3da46e80-fb37-456b-9a07-25770d5d91a6	Female	phs001287	2125890	Unknown	Female
+participant	phs001287_C3N-00551	C3N-00551	Unknown	c3345883-7041-4873-89b2-f9b62ff36457	Male	phs001287	2125891	Unknown	Male
+participant	phs001287_C3N-00552	C3N-00552	Unknown	3bb676af-edb1-460b-a94e-3b43e0826574	Female	phs001287	2125892	Unknown	Female
+participant	phs001287_C3N-00555	C3N-00555	Unknown	f06b795e-1660-4d96-b42a-5bc8886c9f70	Male	phs001287	2125893	Unknown	Male
+participant	phs001287_C3N-00556	C3N-00556	Unknown	c400ecae-ecad-489d-bce5-ed6907d6b07f	Male	phs001287	2400564	Unknown	Male
+participant	phs001287_C3N-00559	C3N-00559	Unknown	d0b0da33-f012-4a43-8c5d-e80288514877	Female	phs001287	2125894	Unknown	Female
+participant	phs001287_C3N-00560	C3N-00560	Unknown	04425651-6d1d-4d94-a388-309d93d32d58	Male	phs001287	2125895	Unknown	Male
+participant	phs001287_C3N-00572	C3N-00572	Unknown	a4f357c2-a70b-47ef-bc3b-507833ca0643	Female	phs001287	2125896	Unknown	Female
+participant	phs001287_C3N-00573	C3N-00573	Unknown	bc7fd1ac-a078-465c-82a2-25a8760f62a1	Male	phs001287	2125897	Unknown	Male
+participant	phs001287_C3N-00574	C3N-00574	Unknown	b2730d7a-2e10-41a5-a4a8-2aeb914821aa	Male	phs001287	2400565	Unknown	Male
+participant	phs001287_C3N-00577	C3N-00577	Unknown	fc8b28cf-e902-445f-a66b-b19c8b4b3eb7	Male	phs001287	2125898	Unknown	Male
+participant	phs001287_C3N-00578	C3N-00578	Unknown	bbf3c06b-27ed-4ca5-9652-83db671be14b	Male	phs001287	2125899	Unknown	Male
+participant	phs001287_C3N-00579	C3N-00579	Unknown	1054ad53-0fe5-4cfa-8d3c-9fccbcc96249	Male	phs001287	2125900	Unknown	Male
+participant	phs001287_C3N-00580	C3N-00580	Unknown	1e61e887-11aa-40a4-b2a5-8046cacf64f4	Male	phs001287	2125901	Unknown	Male
+participant	phs001287_C3N-00646	C3N-00646	Unknown	b61acb05-1e84-46c3-8a20-57dc3acf1f1b	Female	phs001287	2125902	Unknown	Female
+participant	phs001287_C3N-00661	C3N-00661	Unknown	1b21d6b2-a0f7-4827-9fd9-56dc6bee0497	Male	phs001287	2400567	Unknown	Male
+participant	phs001287_C3N-00662	C3N-00662	Unknown	0c62e96f-c1f4-4380-bf86-158681b85a88	Female	phs001287	2400568	Unknown	Female
+participant	phs001287_C3N-00663	C3N-00663	Unknown	938a354a-bdce-4941-8291-b83e5d43f997	Male	phs001287	2400569	Unknown	Male
+participant	phs001287_C3N-00665	C3N-00665	Unknown	2c4acbea-44f7-406f-8248-793987f0ff16	Female	phs001287	2400570	Unknown	Female
+participant	phs001287_C3N-00704	C3N-00704	White	cc37bbae-3d38-403a-8575-6a047d0451a8	Female	phs001287	2125903	Not Hispanic or Latino	Female
+participant	phs001287_C3N-00709	C3N-00709	White	a9a298a0-0d70-4e87-a962-c63061139d47	Male	phs001287	2936678	Not Hispanic or Latino	Male
+participant	phs001287_C3N-00729	C3N-00729	White	02f7bb77-fda1-4b06-a90b-ea448458cd3f	Female	phs001287	2125904	Not Hispanic or Latino	Female
+participant	phs001287_C3N-00733	C3N-00733	White	9cb4066d-bc16-42a9-96b9-c9c1c1ea66a6	Male	phs001287	2125905	Not Hispanic or Latino	Male
+participant	phs001287_C3N-00734	C3N-00734	White	37295f90-d49d-49e1-935c-59eb9e40532a	Female	phs001287	2125906	Not Hispanic or Latino	Female
+participant	phs001287_C3N-00737	C3N-00737	White	af805743-b9e6-4625-8785-91a3b576c9d5	Male	phs001287	2400572	Not Hispanic or Latino	Male
+participant	phs001287_C3N-00738	C3N-00738	Black or African American	ae289d69-b5b2-4f5a-bcab-fbecfd745a15	Female	phs001287	2400573	Not Hispanic or Latino	Female
+participant	phs001287_C3N-00743	C3N-00743	Black or African American	cd90da3d-cab6-41ba-83d4-244536d9dd21	Female	phs001287	2125907	Not Hispanic or Latino	Female
+participant	phs001287_C3N-00822	C3N-00822	Unknown	c8a8c022-d3a0-41af-8bb6-34052f8767fd	Female	phs001287	2400574	Unknown	Female
+participant	phs001287_C3N-00825	C3N-00825	Unknown	7d52511c-3836-40b6-a9f3-c9a4119fdc34	Male	phs001287	2400575	Unknown	Male
+participant	phs001287_C3N-00828	C3N-00828	Unknown	a7dd9c98-7e23-4b84-8242-65a290a5b91f	Male	phs001287	2125908	Unknown	Male
+participant	phs001287_C3N-00829	C3N-00829	Unknown	c3ec3236-2e47-4857-a79a-4dc1272e0657	Male	phs001287	2400576	Unknown	Male
+participant	phs001287_C3N-00831	C3N-00831	Unknown	bef3b899-4563-4010-9fc8-1a55cdd9c90f	Male	phs001287	2125909	Unknown	Male
+participant	phs001287_C3N-00832	C3N-00832	Unknown	aaf6d260-d890-467f-8a2f-850e1b5da105	Male	phs001287	2125910	Unknown	Male
+participant	phs001287_C3N-00834	C3N-00834	Unknown	4e55fdb1-b050-4aef-9bf9-2fd24337b8d5	Male	phs001287	2125911	Unknown	Male
+participant	phs001287_C3N-00836	C3N-00836	Unknown	3b39b65d-d569-46fc-a150-93fc33b68a45	Female	phs001287	2125912	Unknown	Female
+participant	phs001287_C3N-00846	C3N-00846	Unknown	e5c5471f-f6e9-481c-b314-4b476a90eb50	Male	phs001287	2125915	Unknown	Male
+participant	phs001287_C3N-00847	C3N-00847	Unknown	b9c698a0-99f7-4c1d-9f7b-00127b652a66	Female	phs001287	2125916	Unknown	Female
+participant	phs001287_C3N-00848	C3N-00848	Unknown	ce25d515-9eee-4b35-8070-894338e01b70	Female	phs001287	2125917	Unknown	Female
+participant	phs001287_C3N-00850	C3N-00850	Unknown	7e4fb65d-1be7-43b6-89f9-8f0cd88b1299	Female	phs001287	2125918	Unknown	Female
+participant	phs001287_C3N-00852	C3N-00852	Unknown	0fb6bee9-fe88-4a37-aa07-b7a514446c83	Male	phs001287	2125919	Unknown	Male
+participant	phs001287_C3N-00857	C3N-00857	Unknown	4b9ed5e8-b977-45b6-9f8c-4bd349ea8bf9	Male	phs001287	2400577	Unknown	Male
+participant	phs001287_C3N-00858	C3N-00858	Unknown	8209e95c-fb95-487b-9eee-159481daec41	Female	phs001287	2125922	Unknown	Female
+participant	phs001287_C3N-00866	C3N-00866	White	37e949a7-ccfc-4c81-b955-1278a5e5b8eb	Female	phs001287	2125923	Not Hispanic or Latino	Female
+participant	phs001287_C3N-00871	C3N-00871	Unknown	95e97512-d6b8-4013-a460-68f169c7543c	Male	phs001287	2400578	Unknown	Male
+participant	phs001287_C3N-00880	C3N-00880	Unknown	624203ce-631e-40ac-96a9-f0ed2bc045c8	Female	phs001287	2125924	Unknown	Female
+participant	phs001287_C3N-00953	C3N-00953	Asian	8f45bc9f-f9c2-4292-af56-d40b7ac029e7	Male	phs001287	2125925	Not Hispanic or Latino	Male
+participant	phs001287_C3N-00957	C3N-00957	White	ea2ed9b7-db7f-478b-a91c-fa838140905b	Male	phs001287	2400579	Not Hispanic or Latino	Male
+participant	phs001287_C3N-00959	C3N-00959	White	ed13a5c0-6492-45ae-8651-dfa9844d3193	Male	phs001287	2125927	Not Hispanic or Latino	Male
+participant	phs001287_C3N-01001	C3N-01001	Unknown	3f5e83aa-9051-4469-b392-097ab93c3507	Female	phs001287	2125928	Unknown	Female
+participant	phs001287_C3N-01003	C3N-01003	Unknown	e2d959f9-213e-49ce-82ab-a35dae052fc5	Female	phs001287	2125929	Unknown	Female
+participant	phs001287_C3N-01011	C3N-01011	White	a23f9adc-f4db-4c73-918c-a28ceaddd7f6	Female	phs001287	2125930	Not Hispanic or Latino	Female
+participant	phs001287_C3N-01012	C3N-01012	White	71c90ee8-c282-49d0-8a17-dd5702a21681	Male	phs001287	2936680	Not Hispanic or Latino	Male
+participant	phs001287_C3N-01016	C3N-01016	Unknown	cf704287-48ad-4b98-9afa-a78c53b0d4f3	Male	phs001287	2125931	Unknown	Male
+participant	phs001287_C3N-01017	C3N-01017	Unknown	59eaa73f-7011-4a63-88d2-2b97d8426dd2	Male	phs001287	2125932	Unknown	Male
+participant	phs001287_C3N-01018	C3N-01018	Unknown	637c6925-0a8f-4175-b860-74f30074d388	Male	phs001287	2400582	Unknown	Male
+participant	phs001287_C3N-01020	C3N-01020	Unknown	54325560-90b4-4eca-8392-a7ff2a1f333c	Male	phs001287	2765436	Unknown	Male
+participant	phs001287_C3N-01021	C3N-01021	Unknown	7ba85ec1-01b8-4e4d-ad20-1b37956ce1f2	Female	phs001287	2400584	Unknown	Female
+participant	phs001287_C3N-01023	C3N-01023	Unknown	d72bcf3a-f6f8-4aa8-b39f-afd43df73807	Male	phs001287	2400586	Unknown	Male
+participant	phs001287_C3N-01024	C3N-01024	Unknown	c54ffbd6-f077-4eb5-88c3-e599c2e0fc01	Female	phs001287	2400587	Unknown	Female
+participant	phs001287_C3N-01025	C3N-01025	Unknown	32457f97-9099-4302-93cd-2578cd2ca396	Male	phs001287	2125933	Unknown	Male
+participant	phs001287_C3N-01028	C3N-01028	Unknown	f24556fa-64b2-4afc-963c-05c6cf5947b1	Male	phs001287	2400588	Unknown	Male
+participant	phs001287_C3N-01030	C3N-01030	Unknown	2e480251-4969-4f97-8d28-99fc69563db7	Male	phs001287	2400589	Unknown	Male
+participant	phs001287_C3N-01071	C3N-01071	Unknown	da2cc776-8239-4a81-98ee-bd906a6ca2a3	Male	phs001287	2125934	Unknown	Male
+participant	phs001287_C3N-01072	C3N-01072	Unknown	cbb021cc-f785-4c99-81fc-87272498d0f9	Male	phs001287	2400590	Unknown	Male
+participant	phs001287_C3N-01074	C3N-01074	Unknown	b1b69738-c6ee-49f2-95b2-be75e08e868c	Male	phs001287	2400591	Unknown	Male
+participant	phs001287_C3N-01165	C3N-01165	Unknown	e675d7fa-5f8c-4836-acd7-228658ab8b7d	Female	phs001287	2400592	Unknown	Female
+participant	phs001287_C3N-01166	C3N-01166	Unknown	f2a9def3-ffd7-4e32-a67c-9edb747dcd64	Female	phs001287	2400593	Unknown	Female
+participant	phs001287_C3N-01167	C3N-01167	Unknown	f575d2fd-9d0f-4458-8fe0-2f9a63bfc30a	Female	phs001287	2125935	Unknown	Female
+participant	phs001287_C3N-01168	C3N-01168	Unknown	4a48d7e2-4ac1-4dc5-b742-05004d6f5c4a	Female	phs001287	2400594	Unknown	Female
+participant	phs001287_C3N-01175	C3N-01175	Unknown	8a0a4b4c-f682-4155-b210-7a8e1dfadbbc	Female	phs001287	2125936	Unknown	Female
+participant	phs001287_C3N-01176	C3N-01176	Unknown	81f936ac-3993-4ee3-954a-35774fc04c26	Male	phs001287	2125937	Unknown	Male
+participant	phs001287_C3N-01178	C3N-01178	Unknown	7af5adff-f6db-4ed7-8410-6c2e0ef0be7d	Female	phs001287	2125938	Unknown	Female
+participant	phs001287_C3N-01179	C3N-01179	Unknown	51edb8fc-9406-444d-bfc8-54bc49a3a9dc	Male	phs001287	2125939	Unknown	Male
+participant	phs001287_C3N-01180	C3N-01180	Unknown	fe5af4ea-536b-4478-b53c-72e0805ff609	Male	phs001287	2125940	Unknown	Male
+participant	phs001287_C3N-01192	C3N-01192	Unknown	1d3f293d-0493-403c-9027-c4e06c5996c1	Female	phs001287	2400598	Unknown	Female
+participant	phs001287_C3N-01194	C3N-01194	Unknown	ee375394-3a54-42e9-adab-3df417bc266a	Male	phs001287	2125941	Unknown	Male
+participant	phs001287_C3N-01196	C3N-01196	Unknown	bc3477d3-1d63-4323-b78d-6701ca23cb65	Male	phs001287	2125942	Unknown	Male
+participant	phs001287_C3N-01200	C3N-01200	Unknown	a14e6e3d-ce20-4fcf-bcac-37549d50b801	Female	phs001287	2125944	Unknown	Female
+participant	phs001287_C3N-01211	C3N-01211	Unknown	823233e0-8b92-40c8-87a4-3f8e27023f7c	Female	phs001287	2125945	Unknown	Female
+participant	phs001287_C3N-01212	C3N-01212	Unknown	d45f0df3-9e76-4ce8-92e7-3088bf2732ea	Female	phs001287	2125946	Unknown	Female
+participant	phs001287_C3N-01213	C3N-01213	Unknown	53bcdf1a-112a-45e2-9d6a-cbeeac176c63	Male	phs001287	2125947	Unknown	Male
+participant	phs001287_C3N-01214	C3N-01214	Unknown	1ba6d34c-2e8d-4f25-aa74-6cef2ad20aa5	Male	phs001287	2125948	Unknown	Male
+participant	phs001287_C3N-01217	C3N-01217	Unknown	f74ea3d5-3aa2-4561-a6d9-fa7957334e19	Female	phs001287	2125949	Unknown	Female
+participant	phs001287_C3N-01219	C3N-01219	Unknown	7fdbaba9-0e1d-4e88-94fb-558d921093a4	Female	phs001287	2125950	Unknown	Female
+participant	phs001287_C3N-01220	C3N-01220	Unknown	616a0cbf-61e6-4365-9b0e-c9c91ac79db2	Male	phs001287	2125951	Unknown	Male
+participant	phs001287_C3N-01261	C3N-01261	Unknown	7996d4e4-3866-42e7-a365-783b6c88a938	Male	phs001287	2125952	Unknown	Male
+participant	phs001287_C3N-01267	C3N-01267	Unknown	96922a62-e136-4960-9c00-dd8ad5bf9d2b	Female	phs001287	2125953	Unknown	Female
+participant	phs001287_C3N-01334	C3N-01334	Unknown	162ed10f-45b9-4b9f-bb71-c8286c47b23f	Female	phs001287	2676611	Unknown	Female
+participant	phs001287_C3N-01337	C3N-01337	Unknown	4745d485-627b-4811-96bf-06a38dbb702f	Male	phs001287	2400599	Unknown	Male
+participant	phs001287_C3N-01338	C3N-01338	Unknown	3feecab3-a1e3-41e8-8d4b-d41c2f6e35b3	Male	phs001287	2400600	Unknown	Male
+participant	phs001287_C3N-01339	C3N-01339	Unknown	fdc4f531-7acd-4f25-ad80-86561a5514dc	Female	phs001287	2400601	Unknown	Female
+participant	phs001287_C3N-01340	C3N-01340	Unknown	0e086936-bc64-435c-90c4-a04b96d183b3	Male	phs001287	2815930	Unknown	Male
+participant	phs001287_C3N-01346	C3N-01346	Unknown	12e737b8-0705-4b51-8779-824627a1f513	Female	phs001287	2676612	Unknown	Female
+participant	phs001287_C3N-01349	C3N-01349	Unknown	28483072-39e0-4f18-ae0e-3d2c051bcaf4	Female	phs001287	2676613	Unknown	Female
+participant	phs001287_C3N-01361	C3N-01361	Unknown	a9ad40f0-ca22-46fb-8ed4-e80862889bff	Male	phs001287	2125955	Unknown	Male
+participant	phs001287_C3N-01364	C3N-01364	Unknown	4f13185a-859c-4a02-b058-c83c1d70f594	Female	phs001287	2400604	Unknown	Female
+participant	phs001287_C3N-01366	C3N-01366	Unknown	68ae4ee1-4198-486d-befd-5ec49ba47d79	Male	phs001287	2400605	Unknown	Male
+participant	phs001287_C3N-01367	C3N-01367	Unknown	efb7a2cc-e920-47b6-a0d6-b3691a7ee646	Male	phs001287	2400606	Unknown	Male
+participant	phs001287_C3N-01368	C3N-01368	Unknown	00093084-1b9c-41cf-b405-e30315a5bb44	Male	phs001287	2400607	Unknown	Male
+participant	phs001287_C3N-01369	C3N-01369	Unknown	ac90d409-f5b5-4b2b-8690-341c5ede46b0	Female	phs001287	2676614	Unknown	Female
+participant	phs001287_C3N-01375	C3N-01375	Unknown	ef20e8f7-52e0-41bd-a403-e599606f276b	Female	phs001287	2125956	Unknown	Female
+participant	phs001287_C3N-01379	C3N-01379	Unknown	62d5b429-5a20-41a9-9996-63b79ecdbf06	Female	phs001287	2125958	Unknown	Female
+participant	phs001287_C3N-01380	C3N-01380	Unknown	12ebd5d9-720b-4cc3-b88a-f66ab7d78fb0	Male	phs001287	2125959	Unknown	Male
+participant	phs001287_C3N-01381	C3N-01381	Unknown	019f4ec1-98d5-48a6-8c64-fae8707c14bc	Female	phs001287	2400608	Unknown	Female
+participant	phs001287_C3N-01382	C3N-01382	Unknown	d2d0cdda-cbf6-4563-87d1-53c1f38685cf	Female	phs001287	2400609	Unknown	Female
+participant	phs001287_C3N-01383	C3N-01383	Unknown	7b010c58-49c3-43f4-9bf2-ab9cca16e61a	Female	phs001287	2400610	Unknown	Female
+participant	phs001287_C3N-01388	C3N-01388	Unknown	83cb6afc-4591-46b7-b120-fad7430c81e8	Female	phs001287	2125960	Unknown	Female
+participant	phs001287_C3N-01405	C3N-01405	Unknown	01138e46-b24b-414d-b195-0b307360c9b7	Male	phs001287	2400611	Unknown	Male
+participant	phs001287_C3N-01410	C3N-01410	Unknown	69ded03f-b5fe-4f9e-a12a-8075e1697a7f	Male	phs001287	2400614	Unknown	Male
+participant	phs001287_C3N-01411	C3N-01411	Unknown	0fffac9d-bcb4-462e-ad9c-b6b943b5eaee	Male	phs001287	2400615	Unknown	Male
+participant	phs001287_C3N-01413	C3N-01413	Unknown	48b6a7d5-64e8-4907-bd4e-d699d835ea9c	Female	phs001287	2400616	Unknown	Female
+participant	phs001287_C3N-01414	C3N-01414	Unknown	0d13cfde-67ff-4aa2-9752-ca568911e84c	Male	phs001287	2400617	Unknown	Male
+participant	phs001287_C3N-01415	C3N-01415	Unknown	e36233be-2c99-4a43-ad66-9f4242278f6a	Male	phs001287	2400618	Unknown	Male
+participant	phs001287_C3N-01416	C3N-01416	Unknown	0b764532-42c3-485e-a05d-3cd97e1f0385	Female	phs001287	2400619	Unknown	Female
+participant	phs001287_C3N-01488	C3N-01488	Unknown	4fe93a73-8a8b-4137-8184-3d14c099bc88	Male	phs001287	2400620	Unknown	Male
+participant	phs001287_C3N-01489	C3N-01489	Unknown	6345cd02-ea0a-4785-9611-2955d6ad8cf5	Male	phs001287	2400621	Unknown	Male
+participant	phs001287_C3N-01502	C3N-01502	White	01b38b53-081a-4c61-b067-8484d4d2f37f	Male	phs001287	2125962	Not Hispanic or Latino	Male
+participant	phs001287_C3N-01505	C3N-01505	White	de47c8fa-f9a7-4f8f-8e9c-d2ed076cbbeb	Male	phs001287	2400622	Not Hispanic or Latino	Male
+participant	phs001287_C3N-01510	C3N-01510	White	c21fe2ad-e922-4af1-8f5a-cb62c0229026	Female	phs001287	2125963	Not Hispanic or Latino	Female
+participant	phs001287_C3N-01515	C3N-01515	White	f1c32ed7-48c8-4f39-bc87-7387b69f682a	Female	phs001287	2400623	Not Hispanic or Latino	Female
+participant	phs001287_C3N-01517	C3N-01517	Unknown	28af21da-ec34-4448-af54-33800949a39e	Male	phs001287	2676616	Unknown	Male
+participant	phs001287_C3N-01518	C3N-01518	Unknown	88b16399-58ff-44f1-93d2-06fb493278f1	Female	phs001287	2676617	Unknown	Female
+participant	phs001287_C3N-01520	C3N-01520	Unknown	f139c518-71fd-4609-82fe-18e9445b5fa0	Female	phs001287	2125964	Unknown	Female
+participant	phs001287_C3N-01521	C3N-01521	Unknown	f615f477-4e76-4591-a186-a46dc32b9588	Female	phs001287	2125965	Unknown	Female
+participant	phs001287_C3N-01522	C3N-01522	Unknown	c7d69e99-1517-4685-9772-84c005c36bc3	Male	phs001287	2125966	Unknown	Male
+participant	phs001287_C3N-01524	C3N-01524	Unknown	e4f1f31c-1ae0-4178-9527-2be666cb6344	Male	phs001287	2125967	Unknown	Male
+participant	phs001287_C3N-01537	C3N-01537	Unknown	210cdf5d-ecc7-4c3f-93eb-d2aa3fcc97e2	Female	phs001287	2400632	Unknown	Female
+participant	phs001287_C3N-01620	C3N-01620	Unknown	55f93eb5-75da-4c4a-80dd-5965a77dac6b	Male	phs001287	2400633	Unknown	Male
+participant	phs001287_C3N-01643	C3N-01643	Unknown	7d5b744e-d6ca-45ac-a751-811e03e143b4	Male	phs001287	2815931	Unknown	Male
+participant	phs001287_C3N-01645	C3N-01645	Unknown	c85c9cc8-2253-45fe-af75-70aa821734da	Male	phs001287	2400634	Unknown	Male
+participant	phs001287_C3N-01646	C3N-01646	Unknown	3d5f41e1-a884-42ae-943a-c45c12fa2925	Male	phs001287	2125968	Unknown	Male
+participant	phs001287_C3N-01648	C3N-01648	Unknown	64fd9167-6bd6-4ea3-8205-61c0b5603206	Male	phs001287	2125969	Unknown	Male
+participant	phs001287_C3N-01649	C3N-01649	Unknown	760f850b-c87a-4a6d-8128-01016338809f	Male	phs001287	2400635	Unknown	Male
+participant	phs001287_C3N-01651	C3N-01651	Unknown	60209051-08ef-4d10-ace7-ffe5d23e8e8d	Male	phs001287	2125970	Unknown	Male
+participant	phs001287_C3N-01714	C3N-01714	Unknown	171b402c-8bac-4d36-bf27-bbd2c6934772	Male	phs001287	2676618	Unknown	Male
+participant	phs001287_C3N-01715	C3N-01715	Unknown	bf238840-4cc9-4267-ab60-6e0f01acaab6	Female	phs001287	2676619	Unknown	Female
+participant	phs001287_C3N-01716	C3N-01716	Unknown	110e606c-4dac-43f5-9b9d-d87a2872e4f0	Male	phs001287	2676620	Unknown	Male
+participant	phs001287_C3N-01719	C3N-01719	Unknown	a6dc7605-ec71-4096-a1aa-75a64d130b7d	Female	phs001287	2936682	Unknown	Female
+participant	phs001287_C3N-01752	C3N-01752	Unknown	fb97d61b-d4d7-484f-9b91-a39544393559	Male	phs001287	2815932	Unknown	Male
+participant	phs001287_C3N-01754	C3N-01754	Unknown	28dd2d9c-719a-4adc-82b6-3b7f01e3f424	Male	phs001287	2815933	Unknown	Male
+participant	phs001287_C3N-01755	C3N-01755	Unknown	9ebe1cf5-9c17-42ca-9f41-f9a742bacf00	Male	phs001287	2815934	Unknown	Male
+participant	phs001287_C3N-01756	C3N-01756	Unknown	398b536e-639e-4da1-bc2b-7dea55a446f5	Male	phs001287	2815935	Unknown	Male
+participant	phs001287_C3N-01757	C3N-01757	Unknown	4aba7001-ee79-4c1a-a4d2-7839c61888b8	Male	phs001287	2815936	Unknown	Male
+participant	phs001287_C3N-01758	C3N-01758	Unknown	57e1a333-9d9f-4e79-8ca2-ed4b1f9e3df9	Male	phs001287	2815937	Unknown	Male
+participant	phs001287_C3N-01798	C3N-01798	Unknown	33887456-ed99-4095-b29a-e958a9e860e3	Male	phs001287	2676621	Unknown	Male
+participant	phs001287_C3N-01799	C3N-01799	White	73dacea7-9327-4474-887e-021fd6376ea8	Male	phs001287	2400636	Not Hispanic or Latino	Male
+participant	phs001287_C3N-01802	C3N-01802	Black or African American	3fc1c4ec-6c39-4dd1-a97a-f60a70e0b101	Female	phs001287	2125971	Not Hispanic or Latino	Female
+participant	phs001287_C3N-01808	C3N-01808	White	b6862f4a-99ab-4b43-ac60-1ffb44fd475c	Male	phs001287	2400637	Not Hispanic or Latino	Male
+participant	phs001287_C3N-01814	C3N-01814	Unknown	1182811f-59b8-4a1f-b25c-87c16c995c73	Female	phs001287	2676622	Unknown	Female
+participant	phs001287_C3N-01815	C3N-01815	Unknown	769b4c07-16cb-49cc-af6e-3d2215d882dd	Female	phs001287	2676623	Unknown	Female
+participant	phs001287_C3N-01816	C3N-01816	Unknown	ba39f53a-c599-496c-9e4c-1d6e6b109f2f	Female	phs001287	2676624	Unknown	Female
+participant	phs001287_C3N-01818	C3N-01818	Unknown	32d12f18-6dca-424e-b8a6-766bfa5dab63	Male	phs001287	2676626	Unknown	Male
+participant	phs001287_C3N-01823	C3N-01823	Unknown	2284538f-7a33-44cd-be4c-86d81422670d	Male	phs001287	2400638	Unknown	Male
+participant	phs001287_C3N-01825	C3N-01825	Unknown	b8e10f4b-d676-469c-9df0-97f5a5219827	Female	phs001287	2400639	Unknown	Female
+participant	phs001287_C3N-01842	C3N-01842	Unknown	8ecd771a-ab82-42cd-88bf-6617aae80313	Male	phs001287	2400642	Unknown	Male
+participant	phs001287_C3N-01846	C3N-01846	Unknown	8c93258b-63e0-42c5-a3e7-db58750f46c0	Male	phs001287	2400644	Unknown	Male
+participant	phs001287_C3N-01851	C3N-01851	Unknown	f5d81ca7-574a-48ea-ae02-da097976269c	Male	phs001287	2765437	Unknown	Male
+participant	phs001287_C3N-01852	C3N-01852	Unknown	aa0cc1ec-0658-4484-b98a-8db6165a9874	Male	phs001287	2765438	Unknown	Male
+participant	phs001287_C3N-01856	C3N-01856	Unknown	df9dfc6f-a44b-44e2-880e-01f41360d317	Male	phs001287	2676628	Unknown	Male
+participant	phs001287_C3N-01857	C3N-01857	Unknown	f63798eb-ed41-45ce-baf1-2b382fbe205f	Female	phs001287	2676629	Unknown	Female
+participant	phs001287_C3N-01858	C3N-01858	Unknown	43d977fb-5437-4f82-aad8-cf8d007168ed	Male	phs001287	2815938	Unknown	Male
+participant	phs001287_C3N-01859	C3N-01859	Unknown	7850289f-d4f5-406a-9f87-f6474f9db303	Male	phs001287	2815939	Unknown	Male
+participant	phs001287_C3N-01892	C3N-01892	Unknown	8e243964-b802-4f54-96c3-90f76550f1b0	Male	phs001287	2765439	Unknown	Male
+participant	phs001287_C3N-01893	C3N-01893	Unknown	ab3c3728-4c16-41d4-a77a-0f84f3788848	Male	phs001287	2765440	Unknown	Male
+participant	phs001287_C3N-01900	C3N-01900	Unknown	4518515d-e373-4e16-9e29-0435c936af85	Male	phs001287	2936687	Unknown	Male
+participant	phs001287_C3N-01907	C3N-01907	Unknown	5f073f7f-0e47-44c9-854f-6fa73264fd96	Male	phs001287	2936688	Unknown	Male
+participant	phs001287_C3N-01943	C3N-01943	Unknown	b2cb3d4b-bee8-4675-9695-0318ccd49093	Male	phs001287	2815940	Unknown	Male
+participant	phs001287_C3N-01944	C3N-01944	Unknown	8271ff86-b755-4988-a25f-b1e2fa77134e	Male	phs001287	2815941	Unknown	Male
+participant	phs001287_C3N-01945	C3N-01945	Unknown	78eda6e9-baf9-428d-9e4a-53d0ada6e2d4	Male	phs001287	2815942	Unknown	Male
+participant	phs001287_C3N-01946	C3N-01946	Unknown	4479c261-d58e-49b0-887a-b500fb1104a6	Male	phs001287	2815943	Unknown	Male
+participant	phs001287_C3N-01947	C3N-01947	Unknown	0d48774a-dba5-473a-9a2d-854f4740e887	Male	phs001287	2815944	Unknown	Male
+participant	phs001287_C3N-01948	C3N-01948	Unknown	9a7aa11d-2c2d-4d87-af53-45141e4d5d79	Female	phs001287	2815945	Unknown	Female
+participant	phs001287_C3N-01997	C3N-01997	Unknown	3e2666db-a3c0-4ce2-8c68-b0055b57a42f	Male	phs001287	2676630	Unknown	Male
+participant	phs001287_C3N-01998	C3N-01998	Unknown	eb987008-4c4f-4d02-8594-ba7e4bda6922	Male	phs001287	2676631	Unknown	Male
+participant	phs001287_C3N-02000	C3N-02000	Unknown	2bd02600-cf72-4d02-82de-5d233115df14	Female	phs001287	2676632	Unknown	Female
+participant	phs001287_C3N-02002	C3N-02002	Unknown	23b2ad7e-941d-4669-b0c3-963a687b2905	Male	phs001287	2676633	Unknown	Male
+participant	phs001287_C3N-02003	C3N-02003	Unknown	5898fe24-31bb-4e23-9065-729c92dfe3c0	Male	phs001287	2676634	Unknown	Male
+participant	phs001287_C3N-02010	C3N-02010	Black or African American	4508573e-2ac7-4973-b8df-dc1b6491e990	Female	phs001287	2936689	Not Hispanic or Latino	Female
+participant	phs001287_C3N-02067	C3N-02067	Unknown	0a9d309c-d614-42d4-a710-fc1655f3e422	Female	phs001287	2676635	Unknown	Female
+participant	phs001287_C3N-02087	C3N-02087	Unknown	8790b5c3-28d2-42df-85a0-671a6dd35033	Female	phs001287	2400649	Unknown	Female
+participant	phs001287_C3N-02089	C3N-02089	Unknown	ebe45388-7893-494e-b582-32d652bd4557	Male	phs001287	2400651	Unknown	Male
+participant	phs001287_C3N-02145	C3N-02145	Unknown	af4aab32-189b-4712-8023-f50c29bf7335	Female	phs001287	2400655	Unknown	Female
+participant	phs001287_C3N-02149	C3N-02149	Unknown	343a40b7-045e-425e-a564-86c4689d3a95	Male	phs001287	2400656	Unknown	Male
+participant	phs001287_C3N-02155	C3N-02155	Unknown	70e638df-df1b-4cd4-bb3a-085c89d7c755	Male	phs001287	2400659	Unknown	Male
+participant	phs001287_C3N-02158	C3N-02158	Unknown	55bbeec0-5d74-4194-b04e-565b4a4ce1ac	Female	phs001287	2400660	Unknown	Female
+participant	phs001287_C3N-02181	C3N-02181	Unknown	e9342f9e-6037-4a77-9437-d3746d8e95b2	Female	phs001287	2676637	Unknown	Female
+participant	phs001287_C3N-02183	C3N-02183	Unknown	74c00740-1979-46c5-9c62-954124f19899	Female	phs001287	2676638	Unknown	Female
+participant	phs001287_C3N-02185	C3N-02185	Unknown	395b091d-7a54-43cd-a207-02f97dc92d05	Female	phs001287	2676639	Unknown	Female
+participant	phs001287_C3N-02186	C3N-02186	Unknown	703c7bdc-f711-4c10-aa61-b40e555b2d83	Male	phs001287	2676640	Unknown	Male
+participant	phs001287_C3N-02188	C3N-02188	Unknown	3f5890dc-bf15-4c67-a30d-4122d779cf3e	Male	phs001287	2676641	Unknown	Male
+participant	phs001287_C3N-02190	C3N-02190	Unknown	fd99086e-6fd4-4604-bc34-9c2e6b0cdec8	Male	phs001287	2765441	Unknown	Male
+participant	phs001287_C3N-02252	C3N-02252	White	b8133264-e6d6-47d0-a58a-5f4f38c38b2e	Female	phs001287	2765442	Not Hispanic or Latino	Female
+participant	phs001287_C3N-02255	C3N-02255	Unknown	18fcd7cc-7ff0-4a1e-9cdd-72f0fcc3845c	Male	phs001287	2765443	Unknown	Male
+participant	phs001287_C3N-02256	C3N-02256	Unknown	ae83cc8e-4c9b-484e-9b05-72d5e2091998	Male	phs001287	2765444	Unknown	Male
+participant	phs001287_C3N-02275	C3N-02275	Unknown	bf82bdc0-31ea-491a-9299-8a665800c1a8	Male	phs001287	2815946	Unknown	Male
+participant	phs001287_C3N-02279	C3N-02279	Unknown	a7e33355-30c5-4340-96b7-2451a330f3d4	Male	phs001287	2815947	Unknown	Male
+participant	phs001287_C3N-02283	C3N-02283	Unknown	667d8ad9-5674-4be7-8903-3ac10bce7235	Male	phs001287	2765445	Unknown	Male
+participant	phs001287_C3N-02284	C3N-02284	Unknown	c2ed885f-1834-455d-9564-cc53945d2dd9	Male	phs001287	2765446	Unknown	Male
+participant	phs001287_C3N-02285	C3N-02285	Unknown	398206e3-4081-4ab1-aad6-f6f8143bf738	Female	phs001287	2765447	Unknown	Female
+participant	phs001287_C3N-02288	C3N-02288	Unknown	741a36c8-81b9-4d20-a507-2e21c18709c7	Female	phs001287	2765448	Unknown	Female
+participant	phs001287_C3N-02289	C3N-02289	Unknown	c34cdece-0b76-4bb6-b29e-39d8bd27229f	Male	phs001287	2765449	Unknown	Male
+participant	phs001287_C3N-02295	C3N-02295	Unknown	b44341c1-b48e-40c4-ba68-df885a571d62	Female	phs001287	2936700	Unknown	Female
+participant	phs001287_C3N-02300	C3N-02300	Unknown	a8e96b9c-1c7f-485c-b7c4-5f5ab0a17a1c	Female	phs001287	2765450	Unknown	Female
+participant	phs001287_C3N-02333	C3N-02333	Unknown	05fdd101-53a3-4ef3-a8f8-1fae2a906ee3	Male	phs001287	2815948	Unknown	Male
+participant	phs001287_C3N-02339	C3N-02339	Unknown	ad35f8a7-00b7-492d-82c9-eb28a16a90c2	Male	phs001287	2765451	Unknown	Male
+participant	phs001287_C3N-02374	C3N-02374	Unknown	68835872-2880-4ca5-ad56-32566d17aea6	Male	phs001287	2765452	Unknown	Male
+participant	phs001287_C3N-02375	C3N-02375	Unknown	fc4a1e55-58df-4d59-8527-713887fe85f2	Male	phs001287	2765453	Unknown	Male
+participant	phs001287_C3N-02379	C3N-02379	Unknown	8bcda727-dad4-4257-9363-cf31021f0f31	Female	phs001287	2676642	Unknown	Female
+participant	phs001287_C3N-02380	C3N-02380	Unknown	5b32134b-e8f9-4a65-9493-de47c0c12e21	Male	phs001287	2676643	Unknown	Male
+participant	phs001287_C3N-02421	C3N-02421	Unknown	a0514456-34a7-4659-9442-8f4d9ef208c4	Male	phs001287	2676644	Unknown	Male
+participant	phs001287_C3N-02422	C3N-02422	Unknown	c48b128e-ec1b-4462-b9b0-8ae22187790d	Female	phs001287	2676645	Unknown	Female
+participant	phs001287_C3N-02423	C3N-02423	Unknown	4c803b3f-e894-47f4-8adf-ddb76c628a73	Male	phs001287	2676646	Unknown	Male
+participant	phs001287_C3N-02424	C3N-02424	Unknown	15e36674-0365-4001-acfa-63afb5294446	Male	phs001287	2676647	Unknown	Male
+participant	phs001287_C3N-02425	C3N-02425	Unknown	d1806d1e-8409-464a-b4f6-680564df1772	Male	phs001287	2765454	Unknown	Male
+participant	phs001287_C3N-02426	C3N-02426	Unknown	1f520394-49fa-43e2-ae25-8f29bb7935d0	Female	phs001287	2765455	Unknown	Female
+participant	phs001287_C3N-02433	C3N-02433	Unknown	fb701d84-3c3d-4862-b4ab-bf26bff4189f	Female	phs001287	2676648	Unknown	Female
+participant	phs001287_C3N-02434	C3N-02434	White	3f81bf25-97a8-4c85-82df-6f14869d9b76	Male	phs001287	2765456	Not Hispanic or Latino	Male
+participant	phs001287_C3N-02435	C3N-02435	White	2e00bd85-fde2-422d-8d65-36bac2733228	Female	phs001287	2798470	Not Hispanic or Latino	Female
+participant	phs001287_C3N-02494	C3N-02494	Black or African American	6e6fef6f-b8b5-444b-b67d-60c97e0ac205	Female	phs001287	2798473	Not Hispanic or Latino	Female
+participant	phs001287_C3N-02523	C3N-02523	White	66fcde79-e668-4ddf-ae74-00dea2954858	Male	phs001287	2798474	Not Hispanic or Latino	Male
+participant	phs001287_C3N-02529	C3N-02529	Unknown	8375f616-1a82-40e5-8242-ce3eea6a851c	Female	phs001287	2676649	Unknown	Female
+participant	phs001287_C3N-02572	C3N-02572	Unknown	222fc02f-74d7-44ef-99fa-58d5354fbe71	Male	phs001287	2676650	Unknown	Male
+participant	phs001287_C3N-02573	C3N-02573	Unknown	b701c706-2648-42bb-8029-e565dbca419c	Female	phs001287	2936705	Unknown	Female
+participant	phs001287_C3N-02575	C3N-02575	Unknown	64b49aba-91ad-4133-a05f-e9f478f5abf9	Male	phs001287	2765457	Unknown	Male
+participant	phs001287_C3N-02579	C3N-02579	Unknown	2195c9a4-e64f-4e7c-bbad-550de69ab940	Female	phs001287	2936706	Unknown	Female
+participant	phs001287_C3N-02582	C3N-02582	Unknown	a4040e29-ac1a-47d8-b9c1-171f7bd8983e	Male	phs001287	2676651	Unknown	Male
+participant	phs001287_C3N-02585	C3N-02585	Unknown	e871842f-6988-4ed5-93ae-5296850dc727	Male	phs001287	2936707	Unknown	Male
+participant	phs001287_C3N-02586	C3N-02586	Unknown	1ffdf321-3ce3-40ca-936d-ced6f64ae9b8	Male	phs001287	2676652	Unknown	Male
+participant	phs001287_C3N-02587	C3N-02587	Unknown	8d597bcd-33f2-4bb5-90ba-9ef0d263be46	Female	phs001287	2676653	Unknown	Female
+participant	phs001287_C3N-02588	C3N-02588	Unknown	898b2476-3fb2-4ba9-afd3-cb54943db9ae	Male	phs001287	2676654	Unknown	Male
+participant	phs001287_C3N-02589	C3N-02589	Unknown	8c24a8a8-81bb-4706-9654-1bf973a65d67	Male	phs001287	2936708	Unknown	Male
+participant	phs001287_C3N-02592	C3N-02592	Unknown	f85b8d30-52b0-47ee-8cee-865e21ff37fa	Female	phs001287	2936709	Unknown	Female
+participant	phs001287_C3N-02675	C3N-02675	Unknown	558e3ceb-4770-43f1-8f3d-7ea8dca13d99	Male	phs001287	2765458	Unknown	Male
+participant	phs001287_C3N-02693	C3N-02693	Unknown	d65dc2a7-7723-43d5-9a2a-e7cc9cae425c	Male	phs001287	2815949	Unknown	Male
+participant	phs001287_C3N-02694	C3N-02694	Unknown	251d633b-0301-4067-8c78-865805e7ca91	Male	phs001287	2815950	Unknown	Male
+participant	phs001287_C3N-02695	C3N-02695	Unknown	6556e786-a3a9-48e1-a087-38f0b74395ba	Male	phs001287	2815951	Unknown	Male
+participant	phs001287_C3N-02700	C3N-02700	Unknown	015bdf5e-f24e-4ed5-9b4b-4e6e948b14f5	Female	phs001287	2815952	Unknown	Female
+participant	phs001287_C3N-02713	C3N-02713	Unknown	a9af4bed-2ca3-46fb-883f-f80de2cf2c32	Male	phs001287	2815953	Unknown	Male
+participant	phs001287_C3N-02714	C3N-02714	Unknown	2a154afc-8307-4c36-9456-0000d9e07189	Male	phs001287	2815954	Unknown	Male
+participant	phs001287_C3N-02716	C3N-02716	Unknown	cde8321b-b24b-4747-acb8-c986ee860f3b	Male	phs001287	2815955	Unknown	Male
+participant	phs001287_C3N-02727	C3N-02727	Unknown	ae64713b-5c33-4737-9779-8ae5939df172	Male	phs001287	2815956	Unknown	Male
+participant	phs001287_C3N-02729	C3N-02729	Unknown	c704558e-1084-42db-9e99-687ab75bc793	Male	phs001287	2676655	Unknown	Male
+participant	phs001287_C3N-02730	C3N-02730	Unknown	eec03801-f301-4b9d-97f5-6ebe5dd91827	Male	phs001287	2815957	Unknown	Male
+participant	phs001287_C3N-02768	C3N-02768	Unknown	13492281-e4cb-4d30-a671-3107dfc1c3e3	Male	phs001287	2936719	Unknown	Male
+participant	phs001287_C3N-02769	C3N-02769	Unknown	d10bb056-535c-4a4e-8315-a48b2b007aa0	Male	phs001287	2765459	Unknown	Male
+participant	phs001287_C3N-02770	C3N-02770	Unknown	105b0b74-2bb0-4002-b035-a85dec45c78b	Male	phs001287	2765460	Unknown	Male
+participant	phs001287_C3N-02782	C3N-02782	Unknown	7b4c072a-9341-4d8d-bc8f-48922bfe5eb1	Female	phs001287	2765461	Unknown	Female
+participant	phs001287_C3N-02783	C3N-02783	Unknown	4ed806cc-fb9a-4738-9cab-874f45f15e0b	Female	phs001287	2765462	Unknown	Female
+participant	phs001287_C3N-02784	C3N-02784	Unknown	72eedd4e-3671-4a92-968d-5e4a518b2c14	Male	phs001287	2765463	Unknown	Male
+participant	phs001287_C3N-02785	C3N-02785	Unknown	be471a00-5aa2-4f8b-88be-85748eda5262	Male	phs001287	2765464	Unknown	Male
+participant	phs001287_C3N-02786	C3N-02786	Unknown	40aa9807-f98e-4273-acb9-f6ce9fb40d55	Female	phs001287	2765465	Unknown	Female
+participant	phs001287_C3N-02788	C3N-02788	Unknown	75716868-163d-4558-97a2-fc5e3141ed34	Male	phs001287	2765466	Unknown	Male
+participant	phs001287_C3N-02925	C3N-02925	Unknown	63f2abf3-0963-4e39-802e-8aedbedfb45a	Female	phs001287	2815958	Unknown	Female
+participant	phs001287_C3N-02940	C3N-02940	Unknown	5274f60f-4159-435b-9434-dc2d678c9dff	Male	phs001287	2936728	Unknown	Male
+participant	phs001287_C3N-02944	C3N-02944	Unknown	8b1fcaf3-681f-4238-b488-dcc5d0f1e07a	Female	phs001287	3003941	Unknown	Female
+participant	phs001287_C3N-02971	C3N-02971	White	089a8a50-565b-471b-9612-312205f35aa5	Female	phs001287	2936732	Not Hispanic or Latino	Female
+participant	phs001287_C3N-02998	C3N-02998	Unknown	86aa39ce-c42b-4a63-be18-cf80f36ac5a6	Female	phs001287	2936737	Unknown	Female
+participant	phs001287_C3N-03000	C3N-03000	Unknown	600c5518-865f-4308-af76-2f20df567441	Male	phs001287	2936738	Unknown	Male
+participant	phs001287_C3N-03006	C3N-03006	Unknown	675799e2-6a14-45b5-9d54-54a8299b1859	Female	phs001287	3003943	Unknown	Female
+participant	phs001287_C3N-03007	C3N-03007	Unknown	8ca366c9-dd9a-4b24-9317-600029134e28	Male	phs001287	3003944	Unknown	Male
+participant	phs001287_C3N-03008	C3N-03008	Unknown	77929144-17ae-4fc3-801a-8e8834289380	Female	phs001287	2815959	Unknown	Female
+participant	phs001287_C3N-03009	C3N-03009	Unknown	d1b497d3-f086-4488-9fef-f032e2dad0ce	Male	phs001287	2815960	Unknown	Male
+participant	phs001287_C3N-03011	C3N-03011	Unknown	dc8c72a8-336a-4bf7-bf51-42eff5031122	Male	phs001287	2815961	Unknown	Male
+participant	phs001287_C3N-03012	C3N-03012	Unknown	5fc523fc-13b3-453a-acf0-eae2b90702fe	Male	phs001287	2815962	Unknown	Male
+participant	phs001287_C3N-03013	C3N-03013	Unknown	2e19e913-205c-4e60-8ce5-3a22b3c1c931	Male	phs001287	2815963	Unknown	Male
+participant	phs001287_C3N-03015	C3N-03015	Unknown	5f502741-bd6f-4313-8c9a-003b5f97ce3c	Male	phs001287	2815964	Unknown	Male
+participant	phs001287_C3N-03027	C3N-03027	Unknown	778b6f07-147d-4045-8785-3bd4eb268736	Male	phs001287	2815965	Unknown	Male
+participant	phs001287_C3N-03028	C3N-03028	Unknown	657b50bc-78de-4f50-9909-5c6236550f21	Male	phs001287	2815966	Unknown	Male
+participant	phs001287_C3N-03039	C3N-03039	White	06b4ace0-ddeb-4a52-a297-b425a9fce974	Female	phs001287	2936741	Not Hispanic or Latino	Female
+participant	phs001287_C3N-03042	C3N-03042	Unknown	30b3819e-c153-4a35-8110-31d7652f3c02	Female	phs001287	2815967	Hispanic or Latino	Female
+participant	phs001287_C3N-03045	C3N-03045	Unknown	a25508e7-1b6d-479d-aee4-c1be4fd53e95	Male	phs001287	2815968	Hispanic or Latino	Male
+participant	phs001287_C3N-03051	C3N-03051	Unknown	79fdc4ec-b094-4d74-a923-d15cb0740a16	Male	phs001287	2798501	Unknown	Male
+participant	phs001287_C3N-03061	C3N-03061	Unknown	e48d5476-aecd-45e9-9157-86e52e8866e7	Female	phs001287	3003946	Unknown	Female
+participant	phs001287_C3N-03069	C3N-03069	Unknown	c8d5edcf-e29b-44c3-9553-cb40d88828f8	Female	phs001287	2936746	Unknown	Female
+participant	phs001287_C3N-03070	C3N-03070	Unknown	21aaa6f0-1245-4cb1-ade5-8ee43ec5e26e	Female	phs001287	2765467	Unknown	Female
+participant	phs001287_C3N-03072	C3N-03072	Unknown	95017b85-984a-4bf3-b5e1-df0633952539	Male	phs001287	2798502	Unknown	Male
+participant	phs001287_C3N-03076	C3N-03076	Unknown	c20b9d44-4eec-4804-a460-f6e8b7681b14	Male	phs001287	2798503	Unknown	Male
+participant	phs001287_C3N-03086	C3N-03086	Unknown	8d018767-a5f3-498a-bb88-c93128c2a78b	Male	phs001287	3003947	Unknown	Male
+participant	phs001287_C3N-03088	C3N-03088	Unknown	dd9c9c54-6bab-47dd-b579-be71dbbcecbd	Female	phs001287	2765468	Unknown	Female
+participant	phs001287_C3N-03092	C3N-03092	Unknown	0b1cecc2-0d0f-4915-b2b9-924bb846809e	Male	phs001287	2798504	Unknown	Male
+participant	phs001287_C3N-03093	C3N-03093	Unknown	682621df-df56-40fe-9c68-2b6d36452d59	Female	phs001287	2798505	Unknown	Female
+participant	phs001287_C3N-03173	C3N-03173	White	ca37ce23-8b95-49cb-a41c-c21f230a8955	Male	phs001287	3003948	Not Hispanic or Latino	Male
+participant	phs001287_C3N-03180	C3N-03180	Unknown	08b721e8-f7b1-48dc-b76f-96f5f45c40e7	Male	phs001287	2765469	Unknown	Male
+participant	phs001287_C3N-03182	C3N-03182	Unknown	65958052-9c9d-4902-8db7-e387f27cf314	Male	phs001287	2765470	Unknown	Male
+participant	phs001287_C3N-03183	C3N-03183	Unknown	d444d276-035c-4a47-bddf-58427fe1f5bd	Male	phs001287	2765471	Unknown	Male
+participant	phs001287_C3N-03184	C3N-03184	Unknown	8e42f35d-a516-434f-8d09-c0288666fe00	Male	phs001287	2765472	Unknown	Male
+participant	phs001287_C3N-03186	C3N-03186	Unknown	a092db4a-49e8-42ab-9773-17f2caf058c9	Female	phs001287	2765473	Unknown	Female
+participant	phs001287_C3N-03188	C3N-03188	Unknown	fa9b7f49-152f-43c3-922c-20374dfe6593	Male	phs001287	2765475	Unknown	Male
+participant	phs001287_C3N-03190	C3N-03190	Unknown	2e2a7ba2-d01a-4db6-b77e-0f912b2bff08	Male	phs001287	2936750	Unknown	Male
+participant	phs001287_C3N-03204	C3N-03204	Unknown	3d3dc8fb-00ce-4096-b9d3-57cff7cad9c4	Male	phs001287	2798506	Unknown	Male
+participant	phs001287_C3N-03211	C3N-03211	Unknown	cb3b1280-a969-4d09-b36a-4118b7ce8fe4	Male	phs001287	2936753	Unknown	Male
+participant	phs001287_C3N-03226	C3N-03226	Unknown	90f994df-7f6f-48eb-a19c-4ff6ac3dac94	Male	phs001287	2815969	Unknown	Male
+participant	phs001287_C3N-03424	C3N-03424	Unknown	ed14c72b-b888-4416-a200-037b91d132ea	Male	phs001287	2798513	Unknown	Male
+participant	phs001287_C3N-03425	C3N-03425	Unknown	799512a2-610f-4b15-9738-3f58b7628284	Female	phs001287	2798514	Unknown	Female
+participant	phs001287_C3N-03426	C3N-03426	Unknown	273f71a6-dfaf-4d98-9322-643561ae48d7	Female	phs001287	2936757	Unknown	Female
+participant	phs001287_C3N-03428	C3N-03428	Unknown	1739b049-391a-4197-b9b6-a7d88fb35427	Male	phs001287	2936758	Unknown	Male
+participant	phs001287_C3N-03430	C3N-03430	Unknown	d3949f41-e015-4233-8169-150bcaa95d09	Female	phs001287	2936759	Unknown	Female
+participant	phs001287_C3N-03433	C3N-03433	Unknown	fb81cb10-f7f0-4406-ac49-9ca6746769e3	Male	phs001287	2815970	Unknown	Male
+participant	phs001287_C3N-03439	C3N-03439	Unknown	f6de5b0a-f26a-44f8-8cb4-f2458089e97f	Female	phs001287	2936760	Unknown	Female
+participant	phs001287_C3N-03440	C3N-03440	Unknown	cdf2ff6d-96ee-485d-a6f3-0a4d2abe3cdb	Female	phs001287	2936761	Unknown	Female
+participant	phs001287_C3N-03441	C3N-03441	Unknown	c90c7f7b-6bcd-41bd-bd13-4bf3e3a450ee	Male	phs001287	2798515	Unknown	Male
+participant	phs001287_C3N-03456	C3N-03456	Unknown	5739da7d-e243-45b1-a3a2-d98ffd6b78ee	Male	phs001287	2815971	Unknown	Male
+participant	phs001287_C3N-03457	C3N-03457	Unknown	7fdc8d0f-cf5b-4652-ab12-8af8732e7624	Male	phs001287	2815972	Unknown	Male
+participant	phs001287_C3N-03458	C3N-03458	Unknown	1050d5db-ab5c-44e0-8a86-1615682d1f1a	Male	phs001287	2815973	Unknown	Male
+participant	phs001287_C3N-03473	C3N-03473	Unknown	870f1f5c-b1ff-4078-97de-988ab9373755	Female	phs001287	2765477	Unknown	Female
+participant	phs001287_C3N-03486	C3N-03486	Unknown	c99c520a-37a2-4a44-828c-d8415018998a	Male	phs001287	2765478	Unknown	Male
+participant	phs001287_C3N-03487	C3N-03487	Unknown	fde2cca6-a55f-4403-aadb-657f13cb1436	Female	phs001287	2815974	Unknown	Female
+participant	phs001287_C3N-03488	C3N-03488	Unknown	c292086d-a7e6-43e6-a37b-dc23623fb2ec	Male	phs001287	2815975	Unknown	Male
+participant	phs001287_C3N-03490	C3N-03490	Unknown	57cbe48c-53a4-49da-b92f-d351261cdc0d	Male	phs001287	2815976	Unknown	Male
+participant	phs001287_C3N-03612	C3N-03612	Unknown	8d4f30c8-bbff-43bf-9686-a06fefe87783	Male	phs001287	2815977	Unknown	Male
+participant	phs001287_C3N-03619	C3N-03619	Unknown	9d6056bc-fa17-464d-ab69-34eb2c98ad53	Male	phs001287	2815978	Unknown	Male
+participant	phs001287_C3N-03620	C3N-03620	Unknown	c8e37261-4a96-47e7-b56a-d6a17666daba	Male	phs001287	2815979	Unknown	Male
+participant	phs001287_C3N-03662	C3N-03662	Unknown	da7e18b9-6881-4dd9-bc4f-0f54cab1c3ce	Male	phs001287	2798516	Unknown	Male
+participant	phs001287_C3N-03664	C3N-03664	Unknown	3eb2c1f8-7c4e-4d8b-9acf-984a36caa44e	Male	phs001287	2815980	Unknown	Male
+participant	phs001287_C3N-03665	C3N-03665	Unknown	a73734e8-1e50-42d5-8f92-040d7d40cf19	Male	phs001287	2936762	Unknown	Male
+participant	phs001287_C3N-03666	C3N-03666	Unknown	2a7d1cfd-3ed5-4467-a449-a544b0ffcdfb	Male	phs001287	2936763	Unknown	Male
+participant	phs001287_C3N-03670	C3N-03670	Unknown	fcee06ce-cfe6-44ce-b992-6187c89586d8	Male	phs001287	3003949	Unknown	Male
+participant	phs001287_C3N-03754	C3N-03754	Unknown	8ca08670-ade6-4bf3-8d5e-d804177b3b43	Male	phs001287	3003950	Unknown	Male
+participant	phs001287_C3N-03780	C3N-03780	Unknown	c0d2e713-1d56-4c71-b17a-caf18875e890	Female	phs001287	2936772	Unknown	Female
+participant	phs001287_C3N-03781	C3N-03781	Unknown	5fa6067c-d33a-430c-87df-f82b75f61ecc	Male	phs001287	2815981	Unknown	Male
+participant	phs001287_C3N-03782	C3N-03782	Unknown	2fa70929-d97e-4593-9c6e-7798714434a5	Female	phs001287	2815982	Unknown	Female
+participant	phs001287_C3N-03783	C3N-03783	Unknown	0f499102-f988-451d-8d68-7a5acfcbf5f8	Male	phs001287	2815983	Unknown	Male
+participant	phs001287_C3N-03785	C3N-03785	Unknown	8b3b1fd4-a09f-4896-8fba-8c3807f130f1	Male	phs001287	2815984	Unknown	Male
+participant	phs001287_C3N-03837	C3N-03837	Unknown	0e93d475-8a92-4053-a0f1-ed501a97268f	Male	phs001287	2815985	Unknown	Male
+participant	phs001287_C3N-03839	C3N-03839	Unknown	4aefc1fc-b741-403e-8992-8eb879cd624d	Female	phs001287	2936773	Unknown	Female
+participant	phs001287_C3N-03840	C3N-03840	Unknown	d63e4aa1-bbe0-4f77-8a89-3ca05ddeece7	Female	phs001287	2936774	Unknown	Female
+participant	phs001287_C3N-03841	C3N-03841	Unknown	399bd4fe-ba78-4222-99be-38c23b857f5e	Male	phs001287	2815986	Unknown	Male
+participant	phs001287_C3N-03848	C3N-03848	Unknown	82fc492a-cad7-4b7e-9abd-2c5847dec2f4	Female	phs001287	2798517	Unknown	Female
+participant	phs001287_C3N-03849	C3N-03849	Unknown	ad61ef0f-2c74-4400-9c0d-117b138cb623	Male	phs001287	2815987	Unknown	Male
+participant	phs001287_C3N-03851	C3N-03851	Unknown	f0047d5f-b857-45e0-8357-6f5bb1a72453	Male	phs001287	2798518	Unknown	Male
+participant	phs001287_C3N-03853	C3N-03853	Unknown	af41c755-b8b2-47b8-85b7-3a97854bd7be	Female	phs001287	2936775	Unknown	Female
+participant	phs001287_C3N-03875	C3N-03875	Unknown	44a3b513-0332-4244-a89d-6aaf78ea3f92	Male	phs001287	2798519	Unknown	Male
+participant	phs001287_C3N-03876	C3N-03876	Unknown	79c0e72c-ba3e-4fd6-be66-d58068e1c5af	Male	phs001287	2815988	Unknown	Male
+participant	phs001287_C3N-03877	C3N-03877	Unknown	9fca9661-e874-4bdb-9a82-8f1cc32a7a7a	Male	phs001287	2798520	Unknown	Male
+participant	phs001287_C3N-03878	C3N-03878	Unknown	5be154c1-7d52-4879-b77e-82d2f4e52539	Male	phs001287	2815989	Unknown	Male
+participant	phs001287_C3N-03880	C3N-03880	Unknown	3a0a54f1-3010-470c-b4ec-b416003d5710	Male	phs001287	2798521	Unknown	Male
+participant	phs001287_C3N-03882	C3N-03882	Unknown	4463a5ef-2b0a-4a58-b0e5-cb709cdcaf5f	Male	phs001287	2798522	Unknown	Male
+participant	phs001287_C3N-03884	C3N-03884	Unknown	2f9bf8a1-c5d9-4693-9e8c-af5e3f926815	Female	phs001287	2936776	Unknown	Female
+participant	phs001287_C3N-03886	C3N-03886	Unknown	cf81b1fd-9c5d-4837-98cc-1ff1e7a4dfcb	Male	phs001287	2798523	Unknown	Male
+participant	phs001287_C3N-03888	C3N-03888	Unknown	c53e22ef-2e35-4c57-aeab-febd788ffef2	Male	phs001287	2815990	Unknown	Male
+participant	phs001287_C3N-03889	C3N-03889	Unknown	beb0d79d-f1a2-4f72-b25e-869f9ea69616	Male	phs001287	2815991	Unknown	Male
+participant	phs001287_C3N-03928	C3N-03928	Unknown	d389c370-3029-4b64-86a0-fb398e12432f	Female	phs001287	2815992	Unknown	Female
+participant	phs001287_C3N-03933	C3N-03933	Unknown	826fe58d-2f82-4ec2-851b-9c1ffe3642b2	Female	phs001287	2815993	Unknown	Female
+participant	phs001287_C3N-04119	C3N-04119	Unknown	02c6aecf-a9d3-4427-9dee-e73d34329b21	Male	phs001287	2936781	Unknown	Male
+participant	phs001287_C3N-04124	C3N-04124	Unknown	b863b2ed-e249-4dca-a8c8-45663319cd89	Male	phs001287	2798524	Unknown	Male
+participant	phs001287_C3N-04126	C3N-04126	Unknown	c459aa78-eda0-408c-930a-284afa6e8ca9	Male	phs001287	2936782	Unknown	Male
+participant	phs001287_C3N-04127	C3N-04127	Unknown	e17c8312-5b7a-471a-a2e1-9a972e181141	Male	phs001287	2798525	Unknown	Male
+participant	phs001287_C3N-04152	C3N-04152	Unknown	503570f0-ccd0-4d8e-8d9d-6705cfe6f4f5	Male	phs001287	2815994	Unknown	Male
+participant	phs001287_C3N-04155	C3N-04155	Unknown	cd12289f-5bba-4941-8922-ede4dc0c38b7	Male	phs001287	2798526	Unknown	Male
+participant	phs001287_C3N-04162	C3N-04162	Unknown	8ce4b3c3-82b4-4198-a08e-44af03d15fd6	Male	phs001287	2798527	Unknown	Male
+participant	phs001287_C3N-04273	C3N-04273	Unknown	4f9903e3-2879-4994-a1e5-22ef0015151f	Male	phs001287	2815995	Unknown	Male
+participant	phs001287_C3N-04275	C3N-04275	Unknown	6a5a82f1-15e7-4beb-af28-f3963c49e892	Male	phs001287	2815996	Unknown	Male
+participant	phs001287_C3N-04276	C3N-04276	Unknown	c20c0340-314a-46ba-bad1-e5e143ff4802	Male	phs001287	2815997	Unknown	Male
+participant	phs001287_C3N-04277	C3N-04277	Unknown	29ab2e9e-67ed-470e-9694-87dbaada9add	Male	phs001287	2815998	Unknown	Male
+participant	phs001287_C3N-04278	C3N-04278	Unknown	72d0f0a9-73ed-4c99-9604-333dfabe831d	Male	phs001287	2815999	Unknown	Male
+participant	phs001287_C3N-04279	C3N-04279	Unknown	161810f4-7081-4754-9a3d-5ebce02299e9	Male	phs001287	2816000	Unknown	Male
+participant	phs001287_C3N-04280	C3N-04280	Unknown	983c3cdc-f832-439c-867e-9005e939b579	Male	phs001287	2816001	Unknown	Male
+participant	phs001287_C3N-04282	C3N-04282	Unknown	7a436f73-f3ce-4de0-913f-9af68c5c2e53	Male	phs001287	2936788	Unknown	Male
+participant	phs001287_C3N-04283	C3N-04283	Unknown	6b02cc11-1e00-4347-b376-43cba0a1d1eb	Female	phs001287	2936789	Unknown	Female
+participant	phs001287_C3N-04284	C3N-04284	Unknown	4b613160-5f89-4dc3-8c03-eb8c4ac8e0de	Female	phs001287	3003951	Unknown	Female
+participant	phs001287_C3N-04611	C3N-04611	Unknown	02018317-392c-4dbc-bc40-e2031e671826	Male	phs001287	2816002	Unknown	Male

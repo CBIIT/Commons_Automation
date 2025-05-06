@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_CCDI_phs003519_DiagBasis-Clinical_SamAnatSite-C47PeriphNervAutonNervSyst_DataCateg-Sequencing</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>21ce5d35-363b-450e-a61e-5e0e008abff5</testCaseGuid>
+</TestCaseEntity>

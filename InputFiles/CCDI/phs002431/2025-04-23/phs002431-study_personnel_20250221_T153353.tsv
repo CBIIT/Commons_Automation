@@ -1,0 +1,5 @@
+type	study_personnel_id	personnel_name	personnel_type	email_address	institution	orcid	crdc_id	id	study.id
+study_personnel	phs002431_Cieslik	Marcin Cieslik	Co-PI	mcieslik@med.umich.edu	University of Michicgan	Not Reported		1534e5f2-9539-5e3c-8a8b-e70836fa3a30	f4bf3540-f73b-5034-9595-7ab4b0fdafe4
+study_personnel	phs002431_Estill	James Estill	Data Manager	jaestill@med.umich.edu	University of Michicgan	0000-0003-1020-2928		889fb762-fdd8-5180-9d7d-28ff9ae0aee2	f4bf3540-f73b-5034-9595-7ab4b0fdafe4
+study_personnel	phs002431_PI	Rajen Mody, MD	PI	rmody@med.umich.edu	University of Michicgan	Not Reported		dbb79a44-72b7-51af-90ce-e46b05a7c45f	f4bf3540-f73b-5034-9595-7ab4b0fdafe4
+study_personnel	phs002431_Chinnaiyan	Arul Chinnaiyan	Co-PI	arul@med.umich.edu	University of Michicgan	0000-0001-9282-3415		e9da2d15-2914-5900-975f-9ab7300be857	f4bf3540-f73b-5034-9595-7ab4b0fdafe4

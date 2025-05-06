@@ -140,7 +140,8 @@ def is_date_format(date_str, date_format):
 #     'pathology_file': 'pathology_file_id',
 #     'cytogenomic_file': 'cytogenomic_file_id',
 #     'generic_file': 'generic_file_id',
-#     'pdx': 'pdx_id'
+#     'pdx': 'pdx_id',
+#     'cell_line': 'cell_line_id'
 # }
 index_columns = {
     'study': 'id',
@@ -162,7 +163,8 @@ index_columns = {
     'pathology_file': 'id',
     'cytogenomic_file': 'id',
     'generic_file': 'id',
-    'pdx': 'id'
+    'pdx': 'id',
+    'cell_line': 'id'
 }
 
 # Write data to excel
@@ -209,6 +211,7 @@ df_pathology_file = dataframes['pathology_file']
 df_cytogenomic_file = dataframes['cytogenomic_file']
 df_generic_file = dataframes['generic_file']
 df_pdx = dataframes['pdx']
+df_cell_line = dataframes['cell_line']
 
 #Print each DataFrame
 print("\nDataFrame: df_study")
@@ -248,7 +251,10 @@ print(df_cytogenomic_file)
 print("\nDataFrame: df_generic_file")
 print(df_generic_file)
 print("\nDataFrame: df_pdx")
-print(df_pdx)
+print(df_cell_line)
+print("\nDataFrame: df_cell_line")
+
+
 
 df_run_query = lambda q: ps.sqldf(q, globals())
 

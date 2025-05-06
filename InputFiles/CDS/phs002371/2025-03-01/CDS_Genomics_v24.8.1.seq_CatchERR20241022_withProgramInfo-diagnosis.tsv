@@ -1,0 +1,457 @@
+primary_diagnosis	age_at_diagnosis	tumor_grade	progression_or_recurrence	days_to_recurrence	days_to_last_followup	tissue_or_organ_of_origin	site_of_resection_or_biopsy	days_to_last_known_disease_status	type	diagnosis_id	study_diagnosis_id	participant.study_participant_id
+Intraductal Carcinoma NOS	57	G3	Yes		2364	Breast	Breast	2335	diagnosis	HTA1_853	phs002371_HTA1_853_HTA1_853	phs002371_HTA1_853
+Squamous Cell Carcinoma, NOS	18	Unknown	Not Reported		26223	Lung	Upper Lobe of the Lung	26223	diagnosis	HTA3_70119	phs002371_HTA3_70119_HTA3_70119	phs002371_HTA3_70119
+Carcinoma NOS	45	G2	Yes	20645	4308	Breast	Breast	4308	diagnosis	HTA5_1279	phs002371_HTA5_1279_HTA5_1279	phs002371_HTA5_1279
+Infiltrating duct carcinoma, NOS	43	G3	No		912	Upper-Inner Quadrant of the Breast	Upper-Inner Quadrant of the Breast	912	diagnosis	HTA12_251	phs002371_HTA12_251_HTA12_251	phs002371_HTA12_251
+Infiltrating duct carcinoma, NOS		G3	Yes			Breast	Breast		diagnosis	HTA9_12	phs002371_HTA9_12_HTA9_12	phs002371_HTA9_12
+Not Reported	18	Not Reported	Unknown		0	Lung	Not Reported	0	diagnosis	HTA3_50419	phs002371_HTA3_50419_HTA3_50419	phs002371_HTA3_50419
+Adenocarcinoma, Pancreatobiliary Type, Pancreatobiliary-Type Carcinoma	59	G4	No		618, 778	Pancreas	Pancreas, NOS, Tail of Pancreas	618, 778	diagnosis	HTA12_24	phs002371_HTA12_24_HTA12_24	phs002371_HTA12_24
+Ductal Carcinoma NOS	29	G2	Yes		2814	Breast	Overlapping Lesion of the Breast	2783	diagnosis	HTA1_330	phs002371_HTA1_330_HTA1_330	phs002371_HTA1_330
+Carcinoma NOS	52	G3	Yes	22372	5226	Breast	Breast	5226	diagnosis	HTA5_1274	phs002371_HTA5_1274_HTA5_1274	phs002371_HTA5_1274
+Neuroblastoma, NOS	18		Unknown			Abdomen	Abdomen, NOS		diagnosis	HTA4_1013	phs002371_HTA4_1013_HTA4_1013	phs002371_HTA4_1013
+Squamous Cell Carcinoma, NOS	18	Not Reported	Not Reported		22686, 23891	Lung	Lower Lobe, Lung, Lung, NOS	22686, 23891	diagnosis	HTA3_70111	phs002371_HTA3_70111_HTA3_70111	phs002371_HTA3_70111
+Not specified in data									diagnosis	HTA10_30	phs002371_HTA10_30_HTA10_30	phs002371_HTA10_30
+Malignant Melanoma, NOS	18		Yes		927	Skin of the Lower Limb and Hip	Skin of Lower Limb and Hip	927	diagnosis	HTA5_1839	phs002371_HTA5_1839_HTA5_1839	phs002371_HTA5_1839
+Unknown		Unknown	Yes			Unknown	Unknown		diagnosis	HTA9_18	phs002371_HTA9_18_HTA9_18	phs002371_HTA9_18
+Adenocarcinoma, NOS	67	Not Reported	Not Reported		912	Lung	Upper Lobe of the Lung	912	diagnosis	HTA5_1357	phs002371_HTA5_1357_HTA5_1357	phs002371_HTA5_1357
+Neuroblastoma, NOS	18		Unknown			Abdomen	Abdomen, NOS		diagnosis	HTA4_1018	phs002371_HTA4_1018_HTA4_1018	phs002371_HTA4_1018
+Not Reported	18	Not Reported	Not Reported	0	0	Not Reported	Not Reported	0	diagnosis	HTA11_99999970781	phs002371_HTA11_99999970781_HTA11_99999970781	phs002371_HTA11_99999970781
+Not Reported	18	Not Reported	Unknown		0	Lung	Not Reported	0	diagnosis	HTA3_70073	phs002371_HTA3_70073_HTA3_70073	phs002371_HTA3_70073
+Adenocarcinoma, Intestinal Type	36		Yes	14241	1106	Descending Colon	Liver	1106	diagnosis	HTA12_270	phs002371_HTA12_270_HTA12_270	phs002371_HTA12_270
+Malignant Melanoma, NOS	18		Yes		1425	Skin of the Trunk	Lung	1425	diagnosis	HTA5_1664	phs002371_HTA5_1664_HTA5_1664	phs002371_HTA5_1664
+Neuroblastoma, NOS	18		Unknown			Abdomen	Abdomen, NOS		diagnosis	HTA4_1006	phs002371_HTA4_1006_HTA4_1006	phs002371_HTA4_1006
+Neuroblastoma, NOS	18		Unknown			Lymph Node	Lymph Node, NOS		diagnosis	HTA4_1007	phs002371_HTA4_1007_HTA4_1007	phs002371_HTA4_1007
+Adenocarcinoma, NOS	70	Not Reported	Yes	26329	1037	Not Reported	Not Reported	1037	diagnosis	HTA5_1687	phs002371_HTA5_1687_HTA5_1687	phs002371_HTA5_1687
+Malignant Melanoma, NOS	18		Unknown		262	Unknown	Lymph Nodes of Inguinal Region or Leg	262	diagnosis	HTA5_1678	phs002371_HTA5_1678_HTA5_1678	phs002371_HTA5_1678
+Not Reported	18	Not Reported	Not Reported	0	0	Not Reported	Not Reported	0	diagnosis	HTA11_14678	phs002371_HTA11_14678_HTA11_14678	phs002371_HTA11_14678
+Not Reported	18	Not Reported	Unknown		0	Lung	Not Reported	0	diagnosis	HTA3_50309	phs002371_HTA3_50309_HTA3_50309	phs002371_HTA3_50309
+Adenocarcinoma, NOS	81	G2	No		271	Lower Lobe of the Lung	Lower Lobe of the Lung	261	diagnosis	HTA1_791	phs002371_HTA1_791_HTA1_791	phs002371_HTA1_791
+Not specified in data									diagnosis	HTA10_32	phs002371_HTA10_32_HTA10_32	phs002371_HTA10_32
+Carcinoma NOS	40		Yes		20058	Breast	Breast	20058	diagnosis	HTA5_1865	phs002371_HTA5_1865_HTA5_1865	phs002371_HTA5_1865
+Adenocarcinoma Combined With Other Types Of Carcinoma	82	G3	No		391	Upper Lobe of the Lung	Upper Lobe of the Lung	391	diagnosis	HTA1_336	phs002371_HTA1_336_HTA1_336	phs002371_HTA1_336
+Malignant Melanoma, NOS	18		Yes		2688	Unknown	Liver	2688	diagnosis	HTA5_1906	phs002371_HTA5_1906_HTA5_1906	phs002371_HTA5_1906
+Malignant Melanoma, NOS	18		Yes		5252	Skin of the Upper Limb and Shoulder	Skin of Upper Limb and Shoulder	5252	diagnosis	HTA5_1649	phs002371_HTA5_1649_HTA5_1649	phs002371_HTA5_1649
+Not Reported	18	Not Reported	Unknown		0	Lung	Not Reported	0	diagnosis	HTA3_50303	phs002371_HTA3_50303_HTA3_50303	phs002371_HTA3_50303
+Carcinoma NOS	71	G2	Yes	26010	63	Breast	Breast	63	diagnosis	HTA5_1344	phs002371_HTA5_1344_HTA5_1344	phs002371_HTA5_1344
+Adenocarcinoma, Endocervical Type	80	Unknown	No		343	Cervix Uteri	Cervix Uteri	343	diagnosis	HTA12_98	phs002371_HTA12_98_HTA12_98	phs002371_HTA12_98
+Neuroblastoma, NOS	18		Unknown			Abdomen	Abdomen, NOS		diagnosis	HTA4_1011	phs002371_HTA4_1011_HTA4_1011	phs002371_HTA4_1011
+Adenocarcinoma, Intestinal Type	45		Yes	516	548	Cecum	Liver	548	diagnosis	HTA12_280	phs002371_HTA12_280_HTA12_280	phs002371_HTA12_280
+Neuroblastoma, NOS	18		Unknown			Liver	Liver		diagnosis	HTA4_1002	phs002371_HTA4_1002_HTA4_1002	phs002371_HTA4_1002
+Not specified in data									diagnosis	HTA10_28	phs002371_HTA10_28_HTA10_28	phs002371_HTA10_28
+Carcinoma NOS	31	G1	Yes	19540	10020	Breast	Breast	10020	diagnosis	HTA5_1499	phs002371_HTA5_1499_HTA5_1499	phs002371_HTA5_1499
+Not Reported	18	Not Reported	Unknown		0	Lung	Not Reported	0	diagnosis	HTA3_50411	phs002371_HTA3_50411_HTA3_50411	phs002371_HTA3_50411
+Lobular And Ductal Carcinoma	72	G2	No		1069	Upper-Outer Quadrant of the Breast	Upper-Outer Quadrant of the Breast	1069	diagnosis	HTA12_246	phs002371_HTA12_246_HTA12_246	phs002371_HTA12_246
+Carcinoma NOS	40	G2	Yes	20286	6187	Breast	Breast	6187	diagnosis	HTA5_1282	phs002371_HTA5_1282_HTA5_1282	phs002371_HTA5_1282
+Adenocarcinoma, NOS	66	Not Reported	Yes	24428	73	Lung	Lower Lobe of the Lung	73	diagnosis	HTA5_1260	phs002371_HTA5_1260_HTA5_1260	phs002371_HTA5_1260
+Carcinoma NOS	50	G1	Yes	18570	2337	Breast	Breast	2337	diagnosis	HTA5_1909	phs002371_HTA5_1909_HTA5_1909	phs002371_HTA5_1909
+Not Reported	18	Not Reported	Not Reported	0	0	Not Reported	Not Reported	0	diagnosis	HTA11_4223	phs002371_HTA11_4223_HTA11_4223	phs002371_HTA11_4223
+Not Reported	18	Not Reported	Unknown		0	Lung	Not Reported	0	diagnosis	HTA3_50305	phs002371_HTA3_50305_HTA3_50305	phs002371_HTA3_50305
+Not Reported	18	Not Reported	Unknown		0	Lung	Not Reported	0	diagnosis	HTA3_50415	phs002371_HTA3_50415_HTA3_50415	phs002371_HTA3_50415
+Carcinosarcoma, NOS	61	G2	Yes		715	Ovary	Ovary	447	diagnosis	HTA1_630	phs002371_HTA1_630_HTA1_630	phs002371_HTA1_630
+Adenocarcinoma, Intestinal Type	63		Yes	23500	113	Sigmoid Colon	Liver	113	diagnosis	HTA12_269	phs002371_HTA12_269_HTA12_269	phs002371_HTA12_269
+Not Reported	18	Not Reported	Unknown		0	Lung	Not Reported	0	diagnosis	HTA3_50404	phs002371_HTA3_50404_HTA3_50404	phs002371_HTA3_50404
+Malignant Melanoma, NOS	18		Yes		2092	Skin of the Upper Limb and Shoulder	Skin of Upper Limb and Shoulder	2092	diagnosis	HTA5_1470	phs002371_HTA5_1470_HTA5_1470	phs002371_HTA5_1470
+Not specified in data									diagnosis	HTA4_2008	phs002371_HTA4_2008_HTA4_2008	phs002371_HTA4_2008
+Carcinoma NOS	44	G3	Yes	18848	4205	Breast	Breast	4205	diagnosis	HTA5_1957	phs002371_HTA5_1957_HTA5_1957	phs002371_HTA5_1957
+Neuroblastoma, NOS	18		Not Reported			Paraspinal Region	Spinal Cord		diagnosis	HTA1_125	phs002371_HTA1_125_HTA1_125	phs002371_HTA1_125
+Malignant Melanoma, NOS	18		Yes		4253	Skin of the Lower Limb and Hip	Small Intestine, NOS	4253	diagnosis	HTA5_1978	phs002371_HTA5_1978_HTA5_1978	phs002371_HTA5_1978
+Adenocarcinoma, NOS	71	Not Reported	Not Reported		26245	Lung	Upper Lobe of the Lung	26245	diagnosis	HTA3_80025	phs002371_HTA3_80025_HTA3_80025	phs002371_HTA3_80025
+Not Reported	18	Not Reported	Unknown		0	Lung	Not Reported	0	diagnosis	HTA3_50417	phs002371_HTA3_50417_HTA3_50417	phs002371_HTA3_50417
+Adenocarcinoma, NOS	67	G1	Not Reported		24866	Lung	Upper Lobe of the Lung	24866	diagnosis	HTA3_80005	phs002371_HTA3_80005_HTA3_80005	phs002371_HTA3_80005
+Micropapillary Carcinoma, NOS	46	G3	Not Reported		16830	Lung	Lung	16830	diagnosis	HTA3_80018	phs002371_HTA3_80018_HTA3_80018	phs002371_HTA3_80018
+Neuroblastoma, NOS	18		Unknown			Abdomen	Abdomen, NOS		diagnosis	HTA4_1008	phs002371_HTA4_1008_HTA4_1008	phs002371_HTA4_1008
+Malignant Melanoma, NOS	18		Unknown		410	Unknown	Jejunum	410	diagnosis	HTA5_1904	phs002371_HTA5_1904_HTA5_1904	phs002371_HTA5_1904
+Adenocarcinoma, Pancreatobiliary Type	61		Unknown		466	Pancreas	Pancreas	466	diagnosis	HTA12_267	phs002371_HTA12_267_HTA12_267	phs002371_HTA12_267
+Adenocarcinoma, Intestinal Type	53		Yes	28	771	Sigmoid Colon	Liver	771	diagnosis	HTA12_279	phs002371_HTA12_279_HTA12_279	phs002371_HTA12_279
+Not Reported	18	Not Reported	Not Reported	0	0	Not Reported	Not Reported	0	diagnosis	HTA11_6639	phs002371_HTA11_6639_HTA11_6639	phs002371_HTA11_6639
+Familial Adenomatous Polyposis	18		Unknown			Colon	Colon		diagnosis	HTA10_03	phs002371_HTA10_03_HTA10_03	phs002371_HTA10_03
+Malignant Melanoma, NOS	18		Yes		1024	Skin of the Lower Limb and Hip	Lymph Nodes of Inguinal Region or Leg	1024	diagnosis	HTA5_1348	phs002371_HTA5_1348_HTA5_1348	phs002371_HTA5_1348
+Carcinoma NOS	46	G3	Yes	17228	4247	Breast	Breast	4247	diagnosis	HTA5_1866	phs002371_HTA5_1866_HTA5_1866	phs002371_HTA5_1866
+Not specified in data									diagnosis	HTA4_2009	phs002371_HTA4_2009_HTA4_2009	phs002371_HTA4_2009
+Malignant Melanoma, NOS	18		Yes		2684	Skin of the Trunk	Skin of Trunk	2684	diagnosis	HTA5_1107	phs002371_HTA5_1107_HTA5_1107	phs002371_HTA5_1107
+Unknown		Unknown	Yes			Unknown	Unknown		diagnosis	HTA9_16	phs002371_HTA9_16_HTA9_16	phs002371_HTA9_16
+Carcinoma NOS	49	G3	Yes	18332	3851	Breast	Breast	3851	diagnosis	HTA5_1589	phs002371_HTA5_1589_HTA5_1589	phs002371_HTA5_1589
+High-grade serous carcinoma	66		Yes		454	Fallopian Tube	Unknown	454	diagnosis	HTA12_293	phs002371_HTA12_293_HTA12_293	phs002371_HTA12_293
+Malignant Melanoma, NOS	18		Yes		5866	Skin of the Trunk	Skin of Trunk	5866	diagnosis	HTA5_1665	phs002371_HTA5_1665_HTA5_1665	phs002371_HTA5_1665
+Adenocarcinoma, Intestinal Type	40		Yes	15065	2809	Rectum	Liver	2809	diagnosis	HTA12_259	phs002371_HTA12_259_HTA12_259	phs002371_HTA12_259
+Adenocarcinoma, NOS	82	G2	No		370	Lower Lobe of the Lung	Lower Lobe of the Lung	320	diagnosis	HTA1_339	phs002371_HTA1_339_HTA1_339	phs002371_HTA1_339
+Not Reported	18	Not Reported	Unknown		0	Lung	Not Reported	0	diagnosis	HTA3_70154	phs002371_HTA3_70154_HTA3_70154	phs002371_HTA3_70154
+Malignant Melanoma, NOS	18		Yes		884	Brain	Brain, NOS	884	diagnosis	HTA5_1749	phs002371_HTA5_1749_HTA5_1749	phs002371_HTA5_1749
+Not Reported	18	Not Reported	Not Reported	0	0	Not Reported	Not Reported	0	diagnosis	HTA11_15824	phs002371_HTA11_15824_HTA11_15824	phs002371_HTA11_15824
+Not Reported	18	Not Reported	Not Reported	0	0	Not Reported	Not Reported	0	diagnosis	HTA11_10568	phs002371_HTA11_10568_HTA11_10568	phs002371_HTA11_10568
+Not specified in data									diagnosis	HTA10_33	phs002371_HTA10_33_HTA10_33	phs002371_HTA10_33
+Multiple Myeloma	18		Yes		2091	Bone Marrow	Bone Marrow	2091	diagnosis	HTA12_314	phs002371_HTA12_314_HTA12_314	phs002371_HTA12_314
+Carcinoma NOS	39	G2	Yes	22381	8746	Breast	Breast	8746	diagnosis	HTA5_1792	phs002371_HTA5_1792_HTA5_1792	phs002371_HTA5_1792
+Lobular Carcinoma, NOS	48		No		1238	Breast	Breast	1238	diagnosis	HTA12_124	phs002371_HTA12_124_HTA12_124	phs002371_HTA12_124
+Not Reported	18	Not Reported	Unknown		0	Lung	Not Reported	0	diagnosis	HTA3_50405	phs002371_HTA3_50405_HTA3_50405	phs002371_HTA3_50405
+Mixed Adenocarcinoma And Squamous Cell Carcinoma, Pancreatobiliary-Type Carcinoma	77		No		106, 77	Pancreas	Body Of Pancreas, Pancreas, NOS	106, 77	diagnosis	HTA12_27	phs002371_HTA12_27_HTA12_27	phs002371_HTA12_27
+Adenocarcinoma, NOS	69	Not Reported	Yes		527	Lung	Liver	527	diagnosis	HTA5_1625	phs002371_HTA5_1625_HTA5_1625	phs002371_HTA5_1625
+Infiltrating duct carcinoma, NOS	53	Unknown	Yes	21352	3276	Breast	Breast	3276	diagnosis	HTA9_14	phs002371_HTA9_14_HTA9_14	phs002371_HTA9_14
+Carcinoma NOS	34	G2	Yes	13698	1731	Breast	Breast	1731	diagnosis	HTA5_1868	phs002371_HTA5_1868_HTA5_1868	phs002371_HTA5_1868
+Carcinoma NOS	38	G3	Yes	13900	143	Breast	Breast	143	diagnosis	HTA5_1156	phs002371_HTA5_1156_HTA5_1156	phs002371_HTA5_1156
+Multiple Myeloma	18		No		1270	Bone Marrow	Bone Marrow	1270	diagnosis	HTA12_302	phs002371_HTA12_302_HTA12_302	phs002371_HTA12_302
+Not Reported	18	Not Reported	Unknown		0	Lung	Not Reported	0	diagnosis	HTA3_70127	phs002371_HTA3_70127_HTA3_70127	phs002371_HTA3_70127
+Malignant Melanoma, NOS	18		No		2433	Skin of the Upper Limb and Shoulder	Lymph Nodes of Axilla or Arm	2433	diagnosis	HTA5_1039	phs002371_HTA5_1039_HTA5_1039	phs002371_HTA5_1039
+Serous Cystadenocarcinoma, NOS	49	G3	Yes		1080	Ovary	Ovary	1031	diagnosis	HTA1_613	phs002371_HTA1_613_HTA1_613	phs002371_HTA1_613
+Malignant Melanoma, NOS	18		Yes		2057	Unknown	Unknown	2057	diagnosis	HTA5_1950	phs002371_HTA5_1950_HTA5_1950	phs002371_HTA5_1950
+Neuroblastoma, NOS	18		Not Reported			Adrenal Gland	Liver		diagnosis	HTA1_102	phs002371_HTA1_102_HTA1_102	phs002371_HTA1_102
+Renal Cell Carcinoma, NOS	49		Unknown			Kidney	Unknown		diagnosis	HTA12_296	phs002371_HTA12_296_HTA12_296	phs002371_HTA12_296
+Familial Adenomatous Polyposis	18		Unknown			Colon	Colon		diagnosis	HTA10_01	phs002371_HTA10_01_HTA10_01	phs002371_HTA10_01
+Not Reported	18	Not Reported	Unknown		0	Lung	Not Reported	0	diagnosis	HTA3_50414	phs002371_HTA3_50414_HTA3_50414	phs002371_HTA3_50414
+Infiltrating duct carcinoma, NOS	46	G2	No		992	Upper-Inner Quadrant of the Breast	Upper-Inner Quadrant of the Breast	992	diagnosis	HTA12_238	phs002371_HTA12_238_HTA12_238	phs002371_HTA12_238
+Carcinoma NOS	48	G3	Yes	18240	861	Breast	Breast	861	diagnosis	HTA5_1416	phs002371_HTA5_1416_HTA5_1416	phs002371_HTA5_1416
+Squamous Cell Carcinoma, NOS	18	Not Reported	Not Reported		28643	Lung	Lower Lobe of the Lung	28643	diagnosis	HTA3_70102	phs002371_HTA3_70102_HTA3_70102	phs002371_HTA3_70102
+High-grade serous carcinoma	73		No		2	Uterus	Uterus, NOS	2	diagnosis	HTA12_288	phs002371_HTA12_288_HTA12_288	phs002371_HTA12_288
+Multiple Myeloma	18		Yes		3073	Bone Marrow	Bone Marrow	3073	diagnosis	HTA12_299	phs002371_HTA12_299_HTA12_299	phs002371_HTA12_299
+Adenocarcinoma, Metastatic, NOS	39		Yes	14951	192	Breast	Liver	192	diagnosis	HTA12_140	phs002371_HTA12_140_HTA12_140	phs002371_HTA12_140
+Infiltrating duct carcinoma, NOS	81	G3	No		821	Upper-Outer Quadrant of the Breast	Upper-Outer Quadrant of the Breast	746	diagnosis	HTA12_242	phs002371_HTA12_242_HTA12_242	phs002371_HTA12_242
+Adenocarcinoma, Pancreatobiliary Type	18		Yes	25960	1227	Head of the Pancreas	Pancreas	1227	diagnosis	HTA12_228	phs002371_HTA12_228_HTA12_228	phs002371_HTA12_228
+Adenocarcinoma, Endocervical Type	60	Unknown	Yes	22502	514	Cervix Uteri	Cervix Uteri	547	diagnosis	HTA12_99	phs002371_HTA12_99_HTA12_99	phs002371_HTA12_99
+Carcinoma NOS	41	G2	Yes	17540	2954	Breast	Breast	2954	diagnosis	HTA5_1457	phs002371_HTA5_1457_HTA5_1457	phs002371_HTA5_1457
+Neuroblastoma, NOS	18		Unknown			Abdomen	Abdomen, NOS		diagnosis	HTA4_1009	phs002371_HTA4_1009_HTA4_1009	phs002371_HTA4_1009
+High-grade serous carcinoma	55	G3	Yes		391	Ovary	Peritoneum, NOS	405	diagnosis	HTA1_659	phs002371_HTA1_659_HTA1_659	phs002371_HTA1_659
+Squamous Cell Carcinoma, NOS	68, 69	Not Reported	Not Reported		24952, 25303	Lung	Lower Lobe, Lung, Upper Lobe, Lung	24952, 25303	diagnosis	HTA3_70145	phs002371_HTA3_70145_HTA3_70145	phs002371_HTA3_70145
+Carcinoma NOS	45	Unknown	Yes	21037	7839	Breast	Breast	7839	diagnosis	HTA5_1697	phs002371_HTA5_1697_HTA5_1697	phs002371_HTA5_1697
+Malignant Melanoma, NOS	18		Yes		1132	Skin of the Trunk	Skin of Trunk	1132	diagnosis	HTA5_1325	phs002371_HTA5_1325_HTA5_1325	phs002371_HTA5_1325
+Neuroblastoma, NOS	18		Unknown			Adrenal Gland	Adrenal Gland, NOS		diagnosis	HTA4_1003	phs002371_HTA4_1003_HTA4_1003	phs002371_HTA4_1003
+Pancreatobiliary-Type Carcinoma	60	G2	No		456	Pancreas	Pancreas	456	diagnosis	HTA12_28	phs002371_HTA12_28_HTA12_28	phs002371_HTA12_28
+Carcinoma NOS	46	G2	Yes	16968	2338	Breast	Breast	2338	diagnosis	HTA5_1172	phs002371_HTA5_1172_HTA5_1172	phs002371_HTA5_1172
+Ductal Carcinoma NOS	54	G3	Yes		685	Breast	Breast	666	diagnosis	HTA1_213	phs002371_HTA1_213_HTA1_213	phs002371_HTA1_213
+Adenocarcinoma, NOS	44	Not Reported	Yes	16267	167	Lung	Lymph Node, NOS	167	diagnosis	HTA5_1919	phs002371_HTA5_1919_HTA5_1919	phs002371_HTA5_1919
+Ductal Carcinoma NOS	30		No		550	Breast	Breast	550	diagnosis	HTA12_127	phs002371_HTA12_127_HTA12_127	phs002371_HTA12_127
+Squamous Cell Carcinoma, NOS	18	Not Reported	Not Reported		27840	Lung	Lower Lobe of the Lung	27840	diagnosis	HTA3_70081	phs002371_HTA3_70081_HTA3_70081	phs002371_HTA3_70081
+Malignant Melanoma, NOS	18		Yes		688	Skin of the Trunk	Skin of Trunk	688	diagnosis	HTA5_1765	phs002371_HTA5_1765_HTA5_1765	phs002371_HTA5_1765
+Carcinoma NOS	46	G2	Yes	18919	4424	Breast	Breast	4424	diagnosis	HTA5_1180	phs002371_HTA5_1180_HTA5_1180	phs002371_HTA5_1180
+Central Neuroblastoma	18	Unknown	No		399	Connective, Subcutaneous and Other Soft Tissues of Head, Face, and Neck	Connective, Subcutaneous and Other Soft Tissues Of Head, Face, and Neck	13	diagnosis	HTA1_672	phs002371_HTA1_672_HTA1_672	phs002371_HTA1_672
+Infiltrating duct carcinoma, NOS	78	G3	No		767	Upper-Inner Quadrant of the Breast	Upper-Inner Quadrant of the Breast	767	diagnosis	HTA12_237	phs002371_HTA12_237_HTA12_237	phs002371_HTA12_237
+Malignant Melanoma, NOS	18		Yes		1466	Skin of the Upper Limb and Shoulder	Skin of Upper Limb and Shoulder	1466	diagnosis	HTA5_1266	phs002371_HTA5_1266_HTA5_1266	phs002371_HTA5_1266
+Adenocarcinoma, NOS	74	Not Reported	Yes	27580	417	Lung	Adrenal Gland, NOS	417	diagnosis	HTA5_1661	phs002371_HTA5_1661_HTA5_1661	phs002371_HTA5_1661
+Neuroblastoma, NOS	18		Not Reported			Paraspinal Region	Paraspinal Region		diagnosis	HTA1_148	phs002371_HTA1_148_HTA1_148	phs002371_HTA1_148
+Malignant Melanoma, NOS	18		Yes		3165	Skin of the Scalp and Neck	Skin of Scalp and Neck	3165	diagnosis	HTA5_1299	phs002371_HTA5_1299_HTA5_1299	phs002371_HTA5_1299
+Adenocarcinoma, Pancreatobiliary Type	57		Yes	349	529	Liver	Liver	529	diagnosis	HTA12_284	phs002371_HTA12_284_HTA12_284	phs002371_HTA12_284
+Neuroblastoma, NOS	18		Not Reported			Adrenal Gland	Adrenal Gland, NOS		diagnosis	HTA1_130	phs002371_HTA1_130_HTA1_130	phs002371_HTA1_130
+Carcinoma NOS	68	G2	Yes	25005	2408	Breast	Breast	2408	diagnosis	HTA5_1590	phs002371_HTA5_1590_HTA5_1590	phs002371_HTA5_1590
+Adenocarcinoma, Pancreatobiliary Type	76		Unknown		299	Pancreas	Pancreas	299	diagnosis	HTA12_265	phs002371_HTA12_265_HTA12_265	phs002371_HTA12_265
+Not Reported	18	Not Reported	Not Reported	0	0	Not Reported	Not Reported	0	diagnosis	HTA11_7821	phs002371_HTA11_7821_HTA11_7821	phs002371_HTA11_7821
+Malignant Melanoma, NOS	18		Yes		8419	Skin of the Scalp and Neck	Skin of Scalp and Neck	8419	diagnosis	HTA5_1848	phs002371_HTA5_1848_HTA5_1848	phs002371_HTA5_1848
+Not specified in data									diagnosis	HTA10_31	phs002371_HTA10_31_HTA10_31	phs002371_HTA10_31
+Not Reported	18	Not Reported	Unknown		0	Lung	Not Reported	0	diagnosis	HTA3_50402	phs002371_HTA3_50402_HTA3_50402	phs002371_HTA3_50402
+Not specified in data									diagnosis	HTA12_EXT313	phs002371_HTA12_EXT313_HTA12_EXT313	phs002371_HTA12_EXT313
+Infiltrating duct carcinoma, NOS	63	G2	No		986	Breast	Overlapping Lesion of the Breast	986	diagnosis	HTA12_248	phs002371_HTA12_248_HTA12_248	phs002371_HTA12_248
+Malignant Melanoma, NOS	18		Yes		1879	Salivary Gland	Major Salivary Gland, NOS	1879	diagnosis	HTA5_1736	phs002371_HTA5_1736_HTA5_1736	phs002371_HTA5_1736
+Not Reported	18	Not Reported	Unknown		0	Lung	Not Reported	0	diagnosis	HTA3_50312	phs002371_HTA3_50312_HTA3_50312	phs002371_HTA3_50312
+Adenocarcinoma, NOS	49	Not Reported	Not Reported		776	Lung	Lung	776	diagnosis	HTA5_1192	phs002371_HTA5_1192_HTA5_1192	phs002371_HTA5_1192
+Neuroblastoma, NOS	18		Unknown			Abdomen	Abdomen, NOS		diagnosis	HTA4_1022	phs002371_HTA4_1022_HTA4_1022	phs002371_HTA4_1022
+Carcinoma NOS	28	G2	Yes	10354	371	Breast	Breast	371	diagnosis	HTA5_1874	phs002371_HTA5_1874_HTA5_1874	phs002371_HTA5_1874
+Ductal Carcinoma NOS	45		No		1008	Breast	Breast	1008	diagnosis	HTA12_135	phs002371_HTA12_135_HTA12_135	phs002371_HTA12_135
+Lobular Carcinoma, NOS	49		No		972	Breast	Breast	972	diagnosis	HTA12_266	phs002371_HTA12_266_HTA12_266	phs002371_HTA12_266
+Unknown		Unknown	Yes			Unknown	Unknown		diagnosis	HTA9_28	phs002371_HTA9_28_HTA9_28	phs002371_HTA9_28
+Adenocarcinoma, Intestinal Type	56		Yes	1255	21	Colon	Upper Lobe of the Lung	21	diagnosis	HTA12_277	phs002371_HTA12_277_HTA12_277	phs002371_HTA12_277
+Adenocarcinoma, Pancreatobiliary Type	18		Not Reported		30	Head of the Pancreas	Pancreas	30	diagnosis	HTA12_229	phs002371_HTA12_229_HTA12_229	phs002371_HTA12_229
+Malignant Melanoma, NOS	18		Yes		3752	Lymph Node	Lymph Nodes of Axilla or Arm	3752	diagnosis	HTA5_1648	phs002371_HTA5_1648_HTA5_1648	phs002371_HTA5_1648
+Adenocarcinoma, Intestinal Type	73		Yes	30161	3391	Descending Colon	Liver	3391	diagnosis	HTA12_260	phs002371_HTA12_260_HTA12_260	phs002371_HTA12_260
+Not Reported	18	Not Reported	Not Reported	0	0	Not Reported	Not Reported	0	diagnosis	HTA11_16052	phs002371_HTA11_16052_HTA11_16052	phs002371_HTA11_16052
+Infiltrating duct carcinoma, NOS		G2	Yes			Breast	Breast		diagnosis	HTA9_8	phs002371_HTA9_8_HTA9_8	phs002371_HTA9_8
+Ductal Carcinoma NOS	60		Yes	22827	356	Breast	Breast	356	diagnosis	HTA12_119	phs002371_HTA12_119_HTA12_119	phs002371_HTA12_119
+Acinar Cell Carcinoma	67	G2	Not Reported		24639	Lung	Lung	24639	diagnosis	HTA3_80020	phs002371_HTA3_80020_HTA3_80020	phs002371_HTA3_80020
+Not Reported	18	Not Reported	Unknown		0	Lung	Not Reported	0	diagnosis	HTA3_50406	phs002371_HTA3_50406_HTA3_50406	phs002371_HTA3_50406
+Carcinoma NOS	60	G3	Yes	23625	2717	Breast	Breast	2717	diagnosis	HTA5_1821	phs002371_HTA5_1821_HTA5_1821	phs002371_HTA5_1821
+Ductal Carcinoma NOS	37	G2	Yes		1133	Breast	Breast	1132	diagnosis	HTA1_878	phs002371_HTA1_878_HTA1_878	phs002371_HTA1_878
+Carcinoma NOS	47	G2	Yes	17291	155	Breast	Breast	155	diagnosis	HTA5_1475	phs002371_HTA5_1475_HTA5_1475	phs002371_HTA5_1475
+Neuroblastoma, NOS	18		Unknown			Adrenal Gland	Adrenal Gland, NOS		diagnosis	HTA4_1010	phs002371_HTA4_1010_HTA4_1010	phs002371_HTA4_1010
+Ductal Carcinoma NOS	54	G3	Yes		989	Upper-Outer Quadrant of the Breast	Upper-Outer Quadrant of the Breast	884	diagnosis	HTA1_917	phs002371_HTA1_917_HTA1_917	phs002371_HTA1_917
+Carcinoma NOS	43	G2	Yes	15772	117	Breast	Breast	117	diagnosis	HTA5_1843	phs002371_HTA5_1843_HTA5_1843	phs002371_HTA5_1843
+Not Reported	18	Not Reported	Unknown		0	Lung	Not Reported	0	diagnosis	HTA3_50413	phs002371_HTA3_50413_HTA3_50413	phs002371_HTA3_50413
+Neuroblastoma, NOS	18		Unknown			Lymph Node	Lymph Node, NOS		diagnosis	HTA4_1015	phs002371_HTA4_1015_HTA4_1015	phs002371_HTA4_1015
+Adenocarcinoma, NOS	57	G3	No		963	Upper Lobe of the Lung	Upper Lobe of the Lung	963	diagnosis	HTA1_322	phs002371_HTA1_322_HTA1_322	phs002371_HTA1_322
+Acinar Cell Carcinoma	74	G2	Not Reported		27354	Lung	Upper Lobe of the Lung	27354	diagnosis	HTA3_80002	phs002371_HTA3_80002_HTA3_80002	phs002371_HTA3_80002
+Adenocarcinoma, Metastatic, NOS	65		No		620	Colon	Liver	620	diagnosis	HTA12_136	phs002371_HTA12_136_HTA12_136	phs002371_HTA12_136
+Not Reported	18	Not Reported	Not Reported	0	0	Not Reported	Not Reported	0	diagnosis	HTA11_5812	phs002371_HTA11_5812_HTA11_5812	phs002371_HTA11_5812
+Adenocarcinoma, Pancreatobiliary Type	18		Not Reported		259	Head of the Pancreas	Pancreas	259	diagnosis	HTA12_230	phs002371_HTA12_230_HTA12_230	phs002371_HTA12_230
+Not specified in data									diagnosis	HTA15_12342	phs002371_HTA15_12342_HTA15_12342	phs002371_HTA15_12342
+Multiple Myeloma	18		Yes		336	Bone Marrow	Bone Marrow	337	diagnosis	HTA12_306	phs002371_HTA12_306_HTA12_306	phs002371_HTA12_306
+Malignant Melanoma, NOS	18		Unknown		438	Skin of the Upper Limb and Shoulder	Lymph Nodes of Axilla or Arm	438	diagnosis	HTA5_1430	phs002371_HTA5_1430_HTA5_1430	phs002371_HTA5_1430
+Not specified in data									diagnosis	HTA4_2016	phs002371_HTA4_2016_HTA4_2016	phs002371_HTA4_2016
+Not Reported	18	Not Reported	Unknown		0	Lung	Not Reported	0	diagnosis	HTA3_50409	phs002371_HTA3_50409_HTA3_50409	phs002371_HTA3_50409
+Not specified in data									diagnosis	HTA12_64	phs002371_HTA12_64_HTA12_64	phs002371_HTA12_64
+Not Reported	18	Not Reported	Unknown		0	Lung	Not Reported	0	diagnosis	HTA3_50304	phs002371_HTA3_50304_HTA3_50304	phs002371_HTA3_50304
+Ductal Carcinoma NOS	39		No		720	Breast	Breast	720	diagnosis	HTA12_254	phs002371_HTA12_254_HTA12_254	phs002371_HTA12_254
+Not Reported	18	Not Reported	Unknown		0	Lung	Not Reported	0	diagnosis	HTA3_50311	phs002371_HTA3_50311_HTA3_50311	phs002371_HTA3_50311
+Malignant Melanoma, NOS	58	Not Reported	Yes	25937	7879	Skin of the Lower Limb and Hip	Lymph Nodes of Axilla or Arm	7879	diagnosis	HTA15_51430	phs002371_HTA15_51430_HTA15_51430	phs002371_HTA15_51430
+Familial Adenomatous Polyposis	18		Unknown			Colon	Colon		diagnosis	HTA10_06	phs002371_HTA10_06_HTA10_06	phs002371_HTA10_06
+Not specified in data									diagnosis	HTA4_2012	phs002371_HTA4_2012_HTA4_2012	phs002371_HTA4_2012
+Not specified in data									diagnosis	HTA4_2003	phs002371_HTA4_2003_HTA4_2003	phs002371_HTA4_2003
+Ductal Carcinoma NOS	77		Yes	28572	818	Breast	Breast	818	diagnosis	HTA12_130	phs002371_HTA12_130_HTA12_130	phs002371_HTA12_130
+Malignant Melanoma, NOS	18		Yes		3353	Skin of the Trunk	Skin of Trunk	3353	diagnosis	HTA5_1536	phs002371_HTA5_1536_HTA5_1536	phs002371_HTA5_1536
+Not specified in data									diagnosis	HTA4_2006	phs002371_HTA4_2006_HTA4_2006	phs002371_HTA4_2006
+Not specified in data									diagnosis	HTA4_2001	phs002371_HTA4_2001_HTA4_2001	phs002371_HTA4_2001
+Adenocarcinoma In Situ, Non-Mucinous	75	G1	Not Reported		27536	Lung	Lower Lobe of the Lung	27536	diagnosis	HTA3_80019	phs002371_HTA3_80019_HTA3_80019	phs002371_HTA3_80019
+Adenocarcinoma, NOS	61	G2	Not Reported		22395	Lung	Upper Lobe of the Lung	22395	diagnosis	HTA3_80026	phs002371_HTA3_80026_HTA3_80026	phs002371_HTA3_80026
+Ductal Carcinoma NOS	52		No		40	Breast	Breast	40	diagnosis	HTA12_129	phs002371_HTA12_129_HTA12_129	phs002371_HTA12_129
+Ductal Carcinoma NOS	38	Unknown	Yes		1781	Breast	Breast	1773	diagnosis	HTA1_812	phs002371_HTA1_812_HTA1_812	phs002371_HTA1_812
+Not Reported	18	Not Reported	Unknown		0	Lung	Not Reported	0	diagnosis	HTA3_70005	phs002371_HTA3_70005_HTA3_70005	phs002371_HTA3_70005
+Adenocarcinoma, NOS	55	Not Reported	Yes		548	Lung	Liver	548	diagnosis	HTA5_1920	phs002371_HTA5_1920_HTA5_1920	phs002371_HTA5_1920
+Adenocarcinoma In Situ, NOS	66	G1	Not Reported		24185	Lung	Upper Lobe of the Lung	24185	diagnosis	HTA3_80024	phs002371_HTA3_80024_HTA3_80024	phs002371_HTA3_80024
+Squamous Cell Carcinoma, NOS	77	Not Reported	Not Reported		28112, 28253	Lung	Lung, Nos, Trachea	28112, 28253	diagnosis	HTA3_70153	phs002371_HTA3_70153_HTA3_70153	phs002371_HTA3_70153
+Carcinoma NOS	46	G2	Yes	17046	3734	Breast	Breast	3734	diagnosis	HTA5_1315	phs002371_HTA5_1315_HTA5_1315	phs002371_HTA5_1315
+Not Reported	18	Not Reported	Unknown		0	Lung	Not Reported	0	diagnosis	HTA3_50410	phs002371_HTA3_50410_HTA3_50410	phs002371_HTA3_50410
+Adenocarcinoma, Pancreatobiliary Type	75		No		675	Liver	Liver	675	diagnosis	HTA12_286	phs002371_HTA12_286_HTA12_286	phs002371_HTA12_286
+Neuroblastoma, NOS	18		Not Reported			Adrenal Gland	Retroperitoneum		diagnosis	HTA1_116	phs002371_HTA1_116_HTA1_116	phs002371_HTA1_116
+Neuroblastoma, NOS	18		Unknown			Abdomen	Abdomen, NOS		diagnosis	HTA4_1005	phs002371_HTA4_1005_HTA4_1005	phs002371_HTA4_1005
+Adenocarcinoma, NOS	55	G2	No		243	Upper Lobe of the Lung	Upper Lobe of the Lung	243	diagnosis	HTA1_937	phs002371_HTA1_937_HTA1_937	phs002371_HTA1_937
+Renal Cell Carcinoma, NOS			Unknown			Kidney	Unknown		diagnosis	HTA12_274	phs002371_HTA12_274_HTA12_274	phs002371_HTA12_274
+Neuroblastoma, NOS	18		Unknown			Abdomen	Abdomen, NOS		diagnosis	HTA4_1017	phs002371_HTA4_1017_HTA4_1017	phs002371_HTA4_1017
+Adenocarcinoma, NOS	75	Not Reported	Yes	28034	523	Lung	Liver	523	diagnosis	HTA5_1633	phs002371_HTA5_1633_HTA5_1633	phs002371_HTA5_1633
+Not Reported	18	Not Reported	Unknown		0	Lung	Not Reported	0	diagnosis	HTA3_50302	phs002371_HTA3_50302_HTA3_50302	phs002371_HTA3_50302
+Malignant Melanoma, NOS	18		Yes	26642	2967	Skin of the Upper Limb and Shoulder	Skin of Upper Limb and Shoulder	2967	diagnosis	HTA5_1876	phs002371_HTA5_1876_HTA5_1876	phs002371_HTA5_1876
+Serous Cystadenocarcinoma, NOS	55	G3	Yes		1469	Ovary	Peritoneum, NOS	1385	diagnosis	HTA1_636	phs002371_HTA1_636_HTA1_636	phs002371_HTA1_636
+Endometrioid carcinoma, NOS			Unknown			Uterus	Unknown		diagnosis	HTA12_292	phs002371_HTA12_292_HTA12_292	phs002371_HTA12_292
+Spindle Cell Carcinoma, NOS	89	Low Grade	No		686	Upper-Outer Quadrant of the Breast	Central Portion of the Breast	686	diagnosis	HTA12_241	phs002371_HTA12_241_HTA12_241	phs002371_HTA12_241
+Carcinoma NOS	35	G2	Yes	13961	1187	Breast	Breast	1187	diagnosis	HTA5_1466	phs002371_HTA5_1466_HTA5_1466	phs002371_HTA5_1466
+Adenocarcinoma, Pancreatobiliary Type	68		Yes	187	883	Liver	Liver	883	diagnosis	HTA12_282	phs002371_HTA12_282_HTA12_282	phs002371_HTA12_282
+Infiltrating duct carcinoma, NOS	54	Unknown	Yes		1560	Lower-Outer Quadrant of the Breast	Breast	1560	diagnosis	HTA9_3	phs002371_HTA9_3_HTA9_3	phs002371_HTA9_3
+Not Reported	18	Not Reported	Unknown		0	Lung	Not Reported	0	diagnosis	HTA3_50310	phs002371_HTA3_50310_HTA3_50310	phs002371_HTA3_50310
+Carcinoma NOS	52		Yes		24045	Breast	Breast	24045	diagnosis	HTA5_1610	phs002371_HTA5_1610_HTA5_1610	phs002371_HTA5_1610
+Adenocarcinoma, NOS	74	G2	Not Reported		27365	Lung	Lung	27365	diagnosis	HTA3_80021	phs002371_HTA3_80021_HTA3_80021	phs002371_HTA3_80021
+Not Reported	18	Not Reported	Not Reported	0	0	Not Reported	Not Reported	0	diagnosis	HTA11_99999971397	phs002371_HTA11_99999971397_HTA11_99999971397	phs002371_HTA11_99999971397
+Adenocarcinoma, Metastatic, NOS	46		Yes	17466	898	Colon	Liver	898	diagnosis	HTA12_137	phs002371_HTA12_137_HTA12_137	phs002371_HTA12_137
+Neuroblastoma, NOS	18		Unknown			Adrenal Gland	Adrenal Gland, NOS		diagnosis	HTA4_1020	phs002371_HTA4_1020_HTA4_1020	phs002371_HTA4_1020
+Not Reported	18	Not Reported	Not Reported	0	0	Not Reported	Not Reported	0	diagnosis	HTA11_99999965062	phs002371_HTA11_99999965062_HTA11_99999965062	phs002371_HTA11_99999965062
+Carcinoma NOS	37	G3	Yes	15614	1964	Breast	Breast	1964	diagnosis	HTA5_1238	phs002371_HTA5_1238_HTA5_1238	phs002371_HTA5_1238
+Adenocarcinoma, Intestinal Type	49		Yes	2405	2850	Descending Colon	Liver	2850	diagnosis	HTA12_276	phs002371_HTA12_276_HTA12_276	phs002371_HTA12_276
+Squamous Cell Carcinoma, NOS	88	Unknown	Not Reported		32251	Lung	Lung	32251	diagnosis	HTA3_70106	phs002371_HTA3_70106_HTA3_70106	phs002371_HTA3_70106
+Adenocarcinoma, NOS	40	G2	Yes		1540	Upper-Outer Quadrant of the Breast	Upper-Outer Quadrant of the Breast	1475	diagnosis	HTA1_313	phs002371_HTA1_313_HTA1_313	phs002371_HTA1_313
+Adenocarcinoma, NOS	64	Not Reported	Yes	23702	720	Lung	Temporal Lobe	720	diagnosis	HTA5_1725	phs002371_HTA5_1725_HTA5_1725	phs002371_HTA5_1725
+Ductal Carcinoma NOS	27	G3	Yes		520	Breast	Breast	509	diagnosis	HTA1_514	phs002371_HTA1_514_HTA1_514	phs002371_HTA1_514
+Multiple Myeloma	18		Yes		1658	Bone Marrow	Bone Marrow	1739	diagnosis	HTA12_310	phs002371_HTA12_310_HTA12_310	phs002371_HTA12_310
+Neuroblastoma, NOS	18		Unknown			Abdomen	Abdomen, NOS		diagnosis	HTA4_1014	phs002371_HTA4_1014_HTA4_1014	phs002371_HTA4_1014
+Malignant Melanoma, NOS	18		Yes		1491	Skin of the Lower Limb and Hip	Lymph Nodes of Inguinal Region or Leg	1491	diagnosis	HTA5_1587	phs002371_HTA5_1587_HTA5_1587	phs002371_HTA5_1587
+Renal Cell Carcinoma, NOS	53		Unknown			Kidney	Unknown		diagnosis	HTA12_297	phs002371_HTA12_297_HTA12_297	phs002371_HTA12_297
+Not Reported	18	Not Reported	Unknown		0	Lung	Not Reported	0	diagnosis	HTA3_50407	phs002371_HTA3_50407_HTA3_50407	phs002371_HTA3_50407
+Unknown		Unknown	Yes			Unknown	Unknown		diagnosis	HTA9_17	phs002371_HTA9_17_HTA9_17	phs002371_HTA9_17
+Endometrioid carcinoma, NOS			Unknown			Uterus	Unknown		diagnosis	HTA12_291	phs002371_HTA12_291_HTA12_291	phs002371_HTA12_291
+High-grade serous carcinoma	74		Yes		233	Uterus	Specified Parts of Peritoneum	233	diagnosis	HTA12_289	phs002371_HTA12_289_HTA12_289	phs002371_HTA12_289
+Adenocarcinoma, Pancreatobiliary Type	18		Yes	26935	622	Body of the Pancreas	Pancreas	622	diagnosis	HTA12_232	phs002371_HTA12_232_HTA12_232	phs002371_HTA12_232
+Not specified in data									diagnosis	HTA4_2005	phs002371_HTA4_2005_HTA4_2005	phs002371_HTA4_2005
+Adenocarcinoma, NOS	73	G1	Not Reported		26698	Lung	Upper Lobe of the Lung	26698	diagnosis	HTA3_80022	phs002371_HTA3_80022_HTA3_80022	phs002371_HTA3_80022
+Not Reported	18	Not Reported	Not Reported	0	0	Not Reported	Not Reported	0	diagnosis	HTA11_99999965104	phs002371_HTA11_99999965104_HTA11_99999965104	phs002371_HTA11_99999965104
+Not specified in data									diagnosis	HTA4_2015	phs002371_HTA4_2015_HTA4_2015	phs002371_HTA4_2015
+Multiple Myeloma	18		Yes		1726	Bone Marrow	Bone Marrow	1726	diagnosis	HTA12_307	phs002371_HTA12_307_HTA12_307	phs002371_HTA12_307
+Carcinoma NOS	50	G2	Yes	19519	1021	Breast	Breast	1021	diagnosis	HTA5_1907	phs002371_HTA5_1907_HTA5_1907	phs002371_HTA5_1907
+Adenocarcinoma, NOS	79	G2	No		323	Middle Lobe of Lung	Middle Lobe, Lung	288	diagnosis	HTA1_822	phs002371_HTA1_822_HTA1_822	phs002371_HTA1_822
+Multiple Myeloma	18		Unknown		0	Bone Marrow	Bone Marrow	0	diagnosis	HTA12_316	phs002371_HTA12_316_HTA12_316	phs002371_HTA12_316
+Not Reported	18	Not Reported	Unknown		0	Lung	Not Reported	0	diagnosis	HTA3_50420	phs002371_HTA3_50420_HTA3_50420	phs002371_HTA3_50420
+Renal Cell Adenocarcinoma	65	G2	Not Reported		727	Kidney	Kidney	727	diagnosis	HTA12_33	phs002371_HTA12_33_HTA12_33	phs002371_HTA12_33
+Carcinoma NOS	46	G2	Yes	18263	2387	Breast	Breast	2387	diagnosis	HTA5_1109	phs002371_HTA5_1109_HTA5_1109	phs002371_HTA5_1109
+Infiltrating duct carcinoma, NOS	46	Unknown	Yes	20267	5123	Breast	Breast	5123	diagnosis	HTA9_15	phs002371_HTA9_15_HTA9_15	phs002371_HTA9_15
+Ductal Carcinoma In Situ, NOS	68		No		1244	Breast	Breast	1244	diagnosis	HTA12_283	phs002371_HTA12_283_HTA12_283	phs002371_HTA12_283
+Serous Cystadenocarcinoma, NOS	69	G2	Yes		87	Ovary	Ovary		diagnosis	HTA1_976	phs002371_HTA1_976_HTA1_976	phs002371_HTA1_976
+Infiltrating duct carcinoma, NOS	42	G3	Yes	15735	2263	Upper-Inner Quadrant of the Breast	Upper-Inner Quadrant of the Breast	2263	diagnosis	HTA12_234	phs002371_HTA12_234_HTA12_234	phs002371_HTA12_234
+Not Reported	18	Not Reported	Unknown		0	Lung	Not Reported	0	diagnosis	HTA3_50203	phs002371_HTA3_50203_HTA3_50203	phs002371_HTA3_50203
+Not Reported	18	Not Reported	Unknown		0	Lung	Not Reported	0	diagnosis	HTA3_50306	phs002371_HTA3_50306_HTA3_50306	phs002371_HTA3_50306
+Carcinoma, Metastatic, NOS	61		Yes	22908	594	Abdomen	Liver	594	diagnosis	HTA12_132	phs002371_HTA12_132_HTA12_132	phs002371_HTA12_132
+Carcinoma NOS	43	G2	Yes	16162	907	Breast	Breast	907	diagnosis	HTA5_1802	phs002371_HTA5_1802_HTA5_1802	phs002371_HTA5_1802
+Unknown		Unknown	Yes			Unknown	Unknown		diagnosis	HTA9_24	phs002371_HTA9_24_HTA9_24	phs002371_HTA9_24
+Ductal Carcinoma In Situ, NOS	41	G3	Yes	15673	845	Breast	Overlapping Lesion of the Breast	245	diagnosis	HTA12_250	phs002371_HTA12_250_HTA12_250	phs002371_HTA12_250
+Multiple Myeloma	18		No		215	Bone Marrow	Bone Marrow	258	diagnosis	HTA12_303	phs002371_HTA12_303_HTA12_303	phs002371_HTA12_303
+Adenocarcinoma, Pancreatobiliary Type	61		Yes	22725	768	Pancreas	Pancreas	768	diagnosis	HTA12_264	phs002371_HTA12_264_HTA12_264	phs002371_HTA12_264
+Not Reported	18	Not Reported	Unknown		0	Lung	Not Reported	0	diagnosis	HTA3_70133	phs002371_HTA3_70133_HTA3_70133	phs002371_HTA3_70133
+Neuroblastoma, NOS	18		Unknown			Unknown	Unknown		diagnosis	HTA4_1004	phs002371_HTA4_1004_HTA4_1004	phs002371_HTA4_1004
+Not Reported	18	Not Reported	Not Reported	0	0	Not Reported	Not Reported	0	diagnosis	HTA11_5150	phs002371_HTA11_5150_HTA11_5150	phs002371_HTA11_5150
+Infiltrating duct carcinoma, NOS		Unknown	Yes			Unknown	Breast		diagnosis	HTA9_2	phs002371_HTA9_2_HTA9_2	phs002371_HTA9_2
+Malignant Melanoma, NOS	18		Yes		256	Skin of the Lower Limb and Hip	Lymph Nodes of Multiple Regions	256	diagnosis	HTA5_1314	phs002371_HTA5_1314_HTA5_1314	phs002371_HTA5_1314
+Not Reported	18	Not Reported	Not Reported	0	0	Not Reported	Not Reported	0	diagnosis	HTA11_7128	phs002371_HTA11_7128_HTA11_7128	phs002371_HTA11_7128
+Malignant Melanoma, NOS	18		Yes	22718	2623	Skin of the Lower Limb and Hip	Skin of Lower Limb and Hip	2623	diagnosis	HTA5_1703	phs002371_HTA5_1703_HTA5_1703	phs002371_HTA5_1703
+Not Reported	18	Not Reported	Unknown		0	Lung	Not Reported	0	diagnosis	HTA3_50204	phs002371_HTA3_50204_HTA3_50204	phs002371_HTA3_50204
+Carcinoma NOS	63	G2	Yes	25465	3872	Breast	Breast	3872	diagnosis	HTA5_1503	phs002371_HTA5_1503_HTA5_1503	phs002371_HTA5_1503
+Multiple Myeloma	18		No		2493	Bone Marrow	Bone Marrow	2493	diagnosis	HTA12_309	phs002371_HTA12_309_HTA12_309	phs002371_HTA12_309
+Malignant Melanoma, NOS	18		Yes		192	Brain	Brain, NOS	192	diagnosis	HTA5_1803	phs002371_HTA5_1803_HTA5_1803	phs002371_HTA5_1803
+Renal Cell Adenocarcinoma	64	G2	Not Reported		716	Kidney	Kidney	716	diagnosis	HTA12_34	phs002371_HTA12_34_HTA12_34	phs002371_HTA12_34
+Multiple Myeloma	18		Unknown		0	Bone Marrow	Bone Marrow	0	diagnosis	HTA12_311	phs002371_HTA12_311_HTA12_311	phs002371_HTA12_311
+Not Reported	18	Not Reported	Not Reported	0	0	Not Reported	Not Reported	0	diagnosis	HTA11_8539	phs002371_HTA11_8539_HTA11_8539	phs002371_HTA11_8539
+Carcinoma NOS	51	G2	Yes	18886	556	Breast	Breast	556	diagnosis	HTA5_1620	phs002371_HTA5_1620_HTA5_1620	phs002371_HTA5_1620
+Ductal Carcinoma NOS	82		No		1000	Breast	Breast	1000	diagnosis	HTA12_271	phs002371_HTA12_271_HTA12_271	phs002371_HTA12_271
+Carcinoma NOS	42	G2	Yes	17896	2822	Breast	Breast	2822	diagnosis	HTA5_1375	phs002371_HTA5_1375_HTA5_1375	phs002371_HTA5_1375
+Serous Surface Papillary Carcinoma	55	G3	Yes		392	Ovary	Peritoneum, NOS	384	diagnosis	HTA1_790	phs002371_HTA1_790_HTA1_790	phs002371_HTA1_790
+Multiple Myeloma	18		Yes		2263	Bone Marrow	Bone Marrow	2318	diagnosis	HTA12_308	phs002371_HTA12_308_HTA12_308	phs002371_HTA12_308
+Ductal Carcinoma NOS	43		Not Reported		275	Breast	Breast	275	diagnosis	HTA12_253	phs002371_HTA12_253_HTA12_253	phs002371_HTA12_253
+Carcinoma NOS	50	G3	Yes	21546	4861	Breast	Breast	4861	diagnosis	HTA5_1892	phs002371_HTA5_1892_HTA5_1892	phs002371_HTA5_1892
+Not specified in data									diagnosis	HTA10_34	phs002371_HTA10_34_HTA10_34	phs002371_HTA10_34
+Carcinoma NOS	47	G2	Yes	18752	1311	Breast	Breast	1311	diagnosis	HTA5_1872	phs002371_HTA5_1872_HTA5_1872	phs002371_HTA5_1872
+Neuroblastoma, NOS	18		Unknown			Abdomen	Abdomen, NOS		diagnosis	HTA4_1012	phs002371_HTA4_1012_HTA4_1012	phs002371_HTA4_1012
+Adenocarcinoma, Intestinal Type	51		Yes	19075	857	Rectosigmoid Region	Liver	857	diagnosis	HTA12_272	phs002371_HTA12_272_HTA12_272	phs002371_HTA12_272
+Malignant Melanoma, NOS	18		Yes		415	Anus	Lymph Nodes of Inguinal Region or Leg	415	diagnosis	HTA5_1184	phs002371_HTA5_1184_HTA5_1184	phs002371_HTA5_1184
+Ductal Carcinoma NOS	55	G3	Yes		1942	Upper-Inner Quadrant of the Breast	Upper-Inner Quadrant of the Breast	1862	diagnosis	HTA1_364	phs002371_HTA1_364_HTA1_364	phs002371_HTA1_364
+Adenocarcinoma, NOS	67	Not Reported	Not Reported		24537	Lung	Lower Lobe of the Lung	24537	diagnosis	HTA3_70147	phs002371_HTA3_70147_HTA3_70147	phs002371_HTA3_70147
+Adenocarcinoma, Pancreatobiliary Type	18		Not Reported		245	Body of the Pancreas	Pancreas	245	diagnosis	HTA12_231	phs002371_HTA12_231_HTA12_231	phs002371_HTA12_231
+Adenocarcinoma, Pancreatobiliary Type	71		Yes	27045	976	Pancreas	Pancreas	976	diagnosis	HTA12_268	phs002371_HTA12_268_HTA12_268	phs002371_HTA12_268
+Renal Cell Carcinoma, NOS	59		Unknown			Kidney	Unknown		diagnosis	HTA12_295	phs002371_HTA12_295_HTA12_295	phs002371_HTA12_295
+Adenocarcinoma, NOS	64	Not Reported	No		314	Lung	Upper Lobe of the Lung	314	diagnosis	HTA5_1537	phs002371_HTA5_1537_HTA5_1537	phs002371_HTA5_1537
+Unclassified Tumor, Malignant	18		Not Reported		1966	Blood	Bone Marrow	1966	diagnosis	HTA12_305	phs002371_HTA12_305_HTA12_305	phs002371_HTA12_305
+Malignant Melanoma, NOS	18		Yes		5952	Skin of the Trunk	Skin of Trunk	5952	diagnosis	HTA5_1781	phs002371_HTA5_1781_HTA5_1781	phs002371_HTA5_1781
+Carcinoma NOS	50	G2	Yes	18530	1597	Breast	Breast	1597	diagnosis	HTA5_1746	phs002371_HTA5_1746_HTA5_1746	phs002371_HTA5_1746
+Multiple Myeloma	18		Yes		605	Bone Marrow	Bone Marrow	634	diagnosis	HTA12_317	phs002371_HTA12_317_HTA12_317	phs002371_HTA12_317
+Squamous Cell Carcinoma, NOS	67	Not Reported	Not Reported		24790	Lung	Upper Lobe of the Lung	24790	diagnosis	HTA3_70150	phs002371_HTA3_70150_HTA3_70150	phs002371_HTA3_70150
+Not specified in data									diagnosis	HTA4_2007	phs002371_HTA4_2007_HTA4_2007	phs002371_HTA4_2007
+Adenocarcinoma, Pancreatobiliary Type	77		Yes	128	232	Liver	Liver	232	diagnosis	HTA12_287	phs002371_HTA12_287_HTA12_287	phs002371_HTA12_287
+Familial Adenomatous Polyposis	18		Unknown			Colon, Rectosigmoid Region	Colon, NOS, Rectosigmoid Junction		diagnosis	HTA10_04	phs002371_HTA10_04_HTA10_04	phs002371_HTA10_04
+Carcinoma NOS	50	G2	Yes	21023	4348	Breast	Breast	4348	diagnosis	HTA5_1753	phs002371_HTA5_1753_HTA5_1753	phs002371_HTA5_1753
+Squamous Cell Carcinoma, NOS	90	G2	Unknown		98	Cervix Uteri	Cervix Uteri	102	diagnosis	HTA12_97	phs002371_HTA12_97_HTA12_97	phs002371_HTA12_97
+Adenocarcinoma, Metastatic, NOS	51		Yes	18868	817	Rectum	Liver	817	diagnosis	HTA12_138	phs002371_HTA12_138_HTA12_138	phs002371_HTA12_138
+Adenocarcinoma, NOS	63	Not Reported	Yes	23960	701	Lung	Adrenal Gland, NOS	701	diagnosis	HTA5_1770	phs002371_HTA5_1770_HTA5_1770	phs002371_HTA5_1770
+Malignant Melanoma, NOS	55	Not Reported	Yes	22665	2722	Skin of the Lower Limb and Hip	Skin of Lower Limb and Hip	2722	diagnosis	HTA15_51703	phs002371_HTA15_51703_HTA15_51703	phs002371_HTA15_51703
+Carcinoma NOS	64	G2	Yes	23605	1624	Breast	Breast	1624	diagnosis	HTA5_1794	phs002371_HTA5_1794_HTA5_1794	phs002371_HTA5_1794
+Mucous Adenocarcinoma	61		No		539	Breast	Breast	539	diagnosis	HTA12_131	phs002371_HTA12_131_HTA12_131	phs002371_HTA12_131
+Not Reported	18	Not Reported	Unknown		0	Lung	Not Reported	0	diagnosis	HTA3_50422	phs002371_HTA3_50422_HTA3_50422	phs002371_HTA3_50422
+Adenocarcinoma, NOS	75	Not Reported	Not Reported		27524	Lung	Upper Lobe of the Lung	27524	diagnosis	HTA3_70155	phs002371_HTA3_70155_HTA3_70155	phs002371_HTA3_70155
+Squamous Cell Carcinoma, NOS	71	Not Reported	Not Reported		26117	Lung	Lung	26117	diagnosis	HTA3_70142	phs002371_HTA3_70142_HTA3_70142	phs002371_HTA3_70142
+Carcinoma NOS	39	Unknown	Yes	23084	15234	Breast	Breast	15234	diagnosis	HTA5_1193	phs002371_HTA5_1193_HTA5_1193	phs002371_HTA5_1193
+Carcinoma NOS	47	Unknown	Yes	22724	8199	Breast	Breast	8199	diagnosis	HTA5_1789	phs002371_HTA5_1789_HTA5_1789	phs002371_HTA5_1789
+Infiltrating duct carcinoma, NOS	31	G3	Yes	11663	786	Breast	Upper-Outer Quadrant of the Breast	671	diagnosis	HTA12_244	phs002371_HTA12_244_HTA12_244	phs002371_HTA12_244
+Not specified in data									diagnosis	HTA4_2002	phs002371_HTA4_2002_HTA4_2002	phs002371_HTA4_2002
+Adenocarcinoma, Pancreatobiliary Type	60		Yes	22438	730	Pancreas	Lung	730	diagnosis	HTA12_261	phs002371_HTA12_261_HTA12_261	phs002371_HTA12_261
+Ductal Carcinoma In Situ, NOS	63	G2	Yes	23942	1519	Upper-Outer Quadrant of the Breast	Upper-Outer Quadrant of the Breast	1519	diagnosis	HTA12_247	phs002371_HTA12_247_HTA12_247	phs002371_HTA12_247
+Ductal Carcinoma NOS	46	G2	Yes		2434	Lower-Outer Quadrant of the Breast	Lower-Outer Quadrant of the Breast	2421	diagnosis	HTA1_944	phs002371_HTA1_944_HTA1_944	phs002371_HTA1_944
+Unknown		Unknown	Yes			Unknown	Unknown		diagnosis	HTA9_7	phs002371_HTA9_7_HTA9_7	phs002371_HTA9_7
+Acinar Cell Carcinoma	79	G2	Not Reported		29040	Lung	Upper Lobe of the Lung	29040	diagnosis	HTA3_80023	phs002371_HTA3_80023_HTA3_80023	phs002371_HTA3_80023
+Not specified in data									diagnosis	HTA4_2011	phs002371_HTA4_2011_HTA4_2011	phs002371_HTA4_2011
+Not Reported	18	Not Reported	Unknown		0	Lung	Not Reported	0	diagnosis	HTA3_70137	phs002371_HTA3_70137_HTA3_70137	phs002371_HTA3_70137
+Carcinoma NOS	59	G3	Yes	21613	586	Breast	Breast	586	diagnosis	HTA5_1538	phs002371_HTA5_1538_HTA5_1538	phs002371_HTA5_1538
+Ductal Carcinoma NOS	31	Unknown	Yes		8852	Breast	Breast	8852	diagnosis	HTA1_997	phs002371_HTA1_997_HTA1_997	phs002371_HTA1_997
+Carcinoma, Metastatic, NOS	18		Yes	17785	386	Head of the Pancreas	Liver	386	diagnosis	HTA12_227	phs002371_HTA12_227_HTA12_227	phs002371_HTA12_227
+Carcinoma NOS	44	G3	Yes	18544	4396	Breast	Breast	4396	diagnosis	HTA5_1860	phs002371_HTA5_1860_HTA5_1860	phs002371_HTA5_1860
+Malignant Melanoma, NOS	18		Yes		3423	Skin of the Trunk	Skin of Trunk	3423	diagnosis	HTA5_1360	phs002371_HTA5_1360_HTA5_1360	phs002371_HTA5_1360
+Ductal Carcinoma NOS	62		No		948	Breast	Breast	948	diagnosis	HTA12_144	phs002371_HTA12_144_HTA12_144	phs002371_HTA12_144
+Ductal Carcinoma NOS	52	G2	Yes		3262	Lower-Inner Quadrant of the Breast	Lower-Inner Quadrant of the Breast	3174	diagnosis	HTA1_783	phs002371_HTA1_783_HTA1_783	phs002371_HTA1_783
+Ductal Carcinoma NOS	67		Yes	24537	669	Breast	Breast	669	diagnosis	HTA12_255	phs002371_HTA12_255_HTA12_255	phs002371_HTA12_255
+Neuroblastoma, NOS	18		Not Reported			Mediastinum	Mediastinum, NOS		diagnosis	HTA1_141	phs002371_HTA1_141_HTA1_141	phs002371_HTA1_141
+Lobular And Ductal Carcinoma	50	G2	No		1760	Upper-Inner Quadrant of the Breast	Upper-Inner Quadrant of the Breast	1760	diagnosis	HTA12_233	phs002371_HTA12_233_HTA12_233	phs002371_HTA12_233
+High-grade serous carcinoma	66	G1	No		177	Ovary	Intra-Abdominal Lymph Nodes	191	diagnosis	HTA1_708	phs002371_HTA1_708_HTA1_708	phs002371_HTA1_708
+Neuroblastoma, NOS	18		Not Reported			Mediastinum	Mediastinum, NOS		diagnosis	HTA1_204	phs002371_HTA1_204_HTA1_204	phs002371_HTA1_204
+Renal Cell Carcinoma, NOS	55	G3	No		415	Kidney	Kidney	415	diagnosis	HTA12_256	phs002371_HTA12_256_HTA12_256	phs002371_HTA12_256
+Infiltrating duct carcinoma, NOS	37	G3	No		1025	Upper-Outer Quadrant of the Breast	Upper-Outer Quadrant of the Breast	1025	diagnosis	HTA12_239	phs002371_HTA12_239_HTA12_239	phs002371_HTA12_239
+Infiltrating duct carcinoma, NOS		Unknown	Yes			Breast	Breast		diagnosis	HTA9_13	phs002371_HTA9_13_HTA9_13	phs002371_HTA9_13
+Renal Cell Carcinoma, NOS			Unknown			Kidney	Unknown		diagnosis	HTA12_275	phs002371_HTA12_275_HTA12_275	phs002371_HTA12_275
+Serous Cystadenocarcinoma, NOS	67	G3	Yes		311	Ovary	Peritoneum, NOS	266	diagnosis	HTA1_850	phs002371_HTA1_850_HTA1_850	phs002371_HTA1_850
+Endometrioid Adenocarcinoma, NOS	66		No		41	Uterus	Uterus, NOS	41	diagnosis	HTA12_290	phs002371_HTA12_290_HTA12_290	phs002371_HTA12_290
+Multiple Myeloma	18		Yes		4570	Bone Marrow	Bone Marrow	4570	diagnosis	HTA12_304	phs002371_HTA12_304_HTA12_304	phs002371_HTA12_304
+Not Reported	18	Not Reported	Not Reported	0	0	Not Reported	Not Reported	0	diagnosis	HTA11_99999973899	phs002371_HTA11_99999973899_HTA11_99999973899	phs002371_HTA11_99999973899
+Ductal Carcinoma NOS	77		Yes	29282	1225	Breast	Breast	1225	diagnosis	HTA12_134	phs002371_HTA12_134_HTA12_134	phs002371_HTA12_134
+Carcinoma NOS	60	G2	Yes	26004	4353	Breast	Breast	4353	diagnosis	HTA5_1211	phs002371_HTA5_1211_HTA5_1211	phs002371_HTA5_1211
+Adenocarcinoma, NOS	58	Not Reported	Yes	21805	3029	Lung	Liver	3029	diagnosis	HTA5_1798	phs002371_HTA5_1798_HTA5_1798	phs002371_HTA5_1798
+Not Reported	18	Not Reported	Unknown		0	Lung	Not Reported	0	diagnosis	HTA3_70134	phs002371_HTA3_70134_HTA3_70134	phs002371_HTA3_70134
+Neuroblastoma, NOS	18		Not Reported			Adrenal Gland	Kidney		diagnosis	HTA1_136	phs002371_HTA1_136_HTA1_136	phs002371_HTA1_136
+Carcinoma NOS	56	G3	Yes	20688	2404	Breast	Breast	2404	diagnosis	HTA5_1925	phs002371_HTA5_1925_HTA5_1925	phs002371_HTA5_1925
+Not Reported	18	Not Reported	Unknown		0	Lung	Not Reported	0	diagnosis	HTA3_50202	phs002371_HTA3_50202_HTA3_50202	phs002371_HTA3_50202
+Adenocarcinoma, Pancreatobiliary Type	70		Yes	26112	399	Pancreas	Pancreas	399	diagnosis	HTA12_273	phs002371_HTA12_273_HTA12_273	phs002371_HTA12_273
+Not specified in data									diagnosis	HTA4_2013	phs002371_HTA4_2013_HTA4_2013	phs002371_HTA4_2013
+Not Reported	18	Not Reported	Unknown		0	Lung	Not Reported	0	diagnosis	HTA3_50308	phs002371_HTA3_50308_HTA3_50308	phs002371_HTA3_50308
+Infiltrating duct carcinoma, NOS	49	G3	No		264	Upper-Outer Quadrant of the Breast	Upper-Outer Quadrant of the Breast	264	diagnosis	HTA12_245	phs002371_HTA12_245_HTA12_245	phs002371_HTA12_245
+Not specified in data									diagnosis	HTA4_2004	phs002371_HTA4_2004_HTA4_2004	phs002371_HTA4_2004
+Malignant Melanoma, NOS	18		Yes		1281	Skin of the Upper Limb and Shoulder	Lymph Nodes of Head, Face and Neck	1281	diagnosis	HTA5_1361	phs002371_HTA5_1361_HTA5_1361	phs002371_HTA5_1361
+Not specified in data									diagnosis	HTA10_29	phs002371_HTA10_29_HTA10_29	phs002371_HTA10_29
+Ductal Carcinoma NOS	65		No		5749	Breast	Breast	5749	diagnosis	HTA12_118	phs002371_HTA12_118_HTA12_118	phs002371_HTA12_118
+Neuroblastoma, NOS	18		Unknown			Adrenal Gland	Adrenal Gland, NOS		diagnosis	HTA4_1023	phs002371_HTA4_1023_HTA4_1023	phs002371_HTA4_1023
+Not specified in data									diagnosis	HTA4_2010	phs002371_HTA4_2010_HTA4_2010	phs002371_HTA4_2010
+Not Reported	18	Not Reported	Unknown		0	Lung	Not Reported	0	diagnosis	HTA3_50401	phs002371_HTA3_50401_HTA3_50401	phs002371_HTA3_50401
+Adenocarcinoma, Metastatic, NOS	64		Yes	25688	2725	Colon	Liver	2725	diagnosis	HTA12_143	phs002371_HTA12_143_HTA12_143	phs002371_HTA12_143
+Squamous Cell Carcinoma, NOS	80	Not Reported	Not Reported		28845	Lung	Lung	28845	diagnosis	HTA3_70152	phs002371_HTA3_70152_HTA3_70152	phs002371_HTA3_70152
+Multiple Myeloma	18		Yes		3200	Bone Marrow	Bone Marrow	3200	diagnosis	HTA12_300	phs002371_HTA12_300_HTA12_300	phs002371_HTA12_300
+Not Reported	18	Not Reported	Unknown		0	Lung	Not Reported	0	diagnosis	HTA3_50418	phs002371_HTA3_50418_HTA3_50418	phs002371_HTA3_50418
+Familial Adenomatous Polyposis	18		Unknown			Colon	Colon		diagnosis	HTA10_05	phs002371_HTA10_05_HTA10_05	phs002371_HTA10_05
+Carcinoma NOS	90	G3	Yes	34467	1328	Breast	Breast	1328	diagnosis	HTA5_1694	phs002371_HTA5_1694_HTA5_1694	phs002371_HTA5_1694
+Neuroblastoma, NOS	18		Unknown			Unknown	Unknown		diagnosis	HTA4_1021	phs002371_HTA4_1021_HTA4_1021	phs002371_HTA4_1021
+Adenocarcinoma, NOS	72	G2	No		259	Lower Lobe of the Lung	Lower Lobe of the Lung	259	diagnosis	HTA1_734	phs002371_HTA1_734_HTA1_734	phs002371_HTA1_734
+Carcinoma NOS	34	G2	Yes	14599	3668	Breast	Breast	3668	diagnosis	HTA5_1793	phs002371_HTA5_1793_HTA5_1793	phs002371_HTA5_1793
+Neuroblastoma, NOS	18		Not Reported			Paraspinal Region	Paraspinal Region		diagnosis	HTA1_120	phs002371_HTA1_120_HTA1_120	phs002371_HTA1_120
+Infiltrating duct carcinoma, NOS	63	G3	Yes	25726	4371	Breast	Breast	4371	diagnosis	HTA9_1	phs002371_HTA9_1_HTA9_1	phs002371_HTA9_1
+Not Reported	18	Not Reported	Unknown		0	Lung	Not Reported	0	diagnosis	HTA3_70151	phs002371_HTA3_70151_HTA3_70151	phs002371_HTA3_70151
+Renal Cell Carcinoma, NOS	70		Unknown			Kidney	Unknown		diagnosis	HTA12_294	phs002371_HTA12_294_HTA12_294	phs002371_HTA12_294
+Malignant Melanoma, NOS	18		Yes		1043	Vulva	Vulva, NOS	1043	diagnosis	HTA5_1855	phs002371_HTA5_1855_HTA5_1855	phs002371_HTA5_1855
+Ductal Carcinoma In Situ, NOS	46		No		459	Breast	Breast	459	diagnosis	HTA12_285	phs002371_HTA12_285_HTA12_285	phs002371_HTA12_285
+Squamous Cell Carcinoma, NOS	44	G3	Yes	16110	105	Cervix Uteri	Vagina, NOS	105	diagnosis	HTA12_100	phs002371_HTA12_100_HTA12_100	phs002371_HTA12_100
+Not Reported	18	Not Reported	Unknown		0	Lung	Not Reported	0	diagnosis	HTA3_50408	phs002371_HTA3_50408_HTA3_50408	phs002371_HTA3_50408
+Not Reported	18	Not Reported	Unknown		0	Lung	Not Reported	0	diagnosis	HTA3_50403	phs002371_HTA3_50403_HTA3_50403	phs002371_HTA3_50403
+Not Reported	18	Not Reported	Unknown		0	Lung	Not Reported	0	diagnosis	HTA3_50412	phs002371_HTA3_50412_HTA3_50412	phs002371_HTA3_50412
+Carcinoma NOS	45	G3	Yes	17855	1670	Breast	Breast	1670	diagnosis	HTA5_1853	phs002371_HTA5_1853_HTA5_1853	phs002371_HTA5_1853
+Squamous Cell Carcinoma, NOS	18	Not Reported	Not Reported		26381	Lung	Upper Lobe of the Lung	26381	diagnosis	HTA3_70132	phs002371_HTA3_70132_HTA3_70132	phs002371_HTA3_70132
+Not Reported	18	Not Reported	Unknown		0	Lung	Not Reported	0	diagnosis	HTA3_70161	phs002371_HTA3_70161_HTA3_70161	phs002371_HTA3_70161
+Renal Cell Carcinoma, NOS	75		Unknown			Kidney	Unknown		diagnosis	HTA12_298	phs002371_HTA12_298_HTA12_298	phs002371_HTA12_298
+Infiltrating duct carcinoma, NOS		G3	Yes			Breast	Breast		diagnosis	HTA9_9	phs002371_HTA9_9_HTA9_9	phs002371_HTA9_9
+Malignant Melanoma, NOS	18		Yes		8616	Skin of the Upper Limb and Shoulder	Skin of Upper Limb and Shoulder	8616	diagnosis	HTA5_1130	phs002371_HTA5_1130_HTA5_1130	phs002371_HTA5_1130
+Adenocarcinoma, Metastatic, NOS	58		Yes	22285	807	Colon	Liver	807	diagnosis	HTA12_133	phs002371_HTA12_133_HTA12_133	phs002371_HTA12_133
+Not Reported	18	Not Reported	Unknown		0	Lung	Not Reported	0	diagnosis	HTA3_50301	phs002371_HTA3_50301_HTA3_50301	phs002371_HTA3_50301
+Adenocarcinoma, NOS	67	G2	No		339	Upper Lobe of the Lung	Upper Lobe of the Lung	281	diagnosis	HTA1_661	phs002371_HTA1_661_HTA1_661	phs002371_HTA1_661
+Lobular Carcinoma, NOS	68		No		208	Breast	Breast	208	diagnosis	HTA12_139	phs002371_HTA12_139_HTA12_139	phs002371_HTA12_139
+Not Reported	18	Not Reported	Unknown		0	Lung	Not Reported	0	diagnosis	HTA3_50206	phs002371_HTA3_50206_HTA3_50206	phs002371_HTA3_50206
+Adenocarcinoma, NOS	72	G2	Not Reported		26554	Lung	Upper Lobe of the Lung	26554	diagnosis	HTA3_80009	phs002371_HTA3_80009_HTA3_80009	phs002371_HTA3_80009
+Malignant Melanoma, NOS	18		Yes		3777	Skin of the Trunk	Skin of Trunk	3777	diagnosis	HTA5_1405	phs002371_HTA5_1405_HTA5_1405	phs002371_HTA5_1405
+Not specified in data									diagnosis	HTA4_2014	phs002371_HTA4_2014_HTA4_2014	phs002371_HTA4_2014
+Carcinoma NOS	54	G2	Yes	19790	2114	Breast	Breast	2114	diagnosis	HTA5_1782	phs002371_HTA5_1782_HTA5_1782	phs002371_HTA5_1782
+Squamous Cell Carcinoma, NOS	66	Not Reported	Yes	24235	276	Lung	Lung	276	diagnosis	HTA5_1934	phs002371_HTA5_1934_HTA5_1934	phs002371_HTA5_1934
+Malignant Melanoma, NOS	18		Yes		485	Skin of the Upper Limb and Shoulder	Lung	485	diagnosis	HTA5_1898	phs002371_HTA5_1898_HTA5_1898	phs002371_HTA5_1898
+Lobular Carcinoma, NOS	63	G2	Yes		1714	Breast	Breast	1057	diagnosis	HTA1_880	phs002371_HTA1_880_HTA1_880	phs002371_HTA1_880
+Neuroblastoma, NOS	18		Unknown			Adrenal Gland	Adrenal Gland, NOS		diagnosis	HTA4_1016	phs002371_HTA4_1016_HTA4_1016	phs002371_HTA4_1016
+Ductal Carcinoma NOS	50		No		1170	Breast	Breast	1170	diagnosis	HTA12_142	phs002371_HTA12_142_HTA12_142	phs002371_HTA12_142
+Adenocarcinoma, Intestinal Type	44		Yes	16723	2557	Rectosigmoid Region	Liver	2557	diagnosis	HTA12_258	phs002371_HTA12_258_HTA12_258	phs002371_HTA12_258
+Multiple Myeloma	18		Unknown		0	Bone Marrow	Bone Marrow	0	diagnosis	HTA12_312	phs002371_HTA12_312_HTA12_312	phs002371_HTA12_312
+Serous Cystadenocarcinoma, NOS	62	G4	Yes		458	Ovary	Ovary	409	diagnosis	HTA1_624	phs002371_HTA1_624_HTA1_624	phs002371_HTA1_624
+Unclassified Tumor, Malignant	18		Not Reported		0	Blood	Bone Marrow	0	diagnosis	HTA12_318	phs002371_HTA12_318_HTA12_318	phs002371_HTA12_318
+Lobular Carcinoma, NOS	61		No		1351	Breast	Breast	1351	diagnosis	HTA12_120	phs002371_HTA12_120_HTA12_120	phs002371_HTA12_120
+Familial Adenomatous Polyposis	52		Not Reported	0	0	Ascending Colon	Ascending Colon	0	diagnosis	HTA15_100004	phs002371_HTA15_100004_HTA15_100004	phs002371_HTA15_100004
+Carcinoma NOS	38	G2	Yes	16401	5657	Breast	Breast	5657	diagnosis	HTA5_1593	phs002371_HTA5_1593_HTA5_1593	phs002371_HTA5_1593
+Infiltrating duct carcinoma, NOS	68	G3	No		951	Upper-Outer Quadrant of the Breast	Breast	951	diagnosis	HTA12_236	phs002371_HTA12_236_HTA12_236	phs002371_HTA12_236
+Neuroblastoma, NOS	18		Unknown			Lymph Node	Lymph Node, NOS		diagnosis	HTA4_1001	phs002371_HTA4_1001_HTA4_1001	phs002371_HTA4_1001
+Carcinoma NOS	37	G2	Yes	14981	5482	Breast	Breast	5482	diagnosis	HTA5_1676	phs002371_HTA5_1676_HTA5_1676	phs002371_HTA5_1676
+Lobular Carcinoma, NOS	66		No		1104	Breast	Breast	1104	diagnosis	HTA12_123	phs002371_HTA12_123_HTA12_123	phs002371_HTA12_123
+Infiltrating duct carcinoma, NOS	45	G3	No		952	Upper-Inner Quadrant of the Breast	Upper-Inner Quadrant of the Breast	952	diagnosis	HTA12_240	phs002371_HTA12_240_HTA12_240	phs002371_HTA12_240
+Ductal Carcinoma NOS	41		No		216	Breast	Axillary Tail of the Breast	216	diagnosis	HTA12_262	phs002371_HTA12_262_HTA12_262	phs002371_HTA12_262
+Mucous Adenocarcinoma	59		No		939	Colon	Liver	939	diagnosis	HTA12_146	phs002371_HTA12_146_HTA12_146	phs002371_HTA12_146
+Malignant Melanoma, NOS	18		Yes		1900	Skin of the Trunk	Skin of Upper Limb and Shoulder	1900	diagnosis	HTA5_1135	phs002371_HTA5_1135_HTA5_1135	phs002371_HTA5_1135
+Neuroblastoma, NOS	18		Unknown			Liver	Liver		diagnosis	HTA4_1019	phs002371_HTA4_1019_HTA4_1019	phs002371_HTA4_1019
+Infiltrating duct carcinoma, NOS	60	G3	Yes	25152	3076	Breast	Breast	3076	diagnosis	HTA12_235	phs002371_HTA12_235_HTA12_235	phs002371_HTA12_235
+Infiltrating duct carcinoma, NOS		G3	Yes			Breast	Breast		diagnosis	HTA9_11	phs002371_HTA9_11_HTA9_11	phs002371_HTA9_11
+Not specified in data									diagnosis	HTA15_12254	phs002371_HTA15_12254_HTA15_12254	phs002371_HTA15_12254
+Infiltrating duct carcinoma, NOS		G3	Yes			Breast	Breast		diagnosis	HTA9_10	phs002371_HTA9_10_HTA9_10	phs002371_HTA9_10
+Not Reported	18	Not Reported	Unknown		0	Lung	Not Reported	0	diagnosis	HTA3_50307	phs002371_HTA3_50307_HTA3_50307	phs002371_HTA3_50307
+Not Reported	18	Not Reported	Unknown		0	Lung	Not Reported	0	diagnosis	HTA3_50416	phs002371_HTA3_50416_HTA3_50416	phs002371_HTA3_50416
+Ductal Carcinoma NOS	44	Unknown	Yes		7958	Breast	Overlapping Lesion of the Breast	7938	diagnosis	HTA1_895	phs002371_HTA1_895_HTA1_895	phs002371_HTA1_895
+Not Reported	18	Not Reported	Not Reported	0	0	Not Reported	Not Reported	0	diagnosis	HTA11_2951	phs002371_HTA11_2951_HTA11_2951	phs002371_HTA11_2951
+Not Reported	18	Not Reported	Not Reported	0	0	Not Reported	Not Reported	0	diagnosis	HTA11_99999974143	phs002371_HTA11_99999974143_HTA11_99999974143	phs002371_HTA11_99999974143
+Ductal Carcinoma NOS	56		Yes	21316	767	Breast	Breast	767	diagnosis	HTA12_149	phs002371_HTA12_149_HTA12_149	phs002371_HTA12_149
+Squamous Cell Carcinoma, NOS	18	Not Reported	Not Reported		21673	Lung	Lower Lobe of the Lung	21673	diagnosis	HTA3_70128	phs002371_HTA3_70128_HTA3_70128	phs002371_HTA3_70128
+Adenocarcinoma, Intestinal Type	61		Yes	1155	2411	Rectum	Upper Lobe of the Lung	2411	diagnosis	HTA12_278	phs002371_HTA12_278_HTA12_278	phs002371_HTA12_278
+Not Reported	18	Not Reported	Unknown		0	Lung	Not Reported	0	diagnosis	HTA3_50421	phs002371_HTA3_50421_HTA3_50421	phs002371_HTA3_50421
+Carcinoma NOS	48	G2	Yes	20061	2568	Breast	Breast	2568	diagnosis	HTA5_1343	phs002371_HTA5_1343_HTA5_1343	phs002371_HTA5_1343
+Not specified in data									diagnosis	HTA12_51	phs002371_HTA12_51_HTA12_51	phs002371_HTA12_51
+Adenocarcinoma, Pancreatobiliary Type	77		Yes	462	254	Liver	Liver	254	diagnosis	HTA12_281	phs002371_HTA12_281_HTA12_281	phs002371_HTA12_281
+Multiple Myeloma	18		Yes		1778	Bone Marrow	Bone Marrow	1792	diagnosis	HTA12_315	phs002371_HTA12_315_HTA12_315	phs002371_HTA12_315
+Not Reported	18	Not Reported	Unknown		0	Lung	Not Reported	0	diagnosis	HTA3_50044	phs002371_HTA3_50044_HTA3_50044	phs002371_HTA3_50044
+Malignant Melanoma, NOS	18		Yes		1695	Skin of the Scalp and Neck	Skin of Scalp and Neck	1695	diagnosis	HTA5_1685	phs002371_HTA5_1685_HTA5_1685	phs002371_HTA5_1685
+Lobular And Ductal Carcinoma	41	Unknown	Yes		2275	Breast	Breast	2256	diagnosis	HTA1_982	phs002371_HTA1_982_HTA1_982	phs002371_HTA1_982
+Carcinoma NOS	53	G2	Yes	25209	7912	Breast	Breast	7912	diagnosis	HTA5_1247	phs002371_HTA5_1247_HTA5_1247	phs002371_HTA5_1247
+Carcinoma NOS	58	G2	Yes	21217	2941	Breast	Breast	2941	diagnosis	HTA5_1534	phs002371_HTA5_1534_HTA5_1534	phs002371_HTA5_1534
+Malignant Melanoma, NOS	18		Yes		243	Skin of the Upper Limb and Shoulder	Liver	243	diagnosis	HTA5_1939	phs002371_HTA5_1939_HTA5_1939	phs002371_HTA5_1939
+Familial Adenomatous Polyposis	18		Unknown			Colon	Colon		diagnosis	HTA10_02	phs002371_HTA10_02_HTA10_02	phs002371_HTA10_02
+Carcinoma NOS	52	G2	Yes	14599	7789	Breast	Breast	7789	diagnosis	HTA5_1787	phs002371_HTA5_1787_HTA5_1787	phs002371_HTA5_1787
+Lobular Carcinoma, NOS	58	G2	No		556	Upper-Outer Quadrant of the Breast	Upper-Outer Quadrant of the Breast	308	diagnosis	HTA12_243	phs002371_HTA12_243_HTA12_243	phs002371_HTA12_243
+Squamous Cell Carcinoma, NOS	71	Not Reported	Not Reported		25988	Lung	Upper Lobe of the Lung	25988	diagnosis	HTA3_70149	phs002371_HTA3_70149_HTA3_70149	phs002371_HTA3_70149
+Malignant Melanoma, NOS	18		No		4534	Skin of the Upper Limb and Shoulder	Skin of Upper Limb and Shoulder	4534	diagnosis	HTA5_1248	phs002371_HTA5_1248_HTA5_1248	phs002371_HTA5_1248
+Serous Cystadenocarcinoma, NOS	73	G3	Yes		642	Ovary	Peritoneum, NOS	640	diagnosis	HTA1_949	phs002371_HTA1_949_HTA1_949	phs002371_HTA1_949
+Malignant Melanoma, NOS	18		Yes		2511	Skin of the Upper Limb and Shoulder	Skin of Upper Limb and Shoulder	2511	diagnosis	HTA5_1977	phs002371_HTA5_1977_HTA5_1977	phs002371_HTA5_1977
+Malignant Melanoma, NOS	18		Yes		2331	Vulva	Adrenal Gland, NOS	2331	diagnosis	HTA5_1597	phs002371_HTA5_1597_HTA5_1597	phs002371_HTA5_1597
+Not Reported	18	Not Reported	Unknown		0	Lung	Not Reported	0	diagnosis	HTA3_70160	phs002371_HTA3_70160_HTA3_70160	phs002371_HTA3_70160
+Adenocarcinoma, Intestinal Type	58		Yes	22000	2231	Rectum	Liver	2231	diagnosis	HTA12_257	phs002371_HTA12_257_HTA12_257	phs002371_HTA12_257
+Malignant Melanoma, NOS	18		Yes		3448	Skin of the Trunk	Skin of Trunk	3448	diagnosis	HTA5_1243	phs002371_HTA5_1243_HTA5_1243	phs002371_HTA5_1243
+Carcinoma NOS	31	G2	Yes	12542	4164	Breast	Breast	4164	diagnosis	HTA5_1487	phs002371_HTA5_1487_HTA5_1487	phs002371_HTA5_1487
+Not Reported	18	Not Reported	Unknown		0	Lung	Not Reported	0	diagnosis	HTA3_50313	phs002371_HTA3_50313_HTA3_50313	phs002371_HTA3_50313
+Carcinoma NOS	27	G3	Yes	11994	4367	Breast	Breast	4367	diagnosis	HTA5_1190	phs002371_HTA5_1190_HTA5_1190	phs002371_HTA5_1190
+Adenocarcinoma, Intestinal Type	54		Yes	20081	776	Sigmoid Colon	Liver	776	diagnosis	HTA12_263	phs002371_HTA12_263_HTA12_263	phs002371_HTA12_263
+Ductal Carcinoma NOS	48		No		605	Breast	Breast	605	diagnosis	HTA12_145	phs002371_HTA12_145_HTA12_145	phs002371_HTA12_145
+Carcinoma NOS	51	G2	Yes	19111	909	Breast	Breast	909	diagnosis	HTA5_1307	phs002371_HTA5_1307_HTA5_1307	phs002371_HTA5_1307
+Infiltrating duct carcinoma, NOS	40	G3	Unknown		821	Upper-Outer Quadrant of the Breast	Upper-Outer Quadrant of the Breast	821	diagnosis	HTA12_249	phs002371_HTA12_249_HTA12_249	phs002371_HTA12_249
+Malignant Melanoma, NOS	18		Yes		775	Skin of the Upper Limb and Shoulder	Skin of Upper Limb and Shoulder	775	diagnosis	HTA5_1240	phs002371_HTA5_1240_HTA5_1240	phs002371_HTA5_1240
+Infiltrating duct carcinoma, NOS	72	G3	Yes	26571	451	Upper-Outer Quadrant of the Breast	Upper-Outer Quadrant of the Breast	451	diagnosis	HTA12_252	phs002371_HTA12_252_HTA12_252	phs002371_HTA12_252
+Not specified in data									diagnosis	HTA15_100005	phs002371_HTA15_100005_HTA15_100005	phs002371_HTA15_100005
+Multiple Myeloma	18		No		2977	Bone Marrow	Bone Marrow	2977	diagnosis	HTA12_301	phs002371_HTA12_301_HTA12_301	phs002371_HTA12_301
+Carcinoma NOS	49	G2	Yes	25120	7322	Breast	Breast	7322	diagnosis	HTA5_1305	phs002371_HTA5_1305_HTA5_1305	phs002371_HTA5_1305
