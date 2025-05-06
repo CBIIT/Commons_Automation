@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC35_ICDC_STS01_RespToTreatmt-NotApplicable</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c6c5b476-ca83-4312-b5c3-540c087d66ea</testCaseGuid>
+</TestCaseEntity>

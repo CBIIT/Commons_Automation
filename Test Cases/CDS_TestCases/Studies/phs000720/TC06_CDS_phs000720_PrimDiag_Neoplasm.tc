@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC06_CDS_phs000720_PrimDiag_Neoplasm</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0db0dbc2-f475-4fe8-bafd-3489cca066c4</testCaseGuid>
+</TestCaseEntity>

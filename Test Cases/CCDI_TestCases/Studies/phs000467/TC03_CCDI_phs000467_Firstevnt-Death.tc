@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC03_CCDI_phs000467_Firstevnt-Death</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>11255a43-2405-4182-bcf9-7ac599643a7b</testCaseGuid>
-</TestCaseEntity>

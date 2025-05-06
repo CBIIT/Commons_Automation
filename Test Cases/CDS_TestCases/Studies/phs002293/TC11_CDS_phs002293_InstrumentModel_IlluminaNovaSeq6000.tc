@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC11_CDS_phs002293_InstrumentModel_IlluminaNovaSeq6000</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5f997cc5-0aca-40fa-aeb5-56f4e35acaac</testCaseGuid>
+</TestCaseEntity>

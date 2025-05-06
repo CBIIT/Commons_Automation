@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_CDS_phs002293_SampleType_DNA</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b92d2ed6-9e51-481a-b6b1-6a0c1bf2b8a3</testCaseGuid>
+</TestCaseEntity>

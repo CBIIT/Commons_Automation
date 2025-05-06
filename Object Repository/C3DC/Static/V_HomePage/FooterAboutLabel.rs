@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//h6[(text() = 'About')]</value>
+         <value>//*[@class='footItemTitle' and (text() = 'About')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//h6[(text() = 'About')]</value>
-      <webElementGuid>72fd6281-c29c-4a00-8f82-42082e38236b</webElementGuid>
+      <value>//*[@class='footItemTitle' and (text() = 'About')]</value>
+      <webElementGuid>8a874e20-ec7e-427b-8ea3-e7057f795726</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

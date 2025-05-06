@@ -1,0 +1,30 @@
+type	case.case_id	diagnosis_id	disease_term	primary_disease_site	stage_of_disease	date_of_diagnosis	histology_cytopathology	date_of_histology_confirmation	histological_grade	best_response	pathology_report	treatment_data	follow_up_data	concurrent_disease	concurrent_disease_type
+diagnosis	STS01-T148	STS01-T148	Soft Tissue Sarcoma	Hock	II	2004-10-19	Peripheral Nerve Sheath Tumor	NA	I	Not Applicable	No	Yes	No	Yes	Hypothyroidism
+diagnosis	STS01-T167	STS01-T167	Soft Tissue Sarcoma	Cranial sternum	III	2004-11-17	Fibrosarcoma	NA	III	Not Applicable	No	Yes	No	No	NA
+diagnosis	STS01-T218	STS01-T218	Soft Tissue Sarcoma	Hip	II	2005-03-15	Peripheral Nerve Sheath Tumor	NA	II	Not Applicable	No	Yes	No	No	NA
+diagnosis	STS01-T230	STS01-T230	Soft Tissue Sarcoma	Knee region	III	2005-04-05	Peripheral Nerve Sheath Tumor	NA	I	Not Applicable	No	Yes	No	No	NA
+diagnosis	STS01-T232	STS01-T232	Soft Tissue Sarcoma	Femur	II	2005-04-13	Peripheral Nerve Sheath Tumor	NA	III	Not Applicable	No	Yes	Yes	No	NA
+diagnosis	STS01-T282	STS01-T282	Soft Tissue Sarcoma	Lip	III	2005-07-12	Fibrosarcoma	NA	II	Not Applicable	No	Yes	No	Yes	Cutaneous melanoma
+diagnosis	STS01-T311	STS01-T311	Soft Tissue Sarcoma	Inguinal region	II	2005-08-04	Peripheral Nerve Sheath Tumor	NA	I	Not Applicable	No	Yes	No	No	NA
+diagnosis	STS01-T320	STS01-T320	Soft Tissue Sarcoma	Flank	III	2005-08-18	Peripheral Nerve Sheath Tumor	NA	II	Not Applicable	No	Yes	Yes	Yes	"Hypoadrenocorticism, hypothyroidism, mitral valve regurgitation"
+diagnosis	STS01-T336	STS01-T336	Soft Tissue Sarcoma	Rib region	II	2005-09-02	Peripheral Nerve Sheath Tumor	NA	II	Not Applicable	No	Yes	No	No	NA
+diagnosis	STS01-T344	STS01-T344	Soft Tissue Sarcoma	Humerus	III	2005-09-15	Peripheral Nerve Sheath Tumor	NA	I	Not Applicable	No	Yes	Yes	No	NA
+diagnosis	STS01-T416	STS01-T416	Soft Tissue Sarcoma	Elbow joint	II	2005-12-13	Fibrosarcoma	NA	III	Not Applicable	No	Yes	Yes	No	NA
+diagnosis	STS01-T479	STS01-T479	Soft Tissue Sarcoma	Hip	III	2006-02-22	Peripheral Nerve Sheath Tumor	NA	II	Not Applicable	No	Yes	Yes	No	NA
+diagnosis	STS01-T485	STS01-T485	Soft Tissue Sarcoma	Maxilla	III	2006-03-01	Fibrosarcoma	NA	I	Not Applicable	No	Yes	No	No	NA
+diagnosis	STS01-T697	STS01-T697	Soft Tissue Sarcoma	Thorax	II	2007-01-22	Peripheral Nerve Sheath Tumor	NA	III	Not Applicable	No	Yes	No	No	NA
+diagnosis	STS01-T738	STS01-T738	Soft Tissue Sarcoma	Tarsus	III	2007-03-15	Peripheral Nerve Sheath Tumor	NA	III	Not Applicable	No	Yes	No	No	NA
+diagnosis	STS01-T1124	STS01-T1124	Soft Tissue Sarcoma	"Side, lateral"	III	2009-02-12	Fibrosarcoma	NA	III	Not Applicable	No	Yes	No	No	NA
+diagnosis	STS01-T1238	STS01-T1238	Soft Tissue Sarcoma	Hock	III	2010-04-01	Fibrosarcoma	NA	III	Not Applicable	No	Yes	No	No	NA
+diagnosis	STS01-T1292	STS01-T1292	Soft Tissue Sarcoma	Maxilla	II	2010-09-10	Fibrosarcoma	NA	III	Not Applicable	No	Yes	No	No	NA
+diagnosis	STS01-T1407	STS01-T1407	Soft Tissue Sarcoma	Maxilla	III	2011-07-19	Fibrosarcoma	NA	III	Not Applicable	No	Yes	Yes	No	NA
+diagnosis	STS01-T1462	STS01-T1462	Soft Tissue Sarcoma	Thigh	II	2011-12-20	Fibrosarcoma	NA	III	Not Applicable	No	Yes	Yes	No	NA
+diagnosis	STS01-T1490	STS01-T1490	Soft Tissue Sarcoma	Hip	III	2012-02-22	Fibrosarcoma	NA	III	Not Applicable	No	Yes	No	No	NA
+diagnosis	STS01-T1585	STS01-T1585	Soft Tissue Sarcoma	Abdomen	II	2012-10-30	Fibrosarcoma	NA	III	Not Applicable	No	Yes	No	No	NA
+diagnosis	STS01-T1834	STS01-T1834	Soft Tissue Sarcoma	Mandible	II	2014-08-21	Fibrosarcoma	NA	III	Not Applicable	No	Yes	No	Yes	Thymoma
+diagnosis	STS01-T1860	STS01-T1860	Soft Tissue Sarcoma	Neck	II	2014-09-23	Peripheral Nerve Sheath Tumor	NA	II	Not Applicable	No	Yes	No	No	NA
+diagnosis	STS01-T1891	STS01-T1891	Soft Tissue Sarcoma	Femur	II	2014-11-12	Fibrosarcoma	NA	II	Not Applicable	No	Yes	No	No	NA
+diagnosis	STS01-T1921	STS01-T1921	Soft Tissue Sarcoma	Flank	III	2015-01-08	Peripheral Nerve Sheath Tumor	NA	I	Not Applicable	No	Yes	Yes	No	NA
+diagnosis	STS01-T1923	STS01-T1923	Soft Tissue Sarcoma	Rib region	III	2015-01-13	Undifferentiated Pleiomorphic Sarcoma	NA	II	Not Applicable	No	Yes	No	No	NA
+diagnosis	STS01-T1989	STS01-T1989	Soft Tissue Sarcoma	Neck	III	2015-07-21	Fibrosarcoma	NA	II	Not Applicable	No	Yes	No	No	NA
+diagnosis	STS01-T2063	STS01-T2063	Soft Tissue Sarcoma	Thigh	III	2016-03-01	Peripheral Nerve Sheath Tumor	NA	II	Not Applicable	No	Yes	No	No	NA

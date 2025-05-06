@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC07_CDS_phs002371_LibrarySource_BulkWholeCell</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>1e1d2a4a-98cc-426a-98f2-8fe5d1c0e43e</testCaseGuid>
-</TestCaseEntity>

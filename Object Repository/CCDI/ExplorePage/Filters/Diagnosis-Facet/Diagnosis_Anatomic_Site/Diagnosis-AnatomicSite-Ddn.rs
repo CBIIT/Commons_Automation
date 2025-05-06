@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@id=&quot;Diagnosis Anatomic Site&quot;])[1]</value>
+         <value>(//*[@id=&quot;Diagnosis Anatomic site&quot;])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@id=&quot;Diagnosis Anatomic Site&quot;])[1]</value>
-      <webElementGuid>509a0040-910a-4580-87e1-86c43d1de4b3</webElementGuid>
+      <value>(//*[@id=&quot;Diagnosis Anatomic site&quot;])[1]</value>
+      <webElementGuid>a0936279-2cf8-4f5c-92cd-c8007af0c104</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

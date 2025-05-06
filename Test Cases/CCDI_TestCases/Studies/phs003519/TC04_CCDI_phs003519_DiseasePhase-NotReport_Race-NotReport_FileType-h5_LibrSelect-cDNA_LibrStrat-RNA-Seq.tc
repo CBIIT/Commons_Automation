@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_CCDI_phs003519_DiseasePhase-NotReport_Race-NotReport_FileType-h5_LibrSelect-cDNA_LibrStrat-RNA-Seq</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3869844a-be26-4df0-82d3-fca041cbc8ac</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC09_ICDC_NCATSCOP01_NeuterStatus-No</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cb09fcbd-a87a-436b-af49-c3c67d15228e</testCaseGuid>
+</TestCaseEntity>

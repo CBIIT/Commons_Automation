@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC015_CDS_phs001287_FileType_GCT</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>eec41355-2b3d-4393-bf96-f64b423b53e3</testCaseGuid>
+</TestCaseEntity>

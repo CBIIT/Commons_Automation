@@ -1,0 +1,1103 @@
+type	study_diagnosis_id	tumor_stage_clinical_n	tumor_stage_clinical_m	progression_or_recurrence	days_to_last_followup	site_of_resection_or_biopsy	vital_status	tumor_grade	disease_type	tissue_or_organ_of_origin	primary_site	diagnosis_id	age_at_diagnosis	tumor_stage_clinical_t	days_to_recurrence	participant.study_participant_id	last_known_disease_status	primary_diagnosis	morphology	days_to_last_known_disease_status
+diagnosis	01BR001_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_01BR001		Infiltrating duct carcinoma, NOS		
+diagnosis	01BR008_BRCA							GX		Breast	Breast	BRCA		Unknown		phs001287_01BR008		Not Reported		
+diagnosis	01BR009_BRCA							GX		Breast	Breast	BRCA		Unknown		phs001287_01BR009		Not Reported		
+diagnosis	01BR010_BRCA							GX		Breast	Breast	BRCA		Unknown		phs001287_01BR010		Not Reported		
+diagnosis	01BR015_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_01BR015		Infiltrating duct carcinoma, NOS		
+diagnosis	01BR017_BRCA							GX		Breast	Breast	BRCA		T3		phs001287_01BR017		Infiltrating duct carcinoma, NOS		
+diagnosis	01BR018_BRCA							GX		Breast	Breast	BRCA		T3		phs001287_01BR018		Infiltrating duct carcinoma, NOS		
+diagnosis	01BR020_BRCA							GX		Breast	Breast	BRCA		Unknown		phs001287_01BR020		Not Reported		
+diagnosis	01BR023_BRCA							GX		Breast	Breast	BRCA		Unknown		phs001287_01BR023		Not Reported		
+diagnosis	01BR025_BRCA							GX		Breast	Breast	BRCA		T3		phs001287_01BR025		Infiltrating duct carcinoma, NOS		
+diagnosis	01BR026_BRCA							GX		Breast	Breast	BRCA		Unknown		phs001287_01BR026		Not Reported		
+diagnosis	01BR027_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_01BR027		Infiltrating duct carcinoma, NOS		
+diagnosis	01BR030_BRCA							GX		Breast	Breast	BRCA		T3		phs001287_01BR030		Infiltrating duct carcinoma, NOS		
+diagnosis	01BR031_BRCA							GX		Breast	Breast	BRCA		T3		phs001287_01BR031		Infiltrating duct carcinoma, NOS		
+diagnosis	01BR032_BRCA							GX		Breast	Breast	BRCA		T3		phs001287_01BR032		Infiltrating duct carcinoma, NOS		
+diagnosis	01BR033_BRCA							GX		Breast	Breast	BRCA		T3		phs001287_01BR033		Infiltrating lobular carcinoma, NOS		
+diagnosis	01BR040_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_01BR040		Infiltrating duct carcinoma, NOS		
+diagnosis	01BR042_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_01BR042		Infiltrating duct carcinoma, NOS		
+diagnosis	01BR043_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_01BR043		Unknown		
+diagnosis	01BR044_BRCA							GX			Not Reported	BRCA		T3		phs001287_01BR044		Unknown		
+diagnosis	01CO001_COAD							GX		Colon	Colon	COAD		T3		phs001287_01CO001		Colon Adenocarcinoma		
+diagnosis	01CO005_COAD							GX		Colon	Colon	COAD		T2		phs001287_01CO005		Colon Adenocarcinoma		
+diagnosis	01CO006_COAD							GX		Colon	Colon	COAD		T3		phs001287_01CO006		Colon Adenocarcinoma		
+diagnosis	01CO008_COAD							GX		Colon	Colon	COAD		T2		phs001287_01CO008		Colon Adenocarcinoma		
+diagnosis	01CO013_COAD							GX		Colon	Colon	COAD		T1		phs001287_01CO013		Colon Adenocarcinoma		
+diagnosis	01CO014_COAD							GX		Colon	Colon	COAD		T3		phs001287_01CO014		Colon Adenocarcinoma		
+diagnosis	01CO015_COAD							GX		Colon	Colon	COAD		T1		phs001287_01CO015		Colon Adenocarcinoma		
+diagnosis	01CO019_COAD							GX		Colon	Colon	COAD		T3		phs001287_01CO019		Colon Adenocarcinoma		
+diagnosis	01CO022_COAD							GX		Colon	Colon	COAD		T1		phs001287_01CO022		Colon Adenocarcinoma		
+diagnosis	01OV007_HGSC							G3		Ovary	Ovary	HGSC		T4		phs001287_01OV007		High-grade serous carcinoma		
+diagnosis	01OV008_HGSC							G3		Ovary	Ovary	HGSC		T3		phs001287_01OV008		Not Reported		
+diagnosis	01OV010_HGSC							G3		Ovary	Ovary	HGSC		T3		phs001287_01OV010		Not Reported		
+diagnosis	01OV013_HGSC							G3		Ovary	Ovary	HGSC		T3		phs001287_01OV013		Not Reported		
+diagnosis	01OV017_HGSC							G3		Ovary	Ovary	HGSC		T3		phs001287_01OV017		High-grade serous carcinoma		
+diagnosis	01OV018_HGSC							G3		Ovary	Ovary	HGSC		T3		phs001287_01OV018		High-grade serous carcinoma		
+diagnosis	01OV019_HGSC							G3		Ovary	Ovary	HGSC		T3		phs001287_01OV019		Not Reported		
+diagnosis	01OV023_HGSC							G3		Ovary	Ovary	HGSC		T3		phs001287_01OV023		High-grade serous carcinoma		
+diagnosis	01OV026_HGSC							G3		Ovary	Ovary	HGSC		T3		phs001287_01OV026		High-grade serous carcinoma		
+diagnosis	01OV029_HGSC							G3		Ovary	Ovary	HGSC		T3		phs001287_01OV029		Not Reported		
+diagnosis	01OV030_HGSC							G3		Ovary	Ovary	HGSC		T3		phs001287_01OV030		High-grade serous carcinoma		
+diagnosis	01OV039_HGSC							G3		Ovary	Ovary	HGSC		T3		phs001287_01OV039		High-grade serous carcinoma		
+diagnosis	01OV041_HGSC							G3		Ovary	Ovary	HGSC		T3		phs001287_01OV041		High-grade serous carcinoma		
+diagnosis	01OV047_HGSC							G3		Ovary	Ovary	HGSC		T3		phs001287_01OV047		High-grade serous carcinoma		
+diagnosis	02OV005_HGSC							G3		Ovary	Ovary	HGSC		T3		phs001287_02OV005		High-grade serous carcinoma		
+diagnosis	02OV006_HGSC							G3		Ovary	Ovary	HGSC		T3		phs001287_02OV006		High-grade serous carcinoma		
+diagnosis	02OV008_HGSC							G3		Ovary	Ovary	HGSC		T3		phs001287_02OV008		High-grade serous carcinoma		
+diagnosis	02OV015_HGSC							G3		Ovary	Ovary	HGSC		T3		phs001287_02OV015		High-grade serous carcinoma		
+diagnosis	02OV022_HGSC							G3		Ovary	Ovary	HGSC		T3		phs001287_02OV022		High-grade serous carcinoma		
+diagnosis	02OV023_HGSC							G3		Ovary	Ovary	HGSC		T3		phs001287_02OV023		High-grade serous carcinoma		
+diagnosis	02OV029_HGSC							G3		Ovary	Ovary	HGSC		T3		phs001287_02OV029		High-grade serous carcinoma		
+diagnosis	02OV032_HGSC							G3		Ovary	Ovary	HGSC		T3		phs001287_02OV032		High-grade serous carcinoma		
+diagnosis	02OV036_HGSC							G3			Not Reported	HGSC		T3		phs001287_02OV036		High-grade serous carcinoma		
+diagnosis	02OV041_HGSC							G3			Not Reported	HGSC		T4		phs001287_02OV041		High-grade serous carcinoma		
+diagnosis	02OV044_HGSC							G3			Not Reported	HGSC		T3		phs001287_02OV044		High-grade serous carcinoma		
+diagnosis	02OV046_HGSC							G3			Not Reported	HGSC		T3		phs001287_02OV046		High-grade serous carcinoma		
+diagnosis	03BR002_BRCA							GX		Breast	Breast	BRCA		T3		phs001287_03BR002		Infiltrating duct carcinoma, NOS		
+diagnosis	03BR004_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_03BR004		Infiltrating duct carcinoma, NOS		
+diagnosis	03BR005_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_03BR005		Infiltrating lobular carcinoma, NOS		
+diagnosis	03BR006_BRCA							GX		Breast	Breast	BRCA		Unknown		phs001287_03BR006		Not Reported		
+diagnosis	03BR010_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_03BR010		Infiltrating lobular carcinoma, NOS		
+diagnosis	03BR011_BRCA							GX		Breast	Breast	BRCA		Unknown		phs001287_03BR011		Not Reported		
+diagnosis	03BR013_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_03BR013		Infiltrating duct carcinoma, NOS		
+diagnosis	04OV001_HGSC							G3		Ovary	Ovary	HGSC		T3		phs001287_04OV001		High-grade serous carcinoma		
+diagnosis	04OV004_HGSC							G3		Ovary	Ovary	HGSC		T4		phs001287_04OV004		High-grade serous carcinoma		
+diagnosis	04OV005_HGSC							G3		Ovary	Ovary	HGSC		T4		phs001287_04OV005		High-grade serous carcinoma		
+diagnosis	04OV008_HGSC							G3		Ovary	Ovary	HGSC		T3		phs001287_04OV008		High-grade serous carcinoma		
+diagnosis	04OV011_HGSC							G3		Ovary	Ovary	HGSC		T3		phs001287_04OV011		High-grade serous carcinoma		
+diagnosis	04OV012_HGSC							G3		Ovary	Ovary	HGSC		T3		phs001287_04OV012		High-grade serous carcinoma		
+diagnosis	04OV013_HGSC							G3		Ovary	Ovary	HGSC		T3		phs001287_04OV013		High-grade serous carcinoma		
+diagnosis	04OV017_HGSC							G3		Ovary	Ovary	HGSC		T3		phs001287_04OV017		High-grade serous carcinoma		
+diagnosis	04OV018_HGSC							G3		Ovary	Ovary	HGSC		T3		phs001287_04OV018		High-grade serous carcinoma		
+diagnosis	04OV021_HGSC							G3		Ovary	Ovary	HGSC		T3		phs001287_04OV021		High-grade serous carcinoma		
+diagnosis	04OV023_HGSC							G3		Ovary	Ovary	HGSC		T4		phs001287_04OV023		High-grade serous carcinoma		
+diagnosis	04OV024_HGSC							G3		Ovary	Ovary	HGSC		T3		phs001287_04OV024		High-grade serous carcinoma		
+diagnosis	04OV027_HGSC							G3		Ovary	Ovary	HGSC		T4		phs001287_04OV027		High-grade serous carcinoma		
+diagnosis	04OV028_HGSC							G3		Ovary	Ovary	HGSC		T4		phs001287_04OV028		High-grade serous carcinoma		
+diagnosis	04OV031_HGSC							G3		Ovary	Ovary	HGSC		T3		phs001287_04OV031		High-grade serous carcinoma		
+diagnosis	04OV033_HGSC							G3		Ovary	Ovary	HGSC		T4		phs001287_04OV033		High-grade serous carcinoma		
+diagnosis	04OV036_HGSC							G3			Not Reported	HGSC		T4		phs001287_04OV036		High-grade serous carcinoma		
+diagnosis	04OV037_HGSC							G3			Not Reported	HGSC		T4		phs001287_04OV037		High-grade serous carcinoma		
+diagnosis	04OV039_HGSC							G3			Not Reported	HGSC		T3		phs001287_04OV039		High-grade serous carcinoma		
+diagnosis	04OV040_HGSC							G3			Not Reported	HGSC		T3		phs001287_04OV040		High-grade serous carcinoma		
+diagnosis	04OV044_HGSC							G3			Not Reported	HGSC		T3		phs001287_04OV044		High-grade serous carcinoma		
+diagnosis	04OV045_HGSC							G3			Not Reported	HGSC		T3		phs001287_04OV045		High-grade serous carcinoma		
+diagnosis	04OV048_HGSC							G3			Not Reported	HGSC		T3		phs001287_04OV048		High-grade serous carcinoma		
+diagnosis	04OV049_HGSC							G3			Not Reported	HGSC		T3		phs001287_04OV049		High-grade serous carcinoma		
+diagnosis	04OV050_HGSC							G3			Not Reported	HGSC		T3		phs001287_04OV050		High-grade serous carcinoma		
+diagnosis	04OV051_HGSC							G3			Not Reported	HGSC		T4		phs001287_04OV051		High-grade serous carcinoma		
+diagnosis	04OV053_HGSC							G3			Not Reported	HGSC		T4		phs001287_04OV053		High-grade serous carcinoma		
+diagnosis	04OV054_HGSC							G3			Not Reported	HGSC		T4		phs001287_04OV054		High-grade serous carcinoma		
+diagnosis	04OV055_HGSC							G3			Not Reported	HGSC		T3		phs001287_04OV055		High-grade serous carcinoma		
+diagnosis	04OV057_HGSC							G3			Not Reported	HGSC		T3		phs001287_04OV057		High-grade serous carcinoma		
+diagnosis	04OV058_HGSC							G3			Not Reported	HGSC		T3		phs001287_04OV058		High-grade serous carcinoma		
+diagnosis	04OV063_HGSC							G3			Not Reported	HGSC		T4		phs001287_04OV063		High-grade serous carcinoma		
+diagnosis	05BR001_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_05BR001		Infiltrating duct carcinoma, NOS		
+diagnosis	05BR003_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_05BR003		Infiltrating duct carcinoma, NOS		
+diagnosis	05BR004_BRCA							GX		Breast	Breast	BRCA		Unknown		phs001287_05BR004		Not Reported		
+diagnosis	05BR005_BRCA							GX		Breast	Breast	BRCA		T1		phs001287_05BR005		Infiltrating duct carcinoma, NOS		
+diagnosis	05BR009_BRCA							GX		Breast	Breast	BRCA		T3		phs001287_05BR009		Infiltrating lobular carcinoma, NOS		
+diagnosis	05BR016_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_05BR016		Infiltrating duct carcinoma, NOS		
+diagnosis	05BR026_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_05BR026		Infiltrating lobular carcinoma, NOS		
+diagnosis	05BR029_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_05BR029		Infiltrating duct carcinoma, NOS		
+diagnosis	05BR038_BRCA							GX		Breast	Breast	BRCA		T1		phs001287_05BR038		Infiltrating duct carcinoma, NOS		
+diagnosis	05BR042_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_05BR042		Infiltrating duct carcinoma, NOS		
+diagnosis	05BR043_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_05BR043		Infiltrating duct carcinoma, NOS		
+diagnosis	05BR044_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_05BR044		Infiltrating duct carcinoma, NOS		
+diagnosis	05BR045_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_05BR045		Infiltrating duct carcinoma, NOS		
+diagnosis	05CO002_COAD							GX		Colon	Colon	COAD		T3		phs001287_05CO002		Colon Adenocarcinoma		
+diagnosis	05CO003_COAD							GX		Colon	Colon	COAD		T2		phs001287_05CO003		Colon Adenocarcinoma		
+diagnosis	05CO006_COAD							GX		Colon	Colon	COAD		T3		phs001287_05CO006		Colon Adenocarcinoma		
+diagnosis	05CO007_COAD							GX		Colon	Colon	COAD		T3		phs001287_05CO007		Not Reported		
+diagnosis	05CO011_COAD							GX		Colon	Colon	COAD		T2		phs001287_05CO011		Colon Adenocarcinoma		
+diagnosis	05CO015_COAD							GX		Colon	Colon	COAD		T2		phs001287_05CO015		Colon Adenocarcinoma		
+diagnosis	05CO020_COAD							GX		Colon	Colon	COAD		T2		phs001287_05CO020		Colon Adenocarcinoma		
+diagnosis	05CO026_COAD							GX		Colon	Colon	COAD		T3		phs001287_05CO026		Colon Adenocarcinoma		
+diagnosis	05CO028_COAD							GX		Colon	Colon	COAD		T1		phs001287_05CO028		Colon Adenocarcinoma		
+diagnosis	05CO029_COAD							GX		Colon	Colon	COAD		T2		phs001287_05CO029		Colon Adenocarcinoma		
+diagnosis	05CO032_COAD							GX		Colon	Colon	COAD		T3		phs001287_05CO032		Colon Adenocarcinoma		
+diagnosis	05CO033_COAD							GX		Colon	Colon	COAD		T3		phs001287_05CO033		Colon Adenocarcinoma		
+diagnosis	05CO034_COAD							GX		Colon	Colon	COAD		T3		phs001287_05CO034		Colon Adenocarcinoma		
+diagnosis	05CO035_COAD							GX		Colon	Colon	COAD		T2		phs001287_05CO035		Colon Adenocarcinoma		
+diagnosis	05CO037_COAD							GX		Colon	Colon	COAD		T2		phs001287_05CO037		Colon Adenocarcinoma		
+diagnosis	05CO039_COAD							GX		Colon	Colon	COAD		T2		phs001287_05CO039		Colon Adenocarcinoma		
+diagnosis	05CO041_COAD							GX		Colon	Colon	COAD		T2		phs001287_05CO041		Colon Adenocarcinoma		
+diagnosis	05CO044_COAD							GX		Colon	Colon	COAD		T2		phs001287_05CO044		Colon Adenocarcinoma		
+diagnosis	05CO045_COAD							GX		Colon	Colon	COAD		T3		phs001287_05CO045		Colon Adenocarcinoma		
+diagnosis	05CO047_COAD							GX		Colon	Colon	COAD		T1		phs001287_05CO047		Colon Adenocarcinoma		
+diagnosis	05CO048_COAD							GX		Colon	Colon	COAD		T3		phs001287_05CO048		Colon Adenocarcinoma		
+diagnosis	05CO049_COAD							GX		Colon	Colon	COAD		T2		phs001287_05CO049		Colon Adenocarcinoma		
+diagnosis	05CO050_COAD							GX		Colon	Colon	COAD		T3		phs001287_05CO050		Colon Adenocarcinoma		
+diagnosis	05CO053_COAD							GX		Colon	Colon	COAD		T2		phs001287_05CO053		Colon Adenocarcinoma		
+diagnosis	05CO054_COAD							GX		Colon	Colon	COAD		T1		phs001287_05CO054		Colon Adenocarcinoma		
+diagnosis	06BR003_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_06BR003		Infiltrating duct carcinoma, NOS		
+diagnosis	06BR005_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_06BR005		Infiltrating duct carcinoma, NOS		
+diagnosis	06BR006_BRCA							GX		Breast	Breast	BRCA		Unknown		phs001287_06BR006		Infiltrating duct carcinoma, NOS		
+diagnosis	06BR014_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_06BR014		Unknown		
+diagnosis	06CO001_COAD							GX		Colon	Colon	COAD		T3		phs001287_06CO001		Colon Adenocarcinoma		
+diagnosis	06CO002_COAD							GX		Colon	Colon	COAD		T3		phs001287_06CO002		Colon Adenocarcinoma		
+diagnosis	09BR001_BRCA							GX		Breast	Breast	BRCA		Unknown		phs001287_09BR001		Not Reported		
+diagnosis	09BR004_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_09BR004		Infiltrating duct carcinoma, NOS		
+diagnosis	09BR005_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_09BR005		Infiltrating duct carcinoma, NOS		
+diagnosis	09BR007_BRCA							GX		Breast	Breast	BRCA		T3		phs001287_09BR007		Infiltrating duct carcinoma, NOS		
+diagnosis	09CO005_COAD							GX		Colon	Colon	COAD		T3		phs001287_09CO005		Colon Adenocarcinoma		
+diagnosis	09CO006_COAD							GX		Colon	Colon	COAD		T1		phs001287_09CO006		Not Reported		
+diagnosis	09CO008_COAD							GX		Colon	Colon	COAD		T3		phs001287_09CO008		Colon Adenocarcinoma		
+diagnosis	09CO011_COAD							GX		Colon	Colon	COAD		T1		phs001287_09CO011		Colon Adenocarcinoma		
+diagnosis	09CO013_COAD							GX		Colon	Colon	COAD		T3		phs001287_09CO013		Colon Adenocarcinoma		
+diagnosis	09CO014_COAD							GX		Colon	Colon	COAD		T2		phs001287_09CO014		Colon Adenocarcinoma		
+diagnosis	09CO015_COAD							GX		Colon	Colon	COAD		T3		phs001287_09CO015		Colon Adenocarcinoma		
+diagnosis	09CO018_COAD							GX		Colon	Colon	COAD		T3		phs001287_09CO018		Colon Adenocarcinoma		
+diagnosis	09CO019_COAD							GX		Colon	Colon	COAD		T1		phs001287_09CO019		Colon Adenocarcinoma		
+diagnosis	09CO022_COAD							GX		Colon	Colon	COAD		T2		phs001287_09CO022		Colon Adenocarcinoma		
+diagnosis	11BR003_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_11BR003		Infiltrating duct carcinoma, NOS		
+diagnosis	11BR004_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_11BR004		Infiltrating duct carcinoma, NOS		
+diagnosis	11BR006_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_11BR006		Infiltrating duct carcinoma, NOS		
+diagnosis	11BR009_BRCA							GX		Breast	Breast	BRCA		T3		phs001287_11BR009		Infiltrating duct carcinoma, NOS		
+diagnosis	11BR010_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_11BR010		Infiltrating duct carcinoma, NOS		
+diagnosis	11BR011_BRCA							GX		Breast	Breast	BRCA		T3		phs001287_11BR011		Infiltrating duct carcinoma, NOS		
+diagnosis	11BR012_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_11BR012		Infiltrating duct carcinoma, NOS		
+diagnosis	11BR013_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_11BR013		Infiltrating lobular carcinoma, NOS		
+diagnosis	11BR014_BRCA							GX		Breast	Breast	BRCA		T3		phs001287_11BR014		Infiltrating duct carcinoma, NOS		
+diagnosis	11BR015_BRCA							GX		Breast	Breast	BRCA		T3		phs001287_11BR015		Infiltrating duct carcinoma, NOS		
+diagnosis	11BR016_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_11BR016		Infiltrating duct carcinoma, NOS		
+diagnosis	11BR017_BRCA							GX		Breast	Breast	BRCA		T3		phs001287_11BR017		Infiltrating duct carcinoma, NOS		
+diagnosis	11BR018_BRCA							GX		Breast	Breast	BRCA		T3		phs001287_11BR018		Infiltrating lobular carcinoma, NOS		
+diagnosis	11BR019_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_11BR019		Infiltrating duct and lobular carcinoma		
+diagnosis	11BR020_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_11BR020		Infiltrating duct carcinoma, NOS		
+diagnosis	11BR022_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_11BR022		Infiltrating duct carcinoma, NOS		
+diagnosis	11BR023_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_11BR023		Infiltrating duct carcinoma, NOS		
+diagnosis	11BR024_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_11BR024		Infiltrating duct carcinoma, NOS		
+diagnosis	11BR025_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_11BR025		Infiltrating duct carcinoma, NOS		
+diagnosis	11BR027_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_11BR027		Infiltrating duct carcinoma, NOS		
+diagnosis	11BR028_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_11BR028		Infiltrating duct carcinoma, NOS		
+diagnosis	11BR030_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_11BR030		Infiltrating duct carcinoma, NOS		
+diagnosis	11BR031_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_11BR031		Infiltrating duct carcinoma, NOS		
+diagnosis	11BR032_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_11BR032		Infiltrating lobular carcinoma, NOS		
+diagnosis	11BR036_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_11BR036		Infiltrating duct carcinoma, NOS		
+diagnosis	11BR038_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_11BR038		Infiltrating duct carcinoma, NOS		
+diagnosis	11BR040_BRCA							GX		Breast	Breast	BRCA		T3		phs001287_11BR040		Infiltrating duct carcinoma, NOS		
+diagnosis	11BR042_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_11BR042		Infiltrating duct carcinoma, NOS		
+diagnosis	11BR043_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_11BR043		Infiltrating duct carcinoma, NOS		
+diagnosis	11BR044_BRCA							GX		Breast	Breast	BRCA		T3		phs001287_11BR044		Infiltrating duct carcinoma, NOS		
+diagnosis	11BR047_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_11BR047		Infiltrating lobular carcinoma, NOS		
+diagnosis	11BR049_BRCA							GX		Breast	Breast	BRCA		T3		phs001287_11BR049		Infiltrating duct carcinoma, NOS		
+diagnosis	11BR050_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_11BR050		Mucinous Carcinoma		
+diagnosis	11BR051_BRCA							GX		Breast	Breast	BRCA		T3		phs001287_11BR051		Infiltrating duct carcinoma, NOS		
+diagnosis	11BR053_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_11BR053		Infiltrating duct carcinoma, NOS		
+diagnosis	11BR054_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_11BR054		Infiltrating duct carcinoma, NOS		
+diagnosis	11BR055_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_11BR055		Infiltrating duct carcinoma, NOS		
+diagnosis	11BR056_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_11BR056		Infiltrating duct carcinoma, NOS		
+diagnosis	11BR058_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_11BR058		Infiltrating duct carcinoma, NOS		
+diagnosis	11BR059_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_11BR059		Infiltrating duct carcinoma, NOS		
+diagnosis	11BR060_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_11BR060		Infiltrating duct carcinoma, NOS		
+diagnosis	11BR072_BRCA							GX		Breast	Breast	BRCA		T3		phs001287_11BR072		Infiltrating duct carcinoma, NOS		
+diagnosis	11BR073_BRCA							GX		Breast	Breast	BRCA		T3		phs001287_11BR073		Infiltrating duct carcinoma, NOS		
+diagnosis	11BR074_BRCA							GX		Breast	Breast	BRCA		T3		phs001287_11BR074		Infiltrating duct carcinoma, NOS		
+diagnosis	11BR075_BRCA							GX		Breast	Breast	BRCA		T3		phs001287_11BR075		Infiltrating duct carcinoma, NOS		
+diagnosis	11BR080_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_11BR080		Infiltrating duct carcinoma, NOS		
+diagnosis	11CO005_COAD							GX		Colon	Colon	COAD		T3		phs001287_11CO005		Colon Adenocarcinoma		
+diagnosis	11CO007_COAD							GX		Colon	Colon	COAD		T2		phs001287_11CO007		Colon Adenocarcinoma		
+diagnosis	11CO008_COAD							GX		Colon	Colon	COAD		T3		phs001287_11CO008		Colon Adenocarcinoma		
+diagnosis	11CO010_COAD							GX		Colon	Colon	COAD		T2		phs001287_11CO010		Colon Adenocarcinoma		
+diagnosis	11CO018_COAD							GX		Colon	Colon	COAD		T2		phs001287_11CO018		Colon Adenocarcinoma		
+diagnosis	11CO019_COAD							GX		Colon	Colon	COAD		T3		phs001287_11CO019		Colon Adenocarcinoma		
+diagnosis	11CO020_COAD							GX		Colon	Colon	COAD		T3		phs001287_11CO020		Colon Adenocarcinoma		
+diagnosis	11CO021_COAD							GX		Colon	Colon	COAD		T4		phs001287_11CO021		Colon Adenocarcinoma		
+diagnosis	11CO022_COAD							GX		Colon	Colon	COAD		T4		phs001287_11CO022		Colon Adenocarcinoma		
+diagnosis	11CO027_COAD							GX		Colon	Colon	COAD		T2		phs001287_11CO027		Colon Adenocarcinoma		
+diagnosis	11CO030_COAD							GX		Colon	Colon	COAD		T2		phs001287_11CO030		Colon Adenocarcinoma		
+diagnosis	11CO031_COAD							GX		Colon	Colon	COAD		T2		phs001287_11CO031		Colon Adenocarcinoma		
+diagnosis	11CO032_COAD							GX		Colon	Colon	COAD		T3		phs001287_11CO032		Colon Adenocarcinoma		
+diagnosis	11CO033_COAD							GX		Colon	Colon	COAD		T2		phs001287_11CO033		Colon Adenocarcinoma		
+diagnosis	11CO036_COAD							GX		Colon	Colon	COAD		T3		phs001287_11CO036		Colon Adenocarcinoma		
+diagnosis	11CO037_COAD							GX		Colon	Colon	COAD		T3		phs001287_11CO037		Colon Adenocarcinoma		
+diagnosis	11CO039_COAD							GX		Colon	Colon	COAD		T2		phs001287_11CO039		Colon Adenocarcinoma		
+diagnosis	11CO042_COAD							GX		Colon	Colon	COAD		T2		phs001287_11CO042		Colon Adenocarcinoma		
+diagnosis	11CO043_COAD							GX		Colon	Colon	COAD		T2		phs001287_11CO043		Colon Adenocarcinoma		
+diagnosis	11CO044_COAD							GX		Colon	Colon	COAD		T4		phs001287_11CO044		Colon Adenocarcinoma		
+diagnosis	11CO045_COAD							GX		Colon	Colon	COAD		T3		phs001287_11CO045		Colon Adenocarcinoma		
+diagnosis	11CO047_COAD							GX		Colon	Colon	COAD		T2		phs001287_11CO047		Colon Adenocarcinoma		
+diagnosis	11CO048_COAD							GX		Colon	Colon	COAD		T2		phs001287_11CO048		Colon Adenocarcinoma		
+diagnosis	11CO051_COAD							GX		Colon	Colon	COAD		T2		phs001287_11CO051		Colon Adenocarcinoma		
+diagnosis	11CO052_COAD							GX		Colon	Colon	COAD		T3		phs001287_11CO052		Colon Adenocarcinoma		
+diagnosis	11CO053_COAD							GX		Colon	Colon	COAD		T2		phs001287_11CO053		Colon Adenocarcinoma		
+diagnosis	11CO054_COAD							GX		Colon	Colon	COAD		T2		phs001287_11CO054		Colon Adenocarcinoma		
+diagnosis	11CO057_COAD							GX		Colon	Colon	COAD		T3		phs001287_11CO057		Colon Adenocarcinoma		
+diagnosis	11CO058_COAD							GX		Colon	Colon	COAD		T2		phs001287_11CO058		Colon Adenocarcinoma		
+diagnosis	11CO060_COAD							GX		Colon	Colon	COAD		T2		phs001287_11CO060		Not Reported		
+diagnosis	11CO061_COAD							GX		Colon	Colon	COAD		T2		phs001287_11CO061		Colon Adenocarcinoma		
+diagnosis	11CO062_COAD							GX		Colon	Colon	COAD		T4		phs001287_11CO062		Colon Adenocarcinoma		
+diagnosis	11CO070_COAD							GX		Colon	Colon	COAD		T3		phs001287_11CO070		Colon Adenocarcinoma		
+diagnosis	11CO072_COAD							GX		Colon	Colon	COAD		T3		phs001287_11CO072		Colon Adenocarcinoma		
+diagnosis	11CO077_COAD							GX		Colon	Colon	COAD		T2		phs001287_11CO077		Colon Adenocarcinoma		
+diagnosis	11CO079_COAD							GX		Colon	Colon	COAD		T3		phs001287_11CO079		Colon Adenocarcinoma		
+diagnosis	11LU013_LUAD							GX		Lung	Lung	LUAD		T3		phs001287_11LU013		Lung Adenocarcinoma, NOS		
+diagnosis	11LU016_LUAD							GX		Lung	Lung	LUAD		T3		phs001287_11LU016		Lung Adenocarcinoma, NOS		
+diagnosis	11LU022_LUAD				0.0			GX		Lung	Lung	LUAD		T1		phs001287_11LU022		Lung Adenocarcinoma, NOS		
+diagnosis	11LU035_LUAD				0.0			GX		Lung	Lung	LUAD		T1		phs001287_11LU035		Lung Adenocarcinoma, NOS		
+diagnosis	11OV002_HGSC							G2		Ovary	Ovary	HGSC		T3		phs001287_11OV002		High-grade serous carcinoma		
+diagnosis	13BR009_BRCA							GX		Breast	Breast	BRCA		T3		phs001287_13BR009		Infiltrating duct carcinoma, NOS		
+diagnosis	13OV003_HGSC							G1		Ovary	Ovary	HGSC		T3		phs001287_13OV003		High-grade serous carcinoma		
+diagnosis	14BR005_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_14BR005		Infiltrating duct carcinoma, NOS		
+diagnosis	14BR008_BRCA							GX		Breast	Breast	BRCA		T3		phs001287_14BR008		Infiltrating lobular carcinoma, NOS		
+diagnosis	14BR014_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_14BR014		Infiltrating duct carcinoma, NOS		
+diagnosis	14CO002_COAD							GX		Colon	Colon	COAD		T2		phs001287_14CO002		Not Reported		
+diagnosis	14CO003_COAD							GX		Colon	Colon	COAD		T3		phs001287_14CO003		Colon Adenocarcinoma		
+diagnosis	14CO005_COAD							GX		Colon	Colon	COAD		T2		phs001287_14CO005		Colon Adenocarcinoma		
+diagnosis	14OV011_HGSC							GX		Ovary	Ovary	HGSC		T3		phs001287_14OV011		High-grade serous carcinoma		
+diagnosis	15BR003_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_15BR003		Infiltrating duct carcinoma, NOS		
+diagnosis	15CO001_COAD							GX		Colon	Colon	COAD		T3		phs001287_15CO001		Colon Adenocarcinoma		
+diagnosis	15CO002_COAD							GX		Colon	Colon	COAD		T2		phs001287_15CO002		Colon Adenocarcinoma		
+diagnosis	15OV001_HGSC							G3		Ovary	Ovary	HGSC		T3		phs001287_15OV001		High-grade serous carcinoma		
+diagnosis	16BR012_BRCA							GX		Breast	Breast	BRCA		T3		phs001287_16BR012		Infiltrating duct carcinoma, NOS		
+diagnosis	16CO002_COAD							GX		Colon	Colon	COAD		T3		phs001287_16CO002		Colon Adenocarcinoma		
+diagnosis	16CO003_COAD							GX		Colon	Colon	COAD		T2		phs001287_16CO003		Colon Adenocarcinoma		
+diagnosis	16CO006_COAD							GX		Colon	Colon	COAD		T4		phs001287_16CO006		Colon Adenocarcinoma		
+diagnosis	16CO011_COAD							GX		Colon	Colon	COAD		T3		phs001287_16CO011		Colon Adenocarcinoma		
+diagnosis	17OV001_HGSC							G2		Ovary	Ovary	HGSC		T3		phs001287_17OV001		High-grade serous carcinoma		
+diagnosis	17OV002_HGSC							G3		Ovary	Ovary	HGSC		T3		phs001287_17OV002		High-grade serous carcinoma		
+diagnosis	17OV010_HGSC							GX		Ovary	Ovary	HGSC		Unknown		phs001287_17OV010		High-grade serous carcinoma		
+diagnosis	17OV011_HGSC							GX		Ovary	Ovary	HGSC		Unknown		phs001287_17OV011		High-grade serous carcinoma		
+diagnosis	17OV013_HGSC							GX		Ovary	Ovary	HGSC		T3		phs001287_17OV013		High-grade serous carcinoma		
+diagnosis	17OV014_HGSC							GX		Ovary	Ovary	HGSC		T3		phs001287_17OV014		High-grade serous carcinoma		
+diagnosis	17OV015_HGSC							GX		Ovary	Ovary	HGSC		T3		phs001287_17OV015		High-grade serous carcinoma		
+diagnosis	17OV017_HGSC							GX		Ovary	Ovary	HGSC		T3		phs001287_17OV017		High-grade serous carcinoma		
+diagnosis	17OV018_HGSC							G2		Ovary	Ovary	HGSC		T3		phs001287_17OV018		High-grade serous carcinoma		
+diagnosis	17OV025_HGSC							G3		Ovary	Ovary	HGSC		T3		phs001287_17OV025		High-grade serous carcinoma		
+diagnosis	17OV027_HGSC							GX		Ovary	Ovary	HGSC		Unknown		phs001287_17OV027		High-grade serous carcinoma		
+diagnosis	17OV028_HGSC							G3			Not Reported	HGSC		T3		phs001287_17OV028		High-grade serous carcinoma		
+diagnosis	17OV029_HGSC							GX			Not Reported	HGSC		Unknown		phs001287_17OV029		High-grade serous carcinoma		
+diagnosis	17OV030_HGSC							G3			Not Reported	HGSC		T3		phs001287_17OV030		High-grade serous carcinoma		
+diagnosis	17OV033_HGSC							GX			Not Reported	HGSC		Unknown		phs001287_17OV033		High-grade serous carcinoma		
+diagnosis	17OV036_HGSC							GX			Not Reported	HGSC		Unknown		phs001287_17OV036		High-grade serous carcinoma		
+diagnosis	17OV039_HGSC							G3			Not Reported	HGSC		T3		phs001287_17OV039		High-grade serous carcinoma		
+diagnosis	17OV040_HGSC							GX			Not Reported	HGSC		T3		phs001287_17OV040		High-grade serous carcinoma		
+diagnosis	18BR002_BRCA							GX		Breast	Breast	BRCA		T3		phs001287_18BR002		Infiltrating duct carcinoma, NOS		
+diagnosis	18BR003_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_18BR003		Infiltrating duct carcinoma, NOS		
+diagnosis	18BR004_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_18BR004		Infiltrating duct and mucinous carcinoma		
+diagnosis	18BR006_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_18BR006		Infiltrating duct carcinoma, NOS		
+diagnosis	18BR007_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_18BR007		Infiltrating duct carcinoma, NOS		
+diagnosis	18BR009_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_18BR009		Infiltrating duct carcinoma, NOS		
+diagnosis	18BR010_BRCA							GX		Breast	Breast	BRCA		T3		phs001287_18BR010		Infiltrating duct carcinoma, NOS		
+diagnosis	18BR016_BRCA							GX		Breast	Breast	BRCA		T1		phs001287_18BR016		Infiltrating duct carcinoma, NOS		
+diagnosis	18BR017_BRCA							GX		Breast	Breast	BRCA		T1		phs001287_18BR017		Infiltrating duct carcinoma, NOS		
+diagnosis	18BR019_BRCA							GX		Breast	Breast	BRCA		T3		phs001287_18BR019		Infiltrating duct carcinoma, NOS		
+diagnosis	18OV001_HGSC							G2		Ovary	Ovary	HGSC		T1		phs001287_18OV001		High-grade serous carcinoma		
+diagnosis	20BR001_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_20BR001		Infiltrating duct carcinoma, NOS		
+diagnosis	20BR002_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_20BR002		Infiltrating duct carcinoma, NOS		
+diagnosis	20BR005_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_20BR005		Infiltrating duct carcinoma, NOS		
+diagnosis	20BR006_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_20BR006		Infiltrating duct carcinoma, NOS		
+diagnosis	20BR007_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_20BR007		Infiltrating duct carcinoma, NOS		
+diagnosis	20BR008_BRCA							GX		Breast	Breast	BRCA		T3		phs001287_20BR008		Infiltrating duct carcinoma, NOS		
+diagnosis	20CO001_COAD							GX		Colon	Colon	COAD		T3		phs001287_20CO001		Colon Adenocarcinoma		
+diagnosis	20CO003_COAD							GX		Colon	Colon	COAD		T4		phs001287_20CO003		Colon Adenocarcinoma		
+diagnosis	20CO004_COAD							GX		Colon	Colon	COAD		T3		phs001287_20CO004		Colon Adenocarcinoma		
+diagnosis	20CO007_COAD							GX		Colon	Colon	COAD		T2		phs001287_20CO007		Colon Adenocarcinoma		
+diagnosis	20OV005_HGSC							G3		Ovary	Ovary	HGSC		T3		phs001287_20OV005		High-grade serous carcinoma		
+diagnosis	21BR001_BRCA							GX		Breast	Breast	BRCA		Unknown		phs001287_21BR001		Not Reported		
+diagnosis	21BR002_BRCA							GX		Breast	Breast	BRCA		Unknown		phs001287_21BR002		Not Reported		
+diagnosis	21BR010_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_21BR010		Infiltrating duct carcinoma, NOS		
+diagnosis	21CO006_COAD							GX		Colon	Colon	COAD		T1		phs001287_21CO006		Colon Adenocarcinoma		
+diagnosis	21CO007_COAD							GX		Colon	Colon	COAD		T4		phs001287_21CO007		Colon Adenocarcinoma		
+diagnosis	22BR005_BRCA							GX		Breast	Breast	BRCA		T2		phs001287_22BR005		Adenocarcinoma		
+diagnosis	22BR006_BRCA							GX		Breast	Breast	BRCA		T3		phs001287_22BR006		Infiltrating duct carcinoma, NOS		
+diagnosis	22CO004_COAD							GX		Colon	Colon	COAD		T2		phs001287_22CO004		Colon Adenocarcinoma		
+diagnosis	22CO006_COAD							GX		Colon	Colon	COAD		T3		phs001287_22CO006		Colon Adenocarcinoma		
+diagnosis	26OV002_HGSC							G3		Ovary	Ovary	HGSC		T3		phs001287_26OV002		High-grade serous carcinoma		
+diagnosis	26OV008_HGSC							G3			Not Reported	HGSC		T4		phs001287_26OV008		High-grade serous carcinoma		
+diagnosis	26OV009_HGSC							G3			Not Reported	HGSC		T3		phs001287_26OV009		High-grade serous carcinoma		
+diagnosis	26OV011_HGSC							G3			Not Reported	HGSC		T3		phs001287_26OV011		High-grade serous carcinoma		
+diagnosis	26OV013_HGSC							G3			Not Reported	HGSC		T3		phs001287_26OV013		High-grade serous carcinoma		
+diagnosis	27CO004_COAD							GX		Colon	Colon	COAD		T3		phs001287_27CO004		Colon Adenocarcinoma		
+diagnosis	604_BRCA							GX			Not Reported	BRCA		T2		phs001287_604		Triple-Negative Breast Carcinoma		
+diagnosis	C3L-00001_LUAD				1837.0			G3		Lung	Lung	LUAD		T2		phs001287_C3L-00001		Lung Adenocarcinoma, NOS		
+diagnosis	C3L-00004_ccRCC				384.0			G3		Kidney	Kidney	ccRCC		T3		phs001287_C3L-00004		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-00006_UCEC				737.0			G1		Endometrium	Uterus	UCEC		T1		phs001287_C3L-00006		Endometrioid carcinoma, NOS		
+diagnosis	C3L-00008_UCEC				898.0			G1		Endometrium	Uterus	UCEC		T1		phs001287_C3L-00008		Endometrioid carcinoma, NOS		
+diagnosis	C3L-00009_LUAD							G2		Lung	Lung	LUAD		T1		phs001287_C3L-00009		Lung Adenocarcinoma, NOS		
+diagnosis	C3L-00010_ccRCC				896.0			G3		Kidney	Kidney	ccRCC		T1		phs001287_C3L-00010		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-00011_ccRCC							G4		Kidney	Kidney	ccRCC		T4		phs001287_C3L-00011		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-00017_PDAC				426.0			G2		Pancreas	Pancreas	PDAC		T2		phs001287_C3L-00017		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-00026_ccRCC				1769.0			G3		Kidney	Kidney	ccRCC		T1		phs001287_C3L-00026		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-00032_UCEC				1710.0			G2		Endometrium	Uterus	UCEC		T1		phs001287_C3L-00032		Endometrioid carcinoma, NOS		
+diagnosis	C3L-00079_ccRCC							G3		Kidney	Kidney	ccRCC		T3		phs001287_C3L-00079		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-00080_LUAD				1805.0			G2		Lung	Lung	LUAD		T1		phs001287_C3L-00080		Lung Adenocarcinoma, NOS		
+diagnosis	C3L-00081_LSCC							G2		Lung	Lung	LSCC		T2		phs001287_C3L-00081		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-00083_LUAD				1790.0			G2		Lung	Lung	LUAD		T1		phs001287_C3L-00083		Lung Adenocarcinoma, NOS		
+diagnosis	C3L-00084_UCEC				335.0			G3			Not Reported	UCEC		T1		phs001287_C3L-00084		Endometrioid carcinoma, NOS		
+diagnosis	C3L-00088_ccRCC							G2		Kidney	Kidney	ccRCC		T3		phs001287_C3L-00088		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-00090_UCEC							G2		Endometrium	Uterus	UCEC		T1		phs001287_C3L-00090		Endometrioid carcinoma, NOS		
+diagnosis	C3L-00093_LUAD							G2		Lung	Lung	LUAD		T1		phs001287_C3L-00093		Lung Adenocarcinoma, NOS		
+diagnosis	C3L-00094_LUAD							G3		Lung	Lung	LUAD		T1		phs001287_C3L-00094		Lung Adenocarcinoma, NOS		
+diagnosis	C3L-00095_LUAD				1794.0			G2		Lung	Lung	LUAD		T1		phs001287_C3L-00095		Lung Adenocarcinoma, NOS		
+diagnosis	C3L-00096_ccRCC							G4		Kidney	Kidney	ccRCC		T4		phs001287_C3L-00096		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-00097_ccRCC				1735.0			G2		Kidney	Kidney	ccRCC		T1		phs001287_C3L-00097		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-00098_UCEC				1748.0			G3		Endometrium	Uterus	UCEC		T1		phs001287_C3L-00098		Endometrioid carcinoma, NOS		
+diagnosis	C3L-00102_PDAC							G3		Pancreas	Pancreas	PDAC		T2		phs001287_C3L-00102		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-00103_ccRCC							G3		Kidney	Kidney	ccRCC		T3		phs001287_C3L-00103		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-00104_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3L-00104		Glioblastoma Multiforme		
+diagnosis	C3L-00136_UCEC				1794.0			G1		Endometrium	Uterus	UCEC		T1		phs001287_C3L-00136		Endometrioid carcinoma, NOS		
+diagnosis	C3L-00137_UCEC				823.0			G1		Endometrium	Uterus	UCEC		T1		phs001287_C3L-00137		Endometrioid carcinoma, NOS		
+diagnosis	C3L-00139_UCEC							GX		Endometrium	Uterus	UCEC		T3		phs001287_C3L-00139		Endometrioid carcinoma, NOS		
+diagnosis	C3L-00140_LUAD				1802.0			G1		Lung	Lung	LUAD		T1		phs001287_C3L-00140		Lung Adenocarcinoma, NOS		
+diagnosis	C3L-00143_UCEC				1708.0			G1		Endometrium	Uterus	UCEC		T1		phs001287_C3L-00143		Endometrioid carcinoma, NOS		
+diagnosis	C3L-00144_LUAD				578.0			G2		Lung	Lung	LUAD		T1		phs001287_C3L-00144		Lung Adenocarcinoma, NOS		
+diagnosis	C3L-00145_UCEC				1799.0			G1		Endometrium	Uterus	UCEC		T1		phs001287_C3L-00145		Endometrioid carcinoma, NOS		
+diagnosis	C3L-00156_UCEC				1776.0			G1		Endometrium	Uterus	UCEC		T1		phs001287_C3L-00156		Endometrioid carcinoma, NOS		
+diagnosis	C3L-00157_UCEC							G3			Not Reported	UCEC		T3		phs001287_C3L-00157		Endometrioid carcinoma, NOS		
+diagnosis	C3L-00161_UCEC				1775.0			G2		Endometrium	Uterus	UCEC		T1		phs001287_C3L-00161		Endometrioid carcinoma, NOS		
+diagnosis	C3L-00183_ccRCC				227.0			G2		Kidney	Kidney	ccRCC		T3		phs001287_C3L-00183		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-00189_PDAC							G2		Pancreas	Pancreas	PDAC		T2		phs001287_C3L-00189		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-00263_LUAD				1157.0			G2		Lung	Lung	LUAD		T2		phs001287_C3L-00263		Lung Adenocarcinoma, NOS		
+diagnosis	C3L-00277_PDAC							G2		Pancreas	Pancreas	PDAC		T2		phs001287_C3L-00277		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-00279_LUAD				606.0			G2		Lung	Lung	LUAD		T1		phs001287_C3L-00279		Lung Adenocarcinoma, NOS		
+diagnosis	C3L-00356_UCEC							G3			Uterus	UCEC		T1		phs001287_C3L-00356		Endometrioid carcinoma, NOS		
+diagnosis	C3L-00358_UCEC				164.0			G3		Endometrium	Uterus	UCEC		T1		phs001287_C3L-00358		Endometrioid carcinoma, NOS		
+diagnosis	C3L-00359_ccRCC							G1		Kidney	Kidney	ccRCC		T1		phs001287_C3L-00359		Non-Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-00360_ccRCC				1780.0			G3		Kidney	Kidney	ccRCC		T2		phs001287_C3L-00360		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-00361_UCEC				1707.0			G1		Endometrium	Uterus	UCEC		T1		phs001287_C3L-00361		Endometrioid carcinoma, NOS		
+diagnosis	C3L-00362_UCEC				1745.0			G1		Endometrium	Uterus	UCEC		T1		phs001287_C3L-00362		Endometrioid carcinoma, NOS		
+diagnosis	C3L-00365_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3L-00365		Glioblastoma Multiforme		
+diagnosis	C3L-00368_LUAD				141.0			G1		Lung	Lung	LUAD		T1		phs001287_C3L-00368		Lung Adenocarcinoma, NOS		
+diagnosis	C3L-00369_ccRCC							G2		Kidney	Kidney	ccRCC		T3		phs001287_C3L-00369		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-00401_PDAC							G2		Pancreas	Pancreas	PDAC		T2		phs001287_C3L-00401		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-00412_LUAD							G2		Lung	Lung	LUAD		T3		phs001287_C3L-00412		Lung Adenocarcinoma, NOS		
+diagnosis	C3L-00413_UCEC				1767.0			G2		Endometrium	Uterus	UCEC		T2		phs001287_C3L-00413		Endometrioid carcinoma, NOS		
+diagnosis	C3L-00415_LSCC				1786.0			G3		Lung	Lung	LSCC		T2		phs001287_C3L-00415		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-00416_ccRCC				608.0			G4		Kidney	Kidney	ccRCC		T3		phs001287_C3L-00416		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-00418_ccRCC				1714.0			G2		Kidney	Kidney	ccRCC		T3		phs001287_C3L-00418		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-00422_LUAD				1916.0			G3		Lung	Lung	LUAD		T2		phs001287_C3L-00422		Lung Adenocarcinoma, NOS		
+diagnosis	C3L-00445_LSCC							G2		Lung	Lung	LSCC		T2		phs001287_C3L-00445		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-00447_ccRCC				671.0			G3		Kidney	Kidney	ccRCC		T1		phs001287_C3L-00447		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-00448_ccRCC				1758.0			G2		Kidney	Kidney	ccRCC		T1		phs001287_C3L-00448		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-00449_UCEC				1749.0			G2		Endometrium	Uterus	UCEC		T1		phs001287_C3L-00449		Endometrioid carcinoma, NOS		
+diagnosis	C3L-00510_LUAD				40.0			G1		Lung	Lung	LUAD		T1		phs001287_C3L-00510		Lung Adenocarcinoma, NOS		
+diagnosis	C3L-00561_ccRCC				1796.0			G4		Kidney	Kidney	ccRCC		T3		phs001287_C3L-00561		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-00563_UCEC				1785.0			G1		Endometrium	Uterus	UCEC		T1		phs001287_C3L-00563		Endometrioid carcinoma, NOS		
+diagnosis	C3L-00568_LSCC				93.0			G2		Lung	Lung	LSCC		T1		phs001287_C3L-00568		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-00581_ccRCC							G2		Kidney	Kidney	ccRCC		T2		phs001287_C3L-00581		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-00583_ccRCC				301.0			G3		Kidney	Kidney	ccRCC		T1		phs001287_C3L-00583		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-00586_UCEC				1801.0			G1		Endometrium	Uterus	UCEC		T3		phs001287_C3L-00586		Endometrioid carcinoma, NOS		
+diagnosis	C3L-00589_PDAC				1752.0			G2		Pancreas	Pancreas	PDAC		T2		phs001287_C3L-00589		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-00598_PDAC							G2		Pancreas	Pancreas	PDAC		T2		phs001287_C3L-00598		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-00599_PDAC							G1		Pancreas	Pancreas	PDAC		T2		phs001287_C3L-00599		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-00601_UCEC				1722.0			G1		Endometrium	Uterus	UCEC		T1		phs001287_C3L-00601		Endometrioid carcinoma, NOS		
+diagnosis	C3L-00603_LSCC				1794.0			G3		Lung	Lung	LSCC		T1		phs001287_C3L-00603		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-00604_LUAD				1801.0			G2		Lung	Lung	LUAD		T3		phs001287_C3L-00604		Lung Adenocarcinoma, NOS		
+diagnosis	C3L-00605_UCEC				1795.0			G2		Endometrium	Uterus	UCEC		T1		phs001287_C3L-00605		Endometrioid carcinoma, NOS		
+diagnosis	C3L-00606_ccRCC							G3		Kidney	Kidney	ccRCC		T3		phs001287_C3L-00606		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-00607_ccRCC							G3		Kidney	Kidney	ccRCC		T3		phs001287_C3L-00607		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-00610_ccRCC				1472.0			G3		Kidney	Kidney	ccRCC		T1		phs001287_C3L-00610		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-00622_PDAC							G1		Pancreas	Pancreas	PDAC		T2		phs001287_C3L-00622		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-00625_PDAC							G2		Pancreas	Pancreas	PDAC		T2		phs001287_C3L-00625		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-00640_PDAC				594.0			G2		Pancreas	Pancreas	PDAC		T2		phs001287_C3L-00640		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-00674_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3L-00674		Glioblastoma Multiforme		
+diagnosis	C3L-00677_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3L-00677		Glioblastoma Multiforme		
+diagnosis	C3L-00765_ccRCC				1414.0			G2		Kidney	Kidney	ccRCC		T1		phs001287_C3L-00765		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-00766_ccRCC				266.0			G2		Kidney	Kidney	ccRCC		T1		phs001287_C3L-00766		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-00767_UCEC				273.0			G2		Endometrium	Uterus	UCEC		T1		phs001287_C3L-00767		Endometrioid carcinoma, NOS		
+diagnosis	C3L-00769_UCEC				1450.0			G2		Endometrium	Uterus	UCEC		T1		phs001287_C3L-00769		Endometrioid carcinoma, NOS		
+diagnosis	C3L-00770_UCEC				1476.0			G2		Endometrium	Uterus	UCEC		T1		phs001287_C3L-00770		Endometrioid carcinoma, NOS		
+diagnosis	C3L-00771_UCEC							G2		Endometrium	Uterus	UCEC		T3		phs001287_C3L-00771		Endometrioid carcinoma, NOS		
+diagnosis	C3L-00780_UCEC				1033.0			G2		Endometrium	Uterus	UCEC		T1		phs001287_C3L-00780		Endometrioid carcinoma, NOS		
+diagnosis	C3L-00781_UCEC				1519.0			G3		Endometrium	Uterus	UCEC		T2		phs001287_C3L-00781		Endometrioid carcinoma, NOS		
+diagnosis	C3L-00790_ccRCC				441.0			G2		Kidney	Kidney	ccRCC		T1		phs001287_C3L-00790		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-00791_ccRCC				708.0			G3		Kidney	Kidney	ccRCC		T3		phs001287_C3L-00791		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-00792_ccRCC				1419.0			G3		Kidney	Kidney	ccRCC		T2		phs001287_C3L-00792		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-00796_ccRCC				333.0			G2		Kidney	Kidney	ccRCC		T1		phs001287_C3L-00796		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-00799_ccRCC				495.0			G2		Kidney	Kidney	ccRCC		T1		phs001287_C3L-00799		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-00800_ccRCC				344.0			G2		Kidney	Kidney	ccRCC		T1		phs001287_C3L-00800		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-00812_ccRCC				8.0			G2		Kidney	Kidney	ccRCC		T1		phs001287_C3L-00812		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-00813_ccRCC				5.0			G3		Kidney	Kidney	ccRCC		T3		phs001287_C3L-00813		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-00814_ccRCC				15.0			G2		Kidney	Kidney	ccRCC		T1		phs001287_C3L-00814		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-00817_ccRCC				1365.0			G2		Kidney	Kidney	ccRCC		T1		phs001287_C3L-00817		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-00819_PDAC							G3		Pancreas	Pancreas	PDAC		T2		phs001287_C3L-00819		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-00881_PDAC				11.0			G2		Pancreas	Pancreas	PDAC		T2		phs001287_C3L-00881		Pancreas-Adenosquamous Carcinoma		
+diagnosis	C3L-00893_LUAD				23.0			G1		Lung	Lung	LUAD		T1		phs001287_C3L-00893		Lung Adenocarcinoma, NOS		
+diagnosis	C3L-00902_ccRCC				1791.0			G1		Kidney	Kidney	ccRCC		T1		phs001287_C3L-00902		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-00904_LSCC							G3		Lung	Lung	LSCC		T2		phs001287_C3L-00904		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-00905_UCEC				1756.0			G3		Endometrium	Uterus	UCEC		T3		phs001287_C3L-00905		Endometrioid carcinoma, NOS		
+diagnosis	C3L-00907_ccRCC				1795.0			G2		Kidney	Kidney	ccRCC		T1		phs001287_C3L-00907		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-00908_ccRCC				1795.0			G3		Kidney	Kidney	ccRCC		T2		phs001287_C3L-00908		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-00910_ccRCC				1797.0			G3		Kidney	Kidney	ccRCC		T1		phs001287_C3L-00910		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-00913_LUAD							G2		Lung	Lung	LUAD		T3		phs001287_C3L-00913		Lung Adenocarcinoma, NOS		
+diagnosis	C3L-00917_ccRCC				1783.0			G3		Kidney	Kidney	ccRCC		T1		phs001287_C3L-00917		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-00918_UCEC							G1		Endometrium	Uterus	UCEC		T1		phs001287_C3L-00918		Endometrioid carcinoma, NOS		
+diagnosis	C3L-00921_UCEC				1776.0			G2		Endometrium	Uterus	UCEC		T2		phs001287_C3L-00921		Endometrioid carcinoma, NOS		
+diagnosis	C3L-00923_LSCC				1792.0			G3		Lung	Lung	LSCC		T1		phs001287_C3L-00923		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-00927_LSCC				1777.0			G2		Lung	Lung	LSCC		T3		phs001287_C3L-00927		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-00928_PDAC							G1		Pancreas	Pancreas	PDAC		T2		phs001287_C3L-00928		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-00930_UCEC							G3			Not Reported	UCEC		T1		phs001287_C3L-00930		Endometrioid carcinoma, NOS		
+diagnosis	C3L-00932_UCEC				1475.0			G2		Endometrium	Uterus	UCEC		T1		phs001287_C3L-00932		Endometrioid carcinoma, NOS		
+diagnosis	C3L-00938_UCEC				1529.0			G2			Uterus	UCEC		T1		phs001287_C3L-00938		Endometrioid carcinoma, NOS		
+diagnosis	C3L-00942_UCEC				1323.0			G1		Endometrium	Uterus	UCEC		T1		phs001287_C3L-00942		Endometrioid carcinoma, NOS		
+diagnosis	C3L-00946_UCEC				971.0			G1		Endometrium	Uterus	UCEC		T1		phs001287_C3L-00946		Endometrioid carcinoma, NOS		
+diagnosis	C3L-00947_UCEC				1393.0			G2		Endometrium	Uterus	UCEC		T1		phs001287_C3L-00947		Endometrioid carcinoma, NOS		
+diagnosis	C3L-00949_UCEC				1490.0			G1		Endometrium	Uterus	UCEC		T1		phs001287_C3L-00949		Endometrioid carcinoma, NOS		
+diagnosis	C3L-00961_UCEC							G1		Endometrium	Uterus	UCEC		T1		phs001287_C3L-00961		Endometrioid carcinoma, NOS		
+diagnosis	C3L-00963_UCEC				750.0			G3		Endometrium	Uterus	UCEC		T1		phs001287_C3L-00963		Endometrioid carcinoma, NOS		
+diagnosis	C3L-00965_LSCC				1826.0			G2		Lung	Lung	LSCC		T2		phs001287_C3L-00965		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-00973_LUAD				1414.0			G2		Lung	Lung	LUAD		T1		phs001287_C3L-00973		Lung Adenocarcinoma, NOS		
+diagnosis	C3L-00977_HNSCC							G1			Head and Neck	HNSCC		T3		phs001287_C3L-00977		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3L-00987_HNSCC				433.0			G2			Head and Neck	HNSCC		T3		phs001287_C3L-00987		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3L-00993_LSCC							G2		Lung	Lung	LSCC		T3		phs001287_C3L-00993		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-00994_HNSCC							G2			Head and Neck	HNSCC		T2		phs001287_C3L-00994		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3L-00995_HNSCC							G1			Head and Neck	HNSCC		T3		phs001287_C3L-00995		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3L-00997_HNSCC				445.0			G2			Head and Neck	HNSCC		T2		phs001287_C3L-00997		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3L-00999_HNSCC				1098.0			G1			Head and Neck	HNSCC		T2		phs001287_C3L-00999		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3L-01000_LSCC				1380.0			G3		Lung	Lung	LSCC		T1		phs001287_C3L-01000		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-01031_PDAC				376.0			G2		Pancreas	Pancreas	PDAC		T2		phs001287_C3L-01031		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-01036_PDAC							G2		Pancreas	Pancreas	PDAC		T2		phs001287_C3L-01036		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-01037_PDAC							G4		Pancreas	Pancreas	PDAC		T2		phs001287_C3L-01037		Pancreas-Undifferentiated Carcinoma		
+diagnosis	C3L-01040_GBM				607.0			GX		Brain	Brain	GBM		Unknown		phs001287_C3L-01040		Glioblastoma Multiforme		
+diagnosis	C3L-01043_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3L-01043		Glioblastoma Multiforme		
+diagnosis	C3L-01045_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3L-01045		Glioblastoma Multiforme		
+diagnosis	C3L-01046_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3L-01046		Glioblastoma Multiforme		
+diagnosis	C3L-01048_GBM				814.0			GX		Brain	Brain	GBM		Unknown		phs001287_C3L-01048		Glioblastoma Multiforme		
+diagnosis	C3L-01049_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3L-01049		Glioblastoma Multiforme		
+diagnosis	C3L-01051_PDAC				9.0			G2		Pancreas	Pancreas	PDAC		T2		phs001287_C3L-01051		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-01052_PDAC							G2		Pancreas	Pancreas	PDAC		T2		phs001287_C3L-01052		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-01053_PDAC							G2		Pancreas	Pancreas	PDAC		T2		phs001287_C3L-01053		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-01054_PDAC							G2		Pancreas	Pancreas	PDAC		T4		phs001287_C3L-01054		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-01061_GBM				851.0			GX		Brain	Brain	GBM		Unknown		phs001287_C3L-01061		Glioblastoma Multiforme		
+diagnosis	C3L-01124_PDAC				378.0			G2		Pancreas	Pancreas	PDAC		T3		phs001287_C3L-01124		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-01138_HNSCC				361.0			G1			Head and Neck	HNSCC		T4		phs001287_C3L-01138		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3L-01142_GBM				8.0			GX		Brain	Brain	GBM		Unknown		phs001287_C3L-01142		Glioblastoma Multiforme		
+diagnosis	C3L-01146_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3L-01146		Glioblastoma Multiforme		
+diagnosis	C3L-01149_GBM				677.0			GX		Brain	Brain	GBM		Unknown		phs001287_C3L-01149		Glioblastoma Multiforme		
+diagnosis	C3L-01154_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3L-01154		Glioblastoma Multiforme		
+diagnosis	C3L-01155_GBM				373.0			GX		Brain	Brain	GBM		Unknown		phs001287_C3L-01155		Glioblastoma Multiforme		
+diagnosis	C3L-01156_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3L-01156		Glioblastoma Multiforme		
+diagnosis	C3L-01157_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3L-01157		Glioblastoma Multiforme		
+diagnosis	C3L-01237_HNSCC				0.0			G2			Head and Neck	HNSCC		T4		phs001287_C3L-01237		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3L-01246_UCEC				1524.0			G3		Endometrium	Uterus	UCEC		T1		phs001287_C3L-01246		Endometrioid carcinoma, NOS		
+diagnosis	C3L-01247_UCEC				1464.0			G3			Uterus	UCEC		T3		phs001287_C3L-01247		Endometrioid carcinoma, NOS		
+diagnosis	C3L-01248_UCEC				764.0			G1		Endometrium	Uterus	UCEC		T1		phs001287_C3L-01248		Endometrioid carcinoma, NOS		
+diagnosis	C3L-01249_UCEC				1465.0			G2		Endometrium	Uterus	UCEC		T1		phs001287_C3L-01249		Endometrioid carcinoma, NOS		
+diagnosis	C3L-01252_UCEC				1552.0			G1		Endometrium	Uterus	UCEC		T1		phs001287_C3L-01252		Endometrioid carcinoma, NOS		
+diagnosis	C3L-01253_UCEC				1512.0			G2			Not Reported	UCEC		T1		phs001287_C3L-01253		Endometrioid carcinoma, NOS		
+diagnosis	C3L-01256_UCEC				1371.0			G1		Endometrium	Uterus	UCEC		T1		phs001287_C3L-01256		Endometrioid carcinoma, NOS		
+diagnosis	C3L-01257_UCEC				580.0			G1		Endometrium	Uterus	UCEC		T1		phs001287_C3L-01257		Endometrioid carcinoma, NOS		
+diagnosis	C3L-01275_UCEC				1450.0			G2		Endometrium	Uterus	UCEC		T1		phs001287_C3L-01275		Endometrioid carcinoma, NOS		
+diagnosis	C3L-01281_ccRCC				1779.0			G4		Kidney	Kidney	ccRCC		T4		phs001287_C3L-01281		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-01282_UCEC				1784.0			G3		Endometrium	Uterus	UCEC		T1		phs001287_C3L-01282		Endometrioid carcinoma, NOS		
+diagnosis	C3L-01283_ccRCC				735.0			G3		Kidney	Kidney	ccRCC		T1		phs001287_C3L-01283		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-01284_UCEC				357.0			G1			Uterus	UCEC		T1		phs001287_C3L-01284		Endometrioid carcinoma, NOS		
+diagnosis	C3L-01285_LSCC				1703.0			G2		Lung	Lung	LSCC		T2		phs001287_C3L-01285		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-01286_ccRCC							G3		Kidney	Kidney	ccRCC		T3		phs001287_C3L-01286		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-01287_ccRCC							G4		Kidney	Kidney	ccRCC		T4		phs001287_C3L-01287		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-01288_ccRCC				1800.0			G1		Kidney	Kidney	ccRCC		T1		phs001287_C3L-01288		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-01302_ccRCC							G4		Kidney	Kidney	ccRCC		T3		phs001287_C3L-01302		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-01304_UCEC				1862.0			G1		Endometrium	Uterus	UCEC		T1		phs001287_C3L-01304		Endometrioid carcinoma, NOS		
+diagnosis	C3L-01307_UCEC							G3		Endometrium	Uterus	UCEC		T4		phs001287_C3L-01307		Endometrioid carcinoma, NOS		
+diagnosis	C3L-01311_UCEC				1785.0			G1		Endometrium	Uterus	UCEC		T1		phs001287_C3L-01311		Endometrioid carcinoma, NOS		
+diagnosis	C3L-01312_UCEC				1784.0			G1		Endometrium	Uterus	UCEC		T1		phs001287_C3L-01312		Endometrioid carcinoma, NOS		
+diagnosis	C3L-01313_ccRCC							G4		Kidney	Kidney	ccRCC		T3		phs001287_C3L-01313		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-01327_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3L-01327		Glioblastoma Multiforme		
+diagnosis	C3L-01328_PDAC				271.0			G3		Pancreas	Pancreas	PDAC		T2		phs001287_C3L-01328		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-01330_LUAD				1595.0			G2		Lung	Lung	LUAD		T1		phs001287_C3L-01330		Lung Adenocarcinoma, NOS		
+diagnosis	C3L-01352_ccRCC				233.0			G2		Kidney	Kidney	ccRCC		T1		phs001287_C3L-01352		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-01453_PDAC				5.0			G2		Pancreas	Pancreas	PDAC		T2		phs001287_C3L-01453		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-01455_LSCC							G3		Lung	Lung	LSCC		T2		phs001287_C3L-01455		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-01553_ccRCC				384.0			G2		Kidney	Kidney	ccRCC		T1		phs001287_C3L-01553		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-01557_ccRCC				329.0			G3		Kidney	Kidney	ccRCC		T3		phs001287_C3L-01557		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-01560_ccRCC				250.0			G3		Kidney	Kidney	ccRCC		T1		phs001287_C3L-01560		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-01598_PDAC							G2		Pancreas	Pancreas	PDAC		T2		phs001287_C3L-01598		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-01603_ccRCC				1771.0			G2		Kidney	Kidney	ccRCC		T1		phs001287_C3L-01603		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-01606_LSCC				1782.0			G2		Lung	Lung	LSCC		T1		phs001287_C3L-01606		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-01607_ccRCC				1794.0			G3		Kidney	Kidney	ccRCC		T3		phs001287_C3L-01607		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-01632_LUAD							G3		Lung	Lung	LUAD		T2		phs001287_C3L-01632		Lung Adenocarcinoma, NOS		
+diagnosis	C3L-01637_PDAC							G2		Pancreas	Pancreas	PDAC		T2		phs001287_C3L-01637		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-01662_PDAC							G2		Pancreas	Pancreas	PDAC		T2		phs001287_C3L-01662		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-01663_LSCC							G3		Lung	Lung	LSCC		T3		phs001287_C3L-01663		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-01682_LUAD				1555.0			G2		Lung	Lung	LUAD		T1		phs001287_C3L-01682		Lung Adenocarcinoma, NOS		
+diagnosis	C3L-01683_LUAD							G3		Lung	Lung	LUAD		T1		phs001287_C3L-01683		Lung Adenocarcinoma, NOS		
+diagnosis	C3L-01687_PDAC							G2		Pancreas	Pancreas	PDAC		T2		phs001287_C3L-01687		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-01689_PDAC							G2		Pancreas	Pancreas	PDAC		T2		phs001287_C3L-01689		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-01703_PDAC							G3		Pancreas	Pancreas	PDAC		T2		phs001287_C3L-01703		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-01744_UCEC				936.0			G2		Endometrium	Uterus	UCEC		T1		phs001287_C3L-01744		Endometrioid carcinoma, NOS		
+diagnosis	C3L-01834_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3L-01834		Glioblastoma Multiforme		
+diagnosis	C3L-01836_ccRCC				1128.0			G3		Kidney	Kidney	ccRCC		T1		phs001287_C3L-01836		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-01838_LSCC				1707.0			G2		Lung	Lung	LSCC		T1		phs001287_C3L-01838		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-01861_ccRCC				1761.0			G3		Kidney	Kidney	ccRCC		T1		phs001287_C3L-01861		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-01862_LUAD							G2		Lung	Lung	LUAD		T3		phs001287_C3L-01862		Lung Adenocarcinoma, NOS		
+diagnosis	C3L-01882_ccRCC				350.0			G2		Kidney	Kidney	ccRCC		T1		phs001287_C3L-01882		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-01884_LSCC							G2		Lung	Lung	LSCC		T1		phs001287_C3L-01884		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-01885_ccRCC				342.0			G2		Kidney	Kidney	ccRCC		T1		phs001287_C3L-01885		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3L-01887_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3L-01887		Glioblastoma Multiforme		
+diagnosis	C3L-01889_LUAD				1799.0			G2		Lung	Lung	LUAD		T1		phs001287_C3L-01889		Lung Adenocarcinoma, NOS		
+diagnosis	C3L-01890_LUAD				671.0			G1			Not Reported	LUAD		T1		phs001287_C3L-01890		Lung Adenocarcinoma, NOS		
+diagnosis	C3L-01924_LUAD				1133.0			G2		Lung	Lung	LUAD		T1		phs001287_C3L-01924		Lung Adenocarcinoma, NOS		
+diagnosis	C3L-01925_UCEC				1338.0			G3		Endometrium	Uterus	UCEC		T4		phs001287_C3L-01925		Endometrioid carcinoma, NOS		
+diagnosis	C3L-01971_PDAC							G3		Pancreas	Pancreas	PDAC		T2		phs001287_C3L-01971		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-02041_GBM				1030.0			GX		Brain	Brain	GBM		Unknown		phs001287_C3L-02041		Glioblastoma Multiforme		
+diagnosis	C3L-02109_PDAC				275.0			G2		Pancreas	Pancreas	PDAC		T3		phs001287_C3L-02109		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-02112_PDAC				1357.0			G2		Pancreas	Pancreas	PDAC		T2		phs001287_C3L-02112		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-02115_PDAC							G2		Pancreas	Pancreas	PDAC		T2		phs001287_C3L-02115		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-02116_PDAC							G2		Pancreas	Pancreas	PDAC		T1		phs001287_C3L-02116		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-02118_PDAC							G2		Pancreas	Pancreas	PDAC		T1		phs001287_C3L-02118		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-02127_LSCC				1446.0			G2		Lung	Lung	LSCC		T2		phs001287_C3L-02127		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-02130_LSCC							G2		Lung	Lung	LSCC		T1		phs001287_C3L-02130		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-02163_LSCC				724.0			G2		Lung	Lung	LSCC		T2		phs001287_C3L-02163		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-02164_LSCC				360.0			G2		Lung	Lung	LSCC		T2		phs001287_C3L-02164		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-02168_LSCC				1413.0			G1		Lung	Lung	LSCC		T2		phs001287_C3L-02168		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-02170_LSCC				6.0			G2		Lung	Lung	LSCC		T1		phs001287_C3L-02170		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-02219_LUAD							G2		Lung	Lung	LUAD		T3		phs001287_C3L-02219		Lung Adenocarcinoma, NOS		
+diagnosis	C3L-02345_LUAD				1376.0			G2		Lung	Lung	LUAD		T1		phs001287_C3L-02345		Lung Adenocarcinoma, NOS		
+diagnosis	C3L-02348_LUAD				1425.0			G2		Lung	Lung	LUAD		T2		phs001287_C3L-02348		Lung Adenocarcinoma, NOS		
+diagnosis	C3L-02349_LSCC				1442.0			G2		Lung	Lung	LSCC		T1		phs001287_C3L-02349		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-02350_LUAD				1418.0			G2		Lung	Lung	LUAD		T1		phs001287_C3L-02350		Lung Adenocarcinoma, NOS		
+diagnosis	C3L-02358_LSCC				1448.0			G2		Lung	Lung	LSCC		T1		phs001287_C3L-02358		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-02365_LUAD							G3		Lung	Lung	LUAD		T2		phs001287_C3L-02365		Lung Adenocarcinoma, NOS		
+diagnosis	C3L-02463_PDAC				741.0			G2		Pancreas	Pancreas	PDAC		T1		phs001287_C3L-02463		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-02465_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3L-02465		Glioblastoma Multiforme		
+diagnosis	C3L-02504_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3L-02504		Glioblastoma Multiforme		
+diagnosis	C3L-02508_LUAD				1013.0			G2		Lung	Lung	LUAD		T2		phs001287_C3L-02508		Lung Adenocarcinoma, NOS		
+diagnosis	C3L-02542_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3L-02542		Glioblastoma Multiforme		
+diagnosis	C3L-02546_LSCC				1432.0			G2		Lung	Lung	LSCC		T1		phs001287_C3L-02546		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-02549_LUAD							G1		Lung	Lung	LUAD		T2		phs001287_C3L-02549		Lung Adenocarcinoma, NOS		
+diagnosis	C3L-02552_LSCC							G3		Lung	Lung	LSCC		T1		phs001287_C3L-02552		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-02604_PDAC							G1		Pancreas	Pancreas	PDAC		T2		phs001287_C3L-02604		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-02606_PDAC							G2		Pancreas	Pancreas	PDAC		T2		phs001287_C3L-02606		Pancreas-Adenosquamous Carcinoma		
+diagnosis	C3L-02610_PDAC							G2		Pancreas	Pancreas	PDAC		T2		phs001287_C3L-02610		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-02613_PDAC							G3		Pancreas	Pancreas	PDAC		T2		phs001287_C3L-02613		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-02617_HNSCC				981.0			G3			Head and Neck	HNSCC		T2		phs001287_C3L-02617		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3L-02619_LSCC				514.0			G3		Lung	Lung	LSCC		T3		phs001287_C3L-02619		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-02621_HNSCC				327.0			G3			Head and Neck	HNSCC		T1		phs001287_C3L-02621		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3L-02624_LSCC							G3		Lung	Lung	LSCC		T1		phs001287_C3L-02624		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-02625_LSCC							G3		Lung	Lung	LSCC		T2		phs001287_C3L-02625		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-02627_LSCC				1417.0			G3		Lung	Lung	LSCC		T1		phs001287_C3L-02627		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-02629_LSCC				40.0			G2		Lung	Lung	LSCC		T2		phs001287_C3L-02629		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-02642_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3L-02642		Glioblastoma Multiforme		
+diagnosis	C3L-02646_LSCC							G2		Lung	Lung	LSCC		T3		phs001287_C3L-02646		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-02648_LSCC							G3		Lung	Lung	LSCC		T2		phs001287_C3L-02648		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-02649_LSCC							G3		Lung	Lung	LSCC		T3		phs001287_C3L-02649		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-02650_LSCC				1422.0			G2		Lung	Lung	LSCC		T3		phs001287_C3L-02650		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-02651_HNSCC				301.0			G2			Head and Neck	HNSCC		T2		phs001287_C3L-02651		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3L-02660_LSCC							G3		Lung	Lung	LSCC		T3		phs001287_C3L-02660		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-02665_LSCC				3.0			G2		Lung	Lung	LSCC		T2		phs001287_C3L-02665		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-02669_LSCC							G2		Lung	Lung	LSCC		T2		phs001287_C3L-02669		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-02701_PDAC							G2		Pancreas	Pancreas	PDAC		T1		phs001287_C3L-02701		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-02704_GBM				186.0			GX		Brain	Brain	GBM		Unknown		phs001287_C3L-02704		Glioblastoma Multiforme		
+diagnosis	C3L-02705_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3L-02705		Glioblastoma Multiforme		
+diagnosis	C3L-02707_GBM				91.0			GX		Brain	Brain	GBM		Unknown		phs001287_C3L-02707		Glioblastoma Multiforme		
+diagnosis	C3L-02708_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3L-02708		Glioblastoma Multiforme		
+diagnosis	C3L-02809_PDAC							G2		Pancreas	Pancreas	PDAC		T3		phs001287_C3L-02809		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-02890_PDAC							G3		Pancreas	Pancreas	PDAC		T2		phs001287_C3L-02890		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-02891_LSCC				1412.0			G3		Lung	Lung	LSCC		T2		phs001287_C3L-02891		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-02897_PDAC				256.0			G2		Pancreas	Pancreas	PDAC		T1		phs001287_C3L-02897		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-02899_PDAC							G2		Pancreas	Pancreas	PDAC		T4		phs001287_C3L-02899		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-02900_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3L-02900		Glioblastoma Multiforme		
+diagnosis	C3L-02951_LSCC				1420.0			G2		Lung	Lung	LSCC		T2		phs001287_C3L-02951		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-02955_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3L-02955		Glioblastoma Multiforme		
+diagnosis	C3L-02963_LSCC				1435.0			G2		Lung	Lung	LSCC		T1		phs001287_C3L-02963		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-02964_LSCC							G3		Lung	Lung	LSCC		T2		phs001287_C3L-02964		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-02968_LSCC				1375.0			G2		Lung	Lung	LSCC		T2		phs001287_C3L-02968		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-02969_LSCC				1427.0			G2		Lung	Lung	LSCC		T1		phs001287_C3L-02969		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-02970_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3L-02970		Glioblastoma Multiforme		
+diagnosis	C3L-02984_GBM				1488.0			GX		Brain	Brain	GBM		Unknown		phs001287_C3L-02984		Glioblastoma Multiforme		
+diagnosis	C3L-03123_PDAC				1510.0			G2		Pancreas	Pancreas	PDAC		T2		phs001287_C3L-03123		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-03129_PDAC				1428.0			G2		Pancreas	Pancreas	PDAC		T2		phs001287_C3L-03129		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-03260_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3L-03260		Glioblastoma Multiforme		
+diagnosis	C3L-03266_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3L-03266		Glioblastoma Multiforme		
+diagnosis	C3L-03272_LSCC				155.0			G2		Lung	Lung	LSCC		T4		phs001287_C3L-03272		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-03350_PDAC							G2			Not Reported	PDAC		T3		phs001287_C3L-03350		Mucinous Non-Cystic Carcinoma		
+diagnosis	C3L-03356_PDAC				556.0			G2		Pancreas	Pancreas	PDAC		T2		phs001287_C3L-03356		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-03371_PDAC							G2		Pancreas	Pancreas	PDAC		T1		phs001287_C3L-03371		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-03378_HNSCC				1175.0			G2			Head and Neck	HNSCC		T4		phs001287_C3L-03378		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3L-03387_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3L-03387		Glioblastoma Multiforme		
+diagnosis	C3L-03388_PDAC							G2		Pancreas	Pancreas	PDAC		T3		phs001287_C3L-03388		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-03390_GBM				816.0			GX		Brain	Brain	GBM		Unknown		phs001287_C3L-03390		Glioblastoma Multiforme		
+diagnosis	C3L-03392_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3L-03392		Glioblastoma Multiforme		
+diagnosis	C3L-03394_PDAC							G1		Pancreas	Pancreas	PDAC		T1		phs001287_C3L-03394		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-03395_PDAC							G2		Pancreas	Pancreas	PDAC		T3		phs001287_C3L-03395		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-03400_GBM				804.0			GX		Brain	Brain	GBM		Unknown		phs001287_C3L-03400		Glioblastoma Multiforme		
+diagnosis	C3L-03405_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3L-03405		Glioblastoma Multiforme		
+diagnosis	C3L-03407_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3L-03407		Glioblastoma Multiforme		
+diagnosis	C3L-03628_PDAC							G2		Pancreas	Pancreas	PDAC		T2		phs001287_C3L-03628		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-03630_PDAC				83.0			G2		Pancreas	Pancreas	PDAC		T2		phs001287_C3L-03630		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-03632_PDAC				1121.0			G1		Pancreas	Pancreas	PDAC		T1		phs001287_C3L-03632		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-03635_PDAC							G2		Pancreas	Pancreas	PDAC		T1		phs001287_C3L-03635		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-03639_PDAC							G3		Pancreas	Pancreas	PDAC		T1		phs001287_C3L-03639		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-03678_LSCC							G3		Lung	Lung	LSCC		T3		phs001287_C3L-03678		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-03681_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3L-03681		Glioblastoma Multiforme		
+diagnosis	C3L-03727_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3L-03727		Glioblastoma Multiforme		
+diagnosis	C3L-03728_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3L-03728		Glioblastoma Multiforme		
+diagnosis	C3L-03743_PDAC							G3		Pancreas	Pancreas	PDAC		T2		phs001287_C3L-03743		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-03744_GBM				1043.0			GX		Brain	Brain	GBM		Unknown		phs001287_C3L-03744		Glioblastoma Multiforme		
+diagnosis	C3L-03747_GBM							GX			Not Reported	GBM		Unknown		phs001287_C3L-03747		Glioblastoma Multiforme		
+diagnosis	C3L-03748_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3L-03748		Glioblastoma Multiforme		
+diagnosis	C3L-03961_LSCC				14.0			G2		Lung	Lung	LSCC		T1		phs001287_C3L-03961		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-03962_LSCC				13.0			G3		Lung	Lung	LSCC		T1		phs001287_C3L-03962		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-03963_LSCC				1000.0			G3		Lung	Lung	LSCC		T2		phs001287_C3L-03963		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-03965_LSCC				1429.0			G2		Lung	Lung	LSCC		T3		phs001287_C3L-03965		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-03968_GBM				992.0			GX		Brain	Brain	GBM		Unknown		phs001287_C3L-03968		Glioblastoma Multiforme		
+diagnosis	C3L-04013_LSCC				13.0			G3		Lung	Lung	LSCC		T2		phs001287_C3L-04013		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-04014_LSCC				459.0			G3		Lung	Lung	LSCC		T1		phs001287_C3L-04014		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-04025_HNSCC				479.0			G2			Head and Neck	HNSCC		T1		phs001287_C3L-04025		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3L-04027_PDAC				254.0			G2		Pancreas	Pancreas	PDAC		T1		phs001287_C3L-04027		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-04071_LSCC				1117.0			G3		Lung	Lung	LSCC		T1		phs001287_C3L-04071		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-04072_PDAC							G3		Pancreas	Pancreas	PDAC		T3		phs001287_C3L-04072		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-04080_PDAC							G3		Pancreas	Pancreas	PDAC		T2		phs001287_C3L-04080		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-04084_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3L-04084		Glioblastoma Multiforme		
+diagnosis	C3L-04350_HNSCC							Not Reported			Not Reported	HNSCC		Not Reported		phs001287_C3L-04350		Not Reported		
+diagnosis	C3L-04354_HNSCC				1024.0			G3			Head and Neck	HNSCC		T2		phs001287_C3L-04354		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3L-04391_LSCC				1155.0			G2		Lung	Lung	LSCC		T1		phs001287_C3L-04391		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3L-04473_PDAC							G2		Pancreas	Pancreas	PDAC		T3		phs001287_C3L-04473		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-04475_PDAC							G2		Pancreas	Pancreas	PDAC		T3		phs001287_C3L-04475		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-04479_PDAC				1104.0			G3		Pancreas	Pancreas	PDAC		T2		phs001287_C3L-04479		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-04495_PDAC							G2		Pancreas	Pancreas	PDAC		T3		phs001287_C3L-04495		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-04791_HNSCC				281.0			G2			Head and Neck	HNSCC		T1		phs001287_C3L-04791		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3L-04844_HNSCC				1057.0			G2			Head and Neck	HNSCC		T4		phs001287_C3L-04844		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3L-04848_PDAC							G3		Pancreas	Pancreas	PDAC		T2		phs001287_C3L-04848		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-04849_HNSCC				315.0			G2			Head and Neck	HNSCC		T4		phs001287_C3L-04849		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3L-04853_PDAC							G2		Pancreas	Pancreas	PDAC		T2		phs001287_C3L-04853		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3L-05257_HNSCC				1017.0			G1			Not Reported	HNSCC		T3		phs001287_C3L-05257		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-00148_ccRCC				0.0			G2		Kidney	Kidney	ccRCC		T1		phs001287_C3N-00148		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3N-00149_ccRCC				0.0			G3		Kidney	Kidney	ccRCC		T4		phs001287_C3N-00149		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3N-00150_ccRCC				0.0			G3		Kidney	Kidney	ccRCC		T4		phs001287_C3N-00150		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3N-00151_UCEC							G3		Endometrium	Uterus	UCEC		T1		phs001287_C3N-00151		Endometrioid carcinoma, NOS		
+diagnosis	C3N-00154_ccRCC				0.0			G3		Kidney	Kidney	ccRCC		T2		phs001287_C3N-00154		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3N-00167_LUAD				835.0			G2		Lung	Lung	LUAD		T2		phs001287_C3N-00167		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-00168_ccRCC				828.0			G3		Kidney	Kidney	ccRCC		T1		phs001287_C3N-00168		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3N-00169_LUAD				376.0			G2		Lung	Lung	LUAD		T1		phs001287_C3N-00169		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-00175_LUAD							G2		Lung	Lung	LUAD		T1		phs001287_C3N-00175		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-00177_ccRCC				843.0			G2		Kidney	Kidney	ccRCC		T3		phs001287_C3N-00177		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3N-00180_LUAD							G3		Lung	Lung	LUAD		T3		phs001287_C3N-00180		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-00194_ccRCC				209.0			G3		Kidney	Kidney	ccRCC		T4		phs001287_C3N-00194		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3N-00198_PDAC				1592.0			G2		Pancreas	Pancreas	PDAC		T2		phs001287_C3N-00198		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-00199_LUAD				1693.0			G2		Lung	Lung	LUAD		T1		phs001287_C3N-00199		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-00200_UCEC							G3		Endometrium	Uterus	UCEC		T3		phs001287_C3N-00200		Endometrioid carcinoma, NOS		
+diagnosis	C3N-00203_LUAD							G3		Lung	Lung	LUAD		T2		phs001287_C3N-00203		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-00204_HNSCC							G3			Head and Neck	HNSCC		T3		phs001287_C3N-00204		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-00211_LSCC							G3		Lung	Lung	LSCC		T3		phs001287_C3N-00211		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-00217_LUAD				668.0			G2		Lung	Lung	LUAD		T1		phs001287_C3N-00217		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-00221_LSCC				549.0			G2		Lung	Lung	LSCC		T3		phs001287_C3N-00221		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-00223_LUAD				50.0			G2		Lung	Lung	LUAD		T1		phs001287_C3N-00223		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-00242_ccRCC				1793.0			G2		Kidney	Kidney	ccRCC		T1		phs001287_C3N-00242		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3N-00244_ccRCC				675.0			G2		Kidney	Kidney	ccRCC		T1		phs001287_C3N-00244		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3N-00246_ccRCC				1982.0			G2		Kidney	Kidney	ccRCC		T1		phs001287_C3N-00246		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3N-00247_LSCC				1523.0			G3		Lung	Lung	LSCC		T2		phs001287_C3N-00247		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-00249_PDAC							G2		Pancreas	Pancreas	PDAC		T3		phs001287_C3N-00249		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-00293_LUAD				1870.0			GX		Lung	Lung	LUAD		T1		phs001287_C3N-00293		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-00294_LUAD				1848.0			GX		Lung	Lung	LUAD		T2		phs001287_C3N-00294		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-00295_HNSCC				1708.0			G2			Head and Neck	HNSCC		T3		phs001287_C3N-00295		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-00297_HNSCC				1744.0			G2			Head and Neck	HNSCC		T2		phs001287_C3N-00297		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-00299_HNSCC							G2			Head and Neck	HNSCC		T2		phs001287_C3N-00299		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-00302_PDAC							G3		Pancreas	Pancreas	PDAC		T4		phs001287_C3N-00302		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-00303_PDAC							G3		Pancreas	Pancreas	PDAC		T3		phs001287_C3N-00303		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-00305_ccRCC				1920.0			G1		Kidney	Kidney	ccRCC		T1		phs001287_C3N-00305		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3N-00306_HNSCC				658.0			G2			Head and Neck	HNSCC		T3		phs001287_C3N-00306		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-00307_HNSCC							G3			Head and Neck	HNSCC		T4		phs001287_C3N-00307		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-00310_ccRCC							G2		Kidney	Kidney	ccRCC		T3		phs001287_C3N-00310		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3N-00312_ccRCC				1898.0			G3		Kidney	Kidney	ccRCC		T3		phs001287_C3N-00312		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3N-00313_ccRCC				1888.0			G2		Kidney	Kidney	ccRCC		T1		phs001287_C3N-00313		Non-Clear Cell Renal Cell Carcinoma		
+diagnosis	C3N-00314_ccRCC							G2		Kidney	Kidney	ccRCC		T1		phs001287_C3N-00314		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3N-00315_ccRCC				1870.0			G3		Kidney	Kidney	ccRCC		T1		phs001287_C3N-00315		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3N-00317_ccRCC				1143.0			G2		Kidney	Kidney	ccRCC		T1		phs001287_C3N-00317		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3N-00320_ccRCC				1856.0			G2		Kidney	Kidney	ccRCC		T3		phs001287_C3N-00320		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3N-00321_UCEC				42.0			G1		Endometrium	Uterus	UCEC		T1		phs001287_C3N-00321		Endometrioid carcinoma, NOS		
+diagnosis	C3N-00322_UCEC				668.0			G2		Endometrium	Uterus	UCEC		T1		phs001287_C3N-00322		Endometrioid carcinoma, NOS		
+diagnosis	C3N-00323_UCEC				1130.0			G2		Endometrium	Uterus	UCEC		T1		phs001287_C3N-00323		Endometrioid carcinoma, NOS		
+diagnosis	C3N-00324_UCEC				645.0			G2		Endometrium	Uterus	UCEC		T2		phs001287_C3N-00324		Endometrioid carcinoma, NOS		
+diagnosis	C3N-00326_UCEC				644.0			G1		Endometrium	Uterus	UCEC		T1		phs001287_C3N-00326		Endometrioid carcinoma, NOS		
+diagnosis	C3N-00328_UCEC				644.0			G3		Endometrium	Uterus	UCEC		T1		phs001287_C3N-00328		Endometrioid carcinoma, NOS		
+diagnosis	C3N-00333_UCEC				654.0			G2		Endometrium	Uterus	UCEC		T1		phs001287_C3N-00333		Endometrioid carcinoma, NOS		
+diagnosis	C3N-00334_UCEC				659.0			G1		Endometrium	Uterus	UCEC		T1		phs001287_C3N-00334		Endometrioid carcinoma, NOS		
+diagnosis	C3N-00335_UCEC				667.0			G3		Endometrium	Uterus	UCEC		T1		phs001287_C3N-00335		Endometrioid carcinoma, NOS		
+diagnosis	C3N-00337_UCEC				668.0			G2		Endometrium	Uterus	UCEC		T1		phs001287_C3N-00337		Endometrioid carcinoma, NOS		
+diagnosis	C3N-00339_UCEC				701.0			G2		Endometrium	Uterus	UCEC		T1		phs001287_C3N-00339		Endometrioid carcinoma, NOS		
+diagnosis	C3N-00340_UCEC				700.0			G3		Endometrium	Uterus	UCEC		T3		phs001287_C3N-00340		Endometrioid carcinoma, NOS		
+diagnosis	C3N-00377_UCEC				670.0			G2		Endometrium	Uterus	UCEC		T1		phs001287_C3N-00377		Endometrioid carcinoma, NOS		
+diagnosis	C3N-00379_UCEC				642.0			G2		Endometrium	Uterus	UCEC		T1		phs001287_C3N-00379		Endometrioid carcinoma, NOS		
+diagnosis	C3N-00380_ccRCC				670.0			G2		Kidney	Kidney	ccRCC		T1		phs001287_C3N-00380		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3N-00383_UCEC				679.0			G1		Endometrium	Uterus	UCEC		T1		phs001287_C3N-00383		Endometrioid carcinoma, NOS		
+diagnosis	C3N-00386_UCEC				664.0			G1		Endometrium	Uterus	UCEC		T1		phs001287_C3N-00386		Endometrioid carcinoma, NOS		
+diagnosis	C3N-00388_UCEC				650.0			G2		Endometrium	Uterus	UCEC		T1		phs001287_C3N-00388		Endometrioid carcinoma, NOS		
+diagnosis	C3N-00389_UCEC				665.0			G2		Endometrium	Uterus	UCEC		T1		phs001287_C3N-00389		Endometrioid carcinoma, NOS		
+diagnosis	C3N-00390_ccRCC				693.0			G2		Kidney	Kidney	ccRCC		T4		phs001287_C3N-00390		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3N-00433_LUAD				10.0			G3		Lung	Lung	LUAD		T1		phs001287_C3N-00433		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-00435_ccRCC				14.0			G3		Kidney	Kidney	ccRCC		T3		phs001287_C3N-00435		Non-Clear Cell Renal Cell Carcinoma		
+diagnosis	C3N-00436_PDAC							G3		Pancreas	Pancreas	PDAC		T2		phs001287_C3N-00436		Pancreas-Adenosquamous Carcinoma		
+diagnosis	C3N-00437_ccRCC							G3		Kidney	Kidney	ccRCC		T3		phs001287_C3N-00437		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3N-00491_ccRCC							G2		Kidney	Kidney	ccRCC		T4		phs001287_C3N-00491		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3N-00492_ccRCC				1801.0			G3		Kidney	Kidney	ccRCC		T2		phs001287_C3N-00492		Non-Clear Cell Renal Cell Carcinoma		
+diagnosis	C3N-00494_ccRCC				1793.0			G2		Kidney	Kidney	ccRCC		T1		phs001287_C3N-00494		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3N-00495_ccRCC				1786.0			G2		Kidney	Kidney	ccRCC		T1		phs001287_C3N-00495		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3N-00497_LSCC				1843.0			G2		Lung	Lung	LSCC		T2		phs001287_C3N-00497		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-00498_HNSCC				1715.0			G2			Head and Neck	HNSCC		T3		phs001287_C3N-00498		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-00511_PDAC							G2		Pancreas	Pancreas	PDAC		T2		phs001287_C3N-00511		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-00512_PDAC							G2		Pancreas	Pancreas	PDAC		T2		phs001287_C3N-00512		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-00513_PDAC							G3		Pancreas	Pancreas	PDAC		T2		phs001287_C3N-00513		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-00514_PDAC							G2		Pancreas	Pancreas	PDAC		T2		phs001287_C3N-00514		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-00516_PDAC							G3		Pancreas	Pancreas	PDAC		T2		phs001287_C3N-00516		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-00517_PDAC							G2		Pancreas	Pancreas	PDAC		T3		phs001287_C3N-00517		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-00518_PDAC							G3		Pancreas	Pancreas	PDAC		T2		phs001287_C3N-00518		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-00519_HNSCC							G2			Head and Neck	HNSCC		T2		phs001287_C3N-00519		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-00545_LUAD				644.0			G2		Lung	Lung	LUAD		T1		phs001287_C3N-00545		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-00546_LUAD				375.0			G3		Lung	Lung	LUAD		T2		phs001287_C3N-00546		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-00547_LUAD				468.0			G2		Lung	Lung	LUAD		T2		phs001287_C3N-00547		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-00549_LUAD				785.0			G3		Lung	Lung	LUAD		T1		phs001287_C3N-00549		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-00550_LUAD				396.0			G2		Lung	Lung	LUAD		T2		phs001287_C3N-00550		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-00551_LUAD				391.0			G2		Lung	Lung	LUAD		T1		phs001287_C3N-00551		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-00552_LUAD				396.0			G3		Lung	Lung	LUAD		T1		phs001287_C3N-00552		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-00555_LSCC				782.0			G2		Lung	Lung	LSCC		T2		phs001287_C3N-00555		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-00556_LUAD				390.0			G3		Lung	Lung	LUAD		T2		phs001287_C3N-00556		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-00559_LUAD				398.0			G2		Lung	Lung	LUAD		T1		phs001287_C3N-00559		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-00560_LUAD				378.0			G3		Lung	Lung	LUAD		T3		phs001287_C3N-00560		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-00572_LUAD				431.0			G2		Lung	Lung	LUAD		T1		phs001287_C3N-00572		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-00573_ccRCC				7.0			G2		Kidney	Kidney	ccRCC		T2		phs001287_C3N-00573		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3N-00574_LUAD				392.0			G2		Lung	Lung	LUAD		T1		phs001287_C3N-00574		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-00577_ccRCC				397.0			G3		Kidney	Kidney	ccRCC		T4		phs001287_C3N-00577		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3N-00578_LUAD							G2		Lung	Lung	LUAD		T3		phs001287_C3N-00578		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-00579_LUAD				477.0			G2		Lung	Lung	LUAD		T1		phs001287_C3N-00579		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-00580_LUAD				386.0			G2		Lung	Lung	LUAD		T1		phs001287_C3N-00580		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-00646_ccRCC				0.0			G2		Kidney	Kidney	ccRCC		T1		phs001287_C3N-00646		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3N-00661_GBM				1119.0			GX		Brain	Brain	GBM		Unknown		phs001287_C3N-00661		Glioblastoma Multiforme		
+diagnosis	C3N-00662_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3N-00662		Glioblastoma Multiforme		
+diagnosis	C3N-00663_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3N-00663		Glioblastoma Multiforme		
+diagnosis	C3N-00665_GBM				1590.0			GX		Brain	Brain	GBM		Unknown		phs001287_C3N-00665		Glioblastoma Multiforme		
+diagnosis	C3N-00704_LUAD							G2		Lung	Lung	LUAD		T1		phs001287_C3N-00704		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-00709_PDAC							G2		Pancreas	Pancreas	PDAC		Unknown		phs001287_C3N-00709		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-00729_UCEC				848.0			G2		Endometrium	Uterus	UCEC		T1		phs001287_C3N-00729		Endometrioid carcinoma, NOS		
+diagnosis	C3N-00733_ccRCC				1464.0			G2		Kidney	Kidney	ccRCC		T3		phs001287_C3N-00733		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3N-00734_UCEC				1094.0			G1		Endometrium	Uterus	UCEC		T3		phs001287_C3N-00734		Endometrioid carcinoma, NOS		
+diagnosis	C3N-00737_LUAD				384.0			G2		Lung	Lung	LUAD		T1		phs001287_C3N-00737		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-00738_LUAD							G1		Lung	Lung	LUAD		T1		phs001287_C3N-00738		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-00743_UCEC				590.0			G2		Endometrium	Uterus	UCEC		T1		phs001287_C3N-00743		Endometrioid carcinoma, NOS		
+diagnosis	C3N-00822_HNSCC							G2			Head and Neck	HNSCC		T3		phs001287_C3N-00822		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-00825_HNSCC				1758.0			G2			Head and Neck	HNSCC		T2		phs001287_C3N-00825		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-00828_HNSCC							G2			Head and Neck	HNSCC		T2		phs001287_C3N-00828		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-00829_HNSCC							G2			Head and Neck	HNSCC		T4		phs001287_C3N-00829		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-00831_ccRCC							G2		Kidney	Kidney	ccRCC		T2		phs001287_C3N-00831		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3N-00832_ccRCC				1778.0			G2		Kidney	Kidney	ccRCC		T1		phs001287_C3N-00832		Non-Clear Cell Renal Cell Carcinoma		
+diagnosis	C3N-00834_ccRCC				1769.0			G1		Kidney	Kidney	ccRCC		T1		phs001287_C3N-00834		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3N-00836_UCEC				642.0			G3		Endometrium	Uterus	UCEC		T1		phs001287_C3N-00836		Endometrioid carcinoma, NOS		
+diagnosis	C3N-00846_HNSCC				629.0			G1			Head and Neck	HNSCC		T1		phs001287_C3N-00846		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-00847_UCEC				628.0			G2		Endometrium	Uterus	UCEC		T3		phs001287_C3N-00847		Endometrioid carcinoma, NOS		
+diagnosis	C3N-00848_UCEC				636.0			G2		Endometrium	Uterus	UCEC		T1		phs001287_C3N-00848		Endometrioid carcinoma, NOS		
+diagnosis	C3N-00850_UCEC				628.0			G2		Endometrium	Uterus	UCEC		T1		phs001287_C3N-00850		Endometrioid carcinoma, NOS		
+diagnosis	C3N-00852_ccRCC				628.0			G3		Kidney	Kidney	ccRCC		T3		phs001287_C3N-00852		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3N-00857_HNSCC							G2			Head and Neck	HNSCC		T4		phs001287_C3N-00857		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-00858_UCEC				749.0			G2		Endometrium	Uterus	UCEC		T3		phs001287_C3N-00858		Endometrioid carcinoma, NOS		
+diagnosis	C3N-00866_UCEC				524.0			G1		Endometrium	Uterus	UCEC		T1		phs001287_C3N-00866		Endometrioid carcinoma, NOS		
+diagnosis	C3N-00871_HNSCC							G2			Head and Neck	HNSCC		T4		phs001287_C3N-00871		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-00880_UCEC				1769.0			G2		Endometrium	Uterus	UCEC		T1		phs001287_C3N-00880		Endometrioid carcinoma, NOS		
+diagnosis	C3N-00953_ccRCC				1785.0			G3		Kidney	Kidney	ccRCC		T2		phs001287_C3N-00953		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3N-00957_PDAC				1167.0			G2		Pancreas	Pancreas	PDAC		T2		phs001287_C3N-00957		Pancreas-Adenosquamous Carcinoma		
+diagnosis	C3N-00959_LUAD				1591.0			G2		Lung	Lung	LUAD		T1		phs001287_C3N-00959		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-01001_UCEC				601.0			G2			Not Reported	UCEC		T2		phs001287_C3N-01001		Endometrioid carcinoma, NOS		
+diagnosis	C3N-01003_UCEC							G3		Endometrium	Uterus	UCEC		T4		phs001287_C3N-01003		Endometrioid carcinoma, NOS		
+diagnosis	C3N-01011_PDAC				1037.0			G2		Pancreas	Pancreas	PDAC		T3		phs001287_C3N-01011		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-01012_PDAC				1352.0			G2		Pancreas	Pancreas	PDAC		T1		phs001287_C3N-01012		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-01016_LUAD				428.0			G3		Lung	Lung	LUAD		T3		phs001287_C3N-01016		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-01017_LSCC				453.0			G2		Lung	Lung	LSCC		T2		phs001287_C3N-01017		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-01018_LSCC				412.0			G3		Lung	Lung	LSCC		T1		phs001287_C3N-01018		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-01020_LSCC				396.0			G3		Lung	Lung	LSCC		T1		phs001287_C3N-01020		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-01021_LUAD				428.0			G2		Lung	Lung	LUAD		T3		phs001287_C3N-01021		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-01023_LUAD				415.0			G3		Lung	Lung	LUAD		T3		phs001287_C3N-01023		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-01024_LUAD				412.0			G3		Lung	Lung	LUAD		T2		phs001287_C3N-01024		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-01025_LSCC				0.0			G3		Lung	Lung	LSCC		T2		phs001287_C3N-01025		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-01028_LSCC							G3		Lung	Lung	LSCC		T1		phs001287_C3N-01028		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-01030_LUAD				443.0			G3		Lung	Lung	LUAD		T1		phs001287_C3N-01030		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-01071_LUAD				9.0			G2		Lung	Lung	LUAD		T1		phs001287_C3N-01071		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-01072_LUAD				442.0			G3		Lung	Lung	LUAD		T3		phs001287_C3N-01072		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-01074_LUAD							G3		Lung	Lung	LUAD		T1		phs001287_C3N-01074		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-01165_PDAC							G2		Pancreas	Pancreas	PDAC		T3		phs001287_C3N-01165		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-01166_PDAC				683.0			G2		Pancreas	Pancreas	PDAC		T3		phs001287_C3N-01166		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-01167_PDAC							G2		Pancreas	Pancreas	PDAC		T3		phs001287_C3N-01167		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-01168_PDAC							G2		Pancreas	Pancreas	PDAC		T3		phs001287_C3N-01168		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-01175_ccRCC				1730.0			G2		Kidney	Kidney	ccRCC		T3		phs001287_C3N-01175		Non-Clear Cell Renal Cell Carcinoma		
+diagnosis	C3N-01176_ccRCC				1724.0			G2		Kidney	Kidney	ccRCC		T3		phs001287_C3N-01176		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3N-01178_ccRCC				1716.0			G2		Kidney	Kidney	ccRCC		T3		phs001287_C3N-01178		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3N-01179_ccRCC				1824.0			G2		Kidney	Kidney	ccRCC		T3		phs001287_C3N-01179		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3N-01180_ccRCC				1824.0			G2		Kidney	Kidney	ccRCC		T1		phs001287_C3N-01180		Non-Clear Cell Renal Cell Carcinoma		
+diagnosis	C3N-01192_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3N-01192		Glioblastoma Multiforme		
+diagnosis	C3N-01194_LSCC				1758.0			G3		Lung	Lung	LSCC		T1		phs001287_C3N-01194		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-01196_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3N-01196		Glioblastoma Multiforme		
+diagnosis	C3N-01200_ccRCC							G3		Kidney	Kidney	ccRCC		T4		phs001287_C3N-01200		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3N-01211_UCEC				670.0			G2		Endometrium	Uterus	UCEC		T2		phs001287_C3N-01211		Endometrioid carcinoma, NOS		
+diagnosis	C3N-01212_UCEC				666.0			G2		Endometrium	Uterus	UCEC		T3		phs001287_C3N-01212		Endometrioid carcinoma, NOS		
+diagnosis	C3N-01213_ccRCC				658.0			G1		Kidney	Kidney	ccRCC		T3		phs001287_C3N-01213		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3N-01214_ccRCC				659.0			G2		Kidney	Kidney	ccRCC		T2		phs001287_C3N-01214		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3N-01217_UCEC				682.0			G1		Endometrium	Uterus	UCEC		T1		phs001287_C3N-01217		Endometrioid carcinoma, NOS		
+diagnosis	C3N-01219_UCEC				683.0			G3		Endometrium	Uterus	UCEC		T3		phs001287_C3N-01219		Endometrioid carcinoma, NOS		
+diagnosis	C3N-01220_ccRCC							G4		Kidney	Kidney	ccRCC		T4		phs001287_C3N-01220		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3N-01261_ccRCC				683.0			G1		Kidney	Kidney	ccRCC		T1		phs001287_C3N-01261		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3N-01267_UCEC				646.0			G2		Endometrium	Uterus	UCEC		T3		phs001287_C3N-01267		Endometrioid carcinoma, NOS		
+diagnosis	C3N-01334_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3N-01334		Glioblastoma Multiforme		
+diagnosis	C3N-01337_HNSCC				629.0			G1			Head and Neck	HNSCC		T4		phs001287_C3N-01337		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-01338_HNSCC							G2			Head and Neck	HNSCC		T3		phs001287_C3N-01338		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-01339_HNSCC							G3			Head and Neck	HNSCC		T4		phs001287_C3N-01339		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-01340_HNSCC							G2			Head and Neck	HNSCC		T4		phs001287_C3N-01340		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-01346_UCEC				1366.0			G3		Endometrium	Uterus	UCEC		T3		phs001287_C3N-01346		Endometrioid carcinoma, NOS		
+diagnosis	C3N-01349_UCEC							G3		Endometrium	Uterus	UCEC		T1		phs001287_C3N-01349		Endometrioid carcinoma, NOS		
+diagnosis	C3N-01361_ccRCC				1819.0			G2		Kidney	Kidney	ccRCC		T1		phs001287_C3N-01361		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3N-01364_GBM				720.0			GX		Brain	Brain	GBM		Unknown		phs001287_C3N-01364		Glioblastoma Multiforme		
+diagnosis	C3N-01366_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3N-01366		Glioblastoma Multiforme		
+diagnosis	C3N-01367_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3N-01367		Glioblastoma Multiforme		
+diagnosis	C3N-01368_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3N-01368		Glioblastoma Multiforme		
+diagnosis	C3N-01369_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3N-01369		Glioblastoma Multiforme		
+diagnosis	C3N-01375_PDAC							G2		Pancreas	Pancreas	PDAC		T2		phs001287_C3N-01375		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-01379_PDAC							G2		Pancreas	Pancreas	PDAC		T3		phs001287_C3N-01379		Pancreas-Adenosquamous Carcinoma		
+diagnosis	C3N-01380_PDAC							G2		Pancreas	Pancreas	PDAC		T4		phs001287_C3N-01380		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-01381_PDAC							G2		Pancreas	Pancreas	PDAC		T3		phs001287_C3N-01381		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-01382_PDAC							G3		Pancreas	Pancreas	PDAC		T3		phs001287_C3N-01382		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-01383_PDAC							G2		Pancreas	Pancreas	PDAC		T3		phs001287_C3N-01383		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-01388_PDAC							G2		Pancreas	Pancreas	PDAC		T3		phs001287_C3N-01388		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-01405_LUAD				418.0			G3		Lung	Lung	LUAD		T1		phs001287_C3N-01405		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-01410_LUAD				436.0			G3		Lung	Lung	LUAD		T2		phs001287_C3N-01410		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-01411_LSCC				442.0			G3		Lung	Lung	LSCC		T1		phs001287_C3N-01411		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-01413_LUAD				444.0			G3		Lung	Lung	LUAD		T1		phs001287_C3N-01413		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-01414_LUAD				449.0			G2		Lung	Lung	LUAD		T1		phs001287_C3N-01414		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-01415_LUAD				420.0			G2		Lung	Lung	LUAD		T3		phs001287_C3N-01415		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-01416_LUAD				434.0			G2		Lung	Lung	LUAD		T3		phs001287_C3N-01416		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-01488_LUAD				409.0			G3		Lung	Lung	LUAD		T1		phs001287_C3N-01488		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-01489_LUAD				427.0			G3		Lung	Lung	LUAD		T1		phs001287_C3N-01489		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-01502_PDAC				1695.0			G2		Pancreas	Pancreas	PDAC		T3		phs001287_C3N-01502		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-01505_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3N-01505		Glioblastoma Multiforme		
+diagnosis	C3N-01510_UCEC				1044.0			G2		Endometrium	Uterus	UCEC		T2		phs001287_C3N-01510		Endometrioid carcinoma, NOS		
+diagnosis	C3N-01515_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3N-01515		Glioblastoma Multiforme		
+diagnosis	C3N-01517_GBM				1025.0			GX		Brain	Brain	GBM		Unknown		phs001287_C3N-01517		Glioblastoma Multiforme		
+diagnosis	C3N-01518_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3N-01518		Glioblastoma Multiforme		
+diagnosis	C3N-01520_UCEC							G2		Endometrium	Uterus	UCEC		T1		phs001287_C3N-01520		Endometrioid carcinoma, NOS		
+diagnosis	C3N-01521_UCEC				681.0			G3		Endometrium	Uterus	UCEC		T1		phs001287_C3N-01521		Endometrioid carcinoma, NOS		
+diagnosis	C3N-01522_ccRCC				697.0			G2		Kidney	Kidney	ccRCC		T1		phs001287_C3N-01522		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3N-01524_ccRCC				700.0			G3		Kidney	Kidney	ccRCC		T2		phs001287_C3N-01524		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3N-01537_UCEC				671.0			G3		Endometrium	Uterus	UCEC		T2		phs001287_C3N-01537		Endometrioid carcinoma, NOS		
+diagnosis	C3N-01620_HNSCC				1213.0			G2			Head and Neck	HNSCC		T3		phs001287_C3N-01620		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-01643_HNSCC				1474.0			G2			Head and Neck	HNSCC		T3		phs001287_C3N-01643		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-01645_HNSCC				612.0			G2			Head and Neck	HNSCC		T3		phs001287_C3N-01645		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-01646_ccRCC				1478.0			G3		Kidney	Kidney	ccRCC		T3		phs001287_C3N-01646		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3N-01648_ccRCC				1431.0			G2		Kidney	Kidney	ccRCC		T2		phs001287_C3N-01648		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3N-01649_ccRCC				1430.0			G2		Kidney	Kidney	ccRCC		T3		phs001287_C3N-01649		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3N-01651_ccRCC				1428.0			G3		Kidney	Kidney	ccRCC		T2		phs001287_C3N-01651		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3N-01714_PDAC							G2		Pancreas	Pancreas	PDAC		T2		phs001287_C3N-01714		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-01715_PDAC							G3		Pancreas	Pancreas	PDAC		T3		phs001287_C3N-01715		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-01716_PDAC							G3		Pancreas	Pancreas	PDAC		T4		phs001287_C3N-01716		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-01719_PDAC							G2		Pancreas	Pancreas	PDAC		T3		phs001287_C3N-01719		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-01752_HNSCC							G2			Head and Neck	HNSCC		T4		phs001287_C3N-01752		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-01754_HNSCC				1549.0			G2			Head and Neck	HNSCC		T3		phs001287_C3N-01754		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-01755_HNSCC				1709.0			G2			Head and Neck	HNSCC		T3		phs001287_C3N-01755		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-01756_HNSCC				1563.0			G2			Head and Neck	HNSCC		T4		phs001287_C3N-01756		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-01757_HNSCC				1344.0			G2			Head and Neck	HNSCC		T2		phs001287_C3N-01757		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-01758_HNSCC							G2			Head and Neck	HNSCC		T4		phs001287_C3N-01758		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-01798_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3N-01798		Glioblastoma Multiforme		
+diagnosis	C3N-01799_LUAD				1545.0			G2		Lung	Lung	LUAD		T2		phs001287_C3N-01799		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-01802_UCEC				740.0			G3		Endometrium	Uterus	UCEC		T2		phs001287_C3N-01802		Endometrioid carcinoma, NOS		
+diagnosis	C3N-01808_ccRCC				778.0			G2		Kidney	Kidney	ccRCC		T1		phs001287_C3N-01808		Clear Cell Renal Cell Carcinoma		
+diagnosis	C3N-01814_GBM				386.0			GX		Brain	Brain	GBM		Unknown		phs001287_C3N-01814		Glioblastoma Multiforme		
+diagnosis	C3N-01815_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3N-01815		Glioblastoma Multiforme		
+diagnosis	C3N-01816_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3N-01816		Glioblastoma Multiforme		
+diagnosis	C3N-01818_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3N-01818		Glioblastoma Multiforme		
+diagnosis	C3N-01823_LUAD							G2		Lung	Lung	LUAD		T3		phs001287_C3N-01823		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-01825_UCEC				661.0			G3		Endometrium	Uterus	UCEC		T1		phs001287_C3N-01825		Endometrioid carcinoma, NOS		
+diagnosis	C3N-01842_LUAD				681.0			G2		Lung	Lung	LUAD		T1		phs001287_C3N-01842		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-01846_LSCC							G2		Lung	Lung	LSCC		T1		phs001287_C3N-01846		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-01851_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3N-01851		Glioblastoma Multiforme		
+diagnosis	C3N-01852_GBM				8.0			GX		Brain	Brain	GBM		Unknown		phs001287_C3N-01852		Glioblastoma Multiforme		
+diagnosis	C3N-01856_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3N-01856		Glioblastoma Multiforme		
+diagnosis	C3N-01857_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3N-01857		Glioblastoma Multiforme		
+diagnosis	C3N-01858_HNSCC				617.0			G2			Head and Neck	HNSCC		T4		phs001287_C3N-01858		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-01859_HNSCC							G2			Head and Neck	HNSCC		T4		phs001287_C3N-01859		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-01892_LSCC							G2		Lung	Lung	LSCC		T2		phs001287_C3N-01892		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-01893_LSCC							G2		Lung	Lung	LSCC		T3		phs001287_C3N-01893		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-01900_PDAC							G2		Pancreas	Pancreas	PDAC		T2		phs001287_C3N-01900		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-01907_PDAC							G2		Pancreas	Pancreas	PDAC		T3		phs001287_C3N-01907		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-01943_HNSCC							G2			Head and Neck	HNSCC		T4		phs001287_C3N-01943		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-01944_HNSCC				618.0			G3			Head and Neck	HNSCC		T4		phs001287_C3N-01944		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-01945_HNSCC							G2			Head and Neck	HNSCC		T3		phs001287_C3N-01945		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-01946_HNSCC				1346.0			G2			Head and Neck	HNSCC		T2		phs001287_C3N-01946		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-01947_HNSCC				1204.0			G2			Head and Neck	HNSCC		T4		phs001287_C3N-01947		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-01948_HNSCC				435.0			G2			Head and Neck	HNSCC		T4		phs001287_C3N-01948		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-01997_PDAC							G2		Pancreas	Pancreas	PDAC		T1		phs001287_C3N-01997		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-01998_PDAC							G2		Pancreas	Pancreas	PDAC		T2		phs001287_C3N-01998		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-02000_LUAD				1091.0			G2		Lung	Lung	LUAD		T2		phs001287_C3N-02000		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-02002_LUAD				358.0			G2		Lung	Lung	LUAD		T1		phs001287_C3N-02002		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-02003_LUAD				358.0			G3		Lung	Lung	LUAD		T3		phs001287_C3N-02003		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-02010_PDAC				449.0			G3		Pancreas	Pancreas	PDAC		T3		phs001287_C3N-02010		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-02067_LUAD				1086.0			G2		Lung	Lung	LUAD		T3		phs001287_C3N-02067		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-02087_LUAD							G3		Lung	Lung	LUAD		T3		phs001287_C3N-02087		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-02089_LUAD				398.0			G3		Lung	Lung	LUAD		T1		phs001287_C3N-02089		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-02145_LUAD				399.0			G2		Lung	Lung	LUAD		T1		phs001287_C3N-02145		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-02149_LUAD				406.0			G2		Lung	Lung	LUAD		T2		phs001287_C3N-02149		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-02155_LUAD				416.0			G3		Lung	Lung	LUAD		T2		phs001287_C3N-02155		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-02158_LUAD				417.0			G2		Lung	Lung	LUAD		T3		phs001287_C3N-02158		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-02181_GBM				389.0			GX		Brain	Brain	GBM		Unknown		phs001287_C3N-02181		Glioblastoma Multiforme		
+diagnosis	C3N-02183_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3N-02183		Glioblastoma Multiforme		
+diagnosis	C3N-02185_GBM				387.0			GX		Brain	Brain	GBM		Unknown		phs001287_C3N-02185		Glioblastoma Multiforme		
+diagnosis	C3N-02186_GBM				265.0			GX		Brain	Brain	GBM		Unknown		phs001287_C3N-02186		Glioblastoma Multiforme		
+diagnosis	C3N-02188_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3N-02188		Glioblastoma Multiforme		
+diagnosis	C3N-02190_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3N-02190		Glioblastoma Multiforme		
+diagnosis	C3N-02252_LSCC							G3		Lung	Lung	LSCC		Unknown		phs001287_C3N-02252		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-02255_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3N-02255		Glioblastoma Multiforme		
+diagnosis	C3N-02256_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3N-02256		Glioblastoma Multiforme		
+diagnosis	C3N-02275_HNSCC				1372.0			G2			Head and Neck	HNSCC		T4		phs001287_C3N-02275		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-02279_HNSCC				423.0			G2			Head and Neck	HNSCC		T3		phs001287_C3N-02279		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-02283_LSCC				160.0			GX		Lung	Lung	LSCC		T2		phs001287_C3N-02283		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-02284_LSCC				1531.0			G2		Lung	Lung	LSCC		T2		phs001287_C3N-02284		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-02285_LSCC				1527.0			G2		Lung	Lung	LSCC		T2		phs001287_C3N-02285		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-02288_LSCC				1462.0			G2		Lung	Lung	LSCC		T3		phs001287_C3N-02288		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-02289_LSCC				1411.0			G2		Lung	Lung	LSCC		T2		phs001287_C3N-02289		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-02295_PDAC							G1		Pancreas	Pancreas	PDAC		T3		phs001287_C3N-02295		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-02300_LSCC				1506.0			G2		Lung	Lung	LSCC		T2		phs001287_C3N-02300		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-02333_HNSCC				735.0			G2			Head and Neck	HNSCC		T4		phs001287_C3N-02333		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-02339_LSCC				176.0			G2		Lung	Lung	LSCC		T2		phs001287_C3N-02339		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-02374_LSCC				1067.0			G2		Lung	Lung	LSCC		T2		phs001287_C3N-02374		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-02375_LSCC				1183.0			G3		Lung	Lung	LSCC		T2		phs001287_C3N-02375		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-02379_LUAD							G3		Lung	Lung	LUAD		T2		phs001287_C3N-02379		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-02380_LUAD				1066.0			G2		Lung	Lung	LUAD		T2		phs001287_C3N-02380		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-02421_LUAD				1176.0			G3		Lung	Lung	LUAD		T1		phs001287_C3N-02421		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-02422_LUAD							G3		Lung	Lung	LUAD		T4		phs001287_C3N-02422		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-02423_LUAD				701.0			G3		Lung	Lung	LUAD		T1		phs001287_C3N-02423		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-02424_LUAD				365.0			G3		Lung	Lung	LUAD		T2		phs001287_C3N-02424		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-02425_LSCC				1073.0			G3		Lung	Lung	LSCC		T2		phs001287_C3N-02425		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-02426_LSCC							G3		Lung	Lung	LSCC		T1		phs001287_C3N-02426		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-02433_LUAD				1144.0			G2		Lung	Lung	LUAD		T1		phs001287_C3N-02433		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-02434_LSCC				1396.0			G2		Lung	Lung	LSCC		T1		phs001287_C3N-02434		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-02435_LSCC				1042.0			G2		Lung	Lung	LSCC		T2		phs001287_C3N-02435		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-02494_LSCC							G3		Lung	Lung	LSCC		T1		phs001287_C3N-02494		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-02523_LSCC							G2		Lung	Lung	LSCC		T1		phs001287_C3N-02523		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-02529_LUAD							G3		Lung	Lung	LUAD		T2		phs001287_C3N-02529		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-02572_LUAD				1141.0			G3		Lung	Lung	LUAD		T2		phs001287_C3N-02572		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-02573_PDAC				483.0			G2		Pancreas	Pancreas	PDAC		T3		phs001287_C3N-02573		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-02575_LSCC							G2		Lung	Lung	LSCC		T1		phs001287_C3N-02575		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-02579_PDAC							G2		Pancreas	Pancreas	PDAC		T1		phs001287_C3N-02579		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-02582_LUAD							G3		Lung	Lung	LUAD		T2		phs001287_C3N-02582		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-02585_PDAC				1054.0			G3		Pancreas	Pancreas	PDAC		T1		phs001287_C3N-02585		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-02586_LUAD							G2		Lung	Lung	LUAD		T2		phs001287_C3N-02586		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-02587_LUAD				1123.0			G2		Lung	Lung	LUAD		T1		phs001287_C3N-02587		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-02588_LUAD				1121.0			G3		Lung	Lung	LUAD		T2		phs001287_C3N-02588		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-02589_PDAC							G2		Pancreas	Pancreas	PDAC		T2		phs001287_C3N-02589		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-02592_PDAC							G2		Pancreas	Pancreas	PDAC		T2		phs001287_C3N-02592		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-02675_LSCC							G2		Lung	Lung	LSCC		T3		phs001287_C3N-02675		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-02693_HNSCC				1349.0			G2			Head and Neck	HNSCC		T3		phs001287_C3N-02693		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-02694_HNSCC							G2			Head and Neck	HNSCC		T4		phs001287_C3N-02694		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-02695_HNSCC							G1			Head and Neck	HNSCC		T3		phs001287_C3N-02695		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-02700_HNSCC				8.0			G1			Head and Neck	HNSCC		T2		phs001287_C3N-02700		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-02713_HNSCC				720.0			G3			Head and Neck	HNSCC		T4		phs001287_C3N-02713		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-02714_HNSCC				720.0			G2			Head and Neck	HNSCC		T2		phs001287_C3N-02714		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-02716_HNSCC				267.0			G1			Head and Neck	HNSCC		T1		phs001287_C3N-02716		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-02727_HNSCC				673.0			G2			Head and Neck	HNSCC		T4		phs001287_C3N-02727		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-02729_LUAD							G3		Lung	Lung	LUAD		T2		phs001287_C3N-02729		Lung Adenocarcinoma, NOS		
+diagnosis	C3N-02730_HNSCC				371.0			G2			Head and Neck	HNSCC		T3		phs001287_C3N-02730		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-02768_PDAC							G3		Pancreas	Pancreas	PDAC		T2		phs001287_C3N-02768		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-02769_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3N-02769		Glioblastoma Multiforme		
+diagnosis	C3N-02770_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3N-02770		Glioblastoma Multiforme		
+diagnosis	C3N-02782_GBM				988.0			GX		Brain	Brain	GBM		Unknown		phs001287_C3N-02782		Glioblastoma Multiforme		
+diagnosis	C3N-02783_GBM				986.0			GX		Brain	Brain	GBM		Unknown		phs001287_C3N-02783		Glioblastoma Multiforme		
+diagnosis	C3N-02784_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3N-02784		Glioblastoma Multiforme		
+diagnosis	C3N-02785_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3N-02785		Glioblastoma Multiforme		
+diagnosis	C3N-02786_GBM				1077.0			GX		Brain	Brain	GBM		Unknown		phs001287_C3N-02786		Glioblastoma Multiforme		
+diagnosis	C3N-02788_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3N-02788		Glioblastoma Multiforme		
+diagnosis	C3N-02925_HNSCC				1028.0			G2			Head and Neck	HNSCC		T4		phs001287_C3N-02925		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-02940_PDAC				1018.0			G2		Pancreas	Pancreas	PDAC		T3		phs001287_C3N-02940		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-02944_PDAC				612.0			G2		Pancreas	Pancreas	PDAC		T1		phs001287_C3N-02944		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-02971_PDAC							G1		Pancreas	Pancreas	PDAC		T3		phs001287_C3N-02971		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-02998_PDAC							G2		Pancreas	Pancreas	PDAC		T3		phs001287_C3N-02998		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-03000_PDAC							G3		Pancreas	Pancreas	PDAC		T4		phs001287_C3N-03000		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-03006_PDAC				726.0			G2		Pancreas	Pancreas	PDAC		T3		phs001287_C3N-03006		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-03007_PDAC							G2		Pancreas	Pancreas	PDAC		T3		phs001287_C3N-03007		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-03008_HNSCC							G2			Head and Neck	HNSCC		T4		phs001287_C3N-03008		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-03009_HNSCC							G2			Head and Neck	HNSCC		T1		phs001287_C3N-03009		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-03011_HNSCC							G3			Head and Neck	HNSCC		T4		phs001287_C3N-03011		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-03012_HNSCC							G2			Head and Neck	HNSCC		T4		phs001287_C3N-03012		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-03013_HNSCC				1393.0			G2			Head and Neck	HNSCC		T2		phs001287_C3N-03013		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-03015_HNSCC				1499.0			G3			Head and Neck	HNSCC		T4		phs001287_C3N-03015		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-03027_HNSCC							G2			Head and Neck	HNSCC		T2		phs001287_C3N-03027		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-03028_HNSCC				1015.0			G2			Head and Neck	HNSCC		T4		phs001287_C3N-03028		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-03039_PDAC							G2		Pancreas	Pancreas	PDAC		Unknown		phs001287_C3N-03039		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-03042_HNSCC							G2			Head and Neck	HNSCC		T4		phs001287_C3N-03042		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-03045_HNSCC							G1			Head and Neck	HNSCC		T3		phs001287_C3N-03045		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-03051_LSCC				735.0			G3		Lung	Lung	LSCC		T3		phs001287_C3N-03051		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-03061_PDAC							G3		Pancreas	Pancreas	PDAC		T2		phs001287_C3N-03061		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-03069_PDAC							G2		Pancreas	Pancreas	PDAC		T3		phs001287_C3N-03069		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-03070_GBM				336.0			GX		Brain	Brain	GBM		Unknown		phs001287_C3N-03070		Glioblastoma Multiforme		
+diagnosis	C3N-03072_LSCC				323.0			G3		Lung	Lung	LSCC		T3		phs001287_C3N-03072		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-03076_LSCC				332.0			G3		Lung	Lung	LSCC		T2		phs001287_C3N-03076		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-03086_PDAC				737.0			G2		Pancreas	Pancreas	PDAC		T2		phs001287_C3N-03086		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-03088_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3N-03088		Glioblastoma Multiforme		
+diagnosis	C3N-03092_LSCC							G2		Lung	Lung	LSCC		Unknown		phs001287_C3N-03092		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-03093_LSCC							G3		Lung	Lung	LSCC		Unknown		phs001287_C3N-03093		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-03173_PDAC				32.0			G2		Pancreas	Pancreas	PDAC		T3		phs001287_C3N-03173		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-03180_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3N-03180		Glioblastoma Multiforme		
+diagnosis	C3N-03182_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3N-03182		Glioblastoma Multiforme		
+diagnosis	C3N-03183_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3N-03183		Glioblastoma Multiforme		
+diagnosis	C3N-03184_GBM				395.0			GX		Brain	Brain	GBM		Unknown		phs001287_C3N-03184		Glioblastoma Multiforme		
+diagnosis	C3N-03186_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3N-03186		Glioblastoma Multiforme		
+diagnosis	C3N-03188_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3N-03188		Glioblastoma Multiforme		
+diagnosis	C3N-03190_PDAC							G1		Pancreas	Pancreas	PDAC		T2		phs001287_C3N-03190		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-03204_LSCC				835.0			G2		Lung	Lung	LSCC		T1		phs001287_C3N-03204		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-03211_PDAC							G2		Pancreas	Pancreas	PDAC		T3		phs001287_C3N-03211		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-03226_HNSCC				708.0			G2			Head and Neck	HNSCC		T4		phs001287_C3N-03226		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-03424_LSCC				1339.0			G3		Lung	Lung	LSCC		T1		phs001287_C3N-03424		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-03425_LSCC				1340.0			G2		Lung	Lung	LSCC		T1		phs001287_C3N-03425		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-03426_PDAC							G2		Pancreas	Pancreas	PDAC		Unknown		phs001287_C3N-03426		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-03428_PDAC							G2		Pancreas	Pancreas	PDAC		Unknown		phs001287_C3N-03428		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-03430_PDAC							G2		Pancreas	Pancreas	PDAC		Unknown		phs001287_C3N-03430		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-03433_HNSCC							G2			Head and Neck	HNSCC		T2		phs001287_C3N-03433		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-03439_PDAC							G2		Pancreas	Pancreas	PDAC		T2		phs001287_C3N-03439		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-03440_PDAC				317.0			G2		Pancreas	Pancreas	PDAC		T1		phs001287_C3N-03440		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-03441_LSCC				1338.0			G3		Lung	Lung	LSCC		T3		phs001287_C3N-03441		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-03456_HNSCC				1429.0			G2			Head and Neck	HNSCC		T4		phs001287_C3N-03456		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-03457_HNSCC				1400.0			G2			Head and Neck	HNSCC		T2		phs001287_C3N-03457		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-03458_HNSCC				1399.0			G1			Head and Neck	HNSCC		T2		phs001287_C3N-03458		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-03473_GBM							GX		Brain	Brain	GBM		Unknown		phs001287_C3N-03473		Glioblastoma Multiforme		
+diagnosis	C3N-03486_LSCC				321.0			GX		Lung	Lung	LSCC		T1		phs001287_C3N-03486		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-03487_HNSCC				714.0			G2			Head and Neck	HNSCC		T4		phs001287_C3N-03487		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-03488_HNSCC				673.0			G2			Head and Neck	HNSCC		T3		phs001287_C3N-03488		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-03490_HNSCC				634.0			G2			Head and Neck	HNSCC		T3		phs001287_C3N-03490		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-03612_HNSCC				669.0			G2			Head and Neck	HNSCC		T3		phs001287_C3N-03612		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-03619_HNSCC				97.0			G2			Head and Neck	HNSCC		T2		phs001287_C3N-03619		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-03620_HNSCC				724.0			G2			Head and Neck	HNSCC		T2		phs001287_C3N-03620		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-03662_LSCC				12.0			G2		Lung	Lung	LSCC		T2		phs001287_C3N-03662		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-03664_HNSCC				720.0			G2			Head and Neck	HNSCC		T4		phs001287_C3N-03664		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-03665_PDAC				737.0			G2		Pancreas	Pancreas	PDAC		T3		phs001287_C3N-03665		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-03666_PDAC							G2		Pancreas	Pancreas	PDAC		T3		phs001287_C3N-03666		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-03670_PDAC				1126.0			G2		Pancreas	Pancreas	PDAC		T3		phs001287_C3N-03670		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-03754_PDAC							G2		Pancreas	Pancreas	PDAC		T3		phs001287_C3N-03754		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-03780_PDAC							G2		Pancreas	Pancreas	PDAC		T1		phs001287_C3N-03780		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-03781_HNSCC							G2			Head and Neck	HNSCC		T4		phs001287_C3N-03781		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-03782_HNSCC				1092.0			G1			Head and Neck	HNSCC		T4		phs001287_C3N-03782		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-03783_HNSCC							G1			Head and Neck	HNSCC		T4		phs001287_C3N-03783		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-03785_HNSCC							G2			Head and Neck	HNSCC		T1		phs001287_C3N-03785		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-03837_HNSCC				706.0			G1			Head and Neck	HNSCC		T3		phs001287_C3N-03837		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-03839_PDAC				702.0			G2		Pancreas	Pancreas	PDAC		T2		phs001287_C3N-03839		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-03840_PDAC				702.0			G2		Pancreas	Pancreas	PDAC		T2		phs001287_C3N-03840		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-03841_HNSCC							G3			Head and Neck	HNSCC		T3		phs001287_C3N-03841		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-03848_LSCC				635.0			G3		Lung	Lung	LSCC		T3		phs001287_C3N-03848		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-03849_HNSCC				341.0			G1			Head and Neck	HNSCC		T4		phs001287_C3N-03849		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-03851_LSCC				642.0			G3		Lung	Lung	LSCC		T2		phs001287_C3N-03851		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-03853_PDAC							G2		Pancreas	Pancreas	PDAC		T3		phs001287_C3N-03853		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-03875_LSCC				1017.0			G3		Lung	Lung	LSCC		T1		phs001287_C3N-03875		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-03876_HNSCC							G1			Head and Neck	HNSCC		T4		phs001287_C3N-03876		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-03877_LSCC				682.0			G3		Lung	Lung	LSCC		T3		phs001287_C3N-03877		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-03878_HNSCC				649.0			G1			Head and Neck	HNSCC		T3		phs001287_C3N-03878		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-03880_LSCC				736.0			G2		Lung	Lung	LSCC		T2		phs001287_C3N-03880		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-03882_LSCC				715.0			G3		Lung	Lung	LSCC		T2		phs001287_C3N-03882		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-03884_PDAC							G2		Pancreas	Pancreas	PDAC		T3		phs001287_C3N-03884		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-03886_LSCC				311.0			GX		Lung	Lung	LSCC		T1		phs001287_C3N-03886		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-03888_HNSCC				675.0			G2			Head and Neck	HNSCC		T3		phs001287_C3N-03888		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-03889_HNSCC				681.0			G2			Head and Neck	HNSCC		T4		phs001287_C3N-03889		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-03928_HNSCC				694.0			G1			Head and Neck	HNSCC		T3		phs001287_C3N-03928		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-03933_HNSCC				722.0			G2			Head and Neck	HNSCC		T3		phs001287_C3N-03933		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-04119_PDAC							G2		Pancreas	Pancreas	PDAC		T2		phs001287_C3N-04119		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-04124_LSCC				974.0			G3		Lung	Lung	LSCC		T1		phs001287_C3N-04124		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-04126_PDAC							G3		Pancreas	Pancreas	PDAC		T3		phs001287_C3N-04126		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-04127_LSCC				765.0			G2		Lung	Lung	LSCC		T3		phs001287_C3N-04127		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-04152_HNSCC				639.0			G2			Head and Neck	HNSCC		T4		phs001287_C3N-04152		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-04155_LSCC				11.0			G2		Lung	Lung	LSCC		T1		phs001287_C3N-04155		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-04162_LSCC				358.0			G2		Lung	Lung	LSCC		T2		phs001287_C3N-04162		Lung Squamous Cell Carcinoma, NOS		
+diagnosis	C3N-04273_HNSCC							G2			Head and Neck	HNSCC		T4		phs001287_C3N-04273		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-04275_HNSCC				1137.0			G1			Head and Neck	HNSCC		T2		phs001287_C3N-04275		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-04276_HNSCC				1165.0			G2			Head and Neck	HNSCC		T4		phs001287_C3N-04276		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-04277_HNSCC				1162.0			G2			Head and Neck	HNSCC		T3		phs001287_C3N-04277		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-04278_HNSCC				582.0			G2			Head and Neck	HNSCC		T3		phs001287_C3N-04278		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-04279_HNSCC				1139.0			G2			Head and Neck	HNSCC		T2		phs001287_C3N-04279		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-04280_HNSCC				1087.0			G1			Head and Neck	HNSCC		T2		phs001287_C3N-04280		Head and Neck Squamous Cell Carcinoma		
+diagnosis	C3N-04282_PDAC							G3		Pancreas	Pancreas	PDAC		T4		phs001287_C3N-04282		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-04283_PDAC							G3		Pancreas	Pancreas	PDAC		T3		phs001287_C3N-04283		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-04284_PDAC							G3		Pancreas	Pancreas	PDAC		T3		phs001287_C3N-04284		Pancreas-Adenocarcinoma Ductal Type		
+diagnosis	C3N-04611_HNSCC							G2			Head and Neck	HNSCC		T3		phs001287_C3N-04611		Head and Neck Squamous Cell Carcinoma		

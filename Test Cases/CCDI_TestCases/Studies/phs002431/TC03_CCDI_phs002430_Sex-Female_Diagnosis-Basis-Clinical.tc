@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC03_CCDI_phs002430_Sex-Female_Diagnosis-Basis-Clinical</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>00d67ebe-9eb8-4448-bbfc-3d6c0b241ccc</testCaseGuid>
-</TestCaseEntity>

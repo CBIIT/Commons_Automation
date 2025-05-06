@@ -1,0 +1,2 @@
+type	study_personnel_id	personnel_name	personnel_type	email_address	institution	orcid	crdc_id	id	study.id
+study_personnel	phs003432_personnel_1	David Teachey, MD	PI	teacheyd@chop.edu	CHOP	0000-0001-7373-8987		78a3ab2e-a373-5feb-8abc-740aa69a3277	21868a70-2e63-5cf6-970e-e222bc192862

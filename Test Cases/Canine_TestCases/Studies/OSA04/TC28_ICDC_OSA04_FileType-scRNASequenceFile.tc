@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC28_ICDC_OSA04_FileType-scRNASequenceFile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a620122d-b1c2-45ca-9ff4-0b43d798c3cd</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_CCDI_phs000464_StudyStatus-Completed_Race-HispanLatino_FirstEvent-Relapse</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1b78efe5-34c9-4cf1-857b-c0ae47d4939b</testCaseGuid>
+</TestCaseEntity>

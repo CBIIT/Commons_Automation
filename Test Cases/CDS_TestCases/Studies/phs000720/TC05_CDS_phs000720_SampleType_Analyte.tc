@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_CDS_phs000720_SampleType_Analyte</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d38da32b-8d9e-4ede-88d3-640aee6e76ac</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_CCDI_phs002504_Diag-JueviMLukemia_Anat-C42Blood_DiagBasis-Clinical_DataCat-MethylArray</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a8b99644-2f9e-4d34-a9dd-27b8318b9baa</testCaseGuid>
+</TestCaseEntity>

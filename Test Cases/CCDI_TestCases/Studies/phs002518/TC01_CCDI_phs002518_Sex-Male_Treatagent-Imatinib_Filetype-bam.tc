@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CCDI_phs002518_Sex-Male_Treatagent-Imatinib_Filetype-bam</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c7b967a9-34bc-4bae-bc5c-6d9cf6eb0ef5</testCaseGuid>
+</TestCaseEntity>

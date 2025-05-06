@@ -21,8 +21,8 @@ CustomKeywords.'utilities.TestRunner.verifyStaticData'("V_HomePage")
 //Navigate to Data Model
 WebUI.click(findTestObject('C3DC/Navbar/DataModel-Tab'))
 
-//Verify static data text - Data Model page
-CustomKeywords.'utilities.TestRunner.verifyStaticData'("V_DataModelPage")
+//Verify static data text - Data Model page -- page was removed, commenting out
+//CustomKeywords.'utilities.TestRunner.verifyStaticData'("V_DataModelPage")
 
 //Navigate to Resources > Resources
 //WebUI.click(findTestObject('C3DC/Navbar/Resources-Tab'))
