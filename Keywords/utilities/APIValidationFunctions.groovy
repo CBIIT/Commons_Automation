@@ -68,7 +68,7 @@ public class APIValidationFunctions {
 					hasErrors = true
 				}
 				else {
-					KeywordUtil.logInfo("Allowed value '${value}' found in response for source '${sourceName}'")
+					KeywordUtil.logInfo("Source '${sourceName}' - Allowed value '${value}' found in response")
 				}
 			}
 		}
