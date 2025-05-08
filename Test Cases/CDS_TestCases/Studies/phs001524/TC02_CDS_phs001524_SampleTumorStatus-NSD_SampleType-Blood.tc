@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_CDS_phs001524_SampleTumorStatus-NSD_SampleType-Blood</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>76fe71b3-78a9-47f9-86d3-a3bb52979e2e</testCaseGuid>
+</TestCaseEntity>
