@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>HybridSelection_Chkbx</name>
+   <name>LibrarySourceMolecule_Ddn</name>
    <tag></tag>
-   <elementGuidId>5d3c9150-c365-48ec-a60b-e1de2262eff3</elementGuidId>
+   <elementGuidId>e9e51603-6ae5-4c4b-b861-b2577352407b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Library Selection_Hybrid Selection&quot;]</value>
+         <value>//*[@id=&quot;Library Source Molecule&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -22,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Library Selection_Hybrid Selection&quot;]</value>
-      <webElementGuid>34f2fbb9-47a6-4252-984a-2448f030df6b</webElementGuid>
+      <value>//*[@id=&quot;Library Source Molecule&quot;]</value>
+      <webElementGuid>83204147-29af-4c30-a9c4-67e7493db33a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

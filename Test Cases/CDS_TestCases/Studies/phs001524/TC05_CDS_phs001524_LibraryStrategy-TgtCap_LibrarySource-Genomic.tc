@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_CDS_phs001524_LibraryStrategy-TgtCap_LibrarySource-Genomic</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9c326080-37a8-4d30-adc0-903151768e45</testCaseGuid>
+</TestCaseEntity>
