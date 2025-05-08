@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//span[contains(text(),'Continue')]</value>
+         <value>//*[contains(text(),'Continue')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//span[contains(text(),'Continue')]</value>
-      <webElementGuid>912461b9-8555-4df2-9849-89a7a46e5e2d</webElementGuid>
+      <value>//*[contains(text(),'Continue')]</value>
+      <webElementGuid>9bab82cb-0c28-4862-9f00-aa76ee238417</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
