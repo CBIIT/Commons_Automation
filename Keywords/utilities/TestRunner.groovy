@@ -1806,16 +1806,18 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 
 	@Keyword
 	public static clickTabCDSStat(String TbName){
+		
+		clickTab(TbName);
 
-		JavascriptExecutor js = (JavascriptExecutor)driver;
-		String rawTabName = TbName
-		String tabxpath = givexpath(TbName)
-		System.out.println("This is the value of xpath of the element: "+tabxpath);
-		WebElement resultTab = driver.findElement(By.xpath(tabxpath));
-		js.executeScript("arguments[0].scrollIntoView(true);", resultTab);
-		js.executeScript("arguments[0].click();", resultTab);
-		System.out.println("Successfully clicked desired element")
-		Thread.sleep(3000)
+//		JavascriptExecutor js = (JavascriptExecutor)driver;
+//		String rawTabName = TbName
+//		String tabxpath = givexpath(TbName)
+//		System.out.println("This is the value of xpath of the element: "+tabxpath);
+//		WebElement resultTab = driver.findElement(By.xpath(tabxpath));
+//		js.executeScript("arguments[0].scrollIntoView(true);", resultTab);
+//		js.executeScript("arguments[0].click();", resultTab);
+//		System.out.println("Successfully clicked desired element")
+//		Thread.sleep(3000)
 	}
 
 
