@@ -24,8 +24,9 @@ import utilities.API_Functions
 import utilities.APIValidationFunctions
 
 // Send API request
-String API_Object_Path = 'Object Repository/API/Federation/AL_SubjectCountsBySex'
+String API_Object_Path = 'Object Repository/API/Federation/AggregationLayer/AL_SubjectCountsBySex'
 ResponseObject responseAL = API_Functions.sendRequestAndCaptureResponse(API_Object_Path)
+
 def responseALData = API_Functions.parseResponse(responseAL) // Parse AL response
 System.out.println("This is the content of responseALData: " + responseALData)
 
@@ -38,5 +39,5 @@ for (int i = 1; i <= allowedValuesData.getRowNumbers(); i++) {
 
 // Validate the API response
 APIValidationFunctions.validateAllowedEnums(responseALData, allowedValues)
-System.out.println("This is the value of responsealdata :"+responseALData)
-System.out.println("This is the value of allowedValues :"+allowedValues)
+System.out.println("This is the value of responseALData: " + responseALData)
+System.out.println("This is the value of allowedValues: " + allowedValues)
