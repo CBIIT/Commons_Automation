@@ -22,23 +22,22 @@ import groovy.json.JsonOutput
 import com.kms.katalon.core.testdata.TestDataFactory
 import utilities.API_Functions
 import utilities.APIValidationFunctions
+import java.nio.file.Files
+import java.nio.file.Paths
 
 // Send API request
-String API_Object_Path ='Object Repository/API/Federation/AL_SampleCounts_by_AnatomicalSites'
+String API_Object_Path ='Object Repository/API/Federation/AggregationLayer/AL_SampleCounts_by_AnatomicalSites'
 ResponseObject responseAL = API_Functions.sendRequestAndCaptureResponse(API_Object_Path)
-//def response = WS.sendRequest(findTestObject('API_Object_Path'))  
+
 def responseALData = API_Functions.parseResponse(responseAL) //AL response
-System.out.println("This is the content of responseALData :"+responseALData)
-//System.out.println("This is the content of responsebodycontent inbuilt func :"+responseALData.getResponseBodyContent())
+System.out.println("This is the content of responseALData :" + responseALData)
 
 // Get allowed values from the data file
-def allowedValuesData = TestDataFactory.findTestData('Data Files/API/Enum-Sample_AnatomicalSites')
-List<String> allowedValues = []
-for (int i = 1; i <= allowedValuesData.getRowNumbers(); i++) {
-	allowedValues.add(allowedValuesData.getValue(1, i))
-}
+String csvPath = "InputFiles/API/Federation/anatomical_sites.csv"
+List<String> allowedValues = Files.readAllLines(Paths.get(csvPath)).findAll { it?.trim() }
+
+Set<String> allowedValuesSet = new HashSet<>(allowedValues)
 
 // Validate the API response
-APIValidationFunctions.validateAllowedEnums(responseALData, allowedValues)
-System.out.println("This is the value of responsealdata :"+responseALData)
-System.out.println("This is the value of responsealdata :"+allowedValues)
+APIValidationFunctions.validateAllowedEnums(responseALData, allowedValuesSet)
+System.out.println("This is the value of responseALData: " + responseALData)
