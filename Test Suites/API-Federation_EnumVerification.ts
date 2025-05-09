@@ -92,7 +92,7 @@
       <guid>5b5db11a-ad84-4a2c-a23d-fb4ec5549391</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/API/Federation/Enum_Verification/Sample/TC06_EnumVerification_AL-SampleCountsBySpecimenMoelcularAnalyteType</testCaseId>
+      <testCaseId>Test Cases/API/Federation/Enum_Verification/Sample/TC06_EnumVerification_AL-SampleCountsBySpecimenMolecularAnalyteType</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
