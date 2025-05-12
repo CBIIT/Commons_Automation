@@ -46,6 +46,39 @@ import com.kms.katalon.core.configuration.RunConfiguration
 
 public class APIValidationFunctions {
 
+//	/**
+//	 * Validates that the response data contains only the allowed values.
+//	 *
+//	 * @param responseData  The response data to validate (a List of Maps or JSON).
+//	 * @param allowedValues The allowed enum values (a List of Strings).
+//	 */
+//	static void validateAllowedEnums(List<Map> responseData, List<String> allowedValues) {
+//		boolean hasErrors = false
+//
+//		responseData.each { sourceData ->
+//			String sourceName = sourceData.source
+//			List<Map> valuesList = sourceData.values
+//
+//			valuesList.each { valueData ->
+//				String value = valueData.value
+//
+//				if (!allowedValues.contains(value)) {
+//					// Log and mark unexpected values as failures
+//					KeywordUtil.markFailed("❌ Unexpected value '${value}' found in response for source '${sourceName}'")
+//					hasErrors = true
+//				}
+//				else {
+//					KeywordUtil.logInfo("Source '${sourceName}' - Allowed value '${value}' found in response")
+//				}
+//			}
+//		}
+//
+//		// Log success if no errors
+//		if (!hasErrors) {
+//			KeywordUtil.logInfo("✓ All 'value' fields contain only allowed enums.")
+//		}
+//	}
+	
 	/**
 	 * Validates that the response data contains only the allowed values.
 	 *
@@ -53,26 +86,82 @@ public class APIValidationFunctions {
 	 * @param allowedValues The allowed enum values (a List of Strings).
 	 */
 	static void validateAllowedEnums(List<Map> responseData, List<String> allowedValues) {
-		boolean hasErrors = false
+    boolean hasErrors = false
 
-		responseData.each { sourceData ->
-			String sourceName = sourceData.source
-			List<Map> valuesList = sourceData.values
+    responseData.each { sourceData ->
+        String sourceName = sourceData.source
+        List<Map> valuesList = sourceData.values
 
-			valuesList.each { valueData ->
-				String value = valueData.value
+        valuesList.each { valueData ->
+            String rawValue = valueData.value
+            List<String> valuesToCheck = rawValue.split(',').collect { it.trim() }
 
-				if (!allowedValues.contains(value)) {
-					// Log and mark unexpected values as failures
-					KeywordUtil.markFailed("❌ Unexpected value '${value}' found in response for source '${sourceName}'")
-					hasErrors = true
-				}
-			}
-		}
+            List<String> invalidValues = []
+            List<String> validValues = []
 
-		// Log success if no errors
-		if (!hasErrors) {
-			KeywordUtil.logInfo("✓ All 'value' fields contain only allowed enums.")
-		}
+            valuesToCheck.each { value ->
+                if (!allowedValues.contains(value)) {
+                    invalidValues << value
+                    hasErrors = true
+                } else {
+                    validValues << value
+                }
+            }
+
+            if (!invalidValues.isEmpty()) {
+                KeywordUtil.markFailed("Unexpected value '${invalidValues.join(',')}' found in response for source '${sourceName}'")
+            }
+
+            if (!validValues.isEmpty()) {
+                KeywordUtil.logInfo("✓ Source '${sourceName}' - Allowed value found in response: '${validValues.join(',')}'")
+            }
+	        }
+	    }
+	
+	    if (!hasErrors) {
+	        KeywordUtil.logInfo("✓ All 'value' fields contain only allowed enums.")
+	    }
 	}
+
+	
+	
+	// Overload with Set<String> (semicolon-separated values for Sample anatomical_sites)
+	static void validateAllowedEnums(List<Map> responseData, Set<String> allowedValuesSet) {
+	    boolean hasErrors = false
+	
+	    responseData.each { sourceData ->
+	        String sourceName = sourceData.source
+	        List<Map> valuesList = sourceData.values
+	
+	        valuesList.each { valueData ->
+	            String rawValue = valueData.value
+	            List<String> valuesToCheck = rawValue.split(';').collect { it.trim() }
+	
+	            List<String> invalidValues = []
+	            List<String> validValues = []
+	
+	            valuesToCheck.each { value ->
+	                if (!allowedValuesSet.contains(value)) {
+	                    invalidValues << value
+	                    hasErrors = true
+	                } else {
+	                    validValues << value
+	                }
+	            }
+	
+	            if (!invalidValues.isEmpty()) {
+	                KeywordUtil.markFailed("❌ Unexpected value(s) '${invalidValues.join(';')}' found in response for source '${sourceName}'")
+	            }
+	
+	            if (!validValues.isEmpty()) {
+	                KeywordUtil.logInfo("✓ Source '${sourceName}' - Allowed value(s) found in response: '${validValues.join(';')}'")
+	            }
+	        }
+	    }
+	
+	    if (!hasErrors) {
+	        KeywordUtil.logInfo("✓ All 'value' fields contain only allowed enums.")
+	    }
+	}
+
 }

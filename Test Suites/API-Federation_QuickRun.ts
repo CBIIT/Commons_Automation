@@ -12,17 +12,10 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>fe34ee9e-bf9b-411f-b7ad-9db0635a66b5</testSuiteGuid>
    <testCaseLink>
-      <guid>a9fecd78-6601-47a1-85e9-b80e71436c88</guid>
+      <guid>dd344345-b07a-455b-867a-f558acd5f9a4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/API/Federation/Response_Comparison_AL_vs_Nodes/Subject_Counts/TC01_API_Federation_SubjectsCountByEthnicity</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>af67f2bf-58db-45a9-9318-ca980b2ebcb6</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/API/Federation/Response_Comparison_AL_vs_Nodes/Subject_Counts/TC02_API_Federation_SubjectsCountByVitalStatus</testCaseId>
+      <testCaseId>Test Cases/API/Federation/Enum_Verification/File/TC01_EnumVerification_AL-FileCountsByType</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
