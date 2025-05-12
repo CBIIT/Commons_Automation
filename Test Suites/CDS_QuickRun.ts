@@ -53,4 +53,46 @@
       <testCaseId>Test Cases/CDS_TestCases/Studies/phs001524/TC01_CDS_phs001524_Gender-Male_ExperimentStrat-DNASeq</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>609c7aae-1db6-41ab-8abb-f7da3908fdb3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs001554/TC04_CDS_phs001554_RefGenAsbly-GRCh37_PrimDiag_ColoCarc</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c730e4f8-32a1-408e-a367-fa1bf6330293</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs001554/TC01_CDS_phs001554_Gender-Female_ExperimentStrat-GWA</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3bdcb987-9483-4cde-8663-a546c6937872</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs001554/TC03_CDS_phs001554_FileType-CRAI_Platform-Illumina_Instrument-HiSeq2500</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>aeb32e85-57e2-4963-8f2e-4b7f55c506fc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs001554/TC06_CDS_phs001554_LibraryLayout-PairedEnd_LibrarySelection-Random</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b73a6911-06c3-4e71-88eb-d5c807e64720</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs001554/TC02_CDS_phs001554_SampleTumorStatus-Normal_SampleType-DNA</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d0a17231-2281-4aeb-93a0-0f4d82415722</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs001554/TC05_CDS_phs001554_LibraryStrategy-WGS_LibrarySource-Genomic</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
