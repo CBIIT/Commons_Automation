@@ -1712,53 +1712,57 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 	}
 
 
+	//	/**
+	//	 * This function is used to click on any element
+	//	 * @param TabName
+	//	 * @return
+	//	 */
+	//	@Keyword
+	//	public static clickTab(String TabName){
+	//
+	//		JavascriptExecutor js = (JavascriptExecutor)driver;
+	//		String rawTabName = TabName
+	//		String tabxpath = givexpath(TabName)
+	//		System.out.println("This is the value of xpath of the element: "+tabxpath);
+	//		//wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(tabxpath)));
+	//		WebElement resultTab = driver.findElement(By.xpath(tabxpath));
+	//		js.executeScript("arguments[0].scrollIntoView(true);", resultTab);
+	//		js.executeScript("arguments[0].click();", resultTab);
+	//		System.out.println("Successfully clicked desired element")
+	//	}
+
 	/**
 	 * This function is used to click on any element
 	 * @param TabName
 	 * @return
 	 */
-//	@Keyword
-//	public static clickTab(String TabName){
-//
-//		JavascriptExecutor js = (JavascriptExecutor)driver;
-//		String rawTabName = TabName
-//		String tabxpath = givexpath(TabName)
-//		System.out.println("This is the value of xpath of the element: "+tabxpath);
-//		//wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(tabxpath)));
-//		WebElement resultTab = driver.findElement(By.xpath(tabxpath));
-//		js.executeScript("arguments[0].scrollIntoView(true);", resultTab);
-//		js.executeScript("arguments[0].click();", resultTab);
-//		System.out.println("Successfully clicked desired element")
-//	}
-	
 	@Keyword
-    public static void clickTab(String tabName) {
-        WebDriver driver = DriverFactory.getWebDriver()
-        WebDriverWait wait = new WebDriverWait(driver, 10)
-        JavascriptExecutor js = (JavascriptExecutor) driver
+	public static void clickTab(String tabName) {
+		WebDriver driver = DriverFactory.getWebDriver()
+		WebDriverWait wait = new WebDriverWait(driver, 10)
+		JavascriptExecutor js = (JavascriptExecutor) driver
 
-        String tabXpath = givexpath(tabName)
-        println("Resolved XPath: " + tabXpath)
+		String tabXpath = givexpath(tabName)
+		println("Resolved XPath: " + tabXpath)
 
-        for (int i = 0; i < 3; i++) {
-            try {
-                WebElement resultTab = wait.until(
-                    ExpectedConditions.presenceOfElementLocated(By.xpath(tabXpath))
-                )
-                js.executeScript("arguments[0].scrollIntoView(true);", resultTab)
-                js.executeScript("arguments[0].click();", resultTab)
-                println("Successfully clicked element")
-                break
-            } catch (StaleElementReferenceException e) {
-                println("️StaleElementReferenceException. Retrying... Attempt: " + (i + 1))
-                Thread.sleep(1000)
-            } catch (Exception e) {
-                println("Unexpected error: " + e.getMessage())
-                throw e
-            }
-        }
-    }
-	
+		for (int i = 0; i < 3; i++) {
+			try {
+				WebElement resultTab = wait.until(
+						ExpectedConditions.presenceOfElementLocated(By.xpath(tabXpath))
+						)
+				js.executeScript("arguments[0].scrollIntoView(true);", resultTab)
+				js.executeScript("arguments[0].click();", resultTab)
+				println("Successfully clicked element")
+				break
+			} catch (StaleElementReferenceException e) {
+				println("️StaleElementReferenceException. Retrying... Attempt: " + (i + 1))
+				Thread.sleep(1000)
+			} catch (Exception e) {
+				println("Unexpected error: " + e.getMessage())
+				throw e
+			}
+		}
+	}
 
 
 	/**
