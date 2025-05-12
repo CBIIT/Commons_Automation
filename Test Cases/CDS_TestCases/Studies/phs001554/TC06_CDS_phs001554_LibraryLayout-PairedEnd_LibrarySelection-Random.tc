@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC06_CDS_phs001554_LibraryLayout-PairedEnd_LibrarySelection-Random</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>346d9072-8304-4b0a-906f-a71800e2f299</testCaseGuid>
+</TestCaseEntity>
