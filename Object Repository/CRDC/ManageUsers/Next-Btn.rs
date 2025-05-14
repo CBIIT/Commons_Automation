@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Login.gov_SignIn-Btn</name>
+   <name>Next-Btn</name>
    <tag></tag>
-   <elementGuidId>13f94233-7e93-438a-8178-a191e18bd5ba</elementGuidId>
+   <elementGuidId>dd8a76b1-fbc8-4f54-a831-b426f118326f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//button[ text()='Submit' and @type='submit' ]</value>
+         <value>//button[@aria-label='Go to next page']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//button[ text()='Submit' and @type='submit' ]</value>
-      <webElementGuid>e1f0cd11-b61f-45b8-9f1f-854116f80f5c</webElementGuid>
+      <value>//button[@aria-label='Go to next page']</value>
+      <webElementGuid>cc8f1fa4-2810-44f0-8da3-e3ccd30a3aeb</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

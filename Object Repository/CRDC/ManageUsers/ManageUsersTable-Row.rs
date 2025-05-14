@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Login.gov_SignIn-Btn</name>
+   <name>ManageUsersTable-Row</name>
    <tag></tag>
-   <elementGuidId>13f94233-7e93-438a-8178-a191e18bd5ba</elementGuidId>
+   <elementGuidId>3b0b6c34-f2fa-4578-a8fb-308d56c6e58e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//button[ text()='Submit' and @type='submit' ]</value>
+         <value>//table//tr[td]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//button[ text()='Submit' and @type='submit' ]</value>
-      <webElementGuid>e1f0cd11-b61f-45b8-9f1f-854116f80f5c</webElementGuid>
+      <value>//table//tr[td]</value>
+      <webElementGuid>0915355e-3964-4056-ae14-ff0a187425de</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

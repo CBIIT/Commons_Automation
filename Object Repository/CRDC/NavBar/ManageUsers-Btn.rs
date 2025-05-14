@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Login.gov_SignIn-Btn</name>
+   <name>ManageUsers-Btn</name>
    <tag></tag>
-   <elementGuidId>13f94233-7e93-438a-8178-a191e18bd5ba</elementGuidId>
+   <elementGuidId>a68fe818-3de7-4068-a476-15d6e601af36</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//button[ text()='Submit' and @type='submit' ]</value>
+         <value>//*[@id=&quot;navbar-dropdown-item-user-manage&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//button[ text()='Submit' and @type='submit' ]</value>
-      <webElementGuid>e1f0cd11-b61f-45b8-9f1f-854116f80f5c</webElementGuid>
+      <value>//*[@id=&quot;navbar-dropdown-item-user-manage&quot;]</value>
+      <webElementGuid>f9efa5cc-9b7b-42a0-ad07-e77780a99093</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
