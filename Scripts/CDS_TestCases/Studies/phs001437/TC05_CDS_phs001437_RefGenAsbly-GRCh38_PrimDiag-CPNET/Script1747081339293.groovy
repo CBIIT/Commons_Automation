@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
  */
 WebUI.closeBrowser()
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC12_CDS_phs001437_RefGenAsbly_GRCh38.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC05_CDS_phs001437_RefGenAsbly-GRCh38_PrimDiag-CPNET.xlsx')
 
 CustomKeywords.'utilities.TestRunner.clickTab'('Bento/Banner/Bento_Warning_Continue_Btn')
 
@@ -41,6 +41,14 @@ CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Dat
 //Clicking GRCh37 checkbox
 WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/GenomicFacet/ReferenceGenomeAssembly/GRCh38_Chkbx'),5)
 CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/GenomicFacet/ReferenceGenomeAssembly/GRCh38_Chkbx')
+
+//Clicking Primary Diagnosis dropdown
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/DiagnosisFacet/PrimaryDiagnosis/PrimaryDiagnosis_Ddn'),5)
+CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/DiagnosisFacet/PrimaryDiagnosis/PrimaryDiagnosis_Ddn')
+
+//Clicking checkbox
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/DiagnosisFacet/PrimaryDiagnosis/CPNET_Chkbx'),5)
+CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/DiagnosisFacet/PrimaryDiagnosis/CPNET_Chkbx')
 
 //Read statbar
 CustomKeywords.'utilities.TestRunner.readStatBarCDS'('Object Repository/CDS/StatBar/CDS_StatBar-Studies',
