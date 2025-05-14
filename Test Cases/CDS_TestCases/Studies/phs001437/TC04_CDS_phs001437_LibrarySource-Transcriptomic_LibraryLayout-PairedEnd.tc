@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC08_CDS_phs001437_LibraryLayout_PairedEnd</name>
+   <name>TC04_CDS_phs001437_LibrarySource-Transcriptomic_LibraryLayout-PairedEnd</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>db5422f0-3379-4c36-a7cc-7fc33a4b9bfa</testCaseGuid>
+   <testCaseGuid>a803fbf1-d514-4744-96e2-b8f6e623711b</testCaseGuid>
 </TestCaseEntity>

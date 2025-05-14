@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC12_CDS_phs001437_RefGenAsbly_GRCh38</name>
+   <name>TC05_CDS_phs001437_RefGenAsbly-GRCh38_PrimDiag-CPNET</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
