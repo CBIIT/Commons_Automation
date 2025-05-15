@@ -13,6 +13,9 @@ import org.apache.poi.xssf.usermodel.XSSFFont;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.List;
+import com.kms.katalon.core.configuration.RunConfiguration
+import com.kms.katalon.core.testdata.TestDataFactory
+import com.kms.katalon.core.util.KeywordUtil
 
 
 public class ReadExcel {
@@ -427,6 +430,64 @@ public class ReadExcel {
 		FileOutputStream fos = new FileOutputStream(filePath)
 		workbook.write(fos);
 		workbook.close();
+	}
+
+	/**
+	 * Write the expected PBAC permissions for the role to Output Excel sheet
+	 * @param User role (Fedlead, Dcp, Admin, Submitter, User), path of Katalon Data File
+	 */
+	@Keyword
+	def static void writePbacExpectedPermissionsForRole(String userRole, String dataFilePath) {
+		def testData = TestDataFactory.findTestData(dataFilePath)
+		int rowCount = testData.getRowNumbers()
+
+		String outputPath = RunConfiguration.getProjectDir() + "/OutputFiles/PBAC_Defaults_Results.xlsx"
+		File file = new File(outputPath)
+		Workbook workbook = file.exists() ? new XSSFWorkbook(new FileInputStream(file)) : new XSSFWorkbook()
+		Sheet sheet = workbook.getSheet(userRole) ?: workbook.createSheet(userRole)
+
+		// Header
+		Row header = sheet.createRow(0)
+		CellStyle headerStyle = workbook.createCellStyle()
+		Font headerFont = workbook.createFont()
+		headerFont.setBold(true)
+		headerStyle.setFont(headerFont)
+		headerStyle.setFillForegroundColor(IndexedColors.GREY_25_PERCENT.getIndex());
+		headerStyle.setFillPattern(FillPatternType.SOLID_FOREGROUND);
+		String[] headers = [
+			"Permission",
+			"Expected",
+			"Actual",
+			"Result"
+		]
+		for (int i = 0; i < headers.length; i++) {
+			Cell cell = header.createCell(i)
+			cell.setCellValue(headers[i])
+			cell.setCellStyle(headerStyle)
+		}
+
+		// Adjust column widths
+		for (int columnIndex = 0; columnIndex <= 3; columnIndex++) {
+			sheet.setColumnWidth(columnIndex, 8000)
+		}
+
+		for (int i = 1; i <= rowCount; i++) {
+			String expected = testData.getValue(userRole, i)
+			String internalName = testData.getValue('Permission Internal Name', i)
+
+			if (!internalName) continue
+
+				Row row = sheet.createRow(i)
+			row.createCell(0).setCellValue(internalName)
+			row.createCell(1).setCellValue(expected)
+		}
+
+		FileOutputStream fos = new FileOutputStream(file)
+		workbook.write(fos)
+		workbook.close()
+		fos.close()
+
+		KeywordUtil.logInfo("Expected permissions for ${userRole} written to ${outputPath}")
 	}
 }
 
