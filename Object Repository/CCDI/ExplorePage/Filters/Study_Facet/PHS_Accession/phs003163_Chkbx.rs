@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>PermissionsPanel-Ddn</name>
+   <name>phs003163_Chkbx</name>
    <tag></tag>
-   <elementGuidId>d66e25fd-092d-451f-8210-c42812a924af</elementGuidId>
+   <elementGuidId>a69c4b20-e09f-49ae-9ca0-aece1b7fbc14</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@data-testid='permissions-accordion']/div[1]</value>
+         <value>//*[@id=&quot;checkbox_dbGaP accession_phs003163&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[@data-testid='permissions-accordion']/div[1]</value>
-      <webElementGuid>b181f14f-87b3-4418-8cc9-f4872278af3f</webElementGuid>
+      <value>//*[@id=&quot;checkbox_dbGaP accession_phs003163&quot;]</value>
+      <webElementGuid>1ec808e6-b938-4ab2-9f34-5880b7ef83b5</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -44,7 +44,7 @@ CustomKeywords.'utilities.TestRunner.clickTab'('CRDC/Login/UserProfile-Dd')
 
 CustomKeywords.'utilities.TestRunner.clickTab'('CRDC/NavBar/ManageUsers-Btn')
 
-CustomKeywords.'utilities.CrdcDHPbac.findAndEditUserByName'('fedlead-automation')
+CustomKeywords.'utilities.CrdcDHPbac.verifyPbacPermissionDefaults'('Fedlead')
 
 
-//WebUI.closeBrowser()
+WebUI.closeBrowser()

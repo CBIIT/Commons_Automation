@@ -66,70 +66,81 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.Cookie as Cookie
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.testobject.TestObject
-import com.kms.katalon.core.testobject.ConditionType
-import com.kms.katalon.core.model.FailureHandling
+import com.kms.katalon.core.configuration.RunConfiguration
+import org.apache.poi.ss.usermodel.*
 
-
-class CrdcDHPbac extends TestRunner implements Comparator<List<XSSFCell>>{
-	public int compare( List<XSSFCell> l1, List<XSSFCell> l2 ){
-		return l1.get(0).getStringCellValue().compareTo( l2.get(0).getStringCellValue() )
-	}
+class CrdcDHPbac extends TestRunner {
 
 	public static WebDriver driver
 
 	//*************** Input functions start here ****************
 
-	//Find a user in the Manage Users table by name
+	/**
+	 * Find a user in the Manage Users table by name
+	 * @param User role Fedlead, Dcp, Admin, Submitter, User
+	 */
 	@Keyword
-	public static void findAndEditUserByName(String userName) {
+	public static void findAndEditUserByName(String userRole) {
+		String userNameAutomation = "pbac." + userRole + "-automation"
 		boolean userFound = false
+		WebUI.delay(2)
 
 		while (!userFound) {
-			// Get all rows in the table
-			List<WebElement> rows = WebUI.findWebElements(findTestObject('CRDC/ManageUsers/ManageUsersTable-Row'), 5)
+			driver = DriverFactory.getWebDriver()
+			WebDriverWait wait = new WebDriverWait(driver, 10)
+			wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//table//tr[td]")))
 
-			// Assume visible rows max 
-			for (int i = 1; i <= rows.size(); i++) {
-				TestObject nameInCell = new TestObject().addProperty(
-						"xpath", ConditionType.EQUALS,
-						"(//table//tr[td])[" + i + "]//td[1]"
-						)
+			List<WebElement> rows = driver.findElements(By.xpath("//table//tr[td]"))
 
-				// Skip if the cell isn't present
-				if (!WebUI.verifyElementPresent(nameInCell, 2, FailureHandling.OPTIONAL)) {
-					break
-				}
+			for (WebElement row : rows) {
+				try {
+					List<WebElement> cells = row.findElements(By.tagName("td"))
+					if (cells.size() < 6) continue // not enough columns, skip
 
-				String nameText = WebUI.getText(nameInCell).trim()
-
-				if (nameText.toLowerCase().contains(userName.trim().toLowerCase())) {
-					TestObject editButton = new TestObject().addProperty(
-							"xpath", ConditionType.EQUALS,
-							"(//table//tr[td])[" + i + "]//td[6]//button[contains(text(),'Edit')]"
-							)
-					WebUI.click(editButton)
-					userFound = true
-					println "User '${userName}' found and Edit clicked."
-					break
+						String nameText = cells[0].getText().trim()
+					System.out.println("Name in cell: " + nameText)
+					if (nameText.toLowerCase().contains(userNameAutomation.trim().toLowerCase())) {
+						WebElement editBtn = cells[5].findElement(By.xpath(".//button[contains(text(),'Edit')]"))
+						editBtn.click()
+						System.out.println("User '${userNameAutomation}' found and Edit clicked.")
+						userFound = true
+						break
+					}
+				} catch (org.openqa.selenium.StaleElementReferenceException e) {
+					System.out.println("Stale row element, trying next row...")
+					continue
 				}
 			}
 
-
-			// If user wasn't found on page, try next
+			// If not found, check for next page until last page
 			if (!userFound) {
 				TestObject nextButton = findTestObject('CRDC/ManageUsers/Next-Btn')
 				boolean isDisabled = WebUI.getAttribute(nextButton, 'disabled') != null
 
 				if (isDisabled) {
-					KeywordUtil.markFailedAndStop("Reached the last page. User '${userName}' not found in Manage Users table. Stopping test.")
+					KeywordUtil.markFailedAndStop("Reached the last page. User '${userNameAutomation}' not found in Manage Users table. Stopping test.")
 				} else {
 					WebUI.click(nextButton)
-					WebUI.delay(2) // wait for next page to load
+					WebUI.delay(2) // wait for new page
 				}
 			}
 		}
+	}
 
+	/**
+	 * Verifies the PBAC Permissions for the user
+	 * @param User role (Fedlead, Dcp, Admin, Submitter, User)
+	 */ 
+	@Keyword
+	public static void verifyPbacPermissionDefaults(String userRole) {
+		//Find user in Manage Users table
+		findAndEditUserByName(userRole)
+
+		//Expand the Permissions panel and Email Notifications panel
+		clickTab('CRDC/ManageUsers/PermissionsPanel-Ddn')
+		clickTab('CRDC/ManageUsers/NotificationsPanel-Ddn')
+
+		//Write expected results to sheet
+		ReadExcel.writePbacExpectedPermissionsForRole(userRole,"CRDC/Pbac/Permissions")
 	}
 }//class ends

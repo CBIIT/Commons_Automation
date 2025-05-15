@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>PermissionsPanel-Ddn</name>
+   <name>NotificationsPanel-Ddn</name>
    <tag></tag>
-   <elementGuidId>d66e25fd-092d-451f-8210-c42812a924af</elementGuidId>
+   <elementGuidId>32ece932-40c7-40c5-a9e2-4a1783856516</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@data-testid='permissions-accordion']/div[1]</value>
+         <value>//div[@data-testid='notifications-accordion']/div[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[@data-testid='permissions-accordion']/div[1]</value>
-      <webElementGuid>b181f14f-87b3-4418-8cc9-f4872278af3f</webElementGuid>
+      <value>//div[@data-testid='notifications-accordion']/div[1]</value>
+      <webElementGuid>9a70483a-5ec8-4307-89fb-289b53aeb9bb</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
