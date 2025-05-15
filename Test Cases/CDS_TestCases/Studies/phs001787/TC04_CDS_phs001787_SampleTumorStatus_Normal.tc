@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC04_CDS_phs001787_SampleTumorStatus_Normal</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>068182b6-8cae-435f-95f5-0f3b9e144043</testCaseGuid>
-</TestCaseEntity>

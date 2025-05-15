@@ -11,6 +11,7 @@
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -18,6 +19,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;checkbox_Study Name_CIDR: Discovery, Biology, and Risk of Inherited Variants in Glioma sample&quot;]</value>
-      <webElementGuid>a7965c14-a675-4208-822a-b785dc4f359c</webElementGuid>
+      <webElementGuid>a2ca2077-3b08-46e1-a10c-5255daece728</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

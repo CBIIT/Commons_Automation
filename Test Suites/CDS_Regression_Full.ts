@@ -1296,21 +1296,21 @@
       <guid>a6b119a8-a0fb-4529-8904-2bb59f968b83</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/Studies/phs001787/TC02_CDS_phs001787_Gender_Female</testCaseId>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs001787/TC02_CDS_phs001787_Gender-Female_StudyName</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>0045d235-ed69-429e-9a9a-17d60003f44c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/Studies/phs001787/TC03_CDS_phs001787_ExperimentalStrategy_WXS</testCaseId>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs001787/TC03_CDS_phs001787_ExperimentStrategy-WXS_InstrumentMakes-NotSpecifData</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>25d56008-a5b7-4852-a86f-ea4862bb504f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/Studies/phs001787/TC04_CDS_phs001787_SampleTumorStatus_Normal</testCaseId>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs001787/TC04_CDS_phs001787_SamTumorSt-Normal_FileType-BAI_StDataTypes-Genomics</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

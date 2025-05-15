@@ -1,2 +1,0 @@
-type	 study.clinical_study_designation	publication_title	authorship	year_of_publication	journal_citation	digital_object_id	pubmed_id
-publication	STS01	"Integrated analysis of canine soft tissue sarcomas identifies recurrent mutations in TP53, KMT genes and PDGFB fusions"	"Das, S et al."	2023	Sci Rep. 13(1):10422	10.1038/s41598-023-37266-y	37369741

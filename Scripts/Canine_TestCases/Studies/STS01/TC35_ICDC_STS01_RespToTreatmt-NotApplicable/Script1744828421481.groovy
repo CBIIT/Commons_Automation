@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
  */
 WebUI.closeBrowser()
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC07_ICDC_GLIOMA01_RespToTreatmt-NotDetermined.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC35_ICDC_STS01_RespToTreatmt-NotApplicable.xlsx')
 
 CustomKeywords.'utilities.TestRunner.clickTab'('Canine/Canine_PopUp_Continue_Btn')
 System.out.println ("Closed the popup window");
@@ -29,14 +29,14 @@ CustomKeywords.'utilities.TestRunner.clickTab'('Canine/NavBar/Canine_Cases_Btn')
 WebUI.waitForElementPresent(findTestObject('Canine/Filter/Study/Canine_Filter_Study'), 5)
 CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Canine/Filter/Study/Canine_Filter_Study')
 
-WebUI.waitForElementPresent(findTestObject('Canine/Filter/Study/Canine_Filter_Study-GLIOMA_Chkbx'), 5)
-CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Canine/Filter/Study/Canine_Filter_Study-GLIOMA_Chkbx')
+WebUI.waitForElementPresent(findTestObject('Canine/Filter/Study/Canine_Filter_Study-STS01_Chkbx'), 5)
+CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Canine/Filter/Study/Canine_Filter_Study-STS01_Chkbx')
 
 WebUI.waitForElementPresent(findTestObject('Canine/Filter/ResponseToTreatment/RESPONSETOTREATMENT_Ddn'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('Canine/Filter/ResponseToTreatment/RESPONSETOTREATMENT_Ddn')
 
-WebUI.waitForElementPresent(findTestObject('Canine/Filter/ResponseToTreatment/NotDetermined_Chkbx'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('Canine/Filter/ResponseToTreatment/NotDetermined_Chkbx')
+WebUI.waitForElementPresent(findTestObject('Canine/Filter/ResponseToTreatment/NotApplicable_Chkbx'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('Canine/Filter/ResponseToTreatment/NotApplicable_Chkbx')
 
 //Read Statbar
 CustomKeywords.'utilities.TestRunner.readStatBarCanine'('Canine/StatBar/Canine_StatBar-Programs','Canine/StatBar/Canine_StatBar-Studies',
