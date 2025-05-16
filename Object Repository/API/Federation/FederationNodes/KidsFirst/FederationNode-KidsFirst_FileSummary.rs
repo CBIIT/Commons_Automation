@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>AL_SubjectSummary</name>
+   <name>FederationNode-KidsFirst_FileSummary</name>
    <tag></tag>
-   <elementGuidId>1f2cb0fb-e69a-4239-b9e9-2190a34567b7</elementGuidId>
+   <elementGuidId>4309052b-81d5-46b0-a2cf-83da8109932e</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -114,7 +114,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${GlobalVariable.baseUrl}/subject/summary</restUrl>
+   <restUrl>https://ccdi.kidsfirstdrc.org/api/v1/file/summary</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

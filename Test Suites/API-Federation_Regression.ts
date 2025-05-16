@@ -172,4 +172,25 @@
       <testCaseId>Test Cases/API/Federation/Response_Comparison_AL_vs_Nodes/File_Counts/TC02_API_Federation_FilesCountBySize</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>e1277d25-e81d-4146-a2d8-7cf874f6bfe1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/API/Federation/Response_Comparison_AL_vs_Nodes/Summary_Counts/TC01_API_Federation_SubjectsSummary</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e721e5c0-62cd-4ac2-8fdf-d91c4077ec90</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/API/Federation/Response_Comparison_AL_vs_Nodes/Summary_Counts/TC02_API_Federation_SamplesSummary</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>263f9bd0-10c8-4d47-bf90-1bc83abcd261</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/API/Federation/Response_Comparison_AL_vs_Nodes/Summary_Counts/TC03_API_Federation_FilesSummary</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

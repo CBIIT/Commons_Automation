@@ -31,11 +31,11 @@ import utilities.API_Functions
 String outputDirectory = GlobalVariable.outputDirectory
 
 // Define test object paths in the Object Repository
-String api1ObjectPath = 'Object Repository/API/Federation/FederationNodes/KidsFirst/FederationNode-KidsFirst_SubjectSummary'
-String api2ObjectPath = 'Object Repository/API/Federation/FederationNodes/StJude/FederationNode-StJude_SubjectSummary'
-String api3ObjectPath = 'Object Repository/API/Federation/FederationNodes/PCDC_UChicago/FederationNode-PCDC_UChicago_SubjectSummary'
-String api4ObjectPath = 'Object Repository/API/Federation/FederationNodes/Treehouse_UCSC/FederationNode-Treehouse_SubjectSummary'
-String api5ObjectPath = 'Object Repository/API/Federation/AggregationLayer/AL_SubjectSummary'
+String api1ObjectPath = 'Object Repository/API/Federation/FederationNodes/KidsFirst/FederationNode-KidsFirst_FileSummary'
+String api2ObjectPath = 'Object Repository/API/Federation/FederationNodes/StJude/FederationNode-StJude_FileSummary'
+String api3ObjectPath = 'Object Repository/API/Federation/FederationNodes/PCDC_UChicago/FederationNode-PCDC_UChicago_FileSummary'
+String api4ObjectPath = 'Object Repository/API/Federation/FederationNodes/Treehouse_UCSC/FederationNode-Treehouse_FileSummary'
+String api5ObjectPath = 'Object Repository/API/Federation/AggregationLayer/AL_FileSummary'
 
 // Step 1: Send Request to the API and Get Response
 ResponseObject response1 = API_Functions.sendRequestAndCaptureResponse(api1ObjectPath) // for kidsfirst
