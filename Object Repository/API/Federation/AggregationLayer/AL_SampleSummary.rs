@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>AL_SubjectSummary</name>
+   <name>AL_SampleSummary</name>
    <tag></tag>
-   <elementGuidId>1f2cb0fb-e69a-4239-b9e9-2190a34567b7</elementGuidId>
+   <elementGuidId>6e31e8be-a88e-4981-836d-564151ab6e24</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -114,7 +114,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${GlobalVariable.baseUrl}/subject/summary</restUrl>
+   <restUrl>${GlobalVariable.baseUrl}/sample/summary</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

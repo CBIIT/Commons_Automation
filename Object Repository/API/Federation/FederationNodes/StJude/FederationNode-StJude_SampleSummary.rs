@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>AL_SubjectSummary</name>
+   <name>FederationNode-StJude_SampleSummary</name>
    <tag></tag>
-   <elementGuidId>1f2cb0fb-e69a-4239-b9e9-2190a34567b7</elementGuidId>
+   <elementGuidId>30fb3394-6819-40e0-8e03-9e3596988bb8</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -114,7 +114,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${GlobalVariable.baseUrl}/subject/summary</restUrl>
+   <restUrl>https://ccdi.stjude.cloud/api/v1/sample/summary</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
