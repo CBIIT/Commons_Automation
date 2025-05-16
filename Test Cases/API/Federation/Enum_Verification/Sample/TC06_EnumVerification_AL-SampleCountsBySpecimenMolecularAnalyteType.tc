@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC06_EnumVerification_AL-SampleCountsBySpecimenMoelcularAnalyteType</name>
+   <name>TC06_EnumVerification_AL-SampleCountsBySpecimenMolecularAnalyteType</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
