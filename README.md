@@ -1,16 +1,16 @@
-# 📊 Commons_Automation
+# Commons_Automation
 
 This repository contains automated test scripts for **Data Commons** applications. It provides a framework to validate data consistency by comparing UI data with CSV/TSV file sources using a hybrid tech stack including **Groovy**, **Java**, **Python**, and **Selenium**.
 
 ---
 
-## 🧰 Overview
+## Overview
 
 The framework performs automated comparisons between:
 - **UI data** collected via Katalon and Selenium.
 - **Reference data** loaded from TSV files into Python pandas DataFrames.
 
-### 🧪 Execution Flow
+### Execution Flow
 
 1. **Query File Input**: Execution begins by reading an Excel query file.
 2. **UI Interaction**: 
@@ -52,15 +52,15 @@ The framework performs automated comparisons between:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
-### 🧱 Prerequisites
+### Prerequisites
 
 - [Katalon Studio](https://www.katalon.com/)
 - [Python 3.x](https://www.python.org/)
 - Access to shared **Profiles** from SharePoint
 
-### 📥 Cloning the Repo
+### Cloning the Repo
 
 ```bash
 git clone https://github.com/CBIIT/Commons_Automation.git
