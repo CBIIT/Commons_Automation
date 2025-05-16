@@ -69,6 +69,11 @@ import org.openqa.selenium.Cookie as Cookie
 import com.kms.katalon.core.configuration.RunConfiguration
 import org.apache.poi.ss.usermodel.*
 
+import org.apache.poi.ss.usermodel.FillPatternType
+import org.apache.poi.xssf.usermodel.XSSFCellStyle
+import org.apache.poi.xssf.usermodel.XSSFColor
+import java.awt.Color
+
 class CrdcDHPbac extends TestRunner {
 
 	public static WebDriver driver
@@ -126,6 +131,221 @@ class CrdcDHPbac extends TestRunner {
 			}
 		}
 	}
+	
+	/**
+	 * Write the expected PBAC permissions for the role to Output Excel sheet
+	 * @param User role (Fedlead, Dcp, Admin, Submitter, User), path of Katalon Data File
+	 */
+	@Keyword
+	def static void writePbacExpectedPermissionsForRole(String userRole, String dataFilePath) {
+		def testData = TestDataFactory.findTestData(dataFilePath)
+		int rowCount = testData.getRowNumbers()
+
+		String outputPath = RunConfiguration.getProjectDir() + "/OutputFiles/PBAC_Defaults_Results.xlsx"
+		File file = new File(outputPath)
+		Workbook workbook = file.exists() ? new XSSFWorkbook(new FileInputStream(file)) : new XSSFWorkbook()
+		Sheet sheet = workbook.getSheet(userRole) ?: workbook.createSheet(userRole)
+
+		// Header
+		Row header = sheet.createRow(0)
+		CellStyle headerStyle = workbook.createCellStyle()
+		Font headerFont = workbook.createFont()
+		headerFont.setBold(true)
+		headerStyle.setFont(headerFont)
+		headerStyle.setFillForegroundColor(IndexedColors.GREY_25_PERCENT.getIndex());
+		headerStyle.setFillPattern(FillPatternType.SOLID_FOREGROUND);
+		String[] headers = [
+			"Permission",
+			"Expected",
+			"Actual",
+			"Result"
+		]
+		for (int i = 0; i < headers.length; i++) {
+			Cell cell = header.createCell(i)
+			cell.setCellValue(headers[i])
+			cell.setCellStyle(headerStyle)
+		}
+
+		// Adjust column widths
+		for (int columnIndex = 0; columnIndex <= 3; columnIndex++) {
+			sheet.setColumnWidth(columnIndex, 8000)
+		}
+
+		for (int i = 1; i <= rowCount; i++) {
+			String expected = testData.getValue(userRole, i)
+			String internalName = testData.getValue('Permission Internal Name', i)
+
+			if (!internalName) continue
+
+				Row row = sheet.createRow(i)
+			row.createCell(0).setCellValue(internalName)
+			row.createCell(1).setCellValue(expected)
+		}
+
+		FileOutputStream fos = new FileOutputStream(file)
+		workbook.write(fos)
+		workbook.close()
+		fos.close()
+
+		KeywordUtil.logInfo("Expected permissions for ${userRole} written to ${outputPath}")
+	}
+	
+//	/**
+//	 * Get state of all checkboxes sequentially and write to output sheet and compare
+//	 * @param User role Fedlead, Dcp, Admin, Submitter, User
+//	 */
+//	@Keyword
+//	public static void verifyPbacActualPermissionsForRole(String userRole) {
+//		
+//	    String outputPath = RunConfiguration.getProjectDir() + "/OutputFiles/PBAC_Defaults_Results.xlsx"
+//	    FileInputStream fis = new FileInputStream(outputPath)
+//	    Workbook workbook = new XSSFWorkbook(fis)
+//	    Sheet sheet = workbook.getSheet(userRole)
+//	    if (!sheet) {
+//	        KeywordUtil.markFailed("Sheet '${userRole}' not found in output file.")
+//	        return
+//	    }
+//	
+//	    // Locate all permission checkboxes
+//	    List<WebElement> checkboxes = WebUI.findWebElements(findTestObject('Object Repository/CRDC/ManageUsers/PbacOptions-Chkbx'), 10)
+//	
+//	    for (int i = 1; i <= sheet.getLastRowNum(); i++) {
+//	        Row row = sheet.getRow(i)
+//	        if (row == null) continue
+//	
+//	        Cell actualCell = row.getCell(2) ?: row.createCell(2)
+//	        Cell expectedCell = row.getCell(1)
+//	        Cell passFailCell = row.getCell(3) ?: row.createCell(3)
+//	
+//	        if (i-1 >= checkboxes.size()) {
+//	            actualCell.setCellValue("MISSING_UI")
+//	            passFailCell.setCellValue("Fail")
+//	            continue
+//	        }
+//	
+//	        WebElement cb = checkboxes[i - 1]
+//	        boolean isEnabled = cb.isEnabled()
+//	        boolean isChecked = cb.isSelected()
+//	
+//	        String actualStatus = ""
+//	        if (!isEnabled && isChecked) actualStatus = "fixed_checked"
+//	        else if (!isEnabled && !isChecked) actualStatus = "fixed_unchecked"
+//	        else if (isEnabled && isChecked) actualStatus = "checked"
+//	        else if (isEnabled && !isChecked) actualStatus = "unchecked"
+//	
+//	        actualCell.setCellValue(actualStatus)
+//	
+//	        String expected = expectedCell?.getStringCellValue()
+//	        if (expected && expected.equalsIgnoreCase(actualStatus)) {
+//	            passFailCell.setCellValue("Pass")
+//	        } else {
+//	            passFailCell.setCellValue("Fail")
+//	        }
+//	    }
+//	
+//	    fis.close()
+//	    FileOutputStream fos = new FileOutputStream(outputPath)
+//	    workbook.write(fos)
+//	    workbook.close()
+//	    fos.close()
+//	
+//	    KeywordUtil.logInfo("Actual permissions for '${userRole}' recorded and compared.")
+//	}
+	
+	
+
+	/**
+	* Get state of each PBAC permission, write to output sheet, and compare
+	* @param User role Fedlead, Dcp, Admin, Submitter, User
+	*/
+	@Keyword
+	public static void verifyPbacActualPermissionsForRole(String userRole) {
+		String outputPath = RunConfiguration.getProjectDir() + "/OutputFiles/PBAC_Defaults_Results.xlsx"
+		FileInputStream fis = new FileInputStream(outputPath)
+		Workbook workbook = new XSSFWorkbook(fis)
+		Sheet sheet = workbook.getSheet(userRole)
+		if (!sheet) {
+			KeywordUtil.markFailed("Sheet '${userRole}' not found in output file.")
+		}
+	
+		// Set up colors
+		XSSFCellStyle greenStyle = (XSSFCellStyle) workbook.createCellStyle()
+		greenStyle.setFillForegroundColor(IndexedColors.LIGHT_GREEN.index)
+		greenStyle.setFillPattern(FillPatternType.SOLID_FOREGROUND)
+
+		XSSFCellStyle redStyle = (XSSFCellStyle) workbook.createCellStyle()
+		redStyle.setFillForegroundColor(IndexedColors.RED.index)
+		redStyle.setFillPattern(FillPatternType.SOLID_FOREGROUND)
+	
+		// Locate checkboxes
+		List<WebElement> checkboxes = WebUI.findWebElements(findTestObject('CRDC/ManageUsers/PbacOptions-Chkbx'), 10)
+		
+		// Default values
+		boolean overallResult = true
+	
+		for (int i = 1; i <= sheet.getLastRowNum(); i++) {
+			Row row = sheet.getRow(i)
+			if (row == null) continue
+	
+			Cell actualCell = row.getCell(2) ?: row.createCell(2)
+			Cell expectedCell = row.getCell(1)
+			Cell passFailCell = row.getCell(3) ?: row.createCell(3)
+			
+			
+			// Handle if fewer checkboxes in UI compared to expected
+			if (i - 1 >= checkboxes.size()) {
+				actualCell.setCellValue("MISSING_UI")
+				passFailCell.setCellValue("Fail")
+				passFailCell.setCellStyle(redStyle)
+				println "Row ${i}: Expected=${expectedCell?.getStringCellValue()}, Actual=CHECKBOX_MISSING_UI -> Fail"
+				overallResult = false
+				continue
+			}
+	
+			WebElement cb = checkboxes[i - 1]
+			boolean isEnabled = cb.isEnabled()
+			boolean isChecked = cb.isSelected()
+	
+			String actualStatus = ""
+			if (!isEnabled && isChecked) actualStatus = "fixed_checked"
+			else if (!isEnabled && !isChecked) actualStatus = "fixed_unchecked"
+			else if (isEnabled && isChecked) actualStatus = "checked"
+			else if (isEnabled && !isChecked) actualStatus = "unchecked"
+			else actualStatus = "UNKNOWN"
+	
+			actualCell.setCellValue(actualStatus)
+	
+			Cell permissionNameCell = row.getCell(0)
+			String permissionName = permissionNameCell?.getStringCellValue() ?: "Unknown"
+			
+			String expected = expectedCell?.getStringCellValue()
+			if (expected && expected.equalsIgnoreCase(actualStatus)) {
+			    passFailCell.setCellValue("Pass")
+			    passFailCell.setCellStyle(greenStyle)
+			} else {
+			    passFailCell.setCellValue("Fail")
+			    passFailCell.setCellStyle(redStyle)
+				overallResult = false
+			}
+			
+			// Console output
+			KeywordUtil.logInfo("Row ${i} - ${permissionName} | Expected: ${expected} | Actual: ${actualStatus} | Result: ${passFailCell.getStringCellValue()}")
+		}
+	
+		fis.close()
+		FileOutputStream fos = new FileOutputStream(outputPath)
+		workbook.write(fos)
+		workbook.close()
+		fos.close()
+	
+		if (overallResult == false) {
+			KeywordUtil.markFailed("There is a FAILURE -- verify in output Excel: "+ outputPath)
+		} else {
+		KeywordUtil.logInfo("Actual permissions for '${userRole}' recorded and compared.")
+		}
+	}
+	
+
 
 	/**
 	 * Verifies the PBAC Permissions for the user
@@ -141,6 +361,9 @@ class CrdcDHPbac extends TestRunner {
 		clickTab('CRDC/ManageUsers/NotificationsPanel-Ddn')
 
 		//Write expected results to sheet
-		ReadExcel.writePbacExpectedPermissionsForRole(userRole,"CRDC/Pbac/Permissions")
+		writePbacExpectedPermissionsForRole(userRole,"CRDC/Pbac/Permissions")
+		
+		//Verify results
+		verifyPbacActualPermissionsForRole(userRole)
 	}
 }//class ends

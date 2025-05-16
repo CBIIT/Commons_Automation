@@ -46,6 +46,6 @@ CustomKeywords.'utilities.TestRunner.clickTab'('CRDC/Login/UserProfile-Dd')
 CustomKeywords.'utilities.TestRunner.clickTab'('CRDC/NavBar/ManageUsers-Btn')
 
 //Verify PBAC permissions for role
-CustomKeywords.'utilities.CrdcDHPbac.verifyPbacPermissionDefaults'('Fedlead')
+CustomKeywords.'utilities.CrdcDHPbac.verifyPbacPermissionDefaults'('Dcp')
 
 WebUI.closeBrowser()
