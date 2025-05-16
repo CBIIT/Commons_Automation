@@ -7,7 +7,7 @@
    <containsHeaders>false</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>5e820b68-0493-4937-9691-6ab4a67b62f1</dataFileGUID>
-   <dataSourceUrl>../../../Projects/Federation/AllowedValues.xlsx</dataSourceUrl>
+   <dataSourceUrl>InputFiles/API/Federation/AllowedValues.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
    <properties>
@@ -18,6 +18,6 @@
    </properties>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>SampleTumorClassification</sheetName>
+   <sheetName>SampTumor</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>
