@@ -290,8 +290,9 @@ class CrdcDHPbac extends TestRunner {
 	@Keyword
 	public static void verifyPbacPermissionDefaults(String userRole) {
 		String loggedInAs = WebUI.getText(findTestObject('CRDC/Login/UserProfile-Dd'))
+		KeywordUtil.logInfo("Logged in as: '${loggedInAs}' and verifying permissions for: '${userRole}'")
 		
-		//As admin user, find user in Manage Users table
+		//As admin user only, find user in Manage Users table
 		if (loggedInAs.toLowerCase().contains("admin") && !userRole.equalsIgnoreCase("admin-self")) { // if verifying self as admin, skip search
 			findAndEditUserByName(userRole)
 		}
