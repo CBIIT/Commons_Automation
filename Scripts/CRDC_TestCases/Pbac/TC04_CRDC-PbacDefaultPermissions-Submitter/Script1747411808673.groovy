@@ -37,6 +37,7 @@ import java.nio.file.Paths as Paths
 WebUI.closeBrowser()
 
 CustomKeywords.'utilities.CrdcDH.navigateToCrdc'()
+WebUI.setViewPortSize(1920, 1080)
 
 //Login as Admin
 CustomKeywords.'utilities.CrdcDH.loginToCrdcOtp'('Admin')
