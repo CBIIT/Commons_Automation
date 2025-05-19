@@ -1194,4 +1194,13 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 			KeywordUtil.markFailed("OTP failed after 2 attempts.")
 		}
 	}
+
+	/**
+	 * This function logs out from CRDC 
+	 */
+	@Keyword
+	public static void logoutFromCrdc() {
+		clickTab('CRDC/Login/UserProfile-Dd')
+		clickTab('CRDC/Login/Logout-Link')
+	}
 }//class ends
