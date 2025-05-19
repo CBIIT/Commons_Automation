@@ -1152,7 +1152,8 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 		WebUI.setText(findTestObject('CRDC/Login/Login.gov_UserPass-TxtBx'), userPassword)
 		clickTab('CRDC/Login/Login.gov_SignIn-Btn')
 
-		String pythonPath = "/Users/leungvw/vincent_testEnv/bin/python3"
+		//String pythonPath = "/Users/leungvw/vincent_testEnv/bin/python3"
+		String pythonPath = "python3"
 		String scriptPath = "${System.getProperty('user.dir')}/PythonFiles/CRDC/GenerateOtp.py"
 
 		// Generate OTP
