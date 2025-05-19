@@ -289,8 +289,12 @@ class CrdcDHPbac extends TestRunner {
 	 */ 
 	@Keyword
 	public static void verifyPbacPermissionDefaults(String userRole) {
-		//Find user in Manage Users table
-		findAndEditUserByName(userRole)
+		String loggedInAs = WebUI.getText(findTestObject('CRDC/Login/UserProfile-Dd'))
+		
+		//As admin user, find user in Manage Users table
+		if (loggedInAs.toLowerCase().contains("admin") && !userRole.equalsIgnoreCase("admin-self")) { // if verifying self as admin, skip search
+			findAndEditUserByName(userRole)
+		}
 
 		//Expand the Permissions panel and Email Notifications panel
 		clickTab('CRDC/ManageUsers/PermissionsPanel-Ddn')
