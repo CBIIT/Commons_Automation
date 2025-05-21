@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
  */
 WebUI.closeBrowser()
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC03_CDS_phs001713_ExperimentalStrategy_TargetedCapture.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC02_CDS_phs001713_SampleTumorStatus-Normal_SampleType-DNA.xlsx')
 
 CustomKeywords.'utilities.TestRunner.clickTab'('Bento/Banner/Bento_Warning_Continue_Btn')
 
@@ -30,22 +30,30 @@ CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/NavBar/CDS_Data-Btn')
 WebUI.waitForElementPresent(findTestObject('CDS/Data_page/Filter/StudyFacet/PHS_Accession/PHS_Accession_Ddn'),5)
 CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/Data_page/Filter/StudyFacet/PHS_Accession/PHS_Accession_Ddn')
 
-//Clicking checkbox phs002431
+//Clicking checkbox 
 WebUI.waitForElementPresent(findTestObject('CDS/Data_page/Filter/StudyFacet/PHS_Accession/phs001713_Chkbx'),5)
 CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/Data_page/Filter/StudyFacet/PHS_Accession/phs001713_Chkbx')
 
-//Clicking Experimental Strategy dropdown
-WebUI.waitForElementPresent(findTestObject('CDS/Data_page/Filter/StudyFacet/ExperimentalStrategy/ExperimentalStrategy_Ddn'),5)
-CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/Data_page/Filter/StudyFacet/ExperimentalStrategy/ExperimentalStrategy_Ddn')
+//Clicking Sample Tumor Status dropdown
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/SamplesFacet/SampleTumorStatus/SampleTumorStatus-Ddn'),5)
+CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/SamplesFacet/SampleTumorStatus/SampleTumorStatus-Ddn')
 
-//Clicking WXS checkbox
-WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/StudyFacet/ExperimentalStrategy/TargetedCapture-Chkbx'),5)
-CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/StudyFacet/ExperimentalStrategy/TargetedCapture-Chkbx')
+//Clicking  checkbox
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/SamplesFacet/SampleTumorStatus/Normal_Chkbx'),5)
+CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/SamplesFacet/SampleTumorStatus/Normal_Chkbx')
+
+//Clicking Sample Type dropdown
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/SamplesFacet/SampleType/SampleType-Ddn'),5)
+CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/SamplesFacet/SampleType/SampleType-Ddn')
+
+//Clicking checkbox
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/SamplesFacet/SampleType/DNA_Chkbx'),5)
+CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/SamplesFacet/SampleType/DNA_Chkbx')
+
 
 //Read statbar
 CustomKeywords.'utilities.TestRunner.readStatBarCDS'('Object Repository/CDS/StatBar/CDS_StatBar-Studies',
  'Object Repository/CDS/StatBar/CDS_StatBar-Participants','Object Repository/CDS/StatBar/CDS_StatBar-Samples', 'Object Repository/CDS/StatBar/CDS_StatBar-Files')
-
 
 //Clicking participants tab
 WebUI.waitForElementPresent(findTestObject('CDS/Data_page/CDSResults_Participants_Tab'), 5)

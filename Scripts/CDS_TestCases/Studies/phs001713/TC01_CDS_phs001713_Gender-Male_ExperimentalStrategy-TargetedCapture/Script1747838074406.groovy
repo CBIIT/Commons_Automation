@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
  */
 WebUI.closeBrowser()
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC01_CDS_phs001713.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC01_CDS_phs001713_Gender-Male_ExperimentalStrategy-TargetedCapture.xlsx')
 
 CustomKeywords.'utilities.TestRunner.clickTab'('Bento/Banner/Bento_Warning_Continue_Btn')
 
@@ -33,6 +33,26 @@ CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/Data_page/Filter/Stud
 //Clicking checkbox phs001819
 WebUI.waitForElementPresent(findTestObject('CDS/Data_page/Filter/StudyFacet/PHS_Accession/phs001713_Chkbx'),5)
 CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/Data_page/Filter/StudyFacet/PHS_Accession/phs001713_Chkbx')
+
+//Clicking Phs Accession dropdown
+WebUI.waitForElementPresent(findTestObject('CDS/Data_page/Filter/StudyFacet/PHS_Accession/PHS_Accession_Ddn'),5)
+CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/Data_page/Filter/StudyFacet/PHS_Accession/PHS_Accession_Ddn')
+
+//Clicking Gender dropdown
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/DemographicsFacet/Sex/Sex-Ddn'),5)
+CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/DemographicsFacet/Sex/Sex-Ddn')
+
+//Clicking Male checkbox
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/DemographicsFacet/Sex/Male-Chkbx'),5)
+CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/DemographicsFacet/Sex/Male-Chkbx')
+
+//Clicking Experimental Strategy dropdown
+WebUI.waitForElementPresent(findTestObject('CDS/Data_page/Filter/StudyFacet/ExperimentalStrategy/ExperimentalStrategy_Ddn'),5)
+CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/Data_page/Filter/StudyFacet/ExperimentalStrategy/ExperimentalStrategy_Ddn')
+
+//Clicking checkbox
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/StudyFacet/ExperimentalStrategy/TargetedCapture-Chkbx'),5)
+CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/StudyFacet/ExperimentalStrategy/TargetedCapture-Chkbx')
 
 //Read statbar
 CustomKeywords.'utilities.TestRunner.readStatBarCDS'('Object Repository/CDS/StatBar/CDS_StatBar-Studies',

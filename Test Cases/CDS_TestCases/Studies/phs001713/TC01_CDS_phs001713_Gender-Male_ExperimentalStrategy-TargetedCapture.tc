@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC04_CDS_phs001713_SampleTumorStatus_Normal</name>
+   <name>TC01_CDS_phs001713_Gender-Male_ExperimentalStrategy-TargetedCapture</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>3d261b50-a4e1-4f74-a5fd-1f7cb7065416</testCaseGuid>
+   <testCaseGuid>b20614c3-da59-49bc-85d9-1bc6f30ad5c8</testCaseGuid>
 </TestCaseEntity>
