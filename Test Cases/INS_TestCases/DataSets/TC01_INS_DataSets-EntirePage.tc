@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_INS_DataSets-EntirePage</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8a448bee-877d-4cb6-9cce-23996849b497</testCaseGuid>
+</TestCaseEntity>
