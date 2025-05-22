@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC03_CDS_phs002250_ExperimentalStrategy_WGS</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>4f6e06fc-98fa-4cc7-913c-907ef7331235</testCaseGuid>
-</TestCaseEntity>

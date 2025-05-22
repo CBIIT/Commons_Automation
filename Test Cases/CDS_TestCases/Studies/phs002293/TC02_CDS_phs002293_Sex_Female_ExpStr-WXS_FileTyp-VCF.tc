@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_CDS_phs002293_Sex_Female_ExpStr-WXS_FileTyp-VCF</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>881d5ff1-d472-4304-86a6-7208164eb27a</testCaseGuid>
+</TestCaseEntity>

@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_PRIMARY DIAGNOSIS_Glioma&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Primary Diagnosis_Glioma&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_PRIMARY DIAGNOSIS_Glioma&quot;]</value>
-      <webElementGuid>724ae825-9c96-443e-a50b-2170ccf21632</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Primary Diagnosis_Glioma&quot;]</value>
+      <webElementGuid>72996f81-bffb-4463-bc82-5fb1726b0977</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

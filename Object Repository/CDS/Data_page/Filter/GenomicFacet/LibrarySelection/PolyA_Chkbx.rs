@@ -10,16 +10,18 @@
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_library selection_PolyA&quot;]</value>
-      <webElementGuid>645de8a9-9c1e-4e27-a412-0a949f21b4b5</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Library Selection_Poly-A Enriched Genomic Library&quot;]</value>
+      <webElementGuid>c415bf46-6712-45bd-b33e-9060ebd9d812</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
