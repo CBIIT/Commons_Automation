@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC13_CDS_phs001713_FileType_FASTQ</name>
+   <name>TC05_CDS_phs001713_LibrarySource-Genomic_LibraryLayout-PairedEnd</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>fbd53497-ac1d-444f-8256-715b45cf4705</testCaseGuid>
+   <testCaseGuid>c2de11b3-2244-41b6-880b-17608e08e5a0</testCaseGuid>
 </TestCaseEntity>
