@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_sample type_Tissue&quot;]</value>
+         <value>//*[@id=&quot;checkbox_sample type_Primary Xenograft Tissue&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_sample type_Tissue&quot;]</value>
-      <webElementGuid>a540e3ac-9447-474d-88f6-50631e9ae237</webElementGuid>
+      <value>//*[@id=&quot;checkbox_sample type_Primary Xenograft Tissue&quot;]</value>
+      <webElementGuid>4c649779-9e50-45cf-80af-dd0f1bc63ca1</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

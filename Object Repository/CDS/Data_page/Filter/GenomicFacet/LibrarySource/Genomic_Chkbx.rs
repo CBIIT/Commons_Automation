@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Library Source_Genomic&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Library Source Molecule_Genomic DNA&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Library Source_Genomic&quot;]</value>
-      <webElementGuid>ef852cb3-4b8f-43fb-870a-9030f2e940e1</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Library Source Molecule_Genomic DNA&quot;]</value>
+      <webElementGuid>9731c522-402d-4ef9-88a5-7dd87341a339</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -1394,35 +1394,35 @@
       <guid>f5f815e1-973b-46f8-bafa-5a4e72518bec</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/Studies/phs001980/TC02_CDS_phs001980_Gender_Male</testCaseId>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs001980/TC01_CDS_phs001980_SmpTumSta-Tumor_SmpType-PrimaryxenoTissue_LibStr_RNA-Seq</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>49671406-a72c-4ff1-abbf-9ce2ed4efa08</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/Studies/phs001980/TC03_CDS_phs001980_ExperimentalStrategy_WXS</testCaseId>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs001980/TC02_CDS_phs001980_RefGen_GRCh37_Platform-Illumina_LibSrc-Genomic</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>86e97f2a-cae1-44ae-ae3c-5b41efdbaaff</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/Studies/phs001980/TC04_CDS_phs001980_SampleTumorStatus_Tumor</testCaseId>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs001980/TC03_CDS_phs001980_Sex_Male_ExpStr-WXS_FileTyp-BAM.xlsx</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>c1772cb2-6f8b-4fd5-b315-fb5e272508fd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/Studies/phs001980/TC05_CDS_phs001980_SampleType_Tumor</testCaseId>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs001980/TC04_CDS_phs001980_LibSel-RAN_LibLay-PairedEnd_InstMod-IlluminaHiSeq4000</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>3a02b99a-0461-4a90-a237-dc219598d80b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/Studies/phs001980/TC06_CDS_phs001980_LibraryStrategy_WXS</testCaseId>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs001980/TC05_CDS_phs001980_Sex-Female_PrimDiag_Lymphoma_FileType-FASTQ</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
