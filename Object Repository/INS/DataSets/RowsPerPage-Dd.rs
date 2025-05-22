@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>RowsPerPage-Dd</name>
+   <tag></tag>
+   <elementGuidId>ab735263-d358-4283-ac39-3f60569c0b25</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class='dropdown']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class='dropdown']</value>
+      <webElementGuid>dfe54f85-b34b-4b37-9155-91de3ea68587</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

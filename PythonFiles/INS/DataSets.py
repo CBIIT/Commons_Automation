@@ -125,7 +125,9 @@ def is_date_format(date_str, date_format):
 
 # Index columns for each TSV file
 index_columns = {
-    'old_datasets': 'dbGaP_phs'
+    'cedcd_datasets': 'dataset_source_id',
+    'dbgap_datasets': 'dataset_source_id',
+    'geo_datasets': 'dataset_source_id'
 }
 
 
@@ -154,13 +156,19 @@ def write_to_excel(output_excel, sheet_name, result_df):
 dataframes = load_and_merge_versions(get_tsv_files_path(), index_columns)
 
 # Now each dataframe can be accessed from the dataframes dictionary
-df_old_datasets = dataframes['old_datasets']
+df_cedcd = dataframes['cedcd_datasets']
+df_dbgap = dataframes['dbgap_datasets']
+df_geo = dataframes['geo_datasets']
 
 
 
 #Print each DataFrame
-print("DataFrame: df_old_datasets")
-print(df_old_datasets)
+print("DataFrame: df_cedcd_datasets")
+print(df_cedcd)
+print("DataFrame: df_dbgap_datasets")
+print(df_dbgap)
+print("DataFrame: df_geo_datasets")
+print(df_geo)
 
 
 df_run_query = lambda q: ps.sqldf(q, globals())
