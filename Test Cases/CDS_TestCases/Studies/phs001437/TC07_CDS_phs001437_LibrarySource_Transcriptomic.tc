@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC07_CDS_phs001437_LibrarySource_Transcriptomic</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>a803fbf1-d514-4744-96e2-b8f6e623711b</testCaseGuid>
-</TestCaseEntity>

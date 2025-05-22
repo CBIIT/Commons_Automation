@@ -65,6 +65,7 @@ class API_Functions {
 		
 // Load the API request object
     RequestObject request = findTestObject(apiObjectPath)
+	println("This is the request URL: " + request.getRestUrl())
 
     // Set timeouts using global configuration
     request.setHttpHeaderProperties([
@@ -148,6 +149,14 @@ class API_Functions {
 					KeywordUtil.markFailedAndStop("No entry with 'source: Treehouse' found in the response.")
 				}
 				return treehouseEntry
+				
+			case 'ccdi-ecDNA':
+				def ecdnaEntry = responseData.find { it.source == 'ccdi-ecDNA' }
+				if (ecdnaEntry == null) {
+					KeywordUtil.markFailedAndStop("No entry with 'source: ccdi-ecDNA' found in the response.")
+				}
+				return ecdnaEntry
+				
 			default:
 				KeywordUtil.markFailedAndStop("No entry found for the provided key: ${key}")
 		}

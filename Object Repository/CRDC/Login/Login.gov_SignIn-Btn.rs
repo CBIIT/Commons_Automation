@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//button[ text()='Sign in' and @type='submit' ]</value>
+         <value>//button[ text()='Submit' and @type='submit' ]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//button[ text()='Sign in' and @type='submit' ]</value>
-      <webElementGuid>4aacb2ad-5588-4d64-8de1-7b35c3a54e84</webElementGuid>
+      <value>//button[ text()='Submit' and @type='submit' ]</value>
+      <webElementGuid>e1f0cd11-b61f-45b8-9f1f-854116f80f5c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
