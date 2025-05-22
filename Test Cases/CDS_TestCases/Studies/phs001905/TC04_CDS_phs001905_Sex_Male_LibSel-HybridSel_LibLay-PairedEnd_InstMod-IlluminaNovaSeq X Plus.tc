@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_CDS_phs001905_Sex_Male_LibSel-HybridSel_LibLay-PairedEnd_InstMod-IlluminaNovaSeq X Plus</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9c995856-5275-4c15-8756-8584a690d192</testCaseGuid>
+</TestCaseEntity>

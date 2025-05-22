@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_CDS_phs001905_Sex-Female_PrimDiag_Adenoma_FileType-CRAI</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a567a5f7-9ff9-4f1f-9ade-c86a89878ee4</testCaseGuid>
+</TestCaseEntity>

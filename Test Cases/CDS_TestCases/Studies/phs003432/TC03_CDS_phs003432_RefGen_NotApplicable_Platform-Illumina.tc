@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_CDS_phs003432_RefGen_NotApplicable_Platform-Illumina</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5d3bd224-c31a-4ffd-802d-f002c0e01805</testCaseGuid>
+</TestCaseEntity>

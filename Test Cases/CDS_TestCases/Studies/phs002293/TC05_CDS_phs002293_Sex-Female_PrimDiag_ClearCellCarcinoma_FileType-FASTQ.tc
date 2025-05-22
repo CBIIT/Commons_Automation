@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_CDS_phs002293_Sex-Female_PrimDiag_ClearCellCarcinoma_FileType-FASTQ</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>737800e9-070e-4f38-81df-261095ee2630</testCaseGuid>
+</TestCaseEntity>

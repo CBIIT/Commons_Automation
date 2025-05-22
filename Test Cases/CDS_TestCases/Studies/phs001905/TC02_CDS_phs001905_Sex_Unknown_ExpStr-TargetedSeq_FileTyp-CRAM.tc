@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_CDS_phs001905_Sex_Unknown_ExpStr-TargetedSeq_FileTyp-CRAM</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c0d64695-0116-4983-82d0-7c0d95fca165</testCaseGuid>
+</TestCaseEntity>
