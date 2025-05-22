@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC10_CDS_phs001713_Platform_Illumina</name>
+   <name>TC03_CDS_phs001713_Platform-Illumina_InstrumentModel-NextSeq500</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>

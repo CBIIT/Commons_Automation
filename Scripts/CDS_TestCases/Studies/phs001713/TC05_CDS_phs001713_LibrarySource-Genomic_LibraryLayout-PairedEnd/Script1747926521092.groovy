@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
  */
 WebUI.closeBrowser()
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC10_CDS_phs001713_Platform_Illumina.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC05_CDS_phs001713_LibrarySource-Genomic_LibraryLayout-PairedEnd.xlsx')
 
 CustomKeywords.'utilities.TestRunner.clickTab'('Bento/Banner/Bento_Warning_Continue_Btn')
 
@@ -34,13 +34,21 @@ CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/Data_page/Filter/Stud
 WebUI.waitForElementPresent(findTestObject('CDS/Data_page/Filter/StudyFacet/PHS_Accession/phs001713_Chkbx'),5)
 CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/Data_page/Filter/StudyFacet/PHS_Accession/phs001713_Chkbx')
 
-//Clicking Platform
-WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/GenomicFacet/Platform/platform_Ddn'),5)
-CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/SequencingFacet/Platform/platform_Ddn')
+//Clicking Library Source dropdown
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/GenomicFacet/LibrarySource/LibrarySourceMolecule_Ddn'),5)
+CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/GenomicFacet/LibrarySource/LibrarySourceMolecule_Ddn')
 
-//Clicking Illumina checkbox
-WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/GenomicFacet/Platform/ILLUMINA-Chkbx'),5)
-CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/SequencingFacet/Platform/ILLUMINA-Chkbx')
+//Clicking Genomic checkbox
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/GenomicFacet/LibrarySource/Genomic_Chkbx'),5)
+CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/GenomicFacet/LibrarySource/Genomic_Chkbx')
+
+//Clicking Library layout dropdown
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/GenomicFacet/LibraryLayout/LibraryLayout_Ddn'),5)
+CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/GenomicFacet/LibraryLayout/LibraryLayout_Ddn')
+
+//Clicking paired end checkbox
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/GenomicFacet/LibraryLayout/Pairedend_Chkbx'),5)
+CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/GenomicFacet/LibraryLayout/Pairedend_Chkbx')
 
 //Read statbar
 CustomKeywords.'utilities.TestRunner.readStatBarCDS'('Object Repository/CDS/StatBar/CDS_StatBar-Studies',

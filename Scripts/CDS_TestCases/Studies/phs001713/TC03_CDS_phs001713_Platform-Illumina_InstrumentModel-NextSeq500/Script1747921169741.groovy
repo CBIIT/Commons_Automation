@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
  */
 WebUI.closeBrowser()
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC08_CDS_phs001713_LibraryLayout_PairedEnd.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC03_CDS_phs001713_Platform-Illumina_InstrumentModel-NextSeq500.xlsx')
 
 CustomKeywords.'utilities.TestRunner.clickTab'('Bento/Banner/Bento_Warning_Continue_Btn')
 
@@ -33,18 +33,22 @@ CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/Data_page/Filter/Stud
 //Clicking checkbox phs001819
 WebUI.waitForElementPresent(findTestObject('CDS/Data_page/Filter/StudyFacet/PHS_Accession/phs001713_Chkbx'),5)
 CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/Data_page/Filter/StudyFacet/PHS_Accession/phs001713_Chkbx')
-/*
-//Clicking Phs Accession dropdown
-WebUI.waitForElementPresent(findTestObject('CDS/Data_page/Filter/StudyFacet/PHS_Accession/PHS_Accession_Ddn'),5)
-CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/Data_page/Filter/StudyFacet/PHS_Accession/PHS_Accession_Ddn')*/
 
-//Clicking Library layout dropdown
-WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/GenomicFacet/LibraryLayout/LibraryLayout_Ddn'),5)
-CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/GenomicFacet/LibraryLayout/LibraryLayout_Ddn')
+//Clicking Platform
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/GenomicFacet/Platform/platform_Ddn'),5)
+CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/SequencingFacet/Platform/platform_Ddn')
 
-//Clicking paired end checkbox
-WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/GenomicFacet/LibraryLayout/Pairedend_Chkbx'),5)
-CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/GenomicFacet/LibraryLayout/Pairedend_Chkbx')
+//Clicking Illumina checkbox
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/GenomicFacet/Platform/ILLUMINA-Chkbx'),5)
+CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/SequencingFacet/Platform/ILLUMINA-Chkbx')
+
+//Clicking Instrument Model dropdown
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/GenomicFacet/InstrumentModel/Instrument_model_Ddn'),5)
+CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/SequencingFacet/InstrumentModel/Instrument_model_Ddn')
+
+//Clicking IlluminaHiSeq2000 checkbox
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/GenomicFacet/InstrumentModel/IlluminaNextSeq500_Chkbx'),5)
+CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/SequencingFacet/InstrumentModel/IlluminaNextSeq500_Chkbx')
 
 //Read statbar
 CustomKeywords.'utilities.TestRunner.readStatBarCDS'('Object Repository/CDS/StatBar/CDS_StatBar-Studies',
