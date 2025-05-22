@@ -26,42 +26,44 @@ import groovy.json.JsonOutput
 import com.kms.katalon.core.util.KeywordUtil
 
 import utilities.API_Functions
-
-// Define the directory where you want to save the text files
-String outputDirectory = GlobalVariable.outputDirectory
-
-// Define test object paths in the Object Repository
-String api1ObjectPath = 'Object Repository/API/Federation/FederationNodes/KidsFirst/Samples-PreservationMethod'
-String api2ObjectPath = 'Object Repository/API/Federation/FederationNodes/StJude/Samples-PreservationMethod'
-String api3ObjectPath = 'Object Repository/API/Federation/FederationNodes/PCDC_UChicago/Samples-PreservationMethod'
-String api4ObjectPath = 'Object Repository/API/Federation/FederationNodes/Treehouse_UCSC/Samples-PreservationMethod'
-String api5ObjectPath = 'Object Repository/API/Federation/AggregationLayer/AL_SampleCounts_by_PreservationMethod'
  
-// Step 1: Send Request to the API and Get Response
-ResponseObject response1 = API_Functions.sendRequestAndCaptureResponse(api1ObjectPath) // for kidsfirst
-ResponseObject response2 = API_Functions.sendRequestAndCaptureResponse(api2ObjectPath) //for st jude
-ResponseObject response3 = API_Functions.sendRequestAndCaptureResponse(api3ObjectPath) //for pcdc uchicago
-ResponseObject response4 = API_Functions.sendRequestAndCaptureResponse(api4ObjectPath) //for treehouse
-ResponseObject response5 = API_Functions.sendRequestAndCaptureResponse(api5ObjectPath)  // for AL response
+// Define test object paths in the Object Repository
+String objectPathKidsFirst = 'Object Repository/API/Federation/FederationNodes/KidsFirst/Samples-PreservationMethod'
+String objectPathStJude = 'Object Repository/API/Federation/FederationNodes/StJude/Samples-PreservationMethod'
+String objectPathPcdc = 'Object Repository/API/Federation/FederationNodes/PCDC_UChicago/Samples-PreservationMethod'
+String objectPathTreehouse = 'Object Repository/API/Federation/FederationNodes/Treehouse_UCSC/Samples-PreservationMethod'
+String objectPathEcdna = 'Object Repository/API/Federation/FederationNodes/ecDNA/Samples-PreservationMethod'
+String objectPathAggLayer = 'Object Repository/API/Federation/AggregationLayer/AL_SampleCounts_by_PreservationMethod'
+ 
+// Step 1: Send requests to the individual API Federation member nodes and get responses
+ResponseObject responseKidsFirst = API_Functions.sendRequestAndCaptureResponse(objectPathKidsFirst) // for Kids First
+ResponseObject responseStJude = API_Functions.sendRequestAndCaptureResponse(objectPathStJude) //for St Jude
+ResponseObject responsePcdc = API_Functions.sendRequestAndCaptureResponse(objectPathPcdc) //for PCDC UChicago
+ResponseObject responseTreehouse = API_Functions.sendRequestAndCaptureResponse(objectPathTreehouse) //for Treehouse
+ResponseObject responseEcdna = API_Functions.sendRequestAndCaptureResponse(objectPathEcdna) //for ecDNA
+ResponseObject responseAggLayer = API_Functions.sendRequestAndCaptureResponse(objectPathAggLayer)  // for Aggregated Layer response
 
-// Step 3: Parse all the Responses
-def response1Data = API_Functions.parseResponse(response1) //kidsfirst
-def response2Data = API_Functions.parseResponse(response2) //stjude
-def response3Data = API_Functions.parseResponse(response3) //pcdc
-def response4Data = API_Functions.parseResponse(response4) //treehouse
-def response5Data = API_Functions.parseResponse(response5) //AL response
+// Step 2: Parse all the responses
+def responseDataKidsFirst = API_Functions.parseResponse(responseKidsFirst) //kidsfirst
+def responseDataStJude = API_Functions.parseResponse(responseStJude) //stjude
+def responseDataPcdc = API_Functions.parseResponse(responsePcdc) //pcdc
+def responseDataTreehouse = API_Functions.parseResponse(responseTreehouse) //treehouse
+def responseDataEcdna = API_Functions.parseResponse(responseEcdna) //ecdna
+def responseDataAggLayer = API_Functions.parseResponse(responseAggLayer) //AL
 
-// Step 4: Extract the Entry from the AL API Response based on the specified key/source value
-def kidsFirstEntry = API_Functions.findEntry(response5Data, 'KidsFirst')
-def stJudeEntry = API_Functions.findEntry(response5Data, 'StJude')
-def pcdcEntry = API_Functions.findEntry(response5Data, 'PCDC')
-def treehouseEntry = API_Functions.findEntry(response5Data, 'Treehouse')
+// Step 3: Extract the individual node entries from the Aggregated Layer API response
+def aggLayerEntryKidsFirst = API_Functions.findEntry(responseDataAggLayer, 'KidsFirst')
+def aggLayerEntryStJude = API_Functions.findEntry(responseDataAggLayer, 'StJude')
+def aggLayerEntryPcdc = API_Functions.findEntry(responseDataAggLayer, 'PCDC')
+def aggLayerEntryTreehouse = API_Functions.findEntry(responseDataAggLayer, 'Treehouse')
+def aggLayerEntryEcdna = API_Functions.findEntry(responseDataAggLayer, 'ccdi-ecDNA')
 
-// Step 5: Compare the Properties of the AL extracted Entry Against the single node API Response
-API_Functions.compareAPIResponses(response1Data, kidsFirstEntry, 'KidsFirst')
-API_Functions.compareAPIResponses(response2Data, stJudeEntry, 'StJude')
-API_Functions.compareAPIResponses(response3Data, pcdcEntry, 'PCDC')
-API_Functions.compareAPIResponses(response4Data, treehouseEntry, 'Treehouse')
+// Step 4: Compare the properties of the single node API response (step 2) against the AL extracted entry (step 3)
+API_Functions.compareAPIResponses(responseDataKidsFirst, aggLayerEntryKidsFirst, 'KidsFirst')
+API_Functions.compareAPIResponses(responseDataStJude, aggLayerEntryStJude, 'StJude')
+API_Functions.compareAPIResponses(responseDataPcdc, aggLayerEntryPcdc, 'PCDC')
+API_Functions.compareAPIResponses(responseDataTreehouse, aggLayerEntryTreehouse, 'Treehouse')
+API_Functions.compareAPIResponses(responseDataEcdna, aggLayerEntryEcdna, 'ccdi-ecDNA')
 
-// Step 6: If comparison succeeds
+// Step 5: If comparison succeeds
 KeywordUtil.markPassed("The entry in the AL API response matches the node level API response.")

@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;image modality&quot;]/div[2]</value>
+         <value>//*[@id=&quot;Image Modality&quot;]/div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;image modality&quot;]/div[2]</value>
-      <webElementGuid>cbefa48a-88f3-4f07-83f8-608df6a7e1ed</webElementGuid>
+      <value>//*[@id=&quot;Image Modality&quot;]/div[2]</value>
+      <webElementGuid>11199fa7-386a-4696-bb04-221af0d06f7f</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

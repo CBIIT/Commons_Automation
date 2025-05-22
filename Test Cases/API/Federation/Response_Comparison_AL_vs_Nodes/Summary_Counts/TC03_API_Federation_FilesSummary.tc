@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_API_Federation_FilesSummary</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e3c213ae-dfe4-4dd6-8b34-3ff516ee9819</testCaseGuid>
+</TestCaseEntity>
