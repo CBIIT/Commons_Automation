@@ -15,7 +15,7 @@
       <guid>0c7a5b77-e8ca-41c2-9097-7d17e82c6289</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/INS_TestCases/DataSets/TC01_INS_DataSets-EntirePage</testCaseId>
+      <testCaseId>Test Cases/INS_TestCases/DataSets/TC01_INS_DataSets_Repository-CEDCD</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

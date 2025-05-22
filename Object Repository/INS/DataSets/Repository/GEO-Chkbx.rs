@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>GEO-Chkbx</name>
+   <tag></tag>
+   <elementGuidId>02c48757-cb02-46e0-80df-57f612aa016d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@value='GEO']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@value='GEO']</value>
+      <webElementGuid>e119e067-3d95-4f7c-96ae-1fc1b53ce4d2</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
