@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_CDS_phs001713_SampleTumorStatus-Normal_SampleType-DNA</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3d261b50-a4e1-4f74-a5fd-1f7cb7065416</testCaseGuid>
+</TestCaseEntity>

@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>UserProfile-Dd</name>
+   <name>RoleDdn-Option</name>
    <tag></tag>
-   <elementGuidId>b94eda03-3f52-41e9-82c1-0fde779e2477</elementGuidId>
+   <elementGuidId>d9b302bd-604d-4e71-8682-e3e7e2375bac</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;navbar-dropdown-name&quot;]</value>
+         <value>//li[text()='${role}']
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +19,8 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;navbar-dropdown-name&quot;]</value>
-      <webElementGuid>ec5109e0-ec39-48d3-ac6b-dae2dc74e7c5</webElementGuid>
+      <value>//li[text()='${role}']
+</value>
+      <webElementGuid>b6acb7d0-ffe2-4f37-9e1a-0249a11c6770</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
