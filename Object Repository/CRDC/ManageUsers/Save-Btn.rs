@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>UserProfile-Dd</name>
+   <name>Save-Btn</name>
    <tag></tag>
-   <elementGuidId>b94eda03-3f52-41e9-82c1-0fde779e2477</elementGuidId>
+   <elementGuidId>d028bba8-87ec-4466-8ec7-21ccf29371ee</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;navbar-dropdown-name&quot;]</value>
+         <value>//button[text()='Save']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;navbar-dropdown-name&quot;]</value>
-      <webElementGuid>ec5109e0-ec39-48d3-ac6b-dae2dc74e7c5</webElementGuid>
+      <value>//button[text()='Save']</value>
+      <webElementGuid>b5a4436e-fadb-4a81-9616-641bab1cbd8e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

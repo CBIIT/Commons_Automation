@@ -281,6 +281,61 @@ class CrdcDHPbac extends TestRunner {
 		}
 	}
 
+	/**
+	 * Resets the user's permissions to the default for the specified role by toggling away and back.
+	 * @param role The target role to reset to (e.g., 'User', 'Submitter', 'Dcp', 'Fedlead', 'Admin')
+	 */
+	@Keyword
+	public static void resetPermissions(String role) {
+		KeywordUtil.logInfo("Resetting permissions for role: ${role}")
+		// Map displayed roles in dropdown to internal names
+		Map<String, String> roleDisplayMap = [
+			'User'     : 'User',
+			'Submitter': 'Submitter',
+			'Dcp'      : 'Data Commons Personnel',
+			'Fedlead'  : 'Federal Lead',
+			'Admin'    : 'Admin'
+		]
+
+		String roleDisplay = roleDisplayMap[role]
+		if (!roleDisplay) {
+			KeywordUtil.markFailed("Invalid role passed to resetPermissions: ${role}")
+			return
+		}
+
+		// Click role dropdown
+		WebUI.click(findTestObject('CRDC/ManageUsers/Role-Ddn'))
+		KeywordUtil.logInfo("Clicked role dropdown")
+
+		// Find an alternate role to toggle to
+		String alternateRole = roleDisplayMap.values().find { it != roleDisplay }
+		if (!alternateRole) {
+			KeywordUtil.markFailed("Could not find alternate role to switch to.")
+			return
+		}
+
+		// Select alternate role
+		WebUI.click(findTestObject('CRDC/ManageUsers/RoleDdn-Option', [('role') : alternateRole]))
+		KeywordUtil.logInfo("Selected alternate role: ${alternateRole}")
+
+		// Open dropdown again
+		WebUI.click(findTestObject('CRDC/ManageUsers/Role-Ddn'))
+		KeywordUtil.logInfo("Clicked role dropdown again")
+
+		// Re-select target role
+		WebUI.click(findTestObject('CRDC/ManageUsers/RoleDdn-Option', [('role') : roleDisplay]))
+		KeywordUtil.logInfo("Selected target role: ${roleDisplay}")
+
+		// Click Save
+		WebUI.click(findTestObject('CRDC/ManageUsers/Save-Btn'))
+		KeywordUtil.logInfo("Clicked Save")
+
+		KeywordUtil.logInfo("Reset permissions by re-selecting role: ${roleDisplay}")
+
+		//		// Wait for Save to finish
+		//		WebUI.delay(2)
+	}
+
 
 
 	/**
@@ -289,8 +344,16 @@ class CrdcDHPbac extends TestRunner {
 	 */ 
 	@Keyword
 	public static void verifyPbacPermissionDefaults(String userRole) {
-		//Find user in Manage Users table
-		findAndEditUserByName(userRole)
+		String loggedInAs = WebUI.getText(findTestObject('CRDC/Login/UserProfile-Dd'))
+		KeywordUtil.logInfo("Logged in as: '${loggedInAs}' and verifying permissions for: '${userRole}'")
+
+		//As admin user only, find user in Manage Users table
+		if (loggedInAs.toLowerCase().contains("admin") && !userRole.equalsIgnoreCase("admin-self")) {
+			// if verifying self as admin, skip search
+			findAndEditUserByName(userRole)
+			resetPermissions(userRole)
+			findAndEditUserByName(userRole)
+		}
 
 		//Expand the Permissions panel and Email Notifications panel
 		clickTab('CRDC/ManageUsers/PermissionsPanel-Ddn')

@@ -39,4 +39,11 @@
       <testCaseId>Test Cases/CRDC_TestCases/Pbac/TC04_CRDC-PbacDefaultPermissions-Submitter</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>289a4f1e-521c-4b49-9911-128a01501c2f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CRDC_TestCases/Pbac/TC05_CRDC-PbacDefaultPermissions-User</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

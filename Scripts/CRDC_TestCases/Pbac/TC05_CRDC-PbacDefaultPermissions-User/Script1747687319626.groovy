@@ -47,7 +47,7 @@ CustomKeywords.'utilities.TestRunner.clickTab'('CRDC/Login/UserProfile-Dd')
 CustomKeywords.'utilities.TestRunner.clickTab'('CRDC/NavBar/ManageUsers-Btn')
 
 //Verify PBAC permissions for role
-CustomKeywords.'utilities.CrdcDHPbac.verifyPbacPermissionDefaults'('Submitter')
+CustomKeywords.'utilities.CrdcDHPbac.verifyPbacPermissionDefaults'('User')
 
 //Logout
 CustomKeywords.'utilities.CrdcDH.logoutFromCrdc'()
@@ -56,13 +56,13 @@ WebUI.closeBrowser()
 //Login as Fedlead
 CustomKeywords.'utilities.CrdcDH.navigateToCrdc'()
 WebUI.setViewPortSize(1920, 1080)
-CustomKeywords.'utilities.CrdcDH.loginToCrdcOtp'('Submitter')
+CustomKeywords.'utilities.CrdcDH.loginToCrdcOtp'('User')
 
 //Navigate to Profile
 CustomKeywords.'utilities.TestRunner.clickTab'('CRDC/Login/UserProfile-Dd')
 CustomKeywords.'utilities.TestRunner.clickTab'('CRDC/Login/UserProfile-Link')
 
 //Verify PBAC permissions for self
-CustomKeywords.'utilities.CrdcDHPbac.verifyPbacPermissionDefaults'('Submitter-self')
+CustomKeywords.'utilities.CrdcDHPbac.verifyPbacPermissionDefaults'('User-self')
 
 WebUI.closeBrowser()

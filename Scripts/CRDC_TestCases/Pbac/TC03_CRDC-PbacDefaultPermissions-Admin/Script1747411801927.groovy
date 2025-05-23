@@ -49,4 +49,11 @@ CustomKeywords.'utilities.TestRunner.clickTab'('CRDC/NavBar/ManageUsers-Btn')
 //Verify PBAC permissions for role
 CustomKeywords.'utilities.CrdcDHPbac.verifyPbacPermissionDefaults'('Admin')
 
+//Navigate to Profile
+CustomKeywords.'utilities.TestRunner.clickTab'('CRDC/Login/UserProfile-Dd')
+CustomKeywords.'utilities.TestRunner.clickTab'('CRDC/Login/UserProfile-Link')
+
+//Verify PBAC permissions for self
+CustomKeywords.'utilities.CrdcDHPbac.verifyPbacPermissionDefaults'('Admin-self')
+
 WebUI.closeBrowser()
