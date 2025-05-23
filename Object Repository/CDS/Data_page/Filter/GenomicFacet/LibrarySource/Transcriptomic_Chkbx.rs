@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Library Source_Transcriptomic&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Library Source Molecule_Transcriptome&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Library Source_Transcriptomic&quot;]</value>
-      <webElementGuid>5a810e18-04dc-44e7-b81f-97f07be9626c</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Library Source Molecule_Transcriptome&quot;]</value>
+      <webElementGuid>aef53a99-6206-4f4f-9c8a-8cc9850ceb08</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

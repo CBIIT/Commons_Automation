@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CDS_phs001554_Gender-Female_ExperimentStrat-GWA</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>49ed9f9f-b6cb-4470-9e4a-988a3ce7ace9</testCaseGuid>
+</TestCaseEntity>

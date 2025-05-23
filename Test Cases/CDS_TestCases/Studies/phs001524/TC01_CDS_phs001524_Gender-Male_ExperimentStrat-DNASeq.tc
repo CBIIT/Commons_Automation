@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CDS_phs001524_Gender-Male_ExperimentStrat-DNASeq</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7d04e7df-69d7-4cd9-b505-d26df16ac014</testCaseGuid>
+</TestCaseEntity>

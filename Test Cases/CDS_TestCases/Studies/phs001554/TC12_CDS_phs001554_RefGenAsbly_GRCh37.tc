@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC12_CDS_phs001554_RefGenAsbly_GRCh37</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>c9026d79-b9fc-4a26-9623-876c19244dd3</testCaseGuid>
-</TestCaseEntity>

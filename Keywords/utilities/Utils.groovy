@@ -1,0 +1,336 @@
+package utilities;
+
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.Files;
+import org.apache.poi.xssf.usermodel.XSSFCell
+import com.kms.katalon.core.annotation.Keyword;
+import com.kms.katalon.core.configuration.RunConfiguration;
+import com.kms.katalon.core.util.KeywordUtil;
+import internal.GlobalVariable
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.CellType;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class Utils {
+
+	// App key used in every profile
+	public static String appKey = GlobalVariable.AppKey;
+	public static String usrDir = RunConfiguration.getProjectDir();
+	public static String RESULT_TAB_NAME;
+
+
+	/**
+	 * This function creates query file path based on the app key
+	 */
+	@Keyword
+	public static Path getQueryFilePath(String input_file) {
+
+		String usrDir = System.getProperty("user.dir");
+		String inputFiles = "InputFiles";
+		Path filePath;
+
+		if(appKey.equals("Bento")) {
+			filePath = Paths.get(usrDir, inputFiles, "Bento", input_file);
+		}else if(appKey.equals("ICDC")) {
+			filePath = Paths.get(usrDir, inputFiles, "ICDC", input_file);
+		}else if(appKey.equals("CCDI")) {
+			filePath = Paths.get(usrDir, inputFiles, "CCDI", input_file);
+		}else if(appKey.equals("C3DC")) {
+			filePath = Paths.get(usrDir, inputFiles, "C3DC", input_file);
+		}else if(appKey.equals("INS")) {
+			filePath = Paths.get(usrDir, inputFiles, "INS", input_file);
+		}else if(appKey.equals("CDS")) {
+			filePath = Paths.get(usrDir, inputFiles, "CDS", input_file);
+		}else if(appKey.equals("CTDC")) {
+			filePath = Paths.get(usrDir, inputFiles, "CTDC", input_file);
+		}else if(appKey.equals("MTP")) {
+			filePath = Paths.get(usrDir, inputFiles, "MTP", input_file);
+		}else if(appKey.equals("CCDC")) {
+			filePath = Paths.get(usrDir, inputFiles, "CCDC", input_file);
+		}else if(appKey.equals("CRDC")) {
+			filePath = Paths.get(usrDir, inputFiles, "CRDC", input_file);
+		}else {
+			KeywordUtil.markFailed("Invalid App Key: Check Profile or getQueryFilePath() function")
+		}
+
+		if (filePath !=null) {
+			KeywordUtil.markPassed("This is query file path: "+filePath.toString())
+			GlobalVariable.InputExcel=filePath.toString();
+		}else{
+			KeywordUtil.markFailed("Query file is not found. Check getQueryFilePath function")
+		}
+
+		return filePath;
+	}
+
+
+
+	/**
+	 * This function assigns the tsv data files path based on the app key
+	 */
+	@Keyword
+	public static Path getMetadataFilesPath() {
+
+		Path tsvDataFilePath
+
+		if(appKey.equals("CDS")) {
+			tsvDataFilePath = Paths.get(usrDir, "InputFiles", "CDS")
+		}else if(appKey.equals("ICDC")) {
+			tsvDataFilePath = Paths.get(usrDir, "InputFiles", "ICDC")
+		}else if(appKey.equals("CCDI")) {
+			tsvDataFilePath = Paths.get(usrDir, "InputFiles", "CCDI")
+		}else if(appKey.equals("C3DC")) {
+			tsvDataFilePath = Paths.get(usrDir, "InputFiles", "C3DC")
+		}else if(appKey.equals("INS")) {
+			tsvDataFilePath = Paths.get(usrDir, "InputFiles", "INS")
+		}else if(appKey.equals("Bento")) {
+			tsvDataFilePath = Paths.get(usrDir, "InputFiles", "Bento")
+		}else if(appKey.equals("CRDC")) {
+			tsvDataFilePath = Paths.get(usrDir, "InputFiles", "CRDC")
+		}else {
+			KeywordUtil.markFailed("Invalid App Key or Node Path: Check getNodeFilesPath function")
+		}
+		return tsvDataFilePath
+	}
+
+	/**
+	 * This function assigns Python files path of corresponding app
+	 * @param PythonFileName
+	 */
+	public static Path getPythonFilePath(String pyFileName) {
+		String pyPath;
+		if(appKey.equals("CDS")) {
+			pyPath = Paths.get(usrDir, "PythonFiles", "CDS", pyFileName)
+		}else if(appKey.equals("ICDC")) {
+			pyPath = Paths.get(usrDir, "PythonFiles", "ICDC", pyFileName)
+		}else if(appKey.equals("CCDI")) {
+			pyPath = Paths.get(usrDir, "PythonFiles", "CCDI", pyFileName)
+		}else if(appKey.equals("C3DC")) {
+			pyPath = Paths.get(usrDir, "PythonFiles", "C3DC", pyFileName)
+		}else if(appKey.equals("INS")) {
+			pyPath = Paths.get(usrDir, "PythonFiles", "INS", pyFileName)
+		}else if(appKey.equals("Bento")) {
+			pyPath = Paths.get(usrDir, "PythonFiles", "Bento", pyFileName)
+		}else if(appKey.equals("Bento")) {
+			pyPath = Paths.get(usrDir, "PythonFiles", "CRDC", pyFileName)
+		}else {
+			KeywordUtil.markFailed("Invalid App Key: Check getPythonScriptPath function")
+		}
+	}
+
+
+
+	/**
+	 * This function returns the Python executable path based on the JENKINS_HOME environment variable.
+	 * @return String - Path to the Python executable
+	 */
+	public static String getPythonExecutablePath() {
+
+		String jenkinsHome = System.getenv("JENKINS_HOME");
+		String pyExecutablePath;
+
+		if (jenkinsHome != null) {
+			KeywordUtil.logInfo("Detected Jenkins environment. Using system Python executable...");
+			pyExecutablePath = "python3";
+		} else {
+			KeywordUtil.logInfo("Running locally. Using local Python executable path...");
+			pyExecutablePath = "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3";
+		}
+
+		return pyExecutablePath;
+	}
+
+
+	/**
+	 * This function creates directory in the project path
+	 * @param dirName
+	 */
+	public static void createDirctory(String dirName) {
+
+		// Get the project directory path
+		String projectDir = System.getProperty("user.dir");
+		Path folderPath = Paths.get(projectDir, dirName);
+
+		// Check if the dirName folder exists
+		if (!Files.exists(folderPath)) {
+			try {
+				Files.createDirectory(folderPath);
+				System.out.println(dirName + " folder has been created.");
+			} catch (Exception e) {
+				System.err.println("Failed to create "+dirName+" folder: " + e.getMessage());
+			}
+		} else {
+			System.out.println(dirName +" folder already exists.");
+		}
+	}
+
+	
+	//@@@@@@@@@@@@@@@@ Write web result to excel @@@@@@@@@@@@@@@@
+	/**
+	 * This function write webData to excel
+	 * @param webSheetName
+	 */
+	public static void writeToExcel(String webSheetName){
+
+		Utils.createDirctory("OutputFiles");
+
+		try {
+			String excelPath = GlobalVariable.G_WebExcel;
+			File file1 = new File(excelPath);
+			FileOutputStream fos = null;
+			XSSFWorkbook workbook = null;
+			XSSFSheet sheet;
+
+			if( file1.exists()){
+				System.out.println( "File exists, creating a new worksheet in the same file.")
+				FileInputStream fileinp = new FileInputStream(excelPath);
+				workbook = new XSSFWorkbook(fileinp);
+				sheet = workbook.createSheet(webSheetName);
+				fos = new FileOutputStream(excelPath);
+			}
+			else{
+				fos = new FileOutputStream(new File(excelPath));
+				System.out.println("File does not exist, creating a new file.")
+				workbook = new XSSFWorkbook();           // Create Workbook instance holding .xls file
+				sheet = workbook.createSheet(webSheetName);
+			}
+
+			List<String> writeData = new ArrayList<String>();
+			writeData = GlobalVariable.G_CaseData
+			for( int i = 0; i < writeData.size(); i++ ){
+				Row row = sheet.createRow(i);
+				int cellNo = 0
+				ArrayList<String> cellData = writeData.get(i).split("\\|\\|");
+				for( String cellD: cellData ){
+					Cell cell = row.createCell(cellNo++);
+					cell.setCellValue(cellD);
+				}
+			}//for loop of in
+			workbook.write(fos);  //Write workbook into the excel
+			fos.close(); //Close the workbook
+			System.out.println("Web Data has been written to excel successfully");
+			workbook.close();
+		}catch (IOException ie) {
+			ie.printStackTrace();
+		}
+	}//write to excel method ends here
+	
+	
+
+	//@@@@@@@@@@@@@@@ SOHIL's Code @@@@@@@@@@@@@@@@@@@@
+	/**
+	 * This function compares two sheet. Other functions are called in this function
+	 * To perform the entire action
+	 * @param webSheetName
+	 * @param neoSheetName
+	 */
+	@Keyword
+	public static void compareSheets(String webSheetName, String neoSheetName) {
+
+		List<List<String>> UIData = new ArrayList<>();
+		List<List<String>> tsvData = new ArrayList<>();
+
+		// Initializing files path
+		String UIfilename = GlobalVariable.G_WebExcel.toString();
+		String tsvFilename = GlobalVariable.G_ResultPath.toString();
+
+		System.out.println("This is  the  full UI file  path: " + UIfilename);
+		System.out.println("This is the full neo4j file path: " + tsvFilename);
+
+		// Read UI output excel
+		UIData = ReadExcel.readOutputExcel(UIfilename, webSheetName);
+		Collections.sort(UIData, new TestRunner());
+
+		// Read TSV or DB output excel
+		tsvData = ReadExcel.readOutputExcel(tsvFilename, neoSheetName);
+		Collections.sort(tsvData, new TestRunner());
+
+		System.out.println("This is the row size of the UIWeb Output data: " + UIData.size());
+		System.out.println("This is the row size of the TSV   Output data: " + tsvData.size());
+
+		compareTwoLists(UIData, tsvData);
+	}
+
+
+
+	/**
+	 * This function reads two lists and compares it's content
+	 * @param l1 (specified for UI) a List that will have inner list
+	 * @param l2 (specified for TSV) a List that will have inner list
+	 */
+	public static void compareTwoLists(List<List<String>> l1, List<List<String>> l2){
+
+		System.out.println("============== Verification of the data ==============")
+
+		int l2row=0;
+
+		while( l2row < l2.size() ){
+
+			for( int l1row = 0; l1row < l1.size(); l1row++ ){
+
+				List<String> l1rowList = l1.get(l1row)
+				List<String> l2rowList = l2.get(l2row)
+				boolean l1NullFlag = false, l2NullFlag = false
+
+				int l1rowCount =l1row+2;
+				int l2rowCount =l2row+2;
+
+				System.out.println("UI  Data Entire Row:  " + l1rowList)
+				System.out.println("TSV Data Entire Row:  " + l2rowList)
+
+				// Check if column counts do not match
+				if (l1rowList.size() != l2rowList.size()) {
+					System.err.println("*********** COLUMN COUNT MISMATCH ***********");
+					System.err.println("UI  Data Row: " + l1rowCount + " has " + l1rowList.size() + " columns.");
+					System.err.println("TSV Data Row: " + l2rowCount + " has " + l2rowList.size() + " columns.");
+					KeywordUtil.markFailed("*********** COLUMN COUNT MISMATCH *************");
+					return;  // Exit the function since the column counts do not match
+				}
+
+				for(int col = 0; col < l2rowList.size(); col++ ){
+
+					String l1Col = l1rowList.get(col);
+					String l2Col = l2rowList.get(col);
+
+					String l1Value = l1rowList.get(col);
+					String l2Value = l2rowList.get(col);
+
+					//Check for empty cell in UI excel
+					if(l1Col == null || l1Value.trim().isEmpty()){
+						System.out.println("There is an empty cell in UI Data Row: " + l1rowCount + " Col: " + col );
+						l1NullFlag = true
+					}
+
+					//Check for empty cell in DB excel
+					if(l2Col == null || l2Value.trim().isEmpty()){
+						System.out.println("There is an empty cellin TSV Data Row: " + l2rowCount + " Col: " + col );
+						l2NullFlag = true
+					}
+
+					//When UI and DB empty cell don't match, warn user
+					if (l1NullFlag != l2NullFlag) {
+						System.err.println("********** EMPTY CELL MISMATCH **********")
+						l1NullFlag = false
+						l2NullFlag = false
+					}
+
+					//When there is data, compare UI value against DB value
+					if(l1Value.equals(l2Value)){
+						System.out.println("UI  data cell value is:  "+ l1Value + "\nTSV data cell value is:  "+ l2Value );
+						System.out.println("Content matches for Row: " + l1rowCount + " Col: " + col +" \u2713");
+					}else{
+						System.err.println("*********** DATA MISMATCH ***********")
+						System.err.println("UI  data cell value is:  "+ l1Value + "\nTSV data cell value is:  "+ l2Value );
+						System.err.println("Content does not match for Row: " + l1rowCount + " Col: " + col +" \u2717")
+						KeywordUtil.markFailed("*********** DATA MISMATCH in compareTwoLists *************");
+					}
+				}
+				l2row++
+			}
+		}
+	}
+}

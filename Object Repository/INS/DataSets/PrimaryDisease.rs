@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>PrimaryDisease</name>
+   <tag></tag>
+   <elementGuidId>14a4fc10-3746-4617-a87c-70f071bc5a19</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class='itemSpan']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class='itemSpan']</value>
+      <webElementGuid>23a8af96-e31e-459b-8964-84b81d9a8d73</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

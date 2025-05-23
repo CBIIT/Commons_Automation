@@ -15,6 +15,10 @@ get_output_file_path = sys.argv[2]
 # This returns node/tsv/txt files path
 get_node_files_path = sys.argv[3]
 
+# This returns result tab executed
+result_tab_name = sys.argv[4]
+
+
 # Reads an Excel file and returns the appropriate cell value based on the rowOrColName.
 def get_value_from_excel(rowOrColName):
     # Read the input Excel file, always using the first sheet (index 0)

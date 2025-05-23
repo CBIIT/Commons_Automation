@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC02_CDS_phs001713_Gender_Male</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>b20614c3-da59-49bc-85d9-1bc6f30ad5c8</testCaseGuid>
-</TestCaseEntity>

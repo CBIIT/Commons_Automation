@@ -1132,4 +1132,74 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 		Thread.sleep(500)
 		WebUI.verifyElementPresent(findTestObject('CRDC/NavBar/Start_a_SubmissionRequest-Btn'), 10)
 	}
+
+	/**
+	 * This function logs in to CRDC via Login.gov 2FA / OTP using a dynamic TOTP secret.
+	 * @param Admin, Fedlead, Dcp, Submitter, User
+	 */
+	@Keyword
+	public static void loginToCrdcOtp(String pbacUser) {
+		clickTab('CRDC/NavBar/WarningBanner_Continue-Btn')
+
+		clickTab('CRDC/Login/LoginPageLogin-Btn')
+		clickTab('CRDC/Login/Login.gov-Btn')
+
+		String userEmail = GlobalVariable."${pbacUser}Email"
+		String userPassword = GlobalVariable."${pbacUser}Password"
+		String userSecret = GlobalVariable."${pbacUser}Secret"
+
+		WebUI.setText(findTestObject('CRDC/Login/Login.gov_UserEmail-TxtBx'), userEmail)
+		WebUI.setText(findTestObject('CRDC/Login/Login.gov_UserPass-TxtBx'), userPassword)
+		clickTab('CRDC/Login/Login.gov_SignIn-Btn')
+
+		String pythonPath = Utils.getPythonExecutablePath();
+		String scriptPath = "${System.getProperty('user.dir')}/PythonFiles/CRDC/GenerateOtp.py"
+
+		// Generate OTP
+		Closure<String> generateTotp = { String secretArg ->
+			ProcessBuilder pb = new ProcessBuilder(pythonPath, scriptPath, secretArg)
+			pb.redirectErrorStream(true)
+			Process proc = pb.start()
+			proc.waitFor()
+			return proc.inputStream.text.trim()
+		}
+
+		int otpAttempts = 0
+		boolean loggedIn = false
+
+		while (otpAttempts < 2 && !loggedIn) {
+			String totpCode = generateTotp(userSecret)
+			println("Attempt ${otpAttempts + 1} - TOTP Code: ${totpCode}")
+
+			WebUI.setText(findTestObject('CRDC/Login/Login.gov_OneTimeCode-TxtBx'), totpCode)
+			clickTab('CRDC/Login/Login.gov_OneTimeCode_Submit-Btn')
+
+			// Wait for Grant button
+			TestObject consentBtn = findTestObject('CRDC/Login/Login.gov_ConsentGrant-Btn')
+			println("Waiting for 'Grant' button...")
+
+			if (WebUI.waitForElementVisible(consentBtn, 5, FailureHandling.OPTIONAL)) {
+				println("OTP accepted. Proceeding to consent...")
+				clickTab('CRDC/Login/Login.gov_ConsentGrant-Btn')
+				loggedIn = true
+			} else {
+				println("Grant button not found — likely OTP failed. Retrying in 30s...")
+				WebUI.delay(30)
+				otpAttempts++
+			}
+		}
+
+		if (!loggedIn) {
+			KeywordUtil.markFailed("OTP failed after 2 attempts.")
+		}
+	}
+
+	/**
+	 * This function logs out from CRDC 
+	 */
+	@Keyword
+	public static void logoutFromCrdc() {
+		clickTab('CRDC/Login/UserProfile-Dd')
+		clickTab('CRDC/Login/Logout-Link')
+	}
 }//class ends

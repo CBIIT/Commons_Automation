@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[@class='external-login-button']</value>
+         <value>//img[contains(@src, 'LoginGov')]/..</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[@class='external-login-button']</value>
-      <webElementGuid>a1af9bb3-77b6-446d-9d4f-52b5256b481d</webElementGuid>
+      <value>//img[contains(@src, 'LoginGov')]/..</value>
+      <webElementGuid>1c8f98e2-004c-4d4f-83f7-7cec0ae56647</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

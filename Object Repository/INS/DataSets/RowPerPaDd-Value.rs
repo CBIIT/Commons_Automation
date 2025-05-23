@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>RowPerPaDd-Value</name>
+   <tag></tag>
+   <elementGuidId>fdbdd400-08df-4b84-8154-83fafdaad08c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class='dropdown']//li[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class='dropdown']//li[4]</value>
+      <webElementGuid>41bd3a48-2ad3-41ad-b555-839e6c8e44f9</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
