@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC14_CDS_phs003155_PrimDiag_MixedGlioma</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>f9f05e79-ddd9-4284-aa7b-15213f241b5d</testCaseGuid>
-</TestCaseEntity>
