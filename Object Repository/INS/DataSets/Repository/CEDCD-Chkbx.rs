@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CEDCD-Chkbx</name>
+   <tag></tag>
+   <elementGuidId>44fde4d8-0e77-4926-8b74-3ca73dbc9571</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@value='CEDCD']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@value='CEDCD']</value>
+      <webElementGuid>40ab766c-ddff-41c1-b9db-0053a681328d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

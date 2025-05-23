@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;loginDialogLinkToLogin&quot;]</value>
+         <value>//button[@id='navbar-dropdown-item-logout']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;loginDialogLinkToLogin&quot;]</value>
-      <webElementGuid>a0cd7382-6029-477c-8280-bd985b96cf18</webElementGuid>
+      <value>//button[@id='navbar-dropdown-item-logout']</value>
+      <webElementGuid>7a4e3511-e7a6-417a-9e10-34f0c8a067e3</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

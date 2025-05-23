@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;navbar-dropdown-name&quot; and @class='navText displayName']</value>
+         <value>//*[@id=&quot;navbar-dropdown-name&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;navbar-dropdown-name&quot; and @class='navText displayName']</value>
-      <webElementGuid>55a08b04-a7f3-4b29-9c92-a33be7dc0d42</webElementGuid>
+      <value>//*[@id=&quot;navbar-dropdown-name&quot;]</value>
+      <webElementGuid>ec5109e0-ec39-48d3-ac6b-dae2dc74e7c5</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

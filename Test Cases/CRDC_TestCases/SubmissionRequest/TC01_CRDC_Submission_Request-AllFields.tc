@@ -4,5 +4,6 @@
    <name>TC01_CRDC_Submission_Request-AllFields</name>
    <tag>Filter</tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>77c80e21-fdee-4c9d-9823-555ff3530014</testCaseGuid>
 </TestCaseEntity>

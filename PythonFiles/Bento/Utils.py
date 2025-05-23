@@ -16,6 +16,10 @@ def input_excel():
 
 # This function returns output excel path
 get_output_file_path = sys.argv[2]
+
+# This returns result tab executed
+result_tab_name = sys.argv[4]
+
 print("output excel path is: "+get_output_file_path)
 
 # This function gets the phs accession from testcase name and creates new path to the study

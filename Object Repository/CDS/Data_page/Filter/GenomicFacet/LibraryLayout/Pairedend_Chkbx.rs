@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//*[@id=&quot;checkbox_Library Layout_Paired-End&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -17,11 +17,11 @@
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;checkbox_Library Layout_Paired-End&quot;]</value>
-      <webElementGuid>32226d88-356a-4984-a72d-d3b539e0a158</webElementGuid>
+      <webElementGuid>1da39b01-c4cd-44cc-b7f2-9a7152e8fd01</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

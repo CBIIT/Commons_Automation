@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dbGaP-Chkbx</name>
+   <tag></tag>
+   <elementGuidId>bcd0f6c4-61a1-4627-8985-aba86bbb6ed3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@value='dbGaP']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@value='dbGaP']</value>
+      <webElementGuid>efb9f06e-1f97-4c09-a632-cd76fd88aa87</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

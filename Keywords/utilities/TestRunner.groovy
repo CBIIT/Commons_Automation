@@ -32,6 +32,51 @@ import utilities.ReadExcel
 import org.openqa.selenium.Keys as Keys
 import org.openqa.selenium.StaleElementReferenceException
 import org.openqa.selenium.TimeoutException
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import com.kms.katalon.core.checkpoint.Checkpoint
+import com.kms.katalon.core.checkpoint.CheckpointFactory
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords
+import com.kms.katalon.core.model.FailureHandling
+import com.kms.katalon.core.testcase.TestCase
+import com.kms.katalon.core.testcase.TestCaseFactory
+import com.kms.katalon.core.testdata.TestData
+import com.kms.katalon.core.testdata.TestDataFactory
+import com.kms.katalon.core.testobject.ObjectRepository
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords
+import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory
+import com.kms.katalon.core.testobject.RequestObject
+import com.kms.katalon.core.testobject.ResponseObject
+import com.kms.katalon.core.testobject.ConditionType
+import com.kms.katalon.core.testobject.TestObjectProperty
+import com.kms.katalon.core.mobile.helper.MobileElementCommonHelper
+import com.kms.katalon.core.webui.exception.WebElementNotFoundException
+import java.awt.AWTException;
+import java.io.IOException;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxProfile;
+import org.openqa.selenium.firefox.ProfilesIni;
+import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.chrome.ChromeDriver
+import org.openqa.selenium.chrome.ChromeOptions
+import java.util.Iterator;
+import java.util.Set;
+import java.util.Date;
+import java.text.SimpleDateFormat;
+import java.util.HashMap;
+import java.util.Map;
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.interactions.Action;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.Cookie as Cookie
+import com.kms.katalon.core.configuration.RunConfiguration
+import org.apache.poi.ss.usermodel.*
+import org.apache.poi.ss.usermodel.FillPatternType
+import org.apache.poi.xssf.usermodel.XSSFCellStyle
+import org.apache.poi.xssf.usermodel.XSSFColor
 
 
 public class TestRunner implements Comparator<List<XSSFCell>>{
@@ -52,43 +97,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 	@Keyword
 	public  void RunKatalon(String input_file) {
 
-		String url = GlobalVariable.G_Urlname;
-		String usrDir = System.getProperty("user.dir");
-		String inputFiles = "InputFiles";
-		Path filePath;
-
-
-		if(appKey.equals("Bento")) {
-			filePath = Paths.get(usrDir, inputFiles, "Bento", input_file);
-		}else if(appKey.equals("ICDC")) {
-			filePath = Paths.get(usrDir, inputFiles, "ICDC", input_file);
-		}else if(appKey.equals("CCDI")) {
-			filePath = Paths.get(usrDir, inputFiles, "CCDI", input_file);
-		}else if(appKey.equals("C3DC")) {
-			filePath = Paths.get(usrDir, inputFiles, "C3DC", input_file);
-		}else if(appKey.equals("INS")) {
-			filePath = Paths.get(usrDir, inputFiles, "INS", input_file);
-		}else if(appKey.equals("CDS")) {
-			filePath = Paths.get(usrDir, inputFiles, "CDS", input_file);
-		}else if(appKey.equals("CTDC")) {
-			filePath = Paths.get(usrDir, inputFiles, "CTDC", input_file);
-		}else if(appKey.equals("MTP")) {
-			filePath = Paths.get(usrDir, inputFiles, "MTP", input_file);
-		}else if(appKey.equals("CCDC")) {
-			filePath = Paths.get(usrDir, inputFiles, "CCDC", input_file);
-		}else if(appKey.equals("CRDC")) {
-			filePath = Paths.get(usrDir, inputFiles, "CRDC", input_file);
-		}else {
-			KeywordUtil.markFailed("Invalid App Key: Check Profile or RunKatalon function")
-		}
-
-		if (filePath !=null) {
-			KeywordUtil.markPassed("This is the full file path: "+filePath.toString())
-			GlobalVariable.InputExcel=filePath.toString();
-		}else{
-			KeywordUtil.markFailed("Password File is not found")
-		}
-
+		Path filePath = Utils.getQueryFilePath(input_file);
 
 		KeywordUtil.logInfo("Global variable set for InputFiles is: " + GlobalVariable.InputExcel )
 		Thread.sleep(2000)
@@ -332,6 +341,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 	@Keyword
 	public static void multiFunction(String appName, String statVal, String tbl, String tblHdr, String nxtBtn, String webdataSheetName, String dbdataSheetName, String tabQuery) throws IOException {
 
+		Utils.RESULT_TAB_NAME = dbdataSheetName;
 		System.out.println("This is the value of stat (string) obtained from multifunction: " + statVal);
 
 		int statValue = convStringtoInt(statVal);
@@ -342,87 +352,10 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 			ReadCasesTableKatalon(statVal, tbl,tblHdr, nxtBtn, webdataSheetName)
 
 			//ReadExcel.Neo4j(dbdataSheetName,tabQuery)
-			if(appKey.equals("CDS")) {
+			PythonReader.readFile('ResultTabs.py')
+			PythonReader.readFile('Statbar.py')
 
-				if(dbdataSheetName.equals("TsvDataParticipants")){
-					PythonReader.readFile('ParticipantsTab.py')
-				}else if(dbdataSheetName.equals("TsvDataSamples")){
-					PythonReader.readFile('SamplesTab.py')
-				}else if(dbdataSheetName.equals("TsvDataFiles")){
-					PythonReader.readFile('FilesTab.py')
-				}else {
-					System.out.println("Invalid TSV Sheet name: " + dbdataSheetName)
-				}
-				PythonReader.readFile('Statbar.py')
-			}else if(appKey.equals("ICDC")) {
-				if(dbdataSheetName.equals("TsvDataCases")){
-					PythonReader.readFile('CasesTab.py')
-				}else if(dbdataSheetName.equals("TsvDataSamples")){
-					PythonReader.readFile('SamplesTab.py')
-				}else if(dbdataSheetName.equals("TsvDataCaseFiles")){
-					PythonReader.readFile('CaseFilesTab.py')
-				}else if(dbdataSheetName.equals("TsvDataStudyFiles")){
-					PythonReader.readFile('StudyFilesTab.py')
-				}else {
-					System.out.println("Invalid TSV Sheet name: " + dbdataSheetName)
-				}
-				PythonReader.readFile('Statbar.py')
-			}else if(appKey.equals("CCDI")) {
-				if(dbdataSheetName.equals("TsvDataParticipants")){
-					PythonReader.readFile('ParticipantsTab.py')
-				}
-				//commenting the Diagnosis part as it is removed from CCDI Hub
-				//				else if(dbdataSheetName.equals("TsvDataDiagnosis")){
-				//					PythonReader.readFile('DiagnosisTab.py')
-				//				}
-				else if(dbdataSheetName.equals("TsvDataStudies")){
-					PythonReader.readFile('StudiesTab.py')
-				}else if(dbdataSheetName.equals("TsvDataSamples")){
-					PythonReader.readFile('SamplesTab.py')
-				}else if(dbdataSheetName.equals("TsvDataFiles")){
-					PythonReader.readFile('FilesTab.py')
-				}
-				PythonReader.readFile('Statbar.py')
-			}else if(appKey.equals("C3DC")) {
-				if(dbdataSheetName.equals("TsvDataStudies")){
-					PythonReader.readFile('StudiesTab.py')
-				}else if(dbdataSheetName.equals("TsvDataParticipants")){
-					PythonReader.readFile('ParticipantsTab.py')
-				}else if(dbdataSheetName.equals("TsvDataDiagnosis")){
-					PythonReader.readFile('DiagnosisTab.py')
-				}else if(dbdataSheetName.equals("TsvDataTreatment")){
-					PythonReader.readFile('TreatmentTab.py')
-				}else if(dbdataSheetName.equals("TsvDataTreatmentResp")){
-					PythonReader.readFile('TreatmentRespTab.py')
-				}else if(dbdataSheetName.equals("TsvDataSurvival")){
-					PythonReader.readFile('SurvivalTab.py')
-				}
-				PythonReader.readFile('Statbar.py')
-			}else if(appKey.equals("INS")) {
-				if(dbdataSheetName.equals("TsvDataPrograms")){
-					PythonReader.readFile('ProgramsTab.py')
-				}else if(dbdataSheetName.equals("TsvDataProjects")){
-					PythonReader.readFile('ProjectsTab.py')
-				}else if(dbdataSheetName.equals("TsvDataGrants")){
-					PythonReader.readFile('GrantsTab.py')
-				}else if(dbdataSheetName.equals("TsvDataPublications")){
-					PythonReader.readFile('PublicationsTab.py')
-				}
-				PythonReader.readFile('Statbar.py')
-			}else if(appKey.equals("Bento")) {
-				if(dbdataSheetName.equals("TsvDataCases")){
-					PythonReader.readFile('CasesTab.py')
-				}else if(dbdataSheetName.equals("TsvDataSamples")){
-					PythonReader.readFile('SamplesTab.py')
-				}else if(dbdataSheetName.equals("TsvDataFiles")){
-					PythonReader.readFile('FilesTab.py')
-				}
-				PythonReader.readFile('Statbar.py')
-			}else {
-				KeywordUtil.markFailed("Invalid App Key: Check multiFunction method")
-			}
-
-			compareSheets(webdataSheetName, dbdataSheetName)
+			Utils.compareSheets(webdataSheetName, dbdataSheetName)
 
 			System.out.println("Control is before validate stat bar function from multifunction")
 			validateStatBar(appName)
@@ -566,7 +499,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 				}
 			}
 			//******** INS function starts here ********
-		}else if (appKey.equals("INS") && ((driver.getCurrentUrl()).contains("/explore"))){
+		}else if (appKey.equals("INS")){
 			switchINS = getPageSwitch();
 			switchString = "INS";
 			System.out.println ("This is the value of INS switch string: " + switchINS)
@@ -771,7 +704,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 						System.out.println("Inside INS Switch Structure")
 
 						switch(switchINS){
-							case("/explore"):
+							case("/programs"):
 								int tblcol=GlobalVariable.G_rowcount_Katalon; //13
 								if((tbl_main).equals("//*[@id='program_tab_table']")){
 									tblcol=tblcol-9;
@@ -1032,7 +965,6 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 
 							case("/fileCentricCart"):
 								System.out.println("Inside filecentric cart case of ICDC - for 10 cols after excluding Access and Remove");
-							//*[@id='table_selected_files']//tbody/tr[1]/td[2]    td runs from 2 to 11
 								int tblcol=GlobalVariable.G_rowcount_Katalon;
 								System.out.println("This is the val of tblcol: "+tblcol)
 							//i=i-1; // to start from 0 and include the first column
@@ -1189,7 +1121,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 			System.out.println("Not collecting the table data as the stat value is 0")
 		}
 
-		writeToExcel(webSheetName);
+		Utils.writeToExcel(webSheetName);
 	}//ReadCasesTableKatalon function ends
 
 
@@ -1404,9 +1336,6 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		GlobalVariable.G_StatBar_Studies = driver.findElement(By.xpath(cStuds)).getAttribute('innerHTML');
 		System.out.println("This is the value of Studies count from Stat bar:  "+GlobalVariable.G_StatBar_Studies)
 		Thread.sleep(2000)
-		//GlobalVariable.G_StatBar_DisSite = driver.findElement(By.xpath(cdisSite)).getText();
-		//System.out.println("This is the value of Disease Sites count from Stat bar: "+GlobalVariable.G_StatBar_DisSite)
-		Thread.sleep(2000)
 		GlobalVariable.G_StatBar_Participants = driver.findElement(By.xpath(cParticipants)).getAttribute('innerHTML');
 		System.out.println("This is the value of Particp count from Stat bar:  "+GlobalVariable.G_StatBar_Participants)
 		Thread.sleep(2000)
@@ -1430,174 +1359,6 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		System.out.println(xpathOfObj)
 		return xpathOfObj;
 	}
-
-
-	//@@@@@@@@@@@@@@@@ Write web result to excel @@@@@@@@@@@@@@@@
-	/**
-	 * This function write webData to excel
-	 * @param webSheetName
-	 */
-	public static void writeToExcel(String webSheetName){
-
-		TestRunner.createDirctory("OutputFiles");
-
-		try {
-			String excelPath = GlobalVariable.G_WebExcel;
-			File file1 = new File(excelPath);
-			FileOutputStream fos = null;
-			XSSFWorkbook workbook = null;
-			XSSFSheet sheet;
-
-			if( file1.exists()){
-				System.out.println( "File exists, creating a new worksheet in the same file.")
-				FileInputStream fileinp = new FileInputStream(excelPath);
-				workbook = new XSSFWorkbook(fileinp);
-				sheet = workbook.createSheet(webSheetName);
-				fos = new FileOutputStream(excelPath);
-			}
-			else{
-				fos = new FileOutputStream(new File(excelPath));
-				System.out.println("File does not exist, creating a new file.")
-				workbook = new XSSFWorkbook();           // Create Workbook instance holding .xls file
-				sheet = workbook.createSheet(webSheetName);
-			}
-
-			List<String> writeData = new ArrayList<String>();
-			writeData = GlobalVariable.G_CaseData
-			for( int i = 0; i < writeData.size(); i++ ){
-				Row row = sheet.createRow(i);
-				int cellNo = 0
-				ArrayList<String> cellData = writeData.get(i).split("\\|\\|");
-				for( String cellD: cellData ){
-					//System.out.println("Cell data is: " + cellD )
-					Cell cell = row.createCell(cellNo++);
-					cell.setCellValue(cellD);
-				}
-			}//for loop of in
-			workbook.write(fos);  //Write workbook into the excel
-			fos.close(); //Close the workbook
-			System.out.println("Web Data has been written to excel successfully");
-			workbook.close();
-		}catch (IOException ie) {
-			ie.printStackTrace();
-		}
-	}//write to excel method ends here
-
-
-
-	//@@@@@@@@@@@@@@@ SOHIL's Code @@@@@@@@@@@@@@@@@@@@
-	/**
-	 * This function compares two sheet. Other functions are called in this function 
-	 * To perform the entire action
-	 * @param webSheetName
-	 * @param neoSheetName
-	 */
-	@Keyword
-	public static void compareSheets(String webSheetName, String neoSheetName) {
-
-		List<List<String>> UIData = new ArrayList<>();
-		List<List<String>> neo4jData = new ArrayList<>();
-
-		// Initializing files path
-		String UIfilename = GlobalVariable.G_WebExcel.toString();
-		String neo4jfilename = GlobalVariable.G_ResultPath.toString();
-
-		System.out.println("This is  the  full UI file  path: " + UIfilename);
-		System.out.println("This is the full neo4j file path: " + neo4jfilename);
-
-		// Read UI output excel
-		UIData = ReadExcel.readOutputExcel(UIfilename, webSheetName);
-		Collections.sort(UIData, new TestRunner());
-
-		// Read TSV or DB output excel
-		neo4jData = ReadExcel.readOutputExcel(neo4jfilename, neoSheetName);
-		Collections.sort(neo4jData, new TestRunner());
-
-		//System.out.println("This is the Entire UIWeb  data: " + UIData);
-		//System.out.println("This is the Entire TSV  data: " + neo4jData);
-		System.out.println("This is the row size of the UIWeb Output data: " + UIData.size());
-		System.out.println("This is the row size of the TSV   Output data: " + neo4jData.size());
-
-		compareTwoLists(UIData, neo4jData);
-	}
-
-	/**
-	 * This function reads two lists and compares it's content
-	 * @param l1 (specified for UI) a List that will have inner list
-	 * @param l2 (specified for DB) a List that will have inner list
-	 */
-	public static void compareTwoLists(List<List<String>> l1, List<List<String>> l2){
-
-		System.out.println("============== Verification of the data ==============")
-
-		int l2row=0;
-
-		while( l2row < l2.size() ){
-
-			for( int l1row = 0; l1row < l1.size(); l1row++ ){
-
-				List<String> l1rowList = l1.get(l1row)
-				List<String> l2rowList = l2.get(l2row)
-				boolean l1NullFlag = false, l2NullFlag = false
-
-				int l1rowCount =l1row+2;
-				int l2rowCount =l2row+2;
-
-				System.out.println("UI  Data Entire Row:  " + l1rowList)
-				System.out.println("TSV Data Entire Row:  " + l2rowList)
-
-				// Check if column counts do not match
-				if (l1rowList.size() != l2rowList.size()) {
-					System.err.println("*********** COLUMN COUNT MISMATCH ***********");
-					System.err.println("UI  Data Row: " + l1rowCount + " has " + l1rowList.size() + " columns.");
-					System.err.println("TSV Data Row: " + l2rowCount + " has " + l2rowList.size() + " columns.");
-					KeywordUtil.markFailed("*********** COLUMN COUNT MISMATCH *************");
-					return;  // Exit the function since the column counts do not match
-				}
-
-				for(int col = 0; col < l2rowList.size(); col++ ){
-
-					String l1Col = l1rowList.get(col);
-					String l2Col = l2rowList.get(col);
-
-					String l1Value = l1rowList.get(col);
-					String l2Value = l2rowList.get(col);
-
-					//Check for empty cell in UI excel
-					if(l1Col == null || l1Value.trim().isEmpty()){
-						System.out.println("There is an empty cell in UI Data Row: " + l1rowCount + " Col: " + col );
-						l1NullFlag = true
-					}
-
-					//Check for empty cell in DB excel
-					if(l2Col == null || l2Value.trim().isEmpty()){
-						System.out.println("There is an empty cellin TSV Data Row: " + l2rowCount + " Col: " + col );
-						l2NullFlag = true
-					}
-
-					//When UI and DB empty cell don't match, warn user
-					if (l1NullFlag != l2NullFlag) {
-						System.err.println("********** EMPTY CELL MISMATCH **********")
-						l1NullFlag = false
-						l2NullFlag = false
-					}
-
-					//When there is data, compare UI value against DB value
-					if(l1Value.equals(l2Value)){
-						System.out.println("UI  data cell value is:  "+ l1Value + "\nTSV data cell value is:  "+ l2Value );
-						System.out.println("Content matches for Row: " + l1rowCount + " Col: " + col +" \u2713");
-					}else{
-						System.err.println("*********** DATA MISMATCH ***********")
-						System.err.println("UI  data cell value is:  "+ l1Value + "\nTSV data cell value is:  "+ l2Value );
-						System.err.println("Content does not match for Row: " + l1rowCount + " Col: " + col +" \u2717")
-						KeywordUtil.markFailed("*********** DATA MISMATCH in compareTwoLists *************");
-					}
-				}
-				l2row++
-			}
-		}
-	}
-
 
 
 	/**
@@ -1712,25 +1473,6 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 	}
 
 
-	//	/**
-	//	 * This function is used to click on any element
-	//	 * @param TabName
-	//	 * @return
-	//	 */
-	//	@Keyword
-	//	public static clickTab(String TabName){
-	//
-	//		JavascriptExecutor js = (JavascriptExecutor)driver;
-	//		String rawTabName = TabName
-	//		String tabxpath = givexpath(TabName)
-	//		System.out.println("This is the value of xpath of the element: "+tabxpath);
-	//		//wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(tabxpath)));
-	//		WebElement resultTab = driver.findElement(By.xpath(tabxpath));
-	//		js.executeScript("arguments[0].scrollIntoView(true);", resultTab);
-	//		js.executeScript("arguments[0].click();", resultTab);
-	//		System.out.println("Successfully clicked desired element")
-	//	}
-
 	/**
 	 * This function is used to click on any element
 	 * @param TabName
@@ -1841,30 +1583,6 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 
 
 	/**
-	 * This function creates directory in the project path
-	 * @param dirName
-	 */
-	public static void createDirctory(String dirName) {
-
-		// Get the project directory path
-		String projectDir = System.getProperty("user.dir");
-		Path folderPath = Paths.get(projectDir, dirName);
-
-		// Check if the dirName folder exists
-		if (!Files.exists(folderPath)) {
-			try {
-				Files.createDirectory(folderPath);
-				System.out.println(dirName + " folder has been created.");
-			} catch (Exception e) {
-				System.err.println("Failed to create "+dirName+" folder: " + e.getMessage());
-			}
-		} else {
-			System.out.println(dirName +" folder already exists.");
-		}
-	}
-
-
-	/**
 	 * This function is used for Bento login
 	 */
 	@Keyword
@@ -1962,21 +1680,21 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		Path filePath;
 
 		if(appKey.equals("Bento")) {
-			filePath = Paths.get(usrDir, inputFiles, "Bento", "Bento_StaticData.xlsx");
+			filePath = Utils.getQueryFilePath("Bento_StaticData.xlsx");
 		}else if(appKey.equals("ICDC")) {
-			filePath = Paths.get(usrDir, inputFiles, "ICDC", "ICDC_StaticData.xlsx");
+			filePath = Utils.getQueryFilePath("ICDC_StaticData.xlsx");
 		}else if(appKey.equals("CCDI")) {
-			filePath = Paths.get(usrDir, inputFiles, "CCDI", "CCDI_StaticData.xlsx");
+			filePath = Utils.getQueryFilePath("CCDI_StaticData.xlsx");
 		}else if(appKey.equals("C3DC")) {
-			filePath = Paths.get(usrDir, inputFiles, "C3DC", "C3DC_StaticData.xlsx");
+			filePath = Utils.getQueryFilePath("C3DC_StaticData.xlsx");
 		}else if(appKey.equals("INS")) {
-			filePath = Paths.get(usrDir, inputFiles, "INS", "INS_StaticData.xlsx");
+			filePath = Utils.getQueryFilePath("INS_StaticData.xlsx");
 		}else if(appKey.equals("CDS")) {
-			filePath = Paths.get(usrDir, inputFiles, "CDS", "CDS_StaticData.xlsx");
+			filePath = Utils.getQueryFilePath("CDS_StaticData.xlsx");
 		}else if(appKey.equals("CTDC")) {
-			filePath = Paths.get(usrDir, inputFiles, "CTDC", "CTDC_StaticData.xlsx");
+			filePath = Utils.getQueryFilePath("CTDC_StaticData.xlsx");
 		}else if(appKey.equals("CCDC")) {
-			filePath = Paths.get(usrDir, inputFiles, "CCDC", "CCDC_StaticData.xlsx");
+			filePath = Utils.getQueryFilePath("CCDC_StaticData.xlsx");
 		}else {
 			KeywordUtil.markFailed("Invalid App Key: Check Profile or verifyStaticText() function")
 		}
@@ -2108,6 +1826,109 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 			WebUI.sendKeys(findTestObject(textfield), Keys.chord(Keys.COMMAND, "a", Keys.BACK_SPACE))
 		} else {
 			WebUI.sendKeys(findTestObject(textfield), Keys.chord(Keys.CONTROL, "a", Keys.BACK_SPACE))
+		}
+	}
+
+
+	/**
+	 * This function verifies INS data set page
+	 * Compares UI with TSV datasets
+	 */
+	@Keyword
+	public static void verifyUiAgainstTsvForInsDatasetsTab() {
+
+		PythonReader.readFile("datasets.py");
+
+		List<List<String>> uiDataRows = new ArrayList<>();
+		driver = DriverFactory.getWebDriver();
+		Thread.sleep(1000);
+		WebUI.click(findTestObject('INS/DataSets/RowsPerPage-Dd'))
+		WebUI.click(findTestObject('INS/DataSets/RowPerPaDd-Value'))
+		Thread.sleep(1500);
+		uiDataRows.add(List.of("Title", "Source ID", "Primary Disease", "Participant Count", "Sample Count", "Description"));
+
+		while (true) {
+			List<WebElement> cards = driver.findElements(By.xpath("//*[@class='container']"));
+
+			for (WebElement card : cards) {
+				String title = safeText(card, ".//a[starts-with(@href, '#/dataset/')]");
+				String sourceId = safeText(card, ".//a[starts-with(@href, 'https://cedcd') or starts-with(@href, 'https://www.ncbi.nlm')]");
+				String primaryDisease = safeText(card, ".//*[@class='itemSpan']");
+				String participantCount = safeText(card, ".//*[@class='textSpan caseCountHighlight']");
+				String sampleCount = safeText(card, ".//*[@class='textSpan sampleCountHighlight']");
+				String description = safeText(card, ".//*[@class='textSpan']");
+
+				System.out.println("Title is: "+ title + "\ndbGap Accession is: "+ sourceId + "\nPrimary Disease: "+ primaryDisease);
+				System.out.println("Participant Count: "+ participantCount + "\nSample Count: "+ sampleCount + "\nDescription is: "+ description);
+				uiDataRows.add(List.of(title, sourceId, primaryDisease, participantCount, sampleCount, description));
+			}
+
+			// Try clicking "Next"
+			try {
+				//
+				TestObject nextBtn= findTestObject('INS/DataSets/Next-Btn')
+				if (WebUI.getAttribute(nextBtn,'class') != null && WebUI.getAttribute(nextBtn,'class').contains("disabled")) {
+					break;
+				}
+				WebUI.click(nextBtn);
+				Thread.sleep(1500); // wait for content to load
+			} catch (NoSuchElementException e) {
+				break;
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		}
+
+		writeDataToExcel(uiDataRows);
+		Utils.compareSheets("WebDatasets","TsvDatasets");
+	}
+
+
+	/**
+	 * This is a Utils function that extracts text from UI
+	 * @param parent
+	 * @param xpath
+	 * @return
+	 */
+	private static String safeText(WebElement parent, String xpath) {
+		try {
+			return parent.findElement(By.xpath(xpath)).getText();
+		} catch (NoSuchElementException e) {
+			return "";
+		}
+	}
+
+
+
+	/**
+	 * This function write INS datasets page to ouput excel.
+	 * @param data
+	 */
+	private static void writeDataToExcel(List<List<String>> data) {
+
+		Utils.createDirctory("OutputFiles");
+		String excelPath = GlobalVariable.G_WebExcel;
+
+		Workbook workbook = new XSSFWorkbook()
+		Sheet sheet = workbook.createSheet("WebDatasets")
+
+		for (int i = 0; i < data.size(); i++) {
+			Row row = sheet.createRow(i)
+			List<String> rowData = data[i]
+			for (int j = 0; j < rowData.size(); j++) {
+				row.createCell(j).setCellValue(rowData[j])
+			}
+		}
+
+		FileOutputStream out = null
+		try {
+			out = new FileOutputStream(excelPath)
+			workbook.write(out)
+		} catch (Exception e) {
+			e.printStackTrace()
+		} finally {
+			if (out != null) out.close()
+			if (workbook != null) workbook.close()
 		}
 	}
 }  //class ends here

@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;code-53895&quot;]</value>
+         <value>//*[contains(@id,&quot;code-&quot;)]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;code-53895&quot;]</value>
-      <webElementGuid>9a9ba673-682f-4c2a-98d6-1d097893f9a3</webElementGuid>
+      <value>//*[contains(@id,&quot;code-&quot;)]</value>
+      <webElementGuid>6b6215c1-b8df-41d8-ade3-048140a2e8b2</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

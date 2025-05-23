@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ManageUsers-Btn</name>
+   <tag></tag>
+   <elementGuidId>a68fe818-3de7-4068-a476-15d6e601af36</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;navbar-dropdown-item-user-manage&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;navbar-dropdown-item-user-manage&quot;]</value>
+      <webElementGuid>f9efa5cc-9b7b-42a0-ad07-e77780a99093</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
