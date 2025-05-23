@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Datasets-Btn</name>
+   <tag></tag>
+   <elementGuidId>bc26df6a-0651-45a9-b2cd-4d63a0a849fb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href='#/datasets']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[@href='#/datasets']</value>
+      <webElementGuid>410f6097-ccf1-4162-b3a4-7c28d31de399</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
