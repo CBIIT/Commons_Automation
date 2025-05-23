@@ -1680,21 +1680,21 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		Path filePath;
 
 		if(appKey.equals("Bento")) {
-			filePath = Paths.get(usrDir, inputFiles, "Bento", "Bento_StaticData.xlsx");
+			filePath = Utils.getQueryFilePath("Bento_StaticData.xlsx");
 		}else if(appKey.equals("ICDC")) {
-			filePath = Paths.get(usrDir, inputFiles, "ICDC", "ICDC_StaticData.xlsx");
+			filePath = Utils.getQueryFilePath("ICDC_StaticData.xlsx");
 		}else if(appKey.equals("CCDI")) {
-			filePath = Paths.get(usrDir, inputFiles, "CCDI", "CCDI_StaticData.xlsx");
+			filePath = Utils.getQueryFilePath("CCDI_StaticData.xlsx");
 		}else if(appKey.equals("C3DC")) {
-			filePath = Paths.get(usrDir, inputFiles, "C3DC", "C3DC_StaticData.xlsx");
+			filePath = Utils.getQueryFilePath("C3DC_StaticData.xlsx");
 		}else if(appKey.equals("INS")) {
-			filePath = Paths.get(usrDir, inputFiles, "INS", "INS_StaticData.xlsx");
+			filePath = Utils.getQueryFilePath("INS_StaticData.xlsx");
 		}else if(appKey.equals("CDS")) {
-			filePath = Paths.get(usrDir, inputFiles, "CDS", "CDS_StaticData.xlsx");
+			filePath = Utils.getQueryFilePath("CDS_StaticData.xlsx");
 		}else if(appKey.equals("CTDC")) {
-			filePath = Paths.get(usrDir, inputFiles, "CTDC", "CTDC_StaticData.xlsx");
+			filePath = Utils.getQueryFilePath("CTDC_StaticData.xlsx");
 		}else if(appKey.equals("CCDC")) {
-			filePath = Paths.get(usrDir, inputFiles, "CCDC", "CCDC_StaticData.xlsx");
+			filePath = Utils.getQueryFilePath("CCDC_StaticData.xlsx");
 		}else {
 			KeywordUtil.markFailed("Invalid App Key: Check Profile or verifyStaticText() function")
 		}
