@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CDS_phs001819_Sex-Female_ExperimentalStrategy-WXS</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e73496fa-f806-4e88-803b-134a2525f692</testCaseGuid>
+</TestCaseEntity>
