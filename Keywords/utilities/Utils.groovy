@@ -139,6 +139,7 @@ public class Utils {
 		} else {
 			KeywordUtil.logInfo("Running locally. Using local Python executable path...");
 			pyExecutablePath = "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3";
+			//pyExecutablePath = "C:/Users/epishinavv/AppData/Local/Programs/Python/Python312/python.exe";
 		}
 
 		return pyExecutablePath;
@@ -168,7 +169,7 @@ public class Utils {
 		}
 	}
 
-	
+
 	//@@@@@@@@@@@@@@@@ Write web result to excel @@@@@@@@@@@@@@@@
 	/**
 	 * This function write webData to excel
@@ -218,8 +219,8 @@ public class Utils {
 			ie.printStackTrace();
 		}
 	}//write to excel method ends here
-	
-	
+
+
 
 	//@@@@@@@@@@@@@@@ SOHIL's Code @@@@@@@@@@@@@@@@@@@@
 	/**
