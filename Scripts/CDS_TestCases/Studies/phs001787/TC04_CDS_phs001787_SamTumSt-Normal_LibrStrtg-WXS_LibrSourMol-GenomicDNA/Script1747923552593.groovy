@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
  */
 WebUI.closeBrowser()
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC04_CDS_phs001787_SampleTumorStatus_Normal.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC04_CDS_phs001787_SamTumSt-Normal_LibrStrtg-WXS_LibrSourMol-GenomicDNA.xlsx')
 
 CustomKeywords.'utilities.TestRunner.clickTab'('Bento/Banner/Bento_Warning_Continue_Btn')
 
@@ -34,10 +34,6 @@ CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/Data_page/Filter/Stud
 WebUI.waitForElementPresent(findTestObject('CDS/Data_page/Filter/StudyFacet/PHS_Accession/phs001787_Chkbx'),5)
 CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/Data_page/Filter/StudyFacet/PHS_Accession/phs001787_Chkbx')
 
-/*//Clicking Phs Accession dropdown
-WebUI.waitForElementPresent(findTestObject('CDS/Data_page/Filter/StudyFacet/PHS_Accession/PHS_Accession_Ddn'),5)
-CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/Data_page/Filter/StudyFacet/PHS_Accession/PHS_Accession_Ddn')*/
-
 //Clicking Sample Tumor Status dropdown
 WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/SamplesFacet/SampleTumorStatus/SampleTumorStatus-Ddn'),5)
 CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/SamplesFacet/SampleTumorStatus/SampleTumorStatus-Ddn')
@@ -45,6 +41,22 @@ CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Dat
 //Clicking Not specified in Data checkbox
 WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/SamplesFacet/SampleTumorStatus/Normal_Chkbx'),5)
 CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/SamplesFacet/SampleTumorStatus/Normal_Chkbx')
+
+//Clicking Library Strategy dropdown
+WebUI.waitForElementPresent(findTestObject('CDS/Data_page/Filter/GenomicFacet/LibraryStrategy/Library_Strategy_Ddn'),5)
+CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/Data_page/Filter/GenomicFacet/LibraryStrategy/Library_Strategy_Ddn')
+
+//Clicking WXS checkbox
+WebUI.waitForElementPresent(findTestObject('CDS/Data_page/Filter/GenomicFacet/LibraryStrategy/WXS_Chkbx'),5)
+CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/Data_page/Filter/GenomicFacet/LibraryStrategy/WXS_Chkbx')
+
+//Clicking Library Source Molecule
+WebUI.waitForElementPresent(findTestObject('CDS/Data_page/Filter/GenomicFacet/LibrarySource/LibrarySourceMolecule_Ddn'),5)
+CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/Data_page/Filter/GenomicFacet/LibrarySource/LibrarySourceMolecule_Ddn')
+
+//Clicking Genomic DNA checkbox
+WebUI.waitForElementPresent(findTestObject('CDS/Data_page/Filter/GenomicFacet/LibrarySource/Genomic_Chkbx'),5)
+CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/Data_page/Filter/GenomicFacet/LibrarySource/Genomic_Chkbx')
 
 
 //Read statbar
