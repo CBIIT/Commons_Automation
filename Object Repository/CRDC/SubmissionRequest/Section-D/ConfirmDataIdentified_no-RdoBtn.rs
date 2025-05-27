@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;section-d-imaging-de-identified-no-radio-button&quot;]</value>
+         <value>//*[@id=&quot;section-d-data-de-identified-no-radio-button&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;section-d-imaging-de-identified-no-radio-button&quot;]</value>
-      <webElementGuid>a5c09824-7242-4c7f-846c-39875419a17c</webElementGuid>
+      <value>//*[@id=&quot;section-d-data-de-identified-no-radio-button&quot;]</value>
+      <webElementGuid>558c3af3-6fdb-48ed-bbf5-999623a3b40f</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

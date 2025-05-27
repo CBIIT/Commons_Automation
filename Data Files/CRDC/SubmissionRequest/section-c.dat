@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>data-access-disease</name>
+   <name>section-c</name>
    <tag></tag>
+   <connectionProperties/>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>889a52fc-ec74-455a-8751-16b84ef4df74</dataFileGUID>
-   <dataSourceUrl>InputFiles/CRDC/Section-C.xlsx</dataSourceUrl>
+   <dataFileGUID>40de6376-db66-43b1-876a-41eb58b9c8a0</dataFileGUID>
+   <dataSourceUrl>InputFiles/CRDC/SubmissionRequest.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>data-access-disease</sheetName>
+   <sheetName>section-c</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>

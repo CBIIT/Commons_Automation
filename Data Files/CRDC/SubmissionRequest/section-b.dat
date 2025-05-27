@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>principal-investigator</name>
+   <name>section-b</name>
    <tag></tag>
+   <connectionProperties/>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>94a7c529-7da8-4be3-bbfc-e515eba2906c</dataFileGUID>
-   <dataSourceUrl>InputFiles/CRDC/Section-A.xlsx</dataSourceUrl>
+   <dataFileGUID>bf60b543-21ff-48a8-bf77-138a3e32d5dd</dataFileGUID>
+   <dataSourceUrl>InputFiles/CRDC/SubmissionRequest.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>principal-investigator</sheetName>
+   <sheetName>section-b</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>
