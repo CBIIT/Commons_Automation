@@ -14,6 +14,11 @@ import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import java.util.regex.Pattern
+import java.util.regex.Matcher
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+
 
 public class Utils {
 
@@ -168,7 +173,7 @@ public class Utils {
 		}
 	}
 
-	
+
 	//@@@@@@@@@@@@@@@@ Write web result to excel @@@@@@@@@@@@@@@@
 	/**
 	 * This function write webData to excel
@@ -218,8 +223,8 @@ public class Utils {
 			ie.printStackTrace();
 		}
 	}//write to excel method ends here
-	
-	
+
+
 
 	//@@@@@@@@@@@@@@@ SOHIL's Code @@@@@@@@@@@@@@@@@@@@
 	/**
@@ -330,6 +335,30 @@ public class Utils {
 					}
 				}
 				l2row++
+			}
+		}
+	}
+
+	/**
+	 * This function finds the filter using the search bar in the facet (available for dropdowns with a large number of filter options)
+	 * @param filter (name of the filter)
+	 */
+	public static findFilterBySearch(String filter){
+		if(appKey.equals("CDS")) {
+			if (filter.contains("phs")) {
+				//PHS Accession dropdown
+				Pattern pattern = Pattern.compile("phs\\d{6}")
+				Matcher matcher = pattern.matcher(filter)
+				String accession = null
+				if (matcher.find()) {
+					accession = matcher.group()
+					System.out.println("Searching for PHS Accession: " + accession)
+					TestRunner.clickTab('Object Repository/CDS/Data_page/Filter/StudyFacet/PHS_Accession/phsAccession_Search')
+					WebUI.setText(findTestObject('Object Repository/CDS/Data_page/Filter/StudyFacet/PHS_Accession/phsAccession_Search'), accession)
+				}
+				else {
+					KeywordUtil.markFailed("Not able to find PHS Accession-- stopping test");
+				}
 			}
 		}
 	}

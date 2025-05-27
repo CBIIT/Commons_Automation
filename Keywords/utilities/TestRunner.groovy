@@ -77,6 +77,9 @@ import org.apache.poi.ss.usermodel.*
 import org.apache.poi.ss.usermodel.FillPatternType
 import org.apache.poi.xssf.usermodel.XSSFCellStyle
 import org.apache.poi.xssf.usermodel.XSSFColor
+import java.util.regex.Pattern
+import java.util.regex.Matcher
+
 
 
 public class TestRunner implements Comparator<List<XSSFCell>>{
@@ -1548,9 +1551,8 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 
 	@Keyword
 	public static clickTabCDSStat(String TbName){
-
+		Utils.findFilterBySearch(TbName)
 		JavascriptExecutor js = (JavascriptExecutor)driver;
-		String rawTabName = TbName
 		String tabxpath = givexpath(TbName)
 		System.out.println("This is the value of xpath of the element: "+tabxpath);
 		WebElement resultTab = driver.findElement(By.xpath(tabxpath));
