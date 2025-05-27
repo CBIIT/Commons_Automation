@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>OtherCancerTypes-Txtbx</name>
+   <name>Start_a_SubmissionRequest-Btn</name>
    <tag></tag>
-   <elementGuidId>9f45e6d8-37e3-46b1-b83a-b8bd4b0242a1</elementGuidId>
+   <elementGuidId>2a120d53-a216-4f5c-9932-e8f63f39a273</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;section-c-other-cancer-types&quot;]</value>
+         <value>//*[contains(@id, ':r') and @type='button']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;section-c-other-cancer-types&quot;]</value>
-      <webElementGuid>caad8870-a72b-4476-8256-638a23dead40</webElementGuid>
+      <value>//*[contains(@id, ':r') and @type='button']</value>
+      <webElementGuid>0a8f0d1a-d74c-45f7-8b5b-105dd84af2ff</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

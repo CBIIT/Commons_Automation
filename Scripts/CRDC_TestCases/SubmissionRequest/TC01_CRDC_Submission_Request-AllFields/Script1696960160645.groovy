@@ -43,75 +43,74 @@ WebUI.closeBrowser()
 
 CustomKeywords.'utilities.CrdcDH.navigateToCrdc'()
 
-CustomKeywords.'utilities.CrdcDH.loginToCrdc'()
+CustomKeywords.'utilities.CrdcDH.loginToCrdcOtp'('Submitter')
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('CRDC/NavBar/Start_a_SubmissionRequest-Btn'))
+WebUI.click(findTestObject('CRDC/NavBar/SubmissionRequest-Tab'))
+WebUI.click(findTestObject('CRDC/SubmissionRequest/Start_a_SubmissionRequest-Btn'))
+WebUI.click(findTestObject('CRDC/SubmissionRequest/ReadAndAcceptPopUp-Btn'))
 
 CustomKeywords.'utilities.CrdcDH.verifyStatusBar'('NEW')
 
-CustomKeywords.'utilities.CrdcDH.enterPiInfo'(1, 1, 1, 1, 5, 1)
+CustomKeywords.'utilities.CrdcDH.enterPrincipalInvestigatorInfo'(2)
 
-CustomKeywords.'utilities.CrdcDH.enterPrimaryContactInfo'(2, 2, 2, 2, 10, 2)
-
-//CustomKeywords.'utilities.CrdcDH.enterAdditionalContactInfo'(2, 1, 2, 2, 11, 2)
+CustomKeywords.'utilities.CrdcDH.enterPrimaryContactInfo'(2)
+CustomKeywords.'utilities.CrdcDH.enterAdditionalContactInfo'(2)
 
 WebUI.click(findTestObject('CRDC/SubmissionRequest/Save-Btn'))
-
 WebUI.click(findTestObject('CRDC/SubmissionRequest/Next-Btn'))
 
 CustomKeywords.'utilities.CrdcDH.verifyStatusBar'('IN PROGRESS')
 
-CustomKeywords.'utilities.CrdcDH.enterProgramInfo'('DCCPS')
+CustomKeywords.'utilities.CrdcDH.enterProgramInfo'('Other', 6)
+CustomKeywords.'utilities.CrdcDH.enterStudyInfo'(1)
 
-CustomKeywords.'utilities.CrdcDH.enterStudyInfo'(1, 1, 1)
+CustomKeywords.'utilities.CrdcDH.enterFundingAgencyInfo'(1)
 
-CustomKeywords.'utilities.CrdcDH.enterFundingAgencyAndDbGaPInfo'(1, 1, 1, 1, 1)
+CustomKeywords.'utilities.CrdcDH.enterExistingAndPlannedPublicationsInfo'(1)
 
-//CustomKeywords.'utilities.CrdcDH.enterPublicationsInfo'(1, 1, 1, 1)
-
-//CustomKeywords.'utilities.CrdcDH.enterRepositoryInfo'('Clinical', 1, 1, 1)
-
-WebUI.click(findTestObject('CRDC/SubmissionRequest/Save-Btn'))
-
-WebUI.click(findTestObject('CRDC/SubmissionRequest/Next-Btn'))
-
-CustomKeywords.'utilities.CrdcDH.enterDataAccessAndDiseaseInfo'('Cholangiocarcinoma', 'Lung', 'Mus', 1, 1, 1)
+CustomKeywords.'utilities.CrdcDH.enterRepositoryInfo'('Clinical', 1)
 
 WebUI.click(findTestObject('CRDC/SubmissionRequest/Save-Btn'))
-
 WebUI.click(findTestObject('CRDC/SubmissionRequest/Next-Btn'))
 
-//'immunology', 'epidemiologic', 'imaging', , 'other', 'other-clinical'
-CustomKeywords.'utilities.CrdcDH.selectDataTypes'('immunology', 'epidemiologic', 'imaging', 'other')
+CustomKeywords.'utilities.CrdcDH.enterDataAccessTypeAndDbGapRegInfo'('Controlled', 'Yes')
+
+CustomKeywords.'utilities.CrdcDH.enterCancerTypeAndSubjectsInfo'('Cholangiocarcinoma', 'Homo', 1)
+
+WebUI.click(findTestObject('CRDC/SubmissionRequest/Save-Btn'))
+WebUI.click(findTestObject('CRDC/SubmissionRequest/Next-Btn'))
+
+CustomKeywords.'utilities.CrdcDH.enterTargetDeliveryAndExpectedPublicationDate'()
+
+CustomKeywords.'utilities.CrdcDH.selectDataTypes'('genomics', 'proteomics')
 
 CustomKeywords.'utilities.CrdcDH.selectFileTypes'(5, 6, 1, 1)
 
 WebUI.click(findTestObject('CRDC/SubmissionRequest/Save-Btn'))
-
 WebUI.click(findTestObject('CRDC/SubmissionRequest/Next-Btn'))
 
 //Verification starts here
-CustomKeywords.'utilities.CrdcDH.verifyPiInfo'(1, 1, 1, 1, 5, 1)
+CustomKeywords.'utilities.CrdcDH.verifyPrincipalInvestigatorInfo'(2)
 
-CustomKeywords.'utilities.CrdcDH.verifyPrimaryContactInfo'(2, 2, 2, 2, 10, 2)
+CustomKeywords.'utilities.CrdcDH.verifyPrimaryContactInfo'(2)
 
-//CustomKeywords.'utilities.CrdcDH.verifyAdditionalContactInfo'(2, 1, 2, 2, 11, 2)
+CustomKeywords.'utilities.CrdcDH.verifyAdditionalContactInfo'(2)
 
-CustomKeywords.'utilities.CrdcDH.verifyProgramInfo'(4)
+CustomKeywords.'utilities.CrdcDH.verifyProgramInfo'(6)
 
-CustomKeywords.'utilities.CrdcDH.verifyStudyInfo'(1, 1, 1)
+CustomKeywords.'utilities.CrdcDH.verifyStudyInfo'(1)
 
-CustomKeywords.'utilities.CrdcDH.verifyFundingAgencyAndDbGaPInfo'(1, 1, 1, 1, 1)
+CustomKeywords.'utilities.CrdcDH.verifyFundingAgencyAndDbGaPInfo'(1)
 
-//CustomKeywords.'utilities.CrdcDH.verifyPublicationsInfo'(1, 1, 1, 1)
+CustomKeywords.'utilities.CrdcDH.verifyPublicationsInfo'(1)
 
-//CustomKeywords.'utilities.CrdcDH.verifyRepositoryInfo'('Clinical', 1, 1, 1)
+CustomKeywords.'utilities.CrdcDH.verifyRepositoryInfo'('Clinical', 1)
 
-CustomKeywords.'utilities.CrdcDH.verifyDataAccessAndDiseaseInfo'('Cholangiocarcinoma', 'Breast', 'Mus', 1, 1, 1)
+CustomKeywords.'utilities.CrdcDH.verifyDataAccessAndDiseaseInfo'('Cholangiocarcinoma', 'lung', 'Homo', 1)
 
-CustomKeywords.'utilities.CrdcDH.verifyDataTypes'('immunology', 'epidemiologic', 'imaging')
+CustomKeywords.'utilities.CrdcDH.verifyDataTypes'('genomics', 'proteomics')
 
 CustomKeywords.'utilities.CrdcDH.verifyFileTypes'(5, 6, 1, 1)
 
