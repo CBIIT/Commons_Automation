@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_CDS_phs003155_LibraryStrategy-NSD_LibrarySelection-NSD</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e175ffbb-b291-4f91-80a8-2cf61da546cc</testCaseGuid>
+</TestCaseEntity>

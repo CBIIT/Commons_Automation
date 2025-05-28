@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC05_CDS_phs003155_SampleType_Metastatic</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>895aa3d4-fd12-4530-8c0d-ba2ef1573cad</testCaseGuid>
-</TestCaseEntity>

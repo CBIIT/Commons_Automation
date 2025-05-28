@@ -25,6 +25,9 @@ import com.kms.katalon.core.testobject.ObjectRepository
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import java.util.regex.Pattern
+import java.util.regex.Matcher
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 public class Utils {
 
@@ -179,7 +182,6 @@ public class Utils {
 			System.out.println(dirName +" folder already exists.");
 		}
 	}
-
 
 	/**
 	 * This function gets the system's current date
@@ -363,6 +365,30 @@ public class Utils {
 					}
 				}
 				l2row++
+			}
+		}
+	}
+
+	/**
+	 * This function finds the filter using the search bar in the facet (available for dropdowns with a large number of filter options)
+	 * @param filter (name of the filter)
+	 */
+	public static findFilterBySearch(String filter){
+		if(appKey.equals("CDS")) {
+			if (filter.contains("phs")) {
+				//PHS Accession dropdown
+				Pattern pattern = Pattern.compile("phs\\d{6}")
+				Matcher matcher = pattern.matcher(filter)
+				String accession = null
+				if (matcher.find()) {
+					accession = matcher.group()
+					System.out.println("Searching for PHS Accession: " + accession)
+					TestRunner.clickTab('Object Repository/CDS/Data_page/Filter/StudyFacet/PHS_Accession/phsAccession_Search')
+					WebUI.setText(findTestObject('Object Repository/CDS/Data_page/Filter/StudyFacet/PHS_Accession/phsAccession_Search'), accession)
+				}
+				else {
+					KeywordUtil.markFailed("Not able to find PHS Accession-- stopping test");
+				}
 			}
 		}
 	}
