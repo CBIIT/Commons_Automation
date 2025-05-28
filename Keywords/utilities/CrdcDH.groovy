@@ -1,4 +1,5 @@
 package utilities
+
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -45,7 +46,6 @@ import java.util.Set;
 import java.util.Date;
 import java.text.SimpleDateFormat;
 import org.openqa.selenium.Keys as Keys
-
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import org.apache.poi.ss.usermodel.Cell;
@@ -66,6 +66,8 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.Cookie as Cookie
+import java.time.LocalDate
+import java.time.format.DateTimeFormatter
 
 
 class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
@@ -89,82 +91,6 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 		WebUI.waitForPageLoad(30)
 		WebUI.verifyMatch(GlobalVariable.G_Urlname, WebUI.getUrl(), false)
 	}
-
-	/**
-	 * The function is used to login to CRDC application.
-	 */
-	@Keyword
-	public static void loginToCrdc() {
-
-		Thread.sleep(3000);
-		WebUI.waitForPageLoad(10)
-		WebUI.waitForElementPresent(findTestObject('CRDC/NavBar/WarningBanner_Continue-Btn'), 5)
-		WebUI.click(findTestObject('CRDC/NavBar/WarningBanner_Continue-Btn'))
-
-		WebUI.waitForElementPresent(findTestObject('CRDC/Login/LoginPageLogin-Btn'), 5)
-		WebUI.click(findTestObject('CRDC/Login/LoginPageLogin-Btn'))
-
-		WebUI.waitForElementPresent(findTestObject('CRDC/Login/Login.gov-Btn'), 5)
-		WebUI.click(findTestObject('CRDC/Login/Login.gov-Btn'))
-
-		WebUI.waitForElementPresent(findTestObject('CRDC/Login/Login.gov_UserEmail-TxtBx'), 5)
-		WebUI.setText(findTestObject('CRDC/Login/Login.gov_UserEmail-TxtBx'), GlobalVariable.userEmail)
-		Thread.sleep(1000);
-
-		WebUI.waitForElementPresent(findTestObject('CRDC/Login/Login.gov_UserPass-TxtBx'), 5)
-		WebUI.setText(findTestObject('CRDC/Login/Login.gov_UserPass-TxtBx'), GlobalVariable.userPassword)
-		Thread.sleep(1000);
-
-		WebUI.waitForElementPresent(findTestObject('CRDC/Login/Login.gov_SignIn-Btn'), 5)
-		WebUI.click(findTestObject('CRDC/Login/Login.gov_SignIn-Btn'))
-
-		for (int i=1; i<=3; i++) {
-
-			WebUI.waitForElementPresent(findTestObject('CRDC/Login/Login.gov_BackupSecurityCode-TxtBx'), 5)
-
-			WebUI.setText(findTestObject('CRDC/Login/Login.gov_BackupSecurityCode-TxtBx'), findTestData('CRDC/Login/LoginData').getValue('sec-backup-codes', i))
-			System.out.println("Entering backup code: " + findTestData('CRDC/Login/LoginData').getValue('sec-backup-codes', i));
-
-
-
-			WebUI.waitForElementPresent(findTestObject('CRDC/Login/Login.gov_OneTimeCode_Submit-Btn'), 5)
-			WebUI.click(findTestObject('CRDC/Login/Login.gov_OneTimeCode_Submit-Btn'))
-
-			Thread.sleep(3000);
-			String url = WebUI.getUrl();
-
-			if (url.contains("idp.int.identity")) {
-
-				System.out.println("Current URL is: "+ url);
-				System.out.println("Old code detected, Trying new code...");
-			} else {
-				System.out.println("Valid Code, Continuing with Consent");
-				if(i==3) {
-					System.out.println("Last Code Used! Please update the input file for next run");
-				}
-				break;
-			}
-		}
-
-
-		WebUI.waitForElementPresent(findTestObject('CRDC/Login/Login.gov_ConsentGrant-Btn'), 5)
-		WebUI.click(findTestObject('CRDC/Login/Login.gov_ConsentGrant-Btn'))
-
-		//		if(WebUI.getUrl().contains("hub")) {
-		//			WebUI.waitForElementPresent(findTestObject('CRDC/Login/UserProfile-Dd'), 5)
-		//			WebUI.verifyElementPresent(findTestObject('CRDC/Login/UserProfile-Dd'), 5)
-		//			String userName = WebUI.getText(findTestObject('CRDC/Login/UserProfile-Dd'));
-		//
-		//			if(userName.contains("KATALON"))
-		//				System.out.println("User '" + userName + "' sucessfully logged in");
-		//			System.out.println("Current URL is: "+ WebUI.getUrl());
-		//			WebUI.verifyMatch(GlobalVariable.G_Urlname+"submissions", WebUI.getUrl(), false)
-		//
-		//		}else {
-		//			KeywordUtil.markFailed("Landed on the wrong page!")
-		//		}
-	}
-
 
 	/**
 	 * This function gets the system's current date
@@ -231,20 +157,27 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 	 * @param dataFileRowNum Please add data file row number to be read
 	 */
 	@Keyword
-	public static void enterPiInfo(int fNameRN, int lNameRN, int positnRN, int emailRN, int institRN, int instAddRN){
-		Thread.sleep(1000)
-		ePath = "CRDC/SubmissionRequest/Section-A/";
-		fPath = "CRDC/SubmissionRequest/Section-A/principal-investigator";
-		WebUI.waitForElementPresent(findTestObject('CRDC/SubmissionRequest/Section-A/PI_FirstName-TxtBx'), 20)
-		WebUI.setText(findTestObject('CRDC/SubmissionRequest/Section-A/PI_FirstName-TxtBx'), clearText() + findTestData(fPath).getValue('pi-first-name', fNameRN));
-		WebUI.waitForElementPresent(findTestObject(ePath+'PI_LastName-Txtbx'), 20)
-		WebUI.setText(findTestObject(ePath+'PI_LastName-Txtbx'), clearText() + findTestData(fPath).getValue('pi-last-name', lNameRN));
-		WebUI.waitForElementPresent(findTestObject(ePath+'PI_Position-Txtbx'), 20)
-		WebUI.setText(findTestObject(ePath+'PI_Position-Txtbx'), clearText() + findTestData(fPath).getValue('position', positnRN));
-		WebUI.setText(findTestObject(ePath+'PI_Email-Txtbx'), clearText() + findTestData(fPath).getValue('pi-email', emailRN));
-		WebUI.setText(findTestObject(ePath+'PI_Institution-Dd'), clearText() + findTestData(fPath).getValue('pi-institution', institRN));
-		WebUI.setText(findTestObject(ePath+'PI_InstitAddress-Txtbx'), clearText() + findTestData(fPath).getValue('pi-instit-address', instAddRN));
-		System.out.println("Successfully entered PI information");
+	public static void enterPrincipalInvestigatorInfo(int dataRowNum) {
+		String objPath = 'CRDC/SubmissionRequest/Section-A/';
+		String dataFile = 'CRDC/SubmissionRequest/section-a';
+		TestData testData = findTestData(dataFile);
+
+		// Define mappings of field object names to their data keys
+		Map<String, String> fields = [
+			'PI_FirstName-TxtBx'       : 'pi-first-name',
+			'PI_LastName-Txtbx'        : 'pi-last-name',
+			'PI_Position-Txtbx'        : 'position',
+			'PI_Email-Txtbx'           : 'pi-email',
+			'PI_Institution-Dd'        : 'pi-institution',
+			'PI_InstitAddress-Txtbx'   : 'pi-instit-address'
+		]
+		fields.each { testObjectId, columnName ->
+			TestObject to = findTestObject(objPath + testObjectId)
+			WebUI.waitForElementPresent(to, 20)
+			String value = testData.getValue(columnName, dataRowNum)
+			WebUI.setText(to, clearText() + value)
+			KeywordUtil.logInfo("Successfully entered: " + value +" into "+ columnName);
+		}
 	}
 
 	/**
@@ -252,16 +185,28 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 	 * @param dataFileRowNum Please add data file row number to be read
 	 */
 	@Keyword
-	public static void enterPrimaryContactInfo(int fNameRN, int lNameRN, int positnRN, int emailRN, int institRN, int phoneRN){
-		fPath = "CRDC/SubmissionRequest/Section-A/primary-contact";
-		WebUI.waitForElementPresent(findTestObject(ePath+'PC_FirstName-Txtbx'), 20)
-		WebUI.setText(findTestObject(ePath+'PC_FirstName-Txtbx'), findTestData(fPath).getValue('pc-first-name', fNameRN));
-		WebUI.setText(findTestObject(ePath+'PC_LastName-Txtbx'), findTestData(fPath).getValue('pc-last-name', lNameRN));
-		WebUI.setText(findTestObject(ePath+'PC_Position-Txtbx'), findTestData(fPath).getValue('pc-position', positnRN));
-		WebUI.setText(findTestObject(ePath+'PC_Email-Txtbx'), findTestData(fPath).getValue('pc-email', emailRN));
-		WebUI.setText(findTestObject(ePath+'PC_Institution-Dd'), findTestData(fPath).getValue('pc-institution', institRN));
-		WebUI.setText(findTestObject(ePath+'PC_Phone-Txtbx'), findTestData(fPath).getValue('pc-phone', phoneRN));
-		System.out.println("Successfully entered primary contact information");
+	public static void enterPrimaryContactInfo(int dataRowNum){
+
+		String objPath = 'CRDC/SubmissionRequest/Section-A/';
+		String dataFile = 'CRDC/SubmissionRequest/section-a';
+		TestData testData = findTestData(dataFile);
+
+		// Define mappings of field object names to their data keys
+		Map<String, String> fields = [
+			'PC_FirstName-Txtbx'       : 'pc-first-name',
+			'PC_LastName-Txtbx'        : 'pc-last-name',
+			'PC_Position-Txtbx'        : 'pc-position',
+			'PC_Email-Txtbx'           : 'pc-email',
+			'PC_Institution-Dd'        : 'pc-institution',
+			'PC_Phone-Txtbx'           : 'pc-phone'
+		]
+		fields.each { testObjectId, columnName ->
+			TestObject to = findTestObject(objPath + testObjectId)
+			WebUI.waitForElementPresent(to, 20)
+			String value = testData.getValue(columnName, dataRowNum)
+			WebUI.setText(to, clearText() + value)
+			KeywordUtil.logInfo("Successfully entered: " + value +" into "+ columnName);
+		}
 	}
 
 	/**
@@ -269,20 +214,33 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 	 * @param dataFileRowNum Please add data file row number to be read
 	 */
 	@Keyword
-	public static void enterAdditionalContactInfo(int fNameRN, int lNameRN, int positnRN, int emailRN, int institRN, int phoneRN) {
-		fPath = "CRDC/SubmissionRequest/Section-A/additional-contact";
-		Thread.sleep(1000);
-		WebUI.click(findTestObject(ePath+'AddContact-Btn'))
-		WebUI.waitForElementPresent(findTestObject(ePath+'AC_FirstName-Txtbx'), 20)
-		WebUI.setText(findTestObject(ePath+'AC_FirstName-Txtbx'), findTestData(fPath).getValue('ac-first-name', fNameRN));
-		WebUI.setText(findTestObject(ePath+'AC_LastName-Txtbx'), findTestData(fPath).getValue('ac-last-name', lNameRN));
-		WebUI.setText(findTestObject(ePath+'AC_Position-Txtbx'), findTestData(fPath).getValue('ac-position', positnRN));
-		WebUI.setText(findTestObject(ePath+'AC_Email-Txtbx'), findTestData(fPath).getValue('ac-email', emailRN));
-		WebUI.setText(findTestObject(ePath+'AC_Institution-Dd'), findTestData(fPath).getValue('ac-institution', institRN));
-		WebUI.setText(findTestObject(ePath+'AC_Phone-Txtbx'), findTestData(fPath).getValue('ac-phone', phoneRN));
-		System.out.println("Successfully entered additional contact information");
+	public static void enterAdditionalContactInfo(int dataRowNum) {
+
+		String objPath = 'CRDC/SubmissionRequest/Section-A/';
+		String dataFile = 'CRDC/SubmissionRequest/section-a';
+		TestData testData = findTestData(dataFile);
+
+		WebUI.click(findTestObject(objPath+'AddContact-Btn'))
+
+		// Define mappings of field object names to their data keys
+		Map<String, String> fields = [
+			'AC_FirstName-Txtbx'       : 'ac-first-name',
+			'AC_LastName-Txtbx'        : 'ac-last-name',
+			'AC_Position-Txtbx'        : 'ac-position',
+			'AC_Email-Txtbx'           : 'ac-email',
+			'AC_Institution-Dd'        : 'ac-institution',
+			'AC_Phone-Txtbx'           : 'ac-phone'
+		]
+		fields.each { testObjectId, columnName ->
+			TestObject to = findTestObject(objPath + testObjectId)
+			WebUI.waitForElementPresent(to, 20)
+			String value = testData.getValue(columnName, dataRowNum)
+			WebUI.setText(to, clearText() + value)
+			KeywordUtil.logInfo("Successfully entered: " + value +" into "+ columnName+" field.");
+		}
 	}
 
+	//SECTION B STARTS HERE
 	/**
 	 * This function validates program fields on Program and Study page (section B)
 	 * It is intended to be used in the class. Don't directly call it in the test-case
@@ -310,36 +268,42 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 		System.out.println("Actual Program Description is: " + actual +"\nExpected Program Description is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
 	}
+	
+	public static String programTimeStamp;
 
 	/**
 	 * The function enters Program info into the submission request form
 	 * @param dataFileRowNum Please add data file row number to be read
 	 */
 	@Keyword
-	public static void enterProgramInfo(String ddValue) {
+	public static void enterProgramInfo(String ddValueToSelect, int dataRowNum) {
 
+		programTimeStamp=getCurrentDate("M-d-yyyy-HH-mm");
+		
+		
 		ePath = "CRDC/SubmissionRequest/Section-B/";
-		fPath = "CRDC/SubmissionRequest/Section-B/program-study";
+		fPath = "CRDC/SubmissionRequest/section-b";
 		Thread.sleep(1000);
 		WebUI.click(findTestObject(ePath+'Program-Dd'))
 		Thread.sleep(500);
-		GlobalVariable.CrdcUiElement=ddValue;
+		GlobalVariable.CrdcUiElement=ddValueToSelect;
+		WebUI.scrollToElement(findTestObject('CRDC/SubmissionRequest/CrdcDdValue'), 10)
 		WebUI.click(findTestObject('CRDC/SubmissionRequest/CrdcDdValue'))
 
-		if(ddValue.contains("Other")) {
-			WebUI.setText(findTestObject(ePath+'ProgramTitle-TxtBx'), findTestData(fPath).getValue('program-title', 6)+getCurrentDate("M-d-yyyy-HH-mm"));
-			WebUI.setText(findTestObject(ePath+'ProgAbbre-Txtbx'), findTestData(fPath).getValue('prog-abbreviation', 6)+getCurrentDate("M-d-yyyy-HH-mm"));
-			WebUI.setText(findTestObject(ePath+'ProgDescrptn-Txtbx'), findTestData(fPath).getValue('prog-description', 6));
-		}else if(ddValue.contains("CCDI")) {
+		if(ddValueToSelect.contains("Other")) {
+			WebUI.setText(findTestObject(ePath+'ProgramTitle-TxtBx'), findTestData(fPath).getValue('program-title', dataRowNum)+programTimeStamp);
+			WebUI.setText(findTestObject(ePath+'ProgAbbre-Txtbx'), findTestData(fPath).getValue('prog-abbreviation', dataRowNum)+programTimeStamp);
+			WebUI.setText(findTestObject(ePath+'ProgDescrptn-Txtbx'), findTestData(fPath).getValue('prog-description', dataRowNum));
+		}else if(ddValueToSelect.contains("CCDI")) {
 
 			validateProgramFields(2);
-		}else if(ddValue.contains("CPTAC")) {
+		}else if(ddValueToSelect.contains("CPTAC")) {
 
 			validateProgramFields(3);
-		}else if(ddValue.contains("DCCPS")) {
+		}else if(ddValueToSelect.contains("DCCPS")) {
 
 			validateProgramFields(4);
-		}else if(ddValue.contains("HTAN")) {
+		}else if(ddValueToSelect.contains("HTAN")) {
 
 			validateProgramFields(5);
 		}else {
@@ -349,52 +313,70 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 		System.out.println("Successfully entered program information");
 	}
 
+
+
+
+
 	/**These variables hold date value and reused in verification functions**/
-	public static String studyTitle;
-	public static String studyAbrre;
+	public static String studyTimeStamp;
+
 
 	/**
 	 * This function enters study information into submission request form
-	 * @param dataFileRowNum Please add data file row number to be read
+	 * @param dataRowNum Row number from the test data file
 	 */
 	@Keyword
-	public static void enterStudyInfo(int stdyTitleRN, int stdyAbbRN, int stdyDesRN) {
+	public static void enterStudyInfo(int dataRowNum) {
 
-		studyTitle=getCurrentDate("M-d-yyyy-HH-mm");
-		studyAbrre=getCurrentDate("M-d-yyyy-HH-mm")
-		fPath = "CRDC/SubmissionRequest/Section-B/program-study";
-		Thread.sleep(1000);
-		WebUI.setText(findTestObject(ePath+'StudyTitle-Txtbx'), findTestData(fPath).getValue('study-title', stdyTitleRN)+studyTitle);
-		WebUI.setText(findTestObject(ePath+'StudyAbbre-Txtbx'), findTestData(fPath).getValue('study-abbreviation', stdyAbbRN)+studyAbrre);
-		WebUI.setText(findTestObject(ePath+'StudyDescription-Txtbx'), findTestData(fPath).getValue('study-description', stdyDesRN));
-		System.out.println("Successfully entered Study information");
+		String objPath = 'CRDC/SubmissionRequest/Section-B/';
+		TestData testData = findTestData('CRDC/SubmissionRequest/section-b');
+
+		// Timestamp used to make study title and abbreviation unique
+		studyTimeStamp = Utils.getCurrentDate("M-d-yyyy-HH-mm");
+
+		// Define mappings of field object names to their data keys
+		Map<String, String> fields = [
+			'StudyTitle-Txtbx'       : testData.getValue('study-title', dataRowNum) + studyTimeStamp,
+			'StudyAbbre-Txtbx'       : testData.getValue('study-abbreviation', dataRowNum) + studyTimeStamp,
+			'StudyDescription-Txtbx' : testData.getValue('study-description', dataRowNum)
+		]
+
+		fields.each { testObjectId, value ->
+			TestObject to = findTestObject(objPath + testObjectId)
+			WebUI.waitForElementPresent(to, 20)
+			WebUI.setText(to, clearText() + value)
+			KeywordUtil.logInfo("Successfully entered: " + value +" into the field.");
+		}
 	}
 
 	/**
-	 * This function enters Funding Agency and DbGaP info into submission request form
-	 * @param dataFileRowNum Please add data file row number to be read
+	 * This function enters funding agency information into the submission request form.
+	 * @param dataRowNum Row number from the test data file
 	 */
 	@Keyword
-	public static void enterFundingAgencyAndDbGaPInfo(int fundinAgency, int grntRN, int nciPgogOfcrRN, int nciGenProgAdmnRN, int dbgapPhsNumRN) {
+	public static void enterFundingAgencyInfo(int dataRowNum) {
 
-		Thread.sleep(1000);
-		fPath = "CRDC/SubmissionRequest/Section-B/funding-agency-dbGaP";
-		WebUI.setText(findTestObject(ePath+'FundingAgency-Dd'), findTestData(fPath).getValue('funding-agency', fundinAgency));
-		WebUI.setText(findTestObject(ePath+'GrantContractNumber-Txtbx'), findTestData(fPath).getValue('grant-number', grntRN));
-		WebUI.setText(findTestObject(ePath+'NCIProgramOfficer-Txtbx'), findTestData(fPath).getValue('nci-prog-officer', nciPgogOfcrRN));
-		WebUI.setText(findTestObject(ePath+'NciGenProgAdministrator-Txtbx'), findTestData(fPath).getValue('nci-genomic-prog-admin', nciGenProgAdmnRN));
+		String objPath = 'CRDC/SubmissionRequest/Section-B/';
+		String dataFile = 'CRDC/SubmissionRequest/section-b';
+		TestData testData = findTestData(dataFile);
 
-		String isRegistered = WebUI.getAttribute(findTestObject(ePath+'yesNoParentTag-TogleBtn'), 'class')
+		// Define mappings of TestObject IDs to column names
+		Map<String, String> fields = [
+			'FundingAgency-Dd'                     : 'funding-agency',
+			'GrantContractNumber-Txtbx'            : 'grant-number',
+			'NCIProgramOfficer-Txtbx'              : 'nci-prog-officer',
+			'NciGenProgAdministrator-Txtbx'        : 'nci-genomic-prog-admin'
+		]
 
-		if(!isRegistered.contains("checked")) {
-			WebUI.click(findTestObject(ePath+'dbGapRegistered-TogleBtn'))
-			WebUI.setText(findTestObject(ePath+'dbGapPHSNumber-Txtbx'), findTestData(fPath).getValue('dbgap-phs-num', dbgapPhsNumRN));
-		}else {
-			WebUI.setText(findTestObject(ePath+'dbGapPHSNumber-Txtbx'), findTestData(fPath).getValue('dbgap-phs-num', dbgapPhsNumRN));
+		fields.each { testObjectId, columnName ->
+			TestObject to = findTestObject(objPath + testObjectId)
+			WebUI.waitForElementPresent(to, 20)
+			String value = testData.getValue(columnName, dataRowNum)
+			WebUI.setText(to, clearText() + value)
+			KeywordUtil.logInfo("Successfully entered: " + value +" into "+ columnName+" field.");
 		}
-
-		System.out.println("Successfully entered Funding Agency and dbGaP information");
 	}
+
 
 	/**
 	 * This function clears text from a text field
@@ -404,52 +386,118 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 		WebUI.sendKeys(obj,  Keys.chord(Keys.CONTROL, "a") + Keys.DELETE);
 	}
 
-
 	/**
-	 * This function enters Publications info into submission request form
-	 * @param dataFileRowNum Please add data file row number to be read
+	 * This function enters Existing and Planned Publications info into the submission request form.
+	 * @param dataRowNum Row number to read from the test data file
 	 */
 	@Keyword
-	public static void enterPublicationsInfo(int publiTitRN, int pubmedIdRN, int doiRN, int plndPublTitleRN) {
+	public static void enterExistingAndPlannedPublicationsInfo(int dataRowNum) {
 
-		fPath = "CRDC/SubmissionRequest/Section-B/publication-repository";
+		String objPath = 'CRDC/SubmissionRequest/Section-B/';
+		String dataFile = 'CRDC/SubmissionRequest/section-b';
+		TestData testData = findTestData(dataFile);
 
-		WebUI.scrollToElement(findTestObject(ePath+'AddExistingPublication-Btn'), 20)
-		WebUI.click(findTestObject(ePath+"AddExistingPublication-Btn"))
-		Thread.sleep(1000);
-		WebUI.setText(findTestObject(ePath+'PublicationTitle-TxtBx'), findTestData(fPath).getValue('publication-title', publiTitRN));
-		WebUI.setText(findTestObject(ePath+'PubMedID-Txtbx'), findTestData(fPath).getValue('pubmed-id', pubmedIdRN));
-		WebUI.setText(findTestObject(ePath+'DOI-Txtbx'), findTestData(fPath).getValue('doi', doiRN));
+		// Add Existing Publication
+		WebUI.scrollToElement(findTestObject(objPath + 'AddExistingPublication-Btn'), 20)
+		WebUI.click(findTestObject(objPath + 'AddExistingPublication-Btn'))
+		Thread.sleep(1000)
 
-		WebUI.click(findTestObject(ePath+"AddPlannedPublication-Btn"))
-		Thread.sleep(500);
-		WebUI.scrollToElement(findTestObject(ePath+'PlannedPublicationTitle-Txtbx'), 3)
-		WebUI.setText(findTestObject(ePath+'PlannedPublicationTitle-Txtbx'), findTestData(fPath).getValue('pland-publictn-title', plndPublTitleRN));
-		clearText(findTestObject(ePath+'ExpectedPubDate-Clndr'))
-		WebUI.setText(findTestObject(ePath+'ExpectedPubDate-Clndr'), clearText() + getCurrentDate("MM/dd/yyyy"));
-		System.out.println("Successfully entered Publications information");
+		Map<String, String> existingPubFields = [
+			'PublicationTitle-TxtBx' : 'publication-title',
+			'PubMedID-Txtbx'         : 'pubmed-id',
+			'DOI-Txtbx'              : 'doi'
+		]
+
+		existingPubFields.each { testObjectId, columnName ->
+			TestObject to = findTestObject(objPath + testObjectId)
+			WebUI.waitForElementPresent(to, 10)
+			String value = testData.getValue(columnName, dataRowNum)
+			WebUI.setText(to, clearText() + value)
+			KeywordUtil.logInfo("Successfully entered: " + value +" into "+ columnName+" field.");
+		}
+
+		// Add Planned Publication
+		WebUI.click(findTestObject(objPath + 'AddPlannedPublication-Btn'))
+		Thread.sleep(500)
+		WebUI.scrollToElement(findTestObject(objPath + 'PlannedPublicationTitle-Txtbx'), 3)
+
+		WebUI.setText(
+				findTestObject(objPath + 'PlannedPublicationTitle-Txtbx'),
+				clearText() + testData.getValue('pland-publictn-title', dataRowNum)
+				)
+
+		TestObject pubDateField = findTestObject(objPath + 'ExpectedPubDate-Clndr')
+		WebUI.clearText(pubDateField)
+		WebUI.setText(pubDateField, Utils.getCurrentDate("MM/dd/yyyy"))
+		KeywordUtil.logInfo("Successfully entered planned publication");
 	}
 
 	/**
-	 * This function enters Repository info into submission request form
-	 * @param dataFileRowNum Please add data file row number to be read
+	 * This function enters Repository information into the submission request form.
+	 * @param dropDownValue The value to select from the Data Types Submitted dropdown
+	 * @param dataRowNum Row number to read from the test data file
 	 */
 	@Keyword
-	public static void enterRepositoryInfo(String dropDownVlue, int repoNamRN, int stdyIdRN, int otherDataTypRN) {
+	public static void enterRepositoryInfo(String dropDownValue, int dataRowNum) {
+		String objPath = 'CRDC/SubmissionRequest/Section-B/';
+		TestData testData = findTestData('CRDC/SubmissionRequest/section-b');
 
-		fPath = "CRDC/SubmissionRequest/Section-B/publication-repository";
-		WebUI.click(findTestObject(ePath+"AddRepository-Btn"))
-		Thread.sleep(1000);
-		WebUI.setText(findTestObject(ePath+'RepositoryName-Txtbx'), findTestData(fPath).getValue('repository-name', repoNamRN));
-		WebUI.setText(findTestObject(ePath+'StudyID-Txtbx'), findTestData(fPath).getValue('study-id', stdyIdRN));
-		WebUI.click(findTestObject(ePath+'DataTypesSubmitd-Dd'));
-		Thread.sleep(500);
-		GlobalVariable.CrdcUiElement=dropDownVlue;
-		WebUI.click(findTestObject('CRDC/SubmissionRequest/CrdcDdValue'));
+		WebUI.click(findTestObject(objPath + 'AddRepository-Btn'))
+		Thread.sleep(1000)
+
+		Map<String, String> fields = [
+			'RepositoryName-Txtbx'   : 'repository-name',
+			'StudyID-Txtbx'          : 'study-id',
+			'OtherDataTypes-Txtbx'   : 'other-data-types'
+		]
+
+		fields.each { testObjectId, columnName ->
+			TestObject to = findTestObject(objPath + testObjectId)
+			WebUI.waitForElementPresent(to, 10)
+			String value = testData.getValue(columnName, dataRowNum)
+			WebUI.setText(to, clearText() + value)
+			KeywordUtil.logInfo("Successfully entered: " + value +" into "+ columnName+" field.");
+		}
+
+		// Handle dropdown selection
+		WebUI.click(findTestObject(objPath + 'DataTypesSubmitd-Dd'))
+		Thread.sleep(500)
+		GlobalVariable.CrdcUiElement = dropDownValue
+		WebUI.click(findTestObject('CRDC/SubmissionRequest/CrdcDdValue'))
 		GlobalVariable.CrdcUiElement="Proteomics";
 		WebUI.sendKeys(findTestObject('CRDC/SubmissionRequest/CrdcDdValue'), Keys.chord(Keys.TAB))
-		WebUI.setText(findTestObject(ePath+'OtherDataTypes-Txtbx'), findTestData(fPath).getValue('other-data-types', otherDataTypRN));
-		System.out.println("Successfully entered Repository information");
+	}
+
+
+	/**
+	 * This function enters Repository information into the submission request form.
+	 * @param dropDownValue The value to select from the Data Types Submitted dropdown
+	 * @param dataRowNum Row number to read from the test data file
+	 */
+	@Keyword
+	public static void enterDataAccessTypeAndDbGapRegInfo(String accessType, String dbGapRegistered) {
+		String objPath = 'CRDC/SubmissionRequest/Section-C/';
+		TestData testData = findTestData('CRDC/SubmissionRequest/section-c');
+
+		if(accessType.equalsIgnoreCase("open")) {
+			WebUI.click(findTestObject(objPath+'OpenAccess-ChkBx'));
+		}else if(accessType.equalsIgnoreCase("controlled")) {
+			WebUI.click(findTestObject(objPath+'ControlledAccess-Chkbx'));
+		}else if(accessType.equalsIgnoreCase("both")) {
+			WebUI.click(findTestObject(objPath+'OpenAccess-ChkBx'));
+			WebUI.click(findTestObject(objPath+'ControlledAccess-Chkbx'));
+		}else {
+			KeywordUtil.markFailed("Invalid Access Type entered. check enterDataAccessTypeAndDbGapRegInfo() function")
+		}
+
+		if(dbGapRegistered.equalsIgnoreCase("yes")) {
+			WebUI.click(findTestObject(objPath+'dbGapRegistered-TogleBtn'));
+			WebUI.setText(findTestObject(objPath+'dbGapPHSNumber-Txtbx'), "phs005555")
+		}else if(dbGapRegistered.equalsIgnoreCase("no")) {
+			KeywordUtil.logInfo("Skipping dbGaP PHS field as it is no regitered");
+		}else {
+			KeywordUtil.markFailed("Invalid response for dbGaP Registration. check enterDataAccessTypeAndDbGapRegInfo() function")
+		}
 	}
 
 
@@ -458,45 +506,46 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 	 * @param dataFileRowNum Please add data file row number to be read
 	 */
 	@Keyword
-	public static void enterDataAccessAndDiseaseInfo(String cancerType, String preCancerType, String speciesOfSub, int otherCancerTyRN, int otherPreCancerTyRN, int numOfSubjectRN) {
+	public static void enterCancerTypeAndSubjectsInfo(String cancerType, String speciesOfSub, int dataRowNum) {
 
 		ePath = "CRDC/SubmissionRequest/Section-C/";
-		fPath = "CRDC/SubmissionRequest/Section-C/data-access-disease";
-		Thread.sleep(1000)
-		WebUI.click(findTestObject(ePath+"OpenAccess-ChkBx"))
-		WebUI.click(findTestObject(ePath+"CancerTypes-Dd"))
+		TestData testData = findTestData('CRDC/SubmissionRequest/section-c');
+
+		WebUI.click(findTestObject("CRDC/SubmissionRequest/Section-C/CancerTypes-Dd"))
 		GlobalVariable.CrdcUiElement=cancerType;
 		WebUI.click(findTestObject('CRDC/SubmissionRequest/CrdcDdValue'))
 
 		GlobalVariable.CrdcUiElement="Bone";
 		WebUI.sendKeys(findTestObject('CRDC/SubmissionRequest/CrdcDdValue'), Keys.chord(Keys.TAB))
-		WebUI.setText(findTestObject(ePath+'OtherCancerTypes-Txtbx'), findTestData(fPath).getValue('other-cancer-type', otherCancerTyRN));
+		WebUI.setText(findTestObject('CRDC/SubmissionRequest/Section-C/PreCancerTypes-Txtbx'), testData.getValue('pre-cancer-type', dataRowNum));
 
 		Thread.sleep(500);
-		WebUI.click(findTestObject(ePath+"PreCancerTypes-Dd"))
-		GlobalVariable.CrdcUiElement=preCancerType;
-		WebUI.click(findTestObject('CRDC/SubmissionRequest/CrdcDdValue'))
-
-		if(preCancerType.equalsIgnoreCase("Breast")) {
-			GlobalVariable.CrdcUiElement="Lung";
-		}else if(preCancerType.equalsIgnoreCase("Lung")) {
-			GlobalVariable.CrdcUiElement="Breast";
-		}
-
-		WebUI.sendKeys(findTestObject('CRDC/SubmissionRequest/CrdcDdValue'), Keys.chord(Keys.TAB))
-		WebUI.setText(findTestObject(ePath+'OtherPreCancerTypes-Txtbx'), findTestData(fPath).getValue('other-pre-cancer-type', otherPreCancerTyRN));
-
-		Thread.sleep(500);
-		WebUI.click(findTestObject(ePath+"SpeciesOfSubjects-Dd"))
+		WebUI.click(findTestObject("CRDC/SubmissionRequest/Section-C/SpeciesOfSubjects-Dd"))
 		GlobalVariable.CrdcUiElement=speciesOfSub;
 		WebUI.click(findTestObject('CRDC/SubmissionRequest/CrdcDdValue'))
 		GlobalVariable.CrdcUiElement="Rattus";
 		WebUI.sendKeys(findTestObject('CRDC/SubmissionRequest/CrdcDdValue'), Keys.chord(Keys.TAB))
-		WebUI.setText(findTestObject(ePath+'NumOfSubjectsIncludInSub-Txtbx'), findTestData(fPath).getValue('num-of-subjects-included', numOfSubjectRN));
-		WebUI.click(findTestObject(ePath+"CellLines-Chkbx"))
-		WebUI.click(findTestObject(ePath+"ConfirmDataSubAreDeIdenified-Yes-RdoBtn"))
+
+		WebUI.setText(findTestObject('CRDC/SubmissionRequest/Section-C/NumOfSubjectsIncludInSub-Txtbx'), testData.getValue('num-of-subjects-included', dataRowNum));
 		System.out.println("Successfully entered Data Access Types and Cancer Types information");
 	}
+
+
+
+	/**
+	 * Selects today's date for both "Targeted Data Submission Delivery Date" and
+	 * "Expected Publication Date" fields in the Submission Request Section-D form.
+	 */
+	@Keyword
+	public static void enterTargetDeliveryAndExpectedPublicationDate() {
+
+		WebUI.click(findTestObject('CRDC/SubmissionRequest/Section-D/TragetSubmDelivryDate-Clnder'))
+		WebUI.click(findTestObject('CRDC/SubmissionRequest/Section-D/CalendarTodayDate-Btn'))
+		Thread.sleep(1000)
+		WebUI.click(findTestObject('CRDC/SubmissionRequest/Section-D/ExpctdPubliDate-Clndr'))
+		WebUI.click(findTestObject('CRDC/SubmissionRequest/Section-D/CalendarTodayDate-Btn'))
+	}
+
 
 	static void selectTodayDate(TestObject calendarButton, TestObject todayDateLocator) {
 		// Click on the calendar button to open the date picker
@@ -514,7 +563,7 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 	public static void selectDataTypes(String... buttonLable) {
 
 		ePath = "CRDC/SubmissionRequest/Section-D/";
-		fPath = "CRDC/SubmissionRequest/Section-D/data-types";
+		TestData testData = findTestData('CRDC/SubmissionRequest/section-d');
 		Thread.sleep(1000)
 		//clearText(findTestObject(ePath+'TragetSubmDelivryDate-Clnder'))
 		//WebUI.setText(findTestObject(ePath+'TragetSubmDelivryDate-Clnder'), clearText() + getCurrentDate("MM/dd/yyyy"));
@@ -538,9 +587,9 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 			GlobalVariable.CrdcUiElement=label;
 
 			if(label.contains("other")) {
-				WebUI.setText(findTestObject(ePath+'OthrDtaTyp-Txtbx'), findTestData(fPath).getValue('other', 1));
+				WebUI.setText(findTestObject(ePath+'OthrDtaTyp-Txtbx'), testData.getValue('other', 1));
 			}else if(label.equals("other-clinical")){
-				WebUI.setText(findTestObject(ePath+'OthrClinclDtaTyp-Txtbx'), findTestData(fPath).getValue('othr-clinicl', 1));
+				WebUI.setText(findTestObject(ePath+'OthrClinclDtaTyp-Txtbx'), testData.getValue('othr-clinicl', 1));
 			}else if(label.contains("imaging")) {
 				WebUI.click(findTestObject('CRDC/SubmissionRequest/Toggle-Btn'))
 				WebUI.click(findTestObject(ePath+'ConfirmDataIdentified_yes-RdoBtn'))
@@ -561,22 +610,27 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 	@Keyword
 	public static void selectFileTypes(int fileTypRN, int fileExtRN, int numOfFileRN, int dataSizeRN) {
 
-		fPath = "CRDC/SubmissionRequest/Section-D/file-types";
+		TestData testData = findTestData('CRDC/SubmissionRequest/section-d');
+		
 		WebUI.scrollToElement(findTestObject(ePath+'FileType-RowOne-Dd'), 20)
 		WebUI.click(findTestObject(ePath+'FileType-RowOne-Dd'))
-		String fileType = findTestData(fPath).getValue('file-type', fileTypRN)
+		String fileType = testData.getValue('file-type', fileTypRN)
 		GlobalVariable.CrdcUiElement = fileType;
 		Thread.sleep(500);
 		WebUI.click(findTestObject('CRDC/SubmissionRequest/CrdcDdValue'))
 
 		WebUI.click(findTestObject(ePath+'FileExtension-RowOne-Dd'))
-		String fileExten = findTestData(fPath).getValue('file-extension', fileExtRN);
+		String fileExten = testData.getValue('file-extension', fileExtRN);
 		GlobalVariable.CrdcUiElement = fileExten;
 		WebUI.click(findTestObject('CRDC/SubmissionRequest/CrdcDdValue'))
 
-		WebUI.setText(findTestObject(ePath+'NumOfFiles-RowOne-Txtbx'), findTestData(fPath).getValue('num-of-file', numOfFileRN));
-		WebUI.setText(findTestObject(ePath+'EstimDtaSiz-RowOne-Txtbx'), findTestData(fPath).getValue('estimtd-data-size', dataSizeRN));
-		WebUI.setText(findTestObject(ePath+'AdditionalComnt-TxtBx'), findTestData(fPath).getValue('addit-comnt', 1));
+		WebUI.setText(findTestObject(ePath+'NumOfFiles-RowOne-Txtbx'), testData.getValue('num-of-file', numOfFileRN));
+		WebUI.setText(findTestObject(ePath+'EstimDtaSiz-RowOne-Txtbx'), testData.getValue('estimtd-data-size', dataSizeRN));
+		findTestObject('CRDC/SubmissionRequest/Section-D/ConfirmDataIdentified_yes-RdoBtn')
+		
+		WebUI.click(findTestObject("CRDC/SubmissionRequest/Section-D/ConfirmDataIdentified_yes-RdoBtn"))
+		
+		WebUI.setText(findTestObject(ePath+'AdditionalComnt-TxtBx'), testData.getValue('addit-comnt', 1));
 		System.out.println("Successfully selected file type '"+fileType+ "' with extension '"+fileExten+"'");
 	}
 
@@ -592,34 +646,35 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 	 * @param  Row Number of the data to be selected/entered
 	 */
 	@Keyword
-	public static void verifyPiInfo(int fNameRN, int lNameRN, int positnRN, int emailRN, int institRN, int instAddRN){
+	public static void verifyPrincipalInvestigatorInfo(int dataRowNum){
 		Thread.sleep(1000)
 		ePath = "CRDC/SubmissionRequest/ReviewSubmit/";
-		fPath = "CRDC/SubmissionRequest/Section-A/principal-investigator";
+		TestData testData = findTestData('CRDC/SubmissionRequest/section-a');
+		
 
 		actual = WebUI.getText(findTestObject(ePath+'PI_Name-Txt'))
-		expctd = findTestData(fPath).getValue('pi-last-name', lNameRN)+", " +findTestData(fPath).getValue('pi-first-name', fNameRN)
-		System.out.println("Actual PI Name is: " + actual +"\nExpected PI Name is: "+expctd);
+		expctd = testData.getValue('pi-last-name', dataRowNum)+", " +testData.getValue('pi-first-name', dataRowNum)
+		KeywordUtil.logInfo("Actual PI Name is: " + actual +" Expected PI Name is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
 
 		actual = WebUI.getText(findTestObject(ePath+'PI_Position-Txt'))
-		expctd = findTestData(fPath).getValue('position', positnRN)
-		System.out.println("Actual PI Position is: " + actual +"\nExpected PI Position is: "+expctd);
+		expctd = testData.getValue('position', dataRowNum)
+		KeywordUtil.logInfo("Actual PI Position is: " + actual +" Expected PI Position is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
 
 		actual = WebUI.getText(findTestObject(ePath+'PI_Email-Txt'))
-		expctd = findTestData(fPath).getValue('pi-email', emailRN)
-		System.out.println("Actual PI email is: " + actual +"\nExpected PI email is: "+expctd);
+		expctd = testData.getValue('pi-email', dataRowNum)
+		KeywordUtil.logInfo("Actual PI email is: " + actual +" Expected PI email is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
 
 		actual = WebUI.getText(findTestObject(ePath+'PI_InstitName-Txt'))
-		expctd = findTestData(fPath).getValue('pi-institution', institRN)
-		System.out.println("Actual PI institution is: " + actual +"\nExpected PI institution is: "+expctd);
+		expctd = testData.getValue('pi-institution', dataRowNum)
+		KeywordUtil.logInfo("Actual PI institution is: " + actual +" Expected PI institution is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
 
 		actual = WebUI.getText(findTestObject(ePath+'PI_InstitAddress-Txt'))
-		expctd = findTestData(fPath).getValue('pi-instit-address', instAddRN)
-		System.out.println("Actual PI institution address is: " + actual +"\nExpected PI institution address is: "+expctd);
+		expctd = testData.getValue('pi-instit-address', dataRowNum)
+		KeywordUtil.logInfo("Actual PI institution address is: " + actual +" Expected PI institution address is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
 	}
 
@@ -628,33 +683,34 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 	 * @param dataFileRowNum Please add data file row number to be read
 	 */
 	@Keyword
-	public static void verifyPrimaryContactInfo(int fNameRN, int lNameRN, int positnRN, int emailRN, int institRN, int phoneRN){
+	public static void verifyPrimaryContactInfo(int dataRowNum){
 
 		fPath = "CRDC/SubmissionRequest/Section-A/primary-contact";
+		TestData testData = findTestData('CRDC/SubmissionRequest/section-a');
 
 		actual = WebUI.getText(findTestObject(ePath+'PC_Name-Txt'))
-		expctd = findTestData(fPath).getValue('pc-last-name', lNameRN)+", " +findTestData(fPath).getValue('pc-first-name', fNameRN)
-		System.out.println("Actual Primary Contact Name is: " + actual +"\nExpected Primary Contact Name is: "+expctd);
+		expctd = testData.getValue('pc-last-name', dataRowNum)+", " +testData.getValue('pc-first-name', dataRowNum)
+		KeywordUtil.logInfo("Actual Primary Contact Name is: " + actual +" Expected Primary Contact Name is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
 
 		actual = WebUI.getText(findTestObject(ePath+'PC_Position-Txt'))
-		expctd = findTestData(fPath).getValue('pc-position', positnRN)
-		System.out.println("Actual Primary Contact Position is: " + actual +"\nExpected Primary Contact Position is: "+expctd);
+		expctd = testData.getValue('pc-position', dataRowNum)
+		KeywordUtil.logInfo("Actual Primary Contact Position is: " + actual +" Expected Primary Contact Position is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
 
 		actual = WebUI.getText(findTestObject(ePath+'PC_Email-Txt'))
-		expctd = findTestData(fPath).getValue('pc-email', emailRN)
-		System.out.println("Actual Primary Contact email is: " + actual +"\nExpected Primary Contact email is: "+expctd);
+		expctd = testData.getValue('pc-email', dataRowNum)
+		KeywordUtil.logInfo("Actual Primary Contact email is: " + actual +" Expected Primary Contact email is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
 
 		actual = WebUI.getText(findTestObject(ePath+'PC_InstitName-Txt'))
-		expctd = findTestData(fPath).getValue('pc-institution', institRN)
-		System.out.println("Actual Primary Contact institution is: " + actual +"\nExpected Primary Contact institution is: "+expctd);
+		expctd = testData.getValue('pc-institution', dataRowNum)
+		KeywordUtil.logInfo("Actual Primary Contact institution is: " + actual +" Expected Primary Contact institution is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
 
 		actual = WebUI.getText(findTestObject(ePath+'PC_InstitName-Txt'))
-		expctd = findTestData(fPath).getValue('pc-institution', institRN)
-		System.out.println("Actual Primary Contact phone is: " + actual +"\nExpected Primary Contact phone is: "+expctd);
+		expctd = testData.getValue('pc-institution', dataRowNum)
+		KeywordUtil.logInfo("Actual Primary Contact phone is: " + actual +" Expected Primary Contact phone is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
 	}
 
@@ -663,27 +719,28 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 	 * @param  Row Number of the data to be selected/entered
 	 */
 	@Keyword
-	public static void verifyAdditionalContactInfo(int fNameRN, int lNameRN, int positnRN, int emailRN, int institRN, int phoneRN) {
-		fPath = "CRDC/SubmissionRequest/Section-A/additional-contact";
+	public static void verifyAdditionalContactInfo(int dataRowNum) {
+		
+		TestData testData = findTestData('CRDC/SubmissionRequest/section-a');
 
 		actual = WebUI.getText(findTestObject(ePath+'AC_Name-Txt'))
-		expctd = findTestData(fPath).getValue('ac-last-name', lNameRN)+", " +findTestData(fPath).getValue('ac-first-name', fNameRN)
-		System.out.println("Actual Aditional Contact Name is: " + actual +"\nExpected Aditional Contact Name is: "+expctd);
+		expctd = testData.getValue('ac-last-name', dataRowNum)+", " +testData.getValue('ac-first-name', dataRowNum)
+		KeywordUtil.logInfo("Actual Aditional Contact Name is: " + actual +" Expected Aditional Contact Name is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
 
 		actual = WebUI.getText(findTestObject(ePath+'AC_Position-Txt'))
-		expctd = findTestData(fPath).getValue('ac-position', positnRN)
-		System.out.println("Actual Aditional Contact Position is: " + actual +"\nExpected Aditional Contact Position is: "+expctd);
+		expctd = testData.getValue('ac-position', dataRowNum)
+		KeywordUtil.logInfo("Actual Aditional Contact Position is: " + actual +" Expected Aditional Contact Position is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
 
 		actual = WebUI.getText(findTestObject(ePath+'AC_Email-Txt'))
-		expctd = findTestData(fPath).getValue('ac-email', emailRN)
-		System.out.println("Actual Aditional Contact email is: " + actual +"\nExpected Aditional Contact email is: "+expctd);
+		expctd = testData.getValue('ac-email', dataRowNum)
+		KeywordUtil.logInfo("Actual Aditional Contact email is: " + actual +" Expected Aditional Contact email is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
 
 		actual = WebUI.getText(findTestObject(ePath+'AC_InstitName-Txt'))
-		expctd = findTestData(fPath).getValue('ac-institution', institRN)
-		System.out.println("Actual Aditional Contact institution is: " + actual +"\nExpected Aditional Contact institution is: "+expctd);
+		expctd = testData.getValue('ac-institution', dataRowNum)
+		KeywordUtil.logInfo("Actual Aditional Contact institution is: " + actual +" Expected Aditional Contact institution is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
 
 		//Write script to convert the phone number format
@@ -694,6 +751,7 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 		System.out.println("Successfully verified additional contact information");
 	}
 
+	
 	/**
 	 * This function verifies program info on review page
 	 * @param rowNumber
@@ -702,21 +760,21 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 	public static void verifyProgramInfo(int rowNumber) {
 
 		ePath = "CRDC/SubmissionRequest/ReviewSubmit/";
-		fPath = "CRDC/SubmissionRequest/Section-B/program-study";
-
+		TestData testData = findTestData("CRDC/SubmissionRequest/section-b");
+		
 		actual = WebUI.getText(findTestObject(ePath+'ProgramTitle-Txt'))
-		expctd = findTestData(fPath).getValue('program-title', rowNumber);
-		System.out.println("Actual Program Title is: " + actual +"\nExpected Program Title is: "+expctd);
+		expctd = testData.getValue('program-title', rowNumber)+programTimeStamp;
+		KeywordUtil.logInfo("Actual Program Title is: " + actual +" Expected Program Title is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
 
 		actual = WebUI.getText(findTestObject(ePath+'ProgAbbre-Txt'))
-		expctd = findTestData(fPath).getValue('prog-abbreviation', rowNumber);
-		System.out.println("Actual Program Abbreviation is: " + actual +"\nExpected Program Abbreviation is: "+expctd);
+		expctd = testData.getValue('prog-abbreviation', rowNumber)+programTimeStamp;
+		KeywordUtil.logInfo("Actual Program Abbreviation is: " + actual +" Expected Program Abbreviation is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
 
 		actual = WebUI.getText(findTestObject(ePath+'ProgDescrptn-Txt'))
-		expctd = findTestData(fPath).getValue('prog-description', rowNumber);
-		System.out.println("Actual Program Description is: " + actual +"\nExpected Program Description is: "+expctd);
+		expctd = testData.getValue('prog-description', rowNumber);
+		KeywordUtil.logInfo("Actual Program Description is: " + actual +" Expected Program Description is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
 	}
 
@@ -725,25 +783,25 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 	 * @param dataFileRowNum Please add data file row number to be read
 	 */
 	@Keyword
-	public static void verifyStudyInfo(int stdyTitleRN, int stdyAbbRN, int stdyDesRN) {
+	public static void verifyStudyInfo(int dataRowNum) {
 
-		fPath = "CRDC/SubmissionRequest/Section-B/program-study";
+		TestData testData = findTestData("CRDC/SubmissionRequest/section-b");
 
 		actual = WebUI.getText(findTestObject(ePath+'StudyTitle-Txt'))
-		expctd = findTestData(fPath).getValue('study-title', stdyTitleRN)+ studyTitle
-		System.out.println("Actual study title is: " + actual +"\nExpected study title is: "+expctd);
+		expctd = testData.getValue('study-title', dataRowNum)+ studyTimeStamp
+		KeywordUtil.logInfo("Actual study title is: " + actual +" Expected study title is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
 
 		actual = WebUI.getText(findTestObject(ePath+'StudyAbbre-Txt'))
-		expctd = findTestData(fPath).getValue('study-abbreviation', stdyAbbRN)+studyAbrre
-		System.out.println("Actual study abbreviation is: " + actual +"\nExpected study abbreviation is: "+expctd);
+		expctd = testData.getValue('study-abbreviation', dataRowNum)+studyTimeStamp
+		KeywordUtil.logInfo("Actual study abbreviation is: " + actual +" Expected study abbreviation is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
 
 		actual = WebUI.getText(findTestObject(ePath+'StudyDscrptin-Txt'))
-		expctd = findTestData(fPath).getValue('study-description', stdyDesRN)
-		System.out.println("Actual study description is: " + actual +"\nExpected study description is: "+expctd);
+		expctd = testData.getValue('study-description', dataRowNum)
+		KeywordUtil.logInfo("Actual study description is: " + actual +" Expected study description is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
-		System.out.println("Successfully verified Study information");
+		KeywordUtil.logInfo("Successfully verified Study information");
 	}
 
 	/**
@@ -751,36 +809,36 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 	 * @param dataFileRowNum Data file row number to be read
 	 */
 	@Keyword
-	public static void verifyFundingAgencyAndDbGaPInfo(int fundinAgency, int grntRN, int nciPgogOfcrRN, int nciGenProgAdmnRN, int dbgapPhsNumRN) {
+	public static void verifyFundingAgencyAndDbGaPInfo(int dataRowNum) {
 
-		fPath = "CRDC/SubmissionRequest/Section-B/funding-agency-dbGaP";
+		TestData testData = findTestData("CRDC/SubmissionRequest/section-b");
 
 		actual = WebUI.getText(findTestObject(ePath+'FndngAgncy-Txt'))
-		expctd = findTestData(fPath).getValue('funding-agency', fundinAgency)
-		System.out.println("Actual Funding agency is: " + actual +"\nExpected Funding agency is: "+expctd);
+		expctd = testData.getValue('funding-agency', dataRowNum)
+		KeywordUtil.logInfo("Actual Funding agency is: " + actual +" Expected Funding agency is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
 
 		actual = WebUI.getText(findTestObject(ePath+'GrantCntractNum-Txt'))
-		expctd = findTestData(fPath).getValue('grant-number', grntRN)
-		System.out.println("Actual Grant number is: " + actual +"\nExpected Grant number is: "+expctd);
+		expctd = testData.getValue('grant-number', dataRowNum)
+		KeywordUtil.logInfo("Actual Grant number is: " + actual +" Expected Grant number is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
 
 		actual = WebUI.getText(findTestObject(ePath+'NCIProgOficer-Txt'))
-		expctd = findTestData(fPath).getValue('nci-prog-officer', nciPgogOfcrRN)
-		System.out.println("Actual NCI program officer is: " + actual +"\nExpected NCI program officer is: "+expctd);
+		expctd = testData.getValue('nci-prog-officer', dataRowNum)
+		KeywordUtil.logInfo("Actual NCI program officer is: " + actual +" Expected NCI program officer is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
 
 		actual = WebUI.getText(findTestObject(ePath+'NciGenProgAdmstr-Txt'))
-		expctd = findTestData(fPath).getValue('nci-genomic-prog-admin', nciGenProgAdmnRN)
-		System.out.println("Actual NCI program Administrator is: " + actual +"\nExpected NCI program Administrator is: "+expctd);
+		expctd = testData.getValue('nci-genomic-prog-admin', dataRowNum)
+		KeywordUtil.logInfo("Actual NCI program Administrator is: " + actual +" Expected NCI program Administrator is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
 
-		//Add 'HAS YOUR STUDY BEEN REGISTERED IN dbGaP? Yes No verification here
-		actual = WebUI.getText(findTestObject(ePath+'dbGapPHSNumber-Txt'))
-		expctd = findTestData(fPath).getValue('dbgap-phs-num', dbgapPhsNumRN)
-		System.out.println("Actual dbGaP PHS number is: " + actual +"\nExpected dbGaP PHS number is: "+expctd);
-		WebUI.verifyMatch(actual, expctd, false)
-		System.out.println("Successfully verified Funding Agency and dbGaP information");
+//		//Add 'HAS YOUR STUDY BEEN REGISTERED IN dbGaP? Yes No verification here
+//		actual = WebUI.getText(findTestObject(ePath+'dbGapPHSNumber-Txt'))
+//		expctd = testData.getValue('dbgap-phs-num', dataRowNum)
+//		KeywordUtil.logInfo("Actual dbGaP PHS number is: " + actual +" Expected dbGaP PHS number is: "+expctd);
+//		WebUI.verifyMatch(actual, expctd, false)
+//		KeywordUtil.logInfo("Successfully verified Funding Agency and dbGaP information");
 	}
 
 	/**
@@ -788,38 +846,38 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 	 * @param dataFileRowNum Please add data file row number to be read
 	 */
 	@Keyword
-	public static void verifyPublicationsInfo(int publiTitRN, int pubmedIdRN, int doiRN, int plndPublTitleRN) {
+	public static void verifyPublicationsInfo(int dataRowNum) {
 
-		fPath = "CRDC/SubmissionRequest/Section-B/publication-repository";
+		TestData testData = findTestData("CRDC/SubmissionRequest/section-b");
 
 		//Need to add a method to verify if publication is added, then verify, otherwise don't verify
 		actual = WebUI.getText(findTestObject(ePath+'PublictnTitle-Txt'))
-		expctd = findTestData(fPath).getValue('publication-title', publiTitRN)
-		System.out.println("Actual Publications title is: " + actual +"\nExpected Publications title is: "+expctd);
+		expctd = testData.getValue('publication-title', dataRowNum)
+		KeywordUtil.logInfo("Actual Publications title is: " + actual +" Expected Publications title is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
 
 		actual = WebUI.getText(findTestObject(ePath+'PubMedID-Txt'))
-		expctd = findTestData(fPath).getValue('pubmed-id', pubmedIdRN)
-		System.out.println("Actual PubMed ID is: " + actual +"\nExpected PubMed ID is: "+expctd);
+		expctd = testData.getValue('pubmed-id', dataRowNum)
+		KeywordUtil.logInfo("Actual PubMed ID is: " + actual +" Expected PubMed ID is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
 
 		actual = WebUI.getText(findTestObject(ePath+'DOI-Txt'))
-		expctd =  findTestData(fPath).getValue('doi', doiRN)
-		System.out.println("Actual PubMed ID is: " + actual +"\nExpected PubMed ID is: "+expctd);
+		expctd =  testData.getValue('doi', dataRowNum)
+		KeywordUtil.logInfo("Actual PubMed ID is: " + actual +" Expected PubMed ID is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
 
 		//Need to add a method to verify if planned publication is added, then verify, otherwise don't verify
 
 		actual = WebUI.getText(findTestObject(ePath+'PlnedPublTitle-Txt'))
-		expctd =  findTestData(fPath).getValue('pland-publictn-title', plndPublTitleRN)
-		System.out.println("Actual Planned publication title is: " + actual +"\nExpected Planned publication title is: "+expctd);
+		expctd =  testData.getValue('pland-publictn-title', dataRowNum)
+		KeywordUtil.logInfo("Actual Planned publication title is: " + actual +" Expected Planned publication title is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
 
 		actual = WebUI.getText(findTestObject(ePath+'ExpctdPubDate-Txt'))
 		expctd =  getCurrentDate("MM/dd/yyyy")
-		System.out.println("Actual Publication date is: " + actual +"\nExpected Publication date is: "+expctd);
+		KeywordUtil.logInfo("Actual Publication date is: " + actual +" Expected Publication date is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
-		System.out.println("Successfully verified Publications information");
+		KeywordUtil.logInfo("Successfully verified Publications information");
 	}
 
 	/**
@@ -827,19 +885,19 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 	 * @param dataFileRowNum Please add data file row number to be read
 	 */
 	@Keyword
-	public static void verifyRepositoryInfo(String dropDownVlue, int repoNamRN, int stdyIdRN, int otherDataTypRN) {
+	public static void verifyRepositoryInfo(String dropDownVlue, int dataRowNum) {
 
 		ePath = "CRDC/SubmissionRequest/ReviewSubmit/";
-		fPath = "CRDC/SubmissionRequest/Section-B/publication-repository";
+		TestData testData = findTestData("CRDC/SubmissionRequest/section-b");
 
 		actual = WebUI.getText(findTestObject(ePath+'RepoName-Txt'))
-		expctd = findTestData(fPath).getValue('repository-name', repoNamRN)
-		System.out.println("Actual Repository name is: " + actual +"\nExpected Repository name is: "+expctd);
+		expctd = testData.getValue('repository-name', dataRowNum)
+		KeywordUtil.logInfo("Actual Repository name is: " + actual +" Expected Repository name is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
 
 		actual = WebUI.getText(findTestObject(ePath+'StudyID-Txt'))
-		expctd = findTestData(fPath).getValue('study-id', stdyIdRN)
-		System.out.println("Actual Study ID is: " + actual +"\nExpected Study ID is: "+expctd);
+		expctd = testData.getValue('study-id', dataRowNum)
+		KeywordUtil.logInfo("Actual Study ID is: " + actual +" Expected Study ID is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
 
 
@@ -853,8 +911,8 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 		//WebUI.sendKeys(findTestObject('CRDC/SubmissionRequest/CrdcDdValue'), Keys.chord(Keys.TAB))
 
 		actual = WebUI.getText(findTestObject(ePath+'RepositoryOtherDataTypes-Txt'))
-		expctd = findTestData(fPath).getValue('other-data-types', otherDataTypRN)
-		System.out.println("Actual Other data type is: " + actual +"\nExpected Other data type is: "+expctd);
+		expctd = testData.getValue('other-data-types', dataRowNum)
+		KeywordUtil.logInfo("Actual Other data type is: " + actual +"\nExpected Other data type is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
 		System.out.println("Successfully verified Repository information");
 	}
@@ -864,14 +922,15 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 	 * @param dataFileRowNum Please add data file row number to be read
 	 */
 	@Keyword
-	public static void verifyDataAccessAndDiseaseInfo(String cancerType, String preCancerType, String speciesOfSub, int otherCancerTyRN, int otherPreCancerTyRN, int numOfSubjectRN) {
+	public static void verifyDataAccessAndDiseaseInfo(String cancerType, String preCancerType, String speciesOfSub, int dataRowNum) {
 
-		fPath = "CRDC/SubmissionRequest/Section-C/data-access-disease";
-		WebUI.scrollToElement(findTestObject(ePath+'OtherCancerTypes-Txt'), 3)
+		TestData testData = findTestData("CRDC/SubmissionRequest/section-c");
+		
+		//WebUI.scrollToElement(findTestObject(ePath+'OtherCancerTypes-Txt'), 3)
 
 		actual = WebUI.getText(findTestObject(ePath+'AccessTypes-Txt'))
-		expctd = findTestData(fPath).getValue('access-types', 1)
-		System.out.println("Actual Access type is: " + actual +"\nExpected Access type is: "+expctd);
+		expctd = testData.getValue('access-types', dataRowNum)
+		KeywordUtil.logInfo("Actual Access type is: " + actual +" Expected Access type is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
 
 		actual = WebUI.getText(findTestObject(ePath+'CancerTypes-Txt'))
@@ -880,25 +939,25 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 		switch (cancerType.toLowerCase()) {
 
 			case 'adrenocortical':
-				expctd = findTestData(fPath).getValue('cancer-type', 1)
+				expctd = testData.getValue('cancer-type', 1)
 				break;
 			case 'pheochromocytoma':
-				expctd = findTestData(fPath).getValue('cancer-type', 2)
+				expctd = testData.getValue('cancer-type', 2)
 				break;
 			case 'cholangiocarcinoma':
-				expctd = findTestData(fPath).getValue('cancer-type', 3)
+				expctd = testData.getValue('cancer-type', 3)
 				break;
 			case 'bladder':
-				expctd = findTestData(fPath).getValue('cancer-type', 4)
+				expctd = testData.getValue('cancer-type', 4)
 				break;
 			case 'lymphocytic':
-				expctd = findTestData(fPath).getValue('cancer-type', 5)
+				expctd = testData.getValue('cancer-type', 5)
 				break;
 			case 'myeloid':
-				expctd = findTestData(fPath).getValue('cancer-type', 6)
+				expctd = testData.getValue('cancer-type', 6)
 				break;
 			case 'sarcoma':
-				expctd = findTestData(fPath).getValue('cancer-type', 7)
+				expctd = testData.getValue('cancer-type', 7)
 				break;
 			default:
 				KeywordUtil.markFailed("Invalid Cancer Type Drop-Down Value: "+cancerType)
@@ -906,10 +965,10 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 
 		WebUI.verifyMatch(actual, expctd, false)
 
-		actual = WebUI.getText(findTestObject(ePath+'OtherCancerTypes-Txt'))
-		expctd = findTestData(fPath).getValue('other-cancer-type', otherCancerTyRN)
-		System.out.println("Actual Other cancer type is: " + actual +"\nExpected Other cancer type is: "+expctd);
-		WebUI.verifyMatch(actual, expctd, false)
+//		actual = WebUI.getText(findTestObject(ePath+'OtherCancerTypes-Txt'))
+//		expctd = findTestData(fPath).getValue('other-cancer-type', otherCancerTyRN)
+//		KeywordUtil.logInfo("Actual Other cancer type is: " + actual +"\nExpected Other cancer type is: "+expctd);
+//		WebUI.verifyMatch(actual, expctd, false)
 
 		actual = WebUI.getText(findTestObject(ePath+'PreCancerTypes-Txt'))
 
@@ -917,10 +976,10 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 		switch (preCancerType.toLowerCase()) {
 
 			case 'lung':
-				expctd = findTestData(fPath).getValue('pre-cancer-type', 1)
+				expctd = testData.getValue('pre-cancer-type', 1)
 				break;
 			case 'breast':
-				expctd = findTestData(fPath).getValue('pre-cancer-type', 2)
+				expctd = testData.getValue('pre-cancer-type', 2)
 				break;
 			default:
 				KeywordUtil.markFailed("Invalid Pre-Cancer Type Drop-Down Value: "+preCancerType)
@@ -928,10 +987,10 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 
 		WebUI.verifyMatch(actual, expctd, false)
 
-		actual = WebUI.getText(findTestObject(ePath+'OtherPreCancerTypes-Txt'))
-		expctd = findTestData(fPath).getValue('other-pre-cancer-type', otherPreCancerTyRN)
-		System.out.println("Actual Other pre-cancer type is: " + actual +"\nExpected Other pre-cancer type is: "+expctd);
-		WebUI.verifyMatch(actual, expctd, false)
+//		actual = WebUI.getText(findTestObject(ePath+'OtherPreCancerTypes-Txt'))
+//		expctd = findTestData(fPath).getValue('other-pre-cancer-type', otherPreCancerTyRN)
+//		KeywordUtil.logInfo("Actual Other pre-cancer type is: " + actual +"\nExpected Other pre-cancer type is: "+expctd);
+//		WebUI.verifyMatch(actual, expctd, false)
 
 		//Add code for Species Of Subject
 		//WebUI.click(findTestObject(ePath+"SpeciesOfSubjects-Dd"))
@@ -946,16 +1005,16 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 		switch (speciesOfSub.toLowerCase()) {
 
 			case 'homo':
-				expctd = findTestData(fPath).getValue('species-of-subject', 1)
+				expctd = testData.getValue('species-of-subject', 1)
 				break;
 			case 'mus':
-				expctd = findTestData(fPath).getValue('species-of-subject', 2)
+				expctd = testData.getValue('species-of-subject', 2)
 				break;
 			case 'canis':
-				expctd = findTestData(fPath).getValue('species-of-subject', 3)
+				expctd = testData.getValue('species-of-subject', 3)
 				break;
 			case 'rattus':
-				expctd = findTestData(fPath).getValue('species-of-subject', 4)
+				expctd = testData.getValue('species-of-subject', 4)
 				break;
 			default:
 				KeywordUtil.markFailed("Invalid Species of Subject Drop-Down Value: "+cancerType)
@@ -964,18 +1023,18 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 		WebUI.verifyMatch(actual, expctd, false)
 
 		actual = WebUI.getText(findTestObject(ePath+'NumOfSubjInclud-Txt'))
-		expctd = findTestData(fPath).getValue('num-of-subjects-included', numOfSubjectRN)
-		System.out.println("Actual number of subject included in sub is: " + actual +"\nExpected number of subject included in sub is: "+expctd);
+		expctd = testData.getValue('num-of-subjects-included', dataRowNum)
+		KeywordUtil.logInfo("Actual number of subject included in sub is: " + actual +" Expected number of subject included in sub is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
 
 		actual = WebUI.getText(findTestObject(ePath+'CellLines-Txt'))
-		expctd = findTestData(fPath).getValue('cell-lines', 1)
-		System.out.println("Actual Cell lines is: " + actual +"\nExpected Cell lines is: "+expctd);
+		expctd = testData.getValue('cell-lines', dataRowNum)
+		KeywordUtil.logInfo("Actual Cell lines is: " + actual +" Expected Cell lines is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
 
 		actual = WebUI.getText(findTestObject(ePath+'DataDeIdentified-Txt'))
-		expctd = findTestData(fPath).getValue('data-de-identified', 1)
-		System.out.println("Actual Data De-Identified is: " + actual +"\nExpected Data De-Identified is: "+expctd);
+		expctd = testData.getValue('data-de-identified', dataRowNum)
+		KeywordUtil.logInfo("Actual Data De-Identified is: " + actual +" Expected Data De-Identified is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
 
 		System.out.println("Successfully verified Data Access Types and Cancer Types");
@@ -988,18 +1047,18 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 	@Keyword
 	public static void verifyDataTypes(String... buttonLable) {
 
-		fPath = "CRDC/SubmissionRequest/Section-D/data-types";
+		TestData testData = findTestData("CRDC/SubmissionRequest/section-d");
 
 		actual = WebUI.getText(findTestObject(ePath+'TragetSubmDelivryDate-Txt'))
 		expctd = getCurrentDate("MM/dd/yyyy")
-		System.out.println("Actual target data submission delivery date is: " + actual +"\nExpected target data submission delivery date is: "+expctd);
+		KeywordUtil.logInfo("Actual target data submission delivery date is: " + actual +" Expected target data submission delivery date is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
 
 		actual = WebUI.getText(findTestObject(ePath+'ExpctdPubliDateSec-D-RevPage-Txt'))
 		expctd =  getCurrentDate("MM/dd/yyyy")
-		System.out.println("Actual Publication date is: " + actual +"\nExpected Publication date is: "+expctd);
+		KeywordUtil.logInfo("Actual Publication date is: " + actual +"\nExpected Publication date is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
-		System.out.println("Successfully verified Data Types delivery dates");
+		KeywordUtil.logInfo("Successfully verified Data Types delivery dates");
 
 		//Verifying data type based on the user provided value
 		for (String label : buttonLable) {
@@ -1009,32 +1068,32 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 			switch (label) {
 				case 'clinical':
 					actual = WebUI.getText(findTestObject(ePath+'ClinicalTrial-Txt'))
-					expctd = findTestData(fPath).getValue('clinical-trial', 2)
+					expctd = testData.getValue('clinical-trial', 2)
 					break;
 
 				case 'immunology':
 					actual = WebUI.getText(findTestObject(ePath+'Imunology-Txt'))
-					expctd = findTestData(fPath).getValue('immunology', 2)
+					expctd = testData.getValue('immunology', 2)
 					break;
 
 				case 'genomics':
 					actual = WebUI.getText(findTestObject(ePath+'Genomics-Txt'))
-					expctd = findTestData(fPath).getValue('genomics', 2)
+					expctd = testData.getValue('genomics', 2)
 					break;
 
 				case 'proteomics':
 					actual = WebUI.getText(findTestObject(ePath+'Proteomics-Txt'))
-					expctd = findTestData(fPath).getValue('proteomics', 2)
+					expctd = testData.getValue('proteomics', 2)
 					break;
 
 				case 'imaging':
 					actual = WebUI.getText(findTestObject(ePath+'Imaging-Txt'))
-					expctd = findTestData(fPath).getValue('imaging', 2)
+					expctd = testData.getValue('imaging', 2)
 					break;
 
 				case 'epidemiologic':
 					actual = WebUI.getText(findTestObject(ePath+'EpidemilogicCohort-Txt'))
-					expctd = findTestData(fPath).getValue('epide-cohort', 2)
+					expctd = testData.getValue('epide-cohort', 2)
 					break;
 
 				//				case 'other':
@@ -1044,41 +1103,41 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 
 				case 'demographic':
 					actual = WebUI.getText(findTestObject(ePath+'Demographic-Txt'))
-					expctd = findTestData(fPath).getValue('demog-dta', 2)
+					expctd = testData.getValue('demog-dta', 2)
 					break;
 
 				case 'relapse':
 					actual = WebUI.getText(findTestObject(ePath+'Relapse-Txt'))
-					expctd = findTestData(fPath).getValue('relapse-dta', 2)
+					expctd = testData.getValue('relapse-dta', 2)
 					break;
 
 				case 'diagnosis':
 					actual = WebUI.getText(findTestObject(ePath+'Diagnosis-Txt'))
-					expctd = findTestData(fPath).getValue('diagno-dta', 2)
+					expctd = testData.getValue('diagno-dta', 2)
 					break;
 
 				case 'outcome':
 					actual = WebUI.getText(findTestObject(ePath+'Outcome-Txt'))
-					expctd = findTestData(fPath).getValue('outcome', 2)
+					expctd = testData.getValue('outcome', 2)
 					break;
 
 				case 'treatment':
 					actual = WebUI.getText(findTestObject(ePath+'Treatment-Txt'))
-					expctd = findTestData(fPath).getValue('teatmnt-dta', 2)
+					expctd = testData.getValue('teatmnt-dta', 2)
 					break;
 
 				case 'other-clinical':
 					actual = WebUI.getText(findTestObject(ePath+'OthrClinclDtaTyp-Txt'))
-					expctd = findTestData(fPath).getValue('othr-clinicl', 1)
+					expctd = testData.getValue('othr-clinicl', 1)
 					break;
 
 				default:
 					WebUI.click(findTestObject('CRDC/SubmissionRequest/Toggle-Btn'))
 			}
 
-			System.out.println("Actual "+label+" data type is: " + actual +"\nExpected "+label+" data type is: "+expctd);
+			KeywordUtil.logInfo("Actual "+label+" data type is: " + actual +" Expected "+label+" data type is: "+expctd);
 			WebUI.verifyMatch(actual, expctd, false)
-			System.out.println("Successfully verified '"+label+"' data type");
+			KeywordUtil.logInfo("Successfully verified '"+label+"' data type");
 		}
 	}
 
@@ -1090,33 +1149,33 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 	@Keyword
 	public static void verifyFileTypes(int fileTypRN, int fileExtRN, int numOfFileRN, int dataSizeRN) {
 
-		fPath = "CRDC/SubmissionRequest/Section-D/file-types";
+		TestData testData = findTestData("CRDC/SubmissionRequest/section-d");
 
 		actual = WebUI.getText(findTestObject(ePath+'FileType-RowOne-Txt'))
-		expctd = findTestData(fPath).getValue('file-type', fileTypRN)
-		System.out.println("Actual file type is: " + actual +"\nExpected file type is: "+expctd);
+		expctd = testData.getValue('file-type', fileTypRN)
+		KeywordUtil.logInfo("Actual file type is: " + actual +" Expected file type is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
 
 		actual = WebUI.getText(findTestObject(ePath+'FileExtension-Txt'))
-		expctd = findTestData(fPath).getValue('file-extension', fileExtRN)
-		System.out.println("Actual file extension is: " + actual +"\nExpected file extension is: "+expctd);
+		expctd = testData.getValue('file-extension', fileExtRN)
+		KeywordUtil.logInfo("Actual file extension is: " + actual +" Expected file extension is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
 
 		actual = WebUI.getText(findTestObject(ePath+'NumOfFiles-RowOne-Txt'))
-		expctd = findTestData(fPath).getValue('num-of-file', numOfFileRN)
-		System.out.println("Actual number of files: " + actual +"\nExpected number of files: "+expctd);
+		expctd = testData.getValue('num-of-file', numOfFileRN)
+		KeywordUtil.logInfo("Actual number of files: " + actual +" Expected number of files: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
 
 		actual = WebUI.getText(findTestObject(ePath+'EstimDtaSiz-RowOne-Txt'))
-		expctd =  findTestData(fPath).getValue('estimtd-data-size', dataSizeRN)
-		System.out.println("Actual data size is: " + actual +"\nExpected data size is: "+expctd);
+		expctd =  testData.getValue('estimtd-data-size', dataSizeRN)
+		KeywordUtil.logInfo("Actual data size is: " + actual +" Expected data size is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
 
 		actual = WebUI.getText(findTestObject(ePath+'AdditionalComnt-Txt'))
-		expctd = findTestData(fPath).getValue('addit-comnt', 1)
-		System.out.println("Actual comment is: " + actual +"\nExpected comment is: "+expctd);
+		expctd = testData.getValue('addit-comnt', 1)
+		KeywordUtil.logInfo("Actual comment is: " + actual +" Expected comment is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
-		System.out.println("Successfully verified File Types");
+		KeywordUtil.logInfo("Successfully verified File Types");
 	}
 
 
@@ -1130,7 +1189,7 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 		Thread.sleep(500)
 		WebUI.click(findTestObject('CRDC/SubmissionRequest/PopUpConfirmToSubmit-Btn'))
 		Thread.sleep(500)
-		WebUI.verifyElementPresent(findTestObject('CRDC/NavBar/Start_a_SubmissionRequest-Btn'), 10)
+		WebUI.verifyElementPresent(findTestObject('CRDC/SubmissionRequest/Start_a_SubmissionRequest-Btn'), 10)
 	}
 
 	/**
