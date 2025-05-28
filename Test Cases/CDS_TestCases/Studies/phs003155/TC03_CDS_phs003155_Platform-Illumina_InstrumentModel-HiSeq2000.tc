@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_CDS_phs003155_Platform-Illumina_InstrumentModel-HiSeq2000</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7b51ced2-9cec-4c55-b16d-29bb29ba4e15</testCaseGuid>
+</TestCaseEntity>

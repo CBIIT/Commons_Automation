@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_CDS_phs001819_SampleTumorStatus-NSD_SampleType-BloodDerivedNormal</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>439fcb23-dfcb-4222-b278-5d1e48290f99</testCaseGuid>
+</TestCaseEntity>

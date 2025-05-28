@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC14_CDS_phs001819_PrimDiag_MultipleMyeloma</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>be2f6c92-a483-4525-b746-8e662cff077c</testCaseGuid>
-</TestCaseEntity>
