@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;Reference Genome Assembly&quot;]/div[2]</value>
+         <value>//*[@id=&quot;Reference Genome Assembly&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;Reference Genome Assembly&quot;]/div[2]</value>
-      <webElementGuid>2c87ce1e-e56c-4f1b-9ab9-477b8eeda0ad</webElementGuid>
+      <value>//*[@id=&quot;Reference Genome Assembly&quot;]</value>
+      <webElementGuid>1f98e375-5e66-467e-9967-c9e6357a86f9</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

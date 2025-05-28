@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;section-b-publication-1-title&quot;]</value>
+         <value>//*[@id=&quot;section-b-publication-0-title&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;section-b-publication-1-title&quot;]</value>
-      <webElementGuid>7d53825c-7fea-452e-b770-adf904fafb67</webElementGuid>
+      <value>//*[@id=&quot;section-b-publication-0-title&quot;]</value>
+      <webElementGuid>6e84886d-82b4-48af-8d2b-5a50ff7dc640</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

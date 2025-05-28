@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC06_CDS_phs001787_InstrModl-IllumnHiSeq2500_RefGenAss-NotSpecData_PrimDiag-ColCarcin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>217129a3-1c51-4970-92c8-6ae93e667fee</testCaseGuid>
+</TestCaseEntity>

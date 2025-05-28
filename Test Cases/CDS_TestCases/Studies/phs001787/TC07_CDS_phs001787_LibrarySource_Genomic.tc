@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC07_CDS_phs001787_LibrarySource_Genomic</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>db1d06af-ab6c-470c-94b3-587e00bfa760</testCaseGuid>
-</TestCaseEntity>
