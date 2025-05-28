@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_CDS_phs003155_SampleTumorStatus-Tumor_SampleType-Metastatic</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f2a3ea1a-d37e-49d3-b196-d9e987c9848b</testCaseGuid>
+</TestCaseEntity>

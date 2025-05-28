@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_CDS_phs003155_RefGenAsbly-GRCh37_LibraryLayout-PairedEnd</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5d6750c2-bf36-403c-ac4a-f97ce7b1d391</testCaseGuid>
+</TestCaseEntity>
