@@ -7,19 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_study data types _Genomic&quot;]
-</value>
+         <value>//*[@id=&quot;checkbox_Study Data Types_Genomics&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_study data types _Genomic&quot;]
-</value>
-      <webElementGuid>f71c87aa-bd00-4b88-a440-f0ccea8698bf</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Study Data Types_Genomics&quot;]</value>
+      <webElementGuid>36eb7c9f-ba03-44e3-ae8e-18f38bdb5c61</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
