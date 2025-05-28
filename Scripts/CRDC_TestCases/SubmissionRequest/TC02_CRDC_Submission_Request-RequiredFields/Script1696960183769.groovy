@@ -43,33 +43,30 @@ WebUI.closeBrowser()
 
 CustomKeywords.'utilities.CrdcDH.navigateToCrdc'()
 
-CustomKeywords.'utilities.CrdcDH.loginToCrdc'()
+CustomKeywords.'utilities.CrdcDH.loginToCrdcOtp'('Submitter')
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('CRDC/NavBar/Start_a_SubmissionRequest-Btn'))
-
+WebUI.click(findTestObject('CRDC/NavBar/SubmissionRequest-Tab'))
+WebUI.click(findTestObject('CRDC/SubmissionRequest/Start_a_SubmissionRequest-Btn'))
 
 CustomKeywords.'utilities.CrdcDH.verifyStatusBar'('NEW')
 
-CustomKeywords.'utilities.CrdcDH.enterPiInfo'(2, 2, 2, 2, 3, 2)
+CustomKeywords.'utilities.CrdcDH.enterPrincipalInvestigatorInfo'(2)
 
-CustomKeywords.'utilities.CrdcDH.enterPrimaryContactInfo'(1, 1, 1, 1, 5, 1)
+CustomKeywords.'utilities.CrdcDH.enterPrimaryContactInfo'(2)
 
 WebUI.click(findTestObject('CRDC/SubmissionRequest/Save-Btn'))
-
 WebUI.click(findTestObject('CRDC/SubmissionRequest/Next-Btn'))
 
 CustomKeywords.'utilities.CrdcDH.verifyStatusBar'('IN PROGRESS')
 
-CustomKeywords.'utilities.CrdcDH.enterProgramInfo'('DCCPS')
+CustomKeywords.'utilities.CrdcDH.enterProgramInfo'('Other')
+CustomKeywords.'utilities.CrdcDH.enterStudyInfo'(1)
 
-CustomKeywords.'utilities.CrdcDH.enterStudyInfo'(1, 1, 1)
-
-CustomKeywords.'utilities.CrdcDH.enterFundingAgencyAndDbGaPInfo'(1, 1, 1, 1, 1)
+CustomKeywords.'utilities.CrdcDH.enterFundingAgencyInfo'(1)
 
 WebUI.click(findTestObject('CRDC/SubmissionRequest/Save-Btn'))
-
 WebUI.click(findTestObject('CRDC/SubmissionRequest/Next-Btn'))
 
 CustomKeywords.'utilities.CrdcDH.enterDataAccessAndDiseaseInfo'('Bladder', 'Lung', 'Homo', 1, 1, 1)
