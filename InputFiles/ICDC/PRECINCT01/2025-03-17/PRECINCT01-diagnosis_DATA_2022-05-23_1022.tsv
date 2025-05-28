@@ -1,0 +1,22 @@
+type	case.case_record_id	disease_term	primary_disease_site	stage_of_disease	date_of_diagnosis	histology_cytopathology	date_of_histology_confirmation	histological_grade	best_response	pathology_report	treatment_data	follow_up_data	concurrent_disease	concurrent_disease_type	diagnosis_record_id
+diagnosis	PRECINCT01-UCD-IL15-001	Osteosarcoma	Bone (Appendicular)	IV	7/25/2018	Proximal humerus - Osteosarcoma	7/25/2018		Unknown	Yes	Yes	Yes	Unknown		PRECINCT01-UCD-IL15-001
+diagnosis	PRECINCT01-UCD-IL15-002	Osteosarcoma	Bone (Appendicular)	IV	6/13/2018	"Right scapula - Chondroblastic osteosarcoma, extends to margins"	6/13/2018		Stable Disease	Yes	Yes	Yes	Unknown		PRECINCT01-UCD-IL15-002
+diagnosis	PRECINCT01-UCD-IL15-003	Osteosarcoma	Bone (Appendicular)	IV	3/29/2018	Distal radius - Medullary sarcoma - probable poorly productive Osteosarcoma	3/29/2018		Progressive Disease	Yes	Yes	Yes	Unknown		PRECINCT01-UCD-IL15-003
+diagnosis	PRECINCT01-UCD-IL15-004	Osteosarcoma	Bone (Appendicular)	IV	1/2/2018	Osteosarcoma	1/2/2018		Partial Response	Yes	Yes	Yes	Unknown		PRECINCT01-UCD-IL15-004
+diagnosis	PRECINCT01-UCD-IL15-005	Osteosarcoma	Bone (Appendicular)	IV	2/1/2016	Ilial mass - Osteosarcoma	2/1/2016		Stable Disease	Yes	Yes	Yes	Unknown		PRECINCT01-UCD-IL15-005
+diagnosis	PRECINCT01-UCD-IL15-006	Osteosarcoma	Bone (Appendicular)	IV	8/13/2018	Left radius - Osteosarcoma	8/13/2018		Progressive Disease	Yes	Yes	Yes	Unknown		PRECINCT01-UCD-IL15-006
+diagnosis	PRECINCT01-UCD-IL15-007	Melanoma	Mouth	IV	3/6/2019	Oral cavity - amelanotic Malignant Melanoma	3/6/2019		Unknown	Yes	Yes	Yes	Unknown		PRECINCT01-UCD-IL15-007
+diagnosis	PRECINCT01-UCD-IL15-008	Osteosarcoma	Bone (Appendicular)	IV	12/26/2016	Left distal femur - Osteosarcoma	12/26/2016		Unknown	Yes	Yes	Yes	Unknown		PRECINCT01-UCD-IL15-008
+diagnosis	PRECINCT01-UCD-IL15-009	Osteosarcoma	Bone (Appendicular)	IV	4/28/2019	Osteosarcoma	4/28/2019		Progressive Disease	Yes	Yes	Yes	Unknown		PRECINCT01-UCD-IL15-009
+diagnosis	PRECINCT01-UCD-IL15-010	Melanoma	Mouth	IV	10/17/2018	Sebaceous gland adenoma	10/17/2018		Progressive Disease	Yes	Yes	Yes	Unknown		PRECINCT01-UCD-IL15-010
+diagnosis	PRECINCT01-UCD-IL15-011	Osteosarcoma	Bone (Appendicular)	IV	1/5/2019	Right tibia - Osteosarcoma	1/5/2019		Progressive Disease	Yes	Yes	Yes	Unknown		PRECINCT01-UCD-IL15-011
+diagnosis	PRECINCT01-UCD-IL15-012	Melanoma	Mouth	IV	5/16/2019	Oral Melanoma	5/16/2019		Progressive Disease	Yes	Yes	Yes	Unknown		PRECINCT01-UCD-IL15-012
+diagnosis	PRECINCT01-UCD-IL15-013	Melanoma	Mouth	IV	12/11/2019	Malignant Melanoma	12/11/2019		Stable Disease	Yes	Yes	Yes	Unknown		PRECINCT01-UCD-IL15-013
+diagnosis	PRECINCT01-UCD-IL15-014	Melanoma	Mouth	IV	8/30/2019	Anal Sac/Mass - Amelantic Melanoma 	8/30/2019		Complete Response	Yes	Yes	Yes	Unknown		PRECINCT01-UCD-IL15-014
+diagnosis	PRECINCT01-UCD-IL15-015	Melanoma	Mouth	IV	10/22/2019	Malignant Melanoma	10/22/2019		Stable Disease	Yes	Yes	Yes	Unknown		PRECINCT01-UCD-IL15-015
+diagnosis	PRECINCT01-UCD-IL15-016	Melanoma	Mouth	IV	6/20/2020	Malignant Melanoma	6/20/2020		Progressive Disease	Yes	Yes	Yes	Unknown		PRECINCT01-UCD-IL15-016
+diagnosis	PRECINCT01-UCD-IL15-017	Melanoma	Mouth	IV	7/30/2019	Malignant Melanoma	7/30/2019		Progressive Disease	Yes	Yes	Yes	Unknown		PRECINCT01-UCD-IL15-017
+diagnosis	PRECINCT01-UCD-IL15-018	Melanoma	Mouth	IV	8/27/2013	Tongue mass - Melanoma	8/27/2013		Stable Disease	Yes	Yes	Yes	Unknown		PRECINCT01-UCD-IL15-018
+diagnosis	PRECINCT01-UCD-IL15-019	Melanoma	Mouth	IV	4/16/2020	Right mandible - Malignant Melanoma	4/16/2020		Progressive Disease	Yes	Yes	Yes	Unknown		PRECINCT01-UCD-IL15-019
+diagnosis	PRECINCT01-UCD-IL15-020	Melanoma	Mouth	IV	7/10/2018	Ulcerated poorly differentiated melanocytic neoplasm	7/10/2018		Progressive Disease	Yes	Yes	Yes	Unknown		PRECINCT01-UCD-IL15-020
+diagnosis	PRECINCT01-UCD-IL15-021	Osteosarcoma	Bone (Appendicular)	IV	6/9/2020	Distal radius - Osteosarcoma	6/9/2020		Progressive Disease	Yes	Yes	Yes	Unknown		PRECINCT01-UCD-IL15-021
