@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC14_CDS_phs001787_PrimDiag_ColorectalCarcinoma</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>ce234c98-4557-4bf0-bbe8-270ed4bbc9c2</testCaseGuid>
-</TestCaseEntity>

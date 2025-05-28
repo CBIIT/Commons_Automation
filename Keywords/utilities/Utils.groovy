@@ -150,6 +150,7 @@ public class Utils {
 		} else {
 			KeywordUtil.logInfo("Running locally. Using local Python executable path...");
 			pyExecutablePath = "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3";
+			//pyExecutablePath = "C:/Users/epishinavv/AppData/Local/Programs/Python/Python312/python.exe";
 		}
 
 		return pyExecutablePath;
@@ -200,7 +201,6 @@ public class Utils {
 	public static String clearText() {
 		return Keys.chord(Keys.CONTROL, "a") + Keys.DELETE;
 	}
-
 
 	//@@@@@@@@@@@@@@@@ Write web result to excel @@@@@@@@@@@@@@@@
 	/**

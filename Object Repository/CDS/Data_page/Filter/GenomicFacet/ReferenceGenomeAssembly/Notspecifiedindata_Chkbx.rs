@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_reference genome assembly_Not specified in data&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Reference Genome Assembly_Not specified in data&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_reference genome assembly_Not specified in data&quot;]</value>
-      <webElementGuid>c0d4a9a2-cf6d-4bee-b09b-632c0847b903</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Reference Genome Assembly_Not specified in data&quot;]</value>
+      <webElementGuid>196ef2cc-6107-484e-83a6-fe766168736e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
