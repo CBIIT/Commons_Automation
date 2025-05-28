@@ -39,9 +39,10 @@ import java.nio.file.Paths
 
 CustomKeywords.'utilities.TestRunner.RunKatalon'('TC14_ICDC_STS01_Diagnosis-SoftTissueSarcoma.xlsx')
 
-//CustomKeywords.'utilities.PythonReader.readFile'('CasesTab.py')
-//CustomKeywords.'utilities.PythonReader.readFile'('SamplesTab.py')
-//CustomKeywords.'utilities.PythonReader.readFile'('CaseFilesTab.py')
-//CustomKeywords.'utilities.PythonReader.readFile'('StudyFilesTab.py')
-CustomKeywords.'utilities.PythonReader.readFile'('Statbar.py')
+//CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py','TsvDataCases')
+//CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py','TsvDataSamples')
+//CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py','TsvDataCaseFiles')
+//CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py', 'TsvDataStudyFiles')
+
+CustomKeywords.'utilities.PythonReader.readFileQuickRun'('Statbar.py','')
 
