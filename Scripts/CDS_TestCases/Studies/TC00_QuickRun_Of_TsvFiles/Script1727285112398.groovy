@@ -37,9 +37,12 @@ import com.kms.katalon.core.util.KeywordUtil
 import java.nio.file.Paths
 
 
+
 CustomKeywords.'utilities.TestRunner.RunKatalon'('TC015_CDS_phs001287_FileType_GCT.xlsx')
-//CustomKeywords.'utilities.PythonReader.readFile'('ParticipantsTab.py') 
-CustomKeywords.'utilities.PythonReader.readFile'('SamplesTab.py')
-//CustomKeywords.'utilities.PythonReader.readFile'('FilesTab.py')
-//CustomKeywords.'utilities.PythonReader.readFile'('Statbar.py')
+
+//CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py','TsvDataParticipants')
+//CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py','TsvDataSamples')
+//CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py','TsvDataFiles')
+
+CustomKeywords.'utilities.PythonReader.readFileQuickRun'('Statbar.py','')
 

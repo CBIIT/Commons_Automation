@@ -3,6 +3,9 @@ package utilities;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.Files;
+import org.openqa.selenium.WebDriver
+import org.openqa.selenium.WebElement
+import org.openqa.selenium.JavascriptExecutor;
 import org.apache.poi.xssf.usermodel.XSSFCell
 import com.kms.katalon.core.annotation.Keyword;
 import com.kms.katalon.core.configuration.RunConfiguration;
@@ -14,11 +17,17 @@ import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import java.util.Date;
+import java.text.SimpleDateFormat;
+import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testdata.TestDataFactory
+import com.kms.katalon.core.testobject.ObjectRepository
+import com.kms.katalon.core.testobject.TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import java.util.regex.Pattern
 import java.util.regex.Matcher
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-
 
 public class Utils {
 
@@ -144,6 +153,7 @@ public class Utils {
 		} else {
 			KeywordUtil.logInfo("Running locally. Using local Python executable path...");
 			pyExecutablePath = "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3";
+			//pyExecutablePath = "C:/Users/epishinavv/AppData/Local/Programs/Python/Python312/python.exe";
 		}
 
 		return pyExecutablePath;
@@ -173,6 +183,26 @@ public class Utils {
 		}
 	}
 
+	/**
+	 * This function gets the system's current date
+	 * @param format i.e MM/DD/YYYY
+	 * @return formated date
+	 */
+	public static String getCurrentDate(String format) {
+		SimpleDateFormat dateFormat = new SimpleDateFormat(format);
+		Date currentDate = new Date();
+		String formattedDate = dateFormat.format(currentDate);
+		return formattedDate;
+	}
+
+
+	/**
+	 * This function clears text from a text field
+	 * @return String
+	 */
+	public static String clearText() {
+		return Keys.chord(Keys.CONTROL, "a") + Keys.DELETE;
+	}
 
 	//@@@@@@@@@@@@@@@@ Write web result to excel @@@@@@@@@@@@@@@@
 	/**

@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;study data types &quot; and text()=&quot;study data types &quot;]</value>
+         <value>//*[@id=&quot;Study Data Types&quot; and text()=&quot;Study Data Types&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;study data types &quot; and text()=&quot;study data types &quot;]</value>
-      <webElementGuid>4ff3fefe-f59a-4a85-9e8b-3fc91d907d5d</webElementGuid>
+      <value>//*[@id=&quot;Study Data Types&quot; and text()=&quot;Study Data Types&quot;]</value>
+      <webElementGuid>f6079a07-332d-4e94-92f7-94202ca2252c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
