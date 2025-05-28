@@ -39,8 +39,10 @@ import java.nio.file.Paths
 
 CustomKeywords.'utilities.TestRunner.RunKatalon'('TC01_Bento_Filter_Arm-A.xlsx')
 
-CustomKeywords.'utilities.PythonReader.readFile'('CasesTab.py')
-CustomKeywords.'utilities.PythonReader.readFile'('SamplesTab.py')
-CustomKeywords.'utilities.PythonReader.readFile'('FilesTab.py')
-CustomKeywords.'utilities.PythonReader.readFile'('Statbar.py')
+//CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py','TsvDataCases')
+//CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py','TsvDataSamples')
+//CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py','TsvDataFiles')
+CustomKeywords.'utilities.PythonReader.readFileQuickRun'('Statbar.py','')
+
+
 

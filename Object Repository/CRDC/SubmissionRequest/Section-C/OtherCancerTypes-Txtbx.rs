@@ -11,6 +11,7 @@
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -18,6 +19,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;section-c-other-cancer-types&quot;]</value>
-      <webElementGuid>c1c45f2b-c171-418a-b307-2bd6a9ee66b5</webElementGuid>
+      <webElementGuid>caad8870-a72b-4476-8256-638a23dead40</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

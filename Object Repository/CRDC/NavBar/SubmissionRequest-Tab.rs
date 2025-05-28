@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;navbar-dropdown-join-crdc-data-hub&quot;]</value>
+         <value>//*[@id=&quot;navbar-dropdown-submission-requests&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;navbar-dropdown-join-crdc-data-hub&quot;]</value>
-      <webElementGuid>93f8d0c0-493e-4c6a-8272-90aa909bf17d</webElementGuid>
+      <value>//*[@id=&quot;navbar-dropdown-submission-requests&quot;]</value>
+      <webElementGuid>d7351a36-896e-413f-9fa1-8a31ca00faf4</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
