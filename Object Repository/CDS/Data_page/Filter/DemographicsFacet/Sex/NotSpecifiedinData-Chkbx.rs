@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Gender_Not specified in data&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Sex_Not specified in data&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Gender_Not specified in data&quot;]</value>
-      <webElementGuid>deee01de-48f8-4d58-a2f8-e174af5165af</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Sex_Not specified in data&quot;]</value>
+      <webElementGuid>16fe578c-e6fe-4c92-a443-808a76aaf8b8</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
