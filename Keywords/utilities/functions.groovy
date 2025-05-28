@@ -314,4 +314,82 @@ class functions extends TestRunner implements Comparator<List<XSSFCell>>{
 		writeToExcel(webSheetName);
 		System.out.println("Webdata written to excel successfully")
 	}//ReadCasesTableKatalon function ends
+	
+	
+	
+	
+	/**
+	 * The function is used to login to CRDC application.
+	 */
+	@Keyword
+	public static void loginToCrdc() {
+
+		Thread.sleep(3000);
+		WebUI.waitForPageLoad(10)
+		WebUI.waitForElementPresent(findTestObject('CRDC/NavBar/WarningBanner_Continue-Btn'), 5)
+		WebUI.click(findTestObject('CRDC/NavBar/WarningBanner_Continue-Btn'))
+
+		WebUI.waitForElementPresent(findTestObject('CRDC/Login/LoginPageLogin-Btn'), 5)
+		WebUI.click(findTestObject('CRDC/Login/LoginPageLogin-Btn'))
+
+		WebUI.waitForElementPresent(findTestObject('CRDC/Login/Login.gov-Btn'), 5)
+		WebUI.click(findTestObject('CRDC/Login/Login.gov-Btn'))
+
+		WebUI.waitForElementPresent(findTestObject('CRDC/Login/Login.gov_UserEmail-TxtBx'), 5)
+		WebUI.setText(findTestObject('CRDC/Login/Login.gov_UserEmail-TxtBx'), GlobalVariable.userEmail)
+		Thread.sleep(1000);
+
+		WebUI.waitForElementPresent(findTestObject('CRDC/Login/Login.gov_UserPass-TxtBx'), 5)
+		WebUI.setText(findTestObject('CRDC/Login/Login.gov_UserPass-TxtBx'), GlobalVariable.userPassword)
+		Thread.sleep(1000);
+
+		WebUI.waitForElementPresent(findTestObject('CRDC/Login/Login.gov_SignIn-Btn'), 5)
+		WebUI.click(findTestObject('CRDC/Login/Login.gov_SignIn-Btn'))
+
+		for (int i=1; i<=3; i++) {
+
+			WebUI.waitForElementPresent(findTestObject('CRDC/Login/Login.gov_BackupSecurityCode-TxtBx'), 5)
+
+			WebUI.setText(findTestObject('CRDC/Login/Login.gov_BackupSecurityCode-TxtBx'), findTestData('CRDC/Login/LoginData').getValue('sec-backup-codes', i))
+			System.out.println("Entering backup code: " + findTestData('CRDC/Login/LoginData').getValue('sec-backup-codes', i));
+
+
+
+			WebUI.waitForElementPresent(findTestObject('CRDC/Login/Login.gov_OneTimeCode_Submit-Btn'), 5)
+			WebUI.click(findTestObject('CRDC/Login/Login.gov_OneTimeCode_Submit-Btn'))
+
+			Thread.sleep(3000);
+			String url = WebUI.getUrl();
+
+			if (url.contains("idp.int.identity")) {
+
+				System.out.println("Current URL is: "+ url);
+				System.out.println("Old code detected, Trying new code...");
+			} else {
+				System.out.println("Valid Code, Continuing with Consent");
+				if(i==3) {
+					System.out.println("Last Code Used! Please update the input file for next run");
+				}
+				break;
+			}
+		}
+
+
+		WebUI.waitForElementPresent(findTestObject('CRDC/Login/Login.gov_ConsentGrant-Btn'), 5)
+		WebUI.click(findTestObject('CRDC/Login/Login.gov_ConsentGrant-Btn'))
+
+		//		if(WebUI.getUrl().contains("hub")) {
+		//			WebUI.waitForElementPresent(findTestObject('CRDC/Login/UserProfile-Dd'), 5)
+		//			WebUI.verifyElementPresent(findTestObject('CRDC/Login/UserProfile-Dd'), 5)
+		//			String userName = WebUI.getText(findTestObject('CRDC/Login/UserProfile-Dd'));
+		//
+		//			if(userName.contains("KATALON"))
+		//				System.out.println("User '" + userName + "' sucessfully logged in");
+		//			System.out.println("Current URL is: "+ WebUI.getUrl());
+		//			WebUI.verifyMatch(GlobalVariable.G_Urlname+"submissions", WebUI.getUrl(), false)
+		//
+		//		}else {
+		//			KeywordUtil.markFailed("Landed on the wrong page!")
+		//		}
+	}
 }//class ends

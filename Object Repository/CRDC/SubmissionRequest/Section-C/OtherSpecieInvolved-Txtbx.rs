@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>OtherCancerTypes-Txtbx</name>
+   <name>OtherSpecieInvolved-Txtbx</name>
    <tag></tag>
-   <elementGuidId>9f45e6d8-37e3-46b1-b83a-b8bd4b0242a1</elementGuidId>
+   <elementGuidId>b2e58a62-5eec-4bd2-b88e-03a8a15f36f4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;section-c-other-cancer-types&quot;]</value>
+         <value>//*[@id=&quot;section-c-other-species-of-subjects&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;section-c-other-cancer-types&quot;]</value>
-      <webElementGuid>caad8870-a72b-4476-8256-638a23dead40</webElementGuid>
+      <value>//*[@id=&quot;section-c-other-species-of-subjects&quot;]</value>
+      <webElementGuid>c418c4d9-129b-4ec7-8cb6-d8fed9ad1f6c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

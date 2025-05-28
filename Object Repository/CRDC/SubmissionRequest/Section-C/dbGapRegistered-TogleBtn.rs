@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;section-b-dbGaP-registration&quot;]</value>
+         <value>//*[@id=&quot;section-c-dbGaP-registration&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;section-b-dbGaP-registration&quot;]</value>
-      <webElementGuid>8916c38b-7965-45f9-9581-78927110f651</webElementGuid>
+      <value>//*[@id=&quot;section-c-dbGaP-registration&quot;]</value>
+      <webElementGuid>5fcdfb17-82b7-4c28-b9dc-4f464bcf6079</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
