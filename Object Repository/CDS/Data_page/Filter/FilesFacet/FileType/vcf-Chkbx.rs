@@ -6,11 +6,16 @@
    <elementGuidId>35a24467-e88b-4739-b9e6-c42ce0bb0ef8</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;checkbox_File Type_VCF&quot;]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//*[@id=&quot;checkbox_File Type_VCF&quot;]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -18,6 +23,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;checkbox_File Type_VCF&quot;]</value>
-      <webElementGuid>5c9aed3b-58dc-4a7e-bf66-b99b923dabb2</webElementGuid>
+      <webElementGuid>c3863a8f-a3c6-4589-807b-60f1061728e5</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

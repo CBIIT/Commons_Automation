@@ -6,11 +6,15 @@
    <elementGuidId>ab0cfdcc-82e0-485b-9307-62e494534468</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;checkbox_File Type_HDF5&quot;]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//*[@id=&quot;checkbox_File Type_HDF5&quot;]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -19,6 +23,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;checkbox_File Type_HDF5&quot;]</value>
-      <webElementGuid>afdab2f8-6414-4120-ac3c-ff864da5f735</webElementGuid>
+      <webElementGuid>63984f11-ac89-4cc1-bd71-e9e59b9b66ba</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
