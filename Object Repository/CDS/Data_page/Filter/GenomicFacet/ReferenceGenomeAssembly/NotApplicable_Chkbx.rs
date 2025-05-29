@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Other_Chkbx</name>
+   <name>NotApplicable_Chkbx</name>
    <tag></tag>
-   <elementGuidId>a51f47aa-3ad7-4bba-b4e4-cb3122b12c4f</elementGuidId>
+   <elementGuidId>70c49060-730a-460a-99d9-81934695e251</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Library Strategy_Other&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Reference Genome Assembly_Not Applicable&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Library Strategy_Other&quot;]</value>
-      <webElementGuid>ecd61d8f-2657-4ce8-af91-108a98d9fae6</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Reference Genome Assembly_Not Applicable&quot;]</value>
+      <webElementGuid>260d0b2f-9ac1-4fab-af07-b4db4b548dac</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

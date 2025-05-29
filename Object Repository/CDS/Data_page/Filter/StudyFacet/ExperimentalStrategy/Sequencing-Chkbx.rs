@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Other_Chkbx</name>
+   <name>Sequencing-Chkbx</name>
    <tag></tag>
-   <elementGuidId>a51f47aa-3ad7-4bba-b4e4-cb3122b12c4f</elementGuidId>
+   <elementGuidId>b35201bb-db98-4f92-89ee-2e2dab70c59f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Library Strategy_Other&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Experimental Strategy_Sequencing&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Library Strategy_Other&quot;]</value>
-      <webElementGuid>ecd61d8f-2657-4ce8-af91-108a98d9fae6</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Experimental Strategy_Sequencing&quot;]</value>
+      <webElementGuid>61e93b51-5c37-4015-8b55-4dee4258f778</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
