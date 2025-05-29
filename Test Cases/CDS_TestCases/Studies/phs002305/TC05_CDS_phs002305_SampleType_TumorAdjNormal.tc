@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC05_CDS_phs002305_SampleType_TumorAdjNormal</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>a50e9861-7fbe-41bc-968f-049e76b8560b</testCaseGuid>
-</TestCaseEntity>

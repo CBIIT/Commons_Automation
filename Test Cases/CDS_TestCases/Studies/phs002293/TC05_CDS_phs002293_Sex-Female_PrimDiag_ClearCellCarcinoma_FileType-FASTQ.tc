@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC00_QuickRun_Of_TsvFiles</name>
+   <name>TC05_CDS_phs002293_Sex-Female_PrimDiag_ClearCellCarcinoma_FileType-FASTQ</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>c34dba3c-9918-4ac6-af08-df27da65825f</testCaseGuid>
+   <testCaseGuid>737800e9-070e-4f38-81df-261095ee2630</testCaseGuid>
 </TestCaseEntity>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC00_QuickRun_Of_TsvFiles</name>
+   <name>TC01_CDS_phs002250_SmpTumSta-Normal_SmpType-Blood_LibStr_NSD</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>c34dba3c-9918-4ac6-af08-df27da65825f</testCaseGuid>
+   <testCaseGuid>573f5195-b421-4bba-bf7e-f675062b9951</testCaseGuid>
 </TestCaseEntity>

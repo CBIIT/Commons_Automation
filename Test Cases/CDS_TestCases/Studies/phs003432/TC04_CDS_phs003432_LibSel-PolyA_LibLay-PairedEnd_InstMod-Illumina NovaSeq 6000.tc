@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC00_QuickRun_Of_TsvFiles</name>
+   <name>TC04_CDS_phs003432_LibSel-PolyA_LibLay-PairedEnd_InstMod-Illumina NovaSeq 6000</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>c34dba3c-9918-4ac6-af08-df27da65825f</testCaseGuid>
+   <testCaseGuid>cc0fbf05-3bf3-4797-aa18-1f9969be2cff</testCaseGuid>
 </TestCaseEntity>

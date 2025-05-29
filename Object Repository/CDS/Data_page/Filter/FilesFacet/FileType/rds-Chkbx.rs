@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Other_Chkbx</name>
+   <name>rds-Chkbx</name>
    <tag></tag>
-   <elementGuidId>a51f47aa-3ad7-4bba-b4e4-cb3122b12c4f</elementGuidId>
+   <elementGuidId>628d9289-f3c1-4f22-8154-f748b27ae25d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Library Strategy_Other&quot;]</value>
+         <value>//*[@id=&quot;checkbox_File Type_RDS&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Library Strategy_Other&quot;]</value>
-      <webElementGuid>ecd61d8f-2657-4ce8-af91-108a98d9fae6</webElementGuid>
+      <value>//*[@id=&quot;checkbox_File Type_RDS&quot;]</value>
+      <webElementGuid>435b8580-f0aa-49b3-95db-e837fb263bf1</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
