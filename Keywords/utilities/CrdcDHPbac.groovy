@@ -73,6 +73,7 @@ import org.apache.poi.ss.usermodel.FillPatternType
 import org.apache.poi.xssf.usermodel.XSSFCellStyle
 import org.apache.poi.xssf.usermodel.XSSFColor
 import java.awt.Color
+import java.util.*;
 
 class CrdcDHPbac extends TestRunner {
 
@@ -331,12 +332,7 @@ class CrdcDHPbac extends TestRunner {
 		KeywordUtil.logInfo("Clicked Save")
 
 		KeywordUtil.logInfo("Reset permissions by re-selecting role: ${roleDisplay}")
-
-		//		// Wait for Save to finish
-		//		WebUI.delay(2)
 	}
-
-
 
 	/**
 	 * Verifies the PBAC Permissions for the user
@@ -365,4 +361,188 @@ class CrdcDHPbac extends TestRunner {
 		//Verify results
 		verifyPbacActualPermissionsForRole(userRole)
 	}
-}//class ends
+
+	/**
+	 * Check all enabled permission checkboxes on the Edit User page
+	 */
+	@Keyword
+	public static void checkAllEnabledPermissionCheckboxes() {
+		List<WebElement> checkboxes = WebUI.findWebElements(findTestObject('CRDC/ManageUsers/PbacOptions-Chkbx'), 10)
+		for (WebElement cb : checkboxes) {
+			if (cb.isEnabled() && !cb.isSelected()) {
+				cb.click()
+				KeywordUtil.logInfo("Checked permission checkbox")
+			}
+		}
+	}
+
+	/**
+	 * Uncheck all enabled permission checkboxes on the Edit User page
+	 */
+	@Keyword
+	public static void uncheckAllEnabledPermissionCheckboxes() {
+		List<WebElement> checkboxes = WebUI.findWebElements(findTestObject('CRDC/ManageUsers/PbacOptions-Chkbx'), 10)
+		for (WebElement cb : checkboxes) {
+			if (cb.isEnabled() && cb.isSelected()) {
+				cb.click()
+				KeywordUtil.logInfo("Unchecked permission checkbox")
+			}
+		}
+	}
+
+	/**
+	 * Edits the PBAC Permissions for the user (must be logged in as admin role)
+	 * @param User role (Fedlead, Dcp, Admin, Submitter, User), scenario (positive, negative)
+	 */
+	@Keyword
+	public static void editPbacPermissions(String userRole, String scenario) {
+
+		findAndEditUserByName(userRole)
+		resetPermissions(userRole)
+		findAndEditUserByName(userRole)
+
+		//Expand the Permissions panel and Email Notifications panel
+		clickTab('CRDC/ManageUsers/PermissionsPanel-Ddn')
+		clickTab('CRDC/ManageUsers/NotificationsPanel-Ddn')
+
+		if (scenario.equals("positive")) {
+			checkAllEnabledPermissionCheckboxes()
+			WebUI.delay(2)
+			WebUI.click(findTestObject('CRDC/ManageUsers/Save-Btn'))
+		}
+		if (scenario.equals("negative")) {
+			uncheckAllEnabledPermissionCheckboxes()
+			WebUI.delay(2)
+			WebUI.click(findTestObject('CRDC/ManageUsers/Save-Btn'))
+		}
+
+		//Write expected results to sheet
+		writePbacExpectedPermissionsForRole(userRole + "-" + scenario,"CRDC/Pbac/Permissions")
+	}
+
+	/**
+	 * Create mappings between permissions and verification actions
+	 */
+	private static final Map<String, Closure> permissionToCheck = [:]
+	static {
+		permissionToCheck["submission_request:view"] = {
+		}
+		permissionToCheck["submission_request:create"] = {
+		}
+		permissionToCheck["submission_request:submit"] = {
+		}
+		permissionToCheck["submission_request:review"] = {
+		}
+		permissionToCheck["submission_request:cancel"] = {
+		}
+		permissionToCheck["data_submission:view"] = {
+		}
+		permissionToCheck["data_submission:create"] = {
+		}
+		permissionToCheck["data_submission:cancel"] = {
+		}
+		permissionToCheck["data_submission:review"] = {
+		}
+		permissionToCheck["data_submission:admin_submit"] = {
+		}
+		permissionToCheck["data_submission:confirm"] = {
+		}
+		permissionToCheck["program:manage"] = {
+		}
+		permissionToCheck["study:manage"] = {
+		}
+		permissionToCheck["institution:manage"] = {
+		}
+		permissionToCheck["user:manage"] = {
+			try {
+				CrdcDH.clickHome()
+				CrdcDH.clickAccountDropdown()
+				if (!WebUI.verifyElementPresent(findTestObject("CRDC/NavBar/ManageUsers-Btn"), 5)) {
+					KeywordUtil.markFailed("Manage Users button is not found for permission: user:manage")
+				}
+			} catch (Exception e) {
+				KeywordUtil.markFailed("Error verifying user:manage -> ${e.message}")
+			}
+		}
+		permissionToCheck["dashboard:view"] = {
+		}
+		permissionToCheck["access:request"] = {
+		}
+	}
+
+	/**
+	 * Gets all the checked or unchecked PBAC Permissions for the user role from the output sheet
+	 * @param User role sheet name, expected status (checked or unchecked)
+	 */
+	public static List<String> getPermissionsByStatus(String roleSheetName, String scenario) {
+		List<String> permissions = new ArrayList<>();
+		String outputPath = RunConfiguration.getProjectDir() + "/OutputFiles/PBAC_Defaults_Results.xlsx";
+
+		FileInputStream fis = null
+		Workbook workbook = null
+
+		try {
+			fis = new FileInputStream(outputPath)
+			workbook = new XSSFWorkbook(fis)
+			Sheet sheet = workbook.getSheet(roleSheetName + "-" + scenario)
+
+			if (sheet == null) {
+				KeywordUtil.markWarning("Sheet '${roleSheetName} + "-" + ${scenario}' not found.")
+				return permissions
+			}
+
+			for (int i = 1; i <= sheet.getLastRowNum(); i++) {
+				Row row = sheet.getRow(i)
+				if (row == null) continue
+
+					Cell permissionCell = row.getCell(0)  // Permission name
+				Cell expectedCell = row.getCell(1)    // Expected status
+
+				if (permissionCell == null || expectedCell == null) continue
+
+					String status = expectedCell.getStringCellValue()
+				if (scenario.equals("positive")) {
+					//positive scenario
+					if (status != null && (status.equalsIgnoreCase("checked") || status.equalsIgnoreCase("fixed_checked"))) {
+						String permission = permissionCell.getStringCellValue()
+						permissions.add(permission)
+					}
+				} else {
+					//negative scenario
+					if (status != null && (status.equalsIgnoreCase("unchecked") || status.equalsIgnoreCase("fixed_unchecked"))) {
+						String permission = permissionCell.getStringCellValue()
+						permissions.add(permission)
+					}
+				}
+			}
+		} catch (Exception e) {
+			KeywordUtil.markFailed("Error reading permissions by status: " + e.getMessage())
+		} finally {
+			if (workbook != null) workbook.close()
+			if (fis != null) fis.close()
+		}
+		return permissions
+	}
+
+	/**
+	 * Run all the verifications based on positive or negative scenario
+	 * @param User role (Fedlead, Dcp, Admin, Submitter, User), scenario (positive, negative)
+	 */
+	@Keyword
+	public static void verifyPermissionsFunctional(String userRole, String scenario) {
+		List<String> enabledPermissions = getPermissionsByStatus(userRole, scenario);
+
+		for (String permission : enabledPermissions) {
+			if (permissionToCheck.containsKey(permission)) {
+				try {
+					permissionToCheck.get(permission).run();
+					KeywordUtil.markPassed("✔ Verified functionality for permission: " + permission);
+				} catch (Exception e) {
+					KeywordUtil.markFailed("FAILED verification for permission: " + permission + " | " + e.getMessage());
+				}
+			} else {
+				KeywordUtil.markWarning("No verification mapped for permission - " + permission);
+			}
+		}
+	}
+}
