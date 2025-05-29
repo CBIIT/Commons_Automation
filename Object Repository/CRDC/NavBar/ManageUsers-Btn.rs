@@ -19,6 +19,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;navbar-dropdown-item-user-manage&quot;]</value>
-      <webElementGuid>f9efa5cc-9b7b-42a0-ad07-e77780a99093</webElementGuid>
+      <webElementGuid>484ffe66-1195-4be5-aa10-4e484a179980</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
