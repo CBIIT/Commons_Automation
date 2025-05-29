@@ -152,7 +152,8 @@ public class Utils {
 			pyExecutablePath = "python3";
 		} else {
 			KeywordUtil.logInfo("Running locally. Using local Python executable path...");
-			pyExecutablePath = "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3";
+			pyExecutablePath = "/Users/leungvw/vincent_testEnv/bin/python3";
+			//pyExecutablePath = "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3";
 			//pyExecutablePath = "C:/Users/epishinavv/AppData/Local/Programs/Python/Python312/python.exe";
 		}
 
@@ -370,24 +371,88 @@ public class Utils {
 	}
 
 	/**
+	 * Extracts the first match group from a string using a given regex pattern.
+	 * @param input - the string to search
+	 * @param regex - the regex pattern with at least one capturing group
+	 * @return the first group match or null if not found
+	 */
+	public static String extractFirstMatch(String input, String regex) {
+		Pattern pattern = Pattern.compile(regex)
+		Matcher matcher = pattern.matcher(input)
+		if (matcher.find()) {
+			return matcher.group(1)
+		}
+		return null
+	}
+
+	/**
+	 * Get the xpath stored in the TestObject, handle for both Xpath and Attributes
+	 * @param label - the path of the TestObject
+	 */
+	public static String getEffectiveXPath(TestObject to, String label) {
+		//Get all defined selector types (e.g., XPATH, BASIC, CSS)
+		def selectorMap = to.getSelectorCollection()
+		if (selectorMap == null || selectorMap.isEmpty()) {
+			KeywordUtil.markFailedAndStop("Selector map is missing or empty for: " + label)
+		}
+		//Look for either 'XPATH' or 'BASIC' entry in the selector map, where the value is a TestObjectProperty
+		def xpathEntry = selectorMap.find { key, val ->
+			key in ['XPATH', 'BASIC'] && val instanceof com.kms.katalon.core.testobject.TestObjectProperty
+		}
+		if (xpathEntry != null) {
+			return xpathEntry.value.getValue()
+		}
+		//Handle older or manually constructed test objects where the selector is stored as a plain string
+		def fallbackEntry = selectorMap.find { key, val -> val instanceof String }
+		if (fallbackEntry != null) {
+			println "Using fallback string selector for ${label}: ${fallbackEntry.key} => ${fallbackEntry.value}"
+			return fallbackEntry.value
+		}
+		KeywordUtil.markFailedAndStop("No usable selector found for: " + label)
+		return null
+	}
+
+	/**
 	 * This function finds the filter using the search bar in the facet (available for dropdowns with a large number of filter options)
 	 * @param filter (name of the filter)
 	 */
 	public static findFilterBySearch(String filter){
 		if(appKey.equals("CDS")) {
-			if (filter.contains("phs")) {
-				//PHS Accession dropdown
-				Pattern pattern = Pattern.compile("phs\\d{6}")
-				Matcher matcher = pattern.matcher(filter)
-				String accession = null
-				if (matcher.find()) {
-					accession = matcher.group()
+			//PHS Accession dropdown
+			if (filter.contains("/StudyFacet/PHS_Accession/") && !filter.containsIgnoreCase("Ddn")) {
+				String accession = extractFirstMatch(filter, "(phs\\d{6})")
+				if (accession != null) {
 					System.out.println("Searching for PHS Accession: " + accession)
 					TestRunner.clickTab('Object Repository/CDS/Data_page/Filter/StudyFacet/PHS_Accession/phsAccession_Search')
 					WebUI.setText(findTestObject('Object Repository/CDS/Data_page/Filter/StudyFacet/PHS_Accession/phsAccession_Search'), accession)
+				} else {
+					KeywordUtil.markFailedAndStop("Not able to get PHS Accession-- stopping test")
 				}
-				else {
-					KeywordUtil.markFailed("Not able to find PHS Accession-- stopping test");
+			}
+			//File Type dropdown
+			else if (filter.contains("/FilesFacet/FileType/") && !filter.containsIgnoreCase("Ddn")){
+				TestObject to = ObjectRepository.findTestObject(filter)
+				String xpath = getEffectiveXPath(to, filter)
+				String fileType = extractFirstMatch(xpath, 'checkbox_File Type_([^"]+)')
+				if (fileType != null) {
+					System.out.println("Searching for File Type: " + fileType)
+					TestRunner.clickTab('Object Repository/CDS/Data_page/Filter/FilesFacet/FileType/fileType_Search')
+					WebUI.setText(findTestObject('Object Repository/CDS/Data_page/Filter/FilesFacet/FileType/fileType_Search'), fileType)
+				} else {
+					KeywordUtil.markFailedAndStop("Not able to get File Type-- stopping test")
+				}
+			}
+			//Primary Diagnosis dropdown
+			else if (filter.contains("/DiagnosisFacet/PrimaryDiagnosis/") && !filter.containsIgnoreCase("Ddn")) {
+				TestObject to = ObjectRepository.findTestObject(filter)
+				String xpath = getEffectiveXPath(to, filter)
+				String primaryDiagnosis = extractFirstMatch(xpath, '_([^"_]+)"\\]$')
+				if (primaryDiagnosis != null) {
+					System.out.println("Searching for Primary Diagnosis: " + primaryDiagnosis)
+					TestRunner.clickTab('Object Repository/CDS/Data_page/Filter/DiagnosisFacet/PrimaryDiagnosis/primaryDiagnosis_Search')
+					WebUI.setText(findTestObject('Object Repository/CDS/Data_page/Filter/DiagnosisFacet/PrimaryDiagnosis/primaryDiagnosis_Search'), primaryDiagnosis)
+				} else {
+					KeywordUtil.markFailedAndStop("Not able to get Primary Diagnosis-- stopping test")
 				}
 			}
 		}

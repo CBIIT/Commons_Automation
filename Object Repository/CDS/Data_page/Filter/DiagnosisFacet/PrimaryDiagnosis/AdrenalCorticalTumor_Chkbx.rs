@@ -6,11 +6,16 @@
    <elementGuidId>db1d0237-4acb-401a-8725-fd449b329a56</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;checkbox_PRIMARY DIAGNOSIS_Adrenal Cortical Tumor&quot;]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//*[@id=&quot;checkbox_PRIMARY DIAGNOSIS_Adrenal Cortical Tumor&quot;]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -18,6 +23,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;checkbox_PRIMARY DIAGNOSIS_Adrenal Cortical Tumor&quot;]</value>
-      <webElementGuid>964f529c-1d98-43e3-bf2e-85744db260a5</webElementGuid>
+      <webElementGuid>1c12b361-1972-4a6e-8ccf-e30cf2956b35</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
