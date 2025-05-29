@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC00_QuickRun_Of_TsvFiles</name>
+   <name>TC02_CDS_phs003432_Sex_Female_ExpStr-Sequencing_FileTyp-TXT</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>c34dba3c-9918-4ac6-af08-df27da65825f</testCaseGuid>
+   <testCaseGuid>693ffe0e-eaef-45d7-995e-624cdc31bbe3</testCaseGuid>
 </TestCaseEntity>

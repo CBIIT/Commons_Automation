@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Other_Chkbx</name>
+   <name>NotReported_Chkbx</name>
    <tag></tag>
-   <elementGuidId>a51f47aa-3ad7-4bba-b4e4-cb3122b12c4f</elementGuidId>
+   <elementGuidId>ab5e34c1-6c42-4eda-a261-37cf9503ed42</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Library Strategy_Other&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Primary Diagnosis_Not Reported&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Library Strategy_Other&quot;]</value>
-      <webElementGuid>ecd61d8f-2657-4ce8-af91-108a98d9fae6</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Primary Diagnosis_Not Reported&quot;]</value>
+      <webElementGuid>ebada696-4d55-4c84-b132-99bd07c2089f</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
