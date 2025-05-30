@@ -6,11 +6,16 @@
    <elementGuidId>3074c8e4-4261-4c06-9a43-850075cab5b3</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;checkbox_PRIMARY DIAGNOSIS_Acute megakaryoblastic leukemia&quot;]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//*[@id=&quot;checkbox_PRIMARY DIAGNOSIS_Acute megakaryoblastic leukemia&quot;]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -18,6 +23,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;checkbox_PRIMARY DIAGNOSIS_Acute megakaryoblastic leukemia&quot;]</value>
-      <webElementGuid>fcdc218a-63c5-490d-805b-6de93cbc6a4a</webElementGuid>
+      <webElementGuid>5135ee96-5ec5-4dd2-b2ee-548a9d979f9e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
