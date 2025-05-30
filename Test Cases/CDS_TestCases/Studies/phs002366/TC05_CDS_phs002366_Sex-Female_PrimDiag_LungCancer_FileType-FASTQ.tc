@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_CDS_phs002366_Sex-Female_PrimDiag_LungCancer_FileType-FASTQ</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5acf3f0b-5c01-467f-853b-c827812ffcea</testCaseGuid>
+</TestCaseEntity>
