@@ -391,7 +391,7 @@ class CrdcDHPbac extends TestRunner {
 	}
 
 	/**
-	 * Edits the PBAC Permissions for the user (must be logged in as admin role)
+	 * Edits the PBAC Permissions for the user and writes expected permissions to output sheet (must be logged in as admin role)
 	 * @param User role (Fedlead, Dcp, Admin, Submitter, User), scenario (positive, negative)
 	 */
 	@Keyword
@@ -420,55 +420,6 @@ class CrdcDHPbac extends TestRunner {
 		writePbacExpectedPermissionsForRole(userRole + "-" + scenario,"CRDC/Pbac/Permissions")
 	}
 
-	/**
-	 * Create mappings between permissions and verification actions
-	 */
-	private static final Map<String, Closure> permissionToCheck = [:]
-	static {
-		permissionToCheck["submission_request:view"] = {
-		}
-		permissionToCheck["submission_request:create"] = {
-		}
-		permissionToCheck["submission_request:submit"] = {
-		}
-		permissionToCheck["submission_request:review"] = {
-		}
-		permissionToCheck["submission_request:cancel"] = {
-		}
-		permissionToCheck["data_submission:view"] = {
-		}
-		permissionToCheck["data_submission:create"] = {
-		}
-		permissionToCheck["data_submission:cancel"] = {
-		}
-		permissionToCheck["data_submission:review"] = {
-		}
-		permissionToCheck["data_submission:admin_submit"] = {
-		}
-		permissionToCheck["data_submission:confirm"] = {
-		}
-		permissionToCheck["program:manage"] = {
-		}
-		permissionToCheck["study:manage"] = {
-		}
-		permissionToCheck["institution:manage"] = {
-		}
-		permissionToCheck["user:manage"] = {
-			try {
-				CrdcDH.clickHome()
-				CrdcDH.clickAccountDropdown()
-				if (!WebUI.verifyElementPresent(findTestObject("CRDC/NavBar/ManageUsers-Btn"), 5)) {
-					KeywordUtil.markFailed("Manage Users button is not found for permission: user:manage")
-				}
-			} catch (Exception e) {
-				KeywordUtil.markFailed("Error verifying user:manage -> ${e.message}")
-			}
-		}
-		permissionToCheck["dashboard:view"] = {
-		}
-		permissionToCheck["access:request"] = {
-		}
-	}
 
 	/**
 	 * Gets all the checked or unchecked PBAC Permissions for the user role from the output sheet
@@ -525,23 +476,127 @@ class CrdcDHPbac extends TestRunner {
 	}
 
 	/**
+	 * Create mappings between permissions and verification actions
+	 */
+	private static final Map<String, Closure> permissionToCheck = [:]
+	static {
+		permissionToCheck["submission_request:view"] = {
+		}
+		permissionToCheck["submission_request:create"] = {
+		}
+		permissionToCheck["submission_request:submit"] = {
+		}
+		permissionToCheck["submission_request:review"] = {
+		}
+		permissionToCheck["submission_request:cancel"] = {
+		}
+		permissionToCheck["data_submission:view"] = {
+		}
+		permissionToCheck["data_submission:create"] = {
+		}
+		permissionToCheck["data_submission:cancel"] = {
+		}
+		permissionToCheck["data_submission:review"] = {
+			KeywordUtil.logInfo("[FUTURE DEVELOPMENT] Requires automating data submission flow post-creation")
+		}
+		permissionToCheck["data_submission:admin_submit"] = {
+			KeywordUtil.logInfo("[FUTURE DEVELOPMENT] Requires automating data submission flow post-creation")
+		}
+		permissionToCheck["data_submission:confirm"] = {
+			KeywordUtil.logInfo("[FUTURE DEVELOPMENT] Requires automating data submission flow post-creation")
+		}
+		permissionToCheck["program:manage"] = {
+			KeywordUtil.logInfo("Verifying Manage Programs...")
+			try {
+				CrdcDH.clickHome()
+				CrdcDH.clickAccountDropdown()
+				if (!WebUI.verifyElementPresent(findTestObject("CRDC/NavBar/ManagePrograms-Btn"), 5)) {
+					KeywordUtil.markFailed("Manage Programs button is not found")
+				}
+			} catch (Exception e) {
+				KeywordUtil.markFailed("Error verifying permission - program:manage -> ${e.message}")
+			}
+		}
+		permissionToCheck["study:manage"] = {
+			KeywordUtil.logInfo("Verifying Manage Studies...")
+			try {
+				CrdcDH.clickHome()
+				CrdcDH.clickAccountDropdown()
+				if (!WebUI.verifyElementPresent(findTestObject("CRDC/NavBar/ManageStudies-Btn"), 5)) {
+					KeywordUtil.markFailed("Manage Studies button is not found")
+				}
+			} catch (Exception e) {
+				KeywordUtil.markFailed("Error verifying permission - study:manage -> ${e.message}")
+			}
+		}
+		permissionToCheck["institution:manage"] = {
+			KeywordUtil.logInfo("Verifying Manage Institutions...")
+			try {
+				CrdcDH.clickHome()
+				CrdcDH.clickAccountDropdown()
+				if (!WebUI.verifyElementPresent(findTestObject("CRDC/NavBar/ManageInstitutions-Btn"), 5)) {
+					KeywordUtil.markFailed("Manage Institutions button is not found")
+				}
+			} catch (Exception e) {
+				KeywordUtil.markFailed("Error verifying permission - institution:manage -> ${e.message}")
+			}
+		}
+		permissionToCheck["user:manage"] = {
+			KeywordUtil.logInfo("Verifying Manage Users...")
+			try {
+				CrdcDH.clickHome()
+				CrdcDH.clickAccountDropdown()
+				if (!WebUI.verifyElementPresent(findTestObject("CRDC/NavBar/ManageUsers-Btn"), 5)) {
+					KeywordUtil.markFailed("Manage Users button is not found")
+				}
+			} catch (Exception e) {
+				KeywordUtil.markFailed("Error verifying permission - user:manage -> ${e.message}")
+			}
+		}
+		permissionToCheck["dashboard:view"] = {
+			KeywordUtil.logInfo("Verifying Operation Dashboard...")
+			try {
+				if (!WebUI.verifyElementPresent(findTestObject("CRDC/NavBar/OperationDashboard-Btn"), 5)) {
+					KeywordUtil.markFailed("Operation Dashboard button is not found")
+				}
+			} catch (Exception e) {
+				KeywordUtil.markFailed("Error verifying permission - dashboard:view -> ${e.message}")
+			}
+		}
+		permissionToCheck["access:request"] = {
+			KeywordUtil.logInfo("Verifying Request Access...")
+			try {
+				CrdcDH.clickHome()
+				CrdcDH.clickAccountDropdown()
+				TestRunner.clickTab('CRDC/Login/UserProfile-Link')
+				if (!WebUI.verifyElementPresent(findTestObject("CRDC/ManageUsers/RequestAccess-Btn"), 5)) {
+					KeywordUtil.markFailed("Request Access link is not found")
+				}
+			} catch (Exception e) {
+				KeywordUtil.markFailed("Error verifying permission - access:request -> ${e.message}")
+			}
+		}
+	}
+
+	/**
 	 * Run all the verifications based on positive or negative scenario
 	 * @param User role (Fedlead, Dcp, Admin, Submitter, User), scenario (positive, negative)
 	 */
 	@Keyword
 	public static void verifyPermissionsFunctional(String userRole, String scenario) {
+		//For the scenario, get all the relevant permissions to verify for
 		List<String> enabledPermissions = getPermissionsByStatus(userRole, scenario);
 
 		for (String permission : enabledPermissions) {
 			if (permissionToCheck.containsKey(permission)) {
 				try {
 					permissionToCheck.get(permission).run();
-					KeywordUtil.markPassed("✔ Verified functionality for permission: " + permission);
+					KeywordUtil.markPassed("Verified functionality for permission: " + permission);
 				} catch (Exception e) {
 					KeywordUtil.markFailed("FAILED verification for permission: " + permission + " | " + e.getMessage());
 				}
 			} else {
-				KeywordUtil.markWarning("No verification mapped for permission - " + permission);
+				KeywordUtil.logInfo("[FUTURE DEVELOPMENT] No verification mapped for Email Notifications - " + permission);
 			}
 		}
 	}
