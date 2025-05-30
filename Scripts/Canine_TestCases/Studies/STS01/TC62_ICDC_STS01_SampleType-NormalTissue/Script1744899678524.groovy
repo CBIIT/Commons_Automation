@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
  */
 WebUI.closeBrowser()
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC11_ICDC_GLIOMA01_SampleType-WholeBlood.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC62_ICDC_STS01_SampleType-NormalTissue.xlsx')
 
 CustomKeywords.'utilities.TestRunner.clickTab'('Canine/Canine_PopUp_Continue_Btn')
 System.out.println ("Closed the popup window");
@@ -35,8 +35,8 @@ CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Canine/Filter/Study/Ca
 WebUI.verifyElementPresent(findTestObject('Canine/Filter/SampleType/SAMPLETYPE_Ddn'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('Canine/Filter/SampleType/SAMPLETYPE_Ddn')
 
-WebUI.verifyElementPresent(findTestObject('Canine/Filter/SampleType/WholeBlood_Chkbx'), 5) 
-CustomKeywords.'utilities.TestRunner.clickTab'('Canine/Filter/SampleType/WholeBlood_Chkbx')
+WebUI.verifyElementPresent(findTestObject('Canine/Filter/SampleType/NormalTissue_Chkbx'), 5) 
+CustomKeywords.'utilities.TestRunner.clickTab'('Canine/Filter/SampleType/NormalTissue_Chkbx')
 
 //Read Statbar
 CustomKeywords.'utilities.TestRunner.readStatBarCanine'('Canine/StatBar/Canine_StatBar-Programs','Canine/StatBar/Canine_StatBar-Studies',
