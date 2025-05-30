@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_CDS_phs002366_RefGen_GRCh37_Platform-Illumina_LibSrc-Genomic</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a36cc5cb-b0c5-4793-b1ff-1978e3d87844</testCaseGuid>
+</TestCaseEntity>
