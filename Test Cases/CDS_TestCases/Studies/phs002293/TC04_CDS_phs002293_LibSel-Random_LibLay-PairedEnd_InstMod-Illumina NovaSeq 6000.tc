@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_CDS_phs002293_LibSel-Random_LibLay-PairedEnd_InstMod-Illumina NovaSeq 6000</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>da1b4a70-2758-4ef2-91ce-763b464634c0</testCaseGuid>
+</TestCaseEntity>
