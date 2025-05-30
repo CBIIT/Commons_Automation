@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_CDS_phs001905_Sex_Unknown_RefGen_GRCh37_Platform-Illumina_LibSrc-Genomic</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>99110315-78c6-4be2-aa04-f736d700fd78</testCaseGuid>
+</TestCaseEntity>

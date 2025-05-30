@@ -1,4 +1,4 @@
-type	cohort.cohort_id	study.clinical_study_designation	case_record_id	patient_id	patient_first_name
+type	cohort.cohort_record_id	study.clinical_study_designation	case_record_id	patient_id	patient_first_name
 case	Inhaled IL-15 10 mcg	PRCNCT IL-15	PRCNCT IL-15-001	UCD-IL15-001	Buster
 case	Inhaled IL-15 10 mcg	PRCNCT IL-15	PRCNCT IL-15-002	UCD-IL15-002	Morgan
 case	Inhaled IL-15 10 mcg	PRCNCT IL-15	PRCNCT IL-15-003	UCD-IL15-003	Iggy

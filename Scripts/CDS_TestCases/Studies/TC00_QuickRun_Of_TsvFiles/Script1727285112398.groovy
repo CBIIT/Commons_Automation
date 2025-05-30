@@ -38,11 +38,11 @@ import java.nio.file.Paths
 
 
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC015_CDS_phs001287_FileType_GCT.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC05_CDS_phs002305_Sex-Female_PrimDiag_Sarcoma_FileType-FASTQ.xlsx')
 
-//CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py','TsvDataParticipants')
-//CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py','TsvDataSamples')
-//CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py','TsvDataFiles')
+CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py','TsvDataParticipants')
+CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py','TsvDataSamples')
+CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py','TsvDataFiles')
 
 CustomKeywords.'utilities.PythonReader.readFileQuickRun'('Statbar.py','')
 

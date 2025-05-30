@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_CDS_phs003432_Sex-Female_PrimDiag_NotReported_FileType-RDS</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>98263cc4-1e75-4f81-a7d5-e1b4d7b1f35a</testCaseGuid>
+</TestCaseEntity>
