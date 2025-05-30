@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
  */
 WebUI.closeBrowser()
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC10_ICDC_GLIOMA01_SampleSite-Kidney.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC44_ICDC_STS01_SampleSite-Flank.xlsx')
 
 CustomKeywords.'utilities.TestRunner.clickTab'('Canine/Canine_PopUp_Continue_Btn')
 System.out.println ("Closed the popup window");
@@ -29,14 +29,14 @@ CustomKeywords.'utilities.TestRunner.clickTab'('Canine/NavBar/Canine_Cases_Btn')
 WebUI.waitForElementPresent(findTestObject('Canine/Filter/Study/Canine_Filter_Study'), 5)
 CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Canine/Filter/Study/Canine_Filter_Study')
 
-WebUI.waitForElementPresent(findTestObject('Canine/Filter/Study/Canine_Filter_Study-GLIOMA_Chkbx'), 5)
-CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Canine/Filter/Study/Canine_Filter_Study-GLIOMA_Chkbx')
+WebUI.waitForElementPresent(findTestObject('Canine/Filter/Study/Canine_Filter_Study-STS01_Chkbx'), 5)
+CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Canine/Filter/Study/Canine_Filter_Study-STS01_Chkbx')
 
 WebUI.verifyElementPresent(findTestObject('Canine/Filter/SampleSite/SAMPLE_SITE_Ddn'), 5) 
 CustomKeywords.'utilities.TestRunner.clickTab'('Canine/Filter/SampleSite/SAMPLE_SITE_Ddn')
  
-WebUI.waitForElementPresent(findTestObject('Canine/Filter/SampleSite/Kidney_Chkbx'), 5)
-CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Canine/Filter/SampleSite/Kidney_Chkbx')
+WebUI.waitForElementPresent(findTestObject('Canine/Filter/SampleSite/Flank_Chkbx'), 5)
+CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Canine/Filter/SampleSite/Flank_Chkbx')
 
 //Read Statbar
 CustomKeywords.'utilities.TestRunner.readStatBarCanine'('Canine/StatBar/Canine_StatBar-Programs','Canine/StatBar/Canine_StatBar-Studies',

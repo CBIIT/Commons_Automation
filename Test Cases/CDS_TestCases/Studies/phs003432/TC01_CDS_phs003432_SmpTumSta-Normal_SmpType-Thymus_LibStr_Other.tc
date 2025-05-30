@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CDS_phs003432_SmpTumSta-Normal_SmpType-Thymus_LibStr_Other</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b2884efd-d5bb-4fa4-9a6a-a406e6f78ac1</testCaseGuid>
+</TestCaseEntity>

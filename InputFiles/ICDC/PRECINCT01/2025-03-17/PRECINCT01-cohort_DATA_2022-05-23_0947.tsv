@@ -1,0 +1,7 @@
+type	study.clinical_study_designation	cohort_description	cohort_dose	cohort_record_id
+cohort	PRECINCT01	Inhaled IL-15 10 mcg	Inhaled IL-15 10 mcg	PRECINCT01 Inhaled IL-15 10 mcg
+cohort	PRECINCT01	Inhaled IL-15 20 mcg	Inhaled IL-15 20 mcg	PRECINCT01 Inhaled IL-15 20 mcg
+cohort	PRECINCT01	Inhaled IL-15 33 mcg	Inhaled IL-15 33 mcg	PRECINCT01 Inhaled IL-15 33 mcg
+cohort	PRECINCT01	Inhaled IL-15 50 mcg	Inhaled IL-15 50 mcg	PRECINCT01 Inhaled IL-15 50 mcg
+cohort	PRECINCT01	Inhaled IL-15 70 mcg	Inhaled IL-15 70 mcg	PRECINCT01 Inhaled IL-15 70 mcg
+cohort	PRECINCT01	Inhaled IL-15 93 mcg	Inhaled IL-15 93 mcg	PRECINCT01 Inhaled IL-15 93 mcg
