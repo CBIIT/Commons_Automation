@@ -6,11 +6,15 @@
    <elementGuidId>03522528-977d-4bbf-8892-34deca45be94</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;checkbox_Primary Diagnosis_Neoplasm, NOS&quot;]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//*[@id=&quot;checkbox_Primary Diagnosis_Neoplasm, NOS&quot;]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -19,6 +23,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;checkbox_Primary Diagnosis_Neoplasm, NOS&quot;]</value>
-      <webElementGuid>df61f2b5-6ab3-4da6-835c-66536af7e5f4</webElementGuid>
+      <webElementGuid>c01fee2e-5891-4131-8b5d-46d4693de994</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

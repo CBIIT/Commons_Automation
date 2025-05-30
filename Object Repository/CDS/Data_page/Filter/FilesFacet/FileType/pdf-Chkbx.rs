@@ -6,11 +6,16 @@
    <elementGuidId>bcd00576-38b1-43da-bc49-347ce5b680f2</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;checkbox_File Type_PDF&quot;]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//*[@id=&quot;checkbox_File Type_PDF&quot;]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -18,6 +23,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;checkbox_File Type_PDF&quot;]</value>
-      <webElementGuid>e95a93b4-093d-4f50-837d-596c61da68d5</webElementGuid>
+      <webElementGuid>3e651595-041c-46fb-8e87-1f99be164f0d</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

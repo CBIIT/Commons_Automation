@@ -6,11 +6,16 @@
    <elementGuidId>fe1a84f5-a4ab-4a46-bab7-b3c43918ebf7</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;checkbox_PRIMARY DIAGNOSIS_Anaplastic Medulloblastoma&quot;]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//*[@id=&quot;checkbox_PRIMARY DIAGNOSIS_Anaplastic Medulloblastoma&quot;]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -18,6 +23,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;checkbox_PRIMARY DIAGNOSIS_Anaplastic Medulloblastoma&quot;]</value>
-      <webElementGuid>ba5c898b-3e2e-405d-acf4-fe8195ff41a1</webElementGuid>
+      <webElementGuid>d918b54e-d698-4565-af97-12714543ec4f</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -6,11 +6,15 @@
    <elementGuidId>45f12a80-4236-4605-9c68-80730b71a967</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;checkbox_Primary Diagnosis_Multiple Myeloma&quot;]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//*[@id=&quot;checkbox_Primary Diagnosis_Multiple Myeloma&quot;]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -19,6 +23,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;checkbox_Primary Diagnosis_Multiple Myeloma&quot;]</value>
-      <webElementGuid>48e3798b-df50-4b01-b99b-b429b6782f24</webElementGuid>
+      <webElementGuid>32c8d378-75e1-403d-9573-2def202f9141</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

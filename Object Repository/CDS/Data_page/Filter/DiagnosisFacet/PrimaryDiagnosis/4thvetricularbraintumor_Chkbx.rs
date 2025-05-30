@@ -6,11 +6,16 @@
    <elementGuidId>40c03d24-3243-4a99-b054-329e5c13ddf6</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;checkbox_PRIMARY DIAGNOSIS_4th Ventricular Brain Tumor&quot;]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//*[@id=&quot;checkbox_PRIMARY DIAGNOSIS_4th Ventricular Brain Tumor&quot;]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -18,6 +23,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;checkbox_PRIMARY DIAGNOSIS_4th Ventricular Brain Tumor&quot;]</value>
-      <webElementGuid>1a992983-b7ce-4305-96ce-57e9176561d3</webElementGuid>
+      <webElementGuid>33d4ee49-54b4-4717-beb6-010200864bdd</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -6,11 +6,16 @@
    <elementGuidId>ea0bd2f5-524f-407f-a53b-15978dee33e8</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;checkbox_File Type_BAI&quot;]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//*[@id=&quot;checkbox_File Type_BAI&quot;]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -18,6 +23,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;checkbox_File Type_BAI&quot;]</value>
-      <webElementGuid>93c331be-0009-4e58-a039-e587473c2cb3</webElementGuid>
+      <webElementGuid>5b53a139-8cf5-4fa7-a8ca-c3c9e72fa2c5</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

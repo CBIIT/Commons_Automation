@@ -1551,10 +1551,27 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 
 	@Keyword
 	public static clickTabCDSStat(String TbName){
+		//Handle new dropdown behavior for large number of options-- search for the filter before clicking
 		Utils.findFilterBySearch(TbName)
-		JavascriptExecutor js = (JavascriptExecutor)driver;
-		String tabxpath = givexpath(TbName)
+		TestObject to = ObjectRepository.findTestObject(TbName)
+		String tabxpath = Utils.getEffectiveXPath(to, TbName)
+
+		//Some TestObjects for above scenario had to be changed from Attributes to XPath, so need to fallback to original givexpath() for non-affected objects
+		if (tabxpath == null || tabxpath.trim().isEmpty()) {
+			println("getEffectiveXPath failed, falling back to TestObject's built-in XPath")
+			try {
+				tabxpath = givexpath(TbName)
+			} catch (Exception e) {
+				KeywordUtil.markFailedAndStop("Could not resolve xpath from TestObject: " + TbName)
+			}
+		}
+		if (tabxpath == null || tabxpath.trim().isEmpty()) {
+			KeywordUtil.markFailedAndStop("Final resolved XPath is empty for: " + TbName)
+		}
+
+		//String tabxpath = givexpath(TbName)
 		System.out.println("This is the value of xpath of the element: "+tabxpath);
+		JavascriptExecutor js = (JavascriptExecutor)driver;
 		WebElement resultTab = driver.findElement(By.xpath(tabxpath));
 		js.executeScript("arguments[0].scrollIntoView(true);", resultTab);
 		js.executeScript("arguments[0].click();", resultTab);
