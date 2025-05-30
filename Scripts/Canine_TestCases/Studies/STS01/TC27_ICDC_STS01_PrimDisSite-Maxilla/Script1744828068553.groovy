@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
  */
 WebUI.closeBrowser()
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC05_ICDC_GLIOMA01_PrimDisSite-Brain.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC27_ICDC_STS01_PrimDisSite-Maxilla.xlsx')
 
 CustomKeywords.'utilities.TestRunner.clickTab'('Canine/Canine_PopUp_Continue_Btn')
 System.out.println ("Closed the popup window");
@@ -35,8 +35,8 @@ CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Canine/Filter/Study/Ca
 WebUI.waitForElementPresent(findTestObject('Canine/Filter/PrimDiseaseSite/PRIMARYDISEASESITE_Ddn'), 5)
 CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Canine/Filter/PrimDiseaseSite/PRIMARYDISEASESITE_Ddn')
 
-WebUI.waitForElementPresent(findTestObject('Canine/Filter/PrimDiseaseSite/Brain_Chkbx'), 5)
-CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Canine/Filter/PrimDiseaseSite/Brain_Chkbx')
+WebUI.waitForElementPresent(findTestObject('Canine/Filter/PrimDiseaseSite/Maxilla_Chkbx'), 5)
+CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Canine/Filter/PrimDiseaseSite/Maxilla_Chkbx')
 
 //Read Statbar
 CustomKeywords.'utilities.TestRunner.readStatBarCanine'('Canine/StatBar/Canine_StatBar-Programs','Canine/StatBar/Canine_StatBar-Studies',

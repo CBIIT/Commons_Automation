@@ -1,4 +1,4 @@
-type	case.case_record_id	demographic_record_id	breed	patient_age_at_enrollmen	date_of_birth	sex	patient_weight	neutered_indicator
+type	case.case_record_id	demographic_record_id	breed	patient_age_at_enrollment	date_of_birth	sex	weight	neutered_indicator
 demographic	PRCNCT IL-15-001	PRCNCT IL-15-001	Golden Retriever	7		Male	32.2	Yes
 demographic	PRCNCT IL-15-002	PRCNCT IL-15-002	Golden Retriever	11		Male	49	Yes
 demographic	PRCNCT IL-15-003	PRCNCT IL-15-003	Labrador/sheep mix	8		Female	47.6	Yes
