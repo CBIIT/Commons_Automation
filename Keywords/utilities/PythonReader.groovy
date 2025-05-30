@@ -75,7 +75,7 @@ public class PythonReader {
 	 */
 	@Keyword
 	public static void readFileQuickRun(String pythonFileName, String tabName) {
-		
+
 		String binPath = Utils.getPythonExecutablePath();
 		String queryFilePath = GlobalVariable.InputExcel;
 		String outputFilePath = Paths.get(RunConfiguration.getProjectDir(), "OutputFiles")

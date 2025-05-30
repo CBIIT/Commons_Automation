@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
  */
 WebUI.closeBrowser()
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC08_ICDC_GLIOMA01_Sex-Female.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC37_ICDC_STS01_Sex-Male.xlsx')
 
 CustomKeywords.'utilities.TestRunner.clickTab'('Canine/Canine_PopUp_Continue_Btn')
 System.out.println ("Closed the popup window");
@@ -35,8 +35,8 @@ CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Canine/Filter/Study/Ca
 WebUI.waitForElementPresent(findTestObject('Canine/Filter/Sex/SEX_Ddn'), 5)
 CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Canine/Filter/Sex/SEX_Ddn')
 
-WebUI.waitForElementPresent(findTestObject('Canine/Filter/Sex/Female_Chkbx'), 5)
-CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Canine/Filter/Sex/Female_Chkbx')
+WebUI.waitForElementPresent(findTestObject('Canine/Filter/Sex/Male_Chkbx'), 5)
+CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Canine/Filter/Sex/Male_Chkbx')
 
 //Read Statbar
 CustomKeywords.'utilities.TestRunner.readStatBarCanine'('Canine/StatBar/Canine_StatBar-Programs','Canine/StatBar/Canine_StatBar-Studies',

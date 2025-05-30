@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC18_ICDC_PRECINCT01_RespToTreatmt-PartialResponse</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>37fc5a0c-369f-4f12-9c23-0357759e2f54</testCaseGuid>
+</TestCaseEntity>

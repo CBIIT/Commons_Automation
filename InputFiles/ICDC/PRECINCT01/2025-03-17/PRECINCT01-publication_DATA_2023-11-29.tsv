@@ -1,0 +1,4 @@
+type	 study.clinical_study_designation	publication_title	authorship	year_of_publication	journal_citation	digital_object_id	pubmed_id
+publication	PRECINCT01	Comparative Immunogenomics of Canine Natural Killer Cells as Immunotherapy Target	"Alicia A Gingrich, et al"	2021	Front Immunol. 2021 Sep 14;12:670309	10.3389/fimmu.2021.670309	34594320
+publication	PRECINCT01	Analysis of tumor-infiltrating NK and T cells highlights IL-15 stimulation and TIGIT blockade as a combination immunotherapy strategy for soft tissue sarcomas	"Sean J Judge, et al"	2020	J Immunother Cancer. 2020 Nov;8(2)	10.1136/jitc-2020-001355	33158916
+publication	PRECINCT01	Inhaled recombinant human IL-15 in dogs with naturally occurring pulmonary metastases from osteosarcoma or melanoma: a phase 1 study of clinical activity and correlates of response 	"Robert B Rebhun, et al"	2022	Journal for ImmunoTherapy of Cancer June 2022	10.1136/jitc-2022-004493	35680383
