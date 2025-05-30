@@ -1,0 +1,314 @@
+type	case.case_id	day_in_cycle	date_of_onset	existing_adverse_event	date_of_resolution	ongoing_adverse_event	adverse_event_term	adverse_event_description	adverse_event_grade	adverse_event_grade_description	adverse_event_agent_name	adverse_event_agent_dose	attribution_to_research	attribution_to_ind	attribution_to_disease	attribution_to_commercial	attribution_to_other	other_attribution_description	dose_limiting_toxicity	unexpected_adverse_event
+adverse_event	PRECINCT01-UCD-IL15-001			Yes	11/21/2018	No	"Alanine aminotransferase (ALT), high"	increased alt	2	Moderate	Inhaled IL-15	10 mcg	Unrelated	Unrelated	Unlikely	Not Applicable	Possible	prior nsaid use		
+adverse_event	PRECINCT01-UCD-IL15-001			Yes		Yes	"Alkaline phosphatase (ALP), high"	increased alp	3	Severe	Inhaled IL-15	10 mcg	Unrelated	Unrelated	Possible	Not Applicable	Possible			
+adverse_event	PRECINCT01-UCD-IL15-001			Yes		Yes	"Metabolic/Laboratory, Other"	decreased bicarbonate	1	Mild	Inhaled IL-15	10 mcg	Unrelated	Unrelated	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-001			Yes		Yes	"Metabolic/Laboratory, Other"	increased total protein	1	Mild	Inhaled IL-15	10 mcg	Unrelated	Unrelated	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-001		11/14/2018	No		Yes	"Blood/Bone Marrow, Other"	increased globulin	1	Mild	Inhaled IL-15	10 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-001		11/21/2018	No		Yes	"Glucose, low"	decreased glucose	1	Mild	Inhaled IL-15	10 mcg	Unlikely	Not Applicable	Possible	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-001		11/21/2018	No		Yes	"Alanine aminotransferase (ALT), high"	increased alt	3	Severe	Inhaled IL-15	10 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-001		11/21/2018	No		Yes	"Aspartate aminotransferase (AST), high"	increased ast	3	Severe	Inhaled IL-15	10 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-001		11/21/2018	No		Yes	"Blood/Bone Marrow, Other"	increased anion gap	1	Mild	Inhaled IL-15	10 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-001		11/21/2018	No		Yes	"Creatine phosphokinase (CPK), high"	increased ck	1	Mild	Inhaled IL-15	10 mcg	Possible	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-002			Yes	11/27/2018	No	Fever	fever	1	Mild	Inhaled IL-15	10 mcg	Unrelated	Unrelated	Probable	Not Applicable	Definite	consistently runs high		
+adverse_event	PRECINCT01-UCD-IL15-002			Yes		Yes	"Potassium, high"	increased potassium	1	Mild	Inhaled IL-15	10 mcg	Unlikely	Not Applicable	Unlikely	Not Applicable	Probable	lab consistent increased k		
+adverse_event	PRECINCT01-UCD-IL15-002			Yes		Yes	"Blood/Bone Marrow, Other"	increased anion gap	1	Mild	Inhaled IL-15	10 mcg	Unlikely	Not Applicable	Possible	Not Applicable	Probable	machine calibration		
+adverse_event	PRECINCT01-UCD-IL15-002			Yes	12/11/2018	No	"Metabolic/Laboratory, Other"	decreased bicarbonate	1	Mild	Inhaled IL-15	10 mcg	Unlikely	Not Applicable	Possible	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-002		12/5/2018	No	12/11/2018	No	"Albumin, low"	decreased albumin	1	Mild	Inhaled IL-15	10 mcg	Unlikely	Not Applicable	Possible	Not Applicable	Possible			
+adverse_event	PRECINCT01-UCD-IL15-002		12/5/2018	No	1/11/2019	No	Fever	fever	1	Mild	Inhaled IL-15	10 mcg	Undefined	Not Applicable	Undefined	Not Applicable	Definite	runs high		
+adverse_event	PRECINCT01-UCD-IL15-002		12/11/2018	No	12/28/2018	No	"Creatine phosphokinase (CPK), high"	increased creatine kinase (ck)	1	Mild	Inhaled IL-15	10 mcg	Unlikely	Not Applicable	Possible	Not Applicable	Possible	sample handling		
+adverse_event	PRECINCT01-UCD-IL15-002		1/11/2019	No		No	Fever	fever	2	Moderate	Inhaled IL-15	10 mcg	Unrelated	Unrelated	Unrelated	Not Applicable	Definite	"anxious, runs high"		
+adverse_event	PRECINCT01-UCD-IL15-002		3/7/2019	No		Yes	"Alkaline phosphatase (ALP), high"	increased alp	1	Mild	Inhaled IL-15	10 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-002		3/7/2019	No		Yes	"Blood/Bone Marrow, Other"	hyperphosphatemia	1	Mild	Inhaled IL-15	10 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-002		3/7/2019	No		Yes	"Metabolic/Laboratory, Other"	hypernatremia	1	Mild	Inhaled IL-15	10 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-003			Yes		Yes	"Blood/Bone Marrow, Other"	increased globulin	1	Mild	Inhaled IL-15	10 mcg	Unrelated	Unrelated	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-003			Yes		Yes	increased total protein	increased total protein	1	Mild	Inhaled IL-15	10 mcg	Unrelated	Unrelated	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-003			Yes	12/11/2018	No	"Glucose, high"	increased glucose	1	Mild	Inhaled IL-15	10 mcg	Unrelated	Unrelated	Unlikely	Not Applicable	Probable	post prandial? stress?		
+adverse_event	PRECINCT01-UCD-IL15-003			Yes		Yes	"Blood/Bone Marrow, Other"	increased anion gap	1	Mild	Inhaled IL-15	10 mcg	Unrelated	Unrelated	Possible	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-003		12/11/2018	No	1/3/2019	No	"Creatine phosphokinase (CPK), high"	inreased ck	1	Mild	Inhaled IL-15	10 mcg	Possible	Not Applicable	Possible	Not Applicable	Possible	sample handling		
+adverse_event	PRECINCT01-UCD-IL15-003		12/11/2018	No	12/19/2018	No	"Musculoskeletal/Soft Tissue, Other"	hypophosphatonia	1	Mild	Inhaled IL-15	10 mcg	Unrelated	Not Applicable	Unrelated	Not Applicable	Possible	sample handling		
+adverse_event	PRECINCT01-UCD-IL15-003		1/3/2019	No		Yes	"Phosphorous, low"	hypophosphatemia	1	Mild	Inhaled IL-15	10 mcg	Unrelated	Not Applicable	Unlikely	Not Applicable	Possible	sample handling		
+adverse_event	PRECINCT01-UCD-IL15-003		2/13/2019	No		Yes	"Creatine phosphokinase (CPK), high"	increased ck	1	Mild	Inhaled IL-15	10 mcg	Possible	Not Applicable	Possible	Not Applicable	Possible	sample handling		
+adverse_event	PRECINCT01-UCD-IL15-003		2/13/2019	No		Yes	"Alkaline phosphatase (ALP), high"	increased alp	1	Mild	Inhaled IL-15	10 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-004			Yes	12/17/2018	No	"Blood/Bone Marrow, Other"	anemia	1	Mild	Inhaled IL-15	10 mcg	Unlikely	Unrelated	Probable	Not Applicable	Possible			
+adverse_event	PRECINCT01-UCD-IL15-004			Yes	12/17/2018	No	"Potassium, high"	hyperkalemia	1	Mild	Inhaled IL-15	10 mcg	Unlikely	Unrelated	Possible	Not Applicable	Possible			
+adverse_event	PRECINCT01-UCD-IL15-004			Yes	12/17/2018	No	"Blood/Bone Marrow, Other"	hyperphosphatemia	1	Mild	Inhaled IL-15	10 mcg	Unlikely	Unrelated	Possible	Not Applicable	Possible			
+adverse_event	PRECINCT01-UCD-IL15-004			Yes	12/17/2018	No	"Creatine phosphokinase (CPK), high"	increased ck	1	Mild	Inhaled IL-15	10 mcg	Unlikely	Unrelated	Possible	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-004			Yes	12/17/2018	No	"Alkaline phosphatase (ALP), high"	increased alp	3	Severe	Inhaled IL-15	10 mcg	Unlikely	Unrelated	Possible	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-004			Yes		Yes	"Hepatobiliary/Pancreas, Other"	increased ggt	2	Moderate	Inhaled IL-15	10 mcg	Unlikely	Unrelated	Possible	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-004			Yes		Yes	"Blood/Bone Marrow, Other"	thrombocytosis	1	Mild	Inhaled IL-15	10 mcg	Unlikely	Not Applicable	Unlikely	Not Applicable	Possible	normal for this patient or reactive to mild anemia		
+adverse_event	PRECINCT01-UCD-IL15-004			Yes		Yes	"Blood/Bone Marrow, Other"	increased anion gap	1	Mild	Inhaled IL-15	10 mcg	Unlikely	Not Applicable	Possible	Not Applicable	Possible	machine calibration		
+adverse_event	PRECINCT01-UCD-IL15-004			Yes		Yes	"Metabolic/Laboratory, Other"	hypochloremia	1	Mild	Inhaled IL-15	10 mcg	Unlikely	Not Applicable	Unlikely	Not Applicable	Possible	machine calibration		
+adverse_event	PRECINCT01-UCD-IL15-004			Yes	12/17/2018	No	BUN	decreased bun	1	Mild	Inhaled IL-15	10 mcg	Unlikely	Not Applicable	Possible	Not Applicable	Probable	artifact		
+adverse_event	PRECINCT01-UCD-IL15-004			Yes	12/17/2018	No	"Metabolic/Laboratory, Other"	decreased creatinine	1	Mild	Inhaled IL-15	10 mcg	Unlikely	Not Applicable	Possible	Not Applicable	Possible	body condition		
+adverse_event	PRECINCT01-UCD-IL15-004			Yes		Yes	"Metabolic/Laboratory, Other"	decreased bicarbonate	1	Mild	Inhaled IL-15	10 mcg	Unlikely	Not Applicable	Unlikely	Not Applicable	Possible	machine calibration		
+adverse_event	PRECINCT01-UCD-IL15-004			Yes		Yes	"Blood/Bone Marrow, Other"	reticulocytosis	2	Moderate	Inhaled IL-15	10 mcg	Unlikely	Not Applicable	Possible	Not Applicable	Possible	anemia		
+adverse_event	PRECINCT01-UCD-IL15-004			Yes	12/17/2018	No	"Blood/Bone Marrow, Other"	reticulocytosis	2	Moderate	Inhaled IL-15	10 mcg	Unlikely	Not Applicable	Possible	Not Applicable	Possible	anemia		
+adverse_event	PRECINCT01-UCD-IL15-004		12/6/2018	No	12/17/2018	No	"Blood/Bone Marrow, Other"	lymphopenia	2	Moderate	Inhaled IL-15	10 mcg	Possible	Not Applicable	Possible	Not Applicable	Possible	stress		
+adverse_event	PRECINCT01-UCD-IL15-004		12/17/2018	No	12/21/2018	No	"Alkaline phosphatase (ALP), high"	increased alp	4	Life-threatening	Inhaled IL-15	10 mcg	Unlikely	Unrelated	Possible	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-004		12/17/2018	No		Yes	"Blood/Bone Marrow, Other"	lymphopenia	1	Mild	Inhaled IL-15	10 mcg	Possible	Not Applicable	Possible	Not Applicable	Possible	stress		
+adverse_event	PRECINCT01-UCD-IL15-004		12/21/2018	No		Yes	"Blood/Bone Marrow, Other"	anemia	1	Mild	Inhaled IL-15	10 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Unrelated			
+adverse_event	PRECINCT01-UCD-IL15-004		12/21/2018	No		Yes	"Alkaline phosphatase (ALP), high"	increased alp	3	Severe	Inhaled IL-15	10 mcg	Unlikely	Unrelated	Possible	Not Applicable	Possible	hepatopathy		
+adverse_event	PRECINCT01-UCD-IL15-004		12/21/2018	No	1/8/2019	No	"Metabolic/Laboratory, Other"	decreased creatinine	1	Mild	Inhaled IL-15	10 mcg	Unlikely	Not Applicable	Possible	Not Applicable	Possible	body condition		
+adverse_event	PRECINCT01-UCD-IL15-004		12/21/2018	No	1/8/2019	No	"Calcium, low"	hypocalcemia	1	Mild	Inhaled IL-15	10 mcg	Unlikely	Not Applicable	Possible	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-004		1/8/2019	No		Yes	Neutrophilia	neutrophilia	1	Mild	Inhaled IL-15	10 mcg	Possible	Not Applicable	Possible	Not Applicable	Possible	stress		
+adverse_event	PRECINCT01-UCD-IL15-005			Yes	4/8/2019	No	"Alkaline phosphatase (ALP), high"	increased alp	1	Mild	Inhaled IL-15	10 mcg	Unrelated	Unrelated	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-005			Yes		Yes	"Musculoskeletal/Soft Tissue, Other"	left pelvic limb lameness	1	Mild	Inhaled IL-15	10 mcg	Unrelated	Unrelated	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-005		4/1/2019	No	4/8/2019	No	"Blood/Bone Marrow, Other"	increased anion gap	1	Mild	Inhaled IL-15	10 mcg	Unlikely	Not Applicable	Possible	Not Applicable	Possible	machine calibration		
+adverse_event	PRECINCT01-UCD-IL15-005		4/8/2019	No	4/26/2019	No	"Alkaline phosphatase (ALP), high"	increased alp	2	Moderate	Inhaled IL-15	10 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-005		4/26/2019	No		Yes	"Alkaline phosphatase (ALP), high"	increased alp	3	Severe	Inhaled IL-15	10 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-006			Yes		Yes	"Albumin, low"	decreased albumin	1	Mild	Inhaled IL-15	10 mcg	Unrelated	Unrelated	Possible	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-006			Yes	5/17/2019	No	"Blood/Bone Marrow, Other"	increased globulins	1	Mild	Inhaled IL-15	10 mcg	Unrelated	Unrelated	Possible	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-006			Yes	5/3/2019	No	"Blood/Bone Marrow, Other"	increased anion gap	1	Mild	Inhaled IL-15	10 mcg	Unrelated	Unrelated	Unlikely	Not Applicable	Possible	machine calibration		
+adverse_event	PRECINCT01-UCD-IL15-006			Yes	5/3/2019	No	"Metabolic/Laboratory, Other"	decreased bicarbonate	1	Mild	Inhaled IL-15	10 mcg	Unrelated	Unrelated	Unlikely	Not Applicable	Possible	machine calibration		
+adverse_event	PRECINCT01-UCD-IL15-006			Yes	5/3/2019	No	BUN	decreased bun	1	Mild	Inhaled IL-15	10 mcg	Unrelated	Unrelated	Possible	Not Applicable	Possible	normal for patient		
+adverse_event	PRECINCT01-UCD-IL15-006			Yes		Yes	"Metabolic/Laboratory, Other"	decreased creatinine	1	Mild	Inhaled IL-15	10 mcg	Unrelated	Unrelated	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-006			Yes	5/3/2019	No	"Metabolic/Laboratory, Other"	decreased alt	1	Mild	Inhaled IL-15	10 mcg	Unrelated	Unrelated	Unlikely	Not Applicable	Possible	normal for patient		
+adverse_event	PRECINCT01-UCD-IL15-006			Yes	4/26/2019	No	"Aspartate aminotransferase (AST), high"	decreased ast	1	Mild	Inhaled IL-15	10 mcg	Unrelated	Unrelated	Possible	Not Applicable	Possible	normal for patient		
+adverse_event	PRECINCT01-UCD-IL15-006		5/3/2019	No		Yes	Haemoglobin	decreased hemoglobin	1	Mild	Inhaled IL-15	10 mcg	Possible	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-006		5/3/2019	No		Yes	"Blood/Bone Marrow, Other"	decreased hct	1	Mild	Inhaled IL-15	10 mcg	Possible	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-006		5/3/2019	No	5/17/2019	No	"Calcium, low"	decreased ca2+	1	Mild	Inhaled IL-15	10 mcg	Possible	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-006		5/3/2019	No	5/17/2019	No	"Glucose, high"	hyperglycemia	1	Mild	Inhaled IL-15	10 mcg	Possible	Not Applicable	Possible	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-006		5/3/2019	No	5/17/2019	No	"Metabolic/Laboratory, Other"	hyperchloremia	1	Mild	Inhaled IL-15	10 mcg	Unlikely	Not Applicable	Unlikely	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-006		5/17/2019	No		Yes	"Metabolic/Laboratory, Other"	decreased alt	1	Mild	Inhaled IL-15	10 mcg	Unrelated	Unrelated	Unlikely	Not Applicable	Possible	normal for patient		
+adverse_event	PRECINCT01-UCD-IL15-006		5/17/2019	No		Yes	"Potassium, high"	hyperkalemia	1	Mild	Inhaled IL-15	10 mcg	Unlikely	Not Applicable	Possible	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-007			Yes		Yes	"Blood/Bone Marrow, Other"	thrombocytosis	1	Mild	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Possible	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-007			Yes	7/7/2019	No	Lethargy/fatigue	lethargy	1	Mild	Inhaled IL-15	20 mcg	Unrelated	Unrelated	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-007			Yes	7/7/2019	No	"Musculoskeletal/Soft Tissue, Other"	sarcopenia	2	Moderate	Inhaled IL-15	20 mcg	Unrelated	Unrelated	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-007			Yes	7/7/2019	No	"Appetite, altered"	poor appetite	1	Mild	Inhaled IL-15	20 mcg	Unrelated	Unrelated	Possible	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-007		6/26/2019	No	7/7/2019	No	Diarrhoea	diarrhea	1	Mild	Inhaled IL-15	20 mcg	Possible	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-007		6/26/2019	No	7/7/2019	No	Vomiting	vomiting	1	Mild	Inhaled IL-15	20 mcg	Possible	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-007		6/30/2019	No	7/2/2019	No	Pruritus	facial pruritus	1	Mild	Inhaled IL-15	20 mcg	Unrelated	Not Applicable	Possible	Not Applicable	Probable	rt		
+adverse_event	PRECINCT01-UCD-IL15-007		7/1/2019	No		Yes	"Potassium, high"	hyperkalemia	1	Mild	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-007		7/1/2019	No		Yes	"Calcium, low"	hypocalcemia	1	Mild	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-007		7/1/2019	No	7/7/2019	No	BUN	decreased bun	1	Mild	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Unlikely	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-007		7/1/2019	No		Yes	"Albumin, low"	hypoalbuminema	1	Mild	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Possible	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-007		7/1/2019	No	7/7/2019	No	"Creatine phosphokinase (CPK), high"	increased ck	1	Mild	Inhaled IL-15	20 mcg	Possible	Not Applicable	Possible	Not Applicable	Possible	sample handling		
+adverse_event	PRECINCT01-UCD-IL15-007		7/1/2019	No		Yes	"Metabolic/Laboratory, Other"	decreased total protein	1	Mild	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-007		7/3/2019	No		Yes	Diarrhoea	diarrhea	3	Severe	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-007		7/7/2019	No		Yes	"Blood/Bone Marrow, Other"	monocytosis	1	Mild	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Possible	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-007		7/7/2019	No		Yes	Neutrophilia	neutrophilia	1	Mild	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-007		7/7/2019	No		Yes	"Metabolic/Laboratory, Other"	decreased bicarbonate	1	Mild	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-007		7/7/2019	No		Yes	"Metabolic/Laboratory, Other"	hypermagnesemia	1	Mild	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-007		7/7/2019	No		Yes	"Glucose, high"	hyperglycemia	1	Mild	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Possible	Not Applicable	Probable	stress		
+adverse_event	PRECINCT01-UCD-IL15-007		7/7/2019	No	7/8/2019	No	Acidosis	acidosis	3	Severe	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-007		7/7/2019	No		Yes	"Blood/Bone Marrow, Other"	basophilia	1	Mild	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Possible	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-007		7/7/2019	No		Yes	"Blood/Bone Marrow, Other"	increased anion gap	1	Mild	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-007		7/7/2019	No		Yes	"Metabolic/Laboratory, Other"	hyponatremia	1	Mild	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-007		7/7/2019	No		Yes	"Potassium, high"	hyperkalemia	3	Severe	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-007		7/7/2019	No		Yes	"Metabolic/Laboratory, Other"	hypochloremia	1	Mild	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-007		7/7/2019	No		Yes	"Blood/Bone Marrow, Other"	high lactate	2	Moderate	Inhaled IL-15	20 mcg	Unrelated	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-007		7/7/2019	No		Yes	"Blood/Bone Marrow, Other"	hyperbilirubinemia	1	Mild	Inhaled IL-15	20 mcg	Unrelated	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-007		7/7/2019	No		Yes	"Blood/Bone Marrow, Other"	hyperphosphatemia	1	Mild	Inhaled IL-15	20 mcg	Unrelated	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-007		7/7/2019	No		Yes	"Alkaline phosphatase (ALP), high"	increased alp	1	Mild	Inhaled IL-15	20 mcg	Unrelated	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-007		7/7/2019	No	7/8/2019	No	Systemic hypotension	hypotension	2	Moderate	Inhaled IL-15	20 mcg	Unrelated	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-007		7/7/2019	No		Yes	Constitutional Clinical 	obtundation	2	Moderate	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-007		7/7/2019	No		Yes	"Body Cavity, Other"	abdominal effusion	3	Severe	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-007		7/7/2019	No		Yes	"Appetite, altered"	poor appetite	2	Moderate	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-007		7/7/2019	No		Yes	"Musculoskeletal/Soft Tissue, Other"	sarcopenia	3	Severe	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-007		7/7/2019	No		Yes	Vomiting	vomiting	2	Moderate	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-007		7/8/2019	No		Yes	Acidosis	acidosis	1	Mild	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-007		7/8/2019	No	7/7/2019	No	Hypothermia	hypothermia	1	Mild	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-007		7/8/2019	No		Yes	"Oedema, limbs"	peripheral edema	1	Mild	Inhaled IL-15	20 mcg	Unrelated	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-007		7/8/2019	No		Yes	Pleural effusion (non-malignant)	pleural effusion	1	Mild	Inhaled IL-15	20 mcg	Unrelated	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-007		7/8/2019	No		Yes	"Cardiac General, Other"	caval syndrome	4	Life-threatening	Inhaled IL-15	20 mcg	Unrelated	Unrelated	Definite	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-008			Yes	7/23/2019	No	"Blood/Bone Marrow, Other"	basophilia	1	Mild	Inhaled IL-15	20 mcg	Unlikely	Unrelated	Unlikely	Not Applicable	Probable	spurious		
+adverse_event	PRECINCT01-UCD-IL15-008			Yes		No	"Blood/Bone Marrow, Other"	lymphopenia	1	Mild	Inhaled IL-15	20 mcg	Possible	Unrelated	Possible	Not Applicable	Possible	stress		
+adverse_event	PRECINCT01-UCD-IL15-008			Yes		Yes	Weight loss	weight loss	1	Mild	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-008		7/23/2019	No		No	BUN	increased bun	1	Mild	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Possible	Not Applicable	Possible	ckd or/and dehydration		
+adverse_event	PRECINCT01-UCD-IL15-008		7/23/2019	No		No	"Creatinine, high"	increased creatinine	1	Mild	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Possible	Not Applicable	Possible	crd or/and dehydration		
+adverse_event	PRECINCT01-UCD-IL15-008		7/30/2019	No		No	"Alkaline phosphatase (ALP), high"	increased alp	1	Mild	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-008		7/30/2019	No		No	"Metabolic/Laboratory, Other"	decreased bicarbonate	1	Mild	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Possible	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-008		7/30/2019	No		No	"Calcium, low"	hypocalcemia	1	Mild	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Possible	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-008		7/30/2019	No		No	"Albumin, low"	decreased albumin	1	Mild	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Possible	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-008		8/2/2019	No		Yes	Anorexia	anorexia (decreased appetite)	2	Moderate	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-008		8/2/2019	No		Yes	Lethargy/fatigue	lethargy/fatigue	3	Severe	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-008		8/3/2019	No	8/3/2019	No	Seizure	seizure like episode	2	Moderate	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-009			Yes		No	"Cardiac Arrhythmia, Other"	tachycardia	1	Mild	Inhaled IL-15	20 mcg	Unrelated	Unrelated	Possible	Not Applicable	Probable	separation anxiety/stress		
+adverse_event	PRECINCT01-UCD-IL15-009			Yes		No	Hypertension	hypertension	1	Mild	Inhaled IL-15	20 mcg	Unrelated	Unrelated	Unlikely	Not Applicable	Probable	separation anxiety/stress		
+adverse_event	PRECINCT01-UCD-IL15-009			Yes	9/25/2019	No	Constitutional Clinical 	hyperthermia	1	Mild	Inhaled IL-15	20 mcg	Unrelated	Unrelated	Possible	Not Applicable	Probable	separation anxiety/stress		
+adverse_event	PRECINCT01-UCD-IL15-009			Yes		No	"Ocular/Visual, Other"	mucoid ocular discharge ou	1	Mild	Inhaled IL-15	20 mcg	Unrelated	Unrelated	Probable	Not Applicable	Possible	unrelated eye disease		
+adverse_event	PRECINCT01-UCD-IL15-009			Yes		No	"Blood/Bone Marrow, Other"	decreased rbc	1	Mild	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-009			Yes		No	Haemoglobin	decreased hemoglobin	1	Mild	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-009			Yes		No	"Blood/Bone Marrow, Other"	decreased hct	1	Mild	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-009			Yes		No	"Blood/Bone Marrow, Other"	increased rdw	1	Mild	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-009			Yes	10/22/2019	No	"Blood/Bone Marrow, Other"	nucleated rbc	1	Mild	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-009			Yes		No	"Blood/Bone Marrow, Other"	leukocytosis	1	Mild	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-009			Yes		No	Neutrophilia	neutrophilia	1	Mild	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-009			Yes	10/2/2019	No	"Blood/Bone Marrow, Other"	monocytosis	1	Mild	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-009			Yes		No	"Blood/Bone Marrow, Other"	increased agap	1	Mild	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-009			Yes		No	"Metabolic/Laboratory, Other"	decreased bicarbonate	2	Moderate	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-009			Yes	10/9/2019	No	"Albumin, low"	decreased albumin	1	Mild	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-009			Yes		No	"Blood/Bone Marrow, Other"	increased globulin	1	Mild	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-009			Yes		No	"Alkaline phosphatase (ALP), high"	increased alp	2	Moderate	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Possible	Not Applicable	Possible	older age		
+adverse_event	PRECINCT01-UCD-IL15-009			Yes		No	Proteinuria	proteinuria	2	Moderate	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-009		10/2/2019	No	10/9/2019	No	Fever	fever	1	Mild	Inhaled IL-15	20 mcg	Possible	Not Applicable	Probable	Not Applicable	Possible	separation anxiety/stress		
+adverse_event	PRECINCT01-UCD-IL15-009		10/2/2019	No	10/9/2019	No	"Calcium, low"	decreaed calcuim	1	Mild	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-009		10/2/2019	No		No	"Creatine phosphokinase (CPK), high"	increased ck	1	Mild	Inhaled IL-15	20 mcg	Possible	Not Applicable	Possible	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-009		10/2/2019	No	10/9/2019	No	"Hepatobiliary/Pancreas, Other"	increased ggt	1	Mild	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Possible	Not Applicable	Possible	older age		
+adverse_event	PRECINCT01-UCD-IL15-009		10/2/2019	No		No	"Musculoskeletal/Soft Tissue, Other"	hypertrophic osteopathy	1	Mild	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-009		10/2/2019	No		No	"Musculoskeletal/Soft Tissue, Other"	lameness	2	Moderate	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-009		10/9/2019	No		No	"Blood/Bone Marrow, Other"	bands	1	Mild	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-009		10/9/2019	No		No	"Blood/Bone Marrow, Other"	increased reticulocyte count	1	Mild	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-009		10/9/2019	No		No	BUN	increased bun	1	Mild	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Possible	Not Applicable	Possible	increased protein diet		
+adverse_event	PRECINCT01-UCD-IL15-009		10/9/2019	No	10/22/2019	No	"Glucose, high"	increased glucose	1	Mild	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Possible	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-009		10/9/2019	No	10/22/2019	No	"Aspartate aminotransferase (AST), high"	increased ast	1	Mild	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Possible	muscle wasting		
+adverse_event	PRECINCT01-UCD-IL15-009		10/9/2019	No	10/22/2019	No	PT	increased plt	1	Mild	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Possible	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-009		10/22/2019	No		No	"Blood/Bone Marrow, Other"	decreased mchc	1	Mild	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-009		10/22/2019	No		No	"Blood/Bone Marrow, Other"	decreased lymphocytes	1	Mild	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-009		10/22/2019	No		No	"Albumin, low"	decreased albumin	1	Mild	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-009		10/22/2019	No		No	"Renal/Genitourinary, Other"	hematuria	2	Moderate	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-009		10/29/2019	No		No	"Cardiac Arrhythmia, Other"	tachypnea	2	Moderate	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-009		10/29/2019	No		No	Dyspnoea	dyspnea	2	Moderate	Inhaled IL-15	20 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-010			Yes	10/30/2019	No	"Potassium, high"	increased k+	2	Moderate	Inhaled IL-15	33 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-010			Yes	10/30/2019	No	"Calcium, low"	decreased ca2+	1	Mild	Inhaled IL-15	33 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-010			Yes	11/13/2019	Yes	"Metabolic/Laboratory, Other"	decreased creatinine	1	Mild	Inhaled IL-15	33 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-010			Yes	11/13/2019	Yes	"Albumin, low"	decreased albumin	1	Mild	Inhaled IL-15	33 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-010			Yes	11/13/2019	No	"Creatine phosphokinase (CPK), high"	increased ck	1	Mild	Inhaled IL-15	33 mcg	Possible	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-010			Yes	12/13/2019	Yes	Haemoglobin	decreased hemoglobin	1	Mild	Inhaled IL-15	33 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-010			Yes	10/30/2019	No	"Blood/Bone Marrow, Other"	decreased hct	1	Mild	Inhaled IL-15	33 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-010			Yes	11/13/2019	Yes	PT	increased plt	1	Mild	Inhaled IL-15	33 mcg	Unlikely	Unrelated	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-010		10/28/2019	No	10/30/2019	No	"Blood/Bone Marrow, Other"	decreased rbc	1	Mild	Inhaled IL-15	33 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-010		10/30/2019	No	11/13/2019	Yes	"Potassium, high"	increased k+	1	Mild	Inhaled IL-15	33 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-010		10/30/2019	No	11/13/2019	Yes	BUN	decreased bun	1	Mild	Inhaled IL-15	33 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-010		10/30/2019	No	11/13/2019	Yes	"Blood/Bone Marrow, Other"	increased globulin	1	Mild	Inhaled IL-15	33 mcg	Unlikely	Not Applicable	Possible	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-010		10/30/2019	No	11/13/2019	Yes	Anorexia	decreased appetite	1	Mild	Inhaled IL-15	33 mcg	Unlikely	Not Applicable	Possible	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-010		10/30/2019	No	11/13/2019	Yes	"Pain, Other"	jaw pain	2	Moderate	Inhaled IL-15	33 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-010		11/13/2019	No	11/13/2019	Yes	Weight loss	weight loss	1	Mild	Inhaled IL-15	33 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-010		11/13/2019	No	11/13/2019	Yes	"Blood/Bone Marrow, Other"	decreased mch	1	Mild	Inhaled IL-15	33 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-010		11/13/2019	No	11/13/2019	Yes	"Blood/Bone Marrow, Other"	decreased mchc	1	Mild	Inhaled IL-15	33 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-011		12/19/2019	No		No	"Blood/Bone Marrow, Other"	AG	1	Mild	Inhaled IL-15	33 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-011		12/20/2019	No		No	"Metabolic/Laboratory, Other"	Bicarbonate	1	Mild	Inhaled IL-15	33 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-011		12/20/2019	No		No	"Metabolic/Laboratory, Other"	MG	1	Mild	Inhaled IL-15	33 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-011		12/27/2019	No		No	"Metabolic/Laboratory, Other"	TP	1	Mild	Inhaled IL-15	33 mcg	Unlikely	Not Applicable	Possible	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-012		1/20/2020	No		Yes	"Neurology, Other"	Cranial Nerve VII	1	Mild	Inhaled IL-15	33 mcg	Unlikely	Not Applicable	Possible	Not Applicable	Probable	"RT, neuritis, metastasis"		
+adverse_event	PRECINCT01-UCD-IL15-012		3/13/2020	No		Yes	Dyspnoea	Syspnoea	5	Death	Inhaled IL-15	33 mcg	Unlikely	Not Applicable	Definite	Not Applicable	Unrelated			
+adverse_event	PRECINCT01-UCD-IL15-013			Yes	2/24/2020	No	"Metabolic/Laboratory, Other"	Potassian	1	Mild	Inhaled IL-15	50 mcg	Unrelated	Unrelated	Unrelated	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-013			Yes	2/24/2020	No	"Alanine aminotransferase (ALT), high"	ALT	1	Mild	Inhaled IL-15	50 mcg	Unrelated	Unrelated	Possible	Not Applicable	Possible			
+adverse_event	PRECINCT01-UCD-IL15-013			Yes		No	"Alkaline phosphatase (ALP), high"	ALP	1	Mild	Inhaled IL-15	50 mcg	Unrelated	Unrelated	Unlikely	Not Applicable	Possible			
+adverse_event	PRECINCT01-UCD-IL15-013			Yes	7/6/2020	No	Lethargy/fatigue	Letheragy	1	Mild	Inhaled IL-15	50 mcg	Unrelated	Unrelated	Probable	Not Applicable	Possible			
+adverse_event	PRECINCT01-UCD-IL15-013		2/24/2020	No	3/23/2020	No	"Alanine aminotransferase (ALT), high"	ALT	2	Moderate	Inhaled IL-15	50 mcg	Unrelated	Unrelated	Possible	Not Applicable	Possible			
+adverse_event	PRECINCT01-UCD-IL15-013		2/24/2020	No	3/2/2020	No	"Metabolic/Laboratory, Other"	GGT	1	Mild	Inhaled IL-15	50 mcg	Unrelated	Unrelated	Possible	Not Applicable	Possible			
+adverse_event	PRECINCT01-UCD-IL15-013		3/2/2020	No		No	"Albumin, low"	"Albumin, Low"	1	Mild	Inhaled IL-15	50 mcg	Possible	Not Applicable	Probable	Not Applicable	Unlikely			
+adverse_event	PRECINCT01-UCD-IL15-013		3/2/2020	No	3/9/2020	No	External ear inflammation	External ear inflammation	1	Mild	Inhaled IL-15	50 mcg	Unlikely	Not Applicable	Unlikely	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-013		3/23/2020	No		No	"Alanine aminotransferase (ALT), high"	ALT	1	Mild	Inhaled IL-15	50 mcg	Unrelated	Unrelated	Possible	Not Applicable	Possible			
+adverse_event	PRECINCT01-UCD-IL15-014			Yes		No	"Albumin, low"	Low Albumin	1	Mild	Inhaled IL-15	50 mcg	Unrelated	Unrelated	Unlikely	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-014			Yes	3/4/2020	No	"Alanine aminotransferase (ALT), high"	ALT	1	Mild	Inhaled IL-15	50 mcg	Unrelated	Unrelated	Possible	Not Applicable	Possible			
+adverse_event	PRECINCT01-UCD-IL15-014			Yes		No	"Alkaline phosphatase (ALP), high"	ALP	1	Mild	Inhaled IL-15	50 mcg	Unrelated	Unrelated	Unlikely	Not Applicable	Definite			
+adverse_event	PRECINCT01-UCD-IL15-015			Yes	10/31/2020	No	"Potassium, high"	Hyoerkalemia	1	Mild	Inhaled IL-15	50 mcg	Unrelated	Unrelated	Unlikely	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-015			Yes	8/7/2020	No	"Albumin, low"	"Albumin, Low"	1	Mild	Inhaled IL-15	50 mcg	Unrelated	Unrelated	Possible	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-015			Yes		No	"Blood/Bone Marrow, Other"	Hypelglobullinenia	1	Mild	Inhaled IL-15	50 mcg	Unrelated	Unrelated	Possible	Not Applicable	Possible			
+adverse_event	PRECINCT01-UCD-IL15-015			Yes	8/3/2020	No	"Alanine aminotransferase (ALT), high"	ALT	1	Mild	Inhaled IL-15	50 mcg	Unrelated	Unrelated	Unlikely	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-015			Yes		No	"Blood/Bone Marrow, Other"	Leukopenia	1	Mild	Inhaled IL-15	50 mcg	Unrelated	Unrelated	Unlikely	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-015		7/24/2020	No	7/31/2020	No	"Blood/Bone Marrow, Other"	basophilia	1	Mild	Inhaled IL-15	50 mcg	Unrelated	Unrelated	Unlikely	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-015		8/7/2020	No		No	"Metabolic/Laboratory, Other"	GAT	1	Mild	Inhaled IL-15	50 mcg	Unlikely	Not Applicable	Unlikely	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-016			Yes	8/14/2020	No	"Metabolic/Laboratory, Other"	Hypoprotenemia	1	Mild	Inhaled IL-15	70 mcg	Unrelated	Unrelated	Unlikely	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-016			Yes	9/2/2020	No	"Alkaline phosphatase (ALP), high"	Elevated ALP	2	Moderate	Inhaled IL-15	70 mcg	Unrelated	Unrelated	Unlikely	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-016		8/12/2020	No	8/19/2020	No	"Aspartate aminotransferase (AST), high"	AST	1	Mild	Inhaled IL-15	70 mcg	Unlikely	Not Applicable	Unlikely	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-016		8/12/2020	No	8/19/2020	No	"Creatine phosphokinase (CPK), high"	Creatine Kinase	2	Moderate	Inhaled IL-15	70 mcg	Unlikely	Unrelated	Unrelated	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-016		9/2/2020	No		Yes	Alkaline Phosphatase	Alkaline Phosphatase	1	Mild	Inhaled IL-15	70 mcg	Unrelated	Unrelated	Unlikely	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-016		9/2/2020	No		Yes	"Albumin, low"	"Albumin, Low"	1	Mild	Inhaled IL-15	70 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Unlikely			
+adverse_event	PRECINCT01-UCD-IL15-016		9/2/2020	No		Yes	"Neoplasms Benign, Malignant and Unspecified"	Neoplasm benign	2	Moderate	Inhaled IL-15	70 mcg	Unrelated	Unrelated	Definite	Not Applicable	Unrelated			
+adverse_event	PRECINCT01-UCD-IL15-016		9/2/2020	No	9/3/2020	No	Vomiting	Vomiting	1	Mild	Inhaled IL-15	70 mcg	Unrelated	Unrelated	Unlikely	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-016		9/11/2020	No		Yes	Packed cell volume (PCV)	Packed cell volume	1	Mild	Inhaled IL-15	70 mcg	Unlikely	Not Applicable	Possible	Not Applicable	Possible			
+adverse_event	PRECINCT01-UCD-IL15-016		9/11/2020	No		Yes	"Blood/Bone Marrow, Other"	Left Shift	1	Mild	Inhaled IL-15	70 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Unrelated			
+adverse_event	PRECINCT01-UCD-IL15-016		9/11/2020	No		Yes	"Blood/Bone Marrow, Other"	Lymphopenia	1	Mild	Inhaled IL-15	70 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Possible			
+adverse_event	PRECINCT01-UCD-IL15-016		9/11/2020	No		Yes	"Blood/Bone Marrow, Other"	Monocytosis	1	Mild	Inhaled IL-15	70 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Possible			
+adverse_event	PRECINCT01-UCD-IL15-016		9/11/2020	No		Yes	"Blood/Bone Marrow, Other"	Thromboytosis	1	Mild	Inhaled IL-15	70 mcg	Unlikely	Not Applicable	Possible	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-016		9/11/2020	No		Yes	"Coagulation, Other"	Increased MPV	1	Mild	Inhaled IL-15	70 mcg	Unlikely	Not Applicable	Possible	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-016		9/11/2020	No		Yes	"Blood/Bone Marrow, Other"	Increased AG	1	Mild	Inhaled IL-15	70 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-016		9/11/2020	No		Yes	"Metabolic/Laboratory, Other"	Hypoprotenemia	1	Mild	Inhaled IL-15	70 mcg	Unlikely	Not Applicable	Unlikely	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-016		9/11/2020	No		Yes	"Metabolic/Laboratory, Other"	Decreased Bicarbonate	1	Mild	Inhaled IL-15	70 mcg	Unlikely	Not Applicable	Possible	Not Applicable	Possible			
+adverse_event	PRECINCT01-UCD-IL15-016		9/11/2020	No		Yes	"Calcium, low"	"calcium, low"	1	Mild	Inhaled IL-15	70 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Possible			
+adverse_event	PRECINCT01-UCD-IL15-016		9/11/2020	No		Yes	"Glucose, low"	"Glucose, Low"	1	Mild	Inhaled IL-15	70 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-016		9/11/2020	No		Yes	Alkalosis	Alkalosis	1	Mild	Inhaled IL-15	70 mcg	Unrelated	Not Applicable	Probable	Not Applicable	Possible			
+adverse_event	PRECINCT01-UCD-IL15-016		9/11/2020	No		Yes	"Blood/Bone Marrow, Other"	Hypocalpnia	3	Severe	Inhaled IL-15	70 mcg	Unrelated	Not Applicable	Probable	Not Applicable	Possible			
+adverse_event	PRECINCT01-UCD-IL15-016		9/11/2020	No		Yes	"Blood/Bone Marrow, Other"	Hypoxemia	4	Life-threatening	Inhaled IL-15	70 mcg	Unrelated	Not Applicable	Definite	Not Applicable	Possible			
+adverse_event	PRECINCT01-UCD-IL15-016		9/11/2020	No		Yes	"Blood/Bone Marrow, Other"	Low Base deficit	2	Moderate	Inhaled IL-15	70 mcg	Unrelated	Not Applicable	Probable	Not Applicable	Possible			
+adverse_event	PRECINCT01-UCD-IL15-016		9/11/2020	No		No	"Sexual/Reproductive Function, Other"	"Lactate, high"	1	Mild	Inhaled IL-15	70 mcg	Unrelated	Not Applicable	Probable	Not Applicable	Unlikely			
+adverse_event	PRECINCT01-UCD-IL15-016		9/11/2020	No		Yes	"Musculoskeletal/Soft Tissue, Other"	Soft tissue other	3	Severe	Inhaled IL-15	70 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Unrelated			
+adverse_event	PRECINCT01-UCD-IL15-017		9/4/2020	No		Yes	"Albumin, low"	"Albumin, Low"	1	Mild	Inhaled IL-15	70 mcg	Unrelated	Not Applicable	Possible	Not Applicable	Unlikely			
+adverse_event	PRECINCT01-UCD-IL15-017		9/9/2020	No	10/23/2020	No	Anorexia	Decreased Appetite (Anorxia)	1	Mild	Inhaled IL-15	70 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Possible			
+adverse_event	PRECINCT01-UCD-IL15-017		9/10/2020	No	9/14/2020	No	Lymph leakage/lymphedema	Lymph Leakage	2	Moderate	Inhaled IL-15	70 mcg	Unlikely	Not Applicable	Possible	Not Applicable	Unrelated			
+adverse_event	PRECINCT01-UCD-IL15-017		9/11/2020	No	9/18/2020	No	"Blood/Bone Marrow, Other"	leukoaytosis	1	Mild	Inhaled IL-15	70 mcg	Unlikely	Not Applicable	Possible	Not Applicable	Unrelated			
+adverse_event	PRECINCT01-UCD-IL15-017		9/11/2020	No	9/14/2020	No	"Blood/Bone Marrow, Other"	Left Shift	1	Mild	Inhaled IL-15	70 mcg	Unlikely	Not Applicable	Possible	Not Applicable	Unrelated			
+adverse_event	PRECINCT01-UCD-IL15-017		9/11/2020	No	9/14/2020	No	"Sodium, low"	"Sodium, Low"	1	Mild	Inhaled IL-15	70 mcg	Unlikely	Not Applicable	Unlikely	Not Applicable	Possible			
+adverse_event	PRECINCT01-UCD-IL15-017		9/11/2020	No	9/15/2020	No	"Metabolic/Laboratory, Other"	"Chloride, Low"	1	Mild	Inhaled IL-15	70 mcg	Unlikely	Not Applicable	Unlikely	Not Applicable	Possible			
+adverse_event	PRECINCT01-UCD-IL15-017		9/11/2020	No	9/14/2020	No	"Blood/Bone Marrow, Other"	"Globulin, High"	1	Mild	Inhaled IL-15	70 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Unrelated			
+adverse_event	PRECINCT01-UCD-IL15-017		9/11/2020	No	9/14/2020	No	Alkaline Phosphatase	Alkaline Phosphatase	1	Mild	Inhaled IL-15	70 mcg	Unlikely	Not Applicable	Possible	Not Applicable	Unrelated			
+adverse_event	PRECINCT01-UCD-IL15-017		9/11/2020	No	9/14/2020	No	"Blood/Bone Marrow, Other"	Thromboytosis	1	Mild	Inhaled IL-15	70 mcg	Unrelated	Not Applicable	Unlikely	Not Applicable	Possible			
+adverse_event	PRECINCT01-UCD-IL15-017		9/14/2020	No	9/18/2020	No	"Blood/Bone Marrow, Other"	Left Shift	3	Severe	Inhaled IL-15	70 mcg	Unlikely	Not Applicable	Possible	Not Applicable	Unrelated			
+adverse_event	PRECINCT01-UCD-IL15-017		9/14/2020	No	9/15/2020	No	"Metabolic/Laboratory, Other"	"Bicarbonate, low"	1	Mild	Inhaled IL-15	70 mcg	Unrelated	Not Applicable	Possible	Not Applicable	Possible			
+adverse_event	PRECINCT01-UCD-IL15-017		9/14/2020	No		Yes	"Calcium, low"	"calcium, low"	1	Mild	Inhaled IL-15	70 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Possible			
+adverse_event	PRECINCT01-UCD-IL15-017		9/14/2020	No	9/15/2020	No	BUN	Bun	1	Mild	Inhaled IL-15	70 mcg	Unlikely	Not Applicable	Possible	Not Applicable	Possible			
+adverse_event	PRECINCT01-UCD-IL15-017		9/14/2020	No	9/15/2020	No	Acute kidney injury	Acute Kidney injury	1	Mild	Inhaled IL-15	70 mcg	Unlikely	Not Applicable	Possible	Not Applicable	Unlikely			
+adverse_event	PRECINCT01-UCD-IL15-017		9/14/2020	No	9/18/2020	No	"Metabolic/Laboratory, Other"	Hypoprotenemia	1	Mild	Inhaled IL-15	70 mcg	Unlikely	Not Applicable	Possible	Not Applicable	Possible			
+adverse_event	PRECINCT01-UCD-IL15-017		9/14/2020	No	9/18/2020	No	"Aspartate aminotransferase (AST), high"	AST	1	Mild	Inhaled IL-15	70 mcg	Unlikely	Not Applicable	Unlikely	Not Applicable	Unlikely			
+adverse_event	PRECINCT01-UCD-IL15-017		9/14/2020	No	9/18/2020	No	Alkaline Phosphatase	Alkaline Phosphatase	3	Severe	Inhaled IL-15	70 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Unlikely			
+adverse_event	PRECINCT01-UCD-IL15-017		9/14/2020	No	9/18/2020	No	"Blood/Bone Marrow, Other"	"Cholesterol, high"	1	Mild	Inhaled IL-15	70 mcg	Unlikely	Not Applicable	Unlikely	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-017		9/14/2020	No	9/18/2020	No	"Blood/Bone Marrow, Other"	Bilirubin	1	Mild	Inhaled IL-15	70 mcg	Unlikely	Not Applicable	Possible	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-017		9/14/2020	No	9/18/2020	No	"Musculoskeletal/Soft Tissue, Other"	Soft tissue other	3	Severe	Inhaled IL-15	70 mcg	Undefined	Not Applicable	Probable	Not Applicable	Possible			
+adverse_event	PRECINCT01-UCD-IL15-017		9/14/2020	No	9/18/2020	No	Lymph leakage/lymphedema	Lymph Leakage	3	Severe	Inhaled IL-15	70 mcg	Unrelated	Not Applicable	Probable	Not Applicable	Possible			
+adverse_event	PRECINCT01-UCD-IL15-017		9/14/2020	No		Yes	Proteinuria	Protein in Urine	1	Mild	Inhaled IL-15	70 mcg	Unrelated	Not Applicable	Unlikely	Not Applicable	Unlikely			
+adverse_event	PRECINCT01-UCD-IL15-017		9/14/2020	No	9/15/2020	No	"Potassium, high"	Hyperkalemia	1	Mild	Inhaled IL-15	70 mcg	Unrelated	Not Applicable	Unlikely	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-017		9/14/2020	No	9/14/2020	No	"Creatinine, high"	Creatanine	2	Moderate	Inhaled IL-15	70 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Possible			
+adverse_event	PRECINCT01-UCD-IL15-017		9/15/2020	No	9/15/2020	No	"Glucose, low"	"Glucose, Low"	1	Mild	Inhaled IL-15	70 mcg	Unlikely	Not Applicable	Possible	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-017		9/15/2020	No	9/18/2020	No	"Glucose, high"	"Glucose, high"	1	Mild	Inhaled IL-15	70 mcg	Unrelated	Not Applicable	Unlikely	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-017		9/18/2020	No		Yes	Packed cell volume (PCV)	Packed all volume	1	Mild	Inhaled IL-15	70 mcg	Unlikely	Not Applicable	Unlikely	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-017		9/18/2020	No	9/24/2020	No	Alkaline Phosphatase	Alkaline Phosphatase	2	Moderate	Inhaled IL-15	70 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Unlikely			
+adverse_event	PRECINCT01-UCD-IL15-017		9/18/2020	No	9/24/2020	No	"Musculoskeletal/Soft Tissue, Other"	Soft tissue other	1	Mild	Inhaled IL-15	70 mcg	Unrelated	Not Applicable	Probable	Not Applicable	Possible			
+adverse_event	PRECINCT01-UCD-IL15-017		9/18/2020	No	9/24/2020	No	Lymph leakage/lymphedema	Lymph Leakage	1	Mild	Inhaled IL-15	70 mcg	Unrelated	Not Applicable	Probable	Not Applicable	Possible			
+adverse_event	PRECINCT01-UCD-IL15-017		9/18/2020	No	9/24/2020	No	"Phosphorous, high"	Phosphorous high	1	Mild	Inhaled IL-15	70 mcg	Undefined	Not Applicable	Unlikely	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-017		9/18/2020	No	9/24/2020	No	"Creatinine, high"	Creatanine	1	Mild	Inhaled IL-15	70 mcg	Unrelated	Not Applicable	Unlikely	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-017		9/18/2020	No		Yes	Haemoglobin	Hemoglobin	1	Mild	Inhaled IL-15	70 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Unrelated			
+adverse_event	PRECINCT01-UCD-IL15-017		9/18/2020	No		Yes	"Albumin, low"	Hypoalbuminemia	1	Mild	Inhaled IL-15	70 mcg	Unrelated	Not Applicable	Probable	Not Applicable	Unrelated			
+adverse_event	PRECINCT01-UCD-IL15-017		9/18/2020	No	9/24/2020	No	Acute kidney injury	AKI	2	Moderate	Inhaled IL-15	70 mcg	Unlikely	Not Applicable	Possible	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-017		9/19/2020	No	9/24/2020	No	"Potassium, high"	"Potassium, high"	3	Severe	Inhaled IL-15	70 mcg	Unrelated	Not Applicable	Unlikely	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-017		9/24/2020	No	10/23/2020	No	"Blood/Bone Marrow, Other"	Thromboytosis	1	Mild	Inhaled IL-15	70 mcg	Unrelated	Not Applicable	Unlikely	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-017		9/24/2020	No		Yes	"Sodium, low"	"Sodium, low"	1	Mild	Inhaled IL-15	70 mcg	Unlikely	Not Applicable	Unlikely	Not Applicable	Possible			
+adverse_event	PRECINCT01-UCD-IL15-017		9/24/2020	No		Yes	"Potassium, low"	"Potassium, high"	1	Mild	Inhaled IL-15	70 mcg	Unrelated	Not Applicable	Unlikely	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-017		9/24/2020	No		Yes	Alkaline Phosphatase	Alkaline Phosphatase	1	Mild	Inhaled IL-15	70 mcg	Unlikely	Not Applicable	Possible	Not Applicable	Unlikely			
+adverse_event	PRECINCT01-UCD-IL15-017		9/24/2020	No		Yes	"Metabolic/Laboratory, Other"	Magnesium	1	Mild	Inhaled IL-15	70 mcg	Unlikely	Not Applicable	Unlikely	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-018			Yes	9/28/2020	No	"Alkaline phosphatase (ALP), high"	ALP	1	Mild	Inhaled IL-15	70 mcg	Unrelated	Unrelated	Unlikely	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-018			Yes		Yes	"Blood/Bone Marrow, Other"	RDW	1	Mild	Inhaled IL-15	70 mcg	Unrelated	Unrelated	Possible	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-018		9/8/2020	No	9/21/2020	No	BUN	BUN	1	Mild	Inhaled IL-15	70 mcg	Unrelated	Unrelated	Possible	Not Applicable	Possible			
+adverse_event	PRECINCT01-UCD-IL15-018		9/11/2020	No	9/14/2020	No	"Calcium, high"	hypercelcemiz	1	Mild	Inhaled IL-15	70 mcg	Unrelated	Unrelated	Unlikely	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-018		9/14/2020	No	9/21/2020	No	"Blood/Bone Marrow, Other"	Left Shift	1	Mild	Inhaled IL-15	70 mcg	Unrelated	Unrelated	Unlikely	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-018		9/14/2020	No		Yes	"Blood/Bone Marrow, Other"	Lymphopenia	1	Mild	Inhaled IL-15	70 mcg	Unrelated	Unrelated	Unlikely	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-018		9/14/2020	No	9/21/2020	No	"Metabolic/Laboratory, Other"	"Total protein, high"	1	Mild	Inhaled IL-15	70 mcg	Unrelated	Unrelated	Unlikely	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-018		9/14/2020	No	9/21/2020	No	"Blood/Bone Marrow, Other"	Hemolysis	1	Mild	Inhaled IL-15	70 mcg	Unrelated	Unrelated	Unrelated	Not Applicable	Definite			
+adverse_event	PRECINCT01-UCD-IL15-018		9/14/2020	No	10/12/2020	No	"Blood/Bone Marrow, Other"	Lipemic	1	Mild	Inhaled IL-15	70 mcg	Unrelated	Unrelated	Unlikely	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-018		9/21/2020	No	9/28/2020	No	"Blood/Bone Marrow, Other"	Leukopenia	1	Mild	Inhaled IL-15	70 mcg	Unrelated	Not Applicable	Unlikely	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-018		9/28/2020	No	10/12/2020	No	"Alanine aminotransferase (ALT), high"	ALT	1	Mild	Inhaled IL-15	70 mcg	Unlikely	Not Applicable	Possible	Not Applicable	Unlikely			
+adverse_event	PRECINCT01-UCD-IL15-018		9/28/2020	No		Yes	Alkaline Phosphatase	Alkaline Phosphatase	2	Moderate	Inhaled IL-15	70 mcg	Unlikely	Not Applicable	Possible	Not Applicable	Unlikely			
+adverse_event	PRECINCT01-UCD-IL15-018		9/28/2020	No		Yes	"Metabolic/Laboratory, Other"	Magnesium	1	Mild	Inhaled IL-15	70 mcg	Unlikely	Not Applicable	Unlikely	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-019			Yes	9/23/2020	No	Packed cell volume (PCV)	Packed all volume	1	Mild	Inhaled IL-15	70 mcg	Unrelated	Unrelated	Possible	Not Applicable	Possible	Chronic Inflammation		
+adverse_event	PRECINCT01-UCD-IL15-019			Yes	9/23/2020	No	"Blood/Bone Marrow, Other"	Left Shift	1	Mild	Inhaled IL-15	70 mcg	Unrelated	Unrelated	Possible	Not Applicable	Probable	Stress leukogram		
+adverse_event	PRECINCT01-UCD-IL15-019			Yes		No	"Blood/Bone Marrow, Other"	Lymphopenia	1	Mild	Inhaled IL-15	70 mcg	Unrelated	Unrelated	Possible	Not Applicable	Probable	Stress leukogram		
+adverse_event	PRECINCT01-UCD-IL15-019			Yes		No	"Alanine aminotransferase (ALT), high"	ALT	1	Mild	Inhaled IL-15	70 mcg	Unrelated	Unrelated	Unlikely	Not Applicable	Probable	hepatopathy		
+adverse_event	PRECINCT01-UCD-IL15-019			Yes	9/9/2020	No	Alkaline Phosphatase	Alkaline Phosphatase	1	Mild	Inhaled IL-15	70 mcg	Unrelated	Unrelated	Unlikely	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-020		11/24/2020	No	12/8/2020	No	"Blood/Bone Marrow, Other"	Anemia	1	Mild	Inhaled IL-15	70 mcg	Unrelated	Unrelated	Possible	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-020		12/1/2020	No		Yes	"Neoplasms Benign, Malignant and Unspecified"	Neoplasm benign	2	Moderate	Inhaled IL-15	70 mcg	Unrelated	Unrelated	Definite	Not Applicable	Unrelated			
+adverse_event	PRECINCT01-UCD-IL15-020		12/22/2020	No		Yes	"Albumin, low"	Hypoalbuminemia	1	Mild	Inhaled IL-15	70 mcg	Unlikely	Not Applicable	Unlikely	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-021			Yes		Yes	Packed cell volume (PCV)	Packed all volume	1	Mild	Inhaled IL-15	70 mcg	Unrelated	Unrelated	Possible	Not Applicable	Possible			
+adverse_event	PRECINCT01-UCD-IL15-021			Yes		Yes	"Blood/Bone Marrow, Other"	Reticuloutosis	1	Mild	Inhaled IL-15	70 mcg	Unrelated	Unrelated	Possible	Not Applicable	Possible			
+adverse_event	PRECINCT01-UCD-IL15-021			Yes	12/9/2020	No	"Blood/Bone Marrow, Other"	Leukocytosis with left shift	1	Mild	Inhaled IL-15	70 mcg	Unrelated	Unrelated	Probable	Not Applicable	Unlikely			
+adverse_event	PRECINCT01-UCD-IL15-021			Yes		Yes	"Blood/Bone Marrow, Other"	Monocytosis	1	Mild	Inhaled IL-15	70 mcg	Unrelated	Unrelated	Probable	Not Applicable	Unlikely			
+adverse_event	PRECINCT01-UCD-IL15-021			Yes		Yes	"Aspartate aminotransferase (AST), high"	AST	1	Mild	Inhaled IL-15	70 mcg	Unrelated	Unrelated	Possible	Not Applicable	Possible			
+adverse_event	PRECINCT01-UCD-IL15-021			Yes		Yes	"Creatine phosphokinase (CPK), high"	Creatine Kinase	1	Mild	Inhaled IL-15	70 mcg	Unrelated	Unrelated	Unlikely	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-021			Yes	10/9/2020	No	Alkaline Phosphatase	Alkaline Phosphatase	1	Mild	Inhaled IL-15	70 mcg	Unrelated	Unrelated	Probable	Not Applicable	Unlikely			
+adverse_event	PRECINCT01-UCD-IL15-021			No		Yes	"Musculoskeletal/Soft Tissue, Other"	musculoskelekul	2	Moderate	Inhaled IL-15	70 mcg	Unrelated	Unrelated	Definite	Not Applicable	Unrelated			
+adverse_event	PRECINCT01-UCD-IL15-021			Yes	12/16/2020	No	"Blood/Bone Marrow, Other"	High AG	1	Mild	Inhaled IL-15	70 mcg	Unrelated	Unrelated	Unlikely	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-021			Yes		Yes	"Metabolic/Laboratory, Other"	Low Bicarbonate	1	Mild	Inhaled IL-15	70 mcg	Unrelated	Unrelated	Unlikely	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-021			Yes		Yes	BUN	Low Bun	1	Mild	Inhaled IL-15	70 mcg	Unrelated	Unrelated	Unlikely	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-021			Yes		Yes	"Metabolic/Laboratory, Other"	Low creatinine	1	Mild	Inhaled IL-15	70 mcg	Unrelated	Unrelated	Unlikely	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-021			Yes		Yes	"Alanine aminotransferase (ALT), high"	"ALT, low"	1	Mild	Inhaled IL-15	70 mcg	Unrelated	Unrelated	Unrelated	Not Applicable	Probable			
+adverse_event	PRECINCT01-UCD-IL15-021			Yes		Yes	Haemoglobin	"Hemoglobin, low"	1	Mild	Inhaled IL-15	70 mcg	Unrelated	Unrelated	Possible	Not Applicable	Possible			
+adverse_event	PRECINCT01-UCD-IL15-021			Yes	12/16/2020	No	"Blood/Bone Marrow, Other"	RDW	1	Mild	Inhaled IL-15	70 mcg	Unrelated	Unrelated	Possible	Not Applicable	Possible			
+adverse_event	PRECINCT01-UCD-IL15-021			Yes	12/16/2020	No	"Blood/Bone Marrow, Other"	"nRBC, high"	1	Mild	Inhaled IL-15	70 mcg	Unrelated	Unrelated	Possible	Not Applicable	Possible			
+adverse_event	PRECINCT01-UCD-IL15-021		12/9/2020	No		Yes	Alkaline Phosphatase	Alkaline Phosphatase	2	Moderate	Inhaled IL-15	70 mcg	Unrelated	Not Applicable	Probable	Not Applicable	Unlikely			
+adverse_event	PRECINCT01-UCD-IL15-021		12/9/2020	No		Yes	"Blood/Bone Marrow, Other"	Leukoytosis	1	Mild	Inhaled IL-15	70 mcg	Unrelated	Unrelated	Probable	Not Applicable	Unlikely			
+adverse_event	PRECINCT01-UCD-IL15-021		12/16/2020	No		Yes	"Blood/Bone Marrow, Other"	Left shift	1	Mild	Inhaled IL-15	70 mcg	Unrelated	Unrelated	Probable	Not Applicable	Unlikely			
+adverse_event	PRECINCT01-UCD-IL15-021		12/16/2020	No	12/30/2020	No	"Phosphorous, low"	"Phosyphorous, low"	1	Mild	Inhaled IL-15	70 mcg	Unlikely	Not Applicable	Probable	Not Applicable	Unlikely			
+adverse_event	PRECINCT01-UCD-IL15-021		12/30/2020	No		Yes	Cough	Coughing	2	Moderate	Inhaled IL-15	70 mcg	Unrelated	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-021		12/30/2020	No		Yes	"Pulmonary/Respiratory, Other"	Hemoptysis	1	Mild	Inhaled IL-15	70 mcg	Unrelated	Not Applicable	Probable	Not Applicable	Undefined			
+adverse_event	PRECINCT01-UCD-IL15-021		12/30/2020	No		Yes	"Appetite, altered"	Altered appetite	1	Mild	Inhaled IL-15	70 mcg	Unrelated	Not Applicable	Probable	Not Applicable	Undefined			

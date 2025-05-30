@@ -1,0 +1,22 @@
+type	case.case_record_id	breed	additional_breed_detail	patient_age_at_enrollment	date_of_birth	sex	weight	neutered_indicator	demographic_record_id
+demographic	PRECINCT01-UCD-IL15-001	Golden Retriever		7.6	7/25/2011	Male	32.2	Yes	PRECINCT01-UCD-IL15-001
+demographic	PRECINCT01-UCD-IL15-002	Golden Retriever		11.1		Male	49	Yes	PRECINCT01-UCD-IL15-002
+demographic	PRECINCT01-UCD-IL15-003	Mixed Breed	Labrador mix	8.6		Female	47.6	Yes	PRECINCT01-UCD-IL15-003
+demographic	PRECINCT01-UCD-IL15-004	Golden Retriever		11		Female	28.25	Yes	PRECINCT01-UCD-IL15-004
+demographic	PRECINCT01-UCD-IL15-005	Mixed Breed	Shepherd mix	12.3		Female	23.4	Yes	PRECINCT01-UCD-IL15-005
+demographic	PRECINCT01-UCD-IL15-006	Mixed Breed	Shepherd mix	11.3		Female	21.2	Yes	PRECINCT01-UCD-IL15-006
+demographic	PRECINCT01-UCD-IL15-007	Boxer		7.5	1/15/2012	Male	29.6	Yes	PRECINCT01-UCD-IL15-007
+demographic	PRECINCT01-UCD-IL15-008	Greyhound		13.7	11/1/2005	Female	21.3	Yes	PRECINCT01-UCD-IL15-008
+demographic	PRECINCT01-UCD-IL15-009	German Shorthaired Pointer		12.8	1/1/2007	Female	34.2	Yes	PRECINCT01-UCD-IL15-009
+demographic	PRECINCT01-UCD-IL15-010	Golden Retriever		10.8		Female	24.9	Yes	PRECINCT01-UCD-IL15-010
+demographic	PRECINCT01-UCD-IL15-011	Mixed Breed	Border collie mix	12.3	9/21/2007	Male	27.9	Yes	PRECINCT01-UCD-IL15-011
+demographic	PRECINCT01-UCD-IL15-012	Irish Water Spaniel		9.7	4/24/2010	Male	26.6	No	PRECINCT01-UCD-IL15-012
+demographic	PRECINCT01-UCD-IL15-013	Mixed Breed	Pit bull mix	11.1		Male	35.4	Yes	PRECINCT01-UCD-IL15-013
+demographic	PRECINCT01-UCD-IL15-014	Labrador Retriever		12.6	8/1/2007	Female	38.6	Yes	PRECINCT01-UCD-IL15-014
+demographic	PRECINCT01-UCD-IL15-015	Mixed Breed		11.6		Female	32.4	Yes	PRECINCT01-UCD-IL15-015
+demographic	PRECINCT01-UCD-IL15-016	Mixed Breed		8.5		Male	46.6	Yes	PRECINCT01-UCD-IL15-016
+demographic	PRECINCT01-UCD-IL15-017	Doberman Pinscher		9.7		Male	36	Yes	PRECINCT01-UCD-IL15-017
+demographic	PRECINCT01-UCD-IL15-018	Mixed Breed	Terrier mix	12.7		Female	21.4	Yes	PRECINCT01-UCD-IL15-018
+demographic	PRECINCT01-UCD-IL15-019	Mixed Breed		13.8	3/31/2007	Male	8.65	Yes	PRECINCT01-UCD-IL15-019
+demographic	PRECINCT01-UCD-IL15-020	Labrador Retriever		12.7		Male	34.5	Yes	PRECINCT01-UCD-IL15-020
+demographic	PRECINCT01-UCD-IL15-021	Belgian Sheepdog		3		Male	24.55	No	PRECINCT01-UCD-IL15-021
