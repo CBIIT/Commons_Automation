@@ -6,11 +6,15 @@
    <elementGuidId>469c6b8b-69f1-469a-9fbe-79a73ecfafb2</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;checkbox_File Type_GCT/RES FORMAT&quot;]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//*[@id=&quot;checkbox_File Type_GCT/RES FORMAT&quot;]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -19,6 +23,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;checkbox_File Type_GCT/RES FORMAT&quot;]</value>
-      <webElementGuid>7a92c9df-a84f-46ed-b3ff-33140f9dd393</webElementGuid>
+      <webElementGuid>0931915f-db51-4384-a9b8-305be9653e30</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

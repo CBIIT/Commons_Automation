@@ -6,11 +6,16 @@
    <elementGuidId>5e0baef4-eaef-4e2f-a1a9-7f6a843c3fcd</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;checkbox_File Type_FASTQ&quot;]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//*[@id=&quot;checkbox_File Type_FASTQ&quot;]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -18,6 +23,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;checkbox_File Type_FASTQ&quot;]</value>
-      <webElementGuid>535fff3e-23b4-43ab-a6dc-4e18eaf830e2</webElementGuid>
+      <webElementGuid>d1308aab-e90b-459d-8b4c-ce632081cb9b</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

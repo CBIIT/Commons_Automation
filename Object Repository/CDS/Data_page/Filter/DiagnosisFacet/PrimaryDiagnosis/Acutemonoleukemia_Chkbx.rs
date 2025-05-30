@@ -6,11 +6,16 @@
    <elementGuidId>93fd6634-5f51-4679-830b-b76ac50322be</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;checkbox_PRIMARY DIAGNOSIS_Acute monoblastic leukemia&quot;]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//*[@id=&quot;checkbox_PRIMARY DIAGNOSIS_Acute monoblastic leukemia&quot;]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -18,6 +23,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;checkbox_PRIMARY DIAGNOSIS_Acute monoblastic leukemia&quot;]</value>
-      <webElementGuid>f27c97be-4453-4432-a325-dbd3f28aea79</webElementGuid>
+      <webElementGuid>7335a769-3984-4da3-bac1-617527df7c3a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

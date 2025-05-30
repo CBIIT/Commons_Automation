@@ -6,11 +6,15 @@
    <elementGuidId>f10e0ae8-f891-4011-a638-ba9bc896c15f</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;checkbox_Primary Diagnosis_Astrocytoma&quot;]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//*[@id=&quot;checkbox_Primary Diagnosis_Astrocytoma&quot;]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -19,6 +23,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;checkbox_Primary Diagnosis_Astrocytoma&quot;]</value>
-      <webElementGuid>e2afc559-bebf-4c06-bc25-57ec09e8e34c</webElementGuid>
+      <webElementGuid>c6d1fe1f-e905-412b-80e7-95bfd742d3cf</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
