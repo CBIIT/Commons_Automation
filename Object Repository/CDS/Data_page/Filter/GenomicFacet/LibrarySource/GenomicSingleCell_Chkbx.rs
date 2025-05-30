@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_library source_Genomic Single Cell&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Library Source Material_Single-cells&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_library source_Genomic Single Cell&quot;]</value>
-      <webElementGuid>b204d2cd-110d-4a6b-9b0d-6edc32edbd6b</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Library Source Material_Single-cells&quot;]</value>
+      <webElementGuid>2eaa09ac-7c8a-4a6f-bade-2a63b90e44fa</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
