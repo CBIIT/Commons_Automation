@@ -6,11 +6,16 @@
    <elementGuidId>e2d770c7-ee72-48a7-b152-5c86abefae9c</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;checkbox_PRIMARY DIAGNOSIS_Acute myeloid leukemia, NOS&quot;]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//*[@id=&quot;checkbox_PRIMARY DIAGNOSIS_Acute myeloid leukemia, NOS&quot;]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -18,6 +23,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;checkbox_PRIMARY DIAGNOSIS_Acute myeloid leukemia, NOS&quot;]</value>
-      <webElementGuid>86966122-44f1-4d4d-9eca-2adcea2ce746</webElementGuid>
+      <webElementGuid>e550d846-589d-442b-8d7e-4c07f070a75b</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

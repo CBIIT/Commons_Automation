@@ -6,11 +6,15 @@
    <elementGuidId>1ea4006a-41aa-4bd8-872a-0197a7ff7cf8</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;checkbox_Primary Diagnosis_Control&quot;]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//*[@id=&quot;checkbox_Primary Diagnosis_Control&quot;]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -19,6 +23,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;checkbox_Primary Diagnosis_Control&quot;]</value>
-      <webElementGuid>0a2ad279-dd15-4e00-8dad-10a89a35880b</webElementGuid>
+      <webElementGuid>abc7ad67-ddbe-4033-b5a9-cdc364df5cba</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
