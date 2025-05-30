@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CDS_phs002305_SmpTumSta-Normal_SmpType-SolidTissueNormal_LibStr_WXS</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>29bba809-2187-4640-83b8-fb8afacf965a</testCaseGuid>
+</TestCaseEntity>

@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
  */
 WebUI.closeBrowser()
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC15_ICDC_GLIOMA01_FileFormat-tbi.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC79_ICDC_STS01_FileFormat-docx.xlsx')
 
 CustomKeywords.'utilities.TestRunner.clickTab'('Canine/Canine_PopUp_Continue_Btn')
 System.out.println ("Closed the popup window");
@@ -35,8 +35,8 @@ CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Canine/Filter/Study/Ca
 WebUI.waitForElementPresent(findTestObject('Canine/Filter/FileFormat/FILEFORMAT_Ddn'), 5)
 CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Canine/Filter/FileFormat/FILEFORMAT_Ddn')
 
-WebUI.verifyElementPresent(findTestObject('Canine/Filter/FileFormat/tbi_Chkbx'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('Canine/Filter/FileFormat/tbi_Chkbx')
+WebUI.verifyElementPresent(findTestObject('Canine/Filter/FileFormat/docx_Chkbx'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('Canine/Filter/FileFormat/docx_Chkbx')
 
 //Read Statbar
 CustomKeywords.'utilities.TestRunner.readStatBarCanine'('Canine/StatBar/Canine_StatBar-Programs','Canine/StatBar/Canine_StatBar-Studies',

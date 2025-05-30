@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
  */
 WebUI.closeBrowser()
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC08_ICDC_GLIOMA01_Sex-Female.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC36_ICDC_STS01_Sex-Female.xlsx')
 
 CustomKeywords.'utilities.TestRunner.clickTab'('Canine/Canine_PopUp_Continue_Btn')
 System.out.println ("Closed the popup window");
