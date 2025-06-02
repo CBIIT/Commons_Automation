@@ -46,4 +46,11 @@
       <testCaseId>Test Cases/CRDC_TestCases/Pbac/TC05_CRDC-PbacDefaultPermissions-User</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>da0ec3a0-56b7-4691-a3fd-553d86cb0234</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CRDC_TestCases/Pbac/TC06_CRDC-PbacCheckedPermissions-Fedlead</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
