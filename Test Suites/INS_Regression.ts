@@ -172,4 +172,18 @@
       <testCaseId>Test Cases/INS_TestCases/SpecialTopic/TC03_INS_SpecialTopic-HIV_AIDS</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>635ee619-d39d-4666-85d2-74de35213dad</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/INS_TestCases/DataSets/TC01_INS_DataSets_Repository-CEDCD</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a244c5b1-9477-4eac-adba-4469f98d0216</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/INS_TestCases/DataSets/TC02_INS_DataSets_Repository-dbGaP</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
