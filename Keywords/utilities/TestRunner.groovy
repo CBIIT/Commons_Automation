@@ -424,9 +424,9 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 
 		int rows_count = rows_table.size()
 		System.out.println("This is the size of the rows in the results table in first page: "+(rows_count))
-		String nxt_str=     givexpath(nxtb1)
+		String nxt_str= givexpath(nxtb1)
 		System.out.println("This is the value of the xpath of nextbtn : "+nxt_str)
-		nextButton = driver.findElement(By.xpath(nxt_str));
+		//nextButton = driver.findElement(By.xpath(nxt_str));
 		System.out.println("This is the value of the webelem next button from readcasestablekatalon method : "+nextButton)
 		System.out.println("This is the value of the hdr object: "+hdr1)
 		String hdr_str= givexpath(hdr1)
@@ -1102,14 +1102,10 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 					System.out.println("Table body data from current page is: " + wTableBodyData.get(index))
 				}
 				GlobalVariable.G_CaseData= wTableHdrData + wTableBodyData;
-				//System.out.println("This is the contents of globalvar G_casedata: " +GlobalVariable.G_CaseData)
 
-				//********************* CLICKING THE NEXT BUTTON IN RESULTS FOR NEXT PAGE *******************************
-				// add a counter for 10 inside this for limitting 100 records
-
+				nextButton = driver.findElement(By.xpath(nxt_str));
 				scrolltoViewjs(nextButton)   //added to address the unable to scroll into view issue/ another element obscures next button issue
 
-				//if (nextButton.getAttribute("class").contains("disabled")){
 				if (nextButton.getAttribute("disabled")){
 					break;
 				} else {
@@ -1864,7 +1860,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		WebUI.click(findTestObject('INS/DataSets/RowsPerPage-Dd'))
 		WebUI.click(findTestObject('INS/DataSets/RowPerPaDd-Value'))
 		Thread.sleep(1500);
-		uiDataRows.add(List.of("Title", "Source ID", "Primary Disease", "Participant Count", "Sample Count", "Description"));
+		uiDataRows.add(List.of("Title", "Source ID", "Primary Disease", "Sample Count"));
 
 		while (true) {
 			List<WebElement> cards = driver.findElements(By.xpath("//*[@class='container']"));
@@ -1873,13 +1869,13 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 				String title = safeText(card, ".//a[starts-with(@href, '#/dataset/')]");
 				String sourceId = safeText(card, ".//a[starts-with(@href, 'https://cedcd') or starts-with(@href, 'https://www.ncbi.nlm')]");
 				String primaryDisease = safeText(card, ".//*[@class='itemSpan']");
-				String participantCount = safeText(card, ".//*[@class='textSpan caseCountHighlight']");
+				//String participantCount = safeText(card, ".//*[@class='textSpan caseCountHighlight']");
 				String sampleCount = safeText(card, ".//*[@class='textSpan sampleCountHighlight']");
-				String description = safeText(card, ".//*[@class='textSpan']");
+				//String description = safeText(card, ".//*[@class='textSpan']");
 
 				System.out.println("Title is: "+ title + "\ndbGap Accession is: "+ sourceId + "\nPrimary Disease: "+ primaryDisease);
-				System.out.println("Participant Count: "+ participantCount + "\nSample Count: "+ sampleCount + "\nDescription is: "+ description);
-				uiDataRows.add(List.of(title, sourceId, primaryDisease, participantCount, sampleCount, description));
+				System.out.println("Sample Count: "+ sampleCount);
+				uiDataRows.add(List.of(title, sourceId, primaryDisease, sampleCount));
 			}
 
 			// Try clicking "Next"
@@ -1897,7 +1893,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 				e.printStackTrace();
 			}
 		}
-
+		
 		writeDataToExcel(uiDataRows);
 		Utils.compareSheets("WebDatasets","TsvDatasets");
 	}
