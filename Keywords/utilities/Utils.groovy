@@ -264,7 +264,7 @@ public class Utils {
 	 * @param neoSheetName
 	 */
 	@Keyword
-	public static void compareSheets(String webSheetName, String neoSheetName) {
+	public static void compareSheets(String webSheetName, String tsvSheetName) {
 
 		List<List<String>> UIData = new ArrayList<>();
 		List<List<String>> tsvData = new ArrayList<>();
@@ -273,15 +273,15 @@ public class Utils {
 		String UIfilename = GlobalVariable.G_WebExcel.toString();
 		String tsvFilename = GlobalVariable.G_ResultPath.toString();
 
-		System.out.println("This is  the  full UI file  path: " + UIfilename);
-		System.out.println("This is the full neo4j file path: " + tsvFilename);
+		System.out.println("This is the full UI   file path: " + UIfilename);
+		System.out.println("This is the full TSV  file path: " + tsvFilename);
 
 		// Read UI output excel
 		UIData = ReadExcel.readOutputExcel(UIfilename, webSheetName);
 		Collections.sort(UIData, new TestRunner());
 
 		// Read TSV or DB output excel
-		tsvData = ReadExcel.readOutputExcel(tsvFilename, neoSheetName);
+		tsvData = ReadExcel.readOutputExcel(tsvFilename, tsvSheetName);
 		Collections.sort(tsvData, new TestRunner());
 
 		System.out.println("This is the row size of the UIWeb Output data: " + UIData.size());
