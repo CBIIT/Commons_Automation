@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_CDS_phs002677_Sex_Male_RefGen_NA_Platform-NA_LibSrc-NA</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d6678804-aaf2-467f-9d7d-6aef3f03b5dd</testCaseGuid>
+</TestCaseEntity>

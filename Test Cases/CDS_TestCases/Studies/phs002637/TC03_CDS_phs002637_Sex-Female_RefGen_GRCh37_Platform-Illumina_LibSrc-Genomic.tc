@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_CDS_phs002637_Sex-Female_RefGen_GRCh37_Platform-Illumina_LibSrc-Genomic</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bb895c28-57a4-4df1-9347-a2a7f8eafa55</testCaseGuid>
+</TestCaseEntity>
