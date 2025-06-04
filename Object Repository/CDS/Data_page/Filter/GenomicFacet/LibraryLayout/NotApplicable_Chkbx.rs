@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>tsv-Chkbx</name>
+   <name>NotApplicable_Chkbx</name>
    <tag></tag>
-   <elementGuidId>ff6796c9-e2ea-40b2-8669-05da427a31d6</elementGuidId>
+   <elementGuidId>ef14f672-dfe2-4f0f-84f3-087c348307fb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;checkbox_File Type_TSV&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_File Type_TSV&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Library Layout_Not Applicable&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -22,7 +21,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_File Type_TSV&quot;]</value>
-      <webElementGuid>442389f4-abf5-41a1-a4db-6cab3c28c69e</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Library Layout_Not Applicable&quot;]</value>
+      <webElementGuid>c62a8a87-f620-4b54-9e21-7d799bb65907</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

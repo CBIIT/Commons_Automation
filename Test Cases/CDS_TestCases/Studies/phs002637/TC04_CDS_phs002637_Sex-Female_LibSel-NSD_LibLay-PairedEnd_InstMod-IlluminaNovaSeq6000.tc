@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_CDS_phs002637_Sex-Female_LibSel-NSD_LibLay-PairedEnd_InstMod-IlluminaNovaSeq6000</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b6985145-100a-45e0-b096-d68153679eda</testCaseGuid>
+</TestCaseEntity>
