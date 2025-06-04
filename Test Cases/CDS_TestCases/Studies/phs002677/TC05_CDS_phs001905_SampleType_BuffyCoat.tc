@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC05_CDS_phs001905_SampleType_BuffyCoat</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>07abb5e0-8e22-4fbe-83e8-a6691f6ef97c</testCaseGuid>
-</TestCaseEntity>
