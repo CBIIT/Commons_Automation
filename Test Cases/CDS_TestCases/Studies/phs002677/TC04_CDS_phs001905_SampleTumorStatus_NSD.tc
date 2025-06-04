@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC04_CDS_phs001905_SampleTumorStatus_NSD</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>86db6482-2a2e-4507-9a73-43c848a562de</testCaseGuid>
-</TestCaseEntity>
