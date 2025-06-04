@@ -419,7 +419,7 @@ public class Utils {
 	public static findFilterBySearch(String filter){
 		if(appKey.equals("CDS")) {
 			//PHS Accession dropdown
-			if (filter.contains("/StudyFacet/PHS_Accession/") && !filter.containsIgnoreCase("Ddn")) {
+			if (filter.contains("/StudyFacet/PHS_Accession/") && !filter.contains("Ddn")) {
 				String accession = extractFirstMatch(filter, "(phs\\d{6})")
 				if (accession != null) {
 					System.out.println("Searching for PHS Accession: " + accession)
@@ -430,7 +430,7 @@ public class Utils {
 				}
 			}
 			//File Type dropdown
-			else if (filter.contains("/FilesFacet/FileType/") && !filter.containsIgnoreCase("Ddn")){
+			else if (filter.contains("/FilesFacet/FileType/") && !filter.contains("Ddn")){
 				TestObject to = ObjectRepository.findTestObject(filter)
 				String xpath = getEffectiveXPath(to, filter)
 				String fileType = extractFirstMatch(xpath, 'checkbox_File Type_([^"]+)')
@@ -443,7 +443,7 @@ public class Utils {
 				}
 			}
 			//Primary Diagnosis dropdown
-			else if (filter.contains("/DiagnosisFacet/PrimaryDiagnosis/") && !filter.containsIgnoreCase("Ddn")) {
+			else if (filter.contains("/DiagnosisFacet/PrimaryDiagnosis/") && !filter.contains("Ddn")) {
 				TestObject to = ObjectRepository.findTestObject(filter)
 				String xpath = getEffectiveXPath(to, filter)
 				String primaryDiagnosis = extractFirstMatch(xpath, '_([^"_]+)"\\]$')
