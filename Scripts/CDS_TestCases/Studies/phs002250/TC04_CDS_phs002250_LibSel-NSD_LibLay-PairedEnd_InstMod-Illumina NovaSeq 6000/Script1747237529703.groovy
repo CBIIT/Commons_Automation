@@ -39,8 +39,8 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filt
 CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/GenomicFacet/LibrarySelection/LibrarySelection_Ddn')
 
 //Clicking Random checkbox
-WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/GenomicFacet/LibrarySelection/NotSpecifiedinData_Chkbx'),5)
-CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/GenomicFacet/LibrarySelection/NotSpecifiedinData_Chkbx')
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/GenomicFacet/LibrarySelection/NotspecifiedinData_Chkbx'),5)
+CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/GenomicFacet/LibrarySelection/NotspecifiedinData_Chkbx')
 
 //Clicking Library layout dropdown
 WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/GenomicFacet/LibraryLayout/LibraryLayout_Ddn'),5)
