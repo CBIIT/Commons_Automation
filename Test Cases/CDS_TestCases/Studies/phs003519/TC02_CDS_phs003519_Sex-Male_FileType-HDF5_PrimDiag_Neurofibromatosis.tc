@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_CDS_phs003519_Sex-Male_FileType-HDF5_PrimDiag_Neurofibromatosis</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>514e1318-e4b5-4c52-8d91-b4763e937209</testCaseGuid>
+</TestCaseEntity>
