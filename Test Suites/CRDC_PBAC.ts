@@ -53,4 +53,67 @@
       <testCaseId>Test Cases/CRDC_TestCases/Pbac/TC06_CRDC-PbacCheckedPermissions-Fedlead</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>137135bb-152c-493a-b4e9-f5afdce1c013</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CRDC_TestCases/Pbac/TC07_CRDC-PbacCheckedPermissions-Dcp</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b8096f44-9a89-4620-9950-42f28a085a6b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CRDC_TestCases/Pbac/TC09_CRDC-PbacCheckedPermissions-Submitter</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f436fe66-da7b-4468-832e-d80dd8ce3e84</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CRDC_TestCases/Pbac/TC08_CRDC-PbacCheckedPermissions-Admin</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c18ea7c5-09d5-4171-a893-7adef073f03e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CRDC_TestCases/Pbac/TC10_CRDC-PbacCheckedPermissions-User</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>49f74ff8-2017-4777-ad35-950760197e6b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CRDC_TestCases/Pbac/TC11_CRDC-PbacUncheckedPermissions-Fedlead</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9cece3d5-3234-476a-82d7-35711e37a010</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CRDC_TestCases/Pbac/TC15_CRDC-PbacUncheckedPermissions-User</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fad25cd0-d382-44ea-9689-9a0fe1bb53a7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CRDC_TestCases/Pbac/TC14_CRDC-PbacUncheckedPermissions-Submitter</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cd47d005-5cea-419f-b7d5-7d4f230a16f2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CRDC_TestCases/Pbac/TC13_CRDC-PbacUncheckedPermissions-Admin</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>932bbde6-3331-458f-87b1-9b8bd45ed6c3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CRDC_TestCases/Pbac/TC12_CRDC-PbacUncheckedPermissions-Dcp</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

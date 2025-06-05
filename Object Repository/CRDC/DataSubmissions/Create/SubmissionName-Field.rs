@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ContactLink</name>
+   <name>SubmissionName-Field</name>
    <tag></tag>
-   <elementGuidId>3c6af0ff-812a-4df9-a8b7-2dc4e1502038</elementGuidId>
+   <elementGuidId>24de9ad0-1b91-4dc9-94ac-c764851d1bdd</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[@href='mailto:type: email NCICRDC@mail.nih.gov']</value>
+         <value>//*[@data-testid='create-data-submission-dialog-submission-name-input']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[@href='mailto:type: email NCICRDC@mail.nih.gov']</value>
-      <webElementGuid>cb7f5932-d0d3-4f2e-990c-ca62bf7adf0c</webElementGuid>
+      <value>//*[@data-testid='create-data-submission-dialog-submission-name-input']</value>
+      <webElementGuid>3d8efda9-866b-4ab2-b5fc-073440468700</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

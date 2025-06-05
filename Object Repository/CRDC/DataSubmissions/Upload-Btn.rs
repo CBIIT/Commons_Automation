@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ContactLink</name>
+   <name>Upload-Btn</name>
    <tag></tag>
-   <elementGuidId>3c6af0ff-812a-4df9-a8b7-2dc4e1502038</elementGuidId>
+   <elementGuidId>e72be3ac-31a2-44ac-a99e-653572d629ad</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[@href='mailto:type: email NCICRDC@mail.nih.gov']</value>
+         <value>//button[.='Upload']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[@href='mailto:type: email NCICRDC@mail.nih.gov']</value>
-      <webElementGuid>cb7f5932-d0d3-4f2e-990c-ca62bf7adf0c</webElementGuid>
+      <value>//button[.='Upload']</value>
+      <webElementGuid>5be53a8f-3cac-4b92-a2b6-adc7f7242c9b</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

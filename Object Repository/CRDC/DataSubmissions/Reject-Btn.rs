@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ContactLink</name>
+   <name>Reject-Btn</name>
    <tag></tag>
-   <elementGuidId>3c6af0ff-812a-4df9-a8b7-2dc4e1502038</elementGuidId>
+   <elementGuidId>5cf6ec33-fef8-4ac1-8985-7753637297f8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[@href='mailto:type: email NCICRDC@mail.nih.gov']</value>
+         <value>//button[.='Reject']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[@href='mailto:type: email NCICRDC@mail.nih.gov']</value>
-      <webElementGuid>cb7f5932-d0d3-4f2e-990c-ca62bf7adf0c</webElementGuid>
+      <value>//button[.='Reject']</value>
+      <webElementGuid>a07b7abc-3eac-4da1-8771-f532834cd1f5</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

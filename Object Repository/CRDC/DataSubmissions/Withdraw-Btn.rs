@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ContactLink</name>
+   <name>Withdraw-Btn</name>
    <tag></tag>
-   <elementGuidId>3c6af0ff-812a-4df9-a8b7-2dc4e1502038</elementGuidId>
+   <elementGuidId>86cd2d43-026a-4fda-b506-5e50f59168d0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[@href='mailto:type: email NCICRDC@mail.nih.gov']</value>
+         <value>//button[.='Withdraw']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[@href='mailto:type: email NCICRDC@mail.nih.gov']</value>
-      <webElementGuid>cb7f5932-d0d3-4f2e-990c-ca62bf7adf0c</webElementGuid>
+      <value>//button[.='Withdraw']</value>
+      <webElementGuid>e0a7be48-3466-4ea4-963d-f5f560864098</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

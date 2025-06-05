@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ContactLink</name>
+   <name>ChooseFiles-Btn</name>
    <tag></tag>
-   <elementGuidId>3c6af0ff-812a-4df9-a8b7-2dc4e1502038</elementGuidId>
+   <elementGuidId>3436d285-1de6-4084-8745-4312c2ad8e85</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[@href='mailto:type: email NCICRDC@mail.nih.gov']</value>
+         <value>//input[@type='file']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[@href='mailto:type: email NCICRDC@mail.nih.gov']</value>
-      <webElementGuid>cb7f5932-d0d3-4f2e-990c-ca62bf7adf0c</webElementGuid>
+      <value>//input[@type='file']</value>
+      <webElementGuid>9cdc643e-0cfc-4110-9a6b-8811939f26d1</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
