@@ -73,7 +73,8 @@ import org.apache.poi.ss.usermodel.FillPatternType
 import org.apache.poi.xssf.usermodel.XSSFCellStyle
 import org.apache.poi.xssf.usermodel.XSSFColor
 import java.awt.Color
-import java.util.*;
+import java.time.Duration
+
 
 class CrdcDHPbac extends TestRunner {
 
@@ -412,6 +413,7 @@ class CrdcDHPbac extends TestRunner {
 		}
 		if (scenario.equals("negative")) {
 			uncheckAllEnabledPermissionCheckboxes()
+			uncheckAllEnabledPermissionCheckboxes() //do it again to uncheck DCP's SR - View permission because it is disabled until higher permissions are unchecked first
 			WebUI.delay(2)
 			WebUI.click(findTestObject('CRDC/ManageUsers/Save-Btn'))
 		}
@@ -476,45 +478,320 @@ class CrdcDHPbac extends TestRunner {
 	}
 
 	/**
+	 * Create a data submission
+	 */
+	@Keyword
+	public static void createDataSubmission() {
+		TestRunner.clickTab('CRDC/DataSubmissions/Create/CreateADataSubmission-Btn')
+		WebUI.click(findTestObject('CRDC/DataSubmissions/Create/MetadataOnly-Btn'))
+		WebUI.click(findTestObject('CRDC/DataSubmissions/Create/Study-Ddn'))
+
+		//Select the study for automation purposes
+		String automationStudy = 'ATS - AutoTest-Study'
+		WebDriver driver = DriverFactory.getWebDriver()
+		WebDriverWait wait = new WebDriverWait(driver, 10)
+		String optionsXpath = "//li[contains(@class, 'MuiMenuItem-root')]"
+		WebUI.delay(2)
+		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(optionsXpath)))
+		List<WebElement> options = driver.findElements(By.xpath(optionsXpath))
+		WebElement match = options.find { it.getText().trim() == automationStudy }
+		if (match != null) {
+			match.click()
+		} else {
+			KeywordUtil.markFailed("Study option '${automationStudy}' not found in dropdown.")
+		}
+
+		//Enter the submission name -- setText() is not working, need to use Actions class
+		WebUI.click(findTestObject('CRDC/DataSubmissions/Create/SubmissionName-Field'))
+		TestObject field = findTestObject('CRDC/DataSubmissions/Create/SubmissionName-Field')
+		WebElement el = WebUI.findWebElement(field, 10)
+		String timestamp = new Date().format("yyyyMMdd_HHmmss")
+		String submissionName = "auto-test_" + timestamp
+		KeywordUtil.logInfo("Creating data submission with name " + submissionName)
+		Actions actions = new Actions(DriverFactory.getWebDriver())
+		actions.moveToElement(el).click().sendKeys(submissionName).perform()
+
+		//Create
+		TestRunner.clickTab('CRDC/DataSubmissions/Create/Create-Btn')
+		WebUI.delay(1)
+	}
+
+	/**
+	 * Upload a metadata file in the data submission via the UI
+	 */
+	@Keyword
+	public static void uploadMetadataUI(String relativePath) {
+		String absolutePath = Paths.get(relativePath).toAbsolutePath().toString()
+		WebUI.uploadFile(findTestObject('CRDC/DataSubmissions/ChooseFiles-Btn'), absolutePath)
+		WebUI.delay(1)
+		TestRunner.clickTab('CRDC/DataSubmissions/Upload-Btn')
+	}
+
+	/**
 	 * Create mappings between permissions and verification actions
 	 */
 	private static final Map<String, Closure> permissionToCheck = [:]
 	static {
 		permissionToCheck["submission_request:view"] = {
+			KeywordUtil.logInfo("Verifying SR View...")
+			try {
+				WebUI.delay(1) //Race condition upon login
+				CrdcDH.clickHome()
+				TestRunner.clickTab('CRDC/NavBar/SubmissionRequest-Tab')
+				WebUI.delay(2)
+				List<WebElement> rows = WebUI.findWebElements(findTestObject("CRDC/SubmissionRequest/SubmReqListTable-Row"), 20)
+				if (rows.size() == 1 && rows[0].getText().contains("do not have the appropriate permissions")) {
+					KeywordUtil.logInfo("The empty table message is displayed as expected")
+					return false
+				}
+				KeywordUtil.logInfo("Number of rows in SR list found: " + rows.size())
+				return rows.size() > 0
+			} catch (Exception e) {
+				KeywordUtil.logInfo("Error verifying permission - submission_request:view -> ${e.message}")
+				return false
+			}
 		}
 		permissionToCheck["submission_request:create"] = {
+			KeywordUtil.logInfo("Verifying SR Create...")
+			try {
+				CrdcDH.clickHome()
+				TestRunner.clickTab('CRDC/NavBar/SubmissionRequest-Tab')
+				return WebUI.verifyElementPresent(findTestObject("CRDC/SubmissionRequest/Start_a_SubmissionRequest-Btn"), 5, FailureHandling.OPTIONAL)
+			} catch (Exception e) {
+				KeywordUtil.logInfo("Error verifying permission - submission_request:create -> ${e.message}")
+				return false
+			}
 		}
 		permissionToCheck["submission_request:submit"] = {
+			KeywordUtil.logInfo("Verifying SR Submit...")
+			try {
+				CrdcDH.clickHome()
+				TestRunner.clickTab('CRDC/NavBar/SubmissionRequest-Tab')
+				//only run the create SR flow if the Create button is available
+				if (WebUI.verifyElementPresent(findTestObject("CRDC/SubmissionRequest/Start_a_SubmissionRequest-Btn"), 5, FailureHandling.OPTIONAL)) {
+					TestRunner.clickTab('CRDC/SubmissionRequest/Start_a_SubmissionRequest-Btn')
+					WebUI.delay(1)
+					TestRunner.clickTab('CRDC/SubmissionRequest/ReadAndAcceptPopUp-Btn')
+
+					CrdcDH.enterPrincipalInvestigatorInfo(2)
+					CrdcDH.enterPrimaryContactInfo(2)
+					CrdcDH.enterAdditionalContactInfo(2)
+
+					WebUI.click(findTestObject('CRDC/SubmissionRequest/Save-Btn'))
+					WebUI.click(findTestObject('CRDC/SubmissionRequest/Next-Btn'))
+
+					CrdcDH.enterProgramInfo('Other', 6)
+					CrdcDH.enterStudyInfo(1)
+					CrdcDH.enterFundingAgencyInfo(1)
+					CrdcDH.enterExistingAndPlannedPublicationsInfo(1)
+					CrdcDH.enterRepositoryInfo('Clinical', 1)
+
+					WebUI.click(findTestObject('CRDC/SubmissionRequest/Save-Btn'))
+					WebUI.click(findTestObject('CRDC/SubmissionRequest/Next-Btn'))
+
+					CrdcDH.enterDataAccessTypeAndDbGapRegInfo('Controlled', 'Yes')
+					CrdcDH.enterCancerTypeAndSubjectsInfo('Cholangiocarcinoma', 'Homo', 1)
+
+					WebUI.click(findTestObject('CRDC/SubmissionRequest/Save-Btn'))
+					WebUI.click(findTestObject('CRDC/SubmissionRequest/Next-Btn'))
+
+					CrdcDH.enterTargetDeliveryAndExpectedPublicationDate()
+					CrdcDH.selectDataTypes('genomics', 'proteomics')
+					CrdcDH.selectFileTypes(5, 6, 1, 1)
+
+					WebUI.click(findTestObject('CRDC/SubmissionRequest/Save-Btn'))
+					WebUI.click(findTestObject('CRDC/SubmissionRequest/Next-Btn'))
+
+					return WebUI.verifyElementPresent(findTestObject("CRDC/SubmissionRequest/Submit-Btn"), 5, FailureHandling.OPTIONAL)
+				}
+				return false
+			} catch (Exception e) {
+				KeywordUtil.logInfo("Error verifying permission - submission_request:submit -> ${e.message}")
+				return false
+			}
 		}
 		permissionToCheck["submission_request:review"] = {
+			KeywordUtil.logInfo("Verifying SR Review...")
+			try {
+				WebUI.delay(1) //Race condition upon login
+				CrdcDH.clickHome()
+				TestRunner.clickTab('CRDC/NavBar/SubmissionRequest-Tab')
+				return WebUI.verifyElementPresent(findTestObject("CRDC/SubmissionRequest/Review-Btn"), 5, FailureHandling.OPTIONAL)
+			} catch (Exception e) {
+				KeywordUtil.logInfo("Error verifying permission - submission_request:review -> ${e.message}")
+				return false
+			}
 		}
 		permissionToCheck["submission_request:cancel"] = {
+			KeywordUtil.logInfo("Verifying SR Cancel...")
+			try {
+				CrdcDH.clickHome()
+				TestRunner.clickTab('CRDC/NavBar/SubmissionRequest-Tab')
+				return WebUI.verifyElementPresent(findTestObject("CRDC/SubmissionRequest/Cancel-Btn"), 5, FailureHandling.OPTIONAL)
+			} catch (Exception e) {
+				KeywordUtil.logInfo("Error verifying permission - submission_request:cancel -> ${e.message}")
+				return false
+			}
 		}
 		permissionToCheck["data_submission:view"] = {
+			KeywordUtil.logInfo("Verifying DS View...")
+			try {
+				CrdcDH.clickHome()
+				TestRunner.clickTab('CRDC/NavBar/DataSubmissions-Tab')
+				WebUI.delay(2)
+				List<WebElement> rows = WebUI.findWebElements(findTestObject("CRDC/DataSubmissions/DataSubmListTable-Row"), 20)
+				if (rows.size() == 1 && rows[0].getText().contains("do not have the appropriate permissions")) {
+					KeywordUtil.logInfo("The empty table message is displayed as expected")
+					return false
+				}
+				KeywordUtil.logInfo("Number of rows in DS list found: " + rows.size())
+				return rows.size() > 0
+			} catch (Exception e) {
+				KeywordUtil.logInfo("Error verifying permission - data_submission:view -> ${e.message}")
+				return false
+			}
 		}
 		permissionToCheck["data_submission:create"] = {
+			KeywordUtil.logInfo("Verifying DS Create...")
+			try {
+				CrdcDH.clickHome()
+				TestRunner.clickTab('CRDC/NavBar/DataSubmissions-Tab')
+				return WebUI.verifyElementPresent(findTestObject("CRDC/DataSubmissions/Create/CreateADataSubmission-Btn"), 5, FailureHandling.OPTIONAL)
+			} catch (Exception e) {
+				KeywordUtil.logInfo("Error verifying permission - data_submission:create -> ${e.message}")
+				return false
+			}
 		}
 		permissionToCheck["data_submission:cancel"] = {
+			KeywordUtil.logInfo("Verifying DS Cancel...")
+			try {
+				CrdcDH.clickHome()
+				TestRunner.clickTab('CRDC/NavBar/DataSubmissions-Tab')
+				//only run the create DS flow if the Create button is available
+				if (WebUI.verifyElementPresent(findTestObject("CRDC/DataSubmissions/Create/CreateADataSubmission-Btn"), 5, FailureHandling.OPTIONAL)) {
+					createDataSubmission()
+					TestRunner.clickTab('CRDC/DataSubmissions/DataSubmissionName-Link')
+					return WebUI.verifyElementPresent(findTestObject("CRDC/DataSubmissions/Cancel-Btn"), 10, FailureHandling.OPTIONAL)
+				}
+				return false
+			} catch (Exception e) {
+				KeywordUtil.markFailed("Error verifying permission - data_submission:cancel -> ${e.message}")
+				return false
+			}
 		}
 		permissionToCheck["data_submission:review"] = {
-			KeywordUtil.logInfo("[FUTURE DEVELOPMENT] Requires automating data submission flow post-creation")
+			KeywordUtil.logInfo("Verifying DS Review...")
+			try {
+				CrdcDH.clickHome()
+				TestRunner.clickTab('CRDC/NavBar/DataSubmissions-Tab')
+				//only run the DS flow if the Create button is available
+				if (WebUI.verifyElementPresent(findTestObject("CRDC/DataSubmissions/Create/CreateADataSubmission-Btn"), 5, FailureHandling.OPTIONAL)) {
+					//Create DS
+					createDataSubmission()
+
+					//Access the DS
+					TestRunner.clickTab('CRDC/DataSubmissions/DataSubmissionName-Link')
+
+					//Upload metadata file
+					uploadMetadataUI('InputFiles/CRDC/MetadataData/program.tsv')
+
+					//Validate
+					WebUI.waitForElementClickable(findTestObject('CRDC/DataSubmissions/Validate-Btn'), 30)
+					TestRunner.clickTab('CRDC/DataSubmissions/Validate-Btn')
+
+					//Submit
+					WebUI.waitForElementClickable(findTestObject('CRDC/DataSubmissions/Submit-Btn'), 30)
+					TestRunner.clickTab('CRDC/DataSubmissions/Submit-Btn')
+					TestRunner.clickTab('CRDC/DataSubmissions/SubmitYes-Btn')
+
+					//Verify
+					return WebUI.verifyElementPresent(findTestObject("CRDC/DataSubmissions/Release-Btn"), 5, FailureHandling.OPTIONAL) &&
+							WebUI.verifyElementPresent(findTestObject("CRDC/DataSubmissions/Reject-Btn"), 5, FailureHandling.OPTIONAL) &&
+							WebUI.verifyElementPresent(findTestObject("CRDC/DataSubmissions/Withdraw-Btn"), 5, FailureHandling.OPTIONAL)
+				}
+				return false
+			} catch (Exception e) {
+				KeywordUtil.markFailed("Error verifying permission - data_submission:review -> ${e.message}")
+				return false
+			}
 		}
-		permissionToCheck["data_submission:admin_submit"] = {
-			KeywordUtil.logInfo("[FUTURE DEVELOPMENT] Requires automating data submission flow post-creation")
-		}
-		permissionToCheck["data_submission:confirm"] = {
-			KeywordUtil.logInfo("[FUTURE DEVELOPMENT] Requires automating data submission flow post-creation")
-		}
+//		permissionToCheck["data_submission:admin_submit"] = {
+//			KeywordUtil.logInfo("Verifying DS Admin Submit...")
+//			try {
+//				CrdcDH.clickHome()
+//				TestRunner.clickTab('CRDC/NavBar/DataSubmissions-Tab')
+//				//only run the DS flow if the Create button is available
+//				if (WebUI.verifyElementPresent(findTestObject("CRDC/DataSubmissions/Create/CreateADataSubmission-Btn"), 5, FailureHandling.OPTIONAL)) {
+//					//Create DS
+//					createDataSubmission()
+//
+//					//Access the DS
+//					TestRunner.clickTab('CRDC/DataSubmissions/DataSubmissionName-Link')
+//
+//					//Upload invalid metadata file
+//					uploadMetadataUI('InputFiles/CRDC/MetadataData/program_invalid.tsv')
+//
+//					//Validate
+//					WebUI.waitForElementClickable(findTestObject('CRDC/DataSubmissions/Validate-Btn'), 30)
+//					TestRunner.clickTab('CRDC/DataSubmissions/Validate-Btn')
+//
+//					//Verify
+//					return WebUI.verifyElementPresent(findTestObject("CRDC/DataSubmissions/AdminSubmit-Btn"), 5, FailureHandling.OPTIONAL)
+//				}
+//				return false
+//			} catch (Exception e) {
+//				KeywordUtil.markFailed("Error verifying permission - data_submission:admin_submit -> ${e.message}")
+//				return false
+//			}
+//		}
+//		permissionToCheck["data_submission:confirm"] = {
+//			KeywordUtil.logInfo("Verifying DS Confirm...")
+//			try {
+//				CrdcDH.clickHome()
+//				TestRunner.clickTab('CRDC/NavBar/DataSubmissions-Tab')
+//				//only run the DS flow if the Create button is available
+//				if (WebUI.verifyElementPresent(findTestObject("CRDC/DataSubmissions/Create/CreateADataSubmission-Btn"), 5, FailureHandling.OPTIONAL)) {
+//					//Create DS
+//					createDataSubmission()
+//
+//					//Access the DS
+//					TestRunner.clickTab('CRDC/DataSubmissions/DataSubmissionName-Link')
+//
+//					//Upload metadata file
+//					uploadMetadataUI('InputFiles/CRDC/MetadataData/program.tsv')
+//
+//					//Validate
+//					WebUI.waitForElementClickable(findTestObject('CRDC/DataSubmissions/Validate-Btn'), 30)
+//					TestRunner.clickTab('CRDC/DataSubmissions/Validate-Btn')
+//
+//					//Submit
+//					WebUI.waitForElementClickable(findTestObject('CRDC/DataSubmissions/Submit-Btn'), 30)
+//					TestRunner.clickTab('CRDC/DataSubmissions/Submit-Btn')
+//					TestRunner.clickTab('CRDC/DataSubmissions/SubmitYes-Btn')
+//
+//					//Release
+//					WebUI.waitForElementClickable(findTestObject('CRDC/DataSubmissions/Release-Btn'), 30)
+//					TestRunner.clickTab('CRDC/DataSubmissions/Release-Btn')
+//
+//					//Verify
+//					return WebUI.verifyElementPresent(findTestObject("CRDC/DataSubmissions/Complete-Btn"), 5, FailureHandling.OPTIONAL) &&
+//							WebUI.verifyElementPresent(findTestObject("CRDC/DataSubmissions/Reject-Btn"), 5, FailureHandling.OPTIONAL)
+//				}
+//				return false
+//			} catch (Exception e) {
+//				KeywordUtil.markFailed("Error verifying permission - data_submission:confirm -> ${e.message}")
+//				return false
+//			}
+//		}
 		permissionToCheck["program:manage"] = {
 			KeywordUtil.logInfo("Verifying Manage Programs...")
 			try {
 				CrdcDH.clickHome()
 				CrdcDH.clickAccountDropdown()
-				if (!WebUI.verifyElementPresent(findTestObject("CRDC/NavBar/ManagePrograms-Btn"), 5)) {
-					KeywordUtil.markFailed("Manage Programs button is not found")
-				}
+				return WebUI.verifyElementPresent(findTestObject("CRDC/NavBar/ManagePrograms-Btn"), 5, FailureHandling.OPTIONAL)
 			} catch (Exception e) {
-				KeywordUtil.markFailed("Error verifying permission - program:manage -> ${e.message}")
+				KeywordUtil.logInfo("Error verifying permission - program:manage -> ${e.message}")
+				return false
 			}
 		}
 		permissionToCheck["study:manage"] = {
@@ -522,11 +799,10 @@ class CrdcDHPbac extends TestRunner {
 			try {
 				CrdcDH.clickHome()
 				CrdcDH.clickAccountDropdown()
-				if (!WebUI.verifyElementPresent(findTestObject("CRDC/NavBar/ManageStudies-Btn"), 5)) {
-					KeywordUtil.markFailed("Manage Studies button is not found")
-				}
+				return WebUI.verifyElementPresent(findTestObject("CRDC/NavBar/ManageStudies-Btn"), 5, FailureHandling.OPTIONAL)
 			} catch (Exception e) {
-				KeywordUtil.markFailed("Error verifying permission - study:manage -> ${e.message}")
+				KeywordUtil.logInfo("Error verifying permission - study:manage -> ${e.message}")
+				return false
 			}
 		}
 		permissionToCheck["institution:manage"] = {
@@ -534,11 +810,10 @@ class CrdcDHPbac extends TestRunner {
 			try {
 				CrdcDH.clickHome()
 				CrdcDH.clickAccountDropdown()
-				if (!WebUI.verifyElementPresent(findTestObject("CRDC/NavBar/ManageInstitutions-Btn"), 5)) {
-					KeywordUtil.markFailed("Manage Institutions button is not found")
-				}
+				return WebUI.verifyElementPresent(findTestObject("CRDC/NavBar/ManageInstitutions-Btn"), 5, FailureHandling.OPTIONAL)
 			} catch (Exception e) {
-				KeywordUtil.markFailed("Error verifying permission - institution:manage -> ${e.message}")
+				KeywordUtil.logInfo("Error verifying permission - institution:manage -> ${e.message}")
+				return false
 			}
 		}
 		permissionToCheck["user:manage"] = {
@@ -546,21 +821,19 @@ class CrdcDHPbac extends TestRunner {
 			try {
 				CrdcDH.clickHome()
 				CrdcDH.clickAccountDropdown()
-				if (!WebUI.verifyElementPresent(findTestObject("CRDC/NavBar/ManageUsers-Btn"), 5)) {
-					KeywordUtil.markFailed("Manage Users button is not found")
-				}
+				return WebUI.verifyElementPresent(findTestObject("CRDC/NavBar/ManageUsers-Btn"), 5, FailureHandling.OPTIONAL)
 			} catch (Exception e) {
-				KeywordUtil.markFailed("Error verifying permission - user:manage -> ${e.message}")
+				KeywordUtil.logInfo("Error verifying permission - user:manage -> ${e.message}")
+				return false
 			}
 		}
 		permissionToCheck["dashboard:view"] = {
 			KeywordUtil.logInfo("Verifying Operation Dashboard...")
 			try {
-				if (!WebUI.verifyElementPresent(findTestObject("CRDC/NavBar/OperationDashboard-Btn"), 5)) {
-					KeywordUtil.markFailed("Operation Dashboard button is not found")
-				}
+				return WebUI.verifyElementPresent(findTestObject("CRDC/NavBar/OperationDashboard-Btn"), 5, FailureHandling.OPTIONAL)
 			} catch (Exception e) {
-				KeywordUtil.markFailed("Error verifying permission - dashboard:view -> ${e.message}")
+				KeywordUtil.logInfo("Error verifying permission - dashboard:view -> ${e.message}")
+				return false
 			}
 		}
 		permissionToCheck["access:request"] = {
@@ -569,11 +842,10 @@ class CrdcDHPbac extends TestRunner {
 				CrdcDH.clickHome()
 				CrdcDH.clickAccountDropdown()
 				TestRunner.clickTab('CRDC/Login/UserProfile-Link')
-				if (!WebUI.verifyElementPresent(findTestObject("CRDC/ManageUsers/RequestAccess-Btn"), 5)) {
-					KeywordUtil.markFailed("Request Access link is not found")
-				}
+				return WebUI.verifyElementPresent(findTestObject("CRDC/ManageUsers/RequestAccess-Btn"), 5, FailureHandling.OPTIONAL)
 			} catch (Exception e) {
-				KeywordUtil.markFailed("Error verifying permission - access:request -> ${e.message}")
+				KeywordUtil.logInfo("Error verifying permission - access:request -> ${e.message}")
+				return false
 			}
 		}
 	}
@@ -581,22 +853,29 @@ class CrdcDHPbac extends TestRunner {
 	/**
 	 * Run all the verifications based on positive or negative scenario
 	 * @param User role (Fedlead, Dcp, Admin, Submitter, User), scenario (positive, negative)
-	 */
+	 */	
 	@Keyword
 	public static void verifyPermissionsFunctional(String userRole, String scenario) {
 		//For the scenario, get all the relevant permissions to verify for
-		List<String> enabledPermissions = getPermissionsByStatus(userRole, scenario);
+		List<String> permissionsToCheck = getPermissionsByStatus(userRole, scenario)
+		KeywordUtil.logInfo("Permissions to verify for '${userRole}' role for '${scenario}' scenario: ${permissionsToCheck}")
 
-		for (String permission : enabledPermissions) {
+		for (String permission : permissionsToCheck) {
 			if (permissionToCheck.containsKey(permission)) {
 				try {
-					permissionToCheck.get(permission).run();
-					KeywordUtil.markPassed("Verified functionality for permission: " + permission);
+					boolean result = permissionToCheck.get(permission).call()
+					if (scenario.equalsIgnoreCase("positive") && result) {
+						KeywordUtil.markPassed("[PASS] '${permission}' accessible as expected.")
+					} else if (scenario.equalsIgnoreCase("negative") && !result) {
+						KeywordUtil.markPassed("[PASS] '${permission}' correctly *not* accessible.")
+					} else {
+						KeywordUtil.markFailed("[FAIL] Unexpected result for permission '${permission}' in '${scenario}' scenario.")
+					}
 				} catch (Exception e) {
-					KeywordUtil.markFailed("FAILED verification for permission: " + permission + " | " + e.getMessage());
+					KeywordUtil.markFailed("[ERROR] Exception during permission '${permission}': ${e.message}")
 				}
 			} else {
-				KeywordUtil.logInfo("[FUTURE DEVELOPMENT] No verification mapped for Email Notifications - " + permission);
+				KeywordUtil.logInfo("[FUTURE DEVELOPMENT] No verification method mapped yet for '${permission}' — skipping.")
 			}
 		}
 	}
