@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
  */
 WebUI.closeBrowser()
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC02_CDS_phs003432_Sex_Female_ExpStr-Sequencing_FileTyp-TXT.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC01_CDS_phs003519_SmpTumSta-Tumor_SampleType_Analyte_ExpStr-RNASeq.xlsx')
 
 CustomKeywords.'utilities.TestRunner.clickTab'('Bento/Banner/Bento_Warning_Continue_Btn')
 
@@ -30,40 +30,38 @@ CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/NavBar/CDS_Data-Btn')
 WebUI.waitForElementPresent(findTestObject('CDS/Data_page/Filter/StudyFacet/PHS_Accession/PHS_Accession_Ddn'),5)
 CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/Data_page/Filter/StudyFacet/PHS_Accession/PHS_Accession_Ddn')
 
-//Clicking checkbox phs002250
-WebUI.waitForElementPresent(findTestObject('CDS/Data_page/Filter/StudyFacet/PHS_Accession/phs003432_Chkbx'),5)
-CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/Data_page/Filter/StudyFacet/PHS_Accession/phs003432_Chkbx')
+//Clicking checkbox phs001819
+//WebUI.waitForElementPresent(findTestObject('CDS/Data_page/Filter/StudyFacet/PHS_Accession/phs003519_Chkbx'),5)
+CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/Data_page/Filter/StudyFacet/PHS_Accession/phs003519_Chkbx')
 
+//Clicking Sample Tumor Status dropdown
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/SamplesFacet/SampleTumorStatus/SampleTumorStatus-Ddn'),5)
+CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/SamplesFacet/SampleTumorStatus/SampleTumorStatus-Ddn')
 
-//Clicking Gender dropdown
-WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/DemographicsFacet/Sex/Sex-Ddn'),5)
-CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/DemographicsFacet/Sex/Sex-Ddn')
+//Clicking Not specified in Data checkbox
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/SamplesFacet/SampleTumorStatus/Tumor_Chkbx'),5)
+CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/SamplesFacet/SampleTumorStatus/Tumor_Chkbx')
 
-//Clicking Male checkbox
-WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/DemographicsFacet/Sex/Female-Chkbx'),5)
-CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/DemographicsFacet/Sex/Female-Chkbx')
+//Clicking Sample Type dropdown
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/SamplesFacet/SampleType/SampleType-Ddn'),5)
+CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/SamplesFacet/SampleType/SampleType-Ddn')
 
+//Clicking Blood derived normal checkbox
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/SamplesFacet/SampleType/Analyte_Chkbx'),5)
+CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/SamplesFacet/SampleType/Analyte_Chkbx')
 
 //Clicking Experimental Strategy dropdown
 WebUI.waitForElementPresent(findTestObject('CDS/Data_page/Filter/StudyFacet/ExperimentalStrategy/ExperimentalStrategy_Ddn'),5)
 CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/Data_page/Filter/StudyFacet/ExperimentalStrategy/ExperimentalStrategy_Ddn')
 
 //Clicking WXS checkbox
-WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/StudyFacet/ExperimentalStrategy/Sequencing-Chkbx'),5)
-CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/StudyFacet/ExperimentalStrategy/Sequencing-Chkbx')
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/StudyFacet/ExperimentalStrategy/RNASeq-Chkbx'),5)
+CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/StudyFacet/ExperimentalStrategy/RNASeq-Chkbx')
 
-//Clicking File dropdown
-WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/FilesFacet/FileType/FileType_Ddn'),5)
-CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/FilesFacet/FileType/FileType_Ddn')
-
-//Clicking BAM checkbox
-WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/FilesFacet/FileType/txt-Chkbx'),5)
-CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/FilesFacet/FileType/txt-Chkbx')
 
 //Read statbar
 CustomKeywords.'utilities.TestRunner.readStatBarCDS'('Object Repository/CDS/StatBar/CDS_StatBar-Studies',
  'Object Repository/CDS/StatBar/CDS_StatBar-Participants','Object Repository/CDS/StatBar/CDS_StatBar-Samples', 'Object Repository/CDS/StatBar/CDS_StatBar-Files')
-
 
 //Clicking participants tab
 WebUI.waitForElementPresent(findTestObject('CDS/Data_page/CDSResults_Participants_Tab'), 5)
