@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC09_CDS_phs002430_LibrarySelection_Oligo-dT</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>c5aa6d3a-3e3c-4259-8d7f-b59c92f9f7f9</testCaseGuid>
-</TestCaseEntity>

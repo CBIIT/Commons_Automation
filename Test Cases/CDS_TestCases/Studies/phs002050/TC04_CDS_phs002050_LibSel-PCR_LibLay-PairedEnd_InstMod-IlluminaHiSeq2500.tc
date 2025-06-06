@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_CDS_phs002050_LibSel-PCR_LibLay-PairedEnd_InstMod-IlluminaHiSeq2500</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>96517e99-1c81-4cf2-8601-00dccaf0982e</testCaseGuid>
+</TestCaseEntity>
