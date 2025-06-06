@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC09_CDS_phs002431_LibrarySelection_Other</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>6a3b139d-0892-403c-a290-1b773ece8c10</testCaseGuid>
-</TestCaseEntity>

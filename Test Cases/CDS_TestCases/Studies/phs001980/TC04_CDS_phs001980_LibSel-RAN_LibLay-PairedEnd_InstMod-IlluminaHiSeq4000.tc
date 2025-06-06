@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_CDS_phs001980_LibSel-RAN_LibLay-PairedEnd_InstMod-IlluminaHiSeq4000</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b62d2255-d08e-4609-a1a0-57fa04902f1a</testCaseGuid>
+</TestCaseEntity>

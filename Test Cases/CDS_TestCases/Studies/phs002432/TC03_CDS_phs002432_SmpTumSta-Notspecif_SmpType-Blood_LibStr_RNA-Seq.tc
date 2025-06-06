@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_CDS_phs002432_SmpTumSta-Notspecif_SmpType-Blood_LibStr_RNA-Seq</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>97902803-900c-4a97-a18a-e4bc1eadb89b</testCaseGuid>
+</TestCaseEntity>
