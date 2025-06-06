@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_CDS_phs002431_SmpTumSta-Normal_SmpType-Blood_LibStr_RNA-Seq</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0fb3b13a-e133-456d-8d76-383130a6eba1</testCaseGuid>
+</TestCaseEntity>

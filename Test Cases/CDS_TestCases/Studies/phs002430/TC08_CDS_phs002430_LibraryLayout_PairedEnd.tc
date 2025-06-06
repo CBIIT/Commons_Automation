@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC08_CDS_phs002430_LibraryLayout_PairedEnd</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>8bd6bdcc-20ad-4cbe-a6a5-2517b97331a7</testCaseGuid>
-</TestCaseEntity>

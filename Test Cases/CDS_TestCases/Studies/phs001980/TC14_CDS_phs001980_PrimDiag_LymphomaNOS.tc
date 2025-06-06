@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC14_CDS_phs001980_PrimDiag_LymphomaNOS</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>e6d3b082-2668-418e-a56b-7d2a819fe5df</testCaseGuid>
-</TestCaseEntity>
