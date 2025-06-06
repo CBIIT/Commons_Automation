@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC14_CDS_phs002430_PrimDiag_Astrocytoma</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>e93e99dd-6d07-44c5-af8d-420099f4a7c8</testCaseGuid>
-</TestCaseEntity>

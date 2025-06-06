@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_CDS_phs002431_LibSel-RAN_LibLay-PairedEnd_InstMod- Illumina HiSeq 2500</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5e898203-c4bb-4e68-89cc-6b5cd493e0a2</testCaseGuid>
+</TestCaseEntity>

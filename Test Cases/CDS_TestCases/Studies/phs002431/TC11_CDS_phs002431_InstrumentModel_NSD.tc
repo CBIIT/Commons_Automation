@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC11_CDS_phs002431_InstrumentModel_NSD</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>79d9161f-aa51-4d1b-88ac-aab5125837bf</testCaseGuid>
-</TestCaseEntity>
