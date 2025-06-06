@@ -327,6 +327,7 @@ class CrdcDHPbac extends TestRunner {
 		// Re-select target role
 		WebUI.click(findTestObject('CRDC/ManageUsers/RoleDdn-Option', [('role') : roleDisplay]))
 		KeywordUtil.logInfo("Selected target role: ${roleDisplay}")
+		WebUI.delay(1)
 
 		// Click Save
 		WebUI.click(findTestObject('CRDC/ManageUsers/Save-Btn'))
@@ -485,18 +486,29 @@ class CrdcDHPbac extends TestRunner {
 		TestRunner.clickTab('CRDC/DataSubmissions/Create/CreateADataSubmission-Btn')
 		WebUI.click(findTestObject('CRDC/DataSubmissions/Create/MetadataOnly-Btn'))
 		WebUI.click(findTestObject('CRDC/DataSubmissions/Create/Study-Ddn'))
+		WebUI.delay(1)
 
 		//Select the study for automation purposes
 		String automationStudy = 'ATS - AutoTest-Study'
+		
 		WebDriver driver = DriverFactory.getWebDriver()
-		WebDriverWait wait = new WebDriverWait(driver, 10)
-		String optionsXpath = "//li[contains(@class, 'MuiMenuItem-root')]"
-		WebUI.delay(2)
-		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(optionsXpath)))
-		List<WebElement> options = driver.findElements(By.xpath(optionsXpath))
-		WebElement match = options.find { it.getText().trim() == automationStudy }
+		List<WebElement> studyDropdownOptions = driver.findElements(By.xpath("//li[contains(@data-testid,'study-option')]"))
+		for (WebElement option : studyDropdownOptions) {
+			String studyName = option.getAttribute("innerText")?.trim()
+			KeywordUtil.logInfo("Dropdown option is: " + studyName)
+		}
+		KeywordUtil.logInfo("Number of study options in dropdown: " + studyDropdownOptions.size())
+		
+		WebElement match = studyDropdownOptions.find {it.getAttribute("innerText")?.trim() == automationStudy}
 		if (match != null) {
-			match.click()
+			try {
+				new Actions(driver).moveToElement(match).click().perform()
+			} catch (Exception e) {
+				KeywordUtil.logInfo("Click blocked, retrying after overlay removal...")
+				WebUI.executeJavaScript("""document.querySelectorAll('.MuiBackdrop-root, .MuiDialog-container').forEach(e => e.remove())""", null)
+				WebUI.delay(1)
+				new Actions(driver).moveToElement(match).click().perform()
+			}
 		} else {
 			KeywordUtil.markFailed("Study option '${automationStudy}' not found in dropdown.")
 		}
@@ -525,7 +537,57 @@ class CrdcDHPbac extends TestRunner {
 		WebUI.uploadFile(findTestObject('CRDC/DataSubmissions/ChooseFiles-Btn'), absolutePath)
 		WebUI.delay(1)
 		TestRunner.clickTab('CRDC/DataSubmissions/Upload-Btn')
+		WebUI.delay(2)
 	}
+
+	/**
+	 * Upload a unique metadata file (by editing existing file) in the data submission via the UI
+	 */
+	@Keyword
+	static void prepareUniqueMetadataAndUpload(String originalFilePath, String fieldToModify) {
+		String absolutePath = RunConfiguration.getProjectDir() + "/" + originalFilePath
+		File inputFile = new File(absolutePath)
+		if (!inputFile.exists()) {
+			KeywordUtil.markFailed("Metadata TSV file not found at path: ${absolutePath}")
+			return
+		}
+
+		String timestamp = new Date().format("yyyyMMdd_HHmmss")
+		File tempFile = new File(absolutePath.replace(".tsv", "_mod_${timestamp}.tsv"))
+
+		// Read header and find column index
+		List<String> lines = inputFile.readLines("UTF-8")
+		String headerLine = lines[0]
+		String[] headers = headerLine.split("\t")
+		int fieldIndex = headers.findIndexOf { it == fieldToModify }
+
+		if (fieldIndex == -1) {
+			KeywordUtil.markFailed("Field '${fieldToModify}' not found in header row")
+			return
+		}
+
+		// Write modified file
+		tempFile.withWriter("UTF-8") { writer ->
+			writer.writeLine(headerLine)
+			lines[1..-1].each { line ->
+				String[] cols = line.split("\t")
+				if (cols.length > fieldIndex) {
+					cols[fieldIndex] = cols[fieldIndex] + "_" + timestamp
+				}
+				writer.writeLine(cols.join("\t"))
+			}
+		}
+
+		// Upload the modified file
+		uploadMetadataUI(tempFile.absolutePath)
+
+		// Clean up
+		if (tempFile.exists()) {
+			tempFile.delete()
+			KeywordUtil.logInfo("Temporary metadata file deleted: ${tempFile.getAbsolutePath()}")
+		}
+	}
+
 
 	/**
 	 * Create mappings between permissions and verification actions
@@ -693,7 +755,7 @@ class CrdcDHPbac extends TestRunner {
 					TestRunner.clickTab('CRDC/DataSubmissions/DataSubmissionName-Link')
 
 					//Upload metadata file
-					uploadMetadataUI('InputFiles/CRDC/MetadataData/program.tsv')
+					prepareUniqueMetadataAndUpload('InputFiles/CRDC/MetadataData/program.tsv', "program_acronym")
 
 					//Validate
 					WebUI.waitForElementClickable(findTestObject('CRDC/DataSubmissions/Validate-Btn'), 30)
@@ -715,74 +777,86 @@ class CrdcDHPbac extends TestRunner {
 				return false
 			}
 		}
-//		permissionToCheck["data_submission:admin_submit"] = {
-//			KeywordUtil.logInfo("Verifying DS Admin Submit...")
-//			try {
-//				CrdcDH.clickHome()
-//				TestRunner.clickTab('CRDC/NavBar/DataSubmissions-Tab')
-//				//only run the DS flow if the Create button is available
-//				if (WebUI.verifyElementPresent(findTestObject("CRDC/DataSubmissions/Create/CreateADataSubmission-Btn"), 5, FailureHandling.OPTIONAL)) {
-//					//Create DS
-//					createDataSubmission()
-//
-//					//Access the DS
-//					TestRunner.clickTab('CRDC/DataSubmissions/DataSubmissionName-Link')
-//
-//					//Upload invalid metadata file
-//					uploadMetadataUI('InputFiles/CRDC/MetadataData/program_invalid.tsv')
-//
-//					//Validate
-//					WebUI.waitForElementClickable(findTestObject('CRDC/DataSubmissions/Validate-Btn'), 30)
-//					TestRunner.clickTab('CRDC/DataSubmissions/Validate-Btn')
-//
-//					//Verify
-//					return WebUI.verifyElementPresent(findTestObject("CRDC/DataSubmissions/AdminSubmit-Btn"), 5, FailureHandling.OPTIONAL)
-//				}
-//				return false
-//			} catch (Exception e) {
-//				KeywordUtil.markFailed("Error verifying permission - data_submission:admin_submit -> ${e.message}")
-//				return false
-//			}
-//		}
-//		permissionToCheck["data_submission:confirm"] = {
-//			KeywordUtil.logInfo("Verifying DS Confirm...")
-//			try {
-//				CrdcDH.clickHome()
-//				TestRunner.clickTab('CRDC/NavBar/DataSubmissions-Tab')
-//				//only run the DS flow if the Create button is available
-//				if (WebUI.verifyElementPresent(findTestObject("CRDC/DataSubmissions/Create/CreateADataSubmission-Btn"), 5, FailureHandling.OPTIONAL)) {
-//					//Create DS
-//					createDataSubmission()
-//
-//					//Access the DS
-//					TestRunner.clickTab('CRDC/DataSubmissions/DataSubmissionName-Link')
-//
-//					//Upload metadata file
-//					uploadMetadataUI('InputFiles/CRDC/MetadataData/program.tsv')
-//
-//					//Validate
-//					WebUI.waitForElementClickable(findTestObject('CRDC/DataSubmissions/Validate-Btn'), 30)
-//					TestRunner.clickTab('CRDC/DataSubmissions/Validate-Btn')
-//
-//					//Submit
-//					WebUI.waitForElementClickable(findTestObject('CRDC/DataSubmissions/Submit-Btn'), 30)
-//					TestRunner.clickTab('CRDC/DataSubmissions/Submit-Btn')
-//					TestRunner.clickTab('CRDC/DataSubmissions/SubmitYes-Btn')
-//
-//					//Release
-//					WebUI.waitForElementClickable(findTestObject('CRDC/DataSubmissions/Release-Btn'), 30)
-//					TestRunner.clickTab('CRDC/DataSubmissions/Release-Btn')
-//
-//					//Verify
-//					return WebUI.verifyElementPresent(findTestObject("CRDC/DataSubmissions/Complete-Btn"), 5, FailureHandling.OPTIONAL) &&
-//							WebUI.verifyElementPresent(findTestObject("CRDC/DataSubmissions/Reject-Btn"), 5, FailureHandling.OPTIONAL)
-//				}
-//				return false
-//			} catch (Exception e) {
-//				KeywordUtil.markFailed("Error verifying permission - data_submission:confirm -> ${e.message}")
-//				return false
-//			}
-//		}
+		permissionToCheck["data_submission:admin_submit"] = {
+			KeywordUtil.logInfo("Verifying DS Admin Submit...")
+			try {
+				CrdcDH.clickHome()
+				TestRunner.clickTab('CRDC/NavBar/DataSubmissions-Tab')
+				//only run the DS flow if the Create button is available
+				if (WebUI.verifyElementPresent(findTestObject("CRDC/DataSubmissions/Create/CreateADataSubmission-Btn"), 5, FailureHandling.OPTIONAL)) {
+					//Create DS
+					createDataSubmission()
+
+					//Access the DS
+					TestRunner.clickTab('CRDC/DataSubmissions/DataSubmissionName-Link')
+
+					//Upload invalid metadata file
+					uploadMetadataUI('InputFiles/CRDC/MetadataData/program_invalid.tsv')
+
+					//Validate
+					WebUI.waitForElementClickable(findTestObject('CRDC/DataSubmissions/Validate-Btn'), 30)
+					TestRunner.clickTab('CRDC/DataSubmissions/Validate-Btn')
+
+					//Verify
+					return WebUI.verifyElementPresent(findTestObject("CRDC/DataSubmissions/AdminSubmit-Btn"), 5, FailureHandling.OPTIONAL)
+				}
+				return false
+			} catch (Exception e) {
+				KeywordUtil.markFailed("Error verifying permission - data_submission:admin_submit -> ${e.message}")
+				return false
+			}
+		}
+		permissionToCheck["data_submission:confirm"] = { String userRole, String scenario ->
+			KeywordUtil.logInfo("Verifying DS Confirm...")
+			try {
+				CrdcDH.clickHome()
+				TestRunner.clickTab('CRDC/NavBar/DataSubmissions-Tab')
+				//only run the DS flow if the Create button is available
+				if (WebUI.verifyElementPresent(findTestObject("CRDC/DataSubmissions/Create/CreateADataSubmission-Btn"), 5, FailureHandling.OPTIONAL)) {
+					//Create DS
+					createDataSubmission()
+
+					//Access the DS
+					TestRunner.clickTab('CRDC/DataSubmissions/DataSubmissionName-Link')
+
+					//Upload metadata file
+					prepareUniqueMetadataAndUpload('InputFiles/CRDC/MetadataData/program.tsv', "program_acronym")
+
+					//Validate
+					WebUI.waitForElementClickable(findTestObject('CRDC/DataSubmissions/Validate-Btn'), 30)
+					TestRunner.clickTab('CRDC/DataSubmissions/Validate-Btn')
+
+					//Submit
+					WebUI.waitForElementClickable(findTestObject('CRDC/DataSubmissions/Submit-Btn'), 30)
+					TestRunner.clickTab('CRDC/DataSubmissions/Submit-Btn')
+					TestRunner.clickTab('CRDC/DataSubmissions/SubmitYes-Btn')
+
+					// If Submitter in negative scenario, verify here
+					if (userRole.equalsIgnoreCase("Submitter") && scenario.equalsIgnoreCase("negative")) {
+						KeywordUtil.logInfo("DS Confirm test for Submitter in negative scenario — role can create but not confirm - verifying...")
+						return WebUI.verifyElementPresent(findTestObject("CRDC/DataSubmissions/CrossValidate-Btn"), 5, FailureHandling.OPTIONAL) ||
+							WebUI.verifyElementPresent(findTestObject("CRDC/DataSubmissions/Release-Btn"), 5, FailureHandling.OPTIONAL) ||
+							WebUI.verifyElementPresent(findTestObject("CRDC/DataSubmissions/Complete-Btn"), 5, FailureHandling.OPTIONAL)
+					}
+					
+					//Cross Validate
+					TestRunner.clickTab('CRDC/DataSubmissions/CrossValidate-Btn')
+
+					//Release
+					WebUI.waitForElementClickable(findTestObject('CRDC/DataSubmissions/Release-Btn'), 30)
+					TestRunner.clickTab('CRDC/DataSubmissions/Release-Btn')
+					TestRunner.clickTab('CRDC/DataSubmissions/SubmitYes-Btn')
+
+					//Verify
+					return WebUI.verifyElementPresent(findTestObject("CRDC/DataSubmissions/Complete-Btn"), 5, FailureHandling.OPTIONAL) &&
+							WebUI.verifyElementPresent(findTestObject("CRDC/DataSubmissions/Reject-Btn"), 5, FailureHandling.OPTIONAL)
+				}
+				return false
+			} catch (Exception e) {
+				KeywordUtil.markFailed("Error verifying permission - data_submission:confirm -> ${e.message}")
+				return false
+			}
+		}
 		permissionToCheck["program:manage"] = {
 			KeywordUtil.logInfo("Verifying Manage Programs...")
 			try {
@@ -863,7 +937,15 @@ class CrdcDHPbac extends TestRunner {
 		for (String permission : permissionsToCheck) {
 			if (permissionToCheck.containsKey(permission)) {
 				try {
-					boolean result = permissionToCheck.get(permission).call()
+					def result
+					def closure = permissionToCheck.get(permission)
+					
+					if (closure.maximumNumberOfParameters == 2) {
+						result = closure.call(userRole, scenario)
+					} else {
+						result = closure.call()
+					}
+					//boolean result = permissionToCheck.get(permission).call()
 					if (scenario.equalsIgnoreCase("positive") && result) {
 						KeywordUtil.markPassed("[PASS] '${permission}' accessible as expected.")
 					} else if (scenario.equalsIgnoreCase("negative") && !result) {
