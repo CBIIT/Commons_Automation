@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC06_CDS_phs002432_LibraryStrategy_RNASeq</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>4276f4a3-bbbf-4a9a-8846-e06c99a5e5fd</testCaseGuid>
-</TestCaseEntity>

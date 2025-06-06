@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC13_CDS_phs001980_FileType_BAM</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>968135b6-aec3-4585-b5cd-c5b6d8d27f75</testCaseGuid>
-</TestCaseEntity>

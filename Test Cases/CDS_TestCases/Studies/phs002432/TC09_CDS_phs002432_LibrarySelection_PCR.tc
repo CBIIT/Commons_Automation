@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC09_CDS_phs002432_LibrarySelection_PCR</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>6153565a-337c-48ab-b0e0-b5c00d132ba2</testCaseGuid>
-</TestCaseEntity>
