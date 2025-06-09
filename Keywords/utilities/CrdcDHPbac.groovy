@@ -490,7 +490,7 @@ class CrdcDHPbac extends TestRunner {
 
 		//Select the study for automation purposes
 		String automationStudy = 'ATS - AutoTest-Study'
-		
+
 		WebDriver driver = DriverFactory.getWebDriver()
 		List<WebElement> studyDropdownOptions = driver.findElements(By.xpath("//li[contains(@data-testid,'study-option')]"))
 		for (WebElement option : studyDropdownOptions) {
@@ -498,7 +498,7 @@ class CrdcDHPbac extends TestRunner {
 			KeywordUtil.logInfo("Dropdown option is: " + studyName)
 		}
 		KeywordUtil.logInfo("Number of study options in dropdown: " + studyDropdownOptions.size())
-		
+
 		WebElement match = studyDropdownOptions.find {it.getAttribute("innerText")?.trim() == automationStudy}
 		if (match != null) {
 			try {
@@ -633,7 +633,7 @@ class CrdcDHPbac extends TestRunner {
 				if (WebUI.verifyElementPresent(findTestObject("CRDC/SubmissionRequest/Start_a_SubmissionRequest-Btn"), 5, FailureHandling.OPTIONAL)) {
 					TestRunner.clickTab('CRDC/SubmissionRequest/Start_a_SubmissionRequest-Btn')
 					WebUI.delay(1)
-					TestRunner.clickTab('CRDC/SubmissionRequest/ReadAndAcceptPopUp-Btn')
+					TestRunner.clickTab('CRDC/SubmissionRequest/readAndAcceptPopUp-Btn')
 
 					CrdcDH.enterPrincipalInvestigatorInfo(2)
 					CrdcDH.enterPrimaryContactInfo(2)
@@ -835,10 +835,10 @@ class CrdcDHPbac extends TestRunner {
 					if (userRole.equalsIgnoreCase("Submitter") && scenario.equalsIgnoreCase("negative")) {
 						KeywordUtil.logInfo("DS Confirm test for Submitter in negative scenario — role can create but not confirm - verifying...")
 						return WebUI.verifyElementPresent(findTestObject("CRDC/DataSubmissions/CrossValidate-Btn"), 5, FailureHandling.OPTIONAL) ||
-							WebUI.verifyElementPresent(findTestObject("CRDC/DataSubmissions/Release-Btn"), 5, FailureHandling.OPTIONAL) ||
-							WebUI.verifyElementPresent(findTestObject("CRDC/DataSubmissions/Complete-Btn"), 5, FailureHandling.OPTIONAL)
+								WebUI.verifyElementPresent(findTestObject("CRDC/DataSubmissions/Release-Btn"), 5, FailureHandling.OPTIONAL) ||
+								WebUI.verifyElementPresent(findTestObject("CRDC/DataSubmissions/Complete-Btn"), 5, FailureHandling.OPTIONAL)
 					}
-					
+
 					//Cross Validate
 					TestRunner.clickTab('CRDC/DataSubmissions/CrossValidate-Btn')
 
@@ -939,7 +939,7 @@ class CrdcDHPbac extends TestRunner {
 				try {
 					def result
 					def closure = permissionToCheck.get(permission)
-					
+
 					if (closure.maximumNumberOfParameters == 2) {
 						result = closure.call(userRole, scenario)
 					} else {
