@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC14_CDS_phs002431_PrimDiag_YolkSacTumor</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>af539ced-db02-4935-adfb-adccf7a1a200</testCaseGuid>
-</TestCaseEntity>

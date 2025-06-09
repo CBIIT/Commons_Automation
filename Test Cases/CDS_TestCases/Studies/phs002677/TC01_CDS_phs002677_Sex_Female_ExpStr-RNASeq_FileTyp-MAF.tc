@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CDS_phs002677_Sex_Female_ExpStr-RNASeq_FileTyp-MAF</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7696b57e-1e20-4351-867f-655d49722a9e</testCaseGuid>
+</TestCaseEntity>

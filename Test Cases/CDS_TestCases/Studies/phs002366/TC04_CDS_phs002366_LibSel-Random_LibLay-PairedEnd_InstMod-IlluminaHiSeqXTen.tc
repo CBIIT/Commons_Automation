@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_CDS_phs002366_LibSel-Random_LibLay-PairedEnd_InstMod-IlluminaHiSeqXTen</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b612aba0-4202-40b1-8537-15c7f1aad8f3</testCaseGuid>
+</TestCaseEntity>

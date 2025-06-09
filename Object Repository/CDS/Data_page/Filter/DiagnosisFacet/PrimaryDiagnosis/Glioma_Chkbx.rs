@@ -6,12 +6,12 @@
    <elementGuidId>20f2b181-cd0c-4b47-ad9f-3419b51cbabc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;checkbox_PRIMARY DIAGNOSIS_Glioma&quot;]</value>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;checkbox_Primary Diagnosis_Glioma&quot;]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_PRIMARY DIAGNOSIS_Glioma&quot;]</value>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;checkbox_Primary Diagnosis_Glioma&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_PRIMARY DIAGNOSIS_Glioma&quot;]</value>
-      <webElementGuid>b9b20094-4b19-4b56-8f10-d27d4d200108</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Primary Diagnosis_Glioma&quot;]</value>
+      <webElementGuid>9fc39ff0-32da-4679-bf72-459e81d80332</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

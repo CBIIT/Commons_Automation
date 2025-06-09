@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_CDS_phs002637_Sex-Female_PrimDiag_ProstateCancer_FileType-CRAM</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>926a6a04-aa53-496a-9bca-70e3e8388a61</testCaseGuid>
+</TestCaseEntity>

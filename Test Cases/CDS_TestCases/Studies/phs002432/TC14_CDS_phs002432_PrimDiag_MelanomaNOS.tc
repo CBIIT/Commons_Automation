@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC14_CDS_phs002432_PrimDiag_MelanomaNOS</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>cdbc21a1-99df-4064-9327-b6626e6acc91</testCaseGuid>
-</TestCaseEntity>

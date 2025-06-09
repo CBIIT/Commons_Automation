@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_CDS_phs000720_Sex-Male_FileType-DICOM_PrimDiag_Neoplasm</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3ccbb705-db7a-4b3e-ab05-ccf2ab0bfef5</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CDS_phs000720_SmpTumSta-Tumor_SampleType_Analyte</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>95ad8f95-e521-43c5-80d7-fb28cbc81f11</testCaseGuid>
+</TestCaseEntity>

@@ -152,8 +152,8 @@ public class Utils {
 			pyExecutablePath = "python3";
 		} else {
 			KeywordUtil.logInfo("Running locally. Using local Python executable path...");
-			pyExecutablePath = "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3";
-			//pyExecutablePath = "C:/Users/epishinavv/AppData/Local/Programs/Python/Python312/python.exe";
+			//pyExecutablePath = "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3";
+			pyExecutablePath = "C:/Users/kallakuriv2/AppData/Local/Programs/Python/Python312/python.exe";
 			//pyExecutablePath = "/Users/leungvw/vincent_testEnv/bin/python3";
 		}
 
@@ -265,7 +265,7 @@ public class Utils {
 	 * @param neoSheetName
 	 */
 	@Keyword
-	public static void compareSheets(String webSheetName, String neoSheetName) {
+	public static void compareSheets(String webSheetName, String tsvSheetName) {
 
 		List<List<String>> UIData = new ArrayList<>();
 		List<List<String>> tsvData = new ArrayList<>();
@@ -274,15 +274,15 @@ public class Utils {
 		String UIfilename = GlobalVariable.G_WebExcel.toString();
 		String tsvFilename = GlobalVariable.G_ResultPath.toString();
 
-		System.out.println("This is  the  full UI file  path: " + UIfilename);
-		System.out.println("This is the full neo4j file path: " + tsvFilename);
+		System.out.println("This is the full UI   file path: " + UIfilename);
+		System.out.println("This is the full TSV  file path: " + tsvFilename);
 
 		// Read UI output excel
 		UIData = ReadExcel.readOutputExcel(UIfilename, webSheetName);
 		Collections.sort(UIData, new TestRunner());
 
 		// Read TSV or DB output excel
-		tsvData = ReadExcel.readOutputExcel(tsvFilename, neoSheetName);
+		tsvData = ReadExcel.readOutputExcel(tsvFilename, tsvSheetName);
 		Collections.sort(tsvData, new TestRunner());
 
 		System.out.println("This is the row size of the UIWeb Output data: " + UIData.size());
@@ -419,7 +419,7 @@ public class Utils {
 	public static findFilterBySearch(String filter){
 		if(appKey.equals("CDS")) {
 			//PHS Accession dropdown
-			if (filter.contains("/StudyFacet/PHS_Accession/") && !filter.containsIgnoreCase("Ddn")) {
+			if (filter.contains("/StudyFacet/PHS_Accession/") && !filter.contains("Ddn")) {
 				String accession = extractFirstMatch(filter, "(phs\\d{6})")
 				if (accession != null) {
 					System.out.println("Searching for PHS Accession: " + accession)
@@ -430,7 +430,7 @@ public class Utils {
 				}
 			}
 			//File Type dropdown
-			else if (filter.contains("/FilesFacet/FileType/") && !filter.containsIgnoreCase("Ddn")){
+			else if (filter.contains("/FilesFacet/FileType/") && !filter.contains("Ddn")){
 				TestObject to = ObjectRepository.findTestObject(filter)
 				String xpath = getEffectiveXPath(to, filter)
 				String fileType = extractFirstMatch(xpath, 'checkbox_File Type_([^"]+)')
@@ -443,7 +443,7 @@ public class Utils {
 				}
 			}
 			//Primary Diagnosis dropdown
-			else if (filter.contains("/DiagnosisFacet/PrimaryDiagnosis/") && !filter.containsIgnoreCase("Ddn")) {
+			else if (filter.contains("/DiagnosisFacet/PrimaryDiagnosis/") && !filter.contains("Ddn")) {
 				TestObject to = ObjectRepository.findTestObject(filter)
 				String xpath = getEffectiveXPath(to, filter)
 				String primaryDiagnosis = extractFirstMatch(xpath, '_([^"_]+)"\\]$')
