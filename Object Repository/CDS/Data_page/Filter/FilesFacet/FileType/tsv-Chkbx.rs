@@ -14,7 +14,7 @@
          <value>//*[@id=&quot;checkbox_File Type_TSV&quot;]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -23,6 +23,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;checkbox_File Type_TSV&quot;]</value>
-      <webElementGuid>32f7012f-41c8-454f-a666-e221b8703794</webElementGuid>
+      <webElementGuid>442389f4-abf5-41a1-a4db-6cab3c28c69e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

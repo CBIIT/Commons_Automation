@@ -31,21 +31,32 @@ WebUI.waitForElementPresent(findTestObject('CDS/Data_page/Filter/StudyFacet/PHS_
 CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/Data_page/Filter/StudyFacet/PHS_Accession/PHS_Accession_Ddn')
 
 //Clicking checkbox phs001819
-WebUI.waitForElementPresent(findTestObject('CDS/Data_page/Filter/StudyFacet/PHS_Accession/phs002305_Chkbx'),5)
+//WebUI.waitForElementPresent(findTestObject('CDS/Data_page/Filter/StudyFacet/PHS_Accession/phs002305_Chkbx'),5)
 CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/Data_page/Filter/StudyFacet/PHS_Accession/phs002305_Chkbx')
 
-/*//Clicking Phs Accession dropdown
-WebUI.waitForElementPresent(findTestObject('CDS/Data_page/Filter/StudyFacet/PHS_Accession/PHS_Accession_Ddn'),5)
-CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/Data_page/Filter/StudyFacet/PHS_Accession/PHS_Accession_Ddn')*/
+//Clicking Platform
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/GenomicFacet/Platform/platform_Ddn'),5)
+CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/GenomicFacet/Platform/platform_Ddn')
 
-//Clicking Sample Tumor Status dropdown
-WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/SamplesFacet/SampleTumorStatus/SampleTumorStatus-Ddn'),5)
-CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/SamplesFacet/SampleTumorStatus/SampleTumorStatus-Ddn')
+//Clicking Illumina checkbox
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/GenomicFacet/Platform/ILLUMINA-Chkbx'),5)
+CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/GenomicFacet/Platform/ILLUMINA-Chkbx')
 
-//Clicking Not specified in Data checkbox
-WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/SamplesFacet/SampleTumorStatus/Normal_Chkbx'),5)
-CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/SamplesFacet/SampleTumorStatus/Normal_Chkbx')
+//Clicking Library Source dropdown
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/GenomicFacet/LibrarySource/LibrarySourceMolecule_Ddn'),5)
+CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/GenomicFacet/LibrarySource/LibrarySourceMolecule_Ddn')
 
+//Clicking Genomic checkbox
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/GenomicFacet/LibrarySource/Genomic_Chkbx'),5)
+CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/GenomicFacet/LibrarySource/Genomic_Chkbx')
+
+//Clicking RefGenAssembly dropdown
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/GenomicFacet/ReferenceGenomeAssembly/Ref_Gen_Assembly_Ddn'),5)
+CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/GenomicFacet/ReferenceGenomeAssembly/Ref_Gen_Assembly_Ddn')
+
+//Clicking GRCh37 checkbox
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/GenomicFacet/ReferenceGenomeAssembly/GRCh38_Chkbx'),5)
+CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/GenomicFacet/ReferenceGenomeAssembly/GRCh38_Chkbx')
 
 //Read statbar
 CustomKeywords.'utilities.TestRunner.readStatBarCDS'('Object Repository/CDS/StatBar/CDS_StatBar-Studies',

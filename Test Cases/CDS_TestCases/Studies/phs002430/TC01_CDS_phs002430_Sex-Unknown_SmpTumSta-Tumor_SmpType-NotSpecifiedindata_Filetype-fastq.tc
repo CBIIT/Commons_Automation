@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CDS_phs002430_Sex-Unknown_SmpTumSta-Tumor_SmpType-NotSpecifiedindata_Filetype-fastq</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5f7923a2-b214-4c6c-9978-c5cc77e1ab5e</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_CDS_phs002430_Sex-Unknown_Studydatatype-Imaging_Filetype-fastq</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4a8750f1-f9a1-4057-b05c-77b0aa2e17a3</testCaseGuid>
+</TestCaseEntity>

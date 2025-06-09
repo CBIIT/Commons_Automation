@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_CDS_phs002050_SmpTumSta-Normal_SmpType-DNA_LibStr_WXS</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a71ce7a8-3895-4dfe-87b6-70c9238e0520</testCaseGuid>
+</TestCaseEntity>

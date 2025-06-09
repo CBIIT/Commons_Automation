@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_CDS_phs002677_Sex-NSD_PrimDiag_NA_FileType-TSV</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>259e5145-9938-418f-aa87-d97d7ebcefd7</testCaseGuid>
+</TestCaseEntity>
