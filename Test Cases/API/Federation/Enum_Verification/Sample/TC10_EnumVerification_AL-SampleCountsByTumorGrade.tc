@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC10_EnumVerification_AL-SampleCountsByTumorGrade</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fa2624a3-eb1d-4671-a465-b802c56e58e5</testCaseGuid>
+</TestCaseEntity>
