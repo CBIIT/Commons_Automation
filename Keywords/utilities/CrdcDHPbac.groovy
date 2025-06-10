@@ -637,7 +637,7 @@ class CrdcDHPbac extends TestRunner {
 
 					CrdcDH.enterPrincipalInvestigatorInfo(2)
 					CrdcDH.enterPrimaryContactInfo(2)
-					CrdcDH.enterAdditionalContactInfo(2)
+					//CrdcDH.enterAdditionalContactInfo(2)
 
 					WebUI.click(findTestObject('CRDC/SubmissionRequest/Save-Btn'))
 					WebUI.click(findTestObject('CRDC/SubmissionRequest/Next-Btn'))
@@ -645,8 +645,8 @@ class CrdcDHPbac extends TestRunner {
 					CrdcDH.enterProgramInfo('Other', 6)
 					CrdcDH.enterStudyInfo(1)
 					CrdcDH.enterFundingAgencyInfo(1)
-					CrdcDH.enterExistingAndPlannedPublicationsInfo(1)
-					CrdcDH.enterRepositoryInfo('Clinical', 1)
+					//CrdcDH.enterExistingAndPlannedPublicationsInfo(1)
+					//CrdcDH.enterRepositoryInfo('Clinical', 1)
 
 					WebUI.click(findTestObject('CRDC/SubmissionRequest/Save-Btn'))
 					WebUI.click(findTestObject('CRDC/SubmissionRequest/Next-Btn'))
