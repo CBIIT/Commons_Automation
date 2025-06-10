@@ -539,6 +539,7 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 	@Keyword
 	public static void enterTargetDeliveryAndExpectedPublicationDate() {
 
+		WebUI.delay(15) //wait until the confirmation toast messages from previous pages disappear
 		WebUI.click(findTestObject('CRDC/SubmissionRequest/Section-D/TragetSubmDelivryDate-Clnder'))
 		WebUI.click(findTestObject('CRDC/SubmissionRequest/Section-D/CalendarTodayDate-Btn'))
 		Thread.sleep(1000)
