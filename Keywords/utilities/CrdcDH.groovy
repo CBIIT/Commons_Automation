@@ -539,21 +539,11 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 	@Keyword
 	public static void enterTargetDeliveryAndExpectedPublicationDate() {
 
-		WebUI.delay(15) //wait until the confirmation toast messages from previous pages disappear
-		Actions actions = new Actions(DriverFactory.getWebDriver())
-		
-		actions.moveToElement(WebUI.findWebElement(findTestObject('CRDC/SubmissionRequest/Section-D/TragetSubmDelivryDate-Clnder'), 10)).click().perform()
-		actions.moveToElement(WebUI.findWebElement(findTestObject('CRDC/SubmissionRequest/Section-D/CalendarTodayDate-Btn'), 10)).click().perform()
+		WebUI.click(findTestObject('CRDC/SubmissionRequest/Section-D/TragetSubmDelivryDate-Clnder'))
+		WebUI.click(findTestObject('CRDC/SubmissionRequest/Section-D/CalendarTodayDate-Btn'))
 		Thread.sleep(1000)
-		actions.moveToElement(WebUI.findWebElement(findTestObject('CRDC/SubmissionRequest/Section-D/ExpctdPubliDate-Clndr'), 10)).click().perform()
-		actions.moveToElement(WebUI.findWebElement(findTestObject('CRDC/SubmissionRequest/Section-D/CalendarTodayDate-Btn'), 10)).click().perform()
-		
-
-		//		WebUI.click(findTestObject('CRDC/SubmissionRequest/Section-D/TragetSubmDelivryDate-Clnder'))
-		//		WebUI.click(findTestObject('CRDC/SubmissionRequest/Section-D/CalendarTodayDate-Btn'))
-		//		Thread.sleep(1000)
-		//		WebUI.click(findTestObject('CRDC/SubmissionRequest/Section-D/ExpctdPubliDate-Clndr'))
-		//		WebUI.click(findTestObject('CRDC/SubmissionRequest/Section-D/CalendarTodayDate-Btn'))
+		WebUI.click(findTestObject('CRDC/SubmissionRequest/Section-D/ExpctdPubliDate-Clndr'))
+		WebUI.click(findTestObject('CRDC/SubmissionRequest/Section-D/CalendarTodayDate-Btn'))
 	}
 
 
