@@ -540,17 +540,20 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 	public static void enterTargetDeliveryAndExpectedPublicationDate() {
 
 		WebUI.delay(15) //wait until the confirmation toast messages from previous pages disappear
-		clickTab('CRDC/SubmissionRequest/Section-D/TragetSubmDelivryDate-Clnder')
-		clickTab('CRDC/SubmissionRequest/Section-D/CalendarTodayDate-Btn')
-		Thread.sleep(1000)
-		clickTab('CRDC/SubmissionRequest/Section-D/ExpctdPubliDate-Clndr')
-		clickTab('CRDC/SubmissionRequest/Section-D/CalendarTodayDate-Btn')
+		Actions actions = new Actions(DriverFactory.getWebDriver())
 		
-//		WebUI.click(findTestObject('CRDC/SubmissionRequest/Section-D/TragetSubmDelivryDate-Clnder'))
-//		WebUI.click(findTestObject('CRDC/SubmissionRequest/Section-D/CalendarTodayDate-Btn'))
-//		Thread.sleep(1000)
-//		WebUI.click(findTestObject('CRDC/SubmissionRequest/Section-D/ExpctdPubliDate-Clndr'))
-//		WebUI.click(findTestObject('CRDC/SubmissionRequest/Section-D/CalendarTodayDate-Btn'))
+		actions.moveToElement(WebUI.findWebElement(findTestObject('CRDC/SubmissionRequest/Section-D/TragetSubmDelivryDate-Clnder'), 10)).click().perform()
+		actions.moveToElement(WebUI.findWebElement(findTestObject('CRDC/SubmissionRequest/Section-D/CalendarTodayDate-Btn'), 10)).click().perform()
+		Thread.sleep(1000)
+		actions.moveToElement(WebUI.findWebElement(findTestObject('CRDC/SubmissionRequest/Section-D/ExpctdPubliDate-Clndr'), 10)).click().perform()
+		actions.moveToElement(WebUI.findWebElement(findTestObject('CRDC/SubmissionRequest/Section-D/CalendarTodayDate-Btn'), 10)).click().perform()
+		
+
+		//		WebUI.click(findTestObject('CRDC/SubmissionRequest/Section-D/TragetSubmDelivryDate-Clnder'))
+		//		WebUI.click(findTestObject('CRDC/SubmissionRequest/Section-D/CalendarTodayDate-Btn'))
+		//		Thread.sleep(1000)
+		//		WebUI.click(findTestObject('CRDC/SubmissionRequest/Section-D/ExpctdPubliDate-Clndr'))
+		//		WebUI.click(findTestObject('CRDC/SubmissionRequest/Section-D/CalendarTodayDate-Btn'))
 	}
 
 
