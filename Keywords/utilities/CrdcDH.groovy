@@ -542,17 +542,17 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 		ePath = "CRDC/SubmissionRequest/Section-D/";
 		TestData testData = findTestData('CRDC/SubmissionRequest/section-d');
 		Thread.sleep(1000)
-		selectTodayDate(findTestObject(ePath+'TragetSubmissionDelivryDate-Clnder'), findTestObject(ePath+'CalendarTodayDate-Btn'))
-		//clearText(findTestObject(ePath+'ExpctdPubliDate-Clndr'))
-		//WebUI.setText(findTestObject(ePath+'ExpctdPubliDate-Clndr'), clearText() + getCurrentDate("MM/dd/yyyy"));
-		selectTodayDate(findTestObject(ePath+'ExpctdPubliDate-Clndr'), findTestObject(ePath+'CalendarTodayDate-Btn'))
-		
+//		selectTodayDate(findTestObject(ePath+'TragetSubmissionDelivryDate-Clnder'), findTestObject(ePath+'CalendarTodayDate-Btn'))
+//		//clearText(findTestObject(ePath+'ExpctdPubliDate-Clndr'))
+//		//WebUI.setText(findTestObject(ePath+'ExpctdPubliDate-Clndr'), clearText() + getCurrentDate("MM/dd/yyyy"));
+//		selectTodayDate(findTestObject(ePath+'ExpctdPubliDate-Clndr'), findTestObject(ePath+'CalendarTodayDate-Btn'))
+
 		// Below scripts pass locally but fail in Jenkins
-		//WebUI.click(findTestObject('CRDC/SubmissionRequest/Section-D/TragetSubmDelivryDate-Clnder'))
-		//WebUI.click(findTestObject('CRDC/SubmissionRequest/Section-D/CalendarTodayDate-Btn'))
-		//Thread.sleep(1000)
-		//WebUI.click(findTestObject('CRDC/SubmissionRequest/Section-D/ExpctdPubliDate-Clndr'))
-		//WebUI.click(findTestObject('CRDC/SubmissionRequest/Section-D/CalendarTodayDate-Btn'))
+		WebUI.click(findTestObject('CRDC/SubmissionRequest/Section-D/TragetSubmDelivryDate-Clnder'))
+		WebUI.click(findTestObject('CRDC/SubmissionRequest/Section-D/CalendarTodayDate-Btn'))
+		Thread.sleep(1000)
+		WebUI.click(findTestObject('CRDC/SubmissionRequest/Section-D/ExpctdPubliDate-Clndr'))
+		WebUI.click(findTestObject('CRDC/SubmissionRequest/Section-D/CalendarTodayDate-Btn'))
 	}
 
 
@@ -574,14 +574,14 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 		ePath = "CRDC/SubmissionRequest/Section-D/";
 		TestData testData = findTestData('CRDC/SubmissionRequest/section-d');
 		Thread.sleep(1000)
-//		//clearText(findTestObject(ePath+'TragetSubmDelivryDate-Clnder'))
-//		//WebUI.setText(findTestObject(ePath+'TragetSubmDelivryDate-Clnder'), clearText() + getCurrentDate("MM/dd/yyyy"));
-//
-//		selectTodayDate(findTestObject(ePath+'TragetSubmissionDelivryDate-Clnder'), findTestObject(ePath+'CalendarTodayDate-Btn'))
-//		//clearText(findTestObject(ePath+'ExpctdPubliDate-Clndr'))
-//		//WebUI.setText(findTestObject(ePath+'ExpctdPubliDate-Clndr'), clearText() + getCurrentDate("MM/dd/yyyy"));
-//
-//		selectTodayDate(findTestObject(ePath+'ExpctdPubliDate-Clndr'), findTestObject(ePath+'CalendarTodayDate-Btn'))
+		//		//clearText(findTestObject(ePath+'TragetSubmDelivryDate-Clnder'))
+		//		//WebUI.setText(findTestObject(ePath+'TragetSubmDelivryDate-Clnder'), clearText() + getCurrentDate("MM/dd/yyyy"));
+		//
+		//		selectTodayDate(findTestObject(ePath+'TragetSubmissionDelivryDate-Clnder'), findTestObject(ePath+'CalendarTodayDate-Btn'))
+		//		//clearText(findTestObject(ePath+'ExpctdPubliDate-Clndr'))
+		//		//WebUI.setText(findTestObject(ePath+'ExpctdPubliDate-Clndr'), clearText() + getCurrentDate("MM/dd/yyyy"));
+		//
+		//		selectTodayDate(findTestObject(ePath+'ExpctdPubliDate-Clndr'), findTestObject(ePath+'CalendarTodayDate-Btn'))
 
 		//Verify default is 'No' for all data types
 		List elements = WebUI.findWebElements(findTestObject(ePath+'AllSlider-Btns'), 20)
