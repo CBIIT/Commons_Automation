@@ -540,8 +540,15 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 	public static void enterTargetDeliveryAndExpectedPublicationDate() {
 
 		Thread.sleep(10000)
-		WebUI.setText(findTestObject('CRDC/SubmissionRequest/Section-D/TragetSubmDelivryDate-TxtBx'), getCurrentDate("MM/dd/yyyy"), FailureHandling.STOP_ON_FAILURE)
-		WebUI.setText(findTestObject('CRDC/SubmissionRequest/Section-D/ExpctdPublicationDate-TxtBx'), getCurrentDate("MM/dd/yyyy"), FailureHandling.STOP_ON_FAILURE)
+		TestObject targetSubDeDate = findTestObject('CRDC/SubmissionRequest/Section-D/TragetSubmDelivryDate-TxtBx');
+		WebUI.scrollToElement(targetSubDeDate, 10)
+		WebUI.waitForElementPresent(targetSubDeDate, 10)
+		WebUI.setText(targetSubDeDate, getCurrentDate("MM/dd/yyyy"), FailureHandling.STOP_ON_FAILURE)
+		
+		TestObject expectedPubData = findTestObject('CRDC/SubmissionRequest/Section-D/ExpctdPublicationDate-TxtBx');
+		WebUI.scrollToElement(expectedPubData, 10)
+		WebUI.waitForElementPresent(expectedPubData, 10)
+		WebUI.setText(expectedPubData, getCurrentDate("MM/dd/yyyy"), FailureHandling.STOP_ON_FAILURE)
 		
 	}
 
