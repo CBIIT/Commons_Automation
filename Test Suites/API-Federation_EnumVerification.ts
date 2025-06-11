@@ -109,4 +109,11 @@
       <testCaseId>Test Cases/API/Federation/Enum_Verification/Sample/TC09_EnumVerification_AL-SampleCountsByAnatomicalSites</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>e1029dae-44b3-45d6-9b15-d34263983a03</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/API/Federation/Enum_Verification/Sample/TC10_EnumVerification_AL-SampleCountsByTumorGrade</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

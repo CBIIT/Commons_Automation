@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC15_API_Federation_SamplesCountByTumorGrade</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9519d0a9-a3cb-438f-bed0-a3e0e1757f94</testCaseGuid>
+</TestCaseEntity>

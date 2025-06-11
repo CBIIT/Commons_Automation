@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[@title='NCICTDCHelpDesk@mail.nih.gov']</value>
+         <value>//a[@href='mailto:type: email NCICRDC@mail.nih.gov']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[@title='NCICTDCHelpDesk@mail.nih.gov']</value>
-      <webElementGuid>c8fe08f7-d5d9-43f7-a716-a2682b61e927</webElementGuid>
+      <value>//a[@href='mailto:type: email NCICRDC@mail.nih.gov']</value>
+      <webElementGuid>cb7f5932-d0d3-4f2e-990c-ca62bf7adf0c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
