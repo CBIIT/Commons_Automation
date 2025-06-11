@@ -542,20 +542,28 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 		ePath = "CRDC/SubmissionRequest/Section-D/";
 		TestData testData = findTestData('CRDC/SubmissionRequest/section-d');
 		Thread.sleep(1000)
-//		selectTodayDate(findTestObject(ePath+'TragetSubmissionDelivryDate-Clnder'), findTestObject(ePath+'CalendarTodayDate-Btn'))
+		//		selectTodayDate(findTestObject(ePath+'TragetSubmissionDelivryDate-Clnder'), findTestObject(ePath+'CalendarTodayDate-Btn'))
 		//clearText(findTestObject(ePath+'ExpctdPubliDate-Clndr'))
 		//WebUI.setText(findTestObject(ePath+'ExpctdPubliDate-Clndr'), clearText() + getCurrentDate("MM/dd/yyyy"));
-//		selectTodayDate(findTestObject(ePath+'ExpctdPubliDate-Clndr'), findTestObject(ePath+'CalendarTodayDate-Btn'))
-//		WebUI.clearText(findTestObject('CRDC/SubmissionRequest/Section-D/TragetSubmDelivryDate'))
-//		WebUI.setText(findTestObject(ePath+'TragetSubmDelivryDate-Clnder'), getCurrentDate("MM/dd/yyyy"));
-//		WebUI.clearText(findTestObject('CRDC/SubmissionRequest/Section-D/ExpctdPubliDate-Clndr'))
-//		WebUI.setText(findTestObject(ePath+'ExpctdPubliDate-Clndr'), getCurrentDate("MM/dd/yyyy"));
+		//		selectTodayDate(findTestObject(ePath+'ExpctdPubliDate-Clndr'), findTestObject(ePath+'CalendarTodayDate-Btn'))
+		//		WebUI.clearText(findTestObject('CRDC/SubmissionRequest/Section-D/TragetSubmDelivryDate'))
+		//		WebUI.setText(findTestObject(ePath+'TragetSubmDelivryDate-Clnder'), getCurrentDate("MM/dd/yyyy"));
+		//		WebUI.clearText(findTestObject('CRDC/SubmissionRequest/Section-D/ExpctdPubliDate-Clndr'))
+		//		WebUI.setText(findTestObject(ePath+'ExpctdPubliDate-Clndr'), getCurrentDate("MM/dd/yyyy"));
 
 		// Below scripts pass locally but fail in Jenkins
+		WebUI.scrollToElement(findTestObject('CRDC/SubmissionRequest/Section-D/TragetSubmDelivryDate-Clnder'), 5)
 		TestRunner.clickTab('CRDC/SubmissionRequest/Section-D/TragetSubmDelivryDate-Clnder')
-		TestRunner.clickTab('CRDC/SubmissionRequest/Section-D/CalendarTodayDate-Btn')
 		Thread.sleep(1000)
+		WebUI.scrollToElement(findTestObject('CRDC/SubmissionRequest/Section-D/CalendarTodayDate-Btn'), 5)
+		TestRunner.clickTab('CRDC/SubmissionRequest/Section-D/CalendarTodayDate-Btn')
+		
+		Thread.sleep(1000)
+		WebUI.scrollToElement(findTestObject('CRDC/SubmissionRequest/Section-D/ExpctdPubliDate-Clndr'), 5)
 		TestRunner.clickTab('CRDC/SubmissionRequest/Section-D/ExpctdPubliDate-Clndr')
+		
+		Thread.sleep(1000)
+		WebUI.scrollToElement(findTestObject('CRDC/SubmissionRequest/Section-D/CalendarTodayDate-Btn'), 5)
 		TestRunner.clickTab('CRDC/SubmissionRequest/Section-D/CalendarTodayDate-Btn')
 	}
 
