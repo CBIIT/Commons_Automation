@@ -44,7 +44,7 @@ WebUI.closeBrowser()
 CustomKeywords.'utilities.CrdcDH.navigateToCrdc'()
 
 CustomKeywords.'utilities.CrdcDH.loginToCrdcOtp'('Submitter')
-//WebUI.setViewPortSize(1920, 1080)
+WebUI.setViewPortSize(1920, 1080)
 
 
 WebUI.delay(2)
@@ -62,9 +62,7 @@ CustomKeywords.'utilities.CrdcDH.verifyStatusBar'('NEW')
 CustomKeywords.'utilities.CrdcDH.enterPrincipalInvestigatorInfo'(2)
 CustomKeywords.'utilities.CrdcDH.enterPrimaryContactInfo'(2)
 
-WebUI.scrollToElement(findTestObject('CRDC/SubmissionRequest/Save-Btn'), 10)
 WebUI.click(findTestObject('CRDC/SubmissionRequest/Save-Btn'))
-WebUI.scrollToElement(findTestObject('CRDC/SubmissionRequest/Next-Btn'), 10)
 WebUI.click(findTestObject('CRDC/SubmissionRequest/Next-Btn'))
 
 CustomKeywords.'utilities.CrdcDH.verifyStatusBar'('IN PROGRESS')
@@ -81,9 +79,7 @@ CustomKeywords.'utilities.CrdcDH.enterDataAccessTypeAndDbGapRegInfo'('Controlled
 
 CustomKeywords.'utilities.CrdcDH.enterCancerTypeAndSubjectsInfo'('Cholangiocarcinoma', 'Homo', 1)
 
-WebUI.scrollToElement(findTestObject('CRDC/SubmissionRequest/Save-Btn'), 10)
 WebUI.click(findTestObject('CRDC/SubmissionRequest/Save-Btn'))
-WebUI.scrollToElement(findTestObject('CRDC/SubmissionRequest/Next-Btn'), 10)
 WebUI.click(findTestObject('CRDC/SubmissionRequest/Next-Btn'))
 
 CustomKeywords.'utilities.CrdcDH.enterTargetDeliveryAndExpectedPublicationDate'()
@@ -92,9 +88,7 @@ CustomKeywords.'utilities.CrdcDH.selectDataTypes'('genomics', 'proteomics')
 
 CustomKeywords.'utilities.CrdcDH.selectFileTypes'(5, 6, 1, 1)
 
-WebUI.scrollToElement(findTestObject('CRDC/SubmissionRequest/Save-Btn'), 10)
 WebUI.click(findTestObject('CRDC/SubmissionRequest/Save-Btn'))
-WebUI.scrollToElement(findTestObject('CRDC/SubmissionRequest/Next-Btn'), 10)
 WebUI.click(findTestObject('CRDC/SubmissionRequest/Next-Btn'))
 
 //Verification starts here
