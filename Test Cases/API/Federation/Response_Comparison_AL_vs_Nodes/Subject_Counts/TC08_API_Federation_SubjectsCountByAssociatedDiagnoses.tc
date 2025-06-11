@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC08_API_Federation_SubjectsCountByAssociatedDiagnoses</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>feebb7f6-ef38-4440-98e3-143859bc06d3</testCaseGuid>
+</TestCaseEntity>

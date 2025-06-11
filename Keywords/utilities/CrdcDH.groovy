@@ -268,7 +268,7 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 		System.out.println("Actual Program Description is: " + actual +"\nExpected Program Description is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
 	}
-	
+
 	public static String programTimeStamp;
 
 	/**
@@ -279,8 +279,8 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 	public static void enterProgramInfo(String ddValueToSelect, int dataRowNum) {
 
 		programTimeStamp=getCurrentDate("M-d-yyyy-HH-mm");
-		
-		
+
+
 		ePath = "CRDC/SubmissionRequest/Section-B/";
 		fPath = "CRDC/SubmissionRequest/section-b";
 		Thread.sleep(1000);
@@ -611,7 +611,7 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 	public static void selectFileTypes(int fileTypRN, int fileExtRN, int numOfFileRN, int dataSizeRN) {
 
 		TestData testData = findTestData('CRDC/SubmissionRequest/section-d');
-		
+
 		WebUI.scrollToElement(findTestObject(ePath+'FileType-RowOne-Dd'), 20)
 		WebUI.click(findTestObject(ePath+'FileType-RowOne-Dd'))
 		String fileType = testData.getValue('file-type', fileTypRN)
@@ -627,9 +627,9 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 		WebUI.setText(findTestObject(ePath+'NumOfFiles-RowOne-Txtbx'), testData.getValue('num-of-file', numOfFileRN));
 		WebUI.setText(findTestObject(ePath+'EstimDtaSiz-RowOne-Txtbx'), testData.getValue('estimtd-data-size', dataSizeRN));
 		findTestObject('CRDC/SubmissionRequest/Section-D/ConfirmDataIdentified_yes-RdoBtn')
-		
+
 		WebUI.click(findTestObject("CRDC/SubmissionRequest/Section-D/ConfirmDataIdentified_yes-RdoBtn"))
-		
+
 		WebUI.setText(findTestObject(ePath+'AdditionalComnt-TxtBx'), testData.getValue('addit-comnt', 1));
 		System.out.println("Successfully selected file type '"+fileType+ "' with extension '"+fileExten+"'");
 	}
@@ -650,7 +650,7 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 		Thread.sleep(1000)
 		ePath = "CRDC/SubmissionRequest/ReviewSubmit/";
 		TestData testData = findTestData('CRDC/SubmissionRequest/section-a');
-		
+
 
 		actual = WebUI.getText(findTestObject(ePath+'PI_Name-Txt'))
 		expctd = testData.getValue('pi-last-name', dataRowNum)+", " +testData.getValue('pi-first-name', dataRowNum)
@@ -720,7 +720,7 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 	 */
 	@Keyword
 	public static void verifyAdditionalContactInfo(int dataRowNum) {
-		
+
 		TestData testData = findTestData('CRDC/SubmissionRequest/section-a');
 
 		actual = WebUI.getText(findTestObject(ePath+'AC_Name-Txt'))
@@ -751,7 +751,7 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 		System.out.println("Successfully verified additional contact information");
 	}
 
-	
+
 	/**
 	 * This function verifies program info on review page
 	 * @param rowNumber
@@ -761,7 +761,7 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 
 		ePath = "CRDC/SubmissionRequest/ReviewSubmit/";
 		TestData testData = findTestData("CRDC/SubmissionRequest/section-b");
-		
+
 		actual = WebUI.getText(findTestObject(ePath+'ProgramTitle-Txt'))
 		expctd = testData.getValue('program-title', rowNumber)+programTimeStamp;
 		KeywordUtil.logInfo("Actual Program Title is: " + actual +" Expected Program Title is: "+expctd);
@@ -833,12 +833,12 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 		KeywordUtil.logInfo("Actual NCI program Administrator is: " + actual +" Expected NCI program Administrator is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
 
-//		//Add 'HAS YOUR STUDY BEEN REGISTERED IN dbGaP? Yes No verification here
-//		actual = WebUI.getText(findTestObject(ePath+'dbGapPHSNumber-Txt'))
-//		expctd = testData.getValue('dbgap-phs-num', dataRowNum)
-//		KeywordUtil.logInfo("Actual dbGaP PHS number is: " + actual +" Expected dbGaP PHS number is: "+expctd);
-//		WebUI.verifyMatch(actual, expctd, false)
-//		KeywordUtil.logInfo("Successfully verified Funding Agency and dbGaP information");
+		//		//Add 'HAS YOUR STUDY BEEN REGISTERED IN dbGaP? Yes No verification here
+		//		actual = WebUI.getText(findTestObject(ePath+'dbGapPHSNumber-Txt'))
+		//		expctd = testData.getValue('dbgap-phs-num', dataRowNum)
+		//		KeywordUtil.logInfo("Actual dbGaP PHS number is: " + actual +" Expected dbGaP PHS number is: "+expctd);
+		//		WebUI.verifyMatch(actual, expctd, false)
+		//		KeywordUtil.logInfo("Successfully verified Funding Agency and dbGaP information");
 	}
 
 	/**
@@ -925,7 +925,7 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 	public static void verifyDataAccessAndDiseaseInfo(String cancerType, String preCancerType, String speciesOfSub, int dataRowNum) {
 
 		TestData testData = findTestData("CRDC/SubmissionRequest/section-c");
-		
+
 		//WebUI.scrollToElement(findTestObject(ePath+'OtherCancerTypes-Txt'), 3)
 
 		actual = WebUI.getText(findTestObject(ePath+'AccessTypes-Txt'))
@@ -965,10 +965,10 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 
 		WebUI.verifyMatch(actual, expctd, false)
 
-//		actual = WebUI.getText(findTestObject(ePath+'OtherCancerTypes-Txt'))
-//		expctd = findTestData(fPath).getValue('other-cancer-type', otherCancerTyRN)
-//		KeywordUtil.logInfo("Actual Other cancer type is: " + actual +"\nExpected Other cancer type is: "+expctd);
-//		WebUI.verifyMatch(actual, expctd, false)
+		//		actual = WebUI.getText(findTestObject(ePath+'OtherCancerTypes-Txt'))
+		//		expctd = findTestData(fPath).getValue('other-cancer-type', otherCancerTyRN)
+		//		KeywordUtil.logInfo("Actual Other cancer type is: " + actual +"\nExpected Other cancer type is: "+expctd);
+		//		WebUI.verifyMatch(actual, expctd, false)
 
 		actual = WebUI.getText(findTestObject(ePath+'PreCancerTypes-Txt'))
 
@@ -987,10 +987,10 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 
 		WebUI.verifyMatch(actual, expctd, false)
 
-//		actual = WebUI.getText(findTestObject(ePath+'OtherPreCancerTypes-Txt'))
-//		expctd = findTestData(fPath).getValue('other-pre-cancer-type', otherPreCancerTyRN)
-//		KeywordUtil.logInfo("Actual Other pre-cancer type is: " + actual +"\nExpected Other pre-cancer type is: "+expctd);
-//		WebUI.verifyMatch(actual, expctd, false)
+		//		actual = WebUI.getText(findTestObject(ePath+'OtherPreCancerTypes-Txt'))
+		//		expctd = findTestData(fPath).getValue('other-pre-cancer-type', otherPreCancerTyRN)
+		//		KeywordUtil.logInfo("Actual Other pre-cancer type is: " + actual +"\nExpected Other pre-cancer type is: "+expctd);
+		//		WebUI.verifyMatch(actual, expctd, false)
 
 		//Add code for Species Of Subject
 		//WebUI.click(findTestObject(ePath+"SpeciesOfSubjects-Dd"))
@@ -1260,5 +1260,21 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 	public static void logoutFromCrdc() {
 		clickTab('CRDC/Login/UserProfile-Dd')
 		clickTab('CRDC/Login/Logout-Link')
+	}
+
+	/**
+	 * This function clicks on the Home icon
+	 */
+	@Keyword
+	public static void clickHome() {
+		clickTab('CRDC/NavBar/Home-Btn')
+	}
+
+	/**
+	 * This function clicks on the account profile dropdown
+	 */
+	@Keyword
+	public static void clickAccountDropdown() {
+		clickTab('CRDC/Login/UserProfile-Dd')
 	}
 }//class ends
