@@ -541,7 +541,7 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 
 		ePath = "CRDC/SubmissionRequest/Section-D/";
 		TestData testData = findTestData('CRDC/SubmissionRequest/section-d');
-		Thread.sleep(1000)
+		Thread.sleep(10000)
 		//		selectTodayDate(findTestObject(ePath+'TragetSubmissionDelivryDate-Clnder'), findTestObject(ePath+'CalendarTodayDate-Btn'))
 		//clearText(findTestObject(ePath+'ExpctdPubliDate-Clndr'))
 		//WebUI.setText(findTestObject(ePath+'ExpctdPubliDate-Clndr'), clearText() + getCurrentDate("MM/dd/yyyy"));

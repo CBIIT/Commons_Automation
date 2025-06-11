@@ -44,7 +44,7 @@ WebUI.closeBrowser()
 CustomKeywords.'utilities.CrdcDH.navigateToCrdc'()
 
 CustomKeywords.'utilities.CrdcDH.loginToCrdcOtp'('Submitter')
-WebUI.setViewPortSize(1920, 1080)
+//WebUI.setViewPortSize(1920, 1080)
 
 
 WebUI.delay(2)
