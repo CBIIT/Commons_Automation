@@ -543,16 +543,20 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 		TestData testData = findTestData('CRDC/SubmissionRequest/section-d');
 		Thread.sleep(1000)
 //		selectTodayDate(findTestObject(ePath+'TragetSubmissionDelivryDate-Clnder'), findTestObject(ePath+'CalendarTodayDate-Btn'))
-//		//clearText(findTestObject(ePath+'ExpctdPubliDate-Clndr'))
-//		//WebUI.setText(findTestObject(ePath+'ExpctdPubliDate-Clndr'), clearText() + getCurrentDate("MM/dd/yyyy"));
+		//clearText(findTestObject(ePath+'ExpctdPubliDate-Clndr'))
+		//WebUI.setText(findTestObject(ePath+'ExpctdPubliDate-Clndr'), clearText() + getCurrentDate("MM/dd/yyyy"));
 //		selectTodayDate(findTestObject(ePath+'ExpctdPubliDate-Clndr'), findTestObject(ePath+'CalendarTodayDate-Btn'))
+//		WebUI.clearText(findTestObject('CRDC/SubmissionRequest/Section-D/TragetSubmDelivryDate'))
+//		WebUI.setText(findTestObject(ePath+'TragetSubmDelivryDate-Clnder'), getCurrentDate("MM/dd/yyyy"));
+//		WebUI.clearText(findTestObject('CRDC/SubmissionRequest/Section-D/ExpctdPubliDate-Clndr'))
+//		WebUI.setText(findTestObject(ePath+'ExpctdPubliDate-Clndr'), getCurrentDate("MM/dd/yyyy"));
 
 		// Below scripts pass locally but fail in Jenkins
-		WebUI.click(findTestObject('CRDC/SubmissionRequest/Section-D/TragetSubmDelivryDate-Clnder'))
-		WebUI.click(findTestObject('CRDC/SubmissionRequest/Section-D/CalendarTodayDate-Btn'))
+		TestRunner.clickTab('CRDC/SubmissionRequest/Section-D/TragetSubmDelivryDate-Clnder')
+		TestRunner.clickTab('CRDC/SubmissionRequest/Section-D/CalendarTodayDate-Btn')
 		Thread.sleep(1000)
-		WebUI.click(findTestObject('CRDC/SubmissionRequest/Section-D/ExpctdPubliDate-Clndr'))
-		WebUI.click(findTestObject('CRDC/SubmissionRequest/Section-D/CalendarTodayDate-Btn'))
+		TestRunner.clickTab('CRDC/SubmissionRequest/Section-D/ExpctdPubliDate-Clndr')
+		TestRunner.clickTab('CRDC/SubmissionRequest/Section-D/CalendarTodayDate-Btn')
 	}
 
 
