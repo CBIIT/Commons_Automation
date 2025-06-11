@@ -193,4 +193,18 @@
       <testCaseId>Test Cases/API/Federation/Response_Comparison_AL_vs_Nodes/Summary_Counts/TC03_API_Federation_FilesSummary</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>8b37fa59-de47-49da-8bba-4aaa2328d269</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/API/Federation/Response_Comparison_AL_vs_Nodes/Sample_Counts/TC15_API_Federation_SamplesCountByTumorGrade</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e4722d85-16aa-4103-8b2b-ff696a0b4580</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/API/Federation/Response_Comparison_AL_vs_Nodes/Subject_Counts/TC08_API_Federation_SubjectsCountByAssociatedDiagnoses</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

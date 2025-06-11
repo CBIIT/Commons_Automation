@@ -28,8 +28,9 @@ CustomKeywords.'utilities.TestRunner.verifyStaticData'("V_DataCloudPage")
 WebUI.click(findTestObject('Trials/NavBar/Data-Tab'))
 WebUI.click(findTestObject('Trials/NavBar/Data-Model-Btn'))
 
+//This page has had the static data removed and is now a data model navigator
 //Verify static data text for Data Model page
-CustomKeywords.'utilities.TestRunner.verifyStaticData'("V_DataModelPage")
+//CustomKeywords.'utilities.TestRunner.verifyStaticData'("V_DataModelPage")
 
 //Navigate to Data > Data Harmonization
 WebUI.click(findTestObject('Trials/NavBar/Data-Tab'))
@@ -86,6 +87,7 @@ WebUI.click(findTestObject('Trials/NavBar/RequestAccess-Btn'))
 CustomKeywords.'utilities.TestRunner.clickTab'('Trials/RequestAccess_page/ObtainCommonsDropdown')
 CustomKeywords.'utilities.TestRunner.clickTab'('Trials/RequestAccess_page/ObtainDbgapDropdown')
 CustomKeywords.'utilities.TestRunner.clickTab'('Trials/RequestAccess_page/RequestAccessDropdown')
+WebUI.delay(1)
 CustomKeywords.'utilities.TestRunner.clickTab'('Trials/RequestAccess_page/AccessDatasetsDropdown')
 
 //Verify static data text for Request Access page
