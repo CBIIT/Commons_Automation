@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;navbar-link-home&quot;]</value>
+         <value>//*[@id=&quot;header-logo-home-link&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;navbar-link-home&quot;]</value>
-      <webElementGuid>d060afa2-82a7-4188-902a-2eda58d3a9d6</webElementGuid>
+      <value>//*[@id=&quot;header-logo-home-link&quot;]</value>
+      <webElementGuid>ed5bad21-f758-4da5-8fdc-e432780fc026</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
