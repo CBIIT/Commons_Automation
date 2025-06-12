@@ -539,17 +539,17 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 	@Keyword
 	public static void enterTargetDeliveryAndExpectedPublicationDate() {
 
+		String currentDate = new SimpleDateFormat("MM/dd/yyyy").format(new Date())
 		Thread.sleep(10000)
 		TestObject targetSubDeDate = findTestObject('CRDC/SubmissionRequest/Section-D/TragetSubmDelivryDate-TxtBx');
 		WebUI.scrollToElement(targetSubDeDate, 10)
 		WebUI.waitForElementPresent(targetSubDeDate, 10)
-		WebUI.setText(targetSubDeDate, getCurrentDate("MM/dd/yyyy"), FailureHandling.STOP_ON_FAILURE)
-		
+		WebUI.setText(targetSubDeDate, currentDate, FailureHandling.STOP_ON_FAILURE)
+
 		TestObject expectedPubData = findTestObject('CRDC/SubmissionRequest/Section-D/ExpctdPublicationDate-TxtBx');
 		WebUI.scrollToElement(expectedPubData, 10)
 		WebUI.waitForElementPresent(expectedPubData, 10)
-		WebUI.setText(expectedPubData, getCurrentDate("MM/dd/yyyy"), FailureHandling.STOP_ON_FAILURE)
-		
+		WebUI.setText(expectedPubData, currentDate, FailureHandling.STOP_ON_FAILURE)
 	}
 
 
@@ -1046,14 +1046,15 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 	public static void verifyDataTypes(String... buttonLable) {
 
 		TestData testData = findTestData("CRDC/SubmissionRequest/section-d");
-
+		String currentDate = new SimpleDateFormat("MM/dd/yyyy").format(new Date())
+		
 		actual = WebUI.getText(findTestObject(ePath+'TragetSubmDelivryDate-Txt'))
-		expctd = getCurrentDate("MM/dd/yyyy")
+		expctd = currentDate
 		KeywordUtil.logInfo("Actual target data submission delivery date is: " + actual +" Expected target data submission delivery date is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
 
 		actual = WebUI.getText(findTestObject(ePath+'ExpctdPubliDateSec-D-RevPage-Txt'))
-		expctd =  getCurrentDate("MM/dd/yyyy")
+		expctd =  currentDate
 		KeywordUtil.logInfo("Actual Publication date is: " + actual +"\nExpected Publication date is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
 		KeywordUtil.logInfo("Successfully verified Data Types delivery dates");

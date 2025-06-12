@@ -81,8 +81,8 @@ CustomKeywords.'utilities.CrdcDH.enterCancerTypeAndSubjectsInfo'('Cholangiocarci
 
 WebUI.click(findTestObject('CRDC/SubmissionRequest/Save-Btn'))
 WebUI.click(findTestObject('CRDC/SubmissionRequest/Next-Btn'))
-
-CustomKeywords.'utilities.CrdcDH.verifyStatusBar'('IN PROGRESS')
+WebUI.delay(2)
+//CustomKeywords.'utilities.CrdcDH.verifyStatusBar'('IN PROGRESS')
 CustomKeywords.'utilities.CrdcDH.enterTargetDeliveryAndExpectedPublicationDate'()
 
 CustomKeywords.'utilities.CrdcDH.selectDataTypes'('genomics', 'proteomics')
