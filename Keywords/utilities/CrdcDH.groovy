@@ -538,7 +538,7 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 	 */
 	@Keyword
 	public static void enterTargetDeliveryAndExpectedPublicationDate() {
-
+		TimeZone.setDefault(TimeZone.getTimeZone("UTC"))
 		String currentDate = new SimpleDateFormat("MM/dd/yyyy").format(new Date())
 		Thread.sleep(10000)
 		TestObject targetSubDeDate = findTestObject('CRDC/SubmissionRequest/Section-D/TragetSubmDelivryDate-TxtBx');
