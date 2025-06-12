@@ -539,7 +539,7 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 	 */
 	@Keyword
 	public static void enterTargetDeliveryAndExpectedPublicationDate() {
-		//TimeZone.setDefault(TimeZone.getTimeZone("UTC"))
+		TimeZone.setDefault(TimeZone.getTimeZone("EDT"))
 		
 		//String currentDate = new SimpleDateFormat("mm/dd/yyyy").format(new Date())
 		Thread.sleep(10000)
