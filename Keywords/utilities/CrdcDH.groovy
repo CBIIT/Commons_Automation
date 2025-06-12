@@ -539,27 +539,30 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 	 */
 	@Keyword
 	public static void enterTargetDeliveryAndExpectedPublicationDate() {
-		TimeZone.setDefault(TimeZone.getTimeZone("UTC"))
+		//TimeZone.setDefault(TimeZone.getTimeZone("UTC"))
 		
-		String currentDate = new SimpleDateFormat("MM/dd/yyyy").format(new Date())
+		//String currentDate = new SimpleDateFormat("mm/dd/yyyy").format(new Date())
 		Thread.sleep(10000)
+		
+		
+		//clearText(findTestObject(ePath+'ExpctdPubliDate-Clndr'))
+		//WebUI.setText(findTestObject(ePath+'ExpctdPubliDate-Clndr'), clearText() + getCurrentDate("MM/dd/yyyy"));
+		
+		
 		WebUI.takeScreenshot("./OutputFiles/BeforeEnteringData2.png")
-		TestObject targetSubDeDate = findTestObject('CRDC/SubmissionRequest/Section-D/TragetSubmDelivryDate-TxtBx');
+		//TestObject targetSubDeDate = findTestObject('CRDC/SubmissionRequest/Section-D/TragetSubmDelivryDate-TxtBx');
 		
+		selectTodayDate(findTestObject('CRDC/SubmissionRequest/Section-D/TragetSubmDelivryDate-Clnder'), findTestObject('CRDC/SubmissionRequest/Section-D/CalendarTodayDate-Btn'))
 		
-		WebUI.clearText(targetSubDeDate)
-		WebUI.setText(targetSubDeDate, Utils.getCurrentDate("MM/dd/yyyy"))
-		
-		
+		selectTodayDate(findTestObject('Object Repository/CRDC/SubmissionRequest/Section-D/ExpctdPubliDate-Clndr'), findTestObject('CRDC/SubmissionRequest/Section-D/CalendarTodayDate-Btn'))
 //		WebUI.scrollToElement(targetSubDeDate, 10)
 //		WebUI.waitForElementPresent(targetSubDeDate, 10)
 //		WebUI.setText(targetSubDeDate, currentDate, FailureHandling.STOP_ON_FAILURE)
-		WebUI.takeScreenshot("./OutputFiles/BeforeEnteringData3.png")
-		TestObject expectedPubData = findTestObject('CRDC/SubmissionRequest/Section-D/ExpctdPublicationDate-TxtBx');
-		WebUI.scrollToElement(expectedPubData, 10)
-		WebUI.waitForElementPresent(expectedPubData, 10)
-		WebUI.clearText(expectedPubData)
-		WebUI.setText(expectedPubData, Utils.getCurrentDate("MM/dd/yyyy"), FailureHandling.STOP_ON_FAILURE)
+//		WebUI.takeScreenshot("./OutputFiles/BeforeEnteringData3.png")
+//		TestObject expectedPubData = findTestObject('CRDC/SubmissionRequest/Section-D/ExpctdPublicationDate-TxtBx');
+//		WebUI.scrollToElement(expectedPubData, 10)
+//		WebUI.waitForElementPresent(expectedPubData, 10)
+//		WebUI.setText(expectedPubData, currentDate, FailureHandling.STOP_ON_FAILURE)
 	}
 
 
