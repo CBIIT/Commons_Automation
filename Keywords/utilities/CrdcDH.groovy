@@ -539,13 +539,15 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 	@Keyword
 	public static void enterTargetDeliveryAndExpectedPublicationDate() {
 		TimeZone.setDefault(TimeZone.getTimeZone("UTC"))
+		
 		String currentDate = new SimpleDateFormat("MM/dd/yyyy").format(new Date())
 		Thread.sleep(10000)
+		WebUI.takeScreenshot("./OutputFiles/BeforeEnteringData.png")
 		TestObject targetSubDeDate = findTestObject('CRDC/SubmissionRequest/Section-D/TragetSubmDelivryDate-TxtBx');
 		WebUI.scrollToElement(targetSubDeDate, 10)
 		WebUI.waitForElementPresent(targetSubDeDate, 10)
 		WebUI.setText(targetSubDeDate, currentDate, FailureHandling.STOP_ON_FAILURE)
-
+		WebUI.takeScreenshot("./OutputFiles/BeforeEnteringData2.png")
 		TestObject expectedPubData = findTestObject('CRDC/SubmissionRequest/Section-D/ExpctdPublicationDate-TxtBx');
 		WebUI.scrollToElement(expectedPubData, 10)
 		WebUI.waitForElementPresent(expectedPubData, 10)
