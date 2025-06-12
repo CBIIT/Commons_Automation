@@ -550,11 +550,11 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 		
 		
 		WebUI.takeScreenshot("./OutputFiles/BeforeEnteringData2.png")
+		WebUI.setText(findTestObject('CRDC/SubmissionRequest/Section-D/TragetSubmDelivryDate-TxtBx'), clearText() + getCurrentDate("MM/dd/yyyy"));
+		
+		WebUI.setText(findTestObject('CRDC/SubmissionRequest/Section-D/ExpctdPublicationDate-TxtBx'), clearText() + getCurrentDate("MM/dd/yyyy"));
 		//TestObject targetSubDeDate = findTestObject('CRDC/SubmissionRequest/Section-D/TragetSubmDelivryDate-TxtBx');
 		
-		selectTodayDate(findTestObject('CRDC/SubmissionRequest/Section-D/TragetSubmDelivryDate-Clnder'), findTestObject('CRDC/SubmissionRequest/Section-D/CalendarTodayDate-Btn'))
-		
-		selectTodayDate(findTestObject('Object Repository/CRDC/SubmissionRequest/Section-D/ExpctdPubliDate-Clndr'), findTestObject('CRDC/SubmissionRequest/Section-D/CalendarTodayDate-Btn'))
 //		WebUI.scrollToElement(targetSubDeDate, 10)
 //		WebUI.waitForElementPresent(targetSubDeDate, 10)
 //		WebUI.setText(targetSubDeDate, currentDate, FailureHandling.STOP_ON_FAILURE)
