@@ -87,6 +87,7 @@ public class CustomBrowserDriver {
 				Map<String, Object> chromePrefs = new HashMap<String, Object>()
 				chromePrefs.put("download.prompt_for_download", false)
 				options.setExperimentalOption("prefs", chromePrefs)
+				options.addArguments("--force-time-zone=America/New_York")
 				options.merge(dc);
 				drv  = new ChromeDriver(options)
 				DriverFactory.changeWebDriver(drv)
