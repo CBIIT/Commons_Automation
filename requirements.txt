@@ -3,3 +3,4 @@ pandasql
 openpyxl
 xlsxwriter
 pyotp
+tzdata
