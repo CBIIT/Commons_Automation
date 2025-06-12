@@ -528,6 +528,7 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 
 		WebUI.setText(findTestObject('CRDC/SubmissionRequest/Section-C/NumOfSubjectsIncludInSub-Txtbx'), testData.getValue('num-of-subjects-included', dataRowNum));
 		System.out.println("Successfully entered Data Access Types and Cancer Types information");
+		WebUI.takeScreenshot("./OutputFiles/BeforeEnteringData1.png")
 	}
 
 
@@ -542,16 +543,23 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 		
 		String currentDate = new SimpleDateFormat("MM/dd/yyyy").format(new Date())
 		Thread.sleep(10000)
-		WebUI.takeScreenshot("./OutputFiles/BeforeEnteringData.png")
-		TestObject targetSubDeDate = findTestObject('CRDC/SubmissionRequest/Section-D/TragetSubmDelivryDate-TxtBx');
-		WebUI.scrollToElement(targetSubDeDate, 10)
-		WebUI.waitForElementPresent(targetSubDeDate, 10)
-		WebUI.setText(targetSubDeDate, currentDate, FailureHandling.STOP_ON_FAILURE)
 		WebUI.takeScreenshot("./OutputFiles/BeforeEnteringData2.png")
+		TestObject targetSubDeDate = findTestObject('CRDC/SubmissionRequest/Section-D/TragetSubmDelivryDate-TxtBx');
+		
+		
+		WebUI.clearText(targetSubDeDate)
+		WebUI.setText(targetSubDeDate, Utils.getCurrentDate("MM/dd/yyyy"))
+		
+		
+//		WebUI.scrollToElement(targetSubDeDate, 10)
+//		WebUI.waitForElementPresent(targetSubDeDate, 10)
+//		WebUI.setText(targetSubDeDate, currentDate, FailureHandling.STOP_ON_FAILURE)
+		WebUI.takeScreenshot("./OutputFiles/BeforeEnteringData3.png")
 		TestObject expectedPubData = findTestObject('CRDC/SubmissionRequest/Section-D/ExpctdPublicationDate-TxtBx');
 		WebUI.scrollToElement(expectedPubData, 10)
 		WebUI.waitForElementPresent(expectedPubData, 10)
-		WebUI.setText(expectedPubData, currentDate, FailureHandling.STOP_ON_FAILURE)
+		WebUI.clearText(expectedPubData)
+		WebUI.setText(expectedPubData, Utils.getCurrentDate("MM/dd/yyyy"), FailureHandling.STOP_ON_FAILURE)
 	}
 
 
