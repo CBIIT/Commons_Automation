@@ -528,7 +528,7 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 
 		WebUI.setText(findTestObject('CRDC/SubmissionRequest/Section-C/NumOfSubjectsIncludInSub-Txtbx'), testData.getValue('num-of-subjects-included', dataRowNum));
 		System.out.println("Successfully entered Data Access Types and Cancer Types information");
-		WebUI.takeScreenshot("./OutputFiles/BeforeEnteringData1.png")
+		WebUI.takeScreenshot("./OutputFiles/BeforeEnteringData0.png")
 	}
 
 
@@ -543,16 +543,16 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 		
 		//String currentDate = new SimpleDateFormat("mm/dd/yyyy").format(new Date())
 		Thread.sleep(10000)
-		
+		WebUI.takeScreenshot("./OutputFiles/BeforeEnteringData1.png")
 		
 		//clearText(findTestObject(ePath+'ExpctdPubliDate-Clndr'))
 		//WebUI.setText(findTestObject(ePath+'ExpctdPubliDate-Clndr'), clearText() + getCurrentDate("MM/dd/yyyy"));
 		
 		
 		WebUI.takeScreenshot("./OutputFiles/BeforeEnteringData2.png")
-		WebUI.setText(findTestObject('CRDC/SubmissionRequest/Section-D/TragetSubmDelivryDate-TxtBx'), clearText() + getCurrentDate("MM/dd/yyyy"));
+		WebUI.setText(findTestObject('CRDC/SubmissionRequest/Section-D/TragetSubmDelivryDate-TxtBx'), clearText() + "05/12/2026");
 		
-		WebUI.setText(findTestObject('CRDC/SubmissionRequest/Section-D/ExpctdPublicationDate-TxtBx'), clearText() + getCurrentDate("MM/dd/yyyy"));
+		WebUI.setText(findTestObject('CRDC/SubmissionRequest/Section-D/ExpctdPublicationDate-TxtBx'), clearText() + "05/12/2026");
 		//TestObject targetSubDeDate = findTestObject('CRDC/SubmissionRequest/Section-D/TragetSubmDelivryDate-TxtBx');
 		
 //		WebUI.scrollToElement(targetSubDeDate, 10)
@@ -1062,12 +1062,12 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 		String currentDate = new SimpleDateFormat("MM/dd/yyyy").format(new Date())
 		
 		actual = WebUI.getText(findTestObject(ePath+'TragetSubmDelivryDate-Txt'))
-		expctd = currentDate
+		expctd = "05/12/2026";
 		KeywordUtil.logInfo("Actual target data submission delivery date is: " + actual +" Expected target data submission delivery date is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
 
 		actual = WebUI.getText(findTestObject(ePath+'ExpctdPubliDateSec-D-RevPage-Txt'))
-		expctd =  currentDate
+		expctd =  "05/12/2026"
 		KeywordUtil.logInfo("Actual Publication date is: " + actual +"\nExpected Publication date is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
 		KeywordUtil.logInfo("Successfully verified Data Types delivery dates");
