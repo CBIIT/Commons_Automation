@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
  */
 WebUI.closeBrowser()
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC03_ICDC_UC01_Breed-BassetHound.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC03_ICDC_UBC02_Breed-WestHighlandWhiteTerrier.xlsx')
 
 CustomKeywords.'utilities.TestRunner.clickTab'('Canine/Canine_PopUp_Continue_Btn')
 System.out.println ("Closed the popup window");
@@ -26,18 +26,18 @@ System.out.println ("Closed the popup window");
 WebUI.waitForElementPresent(findTestObject('Canine/NavBar/Canine_Cases_Btn'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('Canine/NavBar/Canine_Cases_Btn')
 
-
 WebUI.waitForElementPresent(findTestObject('Canine/Filter/Study/Canine_Filter_Study'), 5)
 CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Canine/Filter/Study/Canine_Filter_Study')
 
-WebUI.waitForElementPresent(findTestObject('Canine/Filter/Study/UC01_Chkbx'), 5)
-CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Canine/Filter/Study/UC01_Chkbx')
+WebUI.waitForElementPresent(findTestObject('Canine/Filter/Study/Canine_Filter_Study-UBC02_Chkbx'), 5)
+CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Canine/Filter/Study/Canine_Filter_Study-UBC02_Chkbx')
 
 WebUI.waitForElementPresent(findTestObject('Canine/Filter/Breed/BREED_Ddn'), 5)
-CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Canine/Filter/Breed/BREED_Ddn')
+CustomKeywords.'utilities.TestRunner.clickTab'('Canine/Filter/Breed/BREED_Ddn')
 
-WebUI.waitForElementPresent(findTestObject('Canine/Filter/Breed/BassHnd_Chkbx'), 5)
-CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Canine/Filter/Breed/BassHnd_Chkbx')
+WebUI.waitForElementPresent(findTestObject('Canine/Filter/Breed/WestHland_Chkbx'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('Canine/Filter/Breed/WestHland_Chkbx')
+
 
 //Read Statbar
 CustomKeywords.'utilities.TestRunner.readStatBarCanine'('Canine/StatBar/Canine_StatBar-Programs','Canine/StatBar/Canine_StatBar-Studies',

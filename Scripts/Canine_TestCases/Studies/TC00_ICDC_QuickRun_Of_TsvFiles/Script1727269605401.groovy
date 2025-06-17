@@ -37,7 +37,7 @@ import com.kms.katalon.core.util.KeywordUtil
 import java.nio.file.Paths
 
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC14_ICDC_STS01_Diagnosis-SoftTissueSarcoma.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC03_ICDC_UBC01_Breed-WestHighlandWhiteTerrier.xlsx')
 
 //CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py','TsvDataCases')
 //CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py','TsvDataSamples')

@@ -1,61 +1,61 @@
 type	case.case_record_id	sample_id	physical_sample_type	general_sample_pathology	tumor_sample_origin	summarized_sample_type	sample_site	sample_chronology	specific_sample_pathology	tumor_grade	date_of_sample_collection	sample_preservation	necropsy_sample	percentage_tumor
-sample	UBC02-699-989-2	UBC02-699-989-2-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Mid 	Before Treatment	Urothelial Carcinoma	4	2006-10-23	Snap Frozen 	No	>90%
-sample	UBC02-725-540-Sn	UBC02-725-540-Sn-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Mid	During Treatment	Urothelial Carcinoma	4	2007-10-10	Snap Frozen 	No	>90%
-sample	UBC02-726-843-Ab	UBC02-726-843-Ab-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Mid 	Before Treatment	Urothelial Carcinoma	4	2005-05-03	Snap Frozen 	No	>90%
-sample	UBC02-727-745-Po	UBC02-727-745-Po-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Trigone	Before Treatment	Urothelial Carcinoma	4	2005-08-01	Snap Frozen 	No	>90%
-sample	UBC02-728-463-Ch	UBC02-728-463-Ch-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Trigone	During Treatment	Urothelial Carcinoma	4	2006-09-05	Snap Frozen 	No	>90%
-sample	UBC02-730-901-Za	UBC02-730-901-Za-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Trigone	Before Treatment	Urothelial Carcinoma	4	2006-05-22	Snap Frozen 	No	>90%
-sample	UBC02-730-904-Ja	UBC02-730-904-Ja-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Trigone	During Treatment	Urothelial Carcinoma	3	2006-05-23	Snap Frozen 	No	>90%
-sample	UBC02-731-763-Mis	UBC02-731-763-Mis-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Apex 	Before Treatment	Urothelial Carcinoma	4	2006-08-04	Snap Frozen 	Yes	>90%
-sample	UBC02-731-958-57	UBC02-731-958-57-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Mid	During Treatment	Urothelial Carcinoma	3	2007-05-22	Snap Frozen 	No	>90%
-sample	UBC02-732-317-Je	UBC02-732-317-Je-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Urethra	Before Treatment	Urothelial Carcinoma	4	2006-09-19	Snap Frozen 	No	>90%
-sample	UBC02-733-364-Sp	UBC02-733-364-Sp-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Mid	During Treatment	Urothelial Carcinoma	4	2007-01-24	Snap Frozen 	No	>90%
-sample	UBC02-733-488-4	UBC02-733-488-4-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Urethra	Before Treatment	Urothelial Carcinoma	4	2007-01-16	Snap Frozen 	No	>90%
-sample	UBC02-733-548-58	UBC02-733-548-58-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Trigone	Before Treatment	Urothelial Carcinoma	4	2007-01-24	Snap Frozen 	No	>90%
-sample	UBC02-733-695-Da	UBC02-733-695-Da-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Urethra	Before Treatment	Urothelial Carcinoma	4	2007-02-05	Snap Frozen 	No	>90%
-sample	UBC02-733-858-7	UBC02-733-858-7-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Trigone	Before Treatment	Urothelial Carcinoma	4	2007-02-26	Snap Frozen 	No	>90%
-sample	UBC02-734-148-Mi	UBC02-734-148-Mi-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Trigone	Before Treatment	Urothelial Carcinoma	4	2007-03-26	Snap Frozen 	No	>90%
-sample	UBC02-734-223-8	UBC02-734-223-8-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Trigone	Before Treatment	Urothelial Carcinoma	4	2007-04-04	Snap Frozen 	No	>90%
-sample	UBC02-736-477-60	UBC02-736-477-60-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Mid 	Before Treatment	Urothelial Carcinoma	4	2007-10-24	Snap Frozen 	No	>90%
-sample	UBC02-737-562-59	UBC02-737-562-59-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Trigone	Before Treatment	Urothelial Carcinoma	3	2008-02-21	Snap Frozen 	No	>90%
-sample	UBC02-756-165-20	UBC02-756-165-20-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Apex 	Before Treatment	Urothelial Carcinoma	4	2016-08-10	Snap Frozen 	No	>90%
-sample	UBC02-758-158-54	UBC02-758-158-54-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Trigone	During Treatment	Urothelial Carcinoma	4	2016-05-06	Snap Frozen 	Yes	>90%
-sample	UBC02-765-478-68	UBC02-765-478-68-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Trigone	During Treatment	Urothelial Carcinoma	4	2017-01-17	Snap Frozen 	No	>90%
-sample	UBC02-774-569-51	UBC02-774-569-51-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Mid	During Treatment	Urothelial Carcinoma	Unknown	2015-06-30	Snap Frozen 	No	>90%
-sample	UBC02-774-615-70	UBC02-774-615-70-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Apex	Before Treatment	Urothelial Carcinoma	4	2016-11-15	Snap Frozen 	No	>90%
-sample	UBC02-774-859-1	UBC02-774-859-1-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Trigone	Before Treatment	Urothelial Carcinoma	3	2014-12-16	Snap Frozen 	No	>90%
-sample	UBC02-775-801-2	UBC02-775-801-2-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Trigone	Before Treatment	Urothelial Carcinoma	3	2014-12-17	Snap Frozen 	No	>90%
-sample	UBC02-776-675-63	UBC02-776-675-63-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Mid 	Before Treatment	Urothelial Carcinoma	4	2016-11-08	Snap Frozen 	No	>90%
-sample	UBC02-776-679-3	UBC02-776-679-3-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Trigone	Before Treatment	Urothelial Carcinoma	3	2015-02-10	Snap Frozen 	No	>90%
-sample	UBC02-777-587-16	UBC02-777-587-16-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Trigone	Before Treatment	Urothelial Carcinoma	3	2015-04-06	Snap Frozen 	No	>90%
-sample	UBC02-777-592-80	UBC02-777-592-80-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Mid	Before Treatment	Urothelial Carcinoma	4	2015-04-06	Snap Frozen 	No	>90%
-sample	UBC02-779-032-18	UBC02-779-032-18-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Trigone	During Treatment	Urothelial Carcinoma	4	2015-07-09	Snap Frozen 	No	>90%
-sample	UBC02-780-519-15	UBC02-780-519-15-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Trigone	Upon Relapse	Urothelial Carcinoma	4	2016-07-27	Snap Frozen 	No	>90%
-sample	UBC02-782-492-5	UBC02-782-492-5-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Mid	Before Treatment	Urothelial Carcinoma	3	2016-01-12	Snap Frozen 	No	>90%
-sample	UBC02-783-693-7	UBC02-783-693-7-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Urethra	Before Treatment	Urothelial Carcinoma	4	2016-03-25	Snap Frozen 	No	>90%
-sample	UBC02-784-128-53	UBC02-784-128-53-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Mid	During Treatment	Urothelial Carcinoma	4	2016-05-03	Snap Frozen 	No	>90%
-sample	UBC02-784-135-19	UBC02-784-135-19-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Trigone	Before Treatment	Urothelial Carcinoma	4	2016-08-02	Snap Frozen 	No	>90%
-sample	UBC02-784-373-9	UBC02-784-373-9-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Urethra	Before Treatment	Urothelial Carcinoma	4	2016-05-03	Snap Frozen 	No	>90%
-sample	UBC02-785-313-10	UBC02-785-313-10-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Trigone	Before Treatment	Urothelial Carcinoma	4	2016-06-28	Snap Frozen 	No	>90%
-sample	UBC02-785-315-11	UBC02-785-315-11-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Urethra	Before Treatment	Urothelial Carcinoma	2	2016-07-01	Snap Frozen 	No	>90%
-sample	UBC02-785-590-12	UBC02-785-590-12-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Urethra	Before Treatment	Urothelial Carcinoma	4	2016-07-12	Snap Frozen 	No	>90%
-sample	UBC02-786-694-64	UBC02-786-694-64-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Trigone	During Treatment	Urothelial Carcinoma	4	2016-09-13	Snap Frozen 	No	>90%
-sample	UBC02-786-695-61	UBC02-786-695-61-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Trigone	During Treatment	Urothelial Carcinoma	3	2016-09-12	Snap Frozen 	No	>90%
-sample	UBC02-787-089-62	UBC02-787-089-62-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Mid	Before Treatment	Urothelial Carcinoma	2	2016-10-07	Snap Frozen 	No	>90%
-sample	UBC02-787-915-73	UBC02-787-915-73-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Urethra	During Treatment	Urothelial Carcinoma	4	2016-11-22	Snap Frozen 	No	>90%
-sample	UBC02-788-241-72	UBC02-788-241-72-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Urethra	During Treatment	Urothelial Carcinoma	4	2016-12-13	Snap Frozen 	No	>90%
-sample	UBC02-788-334-71	UBC02-788-334-71-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Mid	During Treatment	Urothelial Carcinoma	Unknown	2016-12-19	Snap Frozen 	No	>90%
-sample	UBC02-788-700-66	UBC02-788-700-66-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Apex 	Before Treatment	Urothelial Carcinoma	4	2017-01-27	Snap Frozen 	No	>90%
-sample	UBC02-788-991-76	UBC02-788-991-76-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Urethra	During Treatment	Urothelial Carcinoma	4	2017-02-03	Snap Frozen 	No	>90%
-sample	UBC02-789-025-75	UBC02-789-025-75-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Trigone	During Treatment	Urothelial Carcinoma	4	2017-02-07	Snap Frozen 	No	>90%
-sample	UBC02-789-341-77	UBC02-789-341-77-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Apex	Before Treatment	Urothelial Carcinoma	2	2017-02-28	Snap Frozen 	No	>90%
-sample	UBC02-789-913-78	UBC02-789-913-78-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Mid 	Before Treatment	Urothelial Carcinoma	3	2017-04-03	Snap Frozen 	No	>90%
-sample	UBC02-795-409-2z	UBC02-795-409-2z-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Mid	Before Treatment	Urothelial Carcinoma	4	2018-02-06	Snap Frozen 	No	>90%
-sample	UBC02-795-868-3z	UBC02-795-868-3z-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Mid 	Before Treatment	Urothelial Carcinoma	4	2018-03-06	Snap Frozen 	No	>90%
-sample	UBC02-795-869-4z	UBC02-795-869-4z-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Urethra	Before Treatment	Urothelial Carcinoma	4	2018-03-06	Snap Frozen 	No	>90%
-sample	UBC02-796-233-1z	UBC02-796-233-1z-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Urethra	Before Treatment	Urothelial Carcinoma	3	2018-03-27	Snap Frozen 	No	>90%
-sample	UBC02-798-150-Hb	UBC02-798-150-Hb-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Urethra	During Treatment	Urothelial Carcinoma	3	2018-07-10	Snap Frozen 	No	>90%
-sample	UBC02-PCBCC-CDHMCL	UBC02-PCBCC-CDHMCL-CONT	Tissue	Normal	Not Applicable	Normal Tissue	Bladder Mucosa	Not Applicable	Not Applicable	Not Applicable	2013-03-21	Snap Frozen	Yes	Not Applicable
-sample	UBC02-PCBCC-CDGMDD	UBC02-PCBCC-CDGMDD-CONT	Tissue	Normal	Not Applicable	Normal Tissue	Bladder Mucosa	Not Applicable	Not Applicable	Not Applicable	2013-03-21	Snap Frozen	Yes	Not Applicable
-sample	UBC02-PCBCC-CDDMAH	UBC02-PCBCC-CDDMAH-CONT	Tissue	Normal	Not Applicable	Normal Tissue	Bladder Mucosa	Not Applicable	Not Applicable	Not Applicable	2013-03-21	Snap Frozen	Yes	Not Applicable
-sample	UBC02-PCBCC-CDEMBC	UBC02-PCBCC-CDEMBC-CONT	Tissue	Normal	Not Applicable	Normal Tissue	Bladder Mucosa	Not Applicable	Not Applicable	Not Applicable	2013-03-21	Snap Frozen	Yes	Not Applicable
+sample	UBC02-699-989-2	UBC02-699-989-2-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Mid 	Before Treatment	Urothelial Carcinoma	4	10/23/2006	Snap Frozen 	No	>90%
+sample	UBC02-725-540-Sn	UBC02-725-540-Sn-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Mid	During Treatment	Urothelial Carcinoma	4	10/10/2007	Snap Frozen 	No	>90%
+sample	UBC02-726-843-Ab	UBC02-726-843-Ab-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Mid 	Before Treatment	Urothelial Carcinoma	4	5/3/2005	Snap Frozen 	No	>90%
+sample	UBC02-727-745-Po	UBC02-727-745-Po-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Trigone	Before Treatment	Urothelial Carcinoma	4	8/1/2005	Snap Frozen 	No	>90%
+sample	UBC02-728-463-Ch	UBC02-728-463-Ch-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Trigone	During Treatment	Urothelial Carcinoma	4	9/5/2006	Snap Frozen 	No	>90%
+sample	UBC02-730-901-Za	UBC02-730-901-Za-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Trigone	Before Treatment	Urothelial Carcinoma	4	5/22/2006	Snap Frozen 	No	>90%
+sample	UBC02-730-904-Ja	UBC02-730-904-Ja-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Trigone	During Treatment	Urothelial Carcinoma	3	5/23/2006	Snap Frozen 	No	>90%
+sample	UBC02-731-763-Mis	UBC02-731-763-Mis-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Apex 	Before Treatment	Urothelial Carcinoma	4	8/4/2006	Snap Frozen 	Yes	>90%
+sample	UBC02-731-958-57	UBC02-731-958-57-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Mid	During Treatment	Urothelial Carcinoma	3	5/22/2007	Snap Frozen 	No	>90%
+sample	UBC02-732-317-Je	UBC02-732-317-Je-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Urethra	Before Treatment	Urothelial Carcinoma	4	9/19/2006	Snap Frozen 	No	>90%
+sample	UBC02-733-364-Sp	UBC02-733-364-Sp-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Mid	During Treatment	Urothelial Carcinoma	4	1/24/2007	Snap Frozen 	No	>90%
+sample	UBC02-733-488-4	UBC02-733-488-4-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Urethra	Before Treatment	Urothelial Carcinoma	4	1/16/2007	Snap Frozen 	No	>90%
+sample	UBC02-733-548-58	UBC02-733-548-58-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Trigone	Before Treatment	Urothelial Carcinoma	4	1/24/2007	Snap Frozen 	No	>90%
+sample	UBC02-733-695-Da	UBC02-733-695-Da-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Urethra	Before Treatment	Urothelial Carcinoma	4	2/5/2007	Snap Frozen 	No	>90%
+sample	UBC02-733-858-7	UBC02-733-858-7-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Trigone	Before Treatment	Urothelial Carcinoma	4	2/26/2007	Snap Frozen 	No	>90%
+sample	UBC02-734-148-Mi	UBC02-734-148-Mi-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Trigone	Before Treatment	Urothelial Carcinoma	4	3/26/2007	Snap Frozen 	No	>90%
+sample	UBC02-734-223-8	UBC02-734-223-8-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Trigone	Before Treatment	Urothelial Carcinoma	4	4/4/2007	Snap Frozen 	No	>90%
+sample	UBC02-736-477-60	UBC02-736-477-60-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Mid 	Before Treatment	Urothelial Carcinoma	4	10/24/2007	Snap Frozen 	No	>90%
+sample	UBC02-737-562-59	UBC02-737-562-59-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Trigone	Before Treatment	Urothelial Carcinoma	3	2/21/2008	Snap Frozen 	No	>90%
+sample	UBC02-756-165-20	UBC02-756-165-20-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Apex 	Before Treatment	Urothelial Carcinoma	4	8/10/2016	Snap Frozen 	No	>90%
+sample	UBC02-758-158-54	UBC02-758-158-54-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Trigone	During Treatment	Urothelial Carcinoma	4	5/6/2016	Snap Frozen 	Yes	>90%
+sample	UBC02-765-478-68	UBC02-765-478-68-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Trigone	During Treatment	Urothelial Carcinoma	4	1/17/2017	Snap Frozen 	No	>90%
+sample	UBC02-774-569-51	UBC02-774-569-51-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Mid	During Treatment	Urothelial Carcinoma	Unknown	6/30/2015	Snap Frozen 	No	>90%
+sample	UBC02-774-615-70	UBC02-774-615-70-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Apex	Before Treatment	Urothelial Carcinoma	4	11/15/2016	Snap Frozen 	No	>90%
+sample	UBC02-774-859-1	UBC02-774-859-1-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Trigone	Before Treatment	Urothelial Carcinoma	3	12/16/2014	Snap Frozen 	No	>90%
+sample	UBC02-775-801-2	UBC02-775-801-2-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Trigone	Before Treatment	Urothelial Carcinoma	3	12/17/2014	Snap Frozen 	No	>90%
+sample	UBC02-776-675-63	UBC02-776-675-63-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Mid 	Before Treatment	Urothelial Carcinoma	4	11/8/2016	Snap Frozen 	No	>90%
+sample	UBC02-776-679-3	UBC02-776-679-3-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Trigone	Before Treatment	Urothelial Carcinoma	3	2/10/2015	Snap Frozen 	No	>90%
+sample	UBC02-777-587-16	UBC02-777-587-16-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Trigone	Before Treatment	Urothelial Carcinoma	3	4/6/2015	Snap Frozen 	No	>90%
+sample	UBC02-777-592-80	UBC02-777-592-80-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Mid	Before Treatment	Urothelial Carcinoma	4	4/6/2015	Snap Frozen 	No	>90%
+sample	UBC02-779-032-18	UBC02-779-032-18-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Trigone	During Treatment	Urothelial Carcinoma	4	7/9/2015	Snap Frozen 	No	>90%
+sample	UBC02-780-519-15	UBC02-780-519-15-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Trigone	Upon Relapse	Urothelial Carcinoma	4	7/27/2016	Snap Frozen 	No	>90%
+sample	UBC02-782-492-5	UBC02-782-492-5-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Mid	Before Treatment	Urothelial Carcinoma	3	1/12/2016	Snap Frozen 	No	>90%
+sample	UBC02-783-693-7	UBC02-783-693-7-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Urethra	Before Treatment	Urothelial Carcinoma	4	3/25/2016	Snap Frozen 	No	>90%
+sample	UBC02-784-128-53	UBC02-784-128-53-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Mid	During Treatment	Urothelial Carcinoma	4	5/3/2016	Snap Frozen 	No	>90%
+sample	UBC02-784-135-19	UBC02-784-135-19-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Trigone	Before Treatment	Urothelial Carcinoma	4	8/2/2016	Snap Frozen 	No	>90%
+sample	UBC02-784-373-9	UBC02-784-373-9-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Urethra	Before Treatment	Urothelial Carcinoma	4	5/3/2016	Snap Frozen 	No	>90%
+sample	UBC02-785-313-10	UBC02-785-313-10-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Trigone	Before Treatment	Urothelial Carcinoma	4	6/28/2016	Snap Frozen 	No	>90%
+sample	UBC02-785-315-11	UBC02-785-315-11-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Urethra	Before Treatment	Urothelial Carcinoma	2	7/1/2016	Snap Frozen 	No	>90%
+sample	UBC02-785-590-12	UBC02-785-590-12-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Urethra	Before Treatment	Urothelial Carcinoma	4	7/12/2016	Snap Frozen 	No	>90%
+sample	UBC02-786-694-64	UBC02-786-694-64-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Trigone	During Treatment	Urothelial Carcinoma	4	9/13/2016	Snap Frozen 	No	>90%
+sample	UBC02-786-695-61	UBC02-786-695-61-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Trigone	During Treatment	Urothelial Carcinoma	3	9/12/2016	Snap Frozen 	No	>90%
+sample	UBC02-787-089-62	UBC02-787-089-62-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Mid	Before Treatment	Urothelial Carcinoma	2	10/7/2016	Snap Frozen 	No	>90%
+sample	UBC02-787-915-73	UBC02-787-915-73-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Urethra	During Treatment	Urothelial Carcinoma	4	11/22/2016	Snap Frozen 	No	>90%
+sample	UBC02-788-241-72	UBC02-788-241-72-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Urethra	During Treatment	Urothelial Carcinoma	4	12/13/2016	Snap Frozen 	No	>90%
+sample	UBC02-788-334-71	UBC02-788-334-71-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Mid	During Treatment	Urothelial Carcinoma	Unknown	12/19/2016	Snap Frozen 	No	>90%
+sample	UBC02-788-700-66	UBC02-788-700-66-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Apex 	Before Treatment	Urothelial Carcinoma	4	1/27/2017	Snap Frozen 	No	>90%
+sample	UBC02-788-991-76	UBC02-788-991-76-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Urethra	During Treatment	Urothelial Carcinoma	4	2/3/2017	Snap Frozen 	No	>90%
+sample	UBC02-789-025-75	UBC02-789-025-75-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Trigone	During Treatment	Urothelial Carcinoma	4	2/7/2017	Snap Frozen 	No	>90%
+sample	UBC02-789-341-77	UBC02-789-341-77-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Apex	Before Treatment	Urothelial Carcinoma	2	2/28/2017	Snap Frozen 	No	>90%
+sample	UBC02-789-913-78	UBC02-789-913-78-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Mid 	Before Treatment	Urothelial Carcinoma	3	4/3/2017	Snap Frozen 	No	>90%
+sample	UBC02-795-409-2z	UBC02-795-409-2z-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Mid	Before Treatment	Urothelial Carcinoma	4	2/6/2018	Snap Frozen 	No	>90%
+sample	UBC02-795-868-3z	UBC02-795-868-3z-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Bladder Mid 	Before Treatment	Urothelial Carcinoma	4	3/6/2018	Snap Frozen 	No	>90%
+sample	UBC02-795-869-4z	UBC02-795-869-4z-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Urethra	Before Treatment	Urothelial Carcinoma	4	3/6/2018	Snap Frozen 	No	>90%
+sample	UBC02-796-233-1z	UBC02-796-233-1z-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Urethra	Before Treatment	Urothelial Carcinoma	3	3/27/2018	Snap Frozen 	No	>90%
+sample	UBC02-798-150-Hb	UBC02-798-150-Hb-S1	Tissue	Malignant	Primary	Primary Malignant Tumor Tissue	Urethra	During Treatment	Urothelial Carcinoma	3	7/10/2018	Snap Frozen 	No	>90%
+sample	UBC02-PCBCC-CDHMCL	UBC02-PCBCC-CDHMCL-CONT	Tissue	Normal	Not Applicable	Normal Tissue	Bladder Mucosa	Not Applicable	Not Applicable	Not Applicable	3/21/2013	Snap Frozen	Yes	Not Applicable
+sample	UBC02-PCBCC-CDGMDD	UBC02-PCBCC-CDGMDD-CONT	Tissue	Normal	Not Applicable	Normal Tissue	Bladder Mucosa	Not Applicable	Not Applicable	Not Applicable	3/21/2013	Snap Frozen	Yes	Not Applicable
+sample	UBC02-PCBCC-CDDMAH	UBC02-PCBCC-CDDMAH-CONT	Tissue	Normal	Not Applicable	Normal Tissue	Bladder Mucosa	Not Applicable	Not Applicable	Not Applicable	3/21/2013	Snap Frozen	Yes	Not Applicable
+sample	UBC02-PCBCC-CDEMBC	UBC02-PCBCC-CDEMBC-CONT	Tissue	Normal	Not Applicable	Normal Tissue	Bladder Mucosa	Not Applicable	Not Applicable	Not Applicable	3/21/2013	Snap Frozen	Yes	Not Applicable
