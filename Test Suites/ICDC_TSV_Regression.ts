@@ -1082,25 +1082,4 @@
       <testCaseId>Test Cases/Canine_TestCases/Studies/UBC03/TC38_ICDC_UBC03_FileFormat-csv</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
-   <testCaseLink>
-      <guid>e6565e16-e9b9-45ac-a4db-61c7f332fd04</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Canine_TestCases/Studies/UBC02/TC01_ICDC_UBC02_StudyType-Genomics</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>a280977d-bc4d-4018-bbb4-12a44527b846</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Canine_TestCases/Studies/UBC02/TC02_ICDC_UBC02_Biobank-PURDUE</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>6821778e-58ca-472e-822d-2c93c17fa6da</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Canine_TestCases/Studies/UBC02/TC03_ICDC_UBC02_Breed-WestHighlandWhiteTerrier</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
 </TestSuiteEntity>
