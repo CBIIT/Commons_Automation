@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[text()='Integrated Canine Data Commons']/../following-sibling::div[2]</value>
+         <value>//div[text()='Integrated Canine Data Commons']/../following-sibling::div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[text()='Integrated Canine Data Commons']/../following-sibling::div[2]</value>
-      <webElementGuid>bb13f0fa-7131-4bdd-9eaf-c00b967db97e</webElementGuid>
+      <value>//div[text()='Integrated Canine Data Commons']/../following-sibling::div</value>
+      <webElementGuid>88e951d5-0070-48d6-b194-d572bbbbaa0e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

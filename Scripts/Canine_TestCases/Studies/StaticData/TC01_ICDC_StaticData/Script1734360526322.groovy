@@ -46,6 +46,7 @@ CustomKeywords.'utilities.TestRunner.verifyStaticData'("V_ResourcesDeveloperPage
 
 //Navigate to About > Purpose
 WebUI.click(findTestObject('Canine/NavBar/Canine_About_Btn'))
+WebUI.waitForElementPresent(findTestObject('Canine/NavBar/Canine_About_Btn'), 5)
 WebUI.click(findTestObject('Canine/NavBar/Canine_AboutPurpose_Btn'))
 
 //Verify static data text - Purpose page

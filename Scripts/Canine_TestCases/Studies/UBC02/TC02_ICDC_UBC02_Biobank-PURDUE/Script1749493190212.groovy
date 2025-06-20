@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
  */
 WebUI.closeBrowser()
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC02_ICDC_UC01_Biobank-NotApplicable.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC02_ICDC_UBC02_Biobank-PURDUE.xlsx')
 
 CustomKeywords.'utilities.TestRunner.clickTab'('Canine/Canine_PopUp_Continue_Btn')
 System.out.println ("Closed the popup window");
@@ -30,15 +30,15 @@ CustomKeywords.'utilities.TestRunner.clickTab'('Canine/NavBar/Canine_Cases_Btn')
 WebUI.waitForElementPresent(findTestObject('Canine/Filter/Study/Canine_Filter_Study'), 5)
 CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Canine/Filter/Study/Canine_Filter_Study')
 
-WebUI.waitForElementPresent(findTestObject('Canine/Filter/Study/UC01_Chkbx'), 5)
-CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Canine/Filter/Study/UC01_Chkbx')
+WebUI.waitForElementPresent(findTestObject('Canine/Filter/Study/Canine_Filter_Study-UBC02_Chkbx'), 5)
+CustomKeywords.'utilities.TestRunner.clickTabCanineStat'('Canine/Filter/Study/Canine_Filter_Study-UBC02_Chkbx')
 
 WebUI.verifyElementPresent(findTestObject('Canine/Filter/Biobank/Biobank_Ddn'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('Canine/Filter/Biobank/Biobank_Ddn')
 
 
-WebUI.verifyElementPresent(findTestObject('Canine/Filter/Biobank/NotApplicable_Chkbx'), 5) 
-CustomKeywords.'utilities.TestRunner.clickTab'('Canine/Filter/Biobank/NotApplicable_Chkbx') 
+WebUI.verifyElementPresent(findTestObject('Canine/Filter/Biobank/Purdue_Chkbx'), 5) 
+CustomKeywords.'utilities.TestRunner.clickTab'('Canine/Filter/Biobank/Purdue_Chkbx') 
 
 //Read Statbar
 CustomKeywords.'utilities.TestRunner.readStatBarCanine'('Canine/StatBar/Canine_StatBar-Programs','Canine/StatBar/Canine_StatBar-Studies',
