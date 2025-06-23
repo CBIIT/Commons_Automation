@@ -68,6 +68,8 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.Cookie as Cookie
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
+import com.kms.katalon.core.configuration.RunConfiguration;
+import java.nio.file.Files;
 
 
 class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
@@ -1277,4 +1279,246 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 	public static void clickAccountDropdown() {
 		clickTab('CRDC/Login/UserProfile-Dd')
 	}
-}//class ends
+
+	/**
+	 * This function verifies the headers of the data submission dashboard's tabs: Upload Activities, Validation Results, Data View
+	 */
+	@Keyword
+	public void verifyDataSubmissionTableHeaders(String tab) {
+		try {
+			//Get list of expected headers
+			clickTab('CRDC/DataSubmissions/Validation/' + tab + '-Tab')
+			List<String> expectedHeaders = Utils.getListFromDataFile('Data Files/CRDC/DataSubmissions/Headers-' + tab)
+
+			//Get list of actual headers
+			List<WebElement> headerList = Utils.getListWebElements('CRDC/DataSubmissions/Validation/Table-Headers')
+			List<String> actualHeaders = new ArrayList<>();
+			for (WebElement header : headerList) {
+				actualHeaders.add(header.getText().trim());
+			}
+
+			//Verify headers
+			if (!actualHeaders.equals(expectedHeaders)) {
+				KeywordUtil.markFailed("Header mismatch. Expected: " + expectedHeaders + ", Actual: " + actualHeaders);
+			}
+			else {
+				KeywordUtil.markPassed("Headers match: " + actualHeaders);
+			}
+		} catch (Exception e) {
+			KeywordUtil.markFailed("Exception occurred: " + e.getMessage());
+		}
+	}
+
+	//	/**
+	//	 * This function verifies the rows of the Data View tab matches with the metadata file
+	//	 */
+	//	@Keyword
+	//	public void verifyDataViewMatchesMetadata(String metadataFile, String node) {
+	//		try {
+	//			//Select node from dropdown
+	//			WebUI.waitForElementClickable(findTestObject('CRDC/DataSubmissions/Validation/NodeType-Ddn'), 30)
+	//			WebUI.click(findTestObject('CRDC/DataSubmissions/Validation/NodeType-Ddn'))
+	//			WebUI.delay(1)
+	//			WebElement option = driver.findElement(By.xpath("//li[normalize-space(text())='" + node + "']"))
+	//			option.click()
+	//			WebUI.delay(1)
+	//
+	//			// Load and parse the TSV file
+	//			Path filePath = Paths.get(RunConfiguration.getProjectDir(), metadataFile);
+	//			List<String> lines = Files.readAllLines(filePath);
+	//
+	//			if (lines.size() <= 1) {
+	//				KeywordUtil.markFailed("TSV file does not contain data rows.");
+	//			}
+	//
+	//			// Skip the first column ('type') in TSV
+	//			List<List<String>> expectedRows = new ArrayList<>();
+	//			for (int i = 1; i < lines.size(); i++) {
+	//				String[] fields = lines.get(i).split("\t", -1); // retain empty fields
+	//				List<String> trimmed = new ArrayList<>();
+	//				for (int j = 1; j < fields.length; j++) {
+	//					// skip column 0 (type)
+	//					trimmed.add(fields[j].trim());
+	//				}
+	//				expectedRows.add(trimmed);
+	//			}
+	//
+	//			// Get actual rows from UI
+	//			List<WebElement> actualRowElements = Utils.getListWebElements('CRDC/DataSubmissions/Validation/Table-Row');
+	//
+	//			if (actualRowElements.size() != expectedRows.size()) {
+	//				KeywordUtil.markFailed("Row count mismatch: UI has " + actualRowElements.size() +
+	//						" rows, but file has " + expectedRows.size());
+	//			}
+	//
+	//			for (int i = 0; i < actualRowElements.size(); i++) {
+	//				WebElement row = actualRowElements.get(i);
+	//				List<WebElement> cells = row.findElements(org.openqa.selenium.By.tagName("td"));
+	//
+	//				List<String> actualValues = new ArrayList<>();
+	//				List<String> uiValues = new ArrayList<>();
+	//
+	//				for (int j = 0; j < cells.size(); j++) {
+	//					if (j == 0 || j == 2) continue; // Skip first and Status columns
+	//
+	//					WebElement cell = cells.get(j);
+	//					String actual;
+	//					String uiText;
+	//
+	//					try {
+	//						WebElement span = cell.findElement(org.openqa.selenium.By.tagName("span"));
+	//						String ariaLabel = span.getAttribute("aria-label");
+	//						uiText = span.getText().trim();
+	//						actual = (ariaLabel != null && !ariaLabel.isEmpty()) ? ariaLabel.trim() : cell.getText().trim();
+	//					} catch (Exception e) {
+	//						actual = cell.getText().trim(); // fallback if no span or aria-label
+	//					}
+	//
+	//					actualValues.add(actual);
+	//					uiValues.add(uiText);
+	//				}
+	//
+	//
+	//				List<String> expectedValues = expectedRows.get(i);
+	//
+	//				if (actualValues.size() != expectedValues.size()) {
+	//					KeywordUtil.markFailed("Column count mismatch on row " + (i + 1) +
+	//							": Expected " + expectedValues.size() + ", Found " + actualValues.size());
+	//					continue;
+	//				}
+	//
+	//				for (int j = 0; j < expectedValues.size(); j++) {
+	//					String expected = expectedValues.get(j);
+	//					String actual = actualValues.get(j);
+	//					String actualUi = uiValues.get(j);
+	//					String cleanedUi = actualUi.replace("...", "").trim();
+	//
+	//					KeywordUtil.logInfo("Expected: " + expected + " | Actual: " + actual + " | Actual UI: " + actualUi + " | Cleaned UI: " + cleanedUi);
+	//
+	//					if (!actual.equals(expected) || !expected.contains(cleanedUi)) {
+	//						KeywordUtil.markFailed("Mismatch in row " + (i + 1) + ", column " + (j + 1) +
+	//								": Expected to find '" + expected + "' in '" + actual + "'");
+	//					}
+	//				}
+	//			}
+	//
+	//			KeywordUtil.logInfo("Finished verifying-- Data View tab in UI matches the contents of the TSV (ignoring type and Status columns).");
+	//		} catch (Exception e) {
+	//			KeywordUtil.markFailed("Exception in verifyDataViewMatchesMetadata(): " + e.getMessage());
+	//		}
+	//	}
+
+	@Keyword
+	public void verifyDataViewMatchesMetadata(String metadataFile, String node) {
+		try {
+			WebDriver driver = DriverFactory.getWebDriver();
+
+			// Step 1: Load and parse TSV
+			Path filePath = Paths.get(RunConfiguration.getProjectDir(), metadataFile);
+			List<String> lines = Files.readAllLines(filePath);
+			if (lines.size() <= 1) {
+				KeywordUtil.markFailed("TSV file does not contain data rows.");
+			}
+
+			// Step 2: Determine which columns to keep (skip 'type' and fields with '.')
+			String[] headers = lines.get(0).split("\t", -1);
+			List<Integer> includedIndexes = new ArrayList<>();
+			for (int j = 1; j < headers.length; j++) {
+				if (!headers[j].contains(".")) {
+					includedIndexes.add(j);
+				}
+			}
+
+			// Step 3: Load expected values from filtered columns
+			List<List<String>> expectedRows = new ArrayList<>();
+			for (int i = 1; i < lines.size(); i++) {
+				String[] fields = lines.get(i).split("\t", -1);
+				List<String> row = new ArrayList<>();
+				for (int index : includedIndexes) {
+					String val = fields[index].trim();
+					if (val.startsWith("\"") && val.endsWith("\"") && val.length() > 1) {
+						val = val.substring(1, val.length() - 1);
+					}
+					row.add(val);
+				}
+				expectedRows.add(row);
+			}
+
+
+			// Step 4: Select node from dropdown and wait for table refresh
+			WebUI.waitForElementClickable(findTestObject('CRDC/DataSubmissions/Validation/NodeType-Ddn'), 30);
+			WebUI.click(findTestObject('CRDC/DataSubmissions/Validation/NodeType-Ddn'));
+			WebUI.delay(1);
+			WebElement option = driver.findElement(By.xpath("//li[normalize-space(text())='" + node + "']"));
+			option.click();
+			WebUI.delay(1)
+
+			// Step 5: Get fresh list of actual UI rows
+			List<WebElement> actualRowElements = Utils.getListWebElements("CRDC/DataSubmissions/Validation/Table-Row");
+			if (actualRowElements.size() == 20) {
+				KeywordUtil.logInfo("Full table");
+			}
+			else if (actualRowElements.size() != expectedRows.size()) {
+				KeywordUtil.markFailed("Row count mismatch: UI has " + actualRowElements.size() + ", but file has " + expectedRows.size());
+			}
+
+			// Step 6: Compare row by row
+			for (int i = 0; i < actualRowElements.size(); i++) {
+				WebElement row = actualRowElements.get(i);
+				List<WebElement> cells = row.findElements(By.tagName("td"));
+
+				List<String> actualValues = new ArrayList<>();
+				List<String> uiValues = new ArrayList<>();
+				int uiColIndex = 0;
+
+				for (int j = 0; j < cells.size(); j++) {
+					if (j == 0 || j == 2) continue; // skip checkbox and status
+
+					if (uiColIndex >= includedIndexes.size()) break;
+
+					WebElement cell = cells.get(j);
+					String actual;
+					String uiText = "";
+
+					try {
+						WebElement span = cell.findElement(By.tagName("span"));
+						String ariaLabel = span.getAttribute("aria-label");
+						uiText = span.getText().trim();
+						actual = (ariaLabel != null && !ariaLabel.isEmpty()) ? ariaLabel.trim() : cell.getText().trim();
+					} catch (Exception e) {
+						actual = cell.getText().trim();
+						uiText = actual;
+					}
+
+					actualValues.add(actual);
+					uiValues.add(uiText);
+					uiColIndex++;
+				}
+
+				List<String> expectedValues = expectedRows.get(i);
+				if (actualValues.size() != expectedValues.size()) {
+					KeywordUtil.markFailed("Column count mismatch on row " + (i + 1) + ": Expected " + expectedValues.size() + ", Found " + actualValues.size());
+					continue;
+				}
+
+				for (int j = 0; j < expectedValues.size(); j++) {
+					String expected = expectedValues.get(j);
+					String actual = actualValues.get(j);
+					String actualUi = uiValues.get(j);
+					String cleanedUi = actualUi.replace("...", "").trim();
+
+					KeywordUtil.logInfo("Expected: " + expected + " | Actual: " + actual + " | Actual UI: " + actualUi + " | Cleaned UI: " + cleanedUi);
+
+					if (!actual.equals(expected) || !expected.contains(cleanedUi)) {
+						KeywordUtil.markFailed("Mismatch in row " + (i + 1) + ", column " + (j + 1) +
+								": Expected to find '" + cleanedUi + "' but actual was '" + expected + "'");
+					}
+				}
+			}
+
+			KeywordUtil.logInfo("Finished verifying-- Data View tab in UI matches the contents of the TSV (ignoring type and reference columns).");
+		} catch (Exception e) {
+			KeywordUtil.markFailed("Exception in verifyDataViewMatchesMetadata(): " + e.getMessage());
+		}
+	}
+}

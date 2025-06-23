@@ -62,62 +62,60 @@ class API_Functions {
 			testCaseName = RunConfiguration.getExecutionSourceName()
 		}
 		println("This is the test case name: " + testCaseName)
-		
-// Load the API request object
-    RequestObject request = findTestObject(apiObjectPath)
-	println("This is the request URL: " + request.getRestUrl())
 
-    // Set timeouts using global configuration
-    request.setHttpHeaderProperties([
-        new TestObjectProperty('Connection-Timeout', com.kms.katalon.core.testobject.ConditionType.EQUALS, '10000'),
-        new TestObjectProperty('Socket-Timeout', com.kms.katalon.core.testobject.ConditionType.EQUALS, '10000')
-    ])
+		// Load the API request object
+		RequestObject request = findTestObject(apiObjectPath)
+		println("This is the request URL: " + request.getRestUrl())
+
+		// Set timeouts using global configuration
+		request.setHttpHeaderProperties([
+			new TestObjectProperty('Connection-Timeout', com.kms.katalon.core.testobject.ConditionType.EQUALS, '10000'),
+			new TestObjectProperty('Socket-Timeout', com.kms.katalon.core.testobject.ConditionType.EQUALS, '10000')
+		])
 		// Send the API request
 		ResponseObject response = WS.sendRequest(findTestObject(apiObjectPath))
 		println("Response Status: " + response.getStatusCode())
 		println("Response Body: " + response.getResponseBodyContent())
-/*
-		// Extract the API name to use as part of the file name
-		String apiName = apiObjectPath.split('/').last().replaceAll(' ', '_')
-
-		// Combine test case name and API name for the file name
-		File responseFile = new File(outputDirectory + testCaseName + "_" + apiName + '.txt')
-
-		// Write the response to the file
-		responseFile.write("Response Status: " + response.getStatusCode() + "\n")
-		responseFile << "Response Body: " + response.getResponseBodyContent() + "\n"
-*/
+		/*
+		 // Extract the API name to use as part of the file name
+		 String apiName = apiObjectPath.split('/').last().replaceAll(' ', '_')
+		 // Combine test case name and API name for the file name
+		 File responseFile = new File(outputDirectory + testCaseName + "_" + apiName + '.txt')
+		 // Write the response to the file
+		 responseFile.write("Response Status: " + response.getStatusCode() + "\n")
+		 responseFile << "Response Body: " + response.getResponseBodyContent() + "\n"
+		 */
 		return response
 	}
 
 
 
-//	// Function to parse JSON response
-//	static def parseResponse(ResponseObject response) {
-//		JsonSlurper jsonSlurper = new JsonSlurper()
-//		return jsonSlurper.parseText(response.getResponseBodyContent())
-//	}
-	
+	//	// Function to parse JSON response
+	//	static def parseResponse(ResponseObject response) {
+	//		JsonSlurper jsonSlurper = new JsonSlurper()
+	//		return jsonSlurper.parseText(response.getResponseBodyContent())
+	//	}
+
 	// Function to parse JSON response
 	static def parseResponse(ResponseObject response) {
-	    if (response == null) {
-	        KeywordUtil.markWarning("Response object is null.")
-	        return null
-	    }
-	
-	    String rawBody = response.getResponseBodyContent()
-	
-	    try {
-	        JsonSlurper jsonSlurper = new JsonSlurper()
-	        return jsonSlurper.parseText(rawBody)
-	    } catch (Exception e) {
-	        KeywordUtil.markWarning("Failed to parse JSON response: ${e.message}")
-	        return null
-	    }
+		if (response == null) {
+			KeywordUtil.markWarning("Response object is null.")
+			return null
+		}
+
+		String rawBody = response.getResponseBodyContent()
+
+		try {
+			JsonSlurper jsonSlurper = new JsonSlurper()
+			return jsonSlurper.parseText(rawBody)
+		} catch (Exception e) {
+			KeywordUtil.markWarning("Failed to parse JSON response: ${e.message}")
+			return null
+		}
 	}
 
 
-	
+
 
 	// Function to find the keyed entry in the response
 	static def findEntry(def responseData, def key) {
@@ -149,129 +147,131 @@ class API_Functions {
 					KeywordUtil.markFailedAndStop("No entry with 'source: Treehouse' found in the response.")
 				}
 				return treehouseEntry
-				
+
 			case 'ccdi-ecDNA':
 				def ecdnaEntry = responseData.find { it.source == 'ccdi-ecDNA' }
 				if (ecdnaEntry == null) {
 					KeywordUtil.markFailedAndStop("No entry with 'source: ccdi-ecDNA' found in the response.")
 				}
 				return ecdnaEntry
-				
+
 			default:
 				KeywordUtil.markFailedAndStop("No entry found for the provided key: ${key}")
 		}
 	}
 
-//	// Function to compare API responses
-//	static void compareAPIResponses(def singleNodeData, def AlextractedEntry, def key) {
-//		boolean isContained = true
-//
-//		// Compare 'total' and 'missing' properties
-//		if (AlextractedEntry.total != singleNodeData.total) {
-//			isContained = false
-//			KeywordUtil.markWarning("Mismatch in 'total' property. Expected: ${singleNodeData.total}, Found: ${AlextractedEntry.total}")
-//		}
-//		if (AlextractedEntry.missing != singleNodeData.missing) {
-//			isContained = false
-//			KeywordUtil.markWarning("Mismatch in 'missing' property. Expected: ${singleNodeData.missing}, Found: ${AlextractedEntry.missing}")
-//		}
-//
-//		// Compare 'values' array
-//		singleNodeData.values.each { singleNodeValue ->
-//			def matchingValue = AlextractedEntry.values.find { it.value == singleNodeValue.value }
-//
-//			if (matchingValue == null) {
-//				isContained = false
-//				KeywordUtil.markWarning("Value '${singleNodeValue.value}' from single node data not found in ${key} entry.")
-//			} else if (matchingValue.count != singleNodeValue.count) {
-//				isContained = false
-//				KeywordUtil.markWarning("Count mismatch for value '${singleNodeValue.value}'. Expected: ${singleNodeValue.count}, Found: ${matchingValue.count}")
-//			}
-//		}
-//
-//		assert isContained : "The ${key} entry does not match the singleNode data."
-//	}
+	//	// Function to compare API responses
+	//	static void compareAPIResponses(def singleNodeData, def AlextractedEntry, def key) {
+	//		boolean isContained = true
+	//
+	//		// Compare 'total' and 'missing' properties
+	//		if (AlextractedEntry.total != singleNodeData.total) {
+	//			isContained = false
+	//			KeywordUtil.markWarning("Mismatch in 'total' property. Expected: ${singleNodeData.total}, Found: ${AlextractedEntry.total}")
+	//		}
+	//		if (AlextractedEntry.missing != singleNodeData.missing) {
+	//			isContained = false
+	//			KeywordUtil.markWarning("Mismatch in 'missing' property. Expected: ${singleNodeData.missing}, Found: ${AlextractedEntry.missing}")
+	//		}
+	//
+	//		// Compare 'values' array
+	//		singleNodeData.values.each { singleNodeValue ->
+	//			def matchingValue = AlextractedEntry.values.find { it.value == singleNodeValue.value }
+	//
+	//			if (matchingValue == null) {
+	//				isContained = false
+	//				KeywordUtil.markWarning("Value '${singleNodeValue.value}' from single node data not found in ${key} entry.")
+	//			} else if (matchingValue.count != singleNodeValue.count) {
+	//				isContained = false
+	//				KeywordUtil.markWarning("Count mismatch for value '${singleNodeValue.value}'. Expected: ${singleNodeValue.count}, Found: ${matchingValue.count}")
+	//			}
+	//		}
+	//
+	//		assert isContained : "The ${key} entry does not match the singleNode data."
+	//	}
 
 	// Function to compare API responses
 	static void compareAPIResponses(def singleNodeData, def AlextractedEntry, def key) {
-	   
-	    if (singleNodeData == null) {
-	        assert false : "${key} - singleNodeData is null."
-	    }
-	    if (AlextractedEntry == null) {
-	        assert false : "${key} - AlextractedEntry is null."
-	    }
-	
-	    boolean isContained = true
-	
-	    // Check for mismatch in 'errors' field
-	    boolean singleHasErrors = singleNodeData.containsKey("errors")
-	    boolean aggHasErrors = AlextractedEntry.containsKey("errors")
-	
-	    if (singleHasErrors != aggHasErrors) {
-	        KeywordUtil.markWarning("${key} - Mismatch in'errors'. Single node has errors: ${singleHasErrors}, Aggregated has errors: ${aggHasErrors}")
-	        assert false : "Mismatch in errors for ${key}."
-	    }
-	
-	    // If both contain 'errors', compare the messages
-	    if (singleHasErrors && aggHasErrors) {
-	        def singleErrors = singleNodeData.errors
-	        def aggErrors = AlextractedEntry.errors
-	
-	        if (singleErrors.size() != aggErrors.size()) {
-	            isContained = false
-	            KeywordUtil.markWarning("${key} - Error size mismatch. Single: ${singleErrors.size()}, Aggregated: ${aggErrors.size()}")
-	        } else {
-	            singleErrors.eachWithIndex { err, i ->
-	                if (err.message != aggErrors[i].message) {
-	                    isContained = false
-	                    KeywordUtil.markWarning("${key} - Mismatch in error message at index ${i}. Expected: '${err.message}', Found: '${aggErrors[i].message}'")
-	                }
-	            }
-	        }
-	        // Skip the rest of the checks if error is present and compared
-	        assert isContained : "The ${key} entry has mismatched error content."
-	        return
-	    }
-	
-	    // Compare 'total' and 'missing' properties
-	    if (AlextractedEntry.total != singleNodeData.total) {
-	        isContained = false
-	        KeywordUtil.markWarning("Mismatch in 'total' property. Expected: ${singleNodeData.total}, Found: ${AlextractedEntry.total}")
-	    }
-	
-	    if (AlextractedEntry.missing != singleNodeData.missing) {
-	        isContained = false
-	        KeywordUtil.markWarning("Mismatch in 'missing' property. Expected: ${singleNodeData.missing}, Found: ${AlextractedEntry.missing}")
-	    }
-	
-	    // Compare 'values' arrays (even if they are empty)
-	    def nodeValues = singleNodeData.values ?: []
-	    def aggValues = AlextractedEntry.values ?: []
-	
-	    def aggMap = [:]
-	    aggValues.each { entry -> aggMap[entry.value] = entry.count }
-	
-	    nodeValues.each { nodeEntry ->
-	        def expectedValue = nodeEntry.value
-	        def expectedCount = nodeEntry.count
-	
-	        if (!aggMap.containsKey(expectedValue)) {
-	            isContained = false
-	            KeywordUtil.markWarning("Value '${expectedValue}' from single node data not found in ${key} entry.")
-	        } else if (aggMap[expectedValue] != expectedCount) {
-	            isContained = false
-	            KeywordUtil.markWarning("Count mismatch for value '${expectedValue}'. Expected: ${expectedCount}, Found: ${aggMap[expectedValue]}")
-	        }
-	    }
-	
-	    assert isContained : "The ${key} entry does not match the single node data."
+
+		KeywordUtil.logInfo("${key} entry in AL - ${AlextractedEntry}")
+			
+		if (singleNodeData == null) {
+			assert false : "${key} - singleNodeData is null."
+		}
+		if (AlextractedEntry == null) {
+			assert false : "${key} - AlextractedEntry is null."
+		}
+
+		boolean isContained = true
+
+		// Check for mismatch in 'errors' field
+		boolean singleHasErrors = singleNodeData.containsKey("errors")
+		boolean aggHasErrors = AlextractedEntry.containsKey("errors")
+
+		if (singleHasErrors != aggHasErrors) {
+			KeywordUtil.markWarning("${key} - Mismatch in'errors'. Single node has errors: ${singleHasErrors}, Aggregated has errors: ${aggHasErrors}")
+			assert false : "Mismatch in errors for ${key}."
+		}
+
+		// If both contain 'errors', compare the messages
+		if (singleHasErrors && aggHasErrors) {
+			def singleErrors = singleNodeData.errors
+			def aggErrors = AlextractedEntry.errors
+
+			if (singleErrors.size() != aggErrors.size()) {
+				isContained = false
+				KeywordUtil.markWarning("${key} - Error size mismatch. Single: ${singleErrors.size()}, Aggregated: ${aggErrors.size()}")
+			} else {
+				singleErrors.eachWithIndex { err, i ->
+					if (err.message != aggErrors[i].message) {
+						isContained = false
+						KeywordUtil.markWarning("${key} - Mismatch in error message at index ${i}. Expected: '${err.message}', Found: '${aggErrors[i].message}'")
+					}
+				}
+			}
+			// Skip the rest of the checks if error is present and compared
+			assert isContained : "The ${key} entry has mismatched error content."
+			return
+		}
+
+		// Compare 'total' and 'missing' properties
+		if (AlextractedEntry.total != singleNodeData.total) {
+			isContained = false
+			KeywordUtil.markWarning("Mismatch in 'total' property. Expected: ${singleNodeData.total}, Found: ${AlextractedEntry.total}")
+		}
+
+		if (AlextractedEntry.missing != singleNodeData.missing) {
+			isContained = false
+			KeywordUtil.markWarning("Mismatch in 'missing' property. Expected: ${singleNodeData.missing}, Found: ${AlextractedEntry.missing}")
+		}
+
+		// Compare 'values' arrays (even if they are empty)
+		def nodeValues = singleNodeData.values ?: []
+		def aggValues = AlextractedEntry.values ?: []
+
+		def aggMap = [:]
+		aggValues.each { entry -> aggMap[entry.value] = entry.count }
+
+		nodeValues.each { nodeEntry ->
+			def expectedValue = nodeEntry.value
+			def expectedCount = nodeEntry.count
+
+			if (!aggMap.containsKey(expectedValue)) {
+				isContained = false
+				KeywordUtil.markWarning("Value '${expectedValue}' from single node data not found in ${key} entry.")
+			} else if (aggMap[expectedValue] != expectedCount) {
+				isContained = false
+				KeywordUtil.markWarning("Count mismatch for value '${expectedValue}'. Expected: ${expectedCount}, Found: ${aggMap[expectedValue]}")
+			}
+		}
+
+		assert isContained : "The ${key} entry does not match the single node data."
 	}
 
 
 
 
-	
+
 
 
 	//********************************************************************************
