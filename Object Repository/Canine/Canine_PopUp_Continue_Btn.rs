@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[contains(text(),'Continue')]</value>
+         <value>//*[text()='Continue']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[contains(text(),'Continue')]</value>
-      <webElementGuid>9bab82cb-0c28-4862-9f00-aa76ee238417</webElementGuid>
+      <value>//*[text()='Continue']</value>
+      <webElementGuid>37ec8486-e7b4-4b14-9551-688f224b6a87</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
