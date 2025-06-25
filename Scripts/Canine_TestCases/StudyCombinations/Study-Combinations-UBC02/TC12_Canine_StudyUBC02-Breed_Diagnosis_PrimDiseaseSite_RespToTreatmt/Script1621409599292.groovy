@@ -61,7 +61,7 @@ CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object
 WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/Breed/AiredaleTerrier_Chkbx'),10)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/Canine/Filter/Breed/AiredaleTerrier_Chkbx')
 WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/Breed/Labrador_Chkbx'),10)
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/Canine/Filter/Breed/Labrador_Chkbx')
+CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/Canine/Filter/Breed/LabradorRetriever_Chkbx')
 WebUI.waitForElementPresent(findTestObject('Object Repository/Canine/Filter/Breed/WestHland_Chkbx'),10)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTabCanineStat'('Object Repository/Canine/Filter/Breed/WestHland_Chkbx')
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Filter/Breed/BREED_Ddn')

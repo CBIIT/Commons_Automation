@@ -10,17 +10,18 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//input[@id=&quot;checkbox_Breed_Labrador Retriever&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Breed_Labrador Retriever&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//input[@id=&quot;checkbox_Breed_Labrador Retriever&quot;]</value>
-      <webElementGuid>01cd0553-d4dc-4553-83f4-3022bf20e4b6</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Breed_Labrador Retriever&quot;]</value>
+      <webElementGuid>5fd4564a-09f7-4bb8-b221-2989a71624ae</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
