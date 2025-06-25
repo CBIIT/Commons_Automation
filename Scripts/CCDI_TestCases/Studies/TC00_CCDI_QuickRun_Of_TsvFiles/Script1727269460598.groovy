@@ -37,7 +37,7 @@ import com.kms.katalon.core.util.KeywordUtil
 import java.nio.file.Paths
 
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC05_CCDI_phs002504_FileType-bam_LibStr-WXS_LibSel-PCR_DC-Sequencing.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC02_CCDI_phs002504_Sex-Female_Race-Unknown_Trt-Chemotherapy.xlsx')
 
 //CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py','TsvDataParticipants')
 //CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py','TsvDataDiagnosis')
