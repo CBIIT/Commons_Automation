@@ -1,0 +1,91 @@
+id	participant.id	age_at_treatment_end	age_at_treatment_start	dose	dose_frequency	dose_route	dose_unit	treatment_agent	treatment_id	treatment_type	type
+054208c9-e6e8-50b6-9119-c258399d75be	1b54cecb-4455-5d03-97b2-d8399f509f86	1255	747					Not Otherwise Specified	UPN2723.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+069c1e5a-c1c4-5c28-962d-08a5e9cd5e11	7980f8b6-f5f1-5e84-bbc2-4d4e2a812d23	1776	1389					Not Otherwise Specified	UPN2634.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+07906c18-1de6-5102-a48e-699112c75b0a	67099944-4a69-51e4-abd4-e1ee8606f09a	389	304					Not Otherwise Specified	UPN2977.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+082c8b89-71ae-51c6-bae0-8319fa3116b2	f770c984-6b87-5139-a892-cf9b61b4dc60	2468	1671					Not Otherwise Specified	UPN3131.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+084368bd-1573-5db4-98f2-cb193bda68fb	0ad17ca1-3831-515d-8854-f2efd7bc7c04	2134	413					Not Otherwise Specified	UPN2811.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+11b932b6-6f9f-54ea-955b-02bb6de6a45a	f120834e-48d9-549e-adb0-3136ad1b6dcd	1201	255					Not Otherwise Specified	UPN2357.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+16f12767-2136-521a-a914-ba6bc54b904e	69095da8-4124-594f-83c6-7b475a33cbbd	848	636					Not Otherwise Specified	UPN2747.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+1868eb8c-9ebb-575a-9054-af63aeb4f233	e3497557-66d7-5f4d-8183-9b3e6c42fa73	1069	276					Not Otherwise Specified	UPN2921.tx	Unknown	treatment
+1962d597-8c92-59ab-903e-c6134ae6967d	7e86b5a1-fdda-59fa-98bb-0b65b3027c09	1247	583					Not Otherwise Specified	UPN2974.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+1c72250e-dcf2-5262-b787-4477faebe0ca	2ba409c2-374f-5ab4-97c5-b8edc39eefba	342	215					Not Otherwise Specified	UPN2704.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+1dca6081-6292-5307-94b9-34d8ae4c169f	e163f50c-ee2f-5c85-a6c6-55770b7f6d21	1745	395					Not Otherwise Specified	UPN2309.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+203613a7-0f4f-5135-adc5-ca8b7d842581	8375eab4-949c-5615-9cb6-e5915f525946	219	219					Not Otherwise Specified	UPN2786.tx	Unknown	treatment
+2086b282-2002-574c-9147-1fb837c9357a	22703a47-2077-5003-89de-1ee1d4e8d8fe	2659	1376					Not Otherwise Specified	UPN3103.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+25fedc3a-dd22-595d-9f78-b788ff6b044c	01607aea-27fc-54ae-abf4-8ed9674b43e2	830	538					Not Otherwise Specified	UPN3153.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+276431b2-3b95-54af-8b3b-98897eca8e3f	a808d387-0820-59ca-a1ab-96d0d2d2894d	2312	757					Not Otherwise Specified	UPN3029.tx	Targeted Molecular Therapy	treatment
+27753ddc-fd21-5d19-8868-f8ade0356975	edbbd121-a79e-5072-ac0e-c55b5f76b47b	1141	1141					Not Otherwise Specified	UPN3050.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+2c12ee2c-8bdc-58b6-a672-1853679f4f08	9f1b4554-9b4b-5303-9279-10f9dc3a194c	3248	1570					Not Otherwise Specified	UPN2987.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+2f13b6fd-7084-5866-b607-61d88595ac33	5f249eb4-02fc-5924-9a2e-3b2a5aa0ae47	-999	191					Not Otherwise Specified	UPN2567.tx	Unknown	treatment
+30c787a5-3382-5daf-9f66-c88f87815fb3	b99ec881-54bf-51a7-ba0c-c2b522cce6c3	-999	1067					Not Otherwise Specified	UPN2292.tx	Unknown	treatment
+311c6967-9a68-54de-8b3b-c2208dd8c388	f7a702a1-47e8-5b38-9f4d-67bcfaf3181e	1730	1345					Not Otherwise Specified	UPN3020.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+3541c198-1391-555f-bfa1-97a01029d067	ffccb38e-77ce-5d85-8748-a198441141f1	437	350					Not Otherwise Specified	UPN2731.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+36284f53-7b34-5a7b-8191-a6564261ed94	7c7c2414-1787-5b73-9c1b-04c2431b2eea	1790	949					Not Otherwise Specified	UPN1447.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+3a4b4662-f517-5b58-a383-5bdd5bf5ba56	db07c45e-1aae-5f4a-8339-cc81f0c580ad	3040	916					Not Otherwise Specified	UPN1740.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+3dbf4ce7-37c5-5751-bc2c-28d5ebe56510	891e4718-79fa-5f2c-bb98-d2f5919a5c5b	1539	1340					Not Otherwise Specified	UPN3097.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+3ecb2bef-df48-5408-b2dd-bd2ca437c9aa	86976db9-c4c2-53a5-84d5-a9b0eb64b088	1839	958					Not Otherwise Specified	UPN2497.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+3f3368e4-f2e7-5184-8327-1f594603003d	d0d32942-c2ba-5494-9731-f77111771762	1693	274					Not Otherwise Specified	UPN2758.tx	Unknown	treatment
+42e2100b-01da-5ad1-9b14-1d4f300c18fc	6a50d1a4-459f-58c1-b4be-f8d7c0a1a8eb	3848	843					Not Otherwise Specified	UPN2057.tx	Unknown	treatment
+43e19eb1-cc89-5726-973c-856ca3b49221	bcbffa8f-b304-5d92-9f18-6e0929255be8	617	353					Not Otherwise Specified	UPN2613.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+467259c4-c009-5a23-b495-3a90d316924b	b657d3d6-49c8-5e6e-ad9e-110e880b90a4	753	241					Not Otherwise Specified	UPN2423.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+46ef9c54-2f50-5c95-9927-08b4d002e0e9	a18199fc-0de0-550f-931d-e2da1f60d11d	1329	1007					Not Otherwise Specified	UPN2932.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+51b4f840-f195-57ba-a6a6-504792c15f7f	0667f7b3-2a37-58c5-a4b9-a0b02c0b1aff	2324	590					Not Otherwise Specified	UPN2301.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+53e87c88-8a13-5244-a001-1cf2ffd77caf	a6c44b86-27e2-5a4b-b41c-671e989823ee	1497	763					Not Otherwise Specified	UPN2026.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+5b5c5e14-9911-5df9-9180-96d30c799b23	1e34e670-3277-54f3-945d-7b85ab109876	2188	630					Not Otherwise Specified	UPN2515.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+5b617d7f-d962-55f2-a11f-5067eeb61a34	bf86abc5-c4a9-5e12-be4a-7e53dbaf2130	1754	27					Not Otherwise Specified	UPN2642.tx	Unknown	treatment
+5cba60d2-c54d-5093-abaa-7f5cc31d7375	5d6581f0-4268-5045-bce8-7fc66d4c6216	733	167					Not Otherwise Specified	UPN2577.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+60430315-42b6-5361-9800-8ed928ce3195	a9c06489-17ca-5524-a9c8-5cdd9e14eb8f	3937	58					Other	UPN1744.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+63b330a7-7d20-55e6-8a6b-005cc28d0659	ded5ea72-d15b-5fa5-9820-439d4a4479f2	1553	419					Not Otherwise Specified	UPN2885.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+694730a7-8fca-51b1-9a13-0b87d63b0531	4c18213d-4517-5d95-8adf-3f82fd68ba2d	2265	532					Not Otherwise Specified	UPN2760.tx	Chemotherapy	treatment
+6a19a986-9355-5d17-bd32-787a871c09e0	02492954-16b5-5b00-9589-c9de7c62b8ad	2259	2259					Not Otherwise Specified	UPN3242.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+6f1ae813-4585-5031-bea8-14158045a48d	7a113962-cb4a-54a8-8640-58346c5c7cdb	783	359					Not Otherwise Specified	UPN2983.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+72c3d06c-051b-55ee-8c15-031e012063cc	5e5d1956-b9bb-5536-a5bc-292b5252f199	4128	2641					Not Otherwise Specified	UPN1711.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+746622e0-8013-5458-8b2d-83930f08b9ca	c709018e-8d11-50d9-a0f7-17a2fe3bf73d	937	505					Not Otherwise Specified	UPN1383.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+78d1deb8-8ce9-57e1-8483-8ef906e8ae17	e83a320b-fd59-5c06-b6a5-d70b30e5364f	1024	786					Not Otherwise Specified	UPN2499.tx	Chemotherapy	treatment
+7a744302-37da-5ec1-9eaf-7054ab8a9e35	8a7fb477-3e2f-5a52-b10d-c9a0717eaa81	1221	381					Not Otherwise Specified	UPN3080.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+8458c369-b55a-56f2-a39e-21561fbe6a32	96a1d36f-beda-5da9-bb20-14e4df4720ea	1974	1					Not Otherwise Specified	UPN3426.tx	Chemotherapy	treatment
+8511964c-2389-5540-bad5-0998b82fe1df	5f820985-b9ce-5ba2-a82d-9baaed35d5a5	2221	532					Not Otherwise Specified	UPN2528.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+853511b0-9e94-560a-8212-3bbae7d802c5	b33e33d8-c5b3-5af4-9844-7d18943daf89	9323	9237					Not Otherwise Specified	UPN2949.tx	Unknown	treatment
+85f46043-c291-5c81-90cf-9bf293a08938	cf1fd862-332c-58b2-b934-59eaf9769db3	1612	231					Not Otherwise Specified	UPN3074.tx	Chemotherapy	treatment
+86ce67bc-2081-51d9-a313-00882e1ec9d5	e6ea9c1d-f116-5f1c-bb4c-b8a9b9109fcb	3818	2057					Not Otherwise Specified	UPN1484.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+87a9101e-2495-5052-858c-decf1c20355b	eb412555-b9ef-5cc0-a099-bcfd0ffaff06	2527	1114					Not Otherwise Specified	UPN2492.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+8bf91014-9efd-5a8a-81f8-ec02c5e9ed38	e499000c-82a6-526b-95eb-780d7afecab5	932	932					Not Otherwise Specified	UPN3031.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+8c3b1b7d-f6fd-5c41-a4f1-33d0671111d1	4aae16d4-2f2e-532c-93ac-6d4b62b0cdb0	1653	1430					Not Otherwise Specified	UPN3116.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+91f2dae9-f14c-5205-a553-e1fe89232fc5	c46e8676-786a-5c74-94fa-24d33860fb38	1338	343					Not Otherwise Specified	UPN2917.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+955fcb6b-65ff-5825-9457-9be4bfd38697	f5212166-31bb-5c0d-b15e-7d6284e13b61	1498	742					Not Otherwise Specified	UPN2984.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+9a55e897-d7c9-5e23-a6f4-be3e8acf7a81	e57f124d-9f82-5bed-9ae6-5936c6dab65f	3183	441					Not Otherwise Specified	UPN3110.tx	Unknown	treatment
+a33e77e9-ce61-5dab-988e-3689f2aaa6d6	4b3b3202-b714-5f03-9905-c9f7a6c7b495	4029	3857					Not Otherwise Specified	UPN3156.tx	Chemotherapy	treatment
+a40c7a30-55fb-5fb4-9cdf-91f3d1dbbb88	896323ca-5536-5109-9e3f-d323ca13ef9a	926	438					Not Otherwise Specified	UPN3084.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+a824ef33-e7c1-55cd-bca5-7d092217bfae	a0714d00-dd81-5c87-9b98-9507f3a56c75	5319	2210					Not Otherwise Specified	UPN2048.tx	Targeted Molecular Therapy	treatment
+ac5d925d-9a81-5737-bc71-96fe0822a45e	6af8e094-ced6-5fa4-be52-81ab2b75f751	361	36					Not Otherwise Specified	UPN2923.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+acb84641-8658-5b3d-a390-fec52a908dd2	357e8ec8-514d-5524-b19d-8413b23fa95e	554	310					Not Otherwise Specified	UPN1312.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+ad12110a-b7e3-5491-813b-cb3e43e686c6	b19c7b86-fa6d-5b58-8d86-27c7f76513fc	1308	886					Not Otherwise Specified	UPN2785.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+ad4fa02c-00c9-5eab-b90d-991cfd00d2e6	61dfb0be-cd29-5c89-9942-d14b9abda877	1581	356					Not Otherwise Specified	UPN2892.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+aed5920a-7d2b-57ba-ba6f-33cabf1f6c06	5d742ee1-702c-54d9-bab5-d4256a657394	854	103					Not Otherwise Specified	UPN3054.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+b5cd49eb-a268-5623-a1fc-577c9cdefe4c	cf430bd7-9725-5a1b-bd4f-65ec44e47ec5	6060	1671					Not Otherwise Specified	UPN0906.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+b8f6856f-12a1-5f13-ad63-500425d15e24	9acf053c-2f16-5f4c-9cad-8553fb1867be	1051	800					Not Otherwise Specified	UPN1597.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+bc420ec1-39b7-584b-abf3-9af96a875d1b	b8cfca4c-65ba-5a78-a649-74357ce2d0dc	-999	776					Not Otherwise Specified	UPN3158.tx	Unknown	treatment
+bdd584d7-2bf7-57c0-8e6e-9bf64a1a3dd9	87efbeaa-ac8c-5249-98be-41b52dbf24c0	2341	124					Not Otherwise Specified	UPN1550.tx	Unknown	treatment
+be7f82ca-8897-5aad-bb1e-f52003b62a61	1007a976-d748-56fa-94dc-b708e49decb7	3463	837					Not Otherwise Specified	UPN1188.tx	Unknown	treatment
+c5e8ee78-ce9c-5eba-9a75-ece3d4030a63	8c4af880-a91a-54b1-a769-7c6b560a6633	1056	903					Not Otherwise Specified	UPN1431.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+c8b4c04d-1d43-5cc1-8898-763cf3c1c062	90b7e72f-d0cb-59b6-932e-31738564463a	372	31					Not Otherwise Specified	UPN3154.tx	Targeted Molecular Therapy	treatment
+cdc16baa-c8e0-5653-9d81-0ce29826dfba	a1d3ea75-d7e7-5ea5-abfd-186ebb246801	2706	395					Not Otherwise Specified	UPN2951.tx	Chemotherapy	treatment
+ce7a959b-9805-5d09-afd3-7e25ff661d0b	2a5a2a01-0a2c-5514-8139-a1d1e6cdb92f	2612	2145					Not Otherwise Specified	UPN3037.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+cf3c7161-e0f1-5975-a8bb-bda04a40bb32	fa2ab871-42f2-5de8-8052-135a049ee503	1512	874					Not Otherwise Specified	UPN2619.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+d3f71061-c7f3-5915-8ba5-0370ec9cb195	1acd7ece-3d81-52f3-93dd-ecf8f529a6cd	2971	794					Not Otherwise Specified	UPN2570.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+d46e7ef3-786a-5f53-9663-4ca229b96818	ee062385-6e6a-5ece-b328-0d528d59b097	528	130					Not Otherwise Specified	UPN2776.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+d8ffa1ae-e9d2-556e-afe0-72e784d5b503	a1f297ba-6611-5030-a13f-cd971795cd2f	924	599					Not Otherwise Specified	UPN2609.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+daf73e30-8bf0-5183-ab1f-f6886457d962	eeffa887-e991-572f-937a-15aa8499e891	3035	684					Not Otherwise Specified	UPN2433.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+e370654b-7428-5008-96e3-5e3b1aaab180	b98e5d5d-30bd-5fc0-9f00-8660a45c3c6e	-999	1205					Not Otherwise Specified	UPN2886.tx	Unknown	treatment
+e4664f05-c3c3-5bb5-975b-38a5ed862f97	bf67ba9f-0d35-5f60-b628-9aa1e6993bcc	2322	800					Not Otherwise Specified	UPN1420.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+e80f587f-fdb7-50bb-b05c-6123d9aa7746	91eff293-b04b-5fec-991b-a7a0625486b5	1646	630					Not Otherwise Specified	UPN2566.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+e96b2cf4-0b2e-5957-a6fe-216db0a4dd6c	04fddd0c-f83c-56fc-bd3b-79a88afba1a5	3117	235					Not Otherwise Specified	UPN2739.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+eafe5edd-86b7-5060-90af-f9d7196e77aa	ac79a1fe-f16d-5796-9cab-11a700532be8	1249	1080					Not Otherwise Specified	UPN2531.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+ec5c9940-ba57-5895-83b7-76ccc35b9149	7057cb71-6357-568e-8f57-fe02243e1d18	1476	593					Not Otherwise Specified	UPN3127.tx	Unknown	treatment
+f16f8c96-14d4-5da0-9b89-84319a153528	7693878c-098e-50ac-b963-51557fc62806	2959	206					Not Otherwise Specified	UPN2472.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+f1d63d27-d428-5d30-aaae-4f032cefc517	6cc0d6cf-b446-5451-881d-d8919f5a46ac	2082	200					Not Otherwise Specified	UPN2208.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+f21c096c-5d82-5713-bdb8-1f9ec399c55a	a8f02a9f-444d-5d5c-abea-05351e55eed0	1984	1427					Not Otherwise Specified	UPN2861.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+f3479bcb-1e37-5c37-ad72-675b2b52fc5f	17b598ad-10e1-5591-881f-6d199f9d02fb	5336	4422					Not Otherwise Specified	UPN2630.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+f40260e0-9bca-5aca-8a74-964f60aaf6d7	6fcbb2ab-34ce-5746-8d9a-a0e9725900b3	470	105					Not Otherwise Specified	UPN2916.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+f5e62acf-1417-57fa-b9f1-a9482af6f3c3	6799574b-e143-5543-be44-cead26d4a2ff	1715	298					Not Otherwise Specified	UPN2099.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment
+fbe06f54-f94c-595d-98fa-936170dbd192	2968fc5a-3c65-5d78-946e-a7ba142c5597	3475	2788					Not Otherwise Specified	UPN2937.tx	Allogeneic Hematopoietic Stem Cell Transplantation	treatment

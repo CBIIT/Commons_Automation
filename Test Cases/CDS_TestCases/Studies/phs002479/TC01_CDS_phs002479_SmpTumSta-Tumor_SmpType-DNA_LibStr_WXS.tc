@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CDS_phs002479_SmpTumSta-Tumor_SmpType-DNA_LibStr_WXS</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b8304056-47f9-4210-a2fe-a2fbf4eac4dd</testCaseGuid>
+</TestCaseEntity>
