@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_CCDI_phs002790_FileType-bai_LibStr-AF_LibSel-Other_DC-Sequencing</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>052e3a6b-2c78-485d-93c5-24766081d3c8</testCaseGuid>
+</TestCaseEntity>

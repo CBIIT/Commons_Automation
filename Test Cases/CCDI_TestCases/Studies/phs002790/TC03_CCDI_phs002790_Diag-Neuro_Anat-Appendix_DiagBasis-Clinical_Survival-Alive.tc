@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_CCDI_phs002790_Diag-Neuro_Anat-Appendix_DiagBasis-Clinical_Survival-Alive</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dbab2f67-466c-4f90-8125-71b24e1b7114</testCaseGuid>
+</TestCaseEntity>

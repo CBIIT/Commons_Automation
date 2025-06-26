@@ -12,41 +12,6 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>6cdf100a-569b-43a6-ab94-94437638e437</testSuiteGuid>
    <testCaseLink>
-      <guid>e3a78f6b-cb1d-440b-87ae-19c31b4552c2</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CCDI_TestCases/Studies/phs002790/TC01_CCDI_phs002790_Sex-Male_Race-NtiveHawaothrPacific_Datacat-COGClinical</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>864cc481-6ad2-414d-8765-3816a5447a20</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CCDI_TestCases/Studies/phs002790/TC02_CCDI_phs002790_Sex-Female_TrtmntAgnt-CBDCA_LastknwnSurv-Dead</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>8139ac07-ff90-43ed-8745-8730a32b3d84</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CCDI_TestCases/Studies/phs002790/TC03_CCDI_phs002790_Sex-Female_TrtmntType-Celltherp_Sampleanatmcsite-C72.9cns_Datacat-Clinical</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>ca1bbe69-b049-42de-b947-d249f3803631</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CCDI_TestCases/Studies/phs002790/TC04_CCDI_phs002790_Filetype-bai_LibSelct-Other_LibSrcMaterial-Bulkcells</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>448eebc0-5fee-4162-bcda-017fa34d0083</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CCDI_TestCases/Studies/phs002790/TC05_CCDI_phs002790_Race-NtReported_Diagclass-ICD03.2_LibStart-WXS</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>b40deb23-2921-4b5d-8a04-c282b50eb003</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -79,6 +44,48 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CCDI_TestCases/Studies/phs002504/TC06_CCDI_phs002504_Sex-Female_TrtAgt-other_FileType-fastq_DataCat-Sequencing</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6f32b5c7-43f8-40e7-8285-cebfa1313153</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CCDI_TestCases/Studies/phs002790/TC02_CCDI_phs002790_Sex-Male_Race-Asian_Trt-RadioTherapy</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4e3d2659-1aa5-48ec-b547-b7f8458ec580</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CCDI_TestCases/Studies/phs002790/TC03_CCDI_phs002790_Diag-Neuro_Anat-Appendix_DiagBasis-Clinical_Survival-Alive</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f78b5acc-0e47-48cc-8f65-2a83e9e70a8b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CCDI_TestCases/Studies/phs002790/TC05_CCDI_phs002790_FileType-bai_LibStr-AF_LibSel-Other_DC-Sequencing</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f3c1b23f-9ba1-48ae-b196-e70db084e018</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CCDI_TestCases/Studies/phs002790/TC04_CCDI_phs002790_Sex-Female_Race-Unknown_SmpTumor-Normal_SmpAnt-Blood</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f692d502-8f9c-47b4-81b4-0a6284514c09</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CCDI_TestCases/Studies/phs002790/TC06_CCDI_phs002790_Sex-Male_TrtAgt-Sora_FileType-json_DataCat-Clinical</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>12bfa3f2-d741-4f0a-8aa4-555dfa8141e5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CCDI_TestCases/Studies/phs002790/TC01_CCDI_phs002790</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
