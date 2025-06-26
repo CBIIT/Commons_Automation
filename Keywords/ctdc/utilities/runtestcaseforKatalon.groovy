@@ -1353,7 +1353,7 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 					System.out.println("Table body data from current page is: " + wTableBodyData.get(index))
 				}
 				GlobalVariable.G_CaseData= wTableHdrData + wTableBodyData;
-				//System.out.println("This is the contents of globalvar G_casedata: " +GlobalVariable.G_CaseData)
+				System.out.println("This is the contents of globalvar G_casedata: " +GlobalVariable.G_CaseData)
 
 				//********************* CLICKING THE NEXT BUTTON IN RESULTS FOR NEXT PAGE *******************************
 				// add a counter for 10 inside this for limitting 100 records
@@ -1374,902 +1374,902 @@ public class runtestcaseforKatalon implements Comparator<List<XSSFCell>>{
 		else {
 			System.out.println("Not collecting the table data as the stat value is 0")
 		}
-		
+
 		writeToExcel(webSheetName);
 		System.out.println("webdata written to excel successfully")
 	}//ReadCasesTableKatalon function ends
-//	@Keyword
-//	public static void ReadCasesTableKatalon(String statVal1, String tbl1, String hdr1, String nxtb1, String webSheetName) throws IOException {
-//		String switchCanine
-//		String switchTrials
-//		String switchBento
-//		String switchGMB
-//		String switchCDS
-//		String switchCCDI
-//		String switchC3DC
-//		String switchINS
-//		String switchString
-//		WebElement nextButton
-//		WebElement nxtBtn
-//		WebElement resultTab
-//		String trim
-//
-//		WebDriverWait wait = new WebDriverWait(driver,30);
-//		System.out.println("This is the stat value of cases/total (in case of cart) before converting to int: "+statVal1)
-//		int statValue = convStringtoInt(statVal1);
-//		System.out.println("This is the passed value of stat for this run : "+statValue)
-//
-//
-//		List<String> webData = new ArrayList<String>();  //this is not used
-//		List<String> wTableHdrData = new ArrayList<String>(); //to capture the table header data
-//		List<String> wTableBodyData = new ArrayList<String>(); //to capture the table body data
-//		String tbl_bdy;
-//		String tbl_main= givexpath(tbl1)
-//		System.out.println("This is the value of tbl main : "+tbl_main)
-//
-//		tbl_bdy= tbl_main+"//tbody"
-//		//tbl_bdy= tbl_main+"/tbody"  //this is for INS
-//		GlobalVariable.G_cannine_caseTblBdy=tbl_bdy  //correct his variables name typo and also rename it to G_commons_casetblbdy
-//		System.out.println("This is the value of table body :"+GlobalVariable.G_cannine_caseTblBdy)
-//
-//		//	driver.manage().window().maximize()  commenting to check the error in INS
-//		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(tbl_bdy)));
-//		scrolltoViewjs(driver.findElement(By.xpath(tbl_bdy)))
-//		System.out.println("Scrolled into view and ready to click again")
-//		clickElement(driver.findElement(By.xpath(tbl_bdy)));
-//		System.out.println("using jscriptexec, clicked again")
-//
-//		WebElement TableBdy =driver.findElement(By.xpath(GlobalVariable.G_cannine_caseTblBdy))
-//		List<WebElement> rows_table = TableBdy.findElements(By.tagName("tr"))
-//		System.out.println("This is the value of weblement rows table :"+rows_table);
-//
-//		int rows_count = rows_table.size()
-//		System.out.println("This is the size of the rows in the results table in first page: "+(rows_count))
-//		String nxt_str=     givexpath(nxtb1)
-//		System.out.println("This is the value of the xpath of nextbtn : "+nxt_str)
-//		nextButton = driver.findElement(By.xpath(nxt_str));
-//		System.out.println("This is the value of the webelem next button from readcasestablekatalon method : "+nextButton)
-//		System.out.println("This is the value of the hdr object: "+hdr1)
-//		String hdr_str= givexpath(hdr1)
-//		System.out.println("This is the value of the hdr string - xpath : "+hdr_str)
-//		WebElement tableHdr = driver.findElement(By.xpath(hdr_str))
-//
-//		List<WebElement> colHeader = tableHdr.findElements(By.tagName("th"));
-//
-//		int columns_count
-//		String hdrdata = ""
-//
-//		String crntUrl=driver.getCurrentUrl();
-//		//Read ICDC table header from result table for a specific tab
-//		if(((driver.getCurrentUrl()).contains("caninecommons")||(driver.getCurrentUrl()).contains("icdc.bento-tools.org"))&&((driver.getCurrentUrl()).contains("/case/"))){
-//			switchCanine = getPageSwitch();
-//			switchString = "Canine";
-//			System.out.println ("This is the value of CANINE switch string returned by getcurrentpage function: "+switchCanine)
-//			nxtBtn =  driver.findElement(By.xpath(givexpath('Object Repository/Canine/Canine_File_NextBtn'))); //remove these references of nxtbtn from all 4 ifs
-//			columns_count = (colHeader.size())
-//			for(int c=0;c<columns_count;c++){
-//				//if column header = 'Access' ignore adding it to the hdrdata string
-//				hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
-//			}
-//		}else if (((driver.getCurrentUrl()).contains("caninecommons")||(driver.getCurrentUrl()).contains("icdc.bento-tools.org"))&&((driver.getCurrentUrl()).contains("/explore"))){
-//			switchCanine = getPageSwitch();
-//			switchString = "Canine";
-//			System.out.println ("This is the value of CANINE switch string returned by getcurrentpage function: "+switchCanine)
-//			nxtBtn =  driver.findElement(By.xpath(givexpath(nxtb1)));
-//			System.out.println("This is the value of next button from canine cases switch: "+nxtBtn)
-//			if(statValue==0){
-//				System.out.println ("No records in the table as stat value is 0")
-//			}else{
-//				columns_count = (colHeader.size())-1
-//				for(int c=0;c<=columns_count;c++){
-//					if((colHeader.get(c).getAttribute("innerText"))!="Access"){
-//						//if column header = 'Access' ignore adding it to the hdrdata string
-//						System.out.println ("This is the value of col header index : "+c)
-//						hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
-//					}
-//				} // for loop ends
-//			}// else for state value ends prevents writing header to xl when data is empty so xl comparison goes through fine.
-//		}else if (((driver.getCurrentUrl()).contains("caninecommons")||(driver.getCurrentUrl()).contains("icdc.bento-tools.org"))&&((driver.getCurrentUrl()).contains("/study"))){
-//			switchCanine = getPageSwitch();
-//			switchString = "Canine";
-//			System.out.println ("This is the value of CANINE switch string returned by getcurrentpage function: "+switchCanine)
-//			nxtBtn =  driver.findElement(By.xpath(givexpath(nxtb1)));
-//			System.out.println("This is the value of next button from canine cases switch: "+nxtBtn)
-//			if(statValue==0){
-//				System.out.println ("No records in the table as stat value is 0")
-//			}else{
-//				columns_count = (colHeader.size())-1
-//				for(int c=1;c<=columns_count;c++){
-//					if((colHeader.get(c).getAttribute("innerText"))!="Access"){
-//						//if column header = 'Access' ignore adding it to the hdrdata string
-//						System.out.println ("This is the value of col header index : "+c)
-//						hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
-//					}
-//				} // for loop ends
-//			}// else for state value ends prevents writing header to xl when data is empty so xl comparison goes through fine.
-//		}
-//		else if (((driver.getCurrentUrl()).contains("caninecommons")||(driver.getCurrentUrl()).contains("icdc.bento-tools.org"))&&((driver.getCurrentUrl()).contains("/fileCentricCart"))){
-//			switchCanine = getPageSwitch();
-//			switchString = "Canine";
-//			System.out.println ("This is the value of CANINE switch string returned by getcurrentpage function: "+switchCanine)
-//			nxtBtn =  driver.findElement(By.xpath(givexpath(nxtb1)));
-//			System.out.println("This is the value of next button from canine mycart switch: "+nxtBtn)
-//			if(statValue==0){
-//				System.out.println ("No files in the cart")
-//			}else{
-//				columns_count = (colHeader.size())-1
-//				for(int c=1;c<=columns_count;c++){
-//					//if column header = 'Access' ignore adding it to the hdrdata string
-//					hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
-//				} // for loop ends
-//			}// else for stat val ends   prevents writing header to xl when data is empty so xl comparison goes through fine.
-//		}	//Read GMB table header from result table for a specific tab
-//		else if (((driver.getCurrentUrl()).contains("studycatalog"))&&((driver.getCurrentUrl()).contains("/explore"))){
-//
-//			//else if (((driver.getCurrentUrl()).contains("studycatalog")||(driver.getCurrentUrl()).contains("https://ins-dev.bento-tools.org/"))&&((driver.getCurrentUrl()).contains("/projects"))){
-//			switchINS = getPageSwitch();
-//			switchString = "INS";
-//			System.out.println ("This is the value of INS switch string returned by getcurrentpage function: "+switchINS)
-//			nxtBtn =  driver.findElement(By.xpath(givexpath(nxtb1)));
-//			System.out.println("This is the value of next button from INS projects switch: "+nxtBtn)
-//			if(statValue==0){
-//				System.out.println ("No records in the table as stat value is 0")
-//			}else{
-//				columns_count = colHeader.size()
-//				for(int c=0;c<columns_count;c++){
-//
-//					System.out.println ("This is the value of col header index : "+c)
-//					hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
-//				} // for loop ends
-//			}// else for state value ends prevents writing header to xl when data is empty so xl comparison goes through fine.
-//		}
-//		else if(((driver.getCurrentUrl()).contains("gmb")||(driver.getCurrentUrl()).contains("gmb-qa.bento-tools.org"))&&((driver.getCurrentUrl()).contains("/subjects"))){
-//			System.out.println ("Control is about to go to case switch ")
-//			switchGMB = getPageSwitch();
-//			System.out.println ("Control is about to go to case switch After case switch ")
-//			switchString = "GMB";
-//			System.out.println ("This is the value of GMB switch string returned by getcurrentpage function: "+switchGMB)
-//			nxtBtn =  driver.findElement(By.xpath(givexpath('Object Repository/GMB/GMB_Subjects_TabNextBtn'))); //remove these references of nxtbtn from all 4 ifs
-//			columns_count = (colHeader.size())   //size should be 11 for subjects tab
-//			columns_count=columns_count-1;
-//			System.out.println("Inside GMB switch case for header data::  " +columns_count)
-//			for(int c=1;c<=columns_count;c++){
-//				//if column header = 'Access' ignore adding it to the hdrdata string
-//				hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
-//			}
-//
-//			//CDS function starts here
-//		}else if(((driver.getCurrentUrl()).contains("dataservice")) && ((driver.getCurrentUrl()).contains("/data"))){
-//			System.out.println ("Control is about to go to case switch ")
-//			switchCDS = getPageSwitch();
-//			System.out.println ("Control is about to go to case switch After case switch ")
-//			switchString = "CDS";
-//			System.out.println ("This is the value of CDS switch string returned by getcurrentpage function: "+switchCDS)
-//
-//			columns_count = (colHeader.size())
-//			columns_count=columns_count-1;
-//			System.out.println("Inside CDS switch case for header data::  " +columns_count)
-//			for(int c=1;c<=columns_count;c++){
-//				//if column header = 'Access' ignore adding it to the hdrdata string
-//				hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
-//			}
-//
-//			//******** C3DC function starts below ********
-//		}else if((GlobalVariable.AppKey.equals("C3DC")) && ((driver.getCurrentUrl()).contains("/explore"))){
-//			System.out.println ("Control is about to go to explore switch ")
-//			switchC3DC = getPageSwitch();
-//			System.out.println ("Control is about to go to the switch for C3DC ")
-//			switchString = "C3DC";
-//			System.out.println ("This is the value of C3DC switch string returned by getcurrentpage function: "+switchC3DC)
-//
-//			columns_count = (colHeader.size())
-//			columns_count=columns_count-1;
-//			System.out.println("Inside C3DC switch case for header data::  " +columns_count)
-//			for(int c=0;c<=columns_count;c++){
-//				//if column header = 'Access' ignore adding it to the hdrdata string
-//				hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
-//			}
-//
-//			//******** CCDI function starts here ********
-//		}else if(((driver.getCurrentUrl()).contains("ccdi")) && ((driver.getCurrentUrl()).contains("/explore"))){
-//			System.out.println ("Control is about to go to case switch ")
-//			switchCCDI = getPageSwitch();
-//			System.out.println ("Control is about to go to the switch for CCDI ")
-//			switchString = "CCDI";
-//			System.out.println ("This is the value of CCDI switch string returned by getcurrentpage function: "+switchCCDI)
-//
-//			columns_count = (colHeader.size())
-//			columns_count=columns_count-1;
-//			System.out.println("Inside CCDI switch case for header data::  " +columns_count)
-//			for(int c=1;c<=columns_count;c++){
-//				//if column header = 'Access' ignore adding it to the hdrdata string
-//				hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
-//			}
-//
-//			//******** CTDC function starts below ********
-//		}else if((crntUrl.contains("ctdc")) && (crntUrl.contains("/case/"))){
-//			switchTrials = getPageSwitch();
-//			switchString = "Trials";
-//			System.out.println ("Value of TRIALS switch string returned by getcurrentpage function: "+switchTrials)
-//			nxtBtn =  driver.findElement(By.xpath(givexpath('Object Repository/Trials/Trials_File_NextBtn')));
-//			columns_count = (colHeader.size())
-//			for(int c=0;c<columns_count;c++){
-//				hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
-//			}
-//		}else if((crntUrl.contains("ctdc")) && (crntUrl.contains("/explore"))){
-//			switchTrials = getPageSwitch();
-//			switchString = "Trials";
-//			System.out.println ("Inside CTDC explore page for table header collection: ")
-//			System.out.println ("Value of TRIALS switch string returned by getcurrentpage function: "+switchTrials)
-//			nxtBtn =  driver.findElement(By.xpath(givexpath('Object Repository/Trials/Cases_page/Trials_CasesTabNextBtn')));
-//			columns_count = (colHeader.size())
-//			System.out.println ("Total number of columns in CTDC result tab in explore page: "+ columns_count)
-//			for(int c=0;c<columns_count;c++){
-//				hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
-//			}
-//
-//
-//			//********** Bento Function Start here *********
-//		}else if((crntUrl.contains("bento-tools.org")) && (crntUrl.contains("/explore"))){
-//			switchBento = getPageSwitch();
-//			switchString = "Bento";
-//			System.out.println ("Value of Bento switch string-Case returned by getcurrentpage function: "+switchBento)
-//			columns_count = (colHeader.size())-1
-//			hdrdata = ""
-//			for(int c=1;c<=columns_count;c++){
-//				if((colHeader.get(c).getAttribute("innerText"))!="Access"){
-//					System.out.println ("This is the value of col header index: "+c)
-//					hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
-//					System.out.println ("This is the value of header data from the else condition: "+hdrdata)
-//				}
-//			}
-//		}else if ((crntUrl.contains("bento-tools.org")) && (crntUrl.contains("/fileCentricCart"))){
-//			switchBento = getPageSwitch();
-//			switchString = "Bento";
-//			System.out.println("Value of BENTO switch string returned by getcurrentpage function: "+switchBento)
-//			nxtBtn =  driver.findElement(By.xpath(givexpath(nxtb1)));
-//			System.out.println("This is the value of next button from Bento mycart switch: "+nxtBtn)
-//			if(statValue==0){
-//				System.out.println ("No files in the cart")
-//			}else{
-//				columns_count = (colHeader.size())-1
-//				for(int c=0;c<columns_count;c++){
-//					hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
-//				} // for loop ends
-//			}// else for stat val ends prevents writing header to xl when data is empty so xl comparison goes through fine.
-//		}
-//
-//		else if ((crntUrl.contains("bento-tools.org")) && (crntUrl.contains("/programs"))){
-//			switchBento = getPageSwitch();
-//			switchString = "Bento";
-//			System.out.println ("Value of BENTO switch string returned by getcurrent program page function: "+switchBento)
-//			nxtBtn =  driver.findElement(By.xpath(givexpath(nxtb1)));
-//			System.out.println("Value of next button from Bento pgm page switch: "+nxtBtn)
-//			if(statValue==0){
-//				System.out.println ("No records for pgms")
-//			}else{
-//				columns_count = (colHeader.size())
-//				for(int c=0;c<columns_count;c++){
-//					//if((colHeader.get(c).getAttribute("innerText"))!="PubMed ID"){
-//					//System.out.println ("This is the value of col header index: "+c)
-//					hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
-//					//}
-//				} // for loop ends
-//			}// else for stat val ends   prevents writing header to xl when data is empty so xl comparison goes through fine.
-//		}
-//
-//		wTableHdrData.add(hdrdata);
-//
-//		System.out.println("No.of columns in the current result tab is : "+columns_count)
-//		System.out.println("Complete list of column headers in current result tab is : "+wTableHdrData)
-//
-//		for(int index = 0; index < wTableHdrData.size(); index++) {
-//			System.out.println("Header data of the table is :" + wTableHdrData.get(index))
-//		}
-//		System.out.println("Val of statistics before while loop: "+statValue);
-//
-//
-//		//@@@@@@@@@@@@@@@@@@  COLLECTING THE TABLE BODY DATA @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-//		int counter=1;
-//		if (statValue !=0) {
-//
-//			while(counter <= 10) {
-//				wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(GlobalVariable.G_cannine_caseTblBdy)));   //the name is misleading but it is only a placeholder for all the applications
-//				scrolltoViewjs(driver.findElement(By.xpath(GlobalVariable.G_cannine_caseTblBdy)))
-//				TableBdy =driver.findElement(By.xpath(GlobalVariable.G_cannine_caseTblBdy))
-//				System.out.println("finding the num of rows in the result page")
-//				Thread.sleep(5000) //Check first and then delete
-//				rows_table = TableBdy.findElements(By.tagName("tr"))
-//				System.out.println("This is the value of weblement rows table :"+rows_table);
-//				Thread.sleep(3000)
-//				rows_count = rows_table.size()
-//				System.out.println("This is the size of the rows in the table in the current page:"+(rows_count))
-//				// add code to check exception - if the value of rows_count=1, ie if the table has only header and no data, skip collecting the webdata.
-//
-//				int i;
-//
-//				for(i = 1; i <= rows_count; i++) {
-//					//before editing for fixing cotb issue
-//
-//					String data = ""
-//					//@@@@@@@@@@@@@@@@ GMB table data collection starts here  @@@@@@@@@@@@@@@@
-//					if(switchString == "GMB"){
-//						System.out.println("Just before GMB Switch Structure for body data collection")
-//						switch(switchGMB){
-//							case("/subjects"):
-//								System.out.println("Inside GMB switch case for body data")
-//								int tblcol=GlobalVariable.G_rowcountFiles
-//								System.out.println("Value of tblcol : "+tblcol)  //should be 11
-//							//tblcol=tblcol-2
-//								for (int j = 1; j <=tblcol; j = j +1) {
-//									System.out.println("Value of i is: "+i)
-//									System.out.println("Value of j is: "+j)
-//									System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
-//									data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/*[2]")).getAttribute("innerText")) +"||")
-//									System.out.println("This is the value of data : "+data)
-//								}
-//								break;
-//							case("/to edit"):
-//								int tblcol=GlobalVariable.G_rowcount_Katalon;
-//								if((tbl_main).equals('//*[@id="case_tab_table"]')){
-//									tblcol=tblcol-2  // this is needed when files tab has 11 cols
-//									System.out.println("This is the count of tblcol when files tab is selected:"+tblcol)
-//									for (int j = 1; j<= tblcol; j = j + 1) {
-//										System.out.println("Value of i is: "+i)
-//										System.out.println("Value of j is: "+j)
-//										System.out.println ("This is the value of col index starting from 1 : "+j)
-//
-//										if((colHeader.get(j).getAttribute("innerText"))!="Access") {
-//											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
-//											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/*[2]")).getAttribute("innerText")) +"||")
-//											System.out.println("This is the value of data : "+data)
-//										}
-//									}
-//								}else if((statValue)==0){
-//									System.out.println("inside the if loop for statvalu equal to 0 : already collected the header data")
-//								}else{
-//									System.out.println("This is the val of tblcol: "+tblcol)
-//									data = ""
-//
-//									for (int j = 2; j<= tblcol; j = j + 1) {
-//										System.out.println("Value of i is: "+i)
-//										System.out.println("Value of j is: "+j)
-//
-//										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + j + "]/*[2]")).getAttribute("innerText")) +"||")
-//										System.out.println("This is the value of data : "+data)
-//									}
-//								}
-//						}
-//					}
-//
-//
-//
-//					//@@@@@@@@@@@@@@@@ CDS table data collection starts here  @@@@@@@@@@@@@@@@
-//					//the following is from Sohil
-//					if(switchString == "CDS"){
-//						switch(switchCDS){
-//							case("/data"):
-//								System.out.println("Inside CDS switch case for body data")
-//								int tblcol=GlobalVariable.G_rowcountFiles
-//
-//								if((tbl_main).equals('//div[@id="case_tab_table"]')){
-//									tblcol=tblcol-3;
-//									for (int j = 1; j <=tblcol; j = j +1) {
-//										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
-//										System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
-//
-//										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/*[1]")).getAttribute("innerText")) +"||")
-//
-//										//div[@id="case_tab_table"]//tbody/tr[2]/td[3]/*[2]
-//										System.out.println("This is the value of data : "+data)
-//									}
-//								}else if((tbl_main).equals('//*[@id="sample_tab_table"]')){
-//									tblcol=tblcol-2;
-//									for (int j = 1; j <=tblcol; j = j +1) {
-//										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
-//										System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
-//										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/*[1]")).getAttribute("innerText")) +"||")
-//										System.out.println("This is the value of data : "+data)
-//									}
-//								}else if((tbl_main).equals('//*[@id="file_tab_table"]')){
-//									tblcol=tblcol-2;
-//									for (int j = 1; j <=tblcol; j = j +1) {
-//										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
-//										System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
-//										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/*[1]")).getAttribute("innerText")) +"||")
-//										System.out.println("This is the value of data : "+data)
-//									}
-//								}
-//								break;
-//							default:
-//								System.err.println("Check CDS switch statment for this error")
-//								break;
-//						}
-//					}
-//
-//					//@@@@@@@@@@@@@@@@ CCDI table data collection starts here  @@@@@@@@@@@@@@@@  added on 8th Sep 2023
-//
-//					if(switchString == "CCDI"){
-//						switch(switchCCDI){
-//							case("/explore"):
-//								System.out.println("Inside CCDI switch case for body data")
-//								int tblcol=GlobalVariable.G_rowcountFiles
-//								System.out.println ("This is the value of tblcol from CCDI body data :"+tblcol)
-//
-//								if((tbl_main).equals('//*[@id="participant_tab_table"]')){
-//									System.out.println("Inside CCDI participants switch")
-//									tblcol=tblcol-2;    //8-3=5 leaves out alternate id col   change to 8-2
-//									for (int j = 1; j <=tblcol; j = j +1) {
-//										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
-//										System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
-//										//*[@id="participant_tab_table"]/div[2]/table/tbody/tr[1]/td[3]/p
-//										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/p")).getAttribute("innerText")) +"||")
-//										System.out.println("This is the value of data : "+data)
-//									}
-//								}else if((tbl_main).equals("//*[@id='diagnosis_tab_table']")){
-//									System.out.println("Inside CCDI diagnosis switch")
-//									tblcol=tblcol+3;  //tblcol comes from the top as 8. need to add 3 to get 11 cols
-//									System.out.println("Value of tblcol from the diagnosis section is: "+tblcol)
-//									for (int j = 1; j <=tblcol; j = j +1) {
-//										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
-//										// only for this Age column the xpath will not have the /p tag
-//										if(((tbl_main).equals("//*[@id='diagnosis_tab_table']")) && (colHeader.get(j).getAttribute("innerText")=="Age at Diagnosis (days)")) {
-//											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
-//											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]")).getAttribute("innerText")) +"||")
-//										}else {
-//
-//											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
-//											//*[@id="participant_tab_table"]/div[2]/table/tbody/tr[1]/td[3]/p
-//											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/p")).getAttribute("innerText")) +"||")
-//										}
-//										System.out.println("This is the value of data : "+data)
-//									}
-//								}else if((tbl_main).equals("//*[@id='study_tab_table']")){
-//									System.out.println("Inside CCDI studies switch")
-//									tblcol=tblcol+3;
-//									System.out.println("Value of tblcol from the studies section is: "+tblcol)
-//									for (int j = 1; j <=tblcol; j = j +1) {
-//										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
-//										// only for two cols with (top 5) the xpath will not have the /p tag
-//
-//										if(((tbl_main).equals("//*[@id='study_tab_table']")) && (colHeader.get(j).getAttribute("innerText")=="Diagnosis (Top 5)")) {
-//											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
-//											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]")).getAttribute("innerText")) +"||")
-//										}else if(((tbl_main).equals("//*[@id='study_tab_table']")) && (colHeader.get(j).getAttribute("innerText")=="Diagnosis Anatomic Site (Top 5)")) {
-//											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
-//											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]")).getAttribute("innerText")) +"||")
-//										}else if(((tbl_main).equals("//*[@id='study_tab_table']")) && (colHeader.get(j).getAttribute("innerText")=="File Type (Top 5)")) {
-//											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
-//											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]")).getAttribute("innerText")) +"||")
-//										}
-//										else {
-//											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
-//
-//											//*[@id="study_tab_table"]/div[2]/table/tbody/tr[5]/td[10]/p
-//											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/p")).getAttribute("innerText")) +"||")
-//										}
-//										System.out.println("This is the value of data : "+data)
-//									}
-//								}else if((tbl_main).equals("//*[@id='sample_tab_table']")){
-//									System.out.println("Inside CCDI samples tab switch")
-//									tblcol=tblcol+4;
-//									System.out.println("Value of tblcol from the samples section is: "+tblcol)
-//									for (int j = 1; j <=tblcol; j = j +1) {
-//										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
-//										// only for one col the xpath will not have the /p tag
-//										//*[@id="sample_tab_table"]/div[2]/table/tbody/tr[1]/td[6]
-//										if(((tbl_main).equals("//*[@id='sample_tab_table']")) && (colHeader.get(j).getAttribute("innerText")=="Age at Sample Collection")) {
-//											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
-//											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]")).getAttribute("innerText")) +"||")
-//										}else {
-//											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
-//											//*[@id="sample_tab_table"]/div[2]/table/tbody/tr[1]/td[2]/p
-//											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/p")).getAttribute("innerText")) +"||")
-//										}
-//										System.out.println("This is the value of data : "+data)
-//									}
-//								}else if((tbl_main).equals('//*[@id="file_tab_table"]')){
-//									System.out.println("Inside CCDI files tab switch")
-//									tblcol=tblcol+2;
-//									for (int j = 1; j <=tblcol; j = j +1) {
-//										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
-//										//*[@id="file_tab_table"]//tbody/tr[1]/*[2]/*[2]
-//										System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
-//										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/p")).getAttribute("innerText")) +"||")
-//										System.out.println("This is the value of data : "+data)
-//									}
-//								}
-//								break;
-//							default:
-//								System.err.println("Check CCDI switch statment for this error")
-//								break;
-//						}
-//					}
-//
-//					//@@@@@@@@@@@@@@@@ C3DC table data collection starts here  @@@@@@@@@@@@@@@@  added on 11 Mar 2024
-//
-//					if(switchString == "C3DC"){
-//						switch(switchC3DC){
-//							case("/explore"):
-//								System.out.println("Inside C3DC switch case for body data")
-//								int tblcol;
-//
-//							//System.out.println ("This is the value of tblcol from C3DC body data :"+tblcol)
-//								System.out.println("this is the value of tbl main: " +tbl_main)
-//								Thread.sleep(2000)
-//
-//								if((tbl_main).equals('//*[@id="participant_tab_table"]')){
-//									tblcol=4;
-//									for (int j = 0; j <tblcol; j = j +1) {
-//										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
-//										System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
-//										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/td[" + (j+1) +"]")).getAttribute("innerText")) +"||")
-//										System.out.println("This is the value of data : "+data)
-//									}
-//								}else if((tbl_main).equals('//*[@id="diagnosis_tab_table"]')){
-//									System.out.println("Inside C3DC diagnosis switch")
-//									tblcol=7;
-//									System.out.println("Value of tblcol from the diagnosis section is: "+tblcol)
-//									for (int j = 0; j <tblcol; j = j +1) {
-//										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
-//										System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
-//										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/td[" + (j+1) +"]/p")).getAttribute("innerText")) +"||")
-//										System.out.println("This is the value of data : "+data)
-//									}
-//								}else if((tbl_main).equals('//*[@id="survival_tab_table"]')){
-//									System.out.println("Inside C3DC survival switch")
-//									tblcol=4;
-//									System.out.println ("This is the value of tblcol from C3DC survival switch block :"+tblcol)
-//									System.out.println("Value of tblcol from the survival section is: "+tblcol)
-//									for (int j = 0; j <tblcol; j = j +1) {
-//										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
-//										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/p")).getAttribute("innerText")) +"||")
-//										System.out.println("This is the value of data : "+data)
-//									}
-//								}else if((tbl_main).equals('//*[@id="study_tab_table"]')){
-//									System.out.println("Inside C3DC studies switch")
-//									tblcol=3;
-//									System.out.println("Value of tblcol from the studies section is: "+tblcol)
-//									for (int j = 0; j <tblcol; j = j +1) {
-//										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
-//										System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
-//										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/p")).getAttribute("innerText")) +"||")
-//										System.out.println("This is the value of data : "+data)
-//									}
-//								}
-//								break;
-//							default:
-//								System.err.println("Check C3DC switch statment for this error")
-//								break;
-//						}
-//					}
-//
-//					// @@@@@@@@@@@@@@@@  Canine table data collection starts here @@@@@@@@@@@@@@@@
-//					if(switchString == "Canine"){
-//						System.out.println("Inside Canine Switch Structure")
-//						switch(switchCanine){
-//
-//							case("/explore"):
-//								int tblcol=GlobalVariable.G_rowcount_Katalon;
-//
-//								if((tbl_main).equals("//*[@id='case_tab_table']")){
-//									//This is for cases tab
-//									data = ""
-//									System.out.println("This is the val of tblcol: "+tblcol+"\nThis is the output of data: "+ data)
-//									for (int j = 2; j<= tblcol; j = j + 1) {
-//										System.out.println("Value of i is: "+i+"\nValue of j is: "+j)
-//
-//										if( ((tbl_main).equals("//*[@id='case_tab_table']")) && (colHeader.get(j-2).getAttribute("innerText")=="Case ID")){
-//											//j-1
-//											System.out.println("Inside the dog filter control structure")
-//											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr[" + i + "]/td[" + j +"]/div/a")).getAttribute("innerText").trim()) +"||")
-//											System.out.println("This is the data after filtering for dog icon :"+data)
-//										}else {
-//											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr[" + i + "]/td[" + j + "]")).getAttribute("innerText")) +"||")
-//											System.out.println("This is the value of data : "+data)
-//										}
-//									}
-//								}else if((tbl_main).equals("//*[@id='sample_tab_table']")){
-//									//This is for samples tab
-//									data = ""
-//									System.out.println("This is the val of tblcol: "+tblcol+"\nThis is the output of data: "+ data)
-//									for (int j = 2; j<= tblcol; j = j + 1) {
-//										System.out.println("Value of i is: "+i+"\nValue of j is: "+j)
-//										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr[" + i + "]/td[" + j + "]")).getAttribute("innerText")) +"||")
-//										System.out.println("This is the value of data : "+data)
-//									}
-//								}else if((tbl_main).equals("//*[@id='file_tab_table']")){
-//									//This is for case file tab
-//									tblcol=tblcol-2  // this is needed when files tab has 11 cols
-//									System.out.println("This is the count of tblcol when files tab is selected: "+tblcol)
-//									for (int j = 0; j< tblcol; j = j + 1) {
-//										System.out.println("Value of i is: "+i+"\nValue of j is: "+j)
-//
-//										if((colHeader.get(j).getAttribute("innerText"))!="Access") {
-//											System.out.println("This is the name of column header: "+colHeader.get(j).getAttribute("innerText"))
-//											data = data + ( (driver.findElement(By.xpath(tbl_bdy +"/tr[" + i + "]/td[" + (j+2) +"]")).getAttribute("innerText").trim()) +"||")//(j+1)
-//											System.out.println("This is the data after filtering for dog icon :"+data)
-//										}
-//									}
-//								}else if((tbl_main).equals("//table")){
-//									//This is for case file tab
-//									tblcol=tblcol-5  // this is needed when study files has 8 cols
-//									System.out.println("This is the count of tblcol when study files tab is selected: "+tblcol)
-//									for (int j = 0; j< tblcol; j = j + 1) {
-//										//for (int j = 1; j<= tblcol; j = j + 1) {
-//										System.out.println("Value of i is: "+i+"\nValue of j is: "+j)
-//
-//										if((colHeader.get(j).getAttribute("innerText"))!="Access") {
-//											System.out.println("This is the name of column header  :"+colHeader.get(j).getAttribute("innerText"))
-//											data = data + ((driver.findElement(By.xpath(tbl_bdy +"//tr" + "[" + i + "]/td[" + (j+2) +"]")).getAttribute("innerText")) +"||")
-//											//data = data + ((driver.findElement(By.xpath(tbl_bdy +"//tr" + "[" + i + "]/td[" + (j+1) +"]")).getAttribute("innerText")) +"||")
-//											System.out.println("This is the value of data :"+data)
-//										}
-//									}
-//								}else{
-//									System.err.println("Invalid Tab! Could not read the tab")
-//								}
-//								break;
-//
-//							case("/fileCentricCart"):
-//								System.out.println("Inside filecentric cart case of ICDC - for 10 cols after excluding Access and Remove");
-//							//*[@id='table_selected_files']//tbody/tr[1]/td[2]    td runs from 2 to 11
-//								int tblcol=GlobalVariable.G_rowcount_Katalon;
-//								System.out.println("This is the val of tblcol: "+tblcol)
-//							//i=i-1; // to start from 0 and include the first column
-//								System.out.println("**************** "+ data)
-//								data = ""
-//								for (int j = 2; j<= tblcol-2; j = j + 1) {
-//									System.out.println("Value of i is: "+i+"\nValue of j is: "+j)
-//									//*[@id='table_selected_files']//tbody/tr[1]/td[2]/div[2]   where div[2] is a constant
-//									data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/td[" + j + "]/div[2]")).getAttribute("innerText")) +"||")
-//									System.out.println("This is the value of data :"+data)
-//								}
-//								break;
-//							default:
-//								System.out.println("Canine Case did not match")
-//								break;
-//						} //canine switch ends here
-//					}//canine if ends here
-//
-//
-//					// @@@@@@@@@@@@@@@@  INS table data collection starts here @@@@@@@@@@@@@@@@
-//					if(switchString == "INS"){
-//						System.out.println("Inside INS Switch Structure")
-//						switch(switchINS){
-//							case("/explore"):
-//								int tblcol=GlobalVariable.G_rowcount_Katalon; //13
-//								System.out.println("This is the number of columns from the results table : "+tblcol)
-//							//In ICDC - Cases Tab and Samples tab have 12 cols; Files tab has 8 cols. Hence the counter has to be changed if the tab id is related to files tab.
-//								if((tbl_main).equals('//*[@id="project_tab_table"]/div/div[2]/div[3]/table')){
-//									System.out.println("Inside grants tab")
-//									tblcol=tblcol-5  // this is needed when files tab has 11 cols
-//									System.out.println("This is the count of tblcol when files tab is selected: "+tblcol)
-//									for (int j = 0; j< tblcol+2; j = j + 1) {
-//										System.out.println("Value of i is: "+i+"\nValue of j is: "+j)
-//										System.out.println ("This is the value of col index starting from 0: "+j)
-//
-//										System.out.println("This is the name of column header: "+colHeader.get(j).getAttribute("innerText"))
-//										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/*[2]")).getAttribute("innerText")) +"||")
-//										System.out.println("This is the value of data: "+data)
-//									}
-//									//this is for publications tab in INS***************************************
-//								}else if((tbl_main).equals('//*[@id="publication_tab_table"]/div/div[2]/div[3]/table')){
-//									System.out.println("Inside publications tab")
-//									tblcol=tblcol-8  // this is needed when files tab has 11 cols
-//									System.out.println("This is the count of tblcol when files tab is selected: "+tblcol)
-//									for (int j = 0; j< tblcol+2; j = j + 1) {
-//										System.out.println("Value of i is: "+ i +"\nValue of j is: "+j)
-//										System.out.println ("This is the value of col index starting from 0: "+j)
-//										//*[@id="publication_tab_table"]/div/div[2]/div[3]/table//tbody/tr[1]/*[1]/*[2]  - this is the generic xpath for all columns
-//										//*[@id="publication_tab_table"]/div/div[2]/div[3]/table//tbody/tr[1]/td[1]/*[2]/div/span/a  - this is the specific xpath for the pubmed id col to avoid the external link image
-//										System.out.println("This is the name of column header: "+colHeader.get(j).getAttribute("innerText"))
-//										//if( ((tbl_main).equals('//*[@id="case_tab_table"]')) && (colHeader.get(j-1).getAttribute("innerText")=="Case ID")){
-//										if((colHeader.get(j).getAttribute("innerText")=="PubMed ID")){
-//											System.out.println("Inside the INS Pubmed ID column which has external link icon div that should be avoided")
-//											data = data + ( (driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/*[2]/div/span/a")).getAttribute("innerText").trim()) +"||")
-//											System.out.println("This is the data after eliminating the div for pubmed id external icon :"+data)
-//										}else {
-//											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/*[2]")).getAttribute("innerText")) +"||")
-//											System.out.println("This is the value of data: "+data)
-//										}
-//									}
-//									//this is for datasets tab in INS***************************************
-//								}else if((tbl_main).equals('//*[@id="dataset_tab_table"]/div/div[2]/div[3]/table')){
-//									System.out.println("Inside datasets tab")
-//									tblcol=tblcol-7  // this is needed when files tab has 11 cols
-//									System.out.println("This is the count of tblcol when files tab is selected: "+tblcol)
-//									for (int j = 0; j< tblcol+2; j = j + 1) {
-//										System.out.println("Value of i is: "+ i +"\nValue of j is: "+j)
-//										System.out.println ("This is the value of col index starting from 0: "+j)
-//
-//										System.out.println("This is the name of column header: "+colHeader.get(j).getAttribute("innerText"))
-//										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/*[2]")).getAttribute("innerText")) +"||")
-//										System.out.println("This is the value of data: "+data)
-//									}
-//									//this is for clinical trials tab in INS***************************************
-//								}else if((tbl_main).equals('//*[@id="clinical_trial_tab_table"]/div/div[2]/div[3]/table')){
-//									System.out.println("Inside clin trials tab")
-//									tblcol=tblcol-10  // this is needed when files tab has 11 cols
-//									System.out.println("This is the count of tblcol when files tab is selected: "+tblcol)
-//									for (int j = 0; j< tblcol+2; j = j + 1) {
-//										System.out.println("Value of i is: "+ i +"\nValue of j is: "+j)
-//										System.out.println ("This is the value of col index starting from 0: "+j)
-//
-//										System.out.println("This is the name of column header: "+colHeader.get(j).getAttribute("innerText"))
-//										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/*[2]")).getAttribute("innerText")) +"||")
-//										System.out.println("This is the value of data: "+data)
-//									}
-//									//this is for patents tab in INS***************************************
-//								}else if((tbl_main).equals('//*[@id="patent_tab_table"]/div/div[2]/div[3]/table')){
-//									System.out.println("Inside patents tab")
-//									tblcol=tblcol-2  // this is needed when files tab has 11 cols
-//									System.out.println("This is the count of tblcol when files tab is selected: "+tblcol)
-//									for (int j = 0; j< tblcol+2; j = j + 1) {
-//										System.out.println("Value of i is: "+ i +"\nValue of j is: "+j)
-//										System.out.println ("This is the value of col index starting from 0: "+j)
-//
-//										System.out.println("This is the name of column header: "+colHeader.get(j).getAttribute("innerText"))
-//										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/*[2]")).getAttribute("innerText")) +"||")
-//										System.out.println("This is the value of data: "+data)
-//									}
-//								}else if((statValue)==0){
-//									System.out.println("inside the if loop for statvalue equal to 0 : already collected the header data")
-//								}else{
-//									System.out.println("This is the val of tblcol: "+tblcol)
-//									System.out.println("This is the output of data **************** "+ data)
-//									data = ""
-//
-//									for (int j = 2; j<= tblcol; j = j + 1) {
-//										System.out.println("Value of i is: "+ i +"\nValue of j is: "+j)
-//										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + j + "]/*[2]")).getAttribute("innerText")) +"||")
-//										System.out.println("This is the value of data :"+data)
-//									}
-//								}
-//								break;
-//						} // INS switch ends here
-//					} //INS if ends here
-//					//@@@@@@@@@@@@@@@@ CTDC table data collection starts here  @@@@@@@@@@@@@@@@
-//
-//					if(switchString == "Trials"){
-//						System.out.println("Inside Trials Switch Structure")
-//						switch(switchTrials){
-//							case("/case/"):
-//								System.out.println("Inside trials switch case")
-//								int tblcol=GlobalVariable.G_rowcountFiles
-//								System.out.println ("This is the value of tblcol variable: "+tblcol);
-//								for (int j = 2; j < columns_count+tblcol; j = j + 2) {
-//									data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + j + "]")).getText()) +"||")
-//								}
-//								break;
-//							case("/explore"):
-//								int tblcol=GlobalVariable.G_rowcount_Katalon;
-//								System.out.println("This is the value of the variable tblcol: "+tblcol);
-//								if((tbl_main).equals('//*[@id="file_tab_table"]')){
-//									tblcol=tblcol-2
-//									System.out.println("This is the count of tblcol after adjusting: "+tblcol)
-//								}
-//								if((statValue)==0){
-//									System.out.println("inside the if loop for statvalue equal to 0 : already collected the header data")
-//								}else{
-//									System.out.println("This is the count of tblcol inside Trials: "+tblcol) //tblcol =10 for cases tab subtract 2 from it
-//									System.out.println("This is the value of data before data collection: "+data)
-//									for (int j = 1; j <= tblcol-2; j = j + 1) {
-//										System.out.println("Value of i is: "+i)
-//										System.out.println("Value of j is: "+j)
-//										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/td[" + j + "]/div[2]")).getAttribute("innerText")) +"||")   //*[@id="case_tab_table"]//tbody/tr[1]/td[1]/div[2]/div/a
-//										System.out.println("This is the value of data: "+data)
-//									}
-//								}
-//								break;
-//							default:
-//							//System.out.println("Trials Case did not match")
-//								break;
-//						}
-//					}
-//					//@@@@@@@@@@@@@@@@ Bento table data collection starts here  @@@@@@@@@@@@@@@
-//					if(switchString == "Bento"){
-//						System.out.println("inside Bento switch structure");
-//
-//						switch(switchBento){
-//
-//							case("/explore"):
-//								System.out.println("Inside Bento switch for all cases")
-//								int tblcol=GlobalVariable.G_rowcount_Katalon;
-//								data = ""
-//								System.out.println("Value of columns_count variable : "+columns_count+"\nValue of tblcol variable : "+tblcol)
-//
-//								if((tbl_main).equals('//*[@id="case_tab_table"]')) {
-//									for (int j = 1; j <columns_count+1; j = j + 1) {
-//										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
-//										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr[" + i + "]/td[" + (j+1) +"]")).getAttribute("innerText")) +"||")
-//										System.out.println("This is the value of data : "+data)
-//									}
-//								}else if((tbl_main).equals('//*[@id="sample_tab_table"]')){
-//									for (int j = 1; j <columns_count+1; j = j + 1) {
-//										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
-//										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr[" + i + "]/td[" + (j+1) +"]")).getAttribute("innerText")) +"||")
-//										System.out.println("This is the value of data : "+data)
-//									}
-//								}else if((tbl_main).equals('//*[@id="file_tab_table"]')){
-//									for (int j = 1; j <columns_count+1; j = j + 1) {
-//										if((colHeader.get(j).getAttribute("innerText"))!="Access") {
-//											System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
-//											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr[" + i + "]/td[" + (j+1) +"]")).getAttribute("innerText")) +"||")
-//											System.out.println("This is the value of data : "+data)
-//										}
-//									}
-//								}else {
-//									KeywordUtil.markFailed("Invalid Tab name! Check Bento table data collection function")
-//								}
-//
-//								break;
-//							case("/fileCentricCart"):
-//								int tblcol=GlobalVariable.G_rowcount_Katalon;
-//								for (int j = 1; j < columns_count+tblcol; j = j + 1) {
-//									System.out.println("Value of i is: "+i+"\nValue of j is: "+j)
-//									data = data+((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + j + "]")).getAttribute("innerText")) +"||")
-//									System.out.println("This is the value of data : "+data)
-//								}
-//								break;
-//							case("/programs"):
-//								System.out.println("Inside Bento switch for all Programs cases")
-//								int tblcol=GlobalVariable.G_rowcount_Katalon;
-//								System.out.println("Value of columns_count variable : "+columns_count + "\nValue of tblcol variable : "+tblcol)
-//								for (int j = 1; j < columns_count+1; j = j + 1) {
-//									System.out.println("Value of i is: "+ i +"\nValue of j is: "+j)
-//
-//									//if((colHeader.get(j).getAttribute("innerText"))!="PubMed ID") {
-//									//System.out.println("This is the name of Pgm table column header  :"+colHeader.get(j).getAttribute("innerText"))
-//									//System.out.println("This is the value of data before calculating the index for innertext of the td: "+data)
-//
-//									//data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) + "]/*[2]")).getAttribute("innerText")) +"||")
-//									data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + j + "]")).getAttribute("innerText").trim()) +"||")
-//									System.out.println("This is the value of data :"+data)
-//									//}
-//								}
-//								break;
-//
-//							default:
-//								KeywordUtil.markFailed("Bento Case switch did not match")
-//								break;
-//						}
-//					}
-//					System.out.println("===================  Verification of the data: ===================== \n"+ data)
-//
-//					wTableBodyData.add(data)
-//				}//for loop ends
-//
-//
-//				System.out.println("Size of table body list in current result tab is: "+wTableBodyData.size())
-//				for(int index = 0; index < wTableBodyData.size(); index++) {
-//					System.out.println("Table body data from current page is: " + wTableBodyData.get(index))
-//				}
-//				GlobalVariable.G_CaseData= wTableHdrData + wTableBodyData;
-//				System.out.println("This is the contents of globalvar G_casedata: " +GlobalVariable.G_CaseData)
-//
-//				//********************* CLICKING THE NEXT BUTTON IN RESULTS FOR NEXT PAGE *******************************
-//				// add a counter for 10 inside this for limitting 100 records
-//
-//				scrolltoViewjs(nextButton)   //added to address the unable to scroll into view issue/ another element obscures next button issue
-//				System.out.println("past the scrollintoview block")
-//
-//				if (nextButton.getAttribute("class").contains("disabled")){
-//					break;
-//				} else {
-//					System.out.println("COLLECTED DATA FROM PAGE - " +counter);
-//					clickElement(nextButton); //uses jsexecutor to click
-//					counter++;
-//				}
-//			}//while loop ends
-//		} //if loop for body data collection ends
-//		else {
-//			System.out.println("Not collecting the table data as the stat value is 0")
-//		}
-//
-//		writeToExcel(webSheetName);
-//		System.out.println("webdata written to excel successfully")
-//	}//ReadCasesTableKatalon function ends
+	//	@Keyword
+	//	public static void ReadCasesTableKatalon(String statVal1, String tbl1, String hdr1, String nxtb1, String webSheetName) throws IOException {
+	//		String switchCanine
+	//		String switchTrials
+	//		String switchBento
+	//		String switchGMB
+	//		String switchCDS
+	//		String switchCCDI
+	//		String switchC3DC
+	//		String switchINS
+	//		String switchString
+	//		WebElement nextButton
+	//		WebElement nxtBtn
+	//		WebElement resultTab
+	//		String trim
+	//
+	//		WebDriverWait wait = new WebDriverWait(driver,30);
+	//		System.out.println("This is the stat value of cases/total (in case of cart) before converting to int: "+statVal1)
+	//		int statValue = convStringtoInt(statVal1);
+	//		System.out.println("This is the passed value of stat for this run : "+statValue)
+	//
+	//
+	//		List<String> webData = new ArrayList<String>();  //this is not used
+	//		List<String> wTableHdrData = new ArrayList<String>(); //to capture the table header data
+	//		List<String> wTableBodyData = new ArrayList<String>(); //to capture the table body data
+	//		String tbl_bdy;
+	//		String tbl_main= givexpath(tbl1)
+	//		System.out.println("This is the value of tbl main : "+tbl_main)
+	//
+	//		tbl_bdy= tbl_main+"//tbody"
+	//		//tbl_bdy= tbl_main+"/tbody"  //this is for INS
+	//		GlobalVariable.G_cannine_caseTblBdy=tbl_bdy  //correct his variables name typo and also rename it to G_commons_casetblbdy
+	//		System.out.println("This is the value of table body :"+GlobalVariable.G_cannine_caseTblBdy)
+	//
+	//		//	driver.manage().window().maximize()  commenting to check the error in INS
+	//		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(tbl_bdy)));
+	//		scrolltoViewjs(driver.findElement(By.xpath(tbl_bdy)))
+	//		System.out.println("Scrolled into view and ready to click again")
+	//		clickElement(driver.findElement(By.xpath(tbl_bdy)));
+	//		System.out.println("using jscriptexec, clicked again")
+	//
+	//		WebElement TableBdy =driver.findElement(By.xpath(GlobalVariable.G_cannine_caseTblBdy))
+	//		List<WebElement> rows_table = TableBdy.findElements(By.tagName("tr"))
+	//		System.out.println("This is the value of weblement rows table :"+rows_table);
+	//
+	//		int rows_count = rows_table.size()
+	//		System.out.println("This is the size of the rows in the results table in first page: "+(rows_count))
+	//		String nxt_str=     givexpath(nxtb1)
+	//		System.out.println("This is the value of the xpath of nextbtn : "+nxt_str)
+	//		nextButton = driver.findElement(By.xpath(nxt_str));
+	//		System.out.println("This is the value of the webelem next button from readcasestablekatalon method : "+nextButton)
+	//		System.out.println("This is the value of the hdr object: "+hdr1)
+	//		String hdr_str= givexpath(hdr1)
+	//		System.out.println("This is the value of the hdr string - xpath : "+hdr_str)
+	//		WebElement tableHdr = driver.findElement(By.xpath(hdr_str))
+	//
+	//		List<WebElement> colHeader = tableHdr.findElements(By.tagName("th"));
+	//
+	//		int columns_count
+	//		String hdrdata = ""
+	//
+	//		String crntUrl=driver.getCurrentUrl();
+	//		//Read ICDC table header from result table for a specific tab
+	//		if(((driver.getCurrentUrl()).contains("caninecommons")||(driver.getCurrentUrl()).contains("icdc.bento-tools.org"))&&((driver.getCurrentUrl()).contains("/case/"))){
+	//			switchCanine = getPageSwitch();
+	//			switchString = "Canine";
+	//			System.out.println ("This is the value of CANINE switch string returned by getcurrentpage function: "+switchCanine)
+	//			nxtBtn =  driver.findElement(By.xpath(givexpath('Object Repository/Canine/Canine_File_NextBtn'))); //remove these references of nxtbtn from all 4 ifs
+	//			columns_count = (colHeader.size())
+	//			for(int c=0;c<columns_count;c++){
+	//				//if column header = 'Access' ignore adding it to the hdrdata string
+	//				hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
+	//			}
+	//		}else if (((driver.getCurrentUrl()).contains("caninecommons")||(driver.getCurrentUrl()).contains("icdc.bento-tools.org"))&&((driver.getCurrentUrl()).contains("/explore"))){
+	//			switchCanine = getPageSwitch();
+	//			switchString = "Canine";
+	//			System.out.println ("This is the value of CANINE switch string returned by getcurrentpage function: "+switchCanine)
+	//			nxtBtn =  driver.findElement(By.xpath(givexpath(nxtb1)));
+	//			System.out.println("This is the value of next button from canine cases switch: "+nxtBtn)
+	//			if(statValue==0){
+	//				System.out.println ("No records in the table as stat value is 0")
+	//			}else{
+	//				columns_count = (colHeader.size())-1
+	//				for(int c=0;c<=columns_count;c++){
+	//					if((colHeader.get(c).getAttribute("innerText"))!="Access"){
+	//						//if column header = 'Access' ignore adding it to the hdrdata string
+	//						System.out.println ("This is the value of col header index : "+c)
+	//						hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
+	//					}
+	//				} // for loop ends
+	//			}// else for state value ends prevents writing header to xl when data is empty so xl comparison goes through fine.
+	//		}else if (((driver.getCurrentUrl()).contains("caninecommons")||(driver.getCurrentUrl()).contains("icdc.bento-tools.org"))&&((driver.getCurrentUrl()).contains("/study"))){
+	//			switchCanine = getPageSwitch();
+	//			switchString = "Canine";
+	//			System.out.println ("This is the value of CANINE switch string returned by getcurrentpage function: "+switchCanine)
+	//			nxtBtn =  driver.findElement(By.xpath(givexpath(nxtb1)));
+	//			System.out.println("This is the value of next button from canine cases switch: "+nxtBtn)
+	//			if(statValue==0){
+	//				System.out.println ("No records in the table as stat value is 0")
+	//			}else{
+	//				columns_count = (colHeader.size())-1
+	//				for(int c=1;c<=columns_count;c++){
+	//					if((colHeader.get(c).getAttribute("innerText"))!="Access"){
+	//						//if column header = 'Access' ignore adding it to the hdrdata string
+	//						System.out.println ("This is the value of col header index : "+c)
+	//						hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
+	//					}
+	//				} // for loop ends
+	//			}// else for state value ends prevents writing header to xl when data is empty so xl comparison goes through fine.
+	//		}
+	//		else if (((driver.getCurrentUrl()).contains("caninecommons")||(driver.getCurrentUrl()).contains("icdc.bento-tools.org"))&&((driver.getCurrentUrl()).contains("/fileCentricCart"))){
+	//			switchCanine = getPageSwitch();
+	//			switchString = "Canine";
+	//			System.out.println ("This is the value of CANINE switch string returned by getcurrentpage function: "+switchCanine)
+	//			nxtBtn =  driver.findElement(By.xpath(givexpath(nxtb1)));
+	//			System.out.println("This is the value of next button from canine mycart switch: "+nxtBtn)
+	//			if(statValue==0){
+	//				System.out.println ("No files in the cart")
+	//			}else{
+	//				columns_count = (colHeader.size())-1
+	//				for(int c=1;c<=columns_count;c++){
+	//					//if column header = 'Access' ignore adding it to the hdrdata string
+	//					hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
+	//				} // for loop ends
+	//			}// else for stat val ends   prevents writing header to xl when data is empty so xl comparison goes through fine.
+	//		}	//Read GMB table header from result table for a specific tab
+	//		else if (((driver.getCurrentUrl()).contains("studycatalog"))&&((driver.getCurrentUrl()).contains("/explore"))){
+	//
+	//			//else if (((driver.getCurrentUrl()).contains("studycatalog")||(driver.getCurrentUrl()).contains("https://ins-dev.bento-tools.org/"))&&((driver.getCurrentUrl()).contains("/projects"))){
+	//			switchINS = getPageSwitch();
+	//			switchString = "INS";
+	//			System.out.println ("This is the value of INS switch string returned by getcurrentpage function: "+switchINS)
+	//			nxtBtn =  driver.findElement(By.xpath(givexpath(nxtb1)));
+	//			System.out.println("This is the value of next button from INS projects switch: "+nxtBtn)
+	//			if(statValue==0){
+	//				System.out.println ("No records in the table as stat value is 0")
+	//			}else{
+	//				columns_count = colHeader.size()
+	//				for(int c=0;c<columns_count;c++){
+	//
+	//					System.out.println ("This is the value of col header index : "+c)
+	//					hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
+	//				} // for loop ends
+	//			}// else for state value ends prevents writing header to xl when data is empty so xl comparison goes through fine.
+	//		}
+	//		else if(((driver.getCurrentUrl()).contains("gmb")||(driver.getCurrentUrl()).contains("gmb-qa.bento-tools.org"))&&((driver.getCurrentUrl()).contains("/subjects"))){
+	//			System.out.println ("Control is about to go to case switch ")
+	//			switchGMB = getPageSwitch();
+	//			System.out.println ("Control is about to go to case switch After case switch ")
+	//			switchString = "GMB";
+	//			System.out.println ("This is the value of GMB switch string returned by getcurrentpage function: "+switchGMB)
+	//			nxtBtn =  driver.findElement(By.xpath(givexpath('Object Repository/GMB/GMB_Subjects_TabNextBtn'))); //remove these references of nxtbtn from all 4 ifs
+	//			columns_count = (colHeader.size())   //size should be 11 for subjects tab
+	//			columns_count=columns_count-1;
+	//			System.out.println("Inside GMB switch case for header data::  " +columns_count)
+	//			for(int c=1;c<=columns_count;c++){
+	//				//if column header = 'Access' ignore adding it to the hdrdata string
+	//				hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
+	//			}
+	//
+	//			//CDS function starts here
+	//		}else if(((driver.getCurrentUrl()).contains("dataservice")) && ((driver.getCurrentUrl()).contains("/data"))){
+	//			System.out.println ("Control is about to go to case switch ")
+	//			switchCDS = getPageSwitch();
+	//			System.out.println ("Control is about to go to case switch After case switch ")
+	//			switchString = "CDS";
+	//			System.out.println ("This is the value of CDS switch string returned by getcurrentpage function: "+switchCDS)
+	//
+	//			columns_count = (colHeader.size())
+	//			columns_count=columns_count-1;
+	//			System.out.println("Inside CDS switch case for header data::  " +columns_count)
+	//			for(int c=1;c<=columns_count;c++){
+	//				//if column header = 'Access' ignore adding it to the hdrdata string
+	//				hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
+	//			}
+	//
+	//			//******** C3DC function starts below ********
+	//		}else if((GlobalVariable.AppKey.equals("C3DC")) && ((driver.getCurrentUrl()).contains("/explore"))){
+	//			System.out.println ("Control is about to go to explore switch ")
+	//			switchC3DC = getPageSwitch();
+	//			System.out.println ("Control is about to go to the switch for C3DC ")
+	//			switchString = "C3DC";
+	//			System.out.println ("This is the value of C3DC switch string returned by getcurrentpage function: "+switchC3DC)
+	//
+	//			columns_count = (colHeader.size())
+	//			columns_count=columns_count-1;
+	//			System.out.println("Inside C3DC switch case for header data::  " +columns_count)
+	//			for(int c=0;c<=columns_count;c++){
+	//				//if column header = 'Access' ignore adding it to the hdrdata string
+	//				hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
+	//			}
+	//
+	//			//******** CCDI function starts here ********
+	//		}else if(((driver.getCurrentUrl()).contains("ccdi")) && ((driver.getCurrentUrl()).contains("/explore"))){
+	//			System.out.println ("Control is about to go to case switch ")
+	//			switchCCDI = getPageSwitch();
+	//			System.out.println ("Control is about to go to the switch for CCDI ")
+	//			switchString = "CCDI";
+	//			System.out.println ("This is the value of CCDI switch string returned by getcurrentpage function: "+switchCCDI)
+	//
+	//			columns_count = (colHeader.size())
+	//			columns_count=columns_count-1;
+	//			System.out.println("Inside CCDI switch case for header data::  " +columns_count)
+	//			for(int c=1;c<=columns_count;c++){
+	//				//if column header = 'Access' ignore adding it to the hdrdata string
+	//				hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
+	//			}
+	//
+	//			//******** CTDC function starts below ********
+	//		}else if((crntUrl.contains("ctdc")) && (crntUrl.contains("/case/"))){
+	//			switchTrials = getPageSwitch();
+	//			switchString = "Trials";
+	//			System.out.println ("Value of TRIALS switch string returned by getcurrentpage function: "+switchTrials)
+	//			nxtBtn =  driver.findElement(By.xpath(givexpath('Object Repository/Trials/Trials_File_NextBtn')));
+	//			columns_count = (colHeader.size())
+	//			for(int c=0;c<columns_count;c++){
+	//				hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
+	//			}
+	//		}else if((crntUrl.contains("ctdc")) && (crntUrl.contains("/explore"))){
+	//			switchTrials = getPageSwitch();
+	//			switchString = "Trials";
+	//			System.out.println ("Inside CTDC explore page for table header collection: ")
+	//			System.out.println ("Value of TRIALS switch string returned by getcurrentpage function: "+switchTrials)
+	//			nxtBtn =  driver.findElement(By.xpath(givexpath('Object Repository/Trials/Cases_page/Trials_CasesTabNextBtn')));
+	//			columns_count = (colHeader.size())
+	//			System.out.println ("Total number of columns in CTDC result tab in explore page: "+ columns_count)
+	//			for(int c=0;c<columns_count;c++){
+	//				hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
+	//			}
+	//
+	//
+	//			//********** Bento Function Start here *********
+	//		}else if((crntUrl.contains("bento-tools.org")) && (crntUrl.contains("/explore"))){
+	//			switchBento = getPageSwitch();
+	//			switchString = "Bento";
+	//			System.out.println ("Value of Bento switch string-Case returned by getcurrentpage function: "+switchBento)
+	//			columns_count = (colHeader.size())-1
+	//			hdrdata = ""
+	//			for(int c=1;c<=columns_count;c++){
+	//				if((colHeader.get(c).getAttribute("innerText"))!="Access"){
+	//					System.out.println ("This is the value of col header index: "+c)
+	//					hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
+	//					System.out.println ("This is the value of header data from the else condition: "+hdrdata)
+	//				}
+	//			}
+	//		}else if ((crntUrl.contains("bento-tools.org")) && (crntUrl.contains("/fileCentricCart"))){
+	//			switchBento = getPageSwitch();
+	//			switchString = "Bento";
+	//			System.out.println("Value of BENTO switch string returned by getcurrentpage function: "+switchBento)
+	//			nxtBtn =  driver.findElement(By.xpath(givexpath(nxtb1)));
+	//			System.out.println("This is the value of next button from Bento mycart switch: "+nxtBtn)
+	//			if(statValue==0){
+	//				System.out.println ("No files in the cart")
+	//			}else{
+	//				columns_count = (colHeader.size())-1
+	//				for(int c=0;c<columns_count;c++){
+	//					hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
+	//				} // for loop ends
+	//			}// else for stat val ends prevents writing header to xl when data is empty so xl comparison goes through fine.
+	//		}
+	//
+	//		else if ((crntUrl.contains("bento-tools.org")) && (crntUrl.contains("/programs"))){
+	//			switchBento = getPageSwitch();
+	//			switchString = "Bento";
+	//			System.out.println ("Value of BENTO switch string returned by getcurrent program page function: "+switchBento)
+	//			nxtBtn =  driver.findElement(By.xpath(givexpath(nxtb1)));
+	//			System.out.println("Value of next button from Bento pgm page switch: "+nxtBtn)
+	//			if(statValue==0){
+	//				System.out.println ("No records for pgms")
+	//			}else{
+	//				columns_count = (colHeader.size())
+	//				for(int c=0;c<columns_count;c++){
+	//					//if((colHeader.get(c).getAttribute("innerText"))!="PubMed ID"){
+	//					//System.out.println ("This is the value of col header index: "+c)
+	//					hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
+	//					//}
+	//				} // for loop ends
+	//			}// else for stat val ends   prevents writing header to xl when data is empty so xl comparison goes through fine.
+	//		}
+	//
+	//		wTableHdrData.add(hdrdata);
+	//
+	//		System.out.println("No.of columns in the current result tab is : "+columns_count)
+	//		System.out.println("Complete list of column headers in current result tab is : "+wTableHdrData)
+	//
+	//		for(int index = 0; index < wTableHdrData.size(); index++) {
+	//			System.out.println("Header data of the table is :" + wTableHdrData.get(index))
+	//		}
+	//		System.out.println("Val of statistics before while loop: "+statValue);
+	//
+	//
+	//		//@@@@@@@@@@@@@@@@@@  COLLECTING THE TABLE BODY DATA @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	//		int counter=1;
+	//		if (statValue !=0) {
+	//
+	//			while(counter <= 10) {
+	//				wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(GlobalVariable.G_cannine_caseTblBdy)));   //the name is misleading but it is only a placeholder for all the applications
+	//				scrolltoViewjs(driver.findElement(By.xpath(GlobalVariable.G_cannine_caseTblBdy)))
+	//				TableBdy =driver.findElement(By.xpath(GlobalVariable.G_cannine_caseTblBdy))
+	//				System.out.println("finding the num of rows in the result page")
+	//				Thread.sleep(5000) //Check first and then delete
+	//				rows_table = TableBdy.findElements(By.tagName("tr"))
+	//				System.out.println("This is the value of weblement rows table :"+rows_table);
+	//				Thread.sleep(3000)
+	//				rows_count = rows_table.size()
+	//				System.out.println("This is the size of the rows in the table in the current page:"+(rows_count))
+	//				// add code to check exception - if the value of rows_count=1, ie if the table has only header and no data, skip collecting the webdata.
+	//
+	//				int i;
+	//
+	//				for(i = 1; i <= rows_count; i++) {
+	//					//before editing for fixing cotb issue
+	//
+	//					String data = ""
+	//					//@@@@@@@@@@@@@@@@ GMB table data collection starts here  @@@@@@@@@@@@@@@@
+	//					if(switchString == "GMB"){
+	//						System.out.println("Just before GMB Switch Structure for body data collection")
+	//						switch(switchGMB){
+	//							case("/subjects"):
+	//								System.out.println("Inside GMB switch case for body data")
+	//								int tblcol=GlobalVariable.G_rowcountFiles
+	//								System.out.println("Value of tblcol : "+tblcol)  //should be 11
+	//							//tblcol=tblcol-2
+	//								for (int j = 1; j <=tblcol; j = j +1) {
+	//									System.out.println("Value of i is: "+i)
+	//									System.out.println("Value of j is: "+j)
+	//									System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+	//									data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/*[2]")).getAttribute("innerText")) +"||")
+	//									System.out.println("This is the value of data : "+data)
+	//								}
+	//								break;
+	//							case("/to edit"):
+	//								int tblcol=GlobalVariable.G_rowcount_Katalon;
+	//								if((tbl_main).equals('//*[@id="case_tab_table"]')){
+	//									tblcol=tblcol-2  // this is needed when files tab has 11 cols
+	//									System.out.println("This is the count of tblcol when files tab is selected:"+tblcol)
+	//									for (int j = 1; j<= tblcol; j = j + 1) {
+	//										System.out.println("Value of i is: "+i)
+	//										System.out.println("Value of j is: "+j)
+	//										System.out.println ("This is the value of col index starting from 1 : "+j)
+	//
+	//										if((colHeader.get(j).getAttribute("innerText"))!="Access") {
+	//											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+	//											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/*[2]")).getAttribute("innerText")) +"||")
+	//											System.out.println("This is the value of data : "+data)
+	//										}
+	//									}
+	//								}else if((statValue)==0){
+	//									System.out.println("inside the if loop for statvalu equal to 0 : already collected the header data")
+	//								}else{
+	//									System.out.println("This is the val of tblcol: "+tblcol)
+	//									data = ""
+	//
+	//									for (int j = 2; j<= tblcol; j = j + 1) {
+	//										System.out.println("Value of i is: "+i)
+	//										System.out.println("Value of j is: "+j)
+	//
+	//										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + j + "]/*[2]")).getAttribute("innerText")) +"||")
+	//										System.out.println("This is the value of data : "+data)
+	//									}
+	//								}
+	//						}
+	//					}
+	//
+	//
+	//
+	//					//@@@@@@@@@@@@@@@@ CDS table data collection starts here  @@@@@@@@@@@@@@@@
+	//					//the following is from Sohil
+	//					if(switchString == "CDS"){
+	//						switch(switchCDS){
+	//							case("/data"):
+	//								System.out.println("Inside CDS switch case for body data")
+	//								int tblcol=GlobalVariable.G_rowcountFiles
+	//
+	//								if((tbl_main).equals('//div[@id="case_tab_table"]')){
+	//									tblcol=tblcol-3;
+	//									for (int j = 1; j <=tblcol; j = j +1) {
+	//										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
+	//										System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+	//
+	//										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/*[1]")).getAttribute("innerText")) +"||")
+	//
+	//										//div[@id="case_tab_table"]//tbody/tr[2]/td[3]/*[2]
+	//										System.out.println("This is the value of data : "+data)
+	//									}
+	//								}else if((tbl_main).equals('//*[@id="sample_tab_table"]')){
+	//									tblcol=tblcol-2;
+	//									for (int j = 1; j <=tblcol; j = j +1) {
+	//										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
+	//										System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+	//										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/*[1]")).getAttribute("innerText")) +"||")
+	//										System.out.println("This is the value of data : "+data)
+	//									}
+	//								}else if((tbl_main).equals('//*[@id="file_tab_table"]')){
+	//									tblcol=tblcol-2;
+	//									for (int j = 1; j <=tblcol; j = j +1) {
+	//										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
+	//										System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+	//										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/*[1]")).getAttribute("innerText")) +"||")
+	//										System.out.println("This is the value of data : "+data)
+	//									}
+	//								}
+	//								break;
+	//							default:
+	//								System.err.println("Check CDS switch statment for this error")
+	//								break;
+	//						}
+	//					}
+	//
+	//					//@@@@@@@@@@@@@@@@ CCDI table data collection starts here  @@@@@@@@@@@@@@@@  added on 8th Sep 2023
+	//
+	//					if(switchString == "CCDI"){
+	//						switch(switchCCDI){
+	//							case("/explore"):
+	//								System.out.println("Inside CCDI switch case for body data")
+	//								int tblcol=GlobalVariable.G_rowcountFiles
+	//								System.out.println ("This is the value of tblcol from CCDI body data :"+tblcol)
+	//
+	//								if((tbl_main).equals('//*[@id="participant_tab_table"]')){
+	//									System.out.println("Inside CCDI participants switch")
+	//									tblcol=tblcol-2;    //8-3=5 leaves out alternate id col   change to 8-2
+	//									for (int j = 1; j <=tblcol; j = j +1) {
+	//										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
+	//										System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+	//										//*[@id="participant_tab_table"]/div[2]/table/tbody/tr[1]/td[3]/p
+	//										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/p")).getAttribute("innerText")) +"||")
+	//										System.out.println("This is the value of data : "+data)
+	//									}
+	//								}else if((tbl_main).equals("//*[@id='diagnosis_tab_table']")){
+	//									System.out.println("Inside CCDI diagnosis switch")
+	//									tblcol=tblcol+3;  //tblcol comes from the top as 8. need to add 3 to get 11 cols
+	//									System.out.println("Value of tblcol from the diagnosis section is: "+tblcol)
+	//									for (int j = 1; j <=tblcol; j = j +1) {
+	//										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
+	//										// only for this Age column the xpath will not have the /p tag
+	//										if(((tbl_main).equals("//*[@id='diagnosis_tab_table']")) && (colHeader.get(j).getAttribute("innerText")=="Age at Diagnosis (days)")) {
+	//											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+	//											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]")).getAttribute("innerText")) +"||")
+	//										}else {
+	//
+	//											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+	//											//*[@id="participant_tab_table"]/div[2]/table/tbody/tr[1]/td[3]/p
+	//											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/p")).getAttribute("innerText")) +"||")
+	//										}
+	//										System.out.println("This is the value of data : "+data)
+	//									}
+	//								}else if((tbl_main).equals("//*[@id='study_tab_table']")){
+	//									System.out.println("Inside CCDI studies switch")
+	//									tblcol=tblcol+3;
+	//									System.out.println("Value of tblcol from the studies section is: "+tblcol)
+	//									for (int j = 1; j <=tblcol; j = j +1) {
+	//										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
+	//										// only for two cols with (top 5) the xpath will not have the /p tag
+	//
+	//										if(((tbl_main).equals("//*[@id='study_tab_table']")) && (colHeader.get(j).getAttribute("innerText")=="Diagnosis (Top 5)")) {
+	//											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+	//											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]")).getAttribute("innerText")) +"||")
+	//										}else if(((tbl_main).equals("//*[@id='study_tab_table']")) && (colHeader.get(j).getAttribute("innerText")=="Diagnosis Anatomic Site (Top 5)")) {
+	//											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+	//											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]")).getAttribute("innerText")) +"||")
+	//										}else if(((tbl_main).equals("//*[@id='study_tab_table']")) && (colHeader.get(j).getAttribute("innerText")=="File Type (Top 5)")) {
+	//											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+	//											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]")).getAttribute("innerText")) +"||")
+	//										}
+	//										else {
+	//											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+	//
+	//											//*[@id="study_tab_table"]/div[2]/table/tbody/tr[5]/td[10]/p
+	//											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/p")).getAttribute("innerText")) +"||")
+	//										}
+	//										System.out.println("This is the value of data : "+data)
+	//									}
+	//								}else if((tbl_main).equals("//*[@id='sample_tab_table']")){
+	//									System.out.println("Inside CCDI samples tab switch")
+	//									tblcol=tblcol+4;
+	//									System.out.println("Value of tblcol from the samples section is: "+tblcol)
+	//									for (int j = 1; j <=tblcol; j = j +1) {
+	//										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
+	//										// only for one col the xpath will not have the /p tag
+	//										//*[@id="sample_tab_table"]/div[2]/table/tbody/tr[1]/td[6]
+	//										if(((tbl_main).equals("//*[@id='sample_tab_table']")) && (colHeader.get(j).getAttribute("innerText")=="Age at Sample Collection")) {
+	//											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+	//											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]")).getAttribute("innerText")) +"||")
+	//										}else {
+	//											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+	//											//*[@id="sample_tab_table"]/div[2]/table/tbody/tr[1]/td[2]/p
+	//											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/p")).getAttribute("innerText")) +"||")
+	//										}
+	//										System.out.println("This is the value of data : "+data)
+	//									}
+	//								}else if((tbl_main).equals('//*[@id="file_tab_table"]')){
+	//									System.out.println("Inside CCDI files tab switch")
+	//									tblcol=tblcol+2;
+	//									for (int j = 1; j <=tblcol; j = j +1) {
+	//										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
+	//										//*[@id="file_tab_table"]//tbody/tr[1]/*[2]/*[2]
+	//										System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+	//										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/p")).getAttribute("innerText")) +"||")
+	//										System.out.println("This is the value of data : "+data)
+	//									}
+	//								}
+	//								break;
+	//							default:
+	//								System.err.println("Check CCDI switch statment for this error")
+	//								break;
+	//						}
+	//					}
+	//
+	//					//@@@@@@@@@@@@@@@@ C3DC table data collection starts here  @@@@@@@@@@@@@@@@  added on 11 Mar 2024
+	//
+	//					if(switchString == "C3DC"){
+	//						switch(switchC3DC){
+	//							case("/explore"):
+	//								System.out.println("Inside C3DC switch case for body data")
+	//								int tblcol;
+	//
+	//							//System.out.println ("This is the value of tblcol from C3DC body data :"+tblcol)
+	//								System.out.println("this is the value of tbl main: " +tbl_main)
+	//								Thread.sleep(2000)
+	//
+	//								if((tbl_main).equals('//*[@id="participant_tab_table"]')){
+	//									tblcol=4;
+	//									for (int j = 0; j <tblcol; j = j +1) {
+	//										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
+	//										System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+	//										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/td[" + (j+1) +"]")).getAttribute("innerText")) +"||")
+	//										System.out.println("This is the value of data : "+data)
+	//									}
+	//								}else if((tbl_main).equals('//*[@id="diagnosis_tab_table"]')){
+	//									System.out.println("Inside C3DC diagnosis switch")
+	//									tblcol=7;
+	//									System.out.println("Value of tblcol from the diagnosis section is: "+tblcol)
+	//									for (int j = 0; j <tblcol; j = j +1) {
+	//										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
+	//										System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+	//										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/td[" + (j+1) +"]/p")).getAttribute("innerText")) +"||")
+	//										System.out.println("This is the value of data : "+data)
+	//									}
+	//								}else if((tbl_main).equals('//*[@id="survival_tab_table"]')){
+	//									System.out.println("Inside C3DC survival switch")
+	//									tblcol=4;
+	//									System.out.println ("This is the value of tblcol from C3DC survival switch block :"+tblcol)
+	//									System.out.println("Value of tblcol from the survival section is: "+tblcol)
+	//									for (int j = 0; j <tblcol; j = j +1) {
+	//										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
+	//										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/p")).getAttribute("innerText")) +"||")
+	//										System.out.println("This is the value of data : "+data)
+	//									}
+	//								}else if((tbl_main).equals('//*[@id="study_tab_table"]')){
+	//									System.out.println("Inside C3DC studies switch")
+	//									tblcol=3;
+	//									System.out.println("Value of tblcol from the studies section is: "+tblcol)
+	//									for (int j = 0; j <tblcol; j = j +1) {
+	//										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
+	//										System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+	//										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/p")).getAttribute("innerText")) +"||")
+	//										System.out.println("This is the value of data : "+data)
+	//									}
+	//								}
+	//								break;
+	//							default:
+	//								System.err.println("Check C3DC switch statment for this error")
+	//								break;
+	//						}
+	//					}
+	//
+	//					// @@@@@@@@@@@@@@@@  Canine table data collection starts here @@@@@@@@@@@@@@@@
+	//					if(switchString == "Canine"){
+	//						System.out.println("Inside Canine Switch Structure")
+	//						switch(switchCanine){
+	//
+	//							case("/explore"):
+	//								int tblcol=GlobalVariable.G_rowcount_Katalon;
+	//
+	//								if((tbl_main).equals("//*[@id='case_tab_table']")){
+	//									//This is for cases tab
+	//									data = ""
+	//									System.out.println("This is the val of tblcol: "+tblcol+"\nThis is the output of data: "+ data)
+	//									for (int j = 2; j<= tblcol; j = j + 1) {
+	//										System.out.println("Value of i is: "+i+"\nValue of j is: "+j)
+	//
+	//										if( ((tbl_main).equals("//*[@id='case_tab_table']")) && (colHeader.get(j-2).getAttribute("innerText")=="Case ID")){
+	//											//j-1
+	//											System.out.println("Inside the dog filter control structure")
+	//											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr[" + i + "]/td[" + j +"]/div/a")).getAttribute("innerText").trim()) +"||")
+	//											System.out.println("This is the data after filtering for dog icon :"+data)
+	//										}else {
+	//											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr[" + i + "]/td[" + j + "]")).getAttribute("innerText")) +"||")
+	//											System.out.println("This is the value of data : "+data)
+	//										}
+	//									}
+	//								}else if((tbl_main).equals("//*[@id='sample_tab_table']")){
+	//									//This is for samples tab
+	//									data = ""
+	//									System.out.println("This is the val of tblcol: "+tblcol+"\nThis is the output of data: "+ data)
+	//									for (int j = 2; j<= tblcol; j = j + 1) {
+	//										System.out.println("Value of i is: "+i+"\nValue of j is: "+j)
+	//										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr[" + i + "]/td[" + j + "]")).getAttribute("innerText")) +"||")
+	//										System.out.println("This is the value of data : "+data)
+	//									}
+	//								}else if((tbl_main).equals("//*[@id='file_tab_table']")){
+	//									//This is for case file tab
+	//									tblcol=tblcol-2  // this is needed when files tab has 11 cols
+	//									System.out.println("This is the count of tblcol when files tab is selected: "+tblcol)
+	//									for (int j = 0; j< tblcol; j = j + 1) {
+	//										System.out.println("Value of i is: "+i+"\nValue of j is: "+j)
+	//
+	//										if((colHeader.get(j).getAttribute("innerText"))!="Access") {
+	//											System.out.println("This is the name of column header: "+colHeader.get(j).getAttribute("innerText"))
+	//											data = data + ( (driver.findElement(By.xpath(tbl_bdy +"/tr[" + i + "]/td[" + (j+2) +"]")).getAttribute("innerText").trim()) +"||")//(j+1)
+	//											System.out.println("This is the data after filtering for dog icon :"+data)
+	//										}
+	//									}
+	//								}else if((tbl_main).equals("//table")){
+	//									//This is for case file tab
+	//									tblcol=tblcol-5  // this is needed when study files has 8 cols
+	//									System.out.println("This is the count of tblcol when study files tab is selected: "+tblcol)
+	//									for (int j = 0; j< tblcol; j = j + 1) {
+	//										//for (int j = 1; j<= tblcol; j = j + 1) {
+	//										System.out.println("Value of i is: "+i+"\nValue of j is: "+j)
+	//
+	//										if((colHeader.get(j).getAttribute("innerText"))!="Access") {
+	//											System.out.println("This is the name of column header  :"+colHeader.get(j).getAttribute("innerText"))
+	//											data = data + ((driver.findElement(By.xpath(tbl_bdy +"//tr" + "[" + i + "]/td[" + (j+2) +"]")).getAttribute("innerText")) +"||")
+	//											//data = data + ((driver.findElement(By.xpath(tbl_bdy +"//tr" + "[" + i + "]/td[" + (j+1) +"]")).getAttribute("innerText")) +"||")
+	//											System.out.println("This is the value of data :"+data)
+	//										}
+	//									}
+	//								}else{
+	//									System.err.println("Invalid Tab! Could not read the tab")
+	//								}
+	//								break;
+	//
+	//							case("/fileCentricCart"):
+	//								System.out.println("Inside filecentric cart case of ICDC - for 10 cols after excluding Access and Remove");
+	//							//*[@id='table_selected_files']//tbody/tr[1]/td[2]    td runs from 2 to 11
+	//								int tblcol=GlobalVariable.G_rowcount_Katalon;
+	//								System.out.println("This is the val of tblcol: "+tblcol)
+	//							//i=i-1; // to start from 0 and include the first column
+	//								System.out.println("**************** "+ data)
+	//								data = ""
+	//								for (int j = 2; j<= tblcol-2; j = j + 1) {
+	//									System.out.println("Value of i is: "+i+"\nValue of j is: "+j)
+	//									//*[@id='table_selected_files']//tbody/tr[1]/td[2]/div[2]   where div[2] is a constant
+	//									data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/td[" + j + "]/div[2]")).getAttribute("innerText")) +"||")
+	//									System.out.println("This is the value of data :"+data)
+	//								}
+	//								break;
+	//							default:
+	//								System.out.println("Canine Case did not match")
+	//								break;
+	//						} //canine switch ends here
+	//					}//canine if ends here
+	//
+	//
+	//					// @@@@@@@@@@@@@@@@  INS table data collection starts here @@@@@@@@@@@@@@@@
+	//					if(switchString == "INS"){
+	//						System.out.println("Inside INS Switch Structure")
+	//						switch(switchINS){
+	//							case("/explore"):
+	//								int tblcol=GlobalVariable.G_rowcount_Katalon; //13
+	//								System.out.println("This is the number of columns from the results table : "+tblcol)
+	//							//In ICDC - Cases Tab and Samples tab have 12 cols; Files tab has 8 cols. Hence the counter has to be changed if the tab id is related to files tab.
+	//								if((tbl_main).equals('//*[@id="project_tab_table"]/div/div[2]/div[3]/table')){
+	//									System.out.println("Inside grants tab")
+	//									tblcol=tblcol-5  // this is needed when files tab has 11 cols
+	//									System.out.println("This is the count of tblcol when files tab is selected: "+tblcol)
+	//									for (int j = 0; j< tblcol+2; j = j + 1) {
+	//										System.out.println("Value of i is: "+i+"\nValue of j is: "+j)
+	//										System.out.println ("This is the value of col index starting from 0: "+j)
+	//
+	//										System.out.println("This is the name of column header: "+colHeader.get(j).getAttribute("innerText"))
+	//										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/*[2]")).getAttribute("innerText")) +"||")
+	//										System.out.println("This is the value of data: "+data)
+	//									}
+	//									//this is for publications tab in INS***************************************
+	//								}else if((tbl_main).equals('//*[@id="publication_tab_table"]/div/div[2]/div[3]/table')){
+	//									System.out.println("Inside publications tab")
+	//									tblcol=tblcol-8  // this is needed when files tab has 11 cols
+	//									System.out.println("This is the count of tblcol when files tab is selected: "+tblcol)
+	//									for (int j = 0; j< tblcol+2; j = j + 1) {
+	//										System.out.println("Value of i is: "+ i +"\nValue of j is: "+j)
+	//										System.out.println ("This is the value of col index starting from 0: "+j)
+	//										//*[@id="publication_tab_table"]/div/div[2]/div[3]/table//tbody/tr[1]/*[1]/*[2]  - this is the generic xpath for all columns
+	//										//*[@id="publication_tab_table"]/div/div[2]/div[3]/table//tbody/tr[1]/td[1]/*[2]/div/span/a  - this is the specific xpath for the pubmed id col to avoid the external link image
+	//										System.out.println("This is the name of column header: "+colHeader.get(j).getAttribute("innerText"))
+	//										//if( ((tbl_main).equals('//*[@id="case_tab_table"]')) && (colHeader.get(j-1).getAttribute("innerText")=="Case ID")){
+	//										if((colHeader.get(j).getAttribute("innerText")=="PubMed ID")){
+	//											System.out.println("Inside the INS Pubmed ID column which has external link icon div that should be avoided")
+	//											data = data + ( (driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/*[2]/div/span/a")).getAttribute("innerText").trim()) +"||")
+	//											System.out.println("This is the data after eliminating the div for pubmed id external icon :"+data)
+	//										}else {
+	//											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/*[2]")).getAttribute("innerText")) +"||")
+	//											System.out.println("This is the value of data: "+data)
+	//										}
+	//									}
+	//									//this is for datasets tab in INS***************************************
+	//								}else if((tbl_main).equals('//*[@id="dataset_tab_table"]/div/div[2]/div[3]/table')){
+	//									System.out.println("Inside datasets tab")
+	//									tblcol=tblcol-7  // this is needed when files tab has 11 cols
+	//									System.out.println("This is the count of tblcol when files tab is selected: "+tblcol)
+	//									for (int j = 0; j< tblcol+2; j = j + 1) {
+	//										System.out.println("Value of i is: "+ i +"\nValue of j is: "+j)
+	//										System.out.println ("This is the value of col index starting from 0: "+j)
+	//
+	//										System.out.println("This is the name of column header: "+colHeader.get(j).getAttribute("innerText"))
+	//										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/*[2]")).getAttribute("innerText")) +"||")
+	//										System.out.println("This is the value of data: "+data)
+	//									}
+	//									//this is for clinical trials tab in INS***************************************
+	//								}else if((tbl_main).equals('//*[@id="clinical_trial_tab_table"]/div/div[2]/div[3]/table')){
+	//									System.out.println("Inside clin trials tab")
+	//									tblcol=tblcol-10  // this is needed when files tab has 11 cols
+	//									System.out.println("This is the count of tblcol when files tab is selected: "+tblcol)
+	//									for (int j = 0; j< tblcol+2; j = j + 1) {
+	//										System.out.println("Value of i is: "+ i +"\nValue of j is: "+j)
+	//										System.out.println ("This is the value of col index starting from 0: "+j)
+	//
+	//										System.out.println("This is the name of column header: "+colHeader.get(j).getAttribute("innerText"))
+	//										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/*[2]")).getAttribute("innerText")) +"||")
+	//										System.out.println("This is the value of data: "+data)
+	//									}
+	//									//this is for patents tab in INS***************************************
+	//								}else if((tbl_main).equals('//*[@id="patent_tab_table"]/div/div[2]/div[3]/table')){
+	//									System.out.println("Inside patents tab")
+	//									tblcol=tblcol-2  // this is needed when files tab has 11 cols
+	//									System.out.println("This is the count of tblcol when files tab is selected: "+tblcol)
+	//									for (int j = 0; j< tblcol+2; j = j + 1) {
+	//										System.out.println("Value of i is: "+ i +"\nValue of j is: "+j)
+	//										System.out.println ("This is the value of col index starting from 0: "+j)
+	//
+	//										System.out.println("This is the name of column header: "+colHeader.get(j).getAttribute("innerText"))
+	//										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/*[2]")).getAttribute("innerText")) +"||")
+	//										System.out.println("This is the value of data: "+data)
+	//									}
+	//								}else if((statValue)==0){
+	//									System.out.println("inside the if loop for statvalue equal to 0 : already collected the header data")
+	//								}else{
+	//									System.out.println("This is the val of tblcol: "+tblcol)
+	//									System.out.println("This is the output of data **************** "+ data)
+	//									data = ""
+	//
+	//									for (int j = 2; j<= tblcol; j = j + 1) {
+	//										System.out.println("Value of i is: "+ i +"\nValue of j is: "+j)
+	//										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + j + "]/*[2]")).getAttribute("innerText")) +"||")
+	//										System.out.println("This is the value of data :"+data)
+	//									}
+	//								}
+	//								break;
+	//						} // INS switch ends here
+	//					} //INS if ends here
+	//					//@@@@@@@@@@@@@@@@ CTDC table data collection starts here  @@@@@@@@@@@@@@@@
+	//
+	//					if(switchString == "Trials"){
+	//						System.out.println("Inside Trials Switch Structure")
+	//						switch(switchTrials){
+	//							case("/case/"):
+	//								System.out.println("Inside trials switch case")
+	//								int tblcol=GlobalVariable.G_rowcountFiles
+	//								System.out.println ("This is the value of tblcol variable: "+tblcol);
+	//								for (int j = 2; j < columns_count+tblcol; j = j + 2) {
+	//									data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + j + "]")).getText()) +"||")
+	//								}
+	//								break;
+	//							case("/explore"):
+	//								int tblcol=GlobalVariable.G_rowcount_Katalon;
+	//								System.out.println("This is the value of the variable tblcol: "+tblcol);
+	//								if((tbl_main).equals('//*[@id="file_tab_table"]')){
+	//									tblcol=tblcol-2
+	//									System.out.println("This is the count of tblcol after adjusting: "+tblcol)
+	//								}
+	//								if((statValue)==0){
+	//									System.out.println("inside the if loop for statvalue equal to 0 : already collected the header data")
+	//								}else{
+	//									System.out.println("This is the count of tblcol inside Trials: "+tblcol) //tblcol =10 for cases tab subtract 2 from it
+	//									System.out.println("This is the value of data before data collection: "+data)
+	//									for (int j = 1; j <= tblcol-2; j = j + 1) {
+	//										System.out.println("Value of i is: "+i)
+	//										System.out.println("Value of j is: "+j)
+	//										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/td[" + j + "]/div[2]")).getAttribute("innerText")) +"||")   //*[@id="case_tab_table"]//tbody/tr[1]/td[1]/div[2]/div/a
+	//										System.out.println("This is the value of data: "+data)
+	//									}
+	//								}
+	//								break;
+	//							default:
+	//							//System.out.println("Trials Case did not match")
+	//								break;
+	//						}
+	//					}
+	//					//@@@@@@@@@@@@@@@@ Bento table data collection starts here  @@@@@@@@@@@@@@@
+	//					if(switchString == "Bento"){
+	//						System.out.println("inside Bento switch structure");
+	//
+	//						switch(switchBento){
+	//
+	//							case("/explore"):
+	//								System.out.println("Inside Bento switch for all cases")
+	//								int tblcol=GlobalVariable.G_rowcount_Katalon;
+	//								data = ""
+	//								System.out.println("Value of columns_count variable : "+columns_count+"\nValue of tblcol variable : "+tblcol)
+	//
+	//								if((tbl_main).equals('//*[@id="case_tab_table"]')) {
+	//									for (int j = 1; j <columns_count+1; j = j + 1) {
+	//										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
+	//										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr[" + i + "]/td[" + (j+1) +"]")).getAttribute("innerText")) +"||")
+	//										System.out.println("This is the value of data : "+data)
+	//									}
+	//								}else if((tbl_main).equals('//*[@id="sample_tab_table"]')){
+	//									for (int j = 1; j <columns_count+1; j = j + 1) {
+	//										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
+	//										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr[" + i + "]/td[" + (j+1) +"]")).getAttribute("innerText")) +"||")
+	//										System.out.println("This is the value of data : "+data)
+	//									}
+	//								}else if((tbl_main).equals('//*[@id="file_tab_table"]')){
+	//									for (int j = 1; j <columns_count+1; j = j + 1) {
+	//										if((colHeader.get(j).getAttribute("innerText"))!="Access") {
+	//											System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
+	//											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr[" + i + "]/td[" + (j+1) +"]")).getAttribute("innerText")) +"||")
+	//											System.out.println("This is the value of data : "+data)
+	//										}
+	//									}
+	//								}else {
+	//									KeywordUtil.markFailed("Invalid Tab name! Check Bento table data collection function")
+	//								}
+	//
+	//								break;
+	//							case("/fileCentricCart"):
+	//								int tblcol=GlobalVariable.G_rowcount_Katalon;
+	//								for (int j = 1; j < columns_count+tblcol; j = j + 1) {
+	//									System.out.println("Value of i is: "+i+"\nValue of j is: "+j)
+	//									data = data+((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + j + "]")).getAttribute("innerText")) +"||")
+	//									System.out.println("This is the value of data : "+data)
+	//								}
+	//								break;
+	//							case("/programs"):
+	//								System.out.println("Inside Bento switch for all Programs cases")
+	//								int tblcol=GlobalVariable.G_rowcount_Katalon;
+	//								System.out.println("Value of columns_count variable : "+columns_count + "\nValue of tblcol variable : "+tblcol)
+	//								for (int j = 1; j < columns_count+1; j = j + 1) {
+	//									System.out.println("Value of i is: "+ i +"\nValue of j is: "+j)
+	//
+	//									//if((colHeader.get(j).getAttribute("innerText"))!="PubMed ID") {
+	//									//System.out.println("This is the name of Pgm table column header  :"+colHeader.get(j).getAttribute("innerText"))
+	//									//System.out.println("This is the value of data before calculating the index for innertext of the td: "+data)
+	//
+	//									//data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) + "]/*[2]")).getAttribute("innerText")) +"||")
+	//									data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + j + "]")).getAttribute("innerText").trim()) +"||")
+	//									System.out.println("This is the value of data :"+data)
+	//									//}
+	//								}
+	//								break;
+	//
+	//							default:
+	//								KeywordUtil.markFailed("Bento Case switch did not match")
+	//								break;
+	//						}
+	//					}
+	//					System.out.println("===================  Verification of the data: ===================== \n"+ data)
+	//
+	//					wTableBodyData.add(data)
+	//				}//for loop ends
+	//
+	//
+	//				System.out.println("Size of table body list in current result tab is: "+wTableBodyData.size())
+	//				for(int index = 0; index < wTableBodyData.size(); index++) {
+	//					System.out.println("Table body data from current page is: " + wTableBodyData.get(index))
+	//				}
+	//				GlobalVariable.G_CaseData= wTableHdrData + wTableBodyData;
+	//				System.out.println("This is the contents of globalvar G_casedata: " +GlobalVariable.G_CaseData)
+	//
+	//				//********************* CLICKING THE NEXT BUTTON IN RESULTS FOR NEXT PAGE *******************************
+	//				// add a counter for 10 inside this for limitting 100 records
+	//
+	//				scrolltoViewjs(nextButton)   //added to address the unable to scroll into view issue/ another element obscures next button issue
+	//				System.out.println("past the scrollintoview block")
+	//
+	//				if (nextButton.getAttribute("class").contains("disabled")){
+	//					break;
+	//				} else {
+	//					System.out.println("COLLECTED DATA FROM PAGE - " +counter);
+	//					clickElement(nextButton); //uses jsexecutor to click
+	//					counter++;
+	//				}
+	//			}//while loop ends
+	//		} //if loop for body data collection ends
+	//		else {
+	//			System.out.println("Not collecting the table data as the stat value is 0")
+	//		}
+	//
+	//		writeToExcel(webSheetName);
+	//		System.out.println("webdata written to excel successfully")
+	//	}//ReadCasesTableKatalon function ends
 
 
 	/**
