@@ -28,6 +28,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import java.util.regex.Pattern
 import java.util.regex.Matcher
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.webui.driver.DriverFactory
+import org.openqa.selenium.By
 
 public class Utils {
 
@@ -152,9 +154,10 @@ public class Utils {
 			pyExecutablePath = "python3";
 		} else {
 			KeywordUtil.logInfo("Running locally. Using local Python executable path...");
-			//pyExecutablePath = "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3";
-			pyExecutablePath = "C:/Users/kallakuriv2/AppData/Local/Programs/Python/Python312/python.exe";
+			pyExecutablePath = "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3";
+			//pyExecutablePath = "C:/Users/kallakuriv2/AppData/Local/Programs/Python/Python312/python.exe";
 			//pyExecutablePath = "/Users/leungvw/vincent_testEnv/bin/python3";
+			//pyExecutablePath = "C:/Users/epishinavv/AppData/Local/Programs/Python/Python312/python.exe";
 		}
 
 		return pyExecutablePath;
@@ -456,5 +459,58 @@ public class Utils {
 				}
 			}
 		}
+	}
+
+	/**
+	 * This function gets list of WebElements based on locator
+	 */
+	@Keyword
+	public static List<WebElement> getListWebElements(String locator) {
+		String xpath = TestRunner.givexpath(locator)
+		WebDriver driver = DriverFactory.getWebDriver();
+		return driver.findElements(By.xpath(xpath));
+	}
+
+	/**
+	 * This function gets list of data from Katalon Data File
+	 */
+	@Keyword
+	public static List<String> getListFromDataFile(String dataFile) {
+		System.out.println("Getting the list from the Data File: " + dataFile)
+		def data = TestDataFactory.findTestData(dataFile)
+		List<String> allowedValues = []
+		for (int i = 1; i <= data.getRowNumbers(); i++) {
+			allowedValues.add(data.getValue(1, i))
+		}
+		return allowedValues;
+	}
+
+	/**
+	 * This function waits for the element to disappear (ExpectedConditions was not working)
+	 */
+	@Keyword
+	public void waitForElementToDisappear(String locatorKey, int timeoutSeconds) {
+		String xpath = TestRunner.givexpath(locatorKey);
+		WebDriver driver = DriverFactory.getWebDriver();
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		long start = System.currentTimeMillis();
+
+		KeywordUtil.logInfo("Polling for disappearance of: " + xpath);
+
+		while ((System.currentTimeMillis() - start) / 1000 < timeoutSeconds) {
+			String script = "return document.evaluate(\"" + xpath + "\", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue != null;";
+			boolean isPresent = (Boolean) js.executeScript(script);
+
+			long elapsed = (System.currentTimeMillis() - start) / 1000;
+			KeywordUtil.logInfo("Loop at " + elapsed + "s. Found: " + isPresent);
+
+			if (!isPresent) {
+				KeywordUtil.logInfo("Element disappeared after " + elapsed + " seconds.");
+				return;
+			}
+			Thread.sleep(2000);
+		}
+
+		throw new AssertionError("Element did not disappear within " + timeoutSeconds + " seconds: " + xpath);
 	}
 }
