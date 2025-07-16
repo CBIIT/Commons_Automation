@@ -43,6 +43,7 @@ WebUI.closeBrowser()
 
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC44_Canine_Study_COTB_Biobank_NotApplicable.xlsx')
 
+WebUI.waitForElementPresent(findTestObject('Canine/Canine_PopUp_Continue_Btn'), 5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Canine_PopUp_Continue_Btn')
 System.out.println ("Closed the popup window");
 
