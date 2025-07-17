@@ -904,6 +904,8 @@ class CrdcDHPbac extends TestRunner {
 		permissionToCheck["dashboard:view"] = {
 			KeywordUtil.logInfo("Verifying Operation Dashboard...")
 			try {
+				CrdcDH.clickHome()
+				CrdcDH.clickAccountDropdown()
 				return WebUI.verifyElementPresent(findTestObject("CRDC/NavBar/OperationDashboard-Btn"), 5, FailureHandling.OPTIONAL)
 			} catch (Exception e) {
 				KeywordUtil.logInfo("Error verifying permission - dashboard:view -> ${e.message}")
