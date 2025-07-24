@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
  */
 WebUI.closeBrowser()
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC13_CDS_phs002479_FileType_FASTQ.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC02_CDS_phs002479_FileType_FASTQ.xlsx')
 
 CustomKeywords.'utilities.TestRunner.clickTab'('Bento/Banner/Bento_Warning_Continue_Btn')
 

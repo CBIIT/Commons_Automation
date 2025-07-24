@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC02_CDS_phs002479_Gender_Female</name>
+   <name>TC03_CDS_phs002479_SampleType_DNA</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>ff58b337-9af0-4edb-9c44-bb6764a22cdb</testCaseGuid>
+   <testCaseGuid>c1eaaf19-b8aa-45f1-8030-462972d6e9bd</testCaseGuid>
 </TestCaseEntity>

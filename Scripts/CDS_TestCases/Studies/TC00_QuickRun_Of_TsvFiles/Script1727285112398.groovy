@@ -38,7 +38,7 @@ import java.nio.file.Paths
 
 
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC02_CDS_phs003519_Sex-Male_FileType-HDF5_PrimDiag_Neurofibromatosis.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC14_CDS_phs002479_PrimDiag_NeoplasmNOS.xlsx')
 
 CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py','TsvDataParticipants')
 CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py','TsvDataSamples')

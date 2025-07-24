@@ -18,7 +18,8 @@ import internal.GlobalVariable as GlobalVariable
  */
 WebUI.closeBrowser()
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC01_CDS_phs002504_Gender_Male.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC01_CDS_phs002479_Sex-Female.xlsx')
+
 CustomKeywords.'utilities.TestRunner.clickTab'('Bento/Banner/Bento_Warning_Continue_Btn')
 
 //Clicking data tab
@@ -29,9 +30,9 @@ CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/NavBar/CDS_Data-Btn')
 WebUI.waitForElementPresent(findTestObject('CDS/Data_page/Filter/StudyFacet/PHS_Accession/PHS_Accession_Ddn'),5)
 CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/Data_page/Filter/StudyFacet/PHS_Accession/PHS_Accession_Ddn')
 
-//Clicking checkbox phs002504
-WebUI.waitForElementPresent(findTestObject('CDS/Data_page/Filter/StudyFacet/PHS_Accession/phs002504_Chkbx'),5)
-CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/Data_page/Filter/StudyFacet/PHS_Accession/phs002504_Chkbx')
+//Clicking checkbox phs001819
+WebUI.waitForElementPresent(findTestObject('CDS/Data_page/Filter/StudyFacet/PHS_Accession/phs002479_Chkbx'),5)
+CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/Data_page/Filter/StudyFacet/PHS_Accession/phs002479_Chkbx')
 
 //Clicking Phs Accession dropdown
 WebUI.waitForElementPresent(findTestObject('CDS/Data_page/Filter/StudyFacet/PHS_Accession/PHS_Accession_Ddn'),5)
@@ -42,8 +43,8 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filt
 CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/DemographicsFacet/Sex/Sex-Ddn')
 
 //Clicking Male checkbox
-WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/DemographicsFacet/Sex/Male-Chkbx'),5)
-CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/DemographicsFacet/Sex/Male-Chkbx')
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/DemographicsFacet/Sex/Female-Chkbx'),5)
+CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/DemographicsFacet/Sex/Female-Chkbx')
 
 //Read statbar
 CustomKeywords.'utilities.TestRunner.readStatBarCDS'('Object Repository/CDS/StatBar/CDS_StatBar-Studies',
@@ -63,11 +64,11 @@ CustomKeywords.'utilities.TestRunner.multiFunction'('CDS',GlobalVariable.G_StatB
 	'Object Repository/CDS/Data_page/CDS_SamplesTableHeader', 'Object Repository/CDS/Data_page/CDS_SamplesTabNextBtn', GlobalVariable.G_WebTabnameSamples,
 	'TsvDataSamples', GlobalVariable.G_QuerySamplesTab)
 
-////clicking Files tab
-//WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/CDSResults_Files_Tab'), 5)
-//CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/CDS/Data_page/CDSResults_Files_Tab')
-//CustomKeywords.'utilities.TestRunner.multiFunction'('CDS', GlobalVariable.G_StatBar_Files, 'Object Repository/CDS/Data_page/CDS_FilesTable',
-//	'Object Repository/CDS/Data_page/CDS_FilesTableHeader', 'Object Repository/CDS/Data_page/CDS_FilesTabNextBtn', GlobalVariable.G_WebTabnameFiles,
-//	'TsvDataFiles', GlobalVariable.G_QueryFilesTab)
+//clicking Files tab
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/CDSResults_Files_Tab'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/CDS/Data_page/CDSResults_Files_Tab')
+CustomKeywords.'utilities.TestRunner.multiFunction'('CDS',GlobalVariable.G_StatBar_Files, 'Object Repository/CDS/Data_page/CDS_FilesTable',
+	'Object Repository/CDS/Data_page/CDS_FilesTableHeader', 'Object Repository/CDS/Data_page/CDS_FilesTabNextBtn', GlobalVariable.G_WebTabnameFiles,
+	'TsvDataFiles', GlobalVariable.G_QueryFilesTab)
  
 WebUI.closeBrowser()
