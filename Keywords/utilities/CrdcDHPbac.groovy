@@ -319,10 +319,12 @@ class CrdcDHPbac extends TestRunner {
 		// Select alternate role
 		WebUI.click(findTestObject('CRDC/ManageUsers/RoleDdn-Option', [('role') : alternateRole]))
 		KeywordUtil.logInfo("Selected alternate role: ${alternateRole}")
+		WebUI.delay(1)
 
 		// Open dropdown again
 		WebUI.click(findTestObject('CRDC/ManageUsers/Role-Ddn'))
 		KeywordUtil.logInfo("Clicked role dropdown again")
+		WebUI.delay(1)
 
 		// Re-select target role
 		WebUI.click(findTestObject('CRDC/ManageUsers/RoleDdn-Option', [('role') : roleDisplay]))
@@ -535,7 +537,7 @@ class CrdcDHPbac extends TestRunner {
 	public static void uploadMetadataUI(String relativePath) {
 		String absolutePath = Paths.get(relativePath).toAbsolutePath().toString()
 		WebUI.uploadFile(findTestObject('CRDC/DataSubmissions/ChooseFiles-Btn'), absolutePath)
-		WebUI.delay(1)
+		WebUI.delay(5)
 		TestRunner.clickTab('CRDC/DataSubmissions/Upload-Btn')
 		WebUI.delay(2)
 	}
@@ -579,6 +581,7 @@ class CrdcDHPbac extends TestRunner {
 		}
 
 		// Upload the modified file
+		WebUI.delay(2)
 		uploadMetadataUI(tempFile.absolutePath)
 
 		// Clean up
@@ -698,16 +701,29 @@ class CrdcDHPbac extends TestRunner {
 		permissionToCheck["data_submission:view"] = {
 			KeywordUtil.logInfo("Verifying DS View...")
 			try {
+				boolean dataSubmissionsExist = true, dataExplorerExist = true;
+				
 				CrdcDH.clickHome()
 				TestRunner.clickTab('CRDC/NavBar/DataSubmissions-Tab')
-				WebUI.delay(2)
+				WebUI.delay(3)
 				List<WebElement> rows = WebUI.findWebElements(findTestObject("CRDC/DataSubmissions/DataSubmListTable-Row"), 20)
 				if (rows.size() == 1 && rows[0].getText().contains("do not have the appropriate permissions")) {
-					KeywordUtil.logInfo("The empty table message is displayed as expected")
-					return false
+					KeywordUtil.logInfo("The Data Submissions empty table message is displayed")
+					dataSubmissionsExist = false
 				}
-				KeywordUtil.logInfo("Number of rows in DS list found: " + rows.size())
-				return rows.size() > 0
+				KeywordUtil.logInfo("Number of rows in Data Submission list found: " + rows.size())
+				
+				CrdcDH.clickHome()
+				TestRunner.clickTab('CRDC/NavBar/DataExplorer-Tab')
+				WebUI.delay(3)
+				List<WebElement> rowsDataExplorer = WebUI.findWebElements(findTestObject("CRDC/DataSubmissions/DataSubmListTable-Row"), 20)
+				if (rowsDataExplorer.size() == 1 && rowsDataExplorer[0].getText().contains("do not have the appropriate permissions")) {
+					KeywordUtil.logInfo("The Data Explorer empty table message is displayed")
+					dataExplorerExist = false
+				}
+				KeywordUtil.logInfo("Number of rows in Data Explorer list found: " + rowsDataExplorer.size())
+				
+				return dataSubmissionsExist && dataExplorerExist && rows.size() > 0 && rowsDataExplorer.size() > 0;
 			} catch (Exception e) {
 				KeywordUtil.logInfo("Error verifying permission - data_submission:view -> ${e.message}")
 				return false
