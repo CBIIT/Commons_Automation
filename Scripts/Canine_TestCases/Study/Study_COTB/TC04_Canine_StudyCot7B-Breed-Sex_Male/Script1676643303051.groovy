@@ -43,6 +43,7 @@ WebUI.closeBrowser()
 
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC04_Canine_StudyCot7B-Breed-Sex_Male.xlsx')
 
+WebUI.waitForElementPresent(findTestObject('Canine/Canine_PopUp_Continue_Btn'), 5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Canine_PopUp_Continue_Btn')
 System.out.println ("Closed the popup window");
 
