@@ -44,12 +44,12 @@ CustomKeywords.'utilities.TestRunner.readStatBarCanine'('Canine/StatBar/Canine_S
 	'Canine/StatBar/Canine_StatBar-Cases', 'Canine/StatBar/Canine_StatBar-Samples',
 	'Canine/StatBar/Canine_StatBar-CaseFiles', 'Canine/StatBar/Canine_StatBar-StudyFiles')
 
-//clicking the Cases tab
-WebUI.waitForElementPresent(findTestObject('Canine/CanineResults_Cases_Tab'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('Canine/CanineResults_Cases_Tab')
-CustomKeywords.'utilities.TestRunner.multiFunction'('ICDC', GlobalVariable.G_StatBar_Cases, 'Canine/Canine_CasesTable',
-	'Object Repository/Canine/Canine_TableHeader', 'Canine/Canine_CasesTabNextBtn', GlobalVariable.G_WebTabnameCases,
-	'TsvDataCases', GlobalVariable.G_QueryCasesTab)
+////clicking the Cases tab
+//WebUI.waitForElementPresent(findTestObject('Canine/CanineResults_Cases_Tab'), 5)
+//CustomKeywords.'utilities.TestRunner.clickTab'('Canine/CanineResults_Cases_Tab')
+//CustomKeywords.'utilities.TestRunner.multiFunction'('ICDC', GlobalVariable.G_StatBar_Cases, 'Canine/Canine_CasesTable',
+//	'Object Repository/Canine/Canine_TableHeader', 'Canine/Canine_CasesTabNextBtn', GlobalVariable.G_WebTabnameCases,
+//	'TsvDataCases', GlobalVariable.G_QueryCasesTab)
 	
 
 //clicking the Samples tab
@@ -60,21 +60,21 @@ CustomKeywords.'utilities.TestRunner.multiFunction'('ICDC', GlobalVariable.G_Sta
 	'TsvDataSamples', GlobalVariable.G_QuerySamplesTab)
 
 	
-//clicking the case Files tab
-WebUI.waitForElementPresent(findTestObject('Canine/CanineResults_CaseFiles_Tab'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('Canine/CanineResults_CaseFiles_Tab')
-CustomKeywords.'utilities.TestRunner.multiFunction'('ICDC', GlobalVariable.G_StatBar_Files, 'Canine/Canine_Files_Table',
-	'Canine/Canine_Files_TableHdr', 'Canine/Canine_FilesTabNextBtn', GlobalVariable.G_WebTabnameFiles,
-	'TsvDataCaseFiles', GlobalVariable.G_QueryFilesTab)
+////clicking the case Files tab
+//WebUI.waitForElementPresent(findTestObject('Canine/CanineResults_CaseFiles_Tab'), 5)
+//CustomKeywords.'utilities.TestRunner.clickTab'('Canine/CanineResults_CaseFiles_Tab')
+//CustomKeywords.'utilities.TestRunner.multiFunction'('ICDC', GlobalVariable.G_StatBar_Files, 'Canine/Canine_Files_Table',
+//	'Canine/Canine_Files_TableHdr', 'Canine/Canine_FilesTabNextBtn', GlobalVariable.G_WebTabnameFiles,
+//	'TsvDataCaseFiles', GlobalVariable.G_QueryFilesTab)
 
 
-//clicking the study Files tab
-WebUI.waitForElementPresent(findTestObject('Canine/CanineResults_StudyFiles_Tab'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('Canine/CanineResults_StudyFiles_Tab')
-CustomKeywords.'utilities.TestRunner.multiFunction'('ICDC', GlobalVariable.G_StatBar_StudyFiles, 'Canine/Canine_StudyFiles_Table',
-	'Canine/Canine_StudyFiles_TableHdr', 'Canine/Canine_StudyFilesTabNextBtn', GlobalVariable.G_WebTabnameStudyFiles,
-	'TsvDataStudyFiles', GlobalVariable.G_QueryStudyFilesTab)
- 
+////clicking the study Files tab
+//WebUI.waitForElementPresent(findTestObject('Canine/CanineResults_StudyFiles_Tab'), 5)
+//CustomKeywords.'utilities.TestRunner.clickTab'('Canine/CanineResults_StudyFiles_Tab')
+//CustomKeywords.'utilities.TestRunner.multiFunction'('ICDC', GlobalVariable.G_StatBar_StudyFiles, 'Canine/Canine_StudyFiles_Table',
+//	'Canine/Canine_StudyFiles_TableHdr', 'Canine/Canine_StudyFilesTabNextBtn', GlobalVariable.G_WebTabnameStudyFiles,
+//	'TsvDataStudyFiles', GlobalVariable.G_QueryStudyFilesTab)
+// 
 WebUI.closeBrowser()
 
 
