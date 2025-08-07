@@ -1,0 +1,1 @@
+type	id	survival_id	last_known_survival_status	age_at_last_known_survival_status	event_free_survival_status	age_at_event_free_survival_status	first_event	cause_of_death	participant.participant_id
