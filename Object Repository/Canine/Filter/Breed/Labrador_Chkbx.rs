@@ -11,6 +11,7 @@
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -18,6 +19,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;checkbox_Breed_Labrador&quot;]</value>
-      <webElementGuid>a2fc0ee4-5040-4c1e-899b-c60de9503b99</webElementGuid>
+      <webElementGuid>b1bf7ab8-ddb5-4a3c-a98a-73dc14fed55b</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

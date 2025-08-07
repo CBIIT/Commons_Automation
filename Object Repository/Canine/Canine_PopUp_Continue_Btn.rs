@@ -19,6 +19,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[contains(text(),'Continue')]</value>
-      <webElementGuid>9bab82cb-0c28-4862-9f00-aa76ee238417</webElementGuid>
+      <webElementGuid>f556ab56-40d9-4dab-bf35-0c90e514fe4c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

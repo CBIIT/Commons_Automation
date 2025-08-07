@@ -46,7 +46,7 @@ WebUI.closeBrowser()
 
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC07_Canine_Study-Cot7B_StageOfDisease-3b.xlsx')
 
-
+WebUI.waitForElementPresent(findTestObject('Canine/Canine_PopUp_Continue_Btn'), 5)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Canine_PopUp_Continue_Btn')
 System.out.println ("Closed the popup window");
 

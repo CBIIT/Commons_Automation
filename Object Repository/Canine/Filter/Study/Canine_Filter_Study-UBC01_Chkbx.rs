@@ -10,17 +10,18 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Study_UBC01 (ICDC000004)&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Study_UBC01 (000004)&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Study_UBC01 (ICDC000004)&quot;]</value>
-      <webElementGuid>608d17a9-449d-4438-b66f-7177150b76f3</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Study_UBC01 (000004)&quot;]</value>
+      <webElementGuid>93862ce7-18bb-4949-822b-24c6cba90ffc</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

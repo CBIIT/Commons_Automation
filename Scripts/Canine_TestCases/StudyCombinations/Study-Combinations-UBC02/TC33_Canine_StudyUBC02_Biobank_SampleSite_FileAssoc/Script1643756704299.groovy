@@ -28,11 +28,6 @@ WebUI.closeBrowser()
 'This step takes the Query from input excel and fetches data from Neo4j database. \r\nSaves the results from neo4j and application in the same name mentioned in the input excel. '
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.RunKatalon'('TC33_Canine_StudyUBC02_Biobank_SampleSite_FileAssoc.xlsx')   //changed for MGT
 
-
-CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Canine_PopUp_Continue_Btn')
-System.out.println ("Closed the popup window");
-
-
 'Clicks on the Cases button in the Navbar of ICDC\'s homepage.'
 WebUI.waitForElementPresent(findTestObject('Canine/NavBar/Canine_Cases_Btn'), 20)
 CustomKeywords.'ctdc.utilities.runtestcaseforKatalon.clickTab'('Object Repository/Canine/Canine_PopUp_Continue_Btn')
