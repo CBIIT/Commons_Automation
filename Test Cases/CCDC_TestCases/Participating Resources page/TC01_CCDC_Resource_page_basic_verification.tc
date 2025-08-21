@@ -50,6 +50,12 @@
       <value>FilterType</value>
       <variableId>1d493ed3-2c61-4fe4-8f82-90cd03ae041e</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>85eb711d-7333-49ff-9755-7bbbcf1f603c</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>findTestData('CCDC/CCDC_participResources').getValue('suffixUrl', 1)</defaultValue>
       <description></description>
@@ -91,5 +97,12 @@
       <id>1d493ed3-2c61-4fe4-8f82-90cd03ae041e</id>
       <masked>false</masked>
       <name>ipFilterType</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CCDC/CCDC_participResources').getValue('ResourceType', 1)</defaultValue>
+      <description></description>
+      <id>85eb711d-7333-49ff-9755-7bbbcf1f603c</id>
+      <masked>false</masked>
+      <name>ipResourceType</name>
    </variable>
 </TestCaseEntity>

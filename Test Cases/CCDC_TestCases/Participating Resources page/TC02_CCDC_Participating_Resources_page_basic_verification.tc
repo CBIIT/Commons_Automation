@@ -73,7 +73,7 @@
       <name>ipDtstSummCnt</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('CCDC_participResources').getValue('FilterType', 1)</defaultValue>
+      <defaultValue>findTestData('CCDC_participResources').getValue('ResourceType', 1)</defaultValue>
       <description></description>
       <id>6519901a-ed5b-4732-8cc5-91184da2621f</id>
       <masked>false</masked>
