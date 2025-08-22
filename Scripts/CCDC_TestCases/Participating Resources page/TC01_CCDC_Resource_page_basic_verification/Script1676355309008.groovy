@@ -84,18 +84,18 @@ CustomKeywords.'ctdc.utilities.DataValidation.CCDCreadInfo'(drv,'Object Reposito
  
  
 //Step 6--------------------Verifying Filter Type ****************************************************************
-//  System.out.println ("This is the value of Filter Type obtained from input test data :" + ipFilterType)
-// GlobalVariable.G_FilterType=ipFilterType.toString()
-//  elementlabel= "Filter Type"
-// CustomKeywords.'ctdc.utilities.DataValidation.CCDCreadInfo'(drv,'Object Repository/CCDC/Resource_page/FilterType', ipFilterType, GlobalVariable.G_FilterType, elementlabel)
+  System.out.println ("This is the value of Filter Type obtained from input test data :" + ipResourceType)
+ GlobalVariable.G_FilterType=ipResourceType.toString()
+  elementlabel= "Filter Type"
+ CustomKeywords.'ctdc.utilities.DataValidation.CCDCreadInfo'(drv,'Object Repository/CCDC/Resource_page/FilterType', ipResourceType, GlobalVariable.G_FilterType, elementlabel)
  
 
  //Step 7--------------------Verifying Specialization ****************************************************************
- System.out.println ("This is the value of Resource Type obtained from input test data :" + ipResourceType)
- GlobalVariable.G_ResrceType=ipResourceType.toString()
-  elementlabel= "Resource Type"
- CustomKeywords.'ctdc.utilities.DataValidation.CCDCreadInfo'(drv,'Object Repository/CCDC/Resource_page/ResourceType', ipResourceType, GlobalVariable.G_ResrceType, elementlabel)
- 
+// System.out.println ("This is the value of Resource Type obtained from input test data :" + ipResourceType)
+// GlobalVariable.G_ResrceType=ipResourceType.toString()
+//  elementlabel= "Resource Type"
+// CustomKeywords.'ctdc.utilities.DataValidation.CCDCreadInfo'(drv,'Object Repository/CCDC/Resource_page/ResourceType', ipResourceType, GlobalVariable.G_ResrceType, elementlabel)
+// 
  
 
 /*

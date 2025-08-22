@@ -62,5 +62,11 @@
          <value>PointOfContact</value>
          <variableId>8bedeae0-e5d2-4a68-8d71-d0f1b54f0a1f</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId>830590f9-5f44-46d9-92b2-9f6a2a3c733f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ResourceType</value>
+         <variableId>85eb711d-7333-49ff-9755-7bbbcf1f603c</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
