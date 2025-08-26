@@ -176,11 +176,11 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 		fields.each { testObjectId, columnName ->
 			TestObject to = findTestObject(objPath + testObjectId)
 			WebUI.waitForElementPresent(to, 20)
-			
+
 			// Get current value in the field
 			String existingValue = WebUI.getAttribute(to, 'value')
 			String newValue = testData.getValue(columnName, dataRowNum)
-	
+
 			if (existingValue?.trim()) {
 				KeywordUtil.logInfo("Skipping field ${columnName} because it already has value: ${existingValue}")
 			} else {
@@ -376,7 +376,8 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 			'FundingAgency-Dd'                     : 'funding-agency',
 			'GrantContractNumber-Txtbx'            : 'grant-number',
 			'NCIProgramOfficer-Txtbx'              : 'nci-prog-officer',
-			'NciGenProgAdministrator-Txtbx'        : 'nci-genomic-prog-admin'
+			// below has been removed from UI
+		//	'NciGenProgAdministrator-Txtbx'        : 'nci-genomic-prog-admin'
 		]
 
 		fields.each { testObjectId, columnName ->
