@@ -489,7 +489,7 @@ public class Utils {
 	 * This function waits for the element to disappear (ExpectedConditions was not working)
 	 */
 	@Keyword
-	public void waitForElementToDisappear(String locatorKey, int timeoutSeconds) {
+	public static void waitForElementToDisappear(String locatorKey, int timeoutSeconds) {
 		String xpath = TestRunner.givexpath(locatorKey);
 		WebDriver driver = DriverFactory.getWebDriver();
 		JavascriptExecutor js = (JavascriptExecutor) driver;
