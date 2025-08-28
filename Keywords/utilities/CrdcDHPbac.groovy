@@ -74,6 +74,7 @@ import org.apache.poi.xssf.usermodel.XSSFCellStyle
 import org.apache.poi.xssf.usermodel.XSSFColor
 import java.awt.Color
 import java.time.Duration
+import utilities.Utils
 
 
 class CrdcDHPbac extends TestRunner {
@@ -346,6 +347,18 @@ class CrdcDHPbac extends TestRunner {
 	public static void verifyPbacPermissionDefaults(String userRole) {
 		String loggedInAs = WebUI.getText(findTestObject('CRDC/Login/UserProfile-Dd'))
 		KeywordUtil.logInfo("Logged in as: '${loggedInAs}' and verifying permissions for: '${userRole}'")
+		
+		//As Submitter or User role verifying self, should not be able to see permissions in profile
+		if (userRole.equalsIgnoreCase("Submitter-self") || userRole.equalsIgnoreCase("User-self")) {
+			if (WebUI.verifyElementPresent(findTestObject("CRDC/ManageUsers/PermissionsPanel-Ddn"), 5, FailureHandling.OPTIONAL) ||
+				WebUI.verifyElementPresent(findTestObject("CRDC/ManageUsers/NotificationsPanel-Ddn"), 5, FailureHandling.OPTIONAL)) {
+				KeywordUtil.markFailed("FAIL -- " + userRole + " is able to see permissions in profile")
+			}
+			else {
+				KeywordUtil.logInfo("PASS -- " + userRole + " is not able to view permissions in profile")
+				return;
+			}
+		}
 
 		//As admin user only, find user in Manage Users table
 		if (loggedInAs.toLowerCase().contains("admin") && !userRole.equalsIgnoreCase("admin-self")) {
@@ -702,7 +715,7 @@ class CrdcDHPbac extends TestRunner {
 			KeywordUtil.logInfo("Verifying DS View...")
 			try {
 				boolean dataSubmissionsExist = true, dataExplorerExist = true;
-				
+
 				CrdcDH.clickHome()
 				TestRunner.clickTab('CRDC/NavBar/DataSubmissions-Tab')
 				WebUI.delay(3)
@@ -712,7 +725,7 @@ class CrdcDHPbac extends TestRunner {
 					dataSubmissionsExist = false
 				}
 				KeywordUtil.logInfo("Number of rows in Data Submission list found: " + rows.size())
-				
+
 				CrdcDH.clickHome()
 				TestRunner.clickTab('CRDC/NavBar/DataExplorer-Tab')
 				WebUI.delay(3)
@@ -722,7 +735,7 @@ class CrdcDHPbac extends TestRunner {
 					dataExplorerExist = false
 				}
 				KeywordUtil.logInfo("Number of rows in Data Explorer list found: " + rowsDataExplorer.size())
-				
+
 				return dataSubmissionsExist && dataExplorerExist && rows.size() > 0 && rowsDataExplorer.size() > 0;
 			} catch (Exception e) {
 				KeywordUtil.logInfo("Error verifying permission - data_submission:view -> ${e.message}")
@@ -749,6 +762,7 @@ class CrdcDHPbac extends TestRunner {
 				if (WebUI.verifyElementPresent(findTestObject("CRDC/DataSubmissions/Create/CreateADataSubmission-Btn"), 5, FailureHandling.OPTIONAL)) {
 					createDataSubmission()
 					TestRunner.clickTab('CRDC/DataSubmissions/DataSubmissionName-Link')
+					Utils.waitForElementToDisappear('CRDC/DataSubmissions/Loading-Icon', 15)
 					return WebUI.verifyElementPresent(findTestObject("CRDC/DataSubmissions/Cancel-Btn"), 10, FailureHandling.OPTIONAL)
 				}
 				return false

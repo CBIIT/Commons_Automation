@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Release-Btn</name>
+   <name>Loading-Icon</name>
    <tag></tag>
-   <elementGuidId>2630d547-fb83-46af-9398-6a2f36b63e14</elementGuidId>
+   <elementGuidId>ce50e90d-c815-41f7-98ac-ad39d52099f5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//button[contains(.,'Release')]</value>
+         <value>//*[contains(@class,'Circular')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//button[contains(.,'Release')]</value>
-      <webElementGuid>f33a05da-5964-4aba-98fe-041b4154d589</webElementGuid>
+      <value>//*[contains(@class,'Circular')]</value>
+      <webElementGuid>447b59e1-c575-4d16-b726-934165d00256</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
