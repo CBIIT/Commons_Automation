@@ -1,0 +1,2 @@
+type	study_funding_id	funding_agency	grant_id	funding_source_program_name	id	study.id
+study_funding	fund_1	NCI	P30CA008748-54S3	Childhood Cancer Data Initiative	afd7ba42-78af-5e87-9407-999fa098f672	027e2441-7fbc-5a58-85a8-babe45f91de5

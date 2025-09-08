@@ -1,4 +1,0 @@
-type	study_funding_id	funding_agency	grant_id	funding_source_program_name	id	study.id
-study_funding	fund_3	National Cancer Institute	CA088131		3fc5b9a2-a26b-57be-a9f1-73357b136ab6	5742e243-98ae-5a0e-a08b-2ac95649a962
-study_funding	fund_1	National Cancer Institute	CA098543		4344f69b-58ac-5122-8ca5-4abdb6fba886	5742e243-98ae-5a0e-a08b-2ac95649a962
-study_funding	fund_2	National Cancer Institute	CA042326		ecd1a40a-25de-5af8-8e35-96d79a963c1a	5742e243-98ae-5a0e-a08b-2ac95649a962

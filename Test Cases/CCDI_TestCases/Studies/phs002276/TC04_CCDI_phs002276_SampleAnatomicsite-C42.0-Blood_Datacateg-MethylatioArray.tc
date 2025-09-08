@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_CCDI_phs002276_SampleAnatomicsite-C42.0-Blood_Datacateg-MethylatioArray</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fa023655-ac17-41a9-b099-013206bddef2</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,6 @@
+type	study_personnel_id	personnel_name	personnel_type	email_address	institution	orcid	crdc_id	id	study.id
+study_personnel	personnel_1	Gunes Gundem	Data Submitter	gundemg@mskcc.org	Memorial Sloan Kettering Cancer Center	https://orcid.org/0000-0002-0070-9859		9d64f14c-3abc-560c-a344-cb2d3a46cb11	a8e620c9-7abf-5158-b70f-d1d36d3f0de7
+study_personnel	personnel_2	Juan Esteban Arango Ossa	Data Manager	arangooj@mskcc.org	Memorial Sloan Kettering Cancer Center	https://orcid.org/0000-0003-1109-6178		2f5f4c0e-1f2e-55fb-8774-4816f51c4eca	a8e620c9-7abf-5158-b70f-d1d36d3f0de7
+study_personnel	personnel_3	Elli Papaemmanuil	PI	papaemme@mskcc.org	Memorial Sloan Kettering Cancer Center	https://orcid.org/0000-0003-2002-0458		312dc841-fa13-5df1-af2f-3782729a0e65	a8e620c9-7abf-5158-b70f-d1d36d3f0de7
+study_personnel	personnel_4	Neal Shukla	Co-PI	shuklan@mskcc.org	Memorial Sloan Kettering Cancer Center	https://orcid.org/0000-0002-1173-7927		5ee4b01c-c72d-568c-940b-653512552772	a8e620c9-7abf-5158-b70f-d1d36d3f0de7
+study_personnel	personnel_5	Andrew Kung	Co-PI	kunga@mskcc.org	Memorial Sloan Kettering Cancer Center	https://orcid.org/0000-0002-9091-488X		346a85e1-0b7c-5bbd-98e4-50640f160eb4	a8e620c9-7abf-5158-b70f-d1d36d3f0de7

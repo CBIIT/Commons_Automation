@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>DemographicsFacet</name>
+   <tag></tag>
+   <elementGuidId>09b802b5-73ab-4f95-992b-e9267cb14cad</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//*[text()=&quot;Demographics&quot;])[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//*[text()=&quot;Demographics&quot;])[1]</value>
+      <webElementGuid>50aa6916-6919-45de-8985-f8f11b073f98</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

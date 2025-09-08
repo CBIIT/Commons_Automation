@@ -1,0 +1,2 @@
+type	study_personnel_id	personnel_name	personnel_type	email_address	institution	orcid	crdc_id	id	study.id
+study_personnel	PPTC_PI	John M. Maris, MD	PI	maris@chop.edu	Children's Hospital of Philadelphia	https://orcid.org/0000-0002-8088-7929		2db465cf-1cbc-5290-aa38-b05807acfa89	20a0909b-7fc9-5e23-88b4-9b59fdea5254

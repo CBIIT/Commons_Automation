@@ -1,3 +1,0 @@
-type	study_personnel_id	personnel_name	personnel_type	email_address	institution	orcid	crdc_id	id	study.id
-study_personnel	phs002677_personnel_2	Suzanne J. Forrest, MD	Co-PI	suzanne_forrest@dfci.harvard.edu	Dana-Farber Cancer Institute	https://orcid.org/0000-0002-9797-7947		6bd8b4c8-8dea-5da8-8852-36c3ec0b6abd	d46120e8-5b72-5aec-a06c-8df737ad2289
-study_personnel	phs002677_personnel_1	Katherine A. Janeway, MD	PI	katherine_janeway@dfci.harvard.edu	Dana-Farber Cancer Institute	https://orcid.org/0000-0001-6000-3594		ede2dfc3-f8ac-5bf2-80d5-c3de1ffe7819	d46120e8-5b72-5aec-a06c-8df737ad2289

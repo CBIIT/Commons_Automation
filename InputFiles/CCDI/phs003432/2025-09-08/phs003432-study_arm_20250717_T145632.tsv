@@ -1,0 +1,3 @@
+type	study_arm_id	study_arm_description	clinical_trial_identifier	clinical_trial_repository	id	study.id
+study_arm	TALLSC.CT		NCT00408005	clinicaltrials.gov	b6bd4521-3cab-56b6-8275-2a455faa9004	21868a70-2e63-5cf6-970e-e222bc192862
+study_arm	TALLSC.COG		AALL0434	Children's Oncology Group	f1283dfa-3eb7-520c-9812-976f543f872e	21868a70-2e63-5cf6-970e-e222bc192862

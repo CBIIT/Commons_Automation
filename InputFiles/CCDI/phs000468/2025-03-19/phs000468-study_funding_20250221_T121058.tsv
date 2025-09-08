@@ -1,4 +1,0 @@
-type	study_funding_id	funding_agency	grant_id	funding_source_program_name	id	study.id
-study_funding	fund_3	National Cancer Institute	CA180899		5da828ff-36a0-5fd7-952a-dbf5e45f2c50	dc5b4a87-3268-53c4-97e0-b8a21ad0dbe5
-study_funding	fund_1	National Institute of Child Health and Human Development	HD074553		a338c2e2-90c5-5537-a572-3b919c3d6052	dc5b4a87-3268-53c4-97e0-b8a21ad0dbe5
-study_funding	fund_2	National Cancer Institute	CA180886		c841791c-c134-5bea-a9b0-6bd5987c1e44	dc5b4a87-3268-53c4-97e0-b8a21ad0dbe5

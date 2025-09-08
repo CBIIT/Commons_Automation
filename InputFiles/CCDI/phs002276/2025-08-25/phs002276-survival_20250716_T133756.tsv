@@ -1,0 +1,142 @@
+type	survival_id	last_known_survival_status	age_at_last_known_survival_status	first_event	event_free_survival_status	age_at_event_free_survival_status	follow_up_category	follow_up_other	adverse_event	comorbidity	comorbidity_method_of_diagnosis	risk_factor	cause_of_death	id	participant.id
+survival	survival_1	Dead	1522	Relapse	Not Censored	1110							Due to this disease	083b4dd7-07cd-5cd9-af73-4b39a04d91aa	8385b968-fabe-56a5-b981-59337f306a88
+survival	survival_2	Dead	8009	Relapse	Not Censored	7947							Due to this disease	7dee04d8-5597-5060-b9a4-5ca6b4f18ebe	dfd481e1-a98a-513e-acbf-11fdbdfe7f46
+survival	survival_3	Dead	3393	Relapse	Not Censored	2578							Due to this disease	7a2bdfdc-c979-54ad-9752-7770449d3aab	8a957d2f-2066-598b-927f-6513d5c0606f
+survival	survival_4	Dead	3185	Relapse	Not Censored	2999							Due to this disease	10613e44-57b5-5a76-bc74-7bc1c78287de	2a80b916-6a4e-5e04-bcf1-bc1362f1e361
+survival	survival_5	Dead	4399	Relapse	Not Censored	4261							Due to other cause	e9d85e74-5795-5a52-acdd-d2bbc22b1570	e69ef9f5-1acc-5673-951b-7118948c16d1
+survival	survival_6	Dead	5723	Relapse	Not Censored	5602							Due to this disease	375b580f-56a2-574e-99ec-ddfc9c83bbe3	4a35310f-af1f-5f6c-a80c-3f125cf8ba5e
+survival	survival_7	Dead	7491	Second Malignant Neoplasm	Not Censored	7393							Due to this disease	c68300d5-4c0a-5616-9f2a-0ccc824d93a2	e7ebb50f-bbab-52d6-9adc-51bfca41218d
+survival	survival_8	Dead	2866	Relapse	Not Censored	2642							Due to this disease	88abad8e-0ac5-5e23-9fb6-2ff70b9aae72	ce9de59a-630f-5f2b-8dd8-808372b89073
+survival	survival_9	Dead	1988	Death	Not Censored	1987							Due to this disease	e045a2c1-97af-5cb6-b670-b0c2baa982c3	5d2a077b-be8d-5b5f-b7ae-91b168be31e5
+survival	survival_10	Dead	5952	Relapse	Not Censored	5827							Due to other cause	497783ad-831d-562d-90fd-bfae597bb84a	9c7482e3-6b8a-53f4-900d-ed4a1f2ac7ed
+survival	survival_11	Dead	4886		Not Censored	3361							Due to this disease	fe1d2908-dc86-5703-b94e-8fc8b2b5ec41	707c8d24-9f2a-554f-951d-e8e756ee7bd6
+survival	survival_12	Dead	1663	Relapse	Not Censored	1566							Due to this disease	bd639398-1fc5-5ad4-a484-a038e36be530	1f61e047-1034-512f-8c75-4ce361d9a6d6
+survival	survival_13	Dead	2508	Relapse	Not Censored	2475							Due to this disease	878d0bff-4072-507d-9aef-c83d81862954	7b3eb901-b6e3-560f-9f13-4c2a6909ede2
+survival	survival_14	Dead	2039	Relapse	Not Censored	1126							Due to this disease	d3733171-e25d-57d6-aad6-4faf760911ab	ebd0741f-b83b-580d-88eb-1869c68a1c6b
+survival	survival_15	Dead	6387	Relapse	Not Censored	5982							Due to this disease	d26f8eac-d7ad-52bf-b3e2-33951d0041b3	0b703ae6-0a3f-5cd6-8678-a3da36c033c0
+survival	survival_16	Dead	6287		Not Censored	5849							Due to this disease	5eb32ef7-1a8f-583c-9b87-12ff8c2434d5	d7da335f-5bca-5b63-8227-9640c253f46f
+survival	survival_17	Dead	6584	Relapse	Not Censored	6347							Due to this disease	5b120e72-d6ba-58eb-923a-e681b722f95c	acd0f180-1a31-556d-8f27-e019a8ffbbf0
+survival	survival_18	Dead	7675	Second Malignant Neoplasm	Not Censored	7519							Due to secondary primary cancer	ebae3b5a-f228-510e-aea0-01889cfb5f8b	2a750077-4abd-593f-ae06-2153a45b3424
+survival	survival_19	Dead	2892	Death	Not Censored	2888							Unknown	3240518d-d09a-59ea-9b4b-b4ad16978660	a94cbef3-084c-57d5-b7df-ede220fb3972
+survival	survival_20	Dead	3386	Relapse	Not Censored	3124							Due to this disease	f56ee774-a4fc-5cc9-886b-6bd88d1f766b	149366c3-a33a-5229-b0df-f7f32ade2eb7
+survival	survival_21	Dead	7518	Second Malignant Neoplasm	Not Censored	7096							Due to secondary primary cancer	a88fc803-3c2a-5c8d-9af5-68faf544a9fa	ae185e78-2d73-5bc3-9e0c-1d3b31eb455b
+survival	survival_22	Dead	6204	Relapse	Not Censored	4684							Due to protocol treatment	4989adfb-9434-5875-9ca0-26bb61471f09	f1ba7787-6f10-571c-860a-34323319233e
+survival	survival_23	Dead	3573	Relapse	Not Censored	3297							Due to this disease	e8bce9a2-01dc-5141-a69a-a5198ee9fe44	9ce0b0b0-08db-58d8-b302-eed95d31c2f5
+survival	survival_24	Dead	10774	Death	Not Censored	10765							Due to protocol treatment	8c4c6070-2158-5966-b7a0-2ee741e687fe	b2f1a429-afe5-5106-b7c1-84e001e39e72
+survival	survival_25	Dead	7426		Not Censored	7143							Due to this disease	9deb867c-cb2c-5b37-848b-c6c398404708	6688c695-6aaa-5247-a1ce-81cae49b8057
+survival	survival_26	Dead	2936	Relapse	Not Censored	2522							Unknown	c44c4259-3566-5921-89de-e4e25a6a3491	d66ca704-0211-5442-9cf2-0cb568806d2a
+survival	survival_27	Dead	4301	Second Malignant Neoplasm	Not Censored	4288							Due to other cause	ed99962a-88ec-52b4-942f-7e620b125ab9	3848f722-5d31-5b09-8483-2095d5f38c10
+survival	survival_28	Dead	4847	Relapse	Not Censored	4781							Due to this disease	ad4ed9bd-5635-5b5b-a9e5-5f5dbfc087d4	532c1271-dbb4-5c32-ab2f-1503e7257ed6
+survival	survival_29	Dead	5253	Relapse	Not Censored	5221							Due to this disease	86597746-dcf7-55a3-8891-41f4eba69dbb	5e2c231c-9255-596e-b165-85eceb032de6
+survival	survival_30	Dead	3513	Death	Not Censored	3512							Due to this disease	0511f910-f44a-5a46-bf94-94020296500d	053748fe-c0ee-5f85-a140-274b6a7878b5
+survival	survival_31	Dead	1596	Relapse	Not Censored	1289							Due to other cause	fba71022-a62d-5fb8-a0ea-3a4cc00a3965	3e76825f-b3bf-5c52-9dbc-f22c1a10a5e0
+survival	survival_33	Dead	2006	Relapse	Not Censored	1981							Due to this disease	3f3a7cfd-07aa-5c85-94dc-9e2a7a64e9c3	a2caebb6-cdd2-5c57-9cf8-196a9af61d24
+survival	survival_34	Dead	2831	Relapse	Not Censored	2641							Due to other cause	809cfc4c-df04-53e3-850b-02a71ebb935e	841acc35-dd45-57ce-90dc-f631abca6388
+survival	survival_35	Dead	7060	Death	Not Censored	7057							Due to other cause	c3699b73-fb8a-5295-85eb-b64b622417cc	749e4af8-4c7a-56ea-9b7c-dbd14e4d7d03
+survival	survival_36	Dead	2876		Not Censored	2725							Due to other cause	d060a15e-19ce-512d-9c57-b535e972519a	156d6b11-832a-5dba-898a-ea07077a6e47
+survival	survival_37	Dead	1605	Relapse	Not Censored	1493							Due to this disease	55d12f71-2bc5-57c8-833c-99eb6fb63093	bc300918-f084-5528-a8f3-9865033c1f85
+survival	survival_38	Dead	3268	Death	Not Censored	3267							Due to other cause	0a7979b6-926c-528c-b42b-b6861452647b	e1df9f64-4bde-5469-ba74-5fd521475698
+survival	survival_39	Dead	5021	Death	Not Censored	5020							Due to other cause	bc471782-b594-5c86-9a9b-ffe994ef0dd1	9f11dacf-32e2-5ec2-9b14-f7fad09a5082
+survival	survival_40	Dead	6743	Relapse	Not Censored	6387							Due to other cause	d6cc43dd-5071-5e5b-9e38-f1b39c6defba	982a7ac1-fcf4-5492-a33d-df59224ffce5
+survival	survival_41	Dead	7713	Relapse	Not Censored	7510							Due to other cause	15afb6a5-17e9-57e7-9a39-1ab9eca5e0da	e7af2449-edd8-5a1e-9ea9-beda2e8ef423
+survival	survival_42	Dead	4310	Second Malignant Neoplasm	Not Censored	4005							Due to this disease	6815150a-0344-581d-9e2d-4c1ece9eadcd	43d1c07f-b37a-5c48-84d2-0796a6d92b5a
+survival	survival_43	Dead	961	Death	Not Censored	960							Due to this disease	2743747b-275c-5f7c-a0e2-11da00277f17	a7983459-5372-53fb-8a4e-4d96681a9686
+survival	survival_44	Dead	1950	Relapse	Not Censored	1770							Due to this disease	6e80e3b7-d1b8-5c0c-99bd-ef710dac2bd3	869e56cc-c87e-5fe6-a5c3-da7564d0fe53
+survival	survival_45	Dead	4877	Relapse	Not Censored	4833							Due to this disease	d0102179-eaef-5216-9a5a-c3bb1654659b	0ac2e5b7-d5ec-53a3-8301-9e7d5cf7cf35
+survival	survival_46	Dead	6264	Second Malignant Neoplasm	Not Censored	5831							Due to other cause	4bf025cb-e7e7-5923-9017-cbe18c6172bc	c4aa9107-1a75-5ca5-80c1-4ce977d51e51
+survival	survival_47	Dead	3529	Relapse	Not Censored	3432							Due to this disease	bf38b56a-d421-5d91-8a9b-8641a75341be	71289eb1-e6aa-5266-8023-9df7cf35989b
+survival	survival_48	Dead	5017	Death	Not Censored	5016							Due to other cause	4c06b754-229c-52a7-a137-07523b456330	3442bb7b-23bc-5192-9e72-e47705af2434
+survival	survival_49	Dead	5439	Death	Not Censored	5438							Due to other cause	f59b1ab2-6cf9-5d1d-8eea-48825b674ca0	685aaebf-822f-53a5-b612-d91ec6629814
+survival	survival_50	Dead	3805	Death	Not Censored	3802							Due to other cause	bd03e743-fc61-50a0-9d47-545a11f136a8	28c8ddb6-8a3a-53aa-b9cf-3e81cf79bec2
+survival	survival_51	Dead	2258	Relapse	Not Censored	705							Due to other cause	1e2c495b-c836-5ab9-a515-d7bd050b4e58	64f6a4e0-2bcd-5717-8614-8cd909a73f6e
+survival	survival_52	Dead	5601	Death	Not Censored	5601							Due to other cause	481970bb-4019-585b-b54d-e7d6ddb21918	1c6b7e7c-43fa-53e4-96fc-f36ac96d1c57
+survival	survival_53	Dead	10723		Not Censored	10006							Due to this disease	3ab33857-9b94-52fd-8347-12de809069bd	2a166ca7-f24d-52eb-91d9-ad856ec1113f
+survival	survival_54	Dead	4200		Not Censored	3755							Due to other cause	c99085bb-7551-5f20-8ed5-daa5adcd7768	89d8082d-7fae-5f06-bca3-3ed7b0516f12
+survival	survival_55	Dead	5051	Relapse	Not Censored	4959							Due to this disease	9b9e64bd-e229-54ef-a175-99581d89411b	dd34fcaa-7711-5823-863c-6931dd4ccbac
+survival	survival_56	Dead	6538		Not Censored	6148							Due to other cause	28c3647e-f498-5d43-9747-077e5e1da616	4227136f-7467-503d-bbb3-fab9af2b8316
+survival	survival_57	Dead	4449	Second Malignant Neoplasm	Not Censored	3540							Due to this disease	896f59c7-bc22-526d-8fe2-86c8fb45b334	7d68467a-58fa-5f13-bac8-6e98b8619f0f
+survival	survival_58	Dead	3105	Relapse	Not Censored	2896							Due to this disease	d0e1a110-a7a9-5f9b-bbe0-74ec86c8bce6	4c0fff52-d107-54f0-aa28-6fbf25eacfce
+survival	survival_59	Dead	5098	Death	Not Censored	5098							Due to other cause	765c6e1c-445d-580a-a220-436b5ed938dc	9df7ed71-6e64-59b2-b5f4-903b1aa5c749
+survival	survival_60	Dead	5361	Death	Not Censored	5359							Due to other cause	a48adde8-2ddb-5c48-9e99-20565f726b84	b717b09a-03b5-5d94-84d4-e0cd9bdd8f6c
+survival	survival_61	Dead	3336	Death	Not Censored	3334							Due to other cause	471fc06b-fa2a-5ee5-b927-dcbbc7df05bf	0e11480c-fc52-5bdb-87e4-6077a43483df
+survival	survival_62	Dead	1561	Relapse	Not Censored	1354							Due to this disease	a4aabf9a-8f17-56f0-98a9-9fa926159fb2	138b044f-7d59-553e-ab7d-3fa775d8abff
+survival	survival_63	Dead	3267	Relapse	Not Censored	3154							Due to this disease	5ce62c60-2811-596f-95e6-759e8dafff08	c782a831-3ea3-5fbd-92fc-d958ca335e7e
+survival	survival_64	Dead	3897	Relapse	Not Censored	3672							Due to other cause	6c94bbbf-b7db-521e-b009-e0a6d1df4f7f	ae8793bb-077d-5040-adf4-5f3a50104359
+survival	survival_65	Dead	3039		Not Censored	2940							Due to this disease	69add768-4c2b-5394-8c73-7703e278c1ed	bdfb18ed-354d-5159-99b8-cdcece3eb2bd
+survival	survival_66	Dead	3751	Relapse	Not Censored	2949							Due to this disease	be6505fa-69bf-53dc-b163-8034fe2d1aba	8c042b61-0b21-554f-a104-e5aa45d17ccb
+survival	survival_67	Dead	2810	Relapse	Not Censored	2394							Due to other cause	e11d8410-f8c2-5adc-a768-c142ac68e913	460ef39c-b532-5600-8d12-e9a5bc300ac2
+survival	survival_68	Dead	4283		Not Censored	4140							Due to other cause	b3887089-f9d2-5a2d-b6db-b97cdcf5b542	315dd5ea-e6b0-57ef-a4cc-b9e65a1b7cc4
+survival	survival_69	Dead	6100	Relapse	Not Censored	5564							Due to this disease	09702282-09c6-560d-8ff7-45f6bd5601e9	c387231f-7358-5237-a7ad-6133a7da17a9
+survival	survival_70	Dead	4701	Relapse	Not Censored	3863							Due to this disease	978be390-2ac3-5b1e-88b9-0a4dbf909230	2a5afb82-fa8a-5440-9f8a-584bfcf1d945
+survival	survival_71	Dead	1147	Relapse	Not Censored	1084							Due to this disease	545cdaa1-b0af-5de1-8e43-87a93816b21f	485eaf10-e369-5692-b22c-df2592991a50
+survival	survival_72	Dead	9130	Relapse	Not Censored	7469							Due to this disease	7cd657d9-8a9b-5fc9-9b97-6986381f309f	e5aeea80-3891-5bda-a8bf-8427418abc2a
+survival	survival_73	Dead	3478	Relapse	Not Censored	3299							Due to this disease	e025caf5-f101-5510-95ad-231f6fba6132	6dd511f0-9fca-5ea2-bbb0-8ed0a6030623
+survival	survival_74	Dead	6790	Relapse	Not Censored	6483							Due to this disease	b6331eeb-2d3a-5a9e-a130-8d3db842944f	dab0c909-5ca3-546d-898c-cbdf8d5dfb1f
+survival	survival_75	Dead	5298	Death	Not Censored	5297							Due to other cause	85c632ec-ab6f-5789-bfea-b22cf26f720f	3da61829-32d0-5d54-ad4c-129e0ca7b3a8
+survival	survival_76	Dead	6246	Death	Not Censored	6240							Due to this disease	1652ec9e-e819-55d6-b340-4c29ba421ed9	430849d3-883f-5943-8a2a-73e917d27ab9
+survival	survival_77	Dead	6948		Not Censored	6420							Unknown	1e208fa8-2c29-5688-a4e2-bbac62a1bdf9	259f5f05-b8a4-53dc-96ea-2b134249e031
+survival	survival_78	Dead	1759	Relapse	Not Censored	1305							Due to this disease	194b7813-a405-52de-8a8d-eb92495b12fb	b35b5a45-9e9e-509d-8932-b569477b08fc
+survival	survival_79	Dead	3076	Relapse	Not Censored	2836							Due to this disease	f2294229-d77c-5d0e-88ed-4629f22bf937	974a366b-5d1c-5c31-95f1-e49ef8526ce6
+survival	survival_80	Dead	6519	Relapse	Not Censored	6343							Unknown	358ce025-cd96-53a9-989f-289fe1f8044f	b9400418-108f-53bb-ab20-19a0bdfbb4dd
+survival	survival_81	Dead	6602		Not Censored	6486							Due to protocol treatment	28d88944-9c43-5f3c-bedd-07758da4c449	297b7ab3-327e-5f5d-93c5-a195aded3463
+survival	survival_82	Dead	5025	Relapse	Not Censored	4982							Due to this disease	8fbc112d-c4c9-51cd-a91d-ea3caf96e6a8	8081215e-2f4c-5b88-81d9-b63a05fcd9e9
+survival	survival_83	Dead	5486	Relapse	Not Censored	4795							Due to this disease	2b739fb8-69de-5efe-910a-ddd01bbe1dda	ac2549d5-db56-5793-9bab-0d112b134b3c
+survival	survival_84	Dead	2880	Relapse	Not Censored	2778							Due to this disease	f4d31d8c-5057-5edd-853f-f2b78e42b8cc	190e467c-3226-5ea8-bdcd-35647cec4597
+survival	survival_85	Dead	1312	Second Malignant Neoplasm	Not Censored	1088							Due to other cause	ed5be622-cb06-5d84-94dc-312998dbb174	517082c7-d2b5-5ded-a04c-95e96d3f74e1
+survival	survival_86	Dead	7508	Relapse	Not Censored	6912							Due to this disease	9db5565d-322a-5eec-9412-645424355c99	521c9c68-d183-50d6-a172-3800126fb0d6
+survival	survival_87	Dead	6283	Death	Not Censored	6282							Due to other cause	a56a2527-4a27-5e09-a58a-d39f93519c6c	68870264-6d7f-5cac-8856-d63157ab7257
+survival	survival_88	Dead	1122	Death	Not Censored	1120							Due to other cause	1476c9d2-a4e6-53e4-95b5-b62ed6f5cd99	b8db5d6b-2281-51c6-8c76-d15213a77163
+survival	survival_89	Dead	2454	Relapse	Not Censored	2061							Due to this disease	de3e4a79-a4cf-5033-be6e-2a44bfc2870a	9d0bd908-422e-51f4-b7ac-6933aa19be91
+survival	survival_90	Dead	2833	Relapse	Not Censored	2610							Due to this disease	93699459-645f-5f0a-95e7-a614226dd34e	fcd240aa-48e1-502b-b7d2-ab2e1d2e58e8
+survival	survival_91	Dead	4262	Relapse	Not Censored	4145							Due to this disease	21ebaeeb-3485-54b7-8e51-35de50d0d050	c68bd91e-7101-5086-98fd-9edf00787128
+survival	survival_92	Dead	3030	Death	Not Censored	3030							Due to other cause	7608312e-8ef8-5e26-85e4-71672dbbfb31	798f41a5-0ac6-5dd7-b8d3-4a1f9b674409
+survival	survival_93	Dead	4639	Second Malignant Neoplasm	Not Censored	4596							Due to this disease	1ef3dde7-b412-5194-9668-118c3777a87d	f7a5569a-6a15-5679-af7e-ee25fece00ba
+survival	survival_94	Dead	6791	Death	Not Censored	6788							Due to other cause	29468e3b-453c-51ce-9f9b-6df023d4745b	fb8a6706-cf00-5aa7-83a4-20fcd1040805
+survival	survival_95	Dead	5650	Death	Not Censored	5645							Due to other cause	5c417c6d-bdf9-55a5-b7e4-aa00f4ec5965	f3f297bb-aeef-5d71-8565-dcc9630e6892
+survival	survival_96	Dead	5961		Not Censored	5386							Due to this disease	95a7638a-1b51-54c2-a519-29a7f46de639	13e63fcc-54f0-50e4-b02c-b592c2d5d154
+survival	survival_97	Dead	5765		Not Censored	3920							Due to this disease	0bee0800-ec8a-5f39-9370-6d2949de4539	9c1aed10-08f0-576b-8535-f170dcb1eccc
+survival	survival_98	Dead	1298	Relapse	Not Censored	1246							Due to this disease	cceca675-90b3-514c-a14d-a7bc0dd6cf69	c17d98f4-87d9-5275-ae87-9141032689d6
+survival	survival_99	Dead	3779	Death	Not Censored	3775							Due to other cause	f9f6cd00-d869-5426-81ae-429bb12f5569	a2e756bb-1582-5d1d-801d-2a3e816204e1
+survival	survival_100	Dead	1634	Death	Not Censored	1632							Due to other cause	71e354c4-495e-5f2b-87ce-c215f1708107	5870de9b-47a3-56f7-a77c-0d949e16cf7b
+survival	survival_101	Dead	7134	Relapse	Not Censored	5854							Due to this disease	03cd40bc-964f-5c6d-be41-8ce270d3dc72	2753e83e-56fc-5301-9e62-130d48450815
+survival	survival_102	Dead	2078	Death	Not Censored	2074							Due to other cause	5df2f158-c197-5913-b76b-45b3e6fbef44	4dfbffb4-a65f-585f-a11f-8d253724467c
+survival	survival_103	Dead	3312	Relapse	Not Censored	2931							Due to this disease	b7c0a151-dda4-5b94-a96d-d9da0b99a121	a4f9cd33-8239-54b4-81fd-8c3788ef1f64
+survival	survival_104	Dead	3233	Second Malignant Neoplasm	Not Censored	3221							Due to secondary primary cancer	949a4690-ea19-54e9-adc6-97328fcab79c	eac735b1-3f66-5f93-b607-26bb6462d58d
+survival	survival_105	Dead	6371	Relapse	Not Censored	6183							Due to this disease	b8d36687-954e-5272-a6aa-f7ac6144b440	c36ac388-fac6-519a-b351-8014fd441135
+survival	survival_106	Dead	5874	Relapse	Not Censored	5675							Due to this disease	45c55bbc-dc76-565c-829b-90571501de64	6cb1e126-61d2-5b55-9930-4ae45bacc559
+survival	survival_107	Dead	4486	Relapse	Not Censored	4391							Due to this disease	b2dff4dc-a19b-5f05-b24b-26bbd1741901	11b9a8ed-4441-5b45-a381-df315ddbafa1
+survival	survival_108	Dead	2469	Relapse	Not Censored	2104							Due to this disease	aec839bf-aa41-55c8-ba2f-8f1c65270b43	c0af9b01-27c1-5d4f-8241-c3f0d488f490
+survival	survival_109	Dead	3647	Death	Not Censored	3646							Unknown	43892e42-fbd5-5b96-bd2a-169c5551ca53	0730da35-1a9b-5bb5-9820-33e8f832168c
+survival	survival_110	Dead	6425	Relapse	Not Censored	6317							Due to this disease	b438342c-b228-5a8b-8ea2-39897f8e714b	0fb60853-21e1-589b-beb5-2ec52c4799ed
+survival	survival_111	Dead	5409	Relapse	Not Censored	5156							Due to this disease	f1d9bd22-555f-5af6-ac66-5dcb35938e52	58d8a368-4016-5ef6-b47d-613f77f0d389
+survival	survival_112	Dead	3515	Relapse	Not Censored	3332							Due to other cause	87b14a21-99a6-5131-983a-211be17733e9	6a700532-d185-5175-8318-f6bb59429a26
+survival	survival_113	Dead	1896	Second Malignant Neoplasm	Not Censored	1843							Due to this disease	a9c7b1a5-92c3-5f0d-8e47-42bf1c97c7e6	3250007a-61ff-5315-99b6-888f367f8bd3
+survival	survival_114	Dead	7608	Death	Not Censored	7605							Due to other cause	fa25cd36-aae3-58ea-81a4-eadb46491e91	3e5135f7-30ac-543c-867b-fc1c1f40347c
+survival	survival_115	Dead	8212	Death	Not Censored	8207							Due to this disease	52ae9f8a-9d1d-5fde-b12f-18765339dbf6	7ddaf9f4-a1b8-54e7-860a-183998abc74e
+survival	survival_116	Dead	6694	Relapse	Not Censored	6517							Due to this disease	6af724c4-cddf-5e7e-9a15-d526209cc8a0	334a6b5d-ecc8-51c9-8608-51811603b772
+survival	survival_117	Dead	2618	Relapse	Not Censored	2346							Due to this disease	3268a2e4-3dc2-58a8-af22-62f477cf1060	fdc2033f-9171-5f7c-9ea2-eaeda27dc239
+survival	survival_118	Dead	4328	Death	Not Censored	4326							Due to other cause	f23d3dfa-ed46-58dc-9410-5ef162ae298a	263d32ef-67d3-5ad3-b656-5dc077f73d44
+survival	survival_119	Dead	6534	Death	Not Censored	6531							Due to protocol treatment	ffabc9bf-41a9-5571-8ff9-2f0e8eaaae45	b09f4d7d-30a3-523a-abdd-2902db17781e
+survival	survival_120	Dead	6197	Relapse	Not Censored	6112							Due to this disease	d84eb967-a087-5058-b22c-1e73ef50f727	973ac845-9216-5114-bb5a-e064014ad590
+survival	survival_121	Dead	4309		Not Censored	4115							Due to this disease	3a3c3da8-caaa-5e24-befc-32c3eee1a7fc	e8f47277-804d-597f-8106-745e785eecb1
+survival	survival_122	Dead	1045	Relapse	Not Censored	965							Due to this disease	1c4b3f50-9342-59f5-a6c7-15f96ec91c6d	c5b3c242-9502-583f-8b60-f8210585c4f9
+survival	survival_123	Dead	4194	Relapse	Not Censored	4081							Due to this disease	a9606ae9-89d3-50d7-ba99-709b99c04892	84c0f9b1-0759-5572-95d2-103603fa7aa0
+survival	survival_124	Dead	3942	Death	Not Censored	3941							Due to this disease	e90a7a47-e8a0-5c6c-ae84-66b504c70a3b	c64616d2-380a-57f8-8d6b-251751ee30dc
+survival	survival_125	Dead	853	Death	Not Censored	853							Due to other cause	6cfa549f-26eb-5b69-8d15-c677cf12d2a9	27b8332f-2570-53a1-956e-ff9397ca0a82
+survival	survival_126	Dead	1758		Not Censored	1417							Due to this disease	4f0274ed-8c16-50f2-b8f1-e714059c3667	f442516f-efd6-5084-bf10-f605d7c84c49
+survival	survival_127	Dead	7610	Second Malignant Neoplasm	Not Censored	7120							Due to this disease	f0fe9daf-af92-56a9-955e-64c274213017	fec96e9d-6f54-51ed-bdcd-a6568365f0f9
+survival	survival_128	Dead	8888	Death	Not Censored	8882							Due to other cause	85f8419b-9da8-574b-95bd-e1ca97c63758	1bfccdac-9590-57d1-a723-c7da0da393bf
+survival	survival_129	Dead	3240	Relapse	Not Censored	3145							Due to this disease	5e014abd-301b-5d91-916e-0f424ecde66d	5c7fa638-7dcf-57ea-935d-c2111e2c1d70
+survival	survival_130	Dead	6625	Relapse	Not Censored	6380							Due to this disease	aa1be590-8c67-5c27-9307-2b706469edea	f4b98a5c-31e1-5b01-9306-5e7287259834
+survival	survival_131	Dead	5037	Relapse	Not Censored	4898							Due to this disease	7f4cad2a-23d7-5cd4-9326-bff931dc750c	3b6c719d-9d8a-5f38-a81e-d1ce60aa9579
+survival	survival_132	Dead	6179	Relapse	Not Censored	6127							Due to this disease	dc8176c2-892c-59d8-9ea7-b0198824ac6d	b37e6554-cc89-5788-878a-2d04df4dc078
+survival	survival_133	Dead	1060	Relapse	Not Censored	998							Due to this disease	7040eac1-1e8a-5f22-b0ea-06bb3b1ee5ed	eddbf27c-a88c-5964-875d-72d9f1d16309
+survival	survival_134	Dead	5824	Death	Not Censored	5819							Due to other cause	5a3958df-d031-5073-88c9-d3d2fc43aa90	fd64fc18-5b2a-5efb-a6c4-2fe0a5b02258
+survival	survival_135	Dead	3678		Not Censored	2958							Due to this disease	4d360196-6c26-50d4-b999-f52a5b796b01	9bcb4a63-fe20-5bb9-a3a4-77d31befbbe5
+survival	survival_136	Dead	6264	Relapse	Not Censored	6156							Due to this disease	77255925-97f7-5007-812c-abf4a368ccb9	939419e0-31e0-57f0-b9c9-29ce8c8779a9
+survival	survival_137	Dead	4433	Death	Not Censored	4433							Due to this disease	bff7bc81-b111-5c26-bdd6-b5b165ffbbd1	b80c1aec-b0b0-5733-83a0-0c2725f65f5f
+survival	survival_138	Dead	6131	Relapse	Not Censored	6112							Due to this disease	66ddb1f8-c250-5e58-b22a-fb8de3925e23	c058123d-cbb3-5a7d-be2d-3b80152e36d6
+survival	survival_139	Dead	5024	Death	Not Censored	5016							Due to other cause	883dbe46-fb1a-5041-a544-a9d2a6b9d245	8a4cf3e3-e66d-59df-9dc9-2d7ffc36a043
+survival	survival_140	Dead	2169	Relapse	Not Censored	1801							Due to this disease	60aef793-fb2e-5f52-8979-fc46f88f5ef9	b220fb44-38e9-5488-b0c6-1118e164d356
+survival	survival_141	Dead	2931	Relapse	Not Censored	2897							Due to this disease	c5f40be5-779e-51e3-9259-a685c5bbc705	fdc3615b-17e4-52f8-9dba-f7d18dc752c8
+survival	survival_142	Dead	834	Relapse	Not Censored	796							Due to this disease	cb244632-8cb8-55b1-8162-82c65a4158dd	e515f35a-475d-57ca-8f94-a5e5fb0b8020

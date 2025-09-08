@@ -1,6 +1,0 @@
-type	study_personnel_id	personnel_name	personnel_type	email_address	institution	orcid	crdc_id	id	study.id
-study_personnel	msfarooqi	Midhat Farooqi, MD, PhD	Co-PI	msfarooqi@cmh.edu	Children's Mercy Hospital Kansas	Not Reported		1a3dee55-ae8c-5a32-a8dd-f8fe35b71683	41f958ca-160e-56c5-97e6-e7f3c7f90966
-study_personnel	byoo	Byunggil Yoo	Data Manager	byoo@cmh.edu	Children's Mercy Hospital Kansas	https://orcid.org/0000-0002-7912-1862		5692b9ec-f5cb-5e1c-855c-109b944b4b1a	41f958ca-160e-56c5-97e6-e7f3c7f90966
-study_personnel	lalansdon	Lisa Lansdon	Data Manager	lalandson@cmh.edu	Children's Mercy Hospital Kansas	https://orcid.org/0000-0002-8214-6083		5a05ab54-133f-5e77-a1c8-aac2326150e2	41f958ca-160e-56c5-97e6-e7f3c7f90966
-study_personnel	rjensen	Roy Jensen, MD	PI	rjensen@kumc.edu	Children's Mercy Hospital Kansas	https://orcid.org/0000-0003-4430-2281		b7eb1d51-fe65-5b2d-b0f7-79edbc896cd6	41f958ca-160e-56c5-97e6-e7f3c7f90966
-study_personnel	ipushel	Irina Pushel	Data Submitter	ipushel@cmh.edu	Children's Mercy Hospital Kansas	https://orcid.org/0000-0002-0862-1923		e85c7804-b5df-50c9-8380-cfa9b7c31b31	41f958ca-160e-56c5-97e6-e7f3c7f90966

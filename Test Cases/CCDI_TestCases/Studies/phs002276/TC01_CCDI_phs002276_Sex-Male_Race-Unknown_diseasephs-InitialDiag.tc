@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CCDI_phs002276_Sex-Male_Race-Unknown_diseasephs-InitialDiag</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>159f117d-8986-40dc-997f-f5b8ce8f1c6c</testCaseGuid>
+</TestCaseEntity>

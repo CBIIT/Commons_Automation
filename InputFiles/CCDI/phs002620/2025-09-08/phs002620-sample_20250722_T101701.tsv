@@ -1,0 +1,327 @@
+type	sample_id	tumor_classification	anatomic_site	participant_age_at_collection	sample_tumor_status	sample_description	percent_tumor	percent_necrosis	crdc_id	id	participant.id	pdx.id	cell_line.id
+sample	I-H-108333-N2-1-D1-1	Not Applicable	C42.0 : Blood	-999	Normal					11885cc5-1376-59dc-8c93-577717e7e91c	bb244e5c-c0b2-513d-b2c2-0c6d207e9ac3		
+sample	I-H-108333-T2-2-D1-1	Regional	C49.9 : Muscle, NOS	8029	Tumor					9e6a869a-4af0-55d8-969e-31bfa96d5cdc	bb244e5c-c0b2-513d-b2c2-0c6d207e9ac3		
+sample	I-H-108333-T2-1-R1-1	Regional	C49.9 : Muscle, NOS	8029	Tumor					7c7d9a04-9206-52e8-a7c6-63898ce13604	bb244e5c-c0b2-513d-b2c2-0c6d207e9ac3		
+sample	I-H-133671-N1-1-D1-1	Not Applicable	C42.0 : Blood	-999	Normal					0bd35150-e833-5689-b431-7f9f4672b696	de38ea9f-5ffe-5eb7-88d2-800358982a59		
+sample	I-H-133671-T1-1-R1-1	Metastatic	C48.0 : Retroperitoneum	926	Tumor					9db9a230-a9e1-511e-bbac-eaa1792a4f04	de38ea9f-5ffe-5eb7-88d2-800358982a59		
+sample	I-H-133671-T1-2-D1-1	Metastatic	C48.0 : Retroperitoneum	926	Tumor					61978923-3fa5-5f12-a4dc-49fe8d36a584	de38ea9f-5ffe-5eb7-88d2-800358982a59		
+sample	I-H-133672-N1-1-D1-1	Not Applicable	C42.0 : Blood	-999	Normal					2aa3a4e2-99df-5b60-a4a0-6ca9ef3696ec	7740bf7b-eb22-5d4a-b48f-161a59c87baf		
+sample	I-H-133672-T1-1-R1-1	Primary	C49.2 : Connective, subcutaneous and other soft tissues of lower limb and hip	1063	Tumor					d2e22fff-ddc3-52ca-837e-58166e7168d5	7740bf7b-eb22-5d4a-b48f-161a59c87baf		
+sample	I-H-133672-T1-2-D1-1	Primary	C49.2 : Connective, subcutaneous and other soft tissues of lower limb and hip	1063	Tumor					49fe2c0a-9574-5b72-b56a-db4c125f4c6a	7740bf7b-eb22-5d4a-b48f-161a59c87baf		
+sample	I-H-133673-N1-1-D1-1	Not Applicable	C42.0 : Blood	-999	Normal					12205485-f841-57ef-846c-f0c103d9a5fa	dfc660ea-c325-5b11-a87c-a3dcd5d9005e		
+sample	I-H-133673-T1-1-R1-1	Metastatic	C38.4 : Pleura, NOS	8359	Tumor					a5060cc1-9f9c-574b-a4e9-5a80167ea8e7	dfc660ea-c325-5b11-a87c-a3dcd5d9005e		
+sample	I-H-133673-T2-1-D1-1	Metastatic	C38.4 : Pleura, NOS	8359	Tumor					95e82db7-86f8-5cb5-aa3c-fced641dff97	dfc660ea-c325-5b11-a87c-a3dcd5d9005e		
+sample	I-H-133674-N1-1-D1-1	Not Applicable	C42.0 : Blood	-999	Normal					8be63c8f-258f-5f0f-abad-a82f850bc5bf	182cb755-25c4-57b5-9400-d2774431ccc2		
+sample	I-H-133674-T1-1-R1-1	Metastatic	C76.2 : Abdomen, NOS	1112	Tumor					f31c759c-3031-550b-9a96-1fb8b9469f7e	182cb755-25c4-57b5-9400-d2774431ccc2		
+sample	I-H-133674-T1-2-D1-1	Metastatic	C76.2 : Abdomen, NOS	1112	Tumor					69f697e2-dc32-5763-945a-528ff5cacf75	182cb755-25c4-57b5-9400-d2774431ccc2		
+sample	I-H-133675-N1-1-D1-1	Not Applicable	C42.0 : Blood	-999	Normal					9e465ca4-ef53-56b2-9a8f-01a60427b6c6	0bac6685-d310-524c-87c9-fa7826176988		
+sample	I-H-133675-T1-1-R1-1	Metastatic	C22.0 : Liver	7197	Tumor					f50481ee-0e31-59c1-8090-c41c12413010	0bac6685-d310-524c-87c9-fa7826176988		
+sample	I-H-133675-T1-2-D1-1	Metastatic	C22.0 : Liver	7197	Tumor					88f97161-b8c1-56dd-9e79-5913a72db381	0bac6685-d310-524c-87c9-fa7826176988		
+sample	I-H-133676-N1-2-D1-1	Not Applicable	C42.0 : Blood	-999	Normal					049069a4-4c89-5f23-93f0-afa72c2b8035	d0765e7a-7005-5049-8747-fc0b96e42d53		
+sample	I-H-133676-T1-1-R1-1	Primary	C07.9 : Parotid gland	5338	Tumor					f52cc0b3-88fd-584b-abc2-2ae8be307dfd	d0765e7a-7005-5049-8747-fc0b96e42d53		
+sample	I-H-133676-T1-1-D1-1	Primary	C07.9 : Parotid gland	5338	Tumor					15c748f9-3a81-53cc-9446-02bff7551440	d0765e7a-7005-5049-8747-fc0b96e42d53		
+sample	I-H-134202-N1-1-D1-1	Not Applicable	C42.0 : Blood	-999	Normal					823da7d5-bd19-5087-8081-a8964605c4cf	e6cfe396-345c-58ac-913e-2642a00cb720		
+sample	I-H-134202-T1-2-D1-1	Metastatic	C38.4 : Pleura, NOS	1572	Tumor					21999c5b-9823-5f28-886f-c01ac8fd0bca	e6cfe396-345c-58ac-913e-2642a00cb720		
+sample	I-H-134202-T1-1-R1-1	Metastatic	C38.4 : Pleura, NOS	1572	Tumor					78728fc9-38c8-5b7e-852c-067df02e08e2	e6cfe396-345c-58ac-913e-2642a00cb720		
+sample	I-H-134733-N3-1-D1-1	Not Applicable	C42.0 : Blood	-999	Normal					1940acaa-92e1-5281-aaf3-2510372bb4c3	71dc5a9a-2940-546e-aa23-81d637cb7efd		
+sample	I-H-134733-T3-2-D1-1	Metastatic	C34.9 : Lung, NOS	4479	Tumor					f78449e7-be7a-5b29-9c17-a4d03c588cb0	71dc5a9a-2940-546e-aa23-81d637cb7efd		
+sample	I-H-134733-T3-1-R1-1	Metastatic	C34.9 : Lung, NOS	4479	Tumor					a1534322-5a60-5101-b0e3-6d1c578c1610	71dc5a9a-2940-546e-aa23-81d637cb7efd		
+sample	IID_H134738_N02_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					782c57b8-1e8b-5e8b-ae3a-9c3e916fa3e5	f3a8ed96-e6b9-58e0-8f7b-3c8c4370c33b		
+sample	IID_H134738_T07_01_WG01	Metastatic	C76.1 : Chest wall, NOS	15999	Tumor					d55423a8-689b-558a-915e-4d97e12c1c6b	f3a8ed96-e6b9-58e0-8f7b-3c8c4370c33b		
+sample	IID_H134738_T07_01_WT01	Metastatic	C76.1 : Chest wall, NOS	15999	Tumor					ef6cd992-3c15-565f-ad6b-359bfde75e54	f3a8ed96-e6b9-58e0-8f7b-3c8c4370c33b		
+sample	I-H-134753-N1-1-D1-1	Not Applicable	C42.0 : Blood	-999	Normal					30505218-bdf4-5d96-a3da-2850a881824b	75c94f84-ae06-550f-8505-2028c6328564		
+sample	I-H-134753-T1-1-D1-1	Primary	C40.2 : Long bones of lower limb and associated joints	8792	Tumor					32b2bbaa-f928-5cb7-8be3-c623d1f516a3	75c94f84-ae06-550f-8505-2028c6328564		
+sample	I-H-134754-N1-1-D1-1	Not Applicable	C42.0 : Blood	-999	Normal					2111a628-a286-552f-aafd-3ed3b5a1ec1b	14a59dd8-456f-53cf-a2e1-28b89f60196a		
+sample	I-H-134754-T1-1-D1-1	Primary	C49.9 : Connective, subcutaneous and other soft tissues, NOS	6087	Tumor					ccd6217a-f766-56e8-bb4e-8f82e83b2088	14a59dd8-456f-53cf-a2e1-28b89f60196a		
+sample	I-H-134754-T1-2-R1-1	Primary	C49.9 : Connective, subcutaneous and other soft tissues, NOS	6087	Tumor					690413ba-611a-5f4b-8c56-baeba8ad84f4	14a59dd8-456f-53cf-a2e1-28b89f60196a		
+sample	I-H-134756-N1-1-D1-1	Not Applicable	C42.0 : Blood	-999	Normal					12f30264-c09b-573a-8073-b92c5ec2f0cc	40397c92-07ef-5a8b-8f83-144990b0a371		
+sample	I-H-134756-T1-2-R1-1	Regional	C49.9 : Connective, subcutaneous and other soft tissues, NOS	5858	Tumor					14628eed-e1aa-5cf5-b2c1-492a1187315c	40397c92-07ef-5a8b-8f83-144990b0a371		
+sample	I-H-134756-T1-1-D1-1	Regional	C49.9 : Connective, subcutaneous and other soft tissues, NOS	5858	Tumor					ab9ff468-b475-5d02-9609-04963449accb	40397c92-07ef-5a8b-8f83-144990b0a371		
+sample	I-H-134757-N1-1-D1-1	Not Applicable	C42.0 : Blood	-999	Normal					614c8365-1721-5a11-b8c2-bd969967435c	a4d68494-e19d-5c86-a44d-e7d9dc9cd672		
+sample	I-H-134757-T1-2-R1-1	Primary	C41.3 : Rib, sternum, clavicle and associated joints	6667	Tumor					947cb69d-e951-5538-b845-d8e38443ad14	a4d68494-e19d-5c86-a44d-e7d9dc9cd672		
+sample	I-H-134757-T1-1-D1-1	Primary	C41.3 : Rib, sternum, clavicle and associated joints	6667	Tumor					807f44dc-71c8-5ec1-95f4-c1f1a148514a	a4d68494-e19d-5c86-a44d-e7d9dc9cd672		
+sample	I-H-134768-N1-1-D1-1	Not Applicable	C42.0 : Blood	-999	Normal					80800905-70cd-55d3-a478-9ca82eaf8b1c	50707f62-d501-5c36-bfef-73aa5dadc172		
+sample	IID_H134768_T02_01_WG01	Metastatic	C77.2 : Intra-abdominal lymph nodes	7475	Tumor					a8a3a4fa-bd4a-550d-971c-1086b0f5c5ec	50707f62-d501-5c36-bfef-73aa5dadc172		
+sample	IID_H134768_T02_01_WT01	Metastatic	C77.2 : Intra-abdominal lymph nodes	7475	Tumor					fb1759d3-e30b-59ec-bf80-dc9bba08f7dc	50707f62-d501-5c36-bfef-73aa5dadc172		
+sample	I-H-134769-N1-1-D1-1	Not Applicable	C42.0 : Blood	-999	Normal					4347b7e3-b1f1-523f-a566-66b492335395	9257516d-8907-5926-8387-95282d9f959b		
+sample	I-H-134769-T1-2-R1-1	Primary	C41.4 : Pelvic bones, sacrum, coccyx and associated joints	5287	Tumor					42ef5e35-57a0-5a51-b001-e12c36df6fa0	9257516d-8907-5926-8387-95282d9f959b		
+sample	I-H-134769-T1-1-D1-2	Primary	C41.4 : Pelvic bones, sacrum, coccyx and associated joints	5287	Tumor					155b7622-89bd-58bc-aec4-230244f92515	9257516d-8907-5926-8387-95282d9f959b		
+sample	I-H-135022-N2-1-D1-1	Not Applicable	C42.0 : Blood	-999	Normal					3d2e513b-8068-5967-a50c-dc84dea4832f	81548b20-14fe-5ae7-bfd3-50a7e17865b4		
+sample	I-H-135022-T1-2-D1-1	Primary	C74.9 : Adrenal gland, NOS	4851	Tumor					67a5d798-e9ea-5400-bcc2-19842dfc0f4d	81548b20-14fe-5ae7-bfd3-50a7e17865b4		
+sample	I-H-135022-T1-1-R1-1	Primary	C74.9 : Adrenal gland, NOS	4851	Tumor					70dca4a4-dcc3-5450-8951-154fbc9d43f8	81548b20-14fe-5ae7-bfd3-50a7e17865b4		
+sample	I-H-135062-N1-1-D1-1	Not Applicable	C42.0 : Blood	-999	Normal					f7229062-a05d-5e98-b191-98da3a8e4a55	84b8a4f0-7d96-5d5e-849d-25c20193a024		
+sample	I-H-135062-T1-1-D1-1	Primary	C62.9 : Testis, NOS	6309	Tumor					57e829a1-e82f-5d26-a80f-fbbe3ced9231	84b8a4f0-7d96-5d5e-849d-25c20193a024		
+sample	I-H-135062-T1-2-R1-1	Primary	C62.9 : Testis, NOS	6309	Tumor					01b2cd4f-b8ab-5f4f-885c-ca8ba7a42390	84b8a4f0-7d96-5d5e-849d-25c20193a024		
+sample	I-H-135073-N1-1-D1-1	Not Applicable	C42.0 : Blood	-999	Normal					6fb9ccac-7de7-5669-b123-a44dad29b1ab	81a11a57-a6a7-5ca6-9ac2-47beb9e7f82f		
+sample	I-H-135073-T1-1-R1-1	Metastatic	C34.9 : Lung, NOS	4205	Tumor					9f30b37d-ffc2-5bab-85b7-32ae860ff07d	81a11a57-a6a7-5ca6-9ac2-47beb9e7f82f		
+sample	I-H-135073-T1-2-D1-1	Metastatic	C34.9 : Lung, NOS	4205	Tumor					10920a61-115a-579b-811d-58b87fdc34dc	81a11a57-a6a7-5ca6-9ac2-47beb9e7f82f		
+sample	I-H-135074-N1-1-D1-1	Not Applicable	C42.0 : Blood	-999	Normal					e4223ce9-79b0-580d-800c-1fcddea974c0	792a79d6-b4d0-5d8d-9e78-990a7933da8c		
+sample	I-H-135074-T1-1-R1-1	Regional	C76.2 : Abdomen, NOS	6898	Tumor					a7560756-65ce-58e1-b5a3-fb065edc0fd7	792a79d6-b4d0-5d8d-9e78-990a7933da8c		
+sample	I-H-135074-T1-2-D1-1	Regional	C76.2 : Abdomen, NOS	6898	Tumor					601d3d25-4a9a-5994-b810-913b5eb0a6f6	792a79d6-b4d0-5d8d-9e78-990a7933da8c		
+sample	I-H-135076-N1-1-D1-1	Not Applicable	C42.0 : Blood	-999	Normal					0cb163c9-1b50-59bb-b8be-554f173a3447	840e5c72-77dc-5dcc-a586-5666b1110c3a		
+sample	I-H-135076-T1-1-R1-1	Primary	C31.1 : Ethmoid sinus	3668	Tumor					720f5879-c19a-512a-a17c-ffdda601351c	840e5c72-77dc-5dcc-a586-5666b1110c3a		
+sample	I-H-135076-T1-1-D1-1	Primary	C31.1 : Ethmoid sinus	3668	Tumor					ec1d168b-0178-5be6-acf8-308a3dc15a0c	840e5c72-77dc-5dcc-a586-5666b1110c3a		
+sample	I-H-135387-N1-1-D1-1	Not Applicable	C42.0 : Blood	-999	Normal					0ae46f5c-c002-5ff8-948f-176fcbbce06f	e4692268-c274-59b1-b001-a39c207c9466		
+sample	I-H-135387-T1-1-D1-1	Primary	C40.2 : Long bones of lower limb and associated joints	6004	Tumor					94757733-be99-5224-9c5d-49c4b345bea8	e4692268-c274-59b1-b001-a39c207c9466		
+sample	I-H-135393-N1-1-D1-1	Not Applicable	C42.0 : Blood	-999	Normal					51f604ab-2687-50c2-93bc-e49225380330	59142435-9f46-5521-839b-8c5ecf13d0be		
+sample	I-H-135393-T1-1-D1-1	Primary	C40.2 : Long bones of lower limb and associated joints	3075	Tumor					bda95c1c-1f37-50aa-b53d-53c390c90c52	59142435-9f46-5521-839b-8c5ecf13d0be		
+sample	I-H-135393-T1-2-R1-1	Primary	C40.2 : Long bones of lower limb and associated joints	3075	Tumor					931d7747-5aa9-586f-ba67-93ed2d39b168	59142435-9f46-5521-839b-8c5ecf13d0be		
+sample	I-H-135420-N1-1-D1-1	Not Applicable	C42.0 : Blood	-999	Normal					795a59b5-dc65-5716-95e7-0baa02967822	24c67512-2170-5ef5-bf48-97df4875a48e		
+sample	I-H-135420-T1-2-D1-1	Regional	C17.9 : Small intestine, NOS	10327	Tumor					88fca115-7b1c-5b56-b287-dbb7ca29c3d6	24c67512-2170-5ef5-bf48-97df4875a48e		
+sample	I-H-135420-T1-1-R1-1	Regional	C17.9 : Small intestine, NOS	10327	Tumor					96bbf0c6-fb29-51fc-b4e4-f24724f7450a	24c67512-2170-5ef5-bf48-97df4875a48e		
+sample	I-H-135459-N1-1-D1-1	Not Applicable	C42.0 : Blood	-999	Normal					0d4ec6c5-3ad1-59b6-aeab-1a838da8ff17	aa9a6b2d-5cc2-59df-b966-d21015f1b72e		
+sample	I-H-135459-T1-2-D1-1	Primary	C17.0 : Duodenum	6971	Tumor					82f6ccf5-205d-5e07-8161-c55782bbf775	aa9a6b2d-5cc2-59df-b966-d21015f1b72e		
+sample	I-H-135459-T1-1-R1-1	Primary	C17.0 : Duodenum	6971	Tumor					b169a670-1974-55c2-85ae-3f2d44b739c3	aa9a6b2d-5cc2-59df-b966-d21015f1b72e		
+sample	I-H-135462-N1-1-D1-1	Not Applicable	C42.0 : Blood	-999	Normal					bcd34e47-57ee-50f2-a8b3-3596d2ebdfef	71c52b10-5d43-5a5f-9b05-29452060cfa7		
+sample	IID_H135462_T02_01_WG01	Regional	C52.9 : Vagina, NOS	5166	Tumor					8aecd1b2-a6d8-5fc1-8885-26329dcc2dc3	71c52b10-5d43-5a5f-9b05-29452060cfa7		
+sample	IID_H135462_T02_01_WT01	Regional	C52.9 : Vagina, NOS	5166	Tumor					39ac8fa1-278c-5354-b950-707eb7846895	71c52b10-5d43-5a5f-9b05-29452060cfa7		
+sample	I-H-135466-N1-1-D1-1	Not Applicable	C42.0 : Blood	-999	Normal					a0b9f276-b3df-5d65-8fcb-020dafb462ce	dba363f7-5d84-587c-8636-1b3f45efbb31		
+sample	I-H-135466-T1-1-R1-1	Regional	C17.2 : Ileum	5207	Tumor					c506f4bb-80b4-5c44-9789-fa1a2afe5e56	dba363f7-5d84-587c-8636-1b3f45efbb31		
+sample	I-H-135466-T1-2-D1-1	Regional	C17.2 : Ileum	5207	Tumor					8a269300-2ee5-5e8b-8da9-6d8f5e9a5a29	dba363f7-5d84-587c-8636-1b3f45efbb31		
+sample	I-H-135963-N1-1-D1-1	Not Applicable	C42.0 : Blood	-999	Normal					9ac3c210-6478-55fa-bec4-b5dc0d78a6bc	b48a019b-852b-5c79-bf07-46800173ddbf		
+sample	I-H-135963-T2-2-D1-1	Primary	C41.4 : Pelvic bones, sacrum, coccyx and associated joints	5888	Tumor					99cb93ca-6b32-502f-b56e-d091fc019f49	b48a019b-852b-5c79-bf07-46800173ddbf		
+sample	I-H-135963-T2-1-R1-1	Primary	C41.4 : Pelvic bones, sacrum, coccyx and associated joints	5888	Tumor					f4f15344-9809-5151-b28f-259e6449bdeb	b48a019b-852b-5c79-bf07-46800173ddbf		
+sample	I-H-135967-N1-1-D1-1	Not Applicable	C42.0 : Blood	-999	Normal					3214ee04-2cc1-5460-9db9-a2c5f5fae04b	7786b938-4cc2-53dd-b36f-6d292bc9638e		
+sample	I-H-135967-T1-1-R1-1	Regional	C40.2 : Long bones of lower limb and associated joints	5212	Tumor					619fd509-d0b3-5ebd-a3b8-c54bb349c0dc	7786b938-4cc2-53dd-b36f-6d292bc9638e		
+sample	I-H-135967-T1-2-D1-1	Regional	C40.2 : Long bones of lower limb and associated joints	5212	Tumor					c57e5467-e67a-5062-ab4d-5353eee138a6	7786b938-4cc2-53dd-b36f-6d292bc9638e		
+sample	I-H-135990-N1-1-D1-1	Not Applicable	C42.0 : Blood	-999	Normal					78d9267d-45b5-54fc-881a-d12d9c794132	1fc249f9-9513-5978-9d52-a4136f2fbeab		
+sample	I-H-135990-T1-2-R1-1	Primary	C40.0 : Long bones of upper limb, scapula and associated joints	6759	Tumor					c09a2d63-7d4b-5323-aac1-31698a825ec3	1fc249f9-9513-5978-9d52-a4136f2fbeab		
+sample	I-H-135990-T1-1-D1-1	Primary	C40.0 : Long bones of upper limb, scapula and associated joints	6759	Tumor					73ea9d04-a704-5754-a80c-4665eb1db580	1fc249f9-9513-5978-9d52-a4136f2fbeab		
+sample	I-H-136062-N1-1-D1-1	Not Applicable	C42.0 : Blood	-999	Normal					1698516e-3902-5bc7-afe6-56679cada4a8	01575926-0a01-5f50-958e-94da8f995333		
+sample	I-H-136062-T1-2-R1-1	Primary	C40.2 : Long bones of lower limb and associated joints	4307	Tumor					5f3028bb-7236-5549-96a4-75214ba34483	01575926-0a01-5f50-958e-94da8f995333		
+sample	I-H-136062-T1-1-D1-1	Primary	C40.2 : Long bones of lower limb and associated joints	4307	Tumor					d66c9145-dc6a-5abc-a0c0-d4d9394ea2a5	01575926-0a01-5f50-958e-94da8f995333		
+sample	I-H-136136-N1-1-D1-1	Not Applicable	C42.0 : Blood	-999	Normal					66ca267c-6fee-57cf-8e35-f57e7c3bc36f	3f12ddc7-5d37-5bf1-aede-e61cdda77524		
+sample	I-H-136136-T1-1-D1-1	Primary	C64.9 : Kidney, NOS	4451	Tumor					c63a2974-cda8-5267-a8f3-9b70f880d0bb	3f12ddc7-5d37-5bf1-aede-e61cdda77524		
+sample	I-H-136136-T1-2-R1-1	Primary	C64.9 : Kidney, NOS	4451	Tumor					ceb3b21d-62f9-5a0d-bed4-b34fe6c94bc3	3f12ddc7-5d37-5bf1-aede-e61cdda77524		
+sample	I-H-136139-N1-1-D1-1	Not Applicable	C42.0 : Blood	-999	Normal					05f81ddc-b080-5a7a-b23b-64c4f5fea450	21908734-105a-5491-a4ca-caac3bbb56a3		
+sample	I-H-136139-T1-1-D1-1	Metastatic	C34.9 : Lung, NOS	12337	Tumor					44d2a16d-0871-5bbd-a359-1ed98ae02c03	21908734-105a-5491-a4ca-caac3bbb56a3		
+sample	I-H-136139-T1-2-R1-1	Metastatic	C34.9 : Lung, NOS	12337	Tumor					5b04bfdc-c23c-55e2-8d26-51e26a55fd31	21908734-105a-5491-a4ca-caac3bbb56a3		
+sample	I-H-136375-N1-1-D1-1	Not Applicable	C42.0 : Blood	-999	Normal					66020a7d-a937-5bba-9ad9-1c4beec3c36c	01b5b31c-1a8a-5f72-b3e4-8927090f7417		
+sample	I-H-136375-T1-2-R1-1	Metastatic	C34.9 : Lung, NOS	6303	Tumor					8763f055-71e3-56a4-98a4-fc6491e8eab5	01b5b31c-1a8a-5f72-b3e4-8927090f7417		
+sample	I-H-136375-T1-1-D1-1	Metastatic	C34.9 : Lung, NOS	6303	Tumor					c88737cf-1cc2-5e7d-83c9-32eb09b57bd6	01b5b31c-1a8a-5f72-b3e4-8927090f7417		
+sample	I-H-136424-N1-1-D1-1	Not Applicable	C42.0 : Blood	-999	Normal					41853a1d-5193-538a-a69b-130b09a0ab86	9fd821ac-2728-5314-b019-5dbf77898d79		
+sample	I-H-136424-T1-2-R1-1	Primary	C64.9 : Kidney, NOS	731	Tumor					6ef014bf-c60b-503c-b514-782059f3b0fe	9fd821ac-2728-5314-b019-5dbf77898d79		
+sample	I-H-136424-T1-1-D1-1	Primary	C64.9 : Kidney, NOS	731	Tumor					0eae933e-0de3-5e12-af9c-75e369f98cb4	9fd821ac-2728-5314-b019-5dbf77898d79		
+sample	I-H-136428-N1-1-D1-1	Not Applicable	C42.0 : Blood	-999	Normal					2fc777c9-5d59-5026-90c9-6de3d646f893	36a4af70-0cd5-553e-b2b3-aeddddb74cc9		
+sample	I-H-136428-T1-2-R1-1	Primary	C40.0 : Long bones of upper limb, scapula and associated joints	9216	Tumor					740815b4-2467-5235-b4bf-89c7b2dc2d43	36a4af70-0cd5-553e-b2b3-aeddddb74cc9		
+sample	I-H-136428-T1-1-D1-1	Primary	C40.0 : Long bones of upper limb, scapula and associated joints	9216	Tumor					6bdaca7d-6300-5131-a2ef-558d4c298e23	36a4af70-0cd5-553e-b2b3-aeddddb74cc9		
+sample	IID_H136433_N02_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					d03c7710-0208-5c4f-a756-b247cadb3403	5279490c-789b-5c31-9ae8-46c247c51332		
+sample	IID_H136433_T07_01_WT01	Metastatic	C34.9 : Lung, NOS	6518	Tumor					c2935b40-ad72-503c-894d-f3a5605fc2a1	5279490c-789b-5c31-9ae8-46c247c51332		
+sample	IID_H136433_T07_01_WG01	Metastatic	C34.9 : Lung, NOS	6518	Tumor					3dbc708f-bb73-5a29-be9d-30eabf8d2a9f	5279490c-789b-5c31-9ae8-46c247c51332		
+sample	IID_H136573_N03_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					26a316b8-2c6f-5730-82f5-edf59dda0cfb	1e6ef515-a4e8-53c9-a882-4a8e2e3820cc		
+sample	IID_H136573_T05_01_WG01	Regional	C49.4 : Connective, subcutaneous and other soft tissues of abdomen	1511	Tumor					dd6af1b1-70d5-58ea-ae3d-d287d4946d3b	1e6ef515-a4e8-53c9-a882-4a8e2e3820cc		
+sample	IID_H136573_T05_01_WT01	Regional	C49.4 : Connective, subcutaneous and other soft tissues of abdomen	1511	Tumor					1f067ebf-60e6-5a43-a8cb-58351db37a67	1e6ef515-a4e8-53c9-a882-4a8e2e3820cc		
+sample	IID_H136631_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					0ce1d8dc-5feb-5534-b64f-aa28e82b7501	7dbb93a7-be08-58b1-9360-2a23b742c004		
+sample	IID_H136631_T01_01_WG01	Primary	C64.9 : Kidney, NOS	8623	Tumor					70e06fa8-9802-520d-9f44-4ea4fe537f45	7dbb93a7-be08-58b1-9360-2a23b742c004		
+sample	IID_H136631_T01_01_WT01	Primary	C64.9 : Kidney, NOS	8623	Tumor					a8130207-b14a-5ce1-b05d-6a25515054de	7dbb93a7-be08-58b1-9360-2a23b742c004		
+sample	IID_H136632_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					da8e2e54-20c9-5245-9c8b-6722284edd8e	0f3424cb-a038-531c-87bb-bf63027a2846		
+sample	IID_H136632_T01_01_WG01	Primary	C22.0 : Liver	9625	Tumor					d45ca758-24ea-5617-9080-c07ee0c3c69a	0f3424cb-a038-531c-87bb-bf63027a2846		
+sample	IID_H136633_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					abed6405-a8af-5e4d-9946-04abe645410f	241a93a7-ab9d-5222-b682-b9d0f203dd03		
+sample	IID_H136633_T01_01_WT01	Primary	C22.0 : Liver	951	Tumor					7b2bb8d7-4b2f-58ae-ba87-bed568f66126	241a93a7-ab9d-5222-b682-b9d0f203dd03		
+sample	IID_H136633_T01_01_WG01	Primary	C22.0 : Liver	951	Tumor					0b8a2e36-74c8-5a99-a61e-51b730098156	241a93a7-ab9d-5222-b682-b9d0f203dd03		
+sample	IID_H136640_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					5acfcefc-081c-5088-a74a-018fd4b8aff6	d2d9f331-ceeb-51d8-9089-de97918da04d		
+sample	IID_H136640_T01_01_WG01	Primary	C44.4 : Skin of scalp and neck	6764	Tumor					33ea0c81-2dd1-55db-9fba-5271dd6776d1	d2d9f331-ceeb-51d8-9089-de97918da04d		
+sample	IID_H136640_T01_01_WT01	Primary	C44.4 : Skin of scalp and neck	6764	Tumor					7eb379cf-5f27-53d3-b833-687033cd7ed7	d2d9f331-ceeb-51d8-9089-de97918da04d		
+sample	IID_H136641_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					a16523e5-7863-5182-a5b7-41acbcc17900	5e1e7d69-34ed-5ed7-9d8c-c0dd315e735d		
+sample	IID_H136641_T01_01_WG01	Primary	C40.2 : Long bones of lower limb and associated joints	3093	Tumor					ed764df8-4104-5316-85f7-5b9ad6fac310	5e1e7d69-34ed-5ed7-9d8c-c0dd315e735d		
+sample	IID_H136641_T01_01_WT01	Primary	C40.2 : Long bones of lower limb and associated joints	3093	Tumor					e0536735-58df-5002-825c-57cc5c9bda26	5e1e7d69-34ed-5ed7-9d8c-c0dd315e735d		
+sample	IID_H156407_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					c8d2541a-bd8f-5679-895a-d42db5598b67	608081ae-4e50-5230-b733-6e8c573a4d51		
+sample	IID_H156407_T01_01_WG01	Regional	C49.1 : Connective, subcutaneous and other soft tissues of upper limb and shoulder	5672	Tumor					359311e8-a9f9-5246-9ede-0d087fdb5ad9	608081ae-4e50-5230-b733-6e8c573a4d51		
+sample	IID_H156407_T01_01_WT01	Regional	C49.1 : Connective, subcutaneous and other soft tissues of upper limb and shoulder	5672	Tumor					1dfc721a-5124-5fbe-8418-3ad24f40785a	608081ae-4e50-5230-b733-6e8c573a4d51		
+sample	IID_H156409_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					b6858c4f-8792-5d13-98d1-cff7efb85247	9abc1150-a1b8-5d4d-8c54-7d06bd6cb3d2		
+sample	IID_H156409_T01_01_WG01	Metastatic	C34.9 : Lung, NOS	3916	Tumor					fd85fcad-2fac-5652-8a21-d0efcd0b335a	9abc1150-a1b8-5d4d-8c54-7d06bd6cb3d2		
+sample	IID_H156409_T01_01_WT01	Metastatic	C34.9 : Lung, NOS	3916	Tumor					69f9b7a9-f9dc-5a72-87f6-7e5d13dfbdbc	9abc1150-a1b8-5d4d-8c54-7d06bd6cb3d2		
+sample	IID_H156416_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					6713505c-b06d-5973-9920-265935a682ae	d557cce3-6aa2-5e78-b8de-717fad26afa0		
+sample	IID_H156416_T01_01_WT01	Metastatic	C32.9 : Larynx, NOS	2351	Tumor					62d47dbd-00af-530d-961e-453d78996a0f	d557cce3-6aa2-5e78-b8de-717fad26afa0		
+sample	IID_H156416_T01_01_WG01	Metastatic	C32.9 : Larynx, NOS	2351	Tumor					b8472641-86c3-5e2c-9b54-e0699c9c58d3	d557cce3-6aa2-5e78-b8de-717fad26afa0		
+sample	IID_H158151_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					d78dfbb9-64af-5f75-9b7b-3fd4e2d7df4c	373146cf-37b3-508c-931f-fa47157691f9		
+sample	IID_H158151_T01_01_WG01	Metastatic	C34.9 : Lung, NOS	14700	Tumor					b490e4aa-058e-560a-b3f6-5f2605247ef9	373146cf-37b3-508c-931f-fa47157691f9		
+sample	IID_H158151_T01_01_WT01	Metastatic	C34.9 : Lung, NOS	14700	Tumor					d0cf5c7b-1b26-5601-b9df-2af9fd49b259	373146cf-37b3-508c-931f-fa47157691f9		
+sample	IID_H158180_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					dfd42c72-998a-51cc-a931-09cbd6387a8f	78f5c189-15cb-5afb-bc8d-cd52c766ab97		
+sample	IID_H158180_T01_01_WT01	Metastatic	C71.4 : Occipital lobe	770	Tumor					6be09476-4aed-59b1-91ca-dcbb9ec3dbd7	78f5c189-15cb-5afb-bc8d-cd52c766ab97		
+sample	IID_H158180_T01_01_WG01	Metastatic	C71.4 : Occipital lobe	770	Tumor					daeb87dc-bc44-5425-8d15-05ae0fd014d3	78f5c189-15cb-5afb-bc8d-cd52c766ab97		
+sample	IID_H158181_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					4d4667d0-07d4-53c8-b66c-04fc260dcd70	e9b8bd1e-b2a3-5981-8965-d84a96a98aa4		
+sample	IID_H158181_T01_01_WG01	Primary	C49.2 : Connective, subcutaneous and other soft tissues of lower limb and hip	7019	Tumor					bf2033e1-a00e-5023-af62-ff23e1a7f9d8	e9b8bd1e-b2a3-5981-8965-d84a96a98aa4		
+sample	IID_H158181_T01_01_WT01	Primary	C49.2 : Connective, subcutaneous and other soft tissues of lower limb and hip	7019	Tumor					d1824114-fdd4-5ff3-95f6-3c24a9939e30	e9b8bd1e-b2a3-5981-8965-d84a96a98aa4		
+sample	IID_H158182_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					33e198ed-769e-5caa-b370-b110075507d5	72947aaa-e3ab-5389-86e2-89a662985f61		
+sample	IID_H158182_T01_01_WG01	Metastatic	C22.0 : Liver	4264	Tumor					560f976d-3e91-5266-a0f3-88411d0ec3a2	72947aaa-e3ab-5389-86e2-89a662985f61		
+sample	IID_H158186_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					43c3b6ab-1d1d-5729-8483-edf440795e93	df186f2b-6375-5b07-b422-fb7e69ef44d5		
+sample	IID_H158186_T01_01_WG01	Metastatic	C71.9 : Brain, NOS	6245	Tumor					3fdb38fc-95d7-5fc2-82d0-e5f22cc2c7f8	df186f2b-6375-5b07-b422-fb7e69ef44d5		
+sample	IID_H158186_T01_01_WT01	Metastatic	C71.9 : Brain, NOS	6245	Tumor					f172a41e-8b93-505a-b959-4f1e8d95e1a0	df186f2b-6375-5b07-b422-fb7e69ef44d5		
+sample	IID_H158223_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					c07e176e-9d29-55d3-8fe7-f81010e975d9	3bf4761e-08de-5e1a-b3fb-be6994e83f64		
+sample	IID_H158223_T01_01_WG01	Metastatic	C34.9 : Lung, NOS	5646	Tumor					6a397fe1-d7e4-5995-9c9e-3197d8fa32d5	3bf4761e-08de-5e1a-b3fb-be6994e83f64		
+sample	IID_H158223_T01_01_WT01	Metastatic	C34.9 : Lung, NOS	5646	Tumor					8327e0b6-a2f9-59ec-8b89-94394b4f558f	3bf4761e-08de-5e1a-b3fb-be6994e83f64		
+sample	IID_H158273_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					c7f3d006-1a4e-59f0-99eb-705fcce36542	e4518196-d3bf-51e3-9562-a1e93c087de4		
+sample	IID_H158273_T01_01_WG01	Primary	C40.2 : Long bones of lower limb and associated joints	4022	Tumor					510cb57c-8ccc-54c7-b498-915490a216f1	e4518196-d3bf-51e3-9562-a1e93c087de4		
+sample	IID_H158273_T01_01_WT01	Primary	C40.2 : Long bones of lower limb and associated joints	4022	Tumor					394fe9d7-f27f-5dd7-96ee-3888acee76b6	e4518196-d3bf-51e3-9562-a1e93c087de4		
+sample	IID_H158493_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					2f45d058-3f4b-5943-be59-a6104c48a986	2799f571-45ed-5fb3-af7f-d8d18158c845		
+sample	IID_H158493_T01_01_WT01	Primary	C40.2 : Long bones of lower limb and associated joints	5957	Tumor					ccd786a4-2fa6-5ded-ace5-1a6b30975a3c	2799f571-45ed-5fb3-af7f-d8d18158c845		
+sample	IID_H158493_T01_01_WG01	Primary	C40.2 : Long bones of lower limb and associated joints	5957	Tumor					5028a7a6-3610-5932-b8ca-7fbf04e61d8a	2799f571-45ed-5fb3-af7f-d8d18158c845		
+sample	IID_H158878_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					6c5d7bc1-d75b-5dc8-9f1f-f8bc6662f5ae	bcf58c40-3fc6-5743-a1a8-63bc9431b753		
+sample	IID_H158878_T01_01_WT01	Metastatic	C71.3 : Parietal lobe	2322	Tumor					7a3f939c-650c-5a19-8a4c-60b22cf1af7e	bcf58c40-3fc6-5743-a1a8-63bc9431b753		
+sample	IID_H158878_T01_01_WG01	Metastatic	C71.3 : Parietal lobe	2322	Tumor					c53d6ed6-41c9-567d-934c-36f67811b3ac	bcf58c40-3fc6-5743-a1a8-63bc9431b753		
+sample	IID_H158880_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					51b22639-d13d-537a-8cd2-13cc5178a953	fa9233ab-2e73-5bde-83dd-65881bc2d040		
+sample	IID_H158880_T01_01_WG01	Primary	C41.4 : Pelvic bones, sacrum, coccyx and associated joints	4743	Tumor					e2d8317d-2325-5034-8f4f-d45844606b6f	fa9233ab-2e73-5bde-83dd-65881bc2d040		
+sample	IID_H158880_T01_01_WT01	Primary	C41.4 : Pelvic bones, sacrum, coccyx and associated joints	4743	Tumor					34754db6-eb3e-5c6b-bf2a-3631763784f6	fa9233ab-2e73-5bde-83dd-65881bc2d040		
+sample	IID_H158916_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					eca1bd39-47c6-5bcf-99e8-1b7ef12ba405	49f7fe36-cea8-56dc-88cc-c3cd159d2699		
+sample	IID_H158916_T01_01_WT01	Primary	C40.2 : Long bones of lower limb and associated joints	4780	Tumor					a5201981-8093-5029-b71e-1d869ec27523	49f7fe36-cea8-56dc-88cc-c3cd159d2699		
+sample	IID_H158916_T01_01_WG01	Primary	C40.2 : Long bones of lower limb and associated joints	4780	Tumor					a90f6f04-5e23-52b2-9178-9aeb5fc87b9d	49f7fe36-cea8-56dc-88cc-c3cd159d2699		
+sample	IID_H158917_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					b4af6866-40c7-53b1-9684-f10aaaa11341	e40b2081-07a7-5323-b65e-2a015561f513		
+sample	IID_H158917_T01_01_WT01	Metastatic	C34.9 : Lung, NOS	6344	Tumor					839a989d-38b1-5e5a-9182-142ef18e793e	e40b2081-07a7-5323-b65e-2a015561f513		
+sample	IID_H158917_T01_01_WG01	Metastatic	C34.9 : Lung, NOS	6344	Tumor					5e1c119d-90b0-5767-a3a0-8dace5f2ecfb	e40b2081-07a7-5323-b65e-2a015561f513		
+sample	IID_H158918_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					16a989ab-4a86-5d6f-a1af-139bc5141ed3	771cc212-0330-5d04-b160-03b5b38ce47e		
+sample	IID_H158918_T01_01_WT01	Primary	C41.1 : Mandible	1841	Tumor					08d7b942-eb01-5749-a525-2a32dfe63dab	771cc212-0330-5d04-b160-03b5b38ce47e		
+sample	IID_H158918_T01_01_WG01	Primary	C41.1 : Mandible	1841	Tumor					34d4b3dd-3a32-5667-99d2-d39bfb80bef2	771cc212-0330-5d04-b160-03b5b38ce47e		
+sample	IID_H158919_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					a74b82a6-5c33-5c8c-ad59-cd32784f08ee	b2e8d2ee-f0d4-54dd-96e9-b8da8f98d0ae		
+sample	IID_H158919_T01_01_WG01	Primary	C40.2 : Long bones of lower limb and associated joints	6483	Tumor					7a21cc3b-d20d-5cb1-88be-9c1e50ad779e	b2e8d2ee-f0d4-54dd-96e9-b8da8f98d0ae		
+sample	IID_H158919_T01_01_WT01	Primary	C40.2 : Long bones of lower limb and associated joints	6483	Tumor					5547e837-d6d3-5624-b45d-d29d23a0e2da	b2e8d2ee-f0d4-54dd-96e9-b8da8f98d0ae		
+sample	IID_H159153_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					50cf8362-9fa1-5f45-be85-86e23100772c	d6d59aa9-a688-5d0d-9da8-1593521c5d63		
+sample	IID_H159153_T01_01_WT01	Metastatic	C34.9 : Lung, NOS	8242	Tumor					64850beb-8c21-5995-9ee6-e0d451ff7202	d6d59aa9-a688-5d0d-9da8-1593521c5d63		
+sample	IID_H159153_T01_01_WG01	Metastatic	C34.9 : Lung, NOS	8242	Tumor					a91d1e7b-a864-5445-81e5-fdfb1ab660c8	d6d59aa9-a688-5d0d-9da8-1593521c5d63		
+sample	IID_H159369_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					972f7592-5da4-50a4-9c16-d89103ec1744	00f6f090-1160-5478-89d5-1a66076a10d5		
+sample	IID_H159369_T01_01_WG01	Primary	C40.2 : Long bones of lower limb and associated joints	5197	Tumor					a82e6649-d701-5fa7-a83e-2ec3b52cd13d	00f6f090-1160-5478-89d5-1a66076a10d5		
+sample	IID_H159370_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					b6cec2bf-dac6-5a89-908e-8ba2bf3f907c	3bb1fa36-e446-5e26-a852-7c4be2bc4b6f		
+sample	IID_H159370_T01_01_WT01	Primary	C40.0 : Long bones of upper limb, scapula and associated joints	3710	Tumor					c29c3948-7fcf-5c1c-bce7-01342a60135e	3bb1fa36-e446-5e26-a852-7c4be2bc4b6f		
+sample	IID_H159370_T01_01_WG01	Primary	C40.0 : Long bones of upper limb, scapula and associated joints	3710	Tumor					b97b869b-699d-5be0-bdbe-c6cc669f30d1	3bb1fa36-e446-5e26-a852-7c4be2bc4b6f		
+sample	IID_H195916_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					887b3b69-81c5-5c0d-93d7-d60fcb53d159	6837947b-c255-5fb0-bd9a-ad55ee2a6b51		
+sample	IID_H195916_T01_01_WT01	Regional	C56.9 : Ovary	6968	Tumor					3402a880-acde-56c0-aad3-b8724ebb2905	6837947b-c255-5fb0-bd9a-ad55ee2a6b51		
+sample	IID_H195916_T01_01_WG01	Regional	C56.9 : Ovary	6968	Tumor					c854e14c-ba37-5b24-aa40-4d4ca7930eaf	6837947b-c255-5fb0-bd9a-ad55ee2a6b51		
+sample	IID_H195920_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					76d588e9-6d25-5ede-928b-2e80371de72e	6df5a9fb-b824-5b51-a825-1c3011a0058a		
+sample	IID_H195920_T02_01_WG01	Primary	C76.2 : Abdomen, NOS	7946	Tumor					d5d30d5e-ac6a-5f86-8b15-2c70442f31ec	6df5a9fb-b824-5b51-a825-1c3011a0058a		
+sample	IID_H195920_T02_01_WT01	Primary	C76.2 : Abdomen, NOS	7946	Tumor					2a8ad476-1a21-5547-bc27-062b3c6f7d9d	6df5a9fb-b824-5b51-a825-1c3011a0058a		
+sample	IID_H195921_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					ad9bd240-015d-50d1-bab4-fd2737729df0	7e8509fe-192f-5e9f-917d-7a1e86c06c9d		
+sample	IID_H195921_T01_01_WG01	Primary	C40.0 : Long bones of upper limb, scapula and associated joints	6052	Tumor					a6a65f5b-124c-5476-a127-37f321f4ecc7	7e8509fe-192f-5e9f-917d-7a1e86c06c9d		
+sample	IID_H195921_T01_01_WT01	Primary	C40.0 : Long bones of upper limb, scapula and associated joints	6052	Tumor					6d5494f0-d6f1-528d-9487-f7e7f93d473c	7e8509fe-192f-5e9f-917d-7a1e86c06c9d		
+sample	IID_H195923_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					37c6ff89-1285-53a9-8407-a1f79aa44b4e	c19e9d52-28bc-5dbb-a56b-d42868153d83		
+sample	IID_H195923_T01_01_WG01	Metastatic	C34.9 : Lung, NOS	6056	Tumor					54320181-d4f7-5e23-927b-eee273597f14	c19e9d52-28bc-5dbb-a56b-d42868153d83		
+sample	IID_H195923_T01_01_WT01	Metastatic	C34.9 : Lung, NOS	6056	Tumor					69dfcd29-66f9-5367-bfa4-b26df5fe1f25	c19e9d52-28bc-5dbb-a56b-d42868153d83		
+sample	IID_H195989_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					f88ac9b4-a59b-5994-bc18-7320f29cd005	a7f8255c-e976-550d-9121-6d6bda8c47bf		
+sample	IID_H195989_T01_01_WG01	Metastatic	C76.2 : Abdomen, NOS	3018	Tumor					2034ae24-8a1a-5b32-8d7e-f16f7606b71c	a7f8255c-e976-550d-9121-6d6bda8c47bf		
+sample	IID_H195989_T01_01_WT01	Metastatic	C76.2 : Abdomen, NOS	3018	Tumor					358a88e3-b2de-56cb-923b-11c5341c468e	a7f8255c-e976-550d-9121-6d6bda8c47bf		
+sample	IID_H195990_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					f9b03794-28b2-5928-8185-769724833452	03ddc785-87e0-5220-ab76-b0f54d9c5ce4		
+sample	IID_H195990_T01_01_WT01	Regional	C71.2 : Temporal lobe	7428	Tumor					8bf86d5a-7d11-5610-8b93-5f9c969f8188	03ddc785-87e0-5220-ab76-b0f54d9c5ce4		
+sample	IID_H195990_T01_01_WG01	Regional	C71.2 : Temporal lobe	7428	Tumor					3daaa80e-8e51-543b-8ea5-b72ce1355605	03ddc785-87e0-5220-ab76-b0f54d9c5ce4		
+sample	IID_H195991_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					d1430e03-c0c8-5cdb-949e-e6e85325ad8d	b61adeb9-4e9e-5376-98d0-6e757b85923f		
+sample	IID_H195991_T01_01_WT01	Metastatic	C76.1 : Chest wall, NOS	11755	Tumor					4d25c33b-4f62-5223-ae74-7dd319909648	b61adeb9-4e9e-5376-98d0-6e757b85923f		
+sample	IID_H195991_T01_01_WG01	Metastatic	C76.1 : Chest wall, NOS	11755	Tumor					7351634e-c6e8-5564-99e4-904bbd759ad8	b61adeb9-4e9e-5376-98d0-6e757b85923f		
+sample	IID_H195992_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					79e0b6f0-16e6-594f-a3a8-d4d767a22ae1	e516ea1d-df9e-5b82-9650-e51b44c5ccd6		
+sample	IID_H195992_T01_01_WT01	Metastatic	C34.9 : Lung, NOS	3911	Tumor					72dd9c74-a26d-5fc8-afdd-cf89042c85c2	e516ea1d-df9e-5b82-9650-e51b44c5ccd6		
+sample	IID_H195992_T02_01_WG01	Metastatic	C34.9 : Lung, NOS	3911	Tumor					cc89cf4a-70ed-59c3-a92b-86e9881aef2a	e516ea1d-df9e-5b82-9650-e51b44c5ccd6		
+sample	IID_H196046_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					5c2239e8-7cbd-5993-b7bc-dacefaaa6c9a	b83af125-d731-5722-a13a-faffdacebce7		
+sample	IID_H196046_T01_01_WG01	Primary	C40.2 : Long bones of lower limb and associated joints	4777	Tumor					e2df1a3d-bbd0-5dca-905f-65524b21a37b	b83af125-d731-5722-a13a-faffdacebce7		
+sample	IID_H196094_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					17ac7189-1fb1-59b3-a39d-02b7cff0071b	5e7efad5-784a-5974-a4c2-ad185d277e77		
+sample	IID_H196094_T01_01_WG01	Metastatic	C49.2 : Connective, subcutaneous and other soft tissues of lower limb and hip	1761	Tumor					b813e93f-aed4-5f5f-9952-779e462344ac	5e7efad5-784a-5974-a4c2-ad185d277e77		
+sample	IID_H196095_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					64f62157-0c0b-5eb4-8efb-a04d6fd6a4ba	bdfd7b0d-d897-5892-8eee-ae4d39f11ae0		
+sample	IID_H196095_T01_01_WG01	Regional	C22.0 : Liver	6767	Tumor					205c7766-9e4e-5f21-8dbc-6a74515e03ed	bdfd7b0d-d897-5892-8eee-ae4d39f11ae0		
+sample	IID_H196231_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					b720d5c0-5f83-5d89-a39b-d2576fa8d726	bb3c11c9-13e6-59af-91eb-a1db36c19324		
+sample	IID_H196231_T01_01_WG01	Regional	C69.9 : Eye, NOS	1450	Tumor					06e28738-bc9b-589a-a55f-16298d0424ae	bb3c11c9-13e6-59af-91eb-a1db36c19324		
+sample	IID_H196232_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					680a5a4c-4c7a-50d3-b7e0-f3d26dbd8386	5845bdcd-2e62-5321-a7a8-99132d900adb		
+sample	IID_H196232_T01_01_WG01	Metastatic	C34.3 : Lower lobe, lung	8838	Tumor					082a7a6b-e301-513b-971c-6ca5f20e6a76	5845bdcd-2e62-5321-a7a8-99132d900adb		
+sample	IID_H196232_T01_01_WT01	Metastatic	C34.3 : Lower lobe, lung	8838	Tumor					0fa45d52-7b98-54aa-99e6-02215332b6bd	5845bdcd-2e62-5321-a7a8-99132d900adb		
+sample	IID_H196388_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					3499029b-28d3-5bae-87a8-d538eecf2f4f	8c0dd00d-113f-5126-a94b-5735ca710c81		
+sample	IID_H196388_T01_01_WG01	Regional	C71.6 : Cerebellum, NOS	6879	Tumor					3a3fa9ee-43cd-5e70-9569-6f550acd7484	8c0dd00d-113f-5126-a94b-5735ca710c81		
+sample	IID_H196388_T01_01_WT01	Regional	C71.6 : Cerebellum, NOS	6879	Tumor					fdbac3a3-94bd-5e80-9840-486ce8905f8a	8c0dd00d-113f-5126-a94b-5735ca710c81		
+sample	IID_H196429_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					5493cd97-bbea-5a01-b52e-e624961f7aea	dc958dd0-0cb8-5bc3-9771-d53efbdc8a02		
+sample	IID_H196429_T01_01_WT01	Primary	C64.9 : Kidney, NOS	1868	Tumor					4e22ff38-9859-58b4-a0ed-304c2a773328	dc958dd0-0cb8-5bc3-9771-d53efbdc8a02		
+sample	IID_H196429_T01_01_WG01	Primary	C64.9 : Kidney, NOS	1868	Tumor					4392ce37-9ecd-5f77-b642-1044d62b9164	dc958dd0-0cb8-5bc3-9771-d53efbdc8a02		
+sample	IID_H196445_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					69498415-2c45-5ed2-b1ec-a44434d15821	490660c1-796f-56cd-989c-b72ceff65a33		
+sample	IID_H196445_T01_01_WG01	Primary	C71.9 : Posterior cranial fossa	3352	Tumor					31dbca83-f1a2-5a1e-b44f-7e76f6714e59	490660c1-796f-56cd-989c-b72ceff65a33		
+sample	IID_H196445_T01_01_WT01	Primary	C71.9 : Posterior cranial fossa	3352	Tumor					9458392d-152e-58cb-850c-dfb5702d9b8f	490660c1-796f-56cd-989c-b72ceff65a33		
+sample	IID_H196848_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					c6f67e4c-586a-5af8-8650-782109e10b90	46983aae-dceb-5cb2-a17b-7c6c15f2c956		
+sample	IID_H196848_T01_01_WG01	Metastatic	C77.0 : Lymph nodes of head, face and neck	5363	Tumor					86888eaf-12a6-5a63-8bc4-e672b6d4a559	46983aae-dceb-5cb2-a17b-7c6c15f2c956		
+sample	IID_H196848_T01_01_WT01	Metastatic	C77.0 : Lymph nodes of head, face and neck	5363	Tumor					a6ffc9f2-e90a-5d9b-aab5-e41649c4b744	46983aae-dceb-5cb2-a17b-7c6c15f2c956		
+sample	IID_H196898_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					de13c2cd-27ad-513b-b0eb-40cc8724efba	5f5a7374-93cd-5f7a-8884-ed000815387a		
+sample	IID_H196898_T01_01_WG01	Primary	C40.0 : Long bones of upper limb, scapula and associated joints	2524	Tumor					f2e11ca0-1ef8-5a88-ba48-580c42868a3e	5f5a7374-93cd-5f7a-8884-ed000815387a		
+sample	IID_H196899_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					9fefe3cc-c831-54dc-8d2d-a5e116f089fb	6dfa82d3-4b8b-513f-a2e4-31fbcf1101e5		
+sample	IID_H196899_T01_01_WG01	Regional	C76.3 : Pelvis, NOS	3574	Tumor					8e1f193f-4252-5555-9dcb-fde960125669	6dfa82d3-4b8b-513f-a2e4-31fbcf1101e5		
+sample	IID_H196899_T01_01_WT01	Regional	C76.3 : Pelvis, NOS	3574	Tumor					a70b0f32-9ea0-5de4-b584-851b2c9f85df	6dfa82d3-4b8b-513f-a2e4-31fbcf1101e5		
+sample	IID_H197215_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					6f56d5d5-1588-539a-9b9f-5d0e4275f882	7f39a6de-5f24-5ee7-9a48-215e55d89f5b		
+sample	IID_H197215_T01_01_WT01	Primary	C71.9 : Brain, NOS	10885	Tumor					f17ddd58-3932-510e-a334-9e02ecb9eca6	7f39a6de-5f24-5ee7-9a48-215e55d89f5b		
+sample	IID_H197215_T01_01_WG01	Primary	C71.9 : Brain, NOS	10885	Tumor					c97afb4f-482f-520f-91e5-949e4118b23d	7f39a6de-5f24-5ee7-9a48-215e55d89f5b		
+sample	IID_H198333_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					818b099b-c409-5849-ba2d-eec1cfe0bdde	7217cedd-0b26-50cd-be0f-c71377aeb161		
+sample	IID_H198333_T01_01_WT01	Regional	C71.9 : Brain, NOS	1861	Tumor					41df0844-ac0f-50fa-b649-f02b774b8d97	7217cedd-0b26-50cd-be0f-c71377aeb161		
+sample	IID_H198333_T01_01_WG01	Regional	C71.9 : Brain, NOS	1861	Tumor					6d80b0d9-e61b-5af7-ad05-9d51ffdbddd8	7217cedd-0b26-50cd-be0f-c71377aeb161		
+sample	IID_H198662_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					dad0d464-9ea9-54fd-a6cb-df610a027e36	03136c99-2e3c-5159-8515-020a66af6e23		
+sample	IID_H198662_T01_01_WT01	Metastatic	C22.0 : Liver	2248	Tumor					3db833dc-aa8a-5282-9abd-cccf062c40e1	03136c99-2e3c-5159-8515-020a66af6e23		
+sample	IID_H198662_T01_01_WG01	Metastatic	C22.0 : Liver	2248	Tumor					65be832c-46fd-5ad6-89ac-7902deec09e8	03136c99-2e3c-5159-8515-020a66af6e23		
+sample	IID_H211919_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					51961310-6e30-5584-8387-ec481de06201	bd1f5215-b72a-5574-add3-7e5ccab11f13		
+sample	IID_H211919_T01_01_WG01	Primary	C76.2 : Abdomen, NOS	398	Tumor					71bbbdc8-92c4-54e7-a3d8-3a7fe681f462	bd1f5215-b72a-5574-add3-7e5ccab11f13		
+sample	IID_H211940_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					f2b362a8-5e18-5a82-9a63-2fd4929ee641	0860a965-abe1-5a8b-ba15-bea11c5d1727		
+sample	IID_H211940_T01_01_WT01	Regional	C76.2 : Abdomen, NOS	6403	Tumor					b6a199af-0a1f-558e-876c-1f06c224d7ca	0860a965-abe1-5a8b-ba15-bea11c5d1727		
+sample	IID_H211940_T01_01_WG01	Regional	C76.2 : Abdomen, NOS	6403	Tumor					fd3ead27-7c0c-566c-b935-8c43ca5c01aa	0860a965-abe1-5a8b-ba15-bea11c5d1727		
+sample	IID_H211941_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					34b5f581-8066-52ec-bd8b-ba26e5d2ba12	4e02f69d-a89a-51fe-a220-3d7d8d4df178		
+sample	IID_H211941_T01_01_WG01	Regional	C77.8 : Lymph nodes of multiple regions	4347	Tumor					33514c50-1be9-597f-83d2-e1fe0e3bed9a	4e02f69d-a89a-51fe-a220-3d7d8d4df178		
+sample	IID_H211941_T01_01_WT01	Regional	C77.8 : Lymph nodes of multiple regions	4347	Tumor					708c4eba-afd9-56e4-9de1-6de4e025ac1f	4e02f69d-a89a-51fe-a220-3d7d8d4df178		
+sample	IID_H211942_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					6f46bd7f-5a13-5edf-8a74-2330e567602b	3b66a82d-bec0-5897-8f40-2bf4b12b0d7f		
+sample	IID_H211942_T01_01_WT01	Regional	C74.9 : Adrenal gland, NOS	317	Tumor					0f776448-065c-5c12-999c-3e02900dc7c3	3b66a82d-bec0-5897-8f40-2bf4b12b0d7f		
+sample	IID_H211942_T01_01_WG01	Regional	C74.9 : Adrenal gland, NOS	317	Tumor					cb751768-4192-560c-ae1d-438baf3d144f	3b66a82d-bec0-5897-8f40-2bf4b12b0d7f		
+sample	IID_H211943_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					2ef3505b-5e4b-5bb2-9d64-05a59def58be	745290ae-6db0-5c4d-8a43-bbccc988498d		
+sample	IID_H211943_T01_01_WT01	Regional	C76.2 : Abdomen, NOS	2344	Tumor					92be0fdc-34a7-5361-9166-9a8468502b88	745290ae-6db0-5c4d-8a43-bbccc988498d		
+sample	IID_H211943_T01_01_WG01	Regional	C76.2 : Abdomen, NOS	2344	Tumor					95a3a3c9-e5e1-5f68-a94b-013a6c84d246	745290ae-6db0-5c4d-8a43-bbccc988498d		
+sample	IID_H211944_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					08a5751b-5b68-5811-b99e-dd724f5ab705	b91b047c-6597-525c-86de-09911e6af2cd		
+sample	IID_H211944_T01_01_WT01	Primary	C38.3 : Mediastinum, NOS	527	Tumor					76df7168-fee0-54d0-a502-b6fada0a6048	b91b047c-6597-525c-86de-09911e6af2cd		
+sample	IID_H211944_T01_01_WG01	Primary	C38.3 : Mediastinum, NOS	527	Tumor					f5a90e1d-7b48-5780-b2f8-955a8a4f2056	b91b047c-6597-525c-86de-09911e6af2cd		
+sample	IID_H211954_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					eec5b4a3-2a85-56cd-b602-33c8b2ea8f47	8635ec4c-ced9-59ea-9539-124b85ce3e7b		
+sample	IID_H211954_T01_01_WT01	Primary	C74.9 : Adrenal gland, NOS	1739	Tumor					fc023e3e-0351-54ef-80e5-c35226280a35	8635ec4c-ced9-59ea-9539-124b85ce3e7b		
+sample	IID_H211954_T01_01_WG01	Primary	C74.9 : Adrenal gland, NOS	1739	Tumor					cddd3371-32d2-50a8-9844-a3ad896f2ac8	8635ec4c-ced9-59ea-9539-124b85ce3e7b		
+sample	IID_H211955_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					8f47cbeb-6648-5db9-b9e4-7c074e0e2544	2644aba5-e433-5e12-af7f-abb6281fcc6f		
+sample	IID_H211955_T01_01_WG01	Primary	C74.9 : Adrenal gland, NOS	800	Tumor					373c405c-f6f0-5960-b7bf-951a06abdd49	2644aba5-e433-5e12-af7f-abb6281fcc6f		
+sample	IID_H211955_T01_01_WT01	Primary	C74.9 : Adrenal gland, NOS	800	Tumor					f9328a78-b38e-516b-964c-4412558f3c39	2644aba5-e433-5e12-af7f-abb6281fcc6f		
+sample	IID_H211956_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					5516971f-c56e-5280-b1d5-cf5be164f5e3	63c5c736-7ecf-5cf2-b205-54f207e1c1fd		
+sample	IID_H211956_T01_01_WG01	Primary	C74.9 : Adrenal gland, NOS	220	Tumor					bfcad3b5-3d2d-5b6f-8a96-c50b9b3ba212	63c5c736-7ecf-5cf2-b205-54f207e1c1fd		
+sample	IID_H211956_T01_01_WT01	Primary	C74.9 : Adrenal gland, NOS	220	Tumor					3875b3a1-dc62-55d3-b897-b4436bd83ffb	63c5c736-7ecf-5cf2-b205-54f207e1c1fd		
+sample	IID_H211957_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					384c855d-1db0-57a0-9bc8-124eeac96fb5	0cc4c751-0df9-580b-bb21-f595f4273554		
+sample	IID_H211957_T01_01_WT01	Regional	C38.3 : Mediastinum, NOS	1983	Tumor					3bc2f834-41a0-51c5-a990-abbfe6c965f5	0cc4c751-0df9-580b-bb21-f595f4273554		
+sample	IID_H211957_T01_01_WG01	Regional	C38.3 : Mediastinum, NOS	1983	Tumor					f3b4ba6a-fa47-575b-9633-f75fcc9f662a	0cc4c751-0df9-580b-bb21-f595f4273554		
+sample	IID_H211958_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					798e4729-0dde-5bb4-91fb-7997145098df	900e1b3e-8f05-59b2-ba8a-61110ac0e728		
+sample	IID_H211958_T01_01_WG01	Metastatic	C71.9 : Brain, NOS	822	Tumor					32d3c391-8c56-5897-bb58-458a2adc1e35	900e1b3e-8f05-59b2-ba8a-61110ac0e728		
+sample	IID_H211959_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					328668b5-a9a7-5665-9207-0d69780a0083	224c0b6c-dc29-538d-9e83-e22a5933250e		
+sample	IID_H211959_T01_01_WG01	Regional	C76.3 : Perineum, NOS	1692	Tumor					31b5b001-bbb6-5756-a3c4-c0451545e451	224c0b6c-dc29-538d-9e83-e22a5933250e		
+sample	IID_H211959_T01_01_WT01	Regional	C76.3 : Perineum, NOS	1692	Tumor					b36f9e94-f79f-5c38-95a9-396bb289191f	224c0b6c-dc29-538d-9e83-e22a5933250e		
+sample	IID_H211962_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					d1a8b6ed-08b4-58ab-88dc-93bd2bcd4f3f	8ca86650-441d-5caa-8ac2-a06ff19558b5		
+sample	IID_H211962_T01_01_WG01	Regional	C48.2 : Peritoneum, NOS	762	Tumor					8e8a06f0-7324-5e57-bd45-b3a314e2f199	8ca86650-441d-5caa-8ac2-a06ff19558b5		
+sample	IID_H211962_T01_01_WT01	Regional	C48.2 : Peritoneum, NOS	762	Tumor					35f6b15d-f8a3-5c02-97b6-674f8aa1cb37	8ca86650-441d-5caa-8ac2-a06ff19558b5		
+sample	IID_H211963_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					a7844dbb-5ff6-5068-8b6a-9b4eee15f610	d0f692ec-29de-5f11-b317-cc5978c6e423		
+sample	IID_H211963_T01_01_WT01	Primary	C74.9 : Adrenal gland, NOS	1381	Tumor					09c6ad30-5234-5dad-9b7a-f83693b11026	d0f692ec-29de-5f11-b317-cc5978c6e423		
+sample	IID_H211963_T01_01_WG01	Primary	C74.9 : Adrenal gland, NOS	1381	Tumor					7a046bfa-b2b6-58d6-bf9d-6fdd3b880540	d0f692ec-29de-5f11-b317-cc5978c6e423		
+sample	IID_H211964_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					37b7bfa4-9fd1-533e-9002-550b57721e3d	fde3075d-2447-5daa-ab39-14ac887d05c3		
+sample	IID_H211964_T01_01_WG01	Primary	C74.9 : Adrenal gland, NOS	1065	Tumor					5bf2da8f-09b1-5d9d-ae66-b4c80742548b	fde3075d-2447-5daa-ab39-14ac887d05c3		
+sample	IID_H211964_T01_01_WT01	Primary	C74.9 : Adrenal gland, NOS	1065	Tumor					022a5b58-2f29-5927-8306-c691f14efb38	fde3075d-2447-5daa-ab39-14ac887d05c3		
+sample	IID_H211966_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					9a46ef89-8c57-577e-bf62-5e2f1ad39f74	cbead162-e0e5-56db-9d25-74448cb5bb47		
+sample	IID_H211966_T01_01_WG01	Primary	C76.2 : Abdomen, NOS	441	Tumor					60673ce6-e138-5178-a873-5c7d94af9be8	cbead162-e0e5-56db-9d25-74448cb5bb47		
+sample	IID_H211966_T01_01_WT01	Primary	C76.2 : Abdomen, NOS	441	Tumor					3c9cc32b-253c-552e-9f6f-beec952c6109	cbead162-e0e5-56db-9d25-74448cb5bb47		
+sample	IID_H211967_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					67815188-256c-5e2b-88d7-c18903af8c5f	d983c478-634f-572a-bf2c-7578b2eedd2b		
+sample	IID_H211967_T01_01_WT01	Primary	C64.9 : Kidney, NOS	545	Tumor					94b7d22b-fe3d-5bb1-8a43-a93f972e18a1	d983c478-634f-572a-bf2c-7578b2eedd2b		
+sample	IID_H211967_T01_01_WG01	Primary	C64.9 : Kidney, NOS	545	Tumor					e402b64b-3e51-5237-a537-2ec228546b2c	d983c478-634f-572a-bf2c-7578b2eedd2b		
+sample	IID_H211968_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					52f60219-d5fa-5bf8-951b-091f9ad9a388	eb497da2-0e46-5d02-bdd8-465b790b2c5c		
+sample	IID_H211968_T01_01_WG01	Primary	C48.2 : Peritoneum, NOS	840	Tumor					4ded042a-bc1b-516f-b55d-357a8e7b320a	eb497da2-0e46-5d02-bdd8-465b790b2c5c		
+sample	IID_H211968_T01_01_WT01	Primary	C48.2 : Peritoneum, NOS	840	Tumor					e5a84a25-a056-59ca-947c-77a6d7881c75	eb497da2-0e46-5d02-bdd8-465b790b2c5c		
+sample	IID_H211969_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					930cf3a0-a34b-57dd-a306-3d0b178eab8d	3b028e79-4702-53aa-a95b-50e88a8e5d08		
+sample	IID_H211969_T01_01_WG01	Regional	C47.0 : Peripheral nerves and autonomic nervous system of head, face, and neck	4997	Tumor					67d619ec-64d7-5854-a3ac-478762d827a2	3b028e79-4702-53aa-a95b-50e88a8e5d08		
+sample	IID_H211969_T01_01_WT01	Regional	C47.0 : Peripheral nerves and autonomic nervous system of head, face, and neck	4997	Tumor					a7b84d0f-cf49-513c-8565-974e9b4bc423	3b028e79-4702-53aa-a95b-50e88a8e5d08		
+sample	IID_H211970_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					8feee945-72c3-548b-927c-02e523ca69de	9c5326c4-91e3-526c-a828-86cfe502a7e8		
+sample	IID_H211970_T01_01_WG01	Primary	C76.2 : Abdomen, NOS	135	Tumor					5e3fff6c-3a4a-5258-8d69-70e6aad1bff1	9c5326c4-91e3-526c-a828-86cfe502a7e8		
+sample	IID_H211971_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					cadd0acd-161c-5bfd-9adc-73c339f118c0	9a2d42d3-c34c-506c-a2ee-44b630d95447		
+sample	IID_H211971_T01_01_WT01	Regional	C77.0 : Lymph nodes of head, face and neck	7391	Tumor					5f8a59a5-d68f-59b1-903a-8e95babb3982	9a2d42d3-c34c-506c-a2ee-44b630d95447		
+sample	IID_H211971_T01_01_WG01	Regional	C77.0 : Lymph nodes of head, face and neck	7391	Tumor					f16f3632-d86a-5579-b97a-2e4c09c1f5f1	9a2d42d3-c34c-506c-a2ee-44b630d95447		
+sample	IID_H211972_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					faa65c98-0a39-510c-bcbc-770de7955709	7c92cdd1-e983-534c-b05d-ecb448ceddd1		
+sample	IID_H211972_T01_01_WT01	Primary	C64.9 : Kidney, NOS	589	Tumor					0b3ea2ee-4527-5788-8b9a-a46cbc7b1ca5	7c92cdd1-e983-534c-b05d-ecb448ceddd1		
+sample	IID_H211972_T01_01_WG01	Primary	C64.9 : Kidney, NOS	589	Tumor					0aa0c474-57bc-5ec9-bf2c-75d2578502bf	7c92cdd1-e983-534c-b05d-ecb448ceddd1		
+sample	IID_H211973_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					6fb34c78-a795-5c0c-a241-3dc6bec27aff	822cab6e-56d4-5a27-9020-90aa38393ce9		
+sample	IID_H211973_T01_01_WT01	Regional	C74.9 : Adrenal gland, NOS	1205	Tumor					cbed534b-6a0a-5da9-9d4f-223bd06997a4	822cab6e-56d4-5a27-9020-90aa38393ce9		
+sample	IID_H211973_T01_01_WG01	Regional	C74.9 : Adrenal gland, NOS	1205	Tumor					02447ae0-e763-554e-a416-2586819cf601	822cab6e-56d4-5a27-9020-90aa38393ce9		
+sample	IID_H211974_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					e05a69fa-09f5-570e-ac1d-59728a77a250	eac2d0d7-814d-55e6-8f84-393025aa8410		
+sample	IID_H211974_T01_01_WT01	Regional	C76.2 : Abdomen, NOS	1392	Tumor					3a180ba9-1b68-5bd6-951c-b1089db4faf9	eac2d0d7-814d-55e6-8f84-393025aa8410		
+sample	IID_H211974_T01_01_WG01	Regional	C76.2 : Abdomen, NOS	1392	Tumor					15c91a88-ac1e-572a-881c-0ad3de6dcc4b	eac2d0d7-814d-55e6-8f84-393025aa8410		
+sample	IID_H211975_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					74b73c2a-1f4e-552c-a968-25abec54ee27	e1803afa-a20f-56a7-b76c-fdb2bb813a4a		
+sample	IID_H211975_T01_01_WT01	Primary	C48.2 : Peritoneum, NOS	2545	Tumor					2da233c3-5f0c-5e03-85b0-e36a75eae1c1	e1803afa-a20f-56a7-b76c-fdb2bb813a4a		
+sample	IID_H211975_T01_01_WG01	Primary	C48.2 : Peritoneum, NOS	2545	Tumor					5484f034-2ee2-59e0-b772-230fc6a7d7e9	e1803afa-a20f-56a7-b76c-fdb2bb813a4a		
+sample	IID_H211976_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					84666c2b-d5a1-591f-ae4b-551f0c55b628	1a00d2db-dde0-5492-b0c7-985e964050bb		
+sample	IID_H211976_T01_01_WT01	Primary	C48.2 : Peritoneum, NOS	1823	Tumor					7c973ea6-a8e7-5bad-af88-29206e0fe1c7	1a00d2db-dde0-5492-b0c7-985e964050bb		
+sample	IID_H211976_T01_01_WG01	Primary	C48.2 : Peritoneum, NOS	1823	Tumor					1efd8d10-c8b3-51fc-b42d-ab60ad9a1077	1a00d2db-dde0-5492-b0c7-985e964050bb		
+sample	IID_H211978_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					7f27d4dd-7833-5166-ae11-26545a3caa8d	84c6a1ff-294c-550f-90bc-88c2b60dc177		
+sample	IID_H211978_T01_01_WT01	Primary	C74.9 : Adrenal gland, NOS	833	Tumor					37d62dda-2a31-52ef-b6bd-778eead1cc74	84c6a1ff-294c-550f-90bc-88c2b60dc177		
+sample	IID_H211978_T01_01_WG01	Primary	C74.9 : Adrenal gland, NOS	833	Tumor					69262d26-cca6-5391-a2c7-4de5e3035c73	84c6a1ff-294c-550f-90bc-88c2b60dc177		
+sample	IID_H211979_N01_01_WG01	Not Applicable	C42.0 : Blood	-999	Normal					bb923df5-d873-55b4-bfe8-2cf2af5662c9	3c76c7b6-7cd3-58cf-992b-d971cb4ee1c9		
+sample	IID_H211979_T01_01_WT01	Primary	C74.9 : Adrenal gland, NOS	1061	Tumor					b5b484bf-e97a-5026-8351-5d68442c2e52	3c76c7b6-7cd3-58cf-992b-d971cb4ee1c9		
+sample	IID_H211979_T01_01_WG01	Primary	C74.9 : Adrenal gland, NOS	1061	Tumor					01642b14-8de3-5ef6-b44d-bdbdb7d0be22	3c76c7b6-7cd3-58cf-992b-d971cb4ee1c9		

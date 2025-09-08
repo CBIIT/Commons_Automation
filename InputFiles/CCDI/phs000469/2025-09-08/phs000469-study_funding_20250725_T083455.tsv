@@ -1,0 +1,7 @@
+type	study_funding_id	funding_agency	grant_id	funding_source_program_name	id	study.id
+study_funding	fund_1	National Cancer Institute	CA199287		143b3d5b-9f22-50fe-aff4-3aa2a4922bae	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+study_funding	fund_5	National Cancer Institute	CA199297		165d4a12-4467-50c3-a0fa-688b138bdd63	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+study_funding	fund_4	National Cancer Institute	CA199221		81d6cf49-91bd-5409-9577-b351a002a5dd	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+study_funding	fund_6	National Cancer Institute	CA199222		c6bfd99b-3190-5334-950c-964ccde8178f	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+study_funding	fund_3	National Cancer Institute	CA199288		ca42aeec-4a5b-5ab1-b231-2315896dd4af	d7d2e44c-f6cf-536d-b67d-930f66923fc0
+study_funding	fund_2	National Cancer Institute	CA199000		edb40b72-286c-560b-9e5b-fa25882cbae0	d7d2e44c-f6cf-536d-b67d-930f66923fc0

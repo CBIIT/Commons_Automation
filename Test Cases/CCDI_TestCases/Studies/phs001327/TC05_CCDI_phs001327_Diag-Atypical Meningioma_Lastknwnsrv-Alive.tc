@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_CCDI_phs001327_Diag-Atypical Meningioma_Lastknwnsrv-Alive</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b7df81b6-87ce-4cd8-ad48-4d0cddcbe61e</testCaseGuid>
+</TestCaseEntity>
