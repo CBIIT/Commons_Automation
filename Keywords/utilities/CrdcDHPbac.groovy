@@ -613,6 +613,7 @@ class CrdcDHPbac extends TestRunner {
 		permissionToCheck["submission_request:view"] = {
 			KeywordUtil.logInfo("Verifying SR View...")
 			try {
+				Utils.waitForElementToDisappear('CRDC/DataSubmissions/Loading-Icon', 15)
 				WebUI.delay(1) //Race condition upon login
 				CrdcDH.clickHome()
 				TestRunner.clickTab('CRDC/NavBar/SubmissionRequest-Tab')
@@ -691,6 +692,7 @@ class CrdcDHPbac extends TestRunner {
 		permissionToCheck["submission_request:review"] = {
 			KeywordUtil.logInfo("Verifying SR Review...")
 			try {
+				Utils.waitForElementToDisappear('CRDC/DataSubmissions/Loading-Icon', 15)
 				WebUI.delay(1) //Race condition upon login
 				CrdcDH.clickHome()
 				TestRunner.clickTab('CRDC/NavBar/SubmissionRequest-Tab')
@@ -783,6 +785,7 @@ class CrdcDHPbac extends TestRunner {
 
 					//Access the DS
 					TestRunner.clickTab('CRDC/DataSubmissions/DataSubmissionName-Link')
+					Utils.waitForElementToDisappear('CRDC/DataSubmissions/Loading-Icon', 15)
 
 					//Upload metadata file
 					prepareUniqueMetadataAndUpload('InputFiles/CRDC/MetadataData/program.tsv', "program_acronym")
@@ -819,6 +822,7 @@ class CrdcDHPbac extends TestRunner {
 
 					//Access the DS
 					TestRunner.clickTab('CRDC/DataSubmissions/DataSubmissionName-Link')
+					Utils.waitForElementToDisappear('CRDC/DataSubmissions/Loading-Icon', 15)
 
 					//Upload invalid metadata file
 					uploadMetadataUI('InputFiles/CRDC/MetadataData/program_invalid.tsv')
@@ -848,6 +852,7 @@ class CrdcDHPbac extends TestRunner {
 
 					//Access the DS
 					TestRunner.clickTab('CRDC/DataSubmissions/DataSubmissionName-Link')
+					Utils.waitForElementToDisappear('CRDC/DataSubmissions/Loading-Icon', 15)
 
 					//Upload metadata file
 					prepareUniqueMetadataAndUpload('InputFiles/CRDC/MetadataData/program.tsv', "program_acronym")
