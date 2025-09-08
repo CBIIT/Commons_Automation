@@ -1,0 +1,4 @@
+type	study_personnel_id	personnel_name	personnel_type	email_address	institution	orcid	crdc_id	id	study.id
+study_personnel	phs002599_personnel_3	Shannon McWeeney, PhD	PI	mcweeney@ohsu.edu	Oregon Health & Science University	https://orcid.org/0000-0001-8333-6607		1775362e-5a9a-5107-b3a1-4dfcd356b294	ff374979-595f-5ced-b70b-100f069deb70
+study_personnel	phs002599_personnel_2	Daniel Bottomly	Data Submitter	bottomly@ohsu.edu	Oregon Health & Science University	https://orcid.org/0000-0001-7191-0990		71cd111d-4f09-5763-afa0-99e1c6b19f20	ff374979-595f-5ced-b70b-100f069deb70
+study_personnel	phs002599_personnel_1	Jeffrey Tyner, PhD	Co-PI	tynerj@ohsu.edu	Oregon Health & Science University	https://orcid.org/0000-0002-2133-0960		b602a287-6167-5570-ac49-b1ac404164a7	ff374979-595f-5ced-b70b-100f069deb70

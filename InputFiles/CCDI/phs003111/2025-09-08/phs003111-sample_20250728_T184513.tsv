@@ -1,0 +1,488 @@
+type	sample_id	tumor_classification	anatomic_site	participant_age_at_collection	sample_tumor_status	sample_description	percent_tumor	percent_necrosis	crdc_id	id	participant.id	pdx.id	cell_line.id
+sample	IID_H211859_N01_01_WG01	Not Applicable	Not Reported	1002	Normal					24b5e89e-cf35-5c2a-9c20-f782b23595c4	efe0bcd9-c849-51de-8aa1-a0f5430853e0		
+sample	IID_H211859_T01_01_WG01	Primary	C74.9 : Adrenal gland, NOS	706	Tumor					d586fe6e-9935-5bec-9ec4-a7da670ce56e	efe0bcd9-c849-51de-8aa1-a0f5430853e0		
+sample	IID_H211859_T01_01_WT01	Primary	C74.9 : Adrenal gland, NOS	706	Tumor					779a2747-0385-5572-9982-f7c4477d1c00	efe0bcd9-c849-51de-8aa1-a0f5430853e0		
+sample	IID_H211859_T02_01_WG01	Metastatic	C71.9 : Brain, NOS	933	Tumor					daf93f69-9960-5d70-a993-2983fef4ac44	efe0bcd9-c849-51de-8aa1-a0f5430853e0		
+sample	IID_H211859_T03_01_WG01	Metastatic	C71.9 : Brain, NOS	921	Tumor					09fa3c64-b634-5d83-bc8d-9e8847675517	efe0bcd9-c849-51de-8aa1-a0f5430853e0		
+sample	IID_H211859_T03_01_WT01	Metastatic	C71.9 : Brain, NOS	921	Tumor					dcdfb256-0b28-5dd7-a120-4d03775bb0d4	efe0bcd9-c849-51de-8aa1-a0f5430853e0		
+sample	IID_H211859_T04_01_WG01	Metastatic	C34.9 : Lung, NOS	1002	Tumor					7d7c3d41-6105-5c9d-ac7b-5971166647c6	efe0bcd9-c849-51de-8aa1-a0f5430853e0		
+sample	IID_H211859_T04_01_WT01	Metastatic	C34.9 : Lung, NOS	1002	Tumor					63f99a0a-2f49-54ca-8fa0-3b9a22cf711d	efe0bcd9-c849-51de-8aa1-a0f5430853e0		
+sample	IID_H211859_T05_01_WG01	Metastatic	C22.0 : Liver	1002	Tumor					2d119b2d-dc9a-5e1d-8aa8-bc68dc90187b	efe0bcd9-c849-51de-8aa1-a0f5430853e0		
+sample	IID_H211859_T05_01_WT01	Metastatic	C22.0 : Liver	1002	Tumor					398c0f33-07d4-5569-bc9c-5f8a94c043a1	efe0bcd9-c849-51de-8aa1-a0f5430853e0		
+sample	IID_H211859_T06_01_WG01	Regional	C48.2 : Peritoneum, NOS	1002	Tumor					d4f36476-0fce-548f-8536-670e6b745894	efe0bcd9-c849-51de-8aa1-a0f5430853e0		
+sample	IID_H211859_T06_01_WT01	Regional	C48.2 : Peritoneum, NOS	1002	Tumor					a26c0c21-ba20-559f-bd9e-a6cd21ceb44f	efe0bcd9-c849-51de-8aa1-a0f5430853e0		
+sample	IID_H211859_T07_01_WG01	Metastatic	C34.9 : Lung, NOS	1002	Tumor					f5691cdd-2b18-5366-95e6-249194d4c50e	efe0bcd9-c849-51de-8aa1-a0f5430853e0		
+sample	IID_H211859_T07_01_WT01	Metastatic	C34.9 : Lung, NOS	1002	Tumor					f26377e6-9932-5fcb-ace7-f613a202493e	efe0bcd9-c849-51de-8aa1-a0f5430853e0		
+sample	IID_H211859_T08_01_WG01	Primary	C74.9 : Adrenal gland, NOS	601	Tumor					b011b7f8-571e-5ff8-a283-610e394efef9	efe0bcd9-c849-51de-8aa1-a0f5430853e0		
+sample	IID_H211859_T08_01_WT01	Primary	C74.9 : Adrenal gland, NOS	601	Tumor					5c99ac65-9028-5dd8-ae59-8ee0178e699b	efe0bcd9-c849-51de-8aa1-a0f5430853e0		
+sample	IID_H211860_N01_01_WG01	Not Applicable	Not Reported	485	Normal					3a940b0d-0fe0-5cc3-a64a-35a7eaedf682	d84558f9-0b21-564c-b046-0b35679c142d		
+sample	IID_H211860_T01_01_WG01	Primary	C74.9 : Adrenal gland, NOS	485	Tumor					9b85e75d-1092-53d5-b4d1-2c2c07836201	d84558f9-0b21-564c-b046-0b35679c142d		
+sample	IID_H211860_T01_01_WT01	Primary	C74.9 : Adrenal gland, NOS	485	Tumor					f29c2d97-3665-5be8-8e58-d74b90905df6	d84558f9-0b21-564c-b046-0b35679c142d		
+sample	IID_H211861_N01_01_WG01	Not Applicable	Not Reported	-999	Normal					4da23350-f74a-5552-97e3-17046ed68e52	cc9641c6-cf85-50ff-a90d-fd52eaa035bf		
+sample	IID_H211861_T01_01_WG01	Regional	C77.4 : Lymph nodes of inguinal region or leg	2818	Tumor					66f1fe01-7409-5678-8b51-602e6ffcd4f5	cc9641c6-cf85-50ff-a90d-fd52eaa035bf		
+sample	IID_H211861_T01_01_WT01	Regional	C77.4 : Lymph nodes of inguinal region or leg	2818	Tumor					d81118c4-cbf1-52df-a853-62907a396464	cc9641c6-cf85-50ff-a90d-fd52eaa035bf		
+sample	IID_H211862_N01_01_WG01	Not Applicable	Not Reported	-999	Normal					aed907ae-fdcd-57e8-b491-44570ba29b8f	569a74e0-00ac-55e6-aa5f-c0b0b44195e6		
+sample	IID_H211862_T01_01_WG01	Regional	C48.2 : Peritoneum, NOS	7207	Tumor					ffa4c824-f61c-51b2-abd4-a6b9dbf02367	569a74e0-00ac-55e6-aa5f-c0b0b44195e6		
+sample	IID_H211862_T01_01_WT01	Regional	C48.2 : Peritoneum, NOS	7207	Tumor					009711d4-a01d-514e-af52-f5bac9b4815b	569a74e0-00ac-55e6-aa5f-c0b0b44195e6		
+sample	IID_H211863_N01_01_WG01	Not Applicable	Not Reported	-999	Normal					b2f6de27-5c7a-5042-9ab6-321a7b5554b4	8e145902-50d6-594e-91fe-a3d50ea2f168		
+sample	IID_H211863_T01_01_WG01	Metastatic	C34.9 : Lung, NOS	1956	Tumor					09ff36a5-7504-5c01-be15-142b6214f1a0	8e145902-50d6-594e-91fe-a3d50ea2f168		
+sample	IID_H211863_T01_01_WT01	Metastatic	C34.9 : Lung, NOS	1956	Tumor					906f05ba-3784-5d5a-9e9b-56456212e9dc	8e145902-50d6-594e-91fe-a3d50ea2f168		
+sample	IID_H211864_N01_01_WG01	Not Applicable	Not Reported	-999	Normal					68546948-8bb3-55e8-bd96-df1c0809b448	ea87ba47-290f-5316-a6e6-3d6b742ba32c		
+sample	IID_H211864_T01_01_WG01	Primary	C74.9 : Adrenal gland, NOS	983	Tumor					42aa79e6-6d6a-5bf3-bb20-df7bd77985e3	ea87ba47-290f-5316-a6e6-3d6b742ba32c		
+sample	IID_H211864_T01_01_WT01	Primary	C74.9 : Adrenal gland, NOS	983	Tumor					898e1e8c-3deb-5ee6-8b1c-ae8fef37cfcf	ea87ba47-290f-5316-a6e6-3d6b742ba32c		
+sample	IID_H211865_T01_01_WG01	Metastatic	C34.9 : Lung, NOS	1563	Tumor					b48e1e6b-ad06-5fc0-b2a4-edc39959e419	c5cd791d-ae3a-5128-9518-e95d9b56b1e6		
+sample	IID_H211865_T01_01_WT01	Metastatic	C34.9 : Lung, NOS	1563	Tumor					ed0b9525-84d2-5fe1-beb7-2c778dbaed37	c5cd791d-ae3a-5128-9518-e95d9b56b1e6		
+sample	IID_H211866_N01_01_WG01	Not Applicable	Not Reported	-999	Normal					28a37a9c-025f-536c-b0bf-41f15825b7d5	4b8240a3-6124-589a-9ad4-95160ca39672		
+sample	IID_H211866_T01_01_WG01	Primary	C47.6 : Peripheral nerves and autonomic nervous system of trunk, NOS	2031	Tumor					76e7e540-f5e3-53c4-a3c2-09eb2f1fe00d	4b8240a3-6124-589a-9ad4-95160ca39672		
+sample	IID_H211866_T01_01_WT01	Primary	C47.6 : Peripheral nerves and autonomic nervous system of trunk, NOS	2031	Tumor					b5d68888-b76a-5ca1-8031-b9cb51405865	4b8240a3-6124-589a-9ad4-95160ca39672		
+sample	IID_H211867_N01_01_WG01	Not Applicable	Not Reported	-999	Normal					a1d54d3b-8aef-5b7e-a97e-ec2ae38065ab	a5b14bf5-9310-5b63-a87e-b1a6e9036b60		
+sample	IID_H211867_T01_01_WG01	Primary	C74.9 : Adrenal gland, NOS	971	Tumor					fc7bae19-847c-530f-bc4a-d53b2d0ec741	a5b14bf5-9310-5b63-a87e-b1a6e9036b60		
+sample	IID_H211867_T01_01_WT01	Primary	C74.9 : Adrenal gland, NOS	971	Tumor					9b0b2161-95d4-5e98-a1ad-0ae478c6d500	a5b14bf5-9310-5b63-a87e-b1a6e9036b60		
+sample	IID_H211868_T01_01_WG01	Primary	C38.3 : Mediastinum, NOS	2306	Tumor					28b48b50-0cdf-5aef-9f57-4802d3806eea	76190486-f178-52c9-9fb6-164a113f6a1e		
+sample	IID_H211868_T01_01_WT01	Primary	C38.3 : Mediastinum, NOS	2306	Tumor					361fefc4-6746-5bfe-970d-0cb935aeef19	76190486-f178-52c9-9fb6-164a113f6a1e		
+sample	IID_H211868_T02_01_WG01	Metastatic	C71.9 : Brain, NOS	2803	Tumor					0d7fd282-0396-519d-adc3-a48b3d0406a1	76190486-f178-52c9-9fb6-164a113f6a1e		
+sample	IID_H211869_T01_01_WG01	Primary	C38.3 : Mediastinum, NOS	1625	Tumor					75300d30-2727-5f59-a4fa-52f509ceb87a	4a463f7e-2f30-52ce-8bf4-4982359ef88b		
+sample	IID_H211869_T01_01_WT01	Primary	C38.3 : Mediastinum, NOS	1625	Tumor					29d274d0-9a94-5f1e-a173-5165e31522e2	4a463f7e-2f30-52ce-8bf4-4982359ef88b		
+sample	IID_H211869_T02_01_WG01	Metastatic	C71.9 : Brain, NOS	2319	Tumor					303e4e6e-cc56-54cd-92c2-79aa38c9338f	4a463f7e-2f30-52ce-8bf4-4982359ef88b		
+sample	IID_H211869_T02_01_WT01	Metastatic	C71.9 : Brain, NOS	2319	Tumor					17a4e372-0c5c-5e2f-a490-fdd2a89a05a7	4a463f7e-2f30-52ce-8bf4-4982359ef88b		
+sample	IID_H211870_T01_01_WG01	Primary	C76.2 : Abdomen, NOS	944	Tumor					3bc5a65f-776d-5643-aa54-9e238981274c	c8bbc93d-97f3-5c02-bf70-5a13711c9c20		
+sample	IID_H211870_T01_01_WT01	Primary	C76.2 : Abdomen, NOS	944	Tumor					b7cdb25b-9c4d-5f08-baed-60a525594f99	c8bbc93d-97f3-5c02-bf70-5a13711c9c20		
+sample	IID_H211870_T02_01_WG01	Metastatic	C71.9 : Brain, NOS	1240	Tumor					2e94e013-48f9-58f0-bc12-5c2cc612f2cd	c8bbc93d-97f3-5c02-bf70-5a13711c9c20		
+sample	IID_H211870_T02_01_WT01	Metastatic	C71.9 : Brain, NOS	1240	Tumor					b4df7725-dc8a-5ee5-b44f-2e775a5b62bf	c8bbc93d-97f3-5c02-bf70-5a13711c9c20		
+sample	IID_H211871_T01_01_WG01	Metastatic	C77.4 : Lymph nodes of inguinal region or leg	2395	Tumor					83532eb0-d64b-5290-8e7e-722c814d038d	c37faf75-c148-5c88-8e6c-4ba8d8c4a45c		
+sample	IID_H211871_T01_01_WT01	Metastatic	C77.4 : Lymph nodes of inguinal region or leg	2395	Tumor					2aa6f91c-7dd8-547e-8aa8-02cf7f76ac7d	c37faf75-c148-5c88-8e6c-4ba8d8c4a45c		
+sample	IID_H211871_T02_01_WG01	Primary	C74.9 : Adrenal gland, NOS	1603	Tumor					d70a89bf-4d60-513e-ab6f-e8c4c5f517af	c37faf75-c148-5c88-8e6c-4ba8d8c4a45c		
+sample	IID_H211871_T02_01_WT01	Primary	C74.9 : Adrenal gland, NOS	1603	Tumor					49544341-f3f7-53e9-9590-872a7c3f0e3a	c37faf75-c148-5c88-8e6c-4ba8d8c4a45c		
+sample	IID_H211872_T01_01_WG01	Primary	C74.9 : Adrenal gland, NOS	795	Tumor					9a265fc1-211d-5150-b494-4b7b7c47e046	852fd9ab-2bfa-531a-9dec-7a0b7ce9cffd		
+sample	IID_H211872_T01_01_WT01	Primary	C74.9 : Adrenal gland, NOS	795	Tumor					c05365fb-2a8d-5022-a324-a31396d9c806	852fd9ab-2bfa-531a-9dec-7a0b7ce9cffd		
+sample	IID_H211872_T02_01_WG01	Primary	C76.2 : Abdomen, NOS	1027	Tumor					2dc47be8-322e-5589-b25e-3afb8dbd3042	852fd9ab-2bfa-531a-9dec-7a0b7ce9cffd		
+sample	IID_H211872_T02_01_WT01	Primary	C76.2 : Abdomen, NOS	1027	Tumor					1ea2aca6-a841-57fd-8a0d-8c6e2f76ff3d	852fd9ab-2bfa-531a-9dec-7a0b7ce9cffd		
+sample	IID_H211873_T01_01_WG01	Regional	C48.2 : Peritoneum, NOS	2048	Tumor					5bed6e25-2a61-53e0-9e39-15e05bc081da	11128841-059d-577b-835e-2f8963c9e651		
+sample	IID_H211873_T01_01_WT01	Regional	C48.2 : Peritoneum, NOS	2048	Tumor					097ee591-5679-511b-93e7-98da0450284b	11128841-059d-577b-835e-2f8963c9e651		
+sample	IID_H211873_T02_01_WG01	Regional	C48.2 : Peritoneum, NOS	2153	Tumor					e68a8289-eed0-5983-bef6-c8082ddcfc7b	11128841-059d-577b-835e-2f8963c9e651		
+sample	IID_H211874_T01_01_WG01	Primary	C48.2 : Peritoneum, NOS	869	Tumor					cf414d02-c9fe-5239-a6d2-d859b1329560	8ddacf7b-89be-568f-a0fd-8fb527ed3943		
+sample	IID_H211874_T01_01_WT01	Primary	C48.2 : Peritoneum, NOS	869	Tumor					13b20f10-81e9-5fa3-a96d-e7099cb5e338	8ddacf7b-89be-568f-a0fd-8fb527ed3943		
+sample	IID_H211874_T02_01_WG01	Primary	C48.2 : Peritoneum, NOS	869	Tumor					08dd1861-4a1e-57bc-9f51-a56b722bc1f6	8ddacf7b-89be-568f-a0fd-8fb527ed3943		
+sample	IID_H211874_T02_01_WT01	Primary	C48.2 : Peritoneum, NOS	869	Tumor					a08b7eae-82a1-5cf7-998b-50ad97e91e9a	8ddacf7b-89be-568f-a0fd-8fb527ed3943		
+sample	IID_H211874_T03_01_WG01	Primary	C74.9 : Adrenal gland, NOS	935	Tumor					83f7afc7-694e-5e91-a85d-4e515f8f40c3	8ddacf7b-89be-568f-a0fd-8fb527ed3943		
+sample	IID_H211874_T03_01_WT01	Primary	C74.9 : Adrenal gland, NOS	935	Tumor					0ebe5786-8dd5-5e47-894f-1cbcca4027c1	8ddacf7b-89be-568f-a0fd-8fb527ed3943		
+sample	IID_H211874_T04_01_WG01	Primary	C74.9 : Adrenal gland, NOS	935	Tumor					c64eed83-5abd-55e7-9168-c164d2136f24	8ddacf7b-89be-568f-a0fd-8fb527ed3943		
+sample	IID_H211874_T05_01_WG01	Primary	C74.9 : Adrenal gland, NOS	935	Tumor					44d1bb38-f14d-53d9-8cdb-3d3bceafd2ea	8ddacf7b-89be-568f-a0fd-8fb527ed3943		
+sample	IID_H211875_T01_01_WG01	Primary	C74.9 : Adrenal gland, NOS	4939	Tumor					16d80422-4f56-549c-9e1b-8a56e6a52783	66fb1a89-2f6b-5538-b2f9-22d7051e2812		
+sample	IID_H211875_T01_01_WT01	Primary	C74.9 : Adrenal gland, NOS	4939	Tumor					51cfeeb6-30b9-5034-9bac-25c9d9781bde	66fb1a89-2f6b-5538-b2f9-22d7051e2812		
+sample	IID_H211875_T02_01_WG01	Regional	C76.3 : Pelvis, NOS	5362	Tumor					fc05f248-3af8-57a8-b159-0c5483d26561	66fb1a89-2f6b-5538-b2f9-22d7051e2812		
+sample	IID_H211875_T02_01_WT01	Regional	C76.3 : Pelvis, NOS	5362	Tumor					2420b674-dbd6-522f-8738-9109d46ff67a	66fb1a89-2f6b-5538-b2f9-22d7051e2812		
+sample	IID_H211876_T01_01_WG01	Primary	C74.9 : Adrenal gland, NOS	1086	Tumor					3dd4621c-196f-56cc-88ad-fcd64a8e7266	134e7b71-751c-54ce-b34c-85df4dc3a128		
+sample	IID_H211876_T01_01_WT01	Primary	C74.9 : Adrenal gland, NOS	1086	Tumor					88118c73-7d19-51a7-9966-10a472730927	134e7b71-751c-54ce-b34c-85df4dc3a128		
+sample	IID_H211876_T02_01_WG01	Primary	C48.2 : Peritoneum, NOS	1021	Tumor					ed6a99be-da1d-5f46-8ccc-d5949bb30458	134e7b71-751c-54ce-b34c-85df4dc3a128		
+sample	IID_H211876_T03_01_WG01	Regional	C48.2 : Peritoneum, NOS	1527	Tumor					5cf699ce-6ee7-506f-8e0d-3579bf675ed1	134e7b71-751c-54ce-b34c-85df4dc3a128		
+sample	IID_H211877_T01_01_WG01	Metastatic	C38.3 : Mediastinum, NOS	3937	Tumor					cfa25f4f-c133-533b-a77c-5169efb67fd2	08060098-214d-5840-8f73-9c6688b5d2cf		
+sample	IID_H211877_T01_01_WT01	Metastatic	C38.3 : Mediastinum, NOS	3937	Tumor					d0a53f26-297f-5166-b162-93ff0de38eea	08060098-214d-5840-8f73-9c6688b5d2cf		
+sample	IID_H211877_T02_01_WG01	Primary	C74.9 : Adrenal gland, NOS	2866	Tumor					55d48129-dcf4-5ca0-a109-b1364ce5e973	08060098-214d-5840-8f73-9c6688b5d2cf		
+sample	IID_H211878_T01_01_WG01	Primary	C74.9 : Adrenal gland, NOS	829	Tumor					e2e0d203-5406-54d4-9cc2-9a073b7e6273	22283f3b-056e-5812-aaa2-c3ed5a9ce89a		
+sample	IID_H211878_T01_01_WT01	Primary	C74.9 : Adrenal gland, NOS	829	Tumor					abc91f68-a0f5-5b58-b837-e9701b5f4084	22283f3b-056e-5812-aaa2-c3ed5a9ce89a		
+sample	IID_H211878_T02_01_WG01	Regional	C77.8 : Lymph nodes of multiple regions	906	Tumor					bfec6435-0636-5e56-bc4d-76ec9f8d729b	22283f3b-056e-5812-aaa2-c3ed5a9ce89a		
+sample	IID_H211878_T02_01_WT01	Regional	C77.8 : Lymph nodes of multiple regions	906	Tumor					c2bc3734-389c-55c2-8840-b251db5f2718	22283f3b-056e-5812-aaa2-c3ed5a9ce89a		
+sample	IID_H211878_T03_01_WG01	Regional	C64.9 : Kidney, NOS	1152	Tumor					ff3632e5-0c68-5785-8a5c-53967f01c74d	22283f3b-056e-5812-aaa2-c3ed5a9ce89a		
+sample	IID_H211878_T03_01_WT01	Regional	C64.9 : Kidney, NOS	1152	Tumor					39991c8e-a305-5c76-99e6-e7b6a72d6460	22283f3b-056e-5812-aaa2-c3ed5a9ce89a		
+sample	IID_H211879_N01_01_WG01	Not Applicable	Not Reported	-999	Normal					41642ae3-5bab-5031-b570-ce61c8d80968	91095744-edc7-5ffb-8b68-4aad8021ff76		
+sample	IID_H211879_T01_01_WG01	Primary	C74.9 : Adrenal gland, NOS	1689	Tumor					818e5ad2-3010-5f22-ba00-0ba13fa35d06	91095744-edc7-5ffb-8b68-4aad8021ff76		
+sample	IID_H211879_T02_01_WG01	Metastatic	C22.0 : Liver	2017	Tumor					e0834f26-b411-51b2-b059-60f8950dbf83	91095744-edc7-5ffb-8b68-4aad8021ff76		
+sample	IID_H211879_T02_01_WT01	Metastatic	C22.0 : Liver	2017	Tumor					6c7529a7-382a-5ed3-8449-7c4e063b37d0	91095744-edc7-5ffb-8b68-4aad8021ff76		
+sample	IID_H211879_T03_01_WG01	Metastatic	C22.0 : Liver	2017	Tumor					e7f87c1e-93b7-59b8-919e-980580b3c282	91095744-edc7-5ffb-8b68-4aad8021ff76		
+sample	IID_H211879_T03_01_WT01	Metastatic	C22.0 : Liver	2017	Tumor					5d385311-9fe4-5106-b817-96c99fa1b472	91095744-edc7-5ffb-8b68-4aad8021ff76		
+sample	IID_H211879_T04_01_WG01	Metastatic	C22.0 : Liver	2017	Tumor					5d902e39-a5fd-5584-a062-8f988c5865e4	91095744-edc7-5ffb-8b68-4aad8021ff76		
+sample	IID_H211879_T04_01_WT01	Metastatic	C22.0 : Liver	2017	Tumor					e3e1a388-72e0-5022-a39d-705ebae8e304	91095744-edc7-5ffb-8b68-4aad8021ff76		
+sample	IID_H211879_T05_01_WG01	Metastatic	C34.9 : Lung, NOS	2017	Tumor					a1c7f7d0-f30a-5061-9d7c-7522f3f52226	91095744-edc7-5ffb-8b68-4aad8021ff76		
+sample	IID_H211879_T05_01_WT01	Metastatic	C34.9 : Lung, NOS	2017	Tumor					a7b56e55-ce62-5688-a08c-187e60b64edb	91095744-edc7-5ffb-8b68-4aad8021ff76		
+sample	IID_H211879_T06_01_WG01	Metastatic	C34.9 : Lung, NOS	2017	Tumor					74f86b00-f807-5e07-924c-3d2a1e1be5c3	91095744-edc7-5ffb-8b68-4aad8021ff76		
+sample	IID_H211879_T06_01_WT01	Metastatic	C34.9 : Lung, NOS	2017	Tumor					94df0cc7-5bf1-564a-8330-f61381f95481	91095744-edc7-5ffb-8b68-4aad8021ff76		
+sample	IID_H211879_T07_01_WG01	Regional	C77.8 : Lymph nodes of multiple regions	2017	Tumor					fc1bda2a-091a-5f22-a36d-55b13dcf6122	91095744-edc7-5ffb-8b68-4aad8021ff76		
+sample	IID_H211879_T07_01_WT01	Regional	C77.8 : Lymph nodes of multiple regions	2017	Tumor					7acac0d2-a648-5e43-a848-368b10084414	91095744-edc7-5ffb-8b68-4aad8021ff76		
+sample	IID_H211879_T08_01_WG01	Metastatic	C34.9 : Lung, NOS	2017	Tumor					1268bcf7-9f2b-559e-9354-d872760cef60	91095744-edc7-5ffb-8b68-4aad8021ff76		
+sample	IID_H211879_T08_01_WT01	Metastatic	C34.9 : Lung, NOS	2017	Tumor					97da7f0e-83d1-59d7-a454-035dcedac58e	91095744-edc7-5ffb-8b68-4aad8021ff76		
+sample	IID_H211879_T09_01_WG01	Metastatic	C22.0 : Liver	2017	Tumor					d6cba582-74c1-55e9-8841-de105f07947a	91095744-edc7-5ffb-8b68-4aad8021ff76		
+sample	IID_H211879_T09_01_WT01	Metastatic	C22.0 : Liver	2017	Tumor					78584b32-44f7-54a6-a1d7-cd35fcc445f5	91095744-edc7-5ffb-8b68-4aad8021ff76		
+sample	IID_H211879_T10_01_WG01	Metastatic	C22.0 : Liver	2017	Tumor					b704a93e-a8b9-5c36-9965-757a21ad4841	91095744-edc7-5ffb-8b68-4aad8021ff76		
+sample	IID_H211879_T10_01_WT01	Metastatic	C22.0 : Liver	2017	Tumor					feed12d7-9716-5a2a-b024-bd1619746fb9	91095744-edc7-5ffb-8b68-4aad8021ff76		
+sample	IID_H211879_T11_01_WG01	Metastatic	C22.0 : Liver	2017	Tumor					d016def9-cd55-51ba-9246-2fa6e52e1ca4	91095744-edc7-5ffb-8b68-4aad8021ff76		
+sample	IID_H211879_T11_01_WT01	Metastatic	C22.0 : Liver	2017	Tumor					f747bbcb-0d91-5237-85f7-397b476d638c	91095744-edc7-5ffb-8b68-4aad8021ff76		
+sample	IID_H211879_T12_01_WG01	Metastatic	C22.0 : Liver	2017	Tumor					b581ea7d-7303-5f58-9a50-9f58697df529	91095744-edc7-5ffb-8b68-4aad8021ff76		
+sample	IID_H211879_T12_01_WT01	Metastatic	C22.0 : Liver	2017	Tumor					4ae21d22-c147-5fd8-b20b-7e0996e4d2cb	91095744-edc7-5ffb-8b68-4aad8021ff76		
+sample	IID_H211879_T13_01_WG01	Metastatic	C22.0 : Liver	2017	Tumor					91f2fefc-0b11-56d4-b5a9-b56b163d4877	91095744-edc7-5ffb-8b68-4aad8021ff76		
+sample	IID_H211879_T13_01_WT01	Metastatic	C22.0 : Liver	2017	Tumor					352fcf72-6aeb-5604-a21e-780d058da7cd	91095744-edc7-5ffb-8b68-4aad8021ff76		
+sample	IID_H211879_T14_01_WG01	Metastatic	C22.0 : Liver	2017	Tumor					d47d6bdc-52b3-5940-bae0-248fc8fee7c2	91095744-edc7-5ffb-8b68-4aad8021ff76		
+sample	IID_H211879_T14_01_WG02	Metastatic	C22.0 : Liver	2017	Tumor					57c4bfd5-5c55-5495-9e45-cc163fc7d8b2	91095744-edc7-5ffb-8b68-4aad8021ff76		
+sample	IID_H211879_T14_01_WG03	Metastatic	C22.0 : Liver	2017	Tumor					03a4eafb-e505-5e82-9c34-bcbbb0e906b4	91095744-edc7-5ffb-8b68-4aad8021ff76		
+sample	IID_H211879_T14_01_WT01	Metastatic	C22.0 : Liver	2017	Tumor					37e196a1-368c-588a-8652-e55f759ea0a0	91095744-edc7-5ffb-8b68-4aad8021ff76		
+sample	IID_H211879_T14_01_WT02	Metastatic	C22.0 : Liver	2017	Tumor					39025530-cd0b-5d19-a00f-e270bee883ea	91095744-edc7-5ffb-8b68-4aad8021ff76		
+sample	IID_H211879_T14_01_WT03	Metastatic	C22.0 : Liver	2017	Tumor					00befb13-6005-50f9-8c12-6136209e5ecf	91095744-edc7-5ffb-8b68-4aad8021ff76		
+sample	IID_H211879_T15_01_WT01	Primary	C74.9 : Adrenal gland, NOS	1689	Tumor					9c476b2b-4f2a-56ed-a66a-b8a06e69e5fc	91095744-edc7-5ffb-8b68-4aad8021ff76		
+sample	IID_H211879_T16_01_WG01	Metastatic	C22.0 : Liver	1689	Tumor					dbc9b215-e7e5-5c1c-8c85-184c274e3ccd	91095744-edc7-5ffb-8b68-4aad8021ff76		
+sample	IID_H211879_T16_01_WT01	Metastatic	C22.0 : Liver	1689	Tumor					b1de93bc-030c-5681-8db0-84699fc008ad	91095744-edc7-5ffb-8b68-4aad8021ff76		
+sample	IID_H211880_T01_01_WG01	Primary	C48.2 : Peritoneum, NOS	2555	Tumor					a3e052f3-6780-52f6-b9c7-87b70567e0cf	d2275037-ebdf-5521-9c68-c6763c9ab416		
+sample	IID_H211880_T01_01_WT01	Primary	C48.2 : Peritoneum, NOS	2555	Tumor					ea75b375-70d5-5fb0-944d-1c8459e59325	d2275037-ebdf-5521-9c68-c6763c9ab416		
+sample	IID_H211881_T01_01_WG01	Primary	C48.2 : Peritoneum, NOS	870	Tumor					24da95dc-46c5-5f87-97c7-22b07beca1d8	0478db7b-4b43-5407-8e19-e653b31d4a12		
+sample	IID_H211881_T01_01_WT01	Primary	C48.2 : Peritoneum, NOS	870	Tumor					b4265507-b120-5134-982d-37f759828ca3	0478db7b-4b43-5407-8e19-e653b31d4a12		
+sample	IID_H211882_T01_01_WG01	Primary	C48.2 : Peritoneum, NOS	4732	Tumor					c024cc45-5846-5993-b39c-14af9227c706	2d48f1e8-1207-53a2-afee-35c9d7cd3c3b		
+sample	IID_H211882_T01_01_WT01	Primary	C48.2 : Peritoneum, NOS	4732	Tumor					df693f8f-c02b-5e25-a3d5-08b6676a5761	2d48f1e8-1207-53a2-afee-35c9d7cd3c3b		
+sample	IID_H211883_T01_01_WG01	Primary	Not Reported	28	Tumor					60c9c5e4-2231-52fb-b5aa-933eb5e803f3	c5dd3d30-c60a-5a76-988d-f8290ad65e30		
+sample	IID_H211883_T01_01_WT01	Primary	Not Reported	28	Tumor					334dd2b1-d3be-5766-ac67-c21dcd293343	c5dd3d30-c60a-5a76-988d-f8290ad65e30		
+sample	IID_H211884_T01_01_WG01	Primary	C48.2 : Peritoneum, NOS	1133	Tumor					564060e0-1b66-58db-ac81-0c953bb31ca5	c9bc799a-864f-55ed-8bbc-323171a42df5		
+sample	IID_H211885_T01_01_WG01	Primary	C77.0 : Lymph nodes of head, face and neck	1306	Tumor					be950284-976f-5d9a-b502-4439e64939e1	54c57f85-591f-5a0b-aa58-8b5ee7104542		
+sample	IID_H211885_T01_01_WT01	Primary	C77.0 : Lymph nodes of head, face and neck	1306	Tumor					f05474cf-1559-58aa-a295-a34dd8cec2d0	54c57f85-591f-5a0b-aa58-8b5ee7104542		
+sample	IID_H211886_T01_01_WG01	Primary	C48.2 : Peritoneum, NOS	733	Tumor					6bb712ce-7b02-5f28-9b4b-8edabe7abd49	76588115-cccc-52e6-8d2b-255605b07f70		
+sample	IID_H211886_T01_01_WT01	Primary	C48.2 : Peritoneum, NOS	733	Tumor					7c852015-3a50-50a0-afef-caff9981fb3a	76588115-cccc-52e6-8d2b-255605b07f70		
+sample	IID_H211887_T01_01_WG01	Primary	C77.4 : Lymph nodes of inguinal region or leg	1591	Tumor					ad22241e-abb1-528a-8c9e-3e1af899b976	25daf8de-d03a-5306-a235-aa6d194ac75b		
+sample	IID_H211887_T01_01_WT01	Primary	C77.4 : Lymph nodes of inguinal region or leg	1591	Tumor					c28d3d26-dc1c-588d-b5f9-bb874703e5df	25daf8de-d03a-5306-a235-aa6d194ac75b		
+sample	IID_H211888_T01_01_WG01	Primary	C48.2 : Peritoneum, NOS	676	Tumor					025fa784-f15e-580f-b43f-52dc82625e56	bcdbb53a-fef3-558a-b163-ba89f60b380a		
+sample	IID_H211889_T01_01_WG01	Primary	C48.2 : Peritoneum, NOS	-999	Tumor					ad24d0a7-9aca-58ab-9092-501cfdf4210c	d8752b95-944a-5395-9f35-92577640217c		
+sample	IID_H211889_T01_01_WT01	Primary	C48.2 : Peritoneum, NOS	-999	Tumor					15f1abc2-f127-5534-a83f-5c5a24c81f42	d8752b95-944a-5395-9f35-92577640217c		
+sample	IID_H211890_T01_01_WG01	Primary	C77.0 : Lymph nodes of head, face and neck	1902	Tumor					b79aefb4-470e-5e2d-9982-f8d153c1cda9	271ab40d-702b-5d08-beb4-362a0b8ab29f		
+sample	IID_H211890_T01_01_WT01	Primary	C77.0 : Lymph nodes of head, face and neck	1902	Tumor					c4e6c8fd-9931-51b1-a330-1707645b9b94	271ab40d-702b-5d08-beb4-362a0b8ab29f		
+sample	IID_H211891_T01_01_WG01	Primary	C48.2 : Peritoneum, NOS	3551	Tumor					ee74a77b-0136-58e5-834d-3f5821c5b0a8	0d2d2702-d75f-53ec-a3f3-844e7d160c88		
+sample	IID_H211891_T01_01_WT01	Primary	C48.2 : Peritoneum, NOS	3551	Tumor					ab8357c9-bf84-5cc0-8b0f-052f23086d40	0d2d2702-d75f-53ec-a3f3-844e7d160c88		
+sample	IID_H211892_T01_01_WG01	Primary	C48.2 : Peritoneum, NOS	1210	Tumor					1f7296e7-a0ef-50da-a8ba-bf08ea21879f	624b104b-5e45-553c-b39d-9ee162c7747f		
+sample	IID_H211892_T01_01_WT01	Primary	C48.2 : Peritoneum, NOS	1210	Tumor					6e57d62f-d97e-540d-bc64-b7e14f74ee90	624b104b-5e45-553c-b39d-9ee162c7747f		
+sample	IID_H211893_T01_01_WG01	Primary	C76.2 : Abdomen, NOS	1302	Tumor					f02d3c8f-8ba8-5b47-a3b4-945685acc3ea	d4005cc7-9d31-56db-ad0a-3dd2b0e8d0b0		
+sample	IID_H211893_T01_01_WT01	Primary	C76.2 : Abdomen, NOS	1302	Tumor					1cf8d908-1975-55a7-971a-5ba2872e1b91	d4005cc7-9d31-56db-ad0a-3dd2b0e8d0b0		
+sample	IID_H211894_T01_01_WG01	Primary	C76.2 : Abdomen, NOS	1542	Tumor					eb7ca547-24d2-5156-9ff9-ea68f158fa64	e4eda7d9-5420-5295-aed7-33c16c211d71		
+sample	IID_H211895_T01_01_WG01	Primary	Not Reported	266	Tumor					307c63e5-8de1-51dd-912d-3939d04861d6	bd93bf35-301d-5f7d-9bf8-d587e4af1219		
+sample	IID_H211895_T01_01_WT01	Primary	Not Reported	266	Tumor					ae2a10c3-9a46-5f4c-8ccf-70e3338745c0	bd93bf35-301d-5f7d-9bf8-d587e4af1219		
+sample	IID_H211896_T01_01_WG01	Primary	Not Reported	-999	Tumor					48b1c577-3183-5111-932f-268fff1e6b9c	fc9a351f-81f4-5db5-a921-a479b561f164		
+sample	IID_H211896_T01_01_WT01	Primary	Not Reported	-999	Tumor					28e03f9d-8c45-5eda-81dd-78c127829d32	fc9a351f-81f4-5db5-a921-a479b561f164		
+sample	IID_H211897_T01_01_WG01	Primary	C76.2 : Abdomen, NOS	4315	Tumor					f6569b07-f69e-5bd0-af00-7e0ca30b3bc8	8e14aa22-0fad-56ea-bac2-ab399326a70f		
+sample	IID_H211897_T01_01_WT01	Primary	C76.2 : Abdomen, NOS	4315	Tumor					80897f90-129d-534c-90d3-4fff713ba018	8e14aa22-0fad-56ea-bac2-ab399326a70f		
+sample	IID_H211898_T01_01_WG01	Primary	C48.2 : Peritoneum, NOS	570	Tumor					6766532a-7155-5e15-bb82-0dc2777d045b	e9b1aecd-0e28-5f63-8124-91f835e7512a		
+sample	IID_H211898_T01_01_WT01	Primary	C48.2 : Peritoneum, NOS	570	Tumor					6c76f210-646d-5382-81c9-a17a9c33d529	e9b1aecd-0e28-5f63-8124-91f835e7512a		
+sample	IID_H211899_T01_01_WG01	Primary	C74.9 : Adrenal gland, NOS	1432	Tumor					b3f4efbb-a6fc-550c-8964-7add23e176dc	bf5b4e76-e1bc-56ad-995c-57f1568963fa		
+sample	IID_H211899_T01_01_WT01	Primary	C74.9 : Adrenal gland, NOS	1432	Tumor					e17c63c8-a1f0-5463-8da9-d121ed154962	bf5b4e76-e1bc-56ad-995c-57f1568963fa		
+sample	IID_H211900_T01_01_WG01	Primary	C47.6 : Peripheral nerves and autonomic nervous system of trunk, NOS	-999	Tumor					3fb0866b-3d0e-5d40-bccc-6e9ff05aaf31	c48cdf16-4ba3-527e-b491-f4e7c36db1a5		
+sample	IID_H211900_T01_01_WT01	Primary	C47.6 : Peripheral nerves and autonomic nervous system of trunk, NOS	-999	Tumor					8c6b1553-e52a-5e4a-9921-b9c1a3f6e7a0	c48cdf16-4ba3-527e-b491-f4e7c36db1a5		
+sample	IID_H211901_T01_01_WG01	Primary	Not Reported	79	Tumor					08a3b06a-f3f2-5261-933c-b742105262a2	67308a3d-7e8f-5232-a2e2-2728ef432680		
+sample	IID_H211901_T01_01_WT01	Primary	Not Reported	79	Tumor					8d9c2e5f-c303-5c2a-b24e-b711bd1743f0	67308a3d-7e8f-5232-a2e2-2728ef432680		
+sample	IID_H211902_T01_01_WG01	Primary	C48.2 : Peritoneum, NOS	706	Tumor					a6e4dccc-aa8e-53f8-8a7e-e21b4d7c4458	6c29d74d-20f4-5aca-9b27-3a1739fd3c65		
+sample	IID_H211902_T01_01_WT01	Primary	C48.2 : Peritoneum, NOS	706	Tumor					1f6ebe2a-bb47-5ae8-a473-281063542a65	6c29d74d-20f4-5aca-9b27-3a1739fd3c65		
+sample	IID_H211903_T01_01_WG01	Metastatic	C22.0 : Liver	2387	Tumor					a1d70627-4c18-5436-9eda-79b9105a54cd	e3ecee2e-dc4a-5fb5-be13-17097a7f02f2		
+sample	IID_H211903_T01_01_WT01	Metastatic	C22.0 : Liver	2387	Tumor					00b6868e-5960-578b-97f6-d31371cc02a9	e3ecee2e-dc4a-5fb5-be13-17097a7f02f2		
+sample	IID_H211904_T01_01_WG01	Primary	C48.2 : Peritoneum, NOS	874	Tumor					a3b287e2-06b1-5ed1-a005-c083284fd61b	0f5cc6dc-5054-53b3-a292-4735b9446a95		
+sample	IID_H211904_T01_01_WT01	Primary	C48.2 : Peritoneum, NOS	874	Tumor					573f7153-1086-5f8a-9dce-02fa0e40823f	0f5cc6dc-5054-53b3-a292-4735b9446a95		
+sample	IID_H211905_T01_01_WG01	Primary	C48.2 : Peritoneum, NOS	10642	Tumor					59fa70cc-c5a9-5ba6-a77d-2643064e86bb	dbb51800-b066-5571-9e98-65d60cf2253d		
+sample	IID_H211905_T01_01_WT01	Primary	C48.2 : Peritoneum, NOS	10642	Tumor					450e9d21-6aa2-5099-aa36-51a3967da2a7	dbb51800-b066-5571-9e98-65d60cf2253d		
+sample	IID_H211906_T01_01_WG01	Primary	C76.3 : Pelvis, NOS	9860	Tumor					a6803680-1cc2-542a-9883-748f80eb44ce	298eff6e-6824-5523-9b25-b27035dac09f		
+sample	IID_H211907_T01_01_WG01	Primary	C48.2 : Peritoneum, NOS	1375	Tumor					df0bb60b-a7e2-5bb9-abe3-d39d0039bebd	25c4cae7-89a9-59fa-8a23-f747adeba9d4		
+sample	IID_H211908_T01_01_WG01	Primary	C74.9 : Adrenal gland, NOS	2051	Tumor					c2531a97-fa1a-53e0-ac0b-b72383c8c21c	c6b74a94-8323-56db-801e-d7f95489df9b		
+sample	IID_H211908_T01_01_WT01	Primary	C74.9 : Adrenal gland, NOS	2051	Tumor					44850b50-6011-5cff-a562-f46fd84c6d75	c6b74a94-8323-56db-801e-d7f95489df9b		
+sample	IID_H211909_T01_01_WG01	Primary	C76.2 : Abdomen, NOS	1688	Tumor					906e4ee9-75bf-5740-87f5-5fc4cbb7cf7f	1fed1634-0e4f-5ebb-9632-b15399cb30ad		
+sample	IID_H211909_T01_01_WT01	Primary	C76.2 : Abdomen, NOS	1688	Tumor					299c3195-c862-5e94-968a-60083cbea5d5	1fed1634-0e4f-5ebb-9632-b15399cb30ad		
+sample	IID_H211910_T01_01_WG01	Primary	Not Reported	-999	Tumor					2c96da6f-1a17-5325-893a-357d407094f2	2dc44ed1-be83-5deb-be41-c675f7d1dd2e		
+sample	IID_H211911_T01_01_WG01	Primary	C74.9 : Adrenal gland, NOS	-999	Tumor					e4d80f5f-7df2-50a6-91f6-ffe93b186dd0	31062e4b-6c23-5b01-a28c-ec28c089218b		
+sample	IID_H211911_T01_01_WT01	Primary	C74.9 : Adrenal gland, NOS	-999	Tumor					07c39a96-9865-598c-8459-9f82eefba611	31062e4b-6c23-5b01-a28c-ec28c089218b		
+sample	IID_H211912_T01_01_WG01	Primary	C47.0 : Peripheral nerves and autonomic nervous system of head, face, and neck	1482	Tumor					831d205e-4637-5685-affb-3a1ab73ef2ff	6e646c45-ee0a-511c-aa09-681eb02244d6		
+sample	IID_H211912_T01_01_WT01	Primary	C47.0 : Peripheral nerves and autonomic nervous system of head, face, and neck	1482	Tumor					f5e75346-f4ed-5c1c-8a54-e1ef8bd5f725	6e646c45-ee0a-511c-aa09-681eb02244d6		
+sample	IID_H211913_T01_01_WG01	Primary	C48.2 : Peritoneum, NOS	9180	Tumor					931c7966-304e-5265-8b54-ce8729cfa494	e75f111c-7371-5903-bbcf-fe9348870410		
+sample	IID_H211913_T01_01_WT01	Primary	C48.2 : Peritoneum, NOS	9180	Tumor					5c4e267f-fb48-5afe-b782-d472c5d843d6	e75f111c-7371-5903-bbcf-fe9348870410		
+sample	IID_H211914_T01_01_WG01	Primary	C48.2 : Peritoneum, NOS	1536	Tumor					02fdf289-0027-5590-a05f-6445b6d9a479	55be15de-7149-5c9b-b54e-3485b1d4311c		
+sample	IID_H211914_T01_01_WT01	Primary	C48.2 : Peritoneum, NOS	1536	Tumor					94ca14be-05d1-519a-b853-dd544a1cd5e0	55be15de-7149-5c9b-b54e-3485b1d4311c		
+sample	IID_H211915_T01_01_WG01	Primary	C47.6 : Peripheral nerves and autonomic nervous system of trunk, NOS	4838	Tumor					ed5d7f20-7a3f-5794-b84e-1bab14e4a973	f22b5454-f43f-5c2e-be59-3a346d8d0c44		
+sample	IID_H211915_T01_01_WT01	Primary	C47.6 : Peripheral nerves and autonomic nervous system of trunk, NOS	4838	Tumor					32b44f8a-eaf0-5847-84b2-fdaef10f583e	f22b5454-f43f-5c2e-be59-3a346d8d0c44		
+sample	IID_H211916_T01_01_WG01	Primary	C74.9 : Adrenal gland, NOS	1156	Tumor					4c4de342-c488-5181-8def-b2d0ac09e6cf	056977c3-6930-5ad8-b5e7-8dd82ec31715		
+sample	IID_H211916_T01_01_WT01	Primary	C74.9 : Adrenal gland, NOS	1156	Tumor					c0555f02-951e-5b57-8728-a352ce50d8d7	056977c3-6930-5ad8-b5e7-8dd82ec31715		
+sample	IID_H211917_T01_01_WG01	Primary	C77.0 : Lymph nodes of head, face and neck	2217	Tumor					7bab8f42-df41-5c04-9d25-1b974f6957af	46457a05-b1cd-55f1-891a-7b81b2a5e35e		
+sample	IID_H211917_T01_01_WT01	Primary	C77.0 : Lymph nodes of head, face and neck	2217	Tumor					bbbb18a8-915c-5e19-a144-ed6370828112	46457a05-b1cd-55f1-891a-7b81b2a5e35e		
+sample	IID_H211918_T01_01_WG01	Primary	C48.2 : Peritoneum, NOS	1077	Tumor					ef2cc11d-ba66-5bca-9e38-99b64a98c0b9	e1a7c468-d0e3-5773-8f76-feed2e4e12d3		
+sample	IID_H211919_T01_01_WG01	Primary	C76.2 : Abdomen, NOS	398	Tumor					6a616754-06b8-5fbb-b3aa-839ccfb7b97b	fa811529-d67a-5f99-ba12-50e68e8359e3		
+sample	IID_H211920_T01_01_WG01	Primary	C74.9 : Adrenal gland, NOS	2118	Tumor					3c75483e-1883-5df4-bfd5-e03253e5759c	45084d6b-84a6-58d5-93d5-d14c18038504		
+sample	IID_H211920_T01_01_WT01	Primary	C74.9 : Adrenal gland, NOS	2118	Tumor					e3ed92f5-5892-5410-814d-49c8379f4867	45084d6b-84a6-58d5-93d5-d14c18038504		
+sample	IID_H211920_T02_01_WG01	Metastatic	C71.9 : Brain, NOS	2427	Tumor					1904a64e-b874-5b9a-b97a-c570f2f3b34f	45084d6b-84a6-58d5-93d5-d14c18038504		
+sample	IID_H211920_T02_01_WT01	Metastatic	C71.9 : Brain, NOS	2427	Tumor					4d433ba4-3d52-5150-8455-2e854c0ac9b8	45084d6b-84a6-58d5-93d5-d14c18038504		
+sample	IID_H211921_T01_01_WG01	Primary	C48.2 : Peritoneum, NOS	968	Tumor					40788396-839b-56f4-97b3-6d2c846ff03e	be0a90a4-86e7-5c56-b40c-452d7e4a15f3		
+sample	IID_H211921_T01_01_WT01	Primary	C48.2 : Peritoneum, NOS	968	Tumor					02825519-f629-5969-a524-618f16e2250c	be0a90a4-86e7-5c56-b40c-452d7e4a15f3		
+sample	IID_H211921_T02_01_WG01	Metastatic	C34.9 : Lung, NOS	1626	Tumor					01027f45-3b77-5cc9-a6b9-846a06344adc	be0a90a4-86e7-5c56-b40c-452d7e4a15f3		
+sample	IID_H211921_T02_01_WT01	Metastatic	C34.9 : Lung, NOS	1626	Tumor					52acdb2c-31f8-5d8b-9e1a-7803907d751c	be0a90a4-86e7-5c56-b40c-452d7e4a15f3		
+sample	IID_H211921_T03_01_WG01	Metastatic	C71.9 : Brain, NOS	1342	Tumor					115a529c-f366-517c-a260-2bc739d588df	be0a90a4-86e7-5c56-b40c-452d7e4a15f3		
+sample	IID_H211921_T03_01_WT01	Metastatic	C71.9 : Brain, NOS	1342	Tumor					1ee298b6-b3ff-5fe9-82cd-3db7132668c4	be0a90a4-86e7-5c56-b40c-452d7e4a15f3		
+sample	IID_H211922_T01_01_WG01	Primary	C38.3 : Mediastinum, NOS	1194	Tumor					113c56b0-bc6a-5636-bafa-752ad35704f6	44cedefe-a825-5b63-8d5d-90d3dc2aaaa9		
+sample	IID_H211922_T01_01_WT01	Primary	C38.3 : Mediastinum, NOS	1194	Tumor					0e95aa9a-c99f-5328-a525-33419757e5e3	44cedefe-a825-5b63-8d5d-90d3dc2aaaa9		
+sample	IID_H211922_T02_01_WG01	Metastatic	C71.9 : Brain, NOS	2165	Tumor					bd9f4803-8655-586d-b1a8-c3ebf18692a6	44cedefe-a825-5b63-8d5d-90d3dc2aaaa9		
+sample	IID_H211922_T02_01_WT01	Metastatic	C71.9 : Brain, NOS	2165	Tumor					99e9310c-c6fd-52e6-b392-ef8529fe7dbd	44cedefe-a825-5b63-8d5d-90d3dc2aaaa9		
+sample	IID_H211923_T01_01_WG01	Metastatic	C71.9 : Brain, NOS	890	Tumor					49dc1ea7-308b-5415-ba73-29abb33f8e7c	45f7f6bd-0036-54f4-bdf2-529351dafc16		
+sample	IID_H211924_T01_01_WG01	Metastatic	C71.9 : Brain, NOS	658	Tumor					ab91d076-7905-5578-8677-0dc379f736bb	fd3684c6-73b9-5f14-a9d2-420e5182e4e9		
+sample	IID_H211925_T01_01_WG01	Primary	C74.9 : Adrenal gland, NOS	908	Tumor					7164e1a3-fabb-5ad4-835d-ecb87d8a0ac8	0c0d847c-4262-5f18-a9ee-6e8f450048d9		
+sample	IID_H211925_T01_01_WT01	Primary	C74.9 : Adrenal gland, NOS	908	Tumor					5a5576e5-8b92-5923-b8b6-ffdbd45e82b5	0c0d847c-4262-5f18-a9ee-6e8f450048d9		
+sample	IID_H211925_T02_01_WG01	Metastatic	C71.9 : Brain, NOS	1136	Tumor					60e0044d-fb9f-5e9b-99d8-55e2ac14c90c	0c0d847c-4262-5f18-a9ee-6e8f450048d9		
+sample	IID_H211925_T03_01_WG01	Metastatic	C71.9 : Brain, NOS	2257	Tumor					276c94fe-5014-5e76-bdef-aa62ea9e05e0	0c0d847c-4262-5f18-a9ee-6e8f450048d9		
+sample	IID_H211925_T03_01_WT01	Metastatic	C71.9 : Brain, NOS	2257	Tumor					87103185-34fa-5349-8dd0-8f8df65fccb1	0c0d847c-4262-5f18-a9ee-6e8f450048d9		
+sample	IID_H211926_T01_01_WG01	Primary	C74.9 : Adrenal gland, NOS	1487	Tumor					6389840b-f35f-54f7-9698-99ed4665e054	ba0bfe71-5f45-5853-bd4c-559d73ca04f3		
+sample	IID_H211926_T01_01_WT01	Primary	C74.9 : Adrenal gland, NOS	1487	Tumor					c0fe4f84-0b3d-5f1b-b624-264b8075fa4c	ba0bfe71-5f45-5853-bd4c-559d73ca04f3		
+sample	IID_H211926_T02_01_WG01	Metastatic	C71.9 : Brain, NOS	2003	Tumor					8bfc3868-6a38-5fdf-b842-811a5e07db67	ba0bfe71-5f45-5853-bd4c-559d73ca04f3		
+sample	IID_H211926_T02_01_WT01	Metastatic	C71.9 : Brain, NOS	2003	Tumor					6f5da04f-050d-5611-b9a4-91f9754dfd6a	ba0bfe71-5f45-5853-bd4c-559d73ca04f3		
+sample	IID_H211927_T01_01_WG01	Primary	C48.2 : Peritoneum, NOS	715	Tumor					1722e537-1cb2-5017-8878-88ed5955d075	4cb0d3da-cf32-5202-9d45-dd54465a9561		
+sample	IID_H211927_T02_01_WG01	Metastatic	C71.9 : Brain, NOS	1323	Tumor					df8a717b-a4c2-5115-b821-797c539e1745	4cb0d3da-cf32-5202-9d45-dd54465a9561		
+sample	IID_H211927_T03_01_WG01	Primary	C74.9 : Adrenal gland, NOS	803	Tumor					90f1e49b-7b4a-5375-a37d-4d75401d578e	4cb0d3da-cf32-5202-9d45-dd54465a9561		
+sample	IID_H211928_T01_01_WG01	Primary	C48.2 : Peritoneum, NOS	923	Tumor					32369910-22fb-548a-8738-75ec83335e01	839b7619-b628-52d7-947d-26ec72bbdcc3		
+sample	IID_H211928_T02_01_WG01	Metastatic	C71.9 : Brain, NOS	1344	Tumor					22e7d47a-cd20-591f-b9ad-6d5a3f6fbb4a	839b7619-b628-52d7-947d-26ec72bbdcc3		
+sample	IID_H211928_T02_01_WT01	Metastatic	C71.9 : Brain, NOS	1344	Tumor					e94077e5-5c34-58c8-9187-67592003b207	839b7619-b628-52d7-947d-26ec72bbdcc3		
+sample	IID_H211929_N01_01_WG01	Not Applicable	Not Reported	-999	Normal					36ce7c62-a9e0-59c4-84ec-e9a7b1300a11	3db7cd02-da1a-5a6b-86b0-b6f47bde86b1		
+sample	IID_H211929_T01_01_WG01	Primary	C38.3 : Mediastinum, NOS	1260	Tumor					5ef9350b-1efe-58a6-8126-dd22758f6ac8	3db7cd02-da1a-5a6b-86b0-b6f47bde86b1		
+sample	IID_H211929_T01_01_WT01	Primary	C38.3 : Mediastinum, NOS	1260	Tumor					ce180f84-ae3f-57b4-9810-79a7fc2b524f	3db7cd02-da1a-5a6b-86b0-b6f47bde86b1		
+sample	IID_H211929_T02_01_WG01	Primary	C77.8 : Lymph nodes of multiple regions	1260	Tumor					98f1033d-56f0-54ed-aefb-817352a0fe5f	3db7cd02-da1a-5a6b-86b0-b6f47bde86b1		
+sample	IID_H211929_T02_01_WT01	Primary	C77.8 : Lymph nodes of multiple regions	1260	Tumor					b24d8844-4ea9-52e2-a719-58608deb9486	3db7cd02-da1a-5a6b-86b0-b6f47bde86b1		
+sample	IID_H211929_T03_01_WG01	Primary	C47.6 : Peripheral nerves and autonomic nervous system of trunk, NOS	1260	Tumor					7086ce67-014f-5935-89cc-65350fa82cb3	3db7cd02-da1a-5a6b-86b0-b6f47bde86b1		
+sample	IID_H211929_T03_01_WT01	Primary	C47.6 : Peripheral nerves and autonomic nervous system of trunk, NOS	1260	Tumor					448ada4a-0b94-540b-bdae-a6aa74174b1e	3db7cd02-da1a-5a6b-86b0-b6f47bde86b1		
+sample	IID_H211929_T04_01_WG01	Primary	C77.8 : Lymph nodes of multiple regions	1260	Tumor					26b86791-cbb4-5710-aefb-7bd1275f6396	3db7cd02-da1a-5a6b-86b0-b6f47bde86b1		
+sample	IID_H211929_T04_01_WT01	Primary	C77.8 : Lymph nodes of multiple regions	1260	Tumor					cdb1d192-1d97-54f2-867f-0d5d72a120d6	3db7cd02-da1a-5a6b-86b0-b6f47bde86b1		
+sample	IID_H211929_T05_01_WG01	Primary	C47.6 : Peripheral nerves and autonomic nervous system of trunk, NOS	1260	Tumor					a1e65963-c8ff-50c8-81fd-f2706c4434b9	3db7cd02-da1a-5a6b-86b0-b6f47bde86b1		
+sample	IID_H211929_T05_01_WT01	Primary	C47.6 : Peripheral nerves and autonomic nervous system of trunk, NOS	1260	Tumor					484298e1-6b8a-5274-bd5c-be22d234e657	3db7cd02-da1a-5a6b-86b0-b6f47bde86b1		
+sample	IID_H211929_T06_01_WG01	Primary	C38.3 : Mediastinum, NOS	1260	Tumor					8ea88a12-fc95-59d9-9ecc-1fabf96f4f3e	3db7cd02-da1a-5a6b-86b0-b6f47bde86b1		
+sample	IID_H211929_T06_01_WT01	Primary	C38.3 : Mediastinum, NOS	1260	Tumor					ba8fc6b4-c67c-591c-99bb-440b60bc7765	3db7cd02-da1a-5a6b-86b0-b6f47bde86b1		
+sample	IID_H211930_T01_01_WG01	Primary	C77.8 : Lymph nodes of multiple regions	1251	Tumor					367896b8-1383-5afb-a374-de3d8d435002	d805e0fb-07db-5d5c-b6c6-73a2e606f26d		
+sample	IID_H211930_T01_01_WT01	Primary	C77.8 : Lymph nodes of multiple regions	1251	Tumor					8272b0d6-71b0-5208-832e-8ec0a813c39c	d805e0fb-07db-5d5c-b6c6-73a2e606f26d		
+sample	IID_H211930_T02_01_WG01	Primary	C74.9 : Adrenal gland, NOS	1270	Tumor					4ff61f34-e6ca-5605-8c4a-82c78fdef7cb	d805e0fb-07db-5d5c-b6c6-73a2e606f26d		
+sample	IID_H211930_T02_01_WT01	Primary	C74.9 : Adrenal gland, NOS	1270	Tumor					34fb46eb-f287-5013-9d74-1854a085f26e	d805e0fb-07db-5d5c-b6c6-73a2e606f26d		
+sample	IID_H211930_T03_01_WG01	Primary	C74.9 : Adrenal gland, NOS	1270	Tumor					ad2e0fc2-e255-5a8e-8a54-d026265169a0	d805e0fb-07db-5d5c-b6c6-73a2e606f26d		
+sample	IID_H211930_T03_01_WT01	Primary	C74.9 : Adrenal gland, NOS	1270	Tumor					679fb85b-8aeb-513a-b7c9-81dd64995b5e	d805e0fb-07db-5d5c-b6c6-73a2e606f26d		
+sample	IID_H211930_T04_01_WG01	Regional	C47.0 : Peripheral nerves and autonomic nervous system of head, face, and neck	1403	Tumor					cd20c171-7689-5137-ac7e-c75cf6e3140a	d805e0fb-07db-5d5c-b6c6-73a2e606f26d		
+sample	IID_H211930_T04_01_WT01	Regional	C47.0 : Peripheral nerves and autonomic nervous system of head, face, and neck	1403	Tumor					a152f003-8253-5a42-8276-5c0f647a969a	d805e0fb-07db-5d5c-b6c6-73a2e606f26d		
+sample	IID_H211930_T05_01_WG01	Regional	C47.6 : Peripheral nerves and autonomic nervous system of trunk, NOS	2016	Tumor					e2a55547-6d47-5ab1-9d02-4584d79b21bc	d805e0fb-07db-5d5c-b6c6-73a2e606f26d		
+sample	IID_H211930_T05_01_WT01	Regional	C47.6 : Peripheral nerves and autonomic nervous system of trunk, NOS	2016	Tumor					dca83b9e-8e9c-5315-84c8-bb90e7edeaef	d805e0fb-07db-5d5c-b6c6-73a2e606f26d		
+sample	IID_H211931_T01_01_WG01	Primary	C47.6 : Peripheral nerves and autonomic nervous system of trunk, NOS	2387	Tumor					3ed1df50-ab9f-539a-83c6-37264f59912a	c48cdf16-4ba3-527e-b491-f4e7c36db1a5		
+sample	IID_H211931_T01_01_WT01	Primary	C47.6 : Peripheral nerves and autonomic nervous system of trunk, NOS	2387	Tumor					e3e11ef1-5331-5581-98a3-efc7de31c980	c48cdf16-4ba3-527e-b491-f4e7c36db1a5		
+sample	IID_H211931_T02_01_WG01	Regional	C47.6 : Peripheral nerves and autonomic nervous system of trunk, NOS	3440	Tumor					37f010f2-c249-5701-af7f-f91e305cd641	c48cdf16-4ba3-527e-b491-f4e7c36db1a5		
+sample	IID_H211931_T03_01_WG01	Regional	C47.0 : Peripheral nerves and autonomic nervous system of head, face, and neck	4378	Tumor					36c9c7da-600e-5e5e-b82c-c01877ed884e	c48cdf16-4ba3-527e-b491-f4e7c36db1a5		
+sample	IID_H211931_T03_01_WT01	Regional	C47.0 : Peripheral nerves and autonomic nervous system of head, face, and neck	4378	Tumor					377e760c-e550-5546-8a2e-e94b011d8f6c	c48cdf16-4ba3-527e-b491-f4e7c36db1a5		
+sample	IID_H211932_T01_01_WG01	Primary	C48.2 : Peritoneum, NOS	9180	Tumor					75f4f80e-a6f9-59f0-b5f9-0e987bed5588	e75f111c-7371-5903-bbcf-fe9348870410		
+sample	IID_H211932_T02_01_WG01	Primary	C74.9 : Adrenal gland, NOS	9255	Tumor					a4caa06b-8b6e-59d7-a8ac-e38a13dffd32	e75f111c-7371-5903-bbcf-fe9348870410		
+sample	IID_H211932_T02_01_WT01	Primary	C74.9 : Adrenal gland, NOS	9255	Tumor					a1868201-c3cd-58ec-bb53-2126e241d92e	e75f111c-7371-5903-bbcf-fe9348870410		
+sample	IID_H211932_T03_01_WG01	Metastatic	C77.3 : Lymph nodes of axilla or arm	9404	Tumor					6f493da1-cbe2-5be6-a706-0a413e1d9a07	e75f111c-7371-5903-bbcf-fe9348870410		
+sample	IID_H211932_T03_01_WT01	Metastatic	C77.3 : Lymph nodes of axilla or arm	9404	Tumor					d885b3ec-cb9e-5953-930c-bc9924ead276	e75f111c-7371-5903-bbcf-fe9348870410		
+sample	IID_H211933_T01_01_WG01	Primary	C74.9 : Adrenal gland, NOS	5003	Tumor					ba66af7b-9f9a-5435-b151-045417fdd407	f22b5454-f43f-5c2e-be59-3a346d8d0c44		
+sample	IID_H211933_T01_01_WT01	Primary	C74.9 : Adrenal gland, NOS	5003	Tumor					f8a5b00f-697f-52b9-ba1e-f3a6d1576dfc	f22b5454-f43f-5c2e-be59-3a346d8d0c44		
+sample	IID_H211934_T01_01_WG01	Primary	C48.2 : Peritoneum, NOS	7563	Tumor					b1fcd9da-23af-5bf1-90c2-b6d9c3716499	62a0d937-5850-5e94-9aad-eda6df1780ef		
+sample	IID_H211934_T01_01_WT01	Primary	C48.2 : Peritoneum, NOS	7563	Tumor					369d8e4a-0383-5cb7-8c4e-2d45307a8279	62a0d937-5850-5e94-9aad-eda6df1780ef		
+sample	IID_H211934_T02_01_WG01	Primary	C48.2 : Peritoneum, NOS	7563	Tumor					caf97d98-d0da-59c1-b1be-816f0c96504e	62a0d937-5850-5e94-9aad-eda6df1780ef		
+sample	IID_H211934_T02_01_WT01	Primary	C48.2 : Peritoneum, NOS	7563	Tumor					5aa0ba83-9db1-5aeb-8534-484b389223a2	62a0d937-5850-5e94-9aad-eda6df1780ef		
+sample	IID_H211934_T03_01_WG01	Regional	C77.8 : Lymph nodes of multiple regions	8060	Tumor					3a36780f-b779-5ced-93a1-9eb8f6a61768	62a0d937-5850-5e94-9aad-eda6df1780ef		
+sample	IID_H211934_T03_01_WT01	Regional	C77.8 : Lymph nodes of multiple regions	8060	Tumor					9108f05d-d8af-591e-8b41-cacebeed363a	62a0d937-5850-5e94-9aad-eda6df1780ef		
+sample	IID_H211935_T01_01_WG01	Regional	C77.4 : Lymph nodes of inguinal region or leg	6528	Tumor					aeb46393-01be-504a-8550-7a71652043a7	af1727ae-b5cc-51b9-add4-2492371a5ce1		
+sample	IID_H211935_T01_01_WT01	Regional	C77.4 : Lymph nodes of inguinal region or leg	6528	Tumor					efdd3b8c-1c68-5fd6-a7b7-99b9dddee69b	af1727ae-b5cc-51b9-add4-2492371a5ce1		
+sample	IID_H211936_T01_01_WG01	Primary	C74.9 : Adrenal gland, NOS	628	Tumor					2207d4f0-0931-5fde-aa08-9630955a8b7e	9aee14a0-0bf3-53ec-89b1-f3f6fe4e3b51		
+sample	IID_H211936_T01_01_WT01	Primary	C74.9 : Adrenal gland, NOS	628	Tumor					9d9536f0-5434-5542-810b-266e1edd1f16	9aee14a0-0bf3-53ec-89b1-f3f6fe4e3b51		
+sample	IID_H211936_T02_01_WG01	Regional	C76.2 : Abdomen, NOS	1340	Tumor					c1d3ddc9-e0ce-5321-bb79-2fb7382a31ef	9aee14a0-0bf3-53ec-89b1-f3f6fe4e3b51		
+sample	IID_H211936_T03_01_WG01	Regional	C48.2 : Peritoneum, NOS	1806	Tumor					945efb41-2a8d-5091-a8f6-d8974709b1d1	9aee14a0-0bf3-53ec-89b1-f3f6fe4e3b51		
+sample	IID_H211936_T03_01_WT01	Regional	C48.2 : Peritoneum, NOS	1806	Tumor					71feb878-11ec-52ac-8e78-eb12141b2cda	9aee14a0-0bf3-53ec-89b1-f3f6fe4e3b51		
+sample	IID_H211937_T01_01_WG01	Regional	C74.9 : Adrenal gland, NOS	2692	Tumor					f77e72a2-3433-5b7e-bead-54067c318dd4	25f31468-0b12-5060-9ab2-2de8c453ded1		
+sample	IID_H211937_T01_01_WT01	Regional	C74.9 : Adrenal gland, NOS	2692	Tumor					b3f4485c-955d-564a-9392-79d7c57facf3	25f31468-0b12-5060-9ab2-2de8c453ded1		
+sample	IID_H211937_T02_01_WG01	Regional	C38.3 : Mediastinum, NOS	2716	Tumor					ad44b5ca-37f2-53cf-b259-2afd58164d85	25f31468-0b12-5060-9ab2-2de8c453ded1		
+sample	IID_H211937_T02_01_WT01	Regional	C38.3 : Mediastinum, NOS	2716	Tumor					43ad3fb4-2280-52c7-80cc-9ca639be633c	25f31468-0b12-5060-9ab2-2de8c453ded1		
+sample	IID_H211938_N01_01_WG01	Not Applicable	Not Reported	-999	Normal					690dab19-043a-50ba-8d51-b7a3d3161f0e	7ba671c6-7111-5600-b2c9-f57b1c119a20		
+sample	IID_H211938_T01_01_WG01	Primary	C48.2 : Peritoneum, NOS	3471	Tumor					a75e9dd9-a32c-5496-9c8e-575a00075be9	7ba671c6-7111-5600-b2c9-f57b1c119a20		
+sample	IID_H211938_T01_01_WT01	Primary	C48.2 : Peritoneum, NOS	3471	Tumor					499f0654-85cb-5c16-bd14-b38a66235008	7ba671c6-7111-5600-b2c9-f57b1c119a20		
+sample	IID_H211938_T02_01_WG01	Regional	C76.3 : Pelvis, NOS	3544	Tumor					b76126a6-8652-52b9-9b5e-e0c9dda839ed	7ba671c6-7111-5600-b2c9-f57b1c119a20		
+sample	IID_H211938_T03_01_WG01	Regional	C47.6 : Peripheral nerves and autonomic nervous system of trunk, NOS	4560	Tumor					121e7ab4-d8be-5580-97f1-8f344f52b1f0	7ba671c6-7111-5600-b2c9-f57b1c119a20		
+sample	IID_H211938_T03_01_WT01	Regional	C47.6 : Peripheral nerves and autonomic nervous system of trunk, NOS	4560	Tumor					befb9dd4-7303-52e3-bf8c-1c661e36ce40	7ba671c6-7111-5600-b2c9-f57b1c119a20		
+sample	IID_H211939_T01_01_WG01	Primary	C48.2 : Peritoneum, NOS	679	Tumor					4ba5affb-f90d-5a24-965e-7b48e961dc64	c63960eb-da48-5d24-b33e-fb510ef806c5		
+sample	IID_H211939_T01_01_WT01	Primary	C48.2 : Peritoneum, NOS	679	Tumor					989f990b-1a51-50da-a560-565950564184	c63960eb-da48-5d24-b33e-fb510ef806c5		
+sample	IID_H211939_T02_01_WG01	Metastatic	C71.9 : Brain, NOS	829	Tumor					6417baa7-8d81-5f7c-8d22-4667a23a8f3c	c63960eb-da48-5d24-b33e-fb510ef806c5		
+sample	IID_H211939_T03_01_WG01	Metastatic	C71.9 : Brain, NOS	1377	Tumor					eb6d354f-bcb3-59c2-be69-320a7d3b4f98	c63960eb-da48-5d24-b33e-fb510ef806c5		
+sample	IID_H211939_T03_01_WT01	Metastatic	C71.9 : Brain, NOS	1377	Tumor					70dc64db-ed93-5f84-8ada-1983bde2635f	c63960eb-da48-5d24-b33e-fb510ef806c5		
+sample	IID_H211940_T01_01_WG01	Regional	C76.2 : Abdomen, NOS	6403	Tumor					588b9abd-c85a-5e8c-aa01-b21ce24cdc04	04cabda7-30d9-532c-8f2b-2f45a8c14faa		
+sample	IID_H211940_T01_01_WT01	Regional	C76.2 : Abdomen, NOS	6403	Tumor					634e701c-c322-5d00-adae-1f8afbaf5eb1	04cabda7-30d9-532c-8f2b-2f45a8c14faa		
+sample	IID_H211941_N01_01_WG01	Not Applicable	Not Reported	-999	Normal					ac3f6bb9-96ef-5dac-9c70-74308ac513c5	4babadfc-2d13-5513-9d55-192b81928688		
+sample	IID_H211941_T01_01_WG01	Regional	C77.8 : Lymph nodes of multiple regions	4347	Tumor					a736ed8a-0e12-54bd-a349-7d9cb374fe23	4babadfc-2d13-5513-9d55-192b81928688		
+sample	IID_H211941_T01_01_WT01	Regional	C77.8 : Lymph nodes of multiple regions	4347	Tumor					d6de6dae-347a-5caf-9b5f-d887e0c5e775	4babadfc-2d13-5513-9d55-192b81928688		
+sample	IID_H211941_T02_01_WG01	Regional	C64.9 : Kidney, NOS	4393	Tumor					fb142cef-e961-57ea-9a82-b40f903e8c7a	4babadfc-2d13-5513-9d55-192b81928688		
+sample	IID_H211941_T02_01_WT01	Regional	C64.9 : Kidney, NOS	4393	Tumor					a26aadf2-328d-5202-8ba3-ac43fe8dd756	4babadfc-2d13-5513-9d55-192b81928688		
+sample	IID_H211942_T01_01_WG01	Regional	C74.9 : Adrenal gland, NOS	317	Tumor					44b46fd1-d360-5900-9cfc-fa08d34a4cd0	b58c2fbf-3b1d-5e16-b1dd-c31b256de82e		
+sample	IID_H211942_T01_01_WT01	Regional	C74.9 : Adrenal gland, NOS	317	Tumor					d2a17807-22bf-5776-b0c6-902d3d290c5e	b58c2fbf-3b1d-5e16-b1dd-c31b256de82e		
+sample	IID_H211943_T01_01_WG01	Regional	C76.2 : Abdomen, NOS	2344	Tumor					18db9418-5b0d-59fd-abcf-887e43f19db8	11b8d276-5f7c-5345-9042-fac8c06e86bf		
+sample	IID_H211943_T01_01_WT01	Regional	C76.2 : Abdomen, NOS	2344	Tumor					66715f05-3c54-545b-8d7d-28d68cf8be56	11b8d276-5f7c-5345-9042-fac8c06e86bf		
+sample	IID_H211944_T01_01_WG01	Primary	C38.3 : Mediastinum, NOS	527	Tumor					f35f9b90-d8a3-59fa-8e63-62480a485bcd	27397f22-5777-51ab-bd07-826da6ebc8a9		
+sample	IID_H211944_T01_01_WT01	Primary	C38.3 : Mediastinum, NOS	527	Tumor					dcb49941-e75f-5f91-8f70-1adbb085b98c	27397f22-5777-51ab-bd07-826da6ebc8a9		
+sample	IID_H211945_T01_01_WG01	Regional	C47.0 : Peripheral nerves and autonomic nervous system of head, face, and neck	5724	Tumor					f5864165-e728-5f26-8ee8-4eb02c565630	c1e7ac12-9b6b-50a8-8878-3fec3f0fa295		
+sample	IID_H211945_T01_01_WT01	Regional	C47.0 : Peripheral nerves and autonomic nervous system of head, face, and neck	5724	Tumor					a14444b4-7556-5f1a-82ab-2a59b07f1a89	c1e7ac12-9b6b-50a8-8878-3fec3f0fa295		
+sample	IID_H211945_T02_01_WG01	Regional	C47.0 : Peripheral nerves and autonomic nervous system of head, face, and neck	6405	Tumor					eb3747fe-8b74-57cd-8742-09d32b7d897f	c1e7ac12-9b6b-50a8-8878-3fec3f0fa295		
+sample	IID_H211945_T02_01_WT01	Regional	C47.0 : Peripheral nerves and autonomic nervous system of head, face, and neck	6405	Tumor					20c5d9f7-4feb-5cb1-a01c-2a4b1a206914	c1e7ac12-9b6b-50a8-8878-3fec3f0fa295		
+sample	IID_H211945_T03_01_WG01	Regional	C47.0 : Peripheral nerves and autonomic nervous system of head, face, and neck	7644	Tumor					6a29e8dc-7cd8-5575-8b3f-59c5a008baab	c1e7ac12-9b6b-50a8-8878-3fec3f0fa295		
+sample	IID_H211945_T03_01_WT01	Regional	C47.0 : Peripheral nerves and autonomic nervous system of head, face, and neck	7644	Tumor					2fef7967-98ed-5ca2-807f-e629ce7b6aad	c1e7ac12-9b6b-50a8-8878-3fec3f0fa295		
+sample	IID_H211945_T04_01_WG01	Regional	C47.0 : Peripheral nerves and autonomic nervous system of head, face, and neck	9169	Tumor					e11b3b2b-6282-578b-9fc4-b7b993374a52	c1e7ac12-9b6b-50a8-8878-3fec3f0fa295		
+sample	IID_H211945_T04_01_WT01	Regional	C47.0 : Peripheral nerves and autonomic nervous system of head, face, and neck	9169	Tumor					f89617e1-9495-54dd-a92f-3c54c600f7d2	c1e7ac12-9b6b-50a8-8878-3fec3f0fa295		
+sample	IID_H211945_T05_01_WG01	Regional	C47.0 : Peripheral nerves and autonomic nervous system of head, face, and neck	4732	Tumor					f715f055-2784-5048-b619-f81d73e42891	c1e7ac12-9b6b-50a8-8878-3fec3f0fa295		
+sample	IID_H211945_T05_01_WT01	Regional	C47.0 : Peripheral nerves and autonomic nervous system of head, face, and neck	4732	Tumor					9226fa82-3210-5939-bc2c-1f9c0c59e98d	c1e7ac12-9b6b-50a8-8878-3fec3f0fa295		
+sample	IID_H211945_T06_01_WG01	Regional	C47.0 : Peripheral nerves and autonomic nervous system of head, face, and neck	5306	Tumor					75de2e5a-271b-50c2-a849-d4e3df5c97bf	c1e7ac12-9b6b-50a8-8878-3fec3f0fa295		
+sample	IID_H211945_T06_01_WT01	Regional	C47.0 : Peripheral nerves and autonomic nervous system of head, face, and neck	5306	Tumor					d4a34f2d-c0bc-503f-b30d-735de8795c66	c1e7ac12-9b6b-50a8-8878-3fec3f0fa295		
+sample	IID_H211946_T01_01_WG01	Primary	C47.6 : Peripheral nerves and autonomic nervous system of trunk, NOS	2567	Tumor					7982b892-afd0-528e-801a-cbd8298bee4e	385b7bed-fdcc-5292-b75a-22050d620afa		
+sample	IID_H211946_T02_01_WG01	Primary	C47.6 : Peripheral nerves and autonomic nervous system of trunk, NOS	2733	Tumor					c018283f-ed94-5a51-b6dc-2df1b8c3f9b0	385b7bed-fdcc-5292-b75a-22050d620afa		
+sample	IID_H211946_T03_01_WG01	Primary	C77.8 : Lymph nodes of multiple regions	2733	Tumor					a384ffcf-4a7e-50fd-a362-98990654a9d7	385b7bed-fdcc-5292-b75a-22050d620afa		
+sample	IID_H211947_N01_01_WG01	Not Applicable	Not Reported	1565	Normal					e33d145c-df08-5c80-b13a-c4651d6e790c	f4f8301a-be35-589a-a775-abd2e0498dbd		
+sample	IID_H211947_T01_01_WG01	Metastatic	C34.9 : Lung, NOS	1565	Tumor					51cbf17e-175f-580d-95e2-e408732cb925	f4f8301a-be35-589a-a775-abd2e0498dbd		
+sample	IID_H211947_T01_01_WT01	Metastatic	C34.9 : Lung, NOS	1565	Tumor					d1c8e871-2c1d-5f69-a340-e1260046e78c	f4f8301a-be35-589a-a775-abd2e0498dbd		
+sample	IID_H211947_T02_01_WG01	Regional	C47.6 : Peripheral nerves and autonomic nervous system of trunk, NOS	1565	Tumor					0c5498b7-0ec8-5924-afa8-9430a7fb31fd	f4f8301a-be35-589a-a775-abd2e0498dbd		
+sample	IID_H211947_T02_01_WT01	Regional	C47.6 : Peripheral nerves and autonomic nervous system of trunk, NOS	1565	Tumor					51144990-cfae-51b6-902e-52f235a4d507	f4f8301a-be35-589a-a775-abd2e0498dbd		
+sample	IID_H211947_T03_01_WG01	Regional	C47.6 : Peripheral nerves and autonomic nervous system of trunk, NOS	1565	Tumor					75f09465-6f3b-5840-8e5d-e9271fbdc5a7	f4f8301a-be35-589a-a775-abd2e0498dbd		
+sample	IID_H211947_T03_01_WT01	Regional	C47.6 : Peripheral nerves and autonomic nervous system of trunk, NOS	1565	Tumor					e9cbfb61-c5e3-5846-a601-ecc48e5410d1	f4f8301a-be35-589a-a775-abd2e0498dbd		
+sample	IID_H211947_T04_01_WG01	Regional	C25.9 : Pancreas, NOS	1565	Tumor					7389117c-12e6-5f73-9fce-2e4996c2dfe9	f4f8301a-be35-589a-a775-abd2e0498dbd		
+sample	IID_H211947_T04_01_WT01	Regional	C25.9 : Pancreas, NOS	1565	Tumor					300a820b-76b7-557d-952a-d74788c1dab7	f4f8301a-be35-589a-a775-abd2e0498dbd		
+sample	IID_H211947_T05_01_WG01	Regional	C64.9 : Kidney, NOS	1565	Tumor					2c21c013-54e3-5d24-abd7-fea184499553	f4f8301a-be35-589a-a775-abd2e0498dbd		
+sample	IID_H211947_T05_01_WT01	Regional	C64.9 : Kidney, NOS	1565	Tumor					f80e42a4-4573-5773-825a-e96e10e96a74	f4f8301a-be35-589a-a775-abd2e0498dbd		
+sample	IID_H211947_T06_01_WG01	Metastatic	C34.9 : Lung, NOS	1565	Tumor					ae62b418-fdfe-55d5-82db-8f7c45702f2a	f4f8301a-be35-589a-a775-abd2e0498dbd		
+sample	IID_H211947_T06_01_WT01	Metastatic	C34.9 : Lung, NOS	1565	Tumor					d23b286a-2ef8-52ae-a42d-687718727a83	f4f8301a-be35-589a-a775-abd2e0498dbd		
+sample	IID_H211948_T01_01_WG01	Primary	C47.6 : Peripheral nerves and autonomic nervous system of trunk, NOS	511	Tumor					0507e21b-5811-55b8-9fde-6b895fd28dbd	69104bc4-b798-5448-b094-c7e3f073f6f7		
+sample	IID_H211948_T01_01_WT01	Primary	C47.6 : Peripheral nerves and autonomic nervous system of trunk, NOS	511	Tumor					df8b0b52-81b6-5f9d-baff-665b89d5b3ba	69104bc4-b798-5448-b094-c7e3f073f6f7		
+sample	IID_H211948_T02_01_WG01	Regional	C47.6 : Peripheral nerves and autonomic nervous system of trunk, NOS	644	Tumor					2ae355da-9c53-5a12-a19e-a4e7f5884c9e	69104bc4-b798-5448-b094-c7e3f073f6f7		
+sample	IID_H211948_T02_01_WT01	Regional	C47.6 : Peripheral nerves and autonomic nervous system of trunk, NOS	644	Tumor					f7c15193-1c0a-5373-aeb7-16de0c895be4	69104bc4-b798-5448-b094-c7e3f073f6f7		
+sample	IID_H211948_T03_01_WG01	Regional	C47.6 : Peripheral nerves and autonomic nervous system of trunk, NOS	1649	Tumor					04d10b34-3428-5089-abe6-00f81090823e	69104bc4-b798-5448-b094-c7e3f073f6f7		
+sample	IID_H211948_T03_01_WT01	Regional	C47.6 : Peripheral nerves and autonomic nervous system of trunk, NOS	1649	Tumor					7b20216e-e52b-57b6-9d41-027d7c65a903	69104bc4-b798-5448-b094-c7e3f073f6f7		
+sample	IID_H211948_T04_01_WG01	Regional	C47.6 : Peripheral nerves and autonomic nervous system of trunk, NOS	1847	Tumor					dc7d2ea8-0217-5167-8dc6-2f5d2e250b80	69104bc4-b798-5448-b094-c7e3f073f6f7		
+sample	IID_H211948_T04_01_WT01	Regional	C47.6 : Peripheral nerves and autonomic nervous system of trunk, NOS	1847	Tumor					bc5d434a-04c7-5937-bfeb-fad2f8472b02	69104bc4-b798-5448-b094-c7e3f073f6f7		
+sample	IID_H211948_T05_01_WG01	Regional	C47.6 : Peripheral nerves and autonomic nervous system of trunk, NOS	2177	Tumor					6b8aef63-ab8a-5256-a9ee-0a8a7b608bdc	69104bc4-b798-5448-b094-c7e3f073f6f7		
+sample	IID_H211948_T05_01_WT01	Regional	C47.6 : Peripheral nerves and autonomic nervous system of trunk, NOS	2177	Tumor					0229d402-911e-5fa9-8f65-7dc05404a620	69104bc4-b798-5448-b094-c7e3f073f6f7		
+sample	IID_H211949_T01_01_WG01	Primary	C22.0 : Liver	2701	Tumor					827a3202-86ff-551b-8433-5b1d157f939a	eb2ba7e1-3a1b-5565-b369-9900ae2adca0		
+sample	IID_H211949_T01_01_WT01	Primary	C22.0 : Liver	2701	Tumor					ff62c4a9-dfae-50e2-97b3-39c9220667c8	eb2ba7e1-3a1b-5565-b369-9900ae2adca0		
+sample	IID_H211949_T02_01_WG01	Primary	C22.0 : Liver	2802	Tumor					9bb181e2-8fa7-5dee-b7dc-39eacd10eef3	eb2ba7e1-3a1b-5565-b369-9900ae2adca0		
+sample	IID_H211949_T02_01_WT01	Primary	C22.0 : Liver	2802	Tumor					99e6a501-4385-587f-aa86-c154376fa428	eb2ba7e1-3a1b-5565-b369-9900ae2adca0		
+sample	IID_H211949_T03_01_WG01	Primary	C34.9 : Lung, NOS	2892	Tumor					744c0750-638d-539c-8fe6-83f8495b64af	eb2ba7e1-3a1b-5565-b369-9900ae2adca0		
+sample	IID_H211949_T03_01_WT01	Primary	C34.9 : Lung, NOS	2892	Tumor					81f65990-ce88-5acc-9765-6ab4b3463246	eb2ba7e1-3a1b-5565-b369-9900ae2adca0		
+sample	IID_H211949_T04_01_WG01	Regional	C47.6 : Peripheral nerves and autonomic nervous system of trunk, NOS	3095	Tumor					5eb04fa5-94ab-5c04-acc5-3b6d25b4e767	eb2ba7e1-3a1b-5565-b369-9900ae2adca0		
+sample	IID_H211949_T04_01_WT01	Regional	C47.6 : Peripheral nerves and autonomic nervous system of trunk, NOS	3095	Tumor					46443ce9-71c7-501e-a4ea-17428d03aee3	eb2ba7e1-3a1b-5565-b369-9900ae2adca0		
+sample	IID_H211950_T01_01_WG01	Regional	C76.3 : Pelvis, NOS	2424	Tumor					90762d1c-b776-555c-91e6-28d6ca250c0b	00cc45ed-8ae9-56a6-af7a-eab7b58a3afc		
+sample	IID_H211950_T01_01_WT01	Regional	C76.3 : Pelvis, NOS	2424	Tumor					c746fdcc-0988-5f67-b7ae-912904cdd976	00cc45ed-8ae9-56a6-af7a-eab7b58a3afc		
+sample	IID_H211950_T02_01_WG01	Regional	C76.2 : Abdomen, NOS	2494	Tumor					7581a918-00e2-5251-9638-79a04a06b082	00cc45ed-8ae9-56a6-af7a-eab7b58a3afc		
+sample	IID_H211950_T02_01_WT01	Regional	C76.2 : Abdomen, NOS	2494	Tumor					8911a1d7-af0c-56f4-a7dc-aad1ff1ece88	00cc45ed-8ae9-56a6-af7a-eab7b58a3afc		
+sample	IID_H211950_T03_01_WG01	Regional	C76.3 : Pelvis, NOS	2527	Tumor					99c66f2f-8072-53f8-9296-bfc1b48de40f	00cc45ed-8ae9-56a6-af7a-eab7b58a3afc		
+sample	IID_H211950_T03_01_WT01	Regional	C76.3 : Pelvis, NOS	2527	Tumor					ed3f9384-2fe6-5db4-8c42-2fabc814314c	00cc45ed-8ae9-56a6-af7a-eab7b58a3afc		
+sample	IID_H211950_T04_01_WG01	Regional	C76.3 : Pelvis, NOS	2597	Tumor					a60aeb9e-ac3b-59f9-a12c-ce04280b6ddb	00cc45ed-8ae9-56a6-af7a-eab7b58a3afc		
+sample	IID_H211950_T04_01_WT01	Regional	C76.3 : Pelvis, NOS	2597	Tumor					b03aa6c1-cc40-50d9-af11-f7fc748a3b24	00cc45ed-8ae9-56a6-af7a-eab7b58a3afc		
+sample	IID_H211950_T05_01_WG01	Regional	C76.3 : Pelvis, NOS	2657	Tumor					3dbe12e5-225c-5ee2-9813-a0b509cc9b3f	00cc45ed-8ae9-56a6-af7a-eab7b58a3afc		
+sample	IID_H211950_T05_01_WT01	Regional	C76.3 : Pelvis, NOS	2657	Tumor					c0a75cc0-9d81-5556-a913-fc434141faa1	00cc45ed-8ae9-56a6-af7a-eab7b58a3afc		
+sample	IID_H211950_T06_01_WG01	Primary	C76.2 : Abdomen, NOS	1437	Tumor					7a3d1c1b-edce-502f-8bc3-786885c5f54f	00cc45ed-8ae9-56a6-af7a-eab7b58a3afc		
+sample	IID_H211951_T01_01_WG01	Regional	C47.6 : Peripheral nerves and autonomic nervous system of trunk, NOS	896	Tumor					381566d6-7f69-5809-86dc-6cac263b908d	6736bc12-5542-5acd-a13d-c3513b937926		
+sample	IID_H211951_T01_01_WT01	Regional	C47.6 : Peripheral nerves and autonomic nervous system of trunk, NOS	896	Tumor					3194537a-1e5b-5aef-8f30-e8ed7cfcdfa4	6736bc12-5542-5acd-a13d-c3513b937926		
+sample	IID_H211951_T02_01_WG01	Regional	C38.3 : Mediastinum, NOS	1275	Tumor					02157f50-a592-557f-8cbd-46512e58f433	6736bc12-5542-5acd-a13d-c3513b937926		
+sample	IID_H211951_T02_01_WT01	Regional	C38.3 : Mediastinum, NOS	1275	Tumor					184ef42e-34c5-5a4b-87d6-175bbf892b5e	6736bc12-5542-5acd-a13d-c3513b937926		
+sample	IID_H211951_T03_01_WG01	Regional	C76.3 : Pelvis, NOS	1377	Tumor					c7883c72-6d9b-5375-b39d-8714cf9166f1	6736bc12-5542-5acd-a13d-c3513b937926		
+sample	IID_H211951_T03_01_WT01	Regional	C76.3 : Pelvis, NOS	1377	Tumor					e2c6ee06-ff60-5d01-bb17-2c93f206c916	6736bc12-5542-5acd-a13d-c3513b937926		
+sample	IID_H211952_T01_01_WG01	Primary	C77.0 : Lymph nodes of head, face and neck	3285	Tumor					71af0a42-05ef-526c-ba11-a21e82485a29	31062e4b-6c23-5b01-a28c-ec28c089218b		
+sample	IID_H211952_T01_01_WT01	Primary	C77.0 : Lymph nodes of head, face and neck	3285	Tumor					88357bbb-e46a-5f71-a5f1-621207beb6ec	31062e4b-6c23-5b01-a28c-ec28c089218b		
+sample	IID_H211952_T02_01_WG01	Primary	C74.9 : Adrenal gland, NOS	3340	Tumor					61904fec-2499-5216-a949-25a9f8fe65fb	31062e4b-6c23-5b01-a28c-ec28c089218b		
+sample	IID_H211952_T03_01_WG01	Primary	C77.8 : Lymph nodes of multiple regions	3296	Tumor					403101ec-73c2-5e99-8ad9-7633485dfdee	31062e4b-6c23-5b01-a28c-ec28c089218b		
+sample	IID_H211952_T03_01_WT01	Primary	C77.8 : Lymph nodes of multiple regions	3296	Tumor					00df7484-195c-5630-8261-c40fca983e87	31062e4b-6c23-5b01-a28c-ec28c089218b		
+sample	IID_H211952_T04_01_WG01	Regional	C47.0 : Peripheral nerves and autonomic nervous system of head, face, and neck	3396	Tumor					e638a934-2124-537f-8632-98678db6bff9	31062e4b-6c23-5b01-a28c-ec28c089218b		
+sample	IID_H211952_T04_01_WT01	Regional	C47.0 : Peripheral nerves and autonomic nervous system of head, face, and neck	3396	Tumor					b4914cd3-a33f-56e0-a20f-7e85b53472a6	31062e4b-6c23-5b01-a28c-ec28c089218b		
+sample	IID_H211952_T05_01_WG01	Regional	C47.0 : Peripheral nerves and autonomic nervous system of head, face, and neck	3438	Tumor					723e9625-86ca-55b6-acef-3091270e0d7b	31062e4b-6c23-5b01-a28c-ec28c089218b		
+sample	IID_H211952_T05_01_WT01	Regional	C47.0 : Peripheral nerves and autonomic nervous system of head, face, and neck	3438	Tumor					1423b493-cc28-5492-bfe3-8a24c0549666	31062e4b-6c23-5b01-a28c-ec28c089218b		
+sample	IID_H211952_T06_01_WG01	Regional	C76.2 : Abdomen, NOS	3694	Tumor					d4f8500b-0c5f-57cb-b8aa-d47914167b43	31062e4b-6c23-5b01-a28c-ec28c089218b		
+sample	IID_H211952_T06_01_WT01	Regional	C76.2 : Abdomen, NOS	3694	Tumor					e5c4c1cc-c786-5f71-9bac-e3fc88e44a75	31062e4b-6c23-5b01-a28c-ec28c089218b		
+sample	IID_H211952_T07_01_WG01	Regional	C25.9 : Pancreas, NOS	6108	Tumor					594dd24c-45fa-5c1c-9aaf-d1adbb97c9c0	31062e4b-6c23-5b01-a28c-ec28c089218b		
+sample	IID_H211952_T07_01_WT01	Regional	C25.9 : Pancreas, NOS	6108	Tumor					d9e537ce-e893-51e8-af5a-e987f3bdde84	31062e4b-6c23-5b01-a28c-ec28c089218b		
+sample	IID_H211952_T08_01_WG01	Regional	C77.8 : Lymph nodes of multiple regions	6542	Tumor					80da6961-7c53-5848-9095-7eb6e08b47b4	31062e4b-6c23-5b01-a28c-ec28c089218b		
+sample	IID_H211953_T01_01_WG01	Primary	C47.6 : Peripheral nerves and autonomic nervous system of trunk, NOS	2047	Tumor					1e5c99ae-ea9e-5a29-a164-6c8654bba28b	99d355c0-2bba-5cc8-93a0-1bf1a51d9931		
+sample	IID_H211953_T01_01_WT01	Primary	C47.6 : Peripheral nerves and autonomic nervous system of trunk, NOS	2047	Tumor					59811f26-c50c-5af9-adfd-7db3f0aac827	99d355c0-2bba-5cc8-93a0-1bf1a51d9931		
+sample	IID_H211953_T02_01_WG01	Primary	C38.3 : Mediastinum, NOS	2062	Tumor					306f24f4-b696-53cb-8941-5cbd3a4a4a6a	99d355c0-2bba-5cc8-93a0-1bf1a51d9931		
+sample	IID_H211953_T02_01_WT01	Primary	C38.3 : Mediastinum, NOS	2062	Tumor					9d815ecf-924d-55bf-ae45-965b6371186a	99d355c0-2bba-5cc8-93a0-1bf1a51d9931		
+sample	IID_H211953_T03_01_WG01	Primary	C38.3 : Mediastinum, NOS	2287	Tumor					edb7370c-e981-5b8b-9ca7-19476350f5dd	99d355c0-2bba-5cc8-93a0-1bf1a51d9931		
+sample	IID_H211953_T04_01_WG01	Regional	C38.3 : Mediastinum, NOS	2517	Tumor					f5023a92-ae08-5f40-8e3b-dded2996f4e6	99d355c0-2bba-5cc8-93a0-1bf1a51d9931		
+sample	IID_H211953_T04_01_WT01	Regional	C38.3 : Mediastinum, NOS	2517	Tumor					6a446dbd-20a4-5119-a88a-9f851c303fda	99d355c0-2bba-5cc8-93a0-1bf1a51d9931		
+sample	IID_H211954_T01_01_WG01	Primary	C74.9 : Adrenal gland, NOS	1739	Tumor					c2c4a88b-5b1d-5f2e-87d3-610ed5d09165	8fa5e145-9235-5362-8b69-a4dc2e34a825		
+sample	IID_H211954_T01_01_WT01	Primary	C74.9 : Adrenal gland, NOS	1739	Tumor					81399399-544a-5dd4-96c8-868ac6ab6bb0	8fa5e145-9235-5362-8b69-a4dc2e34a825		
+sample	IID_H211955_T01_01_WG01	Primary	C74.9 : Adrenal gland, NOS	800	Tumor					0e90d827-73a7-5025-8884-ea6156f33e3c	e19fe4fa-301c-5e7f-b029-7925cc44e36f		
+sample	IID_H211955_T01_01_WT01	Primary	C74.9 : Adrenal gland, NOS	800	Tumor					96b8bb11-0385-5620-b287-eba14e2c9acf	e19fe4fa-301c-5e7f-b029-7925cc44e36f		
+sample	IID_H211956_T01_01_WG01	Primary	C74.9 : Adrenal gland, NOS	220	Tumor					7c015805-2ca8-5ce9-8ee4-7643b9d416ce	59243b84-6425-54d2-abb5-021be43b6395		
+sample	IID_H211956_T01_01_WT01	Primary	C74.9 : Adrenal gland, NOS	220	Tumor					92dd8f20-e708-5e84-871a-c502647202ae	59243b84-6425-54d2-abb5-021be43b6395		
+sample	IID_H211957_T01_01_WG01	Regional	C38.3 : Mediastinum, NOS	1983	Tumor					d2300034-72f9-5f94-9653-a24ff273fa4d	438507ee-d785-5ddb-bb73-9412f41ad5a1		
+sample	IID_H211957_T01_01_WT01	Regional	C38.3 : Mediastinum, NOS	1983	Tumor					3933068a-e9f8-549b-976b-2c83161f16c0	438507ee-d785-5ddb-bb73-9412f41ad5a1		
+sample	IID_H211958_T01_01_WG01	Metastatic	C71.9 : Brain, NOS	822	Tumor					9bdf768f-cadd-5b4c-b128-2d881f203abf	c18d6e21-66d4-5e05-b8c2-163520284149		
+sample	IID_H211959_T01_01_WG01	Regional	C48.2 : Peritoneum, NOS	1692	Tumor					df19d43c-58b7-5ffa-8a1c-dd06535fef34	3e144ba2-7f75-5652-ad7b-771e7e6a37ad		
+sample	IID_H211959_T01_01_WT01	Regional	C48.2 : Peritoneum, NOS	1692	Tumor					e8ac092f-4aa2-5ecd-a28c-6db5a1c61844	3e144ba2-7f75-5652-ad7b-771e7e6a37ad		
+sample	IID_H211960_N01_01_WG01	Not Applicable	Not Reported	-999	Normal					c8086b30-0ded-5c5e-8798-80c20056a15d	f0566b8c-f0c9-5ef4-80e7-fe18e3688bc0		
+sample	IID_H211960_T01_01_WG01	Regional	C38.3 : Mediastinum, NOS	1679	Tumor					4ca89ba1-7e7c-5ae1-b45d-2e80a8baf37f	f0566b8c-f0c9-5ef4-80e7-fe18e3688bc0		
+sample	IID_H211960_T01_01_WT01	Regional	C38.3 : Mediastinum, NOS	1679	Tumor					805a6b55-59dd-5a54-866c-07014d1d2d19	f0566b8c-f0c9-5ef4-80e7-fe18e3688bc0		
+sample	IID_H211961_N01_01_WG01	Not Applicable	Not Reported	-999	Normal					f798005d-1462-5e44-8161-03dd87b9c898	f24712bf-3491-59c6-89cc-c6d8c34f1303		
+sample	IID_H211961_T01_01_WG01	Primary	C74.9 : Adrenal gland, NOS	871	Tumor					e6db0c24-38cd-5c8c-a47d-fbd7128fb038	f24712bf-3491-59c6-89cc-c6d8c34f1303		
+sample	IID_H211961_T01_01_WT01	Primary	C74.9 : Adrenal gland, NOS	871	Tumor					ac67a8ce-7ff5-5a05-8236-5c3a52e0bc09	f24712bf-3491-59c6-89cc-c6d8c34f1303		
+sample	IID_H211962_T01_01_WG01	Regional	C48.2 : Peritoneum, NOS	762	Tumor					2a2d9b1f-08c9-525d-9ea2-93862a98deed	3bbfa1a4-5c23-5c88-8d78-6e2f20b06ebb		
+sample	IID_H211962_T01_01_WT01	Regional	C48.2 : Peritoneum, NOS	762	Tumor					822e1ae0-42e4-5ce0-9750-3b972e80861e	3bbfa1a4-5c23-5c88-8d78-6e2f20b06ebb		
+sample	IID_H211963_T01_01_WG01	Primary	C74.9 : Adrenal gland, NOS	1381	Tumor					f75ffda2-4175-5f19-a22b-1812cc702f13	530ba490-117d-53a0-9ada-78bcfee28e28		
+sample	IID_H211963_T01_01_WT01	Primary	C74.9 : Adrenal gland, NOS	1381	Tumor					282ce219-ac71-5695-ace0-cbf048b8ee81	530ba490-117d-53a0-9ada-78bcfee28e28		
+sample	IID_H211964_T01_01_WG01	Primary	C74.9 : Adrenal gland, NOS	1065	Tumor					b3327853-32c2-5714-b8be-57e7b42d620c	da28da93-5c78-5570-8b97-8d90f1d4fb97		
+sample	IID_H211964_T01_01_WT01	Primary	C74.9 : Adrenal gland, NOS	1065	Tumor					96c07a6d-3de7-543b-a3b3-0a047d00a673	da28da93-5c78-5570-8b97-8d90f1d4fb97		
+sample	IID_H211965_N01_01_WG01	Not Applicable	Not Reported	-999	Normal					1a1f80a8-3baf-5f77-852a-466f06a428b4	e40074df-8326-5fc6-8e7f-78d229cd975d		
+sample	IID_H211965_T01_01_WG01	Primary	C48.2 : Peritoneum, NOS	299	Tumor					0dd05a10-3bef-5c5a-8a0f-512ecf527204	e40074df-8326-5fc6-8e7f-78d229cd975d		
+sample	IID_H211965_T01_01_WT01	Primary	C48.2 : Peritoneum, NOS	299	Tumor					ab73c993-d665-5104-ba1a-00a1227e947f	e40074df-8326-5fc6-8e7f-78d229cd975d		
+sample	IID_H211966_T01_01_WG01	Primary	C76.2 : Abdomen, NOS	441	Tumor					f1cb12c6-83fd-57e4-bf79-99e2e74239b4	ba4c3bbd-cdc1-548b-88e5-28f3549555ca		
+sample	IID_H211966_T01_01_WT01	Primary	C76.2 : Abdomen, NOS	441	Tumor					d16768ae-23de-5ce6-a975-4d4177c8e383	ba4c3bbd-cdc1-548b-88e5-28f3549555ca		
+sample	IID_H211967_T01_01_WG01	Primary	C64.9 : Kidney, NOS	545	Tumor					58b13f55-8c62-53ea-a14c-e3a7aa3159b0	b1f92821-a1c5-55cd-a992-e153392133e5		
+sample	IID_H211967_T01_01_WT01	Primary	C64.9 : Kidney, NOS	545	Tumor					9b87a4b2-58a0-5961-802b-4e3c67f1fb5e	b1f92821-a1c5-55cd-a992-e153392133e5		
+sample	IID_H211968_T01_01_WG01	Primary	C48.2 : Peritoneum, NOS	840	Tumor					f4084ec6-7dcc-5aea-808a-ecc284c52944	6d872c2c-d4d9-58f8-8f1a-fff2cfc6b9b3		
+sample	IID_H211968_T01_01_WT01	Primary	C48.2 : Peritoneum, NOS	840	Tumor					a343eec5-1dd2-581d-b009-70e2a576c723	6d872c2c-d4d9-58f8-8f1a-fff2cfc6b9b3		
+sample	IID_H211969_T01_01_WG01	Regional	C47.0 : Peripheral nerves and autonomic nervous system of head, face, and neck	4997	Tumor					cac476c8-cec0-59f5-8f19-c6767dae69e4	72864f1b-c3be-5db4-a03d-36f83ea78255		
+sample	IID_H211969_T01_01_WT01	Regional	C47.0 : Peripheral nerves and autonomic nervous system of head, face, and neck	4997	Tumor					f5124805-65b7-52f5-842f-051a97495cbe	72864f1b-c3be-5db4-a03d-36f83ea78255		
+sample	IID_H211970_T01_01_WG01	Primary	C76.2 : Abdomen, NOS	135	Tumor					56828397-b49b-5aa7-8a1d-973feaa6d6f4	55530ac0-8d0f-5340-8c3e-f63920b40d68		
+sample	IID_H211971_T01_01_WG01	Regional	C77.0 : Lymph nodes of head, face and neck	7391	Tumor					bae0e6a5-9313-5458-abbe-a4d778ede4df	002d2d36-4f17-578c-ba4a-f928679b55f5		
+sample	IID_H211971_T01_01_WT01	Regional	C77.0 : Lymph nodes of head, face and neck	7391	Tumor					d87e0b92-0bb2-524d-9630-f077b9a61f0c	002d2d36-4f17-578c-ba4a-f928679b55f5		
+sample	IID_H211972_T01_01_WG01	Primary	C64.9 : Kidney, NOS	589	Tumor					59315750-568f-5907-8ff1-09f7c47242f6	c970866f-3338-5454-b117-e876a20320a7		
+sample	IID_H211972_T01_01_WT01	Primary	C64.9 : Kidney, NOS	589	Tumor					df011782-b5f2-541d-aecd-230f82b342bb	c970866f-3338-5454-b117-e876a20320a7		
+sample	IID_H211973_T01_01_WG01	Regional	C74.9 : Adrenal gland, NOS	1205	Tumor					7131e177-d37f-51e1-b4a2-4d139a0686a8	b3a53f8f-f56e-5e02-928f-69ee31fca09b		
+sample	IID_H211973_T01_01_WT01	Regional	C74.9 : Adrenal gland, NOS	1205	Tumor					0c99579f-3b59-5dfe-a54d-ea927a30d9b1	b3a53f8f-f56e-5e02-928f-69ee31fca09b		
+sample	IID_H211974_T01_01_WG01	Regional	C76.2 : Abdomen, NOS	1392	Tumor					59807ede-c9df-5f29-b285-9b887bdd0090	89b2eb5d-80bd-5291-8e34-05bc987d3c16		
+sample	IID_H211974_T01_01_WT01	Regional	C76.2 : Abdomen, NOS	1392	Tumor					1c6150db-008b-5d14-b2a3-dfc2d4e2c4db	89b2eb5d-80bd-5291-8e34-05bc987d3c16		
+sample	IID_H211975_N01_01_WG01	Not Applicable	Not Reported	-999	Normal					f972643c-a4ea-5a04-9391-c6857fe8ef91	1f2bf49e-0e04-537d-99cb-35d578442cc2		
+sample	IID_H211975_T01_01_WG01	Primary	C48.2 : Peritoneum, NOS	2545	Tumor					287f99e7-ccd1-5616-a61b-a5fd47af10e2	1f2bf49e-0e04-537d-99cb-35d578442cc2		
+sample	IID_H211975_T01_01_WT01	Primary	C48.2 : Peritoneum, NOS	2545	Tumor					6c98a52d-13bb-506d-b523-8d008ff8b3c2	1f2bf49e-0e04-537d-99cb-35d578442cc2		
+sample	IID_H211975_T02_01_WG01	Primary	C48.2 : Peritoneum, NOS	2583	Tumor					0612da65-5a77-5d31-959e-13fe9dabd451	1f2bf49e-0e04-537d-99cb-35d578442cc2		
+sample	IID_H211975_T02_01_WT01	Primary	C48.2 : Peritoneum, NOS	2583	Tumor					6ee1d22a-8ef0-51f6-873c-8a17baf0f396	1f2bf49e-0e04-537d-99cb-35d578442cc2		
+sample	IID_H211976_T01_01_WG01	Primary	C48.2 : Peritoneum, NOS	1823	Tumor					d614e6ff-9041-59c2-8e9e-f2b9be8fef56	dac4e0db-ff71-52be-8d52-f6b768e4bc5b		
+sample	IID_H211976_T01_01_WT01	Primary	C48.2 : Peritoneum, NOS	1823	Tumor					fab0b72a-1f69-5edc-a78a-ba99bae8850a	dac4e0db-ff71-52be-8d52-f6b768e4bc5b		
+sample	IID_H211977_N01_01_WG01	Not Applicable	Not Reported	-999	Normal					48661c67-8059-563c-a54b-810b382cdfac	0ee455cf-6dcd-5d49-9544-6b19ed2a41c6		
+sample	IID_H211977_T01_01_WG01	Primary	C74.9 : Adrenal gland, NOS	1602	Tumor					751e0b92-45db-54bc-8b4a-47ec822a4235	0ee455cf-6dcd-5d49-9544-6b19ed2a41c6		
+sample	IID_H211977_T01_01_WT01	Primary	C74.9 : Adrenal gland, NOS	1602	Tumor					b3f805a6-1c2d-5d19-8183-68920c0c304a	0ee455cf-6dcd-5d49-9544-6b19ed2a41c6		
+sample	IID_H211978_T01_01_WG01	Primary	C74.9 : Adrenal gland, NOS	833	Tumor					77ffa449-38fb-5a1a-9856-9fbb93817664	91e37060-eb35-5410-a99f-7b7dff87db0a		
+sample	IID_H211978_T01_01_WT01	Primary	C74.9 : Adrenal gland, NOS	833	Tumor					8fb070f2-26c2-5730-9a0c-4ebac057d713	91e37060-eb35-5410-a99f-7b7dff87db0a		
+sample	IID_H211979_T01_01_WG01	Primary	C74.9 : Adrenal gland, NOS	1061	Tumor					b95c5ca4-25ce-555d-a21c-899749edf943	947cf322-dfdd-5fa1-9888-cb074d3f428a		
+sample	IID_H211979_T01_01_WT01	Primary	C74.9 : Adrenal gland, NOS	1061	Tumor					685cbb5e-59cf-5a00-a9ac-4e8de5f4a37c	947cf322-dfdd-5fa1-9888-cb074d3f428a		
+sample	IID_H211980_N01_01_WG01	Not Applicable	Not Reported	-999	Normal					b567d9d8-e255-5575-ab89-dd0e3aaa03a0	d3eef759-5398-5020-b1ef-380e08dcb3d1		
+sample	IID_H211980_T01_01_WG01	Primary	C74.9 : Adrenal gland, NOS	1938	Tumor					e7e98427-5b35-587b-94b1-22ecfda4e8d0	d3eef759-5398-5020-b1ef-380e08dcb3d1		
+sample	IID_H211980_T01_01_WT01	Primary	C74.9 : Adrenal gland, NOS	1938	Tumor					23451951-6121-536f-ba17-413eeb15d0a4	d3eef759-5398-5020-b1ef-380e08dcb3d1		
+sample	IID_H211981_N01_01_WG01	Not Applicable	Not Reported	-999	Normal					ae0a5cf8-e15a-5252-9ea9-ea5c8cc09b63	75af0101-8555-55d5-85a9-d048f47f36dd		
+sample	IID_H211981_T01_01_WG01	Metastatic	C77.3 : Lymph nodes of axilla or arm	3552	Tumor					bfca6c19-1d24-555c-b47c-c4d1051cb28c	75af0101-8555-55d5-85a9-d048f47f36dd		
+sample	IID_H211981_T01_01_WT01	Metastatic	C77.3 : Lymph nodes of axilla or arm	3552	Tumor					059ed600-2da1-5a8e-9390-85814a7f4c4e	75af0101-8555-55d5-85a9-d048f47f36dd		
+sample	IID_H211982_N01_01_WG01	Not Applicable	Not Reported	-999	Normal					518dfb7d-f03c-5ee5-be09-8ba1426e3f84	43aefc19-71db-51d7-832e-81a6a2420e3f		
+sample	IID_H211982_T01_01_WG01	Primary	C38.3 : Mediastinum, NOS	1718	Tumor					3ed23f28-d1d4-5101-b0db-3ab3dc3b2579	43aefc19-71db-51d7-832e-81a6a2420e3f		
+sample	IID_H211982_T01_01_WT01	Primary	C38.3 : Mediastinum, NOS	1718	Tumor					8158e0c3-ea41-5b22-a530-d3fb085ff83f	43aefc19-71db-51d7-832e-81a6a2420e3f		
+sample	IID_H211983_N01_01_WG01	Not Applicable	Not Reported	-999	Normal					53a2dd08-f849-5f97-835e-58484d70cb5f	f0fdac33-ddc4-58dd-ade3-086619980344		
+sample	IID_H211983_T01_01_WG01	Primary	C74.9 : Adrenal gland, NOS	1976	Tumor					2e010cfe-274d-5de1-80f7-d6f6547e09b9	f0fdac33-ddc4-58dd-ade3-086619980344		
+sample	IID_H211983_T01_01_WT01	Primary	C74.9 : Adrenal gland, NOS	1976	Tumor					ffbed0ad-8c49-5992-aa78-6afe21cf5d25	f0fdac33-ddc4-58dd-ade3-086619980344		
+sample	IID_H211983_T02_01_WG01	Primary	C48.2 : Peritoneum, NOS	2023	Tumor					d0d3bf8b-2e60-5156-8798-68a772ff25ff	f0fdac33-ddc4-58dd-ade3-086619980344		
+sample	IID_H211983_T02_01_WT01	Primary	C48.2 : Peritoneum, NOS	2023	Tumor					8328788f-1b58-56be-8d62-6b763fd1f063	f0fdac33-ddc4-58dd-ade3-086619980344		
+sample	IID_H211983_T03_01_WG01	Primary	C38.3 : Mediastinum, NOS	2060	Tumor					1dda5c7a-15fb-54ff-a192-3a82aa3bbf4c	f0fdac33-ddc4-58dd-ade3-086619980344		
+sample	IID_H211983_T03_01_WT01	Primary	C38.3 : Mediastinum, NOS	2060	Tumor					1da8fc7d-3fad-57d8-a3ba-d73556313bf9	f0fdac33-ddc4-58dd-ade3-086619980344		
+sample	IID_H211984_N01_01_WG01	Not Applicable	Not Reported	-999	Normal					b88e0067-58a6-5ac4-912b-3315b6a92b2c	a022749e-1e85-54e7-8901-cb484e3ae4c6		
+sample	IID_H211984_T01_01_WG01	Regional	C38.3 : Mediastinum, NOS	2476	Tumor					37733dc5-2772-5997-ac8a-e543b833c718	a022749e-1e85-54e7-8901-cb484e3ae4c6		
+sample	IID_H211984_T01_01_WT01	Regional	C38.3 : Mediastinum, NOS	2476	Tumor					b73fad10-596c-5b78-8b3f-44314ba8f58f	a022749e-1e85-54e7-8901-cb484e3ae4c6		
+sample	IID_H211985_N01_01_WG01	Not Applicable	Not Reported	-999	Normal					1f03e032-ca94-5f6e-8ca9-e90ad3a81946	365a9d11-e9bc-5f10-bb02-d53fce2b587b		
+sample	IID_H211985_T01_01_WG01	Primary	C74.9 : Adrenal gland, NOS	1483	Tumor					17b6e70e-2ebb-5f7d-a0e1-eff32df79090	365a9d11-e9bc-5f10-bb02-d53fce2b587b		
+sample	IID_H211985_T01_01_WT01	Primary	C74.9 : Adrenal gland, NOS	1483	Tumor					28aa8b25-0171-518a-992e-484acecc6e5a	365a9d11-e9bc-5f10-bb02-d53fce2b587b		
+sample	IID_H211985_T02_01_WG01	Primary	C76.2 : Abdomen, NOS	1519	Tumor					a842b685-e360-5bb3-a341-7eafe9be5548	365a9d11-e9bc-5f10-bb02-d53fce2b587b		
+sample	IID_H211985_T02_01_WT01	Primary	C76.2 : Abdomen, NOS	1519	Tumor					c689c011-85cc-5abd-a8c5-d55664ce73e4	365a9d11-e9bc-5f10-bb02-d53fce2b587b		
+sample	IID_H211986_N01_01_WG01	Not Applicable	Not Reported	-999	Normal					e8286a51-c4a8-56ff-84ae-7832f61385d4	084f80e8-0fb6-5067-b26c-2f94229da3b0		
+sample	IID_H211986_T01_01_WG01	Metastatic	C71.9 : Brain, NOS	2140	Tumor					780ba858-fada-5a49-850c-a5c127fff6f0	084f80e8-0fb6-5067-b26c-2f94229da3b0		
+sample	IID_H211986_T01_01_WT01	Metastatic	C71.9 : Brain, NOS	2140	Tumor					a119d004-650e-5432-a5eb-884962fb89db	084f80e8-0fb6-5067-b26c-2f94229da3b0		
+sample	IID_H211987_N01_01_WG01	Not Applicable	Not Reported	-999	Normal					173affbe-a8d5-5de2-959f-153a73455cd8	91f9d50f-d5bb-5f33-92b2-1a26256fb62a		
+sample	IID_H211987_T01_01_WG01	Regional	C74.9 : Adrenal gland, NOS	1137	Tumor					018820f4-c917-569e-bc5d-935c38fd4723	91f9d50f-d5bb-5f33-92b2-1a26256fb62a		
+sample	IID_H211987_T01_01_WT01	Regional	C74.9 : Adrenal gland, NOS	1137	Tumor					514dc10c-39df-5e65-a4b1-629ae5360e36	91f9d50f-d5bb-5f33-92b2-1a26256fb62a		
+sample	IID_H211988_N01_01_WG01	Not Applicable	Not Reported	-999	Normal					c3cebe53-1cfa-5594-b229-46be4db1bba9	3a57e3f0-8d64-5dc9-a37f-e696962db53d		
+sample	IID_H211988_T01_01_WG01	Primary	C74.9 : Adrenal gland, NOS	1894	Tumor					45f028ea-9e0d-55c7-88c8-67efbaea4092	3a57e3f0-8d64-5dc9-a37f-e696962db53d		
+sample	IID_H211988_T01_01_WT01	Primary	C74.9 : Adrenal gland, NOS	1894	Tumor					c3df48f3-3ce2-500f-be48-849c8d40a58f	3a57e3f0-8d64-5dc9-a37f-e696962db53d		
+sample	IID_H211988_T02_01_WG01	Primary	C38.3 : Mediastinum, NOS	1939	Tumor					eb084a51-5412-53c9-9f02-0af07fb1d926	3a57e3f0-8d64-5dc9-a37f-e696962db53d		
+sample	IID_H211988_T02_01_WT01	Primary	C38.3 : Mediastinum, NOS	1939	Tumor					2e96e146-b736-5327-802c-bcdf7dd23dca	3a57e3f0-8d64-5dc9-a37f-e696962db53d		
+sample	IID_H211989_N01_01_WG01	Not Applicable	Not Reported	-999	Normal					0fcee7eb-0d16-5a1f-a12f-f5fe980132b2	7f0c1f48-68bd-5797-9363-f645343e83a7		
+sample	IID_H211989_T01_01_WG01	Regional	C48.2 : Peritoneum, NOS	1906	Tumor					e103acb2-2315-59b2-b05b-5525394542d8	7f0c1f48-68bd-5797-9363-f645343e83a7		
+sample	IID_H211989_T01_01_WT01	Regional	C48.2 : Peritoneum, NOS	1906	Tumor					41fc0055-8b6f-5eaa-801e-ad86e196deff	7f0c1f48-68bd-5797-9363-f645343e83a7		
+sample	IID_H211989_T02_01_WG01	Regional	C48.2 : Peritoneum, NOS	2153	Tumor					ad67ad21-3f63-5d6a-b759-444fbe5fd413	7f0c1f48-68bd-5797-9363-f645343e83a7		
+sample	IID_H211989_T02_01_WT01	Regional	C48.2 : Peritoneum, NOS	2153	Tumor					ac99eb63-028f-556a-82c8-26d27f121d7b	7f0c1f48-68bd-5797-9363-f645343e83a7		
+sample	IID_H211990_N01_01_WG01	Not Applicable	Not Reported	-999	Normal					1bcf557f-cfed-5ed4-987b-ef335b68f3f1	ac6e7164-325e-54ea-a5cf-251f75ec1dc0		
+sample	IID_H211990_T01_01_WG01	Primary	C48.2 : Peritoneum, NOS	971	Tumor					f818fb17-646e-55be-bdbe-c3e79efa066a	ac6e7164-325e-54ea-a5cf-251f75ec1dc0		
+sample	IID_H211990_T01_01_WT01	Primary	C48.2 : Peritoneum, NOS	971	Tumor					04764bc9-39e4-550c-b5c4-d805bba713b8	ac6e7164-325e-54ea-a5cf-251f75ec1dc0		
+sample	IID_H211991_N01_01_WG01	Not Applicable	Not Reported	-999	Normal					3f4ecb89-697b-5a84-9141-d8588eda3a7a	6d615018-4317-5475-bf69-486ff6f657d5		
+sample	IID_H211991_T01_01_WG01	Regional	C38.3 : Mediastinum, NOS	3543	Tumor					b9af4d84-d3b8-5dd9-ae59-ee20d32ec150	6d615018-4317-5475-bf69-486ff6f657d5		
+sample	IID_H211991_T01_01_WT01	Regional	C38.3 : Mediastinum, NOS	3543	Tumor					f37199ba-8f73-5385-b724-f48cc2731a78	6d615018-4317-5475-bf69-486ff6f657d5		

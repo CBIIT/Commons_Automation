@@ -1,0 +1,2 @@
+type	study_personnel_id	personnel_name	personnel_type	email_address	institution	orcid	crdc_id	id	study.id
+study_personnel	personnel_1	David T. Teachey	PI	teacheyd@chop.edu	Children's Hospital of Philadelphia	https://orcid.org/0000-0001-7373-8987		3e501458-690e-5d19-9986-4a0dbf259837	415102c7-a9e2-5f2d-8656-ab98b2a1af96

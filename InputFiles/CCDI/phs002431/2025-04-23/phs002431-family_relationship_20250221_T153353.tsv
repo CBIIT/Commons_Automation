@@ -1,3 +1,0 @@
-type	family_relationship_id	related_to_participant_id	relationship	family_id	id	participant.id
-family_relationship	2	eff79670837dad097bc0	Identical Twin Sibling	1	a1436b72-8397-5704-bceb-cbe293017824	47c5687b-04ec-5fdb-a3ba-b4215175f17e
-family_relationship	1	6d8cb99a1b051ea4f9fe	Identical Twin Sibling	1	b86f6e63-3d50-55ed-bd48-e4e75d97f2e3	015abad2-a7be-5f8b-b4e0-ebdba2383631

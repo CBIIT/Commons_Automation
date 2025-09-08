@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CCDI_phs001327_Sex-Female_Race-White_diseasephs-NotReported</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8e5196a8-c7d0-4a19-b89e-9873c9151666</testCaseGuid>
+</TestCaseEntity>

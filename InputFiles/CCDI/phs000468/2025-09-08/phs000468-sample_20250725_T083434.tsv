@@ -1,0 +1,227 @@
+type	sample_id	tumor_classification	anatomic_site	participant_age_at_collection	sample_tumor_status	sample_description	percent_tumor	percent_necrosis	crdc_id	id	participant.id	pdx.id	cell_line.id
+sample	TARGET-40-NAAFJW-01A-01	Not Reported	Not Reported	-999	Tumor	frozen solid tumor				00f6ac33-a742-5fb2-834f-eaf414d3d958	85a8e646-88b8-5742-bd96-5e2435c17f3a		
+sample	TARGET-40-NAAGKL-01A-01D	Not Reported	Not Reported	-999	Tumor	tumor DNA				01602a9c-0b31-5ccb-864e-9f6e86536dee	9e6ad7cd-f984-56d3-b6d0-7785c607ce59		
+sample	TARGET-40-NAAFKF-01A-01	Not Reported	Not Reported	-999	Tumor	frozen solid tumor				022dc882-13e5-5cc1-b2bb-69cdac68bc50	b3e3843d-a16a-5a6d-8da9-987d05fac1ee		
+sample	TARGET-40-NAAVMJ-01A-01_TS1	Not Reported	Not Reported	-999	Not Reported					04ce6054-92e1-55d7-926e-63a15c6b50d2	69890943-e515-5077-b096-a5b4b3924a14		
+sample	TARGET-40-NAAWHH-01A-01_TS1	Not Reported	Not Reported	-999	Not Reported					04ec44c7-39ad-5b04-bf45-ab71ea39e3a5	a5cd98a6-d17a-5eab-8ae9-39fd4b8441b0		
+sample	TARGET-40-NAAIBU-01A-01	Not Reported	Not Reported	-999	Tumor	frozen solid tumor				05d3e4d4-dcba-5b3c-9de9-76b62c9f6196	f92246f2-3cb4-589b-b3a4-637384399768		
+sample	TARGET-40-NAAWGP-01A-01_TS1	Not Reported	Not Reported	-999	Not Reported					05f35e13-148c-517c-90b9-6ef708cb194d	1e741e25-d038-5aca-b902-4c4b1e2ea5f9		
+sample	TARGET-40-NAAWGR-01A-01_TS1	Not Reported	Not Reported	-999	Not Reported					0870ff5a-b114-5e2c-9097-ea1bc1867040	7bf62159-352c-5f38-b27f-6670615e71f4		
+sample	TARGET-40-PASEHK-01A-01	Not Reported	Not Reported	-999	Not Reported					090fd16b-73aa-5f12-99ec-c4b61bedb598	2c24352a-5a51-596b-b623-a6f8de4874d3		
+sample	TARGET-40-NAAWER-01A-01_TS1	Not Reported	Not Reported	-999	Not Reported					09d9886e-5517-5c53-934f-7fb1210eb3f4	b70a435b-e2b3-5518-9321-5d2e996ee47e		
+sample	TARGET-40-PANFZN-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				0ab74a23-f361-5f44-8226-bcbd6bb7fa7a	e6a913aa-8f43-52ee-978f-0ae0740658f6		
+sample	TARGET-40-NAAWEH-01A-01_TS1	Not Reported	Not Reported	-999	Not Reported					0efb1de3-c39f-5b05-ba3d-bc331a5e244f	a9d9adc7-4215-55d8-ac03-aa85df5e55ed		
+sample	TARGET-40-PAVMEM-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				0fab50f3-fe54-5590-a1fe-4c03e12d02a8	e46e1e55-b83f-5d3b-88aa-ffc3104b86ca		
+sample	TARGET-40-PATMIF-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				10134751-e2d4-5d73-94a5-7e9e49e9a246	a1954038-01c7-5201-b84a-bdb82e8cd501		
+sample	TARGET-40-PAKRHV-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				1036a25f-5f91-5d53-b92d-55711e8f9147	f5d19160-bbdc-5920-aac8-abcfa6d56cd8		
+sample	TARGET-40-PARDAX-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				11668def-6b93-51c8-aa79-b23354bb15e2	f7434fcc-7e3c-5abd-9aad-9faccd51ed03		
+sample	TARGET-40-PATADB-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				146221dd-4ecb-5e7b-af53-d10816bb4b68	efbbeef6-da61-511e-8e72-4962b5e21f8d		
+sample	TARGET-40-PARKBJ-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				1718ad71-33a1-5e6d-893b-f6c927a80191	835e6fca-8fc6-55e1-af68-bf35a0a3476d		
+sample	TARGET-40-NAAEDA-06A-01	Not Reported	Not Reported	-999	Tumor	frozen solid tumor				175bb790-74db-5e05-a232-051710d23b66	8cd41d85-ccca-53c8-a2da-fc0f853b16a8		
+sample	TARGET-40-NAAGKN-01A-01D	Not Reported	Not Reported	-999	Tumor	tumor DNA				177fe0db-b330-5c4a-a650-846450cbef9e	089512c0-4a32-5322-8132-f203f5852f43		
+sample	TARGET-40-PAVXDP-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				1792d387-4a2d-57c3-8364-ed903efa6d6f	ab954750-dd36-56e4-8f95-ff2c2c0d94aa		
+sample	TARGET-40-PAMTCM-01A-02	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				1795d346-fca8-558b-a52c-2d36f2a8e82d	63f91b53-e0f3-5dfe-a7ac-ac8efc64980f		
+sample	TARGET-40-NAAFJL-01A-01	Not Reported	Not Reported	-999	Tumor	frozen solid tumor				19346b62-0999-5d86-bb43-982589004edd	628f04fa-f7bb-55db-a555-aef3a314a516		
+sample	TARGET-40-PANMIG-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				1a08d6ad-fcf8-5791-9fdb-c610969e3415	0bcf3f2d-b422-5696-86ed-7dddccabe125		
+sample	TARGET-40-NAAGJY-01A-01D	Not Reported	Not Reported	-999	Tumor	tumor DNA				1a0a1d0d-9b3d-5cf3-ad1b-da3022e6f7d3	d89e9dfc-5956-52f1-82a4-a9cb5f83362d		
+sample	TARGET-40-PAUTYB-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				1b66797b-a1c9-5ae4-bd61-a33ba67d3fc1	b0e26b02-dd64-52a9-bd32-cd77bc6e1756		
+sample	TARGET-40-PARFTG-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				1b678d90-9cc7-5ca1-a3e7-24c5690196a7	7fdbef6f-c330-5224-a6d6-8654c7668638		
+sample	TARGET-40-NAAWGJ-01A-01_TS1	Not Reported	Not Reported	-999	Not Reported					1bc299f6-9cd7-56b8-aacf-ff090035570a	021ff2d9-3902-591d-80e2-7ca4aef48ab0		
+sample	TARGET-40-NAAGZY-01A-01	Not Reported	Not Reported	-999	Tumor	frozen solid tumor				1caa99a4-c6db-5343-ae83-d7f6cc0759e6	ed2cef15-11fa-54c6-a823-d01e30bf1aad		
+sample	TARGET-40-PAVCLP-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				1f85e171-3870-5642-ac93-4d4c44bac345	421ba30b-59de-5955-9f9e-1c9243e330ab		
+sample	TARGET-40-NAAGKK-01A-01D	Not Reported	Not Reported	-999	Tumor	tumor DNA				1f9cb0ab-3bf4-5f17-9fe6-0332c93e00ce	632db541-d1b3-52a3-abf0-5a9c3b6d947e		
+sample	TARGET-40-NAAECZ-06A-01	Not Reported	Not Reported	-999	Tumor	frozen solid tumor				21f70b11-4b5d-5e17-ab71-3baaec451c0c	0f9b1e20-674e-5b65-812a-7041cae30946		
+sample	TARGET-40-PAMYYJ-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				22c59251-d7da-5cf6-94a4-9943ff01c449	5ddea3c0-14dc-5c73-9721-d4d234b5a836		
+sample	TARGET-40-NAAGKA-01A-01D	Not Reported	Not Reported	-999	Tumor	tumor DNA				24842f82-d14f-5585-90c6-764141993f3c	1e22fd59-ad1a-555f-8839-770a80d3c6ca		
+sample	TARGET-40-PAUVKL-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				24e7f5b7-7be2-57da-93d6-6d60e1e9fd2c	c770ed7c-396f-5cad-9a4f-989abeadd677		
+sample	TARGET-40-PASEBY-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				259a3c7f-b7ae-5265-9005-656f1da7dbbf	64efb42c-49b0-5144-8c8a-e895b2a7f88b		
+sample	TARGET-40-PAVDSN-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				26a915d0-ec25-5d5a-9929-36798896373d	45a76912-1301-5a4e-9333-475134588199		
+sample	TARGET-40-PANXSC-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				273607e2-a2d7-5763-a2aa-9a8daae7944f	6a100b06-7687-508d-8ccd-244d4d11a9a7		
+sample	TARGET-40-PATPBS-01A-01	Not Reported	Not Reported	-999	Not Reported					27a7f429-2759-5278-bc87-d76dcf1e9dba	e420217f-30a9-542e-8767-a978fb5aaa6a		
+sample	TARGET-40-PANGPE-01A-01	Not Reported	Not Reported	-999	Not Reported					2881ee21-75bb-551a-8643-9d077d34db20	c1f1dcff-d91b-5db3-8b38-f202cb1cb78b		
+sample	TARGET-40-NAAGJS-01A-01D	Not Reported	Not Reported	-999	Tumor	tumor DNA				295dc508-07bc-534b-a578-21d555ba5a43	07de8abe-d04c-51c4-931e-792dbe637fd1		
+sample	TARGET-40-NAAEDD-06A-01	Not Reported	Not Reported	-999	Tumor	frozen solid tumor				2a60d90a-8a03-59ed-85c6-cd3ebe4464c9	9bf555a9-5e90-53ca-af52-fe992c46c44d		
+sample	TARGET-40-NAAGJT-01A-01D	Not Reported	Not Reported	-999	Tumor	tumor DNA				2b89e3bd-e1b1-5012-a7c3-00dd19e2c236	b9b80f54-7719-5b5c-9c4e-57cdb1e2ecc2		
+sample	TARGET-40-PANZZJ-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				2db544f9-fa31-59a7-8005-f3f1a6c082f0	14b0483d-7ac9-5b50-925b-f50668c267b5		
+sample	TARGET-40-PAVFYF-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				2eafe1c5-bbb1-5cc6-8843-83ef9ebd919f	27be81b1-f08a-5e27-bde1-57ab11cf6bff		
+sample	TARGET-40-PALTJB-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				2f36d405-ff41-561c-b2c7-1081b3081913	44c10e21-13c1-5667-9a33-cdd6c4b407ed		
+sample	TARGET-40-NAAGKF-01A-01D	Not Reported	Not Reported	-999	Tumor	tumor DNA				345fcbec-fbba-5e48-9d15-9094e00d16e3	e9fc4204-4c2f-5d84-84c4-e148d61f0585		
+sample	TARGET-40-NAAVML-01A-01_TS1	Not Reported	Not Reported	-999	Not Reported					3562f6f8-1a45-5614-8ffa-642ca63fb4d4	23b0ecf3-cf1d-5626-9c14-efec760b49e2		
+sample	TARGET-40-NAAGJW-01A-01D	Not Reported	Not Reported	-999	Tumor	tumor DNA				35631e67-a6c2-5ada-8871-71658b3a6c74	090a30d3-169c-535a-b4f0-a3ea9bc6c6ad		
+sample	TARGET-40-PATEEM-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				35b3e47d-9639-5731-8950-fcdb56e0fa83	00f88909-7ff4-5852-b532-177f18e23ab8		
+sample	TARGET-40-PAKXLD-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				3827d7f1-adce-5551-a3fd-fe4393a197df	d6a53bbd-62a3-5117-b06a-621ca1cfa61c		
+sample	TARGET-40-PANIFV-01A-01	Not Reported	Not Reported	-999	Not Reported					38ac1067-3dcc-585c-a7f6-507377c71291	9b1cd856-84ba-5361-82a1-ccb9b5589d9f		
+sample	TARGET-40-NAAWGG-01A-01_TS1	Not Reported	Not Reported	-999	Not Reported					39c4e6fd-8812-506e-841b-12ff346e21d6	b76f0602-9e68-5fbe-a239-15888c777b51		
+sample	TARGET-40-NAAFJR-01A-01	Not Reported	Not Reported	-999	Tumor	frozen solid tumor				3a9223dc-3d92-5a97-8f33-463419f85a1d	016c141f-7448-580a-83f9-07705e7ab742		
+sample	TARGET-40-NAAIBW-01A-01	Not Reported	Not Reported	-999	Tumor	frozen solid tumor				3baf12bd-80fb-5da8-8568-6fdb718876d4	80ccfb4c-2f7f-50fd-b236-529e1cead604		
+sample	TARGET-40-NAAGKI-01A-01D	Not Reported	Not Reported	-999	Tumor	tumor DNA				3bde4537-1671-53fe-a2e9-198e09a78a25	d630a7dc-0910-535a-a4a3-9e730e9e6e63		
+sample	TARGET-40-PAIWEV-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				3c80f6b2-284e-555c-a63c-215a14b1ca2f	f313aa75-0b3e-5413-b2ae-ecb05b3bb777		
+sample	TARGET-40-PATAWV-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				3d0e0f38-42c4-5e0e-9f53-fc912e4a6ad9	196e01cb-a115-55b0-8023-5955f23928c7		
+sample	TARGET-40-NAAEDG-06A-01	Not Reported	Not Reported	-999	Tumor	frozen solid tumor				3d2ffff6-097d-555c-842e-998442f7610b	82188836-3a46-5c23-bc22-bc9c97845abe		
+sample	TARGET-40-NAAEDH-06A-01	Not Reported	Not Reported	-999	Tumor	frozen solid tumor				3f7a0335-03b9-5c6c-badb-6c169a12b804	b90cbfe1-feeb-5714-a513-c8f5b2d651be		
+sample	TARGET-40-PAUXPZ-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				403268c5-1c21-5cac-bfd8-cbf5e4b4c4f2	13517f71-c094-5cdc-82d2-b4705405e900		
+sample	TARGET-40-PAMRHD-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				4052fdc4-ca12-57b9-b8fc-304cc669c36b	593e129a-3491-547b-a180-a44e379e13f5		
+sample	TARGET-40-PAPWWC-01A-02	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				409bdc70-82de-5846-bdf3-82618c7e5b80	127ba218-8424-5cbb-9c96-d564903b171f		
+sample	TARGET-40-NAAFJM-01A-01	Not Reported	Not Reported	-999	Tumor	frozen solid tumor				4183a29f-1592-5d65-80f5-44fd80c44fda	68221038-9a70-5d45-9e7a-72180c3aa952		
+sample	TARGET-40-NAAWDK-01A-01_TS1	Not Reported	Not Reported	-999	Not Reported					4455307b-37a8-5b69-b43e-f90335edfe8a	d1f7e96f-68ff-53a2-8ab7-7b7872317b78		
+sample	TARGET-40-PANGCY-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				45926dfd-d8a4-5d4b-baa2-34ddb9cb0267	2cf67fb9-32d7-52fe-839d-f771a48bee58		
+sample	TARGET-40-PATNZB-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				462fb1b4-6952-5733-98a9-2d3df2657efa	46e8905a-d260-5a6b-aaee-91dfdffc9f22		
+sample	TARGET-40-NAAGZX-08A-01	Not Reported	Not Reported	-999	Tumor	frozen solid tumor				46a690f3-5988-5afd-95b1-619fef30f06c	066d2a7e-fc44-5332-a15f-20c6e9f8480a		
+sample	TARGET-40-PAPIJR-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				4735749f-c9b8-537d-ae6e-3047a73dd6ac	1cdd87ed-6c1e-5bd1-883c-0aa02ea66a48		
+sample	TARGET-40-PARTUG-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				479fe7e3-3f98-55cd-bff3-8e0f5e5cc6e7	7bb1a08a-ff78-5806-87ac-23e9c6888c6e		
+sample	TARGET-40-PATMPU-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				47a066ca-b126-57d9-9dc1-fe97a9e34267	56bd769c-4b83-51ac-ac58-dd899edea73f		
+sample	TARGET-40-PASFCV-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				48cb797a-24c2-5378-ad5a-dc9ac27cc04b	f5c1e2c7-8d4e-5e32-a8af-cbbe77418454		
+sample	TARGET-40-PAVTME-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				49ad42b6-eb93-5da5-a00a-aa30d239ea49	84f347e4-4533-5f7f-994d-182e114a89d5		
+sample	TARGET-40-PATADX-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				4f07ce12-fb74-50f0-acc6-794b2c7959eb	69cd4fbe-a0a7-5f1c-8bd4-625c7bc19a7c		
+sample	TARGET-40-NAAGJV-01A-01D	Not Reported	Not Reported	-999	Tumor	tumor DNA				4f88a1af-bd06-5c0b-ac83-8f56ba3dafa9	e0897c71-bb78-5295-bb4d-6fb1773bc6cf		
+sample	TARGET-40-PANPUM-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				4f9dc4de-f68f-5694-91a3-f1b8abd35a67	f583f4a6-e261-58c0-b910-956a38352632		
+sample	TARGET-40-NAAWFT-01A-01_TS1	Not Reported	Not Reported	-999	Not Reported					5030ac33-4a5c-5f1a-b464-1ed87fe6ff6c	676edc29-2100-56bf-a3ad-66107c33f4e2		
+sample	TARGET-40-NAAEDB-08A-01	Not Reported	Not Reported	-999	Tumor	frozen solid tumor				526bde66-195c-5194-8cf8-57eedfa1d2f6	fc3c6d46-3e57-51c7-b523-4509a113e0dd		
+sample	TARGET-40-PAVUKR-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				52a128d6-a25d-5ea1-83c8-fc6de4ce038c	b6207ee8-ba4d-5ef1-b2a8-6659a3c7d44f		
+sample	TARGET-40-NAAEDH-01A-01	Not Reported	Not Reported	-999	Tumor	frozen solid tumor				538daf95-c3ae-5986-88f8-8b411fdd6462	b90cbfe1-feeb-5714-a513-c8f5b2d651be		
+sample	TARGET-40-PAUUML-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				53fad90a-9dd3-59e9-93c7-889da6b01bdc	8201e6f4-870b-58db-9428-d266885618ad		
+sample	TARGET-40-NAAHAB-01A-01	Not Reported	Not Reported	-999	Tumor	frozen solid tumor				543168fb-1e32-5689-a6c4-e71dd7b8f930	7e20f1f1-e5e6-55b7-89b1-8a03523e5e07		
+sample	TARGET-40-PAVCHD-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				5466d4fa-e5a5-53cf-8a89-606e705f43b9	e78b067c-f669-559f-8372-bd7d63047f01		
+sample	TARGET-40-PARYDD-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				55ef3c68-5a0d-5ec6-b89b-59f9720926a0	3b9bdd81-5e96-54b3-a4f2-d62c1d70f7e8		
+sample	TARGET-40-PARZAR-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				56668523-91cc-5cd2-88e9-70eb66bdbb8d	6f756229-bd6d-5e40-a8c0-1949cdf79811		
+sample	TARGET-40-NAAFJK-01A-01	Not Reported	Not Reported	-999	Tumor	frozen solid tumor				56e372c7-a565-57d4-8390-ac934dc0a8d5	40dc8564-285d-578d-9461-29a75deae5ee		
+sample	TARGET-40-NAAGZZ-01A-01	Not Reported	Not Reported	-999	Tumor	frozen solid tumor				5755d8d0-9f34-56dd-b8ac-e841c11d8509	9f6e8a0c-e80f-5bfa-9605-1db1909c65f4		
+sample	TARGET-40-PAUVUL-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				5b472728-4f43-540e-ba91-66fef89a3aa1	95385a57-9f52-5512-87ee-1f80a8426234		
+sample	TARGET-40-NAAWEY-01A-01_TS1	Not Reported	Not Reported	-999	Not Reported					5e030f65-b1d1-5aca-9afc-82a358f2b859	8fdb60e5-9431-5444-b8d9-765ee1d63f12		
+sample	TARGET-40-PARVXK-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				5f3f181e-97d2-5b26-8628-d7911ab39a1a	6142e012-0e23-52e3-a7dd-fd4c28d44a41		
+sample	TARGET-40-PARBGW-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				604c5a04-5497-5aa3-a7b6-419a284c6dbc	c0ee1741-98cb-590e-9f4a-6b2ee804fe01		
+sample	TARGET-40-PASKZZ-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				60da079c-0e18-5487-949a-5dbb2bc91240	cddd9cc4-5cff-520b-a309-858ba9f3bcbc		
+sample	TARGET-40-NAAVMK-01A-01_TS1	Not Reported	Not Reported	-999	Not Reported					60e63dfd-6607-5f8b-a8e7-eddbc4a50045	1a6899de-ee6d-5b1c-9823-a151c8748a55		
+sample	TARGET-40-NAAGZY-08A-01	Not Reported	Not Reported	-999	Tumor	frozen solid tumor				611e01cc-95bb-5467-9893-372b8eac2f0d	ed2cef15-11fa-54c6-a823-d01e30bf1aad		
+sample	TARGET-40-PAKUZU-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				6416b0ba-063a-53e0-ae5b-2c6c853b6a4d	69098832-f4ac-5bf7-a2e3-492b4c24f013		
+sample	TARGET-40-PANSAN-01A-01	Not Reported	Not Reported	-999	Not Reported					64d25c6f-277b-534a-989f-0e12f4cd283f	42d31de4-fe8f-5e40-94cf-15df5cdd0796		
+sample	TARGET-40-PAVLIB-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				6501b15f-959f-5f02-a5ee-99775cc9210d	53c53596-3841-55aa-ae32-61908736ac8a		
+sample	TARGET-40-PAMPSS-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				691637bd-71f1-59a7-90e4-83c5f0e4ee74	a3cc4d16-a6fb-5dce-a3d0-808156dca688		
+sample	TARGET-40-PAMMGP-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				6a0b758f-58ca-5758-a639-a45a37f121b6	e0b8f5a2-d460-56fa-a704-2d4440dcfc04		
+sample	TARGET-40-PAMCVZ-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				6c133fc8-b5b1-5d15-afd2-b1efdb13d3f2	1c29b5ba-fe97-5fda-92e8-5963178b1433		
+sample	TARGET-40-PASFFZ-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				6e6eff6f-4845-5861-888b-c9ad4d91c46c	805f75a2-572d-591f-b3f7-833104ea4e65		
+sample	TARGET-40-PANMIG-01A-02	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				6f7bd50d-e63f-54c1-8e90-f7440d3cc201	0bcf3f2d-b422-5696-86ed-7dddccabe125		
+sample	TARGET-40-PAVVZE-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				6fb74bfb-aebe-5a8f-9a68-ca59528c7f59	753a14a6-d9e7-5ed9-8527-94cf2de4be14		
+sample	TARGET-40-NAAGKG-01A-01D	Not Reported	Not Reported	-999	Tumor	tumor DNA				6fc46f63-13ca-5355-86d2-1d72cf463c5d	8565b5c8-752b-5785-a0f1-673be7874c11		
+sample	TARGET-40-PALKGN-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				6fdb3bd9-01b6-57da-b800-e1a613f2f1f1	eb1c48d0-4f57-555f-b0ea-53d56729e0df		
+sample	TARGET-40-PAUHGA-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				702eb7c6-018e-5d69-9ed8-bae5eaa2f4bc	3a728879-192c-56e1-b771-6095b711dbd0		
+sample	TARGET-40-NAAGJP-01A-01D	Not Reported	Not Reported	-999	Tumor	tumor DNA				7253f4eb-802e-5daa-9ece-6bc3d3db1a08	7be0870b-3ffc-53ba-8cd1-bc24ef9b1d4c		
+sample	TARGET-40-NAAFJS-01A-01	Not Reported	Not Reported	-999	Tumor	frozen solid tumor				74ac0c77-e4c6-51e8-913d-d59c4641610c	f9952cfe-d5d9-574c-a7b9-fb23b0f364fc		
+sample	TARGET-40-PANSEN-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				779dbc77-e24c-5e5b-bd33-8003233cae8b	d6013b53-2cf9-5ff4-a683-0ef89568888d		
+sample	TARGET-40-NAAEDA-08A-01	Not Reported	Not Reported	-999	Tumor	frozen solid tumor				781cb4e3-9e9b-5866-95e3-d946b11f4ec5	8cd41d85-ccca-53c8-a2da-fc0f853b16a8		
+sample	TARGET-40-NAAWEZ-01A-01_TS1	Not Reported	Not Reported	-999	Not Reported					7828e20a-2c03-5466-a3a7-44560359132b	fd071a8e-c74f-5474-9b56-9d0564eca5ca		
+sample	TARGET-40-NAAFJV-01A-01	Not Reported	Not Reported	-999	Tumor	frozen solid tumor				7bd7513b-dac6-598f-a082-d75199ef1cb0	7604cf8d-38cb-5cd4-b304-2f286cebc39e		
+sample	TARGET-40-PAVHJH-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				80ae1d74-87b2-5253-bd0b-215e7301d95c	53ca4dde-7dee-5b38-9243-d80727332ae4		
+sample	TARGET-40-NAAEDG-01A-01	Not Reported	Not Reported	-999	Tumor	frozen solid tumor				82bc70d0-a4de-5ec7-a3ba-86639a86b5af	82188836-3a46-5c23-bc22-bc9c97845abe		
+sample	TARGET-40-PAPKME-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				83cb542a-b1ac-564a-973e-83be73578a8a	7de473e4-a7ef-5ee5-8cad-431c80c93142		
+sample	TARGET-40-NAAGKH-01A-01D	Not Reported	Not Reported	-999	Tumor	tumor DNA				83d41df4-8b48-5216-98a3-9c11a84ecbfd	3d1ec123-3e17-5982-a673-528a9ea9580c		
+sample	TARGET-40-PATMXR-01A-01	Not Reported	Not Reported	-999	Not Reported					862ee183-34db-5600-8658-cb1ad04874e1	7147c49b-4b24-58a3-8ca3-7aa4973f355f		
+sample	TARGET-40-PARUUW-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				86d4f70f-53c2-595a-b477-d6c56bac03d4	e217ea90-5428-5c91-b24e-566f0c03a818		
+sample	TARGET-40-PALZGU-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				8724aeb6-d7c3-59e9-978c-379d71ff82fd	8cdbb62a-8a1d-5027-9072-26b3405f3b14		
+sample	TARGET-40-NAAFJN-01A-01	Not Reported	Not Reported	-999	Tumor	frozen solid tumor				885ab604-593b-5a1f-9031-d95118b9983e	b394c1a4-11f9-53c9-a52b-311d051125a0		
+sample	TARGET-40-NAAGZZ-08A-01	Not Reported	Not Reported	-999	Tumor	frozen solid tumor				8b9ae85f-82d0-5bd1-b24e-454f96d1d9e4	9f6e8a0c-e80f-5bfa-9605-1db1909c65f4		
+sample	TARGET-40-PAKFVX-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				8bd75c27-3260-5871-89ac-ed556d37c056	6bc349eb-9d13-5b51-b82c-b9570d56ce4a		
+sample	TARGET-40-NAAGJZ-01A-01D	Not Reported	Not Reported	-999	Tumor	tumor DNA				8eaa11c4-e6f9-5397-93fc-12e46d0cbcb3	bf45562f-ff90-5f80-bbc6-c3c9d270623a		
+sample	TARGET-40-PAMHLF-01A-02	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				8f2821af-3506-5ee5-b688-50b89b9e150a	4cebe970-42df-577a-a755-6219f27bfcc1		
+sample	TARGET-40-PAUJZR-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				9039f66c-92b7-5211-9204-210569bce4a7	5b13aea1-6a8b-59c9-98de-39fc118c6f81		
+sample	TARGET-40-PAPVYW-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				903bc40c-321e-5200-9ec0-2085d604ec9f	ff1cf2c1-f219-559a-a576-cea7a3124cca		
+sample	TARGET-40-PAUTWB-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				907ecc63-c4c8-5b2e-b5f0-960110a05881	cd3520b1-604e-5a43-a3d2-719c8c4116e4		
+sample	TARGET-40-NAAWDT-01A-01_TS1	Not Reported	Not Reported	-999	Not Reported					92278177-40a3-584e-a7fc-20384c105c62	e5685c67-d9fc-5779-af24-2e21887c4bc0		
+sample	TARGET-40-NAAWEW-01A-01_TS1	Not Reported	Not Reported	-999	Not Reported					937f82dc-5bbf-5cc9-a09b-29f7bd087622	693efe61-66d2-5abe-8c0f-b35fb0f68b3e		
+sample	TARGET-40-NAAGJK-01A-01D	Not Reported	Not Reported	-999	Tumor	tumor DNA				938e52cd-4c83-505c-8794-f81a491384e8	6a1ff09c-271b-54aa-8e59-d0e495fc105d		
+sample	TARGET-40-PARGTM-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				93bb1253-0240-5303-93d2-2444a838fa27	bd8e58db-e2e1-5fda-bbf9-2063bbbd8813		
+sample	TARGET-40-PATLYM-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				954df980-fe84-55a0-8fe3-22bc6222ba75	0b2e0412-34c6-5d4f-ac96-1c6f9ffb068d		
+sample	TARGET-40-PANGRW-01A-02	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				9588dd92-c836-5104-add8-6235ba873d49	baa17a81-b322-52ab-b060-5aada9b5d5be		
+sample	TARGET-40-PASEFS-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				95a25f31-95d8-51ad-a194-c11fc9f47561	b24ec0a2-b355-5eb8-9039-3f89b2d41c9f		
+sample	TARGET-40-PASFIW-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				95f7e3fc-f5eb-55fd-a4dc-adc9434de049	2a01c2b8-a9c8-5254-a954-49cdae83b487		
+sample	TARGET-40-PALPAX-01A-_02	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				97e52694-5172-5bb7-bc2b-471ec0996309	b651a62d-de6f-5856-9bf6-574e81b62579		
+sample	TARGET-40-PAPFLB-01A-01	Not Reported	Not Reported	-999	Not Reported					97efae84-210c-5e27-ae64-e135a813a746	55aa1eaf-b9b6-5852-8112-9197b7c68303		
+sample	TARGET-40-PASUUH-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				9a130a99-a84f-5536-8271-517852ccfe4d	be4007af-28e7-5f8e-a2a8-bc0a14f25d1b		
+sample	TARGET-40-PALECC-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				9aadac90-5825-5cab-801b-7340307f9244	e6d0feff-9a4b-59bb-8c31-dae8371b62d2		
+sample	TARGET-40-NAAGKD-01A-01D	Not Reported	Not Reported	-999	Tumor	tumor DNA				9cde3239-7a79-55f5-af07-cae8f3c741e3	5b557dc7-cd2b-5814-bf75-204d6c1c2634		
+sample	TARGET-40-NAAGKC-01A-01D	Not Reported	Not Reported	-999	Tumor	tumor DNA				9d90e769-27a1-5ea6-98a0-0f6e845e6cd0	0409d371-e3bd-52e6-9148-224a81344ce0		
+sample	TARGET-40-PASJST-01A-01	Not Reported	Not Reported	-999	Not Reported					9fa4587a-f384-5081-a0f0-d4efb5ae3ef1	b36f1cf3-ce92-5e10-8442-f0b8e9130b8f		
+sample	TARGET-40-PAVDYY-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				a3ecf5b4-8147-5828-a79f-9b89cd516a09	a1886ec3-c480-5793-9e4b-799e019c3ea7		
+sample	TARGET-40-PAMEKS-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				a3f0e592-c1b8-5d3b-a443-5a6e446c4cfd	509da663-9de0-577b-9e03-994e64370da6		
+sample	TARGET-40-PATJVI-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				a4a231e7-5665-5886-bf78-97bab2df2c34	369f9924-166d-5a97-9599-4792f7d58a23		
+sample	TARGET-40-NAAGJU-01A-01D	Not Reported	Not Reported	-999	Tumor	tumor DNA				a63adb1a-93de-597a-90ac-5cb9f456aee6	8b520183-87c2-535b-8661-3b92e2236314		
+sample	TARGET-40-PAKZZK-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				a7255412-b6c9-526e-af49-6e68de046118	414468c1-775a-5681-9e8c-b2f148c2935f		
+sample	TARGET-40-PAVPHS-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				a785948d-b13b-5d67-b0eb-3a65c321ee7a	e3246d88-5213-55b9-ae9d-edd436973e94		
+sample	TARGET-40-PAUYTT-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				a78993bc-dc4b-5ef9-9036-8aa68ff5abdd	10fe0d9e-a402-5ca6-8349-1d589f31f14a		
+sample	TARGET-40-PANVLW-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				a7f38c43-247a-53ce-be3c-528e25959555	ae45d3a3-67ad-5536-8079-5897e80360bb		
+sample	TARGET-40-PASSLM-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				a9a435df-be00-5912-8b51-d9776ece8c76	3728386f-dc94-584a-a7ff-02b27e411c3b		
+sample	TARGET-40-NAAWDZ-01A-01_TS1	Not Reported	Not Reported	-999	Not Reported					ab6dd197-3c33-59e6-b726-bd0d40db09f2	fe5ce52f-839d-5a0f-afd2-5fdab8bf7616		
+sample	TARGET-40-PANMGS-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				ab80a71f-578a-5267-b7bc-e646d123a649	e96bc4c8-1e0a-56f4-a2ef-486c88bcb480		
+sample	TARGET-40-PALWWX-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				abe80ae2-844d-5138-b8a0-be5200a718c3	9616c2f9-1dc3-5b4f-8c58-2caac7712078		
+sample	TARGET-40-PARJXU-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				ac32d9a2-6f13-562b-897d-a19045fc4b43	afa5f040-636b-5c3e-b4d4-d8edcbc6678d		
+sample	TARGET-40-PARGNA-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				ac74cb6c-f497-5ebd-bd8f-e9373f27419f	ddddd38e-8086-5958-8049-d6147b1b8438		
+sample	TARGET-40-PAVEMA-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				ad09b117-42ac-560e-8d9c-aa0125bf09d7	76b38586-575a-5c0a-8043-8dfa99bb7606		
+sample	TARGET-40-PAMXGP-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				ad76f833-e545-5af0-b0e2-f8038a0832d4	03364f5f-0960-50cc-8a77-5f1a1a54a863		
+sample	TARGET-40-PATXFN-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				ade244c1-4fa0-51b7-892d-1e09fa3055ef	2ef1374f-6171-58f6-a259-3b4d1cb0e263		
+sample	TARGET-40-PAPXWB-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				aed8da0b-d6b5-57f6-9433-4d394b942e04	b23805ad-a484-59ce-ace3-b42193377b07		
+sample	TARGET-40-PANVJJ-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				afc8a337-2291-5d7b-9123-6e06913b5c21	00e21364-3227-5917-ad65-98007f675e7f		
+sample	TARGET-40-PAVALD-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				aff9201a-45a5-502e-beec-9bd2a8f48129	0aa3bcfe-a0e9-54a7-876a-0e03afcb20d4		
+sample	TARGET-40-PARRXH-02A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				b016725a-36e4-540b-8e03-cb806b598371	e055c531-00cb-59b5-a3cc-8a7e22f75c2a		
+sample	TARGET-40-PALHRL-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				b01a217f-ff6c-54e7-a54a-e027095474db	b068343e-add8-5149-948c-05f6f8d5a335		
+sample	TARGET-40-PATKSS-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				b1bf1986-850d-568f-a3b5-0b6f1b0126ed	356d100d-de0e-55f3-a639-8bcda5c3bbd8		
+sample	TARGET-40-PAMLKS-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				b20fe52c-8e31-51a4-a01c-2b947d135cd9	a5b8271c-0a5f-5f6b-b67a-6ddf66668612		
+sample	TARGET-40-PAKGVJ-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				b5bff1e9-b701-5a0a-bd66-888a15cb3ea9	b924e349-4c99-5104-be41-2bb8911d27a9		
+sample	TARGET-40-NAAWEX-01A-01_TS1	Not Reported	Not Reported	-999	Not Reported					b7dc2422-46a0-5233-be3d-fb4ee7fb16a3	0341af3d-5a3d-5287-bf88-329ea4825a24		
+sample	TARGET-40-PATFVE-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				b81c2459-8703-5de5-9728-d65eb7be0a2e	0494fdf1-50a4-5621-a258-75a9f2ad65df		
+sample	TARGET-40-NAAGJM-01A-01D	Not Reported	Not Reported	-999	Tumor	tumor DNA				b83cbed1-66d0-586b-831b-a4b449332f32	c7437451-ae40-5d8d-b720-45486bea8093		
+sample	TARGET-40-PAVDTY-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				b8fb0375-f737-5950-84dd-47c2e3729ad2	f9b31b77-04a3-5cd3-bd13-e56f8b4b5918		
+sample	TARGET-40-NAAGJN-01A-01D	Not Reported	Not Reported	-999	Tumor	tumor DNA				bb0adbaa-fb9f-54ce-bf89-1cf5eec95045	81290e9e-31e6-5be1-baff-86e5fd2bb211		
+sample	TARGET-40-PAPKWD-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				bb33bd2c-f045-5f20-b524-e942a0b8e394	21f155f8-b981-5f27-9f03-2379f7519e27		
+sample	TARGET-40-PASNZV-01A-01	Not Reported	Not Reported	-999	Not Reported					be0f9b8f-2736-5c51-964f-3d82159f7645	b95dd99f-9106-5d8f-ab8d-b301cdeb1646		
+sample	TARGET-40-PANBZI-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				bea1c577-4500-58bf-93d9-818bbcc2ad11	bb0c5365-24ae-5b50-bf78-db6da5b6cb6d		
+sample	TARGET-40-PAPNVD-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				bf58fa78-0d90-5c39-beca-11c0e22820dc	0ce8cc35-0930-5f9e-82de-d9ab9c336b33		
+sample	TARGET-40-NAAEDH-08A-01	Not Reported	Not Reported	-999	Tumor	frozen solid tumor				c079e707-fb42-561f-adea-381f9762c9d1	b90cbfe1-feeb-5714-a513-c8f5b2d651be		
+sample	TARGET-40-PAMJXS-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				c1a21c72-db03-5c67-8556-947de4c7739b	60e142a2-d204-5bc0-8af7-1e8fb97a80f3		
+sample	TARGET-40-PANZHX-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				c247b08c-0e40-5e0f-97a6-b5053db05aae	463a37a3-f821-58ba-9c84-201e9a072f05		
+sample	TARGET-40-PASNCK-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				c4f46aa5-43f2-544c-9c23-5d441890666d	218e1aa8-c67d-5b05-add0-337f768dd18d		
+sample	TARGET-40-PALPAX-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				c58a1a7a-ed2f-5642-8b71-fa5bcd9cb997	b651a62d-de6f-5856-9bf6-574e81b62579		
+sample	TARGET-40-PALKDP-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				c643e198-91fa-5e91-aefc-1668d32e50f9	41985a0a-caf9-5cea-b3af-cf517ec65ee5		
+sample	TARGET-40-NAAFJP-01A-01	Not Reported	Not Reported	-999	Tumor	frozen solid tumor				c71c1d32-80fd-5f45-a734-2b65bddf31a6	0c643592-0265-5b7c-8172-34ca5c579fd8		
+sample	TARGET-40-PATEEM-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				c8eced49-3484-5050-9ff5-6b24b54d22ca	69c1136b-80ea-5f42-befd-fe81a68db9e2		
+sample	TARGET-40-PAMTCM-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				c93fd26b-a65a-5a01-b3c9-87c7b7990fec	63f91b53-e0f3-5dfe-a7ac-ac8efc64980f		
+sample	TARGET-40-NAAEDI-06A-01	Not Reported	Not Reported	-999	Tumor	frozen solid tumor				cb0faf57-244d-5798-aed6-0c3c7f8b26c5	54f261fc-1135-5cb2-805b-9a4f798feb25		
+sample	TARGET-40-PALFYN-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				cc112d48-e5cc-587c-8806-ab82764c212e	fc02c1f0-abf1-5236-96e5-3e44d4623d89		
+sample	TARGET-40-PAPWWC-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				d003659f-a7cb-5bbd-adb1-4b7a335909be	127ba218-8424-5cbb-9c96-d564903b171f		
+sample	TARGET-40-PAUKXW-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				d166646e-05ec-5754-8646-8c9e0841582e	ba10a08c-e340-5e21-ab3c-80091b17f359		
+sample	TARGET-40-PATEJE-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				d1e8fdd3-2c76-5c93-bb08-49efd4b71788	1234610f-2c16-5a51-ab98-7e9bfe6e48f3		
+sample	TARGET-40-NAAFJX-01A-01	Not Reported	Not Reported	-999	Tumor	frozen solid tumor				d2387cf5-d675-5fbc-adc0-093dcd032f5c	18d34e11-06ba-58cb-9ee7-6e03743efb1a		
+sample	TARGET-40-PAMVMI-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				d2fe3823-3fda-540d-b214-bf00c424cfa8	036ff495-f739-5ea8-9233-a7aa77838ea7		
+sample	TARGET-40-PAPXGT-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				d4c31867-3226-5bed-8c9a-6619e15c1d08	1e84d947-a1dd-59b0-be83-fe1c405709cf		
+sample	TARGET-40-PAVLPS-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				d692c7da-2e47-5465-bedc-b1f8b1c9ae0a	a6114a21-e70b-5e79-ada0-a9a6d35120a4		
+sample	TARGET-40-PASYUK-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				d6a29b49-cd05-51f8-b51b-6e2f449e23c1	c2d51e64-a50c-57d7-ba46-e651a43a0257		
+sample	TARGET-40-PAMHLF-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				d6c0526f-1e0a-5881-976c-b7388c940fbd	4cebe970-42df-577a-a755-6219f27bfcc1		
+sample	TARGET-40-PAVRYF-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				d880d368-f096-52be-b0ef-6c2974773deb	17695214-ad67-5146-ba62-f8260888aa38		
+sample	TARGET-40-PATLGY-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				d93c2d1f-1065-5543-a3cd-dac62029f60a	e6e0ef23-cbf9-5e1d-8f39-3b7f3d4a98f2		
+sample	TARGET-40-PANGRW-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				d9908173-0195-5cb9-93cd-2a4ad6289fbb	baa17a81-b322-52ab-b060-5aada9b5d5be		
+sample	TARGET-40-PAVECB-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				d9fe0f67-a0e0-5776-be9b-9f2b30d80f95	1bf19ace-5f38-5b2e-9f81-b0fc582e6781		
+sample	TARGET-40-NAAECZ-01A-01	Not Reported	Not Reported	-999	Tumor	frozen solid tumor				da46e4eb-21c1-541a-bdab-d1a65baa185d	0f9b1e20-674e-5b65-812a-7041cae30946		
+sample	TARGET-40-PAUBIT-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				dc59f634-cc76-5404-9726-3075914d5a0c	1183d6f9-2071-574d-9651-72f7f9d1bccd		
+sample	TARGET-40-NAAEDG-08A-01	Not Reported	Not Reported	-999	Tumor	frozen solid tumor				dc91d8bf-724a-55e9-8c7b-2a47ea2c7693	82188836-3a46-5c23-bc22-bc9c97845abe		
+sample	TARGET-40-NAAEDI-08A-01	Not Reported	Not Reported	-999	Tumor	frozen solid tumor				dd74070a-1468-5598-9fd2-3b21354da697	54f261fc-1135-5cb2-805b-9a4f798feb25		
+sample	TARGET-40-NAAECZ-08A-01	Not Reported	Not Reported	-999	Tumor	frozen solid tumor				de56be39-6d41-5fba-a97f-4f09e7ac4ca4	0f9b1e20-674e-5b65-812a-7041cae30946		
+sample	TARGET-40-PALIXF-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				de659828-5c2d-56ce-a06c-a81bc7416b4d	6c5412c1-7d13-5df0-91ab-9801a0a20f31		
+sample	TARGET-40-PAVMMV-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				e0da3e28-90c3-58e8-84d5-b56b5c31493d	e633c3e0-7d05-56c9-9bb7-9e7d0cbf87a2		
+sample	TARGET-40-PARKAF-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				e2ab35e1-3998-5af0-90e8-a1d0074d3f99	015c01f2-fb74-57f4-95ab-6262a90f2569		
+sample	TARGET-40-PATUXZ-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				e2ff5239-3293-5a00-adcb-61f3db661651	3e3107c8-ad1d-515f-b117-6681443485ca		
+sample	TARGET-40-PANCFH-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				e3963069-169b-5168-bb76-8ffc7d940188	fea8cda5-2f9b-5b52-a82e-b3ae7719d9e5		
+sample	TARGET-40-NAAGJX-01A-01D	Not Reported	Not Reported	-999	Tumor	tumor DNA				e4ed8e54-9af0-56b2-a613-c3cb2f52c182	4121b492-3072-561a-bbc2-5c23ee6320e1		
+sample	TARGET-40-NAAGKM-01A-01D	Not Reported	Not Reported	-999	Tumor	tumor DNA				e5b27615-912a-5fc0-a5f2-625172f60d41	5471d5dd-46c4-56fa-a038-518fe740678d		
+sample	TARGET-40-PAMHYN-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				e8666e2d-2b70-5ebc-973e-c503a0b5cce9	96ca60b1-44ab-5c92-823e-d536c1955b51		
+sample	TARGET-40-NAAWGC-01A-01_TS1	Not Reported	Not Reported	-999	Not Reported					e9d3ed53-fe0c-5581-b8d3-df9adf9797b6	f09f2cfc-25e3-5765-acd7-2783884231c4		
+sample	TARGET-40-NAAGJR-01A-01D	Not Reported	Not Reported	-999	Tumor	tumor DNA				eab1b83b-ae6f-5184-a634-11ad7dccec10	7ccca917-2e5a-5f83-91d7-e8cf3ce083c9		
+sample	TARGET-40-PAMZAA-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				eac84967-056c-5856-8521-fc2c3896a182	f4c88273-0a0a-5dde-9a23-65a827de1df1		
+sample	TARGET-40-PAIXFY-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				ead34989-95af-56c0-9450-5b12030823e7	4125fa24-f072-5e22-b4f8-c38143f83a8e		
+sample	TARGET-40-PARVEF-01A-01	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				eb9880fd-2639-5a88-be24-b909c3d71ef2	6221e7fd-e189-5bdd-a524-d513b11b1f73		
+sample	TARGET-40-PASRNE-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				eda3389d-1343-53d5-abbd-d9328dece985	37700fc1-0b0f-55fc-8eb6-349512fdfaac		
+sample	TARGET-40-PANDMD-01A	Not Reported	Not Reported	-999	Tumor	Frozen solid tumor				eea684ef-dc4f-56d4-8ad9-24266aa6c398	f0196fba-d7f6-53e2-bb98-488ff29e42bd		
+sample	TARGET-40-NAAEDB-06A-01	Not Reported	Not Reported	-999	Tumor	frozen solid tumor				f114150f-f891-5e71-aba1-8285af16dc9d	fc3c6d46-3e57-51c7-b523-4509a113e0dd		
+sample	TARGET-40-NAAGZX-01A-01	Not Reported	Not Reported	-999	Tumor	frozen solid tumor				f6ae05d7-8fae-5006-ba5b-79c006613842	066d2a7e-fc44-5332-a15f-20c6e9f8480a		
+sample	TARGET-40-NAAEDD-08A-01	Not Reported	Not Reported	-999	Tumor	frozen solid tumor				f966a525-81ad-52df-9646-af150b1d66d4	9bf555a9-5e90-53ca-af52-fe992c46c44d		
+sample	TARGET-40-NAAFJT-01A-01	Not Reported	Not Reported	-999	Tumor	frozen solid tumor				fa93c9e8-a614-5cb6-8167-9ab4ba1ce4b2	9d09b478-3382-5102-9c1a-9f29a94e9d04		
+sample	TARGET-40-NAAEDD-01A-01	Not Reported	Not Reported	-999	Tumor	frozen solid tumor				fc26a48d-3569-55a2-8164-abfb3f57ccdb	9bf555a9-5e90-53ca-af52-fe992c46c44d		
+sample	TARGET-40-NAAWHG-01A-01_TS1	Not Reported	Not Reported	-999	Not Reported					ff1f1963-eff4-5e8b-afc6-14d62ee58d15	01235727-47ae-5906-bc58-5f5edf98670b		

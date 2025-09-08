@@ -1,4 +1,0 @@
-type	survival_id	last_known_survival_status	age_at_last_known_survival_status	first_event	event_free_survival_status	age_at_event_free_survival_status	follow_up_category	follow_up_other	adverse_event	comorbidity	comorbidity_method_of_diagnosis	risk_factor	cause_of_death	id	participant.id
-survival	surv_2	Dead	760	Progression										60222f8e-a295-5ee8-9275-1338bee6a36a	698cc0e3-1f0c-538a-b475-0fed41445f2b
-survival	surv_3	Dead	-999											6ddd18b6-6e3a-5449-a0df-a077a4f23510	c06a1f2a-9656-568a-873e-1bdbeb6dccfe
-survival	surv_1	Dead	3616	Relapse										e767e258-cf20-52bd-b1df-2d48c059ba4e	4b8ab0df-f2e0-5336-a927-94f8929f868c

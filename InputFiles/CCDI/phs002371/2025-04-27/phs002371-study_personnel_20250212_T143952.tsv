@@ -1,2 +1,0 @@
-type	study_personnel_id	personnel_name	personnel_type	email_address	institution	orcid	crdc_id	id	study.id
-study_personnel	phs002371_personnel_1	Kai Tan, PhD	PI	tank1@chop.edu	Children's Hospital of Philadelphia	https://orcid.org/0000-0002-9104-5567		289de33e-edbf-52aa-87ed-7e14c2b962c5	db0d56bd-b388-5f04-89e5-67d54a35dc07

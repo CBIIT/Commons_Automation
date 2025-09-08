@@ -1,0 +1,3 @@
+type	study_funding_id	funding_agency	grant_id	funding_source_program_name	id	study.id
+study_funding	funding_1	National Institutes of Health	X01HD100702		fc7ff63f-97e5-5c21-8373-b961349afa81	415102c7-a9e2-5f2d-8656-ab98b2a1af96
+study_funding	funding_2	National Cancer Institute	P30CA008748	Childhood Cancer Data Initiative	577be9a6-26c8-5841-a5ca-31b203c4dd6a	415102c7-a9e2-5f2d-8656-ab98b2a1af96

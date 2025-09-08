@@ -1,5 +1,0 @@
-type	study_funding_id	funding_agency	grant_id	funding_source_program_name	id	study.id
-study_funding	fund_4	Canadian Institutes of Health Research	CIHR-262119		2fe43b48-dd08-5227-8cd8-35abd826d4b9	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
-study_funding	fund_2	National Cancer Institute	N01CO12400		4de8d4f1-3d12-58dc-a981-bb5e616d973b	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
-study_funding	fund_1	National Cancer Institute	HHSN261200800001E		616996e8-b30b-5414-8809-a2ee985c1326	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3
-study_funding	fund_3	Canadian Institutes of Health Research	FDN-143288		eb281099-79ed-5e31-b2b3-2f9fe9b4533b	8a1cf31c-96c4-5ce6-8b9c-73453f41f3d3

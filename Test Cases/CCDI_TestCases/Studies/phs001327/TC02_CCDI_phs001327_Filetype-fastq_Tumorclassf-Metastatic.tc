@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_CCDI_phs001327_Filetype-fastq_Tumorclassf-Metastatic</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0e3ec964-f741-48ce-8792-2dcf699b623b</testCaseGuid>
+</TestCaseEntity>
