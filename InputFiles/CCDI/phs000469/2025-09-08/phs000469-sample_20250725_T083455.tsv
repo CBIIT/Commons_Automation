@@ -1,0 +1,116 @@
+type	sample_id	tumor_classification	anatomic_site	participant_age_at_collection	sample_tumor_status	sample_description	percent_tumor	percent_necrosis	crdc_id	id	participant.id	pdx.id	cell_line.id
+sample	MLL-6	Not Reported	C40.0 : Long bones of upper limb, scapula and associated joints	-999	Not Reported					06182971-d62f-5acf-b6e1-a83ae9c1f94b	981599f0-2362-5f92-9c1a-1a4067ccd81b		
+sample	TARGET-30-PAMYEF-13A-01D	Not Applicable	C42.0 : Blood	-999	Normal					0bbea0e1-4dbe-556b-9535-bb9332a37c76	4b8ab0df-f2e0-5336-a927-94f8929f868c		
+sample	EW5	Not Reported	C42.1 : Bone marrow	-999	Not Reported					0c5337fe-e691-5dbc-b2a6-f45568f9cdb7	a2cfed5c-64ef-5202-b106-84db75c0dc3e		
+sample	TARGET-30-PASXWX-50.1B-01D	Not Applicable	C42.0 : Blood	-999	Normal	Line from post-mortem blood, clinical data pending likely heavily treated with chemothearpy				0dcf4db6-6920-515c-a5fb-ae0907eb230d	698cc0e3-1f0c-538a-b475-0fed41445f2b		
+sample	TARGET-30-NAABZN-50.1A-01D	Not Applicable	C42.0 : Blood	-999	Normal	Clinical data pending likely heavily treated with chemothearpy				0f7de20f-58e0-5268-8f03-c791c4da075b	c06a1f2a-9656-568a-873e-1bdbeb6dccfe		
+sample	NB-EBc1	Not Reported	C48.0 : Retroperitoneum	-999	Not Reported					11763d63-9d3d-5bd4-a518-df08ca96acc9	0d8b6cf6-7243-5804-9b69-e0123493d069		
+sample	SUDHL-1	Not Reported	C22.0 : Liver	-999	Not Reported					1321cdfb-d698-53e6-a7f3-48bed7b66522	ea3bfa5e-03ea-51c5-b7f7-0dd7a743a37b		
+sample	BT-28	Not Reported	C42.1 : Bone marrow	-999	Not Reported					14e78c2e-4625-5ac4-b740-9b64e5455fd9	00a42d63-634d-5c1e-81d5-9ec7f4b9fbe4		
+sample	TARGET-30-NAABZJ-50.2A-01D	Not Applicable	C42.1 : Bone marrow	-999	Normal	Cell line from bone marrow at progression after 2 cycles of cylo/doxorubicin				17281579-3526-5525-8855-944f9cfe2a75	1c7fcfcf-260c-5c59-b249-4e2ae901a3a0		
+sample	ALL-2	Not Reported	C42.1 : Bone marrow	-999	Not Reported					19dc1948-e9ef-5559-98f2-1260f801ed0b	0e0d97d3-309a-5157-9613-4d1661fd486b		
+sample	OS-9	Not Reported	C40.2 : Long bones of lower limb and associated joints	-999	Not Reported					1a5bb0af-daac-50c7-bd63-d18f8bebd02f	290fae49-9fc1-5126-ac67-d466cdc909e4		
+sample	BT-12	Not Reported	C42.1 : Bone marrow	-999	Not Reported					1b0a5050-d258-5371-bb5b-cb8cf1dda143	712433a7-c679-59d4-a2ee-466ff8cffa57		
+sample	MLL-2	Not Reported	C42.1 : Bone marrow	-999	Not Reported					1c8469b2-ac11-5047-892f-51baea8e5774	5ec5dc18-9f9c-5527-b558-fa49b55ede63		
+sample	TARGET-30-NAABZJ-13A-01D	Not Applicable	C42.1 : Bone marrow	-999	Normal	EBV lymphoblastoid established from blood after chemotherapy given				244f215e-0d07-558b-856c-3eea4818bd52	1c7fcfcf-260c-5c59-b249-4e2ae901a3a0		
+sample	ALL-10	Not Reported	Not Reported	-999	Not Reported					26558b8a-15de-5945-a8bd-2d17be72e6d0	78a7e915-5185-5c23-a542-c3e7f4836655		
+sample	SK-N-AS	Not Reported	C42.1 : Bone marrow	-999	Not Reported					2a0332ac-fb56-5ce6-8a4f-1fe7b63ddb0d	bd8d4971-82c5-540a-98bb-e36a3d668a9b		
+sample	KT-14	Not Reported	C42.0 : Blood	-999	Not Reported					2c32fc16-d0bd-5ceb-9dfa-5dac5ccafc61	89beb9b6-bc3e-5805-af52-c0882dacbbd3		
+sample	KT-5	Not Reported	C64.9 : Kidney, NOS	-999	Not Reported					2f18626a-7829-52eb-ba3b-8a4d6e3a87f5	a889a97c-1490-57c4-9ede-e4b9befdb239		
+sample	NB-SD	Not Reported	C48.0 : Retroperitoneum	-999	Not Reported					3228cf07-8850-5c1b-a0b0-12b5094aec80	15c13b3a-c9fb-518f-91b9-abd22aafc367		
+sample	KT-11	Not Reported	C76.2 : Abdomen, NOS	-999	Not Reported					32da46fe-59f4-5a19-b7a3-2f6ed0a7a7d0	805b4d2c-d4ad-55ae-880d-663ab0f2a5b7		
+sample	CHLA-136_sample	Not Reported	C71.9 : Brain, NOS	-999	Not Reported					32f4bd92-0d5d-5941-8833-161172d84a43	6c9b6b3b-a3ca-5557-b049-09779444e079		
+sample	OS-29	Not Reported	C42.1 : Bone marrow	-999	Not Reported					33b94106-b15e-58b5-9cde-e4ab5ff5157a	957a0897-64ad-5405-881b-821926479a84		
+sample	CHLA-79	Not Reported	Not Reported	-999	Not Reported					36479fb1-d9df-542d-acc4-60e1bd53c35a	78e711fd-eb28-5ff0-92ea-4437a9dd4373		
+sample	CHLA-266	Not Reported	Not Reported	-999	Not Reported					379f80b7-673d-5b6a-b97b-81abeaa2ca1b	2d32ef2f-9847-5b4c-9b10-30b414e45c7b		
+sample	COG-LL-317	Not Reported	Not Reported	-999	Not Reported					410a2ede-8a11-591e-9bd7-6c214bb61dc4	41c4685c-40e6-5e81-b805-05743ae1bca1		
+sample	TARGET-30-NAABZK-50.3A-01D	Not Reported	Not Reported	-999	Tumor	Cell line from bone marrow after induction chemotherapy				4202e89f-f652-5033-b589-c745c6d72983	80491f79-924f-5084-a727-59c0b12a80e1		
+sample	TARGET-30-NAABZM-50.1A-01D	Not Applicable	C42.1 : Bone marrow	-999	Normal	Cell line from marrow at diagnosis prior to therapy				4412dba5-4c92-55e8-9ca3-93c43cdbb35c	7b877a4c-4594-5d35-b1fb-9484b227f2c7		
+sample	Ramos	Not Reported	C40.2 : Long bones of lower limb and associated joints	-999	Not Reported					45ef07d1-0310-5231-add9-c62107eeeebd	8d0aefa5-59e8-5207-b4bd-5d284cc5bf2f		
+sample	CHLA-258	Not Reported	C42.0 : Blood	-999	Not Reported					4bf3bb3e-8b74-5ab0-8a59-297c9aac21fd	a904557b-2191-5302-8bbe-0a1a5978ff9f		
+sample	OS-1	Not Reported	C74.9 : Adrenal gland, NOS	-999	Not Reported					4c1e2737-b1a1-57bb-b528-da9f650462d2	9ce4d74e-e681-5214-b07e-5d6d63c327a4		
+sample	Rh-30R	Not Reported	C49.9 : Muscle, NOS	-999	Not Reported					4e0121b6-b26f-5027-9891-42da021d3845	5fd93bf4-d1ce-5d89-b0e4-16a368b5c642		
+sample	TC-71	Not Reported	Not Reported	-999	Not Reported					4e3fe7b2-374d-5968-a439-eeb2b344c5f3	58289e92-5901-5212-a3c8-4443fe7acd98		
+sample	MLL-3	Not Reported	C38.4 : Pleura, NOS	-999	Not Reported					4fc8d871-8961-571b-9beb-2496d13e993c	1b4465e5-a736-56cc-bf9c-69c93795ddea		
+sample	BT-29	Not Reported	C42.1 : Bone marrow	-999	Not Reported					52b2296d-ebc3-5f34-8a91-a1e1673965e7	654682d4-eb8d-5b8a-acd3-77f74275deff		
+sample	TARGET-30-NAABZL-50.1A-01D	Not Applicable	C42.1 : Bone marrow	-999	Normal	Cell line from marrow pre-therapy				540a6256-27c9-579d-a1d4-4a2866d4f62d	b7005248-cbe1-524e-bbd1-380dea255d7a		
+sample	ALL-19	Not Reported	C74.9 : Adrenal gland, NOS	-999	Not Reported					57f42d0c-d04f-5e83-a23a-d1db59f1b1ab	83bf7800-9867-577d-be0d-5e81144f6011		
+sample	TARGET-30-NAABZN-13A-01D	Not Applicable	C42.0 : Blood	-999	Normal	Same as 426 direclty xenografted into mouse				5a7cf141-17b8-5193-a1c3-c80c1f169ea7	c06a1f2a-9656-568a-873e-1bdbeb6dccfe		
+sample	KT-16	Not Reported	C64.9 : Kidney, NOS	-999	Not Reported					61143d73-0821-53bc-b24a-63585a5af45b	75aab4f0-d206-5bb8-9f76-f16f660b79f4		
+sample	TARGET-30-NAABZM-13A-01D	Not Applicable	C42.1 : Bone marrow	-999	Normal	EBV lymphoblastoid established from marrow after chemotherapy given				62db5efe-43db-50fa-ab8b-a73a7b5f6b0e	7b877a4c-4594-5d35-b1fb-9484b227f2c7		
+sample	ALL-11	Not Reported	Not Reported	-999	Not Reported					6507daf9-eb77-5d8b-b390-f8459bcbc32a	d4ad78d6-6a5c-5b15-8fe3-3d7cdbe51621		
+sample	MLL-14	Not Reported	C42.1 : Bone marrow	-999	Not Reported					69d2bfb0-25d4-5939-8739-934c0ca53c07	28d66926-bad9-5b63-841f-729c4ea2c743		
+sample	OS-17	Not Reported	C74.9 : Adrenal gland, NOS	-999	Not Reported					6b7fd9b0-75ae-505f-ac8f-9d2e874d5075	d6b8090a-2e10-5715-8d41-3f937b897e20		
+sample	KT-13	Not Reported	C42.0 : Blood	-999	Not Reported					6d799654-5cf1-506a-a5d4-ef9c70b9bfc8	955babe0-5b29-57e2-9f14-df1bf75b5ae3		
+sample	Karpas-299	Not Reported	Not Reported	-999	Not Reported					6d92624b-ca25-5077-bc5c-dc199a6b1569	dc43d286-684c-5b55-b081-bc4fcf1969ac		
+sample	BT-56	Not Reported	C42.1 : Bone marrow	-999	Not Reported					6ea52def-4b95-599b-8541-c239d98e5dc6	f153ddb8-fff4-5cff-9df9-d06382400012		
+sample	TARGET-30-NAABZJ-50.1A-01D	Not Reported	Not Reported	-999	Tumor	Cell line from primary tumor pre-therapy				73cca42c-0817-559f-81b4-20593c189755	1c7fcfcf-260c-5c59-b249-4e2ae901a3a0		
+sample	TARGET-30-PAMYEF-50.2A-01D	Not Applicable	C42.0 : Blood	-999	Normal	Same source as 421, grown in 5% O2 rather than room air/CO2				79c0b349-c3b4-5cae-9c84-0c3fedb7fb62	4b8ab0df-f2e0-5336-a927-94f8929f868c		
+sample	CHLA-90	Not Reported	Not Reported	-999	Not Reported					7aa6aedc-ece7-5a28-a01a-e18389aee3f6	ece7f59b-3be2-5ff2-aca0-bece977b71b2		
+sample	MLL-7	Not Reported	C42.1 : Bone marrow	-999	Not Reported					7ae814c4-771f-5ad8-b007-2aa102da44da	891c7b03-ab78-5823-b8b7-7d1e270d30f0		
+sample	NB-1771	Not Reported	C42.0 : Blood	-999	Not Reported					7bbf2f43-95e9-5e16-b100-f7ceb948ad35	c1e5e875-fe09-5afb-8838-5cd4f822b298		
+sample	CHLA-122_sample	Not Reported	C71.9 : Brain, NOS	-999	Not Reported					8220c965-9b3f-5e88-a8c7-8ac2dc8e0957	03593139-6076-54f8-b125-e2dcd62c0980		
+sample	BT-50	Not Reported	C42.1 : Bone marrow	-999	Not Reported					88d003a0-6d50-5a84-af49-3064cb2eeab7	9c767b07-9daf-50d8-af28-37a7ba955e6a		
+sample	D645	Not Reported	Not Reported	-999	Not Reported					8a7f8de9-f173-5da8-8001-7109ebbeb15a	19344114-9065-5970-9760-5c4358e3f8b8		
+sample	Rh-30	Not Reported	Not Reported	-999	Not Reported					8b3a6d63-1300-5803-93c4-38eb898b4048	aaec18fb-3f2c-5686-9b8d-d85842d6790f		
+sample	MOLT-4	Not Reported	C71.5 : Ventricle, NOS	-999	Not Reported					8df005e7-56c0-5ed2-b19f-d2ae02d85e01	76715411-1d95-5746-a32d-39f97b695abf		
+sample	Kasumi-1	Not Reported	Not Reported	-999	Not Reported					8e170b17-0746-59af-b360-10688cb5078d	e450771a-b43a-5034-8146-dac66d59e111		
+sample	ALL-17	Not Reported	C74.9 : Adrenal gland, NOS	-999	Not Reported					91caf8c5-0645-5dca-9603-eb05a0d45e69	dbce6a80-abc9-5998-a0f1-831ce04a4981		
+sample	TARGET-30-NAABZK-13A-01D	Not Applicable	C42.1 : Bone marrow	-999	Normal	Cell line from marrow after chemotherapy				93ce934c-4fa6-52d6-9cfe-8643ac44c334	80491f79-924f-5084-a727-59c0b12a80e1		
+sample	ALL-8	Not Reported	C42.0 : Blood	-999	Not Reported					94849cdf-36d8-5fee-9c8e-d0b948c9ac80	d162291e-6550-5b29-aaab-d91f956a5bdf		
+sample	KT-10	Not Reported	C41.2 : Spine	-999	Not Reported					96987eca-86f0-5347-bb83-e2694067455d	89c2950d-3f68-5541-89f6-5f319af324ba		
+sample	D212	Not Reported	Not Reported	-999	Not Reported					971c1ee0-1587-5821-9739-5e0ef4469ba3	71ce9dc3-c2de-5b05-93e5-270517b9dc6b		
+sample	SK-NEP-1	Not Reported	C62.9 : Testis, NOS	-999	Not Reported					98d6cd68-9944-5660-9431-1310438314d0	cf0cfcce-874c-5869-923e-fc5becbac340		
+sample	OS-160	Not Reported	C48.0 : Retroperitoneum	-999	Not Reported					9b178187-572e-5ff2-b5ef-50fb8ec94cbb	087d7d0b-29e0-55bd-b0f5-8200fd1b5c5e		
+sample	BT-54	Not Reported	C42.0 : Blood	-999	Not Reported					9ed2b57e-f2ae-5a06-9105-0b0f0c08d252	e003730f-b130-5e33-a18f-acbadbf40bfa		
+sample	TARGET-30-NAABZN-50.2D-01D	Not Applicable	C42.0 : Blood	-999	Normal	Post mortem blood sample cell line clinical data pending likely heavily treated with chemothearpy				9f2850dd-f8b1-5f7c-ad32-103c88bf20d9	c06a1f2a-9656-568a-873e-1bdbeb6dccfe		
+sample	RS4;11	Not Reported	C42.1 : Bone marrow	-999	Not Reported					9fa0790e-4d84-5210-8f4f-0a2d6c8e0dcb	c9fe7b8c-eeda-5bf2-8b96-488958e848e9		
+sample	RD	Not Reported	C34.9 : Lung, NOS	-999	Not Reported					a25765ff-39b5-5631-b063-be98f565ff73	2d76a0de-7f75-561f-9935-042e10059714		
+sample	TARGET-30-NAABZK-50.2A-01D	Not Applicable	C38.4 : Pleura, NOS	-999	Normal	Cell line from pleural fluid pre-therapy				a3c9428f-7847-5bbe-8718-ec3ec719536e	80491f79-924f-5084-a727-59c0b12a80e1		
+sample	ALL-3	Not Reported	C42.1 : Bone marrow	-999	Not Reported					b4024e48-8b60-544b-96a3-3f5b67ad3537	9c2c8328-71c6-5cbf-81f8-57b8fcc463b6		
+sample	NB-1382	Not Reported	C64.9 : Kidney, NOS	-999	Not Reported					b697c235-5ff1-5a76-b77d-fdaf13e5b0ae	3a013c91-3d8e-5e9b-8a44-bf3483a52e11		
+sample	OS-31	Not Reported	C40.2 : Tibia	-999	Not Reported					b74c56bd-298f-5b21-af97-7f1069712801	60a9e8f4-df4f-5276-9a2d-d6b23c35780d		
+sample	MLL-5	Not Reported	C38.4 : Pleura, NOS	-999	Not Reported					b9e24209-661f-59b4-9d39-38380172f309	34344da5-46ab-5500-b6b9-b2d4ea6a1d79		
+sample	TARGET-30-NAABZJ-01A-01D	Primary	Not Reported	-999	Tumor	primary tumor, suprenal mass, MYCN amplified				bb600eb0-8fea-54aa-9940-f8f469ad1d55	1c7fcfcf-260c-5c59-b249-4e2ae901a3a0		
+sample	NB-1691	Not Reported	C42.0 : Blood	-999	Not Reported					bb767284-89fe-5b8b-8ec2-13c3c81ddb07	15d61b5f-f6f9-57d3-9b2d-a4385822fc15		
+sample	TARGET-30-NAABZL-50.2A-01D	Not Applicable	C42.0 : Blood	-999	Normal	Cell line from marrow at disease progression after myeloablative thearpy: NOTE p53 functional				be1f0560-e5b6-5c58-a0ad-8918718dfc38	b7005248-cbe1-524e-bbd1-380dea255d7a		
+sample	OS-2	Not Reported	C74.9 : Adrenal gland, NOS	-999	Not Reported					bf214e57-7d5d-5eea-8ad9-d06e0eb4bc56	c064cc37-046d-586c-a246-c0bcc584d293		
+sample	CHLA-119	Not Reported	C71.9 : Brain, NOS	-999	Not Reported					bf9b67a2-67dd-5fc5-88de-04fa0fe8b280	599cb618-3e98-56fd-aa7d-652e72584dbc		
+sample	OS-33	Not Reported	C34.9 : Lung, NOS	-999	Not Reported					c0ed9add-ae13-59ef-80de-3dd30a9df460	0175953d-29c0-5d3b-b143-15ef6868f32d		
+sample	GBM2	Not Reported	Not Reported	-999	Not Reported					c2574463-ccf2-5820-87e2-54407c41db08	90d059a5-1a94-5c8f-9125-7f3942b9d2d1		
+sample	TARGET-30-PAMYEF-50.1A-01D	Not Applicable	C42.0 : Blood	-999	Normal	Post mortem blood sample cell line clinical data pending likely heavily treated with chemothearpy				c58d5b7b-a87a-5426-a16a-79b9aadeaa36	4b8ab0df-f2e0-5336-a927-94f8929f868c		
+sample	BT-41	Not Reported	C42.1 : Bone marrow	-999	Not Reported					c6b5ade3-74ab-57f4-882d-f7386da29aae	6bf2dd21-c842-5899-9ce2-54349f92a25b		
+sample	TARGET-30-NAABZM-50.2A-01D	Not Applicable	C42.1 : Bone marrow	-999	Normal	Clinical data pending likely heavily treated with chemothearpy				c74c57ad-172e-58bc-9c56-cedd9b5fa02e	7b877a4c-4594-5d35-b1fb-9484b227f2c7		
+sample	CHLA-10	Not Reported	C71.9 : Brain, NOS	-999	Not Reported					c880b1fe-b8a6-5589-9b5a-c46e96b24f74	f7880c6c-fda6-5934-ac18-2b359dc8b584		
+sample	Rh-28	Not Reported	C40.2 : Long bones of lower limb and associated joints	-999	Not Reported					c9c471de-f94d-5d1f-bc97-d4e9df32e367	9ed69e28-0d4b-5af5-a130-43bd60c716c4		
+sample	Rh-41	Not Reported	C76.3 : Perineum, NOS	-999	Not Reported					cd7f7ae7-01c1-5584-8f08-18ff09a0db37	51173c24-97ca-5e69-a3a0-d909ee01fe08		
+sample	MLL-8	Not Reported	C42.0 : Blood	-999	Not Reported					cf60c7fc-4023-5cf1-86a3-de098cd03b48	142e4ac2-cf64-59c6-a24c-3c72b1b96a7c		
+sample	TARGET-30-PAMYEF-60A-01D	Not Applicable	C42.0 : Blood	-999	Normal	Same as 421 direclty xenografted into mouse				cfb584a4-0666-5d2d-abda-ecec8b346233	4b8ab0df-f2e0-5336-a927-94f8929f868c		
+sample	Rh-18	Not Reported	C40.0 : Long bones of upper limb, scapula and associated joints	-999	Not Reported					d04d3c19-a610-57f6-966e-b95f33053a16	5a695a5b-c86a-5e44-b4b5-4046e1505466		
+sample	BT-39	Not Reported	C42.1 : Bone marrow	-999	Not Reported					d094ed01-a3a8-5183-8a64-2d905fbba1c1	2b279a61-2b3b-5307-afbd-3eac67d08431		
+sample	TARGET-30-PASXWX-13B-01D	Not Applicable	C42.0 : Blood	-999	Normal	EBV line from same blood as tumor line				d0c97f34-47b0-56cf-97a0-c3562c75d4ea	698cc0e3-1f0c-538a-b475-0fed41445f2b		
+sample	BT-44	Not Reported	C42.0 : Blood	-999	Not Reported					d2924be2-ca5a-5bca-951a-faf202245b92	2850eff3-ae2f-58f6-89a7-ba3425408024		
+sample	CCRF-CEM	Not Reported	C42.1 : Bone marrow	-999	Not Reported					d2b82a19-1807-556c-b116-6171f74772be	48e4d281-3c63-5a1f-91b5-c8ebd112d118		
+sample	TARGET-30-NAABZK-50.1A-01D	Metastatic	Not Reported	-999	Tumor	Cell line from primary tumor pre-therapy				d474d46c-e835-52ff-9f7e-ae7f0179bae2	80491f79-924f-5084-a727-59c0b12a80e1		
+sample	ALL-4	Not Reported	C42.1 : Bone marrow	-999	Not Reported					d5741248-25c3-50b2-8487-c7d8b8b9c3d6	d7784f28-fa8e-5431-a4b8-586455bd3a20		
+sample	TARGET-30-NAABZL-15C-01D	Not Applicable	C42.1 : Bone marrow	-999	Normal	fibroblasts from marrow after chemotherapy				d6e9a5e6-f244-5733-b1ca-6d6087337171	b7005248-cbe1-524e-bbd1-380dea255d7a		
+sample	NALM-6	Not Reported	C64.9 : Kidney, NOS	-999	Not Reported					d6f1bcf8-bddf-584b-9b9e-2286d785f94e	ffcb38bb-30ed-5f19-a430-c39ec88c6783		
+sample	NB-1643	Not Reported	C64.9 : Kidney, NOS	-999	Not Reported					dc2a043c-0121-5dcb-a9a0-4a6b420c859a	dccca1e5-8ecc-5e38-9187-d079b718ba6d		
+sample	D456	Not Reported	Not Reported	-999	Not Reported					ddd7c48c-1f63-52cf-83a5-4ebce476b0bd	d2bffcb1-ac4c-51b4-b060-778ed3e61e94		
+sample	TARGET-30-PASXWX-60B-01D	Not Applicable	C42.0 : Blood	-999	Normal	Same as 415 direclty xenografted into mouse				df11c469-23c2-5ba3-af9e-8dd77d022ff8	698cc0e3-1f0c-538a-b475-0fed41445f2b		
+sample	MV4;11	Not Reported	C64.9 : Kidney, NOS	-999	Not Reported					e04e0dbb-f7f9-54eb-b702-1d8aa46cdde9	e4d8b1e6-7ebf-5448-b09e-f6931e37b985		
+sample	ALL-7	Not Reported	C42.1 : Bone marrow	-999	Not Reported					e28bee31-c587-5883-a17e-c2baedb202e4	fd083f15-52d5-5d09-ace0-05a25c7900bb		
+sample	BT-45	Not Reported	C42.1 : Bone marrow	-999	Not Reported					e4837ce8-90ac-5e14-89d5-6b00e82de0cb	2491a5a5-a7f8-543b-a048-510ddf4fad09		
+sample	EW8	Not Reported	C42.1 : Bone marrow	-999	Not Reported					e889073c-e86f-5523-8978-4ad0491ad04b	e1023f7f-c179-5ed3-be48-27704e270da6		
+sample	BT-46	Not Reported	C42.0 : Blood	-999	Not Reported					ea4af30f-8dc8-5c0f-8701-c369083380e2	156c19c7-fef3-5307-adf5-2826cb664791		
+sample	TARGET-30-PASXWX-50.2A-01D	Not Applicable	C42.0 : Blood	-999	Normal	Same source as 415, grown in 5% O2 rather than room air/CO2				eb7d8bf4-63df-5bf7-a511-8f6558d6eb29	698cc0e3-1f0c-538a-b475-0fed41445f2b		
+sample	KT-12	Not Reported	C71.9 : Brain, NOS	-999	Not Reported					ee4d9bcb-666e-5e09-a48d-f348c0d3f5f4	8daefbf3-50d3-5095-abae-129835c90c7c		
+sample	BT-36	Not Reported	C42.1 : Bone marrow	-999	Not Reported					f27e5ac0-b45a-57c0-8629-12517596c5fa	9d3970d4-34c1-5afa-868d-e9df9b0cffb7		
+sample	ALL-16	Not Reported	Not Reported	-999	Not Reported					f45e26e9-fada-59fe-a957-dd31b12b4bf3	926000af-f4f2-511b-874f-4669c0052cf6		
+sample	CHLA-9	Not Reported	Not Reported	-999	Not Reported					f61b999a-bf35-5e41-a812-b5112e6b9dd1	4b191882-04be-555a-89cb-3852b180299d		
+sample	TARGET-30-NAABZN-60A-01D	Not Applicable	C42.0 : Blood	-999	Normal	Same source as 426, grown in 5% O2 rather than room air/CO2				f9f17d07-30fd-5321-b2a5-cfea5d63bfbe	c06a1f2a-9656-568a-873e-1bdbeb6dccfe		
+sample	TARGET-30-NAABZL-13B-01D	Not Applicable	C42.1 : Bone marrow	-999	Normal	EBV lymphoblastoic from marrow after chemotherapy				fa6146e8-21f9-5734-83ab-2467df217054	b7005248-cbe1-524e-bbd1-380dea255d7a		
+sample	Rh-10	Not Reported	C40.2 : Long bones of lower limb and associated joints	-999	Not Reported					fce28142-a481-5999-8156-418921d6fa4f	0cc82700-f65e-5638-bb70-86c85bbf81fa		
+sample	Rh-36	Not Reported	C76.3 : Perineum, NOS	-999	Not Reported					fdd994c1-d8ae-5714-af73-9a8478abb90f	dcdb9fab-def3-5edc-b10c-58e01553ca01		
+sample	Rh-65	Not Reported	C77.3 : Lymph nodes of axilla or arm	-999	Not Reported					ff37e1e1-ced9-5029-9fe7-5bd3bb1b4b63	2fb0853c-584d-59c1-bf53-0db43db910ff		
+sample	MLL-1	Not Reported	C42.1 : Bone marrow	-999	Not Reported					ff9ce246-2a1e-5982-a81b-4c67df7cdfc4	fb459260-efb8-578b-82b6-74651114067b		

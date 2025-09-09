@@ -1,0 +1,627 @@
+type	synonym_id	repository_of_synonym_id	associated_id	domain_description	domain_category	data_location	id	study.id	participant.id	sample.id
+synonym	SAMN07525338_BioSample	BioSample	SAMN07525338				f6dece0e-9aad-50de-aeb5-6e004094c6b1			938f883e-8c68-59d9-a9e9-350c22d3d85f
+synonym	SAMN07525162_BioSample	BioSample	SAMN07525162				5172e289-3ea8-544b-ab14-e1c2e435cab1			70f3bbd2-5416-5e83-98cf-cf9a29a41c60
+synonym	SAMN07525130_BioSample	BioSample	SAMN07525130				d53d6280-f01e-56b4-9863-9dd953f2b1ef			9a55ec26-4049-5ff2-974f-cafa853e07cc
+synonym	SAMN07525126_BioSample	BioSample	SAMN07525126				5d80f9a7-12c5-5b9e-ade5-ea6bb9c73586			1e1ca0c3-e919-5066-a693-703ffe78cc47
+synonym	SAMN07525167_BioSample	BioSample	SAMN07525167				8fb9dbb1-3148-5056-937b-a1c172e15431			e0a98b98-1c2b-5382-afbf-7b3eba351ad7
+synonym	SAMN07525311_BioSample	BioSample	SAMN07525311				0a76e3c0-6833-59ea-b497-dacaf528c50c			62182ff6-92d3-5981-aa9a-befd45188ff4
+synonym	SAMN11834691_BioSample	BioSample	SAMN11834691				58d4f810-a75a-5eae-a97a-11b79d978840			8d9c1369-87de-5826-bd5e-e186a25e358d
+synonym	SAMN11834686_BioSample	BioSample	SAMN11834686				2f232ed6-ca95-5f1d-b9a8-f09da340fb28			2415d17d-361c-5a6e-b494-e85c763f5d02
+synonym	SAMN11834706_BioSample	BioSample	SAMN11834706				843fd78b-616a-58b4-b081-322f9cc718bd			01f58397-9272-54db-9da6-b3ce3668a82a
+synonym	SAMN11834726_BioSample	BioSample	SAMN11834726				5cd30349-c088-5589-883a-9c525609a0d1			4c6c7a1c-be1d-57b0-91e9-ad6383ff1703
+synonym	SAMN11834715_BioSample	BioSample	SAMN11834715				db79283d-1431-51f7-a246-b194c682571a			9e011b79-9c20-580f-b184-5e5d768da39a
+synonym	SAMN11834716_BioSample	BioSample	SAMN11834716				bac200f9-3528-5949-9c6b-ce824bc7e5c7			0897356c-dbac-5a4b-806b-8cb6f1e58996
+synonym	SAMN11834718_BioSample	BioSample	SAMN11834718				34f5a53c-fa54-5244-aadb-5571c183389e			5616e824-69f5-5e55-af7a-8e4dc9b2dc31
+synonym	SAMN11834728_BioSample	BioSample	SAMN11834728				4301b0cc-f5e2-5351-a73a-7d1b3e356ee9			8bcce0ab-572d-5662-a171-13dc34a7044a
+synonym	SAMN11834714_BioSample	BioSample	SAMN11834714				230757a9-c285-589a-bc2b-814f49ec74e4			a31c0de0-722e-5d53-8780-8b4e573ef318
+synonym	SAMN11834689_BioSample	BioSample	SAMN11834689				aeaf0f2a-7163-56dc-8756-16bb6ca21751			ecf3db8c-2634-5bc4-baba-cdf0694d5a73
+synonym	SAMN11834703_BioSample	BioSample	SAMN11834703				47ebf840-1573-5d7c-8f44-9f094c631011			5b5d7b49-bf28-5a35-b1fa-6d5d03facdf9
+synonym	SAMN11834723_BioSample	BioSample	SAMN11834723				35e15bf9-fcfe-5998-848f-5d5a402d3849			cde78dce-4e54-563d-9136-1c34e6da761e
+synonym	SAMN11834711_BioSample	BioSample	SAMN11834711				18dcc36f-b912-595e-9898-96faa1a386dc			ec0b89fc-3ed3-5970-b88c-88a82aac4de6
+synonym	SAMN11834712_BioSample	BioSample	SAMN11834712				7e2e9810-dccc-5d07-8568-43f817f8e375			289ef38b-c26b-5597-9c91-a8d5bd374b8c
+synonym	SAMN11834700_BioSample	BioSample	SAMN11834700				5e25669a-5605-5cf4-9a1d-372f2aa3ca08			e2655116-23c2-546c-bd66-ef15e4f66cbd
+synonym	SAMN07525318_BioSample	BioSample	SAMN07525318				38755ed6-4f11-5735-b985-93e9d056418a			f9d32382-1a10-5813-8aee-45c531d531ae
+synonym	SAMN07525204_BioSample	BioSample	SAMN07525204				19a92d2e-e54a-594f-a20e-e2b89d770cb9			83f62afa-8227-5e16-8f40-653da1de53c0
+synonym	SAMN11834687_BioSample	BioSample	SAMN11834687				985df37b-1e06-50c7-ae72-fcb9c285b436			265c74a0-6b45-55de-9170-ec101d4d5eff
+synonym	SAMN07525243_BioSample	BioSample	SAMN07525243				99e10af6-d522-55e2-b473-e24c59877fd2			f67eb307-85f2-5d49-9a37-50ff8d390372
+synonym	SAMN11834692_BioSample	BioSample	SAMN11834692				06687d9d-d216-5d1b-851f-6d3b04e4d8a7			36c958f3-8544-5002-aa70-49b80ab6a289
+synonym	SAMN11834724_BioSample	BioSample	SAMN11834724				2e2c75e9-9d99-5ecd-ab25-be6f922b6c25			bfcd601c-f6d0-507f-85f6-514ff82c02e9
+synonym	SAMN07525274_BioSample	BioSample	SAMN07525274				46899317-5800-5d15-8030-2c6c3a9d0cb1			258b30f6-5462-5e6b-8b77-2fab21c1a86e
+synonym	SAMN07525225_BioSample	BioSample	SAMN07525225				64464dad-ecf8-5dfd-b31c-81e00bd1fb72			7ca97990-7111-5a24-bcc8-c1e283b70259
+synonym	SAMN07525266_BioSample	BioSample	SAMN07525266				e30c5281-6d7c-55de-8165-61422a3a5af5			b27eec21-1948-51ae-bbb8-d3da737d1535
+synonym	SAMN11834698_BioSample	BioSample	SAMN11834698				b7e55f38-d2d3-50ec-b8e2-2bae98338afa			ce2a2ee1-2820-58f8-b03b-a4a1ce7e8555
+synonym	SAMN11834734_BioSample	BioSample	SAMN11834734				7990b4cf-6485-53ae-aa76-6588e922c0f0			43ea9000-7cae-5158-b888-59fea75764f0
+synonym	SAMN07525185_BioSample	BioSample	SAMN07525185				d937aba5-d83f-531c-b16d-3b1981da7c54			bc185748-897f-5fae-82eb-eea1b8badfa1
+synonym	SAMN11834690_BioSample	BioSample	SAMN11834690				b639dda1-01d4-5416-9c4d-fb3ddba26fa6			6ed88b96-b946-5456-bc59-8abb58c5c000
+synonym	SAMN11834708_BioSample	BioSample	SAMN11834708				ef6e5a74-cac1-5c8b-8a00-e81ad344ba9f			a8ab441b-a491-58d9-91ce-3550b235b5ac
+synonym	SAMN07525312_BioSample	BioSample	SAMN07525312				d72e3601-30cc-52ec-8dc8-12f3e108461a			c4456bdd-dfaf-54cd-8473-3495ec079e80
+synonym	SAMN07525268_BioSample	BioSample	SAMN07525268				35cb0c42-46e3-5bd5-9762-684dc780853f			5c9366c6-b0de-532f-9697-f5b8047f05b4
+synonym	SAMN11834704_BioSample	BioSample	SAMN11834704				9ba21774-c897-5ec1-9f7b-86f4873156a6			e37f42ae-c3fd-5548-a62f-5a275375039c
+synonym	SAMN11834699_BioSample	BioSample	SAMN11834699				64b6cf48-c0d0-54c9-bf07-ae47ff805a1d			50ed8802-7bb3-57e4-a762-a11b3ab5c9a4
+synonym	SAMN11834695_BioSample	BioSample	SAMN11834695				6e4024f1-d6fe-5511-ae33-6b536ef31b90			aacf0aa9-ce79-59f1-9ec1-eb788dceebdf
+synonym	SAMN11834688_BioSample	BioSample	SAMN11834688				ff7ec9ff-bd7c-5a5e-8b86-c8d7d3e35522			b5c26ed7-c4c0-5f4d-98bb-14e6e73f7bc1
+synonym	SAMN11834720_BioSample	BioSample	SAMN11834720				e1b973c6-dc83-5f85-a3bc-e805954a9a9c			440a0e29-5a78-5469-be3c-d81f724fd3de
+synonym	SAMN07525270_BioSample	BioSample	SAMN07525270				e0008aa0-b776-5b8f-939a-496e5b2aee45			3e4662ac-7f8d-5aee-be4f-e15a8eea449c
+synonym	SAMN07525190_BioSample	BioSample	SAMN07525190				913f9725-dd75-5344-b787-52cd744ff6b5			d535c9a5-774a-5aa4-b48b-8a971b415992
+synonym	SAMN11834710_BioSample	BioSample	SAMN11834710				613348ad-e6a6-5c15-82b0-ee7ae88b97a2			dc84994e-dbee-5447-b53f-494caf0f5a1e
+synonym	SAMN07525154_BioSample	BioSample	SAMN07525154				65d26c1f-c857-50d3-8faa-aaca3f9794d0			4941999e-b034-501b-8acc-79e4bb97ade4
+synonym	SAMN07525156_BioSample	BioSample	SAMN07525156				f466cafd-b105-5032-9c2d-477643bcccbf			ea9f8f0b-1124-54e2-95fb-1b99a32a649f
+synonym	SAMN11834685_BioSample	BioSample	SAMN11834685				0961541a-a797-5fb8-9246-7a54ff18cfb9			97dfedef-1340-5890-b633-841b1398fc30
+synonym	SAMN11834696_BioSample	BioSample	SAMN11834696				14423ff6-04df-5ec3-bab8-04d6eef3b8c1			3a6effde-c2e8-5621-8425-f71553dd70fd
+synonym	SAMN11834719_BioSample	BioSample	SAMN11834719				fad8fe45-cf77-50d6-9446-111bbfcf12c1			61d3143f-8600-5b86-b96f-98f3c4588dc8
+synonym	SAMN11834721_BioSample	BioSample	SAMN11834721				b0639298-1cdd-5d48-9298-85e6daa1fbc2			0ab6f720-e05a-5d88-ad07-f23094c48c36
+synonym	SAMN11834702_BioSample	BioSample	SAMN11834702				d41d7ebe-c167-5211-8528-ed3d6d221e2b			2aa80dcb-5b8a-5934-948b-8b16fa565919
+synonym	SAMN07525186_BioSample	BioSample	SAMN07525186				f5ad72e8-0a5d-53c7-9180-50d86ad60a67			4cc93da3-8639-58b2-9b1b-e73412ce0866
+synonym	SAMN11834707_BioSample	BioSample	SAMN11834707				df1ed20b-a190-5bcf-8271-57e7fe4b11f0			e8a87ffb-e062-5148-98e2-40a631f2aa91
+synonym	SAMN07525236_BioSample	BioSample	SAMN07525236				1ee8054b-9996-5bd4-8fa8-701f34242b2c			2082dd4e-d4b4-580f-b16f-dbeb96108e7a
+synonym	SAMN07525290_BioSample	BioSample	SAMN07525290				d699d9be-a14f-5863-bb7d-b0dccb95eb3a			722c7d26-71b6-5266-997b-498863d55259
+synonym	SAMN11834738_BioSample	BioSample	SAMN11834738				f76a3c3f-123b-5f3a-a1a0-8245addefb7f			ed8e801d-6fc8-53a1-a68c-3b32f31df153
+synonym	SAMN07525138_BioSample	BioSample	SAMN07525138				b2289f98-7c0e-52c3-9bb7-9fb2d4ce26c4			97ab976a-9dc5-56fe-9034-ff52c0107998
+synonym	SAMN11834713_BioSample	BioSample	SAMN11834713				3455e2b9-d142-5f2a-bced-eee65753b754			04c78242-8852-54b6-987e-a0b6a24f70f0
+synonym	SAMN07525113_BioSample	BioSample	SAMN07525113				99a92a1a-83e3-5a51-9cf0-3e5ecf6d42a0			ac049645-ba86-583f-915e-98d7ab813165
+synonym	SAMN07525220_BioSample	BioSample	SAMN07525220				3e90546a-5e4d-54e5-9ee3-ad9f5e6e1f4b			4a6dc9ce-e9a1-52d0-b460-b279b54d730a
+synonym	SAMN11834730_BioSample	BioSample	SAMN11834730				311007d7-c8cc-5c58-9ba9-5ddd1bb8804c			17a76d95-8610-5587-8e69-c94eb20624b2
+synonym	SAMN11834694_BioSample	BioSample	SAMN11834694				216d3563-8049-53ce-aafc-b248ef7930c5			14495173-055c-5a8f-9118-42e548e25284
+synonym	SAMN11834717_BioSample	BioSample	SAMN11834717				d61696e5-d804-5bc6-ab16-008358312c99			bd593e4e-deab-581c-8a73-0052beea528d
+synonym	SAMN07525213_BioSample	BioSample	SAMN07525213				22ac9a43-264d-584c-a581-790de68e53e9			71b29260-e06e-5b94-9bdf-8e222cb81211
+synonym	SAMN07525092_BioSample	BioSample	SAMN07525092				21d3d252-4e42-51fb-b96f-635d56a8a1e0			fd08904d-4dba-5c1e-9cfe-7501cb37fffb
+synonym	SAMN07525304_BioSample	BioSample	SAMN07525304				c6e740c1-07d5-590a-99df-12ead2fc6e18			790554aa-53dd-5543-9da1-1609f8a510f0
+synonym	SAMN07525330_BioSample	BioSample	SAMN07525330				29ec8975-dacb-58b4-bd75-e2019cd50f13			a81a55e0-04c9-5368-b6e2-ebc256e7620f
+synonym	SAMN07525300_BioSample	BioSample	SAMN07525300				82da74f3-795a-59cf-a968-a54268a6bba0			a09b8f22-0fd8-50ba-a3be-722b482d9485
+synonym	SAMN07525280_BioSample	BioSample	SAMN07525280				aa238d8d-832a-5580-b5f4-a78ad73e202c			e8b6cf02-2c4d-52db-b04e-5c76d2a5078d
+synonym	SAMN07525149_BioSample	BioSample	SAMN07525149				5f6820dc-4693-50df-8a50-6326ba800996			954100f1-0a1c-5859-aac3-2dc753c09eb1
+synonym	SAMN07525107_BioSample	BioSample	SAMN07525107				3f51139e-18f2-537e-b357-ac9afbc0c14f			972850ec-2795-52eb-a389-f1f78ef794ab
+synonym	SAMN07525278_BioSample	BioSample	SAMN07525278				b52aff1d-bfb9-5f18-b220-c6935dbff9c7			088b852d-003c-5d89-ad8e-aeed6ad0be7f
+synonym	SAMN07525276_BioSample	BioSample	SAMN07525276				bde2270a-3f78-5144-a99e-208137c18136			77fbef10-a11d-5bb1-862e-47c298f94f5d
+synonym	SAMN07525096_BioSample	BioSample	SAMN07525096				100a2ab2-bacb-5af2-9439-e9c2d2f0b9bf			7713b1f2-6213-572c-9c18-35b606bd4ec7
+synonym	SAMN11834697_BioSample	BioSample	SAMN11834697				4f802c06-0a77-5e3c-b3d3-00ea7e0e0a81			22ee45d8-96c8-5b97-bb77-2ffdadf8d776
+synonym	SAMN07525150_BioSample	BioSample	SAMN07525150				b33c119d-5550-58ca-a08f-2c27cdcf970a			086b1588-7439-52e5-a5f6-c1fe0794ed83
+synonym	SAMN07525178_BioSample	BioSample	SAMN07525178				decf36b6-2c2c-5fd2-a4d9-3987ecebd51f			fe515d71-c1ce-5d85-b967-8113a400d5e4
+synonym	SAMN07525222_BioSample	BioSample	SAMN07525222				436786d9-8ad1-5a93-b8c3-1ea27c3ed323			40684da7-5409-59eb-992d-14448fc78f6e
+synonym	SAMN07525224_BioSample	BioSample	SAMN07525224				0286c082-2e6f-50aa-8d73-e569e84daa62			b61bc56c-b508-5ed1-8573-2509398b4883
+synonym	SAMN07525143_BioSample	BioSample	SAMN07525143				bfbca55e-d992-555b-8e4c-4b8d95e25688			19607727-e3e6-564f-ad66-8c8fc34af977
+synonym	SAMN07525208_BioSample	BioSample	SAMN07525208				a42f4f1e-55d0-52a0-b052-b9f63806d154			0e6b6c02-aca2-5fa6-a8e1-5bb8b22f2be9
+synonym	SAMN07525170_BioSample	BioSample	SAMN07525170				8db4c123-a490-526d-9e34-da39b2997420			381147b3-f4a7-5935-addf-96655d804e0a
+synonym	SAMN07525216_BioSample	BioSample	SAMN07525216				4e582cb6-7a35-5f90-971a-368d16cc033b			469c95c9-5e40-5f19-9abb-d0b7f6ea803c
+synonym	SAMN07525192_BioSample	BioSample	SAMN07525192				bed607fa-eaea-5cf7-ac44-8756bef2de6c			b0382237-bf51-5d60-9694-5f3c0408f39b
+synonym	SAMN07525210_BioSample	BioSample	SAMN07525210				935b083e-6b6d-501b-9038-f12ff0d25c64			9349c0f9-2a4c-577a-b154-76422869d564
+synonym	SAMN07525205_BioSample	BioSample	SAMN07525205				f83e620b-0b45-57e4-a34a-92794a5c9d4c			b2809089-7262-5152-b5a0-816fef2ddb6f
+synonym	SAMN07525297_BioSample	BioSample	SAMN07525297				bbd2d935-3037-5115-9da8-b2861518a970			5f724c25-5289-5f4a-bc43-02dc89103125
+synonym	SAMN07525106_BioSample	BioSample	SAMN07525106				12b51643-94cb-5cc3-ba57-c08534c9a617			4e629314-b8fd-5d41-8197-d464a8dc29be
+synonym	SAMN11834727_BioSample	BioSample	SAMN11834727				c4245d85-696e-5a62-9156-b859d22b431a			d5e8151a-a5c7-55f9-aad6-35a9e41e1519
+synonym	SAMN07525287_BioSample	BioSample	SAMN07525287				88eee2dc-7776-5513-afb6-71cc18bc4968			9a2a1e02-308e-574a-91a0-89d3cf18a1cb
+synonym	SAMN11834729_BioSample	BioSample	SAMN11834729				74a755ce-6fab-56ee-a074-6fba67d0f3c5			6e5f77b3-d086-54a2-926f-c6605fb98bc8
+synonym	SAMN07525124_BioSample	BioSample	SAMN07525124				b796446f-e19c-59e0-af14-752f5db5e7a9			9bf0744b-9d31-5f45-9a54-bed203d8deec
+synonym	SAMN07525314_BioSample	BioSample	SAMN07525314				253dd3c6-fc50-5a89-a156-ebdf396be1b7			080e2451-e657-5fa2-bef4-bea58a75128c
+synonym	SAMN07525336_BioSample	BioSample	SAMN07525336				c518828f-ee20-5158-8c1a-5c032fcf018a			5597d35c-6b46-5ee5-9124-b4adf9a18a6f
+synonym	SAMN07525247_BioSample	BioSample	SAMN07525247				5eb338a8-bdd6-5085-9cb8-b697cfa95b72			9b5afe49-5a7d-5ab2-b629-86e6faf76053
+synonym	SAMN07525258_BioSample	BioSample	SAMN07525258				80a829e0-0d00-5315-bc49-76900be02141			71546461-88aa-5e94-81a0-8c9c1d6e0f79
+synonym	SAMN07525109_BioSample	BioSample	SAMN07525109				fe535d88-bbba-5434-a0f4-662e23f9b99e			c2bdd9cb-b8ee-5fb5-92fc-eb6de7fe6391
+synonym	SAMN07525256_BioSample	BioSample	SAMN07525256				96c0abc6-4a47-5288-ba3d-afb1a049986d			62eddc3a-6676-52ce-8f2c-82de957ff618
+synonym	SAMN07525315_BioSample	BioSample	SAMN07525315				72279b94-2007-5efb-b403-d0f1c563fb56			47a3c830-0084-5dca-a1d7-f0317c9e3d1f
+synonym	SAMN07525200_BioSample	BioSample	SAMN07525200				29930271-8f17-5081-a885-725a59815ad1			6086d69b-943e-54f3-9cfa-6e27fe88d7a8
+synonym	SAMN07525221_BioSample	BioSample	SAMN07525221				a9e0df4b-3549-56dd-b728-7f3b2b593fe5			6dc1128b-59c6-5d73-97dd-f9ffc560848b
+synonym	SAMN07525310_BioSample	BioSample	SAMN07525310				ac2840d9-7c0c-5f34-b6b4-99c8a6bd0f5e			9aee0ef8-1325-5594-ad15-b939757e8212
+synonym	SAMN07525245_BioSample	BioSample	SAMN07525245				7879fe9f-18fb-53c6-9547-fa542274540c			6243d3c5-a69a-5b5f-828c-b6e1d9619465
+synonym	SAMN07525203_BioSample	BioSample	SAMN07525203				6018fd3b-b34b-5f11-8f75-e33bef8f2c39			17674b96-ed54-59fc-9c2e-4c596154eb92
+synonym	SAMN07525295_BioSample	BioSample	SAMN07525295				6eb7f594-c38e-5fc8-9c73-0c4e7afb02ae			41f846b7-952e-5d62-819b-46b135538677
+synonym	SAMN07525182_BioSample	BioSample	SAMN07525182				c29da051-07ae-54eb-99f6-d5cd22e6257b			73688fad-e20b-50a0-b2e1-85bcad95cba6
+synonym	SAMN07525325_BioSample	BioSample	SAMN07525325				80d2d999-a3af-570a-b777-e70d30d6c566			be512471-1f94-56a0-b68e-ca8d24d75710
+synonym	SAMN07525108_BioSample	BioSample	SAMN07525108				0689a16c-5181-5e1a-8f13-a1e59e1eafb2			4caab708-40db-5bdc-9d77-62f4b8577835
+synonym	SAMN07525260_BioSample	BioSample	SAMN07525260				21127018-4a3c-5fd8-8a16-294e53e0fa2d			2e92be2f-9eaa-5220-84c4-ac605795604d
+synonym	SAMN07525257_BioSample	BioSample	SAMN07525257				609173c0-04d4-56f7-af3a-3b2338a25c9d			6d9b9ef4-a584-5ca6-935a-f1daee2c53c1
+synonym	SAMN07525131_BioSample	BioSample	SAMN07525131				7bf6d744-e490-5000-ab6a-65f358321b47			9b880893-ff54-5f1c-85e0-204396a5cd05
+synonym	SAMN07525180_BioSample	BioSample	SAMN07525180				df9b8da9-b7cd-574c-8677-b5398293891c			ca288a47-56c3-5a69-ab2b-08a79c5f0fb4
+synonym	SAMN07525112_BioSample	BioSample	SAMN07525112				b4a5f8eb-e699-5747-92b2-df020c8cd193			bcbd15f1-d5fb-566c-b52f-cc4d7516dfc8
+synonym	SAMN07525227_BioSample	BioSample	SAMN07525227				a97e9c41-2ab4-5d9f-b59b-6155ddb1fa6f			5301a189-8c67-53a3-8559-4678832b2f13
+synonym	SAMN07525279_BioSample	BioSample	SAMN07525279				b691d33a-577d-5d19-8321-25943376b83c			f5ec7fab-ec41-53ec-ae54-671d74f34d2a
+synonym	SAMN07525118_BioSample	BioSample	SAMN07525118				def331e4-23fb-50f5-8a26-8b0a0040e4c5			9c4e9672-4940-5d4e-ac26-a0ec4f99b0ae
+synonym	SAMN07525283_BioSample	BioSample	SAMN07525283				7a7a3be9-e25e-5ede-a95c-d7f3e13f4ed4			de01426b-3d3d-59e5-89dd-5cc392f1eea8
+synonym	SAMN07525333_BioSample	BioSample	SAMN07525333				0163c34c-2afd-5c94-92af-2a0872b133bf			0a1eb121-1fc3-5cbb-a59e-ac8feb5adcc8
+synonym	SAMN07525308_BioSample	BioSample	SAMN07525308				d2ba0634-f6bf-57d7-9eff-fa1db2d67b80			ce9866a8-a653-5205-b0a0-dedf23256e6e
+synonym	SAMN07525253_BioSample	BioSample	SAMN07525253				45f4c8eb-3bd3-5db2-aafc-23f22361cfdc			14079969-efcb-5ee1-9e57-f0dc66d03452
+synonym	SAMN07525263_BioSample	BioSample	SAMN07525263				98923084-b783-5903-9a87-7758720f0687			9b72f2ad-0d72-5fd0-a293-f6873dea3819
+synonym	SAMN07525328_BioSample	BioSample	SAMN07525328				9430836f-9d8a-5ab9-9718-fc10332acf81			82e80d27-de64-5c1b-9f07-6ec748ee193a
+synonym	SAMN07525228_BioSample	BioSample	SAMN07525228				2c05e9a0-f991-5f28-9bbd-9de30724be2d			04c4e87d-cb19-5b50-8b2b-6de864bb672c
+synonym	SAMN07525132_BioSample	BioSample	SAMN07525132				440aeb3f-eb9a-5983-8766-84e340460b18			6a033104-7919-5559-b0c0-f332320f8d73
+synonym	SAMN07525293_BioSample	BioSample	SAMN07525293				dbd66d40-8694-57ab-920f-f202ab47723c			d85d80cc-05b9-506f-b4ee-92873cdb9098
+synonym	SAMN07525316_BioSample	BioSample	SAMN07525316				d42e959b-e1f6-5f15-97a5-849eea5c2ca8			189a0db1-b944-51f4-9667-f486e44fb3a3
+synonym	SAMN07525302_BioSample	BioSample	SAMN07525302				dfb7f8e4-c68a-58c5-9252-1779de24384b			fd9172ea-d21a-5028-aced-b5c05f0988a0
+synonym	SAMN07525289_BioSample	BioSample	SAMN07525289				a12d7313-2073-5335-a78e-8e1b37f7355a			f48e51b2-1cf4-5c5a-9283-6cddf23ff915
+synonym	SAMN07525273_BioSample	BioSample	SAMN07525273				8d241641-200f-582c-bfdc-f2215bcb697c			9bcb9ab9-80f7-5b44-af6b-1ebbef22e0c9
+synonym	SAMN07525230_BioSample	BioSample	SAMN07525230				b21163cc-1ece-5d20-a33a-63ba7025b8b9			c0a13444-f930-5425-9e1f-e2151e946d49
+synonym	SAMN07525259_BioSample	BioSample	SAMN07525259				46f19548-0c8c-57eb-b777-d8a80cf3dde3			d8ae08a2-b8a6-589d-be95-1988335891de
+synonym	SAMN07525292_BioSample	BioSample	SAMN07525292				071927d8-56ed-50aa-a204-9fa987c49e9c			1190815a-96c8-55c7-9ed9-475d59ad17f3
+synonym	SAMN07525144_BioSample	BioSample	SAMN07525144				45f936a6-7a3a-51bc-b7aa-32e784f88827			7c9290e2-d819-592c-a3f5-94bce304f86a
+synonym	SAMN07525152_BioSample	BioSample	SAMN07525152				681575b3-eb31-510b-a84c-a73e411c9292			82a3c0cf-bb98-5c04-bb9b-97702f99ba26
+synonym	SAMN07525285_BioSample	BioSample	SAMN07525285				0bea0891-046b-50d6-a894-4231686f5aa9			d138970d-0105-59b5-bd9c-ffd187de072d
+synonym	SAMN07525322_BioSample	BioSample	SAMN07525322				94548f43-bdd3-58b0-864d-72b9a007209e			7e990a04-ad7a-5356-8fe7-64058c7008fd
+synonym	SAMN07525139_BioSample	BioSample	SAMN07525139				d716d5fe-77a7-586f-9dcd-83a1b8b58c1a			53f76ac6-4c7c-54cd-b0e3-3cee898025c9
+synonym	SAMN07525181_BioSample	BioSample	SAMN07525181				9ac53579-c398-5e39-8751-251e3a74850e			017a2f8f-dc5d-5142-8bfb-690d8cece24e
+synonym	SAMN07525120_BioSample	BioSample	SAMN07525120				207b9b94-3d75-5ec5-82df-9e5865f403a2			f65046ab-6d07-53b9-9fe1-7c5959c73298
+synonym	SAMN07525095_BioSample	BioSample	SAMN07525095				536e89a5-e2e3-5d14-a5a7-9621cfa0df99			15cafb31-bb44-5ed4-a7e7-d062d91e4fdd
+synonym	SAMN07525288_BioSample	BioSample	SAMN07525288				927d06e6-5580-53b9-ae4d-c56ad416c67d			34874466-cc27-52fd-ba7e-473675f8afa1
+synonym	SAMN07525291_BioSample	BioSample	SAMN07525291				8e909a3e-1055-592f-9808-755e3db02125			d37af82b-5348-56e9-8b6a-d1dd2f471322
+synonym	SAMN07525163_BioSample	BioSample	SAMN07525163				60c92c51-4c7f-52ae-bd1c-07dbbc2631bb			2577cebb-06c7-5798-b878-0df3b77cfde0
+synonym	SAMN07525164_BioSample	BioSample	SAMN07525164				aa6d5c08-cf4f-50da-853c-bc8184015199			ba98f630-b09e-5c91-bee3-94531889e50e
+synonym	SAMN07525329_BioSample	BioSample	SAMN07525329				e45bc687-f2bb-5887-ae28-13324b47fcaa			13813e1c-57d7-52d2-9a7e-e1c33092700a
+synonym	SAMN07525231_BioSample	BioSample	SAMN07525231				c96f6c32-b886-5592-9e41-39af866787e9			7db56df3-7248-5fc0-8084-dae55451c428
+synonym	SAMN07525207_BioSample	BioSample	SAMN07525207				bc8cdb1f-f474-5072-b316-0202df00a40d			5efe63e2-f7da-5adc-addc-67521630623d
+synonym	SAMN07525090_BioSample	BioSample	SAMN07525090				f052e4e3-84fc-5532-a36d-be8be1ae1f4b			dd062b1c-d0d3-5a14-93aa-6d45b63cd34f
+synonym	SAMN07525313_BioSample	BioSample	SAMN07525313				6157f89c-efac-5ad9-bc25-8534725277ee			bb3e7c23-8161-5246-aa2c-06ed27e1581d
+synonym	SAMN07525160_BioSample	BioSample	SAMN07525160				92632047-af3d-5acf-97e7-52bfbcc64b45			0a84eccf-c5c9-520a-9243-5dd222b17c83
+synonym	SAMN11834725_BioSample	BioSample	SAMN11834725				7134b340-9785-5758-8cef-ab52128da0a3			90e168a0-4d93-5786-a146-851b676b791a
+synonym	SAMN07525197_BioSample	BioSample	SAMN07525197				b71d65d3-5893-568a-a218-1c5bdc8aefa9			c3b84d6c-e6ae-50cf-8a84-a7cc7157934c
+synonym	SAMN07525264_BioSample	BioSample	SAMN07525264				f97f7d5e-30cd-5f3c-baf1-63aedef0c6a7			162e9236-8042-5d84-bde2-0215f0d9514c
+synonym	SAMN07525153_BioSample	BioSample	SAMN07525153				842dbc8b-ac23-5229-8706-8ca4dadde21a			e7443c21-14c4-5014-8e50-4ba3e8bd9f80
+synonym	SAMN07525254_BioSample	BioSample	SAMN07525254				2e3e5e9a-b902-54c3-ac6f-83212844abd5			26d0cb71-a412-598a-98df-0019f5882796
+synonym	SAMN07525176_BioSample	BioSample	SAMN07525176				bf14aee2-f12e-59c9-820e-2799fbf42107			af3bbf53-d304-5b2b-9cc4-0a36ae39b9d5
+synonym	SAMN07525195_BioSample	BioSample	SAMN07525195				bc38c57f-b5b8-5480-8e41-f55013d5c3dd			bbf37a8c-8d71-54b8-8fde-e8cce8af9771
+synonym	SAMN07525211_BioSample	BioSample	SAMN07525211				a1ac26fa-e521-5b12-8aa8-d978fb09065b			7bb79b4e-2545-5773-a063-94f26d7c4c08
+synonym	SAMN07525158_BioSample	BioSample	SAMN07525158				a64cd799-8a17-56ce-b930-755ca0d39908			267ffcc1-2ae1-5254-8f85-f3b7266cd344
+synonym	SAMN07525133_BioSample	BioSample	SAMN07525133				91545b28-ae66-53a1-90df-af934d0c0581			462aa8e2-4df2-5182-9dc7-407708ad0119
+synonym	SAMN07525199_BioSample	BioSample	SAMN07525199				78604e97-9cd4-5322-8c15-cb811655168c			d859d33b-50be-5782-b76b-8fcf5b4ef7dc
+synonym	SAMN07525319_BioSample	BioSample	SAMN07525319				32adec37-84b8-56f7-8e3d-b8105d3ea83a			3a083803-11d6-5381-af74-3276b17ea416
+synonym	SAMN07525323_BioSample	BioSample	SAMN07525323				2e43ec9b-96a0-53f9-948e-8f2007e28249			dd27ecba-ac7f-50b5-acdb-9defb72c2d14
+synonym	SAMN07525169_BioSample	BioSample	SAMN07525169				d8c9763c-779b-5bf0-b0c3-6a121f6a9bb2			6f0dddc9-f321-5ea0-a541-1c7ebcc19dc5
+synonym	SAMN07525142_BioSample	BioSample	SAMN07525142				3b011ab9-496b-596a-9527-01a3d9e52f0b			450e1ca4-db75-5e8b-a3b1-b35609303659
+synonym	SAMN07525145_BioSample	BioSample	SAMN07525145				71231586-ad32-5553-943a-3d269072402a			58903773-968c-5f31-912d-2d38084f5d8f
+synonym	SAMN07525148_BioSample	BioSample	SAMN07525148				d416c841-f2ce-508f-a340-eb66f4f755b0			20f50503-af77-51b4-8959-01cd952096cc
+synonym	SAMN07525282_BioSample	BioSample	SAMN07525282				4bdcd7f8-79b9-5dba-a4a0-17e64e3858b3			3b4d6ec0-49ac-5623-9501-80dd5e2653de
+synonym	SAMN07525184_BioSample	BioSample	SAMN07525184				aaeb602e-051f-5257-9ba3-60a9fadcb0a0			49badc5a-200e-5c8e-9f85-44f76963f727
+synonym	SAMN07525165_BioSample	BioSample	SAMN07525165				2bc6faaf-518c-53fe-b32b-73662e6aa1e8			24e6882a-bef5-5b02-b87c-3c9963f39798
+synonym	SAMN07525202_BioSample	BioSample	SAMN07525202				df20c59d-8b1d-557c-81a4-2d6b032333fb			158ab358-6962-5162-9d7a-01bb7fbd6c88
+synonym	SAMN07525326_BioSample	BioSample	SAMN07525326				946e76b6-f112-52bf-8c24-1f19dae04901			4421f1ad-1868-52d9-ac14-e65dbd609925
+synonym	SAMN07525188_BioSample	BioSample	SAMN07525188				791ee3ff-6f29-5c03-9de6-16c10ca2ecac			b846a002-8741-55e7-b015-67a33dd92c8b
+synonym	SAMN07525175_BioSample	BioSample	SAMN07525175				663d517c-b08b-5cbb-89bf-a31969055527			feae9e26-c049-5f49-8909-5493d7efe00d
+synonym	SAMN07525101_BioSample	BioSample	SAMN07525101				e84ce8cf-65a4-5be2-9ea7-34600e518ec1			50922499-dfa9-50fc-930a-09dedc9d0e07
+synonym	SAMN07525097_BioSample	BioSample	SAMN07525097				1cfc9b87-21d8-56d3-92d5-5098b46590ec			04ae444f-2226-5f40-ba83-7ab788f41d54
+synonym	SAMN07525255_BioSample	BioSample	SAMN07525255				fa04710c-3d1e-5b92-a475-9f4214c884fc			07d5083a-ebe1-56b5-b0de-91ce22b53ccd
+synonym	SAMN07525104_BioSample	BioSample	SAMN07525104				c7558cb9-c76e-5291-9fd7-e2626d9b8958			7aacf152-65d7-5330-9e4a-488f68edbaca
+synonym	SAMN07525146_BioSample	BioSample	SAMN07525146				26a0eb18-40f7-5994-adc5-c2021e57fdf2			3bd85e6e-e707-55d2-af42-c518ebca1b73
+synonym	SAMN07525187_BioSample	BioSample	SAMN07525187				46aad518-49ba-59a2-8061-a323468f590e			7acda5e9-2ea6-56cd-9b10-ed432ed5a0b7
+synonym	SAMN07525135_BioSample	BioSample	SAMN07525135				500fd944-20c8-519f-ad8f-39ece66c5791			6d000348-8dc1-5926-a8a9-3a5f5a6f6f13
+synonym	SAMN07525309_BioSample	BioSample	SAMN07525309				18298f6f-bd88-5398-9558-c6ab7acc2c06			ba5c556d-3c7a-531d-948b-c1b0c644ce75
+synonym	SAMN07525281_BioSample	BioSample	SAMN07525281				9bd47a0c-c859-50a6-b770-c54f306bd220			7f241eef-e04b-5df6-9ac7-3b0431182d65
+synonym	SAMN07525177_BioSample	BioSample	SAMN07525177				9281584c-317e-5e6c-96bc-663f3308c37d			c3de1195-72ea-57c9-90ec-37b6723ec53e
+synonym	SAMN11834736_BioSample	BioSample	SAMN11834736				13c6d490-2d55-5cf4-84e2-b094d4529b23			3a55c4a8-c592-5f95-8c82-95d88b790232
+synonym	SAMN07525166_BioSample	BioSample	SAMN07525166				4da98b16-9885-5c17-98f4-c002664b466c			2e9752d5-a09e-5b3e-bfee-ca8fde873304
+synonym	SAMN07525238_BioSample	BioSample	SAMN07525238				75fcb6dc-a46f-5385-a0b8-f79f75eafad8			dc8a3200-1c70-5a7a-8fc8-4994c9bb520f
+synonym	SAMN07525317_BioSample	BioSample	SAMN07525317				929c90c6-e037-564f-94ee-4d4d8ca01bfb			f5a72caf-024c-5f75-ad38-92593d016c8c
+synonym	SAMN07525232_BioSample	BioSample	SAMN07525232				6e33febf-96c8-52dd-adcb-711e86141938			4fa3d647-4b25-560c-8ae7-14ec8af248ae
+synonym	SAMN07525218_BioSample	BioSample	SAMN07525218				2567543e-ced3-50d3-8b5d-5d2fc2c6b0da			b4e3aa5b-04c5-59e4-b7c8-cdd48bbd4e40
+synonym	SAMN07525212_BioSample	BioSample	SAMN07525212				e601abcb-db3e-5c82-ab92-d2c41f11d23d			5b466cea-24f9-5f30-acd6-06b307432ece
+synonym	SAMN07525261_BioSample	BioSample	SAMN07525261				a47edf77-5e0f-51e2-93cf-c0795d126cf8			2546f88e-78d2-5078-bf4b-4e74afdd0a48
+synonym	SAMN07525134_BioSample	BioSample	SAMN07525134				5a6e15b8-d106-531c-b074-eb5723461432			2482c1d2-f8ed-5c9c-99f5-6ba3b3e299f3
+synonym	SAMN07525121_BioSample	BioSample	SAMN07525121				8c43faae-1e40-5241-80f1-22a88d1e1a4a			09185c3e-99a2-5dc9-8c47-e10645aa0691
+synonym	SAMN07525262_BioSample	BioSample	SAMN07525262				3099d437-33b3-5c0a-a3fa-05b78f2a3651			138a8960-2755-59eb-b8e6-f309cbd3340f
+synonym	SAMN07525196_BioSample	BioSample	SAMN07525196				069b0153-4b93-536a-97b0-387ff45bfe39			2ef9e02e-33bb-568d-9135-714dd37029d8
+synonym	SAMN07525307_BioSample	BioSample	SAMN07525307				e96802d9-427c-565e-bf73-256949e025d9			d0d99cc9-82b1-511c-b505-102da1947e2e
+synonym	SAMN07525087_BioSample	BioSample	SAMN07525087				5fa46d0e-b980-5490-b8c4-a42331dca2d7			4a904e8d-e471-5f93-a967-df644e37f76e
+synonym	SAMN07525191_BioSample	BioSample	SAMN07525191				206a9c5d-ce4e-5f5a-b806-2a03adbaa389			44642921-635e-579c-bb7c-0948fd0cf139
+synonym	SAMN07525332_BioSample	BioSample	SAMN07525332				1b93f393-a836-56a9-bdaa-b2d723ed5bc6			c62af173-cfc1-580b-a1a0-c04f55d4ddd6
+synonym	SAMN07525102_BioSample	BioSample	SAMN07525102				54f86d41-b923-53a5-9936-50b867f1e174			402f3c8c-9276-55f7-a722-3199383678dd
+synonym	SAMN07525179_BioSample	BioSample	SAMN07525179				93f0ebda-4695-504f-ac04-6f5786c47f50			cbea1650-aff3-551a-b995-2a45c0229e91
+synonym	SAMN07525157_BioSample	BioSample	SAMN07525157				1e2fc507-ed86-5cfb-8371-7680f3895e5f			a1c2f23a-11c1-587a-b8aa-7710874c4358
+synonym	SAMN07525217_BioSample	BioSample	SAMN07525217				194ddf65-d9f7-57c8-9f78-c1d9fe273674			dd39c810-b56c-5305-87f9-319c3b09a6e9
+synonym	SAMN07525137_BioSample	BioSample	SAMN07525137				49986888-9ae5-5414-97b6-75b8886e1655			edf17dd7-e8b3-52e1-80cb-8e3892123129
+synonym	SAMN07525277_BioSample	BioSample	SAMN07525277				ee089aa6-b1f8-505b-bb27-7e6ff295cd64			0d68edbe-6785-5558-b02c-450467dc3859
+synonym	SAMN07525239_BioSample	BioSample	SAMN07525239				038006c8-ea0d-5436-8136-72b7aeb5160b			23b4e686-2e93-5d02-acbd-b369e48ee3f7
+synonym	SAMN07525119_BioSample	BioSample	SAMN07525119				ff234ab3-b341-5170-9e6e-d72c1d8aee6b			0259ac92-0b0a-5dd2-a342-4b3a4235f204
+synonym	SAMN07525123_BioSample	BioSample	SAMN07525123				7dd5f564-ca08-59ff-8f2b-dbe4ccf60c96			5e08fdfc-3c90-5ce2-a073-6d3aa51a3170
+synonym	SAMN07525233_BioSample	BioSample	SAMN07525233				44b30ab0-6d47-5e8e-84b4-6a278b094c39			c074942e-fef7-5c26-9339-b13ccd031905
+synonym	SAMN07525088_BioSample	BioSample	SAMN07525088				233cd1a9-689d-5430-988f-650ab91de24e			fabd1e55-1133-5ed1-af0c-96d1c97d4067
+synonym	SAMN07525327_BioSample	BioSample	SAMN07525327				fd7550a2-2c60-5712-b9a2-190178f2e257			de33d64f-8449-5079-9076-e21ca48d93e7
+synonym	SAMN07525125_BioSample	BioSample	SAMN07525125				85b50152-da21-5b96-a9ae-86d67566df12			3eb2c11b-5857-54d1-8eee-84e71d513120
+synonym	SAMN11834705_BioSample	BioSample	SAMN11834705				798a63c9-6d29-5b64-9aba-8580633dc158			bc369e01-d7fb-53de-8973-e35a98662d32
+synonym	SAMN11834737_BioSample	BioSample	SAMN11834737				6319234a-6d5d-582c-b44d-43ce70b1a7b7			059b4bd1-fadb-5392-8b88-634b825d5d8b
+synonym	SAMN11834731_BioSample	BioSample	SAMN11834731				2db7741b-f108-5c2a-8c6a-26254cf63ccd			e780ff30-c5de-592b-a30f-026b0666c986
+synonym	SAMN07525294_BioSample	BioSample	SAMN07525294				99f27255-0c16-5493-af82-8c920c547c4e			71d7a66e-96b3-5f98-b2fb-14cb02f1757f
+synonym	SAMN07525334_BioSample	BioSample	SAMN07525334				722f0be5-0b8d-506c-b47f-712e1eb1ea80			f61896c6-0a3c-57b6-ad14-3b93856a9220
+synonym	SAMN07525201_BioSample	BioSample	SAMN07525201				0bcb40b0-0ce0-5dd6-9819-75a4438e36ee			d6bb8bda-7dba-52e6-8edd-9d0836b72f45
+synonym	SAMN07525105_BioSample	BioSample	SAMN07525105				8e9ad865-22ca-5309-b782-f2c5b9156e87			5ab5f3ef-e6fc-5dfa-a66c-16e980344b9f
+synonym	SAMN07525246_BioSample	BioSample	SAMN07525246				cf460dec-00c7-5eed-8a86-d5d9575cfcb1			17245d5d-8cb8-519e-8d88-ef24370abf24
+synonym	SAMN07525116_BioSample	BioSample	SAMN07525116				a80d6808-f1c2-5e95-81c9-b68b1ed9129e			250328de-15de-56dd-afd8-0f90a574e69f
+synonym	SAMN07525198_BioSample	BioSample	SAMN07525198				5db761fd-6ad3-5324-a047-c6a88b7e69d1			616a77ed-6074-5fb7-b687-ea3199870156
+synonym	SAMN07525161_BioSample	BioSample	SAMN07525161				e8a4a2b9-27f6-5ed8-a7c8-625f16ccc351			2e27e6c3-1118-5423-8383-c9b050e9796e
+synonym	SAMN11834735_BioSample	BioSample	SAMN11834735				9df2d77f-46a3-5cc4-9a61-dd5ba7325b5e			72514030-da3e-5d3a-bb6a-21033e14c905
+synonym	SAMN07525168_BioSample	BioSample	SAMN07525168				064117ff-034d-5b50-929d-92c06d2d4ccb			718f83a6-4b3a-5ab8-b5c8-4ddd6e4997e8
+synonym	SAMN11834701_BioSample	BioSample	SAMN11834701				945b6971-3660-585f-84ad-dfd6c61c1650			db4babc5-3083-5054-ba04-3938aa19f0b7
+synonym	SAMN07525226_BioSample	BioSample	SAMN07525226				2f3f4f5a-8fce-565e-b7cb-eea0f00de9d1			ee4958a8-e3d4-5d51-95d4-47649ba32de1
+synonym	SAMN11834732_BioSample	BioSample	SAMN11834732				850942b3-3576-5f5f-90fb-cb513634abfa			2401d96b-e315-50c3-a3eb-0ac9d1d6ae3b
+synonym	SAMN07525128_BioSample	BioSample	SAMN07525128				582365da-8458-5390-99e5-6f6554f48e9e			373d8f2b-6c91-54b0-a65d-e10c2289039f
+synonym	SAMN11834693_BioSample	BioSample	SAMN11834693				0ce65fc1-a41b-59cf-bdf4-b240a2272e29			457584d9-f08a-5341-a79f-78a730ad54ec
+synonym	SAMN07525129_BioSample	BioSample	SAMN07525129				1a2582bc-1006-53ea-b942-a657b62a07ce			8d0a0ddc-35a7-5f4c-b4b9-ec2f8d9a340a
+synonym	SAMN11834733_BioSample	BioSample	SAMN11834733				5d7df8c9-a088-53fc-9863-6f4d01551f28			64545a6a-be71-586b-ac34-05792add64f6
+synonym	SAMN07525298_BioSample	BioSample	SAMN07525298				64253d3a-2f83-56cd-91df-75fe1e57fac0			d5292f87-865b-5dbb-86b3-303d7c1fb7af
+synonym	SAMN07525122_BioSample	BioSample	SAMN07525122				484d584f-7283-577c-9256-71968bbf419c			f874915f-b801-5fb3-889e-0eafe9fe38a1
+synonym	SAMN07525275_BioSample	BioSample	SAMN07525275				1d6720a1-0a4c-51d6-81a3-0ad7e177075e			76b8f47b-f04a-52cc-9da5-eb1dc2b10477
+synonym	SAMN07525174_BioSample	BioSample	SAMN07525174				20c5dcd8-5aa5-5b64-8a08-2f494a30f24e			8fc27a27-ac58-5b90-9879-c47a535728c6
+synonym	SAMN07525252_BioSample	BioSample	SAMN07525252				ad44a168-c80b-505b-9f1e-ea3bcb286e3e			0b97fd20-ffad-5237-87e9-d04c296cff22
+synonym	SAMN07525234_BioSample	BioSample	SAMN07525234				81c0bdb9-3a37-5dfd-a34b-ad0c3d4f5ebc			34e0fdec-9de5-5713-91b2-aee96357ca7a
+synonym	SAMN07525237_BioSample	BioSample	SAMN07525237				68073701-dbac-567c-8b26-16912344f7c2			edd0f0e9-8dd7-5014-b13c-6d8a41d8bf87
+synonym	SAMN07525296_BioSample	BioSample	SAMN07525296				253b5db9-e6f5-5784-b14d-e8ab9732eaea			c6dc37d2-8517-52f8-be2d-be60b513ba3c
+synonym	SAMN07525331_BioSample	BioSample	SAMN07525331				467b4c46-43d1-547e-8b5a-a548ba871a81			e9e524d5-d0a2-5497-b104-0d1d75d3c686
+synonym	SAMN07525094_BioSample	BioSample	SAMN07525094				81be69c8-08a8-507d-a19b-2bced21deebf			2d3a8417-ccde-5edf-8b68-0ac87b8413e8
+synonym	SAMN11834709_BioSample	BioSample	SAMN11834709				98bfa699-9533-5f22-92d9-907b0dc26c9c			c7d19364-829e-5928-8f49-eecb38fe4d3c
+synonym	SAMN07525223_BioSample	BioSample	SAMN07525223				dba075fc-3f2d-5eea-9518-a2d247c2392e			10b09add-a008-50f0-8131-6afee69b9573
+synonym	SAMN07525219_BioSample	BioSample	SAMN07525219				f350b497-f51f-55b5-8b50-c42fee9c3b71			7cde5211-e146-503c-8363-6799190e40b4
+synonym	SAMN07525194_BioSample	BioSample	SAMN07525194				c026f117-dd44-5ec5-8a2c-7a038c74ec08			81a004fa-d452-59e6-a2a1-f0f7fc57da2b
+synonym	SAMN07525301_BioSample	BioSample	SAMN07525301				18fc5e98-e912-523d-aeb4-a666cafd49bd			da9c6dec-3ab5-5b9f-ab49-c9e0583f89fb
+synonym	SAMN07525110_BioSample	BioSample	SAMN07525110				3735e0d3-580a-5c0c-a6c7-4b6d5dfcef2f			ceb77a66-318e-58ee-8df4-ed730bc3f8e5
+synonym	SAMN07525249_BioSample	BioSample	SAMN07525249				4b31bc18-c326-5de6-9963-351115e00929			ae05ce88-aca1-59c6-b263-9cc00866f956
+synonym	SAMN07525206_BioSample	BioSample	SAMN07525206				83bf0a78-2726-5c20-ba44-1c0a66fa33fd			3f8bcf32-1b30-5ea1-a423-6d5f1efb94b5
+synonym	SAMN07525242_BioSample	BioSample	SAMN07525242				8b6d7582-4053-50ce-a737-04b274d42182			baf87b2d-944c-5836-95c1-acaacbea4042
+synonym	SAMN07525173_BioSample	BioSample	SAMN07525173				157970b5-4316-58d0-b6c1-ebcf8bbd5d79			d799c3c7-5a30-5a49-ba56-a65a76080278
+synonym	SAMN11834722_BioSample	BioSample	SAMN11834722				2c479f65-fc9c-5e32-a6f6-87c757858b3a			d1355d70-25b6-5db7-9883-af027978a149
+synonym	SAMN07525286_BioSample	BioSample	SAMN07525286				fcb1968a-326a-5197-ae73-88a79019b42f			56cda5c5-edd2-5ffa-b6ae-db5505bab7c9
+synonym	SAMN07525215_BioSample	BioSample	SAMN07525215				9b177c19-2ccd-56ad-a209-37d0992e48ee			9969c0fa-f227-5767-b5f6-39c1796c74e5
+synonym	SAMN07525189_BioSample	BioSample	SAMN07525189				53011a51-ebc6-520b-99e1-7687d805a31c			f6dffe77-0512-599f-a139-06f7396bf898
+synonym	SAMN07525127_BioSample	BioSample	SAMN07525127				4dd9cf09-79a5-5bc8-8171-35c63a6435f2			785fbd73-6684-58f7-9a3f-728976414d4d
+synonym	SAMN07525183_BioSample	BioSample	SAMN07525183				b9441640-974a-52be-9dc4-630271737952			94cbfc10-3aa8-545b-abb6-33215692d2a1
+synonym	SAMN07525172_BioSample	BioSample	SAMN07525172				82432422-77f0-5191-bace-87fd90d2508f			588fa157-e3a2-5f08-aabd-ef48146a1d17
+synonym	4691816_dbgap_subject_id	dbgap_subject_id	4691816	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	9dd05976-84ad-5c0f-828e-81faef6c2ed6		1f21fb21-ee0b-5ad4-9f14-bbb961b262ee	
+synonym	4691817_dbgap_subject_id	dbgap_subject_id	4691817	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	a1e53532-a390-5ccd-a1c0-75e0aa22509b		2e3dd4fc-e0ef-58a0-ae1d-6ce3159a43f2	
+synonym	4691818_dbgap_subject_id	dbgap_subject_id	4691818	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	4ae1e93a-495e-51aa-82ae-9f4df67820de		f0b3f6bb-3f35-5dda-8993-5601ef29de1b	
+synonym	4691819_dbgap_subject_id	dbgap_subject_id	4691819	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	7099cbf8-23c5-5d0f-b7d8-297a78a4c399		98e191e0-8733-5457-a63c-e9006eea4f45	
+synonym	4691820_dbgap_subject_id	dbgap_subject_id	4691820	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	649a847c-ca53-5b92-b781-31e339bbf0bd		3c29137a-1ce7-5a7c-9d55-f8e0e8aecc0e	
+synonym	4691821_dbgap_subject_id	dbgap_subject_id	4691821	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	b9d368d5-5db5-5de7-9c52-1fd658fa64a8		3df07feb-d8ad-5ab6-adef-463e2c837136	
+synonym	4691822_dbgap_subject_id	dbgap_subject_id	4691822	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	5a5241f9-7ab6-503c-a331-344373d4cbfe		999d1c43-d12d-5d0c-8107-c3575ba1c46f	
+synonym	4691823_dbgap_subject_id	dbgap_subject_id	4691823	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	f007836c-dd60-5f1b-b162-1496bdc518ea		ed81f9cf-98a4-547b-a8a6-017938e1cbd1	
+synonym	4691824_dbgap_subject_id	dbgap_subject_id	4691824	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	67df03b2-13a4-57fd-aefb-4aa569076019		ebb30496-c341-5e4c-ba22-aaa89c669eca	
+synonym	4691825_dbgap_subject_id	dbgap_subject_id	4691825	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	ed6bf439-67ed-5d4d-bb9d-2f36376e3b9e		9fe0a008-babc-5234-b8f8-0d359b0c1a25	
+synonym	4691826_dbgap_subject_id	dbgap_subject_id	4691826	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	f922b6d3-d13a-5c23-8fc3-14f09b1e1383		f160005d-cf40-53b6-90cd-951bf7624c1d	
+synonym	4691827_dbgap_subject_id	dbgap_subject_id	4691827	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	5ab30cf7-ef64-58a9-8a96-cca3e5a48dc1		dbd09645-3d97-5b82-aaf2-ff06f92361af	
+synonym	4691828_dbgap_subject_id	dbgap_subject_id	4691828	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	d5d49333-46db-563e-b0e6-60b968659313		64fd3705-021a-5034-85e8-d625ce10568d	
+synonym	4691829_dbgap_subject_id	dbgap_subject_id	4691829	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	91b25d5b-3e88-5f63-b86f-89a4a09ac78c		a3616d19-0225-58c0-b771-1ca8913abb58	
+synonym	4691830_dbgap_subject_id	dbgap_subject_id	4691830	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	6dd901aa-deef-5519-86e0-b6295bbb2494		e9d27d44-5f27-551c-b37d-4464b3a8f5a6	
+synonym	4691831_dbgap_subject_id	dbgap_subject_id	4691831	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	776742f2-4522-5fa1-97eb-3b5982fdb29a		945feff9-d63d-541b-bf2b-4782b66f8e09	
+synonym	4691832_dbgap_subject_id	dbgap_subject_id	4691832	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	59d6a7f7-f761-5257-a65c-81e96301216c		7125f379-50f1-51a2-8fdb-9ddde18a34db	
+synonym	4691833_dbgap_subject_id	dbgap_subject_id	4691833	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	98a5e90a-0c92-5224-9280-a0a77e163f16		d27b6e58-cd12-5f3a-9a23-59b46080badf	
+synonym	4691834_dbgap_subject_id	dbgap_subject_id	4691834	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	f8c65e54-b772-5b3f-a56c-6d5e031bff1e		06cf030e-dcb7-5a25-864f-b373d87718d8	
+synonym	4691835_dbgap_subject_id	dbgap_subject_id	4691835	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	38fbbd75-729c-5454-8636-7b324b4d256d		e1d21731-be28-55b1-a4b7-0d4b92c32465	
+synonym	4691836_dbgap_subject_id	dbgap_subject_id	4691836	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	f8990239-7d08-57c2-8595-48be7c95d998		f6c4f9b2-b01e-5b12-b6a2-26d0f3446260	
+synonym	4691837_dbgap_subject_id	dbgap_subject_id	4691837	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	b2c0120f-6a00-53e1-9ee1-4f116e70a5dc		08f5a7b5-e47f-56e9-b0a0-c25bedf53e76	
+synonym	4691838_dbgap_subject_id	dbgap_subject_id	4691838	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	ff1e3b94-af5d-5051-9596-5aeb5c3018d2		5e30e629-6a11-5969-b844-77344298ff08	
+synonym	811708_dbgap_subject_id	dbgap_subject_id	811708	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	057857f7-149a-5444-b94f-39cf6653042d		937b5824-d981-5bb4-98b9-ed8e43989099	
+synonym	811709_dbgap_subject_id	dbgap_subject_id	811709	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	5bcd39cb-0134-5503-86b3-43d8443babfc		0e999d97-f50b-5f75-8e5d-7d89ae104872	
+synonym	811710_dbgap_subject_id	dbgap_subject_id	811710	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	7f5a672c-1fe2-5c01-b442-efb35ed062e1		f916d6dd-b797-58b5-81f5-a8ce3a20f549	
+synonym	811711_dbgap_subject_id	dbgap_subject_id	811711	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	23c0f1de-2eef-5449-aae0-3858b58d3f81		a53514ab-7275-56fd-a1fc-633814ea34de	
+synonym	811712_dbgap_subject_id	dbgap_subject_id	811712	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	c1aed29e-6d4b-5a13-85d7-8d02e633a883		cf4a5048-76d8-5bf4-891a-4aa2db803c2a	
+synonym	811713_dbgap_subject_id	dbgap_subject_id	811713	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	5b6896a0-65e3-5ef7-be93-75f308c8cae3		150f4966-5b14-5486-a672-3d3427cfa945	
+synonym	2969301_dbgap_subject_id	dbgap_subject_id	2969301	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	771deef7-ebd0-5d85-8e40-1bbe0abd66d7		77507294-d124-5811-a87e-a19f81b6a95f	
+synonym	2969302_dbgap_subject_id	dbgap_subject_id	2969302	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	a3332f4a-36ab-5832-9ed4-c120dcf1682d		46736332-3697-5637-b953-9597444edbef	
+synonym	2969303_dbgap_subject_id	dbgap_subject_id	2969303	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	5e80878c-5ad6-5ad3-810b-84367e172868		854f787a-5901-5a55-af2b-77957ede836b	
+synonym	2969304_dbgap_subject_id	dbgap_subject_id	2969304	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	b35ac661-0492-5e87-ab7f-41702b3da5bd		fc6ae6ef-95a5-5720-b3d8-36fc0b535e54	
+synonym	811714_dbgap_subject_id	dbgap_subject_id	811714	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	6b0ffabf-e45b-5ced-8e52-05222bd91a2d		4708c9e1-7e2d-58d1-9edd-f813207f764b	
+synonym	2969305_dbgap_subject_id	dbgap_subject_id	2969305	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	47da9b9e-e67a-5fac-a6bb-8902ac90369f		4769ad89-a490-5fac-bfd0-b4854e7332d4	
+synonym	2969306_dbgap_subject_id	dbgap_subject_id	2969306	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	5812c697-9926-550f-bd80-9a6ed5327876		7b8021a1-fa38-5c53-8b35-1b84f9cb76b6	
+synonym	2969307_dbgap_subject_id	dbgap_subject_id	2969307	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	53612787-2834-5250-aa0e-6da3a0b1db1b		808428f1-e5fb-5ba2-9c55-5afcf8f935f9	
+synonym	2969308_dbgap_subject_id	dbgap_subject_id	2969308	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	fb039cab-447e-541a-8e92-c9e5ec18e5b2		8cf471a9-37c3-57a8-bf8a-5f62271bdc04	
+synonym	2969309_dbgap_subject_id	dbgap_subject_id	2969309	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	635dd7de-ed62-5f63-959b-478407130985		49d68cdd-443b-5480-b950-a25bde6f3323	
+synonym	2969310_dbgap_subject_id	dbgap_subject_id	2969310	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	cd430f9c-35bd-581c-b9c0-5fc710faf84c		9e81fd2e-2f85-58d9-abd4-e8c1065dc1ba	
+synonym	811715_dbgap_subject_id	dbgap_subject_id	811715	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	1c4a196e-1311-523c-9310-4c376b751538		268c7618-a669-5a4e-944f-cc36ce1997c9	
+synonym	811716_dbgap_subject_id	dbgap_subject_id	811716	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	706136b4-955c-54f1-83c1-26a709106ba8		12a6d3c3-af1b-5a89-8b96-fa88ece18d44	
+synonym	811717_dbgap_subject_id	dbgap_subject_id	811717	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	70fbd9da-fbe5-55f0-8530-065665d59d13		bc2fbefd-7cbf-5353-843b-85630fe82edf	
+synonym	2172154_dbgap_subject_id	dbgap_subject_id	2172154	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	55207c49-17af-591b-b88c-ac305a3cc5ab		a9c504df-a2e3-5836-b033-d9f3ca9650b4	
+synonym	2969311_dbgap_subject_id	dbgap_subject_id	2969311	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	2712aa76-e20e-5aa4-8a45-0508fa931928		f6cd382a-4ffc-5f2d-8402-013bfc329ae8	
+synonym	811718_dbgap_subject_id	dbgap_subject_id	811718	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	1c7f5115-54e8-5e20-89dd-e29ee2a2b684		79dffb88-61c5-557c-b9de-dff700aa76fd	
+synonym	2969312_dbgap_subject_id	dbgap_subject_id	2969312	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	5a1697e1-bb8c-54d2-9afc-2e295b98220a		882a9e99-092a-5670-8e28-3be1ca001ac2	
+synonym	811719_dbgap_subject_id	dbgap_subject_id	811719	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	9675ff90-cee0-5248-aa2e-1d8d6dbcc44c		090ea0af-1ee6-53bb-bc5e-d89ddfcd4a39	
+synonym	811720_dbgap_subject_id	dbgap_subject_id	811720	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	a59a8297-a198-5781-8792-8fd94cafc2d4		d2c88b39-6b3f-5685-93a7-fdcfb209db52	
+synonym	811721_dbgap_subject_id	dbgap_subject_id	811721	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	c83034e7-77c1-56fa-922a-9e2247d1814b		fdfa653c-e331-5953-9ffa-3b1278f5daee	
+synonym	811722_dbgap_subject_id	dbgap_subject_id	811722	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	4c3305b9-a377-54c7-a403-922d95ded0a0		46263093-675b-54b5-bd2b-d9246311611d	
+synonym	811723_dbgap_subject_id	dbgap_subject_id	811723	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	5e6a53c5-b425-5227-a4dc-95cad4f14318		ac1ec99a-ba0a-59ce-92e7-83ab77f4e3e2	
+synonym	2969313_dbgap_subject_id	dbgap_subject_id	2969313	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	09badc3c-30ae-5951-a1bd-7048e0f86b7e		f862ca6d-6127-504a-8a19-8a49860f29dd	
+synonym	2172159_dbgap_subject_id	dbgap_subject_id	2172159	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	3aca1d86-9e66-5cc2-b13d-a086c8ae98cd		6df7c1ac-4d1d-5b6d-b735-4c2e9845fefb	
+synonym	2969314_dbgap_subject_id	dbgap_subject_id	2969314	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	468bb767-24c3-5acf-bb21-2897013b3347		66a2d4d4-4a3c-59fc-aa16-ad71f7f0ea83	
+synonym	2172160_dbgap_subject_id	dbgap_subject_id	2172160	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	8516ed12-fb63-53d0-a9dd-eb10a0039e3d		9aeca567-f152-5a7f-abdd-7799e35e9c71	
+synonym	2172161_dbgap_subject_id	dbgap_subject_id	2172161	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	b58be74d-1ab6-5c3c-944d-73b8d9778855		e3dc9015-bd92-545a-81ef-cdc28f27636d	
+synonym	2969315_dbgap_subject_id	dbgap_subject_id	2969315	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	504efabd-deb5-53ff-aca0-5f03549313cb		8c0d45b7-41a5-5df5-8431-fb6ff92c7181	
+synonym	2969316_dbgap_subject_id	dbgap_subject_id	2969316	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	51f961ec-65cc-571b-b912-92e3b22511f5		7c75131d-5b3c-5b24-949d-0434a8615111	
+synonym	2969317_dbgap_subject_id	dbgap_subject_id	2969317	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	921cc976-afdb-5405-a46e-6a720d633aac		101675b1-ce9b-5b17-a15b-7deb92d49231	
+synonym	2969318_dbgap_subject_id	dbgap_subject_id	2969318	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	b70a2432-cfed-5371-b2dc-e8ce4ad6f990		a575b127-f050-5fdc-a530-7810e9492a41	
+synonym	2969319_dbgap_subject_id	dbgap_subject_id	2969319	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	1a8f8c91-2750-5766-88df-391101d9e3f6		2a833aff-0731-51f2-af18-0576bfe157c9	
+synonym	2172162_dbgap_subject_id	dbgap_subject_id	2172162	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	3d41c764-c0ad-5e09-a3ef-3c36f8ab82a3		a1377f00-4b35-545f-bca0-0acac26fd68c	
+synonym	2172163_dbgap_subject_id	dbgap_subject_id	2172163	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	8cd4e649-b380-5e7d-9fd6-5e10ddd79687		a4f2fca8-23b1-52a9-88e9-7e3279f71806	
+synonym	2172164_dbgap_subject_id	dbgap_subject_id	2172164	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	23aa691e-8611-5bf6-a8cf-8ce9834ac0ba		6a37b6f6-6f15-5980-963f-91a6e8f9ff2b	
+synonym	2172165_dbgap_subject_id	dbgap_subject_id	2172165	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	4b94f509-b534-51ef-b1cb-336eb5809d97		b883a27f-156d-5269-9b2a-57f72fb7d637	
+synonym	2969320_dbgap_subject_id	dbgap_subject_id	2969320	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	2bd7fd03-5c5d-556a-a6c1-7ceb97acb9cb		04967dfc-5f94-50ff-afe9-b219c8979e1c	
+synonym	2969321_dbgap_subject_id	dbgap_subject_id	2969321	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	8ad41884-9eb0-5bfa-a187-12e0bb34284a		86e450f7-2cfa-533c-a349-62b124b9b1c8	
+synonym	2969322_dbgap_subject_id	dbgap_subject_id	2969322	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	40698deb-7b6e-571e-970c-46bd1d3041dd		62e38b9a-cbad-57a8-bc0a-32f5822d6360	
+synonym	2172166_dbgap_subject_id	dbgap_subject_id	2172166	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	3b809cf8-85b8-5d04-8f7d-7bab4e404a3b		fe2a93ed-283f-58f8-8add-db6e65b474a0	
+synonym	2172168_dbgap_subject_id	dbgap_subject_id	2172168	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	0aed56ca-51ad-5465-b89b-f6844e62bac2		471e4051-68c7-52a8-9e4e-4e931deb547a	
+synonym	2172169_dbgap_subject_id	dbgap_subject_id	2172169	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	170f01ed-82c5-58a8-b100-bdbfa842975b		e2f75db7-fc1f-540f-a5a5-647b6fa612ab	
+synonym	2969323_dbgap_subject_id	dbgap_subject_id	2969323	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	84a48aca-8ec7-5521-b872-cba426380032		b61a0213-c5d4-568f-85c7-ab5f74c3a5e6	
+synonym	2172171_dbgap_subject_id	dbgap_subject_id	2172171	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	affab2e9-f144-5cab-8d10-21f02ac07ae2		43f23d18-2129-5b2a-9277-6862e09b0431	
+synonym	2172172_dbgap_subject_id	dbgap_subject_id	2172172	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	eedcc6a7-4d9a-5cc6-abe4-34cd8898e9f0		58df3ac2-2ebb-5a24-b519-e05060d770e1	
+synonym	2172173_dbgap_subject_id	dbgap_subject_id	2172173	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	8bb06f40-573e-52e9-a41d-f0dbdb99979d		b26cf0d0-23c2-53d5-a40d-8fd8975a9e2c	
+synonym	2969324_dbgap_subject_id	dbgap_subject_id	2969324	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	5958bb18-d393-544e-bc52-ac59c3b75dc3		a1b85cbe-21f4-557c-bd8f-396ff51aa3ec	
+synonym	2969325_dbgap_subject_id	dbgap_subject_id	2969325	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	fa344939-345d-54a7-b073-21d8b7a45c8b		83fa0fc4-60a0-57c1-bee5-d8f5384160a4	
+synonym	2969326_dbgap_subject_id	dbgap_subject_id	2969326	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	c25c95c4-dcd8-5b7e-b4d8-d37ec2d15a31		8dbd0c45-ecf3-5f52-bdbd-ab470cb7211e	
+synonym	2172174_dbgap_subject_id	dbgap_subject_id	2172174	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	99a46054-cac3-57bf-82a0-49ceab1d1af4		f2d72cc0-5799-5c4b-85d5-d83df46ffaf5	
+synonym	812238_dbgap_subject_id	dbgap_subject_id	812238	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	e009939b-23e6-511e-9d1d-882f7004a2b6		577ad517-d529-5554-b52f-ddc9a69c9726	
+synonym	812226_dbgap_subject_id	dbgap_subject_id	812226	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	927315d7-5f7b-5331-b513-5123271f9b5e		bb709e46-6a29-544c-ac58-09813b45ab6c	
+synonym	811833_dbgap_subject_id	dbgap_subject_id	811833	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	e10364f7-afb7-5a59-b604-dc4235c2ae1c		f2842398-1f71-5e28-ba5a-bd8c0b5c6592	
+synonym	811805_dbgap_subject_id	dbgap_subject_id	811805	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	65bc57c9-bca2-5424-be61-6f35c348a4b8		ab1e9e4c-3ad3-54d7-9433-8925cf1b8ff2	
+synonym	2172179_dbgap_subject_id	dbgap_subject_id	2172179	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	f1689d1a-d00f-5ed8-bff3-3b4ab2e739ad		f0d6c1b3-fcca-5134-a2df-140ef97bd903	
+synonym	2172180_dbgap_subject_id	dbgap_subject_id	2172180	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	333ffa1c-6b25-5300-9bc2-91d2bff3e5de		4042eace-390c-5663-85fc-bf0e47576955	
+synonym	2172181_dbgap_subject_id	dbgap_subject_id	2172181	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	7e050f29-9429-5e9a-b9f1-88b900c01b09		ff26078f-81ba-55bc-9f21-fa92a969c55b	
+synonym	2172182_dbgap_subject_id	dbgap_subject_id	2172182	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	9329b945-58f5-557d-98c5-f6aec5d7915e		731a6a4e-08bd-5ced-91f8-098a02ae08d7	
+synonym	2172183_dbgap_subject_id	dbgap_subject_id	2172183	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	6b7f4790-21ed-57b9-8ccd-b7866027b261		b0c9fccf-3d50-59fe-a39e-9295daffa60a	
+synonym	2172184_dbgap_subject_id	dbgap_subject_id	2172184	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	3b26bf05-1197-5c16-92c0-b3e202b6a534		ab65f812-f55d-5ca5-b840-105fb04ef68a	
+synonym	2172186_dbgap_subject_id	dbgap_subject_id	2172186	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	1f68f4d0-538d-5b4e-8ffa-099f911b9e11		14528ee4-8f8f-5521-9e8c-ee6aecf7c1d0	
+synonym	2172187_dbgap_subject_id	dbgap_subject_id	2172187	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	faee69ba-8c61-5cea-a1fd-e7271a3e097b		f6c89e46-5d0e-53bf-895a-8c5c7e3e2e7d	
+synonym	2172188_dbgap_subject_id	dbgap_subject_id	2172188	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	782e3a63-d9f5-569d-8d8a-a8509acb5bc9		dee1d88b-209d-5617-b5b6-7ab2052d0ac3	
+synonym	2172189_dbgap_subject_id	dbgap_subject_id	2172189	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	a8d09628-b41b-5b40-a3af-5b4c505fdb6f		69b1ea8e-bf31-558e-9834-0707f04100b6	
+synonym	2172190_dbgap_subject_id	dbgap_subject_id	2172190	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	761028c7-cca5-535c-98ce-155000cbd2fc		fc1c40b1-72b7-5bbe-8b94-f27835a3bd30	
+synonym	2172191_dbgap_subject_id	dbgap_subject_id	2172191	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	3cec8257-a42c-5957-8085-ec484ed3b428		8bd6af64-dcf3-5a9a-baa3-89ef34dc0ed2	
+synonym	2172192_dbgap_subject_id	dbgap_subject_id	2172192	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	49c9d230-1db8-50be-b498-cc9fed846362		ce3e6dd3-e8ea-5c75-ad9d-770a4e614f34	
+synonym	2172193_dbgap_subject_id	dbgap_subject_id	2172193	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	19f83b76-2edc-5bdb-88bc-91af3d1fc0b2		4870eee8-b203-5b69-bb6a-2f84495d21f5	
+synonym	2172194_dbgap_subject_id	dbgap_subject_id	2172194	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	814ff51f-a649-51fa-9410-4967aa205334		c54d2aa9-2c81-5b90-9bd9-1257c8750b56	
+synonym	2172195_dbgap_subject_id	dbgap_subject_id	2172195	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	e5f4d6f8-89dc-5ded-8cdc-6ef002aaad66		c79bb332-308c-510b-b2e2-441f5d3435af	
+synonym	2172196_dbgap_subject_id	dbgap_subject_id	2172196	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	01e8bee3-b898-5223-b0ce-6b12872da88a		ce74552e-d921-53c6-a0aa-6edc8f7a9d8a	
+synonym	2172197_dbgap_subject_id	dbgap_subject_id	2172197	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	58924ae5-411a-5b1d-99f9-6ae645f98f6f		2caf8c6a-a8f7-5f5c-921d-b28e5827250a	
+synonym	2172198_dbgap_subject_id	dbgap_subject_id	2172198	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	9676942b-6c87-587a-bdac-94905848bbe2		a8b3e54d-84e9-50a6-af49-11e6f386a3ef	
+synonym	2172200_dbgap_subject_id	dbgap_subject_id	2172200	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	8ba7fbfc-b2f7-5b0e-958c-3fae6ddd45a6		c177e433-974f-5b4b-9fcb-a8d2bc37cf39	
+synonym	2172202_dbgap_subject_id	dbgap_subject_id	2172202	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	061d1674-990c-548c-94f2-5892662bdad9		01564e4d-79a1-5441-bbf2-736cbf0be849	
+synonym	2172203_dbgap_subject_id	dbgap_subject_id	2172203	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	8711469f-6f15-5506-9bf4-29180573b2d6		db4ac240-6d83-5f8b-a724-16b7decbe73a	
+synonym	2172204_dbgap_subject_id	dbgap_subject_id	2172204	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	ce10f920-e614-5cee-bb60-4ade894e073b		5fb68d4c-0201-5504-b774-47dee1ee4cb4	
+synonym	2172205_dbgap_subject_id	dbgap_subject_id	2172205	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	21a9e999-16ea-51ad-8b91-ab9bf2bb0be0		189c4e51-7b05-5606-96ec-19f7537b89c5	
+synonym	811834_dbgap_subject_id	dbgap_subject_id	811834	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	69113ea5-8e17-59ac-a4d2-83574862fe1a		730cf25b-18ea-5854-84a3-293d5a124fc7	
+synonym	811835_dbgap_subject_id	dbgap_subject_id	811835	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	7df0aa2c-d4f4-5bff-8628-fa7fc511b557		e350ab43-3d46-5c38-bc64-06ded496830f	
+synonym	2172210_dbgap_subject_id	dbgap_subject_id	2172210	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	840f3bad-fbde-53d3-90c6-933809e633b6		cc378afe-305e-5a5b-a2c4-df475acc2f70	
+synonym	2172211_dbgap_subject_id	dbgap_subject_id	2172211	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	a6f12776-b5d5-5afa-b0b2-9aa524135e0f		434ec2fe-f13e-5a36-8f53-79e827132fb1	
+synonym	2172212_dbgap_subject_id	dbgap_subject_id	2172212	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	1baee6bc-fb73-5821-948b-0882a8b409db		29b2b332-3bfe-5d32-a8a3-bd0876681ce3	
+synonym	2172213_dbgap_subject_id	dbgap_subject_id	2172213	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	2e593670-0cf3-5de1-ad9a-080bbd13d4d5		70f06a06-d04a-51b6-ae81-d6b0f7478ebf	
+synonym	2172214_dbgap_subject_id	dbgap_subject_id	2172214	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	d25a1f3f-9631-5602-98c2-a34669628920		e2c3a0dc-10d4-5f86-87c9-9a5dd6f32a47	
+synonym	2172215_dbgap_subject_id	dbgap_subject_id	2172215	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	50cb5df0-863a-516f-b24e-7e4a1dd76bac		d3934386-5e41-5c90-8c45-213869f4f873	
+synonym	2172216_dbgap_subject_id	dbgap_subject_id	2172216	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	d9d3c1d7-8b64-5e10-bc77-609017ba6b03		884ceebf-e74b-53ee-a4bf-168a00eeceea	
+synonym	811829_dbgap_subject_id	dbgap_subject_id	811829	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	680a73cc-dad0-5d23-98df-c3e1663a8327		a0b0445c-2afb-502e-8970-93b94917c51e	
+synonym	811830_dbgap_subject_id	dbgap_subject_id	811830	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	f5bf9e1d-9802-56c5-8c85-bc8b491d069d		377fc0a4-d204-5163-a9d7-364baee40332	
+synonym	2172220_dbgap_subject_id	dbgap_subject_id	2172220	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	a0e63d81-b83a-53cb-8106-78d616fbd32d		f3c319a6-17e5-537c-9145-5df64d73cc55	
+synonym	2172221_dbgap_subject_id	dbgap_subject_id	2172221	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	883ffa8b-2384-520c-8d4a-4d47eef7a89a		cd049e08-c400-5dbc-ba6d-97c423b63f62	
+synonym	2172222_dbgap_subject_id	dbgap_subject_id	2172222	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	b7eaaf08-5646-552a-8225-647b70cdc358		b83f6e04-1914-59c1-98f0-24cf02405ce6	
+synonym	2172223_dbgap_subject_id	dbgap_subject_id	2172223	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	6d730e81-6af5-56bd-be8b-50fa64213961		761ae719-67a4-51f1-86a9-99f3138e2370	
+synonym	2172226_dbgap_subject_id	dbgap_subject_id	2172226	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	a431d4b1-3f58-5dcd-ad28-c588361a9c19		bb41f16b-14d4-585f-9d46-cd0e27db6bd4	
+synonym	2172228_dbgap_subject_id	dbgap_subject_id	2172228	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	53ca4b5c-e0ab-55bb-8c5f-e44e59c9392e		28df6981-57d9-5592-9193-84c72194fe7b	
+synonym	2172230_dbgap_subject_id	dbgap_subject_id	2172230	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	75fb5536-c3b7-5d59-aa9b-a0d9a7a0a6c9		8328aab4-9825-57fb-9801-a84b84dd8668	
+synonym	2172232_dbgap_subject_id	dbgap_subject_id	2172232	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	ac49a94f-22eb-522a-a863-a8a67cde37fb		15e637d9-41d8-5b6b-8034-7200bc6f1223	
+synonym	2172233_dbgap_subject_id	dbgap_subject_id	2172233	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	407d82d8-2489-5e98-ac60-ba54ddcba014		f8436751-7fc9-53d5-a6ca-a2600ca14c82	
+synonym	2172234_dbgap_subject_id	dbgap_subject_id	2172234	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	78a99577-410c-51a7-96c3-e723389f4657		5e02a863-e22f-5a23-823b-99d2c60e69f2	
+synonym	2172236_dbgap_subject_id	dbgap_subject_id	2172236	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	bf22fc5b-ffe0-5a21-b110-38d959e809dd		58032a32-a541-5a35-be1e-ca44dd998c1a	
+synonym	2172237_dbgap_subject_id	dbgap_subject_id	2172237	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	24feaac4-1465-5c46-9128-955513252d2a		eab471fe-0866-5264-b789-2a3545f87c16	
+synonym	2172238_dbgap_subject_id	dbgap_subject_id	2172238	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	a981d0f6-fb49-5396-857a-3c1726aa66c8		16016de1-a405-5d78-a37a-45e3a31be55d	
+synonym	2172239_dbgap_subject_id	dbgap_subject_id	2172239	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	ac448775-dc66-5b40-9172-1e459a59383f		d6dd2ab2-ac2e-5126-ac87-55e944ae709e	
+synonym	2172240_dbgap_subject_id	dbgap_subject_id	2172240	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	afe0a09b-2a01-50d3-944a-c4c3dacad48c		30f6657b-a58b-5674-b058-795ca4c5d0df	
+synonym	2172243_dbgap_subject_id	dbgap_subject_id	2172243	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	31686ee0-92fd-5c50-beee-5b2951fc4f5b		162bd4c6-cb06-5c09-8820-6175d5fb6fcd	
+synonym	2172244_dbgap_subject_id	dbgap_subject_id	2172244	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	68d862f9-88b5-5630-9288-d125d217910e		dfee8e44-1c86-51df-9770-1e987f7cbb3a	
+synonym	2172245_dbgap_subject_id	dbgap_subject_id	2172245	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	12e9dd2e-4c25-5725-92e8-b399176f8b60		73e42287-11ed-5a38-8b41-c66d5c1c6194	
+synonym	2172250_dbgap_subject_id	dbgap_subject_id	2172250	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	5555d0a5-ca6b-5fc7-9c99-20a8d56cbedb		981ec9f1-55ee-5207-817c-ef3bc988b0b5	
+synonym	2172249_dbgap_subject_id	dbgap_subject_id	2172249	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	71f5e51f-04cd-5bd2-a719-a3304419dfa1		d310c138-381d-53d6-9cef-497fcd2b874a	
+synonym	2172251_dbgap_subject_id	dbgap_subject_id	2172251	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	e5c04da0-fae6-512e-ab0f-0930fa93d1e1		1032976f-9e36-5bd5-889b-d0a2372eceb8	
+synonym	2172252_dbgap_subject_id	dbgap_subject_id	2172252	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	9b09e11a-7389-5c83-afc7-d8ecb19db7d1		f1fbedbb-94e3-55ee-b298-d963506dfc24	
+synonym	2172254_dbgap_subject_id	dbgap_subject_id	2172254	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	4bca37e8-54e7-5ac6-8ccf-b3db9e0f45d0		943d2dcf-5f64-5818-9ed5-f1242c7747f1	
+synonym	2172255_dbgap_subject_id	dbgap_subject_id	2172255	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	4824d034-f019-5ed0-95eb-4eb489964c84		d4aa16c9-f96c-5020-abe1-f8efeae230c9	
+synonym	2172258_dbgap_subject_id	dbgap_subject_id	2172258	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	8a2be428-70a4-5206-8c27-993e0f97f9fe		e87b8b30-e9ad-5122-a6d1-c101c4cc35bd	
+synonym	2172259_dbgap_subject_id	dbgap_subject_id	2172259	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	dcb0dc26-f045-5181-8644-02ea15562bb4		bd15b55a-7b59-5972-95f4-a54fffb8e52f	
+synonym	2172261_dbgap_subject_id	dbgap_subject_id	2172261	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	a6abf06d-9eb3-5299-81c6-d9564ca8b4ea		4d469c77-c233-5ea9-8b4b-625a4c81fa85	
+synonym	2172262_dbgap_subject_id	dbgap_subject_id	2172262	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	a7cbb751-44b6-5867-b2e7-66c3f98438cc		06b2edcd-92d8-5adc-aaf9-a97623cffe3d	
+synonym	2172263_dbgap_subject_id	dbgap_subject_id	2172263	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	8df8a0e0-de6a-5ddc-b33d-ee7983b0a2cb		14b1787b-a9b6-5e58-99ba-6bcf0cd7c9b2	
+synonym	2172264_dbgap_subject_id	dbgap_subject_id	2172264	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	c87a2c51-637f-54b0-8361-906747ec8bb9		0fed3dad-ad70-54c4-a18e-db0f8350b3b9	
+synonym	2172247_dbgap_subject_id	dbgap_subject_id	2172247	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	6a4f1147-0787-54f9-aa72-fbfdef66ab50		a99227f7-45f4-5c93-9b67-465dcfa2148b	
+synonym	2172265_dbgap_subject_id	dbgap_subject_id	2172265	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	2d0607af-d2ae-5747-a568-989a6f7f25dc		f27dc122-43ba-5c74-93ea-3bf534bd6733	
+synonym	2172266_dbgap_subject_id	dbgap_subject_id	2172266	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	52752464-e71f-5c64-a16d-1a7a6aa25b8f		d7d0fe11-266f-5b9c-9804-9c8ed85dd771	
+synonym	2172267_dbgap_subject_id	dbgap_subject_id	2172267	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	2f3fe64a-9345-546e-b45c-07dd93abdc7e		b007a46e-7fc2-5263-8390-3a6bba2c2e22	
+synonym	2172268_dbgap_subject_id	dbgap_subject_id	2172268	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	ffd2dd8a-4a0b-5336-b6f7-3df30c5dffca		be5c1896-0cf9-5e98-b8b5-a4d131e33a12	
+synonym	2172269_dbgap_subject_id	dbgap_subject_id	2172269	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	65458fb3-0abd-5b72-96c9-a210ffc077c1		6da6ade8-1c77-5d00-9658-6745fc7f5a9e	
+synonym	2172270_dbgap_subject_id	dbgap_subject_id	2172270	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	1c9f1dd7-2a68-5657-a2d3-db9630e277be		9c461a5e-c42c-5564-8bfc-346c9906ec8f	
+synonym	2172272_dbgap_subject_id	dbgap_subject_id	2172272	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	15efba19-9b36-5c69-af45-a40615eb9680		f04a0843-9c6e-5061-ad00-64a070c3d0e3	
+synonym	2172273_dbgap_subject_id	dbgap_subject_id	2172273	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	398609d8-8053-5e49-a1a8-f09052137af9		37a49426-559c-5f89-aa50-181adbe91cd8	
+synonym	2172274_dbgap_subject_id	dbgap_subject_id	2172274	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	ed7743d7-1ea3-5826-b80d-4e9767459c97		7c3b0e03-fb31-5081-85ff-dd377cb1ba49	
+synonym	2172275_dbgap_subject_id	dbgap_subject_id	2172275	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	26b35639-74f3-5821-8ad8-c18a8ed1f5ff		115d650d-77ee-5426-a07c-22daf1381f59	
+synonym	2172276_dbgap_subject_id	dbgap_subject_id	2172276	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	4dc99de7-06d5-5c45-bfa3-ce5ee8f52b09		e430fe27-fae6-52ff-91b5-0872f770fb97	
+synonym	2172277_dbgap_subject_id	dbgap_subject_id	2172277	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	6d2f3db7-b6a3-533b-abe8-c262bd8d94dc		102861e9-43c3-5ab7-880c-9b27961c0e23	
+synonym	2172278_dbgap_subject_id	dbgap_subject_id	2172278	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	c580ac96-2024-58e4-b9aa-4e9c2cae6bd0		47d1b228-e838-522a-8fc1-f9b319dd7b49	
+synonym	2172280_dbgap_subject_id	dbgap_subject_id	2172280	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	5f4c620b-e6b8-5fcf-ac01-a8c21f0e0224		5b2f86bd-89a0-5065-930d-361a904a2219	
+synonym	2172281_dbgap_subject_id	dbgap_subject_id	2172281	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	d77afc11-68ae-582b-b9db-ffadfbcef130		2d29efbb-4556-58f5-8952-ff91b6e642fc	
+synonym	2172282_dbgap_subject_id	dbgap_subject_id	2172282	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	3bf69e93-03d1-5eb2-b060-fbb7bec9c6da		6770dd78-f459-5621-a9e8-80694873a7c2	
+synonym	812253_dbgap_subject_id	dbgap_subject_id	812253	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	4abaaf5b-5eaa-5d55-8fe9-8c8fcb245016		7bfe5717-3a42-534d-809b-ef24bbe9b08f	
+synonym	812255_dbgap_subject_id	dbgap_subject_id	812255	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	ebbccab5-6078-5b09-a741-11baa45c57fc		3dfaa515-55c5-5ae4-b1fa-1ecc3f7a9731	
+synonym	812210_dbgap_subject_id	dbgap_subject_id	812210	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	22aedce4-1eb6-579d-b34b-715e7c9aba39		8bd20587-0085-5e33-ab6b-34bde6770a94	
+synonym	812211_dbgap_subject_id	dbgap_subject_id	812211	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	fabe0dec-5241-574a-84b5-8525669a8486		7f18de55-5ffd-55ac-8009-aa76f71abe05	
+synonym	812214_dbgap_subject_id	dbgap_subject_id	812214	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	c92561b2-74e0-5c07-8ba4-b18716b94b0b		3a7d24bf-cede-5480-a89a-990b84e1c46f	
+synonym	812212_dbgap_subject_id	dbgap_subject_id	812212	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	f00d83ae-d950-5078-aca0-66d276a05352		c4004e22-949f-5733-a3f9-13c06da00974	
+synonym	812215_dbgap_subject_id	dbgap_subject_id	812215	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	9842c874-96bb-5842-bfa3-381e35577f54		8760465b-483f-5dda-b712-ea49b6cf89fd	
+synonym	2172290_dbgap_subject_id	dbgap_subject_id	2172290	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	684a1eda-9edc-53af-b6e1-d40881e11d21		80dc592d-03f7-5e89-afc8-b76ee8a52ad4	
+synonym	812209_dbgap_subject_id	dbgap_subject_id	812209	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	cb87a956-205e-5350-8e03-a74b6e18662b		09454f8d-a395-5a9c-950a-fd963c054e99	
+synonym	2172292_dbgap_subject_id	dbgap_subject_id	2172292	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	f75f487f-888e-5c95-bf4d-528f13dff96c		044f5314-f0fd-5263-8237-b61df2d9652c	
+synonym	812217_dbgap_subject_id	dbgap_subject_id	812217	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	5efee1e2-c18c-5bc1-a339-d5a3b2ed600c		e64a79d4-94bf-5599-bc60-d1587f57f6c4	
+synonym	2172294_dbgap_subject_id	dbgap_subject_id	2172294	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	19e37d37-02df-5f06-b801-e5260c3d2e37		a98d3edd-d137-5f71-a954-b2a361859331	
+synonym	811724_dbgap_subject_id	dbgap_subject_id	811724	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	977ec670-d0a0-556e-a36e-71e5553aa8aa		49524f02-e697-52d7-acfa-3c469af9570f	
+synonym	811731_dbgap_subject_id	dbgap_subject_id	811731	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	5e73e1d6-1d69-5f91-9eb6-0144a77cc3df		7c84c803-1e35-54a1-ae84-22951921711e	
+synonym	811725_dbgap_subject_id	dbgap_subject_id	811725	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	8e07799b-09cc-5e3c-95cd-f240c65eff2a		e3699d04-d430-556e-a862-fb84a97f5c1a	
+synonym	811726_dbgap_subject_id	dbgap_subject_id	811726	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	a3c9adbe-9535-5557-8090-3a4a9e308fde		6c5b9464-07ea-5e60-82c6-230933f641f1	
+synonym	811727_dbgap_subject_id	dbgap_subject_id	811727	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	a8200efc-6f42-542c-a250-4d6b1a47ce3f		dd9bc640-983f-51f7-8f27-1abc6a014298	
+synonym	811728_dbgap_subject_id	dbgap_subject_id	811728	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	e690f4e8-cbf7-51ce-a14a-df8862d74920		a97074cd-185e-546c-bc5f-6149d5df1010	
+synonym	811729_dbgap_subject_id	dbgap_subject_id	811729	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	ee18017e-1bbf-5b20-ab19-15b493e169ab		c89b645a-61f6-5492-b06b-d15efe011da1	
+synonym	811730_dbgap_subject_id	dbgap_subject_id	811730	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	779b5f39-8fd7-536e-9843-ca661b8440cd		77101da4-275f-523d-9e8f-53189be45586	
+synonym	2172170_dbgap_subject_id	dbgap_subject_id	2172170	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	3e1e184b-9026-5a28-a242-985a6dfe21fc		59af30d7-fefe-546c-8ce6-67d68734b038	
+synonym	811806_dbgap_subject_id	dbgap_subject_id	811806	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	358011fc-2b91-5cca-a4b8-63a6c358d6b6		b098c1ac-5a99-5ba3-9a74-daaeebc44366	
+synonym	571446_dbgap_subject_id	dbgap_subject_id	571446	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	09f2975b-27ab-5952-b7eb-fa64e3eb23b4		e8aff77a-0cf1-5152-b6c3-ebc48a2e0aa2	
+synonym	571445_dbgap_subject_id	dbgap_subject_id	571445	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	46d6ab7e-07e3-59f3-b5ac-6cd1cd458fb5		c01bdcb9-2ccd-5527-bec5-1c7234d2bd29	
+synonym	811803_dbgap_subject_id	dbgap_subject_id	811803	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	86b986ee-5cb7-568c-98dc-a69c358b7a34		c67fc6be-db67-528e-b365-b0b073431cb8	
+synonym	811804_dbgap_subject_id	dbgap_subject_id	811804	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	04dae15c-67e4-5d1b-9232-089b9aa1fd38		f818bb48-4e66-5542-afb5-3a64b7eada4f	
+synonym	2172219_dbgap_subject_id	dbgap_subject_id	2172219	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	eba2f8d3-0634-5a4b-96aa-85a44bbd79ed		8f64ecaf-3d1c-5fe3-848f-25e29da26f35	
+synonym	571444_dbgap_subject_id	dbgap_subject_id	571444	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	d1662009-99a7-511c-ab11-64e174e46b18		513cfe88-6a75-5fed-94c1-7aef9f979f32	
+synonym	2172325_dbgap_subject_id	dbgap_subject_id	2172325	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	2a073591-0bf7-5539-ad17-b53a1ec106a6		e4d58a68-560b-5ca4-84f5-b8706bab1fa0	
+synonym	2172309_dbgap_subject_id	dbgap_subject_id	2172309	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	50f2be47-033a-5ed3-bc6b-831f0375e867		f69dfcfe-c955-5fc8-bc28-f5aa91cf2d63	
+synonym	2172311_dbgap_subject_id	dbgap_subject_id	2172311	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	5d0729ee-ce3e-5b0c-832e-2749a1e73530		b89a2d0e-1465-5174-924d-5380b0ca91a3	
+synonym	2172312_dbgap_subject_id	dbgap_subject_id	2172312	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	ed4799aa-1275-5eb3-910d-ba8acc8d2cc2		b0ae847e-966c-5677-83e6-80af04bb6812	
+synonym	2172324_dbgap_subject_id	dbgap_subject_id	2172324	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	b8811ae2-7a13-53a0-b6bc-dc168d07e980		69fcecd5-707b-55b6-98c5-87b8de67ffd8	
+synonym	2172313_dbgap_subject_id	dbgap_subject_id	2172313	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	31048fa5-2c32-5a69-bc6f-8e5ed147e39e		8e95f1c6-56bb-5514-9512-cab020ec42cd	
+synonym	2172314_dbgap_subject_id	dbgap_subject_id	2172314	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	1d6032f5-ccf2-5d3f-a880-de16ac4d12cd		c062bdd6-39f8-570d-8b0e-b5e39f6a96a1	
+synonym	2172316_dbgap_subject_id	dbgap_subject_id	2172316	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	ef5a78ff-bab8-5ce6-b532-e8ee4c2e9b48		814e1704-effe-528c-b7b5-df5275a3bf6b	
+synonym	2172317_dbgap_subject_id	dbgap_subject_id	2172317	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	43f6a80a-8148-5b2c-8032-d96decec99fa		da506b1c-22fc-5dfe-9aeb-0fdf236d9135	
+synonym	2172318_dbgap_subject_id	dbgap_subject_id	2172318	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	083fd2da-b16c-5ade-a250-79b25355615b		3592a0a7-6463-5f44-984d-144ca712ad05	
+synonym	2172319_dbgap_subject_id	dbgap_subject_id	2172319	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	b9ece599-301e-519c-8d29-4500535ecdf6		76d10486-d87b-5c99-9aaf-99db5949150b	
+synonym	2172320_dbgap_subject_id	dbgap_subject_id	2172320	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	11daf86b-74dd-5977-8666-b3ddbb1393a2		f0e15393-87fe-5e46-9deb-db66d882560c	
+synonym	2172321_dbgap_subject_id	dbgap_subject_id	2172321	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	7112b9eb-f3c8-52d4-bcfd-3862d9c74e43		837b6429-8c29-5216-9935-f5cec0dd52fa	
+synonym	2172322_dbgap_subject_id	dbgap_subject_id	2172322	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	ef195711-2a3d-5981-adaf-58d9fb114f4d		31bac818-fd46-5d02-b047-168e19967b69	
+synonym	2172323_dbgap_subject_id	dbgap_subject_id	2172323	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	90299fa6-aa11-5b6f-aed0-02a64b15c214		040bcd46-2e93-5d63-af78-e641b5fd46bc	
+synonym	2172327_dbgap_subject_id	dbgap_subject_id	2172327	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	52309e58-a258-5a6a-b28d-beaccdf1f78c		9b3f90d6-cea1-5f1e-b9ae-bd8767095585	
+synonym	2172328_dbgap_subject_id	dbgap_subject_id	2172328	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	4ae87374-8e66-5152-8dd7-9d4d2285fecc		a4e73634-c110-548f-95e1-7c8e906ea6d5	
+synonym	2172329_dbgap_subject_id	dbgap_subject_id	2172329	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	fc1860a0-4e5c-5320-a59f-aa5da3658e5d		c9a2bb28-8336-572d-8168-6115ffc4c3e6	
+synonym	2172330_dbgap_subject_id	dbgap_subject_id	2172330	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	c535632e-2c88-53d6-a331-a8e331dfc969		79bf6a55-2703-5b0e-8dba-1cdd3305e2b3	
+synonym	2172331_dbgap_subject_id	dbgap_subject_id	2172331	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	736add26-d3a7-5d95-8326-612a2613101f		7495c8a9-9fe7-51b1-8c84-d3f532adf130	
+synonym	2172332_dbgap_subject_id	dbgap_subject_id	2172332	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	fa611ef3-451c-52f7-8038-689d3bc669af		da5e3bf9-59e4-5ace-a766-07f706a02168	
+synonym	811812_dbgap_subject_id	dbgap_subject_id	811812	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	cbcc7e3d-b5e0-5722-9ca0-d7cd64f0a258		4421a2d9-c2ee-5fb6-8181-1ab8fdefeb5d	
+synonym	811815_dbgap_subject_id	dbgap_subject_id	811815	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	5c5bc018-43ed-501d-a598-61dbacb5b357		84ab38a7-06d5-5113-a1d1-39224bd5ef65	
+synonym	811813_dbgap_subject_id	dbgap_subject_id	811813	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	354c6b90-252e-5242-94e9-850054a034c3		966ef7a0-a087-599f-821d-cc5a8ef7e30d	
+synonym	811819_dbgap_subject_id	dbgap_subject_id	811819	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	a41e8426-e0bc-538a-abf3-0908fbc7a051		950132d9-2b97-5110-a4a2-5315d8c57dde	
+synonym	811816_dbgap_subject_id	dbgap_subject_id	811816	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	e72b78bb-1ce3-5e22-b1a3-a565830e277f		27258f7f-4b51-56a0-8480-d7458833e61c	
+synonym	811817_dbgap_subject_id	dbgap_subject_id	811817	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	e936f543-59ea-509c-be76-ac70be2a9d5e		acf7b54e-4a75-5976-ac30-dd38af1c32d8	
+synonym	811821_dbgap_subject_id	dbgap_subject_id	811821	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	b31a4be4-f1f2-557a-807a-478935473b5e		3fda0660-77b0-5ebd-a9a4-703ac4c81dd9	
+synonym	811818_dbgap_subject_id	dbgap_subject_id	811818	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	0863574f-6bfc-5451-8511-231fa60d8805		81127f9c-9db1-5709-9037-f0919c4d5dca	
+synonym	811820_dbgap_subject_id	dbgap_subject_id	811820	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	0476d485-4175-59d0-9e69-1d2b1a4caaae		3b305b3f-d28d-5404-9e25-047bc2f30e30	
+synonym	2172345_dbgap_subject_id	dbgap_subject_id	2172345	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	45f1d41a-af82-5b7e-8669-bdc514b76e13		b25dab1f-2ccd-542c-a841-81afd2283dbf	
+synonym	2172346_dbgap_subject_id	dbgap_subject_id	2172346	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	57534886-8dd9-54c3-8dcf-7b65f1e02ba3		1e9f0952-3f1a-56e3-a3a0-54bd2df8bad6	
+synonym	811822_dbgap_subject_id	dbgap_subject_id	811822	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	ee46be5b-1ce3-5486-95ee-ec8fb18cf254		37e803ec-79f0-556d-82a4-503a199ffc6c	
+synonym	2172349_dbgap_subject_id	dbgap_subject_id	2172349	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	52068982-801c-558e-a0d6-63d9370b1fcc		45da2450-0a96-5de5-b2ff-2d0effe06a01	
+synonym	811823_dbgap_subject_id	dbgap_subject_id	811823	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	067d0687-d9aa-5e61-89a1-0661c8b593d2		2cdab855-476d-5304-b0de-ffe3a8283618	
+synonym	811824_dbgap_subject_id	dbgap_subject_id	811824	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	0a500541-40ec-5a2e-9ed6-18cfbc9714a2		1e249910-51de-5581-bfdf-bcef72c5fbcb	
+synonym	2172353_dbgap_subject_id	dbgap_subject_id	2172353	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	1a751976-80b1-51fd-9b80-b891328a879e		09870bd2-3eb5-503c-bad5-b1ef6a03e71b	
+synonym	2172354_dbgap_subject_id	dbgap_subject_id	2172354	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	7bfbc267-9ee7-56c0-93d7-30ca9a930d94		6b7064cb-8d6a-5175-a908-80f807ff58b7	
+synonym	2969327_dbgap_subject_id	dbgap_subject_id	2969327	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	6fdcde24-dc4c-55bb-8d36-66dd1de9b60c		e8bc2038-5270-5a55-8a50-88b26159ce6d	
+synonym	2172356_dbgap_subject_id	dbgap_subject_id	2172356	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	8d7a952b-4a42-56a5-95a4-01a257a03b87		1eee9a38-d982-545c-905d-4f6759debd20	
+synonym	2969328_dbgap_subject_id	dbgap_subject_id	2969328	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	ccda4f96-d2cf-5ca6-ae3d-bc8bfc460780		765f2427-743b-5f7d-b48b-68513e0c7f73	
+synonym	811825_dbgap_subject_id	dbgap_subject_id	811825	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	e41b0114-c0c6-54c8-8233-e034aa4bd8b7		e5063a7b-dca0-5e0e-a23d-dbad96b882f7	
+synonym	2969329_dbgap_subject_id	dbgap_subject_id	2969329	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	79c1d8bd-c930-5ee0-828f-805b62175121		7270a823-05d9-5a74-a403-f8b323a17d40	
+synonym	2172362_dbgap_subject_id	dbgap_subject_id	2172362	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	dbcb475f-331a-5475-b4f2-014b49babbb9		b1ba4ce6-a1bd-5f6d-9099-0f3fd57c68d5	
+synonym	2969330_dbgap_subject_id	dbgap_subject_id	2969330	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	d91da79c-fd29-5746-96cd-ec71a345a6f1		3665b3b8-def5-57e6-a9fe-dc7b3e579d8e	
+synonym	811828_dbgap_subject_id	dbgap_subject_id	811828	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	03a96620-2184-598a-abbb-224fe5c190d5		4d70e307-8658-558d-988f-148fe779b9e6	
+synonym	2969331_dbgap_subject_id	dbgap_subject_id	2969331	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	f50c7c68-d6c1-50ce-8e56-3bfe0fb2dc1d		e271a098-74cd-5c21-8b55-b646e9d6f1ff	
+synonym	2172367_dbgap_subject_id	dbgap_subject_id	2172367	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	0584f463-ebdf-51c1-b5d4-b49627d0dee7		2ad75fea-edcd-5dce-b2fd-5043982de151	
+synonym	2172368_dbgap_subject_id	dbgap_subject_id	2172368	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	7d645f58-d145-5cd3-9370-bd015fc7decd		87f91d47-5f71-5daf-b39e-82fbbdf5c130	
+synonym	2172369_dbgap_subject_id	dbgap_subject_id	2172369	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	b6f9a361-7d83-5745-93a7-4a8345c890f8		07d120c8-2efe-5822-ac2b-c169e867c58e	
+synonym	2172370_dbgap_subject_id	dbgap_subject_id	2172370	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	61bae318-2835-5b3c-b212-994e2209f99e		0c027d91-6b7c-5d74-a12d-fce55213f809	
+synonym	2172373_dbgap_subject_id	dbgap_subject_id	2172373	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	76388c89-cfdd-57de-a757-9eafe1afa01d		037bbc72-74f0-5e28-b095-f9dbc2c08718	
+synonym	811814_dbgap_subject_id	dbgap_subject_id	811814	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	e6505a2d-ed95-5725-9bc6-33f988a9a0c5		7acc41ba-e5e1-5ece-a816-3d787036ab6c	
+synonym	2172389_dbgap_subject_id	dbgap_subject_id	2172389	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	5d38b3cd-2623-5ebc-bc12-67ad32a21286		7ace4d71-bed5-54d0-bb6d-5e292cd1003c	
+synonym	2172390_dbgap_subject_id	dbgap_subject_id	2172390	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	6f848cd7-e01f-5466-b15e-fe9721dfad00		53f7e4c8-d3ac-59a5-88f1-3f838b1c6366	
+synonym	2172391_dbgap_subject_id	dbgap_subject_id	2172391	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	a285c89d-951c-5119-8169-55cd19208a35		7be78d3f-b68c-59d2-93a6-7ca8a804087e	
+synonym	2172392_dbgap_subject_id	dbgap_subject_id	2172392	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	055ae321-2f2f-549e-8e81-cadb7d92bb8e		247be1c2-a54b-5284-9a92-87a437edb35b	
+synonym	2969332_dbgap_subject_id	dbgap_subject_id	2969332	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	47611d6a-955b-5b2a-af2d-c2f1753784f6		a023590e-4d94-5419-83bd-182006c1a8f2	
+synonym	2172393_dbgap_subject_id	dbgap_subject_id	2172393	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	5ede0a11-da1a-5ba0-bc6a-53250867b499		c6ee7f51-c76e-55fc-b62a-ffa9514a2fc7	
+synonym	2172394_dbgap_subject_id	dbgap_subject_id	2172394	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	427e9db1-3f24-5ff7-affb-6e6aa1de1d14		e591f321-2467-5604-b7c6-bff91387ea6a	
+synonym	2172395_dbgap_subject_id	dbgap_subject_id	2172395	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	81be516d-5f27-56ad-9f60-aad8e9874a7d		61d61ba4-9af5-5452-be59-e57b53825b44	
+synonym	2172396_dbgap_subject_id	dbgap_subject_id	2172396	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	b6ee9c30-fd93-5b07-a7c3-20054189fc63		b5285171-9a62-549f-8029-28325da86265	
+synonym	2172397_dbgap_subject_id	dbgap_subject_id	2172397	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	4a15ea97-33ef-5054-8ddd-e87f615830ff		0d9272b5-c1a1-598e-b380-56e81c186760	
+synonym	2172398_dbgap_subject_id	dbgap_subject_id	2172398	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	ea6cfdab-8722-5497-bc26-143cb83079cc		daa56665-9618-59b1-8f87-8d78163d2c6a	
+synonym	812243_dbgap_subject_id	dbgap_subject_id	812243	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	414f6bb2-b0d9-57af-9f36-b015efec6d3f		533c46ab-c93a-5a78-ae2f-64634fa431ad	
+synonym	812250_dbgap_subject_id	dbgap_subject_id	812250	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	b30383d3-9b9d-5fd1-aa7e-b73710eb2ad5		dc4d4122-99ac-5cc0-8fea-ab415f6ca861	
+synonym	3024131_dbgap_subject_id	dbgap_subject_id	3024131	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	fdfc86f6-90e7-5e07-9e08-4802644768b1		469f5574-8878-5b00-ad51-4a6156954dc4	
+synonym	812247_dbgap_subject_id	dbgap_subject_id	812247	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	98d76ea6-64a3-5864-92ca-31e52de9c57f		29632326-9909-5814-b8fb-a76c0ab5139f	
+synonym	812248_dbgap_subject_id	dbgap_subject_id	812248	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	21da10f3-6d5a-588d-859d-acaabda1c96f		7f3c8b2d-bf94-5a55-9796-c425a667911a	
+synonym	812249_dbgap_subject_id	dbgap_subject_id	812249	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	d4db4537-7c99-5c39-8d76-054cbdb80b49		f01c7159-df46-5baf-b832-1a20df6ee8df	
+synonym	812252_dbgap_subject_id	dbgap_subject_id	812252	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	c9706d7e-2655-57b5-b942-f3ccf3807d75		38ad21a4-f353-5049-b3f1-2387d44f0fde	
+synonym	811831_dbgap_subject_id	dbgap_subject_id	811831	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	250271ee-a46a-529c-bf40-232954e56948		1eecd6ae-a986-59aa-a348-0f9076c7478e	
+synonym	811832_dbgap_subject_id	dbgap_subject_id	811832	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	f7c678a0-c471-522a-8207-a5b6c6a970a2		4b2e0eb6-354e-501c-8604-05058132a6cd	
+synonym	TARGET-10-PPT085_phs000469	phs000469	TARGET-10-PPT085	TARGET: Cancer Model Systems (MDLS): Cell Lines and Xenografts (including PPTP)	dataset	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000469	4e86cf30-0281-5fc4-8fed-2ed140c9fd61		937b5824-d981-5bb4-98b9-ed8e43989099	
+synonym	TARGET-10-PPT086_phs000469	phs000469	TARGET-10-PPT086	TARGET: Cancer Model Systems (MDLS): Cell Lines and Xenografts (including PPTP)	dataset	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000469	86ddd668-d439-562d-87b7-f71967ccbc30		0e999d97-f50b-5f75-8e5d-7d89ae104872	
+synonym	TARGET-10-PPT087_phs000469	phs000469	TARGET-10-PPT087	TARGET: Cancer Model Systems (MDLS): Cell Lines and Xenografts (including PPTP)	dataset	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000469	79b18696-2178-554e-a118-a04d1db17995		f916d6dd-b797-58b5-81f5-a8ce3a20f549	
+synonym	TARGET-10-PPT088_phs000469	phs000469	TARGET-10-PPT088	TARGET: Cancer Model Systems (MDLS): Cell Lines and Xenografts (including PPTP)	dataset	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000469	3cefab7d-3a7d-5112-8b16-c7dcfd2b0fc7		a53514ab-7275-56fd-a1fc-633814ea34de	
+synonym	TARGET-10-PPT089_phs000469	phs000469	TARGET-10-PPT089	TARGET: Cancer Model Systems (MDLS): Cell Lines and Xenografts (including PPTP)	dataset	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000469	0cddd283-2657-5a27-965f-7d35c8a77cef		cf4a5048-76d8-5bf4-891a-4aa2db803c2a	
+synonym	TARGET-10-PPT090_phs000469	phs000469	TARGET-10-PPT090	TARGET: Cancer Model Systems (MDLS): Cell Lines and Xenografts (including PPTP)	dataset	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000469	1f4ddbb8-6744-5a53-9d03-5ce3c117f7ae		150f4966-5b14-5486-a672-3d3427cfa945	
+synonym	TARGET-10-PPT091_phs000469	phs000469	TARGET-10-PPT091	TARGET: Cancer Model Systems (MDLS): Cell Lines and Xenografts (including PPTP)	dataset	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000469	4da12253-2e46-5a28-b8b1-f73d336ba3a4		4708c9e1-7e2d-58d1-9edd-f813207f764b	
+synonym	TARGET-10-PPT092_phs000469	phs000469	TARGET-10-PPT092	TARGET: Cancer Model Systems (MDLS): Cell Lines and Xenografts (including PPTP)	dataset	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000469	5e6d2a11-0d8a-5e6b-94d9-9f4bf68a9bfe		268c7618-a669-5a4e-944f-cc36ce1997c9	
+synonym	TARGET-10-PPT093_phs000469	phs000469	TARGET-10-PPT093	TARGET: Cancer Model Systems (MDLS): Cell Lines and Xenografts (including PPTP)	dataset	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000469	e8cbc3f3-22be-53e7-87d0-04e9e98bed54		12a6d3c3-af1b-5a89-8b96-fa88ece18d44	
+synonym	TARGET-10-PPT094_phs000469	phs000469	TARGET-10-PPT094	TARGET: Cancer Model Systems (MDLS): Cell Lines and Xenografts (including PPTP)	dataset	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000469	c5e1ff7f-e17d-51e5-8b58-ee8ae2e2a049		bc2fbefd-7cbf-5353-843b-85630fe82edf	
+synonym	TARGET-62-PPT001_phs000469	phs000469	TARGET-62-PPT001	TARGET: Cancer Model Systems (MDLS): Cell Lines and Xenografts (including PPTP)	dataset	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000469	ecf5578d-1317-5aaa-8af4-5490448eee1f		bb709e46-6a29-544c-ac58-09813b45ab6c	
+synonym	TARGET-41-PPT039_phs000469	phs000469	TARGET-41-PPT039	TARGET: Cancer Model Systems (MDLS): Cell Lines and Xenografts (including PPTP)	dataset	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000469	7f536cf9-65ba-5511-ab69-6cc43fe5c30c		f2842398-1f71-5e28-ba5a-bd8c0b5c6592	
+synonym	TARGET-30-PPT063_phs000469	phs000469	TARGET-30-PPT063	TARGET: Cancer Model Systems (MDLS): Cell Lines and Xenografts (including PPTP)	dataset	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000469	b0fadf0c-02cc-5316-bdab-1ed320e123cc		ab1e9e4c-3ad3-54d7-9433-8925cf1b8ff2	
+synonym	TARGET-41-PPT035_phs000469	phs000469	TARGET-41-PPT035	TARGET: Cancer Model Systems (MDLS): Cell Lines and Xenografts (including PPTP)	dataset	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000469	71cfe044-f461-567d-98a5-262fc46a462a		a0b0445c-2afb-502e-8970-93b94917c51e	
+synonym	TARGET-41-PPT036_phs000469	phs000469	TARGET-41-PPT036	TARGET: Cancer Model Systems (MDLS): Cell Lines and Xenografts (including PPTP)	dataset	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000469	0e6bcfe3-62ef-5b1a-98b9-6d25e6223e75		377fc0a4-d204-5163-a9d7-364baee40332	
+synonym	TARGET-50-PPT025_phs000469	phs000469	TARGET-50-PPT025	TARGET: Cancer Model Systems (MDLS): Cell Lines and Xenografts (including PPTP)	dataset	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000469	4a3007d8-b35a-553b-899c-54ad9170da7e		8bd20587-0085-5e33-ab6b-34bde6770a94	
+synonym	TARGET-50-PPT026_phs000469	phs000469	TARGET-50-PPT026	TARGET: Cancer Model Systems (MDLS): Cell Lines and Xenografts (including PPTP)	dataset	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000469	c97c262f-0460-581f-864c-38bac6a1ebac		7f18de55-5ffd-55ac-8009-aa76f71abe05	
+synonym	TARGET-52-PPT002_phs000469	phs000469	TARGET-52-PPT002	TARGET: Cancer Model Systems (MDLS): Cell Lines and Xenografts (including PPTP)	dataset	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000469	c6bdf09a-1281-5c4d-a09c-0caf199b65bb		3a7d24bf-cede-5480-a89a-990b84e1c46f	
+synonym	TARGET-50-PPT027_phs000469	phs000469	TARGET-50-PPT027	TARGET: Cancer Model Systems (MDLS): Cell Lines and Xenografts (including PPTP)	dataset	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000469	478ebcba-242f-5a7e-9452-2a33a96bc401		c4004e22-949f-5733-a3f9-13c06da00974	
+synonym	TARGET-52-PPT003_phs000469	phs000469	TARGET-52-PPT003	TARGET: Cancer Model Systems (MDLS): Cell Lines and Xenografts (including PPTP)	dataset	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000469	91677c73-e3de-5427-bb23-28fccdd25f3a		8760465b-483f-5dda-b712-ea49b6cf89fd	
+synonym	TARGET-50-PPT024_phs000469	phs000469	TARGET-50-PPT024	TARGET: Cancer Model Systems (MDLS): Cell Lines and Xenografts (including PPTP)	dataset	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000469	da71a541-f383-5381-9de2-697775f6357e		09454f8d-a395-5a9c-950a-fd963c054e99	
+synonym	TARGET-10-PPT102_phs000469	phs000469	TARGET-10-PPT102	TARGET: Cancer Model Systems (MDLS): Cell Lines and Xenografts (including PPTP)	dataset	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000469	06519ad6-3839-5bf7-9d5c-24fced04ebcf		49524f02-e697-52d7-acfa-3c469af9570f	
+synonym	TARGET-10-PPT109_phs000469	phs000469	TARGET-10-PPT109	TARGET: Cancer Model Systems (MDLS): Cell Lines and Xenografts (including PPTP)	dataset	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000469	b2ce7f4b-5c25-58b4-9625-967e9750225c		7c84c803-1e35-54a1-ae84-22951921711e	
+synonym	TARGET-10-PPT103_phs000469	phs000469	TARGET-10-PPT103	TARGET: Cancer Model Systems (MDLS): Cell Lines and Xenografts (including PPTP)	dataset	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000469	50ba6c6d-91f6-59ed-91cd-5a5dc3e44461		e3699d04-d430-556e-a862-fb84a97f5c1a	
+synonym	TARGET-10-PPT104_phs000469	phs000469	TARGET-10-PPT104	TARGET: Cancer Model Systems (MDLS): Cell Lines and Xenografts (including PPTP)	dataset	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000469	67a8da2a-0faa-5be3-b428-4a7336a1d788		6c5b9464-07ea-5e60-82c6-230933f641f1	
+synonym	TARGET-10-PPT105_phs000469	phs000469	TARGET-10-PPT105	TARGET: Cancer Model Systems (MDLS): Cell Lines and Xenografts (including PPTP)	dataset	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000469	c1c6bc8f-8437-5c56-a40f-a7754c018b7d		dd9bc640-983f-51f7-8f27-1abc6a014298	
+synonym	TARGET-10-PPT106_phs000469	phs000469	TARGET-10-PPT106	TARGET: Cancer Model Systems (MDLS): Cell Lines and Xenografts (including PPTP)	dataset	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000469	d1d06256-276c-5736-a777-6893db58f0a2		a97074cd-185e-546c-bc5f-6149d5df1010	
+synonym	TARGET-10-PPT107_phs000469	phs000469	TARGET-10-PPT107	TARGET: Cancer Model Systems (MDLS): Cell Lines and Xenografts (including PPTP)	dataset	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000469	0c50294e-c17d-53c5-918c-50490cc33943		c89b645a-61f6-5492-b06b-d15efe011da1	
+synonym	TARGET-10-PPT108_phs000469	phs000469	TARGET-10-PPT108	TARGET: Cancer Model Systems (MDLS): Cell Lines and Xenografts (including PPTP)	dataset	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000469	2655ddd6-ddfc-5520-abc5-710bbeaef664		77101da4-275f-523d-9e8f-53189be45586	
+synonym	TARGET-30-PPT065_phs000469	phs000469	TARGET-30-PPT065	TARGET: Cancer Model Systems (MDLS): Cell Lines and Xenografts (including PPTP)	dataset	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000469	55cd7da7-0cbf-564a-bc06-d58acfbfab5b		b098c1ac-5a99-5ba3-9a74-daaeebc44366	
+synonym	TARGET-30-PPT064_phs000469	phs000469	TARGET-30-PPT064	TARGET: Cancer Model Systems (MDLS): Cell Lines and Xenografts (including PPTP)	dataset	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000469	9a88778e-836c-5e1e-ada5-3481b7c324c0		e8aff77a-0cf1-5152-b6c3-ebc48a2e0aa2	
+synonym	TARGET-30-PPT061_phs000469	phs000469	TARGET-30-PPT061	TARGET: Cancer Model Systems (MDLS): Cell Lines and Xenografts (including PPTP)	dataset	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000469	80e294d0-8651-58aa-88a5-e124a2e2e648		c01bdcb9-2ccd-5527-bec5-1c7234d2bd29	
+synonym	TARGET-30-PPT060_phs000469	phs000469	TARGET-30-PPT060	TARGET: Cancer Model Systems (MDLS): Cell Lines and Xenografts (including PPTP)	dataset	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000469	2a76ef62-6dd3-59d7-9a96-dc9ccd94d4aa		c67fc6be-db67-528e-b365-b0b073431cb8	
+synonym	TARGET-30-PPT062_phs000469	phs000469	TARGET-30-PPT062	TARGET: Cancer Model Systems (MDLS): Cell Lines and Xenografts (including PPTP)	dataset	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000469	f5f262f0-3244-5dba-9445-6aba12bb1fb2		f818bb48-4e66-5542-afb5-3a64b7eada4f	
+synonym	TARGET-30-PPT059_phs000469	phs000469	TARGET-30-PPT059	TARGET: Cancer Model Systems (MDLS): Cell Lines and Xenografts (including PPTP)	dataset	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000469	6e266fe8-be01-5fe6-926b-2850e2a68977		513cfe88-6a75-5fed-94c1-7aef9f979f32	
+synonym	TARGET-40-PPT067_phs000469	phs000469	TARGET-40-PPT067	TARGET: Cancer Model Systems (MDLS): Cell Lines and Xenografts (including PPTP)	dataset	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000469	5b78fa9c-9038-5bff-9f78-7c04280f70c7		4421a2d9-c2ee-5fb6-8181-1ab8fdefeb5d	
+synonym	TARGET-40-PPT070_phs000469	phs000469	TARGET-40-PPT070	TARGET: Cancer Model Systems (MDLS): Cell Lines and Xenografts (including PPTP)	dataset	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000469	c1f40487-71d6-5cff-a76b-2b20ec3c7a17		84ab38a7-06d5-5113-a1d1-39224bd5ef65	
+synonym	TARGET-40-PPT068_phs000469	phs000469	TARGET-40-PPT068	TARGET: Cancer Model Systems (MDLS): Cell Lines and Xenografts (including PPTP)	dataset	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000469	2e37e5e8-c145-5cae-9e72-8a123a72514d		966ef7a0-a087-599f-821d-cc5a8ef7e30d	
+synonym	TARGET-40-PPT071_phs000469	phs000469	TARGET-40-PPT071	TARGET: Cancer Model Systems (MDLS): Cell Lines and Xenografts (including PPTP)	dataset	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000469	faf136ae-c537-5243-987f-ed133f6629c9		27258f7f-4b51-56a0-8480-d7458833e61c	
+synonym	TARGET-40-PPT072_phs000469	phs000469	TARGET-40-PPT072	TARGET: Cancer Model Systems (MDLS): Cell Lines and Xenografts (including PPTP)	dataset	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000469	ce994184-2adc-54f4-96c5-3edb5b3becb7		acf7b54e-4a75-5976-ac30-dd38af1c32d8	
+synonym	TARGET-40-PPT073_phs000469	phs000469	TARGET-40-PPT073	TARGET: Cancer Model Systems (MDLS): Cell Lines and Xenografts (including PPTP)	dataset	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000469	af65d3ca-6da1-5260-9d32-791b0e33e280		81127f9c-9db1-5709-9037-f0919c4d5dca	
+synonym	TARGET-40-PPT069_phs000469	phs000469	TARGET-40-PPT069	TARGET: Cancer Model Systems (MDLS): Cell Lines and Xenografts (including PPTP)	dataset	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000469	e28277ac-3caa-5871-8e09-14a935fe4de9		7acc41ba-e5e1-5ece-a816-3d787036ab6c	
+synonym	TARGET-80-PPT042_phs000469	phs000469	TARGET-80-PPT042	TARGET: Cancer Model Systems (MDLS): Cell Lines and Xenografts (including PPTP)	dataset	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000469	bd4294ec-7148-583a-b78f-bc6fceceb80b		533c46ab-c93a-5a78-ae2f-64634fa431ad	
+synonym	TARGET-80-PPT045_phs000469	phs000469	TARGET-80-PPT045	TARGET: Cancer Model Systems (MDLS): Cell Lines and Xenografts (including PPTP)	dataset	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000469	c4f179a5-604f-55be-afec-c1fd0b32a566		469f5574-8878-5b00-ad51-4a6156954dc4	
+synonym	TARGET-80-PPT047_phs000469	phs000469	TARGET-80-PPT047	TARGET: Cancer Model Systems (MDLS): Cell Lines and Xenografts (including PPTP)	dataset	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000469	fcbf5fa3-91cc-5afe-b0e6-961bd2902ad4		29632326-9909-5814-b8fb-a76c0ab5139f	
+synonym	TARGET-80-PPT048_phs000469	phs000469	TARGET-80-PPT048	TARGET: Cancer Model Systems (MDLS): Cell Lines and Xenografts (including PPTP)	dataset	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000469	650e4ff9-3e2b-5f9a-9ec7-3faddea1c210		7f3c8b2d-bf94-5a55-9796-c425a667911a	
+synonym	TARGET-80-PPT049_phs000469	phs000469	TARGET-80-PPT049	TARGET: Cancer Model Systems (MDLS): Cell Lines and Xenografts (including PPTP)	dataset	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000469	9d23e199-5132-5c25-bcad-0f895d9d8c9e		f01c7159-df46-5baf-b832-1a20df6ee8df	
+synonym	TARGET-41-PPT037_phs000469	phs000469	TARGET-41-PPT037	TARGET: Cancer Model Systems (MDLS): Cell Lines and Xenografts (including PPTP)	dataset	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000469	43fc4e1f-859e-5a25-b7d7-be4ca2fee693		1eecd6ae-a986-59aa-a348-0f9076c7478e	
+synonym	TARGET-41-PPT038_phs000469	phs000469	TARGET-41-PPT038	TARGET: Cancer Model Systems (MDLS): Cell Lines and Xenografts (including PPTP)	dataset	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000469	86a91e77-188c-5eac-97ec-20644e275d8d		4b2e0eb6-354e-501c-8604-05058132a6cd	
+synonym	TARGET-10-PPT085_TARGET	TARGET	TARGET-10-PPT085	Therapeutically Applicable Research to Generate Effective Treatments	study	https://www.cancer.gov/ccg/research/genome-sequencing/target	29ec82b0-f317-5647-b1bd-2add8ce59616		937b5824-d981-5bb4-98b9-ed8e43989099	
+synonym	TARGET-10-PPT086_TARGET	TARGET	TARGET-10-PPT086	Therapeutically Applicable Research to Generate Effective Treatments	study	https://www.cancer.gov/ccg/research/genome-sequencing/target	4036ae48-632c-5894-83c9-72fbe81150bd		0e999d97-f50b-5f75-8e5d-7d89ae104872	
+synonym	TARGET-10-PPT087_TARGET	TARGET	TARGET-10-PPT087	Therapeutically Applicable Research to Generate Effective Treatments	study	https://www.cancer.gov/ccg/research/genome-sequencing/target	68760d87-9fae-5270-835f-58ced0417012		f916d6dd-b797-58b5-81f5-a8ce3a20f549	
+synonym	TARGET-10-PPT088_TARGET	TARGET	TARGET-10-PPT088	Therapeutically Applicable Research to Generate Effective Treatments	study	https://www.cancer.gov/ccg/research/genome-sequencing/target	ef765156-ccfc-50b3-9685-5852c7846a71		a53514ab-7275-56fd-a1fc-633814ea34de	
+synonym	TARGET-10-PPT089_TARGET	TARGET	TARGET-10-PPT089	Therapeutically Applicable Research to Generate Effective Treatments	study	https://www.cancer.gov/ccg/research/genome-sequencing/target	2929bb3d-b0d7-54a0-ad45-245e6493034d		cf4a5048-76d8-5bf4-891a-4aa2db803c2a	
+synonym	TARGET-10-PPT090_TARGET	TARGET	TARGET-10-PPT090	Therapeutically Applicable Research to Generate Effective Treatments	study	https://www.cancer.gov/ccg/research/genome-sequencing/target	7d236ea8-e4d5-526b-a6c2-ae2396058459		150f4966-5b14-5486-a672-3d3427cfa945	
+synonym	TARGET-10-PPT091_TARGET	TARGET	TARGET-10-PPT091	Therapeutically Applicable Research to Generate Effective Treatments	study	https://www.cancer.gov/ccg/research/genome-sequencing/target	f0fd6ab2-403c-5cb7-8f8c-fa652e6fb269		4708c9e1-7e2d-58d1-9edd-f813207f764b	
+synonym	TARGET-10-PPT092_TARGET	TARGET	TARGET-10-PPT092	Therapeutically Applicable Research to Generate Effective Treatments	study	https://www.cancer.gov/ccg/research/genome-sequencing/target	da4fb95e-3d61-515b-a5d0-ab8dfb590e57		268c7618-a669-5a4e-944f-cc36ce1997c9	
+synonym	TARGET-10-PPT093_TARGET	TARGET	TARGET-10-PPT093	Therapeutically Applicable Research to Generate Effective Treatments	study	https://www.cancer.gov/ccg/research/genome-sequencing/target	a9d55a0e-9e5d-5257-975e-00b1a6c914c0		12a6d3c3-af1b-5a89-8b96-fa88ece18d44	
+synonym	TARGET-10-PPT094_TARGET	TARGET	TARGET-10-PPT094	Therapeutically Applicable Research to Generate Effective Treatments	study	https://www.cancer.gov/ccg/research/genome-sequencing/target	0655d7f9-d9af-55d4-9308-5f03db7cd2aa		bc2fbefd-7cbf-5353-843b-85630fe82edf	
+synonym	TARGET-62-PPT001_TARGET	TARGET	TARGET-62-PPT001	Therapeutically Applicable Research to Generate Effective Treatments	study	https://www.cancer.gov/ccg/research/genome-sequencing/target	a1dfe255-89f9-578a-80c6-e61385e57d3f		bb709e46-6a29-544c-ac58-09813b45ab6c	
+synonym	TARGET-41-PPT039_TARGET	TARGET	TARGET-41-PPT039	Therapeutically Applicable Research to Generate Effective Treatments	study	https://www.cancer.gov/ccg/research/genome-sequencing/target	237b2351-5d81-5edc-8444-ca8dab96e2d4		f2842398-1f71-5e28-ba5a-bd8c0b5c6592	
+synonym	TARGET-30-PPT063_TARGET	TARGET	TARGET-30-PPT063	Therapeutically Applicable Research to Generate Effective Treatments	study	https://www.cancer.gov/ccg/research/genome-sequencing/target	6426e45a-e1d0-538a-83da-8aae9791a7eb		ab1e9e4c-3ad3-54d7-9433-8925cf1b8ff2	
+synonym	TARGET-41-PPT035_TARGET	TARGET	TARGET-41-PPT035	Therapeutically Applicable Research to Generate Effective Treatments	study	https://www.cancer.gov/ccg/research/genome-sequencing/target	839d639f-01a6-5007-834c-b21947f19064		a0b0445c-2afb-502e-8970-93b94917c51e	
+synonym	TARGET-41-PPT036_TARGET	TARGET	TARGET-41-PPT036	Therapeutically Applicable Research to Generate Effective Treatments	study	https://www.cancer.gov/ccg/research/genome-sequencing/target	5356dd2c-2a96-53fd-a8fb-07fdb276ee25		377fc0a4-d204-5163-a9d7-364baee40332	
+synonym	TARGET-50-PPT025_TARGET	TARGET	TARGET-50-PPT025	Therapeutically Applicable Research to Generate Effective Treatments	study	https://www.cancer.gov/ccg/research/genome-sequencing/target	79c3431e-d64e-5cf1-9180-eb9617d0c1fa		8bd20587-0085-5e33-ab6b-34bde6770a94	
+synonym	TARGET-50-PPT026_TARGET	TARGET	TARGET-50-PPT026	Therapeutically Applicable Research to Generate Effective Treatments	study	https://www.cancer.gov/ccg/research/genome-sequencing/target	dd465193-b827-5abe-a900-131974334d24		7f18de55-5ffd-55ac-8009-aa76f71abe05	
+synonym	TARGET-52-PPT002_TARGET	TARGET	TARGET-52-PPT002	Therapeutically Applicable Research to Generate Effective Treatments	study	https://www.cancer.gov/ccg/research/genome-sequencing/target	977a29ce-29aa-5e3e-abb4-685f48310644		3a7d24bf-cede-5480-a89a-990b84e1c46f	
+synonym	TARGET-50-PPT027_TARGET	TARGET	TARGET-50-PPT027	Therapeutically Applicable Research to Generate Effective Treatments	study	https://www.cancer.gov/ccg/research/genome-sequencing/target	7a258edd-8611-5f0b-a05d-beadebcf9b5c		c4004e22-949f-5733-a3f9-13c06da00974	
+synonym	TARGET-52-PPT003_TARGET	TARGET	TARGET-52-PPT003	Therapeutically Applicable Research to Generate Effective Treatments	study	https://www.cancer.gov/ccg/research/genome-sequencing/target	b3e3a1c7-07a4-5987-a4a6-fcb5dd2b099a		8760465b-483f-5dda-b712-ea49b6cf89fd	
+synonym	TARGET-50-PPT024_TARGET	TARGET	TARGET-50-PPT024	Therapeutically Applicable Research to Generate Effective Treatments	study	https://www.cancer.gov/ccg/research/genome-sequencing/target	fa6c2b29-9b80-5059-a0c1-1b81640a67e7		09454f8d-a395-5a9c-950a-fd963c054e99	
+synonym	TARGET-10-PPT102_TARGET	TARGET	TARGET-10-PPT102	Therapeutically Applicable Research to Generate Effective Treatments	study	https://www.cancer.gov/ccg/research/genome-sequencing/target	bfbbb166-55ad-5d64-b4b6-646a67bdeba1		49524f02-e697-52d7-acfa-3c469af9570f	
+synonym	TARGET-10-PPT109_TARGET	TARGET	TARGET-10-PPT109	Therapeutically Applicable Research to Generate Effective Treatments	study	https://www.cancer.gov/ccg/research/genome-sequencing/target	12e37304-58e8-5039-aa9c-583bd932c2ce		7c84c803-1e35-54a1-ae84-22951921711e	
+synonym	TARGET-10-PPT103_TARGET	TARGET	TARGET-10-PPT103	Therapeutically Applicable Research to Generate Effective Treatments	study	https://www.cancer.gov/ccg/research/genome-sequencing/target	3f3c7d8b-7a51-5db0-9149-4d15df70e199		e3699d04-d430-556e-a862-fb84a97f5c1a	
+synonym	TARGET-10-PPT104_TARGET	TARGET	TARGET-10-PPT104	Therapeutically Applicable Research to Generate Effective Treatments	study	https://www.cancer.gov/ccg/research/genome-sequencing/target	c79d2c54-6099-5485-ae7d-0c8225ed25f2		6c5b9464-07ea-5e60-82c6-230933f641f1	
+synonym	TARGET-10-PPT105_TARGET	TARGET	TARGET-10-PPT105	Therapeutically Applicable Research to Generate Effective Treatments	study	https://www.cancer.gov/ccg/research/genome-sequencing/target	82f8f9cf-a356-568f-8689-84ca8eaf6252		dd9bc640-983f-51f7-8f27-1abc6a014298	
+synonym	TARGET-10-PPT106_TARGET	TARGET	TARGET-10-PPT106	Therapeutically Applicable Research to Generate Effective Treatments	study	https://www.cancer.gov/ccg/research/genome-sequencing/target	2680d79b-7fa1-5999-98dc-d654d3320788		a97074cd-185e-546c-bc5f-6149d5df1010	
+synonym	TARGET-10-PPT107_TARGET	TARGET	TARGET-10-PPT107	Therapeutically Applicable Research to Generate Effective Treatments	study	https://www.cancer.gov/ccg/research/genome-sequencing/target	4d0d77fe-e902-5f98-8538-7a80ed5cbc13		c89b645a-61f6-5492-b06b-d15efe011da1	
+synonym	TARGET-10-PPT108_TARGET	TARGET	TARGET-10-PPT108	Therapeutically Applicable Research to Generate Effective Treatments	study	https://www.cancer.gov/ccg/research/genome-sequencing/target	bf6a7185-8962-5a00-8561-f4f81c98de7e		77101da4-275f-523d-9e8f-53189be45586	
+synonym	TARGET-30-PPT065_TARGET	TARGET	TARGET-30-PPT065	Therapeutically Applicable Research to Generate Effective Treatments	study	https://www.cancer.gov/ccg/research/genome-sequencing/target	638fd200-df64-5fb3-a330-155488cedd21		b098c1ac-5a99-5ba3-9a74-daaeebc44366	
+synonym	TARGET-30-PPT064_TARGET	TARGET	TARGET-30-PPT064	Therapeutically Applicable Research to Generate Effective Treatments	study	https://www.cancer.gov/ccg/research/genome-sequencing/target	ed318149-0277-500b-952b-8d8d85e0cefc		e8aff77a-0cf1-5152-b6c3-ebc48a2e0aa2	
+synonym	TARGET-30-PPT061_TARGET	TARGET	TARGET-30-PPT061	Therapeutically Applicable Research to Generate Effective Treatments	study	https://www.cancer.gov/ccg/research/genome-sequencing/target	1a75b5d6-b3ea-5fc8-8f16-4a6d2d65ad16		c01bdcb9-2ccd-5527-bec5-1c7234d2bd29	
+synonym	TARGET-30-PPT060_TARGET	TARGET	TARGET-30-PPT060	Therapeutically Applicable Research to Generate Effective Treatments	study	https://www.cancer.gov/ccg/research/genome-sequencing/target	ab1e32ce-963a-5940-8b63-349853d432f8		c67fc6be-db67-528e-b365-b0b073431cb8	
+synonym	TARGET-30-PPT062_TARGET	TARGET	TARGET-30-PPT062	Therapeutically Applicable Research to Generate Effective Treatments	study	https://www.cancer.gov/ccg/research/genome-sequencing/target	ec5f1bbd-0acb-53fa-8bb5-7be000c7f59c		f818bb48-4e66-5542-afb5-3a64b7eada4f	
+synonym	TARGET-30-PPT059_TARGET	TARGET	TARGET-30-PPT059	Therapeutically Applicable Research to Generate Effective Treatments	study	https://www.cancer.gov/ccg/research/genome-sequencing/target	dfb28ef5-3b63-5fcc-9720-1d21ebbe5247		513cfe88-6a75-5fed-94c1-7aef9f979f32	
+synonym	TARGET-40-PPT067_TARGET	TARGET	TARGET-40-PPT067	Therapeutically Applicable Research to Generate Effective Treatments	study	https://www.cancer.gov/ccg/research/genome-sequencing/target	d9c4bd65-4bca-52ef-b3f1-239d1dd7ea3c		4421a2d9-c2ee-5fb6-8181-1ab8fdefeb5d	
+synonym	TARGET-40-PPT070_TARGET	TARGET	TARGET-40-PPT070	Therapeutically Applicable Research to Generate Effective Treatments	study	https://www.cancer.gov/ccg/research/genome-sequencing/target	da68a921-c96a-537e-9dad-eddeb7f6a9e6		84ab38a7-06d5-5113-a1d1-39224bd5ef65	
+synonym	TARGET-40-PPT068_TARGET	TARGET	TARGET-40-PPT068	Therapeutically Applicable Research to Generate Effective Treatments	study	https://www.cancer.gov/ccg/research/genome-sequencing/target	2c08ce21-2c5c-5ba3-8b32-76f7319b829a		966ef7a0-a087-599f-821d-cc5a8ef7e30d	
+synonym	TARGET-40-PPT071_TARGET	TARGET	TARGET-40-PPT071	Therapeutically Applicable Research to Generate Effective Treatments	study	https://www.cancer.gov/ccg/research/genome-sequencing/target	6103f175-4b48-521c-a1c0-7ace3a9305a5		27258f7f-4b51-56a0-8480-d7458833e61c	
+synonym	TARGET-40-PPT072_TARGET	TARGET	TARGET-40-PPT072	Therapeutically Applicable Research to Generate Effective Treatments	study	https://www.cancer.gov/ccg/research/genome-sequencing/target	f3f3822f-769d-5fc3-91b6-560affba70cd		acf7b54e-4a75-5976-ac30-dd38af1c32d8	
+synonym	TARGET-40-PPT073_TARGET	TARGET	TARGET-40-PPT073	Therapeutically Applicable Research to Generate Effective Treatments	study	https://www.cancer.gov/ccg/research/genome-sequencing/target	380d7f1a-69e1-5a47-b3f5-12d3598bf9bf		81127f9c-9db1-5709-9037-f0919c4d5dca	
+synonym	TARGET-40-PPT069_TARGET	TARGET	TARGET-40-PPT069	Therapeutically Applicable Research to Generate Effective Treatments	study	https://www.cancer.gov/ccg/research/genome-sequencing/target	9da9c114-6446-5958-80ee-0e13c0d95c32		7acc41ba-e5e1-5ece-a816-3d787036ab6c	
+synonym	TARGET-80-PPT042_TARGET	TARGET	TARGET-80-PPT042	Therapeutically Applicable Research to Generate Effective Treatments	study	https://www.cancer.gov/ccg/research/genome-sequencing/target	d4ce876b-8739-59f2-a5cf-68fe382a4fd9		533c46ab-c93a-5a78-ae2f-64634fa431ad	
+synonym	TARGET-80-PPT045_TARGET	TARGET	TARGET-80-PPT045	Therapeutically Applicable Research to Generate Effective Treatments	study	https://www.cancer.gov/ccg/research/genome-sequencing/target	48f7c405-4dc3-5fb3-a1ff-1e9931e0fbbe		469f5574-8878-5b00-ad51-4a6156954dc4	
+synonym	TARGET-80-PPT047_TARGET	TARGET	TARGET-80-PPT047	Therapeutically Applicable Research to Generate Effective Treatments	study	https://www.cancer.gov/ccg/research/genome-sequencing/target	c7f34fc7-5af3-5d7e-9850-d60292044c14		29632326-9909-5814-b8fb-a76c0ab5139f	
+synonym	TARGET-80-PPT048_TARGET	TARGET	TARGET-80-PPT048	Therapeutically Applicable Research to Generate Effective Treatments	study	https://www.cancer.gov/ccg/research/genome-sequencing/target	e7bcd859-20d7-56cc-be1c-c0d1c5073d5a		7f3c8b2d-bf94-5a55-9796-c425a667911a	
+synonym	TARGET-80-PPT049_TARGET	TARGET	TARGET-80-PPT049	Therapeutically Applicable Research to Generate Effective Treatments	study	https://www.cancer.gov/ccg/research/genome-sequencing/target	e65aabec-8b7c-5b5d-834e-9cd71bb086b1		f01c7159-df46-5baf-b832-1a20df6ee8df	
+synonym	TARGET-41-PPT037_TARGET	TARGET	TARGET-41-PPT037	Therapeutically Applicable Research to Generate Effective Treatments	study	https://www.cancer.gov/ccg/research/genome-sequencing/target	3da223fc-88bc-53b7-a0aa-7711f7727d2b		1eecd6ae-a986-59aa-a348-0f9076c7478e	
+synonym	TARGET-41-PPT038_TARGET	TARGET	TARGET-41-PPT038	Therapeutically Applicable Research to Generate Effective Treatments	study	https://www.cancer.gov/ccg/research/genome-sequencing/target	34a4f4ee-5afd-5b37-a525-879507ef7eef		4b2e0eb6-354e-501c-8604-05058132a6cd	

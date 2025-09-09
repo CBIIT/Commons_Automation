@@ -1,0 +1,155 @@
+type	sample_id	tumor_classification	anatomic_site	participant_age_at_collection	sample_tumor_status	sample_description	percent_tumor	percent_necrosis	crdc_id	id	participant.id	pdx.id	cell_line.id
+sample	S023D	Unknown	C42.1 : Bone marrow	2190	Tumor	DNA sequencing				01dfc78f-d6f0-5baf-aa41-26223f9b2ab2	98ff82f0-888a-5c0f-a28e-393728c5e360		
+sample	S085D	Unknown	C42.1 : Bone marrow	730	Tumor	DNA sequencing				02d51068-c2e8-56f7-a3b4-b45d83a71212	cc0afff4-8d01-5824-b05a-cbb0570ad6d0		
+sample	S105D	Unknown	C42.0 : Blood	13140	Tumor	DNA sequencing				0395c4ca-0898-55b5-9bc7-210532c828f8	0d3462ba-4796-5ac9-aeb0-7863d6ea783a		
+sample	S016D	Unknown	C42.0 : Blood	14235	Tumor	DNA sequencing				043f86de-5bc1-592f-a065-e400fe6c243d	05014d8c-eeb8-531a-ae07-86a215369019		
+sample	S050D	Unknown	C42.1 : Bone marrow	2555	Tumor	DNA sequencing				05aebbee-24a3-58e1-91f4-17a1696a1fe1	a9c1022a-c502-5343-a534-58e8aaaf9e40		
+sample	S084R	Unknown	C42.1 : Bone marrow	13140	Tumor	RNA sequencing				07c48eb9-cbc2-5d4d-86ff-48e682a5593a	cff0bcc9-2533-57e6-a9bc-62c4b5cf99a7		
+sample	S053D	Unknown	C42.0 : Blood	3285	Tumor	DNA sequencing				094d494c-bf91-5e46-be2d-3b50d0a20d75	a520600d-37cb-5904-8665-4e2d60e1a904		
+sample	S071R	Unknown	C42.1 : Bone marrow	11680	Tumor	RNA sequencing				0a8a8340-bba7-57f9-9209-4ec9fd192961	39e250b3-19d8-5b33-9498-3ca8b2c8d046		
+sample	S106R	Unknown	C42.0 : Blood	1095	Tumor	RNA sequencing				11f025aa-f5f9-515d-9493-a42c42b79d9b	d44ebbd5-e2dc-5287-a073-34e5af84db28		
+sample	S075R	Unknown	C42.0 : Blood	12775	Tumor	RNA sequencing				12ab69c6-4fe0-575e-bafa-b3a1ea92abd8	72e2f99c-f714-55de-bb8f-d17fae574516		
+sample	S078D	Unknown	C42.0 : Blood	8395	Tumor	DNA sequencing				13acc138-edbc-5165-850c-b010f8557b2b	d14d7d86-cbae-5858-bf4c-578513c888da		
+sample	S001R	Unknown	C42.1 : Bone marrow	9855	Tumor	RNA sequencing				14922f92-8472-5255-9d0a-12ae044d170f	af77ee64-469c-5508-a359-d1787b35c952		
+sample	S024R	Unknown	C42.0 : Blood	9490	Tumor	RNA sequencing				153bcc81-26f6-5092-9985-580d1cd036c5	9f82e1c0-ae40-5df5-92dc-efcbc28b16cd		
+sample	S108D	Unknown	C42.0 : Blood	12410	Tumor	DNA sequencing				15563954-9d8f-552d-a8ac-9c1bd4d6ac66	af785d85-df85-5f28-aab3-9fb26cf3e0a5		
+sample	S086D	Unknown	C42.1 : Bone marrow	13505	Tumor	DNA sequencing				15d5481b-219f-5b5a-a025-7bc37fe731e6	96b2d95d-c873-55bd-915b-bed8afc517fc		
+sample	S070R	Unknown	C42.1 : Bone marrow	8030	Tumor	RNA sequencing				16ab5175-79e3-591b-bf1f-0be723bc8af0	aa0dfca2-476d-5600-9c83-920bb70c4d68		
+sample	S065R	Unknown	C42.1 : Bone marrow	730	Tumor	RNA sequencing				16da208d-1cc1-577f-be79-243aeebb2ce0	762a1c18-8985-5a89-901c-a1fd8c533c58		
+sample	S091D	Unknown	C42.1 : Bone marrow	6205	Tumor	DNA sequencing				179abc49-5daa-5b14-8764-3d868cb1f396	9f6c65f4-ad31-5841-8bab-f4d4cefa39c9		
+sample	S081D	Unknown	C42.0 : Blood	6205	Tumor	DNA sequencing				1914477a-a30a-5b09-b0a1-34ffda49b5e7	4a1b5a24-e857-5047-b5ac-1351ae082770		
+sample	S033D	Unknown	C42.1 : Bone marrow	8395	Tumor	DNA sequencing				1937d88b-647a-5d5e-ba06-27358acf02d8	6906fbde-334b-5adb-8036-8409bc0b7338		
+sample	S029R	Unknown	C42.1 : Bone marrow	8395	Tumor	RNA sequencing				1a4cff04-7676-5fee-8aa3-55de668b1f5f	2a4875d3-b16b-51ed-b1c5-6e1f72b5d744		
+sample	S053R	Unknown	C42.0 : Blood	3285	Tumor	RNA sequencing				1fa8400c-2f67-510b-bfdd-2316b871aeb5	a520600d-37cb-5904-8665-4e2d60e1a904		
+sample	S005R	Unknown	C42.1 : Bone marrow	1825	Tumor	RNA sequencing				21773bc8-5930-5b08-be89-9903efc0d3f7	67d078f5-242f-50db-92ae-e7f5521c2957		
+sample	S059R	Unknown	C42.1 : Bone marrow	8760	Tumor	RNA sequencing				23c08b29-d95d-567f-ba1a-272ff00c16f0	ccf65421-861d-54a9-859f-4704cf0bfdb7		
+sample	S111R	Unknown	C42.0 : Blood	6935	Tumor	RNA sequencing				24a41a81-bacd-5e05-8998-c278286527fe	ffa7e97f-c003-5b9b-8f68-87d5291fff14		
+sample	S003R	Unknown	C42.0 : Blood	8395	Tumor	RNA sequencing				24d2f959-d469-50cf-a094-16aebf1643b0	6906fbde-334b-5adb-8036-8409bc0b7338		
+sample	S046D	Unknown	C42.1 : Bone marrow	10585	Tumor	DNA sequencing				25087a67-c96e-524c-84be-2bfda7631c93	0d66b70d-75dd-5ea0-91d0-ff60f12b8ac5		
+sample	S099D	Unknown	C42.1 : Bone marrow	9125	Tumor	DNA sequencing				2577d967-0beb-5910-84a7-3025f5fff891	e1001080-0e0a-55e4-81e6-3b591fb2ca84		
+sample	S095D	Unknown	C42.1 : Bone marrow	4380	Tumor	DNA sequencing				27d1c628-8680-5752-bcf2-14bd5063a1eb	4d0abd4f-90f8-5c13-8a03-d26cf2680ffd		
+sample	S025D	Unknown	C42.1 : Bone marrow	1825	Tumor	DNA sequencing				288c322b-9fc1-5fe5-bedb-3844e11f139b	a04411e6-1da1-5f29-bb09-cc0a1a8373c3		
+sample	S052R	Unknown	C42.1 : Bone marrow	4380	Tumor	RNA sequencing				2a60e8c5-0a3c-5f31-96dd-823d974ddead	75607799-7a0b-5f93-8e1a-042cdbfd598b		
+sample	S082D	Unknown	C42.1 : Bone marrow	1095	Tumor	DNA sequencing				2bd3c2e3-3998-5356-ae18-05905ce107f7	48e78dca-0137-5fbb-9479-b879041dc1ee		
+sample	S015D	Unknown	C42.0 : Blood	12775	Tumor	DNA sequencing				2bfb36b0-55a5-5543-9654-084068cef508	59c5eb8c-c26e-5c43-b8b2-54ae0c858072		
+sample	S069D	Unknown	C42.1 : Bone marrow	13870	Tumor	DNA sequencing				2c1cf9dc-b8e7-5bcf-a96c-2ad71bcaa516	fa437a92-ffe1-56ed-87c3-dbe987a75850		
+sample	S073D	Unknown	C42.0 : Blood	12775	Tumor	DNA sequencing				319de1c5-5b09-5f74-b005-c5cc8b2f1f66	72e2f99c-f714-55de-bb8f-d17fae574516		
+sample	S063R	Unknown	C42.1 : Bone marrow	7300	Tumor	RNA sequencing				33168e58-f4ca-5bd9-bdcc-c26c41766354	0766c5e6-6549-5bd2-a45d-8d97a7e830a7		
+sample	S054D	Unknown	C42.1 : Bone marrow	7665	Tumor	DNA sequencing				346017fa-d6f5-5cb8-9a92-5df670d45b70	c83f240a-21c3-5a5b-b2b5-ebd27cc0a301		
+sample	S030D	Unknown	C42.0 : Blood	365	Tumor	DNA sequencing				3a2e05e1-8568-594e-aad9-bae3df87c9b8	fe924625-c323-54c1-98a7-d5b81dd7bfe9		
+sample	S068D	Unknown	C42.1 : Bone marrow	6570	Tumor	DNA sequencing				3ca185cf-90bc-5ce9-abbb-096d1b9472a4	cc12f222-39db-5973-b10b-7f1e0d1be639		
+sample	S034D	Unknown	C42.1 : Bone marrow	6570	Tumor	DNA sequencing				3d42411c-e125-5042-86a0-094a9ef0cdff	10d5fe0e-7545-5865-9bf5-5ebe7d564f0c		
+sample	S038D	Unknown	C42.0 : Blood	8395	Tumor	DNA sequencing				3e4187fa-1570-5494-a189-ac98a82d06ca	ea3d2451-4b07-5ab0-b808-d8c9d976aeef		
+sample	S068R	Unknown	C42.1 : Bone marrow	6570	Tumor	RNA sequencing				3fa01935-2782-5741-8b09-e886e72cf1bf	cc12f222-39db-5973-b10b-7f1e0d1be639		
+sample	S031R	Unknown	C42.1 : Bone marrow	13140	Tumor	RNA sequencing				40e95c53-a48e-5198-b645-2baf64b3b5cf	1d5096c5-63fc-53e5-8927-1bfeb7521c14		
+sample	S010R	Unknown	C42.0 : Blood	8760	Tumor	RNA sequencing				45c90b02-d234-5177-a585-ab50828af6ee	437eabd8-de57-5a2d-be3f-db35ff237067		
+sample	S008D	Unknown	C42.1 : Bone marrow	2555	Tumor	DNA sequencing				47e9eedf-0435-5c3b-b896-aa92d08fb13d	3e475d07-5bb8-5ac2-b934-db4d1224ac5e		
+sample	S055R	Unknown	C42.1 : Bone marrow	13505	Tumor	RNA sequencing				47ea2bd0-bf32-5fc1-81c9-907df88e5b18	0811b0b9-b421-572c-930c-76695b5f8460		
+sample	S052D	Unknown	C42.1 : Bone marrow	4380	Tumor	DNA sequencing				4992e8ca-5102-5e03-90bb-0a095d83b6d0	75607799-7a0b-5f93-8e1a-042cdbfd598b		
+sample	S062R	Unknown	C42.0 : Blood	12410	Tumor	RNA sequencing				4a670f96-22ae-5da6-9a6f-bbe9d2256c29	3fe46b0f-b165-57c2-b860-26650e207bd8		
+sample	S094R	Unknown	C42.1 : Bone marrow	10220	Tumor	RNA sequencing				4a9cff05-cb0e-5555-82bd-a83e2ebea258	34b70d49-5e96-5830-802a-0fcdda28629e		
+sample	S021R	Unknown	C42.1 : Bone marrow	2555	Tumor	RNA sequencing				4e4728e6-05f2-5986-8090-17cf99c83bbb	2ddc490c-fe8b-5120-a465-90742c5ae4e8		
+sample	S104R	Unknown	C42.0 : Blood	7665	Tumor	RNA sequencing				4e65ed64-08e6-54ea-a5fd-2abfc1a679b8	8947a5ca-6ea4-5c23-8d96-2036857984e5		
+sample	S043D	Unknown	C42.0 : Blood	13870	Tumor	DNA sequencing				4f8966a5-4f7b-5151-9c76-062474c9b2f2	a690b7db-07f8-5940-9a93-bb9be0c3e1d5		
+sample	S067D	Unknown	C42.1 : Bone marrow	2190	Tumor	DNA sequencing				4fe44ecd-3aba-5665-8bdd-3da0efd66a84	b6b9ad2b-8d9d-5ade-b48e-ecdb046635a0		
+sample	S061D	Unknown	C42.1 : Bone marrow	12410	Tumor	DNA sequencing				5059d848-a460-5cbe-9561-090263d4050b	3fe46b0f-b165-57c2-b860-26650e207bd8		
+sample	S066D	Unknown	C42.1 : Bone marrow	1095	Tumor	DNA sequencing				507ad33f-eb14-5c9e-9826-0cc3520518ee	a330faa6-0c41-570d-bf8e-fc4c88834871		
+sample	S075D	Unknown	C42.0 : Blood	12775	Tumor	DNA sequencing				52092936-d3aa-5ddd-b5ce-c693c5ab2ffa	72e2f99c-f714-55de-bb8f-d17fae574516		
+sample	S096R	Unknown	C42.0 : Blood	3285	Tumor	RNA sequencing				52405a8a-b75e-5156-a763-b443d1ebe102	aa15b75f-1b56-5878-a1b7-ff14a2faf568		
+sample	S031D	Unknown	C42.1 : Bone marrow	13140	Tumor	DNA sequencing				53fe01c4-a0de-5240-a07f-978532043ac3	1d5096c5-63fc-53e5-8927-1bfeb7521c14		
+sample	S101D	Unknown	C42.0 : Blood	13870	Tumor	DNA sequencing				54086948-2ab5-5e01-ba03-09b8800df917	a690b7db-07f8-5940-9a93-bb9be0c3e1d5		
+sample	S041D	Unknown	C42.0 : Blood	8760	Tumor	DNA sequencing				557d01f5-4c96-5f97-8e8e-dfa500209431	094f943b-b119-532d-a685-ceea76e6d68a		
+sample	S096D	Unknown	C42.0 : Blood	3285	Tumor	DNA sequencing				577d58cd-a91c-5022-93d1-57cccc6451ab	aa15b75f-1b56-5878-a1b7-ff14a2faf568		
+sample	S041R	Unknown	C42.0 : Blood	8760	Tumor	RNA sequencing				58dda861-f0cc-5939-9e2b-e71aa032a0e2	094f943b-b119-532d-a685-ceea76e6d68a		
+sample	S043R	Unknown	C42.0 : Blood	13870	Tumor	RNA sequencing				5d82c53c-5cee-5a25-b0d3-7d2dcb9f7083	a690b7db-07f8-5940-9a93-bb9be0c3e1d5		
+sample	S017D	Unknown	C42.1 : Bone marrow	1825	Tumor	DNA sequencing				5d8ad0c9-7d17-5a1d-963e-bcce0229ef57	7c8c0b10-9036-5fe1-89db-b522cf55326d		
+sample	S040R	Unknown	C42.0 : Blood	12410	Tumor	RNA sequencing				5df7a2ea-21b3-512e-a65d-42a01cc8d1e8	85d4ade3-519a-548f-a1d3-9c668d7f7cec		
+sample	S058D	Unknown	C42.1 : Bone marrow	6205	Tumor	DNA sequencing				5f34bef8-e72b-5a48-a658-c06ee1c0da66	37686a91-00db-5f59-960e-16483ad632f1		
+sample	S065D	Unknown	C42.1 : Bone marrow	730	Tumor	DNA sequencing				617fd3fa-da9f-58e2-8484-e95c565d85f6	762a1c18-8985-5a89-901c-a1fd8c533c58		
+sample	S060D	Unknown	C42.0 : Blood	3285	Tumor	DNA sequencing				659f61bf-85f9-58c5-9986-45543f69bed8	a520600d-37cb-5904-8665-4e2d60e1a904		
+sample	S110D	Unknown	C42.0 : Blood	2920	Tumor	DNA sequencing				689b54c2-0e1c-5ab9-9c53-972bc7069c29	2c3b672a-7948-582f-8f7c-9205c524d30d		
+sample	S019D	Unknown	C42.1 : Bone marrow	11680	Tumor	DNA sequencing				6954ed05-c6b0-5655-ab85-4c6e81ed70db	364a2444-4cf0-5e59-8142-2aa263a602c2		
+sample	S100D	Unknown	C42.1 : Bone marrow	1825	Tumor	DNA sequencing				6ca5fa5e-297d-5a08-8826-3c4fb731e7cd	d6222ffd-1e6c-5040-a082-1c086bd2afa1		
+sample	S071D	Unknown	C42.1 : Bone marrow	11680	Tumor	DNA sequencing				6da5f939-c162-570c-9f46-f913b70c7a54	39e250b3-19d8-5b33-9498-3ca8b2c8d046		
+sample	S057D	Unknown	C42.1 : Bone marrow	730	Tumor	DNA sequencing				6dd68c1e-2631-5da8-9b40-96ce74424450	8ea15f72-896f-5ef5-992e-464edfda5079		
+sample	S070D	Unknown	C42.1 : Bone marrow	8030	Tumor	DNA sequencing				6fda690f-0b93-56e9-a587-3c8c93f004ad	aa0dfca2-476d-5600-9c83-920bb70c4d68		
+sample	S077D	Unknown	C42.0 : Blood	10950	Tumor	DNA sequencing				706db196-7f4a-5835-93dd-bd37a296f76b	93389ec4-fe33-5e13-9423-5160fd66f5a1		
+sample	S006D	Unknown	C42.1 : Bone marrow	-999	Tumor	DNA sequencing				71219757-c396-500a-a78b-0ea8a11cde55	d1c114f3-a4bf-5cd5-8b29-ace7d6351c8f		
+sample	S072D	Unknown	C42.1 : Bone marrow	730	Tumor	DNA sequencing				71ff7807-a2a6-5f35-b95e-54b97e3d6ab3	6d868616-5fba-56b2-9fab-735d09bed40d		
+sample	S030R	Unknown	C42.0 : Blood	365	Tumor	RNA sequencing				732de7c5-b35d-5bd2-9c2b-049e7495b58e	fe924625-c323-54c1-98a7-d5b81dd7bfe9		
+sample	S037R	Unknown	C42.0 : Blood	8395	Tumor	RNA sequencing				765a3f27-fd0a-5dc1-9931-0b56076ba100	2f7b2dd0-9cf9-55f4-b3f8-82bbfd0f2c4e		
+sample	S079D	Unknown	C42.0 : Blood	12045	Tumor	DNA sequencing				778f8860-a1e5-5e4d-bf01-48325c7c9158	2355399a-0c14-5ece-993b-7d19c2a665fe		
+sample	S111D	Unknown	C42.0 : Blood	6935	Tumor	DNA sequencing				77b1d576-f698-5051-ac32-c1960b23cd65	ffa7e97f-c003-5b9b-8f68-87d5291fff14		
+sample	S028R	Unknown	C42.1 : Bone marrow	8030	Tumor	RNA sequencing				78cd0329-80c0-5080-b47a-126605c0026c	46d616f1-229c-5508-96f7-564179cc6269		
+sample	S047R	Unknown	C42.1 : Bone marrow	3650	Tumor	RNA sequencing				78e4883d-461e-50ff-b3da-9b467c13e295	c00b469e-c597-5acc-aa4d-264308cb058a		
+sample	S104D	Unknown	C42.0 : Blood	7665	Tumor	DNA sequencing				79e605b7-8ec6-5382-a9c9-695f0c3a534b	8947a5ca-6ea4-5c23-8d96-2036857984e5		
+sample	S097D	Unknown	C42.1 : Bone marrow	10585	Tumor	DNA sequencing				7ac652c4-e8f8-550b-9704-76dfc21ccad2	a5305364-da20-5950-bd3a-56650592439f		
+sample	S001D	Unknown	C42.1 : Bone marrow	9855	Tumor	DNA sequencing				7dac5d4d-08f1-568e-a111-166f9b7da887	af77ee64-469c-5508-a359-d1787b35c952		
+sample	S074D	Unknown	C42.1 : Bone marrow	8760	Tumor	DNA sequencing				811c2605-2ffb-5fd5-849e-9aa76121db01	094f943b-b119-532d-a685-ceea76e6d68a		
+sample	S028D	Unknown	C42.1 : Bone marrow	8030	Tumor	DNA sequencing				8133d945-8c6d-5c25-9e50-1f84c4d6e606	46d616f1-229c-5508-96f7-564179cc6269		
+sample	S093D	Unknown	C42.0 : Blood	-999	Tumor	DNA sequencing				83105e0f-fbff-585e-890a-8c63b96019a4	b390b043-6812-5859-97b1-e1a5b27784a2		
+sample	S018R	Unknown	C42.0 : Blood	9490	Tumor	RNA sequencing				834d1483-7409-5453-8e21-42779a3b3f76	025c2eb2-19b7-5b81-bdbb-c5ee06a049e8		
+sample	S014D	Unknown	C42.0 : Blood	10585	Tumor	DNA sequencing				8b020b36-6ec8-5fcc-aba5-d2f73ea9ba0b	681fa0ea-a294-544d-81f6-22facfd13162		
+sample	S009D	Unknown	C42.1 : Bone marrow	4380	Tumor	DNA sequencing				8f0c41b8-1e80-5e31-9b18-496c17a58280	b08e7d1c-8273-5e60-a0ae-d340d4ebeb51		
+sample	S083D	Unknown	C42.0 : Blood	13505	Tumor	DNA sequencing				933fc7fa-551b-5a6a-8973-2c408288ea88	06514cf5-811e-534e-b3b1-0460088e6b2f		
+sample	S054R	Unknown	C42.1 : Bone marrow	7665	Tumor	RNA sequencing				946ba002-2eaf-51e3-93ec-46a3a6bdf3e8	c83f240a-21c3-5a5b-b2b5-ebd27cc0a301		
+sample	S098R	Unknown	C42.1 : Bone marrow	4015	Tumor	RNA sequencing				94add180-ba9d-5ed5-b714-43c137d2c7ee	31bcfc35-16cf-5b36-b8ff-7ea47d675b75		
+sample	S061R	Unknown	C42.1 : Bone marrow	12410	Tumor	RNA sequencing				9b4e5d97-cce5-5407-b42b-e08ca7ec7595	3fe46b0f-b165-57c2-b860-26650e207bd8		
+sample	S004D	Unknown	C42.1 : Bone marrow	1460	Tumor	DNA sequencing				9c7d72dc-9108-57b5-ac3d-6be09bd1f088	9d291b13-ae00-5eb8-8767-774b20c7a4f7		
+sample	S047D	Unknown	C42.1 : Bone marrow	3650	Tumor	DNA sequencing				9cf6a7f6-39f9-5cce-a705-9dd391d2b05c	c00b469e-c597-5acc-aa4d-264308cb058a		
+sample	S106D	Unknown	C42.0 : Blood	1095	Tumor	DNA sequencing				9ee0768a-8299-5e8f-a75b-d9b8545b9e68	d44ebbd5-e2dc-5287-a073-34e5af84db28		
+sample	S045D	Unknown	C42.1 : Bone marrow	11680	Tumor	DNA sequencing				a2299d69-ce58-5233-9c05-8f44abf98939	0a1dc8bd-a7ea-5f5d-937e-de529fe97194		
+sample	S020R	Unknown	C42.1 : Bone marrow	14235	Tumor	RNA sequencing				a4c1d176-7c78-517d-a224-18c322be8804	57db0568-2c2d-50b5-87c6-95d82919f677		
+sample	S056D	Unknown	C42.1 : Bone marrow	11315	Tumor	DNA sequencing				a69909d7-3e88-59e3-8535-a85c8bf39d31	e7201f34-eabc-5416-99e3-39ff4b7ad22e		
+sample	S002D	Unknown	C42.0 : Blood	10950	Tumor	DNA sequencing				a7dbc67d-417c-58e3-b954-21ddc5f1c358	fee30c22-217f-59a8-b502-5c7020fed005		
+sample	S032D	Unknown	C42.0 : Blood	10585	Tumor	DNA sequencing				a84e3bfd-b09d-5cf8-9c1b-29552babf235	a15a242d-6124-5d7e-ab7e-6c2319380ba8		
+sample	S080D	Unknown	C42.1 : Bone marrow	12045	Tumor	DNA sequencing				a9c72d6d-8ad7-51cb-b514-fa7e018b7127	e7a32686-3d0f-5b67-bad9-e225c445c1c2		
+sample	S040D	Unknown	C42.0 : Blood	12410	Tumor	DNA sequencing				a9f6752b-9cb2-5a2b-b2fd-e623542bd912	85d4ade3-519a-548f-a1d3-9c668d7f7cec		
+sample	S012R	Unknown	C42.1 : Bone marrow	14235	Tumor	RNA sequencing				aa1ac70c-ebd3-5d4b-a0ec-161e2f3b3616	0811b0b9-b421-572c-930c-76695b5f8460		
+sample	S076D	Unknown	C42.0 : Blood	13140	Tumor	DNA sequencing				af2befb5-8861-5ad7-a765-91cae70e0d8c	0d3462ba-4796-5ac9-aeb0-7863d6ea783a		
+sample	S112D	Unknown	C42.1 : Bone marrow	5110	Tumor	DNA sequencing				af3a4050-9ac2-5b59-bf31-60231fc75e99	af7f32c5-481a-5ca8-9117-ecfbbb6808d3		
+sample	S103D	Unknown	C42.1 : Bone marrow	5110	Tumor	DNA sequencing				b217daea-91ea-520f-8c0d-85cbc77264e4	6cb5e226-6aa8-53d3-b109-36d5f8e1a26e		
+sample	S037D	Unknown	C42.0 : Blood	8395	Tumor	DNA sequencing				b3f960e0-1478-5c11-a74b-1a5e6c465e20	2f7b2dd0-9cf9-55f4-b3f8-82bbfd0f2c4e		
+sample	S011D	Unknown	C42.1 : Bone marrow	7665	Tumor	DNA sequencing				b516122a-8b57-5561-96fe-0de9881025b1	d505c4ad-64de-5bbd-b4a4-0ed7992c35c5		
+sample	S051D	Unknown	C42.0 : Blood	8030	Tumor	DNA sequencing				b54d44cf-0bbb-58e0-afdb-0480b2c6f1fa	59e9952d-57ed-52e1-863b-57dbba38e6cd		
+sample	S012D	Unknown	C42.1 : Bone marrow	14235	Tumor	DNA sequencing				b9e2970b-e95b-55d4-8935-cd6fe13ea455	0811b0b9-b421-572c-930c-76695b5f8460		
+sample	S036D	Unknown	C42.1 : Bone marrow	365	Tumor	DNA sequencing				ba96e9bf-4bcc-5be8-b73d-1cc8754be036	0539b6e7-0bf4-50c4-9923-663538184ab1		
+sample	S002R	Unknown	C42.0 : Blood	10950	Tumor	RNA sequencing				bb51e2b4-3847-5217-b5ab-14d747311404	fee30c22-217f-59a8-b502-5c7020fed005		
+sample	S013D	Unknown	C42.0 : Blood	1095	Tumor	DNA sequencing				bb78621c-54d7-5547-ac07-31d276f157c5	70d74417-30cb-55e9-a87c-2b6245ad6a09		
+sample	S063D	Unknown	C42.1 : Bone marrow	7300	Tumor	DNA sequencing				bce60996-6063-5c3e-8c01-1d041955c30c	0766c5e6-6549-5bd2-a45d-8d97a7e830a7		
+sample	S049D	Unknown	C42.0 : Blood	9490	Tumor	DNA sequencing				be0186aa-f747-55b4-b7b8-ff973cd25a28	46b84edf-6452-51f7-8ea0-dc117ef33ac7		
+sample	S003D	Unknown	C42.0 : Blood	8395	Tumor	DNA sequencing				c0507fda-490c-55ed-8299-7772ce93e8b3	6906fbde-334b-5adb-8036-8409bc0b7338		
+sample	S109D	Unknown	C42.1 : Bone marrow	1825	Tumor	DNA sequencing				c05a8965-2911-5fdf-987c-8144d874dd20	c5d31b11-91a8-51c2-b914-f6b40fd3657a		
+sample	S064D	Unknown	C42.1 : Bone marrow	3650	Tumor	DNA sequencing				c2a0c970-256f-59cc-b336-2a8c4568b18b	d10ce852-626b-5e0d-8c52-a825230605c9		
+sample	S029D	Unknown	C42.1 : Bone marrow	8395	Tumor	DNA sequencing				c2cdab56-ea53-50f6-8ec2-0a78b3bd29f1	2a4875d3-b16b-51ed-b1c5-6e1f72b5d744		
+sample	S039D	Unknown	C42.1 : Bone marrow	1460	Tumor	DNA sequencing				c48a3e46-3c94-5964-991b-451a91cf9462	705b2a00-fba0-57f3-bb75-08f8bda04452		
+sample	S058R	Unknown	C42.1 : Bone marrow	6205	Tumor	RNA sequencing				c5036e9b-a94c-5e46-8b5c-ee811f994465	37686a91-00db-5f59-960e-16483ad632f1		
+sample	S026D	Unknown	C42.1 : Bone marrow	2920	Tumor	DNA sequencing				c68c987c-0530-5578-9884-671af97ebbea	d7dec23e-dd61-5f9d-847f-8028d57a5c0e		
+sample	S084D	Unknown	C42.1 : Bone marrow	13140	Tumor	DNA sequencing				ca723641-4649-5d75-a3af-5b4ba00f4b7f	cff0bcc9-2533-57e6-a9bc-62c4b5cf99a7		
+sample	S011R	Unknown	C42.1 : Bone marrow	7665	Tumor	RNA sequencing				cb49eb9f-d2f4-5945-9cda-1e16e8132514	d505c4ad-64de-5bbd-b4a4-0ed7992c35c5		
+sample	S019R	Unknown	C42.1 : Bone marrow	11680	Tumor	RNA sequencing				cf1760e8-51de-5d33-806a-121c0cd7443a	364a2444-4cf0-5e59-8142-2aa263a602c2		
+sample	S024D	Unknown	C42.0 : Blood	9490	Tumor	DNA sequencing				d08bc164-dc94-57ea-aa13-3ca1c8e6bafe	9f82e1c0-ae40-5df5-92dc-efcbc28b16cd		
+sample	S101R	Unknown	C42.0 : Blood	13870	Tumor	RNA sequencing				d195dd90-9947-59db-8ff1-7e17879c0db5	a690b7db-07f8-5940-9a93-bb9be0c3e1d5		
+sample	S089D	Unknown	C42.1 : Bone marrow	5110	Tumor	DNA sequencing				d552f7d7-01f1-5a1b-af1f-6218f48dd7bf	21fb9c2d-03ca-542f-9d79-0ccc46a34796		
+sample	S046R	Unknown	C42.1 : Bone marrow	10585	Tumor	RNA sequencing				d5ddb071-c30c-531c-9e89-10a92622e4e2	0d66b70d-75dd-5ea0-91d0-ff60f12b8ac5		
+sample	S094D	Unknown	C42.1 : Bone marrow	10220	Tumor	DNA sequencing				d6684d78-28f6-5f5a-bf8f-b6358b9cf4ff	34b70d49-5e96-5830-802a-0fcdda28629e		
+sample	S088R	Unknown	C42.0 : Blood	9855	Tumor	RNA sequencing				d8404609-4878-5b1c-8beb-f10d2741251b	7cb7169c-7310-5c4e-aedd-fcf0cc22c9f1		
+sample	S098D	Unknown	C42.1 : Bone marrow	4015	Tumor	DNA sequencing				d95cd61e-b0fe-5647-a115-8c6de11aaeea	31bcfc35-16cf-5b36-b8ff-7ea47d675b75		
+sample	S027D	Unknown	C42.1 : Bone marrow	10950	Tumor	DNA sequencing				d976603b-4e76-5dc4-a46b-b8353c5dfe1e	94afb84e-433f-5a4e-a337-998f6da99f4b		
+sample	S107D	Unknown	C42.1 : Bone marrow	10220	Tumor	DNA sequencing				dbbacbc9-fc0c-5401-842d-11992e8f9abe	db5cac3c-62e1-5fbb-b5c6-c449e8923bf0		
+sample	S055D	Unknown	C42.1 : Bone marrow	13505	Tumor	DNA sequencing				dce2e882-901f-5397-87eb-d5098cfd914d	0811b0b9-b421-572c-930c-76695b5f8460		
+sample	S090D	Unknown	C42.0 : Blood	13505	Tumor	DNA sequencing				de35b207-1079-5c9c-b986-541f81ee841f	1c24fd0d-ff53-5f0c-91f4-e21f9b6fc183		
+sample	S009R	Unknown	C42.1 : Bone marrow	4380	Tumor	RNA sequencing				e10db4b2-814f-5cf3-b143-3064d98e9603	b08e7d1c-8273-5e60-a0ae-d340d4ebeb51		
+sample	S044R	Unknown	C42.1 : Bone marrow	13870	Tumor	RNA sequencing				e1ca306f-6866-586e-80ed-77702d60f368	4a9b6dc4-32b6-53d0-9e6e-4015a55c453f		
+sample	S021D	Unknown	C42.1 : Bone marrow	2555	Tumor	DNA sequencing				e4a56a96-9479-569e-a8b8-cb77c97d6d46	2ddc490c-fe8b-5120-a465-90742c5ae4e8		
+sample	S092D	Unknown	C42.1 : Bone marrow	4745	Tumor	DNA sequencing				e60349d7-d74a-5274-9271-b07f8572ec77	28cf4b61-a495-5fa5-b805-a8dedd1547f6		
+sample	S087D	Unknown	C42.1 : Bone marrow	4380	Tumor	DNA sequencing				e97e0822-db6a-5ad8-8136-b564c4c1c935	c11746c0-075c-5d68-9833-cb3c691d9004		
+sample	S039R	Unknown	C42.1 : Bone marrow	1460	Tumor	RNA sequencing				ed4c2587-e46e-54e9-a2b5-ef560e9a77f2	705b2a00-fba0-57f3-bb75-08f8bda04452		
+sample	S074R	Unknown	C42.1 : Bone marrow	8760	Tumor	RNA sequencing				ed53d024-d64a-5d68-8f43-c0f378c30ab4	094f943b-b119-532d-a685-ceea76e6d68a		
+sample	S102D	Unknown	C42.1 : Bone marrow	1825	Tumor	DNA sequencing				eda2d143-faef-547a-a58b-d37d71658271	65120b90-af6d-5a6c-9638-00f4b2534c8b		
+sample	S042D	Unknown	C42.1 : Bone marrow	730	Tumor	DNA sequencing				ee359602-a5ce-5aa7-bd67-ed10d0b8a8a9	60ce2a26-1507-5b53-91cd-7ad534538c73		
+sample	S048D	Unknown	C42.0 : Blood	10220	Tumor	DNA sequencing				efbaa428-dab2-51ea-9f45-2bfc82b3ac92	ac7c45f4-88f4-5a84-81d6-dafc3528a4bf		
+sample	S007D	Unknown	C42.0 : Blood	4015	Tumor	DNA sequencing				f2820555-a4b8-5839-a47e-1f239e0b8983	60bd4701-6334-5690-a59f-5ab967a3b7aa		
+sample	S005D	Unknown	C42.1 : Bone marrow	1825	Tumor	DNA sequencing				f3db6624-1c26-530c-a996-e13205cb65ae	67d078f5-242f-50db-92ae-e7f5521c2957		
+sample	S022R	Unknown	C42.1 : Bone marrow	6935	Tumor	RNA sequencing				f9f211ab-3945-55bd-b888-ebbcb16ce4d0	7cb668a9-3229-5af9-825e-a2f9d91f02f8		
+sample	S035D	Unknown	C42.1 : Bone marrow	2190	Tumor	DNA sequencing				fbcc66f9-7632-5a9c-be10-563d200bbcb8	c34a3ade-fb2c-546b-bb08-d03f67701c23		

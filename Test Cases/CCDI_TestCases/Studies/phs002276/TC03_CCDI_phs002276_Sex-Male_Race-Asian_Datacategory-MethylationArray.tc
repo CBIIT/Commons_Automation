@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_CCDI_phs002276_Sex-Male_Race-Asian_Datacategory-MethylationArray</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5e8df087-adf6-4baa-9ca6-ce2cd6aeeedd</testCaseGuid>
+</TestCaseEntity>

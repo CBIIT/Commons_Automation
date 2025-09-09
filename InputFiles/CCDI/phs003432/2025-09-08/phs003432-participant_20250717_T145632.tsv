@@ -1,0 +1,44 @@
+type	participant_id	race	sex_at_birth	crdc_id	id	consent_group.id
+participant	PATTDP	White	Male		0323b682-a048-5909-bd4b-371d64a72895	05569d43-8315-530f-871d-e38b7c2d07d2
+participant	PATMYZ	White	Male		12b5baa3-8499-5ee4-bb38-d88355367aca	05569d43-8315-530f-871d-e38b7c2d07d2
+participant	PAUNDK	White	Male		1713deeb-88cc-5d3b-bc61-ea7220ffaf1b	05569d43-8315-530f-871d-e38b7c2d07d2
+participant	PAUFAM	Asian	Female		1f037d44-2d8e-5e64-9e5c-63d06caec6be	05569d43-8315-530f-871d-e38b7c2d07d2
+participant	PAVFKN	American Indian or Alaska Native	Male		1f7380c3-764f-5f4b-98ca-7f75da7a1a55	05569d43-8315-530f-871d-e38b7c2d07d2
+participant	PAUNZE	White	Male		23392fa8-01df-513a-9f80-fb020402afce	05569d43-8315-530f-871d-e38b7c2d07d2
+participant	PAUMXB	White	Male		2465f116-31f3-5408-a0a6-9112f3600b0d	05569d43-8315-530f-871d-e38b7c2d07d2
+participant	PATEVG	White	Male		2ceb336e-d60b-581a-8b5c-8450e1df8988	05569d43-8315-530f-871d-e38b7c2d07d2
+participant	T2	Unknown	Female		2f053db8-f512-59af-8aca-ce9702dbefb3	05569d43-8315-530f-871d-e38b7c2d07d2
+participant	PAVTXP	White	Male		310d176e-3723-5ca6-9446-a8019722ce87	05569d43-8315-530f-871d-e38b7c2d07d2
+participant	T1	Unknown	Male		379d0274-1568-50a3-9a4e-423b299cdaae	05569d43-8315-530f-871d-e38b7c2d07d2
+participant	PAURXZ	White	Male		3fb6c884-6c84-594a-bfd1-d7b3b7bd797e	05569d43-8315-530f-871d-e38b7c2d07d2
+participant	PAUKIZ	White	Male		45376b56-efed-58fc-b2f8-1fa8a87019a9	05569d43-8315-530f-871d-e38b7c2d07d2
+participant	PATIPB	Black or African American	Female		463c097d-594a-5506-bb95-c122d8b83026	05569d43-8315-530f-871d-e38b7c2d07d2
+participant	PAVSEI	Black or African American	Male		47e402e1-cde0-5d12-8e11-b0dde13ebabc	05569d43-8315-530f-871d-e38b7c2d07d2
+participant	PASZKM	Asian	Female		4adbf0de-c22a-5839-b318-128650021d18	05569d43-8315-530f-871d-e38b7c2d07d2
+participant	PAUPTX	White	Female		61828032-7b72-58a2-9ee9-08258b0f9108	05569d43-8315-530f-871d-e38b7c2d07d2
+participant	PAVTCV	White	Male		6e3c7e39-c967-53c0-9173-661d11571a72	05569d43-8315-530f-871d-e38b7c2d07d2
+participant	PAVINC	Native Hawaiian or other Pacific Islander	Male		741bea52-e98f-5b2b-9c71-2b004b3b138e	05569d43-8315-530f-871d-e38b7c2d07d2
+participant	PAVVVF	Asian	Female		74fa5357-9bb8-5c61-81f1-037c7e20c10f	05569d43-8315-530f-871d-e38b7c2d07d2
+participant	PASKMG	Black or African American	Female		790ac770-b2e7-514b-8c04-b0a87746085d	05569d43-8315-530f-871d-e38b7c2d07d2
+participant	PATDFE	Hispanic or Latino;White	Female		81045c17-0f8e-5276-a62c-899d8c9ac8e9	05569d43-8315-530f-871d-e38b7c2d07d2
+participant	PASZMC	White	Female		8af120e5-634a-5ef4-8956-74be001671d1	05569d43-8315-530f-871d-e38b7c2d07d2
+participant	PAURIX	Native Hawaiian or other Pacific Islander	Female		8bf52df4-db4b-5edc-b739-e233dc2fcf56	05569d43-8315-530f-871d-e38b7c2d07d2
+participant	PAVLII	White	Male		92247f24-7068-5b7a-8fb3-41bcf15839ba	05569d43-8315-530f-871d-e38b7c2d07d2
+participant	PAVSRU	Hispanic or Latino;White	Male		9a63b8cb-506e-502a-bd1b-12c120142d2f	05569d43-8315-530f-871d-e38b7c2d07d2
+participant	PAWIIR	Black or African American	Male		9dc11ed9-3491-5c63-af35-01afb3964fe0	05569d43-8315-530f-871d-e38b7c2d07d2
+participant	PAUHWY	Black or African American	Male		9fd1078d-95b1-50fc-87cc-20d722defeff	05569d43-8315-530f-871d-e38b7c2d07d2
+participant	PAVLKA	Black or African American	Male		a09aaf2d-e875-5c6b-8412-9da1c7c9998b	05569d43-8315-530f-871d-e38b7c2d07d2
+participant	T3	Unknown	Female		b2c51d24-d2bd-5ccd-821e-fd5246fa3867	05569d43-8315-530f-871d-e38b7c2d07d2
+participant	PAUMAV	White	Male		b6a9265d-d601-5e03-9969-f947125afd29	05569d43-8315-530f-871d-e38b7c2d07d2
+participant	PAUUZY	Asian	Male		b92844a1-2648-54d6-9ed4-a89a4731b8d7	05569d43-8315-530f-871d-e38b7c2d07d2
+participant	PAVUFK	Hispanic or Latino;White	Male		c4a69b75-f5e0-5889-961a-f1a917cb0cdc	05569d43-8315-530f-871d-e38b7c2d07d2
+participant	PAWGWD	Hispanic or Latino;White	Male		c57e3369-766a-5164-b281-4bceb6679323	05569d43-8315-530f-871d-e38b7c2d07d2
+participant	PATENL	White	Male		cbd2c67e-9ee8-5256-bf1e-52e48a9a3b9b	05569d43-8315-530f-871d-e38b7c2d07d2
+participant	PAVYVY	White	Male		d5fcca5f-96d7-54db-b189-197a3f3fefbb	05569d43-8315-530f-871d-e38b7c2d07d2
+participant	PAVVVK	Hispanic or Latino;White	Male		dea1843e-62c8-5353-a4a2-a76201c5b323	05569d43-8315-530f-871d-e38b7c2d07d2
+participant	PAVLUN	White	Male		e95e817c-ca42-56a8-ba7e-ddb157467425	05569d43-8315-530f-871d-e38b7c2d07d2
+participant	PAUYJE	White	Male		eb94f693-a441-5ad8-8fea-2343846b25e1	05569d43-8315-530f-871d-e38b7c2d07d2
+participant	PASWWT	Unknown	Female		ef0a8312-2f04-59e3-99bd-6a93ac0a5039	05569d43-8315-530f-871d-e38b7c2d07d2
+participant	PATPKZ	Hispanic or Latino;White	Male		f01ed6a6-e391-593e-b5d6-db64c443da18	05569d43-8315-530f-871d-e38b7c2d07d2
+participant	PAVJCH	Asian	Female		f7922312-f1ef-5be2-9b34-ac84fc1c1f45	05569d43-8315-530f-871d-e38b7c2d07d2
+participant	PAUPVR	White	Female		f8dd6d13-e949-5898-8baa-1bbacc1761d5	05569d43-8315-530f-871d-e38b7c2d07d2

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_CCDI_phs002276_Diag-TcellAcuteLymphoblasticleukemia_Lastknwnsrv-dead</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6ef1f2d5-a045-4da3-b5a1-77db728dd7de</testCaseGuid>
+</TestCaseEntity>

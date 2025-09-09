@@ -1,3 +1,0 @@
-type	study_personnel_id	personnel_name	personnel_type	email_address	institution	orcid	crdc_id	id	study.id
-study_personnel	phs002790_personnel2	Malcolm Smith, MD, PhD	PI	smithm@ctep.nci.nih.gov	NCI	0000-0001-9880-9876		64339bb2-56bf-5a89-a67c-665928c68e73	8a04cda6-417f-512a-862e-504360307620
-study_personnel	phs002790#personnel1	Elaine R. Mardis, PhD	Data Manager	Elaine.Mardis@nationwidechildrens.org	Steve and Cindy Rasmussen Institute for Genomic Medicine Nationwide Children's Hospital	0000-0002-5892-1553		8fbd56fd-086e-5253-a3b5-098002b48e09	8a04cda6-417f-512a-862e-504360307620

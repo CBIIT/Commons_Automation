@@ -1,0 +1,2 @@
+type	study_personnel_id	personnel_name	personnel_type	email_address	institution	orcid	crdc_id	id	study.id
+study_personnel	personnel_1	Donald Williams (Will) Parsons, MD, PhD	PI	dwparson@texaschildrens.org	Texas Children's Hospital	https://orcid.org/0000-0002-8775-3501		301476ff-bc84-55d5-8f02-e977bac3fafd	ec303fe3-0c90-5c79-b397-04db4b0ed823
