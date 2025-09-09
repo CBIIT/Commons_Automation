@@ -6,11 +6,10 @@
    <elementGuidId>3390e6f2-b2a7-4951-b0f5-97eae9603e4b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
       </entry>
       <entry>
-         <key>XPATH</key>
+         <key>BASIC</key>
          <value></value>
       </entry>
    </selectorCollection>
@@ -22,7 +21,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@id=&quot;[object Object]&quot;])[6]</value>
-      <webElementGuid>8557b716-2228-435e-a936-7e212d3d039f</webElementGuid>
+      <value>//span[text()=&quot;Samples&quot;]</value>
+      <webElementGuid>58ea4ef1-e365-4413-a1c3-c8f72e577b07</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
