@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@id=&quot;[object Object]&quot;])[6]</value>
+         <value>//span[text()=&quot;Survival&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@id=&quot;[object Object]&quot;])[6]</value>
-      <webElementGuid>7a708cec-d377-4ce3-a890-6ab0c2793e31</webElementGuid>
+      <value>//span[text()=&quot;Survival&quot;]</value>
+      <webElementGuid>2fd6a31c-27b6-4949-8d17-64f72d0a7a29</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
