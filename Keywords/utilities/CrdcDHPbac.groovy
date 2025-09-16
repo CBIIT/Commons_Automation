@@ -549,6 +549,7 @@ class CrdcDHPbac extends TestRunner {
 	@Keyword
 	public static void uploadMetadataUI(String relativePath) {
 		String absolutePath = Paths.get(relativePath).toAbsolutePath().toString()
+		WebUI.delay(2)
 		WebUI.uploadFile(findTestObject('CRDC/DataSubmissions/ChooseFiles-Btn'), absolutePath)
 		WebUI.delay(5)
 		TestRunner.clickTab('CRDC/DataSubmissions/Upload-Btn')
