@@ -156,7 +156,7 @@ class API_Functions {
 				return ecdnaEntry
 				
 			case 'ccdi-IUSCCC':
-			def iuEntry = responseData.find { it.source == 'ccdi-IUSCCC' }
+			def iuEntry = responseData.find { it.source == 'ccdi-iusccc-pst' }
 			if (iuEntry == null) {
 				KeywordUtil.markFailedAndStop("No entry with 'source: ccdi-IUSCCC' found in the response.")
 			}
