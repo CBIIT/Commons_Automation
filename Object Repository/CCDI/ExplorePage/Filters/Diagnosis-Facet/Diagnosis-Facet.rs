@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@id=&quot;[object Object]&quot;])[2]</value>
+         <value>//span[text()=&quot;Diagnosis&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@id=&quot;[object Object]&quot;])[2]</value>
-      <webElementGuid>ade69663-0255-4862-9d06-587d39e92dc5</webElementGuid>
+      <value>//span[text()=&quot;Diagnosis&quot;]</value>
+      <webElementGuid>1c9e1ab7-ec84-44b9-82ba-d05c5d8ce84c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

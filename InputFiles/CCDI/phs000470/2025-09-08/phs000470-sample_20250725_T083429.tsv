@@ -1,0 +1,106 @@
+type	sample_id	tumor_classification	anatomic_site	participant_age_at_collection	sample_tumor_status	sample_description	percent_tumor	percent_necrosis	crdc_id	id	participant.id	pdx.id	cell_line.id
+sample	TARGET-52-PAVDPR-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					031cb4ac-4d8f-5a78-b419-ecbd7baccd1b	5b8d48ef-6aa4-517c-be5d-272d945ce314		
+sample	TARGET-52-PAVITI-11A-01	Not Applicable	C64.9 : Kidney, NOS	-999	Normal					062f1180-6002-517e-99fb-5d10fe6332a2	e98ca8e7-b75d-555d-a0e2-f8d7034a3966		
+sample	TARGET-52-PATXEE-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					0aa15a9d-6d50-5e64-94ce-dd3b5ead60fd	99f2b102-52a4-519e-b394-f22edee875b0		
+sample	TARGET-52-PASRHU-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					12df7ccf-7027-503c-a65b-15d5539f8793	83b239d5-0e30-559b-bcff-e46352c77af9		
+sample	TARGET-52-PARRCL-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					150546d2-cf21-5279-8f77-46e4af5db8b8	eda95734-b5ae-5839-a3d2-86c264c6be1f		
+sample	TARGET-52-PAKLYZ-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					177568c3-f062-598e-a032-8345b734ff39	0fc0cce0-1058-5834-99a0-e407b5aa392a		
+sample	TARGET-52-PAJMRB-11A-01	Not Applicable	C42.0 : Blood	-999	Normal					192cd2f3-0512-5efc-9585-bafbbce491b8	faed811f-0017-5306-aa1b-86885ecbe638		
+sample	TARGET-52-PAUHAZ-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					1a115e02-0fdd-5d17-8b07-38b225dcc594	0cca0c69-bc09-59ee-931a-645b077f118e		
+sample	TARGET-52-PAJLRA-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					1df2314a-e5b6-5c6a-9b58-7debe145cb35	b72a32c4-6e50-5f8f-a47d-25c6f6c8a1b2		
+sample	TARGET-52-PADWRZ-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					1f59ddc0-c2b7-5039-bde9-ae19f98a774f	9ac62b74-eb21-52b9-80b5-7d1a766ea0ca		
+sample	TARGET-52-PADYCE-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					215c2d22-fcc2-5700-aa37-173177db783a	489e72af-7306-5530-a330-6d8bf1db9779		
+sample	TARGET-52-PAUGYZ-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					28f5fc0d-2c8a-5c2b-9fc5-0eb39eb4f044	4ae9bb0e-63d3-57ce-8352-781337894065		
+sample	TARGET-52-PAUFVP-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					2e99fc20-f5a4-5617-925e-5b2929ad2b44	2d6db672-3aa7-558d-a8bb-4c0d1fdfee14		
+sample	TARGET-52-PATENH-11A-01	Not Applicable	C64.9 : Kidney, NOS	-999	Normal					39e6bcc7-0b28-5d2a-a4c9-ceb924ec9b82	59e48854-df5e-558b-aad8-eb403d388dee		
+sample	TARGET-52-PAUEKW-01A-02	Primary	C64.9 : Kidney, NOS	-999	Tumor					39eee02f-a1b6-5ebe-a1e1-d7685e476467	84cac6e8-43b6-5187-b723-e688b9cfd658		
+sample	TARGET-52-PAUDPV-11A-01	Not Applicable	C42.0 : Blood	-999	Normal					3c15913c-2bc1-55b1-98df-9baf7aa53e8f	f544030e-edeb-5d16-9fee-853c05cf155c		
+sample	TARGET-52-PATFXW-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					42514002-4a5a-5a48-957c-0c7ab24a715c	8099c0ab-dd65-5cfd-a88c-b0cc2d47e50c		
+sample	TARGET-52-PASVDP-01A-01	Primary	C49.6 : Connective, subcutaneous and other soft tissues of trunk, NOS	-999	Tumor					471e03f4-e3bf-59b9-a8d0-28de1d338440	2234be9a-1694-5d57-bab7-26eee0cba10c		
+sample	TARGET-52-PAKTCT-11A-01	Not Applicable	C42.0 : Blood	-999	Normal					491bf687-abf3-508c-b060-4d0b7f98d993	63d9089d-d248-55a4-bbea-d9649dc7df12		
+sample	TARGET-52-PAKHTL-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					4b4539a5-ce0a-5773-83e5-e87d5bde1ec6	e7218d03-0d55-56c9-9d86-e8c1f544a998		
+sample	TARGET-52-PAKPEW-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					4d832cdd-d6a4-53e5-9adb-b1dd51969c68	7ce14858-d215-53fb-9034-f0d84e3e58bd		
+sample	TARGET-52-PAREWI-01A-02	Primary	C64.9 : Kidney, NOS	-999	Tumor					4ea65e95-916d-5704-aa10-4cf07d31cca2	b2327827-7de7-56e8-888c-5d7f2263a4da		
+sample	TARGET-52-PAEHIP-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					4f4270da-204a-5f99-8e62-480ffa9a4cfc	7a78fd7a-b74b-579f-a8af-c31c22a70b98		
+sample	TARGET-52-PATXKA-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					52246874-d829-5405-bd04-7ee3d81e261b	5df64b37-25e8-513f-a9c2-525a0ce2fff3		
+sample	TARGET-52-PARUGK-01A-02	Primary	C64.9 : Kidney, NOS	-999	Tumor					53415a5d-af94-5774-80c8-f22584a7feb8	d4e769ae-3e4f-508c-b5d9-593d217db083		
+sample	TARGET-52-PARZRH-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					5571f28f-4a58-5aa2-b685-e550432e70bd	be9e1865-3131-57d6-8345-0efaa5e1dbcc		
+sample	TARGET-52-PAREWI-11A-01	Not Applicable	C64.9 : Kidney, NOS	-999	Normal					56dbb5d5-a6be-59e3-a269-bf3c28c2af61	b2327827-7de7-56e8-888c-5d7f2263a4da		
+sample	TARGET-52-PASABD-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					57803614-0cd6-50a5-831b-2d80c209c159	4b4993d1-04be-598d-91f6-bb452ce3b21f		
+sample	TARGET-52-PATBLF-01A-01	Primary	C49.6 : Connective, subcutaneous and other soft tissues of trunk, NOS	-999	Tumor					5df9e6b6-50fa-5ecd-81fa-22f8372d97ee	c77bf492-44a7-56c8-b718-04dd1cd5a7ad		
+sample	TARGET-52-PARZBI-01A-02	Primary	C64.9 : Kidney, NOS	-999	Tumor					5ee666ae-8e68-5e59-a587-02426836618f	1bbb7505-73fe-5b0f-b7aa-a7946e932f12		
+sample	TARGET-52-PARRCL-11A-01	Not Applicable	C64.9 : Kidney, NOS	-999	Normal					615dce65-1fef-5a3e-8627-a9007c27e8b4	eda95734-b5ae-5839-a3d2-86c264c6be1f		
+sample	TARGET-52-PAKHTL-11A-01	Not Applicable	C42.0 : Blood	-999	Normal					6351ed62-818c-507a-afcf-866d177380c4	e7218d03-0d55-56c9-9d86-e8c1f544a998		
+sample	TARGET-52-PARTKH-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					65f3f91d-0f6c-567e-8e9c-05d8f80ab472	680e04c4-b3aa-5ec9-86a1-08193973073a		
+sample	TARGET-52-PASXGF-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					668cd1b0-35dd-5a6c-ab0c-812cd27fce03	50c6ab2a-7ac2-5568-9240-14f750a4772d		
+sample	TARGET-52-PARPFY-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					67372daa-f30c-5eec-9a0c-e3c66ac29c23	2f42f65b-a92c-52fa-87a4-baf6eb02ad9c		
+sample	TARGET-52-PAUDPV-01A-02	Primary	C64.9 : Kidney, NOS	-999	Tumor					68b2b49a-1cea-5a75-9c34-c9ab29fc3316	f544030e-edeb-5d16-9fee-853c05cf155c		
+sample	TARGET-52-PABKLN-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					694e02c3-1d26-5f3c-b670-d32ef5940f3b	59df7c0b-6ce0-5b97-9342-5b64615d5c22		
+sample	TARGET-52-PARGRN-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					6c0735f7-34f2-5176-a684-eaa9bc2db0d1	06e90517-a393-5f11-aeb5-9383dbfc1e32		
+sample	TARGET-52-PATDVL-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					7179eb16-8546-5b62-b648-7414336cc043	c7de7326-94ff-5b1c-8a91-ccfbcd1b40c9		
+sample	TARGET-52-PATAFT-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					719fa181-1770-5b3a-bcc4-030f743fa1ef	67734cc2-1fe8-52e7-ba0c-56685524969f		
+sample	TARGET-52-PASAMZ-01A-01	Primary	C49.9 : Connective, subcutaneous and other soft tissues, NOS	-999	Tumor					7342eb0f-0cd7-5969-81f7-a479ef5364bc	37a1abd6-ad36-5e3f-829b-b98a74777daa		
+sample	TARGET-52-PAUCGJ-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					7385c3a3-3624-59a8-a619-cbbaba77a6dc	4b0365f3-15ea-5a65-9ea6-fd5ce53b1fbf		
+sample	TARGET-52-PAJNFP-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					756f02bd-7758-530a-ac44-446940145deb	2cc82c51-b11c-5157-9650-7d075b6d229c		
+sample	TARGET-52-PAJLWM-11A-01	Not Applicable	C42.0 : Blood	-999	Normal					7a1d9c0d-cdd9-5334-9eed-eb3d8d1154ca	5e7fea30-1d3c-541f-bffe-f2ea2f919088		
+sample	TARGET-52-PATDVL-01A-02	Primary	C64.9 : Kidney, NOS	-999	Tumor					7d0bbf31-a72f-5d13-814e-2fe7534fad56	c7de7326-94ff-5b1c-8a91-ccfbcd1b40c9		
+sample	TARGET-52-PAVCKS-11A-01	Not Applicable	C64.9 : Kidney, NOS	-999	Normal					83db3a01-ff73-5237-8444-5e68fdedf53d	db2e668f-9f1c-5d59-be50-4e379cfe9b20		
+sample	TARGET-52-PAREWI-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					84346a12-1705-5fb4-ac2e-aa9c8e526a43	b2327827-7de7-56e8-888c-5d7f2263a4da		
+sample	TARGET-52-PAJNFP-11A-01	Not Applicable	C42.0 : Blood	-999	Normal					85903e79-a56c-505a-80e3-cdb633f3578c	2cc82c51-b11c-5157-9650-7d075b6d229c		
+sample	TARGET-52-PATENH-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					88b08a42-4310-55d7-af1f-ba469dda4a59	59e48854-df5e-558b-aad8-eb403d388dee		
+sample	TARGET-52-PARZRH-01A-02	Primary	C64.9 : Kidney, NOS	-999	Tumor					8dc24fa4-ebcc-5de3-8ffc-b5b97f62964a	be9e1865-3131-57d6-8345-0efaa5e1dbcc		
+sample	TARGET-52-PAJLWM-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					914ab344-7a47-5ee8-8efd-bf4beccbe1cd	5e7fea30-1d3c-541f-bffe-f2ea2f919088		
+sample	TARGET-52-PAUHAZ-01A-02	Primary	C64.9 : Kidney, NOS	-999	Tumor					91ef7721-1bae-5d41-ae47-49323faee412	0cca0c69-bc09-59ee-931a-645b077f118e		
+sample	TARGET-52-PATYUA-01A-02	Primary	C64.9 : Kidney, NOS	-999	Tumor					9410fc03-fec8-5711-9146-77d6fc4b10b9	c134033d-75a7-52c5-8073-38f1078f0cbe		
+sample	TARGET-52-PASDLA-11A-01	Not Applicable	C64.9 : Kidney, NOS	-999	Normal					9691634e-74d7-58e4-8de3-a6c0881b7474	e40ca62c-14df-539c-9641-76e2dd8d5a58		
+sample	TARGET-52-PAUDPV-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					9893451f-97fc-5f91-80a3-a9c41d61c2de	f544030e-edeb-5d16-9fee-853c05cf155c		
+sample	TARGET-52-PARIRN-01A-02	Primary	C64.9 : Kidney, NOS	-999	Tumor					9c207260-584f-5086-a10a-348b2d5a385b	1a223632-352b-5490-966e-7061c921a33f		
+sample	TARGET-52-PASNED-11A-01	Not Applicable	C42.0 : Blood	-999	Normal					9decd912-0062-5301-bd1a-08a644acc1cf	aa55dfbb-bc1e-5f75-8806-e5d60bc492c3		
+sample	TARGET-52-PARPFY-11A-01	Not Applicable	C64.9 : Kidney, NOS	-999	Normal					a29446a1-8917-52cd-bcdb-d2179445afcf	2f42f65b-a92c-52fa-87a4-baf6eb02ad9c		
+sample	TARGET-52-PAJMRB-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					a303cc91-9a4c-52eb-b652-510ede6e132a	faed811f-0017-5306-aa1b-86885ecbe638		
+sample	TARGET-52-PARKKN-01A-01	Primary	C49.9 : Connective, subcutaneous and other soft tissues, NOS	-999	Tumor					a37df0ef-75dc-5d36-9fe9-ee6d94f31f55	6ec929c3-be4a-5e83-8c79-563e634a5fe2		
+sample	TARGET-52-PAJNER-11A-01	Not Applicable	C42.0 : Blood	-999	Normal					a637a1e9-6894-5c66-b6c0-834462e08634	f0c89ceb-41b9-51e2-a577-d0073f189c73		
+sample	TARGET-52-PAKPEW-01A-02	Primary	C64.9 : Kidney, NOS	-999	Tumor					a79220c3-21f0-5940-be64-01aa5b5e1e0d	7ce14858-d215-53fb-9034-f0d84e3e58bd		
+sample	TARGET-52-PAKTCT-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					aba1d614-a6ab-5161-bd83-92af4e838a53	63d9089d-d248-55a4-bbea-d9649dc7df12		
+sample	TARGET-52-PAUCGJ-01A-02	Primary	C64.9 : Kidney, NOS	-999	Tumor					ac9fa697-4d68-5459-84ee-75b81dc3694c	4b0365f3-15ea-5a65-9ea6-fd5ce53b1fbf		
+sample	TARGET-52-PATENH-01A-02	Primary	C64.9 : Kidney, NOS	-999	Tumor					ad1b0589-5fa9-50b6-9bfa-4ae5bc02ecff	59e48854-df5e-558b-aad8-eb403d388dee		
+sample	TARGET-52-PAJMBW-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					adc57f55-09ac-56b6-91ab-4f986655aae2	ae1187e0-eeb1-59d1-a9c8-79c7afc0e977		
+sample	TARGET-52-PASWZZ-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					adf21129-87e5-5330-bc80-59c3aea5117d	2ce13899-73ac-55f6-8cd9-3d3cce5f824d		
+sample	TARGET-52-PAUGYZ-01A-02	Primary	C64.9 : Kidney, NOS	-999	Tumor					afc47dc9-951f-53e9-86d8-06d61e06aeb3	4ae9bb0e-63d3-57ce-8352-781337894065		
+sample	TARGET-52-PAJPHJ-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					b0739e78-9b1c-561b-bd22-7d1d63490535	e194438c-488c-51e9-860e-bf80ede18d51		
+sample	TARGET-52-PASXNA-01A-02	Primary	C64.9 : Kidney, NOS	-999	Tumor					b5ba8662-f50b-548a-bd28-fe3e37837cbc	a90fc7c2-89db-58de-8dd9-de52d81b7f53		
+sample	TARGET-52-PAUEKW-01A-01	Primary	C49.5 : Connective, subcutaneous and other soft tissues of pelvis	-999	Tumor					b5e496a2-fa0e-5fb2-9bb9-45f9143f0e56	84cac6e8-43b6-5187-b723-e688b9cfd658		
+sample	TARGET-52-PATYUA-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					b7a91a73-7b54-5ae9-819c-3c2c2d886436	c134033d-75a7-52c5-8073-38f1078f0cbe		
+sample	TARGET-52-PARZBI-11A-01	Not Applicable	C42.0 : Blood	-999	Normal					bc2aa434-db7e-5628-b934-d6de7926681c	1bbb7505-73fe-5b0f-b7aa-a7946e932f12		
+sample	TARGET-52-PASILR-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					bedf14ee-4463-54f4-980a-d8eafb53310f	8c1c5406-6342-57c8-b1a6-b9924906c8fc		
+sample	TARGET-52-PASABD-01A-02	Primary	C64.9 : Kidney, NOS	-999	Tumor					c26b8926-bf8c-52d7-85ee-82af2f36ebcb	4b4993d1-04be-598d-91f6-bb452ce3b21f		
+sample	TARGET-52-PASCDH-01A-01	Primary	C49.1 : Connective, subcutaneous and other soft tissues of upper limb and shoulder	-999	Tumor					c508ed42-0157-5040-af20-ff8c5808d174	1947c10b-9cf0-5950-b0f2-22d1df4132c4		
+sample	TARGET-52-PARZBI-01A-03	Primary	C64.9 : Kidney, NOS	-999	Tumor					c7757798-34f3-57df-bcd2-b350842a4c10	1bbb7505-73fe-5b0f-b7aa-a7946e932f12		
+sample	TARGET-52-PASZYE-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					c88ac538-861d-5301-90b3-3b882cd5d135	5b5dd619-c497-5328-b0fa-23652e0592f1		
+sample	TARGET-52-PARZBI-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					c9e8d733-de8d-5782-9e96-c470a1c829f5	1bbb7505-73fe-5b0f-b7aa-a7946e932f12		
+sample	TARGET-52-PAUNPA-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					ca333dbe-9956-57af-92a8-5cdfc2e42bba	fb31316c-d0da-502e-ba70-7e4e6f59de76		
+sample	TARGET-52-PAUFVP-01A-02	Primary	C64.9 : Kidney, NOS	-999	Tumor					cbdd01a8-3416-50b7-82c9-2ff981a2630e	2d6db672-3aa7-558d-a8bb-4c0d1fdfee14		
+sample	TARGET-52-PASGCL-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					cecb0b63-1e63-5beb-a9d3-b102d17fefc6	142268fa-b17f-568f-9151-a7fb148fe25e		
+sample	TARGET-52-PASRHU-01A-03	Primary	C64.9 : Kidney, NOS	-999	Tumor					d2498d5a-09ef-5119-952b-97df3de41c6d	83b239d5-0e30-559b-bcff-e46352c77af9		
+sample	TARGET-52-PASGGN-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					d276b4b0-202a-5410-8bdf-5cc914792bb8	e36ba9cc-371d-5cf6-afe1-f3afb343fbc9		
+sample	TARGET-52-PASNED-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					d6e5ba66-d085-51c1-9672-452991b5797d	aa55dfbb-bc1e-5f75-8806-e5d60bc492c3		
+sample	TARGET-52-PASYNF-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					d81522e0-5d77-5694-9a18-67f3152ac79c	815d84c4-40b8-5721-ae53-7f5710ab5d85		
+sample	TARGET-52-PAVCKS-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					d85dac08-f6e0-5291-a4aa-b2f746177f33	db2e668f-9f1c-5d59-be50-4e379cfe9b20		
+sample	TARGET-52-PARUGK-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					d91e8f7d-b1c2-51fa-b2c9-6ce8271e0943	d4e769ae-3e4f-508c-b5d9-593d217db083		
+sample	TARGET-52-PAUFVP-11A-01	Not Applicable	C64.9 : Kidney, NOS	-999	Normal					db3ae76b-28de-5231-a0f6-b1be2690cde7	2d6db672-3aa7-558d-a8bb-4c0d1fdfee14		
+sample	TARGET-52-PARIRN-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					db547744-a65c-5984-944c-799dd044529e	1a223632-352b-5490-966e-7061c921a33f		
+sample	TARGET-52-PATFZZ-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					dd67e668-4f4c-55fe-98c0-e628d8cfdb04	122d1610-3c71-5e51-82e7-b01494ace61a		
+sample	TARGET-52-PARECB-11A-01	Not Applicable	C42.0 : Blood	-999	Normal					dd775490-685e-5b83-b209-5b1d19c7a6d8	5ef0c931-b583-58a9-a032-4322aacfd162		
+sample	TARGET-52-PAJNER-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					dfb6a339-8d9a-53ff-91b9-ace6b0332fd1	f0c89ceb-41b9-51e2-a577-d0073f189c73		
+sample	TARGET-52-PATBLF-01A-02	Primary	C64.9 : Kidney, NOS	-999	Tumor					e25a2618-0e2a-5823-bb5f-0f368c239dc6	c77bf492-44a7-56c8-b718-04dd1cd5a7ad		
+sample	TARGET-52-PASADZ-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					e296dbb0-e305-5478-9a97-96446c750f12	974f4880-233b-5e6f-a281-ccf92e1be9a2		
+sample	TARGET-52-PAUNPA-11A-01	Not Applicable	C64.9 : Kidney, NOS	-999	Normal					e769bc37-1dca-5bb0-b1ef-a2500ab8791c	fb31316c-d0da-502e-ba70-7e4e6f59de76		
+sample	TARGET-52-PATFZZ-01A-02	Primary	C64.9 : Kidney, NOS	-999	Tumor					e85099b1-209c-5d43-bae8-548632f576c0	122d1610-3c71-5e51-82e7-b01494ace61a		
+sample	TARGET-52-PASDLA-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					e9ef5ddc-8a27-5fa5-b7d7-02e573047733	e40ca62c-14df-539c-9641-76e2dd8d5a58		
+sample	TARGET-52-PAJNFZ-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					eb1d0595-a2fb-5fdd-b165-e99734f54478	0f6c3200-d0b5-5424-b61f-c615c84c2604		
+sample	TARGET-52-PASXNA-11A-01	Not Applicable	C42.0 : Blood	-999	Normal					ec0152f4-75c6-5925-8de0-bfff64786523	a90fc7c2-89db-58de-8dd9-de52d81b7f53		
+sample	TARGET-52-PARECB-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					edf52ff9-0d8b-5a30-bb5d-2be1387a4330	5ef0c931-b583-58a9-a032-4322aacfd162		
+sample	TARGET-52-PASXNA-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					f5d7324c-1154-5bc7-860b-4ea4c126f2d5	a90fc7c2-89db-58de-8dd9-de52d81b7f53		
+sample	TARGET-52-PASRHU-01A-02	Primary	C64.9 : Kidney, NOS	-999	Tumor					f7549f6f-a2de-5825-b8c0-0fa80ac1242a	83b239d5-0e30-559b-bcff-e46352c77af9		
+sample	TARGET-52-PAVITI-01A-01	Primary	C64.9 : Kidney, NOS	-999	Tumor					f84c6ea5-35a9-5a83-bc57-e68cbd9ecf1b	e98ca8e7-b75d-555d-a0e2-f8d7034a3966		
+sample	TARGET-52-PABKLN-11A-01	Not Applicable	C42.0 : Blood	-999	Normal					f8b960f0-2107-55f1-8e01-28142ceae26c	59df7c0b-6ce0-5b97-9342-5b64615d5c22		

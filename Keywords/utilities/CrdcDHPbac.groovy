@@ -135,6 +135,64 @@ class CrdcDHPbac extends TestRunner {
 		}
 	}
 
+//	/**
+//	 * Write the expected PBAC permissions for the role to Output Excel sheet
+//	 * @param User role (Fedlead, Dcp, Admin, Submitter, User), path of Katalon Data File
+//	 */
+//	@Keyword
+//	def static void writePbacExpectedPermissionsForRole(String userRole, String dataFilePath) {
+//		def testData = TestDataFactory.findTestData(dataFilePath)
+//		int rowCount = testData.getRowNumbers()
+//
+//		String outputPath = RunConfiguration.getProjectDir() + "/OutputFiles/PBAC_Defaults_Results.xlsx"
+//		File file = new File(outputPath)
+//		Workbook workbook = file.exists() ? new XSSFWorkbook(new FileInputStream(file)) : new XSSFWorkbook()
+//		Sheet sheet = workbook.getSheet(userRole) ?: workbook.createSheet(userRole)
+//
+//		// Header
+//		Row header = sheet.createRow(0)
+//		CellStyle headerStyle = workbook.createCellStyle()
+//		Font headerFont = workbook.createFont()
+//		headerFont.setBold(true)
+//		headerStyle.setFont(headerFont)
+//		headerStyle.setFillForegroundColor(IndexedColors.GREY_25_PERCENT.getIndex());
+//		headerStyle.setFillPattern(FillPatternType.SOLID_FOREGROUND);
+//		String[] headers = [
+//			"Permission",
+//			"Expected",
+//			"Actual",
+//			"Result"
+//		]
+//		for (int i = 0; i < headers.length; i++) {
+//			Cell cell = header.createCell(i)
+//			cell.setCellValue(headers[i])
+//			cell.setCellStyle(headerStyle)
+//		}
+//
+//		// Adjust column widths
+//		for (int columnIndex = 0; columnIndex <= 3; columnIndex++) {
+//			sheet.setColumnWidth(columnIndex, 8000)
+//		}
+//
+//		for (int i = 1; i <= rowCount; i++) {
+//			String expected = testData.getValue(userRole, i)
+//			String internalName = testData.getValue('Permission Internal Name', i)
+//
+//			if (!internalName) continue
+//
+//				Row row = sheet.createRow(i)
+//			row.createCell(0).setCellValue(internalName)
+//			row.createCell(1).setCellValue(expected)
+//		}
+//
+//		FileOutputStream fos = new FileOutputStream(file)
+//		workbook.write(fos)
+//		workbook.close()
+//		fos.close()
+//
+//		KeywordUtil.logInfo("Expected permissions for ${userRole} written to ${outputPath}")
+//	}
+	
 	/**
 	 * Write the expected PBAC permissions for the role to Output Excel sheet
 	 * @param User role (Fedlead, Dcp, Admin, Submitter, User), path of Katalon Data File
@@ -143,12 +201,12 @@ class CrdcDHPbac extends TestRunner {
 	def static void writePbacExpectedPermissionsForRole(String userRole, String dataFilePath) {
 		def testData = TestDataFactory.findTestData(dataFilePath)
 		int rowCount = testData.getRowNumbers()
-
+	
 		String outputPath = RunConfiguration.getProjectDir() + "/OutputFiles/PBAC_Defaults_Results.xlsx"
 		File file = new File(outputPath)
 		Workbook workbook = file.exists() ? new XSSFWorkbook(new FileInputStream(file)) : new XSSFWorkbook()
 		Sheet sheet = workbook.getSheet(userRole) ?: workbook.createSheet(userRole)
-
+	
 		// Header
 		Row header = sheet.createRow(0)
 		CellStyle headerStyle = workbook.createCellStyle()
@@ -158,9 +216,11 @@ class CrdcDHPbac extends TestRunner {
 		headerStyle.setFillForegroundColor(IndexedColors.GREY_25_PERCENT.getIndex());
 		headerStyle.setFillPattern(FillPatternType.SOLID_FOREGROUND);
 		String[] headers = [
-			"Permission",
+			"Permission",        //ADDED (restored original: internal name in col 0)
 			"Expected",
 			"Actual",
+			"Name",              //ADDED (expected display label in col 3)
+			"Actual Name",        //ADDED (UI-captured label in col 4)
 			"Result"
 		]
 		for (int i = 0; i < headers.length; i++) {
@@ -168,33 +228,128 @@ class CrdcDHPbac extends TestRunner {
 			cell.setCellValue(headers[i])
 			cell.setCellStyle(headerStyle)
 		}
-
+	
 		// Adjust column widths
-		for (int columnIndex = 0; columnIndex <= 3; columnIndex++) {
+		for (int columnIndex = 0; columnIndex <= 5; columnIndex++) { //was columnIndex <= 3
 			sheet.setColumnWidth(columnIndex, 8000)
 		}
-
+			
 		for (int i = 1; i <= rowCount; i++) {
 			String expected = testData.getValue(userRole, i)
-			String internalName = testData.getValue('Permission Internal Name', i)
-
-			if (!internalName) continue
-
-				Row row = sheet.createRow(i)
-			row.createCell(0).setCellValue(internalName)
+			String internalName = testData.getValue('Permission Internal Name', i) //ADDED (restore internal name)
+			String displayName  = testData.getValue('Name', i)                    //ADDED (expected display label)
+		
+			if (!internalName) continue //ADDED (ensure mapping compatibility)
+		
+			Row row = sheet.createRow(i)
+			row.createCell(0).setCellValue(internalName) //ADDED (write internal name back to col 0)
 			row.createCell(1).setCellValue(expected)
+			row.createCell(3).setCellValue(displayName ?: "") //ADDED (stash expected display label for name check)
+			// col 2 (Actual), col 4 (Actual Name), col 5 (Result) will be filled in verification
 		}
-
+	
 		FileOutputStream fos = new FileOutputStream(file)
 		workbook.write(fos)
 		workbook.close()
 		fos.close()
-
+	
 		KeywordUtil.logInfo("Expected permissions for ${userRole} written to ${outputPath}")
 	}
+	
 
+//	/**
+//	 * Get state of each PBAC permission, write to output sheet, and compare
+//	 * @param User role Fedlead, Dcp, Admin, Submitter, User
+//	 */
+//	@Keyword
+//	public static void verifyPbacActualPermissionsForRole(String userRole) {
+//		String outputPath = RunConfiguration.getProjectDir() + "/OutputFiles/PBAC_Defaults_Results.xlsx"
+//		FileInputStream fis = new FileInputStream(outputPath)
+//		Workbook workbook = new XSSFWorkbook(fis)
+//		Sheet sheet = workbook.getSheet(userRole)
+//		if (!sheet) {
+//			KeywordUtil.markFailed("Sheet '${userRole}' not found in output file.")
+//		}
+//
+//		// Set up colors
+//		XSSFCellStyle greenStyle = (XSSFCellStyle) workbook.createCellStyle()
+//		greenStyle.setFillForegroundColor(IndexedColors.LIGHT_GREEN.index)
+//		greenStyle.setFillPattern(FillPatternType.SOLID_FOREGROUND)
+//
+//		XSSFCellStyle redStyle = (XSSFCellStyle) workbook.createCellStyle()
+//		redStyle.setFillForegroundColor(IndexedColors.RED.index)
+//		redStyle.setFillPattern(FillPatternType.SOLID_FOREGROUND)
+//
+//		// Locate checkboxes
+//		List<WebElement> checkboxes = WebUI.findWebElements(findTestObject('CRDC/ManageUsers/PbacOptions-Chkbx'), 10)
+//
+//		// Default values
+//		boolean overallResult = true
+//
+//		for (int i = 1; i <= sheet.getLastRowNum(); i++) {
+//			Row row = sheet.getRow(i)
+//			if (row == null) continue
+//
+//				Cell actualCell = row.getCell(2) ?: row.createCell(2)
+//			Cell expectedCell = row.getCell(1)
+//			Cell passFailCell = row.getCell(3) ?: row.createCell(3)
+//
+//
+//			// Handle if fewer checkboxes in UI compared to expected
+//			if (i - 1 >= checkboxes.size()) {
+//				actualCell.setCellValue("MISSING_UI")
+//				passFailCell.setCellValue("Fail")
+//				passFailCell.setCellStyle(redStyle)
+//				println "Row ${i}: Expected=${expectedCell?.getStringCellValue()}, Actual=CHECKBOX_MISSING_UI -> Fail"
+//				overallResult = false
+//				continue
+//			}
+//
+//			WebElement cb = checkboxes[i - 1]
+//			boolean isEnabled = cb.isEnabled()
+//			boolean isChecked = cb.isSelected()
+//
+//			String actualStatus = ""
+//			if (!isEnabled && isChecked) actualStatus = "fixed_checked"
+//			else if (!isEnabled && !isChecked) actualStatus = "fixed_unchecked"
+//			else if (isEnabled && isChecked) actualStatus = "checked"
+//			else if (isEnabled && !isChecked) actualStatus = "unchecked"
+//			else actualStatus = "UNKNOWN"
+//
+//			actualCell.setCellValue(actualStatus)
+//
+//			Cell permissionNameCell = row.getCell(0)
+//			String permissionName = permissionNameCell?.getStringCellValue() ?: "Unknown"
+//
+//			String expected = expectedCell?.getStringCellValue()
+//			if (expected && expected.equalsIgnoreCase(actualStatus)) {
+//				passFailCell.setCellValue("Pass")
+//				passFailCell.setCellStyle(greenStyle)
+//			} else {
+//				passFailCell.setCellValue("Fail")
+//				passFailCell.setCellStyle(redStyle)
+//				overallResult = false
+//			}
+//
+//			// Console output
+//			KeywordUtil.logInfo("Row ${i} - ${permissionName} | Expected: ${expected} | Actual: ${actualStatus} | Result: ${passFailCell.getStringCellValue()}")
+//		}
+//
+//		fis.close()
+//		FileOutputStream fos = new FileOutputStream(outputPath)
+//		workbook.write(fos)
+//		workbook.close()
+//		fos.close()
+//
+//		if (overallResult == false) {
+//			KeywordUtil.markFailed("There is a FAILURE -- verify in output Excel: "+ outputPath)
+//		} else {
+//			KeywordUtil.logInfo("Actual permissions for '${userRole}' recorded and compared.")
+//		}
+//	}
+	
 	/**
-	 * Get state of each PBAC permission, write to output sheet, and compare
+	 * Get state and name of each PBAC permission, write to output sheet, and compare both state and name
 	 * @param User role Fedlead, Dcp, Admin, Submitter, User
 	 */
 	@Keyword
@@ -206,59 +361,87 @@ class CrdcDHPbac extends TestRunner {
 		if (!sheet) {
 			KeywordUtil.markFailed("Sheet '${userRole}' not found in output file.")
 		}
-
+	
 		// Set up colors
 		XSSFCellStyle greenStyle = (XSSFCellStyle) workbook.createCellStyle()
 		greenStyle.setFillForegroundColor(IndexedColors.LIGHT_GREEN.index)
 		greenStyle.setFillPattern(FillPatternType.SOLID_FOREGROUND)
-
+	
 		XSSFCellStyle redStyle = (XSSFCellStyle) workbook.createCellStyle()
 		redStyle.setFillForegroundColor(IndexedColors.RED.index)
 		redStyle.setFillPattern(FillPatternType.SOLID_FOREGROUND)
-
+		
+		WebUI.delay(5)
+	
 		// Locate checkboxes
 		List<WebElement> checkboxes = WebUI.findWebElements(findTestObject('CRDC/ManageUsers/PbacOptions-Chkbx'), 10)
-
+	
+		// Locate checkbox labels
+		List<WebElement> labels = WebUI.findWebElements(findTestObject('CRDC/ManageUsers/PbacOptions-ChkbxLabel'), 10)
+		
+		if (labels.size() != checkboxes.size()) {
+			KeywordUtil.logInfo("WARNING: label/checkbox count mismatch: labels=${labels.size()} checkboxes=${checkboxes.size()}")
+		}
+	
 		// Default values
 		boolean overallResult = true
-
+	
 		for (int i = 1; i <= sheet.getLastRowNum(); i++) {
 			Row row = sheet.getRow(i)
 			if (row == null) continue
-
-				Cell actualCell = row.getCell(2) ?: row.createCell(2)
+	
+			Cell actualCell = row.getCell(2) ?: row.createCell(2)
 			Cell expectedCell = row.getCell(1)
-			Cell passFailCell = row.getCell(3) ?: row.createCell(3)
-
-
+			Cell passFailCell = row.getCell(5) ?: row.createCell(5)
+	
+			// Prepare "Actual Name" column (col 4)
+			Cell actualNameCell = row.getCell(4) ?: row.createCell(4)
+	
+			// Expected display Name from sheet (col 3)
+			Cell expectedNameCell = row.getCell(3)
+			String expectedName = expectedNameCell?.getStringCellValue()?.trim() ?: ""
+	
 			// Handle if fewer checkboxes in UI compared to expected
 			if (i - 1 >= checkboxes.size()) {
 				actualCell.setCellValue("MISSING_UI")
 				passFailCell.setCellValue("Fail")
 				passFailCell.setCellStyle(redStyle)
-				println "Row ${i}: Expected=${expectedCell?.getStringCellValue()}, Actual=CHECKBOX_MISSING_UI -> Fail"
+				actualNameCell.setCellValue("MISSING_UI")
+				KeywordUtil.logInfo("Row ${i} - ${expectedName} | Expected: ${expectedCell?.getStringCellValue()} | Actual: CHECKBOX_MISSING_UI | NameActual: MISSING_UI | Result: Fail")
 				overallResult = false
 				continue
 			}
-
+	
+			// Also guard labels size
+			String uiLabelText = ""
+			if (i - 1 < labels.size()) {
+				uiLabelText = labels[i - 1]?.getText()?.trim() ?: ""
+			} else {
+				uiLabelText = "MISSING_LABEL_UI"
+			}
+			actualNameCell.setCellValue(uiLabelText)
+	
 			WebElement cb = checkboxes[i - 1]
 			boolean isEnabled = cb.isEnabled()
 			boolean isChecked = cb.isSelected()
-
+	
 			String actualStatus = ""
 			if (!isEnabled && isChecked) actualStatus = "fixed_checked"
 			else if (!isEnabled && !isChecked) actualStatus = "fixed_unchecked"
 			else if (isEnabled && isChecked) actualStatus = "checked"
 			else if (isEnabled && !isChecked) actualStatus = "unchecked"
 			else actualStatus = "UNKNOWN"
-
+	
 			actualCell.setCellValue(actualStatus)
-
-			Cell permissionNameCell = row.getCell(0)
-			String permissionName = permissionNameCell?.getStringCellValue() ?: "Unknown"
-
+	
+			// Permission display name now tracked via expectedName (col 3)
+			String permissionName = expectedName
+	
 			String expected = expectedCell?.getStringCellValue()
-			if (expected && expected.equalsIgnoreCase(actualStatus)) {
+			boolean stateMatches = (expected && expected.equalsIgnoreCase(actualStatus))
+			boolean nameMatches = (permissionName && uiLabelText && permissionName.equalsIgnoreCase(uiLabelText))
+	
+			if (stateMatches && nameMatches) {
 				passFailCell.setCellValue("Pass")
 				passFailCell.setCellStyle(greenStyle)
 			} else {
@@ -266,23 +449,28 @@ class CrdcDHPbac extends TestRunner {
 				passFailCell.setCellStyle(redStyle)
 				overallResult = false
 			}
-
-			// Console output
-			KeywordUtil.logInfo("Row ${i} - ${permissionName} | Expected: ${expected} | Actual: ${actualStatus} | Result: ${passFailCell.getStringCellValue()}")
+	
+			// Console output (now includes name comparison)
+			KeywordUtil.logInfo(
+				"Row ${i} - ${permissionName} | ExpectedState: ${expected} | ActualState: ${actualStatus} | " +
+				"ExpectedName: ${permissionName} | ActualName: ${uiLabelText} | " +
+				"StateMatch: ${stateMatches} | NameMatch: ${nameMatches} | Result: ${passFailCell.getStringCellValue()}"
+			)
 		}
-
+	
 		fis.close()
 		FileOutputStream fos = new FileOutputStream(outputPath)
 		workbook.write(fos)
 		workbook.close()
 		fos.close()
-
+	
 		if (overallResult == false) {
 			KeywordUtil.markFailed("There is a FAILURE -- verify in output Excel: "+ outputPath)
 		} else {
 			KeywordUtil.logInfo("Actual permissions for '${userRole}' recorded and compared.")
 		}
 	}
+	
 
 	/**
 	 * Resets the user's permissions to the default for the specified role by toggling away and back.
@@ -320,17 +508,17 @@ class CrdcDHPbac extends TestRunner {
 		// Select alternate role
 		WebUI.click(findTestObject('CRDC/ManageUsers/RoleDdn-Option', [('role') : alternateRole]))
 		KeywordUtil.logInfo("Selected alternate role: ${alternateRole}")
-		WebUI.delay(1)
+		WebUI.delay(2)
 
 		// Open dropdown again
 		WebUI.click(findTestObject('CRDC/ManageUsers/Role-Ddn'))
 		KeywordUtil.logInfo("Clicked role dropdown again")
-		WebUI.delay(1)
+		WebUI.delay(2)
 
 		// Re-select target role
 		WebUI.click(findTestObject('CRDC/ManageUsers/RoleDdn-Option', [('role') : roleDisplay]))
 		KeywordUtil.logInfo("Selected target role: ${roleDisplay}")
-		WebUI.delay(1)
+		WebUI.delay(2)
 
 		// Click Save
 		WebUI.click(findTestObject('CRDC/ManageUsers/Save-Btn'))
@@ -549,10 +737,11 @@ class CrdcDHPbac extends TestRunner {
 	@Keyword
 	public static void uploadMetadataUI(String relativePath) {
 		String absolutePath = Paths.get(relativePath).toAbsolutePath().toString()
+		WebUI.delay(2)
 		WebUI.uploadFile(findTestObject('CRDC/DataSubmissions/ChooseFiles-Btn'), absolutePath)
 		WebUI.delay(5)
 		TestRunner.clickTab('CRDC/DataSubmissions/Upload-Btn')
-		WebUI.delay(2)
+		WebUI.delay(10)
 	}
 
 	/**
@@ -613,6 +802,7 @@ class CrdcDHPbac extends TestRunner {
 		permissionToCheck["submission_request:view"] = {
 			KeywordUtil.logInfo("Verifying SR View...")
 			try {
+				Utils.waitForElementToDisappear('CRDC/DataSubmissions/Loading-Icon', 30)
 				WebUI.delay(1) //Race condition upon login
 				CrdcDH.clickHome()
 				TestRunner.clickTab('CRDC/NavBar/SubmissionRequest-Tab')
@@ -691,6 +881,7 @@ class CrdcDHPbac extends TestRunner {
 		permissionToCheck["submission_request:review"] = {
 			KeywordUtil.logInfo("Verifying SR Review...")
 			try {
+				Utils.waitForElementToDisappear('CRDC/DataSubmissions/Loading-Icon', 30)
 				WebUI.delay(1) //Race condition upon login
 				CrdcDH.clickHome()
 				TestRunner.clickTab('CRDC/NavBar/SubmissionRequest-Tab')
@@ -762,7 +953,7 @@ class CrdcDHPbac extends TestRunner {
 				if (WebUI.verifyElementPresent(findTestObject("CRDC/DataSubmissions/Create/CreateADataSubmission-Btn"), 5, FailureHandling.OPTIONAL)) {
 					createDataSubmission()
 					TestRunner.clickTab('CRDC/DataSubmissions/DataSubmissionName-Link')
-					Utils.waitForElementToDisappear('CRDC/DataSubmissions/Loading-Icon', 15)
+					Utils.waitForElementToDisappear('CRDC/DataSubmissions/Loading-Icon', 30)
 					return WebUI.verifyElementPresent(findTestObject("CRDC/DataSubmissions/Cancel-Btn"), 10, FailureHandling.OPTIONAL)
 				}
 				return false
@@ -783,6 +974,7 @@ class CrdcDHPbac extends TestRunner {
 
 					//Access the DS
 					TestRunner.clickTab('CRDC/DataSubmissions/DataSubmissionName-Link')
+					Utils.waitForElementToDisappear('CRDC/DataSubmissions/Loading-Icon', 30)
 
 					//Upload metadata file
 					prepareUniqueMetadataAndUpload('InputFiles/CRDC/MetadataData/program.tsv', "program_acronym")
@@ -819,6 +1011,7 @@ class CrdcDHPbac extends TestRunner {
 
 					//Access the DS
 					TestRunner.clickTab('CRDC/DataSubmissions/DataSubmissionName-Link')
+					Utils.waitForElementToDisappear('CRDC/DataSubmissions/Loading-Icon', 30)
 
 					//Upload invalid metadata file
 					uploadMetadataUI('InputFiles/CRDC/MetadataData/program_invalid.tsv')
@@ -848,6 +1041,7 @@ class CrdcDHPbac extends TestRunner {
 
 					//Access the DS
 					TestRunner.clickTab('CRDC/DataSubmissions/DataSubmissionName-Link')
+					Utils.waitForElementToDisappear('CRDC/DataSubmissions/Loading-Icon', 30)
 
 					//Upload metadata file
 					prepareUniqueMetadataAndUpload('InputFiles/CRDC/MetadataData/program.tsv', "program_acronym")

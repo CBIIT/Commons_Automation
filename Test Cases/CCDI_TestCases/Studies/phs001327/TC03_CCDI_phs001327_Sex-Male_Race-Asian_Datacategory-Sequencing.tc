@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_CCDI_phs001327_Sex-Male_Race-Asian_Datacategory-Sequencing</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fc1eb99a-1000-4b02-b268-fce6efbed04c</testCaseGuid>
+</TestCaseEntity>

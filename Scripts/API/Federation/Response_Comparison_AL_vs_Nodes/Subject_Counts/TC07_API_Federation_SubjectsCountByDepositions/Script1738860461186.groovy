@@ -33,6 +33,7 @@ String objectPathStJude = 'Object Repository/API/Federation/FederationNodes/StJu
 String objectPathPcdc = 'Object Repository/API/Federation/FederationNodes/PCDC_UChicago/SubjByDepositions'
 String objectPathTreehouse = 'Object Repository/API/Federation/FederationNodes/Treehouse_UCSC/SubjByDepositions'
 String objectPathEcdna = 'Object Repository/API/Federation/FederationNodes/ecDNA/SubjByDepositions'
+String objectPathIu = 'Object Repository/API/Federation/FederationNodes/IUSCCC/SubjByDepositions'
 String objectPathAggLayer = 'Object Repository/API/Federation/AggregationLayer/AL_SubjectCountsByDepositions'
  
 // Step 1: Send requests to the individual API Federation member nodes and get responses
@@ -41,6 +42,7 @@ ResponseObject responseStJude = API_Functions.sendRequestAndCaptureResponse(obje
 ResponseObject responsePcdc = API_Functions.sendRequestAndCaptureResponse(objectPathPcdc) //for PCDC UChicago
 ResponseObject responseTreehouse = API_Functions.sendRequestAndCaptureResponse(objectPathTreehouse) //for Treehouse
 ResponseObject responseEcdna = API_Functions.sendRequestAndCaptureResponse(objectPathEcdna) //for ecDNA
+ResponseObject responseIu = API_Functions.sendRequestAndCaptureResponse(objectPathIu) //for IU
 ResponseObject responseAggLayer = API_Functions.sendRequestAndCaptureResponse(objectPathAggLayer)  // for Aggregated Layer response
 
 // Step 2: Parse all the responses
@@ -49,6 +51,7 @@ def responseDataStJude = API_Functions.parseResponse(responseStJude) //stjude
 def responseDataPcdc = API_Functions.parseResponse(responsePcdc) //pcdc
 def responseDataTreehouse = API_Functions.parseResponse(responseTreehouse) //treehouse
 def responseDataEcdna = API_Functions.parseResponse(responseEcdna) //ecdna
+def responseDataIu = API_Functions.parseResponse(responseIu) //iu
 def responseDataAggLayer = API_Functions.parseResponse(responseAggLayer) //AL
 
 // Step 3: Extract the individual node entries from the Aggregated Layer API response
@@ -57,6 +60,7 @@ def aggLayerEntryStJude = API_Functions.findEntry(responseDataAggLayer, 'StJude'
 def aggLayerEntryPcdc = API_Functions.findEntry(responseDataAggLayer, 'PCDC')
 def aggLayerEntryTreehouse = API_Functions.findEntry(responseDataAggLayer, 'Treehouse')
 def aggLayerEntryEcdna = API_Functions.findEntry(responseDataAggLayer, 'ccdi-ecDNA')
+def aggLayerEntryIu = API_Functions.findEntry(responseDataAggLayer, 'ccdi-IUSCCC')
 
 // Step 4: Compare the properties of the single node API response (step 2) against the AL extracted entry (step 3)
 API_Functions.compareAPIResponses(responseDataKidsFirst, aggLayerEntryKidsFirst, 'KidsFirst')
@@ -64,6 +68,4 @@ API_Functions.compareAPIResponses(responseDataStJude, aggLayerEntryStJude, 'StJu
 API_Functions.compareAPIResponses(responseDataPcdc, aggLayerEntryPcdc, 'PCDC')
 API_Functions.compareAPIResponses(responseDataTreehouse, aggLayerEntryTreehouse, 'Treehouse')
 API_Functions.compareAPIResponses(responseDataEcdna, aggLayerEntryEcdna, 'ccdi-ecDNA')
-
-// Step 5: If comparison succeeds
-KeywordUtil.markPassed("The entry in the AL API response matches the node level API response.")
+API_Functions.compareAPIResponses(responseDataIu, aggLayerEntryIu, 'ccdi-IUSCCC')

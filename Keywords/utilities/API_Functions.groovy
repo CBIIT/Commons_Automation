@@ -154,9 +154,16 @@ class API_Functions {
 					KeywordUtil.markFailedAndStop("No entry with 'source: ccdi-ecDNA' found in the response.")
 				}
 				return ecdnaEntry
+				
+			case 'ccdi-IUSCCC':
+			def iuEntry = responseData.find { it.source == 'ccdi-iusccc-pst' }
+			if (iuEntry == null) {
+				KeywordUtil.markFailedAndStop("No entry with 'source: ccdi-IUSCCC' found in the response.")
+			}
+			return iuEntry
 
 			default:
-				KeywordUtil.markFailedAndStop("No entry found for the provided key: ${key}")
+				KeywordUtil.markFailedAndStop("ERROR - Check API_Functions.findEntry() -- No entry found for the provided key: ${key}")
 		}
 	}
 
@@ -192,7 +199,8 @@ class API_Functions {
 
 	// Function to compare API responses
 	static void compareAPIResponses(def singleNodeData, def AlextractedEntry, def key) {
-
+		
+		KeywordUtil.logInfo("${key} response from individual node - ${singleNodeData}")
 		KeywordUtil.logInfo("${key} entry in AL - ${AlextractedEntry}")
 			
 		if (singleNodeData == null) {
@@ -209,7 +217,7 @@ class API_Functions {
 		boolean aggHasErrors = AlextractedEntry.containsKey("errors")
 
 		if (singleHasErrors != aggHasErrors) {
-			KeywordUtil.markWarning("${key} - Mismatch in'errors'. Single node has errors: ${singleHasErrors}, Aggregated has errors: ${aggHasErrors}")
+			KeywordUtil.markWarning("${key} - Mismatch in 'errors'. Single node has errors: ${singleHasErrors}, Aggregated has errors: ${aggHasErrors}")
 			assert false : "Mismatch in errors for ${key}."
 		}
 
@@ -231,6 +239,7 @@ class API_Functions {
 			}
 			// Skip the rest of the checks if error is present and compared
 			assert isContained : "The ${key} entry has mismatched error content."
+			KeywordUtil.markPassed("${key} - errors match between node and AL") // ADDED
 			return
 		}
 
@@ -265,7 +274,19 @@ class API_Functions {
 			}
 		}
 
+		//assert isContained : "The ${key} entry does not match the single node data."
+		
+		// ADDED: flag extras that appear only in AL (symmetry check)
+		def nodeKeys = (nodeValues.collect { it?.value } as Set) ?: [] as Set
+		def aggKeys  = (aggValues.collect { it?.value } as Set) ?: [] as Set
+		def extrasInAL = aggKeys - nodeKeys
+		if (!extrasInAL.isEmpty()) {
+			isContained = false
+			KeywordUtil.markWarning("Extra values present only in AL for ${key}: ${extrasInAL}")
+		}
+	
 		assert isContained : "The ${key} entry does not match the single node data."
+		KeywordUtil.markPassed("${key} - AL matches node") // ADDED
 	}
 
 

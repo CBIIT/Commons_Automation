@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_CCDI_phs001327_SampleAnatomicsite-C42.0-Blood_Datacateg-Seq</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>35118976-8c9b-407c-82f2-6dfad4b8372d</testCaseGuid>
+</TestCaseEntity>

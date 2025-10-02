@@ -1,0 +1,213 @@
+type	laboratory_test_id	laboratory_test_name	laboratory_test_method	test_result_text	test_result_numeric	test_unit	age_at_laboratory_test	id	participant.id	sample.id
+laboratory_test	TB-000106_test01		Karyotype	Positive			-999	02372b3d-8f14-5811-893d-5056a3d9faf4	1a69a5b7-3cc5-5935-9409-19a1e6d43eb2	
+laboratory_test	TB-000193_test01		FISH	Positive			-999	3d9fbc34-fe95-54aa-9213-7d085ce59d52	bd568f11-21de-5c8e-9df1-06ce17081e2d	
+laboratory_test	TB-000071_test01	NGS Panel	Sequencing, NOS	Positive			-999	e5022028-3ceb-5b49-a579-b8fc460503e5	a79a568b-6baa-513f-bdcc-24e32d682cf5	
+laboratory_test	TB-000024_test01		Karyotype	Positive			-999	e955aaa1-4039-5532-b538-1bb75d9fa9ed	885864cb-99c9-590e-a210-d3a23672bebe	
+laboratory_test	TB-000226_test01		Microarray	Positive			-999	42acf73c-43c1-54ce-9363-6d0cc732ea35	e9ccd428-56e0-5b5d-8cab-fc26561f9b6e	
+laboratory_test	TB-000196_test01		Microarray	Negative			-999	b473e1a3-50f0-5306-9a46-53f3266df49c	48b97d96-6f51-55a7-aeca-277d9615327f	
+laboratory_test	TB-000153_test01		FISH	Positive			-999	b87bedcb-00bd-56c3-b263-9e01733cc0b0	6d636cd1-03be-5ecf-8f56-c43983ef478d	
+laboratory_test	TB-000021_test01		FISH	Positive			-999	58a6a327-4c73-5bea-889a-da6d7a1f0d1b	adf3606b-49c6-53c6-8957-b295aac57f61	
+laboratory_test	TB-000210_test01	NGS Panel	Sequencing, NOS	Positive			-999	0aa12270-5b6c-5628-938d-540f1e1fc895	14a552bd-024d-509f-9429-0cf2a9e313d4	
+laboratory_test	TB-000225_test01		Microarray	Positive			-999	89c2d7b8-1152-5374-863c-b3a859c21d2d	ab94c720-64a3-5556-b487-00c63f03b8bf	
+laboratory_test	TB-000093_test01		Microarray	Positive			-999	d03044c4-b4ad-56aa-b000-d08ce27e78ef	b27fe849-a995-5d37-8342-84a210a24c81	
+laboratory_test	TB-000183_test01		Microarray	Positive			-999	18923adc-1b83-5eb2-b63d-c5262d4da030	afd71eea-2a44-5599-b3b7-046a23fd21f3	
+laboratory_test	TB-000074_test01		FISH	Positive			-999	b06f4652-14fb-5783-869b-3c1fe5316425	783536ae-9ac9-5960-9e48-bd7c62857d23	
+laboratory_test	TB-000068_test01		FISH	Positive			-999	d415743c-0ecb-5fca-89aa-29fd1de260e1	44ab6c4a-6c41-52a5-b861-85a1f9dd0cef	
+laboratory_test	TB-000178_test01		Microarray	Positive			-999	069a6860-7240-5864-9889-6cd4995bbd93	31081ae0-aed1-5e2a-9434-8fbbfe49b6bf	
+laboratory_test	TB-000054_test01		FISH	Positive			-999	197d3706-5729-59de-8552-c713b597d999	627e589e-e33c-5e18-8a3e-b72253687aaf	
+laboratory_test	TB-000104_test01		Karyotype	Positive			-999	3412841e-4777-5e5f-abf5-1f95d9e522d3	597e695e-1d34-5457-9687-b5ad633b7772	
+laboratory_test	TB-000137_test01		Microarray	Positive			-999	ef995d7c-8596-5108-8950-f62b8d84cebd	9c2d3b5e-c2ac-5aa9-a88b-4d5da826bc5f	
+laboratory_test	TB-000097_test01		Microarray	Positive			-999	4f1d66fd-c883-59b2-bc2b-64225ac28567	f3807cdd-707a-5114-9099-243dbf95ad26	
+laboratory_test	TB-000165_test01		Microarray	Positive			-999	13619286-5c34-5d24-a972-cee18c5d2f11	6d001b27-93ba-55ca-8d57-f7950ee7188b	
+laboratory_test	TB-000152_test01		Microarray	Positive			-999	2967ebcc-f45c-5960-bb56-a04ed586c732	42366bea-3eae-583b-a218-adcc6bcf3614	
+laboratory_test	TB-000110_test01		Microarray	Positive			-999	e5a4089f-3f0d-5c3a-803b-811782c831c9	0c04dd7b-bed1-507e-9481-2e8399185674	
+laboratory_test	TB-000135_test01		Microarray	Positive			-999	fb38ec65-6f5b-5286-ac76-4380d4ccd5a6	90139ae2-ac5e-5fb5-946d-c0ca3c95e655	
+laboratory_test	TB-000159_test01		Microarray	Positive			-999	e7907fef-f24e-5654-8df7-2e40b1a16d37	824af024-2307-5ba2-bcf5-d44fd9485534	
+laboratory_test	TB-000202_test01		Karyotype	Positive			-999	1298e79b-4fe1-53a6-8e87-ad7d232f3804	3f9dffbe-0828-5dd5-a5af-80a6e125a607	
+laboratory_test	TB-000147_test01		Karyotype	Positive			-999	f81d8809-5921-5cdd-b566-61a3387c1500	f2a35863-edc4-594c-987a-c8c3b49c489c	
+laboratory_test	TB-000172_test01		Microarray	Positive			-999	91d80622-bb3e-53f6-98fe-2cec5cd70b96	d64f91b4-d683-51b0-9684-501a89386a32	
+laboratory_test	TB-000098_test01		FISH	Positive			-999	171323ab-5fee-56a9-8991-2701d5bf64d5	08cc721b-012e-5509-9a7a-3323d39d0b1c	
+laboratory_test	TB-000064_test01		Karyotype	Positive			-999	fe843c34-dc46-5aae-80dc-2f846c221d34	56856f4c-e08d-5701-9083-78c8baf101b2	
+laboratory_test	TB-000179_test01		FISH	Positive			-999	5b232d68-aabf-5e74-8a94-5539a4595ae5	cf557a11-d30e-5609-9fc1-12feccd38a0a	
+laboratory_test	TB-000129_test01		FISH	Negative			-999	aa2da27e-a469-51d4-aefb-7a357aa234db	a4329148-9411-5b6e-8f4f-23ea52598bce	
+laboratory_test	TB-000052_test01		FISH	Positive			-999	bdef2bb1-a151-5d98-9062-eb7c1fd6fdea	38abd9d3-696b-5720-b263-c3d8f42b6f5f	
+laboratory_test	TB-000171_test01		Microarray	Positive			-999	48f4428a-dafe-5b09-a2aa-d4486e26848d	29b15457-de66-5a29-ae39-734bb81a48e7	
+laboratory_test	TB-000123_test01		Microarray	Positive			-999	de962ff6-c281-5af2-8e4d-4bc4067a557c	67e95d83-d0c7-57eb-8618-ac9355a8b24a	
+laboratory_test	TB-000221_test01	RNA Fusion Panel	Other	Positive			-999	4ad67533-6196-5777-bb6a-1f3f7936277a	55811152-f33d-5bf2-9502-601fc8f36382	
+laboratory_test	TB-000114_test01		Microarray	Positive			-999	b72bce20-222a-5836-9402-59e73696ebaa	12d045d7-bffd-5aa0-b39f-e3e464d4e74f	
+laboratory_test	TB-000161_test01		FISH	Positive			-999	a3b0caba-4ef2-504a-b4ff-a3b3d0aedb96	163b0ed4-b305-54ee-89cd-9f0928dd57b1	
+laboratory_test	TB-000040_test01		Karyotype	Positive			-999	03a55630-a0af-5412-bede-34260b0c509e	e563a35d-170d-50ef-962f-86e27ce9d279	
+laboratory_test	TB-000130_test01		Karyotype	Positive			-999	4c0eb18a-2d6d-586f-b786-684a6daf3332	284c1eae-eb9c-506c-946c-9ec9e404d178	
+laboratory_test	TB-000164_test01		FISH	Positive			-999	4917edc2-6f98-55bf-a4fa-1bcfeba68b28	9e456d6a-2d28-5077-ad5f-f041fa2683ee	
+laboratory_test	TB-000017_test01		Microarray	Positive			-999	3edabceb-6e49-51ae-8e67-c2e49aa945b6	5daf27ab-92bd-584b-834e-616a28bd900a	
+laboratory_test	TB-000211_test01		FISH	Positive			-999	eca2afd3-93f4-5767-8f24-e5da990774b1	f93669ff-5521-50f9-b7c8-3362ea089c47	
+laboratory_test	TB-000019_test01		Karyotype	Positive			-999	f06d4746-0177-54a3-9f2d-a4c2d5f1d84a	0f1a306e-a7fd-529d-9ead-911470267d76	
+laboratory_test	TB-000191_test01		FISH	Positive			-999	18ec3b33-9b15-56be-8c3a-75e7d780e6ec	06a7cbb8-192c-5a3e-9532-8fd380234b16	
+laboratory_test	TB-000081_test01		FISH	Positive			-999	4bc66824-846b-56fb-9ac1-213c4ecedc85	055916cf-09ff-5cc3-8926-e80814d220be	
+laboratory_test	TB-000018_test01		FISH	Positive			-999	a8c1a6ee-ce92-5524-a1fb-ea17c8b6cd91	8603c075-0534-5427-a2f3-2b844c27b7dd	
+laboratory_test	TB-000205_test01		Karyotype	Positive			-999	49e3b86b-b7b5-5e47-a67a-c96aef16a7e8	3651229c-374d-5c93-ae7c-faa047fa3610	
+laboratory_test	TB-000223_test01		Microarray	Positive			-999	3c2ffccd-d33b-514a-abf4-955170300b92	c20fdcdb-32a3-5be4-b651-4178439768ad	
+laboratory_test	TB-000103_test01		Karyotype	Positive			-999	0e44d14f-538a-5f6d-8d65-13e19100b936	9025b327-d587-5b9b-8b1c-6c299ed34dfd	
+laboratory_test	TB-000043_test01		FISH	Positive			-999	fb2c3ba1-3206-5058-9e33-6cc3a6abecf2	1db330ed-3cae-518d-8525-746694381bcc	
+laboratory_test	TB-000051_test01		FISH	Positive			-999	b78cdf91-0c82-55be-8f70-192352671980	1aa96a08-50a4-5a53-8b62-c7cda7a35fcc	
+laboratory_test	TB-000162_test01		FISH	Positive			-999	26767928-96e7-5430-893d-1fbc261c616f	0d58b628-1a15-5c73-a7d5-92135fe0aa75	
+laboratory_test	TB-000133_test01		Karyotype	Positive			-999	d437f859-4726-5e0f-b695-bbd1f0e506ba	673350f3-80a2-5d42-aa6d-97852a1054de	
+laboratory_test	TB-000207_test01		FISH	Positive			-999	d9667f65-1432-57fd-a4aa-d15e053a7d08	523ea5c8-8878-57f0-bc07-a69f57672936	
+laboratory_test	TB-000089_test01		FISH	Positive			-999	1b3d32ce-f4e9-50b9-b218-40e89b22a584	0dba6172-4eb3-5cca-8ed7-1e479cc0850f	
+laboratory_test	TB-000208_test01	NGS Panel	Sequencing, NOS	Positive			-999	a13a1e88-5490-50d0-a59a-0aff587c43df	9953f77d-025f-5b8d-b80a-9ed30e7c49e8	
+laboratory_test	TB-000192_test01		FISH	Positive			-999	34de19d0-f1eb-5a6e-a6d3-0ba4cfc2053c	bf913727-da79-537d-ba1b-b745e3d60808	
+laboratory_test	TB-000107_test01		Microarray	Negative			-999	4ba888b4-e10e-5a63-b600-aef045ed6535	0dac0c3a-c7dd-55ff-ac36-9f1e7d3f173e	
+laboratory_test	TB-000187_test01		FISH	Negative			-999	b149d956-eb14-56ea-ba3e-113646883b5e	ea47bba7-9900-5fb9-b92d-9affce395b66	
+laboratory_test	TB-000145_test01		FISH	Positive			-999	4a778f41-bb41-5c79-8d97-1370f5a1dca7	72a8b010-387c-58ec-a788-6270bb91dd08	
+laboratory_test	TB-000194_test01		FISH	Negative			-999	5fd5ab51-5ce4-5433-9aec-dd6af9391f59	2ee7058f-f504-508e-b311-6e3eda86094c	
+laboratory_test	TB-000156_test01		Microarray	Positive			-999	d5d9b386-e3f1-5870-a823-a4eddda16f28	a5d73f69-e5e8-515c-862a-e8ae92ea1b03	
+laboratory_test	TB-000116_test01		Karyotype	Positive			-999	9fd00f4d-eba7-5a7c-a55e-3187902492b6	e479cdb5-375d-54bd-8512-0235ba22b7e6	
+laboratory_test	TB-000112_test01		Microarray	Positive			-999	07db2c91-d844-5779-98e9-26d241a2d1a1	47df9650-6138-59d6-92b3-57a960d8d6c8	
+laboratory_test	TB-000115_test01		Microarray	Positive			-999	0b324afa-6659-5998-ab43-6b8a065a3850	8b4dba36-9181-5747-9e4f-0489804eb4f1	
+laboratory_test	TB-000143_test01		FISH	Positive			-999	900ecf0c-d06f-51ea-aef2-e3aab05061ec	c7436b71-1571-538e-b996-e17c1f655d98	
+laboratory_test	TB-000163_test01		Karyotype	Negative			-999	e011685a-d03f-5e6c-bf69-7a88b49f0b5a	d2fbbcbd-f6b6-5fb2-9932-6fba4f900077	
+laboratory_test	TB-000158_test01		FISH	Positive			-999	44a1a26b-0638-526c-90a1-e5c25536fe70	1b7adaa8-f934-5dc2-b867-a66b15006b91	
+laboratory_test	TB-000004_test02		FISH	Positive			-999	607fc867-6d24-59bf-954f-8f47d46e9071	66b4bb5a-e7fa-556f-b695-a6a37b836d64	
+laboratory_test	TB-000055_test01		FISH	Positive			-999	65639af3-3290-5850-93bc-490ec77f0699	aea84d95-bfe2-58aa-af95-8b1a90971b7e	
+laboratory_test	TB-000134_test01		Karyotype	Positive			-999	a48c4aed-4c5c-568c-b754-a4c08e7fb62f	0301396f-97e7-5907-93c3-4af05e0230ed	
+laboratory_test	TB-000063_test01		FISH	Positive			-999	e09a9dda-1b77-589d-9c0a-46a6bbccd32c	ac71d91d-3b71-5bf8-b205-6e5956b75c3e	
+laboratory_test	TB-000198_test01		FISH	Positive			-999	b894eea7-4ab6-54ba-a01f-248f46c92a50	e350719d-1d1f-5e79-a8cb-29ca7a5a2a04	
+laboratory_test	TB-000038_test01		FISH	Positive			-999	a351f38c-6536-5951-b354-37dd3cc1a6b3	4956bebc-485e-5bff-a26d-7a8371a22b96	
+laboratory_test	TB-000033_test01		Karyotype	Positive			-999	8a03e42b-5b59-5c7d-8b56-a8e3ab76588b	77d24fb4-491f-51ae-b5bd-93a4a541a55f	
+laboratory_test	TB-000008_test01		FISH	Positive			-999	6a98b700-25f6-5257-81a1-3ec33b7a093e	ea42bfeb-9ccb-52e3-b29e-df592d7894eb	
+laboratory_test	TB-000085_test01		Microarray	Positive			-999	50c3207e-5473-5c27-8b9b-6bb32e935895	58b6fd83-c229-5905-8dca-7509a516716c	
+laboratory_test	TB-000231_test01		Karyotype	Negative			-999	1f95e5a2-8905-588b-8cc0-5eb7a9afe723	6f10db70-dd8a-52c4-99e2-c312f076581e	
+laboratory_test	TB-000050_test01		Karyotype	Positive			-999	19fa1fee-710a-5e1a-830e-4798741dd591	31657cac-3526-519f-bb08-1422dcc25c06	
+laboratory_test	TB-000197_test01		FISH	Positive			-999	21554bb0-7c13-522a-adca-1d59be7d5bb9	fe6e0b48-1e77-5112-8bb5-da0f550e9b7b	
+laboratory_test	TB-000084_test01		Microarray	Positive			-999	e5886a8c-c875-52af-b952-a2ff30496e71	781c3a14-30c6-592c-87a4-b4b09192b708	
+laboratory_test	TB-000019_test02		FISH	Positive			-999	9c85c2dc-0008-5fd6-9574-b4ab1e895b89	0f1a306e-a7fd-529d-9ead-911470267d76	
+laboratory_test	TB-000177_test01		Microarray	Positive			-999	723e6f4d-dd80-5fdf-a419-04638ad01eaa	e4b5c65c-3993-548a-9673-72a1a7008a08	
+laboratory_test	TB-000049_test01		Karyotype	Positive			-999	c2898b90-16e9-5ebf-abca-fe6434d388c6	a5e00cb7-8cd6-5a31-b18e-111e2e38b7d5	
+laboratory_test	TB-000169_test01		Microarray	Positive			-999	8d8bab52-4b41-5422-81a5-86c03624878f	6926fdd7-4f61-556f-bd11-dd7b26bb6997	
+laboratory_test	TB-000176_test01		Karyotype	Positive			-999	66482c01-40f2-54e9-81e3-5626ce073fe2	e63f2c84-8d52-59d5-975a-4c38dbf42f7f	
+laboratory_test	TB-000149_test01		Microarray	Positive			-999	18e2f5a0-ce0b-5293-ad38-13a39b90c96d	ca96a7c1-b312-5b13-a183-07bad9f04881	
+laboratory_test	TB-000094_test01		FISH	Positive			-999	7a3c0dce-20f5-50f4-99e4-fac7b5196510	3e18d65d-35a4-5dd2-93c2-39aa22056136	
+laboratory_test	TB-000132_test01		Microarray	Positive			-999	09a201f3-8bb0-5db8-993b-23d6dfec47f1	ccc6b003-dc4c-5664-81d5-3184894949c2	
+laboratory_test	TB-000001_test01		FISH	Positive			-999	3fdcdaaa-861b-5260-92d1-af0fd281e6ab	420b1471-6800-5367-8cce-72ea0350bc5d	
+laboratory_test	TB-000010_test01		Karyotype	Positive			-999	1ee4adc0-332e-58fb-acf7-00afa1fbac16	6c063e37-b85b-5e9a-9ed9-18873c1cad40	
+laboratory_test	TB-000003_test02	NGS Panel	Sequencing, NOS	Positive			-999	8175c25a-d939-59a3-94c4-520f2da7525e	4f5fa60c-478e-536a-a638-ea8149836e1a	
+laboratory_test	TB-000154_test01		FISH	Positive			-999	051f80fc-1b61-5800-8888-6f12f42ed57e	92fd39ee-2b12-5dbd-bbe5-8b0e6ee9bd21	
+laboratory_test	TB-000079_test01	NGS Panel	Sequencing, NOS	Positive			-999	eb06d7e5-7aaf-5753-b46b-a51d68d97e1d	88df4dee-4203-5ef5-a89c-46f60b282851	
+laboratory_test	TB-000048_test01		FISH	Positive			-999	4d33f3aa-83d5-5edd-9e83-4b7a95b5ffd8	9eb93b41-3896-5e78-a9e2-327a9982a06a	
+laboratory_test	TB-000195_test01		FISH	Positive			-999	0f78d783-2ee8-5ea0-97a0-36b833564598	02f0fa89-e080-5813-bac3-f27f7d091c83	
+laboratory_test	TB-000144_test01		Karyotype	Positive			-999	829f151e-2922-5ce8-a328-0c4ead1c1c5a	057a46d3-387b-5a07-8c4b-f8a9c4c157d7	
+laboratory_test	TB-000148_test01		FISH	Positive			-999	31e9a556-0fd4-570f-8e84-fa7b11c965fa	a612e925-5af9-5868-93e6-f098150a079f	
+laboratory_test	TB-000030_test01		FISH	Positive			-999	4d077ca4-bb36-5004-a5db-36809daf4d79	c69967e4-8d5c-5bd4-b7f6-cb030a8ad343	
+laboratory_test	TB-000026_test01		FISH	Positive			-999	d1f8e567-7d40-5331-a6c2-8e7e7f2375f8	4a77a1b3-2a73-5354-98b3-d1a4987f4b5e	
+laboratory_test	TB-000150_test01		FISH	Positive			-999	4f92d516-cd51-592f-9884-442ac0c761b6	a52508c9-6b10-5689-93c1-cc9d9d4f99a5	
+laboratory_test	TB-000039_test01		Karyotype	Positive			-999	3f9ee1b8-bf53-5aed-a040-f2d115d44e5d	4a0aab92-bf99-5952-94b0-00e6a6c1099b	
+laboratory_test	TB-000073_test01	Fragment Analysis	Other	Positive			-999	e21d7fe5-bfc8-5bb9-8fac-41183fe08468	2c4b1101-79d2-5d65-94f4-54f0c035a8e1	
+laboratory_test	TB-000020_test01		FISH	Positive			-999	5533f9f5-0314-5f77-9c4e-9735738c0742	4db996e1-d806-5d11-bce4-e7590045b561	
+laboratory_test	TB-000005_test01		Microarray	Positive			-999	6caf4cc0-b623-5be0-b50f-6971b13a236e	ee5b3509-812f-5408-b993-80f5028d28fc	
+laboratory_test	TB-000016_test01		Karyotype	Positive			-999	6d57b0f5-03ef-5ed5-a284-96a9f399fa0b	8ed89651-c600-5f5d-9d4a-534df63f4395	
+laboratory_test	TB-000109_test01	RNA Fusion Panel	Other	Positive			-999	ba159a0e-4383-571b-9aab-b7cac4a58fbe	79aaf760-17ed-52cf-91bd-0c1398cd1725	
+laboratory_test	TB-000138_test01		FISH	Positive			-999	592f0a0e-b152-5d77-87ba-88deed67dd59	aaaaad36-3cf0-5dde-8d59-0a3023da294c	
+laboratory_test	TB-000111_test01		Microarray	Negative			-999	f902d0a5-5a77-595c-89b2-553fc7fcd9b8	a9bbde65-a39d-5487-9925-440cc22af029	
+laboratory_test	TB-000136_test01		Microarray	Positive			-999	af426a6e-0720-5e0b-9004-d4a9673fa6a8	d1538c31-83be-5739-9351-5dff083f123f	
+laboratory_test	TB-000160_test01		Microarray	Positive			-999	95f4a640-7aa1-57e5-9806-9ad63be22ff6	80f76e04-ca22-5ea1-8a57-e30f81a6cc0b	
+laboratory_test	TB-000001_test02		Microarray	Positive			-999	9961bd42-d2b7-5304-b80a-a7c95db1e5db	420b1471-6800-5367-8cce-72ea0350bc5d	
+laboratory_test	TB-000203_test01		FISH	Positive			-999	4f0b975b-40aa-5507-bbca-e2fe368ebfe4	cac63d40-eb2e-58ba-a728-a696691ad657	
+laboratory_test	TB-000128_test01		Karyotype	Positive			-999	b9845da8-1011-51f4-9de1-97d70d9c0898	992578a0-d941-5058-9e8c-463fecc08943	
+laboratory_test	TB-000080_test01	NGS Panel	Sequencing, NOS	Positive			-999	a10dc6de-5887-5bf3-b7ba-4cc2cf8e1a95	f16007aa-c432-5175-8e0e-a33567bd7db4	
+laboratory_test	TB-000151_test01		Microarray	Negative			-999	36001401-b0db-5467-8eec-01e3c69cd7ab	d22922fc-e483-5468-a0de-ec385f1016c9	
+laboratory_test	TB-000056_test02		Karyotype	Positive			-999	2b0b4d47-7b56-5de1-b551-2f0d52dc2e60	f4baa857-d394-55ab-a53f-055153e01825	
+laboratory_test	TB-000105_test01		Karyotype	Positive			-999	4e1c6a03-6b88-582c-80d3-aeb6a3835ba4	05a34b4e-a74b-5f14-8328-3fb3ff98c44c	
+laboratory_test	TB-000003_test01		FISH	Positive			-999	b9e1d34b-84b4-57e5-9b6f-3363d71b390e	4f5fa60c-478e-536a-a638-ea8149836e1a	
+laboratory_test	TB-000157_test01		Microarray	Positive			-999	e9687525-ffe0-5a5e-bc44-f235b2ed0d2e	02cf94c1-eeaf-5d63-8285-584608ec6aed	
+laboratory_test	TB-000072_test01		Microarray	Positive			-999	c9aedda5-c87e-59cc-ad05-7e11fb981d8f	b45293e7-6000-57f5-a12f-e5304a6f0947	
+laboratory_test	TB-000015_test01	RNA Fusion Panel	Other	Positive			-999	8e14ee13-05fc-556b-95ce-9a88fda6101b	f3ba8374-8e73-53a0-93ca-8728deca72c3	
+laboratory_test	TB-000113_test01		FISH	Positive			-999	b000f171-522c-5940-a7c8-7e8358147af3	e36f74b4-d759-5f71-b7b7-4e40b9f48278	
+laboratory_test	TB-000173_test01		Karyotype	Positive			-999	fbc35cb5-935d-5a16-9489-51487bf1004e	9f6e6492-1fc5-5865-9117-a37d6345ac61	
+laboratory_test	TB-000059_test01		FISH	Positive			-999	af3aa5a4-4b52-5ee6-bbff-81db4ea5118a	74cad29b-0a97-57af-9388-41aec6362b0c	
+laboratory_test	TB-000167_test01		Karyotype	Positive			-999	4a3b02d9-6ec5-5d55-8ed1-cfc471d8184e	e2f34e3f-dcac-5fac-bbae-d3bb7d0b5baf	
+laboratory_test	TB-000057_test01		Microarray	Positive			-999	4d93f774-7ace-5f6d-811a-075ff5439e03	dd91ff49-52ff-5fee-abfb-baae9bca0940	
+laboratory_test	TB-000056_test01		Microarray	Positive			-999	58b1d6c8-aea4-5f74-b991-51a8c3290a05	f4baa857-d394-55ab-a53f-055153e01825	
+laboratory_test	TB-000088_test01		FISH	Positive			-999	7a80ea68-5a92-5109-9c0a-76d5ae6deba4	a8780e32-406b-563d-8f06-49368ed226a0	
+laboratory_test	TB-000181_test01	RNA Fusion Panel	Other	Positive			-999	fed8d225-6f4a-54f0-a186-6b2c5e2e281d	cb4c6901-1352-536f-810c-285978a7f11e	
+laboratory_test	TB-000117_test01		FISH	Negative			-999	4c39b59e-16ab-5888-9c01-91a2cc9b4a86	04885925-527c-55a2-afea-efaa1bc719fe	
+laboratory_test	TB-000186_test01		FISH	Positive			-999	1636a1fe-a63c-5e79-93f5-b16f09fd3e08	06f82ecf-c2be-59ed-aa97-b503d7216700	
+laboratory_test	TB-000190_test01		FISH	Positive			-999	c1af7898-bd16-5917-ac5f-77b1876f84f1	46480cc8-242d-5d0b-81fc-9bccafb36744	
+laboratory_test	TB-000146_test01		FISH	Positive			-999	12b7b51a-ca60-53ca-ab05-9a49a3d98f8f	1a67a2d5-8555-5a8f-bf65-a782036e2500	
+laboratory_test	TB-000031_test02		Karyotype	Positive			-999	993ff667-3bc0-50d4-8db4-7f8b01ae0793	ce094278-5813-5f1b-9fb0-7e9128431811	
+laboratory_test	TB-000170_test01		FISH	Positive			-999	c49b9e3e-b852-5dfd-a0db-964ed70b33ba	5ac6d0a0-3001-52e5-bb35-fd4c83ad9c66	
+laboratory_test	TB-000209_test01		Targeted Sequencing	Positive			-999	d15a9fa4-5d93-567e-a57c-4a293b3feb64	f249ff64-8be8-5aba-aab3-0cc1c5077349	
+laboratory_test	TB-000060_test01		Microarray	Positive			-999	587a40aa-7e3a-5b44-95e9-2f2a614c1db9	011ccbc5-89e0-578f-a67d-9e3db3f0e1e1	
+laboratory_test	TB-000003_test03	RNA Fusion Panel	Other	Positive			-999	374ca510-8bf3-568d-9432-ea840e4a1505	4f5fa60c-478e-536a-a638-ea8149836e1a	
+laboratory_test	TB-000131_test01		FISH	Positive			-999	712caddc-45c1-5252-8755-2ae665ab0502	2dc0bf40-c491-52ae-a986-68af0ddce970	
+laboratory_test	TB-000076_test01		FISH	Positive			-999	050434de-533f-52ee-bd6f-d51e80f9efb5	e581b1bc-e656-563a-948a-19b8cac91f3b	
+laboratory_test	TB-000185_test01		FISH	Positive			-999	37d33f92-ec15-5a49-8623-75d8c51d510b	ef251ef2-995c-55be-996c-39201a898379	
+laboratory_test	TB-000166_test01		Karyotype	Positive			-999	3ebfd842-8688-52d9-a443-5675201d9919	f22f33f0-c1c5-5050-b300-6d177d22ac1d	
+laboratory_test	TB-000023_test01		FISH	Positive			-999	b53d624c-93a2-5d7e-8357-633ca11d37a5	915661a7-73a8-5012-b8ee-b87c044264d4	
+laboratory_test	TB-000101_test01		FISH	Negative			-999	7f2b207f-c289-5370-ae84-962b7508c8e5	1cabbc2d-2534-526d-a485-1fc01a1aa7bd	
+laboratory_test	TB-000091_test01		Karyotype	Positive			-999	fc2ac5f8-6ea4-54ca-b2f2-987cd948187a	1186548b-2b87-57c9-9827-9907194bddf7	
+laboratory_test	TB-000200_test01		FISH	Positive			-999	fb988b72-d9d9-543b-808a-0e27f6990ad7	686760d7-353e-5ac6-9469-b1e7d32a3145	
+laboratory_test	TB-000066_test01		FISH	Positive			-999	888b4a52-077d-5c7e-96b4-ae4584561c38	37c01ea3-adbb-5aca-9185-931a7415dd2c	
+laboratory_test	TB-000204_test01	NGS Panel	Sequencing, NOS	Positive			-999	3995f735-610d-559e-adfb-9ff3dcea4979	4e66df9b-a40d-5507-92fe-77f2348e180b	
+laboratory_test	TB-000119_test01		FISH	Positive			-999	41409dec-0d61-5fff-8257-d82469ea159f	19757331-14ac-5e01-97a9-dce5d53a9204	
+laboratory_test	TB-000125_test01		Karyotype	Positive			-999	f1f72171-e01f-5686-b065-2c9d8ab70973	6d3f4da2-ecd3-557b-b4d6-8a5d2c3a0163	
+laboratory_test	TB-000034_test01		Karyotype	Positive			-999	734a968f-6f19-56dc-8847-f88cdf9cf648	ec3819de-f459-533c-bf05-0a6a5573026b	
+laboratory_test	TB-000118_test01		Microarray	Negative			-999	76f1a6c4-4fd2-5905-bbdf-757a4c0b4506	f41d1909-a032-5d78-a31f-11165adc4f2a	
+laboratory_test	TB-000053_test01		Karyotype	Positive			-999	a5ec70a4-0ef0-566d-880e-dcbeac0bfe34	d69f6c3a-73e4-5f8e-ae9c-5dd64632d91a	
+laboratory_test	TB-000189_test01		Microarray	Positive			-999	8c4e4ff6-6d66-5797-9839-5b98125e3bfe	7ff76be3-495b-58bf-9f2d-b2a4336fe819	
+laboratory_test	TB-000082_test01		Microarray	Positive			-999	000dd2fb-9aaf-5083-b6b3-720d75f8877c	8b49845e-792c-5496-ab7e-82f4b272fa5c	
+laboratory_test	TB-000141_test01		Targeted Sequencing	Positive			-999	3fa80356-7364-51d3-980e-ce20486d71b6	bc804637-4099-5396-837a-2bada0beed23	
+laboratory_test	TB-000174_test01		Microarray	Positive			-999	74240a5b-7d8a-5562-b469-b7d4330fe206	8827379f-7581-5638-8faf-26f47d039e4d	
+laboratory_test	TB-000062_test01		Karyotype	Negative			-999	4184211e-4eab-545f-93e8-3e8cd030b5fa	eabc0a51-b0a2-5220-814c-baed362b3c7c	
+laboratory_test	TB-000124_test01		Karyotype	Positive			-999	7f29db02-bb71-5ca2-ac6f-6eaccb7d6731	b8251ff1-b992-5bd8-96e9-0dcc8ab2bee0	
+laboratory_test	TB-000095_test01		Microarray	Positive			-999	c8932dc5-e6fb-5d99-ae49-1c7f222d7179	1d620d6b-a1f6-5e90-8e46-482293396764	
+laboratory_test	TB-000122_test01		FISH	Positive			-999	b619b43f-e26c-53a7-a56e-ea2fe12df261	7120d70c-191a-5170-8419-85d19adf4a15	
+laboratory_test	TB-000121_test01		Karyotype	Positive			-999	e9763b77-42fd-51b4-b3e0-5173aebca45f	1d4ce88c-b707-57dc-b961-5d1023310474	
+laboratory_test	TB-000035_test01		FISH	Positive			-999	9f129b29-d45b-5f33-8392-cd519bdd18e4	b9cc3e2f-74aa-5e1b-a1fe-7c5eab11cd65	
+laboratory_test	TB-000108_test01		FISH	Positive			-999	d3559dc1-8a5b-5699-b143-1178d6192f00	70dcaaad-71db-5bc6-8e8e-c5ef242537a5	
+laboratory_test	TB-000201_test01		FISH	Positive			-999	5573330e-021d-58b2-b47a-da98978e2e3a	ab7401e3-c147-5037-9177-0220c90cab18	
+laboratory_test	TB-000092_test01		Microarray	Positive			-999	3e27728f-6217-53a3-8757-2cfec0b0e81c	706489ca-7154-5dba-9d9d-0446d3ee0b3e	
+laboratory_test	TB-000230_test01	NGS Panel	Sequencing, NOS	Positive			-999	d84fb18f-a052-5ef8-a034-45fc061508d7	96010d6c-6842-50a0-be31-b215716aa845	
+laboratory_test	TB-000061_test01		Microarray	Positive			-999	108fbdb2-1ec9-58a2-ab1d-c6e8189cfab5	c02a3f59-273e-517d-93a9-46583027dfd5	
+laboratory_test	TB-000012_test01		Karyotype	Positive			-999	50ceab23-14ed-54ca-a8fd-4782fbc42a84	c499e8e9-9496-5c6a-b363-dacea9bf515f	
+laboratory_test	TB-000199_test01		Microarray	Positive			-999	6427bfe7-684c-5729-9ba2-fd1a1a62c6d4	16c152a6-61b9-5e1b-8dd1-c5283dea3606	
+laboratory_test	TB-000100_test01		FISH	Positive			-999	245a3c6e-f167-5a32-9ee5-36d9073475ee	21390cbc-e5fb-5258-89ad-aa62ad5bfad6	
+laboratory_test	TB-000096_test01		FISH	Negative			-999	35d6fbab-a027-5f88-afcb-e1b66de876a4	de7a85ce-5a78-50ba-8340-01d34cac8942	
+laboratory_test	TB-000180_test01		Karyotype	Positive			-999	12b670fe-8614-5ac0-9683-9c845b709ef5	781b19ef-ee3b-56e3-94dc-3c1ce43488fc	
+laboratory_test	TB-000127_test01		FISH	Positive			-999	a4c499e3-6a2b-5eb1-9b09-a141ad3f36d9	c011d13c-7a79-53e3-8b9c-aaaa5086f062	
+laboratory_test	TB-000175_test01		Microarray	Positive			-999	f373bb9a-c018-557d-aae2-5caa9a29e5cb	e5d0fe64-6d7d-5c5e-b254-18b52eabf3db	
+laboratory_test	TB-000013_test02		FISH	Positive			-999	f6e358e8-20de-5d6f-9bd3-dae0f1ee5889	66ad3a49-b04e-5661-aee5-72aa395d14ea	
+laboratory_test	TB-000028_test01		FISH	Positive			-999	ef7c6ff6-1022-5ad0-a3f7-6898e3943253	44b4fe89-4494-5977-bb6e-f760fe9d678b	
+laboratory_test	TB-000042_test01		FISH	Positive			-999	336ba5d4-f372-5848-8bf2-c9367ddda669	e79c6d7c-2918-5d40-969d-9a67956e18ba	
+laboratory_test	TB-000004_test03		Microarray	Positive			-999	2186266e-6127-54c2-a3a7-183e49b6662b	66b4bb5a-e7fa-556f-b695-a6a37b836d64	
+laboratory_test	TB-000224_test01		FISH	Positive			-999	3597b7f5-8ae1-55a5-aa54-9c547c181341	6a1f3c43-04cf-58a6-b905-e424cf97f6ea	
+laboratory_test	TB-000102_test01	NGS Panel	Sequencing, NOS	Positive			-999	71f57178-7b48-5ec0-986e-2d7af0441fd9	7daa336a-74d0-56c5-af32-08bb568d064d	
+laboratory_test	TB-000188_test01		Karyotype	Positive			-999	538f3c69-400e-58b3-8688-4b14fc5a35c7	a2c34583-96d8-5173-860e-2c1d75c39934	
+laboratory_test	TB-000126_test01	NGS Panel	Sequencing, NOS	Positive			-999	7567f5ab-dd6e-5d70-a484-a695299a96b6	1e67f18d-691c-5e6f-8aa4-75be0620676b	
+laboratory_test	TB-000142_test01		Microarray	Positive			-999	00ba386b-fece-53ac-b5f6-5c99997c6620	7699fe18-11a7-52da-aea4-6744c9dcfd76	
+laboratory_test	TB-000067_test01		Karyotype	Positive			-999	b89ba19d-ae59-5e88-9876-93c0c41771f4	56f83ef2-d82d-5b7c-b4a2-fac2794fba5b	
+laboratory_test	TB-000090_test01		Microarray	Positive			-999	b9010b5f-eeb5-5b3d-9723-19d7df384d0d	334ea807-40f5-56f1-9fd2-e099713713a9	
+laboratory_test	TB-000031_test01		FISH	Positive			-999	3c9efc39-e827-58d4-8952-d86ec0fd40d7	ce094278-5813-5f1b-9fb0-7e9128431811	
+laboratory_test	TB-000222_test01		Microarray	Positive			-999	7accdf99-4430-59eb-8280-a0ac8538bd9c	6e58d531-a9b0-5a8a-a715-840c88a871c0	
+laboratory_test	TB-000086_test01		Microarray	Positive			-999	1dd1c668-7450-5406-ab19-e83032f37101	a68ee9bc-41ea-5a15-867c-a2065641e48f	
+laboratory_test	TB-000155_test01		Microarray	Positive			-999	521b8b0a-5559-526a-a607-6fa5816d6591	34c197a0-a05a-507c-af1b-d36e50534329	
+laboratory_test	TB-000206_test01		Karyotype	Positive			-999	c5e22def-dd0b-551a-90df-a5ff421e8eeb	39ae7995-1ed3-50de-a219-b6867014ca4e	
+laboratory_test	TB-000140_test01		Microarray	Positive			-999	a9f570dc-484a-5a75-9f80-b21af43134c7	0d0856ce-5f56-5fb6-a82c-7c6c12cea489	
+laboratory_test	TB-000075_test01		FISH	Negative			-999	80d6cc93-8b84-5df0-a46b-f666178c65c0	78636d11-2d83-5b55-a041-28454d08728f	
+laboratory_test	TB-000228_test01	Fragment Analysis	Other	Positive			-999	1811664b-7b93-534a-8441-24ad44b87d86	26ec4886-2d12-5e85-8c23-7a78da09cbfa	
+laboratory_test	TB-000043_test02		FISH	Positive			-999	41fdae8f-5b45-504e-ac7e-d1e74fe034de	1db330ed-3cae-518d-8525-746694381bcc	
+laboratory_test	TB-000027_test01		FISH	Positive			-999	4aae3f12-5d3b-5415-b055-a55c37833930	9a1aae23-0f99-5b46-8634-071517d889e3	
+laboratory_test	TB-000139_test01		FISH	Positive			-999	da9410e9-91f4-53f0-ae05-ce2e76006cb2	10c23e73-f2bd-5d08-920b-a43dd8b28122	
+laboratory_test	TB-000065_test01	Fragment Analysis	Other	Positive			-999	ef5822e1-9ece-5eda-8374-90711eb0bd86	be470754-9322-512f-90a8-c966abc5dde1	
+laboratory_test	TB-000013_test01		FISH	Positive			-999	657952f0-056e-5b27-b2b6-04103857e177	66ad3a49-b04e-5661-aee5-72aa395d14ea	
+laboratory_test	TB-000184_test01		FISH	Positive			-999	3d1a0807-46f0-5eb8-8878-0c52999585dc	bed56f9e-42b2-5aaf-9841-ca9ee8db64b4	
+laboratory_test	TB-000011_test01		FISH	Positive			-999	fab524e2-f70a-54e4-a589-aaaf96f2ec82	07b6122d-f2ef-5549-b6c3-143ab389784a	
+laboratory_test	TB-000099_test01		FISH	Positive			-999	e2d38327-1ed6-53f2-aefb-49e906727c61	7ffb90c8-b7fb-5b68-934e-990301dc63a8	
+laboratory_test	TB-000026_test02		Karyotype	Positive			-999	b100effc-aebd-58a2-a868-b5f78a6ff666	4a77a1b3-2a73-5354-98b3-d1a4987f4b5e	
+laboratory_test	TB-000025_test01		FISH	Positive			-999	d9d56989-b351-57f5-958a-d0241f3b39e5	bd5fe87c-0683-51ba-bc2f-4dbb9848bace	
+laboratory_test	TB-000168_test01		Karyotype	Positive			-999	fe6af1b5-d673-53c8-bf6a-1d737b4a4451	9f813efe-6be0-5a3b-8ffe-e082ec605961	
+laboratory_test	TB-000059_test02		Targeted Sequencing	Negative			-999	2364ddbb-a3c4-5006-b2f3-cb250450c45e	74cad29b-0a97-57af-9388-41aec6362b0c	
+laboratory_test	TB-000120_test01		Karyotype	Positive			-999	165d0388-8f97-5391-a7ac-4087634cb386	93169f23-83e4-5cbe-9d18-7a6e738e06fc	
+laboratory_test	TB-000014_test01	Fragment Analysis	Other	Positive			-999	a7268e15-733b-53f4-805d-f640da2ad39c	579de681-10d4-55eb-857d-4fe0e5fa73c2	
+laboratory_test	TB-000036_test01		FISH	Positive			-999	9d5aa36d-8f14-5708-9862-741188489844	77ed7484-41d4-5ac4-96b7-c7e9f5d27424	
+laboratory_test	TB-000029_test01		FISH	Negative			-999	7376dc14-320c-5f8b-b454-76beb441b5fd	285ee6bd-5abb-5f12-9da0-5aa919112818	
+laboratory_test	TB-000004_test01	RNA Fusion Panel	Other	Positive			-999	a8f809e0-d61d-5c85-880c-f205aea76d54	66b4bb5a-e7fa-556f-b695-a6a37b836d64	

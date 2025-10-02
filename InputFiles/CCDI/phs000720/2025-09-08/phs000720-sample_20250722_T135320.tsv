@@ -1,0 +1,404 @@
+type	sample_id	tumor_classification	anatomic_site	participant_age_at_collection	sample_tumor_status	sample_description	percent_tumor	percent_necrosis	crdc_id	id	participant.id	pdx.id	cell_line.id
+sample	RMS2333	Metastatic	C62.9 : Testis, NOS	5310	Tumor					6947cd1c-fddd-57ea-b9c7-e57ad4cef7d2	55846dad-7fe8-5b3a-9cd0-1b13bd7ef9f0		
+sample	RMS2137	Primary	C80 : UNKNOWN PRIMARY SITE	302	Tumor					35dd7050-c090-5976-8cfc-a8a5df37462f	afc3859e-c448-55bb-81ab-565dc527432e		
+sample	RMS2395	Primary	C21.8 : Overlapping lesion of rectum, anus and anal canal	6537	Tumor					f5cc9358-f279-5213-8f6d-146015bc37f2	e6438f06-336a-5eea-8d15-47da6a2ab338		
+sample	RMS2277	Primary	C76.3 : Pelvis, NOS	1581	Tumor					395a8053-757c-5937-8f4e-e38ee155c5fd	d27655fb-1fbb-55c4-9bf9-284951c2701f		
+sample	RMS2381	Primary	C62.9 : Testis, NOS	5496	Tumor					9ff37958-f9e1-5f92-bd65-147e244c6b81	18186d04-8dfe-5dba-b6a3-b44688ff6b1e		
+sample	RMS2321	Primary	C76.5 : Foot, NOS	1822	Tumor					c7919511-d8af-50e6-bc2d-e395dbae1c1d	408f9bf5-1dcb-553f-a80c-89f56023ff59		
+sample	RMS2357	Primary	C53.9 : Cervix uteri	6614	Tumor					31fad3a6-557c-509f-8056-30708522176f	661509f8-c568-5ef8-ae82-b5b58af3efc7		
+sample	RMS2468	Primary	C69.9 : Eye, NOS	2253	Tumor					3f507108-3fbe-5617-995e-6c8da64afb9f	8725cd7f-85b2-5d6a-a917-0295aa86227f		
+sample	RMS2269	Primary	C48.0 : Retroperitoneum	711	Tumor					668d19c0-08d5-5a2b-86b6-b768245f2800	19e80752-2fb1-5c02-adf3-4a05fd28430f		
+sample	RMS2316	Primary	C76.2 : Abdomen, NOS	467	Tumor					5d92aab8-e04e-5127-97e4-c7661e5a3868	26acbea2-c8a9-58a8-8c16-1d6c839b43cd		
+sample	RMS2434	Primary	C76.0 : Head, face or neck, NOS	2366	Tumor					40c5a0da-1944-5c81-aa63-8f5882de4b21	1b5555ef-0104-5af9-8e02-49c65f5f31e0		
+sample	RMS2217	Metastatic	C77.9 : Lymph node, NOS	3834	Tumor					0b1a659e-c860-5356-8fe8-4d1a5f000b8b	4499ed50-2dd2-595d-9148-8473fa0177dc		
+sample	RMS2382	Primary	C62.9 : Testis, NOS	5920	Tumor					0366ffac-827c-516c-9af0-b3927207fb2e	538d186c-7609-5b67-961a-d1710cef3c34		
+sample	RMS2517	Primary	C61.9 : Prostate gland	1501	Tumor					565ee219-3f64-5f40-a612-b988dd189c99	1fd00924-cc1d-5b06-854a-a8cc0dbe0c74		
+sample	RMS2469	Metastatic	C67.9 : Bladder, NOS	6752	Tumor					7ec29be3-60ab-52bc-a78d-a1ebc24daa80	572f860d-ba47-5391-a409-0f58c6745d70		
+sample	RMS2242	Primary	C06.0 : Cheek mucosa	3933	Tumor					6a658032-64df-5197-a3c1-ed60f561e961	c70aed1c-51d0-54c6-98e2-f2bcfdbfc3a4		
+sample	RMS2505	Primary	C41.0 : Bones of skull and face and associated joints	5273	Tumor					f3842ff2-13bc-58de-90e2-06c6b403bca9	622c0cea-a033-56ef-a512-8e665b9c400d		
+sample	RMS2502	Metastatic	C11.9 : Nasopharynx, NOS	1851	Tumor					f7ce95f3-0010-5fe9-aee5-517389bc2f0d	d07a58b5-d38d-52bc-9dbd-3ed116f2d20e		
+sample	RMS2207	Primary	C76.0 : Head, face or neck, NOS	1709	Tumor					a2ade38c-b887-5280-bd36-5f0166c36a37	af62e430-175f-5d34-8090-4c69ecedaec8		
+sample	RMS2221	Primary	C11.9 : Nasopharynx, NOS	1946	Tumor					3fcb20f3-064b-5ad7-8e52-b9283b95fc6c	53b6fb28-887e-5d9a-af5f-02f7c03a020d		
+sample	RMS2241	Primary	C80 : UNKNOWN PRIMARY SITE	2435	Tumor					9e67c417-138e-54a4-a86f-99816936c691	019d66be-da0c-5f45-b5f8-e2dd26f9fa22		
+sample	RMS2385	Metastatic	C62.9 : Testis, NOS	5222	Tumor					1347bbc4-fbe7-55e6-8776-a1b9ae9cb943	88786761-dafe-5aa5-b583-c70a041fd296		
+sample	RMS2420	Primary	C62.9 : Testis, NOS	1753	Tumor					ab003d9c-1db3-5528-abbc-0e2fe5bd9916	0e6083a1-f2e6-5ea9-8636-6e2177582270		
+sample	RMS2326	Primary	C22.0 : Liver	1200	Tumor					e24dda8d-dbb0-51fc-8c9f-376b7ce7b80c	865e20a6-3338-552b-a55a-65d5f8b56e09		
+sample	RMS2407	Primary	C62.9 : Testis, NOS	5968	Tumor					a834ef55-d3e6-5d69-90a9-9274b22ab512	995d777a-ece3-545d-b3f8-f34500fd03bc		
+sample	RMS2507	Primary	C41.9 : Bone, NOS	2756	Tumor					e1e65604-2734-56fb-bf9d-4c6526204f88	74f97d32-7033-5cb0-9e40-51d381fded81		
+sample	RMS2188	Primary	C76.3 : Pelvis, NOS	6143	Tumor					ef4ce753-c1e8-5707-b30a-8f5eb061808b	b46cda14-6ad3-53b6-995b-34032266eead		
+sample	RMS2397	Primary	C63.2 : Scrotum, NOS	708	Tumor					b37e7310-a052-5d16-8b06-b931a5f9ca09	d30ca227-7eab-5732-bc09-34885d5e9838		
+sample	RMS2477	Primary	C11.9 : Nasopharynx, NOS	624	Tumor					ee0b23b7-e3f1-55fb-8af2-382c334bbb13	10430ba3-e924-5a7e-a8e3-7a82817e7384		
+sample	RMS2267	Primary	C76.2 : Abdomen, NOS	6559	Tumor					b7e0b343-4878-5165-be53-a163ac0a7289	1a31720f-f06d-5dcc-a88b-30efc3189a27		
+sample	RMS2496	Primary	C14.0 : Pharynx, NOS	788	Tumor					3d6035b3-b424-5466-ba89-4be2d22be130	01bba4ef-7887-5a51-8822-1c1ec598993a		
+sample	RMS2186	Metastatic	C76.3 : Pelvis, NOS	1566	Tumor					96512f75-2ef9-52cc-a925-698d82be2422	b62c5bc6-e613-567a-98c2-fc748d3609ad		
+sample	RMS2302	Primary	C76.4 : Upper limb, NOS	843	Tumor					037c975d-0b0f-5b15-becf-7ffd1b7cc955	e88b2860-0290-536b-bd2b-cfd93d766259		
+sample	RMS2231	Primary	C11.9 : Nasopharynx, NOS	4068	Tumor					e95b14f6-5e39-5438-8f2c-282f7f509fa3	d2829f0d-58aa-5fa0-a312-9021ce9958e3		
+sample	RMS2433	Primary	C62.9 : Testis, NOS	660	Tumor					7136c06d-72d3-5ad9-a585-224d962dde6d	0ca1deab-eb07-5add-aeaa-6bcf89f7ab51		
+sample	RMS2132	Primary	C80 : UNKNOWN PRIMARY SITE	459	Tumor					50174b4a-c7fb-5479-8c38-baae28bcbe76	96ce1062-bbc6-5b15-8f22-06bc3e261f48		
+sample	RMS2458	Primary	C80 : UNKNOWN PRIMARY SITE	2253	Tumor					f9219adf-f379-5231-bf59-40b0e4d7bb15	7af496de-065a-530a-a637-851e7f2443b7		
+sample	RMS2205	Primary	C76.3 : Pelvis, NOS	1007	Tumor					9771cbd6-a7c1-5e0d-b67d-34ebac33b3bf	2fa7a15c-d1f7-5587-be39-55b42e8f6dab		
+sample	RMS2180	Metastatic	C76.2 : Abdomen, NOS	1665	Tumor					2709d94a-0e9f-5b09-9c4c-9cbd6a3ca055	1a68078d-ac71-585c-afa7-ff4f72a11400		
+sample	RMS2518	Metastatic	C44.2 : External ear	2019	Tumor					6de1bc73-4beb-5ee9-8106-47687e3fc28a	2f0b48fe-8236-5046-9177-7b65be0d3018		
+sample	RMS2169	Metastatic	C76.4 : Upper limb, NOS	3538	Tumor					3de94e1d-2d22-54e2-afa3-6570f20a8fc1	d709f3d2-cc5d-54e9-870a-c0e8e5ad4de2		
+sample	RMS2285	Primary	C76.2 : Abdomen, NOS	1372	Tumor					8b973fe5-e802-546e-b06f-344c791a93a7	3af1893b-6b69-595a-bcef-454978beb825		
+sample	RMS2301	Primary	C48.0 : Retroperitoneum	1237	Tumor					2a11cb31-c5ae-53de-98fa-666221a8bb28	622e0a9f-a826-5560-bbc8-2c7c86f105c9		
+sample	RMS2225	Primary	C06.0 : Cheek mucosa	7300	Tumor					2ff36f5b-f1f0-5fc9-892e-489f8e70cd55	a0977f2b-a35d-5d9e-8250-1ef03006d846		
+sample	RMS2373	Primary	C55.9 : Uterus, NOS	6438	Tumor					957536af-01d7-5748-a57e-49d8be9ec972	826b633e-2a74-5f7e-a101-276dbe88cc53		
+sample	RMS2481	Primary	C69.9 : Eye, NOS	4100	Tumor					8fb7b26b-79c6-544e-9cf7-f4d51eab4017	63921f34-7c8b-5e0e-b86a-709008e73c3d		
+sample	RMS2245	Primary	C44.2 : External ear	1774	Tumor					40c33c40-260d-5b43-8dfb-ba22a3cc1439	4a52c9ca-02a9-5681-8d14-30c94b5f7fad		
+sample	RMS2501	Primary	C69.9 : Eye, NOS	3593	Tumor					a311dd52-fcff-5d4a-b569-b4cc60cc1fb1	8e140089-bc23-5473-aa17-fc012a401c30		
+sample	RMS2497	Primary	C62.9 : Testis, NOS	7399	Tumor					2a965b19-d553-5164-a7f2-e069bb3987c2	809028f4-667a-53c4-af97-30674ece4c9d		
+sample	RMS2120	Primary	C80 : UNKNOWN PRIMARY SITE	1401	Tumor					e00334da-3d0f-54f0-82e6-f6d7c5015e49	2d87b62a-0b02-5f20-99b2-2315d9de00b7		
+sample	RMS2430	Primary	C62.9 : Testis, NOS	6716	Tumor					3cbb710d-5168-5fea-82c0-934cb0616f1e	3e585c68-bb85-57f0-af47-e6b60b1abe76		
+sample	RMS2190	Metastatic	C11.9 : Nasopharynx, NOS	1636	Tumor					98e83c52-b455-536c-9eb8-f3bcdab9517f	a0e6cede-64a6-537e-ad83-818fcf0c79e0		
+sample	RMS2289	Primary	C76.1 : Chest wall, NOS	580	Tumor					af66e222-045f-5f5c-b521-c375759fcfde	4b40ea51-0dc3-5780-9e11-705d8116b7f1		
+sample	RMS2284	Primary	C76.4 : Upper limb, NOS	7223	Tumor					d190e9ca-7a21-5626-a6dd-aa6f9bc8a2e5	7048ab20-a764-5e57-8162-d1a44b95a3c9		
+sample	RMS2487	Primary	C69.9 : Eye, NOS	2285	Tumor					2b54cb47-4976-5743-8c68-8abc7df06db8	203fa0cd-787c-5bd4-8676-bc5f7cc95f7b		
+sample	RMS2363	Metastatic	C62.9 : Testis, NOS	5091	Tumor					9bb4456d-4f28-5e77-b530-20efb61873ce	af624306-6945-52a1-9de6-2e7e8252120f		
+sample	RMS2453	Primary	C76.7 : Other ill-defined sites	1497	Tumor					df2cbacc-aa9b-5117-b4aa-93f27dd14c57	0f7cfd54-5eb0-5076-9e91-122f24ecb676		
+sample	RMS2417	Primary	C14.0 : Pharynx, NOS	4831	Tumor					46536dd2-8ae9-574b-8618-7f2b4f1f2910	187685e1-f057-57f7-a768-6504297fd3ff		
+sample	RMS2499	Metastatic	C61.9 : Prostate gland	6325	Tumor					4703da5d-d8e7-5abe-ae19-665dda17727c	2218824e-d0f1-52d5-b8aa-0ad64f58e4bb		
+sample	RMS2200	Metastatic	C76.5 : Lower limb, NOS	3516	Tumor					867a3740-3de3-5328-aab9-d1315cd5d4a1	f7dcafef-296a-5445-bf7d-d0fdbb4b5863		
+sample	RMS2462	Primary	C69.9 : Eye, NOS	5083	Tumor					8bb27b91-4c7a-5ff9-8c04-b7d583bfd56e	d407faea-ebf0-5265-96ea-a48de0bb7e62		
+sample	RMS2135	Primary	C80 : UNKNOWN PRIMARY SITE	4192	Tumor					54bbc871-cf3c-59ea-8108-c2ace82c451c	4dc3d7b0-f80a-564f-9aca-95c162d5fa8b		
+sample	RMS2308	Primary	C76.4 : Upper limb, NOS	605	Tumor					a00e94f1-01eb-509d-a75a-f98de0590af8	0e8937f4-a68b-5afa-954d-725b8fa35b7c		
+sample	RMS2475	Primary	C76.1 : Chest wall, NOS	4192	Tumor					28543f67-3f6c-5bda-a4ed-03fbc5533e3a	35803459-cc30-5766-a230-823a74ddda39		
+sample	RMS2415	Primary	C31.0 : Maxillary sinus	5558	Tumor					5fed8d89-d2f7-551e-a82b-cc657db2c3e4	2d496fbe-416e-5a20-be06-bef75595b025		
+sample	RMS2283	Primary	C48.0 : Retroperitoneum	1749	Tumor					f2d33cea-f519-59cb-925c-4a75bad0b0a5	7ecadd0d-568c-5e69-9733-338d3704bbbf		
+sample	RMS2143	Primary	C80 : UNKNOWN PRIMARY SITE	5284	Tumor					13432382-0a8e-5fab-8965-4db17f8c3bbe	29171fe8-85b0-59c3-9158-ce3764f17eb6		
+sample	RMS2445	Primary	C62.9 : Testis, NOS	2650	Tumor					2acd03dd-62dd-5cd7-b760-d7e20f020c2a	bb1b19f4-727f-5709-852c-5d1c820944e4		
+sample	RMS2323	Primary	C76.3 : Pelvis, NOS	1767	Tumor					fd96fcf6-c20c-5a95-a1c7-5255120d1cb6	f2e77711-b1d7-5148-ad77-9ff9d45a0ea2		
+sample	RMS2206	Metastatic	C76.4 : Upper limb, NOS	4049	Tumor					68006cec-8da9-552c-948b-11ad551d05d3	0390840f-fe83-5f18-a02c-a58e3c6159f1		
+sample	RMS2444	Primary	C52.9 : Vagina, NOS	781	Tumor					68760e39-c463-5f21-a2d6-4db8f7a29561	dafef14a-1009-5a83-b2b0-7f368660864d		
+sample	RMS2153	Metastatic	C09.9 : Tonsil, NOS	1346	Tumor					1af37e3d-87c7-5228-bd8b-bcae92c94458	b0477a81-88e1-52c8-9142-40ed37d07632		
+sample	RMS2494	Metastatic	C61.9 : Prostate gland	4656	Tumor					79aa0d92-76ef-58d3-9b44-d44234a76a56	5852ded0-ea23-599f-9185-3157bccd0c4c		
+sample	RMS2305	Primary	C76.3 : Pelvis, NOS	375	Tumor					a2d7f580-a374-5177-807a-6063a204e69f	db7f31c1-a897-5be2-be3b-44e12a3e87a8		
+sample	RMS2199	Metastatic	C67.9 : Bladder, NOS	755	Tumor					20ab0d10-b743-55ae-93d6-0651191ebcdb	1b273068-1a6f-5d97-9a3d-8187c13cbb25		
+sample	RMS2510	Primary	C61.9 : Prostate gland	5733	Tumor					d0d6cff5-3333-5622-82dc-17593d1efbcc	dfc9c169-3226-58f9-aef5-fa163ea32879		
+sample	RMS2147	Primary	C80 : UNKNOWN PRIMARY SITE	2519	Tumor					b331debe-7ff6-5b3c-98ee-4441a402a0e3	b49d9f7b-6ac2-5242-a483-95a7ffc4571c		
+sample	RMS2236	Primary	C80 : UNKNOWN PRIMARY SITE	3075	Tumor					915cdd4a-9bc8-50dc-bb79-a8683721e702	40b33528-a2af-5fa0-aa00-0e9a9726400a		
+sample	RMS2320	Primary	C76.5 : Thigh, NOS	1836	Tumor					bbb4eea9-5ac7-50bd-97b1-3cba34061d7c	6af5b865-a0d0-5544-af4e-99b56af32100		
+sample	RMS2498	Primary	C76.2 : Abdomen, NOS	1379	Tumor					52d265a2-dfb8-5fcf-8463-2d2b324fdf6a	2a7f67d1-3c4c-5e22-a37a-6b59b5497bf9		
+sample	RMS2459	Metastatic	C80 : UNKNOWN PRIMARY SITE	3064	Tumor					2b49bbe7-d6b8-5999-b078-defdfa3b3ffe	8fddbdfd-0e85-5669-88a9-88794e75da45		
+sample	RMS2348	Primary	C07.9 : Parotid gland	4821	Tumor					8d903a8b-b8bc-5624-b07d-f87d86a62417	4b2ecb17-f4a3-5d83-8288-1dc0f709b02a		
+sample	RMS2378	Primary	C62.9 : Testis, NOS	5935	Tumor					a2e37a3c-03d4-5669-867f-fc939d21b3da	82b109f9-a316-5dfe-b5a2-663040529649		
+sample	RMS2414	Primary	C76.5 : Foot, NOS	5536	Tumor					ed8e369f-6508-5489-8a37-0ba0ae085567	3fe807e5-ec31-5865-ad4e-96538ebdf2e1		
+sample	RMS2452	Primary	C41.0 : Bones of skull and face and associated joints	3944	Tumor					386f4a35-3521-51fc-bccd-b41f617e3ac2	21c66970-eca6-55f0-a452-211a1b9b898d		
+sample	RMS2238	Primary	C07.9 : Parotid gland	3363	Tumor					5bec79e2-79e2-5b4a-880f-cb8b11e7bf1f	2f38b348-7440-5e27-9bdd-814346e0f4f1		
+sample	RMS2464	Primary	C41.0 : Bones of skull and face and associated joints	1486	Tumor					d1787aec-ce66-5097-9077-3280e8ae80b5	f69d6f75-4bf5-584d-9faf-6e9dd8d7a91a		
+sample	RMS2202	Metastatic	C48.0 : Retroperitoneum	1990	Tumor					9dcc3ee7-4145-5c1d-b215-0f07c47c5dc6	4dc4c42a-d73e-55cd-8c50-b3fa686646c3		
+sample	RMS2400	Metastatic	C62.9 : Testis, NOS	9612	Tumor					97d2ba8a-ef26-5d1a-b4bf-90acf9f303c7	6c631781-6715-59b5-8598-aa511702ab2e		
+sample	RMS2364	Primary	C76.3 : Pelvis, NOS	737	Tumor					09955f06-eee7-5e9d-ab44-9b00003b88dd	2a970474-5fb9-58d6-8c10-7682e7ac4bf6		
+sample	RMS2372	Primary	C62.9 : Testis, NOS	2599	Tumor					cfdff1c3-1159-589d-9469-48c8b5232455	e629658f-bdcc-5240-a784-4937f984ba23		
+sample	RMS2346	Primary	C62.9 : Testis, NOS	5551	Tumor					a4204481-9a04-5285-a6aa-22e2cdf90e18	e0936a88-7de7-5359-af9b-6849fa376675		
+sample	RMS2239	Primary	C76.3 : Pelvis, NOS	580	Tumor					06db10f2-8344-5dfa-818a-d0fd5d4f33c2	55b50d8c-719f-5747-afcf-53cd605932b9		
+sample	RMS2328	Primary	C11.9 : Nasopharynx, NOS	649	Tumor					5aba2d26-462e-56fd-9486-d7047e4e736e	2d4b1889-ee19-51d2-8bad-0f23fd442737		
+sample	RMS2340	Primary	C63.2 : Scrotum, NOS	3575	Tumor					412cbb82-3044-55d8-b1a2-c087b9a54f10	85aa37b7-049c-59e4-a2da-ecefd839b3e2		
+sample	RMS2145	Primary	C80 : UNKNOWN PRIMARY SITE	992	Tumor					a45aa4f7-e7b5-55ed-b6d1-8c23989644eb	30005146-b0a8-589e-9707-55f2d0897082		
+sample	RMS2272	Primary	C76.3 : Pelvis, NOS	2991	Tumor					e8f836d6-9282-553f-a1df-50634fc657ee	3d597efa-e8f2-51a1-9d43-76b49e7bb9b5		
+sample	RMS2279	Primary	C76.2 : Abdomen, NOS	76	Tumor					1e9fea33-70e0-5e30-9964-98b60d0ba1db	ac20607d-4a26-5172-ba7c-93714dc20bcd		
+sample	RMS2139	Primary	C80 : UNKNOWN PRIMARY SITE	6621	Tumor					2a53d2d2-ced6-502f-9138-7c70abe314f8	5070e77d-f276-5a11-9036-ef77ac578778		
+sample	RMS2390	Primary	C76.4 : Upper limb, NOS	5233	Tumor					4cde94f1-041f-56ee-8f73-a7998b6eac21	9e21afb3-51f6-56f8-91ba-6affec3cf40a		
+sample	RMS2130	Primary	C80 : UNKNOWN PRIMARY SITE	4378	Tumor					e70880a8-37e4-5987-8e9d-3c276819e8a2	75efc22b-e52a-5e90-8b2a-53e0be9de6fd		
+sample	RMS2516	Primary	C67.9 : Bladder, NOS	657	Tumor					ce2ddcb9-ab9f-5e62-80e9-d50059f4bc1a	6cfb79cc-ea42-5372-be45-d3f0e6a06926		
+sample	RMS2161	Metastatic	C61.9 : Prostate gland	5233	Tumor					7192eb72-3629-509c-8a23-8102cca4f499	7139cc21-1dc1-51a4-b742-0d70d65ba7f6		
+sample	RMS2409	Primary	C11.9 : Nasopharynx, NOS	4166	Tumor					c412f550-5bd8-5c12-a140-2b3e3892bd42	b8a16f58-b922-56c3-9f61-a395aa94cdb6		
+sample	RMS2449	Primary	C69.9 : Eye, NOS	1168	Tumor					1f5aff56-d30c-51e4-b970-3e50b9c0f7f5	7a490788-8a62-5ef8-8cf5-832259fe2361		
+sample	RMS2131	Primary	C80 : UNKNOWN PRIMARY SITE	2121	Tumor					366c9e76-f39c-5a20-bc17-db6c1e1a65b5	959b9941-6530-5c0c-b66c-76bf94b2d6c8		
+sample	RMS2511	Primary	C76.3 : Pelvis, NOS	1379	Tumor					4d8ba43e-d04f-5e4a-b8ae-dd6aa910cf2c	289d1490-a14c-537d-9ed7-37c388cc225b		
+sample	RMS2387	Metastatic	C80 : UNKNOWN PRIMARY SITE	4678	Tumor					2e489b36-cf63-560e-b397-7f7115bdebee	377f5e0e-f17f-58c7-80ee-bde623bd25aa		
+sample	RMS2251	Primary	C11.9 : Nasopharynx, NOS	4111	Tumor					b9b5fefa-2e55-5979-8125-2ef03205d391	b9794383-30a2-5789-a3e1-73fa48a002bd		
+sample	RMS2150	Metastatic	C76.4 : Upper limb, NOS	5368	Tumor					2b20bf97-a4f2-52a3-ba9f-8bac4169702c	ef1eb4de-5baa-5d11-b5fb-b8465af5769d		
+sample	RMS2294	Primary	C48.0 : Retroperitoneum	824	Tumor					04601568-e7a4-5afe-88e1-9386e87341fa	bcc9cc10-c8d9-57a6-b259-781b081e6947		
+sample	RMS2175	Metastatic	C76.2 : Abdomen, NOS	740	Tumor					b083d488-f925-562d-ba2b-967ac1815cde	a67ff7e4-3d06-5efb-8220-b3ea00bdba1a		
+sample	RMS2367	Primary	C62.9 : Testis, NOS	1350	Tumor					a61b32d9-ad9b-500a-b1ae-35c7d61b07a8	30cac8a2-8c9e-53e6-8319-26c97bd0d92d		
+sample	RMS2129	Primary	C80 : UNKNOWN PRIMARY SITE	2198	Tumor					cce723ea-815c-5b51-a2d6-20ba62b8a4ca	bacb3e5a-1a68-5fd6-b2d7-eb1d194106db		
+sample	RMS2270	Primary	C76.5 : Lower limb, NOS	5127	Tumor					d1e332cb-7333-5692-89f8-35245bc12932	0cc5954a-3faf-54b9-96ee-e20d12dbfc8a		
+sample	RMS2170	Metastatic	C76.5 : Foot, NOS	5532	Tumor					9369d630-c50e-56c9-9fa9-3444cf65a0b7	597d3545-c02d-5af8-8b6f-f727c4953f18		
+sample	RMS2504	Primary	C41.9 : Bone, NOS	4799	Tumor					85b24c47-895a-5a19-a62b-d5a961960122	6dedcc4d-fae0-506b-9112-ae55b117cb97		
+sample	RMS2488	Primary	C11.9 : Nasopharynx, NOS	2712	Tumor					dc263cd4-ef69-5a73-9207-06ab4edfde49	f084e2fc-7324-5b63-bff2-378cbe0e70f2		
+sample	RMS2166	Metastatic	C76.4 : Upper limb, NOS	3571	Tumor					70fd78ec-a5f2-5f2a-8ea4-21e8681eba9f	718c338e-e22a-5163-88ad-f9589e47f544		
+sample	RMS2157	Metastatic	C76.4 : Upper limb, NOS	5558	Tumor					6f63e5e9-b383-550d-801e-00b54b96e146	748fc16f-074d-59b7-a4dc-91699274b040		
+sample	RMS2476	Primary	C62.9 : Testis, NOS	335	Tumor					89fe551f-638e-5cbe-be2c-92c0f37d69a4	dda8f6bb-39ae-50d5-b30f-e5e73d48e146		
+sample	RMS2513	Primary	C61.9 : Prostate gland	697	Tumor					bf71728d-945b-5a29-b895-3b143635e4a1	c9ab6242-ac52-5f9e-be3f-a96de1e44be1		
+sample	RMS2319	Primary	C76.3 : Pelvis, NOS	4327	Tumor					8d5a7041-1107-585f-885e-43dc8dcfd81e	c174de22-6114-5d69-867f-58874ef7dab4		
+sample	RMS2448	Primary	C41.0 : Bones of skull and face and associated joints	2534	Tumor					92d1a47c-1fed-5a0c-bd62-2db47c112d51	19d2cbb4-1041-5f90-975b-7eb16249d61a		
+sample	RMS2361	Primary	C62.9 : Testis, NOS	6471	Tumor					9cd8986b-d604-5f56-8fab-c0d12b2c74c1	c5bf0119-9d4a-5ead-9223-a6ad8f88d503		
+sample	RMS2350	Primary	C11.9 : Nasopharynx, NOS	2599	Tumor					769ac15f-51e4-5260-b75a-db11e952d705	1e9e082d-5637-5fdf-8d14-67408f85e6f8		
+sample	RMS2243	Primary	C76.3 : Pelvis, NOS	1935	Tumor					9b3c1594-8aab-571d-abf9-f9f56aafd2b1	4490576d-9cff-5e9f-b95d-b4108dea211b		
+sample	RMS2312	Primary	C76.3 : Pelvis, NOS	1142	Tumor					a51f6b29-977a-5345-b8f2-284baae544b5	5e6ffae7-540a-50eb-aa83-f3ce921006ea		
+sample	RMS2304	Primary	C24.9 : Biliary tract, NOS	1000	Tumor					e7381aeb-13b8-54b9-bbb8-98fb5a5345a2	907849a5-1830-5b15-a5dd-59ab2519f1c0		
+sample	RMS2195	Metastatic	C30.0 : Nasal cavity	861	Tumor					f2c616e8-45c0-53a0-867e-0d566de348ed	4ea940b1-0cb9-5cb4-9f74-4b760a4acecd		
+sample	RMS2196	Metastatic	C11.9 : Nasopharynx, NOS	1022	Tumor					8a7a93d6-5e64-5849-bbdd-26765d702bfc	2cfae9a7-96ee-5b3c-8ace-208693ee87ce		
+sample	RMS2416	Primary	C62.9 : Testis, NOS	2015	Tumor					5ff8ab17-32d8-5f38-9871-855d38f6a9a5	ff0141b3-c8fb-5011-8a24-f7b56dfafb4f		
+sample	RMS2424	Primary	C69.6 : Orbit, NOS	2304	Tumor					2f16dc71-63d4-5f33-a03f-26f674d9d268	aa19e711-1caf-5085-a5ac-2428fa338154		
+sample	RMS2336	Metastatic	C40.2 : Long bones of lower limb and associated joints	5434	Tumor					1aa654b2-8375-520b-9beb-8d1eb9f15d1f	636c8d37-b273-5c2e-a05e-56858ae3848d		
+sample	RMS2429	Primary	C62.9 : Testis, NOS	6508	Tumor					033b7826-fda8-5629-9c61-c231ddc612f9	28c58d06-b337-5b8a-aeaa-6fee5ad9de62		
+sample	RMS2327	Primary	C38.3 : Mediastinum, NOS	6709	Tumor					34e43c0e-9eef-549f-8fc8-5f7014185ba6	b398293d-5695-53a9-9fdf-3d635e5b16c6		
+sample	RMS2432	Primary	C69.6 : Orbit, NOS	3060	Tumor					7a6afe29-a2d9-5a5f-959e-fd635f839025	3c9aa7b0-34c1-520c-9f65-0a9beb26e40a		
+sample	RMS2519	Primary	C52.9 : Vagina, NOS	1501	Tumor					698186c1-6061-5c56-9cf8-7d4de7eda8e2	98e04560-8461-51d1-a293-8a36adfc5531		
+sample	RMS2418	Primary	C67.9 : Bladder, NOS	215	Tumor					c048a168-1aba-511f-9aaf-1258c5da9398	bd5ccd09-b91c-54e6-a3cb-5f48eb416cbf		
+sample	RMS2470	Primary	C11.9 : Nasopharynx, NOS	2727	Tumor					ff6d2500-2c1e-569d-b478-a547130166b0	ac5c3e73-14d4-5b11-9668-51e92bd42113		
+sample	RMS2466	Primary	C69.9 : Eye, NOS	2077	Tumor					3316111b-9fc3-5fcb-9f50-bbed560d037e	cd24d24f-4197-5092-a842-360154fe067a		
+sample	RMS2461	Primary	C69.9 : Eye, NOS	4904	Tumor					5357244d-41aa-50d9-b24a-6054aff8edf1	a7e55110-21ba-5c6a-96e9-6455cd7367a6		
+sample	RMS2134	Primary	C80 : UNKNOWN PRIMARY SITE	7381	Tumor					e39bfb22-cf7f-5f23-849a-0bb1578fb004	e63e4e2b-d630-5155-bb93-2f733260755a		
+sample	RMS2393	Primary	C30.0 : Nasal cavity	6522	Tumor					5863735f-cba7-590e-bee7-a6134c76c417	e571dcda-a270-51c7-8c49-0f4da339444d		
+sample	RMS2224	Primary	C61.9 : Prostate gland	5906	Tumor					389bc4c1-4757-55c2-b381-02ad40cd7434	af89d8b1-2fc7-5e96-89d4-18cec1a41e80		
+sample	RMS2317	Primary	C76.3 : Pelvis, NOS	3356	Tumor					3f99de1e-cb9d-5a6d-9551-7bf33d7790a6	ecd0f9de-df6e-5870-9c25-3b157e4f5c79		
+sample	RMS2247	Metastatic	C48.2 : Peritoneum, NOS	6073	Tumor					2b15bacf-da4d-51c5-a74b-f9ee450cd69f	f3fda8f5-2b52-5693-8d26-2ae6225f223c		
+sample	RMS2133	Primary	C80 : UNKNOWN PRIMARY SITE	3024	Tumor					7490babf-e5d7-51ba-b8e7-f6e987fa6592	8ace61a8-3f34-5036-af7d-a6948d281f82		
+sample	RMS2456	Primary	C62.9 : Testis, NOS	3670	Tumor					1de36fd2-7413-5191-bee5-bafaa053471f	7972a9e6-cf37-51af-8bd4-6a2eeb14df81		
+sample	RMS2124	Primary	C80 : UNKNOWN PRIMARY SITE	328	Tumor					d792aa51-2f6f-5dd5-910a-e08053c843e7	6ac75605-98d1-5e5a-96b7-797f32a4976b		
+sample	RMS2515	Primary	C77.9 : Lymph node, NOS	6548	Tumor					6cac924e-0e30-5304-b711-f2939b5c25bc	fcb3bd26-ebe7-55f9-8cd7-6da7ea763431		
+sample	RMS2185	Metastatic	C76.5 : Lower limb, NOS	3911	Tumor					63e05566-af4e-59c5-87a3-4c6b9af0fb6e	2d0b7b6d-f71b-5683-ba8b-6258363069db		
+sample	RMS2436	Primary	C62.9 : Testis, NOS	784	Tumor					8cfac923-dd1e-514d-84e2-9f541b268e85	94303f35-0fb4-5418-ae0f-3376e4f9eb66		
+sample	RMS2271	Primary	C48.0 : Retroperitoneum	1339	Tumor					fbdb9af3-6f58-5c11-9b1f-f861091241a1	37feda11-df8e-527a-808c-50180fd8319e		
+sample	RMS2261	Metastatic	C76.2 : Abdomen, NOS	1219	Tumor					4bdb354d-04e6-54cf-a4ff-41d040953f63	b8b8f4f0-b242-51ff-a4d0-b63eb8ee38c7		
+sample	RMS2265	Primary	C80 : UNKNOWN PRIMARY SITE	4788	Tumor					58badca0-99b2-5406-9e27-eee3ae24f248	d7adc1e2-87fc-5d50-877a-bbedeaa8f144		
+sample	RMS2299	Primary	C76.3 : Pelvis, NOS	175	Tumor					40d0c58e-2f85-53ab-b04a-58a1c05aa184	411327fa-5f28-5e5f-8f0f-9169aaaface1		
+sample	RMS2163	Metastatic	C76.7 : Other ill-defined sites	313	Tumor					ee2d76fa-de8d-52f7-83cf-e1d95482baeb	41a5b5f8-ec31-5b83-addf-60e57b0f9b62		
+sample	RMS2360	Primary	C69.9 : Eye, NOS	2055	Tumor					9f8c1ecf-f1b7-5ac3-8ce6-c7bb40418fa6	4ff70812-b9a2-5f90-bd5e-6e8d3734eebb		
+sample	RMS2352	Primary	C62.9 : Testis, NOS	248	Tumor					e1092883-2fbb-5be0-908a-6b5f45f71c5b	bc063029-e22a-576b-8d01-a55b388547b3		
+sample	RMS2345	Primary	C69.9 : Eye, NOS	4349	Tumor					8dbf10de-6a3e-5d48-a004-c8586f26746a	b9af3d82-b9ec-5a08-a5b5-51024bb8aeae		
+sample	RMS2260	Metastatic	C76.4 : Upper limb, NOS	401	Tumor					9009229b-a5fa-5e67-80cd-e3bc205532c8	42fd7698-226e-5357-b03e-10416fc521cc		
+sample	RMS2280	Primary	C76.5 : Thigh, NOS	1621	Tumor					7f3f15c1-0897-5ed4-b6e8-d180ec406b99	3b1a1d4b-3d4e-5c70-bba4-c154643cac95		
+sample	RMS2126	Primary	C80 : UNKNOWN PRIMARY SITE	397	Tumor					e1617d43-953d-56bb-b527-421ceb3bd03b	19312482-2335-59e1-84ad-8d0564cef069		
+sample	RMS2422	Primary	C69.6 : Orbit, NOS	981	Tumor					010aab55-4198-5b63-817b-7985d7e802f6	60559bc5-a5ee-5e36-a5c4-067a2d3a66d1		
+sample	RMS2396	Primary	C76.2 : Abdomen, NOS	1109	Tumor					ea8d6798-c66e-5263-843c-e8affba6805d	ced6b94f-38e2-59fc-a018-5598402f5649		
+sample	RMS2384	Primary	C62.9 : Testis, NOS	4923	Tumor					e3cf2753-2fbd-5e7c-8c94-95669baa2af8	c7df4d30-719f-5592-a565-4560029d7d9a		
+sample	RMS2193	Metastatic	C48.0 : Retroperitoneum	3086	Tumor					ce3b578f-4f4b-528d-84b6-bf394826a752	70627a72-8169-5ca1-be8f-ee5e3611fce8		
+sample	RMS2158	Metastatic	C44.4 : Skin of scalp and neck	4642	Tumor					ee9c1ea3-2055-5854-ac2d-6d747fed289d	419f94b3-a8b9-5c63-9796-eb0ce47fbf8a		
+sample	RMS2506	Primary	C41.0 : Bones of skull and face and associated joints	4042	Tumor					874a87c0-1459-5980-ab36-99f7991c2abd	12dc6604-4966-52f1-886e-749d54a577b4		
+sample	RMS2233	Primary	C69.6 : Orbit, NOS	846	Tumor					3ae8fa99-01f5-57e8-988c-bd6e1b288f99	2d9d681e-fc94-5efb-b7f0-d7b02df55950		
+sample	RMS2123	Primary	C80 : UNKNOWN PRIMARY SITE	3053	Tumor					08ddefe6-71e6-5a95-ae6b-fc6c173407b7	c503f205-305e-5444-9b82-f5d5999aa4d8		
+sample	RMS2410	Primary	C21.8 : Overlapping lesion of rectum, anus and anal canal	3046	Tumor					4c3bcb38-33c9-528c-a8cf-483e2134ef35	deaa7d76-bbe0-5e05-bb79-7077c9f98dcb		
+sample	RMS2226	Primary	C61.9 : Prostate gland	624	Tumor					79083cd1-27e7-56d9-bd70-0ec4ef27c937	3bc07a3f-d09c-578f-8364-3c149bbe9a9f		
+sample	RMS2318	Primary	C40.2 : Long bones of lower limb and associated joints	2607	Tumor					9803c11c-5ba8-5b01-9d44-8853b804fa06	b0f5f619-d370-598d-8f89-f12671de0ae3		
+sample	RMS2296	Primary	C76.3 : Pelvis, NOS	2347	Tumor					b8846dbe-a7fd-5aeb-b6a2-2219cb2e0d9a	259c16e0-6fa9-569b-99ab-16cbca5a47ff		
+sample	RMS2141	Primary	C80 : UNKNOWN PRIMARY SITE	1548	Tumor					08a6dc4f-a011-5ced-bf34-da6466d60ca2	62efb810-60b9-5fe7-91b7-aa6f27a86d96		
+sample	RMS2509	Primary	C61.9 : Prostate gland	434	Tumor					6756bc3b-c74f-5074-b963-aad9bf45ac07	fcd0406d-f440-587f-afcd-a4485e823379		
+sample	RMS2394	Primary	C76.5 : Thigh, NOS	423	Tumor					03cabdbc-1698-5f94-961a-61a8e3ca6ab9	35c4d848-d4d5-54a2-8555-1519c5729d2b		
+sample	RMS2522	Primary	C76.0 : Head, face or neck, NOS	2435	Tumor					d5d15e80-e8f0-5446-a3e7-f964d2b7b5b7	c6e4de35-322c-5d52-b73a-c0e9f7475409		
+sample	RMS2297	Primary	C76.3 : Pelvis, NOS	1899	Tumor					575b9d22-5a70-5092-93b7-e6320781bc4d	72da1508-6bc8-534a-81f7-c7705270574b		
+sample	RMS2222	Primary	C67.9 : Bladder, NOS	408	Tumor					b8585ce2-f82d-5537-a46a-3aca32370bbe	d7385f9e-536d-5d5b-901a-2b5c348249f2		
+sample	RMS2182	Metastatic	C30.0 : Nasal cavity	817	Tumor					2fd3049f-9249-5bf6-a296-7e9f148c988c	cdbcda76-2f02-507e-b987-26fb4fd9a258		
+sample	RMS2521	Primary	C76.4 : Upper limb, NOS	102	Tumor					08af4253-4d95-5612-93bf-0c67250610dd	3079d6c8-28a2-5955-8233-db88ebc20581		
+sample	RMS2173	Metastatic	C30.0 : Nasal cavity	4948	Tumor					44d6877b-7e8f-5065-bac5-57d1b55c68a9	c584f0e2-372c-57f9-b7dc-db0c1f46ac35		
+sample	RMS2151	Metastatic	C76.1 : Chest wall, NOS	4959	Tumor					1adac533-2fb8-5bad-9732-74c75469b7fd	c4cca2f4-3e72-5f42-ae61-343cd851ba79		
+sample	RMS2223	Primary	C76.2 : Abdomen, NOS	1324	Tumor					bfa9f6da-7da2-573d-ad40-315c9fc68221	eaf450a4-8623-5b6a-9c61-a971270111e3		
+sample	RMS2282	Primary	C76.3 : Pelvis, NOS	1880	Tumor					66a6b82f-0b63-5a46-9de5-80f3b5a7c21b	a29e3499-fbd2-51dd-88f8-daa78dc22f41		
+sample	RMS2454	Primary	C44.2 : External ear	1468	Tumor					79ae976a-8db0-58d2-8073-38330f814b2c	bdded120-6341-50d0-95f6-e7cb089b044e		
+sample	RMS2253	Primary	C76.3 : Pelvis, NOS	733	Tumor					43fbc8f1-43ed-5c09-a0ef-171c82841f15	efbdf090-5581-5149-9a5f-679adf8580b4		
+sample	RMS2252	Primary	C11.9 : Nasopharynx, NOS	1785	Tumor					5a1d68e0-1eda-5255-9597-4569cbe907f4	2ca60e7a-3357-52d5-9b57-59e7c4a89dd8		
+sample	RMS2179	Metastatic	C41.0 : Bones of skull and face and associated joints	1215	Tumor					82386f72-7bb8-526d-bc11-da20edf614f1	07769747-94a1-5e8b-a406-3ffb923a1559		
+sample	RMS2159	Metastatic	C76.4 : Hand, NOS	4086	Tumor					83e8dc43-3b0f-57b6-ae06-a3eb3c05c839	56a15660-29f7-5e12-96cc-9c43c2a96586		
+sample	RMS2442	Primary	C62.9 : Testis, NOS	1756	Tumor					0454a618-c74e-5d9c-a5d8-544d1a4fd03a	17b4533a-742f-5897-b5de-e1b58c03f7c2		
+sample	RMS2235	Primary	C44.2 : External ear	905	Tumor					939a5087-22c0-5e7e-b814-59749156d956	99418ddf-ce36-5a15-8be3-74603e9cddae		
+sample	RMS2389	Primary	C76.4 : Hand, NOS	4390	Tumor					aa897460-db43-5a5c-9f13-8931d3985caf	32ee55ea-f894-5c2c-8c00-fc151e408a29		
+sample	RMS2489	Primary	C69.9 : Eye, NOS	8560	Tumor					cc4a5014-1573-5ef3-8c9f-e68db6f20676	6deed434-94c9-52a9-8e1f-4355c583f855		
+sample	RMS2353	Primary	C62.9 : Testis, NOS	6114	Tumor					2a6af454-acca-5fbb-8ba0-8512c5651932	a48d4814-9ab2-5c42-bdbc-64a6ef9a4a71		
+sample	RMS2154	Metastatic	C72 : SPINAL CORD, CRANIAL NERVES, AND OTHER PARTS OF CENTRAL NERVOUS SYSTEM	3991	Tumor					fecae55f-b4f1-513d-a2fc-0dcfb042b9a3	a3406e75-1f5a-5d31-8981-9c906f733f40		
+sample	RMS2203	Metastatic	C76.4 : Hand, NOS	1299	Tumor					762c63f0-8fdb-5b55-810d-453f30ca6f33	ed11efe6-c92d-5dc2-a725-df167984076f		
+sample	RMS2307	Primary	C76.2 : Abdomen, NOS	21	Tumor					5da26deb-ab40-5cc3-aa53-c547d3dc7ee4	08262ded-6541-56e5-98e3-778d500e9267		
+sample	RMS2215	Primary	C44.2 : External ear	1617	Tumor					5c8325f0-804b-5fc6-a3dc-4baa2187f45b	e599a7af-a78a-52bb-af0e-f1216fa96f3d		
+sample	RMS2298	Primary	C76.3 : Pelvis, NOS	339	Tumor					9ad976a9-eebf-5d55-9092-57dafc98a6d8	c6043ddb-6823-5ca1-a0b5-bc91040663b5		
+sample	RMS2274	Primary	C49.5 : Connective, subcutaneous and other soft tissues of pelvis	956	Tumor					15ce414b-5598-5906-a332-a167e62627c7	5bcc2f3f-1a31-5e95-974c-42e3b374a06d		
+sample	RMS2446	Primary	C06.0 : Cheek mucosa	726	Tumor					dcd40414-7fba-54ae-a288-ef1949324233	2eb366d7-320c-5be6-93eb-c1a634e9a8e5		
+sample	RMS2403	Primary	C41.0 : Bones of skull and face and associated joints	5718	Tumor					005709ab-0b3f-54fa-9e16-ee5263a0cf1b	f3f95033-c52b-51f1-bc71-e3a6e0b8f999		
+sample	RMS2412	Primary	C76.4 : Upper limb, NOS	562	Tumor					59cc7376-69b2-5092-9fda-2e101e5fd757	0db9b2dc-8364-5802-9901-00978678d6a5		
+sample	RMS2287	Primary	C76.3 : Pelvis, NOS	485	Tumor					597f9a7c-f299-5070-9007-937e7400516e	56098725-d1c4-53f7-acf7-2ba51c075086		
+sample	RMS2192	Metastatic	C41.0 : Bones of skull and face and associated joints	6227	Tumor					2108e24e-1743-5f6e-9530-cea36d5967fa	40b3cd6b-8af8-52ae-89ac-c6a13d362b92		
+sample	RMS2257	Primary	C30.0 : Nasal cavity	5525	Tumor					21bf92d9-b24d-564f-9ff0-0a92388a98e6	7d052d1b-9fc8-5a54-b933-480dc9110be0		
+sample	RMS2216	Primary	C80 : UNKNOWN PRIMARY SITE	1343	Tumor					8f7cf970-e32a-5fc1-b353-dd01af25282b	b6b2fc44-e31c-5e51-a293-e4f922b96824		
+sample	RMS2337	Metastatic	C76.5 : Lower limb, NOS	1164	Tumor					0c78a259-1e5d-52c7-8742-bf0bfe7f99d4	26d70b39-5e8f-5a0e-9c53-8898606895a4		
+sample	RMS2500	Primary	C44.2 : External ear	3210	Tumor					6c53fe38-773f-5423-8079-b7ae1b326997	77240f19-3aee-5fbd-bd40-f9e97cd773c3		
+sample	RMS2138	Primary	C80 : UNKNOWN PRIMARY SITE	5273	Tumor					4ef9e0ff-a999-55f2-a581-d090c6bb7c09	a6c15e49-a768-5e3c-9587-2ab27a3c1b33		
+sample	RMS2250	Primary	C76.3 : Pelvis, NOS	5913	Tumor					0394d20e-20ef-5a0e-a8f0-0b93cc514560	3fe2cf7c-2bc3-5c41-8d04-76c18d1dcfeb		
+sample	RMS2439	Primary	C62.9 : Testis, NOS	7374	Tumor					7e616dfe-6fd9-57df-965a-2d79759a154e	db7dfca4-15a8-5026-851d-bcabd4f987d6		
+sample	RMS2208	Metastatic	C80 : UNKNOWN PRIMARY SITE	3130	Tumor					5ea652e7-6d6b-5513-8b98-cf7b8ab9b82c	01762698-d19b-57df-9256-7bb506bfba6e		
+sample	RMS2375	Primary	C62.9 : Testis, NOS	4999	Tumor					8d31d80b-39dc-5541-ae4d-271fa05c772c	a128a8f7-99ad-5488-93f1-a363ee551ae1		
+sample	RMS2291	Primary	C76.3 : Pelvis, NOS	1430	Tumor					50f06f36-4f6a-5770-af8e-508f60b8130e	12814b2c-131c-567b-aebc-c6e9ad794ee8		
+sample	RMS2214	Primary	C72 : SPINAL CORD, CRANIAL NERVES, AND OTHER PARTS OF CENTRAL NERVOUS SYSTEM	5913	Tumor					4f8d242e-4c11-5a1f-9b07-e7338994eb1a	c7a0d1c4-9a4a-545f-88e6-7ff9f9cb97a1		
+sample	RMS2227	Primary	C11.9 : Nasopharynx, NOS	1888	Tumor					b4b571f4-2c07-5ddc-bc42-e1eadc1d11cc	a933253b-54fa-545f-9052-494698bb4177		
+sample	RMS2493	Primary	C53.9 : Cervix uteri	5211	Tumor					ca4416a7-e5d7-5733-90dd-4083875c6725	df9ccf0a-d316-533f-b62b-476930d966fc		
+sample	RMS2325	Primary	C76.5 : Lower limb, NOS	16275	Tumor					6be950bb-de1f-5ccd-8532-e704bbc48ac3	8158f73e-c72c-59da-a2dd-f2ffd2a5c558		
+sample	RMS2121	Primary	C80 : UNKNOWN PRIMARY SITE	4148	Tumor					54f07ae8-a481-51ba-a867-e8cdd42a5681	df620688-93f1-5a60-970e-72fb4eca8294		
+sample	RMS2478	Primary	C76.2 : Abdomen, NOS	792	Tumor					22912a03-7b31-5727-9113-7a3fbfb93f47	dccef820-7d0c-5a87-9454-e09c4b8c1ea6		
+sample	RMS2218	Primary	C44.2 : External ear	1486	Tumor					ac77234b-ca06-52b8-b391-1f7527d3fa7b	dcdc73ea-09f1-58f2-b75b-a17e0e26c23d		
+sample	RMS2413	Primary	C76.5 : Thigh, NOS	649	Tumor					99425efb-8807-5115-a1d1-4564fb408523	ba24fe6f-ad4b-5f0b-a7f6-21a2074594f3		
+sample	RMS2128	Primary	C80 : UNKNOWN PRIMARY SITE	7110	Tumor					f3f47d08-f098-5f26-80fa-b5b1df39e57d	528aa795-c808-5e3f-94f1-3d73e1bd532e		
+sample	RMS2419	Primary	C62.9 : Testis, NOS	580	Tumor					217e4e50-3040-517a-b9c5-956f98b0e792	6b179498-6f00-5975-b446-2ce25b40b6f7		
+sample	RMS2482	Primary	C69.9 : Eye, NOS	3042	Tumor					ea2d0db0-c878-512c-832c-4e7e56ce6f13	c3c98977-b950-5328-bc45-987da2cd18c3		
+sample	RMS2467	Primary	C62.9 : Testis, NOS	5310	Tumor					528ecfd1-1d93-51e9-9165-693395011bdf	a9da7436-c080-5391-bcdc-7a35c6ca680e		
+sample	RMS2244	Primary	C67.9 : Bladder, NOS	624	Tumor					5bfdf07e-064a-547c-b3b8-f7e7d0d9fa63	7fd93a93-2922-5ced-88d0-48ddde178bfc		
+sample	RMS2155	Metastatic	C44.2 : External ear	2034	Tumor					2b1aa766-678c-5cc6-941f-09b3ed58f08d	c85baceb-e5b7-55fe-8596-48fa05a91c46		
+sample	RMS2334	Primary	C62.9 : Testis, NOS	2234	Tumor					845287a8-ddbe-5122-947a-1440ae3732ad	f1941996-5ec6-5b61-bfda-c28cb1fb97f5		
+sample	RMS2359	Primary	C62.9 : Testis, NOS	1497	Tumor					3292ae9e-1236-57bf-8345-0be9f138f9be	cca9a146-8999-5a00-b269-0170b929b86b		
+sample	RMS2411	Primary	C31.0 : Maxillary sinus	5269	Tumor					45263ea1-1ed9-51a6-a840-9d3ad6352ab2	fabaed1f-6737-5457-8196-5035ad91216d		
+sample	RMS2335	Primary	C41.9 : Bone, NOS	2351	Tumor					2a20ba76-bc21-54a0-9184-68cde383dcf3	a68faf9c-c5b1-5084-8a12-e6dc9d96591d		
+sample	RMS2228	Primary	C11.9 : Nasopharynx, NOS	2096	Tumor					14304bec-c8ee-5081-bd1e-e75876e9a98e	bd4d4adc-48eb-5eb3-b274-8649c0aa89b6		
+sample	RMS2168	Metastatic	C48.2 : Peritoneum, NOS	1979	Tumor					45caf874-4ec8-58a2-a8be-445833946b1e	3be7fa03-2ff3-5834-b9c7-17b5f84e7a31		
+sample	RMS2426	Primary	C05.2 : Uvula	777	Tumor					958a190c-a3b1-52ff-b4ab-3f4b783a66df	2cb56404-2549-50db-ac35-7719d4b030ff		
+sample	RMS2174	Metastatic	C76.3 : Pelvis, NOS	2245	Tumor					37b4c958-1ada-56db-a012-2a21f40a4109	e9e3a8ba-1d63-5182-9c19-b71ca8212e4e		
+sample	RMS2365	Primary	C80 : UNKNOWN PRIMARY SITE	6066	Tumor					e4c1f296-aa8c-5276-a126-fe394ed0ad21	faafd1f0-28df-52f5-a51e-8e415396be4c		
+sample	RMS2405	Primary	C30.0 : Nasal cavity	4188	Tumor					ab1249d8-daa5-5227-815d-b5fa903e59f5	79ca7683-3fe2-5815-8a72-53438c38da08		
+sample	RMS2259	Primary	C71.9 : Brain, NOS	1720	Tumor					ec649994-60e4-500d-9ecd-9b66d5c4909f	4cb25f13-25bd-5632-8a0b-775baba29759		
+sample	RMS2234	Primary	C44.2 : External ear	1763	Tumor					afe7e023-2364-5f97-bb72-a4ecd642f6f7	41100b8b-1d46-52c6-8a0c-7c1e575f1937		
+sample	RMS2354	Primary	C62.9 : Testis, NOS	3754	Tumor					31a1bdd9-6e06-50f3-afa0-3caa21221f29	08965823-9033-5688-a88c-9509f569db21		
+sample	RMS2451	Primary	C69.9 : Eye, NOS	3411	Tumor					7c6661c4-adb6-5748-8e71-688b43550525	9d2dec46-6f50-5292-b71a-8d5da01921d3		
+sample	RMS2254	Primary	C42.1 : Bone marrow	1288	Tumor					69c313ec-ab58-5783-9844-11e4937772b2	4c9d9a01-4f55-5533-85ea-9d611394f090		
+sample	RMS2484	Primary	C69.9 : Eye, NOS	1552	Tumor					e0a4f88d-2ba1-5bd3-9af1-9e04bd57b37a	f1bac757-d0a4-5ae8-92c4-0de5d8c5c6c0		
+sample	RMS2425	Metastatic	C62.9 : Testis, NOS	5284	Tumor					486972ab-14e3-5bf0-b1ac-fa305842a258	e42e27b5-48b1-5946-bd9b-a8a48e245701		
+sample	RMS2377	Primary	C06.0 : Cheek mucosa	1146	Tumor					35d7bb00-16ff-5da0-be24-e057418124cb	7cefaba6-82fe-5bbd-8296-cd377c1f653a		
+sample	RMS2362	Primary	C55.9 : Uterus, NOS	6245	Tumor					ec2b892a-f6ec-51b0-9ebe-fe8367706444	18954a0c-048c-5466-b776-5ad7ad76f25b		
+sample	RMS2399	Primary	C76.4 : Hand, NOS	5123	Tumor					8c61fc1a-3044-5c4d-b812-86da63d5a45e	7e7df71d-7401-5ce6-b876-a4d1ed7367b7		
+sample	RMS2268	Primary	C76.2 : Abdomen, NOS	2282	Tumor					a8c85e07-cc43-5538-83bf-96c84c5acebe	159e0149-fed0-5b2c-975e-95b39363cff7		
+sample	RMS2437	Primary	C62.9 : Testis, NOS	2023	Tumor					f3e813e2-477b-56af-a736-407fbb071663	79800e4c-cf91-567d-a494-74ab6cc25bef		
+sample	RMS2457	Primary	C76.3 : Perineum, NOS	21	Tumor					6df4d5fe-5a0d-5463-a0e6-7fd723bdbad4	eb987119-7fc9-508e-9fe6-3e56bafba09b		
+sample	RMS2176	Metastatic	C76.3 : Pelvis, NOS	2691	Tumor					af863e87-c748-5c05-a175-d48ee65a23c6	1a36114a-ffad-54b1-822a-fa64836536d8		
+sample	RMS2189	Metastatic	C76.5 : Lower limb, NOS	4565	Tumor					12b6653a-3e7d-5ca2-88bb-b93dec953499	0725fd1d-5fe9-5d94-b533-c47b382588bc		
+sample	RMS2229	Primary	C30.0 : Nasal cavity	1541	Tumor					ddadb9fa-2d99-5fc5-a3d4-99726b7af728	914c54bc-f2e7-56ba-97d1-27b1a00e8100		
+sample	RMS2160	Metastatic	C76.5 : Lower limb, NOS	959	Tumor					a1c607d7-0f2f-51ac-823d-725615bced4a	b08e1b3b-83da-5073-940b-c9c5cbc71762		
+sample	RMS2383	Primary	C62.9 : Testis, NOS	5499	Tumor					70824a30-d7ea-5c06-8ae4-2f06a5357c5d	aaf199cd-3d50-5d59-8131-5178377a94d5		
+sample	RMS2380	Primary	C06.0 : Cheek mucosa	6300	Tumor					f26f245b-b3bc-5271-9ce7-350724865c75	78bfd7ff-0939-520f-88ef-ac76a87e3efa		
+sample	RMS2255	Primary	C44.2 : External ear	908	Tumor					0e39d048-3b5d-59fd-a805-4cd48c38407d	bb0d8f7a-26d2-592c-be6c-e3fefa435458		
+sample	RMS2435	Primary	C62.9 : Testis, NOS	1658	Tumor					e6edb288-10a6-5b6f-8f9b-1312d92b3e4d	5967dd12-0a09-5e9e-955d-96989c2530c7		
+sample	RMS2264	Primary	C76.3 : Pelvis, NOS	1397	Tumor					f2089fb9-964d-5267-becf-5c2669de1d1d	de8f49e4-6368-53b1-9b87-ced02bbf3d77		
+sample	RMS2341	Metastatic	C76.0 : Head, face or neck, NOS	1778	Tumor					02238ef5-2ca7-5ddb-88eb-960723fa7a5e	c56aec8c-848b-57b7-b883-ce738c6515e1		
+sample	RMS2514	Metastatic	C44.2 : External ear	2253	Tumor					679ed3ab-49d1-5965-901a-ead4e8321c90	0c349bd7-b58b-5e9a-9abe-f3282b96ca0b		
+sample	RMS2471	Primary	C62.9 : Testis, NOS	3400	Tumor					d2aff273-7c85-57bb-a204-16b542737fd8	a7d7616e-8047-5d40-a608-70502b894b69		
+sample	RMS2314	Primary	C76.5 : Thigh, NOS	872	Tumor					f9608c41-e52e-5db1-bd73-feb2c3b94218	216e871f-d710-5984-98d1-996f4349b739		
+sample	RMS2288	Primary	C76.2 : Abdomen, NOS	602	Tumor					37c22cf0-38cf-5bd6-a38e-8affafb6f994	6ce43c4a-dcde-5c3d-bc42-4cb2999cc2f4		
+sample	RMS2184	Metastatic	C80 : UNKNOWN PRIMARY SITE	3491	Tumor					ae423021-a93f-5f48-a7a4-af9af741926e	a35f7b83-85e9-55e7-a532-fe50166800ff		
+sample	RMS2219	Primary	C77.9 : Lymph node, NOS	2556	Tumor					03c2b790-3cf8-5222-875a-8e09b9b8563f	f044735d-c803-5c63-90f2-8a7ff4f75e21		
+sample	RMS2332	Primary	C69.6 : Orbit, NOS	2015	Tumor					62c729eb-a865-5efc-a144-20c5afe50376	2c0dbdff-b2eb-53ed-81c4-eb94a0fbea5e		
+sample	RMS2256	Primary	C44.2 : External ear	1690	Tumor					79239623-835a-537e-bde0-aea9d394b898	e23db3fb-5b1f-5cd2-9362-86b26aca23c3		
+sample	RMS2344	Primary	C62.9 : Testis, NOS	3221	Tumor					93efa8fc-2de5-5080-a59a-c1c824cadc7b	f7753780-46eb-55f9-bd63-64cbb94c6cb2		
+sample	RMS2366	Primary	C69.9 : Eye, NOS	1566	Tumor					bf31bcb1-ceaa-5687-ba39-fdcb029e1c7a	1d903b19-3004-5020-9681-149eff421204		
+sample	RMS2368	Primary	C62.9 : Testis, NOS	6260	Tumor					0cada87c-0ea0-5c63-ba51-30dd2e829d95	bf3c1412-4205-531c-a649-8420ac4aa0d1		
+sample	RMS2421	Metastatic	C72 : SPINAL CORD, CRANIAL NERVES, AND OTHER PARTS OF CENTRAL NERVOUS SYSTEM	1566	Tumor					8e52fda3-a620-54f0-a856-2e6379757725	b6b3a9c5-ac3f-52aa-ab7a-8850c618c855		
+sample	RMS2379	Primary	C69.6 : Orbit, NOS	2282	Tumor					8a45bcae-76ba-551a-9e03-c69d712a5130	ff3939bf-730e-58d7-ba15-942929b8ff30		
+sample	RMS2398	Primary	C76.4 : Upper limb, NOS	2577	Tumor					88d0bf93-4a6f-58e2-8a06-862f4dc37a16	f9836a62-66ed-5571-8017-6c263009469f		
+sample	RMS2204	Metastatic	C76.5 : Foot, NOS	6285	Tumor					dfe76f80-26bc-50fd-8937-32c978e40111	eef6bbe6-fff8-5df7-91e3-2e8ceebd9e13		
+sample	RMS2463	Metastatic	C76.2 : Abdomen, NOS	1219	Tumor					be156d5e-4be3-58fc-9bba-4ecd0e4693b0	87ac2dda-d30d-5bc2-bfef-dc68ea1f9eae		
+sample	RMS2172	Metastatic	C76.5 : Foot, NOS	3936	Tumor					7b9bd2f3-fc76-561a-874b-0bd78f54cee6	d67b824e-7daf-5b62-90db-5637a239e361		
+sample	RMS2300	Primary	C76.2 : Abdomen, NOS	894	Tumor					e6acdc76-33b8-529a-b8b2-16b173960ba9	e3022aab-6690-5d89-93a0-92863315f4f5		
+sample	RMS2246	Primary	C76.3 : Pelvis, NOS	200	Tumor					10d9c5fa-bc34-5a88-b93b-844630da6858	6b08cb82-144f-5daa-b3d6-d523c7ec04fe		
+sample	RMS2438	Primary	C62.9 : Testis, NOS	1468	Tumor					0dfde7c6-e4d4-5cfe-aec0-36da90fe6cb7	985e56fd-4310-5786-b859-10af605cfde9		
+sample	RMS2351	Primary	C62.9 : Testis, NOS	3392	Tumor					9b2e162d-3784-508f-bef2-85df87124dab	9060beac-2d97-5176-8eb6-adab425abc24		
+sample	RMS2191	Primary	C76.3 : Pelvis, NOS	3276	Tumor					eb530843-7944-5050-8912-f356cc701fc7	cd91bbed-c065-5426-b2ed-a883eafc2a95		
+sample	RMS2293	Primary	C48.0 : Retroperitoneum	1222	Tumor					6390de42-ed25-564d-a3ec-64a6d2714e7a	d6c34688-2017-54eb-a52b-af0f37014dfc		
+sample	RMS2355	Primary	C76.0 : Head, face or neck, NOS	1534	Tumor					b6396e05-0939-5871-a0b8-238e5d18bd9a	5e061f63-0245-547e-8fdb-2b98c41644d7		
+sample	RMS2232	Primary	C11.9 : Nasopharynx, NOS	2008	Tumor					ac628a8c-3bf7-5714-9d35-62943cdb5747	6bc183d7-bb7a-56db-95b6-b4cf0f711ec4		
+sample	RMS2386	Primary	C05.1 : Soft palate, NOS	3681	Tumor					80ba1f88-e798-5375-a569-8f2ac6487a8a	c23c8d81-ea09-58bb-b8b1-3dbc38c419dc		
+sample	RMS2473	Primary	C76.0 : Head, face or neck, NOS	2366	Tumor					57b2ffc8-8707-5333-91d1-7f189e4ac73c	f707e0c5-93fa-5484-8ec6-96ec35c2138c		
+sample	RMS2303	Primary	C76.4 : Upper limb, NOS	1018	Tumor					400c4d05-4bb3-5cf0-a97b-c9cf9b4c6a89	25386806-f093-5b2c-896d-6ed20a260e97		
+sample	RMS2122	Primary	C80 : UNKNOWN PRIMARY SITE	5755	Tumor					53a80661-f83e-51f1-a11b-ed07c907c185	d6b95092-3bf6-5f60-b376-f3e71d51bd01		
+sample	RMS2198	Metastatic	C76.5 : Thigh, NOS	2260	Tumor					79d6194d-f729-573d-ab67-009bf7e293fb	dd94f036-65a8-5333-a7a7-76cff656b01d		
+sample	RMS2230	Primary	C69.9 : Eye, NOS	2559	Tumor					06d4b3a7-8bd6-52b2-8881-9bd8de4c434e	fe4eab6b-2e19-5b61-b255-a482406ba5d3		
+sample	RMS2495	Primary	C30.0 : Nasal cavity	2366	Tumor					5de418ee-340c-5069-bf6b-9c1dbe549053	ba68e206-d861-5cef-be2f-d7b7c06a9c6c		
+sample	RMS2181	Metastatic	C76.5 : Thigh, NOS	1226	Tumor					46849b32-8ced-5fdd-87cc-4b16b3ab0059	2a3ff0c3-01de-5eee-a340-e5ffdbf68f7d		
+sample	RMS2248	Primary	C14.0 : Pharynx, NOS	7721	Tumor					56a2e76a-3466-582d-8c85-e59e28c8906c	4043ef74-b844-58cd-9951-8b3874a497ff		
+sample	RMS2162	Metastatic	C76.5 : Thigh, NOS	2267	Tumor					9a824628-2fa8-5c2e-8598-323f52cd11ea	d9d3a1fc-d935-51a6-8c28-70ff59fc50fd		
+sample	RMS2356	Primary	C62.9 : Testis, NOS	7790	Tumor					4ad37b23-dc91-5066-862b-38f8896e162a	878930dd-e753-5a3b-8417-aef163589620		
+sample	RMS2140	Primary	C80 : UNKNOWN PRIMARY SITE	390	Tumor					4d9abed7-bb77-5608-bcb0-70ecba2e56cc	05ead7b6-885b-5f13-acce-68b392524cea		
+sample	RMS2183	Metastatic	C80 : UNKNOWN PRIMARY SITE	1796	Tumor					c275fc51-8f48-5fff-a4c1-db51447e008b	b1d9e373-2f0e-51f9-8ed6-ad11a9e2c254		
+sample	RMS2148	Primary	C80 : UNKNOWN PRIMARY SITE	3714	Tumor					1be9e90c-2e24-554c-bc63-5f7f8252a6bc	14a570e3-b10a-59a6-a81b-d04fe959e19c		
+sample	RMS2408	Primary	C44.2 : External ear	1427	Tumor					a43a9621-02c6-5d5e-8737-ab550272de9d	c32cbb60-7f6b-547f-851e-1cf5019470d5		
+sample	RMS2310	Primary	C76.4 : Upper limb, NOS	452	Tumor					d85c7eea-70ae-5038-94b2-8e7185f1975a	a09120fd-aec7-5963-b00e-3a63cf9f003c		
+sample	RMS2276	Primary	C76.7 : Other ill-defined sites	29	Tumor					ed6edbd3-f206-5fd1-aae7-3e28b27c1cf9	0bd620ac-c88f-5a48-ab3c-d272bf5f44dd		
+sample	RMS2330	Primary	C62.9 : Testis, NOS	1530	Tumor					44e220d4-a5c3-55cc-9831-4d41a214d375	4569d147-c7db-5123-9a88-12974de108c4		
+sample	RMS2178	Primary	C61.9 : Prostate gland	7154	Tumor					efdf743d-18bf-50f7-b6de-3ca21cd5dd49	f8b445f9-8889-5b40-8328-f0876ca046d7		
+sample	RMS2370	Primary	C41.0 : Bones of skull and face and associated joints	2023	Tumor					e6716fa3-dc07-556b-900e-43c38d367288	cbe6a9f7-b835-59fe-8aa4-3d8c98e9f613		
+sample	RMS2187	Primary	C61.9 : Prostate gland	4279	Tumor					961a6cd4-8e78-58c2-b1e6-22ccd3285a93	f9d35002-fec5-524d-8b90-dea0078ff47d		
+sample	RMS2167	Metastatic	C76.2 : Abdomen, NOS	1193	Tumor					12f4c434-6807-5799-9c5d-bcb6fa8f3e14	7d87a4d3-8d18-52f9-8b31-bf0a7ff20028		
+sample	RMS2213	Metastatic	C76.2 : Abdomen, NOS	1171	Tumor					985226e4-f407-5e3b-81d2-82b4dd2ddeb7	40373f0b-3ceb-5ba6-8c6d-439a1071e7c7		
+sample	RMS2369	Primary	C63.2 : Scrotum, NOS	886	Tumor					bb64c3d8-cc46-5851-b02f-c8af52e2c81a	2a5c36c0-c139-5243-89f4-5d7b06c472bd		
+sample	RMS2440	Primary	C44.1 : Eyelid	2818	Tumor					588bde99-959c-5ff1-a9c8-b57b5cf392e2	201e9ec2-87a5-569b-89f6-3b3da6b20e47		
+sample	RMS2329	Primary	C51.9 : Vulva, NOS	6216	Tumor					df5df838-d18d-5d72-af6d-6a1b3cff229e	49eb48ad-0844-524e-8369-18f36af962dc		
+sample	RMS2266	Primary	C50.9 : Breast, NOS	5291	Tumor					fd48e2a7-ebe1-573f-b24a-2796a48f07e0	5cceda11-fba0-5290-9665-2450d54ce4f3		
+sample	RMS2201	Metastatic	C06.0 : Cheek mucosa	13802	Tumor					c4063bb7-c7dc-5ccb-aa99-71db8feb3bb4	800f13dd-1be0-5f70-8daf-60ae692b3654		
+sample	RMS2427	Primary	C69.6 : Orbit, NOS	2431	Tumor					2351914d-4f10-5884-ba67-c644d1587a59	bc3ff548-4705-5a5d-8621-ec07e3a8d836		
+sample	RMS2492	Primary	C62.9 : Testis, NOS	3987	Tumor					104ad39f-8d37-5957-8d9f-3f527f2ecfe1	4a125296-52c1-5499-ad8b-3bb4c6aa6966		
+sample	RMS2472	Primary	C67.9 : Bladder, NOS	2508	Tumor					aedd03a5-7848-5f3b-813e-d413a60c2fb0	3fe82c07-f19f-5618-8b22-b6e8800e11cb		
+sample	RMS2211	Primary	C80 : UNKNOWN PRIMARY SITE	2512	Tumor					ce9d7f1f-5a98-5bce-b4c0-34939547000f	8914c63e-505a-58ec-9c39-faf58aed3582		
+sample	RMS2388	Primary	C76.5 : Thigh, NOS	810	Tumor					0ffd85ef-298d-56e2-ae84-beec117ae1a6	6854111c-8c02-5fe7-b5d3-8ecba4b720c2		
+sample	RMS2480	Primary	C62.9 : Testis, NOS	5594	Tumor					07a8307b-b60d-5e63-99c4-5b4a346a5ce2	81de19e7-1282-5b2b-9a9f-f284a17f2035		
+sample	RMS2465	Primary	C69.9 : Eye, NOS	1357	Tumor					c43b7975-77b6-52de-b200-63a5a09ba5b0	0f15d48e-e8a8-5f6f-b31d-87bb46c9de96		
+sample	RMS2249	Primary	C67.9 : Bladder, NOS	2103	Tumor					8f6d0014-f8bd-5092-af64-cc8e0a9900bd	748385f3-88b9-5863-9e3d-1c4f0d9026be		
+sample	RMS2391	Primary	C80 : UNKNOWN PRIMARY SITE	2475	Tumor					6ce3d259-f5b2-5b76-88ba-2ba670e1b45b	515a6ad8-84f8-5030-a427-f30eefab1946		
+sample	RMS2431	Primary	C41.0 : Bones of skull and face and associated joints	1197	Tumor					8a794411-dd7b-5667-aed2-a712e7973fd6	89ee2ca0-c68e-56fb-9f95-9f5ed59182c5		
+sample	RMS2197	Metastatic	C14.0 : Pharynx, NOS	54	Tumor					bdbd9197-573f-5d8d-91fe-d1513b86abdd	9b579465-f7c1-5cae-b8db-2c12f220c454		
+sample	RMS2281	Primary	C76.3 : Pelvis, NOS	4246	Tumor					1d53fc4e-88b8-5be2-8626-5498fa8aec9b	5d865005-7108-521a-afb6-ed2590ea92c7		
+sample	RMS2263	Metastatic	C76.4 : Upper limb, NOS	6041	Tumor					2a15aebf-1195-5b53-9459-b5872c488dfb	e9c0c000-97ee-5a93-97d3-14dbf2512c80		
+sample	RMS2331	Metastatic	C76.1 : Chest wall, NOS	6464	Tumor					3724f394-bd3b-5f2f-9872-7c014ca00acc	0ef53d8b-e3bf-5645-a574-95057e7b6264		
+sample	RMS2125	Primary	C80 : UNKNOWN PRIMARY SITE	3633	Tumor					09fd7a56-7f98-55c9-a9aa-3b2eeab086d9	b8072ee8-dd97-572b-aa6f-642f9b77b489		
+sample	RMS2485	Primary	C44.2 : External ear	2329	Tumor					e8db1458-7757-5a57-ad54-bfae7a6adf04	3904eec2-6af6-5c9b-8457-7ca47310fa7c		
+sample	RMS2392	Primary	C76.5 : Foot, NOS	3688	Tumor					e3eab9de-ec77-5962-adf1-e14fe23f2d64	b8e3e354-d860-5abe-b702-acee9b69397a		
+sample	RMS2152	Metastatic	C76.5 : Thigh, NOS	3823	Tumor					4219b1f3-97d0-5819-8cbb-26244d52f27c	ec3a23c8-1411-5053-a39b-5cb16fc2b4c2		
+sample	RMS2490	Primary	C30.0 : Nasal cavity	835	Tumor					632e9b84-94ba-5b34-8db1-5195c555e903	724763c3-c8b0-5b24-9b3e-4c1754abe2d3		
+sample	RMS2290	Metastatic	C76.7 : Other ill-defined sites	1756	Tumor					38d4457f-df35-5646-bf44-daacc62a3df6	53264719-5b8c-57fb-a2aa-4e3d12845496		
+sample	RMS2358	Primary	C69.9 : Eye, NOS	2895	Tumor					3fbb002b-c714-5609-8696-5d11514c5399	177ff631-5fd9-5b87-8d79-80c027863088		
+sample	RMS2240	Primary	C76.3 : Pelvis, NOS	127	Tumor					b325dbfd-3ec9-5016-b6e5-2600cb346125	74205ff3-f724-5791-8ea3-b75421f74620		
+sample	RMS2273	Primary	C76.5 : Lower limb, NOS	719	Tumor					8d8ec03e-c158-50e3-b8d4-db1855af7b9d	20e6e2e6-ecbd-5500-89fa-f866b9f3e5ca		
+sample	RMS2311	Primary	C76.7 : Other ill-defined sites	65	Tumor					37063179-6569-5ad0-a818-5c5d81f01cba	cf2f86ec-2209-5375-97ba-d027043715f5		
+sample	RMS2376	Primary	C63.2 : Scrotum, NOS	5299	Tumor					9c10d0f1-ea11-5c51-a9d1-779474dba182	78f2a04f-6096-5da0-8a1c-53a06cd9cabe		
+sample	RMS2512	Primary	C61.9 : Prostate gland	2625	Tumor					90889379-1ded-5f1f-8d96-4fdee56bbb2a	fb4fb316-29dd-5b31-b046-f3e7bbfb9de7		
+sample	RMS2278	Primary	C76.2 : Abdomen, NOS	751	Tumor					4c568bca-6b0c-5972-9d7b-7d4ffd9f2e9c	3e29f563-2ddf-5b8f-946b-5ff7aa67e07a		
+sample	RMS2136	Primary	C80 : UNKNOWN PRIMARY SITE	16527	Tumor					849d1c62-1307-5275-b630-046d16eceb40	745027e8-1b28-5926-9fd0-63856453f864		
+sample	RMS2455	Metastatic	C76.2 : Abdomen, NOS	1394	Tumor					2cee1a56-a092-5e2f-837a-82f44260af13	a0ea1013-c5c3-5d47-bb48-49ee289652b4		
+sample	RMS2402	Primary	C62.9 : Testis, NOS	2969	Tumor					ef0f2e80-def3-59c1-a87c-cd744274bd35	ef408f7a-149f-54cc-be37-0098f34594f5		
+sample	RMS2339	Metastatic	C76.5 : Thigh, NOS	5072	Tumor					5a53495c-1b73-59f7-9f0d-b3abd0233068	7a221d18-e1ab-5d4b-8eab-08d42efc7b74		
+sample	RMS2322	Metastatic	C76.4 : Upper limb, NOS	2541	Tumor					551fa877-8d3b-5531-8163-7aa278137fae	4511eec8-e95d-54d4-bf6c-66ee7fecd955		
+sample	RMS2210	Primary	C09.9 : Tonsil, NOS	1401	Tumor					86b1ed94-3184-5567-89e4-2e6f78132f80	ea1deae6-b674-5d85-b63b-d67b49a4d556		
+sample	RMS2343	Primary	C62.9 : Testis, NOS	1891	Tumor					d0bf852f-6663-5dec-8a03-4a1c29a10431	b7002925-8e76-5b5f-84ae-2ef3437ffcd9		
+sample	RMS2406	Primary	C30.0 : Nasal cavity	916	Tumor					1ade3536-f6fd-59a6-ad85-7dc6f2a55bff	f1538bc4-f858-568f-b793-a46cd18d2dda		
+sample	RMS2177	Metastatic	C30.0 : Nasal cavity	4079	Tumor					2761b1b0-e340-5371-a24e-e0701b76155c	8114332c-4f94-55c0-b45c-e3bbf74a8fc4		
+sample	RMS2220	Metastatic	C76.2 : Abdomen, NOS	1471	Tumor					bcb91282-76c9-5963-8895-23595f5a17c5	4279ab77-335e-5d9b-ae8c-c3b7235e085c		
+sample	RMS2292	Metastatic	C38.3 : Mediastinum, NOS	3849	Tumor					2d6263e0-e497-5b27-bc13-71a9abb43142	f0871a65-06c7-56b7-97b8-dd6dcfe0cf25		
+sample	RMS2441	Primary	C62.9 : Testis, NOS	6073	Tumor					84fde092-9bf4-5579-aa1c-be04c34157df	83cb8ed5-6a2a-593e-9059-c73a0fafde8b		
+sample	RMS2324	Primary	C76.2 : Abdomen, NOS	401	Tumor					fdedf243-c7e7-5965-9567-830b34219738	74afbe70-de5d-551e-b81f-bcfc773eabbe		
+sample	RMS2306	Metastatic	C48.0 : Retroperitoneum	1504	Tumor					99b788b0-199f-58d8-b350-4907e41153b9	e5e2052e-1d0b-568a-96a3-145ccf969db5		
+sample	RMS2423	Metastatic	C62.9 : Testis, NOS	5273	Tumor					8e5f983d-f3fd-56c1-bc36-9281f1a64890	f7ea9d6b-468e-52e6-be47-69488f485b31		
+sample	RMS2313	Primary	C76.1 : Chest wall, NOS	872	Tumor					9b1a518c-40d8-510c-adb0-400e32916c2a	6dd8af19-ba3d-5b2a-9fb7-20e6f3a34e61		
+sample	RMS2450	Primary	C41.0 : Bones of skull and face and associated joints	1683	Tumor					52f29942-e293-5ec1-bfd1-4bfcc3ac71cf	5a9bacad-448f-5c75-8794-11185fbb764c		
+sample	RMS2503	Primary	C11.9 : Nasopharynx, NOS	2395	Tumor					dbfbc540-3274-5df1-bf41-7f747fb59e53	877f5d9e-cdd6-5e48-93fb-f545d8a2889a		
+sample	RMS2258	Primary	C10.9 : Oropharynx, NOS	4441	Tumor					3a5d0a28-5035-572a-96e3-1a9688e66d82	cf1f538c-572a-5254-bb23-630c744c91b8		
+sample	RMS2127	Not Reported	C80 : UNKNOWN PRIMARY SITE	5924	Tumor					e7baa388-2755-5876-93dd-24991737afd9	c9d94f7d-8e2d-52f1-9bd6-5e3247c43e26		
+sample	RMS2479	Primary	C62.9 : Testis, NOS	427	Tumor					7f306c9a-c417-5416-aef1-4aa6a5a4d357	a363d42c-3312-53f4-8303-2ec2460729d9		
+sample	RMS2209	Metastatic	C76.3 : Pelvis, NOS	2785	Tumor					a4b1ae0a-2397-5aac-9716-0a11290f47b9	a3f0c175-8e54-55ac-829f-c860eae60601		
+sample	RMS2156	Metastatic	C76.1 : Chest wall, NOS	3221	Tumor					706d50e7-dc9f-532f-81fe-faef47c904cf	9cd7bf46-2be6-5c47-9dbc-613eb7130072		
+sample	RMS2146	Primary	C80 : UNKNOWN PRIMARY SITE	558	Tumor					e2ca3cca-121f-52e1-977d-bb93a2663319	3559327e-720d-5443-b57d-06b68ced0a28		
+sample	RMS2428	Primary	C69.6 : Orbit, NOS	2406	Tumor					4f7d5d97-beab-5073-85ad-4b6e9892b77c	037c0edf-66fc-531f-80d7-b525f14ebc79		
+sample	RMS2315	Primary	C48.0 : Retroperitoneum	1073	Tumor					1b48e933-80a2-5156-bd60-75a3c30bbb66	05917d28-bf5b-5db1-b004-5c517b9be087		
+sample	RMS2212	Primary	C41.0 : Bones of skull and face and associated joints	1354	Tumor					12b57e02-33dd-562b-b03c-40965df3b145	eb945ffe-8ed0-511a-96b0-08fdcb68faa1		
+sample	RMS2149	Primary	C80 : UNKNOWN PRIMARY SITE	740	Tumor					2703de75-3460-5cc3-b87b-06b31bc654c9	98c3456d-2b1f-52bd-a6a1-f10eee0062ef		
+sample	RMS2474	Primary	C80 : UNKNOWN PRIMARY SITE	3148	Tumor					fdff7f48-114a-5cab-a3e4-a1ed7024da90	b5a660bc-73dc-5fa9-a95e-9483b7827c76		
+sample	RMS2486	Primary	C62.9 : Testis, NOS	5324	Tumor					df6cec64-0ff5-5f39-89ae-2ae3bcb49fa1	329af314-2545-5ac7-a2f8-9b5b356938a7		
+sample	RMS2338	Primary	C62.9 : Testis, NOS	6960	Tumor					fb394fb0-1210-59ff-9f3d-aea23f5dbdb2	0ea0bfce-52f8-5e42-a6f1-d6ddeae1cf5b		
+sample	RMS2165	Metastatic	C76.4 : Hand, NOS	4122	Tumor					d809bf06-912e-5afe-9377-23e67dc41d68	dd537c6f-0b77-5401-83c1-d6a29a9c3eee		
+sample	RMS2262	Primary	C05.1 : Soft palate, NOS	2577	Tumor					3fa7876a-b7a9-56e8-86d5-e7a6babdb14a	1dd53421-9191-51bc-a45d-78e80a53c4db		
+sample	RMS2349	Primary	C62.9 : Testis, NOS	2943	Tumor					af182244-bce0-5802-94d9-e864d7805ebe	bbc72cea-0d78-5097-890e-d1bb16acf8f3		
+sample	RMS2520	Metastatic	C76.3 : Pelvis, NOS	3082	Tumor					974d8a20-2d97-558f-a69a-593964b76d8f	9bcf4c39-8f86-5f18-9ec5-6b8e5196947e		
+sample	RMS2374	Primary	C62.9 : Testis, NOS	897	Tumor					92a3e1be-fee3-56c3-9643-1f0e6f6939c2	5623f397-087e-53d4-b23b-1641d01bac11		
+sample	RMS2171	Metastatic	C76.3 : Pelvis, NOS	1745	Tumor					ddc43ee1-e464-516e-99f5-364f6156e372	492b64b9-f1b7-53e4-985f-ba025d74d780		
+sample	RMS2275	Primary	C76.4 : Upper limb, NOS	5565	Tumor					4f966603-8ccd-5628-bbda-fe12e3f4bfce	5eb145ff-980f-566f-ac73-dfd365e947f1		
+sample	RMS2347	Primary	C62.9 : Testis, NOS	2727	Tumor					894d2e66-d466-5d3a-bf8d-80857ae08f02	1f69f432-4ed0-5748-a75f-37a0cdb08b18		
+sample	RMS2286	Primary	C76.2 : Abdomen, NOS	7	Tumor					d40354fd-2bb1-5534-b50f-ebeec9166723	fb1afaec-d0a3-56ea-8652-d64d0438da77		
+sample	RMS2508	Primary	C11.9 : Nasopharynx, NOS	3049	Tumor					7764ed1b-507f-5193-b1bd-b0035bcd0264	5a321118-192a-5a2d-a874-c4efdfce5c39		
+sample	RMS2401	Primary	C11.9 : Nasopharynx, NOS	1441	Tumor					217ac9b2-bb60-5ff8-b4c7-f6b8617ee80b	37404a5c-b489-51ee-8621-8a2a1e6038f5		
+sample	RMS2371	Primary	C62.9 : Testis, NOS	8919	Tumor					fd83f825-4f0b-56c9-8c18-328d8a54a0eb	35cfea46-b512-5c40-9151-64d387034ac7		
+sample	RMS2443	Primary	C55.9 : Uterus, NOS	5722	Tumor					e8eba091-2188-5d6a-a4a6-ed90c7c7cc52	352abdd5-eeb5-5148-99b8-cf9771bc915c		
+sample	RMS2144	Primary	C80 : UNKNOWN PRIMARY SITE	1069	Tumor					17209dff-5d76-52b8-8658-7d66440fac58	d05dba5d-9c01-55d2-a8dd-c2c67703f865		
+sample	RMS2491	Primary	C62.9 : Testis, NOS	3261	Tumor					8bab0a83-8dcd-5436-8b66-203d52b12105	890236a9-b51f-5103-b0c2-a539648a2139		
+sample	RMS2237	Primary	C44.2 : External ear	667	Tumor					809ed4dd-4848-51f5-af24-23b9e20b515f	a7cc000d-7b46-59ea-919e-ae246c6581eb		
+sample	RMS2447	Primary	C69.6 : Orbit, NOS	4547	Tumor					46ca003f-6632-5319-a62f-2d6dad88c58f	9904bfe8-58e7-5dff-b814-6ca5dc1f1d5b		
+sample	RMS2342	Primary	C62.9 : Testis, NOS	2995	Tumor					3da47cc4-c3c0-5ae5-aa96-9a9e6bc047f8	c5d8e60e-f709-55a5-b529-e2e1735d48a8		
+sample	RMS2295	Primary	C34.9 : Lung, NOS	1379	Tumor					791820f3-6fe1-5eee-afe3-7b65224b2f7d	13dc4967-9879-5a2b-bedf-b038436c476f		
+sample	RMS2194	Metastatic	C76.5 : Lower limb, NOS	1683	Tumor					67e2c96f-ff02-5054-90ef-28ff6481471b	186016d9-9d6d-58d1-ac89-2fe7a6308241		
+sample	RMS2309	Primary	C40.2 : Long bones of lower limb and associated joints	5986	Tumor					828064d0-23b9-5258-be9c-ce26b029b22f	c7e0811f-8336-5833-abc8-3188032c962d		
+sample	RMS2404	Primary	C52.9 : Vagina, NOS	653	Tumor					768e022c-3560-5009-8f91-a0d9aece54d6	ad798c7e-25c8-5587-81cb-7a056b1d1f17		
+sample	RMS2142	Primary	C80 : UNKNOWN PRIMARY SITE	1149	Tumor					97505e5f-a46d-5993-8ba3-d8fc3e9608c0	64b94e7e-afde-5c8f-b148-86f4e7a31dbd		
+sample	RMS2164	Metastatic	C76.5 : Foot, NOS	3407	Tumor					51f9028b-71f0-59ab-af43-1573f4596d39	f8b1d58a-f463-5534-8f3f-cde179b3cd3b		
+sample	RMS2483	Primary	C69.9 : Eye, NOS	824	Tumor					673fd436-49c7-5f06-9847-b55ae0d2e99f	aaaf80fb-13c5-5c48-bd2a-a1a3e619cbef		
+sample	RMS2460	Primary	C80 : UNKNOWN PRIMARY SITE	416	Tumor					9cd6ba16-9838-5baf-ac21-c7e8d7ccdfeb	38634f94-bb51-52fb-9857-7848fd4a9cf0		
