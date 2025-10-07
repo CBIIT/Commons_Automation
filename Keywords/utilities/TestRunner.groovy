@@ -646,12 +646,15 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 
 		//@@@@@@@@@@@@@@@@@@  COLLECTING THE TABLE BODY DATA @@@@@@@@@@@@@@@
 		int counter=1;
-		if (statValue !=0) {
 
-			int maxRows = Math.min(convStringtoInt(statVal1), 100)  // cap to 100 total rows
-			int scrapedRows = 0
+		if(appKey.equals("CCDI")) {
+			Utils.changePaginationResultsPerPage100();
+			counter=10;
+		}
+
+		if (statValue !=0) {
 			
-			while (counter <= 10 && scrapedRows < maxRows) {
+			while (counter <= 10) {
 				wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(GlobalVariable.G_cannine_caseTblBdy)));   //the name is misleading but it is only a placeholder for all the applications
 				scrolltoViewjs(driver.findElement(By.xpath(GlobalVariable.G_cannine_caseTblBdy)))
 				TableBdy =driver.findElement(By.xpath(GlobalVariable.G_cannine_caseTblBdy))
@@ -1097,10 +1100,6 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 					}
 
 					wTableBodyData.add(data)
-					scrapedRows++
-					if (scrapedRows >= maxRows) {
-						break  // <-- this exits the for(i ...) only
-					}
 				}//for loop ends
 
 
@@ -1900,7 +1899,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 				e.printStackTrace();
 			}
 		}
-		
+
 		writeDataToExcel(uiDataRows);
 		Utils.compareSheets("WebDatasets","TsvDatasets");
 	}

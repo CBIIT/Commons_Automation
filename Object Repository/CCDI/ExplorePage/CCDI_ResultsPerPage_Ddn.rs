@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CCDI_ResultsPerPage_Ddn</name>
+   <tag></tag>
+   <elementGuidId>0814b231-c4ba-4156-9940-01e0644e4f20</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@class,'TablePagination-input')]//div[@role='button']
+</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@class,'TablePagination-input')]//div[@role='button']
+</value>
+      <webElementGuid>4521c7c8-d652-4058-80b6-c0ea340951c9</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

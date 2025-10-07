@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CCDI_ResultsPerPage_100</name>
+   <tag></tag>
+   <elementGuidId>b0c9da0c-603b-49e8-9544-2a36ea66640a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//li[@data-value='100']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//li[@data-value='100']</value>
+      <webElementGuid>d8cda1b3-17fb-4ff5-80af-60c29043dd72</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
