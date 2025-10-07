@@ -30,12 +30,7 @@ import java.util.regex.Matcher
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.webui.driver.DriverFactory
 import org.openqa.selenium.By
-
-import org.openqa.selenium.JavascriptExecutor
 import org.openqa.selenium.interactions.Actions
-import org.openqa.selenium.Keys
-import com.kms.katalon.core.webui.driver.DriverFactory
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.model.FailureHandling
 
 public class Utils {
@@ -161,9 +156,9 @@ public class Utils {
 			pyExecutablePath = "python3";
 		} else {
 			KeywordUtil.logInfo("Running locally. Using local Python executable path...");
-			//pyExecutablePath = "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3";
+			pyExecutablePath = "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3";
 			//pyExecutablePath = "C:/Users/kallakuriv2/AppData/Local/Programs/Python/Python312/python.exe";
-			pyExecutablePath = "/Users/leungvw/vincent_testEnv/bin/python3";
+			//pyExecutablePath = "/Users/leungvw/vincent_testEnv/bin/python3";
 			//pyExecutablePath = "C:/Users/epishinavv/AppData/Local/Programs/Python/Python312/python.exe";
 		}
 

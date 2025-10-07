@@ -1098,7 +1098,6 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 								break;
 						}
 					}
-
 					wTableBodyData.add(data)
 				}//for loop ends
 
