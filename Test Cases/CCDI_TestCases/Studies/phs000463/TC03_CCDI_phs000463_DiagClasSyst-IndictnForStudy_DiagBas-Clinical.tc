@@ -4,5 +4,6 @@
    <name>TC03_CCDI_phs000463_DiagClasSyst-IndictnForStudy_DiagBas-Clinical</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>c2dc1e95-52a0-4ea8-9060-c7b764ae63d9</testCaseGuid>
 </TestCaseEntity>
