@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@id=&quot;[object Object]&quot;])[5]</value>
+         <value>//div[@id='Last Known Survival Status']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@id=&quot;[object Object]&quot;])[5]</value>
-      <webElementGuid>8485ebfc-fcda-4812-a3de-21a3d0035284</webElementGuid>
+      <value>//div[@id='Last Known Survival Status']</value>
+      <webElementGuid>745efecb-bf52-4479-bc57-170edcc60086</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

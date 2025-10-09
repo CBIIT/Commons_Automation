@@ -4,5 +4,6 @@
    <name>TC04_CCDI_phs000463_StudyName_Race-NatveHawnOrOthrPacifIslnder</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>3fbea7a0-60c9-4e57-ab15-705fd242148c</testCaseGuid>
 </TestCaseEntity>

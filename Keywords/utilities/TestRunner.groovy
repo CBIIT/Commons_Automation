@@ -646,9 +646,15 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 
 		//@@@@@@@@@@@@@@@@@@  COLLECTING THE TABLE BODY DATA @@@@@@@@@@@@@@@
 		int counter=1;
-		if (statValue !=0) {
 
-			while(counter <= 10) {
+		if(appKey.equals("CCDI")) {
+			Utils.changePaginationResultsPerPage100();
+			counter=10;
+		}
+
+		if (statValue !=0) {
+			
+			while (counter <= 10) {
 				wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(GlobalVariable.G_cannine_caseTblBdy)));   //the name is misleading but it is only a placeholder for all the applications
 				scrolltoViewjs(driver.findElement(By.xpath(GlobalVariable.G_cannine_caseTblBdy)))
 				TableBdy =driver.findElement(By.xpath(GlobalVariable.G_cannine_caseTblBdy))
@@ -829,7 +835,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 							//*[@id="tableContainer"]
 								if((tbl_main).equals('//*[@id="participant_tab_table"]')){
 									System.out.println("Inside CCDI participants switch")
-									tblcol=tblcol+1;    //8-3=5 leaves out alternate id col   change to 8-2
+									tblcol=tblcol+2;    //8-3=5 leaves out alternate id col   change to 8-2
 									for (int j = 1; j <=tblcol; j = j +1) {
 										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
 										System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
@@ -1092,7 +1098,6 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 								break;
 						}
 					}
-
 					wTableBodyData.add(data)
 				}//for loop ends
 
@@ -1893,7 +1898,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 				e.printStackTrace();
 			}
 		}
-		
+
 		writeDataToExcel(uiDataRows);
 		Utils.compareSheets("WebDatasets","TsvDatasets");
 	}

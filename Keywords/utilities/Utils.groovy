@@ -30,6 +30,8 @@ import java.util.regex.Matcher
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.webui.driver.DriverFactory
 import org.openqa.selenium.By
+import org.openqa.selenium.interactions.Actions
+import com.kms.katalon.core.model.FailureHandling
 
 public class Utils {
 
@@ -512,5 +514,36 @@ public class Utils {
 		}
 
 		throw new AssertionError("Element did not disappear within " + timeoutSeconds + " seconds: " + xpath);
+	}
+
+	
+	
+	/**
+	 * This function changes the pagination dropdown to 100 results per page
+	 */
+	@Keyword
+	public static void changePaginationResultsPerPage100() {
+		
+		def driver = DriverFactory.getWebDriver()
+		def js = (JavascriptExecutor) driver
+		def actions = new Actions(driver)
+		
+		def dropdownTrigger = WebUI.findWebElement(findTestObject('CCDI/ExplorePage/CCDI_ResultsPerPage_Ddn'), 10)
+
+		try {
+			actions.moveToElement(dropdownTrigger).click().perform()
+			WebUI.delay(0.5)
+		} catch (Exception e) {
+			WebUI.comment("Normal click failed: ${e.message}")
+		}
+		
+		def choice = WebUI.findWebElement(findTestObject('CCDI/ExplorePage/CCDI_ResultsPerPage_100'), 10)
+		try {
+			WebUI.click(findTestObject('CCDI/ExplorePage/CCDI_ResultsPerPage_100'))
+		} catch (Exception e) {
+			WebUI.comment("WebUI click failed, retrying with JS: ${e.message}")
+			js.executeScript("arguments[0].scrollIntoView({block:'center'}); arguments[0].click();", choice)
+		}
+		
 	}
 }
