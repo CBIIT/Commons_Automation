@@ -37,12 +37,11 @@ import com.kms.katalon.core.util.KeywordUtil
 import java.nio.file.Paths
 
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC05_CCDI_phs002504_FileType-bam_LibStr-WXS_LibSel-PCR_DC-Sequencing.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC04_CCDI_phs002883_DiseasePhase-IniDiag_LastKnwnSurvSt-Alive_TumClass-Primary_LibrSorMat-NotReported_LibSel-PolyA.xlsx')
 
-//CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py','TsvDataParticipants')
-//CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py','TsvDataDiagnosis')
-//CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py','TsvDataSamples')
-//CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py','TsvDataFiles')
+CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py','TsvDataParticipants')
+CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py','TsvDataSamples')
+CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py','TsvDataFiles')
 
 CustomKeywords.'utilities.PythonReader.readFileQuickRun'('Statbar.py','')
 
