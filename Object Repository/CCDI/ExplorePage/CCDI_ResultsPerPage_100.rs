@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>FirstEvent-Ddn</name>
+   <name>CCDI_ResultsPerPage_100</name>
    <tag></tag>
-   <elementGuidId>5e1a2000-4d4d-4842-99f5-30732b573e53</elementGuidId>
+   <elementGuidId>b0c9da0c-603b-49e8-9544-2a36ea66640a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@id='First Event']</value>
+         <value>//li[@data-value='100']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[@id='First Event']</value>
-      <webElementGuid>c7e782e6-774f-4844-91c2-3ba781f78dea</webElementGuid>
+      <value>//li[@data-value='100']</value>
+      <webElementGuid>d8cda1b3-17fb-4ff5-80af-60c29043dd72</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
