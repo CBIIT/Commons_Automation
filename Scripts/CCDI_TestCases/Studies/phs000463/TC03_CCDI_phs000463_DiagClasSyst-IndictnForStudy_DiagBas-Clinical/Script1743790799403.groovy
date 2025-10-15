@@ -31,14 +31,14 @@ CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Study_F
 WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Study_Facet/PHS_Accession/phs000463_Chkbx'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Study_Facet/PHS_Accession/phs000463_Chkbx')
 
+WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Diagnosis-Facet/Diagnosis-Facet'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Diagnosis-Facet/Diagnosis-Facet')
+
 WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Diagnosis-Facet/Diags_Clasifctn_System/DiagClassifSystem_Ddn'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Diagnosis-Facet/Diags_Clasifctn_System/DiagClassifSystem_Ddn')
 
-WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Diagnosis-Facet/Diags_Clasifctn_System/IndicationForStudy_Chkbx'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Diagnosis-Facet/Diags_Clasifctn_System/IndicationForStudy_Chkbx')
-
-//WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Survival_Facet/Survival-Facet'), 5)
-//CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Survival_Facet/Survival-Facet')
+WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Diagnosis-Facet/Diags_Clasifctn_System/ICD-O-3.2_Chkbx'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Diagnosis-Facet/Diags_Clasifctn_System/ICD-O-3.2_Chkbx')
 
 WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Diagnosis-Facet/Diagnosis_Basis/Diagnosis_Basis_Ddn'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Diagnosis-Facet/Diagnosis_Basis/Diagnosis_Basis_Ddn')

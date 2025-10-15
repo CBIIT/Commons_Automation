@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;Library source material&quot;]</value>
+         <value>//span[text()=&quot;Library Source Material&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;Library source material&quot;]</value>
-      <webElementGuid>a11294a5-a670-4edc-9819-3c7f5fc9c0f8</webElementGuid>
+      <value>//span[text()=&quot;Library Source Material&quot;]</value>
+      <webElementGuid>2ca79ce0-179b-4514-891f-53f1eda21ea3</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -238,36 +238,148 @@
    <testCaseLink>
       <guid>2e0c7865-2dde-4fce-9168-65cb8f7c71bc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CDS_TestCases/Studies/phs002366/TC01_CDS_phs002366_SmpTumSta-NSD_SmpType-Blood_LibStr_WXS</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>7b3cec3b-5f53-46db-b538-e46132bdc339</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CDS_TestCases/Studies/phs002366/TC02_CDS_phs002366_Sex_Female_ExpStr-WXS_FileTyp-FASTQ</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>f030e409-9d5c-44da-ac48-7d09470635aa</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CDS_TestCases/Studies/phs002366/TC03_CDS_phs002366_RefGen_GRCh37_Platform-Illumina_LibSrc-Genomic</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>e4d274af-4f1b-46af-8f36-e580391ecac1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CDS_TestCases/Studies/phs002366/TC04_CDS_phs002366_LibSel-Random_LibLay-PairedEnd_InstMod-IlluminaHiSeqXTen</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>f3cffdfc-ceef-475f-befc-b9de1eb0cc4a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CDS_TestCases/Studies/phs002366/TC05_CDS_phs002366_Sex-Female_PrimDiag_LungCancer_FileType-FASTQ</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>453adc09-3e83-4cc0-943a-18a229b53b79</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs002430/TC01_CDS_phs002430_Sex-Unknown_SmpTumSta-Tumor_SmpType-NotSpecifiedindata_Filetype-fastq</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2875fe00-76ca-4768-a6e3-75082fb1b8c6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs002430/TC02_CDS_phs002430_Sex-NotSpecified_Experimental-strategy-RNA-Seq_Filetype-fastq</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d2cbb67c-2154-475d-931a-906352409293</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs002430/TC04_CDS_phs002430_LibSel-Oligo-dT_LibLay-PairedEnd_InstMod-Illumina NovaSeq 6000</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1c5d4f87-90bb-4c9e-a0c4-a6014b1a472b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs002430/TC05_CDS_phs002430_Sex-Unknown_Studydatatype-Imaging_Filetype-fastq</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dd392b33-0626-4e7b-ac1f-0175d7f82d70</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs002430/TC06_CDS_phs002430_RefGenAsbly-NSD_PrimDiag-Acutemyloidleukemia</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8c2ab84d-78e1-43d4-ada3-17f6dc8e5812</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs002431/TC01_CDS_phs002431</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ef09c6a0-602a-4b35-91f6-2fcc2b6fbd7b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs002431/TC02_CDS_phs002431_LibSel-RAN_LibLay-PairedEnd_InstMod- Illumina HiSeq 2500</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>65f80315-debf-4cb6-b0f9-5867a5688589</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs002431/TC03_CDS_phs002431_SmpTumSta-Normal_SmpType-Blood_LibStr_RNA-Seq</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>54bb1f0b-99c4-4944-ae37-8767369d8e82</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs002431/TC04_CDS_phs002431_Sex_Male_ExpStr-RNA-Seq_FileTyp-fastq</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fad108b5-a746-4582-aae8-b8f6eed96c55</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs002431/TC05_CDS_phs002431_Sex-Female_PrimDiag_AbdominslFibro_FileType-CRAM</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bb7066cf-b1ea-4d1a-8be6-c2f90f7ebec7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs002432/TC01_CDS_phs002432</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>62a17013-5947-44fa-9c88-2fd540f3ee7e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs002432/TC01_CDS_phs002432_RefGen_GRCh37_Platform-Illumina_LibSrc-Genomic</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fc233ed7-52fc-45d7-acc2-245e1ac4a7da</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs002432/TC02_CDS_phs002432_LibSel-PCR_LibLay-PairedEnd_InstMod- Illumina HiSeq 2500</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0e508662-c6ee-4285-a7a2-8b978ff7f540</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs002432/TC03_CDS_phs002432_SmpTumSta-Notspecif_SmpType-Blood_LibStr_RNA-Seq</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>57d0deb6-4f67-4f5d-b882-259389ab8496</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs002432/TC04_CDS_phs002432_Sex_Male_ExpStr-RNA-Seq_FileTyp-fastq</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9ceaa3fc-74bb-4b32-8568-e959d33948e8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs002432/TC05_CDS_phs002432_Sex-Female_PrimDiag_MalenomaNOs_FileType-fastq</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

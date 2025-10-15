@@ -4,5 +4,6 @@
    <name>TC05_CCDI_phs000463_StudyStatus-Completed_LastKnowSurvSt-Alive</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>4befca00-900d-41ae-b24b-72697f95d710</testCaseGuid>
 </TestCaseEntity>

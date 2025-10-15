@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>FileMapping_Dbn</name>
+   <name>CCDI_ResultsPerPage_Ddn</name>
    <tag></tag>
-   <elementGuidId>31369427-5271-49ab-a701-0be53a3a01f7</elementGuidId>
+   <elementGuidId>0814b231-c4ba-4156-9940-01e0644e4f20</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[text()='File Mapping']</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value></value>
+         <value>//div[contains(@class,'TablePagination-input')]//div[@role='button']
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -22,7 +19,8 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[text()='File Mapping']</value>
-      <webElementGuid>a00ba130-2ffc-41f8-afc2-41bda9dff3e1</webElementGuid>
+      <value>//div[contains(@class,'TablePagination-input')]//div[@role='button']
+</value>
+      <webElementGuid>4521c7c8-d652-4058-80b6-c0ea340951c9</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
