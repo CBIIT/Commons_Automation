@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CCDI_phs002620_Diagns-SarcomaNOS_SamAnatcSite-C42Blood_Sex-Male</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>02a52921-822d-4867-9d47-6f649266de57</testCaseGuid>
+</TestCaseEntity>

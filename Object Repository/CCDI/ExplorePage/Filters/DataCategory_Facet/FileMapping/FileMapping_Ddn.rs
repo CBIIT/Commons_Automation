@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>LibrarySourceMolecule_Ddn</name>
+   <name>FileMapping_Ddn</name>
    <tag></tag>
-   <elementGuidId>413909f6-072b-47eb-9949-3f5db8402447</elementGuidId>
+   <elementGuidId>31369427-5271-49ab-a701-0be53a3a01f7</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//span[text()=&quot;Library Source Molecule&quot;]</value>
+         <value>//*[text()='File Mapping']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +21,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//span[text()=&quot;Library Source Molecule&quot;]</value>
-      <webElementGuid>44182bbd-6cfa-4de4-bfff-947d57c1517b</webElementGuid>
+      <value>//*[text()='File Mapping']</value>
+      <webElementGuid>a00ba130-2ffc-41f8-afc2-41bda9dff3e1</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
