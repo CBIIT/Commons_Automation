@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>FileMapping_Dbn</name>
+   <name>Pathology_Chkbx</name>
    <tag></tag>
-   <elementGuidId>31369427-5271-49ab-a701-0be53a3a01f7</elementGuidId>
+   <elementGuidId>49ca24a4-75cd-4e1a-90f2-30f90e7a5d82</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[text()='File Mapping']</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value></value>
+         <value>//*[@id=&quot;checkbox_Pathology&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -22,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[text()='File Mapping']</value>
-      <webElementGuid>a00ba130-2ffc-41f8-afc2-41bda9dff3e1</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Pathology&quot;]</value>
+      <webElementGuid>aa652cd0-baf4-4c68-a993-c2e46f9a61c5</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

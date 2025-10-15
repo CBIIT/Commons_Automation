@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>LibrarySourceMolecule_Ddn</name>
+   <name>SmallCellSarcoma_Chkbx</name>
    <tag></tag>
-   <elementGuidId>413909f6-072b-47eb-9949-3f5db8402447</elementGuidId>
+   <elementGuidId>22d474ee-be0a-4474-bdec-818b70252f28</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//span[text()=&quot;Library Source Molecule&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Small cell sarcoma&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//span[text()=&quot;Library Source Molecule&quot;]</value>
-      <webElementGuid>44182bbd-6cfa-4de4-bfff-947d57c1517b</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Small cell sarcoma&quot;]</value>
+      <webElementGuid>a1ca8e29-4b41-4d17-af21-677bec1103ca</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

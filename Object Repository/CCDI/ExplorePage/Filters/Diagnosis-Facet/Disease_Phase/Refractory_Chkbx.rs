@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>LibrarySourceMolecule_Ddn</name>
+   <name>Refractory_Chkbx</name>
    <tag></tag>
-   <elementGuidId>413909f6-072b-47eb-9949-3f5db8402447</elementGuidId>
+   <elementGuidId>43aa098e-22e0-43f5-b5cb-a0710afec05d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//span[text()=&quot;Library Source Molecule&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Disease Phase_Refractory&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//span[text()=&quot;Library Source Molecule&quot;]</value>
-      <webElementGuid>44182bbd-6cfa-4de4-bfff-947d57c1517b</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Disease Phase_Refractory&quot;]</value>
+      <webElementGuid>eb93e6a0-0113-46cd-a4d8-cf2870855f12</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

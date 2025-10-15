@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_CCDI_phs002883_DiseasePhase-IniDiag_LastKnwnSurvSt-Alive_TumClass-Primary_LibrSorMat-NotReported_LibSel-PolyA</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>aec4163d-8672-4dfd-a50d-d8cd2a93d9db</testCaseGuid>
+</TestCaseEntity>

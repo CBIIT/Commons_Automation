@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_CCDI_phs002620_Sex-Female_FileMap-Sample_LibrSelec-Other_LibrSourMol-Genomic</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a9362b5f-ed5f-4f9a-9550-ca7c577f7f84</testCaseGuid>
+</TestCaseEntity>

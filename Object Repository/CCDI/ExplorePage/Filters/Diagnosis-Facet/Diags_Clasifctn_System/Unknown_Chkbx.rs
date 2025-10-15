@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>LibrarySourceMolecule_Ddn</name>
+   <name>Unknown_Chkbx</name>
    <tag></tag>
-   <elementGuidId>413909f6-072b-47eb-9949-3f5db8402447</elementGuidId>
+   <elementGuidId>394159cc-8f0a-4cdc-83aa-4cf4d9562f13</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//span[text()=&quot;Library Source Molecule&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Diagnosis Classification System_ICD-O-3.2&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//span[text()=&quot;Library Source Molecule&quot;]</value>
-      <webElementGuid>44182bbd-6cfa-4de4-bfff-947d57c1517b</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Diagnosis Classification System_ICD-O-3.2&quot;]</value>
+      <webElementGuid>667b488d-ee67-43a5-b312-339eb3ad8f42</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

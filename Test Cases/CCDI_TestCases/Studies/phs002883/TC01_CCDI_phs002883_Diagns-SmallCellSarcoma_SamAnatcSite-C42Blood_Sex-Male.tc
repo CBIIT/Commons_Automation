@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CCDI_phs002883_Diagns-SmallCellSarcoma_SamAnatcSite-C42Blood_Sex-Male</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a8e79f76-53df-447e-b4a5-9adc41eb267a</testCaseGuid>
+</TestCaseEntity>
