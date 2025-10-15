@@ -47,8 +47,8 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filt
 CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/StudyFacet/StudyDataTypes/StudyDataTypes_Ddn')
 
 //Clicking Male checkbox
-WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/CDS/Data_page/Filter/StudyFacet/StudyDataTypes/Imaging-Chkbx'),5)
-CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/CDS/Data_page/Filter/StudyFacet/StudyDataTypes/Imaging-Chkbx')
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/StudyFacet/StudyDataTypes/Imaging-Chkbx'),5)
+CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/StudyFacet/StudyDataTypes/Imaging-Chkbx')
 
 //Clicking File dropdown
 WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/FilesFacet/FileType/FileType_Ddn'),5)

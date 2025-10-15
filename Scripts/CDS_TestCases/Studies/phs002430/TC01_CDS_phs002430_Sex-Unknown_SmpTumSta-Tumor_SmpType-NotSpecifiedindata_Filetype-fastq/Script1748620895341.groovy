@@ -59,8 +59,8 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filt
 CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/SamplesFacet/SampleType/SampleType-Ddn')
 
 //Clicking Blood derived normal checkbox
-WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/CDS/Data_page/Filter/SamplesFacet/SampleType/NotSpecifiedindata_Chkbx'),5)
-CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/CDS/Data_page/Filter/SamplesFacet/SampleType/NotSpecifiedindata_Chkbx')
+WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/SamplesFacet/SampleType/NotSpecifiedInData_Chkbx'),5)
+CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/SamplesFacet/SampleType/NotSpecifiedInData_Chkbx')
 
 ////Clicking Library Strategy dropdown
 //WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/GenomicFacet/LibraryStrategy/Library_Strategy_Ddn'),5)

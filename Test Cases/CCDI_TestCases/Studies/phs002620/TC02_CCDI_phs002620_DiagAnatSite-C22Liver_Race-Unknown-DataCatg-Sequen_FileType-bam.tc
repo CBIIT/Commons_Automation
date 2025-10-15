@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_CCDI_phs002620_DiagAnatSite-C22Liver_Race-Unknown-DataCatg-Sequen_FileType-bam</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d84ff72a-6f65-4aaa-81f3-dde4258ea4a7</testCaseGuid>
+</TestCaseEntity>

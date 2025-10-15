@@ -1,0 +1,251 @@
+type	sample_id	crdc_id	participant.study_participant_id	sample_age_at_collection	sample_anatomic_site	sample_tumor_status	sample_tumor_status_concept_code	sample_type
+sample	6949-JMM-0037	9ba9a8dc-d42c-4cea-957a-73e7872e874c	phs003163_Brooke-PDX		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0037.pdx.samp	1d7d4052-d22e-4a8b-bfb2-4061525bb60e			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0037_FP	3a16ccc2-e36f-490e-b89e-9238822f9fd1	phs003163_Brooke-PDX		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0037_FP.pdx.samp	a1a3e11f-5665-4f64-adb3-7dbf1367e45a			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0038	ce9cccc5-49a7-45a9-a41e-92dc1346f5f8	phs003163_NP012x		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0038.pdx.samp	626d4df5-a22b-4ce2-b9e5-503d02b02a00			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0038_FP	cab84cac-64ee-402d-8e60-909f3a0bb2db	phs003163_NP012x		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0038_FP.pdx.samp	061994ee-cde7-437d-9f7d-ce1fdb4a3d08			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0039	05454efb-ea94-4f66-afac-40c1956e5138	phs003163_NP015x		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0039.pdx.samp	21d4af7d-747e-4513-ba4b-8ba28b12479d			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0039_FP	010ed405-da20-44a1-aadf-28b20c583727	phs003163_NP015x		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0039_FP.pdx.samp	2aee8e71-3677-4be7-9134-403794ad3dc3			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0040	abe6d47c-4a03-4415-9aa0-467984dfba8d	phs003163_NP016x		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0040.pdx.samp	ed81ba45-7eb9-4b6a-ab27-f5e293340bd4			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0040_FP	ee4cd48d-5513-4df2-b8aa-704ef578bea5	phs003163_NP016x		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0040_FP.pdx.samp	d036eb56-05f9-4b31-a3ec-db7a038c0b8b			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0041	672813b3-ddc1-4a7d-be4b-c0b7eb31be78	phs003163_NP017x_RH07-1x		Bone	Tumor	C18009	Tissue
+sample	6949-JMM-0041.pdx.samp	53daec5e-0d2d-4bc1-b05d-d57285fd035e			Bone	Tumor	C18009	Analyte
+sample	6949-JMM-0041_FP	2cb19860-ff7d-4910-8446-0828822fe792	phs003163_NP017x_RH07-1x		Bone	Tumor	C18009	Tissue
+sample	6949-JMM-0041_FP.pdx.samp	33b7d48f-67ce-40a3-9b98-ce4d4a6c0c31			Bone	Tumor	C18009	Analyte
+sample	6949-JMM-0042	6c285c0f-f82e-4ad9-b074-21346b1a7f2f	phs003163_NP018x_RH07-2x		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0042.pdx.samp	982c8804-0792-44ee-bc03-086fca43591f			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0042_FP	9287bf9b-3495-4cb2-aac1-86ffebfa827e	phs003163_NP018x_RH07-2x		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0042_FP.pdx.samp	98e9e1df-aad2-4312-a144-4b617b14d018			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0043	dd537e34-ce99-4043-ae6f-210138e36ca8	phs003163_NP019x_RH07-3x		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0043.pdx.samp	54b156b2-295f-402a-ae77-05f57bf0aa22			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0043_FP	a2d3e5ec-a411-4443-b99e-b2acc93ecd0d	phs003163_NP019x_RH07-3x		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0043_FP.pdx.samp	264a2c38-393b-422f-ac9a-02f9c6cf5503			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0044	074d3e6e-422b-4075-a700-61ba1ca1a7be	phs003163_NP020x_RH07-4x		Blood	Tumor	C18009	Blood
+sample	6949-JMM-0044.pdx.samp	9903d071-1413-440b-8054-6e1df2f4f7b0			Blood	Tumor	C18009	Analyte
+sample	6949-JMM-0044_FP	6f2a5c6a-b1ab-45e6-9873-7b4f06463d46	phs003163_NP020x_RH07-4x		Blood	Tumor	C18009	Blood
+sample	6949-JMM-0044_FP.pdx.samp	76658949-c922-4e71-82db-c9193a826c7d			Blood	Tumor	C18009	Analyte
+sample	6949-JMM-0045	d7ac4898-535b-4935-8a28-3bdd29c8f6ef	phs003163_NP021x_RH07-5x		Lymph Node	Tumor	C18009	Tissue
+sample	6949-JMM-0045.pdx.samp	afcdd3bd-445b-4dbf-bfed-e3f4902a25fb			Lymph Node	Tumor	C18009	Analyte
+sample	6949-JMM-0045_FP	3654ac57-802d-43d1-8142-27f484cc3d48	phs003163_NP021x_RH07-5x		Lymph Node	Tumor	C18009	Tissue
+sample	6949-JMM-0045_FP.pdx.samp	2c780d8c-3f64-4914-9c4f-05888bf13f88			Lymph Node	Tumor	C18009	Analyte
+sample	6949-JMM-0046	96f897ea-4822-45af-9131-231185a77f6e	phs003163_NP030x		Lung	Tumor	C18009	Tissue
+sample	6949-JMM-0046.pdx.samp	378d890e-a1fe-4ce0-a820-da635d1c8f87			Lung	Tumor	C18009	Analyte
+sample	6949-JMM-0046_FP	faef0854-e8d2-48c9-a24a-c87d6ca38884	phs003163_NP030x		Lung	Tumor	C18009	Tissue
+sample	6949-JMM-0046_FP.pdx.samp	a37ada9d-1939-4b7a-abde-4394c13bb766			Lung	Tumor	C18009	Analyte
+sample	6949-JMM-0047	98c440b2-04dc-4b78-9b59-42a72394081d	phs003163_NP031x		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0047.pdx.samp	a8ab7ad3-e861-487c-a837-87b128d1765c			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0047_FP	9150a9cb-6f5e-4d54-882c-78753238f68c	phs003163_NP031x		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0047_FP.pdx.samp	cd4fbc7b-2281-4041-a011-5bf9004c00e2			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0048_FP	7c541dc2-8767-4fc1-a51a-0282fe3bf5f7	phs003163_NP036x		Retroperitoneum	Tumor	C18009	Cells
+sample	6949-JMM-0048_FP.pdx.samp	b399e3c7-828d-4ea7-97c4-eca96d19bebd			Retroperitoneum	Tumor	C18009	Analyte
+sample	6949-JMM-0049	99ffeb3e-4c85-4bda-96f1-475df3bc67be	phs003163_NP037x		Bone	Tumor	C18009	Tissue
+sample	6949-JMM-0049.pdx.samp	c4691e57-258c-42d3-a8f6-3d731f1e50b5			Bone	Tumor	C18009	Analyte
+sample	6949-JMM-0049_FP	1eeeff59-07d1-4410-92ee-2ce5c17371e0	phs003163_NP037x		Bone	Tumor	C18009	Tissue
+sample	6949-JMM-0049_FP.pdx.samp	3c0270d2-d88e-4976-8edc-ea27e9d2004b			Bone	Tumor	C18009	Analyte
+sample	6949-JMM-0050	0bbe71ae-3283-4d96-8ccd-7f7815560a98	phs003163_NP039x		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0050.pdx.samp	1a99eacf-443a-423b-a4b5-47d0e26cee52			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0050_FP	24a136fb-c4af-456e-921f-497adb6bee2d	phs003163_NP039x		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0050_FP.pdx.samp	6d6507fc-b195-4107-9aa5-c086f5d72a85			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0051	28cf9655-9c46-4872-aef8-06199bf99f47	phs003163_NP040x		Lymph Node	Tumor	C18009	Tissue
+sample	6949-JMM-0051.pdx.samp	0cb378e1-ead6-44d9-bbd1-d791a4771d94			Lymph Node	Tumor	C18009	Analyte
+sample	6949-JMM-0051_FP	2e4bfc34-2ce2-4df0-ad3c-c235fe3240d3	phs003163_NP040x		Lymph Node	Tumor	C18009	Tissue
+sample	6949-JMM-0051_FP.pdx.samp	92efff13-ae76-465d-9fbe-beec148ec85a			Lymph Node	Tumor	C18009	Analyte
+sample	6949-JMM-0052	09a3a05f-2b6b-431e-a58f-f4000dcbbcf5	phs003163_NP043x		Bone|Lymph Node	Tumor	C18009	Tissue
+sample	6949-JMM-0052.pdx.samp	fd524a2e-57b6-459e-8c82-a2fcf52827e1			Bone|Lymph Node	Tumor	C18009	Analyte
+sample	6949-JMM-0052_2	bff8f2d9-7154-46cb-a3dc-2ea2968ab270	phs003163_NP043x		Bone|Lymph Node	Tumor	C18009	Tissue
+sample	6949-JMM-0052_2.pdx.samp	ce3fe76e-3925-49df-88bf-40fd5138e9c9			Bone|Lymph Node	Tumor	C18009	Analyte
+sample	6949-JMM-0052_FP	f3e586c3-5cc7-4d4c-bef5-bb7e5c1d5de0	phs003163_NP043x		Bone|Lymph Node	Tumor	C18009	Tissue
+sample	6949-JMM-0052_FP.pdx.samp	40f4a361-66d4-4748-858c-4362a6caad2c			Bone|Lymph Node	Tumor	C18009	Analyte
+sample	6949-JMM-0053	8d5cc8fd-f8ec-4cfc-a77e-42aa03970ed4	phs003163_Obelix-2x		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0053.pdx.samp	18853223-e759-43ce-9d6c-894401f231ad			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0053_2	b69bfb97-4d2e-4567-b347-16bdc37c9e2f	phs003163_Obelix-2x		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0053_2.pdx.samp	b138dabc-7295-4afa-8c2f-b9f55b6c290f			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0053_FP	07deb428-bf95-4b50-9042-820b213d21c6	phs003163_Obelix-2x		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0053_FP.pdx.samp	7b1704dd-6f8f-4edf-81ad-ea5fce7a7773			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0054	f1c791ed-71f5-43c2-938d-590459ec759c	phs003163_Obelix-Rx		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0054.pdx.samp	65e6d671-54de-4533-896f-d9f07fb47422			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0054_2	9c452e62-ef82-4edb-a8dd-ca2df40985a6	phs003163_Obelix-Rx		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0054_2.pdx.samp	eceae6ed-f344-42f2-930d-bab7bc908479			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0054_FP	4952ea16-ac66-40e9-b345-02f84820f00e	phs003163_Obelix-Rx		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0054_FP.pdx.samp	ad306166-cd3f-4794-92c0-99a14881c58c			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0055	a9c71359-ba82-44cb-b1ae-35cecaf9c396	phs003163_Obelix-Fx		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0055.pdx.samp	f5bbd8a7-ded2-4880-80b6-66905fe934c3			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0055_2	e3c6e9f5-ff6e-4e4c-a271-67c2a0f6c874	phs003163_Obelix-Fx		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0055_2.pdx.samp	6e5b38d9-b63d-439e-b284-5a70c79b7d96			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0055_FP	0261e6a9-fc14-408c-b0e1-c344ae73db9f	phs003163_Obelix-Fx		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0055_FP.pdx.samp	8283957d-ef90-481e-8ed5-df475c0432e8			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0056	4afb5786-28dd-4642-8074-149885ced487	phs003163_KWK-6062x		Bone	Tumor	C18009	Tissue
+sample	6949-JMM-0056.pdx.samp	b03fa292-af31-4fc0-bb6b-47c77f46c2c0			Bone	Tumor	C18009	Analyte
+sample	6949-JMM-0056_2	e60e0f45-c412-498f-b231-9fcff3aa7a48	phs003163_KWK-6062x		Bone	Tumor	C18009	Tissue
+sample	6949-JMM-0056_2.pdx.samp	8555cd6d-de48-440f-bf4e-dc45c307cd77			Bone	Tumor	C18009	Analyte
+sample	6949-JMM-0056_FP	6328e4c5-ca01-41f1-ad02-8fe0108c76d0	phs003163_KWK-6062x		Bone	Tumor	C18009	Tissue
+sample	6949-JMM-0056_FP.pdx.samp	bd837e2a-eaea-456e-9d82-39e82a70eae4			Bone	Tumor	C18009	Analyte
+sample	6949-JMM-0057	c08dbd8a-f0e1-4b34-a570-f2863b2130c5	phs003163_N0619x		Bone Marrow	Tumor	C18009	Bone Marrow
+sample	6949-JMM-0057.pdx.samp	cfaa6444-59da-47ce-8be5-b512f8a65190			Bone Marrow	Tumor	C18009	Analyte
+sample	6949-JMM-0057_2	735c199e-cd71-4cd0-85bf-7330f5a469cf	phs003163_N0619x		Bone Marrow	Tumor	C18009	Bone Marrow
+sample	6949-JMM-0057_2.pdx.samp	82e822ce-c1b1-4d8b-9ce7-eacf6a4f3cf8			Bone Marrow	Tumor	C18009	Analyte
+sample	6949-JMM-0057_FP	a09d4c5f-74c7-4604-a21a-109bcbb412d9	phs003163_N0619x		Bone Marrow	Tumor	C18009	Bone Marrow
+sample	6949-JMM-0057_FP.pdx.samp	450f09c0-3af0-494f-ab2d-cc1307b1cd7d			Bone Marrow	Tumor	C18009	Analyte
+sample	6949-JMM-0058	10ff30ae-1dd8-4cca-bb25-8c38eb7ef818	phs003163_Adam-Lx_ALK-L-PDX		Lung	Tumor	C18009	Tissue
+sample	6949-JMM-0058.pdx.samp	3cfded85-f61a-45b2-9821-8f8c66abe397			Lung	Tumor	C18009	Analyte
+sample	6949-JMM-0058_FP	603dcbb2-a8cb-4380-80d0-26437ae69e0a	phs003163_Adam-Lx_ALK-L-PDX		Lung	Tumor	C18009	Tissue
+sample	6949-JMM-0058_FP.pdx.samp	520aaa8d-f278-480f-aee5-5da435ad59a7			Lung	Tumor	C18009	Analyte
+sample	6949-JMM-0059	b4980ab7-6840-4702-acf0-101e0307ff4b	phs003163_Adam-Rx_ALK-R-PDX		Blood	Tumor	C18009	Blood
+sample	6949-JMM-0059.pdx.samp	395e831e-25dc-47e4-93ef-3c64f3ec749d			Blood	Tumor	C18009	Analyte
+sample	6949-JMM-0059_2	8a5d1ff0-7cb0-4e77-bd10-4425af1974ca	phs003163_Adam-Rx_ALK-R-PDX		Blood	Tumor	C18009	Blood
+sample	6949-JMM-0059_2.pdx.samp	a25f20db-c17f-4b1b-9d39-4e91fcf4d1ca			Blood	Tumor	C18009	Analyte
+sample	6949-JMM-0059_FP	0a77de52-7dd2-4627-8f1b-71b9c6cd88d8	phs003163_Adam-Rx_ALK-R-PDX		Blood	Tumor	C18009	Blood
+sample	6949-JMM-0059_FP.pdx.samp	f8665f48-c1be-4a0b-be1c-a459c69bf4d7			Blood	Tumor	C18009	Analyte
+sample	6949-JMM-0060	f324b0ef-9f1b-4bae-9193-4b33ecb01e96	phs003163_Adam-Fx_ALK-F-PDX		Blood	Tumor	C18009	Blood
+sample	6949-JMM-0060.pdx.samp	47b66c16-dc26-4dd2-9e91-8af7dc05100a			Blood	Tumor	C18009	Analyte
+sample	6949-JMM-0060_2	621a41d4-0f24-4e96-9bc2-d01f7e332fb7	phs003163_Adam-Fx_ALK-F-PDX		Blood	Tumor	C18009	Blood
+sample	6949-JMM-0060_2.pdx.samp	aca4d2ec-3e2a-4190-978b-9f72ad2c470f			Blood	Tumor	C18009	Analyte
+sample	6949-JMM-0060_FP	4af24ffd-513d-4922-9af4-b132144167f7	phs003163_Adam-Fx_ALK-F-PDX		Blood	Tumor	C18009	Blood
+sample	6949-JMM-0060_FP.pdx.samp	73b71ede-4b6e-4e9a-bdb9-5d065db08f39			Blood	Tumor	C18009	Analyte
+sample	6949-JMM-0061	26bc27a3-748b-4427-b773-0910da4e70ff	phs003163_YDLRx		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0061.pdx.samp	ad86e584-0bc9-4e68-97c0-9f51b4eec76c			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0061_2	b43dc510-b381-46a6-88bf-79b968b29f0a	phs003163_YDLRx		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0061_2.pdx.samp	80942fb5-8516-4d3f-8f32-0c91de35a2da			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0061_FP	c81da447-85ca-4b13-8f44-f9d56a51cae7	phs003163_YDLRx		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0061_FP.pdx.samp	216d2c9e-4c7c-45ed-876b-26904f62f63a			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0062	9cda9e65-0301-4395-89bc-d8e60eb2622c	phs003163_YDLFx		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0062.pdx.samp	dac8cf96-452f-46e2-b16b-221be8a19823			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0062_FP	200d0640-844a-455c-8304-85e441ee2582	phs003163_YDLFx		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0062_FP.pdx.samp	fccefeb7-6760-4ab9-afd4-2732fbe8c437			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0063	1b00db34-34e8-4f2c-a667-a57315dd580d	phs003163_HG-Rx		Bone Marrow	Tumor	C18009	Bone Marrow
+sample	6949-JMM-0063.pdx.samp	5f53ed60-8240-40dd-91ff-3d1004479f77			Bone Marrow	Tumor	C18009	Analyte
+sample	6949-JMM-0063_2	b5c05276-f262-4db5-87c2-5a0dceb4016f	phs003163_HG-Rx		Bone Marrow	Tumor	C18009	Bone Marrow
+sample	6949-JMM-0063_2.pdx.samp	66781bb4-c782-4869-8221-a95401db2d36			Bone Marrow	Tumor	C18009	Analyte
+sample	6949-JMM-0063_FP	3351125f-4ce9-4985-b04b-4bae578af811	phs003163_HG-Rx		Bone Marrow	Tumor	C18009	Bone Marrow
+sample	6949-JMM-0063_FP.pdx.samp	344e86ed-3bb3-4dc0-b002-882b129b7d8e			Bone Marrow	Tumor	C18009	Analyte
+sample	6949-JMM-0064	38012167-71ca-4730-844a-bfb44bbc4011	phs003163_HG-Lx		Bone Marrow	Tumor	C18009	Bone Marrow
+sample	6949-JMM-0064.pdx.samp	451ed479-1813-48e5-99eb-4fba1e57ead5			Bone Marrow	Tumor	C18009	Analyte
+sample	6949-JMM-0064_2	a9daf68a-eaa1-4b71-a72c-66be97b728b0	phs003163_HG-Lx		Bone Marrow	Tumor	C18009	Bone Marrow
+sample	6949-JMM-0064_2.pdx.samp	0219231e-396e-49cc-9185-69b8f21e39fd			Bone Marrow	Tumor	C18009	Analyte
+sample	6949-JMM-0064_FP	71e5cdda-76f7-4ba0-a5c0-1d209569af35	phs003163_HG-Lx		Bone Marrow	Tumor	C18009	Bone Marrow
+sample	6949-JMM-0064_FP.pdx.samp	81c87a66-c6cb-444f-b1fd-76c7aba448e4			Bone Marrow	Tumor	C18009	Analyte
+sample	6949-JMM-0065	3a167f55-1772-4b04-9fe2-7d2ceea17dba	phs003163_JG-Rx		Blood	Tumor	C18009	Blood
+sample	6949-JMM-0065.pdx.samp	2d9fb160-c47a-48f0-9a42-7f477fedf0a7			Blood	Tumor	C18009	Analyte
+sample	6949-JMM-0065_2	c05f0fbb-7899-43bb-b77d-08d6be6d75fe	phs003163_JG-Rx		Blood	Tumor	C18009	Blood
+sample	6949-JMM-0065_2.pdx.samp	14484569-9780-47bf-b1ff-7c6e0b49c1e2			Blood	Tumor	C18009	Analyte
+sample	6949-JMM-0065_FP	4abfc3f1-bc7c-4626-84c7-944edf33c1a9	phs003163_JG-Rx		Blood	Tumor	C18009	Blood
+sample	6949-JMM-0065_FP.pdx.samp	b1bcbc6d-0d51-4629-852c-2d12dad38f43			Blood	Tumor	C18009	Analyte
+sample	6949-JMM-0066	f6a09ad9-c9a5-4237-9258-4d7ee9a27aa6	phs003163_JG-Fx		Blood	Tumor	C18009	Blood
+sample	6949-JMM-0066.pdx.samp	677d6c9e-33b6-4b6b-af5c-ac24737a41c4			Blood	Tumor	C18009	Analyte
+sample	6949-JMM-0066_2	702ade29-777b-4ac9-9fc3-e6d884a65b22	phs003163_JG-Fx		Blood	Tumor	C18009	Blood
+sample	6949-JMM-0066_2.pdx.samp	86cc6290-3eea-4e39-96e2-d06c98366056			Blood	Tumor	C18009	Analyte
+sample	6949-JMM-0066_FP	50a051e3-7149-4f01-9acf-7ad15f01bef9	phs003163_JG-Fx		Blood	Tumor	C18009	Blood
+sample	6949-JMM-0066_FP.pdx.samp	4578383e-1c45-4db9-a825-73dbca43fce7			Blood	Tumor	C18009	Analyte
+sample	6949-JMM-0067	df79aa73-0e09-481d-9ca9-60f129129810	phs003163_NP045x		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0067.pdx.samp	cc280d2a-a476-4b4e-a932-e7f2ffa8509c			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0067_2	da316ef6-8bf5-4274-a6e2-c8816dc484cc	phs003163_NP045x		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0067_2.pdx.samp	032f7c92-723b-49c2-898f-388deab02952			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0067_FP	dbc12a51-1ae6-4bd1-970e-280cea35ba7a	phs003163_NP045x		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0067_FP.pdx.samp	8265cc5e-d9bc-4bbc-92fb-397aaf0782fa			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0068	b4d7131a-4025-43ea-a8e8-f9258d4a553e	phs003163_COG-N-573x		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0068.pdx.samp	47fc9c0e-1a06-4172-ad06-210840df148e			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0068_2	6aff5101-6523-4bee-b241-1729c7b1ad75	phs003163_COG-N-573x		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0068_2.pdx.samp	12b31300-f823-4d84-a99c-c62391ab0b23			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0068_FP	fb7bb82e-2ee9-4fd9-94b9-772f762488af	phs003163_COG-N-573x		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0068_FP.pdx.samp	b93dbccd-e087-477c-8963-c634088bacbf			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0069	3f57d85c-923f-4abe-8cd0-481815d3d836	phs003163_COG-N-470x		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0069.pdx.samp	47ab2b68-9306-4fb5-89fa-f094e485d328			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0069_2	e2553d75-580e-44a2-ac5a-4706a2e1e0ec	phs003163_COG-N-470x		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0069_2.pdx.samp	98899f92-d84b-41eb-98fb-3c3915fdc616			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0069_FP	2c60a044-1ae7-4573-867e-07a39f66a691	phs003163_COG-N-470x		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0069_FP.pdx.samp	03920b75-7ce2-40a8-8d90-71ea8a766c0c			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0070	fe1e0705-1673-47d0-a497-f10de0b906bd	phs003163_LS_Luke-PDX		Soft Tissue	Tumor	C18009	Tissue
+sample	6949-JMM-0070.pdx.samp	2a220631-099d-4b8e-b31b-de0a73ae3e8a			Soft Tissue	Tumor	C18009	Analyte
+sample	6949-JMM-0070_2	e50304dd-6153-4822-97e4-d24928afcd7f	phs003163_LS_Luke-PDX		Soft Tissue	Tumor	C18009	Tissue
+sample	6949-JMM-0070_2.pdx.samp	63f0e7aa-9995-4fa1-8f9b-5fff456a6fe4			Soft Tissue	Tumor	C18009	Analyte
+sample	6949-JMM-0070_FP	99bdc4cf-9eba-4ce5-a459-5bcf070bdf58	phs003163_LS_Luke-PDX		Soft Tissue	Tumor	C18009	Tissue
+sample	6949-JMM-0070_FP.pdx.samp	1da59311-1c15-4afc-92ce-de65ae632b19			Soft Tissue	Tumor	C18009	Analyte
+sample	6949-JMM-0071	7c1339f9-3511-42fb-a932-ca1e241384a8	phs003163_NP049x		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0071.pdx.samp	1adf4b2c-7705-478f-b045-b997cc353a9f			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0071_FP	dbc7c448-fcb0-42dc-a3fb-c84715469652	phs003163_NP049x		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0071_FP.pdx.samp	68e319d6-782c-4687-8b8d-1e002f391aae			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0072	82206172-d04e-4e5e-bad7-76d996509dc0	phs003163_NP053x		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0072.pdx.samp	77d2aac7-50d9-4d77-a89d-5588d914807a			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0072_2	18d7a6d8-c2ad-4287-adab-888b7a12f98c	phs003163_NP053x		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0072_2.pdx.samp	da91ae52-15a8-426b-987b-5963df404858			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0072_FP	f689f7eb-1f86-4ba3-981a-8e3665c49ef7	phs003163_NP053x		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0072_FP.pdx.samp	d60afe98-ef0a-400b-8c0b-4a1aa50addd1			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0073	1b917b39-98f6-4b48-a21e-87318d723766	phs003163_Brooke-PDX		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0073.pdx.samp	2225e56b-0d74-4ea2-98c3-4c9331d98439			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0074	95948cb7-4260-4d36-b551-94410d7e2d5b	phs003163_NP012x		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0074.pdx.samp	073db55e-9bef-454b-974f-b15c23fe6165			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0075	0732c3c8-f84d-421d-9e59-29e7c223b924	phs003163_NP015x		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0075.pdx.samp	348b511a-c0eb-4bf7-8d2c-a32acbe269b4			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0076	180f07be-4311-438d-b5b0-c20dd5d84504	phs003163_NP016x		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0076.pdx.samp	da046b3f-9e1d-4e95-b5e2-8dbe41128ff9			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0077	a0d2c055-3971-4f65-9bf9-383ee121affc	phs003163_NP017x_RH07-1x	2858	Bone	Tumor	C18009	Tissue
+sample	6949-JMM-0077.pdx.samp	98761f90-65f7-4bd7-a5bc-ef212b347e11		2858	Bone	Tumor	C18009	Analyte
+sample	6949-JMM-0078	8b8b9918-681e-4a89-850a-8d14afd9a5c3	phs003163_NP018x_RH07-2x		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0078.pdx.samp	8c45cd0f-8cd3-4b15-bb72-38b9c03714fc			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0079	6bc248d4-8b8a-4b5d-aaa5-8e7305d6ab28	phs003163_NP019x_RH07-3x		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0079.pdx.samp	08438ba2-fe16-491d-8231-7dfe4825b65b			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0080	a03da3dc-4e03-4f2c-8023-99d5e17aa1fe	phs003163_NP020x_RH07-4x	2891	Blood	Tumor	C18009	Blood
+sample	6949-JMM-0080.pdx.samp	63ba12b0-80c8-4f40-9f4b-df398e212041		2891	Blood	Tumor	C18009	Analyte
+sample	6949-JMM-0081	62c5ec6b-ac34-4397-bddd-560a5cc20b39	phs003163_NP021x_RH07-5x	2891	Lymph Node	Tumor	C18009	Tissue
+sample	6949-JMM-0081.pdx.samp	134c5294-12f1-4342-b920-a4b3a8f55a04		2891	Lymph Node	Tumor	C18009	Analyte
+sample	6949-JMM-0082	b52e0030-0362-4fd6-9d44-38d79b882fd6	phs003163_NP030x	2675	Lung	Tumor	C18009	Tissue
+sample	6949-JMM-0082.pdx.samp	0bb7798e-86f2-45f7-bbb3-047dcd65f9f4		2675	Lung	Tumor	C18009	Analyte
+sample	6949-JMM-0083	9e440066-bc80-4074-96ce-65121f70ff60	phs003163_NP031x		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0083.pdx.samp	d58d90ed-b9ab-4f61-a2e4-300ddeb75265			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0084	b10d224e-894f-4a49-98ca-3421de811b49	phs003163_NP036x	3296	Retroperitoneum	Tumor	C18009	Cells
+sample	6949-JMM-0084.pdx.samp	dbb704e3-a14f-4a85-9fb0-a18fafccc281		3296	Retroperitoneum	Tumor	C18009	Analyte
+sample	6949-JMM-0085	35d9e6bf-5bbb-4ede-bc65-2ab12605670f	phs003163_NP037x		Bone	Tumor	C18009	Tissue
+sample	6949-JMM-0085.pdx.samp	d49aa28f-1ac4-4fd1-9be1-dc0c20a8bb35			Bone	Tumor	C18009	Analyte
+sample	6949-JMM-0086	5c64b73f-9664-43c3-8f3a-d5d8ca0879c3	phs003163_NP039x		Lymph Node	Tumor	C18009	Tissue
+sample	6949-JMM-0086.pdx.samp	7e381678-4298-4b4e-b6b4-ae5d0b179f0b			Lymph Node	Tumor	C18009	Analyte
+sample	6949-JMM-0087	7de6cb25-b374-4431-ad26-75dfba6ea1fd	phs003163_NP040x		Lymph Node	Tumor	C18009	Tissue
+sample	6949-JMM-0087.pdx.samp	123d0d90-7a75-41d9-bcdc-f163ee07807c			Lymph Node	Tumor	C18009	Analyte
+sample	6949-JMM-0088	105d46f8-2704-4c7c-b2f2-82d4d55d6429	phs003163_NP043x		Bone|Lymph Node	Tumor	C18009	Tissue
+sample	6949-JMM-0088.pdx.samp	709ad39b-2251-4518-ab84-872a1f4fa562			Bone|Lymph Node	Tumor	C18009	Analyte
+sample	6949-JMM-0089	a669eb98-f9d1-4fa9-a434-479369b65653	phs003163_Obelix-2x		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0089.pdx.samp	9e06467c-e7bc-42e6-9b35-45d274fdc3e6			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0090	7f84467a-5829-4c10-b2c4-94d7da55a0f4	phs003163_Obelix-Rx		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0090.pdx.samp	0b2f78aa-c5e4-4c1d-91e1-a875a1d84ae4			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0091	a209e148-82ae-4993-96d4-a20c3bee2008	phs003163_Obelix-Fx		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0091.pdx.samp	c962a382-699a-467d-8885-c0a9c9512e0e			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0092	8718a0d1-0a7c-489f-bb6c-97ed39cae3cc	phs003163_KWK-6062x	759	Bone	Tumor	C18009	Tissue
+sample	6949-JMM-0092.pdx.samp	87415ae3-1afc-483c-afca-5eb4ce68c9c0		759	Bone	Tumor	C18009	Analyte
+sample	6949-JMM-0093	83c155d5-c5c7-4be2-a15f-b9ad9f4e346f	phs003163_N0619x		Bone Marrow	Tumor	C18009	Bone Marrow
+sample	6949-JMM-0093.pdx.samp	29895716-5aa1-4b8e-9c58-8d8f7f7e9ab2			Bone Marrow	Tumor	C18009	Analyte
+sample	6949-JMM-0094	7101e345-22c2-4ca6-981e-cd08a06e55b1	phs003163_Adam-Lx_ALK-L-PDX		Lung	Tumor	C18009	Tissue
+sample	6949-JMM-0094.pdx.samp	f024d2af-2ad8-4e67-91cd-487927396515			Lung	Tumor	C18009	Analyte
+sample	6949-JMM-0095	179f58a8-858f-49da-b71b-9079e9584629	phs003163_Adam-Rx_ALK-R-PDX		Blood	Tumor	C18009	Blood
+sample	6949-JMM-0095.pdx.samp	c08837b7-2539-48f7-ad18-3b2a13a3e88c			Blood	Tumor	C18009	Analyte
+sample	6949-JMM-0096	5854a32b-a4f6-4355-a4ac-5dac8b1a09b9	phs003163_Adam-Fx_ALK-F-PDX		Blood	Tumor	C18009	Blood
+sample	6949-JMM-0096.pdx.samp	8dbf2619-18b9-4853-90c7-5437491f6f86			Blood	Tumor	C18009	Analyte
+sample	6949-JMM-0097	cf39bc50-eeec-42e6-b6c9-656dbe4d7aeb	phs003163_YDLRx		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0097.pdx.samp	f8c22702-5de1-471f-a8d2-cc4a13f8f441			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0098	eb90b561-e684-4f5a-9cc9-6dfa1ce2e289	phs003163_YDLFx		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0098.pdx.samp	be43f14d-b8ba-4135-bf09-0f872d2fabd7			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0099	509d0ac5-6dc4-4285-812e-50c331e8d319	phs003163_HG-Rx	548	Bone Marrow	Tumor	C18009	Bone Marrow
+sample	6949-JMM-0099.pdx.samp	41ab5bdf-009d-4df9-b0ca-e4fb17a64398		548	Bone Marrow	Tumor	C18009	Analyte
+sample	6949-JMM-0100	d121ca0b-3a54-4fa5-84c1-a0081ca10d81	phs003163_HG-Lx	548	Bone Marrow	Tumor	C18009	Bone Marrow
+sample	6949-JMM-0100.pdx.samp	bb99ced6-d4d2-4431-9517-950a571d8fb9		548	Bone Marrow	Tumor	C18009	Analyte
+sample	6949-JMM-0101	0c056f30-42f6-49c3-a250-8a0c32d5ac8d	phs003163_JG-Rx	1033	Blood	Tumor	C18009	Blood
+sample	6949-JMM-0101.pdx.samp	fd3028a0-4f7d-4a20-939c-f30e62e081a5		1033	Blood	Tumor	C18009	Analyte
+sample	6949-JMM-0102	fd026e0b-e693-44a5-ac09-b87c85805534	phs003163_JG-Fx	1033	Blood	Tumor	C18009	Blood
+sample	6949-JMM-0102.pdx.samp	702a361c-280b-4b09-9e81-96223c67ce53		1033	Blood	Tumor	C18009	Analyte
+sample	6949-JMM-0103	c9bedc47-e5a2-40bc-9eee-f9b2489eaa60	phs003163_NP045x		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0103.pdx.samp	23582f57-3f89-4022-838a-1f679d5315d4			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0104	26d87236-3366-4699-b681-a69c69f560d2	phs003163_COG-N-573x		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0104.pdx.samp	b7b0192a-a398-4e47-b5bb-88fd804e4729			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0105	7733e28d-52bb-4f85-8628-725a24a6958a	phs003163_COG-N-470x		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0105.pdx.samp	f3339f00-f263-4442-a701-273c856ee7fb			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0106	a9f6b9f5-3fc2-473f-a0e5-c54d1f230e70	phs003163_LS_Luke-PDX		Soft Tissue	Tumor	C18009	Tissue
+sample	6949-JMM-0106.pdx.samp	77cee8d4-3246-4ac7-bf0e-533c074872c0			Soft Tissue	Tumor	C18009	Analyte
+sample	6949-JMM-0107	eafe2cad-035f-406a-baa8-afc81a056d68	phs003163_NP049x		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0107.pdx.samp	f4dcc85a-567c-4e37-9556-c1d90a8ec229			Not Reported	Tumor	C18009	Analyte
+sample	6949-JMM-0108	b1a13043-80f0-4e12-a2a6-25fd18ad52be	phs003163_NP053x		Not Reported	Tumor	C18009	Not Reported
+sample	6949-JMM-0108.pdx.samp	15b6a6db-c3ec-4cdd-851b-feeeb94bb8a3			Not Reported	Tumor	C18009	Analyte

@@ -144,7 +144,8 @@ def is_date_format(date_str, date_format):
 #     'cytogenomic_file': 'cytogenomic_file_id',
 #     'generic_file': 'generic_file_id',
 #     'pdx': 'pdx_id',
-#     'cell_line': 'cell_line_id'
+#     'cell_line': 'cell_line_id',
+#     'consent_group': 'consent_group_id'
 # }
 index_columns = {
     'study': 'id',
@@ -167,7 +168,8 @@ index_columns = {
     'cytogenomic_file': 'id',
     'generic_file': 'id',
     'pdx': 'id',
-    'cell_line': 'id'
+    'cell_line': 'id',
+    'consent_group': 'id'
 }
 
 # Write data to excel
@@ -215,6 +217,7 @@ df_cytogenomic_file = dataframes['cytogenomic_file']
 df_generic_file = dataframes['generic_file']
 df_pdx = dataframes['pdx']
 df_cell_line = dataframes['cell_line']
+df_consent_group = dataframes['consent_group']
 
 #Print each DataFrame
 print("\nDataFrame: df_study")
@@ -254,8 +257,11 @@ print(df_cytogenomic_file)
 print("\nDataFrame: df_generic_file")
 print(df_generic_file)
 print("\nDataFrame: df_pdx")
-print(df_cell_line)
+print(df_pdx)
 print("\nDataFrame: df_cell_line")
+print(df_cell_line)
+print("\nDataFrame: df_consent_group")
+print(df_consent_group)
 
 
 

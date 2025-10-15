@@ -191,4 +191,21 @@ df_file = dataframes['file']
 df_diagnosis = dataframes['diagnosis']
 df_genomic_info = dataframes['genomic_info']
 
+#Print each DataFrame
+print("\nDataFrame: df_program")
+print(df_program)
+print("\nDataFrame: df_study")
+print(df_study)
+print("\nDataFrame: df_participant")
+print(df_participant)
+print("\nDataFrame: df_sample")
+print(df_sample)
+print("\nDataFrame: df_diagnosis")
+print(df_diagnosis)
+print("\nDataFrame: df_file")
+print(df_file)
+print("\nDataFrame: df_genomic_info")
+print(df_genomic_info)
+
 df_run_query = lambda q: ps.sqldf(q, globals())
+
