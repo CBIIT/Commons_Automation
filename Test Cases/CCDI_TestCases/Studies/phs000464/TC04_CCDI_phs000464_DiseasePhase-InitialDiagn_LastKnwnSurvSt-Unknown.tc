@@ -4,5 +4,6 @@
    <name>TC04_CCDI_phs000464_DiseasePhase-InitialDiagn_LastKnwnSurvSt-Unknown</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>65a34c27-a9f9-4928-9f3c-81b3137cc137</testCaseGuid>
 </TestCaseEntity>
