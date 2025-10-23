@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Login.gov_SignIn-Btn</name>
+   <name>bai_Chkbx</name>
    <tag></tag>
-   <elementGuidId>13f94233-7e93-438a-8178-a191e18bd5ba</elementGuidId>
+   <elementGuidId>8ab031e4-d8ff-4962-9f8e-98524bf428fd</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[text()='Submit']</value>
+         <value>//*[@id=&quot;checkbox_File Type_bai&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[text()='Submit']</value>
-      <webElementGuid>59b941b5-d2f0-49cd-b361-1cb7e34ee7fd</webElementGuid>
+      <value>//*[@id=&quot;checkbox_File Type_bai&quot;]</value>
+      <webElementGuid>29a54b81-df8c-49db-bafb-b13a2ce50a3e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

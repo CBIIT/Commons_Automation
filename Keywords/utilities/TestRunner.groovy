@@ -1236,13 +1236,13 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		System.out.println ("Inside read stat bar function for CCDI");
 
 		Thread.sleep(2000)
-		GlobalVariable.G_StatBar_Studies = driver.findElement(By.xpath(xcStuds)).getAttribute("innerText");
+		GlobalVariable.G_StatBar_Studies = driver.findElement(By.xpath(xcStuds)).getAttribute("innerText").replace(',','');
 		System.out.println("This is the value of Studies count from Stat bar: "+GlobalVariable.G_StatBar_Studies)
 		Thread.sleep(2000)
-		GlobalVariable.G_StatBar_Participants = driver.findElement(By.xpath(xcParticip)).getAttribute("innerText");
+		GlobalVariable.G_StatBar_Participants = driver.findElement(By.xpath(xcParticip)).getAttribute("innerText").replace(',','');
 		System.out.println("This is the value of Participants count from Stat bar: "+GlobalVariable.G_StatBar_Participants)
 		Thread.sleep(2000)
-		GlobalVariable.G_StatBar_Samples = driver.findElement(By.xpath(xcSamples)).getAttribute("innerText");
+		GlobalVariable.G_StatBar_Samples = driver.findElement(By.xpath(xcSamples)).getAttribute("innerText").replace(',','');
 		System.out.println("This is the value of Samples count from Stat bar: "+GlobalVariable.G_StatBar_Samples)
 		Thread.sleep(2000)
 		GlobalVariable.G_StatBar_Files = driver.findElement(By.xpath(xcFiles)).getAttribute("innerText").replace(',','');

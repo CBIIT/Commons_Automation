@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@id=&quot;[object Object]&quot;])[9]</value>
+         <value>//span[.='Sequencing Library']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@id=&quot;[object Object]&quot;])[9]</value>
-      <webElementGuid>975e6846-2bca-4bd6-ad0e-645133cd461b</webElementGuid>
+      <value>//span[.='Sequencing Library']</value>
+      <webElementGuid>8136186a-f82f-41ca-9978-df2f66645227</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
