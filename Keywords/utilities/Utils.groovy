@@ -109,6 +109,8 @@ public class Utils {
 			tsvDataFilePath = Paths.get(usrDir, "InputFiles", "Bento")
 		}else if(appKey.equals("CRDC")) {
 			tsvDataFilePath = Paths.get(usrDir, "InputFiles", "CRDC")
+		}else if(appKey.equals("CTDC")) {
+			tsvDataFilePath = Paths.get(usrDir, "InputFiles", "CTDC")
 		}else {
 			KeywordUtil.markFailed("Invalid App Key or Node Path: Check getNodeFilesPath function")
 		}
@@ -133,8 +135,10 @@ public class Utils {
 			pyPath = Paths.get(usrDir, "PythonFiles", "INS", pyFileName)
 		}else if(appKey.equals("Bento")) {
 			pyPath = Paths.get(usrDir, "PythonFiles", "Bento", pyFileName)
-		}else if(appKey.equals("Bento")) {
+		}else if(appKey.equals("CRDC")) {
 			pyPath = Paths.get(usrDir, "PythonFiles", "CRDC", pyFileName)
+		}else if(appKey.equals("CTDC")) {
+			pyPath = Paths.get(usrDir, "PythonFiles", "CTDC", pyFileName)
 		}else {
 			KeywordUtil.markFailed("Invalid App Key: Check getPythonScriptPath function")
 		}
@@ -516,18 +520,18 @@ public class Utils {
 		throw new AssertionError("Element did not disappear within " + timeoutSeconds + " seconds: " + xpath);
 	}
 
-	
-	
+
+
 	/**
 	 * This function changes the pagination dropdown to 100 results per page
 	 */
 	@Keyword
 	public static void changePaginationResultsPerPage100() {
-		
+
 		def driver = DriverFactory.getWebDriver()
 		def js = (JavascriptExecutor) driver
 		def actions = new Actions(driver)
-		
+
 		def dropdownTrigger = WebUI.findWebElement(findTestObject('CCDI/ExplorePage/CCDI_ResultsPerPage_Ddn'), 10)
 
 		try {
@@ -536,7 +540,7 @@ public class Utils {
 		} catch (Exception e) {
 			WebUI.comment("Normal click failed: ${e.message}")
 		}
-		
+
 		def choice = WebUI.findWebElement(findTestObject('CCDI/ExplorePage/CCDI_ResultsPerPage_100'), 10)
 		try {
 			WebUI.click(findTestObject('CCDI/ExplorePage/CCDI_ResultsPerPage_100'))
@@ -544,6 +548,5 @@ public class Utils {
 			WebUI.comment("WebUI click failed, retrying with JS: ${e.message}")
 			js.executeScript("arguments[0].scrollIntoView({block:'center'}); arguments[0].click();", choice)
 		}
-		
 	}
 }

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Biospecimens-Tbl</name>
+   <tag></tag>
+   <elementGuidId>ede69bde-7f3a-4999-b044-924bccbbb842</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;biospecimens_tab_table&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;biospecimens_tab_table&quot;]</value>
+      <webElementGuid>8876739e-c4d0-4dd9-9af5-63ea1389c29d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

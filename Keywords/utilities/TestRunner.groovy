@@ -381,7 +381,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 	@Keyword
 	public static void ReadCasesTableKatalon(String statVal1, String tbl1, String hdr1, String nxtb1, String webSheetName) throws IOException {
 		String switchCanine
-		String switchTrials
+		String switchCTDC
 		String switchBento
 		String switchGMB
 		String switchCDS
@@ -572,24 +572,18 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 			}
 
 			//******** CTDC function starts below ********
-		}else if(appKey.equals("Trials")){
-			switchTrials = getPageSwitch();
-			switchString = "Trials";
-			System.out.println ("Value of TRIALS switch string: "+switchTrials)
-			nxtBtn =  driver.findElement(By.xpath(givexpath('Object Repository/Trials/Trials_File_NextBtn')));
-			columns_count = (colHeader.size())
-			for(int c=0;c<columns_count;c++){
-				hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
-			}
 		}else if(appKey.equals("CTDC")){
-			switchTrials = getPageSwitch();
-			switchString = "Trials";
-			System.out.println ("Value of TRIALS switch string: "+switchTrials)
-			nxtBtn =  driver.findElement(By.xpath(givexpath('Object Repository/Trials/Cases_page/Trials_CasesTabNextBtn')));
+			switchCTDC = getPageSwitch();
+			switchString = "CTDC";
+			System.out.println ("Value of CTDC switch string: "+switchCTDC)
+			nxtBtn =  driver.findElement(By.xpath(givexpath('CTDC/ResultTabs/All_Tabs_Next-Btn')));
 			columns_count = (colHeader.size())
+			columns_count=columns_count;
 			System.out.println ("Total number of columns in CTDC result tab in explore page: "+ columns_count)
-			for(int c=0;c<columns_count;c++){
-				hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
+			for(int c=1;c<columns_count;c++){
+				if (colHeader.get(c).getAttribute("innerText")!=("Access")){
+					hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
+				}
 			}
 			//********** Bento Function Start here *********
 		}else if(appKey.equals("Bento")){
@@ -653,7 +647,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		}
 
 		if (statValue !=0) {
-			
+
 			while (counter <= 10) {
 				wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(GlobalVariable.G_cannine_caseTblBdy)));   //the name is misleading but it is only a placeholder for all the applications
 				scrolltoViewjs(driver.findElement(By.xpath(GlobalVariable.G_cannine_caseTblBdy)))
@@ -993,43 +987,47 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 					}//canine if ends here
 
 					//@@@@@@@@@@@@@@@@ CTDC table data collection starts here  @@@@@@@@@@@@@@@@
+					if(switchString == "CTDC"){
+						switch(switchCTDC){
 
-					if(switchString == "Trials"){
-						System.out.println("Inside Trials Switch Structure")
-						switch(switchTrials){
-							case("/case/"):
-								System.out.println("Inside trials switch case")
-								int tblcol=GlobalVariable.G_rowcountFiles
-								System.out.println ("This is the value of tblcol variable: "+tblcol);
-								for (int j = 2; j < columns_count+tblcol; j = j + 2) {
-									data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + j + "]")).getText()) +"||")
-								}
-								break;
 							case("/explore"):
-								int tblcol=GlobalVariable.G_rowcount_Katalon;
-								System.out.println("This is the value of the variable tblcol: "+tblcol);
-								if((tbl_main).equals('//*[@id="file_tab_table"]')){
-									tblcol=tblcol-2
-									System.out.println("This is the count of tblcol after adjusting: "+tblcol)
-								}
-								if((statValue)==0){
-									System.out.println("inside the if loop for statvalue equal to 0 : already collected the header data")
-								}else{
-									System.out.println("This is the count of tblcol inside Trials: "+tblcol) //tblcol =10 for cases tab subtract 2 from it
-									System.out.println("This is the value of data before data collection: "+data)
-									for (int j = 1; j <= tblcol-2; j = j + 1) {
-										System.out.println("Value of i is: "+i)
-										System.out.println("Value of j is: "+j)
-										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/td[" + j + "]/div[2]")).getAttribute("innerText")) +"||")   //*[@id="case_tab_table"]//tbody/tr[1]/td[1]/div[2]/div/a
-										System.out.println("This is the value of data: "+data)
+
+								int tblcol=GlobalVariable.G_rowcountFiles
+
+								if((tbl_main).equals('//*[@id="participants_tab_table"]')){
+									tblcol=tblcol+1;
+									for (int j = 1; j <tblcol; j = j +1) {
+										System.out.println("This is the name of column header:  "+colHeader.get(j).getAttribute("innerText"))
+										String value = ((driver.findElement(By.xpath(tbl_bdy +"/tr[" + i + "]/td[" + (j+1) +"]")).getAttribute("innerText")))
+										data = data + value + "||"
+										System.out.println("This is the value of  table  cell:  "+value)
+									}
+								}else if((tbl_main).equals('//*[@id="biospecimens_tab_table"]')){
+									tblcol=tblcol;
+									for (int j = 1; j <tblcol; j = j +1) {
+										System.out.println("This is the name of column header:  "+colHeader.get(j).getAttribute("innerText"))
+										String value = ((driver.findElement(By.xpath(tbl_bdy +"/tr[" + i + "]/td[" + (j+1) +"]")).getAttribute("innerText")))
+										data = data + value + "||"
+										System.out.println("This is the value of  table  cell:  "+value)
+									}
+								}else if((tbl_main).equals('//*[@id="file_tab_table"]')){
+									tblcol=tblcol+2;
+									for (int j = 1; j <tblcol; j = j +1) {
+										if((colHeader.get(j).getAttribute("innerText"))!="Access") {
+											System.out.println("This is the name of column header:  "+colHeader.get(j).getAttribute("innerText"))
+											String value = ((driver.findElement(By.xpath(tbl_bdy +"/tr[" + i + "]/td[" + (j+1) +"]")).getAttribute("innerText")))
+											data = data + value + "||"
+											System.out.println("This is the value of  table  cell:  "+value)
+										}
 									}
 								}
 								break;
 							default:
-							//System.out.println("Trials Case did not match")
+								System.err.println("Check C3DC switch statment for this error")
 								break;
 						}
 					}
+
 					//@@@@@@@@@@@@@@@@ Bento table data collection starts here  @@@@@@@@@@@@@@@
 					if(switchString == "Bento"){
 						System.out.println("inside Bento switch structure");
@@ -1282,23 +1280,43 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 
 
 	/**
-	 * This function reads CTDC Statbar
-	 * @param tTrials
-	 * @param tCases
-	 * @param tFiles
+	 * This function reads CTDC Stat-bar
+	 * @param stdCount
+	 * @param partCount
+	 * @param diagCount
+	 * @param trgtTherapCount
+	 * @param biospeciCount
+	 * @param filesCount
 	 */
 	@Keyword
-	public void readTrialsStatBar(String tTrials, String tCases, String tFiles){
-		String xpTrials = givexpath(tTrials)
-		String xpCases = givexpath(tCases)
-		String xpFiles = givexpath(tFiles)
-		GlobalVariable.G_TStatBar_Trials = driver.findElement(By.xpath(xpTrials)).getText();
-		System.out.println("This is the value of Trials count from Stat bar :"+GlobalVariable.G_TStatBar_Trials)
-		GlobalVariable.G_TStatBar_Cases = driver.findElement(By.xpath(xpCases)).getText();
-		System.out.println("This is the value of Cases count from Stat bar :"+GlobalVariable.G_TStatBar_Cases)
-		GlobalVariable.G_TStatBar_Files = driver.findElement(By.xpath(xpFiles)).getText();
-		System.out.println("This is the value of Files count from Stat bar :"+GlobalVariable.G_TStatBar_Files)
+	public void readStatBarCTDC(String stdCount, String partCount, String diagCount, String trgtTherapCount, String biospeciCount, String filesCount){
+		String studies = givexpath(stdCount)
+		String participants = givexpath(partCount)
+		String diagnoses = givexpath(diagCount)
+		String targetedTherapies = givexpath(trgtTherapCount)
+		String biospeciens = givexpath(biospeciCount)
+		String files = givexpath(filesCount)
+
+		Thread.sleep(1000)
+		GlobalVariable.G_StatBar_Studies = driver.findElement(By.xpath(studies)).getAttribute("innerText");
+		System.out.println("Value of Studies count from Stat bar: "+GlobalVariable.G_StatBar_Studies)
+		Thread.sleep(1000)
+		GlobalVariable.G_StatBar_Participants = driver.findElement(By.xpath(participants)).getAttribute("innerText");
+		System.out.println("Value of Participants count from Stat bar: "+GlobalVariable.G_StatBar_Participants)
+		Thread.sleep(1000)
+		GlobalVariable.G_StatBar_Diagnosis = driver.findElement(By.xpath(diagnoses)).getAttribute("innerText");
+		System.out.println("Value of Diagnoses count from Stat bar: "+GlobalVariable.G_StatBar_Diagnosis)
+		Thread.sleep(1000)
+		GlobalVariable.G_StatBar_Projects = driver.findElement(By.xpath(targetedTherapies)).getText();
+		System.out.println("Value of Targeted Therapies count from Stat bar: "+GlobalVariable.G_StatBar_Projects)
+		Thread.sleep(1000)
+		GlobalVariable.G_StatBar_Grants = driver.findElement(By.xpath(biospeciens)).getText();
+		System.out.println("Value of Biospecimens count from Stat bar: "+GlobalVariable.G_StatBar_Grants)
+		Thread.sleep(1000)
+		GlobalVariable.G_StatBar_Files = driver.findElement(By.xpath(files)).getAttribute("innerText");
+		System.out.println("Value of Files count from Stat bar: "+GlobalVariable.G_StatBar_Files)
 	}
+
 
 	@Keyword
 	public void readStatBarINS(String tProgs, String tProjs, String tGrants, String tPubs){
@@ -1421,12 +1439,20 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 			(statData.get(0).get(5).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_StudyFiles)) ? KeywordUtil.markPassed("Statbar Study Files count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Study Files count")
 		}else if (getAppName=='CTDC') {
 
-			System.out.println("This is the value of Trials Count from TSV result "+statData.get(0).get(0).getStringCellValue())
-			System.out.println("This is the value of Cases Count from TSV result "+statData.get(0).get(1).getStringCellValue())
-			System.out.println("This is the value of Files Count from TSV result "+statData.get(0).get(2).getStringCellValue())
-			(statData.get(0).get(0).getStringCellValue().contentEquals(GlobalVariable.G_TStatBar_Trials)) ? KeywordUtil.markPassed("Statbar Trials count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Trials count")
-			(statData.get(0).get(1).getStringCellValue().contentEquals(GlobalVariable.G_TStatBar_Cases)) ? KeywordUtil.markPassed("Statbar Cases count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Cases count")
-			(statData.get(0).get(2).getStringCellValue().contentEquals(GlobalVariable.G_TStatBar_Files)) ? KeywordUtil.markPassed("Statbar Files count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Files count")
+			System.out.println("This is the value of Studies Count from TSV result "+statData.get(0).get(0).getStringCellValue())
+			System.out.println("This is the value of Participants Count from TSV result "+statData.get(0).get(1).getStringCellValue())
+			System.out.println("This is the value of Diagnoses Count from TSV result "+statData.get(0).get(2).getStringCellValue())
+			System.out.println("This is the value of Targeted Therapies Count from TSV result "+statData.get(0).get(3).getStringCellValue())
+			System.out.println("This is the value of Biospecimens Count from TSV result "+statData.get(0).get(4).getStringCellValue())
+			System.out.println("This is the value of Files Count from TSV result "+statData.get(0).get(5).getStringCellValue())
+			
+			(statData.get(0).get(0).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Studies)) ? KeywordUtil.markPassed("Statbar Studies count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Studies count")
+			(statData.get(0).get(1).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Participants)) ? KeywordUtil.markPassed("Statbar Participants count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Participant count")
+			(statData.get(0).get(2).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Diagnosis)) ? KeywordUtil.markPassed("Statbar Diagnoses count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Diagnoses count")
+			(statData.get(0).get(3).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Projects)) ? KeywordUtil.markPassed("Statbar Targeted Therapies count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Targeted Therapies count")
+			(statData.get(0).get(4).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Grants)) ? KeywordUtil.markPassed("Statbar Biospicimens count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Biospicimens count")
+			(statData.get(0).get(5).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Files)) ? KeywordUtil.markPassed("Statbar Files count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Files count")
+
 		}else if (getAppName=='CDS'){
 
 			System.out.println("This is the value of Studies Count from TSV result:  "+statData.get(0).get(0).getStringCellValue())  //add in the query in input file later

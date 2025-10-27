@@ -50,15 +50,15 @@ CustomKeywords.'utilities.TestRunner.browserDriver'('')
 
 CustomKeywords.'utilities.TestRunner.RunKatalon'('TC01_Trials_CaseFiles_PubmedID-315.xlsx')
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Trials/Trials_CASES_Btn'), 5)
+WebUI.waitForElementPresent(findTestObject('Object Repository/CTDC/NavBar/Statbar-Studies'), 5)
 
-WebUI.click(findTestObject('Object Repository/Trials/Trials_CASES_Btn'))
+WebUI.click(findTestObject('Object Repository/CTDC/NavBar/Statbar-Studies'))
 
-WebUI.waitForElementPresent(findTestObject('Trials/Filter/PubmedID/PUBMEDID_Ddn'), 5)
+WebUI.waitForElementPresent(findTestObject('CTDC/Filters/PubmedID/PUBMEDID_Ddn'), 5)
 
-WebUI.click(findTestObject('Trials/Filter/PubmedID/PUBMEDID_Ddn'))
+WebUI.click(findTestObject('CTDC/Filters/PubmedID/PUBMEDID_Ddn'))
 
-WebUI.click(findTestObject('Trials/Filter/PubmedID/31504139_Chkbx'))
+WebUI.click(findTestObject('CTDC/Filters/PubmedID/31504139_Chkbx'))
 
 CustomKeywords.'utilities.TestRunner.File_details'('Object Repository/Trials/Trials_CasesTable', 'Object Repository/Trials/Trials_TableHeader', 
     'Object Repository/Trials/Trials_NextBtn')

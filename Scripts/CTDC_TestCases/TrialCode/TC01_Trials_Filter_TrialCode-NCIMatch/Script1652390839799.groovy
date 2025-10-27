@@ -51,17 +51,17 @@ CustomKeywords.'utilities.TestRunner.browserDriver'('')
 
 CustomKeywords.'utilities.TestRunner.RunKatalon'('TC01_Trials_Filter_TrialCode-NCIMatch.xlsx')
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Trials/Trials_CASES_Btn'), 5)
+WebUI.waitForElementPresent(findTestObject('Object Repository/CTDC/NavBar/Statbar-Studies'), 5)
 
-WebUI.click(findTestObject('Object Repository/Trials/Trials_CASES_Btn'))
+WebUI.click(findTestObject('Object Repository/CTDC/NavBar/Statbar-Studies'))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Trials/Filter/TrialCode/TRIALCODE_Ddn'), 5)
+WebUI.waitForElementPresent(findTestObject('Object Repository/CTDC/Filters/TrialCode/TRIALCODE_Ddn'), 5)
 
-WebUI.click(findTestObject('Object Repository/Trials/Filter/TrialCode/TRIALCODE_Ddn'))
+WebUI.click(findTestObject('Object Repository/CTDC/Filters/TrialCode/TRIALCODE_Ddn'))
 
-WebUI.click(findTestObject('Object Repository/Trials/Filter/TrialCode/NCI-Match_Chkbx'))
+WebUI.click(findTestObject('Object Repository/CTDC/Filters/TrialCode/NCI-Match_Chkbx'))
 
-//WebUI.click(findTestObject('Trials/Cases_page/Trials_CloseView_Btn'))
+//WebUI.click(findTestObject('CTDC/ResultTabs/Trials_CloseView_Btn'))
 CustomKeywords.'utilities.TestRunner.ReadCasesTableKatalon'('Object Repository/Trials/Trials_CasesTable', 
     'Object Repository/Trials/Trials_TableHeader', 'Object Repository/Trials/Trials_NextBtn', GlobalVariable.G_WebTabnameCasesCasesCases)
 

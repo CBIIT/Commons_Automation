@@ -50,14 +50,14 @@ CustomKeywords.'utilities.TestRunner.browserDriver'('')
 
 CustomKeywords.'utilities.TestRunner.RunKatalon'('TC01_Trials_CaseFiles_Diagnosis-AdenoCervix.xlsx')
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Trials/Trials_CASES_Btn') , 5)
-WebUI.click( findTestObject('Object Repository/Trials/Trials_CASES_Btn'))
+WebUI.waitForElementPresent(findTestObject('Object Repository/CTDC/NavBar/Statbar-Studies') , 5)
+WebUI.click( findTestObject('Object Repository/CTDC/NavBar/Statbar-Studies'))
 
 
-WebUI.waitForElementPresent( findTestObject('Object Repository/Trials/Filter/Diagnosis/DIAGNOSIS_Ddn'), 5)
-WebUI.click( findTestObject('Object Repository/Trials/Filter/Diagnosis/DIAGNOSIS_Ddn'))
+WebUI.waitForElementPresent( findTestObject('Object Repository/CTDC/Filters/Diagnosis/DIAGNOSIS_Ddn'), 5)
+WebUI.click( findTestObject('Object Repository/CTDC/Filters/Diagnosis/DIAGNOSIS_Ddn'))
  
-WebUI.click(findTestObject('Object Repository/Trials/Filter/Diagnosis/AdenoCervix_Chkbx'))
+WebUI.click(findTestObject('Object Repository/CTDC/Filters/Diagnosis/AdenoCervix_Chkbx'))
  
 
 CustomKeywords.'utilities.TestRunner.File_details'('Object Repository/Trials/Trials_CasesTable',

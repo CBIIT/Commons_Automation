@@ -58,7 +58,7 @@ CustomKeywords.'utilities.TestRunner.multiFunction'('ICDC', GlobalVariable.G_Sta
 WebUI.waitForElementPresent(findTestObject('Canine/CanineResults_Samples_Tab'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('Canine/CanineResults_Samples_Tab')
 CustomKeywords.'utilities.TestRunner.multiFunction'('ICDC', GlobalVariable.G_StatBar_Samples, 'Canine/Canine_Samples_Table',
-	'Canine/Canine_Samples_TableHdr', 'Canine/Canine_SamplesTabNextBtn', GlobalVariable.G_WebTabnameSamples,
+	'Canine/Canine_Samples_TableHdr', 'Canine/Canine_SamplesTabNextBtn', GlobalVariable.G_WebTabnameBiospecimens,
 	'TsvDataSamples', GlobalVariable.G_QuerySamplesTab)
 
 	
