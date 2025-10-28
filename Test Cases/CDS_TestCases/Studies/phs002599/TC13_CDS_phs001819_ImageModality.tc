@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC13_CDS_phs001819_ImageModality</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>b4931d6a-8832-4a6a-bbfa-3f521df0f3f5</testCaseGuid>
-</TestCaseEntity>

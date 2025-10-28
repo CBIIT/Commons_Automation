@@ -599,4 +599,39 @@
       <testCaseId>Test Cases/CDS_TestCases/Studies/phs003432/TC01_CDS_phs003432</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>5c75e5fc-ad4d-4b89-8e86-c7fa0142c534</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs002599/TC01_CDS_phs002599_SmpTumSta-NSD_SmpType-RNA_LibStr_TargetedCapture</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>be56a8f3-c2f9-4e38-855a-60a2e3a1bee4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs002599/TC02_CDS_phs002599_Sex_Male_ExpStr-TargetedCap_FileTyp-FASTQ</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ace70fd1-cfe5-4652-9585-bf413c3920bb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs002599/TC03_CDS_phs002599_RefGen_NSD_Platform-Illumina_LibSrc-Genomic</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0eb8683b-0595-43fa-bbee-654bbd7fdb12</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs002599/TC04_CDS_phs002599_LibSel-HybridSel_LibLay-PairedEnd_InstMod-IlluminaHiSeq2000</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5f6d75c1-8b82-409d-853c-4d277c71999d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs002599/TC05_CDS_phs002599_Sex-Male_PrimDiag_NotReported_FileType-FASTQ</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

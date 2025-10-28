@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC02_CDS_phs002250_Sex_Male_ExpStr-WGS_FileTyp-CRAM</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>9b941044-149d-4f3b-9a3a-7ad0e54c35b6</testCaseGuid>
-</TestCaseEntity>

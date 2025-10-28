@@ -9,6 +9,10 @@
          <key>BASIC</key>
          <value>//*[@id=&quot;Library Source Material&quot;]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -19,6 +23,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;Library Source Material&quot;]</value>
-      <webElementGuid>b9e446dc-f17b-429c-820f-b7b45a6a2558</webElementGuid>
+      <webElementGuid>875792ec-abc1-4a46-b894-f41a6ecaccc6</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

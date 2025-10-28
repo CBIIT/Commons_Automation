@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC05_CDS_phs002250_Sex-Female_PrimDiag_Glioma_FileType-CRAI</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>9533f1aa-1b5e-4f56-8acc-e35fcc7b7015</testCaseGuid>
-</TestCaseEntity>

@@ -312,4 +312,39 @@
       <testCaseId>Test Cases/CDS_TestCases/Studies/phs002366/TC05_CDS_phs002366_Sex-Female_PrimDiag_LungCancer_FileType-FASTQ</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>dc2cd15d-4882-4308-8fb8-6a244049f50b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs002599/TC01_CDS_phs002599_SmpTumSta-NSD_SmpType-RNA_LibStr_TargetedCapture</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>eee0443c-bb35-4ea1-ac00-657b1d9a6f02</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs002599/TC02_CDS_phs002599_Sex_Male_ExpStr-TargetedCap_FileTyp-FASTQ</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>025713e5-f6cb-4ede-a1d8-3bfba71324a1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs002599/TC03_CDS_phs002599_RefGen_NSD_Platform-Illumina_LibSrc-Genomic</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e45d8ae3-266e-4f81-b01e-faded1113fdb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs002599/TC04_CDS_phs002599_LibSel-HybridSel_LibLay-PairedEnd_InstMod-IlluminaHiSeq2000</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>055767f7-8f31-4c81-aa88-440123b70a31</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs002599/TC05_CDS_phs002599_Sex-Male_PrimDiag_NotReported_FileType-FASTQ</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
