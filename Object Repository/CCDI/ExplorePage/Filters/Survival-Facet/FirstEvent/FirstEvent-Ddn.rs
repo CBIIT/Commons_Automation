@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@id=&quot;[object Object]&quot;])[2]</value>
+         <value>//div[@id='First Event']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@id=&quot;[object Object]&quot;])[2]</value>
-      <webElementGuid>afeb2c81-4741-4d34-b79e-5278dacd4186</webElementGuid>
+      <value>//div[@id='First Event']</value>
+      <webElementGuid>c7e782e6-774f-4844-91c2-3ba781f78dea</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
