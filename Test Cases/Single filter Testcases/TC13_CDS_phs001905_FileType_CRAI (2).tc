@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC13_CDS_phs001905_FileType_CRAI (2)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>10aa8d00-063c-43df-8fb2-152199203ab8</testCaseGuid>
+</TestCaseEntity>

@@ -38,11 +38,11 @@ import java.nio.file.Paths
 
 
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC01_CDS_phs003163_SmpTumSta-Tumor_SmpType-Blood_LibStr_NSD.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC01_CDS_phs003163.xlsx')
 
-CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py','TsvDataParticipants')
-CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py','TsvDataSamples')
-CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py','TsvDataFiles')
+//CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py','TsvDataParticipants')
+//CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py','TsvDataSamples')
+//CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py','TsvDataFiles')
 
 CustomKeywords.'utilities.PythonReader.readFileQuickRun'('Statbar.py','')
 

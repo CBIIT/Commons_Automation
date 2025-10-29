@@ -144,7 +144,8 @@ def is_date_format(date_str, date_format):
 #     'cytogenomic_file': 'cytogenomic_file_id',
 #     'generic_file': 'generic_file_id',
 #     'pdx': 'pdx_id',
-#     'cell_line': 'cell_line_id'
+#     'cell_line': 'cell_line_id',
+#     'consent_group': 'consent_group_id'
 # }
 index_columns = {
     'study': 'id',
@@ -261,6 +262,7 @@ print("\nDataFrame: df_cell_line")
 print(df_cell_line)
 print("\nDataFrame: df_consent_group")
 print(df_consent_group)
+
 
 
 df_run_query = lambda q: ps.sqldf(q, globals())

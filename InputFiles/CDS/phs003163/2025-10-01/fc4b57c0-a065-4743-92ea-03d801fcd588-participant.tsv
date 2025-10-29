@@ -1,0 +1,37 @@
+type	study_participant_id	crdc_id	dbGaP_subject_id	ethnicity	participant_id	race	race_concept_code	sex	sex_concept_code	study.phs_accession
+participant	phs003163_Adam-Fx_ALK-F-PDX	88343651-aef2-4dda-b405-0ede94c29071			Adam-Fx_ALK-F-PDX	Not Reported	C43234	Male	C20197	phs003163
+participant	phs003163_Adam-Lx_ALK-L-PDX	28ce7668-7358-4c59-a583-b2f083ea0175			Adam-Lx_ALK-L-PDX	Not Reported	C43234	Male	C20197	phs003163
+participant	phs003163_Adam-Rx_ALK-R-PDX	6042924e-1cf7-4624-81cb-460264dee265			Adam-Rx_ALK-R-PDX	Not Reported	C43234	Male	C20197	phs003163
+participant	phs003163_Brooke-PDX	21f1b462-a5c0-45fb-9a41-b994a447045c			Brooke-PDX	White	C41261	Female	C16576	phs003163
+participant	phs003163_COG-N-470x	aafdcdee-41f2-4a2c-9346-fcc632310712			COG-N-470x	Not Reported	C43234	Female	C16576	phs003163
+participant	phs003163_COG-N-573x	85a69439-107c-4d6e-ac59-350b67c4632f			COG-N-573x	Not Reported	C43234	Male	C20197	phs003163
+participant	phs003163_HG-Lx	b830a4cd-da65-49fe-83a1-6949b944de79			HG-Lx	White	C41261	Female	C16576	phs003163
+participant	phs003163_HG-Rx	34349f2f-7f86-4b4a-9a00-d92d78584627			HG-Rx	White	C41261	Female	C16576	phs003163
+participant	phs003163_JG-Fx	6fd4f459-68a2-48a9-a73e-97ff992df687			JG-Fx	White	C41261	Female	C16576	phs003163
+participant	phs003163_JG-Rx	41d57e03-3660-4b03-b58c-728e1a82bdbe			JG-Rx	White	C41261	Female	C16576	phs003163
+participant	phs003163_KWK-6062x	726c3206-5fbe-4d7b-90c2-c20650361b40			KWK-6062x	White	C41261	Male	C20197	phs003163
+participant	phs003163_LS_Luke-PDX	0e624d9d-d547-4741-afda-751bf452efae			LS_Luke-PDX	White	C41261	Male	C20197	phs003163
+participant	phs003163_N0619x	b94d2c7c-0689-4074-96a4-a5c2280724ad			N0619x	Not Reported	C43234	Female	C16576	phs003163
+participant	phs003163_NP012x	e1eee406-d9f4-4007-9f19-a8cc3b14779e			NP012x	Black or African American	C16352	Female	C16576	phs003163
+participant	phs003163_NP015x	e4ab8105-b6b8-44a9-aaf9-622a28037a68			NP015x	White	C41261	Male	C20197	phs003163
+participant	phs003163_NP016x	cdfed884-4e03-49e5-a22c-08e2a7a647ec			NP016x	White	C41261	Male	C20197	phs003163
+participant	phs003163_NP017x_RH07-1x	a921f209-c140-4945-bfc1-f930a8b4b9f4			NP017x_RH07-1x	White	C41261	Female	C16576	phs003163
+participant	phs003163_NP018x_RH07-2x	a9db0977-18c3-4a04-a641-22428998fb77			NP018x_RH07-2x	White	C41261	Female	C16576	phs003163
+participant	phs003163_NP019x_RH07-3x	35552d78-b241-43d3-86c3-6102402d55a8			NP019x_RH07-3x	White	C41261	Female	C16576	phs003163
+participant	phs003163_NP020x_RH07-4x	53761ccb-68d1-487d-95e9-1f5cc584e7a1			NP020x_RH07-4x	White	C41261	Female	C16576	phs003163
+participant	phs003163_NP021x_RH07-5x	f9a47780-73fa-4692-bda1-98b595dd94fc			NP021x_RH07-5x	White	C41261	Female	C16576	phs003163
+participant	phs003163_NP030x	74b712e5-47a5-46df-a108-e9f5550af164			NP030x	Black or African American	C16352	Male	C20197	phs003163
+participant	phs003163_NP031x	11bc3f85-eeb4-4b43-b06a-ff0e492f5d6d			NP031x	Black or African American	C16352	Male	C20197	phs003163
+participant	phs003163_NP036x	f36fc8ce-4866-4425-854d-914e14386d44			NP036x	Unknown	C17998	Male	C20197	phs003163
+participant	phs003163_NP037x	0471d389-bb4e-4b87-9663-3f02347ab3f1			NP037x	White	C41261	Male	C20197	phs003163
+participant	phs003163_NP039x	d2d2f289-dfb3-4e32-85f9-5e1377c509c7			NP039x	Black or African American	C16352	Female	C16576	phs003163
+participant	phs003163_NP040x	488d5d93-c860-46ba-a73a-ad579e4ff58c			NP040x	Black or African American	C16352	Female	C16576	phs003163
+participant	phs003163_NP043x	bf89ac66-cee1-4f98-b0e3-acaf13eaf60a			NP043x	Black or African American	C16352	Male	C20197	phs003163
+participant	phs003163_NP045x	278ddc98-8e3e-42f1-a336-780bf4eac865			NP045x	White	C41261	Male	C20197	phs003163
+participant	phs003163_NP049x	2c00a854-d6c6-4a61-a56c-0b9f60df8892			NP049x	Not Reported	C43234	Female	C16576	phs003163
+participant	phs003163_NP053x	b1a5f631-860e-4029-939d-058c0370b9dd			NP053x	White	C41261	Male	C20197	phs003163
+participant	phs003163_Obelix-2x	4c7c26e9-2320-46e2-a403-c489da43595a			Obelix-2x	White	C41261	Male	C20197	phs003163
+participant	phs003163_Obelix-Fx	e5b40d5c-934e-4c25-91e5-37b837a45e12			Obelix-Fx	White	C41261	Male	C20197	phs003163
+participant	phs003163_Obelix-Rx	7419cf8b-f987-40f7-b2f7-86cf80f6b5ea			Obelix-Rx	White	C41261	Male	C20197	phs003163
+participant	phs003163_YDLFx	df5a351b-ac26-4278-a973-652ce8ad35eb			YDLFx	Asian	C41260	Male	C20197	phs003163
+participant	phs003163_YDLRx	919255a2-1a2b-490d-9ab7-b6eb7a44b67c			YDLRx	Asian	C41260	Male	C20197	phs003163
