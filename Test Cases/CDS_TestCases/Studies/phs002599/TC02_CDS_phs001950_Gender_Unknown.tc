@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC02_CDS_phs001950_Gender_Unknown</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>68ff70fc-de03-47b0-9b57-d4088a2fef50</testCaseGuid>
-</TestCaseEntity>
