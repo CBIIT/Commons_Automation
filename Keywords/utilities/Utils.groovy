@@ -360,21 +360,36 @@ public class Utils {
 					}
 
 					//When there is data, compare UI value against DB value
-//					if(l1Value.equals(l2Value)){
-//						System.out.println("UI  data cell value is:  "+ l1Value + "\nTSV data cell value is:  "+ l2Value );
-//						System.out.println("Content matches for Row: " + l1rowCount + " Col: " + col +" \u2713");
-//					}else{
-//						System.err.println("*********** DATA MISMATCH ***********")
-//						System.err.println("UI  data cell value is:  "+ l1Value + "\nTSV data cell value is:  "+ l2Value );
-//						System.err.println("Content does not match for Row: " + l1rowCount + " Col: " + col +" \u2717")
-//						KeywordUtil.markFailed("*********** DATA MISMATCH in compareTwoLists *************");
-//					}
-					
+					//					if(l1Value.equals(l2Value)){
+					//						System.out.println("UI  data cell value is:  "+ l1Value + "\nTSV data cell value is:  "+ l2Value );
+					//						System.out.println("Content matches for Row: " + l1rowCount + " Col: " + col +" \u2713");
+					//					}else{
+					//						System.err.println("*********** DATA MISMATCH ***********")
+					//						System.err.println("UI  data cell value is:  "+ l1Value + "\nTSV data cell value is:  "+ l2Value );
+					//						System.err.println("Content does not match for Row: " + l1rowCount + " Col: " + col +" \u2717")
+					//						KeywordUtil.markFailed("*********** DATA MISMATCH in compareTwoLists *************");
+					//					}
+
 					// When there is data, compare UI value against DB value (with a fallback normalized compare)
-					String uiNorm  = normalizeSemicolonList(l1Value);
-					String tsvNorm = normalizeSemicolonList(l2Value);
+//					String uiNorm  = normalizeSemicolonList(l1Value);
+//					String tsvNorm = normalizeSemicolonList(l2Value);
+//
+//					if (l1Value.equals(l2Value) || uiNorm.equals(tsvNorm)) {
+//						System.out.println("UI  data cell value is:  " + l1Value + "\nTSV data cell value is:  " + l2Value);
+//						System.out.println("Content matches for Row: " + l1rowCount + " Col: " + col + " \u2713");
+//					} else {
+//						System.err.println("*********** DATA MISMATCH ***********");
+//						System.err.println("UI  data cell value is:  " + l1Value + "\nTSV data cell value is:  " + l2Value);
+//						System.err.println("UI  normalized: " + uiNorm + " | TSV normalized: " + tsvNorm);
+//						System.err.println("Content does not match for Row: " + l1rowCount + " Col: " + col + " \u2717");
+//						KeywordUtil.markFailed("*********** DATA MISMATCH in compareTwoLists *************");
+						
+					String l1ValueClean = stripCpiBadge(l1Value)
+					String uiNorm  = normalizeSemicolonList(l1ValueClean)
+					String tsvNorm = normalizeSemicolonList(l2Value)
 					
-					if (l1Value.equals(l2Value) || uiNorm.equals(tsvNorm)) {
+					// And tweak the equality check to allow exact match after cleaning:
+					if (l1Value.equals(l2Value) || l1ValueClean.equals(l2Value) || uiNorm.equals(tsvNorm)) {
 						System.out.println("UI  data cell value is:  " + l1Value + "\nTSV data cell value is:  " + l2Value);
 						System.out.println("Content matches for Row: " + l1rowCount + " Col: " + col + " \u2713");
 					} else {
@@ -384,7 +399,6 @@ public class Utils {
 						System.err.println("Content does not match for Row: " + l1rowCount + " Col: " + col + " \u2717");
 						KeywordUtil.markFailed("*********** DATA MISMATCH in compareTwoLists *************");
 					}
-					
 				}
 				l2row++
 			}
@@ -561,7 +575,7 @@ public class Utils {
 			js.executeScript("arguments[0].scrollIntoView({block:'center'}); arguments[0].click();", choice)
 		}
 	}
-	
+
 	/**
 	 * Helper to normalize order for TSV/UI comparison
 	 */
@@ -569,7 +583,7 @@ public class Utils {
 		if (s == null) return "";
 		String trimmed = s.trim();
 		if (trimmed.isEmpty()) return "";
-	
+
 		// If it's a multi-value cell, normalize order and spacing
 		if (trimmed.indexOf(';') >= 0) {
 			String[] parts = trimmed.split(";");
@@ -587,4 +601,37 @@ public class Utils {
 		return trimmed.replaceAll("\\s+", " ");
 	}
 	
+	/**
+	 * Helper to strip the number badge for CPI mappings from the Participant ID column
+	 */
+	private static String stripCpiBadge(String s) {
+    if (s == null) return null
+
+    String out = s
+
+    // Normalize line endings, collapse NBSP, trim
+    out = out.replace('\r', '\n').replace('\u00A0', ' ').trim()
+
+    // If UI renders the CPI badge on the next line (common case), keep only the first line
+    int nl = out.indexOf('\n')
+    if (nl >= 0) {
+        out = out.substring(0, nl).trim()
+    }
+
+    // Now strip ONLY a trailing badge count that is separated by whitespace or brackets.
+    // Important: these regexes require whitespace before the number or bracket,
+    // so IDs like "...043775" (no space) remain intact.
+
+    // e.g., " (2)" at end
+    out = out.replaceAll('(?<=\\s)\\(\\d{1,3}\\)$', '')
+    // e.g., " [2]" at end
+    out = out.replaceAll('(?<=\\s)\\[\\d{1,3}\\]$', '')
+    // e.g., " 2" at end
+    out = out.replaceAll('(?<=\\s)\\d{1,3}$', '')
+
+    // Clean up any trailing whitespace left by the removals
+    return out.trim()
+	}
+
+
 }

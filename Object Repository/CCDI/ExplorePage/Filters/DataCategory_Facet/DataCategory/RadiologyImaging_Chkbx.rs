@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Samples_Facet</name>
+   <name>RadiologyImaging_Chkbx</name>
    <tag></tag>
-   <elementGuidId>3d13194d-482a-4c10-a93d-8e027c6dc775</elementGuidId>
+   <elementGuidId>b3470144-48f6-4012-b3de-98805ee87d68</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//span[text()=&quot;Samples&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Data Category_Radiology Imaging&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +22,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//span[text()=&quot;Samples&quot;]</value>
-      <webElementGuid>451298c4-f9da-441f-b9c6-3acf2a407791</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Data Category_Radiology Imaging&quot;]</value>
+      <webElementGuid>919a8652-e5be-4f02-a998-5217c708ab8e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
