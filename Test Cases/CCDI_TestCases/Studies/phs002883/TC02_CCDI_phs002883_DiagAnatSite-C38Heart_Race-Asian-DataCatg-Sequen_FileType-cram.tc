@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_CCDI_phs002883_DiagAnatSite-C38Heart_Race-Asian-DataCatg-Sequen_FileType-cram</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>07f49dbe-40fb-4c04-912f-fe542c0d9800</testCaseGuid>
+</TestCaseEntity>

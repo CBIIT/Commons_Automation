@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_library strategy_RNA-Seq&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Library Strategy_RNA-Seq&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_library strategy_RNA-Seq&quot;]</value>
-      <webElementGuid>add8f784-224a-47a7-9cea-f1089ff448bc</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Library Strategy_RNA-Seq&quot;]</value>
+      <webElementGuid>164e3af0-3212-4ee9-882d-13f5767620e4</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

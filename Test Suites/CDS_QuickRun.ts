@@ -238,36 +238,134 @@
    <testCaseLink>
       <guid>2e0c7865-2dde-4fce-9168-65cb8f7c71bc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CDS_TestCases/Studies/phs002366/TC01_CDS_phs002366_SmpTumSta-NSD_SmpType-Blood_LibStr_WXS</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>7b3cec3b-5f53-46db-b538-e46132bdc339</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CDS_TestCases/Studies/phs002366/TC02_CDS_phs002366_Sex_Female_ExpStr-WXS_FileTyp-FASTQ</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>f030e409-9d5c-44da-ac48-7d09470635aa</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CDS_TestCases/Studies/phs002366/TC03_CDS_phs002366_RefGen_GRCh37_Platform-Illumina_LibSrc-Genomic</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>e4d274af-4f1b-46af-8f36-e580391ecac1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CDS_TestCases/Studies/phs002366/TC04_CDS_phs002366_LibSel-Random_LibLay-PairedEnd_InstMod-IlluminaHiSeqXTen</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>f3cffdfc-ceef-475f-befc-b9de1eb0cc4a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CDS_TestCases/Studies/phs002366/TC05_CDS_phs002366_Sex-Female_PrimDiag_LungCancer_FileType-FASTQ</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b9e11515-ae6f-4ac4-9411-d049e658592f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs002430/TC01_CDS_phs002430_Sex-Unknown_SmpTumSta-Tumor_SmpType-NotSpecifiedindata_Filetype-fastq</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c540da0f-17f3-4b6f-83fd-2fd269d85b95</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs002430/TC02_CDS_phs002430_Sex-NotSpecified_Experimental-strategy-RNA-Seq_Filetype-fastq</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>57b43944-61ce-42a7-95d7-a1babc144b72</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs002430/TC04_CDS_phs002430_LibSel-Oligo-dT_LibLay-PairedEnd_InstMod-Illumina NovaSeq 6000</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a00a9a81-8bf9-4e39-8da9-3ba1d91febe8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs002430/TC05_CDS_phs002430_Sex-Unknown_Studydatatype-Imaging_Filetype-fastq</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>01e9912d-69a9-4156-9733-e07fee71be92</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs002430/TC06_CDS_phs002430_RefGenAsbly-NSD_PrimDiag-Acutemyloidleukemia</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>20acf622-5c19-49eb-a344-334904cfcf7f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs002431/TC02_CDS_phs002431_LibSel-RAN_LibLay-PairedEnd_InstMod- Illumina HiSeq 2500</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1ce30672-497b-41f4-8118-0feee6372901</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs002431/TC03_CDS_phs002431_SmpTumSta-Normal_SmpType-Blood_LibStr_RNA-Seq</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c4f3ed8b-f010-4222-8a39-91554605cfcd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs002431/TC04_CDS_phs002431_Sex_Male_ExpStr-RNA-Seq_FileTyp-fastq</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>05bf5cf8-9481-4df6-8344-c4287cf5d8f8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs002431/TC05_CDS_phs002431_Sex-Female_PrimDiag_AbdominslFibro_FileType-CRAM</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2e6680dc-b3d7-4744-b254-ad341a4908ea</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs002432/TC01_CDS_phs002432_RefGen_GRCh37_Platform-Illumina_LibSrc-Genomic</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8b842e68-bfeb-4d10-a9c4-fb5f5a7321ab</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs002432/TC02_CDS_phs002432_LibSel-PCR_LibLay-PairedEnd_InstMod- Illumina HiSeq 2500</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d8da8037-3619-4ad5-8c98-3be21975ce31</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs002432/TC03_CDS_phs002432_SmpTumSta-Notspecif_SmpType-Blood_LibStr_RNA-Seq</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b4d07387-cad4-4133-a305-e274c5ffe9b9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs002432/TC04_CDS_phs002432_Sex_Male_ExpStr-RNA-Seq_FileTyp-fastq</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7b887eb1-b363-4e3e-b015-4ba7d60a9f6b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs002432/TC05_CDS_phs002432_Sex-Female_PrimDiag_MalenomaNOs_FileType-fastq</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

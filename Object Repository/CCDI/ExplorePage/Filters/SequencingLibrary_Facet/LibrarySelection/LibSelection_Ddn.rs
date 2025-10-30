@@ -7,21 +7,22 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;Library selection&quot;]</value>
+         <value>//span[text()=&quot;Library Selection&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//*[@id=&quot;Library selection&quot;]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;Library selection&quot;]</value>
-      <webElementGuid>9b0bdced-23ae-4f92-a205-9c57ca4bb623</webElementGuid>
+      <value>//span[text()=&quot;Library Selection&quot;]</value>
+      <webElementGuid>c6b15c52-35df-49cc-9aa1-4015200a0e09</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

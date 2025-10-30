@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_CCDI_phs002883_DiagClasSyst-ICD03.2_DiagBasis-NotReported_SamTumSt-Normal_Sex-Female_Race-Unknwn</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8cff1b90-d499-48e9-a9ba-f90fbb5aa7b6</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_CCDI_phs002620_DiseasePhase-Refractory_LastKnwnSurvSt-Alive_TumClass-Primary_LibrSorMat-BulkTissue</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>84e4c3ed-ae5b-4c2f-9215-c5dfe42aef98</testCaseGuid>
+</TestCaseEntity>

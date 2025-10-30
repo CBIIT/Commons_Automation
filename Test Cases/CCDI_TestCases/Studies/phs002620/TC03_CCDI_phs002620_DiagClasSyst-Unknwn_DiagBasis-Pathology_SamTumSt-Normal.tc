@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_CCDI_phs002620_DiagClasSyst-Unknwn_DiagBasis-Pathology_SamTumSt-Normal</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cdbc4ce2-e61d-4256-9786-04665b5ee12a</testCaseGuid>
+</TestCaseEntity>

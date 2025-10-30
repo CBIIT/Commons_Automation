@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC09_CDS_phs001905_LibrarySelection_HybridSelection</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>bdde9f5d-d9ab-4ab7-9764-a6581e02038a</testCaseGuid>
-</TestCaseEntity>

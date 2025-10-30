@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SarcomaNOS_Chkbx</name>
+   <tag></tag>
+   <elementGuidId>8ad2200d-6568-49dd-a16d-1018ab700e73</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;checkbox_Sarcoma,NOS&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;checkbox_Sarcoma,NOS&quot;]</value>
+      <webElementGuid>2e9d28b1-43a5-40a0-886b-3b684c6c5d4c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
