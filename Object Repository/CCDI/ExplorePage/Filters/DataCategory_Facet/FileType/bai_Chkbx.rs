@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Samples_Facet</name>
+   <name>bai_Chkbx</name>
    <tag></tag>
-   <elementGuidId>3d13194d-482a-4c10-a93d-8e027c6dc775</elementGuidId>
+   <elementGuidId>8ab031e4-d8ff-4962-9f8e-98524bf428fd</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//span[text()=&quot;Samples&quot;]</value>
+         <value>//*[@id=&quot;checkbox_File Type_bai&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//span[text()=&quot;Samples&quot;]</value>
-      <webElementGuid>451298c4-f9da-441f-b9c6-3acf2a407791</webElementGuid>
+      <value>//*[@id=&quot;checkbox_File Type_bai&quot;]</value>
+      <webElementGuid>29a54b81-df8c-49db-bafb-b13a2ce50a3e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

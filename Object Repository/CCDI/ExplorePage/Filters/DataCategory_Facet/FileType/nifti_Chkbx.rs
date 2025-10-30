@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Samples_Facet</name>
+   <name>nifti_Chkbx</name>
    <tag></tag>
-   <elementGuidId>3d13194d-482a-4c10-a93d-8e027c6dc775</elementGuidId>
+   <elementGuidId>fc69d32a-fb7b-4682-9087-5762638a6d51</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//span[text()=&quot;Samples&quot;]</value>
+         <value>//*[@id=&quot;checkbox_File Type_nifti&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//span[text()=&quot;Samples&quot;]</value>
-      <webElementGuid>451298c4-f9da-441f-b9c6-3acf2a407791</webElementGuid>
+      <value>//*[@id=&quot;checkbox_File Type_nifti&quot;]</value>
+      <webElementGuid>a85964c8-114e-4f49-83b9-96df41aa4782</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
