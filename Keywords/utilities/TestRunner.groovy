@@ -811,6 +811,14 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 										data = data + value + "||"
 										System.out.println("This is the value of  table  cell:  "+value)
 									}
+								}else if((tbl_main).equals("//*[@id='genetic_analysis_tab_table']")){
+									tblcol=tblcol+2;
+									for (int j = 1; j <tblcol; j = j +1) {
+										System.out.println("This is the name of column header:  "+colHeader.get(j).getAttribute("innerText"))
+										String value = ((driver.findElement(By.xpath(tbl_bdy +"/tr[" + i + "]/td[" + (j+1) +"]")).getAttribute("innerText")))
+										data = data + value + "||"
+										System.out.println("This is the value of  table  cell:  "+value)
+									}
 								}
 								break;
 							default:
@@ -1445,14 +1453,13 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 			System.out.println("This is the value of Targeted Therapies Count from TSV result "+statData.get(0).get(3).getStringCellValue())
 			System.out.println("This is the value of Biospecimens Count from TSV result "+statData.get(0).get(4).getStringCellValue())
 			System.out.println("This is the value of Files Count from TSV result "+statData.get(0).get(5).getStringCellValue())
-			
+
 			(statData.get(0).get(0).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Studies)) ? KeywordUtil.markPassed("Statbar Studies count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Studies count")
 			(statData.get(0).get(1).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Participants)) ? KeywordUtil.markPassed("Statbar Participants count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Participant count")
 			(statData.get(0).get(2).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Diagnosis)) ? KeywordUtil.markPassed("Statbar Diagnoses count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Diagnoses count")
 			(statData.get(0).get(3).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Projects)) ? KeywordUtil.markPassed("Statbar Targeted Therapies count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Targeted Therapies count")
 			(statData.get(0).get(4).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Grants)) ? KeywordUtil.markPassed("Statbar Biospicimens count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Biospicimens count")
 			(statData.get(0).get(5).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Files)) ? KeywordUtil.markPassed("Statbar Files count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Files count")
-
 		}else if (getAppName=='CDS'){
 
 			System.out.println("This is the value of Studies Count from TSV result:  "+statData.get(0).get(0).getStringCellValue())  //add in the query in input file later
@@ -1535,7 +1542,6 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 			}
 		}
 	}
-
 
 	/**
 	 * This function clicks on Canine tabs

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Survival-Tab</name>
+   <name>GeneticAnalysis-Tbl</name>
    <tag></tag>
-   <elementGuidId>b881dca8-b228-47b3-b685-565090761670</elementGuidId>
+   <elementGuidId>ba0f1f92-310e-4681-add0-d51e794f957e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//button[@index='5' and @role='tab' and @type='button']</value>
+         <value>//*[@id='survival_tab_table']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//button[@index='5' and @role='tab' and @type='button']</value>
-      <webElementGuid>2f59e93a-872b-48d8-a29f-8be86574968a</webElementGuid>
+      <value>//*[@id='survival_tab_table']</value>
+      <webElementGuid>be16f8af-88ec-4779-823b-dce1b71e0503</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

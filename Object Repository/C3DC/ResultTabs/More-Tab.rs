@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Survival-Tab</name>
+   <name>More-Tab</name>
    <tag></tag>
-   <elementGuidId>b881dca8-b228-47b3-b685-565090761670</elementGuidId>
+   <elementGuidId>02800c93-7a25-4097-8923-d0e797c8c0a1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//button[@index='5' and @role='tab' and @type='button']</value>
+         <value>//button[@tabindex='0' and @value='6']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//button[@index='5' and @role='tab' and @type='button']</value>
-      <webElementGuid>2f59e93a-872b-48d8-a29f-8be86574968a</webElementGuid>
+      <value>//button[@tabindex='0' and @value='6']</value>
+      <webElementGuid>2cd03ad5-177c-412a-a268-2efcc1258dfe</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

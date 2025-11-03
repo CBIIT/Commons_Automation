@@ -135,7 +135,7 @@ index_columns = {
     'treatments': 'treatment_id',
     'treatment_responses': 'treatment_response_id',
     'survivals': 'survival_id',
-    'reference_files': 'reference_file_id'
+    'genetic_analyses': 'genetic_analysis_id'
 }
 
 
@@ -162,17 +162,16 @@ def write_to_excel(output_excel, sheet_name, result_df):
 # Load and merge dataframe
 dataframes = load_and_merge_versions(get_tsv_files_path(), index_columns)
 
-# Now each dataframe can be accessed from the dataframes dictionary
+# Access each dataframe from the dataframes dictionary
 df_study = dataframes['studies']
 df_participant = dataframes['participants']
 df_diagnoses = dataframes['diagnoses']
 df_treatments = dataframes['treatments']
 df_treatment_resp = dataframes['treatment_responses']
 df_survival = dataframes['survivals']
-df_reference_files = dataframes['reference_files']
+df_genetic_analyses = dataframes['genetic_analyses']
 
-
-#Print each DataFrame
+# Print each DataFrame (ordered logically)
 print("\nDataFrame: df_study")
 print(df_study)
 print("\nDataFrame: df_participant")
@@ -185,6 +184,9 @@ print("\nDataFrame: df_treatment_resp")
 print(df_treatment_resp)
 print("\nDataFrame: df_survival")
 print(df_survival)
+print("\nDataFrame: df_genetic_analyses")
+print(df_genetic_analyses)
+
 
 
 df_run_query = lambda q: ps.sqldf(q, globals())
