@@ -50,7 +50,9 @@ CustomKeywords.'utilities.TestRunner.clickTab'('CRDC/DataSubmissions/DataSubmiss
 
 //Upload data
 CustomKeywords.'utilities.CrdcDHPbac.uploadMetadataUI'('InputFiles/CRDC/MetadataData/program.tsv')
+WebUI.delay(5) //band-aid fix for now, need to have better dynamic waiting
 CustomKeywords.'utilities.CrdcDHPbac.uploadMetadataUI'('InputFiles/CRDC/MetadataData/study.tsv')
+WebUI.delay(5) //band-aid fix for now, need to have better dynamic waiting
 CustomKeywords.'utilities.CrdcDHPbac.uploadMetadataUI'('InputFiles/CRDC/MetadataData/participant.tsv')
 
 //Wait for uploading to finish
