@@ -4,5 +4,6 @@
    <name>TC03_CCDI_phs000464_DiagBasis-Clinical_Race-NotReported_StudyName</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>92352faa-022f-4b35-8442-2262b0b907df</testCaseGuid>
 </TestCaseEntity>

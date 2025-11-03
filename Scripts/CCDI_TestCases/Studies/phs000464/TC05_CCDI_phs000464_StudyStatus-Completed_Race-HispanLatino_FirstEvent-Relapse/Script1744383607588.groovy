@@ -90,7 +90,7 @@ CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Samples_Results
 CustomKeywords.'utilities.TestRunner.multiFunction'('CCDI', GlobalVariable.G_StatBar_Samples, 'CCDI/ExplorePage/CCDI_Samples_Tbl',
 	'CCDI/ExplorePage/CCDI_Samples_TblHdr', 'CCDI/ExplorePage/CCDI_Samples_TblNextBtn', GlobalVariable.G_WebTabnameSamples,
 	'TsvDataSamples', GlobalVariable.G_QuerySamplesTab)
- 
+
 
 //clicking the Files tab
 WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Files_ResultsTab'), 5)

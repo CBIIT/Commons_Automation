@@ -986,6 +986,7 @@ class CrdcDHPbac extends TestRunner {
 					//Submit
 					WebUI.waitForElementClickable(findTestObject('CRDC/DataSubmissions/Submit-Btn'), 30)
 					TestRunner.clickTab('CRDC/DataSubmissions/Submit-Btn')
+					WebUI.delay(2) //race condition for Yes button
 					TestRunner.clickTab('CRDC/DataSubmissions/SubmitYes-Btn')
 
 					//Verify

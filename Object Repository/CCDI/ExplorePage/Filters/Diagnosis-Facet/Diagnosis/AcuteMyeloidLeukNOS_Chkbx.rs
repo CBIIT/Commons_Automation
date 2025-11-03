@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Diagnosis_Acute Myeloid Leukemia, NOS&quot;]</value>
+         <value>//*[@id='checkbox_Diagnosis_Acute myeloid leukemia, NOS']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Diagnosis_Acute Myeloid Leukemia, NOS&quot;]</value>
-      <webElementGuid>31f75229-390f-4eb2-b051-9862e4e24221</webElementGuid>
+      <value>//*[@id='checkbox_Diagnosis_Acute myeloid leukemia, NOS']</value>
+      <webElementGuid>e19ec457-4fe3-470f-9758-59c1a43b8e04</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

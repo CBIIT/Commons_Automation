@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//button[ text()='Submit' and @type='submit' ]</value>
+         <value>//*[text()='Submit']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//button[ text()='Submit' and @type='submit' ]</value>
-      <webElementGuid>e1f0cd11-b61f-45b8-9f1f-854116f80f5c</webElementGuid>
+      <value>//*[text()='Submit']</value>
+      <webElementGuid>59b941b5-d2f0-49cd-b361-1cb7e34ee7fd</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
