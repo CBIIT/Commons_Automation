@@ -46,10 +46,10 @@ WebUI.closeBrowser()
 
 CustomKeywords.'utilities.TestRunner.RunKatalon'('TC16_Trials_Filter_Diagnosis-LeiomyoUterus.xlsx')
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Trials/Trials_CASES_Btn'), 5)
+WebUI.waitForElementPresent(findTestObject('Object Repository/CTDC/NavBar/Statbar-Studies'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Trials/Trials_CASES_Btn')
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Trials/Filter/Diagnosis/DIAGNOSIS_Ddn'), 5)
+WebUI.waitForElementPresent(findTestObject('Object Repository/CTDC/Filters/Diagnosis/DIAGNOSIS_Ddn'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Trials/Filter/Diagnosis/DIAGNOSIS_Ddn')
 CustomKeywords.'utilities.TestRunner.clickTab'('Trials/Filter/Diagnosis/Leiomyosarcoma_Chkbx')
 
@@ -59,14 +59,14 @@ CustomKeywords.'utilities.TestRunner.readTrialsStatBar'('Object Repository/Trial
 	'Object Repository/Trials/Trials_StatBar-Cases', 'Object Repository/Trials/Trials_StatBar-Files')
 Thread.sleep(2000)
 
-WebUI.waitForElementPresent(findTestObject('Trials/Cases_page/Trials_Results_Cases_Tab'), 5)
+WebUI.waitForElementPresent(findTestObject('CTDC/ResultTabs/Biospecimens-Tab'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Trials/Cases_page/Trials_Results_Cases_Tab')
  CustomKeywords.'utilities.TestRunner.multiFunction'('CTDC',GlobalVariable.G_TStatBar_Cases,'Object Repository/Trials/Cases_page/Trials_CasesTable',
 	'Object Repository/Trials/Cases_page/Trials_CasesTableHeader', 'Object Repository/Trials/Cases_page/Trials_CasesTabNextBtn', GlobalVariable.G_WebTabnameCases,
 	GlobalVariable.G_CypherTabnameCases,GlobalVariable.G_QueryCasesTab)
 
 
- WebUI.waitForElementPresent(findTestObject('Trials/Cases_page/Trials_Results_Files_Tab'), 5)
+ WebUI.waitForElementPresent(findTestObject('CTDC/ResultTabs/Trials_Results_Files_Tab'), 5)
  CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Trials/Cases_page/Trials_Results_Files_Tab')
 CustomKeywords.'utilities.TestRunner.multiFunction'('CTDC',GlobalVariable.G_TStatBar_Files,'Object Repository/Trials/Cases_page/Trials_FilesTable',
 	'Object Repository/Trials/Cases_page/Trials_FilesTableHeader', 'Object Repository/Trials/Cases_page/Trials_FilesTabNextBtn', GlobalVariable.G_WebTabnameFiles,

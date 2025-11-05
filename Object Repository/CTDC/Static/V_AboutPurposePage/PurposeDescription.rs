@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>PurposeDescription</name>
+   <tag></tag>
+   <elementGuidId>d217be89-a356-491e-9609-645afd8d147d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[text()='Purpose']/following::div[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[text()='Purpose']/following::div[1]</value>
+      <webElementGuid>a2d136e7-5ae7-4151-9cd2-7220254dae36</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

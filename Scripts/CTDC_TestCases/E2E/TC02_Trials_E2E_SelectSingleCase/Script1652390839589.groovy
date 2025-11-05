@@ -25,30 +25,30 @@ CustomKeywords.'utilities.TestRunner.browserDriver'('')
 
 CustomKeywords.'utilities.TestRunner.RunKatalon'('TC02_Trials_E2E_SelectSingleCase.xlsx')
 
-WebUI.waitForElementPresent(findTestObject('Trials/Trials_CASES_Btn'), 5)
+WebUI.waitForElementPresent(findTestObject('CTDC/NavBar/Statbar-Studies'), 5)
 
-WebUI.click(findTestObject('Trials/Trials_CASES_Btn'))
+WebUI.click(findTestObject('CTDC/NavBar/Statbar-Studies'))
 
-WebUI.waitForElementPresent(findTestObject('Trials/Filter/Diagnosis/DIAGNOSIS_Ddn'), 5)
+WebUI.waitForElementPresent(findTestObject('CTDC/Filters/Diagnosis/DIAGNOSIS_Ddn'), 5)
 
-WebUI.click(findTestObject('Trials/Filter/Diagnosis/DIAGNOSIS_Ddn'))
+WebUI.click(findTestObject('CTDC/Filters/Diagnosis/DIAGNOSIS_Ddn'))
 
-WebUI.click(findTestObject('Trials/Filter/Diagnosis/SalivaryGland_Chkbx'))
+WebUI.click(findTestObject('CTDC/Filters/Diagnosis/SalivaryGland_Chkbx'))
 
 CustomKeywords.'utilities.TestRunner.Select_case_checkbox'('CTDC-44670', 'one')
 
-WebUI.click(findTestObject('Trials/Trials_SaveToMycases'))
+WebUI.click(findTestObject('CTDC/Trials_SaveToMycases'))
 
-WebUI.click(findTestObject('Trials/Cases_page/Trials_MyCases'))
+WebUI.click(findTestObject('CTDC/ResultTabs/Trials_MyCases'))
 
-WebUI.waitForElementPresent(findTestObject('Trials/Cases_page/Trials_GoToFiles'), 5)
+WebUI.waitForElementPresent(findTestObject('CTDC/ResultTabs/Trials_GoToFiles'), 5)
 
-WebUI.click(findTestObject('Trials/Cases_page/Trials_GoToFiles'))
+WebUI.click(findTestObject('CTDC/ResultTabs/Trials_GoToFiles'))
 
 WebUI.maximizeWindow()
 
 CustomKeywords.'utilities.TestRunner.Select_case_checkbox'('', 'allM')
 
 //WebUI.click(findTestObject('Object Repository/Canine/Canine_MyCasesFiles_SelectAll'))
-WebUI.click(findTestObject('Trials/Trials_DownloadManifest'))
+WebUI.click(findTestObject('CTDC/Trials_DownloadManifest'))
 

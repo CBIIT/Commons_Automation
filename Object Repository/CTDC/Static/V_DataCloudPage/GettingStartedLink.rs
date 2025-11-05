@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>GettingStartedLink</name>
+   <tag></tag>
+   <elementGuidId>96d3fcb1-a0ef-40e9-adc1-d696f568b056</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@title='https://www.cancergenomicscloud.org/getting-started']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[@title='https://www.cancergenomicscloud.org/getting-started']</value>
+      <webElementGuid>aec37572-5c4e-49e2-b210-8a29fffdbab9</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

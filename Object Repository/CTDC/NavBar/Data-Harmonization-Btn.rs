@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Data-Harmonization-Btn</name>
+   <tag></tag>
+   <elementGuidId>d1c16eb7-aa9e-4a7d-9739-04fec8fe5583</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[contains(@href,'harmonization')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[contains(@href,'harmonization')]</value>
+      <webElementGuid>a3133b2e-8226-47e6-8367-1e53ef46a516</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

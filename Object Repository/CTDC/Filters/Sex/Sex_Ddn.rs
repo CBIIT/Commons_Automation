@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Sex_Ddn</name>
+   <tag></tag>
+   <elementGuidId>ff55f8c0-b8d9-4bde-9e4e-74ed36af1bcf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//div[@id='Sex'])[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//div[@id='Sex'])[1]</value>
+      <webElementGuid>89a50af5-603b-4bd9-b256-84b5f7bd0ee6</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

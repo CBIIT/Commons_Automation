@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>GraphQLLink</name>
+   <tag></tag>
+   <elementGuidId>f0d93274-d310-49ea-8c5d-35163256f098</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[contains(@href,'data-standards')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[contains(@href,'data-standards')]</value>
+      <webElementGuid>39fe1521-1bba-451f-9b36-d0f8cab6171f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CTDCGithubLink</name>
+   <tag></tag>
+   <elementGuidId>1f5b1d1d-6737-4e52-a563-4a6bd38a6f12</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[contains(@href,'CBIIT/crdc-ctdc-ui')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[contains(@href,'CBIIT/crdc-ctdc-ui')]</value>
+      <webElementGuid>73c6e420-b0f1-4b58-8535-aceb831a6ef5</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
