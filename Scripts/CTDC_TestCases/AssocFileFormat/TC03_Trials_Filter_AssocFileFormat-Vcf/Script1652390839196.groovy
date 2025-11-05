@@ -50,7 +50,7 @@ CustomKeywords.'utilities.TestRunner.RunKatalon'('TC03_Trials_Filter_AssocFileFo
 WebUI.waitForElementClickable(findTestObject('Object Repository/CTDC/NavBar/Statbar-Studies'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Trials/Trials_CASES_Btn'))
 
-WebUI.waitForElementClickable(findTestObject('CTDC/Filters/AssocFileFormat/ASSOCFILEFORMAT_Ddn'), 5)
+WebUI.waitForElementClickable(findTestObject('CTDC/Filters/FileFormat/FILEFORMAT_Ddn'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('Trials/Filter/AssocFileFormat/ASSOCFILEFORMAT_Ddn'))
 CustomKeywords.'utilities.TestRunner.clickTab'('Trials/Filter/AssocFileFormat/Vcf_Chkbx'))
 

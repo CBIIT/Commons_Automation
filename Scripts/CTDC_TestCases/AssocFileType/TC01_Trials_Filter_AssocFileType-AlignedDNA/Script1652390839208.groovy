@@ -48,7 +48,7 @@ CustomKeywords.'utilities.TestRunner.RunKatalon'('TC01_Trials_Filter_AssocFileTy
 WebUI.waitForElementClickable(findTestObject('Object Repository/CTDC/NavBar/Statbar-Studies'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Trials/Trials_CASES_Btn')
 
-WebUI.waitForElementPresent(findTestObject('CTDC/Filters/AssocFileType/ASSOCFILETYPE_Ddn'), 5)
+WebUI.waitForElementPresent(findTestObject('CTDC/Filters/FileType/ASSOCFILETYPE_Ddn'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('Trials/Filter/AssocFileType/ASSOCFILETYPE_Ddn')
 CustomKeywords.'utilities.TestRunner.clickTab'('Trials/Filter/AssocFileType/AlignedDNA_Chkbx')
 
