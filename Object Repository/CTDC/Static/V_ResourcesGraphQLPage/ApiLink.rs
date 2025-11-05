@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ApiLink</name>
+   <tag></tag>
+   <elementGuidId>ed8f9e67-8127-4574-ad00-40a38532c9d4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[contains(@href,'v1/graphql')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[contains(@href,'v1/graphql')]</value>
+      <webElementGuid>a925917b-e708-4bc6-93dd-da34b2422569</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

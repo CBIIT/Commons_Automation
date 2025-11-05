@@ -51,16 +51,16 @@ CustomKeywords.'utilities.TestRunner.browserDriver'('')
 
 CustomKeywords.'utilities.TestRunner.RunKatalon'('TC01_Trials_Filter_TrialID-NCT.xlsx')
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Trials/Trials_CASES_Btn') , 5)
-WebUI.click( findTestObject('Object Repository/Trials/Trials_CASES_Btn'))
+WebUI.waitForElementPresent(findTestObject('Object Repository/CTDC/NavBar/Statbar-Studies') , 5)
+WebUI.click( findTestObject('Object Repository/CTDC/NavBar/Statbar-Studies'))
 
 
 
-WebUI.waitForElementPresent( findTestObject('Object Repository/Trials/Filter/TrialID/TRIALID_Ddn'), 5)
-WebUI.click( findTestObject('Object Repository/Trials/Filter/TrialID/TRIALID_Ddn'))
+WebUI.waitForElementPresent( findTestObject('Object Repository/CTDC/Filters/TrialID/TRIALID_Ddn'), 5)
+WebUI.click( findTestObject('Object Repository/CTDC/Filters/TrialID/TRIALID_Ddn'))
 
  
-WebUI.click(findTestObject('Object Repository/Trials/Filter/TrialID/NCT_Chkbx') )
+WebUI.click(findTestObject('Object Repository/CTDC/Filters/TrialID/NCT_Chkbx') )
  
 
 CustomKeywords.'utilities.TestRunner.ReadCasesTableKatalon'('Object Repository/Trials/Trials_CasesTable', 

@@ -42,15 +42,15 @@ WebUI.closeBrowser()
 CustomKeywords.'utilities.TestRunner.RunKatalon'('TC01_CTDC_LocalSearch_Type_and_Dropdown_Select.xlsx')
 
  
-WebUI.waitForElementClickable(findTestObject('Object Repository/Trials/Trials_CASES_Btn'), 5)
+WebUI.waitForElementClickable(findTestObject('Object Repository/CTDC/NavBar/Statbar-Studies'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Trials/Trials_CASES_Btn')
 
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Trials/Cases_page/Trials_LocalFind_TxtBx'), 5)
+WebUI.waitForElementClickable(findTestObject('Object Repository/CTDC/ResultTabs/Trials_LocalFind_TxtBx'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Trials/Cases_page/Trials_LocalFind_TxtBx')
 
 //CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Bento/Cases_page/Bento_CaseIDLocalSearch_TxtBx')
-WebUI.sendKeys(findTestObject('Object Repository/Trials/Cases_page/Trials_LocalFind_TxtBx'), 'CTDC-44475')  
+WebUI.sendKeys(findTestObject('Object Repository/CTDC/ResultTabs/Trials_LocalFind_TxtBx'), 'CTDC-44475')  
 Thread.sleep(5000)
 
 CustomKeywords.'utilities.TestRunner.CTDCLocalFindDdn'()
@@ -64,7 +64,7 @@ CustomKeywords.'utilities.TestRunner.readTrialsStatBar'('Object Repository/Trial
 Thread.sleep(2000)
 
 
-WebUI.waitForElementPresent(findTestObject('Trials/Cases_page/Trials_Results_Cases_Tab'), 5)
+WebUI.waitForElementPresent(findTestObject('CTDC/ResultTabs/Biospecimens-Tab'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Trials/Cases_page/Trials_Results_Cases_Tab')
 
  CustomKeywords.'utilities.TestRunner.multiFunction'('CTDC',GlobalVariable.G_TStatBar_Cases,'Object Repository/Trials/Cases_page/Trials_CasesTable',
