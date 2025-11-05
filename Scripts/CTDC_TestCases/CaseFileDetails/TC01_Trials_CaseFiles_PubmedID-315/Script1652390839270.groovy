@@ -54,11 +54,11 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/CTDC/NavBar/Statba
 
 WebUI.click(findTestObject('Object Repository/CTDC/NavBar/Statbar-Studies'))
 
-WebUI.waitForElementPresent(findTestObject('CTDC/Filters/PubmedID/PUBMEDID_Ddn'), 5)
+WebUI.waitForElementPresent(findTestObject('CTDC/Filters/CarcinExposure/PUBMEDID_Ddn'), 5)
 
-WebUI.click(findTestObject('CTDC/Filters/PubmedID/PUBMEDID_Ddn'))
+WebUI.click(findTestObject('CTDC/Filters/CarcinExposure/PUBMEDID_Ddn'))
 
-WebUI.click(findTestObject('CTDC/Filters/PubmedID/31504139_Chkbx'))
+WebUI.click(findTestObject('CTDC/Filters/CarcinExposure/31504139_Chkbx'))
 
 CustomKeywords.'utilities.TestRunner.File_details'('Object Repository/Trials/Trials_CasesTable', 'Object Repository/Trials/Trials_TableHeader', 
     'Object Repository/Trials/Trials_NextBtn')

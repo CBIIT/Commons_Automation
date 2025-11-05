@@ -52,7 +52,7 @@ CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Trials/Trials_
 
 
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/CTDC/Filters/PubmedID/PUBMEDID_Ddn'), 5)
+WebUI.waitForElementClickable(findTestObject('Object Repository/CTDC/Filters/CarcinExposure/PUBMEDID_Ddn'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Trials/Filter/PubmedID/PUBMEDID_Ddn')
 CustomKeywords.'utilities.TestRunner.clickTab'('Object Repository/Trials/Filter/PubmedID/31504139_Chkbx') 
  

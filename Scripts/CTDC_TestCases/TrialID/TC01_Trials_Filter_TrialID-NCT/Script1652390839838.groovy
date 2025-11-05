@@ -56,11 +56,11 @@ WebUI.click( findTestObject('Object Repository/CTDC/NavBar/Statbar-Studies'))
 
 
 
-WebUI.waitForElementPresent( findTestObject('Object Repository/CTDC/Filters/TrialID/TRIALID_Ddn'), 5)
-WebUI.click( findTestObject('Object Repository/CTDC/Filters/TrialID/TRIALID_Ddn'))
+WebUI.waitForElementPresent( findTestObject('Object Repository/CTDC/Filters/ColTimepoint/TRIALID_Ddn'), 5)
+WebUI.click( findTestObject('Object Repository/CTDC/Filters/ColTimepoint/TRIALID_Ddn'))
 
  
-WebUI.click(findTestObject('Object Repository/CTDC/Filters/TrialID/NCT_Chkbx') )
+WebUI.click(findTestObject('Object Repository/CTDC/Filters/ColTimepoint/NCT_Chkbx') )
  
 
 CustomKeywords.'utilities.TestRunner.ReadCasesTableKatalon'('Object Repository/Trials/Trials_CasesTable', 
