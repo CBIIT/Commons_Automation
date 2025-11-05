@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Trials_File_NextBtn</name>
+   <tag></tag>
+   <elementGuidId>29a7f00a-b8a4-488c-a399-8c56f2b4cc79</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id='table_case_detail']//div/table/tfoot/tr/td/div/div[3]/button[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@id='table_case_detail']//div/table/tfoot/tr/td/div/div[3]/button[2]</value>
+      <webElementGuid>5cfe0af3-cc0d-4bf7-8924-3b29d47b64ec</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

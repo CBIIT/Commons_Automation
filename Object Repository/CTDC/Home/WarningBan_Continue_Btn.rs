@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>WarningBan_Continue_Btn</name>
+   <tag></tag>
+   <elementGuidId>db2db515-d618-476b-8dce-b2112df13c9f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[contains(text(),&quot;Continue&quot;)]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[contains(text(),&quot;Continue&quot;)]</value>
+      <webElementGuid>0ca2c7d7-377d-4bbe-979b-b5b9e3a75aa2</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

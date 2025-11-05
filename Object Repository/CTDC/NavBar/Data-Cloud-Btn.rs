@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Data-Cloud-Btn</name>
+   <tag></tag>
+   <elementGuidId>ac7cabfa-c9b4-4ced-a192-977f8866fba7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[contains(@href,'cloud-computing')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[contains(@href,'cloud-computing')]</value>
+      <webElementGuid>35cee893-8f87-4e81-85e3-1ea3de34ef79</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
