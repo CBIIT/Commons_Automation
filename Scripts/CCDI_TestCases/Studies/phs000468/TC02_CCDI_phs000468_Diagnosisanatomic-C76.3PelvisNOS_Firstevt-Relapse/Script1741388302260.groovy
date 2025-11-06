@@ -31,6 +31,9 @@ CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Study_F
 WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Study_Facet/PHS_Accession/phs000468_Chkbx'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Study_Facet/PHS_Accession/phs000468_Chkbx')
 
+WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Diagnosis-Facet/Diagnosis-Facet'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Diagnosis-Facet/Diagnosis-Facet')
+
 WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Diagnosis-Facet/Diagnosis_Anatomic_Site/Diagnosis-AnatomicSite-Ddn'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Diagnosis-Facet/Diagnosis_Anatomic_Site/Diagnosis-AnatomicSite-Ddn')
 

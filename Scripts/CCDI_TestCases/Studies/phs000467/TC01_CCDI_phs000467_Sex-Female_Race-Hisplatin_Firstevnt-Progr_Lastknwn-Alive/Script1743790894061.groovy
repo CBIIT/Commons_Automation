@@ -31,6 +31,9 @@ CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Study_F
 WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Study_Facet/PHS_Accession/phs000467_Chkbx'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Study_Facet/PHS_Accession/phs000467_Chkbx')
 
+WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Demographics-Facet/Demographics_Facet'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Demographics-Facet/Demographics_Facet')
+
 WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Demographics-Facet/SexAtBirth/Sex_Ddn'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Demographics-Facet/SexAtBirth/Sex_Ddn')
 
@@ -42,6 +45,9 @@ CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Demogra
 
 WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Demographics-Facet/Race/Hispaniclatino_Chkbx'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Demographics-Facet/Race/Hispaniclatino_Chkbx')
+
+WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Survival-Facet/Survival-Facet'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Survival-Facet/Survival-Facet')
 
 WebUI.waitForElementPresent(findTestObject('CCDI/ExplorePage/Filters/Survival-Facet/Lastknownsurvivalstatus/Lastknownsurvivalstatus-Ddn'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('CCDI/ExplorePage/Filters/Survival-Facet/Lastknownsurvivalstatus/Lastknownsurvivalstatus-Ddn')
