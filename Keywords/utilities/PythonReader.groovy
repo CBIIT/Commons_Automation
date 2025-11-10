@@ -29,14 +29,12 @@ public class PythonReader {
 
 		try {
 
-			if(appKey.equals("INS") && pythonFileName.equals("datasets.py")) {
-				// Create a process builder for INS Datasets page
-				KeywordUtil.logInfo("Starting process builder for INS: " + pythonFileName);
-				processBuilder = new ProcessBuilder(binPath, pyPath, queryFilePath, outputFilePath, metaDataFilespath);
-			}else {
-				// Create a process builder
-				processBuilder = new ProcessBuilder(binPath, pyPath, queryFilePath, outputFilePath, metaDataFilespath, Utils.RESULT_TAB_NAME);
+			if(appKey.equals("INS") && pythonFileName.equals("DataSets.py")) {
+				Utils.RESULT_TAB_NAME = "DatasetsTab"
+				metaDataFilespath = metaDataFilespath + "/DataSetsTab";
 			}
+			// Create a process builder
+			processBuilder = new ProcessBuilder(binPath, pyPath, queryFilePath, outputFilePath, metaDataFilespath, Utils.RESULT_TAB_NAME);
 
 			processBuilder.redirectErrorStream(true);
 			KeywordUtil.logInfo("Executing Python file: " + pythonFileName);
