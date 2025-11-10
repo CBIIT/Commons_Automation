@@ -44,16 +44,22 @@ WebUI.closeBrowser()
 CustomKeywords.'utilities.CrdcDH.navigateToCrdc'()
 
 CustomKeywords.'utilities.CrdcDH.loginToCrdcOtp'('Submitter')
+WebUI.setViewPortSize(1920, 1080)
+
+
+WebUI.delay(2)
+WebUI.waitForElementVisible(findTestObject('CRDC/NavBar/SubmissionRequest-Tab'), 10)
+CustomKeywords.'utilities.TestRunner.clickTab'('CRDC/NavBar/SubmissionRequest-Tab')
+
+WebUI.waitForElementPresent(findTestObject('CRDC/SubmissionRequest/Start_a_SubmissionRequest-Btn'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('CRDC/SubmissionRequest/Start_a_SubmissionRequest-Btn')
 
 WebUI.delay(1)
-
-WebUI.click(findTestObject('CRDC/NavBar/SubmissionRequest-Tab'))
-WebUI.click(findTestObject('CRDC/SubmissionRequest/Start_a_SubmissionRequest-Btn'))
+WebUI.waitForElementPresent(findTestObject('CRDC/SubmissionRequest/readAndAcceptPopUp-Btn'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('CRDC/SubmissionRequest/readAndAcceptPopUp-Btn')
 
 CustomKeywords.'utilities.CrdcDH.verifyStatusBar'('NEW')
-
 CustomKeywords.'utilities.CrdcDH.enterPrincipalInvestigatorInfo'(2)
-
 CustomKeywords.'utilities.CrdcDH.enterPrimaryContactInfo'(2)
 
 WebUI.click(findTestObject('CRDC/SubmissionRequest/Save-Btn'))
@@ -61,7 +67,7 @@ WebUI.click(findTestObject('CRDC/SubmissionRequest/Next-Btn'))
 
 CustomKeywords.'utilities.CrdcDH.verifyStatusBar'('IN PROGRESS')
 
-CustomKeywords.'utilities.CrdcDH.enterProgramInfo'('Other')
+CustomKeywords.'utilities.CrdcDH.enterProgramInfo'('Other', 6)
 CustomKeywords.'utilities.CrdcDH.enterStudyInfo'(1)
 
 CustomKeywords.'utilities.CrdcDH.enterFundingAgencyInfo'(1)
@@ -69,37 +75,38 @@ CustomKeywords.'utilities.CrdcDH.enterFundingAgencyInfo'(1)
 WebUI.click(findTestObject('CRDC/SubmissionRequest/Save-Btn'))
 WebUI.click(findTestObject('CRDC/SubmissionRequest/Next-Btn'))
 
-CustomKeywords.'utilities.CrdcDH.enterDataAccessAndDiseaseInfo'('Bladder', 'Lung', 'Homo', 1, 1, 1)
+CustomKeywords.'utilities.CrdcDH.enterDataAccessTypeAndDbGapRegInfo'('Controlled', 'Yes')
+
+CustomKeywords.'utilities.CrdcDH.enterCancerTypeAndSubjectsInfo'('Cholangiocarcinoma', 'Homo', 1)
 
 WebUI.click(findTestObject('CRDC/SubmissionRequest/Save-Btn'))
-
 WebUI.click(findTestObject('CRDC/SubmissionRequest/Next-Btn'))
+WebUI.delay(2)
+//CustomKeywords.'utilities.CrdcDH.verifyStatusBar'('IN PROGRESS')
+CustomKeywords.'utilities.CrdcDH.enterTargetDeliveryAndExpectedPublicationDate'()
 
-//'immunology', 'epidemiologic', 'imaging', , 'other', 'other-clinical'
-CustomKeywords.'utilities.CrdcDH.selectDataTypes'('immunology')
+CustomKeywords.'utilities.CrdcDH.selectDataTypes'('genomics', 'proteomics')
 
-CustomKeywords.'utilities.CrdcDH.selectFileTypes'(1, 1, 3, 1)
+CustomKeywords.'utilities.CrdcDH.selectFileTypes'(5, 6, 1, 1)
 
 WebUI.click(findTestObject('CRDC/SubmissionRequest/Save-Btn'))
-
 WebUI.click(findTestObject('CRDC/SubmissionRequest/Next-Btn'))
 
 //Verification starts here
-CustomKeywords.'utilities.CrdcDH.verifyPiInfo'(2, 2, 2, 2, 3, 2)
+CustomKeywords.'utilities.CrdcDH.verifyPrincipalInvestigatorInfo'(2)
 
-CustomKeywords.'utilities.CrdcDH.verifyPrimaryContactInfo'(1, 1, 1, 1, 5, 1)
+CustomKeywords.'utilities.CrdcDH.verifyPrimaryContactInfo'(2)
 
-CustomKeywords.'utilities.CrdcDH.verifyProgramInfo'(4)
 
-CustomKeywords.'utilities.CrdcDH.verifyStudyInfo'(1, 1, 1)
+CustomKeywords.'utilities.CrdcDH.verifyProgramInfo'(6)
 
-CustomKeywords.'utilities.CrdcDH.verifyFundingAgencyAndDbGaPInfo'(1, 1, 1, 1, 1)
+CustomKeywords.'utilities.CrdcDH.verifyStudyInfo'(1)
 
-CustomKeywords.'utilities.CrdcDH.verifyDataAccessAndDiseaseInfo'('Bladder', 'Lung', 'Homo', 1, 1, 1)
+CustomKeywords.'utilities.CrdcDH.verifyFundingAgencyAndDbGaPInfo'(1)
 
-CustomKeywords.'utilities.CrdcDH.verifyDataTypes'('immunology')
+CustomKeywords.'utilities.CrdcDH.verifyDataTypes'('genomics', 'proteomics')
 
-CustomKeywords.'utilities.CrdcDH.verifyFileTypes'(1, 1, 3, 1)
+CustomKeywords.'utilities.CrdcDH.verifyFileTypes'(5, 6, 1, 1)
 
 CustomKeywords.'utilities.CrdcDH.clickSubmitButton'()
 

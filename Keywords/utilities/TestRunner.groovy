@@ -1881,7 +1881,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 	@Keyword
 	public static void verifyUiAgainstTsvForInsDatasetsTab() {
 
-		PythonReader.readFile("datasets.py");
+		PythonReader.readFile('DataSets.py')
 
 		List<List<String>> uiDataRows = new ArrayList<>();
 		driver = DriverFactory.getWebDriver();
@@ -1889,7 +1889,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		WebUI.click(findTestObject('INS/DataSets/RowsPerPage-Dd'))
 		WebUI.click(findTestObject('INS/DataSets/RowPerPaDd-Value'))
 		Thread.sleep(1500);
-		uiDataRows.add(List.of("Title", "Source ID", "Primary Disease", "Sample Count"));
+		uiDataRows.add(Arrays.asList("Title", "Source ID", "Primary Disease", "Sample Count"));
 
 		while (true) {
 			List<WebElement> cards = driver.findElements(By.xpath("//*[@class='container']"));
@@ -1902,9 +1902,9 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 				String sampleCount = safeText(card, ".//*[@class='textSpan sampleCountHighlight']");
 				//String description = safeText(card, ".//*[@class='textSpan']");
 
-				System.out.println("Title is: "+ title + "\ndbGap Accession is: "+ sourceId + "\nPrimary Disease: "+ primaryDisease);
+				System.out.println("Title is: "+ title + "\nSource ID is: "+ sourceId + "\nPrimary Disease: "+ primaryDisease);
 				System.out.println("Sample Count: "+ sampleCount);
-				uiDataRows.add(List.of(title, sourceId, primaryDisease, sampleCount));
+				uiDataRows.add(Arrays.asList(title, sourceId, primaryDisease, sampleCount));
 			}
 
 			// Try clicking "Next"
@@ -1914,8 +1914,11 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 				if (WebUI.getAttribute(nextBtn,'class') != null && WebUI.getAttribute(nextBtn,'class').contains("disabled")) {
 					break;
 				}
+				WebUI.waitForElementPresent(nextBtn, 5)
+				WebUI.scrollToElement(nextBtn, 5)
+				Thread.sleep(2000);
 				WebUI.click(nextBtn);
-				Thread.sleep(1500); // wait for content to load
+				Thread.sleep(1000); // wait for content to load
 			} catch (NoSuchElementException e) {
 				break;
 			} catch (InterruptedException e) {
