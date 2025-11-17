@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ValidationResults-Tab</name>
+   <name>DataCommons-Ddn</name>
    <tag></tag>
-   <elementGuidId>936c0020-a115-4615-8f22-31c7417c7c6a</elementGuidId>
+   <elementGuidId>c1a5e32b-c496-4a26-b1f1-f7c48efffcdb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[.='Validation Results']</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
          <value></value>
       </entry>
    </selectorCollection>
@@ -18,11 +14,11 @@
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[.='Validation Results']</value>
-      <webElementGuid>6c391a43-d221-4e78-807c-efc120a52eb6</webElementGuid>
+      <value>(//*[@id=&quot;mui-component-select-dataCommons&quot;])[2]</value>
+      <webElementGuid>8dcac3ac-0fd4-4fe1-8b1b-93c485c42c6d</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ValidationResults-Tab</name>
+   <name>ValidationResults-Error</name>
    <tag></tag>
-   <elementGuidId>936c0020-a115-4615-8f22-31c7417c7c6a</elementGuidId>
+   <elementGuidId>44799677-dce2-4ff0-8bdf-56b140dc0ad2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[.='Validation Results']</value>
+         <value>(//*[contains(text(),'Error')])[2]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[.='Validation Results']</value>
-      <webElementGuid>6c391a43-d221-4e78-807c-efc120a52eb6</webElementGuid>
+      <value>(//*[contains(text(),'Error')])[2]</value>
+      <webElementGuid>015293d8-ff67-404e-98ce-42d55dc64cf9</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ValidationResults-Tab</name>
+   <name>ValidationResults-DefaultMesssage</name>
    <tag></tag>
-   <elementGuidId>936c0020-a115-4615-8f22-31c7417c7c6a</elementGuidId>
+   <elementGuidId>b989009c-c55a-424e-9848-78f2ef215c4e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//a[.='Validation Results']</value>
+         <key>XPATH</key>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>//*[contains(text(),'No validation issues found.')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -22,7 +21,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[.='Validation Results']</value>
-      <webElementGuid>6c391a43-d221-4e78-807c-efc120a52eb6</webElementGuid>
+      <value>//*[contains(text(),'No validation issues found.')]</value>
+      <webElementGuid>4cda6920-57ee-4346-87a8-6bdb0daa434f</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

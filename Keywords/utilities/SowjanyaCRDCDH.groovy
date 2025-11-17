@@ -72,7 +72,7 @@ import com.kms.katalon.core.configuration.RunConfiguration;
 import java.nio.file.Files;
 
 
-class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
+class SowjanyaCRDCDH extends TestRunner implements Comparator<List<XSSFCell>>{
 	public int compare( List<XSSFCell> l1, List<XSSFCell> l2 ){
 		return l1.get(0).getStringCellValue().compareTo( l2.get(0).getStringCellValue() )
 	}

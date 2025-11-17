@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ValidationResults-Tab</name>
+   <name>Uploaded-Text</name>
    <tag></tag>
-   <elementGuidId>936c0020-a115-4615-8f22-31c7417c7c6a</elementGuidId>
+   <elementGuidId>505d591f-2e98-4579-905f-5d3bb4df8dad</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[.='Validation Results']</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value></value>
+         <value>//*[.='Uploaded']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -22,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[.='Validation Results']</value>
-      <webElementGuid>6c391a43-d221-4e78-807c-efc120a52eb6</webElementGuid>
+      <value>//*[.='Uploaded']</value>
+      <webElementGuid>e933147b-9bc9-4dd3-bda6-9e14f039b179</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

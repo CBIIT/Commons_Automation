@@ -37,6 +37,7 @@ import com.kms.katalon.core.testdata.TestDataFactory
  */
 WebUI.closeBrowser()
 
+
 //Login as Submitter
 CustomKeywords.'utilities.CrdcDH.navigateToCrdc'()
 WebUI.setViewPortSize(1920, 1080)
@@ -45,15 +46,15 @@ WebUI.delay(2)
 
 //Create DS
 CustomKeywords.'utilities.TestRunner.clickTab'('CRDC/NavBar/DataSubmissions-Tab')
-CustomKeywords.'utilities.CrdcDHPbac.createDataSubmission'()
+CustomKeywords.'utilities.CrdcDHPbac.createDataSubmission'("GC")
 CustomKeywords.'utilities.TestRunner.clickTab'('CRDC/DataSubmissions/DataSubmissionName-Link')
 
+
 //Upload data
-CustomKeywords.'utilities.CrdcDHPbac.uploadMetadataUI'('InputFiles/CRDC/MetadataData/program.tsv')
-WebUI.delay(5) //band-aid fix for now, need to have better dynamic waiting
-CustomKeywords.'utilities.CrdcDHPbac.uploadMetadataUI'('InputFiles/CRDC/MetadataData/study.tsv')
-WebUI.delay(5) //band-aid fix for now, need to have better dynamic waiting
-CustomKeywords.'utilities.CrdcDHPbac.uploadMetadataUI'('InputFiles/CRDC/MetadataData/participant.tsv')
+CustomKeywords.'utilities.CrdcDHPbac.uploadMetadataUI'('InputFiles/CRDC/MetadataData/ErrorMsgdata/TC07_program.tsv')
+CustomKeywords.'utilities.Utils.waitForElementToDisappear'('CRDC/DataSubmissions/Validation/Uploading-Text', 15)
+CustomKeywords.'utilities.CrdcDHPbac.uploadMetadataUI'('InputFiles/CRDC/MetadataData/ErrorMsgdata/TC07_study.tsv')
+CustomKeywords.'utilities.Utils.waitForElementToDisappear'('CRDC/DataSubmissions/Validation/Uploading-Text', 15)
 
 //Wait for uploading to finish
 CustomKeywords.'utilities.Utils.waitForElementToDisappear'('CRDC/DataSubmissions/Validation/Uploading-Text', 15)
@@ -61,16 +62,18 @@ CustomKeywords.'utilities.Utils.waitForElementToDisappear'('CRDC/DataSubmissions
 //Validate data
 WebUI.waitForElementClickable(findTestObject('CRDC/DataSubmissions/Validate-Btn'), 30)
 CustomKeywords.'utilities.TestRunner.clickTab'('CRDC/DataSubmissions/Validate-Btn')
-WebUI.waitForElementClickable(findTestObject('CRDC/DataSubmissions/Validate-Btn'), 30)
 
-//Verify table headers
-CustomKeywords.'utilities.CrdcDH.verifyDataSubmissionTableHeaders'('UploadActivities')
+//Verify Validation Results Tab - Error msg
+WebUI.waitForElementClickable(findTestObject('CRDC/DataSubmissions/Validation/ValidationResults-Tab'), 30)
+CustomKeywords.'utilities.TestRunner.clickTab'('CRDC/DataSubmissions/Validation/ValidationResults-Tab')
 CustomKeywords.'utilities.CrdcDH.verifyDataSubmissionTableHeaders'('ValidationResults')
-CustomKeywords.'utilities.CrdcDH.verifyDataSubmissionTableHeaders'('DataView')
+CustomKeywords.'utilities.Utils.waitForElementToDisappear'('CRDC/DataSubmissions/Loading-Icon', 30)
+CustomKeywords.'utilities.CrdcDHPbac.verifyValidationResultsTable'("Study name mismatch","Error")
+CustomKeywords.'utilities.CrdcDHPbac.verifyValidationResultsTable'("Invalid Property","Warning")
 
-//Verify Data View table
-CustomKeywords.'utilities.CrdcDH.verifyDataViewMatchesMetadata'('InputFiles/CRDC/MetadataData/program.tsv', 'program')
-CustomKeywords.'utilities.CrdcDH.verifyDataViewMatchesMetadata'('InputFiles/CRDC/MetadataData/study.tsv', 'study')
-CustomKeywords.'utilities.CrdcDH.verifyDataViewMatchesMetadata'('InputFiles/CRDC/MetadataData/participant.tsv', 'participant')
+//Verify if submit button is disabled
+CustomKeywords.'utilities.CrdcDHPbac.verifyButtonState'('CRDC/DataSubmissions/Submit-Btn', 'Disable')
 
+WebUI.delay(5)
 WebUI.closeBrowser()
+
