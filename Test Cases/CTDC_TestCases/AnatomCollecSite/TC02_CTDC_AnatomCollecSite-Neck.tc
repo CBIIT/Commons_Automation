@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_CTDC_AnatomCollecSite-Neck</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <testCaseGuid>f8776301-dc0f-44ad-a569-f5abc457a6a6</testCaseGuid>
+</TestCaseEntity>

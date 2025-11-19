@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CTDC_Diagnosis-ColorctlCarcin</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <testCaseGuid>a64a4144-8771-4578-83e0-cd545c25b967</testCaseGuid>
+</TestCaseEntity>

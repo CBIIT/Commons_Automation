@@ -7,16 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[contains(@id,'checkbox_Race_NOT_REPORTED')]</value>
+         <value>//*[@id='checkbox_Race_Not Reported']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[contains(@id,'checkbox_Race_NOT_REPORTED')]</value>
+      <value>//*[@id='checkbox_Race_Not Reported']</value>
+      <webElementGuid>e77bfc34-1d4f-4d94-b6ed-a6b51ac2bb7c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

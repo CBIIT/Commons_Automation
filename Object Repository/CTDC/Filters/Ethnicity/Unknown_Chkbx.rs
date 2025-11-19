@@ -7,16 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[contains(@id,'checkbox_Ethnicity_UNKNOWN')]</value>
+         <value>//*[@id='checkbox_Ethnicity_Unknown']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[contains(@id,'checkbox_Ethnicity_UNKNOWN')]</value>
+      <value>//*[@id='checkbox_Ethnicity_Unknown']</value>
+      <webElementGuid>913a211b-6f6c-4d8c-a900-978e6e3fed0b</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
