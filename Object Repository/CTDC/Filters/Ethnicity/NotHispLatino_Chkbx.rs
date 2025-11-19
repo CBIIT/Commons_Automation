@@ -7,16 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[contains(@id,'checkbox_Ethnicity_NOT_HISPANIC_OR_LATINO')]</value>
+         <value>//*[@id='checkbox_Ethnicity_Not Hispanic or Latino']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[contains(@id,'checkbox_Ethnicity_NOT_HISPANIC_OR_LATINO')]</value>
+      <value>//*[@id='checkbox_Ethnicity_Not Hispanic or Latino']</value>
+      <webElementGuid>6b26978c-52dd-40a4-8206-c57b03f6efbf</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

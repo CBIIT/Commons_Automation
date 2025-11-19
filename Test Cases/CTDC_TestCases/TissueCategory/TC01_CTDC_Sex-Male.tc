@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CTDC_Sex-Male</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <testCaseGuid>d8d279bd-6740-44ce-8815-152893b6cf76</testCaseGuid>
+</TestCaseEntity>

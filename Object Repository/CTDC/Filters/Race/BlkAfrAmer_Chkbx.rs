@@ -7,16 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[contains(@id,'checkbox_Race_BLACK_OR_AFRICAN_AMERICAN')]</value>
+         <value>//*[@id='checkbox_Race_Black or African American']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[contains(@id,'checkbox_Race_BLACK_OR_AFRICAN_AMERICAN')]</value>
+      <value>//*[@id='checkbox_Race_Black or African American']</value>
+      <webElementGuid>a5221b55-618c-429f-a374-2d0a239a5eb8</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

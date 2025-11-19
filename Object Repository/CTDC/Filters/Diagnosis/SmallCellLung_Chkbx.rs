@@ -7,16 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[contains(@id,'checkbox_Diagnosis_Small cell lung cancer')]</value>
+         <value>//*[@id='checkbox_Diagnosis_Small Cell Lung Carcinoma']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[contains(@id,'checkbox_Diagnosis_Small cell lung cancer')]</value>
+      <value>//*[@id='checkbox_Diagnosis_Small Cell Lung Carcinoma']</value>
+      <webElementGuid>9ebbb9c6-5a6f-4993-a68c-57363c5b7d69</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
