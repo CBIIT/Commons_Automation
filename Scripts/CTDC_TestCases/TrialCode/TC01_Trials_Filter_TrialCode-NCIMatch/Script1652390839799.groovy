@@ -55,11 +55,11 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/CTDC/NavBar/Statba
 
 WebUI.click(findTestObject('Object Repository/CTDC/NavBar/Statbar-Studies'))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/CTDC/Filters/AnatoCollecSite/TRIALCODE_Ddn'), 5)
+WebUI.waitForElementPresent(findTestObject('Object Repository/CTDC/Filters/AnatoCollecSite/ANATOMCOLLECSITE_Ddn'), 5)
 
-WebUI.click(findTestObject('Object Repository/CTDC/Filters/AnatoCollecSite/TRIALCODE_Ddn'))
+WebUI.click(findTestObject('Object Repository/CTDC/Filters/AnatoCollecSite/ANATOMCOLLECSITE_Ddn'))
 
-WebUI.click(findTestObject('Object Repository/CTDC/Filters/AnatoCollecSite/NCI-Match_Chkbx'))
+WebUI.click(findTestObject('Object Repository/CTDC/Filters/AnatoCollecSite/AbdominalWall_Chkbx'))
 
 //WebUI.click(findTestObject('CTDC/ResultTabs/Trials_CloseView_Btn'))
 CustomKeywords.'utilities.TestRunner.ReadCasesTableKatalon'('Object Repository/Trials/Trials_CasesTable', 

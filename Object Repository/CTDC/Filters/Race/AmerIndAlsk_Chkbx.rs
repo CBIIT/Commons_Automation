@@ -7,16 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[contains(@id,'checkbox_Race_AMERICAN_INDIAN_OR_ALASKA_NATIVE')]</value>
+         <value>//*[@id='checkbox_Race_American Indian or Alaska Native']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[contains(@id,'checkbox_Race_AMERICAN_INDIAN_OR_ALASKA_NATIVE')]</value>
+      <value>//*[@id='checkbox_Race_American Indian or Alaska Native']</value>
+      <webElementGuid>a2b899e2-a399-4253-a90f-793e6445bfc0</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
