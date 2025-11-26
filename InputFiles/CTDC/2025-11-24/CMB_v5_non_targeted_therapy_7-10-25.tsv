@@ -1,0 +1,1240 @@
+participant.participant_id	non_targeted_therapy_record_id	non_targeted_therapy	non_targeted_therapy_dose	type
+MSB-08588	non_targeted_therapy.33130493	xeloda	1800	non_targeted_therapy
+MSB-09977	non_targeted_therapy.16995255	carboplatin + etoposide	5	non_targeted_therapy
+MSB-04030	non_targeted_therapy.17137153	leNot Applicablelidomide	15	non_targeted_therapy
+MSB-04030	non_targeted_therapy.17137154	autologous stem cell transplant	4.6	non_targeted_therapy
+MSB-04030	non_targeted_therapy.17140574	leNot Applicablelidomide/bortezomib/dexamethasone	1.3	non_targeted_therapy
+MSB-01103	non_targeted_therapy.19655363	autologous stem cell transplant	4.2	non_targeted_therapy
+MSB-01103	non_targeted_therapy.19654985	autologous stem cell transplant	Not Applicable	non_targeted_therapy
+MSB-01103	non_targeted_therapy.19654983	velcade/revlimid/dexamethasone	1.3	non_targeted_therapy
+MSB-08178	non_targeted_therapy.20202228	bicalutamide	50	non_targeted_therapy
+MSB-04950	non_targeted_therapy.20203996	autologous stem cell transplant	4.5	non_targeted_therapy
+MSB-05563	non_targeted_therapy.20050150	docetaxel	75	non_targeted_therapy
+MSB-06489	non_targeted_therapy.32830886	fluorouracil	2500	non_targeted_therapy
+MSB-06489	non_targeted_therapy.31297082	fluorouracil	300	non_targeted_therapy
+MSB-05789	non_targeted_therapy.20338207	leNot Applicablelidomide	25	non_targeted_therapy
+MSB-05789	non_targeted_therapy.20338208	autologous stem cell transplant	Not Applicable	non_targeted_therapy
+MSB-05789	non_targeted_therapy.33130592	leNot Applicablelidomide	10	non_targeted_therapy
+MSB-03226	non_targeted_therapy.29304263	bortezomib/cyclophosphamide/dexamethasone	3	non_targeted_therapy
+MSB-03226	non_targeted_therapy.29304266	autologous stem cell transplant	Not Applicable	non_targeted_therapy
+MSB-04031	non_targeted_therapy.31464331	bortezomib/cyclophosphamide/dexamethasone	1.3	non_targeted_therapy
+MSB-04031	non_targeted_therapy.31464333	autologous stem cell transplant	6.5	non_targeted_therapy
+MSB-08093	non_targeted_therapy.35879952	dexamethasone	40	non_targeted_therapy
+MSB-01224	non_targeted_therapy.36493589	autologous stem cell transplant	3.1	non_targeted_therapy
+MSB-08799	non_targeted_therapy.66605756	autologous stem cell transplant	Not Applicable	non_targeted_therapy
+MSB-08799	non_targeted_therapy.66605752	melphalan	200	non_targeted_therapy
+MSB-07715	non_targeted_therapy.43099679	melphalan	140	non_targeted_therapy
+MSB-07715	non_targeted_therapy.60389086	autologous stem cell transplant	Not Applicable	non_targeted_therapy
+MSB-01049	non_targeted_therapy.53318360	melphalan , autologous stem cell transplant	380	non_targeted_therapy
+MSB-07839	non_targeted_therapy.50769569	cytarabine	221	non_targeted_therapy
+MSB-07839	non_targeted_therapy.57991182	cytarabine	6990	non_targeted_therapy
+MSB-07839	non_targeted_therapy.57991181	cytarabine	7020	non_targeted_therapy
+MSB-07839	non_targeted_therapy.57991173	cytarabine	7020	non_targeted_therapy
+MSB-07839	non_targeted_therapy.57991172	cytarabine	7050	non_targeted_therapy
+MSB-07839	non_targeted_therapy.57991163	cytarabine	7140	non_targeted_therapy
+MSB-07839	non_targeted_therapy.57991161	cytarabine	6840	non_targeted_therapy
+MSB-07839	non_targeted_therapy.57991152	cytarabine	6780	non_targeted_therapy
+MSB-09124	non_targeted_therapy.60141266	melphalan	140	non_targeted_therapy
+MSB-09124	non_targeted_therapy.60141267	autologous stem cell transplant	3.51	non_targeted_therapy
+MSB-02901	non_targeted_therapy.52911844	melphalan , autologous peripheral blood hematopoietic cell transplant	200	non_targeted_therapy
+MSB-06606	non_targeted_therapy.56298726	autologous stem cell transplant	0.37	non_targeted_therapy
+MSB-06606	non_targeted_therapy.56298647	melphalan	360	non_targeted_therapy
+MSB-08228	non_targeted_therapy.59754609	autologous stem cell transplant	3.34	non_targeted_therapy
+MSB-08228	non_targeted_therapy.59754549	melphalan	200	non_targeted_therapy
+MSB-00902	non_targeted_therapy.53914452	melphalan	200	non_targeted_therapy
+MSB-00902	non_targeted_therapy.58269553	stem cell transplant	4.98	non_targeted_therapy
+MSB-07840	non_targeted_therapy.54420585	autologous stem cell transplant	2.51	non_targeted_therapy
+MSB-07840	non_targeted_therapy.54314739	melphalan	338	non_targeted_therapy
+MSB-06833	non_targeted_therapy.60251996	autologous stem cell transplant	Not Applicable	non_targeted_therapy
+MSB-06711	non_targeted_therapy.54440169	daunorubicin	120	non_targeted_therapy
+MSB-06711	non_targeted_therapy.54701843	cytarabine	400	non_targeted_therapy
+MSB-06711	non_targeted_therapy.62482059	cytarabine	6000	non_targeted_therapy
+MSB-06711	non_targeted_therapy.62482060	cytarabine	6000	non_targeted_therapy
+MSB-06711	non_targeted_therapy.62482064	cytarabine	6000	non_targeted_therapy
+MSB-04143	non_targeted_therapy.58866795	irinotecan	410	non_targeted_therapy
+MSB-04143	non_targeted_therapy.58866813	fluorouracil	900	non_targeted_therapy
+MSB-02960	non_targeted_therapy.55178214	hydroxyurea	1000	non_targeted_therapy
+MSB-02960	non_targeted_therapy.61149990	cytarabine	4410	non_targeted_therapy
+MSB-02960	non_targeted_therapy.61150168	cytarabine	4380	non_targeted_therapy
+MSB-02960	non_targeted_therapy.61150170	cytarabine	4290	non_targeted_therapy
+MSB-04450	non_targeted_therapy.56349486	autologous stem cell transplant	7.55	non_targeted_therapy
+MSB-04450	non_targeted_therapy.56349482	melphalan	315	non_targeted_therapy
+MSB-01757	non_targeted_therapy.60277696	stem cell transplant	Not Applicable	non_targeted_therapy
+MSB-03891	non_targeted_therapy.66593288	melphalan	200	non_targeted_therapy
+MSB-03891	non_targeted_therapy.66593303	autologous stem cell transplant	7.2	non_targeted_therapy
+MSB-08049	non_targeted_therapy.57593349	melphalan	200	non_targeted_therapy
+MSB-08049	non_targeted_therapy.58868327	autologous stem cell transplant	Not Applicable	non_targeted_therapy
+MSB-07864	non_targeted_therapy.59157710	cisplatin	75	non_targeted_therapy
+MSB-07864	non_targeted_therapy.59183764	pemetrexed	500	non_targeted_therapy
+MSB-09513	non_targeted_therapy.60591133	carboplatin	5	non_targeted_therapy
+MSB-09513	non_targeted_therapy.60597501	paclitaxel	260	non_targeted_therapy
+MSB-07585	non_targeted_therapy.59632072	carboplatin	6	non_targeted_therapy
+MSB-07585	non_targeted_therapy.59879588	paclitaxel	175	non_targeted_therapy
+MSB-04569	non_targeted_therapy.61938770	chemotherapy with paclitaxel and carboplatin	78	non_targeted_therapy
+MSB-04569	non_targeted_therapy.62183835	chemotherapy with paclitaxel and carboplatin	230	non_targeted_therapy
+MSB-00060	non_targeted_therapy.62234768	doxorubicin	130	non_targeted_therapy
+MSB-00060	non_targeted_therapy.63286989	cyclophosphamide	1314	non_targeted_therapy
+MSB-07579	non_targeted_therapy.64166686	carboplatin	6	non_targeted_therapy
+MSB-07579	non_targeted_therapy.64166687	paclitaxel	175	non_targeted_therapy
+MSB-02929	non_targeted_therapy.63140370	melphalan	200	non_targeted_therapy
+MSB-02929	non_targeted_therapy.63632448	autologous stem cell transplant	3.57	non_targeted_therapy
+MSB-05251	non_targeted_therapy.65415239	azacitidine	75	non_targeted_therapy
+MSB-00174	non_targeted_therapy.65977506	carboplatin , pacliaxel	6	non_targeted_therapy
+MSB-02266	non_targeted_therapy.66095062	donor lymphocyte infusion	4.45	non_targeted_therapy
+MSB-02266	non_targeted_therapy.66095057	donor lymphocyte infusion	3.54	non_targeted_therapy
+MSB-02266	non_targeted_therapy.66095042	donor lymphocyte infusion	1	non_targeted_therapy
+MSB-02266	non_targeted_therapy.66095036	decitabine	20	non_targeted_therapy
+MSB-02266	non_targeted_therapy.66094980	decitabine	20	non_targeted_therapy
+MSB-02266	non_targeted_therapy.66094957	autologous stem cell transplant	1	non_targeted_therapy
+MSB-02266	non_targeted_therapy.66095065	donor lymphocyte infusion	3.85	non_targeted_therapy
+MSB-07195	non_targeted_therapy.66252516	azacitidine	170	non_targeted_therapy
+MSB-08327	non_targeted_therapy.66833852	leucovorin	400	non_targeted_therapy
+MSB-08327	non_targeted_therapy.66951158	fluorouracil	2400	non_targeted_therapy
+MSB-08327	non_targeted_therapy.66951131	fluorouracil	400	non_targeted_therapy
+MSB-09899	non_targeted_therapy.67294976	carboplatin , pacliaxel	6	non_targeted_therapy
+MSB-09431	non_targeted_therapy.67329426	carboplatin , pacliaxel	6	non_targeted_therapy
+MSB-06045	non_targeted_therapy.68936532	thalidomide	Not Applicable	non_targeted_therapy
+MSB-08922	non_targeted_therapy.20230594	dabrafenib	150	non_targeted_therapy
+MSB-00140	non_targeted_therapy.60669887	melphalan	200	non_targeted_therapy
+MSB-00140	non_targeted_therapy.60669889	stem cell transplant	3.07	non_targeted_therapy
+MSB-06071	non_targeted_therapy.65972208	paclitaxel	358.8	non_targeted_therapy
+MSB-06071	non_targeted_therapy.65668001	carboplatin	680.5	non_targeted_therapy
+MSB-09151	non_targeted_therapy.33699463	xeloda	2500	non_targeted_therapy
+MSB-07483	non_targeted_therapy.17210053	leuprolide	Not Applicable	non_targeted_therapy
+MSB-07483	non_targeted_therapy.17210114	degarelix	Not Applicable	non_targeted_therapy
+MSB-05837	non_targeted_therapy.17233390	carboplatin/etoposide	Not Applicable	non_targeted_therapy
+MSB-05837	non_targeted_therapy.17233824	carboplatin/etoposide	Not Applicable	non_targeted_therapy
+MSB-05837	non_targeted_therapy.17233565	carboplatin/etoposide	Not Applicable	non_targeted_therapy
+MSB-05837	non_targeted_therapy.17233536	cisplatin/etoposide	Not Applicable	non_targeted_therapy
+MSB-00939	non_targeted_therapy.27963690	carboplatin + taxol	282	non_targeted_therapy
+MSB-00939	non_targeted_therapy.27963691	durvalumab	740	non_targeted_therapy
+MSB-01842	non_targeted_therapy.58911748	leucovorin, fluorouracil, oxaliplatin	Not Applicable	non_targeted_therapy
+MSB-06305	non_targeted_therapy.35478951	dexamethasone	20	non_targeted_therapy
+MSB-06305	non_targeted_therapy.35478934	dexamethasone	40	non_targeted_therapy
+MSB-06305	non_targeted_therapy.35478929	melphalan flufeNot Applicablemide	20	non_targeted_therapy
+MSB-06305	non_targeted_therapy.35478919	melphalan flufeNot Applicablemide	30	non_targeted_therapy
+MSB-06305	non_targeted_therapy.33584126	melphalan flufeNot Applicablemide	40	non_targeted_therapy
+MSB-06305	non_targeted_therapy.33583231	zoledronic acid	4	non_targeted_therapy
+MSB-06305	non_targeted_therapy.33109483	dexamethasone	20	non_targeted_therapy
+MSB-06305	non_targeted_therapy.23029347	cyclophosphamide	300	non_targeted_therapy
+MSB-09019	non_targeted_therapy.33765354	leucovorin	340	non_targeted_therapy
+MSB-09019	non_targeted_therapy.33622032	oxaliplatin	85	non_targeted_therapy
+MSB-09019	non_targeted_therapy.33622030	fluorouracil	1200	non_targeted_therapy
+MSB-09019	non_targeted_therapy.31297353	leucovorin	400	non_targeted_therapy
+MSB-09019	non_targeted_therapy.31297339	leucovorin	400	non_targeted_therapy
+MSB-03032	non_targeted_therapy.16998536	leucovorin	800	non_targeted_therapy
+MSB-03032	non_targeted_therapy.16998502	oxaliplatin	180	non_targeted_therapy
+MSB-03032	non_targeted_therapy.16998244	fluorouracil	800	non_targeted_therapy
+MSB-03032	non_targeted_therapy.16998048	fluorouracil	5100	non_targeted_therapy
+MSB-07473	non_targeted_therapy.33765541	dexamethasone	20	non_targeted_therapy
+MSB-07473	non_targeted_therapy.33765546	cyclophosphamide	300	non_targeted_therapy
+MSB-07473	non_targeted_therapy.35660974	dexamethasone	20	non_targeted_therapy
+MSB-04030	non_targeted_therapy.53772644	denosumab	120	non_targeted_therapy
+MSB-04030	non_targeted_therapy.45438190	denosumab	120	non_targeted_therapy
+MSB-01103	non_targeted_therapy.50311883	denosumab	120	non_targeted_therapy
+MSB-01103	non_targeted_therapy.50311881	denosumab	120	non_targeted_therapy
+MSB-01103	non_targeted_therapy.50311878	denosumab	120	non_targeted_therapy
+MSB-01103	non_targeted_therapy.19853897	denosumab	120	non_targeted_therapy
+MSB-09601	non_targeted_therapy.36182205	capecitabine	2000	non_targeted_therapy
+MSB-09601	non_targeted_therapy.36182018	capecitabine	4000	non_targeted_therapy
+MSB-09601	non_targeted_therapy.36181948	capecitabine	4000	non_targeted_therapy
+MSB-09601	non_targeted_therapy.36181855	fluorouracil	650	non_targeted_therapy
+MSB-09601	non_targeted_therapy.36181851	leucovorin	650	non_targeted_therapy
+MSB-09601	non_targeted_therapy.36181653	fluorouracil	3875	non_targeted_therapy
+MSB-04950	non_targeted_therapy.20204010	denosumab	120	non_targeted_therapy
+MSB-05789	non_targeted_therapy.34586688	melphalan	Not Applicable	non_targeted_therapy
+MSB-04315	non_targeted_therapy.32914304	carboplatin	280	non_targeted_therapy
+MSB-04315	non_targeted_therapy.20628021	paclitaxel	114	non_targeted_therapy
+MSB-06236	non_targeted_therapy.31652340	leucovorin,fluorouracil, oxaliplatin.	160	non_targeted_therapy
+MSB-06236	non_targeted_therapy.50056917	leucovorin,fluorouracil, oxaliplatin.	5692	non_targeted_therapy
+MSB-03226	non_targeted_therapy.29304265	zoledronic acid	4	non_targeted_therapy
+MSB-09991	non_targeted_therapy.31652374	irinotecan	450	non_targeted_therapy
+MSB-09991	non_targeted_therapy.47125188	leucovorin	1000	non_targeted_therapy
+MSB-09991	non_targeted_therapy.47125191	fluorouracil	500	non_targeted_therapy
+MSB-09991	non_targeted_therapy.47125198	fluorouracil	6000	non_targeted_therapy
+MSB-09991	non_targeted_therapy.47128109	encorafenib	300	non_targeted_therapy
+MSB-06426	non_targeted_therapy.29842954	cetuximab	1060	non_targeted_therapy
+MSB-06426	non_targeted_therapy.29842955	capecitabine	2000	non_targeted_therapy
+MSB-06426	non_targeted_therapy.29842968	oxaliplatin	270	non_targeted_therapy
+MSB-01224	non_targeted_therapy.35718107	denosumab	120	non_targeted_therapy
+MSB-01224	non_targeted_therapy.47205508	denosumab	120	non_targeted_therapy
+MSB-01224	non_targeted_therapy.47205511	denosumab	120	non_targeted_therapy
+MSB-05737	non_targeted_therapy.38018634	cyclophosphamide	375	non_targeted_therapy
+MSB-03453	non_targeted_therapy.37936711	denosumab	120	non_targeted_therapy
+MSB-07917	non_targeted_therapy.38796290	zoledronic acid	3.3	non_targeted_therapy
+MSB-07917	non_targeted_therapy.42823067	zoledronic acid	3.3	non_targeted_therapy
+MSB-07917	non_targeted_therapy.42823070	denosumab	60	non_targeted_therapy
+MSB-07917	non_targeted_therapy.42823071	denosumab	120	non_targeted_therapy
+MSB-02429	non_targeted_therapy.43206736	denosumab	120	non_targeted_therapy
+MSB-02429	non_targeted_therapy.53319258	denosumab	120	non_targeted_therapy
+MSB-08799	non_targeted_therapy.43307866	denosumab	120	non_targeted_therapy
+MSB-00140	non_targeted_therapy.43849180	denosumab	120	non_targeted_therapy
+MSB-05126	non_targeted_therapy.43808505	denosumab	120	non_targeted_therapy
+MSB-01049	non_targeted_therapy.46706508	denosumab	120	non_targeted_therapy
+MSB-05435	non_targeted_therapy.47445619	zoledronic acid	4	non_targeted_therapy
+MSB-05435	non_targeted_therapy.49589971	zoledronic acid	4	non_targeted_therapy
+MSB-05435	non_targeted_therapy.49589989	zoledronic acid	4	non_targeted_therapy
+MSB-05676	non_targeted_therapy.50566518	denosumab	120	non_targeted_therapy
+MSB-06864	non_targeted_therapy.50903029	denosumab	120	non_targeted_therapy
+MSB-07784	non_targeted_therapy.50569532	fluorouracil	700	non_targeted_therapy
+MSB-07784	non_targeted_therapy.53663886	irinotecan	320	non_targeted_therapy
+MSB-07146	non_targeted_therapy.50817030	zoledronic acid	4	non_targeted_therapy
+MSB-02901	non_targeted_therapy.53215448	denosumab	120	non_targeted_therapy
+MSB-02988	non_targeted_therapy.52923085	zoledronic acid	4	non_targeted_therapy
+MSB-02988	non_targeted_therapy.53255048	melphalan	350	non_targeted_therapy
+MSB-02988	non_targeted_therapy.53255045	plerixafor	30.6	non_targeted_therapy
+MSB-02988	non_targeted_therapy.53255044	zoledronic acid	4	non_targeted_therapy
+MSB-06606	non_targeted_therapy.56298611	zoledronic acid	4	non_targeted_therapy
+MSB-06606	non_targeted_therapy.56298612	zoledronic acid	4	non_targeted_therapy
+MSB-06606	non_targeted_therapy.56298614	zoledronic acid	4	non_targeted_therapy
+MSB-06606	non_targeted_therapy.56298616	zoledronic acid	4	non_targeted_therapy
+MSB-06606	non_targeted_therapy.53044092	zoledronic acid	4	non_targeted_therapy
+MSB-08228	non_targeted_therapy.59754202	denosumab	120	non_targeted_therapy
+MSB-08965	non_targeted_therapy.53753058	bicalutamide	50	non_targeted_therapy
+MSB-09202	non_targeted_therapy.53749986	leucovorin,fluorouracil, oxaliplatin.	3700	non_targeted_therapy
+MSB-07840	non_targeted_therapy.54420593	denosumab	120	non_targeted_therapy
+MSB-05167	non_targeted_therapy.54590505	cytarabine	6400	non_targeted_therapy
+MSB-05167	non_targeted_therapy.54590452	cytarabine	6400	non_targeted_therapy
+MSB-05167	non_targeted_therapy.54590450	cytarabine	6400	non_targeted_therapy
+MSB-05167	non_targeted_therapy.54590302	hydroxyurea	1000	non_targeted_therapy
+MSB-04450	non_targeted_therapy.56349452	denosumab	120	non_targeted_therapy
+MSB-04450	non_targeted_therapy.56349449	denosumab	120	non_targeted_therapy
+MSB-04450	non_targeted_therapy.55263186	denosumab	120	non_targeted_therapy
+MSB-03321	non_targeted_therapy.56509445	fluorouracil	4944	non_targeted_therapy
+MSB-08964	non_targeted_therapy.64036127	carboplatin	210	non_targeted_therapy
+MSB-08964	non_targeted_therapy.64036191	etoposide	100	non_targeted_therapy
+MSB-08964	non_targeted_therapy.64036359	carboplatin	210	non_targeted_therapy
+MSB-08964	non_targeted_therapy.64036360	etoposide	100	non_targeted_therapy
+MSB-08964	non_targeted_therapy.63033285	carboplatin	240	non_targeted_therapy
+MSB-08964	non_targeted_therapy.63033449	etoposide	130	non_targeted_therapy
+MSB-08876	non_targeted_therapy.65634263	carboplatin	225	non_targeted_therapy
+MSB-00083	non_targeted_therapy.65698916	cyclophosphamide	300	non_targeted_therapy
+MSB-00083	non_targeted_therapy.65698922	dexamethasone	40	non_targeted_therapy
+MSB-04588	non_targeted_therapy.67328558	abiraterone	1000	non_targeted_therapy
+MSB-00773	non_targeted_therapy.65528050	paclitaxel	66	non_targeted_therapy
+MSB-04774	non_targeted_therapy.65643761	cyclophosphamide	600	non_targeted_therapy
+MSB-04774	non_targeted_therapy.65968772	doxorubicin	130	non_targeted_therapy
+MSB-02054	non_targeted_therapy.66603874	capivasertib	400	non_targeted_therapy
+MSB-02054	non_targeted_therapy.66603893	capivasertib	400	non_targeted_therapy
+MSB-02054	non_targeted_therapy.66604230	capivasertib	400	non_targeted_therapy
+MSB-01687	non_targeted_therapy.66602621	aNot Applicablestrozole	1	non_targeted_therapy
+MSB-02120	non_targeted_therapy.66967605	pemetrexed	800	non_targeted_therapy
+MSB-02120	non_targeted_therapy.68156333	carboplatin	450	non_targeted_therapy
+MSB-01973	non_targeted_therapy.68936174	carboplatin	570	non_targeted_therapy
+MSB-01973	non_targeted_therapy.68936182	etoposide	200	non_targeted_therapy
+MSB-00046	non_targeted_therapy.67455173	leuprolide	22.5	non_targeted_therapy
+MSB-06249	non_targeted_therapy.67607086	paclitaxel	90	non_targeted_therapy
+MSB-06249	non_targeted_therapy.67606719	carboplatin	290	non_targeted_therapy
+MSB-03725	non_targeted_therapy.64573365	dexamethasone	2	non_targeted_therapy
+MSB-03725	non_targeted_therapy.64573360	dexamethasone	4	non_targeted_therapy
+MSB-03725	non_targeted_therapy.64573153	dexamethasone	4	non_targeted_therapy
+MSB-07473	non_targeted_therapy.63233543	immunoglobin	0.4	non_targeted_therapy
+MSB-04030	non_targeted_therapy.19952713	melphalan	200	non_targeted_therapy
+MSB-01103	non_targeted_therapy.19655516	melphalan	200	non_targeted_therapy
+MSB-01103	non_targeted_therapy.19654984	melphalan	140	non_targeted_therapy
+MSB-06184	non_targeted_therapy.31652252	enzalutamide	40	non_targeted_therapy
+MSB-04950	non_targeted_therapy.20203998	melphalan	200	non_targeted_therapy
+MSB-05562	non_targeted_therapy.60590805	cyclophosphamide	400	non_targeted_therapy
+MSB-03226	non_targeted_therapy.29304264	melphalan	372	non_targeted_therapy
+MSB-06029	non_targeted_therapy.28945795	oxaliplatin	175	non_targeted_therapy
+MSB-06029	non_targeted_therapy.34021551	fluorouracil	5000	non_targeted_therapy
+MSB-06029	non_targeted_therapy.34021581	leucovorin	40	non_targeted_therapy
+MSB-05206	non_targeted_therapy.31652350	dexamethasone	40	non_targeted_therapy
+MSB-05206	non_targeted_therapy.63233671	zoledronic acid	4	non_targeted_therapy
+MSB-05206	non_targeted_therapy.63233664	dexamethasone	8	non_targeted_therapy
+MSB-00352	non_targeted_therapy.29039724	oxaliplatin	165	non_targeted_therapy
+MSB-00352	non_targeted_therapy.29125580	fluorouracil	800	non_targeted_therapy
+MSB-00352	non_targeted_therapy.34021777	irinotecan	280	non_targeted_therapy
+MSB-00352	non_targeted_therapy.34021648	fluorouracil	4700	non_targeted_therapy
+MSB-00352	non_targeted_therapy.34021653	leucovorin	100	non_targeted_therapy
+MSB-00352	non_targeted_therapy.34021655	irinotecan	350	non_targeted_therapy
+MSB-00352	non_targeted_therapy.34021679	fluorouracil	4000	non_targeted_therapy
+MSB-00352	non_targeted_therapy.34021755	fluorouracil	700	non_targeted_therapy
+MSB-00352	non_targeted_therapy.34021785	irinotecan	250	non_targeted_therapy
+MSB-00352	non_targeted_therapy.34021791	fluorouracil	650	non_targeted_therapy
+MSB-00352	non_targeted_therapy.34021795	fluorouracil	3800	non_targeted_therapy
+MSB-04031	non_targeted_therapy.31464332	melphalan	140	non_targeted_therapy
+MSB-03406	non_targeted_therapy.33134119	dexamethasone	20	non_targeted_therapy
+MSB-03406	non_targeted_therapy.67439435	zoledronic acid	4	non_targeted_therapy
+MSB-03406	non_targeted_therapy.63234215	zoledronic acid	4	non_targeted_therapy
+MSB-03406	non_targeted_therapy.63234192	zoledronic acid	4	non_targeted_therapy
+MSB-03406	non_targeted_therapy.63234190	dexamethasone	20	non_targeted_therapy
+MSB-03406	non_targeted_therapy.63234176	dexamethasone	20	non_targeted_therapy
+MSB-03406	non_targeted_therapy.63234160	dexamethasone	20	non_targeted_therapy
+MSB-03315	non_targeted_therapy.35452807	zoledronic acid	4	non_targeted_therapy
+MSB-01224	non_targeted_therapy.36493588	melphalan	200	non_targeted_therapy
+MSB-03453	non_targeted_therapy.38275717	melphalan	200	non_targeted_therapy
+MSB-06699	non_targeted_therapy.45411876	zoledronic acid	4	non_targeted_therapy
+MSB-06894	non_targeted_therapy.54819604	denosumab	120	non_targeted_therapy
+MSB-05435	non_targeted_therapy.49589993	melphalan	200	non_targeted_therapy
+MSB-07186	non_targeted_therapy.51011897	zoledronic acid	4	non_targeted_therapy
+MSB-07186	non_targeted_therapy.63561073	dexamethasone	20	non_targeted_therapy
+MSB-07186	non_targeted_therapy.63561072	dexamethasone	20	non_targeted_therapy
+MSB-07186	non_targeted_therapy.63561070	dexamethasone	20	non_targeted_therapy
+MSB-05756	non_targeted_therapy.64661857	zoledronic acid	4	non_targeted_therapy
+MSB-04176	non_targeted_therapy.52934547	dexamethasone	20	non_targeted_therapy
+MSB-04176	non_targeted_therapy.63606161	zoledronic acid	4	non_targeted_therapy
+MSB-05151	non_targeted_therapy.53708111	dexamethasone	40	non_targeted_therapy
+MSB-01960	non_targeted_therapy.53837488	capecitabine	1500	non_targeted_therapy
+MSB-06833	non_targeted_therapy.54318769	melphalan	200	non_targeted_therapy
+MSB-06833	non_targeted_therapy.63617877	zoledronic acid	4	non_targeted_therapy
+MSB-06833	non_targeted_therapy.63617874	dexamethasone	20	non_targeted_therapy
+MSB-06833	non_targeted_therapy.63617867	dexamethasone	20	non_targeted_therapy
+MSB-06833	non_targeted_therapy.63615641	dexamethasone	40	non_targeted_therapy
+MSB-04143	non_targeted_therapy.54710486	oxaliplatin	190	non_targeted_therapy
+MSB-05447	non_targeted_therapy.55764931	leucovorin, fluorouracil, oxaliplatin	Not Applicable	non_targeted_therapy
+MSB-01757	non_targeted_therapy.56314469	melphalan	100	non_targeted_therapy
+MSB-01757	non_targeted_therapy.63630947	dexamethasone	20	non_targeted_therapy
+MSB-01757	non_targeted_therapy.63630957	dexamethasone	8	non_targeted_therapy
+MSB-01757	non_targeted_therapy.63630977	dexamethasone	4	non_targeted_therapy
+MSB-01757	non_targeted_therapy.63630989	zoledronic acid	4	non_targeted_therapy
+MSB-01757	non_targeted_therapy.64675202	dexamethasone	8	non_targeted_therapy
+MSB-09880	non_targeted_therapy.56554072	carboplatin	480	non_targeted_therapy
+MSB-09880	non_targeted_therapy.56386415	pemetrexed	810	non_targeted_therapy
+MSB-01825	non_targeted_therapy.56420057	dexamethasone	20	non_targeted_therapy
+MSB-00727	non_targeted_therapy.63631437	denosumab	120	non_targeted_therapy
+MSB-05105	non_targeted_therapy.61939982	denosumab	120	non_targeted_therapy
+MSB-05105	non_targeted_therapy.64166370	dexamethasone	20	non_targeted_therapy
+MSB-05105	non_targeted_therapy.65971474	denosumab	120	non_targeted_therapy
+MSB-01906	non_targeted_therapy.64166332	zoledronic acid	Not Applicable	non_targeted_therapy
+MSB-01906	non_targeted_therapy.64166342	zoledronic acid	Not Applicable	non_targeted_therapy
+MSB-01906	non_targeted_therapy.64166347	zoledronic acid	3.5	non_targeted_therapy
+MSB-01906	non_targeted_therapy.64166351	dexamethasone	20	non_targeted_therapy
+MSB-01906	non_targeted_therapy.64166356	dexamethasone	12	non_targeted_therapy
+MSB-01906	non_targeted_therapy.64166358	dexamethasone	8	non_targeted_therapy
+MSB-07703	non_targeted_therapy.63213623	dexamethasone	20	non_targeted_therapy
+MSB-07703	non_targeted_therapy.64543122	zoledronic acid	4	non_targeted_therapy
+MSB-00083	non_targeted_therapy.63630055	dexamethasone	8	non_targeted_therapy
+MSB-00083	non_targeted_therapy.65029819	zoledronic acid	4	non_targeted_therapy
+MSB-02266	non_targeted_therapy.66094970	methotrexate	9	non_targeted_therapy
+MSB-02266	non_targeted_therapy.66094925	busulfan	56	non_targeted_therapy
+MSB-02266	non_targeted_therapy.66020116	fludarabine	53.75	non_targeted_therapy
+MSB-02266	non_targeted_therapy.66094961	tacrolimus	1.5	non_targeted_therapy
+MSB-02266	non_targeted_therapy.66094963	methotrexate	26.25	non_targeted_therapy
+MSB-02266	non_targeted_therapy.66094975	ruxolitinib	10	non_targeted_therapy
+MSB-04307	non_targeted_therapy.66592629	dexamethasone	20	non_targeted_therapy
+MSB-05863	non_targeted_therapy.66696170	denosumab	120	non_targeted_therapy
+MSB-07403	non_targeted_therapy.68285155	dexamethasone	20	non_targeted_therapy
+MSB-04847	non_targeted_therapy.14697615	pembrolizumab	200	non_targeted_therapy
+MSB-09794	non_targeted_therapy.15208491	carboplatin	5	non_targeted_therapy
+MSB-09794	non_targeted_therapy.33135523	pemetrexed	500	non_targeted_therapy
+MSB-01499	non_targeted_therapy.15392736	paclitaxel	45	non_targeted_therapy
+MSB-01499	non_targeted_therapy.15392737	durvalumab	10	non_targeted_therapy
+MSB-01499	non_targeted_therapy.33317791	carboplatin	2	non_targeted_therapy
+MSB-09151	non_targeted_therapy.33698755	fluorouracil	1200	non_targeted_therapy
+MSB-09151	non_targeted_therapy.33698732	fluorouracil	400	non_targeted_therapy
+MSB-09151	non_targeted_therapy.33698685	leucovorin	400	non_targeted_therapy
+MSB-09151	non_targeted_therapy.16022675	oxaliplatin	85	non_targeted_therapy
+MSB-03973	non_targeted_therapy.19553453	bicalutamide & lupron	50	non_targeted_therapy
+MSB-04950	non_targeted_therapy.20203983	leNot Applicablelidomide bortezomib dexamethasone	1.3	non_targeted_therapy
+MSB-07059	non_targeted_therapy.23183017	fluorouracil	3960	non_targeted_therapy
+MSB-01413	non_targeted_therapy.27347771	carboplatin	210	non_targeted_therapy
+MSB-01413	non_targeted_therapy.27347982	paclitaxel	78	non_targeted_therapy
+MSB-01627	non_targeted_therapy.31652334	oxaliplatin	140	non_targeted_therapy
+MSB-01627	non_targeted_therapy.38667828	leucovorin	650	non_targeted_therapy
+MSB-01627	non_targeted_therapy.38667834	irinotecan	275	non_targeted_therapy
+MSB-01627	non_targeted_therapy.38676467	irinotecan	225	non_targeted_therapy
+MSB-01627	non_targeted_therapy.38681523	oxaliplatin	115	non_targeted_therapy
+MSB-01627	non_targeted_therapy.38681525	fluorouracil	4000	non_targeted_therapy
+MSB-01627	non_targeted_therapy.38681526	fluorouracil	3600	non_targeted_therapy
+MSB-09619	non_targeted_therapy.34374161	fluorouracil	1575	non_targeted_therapy
+MSB-03315	non_targeted_therapy.39149083	cyclophosphamide	522	non_targeted_therapy
+MSB-03315	non_targeted_therapy.39153286	cyclophosphamide	256	non_targeted_therapy
+MSB-08631	non_targeted_therapy.36082635	capecitabine	2000	non_targeted_therapy
+MSB-05975	non_targeted_therapy.62062309	talimogene laherparepvec	1.5	non_targeted_therapy
+MSB-05975	non_targeted_therapy.62062310	talimogene laherparepvec	1.5	non_targeted_therapy
+MSB-05975	non_targeted_therapy.62062313	talimogene laherparepvec	0.5	non_targeted_therapy
+MSB-03453	non_targeted_therapy.38275721	autologous stem cell transplant	3.44	non_targeted_therapy
+MSB-04141	non_targeted_therapy.43307341	fluorouracil	5208	non_targeted_therapy
+MSB-04141	non_targeted_therapy.43362535	irinotecan	340	non_targeted_therapy
+MSB-04141	non_targeted_therapy.43362538	leucovorin	868	non_targeted_therapy
+MSB-04141	non_targeted_therapy.43362539	oxaliplatin	184	non_targeted_therapy
+MSB-00140	non_targeted_therapy.60670802	cyclophosphamide	248	non_targeted_therapy
+MSB-00140	non_targeted_therapy.60670804	cyclophosphamide	250	non_targeted_therapy
+MSB-00140	non_targeted_therapy.60670805	cyclophosphamide	250	non_targeted_therapy
+MSB-00140	non_targeted_therapy.60670806	cyclophosphamide	256	non_targeted_therapy
+MSB-00140	non_targeted_therapy.60670808	cyclophosphamide	268	non_targeted_therapy
+MSB-05435	non_targeted_therapy.49590008	autologous stem cell transplant	Not Applicable	non_targeted_therapy
+MSB-07662	non_targeted_therapy.50767865	etoposide	100	non_targeted_therapy
+MSB-05602	non_targeted_therapy.50821626	eligard	45	non_targeted_therapy
+MSB-01437	non_targeted_therapy.50910013	carboplatin	580	non_targeted_therapy
+MSB-02988	non_targeted_therapy.53255052	autologous stem cell transplant	0	non_targeted_therapy
+MSB-08228	non_targeted_therapy.53605084	cyclophosphamide	1126	non_targeted_therapy
+MSB-08228	non_targeted_therapy.53845276	cyclophosphamide	640	non_targeted_therapy
+MSB-08228	non_targeted_therapy.53845275	cyclophosphamide	646	non_targeted_therapy
+MSB-04319	non_targeted_therapy.53838936	paclitaxel	87	non_targeted_therapy
+MSB-04319	non_targeted_therapy.53837597	carboplatin	300	non_targeted_therapy
+MSB-00755	non_targeted_therapy.54311456	carboplatin	3	non_targeted_therapy
+MSB-00755	non_targeted_therapy.54314788	paclitaxel	90	non_targeted_therapy
+MSB-05460	non_targeted_therapy.54310926	carboplatin	2	non_targeted_therapy
+MSB-05460	non_targeted_therapy.54319370	paclitaxel	50	non_targeted_therapy
+MSB-05460	non_targeted_therapy.54319372	carboplatin	3	non_targeted_therapy
+MSB-05460	non_targeted_therapy.54319399	paclitaxel	80	non_targeted_therapy
+MSB-08777	non_targeted_therapy.54318671	paclitaxel	175	non_targeted_therapy
+MSB-08777	non_targeted_therapy.54310502	cisplatin	20	non_targeted_therapy
+MSB-08777	non_targeted_therapy.54318666	cisplatin	75	non_targeted_therapy
+MSB-08777	non_targeted_therapy.54318664	paclitaxel	30	non_targeted_therapy
+MSB-01307	non_targeted_therapy.54418630	cisplatin	60	non_targeted_therapy
+MSB-01307	non_targeted_therapy.54421797	etoposide	120	non_targeted_therapy
+MSB-04968	non_targeted_therapy.54808677	carboplatin	570	non_targeted_therapy
+MSB-04388	non_targeted_therapy.54391818	pemetrexed	500	non_targeted_therapy
+MSB-04388	non_targeted_therapy.54590561	carboplatin	570	non_targeted_therapy
+MSB-03312	non_targeted_therapy.55260642	cyclophosphamide	636	non_targeted_therapy
+MSB-03312	non_targeted_therapy.57828153	cyclophosphamide	630	non_targeted_therapy
+MSB-03312	non_targeted_therapy.57828154	melphalan	232	non_targeted_therapy
+MSB-03312	non_targeted_therapy.57828156	autologous stem cell transplant	0	non_targeted_therapy
+MSB-03738	non_targeted_therapy.56109795	leucovorin, fluorouracil, oxaliplatin	400	non_targeted_therapy
+MSB-03738	non_targeted_therapy.56271460	leucovorin, fluorouracil, oxaliplatin	1200	non_targeted_therapy
+MSB-03738	non_targeted_therapy.56271459	leucovorin, fluorouracil, oxaliplatin	400	non_targeted_therapy
+MSB-03738	non_targeted_therapy.56271454	leucovorin, fluorouracil, oxaliplatin	85	non_targeted_therapy
+MSB-07991	non_targeted_therapy.64166102	capecitabine	1500	non_targeted_therapy
+MSB-01956	non_targeted_therapy.56853663	denosumab	120	non_targeted_therapy
+MSB-05256	non_targeted_therapy.58853634	pemetrexed	900	non_targeted_therapy
+MSB-05256	non_targeted_therapy.58854249	carboplatin	620	non_targeted_therapy
+MSB-05256	non_targeted_therapy.60591799	carboplatin	490	non_targeted_therapy
+MSB-05256	non_targeted_therapy.60591808	pemetrexed	900	non_targeted_therapy
+MSB-05256	non_targeted_therapy.62531262	pemetrexed	900	non_targeted_therapy
+MSB-05256	non_targeted_therapy.62531288	carboplatin	490	non_targeted_therapy
+MSB-05256	non_targeted_therapy.62531312	pemetrexed	900	non_targeted_therapy
+MSB-06586	non_targeted_therapy.58963163	paclitaxel	168	non_targeted_therapy
+MSB-07864	non_targeted_therapy.59183766	carboplatin	5	non_targeted_therapy
+MSB-07864	non_targeted_therapy.59183794	pemetrexed	500	non_targeted_therapy
+MSB-05915	non_targeted_therapy.59632814	etoposide	185	non_targeted_therapy
+MSB-05915	non_targeted_therapy.59931578	carboplatin	750	non_targeted_therapy
+MSB-08057	non_targeted_therapy.60029926	carboplatin	6	non_targeted_therapy
+MSB-08057	non_targeted_therapy.60140440	paclitaxel	175	non_targeted_therapy
+MSB-01799	non_targeted_therapy.60032989	paclitaxel	140	non_targeted_therapy
+MSB-01799	non_targeted_therapy.67085471	denosumab	120	non_targeted_therapy
+MSB-01118	non_targeted_therapy.59304196	zoledronic acid	4	non_targeted_therapy
+MSB-00727	non_targeted_therapy.58884276	paclitaxel	80	non_targeted_therapy
+MSB-08964	non_targeted_therapy.66603322	atezolizumab	1200	non_targeted_therapy
+MSB-08964	non_targeted_therapy.62245091	carboplatin	280	non_targeted_therapy
+MSB-08964	non_targeted_therapy.62255294	etoposide	75	non_targeted_therapy
+MSB-08964	non_targeted_therapy.66603332	atezolizumab	1200	non_targeted_therapy
+MSB-07579	non_targeted_therapy.62983998	carboplatin	6	non_targeted_therapy
+MSB-07579	non_targeted_therapy.63137999	paclitaxel	175	non_targeted_therapy
+MSB-00083	non_targeted_therapy.63469765	cyclophosphamide	500	non_targeted_therapy
+MSB-00083	non_targeted_therapy.63630066	dexamethasone	40	non_targeted_therapy
+MSB-09692	non_targeted_therapy.63563461	carboplatin , pacliaxel	78	non_targeted_therapy
+MSB-05502	non_targeted_therapy.65427371	carboplatin , pacliaxel	6	non_targeted_therapy
+MSB-07874	non_targeted_therapy.65467809	carboplatin	6	non_targeted_therapy
+MSB-07874	non_targeted_therapy.65535336	paclitaxel	175	non_targeted_therapy
+MSB-06510	non_targeted_therapy.63698121	etoposide	100	non_targeted_therapy
+MSB-06510	non_targeted_therapy.65699417	carboplatin	376.5	non_targeted_therapy
+MSB-09505	non_targeted_therapy.65556224	carboplatin	102	non_targeted_therapy
+MSB-00433	non_targeted_therapy.65633790	carboplatin , pacliaxel	6	non_targeted_therapy
+MSB-02457	non_targeted_therapy.67603865	etoposide	100	non_targeted_therapy
+MSB-02457	non_targeted_therapy.65973137	carboplatin	5	non_targeted_therapy
+MSB-03638	non_targeted_therapy.65993197	carboplatin	5	non_targeted_therapy
+MSB-03638	non_targeted_therapy.67147859	etoposide	100	non_targeted_therapy
+MSB-04774	non_targeted_therapy.65968777	paclitaxel	60	non_targeted_therapy
+MSB-09917	non_targeted_therapy.66400836	carboplatin , pacliaxel	270	non_targeted_therapy
+MSB-03592	non_targeted_therapy.66691466	etoposide	100	non_targeted_therapy
+MSB-03592	non_targeted_therapy.66408550	carboplatin	5	non_targeted_therapy
+MSB-07727	non_targeted_therapy.66409704	carboplatin	5	non_targeted_therapy
+MSB-07727	non_targeted_therapy.67756864	etoposide	100	non_targeted_therapy
+MSB-09466	non_targeted_therapy.66825150	paclitaxel	300	non_targeted_therapy
+MSB-00142	non_targeted_therapy.67455503	fluorouracil	4800	non_targeted_therapy
+MSB-00142	non_targeted_therapy.67606241	leucovorin	350	non_targeted_therapy
+MSB-00142	non_targeted_therapy.67606243	oxaliplatin	130	non_targeted_therapy
+MSB-08867	non_targeted_therapy.67886801	carboplatin	550	non_targeted_therapy
+MSB-08867	non_targeted_therapy.67994893	etoposide	100	non_targeted_therapy
+MSB-01426	non_targeted_therapy.68501785	leucovorin, fluorouracil,oxaliplatin and bevacizumab	310	non_targeted_therapy
+MSB-07494	non_targeted_therapy.68933819	pemetrexed	500	non_targeted_therapy
+MSB-07494	non_targeted_therapy.68676340	carboplatin	5	non_targeted_therapy
+MSB-01232	non_targeted_therapy.68734135	cisplatin	135	non_targeted_therapy
+MSB-01232	non_targeted_therapy.68734490	etoposide	180	non_targeted_therapy
+MSB-01232	non_targeted_therapy.68734496	carboplatin	540	non_targeted_therapy
+MSB-04863	non_targeted_therapy.14578130	trametinib +  dabrafenib	150	non_targeted_therapy
+MSB-06305	non_targeted_therapy.33582434	dexamethasone	20	non_targeted_therapy
+MSB-06305	non_targeted_therapy.33584072	dexamethasone	20	non_targeted_therapy
+MSB-06305	non_targeted_therapy.33583817	dexamethasone	20	non_targeted_therapy
+MSB-03725	non_targeted_therapy.54819679	tipiracil	75	non_targeted_therapy
+MSB-03725	non_targeted_therapy.31641763	oxaliplatin	145	non_targeted_therapy
+MSB-03725	non_targeted_therapy.31641762	leucovorin	260	non_targeted_therapy
+MSB-03725	non_targeted_therapy.31641598	fluorouracil	4800	non_targeted_therapy
+MSB-03032	non_targeted_therapy.53088105	fluorouracil	850	non_targeted_therapy
+MSB-03032	non_targeted_therapy.53088111	fluorouracil	2400	non_targeted_therapy
+MSB-03032	non_targeted_therapy.53088272	irinotecan	400	non_targeted_therapy
+MSB-03032	non_targeted_therapy.53088273	leucovorin	850	non_targeted_therapy
+MSB-03808	non_targeted_therapy.34409140	oxaliplatin	85	non_targeted_therapy
+MSB-03808	non_targeted_therapy.34409075	fluorouracil	2500	non_targeted_therapy
+MSB-03808	non_targeted_therapy.34408783	fluorouracil	400	non_targeted_therapy
+MSB-03808	non_targeted_therapy.34408723	leucovorin	408	non_targeted_therapy
+MSB-01459	non_targeted_therapy.34375984	paclitaxel	100	non_targeted_therapy
+MSB-05283	non_targeted_therapy.31652093	cytarabine	50	non_targeted_therapy
+MSB-08170	non_targeted_therapy.17207740	leucovorin	700	non_targeted_therapy
+MSB-08170	non_targeted_therapy.35273982	fluorouracil	3000	non_targeted_therapy
+MSB-08170	non_targeted_therapy.35273975	irinotecan	230	non_targeted_therapy
+MSB-04030	non_targeted_therapy.60340400	cyclophosphamide	206	non_targeted_therapy
+MSB-04030	non_targeted_therapy.60340397	cyclophosphamide	400	non_targeted_therapy
+MSB-01262	non_targeted_therapy.17215619	cetuximab,fluorouracil,irinotecan, leucovorin	1800	non_targeted_therapy
+MSB-08267	non_targeted_therapy.31652192	paclitaxel	160	non_targeted_therapy
+MSB-08267	non_targeted_therapy.33663802	docetaxel	75	non_targeted_therapy
+MSB-08267	non_targeted_therapy.33663801	carboplatin	870	non_targeted_therapy
+MSB-03258	non_targeted_therapy.31652176	oxaliplatin	120	non_targeted_therapy
+MSB-03258	non_targeted_therapy.35275015	fluorouracil	3200	non_targeted_therapy
+MSB-03258	non_targeted_therapy.38472813	neratinib	240	non_targeted_therapy
+MSB-03258	non_targeted_therapy.35275011	irinotecan	185	non_targeted_therapy
+MSB-03258	non_targeted_therapy.35275009	leucovorin	550	non_targeted_therapy
+MSB-03258	non_targeted_therapy.35275008	fluorouracil	600	non_targeted_therapy
+MSB-03258	non_targeted_therapy.35275007	fluorouracil	3500	non_targeted_therapy
+MSB-03258	non_targeted_therapy.35275004	leucovorin	600	non_targeted_therapy
+MSB-07436	non_targeted_therapy.29511610	enzalutamide	160	non_targeted_therapy
+MSB-07436	non_targeted_therapy.19592851	docetaxel + prednisone	75	non_targeted_therapy
+MSB-03973	non_targeted_therapy.34410729	zoledronic acid	4	non_targeted_therapy
+MSB-01103	non_targeted_therapy.19853790	carfilzomib/revlimid/dexamethasone	44	non_targeted_therapy
+MSB-01103	non_targeted_therapy.19654982	leNot Applicablelidomide	10	non_targeted_therapy
+MSB-09601	non_targeted_therapy.36183461	capecitabine	2000	non_targeted_therapy
+MSB-04950	non_targeted_therapy.20204008	leNot Applicablelidomide	10	non_targeted_therapy
+MSB-07059	non_targeted_therapy.23183337	cetuximab	1100	non_targeted_therapy
+MSB-07059	non_targeted_therapy.23183333	bevacizumab	400	non_targeted_therapy
+MSB-07059	non_targeted_therapy.23183018	fluorouracil,  irinotecan, oxaliplatin, leucovorin	3960	non_targeted_therapy
+MSB-07099	non_targeted_therapy.20526876	leucovorin,fluorouracil, oxaliplatin.	Not Applicable	non_targeted_therapy
+MSB-01031	non_targeted_therapy.23371029	leucovorin,fluorouracil, oxaliplatin.	Not Applicable	non_targeted_therapy
+MSB-09774	non_targeted_therapy.22806633	ipilimumab	300	non_targeted_therapy
+MSB-09774	non_targeted_therapy.22806438	nivolumab	100	non_targeted_therapy
+MSB-06735	non_targeted_therapy.23492237	nivolumab	480	non_targeted_therapy
+MSB-06735	non_targeted_therapy.62209526	dabrafenib	75	non_targeted_therapy
+MSB-06735	non_targeted_therapy.62209561	trametinib	1	non_targeted_therapy
+MSB-05562	non_targeted_therapy.60590767	cyclophosphamide	300	non_targeted_therapy
+MSB-05562	non_targeted_therapy.60497013	venetoclax	800	non_targeted_therapy
+MSB-03226	non_targeted_therapy.29304262	leNot Applicablelidomide	5	non_targeted_therapy
+MSB-06029	non_targeted_therapy.47057194	oxaliplatin	165	non_targeted_therapy
+MSB-01627	non_targeted_therapy.38681616	leucovorin	33	non_targeted_therapy
+MSB-01627	non_targeted_therapy.38681618	fluorouracil	700	non_targeted_therapy
+MSB-04153	non_targeted_therapy.31652312	oxaliplatin	150	non_targeted_therapy
+MSB-04153	non_targeted_therapy.33190240	leucovorin	700	non_targeted_therapy
+MSB-04153	non_targeted_therapy.33190241	fluorouracil	400	non_targeted_therapy
+MSB-04153	non_targeted_therapy.33190242	fluorouracil	2250	non_targeted_therapy
+MSB-05281	non_targeted_therapy.31652362	etoposide	130	non_targeted_therapy
+MSB-05281	non_targeted_therapy.47056920	carboplatin	280	non_targeted_therapy
+MSB-05281	non_targeted_therapy.47056930	lurbinectedin	6.72	non_targeted_therapy
+MSB-09991	non_targeted_therapy.47125241	leucovorin	950	non_targeted_therapy
+MSB-09991	non_targeted_therapy.47125250	irinotecan	350	non_targeted_therapy
+MSB-09991	non_targeted_therapy.47125381	fluorouracil	950	non_targeted_therapy
+MSB-09991	non_targeted_therapy.47125386	fluorouracil	5000	non_targeted_therapy
+MSB-04031	non_targeted_therapy.50052431	denosumab	120	non_targeted_therapy
+MSB-04031	non_targeted_therapy.31464330	daratumumab	10	non_targeted_therapy
+MSB-05387	non_targeted_therapy.59840381	pemetrexed	Not Applicable	non_targeted_therapy
+MSB-08045	non_targeted_therapy.33271903	fluorouracil	6200	non_targeted_therapy
+MSB-08045	non_targeted_therapy.54819399	tipiracil	75	non_targeted_therapy
+MSB-08045	non_targeted_therapy.53908640	capecitabine	500	non_targeted_therapy
+MSB-08045	non_targeted_therapy.53908636	oxaliplatin	210	non_targeted_therapy
+MSB-08045	non_targeted_therapy.34069224	fluorouracil	5950	non_targeted_therapy
+MSB-08045	non_targeted_therapy.34069227	leucovorin	900	non_targeted_therapy
+MSB-08045	non_targeted_therapy.34069231	leucovorin	850	non_targeted_therapy
+MSB-08045	non_targeted_therapy.34069235	oxaliplatin	190	non_targeted_therapy
+MSB-08045	non_targeted_therapy.34069238	oxaliplatin	185	non_targeted_therapy
+MSB-08045	non_targeted_therapy.34069286	oxaliplatin	160	non_targeted_therapy
+MSB-08045	non_targeted_therapy.34069287	oxaliplatin	150	non_targeted_therapy
+MSB-08045	non_targeted_therapy.34069289	fluorouracil	6200	non_targeted_therapy
+MSB-08045	non_targeted_therapy.34069292	fluorouracil	6100	non_targeted_therapy
+MSB-08045	non_targeted_therapy.34069295	leucovorin	900	non_targeted_therapy
+MSB-08093	non_targeted_therapy.47121176	cyclophosphamide	330	non_targeted_therapy
+MSB-03315	non_targeted_therapy.65811373	talquetamab	24.8	non_targeted_therapy
+MSB-03315	non_targeted_therapy.65811370	talquetamab	24.6	non_targeted_therapy
+MSB-03315	non_targeted_therapy.65811367	talquetamab	3.7	non_targeted_therapy
+MSB-03315	non_targeted_therapy.65811362	talquetamab	0.6	non_targeted_therapy
+MSB-08631	non_targeted_therapy.40022942	oxaliplatin	267	non_targeted_therapy
+MSB-08631	non_targeted_therapy.49595725	capecitabine	1500	non_targeted_therapy
+MSB-08631	non_targeted_therapy.52905949	irinotecan	385	non_targeted_therapy
+MSB-08631	non_targeted_therapy.52905972	leucovorin	850	non_targeted_therapy
+MSB-08631	non_targeted_therapy.52894359	fluorouracil	1200	non_targeted_therapy
+MSB-05975	non_targeted_therapy.62062293	talimogene laherparepvec	3.1	non_targeted_therapy
+MSB-05975	non_targeted_therapy.62062303	talimogene laherparepvec	3	non_targeted_therapy
+MSB-05975	non_targeted_therapy.62062306	talimogene laherparepvec	3	non_targeted_therapy
+MSB-05975	non_targeted_therapy.62062307	talimogene laherparepvec	3.1	non_targeted_therapy
+MSB-00643	non_targeted_therapy.58942008	leucovorin,fluorouracil, oxaliplatin.	3850	non_targeted_therapy
+MSB-03453	non_targeted_therapy.46712096	cisplatin	19.8	non_targeted_therapy
+MSB-03453	non_targeted_therapy.46712113	cyclophosphamide	792	non_targeted_therapy
+MSB-03453	non_targeted_therapy.46712120	etoposide	80	non_targeted_therapy
+MSB-03453	non_targeted_therapy.46712121	doxorubicin	20	non_targeted_therapy
+MSB-03453	non_targeted_therapy.46712123	cyclophosphamide	580	non_targeted_therapy
+MSB-03453	non_targeted_therapy.51572479	fludarabine	58.2	non_targeted_therapy
+MSB-03453	non_targeted_therapy.54975532	teclistamab	115.95	non_targeted_therapy
+MSB-03453	non_targeted_therapy.54975531	teclistamab	115.95	non_targeted_therapy
+MSB-03453	non_targeted_therapy.54975530	teclistamab	115.95	non_targeted_therapy
+MSB-03453	non_targeted_therapy.54975529	teclistamab	117	non_targeted_therapy
+MSB-03453	non_targeted_therapy.54936726	teclistamab	117	non_targeted_therapy
+MSB-03453	non_targeted_therapy.54932962	teclistamab	22.86	non_targeted_therapy
+MSB-03453	non_targeted_therapy.54925725	teclistamab	4.66	non_targeted_therapy
+MSB-03453	non_targeted_therapy.54943011	teclistamab	117	non_targeted_therapy
+MSB-01771	non_targeted_therapy.43208266	fluorouracil	700	non_targeted_therapy
+MSB-01771	non_targeted_therapy.43208267	fluorouracil	4250	non_targeted_therapy
+MSB-01771	non_targeted_therapy.43208268	leucovorin	700	non_targeted_therapy
+MSB-04437	non_targeted_therapy.47442714	carboplatin	660	non_targeted_therapy
+MSB-04437	non_targeted_therapy.47442756	etoposide	184	non_targeted_therapy
+MSB-01597	non_targeted_therapy.53687870	pemetrexed	1000	non_targeted_therapy
+MSB-07221	non_targeted_therapy.63284221	talazoparib	1	non_targeted_therapy
+MSB-07221	non_targeted_therapy.54710252	fluorouracil	900	non_targeted_therapy
+MSB-07221	non_targeted_therapy.54710249	irinotecan	410	non_targeted_therapy
+MSB-07221	non_targeted_therapy.50178138	leucovorin	295	non_targeted_therapy
+MSB-09897	non_targeted_therapy.59774910	capecitabine	1300	non_targeted_therapy
+MSB-06864	non_targeted_therapy.55609833	etoposide	124	non_targeted_therapy
+MSB-06864	non_targeted_therapy.55609834	carboplatin	431.2	non_targeted_therapy
+MSB-06864	non_targeted_therapy.55609835	etoposide	124	non_targeted_therapy
+MSB-06864	non_targeted_therapy.55609836	carboplatin	444	non_targeted_therapy
+MSB-06864	non_targeted_therapy.55609837	etoposide	124	non_targeted_therapy
+MSB-06864	non_targeted_therapy.55609838	carboplatin	415.6	non_targeted_therapy
+MSB-06864	non_targeted_therapy.50903025	carboplatin	404	non_targeted_therapy
+MSB-06864	non_targeted_therapy.50903006	etoposide	122	non_targeted_therapy
+MSB-06864	non_targeted_therapy.60256089	lurbinectedin	5.3	non_targeted_therapy
+MSB-07662	non_targeted_therapy.54819987	lurbinectedin	5.4	non_targeted_therapy
+MSB-05702	non_targeted_therapy.53531423	venetoclax	600	non_targeted_therapy
+MSB-05702	non_targeted_therapy.54710995	cytarabine	2790	non_targeted_therapy
+MSB-05702	non_targeted_therapy.54710993	cytarabine	2820	non_targeted_therapy
+MSB-05702	non_targeted_therapy.54710474	cytarabine	2775	non_targeted_therapy
+MSB-07414	non_targeted_therapy.53378448	fluorouracil	800	non_targeted_therapy
+MSB-07414	non_targeted_therapy.53536137	oxaliplatin	165	non_targeted_therapy
+MSB-07414	non_targeted_therapy.61501862	irinotecan	360	non_targeted_therapy
+MSB-09666	non_targeted_therapy.53365271	docetaxel	218	non_targeted_therapy
+MSB-09202	non_targeted_therapy.53755004	oxaliplatin, fluorouracil, leucovorin	140	non_targeted_therapy
+MSB-09202	non_targeted_therapy.53753187	irinotecan, oxaliplatin	150	non_targeted_therapy
+MSB-05167	non_targeted_therapy.59155659	busulfan	66	non_targeted_therapy
+MSB-05167	non_targeted_therapy.59155662	busulfan	84	non_targeted_therapy
+MSB-05167	non_targeted_therapy.59155667	cyclophosphamide	4200	non_targeted_therapy
+MSB-05167	non_targeted_therapy.59155729	cyclophosphamide	2400	non_targeted_therapy
+MSB-03513	non_targeted_therapy.55607287	capecitabine	1000	non_targeted_therapy
+MSB-03513	non_targeted_therapy.55611848	oxaliplatin	260	non_targeted_therapy
+MSB-01842	non_targeted_therapy.58958645	leucovorin, fluorouracil, irinotecan	Not Applicable	non_targeted_therapy
+MSB-08057	non_targeted_therapy.61165494	carboplatin	5	non_targeted_therapy
+MSB-08057	non_targeted_therapy.61165513	paclitaxel	175	non_targeted_therapy
+MSB-08057	non_targeted_therapy.65029136	carboplatin	4	non_targeted_therapy
+MSB-09876	non_targeted_therapy.64672310	docetaxel	75	non_targeted_therapy
+MSB-09876	non_targeted_therapy.64672245	leuprolide	45	non_targeted_therapy
+MSB-09876	non_targeted_therapy.64672066	denosumab	120	non_targeted_therapy
+MSB-01823	non_targeted_therapy.61295598	fluorouracil	5000	non_targeted_therapy
+MSB-01823	non_targeted_therapy.62095245	oxaliplatin	150	non_targeted_therapy
+MSB-08876	non_targeted_therapy.65634085	paclitaxel	60	non_targeted_therapy
+MSB-07874	non_targeted_therapy.66010722	gemcitabine	600	non_targeted_therapy
+MSB-05246	non_targeted_therapy.65700649	paclitaxel	261	non_targeted_therapy
+MSB-05246	non_targeted_therapy.65589744	carboplatin	519	non_targeted_therapy
+MSB-02054	non_targeted_therapy.66405674	ribociclib	600	non_targeted_therapy
+MSB-09794	non_targeted_therapy.15208492	durvalumab	10	non_targeted_therapy
+MSB-02381	non_targeted_therapy.15572361	xeloda	2500	non_targeted_therapy
+MSB-03725	non_targeted_therapy.35717085	irinotecan	250	non_targeted_therapy
+MSB-03725	non_targeted_therapy.35717116	leucovorin	850	non_targeted_therapy
+MSB-03725	non_targeted_therapy.35717184	leucovorin	900	non_targeted_therapy
+MSB-03725	non_targeted_therapy.35717183	irinotecan	250	non_targeted_therapy
+MSB-03725	non_targeted_therapy.35717181	fluorouracil	6200	non_targeted_therapy
+MSB-03725	non_targeted_therapy.35717145	irinotecan	250	non_targeted_therapy
+MSB-03725	non_targeted_therapy.35717115	fluorouracil	6150	non_targeted_therapy
+MSB-03725	non_targeted_therapy.35717113	leucovorin	850	non_targeted_therapy
+MSB-03725	non_targeted_therapy.35717051	fluorouracil	6150	non_targeted_therapy
+MSB-03725	non_targeted_therapy.35717045	leucovorin	850	non_targeted_therapy
+MSB-03725	non_targeted_therapy.35717044	irinotecan	250	non_targeted_therapy
+MSB-03725	non_targeted_therapy.35717040	fluorouracil	6150	non_targeted_therapy
+MSB-03808	non_targeted_therapy.31652069	leucovorin	400	non_targeted_therapy
+MSB-03808	non_targeted_therapy.34377200	fluorouracil	1200	non_targeted_therapy
+MSB-03808	non_targeted_therapy.34377042	fluorouracil	400	non_targeted_therapy
+MSB-03808	non_targeted_therapy.34377038	oxaliplatin	85	non_targeted_therapy
+MSB-09027	non_targeted_therapy.15999643	durvalumab	10	non_targeted_therapy
+MSB-08588	non_targeted_therapy.16000087	xeloda	1800	non_targeted_therapy
+MSB-08170	non_targeted_therapy.17207739	irinotecan	180	non_targeted_therapy
+MSB-08170	non_targeted_therapy.17208486	oxaliplatin	160	non_targeted_therapy
+MSB-08170	non_targeted_therapy.35273995	fluorouracil	4440	non_targeted_therapy
+MSB-08170	non_targeted_therapy.35274042	fluorouracil	4000	non_targeted_therapy
+MSB-08170	non_targeted_therapy.35274037	fluorouracil	700	non_targeted_therapy
+MSB-08170	non_targeted_therapy.35274036	irinotecan	300	non_targeted_therapy
+MSB-08170	non_targeted_therapy.35273993	fluorouracil	740	non_targeted_therapy
+MSB-08170	non_targeted_therapy.35273988	leucovorin	740	non_targeted_therapy
+MSB-08170	non_targeted_therapy.17208508	leucovorin	700	non_targeted_therapy
+MSB-07612	non_targeted_therapy.31652144	pembrolizumab	200	non_targeted_therapy
+MSB-07612	non_targeted_therapy.51032416	pembrolizumab	200	non_targeted_therapy
+MSB-07612	non_targeted_therapy.58866792	pembrolizumab	200	non_targeted_therapy
+MSB-07612	non_targeted_therapy.58866800	pembrolizumab	200	non_targeted_therapy
+MSB-07612	non_targeted_therapy.58866803	pembrolizumab	200	non_targeted_therapy
+MSB-07612	non_targeted_therapy.58866810	pembrolizumab	200	non_targeted_therapy
+MSB-07612	non_targeted_therapy.58866815	pembrolizumab	200	non_targeted_therapy
+MSB-07612	non_targeted_therapy.58866967	pembrolizumab	200	non_targeted_therapy
+MSB-07612	non_targeted_therapy.58866969	pembrolizumab	200	non_targeted_therapy
+MSB-07612	non_targeted_therapy.58866970	pembrolizumab	200	non_targeted_therapy
+MSB-07612	non_targeted_therapy.65527503	pembrolizumab	200	non_targeted_therapy
+MSB-07612	non_targeted_therapy.65527500	pembrolizumab	200	non_targeted_therapy
+MSB-07612	non_targeted_therapy.65527498	pembrolizumab	200	non_targeted_therapy
+MSB-07612	non_targeted_therapy.65527495	pembrolizumab	200	non_targeted_therapy
+MSB-07612	non_targeted_therapy.65527490	pembrolizumab	200	non_targeted_therapy
+MSB-07612	non_targeted_therapy.65527467	pembrolizumab	200	non_targeted_therapy
+MSB-07612	non_targeted_therapy.65527458	pembrolizumab	200	non_targeted_therapy
+MSB-07612	non_targeted_therapy.54572890	pembrolizumab	200	non_targeted_therapy
+MSB-07612	non_targeted_therapy.54572889	pembrolizumab	200	non_targeted_therapy
+MSB-07612	non_targeted_therapy.54572880	pembrolizumab	200	non_targeted_therapy
+MSB-07612	non_targeted_therapy.54572865	pembrolizumab	200	non_targeted_therapy
+MSB-07612	non_targeted_therapy.54572861	pembrolizumab	200	non_targeted_therapy
+MSB-07612	non_targeted_therapy.65527508	pembrolizumab	200	non_targeted_therapy
+MSB-04030	non_targeted_therapy.17137152	leNot Applicablelidomide	15	non_targeted_therapy
+MSB-07483	non_targeted_therapy.17210052	enzalutamide	40	non_targeted_therapy
+MSB-01262	non_targeted_therapy.17215507	fluorouracil, leucovorin, oxaliplatin	2388	non_targeted_therapy
+MSB-04332	non_targeted_therapy.23170450	carboplatin	750	non_targeted_therapy
+MSB-04332	non_targeted_therapy.23170610	etoposide	220	non_targeted_therapy
+MSB-08922	non_targeted_therapy.20230595	pembrolizumab	200	non_targeted_therapy
+MSB-03272	non_targeted_therapy.26899200	pembrolizumab	400	non_targeted_therapy
+MSB-08142	non_targeted_therapy.22807081	temodar	300	non_targeted_therapy
+MSB-09886	non_targeted_therapy.32914369	leucovorin	800	non_targeted_therapy
+MSB-09886	non_targeted_therapy.32914388	oxaliplatin	135	non_targeted_therapy
+MSB-09886	non_targeted_therapy.32914384	oxaliplatin	145	non_targeted_therapy
+MSB-09886	non_targeted_therapy.32914381	oxaliplatin	180	non_targeted_therapy
+MSB-09886	non_targeted_therapy.32914380	leucovorin	650	non_targeted_therapy
+MSB-09886	non_targeted_therapy.32914360	leucovorin	650	non_targeted_therapy
+MSB-09886	non_targeted_therapy.32914338	leucovorin	800	non_targeted_therapy
+MSB-09886	non_targeted_therapy.32914318	leucovorin	850	non_targeted_therapy
+MSB-09886	non_targeted_therapy.32914315	fluorouracil	645	non_targeted_therapy
+MSB-09886	non_targeted_therapy.32914313	fluorouracil	805	non_targeted_therapy
+MSB-09886	non_targeted_therapy.20540317	fluorouracil	845	non_targeted_therapy
+MSB-03796	non_targeted_therapy.22658044	temozolomide	150	non_targeted_therapy
+MSB-09774	non_targeted_therapy.24110498	nivolumab	480	non_targeted_therapy
+MSB-03548	non_targeted_therapy.27374118	etoposide	90	non_targeted_therapy
+MSB-03548	non_targeted_therapy.28636450	ifosfamide	1.8	non_targeted_therapy
+MSB-03548	non_targeted_therapy.28636444	etoposide	190	non_targeted_therapy
+MSB-03548	non_targeted_therapy.28636441	carboplatin	595	non_targeted_therapy
+MSB-00352	non_targeted_therapy.47057386	capecitabine	1250	non_targeted_therapy
+MSB-05387	non_targeted_therapy.31653868	carboplatin, pemetrexed	Not Applicable	non_targeted_therapy
+MSB-09619	non_targeted_therapy.34585221	oxaliplatin, fluorouracil, leucovorin	85	non_targeted_therapy
+MSB-03315	non_targeted_therapy.53690892	doxorubicin	18	non_targeted_therapy
+MSB-03315	non_targeted_therapy.53690891	etoposide	70	non_targeted_therapy
+MSB-03315	non_targeted_therapy.53690889	cyclophosphamide	708	non_targeted_therapy
+MSB-03315	non_targeted_therapy.53690860	cisplatin	17.7	non_targeted_therapy
+MSB-03315	non_targeted_therapy.65811389	etoposide	66	non_targeted_therapy
+MSB-03315	non_targeted_therapy.65811394	melphalan	200	non_targeted_therapy
+MSB-03315	non_targeted_therapy.65811399	autologous stem cell transplant	2.4	non_targeted_therapy
+MSB-03315	non_targeted_therapy.65811384	cyclophosphamide	658	non_targeted_therapy
+MSB-03315	non_targeted_therapy.65811377	cisplatin	25	non_targeted_therapy
+MSB-05975	non_targeted_therapy.62062314	talimogene laherparepvec	0.5	non_targeted_therapy
+MSB-01771	non_targeted_therapy.38272438	fluorouracil	685	non_targeted_therapy
+MSB-01771	non_targeted_therapy.38318413	fluorouracil	4100	non_targeted_therapy
+MSB-01771	non_targeted_therapy.38318781	leucovorin	700	non_targeted_therapy
+MSB-01771	non_targeted_therapy.38315417	oxaliplatin	145	non_targeted_therapy
+MSB-01771	non_targeted_therapy.45411005	fluorouracil	4300	non_targeted_therapy
+MSB-01771	non_targeted_therapy.45411008	leucovorin	720	non_targeted_therapy
+MSB-01771	non_targeted_therapy.45411011	irinotecan	324	non_targeted_therapy
+MSB-01771	non_targeted_therapy.53239293	leucovorin	700	non_targeted_therapy
+MSB-01771	non_targeted_therapy.53239294	fluorouracil	4300	non_targeted_therapy
+MSB-01771	non_targeted_therapy.53239603	fluorouracil	4300	non_targeted_therapy
+MSB-01771	non_targeted_therapy.53239605	irinotecan	324	non_targeted_therapy
+MSB-01771	non_targeted_therapy.53239608	leucovorin	720	non_targeted_therapy
+MSB-01771	non_targeted_therapy.53239730	fluorouracil	4300	non_targeted_therapy
+MSB-01771	non_targeted_therapy.53239729	irinotecan	324	non_targeted_therapy
+MSB-01771	non_targeted_therapy.53239726	leucovorin	350	non_targeted_therapy
+MSB-01771	non_targeted_therapy.53239722	leucovorin	350	non_targeted_therapy
+MSB-01771	non_targeted_therapy.53239720	irinotecan	324	non_targeted_therapy
+MSB-01771	non_targeted_therapy.53239716	fluorouracil	4300	non_targeted_therapy
+MSB-01771	non_targeted_therapy.53239712	leucovorin	700	non_targeted_therapy
+MSB-01771	non_targeted_therapy.53239627	irinotecan	324	non_targeted_therapy
+MSB-01771	non_targeted_therapy.53239617	fluorouracil	4300	non_targeted_therapy
+MSB-01771	non_targeted_therapy.53239518	leucovorin	720	non_targeted_therapy
+MSB-01771	non_targeted_therapy.53239516	irinotecan	324	non_targeted_therapy
+MSB-01771	non_targeted_therapy.53239513	fluorouracil	4300	non_targeted_therapy
+MSB-01771	non_targeted_therapy.53239356	leucovorin	700	non_targeted_therapy
+MSB-01771	non_targeted_therapy.53239353	irinotecan	324	non_targeted_therapy
+MSB-01771	non_targeted_therapy.53239349	fluorouracil	4300	non_targeted_therapy
+MSB-01771	non_targeted_therapy.53239325	leucovorin	700	non_targeted_therapy
+MSB-01771	non_targeted_therapy.53239323	irinotecan	324	non_targeted_therapy
+MSB-01771	non_targeted_therapy.53239322	fluorouracil	4300	non_targeted_therapy
+MSB-01771	non_targeted_therapy.53239316	leucovorin	720	non_targeted_therapy
+MSB-01771	non_targeted_therapy.53239315	irinotecan	324	non_targeted_therapy
+MSB-01771	non_targeted_therapy.53239291	irinotecan	324	non_targeted_therapy
+MSB-01771	non_targeted_therapy.53239287	fluorouracil	4300	non_targeted_therapy
+MSB-05388	non_targeted_therapy.42821162	carboplatin	539	non_targeted_therapy
+MSB-05388	non_targeted_therapy.43099392	etoposide	100	non_targeted_therapy
+MSB-05388	non_targeted_therapy.43099435	denosumab	120	non_targeted_therapy
+MSB-03069	non_targeted_therapy.43066292	denosumab	120	non_targeted_therapy
+MSB-03069	non_targeted_therapy.43398645	dexamethasone	40	non_targeted_therapy
+MSB-03069	non_targeted_therapy.43398664	dexamethasone	20	non_targeted_therapy
+MSB-03069	non_targeted_therapy.49642948	dexamethasone	8	non_targeted_therapy
+MSB-00241	non_targeted_therapy.43563946	fluorouracil, leucovorin, oxaliplatin	4400	non_targeted_therapy
+MSB-02169	non_targeted_therapy.49599624	fluorouracil	5900	non_targeted_therapy
+MSB-02169	non_targeted_therapy.49960626	fluorouracil	1000	non_targeted_therapy
+MSB-02169	non_targeted_therapy.49960630	oxaliplatin	185	non_targeted_therapy
+MSB-02169	non_targeted_therapy.49960632	leucovorin	950	non_targeted_therapy
+MSB-04286	non_targeted_therapy.49588279	carboplatin	654.5	non_targeted_therapy
+MSB-04286	non_targeted_therapy.49594896	etoposide	228	non_targeted_therapy
+MSB-07221	non_targeted_therapy.54710254	fluorouracil	900	non_targeted_therapy
+MSB-07221	non_targeted_therapy.54710388	leucovorin	900	non_targeted_therapy
+MSB-07221	non_targeted_therapy.54710389	oxaliplatin	150	non_targeted_therapy
+MSB-07221	non_targeted_therapy.54710391	irinotecan	290	non_targeted_therapy
+MSB-09897	non_targeted_therapy.59774714	capecitabine	1500	non_targeted_therapy
+MSB-04415	non_targeted_therapy.50313731	denosumab	120	non_targeted_therapy
+MSB-01437	non_targeted_therapy.50908073	pemetrexed	900	non_targeted_therapy
+MSB-04500	non_targeted_therapy.53085924	carboplatin	570	non_targeted_therapy
+MSB-04500	non_targeted_therapy.53771314	pemetrexed	780	non_targeted_therapy
+MSB-09202	non_targeted_therapy.53754071	oxaliplatin	80	non_targeted_therapy
+MSB-09202	non_targeted_therapy.60717008	tipiracil / trifluridine	35	non_targeted_therapy
+MSB-04591	non_targeted_therapy.53903277	daunorubicin	86	non_targeted_therapy
+MSB-04591	non_targeted_therapy.54280168	daunorubicin	114	non_targeted_therapy
+MSB-04591	non_targeted_therapy.54280191	daunorubicin	120	non_targeted_therapy
+MSB-04591	non_targeted_therapy.54280195	cytarabine	380	non_targeted_therapy
+MSB-04591	non_targeted_therapy.54280206	cytarabine	400	non_targeted_therapy
+MSB-04591	non_targeted_therapy.62403200	cytarabine	5310	non_targeted_therapy
+MSB-04591	non_targeted_therapy.62403214	cytarabine	5310	non_targeted_therapy
+MSB-04591	non_targeted_therapy.62403216	cytarabine	5310	non_targeted_therapy
+MSB-04591	non_targeted_therapy.62403225	busulfan	210	non_targeted_therapy
+MSB-04591	non_targeted_therapy.62403226	fludarabine	40	non_targeted_therapy
+MSB-04591	non_targeted_therapy.62403228	allogeneic stem cell infusion	2.38	non_targeted_therapy
+MSB-04143	non_targeted_therapy.55258343	fluorouracil	5400	non_targeted_therapy
+MSB-04968	non_targeted_therapy.60277621	pemetrexed	400	non_targeted_therapy
+MSB-04968	non_targeted_therapy.54819069	pemetrexed	500	non_targeted_therapy
+MSB-04968	non_targeted_therapy.63632140	pemetrexed	450	non_targeted_therapy
+MSB-04064	non_targeted_therapy.58006292	irinotecan	320	non_targeted_therapy
+MSB-04064	non_targeted_therapy.58006298	leucovorin	400	non_targeted_therapy
+MSB-04064	non_targeted_therapy.55195859	fluorouracil	5	non_targeted_therapy
+MSB-07991	non_targeted_therapy.56508148	fluorouracil	5250	non_targeted_therapy
+MSB-07991	non_targeted_therapy.56918616	irinotecan	400	non_targeted_therapy
+MSB-07991	non_targeted_therapy.56918620	leucovorin	350	non_targeted_therapy
+MSB-07991	non_targeted_therapy.64675294	fluorouracil	400	non_targeted_therapy
+MSB-05256	non_targeted_therapy.62531410	pemetrexed	900	non_targeted_therapy
+MSB-05256	non_targeted_therapy.62531450	pemetrexed	900	non_targeted_therapy
+MSB-05256	non_targeted_therapy.62531467	pemetrexed	900	non_targeted_therapy
+MSB-05256	non_targeted_therapy.62531494	pemetrexed	900	non_targeted_therapy
+MSB-08476	non_targeted_therapy.58956646	paclitaxel	60	non_targeted_therapy
+MSB-08476	non_targeted_therapy.59089449	carboplatin	170	non_targeted_therapy
+MSB-04096	non_targeted_therapy.58955914	paclitaxel	370	non_targeted_therapy
+MSB-04096	non_targeted_therapy.64520987	cisplatin	130	non_targeted_therapy
+MSB-07864	non_targeted_therapy.67439646	pemetrexed	250	non_targeted_therapy
+MSB-07636	non_targeted_therapy.58964260	pemetrexed	850	non_targeted_therapy
+MSB-07636	non_targeted_therapy.59073848	carboplatin	550	non_targeted_therapy
+MSB-05352	non_targeted_therapy.59790165	capecitabine	1500	non_targeted_therapy
+MSB-05352	non_targeted_therapy.67605555	capecitabine	1500	non_targeted_therapy
+MSB-00727	non_targeted_therapy.58937306	paclitaxel	64	non_targeted_therapy
+MSB-08876	non_targeted_therapy.62269714	paclitaxel	80	non_targeted_therapy
+MSB-08876	non_targeted_therapy.65589040	doxorubicin, cyclophosphamide	60	non_targeted_therapy
+MSB-01906	non_targeted_therapy.62402121	clarithromycin	500	non_targeted_therapy
+MSB-01906	non_targeted_therapy.62537281	clarithromycin	500	non_targeted_therapy
+MSB-01906	non_targeted_therapy.62537289	clarithromycin	500	non_targeted_therapy
+MSB-01906	non_targeted_therapy.62537291	clarithromycin	500	non_targeted_therapy
+MSB-07874	non_targeted_therapy.65549678	doxorubicin	30	non_targeted_therapy
+MSB-07874	non_targeted_therapy.65549878	carboplatin	5	non_targeted_therapy
+MSB-06471	non_targeted_therapy.65789096	fluorouracil	4000	non_targeted_therapy
+MSB-06471	non_targeted_therapy.65789100	leucovorin	640	non_targeted_therapy
+MSB-06471	non_targeted_therapy.65789102	oxaliplatin	109	non_targeted_therapy
+MSB-06471	non_targeted_therapy.65789105	fluorouracil	2790	non_targeted_therapy
+MSB-06471	non_targeted_therapy.65789107	leucovorin	310	non_targeted_therapy
+MSB-06471	non_targeted_therapy.65789173	oxaliplatin	64	non_targeted_therapy
+MSB-06471	non_targeted_therapy.65789158	leucovorin	150	non_targeted_therapy
+MSB-06471	non_targeted_therapy.65789155	fluorouracil	2700	non_targeted_therapy
+MSB-06471	non_targeted_therapy.65789151	oxaliplatin	100	non_targeted_therapy
+MSB-06471	non_targeted_therapy.65789148	leucovorin	152	non_targeted_therapy
+MSB-06471	non_targeted_therapy.65789140	fluorouracil	2736	non_targeted_therapy
+MSB-06471	non_targeted_therapy.65789136	oxaliplatin	65	non_targeted_therapy
+MSB-06471	non_targeted_therapy.65789133	leucovorin	152	non_targeted_therapy
+MSB-06471	non_targeted_therapy.65789130	fluorouracil	2736	non_targeted_therapy
+MSB-06471	non_targeted_therapy.65789123	oxaliplatin	66	non_targeted_therapy
+MSB-06471	non_targeted_therapy.65789120	leucovorin	155	non_targeted_therapy
+MSB-06471	non_targeted_therapy.65789116	fluorouracil	2790	non_targeted_therapy
+MSB-06471	non_targeted_therapy.65789109	oxaliplatin	66	non_targeted_therapy
+MSB-01753	non_targeted_therapy.65688400	paclitaxel	348	non_targeted_therapy
+MSB-01753	non_targeted_therapy.65699812	carboplatin	540	non_targeted_therapy
+MSB-01857	non_targeted_therapy.66008650	carboplatin	935	non_targeted_therapy
+MSB-05428	non_targeted_therapy.66508135	cyclophosphamide	600	non_targeted_therapy
+MSB-05428	non_targeted_therapy.66601875	doxorubicin	60	non_targeted_therapy
+MSB-05428	non_targeted_therapy.66601881	paclitaxel	80	non_targeted_therapy
+MSB-01687	non_targeted_therapy.66593972	carboplatin, docetaxel, pertuzumab, trastuzumab	Not Applicable	non_targeted_therapy
+MSB-09138	non_targeted_therapy.66821401	eligard	22.5	non_targeted_therapy
+MSB-06482	non_targeted_therapy.68891381	carboplatin	426	non_targeted_therapy
+MSB-06045	non_targeted_therapy.68986405	autologous stem cell transplant	Not Applicable	non_targeted_therapy
+MSB-03725	non_targeted_therapy.15578334	fluorouracil	1290	non_targeted_therapy
+MSB-03725	non_targeted_therapy.31641147	fluorouracil	1295	non_targeted_therapy
+MSB-03725	non_targeted_therapy.31641294	leucovorin	800	non_targeted_therapy
+MSB-03725	non_targeted_therapy.31641296	oxaliplatin	180	non_targeted_therapy
+MSB-03725	non_targeted_therapy.31641304	fluorouracil	4670	non_targeted_therapy
+MSB-03725	non_targeted_therapy.64573380	fruquintinib	5	non_targeted_therapy
+MSB-03725	non_targeted_therapy.31641312	leucovorin	670	non_targeted_therapy
+MSB-03725	non_targeted_therapy.31641318	oxaliplatin	145	non_targeted_therapy
+MSB-03725	non_targeted_therapy.31641596	oxaliplatin	145	non_targeted_therapy
+MSB-03725	non_targeted_therapy.31641595	leucovorin	700	non_targeted_therapy
+MSB-03725	non_targeted_therapy.31641593	fluorouracil	4800	non_targeted_therapy
+MSB-03725	non_targeted_therapy.31641589	oxaliplatin	145	non_targeted_therapy
+MSB-03725	non_targeted_therapy.31641588	leucovorin	700	non_targeted_therapy
+MSB-03725	non_targeted_therapy.31641584	fluorouracil	4800	non_targeted_therapy
+MSB-03725	non_targeted_therapy.31641581	oxaliplatin	145	non_targeted_therapy
+MSB-03725	non_targeted_therapy.31641572	leucovorin	650	non_targeted_therapy
+MSB-03725	non_targeted_therapy.31641564	fluorouracil	4670	non_targeted_therapy
+MSB-03725	non_targeted_therapy.31641562	oxaliplatin	145	non_targeted_therapy
+MSB-03725	non_targeted_therapy.31641548	leucovorin	650	non_targeted_therapy
+MSB-03725	non_targeted_therapy.31641403	fluorouracil	4670	non_targeted_therapy
+MSB-03725	non_targeted_therapy.31641354	oxaliplatin	145	non_targeted_therapy
+MSB-03725	non_targeted_therapy.31641353	leucovorin	650	non_targeted_therapy
+MSB-03725	non_targeted_therapy.31641348	fluorouracil	4600	non_targeted_therapy
+MSB-03725	non_targeted_therapy.31641098	oxaliplatin	180	non_targeted_therapy
+MSB-03725	non_targeted_therapy.31641094	leucovorin	800	non_targeted_therapy
+MSB-03808	non_targeted_therapy.34408691	leucovorin	412	non_targeted_therapy
+MSB-03808	non_targeted_therapy.34403013	leucovorin	400	non_targeted_therapy
+MSB-09027	non_targeted_therapy.15999642	carboplatin	2	non_targeted_therapy
+MSB-09027	non_targeted_therapy.32839410	paclitaxel	45	non_targeted_therapy
+MSB-08588	non_targeted_therapy.33130473	xeloda	1800	non_targeted_therapy
+MSB-00952	non_targeted_therapy.29487940	bevacizumab	7.5	non_targeted_therapy
+MSB-00952	non_targeted_therapy.29487911	capecitabine	1500	non_targeted_therapy
+MSB-08178	non_targeted_therapy.31296887	enzalutamide	160	non_targeted_therapy
+MSB-04950	non_targeted_therapy.35001754	doxorubicin	22	non_targeted_therapy
+MSB-04950	non_targeted_therapy.35001751	etoposide	90	non_targeted_therapy
+MSB-04950	non_targeted_therapy.35001092	cyclophosphamide	892	non_targeted_therapy
+MSB-04950	non_targeted_therapy.34999625	cisplatin	22.3	non_targeted_therapy
+MSB-05562	non_targeted_therapy.60470834	venetoclax	400	non_targeted_therapy
+MSB-05562	non_targeted_therapy.60470832	venetoclax	200	non_targeted_therapy
+MSB-05562	non_targeted_therapy.60470769	venetoclax	100	non_targeted_therapy
+MSB-03226	non_targeted_therapy.63362661	cisplatin	14.6	non_targeted_therapy
+MSB-03226	non_targeted_therapy.63362688	doxorubicin	20	non_targeted_therapy
+MSB-03226	non_targeted_therapy.63362686	etoposide	80	non_targeted_therapy
+MSB-03226	non_targeted_therapy.63362682	etoposide	58	non_targeted_therapy
+MSB-03226	non_targeted_therapy.63362679	cyclophosphamide	792	non_targeted_therapy
+MSB-03226	non_targeted_therapy.63362676	cyclophosphamide	780	non_targeted_therapy
+MSB-03226	non_targeted_therapy.63362670	cisplatin	19.8	non_targeted_therapy
+MSB-01617	non_targeted_therapy.31652368	paclitaxel	90	non_targeted_therapy
+MSB-01617	non_targeted_therapy.35208941	carboplatin	180	non_targeted_therapy
+MSB-01617	non_targeted_therapy.35209145	paclitaxel	145	non_targeted_therapy
+MSB-01723	non_targeted_therapy.34401197	cytarabine	200	non_targeted_therapy
+MSB-01723	non_targeted_therapy.34401226	daunorubicin	180	non_targeted_therapy
+MSB-01723	non_targeted_therapy.34004248	hydroxyurea	2000	non_targeted_therapy
+MSB-01723	non_targeted_therapy.34400862	hydroxyurea	2000	non_targeted_therapy
+MSB-08093	non_targeted_therapy.47121161	cyclophosphamide	500	non_targeted_therapy
+MSB-05975	non_targeted_therapy.36634151	talimogene laherparepvec	3.5	non_targeted_therapy
+MSB-05975	non_targeted_therapy.62062288	talimogene laherparepvec	2	non_targeted_therapy
+MSB-05975	non_targeted_therapy.62062289	talimogene laherparepvec	3.5	non_targeted_therapy
+MSB-05975	non_targeted_therapy.62062290	talimogene laherparepvec	3.5	non_targeted_therapy
+MSB-05975	non_targeted_therapy.62062291	talimogene laherparepvec	3.5	non_targeted_therapy
+MSB-05975	non_targeted_therapy.62062292	talimogene laherparepvec	3.5	non_targeted_therapy
+MSB-01771	non_targeted_therapy.45411002	fluorouracil	720	non_targeted_therapy
+MSB-05746	non_targeted_therapy.38317844	carboplatin	410	non_targeted_therapy
+MSB-05746	non_targeted_therapy.38348562	pemetrexed	975	non_targeted_therapy
+MSB-05126	non_targeted_therapy.53534855	autologous stem cell transplant	5.5	non_targeted_therapy
+MSB-05126	non_targeted_therapy.53534854	melphalan	200	non_targeted_therapy
+MSB-07278	non_targeted_therapy.46941152	carboplatin	540	non_targeted_therapy
+MSB-07278	non_targeted_therapy.45419169	pemetrexed	875	non_targeted_therapy
+MSB-04437	non_targeted_therapy.47203383	leucovorin, fluorouracil, oxaliplatin,trastuzumab	450	non_targeted_therapy
+MSB-07839	non_targeted_therapy.47118665	daunorubicin	200	non_targeted_therapy
+MSB-07839	non_targeted_therapy.50769561	cytarabine	219	non_targeted_therapy
+MSB-07839	non_targeted_therapy.50769565	cytarabine	220	non_targeted_therapy
+MSB-07839	non_targeted_therapy.50769568	cytarabine	222	non_targeted_therapy
+MSB-07839	non_targeted_therapy.50769683	cytarabine	6720	non_targeted_therapy
+MSB-07839	non_targeted_therapy.50769677	cytarabine	6780	non_targeted_therapy
+MSB-07709	non_targeted_therapy.47285365	melphalan	200	non_targeted_therapy
+MSB-07709	non_targeted_therapy.56722881	autologous stem cell transplant	7.83	non_targeted_therapy
+MSB-07656	non_targeted_therapy.47472427	daunorubicin	109	non_targeted_therapy
+MSB-07656	non_targeted_therapy.49602820	cytarabine	362	non_targeted_therapy
+MSB-07656	non_targeted_therapy.49602821	cytarabine	370	non_targeted_therapy
+MSB-07656	non_targeted_therapy.49602828	cytarabine	364	non_targeted_therapy
+MSB-06894	non_targeted_therapy.67854919	carboplatin	4	non_targeted_therapy
+MSB-01597	non_targeted_therapy.49674149	carboplatin	677	non_targeted_therapy
+MSB-01597	non_targeted_therapy.49675959	pemetrexed	1000	non_targeted_therapy
+MSB-01597	non_targeted_therapy.49933134	carboplatin	634	non_targeted_therapy
+MSB-01597	non_targeted_therapy.54279177	docetaxel	115	non_targeted_therapy
+MSB-01597	non_targeted_therapy.53687869	pemetrexed	1000	non_targeted_therapy
+MSB-01597	non_targeted_therapy.53687868	pemetrexed	1000	non_targeted_therapy
+MSB-01597	non_targeted_therapy.50908836	pemetrexed	1000	non_targeted_therapy
+MSB-01597	non_targeted_therapy.50908824	carboplatin	694.5	non_targeted_therapy
+MSB-01597	non_targeted_therapy.50908634	pemetrexed	1000	non_targeted_therapy
+MSB-01597	non_targeted_therapy.50908609	carboplatin	681.5	non_targeted_therapy
+MSB-01597	non_targeted_therapy.50908574	pemetrexed	1000	non_targeted_therapy
+MSB-06682	non_targeted_therapy.49962883	fluorouracil	750	non_targeted_therapy
+MSB-06682	non_targeted_therapy.50092801	oxaliplatin	155	non_targeted_therapy
+MSB-07221	non_targeted_therapy.63284243	tipiracil / trifluridine	80	non_targeted_therapy
+MSB-09897	non_targeted_therapy.59774953	regorafenib	160	non_targeted_therapy
+MSB-06864	non_targeted_therapy.50807410	trilaciclib	484.8	non_targeted_therapy
+MSB-06864	non_targeted_therapy.50903003	carboplatin	419.2	non_targeted_therapy
+MSB-06864	non_targeted_therapy.50903002	etoposide	136	non_targeted_therapy
+MSB-06864	non_targeted_therapy.50902999	trilaciclib	489.6	non_targeted_therapy
+MSB-06864	non_targeted_therapy.50902998	carboplatin	556.5	non_targeted_therapy
+MSB-06864	non_targeted_therapy.50902994	etoposide	162	non_targeted_therapy
+MSB-07146	non_targeted_therapy.60606927	autologous stem cell transplant	5.67	non_targeted_therapy
+MSB-07146	non_targeted_therapy.60606865	melphalan	300	non_targeted_therapy
+MSB-05756	non_targeted_therapy.50137719	carboplatin	5	non_targeted_therapy
+MSB-05756	non_targeted_therapy.60222977	pemetrexed	500	non_targeted_therapy
+MSB-05756	non_targeted_therapy.61734231	pemetrexed	400	non_targeted_therapy
+MSB-05702	non_targeted_therapy.53552096	cytarabine	200	non_targeted_therapy
+MSB-05702	non_targeted_therapy.53552095	daunorubicin	114	non_targeted_therapy
+MSB-05702	non_targeted_therapy.53552094	cytarabine	190	non_targeted_therapy
+MSB-05702	non_targeted_therapy.53260414	venetoclax	600	non_targeted_therapy
+MSB-05702	non_targeted_therapy.53260412	venetoclax	400	non_targeted_therapy
+MSB-05702	non_targeted_therapy.53260409	venetoclax	200	non_targeted_therapy
+MSB-05702	non_targeted_therapy.53260408	venetoclax	100	non_targeted_therapy
+MSB-05702	non_targeted_therapy.53260407	venetoclax	400	non_targeted_therapy
+MSB-05702	non_targeted_therapy.53260404	venetoclax	200	non_targeted_therapy
+MSB-05702	non_targeted_therapy.53260402	venetoclax	100	non_targeted_therapy
+MSB-05702	non_targeted_therapy.53260398	cytarabine	40	non_targeted_therapy
+MSB-05702	non_targeted_therapy.53260395	cytarabine	38	non_targeted_therapy
+MSB-05702	non_targeted_therapy.53260391	cytarabine	40	non_targeted_therapy
+MSB-05702	non_targeted_therapy.52923182	hydroxyurea	2000	non_targeted_therapy
+MSB-09124	non_targeted_therapy.52998417	cyclophosphamide	1150	non_targeted_therapy
+MSB-09124	non_targeted_therapy.54318966	cyclophosphamide	688	non_targeted_therapy
+MSB-09124	non_targeted_therapy.54318961	cyclophosphamide	690	non_targeted_therapy
+MSB-07578	non_targeted_therapy.53038125	carboplatin	818.4	non_targeted_therapy
+MSB-07578	non_targeted_therapy.53837616	pemetrexed	900	non_targeted_therapy
+MSB-07578	non_targeted_therapy.53837619	pemetrexed	855	non_targeted_therapy
+MSB-07578	non_targeted_therapy.53837618	carboplatin	803.4	non_targeted_therapy
+MSB-09666	non_targeted_therapy.59775090	gemcitabine	2180	non_targeted_therapy
+MSB-09666	non_targeted_therapy.59775092	carboplatin	570	non_targeted_therapy
+MSB-00437	non_targeted_therapy.54020886	melphalan	200	non_targeted_therapy
+MSB-00437	non_targeted_therapy.60144406	autologous stem cell transplant	2.11	non_targeted_therapy
+MSB-05460	non_targeted_therapy.54319402	carboplatin	5	non_targeted_therapy
+MSB-05460	non_targeted_therapy.54319438	pemetrexed	500	non_targeted_therapy
+MSB-08777	non_targeted_therapy.54318673	carboplatin	5	non_targeted_therapy
+MSB-08777	non_targeted_therapy.54318676	paclitaxel	175	non_targeted_therapy
+MSB-06059	non_targeted_therapy.54746406	carboplatin	4	non_targeted_therapy
+MSB-06059	non_targeted_therapy.54791302	paclitaxel	175	non_targeted_therapy
+MSB-04143	non_targeted_therapy.66696667	irinotecan, fluourouracil	410	non_targeted_therapy
+MSB-08454	non_targeted_therapy.55105258	carboplatin	3	non_targeted_therapy
+MSB-08454	non_targeted_therapy.55107031	paclitaxel	90	non_targeted_therapy
+MSB-03513	non_targeted_therapy.60192860	irinotecan	360	non_targeted_therapy
+MSB-03513	non_targeted_therapy.60192869	fluorouracil	800	non_targeted_therapy
+MSB-05447	non_targeted_therapy.59842149	leucovorin, fluorouracil, irinotecan	Not Applicable	non_targeted_therapy
+MSB-03483	non_targeted_therapy.56102971	carboplatin	455	non_targeted_therapy
+MSB-03483	non_targeted_therapy.63284210	docetaxel	150	non_targeted_therapy
+MSB-03483	non_targeted_therapy.56035961	pemetrexed	975	non_targeted_therapy
+MSB-07991	non_targeted_therapy.64165910	oxaliplatin	290	non_targeted_therapy
+MSB-07991	non_targeted_therapy.64165745	capecitabine	1500	non_targeted_therapy
+MSB-03891	non_targeted_therapy.56852566	zoledronic acid	4	non_targeted_therapy
+MSB-06072	non_targeted_therapy.58878476	tepotinib	450	non_targeted_therapy
+MSB-06072	non_targeted_therapy.65808491	carboplatin	375	non_targeted_therapy
+MSB-06072	non_targeted_therapy.65808383	pemetrexed	700	non_targeted_therapy
+MSB-01798	non_targeted_therapy.57579704	paclitaxel	260	non_targeted_therapy
+MSB-01798	non_targeted_therapy.66697092	paclitaxel	440	non_targeted_therapy
+MSB-04620	non_targeted_therapy.58909652	carboplatin	405.5	non_targeted_therapy
+MSB-04620	non_targeted_therapy.59185329	pemetrexed	800	non_targeted_therapy
+MSB-04620	non_targeted_therapy.59185333	carboplatin	399.5	non_targeted_therapy
+MSB-04620	non_targeted_therapy.59185337	pemetrexed	800	non_targeted_therapy
+MSB-04620	non_targeted_therapy.59755567	carboplatin	434.5	non_targeted_therapy
+MSB-04620	non_targeted_therapy.59755573	pemetrexed	800	non_targeted_therapy
+MSB-04347	non_targeted_therapy.58874611	carboplatin	630	non_targeted_therapy
+MSB-04347	non_targeted_therapy.58911544	pemetrexed	1000	non_targeted_therapy
+MSB-04096	non_targeted_therapy.64521070	docetaxel	139	non_targeted_therapy
+MSB-03308	non_targeted_therapy.58982355	carboplatin	595	non_targeted_therapy
+MSB-03308	non_targeted_therapy.60192351	etoposide	240	non_targeted_therapy
+MSB-07864	non_targeted_therapy.67439652	pemetrexed	300	non_targeted_therapy
+MSB-07864	non_targeted_therapy.67998291	pemetrexed	400	non_targeted_therapy
+MSB-05915	non_targeted_therapy.66390261	gemcitabine	1000	non_targeted_therapy
+MSB-08928	non_targeted_therapy.59789901	carboplatin	410	non_targeted_therapy
+MSB-08928	non_targeted_therapy.60224529	etoposide	150	non_targeted_therapy
+MSB-08057	non_targeted_therapy.65029139	doxorubicin	40	non_targeted_therapy
+MSB-08057	non_targeted_therapy.67108091	mirvetuximab soravtansine	6	non_targeted_therapy
+MSB-09876	non_targeted_therapy.60140430	docetaxel	60	non_targeted_therapy
+MSB-06267	non_targeted_therapy.60165784	carboplatin	478.5	non_targeted_therapy
+MSB-06267	non_targeted_therapy.60342599	carboplatin	359.5	non_targeted_therapy
+MSB-06267	non_targeted_therapy.60342618	carboplatin	385	non_targeted_therapy
+MSB-06267	non_targeted_therapy.60342619	paclitaxel	155	non_targeted_therapy
+MSB-06267	non_targeted_therapy.60342620	paclitaxel	154	non_targeted_therapy
+MSB-06267	non_targeted_therapy.60342621	paclitaxel	152	non_targeted_therapy
+MSB-06178	non_targeted_therapy.60335652	docetaxel	131	non_targeted_therapy
+MSB-06178	non_targeted_therapy.60725368	docetaxel	131	non_targeted_therapy
+MSB-06178	non_targeted_therapy.60725371	docetaxel	134	non_targeted_therapy
+MSB-06178	non_targeted_therapy.60725375	docetaxel	134	non_targeted_therapy
+MSB-06178	non_targeted_therapy.60725399	docetaxel	134	non_targeted_therapy
+MSB-09513	non_targeted_therapy.60597500	paclitaxel	175	non_targeted_therapy
+MSB-09513	non_targeted_therapy.62406709	paclitaxel	220	non_targeted_therapy
+MSB-01823	non_targeted_therapy.62095501	fluorouracil	350	non_targeted_therapy
+MSB-01823	non_targeted_therapy.62095519	irinotecan	120	non_targeted_therapy
+MSB-05594	non_targeted_therapy.62209636	carboplatin	1.5	non_targeted_therapy
+MSB-05594	non_targeted_therapy.62140419	paclitaxel	120	non_targeted_therapy
+MSB-09566	non_targeted_therapy.62121600	paclitaxel	146	non_targeted_therapy
+MSB-09566	non_targeted_therapy.66254754	doxorubicin	110	non_targeted_therapy
+MSB-09566	non_targeted_therapy.66254750	cyclophosphamide	1122	non_targeted_therapy
+MSB-09566	non_targeted_therapy.66254747	carboplatin	510	non_targeted_therapy
+MSB-09566	non_targeted_therapy.66254724	paclitaxel	150	non_targeted_therapy
+MSB-09566	non_targeted_therapy.66254717	paclitaxel	149	non_targeted_therapy
+MSB-09566	non_targeted_therapy.66254672	paclitaxel	147	non_targeted_therapy
+MSB-09566	non_targeted_therapy.66254719	carboplatin	542.4	non_targeted_therapy
+MSB-09566	non_targeted_therapy.66254722	paclitaxel	148	non_targeted_therapy
+MSB-09566	non_targeted_therapy.62209428	paclitaxel	147	non_targeted_therapy
+MSB-09566	non_targeted_therapy.62209450	carboplatin	713.5	non_targeted_therapy
+MSB-09566	non_targeted_therapy.62209452	carboplatin	681.5	non_targeted_therapy
+MSB-08600	non_targeted_therapy.62723977	capecitabine	1600	non_targeted_therapy
+MSB-04797	non_targeted_therapy.62296127	gemcitabine	1980	non_targeted_therapy
+MSB-04797	non_targeted_therapy.62312928	carboplatin	5	non_targeted_therapy
+MSB-09060	non_targeted_therapy.63039793	lupron	3.75	non_targeted_therapy
+MSB-08242	non_targeted_therapy.65687622	carboplatin	590	non_targeted_therapy
+MSB-08242	non_targeted_therapy.63143225	paclitaxel	300	non_targeted_therapy
+MSB-07686	non_targeted_therapy.63236790	carboplatin	450	non_targeted_therapy
+MSB-07686	non_targeted_therapy.63214451	paclitaxel	145	non_targeted_therapy
+MSB-00083	non_targeted_therapy.66407638	dexamethasone	20	non_targeted_therapy
+MSB-04588	non_targeted_therapy.63938193	leuprolide	22.5	non_targeted_therapy
+MSB-02137	non_targeted_therapy.64165280	leuprolide	11.25	non_targeted_therapy
+MSB-05767	non_targeted_therapy.64660489	carboplatin	5	non_targeted_therapy
+MSB-05767	non_targeted_therapy.65788790	pemetrexed	500	non_targeted_therapy
+MSB-02664	non_targeted_therapy.63697700	paclitaxel	132	non_targeted_therapy
+MSB-07874	non_targeted_therapy.68000014	paclitaxel	80	non_targeted_therapy
+MSB-05365	non_targeted_therapy.65499234	pemetrexed	1180	non_targeted_therapy
+MSB-05365	non_targeted_therapy.65526108	carboplatin	500	non_targeted_therapy
+MSB-06471	non_targeted_therapy.65789197	oxaliplatin	63	non_targeted_therapy
+MSB-06471	non_targeted_therapy.65789191	leucovorin	149	non_targeted_therapy
+MSB-06471	non_targeted_therapy.65789185	fluorouracil	2682	non_targeted_therapy
+MSB-07700	non_targeted_therapy.65968619	paclitaxel	72	non_targeted_therapy
+MSB-07700	non_targeted_therapy.65970581	carboplatin	150	non_targeted_therapy
+MSB-03554	non_targeted_therapy.65970735	oxaliplatin	125	non_targeted_therapy
+MSB-03554	non_targeted_therapy.65975325	fluorouracil	600	non_targeted_therapy
+MSB-07311	non_targeted_therapy.66397541	carboplatin	5	non_targeted_therapy
+MSB-07311	non_targeted_therapy.66405298	etoposide	195	non_targeted_therapy
+MSB-05428	non_targeted_therapy.66601924	paclitaxel	80	non_targeted_therapy
+MSB-05863	non_targeted_therapy.66605448	dexamethasone	20	non_targeted_therapy
+MSB-08327	non_targeted_therapy.68729510	irinotecan	180	non_targeted_therapy
+MSB-01973	non_targeted_therapy.66833184	carboplatin	570	non_targeted_therapy
+MSB-03344	non_targeted_therapy.68599767	carboplatin	630	non_targeted_therapy
+MSB-03344	non_targeted_therapy.68676149	etoposide	200	non_targeted_therapy
+MSB-05956	non_targeted_therapy.68733811	etoposide	165	non_targeted_therapy
+MSB-05956	non_targeted_therapy.68651021	carboplatin	5	non_targeted_therapy
+MSB-06107	non_targeted_therapy.68155335	capivasertib	400	non_targeted_therapy
+MSB-08345	non_targeted_therapy.68890775	carboplatin	580	non_targeted_therapy
+MSB-08345	non_targeted_therapy.68891586	etoposide	190	non_targeted_therapy
+MSB-09019	non_targeted_therapy.33765528	irinotecan	135	non_targeted_therapy
+MSB-09019	non_targeted_therapy.33821876	fluorouracil	960	non_targeted_therapy
+MSB-09019	non_targeted_therapy.33821856	fluorouracil	984	non_targeted_therapy
+MSB-09019	non_targeted_therapy.33821855	fluorouracil	1140	non_targeted_therapy
+MSB-09019	non_targeted_therapy.33821852	fluorouracil	1200	non_targeted_therapy
+MSB-09019	non_targeted_therapy.33821850	fluorouracil	256	non_targeted_therapy
+MSB-09019	non_targeted_therapy.33767747	fluorouracil	300	non_targeted_therapy
+MSB-09019	non_targeted_therapy.33765618	fluorouracil	400	non_targeted_therapy
+MSB-09019	non_targeted_therapy.33765615	irinotecan	115.2	non_targeted_therapy
+MSB-09019	non_targeted_therapy.33765613	irinotecan	108	non_targeted_therapy
+MSB-09019	non_targeted_therapy.33765549	irinotecan	127.8	non_targeted_therapy
+MSB-09019	non_targeted_therapy.33152213	fluorouracil	1200	non_targeted_therapy
+MSB-09019	non_targeted_therapy.33143879	leucovorin	400	non_targeted_therapy
+MSB-09019	non_targeted_therapy.33137085	oxaliplatin	85	non_targeted_therapy
+MSB-09019	non_targeted_therapy.33137084	fluorouracil	1200	non_targeted_therapy
+MSB-09019	non_targeted_therapy.33137083	leucovorin	400	non_targeted_therapy
+MSB-09019	non_targeted_therapy.31297302	xeloda	1500	non_targeted_therapy
+MSB-02381	non_targeted_therapy.35870656	fluorouracil	1250	non_targeted_therapy
+MSB-02381	non_targeted_therapy.35870614	fluorouracil	900	non_targeted_therapy
+MSB-02381	non_targeted_therapy.35870611	fluorouracil	300	non_targeted_therapy
+MSB-02381	non_targeted_therapy.35870596	leucovorin	400	non_targeted_therapy
+MSB-02381	non_targeted_therapy.35870594	leucovorin	300	non_targeted_therapy
+MSB-02381	non_targeted_therapy.35870338	leucovorin	296	non_targeted_therapy
+MSB-02381	non_targeted_therapy.35870331	leucovorin	300	non_targeted_therapy
+MSB-03808	non_targeted_therapy.34377262	fluorouracil	1200	non_targeted_therapy
+MSB-03808	non_targeted_therapy.34377260	leucovorin	400	non_targeted_therapy
+MSB-01459	non_targeted_therapy.31652061	carboplatin	5	non_targeted_therapy
+MSB-08588	non_targeted_therapy.16000088	oxaliplatin	250	non_targeted_therapy
+MSB-08588	non_targeted_therapy.36360344	fluorouracil	424	non_targeted_therapy
+MSB-08588	non_targeted_therapy.36360322	irinotecan	400	non_targeted_therapy
+MSB-08588	non_targeted_therapy.36360311	leucovorin	900	non_targeted_therapy
+MSB-08588	non_targeted_therapy.36360306	leucovorin	1000	non_targeted_therapy
+MSB-08588	non_targeted_therapy.36360300	fluorouracil	2750	non_targeted_therapy
+MSB-08588	non_targeted_therapy.36360292	fluorouracil	2500	non_targeted_therapy
+MSB-08588	non_targeted_therapy.36360290	fluorouracil	1200	non_targeted_therapy
+MSB-08588	non_targeted_therapy.36360283	fluorouracil	1188	non_targeted_therapy
+MSB-08588	non_targeted_therapy.36360092	fluorouracil	400	non_targeted_therapy
+MSB-08588	non_targeted_therapy.36360031	leucovorin	400	non_targeted_therapy
+MSB-08588	non_targeted_therapy.36360029	irinotecan	380	non_targeted_therapy
+MSB-08588	non_targeted_therapy.36359823	oxaliplatin	200	non_targeted_therapy
+MSB-09117	non_targeted_therapy.17802939	osimertinib	80	non_targeted_therapy
+MSB-09117	non_targeted_therapy.17802937	afatanib	40	non_targeted_therapy
+MSB-02118	non_targeted_therapy.18234218	cisplatin and taxotere	Not Applicable	non_targeted_therapy
+MSB-02917	non_targeted_therapy.34411070	denosumab	120	non_targeted_therapy
+MSB-02249	non_targeted_therapy.24354495	bortezomib	3	non_targeted_therapy
+MSB-05789	non_targeted_therapy.20364067	carfilzomib	30	non_targeted_therapy
+MSB-05562	non_targeted_therapy.23713693	bortezomib	2.5	non_targeted_therapy
+MSB-05562	non_targeted_therapy.23713697	daratumumab	1800	non_targeted_therapy
+MSB-05562	non_targeted_therapy.23713703	ixazomib	4	non_targeted_therapy
+MSB-05562	non_targeted_therapy.23713760	leNot Applicablelidomide	15	non_targeted_therapy
+MSB-05562	non_targeted_therapy.23713635	cyclophosphamide, bortezomib, dexamethasone	610	non_targeted_therapy
+MSB-05562	non_targeted_therapy.34410040	carfilzomib	110	non_targeted_therapy
+MSB-05562	non_targeted_therapy.60593755	teclistamab	Not Applicable	non_targeted_therapy
+MSB-06226	non_targeted_therapy.26902150	nivolumab	480	non_targeted_therapy
+MSB-04153	non_targeted_therapy.38150394	leucovorin	700	non_targeted_therapy
+MSB-04153	non_targeted_therapy.38150423	fluorouracil	700	non_targeted_therapy
+MSB-04153	non_targeted_therapy.38150437	fluorouracil	690	non_targeted_therapy
+MSB-04153	non_targeted_therapy.38150521	fluorouracil	400	non_targeted_therapy
+MSB-04153	non_targeted_therapy.38150533	fluorouracil	2250	non_targeted_therapy
+MSB-04153	non_targeted_therapy.38150627	cetuximab	900	non_targeted_therapy
+MSB-04153	non_targeted_therapy.34004163	irinotecan	340	non_targeted_therapy
+MSB-04031	non_targeted_therapy.31464392	leNot Applicablelidomide	10	non_targeted_therapy
+MSB-00556	non_targeted_therapy.36423125	cisplatin	94	non_targeted_therapy
+MSB-00643	non_targeted_therapy.60659294	leucovorin,fluorouracil, oxaliplatin.	Not Applicable	non_targeted_therapy
+MSB-02472	non_targeted_therapy.38012395	bicalutamide	50	non_targeted_therapy
+MSB-02472	non_targeted_therapy.38225674	leuprolide	22.5	non_targeted_therapy
+MSB-02472	non_targeted_therapy.38225789	zoledronic acid	3	non_targeted_therapy
+MSB-03453	non_targeted_therapy.54975534	tocilizumab	600	non_targeted_therapy
+MSB-06699	non_targeted_therapy.38275321	dexamethasone	20	non_targeted_therapy
+MSB-06699	non_targeted_therapy.38477480	zoledronic acid	4	non_targeted_therapy
+MSB-03330	non_targeted_therapy.58957306	pemetrexed	900	non_targeted_therapy
+MSB-03330	non_targeted_therapy.47120927	carboplatin	609	non_targeted_therapy
+MSB-02661	non_targeted_therapy.48626168	carboplatin	194	non_targeted_therapy
+MSB-02661	non_targeted_therapy.58957327	pemetrexed	800	non_targeted_therapy
+MSB-06894	non_targeted_therapy.47447864	docetaxel	124	non_targeted_therapy
+MSB-08354	non_targeted_therapy.49641652	carboplatin	155	non_targeted_therapy
+MSB-08354	non_targeted_therapy.58957419	paclitaxel	113	non_targeted_therapy
+MSB-08354	non_targeted_therapy.58957386	carboplatin	230	non_targeted_therapy
+MSB-08354	non_targeted_therapy.58957355	paclitaxel	64	non_targeted_therapy
+MSB-01597	non_targeted_therapy.60029978	docetaxel	115	non_targeted_therapy
+MSB-01597	non_targeted_therapy.60029981	docetaxel	109	non_targeted_therapy
+MSB-01597	non_targeted_therapy.60029983	docetaxel	107	non_targeted_therapy
+MSB-01597	non_targeted_therapy.60030019	docetaxel	105	non_targeted_therapy
+MSB-01597	non_targeted_therapy.60030021	docetaxel	100	non_targeted_therapy
+MSB-01597	non_targeted_therapy.60030023	docetaxel	103	non_targeted_therapy
+MSB-05354	non_targeted_therapy.68946557	dexamethasone	4	non_targeted_therapy
+MSB-09897	non_targeted_therapy.50465366	irinotecan	310	non_targeted_therapy
+MSB-09897	non_targeted_therapy.50951687	fluorouracil	850	non_targeted_therapy
+MSB-07186	non_targeted_therapy.51011896	autologous stem cell transplant	100	non_targeted_therapy
+MSB-02370	non_targeted_therapy.52933442	carboplatin	377	non_targeted_therapy
+MSB-02370	non_targeted_therapy.58957461	pemetrexed	800	non_targeted_therapy
+MSB-02370	non_targeted_therapy.58957458	pemetrexed	825	non_targeted_therapy
+MSB-02988	non_targeted_therapy.53255047	stem cell transplant	5.88	non_targeted_therapy
+MSB-05167	non_targeted_therapy.54590191	daunorubicin	130	non_targeted_therapy
+MSB-05167	non_targeted_therapy.54580473	cytarabine	215	non_targeted_therapy
+MSB-03321	non_targeted_therapy.61709079	irinotecan	371	non_targeted_therapy
+MSB-01865	non_targeted_therapy.58833645	cyclophosphamide	500	non_targeted_therapy
+MSB-05256	non_targeted_therapy.62531335	carboplatin	490	non_targeted_therapy
+MSB-05256	non_targeted_therapy.62531339	pemetrexed	900	non_targeted_therapy
+MSB-09765	non_targeted_therapy.58954944	leucovorin	300	non_targeted_therapy
+MSB-09765	non_targeted_therapy.58960089	oxaliplatin	63.75	non_targeted_therapy
+MSB-09765	non_targeted_therapy.58960117	fluorouracil	300	non_targeted_therapy
+MSB-09765	non_targeted_therapy.58960125	fluorouracil	900	non_targeted_therapy
+MSB-05074	non_targeted_therapy.58955188	leucovorin	400	non_targeted_therapy
+MSB-05074	non_targeted_therapy.58959359	oxaliplatin	85	non_targeted_therapy
+MSB-05074	non_targeted_therapy.58959384	fluorouracil	400	non_targeted_therapy
+MSB-05074	non_targeted_therapy.58959395	irinotecan	180	non_targeted_therapy
+MSB-06824	non_targeted_therapy.58967134	cisplatin	75	non_targeted_therapy
+MSB-06824	non_targeted_therapy.58967530	pemetrexed	500	non_targeted_therapy
+MSB-09351	non_targeted_therapy.59089441	carboplatin	349	non_targeted_therapy
+MSB-09351	non_targeted_therapy.59158430	paclitaxel	182	non_targeted_therapy
+MSB-08289	non_targeted_therapy.59172789	carboplatin	120	non_targeted_therapy
+MSB-08289	non_targeted_therapy.59172936	paclitaxel	72	non_targeted_therapy
+MSB-00667	non_targeted_therapy.59173031	stem cell transplant	5.01	non_targeted_therapy
+MSB-00364	non_targeted_therapy.62397998	oxaliplatin	160	non_targeted_therapy
+MSB-00364	non_targeted_therapy.59923913	fluorouracil	750	non_targeted_therapy
+MSB-07224	non_targeted_therapy.60034602	lupron	7.5	non_targeted_therapy
+MSB-07224	non_targeted_therapy.66696719	denosumab	120	non_targeted_therapy
+MSB-06197	non_targeted_therapy.60033766	paclitaxel	176	non_targeted_therapy
+MSB-06197	non_targeted_therapy.60167233	carboplatin	282	non_targeted_therapy
+MSB-04859	non_targeted_therapy.60205524	docetaxel	130	non_targeted_therapy
+MSB-04859	non_targeted_therapy.60221358	carboplatin	868	non_targeted_therapy
+MSB-06267	non_targeted_therapy.65970087	doxorubicin	110	non_targeted_therapy
+MSB-06267	non_targeted_therapy.65970085	cyclophosphamide	1146	non_targeted_therapy
+MSB-06267	non_targeted_therapy.65970083	paclitaxel	151	non_targeted_therapy
+MSB-06267	non_targeted_therapy.65970081	carboplatin	425	non_targeted_therapy
+MSB-01906	non_targeted_therapy.62537294	autologous stem cell transplant	Not Applicable	non_targeted_therapy
+MSB-04588	non_targeted_therapy.66697631	denosumab	120	non_targeted_therapy
+MSB-08954	non_targeted_therapy.64698694	pemetrexed	1000	non_targeted_therapy
+MSB-08954	non_targeted_therapy.65465867	carboplatin	608	non_targeted_therapy
+MSB-06471	non_targeted_therapy.65585124	fluorouracil	4500	non_targeted_therapy
+MSB-06471	non_targeted_therapy.65788836	leucovorin	340	non_targeted_therapy
+MSB-06471	non_targeted_therapy.65788840	oxaliplatin	150	non_targeted_therapy
+MSB-06471	non_targeted_therapy.65788864	docetaxel	85	non_targeted_therapy
+MSB-06471	non_targeted_therapy.65788879	leucovorin	332	non_targeted_therapy
+MSB-06471	non_targeted_therapy.65788883	oxaliplatin	113	non_targeted_therapy
+MSB-06471	non_targeted_therapy.65788887	docetaxel	66	non_targeted_therapy
+MSB-06471	non_targeted_therapy.65789054	oxaliplatin	112	non_targeted_therapy
+MSB-06471	non_targeted_therapy.65789057	docetaxel	82	non_targeted_therapy
+MSB-06471	non_targeted_therapy.65789061	fluorouracil	4000	non_targeted_therapy
+MSB-06471	non_targeted_therapy.65789065	leucovorin	322	non_targeted_therapy
+MSB-06471	non_targeted_therapy.65789069	oxaliplatin	109	non_targeted_therapy
+MSB-06471	non_targeted_therapy.65789072	docetaxel	81	non_targeted_therapy
+MSB-06471	non_targeted_therapy.67015328	oxaliplatin	65	non_targeted_therapy
+MSB-06471	non_targeted_therapy.67015325	leucovorin	152	non_targeted_therapy
+MSB-06471	non_targeted_therapy.67012336	fluorouracil	2736	non_targeted_therapy
+MSB-06471	non_targeted_therapy.67002563	oxaliplatin	63	non_targeted_therapy
+MSB-06471	non_targeted_therapy.66997778	leucovorin	149	non_targeted_therapy
+MSB-06471	non_targeted_therapy.66979882	fluorouracil	2682	non_targeted_therapy
+MSB-06471	non_targeted_therapy.65789050	leucovorin	328	non_targeted_therapy
+MSB-06471	non_targeted_therapy.65789047	fluorouracil	4262	non_targeted_therapy
+MSB-06471	non_targeted_therapy.65788875	fluorouracil	3500	non_targeted_therapy
+MSB-09102	non_targeted_therapy.66407240	oxaliplatin	125	non_targeted_therapy
+MSB-09102	non_targeted_therapy.66430082	leucovorin	350	non_targeted_therapy
+MSB-08214	non_targeted_therapy.66601873	gemcitabine	2356	non_targeted_therapy
+MSB-08214	non_targeted_therapy.68673773	carboplatin	300	non_targeted_therapy
+MSB-01973	non_targeted_therapy.67079751	etoposide	200	non_targeted_therapy
+MSB-08626	non_targeted_therapy.67854308	cyclophosphamide	1218	non_targeted_therapy
+MSB-08626	non_targeted_therapy.68946751	docetaxel	152.3	non_targeted_therapy
+MSB-08626	non_targeted_therapy.68946753	cyclophosphamide	1248	non_targeted_therapy
+MSB-08626	non_targeted_therapy.68946755	docetaxel	160	non_targeted_therapy
+MSB-08626	non_targeted_therapy.68946774	docetaxel	160	non_targeted_therapy
+MSB-08626	non_targeted_therapy.68946770	cyclophosphamide	1260	non_targeted_therapy
+MSB-08626	non_targeted_therapy.68946766	docetaxel	160	non_targeted_therapy
+MSB-08626	non_targeted_therapy.68946761	cyclophosphamide	1260	non_targeted_therapy

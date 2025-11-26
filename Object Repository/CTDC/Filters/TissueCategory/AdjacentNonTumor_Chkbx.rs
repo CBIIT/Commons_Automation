@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>FILEFORMAT_Ddn</name>
+   <name>AdjacentNonTumor_Chkbx</name>
    <tag></tag>
-   <elementGuidId>e4550ade-8ad6-4b06-81d2-cde7fc66eac5</elementGuidId>
+   <elementGuidId>ca5e5e6f-3e7e-41d1-bff4-5a6b3ccbb895</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id='File Format' and text() = 'File Format']</value>
+         <value>//*[@id='checkbox_Tissue Category_Adjacent Non-Tumor']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id='File Format' and text() = 'File Format']</value>
-      <webElementGuid>397e661a-39f0-4156-9e0a-abfca2d25710</webElementGuid>
+      <value>//*[@id='checkbox_Tissue Category_Adjacent Non-Tumor']</value>
+      <webElementGuid>9699b14d-4213-41eb-8d82-212022634306</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

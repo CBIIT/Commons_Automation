@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CTDC_FileType-VariantCallFile</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <testCaseGuid>3ab11db8-3d41-47da-bf58-3b32e22b5643</testCaseGuid>
+</TestCaseEntity>

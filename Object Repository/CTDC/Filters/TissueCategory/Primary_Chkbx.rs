@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>FILEFORMAT_Ddn</name>
+   <name>Primary_Chkbx</name>
    <tag></tag>
-   <elementGuidId>e4550ade-8ad6-4b06-81d2-cde7fc66eac5</elementGuidId>
+   <elementGuidId>f7a2cbe4-7c77-451b-a441-c5e13bd68c14</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id='File Format' and text() = 'File Format']</value>
+         <value>//*[@id='checkbox_Tissue Category_Primary']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id='File Format' and text() = 'File Format']</value>
-      <webElementGuid>397e661a-39f0-4156-9e0a-abfca2d25710</webElementGuid>
+      <value>//*[@id='checkbox_Tissue Category_Primary']</value>
+      <webElementGuid>52fd28c1-340c-4da9-867e-09019e5d3f00</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

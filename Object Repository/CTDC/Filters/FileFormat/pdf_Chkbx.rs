@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>FILEFORMAT_Ddn</name>
+   <name>pdf_Chkbx</name>
    <tag></tag>
-   <elementGuidId>e4550ade-8ad6-4b06-81d2-cde7fc66eac5</elementGuidId>
+   <elementGuidId>f3107f25-7ac4-4fa8-9a4d-03ade1e4156f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id='File Format' and text() = 'File Format']</value>
+         <value>//*[@id='checkbox_File Format_pdf']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id='File Format' and text() = 'File Format']</value>
-      <webElementGuid>397e661a-39f0-4156-9e0a-abfca2d25710</webElementGuid>
+      <value>//*[@id='checkbox_File Format_pdf']</value>
+      <webElementGuid>68adb53f-c3a5-4d88-a534-1e368b38d26d</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

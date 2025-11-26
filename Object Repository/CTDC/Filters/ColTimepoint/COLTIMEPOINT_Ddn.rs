@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>FILEFORMAT_Ddn</name>
+   <name>COLTIMEPOINT_Ddn</name>
    <tag></tag>
-   <elementGuidId>e4550ade-8ad6-4b06-81d2-cde7fc66eac5</elementGuidId>
+   <elementGuidId>374e9cf9-002c-4d15-b24e-285ef3725740</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id='File Format' and text() = 'File Format']</value>
+         <value>//*[@id ='Collection Timepoint' and text() ='Collection Timepoint']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id='File Format' and text() = 'File Format']</value>
-      <webElementGuid>397e661a-39f0-4156-9e0a-abfca2d25710</webElementGuid>
+      <value>//*[@id ='Collection Timepoint' and text() ='Collection Timepoint']</value>
+      <webElementGuid>01f8a960-f429-46be-832c-0e1c97cd186c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
