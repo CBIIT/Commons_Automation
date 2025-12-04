@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Target-ActeLymphLeukActeLeukAmbLing_Chkbx</name>
+   <name>FilterHeader</name>
    <tag></tag>
-   <elementGuidId>a28fab9e-dbec-4171-8c78-146e3e10f013</elementGuidId>
+   <elementGuidId>3de0fc40-f559-4b05-b2fc-8f527c38a49f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Study Name_TARGET: Acute Lymphoblastic Leukemia (ALL) Expansion Phase 2&quot;]</value>
+         <value>//span[text()='Clear Query']/../..</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Study Name_TARGET: Acute Lymphoblastic Leukemia (ALL) Expansion Phase 2&quot;]</value>
-      <webElementGuid>633a02b6-37a1-46cf-9506-f1c0c902983d</webElementGuid>
+      <value>//span[text()='Clear Query']/../..</value>
+      <webElementGuid>b88a1f7c-86c2-4be0-a911-462889d9bb47</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
