@@ -1,0 +1,5 @@
+id	study.id	crdc_id	email_address	institution	orcid	personnel_name	personnel_type	study_personnel_id	type
+471e38d6-0124-5aa3-9c3c-730c126db46d	e07b48db-83c4-5523-aaa8-467e2fb3a04e		greg.armstrong@stjude.org	St. Jude Children's Research Hosp.	https://orcid.org/0000-0001-8722-4207	Greg T Armstrong, MD, MS	PI	phs001327_person1	study_personnel
+af83f354-bad9-5fe8-875d-9432acda2139	e07b48db-83c4-5523-aaa8-467e2fb3a04e		mortonli@mail.nih.gov	National Cancer Institute	https://orcid.org/0000-0001-9767-2310	Lindsay M. Morton	Co-PI	phs001327_person3	study_personnel
+c1136f84-0d6c-5d79-8f60-41154f7eb8d2	e07b48db-83c4-5523-aaa8-467e2fb3a04e		samuelw.brady@stjude.org	St. Jude Children's Research Hosp.	https://orcid.org/0000-0001-5518-7800	Samuel W. Brady, PhD	Co-PI	phs001327_person2	study_personnel
+e8f7488a-4efa-5c79-b0fc-5444b4d64664	e07b48db-83c4-5523-aaa8-467e2fb3a04e		jinghui.zhang@stjude.org	St. Jude Children's Research Hosp.	https://orcid.org/0000-0003-3350-9682	Jinghui Zhang, PhD	Co-PI	phs001327_person9	study_personnel

@@ -1,4 +1,0 @@
-type	study_personnel_id	personnel_name	personnel_type	email_address	institution	orcid	crdc_id	id	study.id
-study_personnel	phs001327_person1	Greg T Armstrong, MD, MS	PI	greg.armstrong@stjude.org	St. Jude Children's Research Hosp.	https://orcid.org/0000-0001-8722-4207		471e38d6-0124-5aa3-9c3c-730c126db46d	e07b48db-83c4-5523-aaa8-467e2fb3a04e
-study_personnel	phs001327_person2	Samuel W. Brady, PhD	Co-PI	samuelw.brady@stjude.org	St. Jude Children's Research Hosp.	https://orcid.org/0000-0001-5518-7800		c1136f84-0d6c-5d79-8f60-41154f7eb8d2	e07b48db-83c4-5523-aaa8-467e2fb3a04e
-study_personnel	phs001327_person9	Jinghui Zhang, PhD	Co-PI	jinghui.zhang@stjude.org	St. Jude Children's Research Hosp.	https://orcid.org/0000-0003-3350-9682		e8f7488a-4efa-5c79-b0fc-5444b4d64664	e07b48db-83c4-5523-aaa8-467e2fb3a04e

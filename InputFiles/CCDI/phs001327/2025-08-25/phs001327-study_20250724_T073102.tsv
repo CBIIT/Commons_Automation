@@ -1,2 +1,0 @@
-type	study_id	dbgap_accession	study_name	study_acronym	study_description	external_url	experimental_strategy_and_data_subtype	study_status	study_period_start	study_period_stop	study_data_types	size_of_data_being_uploaded	curation_status	crdc_id	id
-study	phs001327	phs001327	CCSS SMN Genomic Analysis	CCSS_SMN	Analysis of subsequent neoplasm genomes from childhood cancer survivors			Active					Under curation		e07b48db-83c4-5523-aaa8-467e2fb3a04e

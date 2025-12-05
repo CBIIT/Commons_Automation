@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_CCDI_phs001738_Sex-Female_Race-Unknown_Diagnosiscategory-HodgkinNonHodgkinLymp</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4070b99f-eab1-4cb0-ab93-8688d56d90bb</testCaseGuid>
+</TestCaseEntity>

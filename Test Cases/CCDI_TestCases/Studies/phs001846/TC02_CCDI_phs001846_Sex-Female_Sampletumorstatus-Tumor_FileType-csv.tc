@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_CCDI_phs001846_Sex-Female_Sampletumorstatus-Tumor_FileType-csv</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4b79eb20-aaa4-44bf-8f06-f51540c88532</testCaseGuid>
+</TestCaseEntity>

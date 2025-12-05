@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_CCDI_phs001714_Diaganatomicsite-C76.2AbdomenNOS_LibStratgy-WGS</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c29aa089-f7e9-4cb8-a990-d351b372fd7d</testCaseGuid>
+</TestCaseEntity>

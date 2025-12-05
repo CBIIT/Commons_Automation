@@ -1,3 +1,0 @@
-type	study_funding_id	funding_agency	grant_id	funding_source_program_name	id	study.id
-study_funding	phs001327_fund1	NCI	2U24CA055727	Childhood Cancer Survivor Study	dfffc73c-7d48-5fab-a2c4-af94ebd89e8b	e07b48db-83c4-5523-aaa8-467e2fb3a04e
-study_funding	phs001327_fund2	NCI	2U24CA055727-28S1	CCSS Somatic and Germline Supplement	3f661639-0ec8-5b5c-a9ff-5089c5b1cd66	e07b48db-83c4-5523-aaa8-467e2fb3a04e

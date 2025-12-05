@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CCDI_phs001714_Sex-Male_Race-NotReported_DiagAnatomicSt-C40.0Longbones</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>72e9dbe8-dcf4-421d-9953-29e620acee9f</testCaseGuid>
+</TestCaseEntity>

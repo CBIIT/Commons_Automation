@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CCDI_phs001228_Sex-Female_Race-Unknown_DiagAnatomicSt-NotReported</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>823736a0-c30a-4d11-b257-1ccb45dede4a</testCaseGuid>
+</TestCaseEntity>

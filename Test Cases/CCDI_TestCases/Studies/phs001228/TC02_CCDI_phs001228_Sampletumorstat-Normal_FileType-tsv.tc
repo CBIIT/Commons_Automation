@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_CCDI_phs001228_Sampletumorstat-Normal_FileType-tsv</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a271ca0d-fc4e-478f-9726-a27e02381fb8</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CCDI_phs001846_Sex-Female_Race-Asian_Diagnosis-NeoplasmBenign</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>236deaa2-8862-4a5e-944c-c42b86e58e6a</testCaseGuid>
+</TestCaseEntity>

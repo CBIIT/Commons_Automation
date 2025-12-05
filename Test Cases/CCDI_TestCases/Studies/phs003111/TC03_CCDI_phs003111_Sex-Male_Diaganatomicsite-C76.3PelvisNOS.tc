@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_CCDI_phs003111_Sex-Male_Diaganatomicsite-C76.3PelvisNOS</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7abdc96c-2429-4ed2-a7f1-d1169a5a7846</testCaseGuid>
+</TestCaseEntity>

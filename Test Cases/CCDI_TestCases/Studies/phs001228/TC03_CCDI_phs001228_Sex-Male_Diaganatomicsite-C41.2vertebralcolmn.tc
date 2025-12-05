@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_CCDI_phs001228_Sex-Male_Diaganatomicsite-C41.2vertebralcolmn</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>40fcae9a-54cf-4454-8a9e-5c3150b0d262</testCaseGuid>
+</TestCaseEntity>

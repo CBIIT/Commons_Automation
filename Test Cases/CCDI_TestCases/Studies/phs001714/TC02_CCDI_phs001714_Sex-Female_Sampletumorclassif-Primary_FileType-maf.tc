@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_CCDI_phs001714_Sex-Female_Sampletumorclassif-Primary_FileType-maf</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6078cd99-0431-4fab-969e-47d0cb1256e1</testCaseGuid>
+</TestCaseEntity>

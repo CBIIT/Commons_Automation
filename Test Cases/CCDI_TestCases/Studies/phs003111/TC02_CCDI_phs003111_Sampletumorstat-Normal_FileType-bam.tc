@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_CCDI_phs003111_Sampletumorstat-Normal_FileType-bam</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>da97abf8-ab50-490b-afad-78dd160312e6</testCaseGuid>
+</TestCaseEntity>
