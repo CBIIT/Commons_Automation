@@ -1,0 +1,1637 @@
+participant.participant_id	specimen_record_id	specimen_type	specimen_category	anatomical_collection_site	tissue_category	assessment_timepoint	collection_date	type
+MSB-00046	MSB-00046-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	27	specimen
+MSB-00046	MSB-00046-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	27	specimen
+MSB-00174	MSB-00174-04	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	82	specimen
+MSB-00174	MSB-00174-05	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	82	specimen
+MSB-00520	MSB-00520-04	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	693	specimen
+MSB-00520	MSB-00520-05	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	693	specimen
+MSB-01426	MSB-01426-02	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	9	specimen
+MSB-01426	MSB-01426-03	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	9	specimen
+MSB-01798	MSB-01798-06	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	308	specimen
+MSB-01798	MSB-01798-07	Streck Blood to VARI	Blood	GENERAL BLOOD DRAW		On Treatment (Fresh)	308	specimen
+MSB-01973	MSB-01973-04	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	48	specimen
+MSB-01973	MSB-01973-05	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	48	specimen
+MSB-02428	MSB-02428-02	Streck Blood to VARI	Blood	GENERAL BLOOD DRAW		On Treatment (Fresh)	0	specimen
+MSB-02428	MSB-02428-03	EDTA Blood	Blood	GENERAL BLOOD DRAW		On Treatment (Fresh)	0	specimen
+MSB-02585	MSB-02585-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	12	specimen
+MSB-02585	MSB-02585-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	12	specimen
+MSB-02628	MSB-02628-02	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	6	specimen
+MSB-02628	MSB-02628-03	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	6	specimen
+MSB-02628	MSB-02628-04	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	6	specimen
+MSB-02628	MSB-02628-05	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	6	specimen
+MSB-02901	MSB-02901-04	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	564	specimen
+MSB-02901	MSB-02901-05	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	564	specimen
+MSB-02988	MSB-02988-07	EDTA Blood	Blood	general blood draw		Progression (Fresh)	560	specimen
+MSB-02988	MSB-02988-08	Streck Blood to VARI	Blood	general blood draw		Progression (Fresh)	560	specimen
+MSB-02988	MSB-02988-09	Bone Marrow Aspirate	Bone Marrow	Iliac Crest		Progression (Fresh)	560	specimen
+MSB-02990	MSB-02990-10	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	231	specimen
+MSB-02990	MSB-02990-11	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	231	specimen
+MSB-03308	MSB-03308-02	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-03308	MSB-03308-03	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-03344	MSB-03344-01	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	1	specimen
+MSB-03344	MSB-03344-02	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	1	specimen
+MSB-03567	MSB-03567-01	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	0	specimen
+MSB-03567	MSB-03567-02	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	0	specimen
+MSB-03738	MSB-03738-08	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	376	specimen
+MSB-03738	MSB-03738-09	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	376	specimen
+MSB-03804	MSB-03804-04	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	99	specimen
+MSB-03804	MSB-03804-05	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	99	specimen
+MSB-04646	MSB-04646-03	EDTA Blood	Blood	General Blood Draw		Progression (Fresh)	216	specimen
+MSB-04646	MSB-04646-04	Streck Blood to VARI	Blood	Geneal Blood Draw		Progression (Fresh)	216	specimen
+MSB-04774	MSB-04774-06	Formalin Fixed Tissue	Formalin Fixed Tissue	Bone	Metastatic	Progression (Fresh)	90	specimen
+MSB-05105	MSB-05105-03	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	14	specimen
+MSB-05756	MSB-05756-06	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	620	specimen
+MSB-05756	MSB-05756-07	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	620	specimen
+MSB-05956	MSB-05956-01	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	2	specimen
+MSB-05956	MSB-05956-02	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	2	specimen
+MSB-06178	MSB-06178-04	EDTA Blood	Blood	GENERAL BLOOD DRAW		On Treatment (Fresh)	219	specimen
+MSB-06178	MSB-06178-05	Streck Blood to VARI	Blood	GENERAL BLOOD DRAW		On Treatment (Fresh)	219	specimen
+MSB-06249	MSB-06249-04	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	28	specimen
+MSB-06249	MSB-06249-05	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	28	specimen
+MSB-07202	MSB-07202-01	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	0	specimen
+MSB-07202	MSB-07202-02	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	0	specimen
+MSB-07473	MSB-07473-04	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	77	specimen
+MSB-07494	MSB-07494-01	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	0	specimen
+MSB-07494	MSB-07494-02	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	0	specimen
+MSB-07636	MSB-07636-13	EDTA Blood	Blood	general blood draw		Post-Treatment (No progression)	266	specimen
+MSB-07636	MSB-07636-14	Streck Blood to VARI	Blood	general blood draw		Post-Treatment (No progression)	266	specimen
+MSB-07840	MSB-07840-05	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	461	specimen
+MSB-07840	MSB-07840-06	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	461	specimen
+MSB-07874	MSB-07874-05	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	105	specimen
+MSB-07874	MSB-07874-06	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	105	specimen
+MSB-08049	MSB-08049-05	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	314	specimen
+MSB-08049	MSB-08049-06	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	314	specimen
+MSB-08215	MSB-08215-01	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	0	specimen
+MSB-08215	MSB-08215-02	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	0	specimen
+MSB-08309	MSB-08309-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	12	specimen
+MSB-08309	MSB-08309-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	12	specimen
+MSB-08324	MSB-08324-06	EDTA Blood	Blood	general blood draw		Progression (Fresh)	182	specimen
+MSB-08324	MSB-08324-07	Streck Blood to VARI	Blood	general blood draw		Progression (Fresh)	182	specimen
+MSB-08867	MSB-08867-02	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	21	specimen
+MSB-08867	MSB-08867-03	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	21	specimen
+MSB-08964	MSB-08964-06	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	176	specimen
+MSB-08964	MSB-08964-07	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	176	specimen
+MSB-09969	MSB-09969-04	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	181	specimen
+MSB-09969	MSB-09969-05	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	181	specimen
+MSB-00045	MSB-00045-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	0	specimen
+MSB-00045	MSB-00045-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	0	specimen
+MSB-00045	MSB-00045-04	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	126	specimen
+MSB-00045	MSB-00045-05	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	126	specimen
+MSB-00060	MSB-00060-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	19	specimen
+MSB-00060	MSB-00060-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	19	specimen
+MSB-00083	MSB-00083-01	Bone Marrow Aspirate	Bone Marrow	Bone Marrow	Primary	Baseline (Fresh)	0	specimen
+MSB-00083	MSB-00083-02	EDTA Blood	Blood	General blood draw		Baseline (Fresh)	0	specimen
+MSB-00083	MSB-00083-03	Streck Blood to VARI	Blood	General blood draw		Baseline (Fresh)	0	specimen
+MSB-00089	MSB-00089-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	7	specimen
+MSB-00089	MSB-00089-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	7	specimen
+MSB-00089	MSB-00089-04	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	454	specimen
+MSB-00089	MSB-00089-05	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	454	specimen
+MSB-00140	MSB-00140-01	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	7	specimen
+MSB-00140	MSB-00140-02	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	7	specimen
+MSB-00140	MSB-00140-04	EDTA Blood	Blood	general blood draw		Progression (Fresh)	102	specimen
+MSB-00140	MSB-00140-05	Streck Blood to VARI	Blood	general blood draw		Progression (Fresh)	102	specimen
+MSB-00140	MSB-00140-06	Bone Marrow Aspirate	Bone Marrow	Iliac Crest	Primary	Progression (Fresh)	102	specimen
+MSB-00142	MSB-00142-03	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	7	specimen
+MSB-00142	MSB-00142-04	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	7	specimen
+MSB-00156	MSB-00156-01	Formalin Fixed Tissue	Formalin Fixed Tissue	Breast	Primary	Baseline (Fresh)	0	specimen
+MSB-00156	MSB-00156-02	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-00156	MSB-00156-03	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-00174	MSB-00174-01	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	0	specimen
+MSB-00174	MSB-00174-02	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	0	specimen
+MSB-00179	MSB-00179-01	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	12	specimen
+MSB-00179	MSB-00179-02	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	12	specimen
+MSB-00179	MSB-00179-05	EDTA Blood	Blood	General Blood Draw		Progression (Fresh)	54	specimen
+MSB-00179	MSB-00179-06	Streck Blood to VARI	Blood	General Blood Draw		Progression (Fresh)	54	specimen
+MSB-00179	MSB-00179-07	EDTA Blood	Blood	General Blood Draw		Progression (Fresh)	133	specimen
+MSB-00179	MSB-00179-08	Streck Blood to VARI	Blood	General Blood Draw		Progression (Fresh)	133	specimen
+MSB-00205	MSB-00205-01	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-00205	MSB-00205-02	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-00241	MSB-00241-01	Formalin Fixed Tissue	Formalin Fixed Tissue	Liver	Metastatic	Baseline (Fresh)	0	specimen
+MSB-00241	MSB-00241-02	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-00241	MSB-00241-03	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-00263	MSB-00263-02	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-00263	MSB-00263-03	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-00263	MSB-00263-04	Formalin Fixed Tissue	Formalin Fixed Tissue	Skin Of The Back	Primary	Baseline (Fresh)	0	specimen
+MSB-00268	MSB-00268-02	Bone Marrow Aspirate	Bone Marrow	Bone Marrow	Primary	Baseline (Fresh)	0	specimen
+MSB-00268	MSB-00268-03	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-00268	MSB-00268-04	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-00304	MSB-00304-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	25	specimen
+MSB-00304	MSB-00304-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	25	specimen
+MSB-00316	MSB-00316-01	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	0	specimen
+MSB-00316	MSB-00316-02	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	0	specimen
+MSB-00316	MSB-00316-04	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	337	specimen
+MSB-00316	MSB-00316-05	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	337	specimen
+MSB-00352	MSB-00352-01	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-00352	MSB-00352-02	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-00352	MSB-00352-03	Formalin Fixed Tissue	Formalin Fixed Tissue	Liver	Primary	Baseline (Fresh)	0	specimen
+MSB-00364	MSB-00364-02	EDTA Blood	Blood	port draw		On Treatment (Fresh)	19	specimen
+MSB-00364	MSB-00364-03	Streck Blood to VARI	Blood	port draw		On Treatment (Fresh)	19	specimen
+MSB-00364	MSB-00364-04	EDTA Blood	Blood	general blood draw		Progression (Fresh)	103	specimen
+MSB-00364	MSB-00364-05	Streck Blood to VARI	Blood	general blood		Progression (Fresh)	103	specimen
+MSB-00433	MSB-00433-01	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	1	specimen
+MSB-00433	MSB-00433-02	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	1	specimen
+MSB-00437	MSB-00437-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	14	specimen
+MSB-00437	MSB-00437-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	14	specimen
+MSB-00437	MSB-00437-04	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	102	specimen
+MSB-00437	MSB-00437-05	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	102	specimen
+MSB-00437	MSB-00437-08	EDTA Blood	Blood	general blood draw		Post-Treatment (No progression)	251	specimen
+MSB-00437	MSB-00437-09	Streck Blood to VARI	Blood	general blood draw		Post-Treatment (No progression)	251	specimen
+MSB-00464	MSB-00464-01	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-00464	MSB-00464-02	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-00464	MSB-00464-04	Formalin Fixed Tissue	Formalin Fixed Tissue	Ovary	Primary	Baseline (Fresh)	10	specimen
+MSB-00464	MSB-00464-06	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	109	specimen
+MSB-00464	MSB-00464-07	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	109	specimen
+MSB-00498	MSB-00498-02	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	29	specimen
+MSB-00498	MSB-00498-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	29	specimen
+MSB-00520	MSB-00520-01	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	21	specimen
+MSB-00520	MSB-00520-02	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	21	specimen
+MSB-00556	MSB-00556-02	EDTA Blood	Blood	General blood draw		Baseline (Fresh)	0	specimen
+MSB-00556	MSB-00556-03	Streck Blood to VARI	Blood	General blood draw		Baseline (Fresh)	0	specimen
+MSB-00556	MSB-00556-04	Formalin Fixed Tissue	Formalin Fixed Tissue	Brain	Metastatic	Baseline (Fresh)	0	specimen
+MSB-00558	MSB-00558-02	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	27	specimen
+MSB-00558	MSB-00558-03	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	27	specimen
+MSB-00587	MSB-00587-02	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	27	specimen
+MSB-00587	MSB-00587-03	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	27	specimen
+MSB-00587	MSB-00587-04	EDTA Blood	Blood	General Blood draw		On Treatment (Fresh)	83	specimen
+MSB-00587	MSB-00587-05	Streck Blood to VARI	Blood	General Blood draw		On Treatment (Fresh)	83	specimen
+MSB-00587	MSB-00587-06	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	139	specimen
+MSB-00587	MSB-00587-07	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	139	specimen
+MSB-00602	MSB-00602-03	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	84	specimen
+MSB-00602	MSB-00602-04	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	84	specimen
+MSB-00620	MSB-00620-02	Bone Marrow Aspirate	Bone Marrow	Bone Marrow	Primary	Baseline (Fresh)	0	specimen
+MSB-00620	MSB-00620-03	EDTA Blood	Blood	General blood draw		Baseline (Fresh)	0	specimen
+MSB-00620	MSB-00620-04	Streck Blood to VARI	Blood	General blood draw		Baseline (Fresh)	0	specimen
+MSB-00620	MSB-00620-05	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	87	specimen
+MSB-00620	MSB-00620-06	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	87	specimen
+MSB-00620	MSB-00620-07	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	185	specimen
+MSB-00620	MSB-00620-08	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	185	specimen
+MSB-00643	MSB-00643-01	EDTA Blood	Blood	General blood draw		Baseline (Fresh)	0	specimen
+MSB-00643	MSB-00643-02	Streck Blood to VARI	Blood	General blood draw		Baseline (Fresh)	0	specimen
+MSB-00643	MSB-00643-03	Formalin Fixed Tissue	Formalin Fixed Tissue	Liver	Metastatic	Baseline (Fresh)	0	specimen
+MSB-00667	MSB-00667-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	38	specimen
+MSB-00667	MSB-00667-03	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	38	specimen
+MSB-00667	MSB-00667-04	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	236	specimen
+MSB-00667	MSB-00667-05	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	236	specimen
+MSB-00700	MSB-00700-01	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-00700	MSB-00700-02	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-00700	MSB-00700-03	Bone Marrow Aspirate	Bone Marrow	Iliac Crest	Primary	Baseline (Fresh)	0	specimen
+MSB-00727	MSB-00727-02	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	84	specimen
+MSB-00727	MSB-00727-03	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	84	specimen
+MSB-00738	MSB-00738-02	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	16	specimen
+MSB-00738	MSB-00738-03	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	16	specimen
+MSB-00738	MSB-00738-04	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	149	specimen
+MSB-00738	MSB-00738-05	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	149	specimen
+MSB-00755	MSB-00755-02	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	23	specimen
+MSB-00755	MSB-00755-03	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	23	specimen
+MSB-00755	MSB-00755-04	EDTA Blood	Blood	General Blood draw		On Treatment (Fresh)	325	specimen
+MSB-00755	MSB-00755-05	Streck Blood to VARI	Blood	General Blood draw		On Treatment (Fresh)	325	specimen
+MSB-00755	MSB-00755-06	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	412	specimen
+MSB-00755	MSB-00755-07	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	412	specimen
+MSB-00773	MSB-00773-02	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	28	specimen
+MSB-00773	MSB-00773-03	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	28	specimen
+MSB-00795	MSB-00795-01	Formalin Fixed Tissue	Formalin Fixed Tissue	Breast	Primary	Baseline (Fresh)	0	specimen
+MSB-00795	MSB-00795-02	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-00795	MSB-00795-03	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-00858	MSB-00858-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	0	specimen
+MSB-00858	MSB-00858-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	0	specimen
+MSB-00902	MSB-00902-03	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	7	specimen
+MSB-00902	MSB-00902-04	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	7	specimen
+MSB-00902	MSB-00902-05	Bone Marrow Aspirate	Bone Marrow	Iliac Crest	Primary	Baseline (Fresh)	7	specimen
+MSB-00906	MSB-00906-02	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	4	specimen
+MSB-00906	MSB-00906-04	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	4	specimen
+MSB-00906	MSB-00906-07	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	201	specimen
+MSB-00906	MSB-00906-08	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	201	specimen
+MSB-00939	MSB-00939-01	EDTA Blood	Blood	General blood draw		Baseline (Fresh)	0	specimen
+MSB-00939	MSB-00939-02	Formalin Fixed Tissue	Formalin Fixed Tissue	Lymph Node	Metastatic	Baseline (Fresh)	0	specimen
+MSB-00939	MSB-00939-03	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-00939	MSB-00939-04	EDTA Blood	Blood	general blood draw		Progression (Fresh)	224	specimen
+MSB-00939	MSB-00939-05	Streck Blood to VARI	Blood	general blood draw		Progression (Fresh)	224	specimen
+MSB-00956	MSB-00956-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	16	specimen
+MSB-00956	MSB-00956-04	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	16	specimen
+MSB-00956	MSB-00956-05	EDTA Blood	Blood	port blood draw		Progression (Fresh)	120	specimen
+MSB-00956	MSB-00956-06	Streck Blood to VARI	Blood	port blood draw		Progression (Fresh)	120	specimen
+MSB-01000	MSB-01000-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	20	specimen
+MSB-01000	MSB-01000-03	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	20	specimen
+MSB-01049	MSB-01049-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	27	specimen
+MSB-01049	MSB-01049-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	27	specimen
+MSB-01049	MSB-01049-04	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	624	specimen
+MSB-01049	MSB-01049-05	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	624	specimen
+MSB-01068	MSB-01068-01	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-01068	MSB-01068-02	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-01068	MSB-01068-04	FFPE Block	Formalin Fixed Paraffin Embedded Tissue	Sigmoid Colon	Primary	Archival	-41	specimen
+MSB-01068	MSB-01068-05	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	139	specimen
+MSB-01068	MSB-01068-06	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	139	specimen
+MSB-01069	MSB-01069-02	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	0	specimen
+MSB-01069	MSB-01069-03	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	0	specimen
+MSB-01103	MSB-01103-01	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-01103	MSB-01103-02	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-01103	MSB-01103-03	Bone Marrow Aspirate	Bone Marrow	Iliac Crest		Baseline (Fresh)	0	specimen
+MSB-01103	MSB-01103-05	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	151	specimen
+MSB-01103	MSB-01103-06	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	151	specimen
+MSB-01103	MSB-01103-09	EDTA Blood	Blood	general blood draw		Progression (Fresh)	522	specimen
+MSB-01103	MSB-01103-10	Streck Blood to VARI	Blood	general blood draw		Progression (Fresh)	522	specimen
+MSB-01118	MSB-01118-01	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	28	specimen
+MSB-01118	MSB-01118-02	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	28	specimen
+MSB-01118	MSB-01118-04	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	84	specimen
+MSB-01118	MSB-01118-05	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	84	specimen
+MSB-01188	MSB-01188-02	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	0	specimen
+MSB-01188	MSB-01188-03	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	0	specimen
+MSB-01206	MSB-01206-03	Formalin Fixed Tissue	Formalin Fixed Tissue	Skin	Primary	Baseline (Fresh)	0	specimen
+MSB-01206	MSB-01206-04	EDTA Blood	Blood	General		Baseline (Fresh)	32	specimen
+MSB-01206	MSB-01206-05	Streck Blood to VARI	Blood	General		Baseline (Fresh)	32	specimen
+MSB-01206	MSB-01206-06	EDTA Blood	Blood	general		Progression (Fresh)	119	specimen
+MSB-01206	MSB-01206-07	Streck Blood to VARI	Blood	general		Progression (Fresh)	119	specimen
+MSB-01206	MSB-01206-08	Formalin Fixed Tissue	Formalin Fixed Tissue	Inguinal Lymph Node	Primary	Progression (Fresh)	150	specimen
+MSB-01208	MSB-01208-01	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	1	specimen
+MSB-01208	MSB-01208-02	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	1	specimen
+MSB-01208	MSB-01208-03	Bone Marrow Aspirate	Bone Marrow	Iliac Crest		Baseline (Fresh)	1	specimen
+MSB-01208	MSB-01208-05	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	91	specimen
+MSB-01208	MSB-01208-06	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	91	specimen
+MSB-01208	MSB-01208-07	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	490	specimen
+MSB-01208	MSB-01208-08	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	490	specimen
+MSB-01224	MSB-01224-01	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	1	specimen
+MSB-01224	MSB-01224-02	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	1	specimen
+MSB-01224	MSB-01224-05	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	155	specimen
+MSB-01224	MSB-01224-06	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	155	specimen
+MSB-01224	MSB-01224-07	EDTA Blood	Blood	general blood draw		Progression (Fresh)	554	specimen
+MSB-01224	MSB-01224-08	Streck Blood to VARI	Blood	general blood draw		Progression (Fresh)	554	specimen
+MSB-01225	MSB-01225-02	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	6	specimen
+MSB-01225	MSB-01225-03	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	6	specimen
+MSB-01262	MSB-01262-01	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	6	specimen
+MSB-01262	MSB-01262-03	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	6	specimen
+MSB-01262	MSB-01262-06	Streck Blood to VARI	Blood	general blood draw		Progression (Fresh)	190	specimen
+MSB-01262	MSB-01262-07	EDTA Blood	Blood	general blood draw		Progression (Fresh)	190	specimen
+MSB-01262	MSB-01262-08	Formalin Fixed Tissue	Formalin Fixed Tissue	Liver	Metastatic	Progression (Fresh)	202	specimen
+MSB-01276	MSB-01276-02	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	35	specimen
+MSB-01276	MSB-01276-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	35	specimen
+MSB-01307	MSB-01307-02	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	20	specimen
+MSB-01307	MSB-01307-03	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	20	specimen
+MSB-01307	MSB-01307-04	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	160	specimen
+MSB-01307	MSB-01307-05	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	160	specimen
+MSB-01363	MSB-01363-01	EDTA Blood	Blood	blood draw		Baseline (Fresh)	0	specimen
+MSB-01363	MSB-01363-02	Streck Blood to VARI	Blood	blood draw		Baseline (Fresh)	0	specimen
+MSB-01390	MSB-01390-01	EDTA Blood	Blood	GENERAL BLOOD DRAW		Baseline (Fresh)	0	specimen
+MSB-01390	MSB-01390-02	Streck Blood to VARI	Blood	GENERAL BLOOD DRAW		Baseline (Fresh)	0	specimen
+MSB-01390	MSB-01390-03	Bone Marrow Aspirate	Bone Marrow	Iliac Crest	Primary	Baseline (Fresh)	0	specimen
+MSB-01390	MSB-01390-05	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	91	specimen
+MSB-01390	MSB-01390-06	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	91	specimen
+MSB-01413	MSB-01413-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	22	specimen
+MSB-01413	MSB-01413-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	22	specimen
+MSB-01413	MSB-01413-04	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	81	specimen
+MSB-01413	MSB-01413-05	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	81	specimen
+MSB-01433	MSB-01433-01	EDTA Blood	Blood	Blood		On Treatment (Fresh)	-1	specimen
+MSB-01433	MSB-01433-02	Streck Blood to VARI	Blood	Blood		On Treatment (Fresh)	-1	specimen
+MSB-01437	MSB-01437-01	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	39	specimen
+MSB-01437	MSB-01437-02	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	39	specimen
+MSB-01437	MSB-01437-04	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	363	specimen
+MSB-01437	MSB-01437-05	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	363	specimen
+MSB-01459	MSB-01459-02	EDTA Blood	Blood	General Blood Draw		Progression (Fresh)	13	specimen
+MSB-01459	MSB-01459-03	Streck Blood to VARI	Blood	General Blood Draw		Progression (Fresh)	13	specimen
+MSB-01463	MSB-01463-01	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-01463	MSB-01463-02	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-01463	MSB-01463-04	Formalin Fixed Tissue	Formalin Fixed Tissue	Flank	Metastatic	Baseline (Fresh)	0	specimen
+MSB-01493	MSB-01493-01	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	6	specimen
+MSB-01493	MSB-01493-02	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	6	specimen
+MSB-01499	MSB-01499-02	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	64	specimen
+MSB-01499	MSB-01499-03	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	64	specimen
+MSB-01516	MSB-01516-01	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	24	specimen
+MSB-01516	MSB-01516-02	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	24	specimen
+MSB-01516	MSB-01516-03	Bone Marrow Aspirate	Bone Marrow	Iliac Crest	Primary	Baseline (Fresh)	24	specimen
+MSB-01561	MSB-01561-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	13	specimen
+MSB-01561	MSB-01561-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	13	specimen
+MSB-01594	MSB-01594-01	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	19	specimen
+MSB-01594	MSB-01594-02	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	19	specimen
+MSB-01597	MSB-01597-01	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	2	specimen
+MSB-01597	MSB-01597-02	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	2	specimen
+MSB-01597	MSB-01597-04	EDTA Blood	Blood	general blood draw		Progression (Fresh)	174	specimen
+MSB-01597	MSB-01597-05	Streck Blood to VARI	Blood	general blood draw		Progression (Fresh)	174	specimen
+MSB-01617	MSB-01617-01	Formalin Fixed Tissue	Formalin Fixed Tissue	Right Lung	Metastatic	Baseline (Fresh)	0	specimen
+MSB-01617	MSB-01617-02	EDTA Blood	Blood	Corrected		Baseline (Fresh)	0	specimen
+MSB-01617	MSB-01617-03	Streck Blood to VARI	Blood	verified		Baseline (Fresh)	0	specimen
+MSB-01627	MSB-01627-02	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	14	specimen
+MSB-01627	MSB-01627-03	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	14	specimen
+MSB-01627	MSB-01627-06	Streck Blood to VARI	Blood	general blood draw		Progression (Fresh)	183	specimen
+MSB-01627	MSB-01627-07	EDTA Blood	Blood	general blood draw		Progression (Fresh)	183	specimen
+MSB-01649	MSB-01649-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	50	specimen
+MSB-01649	MSB-01649-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	50	specimen
+MSB-01650	MSB-01650-01	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	0	specimen
+MSB-01650	MSB-01650-02	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	0	specimen
+MSB-01650	MSB-01650-04	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	70	specimen
+MSB-01650	MSB-01650-05	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	70	specimen
+MSB-01650	MSB-01650-06	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	168	specimen
+MSB-01650	MSB-01650-07	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	168	specimen
+MSB-01650	MSB-01650-08	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	238	specimen
+MSB-01650	MSB-01650-09	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	238	specimen
+MSB-01652	MSB-01652-01	EDTA Blood	Blood	Venipuncture right antecubital		Baseline (Fresh)	1	specimen
+MSB-01652	MSB-01652-02	Streck Blood to VARI	Blood	Venipuncture right antecubital		Baseline (Fresh)	1	specimen
+MSB-01652	MSB-01652-04	Formalin Fixed Tissue	Formalin Fixed Tissue	Axillary Lymph Node	Metastatic	Baseline (Fresh)	1	specimen
+MSB-01687	MSB-01687-02	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	1	specimen
+MSB-01687	MSB-01687-03	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	1	specimen
+MSB-01723	MSB-01723-02	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-01723	MSB-01723-03	Bone Marrow Aspirate	Bone Marrow	Iliac Crest	Primary	Baseline (Fresh)	0	specimen
+MSB-01723	MSB-01723-05	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-01723	MSB-01723-06	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	1	specimen
+MSB-01723	MSB-01723-07	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	15	specimen
+MSB-01723	MSB-01723-08	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	15	specimen
+MSB-01729	MSB-01729-01	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-01729	MSB-01729-02	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-01729	MSB-01729-03	Bone Marrow Aspirate	Bone Marrow	Iliac Crest	Primary	Baseline (Fresh)	0	specimen
+MSB-01729	MSB-01729-04	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	89	specimen
+MSB-01729	MSB-01729-05	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	89	specimen
+MSB-01753	MSB-01753-02	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	0	specimen
+MSB-01753	MSB-01753-03	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	0	specimen
+MSB-01757	MSB-01757-01	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	7	specimen
+MSB-01757	MSB-01757-02	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	7	specimen
+MSB-01757	MSB-01757-04	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	224	specimen
+MSB-01757	MSB-01757-05	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	224	specimen
+MSB-01771	MSB-01771-03	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	13	specimen
+MSB-01771	MSB-01771-04	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	13	specimen
+MSB-01771	MSB-01771-05	Streck Blood to VARI	Blood	general blood draw		Progression (Fresh)	85	specimen
+MSB-01771	MSB-01771-06	EDTA Blood	Blood	general blood draw		Progression (Fresh)	85	specimen
+MSB-01771	MSB-01771-07	EDTA Blood	Blood	Pre-biopsy Blood Draw		Progression (Fresh)	132	specimen
+MSB-01771	MSB-01771-08	Streck Blood to VARI	Blood	Pre-biopsy Blood Draw		Progression (Fresh)	132	specimen
+MSB-01771	MSB-01771-09	Formalin Fixed Tissue	Formalin Fixed Tissue	Left Lobe of the Liver	Metastatic	Progression (Fresh)	132	specimen
+MSB-01772	MSB-01772-01	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	33	specimen
+MSB-01772	MSB-01772-02	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	33	specimen
+MSB-01798	MSB-01798-01	EDTA Blood	Blood	peripheral blood draw		On Treatment (Fresh)	41	specimen
+MSB-01798	MSB-01798-03	Streck Blood to VARI	Blood	Peripheral Blood Draw		On Treatment (Fresh)	41	specimen
+MSB-01798	MSB-01798-04	EDTA Blood	Blood	general blood draw		Progression (Fresh)	224	specimen
+MSB-01798	MSB-01798-05	Streck Blood to VARI	Blood	general blood draw		Progression (Fresh)	224	specimen
+MSB-01799	MSB-01799-02	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	20	specimen
+MSB-01799	MSB-01799-03	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	20	specimen
+MSB-01799	MSB-01799-04	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	209	specimen
+MSB-01799	MSB-01799-05	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	209	specimen
+MSB-01823	MSB-01823-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	12	specimen
+MSB-01823	MSB-01823-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	12	specimen
+MSB-01825	MSB-01825-02	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	14	specimen
+MSB-01825	MSB-01825-03	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	14	specimen
+MSB-01829	MSB-01829-02	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	1	specimen
+MSB-01829	MSB-01829-03	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	1	specimen
+MSB-01849	MSB-01849-01	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-01849	MSB-01849-02	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-01849	MSB-01849-04	Formalin Fixed Tissue	Formalin Fixed Tissue	Lymph Node	Metastatic	Baseline (Fresh)	0	specimen
+MSB-01857	MSB-01857-02	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-01857	MSB-01857-03	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-01865	MSB-01865-02	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	7	specimen
+MSB-01865	MSB-01865-03	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	7	specimen
+MSB-01865	MSB-01865-04	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	280	specimen
+MSB-01865	MSB-01865-05	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	280	specimen
+MSB-01884	MSB-01884-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	22	specimen
+MSB-01884	MSB-01884-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	22	specimen
+MSB-01884	MSB-01884-04	EDTA Blood	Blood	general blood draw		Progression (Fresh)	72	specimen
+MSB-01884	MSB-01884-05	Streck Blood to VARI	Blood	general blood draw		Progression (Fresh)	72	specimen
+MSB-01884	MSB-01884-06	Bone Marrow Aspirate	Bone Marrow	Iliac Crest	Primary	Progression (Fresh)	72	specimen
+MSB-01896	MSB-01896-01	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	1	specimen
+MSB-01896	MSB-01896-02	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	1	specimen
+MSB-01906	MSB-01906-01	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	14	specimen
+MSB-01906	MSB-01906-02	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	14	specimen
+MSB-01956	MSB-01956-02	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	34	specimen
+MSB-01956	MSB-01956-03	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	34	specimen
+MSB-01960	MSB-01960-02	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	19	specimen
+MSB-01960	MSB-01960-03	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	19	specimen
+MSB-01960	MSB-01960-05	EDTA Blood	Blood	General blood draw		Progression (Fresh)	75	specimen
+MSB-01960	MSB-01960-07	Streck Blood to VARI	Blood	General blood draw		Progression (Fresh)	75	specimen
+MSB-01960	MSB-01960-09	Formalin Fixed Tissue	Formalin Fixed Tissue	Bladder	Metastatic	Progression (Fresh)	75	specimen
+MSB-01960	MSB-01960-10	EDTA Blood	Blood	General blood draw		Progression (Fresh)	313	specimen
+MSB-01960	MSB-01960-11	Streck Blood to VARI	Blood	General blood draw		Progression (Fresh)	313	specimen
+MSB-01960	MSB-01960-12	EDTA Blood	Blood	General Blood draw		On Treatment (Fresh)	372	specimen
+MSB-01960	MSB-01960-13	Streck Blood to VARI	Blood	General Blood draw		On Treatment (Fresh)	372	specimen
+MSB-01960	MSB-01960-14	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	477	specimen
+MSB-01960	MSB-01960-15	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	477	specimen
+MSB-01973	MSB-01973-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	20	specimen
+MSB-01973	MSB-01973-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	20	specimen
+MSB-02054	MSB-02054-02	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	26	specimen
+MSB-02054	MSB-02054-03	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	26	specimen
+MSB-02092	MSB-02092-01	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	2	specimen
+MSB-02092	MSB-02092-02	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	2	specimen
+MSB-02101	MSB-02101-01	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-02101	MSB-02101-02	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-02118	MSB-02118-02	EDTA Blood	Blood	general blood draw not available		Baseline (Fresh)	0	specimen
+MSB-02118	MSB-02118-03	Streck Blood to VARI	Blood	general blood draw not available		Baseline (Fresh)	0	specimen
+MSB-02120	MSB-02120-01	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	0	specimen
+MSB-02120	MSB-02120-02	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	0	specimen
+MSB-02137	MSB-02137-04	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	55	specimen
+MSB-02137	MSB-02137-05	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	55	specimen
+MSB-02139	MSB-02139-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	62	specimen
+MSB-02139	MSB-02139-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	62	specimen
+MSB-02139	MSB-02139-04	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	366	specimen
+MSB-02139	MSB-02139-05	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	366	specimen
+MSB-02151	MSB-02151-02	Formalin Fixed Tissue	Formalin Fixed Tissue	Lung	Primary	On Treatment (Fresh)	4	specimen
+MSB-02151	MSB-02151-03	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	19	specimen
+MSB-02151	MSB-02151-04	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	19	specimen
+MSB-02169	MSB-02169-02	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	6	specimen
+MSB-02169	MSB-02169-03	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	6	specimen
+MSB-02249	MSB-02249-02	EDTA Blood	Blood	General Blood Draw Left vein  Median Antecubital		Baseline (Fresh)	56	specimen
+MSB-02249	MSB-02249-03	Streck Blood to VARI	Blood	General Blood Draw LEFT vein median antecubital		Baseline (Fresh)	56	specimen
+MSB-02249	MSB-02249-05	EDTA Blood	Blood	general Blood draw		Progression (Fresh)	161	specimen
+MSB-02249	MSB-02249-06	Streck Blood to VARI	Blood	General Blood Draw		Progression (Fresh)	161	specimen
+MSB-02266	MSB-02266-01	EDTA Blood	Blood	General blood draw		Baseline (Fresh)	0	specimen
+MSB-02266	MSB-02266-02	Streck Blood to VARI	Blood	General blood draw		Baseline (Fresh)	0	specimen
+MSB-02271	MSB-02271-02	EDTA Blood	Blood	general		Baseline (Fresh)	0	specimen
+MSB-02271	MSB-02271-03	Streck Blood to VARI	Blood	general		Baseline (Fresh)	0	specimen
+MSB-02271	MSB-02271-04	EDTA Blood	Blood	general		On Treatment (Fresh)	168	specimen
+MSB-02271	MSB-02271-05	Streck Blood to VARI	Blood	general		On Treatment (Fresh)	168	specimen
+MSB-02286	MSB-02286-01	Bone Marrow Aspirate	Bone Marrow	Bone Marrow	Primary	Baseline (Fresh)	0	specimen
+MSB-02286	MSB-02286-02	EDTA Blood	Blood	general		Baseline (Fresh)	0	specimen
+MSB-02286	MSB-02286-03	Streck Blood to VARI	Blood	general		Baseline (Fresh)	0	specimen
+MSB-02286	MSB-02286-04	EDTA Blood	Blood	General		Progression (Fresh)	133	specimen
+MSB-02286	MSB-02286-05	Streck Blood to VARI	Blood	General		Progression (Fresh)	133	specimen
+MSB-02291	MSB-02291-01	EDTA Blood	Blood	General Bllod Draw		Baseline (Fresh)	0	specimen
+MSB-02291	MSB-02291-02	Streck Blood to VARI	Blood	General Bllod Draw		Baseline (Fresh)	0	specimen
+MSB-02291	MSB-02291-07	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	193	specimen
+MSB-02302	MSB-02302-02	Formalin Fixed Tissue	Formalin Fixed Tissue	Supraclavicular Lymph Node	Metastatic	Baseline (Fresh)	0	specimen
+MSB-02302	MSB-02302-03	EDTA Blood	Blood	General blood draw		Baseline (Fresh)	0	specimen
+MSB-02302	MSB-02302-04	Streck Blood to VARI	Blood	General blood draw		Baseline (Fresh)	0	specimen
+MSB-02367	MSB-02367-01	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	3	specimen
+MSB-02367	MSB-02367-02	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	3	specimen
+MSB-02370	MSB-02370-02	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	22	specimen
+MSB-02370	MSB-02370-03	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	22	specimen
+MSB-02381	MSB-02381-03	EDTA Blood	Blood	Arm		On Treatment (Fresh)	1	specimen
+MSB-02381	MSB-02381-04	Streck Blood to VARI	Blood	Arm		On Treatment (Fresh)	1	specimen
+MSB-02381	MSB-02381-05	EDTA Blood	Blood	general blood draw		Progression (Fresh)	492	specimen
+MSB-02381	MSB-02381-06	Streck Blood to VARI	Blood	general blood draw		Progression (Fresh)	492	specimen
+MSB-02429	MSB-02429-01	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-02429	MSB-02429-02	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-02429	MSB-02429-03	Bone Marrow Aspirate	Bone Marrow	Iliac Crest		Baseline (Fresh)	0	specimen
+MSB-02429	MSB-02429-05	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	192	specimen
+MSB-02429	MSB-02429-06	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	192	specimen
+MSB-02429	MSB-02429-07	EDTA Blood	Blood	general blood draw		Progression (Fresh)	668	specimen
+MSB-02429	MSB-02429-08	Streck Blood to VARI	Blood	general blood draw		Progression (Fresh)	668	specimen
+MSB-02429	MSB-02429-09	Bone Marrow Aspirate	Bone Marrow	Iliac Crest	Primary	Progression (Fresh)	668	specimen
+MSB-02457	MSB-02457-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	6	specimen
+MSB-02457	MSB-02457-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	6	specimen
+MSB-02472	MSB-02472-01	EDTA Blood	Blood	Drawn blood		On Treatment (Fresh)	0	specimen
+MSB-02472	MSB-02472-02	Streck Blood to VARI	Blood	Blood draw		On Treatment (Fresh)	0	specimen
+MSB-02561	MSB-02561-01	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	7	specimen
+MSB-02561	MSB-02561-02	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	7	specimen
+MSB-02599	MSB-02599-02	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-02599	MSB-02599-03	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-02599	MSB-02599-04	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	56	specimen
+MSB-02599	MSB-02599-05	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	56	specimen
+MSB-02661	MSB-02661-02	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	26	specimen
+MSB-02661	MSB-02661-03	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	26	specimen
+MSB-02664	MSB-02664-01	Formalin Fixed Tissue	Formalin Fixed Tissue	Breast	Primary	Baseline (Fresh)	6	specimen
+MSB-02664	MSB-02664-02	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	14	specimen
+MSB-02664	MSB-02664-03	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	14	specimen
+MSB-02729	MSB-02729-01	Formalin Fixed Tissue	Formalin Fixed Tissue	Prostate Gland	Primary	Baseline (Fresh)	5	specimen
+MSB-02729	MSB-02729-03	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	47	specimen
+MSB-02729	MSB-02729-04	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	47	specimen
+MSB-02746	MSB-02746-01	EDTA Blood	Blood	blood draw		Baseline (Fresh)	0	specimen
+MSB-02746	MSB-02746-02	Streck Blood to VARI	Blood	blood draw		Baseline (Fresh)	0	specimen
+MSB-02808	MSB-02808-02	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	4	specimen
+MSB-02808	MSB-02808-03	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	4	specimen
+MSB-02829	MSB-02829-02	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	25	specimen
+MSB-02829	MSB-02829-03	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	25	specimen
+MSB-02829	MSB-02829-04	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	186	specimen
+MSB-02829	MSB-02829-05	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	186	specimen
+MSB-02829	MSB-02829-06	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	354	specimen
+MSB-02829	MSB-02829-07	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	354	specimen
+MSB-02829	MSB-02829-08	Formalin Fixed Tissue	Formalin Fixed Tissue	Lymph Node	Metastatic	Progression (Fresh)	373	specimen
+MSB-02901	MSB-02901-01	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	27	specimen
+MSB-02901	MSB-02901-02	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	27	specimen
+MSB-02902	MSB-02902-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	27	specimen
+MSB-02902	MSB-02902-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	27	specimen
+MSB-02917	MSB-02917-02	EDTA Blood	Blood	General Blood Draw		Progression (Fresh)	539	specimen
+MSB-02917	MSB-02917-03	Streck Blood to VARI	Blood	General Blood Draw		Progression (Fresh)	539	specimen
+MSB-02929	MSB-02929-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	20	specimen
+MSB-02929	MSB-02929-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	20	specimen
+MSB-02960	MSB-02960-01	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-02960	MSB-02960-02	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-02960	MSB-02960-03	Bone Marrow Aspirate	Bone Marrow	Iliac Crest	Primary	Baseline (Fresh)	0	specimen
+MSB-02960	MSB-02960-05	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	14	specimen
+MSB-02960	MSB-02960-06	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	14	specimen
+MSB-02960	MSB-02960-09	EDTA Blood	Blood	General Blood Draw		Post-Treatment (No progression)	45	specimen
+MSB-02960	MSB-02960-10	Streck Blood to VARI	Blood	General blood draw		Post-Treatment (No progression)	45	specimen
+MSB-02960	MSB-02960-12	Bone Marrow Aspirate	Bone Marrow	Iliac Crest	Primary	Post-Treatment (No progression)	45	specimen
+MSB-02988	MSB-02988-03	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	36	specimen
+MSB-02988	MSB-02988-04	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	36	specimen
+MSB-02988	MSB-02988-05	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	510	specimen
+MSB-02988	MSB-02988-06	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	510	specimen
+MSB-02990	MSB-02990-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	1	specimen
+MSB-02990	MSB-02990-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	1	specimen
+MSB-02990	MSB-02990-05	EDTA Blood	Blood	general blood draw		Progression (Fresh)	22	specimen
+MSB-02990	MSB-02990-06	Streck Blood to VARI	Blood	general blood draw		Progression (Fresh)	22	specimen
+MSB-02990	MSB-02990-08	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	103	specimen
+MSB-02990	MSB-02990-09	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	103	specimen
+MSB-03016	MSB-03016-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	0	specimen
+MSB-03016	MSB-03016-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	0	specimen
+MSB-03032	MSB-03032-02	EDTA Blood	Blood	General Blood Draw‚Äô		Baseline (Fresh)	6	specimen
+MSB-03032	MSB-03032-03	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	6	specimen
+MSB-03053	MSB-03053-01	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-03053	MSB-03053-02	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-03069	MSB-03069-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	14	specimen
+MSB-03069	MSB-03069-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	14	specimen
+MSB-03203	MSB-03203-02	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	19	specimen
+MSB-03203	MSB-03203-03	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	19	specimen
+MSB-03226	MSB-03226-02	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	5	specimen
+MSB-03226	MSB-03226-03	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	5	specimen
+MSB-03226	MSB-03226-04	Bone Marrow Aspirate	Bone Marrow	Iliac Crest		Baseline (Fresh)	5	specimen
+MSB-03226	MSB-03226-06	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	135	specimen
+MSB-03226	MSB-03226-07	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	135	specimen
+MSB-03226	MSB-03226-10	EDTA Blood	Blood	general blood draw		Progression (Fresh)	671	specimen
+MSB-03226	MSB-03226-11	Streck Blood to VARI	Blood	general blood draw		Progression (Fresh)	671	specimen
+MSB-03226	MSB-03226-12	Bone Marrow Aspirate	Bone Marrow	Iliac Crest	Primary	Progression (Fresh)	671	specimen
+MSB-03244	MSB-03244-01	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-03244	MSB-03244-02	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-03258	MSB-03258-01	FORMALIN FIXED TISSUE	Formalin Fixed Tissue	Liver	Metastatic	Baseline (Fresh)	0	specimen
+MSB-03258	MSB-03258-03	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-03258	MSB-03258-04	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-03258	MSB-03258-05	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	302	specimen
+MSB-03258	MSB-03258-06	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	302	specimen
+MSB-03258	MSB-03258-07	EDTA Blood	Blood	general blood draw		Progression (Fresh)	315	specimen
+MSB-03258	MSB-03258-08	Streck Blood to VARI	Blood	general blood draw		Progression (Fresh)	315	specimen
+MSB-03258	MSB-03258-09	Formalin Fixed Tissue	Formalin Fixed Tissue	Liver	Metastatic	Progression (Fresh)	315	specimen
+MSB-03272	MSB-03272-01	EDTA Blood	Blood	GENERAL BLOOD DRAW  RIGHT MEDIAN ANTECUBITAL		On Treatment (Fresh)	0	specimen
+MSB-03272	MSB-03272-02	Streck Blood to VARI	Blood	GNERAL BLOOD DRAW  RIGHT MEDIAN ANTECUBITAL		On Treatment (Fresh)	0	specimen
+MSB-03308	MSB-03308-01	Formalin Fixed Tissue	Formalin Fixed Tissue	Paratracheal Lymph Node	Metastatic	Baseline (Fresh)	0	specimen
+MSB-03312	MSB-03312-02	EDTA Blood	Blood	general blood draw from port		On Treatment (Fresh)	5	specimen
+MSB-03312	MSB-03312-03	Streck Blood to VARI	Blood	general blood draw from port		On Treatment (Fresh)	5	specimen
+MSB-03312	MSB-03312-04	EDTA Blood	Blood	general blood draw		Progression (Fresh)	112	specimen
+MSB-03312	MSB-03312-05	Streck Blood to VARI	Blood	general blood draw		Progression (Fresh)	112	specimen
+MSB-03315	MSB-03315-02	Bone Marrow Aspirate	Bone Marrow	Iliac Crest		Baseline (Fresh)	0	specimen
+MSB-03315	MSB-03315-03	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-03315	MSB-03315-04	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-03315	MSB-03315-05	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	195	specimen
+MSB-03315	MSB-03315-06	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	195	specimen
+MSB-03315	MSB-03315-07	EDTA Blood	Blood	general blood draw		Progression (Fresh)	314	specimen
+MSB-03315	MSB-03315-08	Streck Blood to VARI	Blood	general blood draw		Progression (Fresh)	314	specimen
+MSB-03321	MSB-03321-01	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	14	specimen
+MSB-03321	MSB-03321-02	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	14	specimen
+MSB-03330	MSB-03330-01	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	10	specimen
+MSB-03330	MSB-03330-02	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	10	specimen
+MSB-03330	MSB-03330-04	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	497	specimen
+MSB-03330	MSB-03330-05	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	497	specimen
+MSB-03358	MSB-03358-04	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	20	specimen
+MSB-03358	MSB-03358-05	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	20	specimen
+MSB-03400	MSB-03400-01	EDTA Blood	Blood	general blood draw not available		Baseline (Fresh)	13	specimen
+MSB-03400	MSB-03400-03	Streck Blood to VARI	Blood	general blood draw not available		Baseline (Fresh)	13	specimen
+MSB-03406	MSB-03406-01	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	2	specimen
+MSB-03406	MSB-03406-02	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	2	specimen
+MSB-03406	MSB-03406-04	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	79	specimen
+MSB-03406	MSB-03406-05	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	79	specimen
+MSB-03414	MSB-03414-01	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-03414	MSB-03414-02	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-03414	MSB-03414-04	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	83	specimen
+MSB-03414	MSB-03414-05	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	83	specimen
+MSB-03453	MSB-03453-02	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	9	specimen
+MSB-03453	MSB-03453-03	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	9	specimen
+MSB-03453	MSB-03453-04	Bone Marrow Aspirate	Bone Marrow	Iliac Crest		Baseline (Fresh)	9	specimen
+MSB-03453	MSB-03453-06	EDTA Blood	Blood	General Blood Draw		Progression (Fresh)	100	specimen
+MSB-03453	MSB-03453-07	Streck Blood to VARI	Blood	General Blood Draw		Progression (Fresh)	100	specimen
+MSB-03483	MSB-03483-01	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	14	specimen
+MSB-03483	MSB-03483-02	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	14	specimen
+MSB-03483	MSB-03483-04	EDTA Blood	Blood	General blood draw		Progression (Fresh)	196	specimen
+MSB-03483	MSB-03483-05	Streck Blood to VARI	Blood	General Blood Draw		Progression (Fresh)	196	specimen
+MSB-03513	MSB-03513-02	EDTA Blood	Blood	GENERAL BLOOD DRAW		Progression (Fresh)	0	specimen
+MSB-03513	MSB-03513-03	Streck Blood to VARI	Blood	GENERAL BLOOD DRAW		Progression (Fresh)	0	specimen
+MSB-03548	MSB-03548-02	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	-1	specimen
+MSB-03548	MSB-03548-03	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	-1	specimen
+MSB-03554	MSB-03554-01	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	14	specimen
+MSB-03554	MSB-03554-02	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	14	specimen
+MSB-03592	MSB-03592-01	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	1	specimen
+MSB-03592	MSB-03592-02	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	1	specimen
+MSB-03638	MSB-03638-01	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	1	specimen
+MSB-03638	MSB-03638-02	Streck Blood to VARI	Blood	general blood draw;		On Treatment (Fresh)	1	specimen
+MSB-03725	MSB-03725-03	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-03725	MSB-03725-04	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-03725	MSB-03725-05	EDTA Blood	Blood	port blood draw		On Treatment (Fresh)	217	specimen
+MSB-03725	MSB-03725-06	Streck Blood to VARI	Blood	port blood draw		On Treatment (Fresh)	217	specimen
+MSB-03725	MSB-03725-07	EDTA Blood	Blood	port blood draw		On Treatment (Fresh)	426	specimen
+MSB-03725	MSB-03725-08	Streck Blood to VARI	Blood	port blood draw		On Treatment (Fresh)	426	specimen
+MSB-03738	MSB-03738-04	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	193	specimen
+MSB-03738	MSB-03738-05	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	193	specimen
+MSB-03796	MSB-03796-01	EDTA Blood	Blood	blood draw		Baseline (Fresh)	0	specimen
+MSB-03796	MSB-03796-02	Streck Blood to VARI	Blood	blood draw		Baseline (Fresh)	0	specimen
+MSB-03804	MSB-03804-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	8	specimen
+MSB-03804	MSB-03804-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	8	specimen
+MSB-03808	MSB-03808-02	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	9	specimen
+MSB-03808	MSB-03808-03	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	9	specimen
+MSB-03816	MSB-03816-01	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	0	specimen
+MSB-03816	MSB-03816-02	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	0	specimen
+MSB-03816	MSB-03816-04	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	141	specimen
+MSB-03816	MSB-03816-05	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	141	specimen
+MSB-03816	MSB-03816-06	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	225	specimen
+MSB-03816	MSB-03816-07	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	225	specimen
+MSB-03816	MSB-03816-08	EDTA Blood	Blood	general blood draw		Progression (Fresh)	315	specimen
+MSB-03816	MSB-03816-09	Streck Blood to VARI	Blood	general blood draw		Progression (Fresh)	315	specimen
+MSB-03816	MSB-03816-10	Bone Marrow Aspirate	Bone Marrow	Bone Marrow		Progression (Fresh)	316	specimen
+MSB-03816	MSB-03816-11	Streck Blood to VARI	Blood	general blood draw		Progression (Fresh)	316	specimen
+MSB-03839	MSB-03839-01	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-03839	MSB-03839-02	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-03839	MSB-03839-03	Bone Marrow Aspirate	Bone Marrow	Iliac Crest	Primary	Baseline (Fresh)	0	specimen
+MSB-03839	MSB-03839-05	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	87	specimen
+MSB-03839	MSB-03839-06	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	87	specimen
+MSB-03854	MSB-03854-03	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	7	specimen
+MSB-03854	MSB-03854-04	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	7	specimen
+MSB-03854	MSB-03854-05	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	105	specimen
+MSB-03854	MSB-03854-06	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	105	specimen
+MSB-03854	MSB-03854-07	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	203	specimen
+MSB-03854	MSB-03854-08	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	203	specimen
+MSB-03885	MSB-03885-02	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	1	specimen
+MSB-03885	MSB-03885-03	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	1	specimen
+MSB-03891	MSB-03891-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	25	specimen
+MSB-03891	MSB-03891-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	25	specimen
+MSB-03891	MSB-03891-05	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	270	specimen
+MSB-03891	MSB-03891-06	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	270	specimen
+MSB-03896	MSB-03896-02	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	6	specimen
+MSB-03896	MSB-03896-03	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	6	specimen
+MSB-03932	MSB-03932-01	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	0	specimen
+MSB-03932	MSB-03932-02	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	0	specimen
+MSB-03973	MSB-03973-02	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	22	specimen
+MSB-03973	MSB-03973-03	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	22	specimen
+MSB-04006	MSB-04006-01	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	36	specimen
+MSB-04006	MSB-04006-02	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	36	specimen
+MSB-04030	MSB-04030-07	EDTA Blood	Blood	General blood draw		Baseline (Fresh)	23	specimen
+MSB-04030	MSB-04030-08	Streck Blood to VARI	Blood	General blood draw		Baseline (Fresh)	23	specimen
+MSB-04030	MSB-04030-09	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	128	specimen
+MSB-04030	MSB-04030-10	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	128	specimen
+MSB-04030	MSB-04030-11	Bone Marrow Aspirate	Bone Marrow	Iliac Crest	Primary	On Treatment (Fresh)	128	specimen
+MSB-04030	MSB-04030-13	EDTA Blood	Blood	general blood draw		Progression (Fresh)	700	specimen
+MSB-04030	MSB-04030-14	Streck Blood to VARI	Blood	general blood draw		Progression (Fresh)	700	specimen
+MSB-04031	MSB-04031-02	Bone Marrow Aspirate	Bone Marrow	Iliac Crest	Primary	Baseline (Fresh)	1	specimen
+MSB-04031	MSB-04031-03	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	33	specimen
+MSB-04031	MSB-04031-04	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	33	specimen
+MSB-04064	MSB-04064-01	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	0	specimen
+MSB-04064	MSB-04064-02	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	0	specimen
+MSB-04064	MSB-04064-04	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	42	specimen
+MSB-04064	MSB-04064-05	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	42	specimen
+MSB-04064	MSB-04064-06	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	140	specimen
+MSB-04064	MSB-04064-07	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	140	specimen
+MSB-04064	MSB-04064-08	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	238	specimen
+MSB-04064	MSB-04064-09	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	238	specimen
+MSB-04064	MSB-04064-10	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	322	specimen
+MSB-04064	MSB-04064-11	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	322	specimen
+MSB-04096	MSB-04096-01	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	6	specimen
+MSB-04096	MSB-04096-02	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	6	specimen
+MSB-04096	MSB-04096-04	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	70	specimen
+MSB-04096	MSB-04096-05	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	70	specimen
+MSB-04096	MSB-04096-06	Formalin Fixed Tissue	Formalin Fixed Tissue	Lymph Node	Metastatic	Progression (Fresh)	148	specimen
+MSB-04096	MSB-04096-08	EDTA Blood	Blood	general blood draw		Progression (Fresh)	152	specimen
+MSB-04096	MSB-04096-10	Streck Blood to VARI	Blood	general blood draw		Progression (Fresh)	152	specimen
+MSB-04141	MSB-04141-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	0	specimen
+MSB-04141	MSB-04141-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	0	specimen
+MSB-04141	MSB-04141-04	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	70	specimen
+MSB-04141	MSB-04141-05	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	70	specimen
+MSB-04141	MSB-04141-06	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	201	specimen
+MSB-04141	MSB-04141-07	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	201	specimen
+MSB-04141	MSB-04141-08	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	425	specimen
+MSB-04141	MSB-04141-09	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	425	specimen
+MSB-04143	MSB-04143-03	EDTA Blood	Blood	BLOOD		On Treatment (Fresh)	8	specimen
+MSB-04143	MSB-04143-04	Streck Blood to VARI	Blood	BLOOD		On Treatment (Fresh)	8	specimen
+MSB-04143	MSB-04143-05	EDTA Blood	Blood	general blood draw		Post-Treatment (No progression)	247	specimen
+MSB-04143	MSB-04143-06	Streck Blood to VARI	Blood	general blood draw		Post-Treatment (No progression)	247	specimen
+MSB-04176	MSB-04176-02	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	76	specimen
+MSB-04176	MSB-04176-03	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	76	specimen
+MSB-04228	MSB-04228-01	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-04228	MSB-04228-02	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-04286	MSB-04286-02	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	21	specimen
+MSB-04286	MSB-04286-03	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	21	specimen
+MSB-04307	MSB-04307-01	Bone Marrow Aspirate	Bone Marrow	Bone Marrow		Baseline (Fresh)	0	specimen
+MSB-04307	MSB-04307-02	EDTA Blood	Blood	General blood draw		Baseline (Fresh)	27	specimen
+MSB-04307	MSB-04307-03	Streck Blood to VARI	Blood	General blood draw		Baseline (Fresh)	27	specimen
+MSB-04315	MSB-04315-02	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-04315	MSB-04315-03	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-04319	MSB-04319-02	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	26	specimen
+MSB-04319	MSB-04319-03	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	26	specimen
+MSB-04332	MSB-04332-01	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-04332	MSB-04332-02	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-04347	MSB-04347-01	EDTA Blood	Blood	Port Blood Draw		On Treatment (Fresh)	14	specimen
+MSB-04347	MSB-04347-02	Streck Blood to VARI	Blood	Port blood draw		On Treatment (Fresh)	14	specimen
+MSB-04347	MSB-04347-04	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	183	specimen
+MSB-04347	MSB-04347-05	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	183	specimen
+MSB-04388	MSB-04388-02	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	42	specimen
+MSB-04388	MSB-04388-03	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	42	specimen
+MSB-04388	MSB-04388-04	EDTA Blood	Blood	General Blood Draw		Post-Treatment (No progression)	292	specimen
+MSB-04388	MSB-04388-05	Streck Blood to VARI	Blood	General Blood Draw		Post-Treatment (No progression)	292	specimen
+MSB-04388	MSB-04388-06	EDTA Blood	Blood	General blood draw		Post-Treatment (No progression)	420	specimen
+MSB-04388	MSB-04388-07	Streck Blood to VARI	Blood	General blood draw		Post-Treatment (No progression)	420	specimen
+MSB-04415	MSB-04415-02	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	175	specimen
+MSB-04415	MSB-04415-03	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	175	specimen
+MSB-04432	MSB-04432-01	EDTA Blood	Blood	General		Baseline (Fresh)	0	specimen
+MSB-04432	MSB-04432-02	Streck Blood to VARI	Blood	General		Baseline (Fresh)	0	specimen
+MSB-04433	MSB-04433-01	EDTA Blood	Blood	general blood		Baseline (Fresh)	1	specimen
+MSB-04433	MSB-04433-02	Streck Blood to VARI	Blood	general blood		Baseline (Fresh)	1	specimen
+MSB-04433	MSB-04433-04	Formalin Fixed Tissue	Formalin Fixed Tissue	Lymph Node	Metastatic	Baseline (Fresh)	1	specimen
+MSB-04433	MSB-04433-05	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	294	specimen
+MSB-04433	MSB-04433-06	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	294	specimen
+MSB-04433	MSB-04433-08	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	528	specimen
+MSB-04433	MSB-04433-09	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	528	specimen
+MSB-04437	MSB-04437-02	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	1	specimen
+MSB-04437	MSB-04437-03	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	1	specimen
+MSB-04437	MSB-04437-05	Formalin Fixed Tissue	Formalin Fixed Tissue	Liver	Metastatic	Baseline (Fresh)	1	specimen
+MSB-04437	MSB-04437-07	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	20	specimen
+MSB-04437	MSB-04437-08	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	20	specimen
+MSB-04450	MSB-04450-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	34	specimen
+MSB-04450	MSB-04450-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	34	specimen
+MSB-04450	MSB-04450-04	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	362	specimen
+MSB-04450	MSB-04450-05	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	362	specimen
+MSB-04500	MSB-04500-02	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	91	specimen
+MSB-04500	MSB-04500-03	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	91	specimen
+MSB-04569	MSB-04569-01	Formalin Fixed Tissue	Formalin Fixed Tissue	Left Lung	Primary	Progression (Fresh)	6	specimen
+MSB-04569	MSB-04569-02	EDTA Blood	Blood	General Blood Draw		Progression (Fresh)	6	specimen
+MSB-04569	MSB-04569-03	Streck Blood to VARI	Blood	General Blood Draw		Progression (Fresh)	6	specimen
+MSB-04588	MSB-04588-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	3	specimen
+MSB-04588	MSB-04588-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	3	specimen
+MSB-04591	MSB-04591-03	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-04591	MSB-04591-04	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-04591	MSB-04591-05	Bone Marrow Aspirate	Bone Marrow	Iliac Crest	Primary	Baseline (Fresh)	0	specimen
+MSB-04591	MSB-04591-07	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	27	specimen
+MSB-04591	MSB-04591-08	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	27	specimen
+MSB-04591	MSB-04591-11	EDTA Blood	Blood	general blood draw		Post-Treatment (No progression)	61	specimen
+MSB-04591	MSB-04591-12	Streck Blood to VARI	Blood	general blood draw		Post-Treatment (No progression)	61	specimen
+MSB-04620	MSB-04620-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	20	specimen
+MSB-04620	MSB-04620-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	20	specimen
+MSB-04678	MSB-04678-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	0	specimen
+MSB-04678	MSB-04678-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	0	specimen
+MSB-04678	MSB-04678-05	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	125	specimen
+MSB-04678	MSB-04678-06	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	125	specimen
+MSB-04678	MSB-04678-07	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	239	specimen
+MSB-04678	MSB-04678-08	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	239	specimen
+MSB-04774	MSB-04774-01	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	22	specimen
+MSB-04774	MSB-04774-02	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	22	specimen
+MSB-04774	MSB-04774-04	EDTA Blood	Blood	general blood draw		Progression (Fresh)	90	specimen
+MSB-04774	MSB-04774-05	Streck Blood to VARI	Blood	general blood draw		Progression (Fresh)	90	specimen
+MSB-04780	MSB-04780-01	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	2	specimen
+MSB-04780	MSB-04780-02	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	2	specimen
+MSB-04780	MSB-04780-04	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	84	specimen
+MSB-04780	MSB-04780-05	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	84	specimen
+MSB-04797	MSB-04797-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	50	specimen
+MSB-04797	MSB-04797-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	50	specimen
+MSB-04797	MSB-04797-04	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	162	specimen
+MSB-04797	MSB-04797-05	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	162	specimen
+MSB-04847	MSB-04847-03	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	1	specimen
+MSB-04847	MSB-04847-04	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	1	specimen
+MSB-04849	MSB-04849-01	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	0	specimen
+MSB-04849	MSB-04849-02	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	0	specimen
+MSB-04856	MSB-04856-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	14	specimen
+MSB-04856	MSB-04856-03	Streck Blood to VARI	Blood	General blood Draw		On Treatment (Fresh)	14	specimen
+MSB-04856	MSB-04856-04	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	133	specimen
+MSB-04856	MSB-04856-05	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	133	specimen
+MSB-04859	MSB-04859-02	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	19	specimen
+MSB-04859	MSB-04859-03	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	19	specimen
+MSB-04863	MSB-04863-02	EDTA Blood	Blood	General  blood draw		Baseline (Fresh)	0	specimen
+MSB-04863	MSB-04863-03	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-04863	MSB-04863-06	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	133	specimen
+MSB-04863	MSB-04863-07	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	133	specimen
+MSB-04863	MSB-04863-08	EDTA Blood	Blood	General		On Treatment (Fresh)	217	specimen
+MSB-04863	MSB-04863-09	Streck Blood to VARI	Blood	General		On Treatment (Fresh)	217	specimen
+MSB-04864	MSB-04864-01	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	49	specimen
+MSB-04864	MSB-04864-02	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	49	specimen
+MSB-04939	MSB-04939-01	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-04939	MSB-04939-02	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-04939	MSB-04939-03	Bone Marrow Aspirate	Bone Marrow	Iliac Crest	Primary	Baseline (Fresh)	0	specimen
+MSB-04950	MSB-04950-02	Bone Marrow Aspirate	Bone Marrow	Iliac Crest		Baseline (Fresh)	0	specimen
+MSB-04950	MSB-04950-03	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-04950	MSB-04950-04	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-04950	MSB-04950-08	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	110	specimen
+MSB-04950	MSB-04950-09	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	110	specimen
+MSB-04968	MSB-04968-01	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	0	specimen
+MSB-04968	MSB-04968-02	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	0	specimen
+MSB-04968	MSB-04968-04	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	135	specimen
+MSB-04968	MSB-04968-05	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	135	specimen
+MSB-04968	MSB-04968-06	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	238	specimen
+MSB-04968	MSB-04968-07	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	238	specimen
+MSB-04968	MSB-04968-08	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	307	specimen
+MSB-04968	MSB-04968-09	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	307	specimen
+MSB-04985	MSB-04985-01	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	6	specimen
+MSB-04985	MSB-04985-02	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	6	specimen
+MSB-04985	MSB-04985-03	Bone Marrow Aspirate	Bone Marrow	Iliac Crest	Primary	Baseline (Fresh)	6	specimen
+MSB-04985	MSB-04985-05	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	97	specimen
+MSB-04985	MSB-04985-06	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	97	specimen
+MSB-04985	MSB-04985-07	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	299	specimen
+MSB-04985	MSB-04985-08	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	299	specimen
+MSB-05015	MSB-05015-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	19	specimen
+MSB-05015	MSB-05015-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	19	specimen
+MSB-05074	MSB-05074-02	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	5	specimen
+MSB-05074	MSB-05074-03	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	5	specimen
+MSB-05074	MSB-05074-04	EDTA Blood	Blood	General blood draw		Progression (Fresh)	104	specimen
+MSB-05074	MSB-05074-05	Streck Blood to VARI	Blood	General blood draw		Progression (Fresh)	104	specimen
+MSB-05098	MSB-05098-01	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	0	specimen
+MSB-05098	MSB-05098-02	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	0	specimen
+MSB-05098	MSB-05098-04	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	46	specimen
+MSB-05098	MSB-05098-05	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	46	specimen
+MSB-05098	MSB-05098-06	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	245	specimen
+MSB-05098	MSB-05098-07	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	245	specimen
+MSB-05098	MSB-05098-08	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	311	specimen
+MSB-05098	MSB-05098-09	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	311	specimen
+MSB-05104	MSB-05104-03	EDTA Blood	Blood	GENERAL BLOOD DRAW		On Treatment (Fresh)	0	specimen
+MSB-05104	MSB-05104-04	Streck Blood to VARI	Blood	GENERAL BLOOD BRAW		On Treatment (Fresh)	0	specimen
+MSB-05105	MSB-05105-02	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	14	specimen
+MSB-05126	MSB-05126-01	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	13	specimen
+MSB-05126	MSB-05126-02	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	13	specimen
+MSB-05138	MSB-05138-02	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-05138	MSB-05138-03	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-05151	MSB-05151-01	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	-1	specimen
+MSB-05151	MSB-05151-02	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	-1	specimen
+MSB-05151	MSB-05151-03	Bone Marrow Aspirate	Bone Marrow	Bone Marrow	Primary	Baseline (Fresh)	1	specimen
+MSB-05151	MSB-05151-05	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	161	specimen
+MSB-05151	MSB-05151-06	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	161	specimen
+MSB-05167	MSB-05167-01	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	6	specimen
+MSB-05167	MSB-05167-03	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	6	specimen
+MSB-05187	MSB-05187-02	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	7	specimen
+MSB-05187	MSB-05187-03	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	7	specimen
+MSB-05206	MSB-05206-01	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-05206	MSB-05206-02	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-05206	MSB-05206-04	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	87	specimen
+MSB-05206	MSB-05206-05	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	87	specimen
+MSB-05246	MSB-05246-01	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	20	specimen
+MSB-05246	MSB-05246-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	20	specimen
+MSB-05251	MSB-05251-01	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	1	specimen
+MSB-05251	MSB-05251-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	1	specimen
+MSB-05256	MSB-05256-02	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	18	specimen
+MSB-05256	MSB-05256-03	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	18	specimen
+MSB-05256	MSB-05256-04	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	74	specimen
+MSB-05256	MSB-05256-05	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	74	specimen
+MSB-05256	MSB-05256-06	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	116	specimen
+MSB-05256	MSB-05256-07	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	116	specimen
+MSB-05256	MSB-05256-08	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	200	specimen
+MSB-05256	MSB-05256-09	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	200	specimen
+MSB-05281	MSB-05281-03	EDTA Blood	Blood	Drawn from port post flush		On Treatment (Fresh)	42	specimen
+MSB-05281	MSB-05281-04	Streck Blood to VARI	Blood	Drawn from port post flush		On Treatment (Fresh)	42	specimen
+MSB-05283	MSB-05283-01	EDTA Blood	Blood	General		Baseline (Fresh)	0	specimen
+MSB-05283	MSB-05283-02	Streck Blood to VARI	Blood	General		Baseline (Fresh)	0	specimen
+MSB-05283	MSB-05283-03	EDTA Blood	Blood	general		On Treatment (Fresh)	140	specimen
+MSB-05283	MSB-05283-04	Streck Blood to VARI	Blood	general		On Treatment (Fresh)	140	specimen
+MSB-05283	MSB-05283-05	EDTA Blood	Blood	general		Progression (Fresh)	215	specimen
+MSB-05283	MSB-05283-06	Streck Blood to VARI	Blood	general		Progression (Fresh)	215	specimen
+MSB-05326	MSB-05326-01	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	4	specimen
+MSB-05326	MSB-05326-02	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	4	specimen
+MSB-05352	MSB-05352-01	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	11	specimen
+MSB-05352	MSB-05352-02	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	11	specimen
+MSB-05352	MSB-05352-03	EDTA Blood	Blood	general blood draw		Progression (Fresh)	171	specimen
+MSB-05352	MSB-05352-04	Streck Blood to VARI	Blood	general blood draw		Progression (Fresh)	171	specimen
+MSB-05354	MSB-05354-02	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	15	specimen
+MSB-05354	MSB-05354-03	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	15	specimen
+MSB-05354	MSB-05354-04	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	293	specimen
+MSB-05354	MSB-05354-05	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	293	specimen
+MSB-05354	MSB-05354-06	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	398	specimen
+MSB-05354	MSB-05354-07	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	398	specimen
+MSB-05354	MSB-05354-08	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	489	specimen
+MSB-05354	MSB-05354-09	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	489	specimen
+MSB-05365	MSB-05365-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	1	specimen
+MSB-05365	MSB-05365-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	1	specimen
+MSB-05387	MSB-05387-02	EDTA Blood	Blood	Drawn from port post 3ml discard		On Treatment (Fresh)	56	specimen
+MSB-05387	MSB-05387-03	Streck Blood to VARI	Blood	Drawn from port post 3ml discard		On Treatment (Fresh)	56	specimen
+MSB-05388	MSB-05388-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	15	specimen
+MSB-05388	MSB-05388-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	15	specimen
+MSB-05412	MSB-05412-01	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-05412	MSB-05412-02	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-05412	MSB-05412-04	EDTA Blood	Blood	General Blood Draw		Post-Treatment (No progression)	1000	specimen
+MSB-05412	MSB-05412-05	Streck Blood to VARI	Blood	General Blood Draw		Post-Treatment (No progression)	1000	specimen
+MSB-05428	MSB-05428-01	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	0	specimen
+MSB-05428	MSB-05428-02	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	0	specimen
+MSB-05428	MSB-05428-03	EDTA Blood	Blood	General blood draw		Progression (Fresh)	44	specimen
+MSB-05428	MSB-05428-04	Streck Blood to VARI	Blood	General blood draw		Progression (Fresh)	44	specimen
+MSB-05435	MSB-05435-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	41	specimen
+MSB-05435	MSB-05435-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	41	specimen
+MSB-05435	MSB-05435-04	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	599	specimen
+MSB-05435	MSB-05435-05	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	599	specimen
+MSB-05447	MSB-05447-01	EDTA Blood	Blood	GENERAL BLOOD DRAW		Baseline (Fresh)	0	specimen
+MSB-05447	MSB-05447-02	Streck Blood to VARI	Blood	GENERAL BLOOD DRAW		Baseline (Fresh)	0	specimen
+MSB-05447	MSB-05447-04	Formalin Fixed Tissue	Formalin Fixed Tissue	Liver	Metastatic	Baseline (Fresh)	0	specimen
+MSB-05447	MSB-05447-07	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	234	specimen
+MSB-05447	MSB-05447-08	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	234	specimen
+MSB-05460	MSB-05460-02	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	8	specimen
+MSB-05460	MSB-05460-03	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	8	specimen
+MSB-05460	MSB-05460-04	EDTA Blood	Blood	General blood draw		Progression (Fresh)	295	specimen
+MSB-05460	MSB-05460-05	Streck Blood to VARI	Blood	General blood draw		Progression (Fresh)	295	specimen
+MSB-05468	MSB-05468-01	Snap Frozen Tissue	Frozen Tissue	Pelvis	Metastatic	Baseline (Fresh)	0	specimen
+MSB-05468	MSB-05468-02	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-05468	MSB-05468-03	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-05496	MSB-05496-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	12	specimen
+MSB-05496	MSB-05496-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	12	specimen
+MSB-05502	MSB-05502-01	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	0	specimen
+MSB-05502	MSB-05502-02	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	0	specimen
+MSB-05502	MSB-05502-05	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	93	specimen
+MSB-05502	MSB-05502-06	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	93	specimen
+MSB-05562	MSB-05562-01	EDTA Blood	Blood	General		Baseline (Fresh)	0	specimen
+MSB-05562	MSB-05562-02	Streck Blood to VARI	Blood	General		Baseline (Fresh)	0	specimen
+MSB-05562	MSB-05562-03	Bone Marrow Aspirate	Bone Marrow	Bone Marrow	Primary	Baseline (Fresh)	0	specimen
+MSB-05562	MSB-05562-05	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	174	specimen
+MSB-05562	MSB-05562-06	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	174	specimen
+MSB-05563	MSB-05563-02	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	4	specimen
+MSB-05563	MSB-05563-03	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	4	specimen
+MSB-05594	MSB-05594-01	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	4	specimen
+MSB-05594	MSB-05594-02	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	4	specimen
+MSB-05602	MSB-05602-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	52	specimen
+MSB-05602	MSB-05602-04	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	52	specimen
+MSB-05602	MSB-05602-05	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	52	specimen
+MSB-05614	MSB-05614-02	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	28	specimen
+MSB-05614	MSB-05614-03	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	28	specimen
+MSB-05620	MSB-05620-01	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	14	specimen
+MSB-05620	MSB-05620-02	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	14	specimen
+MSB-05649	MSB-05649-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	27	specimen
+MSB-05649	MSB-05649-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	27	specimen
+MSB-05650	MSB-05650-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	16	specimen
+MSB-05650	MSB-05650-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	16	specimen
+MSB-05676	MSB-05676-05	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	15	specimen
+MSB-05676	MSB-05676-06	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	15	specimen
+MSB-05676	MSB-05676-07	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	524	specimen
+MSB-05676	MSB-05676-08	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	524	specimen
+MSB-05686	MSB-05686-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	7	specimen
+MSB-05686	MSB-05686-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	7	specimen
+MSB-05702	MSB-05702-01	EDTA Blood	Blood	general  blood draw		Baseline (Fresh)	1	specimen
+MSB-05702	MSB-05702-02	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	1	specimen
+MSB-05702	MSB-05702-03	Bone Marrow Aspirate	Bone Marrow	Iliac Crest	Primary	Baseline (Fresh)	1	specimen
+MSB-05702	MSB-05702-05	EDTA Blood	Blood	general blood draw		Progression (Fresh)	35	specimen
+MSB-05702	MSB-05702-06	Streck Blood to VARI	Blood	general blood draw		Progression (Fresh)	35	specimen
+MSB-05702	MSB-05702-09	EDTA Blood	Blood	general blood draw		Progression (Fresh)	43	specimen
+MSB-05702	MSB-05702-10	Streck Blood to VARI	Blood	general blood draw		Progression (Fresh)	43	specimen
+MSB-05702	MSB-05702-11	Bone Marrow Aspirate	Bone Marrow	Iliac Crest	Primary	Progression (Fresh)	43	specimen
+MSB-05714	MSB-05714-01	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	0	specimen
+MSB-05714	MSB-05714-02	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	0	specimen
+MSB-05718	MSB-05718-01	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-05718	MSB-05718-02	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-05718	MSB-05718-03	Bone Marrow Aspirate	Bone Marrow	Iliac Crest	Primary	Baseline (Fresh)	0	specimen
+MSB-05737	MSB-05737-01	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-05737	MSB-05737-02	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-05737	MSB-05737-03	Formalin Bone Marrow Biopsy	Bone Marrow	Bone Marrow		Baseline (Fresh)	0	specimen
+MSB-05742	MSB-05742-01	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-05742	MSB-05742-02	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-05742	MSB-05742-03	Bone Marrow Aspirate	Bone Marrow	Iliac Crest		Baseline (Fresh)	0	specimen
+MSB-05742	MSB-05742-04	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	165	specimen
+MSB-05742	MSB-05742-05	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	165	specimen
+MSB-05742	MSB-05742-06	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	755	specimen
+MSB-05742	MSB-05742-07	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	755	specimen
+MSB-05756	MSB-05756-02	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	85	specimen
+MSB-05756	MSB-05756-03	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	85	specimen
+MSB-05756	MSB-05756-04	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	451	specimen
+MSB-05756	MSB-05756-05	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	451	specimen
+MSB-05767	MSB-05767-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	22	specimen
+MSB-05767	MSB-05767-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	22	specimen
+MSB-05837	MSB-05837-01	FORMALIN FIXED TISSUE	Formalin Fixed Tissue	Liver	Metastatic	Baseline (Fresh)	0	specimen
+MSB-05837	MSB-05837-02	EDTA Blood	Blood	general blood draw not available		Baseline (Fresh)	0	specimen
+MSB-05837	MSB-05837-03	Streck Blood to VARI	Blood	general blood draw not available		Baseline (Fresh)	0	specimen
+MSB-05837	MSB-05837-04	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	90	specimen
+MSB-05837	MSB-05837-05	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	90	specimen
+MSB-05837	MSB-05837-06	EDTA Blood	Blood	General Blood Draw		Progression (Fresh)	167	specimen
+MSB-05837	MSB-05837-07	Streck Blood to VARI	Blood	general blood draw		Progression (Fresh)	167	specimen
+MSB-05856	MSB-05856-03	EDTA Blood	Blood	GENERAL BLOOD DRAW		On Treatment (Fresh)	30	specimen
+MSB-05856	MSB-05856-04	Streck Blood to VARI	Blood	GENERAL BLOOD DRAW		On Treatment (Fresh)	30	specimen
+MSB-05856	MSB-05856-05	EDTA Blood	Blood	general blood draw		Progression (Fresh)	424	specimen
+MSB-05856	MSB-05856-06	Streck Blood to VARI	Blood	general blood draw		Progression (Fresh)	424	specimen
+MSB-05856	MSB-05856-07	Formalin Fixed Tissue	Formalin Fixed Tissue	Upper Lobe of the Left Lung	Metastatic	Progression (Fresh)	424	specimen
+MSB-05863	MSB-05863-01	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	0	specimen
+MSB-05863	MSB-05863-02	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	0	specimen
+MSB-05870	MSB-05870-02	Formalin Fixed Tissue	Formalin Fixed Tissue	Lymph Node	Metastatic	Baseline (Fresh)	-1	specimen
+MSB-05870	MSB-05870-03	EDTA Blood	Blood	General blood draw		Baseline (Fresh)	-1	specimen
+MSB-05870	MSB-05870-04	Streck Blood to VARI	Blood	General blood draw		Baseline (Fresh)	-1	specimen
+MSB-05876	MSB-05876-01	Formalin Fixed Tissue	Formalin Fixed Tissue	Right Lung	Primary	Baseline (Fresh)	1	specimen
+MSB-05876	MSB-05876-02	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	1	specimen
+MSB-05876	MSB-05876-03	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	1	specimen
+MSB-05895	MSB-05895-01	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	0	specimen
+MSB-05895	MSB-05895-02	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	0	specimen
+MSB-05895	MSB-05895-04	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	126	specimen
+MSB-05895	MSB-05895-05	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	126	specimen
+MSB-05895	MSB-05895-06	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	223	specimen
+MSB-05895	MSB-05895-07	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	223	specimen
+MSB-05895	MSB-05895-08	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	307	specimen
+MSB-05895	MSB-05895-09	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	307	specimen
+MSB-05915	MSB-05915-01	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	1	specimen
+MSB-05915	MSB-05915-02	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	1	specimen
+MSB-05915	MSB-05915-04	EDTA Blood	Blood	general blood draw		Progression (Fresh)	171	specimen
+MSB-05915	MSB-05915-05	Streck Blood to VARI	Blood	general blood draw		Progression (Fresh)	171	specimen
+MSB-05960	MSB-05960-02	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	65	specimen
+MSB-05960	MSB-05960-03	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	65	specimen
+MSB-05969	MSB-05969-01	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	1	specimen
+MSB-05969	MSB-05969-02	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	1	specimen
+MSB-05975	MSB-05975-01	Formalin Fixed Tissue	Formalin Fixed Tissue	Abdominal Wall	Metastatic	Baseline (Fresh)	4	specimen
+MSB-05975	MSB-05975-03	EDTA Blood	Blood	general		Baseline (Fresh)	4	specimen
+MSB-05975	MSB-05975-04	Streck Blood to VARI	Blood	general		Baseline (Fresh)	4	specimen
+MSB-05975	MSB-05975-07	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	203	specimen
+MSB-05975	MSB-05975-08	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	203	specimen
+MSB-05975	MSB-05975-09	EDTA Blood	Blood	General blood draw		Post-Treatment (No progression)	670	specimen
+MSB-05975	MSB-05975-10	Streck Blood to VARI	Blood	General blood draw		Post-Treatment (No progression)	670	specimen
+MSB-05997	MSB-05997-02	EDTA Blood	Blood	General Blood draw		On Treatment (Fresh)	73	specimen
+MSB-05997	MSB-05997-03	Streck Blood to VARI	Blood	General Blood draw		On Treatment (Fresh)	73	specimen
+MSB-06029	MSB-06029-01	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-06029	MSB-06029-02	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-06029	MSB-06029-03	Formalin Fixed Tissue	Formalin Fixed Tissue	Liver	Metastatic	Baseline (Fresh)	0	specimen
+MSB-06059	MSB-06059-02	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	41	specimen
+MSB-06059	MSB-06059-03	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	41	specimen
+MSB-06071	MSB-06071-01	Formalin Fixed Tissue	Formalin Fixed Tissue	Kidney	Metastatic	Baseline (Fresh)	0	specimen
+MSB-06071	MSB-06071-03	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	68	specimen
+MSB-06071	MSB-06071-04	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	68	specimen
+MSB-06072	MSB-06072-01	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	4	specimen
+MSB-06072	MSB-06072-02	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	4	specimen
+MSB-06072	MSB-06072-03	Formalin Fixed Tissue	Formalin Fixed Tissue	Liver	Metastatic	Baseline (Fresh)	4	specimen
+MSB-06077	MSB-06077-03	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	32	specimen
+MSB-06077	MSB-06077-04	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	32	specimen
+MSB-06084	MSB-06084-02	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	27	specimen
+MSB-06084	MSB-06084-03	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	27	specimen
+MSB-06094	MSB-06094-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	16	specimen
+MSB-06094	MSB-06094-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	16	specimen
+MSB-06094	MSB-06094-04	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	84	specimen
+MSB-06094	MSB-06094-05	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	84	specimen
+MSB-06150	MSB-06150-02	Formalin Fixed Tissue	Formalin Fixed Tissue	Liver	Metastatic	Baseline (Fresh)	6	specimen
+MSB-06178	MSB-06178-02	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	9	specimen
+MSB-06178	MSB-06178-03	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	9	specimen
+MSB-06184	MSB-06184-01	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	1	specimen
+MSB-06184	MSB-06184-03	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	1	specimen
+MSB-06184	MSB-06184-04	FORMALIN FIXED TISSUE	Formalin Fixed Tissue	Liver	Metastatic	Baseline (Fresh)	1	specimen
+MSB-06197	MSB-06197-02	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	33	specimen
+MSB-06197	MSB-06197-03	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	33	specimen
+MSB-06236	MSB-06236-01	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-06236	MSB-06236-02	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-06236	MSB-06236-05	EDTA Blood	Blood	General blood		On Treatment (Fresh)	200	specimen
+MSB-06236	MSB-06236-06	Streck Blood to VARI	Blood	General blood		On Treatment (Fresh)	200	specimen
+MSB-06249	MSB-06249-02	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	14	specimen
+MSB-06249	MSB-06249-03	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	14	specimen
+MSB-06256	MSB-06256-02	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	35	specimen
+MSB-06256	MSB-06256-03	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	35	specimen
+MSB-06256	MSB-06256-04	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	378	specimen
+MSB-06256	MSB-06256-05	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	378	specimen
+MSB-06267	MSB-06267-02	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	13	specimen
+MSB-06267	MSB-06267-03	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	13	specimen
+MSB-06267	MSB-06267-05	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	202	specimen
+MSB-06267	MSB-06267-06	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	202	specimen
+MSB-06302	MSB-06302-01	Formalin Fixed Tissue	Formalin Fixed Tissue	Peritoneal Cavity	Primary	Baseline (Fresh)	1	specimen
+MSB-06302	MSB-06302-02	EDTA Blood	Blood	general b		Baseline (Fresh)	1	specimen
+MSB-06302	MSB-06302-03	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	1	specimen
+MSB-06305	MSB-06305-02	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-06305	MSB-06305-03	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-06305	MSB-06305-06	EDTA Blood	Blood	Blood Draw		On Treatment (Fresh)	95	specimen
+MSB-06305	MSB-06305-07	Streck Blood to VARI	Blood	Blood Draw		On Treatment (Fresh)	95	specimen
+MSB-06305	MSB-06305-10	Bone Marrow Aspirate	Bone Marrow	Iliac Crest	Metastatic	Progression (Fresh)	413	specimen
+MSB-06305	MSB-06305-12	EDTA Blood	Blood	General Blood		Progression (Fresh)	413	specimen
+MSB-06305	MSB-06305-13	Streck Blood to VARI	Blood	General Blood		Progression (Fresh)	413	specimen
+MSB-06387	MSB-06387-01	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	24	specimen
+MSB-06387	MSB-06387-03	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	24	specimen
+MSB-06387	MSB-06387-04	Formalin Fixed Tissue	Formalin Fixed Tissue	Lung	Primary	Baseline (Fresh)	12	specimen
+MSB-06403	MSB-06403-01	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	1	specimen
+MSB-06403	MSB-06403-02	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	1	specimen
+MSB-06426	MSB-06426-02	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	22	specimen
+MSB-06426	MSB-06426-03	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	22	specimen
+MSB-06445	MSB-06445-01	Bone Marrow Aspirate	Bone Marrow	Bone Marrow	Primary	Baseline (Fresh)	2	specimen
+MSB-06445	MSB-06445-03	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	2	specimen
+MSB-06445	MSB-06445-04	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	2	specimen
+MSB-06471	MSB-06471-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	10	specimen
+MSB-06471	MSB-06471-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	10	specimen
+MSB-06489	MSB-06489-02	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	12	specimen
+MSB-06489	MSB-06489-03	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	12	specimen
+MSB-06580	MSB-06580-01	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	18	specimen
+MSB-06580	MSB-06580-02	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	18	specimen
+MSB-06586	MSB-06586-01	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	13	specimen
+MSB-06586	MSB-06586-02	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	13	specimen
+MSB-06606	MSB-06606-01	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	23	specimen
+MSB-06606	MSB-06606-02	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	23	specimen
+MSB-06606	MSB-06606-04	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	504	specimen
+MSB-06606	MSB-06606-05	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	504	specimen
+MSB-06663	MSB-06663-01	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	1	specimen
+MSB-06663	MSB-06663-02	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	1	specimen
+MSB-06663	MSB-06663-04	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	140	specimen
+MSB-06663	MSB-06663-05	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	140	specimen
+MSB-06663	MSB-06663-06	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	231	specimen
+MSB-06663	MSB-06663-07	Streck Blood to VARI	Blood	general		On Treatment (Fresh)	231	specimen
+MSB-06663	MSB-06663-08	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	315	specimen
+MSB-06663	MSB-06663-09	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	315	specimen
+MSB-06682	MSB-06682-03	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	14	specimen
+MSB-06682	MSB-06682-04	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	14	specimen
+MSB-06699	MSB-06699-01	Bone Marrow Aspirate	Bone Marrow	Iliac Crest	Primary	Baseline (Fresh)	0	specimen
+MSB-06699	MSB-06699-02	EDTA Blood	Blood	Peripheral whole blood		On Treatment (Fresh)	237	specimen
+MSB-06699	MSB-06699-03	Streck Blood to VARI	Blood	Peripheral whole blood		On Treatment (Fresh)	237	specimen
+MSB-06699	MSB-06699-05	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	348	specimen
+MSB-06699	MSB-06699-06	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	348	specimen
+MSB-06711	MSB-06711-01	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-06711	MSB-06711-02	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-06711	MSB-06711-03	Bone Marrow Aspirate	Bone Marrow	Iliac Crest	Primary	Baseline (Fresh)	0	specimen
+MSB-06711	MSB-06711-05	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	14	specimen
+MSB-06711	MSB-06711-06	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	14	specimen
+MSB-06711	MSB-06711-09	EDTA Blood	Blood	general blood draw		Post-Treatment (No progression)	38	specimen
+MSB-06711	MSB-06711-10	Streck Blood to VARI	Blood	general blood draw		Post-Treatment (No progression)	38	specimen
+MSB-06720	MSB-06720-01	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-06720	MSB-06720-02	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-06720	MSB-06720-04	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	49	specimen
+MSB-06720	MSB-06720-05	Streck Blood to VARI	Blood	General		On Treatment (Fresh)	49	specimen
+MSB-06720	MSB-06720-06	EDTA Blood	Blood	general		On Treatment (Fresh)	189	specimen
+MSB-06720	MSB-06720-07	Streck Blood to VARI	Blood	general		On Treatment (Fresh)	189	specimen
+MSB-06735	MSB-06735-03	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	181	specimen
+MSB-06735	MSB-06735-04	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	181	specimen
+MSB-06735	MSB-06735-05	EDTA Blood	Blood	GENERAL BLOOD DRAW		On Treatment (Fresh)	876	specimen
+MSB-06735	MSB-06735-06	Streck Blood to VARI	Blood	GENERAL BLOOD DRAW		On Treatment (Fresh)	876	specimen
+MSB-06810	MSB-06810-01	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	0	specimen
+MSB-06810	MSB-06810-02	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	0	specimen
+MSB-06817	MSB-06817-05	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	5	specimen
+MSB-06817	MSB-06817-07	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	5	specimen
+MSB-06817	MSB-06817-08	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	152	specimen
+MSB-06817	MSB-06817-09	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	152	specimen
+MSB-06817	MSB-06817-10	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	320	specimen
+MSB-06817	MSB-06817-11	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	320	specimen
+MSB-06824	MSB-06824-02	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	23	specimen
+MSB-06824	MSB-06824-03	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	23	specimen
+MSB-06824	MSB-06824-04	EDTA Blood	Blood	General Blood draw		On Treatment (Fresh)	134	specimen
+MSB-06824	MSB-06824-05	Streck Blood to VARI	Blood	General Blood draw		On Treatment (Fresh)	134	specimen
+MSB-06824	MSB-06824-06	EDTA Blood	Blood	general blood draw		Progression (Fresh)	225	specimen
+MSB-06824	MSB-06824-07	Streck Blood to VARI	Blood	general blood draw		Progression (Fresh)	225	specimen
+MSB-06824	MSB-06824-08	Formalin Fixed Tissue	Formalin Fixed Tissue	Lung	Primary	Progression (Fresh)	239	specimen
+MSB-06833	MSB-06833-01	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	7	specimen
+MSB-06833	MSB-06833-02	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	7	specimen
+MSB-06833	MSB-06833-05	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	249	specimen
+MSB-06833	MSB-06833-06	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	249	specimen
+MSB-06857	MSB-06857-02	EDTA Blood	Blood	general blood draw not available		Baseline (Fresh)	0	specimen
+MSB-06857	MSB-06857-03	Streck Blood to VARI	Blood	general blood draw not available		Baseline (Fresh)	0	specimen
+MSB-06857	MSB-06857-04	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	95	specimen
+MSB-06857	MSB-06857-05	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	95	specimen
+MSB-06864	MSB-06864-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	20	specimen
+MSB-06864	MSB-06864-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	20	specimen
+MSB-06864	MSB-06864-04	EDTA Blood	Blood	general blood draw		Progression (Fresh)	195	specimen
+MSB-06864	MSB-06864-05	Streck Blood to VARI	Blood	general blood draw		Progression (Fresh)	195	specimen
+MSB-06894	MSB-06894-02	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	19	specimen
+MSB-06894	MSB-06894-03	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	19	specimen
+MSB-06894	MSB-06894-04	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	488	specimen
+MSB-06894	MSB-06894-05	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	488	specimen
+MSB-06894	MSB-06894-06	EDTA Blood	Blood	General blood draw		Progression (Fresh)	558	specimen
+MSB-06894	MSB-06894-07	Streck Blood to VARI	Blood	General blood draw		Progression (Fresh)	558	specimen
+MSB-06894	MSB-06894-08	Formalin Fixed Tissue	Formalin Fixed Tissue	Sacrum	Metastatic	Progression (Fresh)	559	specimen
+MSB-06894	MSB-06894-09	Formalin Fixed Tissue	Formalin Fixed Tissue	Iliac Crest	Metastatic	Progression (Fresh)	638	specimen
+MSB-06894	MSB-06894-10	EDTA Blood	Blood	General blood draw		Progression (Fresh)	643	specimen
+MSB-06894	MSB-06894-11	Streck Blood to VARI	Blood	General blood draw		Progression (Fresh)	643	specimen
+MSB-07059	MSB-07059-01	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	8	specimen
+MSB-07059	MSB-07059-02	EDTA Blood	Blood	Blood General Draw		Baseline (Fresh)	8	specimen
+MSB-07059	MSB-07059-04	EDTA Blood	Blood	general draw		Progression (Fresh)	147	specimen
+MSB-07059	MSB-07059-05	Streck Blood to VARI	Blood	general draw		Progression (Fresh)	147	specimen
+MSB-07059	MSB-07059-06	Formalin Fixed Tissue	Formalin Fixed Tissue	Liver	Metastatic	Progression (Fresh)	147	specimen
+MSB-07075	MSB-07075-01	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-07075	MSB-07075-02	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-07075	MSB-07075-03	Bone Marrow Aspirate	Bone Marrow	Iliac Crest	Primary	Baseline (Fresh)	0	specimen
+MSB-07085	MSB-07085-02	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	30	specimen
+MSB-07085	MSB-07085-03	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	30	specimen
+MSB-07099	MSB-07099-01	EDTA Blood	Blood	Blood		Baseline (Fresh)	1	specimen
+MSB-07099	MSB-07099-02	Streck Blood to VARI	Blood	General blood		Baseline (Fresh)	1	specimen
+MSB-07099	MSB-07099-03	FORMALIN FIXED TISSUE	Formalin Fixed Tissue	Hepatic Flexure	Metastatic	Baseline (Fresh)	1	specimen
+MSB-07146	MSB-07146-03	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	7	specimen
+MSB-07146	MSB-07146-04	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	7	specimen
+MSB-07146	MSB-07146-05	EDTA Blood	Blood	general blood draw		Progression (Fresh)	170	specimen
+MSB-07146	MSB-07146-06	Streck Blood to VARI	Blood	general blood draw		Progression (Fresh)	170	specimen
+MSB-07179	MSB-07179-01	Formalin Fixed Tissue	Formalin Fixed Tissue	Liver	Metastatic	Baseline (Fresh)	4	specimen
+MSB-07179	MSB-07179-02	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	4	specimen
+MSB-07179	MSB-07179-04	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	4	specimen
+MSB-07186	MSB-07186-01	Bone Marrow Aspirate	Bone Marrow	Bone Marrow	Primary	Baseline (Fresh)	0	specimen
+MSB-07186	MSB-07186-03	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	31	specimen
+MSB-07186	MSB-07186-04	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	31	specimen
+MSB-07186	MSB-07186-06	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	129	specimen
+MSB-07186	MSB-07186-07	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	129	specimen
+MSB-07186	MSB-07186-08	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	382	specimen
+MSB-07186	MSB-07186-09	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	382	specimen
+MSB-07195	MSB-07195-01	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	8	specimen
+MSB-07195	MSB-07195-02	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	8	specimen
+MSB-07221	MSB-07221-03	EDTA Blood	Blood	genera blood draw		On Treatment (Fresh)	21	specimen
+MSB-07221	MSB-07221-04	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	21	specimen
+MSB-07224	MSB-07224-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	25	specimen
+MSB-07224	MSB-07224-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	25	specimen
+MSB-07224	MSB-07224-04	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	200	specimen
+MSB-07224	MSB-07224-05	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	200	specimen
+MSB-07225	MSB-07225-01	FORMALIN FIXED TISSUE	Formalin Fixed Tissue	Liver	Primary	Baseline (Fresh)	0	specimen
+MSB-07225	MSB-07225-02	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	22	specimen
+MSB-07225	MSB-07225-03	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	22	specimen
+MSB-07225	MSB-07225-04	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	113	specimen
+MSB-07225	MSB-07225-05	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	113	specimen
+MSB-07225	MSB-07225-06	EDTA Blood	Blood	general blood draw		Progression (Fresh)	225	specimen
+MSB-07225	MSB-07225-07	Streck Blood to VARI	Blood	general blood draw		Progression (Fresh)	225	specimen
+MSB-07258	MSB-07258-01	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	3	specimen
+MSB-07258	MSB-07258-02	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	3	specimen
+MSB-07258	MSB-07258-03	Bone Marrow Aspirate	Bone Marrow	Iliac Crest	Primary	Baseline (Fresh)	3	specimen
+MSB-07270	MSB-07270-02	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	21	specimen
+MSB-07270	MSB-07270-03	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	21	specimen
+MSB-07272	MSB-07272-01	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	28	specimen
+MSB-07272	MSB-07272-02	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	28	specimen
+MSB-07278	MSB-07278-02	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	14	specimen
+MSB-07278	MSB-07278-03	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	14	specimen
+MSB-07311	MSB-07311-01	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	1	specimen
+MSB-07311	MSB-07311-02	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	1	specimen
+MSB-07358	MSB-07358-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	54	specimen
+MSB-07358	MSB-07358-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	54	specimen
+MSB-07370	MSB-07370-02	EDTA Blood	Blood	Genreral Blood Draw		On Treatment (Fresh)	0	specimen
+MSB-07370	MSB-07370-03	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	0	specimen
+MSB-07401	MSB-07401-02	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	0	specimen
+MSB-07401	MSB-07401-03	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	0	specimen
+MSB-07403	MSB-07403-01	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	0	specimen
+MSB-07403	MSB-07403-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	0	specimen
+MSB-07414	MSB-07414-01	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	1	specimen
+MSB-07414	MSB-07414-02	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	1	specimen
+MSB-07414	MSB-07414-06	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	64	specimen
+MSB-07414	MSB-07414-07	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	64	specimen
+MSB-07414	MSB-07414-08	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	190	specimen
+MSB-07414	MSB-07414-09	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	190	specimen
+MSB-07414	MSB-07414-10	EDTA Blood	Blood	General Blood Draw		Progression (Fresh)	227	specimen
+MSB-07414	MSB-07414-11	Streck Blood to VARI	Blood	General Blood Draw		Progression (Fresh)	227	specimen
+MSB-07426	MSB-07426-01	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	28	specimen
+MSB-07426	MSB-07426-02	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	28	specimen
+MSB-07435	MSB-07435-01	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-07435	MSB-07435-03	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-07435	MSB-07435-04	Formalin Fixed Tissue	Formalin Fixed Tissue	Gluteus Maximus	Metastatic	Baseline (Fresh)	0	specimen
+MSB-07436	MSB-07436-01	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	3	specimen
+MSB-07436	MSB-07436-02	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	3	specimen
+MSB-07473	MSB-07473-01	Streck Blood to VARI	Blood	General blood draw		Baseline (Fresh)	0	specimen
+MSB-07473	MSB-07473-02	EDTA Blood	Blood	General blood draw		Baseline (Fresh)	0	specimen
+MSB-07473	MSB-07473-03	Bone Marrow Aspirate	Bone Marrow	Bone Marrow	Primary	Baseline (Fresh)	0	specimen
+MSB-07473	MSB-07473-05	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	77	specimen
+MSB-07479	MSB-07479-01	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	6	specimen
+MSB-07479	MSB-07479-02	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	6	specimen
+MSB-07479	MSB-07479-03	Bone Marrow Aspirate	Bone Marrow	Iliac Crest		Baseline (Fresh)	6	specimen
+MSB-07479	MSB-07479-04	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	146	specimen
+MSB-07479	MSB-07479-05	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	146	specimen
+MSB-07479	MSB-07479-06	EDTA Blood	Blood	general blood draw		Progression (Fresh)	435	specimen
+MSB-07479	MSB-07479-07	Streck Blood to VARI	Blood	general blood draw		Progression (Fresh)	435	specimen
+MSB-07483	MSB-07483-02	EDTA Blood	Blood	general blood draw not available		Baseline (Fresh)	0	specimen
+MSB-07483	MSB-07483-03	Streck Blood to VARI	Blood	general blood draw not available		Baseline (Fresh)	0	specimen
+MSB-07483	MSB-07483-04	EDTA Blood	Blood	general blood draw not available		Progression (Fresh)	70	specimen
+MSB-07483	MSB-07483-05	Streck Blood to VARI	Blood	general blood draw not available		Progression (Fresh)	70	specimen
+MSB-07578	MSB-07578-01	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	20	specimen
+MSB-07578	MSB-07578-02	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	20	specimen
+MSB-07578	MSB-07578-04	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	482	specimen
+MSB-07578	MSB-07578-05	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	482	specimen
+MSB-07579	MSB-07579-03	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-07579	MSB-07579-05	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-07585	MSB-07585-01	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	48	specimen
+MSB-07585	MSB-07585-02	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	48	specimen
+MSB-07612	MSB-07612-01	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-07612	MSB-07612-03	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-07612	MSB-07612-06	FORMALIN FIXED TISSUE	Formalin Fixed Tissue	Lymph Node	Metastatic	Baseline (Fresh)	0	specimen
+MSB-07612	MSB-07612-08	EDTA Blood	Blood	General Blood Draw		Progression (Fresh)	108	specimen
+MSB-07612	MSB-07612-09	Streck Blood to VARI	Blood	General Blood Draw		Progression (Fresh)	108	specimen
+MSB-07636	MSB-07636-02	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	-344	specimen
+MSB-07636	MSB-07636-03	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	21	specimen
+MSB-07636	MSB-07636-04	EDTA Blood	Blood	General Blood Draw		Progression (Fresh)	70	specimen
+MSB-07636	MSB-07636-05	Streck Blood to VARI	Blood	General Blood Draw		Progression (Fresh)	70	specimen
+MSB-07636	MSB-07636-06	EDTA Blood	Blood	General Blood Draw		Progression (Fresh)	102	specimen
+MSB-07636	MSB-07636-07	Streck Blood to VARI	Blood	General Blood Draw		Progression (Fresh)	102	specimen
+MSB-07636	MSB-07636-11	EDTA Blood	Blood	general blood draw		Post-Treatment (No progression)	160	specimen
+MSB-07636	MSB-07636-12	Streck Blood to VARI	Blood	general blood draw		Post-Treatment (No progression)	160	specimen
+MSB-07656	MSB-07656-01	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	1	specimen
+MSB-07656	MSB-07656-02	Bone Marrow Aspirate	Bone Marrow	Iliac Crest	Primary	Baseline (Fresh)	1	specimen
+MSB-07656	MSB-07656-03	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	1	specimen
+MSB-07656	MSB-07656-05	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	15	specimen
+MSB-07656	MSB-07656-06	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	15	specimen
+MSB-07656	MSB-07656-09	EDTA Blood	Blood	general blood draw		Post-Treatment (No progression)	42	specimen
+MSB-07656	MSB-07656-10	Streck Blood to VARI	Blood	general blood draw		Post-Treatment (No progression)	42	specimen
+MSB-07656	MSB-07656-11	Bone Marrow Aspirate	Bone Marrow	Iliac Crest	Primary	Post-Treatment (No progression)	42	specimen
+MSB-07656	MSB-07656-14	EDTA Blood	Blood	general blood draw		Progression (Fresh)	127	specimen
+MSB-07656	MSB-07656-15	Streck Blood to VARI	Blood	general blood draw		Progression (Fresh)	127	specimen
+MSB-07662	MSB-07662-02	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	43	specimen
+MSB-07662	MSB-07662-03	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	43	specimen
+MSB-07666	MSB-07666-02	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	23	specimen
+MSB-07666	MSB-07666-03	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	23	specimen
+MSB-07686	MSB-07686-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	0	specimen
+MSB-07686	MSB-07686-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	0	specimen
+MSB-07700	MSB-07700-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	15	specimen
+MSB-07700	MSB-07700-03	Streck Blood to VARI	Blood	genera		On Treatment (Fresh)	15	specimen
+MSB-07703	MSB-07703-01	Bone Marrow Aspirate	Bone Marrow	Bone Marrow	Primary	Baseline (Fresh)	0	specimen
+MSB-07703	MSB-07703-02	EDTA Blood	Blood	General blood draw		Baseline (Fresh)	29	specimen
+MSB-07703	MSB-07703-03	Streck Blood to VARI	Blood	General blood draw		Baseline (Fresh)	29	specimen
+MSB-07709	MSB-07709-01	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	3	specimen
+MSB-07709	MSB-07709-02	Streck Blood to VARI	Blood	Genereal blood draw		On Treatment (Fresh)	3	specimen
+MSB-07715	MSB-07715-01	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	12	specimen
+MSB-07715	MSB-07715-02	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	12	specimen
+MSB-07715	MSB-07715-03	Bone Marrow Aspirate	Bone Marrow	Iliac Crest		Baseline (Fresh)	12	specimen
+MSB-07715	MSB-07715-06	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	326	specimen
+MSB-07715	MSB-07715-07	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	326	specimen
+MSB-07715	MSB-07715-08	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	683	specimen
+MSB-07715	MSB-07715-09	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	683	specimen
+MSB-07727	MSB-07727-01	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	39	specimen
+MSB-07727	MSB-07727-02	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	39	specimen
+MSB-07784	MSB-07784-01	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	14	specimen
+MSB-07784	MSB-07784-02	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	14	specimen
+MSB-07784	MSB-07784-04	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	48	specimen
+MSB-07784	MSB-07784-05	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	48	specimen
+MSB-07834	MSB-07834-01	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	5	specimen
+MSB-07834	MSB-07834-02	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	5	specimen
+MSB-07839	MSB-07839-02	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	9	specimen
+MSB-07839	MSB-07839-03	Bone Marrow Aspirate	Bone Marrow	Iliac Crest	Primary	Baseline (Fresh)	9	specimen
+MSB-07839	MSB-07839-04	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	9	specimen
+MSB-07839	MSB-07839-06	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	35	specimen
+MSB-07839	MSB-07839-07	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	35	specimen
+MSB-07839	MSB-07839-10	EDTA Blood	Blood	general blood draw		Post-Treatment (No progression)	378	specimen
+MSB-07839	MSB-07839-11	Streck Blood to VARI	Blood	general blood draw		Post-Treatment (No progression)	378	specimen
+MSB-07840	MSB-07840-03	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	26	specimen
+MSB-07840	MSB-07840-04	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	26	specimen
+MSB-07848	MSB-07848-04	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-07848	MSB-07848-06	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-07851	MSB-07851-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	12	specimen
+MSB-07851	MSB-07851-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	12	specimen
+MSB-07859	MSB-07859-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	10	specimen
+MSB-07859	MSB-07859-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	10	specimen
+MSB-07859	MSB-07859-04	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	234	specimen
+MSB-07859	MSB-07859-05	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	234	specimen
+MSB-07864	MSB-07864-01	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	0	specimen
+MSB-07864	MSB-07864-02	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	0	specimen
+MSB-07864	MSB-07864-04	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	92	specimen
+MSB-07864	MSB-07864-05	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	92	specimen
+MSB-07864	MSB-07864-06	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	225	specimen
+MSB-07864	MSB-07864-07	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	225	specimen
+MSB-07865	MSB-07865-01	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-07865	MSB-07865-02	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-07865	MSB-07865-03	Formalin Fixed Tissue	Formalin Fixed Tissue	Foot Skin	Primary	Baseline (Fresh)	0	specimen
+MSB-07874	MSB-07874-01	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	0	specimen
+MSB-07874	MSB-07874-02	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	0	specimen
+MSB-07917	MSB-07917-03	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	20	specimen
+MSB-07917	MSB-07917-04	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	20	specimen
+MSB-07917	MSB-07917-08	EDTA Blood	Blood	general blood draw		Progression (Fresh)	729	specimen
+MSB-07917	MSB-07917-09	Streck Blood to VARI	Blood	general blood draw		Progression (Fresh)	729	specimen
+MSB-07991	MSB-07991-01	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	0	specimen
+MSB-07991	MSB-07991-02	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	0	specimen
+MSB-07991	MSB-07991-06	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	236	specimen
+MSB-07991	MSB-07991-07	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	236	specimen
+MSB-07994	MSB-07994-01	Formalin Fixed Tissue	Formalin Fixed Tissue	Shoulder	Primary	Baseline (Fresh)	21	specimen
+MSB-07994	MSB-07994-02	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	21	specimen
+MSB-07994	MSB-07994-03	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	21	specimen
+MSB-08045	MSB-08045-01	EDTA Blood	Blood	port blood draw		Baseline (Fresh)	0	specimen
+MSB-08045	MSB-08045-02	Streck Blood to VARI	Blood	port blood draw		Baseline (Fresh)	0	specimen
+MSB-08045	MSB-08045-04	EDTA Blood	Blood	port blood draw		On Treatment (Fresh)	83	specimen
+MSB-08045	MSB-08045-05	Streck Blood to VARI	Blood	port blood draw		On Treatment (Fresh)	83	specimen
+MSB-08049	MSB-08049-03	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	30	specimen
+MSB-08049	MSB-08049-04	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	30	specimen
+MSB-08057	MSB-08057-01	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-08057	MSB-08057-02	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-08057	MSB-08057-03	Formalin Fixed Tissue	Formalin Fixed Tissue	Ovary	Primary	Baseline (Fresh)	3	specimen
+MSB-08057	MSB-08057-05	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	111	specimen
+MSB-08057	MSB-08057-06	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	111	specimen
+MSB-08057	MSB-08057-07	EDTA Blood	Blood	General blood draw		Progression (Fresh)	187	specimen
+MSB-08057	MSB-08057-08	Streck Blood to VARI	Blood	blood		Progression (Fresh)	187	specimen
+MSB-08058	MSB-08058-01	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	26	specimen
+MSB-08058	MSB-08058-02	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	26	specimen
+MSB-08058	MSB-08058-04	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	509	specimen
+MSB-08058	MSB-08058-05	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	509	specimen
+MSB-08063	MSB-08063-01	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	1	specimen
+MSB-08063	MSB-08063-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	1	specimen
+MSB-08093	MSB-08093-01	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-08093	MSB-08093-02	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-08093	MSB-08093-03	Bone Marrow Aspirate	Bone Marrow	Bone Marrow	Metastatic	Baseline (Fresh)	0	specimen
+MSB-08102	MSB-08102-01	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	0	specimen
+MSB-08102	MSB-08102-02	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	0	specimen
+MSB-08104	MSB-08104-01	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	5	specimen
+MSB-08104	MSB-08104-02	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	5	specimen
+MSB-08104	MSB-08104-04	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	175	specimen
+MSB-08104	MSB-08104-05	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	175	specimen
+MSB-08104	MSB-08104-06	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	272	specimen
+MSB-08104	MSB-08104-07	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	272	specimen
+MSB-08142	MSB-08142-01	EDTA Blood	Blood	blood draw		Baseline (Fresh)	0	specimen
+MSB-08142	MSB-08142-02	Streck Blood to VARI	Blood	blood draw		Baseline (Fresh)	0	specimen
+MSB-08142	MSB-08142-03	Formalin Fixed Tissue	Formalin Fixed Tissue	Axilla	Primary	Baseline (Fresh)	0	specimen
+MSB-08170	MSB-08170-01	FORMALIN FIXED TISSUE	Formalin Fixed Tissue	Bone	Metastatic	Progression (Fresh)	0	specimen
+MSB-08170	MSB-08170-04	EDTA Blood	Blood	general blood draw		Progression (Fresh)	0	specimen
+MSB-08170	MSB-08170-05	Streck Blood to VARI	Blood	general blood draw		Progression (Fresh)	0	specimen
+MSB-08178	MSB-08178-02	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	36	specimen
+MSB-08178	MSB-08178-03	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	36	specimen
+MSB-08214	MSB-08214-01	Formalin Fixed Tissue	Formalin Fixed Tissue	Breast	Primary	Baseline (Fresh)	6	specimen
+MSB-08214	MSB-08214-04	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	6	specimen
+MSB-08214	MSB-08214-05	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	6	specimen
+MSB-08228	MSB-08228-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	16	specimen
+MSB-08228	MSB-08228-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	16	specimen
+MSB-08228	MSB-08228-04	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	499	specimen
+MSB-08228	MSB-08228-05	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	499	specimen
+MSB-08242	MSB-08242-01	Formalin Fixed Tissue	Formalin Fixed Tissue	Supraclavicular Fossa	Metastatic	Baseline (Fresh)	0	specimen
+MSB-08242	MSB-08242-02	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-08242	MSB-08242-03	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-08267	MSB-08267-01	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-08267	MSB-08267-02	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-08267	MSB-08267-03	FORMALIN FIXED TISSUE	Formalin Fixed Tissue	Liver	Metastatic	Baseline (Fresh)	0	specimen
+MSB-08267	MSB-08267-05	EDTA Blood	Blood	Genral Blood		On Treatment (Fresh)	89	specimen
+MSB-08267	MSB-08267-06	Streck Blood to VARI	Blood	Genral Blood		On Treatment (Fresh)	89	specimen
+MSB-08278	MSB-08278-02	EDTA Blood	Blood	GENERAL BLOOD DRAW		Baseline (Fresh)	0	specimen
+MSB-08278	MSB-08278-03	Streck Blood to VARI	Blood	GENERAL BLOOD DRAW		Baseline (Fresh)	0	specimen
+MSB-08289	MSB-08289-02	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	26	specimen
+MSB-08289	MSB-08289-03	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	26	specimen
+MSB-08289	MSB-08289-04	EDTA Blood	Blood	general blood draw		Progression (Fresh)	194	specimen
+MSB-08289	MSB-08289-05	Streck Blood to VARI	Blood	general blood draw		Progression (Fresh)	194	specimen
+MSB-08324	MSB-08324-02	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	3	specimen
+MSB-08324	MSB-08324-03	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	3	specimen
+MSB-08327	MSB-08327-01	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	0	specimen
+MSB-08327	MSB-08327-02	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	0	specimen
+MSB-08327	MSB-08327-04	EDTA Blood	Blood	general blood draw		Progression (Fresh)	28	specimen
+MSB-08327	MSB-08327-05	Streck Blood to VARI	Blood	general blood draw		Progression (Fresh)	28	specimen
+MSB-08334	MSB-08334-02	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	84	specimen
+MSB-08334	MSB-08334-03	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	84	specimen
+MSB-08375	MSB-08375-01	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-08375	MSB-08375-02	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-08375	MSB-08375-04	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	63	specimen
+MSB-08375	MSB-08375-05	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	63	specimen
+MSB-08414	MSB-08414-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	0	specimen
+MSB-08414	MSB-08414-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	0	specimen
+MSB-08414	MSB-08414-04	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	123	specimen
+MSB-08414	MSB-08414-05	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	123	specimen
+MSB-08414	MSB-08414-06	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	242	specimen
+MSB-08414	MSB-08414-07	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	242	specimen
+MSB-08454	MSB-08454-01	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	10	specimen
+MSB-08454	MSB-08454-02	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	10	specimen
+MSB-08454	MSB-08454-04	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	203	specimen
+MSB-08454	MSB-08454-05	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	203	specimen
+MSB-08476	MSB-08476-01	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	5	specimen
+MSB-08476	MSB-08476-02	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	5	specimen
+MSB-08544	MSB-08544-02	EDTA Blood	Blood	general		Baseline (Fresh)	0	specimen
+MSB-08544	MSB-08544-03	Streck Blood to VARI	Blood	general		Baseline (Fresh)	0	specimen
+MSB-08583	MSB-08583-01	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	5	specimen
+MSB-08583	MSB-08583-02	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	5	specimen
+MSB-08588	MSB-08588-01	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	12	specimen
+MSB-08588	MSB-08588-02	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	12	specimen
+MSB-08588	MSB-08588-05	EDTA Blood	Blood	General Blood Draw		Progression (Fresh)	342	specimen
+MSB-08588	MSB-08588-06	Streck Blood to VARI	Blood	General Blood Draw		Progression (Fresh)	342	specimen
+MSB-08600	MSB-08600-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	7	specimen
+MSB-08600	MSB-08600-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	7	specimen
+MSB-08631	MSB-08631-01	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	2	specimen
+MSB-08631	MSB-08631-02	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	2	specimen
+MSB-08631	MSB-08631-03	Formalin Fixed Tissue	Formalin Fixed Tissue	Rectosigmoid Colon	Primary	Baseline (Fresh)	2	specimen
+MSB-08700	MSB-08700-01	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-08700	MSB-08700-02	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-08700	MSB-08700-03	Bone Marrow Aspirate	Bone Marrow	Iliac Crest	Primary	Baseline (Fresh)	0	specimen
+MSB-08777	MSB-08777-02	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	15	specimen
+MSB-08777	MSB-08777-03	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	15	specimen
+MSB-08778	MSB-08778-02	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	-1	specimen
+MSB-08778	MSB-08778-03	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	-1	specimen
+MSB-08799	MSB-08799-01	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	0	specimen
+MSB-08799	MSB-08799-02	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	0	specimen
+MSB-08799	MSB-08799-03	Bone Marrow Aspirate	Bone Marrow	Iliac Crest	Primary	On Treatment (Fresh)	0	specimen
+MSB-08799	MSB-08799-05	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	274	specimen
+MSB-08799	MSB-08799-06	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	274	specimen
+MSB-08799	MSB-08799-07	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	665	specimen
+MSB-08799	MSB-08799-08	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	665	specimen
+MSB-08841	MSB-08841-02	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-08841	MSB-08841-03	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-08876	MSB-08876-01	Formalin Fixed Tissue	Formalin Fixed Tissue	Right Lobe of the Liver	Metastatic	Progression (Fresh)	5	specimen
+MSB-08876	MSB-08876-02	EDTA Blood	Blood	General Blood Draw		Progression (Fresh)	1	specimen
+MSB-08876	MSB-08876-03	Streck Blood to VARI	Blood	General Blood Draw		Progression (Fresh)	1	specimen
+MSB-08880	MSB-08880-01	Streck Blood to VARI	Blood	Blood		On Treatment (Fresh)	57	specimen
+MSB-08880	MSB-08880-03	EDTA Blood	Blood	Blood		On Treatment (Fresh)	57	specimen
+MSB-08886	MSB-08886-02	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-08886	MSB-08886-03	Streck Blood to VARI	Blood	GENERAL BLOOD DRAW		Baseline (Fresh)	0	specimen
+MSB-08922	MSB-08922-01	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	18	specimen
+MSB-08922	MSB-08922-02	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	18	specimen
+MSB-08928	MSB-08928-02	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	5	specimen
+MSB-08928	MSB-08928-03	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	5	specimen
+MSB-08954	MSB-08954-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	14	specimen
+MSB-08954	MSB-08954-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	14	specimen
+MSB-08954	MSB-08954-04	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	49	specimen
+MSB-08954	MSB-08954-05	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	49	specimen
+MSB-08956	MSB-08956-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	14	specimen
+MSB-08956	MSB-08956-03	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	14	specimen
+MSB-08964	MSB-08964-02	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	20	specimen
+MSB-08964	MSB-08964-03	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	20	specimen
+MSB-08964	MSB-08964-04	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	99	specimen
+MSB-08964	MSB-08964-05	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	99	specimen
+MSB-08965	MSB-08965-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	32	specimen
+MSB-08965	MSB-08965-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	32	specimen
+MSB-08967	MSB-08967-02	EDTA Blood	Blood	GENERAL BLOOD DRAW		On Treatment (Fresh)	0	specimen
+MSB-08967	MSB-08967-03	Streck Blood to VARI	Blood	GENERAL BLOOD DRAW		On Treatment (Fresh)	0	specimen
+MSB-09018	MSB-09018-01	EDTA Blood	Blood	general		Baseline (Fresh)	0	specimen
+MSB-09018	MSB-09018-02	Streck Blood to VARI	Blood	general		Baseline (Fresh)	0	specimen
+MSB-09018	MSB-09018-04	EDTA Blood	Blood	general		On Treatment (Fresh)	481	specimen
+MSB-09018	MSB-09018-05	Streck Blood to VARI	Blood	general		On Treatment (Fresh)	481	specimen
+MSB-09018	MSB-09018-06	Formalin Fixed Tissue	Formalin Fixed Tissue	Skin Of The Back	Metastatic	Progression (Fresh)	1075	specimen
+MSB-09018	MSB-09018-07	EDTA Blood	Blood	GENERAL BLOOD DRAW		Progression (Fresh)	1075	specimen
+MSB-09018	MSB-09018-08	Streck Blood to VARI	Blood	GENERAL BLOOD DRAW		Progression (Fresh)	1075	specimen
+MSB-09019	MSB-09019-02	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	22	specimen
+MSB-09019	MSB-09019-03	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	22	specimen
+MSB-09019	MSB-09019-04	EDTA Blood	Blood	General Blood Draw		Progression (Fresh)	189	specimen
+MSB-09019	MSB-09019-05	Streck Blood to VARI	Blood	General Blood Draw		Progression (Fresh)	189	specimen
+MSB-09027	MSB-09027-02	EDTA Blood	Blood	general blood draw		Progression (Fresh)	1161	specimen
+MSB-09027	MSB-09027-03	Streck Blood to VARI	Blood	general blood draw		Progression (Fresh)	1161	specimen
+MSB-09060	MSB-09060-02	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	0	specimen
+MSB-09060	MSB-09060-03	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	0	specimen
+MSB-09102	MSB-09102-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	42	specimen
+MSB-09102	MSB-09102-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	42	specimen
+MSB-09117	MSB-09117-01	EDTA Blood	Blood	general blood draw not available		Baseline (Fresh)	0	specimen
+MSB-09117	MSB-09117-02	Streck Blood to VARI	Blood	general blood draw not available		Baseline (Fresh)	0	specimen
+MSB-09117	MSB-09117-04	EDTA Blood	Blood	General Blood Draw		Progression (Fresh)	78	specimen
+MSB-09117	MSB-09117-05	Streck Blood to VARI	Blood	General Blood Draw		Progression (Fresh)	78	specimen
+MSB-09124	MSB-09124-03	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-09124	MSB-09124-04	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-09124	MSB-09124-05	Bone Marrow Aspirate	Bone Marrow	Iliac Crest		Baseline (Fresh)	0	specimen
+MSB-09124	MSB-09124-07	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	90	specimen
+MSB-09124	MSB-09124-08	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	90	specimen
+MSB-09124	MSB-09124-11	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	496	specimen
+MSB-09124	MSB-09124-12	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	496	specimen
+MSB-09138	MSB-09138-03	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	28	specimen
+MSB-09138	MSB-09138-04	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	28	specimen
+MSB-09146	MSB-09146-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	0	specimen
+MSB-09146	MSB-09146-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	0	specimen
+MSB-09151	MSB-09151-01	Formalin Fixed Tissue	Formalin Fixed Tissue	Liver	Metastatic	Baseline (Fresh)	0	specimen
+MSB-09151	MSB-09151-03	EDTA Blood	Blood	General blood draw		Baseline (Fresh)	0	specimen
+MSB-09151	MSB-09151-05	Streck Blood to VARI	Blood	General blood draw		Baseline (Fresh)	0	specimen
+MSB-09176	MSB-09176-01	Formalin Fixed Tissue	Formalin Fixed Tissue	Ovary	Primary	Baseline (Fresh)	0	specimen
+MSB-09176	MSB-09176-02	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-09176	MSB-09176-03	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-09202	MSB-09202-01	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	6	specimen
+MSB-09202	MSB-09202-02	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	6	specimen
+MSB-09286	MSB-09286-01	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-09286	MSB-09286-02	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-09348	MSB-09348-01	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	11	specimen
+MSB-09348	MSB-09348-02	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	11	specimen
+MSB-09350	MSB-09350-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	2	specimen
+MSB-09350	MSB-09350-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	2	specimen
+MSB-09351	MSB-09351-03	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	57	specimen
+MSB-09351	MSB-09351-04	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	57	specimen
+MSB-09351	MSB-09351-05	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	98	specimen
+MSB-09351	MSB-09351-06	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	98	specimen
+MSB-09378	MSB-09378-02	EDTA Blood	Blood	Blood		Archival	0	specimen
+MSB-09378	MSB-09378-03	Streck Blood to VARI	Blood	Blood		Archival	0	specimen
+MSB-09382	MSB-09382-02	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	22	specimen
+MSB-09382	MSB-09382-03	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	22	specimen
+MSB-09382	MSB-09382-04	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	113	specimen
+MSB-09382	MSB-09382-05	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	113	specimen
+MSB-09431	MSB-09431-02	EDTA Blood	Blood	general blood draw		Progression (Fresh)	20	specimen
+MSB-09431	MSB-09431-03	Streck Blood to VARI	Blood	general blood draw		Progression (Fresh)	20	specimen
+MSB-09466	MSB-09466-01	EDTA Blood	Blood	general draw		On Treatment (Fresh)	8	specimen
+MSB-09466	MSB-09466-03	Streck Blood to VARI	Blood	general draw		On Treatment (Fresh)	8	specimen
+MSB-09491	MSB-09491-01	Bone Marrow Aspirate	Bone Marrow	Bone Marrow	Primary	On Treatment (Fresh)	0	specimen
+MSB-09491	MSB-09491-02	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	28	specimen
+MSB-09491	MSB-09491-03	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	28	specimen
+MSB-09495	MSB-09495-01	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-09495	MSB-09495-02	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-09505	MSB-09505-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	24	specimen
+MSB-09505	MSB-09505-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	24	specimen
+MSB-09513	MSB-09513-01	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-09513	MSB-09513-02	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	0	specimen
+MSB-09513	MSB-09513-03	Formalin Fixed Tissue	Formalin Fixed Tissue	Omentum	Metastatic	Baseline (Fresh)	0	specimen
+MSB-09520	MSB-09520-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	0	specimen
+MSB-09520	MSB-09520-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	0	specimen
+MSB-09520	MSB-09520-05	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	113	specimen
+MSB-09520	MSB-09520-06	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	113	specimen
+MSB-09520	MSB-09520-07	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	197	specimen
+MSB-09520	MSB-09520-08	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	197	specimen
+MSB-09560	MSB-09560-02	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	23	specimen
+MSB-09560	MSB-09560-03	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	23	specimen
+MSB-09560	MSB-09560-04	EDTA Blood	Blood	General Blood draw		On Treatment (Fresh)	184	specimen
+MSB-09560	MSB-09560-05	Streck Blood to VARI	Blood	General Blood draw		On Treatment (Fresh)	184	specimen
+MSB-09566	MSB-09566-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	5	specimen
+MSB-09566	MSB-09566-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	5	specimen
+MSB-09566	MSB-09566-04	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	120	specimen
+MSB-09566	MSB-09566-05	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	120	specimen
+MSB-09601	MSB-09601-01	FORMALIN FIXED TISSUE	Formalin Fixed Tissue	Periumbilical Region	Metastatic	Baseline (Fresh)	0	specimen
+MSB-09601	MSB-09601-03	EDTA Blood	Blood	General blood		Baseline (Fresh)	0	specimen
+MSB-09601	MSB-09601-04	Streck Blood to VARI	Blood	General blood		Baseline (Fresh)	0	specimen
+MSB-09604	MSB-09604-04	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-09604	MSB-09604-05	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-09614	MSB-09614-02	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	50	specimen
+MSB-09614	MSB-09614-03	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	50	specimen
+MSB-09619	MSB-09619-01	EDTA Blood	Blood	PICC line p/flush w/10cc discarded		Baseline (Fresh)	0	specimen
+MSB-09619	MSB-09619-02	Streck Blood to VARI	Blood	PICC line p/flush w/10cc discarded		Baseline (Fresh)	0	specimen
+MSB-09666	MSB-09666-03	EDTA Blood	Blood	GENERAL BLOOD DRAW		On Treatment (Fresh)	40	specimen
+MSB-09666	MSB-09666-04	Streck Blood to VARI	Blood	GENERAL BLOOD DRAW		On Treatment (Fresh)	40	specimen
+MSB-09692	MSB-09692-02	EDTA Blood	Blood	GENERAL BLOOD DRAW		On Treatment (Fresh)	18	specimen
+MSB-09692	MSB-09692-03	Streck Blood to VARI	Blood	GENERAL BLOOD DRAW		On Treatment (Fresh)	18	specimen
+MSB-09737	MSB-09737-01	EDTA Blood	Blood	General Blood Draw		Baseline (Fresh)	1	specimen
+MSB-09737	MSB-09737-02	Streck Blood to VARI	Blood	General Blood Draw		Baseline (Fresh)	1	specimen
+MSB-09737	MSB-09737-03	Formalin Fixed Tissue	Formalin Fixed Tissue	Sigmoid Colon	Primary	Baseline (Fresh)	1	specimen
+MSB-09737	MSB-09737-04	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	202	specimen
+MSB-09737	MSB-09737-05	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	202	specimen
+MSB-09765	MSB-09765-02	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	6	specimen
+MSB-09765	MSB-09765-03	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	6	specimen
+MSB-09765	MSB-09765-04	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	114	specimen
+MSB-09765	MSB-09765-05	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	114	specimen
+MSB-09765	MSB-09765-06	EDTA Blood	Blood	general blood draw		Progression (Fresh)	237	specimen
+MSB-09765	MSB-09765-07	Streck Blood to VARI	Blood	general blood draw		Progression (Fresh)	237	specimen
+MSB-09774	MSB-09774-01	EDTA Blood	Blood	blood draw		Baseline (Fresh)	1	specimen
+MSB-09774	MSB-09774-02	Streck Blood to VARI	Blood	blood draw		Baseline (Fresh)	1	specimen
+MSB-09782	MSB-09782-02	EDTA Blood	Blood	General Blood draw		On Treatment (Fresh)	102	specimen
+MSB-09782	MSB-09782-03	Streck Blood to VARI	Blood	General Blood draw		On Treatment (Fresh)	102	specimen
+MSB-09794	MSB-09794-02	EDTA Blood	Blood	General Blood Draw		On Treatment (Fresh)	41	specimen
+MSB-09794	MSB-09794-03	Streck Blood to VARI	Blood	General Blood Draw		On Treatment (Fresh)	41	specimen
+MSB-09848	MSB-09848-02	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	7	specimen
+MSB-09848	MSB-09848-03	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	7	specimen
+MSB-09848	MSB-09848-04	EDTA Blood	Blood	General blood draw		On Treatment (Fresh)	55	specimen
+MSB-09848	MSB-09848-05	Streck Blood to VARI	Blood	General blood draw		On Treatment (Fresh)	55	specimen
+MSB-09876	MSB-09876-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	21	specimen
+MSB-09876	MSB-09876-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	21	specimen
+MSB-09880	MSB-09880-01	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	8	specimen
+MSB-09880	MSB-09880-03	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	8	specimen
+MSB-09880	MSB-09880-05	Formalin Fixed Tissue	Formalin Fixed Tissue	Lymph Node	Metastatic	Baseline (Fresh)	8	specimen
+MSB-09880	MSB-09880-07	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	100	specimen
+MSB-09880	MSB-09880-08	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	100	specimen
+MSB-09880	MSB-09880-09	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	204	specimen
+MSB-09880	MSB-09880-10	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	204	specimen
+MSB-09896	MSB-09896-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	4	specimen
+MSB-09896	MSB-09896-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	4	specimen
+MSB-09896	MSB-09896-04	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	151	specimen
+MSB-09896	MSB-09896-05	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	151	specimen
+MSB-09897	MSB-09897-03	EDTA Blood	Blood	GENERAL BLOOD DRAW		On Treatment (Fresh)	25	specimen
+MSB-09897	MSB-09897-04	Streck Blood to VARI	Blood	GENERAL BLOOD DRAW		On Treatment (Fresh)	25	specimen
+MSB-09899	MSB-09899-01	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	0	specimen
+MSB-09899	MSB-09899-02	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	0	specimen
+MSB-09917	MSB-09917-01	Streck Blood to Vari	Blood	amended		Baseline (Fresh)	0	specimen
+MSB-09917	MSB-09917-02	EDTA Blood	Blood	General blood draw		Baseline (Fresh)	0	specimen
+MSB-09917	MSB-09917-03	formalin fixed tissue	Formalin Fixed Tissue	Adrenal Gland	Primary	Baseline (Fresh)	0	specimen
+MSB-09960	MSB-09960-01	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	1	specimen
+MSB-09960	MSB-09960-02	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	1	specimen
+MSB-09969	MSB-09969-02	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	15	specimen
+MSB-09969	MSB-09969-03	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	15	specimen
+MSB-09977	MSB-09977-01	FORMALIN FIXED TISSUE	Formalin Fixed Tissue	Liver	Metastatic	Baseline (Fresh)	0	specimen
+MSB-09977	MSB-09977-02	EDTA Blood	Blood	general blood draw not available		Baseline (Fresh)	0	specimen
+MSB-09977	MSB-09977-03	Streck Blood to VARI	Blood	general blood draw not available		Baseline (Fresh)	0	specimen
+MSB-09977	MSB-09977-04	EDTA Blood	Blood	general blood draw not available		On Treatment (Fresh)	92	specimen
+MSB-09977	MSB-09977-05	Streck Blood to VARI	Blood	general blood draw not available		On Treatment (Fresh)	92	specimen
+MSB-09991	MSB-09991-02	EDTA Blood	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-09991	MSB-09991-03	Streck Blood to VARI	Blood	general blood draw		Baseline (Fresh)	0	specimen
+MSB-09991	MSB-09991-04	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	133	specimen
+MSB-09991	MSB-09991-05	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	133	specimen
+MSB-09991	MSB-09991-06	Streck Blood to VARI	Blood	general blood draw		Progression (Fresh)	165	specimen
+MSB-09991	MSB-09991-07	EDTA Blood	Blood	general blood draw		Progression (Fresh)	165	specimen
+MSB-09991	MSB-09991-08	Formalin Fixed Tissue	Formalin Fixed Tissue	Lung	Metastatic	Progression (Fresh)	165	specimen
+MSB-09991	MSB-09991-10	Streck Blood to VARI	Blood	General blood draw		Progression (Fresh)	812	specimen
+MSB-09991	MSB-09991-11	EDTA Blood	Blood	General blood draw		Progression (Fresh)	812	specimen
+MSB-09994	MSB-09994-01	EDTA Blood	Blood	general blood draw		Progression (Fresh)	0	specimen
+MSB-09994	MSB-09994-02	Streck Blood to VARI	Blood	general blood draw		Progression (Fresh)	0	specimen
+MSB-09994	MSB-09994-03	Bone Marrow Aspirate	Bone Marrow	Iliac Crest	Primary	Progression (Fresh)	0	specimen
+MSB-09994	MSB-09994-06	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	89	specimen
+MSB-09994	MSB-09994-07	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	89	specimen
+MSB-09994	MSB-09994-08	EDTA Blood	Blood	general blood draw		On Treatment (Fresh)	280	specimen
+MSB-09994	MSB-09994-09	Streck Blood to VARI	Blood	general blood draw		On Treatment (Fresh)	280	specimen

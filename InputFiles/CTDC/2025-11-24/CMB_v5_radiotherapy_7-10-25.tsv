@@ -1,0 +1,185 @@
+participant.participant_id	radiological_procedure_record_id	radiological_procedure	radiological_procedure_anatomical_location	radiation_dose	radiation_frequency	radiation_extent	type
+MSB-01262	radiotherapy.17215503	LOW DOSE RADIATION	Abdominal Cavity	5400	Daily	Limited Radiation	radiotherapy
+MSB-03226	radiotherapy.31652342	3D conformal radiation to right acromion	Acromion	400	Daily	Radiation (NOS)	radiotherapy
+MSB-08922	radiotherapy.20230978	SBRT	Adrenal Gland	2400	Every other day	Limited Radiation	radiotherapy
+MSB-07636	radiotherapy.59074127	SBRT	Adrenal Gland	4000	NA	NA	radiotherapy
+MSB-08327	radiotherapy.66833848	Radiation therapy	Adrenal Gland	650	Weekly	Limited Radiation	radiotherapy
+MSB-09619	radiotherapy.34374157	radiation	Anal Canal	NA	Every twenty hours	NA	radiotherapy
+MSB-05756	radiotherapy.52908441	Radiation	Axilla	300	Daily	NA	radiotherapy
+MSB-01798	radiotherapy.57579700	radation to right breast and left axilla	Axilla	300	Daily	NA	radiotherapy
+MSB-06305	radiotherapy.31652043	IGRT	Base of the Skull	30	Daily	Radiation (NOS)	radiotherapy
+MSB-03453	radiotherapy.51027448	Palliative Radiation to the C5 Clivus & Lt Humerus	Base of the Skull	300	Daily	Radiation (NOS)	radiotherapy
+MSB-03725	radiotherapy.31652047	Whole Brain RT	Brain	3000	Daily	Radiation (NOS)	radiotherapy
+MSB-08267	radiotherapy.31652188	Radiotherapy	Brain	2000	Once	Radiation (NOS)	radiotherapy
+MSB-04332	radiotherapy.23170448	radiation to the Brain	Brain	24.5	Every twenty four hours	Limited Radiation	radiotherapy
+MSB-03796	radiotherapy.59155661	XRT Brain Boost	Brain	1260	Weekly	Radiation (NOS)	radiotherapy
+MSB-05281	radiotherapy.31652358	Whole Brain Radiation	Brain	900	Daily	Limited Radiation	radiotherapy
+MSB-05388	radiotherapy.43050150	IMRT	Brain	2500	NA	Radiation (NOS)	radiotherapy
+MSB-07278	radiotherapy.45419165	SRS Cyberknife	Brain	2200	Once	Limited Radiation	radiotherapy
+MSB-01597	radiotherapy.49674145	CK Brain1 Ln	Brain	600	Daily	Radiation (NOS)	radiotherapy
+MSB-05354	radiotherapy.50715230	Palliative radiation to whole brain	Brain	30	NA	NA	radiotherapy
+MSB-06864	radiotherapy.50807406	CyberKnife Stereotactic Radiosurgery (SRS)	Brain	2200	Once	NA	radiotherapy
+MSB-06864	radiotherapy.60255822	CyberKnife SRS	Brain	2200	Once	Radiation (NOS)	radiotherapy
+MSB-06864	radiotherapy.60255838	CyberKnife SBRT	Brain	2200	Once	Radiation (NOS)	radiotherapy
+MSB-01307	radiotherapy.54421810	WBRT	Brain	30	Daily	Limited Radiation	radiotherapy
+MSB-05876	radiotherapy.56100817	Whole Brain Radiation; received 4 out of 10 fractions (1200 cGy of 3000 cGy)	Brain	300	Daily	Radiation (NOS)	radiotherapy
+MSB-05915	radiotherapy.59632810	radiation	Brain	300	Daily	NA	radiotherapy
+MSB-01772	radiotherapy.60035022	whole brain radiation	Brain	300	Daily	NA	radiotherapy
+MSB-03344	radiotherapy.68599763	radiation therapy	Brain	3000	NA	NA	radiotherapy
+MSB-05956	radiotherapy.68651017	whole brain radiation	Brain	3000	Daily	NA	radiotherapy
+MSB-06586	radiotherapy.58963159	Breast Radiation Therapy	Breast	9	Daily	NA	radiotherapy
+MSB-06267	radiotherapy.60165780	Adjuvant postmastectomy radiation therapy to chest wall regional lymphatics - left breast/chest wall, regional lymph nodes	Breast	200	Daily	Radiation (NOS)	radiotherapy
+MSB-08876	radiotherapy.62269710	IMRT technique with a dose of 50Gy directed at the right breast, axillary, and supraclavicular nodal region in the supine position	Breast	50	NA	Radiation (NOS)	radiotherapy
+MSB-05428	radiotherapy.66508131	EBRT to breast and draining lymphatics	Breast	50	Daily	NA	radiotherapy
+MSB-08214	radiotherapy.66601869	Radiation therapy	Breast	unk	Weekly	Radiation (NOS)	radiotherapy
+MSB-08626	radiotherapy.67854304	Adjuvant RT to Right Breast & Lymphatics w/ boost.	Breast	200	Daily	Extensive Radiation	radiotherapy
+MSB-08309	radiotherapy.67939774	Radiation Treatment	C1 Vertebra	18	Daily	Radiation (NOS)	radiotherapy
+MSB-04950	radiotherapy.45383167	External beam radiation delivered in 5 fractions to C7-T1.	Cervical Spine	2000	NA	NA	radiotherapy
+MSB-03226	radiotherapy.63362617	Radiation Therapy to C1-C2 (30 Gy in 10 Fractions at 3 Gy per fraction)	Cervical Spine	300	Daily	Radiation (NOS)	radiotherapy
+MSB-03406	radiotherapy.33134115	EBRT	Cervical Spine	400	Daily	Radiation (NOS)	radiotherapy
+MSB-03453	radiotherapy.51027369	Palliative Radiation Therapy to the C Spine	Cervical Spine	400	Daily	Radiation (NOS)	radiotherapy
+MSB-07840	radiotherapy.54314735	Radiation Therapy to Cervical Spine	Cervical Spine	350	Daily	Radiation (NOS)	radiotherapy
+MSB-06072	radiotherapy.58631606	Stereotactic body radiotherapy (SBRT)	Cervical Spine	20	Daily	Radiation (NOS)	radiotherapy
+MSB-01307	radiotherapy.54418626	Consolidative radiation to the chest	Chest	36	Daily	Limited Radiation	radiotherapy
+MSB-04569	radiotherapy.61938766	Definitive radiotherapy (60 Gy in 30 fractions over 6 weeks)	Chest	60	NA	Radiation (NOS)	radiotherapy
+MSB-00060	radiotherapy.62234764	Radiation Therapy to Right Chest wall: 5000 cGy out of prescribed 5000 cGy in 25/25 tx fractions.	Chest Wall	200	Daily	Radiation (NOS)	radiotherapy
+MSB-01687	radiotherapy.66593968	IMRT	Chest Wall	50.4	Daily	Radiation (NOS)	radiotherapy
+MSB-05388	radiotherapy.43309741	Prophylactic Cranial Radiation	Cranial Cavity	NA	NA	NA	radiotherapy
+MSB-08289	radiotherapy.59172785	Radiation	Esophagus	5040	NA	NA	radiotherapy
+MSB-03548	radiotherapy.28636135	Palliative Radiotherapy	Femur	5	Once	NA	radiotherapy
+MSB-02901	radiotherapy.52911840	Palliative Radiotherapy - 2000 cGy in 5 fractions	Femur	400	Daily	Radiation (NOS)	radiotherapy
+MSB-03891	radiotherapy.56852562	RT of left femur	Femur	2000	Daily	Radiation (NOS)	radiotherapy
+MSB-07224	radiotherapy.60034598	Left Femur Radiation	Femur	400	Daily	NA	radiotherapy
+MSB-06735	radiotherapy.23492235	CyberKnife	Forebrain	30	Daily	Limited Radiation	radiotherapy
+MSB-08886	radiotherapy.60892898	Radiation therapy	Head and Neck	66	Every twenty four hours	Radiation (NOS)	radiotherapy
+MSB-09151	radiotherapy.31652101	Yttrium 90 radio embolization Y90 Microspheres injection	Hepatic Artery	26.6 mCi	Once	Radiation (NOS)	radiotherapy
+MSB-03548	radiotherapy.27374116	Palliative Radiotherapy	Hilar Area of the Lung	5	Continuous	Limited Radiation	radiotherapy
+MSB-01561	radiotherapy.62112275	Radiotherapy	Hip	2	Daily	Radiation (NOS)	radiotherapy
+MSB-02120	radiotherapy.68156413	3D CRT	Hip	NA	NA	NA	radiotherapy
+MSB-03453	radiotherapy.51027429	Palliative Radiation Therapy to the Right Humerus	Humerus	400	Daily	Radiation (NOS)	radiotherapy
+MSB-05676	radiotherapy.50608568	External Beam Radiation (30 Gy in 10 fractions)	Ilium	3	Daily	Radiation (NOS)	radiotherapy
+MSB-02901	radiotherapy.53215462	Palliative Radiotherapy - 2000 cGy in 5 fractions	L1 Vertebra	400	Daily	Radiation (NOS)	radiotherapy
+MSB-01516	radiotherapy.60192988	External Beam Radiation	L1 Vertebra	300	Daily	Radiation (NOS)	radiotherapy
+MSB-09027	radiotherapy.15999640	LOW DOSE RADIATION	Left Lung	60	NA	Extensive Radiation	radiotherapy
+MSB-01499	radiotherapy.15392734	HIGH DOSE RADIATION	Left Lung	66	Daily	Limited Radiation	radiotherapy
+MSB-08631	radiotherapy.36082631	Proton Radiation	Left Lung	NA	Once	Radiation (NOS)	radiotherapy
+MSB-04319	radiotherapy.53837593	Radiation	Left Lung	6000	NA	Extensive Radiation	radiotherapy
+MSB-05098	radiotherapy.54981365	SBRT	Left Lung	1250	Twice a week	NA	radiotherapy
+MSB-06824	radiotherapy.58967130	Radiation	Left Lung	6000	NA	NA	radiotherapy
+MSB-07864	radiotherapy.59157706	SBRT	Left Lung	1	Every three days	Radiation (NOS)	radiotherapy
+MSB-00773	radiotherapy.65528046	VMAT	Left Lung	6000	NA	NA	radiotherapy
+MSB-09019	radiotherapy.15579819	SBRT	Liver	35	NA	Radiation (NOS)	radiotherapy
+MSB-00352	radiotherapy.31652352	Y90 radioembolization	Liver	165	NA	Radiation (NOS)	radiotherapy
+MSB-05388	radiotherapy.43050344	CyberKnife SBRT	Lower Lobe of the Left Lung	5000	NA	NA	radiotherapy
+MSB-02367	radiotherapy.67443494	radiation therapy	Lower Lobe of the Left Lung	6000	NA	Limited Radiation	radiotherapy
+MSB-01842	radiotherapy.58911744	10 fx Palliative Radiation	Lower Third of the Esophagus	2805	NA	NA	radiotherapy
+MSB-04950	radiotherapy.20203768	5/5 fractions to L1-L3 palliative response with resolved back pain	Lumbar Spine	2000	NA	Limited Radiation	radiotherapy
+MSB-02472	radiotherapy.53233026	3D CRT of lumbar spine	Lumbar Spine	2000	NA	NA	radiotherapy
+MSB-06894	radiotherapy.60669938	EBRT	Lumbar Spine	30	Daily	NA	radiotherapy
+MSB-06606	radiotherapy.56298624	Palliative radiotherapy to L3 lumbar lesion region - L2-L4; 2500 in 10 fractions	Lumbar Spine	250	Daily	Radiation (NOS)	radiotherapy
+MSB-02139	radiotherapy.55607809	24 Gray/8 fractions, 3D conformal radiotherapy, helical Tomo therapy 6 MV	Lumbar Spine	300	Daily	Radiation (NOS)	radiotherapy
+MSB-06072	radiotherapy.58631774	Stereotactic body radiotherapy (SBRT)	Lumbar Spine	20	Daily	Radiation (NOS)	radiotherapy
+MSB-01865	radiotherapy.58833641	single fraction radiation therapy to lumbar spine	Lumbar Spine	8	Once	Radiation (NOS)	radiotherapy
+MSB-05718	radiotherapy.66424030	Palliative radiation therapy - 800 cGy in a single fraction to lumbar spine	Lumbar Spine	800	Once	Radiation (NOS)	radiotherapy
+MSB-05956	radiotherapy.68733853	L Spine Radiation	Lumbar Spine	2000	Daily	NA	radiotherapy
+MSB-00498	radiotherapy.59158261	Palliative Radiation Therapy to L2-L4, 2000 cGy in 10 fractions	Lumbar Vertebra	200	Daily	Radiation (NOS)	radiotherapy
+MSB-09794	radiotherapy.15208489	LOW DOSE RADIATION	Lung	NA	NA	Radiation (NOS)	radiotherapy
+MSB-02661	radiotherapy.48626164	Radiation	Lung	NA	NA	NA	radiotherapy
+MSB-08354	radiotherapy.49641648	Radiation	Lung	NA	NA	NA	radiotherapy
+MSB-09917	radiotherapy.66400832	Radiation	Lung	NA	NA	NA	radiotherapy
+MSB-04030	radiotherapy.17137155	LOW DOSE RADIATION	Mandible	300	Daily	Limited Radiation	radiotherapy
+MSB-03226	radiotherapy.63362605	Radiation Therapy to the left mandible and right ilium.	Mandible	800	Once	Radiation (NOS)	radiotherapy
+MSB-00179	radiotherapy.61800469	Arc. 15 fractions over 21 days. Total dose = 4500 cGy	Mediastinum	300	NA	Radiation (NOS)	radiotherapy
+MSB-09977	radiotherapy.16995252	HIGH DOSE RADIATION	Not Applicable	NA	NA	Limited Radiation	radiotherapy
+MSB-09977	radiotherapy.16995253	HIGH DOSE RADIATION	Not Applicable	NA	NA	Radiation (NOS)	radiotherapy
+MSB-05837	radiotherapy.17233388	HIGH DOSE RADIATION	Not Applicable	NA	NA	Radiation (NOS)	radiotherapy
+MSB-05837	radiotherapy.17233473	HIGH DOSE RADIATION	Not Applicable	NA	NA	NA	radiotherapy
+MSB-09117	radiotherapy.17802935	HIGH DOSE RADIATION	Not Applicable	NA	NA	Radiation (NOS)	radiotherapy
+MSB-02118	radiotherapy.18234216	stereotactic ablative radiotherapy	Not Applicable	NA	NA	Radiation (NOS)	radiotherapy
+MSB-03400	radiotherapy.23165179	rectum/nodes	Not Applicable	NA	NA	Radiation (NOS)	radiotherapy
+MSB-00939	radiotherapy.27963688	radiation	Not Applicable	NA	NA	Radiation (NOS)	radiotherapy
+MSB-00556	radiotherapy.36423121	IGRT	Not Applicable	NA	NA	Radiation (NOS)	radiotherapy
+MSB-07662	radiotherapy.50767861	Radiation	Not Applicable	NA	NA	NA	radiotherapy
+MSB-09138	radiotherapy.66821397	external beam radiation	Not Applicable	NA	NA	NA	radiotherapy
+MSB-08142	radiotherapy.22807220	RT + Chemo	Parietal Lobe	59.4	Every five days	Radiation (NOS)	radiotherapy
+MSB-03796	radiotherapy.22658040	XRT	Parietal Lobe	4680	Weekly	Radiation (NOS)	radiotherapy
+MSB-00179	radiotherapy.61800983	SRS to left parietal lobe. 3 fractions administered for total of 2,700 cGy	Parietal Lobe	900	NA	Radiation (NOS)	radiotherapy
+MSB-02381	radiotherapy.15572359	LOW DOSE RADIATION	Pelvis	NA	NA	Radiation (NOS)	radiotherapy
+MSB-08178	radiotherapy.19871726	Salvage radiotherapy	Pelvis	4500	NA	Extensive Radiation	radiotherapy
+MSB-07059	radiotherapy.23183015	external beam radiation therapy	Pelvis	5400	Daily	Limited Radiation	radiotherapy
+MSB-06029	radiotherapy.28945791	Palliative radiation to the pelvic mass	Pelvis	30	Daily	Limited Radiation	radiotherapy
+MSB-09202	radiotherapy.53749982	Radiation	Pelvis	220	NA	NA	radiotherapy
+MSB-09202	radiotherapy.53754030	Radiation	Pelvis	220	NA	NA	radiotherapy
+MSB-09202	radiotherapy.53754034	Radiation	Pelvis	220	NA	NA	radiotherapy
+MSB-09202	radiotherapy.53754036	Radiation	Pelvis	220	NA	NA	radiotherapy
+MSB-07991	radiotherapy.56508144	Radiation	Pelvis	45	NA	NA	radiotherapy
+MSB-00620	radiotherapy.61295190	3D conformal external beam radiation - 20 Gy in 5 fractions at 4 Gy per fraction	Pelvis	4	Daily	Radiation (NOS)	radiotherapy
+MSB-08178	radiotherapy.19871744	Salvage Radiotherapy	Prostate Gland	7020	NA	Extensive Radiation	radiotherapy
+MSB-04415	radiotherapy.50310270	Radiation	Prostate Gland	NA	NA	NA	radiotherapy
+MSB-04415	radiotherapy.50437202	SBRT	Prostate Gland	30	Every other day	Radiation (NOS)	radiotherapy
+MSB-00558	radiotherapy.62478614	IMRT	Prostate Gland	5500	NA	Radiation (NOS)	radiotherapy
+MSB-06094	radiotherapy.63470209	External beam radiation therapy - delivering 7000 cGy to the prostate/SV - 4620 cGy to the pelvis with an integrated boost to 5880 cGy to involved lymph nodes - all delivered in 28 fractions.	Prostate Gland	250	Daily	Radiation (NOS)	radiotherapy
+MSB-08309	radiotherapy.68732043	Stereotactic Body Radiation Therapy	Prostate Gland	3625	Daily	Radiation (NOS)	radiotherapy
+MSB-07221	radiotherapy.50178134	Rectum and lymphd node radiation	Rectum	200	NA	NA	radiotherapy
+MSB-04030	radiotherapy.17137150	LOW DOSE RADIATION	Rib	800	Once	Limited Radiation	radiotherapy
+MSB-04031	radiotherapy.31652382	External Beam Radiation - to the right lateral ribs	Rib	800	Once	NA	radiotherapy
+MSB-03453	radiotherapy.54808119	Palliative Radiation to the Left Ribs	Rib	800	Once	Radiation (NOS)	radiotherapy
+MSB-09896	radiotherapy.62757644	Palliative Radiation	Rib	400	Daily	Radiation (NOS)	radiotherapy
+MSB-01103	radiotherapy.31652226	Palliative external beam radiation to right 6th rib	Rib 6	800	Once	Radiation (NOS)	radiotherapy
+MSB-05435	radiotherapy.47445615	Palliative radiotherapy - 3D conformal radiotherapy 18 MV beam energy - 3000 cGy in 10 fractions to rt. lateral rib	Rib 6	300	Daily	Extensive Radiation	radiotherapy
+MSB-00179	radiotherapy.60167724	SBRT of Brain	Right Cerebral Hemisphere	2100	Once	Radiation (NOS)	radiotherapy
+MSB-01413	radiotherapy.27347769	Daily Radiation Treatment to R Lung/Nodes	Right Lung	NA	NA	Radiation (NOS)	radiotherapy
+MSB-01597	radiotherapy.54279193	Palliative Radiation to the Right Lung	Right Lung	300	Daily	Radiation (NOS)	radiotherapy
+MSB-01437	radiotherapy.50908069	Radiation	Right Lung	200	NA	NA	radiotherapy
+MSB-05460	radiotherapy.54310922	IMRT	Right Lung	60	Daily	Radiation (NOS)	radiotherapy
+MSB-01842	radiotherapy.58941570	Stereotactic body radiotherapy in 5 fx	Right Lung	5000	NA	NA	radiotherapy
+MSB-07636	radiotherapy.58964256	IMRT rapid arc	Right Lung	4500	NA	NA	radiotherapy
+MSB-09692	radiotherapy.63563457	IMRT and VMAT / Arc Therap	Right Lung	NA	NA	NA	radiotherapy
+MSB-06510	radiotherapy.63698117	IMRT Radiation Therapy	Right Lung	30	Twice a week	Extensive Radiation	radiotherapy
+MSB-09505	radiotherapy.65556220	VMAT / Arc Therapy	Right Lung	200	Daily	NA	radiotherapy
+MSB-02120	radiotherapy.66967601	3DCRT	Right Lung	NA	NA	NA	radiotherapy
+MSB-03592	radiotherapy.66408546	consolidative radiation to thorax	Right Lung, Middle Lobe, Medial Segment	3000	NA	NA	radiotherapy
+MSB-01224	radiotherapy.35718103	External Beam Radiation Therapy	Sacrum	200	Daily	NA	radiotherapy
+MSB-03453	radiotherapy.38275722	External Beam Radiation to the right sacrum (3000 cGy in 10 fractions)	Sacrum	300	Daily	Radiation (NOS)	radiotherapy
+MSB-05388	radiotherapy.43050195	IMRT	Sacrum	3000	NA	Radiation (NOS)	radiotherapy
+MSB-07146	radiotherapy.54310824	Single Palliative Radiation Treatment	Sacrum	800	Once	Limited Radiation	radiotherapy
+MSB-05756	radiotherapy.50137715	Radiation	Sacrum	20	NA	NA	radiotherapy
+MSB-03453	radiotherapy.54808114	Palliative Radiation to the Left Posterior Scalp	Scalp	800	Once	Radiation (NOS)	radiotherapy
+MSB-03638	radiotherapy.65993193	radiation therapy	Scalp	2000	NA	NA	radiotherapy
+MSB-05387	radiotherapy.31653864	SBRT	Scapula	24	Daily	Radiation (NOS)	radiotherapy
+MSB-08799	radiotherapy.43307862	Palliative Radiotherapy	Shoulder	800	Once	NA	radiotherapy
+MSB-09782	radiotherapy.60221011	Radiation	Spinal Cord	30	NA	NA	radiotherapy
+MSB-03453	radiotherapy.54808118	Palliative Radiation to the Right Sternum	Sternum	800	Once	Radiation (NOS)	radiotherapy
+MSB-00667	radiotherapy.59173027	Palliative Radiation Therapy - 2000 cGy in 5 fractions	Sternum	400	Daily	Radiation (NOS)	radiotherapy
+MSB-06682	radiotherapy.50092851	Electrong beam therapy	T8 Vertebra	400	Daily	NA	radiotherapy
+MSB-02929	radiotherapy.63140366	Palliative Radiation Therapy to the Thoracic Spine Region (T7-T9)	T8 Vertebra	400	Daily	Radiation (NOS)	radiotherapy
+MSB-05676	radiotherapy.50566514	External Beam Radiation - 30 Gy in 10 fractions	T10 Vertebra	3	Daily	Radiation (NOS)	radiotherapy
+MSB-04031	radiotherapy.47317699	External beam radiation - delivering 2000 cGy in 5 fractions of 400 cGy to right temple	Temple	400	Daily	NA	radiotherapy
+MSB-03932	radiotherapy.31499082	Radiation Treatment	Temporal Lobe	500	Continuous	Limited Radiation	radiotherapy
+MSB-08170	radiotherapy.17207735	HIGH DOSE RADIATION	Thoracic Spine	2000	Every twenty four hours	Limited Radiation	radiotherapy
+MSB-04950	radiotherapy.45383077	External beam radiation delivered in 2 fractions to T5-T8.	Thoracic Spine	800	NA	NA	radiotherapy
+MSB-05387	radiotherapy.59840380	SBRT	Thoracic Spine	24	Daily	Radiation (NOS)	radiotherapy
+MSB-02472	radiotherapy.38012391	3D Conformal Radiation Therapy	Thoracic Spine	2000	NA	NA	radiotherapy
+MSB-04286	radiotherapy.49588275	EBRT	Thoracic Spine	45	Daily	NA	radiotherapy
+MSB-06682	radiotherapy.49962879	IMRT	Thoracic Spine	250	Daily	NA	radiotherapy
+MSB-02901	radiotherapy.53215460	Palliative Radiotherapy - 2000 cGy in 5 fractions	Thoracic Spine	400	Daily	Radiation (NOS)	radiotherapy
+MSB-04176	radiotherapy.52934543	EBRT	Thoracic Spine	NA	NA	NA	radiotherapy
+MSB-06606	radiotherapy.53044088	Postoperative radiotherapy to the thoracic spine - 2500 in 10 fractions (T6-T10)	Thoracic Spine	250	Daily	Radiation (NOS)	radiotherapy
+MSB-05876	radiotherapy.55177939	Palliative Radiotherapy to the Thoracic Spine	Thoracic Spine	300	Daily	Radiation (NOS)	radiotherapy
+MSB-01825	radiotherapy.56420053	EBRT	Thoracic Spine	20	Daily	NA	radiotherapy
+MSB-06072	radiotherapy.57623882	Stereotactic body radiotherapy (SBRT)	Thoracic Spine	20	Daily	Radiation (NOS)	radiotherapy
+MSB-00667	radiotherapy.59587335	Palliative Radiation Therapy - 2000 cGy in 5 fractions	Thoracic Spine	400	Daily	Radiation (NOS)	radiotherapy
+MSB-01390	radiotherapy.60251319	Palliative Radiation: 3D Conformal Radiation to T1, T10, and L2 spinal lytic lesion regions: 20 Gy in 5 fractions at 4 Gy per fraction	Thoracic Spine	4	Daily	Radiation (NOS)	radiotherapy
+MSB-07403	radiotherapy.68285151	EBRT	Thoracic Spine	45	Daily	Radiation (NOS)	radiotherapy
+MSB-04031	radiotherapy.47317698	External beam radiation - to the T6-T9 vertebral bodies and rt. paraspinous mass	Thoracic Vertebra	800	Once	NA	radiotherapy
+MSB-03453	radiotherapy.37936707	Palliative Radiation Therapy to the T5 and T8 region (2000 cGy in 5 fractions)	Thoracic Vertebra	400	Daily	Radiation (NOS)	radiotherapy
+MSB-07146	radiotherapy.50817026	Single Palliative Radiation Treatment to T10-L1	Thoracic Vertebra	800	Once	Limited Radiation	radiotherapy
+MSB-02988	radiotherapy.52923081	Single fraction palliative radiation treatment (external beam radiotherapy) - to the T4-T8 site	Thoracic Vertebra	800	Once	Radiation (NOS)	radiotherapy
+MSB-00498	radiotherapy.56554224	Palliative Radiation Therapy to T6-T10, 2000 cGy in 10 fractions	Thoracic Vertebra	200	Daily	Radiation (NOS)	radiotherapy
+MSB-05388	radiotherapy.42821158	IMRT	Thorax	3000	NA	Radiation (NOS)	radiotherapy
+MSB-08777	radiotherapy.54310498	Radiation	Thorax	60	Daily	Radiation (NOS)	radiotherapy
+MSB-08867	radiotherapy.67886797	IMRT	Thorax	45	Daily	NA	radiotherapy
+MSB-01232	radiotherapy.68734131	IMRT	Thorax	NA	NA	NA	radiotherapy
+MSB-05856	radiotherapy.53450145	CyberKnife stereotactic body radiation	Upper Lobe of the Left Lung	2000	NA	NA	radiotherapy
+MSB-04031	radiotherapy.47317702	External beam radiation delivering 2000 cGy to L5-S1, T5, and T11 in 5 fractions of 400 cGy.	Vertebral Column	400	Daily	NA	radiotherapy
+MSB-08309	radiotherapy.68732207	Stereotactic Body Radiation Therapy	Xiphoid Process	1000	Daily	Radiation (NOS)	radiotherapy

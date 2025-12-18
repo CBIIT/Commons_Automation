@@ -15,13 +15,17 @@ public class GlobalVariable {
     public static Object AppKey
      
     /**
-     * <p>Profile CTDC_QA : This variable holds the location of the input excel file which has the locators to be read from
+     * <p>Profile ICDC_QA : This variable holds the location of the input excel file which has the locators to be read from
+Profile CTDC_PROD : This variable holds the location of the input excel file which has the locators to be read from
+Profile CTDC_QA : This variable holds the location of the input excel file which has the locators to be read from
 Profile CTDC_STAGE : This variable holds the location of the input excel file which has the locators to be read from</p>
      */
     public static Object G_InputExcelFileName
      
     /**
-     * <p>Profile CTDC_QA : This is the path where the browserdriver is stored - for Chromedriver, Geckodrive, IEdriver etc
+     * <p>Profile ICDC_QA : This is the path where the browserdriver is stored - for Chromedriver, Geckodrive, IEdriver etc
+Profile CTDC_PROD : This is the path where the browserdriver is stored - for Chromedriver, Geckodrive, IEdriver etc
+Profile CTDC_QA : This is the path where the browserdriver is stored - for Chromedriver, Geckodrive, IEdriver etc
 Profile CTDC_STAGE : This is the path where the browserdriver is stored - for Chromedriver, Geckodrive, IEdriver etc</p>
      */
     public static Object G_BrowserDriverPath
@@ -32,7 +36,9 @@ Profile CTDC_STAGE : This is the path where the browserdriver is stored - for Ch
     public static Object G_Browser
      
     /**
-     * <p>Profile CTDC_QA : This can be modified to any environment - qa&#47;dev&#47;staging
+     * <p>Profile ICDC_QA : This can be modified to any environment - qa&#47;dev&#47;staging
+Profile CTDC_PROD : This can be modified to any environment - qa&#47;dev&#47;staging
+Profile CTDC_QA : This can be modified to any environment - qa&#47;dev&#47;staging
 Profile CTDC_STAGE : This can be modified to any environment - qa&#47;dev&#47;staging</p>
      */
     public static Object G_Urlname
@@ -48,25 +54,33 @@ Profile CTDC_STAGE : This can be modified to any environment - qa&#47;dev&#47;st
     public static Object G_Action
      
     /**
-     * <p>Profile CTDC_QA : This variable stores the Neo4J database's server url at runtime
+     * <p>Profile ICDC_QA : This variable stores the Neo4J database's server url at runtime
+Profile CTDC_PROD : This variable stores the Neo4J database's server url at runtime
+Profile CTDC_QA : This variable stores the Neo4J database's server url at runtime
 Profile CTDC_STAGE : This variable stores the Neo4J database's server url at runtime</p>
      */
     public static Object G_server
      
     /**
-     * <p>Profile CTDC_QA : This variable stores the Neo4J database's username at runtime
+     * <p>Profile ICDC_QA : This variable stores the Neo4J database's username at runtime
+Profile CTDC_PROD : This variable stores the Neo4J database's username at runtime
+Profile CTDC_QA : This variable stores the Neo4J database's username at runtime
 Profile CTDC_STAGE : This variable stores the Neo4J database's username at runtime</p>
      */
     public static Object G_UserId
      
     /**
-     * <p>Profile CTDC_QA : This variable stores the Neo4J database's password at runtime
+     * <p>Profile ICDC_QA : This variable stores the Neo4J database's password at runtime
+Profile CTDC_PROD : This variable stores the Neo4J database's password at runtime
+Profile CTDC_QA : This variable stores the Neo4J database's password at runtime
 Profile CTDC_STAGE : This variable stores the Neo4J database's password at runtime</p>
      */
     public static Object G_Password
      
     /**
-     * <p>Profile CTDC_QA : This variable stores the path of the output file onto which the data is written from Ne04j
+     * <p>Profile ICDC_QA : This variable stores the path of the output file onto which the data is written from Ne04j
+Profile CTDC_PROD : This variable stores the path of the output file onto which the data is written from Ne04j
+Profile CTDC_QA : This variable stores the path of the output file onto which the data is written from Ne04j
 Profile CTDC_STAGE : This variable stores the path of the output file onto which the data is written from Ne04j</p>
      */
     public static Object G_ResultPath
@@ -87,7 +101,9 @@ Profile CTDC_STAGE : This variable stores the path of the output file onto which
     public static Object G_propertyvalue
      
     /**
-     * <p>Profile CTDC_QA : This variable stores at runtime, the Cypher Query from Input Excel, used to fetch data from Neo4J for a specific criteria
+     * <p>Profile ICDC_QA : This variable stores at runtime, the Cypher Query from Input Excel, used to fetch data from Neo4J for a specific criteria
+Profile CTDC_PROD : This variable stores at runtime, the Cypher Query from Input Excel, used to fetch data from Neo4J for a specific criteria
+Profile CTDC_QA : This variable stores at runtime, the Cypher Query from Input Excel, used to fetch data from Neo4J for a specific criteria
 Profile CTDC_STAGE : This variable stores at runtime, the Cypher Query from Input Excel, used to fetch data from Neo4J for a specific criteria</p>
      */
     public static Object G_Query
@@ -153,7 +169,9 @@ Profile CTDC_STAGE : This variable stores at runtime, the Cypher Query from Inpu
     public static Object G_WebExcel
      
     /**
-     * <p>Profile CTDC_QA : This variable holds the value of the filename of the input file attached to each test case
+     * <p>Profile ICDC_QA : This variable holds the value of the filename of the input file attached to each test case
+Profile CTDC_PROD : This variable holds the value of the filename of the input file attached to each test case
+Profile CTDC_QA : This variable holds the value of the filename of the input file attached to each test case
 Profile CTDC_STAGE : This variable holds the value of the filename of the input file attached to each test case</p>
      */
     public static Object G_input_file
@@ -164,19 +182,25 @@ Profile CTDC_STAGE : This variable holds the value of the filename of the input 
     public static Object G_rowcount
      
     /**
-     * <p>Profile CTDC_QA : This contains the name of the element as stored in Katalon's obj rep
+     * <p>Profile ICDC_QA : This contains the name of the element as stored in Katalon's obj rep
+Profile CTDC_PROD : This contains the name of the element as stored in Katalon's obj rep
+Profile CTDC_QA : This contains the name of the element as stored in Katalon's obj rep
 Profile CTDC_STAGE : This contains the name of the element as stored in Katalon's obj rep</p>
      */
     public static Object G_ObjectType
      
     /**
-     * <p>Profile CTDC_QA : This is for Katalon 
+     * <p>Profile ICDC_QA : This is for Katalon 
+Profile CTDC_PROD : This is for Katalon 
+Profile CTDC_QA : This is for Katalon 
 Profile CTDC_STAGE : This is for Katalon </p>
      */
     public static Object G_dbexcel
      
     /**
-     * <p>Profile CTDC_QA : This is for the Cases tab and Samples tab which have 12 cols.  There is a separate variable for Files tab which has 10 cols
+     * <p>Profile ICDC_QA : This is for the Cases tab and Samples tab which have 12 cols.  There is a separate variable for Files tab which has 10 cols
+Profile CTDC_PROD : This is for the Cases tab and Samples tab which have 12 cols.  There is a separate variable for Files tab which has 10 cols
+Profile CTDC_QA : This is for the Cases tab and Samples tab which have 12 cols.  There is a separate variable for Files tab which has 10 cols
 Profile CTDC_STAGE : This is for the Cases tab and Samples tab which have 12 cols.  There is a separate variable for Files tab which has 10 cols</p>
      */
     public static Object G_rowcount_Katalon
@@ -192,31 +216,41 @@ Profile CTDC_STAGE : This is for the Cases tab and Samples tab which have 12 col
     public static Object G_StatQuery
      
     /**
-     * <p>Profile CTDC_QA : This variable holds the value of Programs count from Stat Bar in UI
+     * <p>Profile ICDC_QA : This variable holds the value of Programs count from Stat Bar in UI
+Profile CTDC_PROD : This variable holds the value of Programs count from Stat Bar in UI
+Profile CTDC_QA : This variable holds the value of Programs count from Stat Bar in UI
 Profile CTDC_STAGE : This variable holds the value of Programs count from Stat Bar in UI</p>
      */
     public static Object G_StatBar_Programs
      
     /**
-     * <p>Profile CTDC_QA : This variable holds the value of Studies count from Stat Bar in UI
+     * <p>Profile ICDC_QA : This variable holds the value of Studies count from Stat Bar in UI
+Profile CTDC_PROD : This variable holds the value of Studies count from Stat Bar in UI
+Profile CTDC_QA : This variable holds the value of Studies count from Stat Bar in UI
 Profile CTDC_STAGE : This variable holds the value of Studies count from Stat Bar in UI</p>
      */
     public static Object G_StatBar_Studies
      
     /**
-     * <p>Profile CTDC_QA : This variable holds the value of Cases count from Stat Bar in UI.
+     * <p>Profile ICDC_QA : This variable holds the value of Cases count from Stat Bar in UI.
+Profile CTDC_PROD : This variable holds the value of Cases count from Stat Bar in UI.
+Profile CTDC_QA : This variable holds the value of Cases count from Stat Bar in UI.
 Profile CTDC_STAGE : This variable holds the value of Cases count from Stat Bar in UI.</p>
      */
     public static Object G_StatBar_Cases
      
     /**
-     * <p>Profile CTDC_QA : This variable holds the value of Samples count from Stat Bar in UI.
+     * <p>Profile ICDC_QA : This variable holds the value of Samples count from Stat Bar in UI.
+Profile CTDC_PROD : This variable holds the value of Samples count from Stat Bar in UI.
+Profile CTDC_QA : This variable holds the value of Samples count from Stat Bar in UI.
 Profile CTDC_STAGE : This variable holds the value of Samples count from Stat Bar in UI.</p>
      */
     public static Object G_StatBar_Samples
      
     /**
-     * <p>Profile CTDC_QA : This variable holds the value of Files count from Stat Bar in UI.
+     * <p>Profile ICDC_QA : This variable holds the value of Files count from Stat Bar in UI.
+Profile CTDC_PROD : This variable holds the value of Files count from Stat Bar in UI.
+Profile CTDC_QA : This variable holds the value of Files count from Stat Bar in UI.
 Profile CTDC_STAGE : This variable holds the value of Files count from Stat Bar in UI.</p>
      */
     public static Object G_StatBar_Files
@@ -227,7 +261,9 @@ Profile CTDC_STAGE : This variable holds the value of Files count from Stat Bar 
     public static Object G_StatBar_Aliquots
      
     /**
-     * <p>Profile CTDC_QA : This global variable holds the value of study files
+     * <p>Profile ICDC_QA : This global variable holds the value of study files
+Profile CTDC_PROD : This global variable holds the value of study files
+Profile CTDC_QA : This global variable holds the value of study files
 Profile CTDC_STAGE : This global variable holds the value of study files</p>
      */
     public static Object G_StatBar_StudyFiles
@@ -248,7 +284,9 @@ Profile CTDC_STAGE : This global variable holds the value of study files</p>
     public static Object G_MainPgNextBtn
      
     /**
-     * <p>Profile CTDC_QA : This variable contains the output tab name for stat bar counts from the case details page of a specific case ID
+     * <p>Profile ICDC_QA : This variable contains the output tab name for stat bar counts from the case details page of a specific case ID
+Profile CTDC_PROD : This variable contains the output tab name for stat bar counts from the case details page of a specific case ID
+Profile CTDC_QA : This variable contains the output tab name for stat bar counts from the case details page of a specific case ID
 Profile CTDC_STAGE : This variable contains the output tab name for stat bar counts from the case details page of a specific case ID</p>
      */
     public static Object G_CaseDetailStatTabname
@@ -276,7 +314,37 @@ Profile CTDC_STAGE : This variable contains the output tab name for stat bar cou
     /**
      * <p></p>
      */
+    public static Object G_WebTabnameCases
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_WebTabnameSamples
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_WebTabnameFiles
+     
+    /**
+     * <p></p>
+     */
     public static Object G_WebTabnameStudyFiles
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_CypherTabnameCases
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_CypherTabnameSamples
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_CypherTabnameFiles
      
     /**
      * <p></p>
@@ -301,34 +369,59 @@ Profile CTDC_STAGE : This variable contains the output tab name for stat bar cou
     /**
      * <p></p>
      */
+    public static Object G_QueryCasesTab
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_QuerySamplesTab
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_QueryFilesTab
+     
+    /**
+     * <p></p>
+     */
     public static Object G_QueryStudyFilesTab
      
     /**
-     * <p>Profile CTDC_QA : Name of the current test script
+     * <p>Profile ICDC_QA : Name of the current test script
+Profile CTDC_PROD : Name of the current test script
+Profile CTDC_QA : Name of the current test script
 Profile CTDC_STAGE : Name of the current test script</p>
      */
     public static Object G_currentTCName
      
     /**
-     * <p>Profile CTDC_QA : This flag specifies whether the script needs manifest file rename or not.
+     * <p>Profile ICDC_QA : This flag specifies whether the script needs manifest file rename or not.
+Profile CTDC_PROD : This flag specifies whether the script needs manifest file rename or not.
+Profile CTDC_QA : This flag specifies whether the script needs manifest file rename or not.
 Profile CTDC_STAGE : This flag specifies whether the script needs manifest file rename or not.</p>
      */
     public static Object ManifestFlag
      
     /**
-     * <p>Profile CTDC_QA : This is the value of browser chosen at runtime to execute the test script
+     * <p>Profile ICDC_QA : This is the value of browser chosen at runtime to execute the test script
+Profile CTDC_PROD : This is the value of browser chosen at runtime to execute the test script
+Profile CTDC_QA : This is the value of browser chosen at runtime to execute the test script
 Profile CTDC_STAGE : This is the value of browser chosen at runtime to execute the test script</p>
      */
     public static Object execBrowser
      
     /**
-     * <p>Profile CTDC_QA : Path where manifest is saved
+     * <p>Profile ICDC_QA : Path where manifest is saved
+Profile CTDC_PROD : Path where manifest is saved
+Profile CTDC_QA : Path where manifest is saved
 Profile CTDC_STAGE : Path where manifest is saved</p>
      */
     public static Object manifestPath
      
     /**
-     * <p>Profile CTDC_QA : This contains the name of the recent manifest with timestamp which is to be renamed
+     * <p>Profile ICDC_QA : This contains the name of the recent manifest with timestamp which is to be renamed
+Profile CTDC_PROD : This contains the name of the recent manifest with timestamp which is to be renamed
+Profile CTDC_QA : This contains the name of the recent manifest with timestamp which is to be renamed
 Profile CTDC_STAGE : This contains the name of the recent manifest with timestamp which is to be renamed</p>
      */
     public static Object oldFileName
@@ -379,13 +472,17 @@ Profile CTDC_STAGE : This contains the name of the recent manifest with timestam
     public static Object G_cartQuery
      
     /**
-     * <p>Profile CTDC_QA : This variable holds the xpath of table which is to be read only for specific columns
+     * <p>Profile ICDC_QA : This variable holds the xpath of table which is to be read only for specific columns
+Profile CTDC_PROD : This variable holds the xpath of table which is to be read only for specific columns
+Profile CTDC_QA : This variable holds the xpath of table which is to be read only for specific columns
 Profile CTDC_STAGE : This variable holds the xpath of table which is to be read only for specific columns</p>
      */
     public static Object G_customTblBdy
      
     /**
-     * <p>Profile CTDC_QA : This variable contains the xpath of table body to be read by chosen column headers
+     * <p>Profile ICDC_QA : This variable contains the xpath of table body to be read by chosen column headers
+Profile CTDC_PROD : This variable contains the xpath of table body to be read by chosen column headers
+Profile CTDC_QA : This variable contains the xpath of table body to be read by chosen column headers
 Profile CTDC_STAGE : This variable contains the xpath of table body to be read by chosen column headers</p>
      */
     public static Object G_customTblHdr
@@ -396,19 +493,25 @@ Profile CTDC_STAGE : This variable contains the xpath of table body to be read b
     public static Object G_WebMyCartSelectCols
      
     /**
-     * <p>Profile CTDC_QA : this holds the file name after csv to xls conversion of the downloaded manifest
+     * <p>Profile ICDC_QA : this holds the file name after csv to xls conversion of the downloaded manifest
+Profile CTDC_PROD : this holds the file name after csv to xls conversion of the downloaded manifest
+Profile CTDC_QA : this holds the file name after csv to xls conversion of the downloaded manifest
 Profile CTDC_STAGE : this holds the file name after csv to xls conversion of the downloaded manifest</p>
      */
     public static Object G_excelFileName
      
     /**
-     * <p>Profile CTDC_QA : This variable holds the full path and filename of a manifest convereted from xls to xlsx
+     * <p>Profile ICDC_QA : This variable holds the full path and filename of a manifest convereted from xls to xlsx
+Profile CTDC_PROD : This variable holds the full path and filename of a manifest convereted from xls to xlsx
+Profile CTDC_QA : This variable holds the full path and filename of a manifest convereted from xls to xlsx
 Profile CTDC_STAGE : This variable holds the full path and filename of a manifest convereted from xls to xlsx</p>
      */
     public static Object G_xlsxFileName
      
     /**
-     * <p>Profile CTDC_QA : dummy variable added due toINS profile
+     * <p>Profile ICDC_QA : dummy variable added due toINS profile
+Profile CTDC_PROD : dummy variable added due toINS profile
+Profile CTDC_QA : dummy variable added due toINS profile
 Profile CTDC_STAGE : dummy variable added due toINS profile</p>
      */
     public static Object G_StatBar_Projects
@@ -556,21 +659,6 @@ Profile CTDC_STAGE : dummy variable added due toINS profile</p>
     /**
      * <p></p>
      */
-    public static Object G_WebTabnameCases
-     
-    /**
-     * <p></p>
-     */
-    public static Object G_CypherTabnameCases
-     
-    /**
-     * <p></p>
-     */
-    public static Object G_QueryCasesTab
-     
-    /**
-     * <p></p>
-     */
     public static Object G_StatBar_Participants
      
     /**
@@ -596,11 +684,6 @@ Profile CTDC_STAGE : dummy variable added due toINS profile</p>
     /**
      * <p></p>
      */
-    public static Object G_WebTabnameFiles
-     
-    /**
-     * <p></p>
-     */
     public static Object G_CypherTabnameParticipants
      
     /**
@@ -616,17 +699,7 @@ Profile CTDC_STAGE : dummy variable added due toINS profile</p>
     /**
      * <p></p>
      */
-    public static Object G_CypherTabnameSamples
-     
-    /**
-     * <p></p>
-     */
     public static Object G_QueryParticipantsTab
-     
-    /**
-     * <p></p>
-     */
-    public static Object G_CypherTabnameFiles
      
     /**
      * <p></p>
@@ -637,16 +710,6 @@ Profile CTDC_STAGE : dummy variable added due toINS profile</p>
      * <p></p>
      */
     public static Object G_QueryStudiesTab
-     
-    /**
-     * <p></p>
-     */
-    public static Object G_QuerySamplesTab
-     
-    /**
-     * <p></p>
-     */
-    public static Object G_QueryFilesTab
      
     /**
      * <p></p>
@@ -744,11 +807,20 @@ Profile CTDC_STAGE : dummy variable added due toINS profile</p>
             G_CaseDetailQ = selectedVariables['G_CaseDetailQ']
             G_CaseDetailsQFirstPart = selectedVariables['G_CaseDetailsQFirstPart']
             G_CaseDetailsQSecondPart = selectedVariables['G_CaseDetailsQSecondPart']
+            G_WebTabnameCases = selectedVariables['G_WebTabnameCases']
+            G_WebTabnameSamples = selectedVariables['G_WebTabnameSamples']
+            G_WebTabnameFiles = selectedVariables['G_WebTabnameFiles']
             G_WebTabnameStudyFiles = selectedVariables['G_WebTabnameStudyFiles']
+            G_CypherTabnameCases = selectedVariables['G_CypherTabnameCases']
+            G_CypherTabnameSamples = selectedVariables['G_CypherTabnameSamples']
+            G_CypherTabnameFiles = selectedVariables['G_CypherTabnameFiles']
             G_CypherTabnameStudyFiles = selectedVariables['G_CypherTabnameStudyFiles']
             G_OutputDir = selectedVariables['G_OutputDir']
             G_OutputFileName = selectedVariables['G_OutputFileName']
             G_inputTabName = selectedVariables['G_inputTabName']
+            G_QueryCasesTab = selectedVariables['G_QueryCasesTab']
+            G_QuerySamplesTab = selectedVariables['G_QuerySamplesTab']
+            G_QueryFilesTab = selectedVariables['G_QueryFilesTab']
             G_QueryStudyFilesTab = selectedVariables['G_QueryStudyFilesTab']
             G_currentTCName = selectedVariables['G_currentTCName']
             ManifestFlag = selectedVariables['ManifestFlag']
@@ -798,25 +870,17 @@ Profile CTDC_STAGE : dummy variable added due toINS profile</p>
             G_WebTabnameMyCartsvFileName = selectedVariables['G_WebTabnameMyCartsvFileName']
             G_WebTabnameSDStudyFilesTab = selectedVariables['G_WebTabnameSDStudyFilesTab']
             G_CypherTabnameSDStudyFilesTab = selectedVariables['G_CypherTabnameSDStudyFilesTab']
-            G_WebTabnameCases = selectedVariables['G_WebTabnameCases']
-            G_CypherTabnameCases = selectedVariables['G_CypherTabnameCases']
-            G_QueryCasesTab = selectedVariables['G_QueryCasesTab']
             G_StatBar_Participants = selectedVariables['G_StatBar_Participants']
             G_WebTabnameParticipants = selectedVariables['G_WebTabnameParticipants']
             G_WebTabnameDiagnosis = selectedVariables['G_WebTabnameDiagnosis']
             G_WebTabnameStudies = selectedVariables['G_WebTabnameStudies']
             G_WebTabnameBiospecimens = selectedVariables['G_WebTabnameBiospecimens']
-            G_WebTabnameFiles = selectedVariables['G_WebTabnameFiles']
             G_CypherTabnameParticipants = selectedVariables['G_CypherTabnameParticipants']
             G_CypherTabnameDiagnosis = selectedVariables['G_CypherTabnameDiagnosis']
             G_CypherTabnameStudies = selectedVariables['G_CypherTabnameStudies']
-            G_CypherTabnameSamples = selectedVariables['G_CypherTabnameSamples']
             G_QueryParticipantsTab = selectedVariables['G_QueryParticipantsTab']
-            G_CypherTabnameFiles = selectedVariables['G_CypherTabnameFiles']
             G_QueryDiagnosisTab = selectedVariables['G_QueryDiagnosisTab']
             G_QueryStudiesTab = selectedVariables['G_QueryStudiesTab']
-            G_QuerySamplesTab = selectedVariables['G_QuerySamplesTab']
-            G_QueryFilesTab = selectedVariables['G_QueryFilesTab']
             G_StatBar_Diagnosis = selectedVariables['G_StatBar_Diagnosis']
             G_StatBar_Survival = selectedVariables['G_StatBar_Survival']
             G_WebTabnameSurvival = selectedVariables['G_WebTabnameSurvival']

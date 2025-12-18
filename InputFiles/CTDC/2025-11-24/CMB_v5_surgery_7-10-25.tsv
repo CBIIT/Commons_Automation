@@ -1,0 +1,148 @@
+participant.participant_id	surgical_procedure_record_id	surgical_procedure	surgical_procedure_date	surgical_procedure_anatomical_location	surgical_procedure_therapeutic	surgical_procedure_findings	extent_of_residual_disease	type
+MSB-04863	surgery.14578134	left neck dissection	-29	Neck	Yes	One out of ten lymph nodes with metastatic melanoma with extensive extracapsular extension	NA	surgery
+MSB-04847	surgery.31652031	resection	-536	Colon	Yes	NA	NA	surgery
+MSB-04847	surgery.35035224	left parotid LN biopsy	-197	Parotid Gland	No	NA	NA	surgery
+MSB-04847	surgery.35035227	resection	-536	Colon	Yes	NA	NA	surgery
+MSB-09794	surgery.31652021	needle/ core biopsy	-563	Lung	No	NA	NA	surgery
+MSB-09019	surgery.31652035	biopsy	-552	Duodenum	No	NA	NA	surgery
+MSB-01206	surgery.22529249	Portion of mass from right foot, biopsy	-53	Foot	No	NA	NA	surgery
+MSB-02381	surgery.15572366	biopsy	-552	Small Intestine	No	NA	NA	surgery
+MSB-02381	surgery.35132963	robotic lower anterior resection	-487	Rectum	Yes	NA	NA	surgery
+MSB-02381	surgery.35132975	biopsy	-370	Left Lung	No	NA	NA	surgery
+MSB-03725	surgery.15578332	Laparoscopic mobilization o fleft colon and splenic flexure, open rectosigmoid resection with anastamosis	-442	Rectosigmoid Colon	Yes	NA	NA	surgery
+MSB-03808	surgery.31652067	biopsy	-511	Duodenum	No	NA	NA	surgery
+MSB-03808	surgery.35030204	biopsy	-453	Peritoneal Cavity	No	NA	NA	surgery
+MSB-01459	surgery.31652059	endobronchial biopsy	-119	Lung	No	NA	NA	surgery
+MSB-01459	surgery.35094868	needle core biopsy	9	Lung	No	NA	NA	surgery
+MSB-09027	surgery.31652063	fine needle aspiration	-863	Lung	No	NA	NA	surgery
+MSB-09027	surgery.35094971	CT guided right adrenal mass biopsy	-334	Adrenal Gland	No	NA	NA	surgery
+MSB-08588	surgery.31652073	sigmoid resection	-1314	Colon	Yes	NA	NA	surgery
+MSB-08588	surgery.35133791	fine needle aspiration	-92	Lung	No	NA	NA	surgery
+MSB-08588	surgery.35133792	robotic assisted left lung upper lobe wedge	-12	Lung	Yes	NA	NA	surgery
+MSB-08588	surgery.35133797	right lung mass CT guided FNA (cytology)	313	Lung	No	NA	NA	surgery
+MSB-01499	surgery.31652033	CT guided lung biopsy	-175	Lung	No	NA	NA	surgery
+MSB-01849	surgery.31652081	Lymph node dissection	208	Popliteal Fossa	Yes	1 LN Neg FOR METASTATIC MELANOMA.  1 LN WITH NECROSIS & MELANIN DEPOSITION, NO VIABLE TUMOR IDENTIFIED. This could represent a site of prior metastatic melanoma	NA	surgery
+MSB-09151	surgery.16021867	liver resection	0	Liver	Yes	wedged the liver tumor out with grossly negative margins	NA	surgery
+MSB-08170	surgery.17207737	left lung wedge resection	-1905	Lung	Yes	Metastatic adenocarcinoma,colorectal primary	NA	surgery
+MSB-08170	surgery.17207957	Colon resection and ovary removal	-2382	Colon	Yes	Moderately differentiated adenocarcinoma	NA	surgery
+MSB-07612	surgery.16940336	wide local excision of right thigh melanoma with primary closure sentinel lymph node biopsy of right inguinal lymph node	-1714	Skin of the Thigh	Yes	skin, right thigh, melanoma, negative margins clear; right upper leg sentinel lymphadenectomy, melanoma not identified (0/1)	none, pT1b, pN0	surgery
+MSB-09977	surgery.31652140	Liver, RUQ-biopsy	0	Liver	No	Metastatic small cell carcinoma	NA	surgery
+MSB-04030	surgery.31652138	Degenerative lumbar spinal stenosis (Anterior Lumbar Interbody Fusion L4-5, L5-S1)	497	Lumbar Spine	Yes	Good reduction and realignment. Good fixation.	NA	surgery
+MSB-07483	surgery.31652160	Lymph node, retroperitoneal lymph node-biopsy	-20	Lymph Node	No	Metastatic poorly differentiated carcinoma	NA	surgery
+MSB-01262	surgery.17215505	abdominoperineal resection	-2740	Abdominal Cavity	Yes	moderately differentiated rectal adenocarcinoma with    invasion into the perirectal adipose tissue with negative    margins.	All margins uninvolved by invasive carcinoma	surgery
+MSB-05837	surgery.31652158	Liver, mass, needle core biopsy	0	Liver	No	Metastatic small cell carcinoma	NA	surgery
+MSB-09117	surgery.31652170	Lung, right upper lobe, mass, smears and cell block, FNA:	13	Lung	No	Non-small cell carcinoma	NA	surgery
+MSB-06857	surgery.31652180	Stomach, antral ulcer-biopsy	-21	Stomach	No	Carcinoma, favor adenocarcinoma with ulcer formation	NA	surgery
+MSB-02118	surgery.31652206	Lymph node, fine-needle aspirate (aspirate smears and cell block	-6	Lymph Node	No	Metastatic non-small cell carcinoma	NA	surgery
+MSB-07436	surgery.31652210	tissue pathology	-431	Prostate Gland	No	NA	NA	surgery
+MSB-00952	surgery.31652204	sidmoidoscopy	-139	Colon	No	NA	NA	surgery
+MSB-02917	surgery.31652200	CT guided biopsy	-509	Bone	No	NA	NA	surgery
+MSB-03973	surgery.31652196	needle core biopsy	-240	Prostate Gland	No	NA	NA	surgery
+MSB-05508	surgery.31652115	needle core biopsy	-69	Lung	No	NA	NA	surgery
+MSB-08178	surgery.31652222	robotic assisted laparoscopic radical prostatectomy	-1176	Prostate Gland	Yes	NA	NA	surgery
+MSB-04332	surgery.23170474	stereotactic volumetric resection of right occipital intraaxial lesion.	-7	Brain	Yes	NA	NA	surgery
+MSB-07225	surgery.19947044	partial colectomy	-1178	Colon	Yes	adenocarcinoma	NA	surgery
+MSB-06184	surgery.20055455	TURP and bilateral orchiectomy	-26	Prostate Gland	Yes	NA	hepatic lesions untouched	surgery
+MSB-09601	surgery.20107404	Tumor debulking	-686	Caudate Lobe	Yes	NA	NA	surgery
+MSB-09601	surgery.20202627	cytoreductive surgery with HIPEC	-2092	Cecum	Yes	metastatic low grade adenocarcinoma	NA	surgery
+MSB-09601	surgery.36183811	Resection of periumbilical mass	0	Periumbilical Region	Yes	The patient had a 5 cm mass which was resected with a rim of normal tissue surrounding.	NA	surgery
+MSB-04950	surgery.31652254	Thoracic Laminectomy - Removal of Lesion	182	Thoracic Spine	Yes	spinal plasmacytoma	NA	surgery
+MSB-04950	surgery.45383184	Thoracic Decompression - Removal of Tumor	233	Thoracic Spine	Yes	Large epidural tumor causing severe compression of the thoracic cord.	NA	surgery
+MSB-05563	surgery.31652236	biopsy	-873	Prostate Gland	No	NA	NA	surgery
+MSB-05563	surgery.35111429	CT guided left iliac biopsy	-696	Iliac Lymph Node	No	NA	NA	surgery
+MSB-05563	surgery.35111432	fine needle aspiration	-696	Lymph Node	No	NA	NA	surgery
+MSB-06489	surgery.35132067	biopsy	-61	Liver	No	NA	NA	surgery
+MSB-06489	surgery.35132070	biopsy	-43	Left Lung	No	NA	NA	surgery
+MSB-06489	surgery.31652240	fine needle biopsy	-97	Liver	No	NA	NA	surgery
+MSB-05040	surgery.31652186	Core biopsy	-88	Liver	No	Malignant neoplasm consistent with malignant melanoma by immunohistochemical stains	NA	surgery
+MSB-07099	surgery.20526874	right hemicolectomy	-295	Right Colon	No	adenocarcinoma	NA	surgery
+MSB-04315	surgery.31652276	Bronchoscopy, endobronchial ultrasound	-169	Bronchus	Yes	endobronchial adenocarcinoma partially obstructing the LLL lateral segment proximal bronchi	Lung cancer Stage IIIA	surgery
+MSB-03272	surgery.26899198	Laparoscopic assisted right colectomy	-317	Transverse Colon	Yes	No obviously visible liver metastasis or carcinomatosis appreciated. Clinical R0 resection	NA	surgery
+MSB-09886	surgery.31652272	Biopsy	-161	Colon	No	Invasive moderately differentiated colonic adenocarcinoma	NA	surgery
+MSB-09886	surgery.35099462	ultrasound-guided core biopsy:	-141	Liver	No	Positive for metastatic adenocarcinoma with immunophenotypic features consistent with patient's known colonic primary	NA	surgery
+MSB-03796	surgery.22658042	Parietal Brain Resection, left. Parietal Craniotomy, left.	-223	Parietal Lobe	Yes	IDH1 Mutated 1p/10q, co-deleted WHO grade II/III oligodendroglioma	NA	surgery
+MSB-03400	surgery.23165212	rectal biopsy	-26	Rectum	No	NA	NA	surgery
+MSB-00939	surgery.31652322	Lymph node, left axillary, needle core biopsy	0	Lymph Node	No	Metastatic squamous cell carcinoma	NA	surgery
+MSB-06029	surgery.28945793	TURP	-145	Bladder	Yes	Bladder invasion	Exophytic rectosigmoid mass with bladder invasion measuring 5.9 cm	surgery
+MSB-04153	surgery.31652310	colonoscopy	-119	Colon	No	NA	NA	surgery
+MSB-04153	surgery.35110789	biopsy	-113	Liver	No	NA	NA	surgery
+MSB-04153	surgery.35111144	hepatectomy	-113	Liver	Yes	NA	NA	surgery
+MSB-04153	surgery.35111149	hemicolectomy	-113	Colon	Yes	NA	NA	surgery
+MSB-00352	surgery.29039722	rectosigmoid colectomy	-293	Rectosigmoid Colon	Yes	invasive adenocarcinoma 3.2 cm with 1/15 nodes positive T4N1	None	surgery
+MSB-00352	surgery.47057387	Open partial hepatectomy	28	Liver	Yes	Cirrhosis and metastatic colorectal cancer	Residual disease in right lobe of the liver	surgery
+MSB-09991	surgery.31652372	Laparoscopic Diverting Colostomy	62	Abdominal Cavity	No	NA	NA	surgery
+MSB-04031	surgery.31652384	IR Kyphoplasty	133	Vertebral Column	Yes	Successful percutaneous kyphoplasty of T11 and L1 vertebral body compression fractures	NA	surgery
+MSB-03932	surgery.31499084	Left temporal craniotomy for tumor resection	-74	Brain	Yes	Left temporal tumor with associated hemorrhage	moderate left frontal pneumocephalus, mild left frontal and temporal extra-axial collection	surgery
+MSB-09619	surgery.34374159	subtotal colectomy, end ileostomy, liver biopsy and wedge (segment 8)	-6	Abdominal Region	Yes	colonic obstruction with perforation and mucous fistula	NA	surgery
+MSB-08631	surgery.36082633	Laparoscopic, hand assisted low anterior resection with end descending colostomy and Laparoscopic complete mobilization of the splenic flexure	2	Rectosigmoid Colon	Yes	bulky, obstructing tumor identified at level: mid rectum. Appropriate mesorectal excision with a 5 cm fresh distal margin.	no residual disease	surgery
+MSB-00556	surgery.36423123	Right video assisted thorascopic upper lobectomy and mediastinal lymphadenectomy	-387	Right Lung	Yes	NA	NA	surgery
+MSB-02472	surgery.38012393	T4 and T5 laminectomy for epidural tumor resection	-108	Thoracic Spine	Yes	Epidural mass	NA	surgery
+MSB-03453	surgery.37936709	Open Reduction and Internal Fixation (ORIF) of the right proximal humerus fracture and curettage and cementing of right proximal humerus	171	Humerus	Yes	Plasma cell neoplasm	NA	surgery
+MSB-03453	surgery.54808125	Open Reduction and Internal Fixation (ORIF) of the left proximal humerus fracture and curettage and cementing of left proximal humerus	245	NA	Yes	Humerus	Plasma cell neoplasm	surgery
+MSB-01771	surgery.38272436	Port Placement, Laparoscopic loop colostomy and mobilization of the splenic flexure	-187	Sigmoid Colon	Yes	Moderate amount of ascites throughout the abdomen. Tight stricture of sigmoid colon, greatly adherent to abdominal wall	NA	surgery
+MSB-07917	surgery.38796288	Right sub trochanteric fracture ORIF w/ TFN	-393	Femur	Yes	Fragments of bone and hemorrhagic marrow with increased numbers of plasma cells	NA	surgery
+MSB-05126	surgery.43808503	Robotic Radical Nephrectomy	22	Kidney	Yes	Benign simple renal cortical cyst	NA	surgery
+MSB-04437	surgery.47030154	US Guided Liver Biopsy + DL Portacath Placement	1	Liver	Yes	NA	NA	surgery
+MSB-02169	surgery.49599622	Colon Sigmoid Resection	-281	Sigmoid Colon	Yes	Trace residual hemoperitoneum, dilation of the entire colon, Mid sigmoid colon mass	NA	surgery
+MSB-02169	surgery.49960856	Exploratory Laparotomy, Total Abdominal Hysterectomy, Excision of Right ovarian mass, Bilateral oophorectomy	-281	Pelvis	Yes	2500 mL of old blood in the abdomen, right ovary was enlarged and necrotic, uterus had a small fundal fibroid	None	surgery
+MSB-02169	surgery.49960889	Abdominal wound debridement	-199	Abdominal Cavity	Yes	periumbilical wound with non-healing tunnel communicating with large abscess pocket	NA	surgery
+MSB-04433	surgery.49642242	LEFT AXILLARY LYMPH NODE DISSECTION AND RESECTION OF LEFT CHEST WALL MASS	1	Axillary Lymph Node	Yes	NA	NA	surgery
+MSB-01597	surgery.49674147	Right Cervical Lymph Node Biopsy	-47	Lymph Node	Yes	Large palpable right supraclavicular lymph node	NA	surgery
+MSB-07221	surgery.50178136	Hepatectomy	-202	Liver	Yes	METASTATIC COLORECTAL ADENOCARCINOMA	NA	surgery
+MSB-05676	surgery.50566516	T10 Decompressive Laminectomy and Partial Tumor Removal Surgery	-100	Thoracic Spine	Yes	Plasmacytoma	NA	surgery
+MSB-05354	surgery.50715232	cholecystectomy	-309	Gallbladder	Yes	melanoma	NA	surgery
+MSB-04415	surgery.50310272	resection of a mass at the left medial thigh	-104	Thigh	Yes	Intramuscular myxoma.	NA	surgery
+MSB-06864	surgery.50807408	Lymph Node Biopsy	-69	Lung	Yes	Abnormal subcarinal lymph node, level 7. Frozen section positive for malignancy.	NA	surgery
+MSB-07784	surgery.50569530	Partial resection of colon	-1678	Colon	Yes	NA	NA	surgery
+MSB-07784	surgery.53663933	CT Guided RF ablation of liver	-1022	Liver	Yes	NA	NA	surgery
+MSB-07784	surgery.53663937	US guided needle liver biopsy	51	Liver	Yes	NA	NA	surgery
+MSB-07784	surgery.53663961	Removal of right subclavian porta catheter and placement of a single lumen power injectable subcutaneous port	-237	Chest	Yes	NA	NA	surgery
+MSB-07146	surgery.50817028	Kyphoplasty with biopsy at T9 & T10	-25	Thoracic Spine	Yes	Pathologic compression fracture secondary to multiple myeloma at thoracic 9 and thoracic 10.	NA	surgery
+MSB-05702	surgery.52923180	Lumbar Puncture	116	Lumbar Spine	Yes	Clear colored spinal fluid; further testing indicated leptomeningeal involvement of the AML and blasts in the spinal fluid.	NA	surgery
+MSB-02901	surgery.52911842	Open biopsy of the right femur with prophylactic intramedullary nailing	-968	Femur	Yes	plasma cell neoplasm	NA	surgery
+MSB-02988	surgery.52923083	Thoracic Spine Biopsy	-784	Thoracic Spine	Yes	Mass lesion involving the t6 vertebral body - findings indicate plasma cell neoplasm	NA	surgery
+MSB-07414	surgery.53378446	Laparoscopic diverting ostomy	-34	Sigmoid Colon	Yes	NA	NA	surgery
+MSB-09202	surgery.53749984	Abdominoperineal resection with permanent colostomy	-912	Abdominal Cavity	Yes	Invasive carcinoma	NA	surgery
+MSB-05460	surgery.54310924	Robotic-assisted right upper lobectomy and mediastinal lymph node dissection	-1838	Right Lung	Yes	adenocarcinoma	negative margins	surgery
+MSB-04143	surgery.54710484	Cytoreduction/HIPEC, Bilateral Oophorectomy	70	Ovary	Yes	Carcinoma in fallopian tubes, ovary, abd wall soft tissue, duodenum, omentum, peritoneum	Disease free	surgery
+MSB-04143	surgery.58866986	Right Colectomy	-408	Colon	Yes	POORLY DIFFERENTIATED ADENOCARCINOMA INVADING   VISCERAL PERITONEUM WITH LYMPH NODE METASTASES	NA	surgery
+MSB-03513	surgery.55607285	Right hepatectomy, right colectomy	-2881	Colon	Yes	NA	NA	surgery
+MSB-03513	surgery.55611896	Left VATS	-2217	Lung	Yes	METASTATIC DISEASE	NA	surgery
+MSB-05447	surgery.55764929	Partial right hepatectomy	22	Liver	Yes	8.3 cm metastatic adenocarcinoma with negative margins	NA	surgery
+MSB-07991	surgery.56508146	Robotic LAR with temporary ileostomy	-397	Colon	Yes	residual disease, grade 2	Grade 2	surgery
+MSB-03321	surgery.56509443	Robotic right hemiciolectomy	-1483	Ascending Colon	Yes	Mesenteric: Widely free of invasive carcinoma Proximal:Widely free of invasive carcinoma Distal:Widely free of invasive carcinoma Perineural invasion:identified	NA	surgery
+MSB-03321	surgery.62644642	DIAGNOSTIC LAPAROSCOPY Laparotomy, Bilateral Salpingo - Oophorectomy	-1030	Abdominal Region	Yes	NA	Metastatic adenocarcinoma	surgery
+MSB-03321	surgery.62644648	Diagnostic laparoscopy,intraoperative ultrasound,hepatic resection segment6/7 (posterior sectorectomy),omental and falciform flap	-855	Liver	No	Metastatic adenocarcinoma (2.3 cm) with marked necrosis	NA	surgery
+MSB-03321	surgery.63557526	Exploratory laparotomy, posterior exenteration,completion colectomy, mobilization of splenic flexure, omentectomy, right upper quadrant peritonectomy, HIPEC , end ileostomy	-316	Abdominal Region	Yes	Moderately differentiated adenocarcinoma.	NA	surgery
+MSB-03321	surgery.63557544	Ultrasound-guided biopsy of right anterior abdominal wall mass	-159	Abdominal Region	Yes	Metastatic adenocarcinoma	NA	surgery
+MSB-03891	surgery.56852564	Prophylactic intramedullary nail fixation left femur;open biopsy of left femur	-69	Femur	Yes	Plasma cell neoplasm	NA	surgery
+MSB-08049	surgery.57593347	Left frontal craniectomy for tumor resection; Mesh cranioplasty.	-1639	Brain	Yes	Plasmacytoma	NA	surgery
+MSB-00738	surgery.58810883	Cystoscopy, Bilateral Retrograde Pyleogram, Right Ureteral Balloon Dilation, Right Ureteroscopy, Bladder Biopsies with Fulgration, Right Ureteral Stent Placement	229	Bladder	No	Metastatic lobular breast carcinoma	NA	surgery
+MSB-04620	surgery.58909650	CT needle biopsy LEFT Lung	-36	Left Lung	Yes	Non-small cell carcinoma, favor adenocarcinoma	NA	surgery
+MSB-07864	surgery.59157708	Left thoracoscopy with Upper lobectomy Mediastinal lymphadenectomy	-1063	Left Lung	Yes	T2N0	NA	surgery
+MSB-09351	surgery.59089439	Hysterectomy	-15	Ovary	Yes	NA	NA	surgery
+MSB-04859	surgery.60205522	Bilateral Mastectomy	-116	Breast	Yes	NA	NA	surgery
+MSB-06267	surgery.60165782	Left total mastectomy & axillary dissection biopsy	85	Breast	Yes	Residual invasive ductal carcinoma after neoadjuvant therapy; lymph nodes positive for micrometastatic carcinoma.	NA	surgery
+MSB-08886	surgery.60892900	Right partial maxillectomy. 2.   Wide local excision of palate mucosa.	-395	Head and Neck	Yes	NA	NA	surgery
+MSB-08886	surgery.61153137	Partial nasopharyngectomy, right (resection of eustachian tube)	-92	Head and Neck	Yes	NA	NA	surgery
+MSB-01561	surgery.62112277	Bone Marrow Biopsy and Aspirate	-205	Bone Marrow	No	plasma cell myeloma	not applicable	surgery
+MSB-08876	surgery.62269712	Right breast lumpectomy	-3079	Breast	Yes	Residual invasive ductal carcinoma (status post neoadjuvant chemotherapy), poorly differentiated, Nottingham score 9/9 (tubule formation 3, nuclear pleomorphism 3, mitotic rate 3)	Tumor bed measures 35X30X25 mm with few foci of invasive carcinoma overall tumor bed cellularity 5 %	surgery
+MSB-09060	surgery.63039791	Right Mastectomy with reconstruction with tissue expanders and R axillary lymph node biopsy	-3649	Breast	Yes	T2NO Ductal carcinoma with clear margins	NA	surgery
+MSB-09060	surgery.63191331	Exchange from tissue expanders to permeant implants	-3511	Breast	No	NA	NA	surgery
+MSB-05502	surgery.65427369	Robotic Assisted  Diagnostic Laparoscopy with interval debulking, peritoneal biopsies, repair of uterine perforation, bilateral salpoingo-oophorectomy	-394	Ovary	Yes	The largest extrapelvic focus in the specimens submitted is 1 cm (right abdominal wall). However, the operative findings of a largely involved diaphragm is noted. The tumor is staged as at least FIGO	NA	surgery
+MSB-06510	surgery.63698119	Bronchoscopy	-282	Lung	No	Final Diagnosis: 1.Lung, right upper lobe, transbronchial biopsy:SMALL CELL CARCINOMA. 2.Lung, right lower lobe, transbronchial biopsy:Benign bronchial and lung tissue with chronic inflammation.	NA	surgery
+MSB-06471	surgery.65585122	Exploratory laparotomy with total gastrectomy	-181	Stomach	Yes	Residual malignancy along the gastric cardia; Laparotomy - significant tumor burden involving stomach splenic hilum & distal pancreas. No evidence of carcinomatosis; hiatal hernia w/ proximal tumor.	NA	surgery
+MSB-00433	surgery.65633788	Robotic assisted laparoscopic interval debulking surgery with modified radical hysterectomy, bilateral salpingo-oophorectomy, infra-gastric omentectomy, tumor ablation cystoscopy	-28	Pelvis	Yes	NA	NA	surgery
+MSB-00174	surgery.65977504	Total abdominal hysterectomy, Bilateral salpingo-ooporectomy with pelvic mass resection, Pelvic and Periaortic lymph node debulking, Total Omentectomy	-643	Pelvis	Yes	Carcinoma of the oviduct (Fallopian tube)  histologic type - serous  histologic grade - high	periaortic lymph nodes noted as well as 2.5 cm mass at the vaginal cuff concerning for metastatic i	surgery
+MSB-05246	surgery.65589742	EXPLORATORY LAPAROTOMY TUMOR DEBULKING	-197	Abdominal Region	Yes	Findings: Diffuse high volume peritoneal carcinomatosis involving her peritoneal surfaces.	None	surgery
+MSB-05246	surgery.65715264	CT guided biopsy of omental mass	-326	Abdominal Region	No	Final Diagnosis: Omental mass, CT directed biopsy, smears and sections: METASTATIC POORLY DIFFERENTIATED ADENOCARCINOMA; FAVOR GYNECOLOGIC/OVARIAN ORIGIN.	NA	surgery
+MSB-05246	surgery.65715311	IR Thoracentesis with Ultrasound Guidance	-40	Pleural Cavity	No	Pleural Fluid, Left: Positive for malignant cells. Metastatic adenocarcinoma consistent with patient's history.	NA	surgery
+MSB-03554	surgery.65970733	Exploratory laparotomy, right hemicolectomy with primary ileocolic anastomosis, resection greater omentum nodules, TAP block by surgeon, placement 19 French Blake drain, abdominal washout and closure	-101	Abdominal Cavity	Yes	NA	NA	surgery
+MSB-05428	surgery.66508133	Lumpectomy	-586	Breast	Yes	T1c Nx invasive ductal carcinoma	Complete resection	surgery
+MSB-05428	surgery.66602794	Axillary lymph node dissection	-571	Lymph Node	Yes	27 lymph nodes removed 12 with metastatic carcinoma (9 macro 3 isolated tumor)	Complete resection	surgery
+MSB-01687	surgery.66593970	Mastectomy	-238	Breast	Yes	pT3N1a	Margins negative	surgery
+MSB-08214	surgery.66601871	lumpectomy	-4005	Breast	Yes	unk	unk	surgery
+MSB-09466	surgery.66825148	wedge resection	-250	Left Lung	Yes	invasive squamous cell carcinoma	NA	surgery
+MSB-09431	surgery.67329424	Left atrial appendage occlusion	-679	Pelvis	Yes	NA	NA	surgery
+MSB-07403	surgery.68285153	T8 laminectomy, resection of radical subtotal resection of tumor, depression of spinal cord, microdissection and spinal cord monitoring	-657	Thoracic Spine	Yes	Plasma cell neoplasm	NA	surgery
+MSB-08626	surgery.67854306	Rt. Breast Lumpectomy with Sentinel Node Biopsy & Oncoplastic Closure	-951	Breast	Yes	Invasive ductal carcinoma; 1/5 lymph nodes demonstrates metastatic carcinoma.	NA	surgery
