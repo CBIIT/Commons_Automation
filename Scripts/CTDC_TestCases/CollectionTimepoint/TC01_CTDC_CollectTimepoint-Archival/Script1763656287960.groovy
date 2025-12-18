@@ -52,21 +52,21 @@ CustomKeywords.'utilities.TestRunner.clickTab'('CTDC/Home/WarningBan_Continue_Bt
 WebUI.waitForElementClickable(findTestObject('CTDC/NavBar/Explore-Btn'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('CTDC/NavBar/Explore-Btn')
 
-WebUI.waitForElementClickable(findTestObject('CTDC/Filters/CarcinExposure/CARCINOGENEXPLOSURE_Ddn'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('CTDC/Filters/CarcinExposure/CARCINOGENEXPLOSURE_Ddn')
+WebUI.waitForElementClickable(findTestObject('CTDC/Filters/ColTimepoint/COLTIMEPOINT_Ddn'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('CTDC/Filters/ColTimepoint/COLTIMEPOINT_Ddn')
  
-WebUI.waitForElementClickable(findTestObject('CTDC/Filters/CarcinExposure/No_Chkbx'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('CTDC/Filters/CarcinExposure/No_Chkbx')
+WebUI.waitForElementClickable(findTestObject('CTDC/Filters/ColTimepoint/Archival_Chkbx'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('CTDC/Filters/ColTimepoint/Archival_Chkbx')
 
 CustomKeywords.'utilities.TestRunner.readStatBarCTDC'('CTDC/Statbar/Studies-Count',
 	'CTDC/Statbar/Participants-Count', 'CTDC/Statbar/Diagnoses-Count','CTDC/Statbar/TargetedTherapies-Count','CTDC/Statbar/Biospecimens-Count','CTDC/Statbar/Files-Count')
 
-//Participants tab
-WebUI.waitForElementPresent(findTestObject('CTDC/ResultTabs/Participants-Tab'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('CTDC/ResultTabs/Participants-Tab')
-CustomKeywords.'utilities.TestRunner.multiFunction'('CTDC', GlobalVariable.G_StatBar_Participants, 'CTDC/ResultTabs/Participants-Tbl',
-	'CTDC/ResultTabs/Participants-TblHdr', 'CTDC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameParticipants,
-	'TsvDataParticipants', GlobalVariable.G_QueryParticipantsTab)
+////Participants tab
+//WebUI.waitForElementPresent(findTestObject('CTDC/ResultTabs/Participants-Tab'), 5)
+//CustomKeywords.'utilities.TestRunner.clickTab'('CTDC/ResultTabs/Participants-Tab')
+//CustomKeywords.'utilities.TestRunner.multiFunction'('CTDC', GlobalVariable.G_StatBar_Participants, 'CTDC/ResultTabs/Participants-Tbl',
+//	'CTDC/ResultTabs/Participants-TblHdr', 'CTDC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameParticipants,
+//	'TsvDataParticipants', GlobalVariable.G_QueryParticipantsTab)
 
 //biosppecimens tab
 WebUI.waitForElementPresent(findTestObject('CTDC/ResultTabs/Biospecimens-Tab'), 5)

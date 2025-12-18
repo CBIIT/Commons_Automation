@@ -12,7 +12,7 @@ WebUI.closeBrowser()
 //CTDC
 //Initiate and click Continue on warning popup
 CustomKeywords.'utilities.TestRunner.RunKatalon'('CTDC_StaticData.xlsx')
-CustomKeywords.'utilities.TestRunner.clickTab'('Trials/Trials_WarningContinue_Btn')
+CustomKeywords.'utilities.TestRunner.clickTab'('CTDC/Home/WarningBan_Continue_Btn')
 
 //Verify static data text for Home page
 CustomKeywords.'utilities.TestRunner.verifyStaticData'("V_HomePage")

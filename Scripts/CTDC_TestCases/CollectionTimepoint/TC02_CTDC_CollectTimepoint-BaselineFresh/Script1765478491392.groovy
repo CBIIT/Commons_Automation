@@ -44,7 +44,7 @@ import java.nio.file.Paths as Paths
   */
 WebUI.closeBrowser()
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC03_CTDC_AnatomCollecSite-IliacCrest.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC02_CTDC_CollectTimepoint-BaselineFresh.xlsx')
 
 WebUI.waitForElementClickable(findTestObject('CTDC/Home/WarningBan_Continue_Btn'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('CTDC/Home/WarningBan_Continue_Btn')
@@ -52,11 +52,11 @@ CustomKeywords.'utilities.TestRunner.clickTab'('CTDC/Home/WarningBan_Continue_Bt
 WebUI.waitForElementClickable(findTestObject('CTDC/NavBar/Explore-Btn'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('CTDC/NavBar/Explore-Btn')
 
-WebUI.waitForElementClickable(findTestObject('CTDC/Filters/AnatoCollecSite/ANATOMCOLLECSITE_Ddn'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('CTDC/Filters/AnatoCollecSite/ANATOMCOLLECSITE_Ddn')
+WebUI.waitForElementClickable(findTestObject('CTDC/Filters/ColTimepoint/COLTIMEPOINT_Ddn'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('CTDC/Filters/ColTimepoint/COLTIMEPOINT_Ddn')
  
-WebUI.waitForElementClickable(findTestObject('CTDC/Filters/AnatoCollecSite/IliacCrest_Chkbx'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('CTDC/Filters/AnatoCollecSite/IliacCrest_Chkbx')
+WebUI.waitForElementClickable(findTestObject('CTDC/Filters/ColTimepoint/BaselineFresh_Chkbx'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('CTDC/Filters/ColTimepoint/BaselineFresh_Chkbx')
 
 CustomKeywords.'utilities.TestRunner.readStatBarCTDC'('CTDC/Statbar/Studies-Count',
 	'CTDC/Statbar/Participants-Count', 'CTDC/Statbar/Diagnoses-Count','CTDC/Statbar/TargetedTherapies-Count','CTDC/Statbar/Biospecimens-Count','CTDC/Statbar/Files-Count')

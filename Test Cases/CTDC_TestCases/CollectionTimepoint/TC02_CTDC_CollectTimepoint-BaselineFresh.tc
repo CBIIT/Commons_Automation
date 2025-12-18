@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_CTDC_CollectTimepoint-BaselineFresh</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <testCaseGuid>b26a04db-a8c6-462e-85f8-09d931adc6ac</testCaseGuid>
+</TestCaseEntity>

@@ -44,7 +44,7 @@ import java.nio.file.Paths as Paths
   */
 WebUI.closeBrowser()
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC01_CTDC_CarcinExposure-No.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC03_CTDC_CollectTimepoint-PostTreatNoProgrs.xlsx')
 
 WebUI.waitForElementClickable(findTestObject('CTDC/Home/WarningBan_Continue_Btn'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('CTDC/Home/WarningBan_Continue_Btn')
@@ -52,11 +52,11 @@ CustomKeywords.'utilities.TestRunner.clickTab'('CTDC/Home/WarningBan_Continue_Bt
 WebUI.waitForElementClickable(findTestObject('CTDC/NavBar/Explore-Btn'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('CTDC/NavBar/Explore-Btn')
 
-WebUI.waitForElementClickable(findTestObject('CTDC/Filters/CarcinExposure/CARCINOGENEXPLOSURE_Ddn'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('CTDC/Filters/CarcinExposure/CARCINOGENEXPLOSURE_Ddn')
+WebUI.waitForElementClickable(findTestObject('CTDC/Filters/ColTimepoint/COLTIMEPOINT_Ddn'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('CTDC/Filters/ColTimepoint/COLTIMEPOINT_Ddn')
  
-WebUI.waitForElementClickable(findTestObject('CTDC/Filters/CarcinExposure/No_Chkbx'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('CTDC/Filters/CarcinExposure/No_Chkbx')
+WebUI.waitForElementClickable(findTestObject('CTDC/Filters/ColTimepoint/PostTreatNoProgrs_Chkbx'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('CTDC/Filters/ColTimepoint/PostTreatNoProgrs_Chkbx')
 
 CustomKeywords.'utilities.TestRunner.readStatBarCTDC'('CTDC/Statbar/Studies-Count',
 	'CTDC/Statbar/Participants-Count', 'CTDC/Statbar/Diagnoses-Count','CTDC/Statbar/TargetedTherapies-Count','CTDC/Statbar/Biospecimens-Count','CTDC/Statbar/Files-Count')
@@ -67,20 +67,20 @@ CustomKeywords.'utilities.TestRunner.clickTab'('CTDC/ResultTabs/Participants-Tab
 CustomKeywords.'utilities.TestRunner.multiFunction'('CTDC', GlobalVariable.G_StatBar_Participants, 'CTDC/ResultTabs/Participants-Tbl',
 	'CTDC/ResultTabs/Participants-TblHdr', 'CTDC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameParticipants,
 	'TsvDataParticipants', GlobalVariable.G_QueryParticipantsTab)
-//
-////biosppecimens tab
-//WebUI.waitForElementPresent(findTestObject('CTDC/ResultTabs/Biospecimens-Tab'), 5)
-//CustomKeywords.'utilities.TestRunner.clickTab'('CTDC/ResultTabs/Biospecimens-Tab')
-//CustomKeywords.'utilities.TestRunner.multiFunction'('CTDC', GlobalVariable.G_StatBar_Grants, 'CTDC/ResultTabs/Biospecimens-Tbl',
-//	'CTDC/ResultTabs/Biospecimens-TblHdr', 'CTDC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameBiospecimens,
-//	'TsvDataBiospecimens', GlobalVariable.G_QueryParticipantsTab)
-//
-////Files tab
-//WebUI.waitForElementPresent(findTestObject('CTDC/ResultTabs/Files-Tab'), 5)
-//CustomKeywords.'utilities.TestRunner.clickTab'('CTDC/ResultTabs/Files-Tab')
-//CustomKeywords.'utilities.TestRunner.multiFunction'('CTDC', GlobalVariable.G_StatBar_Files, 'CTDC/ResultTabs/Files-Tbl',
-//	'CTDC/ResultTabs/Files-TblHdr', 'CTDC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameFiles,
-//	'TsvDataFiles', GlobalVariable.G_QueryParticipantsTab)
+
+//biosppecimens tab
+WebUI.waitForElementPresent(findTestObject('CTDC/ResultTabs/Biospecimens-Tab'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('CTDC/ResultTabs/Biospecimens-Tab')
+CustomKeywords.'utilities.TestRunner.multiFunction'('CTDC', GlobalVariable.G_StatBar_Grants, 'CTDC/ResultTabs/Biospecimens-Tbl',
+	'CTDC/ResultTabs/Biospecimens-TblHdr', 'CTDC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameBiospecimens,
+	'TsvDataBiospecimens', GlobalVariable.G_QueryParticipantsTab)
+
+//Files tab
+WebUI.waitForElementPresent(findTestObject('CTDC/ResultTabs/Files-Tab'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('CTDC/ResultTabs/Files-Tab')
+CustomKeywords.'utilities.TestRunner.multiFunction'('CTDC', GlobalVariable.G_StatBar_Files, 'CTDC/ResultTabs/Files-Tbl',
+	'CTDC/ResultTabs/Files-TblHdr', 'CTDC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameFiles,
+	'TsvDataFiles', GlobalVariable.G_QueryParticipantsTab)
 
 WebUI.closeBrowser()
 
