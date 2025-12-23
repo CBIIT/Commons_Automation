@@ -5,7 +5,7 @@
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>3</numberOfRerun>
+   <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
@@ -372,7 +372,7 @@
       <guid>ad9c48b2-01cf-4242-b204-34382cde9cf2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Canine_TestCases/Studies/COTCO21/TC53_ICDC_COTC021_FileFormat-gz</testCaseId>
+      <testCaseId>Test Cases/Canine_TestCases/Studies/COTCO21/TC53_ICDC_COTC021_FileFormat-fastq</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
