@@ -1,1 +1,1 @@
-type	id	treatment_id	age_at_treatment_start	age_at_treatment_end	treatment_type	treatment_agent	dose	dose_unit	dose_route	dose_frequency	participant.participant_id
+type	id	treatment_id	age_at_treatment_start	age_at_treatment_end	treatment_type	treatment_agent	participant.id

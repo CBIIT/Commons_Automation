@@ -1,3 +1,3 @@
-"type"	"id"	"survival_id"	"last_known_survival_status"	"event_free_survival_status"	"first_event"	"age_at_last_known_survival_status"	"age_at_event_free_survival_status"	"cause_of_death"	"participant.id"
-"survival"	"01a79521-71c0-51a5-989c-d62440c09814"	"b333b7dc-37ea-457d-b551-8ed633851295"	"Dead"	"Not Censored"	"Relapse"	"3616"	"3075"	"Not Reported"	"f3ab0538-77a1-5de0-a7ca-1a74aebb852f"
-"survival"	"4e1345fe-dfdf-5408-bddd-6bf734cb3fa4"	"789dbb8d-1a89-4db0-98e6-fbad76a15f68"	"Dead"	"Not Censored"	"Progression"	"760"	"744"	"Not Reported"	"0fdd5f07-d0d4-5909-a538-ae36b1feeacf"
+"type"	"id"	"survival_id"	"last_known_survival_status"	"age_at_last_known_survival_status"	"event_free_survival_status"	"age_at_event_free_survival_status"	"first_event"	"cause_of_death"	"participant.id"
+"survival"	"072caddf-5953-5b09-9feb-a5940728b0bb"	"32414b77-14cd-4f3d-b2d7-98f07845cd9d"	"Dead"	"3616"	"Not Censored"	"3075"	"Relapse"	"Not Reported"	"1e4b682b-8365-586b-84da-d68fc90c460e"
+"survival"	"c00af6b6-91f0-575a-91e4-c56e1fed8f14"	"cddfd9be-8206-470d-b6d3-c1a268400cba"	"Dead"	"760"	"Not Censored"	"744"	"Progression"	"Not Reported"	"f924a8ca-1382-5053-8ef6-11df646848ef"

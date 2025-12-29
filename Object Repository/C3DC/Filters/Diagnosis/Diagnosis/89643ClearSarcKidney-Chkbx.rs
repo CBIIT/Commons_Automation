@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Diagnosis_8964/3 : Clear cell sarcoma of kidney&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Diagnosis_Clear cell sarcoma of kidney&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Diagnosis_8964/3 : Clear cell sarcoma of kidney&quot;]</value>
-      <webElementGuid>50429452-c235-49dd-900e-9e65bf69390a</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Diagnosis_Clear cell sarcoma of kidney&quot;]</value>
+      <webElementGuid>28b87a14-871e-44f0-8af8-87ddcb9ce4aa</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
