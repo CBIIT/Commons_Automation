@@ -1,0 +1,2 @@
+type	study_id	dbgap_accession	study_name	study_description	external_url	study_status	id
+study	phs001327	phs001327	Childhood Cancer Survivor Study (CCSS)	Analysis of subsequent neoplasm genomes from childhood cancer survivors	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001327	Active	e07b48db-83c4-5523-aaa8-467e2fb3a04e

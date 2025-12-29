@@ -1,15 +1,15 @@
-type	id	survival_id	last_known_survival_status	age_at_last_known_survival_status	event_free_survival_status	age_at_event_free_survival_status	first_event	cause_of_death	participant.participant_id
-survival	f9fe9baa-03f3-5404-b534-976ff12a63ba	fd30dc79-2f19-53e9-9a54-8d89d687d580	Dead	10723	Not Reported	-999	Not Reported	Not Reported	PATTDP
-survival	706dff06-27b6-57b0-a99d-d87dd461f0b0	0b5a27f5-f826-5b03-b40f-157351a51376	Dead	4877	Not Reported	-999	Not Reported	Not Reported	PATEVG
-survival	18dc80dd-4e68-5dde-b118-8613d0bdfb04	5976ded4-8bcd-598e-a7ff-c55da95d3b12	Dead	6790	Not Reported	-999	Not Reported	Not Reported	PAURXZ
-survival	4fd8aa57-4cc7-5d4d-8b0a-e8a72637b0ba	706dff06-27b6-57b0-a99d-d87dd461f0b0	Dead	3751	Not Reported	-999	Not Reported	Not Reported	PAUKIZ
-survival	9344ed46-9016-541f-b015-4b2d42534060	f9fe9baa-03f3-5404-b534-976ff12a63ba	Dead	4701	Not Reported	-999	Not Reported	Not Reported	PAUPTX
-survival	0909a455-fb5b-53c1-9a55-72a16be7daa7	4fd8aa57-4cc7-5d4d-8b0a-e8a72637b0ba	Dead	5765	Not Reported	-999	Not Reported	Not Reported	PAVINC
-survival	6f2d0c1a-18c7-54e1-be31-1b99df9b0163	9344ed46-9016-541f-b015-4b2d42534060	Dead	6694	Not Reported	-999	Not Reported	Not Reported	PAVVVF
-survival	fd30dc79-2f19-53e9-9a54-8d89d687d580	778add32-45ee-5776-85a1-cbd2e3a66b41	Dead	7426	Not Reported	-999	Not Reported	Not Reported	PASKMG
-survival	0b5a27f5-f826-5b03-b40f-157351a51376	dbbecc1e-5cf7-5b69-9fda-f83a3cbf0eb5	Dead	2876	Not Reported	-999	Not Reported	Not Reported	PASZMC
-survival	dbbecc1e-5cf7-5b69-9fda-f83a3cbf0eb5	18dc80dd-4e68-5dde-b118-8613d0bdfb04	Dead	9130	Not Reported	-999	Not Reported	Not Reported	PAURIX
-survival	9f41ee93-76c7-5abe-8a58-aed0184b6d74	0909a455-fb5b-53c1-9a55-72a16be7daa7	Dead	3515	Not Reported	-999	Not Reported	Not Reported	PAVSRU
-survival	5976ded4-8bcd-598e-a7ff-c55da95d3b12	9f41ee93-76c7-5abe-8a58-aed0184b6d74	Dead	1950	Not Reported	-999	Not Reported	Not Reported	PATENL
-survival	0eb21fc7-3ebc-5abd-9f77-d4dbce0f2828	6f2d0c1a-18c7-54e1-be31-1b99df9b0163	Dead	4309	Not Reported	-999	Not Reported	Not Reported	PAVYVY
-survival	778add32-45ee-5776-85a1-cbd2e3a66b41	0eb21fc7-3ebc-5abd-9f77-d4dbce0f2828	Dead	1147	Not Reported	-999	Not Reported	Not Reported	PAUPVR
+"type"	"id"	"survival_id"	"last_known_survival_status"	"age_at_last_known_survival_status"	"event_free_survival_status"	"age_at_event_free_survival_status"	"first_event"	"cause_of_death"	"participant.id"
+"survival"	"f9fe9baa-03f3-5404-b534-976ff12a63ba"	"PATTDP.vstatus"	"Dead"	"10723"	"Not Reported"	"-999"	"Not Reported"	"Not Reported"	"243c5758-0299-570f-a507-6a23111623c6"
+"survival"	"706dff06-27b6-57b0-a99d-d87dd461f0b0"	"PATEVG.vstatus"	"Dead"	"4877"	"Not Reported"	"-999"	"Not Reported"	"Not Reported"	"9ba37f98-ce5f-505b-ac92-def94bc5dd91"
+"survival"	"18dc80dd-4e68-5dde-b118-8613d0bdfb04"	"PAURXZ.vstatus"	"Dead"	"6790"	"Not Reported"	"-999"	"Not Reported"	"Not Reported"	"e63695e6-0afc-530b-bccf-44d99528c2eb"
+"survival"	"4fd8aa57-4cc7-5d4d-8b0a-e8a72637b0ba"	"PAUKIZ.vstatus"	"Dead"	"3751"	"Not Reported"	"-999"	"Not Reported"	"Not Reported"	"311e8b9d-c9dd-5007-a297-927ecbc5540b"
+"survival"	"9344ed46-9016-541f-b015-4b2d42534060"	"PAUPTX.vstatus"	"Dead"	"4701"	"Not Reported"	"-999"	"Not Reported"	"Not Reported"	"592965cd-71ba-5ee1-a587-f4fbfd8a6ad3"
+"survival"	"0909a455-fb5b-53c1-9a55-72a16be7daa7"	"PAVINC.vstatus"	"Dead"	"5765"	"Not Reported"	"-999"	"Not Reported"	"Not Reported"	"71707467-b91c-54cc-8abb-ef65edd6cbea"
+"survival"	"6f2d0c1a-18c7-54e1-be31-1b99df9b0163"	"PAVVVF.vstatus"	"Dead"	"6694"	"Not Reported"	"-999"	"Not Reported"	"Not Reported"	"2dd7b819-2f7d-528f-9e57-a58ad6d0c9fe"
+"survival"	"fd30dc79-2f19-53e9-9a54-8d89d687d580"	"PASKMG.vstatus"	"Dead"	"7426"	"Not Reported"	"-999"	"Not Reported"	"Not Reported"	"f7eb922b-3817-5033-84c9-b40d7fbf3d6d"
+"survival"	"0b5a27f5-f826-5b03-b40f-157351a51376"	"PASZMC.vstatus"	"Dead"	"2876"	"Not Reported"	"-999"	"Not Reported"	"Not Reported"	"9af1719c-d94d-5a2f-b1da-b5b788aea81b"
+"survival"	"dbbecc1e-5cf7-5b69-9fda-f83a3cbf0eb5"	"PAURIX.vstatus"	"Dead"	"9130"	"Not Reported"	"-999"	"Not Reported"	"Not Reported"	"7ba8a221-4116-5ef4-bbfc-2137f9ca72c3"
+"survival"	"9f41ee93-76c7-5abe-8a58-aed0184b6d74"	"PAVSRU.vstatus"	"Dead"	"3515"	"Not Reported"	"-999"	"Not Reported"	"Not Reported"	"5fb58dd6-3bed-51b2-aa3f-7fa8bc891c41"
+"survival"	"5976ded4-8bcd-598e-a7ff-c55da95d3b12"	"PATENL.vstatus"	"Dead"	"1950"	"Not Reported"	"-999"	"Not Reported"	"Not Reported"	"c1b4e042-1bff-5221-b2ed-e78903781a52"
+"survival"	"0eb21fc7-3ebc-5abd-9f77-d4dbce0f2828"	"PAVYVY.vstatus"	"Dead"	"4309"	"Not Reported"	"-999"	"Not Reported"	"Not Reported"	"f8c9e85d-92d1-5ebe-b5ea-8157a274fac0"
+"survival"	"778add32-45ee-5776-85a1-cbd2e3a66b41"	"PAUPVR.vstatus"	"Dead"	"1147"	"Not Reported"	"-999"	"Not Reported"	"Not Reported"	"b8002947-4c19-58ce-8979-9a712d7140e5"

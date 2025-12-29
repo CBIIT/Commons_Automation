@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Diagnosis_8010/3 : Carcinoma, NOS&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Diagnosis_Carcinoma, NOS&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Diagnosis_8010/3 : Carcinoma, NOS&quot;]</value>
-      <webElementGuid>e5dc61a2-c7c6-4b8c-93f9-a22c9c83289d</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Diagnosis_Carcinoma, NOS&quot;]</value>
+      <webElementGuid>4b490a85-3b73-4d1f-86ba-d4d6be1c330a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
