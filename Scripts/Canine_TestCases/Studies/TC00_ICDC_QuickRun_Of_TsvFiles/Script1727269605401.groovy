@@ -37,12 +37,12 @@ import com.kms.katalon.core.util.KeywordUtil
 import java.nio.file.Paths
 
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC14_ICDC_STS01_Diagnosis-SoftTissueSarcoma.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC53_ICDC_COTC021_FileFormat-fastq.xlsx')
 
-//CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py','TsvDataCases')
-//CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py','TsvDataSamples')
-//CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py','TsvDataCaseFiles')
-//CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py', 'TsvDataStudyFiles')
+CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py','TsvDataCases')
+CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py','TsvDataSamples')
+CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py','TsvDataCaseFiles')
+CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py', 'TsvDataStudyFiles')
 
 CustomKeywords.'utilities.PythonReader.readFileQuickRun'('Statbar.py','')
 

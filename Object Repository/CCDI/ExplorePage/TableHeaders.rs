@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>TableHeaders</name>
+   <tag></tag>
+   <elementGuidId>b4042d92-a90f-41ac-9fc6-c71f777ef60d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//table/thead/tr/th</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//table/thead/tr/th</value>
+      <webElementGuid>b64d5d24-269f-4b8d-82fe-a6062a289c3b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

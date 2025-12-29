@@ -1188,4 +1188,304 @@ class CrdcDHPbac extends TestRunner {
 			}
 		}
 	}
+
+/**
+	 * Generic method to verify any button is present and checks if it's enabled or disabled.
+	 * Dynamically creates the TestObject from the provided path and extracts button name for logging.
+	 * Includes wait/retry mechanism to handle timing issues where button state changes after validation completes.
+	 * @param buttonTestObjectPath The path to the TestObject in Object Repository (e.g., 'CRDC/DataSubmissions/Submit-Btn')
+	 * @param expectedState The expected state: "enable" or "disable" (case-insensitive)
+	 */
+	@Keyword
+	public static void verifyButtonState(String buttonTestObjectPath, String expectedState) {
+		int maxRetries = 3
+		int retryDelay = 2 // seconds
+		boolean matchesExpected = false
+		String actualState = ""
+
+		// Dynamically create TestObject from the path
+		TestObject buttonTestObject = findTestObject(buttonTestObjectPath)
+
+		// Extract button name from the path for logging (e.g., 'CRDC/DataSubmissions/Submit-Btn' -> "Submit")
+		String buttonName = extractButtonName(buttonTestObjectPath)
+
+		// First, verify the button is present on the page
+		boolean isPresent = WebUI.verifyElementPresent(buttonTestObject, 10, FailureHandling.OPTIONAL)
+
+		if (!isPresent) {
+			KeywordUtil.markFailed(buttonName + " button is not present on the page")
+			return
+		}
+
+		KeywordUtil.logInfo(buttonName + " button is present. Checking state...")
+
+		// Trim the expected state parameter
+		String trimmedState = expectedState.trim()
+
+		// Validate the expected state parameter (case-insensitive)
+		if (!trimmedState.equalsIgnoreCase("enable") && !trimmedState.equalsIgnoreCase("enabled") &&
+				!trimmedState.equalsIgnoreCase("disable") && !trimmedState.equalsIgnoreCase("disabled")) {
+			KeywordUtil.markFailed("Invalid parameter: '" + expectedState + "'. Use 'enable' or 'disable'")
+			return
+		}
+
+		// Wait and retry mechanism - check button state multiple times with delays
+		// This handles cases where the button state changes after validation completes
+		for (int i = 0; i < maxRetries; i++) {
+			if (i > 0) {
+				KeywordUtil.logInfo("Retry attempt " + i + " - waiting " + retryDelay + " seconds...")
+				WebUI.delay(retryDelay)
+			}
+
+			// Get the 'disabled' attribute value (returns String: "true", "false", or null)
+			String disabledAttr = WebUI.getAttribute(buttonTestObject, "disabled", FailureHandling.OPTIONAL)
+			KeywordUtil.logInfo("Attempt " + (i + 1) + " - " + buttonName + " button 'disabled' attribute value: " + disabledAttr)
+
+			// Determine actual button state
+			// Button is disabled if disabled attribute exists and equals "true"
+			boolean isActuallyDisabled = (disabledAttr != null && disabledAttr.equals("true"))
+			boolean isActuallyEnabled = !isActuallyDisabled
+			actualState = isActuallyEnabled ? "enabled" : "disabled"
+
+			// Check if it matches expected state (case-insensitive comparison)
+			if ((trimmedState.equalsIgnoreCase("enable") || trimmedState.equalsIgnoreCase("enabled")) && isActuallyEnabled) {
+				matchesExpected = true
+				KeywordUtil.logInfo("Expected: enabled | Actual: " + actualState + " - MATCH")
+				break
+			} else if ((trimmedState.equalsIgnoreCase("disable") || trimmedState.equalsIgnoreCase("disabled")) && isActuallyDisabled) {
+				matchesExpected = true
+				KeywordUtil.logInfo("Expected: disabled | Actual: " + actualState + " - MATCH")
+				break
+			} else {
+				KeywordUtil.logInfo("Expected: " + trimmedState + " | Actual: " + actualState + " - No match, retrying...")
+			}
+		}
+
+		// Report final result
+		if (matchesExpected) {
+			KeywordUtil.markPassed("[PASS] " + buttonName + " button is " + actualState + " as expected.")
+		} else {
+			KeywordUtil.markFailed("[FAIL] " + buttonName + " button is " + actualState + " but expected " + trimmedState +
+					" (checked " + maxRetries + " times with " + retryDelay + " second delays).")
+		}
+	}
+
+
+	/**
+	 * Helper method to extract button name from TestObject path.
+	 * Extracts the last part of the path and removes common suffixes like "-Btn", "-Button", etc.
+	 * @param buttonTestObjectPath The full path to the TestObject (e.g., 'CRDC/DataSubmissions/Submit-Btn')
+	 * @return The extracted button name (e.g., "Submit")
+	 */
+	private static String extractButtonName(String buttonTestObjectPath) {
+		if (buttonTestObjectPath == null || buttonTestObjectPath.isEmpty()) {
+			return "Button"
+		}
+
+		// Get the last part of the path (after the last '/')
+		String[] parts = buttonTestObjectPath.split("/")
+		String lastPart = parts.length > 0 ? parts[parts.length - 1] : buttonTestObjectPath
+
+		// Remove common suffixes
+		String buttonName = lastPart
+		if (buttonName.endsWith("-Btn")) {
+			buttonName = buttonName.replace("-Btn", "")
+		} else if (buttonName.endsWith("-Button")) {
+			buttonName = buttonName.replace("-Button", "")
+		} else if (buttonName.endsWith("Btn")) {
+			buttonName = buttonName.replace("Btn", "")
+		} else if (buttonName.endsWith("Button")) {
+			buttonName = buttonName.replace("Button", "")
+		}
+
+		// If empty after removing suffix, use the original last part
+		if (buttonName.isEmpty()) {
+			buttonName = lastPart
+		}
+
+		return buttonName
+	}
+
+
+
+	/**
+	 * Verifies validation results table by checking if rows with the specified issue type have the expected severity.
+	 * Loops through all table rows, finds rows matching the issue type, and validates their severity values.
+	 * Marks test as PASS if matching rows have correct severity, FAIL if severity doesn't match or issue type not found.
+	 * @param issueType The expected issue type to search for in the table (case-sensitive match)
+	 * @param severity The expected severity value for the issue type (case-insensitive match, e.g., "Error", "Warning", "Info")
+	 */
+	@Keyword
+	public static void verifyValidationResultsTable(String issueType, String severity) {
+		KeywordUtil.logInfo("[DEBUG] Starting verifyValidationResultsTable - Expected Issue Type: '" + issueType + "', Expected Severity: '" + severity + "'")
+
+		// Create TestObject for table cells (1st column = Issue Type, 2nd column = Severity)
+		TestObject issueTypeCellObj = new TestObject("ValidationResultsTableIssueTypeCells")
+		issueTypeCellObj.addProperty("xpath", ConditionType.EQUALS, "//table//tr[td]/td[1]")
+
+		TestObject severityCellObj = new TestObject("ValidationResultsTableSeverityCells")
+		severityCellObj.addProperty("xpath", ConditionType.EQUALS, "//table//tr[td]/td[2]")
+		KeywordUtil.logInfo("[DEBUG] Step 1: TestObjects created successfully")
+
+		// Wait for the table to be present
+		WebUI.waitForElementPresent(issueTypeCellObj, 10)
+		KeywordUtil.logInfo("[DEBUG] Step 2: Table is present")
+
+		// Find all issue type and severity cells
+		List<WebElement> issueTypeCellsList = WebUI.findWebElements(issueTypeCellObj, 10)
+		List<WebElement> severityCellsList = WebUI.findWebElements(severityCellObj, 10)
+		KeywordUtil.logInfo("[DEBUG] Step 3: Found " + (issueTypeCellsList != null ? issueTypeCellsList.size() : 0) + " issue type cells and " + (severityCellsList != null ? severityCellsList.size() : 0) + " severity cells")
+
+		if (issueTypeCellsList == null || issueTypeCellsList.isEmpty()) {
+			KeywordUtil.markWarning("[WARN] No issue type cells found in the validation results table.")
+			return
+		}
+
+		if (severityCellsList == null || severityCellsList.isEmpty()) {
+			KeywordUtil.markWarning("[WARN] No severity cells found in the validation results table.")
+			return
+		}
+
+		// Loop through each row and check for matching issue type
+		KeywordUtil.logInfo("[DEBUG] Step 4: Starting loop through " + issueTypeCellsList.size() + " rows")
+		boolean issueTypeFound = false
+		int maxRows = issueTypeCellsList.size()
+
+		for (int j = 0; j < maxRows; j++) {
+			try {
+				// Get fresh elements for each iteration to avoid stale element issues
+				issueTypeCellsList = WebUI.findWebElements(issueTypeCellObj, 10)
+				severityCellsList = WebUI.findWebElements(severityCellObj, 10)
+
+				// Update maxRows in case the table size changed
+				maxRows = Math.min(issueTypeCellsList.size(), severityCellsList.size())
+
+				// Check bounds before accessing
+				if (j >= maxRows) {
+					KeywordUtil.logInfo("[DEBUG] Row " + (j + 1) + " - Index out of bounds. Stopping loop.")
+					break
+				}
+
+				String issueTypeCell = issueTypeCellsList.get(j).getText().trim()
+				String severityCell = severityCellsList.get(j).getText().trim()
+				KeywordUtil.logInfo("[DEBUG] Row " + (j + 1) + " - IssueType: '" + issueTypeCell + "', Severity: '" + severityCell + "'")
+
+				// Check if this row matches the expected issue type
+				if (issueTypeCell.equals(issueType)) {
+					issueTypeFound = true
+					KeywordUtil.logInfo("[DEBUG] Row " + (j + 1) + " - Issue type MATCHED, checking severity...")
+					// Verify the severity matches expected value
+					if (severityCell.equalsIgnoreCase(severity)) {
+						KeywordUtil.markPassed("[PASS] Row " + (j + 1) + " issueType : " + issueType + " and severity are as expected: " + severity)
+					} else {
+						KeywordUtil.markFailed("[FAIL] Row " + (j + 1) + " issueType : " + issueType + " and severity are not as expected. Expected: " + severity + ", Actual issueType: " + issueTypeCell + ", Actual Severity: " + severityCell)
+					}
+				}
+			} catch (org.openqa.selenium.StaleElementReferenceException e) {
+				KeywordUtil.logInfo("[DEBUG] Row " + (j + 1) + " - Stale element exception caught. Refreshing elements and retrying...")
+				// Refresh elements and retry the same row
+				issueTypeCellsList = WebUI.findWebElements(issueTypeCellObj, 10)
+				severityCellsList = WebUI.findWebElements(severityCellObj, 10)
+				maxRows = Math.min(issueTypeCellsList.size(), severityCellsList.size())
+
+				if (j < maxRows) {
+					j-- // Retry the same index
+					WebUI.delay(1) // Small delay before retry
+					continue
+				} else {
+					KeywordUtil.logInfo("[DEBUG] Row " + (j + 1) + " - Cannot retry, table size changed. Stopping loop.")
+					break
+				}
+			} catch (Exception e) {
+				KeywordUtil.logInfo("[DEBUG] Row " + (j + 1) + " - Exception: " + e.getClass().getName() + " - " + e.getMessage())
+				KeywordUtil.markFailed("[FAIL] Error processing row " + (j + 1) + ": " + e.getMessage())
+				break
+			}
+		}
+		KeywordUtil.logInfo("[DEBUG] Step 5: Loop completed. Issue type found: " + issueTypeFound)
+
+		// If no matching issue type was found, mark as failed
+		if (!issueTypeFound) {
+			KeywordUtil.markFailed("Expected issue type is not found in results table, Expected Issue Type: " + issueType)
+		}
+	}
+
+	/**
+	 * Create a data submission for dynamic data model
+	 */
+
+	@Keyword
+	public static void createDataSubmission(String dataModel ) {
+		TestRunner.clickTab('CRDC/DataSubmissions/Create/CreateADataSubmission-Btn')
+		WebUI.click(findTestObject('CRDC/DataSubmissions/Create/MetadataOnly-Btn'))
+		WebUI.delay(5)
+
+		//Select the Data Commons dynamic drop down selection automation purposes
+
+		//WebUI.click(findTestObject('CRDC/DataSubmissions/Create/DataCommons-Ddn'))
+
+		WebDriver driver = DriverFactory.getWebDriver()
+
+		new Actions(driver).moveToElement(driver.findElement(By.xpath("//*[@role='dialog']//*[@id='mui-component-select-dataCommons']"))).click().perform()
+
+		List<WebElement> commonsDropdownOptions = driver.findElements(By.xpath("//li[contains(@role,'option')]"))
+
+		WebElement match1 = commonsDropdownOptions.find {it.getAttribute("innerText")?.trim() == dataModel}
+		if (match1 != null) {
+			try {
+				new Actions(driver).moveToElement(match1).click().perform()
+			} catch (Exception e) {
+				KeywordUtil.logInfo("Click blocked, retrying after overlay removal...")
+				WebUI.executeJavaScript("""document.querySelectorAll('.MuiBackdrop-root, .MuiDialog-container').forEach(e => e.remove())""", null)
+				WebUI.delay(1)
+				new Actions(driver).moveToElement(match1).click().perform()
+			}
+		} else {
+			KeywordUtil.markFailed("Study option "+dataModel+" not found in dropdown.")
+		}
+		
+		//Select the study for automation purposes
+		String automationStudy = 'ATS - AutoTest-Study'
+
+		WebUI.click(findTestObject('CRDC/DataSubmissions/Create/Study-Ddn'))
+		WebUI.delay(1)
+		List<WebElement> studyDropdownOptions = driver.findElements(By.xpath("//li[contains(@data-testid,'study-option')]"))
+		for (WebElement option : studyDropdownOptions) {
+			String studyName = option.getAttribute("innerText")?.trim()
+			KeywordUtil.logInfo("Dropdown option is: " + studyName)
+		}
+		KeywordUtil.logInfo("Number of study options in dropdown: " + studyDropdownOptions.size())
+
+		WebElement match = studyDropdownOptions.find {it.getAttribute("innerText")?.trim() == automationStudy}
+		if (match != null) {
+			try {
+				new Actions(driver).moveToElement(match).click().perform()
+			} catch (Exception e) {
+				KeywordUtil.logInfo("Click blocked, retrying after overlay removal...")
+				WebUI.executeJavaScript("""document.querySelectorAll('.MuiBackdrop-root, .MuiDialog-container').forEach(e => e.remove())""", null)
+				WebUI.delay(1)
+				new Actions(driver).moveToElement(match).click().perform()
+			}
+		} else {
+			KeywordUtil.markFailed("Study option '${automationStudy}' not found in dropdown.")
+		}
+
+		//Enter the submission name -- setText() is not working, need to use Actions class
+		WebUI.click(findTestObject('CRDC/DataSubmissions/Create/SubmissionName-Field'))
+		TestObject field = findTestObject('CRDC/DataSubmissions/Create/SubmissionName-Field')
+		WebElement el = WebUI.findWebElement(field, 10)
+		String timestamp = new Date().format("yyyyMMdd_HHmmss")
+		String submissionName = "auto-test_" + timestamp
+		KeywordUtil.logInfo("Creating data submission with name " + submissionName)
+		Actions actions = new Actions(DriverFactory.getWebDriver())
+		actions.moveToElement(el).click().sendKeys(submissionName).perform()
+
+		//Create
+		TestRunner.clickTab('CRDC/DataSubmissions/Create/Create-Btn')
+		WebUI.delay(1)
+	}
+
+
+
+
 }

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>DisplayedColumns_GUID</name>
+   <tag></tag>
+   <elementGuidId>c2909b0e-9990-4a91-8edd-dbb81753d600</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[text()='GUID']/preceding::input[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//p[text()='GUID']/preceding::input[1]</value>
+      <webElementGuid>69e3dd63-d15e-48fd-8668-2fd96b455d82</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_CTDC_TissueCategory-Primary</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <testCaseGuid>9c5a1c0c-c86e-463c-b895-ff2283665da8</testCaseGuid>
+</TestCaseEntity>

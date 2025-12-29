@@ -33,16 +33,16 @@ def get_value_from_excel(rowOrColName):
 
 
 def get_tsv_files_path():
-    base_path = get_node_files_path
+    base_path = get_node_files_path;
     print(f"TSV Files Base Path inside DataSets.py is: {base_path}")
-    # Example test case name for demonstration purposes
-    testcase_name = get_value_from_excel('TsvExcel')
-    # Loop through all folders in the base path
-    for folder_name in os.listdir(base_path):
-        if folder_name in testcase_name:
-            # Return the new path concatenated with the matching folder
-            return os.path.join(base_path, folder_name)
-    # Return the base path if no matching folder is found
+    # # Example test case name for demonstration purposes
+    # testcase_name = get_value_from_excel('TsvExcel')
+    # # Loop through all folders in the base path
+    # for folder_name in os.listdir(base_path):
+    #     if folder_name in testcase_name:
+    #         # Return the new path concatenated with the matching folder
+    #         return os.path.join(base_path, folder_name)
+    # # Return the base path if no matching folder is found
     return base_path
 
 
@@ -51,7 +51,7 @@ def load_tsv_to_dataframe_with_index(file_path, index_column):
     try:
         df = pd.read_csv(file_path, delimiter='\t', index_col=index_column)
         df.columns = df.columns.str.strip()
-       #df = df.map(lambda x: x.strip() if isinstance(x, str) else x) # Commented this for Jenkins issue 
+        #df = df.map(lambda x: x.strip() if isinstance(x, str) else x) # Commented this for Jenkins issue
         return df
     except FileNotFoundError:
         print(f"File not found: {file_path}")
@@ -75,17 +75,17 @@ def load_and_merge_versions(base_path, index_columns):
     
     # Get list of folders in base_path and filter out non-date directories
     all_folders = [folder for folder in os.listdir(base_path) if os.path.isdir(os.path.join(base_path, folder))]
-    version_folders = [folder for folder in all_folders if is_date_format(folder, '%Y-%m')]
-    version_folders.sort(key=lambda x: datetime.strptime(x, '%Y-%m'))
+    version_folders = [folder for folder in all_folders if is_date_format(folder, '%Y-%m-%d')]
+    version_folders.sort(key=lambda x: datetime.strptime(x, '%Y-%m-%d'))
     
     # Check for folders that are not in the expected date format
     invalid_folders = [folder for folder in all_folders if folder not in version_folders]
     if invalid_folders:
-        print(f"The following folders are not in the expected date format 'YYYY-MM': {', '.join(invalid_folders)}")
+        print(f"The following folders are not in the expected date format 'YYYY-MM-DD': {', '.join(invalid_folders)}")
     
     # Check if no valid version folders are found
     if not version_folders:
-        print("No folders found in the expected date format 'YYYY-MM'.")
+        print("No folders found in the expected date format 'YYYY-MM-DD'.")
         return dataframes
     
     # Iterate through each version folder
@@ -116,6 +116,7 @@ def load_and_merge_versions(base_path, index_columns):
 
 
 
+
 def is_date_format(date_str, date_format):
     try:
         datetime.strptime(date_str, date_format)
@@ -141,14 +142,14 @@ def write_to_excel(output_excel, sheet_name, result_df):
     :param result_df: DataFrame to be written to the Excel file.
     """
     result_df = result_df.fillna('')
-    result_df = result_df.map(lambda x: int(x) if isinstance(x, float) and x.is_integer() else x)
+    result_df = result_df.applymap(lambda x: int(x) if isinstance(x, float) and x.is_integer() else x)
     result_df = result_df.astype(str)
     if os.path.exists(output_excel):
         with pd.ExcelWriter(output_excel, engine='openpyxl', mode='a', if_sheet_exists='replace') as writer:
-            result_df.to_excel(writer, sheet_name, index=False)
+            result_df.to_excel(writer, sheet_name=sheet_name, index=False)
     else:
         with pd.ExcelWriter(output_excel, engine='xlsxwriter') as writer:
-            result_df.to_excel(writer, sheet_name, index=False)
+            result_df.to_excel(writer, sheet_name=sheet_name, index=False)
 
 
 
@@ -175,19 +176,19 @@ print(df_geo)
 df_run_query = lambda q: ps.sqldf(q, globals())
 
 # Below code imported from tabs file
+result_tab = result_tab_name = sys.argv[4];
 
-# Get programs query from excel
-datasets_query = get_value_from_excel('DatasetsTab')
-print(f'This is Datasets tab query fitched from input excel:\n{datasets_query}')
-
-# Executing query with dataframe and storing result
-result_df_datasets = df_run_query(datasets_query)   
- 
-# Specify the output excel path
-output_excel = os.path.join(os.path.dirname(os.path.abspath(__file__)), get_output_file_path, get_value_from_excel('TsvExcel'))
-
-# Write the result DataFrame to an Excel file
-write_to_excel(output_excel, "TsvDatasets", result_df_datasets)
-
-# Print output data
-print(f'DataSets data successfully written to: {output_excel}')
+if result_tab in ("DatasetsTab"):
+    # Get Datasets query from excel
+    datasets_query = get_value_from_excel('DatasetsTab')
+    print(f'This is Datasets tab query fitched from input excel:\n{datasets_query}')
+    # Executing query with dataframe and storing result
+    result_df_datasets = df_run_query(datasets_query)   
+    # Specify the output excel path
+    output_excel = os.path.join(os.path.dirname(os.path.abspath(__file__)), get_output_file_path, get_value_from_excel('TsvExcel'))
+    # Write the result DataFrame to an Excel file
+    write_to_excel(output_excel, "TsvDatasets", result_df_datasets)
+    # Print output data
+    print(f'DataSets data successfully written to: {output_excel}')
+else:
+    print(f'Check Result tab function. Result tab name in Python: {result_tab}')

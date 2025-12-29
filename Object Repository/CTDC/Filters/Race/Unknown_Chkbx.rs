@@ -7,16 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[contains(@id,'checkbox_Race_UNKNOWN')]</value>
+         <value>//*[@id='checkbox_Race_Unknown']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[contains(@id,'checkbox_Race_UNKNOWN')]</value>
+      <value>//*[@id='checkbox_Race_Unknown']</value>
+      <webElementGuid>5c8d2bd4-0e36-4583-8ac3-ce3ea270d922</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

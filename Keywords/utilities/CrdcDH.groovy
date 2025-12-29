@@ -540,6 +540,7 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 
 		WebUI.setText(findTestObject('CRDC/SubmissionRequest/Section-C/NumOfSubjectsIncludInSub-Txtbx'), testData.getValue('num-of-subjects-included', dataRowNum));
 		System.out.println("Successfully entered Data Access Types and Cancer Types information");
+		WebUI.takeScreenshot("./OutputFiles/BeforeEnteringData0.png")
 	}
 
 
@@ -550,12 +551,30 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 	 */
 	@Keyword
 	public static void enterTargetDeliveryAndExpectedPublicationDate() {
-
-		WebUI.click(findTestObject('CRDC/SubmissionRequest/Section-D/TragetSubmDelivryDate-Clnder'))
-		WebUI.click(findTestObject('CRDC/SubmissionRequest/Section-D/CalendarTodayDate-Btn'))
-		Thread.sleep(1000)
-		WebUI.click(findTestObject('CRDC/SubmissionRequest/Section-D/ExpctdPubliDate-Clndr'))
-		WebUI.click(findTestObject('CRDC/SubmissionRequest/Section-D/CalendarTodayDate-Btn'))
+		TimeZone.setDefault(TimeZone.getTimeZone("EDT"))
+		
+		//String currentDate = new SimpleDateFormat("mm/dd/yyyy").format(new Date())
+		Thread.sleep(10000)
+		WebUI.takeScreenshot("./OutputFiles/BeforeEnteringData1.png")
+		
+		//clearText(findTestObject(ePath+'ExpctdPubliDate-Clndr'))
+		//WebUI.setText(findTestObject(ePath+'ExpctdPubliDate-Clndr'), clearText() + getCurrentDate("MM/dd/yyyy"));
+		
+		
+		WebUI.takeScreenshot("./OutputFiles/BeforeEnteringData2.png")
+		WebUI.setText(findTestObject('CRDC/SubmissionRequest/Section-D/TragetSubmDelivryDate-TxtBx'), clearText() + "05/12/2026");
+		
+		WebUI.setText(findTestObject('CRDC/SubmissionRequest/Section-D/ExpctdPublicationDate-TxtBx'), clearText() + "05/12/2026");
+		//TestObject targetSubDeDate = findTestObject('CRDC/SubmissionRequest/Section-D/TragetSubmDelivryDate-TxtBx');
+		
+//		WebUI.scrollToElement(targetSubDeDate, 10)
+//		WebUI.waitForElementPresent(targetSubDeDate, 10)
+//		WebUI.setText(targetSubDeDate, currentDate, FailureHandling.STOP_ON_FAILURE)
+//		WebUI.takeScreenshot("./OutputFiles/BeforeEnteringData3.png")
+//		TestObject expectedPubData = findTestObject('CRDC/SubmissionRequest/Section-D/ExpctdPublicationDate-TxtBx');
+//		WebUI.scrollToElement(expectedPubData, 10)
+//		WebUI.waitForElementPresent(expectedPubData, 10)
+//		WebUI.setText(expectedPubData, currentDate, FailureHandling.STOP_ON_FAILURE)
 	}
 
 
@@ -577,14 +596,6 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 		ePath = "CRDC/SubmissionRequest/Section-D/";
 		TestData testData = findTestData('CRDC/SubmissionRequest/section-d');
 		Thread.sleep(1000)
-		//clearText(findTestObject(ePath+'TragetSubmDelivryDate-Clnder'))
-		//WebUI.setText(findTestObject(ePath+'TragetSubmDelivryDate-Clnder'), clearText() + getCurrentDate("MM/dd/yyyy"));
-
-		selectTodayDate(findTestObject(ePath+'TragetSubmissionDelivryDate-Clnder'), findTestObject(ePath+'CalendarTodayDate-Btn'))
-		//clearText(findTestObject(ePath+'ExpctdPubliDate-Clndr'))
-		//WebUI.setText(findTestObject(ePath+'ExpctdPubliDate-Clndr'), clearText() + getCurrentDate("MM/dd/yyyy"));
-
-		selectTodayDate(findTestObject(ePath+'ExpctdPubliDate-Clndr'), findTestObject(ePath+'CalendarTodayDate-Btn'))
 
 		//Verify default is 'No' for all data types
 		List elements = WebUI.findWebElements(findTestObject(ePath+'AllSlider-Btns'), 20)
@@ -1060,14 +1071,15 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 	public static void verifyDataTypes(String... buttonLable) {
 
 		TestData testData = findTestData("CRDC/SubmissionRequest/section-d");
-
+		String currentDate = new SimpleDateFormat("MM/dd/yyyy").format(new Date())
+		
 		actual = WebUI.getText(findTestObject(ePath+'TragetSubmDelivryDate-Txt'))
-		expctd = getCurrentDate("MM/dd/yyyy")
+		expctd = "05/12/2026";
 		KeywordUtil.logInfo("Actual target data submission delivery date is: " + actual +" Expected target data submission delivery date is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
 
 		actual = WebUI.getText(findTestObject(ePath+'ExpctdPubliDateSec-D-RevPage-Txt'))
-		expctd =  getCurrentDate("MM/dd/yyyy")
+		expctd =  "05/12/2026"
 		KeywordUtil.logInfo("Actual Publication date is: " + actual +"\nExpected Publication date is: "+expctd);
 		WebUI.verifyMatch(actual, expctd, false)
 		KeywordUtil.logInfo("Successfully verified Data Types delivery dates");
@@ -1435,4 +1447,1385 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 			KeywordUtil.markFailed("Exception in verifyDataViewMatchesMetadata(): " + e.getMessage());
 		}
 	}
+// ===============================
+	//   FULL MEGA-WRAPPER TEMPLATE
+	//   Paste into your CrdcDH.groovy
+	// ===============================
+	// ======================================
+	// 1. Dynamic TestObject Builder
+	//	// ======================================
+	//
+	TestObject makeTO(String xpath) {
+		TestObject to = new TestObject(xpath)
+		to.addProperty("xpath", ConditionType.EQUALS, xpath)
+		return to
+	}
+
+	// ======================================
+	// 2. Excel Loader (FINAL PRODUCTION VERSION)
+	// ======================================
+	@Keyword
+	Map loadExcelMaster(String excelPath) {
+
+		Map master = [:]
+		Workbook wb = WorkbookFactory.create(new File(excelPath))
+
+		// -------------------------
+		// Load Aggregated Headers
+		// -------------------------
+		master.aggregatedHeaders = []
+		wb.getSheet("aggregated_headers").each { Row r ->
+			if (r.getCell(0)) {
+				master.aggregatedHeaders << r.getCell(0).toString().trim()
+			}
+		}
+
+		// -------------------------
+		// Load Expanded Headers
+		// -------------------------
+		master.expandedHeaders = []
+		wb.getSheet("expanded_headers").each { Row r ->
+			if (r.getCell(0)) {
+				master.expandedHeaders << r.getCell(0).toString().trim()
+			}
+		}
+
+		// -------------------------
+		// Load IssueType dropdown
+		// -------------------------
+		master.issueTypes = []
+		wb.getSheet("dropdown_issueType").each { Row r ->
+			if (r.getCell(0)) {
+				master.issueTypes << r.getCell(0).toString().trim()
+			}
+		}
+
+		// -------------------------
+		// Load NodeType dropdown
+		// -------------------------
+		master.nodeTypes = []
+		wb.getSheet("dropdown_nodeType").each { Row r ->
+			if (r.getCell(0)) {
+				master.nodeTypes << r.getCell(0).toString().trim()
+			}
+		}
+
+		// -------------------------
+		// Load Severities dropdown
+		// -------------------------
+		master.severities = []
+		wb.getSheet("dropdown_severity").each { Row r ->
+			if (r.getCell(0)) {
+				master.severities << r.getCell(0).toString().trim()
+			}
+		}
+
+		// -------------------------
+		// Load IssueType → ExpectedSeverity Mapping
+		// -------------------------
+		master.issueTypeSeverityMap = [:]   // <IssueType : ExpectedSeverity>
+
+		Sheet mapSheet = wb.getSheet("issueTypeSeverityMap")
+		if (!mapSheet) {
+			KeywordUtil.markFailed("❌ Excel Sheet 'issueTypeSeverityMap' NOT FOUND!")
+		}
+
+		mapSheet.each { Row r ->
+			Cell c1 = r.getCell(0)
+			Cell c2 = r.getCell(1)
+
+			if (c1 && c2) {
+				String issue = c1.toString().trim()
+				String sev   = c2.toString().trim()
+				master.issueTypeSeverityMap[issue] = sev
+			}
+		}
+
+		println "\n=== Loaded Master Excel Configuration ==="
+		println "Aggregated Headers: ${master.aggregatedHeaders}"
+		println "Expanded Headers:   ${master.expandedHeaders}"
+		println "Issue Types:        ${master.issueTypes}"
+		println "Node Types:         ${master.nodeTypes}"
+		println "Severities:         ${master.severities}"
+		println "Mapping:            ${master.issueTypeSeverityMap}"
+
+		return master
+	}
+	//	// ==========================================================================
+	//	// 3. EXPANDED MODE SUPPORT HELPERS (REQUIRED FOR EXPANDED VALIDATION)
+	//	// ==========================================================================
+	//
+	//	// -------------------------------------------------------
+	//	// 3.1 Safe Cell Reader (prevents null failures)
+	//	// -------------------------------------------------------
+	//	String safeCell(WebElement row, int index) {
+	//		try {
+	//			return row.findElement(By.xpath("./td[" + index + "]")).getText().trim()
+	//		} catch (Exception e) {
+	//			return ""
+	//		}
+	//	}
+	//
+	//
+	//	// -------------------------------------------------------
+	//	// 3.2 Toggle to Expanded Mode (this integrates YOUR WORKING VERSION)
+	//	// -------------------------------------------------------
+	//	@Keyword 	void switchToExpandedMode() {
+	//
+	//		println "\n>>> Switching to EXPANDED mode..."
+	//
+	//		TestObject toggle = makeTO("//*[@data-testid='toggle-input']")
+	//
+	//		try {
+	//			WebUI.waitForElementClickable(toggle, 10)
+	//			WebUI.click(toggle)
+	//			println("✔ Toggle clicked normally")
+	//		}
+	//		catch (Exception e) {
+	//			println("⚠ Normal toggle click failed — trying JS fallback...")
+	//			try {
+	//				WebElement el = WebUI.findWebElement(toggle, 10)
+	//				WebUI.executeJavaScript("arguments[0].click();", Arrays.asList(el))
+	//				println("✔ Toggle clicked with JavaScript")
+	//			}
+	//			catch (Exception ex) {
+	//				KeywordUtil.markFailed("❌ Toggle NOT clickable even with JS fallback")
+	//			}
+	//		}
+	//
+	//		WebUI.delay(2)
+	//	}
+	//
+	//
+	//	// -------------------------------------------------------
+	//	// 3.3 Generic Dropdown Validator (OPTION A LOGIC)
+	//	// -------------------------------------------------------
+	//	@Keyword 	void validateDropdown(String ddName, String ddXpath, List<String> rowValues) {
+	//
+	//		println "\nChecking '${ddName}' dropdown..."
+	//
+	//		TestObject dropdown = makeTO(ddXpath)
+	//
+	//		// Try normal click first
+	//		try {
+	//			WebUI.waitForElementClickable(dropdown, 8)
+	//			WebUI.click(dropdown)
+	//		} catch (Exception e) {
+	//			println "⚠ Normal click failed — using JS fallback"
+	//			try {
+	//				WebElement el = WebUI.findWebElement(dropdown, 5)
+	//				WebUI.executeJavaScript("arguments[0].click();", Arrays.asList(el))
+	//			} catch (Exception ex) {
+	//				KeywordUtil.markFailed("❌ Unable to click dropdown '${ddName}'")
+	//			}
+	//		}
+	//
+	//		WebUI.delay(1)
+	//
+	//		// Read UI dropdown options
+	//		List<WebElement> opts = WebUI.findWebElements(makeTO("//*[@role='option']"), 10)
+	//		List<String> uiOptions = opts.collect { it.getText().trim() }
+	//
+	//		// Expected = UNIQUE row values + "All"
+	//		Set<String> expected = rowValues.toSet()
+	//		expected.add("All")
+	//
+	//		expected.each { exp ->
+	//			if (!uiOptions.contains(exp)) {
+	//				KeywordUtil.markFailed("❌ '${exp}' NOT found in '${ddName}' dropdown")
+	//			} else {
+	//				println "✔ '${exp}' validated in '${ddName}' dropdown"
+	//			}
+	//		}
+	//
+	//		// Close dropdown
+	//		try {
+	//			WebUI.sendKeys(makeTO("//body"), Keys.chord(Keys.ESCAPE))
+	//			WebUI.delay(1)
+	//			println "✔ Dropdown '${ddName}' closed"
+	//		}
+	//		catch (Exception e) {
+	//			println "⚠ Could not close dropdown '${ddName}' — ESC ignored"
+	//		}
+	//	}
+	//
+	//
+	//	@Keyword
+	//	void validateExpandedView(Map master) {
+	//
+	//		println "\n===== START EXPANDED MODE VALIDATION ====="
+	//
+	//		//----------------------------------------------------------------------
+	//		// 1. VALIDATE HEADERS
+	//		//----------------------------------------------------------------------
+	//		List<WebElement> headerEls = WebUI.findWebElements(
+	//				makeTO("//*[@data-testid='generic-table-header-cell']"),
+	//				10
+	//				)
+	//
+	//		List<String> uiHeaders = headerEls.collect { it.getText().trim() }
+	//		println "UI Headers: ${uiHeaders}"
+	//
+	//		master.expandedHeaders.each { expected ->
+	//			if (!uiHeaders.contains(expected)) {
+	//				KeywordUtil.markFailed("❌ Expanded header '${expected}' NOT found")
+	//			} else {
+	//				println "✔ Header '${expected}' present"
+	//			}
+	//		}
+	//
+	//		// Build dynamic row column index map
+	//		Map<String, Integer> colIndex = [:]
+	//		uiHeaders.eachWithIndex { h, i -> colIndex[h] = i + 1 }
+	//
+	//		println "Expanded Column Index Map = ${colIndex}"
+	//
+	//
+	//		//----------------------------------------------------------------------
+	//		// 2. GET ALL ROW DATA (Used for dropdown validation)
+	//		//----------------------------------------------------------------------
+	//		List<WebElement> rows = WebUI.findWebElements(
+	//				makeTO("//*[@data-testid='generic-table-row']"),
+	//				10
+	//				)
+	//
+	//		if (rows.isEmpty()) {
+	//			println "⚠ No expanded rows available — dropdown validation only"
+	//		}
+	//
+	//		List<String> issueTypeValues = rows.collect { safeCell(it, colIndex["Issue Type"]) }
+	//		List<String> batchIdValues   = rows.collect { safeCell(it, colIndex["Batch ID"]) }
+	//		List<String> nodeTypeValues  = rows.collect { safeCell(it, colIndex["Node Type"]) }
+	//		List<String> severityValues  = rows.collect { safeCell(it, colIndex["Severity"]) }
+	//
+	//
+	//		//----------------------------------------------------------------------
+	//		// 3. VALIDATE DROPDOWNS
+	//		//    ✔ IssueType → validate against Excel
+	//		//    ✔ NodeType → validate against Excel
+	//		//    ✔ Severity → validate against Excel
+	//		//    ❗ Batch ID → ONLY LOG VALUES (no Excel validation)
+	//		//----------------------------------------------------------------------
+	//
+	//		println "\n===== VALIDATING EXPANDED MODE DROPDOWNS ====="
+	//
+	//		// ISSUE TYPE
+	//		validateDropdownAgainstExcel(
+	//				"issueType",
+	//				"//*[@id='mui-component-select-issueType']",
+	//				master.issueTypes
+	//				)
+	//
+	//		// BATCH ID (SKIP EXCEL)
+	//		validateDropdownOnlyLog(
+	//				"batchID",
+	//				"//*[@id='mui-component-select-batchID']"
+	//				)
+	//
+	//		// NODE TYPE
+	//		validateDropdownAgainstExcel(
+	//				"nodeType",
+	//				"//*[@id='mui-component-select-nodeType']",
+	//				master.nodeTypes
+	//				)
+	//
+	//		// SEVERITY
+	//		validateDropdownAgainstExcel(
+	//				"severity",
+	//				"//*[@id='mui-component-select-severity']",
+	//				master.severities
+	//				)
+	//
+	//
+	//		//----------------------------------------------------------------------
+	//		// 4. VALIDATE EACH EXPANDED ROW
+	//		//----------------------------------------------------------------------
+	//		if (!rows.isEmpty()) {
+	//
+	//			println "\n===== VALIDATING EXPANDED MODE ROWS ====="
+	//			println "✔ Found ${rows.size()} rows"
+	//
+	//			rows.eachWithIndex { row, idx ->
+	//
+	//				println "\nRow ${idx + 1}:"
+	//				String issueType = safeCell(row, colIndex["Issue Type"])
+	//				String severity  = safeCell(row, colIndex["Severity"])
+	//				String issues    = safeCell(row, colIndex["Issue(s)"])
+	//
+	//				println "  Issue Type : ${issueType}"
+	//				println "  Severity   : ${severity}"
+	//				println "  Issue(s)   : ${issues}"
+	//
+	//				// Mapping check
+	//				String expected = master.issueTypeSeverityMap[issueType]
+	//
+	//				if (!expected) {
+	//					KeywordUtil.markFailed("❌ No Excel mapping found for IssueType '${issueType}'")
+	//				}
+	//
+	//				if (!severity.equalsIgnoreCase(expected)) {
+	//					KeywordUtil.markFailed(
+	//							"❌ Row ${idx+1} severity mismatch: UI='${severity}', Expected='${expected}'"
+	//							)
+	//				} else {
+	//					println "✔ Row ${idx+1} severity validated"
+	//				}
+	//			}
+	//		}
+	//
+	//		println "\n===== EXPANDED MODE VALIDATION COMPLETED SUCCESSFULLY =====\n"
+	//	}
+
+
+	// ======================================
+	// 3. DROPDOWN HELPERS (FINAL VERSION)
+	// ======================================
+	@Keyword
+	def openDropdown(String name) {
+
+		// 🔥 MUST RUN FIRST → removes ALL leftover dropdown overlays
+		forceCloseDropdownHard()
+		WebUI.delay(0.2)
+
+		println("Opening dropdown '${name}'...")
+
+		TestObject dd = new TestObject("dd")
+		dd.addProperty("id", ConditionType.EQUALS, "mui-component-select-${name}")
+
+		try {
+			WebUI.click(dd)
+			WebUI.delay(0.5)
+		}
+		catch (Exception e) {
+			println("⚠ Normal click failed → using JS click fallback")
+
+			WebElement el = WebUI.findWebElement(dd, 3)
+			WebUI.executeJavaScript("arguments[0].click();", Arrays.asList(el))
+			WebUI.delay(0.5)
+		}
+
+		println("✔ '${name}' dropdown opened")
+	}
+
+
+	//	// -------------------------
+	//	// OPEN DROPDOWN
+	//	// -------------------------
+	//	@Keyword  	void openDropdown(String name) {
+	//
+	//		String xpath
+	//
+	//		switch(name) {
+	//			case "severity":
+	//				xpath = "//*[@id='mui-component-select-severity']"
+	//				break
+	//			case "issueType":
+	//				xpath = "//*[@id='mui-component-select-issueType']"
+	//				break
+	//			case "nodeType":
+	//				xpath = "//*[@id='mui-component-select-nodeType']"
+	//				break
+	//			case "batchID":
+	//				xpath = "//*[@id='mui-component-select-batchID']"
+	//				break
+	//			default:
+	//				KeywordUtil.markFailed("❌ Unknown dropdown name: ${name}")
+	//				return
+	//		}
+	//
+	//		TestObject to = makeTO(xpath)
+	//
+	//		println "\n➡ Opening '${name}' dropdown..."
+	//
+	//		try {
+	//			WebUI.waitForElementClickable(to, 10)
+	//			WebUI.click(to)
+	//			WebUI.delay(1)
+	//		}
+	//		catch (Exception e) {
+	//			println("⚠ Normal dropdown click failed — using JS fallback")
+	//			try {
+	//				WebElement el = WebUI.findWebElement(to, 5)
+	//				WebUI.executeJavaScript("arguments[0].click();", Arrays.asList(el))
+	//				WebUI.delay(1)
+	//			}
+	//			catch (Exception ex) {
+	//				KeywordUtil.markFailed("❌ Unable to open dropdown '${name}'")
+	//			}
+	//		}
+	//
+	//		waitForDropdownOpen()
+	//	}
+
+
+	// -------------------------
+	// WAIT FOR DROPDOWN PANEL
+	// -------------------------
+	@Keyword 	void waitForDropdownOpen() {
+
+		TestObject panel = makeTO(
+				"//*[contains(@class,'MuiPopover-paper') or contains(@class,'MuiMenu-paper') or @role='listbox']"
+				)
+
+		int timeout = 10
+		int counter = 0
+
+		while (counter < timeout) {
+
+			boolean opened = WebUI.verifyElementPresent(
+					panel, 1, FailureHandling.OPTIONAL
+					)
+
+			if (opened) {
+				println "✔ Dropdown panel opened"
+				return
+			}
+
+			counter++
+			WebUI.delay(1)
+		}
+
+		KeywordUtil.markFailed("❌ Dropdown did NOT open within timeout")
+	}
+
+
+	// -------------------------
+	// READ OPTIONS FROM DROPDOWN
+	// -------------------------
+	//	List<String> getDropdownOptions() {
+	//
+	//		List<WebElement> els = WebUI.findWebElements(
+	//				makeTO("//*[@role='option']"),
+	//				10
+	//				)
+	//
+	//		if (!els || els.isEmpty()) {
+	//			KeywordUtil.markFailed("❌ No dropdown options found")
+	//		}
+	//
+	//		return els.collect { it.getText().trim() }
+	//	}
+	@Keyword
+	List<String> getDropdownOptions() {
+
+		println("Fetching dropdown options...")
+
+		TestObject optionList = new TestObject("dropdownOpenList")
+		optionList.addProperty("xpath", ConditionType.EQUALS,
+				"//div[contains(@class,'MuiPopover-root')]//li[@role='option']")
+
+		List<WebElement> options = WebUI.findWebElements(optionList, 5)
+
+		if (options == null || options.isEmpty()) {
+			KeywordUtil.markFailed("❌ No dropdown options found in open dropdown panel!")
+			return []
+		}
+
+		List<String> values = options.collect { it.getText().trim() }
+		println("✔ Options found: $values")
+		return values
+	}
+
+
+	// -------------------------
+	// CLOSE DROPDOWN (FINAL VERSION)
+	// -------------------------
+	@Keyword  void closeDropdown() {
+
+		println "➡ Attempting to close dropdown..."
+
+		try {
+			WebUI.sendKeys(
+					makeTO("//body"),
+					Keys.chord(Keys.ESCAPE),
+					FailureHandling.OPTIONAL
+					)
+
+			WebUI.delay(1)
+
+			println "✔ Dropdown closed successfully"
+		}
+		catch (Exception e) {
+			println "⚠ Dropdown already closed or ESC ignored"
+		}
+	}
+
+	//	// -------------------------
+	//	// FORCE CLOSE DROPDOWN (FINAL VERSION)
+	//	// -------------------------
+	//@Keyword
+	//void forceCloseDropdown() {
+	//
+	//    println("🔎 Checking for any open dropdown...")
+	//
+	//    try {
+	//        TestObject dropdownPanel = new TestObject("dropdownPanel")
+	//        dropdownPanel.addProperty("xpath", ConditionType.EQUALS,
+	//                "//*[@role='presentation' or contains(@class,'MuiPopover-root')]")
+	//
+	//        // First check if dropdown exists
+	//        List<WebElement> panels = WebUI.findWebElements(dropdownPanel, 1)
+	//        if (panels.size() == 0) {
+	//            println("ℹ No open dropdown detected")
+	//            return
+	//        }
+	//
+	//        println("⚠ Dropdown detected → closing using ESC + outside click")
+	//
+	//        // Send ESCAPE key
+	//        WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ESCAPE))
+	//        WebUI.delay(0.5)
+	//
+	//        // Click outside root (backup)
+	//        TestObject root = new TestObject("root")
+	//        root.addProperty("xpath", ConditionType.EQUALS, "//*[@id='root']")
+	//        WebUI.clickOffset(root, 5, 5)
+	//        WebUI.delay(0.5)
+	//
+	//        // FINAL check
+	//        panels = WebUI.findWebElements(dropdownPanel, 1)
+	//        if (panels.size() == 0) {
+	//            println("✔ Dropdown successfully closed")
+	//        } else {
+	//            println("❌ WARNING: Dropdown still open → forcing JS close")
+	//
+	//            WebUI.executeJavaScript(
+	//                    "document.querySelectorAll('[role=\"presentation\"]').forEach(e=>e.remove());",
+	//                    null
+	//            )
+	//
+	//            WebUI.delay(0.5)
+	//            println("✔ Forced dropdown removed")
+	//        }
+	//    }
+	//    catch (Exception e) {
+	//        println("ℹ Error in dropdown close logic: ${e.message}")
+	//    }
+	//}
+
+	@Keyword
+	void forceCloseDropdownHard() {
+
+		println("🔎 HARD-CLOSE: Checking all dropdown overlays...")
+
+		try {
+			String script = """
+            document.querySelectorAll('[role="presentation"], .MuiPopover-root, .MuiModal-root')
+                    .forEach(el => el.remove());
+        """
+			WebUI.executeJavaScript(script, null)
+			WebUI.delay(0.3)
+
+			println("✔ HARD-CLOSE: All dropdown overlays removed")
+		}
+		catch (Exception e) {
+			println("⚠ HARD-CLOSE error: " + e.message)
+		}
+	}
+
+	//==============================
+	//Helper: Dropdown Validation (With Close Message)
+	//=======================================
+	@Keyword
+	void validateExpandedDropdown(String dropdownName, List<String> expectedValues) {
+
+		println "\n===== VALIDATING '${dropdownName}' DROPDOWN ====="
+
+		// Normalize Excel values (lowercase + trim)
+		List<String> normalizedExpected = expectedValues.collect { it.trim().toLowerCase() }
+
+		// Open dropdown
+		openDropdown(dropdownName)
+
+		// Read UI values
+		List<String> uiOptions = getDropdownOptions()
+				.collect { it.trim().toLowerCase() } // normalize UI text
+				.unique()
+
+		// Remove the universal "All" option — NEVER validate it
+		uiOptions.remove("all")
+
+		// Close safely
+		forceCloseDropdownHard()
+		println "✔ '${dropdownName}' dropdown closed"
+
+		// Compare
+		normalizedExpected.each { expected ->
+			if (!uiOptions.contains(expected)) {
+				KeywordUtil.markFailed("❌ '${expected}' NOT found in '${dropdownName}' dropdown")
+			} else {
+				println "✔ '${expected}' validated in '${dropdownName}' dropdown"
+			}
+		}
+
+		println "✔ '${dropdownName}' dropdown validation completed."
+	}
+
+
+
+	//	//======================================================
+	//	//Helper: Safe Cell Reader (Prevents null failures)
+	//	//=======================================================
+
+	String safeCell(WebElement row, Integer index) {
+		if (!index) return ""
+		try {
+			return row.findElement(By.xpath("./td[${index}]")).getText().trim()
+		} catch (Exception e) {
+			return ""
+		}
+	}
+
+
+
+	// =====================================================
+	// Helper for detecting the IssueType–Severity sheet
+	// Accepts sheet name:
+	//   "issueTypeSeverityMap"   (Exact match)
+	//   or any name starting with prefix:
+	//   "issueTypeSeverity"
+	// =====================================================
+
+	Sheet loadIssueTypeSeveritySheet(Workbook wb) {
+
+		String exact = "issueTypeSeverityMap"
+		Sheet sheet = wb.getSheet(exact)
+
+		if (sheet != null) {
+			println("✔ Found sheet: ${exact}")
+			return sheet
+		}
+
+		// fallback for truncated names (Excel cuts long ones)
+		String prefix = "issueTypeSeverity"
+
+		for (Sheet s : wb) {
+			if (s.getSheetName().toLowerCase().startsWith(prefix.toLowerCase())) {
+				println("✔ Auto-detected mapping sheet: ${s.getSheetName()}")
+				return s
+			}
+		}
+
+		KeywordUtil.markFailed(
+				"❌ Could NOT find IssueType–Severity sheet. Expected '${exact}' or prefix '${prefix}'"
+				)
+		return null
+	}
+
+	//	==============================================================================
+	//	Supporting Function: Dropdown Subset Validation
+	//	=================================================================================
+
+
+	@Keyword void validateDropdownSubset(String dropdownName, List<String> expectedList) {
+
+		println "\nChecking '${dropdownName}' dropdown..."
+
+		openDropdown(dropdownName)
+		List<String> uiVals = getDropdownOptions()
+		closeDropdown()
+
+		println "UI Dropdown Values: ${uiVals}"
+
+		List<String> normalizedExpected =
+				expectedList.collect { it.toLowerCase().trim() }
+
+		println "Excel Allowed Values (normalized): ${normalizedExpected}"
+
+		uiVals.each { val ->
+			if (val.equalsIgnoreCase("All")) {
+				println "✔ 'All' (skip)"
+				return
+			}
+			if (!normalizedExpected.contains(val.toLowerCase().trim())) {
+				KeywordUtil.markFailed("❌ UI value '${val}' NOT found in Excel Master list.")
+			} else {
+				println "✔ '${val}' validated"
+			}
+		}
+	}
+
+	//	===========================================
+	//	HELPER METHODS USED IN SECTION 7
+	//	============================================
+
+	//7A. Parse Issue Text
+	List<String> parseIssues(String issueText) {
+
+		if (!issueText) return []
+
+		if (issueText.contains(" and other ")) {
+			String mainIssue = issueText.split(" and other ")[0].trim()
+			return [mainIssue]
+		}
+
+		return [issueText.trim()]
+	}
+
+	//7B. Modal Validator
+
+	@Keyword		void validateModalForRow(int rowIndex, Map master) {
+
+		println "\n---- Opening modal for row ${rowIndex} ----"
+
+		String detailsBtnXpath =
+				"(//*[@data-testid='generic-table-row'])[${rowIndex}]//button[contains(., 'details')]"
+
+		TestObject detailsBtn = makeTO(detailsBtnXpath)
+
+		try {
+			WebUI.click(detailsBtn)
+		} catch (Exception e) {
+			WebElement el = WebUI.findWebElement(detailsBtn, 5)
+			WebUI.executeJavaScript("arguments[0].click();", Arrays.asList(el))
+		}
+
+		WebUI.delay(1)
+
+		// Validate modal content
+		println "Modal opened — validating contents..."
+
+		WebUI.verifyElementPresent(makeTO("//p[@data-testid='issue-message']"), 5)
+		WebUI.verifyElementPresent(makeTO("//p[@data-testid='issue-severity']"), 5)
+
+		// CLOSE MODAL
+		WebUI.click(makeTO("//button[contains(.,'Close')]"))
+		WebUI.delay(1)
+
+		println "✔ Modal validated & closed"
+	}
+
+	//7C. Dropdown Validation Against Excel
+	@Keyword
+	void validateDropdownAgainstExcelExact(String dropdownName, List<String> excelList) {
+
+		println "\nValidating '${dropdownName}' dropdown..."
+
+		openDropdown(dropdownName)
+
+		List<String> uiOptions = getDropdownOptions()
+
+		closeDropdown()
+
+		List<String> excelNorm = excelList.collect { it.trim().toLowerCase() }
+
+		uiOptions.each { uiVal ->
+
+			if (uiVal.equalsIgnoreCase("All")) {
+				println "✔ 'All' detected — skip"
+				return
+			}
+
+			if (!excelNorm.contains(uiVal.trim().toLowerCase())) {
+				KeywordUtil.markFailed(
+						"❌ UI dropdown '${dropdownName}' contains '${uiVal}' NOT found in Excel sheet"
+						)
+			} else {
+				println "✔ '${uiVal}' validated"
+			}
+		}
+	}
+
+	//7D. Batch ID Dropdown Logging
+	@Keyword
+	void validateBatchIdDropdown() {
+
+		println "\nReading Batch ID dropdown values..."
+
+		openDropdown("batchID")
+		List<String> options = getDropdownOptions()
+		closeDropdown()
+
+		println "Batch ID values: ${options}"
+	}
+
+
+	// ======================================
+	// 4. Table Header Validator
+	// ======================================
+
+	@Keyword 	void validateTableHeaders(List<String> expectedHeaders) {
+
+		expectedHeaders.each { headerName ->
+
+			String xpath = """
+		//table//th[
+			.//span[normalize-space(text())='${headerName}']
+			or normalize-space(.)='${headerName}'
+			or @data-testid='generic-table-header-${headerName.replace(" ", "_")}'
+		]
+		"""
+
+			TestObject to = makeTO(xpath)
+
+			boolean exists = WebUI.verifyElementPresent(
+					to,
+					10,
+					FailureHandling.CONTINUE_ON_FAILURE
+					)
+
+			if (!exists) {
+				KeywordUtil.markFailed("❌ Header '${headerName}' NOT found in UI using xpath: ${xpath}")
+			} else {
+				println("✔ Header '${headerName}' present")
+			}
+		}
+	}
+
+
+	// ======================================
+	// 5. Pagination Utils (Silent)
+	// ======================================
+
+	boolean hasNextPage() {
+		try {
+			TestObject to = makeTO("//button[@aria-label='Go to next page' and not(@disabled)]")
+			return WebUI.findWebElements(to, 1).size() > 0
+		} catch (Exception e) {
+			return false
+		}
+	}
+
+	void goNextPage() {
+		WebUI.click(makeTO("//button[@aria-label='Go to next page' and not(@disabled)]"))
+		WebUI.delay(1)
+	}
+
+	// ======================================
+	// 5.1 SMART Validation Wait (Chip-Based)
+	// ======================================
+
+	@Keyword 	void waitForValidationComplete() {
+
+		println "\n⏳ Waiting for validation to complete..."
+
+		int timeout = 180
+		int interval = 3
+		int elapsed = 0
+
+		TestObject validatingBtn = makeTO("//button[contains(., 'Validating')]")
+		TestObject completedChip = makeTO("//*[@data-testid='validation-status-chip' and contains(., 'COMPLETED')]")
+
+		while (elapsed < timeout) {
+
+			boolean chipVisible = WebUI.verifyElementPresent(completedChip, 1, FailureHandling.OPTIONAL)
+			if (chipVisible) {
+				println "✔ Validation completed (chip detected)."
+				WebUI.delay(1)
+				return
+			}
+
+			boolean validatingVisible = WebUI.verifyElementPresent(validatingBtn, 1, FailureHandling.OPTIONAL)
+			if (validatingVisible) {
+				println "...still validating (${elapsed}s)"
+				WebUI.delay(interval)
+				elapsed += interval
+				continue
+			}
+
+			println "✔ Validation completed (no validating button)."
+			WebUI.delay(1)
+			return
+		}
+
+		KeywordUtil.markFailed("❌ Validation did NOT complete within timeout (${timeout}s)")
+	}
+
+	// ===========================================================================
+	// 5.2 CLICK TOGGLE USING CORRECT LOCATOR data-testid="toggle-input"
+	// ===========================================================================
+	@Keyword
+	void clickToggleInput() {
+
+		// The REAL clickable switch (NOT the input)
+		TestObject toggle = new TestObject("expandedToggle")
+		toggle.addProperty("xpath", ConditionType.EQUALS, "//*[@data-testid='table-view-switch']")
+
+		println("Attempting to toggle Expanded/Aggregated mode...")
+
+		try {
+			WebUI.waitForElementClickable(toggle, 10)
+			WebUI.click(toggle)
+			println("✔ Toggle clicked successfully (normal click).")
+		}
+		catch (Exception e1) {
+			println("⚠ Normal click failed — trying JS fallback...")
+
+			try {
+				WebElement el = WebUI.findWebElement(toggle, 10)
+				WebUI.executeJavaScript("arguments[0].click();", Arrays.asList(el))
+				println("✔ Toggle clicked with JavaScript.")
+			}
+			catch (Exception e2) {
+				KeywordUtil.markFailed("❌ Toggle NOT clickable even with JS fallback!")
+			}
+		}
+
+		WebUI.delay(1)
+	}
+
+	// ===========================================================================
+	// 5.3 RELIABLE TOGGLE CLICK (Handles normal + JS click)
+	// ===========================================================================
+
+	@Keyword void clickExpandedToggle() {
+		println("\n---- CLICKING EXPANDED MODE TOGGLE ----")
+
+		TestObject toggleObj = new TestObject("toggleObj")
+		toggleObj.addProperty("xpath", ConditionType.EQUALS, "//*[@data-testid='toggle-input']")
+
+		try {
+			WebUI.waitForElementClickable(toggleObj, 5)
+			WebUI.click(toggleObj)
+			println("✔ Toggle clicked normally")
+			return
+		}
+		catch (Exception e1) {
+			println("⚠ Normal click failed → using JS fallback...")
+		}
+
+		try {
+			WebElement el = WebUI.findWebElement(toggleObj, 5)
+			WebUI.executeJavaScript("arguments[0].click();", Arrays.asList(el))
+			println("✔ Toggle clicked via JavaScript")
+		}
+		catch (Exception e2) {
+			KeywordUtil.markFailed("❌ Toggle NOT clickable even with JS: " + e2.message)
+		}
+
+		WebUI.delay(1)
+	}
+
+
+
+	/* ==========================================================
+	 * 6. VALIDATE AGGREGATED MODE (FINAL VERSION)
+	 * ========================================================== 
+	 * */
+
+	@Keyword void validateAggregatedView(Map master) {
+
+		println "\n===== VALIDATING AGGREGATED MODE ====="
+
+		// ======================================================
+		// 1️⃣ VALIDATE HEADERS (best selector for your UI)
+		// ======================================================
+
+		List<WebElement> headerEls = WebUI.findWebElements(
+				makeTO("//th[starts-with(@data-testid,'generic-table-header-')]"),
+				10
+				)
+
+		List<String> uiHeaders = headerEls.collect { it.getText().trim() }
+
+		println "UI Headers Found: ${uiHeaders}"
+
+		master.aggregatedHeaders.each { expected ->
+			if (!uiHeaders.contains(expected)) {
+				KeywordUtil.markFailed("❌ Aggregated header '${expected}' NOT found in UI")
+			} else {
+				println "✔ Header '${expected}' present"
+			}
+		}
+
+		// Build header index map dynamically
+		Map<String, Integer> colIndex = [:]
+
+		uiHeaders.eachWithIndex { h, i ->
+			colIndex[h] = i + 1
+		}
+
+		if (!colIndex["Issue Type"] || !colIndex["Severity"]) {
+			KeywordUtil.markFailed("❌ Required columns (Issue Type, Severity) NOT found in table header.")
+		}
+
+
+		// ======================================================
+		// 2️⃣ VALIDATE SEVERITY DROPDOWN
+		// ======================================================
+
+		println "\nChecking Severity dropdown (Aggregated mode)..."
+
+		println "▶ Opening 'severity' dropdown..."
+		openDropdown("severity")
+
+		List<String> uiOptions = getDropdownOptions()
+
+		println "▶ Closing dropdown..."
+		closeDropdown()
+
+		println "UI Severity Options = ${uiOptions}"
+
+		master.severities.each { expected ->
+			if (!uiOptions.contains(expected)) {
+				KeywordUtil.markFailed("❌ Severity '${expected}' NOT found in dropdown")
+			} else {
+				println "✔ Severity '${expected}' validated"
+			}
+		}
+
+		// ======================================================
+		// 3️⃣ VALIDATE TABLE ROWS (dynamic column indexes)
+		// ======================================================
+
+		println "\nValidating aggregated rows..."
+
+		List<WebElement> rows = WebUI.findWebElements(
+				makeTO("//*[@data-testid='generic-table-row']"),
+				20
+				)
+
+		println "✔ Found ${rows.size()} aggregated rows"
+
+		// ======================================================
+		// 4️⃣ READ & VALIDATE EACH ROW
+		// ======================================================
+
+		rows.eachWithIndex { WebElement row, int idx ->
+
+			// Dynamic column extraction
+			String issueType = row.findElement(
+					By.xpath("./td[" + colIndex["Issue Type"] + "]")
+					).getText().trim()
+
+			String severity = row.findElement(
+					By.xpath("./td[" + colIndex["Severity"] + "]")
+					).getText().trim()
+
+			// Row details in console
+			println "\nRow ${idx+1} Details:"
+			println "   Issue Type : ${issueType}"
+			println "   Severity   : ${severity}"
+
+			// --------------------------------------------------
+			// 5️⃣ VERIFY ISSUE TYPE EXISTS IN EXCEL MAPPING
+			// --------------------------------------------------
+
+			String expectedSeverity = master.issueTypeSeverityMap[issueType]
+
+			if (!expectedSeverity) {
+				KeywordUtil.markFailed(
+						"❌ Excel mapping missing IssueType '${issueType}'"
+						)
+			}
+
+			// --------------------------------------------------
+			// 6️⃣ VERIFY SEVERITY MATCHES EXPECTED
+			// --------------------------------------------------
+
+			if (!severity.equalsIgnoreCase(expectedSeverity)) {
+				KeywordUtil.markFailed(
+						"❌ Row ${idx+1}: Severity '${severity}' does NOT match expected '${expectedSeverity}'"
+						)
+			}
+
+			println "✔ Row ${idx+1} validated successfully"
+		}
+
+		println "\n✔ Aggregated Mode Validation Completed Successfully"
+	}
+
+
+
+	/* ======================================================================================
+	 *  7. EXPANDED MODE VALIDATION  (FINAL, PRODUCTION–READY VERSION)
+	 * ====================================================================================== */
+
+	@Keyword
+	void validateExpandedModeFull(Map master) {
+
+		println "\n===== VALIDATING EXPANDED MODE ====="
+
+		// -------------------------------------------------------------------
+		// 1️⃣ Switch to Expanded Mode
+		// -------------------------------------------------------------------
+		forceCloseDropdownHard()
+		clickExpandedToggle()
+		WebUI.delay(1)
+		forceCloseDropdownHard()
+
+
+		// -------------------------------------------------------------------
+		// 2️⃣ Validate Expanded Table Headers
+		// -------------------------------------------------------------------
+		println "\nValidating Expanded Headers..."
+
+		List<WebElement> headerEls = WebUI.findWebElements(
+				makeTO("//th[starts-with(@data-testid,'generic-table-header-')]"),
+				10
+				)
+
+		List<String> uiHeaders = headerEls.collect { it.getText().trim() }
+		println "UI Headers Found: ${uiHeaders}"
+
+		master.expandedHeaders.each { expected ->
+			if (!uiHeaders.contains(expected)) {
+				KeywordUtil.markFailed("❌ Expanded header '${expected}' NOT found in UI")
+			} else {
+				println "✔ Header '${expected}' present"
+			}
+		}
+
+		Map<String, Integer> colIndex = [:]
+		uiHeaders.eachWithIndex { h, i -> colIndex[h] = i + 1 }
+
+
+		// -------------------------------------------------------------------
+		// 3️⃣ Validate All Dropdowns (against Excel dropdown sheets)
+		// -------------------------------------------------------------------
+		println "\n===== VALIDATING EXPANDED DROPDOWNS ====="
+
+		println "\n▶ Issue Type Dropdown"
+		validateDropdownAgainstExcelExact("issueType", master.issueTypes)
+
+		println "\n▶ Node Type Dropdown"
+		validateDropdownAgainstExcelExact("nodeType", master.nodeTypes)
+
+		println "\n▶ Severity Dropdown"
+		validateDropdownAgainstExcelExact("severity", master.severities)
+
+		println "\n▶ Batch ID Dropdown (Logging Only)"
+		validateBatchIdDropdown()
+
+
+
+		// -------------------------------------------------------------------
+		// 4️⃣ Validate Table Rows
+		// -------------------------------------------------------------------
+		println "\n===== VALIDATING EXPANDED ROWS ====="
+
+		List<WebElement> rows = WebUI.findWebElements(
+				makeTO("//*[@data-testid='generic-table-row']"),
+				20
+				)
+
+		println "✔ Found ${rows.size()} expanded rows"
+
+
+		rows.eachWithIndex { WebElement row, int idx ->
+
+			println "\n------------------------------"
+			println "Row ${idx+1} Details"
+			println "------------------------------"
+
+			String nodeType  = safeCell(row, colIndex["Node Type"])
+			String severity  = safeCell(row, colIndex["Severity"])
+			String issueText = safeCell(row, colIndex["Issue(s)"])
+
+			println "Node Type  : ${nodeType}"
+			println "Severity   : ${severity}"
+			println "Issue(s)   : ${issueText}"
+
+
+			// -------------------------------------------------------------------
+			// 4A — VALIDATE NODE TYPE
+			// -------------------------------------------------------------------
+			if (!master.nodeTypes.any { it.equalsIgnoreCase(nodeType) }) {
+				KeywordUtil.markFailed("❌ Row ${idx+1}: NodeType '${nodeType}' NOT found in Excel dropdown")
+			} else {
+				println "✔ Node Type validated"
+			}
+
+
+			// -------------------------------------------------------------------
+			// 4B — HANDLE MULTIPLE ISSUES ("... and other X")
+			// -------------------------------------------------------------------
+			List<String> parsedIssues = parseIssues(issueText)
+
+			println "Parsed Issues = ${parsedIssues}"
+
+			parsedIssues.each { issueType ->
+
+				// -------------------------------------------------------------------
+				// 4B.1 — Validate IssueType Exists in Excel Mapping Sheet
+				// -------------------------------------------------------------------
+				String expectedSeverity = master.issueTypeSeverityMap.find {
+					it.key.equalsIgnoreCase(issueType)
+				}?.value
+
+				if (!expectedSeverity) {
+					KeywordUtil.markFailed("❌ Excel mapping missing IssueType '${issueType}'")
+				} else {
+					println "✔ Issue '${issueType}' exists in Excel mapping"
+				}
+
+				// -------------------------------------------------------------------
+				// 4B.2 — Validate Severity Matches Expected
+				// -------------------------------------------------------------------
+				if (!severity.equalsIgnoreCase(expectedSeverity)) {
+					KeywordUtil.markFailed(
+							"❌ Row ${idx+1}: Severity '${severity}' does NOT match expected '${expectedSeverity}' for Issue '${issueType}'"
+							)
+				} else {
+					println "✔ Severity validated for Issue '${issueType}'"
+				}
+			}
+
+
+			// -------------------------------------------------------------------
+			// 4C — OPEN DETAILS MODAL & VALIDATE ISSUES INSIDE
+			// -------------------------------------------------------------------
+			validateModalForRow(idx + 1, master)
+
+			println "✔ Row ${idx+1} fully validated"
+		}
+
+		println "\n✔ Expanded Mode Validation Completed Successfully"
+	}
+
+
+	// ======================================
+	// 8. Expanded Row Validation (FINAL - PAGINATION DISABLED)
+	// ======================================
+
+	@Keyword void validateExpandedRows(Map master) {
+
+		println("\n===== VALIDATING EXPANDED ROWS =====")
+
+		List<WebElement> rows = WebUI.findWebElements(
+				makeTO("//tr[@data-testid='generic-table-row']"),
+				10
+				)
+
+		println("✔ Found ${rows.size()} expanded rows")
+
+		int index = 1
+
+		rows.each { row ->
+
+			println("\n--- Row ${index} ---")
+
+			// Extract Issue(s)
+			String issueText = row.findElement(By.xpath(".//td[7]")).getText().trim()
+
+			// Extract Severity
+			String severityText = row.findElement(By.xpath(".//td[4]")).getText().trim()
+
+			// Extract NodeType
+			String nodeType = row.findElement(By.xpath(".//td[2]")).getText().trim()
+
+			//---------------------------------------------------
+			// 8.1 Validate NodeType
+			//---------------------------------------------------
+			if (!master.nodeTypes.contains(nodeType)) {
+				KeywordUtil.markFailed("❌ NodeType '${nodeType}' not found in Excel master list")
+			} else {
+				println("✔ NodeType '${nodeType}' is valid")
+			}
+
+			//---------------------------------------------------
+			// 8.2 Validate IssueType + Severity mapping
+			//---------------------------------------------------
+
+			// Find the matching IssueType key from Excel using substring match
+			String matchedIssue = master.issueTypeMap.keySet().find { key ->
+				issueText.toLowerCase().contains(key.toLowerCase())
+			}
+
+			if (!matchedIssue) {
+				KeywordUtil.markFailed("❌ No Excel IssueType mapping found for UI Issue(s): '${issueText}'")
+			}
+
+			String expectedSeverity = master.issueTypeMap[matchedIssue]
+
+			//---------------------------------------------------
+			// 8.3 Compare Severity
+			//---------------------------------------------------
+			if (!severityText.equalsIgnoreCase(expectedSeverity)) {
+				KeywordUtil.markFailed(
+						"❌ Severity mismatch for Issue '${matchedIssue}'. " +
+						"UI='${severityText}', Expected='${expectedSeverity}'"
+						)
+			} else {
+				println("✔ Severity '${severityText}' validated for '${matchedIssue}'")
+			}
+
+			//---------------------------------------------------
+			// 8.4 Click 'See details' and validate modal
+			//---------------------------------------------------
+
+			String detailsBtnXpath = "(//tr[@data-testid='generic-table-row'])[${index}]//button[contains(., 'See details')]"
+
+			try {
+				WebUI.click(makeTO(detailsBtnXpath))
+			} catch (Exception e) {
+				WebElement el = WebUI.findWebElement(makeTO(detailsBtnXpath), 5)
+				WebUI.executeJavaScript("arguments[0].click();", Arrays.asList(el))
+			}
+
+			WebUI.delay(1)
+
+			validateModal(master)
+			index++
+		}
+	}
+
+
+
+	// ======================================
+	// 9. Modal Validator
+	// ======================================
+
+	void validateModal(Map master) {
+
+		println("\n==== Modal Validation ====")
+
+		// Modal container
+		WebUI.verifyElementPresent(makeTO("//div[contains(@class,'MuiDialog-paper')]"), 10)
+
+		// Title
+		WebUI.verifyElementPresent(makeTO("//h1[@data-testid='error-details-title']"), 5)
+
+		// Node Info
+		WebUI.verifyElementPresent(makeTO("//span[@data-testid='error-details-node-info']"), 5)
+
+		// Issue Count
+		WebUI.verifyElementPresent(makeTO("//p[@data-testid='error-details-error-count']"), 5)
+
+		// Severity
+		WebUI.verifyElementPresent(makeTO("//p[@data-testid='issue-severity']"), 5)
+
+		// Issue Message
+		WebUI.verifyElementPresent(makeTO("//p[@data-testid='issue-message']"), 5)
+
+		// Scroll through modal
+		WebUI.executeJavaScript("document.querySelector('.MuiDialog-paper').scrollTop = 500;", null)
+
+		// Close modal
+		WebUI.click(findTestObject('CRDC/DataSubmissions/error-details-close-button'))
+		WebUI.delay(1)
+
+		println("✔ Modal closed")
+	}
+
+
+
+	// ======================================
+	// 10. MASTER WRAPPER (Call This in Test Case)
+	// ======================================
+
+	@Keyword
+	def validateValidationResultsUI(String excelPath) {
+
+		println("\n==========================")
+		println(" STARTING FULL VALIDATION ")
+		println("==========================\n")
+
+		Map master = loadExcelMaster(excelPath)
+
+		// 1️⃣ Wait for validation to finish
+		waitForValidationComplete()
+
+		// 2️⃣ Aggregated mode checks
+		validateAggregatedView(master)
+
+		// 3️⃣ Expanded mode + row-level checks
+		validateExpandedView(master)
+		validateExpandedRows(master)
+
+		println("\n==========================")
+		println(" VALIDATION COMPLETE ✔")
+		println("==========================\n")
+
+
 }

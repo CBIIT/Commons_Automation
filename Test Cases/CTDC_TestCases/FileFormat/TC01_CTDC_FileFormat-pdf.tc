@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CTDC_FileFormat-pdf</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <testCaseGuid>0e7a8f3c-44d1-42e9-ad5d-33c408a0bd54</testCaseGuid>
+</TestCaseEntity>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Study Name_TARGET: Acute Lymphoblastic Leukemia (ALL) Expansion Phase 2 and Acute Leukemia of Ambiguous Lineage (ALAL) Phase 3&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Study Name_TARGET: Acute Lymphoblastic Leukemia (ALL) Expansion Phase 2&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Study Name_TARGET: Acute Lymphoblastic Leukemia (ALL) Expansion Phase 2 and Acute Leukemia of Ambiguous Lineage (ALAL) Phase 3&quot;]</value>
-      <webElementGuid>36cd1166-f827-4788-83ad-1717d616ac36</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Study Name_TARGET: Acute Lymphoblastic Leukemia (ALL) Expansion Phase 2&quot;]</value>
+      <webElementGuid>633a02b6-37a1-46cf-9506-f1c0c902983d</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

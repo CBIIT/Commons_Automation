@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_CTDC_TissueCategory-AdjNonTumor</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <testCaseGuid>d49612d0-11e2-4a66-8a19-380fdf18e823</testCaseGuid>
+</TestCaseEntity>

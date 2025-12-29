@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_CTDC_CollectTimepoint-PostTreatNoProgrs</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <testCaseGuid>e831128c-53f1-4666-85f8-6f00babb7ea5</testCaseGuid>
+</TestCaseEntity>

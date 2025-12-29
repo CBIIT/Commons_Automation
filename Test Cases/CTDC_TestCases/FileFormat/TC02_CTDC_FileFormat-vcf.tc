@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_CTDC_FileFormat-vcf</name>
+   <tag>Filter</tag>
+   <comment></comment>
+   <testCaseGuid>e848ef4e-7b1b-4358-ade6-e6e6b204961d</testCaseGuid>
+</TestCaseEntity>
