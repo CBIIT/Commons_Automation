@@ -1,0 +1,746 @@
+type	synonym_id	repository_of_synonym_id	associated_id	domain_description	domain_category	data_location	id	participant.id
+synonym	PATYHY_USI	USI	PATYHY	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	098715f2-4be4-5629-942e-7a80754191b6	d01a1548-57d1-5557-9a70-598718beaa47
+synonym	pt-g808d6kg_KidsFirst	KidsFirst	pt-g808d6kg	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	1f3ecbb4-34dc-5736-bd7f-48ab08395ff3	d01a1548-57d1-5557-9a70-598718beaa47
+synonym	PAWBUH_USI	USI	PAWBUH	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	08db1882-feb1-52f9-b21d-d418fffd84f7	530cfe8e-a8da-5c41-bead-2d0435920213
+synonym	pt-tj05wd7y_KidsFirst	KidsFirst	pt-tj05wd7y	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	4d45ee73-1b10-5629-af1b-4467ada73a9e	530cfe8e-a8da-5c41-bead-2d0435920213
+synonym	PATTKC_USI	USI	PATTKC	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	c546089b-8143-54b3-9274-d5c3592379af	6d998536-0b62-5721-a5e0-4fde2f0005bd
+synonym	PARVES_USI	USI	PARVES	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	9b740731-8fe6-59c5-9338-0651067a2d21	71b2e6aa-27bd-599e-8636-e2855a8ce670
+synonym	PASFRU_USI	USI	PASFRU	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	4a46812e-c43e-5d2b-8f64-2983a11fe796	d72dd35a-78ba-5668-9aad-e841abc3fcf3
+synonym	PASHDC_PCDC	PCDC	PASHDC	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	88fbd3aa-88e4-561f-a50e-2264ebbb289a	4eeaa732-7031-5c04-97f0-4d11f39e7eea
+synonym	PASHDC_USI	USI	PASHDC	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	9b382235-456e-5c58-989e-67d75b9829af	4eeaa732-7031-5c04-97f0-4d11f39e7eea
+synonym	PANETX_PCDC	PCDC	PANETX	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	9d2f3632-5e3f-50f0-884c-b61381c1a17e	b367a664-9bd1-52f3-b786-ddc0740189d5
+synonym	PANETX_USI	USI	PANETX	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	0b70ff23-349a-5185-8fcf-a42ea28e3ecb	b367a664-9bd1-52f3-b786-ddc0740189d5
+synonym	PAUJPV_USI	USI	PAUJPV	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	0f34de49-a029-5030-b4f6-11be538d88c1	47967c5a-4034-505b-b76c-d2e539a66823
+synonym	pt-40eq0m1g_KidsFirst	KidsFirst	pt-40eq0m1g	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	3643d564-d0ba-5757-875a-11d670746690	47967c5a-4034-505b-b76c-d2e539a66823
+synonym	PANWZV_USI	USI	PANWZV	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	9676bf50-0224-50a6-b77c-6b0090a38863	bf29f82a-a8ba-5576-8e5c-a738329f0fd2
+synonym	PATZDM_PCDC	PCDC	PATZDM	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	6b9793d1-be80-579a-9a28-f24ef3d94ead	bd45d9d3-059d-5f0e-8b2d-38d8b987ff51
+synonym	PATZDM_USI	USI	PATZDM	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	eb8da6a5-9a86-5a60-b7bd-f2493ec3b4f3	bd45d9d3-059d-5f0e-8b2d-38d8b987ff51
+synonym	PAVCHP_PCDC	PCDC	PAVCHP	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	e194df96-6856-5443-a9c0-2543da5667a8	746fecad-298e-5670-ae9d-c21868dca72f
+synonym	PAVCHP_USI	USI	PAVCHP	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	82e525cb-8721-514e-ab5d-e794f25fce42	746fecad-298e-5670-ae9d-c21868dca72f
+synonym	PATLJL_USI	USI	PATLJL	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	a854f0b3-a10e-5fae-93b2-ec8fe2b30dfa	bcd29979-8af0-5a50-a6d3-392d1e2d6435
+synonym	PAULVU_USI	USI	PAULVU	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	78b6cdd5-7ad0-5c3d-b5cc-519de0c665f2	3053559e-a511-5dca-837a-e217dab98e6a
+synonym	PAWZJD_USI	USI	PAWZJD	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	9c8fff31-ac1d-5f77-a8a8-d73c33f0715e	603326d2-9ee9-54b2-a627-9c04715295b1
+synonym	PATZBV_PCDC	PCDC	PATZBV	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	3a5fb1e4-a03c-598e-8750-158a159c847a	283460ba-9308-53c2-b7ed-5a3288d01a43
+synonym	PATZBV_USI	USI	PATZBV	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	72551f25-6b28-56d3-9380-2d5bc1aa9bec	283460ba-9308-53c2-b7ed-5a3288d01a43
+synonym	pt-zc55t1hf_KidsFirst	KidsFirst	pt-zc55t1hf	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	946351a2-1f02-5999-aa5a-c2794b76cce9	283460ba-9308-53c2-b7ed-5a3288d01a43
+synonym	PAKXHZ_PCDC	PCDC	PAKXHZ	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	5daf9082-1314-5e53-9fc6-1b9d5acd7c15	5ada3cda-4626-5357-89d5-b81f575ac07d
+synonym	PAKXHZ_USI	USI	PAKXHZ	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	eb5826a4-2a7d-5466-bf1f-0a71bbe2990a	5ada3cda-4626-5357-89d5-b81f575ac07d
+synonym	PAWMCH_USI	USI	PAWMCH	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	2c67f46c-1dd0-5b51-87c5-30eaafb854ad	f38b7a22-d44f-51df-b968-9d681baeafd1
+synonym	pt-8ekjp5vk_KidsFirst	KidsFirst	pt-8ekjp5vk	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	bb2b2cca-ced6-5c7e-8a38-906c7b820e2e	f38b7a22-d44f-51df-b968-9d681baeafd1
+synonym	PAUADS_USI	USI	PAUADS	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	9d99f786-c3c6-5cc0-80be-3849480260b2	ca78f9e1-23b3-5910-ae7d-2b1c144b5f0d
+synonym	pt-sjjc9h20_KidsFirst	KidsFirst	pt-sjjc9h20	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	df889e77-d5bb-5668-b54e-79edcc968a0e	ca78f9e1-23b3-5910-ae7d-2b1c144b5f0d
+synonym	PATPIS_PCDC	PCDC	PATPIS	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	dd5afbb2-15d8-52f3-95d0-0b06f94b8fea	7b1e2c8f-b3a2-56f3-95e9-3026e378ec67
+synonym	PATPIS_USI	USI	PATPIS	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	75c73d96-b55a-5661-9b98-03334dcb18f3	7b1e2c8f-b3a2-56f3-95e9-3026e378ec67
+synonym	PARLFB_PCDC	PCDC	PARLFB	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	8faceb22-1baa-52e5-a85c-6172ea530fd2	6d49a3a0-4708-50b0-b60c-8ae62526eea9
+synonym	PARLFB_USI	USI	PARLFB	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	3ddbd8bc-d890-589e-96bd-fc8ccd74fa0e	6d49a3a0-4708-50b0-b60c-8ae62526eea9
+synonym	PARSZK_PCDC	PCDC	PARSZK	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	c091b094-db7c-5154-8056-ad46a09ce588	57000e55-ccc1-5287-a236-3642d0f9b75d
+synonym	PARSZK_USI	USI	PARSZK	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	fb5a1269-7c49-5fbe-8698-32cf47b04db1	57000e55-ccc1-5287-a236-3642d0f9b75d
+synonym	PASVWJ_PCDC	PCDC	PASVWJ	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	9248214d-65f3-5d3e-a523-4d7a47e38e84	167c3ad2-cd72-57fc-9919-fe0b1d0d2c72
+synonym	PASVWJ_USI	USI	PASVWJ	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	04053ccd-6419-5722-99b6-bf06fe4053e7	167c3ad2-cd72-57fc-9919-fe0b1d0d2c72
+synonym	PAUKIG_USI	USI	PAUKIG	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	25ef6650-b999-59b4-acce-dbb15a38af1e	6a019df7-0a74-5b80-a64d-7de836ca8c37
+synonym	PASWHD_USI	USI	PASWHD	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	e115d1bd-8edd-5206-90e1-57a3549503bd	92c1a3b4-0c5f-5d37-b187-c1e6ea0e288f
+synonym	PATMSL_USI	USI	PATMSL	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	ddf3cdb2-2591-50e9-b0b9-2d2c1773e1e7	73581397-fb6e-5815-b27c-b1d2f12ab833
+synonym	pt-6jk0tmdr_KidsFirst	KidsFirst	pt-6jk0tmdr	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	dc253e5b-ae89-52ab-96ec-af73b6716845	73581397-fb6e-5815-b27c-b1d2f12ab833
+synonym	PASSHU_PCDC	PCDC	PASSHU	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	44038b2c-91ba-5ba9-83ab-5ab8fd8f8757	d175a7fd-5d45-51a4-8309-fd7ef9c4dbe4
+synonym	PASSHU_USI	USI	PASSHU	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	de7eede5-fcb0-5df4-9a9b-af8c953f045c	d175a7fd-5d45-51a4-8309-fd7ef9c4dbe4
+synonym	pt-rb03twd5_KidsFirst	KidsFirst	pt-rb03twd5	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	00a67a2a-c7f1-5c3f-8e8d-6387e674fcd1	d175a7fd-5d45-51a4-8309-fd7ef9c4dbe4
+synonym	PAJAGJ_PCDC	PCDC	PAJAGJ	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	d378594e-a18e-5c35-ad36-cfa23e33e4c3	5ae8805c-6a7f-5380-a7f9-9b3d74ab28d3
+synonym	PAJAGJ_USI	USI	PAJAGJ	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	d1471400-0647-52dd-891e-132e67ca93a5	5ae8805c-6a7f-5380-a7f9-9b3d74ab28d3
+synonym	PAVZJY_USI	USI	PAVZJY	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	5002a47f-f034-5129-8f22-1e3929d6b47a	f50bb0f5-d20e-53f1-9893-83efbc83a665
+synonym	PAUFGC_PCDC	PCDC	PAUFGC	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	2ee37a39-f420-5c1e-855c-f7ced5e73c0e	832b375f-0d8f-5ccc-8399-9a57a21cc018
+synonym	PAUFGC_USI	USI	PAUFGC	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	d59dc992-e9ac-5b46-97f8-cd500ab26670	832b375f-0d8f-5ccc-8399-9a57a21cc018
+synonym	PAVLSC_USI	USI	PAVLSC	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	00b3cbfc-ecc1-54b0-8b17-65abf3e38d0e	caa5cb7c-17c0-535d-9539-5dfbaf7d893e
+synonym	PATYYW_PCDC	PCDC	PATYYW	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	61183441-c216-5224-b0c5-327db4748d09	8db42b2e-3d71-52d8-8c32-70ba2aa73c88
+synonym	PATYYW_USI	USI	PATYYW	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	bc5edc74-2cb8-5f59-b29c-55974e46ea44	8db42b2e-3d71-52d8-8c32-70ba2aa73c88
+synonym	PANNCS_PCDC	PCDC	PANNCS	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	e7e5ae5d-04bb-5e3e-92a0-d5e3c47997db	cd63f7b8-2867-5437-a1a0-d65505a6aa1d
+synonym	PANNCS_USI	USI	PANNCS	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	baf3c65c-f2e7-5d24-af6c-2f3f5b10746e	cd63f7b8-2867-5437-a1a0-d65505a6aa1d
+synonym	PASZEU_PCDC	PCDC	PASZEU	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	ca211f18-c13d-5991-b669-db1741ab877f	13ce2a21-242f-5c4b-a6a2-13f5f3cd768a
+synonym	PASZEU_USI	USI	PASZEU	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	72ca575b-c975-5322-b41d-faac6a7b23fc	13ce2a21-242f-5c4b-a6a2-13f5f3cd768a
+synonym	pt-779rrcmq_KidsFirst	KidsFirst	pt-779rrcmq	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	534682ac-0b3c-57d2-9d38-85c00ca7fd55	13ce2a21-242f-5c4b-a6a2-13f5f3cd768a
+synonym	PAPYLE_PCDC	PCDC	PAPYLE	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	58b34bc5-d010-5ea9-9407-11df83a2cca1	73ee0180-4d6a-5d59-8057-9b3d5ce74208
+synonym	PAPYLE_USI	USI	PAPYLE	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	35267bc7-7df4-5134-9149-c3f8ce92d105	73ee0180-4d6a-5d59-8057-9b3d5ce74208
+synonym	PATSLK_PCDC	PCDC	PATSLK	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	f2145501-2523-5809-9ea4-b86d14b780a7	b0a59e30-3cda-5cbf-b854-bb9e3a103b65
+synonym	PATSLK_USI	USI	PATSLK	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	f10d8b04-42bc-5f1d-b3e0-9dab1e9c5f99	b0a59e30-3cda-5cbf-b854-bb9e3a103b65
+synonym	PATVLS_USI	USI	PATVLS	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	f2b4765e-ee7e-50c1-bcc2-4c56eb708a37	6bff01ae-cc68-5c1e-b16f-64f092cebb9c
+synonym	pt-awdk0rev_KidsFirst	KidsFirst	pt-awdk0rev	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	99505068-88ef-562f-acaf-814f8bc9c01f	6bff01ae-cc68-5c1e-b16f-64f092cebb9c
+synonym	PAUXAW_USI	USI	PAUXAW	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	d081d89b-e885-54f6-ae3e-3c3011293e6a	79e3e061-3a0b-559c-9bb7-a43b0ce6fc91
+synonym	PATKBG_USI	USI	PATKBG	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	31cc450e-ced7-5e7b-b20b-d9c99c950850	d395ae5c-2c30-5a6b-b03d-104899fb51d3
+synonym	pt-3a9t5dhp_KidsFirst	KidsFirst	pt-3a9t5dhp	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	919d56f7-87f5-57d1-a5d8-ca9150808027	d395ae5c-2c30-5a6b-b03d-104899fb51d3
+synonym	PAVAHF_USI	USI	PAVAHF	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	f837fd64-bbca-59e0-805b-250f3a71d1ca	3c14cad1-9e4c-5adc-95d4-d26efc4c70c9
+synonym	PAVHUU_PCDC	PCDC	PAVHUU	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	1d75e11d-d9b6-52c8-b6f6-e46b090d80e8	42a22bae-7bc2-5df3-913d-2b1aee079f23
+synonym	PAVHUU_USI	USI	PAVHUU	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	599604f9-2942-5176-ac7a-d8c67187108a	42a22bae-7bc2-5df3-913d-2b1aee079f23
+synonym	pt-8tpp9nzb_KidsFirst	KidsFirst	pt-8tpp9nzb	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	863d587c-ff5b-5f26-ab4f-2b7d62da99e8	42a22bae-7bc2-5df3-913d-2b1aee079f23
+synonym	PAUKHP_PCDC	PCDC	PAUKHP	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	fd90dc7f-ebf7-51d0-a0fe-8626bd062cf4	e7546362-6426-5919-aac0-355679c44ac3
+synonym	PAUKHP_USI	USI	PAUKHP	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	4d9814e9-d11d-5b30-8bf2-750ffb08c863	e7546362-6426-5919-aac0-355679c44ac3
+synonym	pt-dqhctpht_KidsFirst	KidsFirst	pt-dqhctpht	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	fac0dd4c-0137-559b-9a39-eef73f906f8e	e7546362-6426-5919-aac0-355679c44ac3
+synonym	PAMZUH_PCDC	PCDC	PAMZUH	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	993b6fe6-ea52-5ba7-8850-ac04c02689fd	7d3ab99f-6a8a-57f8-a117-d1f176bf6d52
+synonym	PAMZUH_USI	USI	PAMZUH	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	33037354-64ec-546f-a1da-03a6fef161dd	7d3ab99f-6a8a-57f8-a117-d1f176bf6d52
+synonym	PAWKDJ_USI	USI	PAWKDJ	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	29284a17-aa05-5603-b4de-8c1b214d1244	953ea216-2ddf-5101-aa57-40a917478a9d
+synonym	PAWEJL_USI	USI	PAWEJL	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	0ee9c55a-4d02-5315-8d53-157b33d90e5b	cf9d2b6a-db8f-5de2-b1dc-ef3182fa72e6
+synonym	pt-72y4mzhz_KidsFirst	KidsFirst	pt-72y4mzhz	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	54e8bd56-db66-5918-8d71-f0eb56912784	cf9d2b6a-db8f-5de2-b1dc-ef3182fa72e6
+synonym	PATDZG_USI	USI	PATDZG	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	68b763cf-aa28-561e-bac0-c744ac6b759a	816287c8-1f42-54c6-9d90-fb1db142b60c
+synonym	PAUAKZ_PCDC	PCDC	PAUAKZ	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	aa734291-ce61-59ff-9ca5-97880585c872	ea6dfaa3-3140-5ec8-b919-b4d4c15fc12c
+synonym	PAUAKZ_USI	USI	PAUAKZ	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	e5a6ba06-ab37-5299-abe6-3d5ed77876a5	ea6dfaa3-3140-5ec8-b919-b4d4c15fc12c
+synonym	pt-54n2gccj_KidsFirst	KidsFirst	pt-54n2gccj	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	57e9c435-6939-578b-b98a-e77c160df9c4	ea6dfaa3-3140-5ec8-b919-b4d4c15fc12c
+synonym	PAURAJ_PCDC	PCDC	PAURAJ	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	90825fd1-aa1a-505e-bb78-b1a49058d833	a8258ffc-ad14-5480-b4f0-c562c275dd78
+synonym	PAURAJ_USI	USI	PAURAJ	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	9d0a0a7f-2e89-55df-9733-2d0eec9a5727	a8258ffc-ad14-5480-b4f0-c562c275dd78
+synonym	pt-cby00xw3_KidsFirst	KidsFirst	pt-cby00xw3	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	9cc2fa2c-41dd-54da-99eb-3faa3949496d	a8258ffc-ad14-5480-b4f0-c562c275dd78
+synonym	PARFXM_PCDC	PCDC	PARFXM	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	11f0539e-27bb-5689-8995-95cc90fb0191	632cd8cd-b8b4-505e-82bd-883e8ede6b04
+synonym	PARFXM_USI	USI	PARFXM	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	183953c2-8883-5b81-84b1-b51b31ff5eec	632cd8cd-b8b4-505e-82bd-883e8ede6b04
+synonym	PANBXB_PCDC	PCDC	PANBXB	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	6f3b2d86-88ba-5abc-be2b-38749d357d3d	81a0d7ac-4ded-56be-a370-9f60d53284c9
+synonym	PANBXB_USI	USI	PANBXB	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	92027252-bb68-581c-9413-8bac1ecae4da	81a0d7ac-4ded-56be-a370-9f60d53284c9
+synonym	PAUSIU_PCDC	PCDC	PAUSIU	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	b9ee4240-d980-51b5-9745-64bcc7624220	eabb7187-6a2c-5977-a17e-c852b0b03d74
+synonym	PAUSIU_USI	USI	PAUSIU	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	8f177304-8049-5052-8f7b-f0593be46dda	eabb7187-6a2c-5977-a17e-c852b0b03d74
+synonym	PALBLT_PCDC	PCDC	PALBLT	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	d24a566d-8d18-5c66-8421-3d705ecff59a	2b6f83b2-f4c7-52c3-bfe6-ac959e474516
+synonym	PALBLT_USI	USI	PALBLT	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	39797a72-7ca2-5d9e-a81f-a0bf1a9b8425	2b6f83b2-f4c7-52c3-bfe6-ac959e474516
+synonym	PATWRT_USI	USI	PATWRT	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	3e9ea45d-3ea4-541d-a968-ff29da4562fc	70b7ebf7-3123-572d-b30a-b62adda063e7
+synonym	pt-kw9fdg5g_KidsFirst	KidsFirst	pt-kw9fdg5g	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	567286b4-2b87-5e4f-bd77-cd8a0efbcc50	70b7ebf7-3123-572d-b30a-b62adda063e7
+synonym	PASFPN_USI	USI	PASFPN	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	e8e36ec4-6927-53f5-83ba-c3694c211aa6	7431195a-50bb-591a-a10e-18819cf5674d
+synonym	PAVSPZ_USI	USI	PAVSPZ	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	d2e0cdc4-f998-54e8-966b-ce4f295f349b	110b92f9-95fd-5a45-8e5e-77e9ffc85e1a
+synonym	PASBZB_PCDC	PCDC	PASBZB	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	dc832e18-20f2-5e8a-943f-e1368c6c9505	b1a61e78-4225-523e-bcaf-b36ca24244f3
+synonym	PASBZB_USI	USI	PASBZB	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	ea6675a4-e1c4-5fbf-85cb-7e516661c330	b1a61e78-4225-523e-bcaf-b36ca24244f3
+synonym	PAVAVJ_PCDC	PCDC	PAVAVJ	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	cf5d181e-bd4b-5326-917f-b03a9b7b9e35	fae9534a-58e6-5cf9-8a66-4b60db662688
+synonym	PAVAVJ_USI	USI	PAVAVJ	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	f51f4d5c-1af6-51a1-aa70-b5e6ca84ab6f	fae9534a-58e6-5cf9-8a66-4b60db662688
+synonym	pt-rb605p5b_KidsFirst	KidsFirst	pt-rb605p5b	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	c0e3f691-f494-5b2c-b290-6ff121262572	fae9534a-58e6-5cf9-8a66-4b60db662688
+synonym	PARJVB_USI	USI	PARJVB	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	2e0a2ce7-e57a-50c9-9d5d-94a4330a5d41	19d45508-3c87-5ed3-9972-dfd654ccb59f
+synonym	PASXTY_PCDC	PCDC	PASXTY	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	23aa169a-6187-5300-858e-f909869d79a1	8086b7ef-b0a8-5ad4-8bee-2fb924ee1649
+synonym	PASXTY_USI	USI	PASXTY	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	ff58edc2-498b-5dbe-9322-59d017d00162	8086b7ef-b0a8-5ad4-8bee-2fb924ee1649
+synonym	PAUUFC_PCDC	PCDC	PAUUFC	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	9b96abec-87fe-5852-a3d9-165d6c33e724	98838f09-185e-5fb6-ad18-4233819c79f9
+synonym	PAUUFC_USI	USI	PAUUFC	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	a4c16cec-c398-5375-945f-a7a464f9e8da	98838f09-185e-5fb6-ad18-4233819c79f9
+synonym	pt-bjm0kne8_KidsFirst	KidsFirst	pt-bjm0kne8	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	9b2cf79f-03da-55a3-ac33-ffd491b45fae	98838f09-185e-5fb6-ad18-4233819c79f9
+synonym	PATDIG_USI	USI	PATDIG	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	f1d39a12-bb01-5cf4-a572-b471c586bc43	acd34b5a-06e1-5497-8947-62904d80a0d6
+synonym	PAWHDA_USI	USI	PAWHDA	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	f562e163-e456-51f6-9662-0ce0b1b1785c	c53d3f29-9a44-5ee8-af37-b91f32d0e314
+synonym	PAUSCH_USI	USI	PAUSCH	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	a4b25d0f-4187-5c20-9805-315c046238b6	1ca7bbbe-6754-5e5d-a1e2-93f5bd8a6246
+synonym	PASEDI_USI	USI	PASEDI	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	be56d14a-06f5-50fa-b7da-79f95391d5f1	d9dfc8a3-d1c7-52b6-a1f9-1c9fad94be35
+synonym	PARNED_PCDC	PCDC	PARNED	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	62510d5e-52d1-568e-a752-6792da281c87	d81870ed-1198-5697-af9c-654336392e5e
+synonym	PARNED_USI	USI	PARNED	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	99a6df82-2763-5f0d-a7f2-3d65d8cd3c6d	d81870ed-1198-5697-af9c-654336392e5e
+synonym	PAVTKW_USI	USI	PAVTKW	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	038cc3a1-931f-58ed-a458-5b84ec1e0afb	452633b0-6d93-57fd-b457-11e556304caf
+synonym	PATLTX_PCDC	PCDC	PATLTX	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	12373c40-709c-5a88-ab89-6a532ed3e1dc	90644988-106f-5811-adb4-ae3fd122f353
+synonym	PATLTX_USI	USI	PATLTX	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	8093636c-968f-518c-80bd-985233d39bf3	90644988-106f-5811-adb4-ae3fd122f353
+synonym	PATDZX_PCDC	PCDC	PATDZX	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	d9726558-689c-59f0-b42b-53b9c728cfcd	950d57fc-839d-537a-92fc-7689df4b9a18
+synonym	PATDZX_USI	USI	PATDZX	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	715f0b8a-ffd0-5352-86fe-1c3ca97cf100	950d57fc-839d-537a-92fc-7689df4b9a18
+synonym	pt-3cvmxpnq_KidsFirst	KidsFirst	pt-3cvmxpnq	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	a00c7ab1-8d6b-5086-a08e-99e90fb75716	950d57fc-839d-537a-92fc-7689df4b9a18
+synonym	PAPMWE_USI	USI	PAPMWE	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	3e0e9072-aa5c-5c47-a69e-1ed80e3383c5	19e5b2a9-4a93-58f1-9166-c626170ec8d8
+synonym	PARTEW_PCDC	PCDC	PARTEW	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	0cd74560-68cc-550f-885b-5e0c0dbf8456	5e5f43c6-3989-5ae9-b698-b2c86a87f0b2
+synonym	PARTEW_USI	USI	PARTEW	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	24bb7031-0dd7-587a-b3c1-b31e5682525f	5e5f43c6-3989-5ae9-b698-b2c86a87f0b2
+synonym	PAKZRD_PCDC	PCDC	PAKZRD	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	bfd59471-ddf5-5a2a-896d-0f4d983eaee2	6f5024b8-047f-5db7-92a7-0ef513f6a868
+synonym	PAKZRD_USI	USI	PAKZRD	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	270418f2-ac3e-5860-8f38-0977257f209a	6f5024b8-047f-5db7-92a7-0ef513f6a868
+synonym	PAMYPI_PCDC	PCDC	PAMYPI	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	b22fa89b-c9b7-5f73-a7c2-f824c7e2f12f	fbaed2e0-61be-5fd5-af1a-803769fc6007
+synonym	PAMYPI_USI	USI	PAMYPI	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	9af82b7e-8267-57f6-bab1-3419202d331a	fbaed2e0-61be-5fd5-af1a-803769fc6007
+synonym	pt-kb0ts6br_KidsFirst	KidsFirst	pt-kb0ts6br	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	bfa2b0ba-b381-551f-b134-ae7d35285d75	fbaed2e0-61be-5fd5-af1a-803769fc6007
+synonym	PAUJJR_PCDC	PCDC	PAUJJR	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	6bdfef7d-2152-5e7e-bea0-db58a8d9e8b5	d2938705-daa1-5373-affd-82a62cd0727b
+synonym	PAUJJR_USI	USI	PAUJJR	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	d04a45c1-9e3d-53c8-8adc-2f1782a4bb72	d2938705-daa1-5373-affd-82a62cd0727b
+synonym	PATJUF_PCDC	PCDC	PATJUF	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	3b7bcf34-4e44-523e-94e7-6d379bf18453	07379c12-cece-52bc-b433-adf3d25ef64e
+synonym	PATJUF_USI	USI	PATJUF	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	afa10076-d6dc-5e2d-9816-3d412b389664	07379c12-cece-52bc-b433-adf3d25ef64e
+synonym	pt-26yj5n2f_KidsFirst	KidsFirst	pt-26yj5n2f	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	ce0665d8-1777-57a7-9692-6a6fc67ce445	07379c12-cece-52bc-b433-adf3d25ef64e
+synonym	PAUKJG_USI	USI	PAUKJG	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	286b009e-05b5-5b03-9e67-aec95ecc5848	a0f83cd6-07da-577d-ba6c-f5a8dffbe30f
+synonym	pt-28625kfm_KidsFirst	KidsFirst	pt-28625kfm	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	b616179b-224b-59fa-ace5-996125a20880	a0f83cd6-07da-577d-ba6c-f5a8dffbe30f
+synonym	PAIZZZ_PCDC	PCDC	PAIZZZ	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	401dcc65-4a72-59c8-8f5c-1e340e9d427b	0294f0d1-fd98-5313-9f3b-6c0c5a0fe31f
+synonym	PAIZZZ_USI	USI	PAIZZZ	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	d8746f4a-da61-52eb-a202-2646b452ec51	0294f0d1-fd98-5313-9f3b-6c0c5a0fe31f
+synonym	PAUFPI_PCDC	PCDC	PAUFPI	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	20a6109f-caf9-5d59-9cc7-1810c5fd3f80	e4e24739-75e2-5ff2-be28-7d7054505e8b
+synonym	PAUFPI_USI	USI	PAUFPI	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	a7dc059a-c347-5f08-822e-c8feb18f2eef	e4e24739-75e2-5ff2-be28-7d7054505e8b
+synonym	pt-y2zfef0z_KidsFirst	KidsFirst	pt-y2zfef0z	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	ba72623a-6f93-530c-a1c2-6131aa70affe	e4e24739-75e2-5ff2-be28-7d7054505e8b
+synonym	PAPXHD_USI	USI	PAPXHD	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	a73d4b87-3d51-58d9-a60f-5b6778e49803	d1ecf6f9-89cc-5d6e-b921-33e574bda616
+synonym	PASMPK_PCDC	PCDC	PASMPK	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	7024e75c-0713-558d-9616-13a21e365350	bc7818d8-3f11-54e3-aed6-198d31ddff11
+synonym	PASMPK_USI	USI	PASMPK	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	63dc8ccf-2245-5af2-a8bf-c072e94d3bcd	bc7818d8-3f11-54e3-aed6-198d31ddff11
+synonym	PAVAZS_USI	USI	PAVAZS	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	c9b78934-9f66-5a38-bae8-15c1559f98de	b515dd89-ce0b-52f5-92d8-db28f64c6ba1
+synonym	pt-8p8b0c30_KidsFirst	KidsFirst	pt-8p8b0c30	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	c5646bff-3c36-51f5-8291-a4f069b31a90	b515dd89-ce0b-52f5-92d8-db28f64c6ba1
+synonym	PAWWNV_USI	USI	PAWWNV	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	69b2afa7-b980-572a-bd7a-75db7dc2377e	ceb0367d-329f-5a55-80c8-1ec226954417
+synonym	PAUXEA_PCDC	PCDC	PAUXEA	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	07d0da9c-304c-52a3-a745-e598b200b4d9	39cfb339-42a5-5db3-accc-608b1dda9c40
+synonym	PAUXEA_USI	USI	PAUXEA	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	11d1d967-e01b-559d-b731-2ca93d383917	39cfb339-42a5-5db3-accc-608b1dda9c40
+synonym	PAWXFU_USI	USI	PAWXFU	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	721c9109-4efc-5523-be2f-dac9084a544a	261aa804-fcba-5514-8a2b-f4dfd2f5ec50
+synonym	pt-q8wyhkhc_KidsFirst	KidsFirst	pt-q8wyhkhc	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	ac839716-f6ac-5ab7-8927-ea0a5951b821	261aa804-fcba-5514-8a2b-f4dfd2f5ec50
+synonym	PARPEI_PCDC	PCDC	PARPEI	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	8bfa46f8-85c0-56d9-b623-2e910ff81bbe	cf4da89f-5b3a-53f0-8e7b-82c336d76efa
+synonym	PARPEI_USI	USI	PARPEI	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	ae47d588-974d-5668-9d6e-1e43c0aea5b7	cf4da89f-5b3a-53f0-8e7b-82c336d76efa
+synonym	PAVCTB_USI	USI	PAVCTB	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	498db053-f0fe-525e-b106-e8be749c0c4f	5cd6550a-7c41-5f53-bc68-ece4ff0448c2
+synonym	PAUNHP_PCDC	PCDC	PAUNHP	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	fef86134-7593-5a18-a36d-ea62156ddc2b	a73c0577-52ba-5846-ba1f-0c6a565793c3
+synonym	PAUNHP_USI	USI	PAUNHP	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	fb59d07d-8e35-5ce2-a1ed-e3b99c90793a	a73c0577-52ba-5846-ba1f-0c6a565793c3
+synonym	pt-afcvp215_KidsFirst	KidsFirst	pt-afcvp215	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	fb7f8a96-43d6-5a6d-ae9c-91acd6bceea9	a73c0577-52ba-5846-ba1f-0c6a565793c3
+synonym	PAUKNM_PCDC	PCDC	PAUKNM	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	0e31735d-b3db-56c2-8339-030e9a53382a	5327b45c-e016-56bc-a0d9-61ac10d6c044
+synonym	PAUKNM_USI	USI	PAUKNM	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	e5211c75-21f9-5e74-bdb3-98a275d6c672	5327b45c-e016-56bc-a0d9-61ac10d6c044
+synonym	PARYJE_USI	USI	PARYJE	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	c6ec08c5-051f-5570-b612-1cc76d8fe690	3a5a6de9-cf47-5963-af54-357baf4d17ab
+synonym	pt-9271z32j_KidsFirst	KidsFirst	pt-9271z32j	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	8d425e34-e153-5cf1-a656-cd247280119b	3a5a6de9-cf47-5963-af54-357baf4d17ab
+synonym	PAUBIR_PCDC	PCDC	PAUBIR	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	27c95313-25d2-55b9-841b-e5f77c0a2c44	0a6e8a32-328e-5b2d-b413-16750ba8a1ad
+synonym	PAUBIR_USI	USI	PAUBIR	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	99a9a37a-0cce-5b83-a12a-1fd065393712	0a6e8a32-328e-5b2d-b413-16750ba8a1ad
+synonym	PATJHZ_PCDC	PCDC	PATJHZ	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	43f2ea3f-a96f-5211-9fdd-a19647415a12	07a84eaf-4f69-5163-8aa4-2d75d73ff850
+synonym	PATJHZ_USI	USI	PATJHZ	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	96d01984-ac1c-5aa8-9aa1-cd84722ab1a2	07a84eaf-4f69-5163-8aa4-2d75d73ff850
+synonym	PARFTT_PCDC	PCDC	PARFTT	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	a168fbed-f866-5cca-aa76-ec228823c304	f22de0c0-1757-5801-b3bb-d1a78df75a11
+synonym	PARFTT_USI	USI	PARFTT	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	f3da77a6-861b-5af0-9556-ef8255a0dbd0	f22de0c0-1757-5801-b3bb-d1a78df75a11
+synonym	PAUKPD_PCDC	PCDC	PAUKPD	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	23f7e8bc-0716-597f-8f7b-fedf14ac42f3	ef7b80d0-3712-5301-bed6-4b2f3021c528
+synonym	PAUKPD_USI	USI	PAUKPD	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	c8fc498b-6eab-56c5-af47-3c0ce74bfce4	ef7b80d0-3712-5301-bed6-4b2f3021c528
+synonym	PAUXVX_USI	USI	PAUXVX	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	2cf21d92-a70d-56d7-a5b1-63274d243b8e	448ab307-724e-5904-bd42-c1d4abb6e23f
+synonym	pt-e4y1naks_KidsFirst	KidsFirst	pt-e4y1naks	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	3008b2a3-c84e-5b90-8d47-d6a7c3ca43d8	448ab307-724e-5904-bd42-c1d4abb6e23f
+synonym	PATRYN_USI	USI	PATRYN	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	d2712a88-9073-5123-95e5-f2261e0a0a97	2c3a7ec4-fd9c-59f0-8e40-3771da745f7f
+synonym	PARHZT_PCDC	PCDC	PARHZT	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	b3c1a521-55db-5873-b31b-4ae8592ced15	c1da89ad-c56b-5663-8703-417267fe1245
+synonym	PARHZT_USI	USI	PARHZT	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	8b0b39c7-dbc8-5d8b-a04e-587528bd4645	c1da89ad-c56b-5663-8703-417267fe1245
+synonym	PAUXEV_USI	USI	PAUXEV	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	469000f6-9cca-557f-90c0-bdfb7b7a23b1	0a02f125-f885-5c8e-9f35-a51cf0f83bd9
+synonym	PAKTYJ_PCDC	PCDC	PAKTYJ	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	8af1f615-4a99-5baf-90cd-89f4a4ed57c2	36342382-861f-5b97-ae19-863e73001966
+synonym	PAKTYJ_USI	USI	PAKTYJ	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	239475c0-29ff-5ca3-8d18-f830fef96314	36342382-861f-5b97-ae19-863e73001966
+synonym	PAVZVD_USI	USI	PAVZVD	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	67418e61-de32-543e-813b-8185d98edcc9	52fde903-5f9c-5a9c-ad0c-b56904af373a
+synonym	PAUWXU_PCDC	PCDC	PAUWXU	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	05bc35a9-a75d-5957-ab36-92821dd11b00	c7cb604d-8be0-5a03-a023-715f1a6f4591
+synonym	PAUWXU_USI	USI	PAUWXU	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	f6a06fa6-a992-5672-aa6e-a668f0e1f8ed	c7cb604d-8be0-5a03-a023-715f1a6f4591
+synonym	PAUFYP_PCDC	PCDC	PAUFYP	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	87b6f0d5-7815-514d-99a5-a4b079c9fe57	5eda56d3-5da0-5222-abeb-cd2a0027026d
+synonym	PAUFYP_USI	USI	PAUFYP	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	efbc5f72-fb23-553a-86db-37e481093ed5	5eda56d3-5da0-5222-abeb-cd2a0027026d
+synonym	PASJIW_USI	USI	PASJIW	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	bdb9958d-c4ec-5857-a114-a3b9bbd1b76a	6c547ec2-3e3f-5623-b6d0-73993ce9d5a4
+synonym	PAUBJN_USI	USI	PAUBJN	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	edaa2721-ec56-5e83-b449-233dec8ee2a7	40423dad-d811-5631-85f3-70f401eba1dd
+synonym	pt-za7mgz87_KidsFirst	KidsFirst	pt-za7mgz87	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	c699616b-239f-5d94-8bf9-3cc38169593f	40423dad-d811-5631-85f3-70f401eba1dd
+synonym	PAUSVD_PCDC	PCDC	PAUSVD	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	ec1c0507-3b82-5239-9a26-1e3217c31519	48679314-54fb-592d-91ab-66d28b17cb05
+synonym	PAUSVD_USI	USI	PAUSVD	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	2b27bd31-ece2-57dc-a3a5-bf15e8cb42d4	48679314-54fb-592d-91ab-66d28b17cb05
+synonym	pt-06a2x201_KidsFirst	KidsFirst	pt-06a2x201	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	348fb303-0862-5211-b59d-941945c1b5f6	48679314-54fb-592d-91ab-66d28b17cb05
+synonym	PATLYX_PCDC	PCDC	PATLYX	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	3f52dfbe-1e72-502c-8657-eec2c702680c	e4ac079d-e187-5607-a887-d061f8d06005
+synonym	PATLYX_USI	USI	PATLYX	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	09052cd8-b1c6-5183-bba6-8b0c9524d9df	e4ac079d-e187-5607-a887-d061f8d06005
+synonym	PAUMHN_USI	USI	PAUMHN	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	5d910623-341a-5452-895a-b2b35ded6f12	b503ad0b-1c63-54f0-a7fb-74cef07c01c2
+synonym	PASKFT_USI	USI	PASKFT	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	cf62cd91-f90e-5b9f-9c38-2df4a95a1f7c	cb60a8c0-d881-52f7-a2a2-0d80c6a5dfd8
+synonym	pt-4aayv6w4_KidsFirst	KidsFirst	pt-4aayv6w4	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	ffd23b8d-e52f-52d2-9322-fa58a0557348	cb60a8c0-d881-52f7-a2a2-0d80c6a5dfd8
+synonym	PANSLZ_PCDC	PCDC	PANSLZ	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	315b253b-fb4f-511f-a8e8-0ccb60998295	6283fe85-ee4b-5bc8-9210-1fe1cba39773
+synonym	PANSLZ_USI	USI	PANSLZ	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	8ca26d2a-59f1-58c1-8761-7bbac6ce0ec9	6283fe85-ee4b-5bc8-9210-1fe1cba39773
+synonym	PAVWUW_USI	USI	PAVWUW	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	7e8341ac-f4eb-58a6-b8ff-93938857b074	1f9fb139-6c35-5fc8-b851-18a2ec265201
+synonym	pt-x5pssfv2_KidsFirst	KidsFirst	pt-x5pssfv2	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	f47c9c51-fd26-5579-b8a0-1abf721084cc	1f9fb139-6c35-5fc8-b851-18a2ec265201
+synonym	PASDYC_USI	USI	PASDYC	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	d4bc561d-8bc5-55fd-9b1c-5a7d8b340cc0	d387ae6a-7d28-5d5c-b075-0d684d6f34b1
+synonym	PBCLYI_USI	USI	PBCLYI	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	129ede8e-a2ea-5004-937e-5fc4b2e9a028	d387ae6a-7d28-5d5c-b075-0d684d6f34b1
+synonym	PASYIZ_USI	USI	PASYIZ	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	526d882a-afff-5b44-9905-3a796a5d2160	d866f268-a074-5f9d-ba79-b7f51c87f912
+synonym	pt-rv4g2rh4_KidsFirst	KidsFirst	pt-rv4g2rh4	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	6517cb01-4d66-57f5-99e1-06f922240f06	d866f268-a074-5f9d-ba79-b7f51c87f912
+synonym	PARKEV_PCDC	PCDC	PARKEV	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	e33f6b34-c0e8-54bf-8930-e2ceaa02c41c	d50d9523-ec20-5dad-a0f0-cc8b4ed77205
+synonym	PARKEV_USI	USI	PARKEV	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	0fc71652-65c7-5bfb-b02e-31c48c6f2437	d50d9523-ec20-5dad-a0f0-cc8b4ed77205
+synonym	PAJALK_PCDC	PCDC	PAJALK	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	13d51667-ee7c-5688-8eb2-a5af4e436da6	513e67c0-77e4-5616-8c4e-66891f082a6a
+synonym	PAJALK_USI	USI	PAJALK	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	23d02df1-5a68-5ecf-a926-ebbcfdc83d0d	513e67c0-77e4-5616-8c4e-66891f082a6a
+synonym	pt-wa2gvwc0_KidsFirst	KidsFirst	pt-wa2gvwc0	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	d401bc6e-851f-5fb7-a2d3-c741568fdbe9	513e67c0-77e4-5616-8c4e-66891f082a6a
+synonym	PASLCB_USI	USI	PASLCB	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	92cf2df4-d7c9-54bd-a345-3761f7ff1d95	12bb8fb2-f54c-53ea-91ee-2dae9282e904
+synonym	PAUEHI_PCDC	PCDC	PAUEHI	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	d56ebf05-5841-5f23-84a2-4207269c998e	ef1fc577-d8a3-551d-adcf-a92be055780b
+synonym	PAUEHI_USI	USI	PAUEHI	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	43cec5e9-8ad4-50e9-ae69-a0faf9923aff	ef1fc577-d8a3-551d-adcf-a92be055780b
+synonym	pt-8j05hpcm_KidsFirst	KidsFirst	pt-8j05hpcm	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	d4321e69-c46c-53b3-8da7-71847fc32725	ef1fc577-d8a3-551d-adcf-a92be055780b
+synonym	PANRUT_PCDC	PCDC	PANRUT	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	9b71bd81-8897-531c-876b-5372eab136ac	a5c33d51-de57-5519-bbc3-63b2a0dc1c6f
+synonym	PANRUT_USI	USI	PANRUT	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	62dc0972-8c40-510d-807f-3513b842035f	a5c33d51-de57-5519-bbc3-63b2a0dc1c6f
+synonym	PAWRJF_USI	USI	PAWRJF	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	b140f691-ded9-55da-8674-5054339fb9fe	5590874e-189b-5cfd-a0cc-9d5bc3a23f37
+synonym	PAPJAD_USI	USI	PAPJAD	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	ade9790a-1403-5b08-b4bf-e3a9cc22a919	31b0f2ac-1781-5ee1-b3dd-12b4858ba65d
+synonym	PARBRH_PCDC	PCDC	PARBRH	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	0f3aa62a-01ae-5fe3-94fe-24c10cc27368	65a5ace5-7a5c-57c0-bb9e-e019ae369ec5
+synonym	PARBRH_USI	USI	PARBRH	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	dcc1df99-106c-5ccc-a1c4-e72eba946509	65a5ace5-7a5c-57c0-bb9e-e019ae369ec5
+synonym	pt-ank6ztm9_KidsFirst	KidsFirst	pt-ank6ztm9	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	1150de26-4cf6-5b3a-a955-3b3aa10fc4d8	65a5ace5-7a5c-57c0-bb9e-e019ae369ec5
+synonym	PAVBWN_PCDC	PCDC	PAVBWN	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	6698efd9-43f9-5252-aac6-5157859af9fb	26ecb3b0-4d96-561a-9970-6e65157ba396
+synonym	PAVBWN_USI	USI	PAVBWN	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	73b4bd2e-2514-57f6-8be8-fcdfc1808e6f	26ecb3b0-4d96-561a-9970-6e65157ba396
+synonym	PARNVT_PCDC	PCDC	PARNVT	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	dbcd9b79-e65a-5270-8b13-b39e0125215e	30cc7700-7c51-516a-8586-9d95734fc097
+synonym	PARNVT_USI	USI	PARNVT	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	5581526a-dadd-5719-a058-c55e0da52c0e	30cc7700-7c51-516a-8586-9d95734fc097
+synonym	PAULZG_PCDC	PCDC	PAULZG	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	7b9551af-d06e-55da-b725-7ff95b00b0f9	0802feaf-cc74-5dd8-8b0a-950aca0cac52
+synonym	PAULZG_USI	USI	PAULZG	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	2bd6a700-1d61-54e9-9498-868ae8acb30a	0802feaf-cc74-5dd8-8b0a-950aca0cac52
+synonym	PATZHV_PCDC	PCDC	PATZHV	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	b9525294-4965-51e7-ba22-3fd1b66e97fa	d83b1abc-e308-5ca2-8e51-3a19789a5ee9
+synonym	PATZHV_USI	USI	PATZHV	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	4eab2aeb-97d6-599c-9e2f-300430bc31cb	d83b1abc-e308-5ca2-8e51-3a19789a5ee9
+synonym	PAUSSC_PCDC	PCDC	PAUSSC	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	ff7bf8bc-1146-5edf-8c47-7f438ba18b2d	b10f3e4e-4df6-53a0-acb9-9ca39bd1e962
+synonym	PAUSSC_USI	USI	PAUSSC	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	76b86c4e-093c-5ed6-95cd-cb7bfe04251d	b10f3e4e-4df6-53a0-acb9-9ca39bd1e962
+synonym	PASDRI_PCDC	PCDC	PASDRI	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	a9f3c9e2-db31-55ab-abe9-f3dbfe99c293	a5778d51-0143-5d1c-9cab-9610713d7104
+synonym	PASDRI_USI	USI	PASDRI	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	644e6579-ff87-588e-836f-f4e8b909c641	a5778d51-0143-5d1c-9cab-9610713d7104
+synonym	PARTAZ_USI	USI	PARTAZ	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	24d0eece-ee60-5c58-b752-ba7593fb649d	e0decd4a-99a9-5539-b88d-485136589be5
+synonym	PATNPC_PCDC	PCDC	PATNPC	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	e5e0d7e6-b674-5114-85a3-e32d077bc28d	be76f81f-a1d5-5926-8fa8-cad21093b4c1
+synonym	PATNPC_USI	USI	PATNPC	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	4d39bf53-145f-526c-85c8-439b3145dc16	be76f81f-a1d5-5926-8fa8-cad21093b4c1
+synonym	pt-cdfjz7t7_KidsFirst	KidsFirst	pt-cdfjz7t7	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	ba58307c-beb1-52e3-86d4-2f189f30844c	be76f81f-a1d5-5926-8fa8-cad21093b4c1
+synonym	PATBYY_USI	USI	PATBYY	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	e027052c-a290-5d95-892c-79cc9162b523	884e8a68-465a-5c7e-827c-ca0c9e5e6a19
+synonym	pt-gnxkwaqp_KidsFirst	KidsFirst	pt-gnxkwaqp	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	d916ad91-6f4b-5b38-8f20-9aee542371a0	884e8a68-465a-5c7e-827c-ca0c9e5e6a19
+synonym	PALWZD_USI	USI	PALWZD	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	684df976-430b-5a2f-ba76-23f5789511f6	89dc47da-eae1-5fed-9994-5e65e8564f94
+synonym	pt-ry6x9m6z_KidsFirst	KidsFirst	pt-ry6x9m6z	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	fe36d075-9d21-5919-a363-50eca3a776af	89dc47da-eae1-5fed-9994-5e65e8564f94
+synonym	PASXXC_PCDC	PCDC	PASXXC	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	b723aac1-2096-5e4c-9d34-8f8e508639ee	a1578b76-064e-597c-a818-b03c883797cd
+synonym	PASXXC_USI	USI	PASXXC	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	ec99ddd8-7851-5dde-a51d-7379585bc50e	a1578b76-064e-597c-a818-b03c883797cd
+synonym	PAVUKF_USI	USI	PAVUKF	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	af692d8e-825f-5bf1-b8c1-33e13aa8fe01	00ad2525-2840-53c1-8386-317c47df30b4
+synonym	PASXRZ_PCDC	PCDC	PASXRZ	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	9f341c62-f91a-5c79-9a4c-44b66b5625cb	65fda74d-4844-565b-afbd-fd4442c58550
+synonym	PASXRZ_USI	USI	PASXRZ	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	25303e56-00c9-53b6-8e26-01b450162a45	65fda74d-4844-565b-afbd-fd4442c58550
+synonym	pt-tb1gzrt8_KidsFirst	KidsFirst	pt-tb1gzrt8	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	4f730c19-deb6-50b1-953f-f03fdfb9088f	65fda74d-4844-565b-afbd-fd4442c58550
+synonym	PATLBW_PCDC	PCDC	PATLBW	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	6a45b3bb-1f1d-5df7-8573-461e2e23fcac	9e03910b-4feb-5932-8b7b-b7182d91c3f8
+synonym	PATLBW_USI	USI	PATLBW	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	410f3709-8c57-5d30-a33c-32d44264cd3b	9e03910b-4feb-5932-8b7b-b7182d91c3f8
+synonym	PAPMGC_USI	USI	PAPMGC	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	68cb3915-d800-502f-813b-5f4457514168	c7384240-c60f-51b9-b4b3-f0ed3e6fc61a
+synonym	PARZJF_PCDC	PCDC	PARZJF	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	90f6d08c-4a73-5b73-b49c-e67b70cab246	844c0acc-7826-58af-a2da-c8516aa93676
+synonym	PARZJF_USI	USI	PARZJF	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	9b05f32b-0f8e-5fb0-9a5a-56a2b9239e9b	844c0acc-7826-58af-a2da-c8516aa93676
+synonym	PATXNW_PCDC	PCDC	PATXNW	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	28566847-11b9-57ba-9dcf-b0b3c55cc189	dffd4e58-6c97-557b-9576-8bf0dd511b4e
+synonym	PATXNW_USI	USI	PATXNW	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	4ca5a4d8-fd89-5782-9912-ce1c89ef1a39	dffd4e58-6c97-557b-9576-8bf0dd511b4e
+synonym	PASJPR_USI	USI	PASJPR	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	62ea8be6-b83b-5848-8fe3-ca1f33f5629b	6085cdf6-d7ce-51ea-ae95-47095c9c52f7
+synonym	PATBPM_PCDC	PCDC	PATBPM	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	50f9e868-e7fa-571a-9f9d-2151a494fafb	ec4c5fbd-ac63-5764-b946-9f00a857d1aa
+synonym	PATBPM_USI	USI	PATBPM	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	8c6d1e3a-702b-5f3c-910d-d71d9638e092	ec4c5fbd-ac63-5764-b946-9f00a857d1aa
+synonym	PAVBAZ_PCDC	PCDC	PAVBAZ	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	1c76203d-fc9c-5e3a-bbb2-d4c960428ebc	b0b8b71d-e9ba-5781-a1b6-fcdf7f0093c4
+synonym	PAVBAZ_USI	USI	PAVBAZ	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	782d2464-9efc-525c-948b-2227d35f822d	b0b8b71d-e9ba-5781-a1b6-fcdf7f0093c4
+synonym	PAPBGW_USI	USI	PAPBGW	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	e90af3a5-794d-5541-806e-b8b831b0a9b8	440684da-da45-5666-9970-4b8afc708a63
+synonym	PAVWXT_USI	USI	PAVWXT	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	62e545d7-38ad-5091-a6e7-32d60b341c9a	76ce1270-815c-5aec-8141-6aa71769b226
+synonym	pt-gfp404ep_KidsFirst	KidsFirst	pt-gfp404ep	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	208bd9b1-3612-5a1b-be52-ca83abe53445	76ce1270-815c-5aec-8141-6aa71769b226
+synonym	PAPXEN_USI	USI	PAPXEN	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	c4dbe73c-a5e4-569c-ab03-0f98639ed3b4	c453d033-1dda-5819-8b7b-c6a77c56a3a6
+synonym	PASNWB_PCDC	PCDC	PASNWB	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	5cb5c486-4628-5fc2-a0c7-6e9b0b918c88	dae8a56d-643d-575a-8b1a-6ef93578895c
+synonym	PASNWB_USI	USI	PASNWB	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	a7aa5c0b-f876-50d8-a84f-19408c958e56	dae8a56d-643d-575a-8b1a-6ef93578895c
+synonym	PATPAS_PCDC	PCDC	PATPAS	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	8188e462-718f-52e2-a59e-9d9a943d66d2	1bd9c6b5-d919-5006-9900-fcdf6b3680e5
+synonym	PATPAS_USI	USI	PATPAS	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	7e8fca46-b822-5f8a-b480-4756bdf7951f	1bd9c6b5-d919-5006-9900-fcdf6b3680e5
+synonym	pt-5jp6zek1_KidsFirst	KidsFirst	pt-5jp6zek1	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	7f25a384-b99d-5c7e-94be-865412acc92c	1bd9c6b5-d919-5006-9900-fcdf6b3680e5
+synonym	PAPZLW_PCDC	PCDC	PAPZLW	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	9e0b10eb-1246-5536-bddb-94b5fbcf0c67	fe1e8cdd-9400-510e-9edf-d6698587df6c
+synonym	PAPZLW_USI	USI	PAPZLW	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	6fc76acb-a5fd-57ef-8f93-4b6a21afa7e9	fe1e8cdd-9400-510e-9edf-d6698587df6c
+synonym	PAVSGG_USI	USI	PAVSGG	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	d9bc1740-5cd0-50ba-8e7e-102553521d44	c5fa500d-5098-58b3-a08c-631fcb72f6bd
+synonym	PATSHL_USI	USI	PATSHL	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	9fd6c136-0096-512a-b51b-781247736243	675a5b9d-7ea9-5cf8-a890-c76577cad3ab
+synonym	PAUCLD_USI	USI	PAUCLD	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	b3023611-1a8d-5cb8-b77f-53b167814a5f	458f6e24-76f2-58f9-a62e-3557735b83d2
+synonym	PATPDS_PCDC	PCDC	PATPDS	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	db3e3efa-69c6-51ab-a7f1-88ef1fb0bcc8	e3ccefe1-210e-5cc2-9ed6-7975655d60f2
+synonym	PATPDS_USI	USI	PATPDS	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	7dd01ff6-a86f-5e50-ae24-d0e65d247429	e3ccefe1-210e-5cc2-9ed6-7975655d60f2
+synonym	PAUBBY_PCDC	PCDC	PAUBBY	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	b5ee1155-dfc0-53ec-999d-b73c2ab5d96e	e99bdf52-af01-5dab-bf80-f5cd549b91b3
+synonym	PAUBBY_USI	USI	PAUBBY	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	b8033503-df63-5410-addd-4f710356ab01	e99bdf52-af01-5dab-bf80-f5cd549b91b3
+synonym	PASXRR_PCDC	PCDC	PASXRR	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	7dd63524-b94b-5d1b-8a8a-49d4b1428f34	710b51ef-ee0f-5d64-a321-b0b8893c8b5d
+synonym	PASXRR_USI	USI	PASXRR	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	31855d77-d0e8-5421-9b5a-e5c558ebd580	710b51ef-ee0f-5d64-a321-b0b8893c8b5d
+synonym	PASHJF_PCDC	PCDC	PASHJF	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	293b4c2c-f680-5db1-bb34-ecf7cb4819aa	36d83e5b-5364-55bf-b600-3e7fa520f967
+synonym	PASHJF_USI	USI	PASHJF	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	6cb3cd4a-04f6-5fe4-9eba-f4c42cbe5500	36d83e5b-5364-55bf-b600-3e7fa520f967
+synonym	pt-ynay8nvn_KidsFirst	KidsFirst	pt-ynay8nvn	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	69830905-09ff-5ada-9a88-920dd4798263	36d83e5b-5364-55bf-b600-3e7fa520f967
+synonym	PATNZF_USI	USI	PATNZF	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	a47922ca-7afc-5cc3-8a49-a42b2230ac66	da5626b7-1a6e-5458-bb13-79be5c9e907b
+synonym	PAPLYV_USI	USI	PAPLYV	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	ae714ba9-6b93-5be6-bc44-b639f3b7d104	180bb8f9-e53b-5f29-aadf-89255578fefb
+synonym	PAREVH_PCDC	PCDC	PAREVH	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	aa162e9d-b956-5386-bffb-c164486a809a	24d826d0-e9cc-5ed0-9093-f54d716c12fb
+synonym	PAREVH_USI	USI	PAREVH	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	c8dd7d28-435c-5393-bcb6-06bf98d939d0	24d826d0-e9cc-5ed0-9093-f54d716c12fb
+synonym	PARKWI_PCDC	PCDC	PARKWI	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	3311466d-4a3b-5d0d-a6cf-92a4a2a7d3e0	361594f8-ef87-5dfc-90ba-cf8a078f66cd
+synonym	PARKWI_USI	USI	PARKWI	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	f18c454c-aa23-5842-b041-1802bc38f935	361594f8-ef87-5dfc-90ba-cf8a078f66cd
+synonym	PAWGJV_USI	USI	PAWGJV	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	61b67627-7169-58e0-b07e-182067bf2215	9ce5994d-26e7-5cef-9d6f-d3fb0ff616f1
+synonym	pt-20wtcdfp_KidsFirst	KidsFirst	pt-20wtcdfp	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	656c29d8-0324-548e-819e-4afb6bce2b2d	9ce5994d-26e7-5cef-9d6f-d3fb0ff616f1
+synonym	PAWBTM_USI	USI	PAWBTM	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	a7bb0ee0-ed32-5103-b843-1a7ca1b3a26b	2a9af75a-9161-5465-a7d4-930e73e15df1
+synonym	pt-hg69rn2v_KidsFirst	KidsFirst	pt-hg69rn2v	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	d1ad2644-ba82-5342-98f3-05d2a6685566	2a9af75a-9161-5465-a7d4-930e73e15df1
+synonym	PAUJIX_USI	USI	PAUJIX	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	ab9a8b22-1e09-5c7e-84e7-51b5a53c5d3e	21efadbb-086a-5f5e-84ab-cbcf45891efc
+synonym	PAMSJL_USI	USI	PAMSJL	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	4052ab40-4618-5a78-82dd-5d143979b23e	208ef861-e2e9-5fd5-9ac7-c57c49ab0c8d
+synonym	PAPRFM_USI	USI	PAPRFM	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	dd8d1747-6102-5651-bf19-a466789668ca	af9d0dfe-3fb9-59fe-a305-0f7f81e7bb37
+synonym	pt-drbdg3c3_KidsFirst	KidsFirst	pt-drbdg3c3	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	5f489b31-e116-5a7d-930c-fa70a4d9d8e1	af9d0dfe-3fb9-59fe-a305-0f7f81e7bb37
+synonym	PAUKMC_PCDC	PCDC	PAUKMC	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	fa9ee7d4-0e74-5c7d-ac91-403a3c6639c2	64ec6f4b-d835-5f3b-b35b-5e7613d648fb
+synonym	PAUKMC_USI	USI	PAUKMC	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	1f4c3e90-415e-5d10-87e0-f491b71624f2	64ec6f4b-d835-5f3b-b35b-5e7613d648fb
+synonym	pt-hq8yctwc_KidsFirst	KidsFirst	pt-hq8yctwc	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	18275d7e-0f09-541e-8bf3-6acdcd31c991	64ec6f4b-d835-5f3b-b35b-5e7613d648fb
+synonym	PATWBI_USI	USI	PATWBI	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	24c2c26b-7299-5184-b367-26ee7bc9c56c	2cb7edf6-124d-5604-8690-46a27483bcf3
+synonym	PAUYKU_USI	USI	PAUYKU	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	119b4a5d-cbf7-51e8-91d4-d50a206d85c4	df4df967-9f3e-5976-b762-477c397f507c
+synonym	PAKREB_PCDC	PCDC	PAKREB	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	938db051-b6be-50dd-947a-669232956585	a6889051-5134-5c62-9d80-5a59a714d33c
+synonym	PAKREB_USI	USI	PAKREB	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	1798bca1-f0cb-5e48-9de2-096b4d75c9c5	a6889051-5134-5c62-9d80-5a59a714d33c
+synonym	PASSAT_PCDC	PCDC	PASSAT	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	d1f141ff-388e-5778-a46f-e5a4f7c5b4bd	33490b19-a33c-591c-94bb-d2f55e12e717
+synonym	PASSAT_USI	USI	PASSAT	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	012a5a17-552f-5705-a08c-68f3a257bd11	33490b19-a33c-591c-94bb-d2f55e12e717
+synonym	pt-4c7wpqbe_KidsFirst	KidsFirst	pt-4c7wpqbe	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	b86c6cdb-c495-56ac-874e-1fb3cd4cd9ed	33490b19-a33c-591c-94bb-d2f55e12e717
+synonym	PAVAFP_PCDC	PCDC	PAVAFP	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	a8447a2c-6e71-54a4-995e-35c746a763c5	0f799526-099b-52f1-9ea2-088830ff6489
+synonym	PAVAFP_USI	USI	PAVAFP	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	093dbc7e-0c74-55a0-be5b-56cd1a6dcdca	0f799526-099b-52f1-9ea2-088830ff6489
+synonym	pt-eqynkjnp_KidsFirst	KidsFirst	pt-eqynkjnp	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	9f8c5bc7-1e55-51bf-942b-cad17f8123ff	0f799526-099b-52f1-9ea2-088830ff6489
+synonym	PAUBRI_USI	USI	PAUBRI	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	8847b7b6-0e77-5526-891e-58d67968c2da	50f64d24-36b5-5908-992a-6eb31cf62a86
+synonym	pt-14j1ejdx_KidsFirst	KidsFirst	pt-14j1ejdx	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	ac28106d-dcda-54bf-b9f9-46757f127d12	50f64d24-36b5-5908-992a-6eb31cf62a86
+synonym	PALMPL_PCDC	PCDC	PALMPL	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	ed7bcbcc-ad76-5e76-bd52-1a868c3f8c5d	5b8f2377-7b75-5e35-96a4-37000908e5b6
+synonym	PALMPL_USI	USI	PALMPL	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	780cc9d2-c935-5899-9a35-3a79fa831000	5b8f2377-7b75-5e35-96a4-37000908e5b6
+synonym	PARIAG_PCDC	PCDC	PARIAG	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	703baf06-23bb-50b9-a7dd-0c3b8973a666	4da448e0-d118-53f7-aba5-32d4bd3ea242
+synonym	PARIAG_USI	USI	PARIAG	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	9fc79c8d-02c7-59fc-864b-789749fd03dd	4da448e0-d118-53f7-aba5-32d4bd3ea242
+synonym	PALWAA_USI	USI	PALWAA	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	e3e93f52-e161-5f27-8ba8-86a1364176c9	72a119f7-5bd1-5435-8ac5-9c7233f8bd06
+synonym	PASFWG_PCDC	PCDC	PASFWG	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	f316b59d-74f1-5b5b-bd79-78843602d512	626775d6-f34a-51c5-9d2a-0cdfc87ce05d
+synonym	PASFWG_USI	USI	PASFWG	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	def780eb-c04e-5245-a6bb-0eb69cd3e9bc	626775d6-f34a-51c5-9d2a-0cdfc87ce05d
+synonym	pt-e29v0nvc_KidsFirst	KidsFirst	pt-e29v0nvc	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	177a3312-5bc9-5f88-a1bb-fda6066d26bc	626775d6-f34a-51c5-9d2a-0cdfc87ce05d
+synonym	PANVPH_PCDC	PCDC	PANVPH	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	fc5550dd-da4e-5577-b74a-73ce3707d474	b6fee54b-2bdd-5a9b-85e9-44e037955152
+synonym	PANVPH_USI	USI	PANVPH	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	75ca918c-7a69-5c27-8cf1-2a671ee94262	b6fee54b-2bdd-5a9b-85e9-44e037955152
+synonym	PARLXP_PCDC	PCDC	PARLXP	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	b9c24f7c-21ef-5f15-9e65-4d4d9f3ef9db	87be851f-68a9-5bcb-b275-eca908fdbe0d
+synonym	PARLXP_USI	USI	PARLXP	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	872080c5-deb8-5b80-b1f6-4836aa9818dd	87be851f-68a9-5bcb-b275-eca908fdbe0d
+synonym	pt-kwmndvj6_KidsFirst	KidsFirst	pt-kwmndvj6	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	8443dc88-f821-5f37-bd7f-43672c5d177f	87be851f-68a9-5bcb-b275-eca908fdbe0d
+synonym	PAUGGZ_USI	USI	PAUGGZ	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	c620da23-e678-51ea-abe4-d5e466a47762	3ba5cd0b-32fb-589a-9ff4-e8ac02fd3a41
+synonym	PAUGRM_USI	USI	PAUGRM	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	2809779e-c0f8-5613-a47c-0770550baf6c	3ba5cd0b-32fb-589a-9ff4-e8ac02fd3a41
+synonym	PARVTP_PCDC	PCDC	PARVTP	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	8a55d59d-db81-575c-a212-66a8f63f7fcc	8ecfe6c6-4bcf-5293-82e3-df2c6dbc11fa
+synonym	PARVTP_USI	USI	PARVTP	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	14d5e8df-9f9f-5f13-86c1-633609f6ad34	8ecfe6c6-4bcf-5293-82e3-df2c6dbc11fa
+synonym	PARXLA_PCDC	PCDC	PARXLA	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	d45b79af-969c-5d13-b821-eeb62b95e676	5a8c3671-b001-5c71-a8e4-434271611458
+synonym	PARXLA_USI	USI	PARXLA	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	f03bf2ce-dbbc-53b4-93ed-7f337d0db3be	5a8c3671-b001-5c71-a8e4-434271611458
+synonym	PAUGAY_PCDC	PCDC	PAUGAY	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	0843b081-e645-57ba-b885-8ed8b8573b5f	d06498cf-6dfd-51bb-a1bd-e40abb8bc4de
+synonym	PAUGAY_USI	USI	PAUGAY	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	73f8819d-84b1-54da-ae7b-4b22886bace4	d06498cf-6dfd-51bb-a1bd-e40abb8bc4de
+synonym	pt-xyxnqw89_KidsFirst	KidsFirst	pt-xyxnqw89	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	c5f71aad-418f-5a6b-89c8-139140747d4a	d06498cf-6dfd-51bb-a1bd-e40abb8bc4de
+synonym	PASRNN_PCDC	PCDC	PASRNN	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	71b7b973-2308-5f00-803e-056eeee1ac54	d5c3b845-4a6b-50f0-afdb-484e88009a89
+synonym	PASRNN_USI	USI	PASRNN	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	f603ee06-98f1-57d3-a327-c1ce2e7c0c1f	d5c3b845-4a6b-50f0-afdb-484e88009a89
+synonym	pt-3p186vwk_KidsFirst	KidsFirst	pt-3p186vwk	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	73a350d6-4005-5f17-893c-6a3555eabd6a	d5c3b845-4a6b-50f0-afdb-484e88009a89
+synonym	PAUJZI_USI	USI	PAUJZI	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	ec9b8d59-436d-57bf-8694-5791ad7102fe	7b89ef3c-fe9c-516d-93af-4ebba49afa4d
+synonym	pt-cwfmyd15_KidsFirst	KidsFirst	pt-cwfmyd15	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	4fa50107-05e9-546d-8a82-2443052709d2	7b89ef3c-fe9c-516d-93af-4ebba49afa4d
+synonym	PAPSHJ_USI	USI	PAPSHJ	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	1259d4c7-3793-50b6-a6e4-14f299add595	2d93ba75-f97d-5295-8022-e6cb642ce3d1
+synonym	PAMTCY_PCDC	PCDC	PAMTCY	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	afee24d1-8e79-59e7-aec5-9d807c783e25	77933c0f-2690-5a2c-b494-86ffafb8143b
+synonym	PAMTCY_USI	USI	PAMTCY	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	149b7ee9-f9c3-5704-b82b-2b9ff68960ef	77933c0f-2690-5a2c-b494-86ffafb8143b
+synonym	PATSND_PCDC	PCDC	PATSND	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	8fb7b19c-2305-57d1-a74d-47b9c28bfa8a	4b6c8bb9-5c38-5ce8-b8d0-1374c16f6c98
+synonym	PATSND_USI	USI	PATSND	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	7fc46c57-c872-5d07-9ca7-99a9c4eb5e2f	4b6c8bb9-5c38-5ce8-b8d0-1374c16f6c98
+synonym	PATXJE_PCDC	PCDC	PATXJE	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	089c0b07-74ff-5f68-b542-0c7249d48717	41c29fce-de02-5182-8d6a-141f7720c77a
+synonym	PATXJE_USI	USI	PATXJE	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	c7fa68c7-7fa9-5277-a359-274910afd70e	41c29fce-de02-5182-8d6a-141f7720c77a
+synonym	PAUUAX_PCDC	PCDC	PAUUAX	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	6d69a2d9-f425-5770-8b04-ea1a3602cf39	4f661b92-fa84-51dc-a44b-6a08f06e8139
+synonym	PAUUAX_USI	USI	PAUUAX	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	a2913745-95c4-540f-96c8-a9a63f648180	4f661b92-fa84-51dc-a44b-6a08f06e8139
+synonym	PAUMGG_PCDC	PCDC	PAUMGG	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	648fa62a-d4bd-531f-9b40-3a22a28fc18a	0c71c8e2-2bc7-5040-8a95-f2ea9011ea74
+synonym	PAUMGG_USI	USI	PAUMGG	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	8eb3bd63-9242-5c35-ac86-5e133114e6f1	0c71c8e2-2bc7-5040-8a95-f2ea9011ea74
+synonym	PAVRSU_USI	USI	PAVRSU	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	248c3822-d4c4-5915-927c-265996918e4d	e206f97b-7c2b-5fef-947b-def5f933afce
+synonym	pt-t245xtaf_KidsFirst	KidsFirst	pt-t245xtaf	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	37cc41b7-7f05-5a9e-a2c0-221c91cf8e49	e206f97b-7c2b-5fef-947b-def5f933afce
+synonym	PASEMM_USI	USI	PASEMM	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	ae71e08b-357f-5ac8-9710-e49b0824e380	c5e206b9-b98c-5b0a-bca2-3041801ba62e
+synonym	pt-dgbxg88f_KidsFirst	KidsFirst	pt-dgbxg88f	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	eed01a60-ffed-57d4-beda-94735f3d28d0	c5e206b9-b98c-5b0a-bca2-3041801ba62e
+synonym	PASPLN_USI	USI	PASPLN	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	38fe0254-180a-506f-90ac-d0c411a5b666	763dc0fd-d285-5e19-b279-c933cc71e9fa
+synonym	PAMVBG_PCDC	PCDC	PAMVBG	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	b7977dfb-94e0-5d8d-8372-d21a181b6d44	21d36059-b6e0-5c9d-8e86-58cd0c5cdadc
+synonym	PAMVBG_USI	USI	PAMVBG	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	cc2d2e4a-785f-5cf5-bf47-adcf6338631a	21d36059-b6e0-5c9d-8e86-58cd0c5cdadc
+synonym	pt-jfwt816s_KidsFirst	KidsFirst	pt-jfwt816s	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	eb904145-0c07-512c-894f-8db02adb8c90	21d36059-b6e0-5c9d-8e86-58cd0c5cdadc
+synonym	PAUNSE_PCDC	PCDC	PAUNSE	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	0463685d-6c89-5423-ba5a-5e2188e47bb3	95358083-98f2-559f-b61e-0e521a6e17e8
+synonym	PAUNSE_USI	USI	PAUNSE	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	5ecad86d-f464-5502-801f-3d55c88305c1	95358083-98f2-559f-b61e-0e521a6e17e8
+synonym	PARIXG_USI	USI	PARIXG	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	4cedf5ca-3820-523e-a83f-f752ea086343	8b31ab8b-41d8-534a-b464-80d28121be8f
+synonym	PASXWK_USI	USI	PASXWK	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	262c3ff4-dff4-517b-add5-db120fae26d1	faae248a-cb59-5e97-8ef6-decf3b3ec797
+synonym	PATKKB_USI	USI	PATKKB	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	9da1da1c-f9d6-5bcc-9715-84d765a7096b	95d3d0fc-d203-5ed0-83d9-ce45e23bd651
+synonym	PATAPN_USI	USI	PATAPN	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	accf5b13-1d98-5e04-b287-81df23808a45	dd5f3ce9-1940-5a5b-b37d-24c22842e32e
+synonym	pt-emc89n1g_KidsFirst	KidsFirst	pt-emc89n1g	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	6919aaae-67c3-5479-ad25-ca446199bc54	dd5f3ce9-1940-5a5b-b37d-24c22842e32e
+synonym	PATMDI_PCDC	PCDC	PATMDI	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	b0325515-123e-5f0d-93cf-385e1c918239	a60a8442-cb12-548a-90aa-844baf55d166
+synonym	PATMDI_USI	USI	PATMDI	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	5c20aaef-47a2-5129-af42-6e2cba852fcb	a60a8442-cb12-548a-90aa-844baf55d166
+synonym	pt-1shwzwk5_KidsFirst	KidsFirst	pt-1shwzwk5	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	e5ec80e8-7e53-5935-bfb0-ec3768ae916c	a60a8442-cb12-548a-90aa-844baf55d166
+synonym	PASXLW_PCDC	PCDC	PASXLW	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	2fcaba10-f73c-574f-9b77-96ae6e4210aa	36140ab4-e8a2-53f2-b5ce-92d70eb05ddb
+synonym	PASXLW_USI	USI	PASXLW	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	3b50c7b9-25dc-5aa2-b3b0-b2da6db4f8ec	36140ab4-e8a2-53f2-b5ce-92d70eb05ddb
+synonym	PAVVUV_USI	USI	PAVVUV	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	9730a46e-ffd9-5634-935c-b2979024f7eb	a04d3110-d880-5ff9-863c-60ecf3a32d61
+synonym	PARJFS_PCDC	PCDC	PARJFS	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	5a66f0a9-fc26-5934-99ec-4d817cada453	641982bd-f342-598d-8760-da7f9eb43b45
+synonym	PARJFS_USI	USI	PARJFS	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	a02655e6-aa4a-5706-9b74-3ae27f3a0bd6	641982bd-f342-598d-8760-da7f9eb43b45
+synonym	PATLHR_PCDC	PCDC	PATLHR	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	b6eb041f-b30a-5f0d-84d6-26f02d9ff789	dc1761b4-f20e-54fa-9268-12cf88e7ae87
+synonym	PATLHR_USI	USI	PATLHR	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	41a8fe81-1db7-5bd9-adfa-93fd74573ee3	dc1761b4-f20e-54fa-9268-12cf88e7ae87
+synonym	PANBZD_PCDC	PCDC	PANBZD	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	e6214c69-bbc4-5c48-b441-a2d71a00f7b5	6d757a73-a62d-5cf4-9583-ccf58acf9bb1
+synonym	PANBZD_USI	USI	PANBZD	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	02d34406-4a0f-513b-a031-8516e33e151a	6d757a73-a62d-5cf4-9583-ccf58acf9bb1
+synonym	PARYFU_USI	USI	PARYFU	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	9b524b9b-144b-506f-8e8d-f5c9e9bac79f	5a186972-2647-5c21-92ec-de56326ffd3b
+synonym	PAUDIZ_PCDC	PCDC	PAUDIZ	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	ebe6c9e0-d733-5009-abd4-96bf8c22db67	03fcc8f0-6de7-5471-abf4-1e36845c8299
+synonym	PAUDIZ_USI	USI	PAUDIZ	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	f1b1d647-6554-5b37-bdc0-c0138ccc2596	03fcc8f0-6de7-5471-abf4-1e36845c8299
+synonym	pt-kdy8fp8v_KidsFirst	KidsFirst	pt-kdy8fp8v	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	62360f38-1c7e-5446-8de2-bd909fe6051e	03fcc8f0-6de7-5471-abf4-1e36845c8299
+synonym	PAPAPB_USI	USI	PAPAPB	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	9b6ddd21-3c95-58cf-ad93-55061e4f3172	39aca221-6493-5fdc-abfd-df7870f1021e
+synonym	PASRNA_USI	USI	PASRNA	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	a4772eb3-205e-558a-a75b-d81ffde8f7f1	4793cbbf-d13a-5563-ac8a-c793bcb9bca1
+synonym	PAWRUL_USI	USI	PAWRUL	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	d1123524-23e9-5adc-8f46-19ea488c57fd	c767a845-8a9a-50ae-a88d-d5b510b0a325
+synonym	PAWABV_USI	USI	PAWABV	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	5fd4b2b5-9ec9-5746-bcce-0be3f4a6d82f	c3ecb01e-5f29-5291-9a1f-ee2ca322012d
+synonym	pt-d0aj333n_KidsFirst	KidsFirst	pt-d0aj333n	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	bc1c2eda-5d6b-539e-8e10-d5d287646d3b	c3ecb01e-5f29-5291-9a1f-ee2ca322012d
+synonym	PAUSXJ_USI	USI	PAUSXJ	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	687c60f4-b55e-57dc-88f3-e290cc54caea	a72fa781-1e6e-5ec2-aa77-d6c87574f774
+synonym	pt-ndz90122_KidsFirst	KidsFirst	pt-ndz90122	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	70e9a527-e42d-5fda-bbb7-56ac626a2102	a72fa781-1e6e-5ec2-aa77-d6c87574f774
+synonym	PAUNLH_USI	USI	PAUNLH	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	35881613-6995-550c-b657-ec32d06687b6	a86f2b43-398b-50e0-ab96-fe3280af4f57
+synonym	PATNPK_USI	USI	PATNPK	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	d0a2f9b1-8bef-59da-8615-b4c4e6046d91	e992cfd8-c0f1-50d3-875d-0d34b36e500c
+synonym	6105211_dbgap_subject_id	dbgap_subject_id	6105211	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	97ebfee8-456e-514e-b74b-4b65387fae4b	baf94177-1724-5661-93d7-485be6dc0da5
+synonym	PATMRM_PCDC	PCDC	PATMRM	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	8b49ef17-b952-5062-b2e0-88fe9538ecd6	baf94177-1724-5661-93d7-485be6dc0da5
+synonym	PATMRM_USI	USI	PATMRM	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	59d8695e-b6a1-56a8-a93a-9c4d5af62005	baf94177-1724-5661-93d7-485be6dc0da5
+synonym	PATMRM_phs002883	phs002883	PATMRM	dbGaP accession: Pediatric Molecular Analysis for Therapy Choice (PedMATCH)	dataset	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002883	03156c21-ed86-5adc-9054-895047a98c2e	baf94177-1724-5661-93d7-485be6dc0da5
+synonym	PAUNUC_USI	USI	PAUNUC	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	ff2fc253-3f71-58dc-9c37-b445bc4fedf8	4feded74-ad72-5fcb-8bd3-e907eb1d712b
+synonym	PARJIL_USI	USI	PARJIL	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	495aa154-efdb-52c4-add1-3b998c40b40d	fa344f7a-ad67-5adf-98fa-61983731ce68
+synonym	PATPXA_USI	USI	PATPXA	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	2aad2a50-9eb6-51b2-930a-e7387542622c	604ff210-0105-56da-997b-e66f21c0bb84
+synonym	PAVESC_PCDC	PCDC	PAVESC	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	dff5dc7c-309f-55e4-8ae2-74cc797a374e	b0d59d5b-3743-5314-a8c4-ac49d80e0ad0
+synonym	PAVESC_USI	USI	PAVESC	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	ed1a1168-4969-5108-8530-98b30b4b2650	b0d59d5b-3743-5314-a8c4-ac49d80e0ad0
+synonym	PAPXDL_USI	USI	PAPXDL	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	f55a2683-1e7b-5edc-9025-d6c81470f6d8	eeb5c9fb-36ee-5650-8433-4ce7a1c488ae
+synonym	PARTJV_PCDC	PCDC	PARTJV	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	94b560be-0f08-5085-a437-fa92849b0d21	9abf9b15-246e-5ad5-b7c7-d63db05c85b6
+synonym	PARTJV_USI	USI	PARTJV	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	af8f427a-1a99-5a31-a639-802cc97ad2eb	9abf9b15-246e-5ad5-b7c7-d63db05c85b6
+synonym	pt-hazgvr3v_KidsFirst	KidsFirst	pt-hazgvr3v	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	9ea21041-2c61-5277-9b66-592c0c3712f7	9abf9b15-246e-5ad5-b7c7-d63db05c85b6
+synonym	PAPBXZ_USI	USI	PAPBXZ	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	952c40d6-d41e-5414-8437-9cf99a8e27d1	3e80ae38-ea33-52df-b99d-9f99d70b16a5
+synonym	PAUEDW_PCDC	PCDC	PAUEDW	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	5419f237-7c19-5cd8-a5ae-553fc2f460c2	4026a3a1-0f7f-589c-b9f4-a6a29edd3bb4
+synonym	PAUEDW_USI	USI	PAUEDW	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	1427f809-40fa-5043-a800-76bdd7b728a8	4026a3a1-0f7f-589c-b9f4-a6a29edd3bb4
+synonym	pt-vnd7kbpp_KidsFirst	KidsFirst	pt-vnd7kbpp	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	b3bc0969-62e0-57db-bbca-5543d8dfed23	4026a3a1-0f7f-589c-b9f4-a6a29edd3bb4
+synonym	PAKKWT_PCDC	PCDC	PAKKWT	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	0888eb86-a6ea-513a-bac4-10ae3c5bede7	e7a7d5cb-6b9d-5135-9392-fd82c79020ab
+synonym	PAKKWT_USI	USI	PAKKWT	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	4f8b0d8f-0add-56b0-9d5a-87f6f5f37429	e7a7d5cb-6b9d-5135-9392-fd82c79020ab
+synonym	PAUSDR_PCDC	PCDC	PAUSDR	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	71145682-c366-5895-875d-68dfde0bd7fe	3fb5273c-3b0f-5ff3-be77-22088a754e48
+synonym	PAUSDR_USI	USI	PAUSDR	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	ea22ba5d-2875-5c0c-9ffe-593b93b9d4ce	3fb5273c-3b0f-5ff3-be77-22088a754e48
+synonym	pt-3mjwm0qp_KidsFirst	KidsFirst	pt-3mjwm0qp	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	7c59482f-01bd-5460-9a59-f00b01b2df94	3fb5273c-3b0f-5ff3-be77-22088a754e48
+synonym	PATWZG_PCDC	PCDC	PATWZG	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	d33182e6-14fe-5675-beed-c69b5ed68758	7a6aa68d-17fb-53a3-9a88-d0a85707d597
+synonym	PATWZG_USI	USI	PATWZG	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	390163ed-7731-549a-8a75-063333d9456c	7a6aa68d-17fb-53a3-9a88-d0a85707d597
+synonym	pt-hj300r2w_KidsFirst	KidsFirst	pt-hj300r2w	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	144f55bd-877d-541c-93a7-26b160151e40	7a6aa68d-17fb-53a3-9a88-d0a85707d597
+synonym	PAURGH_PCDC	PCDC	PAURGH	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	f3a40139-d9e4-508e-9c9c-621d9ea34668	21287928-be09-5aed-90f3-cd3510379258
+synonym	PAURGH_USI	USI	PAURGH	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	19d1beb4-3df7-5650-933d-03c37fd5f730	21287928-be09-5aed-90f3-cd3510379258
+synonym	pt-3hq1v8qp_KidsFirst	KidsFirst	pt-3hq1v8qp	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	aafd2eae-b28d-52f0-aaf9-82b97fc2fb6f	21287928-be09-5aed-90f3-cd3510379258
+synonym	PAUHAC_PCDC	PCDC	PAUHAC	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	fc6b4ab4-098a-5059-a55d-b1ed5223a349	d0ec2bd0-ac6b-5a6b-8998-8bc9cfdb4020
+synonym	PAUHAC_USI	USI	PAUHAC	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	b7af3635-b207-527a-9399-8e284cfc4556	d0ec2bd0-ac6b-5a6b-8998-8bc9cfdb4020
+synonym	PANAUY_USI	USI	PANAUY	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	26041447-5448-587e-a983-a07067658d2f	a8123691-6211-59cd-9b23-1fe46f1e9ffa
+synonym	PANECC_PCDC	PCDC	PANECC	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	4c851972-a7de-5e7a-b3be-22be9da0f2e9	f40f128b-79ab-556b-852b-7ccd40c49d86
+synonym	PANECC_USI	USI	PANECC	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	c95c8eab-c909-52fd-9cec-fe2a8734a11b	f40f128b-79ab-556b-852b-7ccd40c49d86
+synonym	PATMAZ_PCDC	PCDC	PATMAZ	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	96d4b5b2-993e-520e-b186-627f115ea71a	04872abe-dd85-5352-8dac-740a31e6fbf1
+synonym	PATMAZ_USI	USI	PATMAZ	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	7d03eb08-88e3-54b4-9b9d-f694a3d1c46c	04872abe-dd85-5352-8dac-740a31e6fbf1
+synonym	PAULSR_PCDC	PCDC	PAULSR	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	a363dd29-3957-57c8-9f33-e8394926d42a	3d6276a0-21fd-543c-a795-a2dd518d3001
+synonym	PAULSR_USI	USI	PAULSR	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	ec65d3d3-1dfe-572d-a1c8-2198664956bf	3d6276a0-21fd-543c-a795-a2dd518d3001
+synonym	pt-9pck45qt_KidsFirst	KidsFirst	pt-9pck45qt	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	452a0e70-6c39-523d-a05a-133cb7dc6f07	3d6276a0-21fd-543c-a795-a2dd518d3001
+synonym	PASUVK_PCDC	PCDC	PASUVK	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	89c23e2f-64e0-53b9-82eb-fbc724f67bb9	daf7f3a6-171c-50e6-86b1-305ad4dd42b0
+synonym	PASUVK_USI	USI	PASUVK	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	6585dec2-0660-5f70-8ffa-5d774cc26fb1	daf7f3a6-171c-50e6-86b1-305ad4dd42b0
+synonym	PAUIKL_PCDC	PCDC	PAUIKL	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	7bc26d89-ca3f-54b1-9547-bf89a25141a3	4ae22dbc-aa99-5bf2-bcc3-f38b907ebd4f
+synonym	PAUIKL_USI	USI	PAUIKL	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	871356f8-0083-5e38-b68c-053dcd795e5e	4ae22dbc-aa99-5bf2-bcc3-f38b907ebd4f
+synonym	PASTMB_PCDC	PCDC	PASTMB	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	dc74812d-5156-5d47-9d5a-4931618af6b4	4327bbda-dbcf-5ad9-8cc6-d45471739862
+synonym	PASTMB_USI	USI	PASTMB	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	a395d940-fbb2-517a-8445-05743fedb2c1	4327bbda-dbcf-5ad9-8cc6-d45471739862
+synonym	PARFKG_PCDC	PCDC	PARFKG	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	395bbcff-2b8e-5702-ae92-d5359042f50b	5ed4b074-047a-5914-87f8-7aae24babf74
+synonym	PARFKG_USI	USI	PARFKG	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	7b263fbf-e72f-555b-a1f3-0a8937fc141d	5ed4b074-047a-5914-87f8-7aae24babf74
+synonym	PAKJHG_PCDC	PCDC	PAKJHG	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	a491c4af-488b-5a9b-8181-b9f220de4af5	e09a8062-276d-5502-bf85-1c349e16999a
+synonym	PAKJHG_USI	USI	PAKJHG	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	6e8d7191-debf-5dde-a2c7-9e0e2a57cc8b	e09a8062-276d-5502-bf85-1c349e16999a
+synonym	PATKBC_USI	USI	PATKBC	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	408dbc36-9e46-57ff-8216-92edc3b539e5	0493a29e-9f34-5ee9-b0b1-d32e8edbc89c
+synonym	PASFGK_PCDC	PCDC	PASFGK	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	c18b8a70-29da-5811-913e-bebda016c474	1054c1f1-99a3-5e29-847a-811d9ef2f857
+synonym	PASFGK_USI	USI	PASFGK	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	6dc87bd1-c93f-5378-a6f9-95a33a73a601	1054c1f1-99a3-5e29-847a-811d9ef2f857
+synonym	pt-xt10ngt6_KidsFirst	KidsFirst	pt-xt10ngt6	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	519de568-12d6-5a18-9177-1821d9b12717	1054c1f1-99a3-5e29-847a-811d9ef2f857
+synonym	PASWGU_PCDC	PCDC	PASWGU	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	0cff7906-6526-5aed-9c28-fe7516cbf69b	0f695c61-fed8-5df1-b659-ea50a1807876
+synonym	PASWGU_USI	USI	PASWGU	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	4f0644ee-b5ba-5e9b-a1e2-f038b2ffdd37	0f695c61-fed8-5df1-b659-ea50a1807876
+synonym	PAWEPI_USI	USI	PAWEPI	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	63f8fa13-3759-5cd4-b74c-493092a5a9e1	808104b7-b01e-5db6-908e-9040e317bc24
+synonym	PATXEX_PCDC	PCDC	PATXEX	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	52dab5e7-f830-5ca4-888f-6dd06d179a2b	fb5359b0-4a06-5ae8-b656-4f3e4c8bfbaf
+synonym	PATXEX_USI	USI	PATXEX	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	4c816332-3326-5335-bb34-f108ad00422e	fb5359b0-4a06-5ae8-b656-4f3e4c8bfbaf
+synonym	pt-j273wv2j_KidsFirst	KidsFirst	pt-j273wv2j	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	c9f445a2-699c-5da1-8289-f7dc01531ddc	fb5359b0-4a06-5ae8-b656-4f3e4c8bfbaf
+synonym	PAVHYZ_USI	USI	PAVHYZ	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	b9f435d2-b58e-5aa9-b77d-57b67ecfc820	74fb57d9-34af-553a-bd5e-318ed1aaf6fd
+synonym	pt-gejhz0h8_KidsFirst	KidsFirst	pt-gejhz0h8	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	57bae860-61a1-566f-af05-60eaa6bd3982	74fb57d9-34af-553a-bd5e-318ed1aaf6fd
+synonym	PAUIPE_USI	USI	PAUIPE	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	71f164d1-53b9-5f8b-bcaf-2bd51a3f5049	3ecf4984-be2e-5a2b-963a-9d84e1705ddd
+synonym	pt-98kg5x9k_KidsFirst	KidsFirst	pt-98kg5x9k	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	08459e5b-207c-5d62-a3f2-fba55d0c039a	3ecf4984-be2e-5a2b-963a-9d84e1705ddd
+synonym	PAUPUC_PCDC	PCDC	PAUPUC	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	91f15d6d-9c33-52b1-825c-8fe47007570a	6278753f-4e07-5474-984f-2f66a3f71857
+synonym	PAUPUC_USI	USI	PAUPUC	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	4844e94d-7a4e-5f8e-9e7b-f953f73ba539	6278753f-4e07-5474-984f-2f66a3f71857
+synonym	PATHRZ_USI	USI	PATHRZ	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	12e63281-cc6c-5651-aa21-ed9c84e4ba31	3149d9e0-ddc0-5e6d-95ec-f6d19770aece
+synonym	PAVRAE_PCDC	PCDC	PAVRAE	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	d3d26881-a933-5431-aed2-2ce18e6c4fe0	2de01825-45ff-5bb3-94da-64a31582a29f
+synonym	PAVRAE_USI	USI	PAVRAE	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	a5316957-f02e-556f-a9f1-a601c064133f	2de01825-45ff-5bb3-94da-64a31582a29f
+synonym	PARZFY_USI	USI	PARZFY	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	b370b534-32e9-5567-bdda-2fac62ab761d	eaf22df7-e1dc-5a42-ad02-2e64378584f0
+synonym	PAWDLM_USI	USI	PAWDLM	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	55784324-2db2-55f7-b194-c0a9f5802655	e3536698-7049-5912-a967-9f0ef4b2cd57
+synonym	PATYWR_USI	USI	PATYWR	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	540a42ee-947a-5aae-8127-87662e222f55	feff6a5e-f4dc-5e96-a729-bc3e94e5b874
+synonym	pt-kqgprg30_KidsFirst	KidsFirst	pt-kqgprg30	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	77fd7ee1-11f8-5592-8eff-74c27fade397	feff6a5e-f4dc-5e96-a729-bc3e94e5b874
+synonym	PARJLL_PCDC	PCDC	PARJLL	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	28764b84-4477-5d44-b5cb-3212aa212dc0	691c6b52-4de2-5e8a-b327-e24305df5b68
+synonym	PARJLL_USI	USI	PARJLL	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	a14e3a69-05c2-5d5f-9532-17d477325529	691c6b52-4de2-5e8a-b327-e24305df5b68
+synonym	PAMAXZ_PCDC	PCDC	PAMAXZ	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	0204af40-c5c7-5417-a649-14ae8010283a	49f339d1-78eb-5200-8bec-58d543a227e9
+synonym	PAMAXZ_USI	USI	PAMAXZ	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	3508a83e-74a3-5f26-bcfa-059b3fd3dec6	49f339d1-78eb-5200-8bec-58d543a227e9
+synonym	PARRXG_PCDC	PCDC	PARRXG	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	3ed83d6e-2f02-5827-b96b-6b1e5d60d905	5741f4db-38b4-56dc-bc7e-7d05840ed464
+synonym	PARRXG_USI	USI	PARRXG	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	6b51555b-6c85-5950-b711-1cf51b70323f	5741f4db-38b4-56dc-bc7e-7d05840ed464
+synonym	PAWDJF_USI	USI	PAWDJF	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	ace4a437-9023-50f5-92d3-de6fca8230ef	16b4e414-cb39-5a1e-8df9-999e03fb6892
+synonym	PAJAKA_PCDC	PCDC	PAJAKA	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	66967bb7-0594-5359-b743-c8b1f3a98e89	e3a5be2e-05f8-5fe8-ae1d-fdad70573b62
+synonym	PAJAKA_USI	USI	PAJAKA	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	d5f40315-cd4e-5b8f-b521-e74301d35a3e	e3a5be2e-05f8-5fe8-ae1d-fdad70573b62
+synonym	PANDZA_PCDC	PCDC	PANDZA	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	4eefe315-9a6a-57e7-8f3f-85fd460956e3	ddb5e675-2c91-527f-8d8d-d5d5354ad4de
+synonym	PANDZA_USI	USI	PANDZA	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	81c49604-b246-51d7-9729-ea8ef52af701	ddb5e675-2c91-527f-8d8d-d5d5354ad4de
+synonym	PAVNPZ_USI	USI	PAVNPZ	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	32f12bad-ee36-5c26-a51e-38190bfa102d	4628662a-05c3-5ce7-80c9-367fec3bb030
+synonym	pt-6sx8822y_KidsFirst	KidsFirst	pt-6sx8822y	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	d52d9b08-4cda-54cb-abcc-028decb5563d	4628662a-05c3-5ce7-80c9-367fec3bb030
+synonym	PAMFGS_PCDC	PCDC	PAMFGS	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	eb93c84d-06b5-5efa-a9c2-00dbbd0ccbab	9d76476f-fd29-539b-b359-536f786df80a
+synonym	PAMFGS_USI	USI	PAMFGS	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	194d08b1-1ba5-5186-aabe-61b832aba38a	9d76476f-fd29-539b-b359-536f786df80a
+synonym	PAUJYJ_USI	USI	PAUJYJ	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	dc05af90-18ac-596d-bcaf-f04c8088433c	028fa2cf-9fd3-5b90-8ea3-c4db55e00956
+synonym	pt-2j9dmqwv_KidsFirst	KidsFirst	pt-2j9dmqwv	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	503bd78d-dc8b-5833-b8b2-cb7ed9eab7a0	028fa2cf-9fd3-5b90-8ea3-c4db55e00956
+synonym	PAVXXG_USI	USI	PAVXXG	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	7ab402ab-bb9e-5d83-bf35-e6c968d4e08c	d319c467-4543-5dc3-b0c1-54a20819dd53
+synonym	PARBED_PCDC	PCDC	PARBED	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	2a8cce67-03d2-59c3-8890-43c8ca4d93bc	d7d3d929-4c23-5fcd-9f57-b1152f1f63f8
+synonym	PARBED_USI	USI	PARBED	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	1f227f6a-faf3-56f8-8da6-76571cf5c2cb	d7d3d929-4c23-5fcd-9f57-b1152f1f63f8
+synonym	PASVYH_PCDC	PCDC	PASVYH	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	6d2876e8-e0b3-50d3-a7d6-b7b141c1a8a7	e73e97d0-fedb-5ff3-be65-1167e15517a7
+synonym	PASVYH_USI	USI	PASVYH	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	f0f34fdd-7daf-545f-a5d1-792b8ea46f1e	e73e97d0-fedb-5ff3-be65-1167e15517a7
+synonym	pt-4atbttfs_KidsFirst	KidsFirst	pt-4atbttfs	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	8bb3d193-12aa-567f-84cb-1b5ca8a949ef	e73e97d0-fedb-5ff3-be65-1167e15517a7
+synonym	PATADR_USI	USI	PATADR	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	6d5c2d0b-2fcf-5e78-b9be-80884974e1a3	f22310bc-ebf2-51ee-9055-2a1909d9caed
+synonym	PASTPC_USI	USI	PASTPC	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	a5b31029-7e64-5f28-b743-09e075b63225	91c2812b-449d-55f5-8fa1-f8f3e82701b0
+synonym	PATMKF_USI	USI	PATMKF	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	ecedee9d-58b8-5f2d-9854-6ddca82b3684	a5e1083e-6f63-5700-8f75-10cc590af8bc
+synonym	PAVXKW_USI	USI	PAVXKW	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	ff0f6c9e-7f55-56a8-a370-6499a8410326	221e7917-6e65-50da-b621-775160834fa3
+synonym	pt-2hsfgr36_KidsFirst	KidsFirst	pt-2hsfgr36	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	1b044402-5ea4-53b2-a45a-be7fdf9746ce	221e7917-6e65-50da-b621-775160834fa3
+synonym	PAKPED_USI	USI	PAKPED	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	063eed92-5ebf-58cd-b013-14c7239ae102	bcac7afc-76b4-5f39-b25f-3678bcd4e17d
+synonym	PASVLS_PCDC	PCDC	PASVLS	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	3b19f307-b00d-55b4-9742-a5116b888e95	6e55f3c8-2a51-567c-886c-b3f3f640262b
+synonym	PASVLS_USI	USI	PASVLS	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	0c1baa72-5833-5201-b6d3-504747f7874d	6e55f3c8-2a51-567c-886c-b3f3f640262b
+synonym	PAWMFL_USI	USI	PAWMFL	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	c4bf17c3-38a2-55f6-aed9-0d77e65a6807	e21c1c06-4c71-509b-b752-f36c65948aa4
+synonym	pt-cqqms018_KidsFirst	KidsFirst	pt-cqqms018	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	eae8a44b-d9ac-5813-b537-c3fd3a069a48	e21c1c06-4c71-509b-b752-f36c65948aa4
+synonym	PAREJI_PCDC	PCDC	PAREJI	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	d7efc0d6-b8a2-5ced-9540-d31bab72c20c	ab351474-64de-53cc-8618-812db8cfcf40
+synonym	PAREJI_USI	USI	PAREJI	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	dceca6cf-919d-5bda-92c6-38d8456ac7db	ab351474-64de-53cc-8618-812db8cfcf40
+synonym	PAMJNE_USI	USI	PAMJNE	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	b139bf07-2918-5008-b216-7195680e6157	09454320-1822-5412-92a1-c8ed2f137891
+synonym	PATKRX_USI	USI	PATKRX	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	7698b98b-d045-5476-b7a8-1ab87d752f5d	e7f7bad6-f051-58b2-84d6-225d4c659edb
+synonym	pt-qf9f1j68_KidsFirst	KidsFirst	pt-qf9f1j68	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	b6289c65-3b4b-51d6-a21f-e12f2c1b670e	e7f7bad6-f051-58b2-84d6-225d4c659edb
+synonym	PAUSPS_USI	USI	PAUSPS	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	44c8d5d0-3ff9-5c53-a9f9-d19252d5f1cb	42a49c80-b376-510d-89b2-d57e1bed1ca0
+synonym	PAUTTP_USI	USI	PAUTTP	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	4d612bde-4946-56e4-93d4-20c56185143e	fdd22c2c-4773-5ad2-9737-4642c6c14afe
+synonym	pt-sps3cw0n_KidsFirst	KidsFirst	pt-sps3cw0n	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	e80a4dd0-69f4-513d-8453-a1cf99b708d6	fdd22c2c-4773-5ad2-9737-4642c6c14afe
+synonym	PARMPU_PCDC	PCDC	PARMPU	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	4de69f2e-4da6-5d94-b32a-f2ee6eea4d11	1a13df22-2246-573f-a83e-c1146168e716
+synonym	PARMPU_USI	USI	PARMPU	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	2eb92484-47c9-5a36-bfed-0114c31e8df7	1a13df22-2246-573f-a83e-c1146168e716
+synonym	PAUHTW_USI	USI	PAUHTW	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	1a399fbe-e221-5926-b907-a0d8ec1ffb8a	102335b1-2046-5c52-a933-a4249644373a
+synonym	pt-tkwhazgc_KidsFirst	KidsFirst	pt-tkwhazgc	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	d5f26615-b44f-5818-afd9-dc43a4464fc6	102335b1-2046-5c52-a933-a4249644373a
+synonym	PAUPLR_PCDC	PCDC	PAUPLR	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	4e48bc80-bad0-564c-a1d0-278370345504	12440e7e-1827-5511-9294-d424e0832eb3
+synonym	PAUPLR_USI	USI	PAUPLR	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	9fd6f1e9-d02c-5028-afca-ba59caadee52	12440e7e-1827-5511-9294-d424e0832eb3
+synonym	PAMFXC_USI	USI	PAMFXC	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	044baac6-13a6-579d-af67-b890496818d4	e52fb0bd-15bb-5ad9-9491-feaf42ea3928
+synonym	PATAXC_PCDC	PCDC	PATAXC	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	849d5887-6d64-5282-8ee2-963af029aacf	401a1596-f15d-59f0-b5b3-002128619f6c
+synonym	PATAXC_USI	USI	PATAXC	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	8b0446d9-6d79-545b-8380-a5cdf501e4c6	401a1596-f15d-59f0-b5b3-002128619f6c
+synonym	pt-8vtgaw2y_KidsFirst	KidsFirst	pt-8vtgaw2y	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	3e9b7b32-0aa5-5fb6-8207-b11e36516b2a	401a1596-f15d-59f0-b5b3-002128619f6c
+synonym	PATPTK_USI	USI	PATPTK	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	194d44fb-b5e3-5d65-965c-3ff0e37e32f3	ca16285b-c23f-5cb1-b244-38690aa54ba3
+synonym	PAKIET_PCDC	PCDC	PAKIET	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	4e8fbae0-f868-5c38-822c-1e249e3ef4c4	27110822-c704-5db0-9d80-42d4681a542d
+synonym	PAKIET_USI	USI	PAKIET	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	0b37877b-8d0d-5478-805e-728c1d8dc493	27110822-c704-5db0-9d80-42d4681a542d
+synonym	PALHJZ_PCDC	PCDC	PALHJZ	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	4164890f-1cc7-52cf-b89d-a334764aef7b	0bb7d216-65cf-5424-a628-fd6946e51eaf
+synonym	PALHJZ_USI	USI	PALHJZ	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	77350d31-f68a-526f-9de6-605c867a7de1	0bb7d216-65cf-5424-a628-fd6946e51eaf
+synonym	PANASJ_PCDC	PCDC	PANASJ	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	5b6f02e2-1b39-5a5d-8aeb-8edcaabe2515	a059daa1-8d46-5c97-87c8-a357aa82c437
+synonym	PANASJ_USI	USI	PANASJ	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	ccece2da-f1c5-5822-b41b-c537897b11d4	a059daa1-8d46-5c97-87c8-a357aa82c437
+synonym	PASAVP_USI	USI	PASAVP	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	6ac28d09-4f95-5922-9188-f650f04e3221	9697d735-ea76-50f8-a912-d9f7c7b8aa53
+synonym	pt-qeg03w1b_KidsFirst	KidsFirst	pt-qeg03w1b	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	6013af11-205c-5047-a37b-b8d72132959d	9697d735-ea76-50f8-a912-d9f7c7b8aa53
+synonym	PASKWV_PCDC	PCDC	PASKWV	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	3ebab6c0-d0b1-57ab-bbc9-25ff775befd2	ce702912-9928-5ff1-a5da-634b8ef74d0f
+synonym	PASKWV_USI	USI	PASKWV	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	d2ddfab8-fab6-5471-975d-8c0761d79a59	ce702912-9928-5ff1-a5da-634b8ef74d0f
+synonym	PANJXX_PCDC	PCDC	PANJXX	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	3d6bcf54-a8d7-542f-95b1-66ae60238b73	a780dee9-d3c7-56ff-8bf7-9c23dd6df4ed
+synonym	PANJXX_USI	USI	PANJXX	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	22aff1b6-1c53-597f-b782-4237f80daa34	a780dee9-d3c7-56ff-8bf7-9c23dd6df4ed
+synonym	PATXGA_USI	USI	PATXGA	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	9ddb786d-5846-5f00-bd21-575cfc328ff8	9518ae6f-1840-5340-b105-6dfb907591bd
+synonym	pt-wnp390m4_KidsFirst	KidsFirst	pt-wnp390m4	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	04f3e69a-5fd7-5ba5-b247-0ade09c714ec	9518ae6f-1840-5340-b105-6dfb907591bd
+synonym	PAKSEI_PCDC	PCDC	PAKSEI	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	160fdd3a-6235-5d00-857d-34bdcb3bc438	ded6b0fb-6280-5715-82ba-440a452c0339
+synonym	PAKSEI_USI	USI	PAKSEI	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	480d180f-887c-537f-ad22-fed2a3b3fe8d	ded6b0fb-6280-5715-82ba-440a452c0339
+synonym	PAVFDL_PCDC	PCDC	PAVFDL	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	693d56f8-8792-5f0f-9110-ec21ffeaa68d	614e4321-d3f6-5a26-b1d7-d97204c8090c
+synonym	PAVFDL_USI	USI	PAVFDL	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	46966726-7b15-5e8d-8e09-a987b684780c	614e4321-d3f6-5a26-b1d7-d97204c8090c
+synonym	PATTTV_PCDC	PCDC	PATTTV	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	43121030-50bd-517e-bccc-db9744a96f46	bc4c36d0-d96c-56d5-84d1-610c8dee40ea
+synonym	PATTTV_USI	USI	PATTTV	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	b5232631-3596-532c-a1c1-4f81ba0b757c	bc4c36d0-d96c-56d5-84d1-610c8dee40ea
+synonym	PARXGP_PCDC	PCDC	PARXGP	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	9f2a122d-a3b7-5d39-8593-401253421c10	968db27e-4e93-52b7-ace7-25101e812c44
+synonym	PARXGP_USI	USI	PARXGP	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	41d282ab-14a6-5f9e-8aa5-d9a99e047057	968db27e-4e93-52b7-ace7-25101e812c44
+synonym	pt-f8hng220_KidsFirst	KidsFirst	pt-f8hng220	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	0a9bff56-d903-512a-9991-ff678ad9b40b	968db27e-4e93-52b7-ace7-25101e812c44
+synonym	PAPHVF_USI	USI	PAPHVF	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	19b0acc6-e5d4-5deb-8243-e4b9697cae3e	e09c6bd5-7ebf-52ef-8d88-d7c01861d4ab
+synonym	PASCRX_PCDC	PCDC	PASCRX	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	5e11add1-f65e-5620-b0dc-4ead4d310f36	60b22078-fb8e-55cc-9f1f-2d0beceeb178
+synonym	PASCRX_USI	USI	PASCRX	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	fc13cabc-ba26-5176-b264-cd624d8fe609	60b22078-fb8e-55cc-9f1f-2d0beceeb178
+synonym	pt-q2xddc63_KidsFirst	KidsFirst	pt-q2xddc63	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	a77371f5-ffd0-59fa-8445-6e52c1a93ff2	60b22078-fb8e-55cc-9f1f-2d0beceeb178
+synonym	PAMHCR_USI	USI	PAMHCR	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	241391c7-5408-5ec4-9d0e-87d4168e8bc9	6d276ae9-d67e-5514-aae2-a3e90da6ac4e
+synonym	PATXVU_PCDC	PCDC	PATXVU	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	c056f726-398b-5cc5-82ef-3adba51b95cd	e5c8623f-cecb-52b4-af51-c51f916023e1
+synonym	PATXVU_USI	USI	PATXVU	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	e40c80b2-e8b5-515e-b84c-16234ad228a7	e5c8623f-cecb-52b4-af51-c51f916023e1
+synonym	pt-50zgnx2g_KidsFirst	KidsFirst	pt-50zgnx2g	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	5821a40d-f542-5c83-9439-73a9b078f2aa	e5c8623f-cecb-52b4-af51-c51f916023e1
+synonym	PAUENM_USI	USI	PAUENM	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	70c344ea-0512-5ccc-8150-6cb783ecff47	2a22e1a4-ac22-5708-a7c1-3c01dd85e169
+synonym	PATZJS_PCDC	PCDC	PATZJS	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	012732c1-7438-5a25-b540-fa07c4026d83	d63d727f-27ab-553e-928b-e8ea7909dab4
+synonym	PATZJS_USI	USI	PATZJS	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	23bceba3-74b7-5fe6-80f0-38bd24185e94	d63d727f-27ab-553e-928b-e8ea7909dab4
+synonym	PAMTTX_PCDC	PCDC	PAMTTX	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	6e617b7f-d254-5ccc-a29a-392a05ccfdd2	d5a3786c-6401-5b20-a9cc-0b1eccf5523d
+synonym	PAMTTX_USI	USI	PAMTTX	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	2f671b34-96a1-5ad7-841b-0e55212e61eb	d5a3786c-6401-5b20-a9cc-0b1eccf5523d
+synonym	PAMUXL_USI	USI	PAMUXL	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	d3b22018-f9e4-5110-9113-debda4c7948c	a0388853-2372-5228-be51-a1ff555d5037
+synonym	PAWHTR_USI	USI	PAWHTR	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	30fbbd70-7795-5ac2-8f38-0f99a1e86fd8	4b43c01a-6293-592f-b4b1-fe41e98b1865
+synonym	PASGUG_PCDC	PCDC	PASGUG	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	98b8acaf-eca3-5785-911f-b0b8e96dede8	6ba18b8e-39ae-517b-a948-0f75249109db
+synonym	PASGUG_USI	USI	PASGUG	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	011f7e0b-7e95-59f6-abdb-953b0c8e3204	6ba18b8e-39ae-517b-a948-0f75249109db
+synonym	pt-cqqmrgw4_KidsFirst	KidsFirst	pt-cqqmrgw4	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	7b13dcc9-6418-5637-98ed-e139f752b20e	6ba18b8e-39ae-517b-a948-0f75249109db
+synonym	PARSYF_PCDC	PCDC	PARSYF	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	2271b4be-d5a5-5164-9411-b135fdb20ea1	63e86245-5031-5ff8-ad21-bf81584715a6
+synonym	PARSYF_USI	USI	PARSYF	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	dd320502-a0d4-5731-8d07-5de631328a8d	63e86245-5031-5ff8-ad21-bf81584715a6
+synonym	PASGCC_PCDC	PCDC	PASGCC	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	8c646ce1-970d-5a1b-b8e9-5a3aca75ce0b	051968c4-f0b8-5f8e-91be-6a192eafc0d2
+synonym	PASGCC_USI	USI	PASGCC	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	bb58f831-7c81-560e-83d5-e0709ee8a788	051968c4-f0b8-5f8e-91be-6a192eafc0d2
+synonym	pt-1pyz0vwt_KidsFirst	KidsFirst	pt-1pyz0vwt	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	59b2e7ec-7116-5b16-9c8a-3c5f7becffb8	051968c4-f0b8-5f8e-91be-6a192eafc0d2
+synonym	PAVSCH_PCDC	PCDC	PAVSCH	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	dd55c2bc-e6e6-55f6-ab5e-225b3451d4e8	d2dbb67e-203d-5e19-b8c2-d18a357ed655
+synonym	PAVSCH_USI	USI	PAVSCH	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	802c2b9b-2ee1-57bf-a1bc-d6e97b22fa66	d2dbb67e-203d-5e19-b8c2-d18a357ed655
+synonym	PASYKR_USI	USI	PASYKR	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	b302416e-87cc-5812-94d0-705916707c12	450f207f-48bd-5b5a-9422-30f085f74489
+synonym	PALTNM_USI	USI	PALTNM	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	56dabd45-2604-5fe6-841e-62025cbd8999	442ac376-2d13-5cc8-8164-807dcce2a6f1
+synonym	PASDXS_PCDC	PCDC	PASDXS	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	2c4c91f4-d91f-5b55-b47b-1101939a04b8	13ac5ade-0f98-516b-bf28-624939d94de4
+synonym	PASDXS_USI	USI	PASDXS	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	47e6f3b3-ddd6-5667-b42e-44d8290b31df	13ac5ade-0f98-516b-bf28-624939d94de4
+synonym	6105231_dbgap_subject_id	dbgap_subject_id	6105231	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	fe512fcb-16fe-5a91-89e8-c23f52370742	48cd4620-0932-585c-a234-b60efe6017f9
+synonym	PAUTDB_PCDC	PCDC	PAUTDB	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	5ff83942-c301-5270-9b46-58496fe0ba8c	48cd4620-0932-585c-a234-b60efe6017f9
+synonym	PAUTDB_USI	USI	PAUTDB	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	1c92404a-84e5-5f5c-8d1f-68481e8f8818	48cd4620-0932-585c-a234-b60efe6017f9
+synonym	PAUTDB_phs002883	phs002883	PAUTDB	dbGaP accession: Pediatric Molecular Analysis for Therapy Choice (PedMATCH)	dataset	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002883	cc3ec1c0-e947-54d5-a1ac-431b4ce0bd16	48cd4620-0932-585c-a234-b60efe6017f9
+synonym	pt-rvx3ev83_KidsFirst	KidsFirst	pt-rvx3ev83	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	5b49c095-1d02-5e2f-b65e-afd333fd58db	48cd4620-0932-585c-a234-b60efe6017f9
+synonym	PAVAHI_USI	USI	PAVAHI	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	027c254f-08ca-534d-a6ee-0a3a19ce4311	b8f5d827-16a3-541f-ad39-045b26e343b1
+synonym	PASGTU_PCDC	PCDC	PASGTU	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	c5380f32-8c52-5fb0-b2f1-83131b41e5c6	2728ef2d-b0f3-5982-9364-6ec21a814d71
+synonym	PASGTU_USI	USI	PASGTU	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	5235f7c1-0ba9-53b1-85d8-36f17e89caa7	2728ef2d-b0f3-5982-9364-6ec21a814d71
+synonym	pt-t54z71s8_KidsFirst	KidsFirst	pt-t54z71s8	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	cdc0564f-ec19-5d44-9937-894f85e30223	2728ef2d-b0f3-5982-9364-6ec21a814d71
+synonym	PAVLFL_USI	USI	PAVLFL	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	c588f6b1-1dff-560e-ad22-aac802c805e6	ba60acd5-d7a4-510e-bcac-6d38c6253a73
+synonym	pt-vs2xmrzs_KidsFirst	KidsFirst	pt-vs2xmrzs	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	52c7d3bb-fb8c-54a2-a256-76a20731ac04	ba60acd5-d7a4-510e-bcac-6d38c6253a73
+synonym	PAMZYH_PCDC	PCDC	PAMZYH	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	416cb540-2c24-56f7-b2e0-d74ad6d8f7c2	ec14087f-9972-5a7e-9dea-72408f792177
+synonym	PAMZYH_USI	USI	PAMZYH	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	8a3dadcc-19eb-5dc0-a4bd-65f8c2b19b21	ec14087f-9972-5a7e-9dea-72408f792177
+synonym	PAUMJF_USI	USI	PAUMJF	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	f1837457-6f47-5c86-acd7-7a37bfc3aaf1	3cd14872-110b-5b86-ba78-fa956ef170f9
+synonym	PAUFNF_PCDC	PCDC	PAUFNF	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	35355505-d9dc-5810-a54a-882fcc35a9c2	93469bb3-9e2d-57ea-b626-39f56f810e52
+synonym	PAUFNF_USI	USI	PAUFNF	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	46a1b9e2-2555-5afa-89ff-6be43627b0d8	93469bb3-9e2d-57ea-b626-39f56f810e52
+synonym	pt-jb13znn1_KidsFirst	KidsFirst	pt-jb13znn1	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	825f9d5b-910f-5f7f-99b8-90223eaaaf83	93469bb3-9e2d-57ea-b626-39f56f810e52
+synonym	PATVPL_PCDC	PCDC	PATVPL	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	8ee47c2c-ffd0-5d8d-be7d-a413278a5f3d	1b7a67b8-c426-5fe2-ac42-8b9991a4de31
+synonym	PATVPL_USI	USI	PATVPL	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	24cfce1b-6895-55e7-97a3-1ce7ac716d5a	1b7a67b8-c426-5fe2-ac42-8b9991a4de31
+synonym	PAKNTC_PCDC	PCDC	PAKNTC	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	1754a810-c2ee-5f96-ab01-cb17945944a4	286a3b79-c3bd-5728-9322-f16b06f3165d
+synonym	PAKNTC_USI	USI	PAKNTC	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	00adede3-38c0-5606-b4ee-af0f38d31cda	286a3b79-c3bd-5728-9322-f16b06f3165d
+synonym	PARIVX_PCDC	PCDC	PARIVX	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	7af4f9af-6945-5ada-b3aa-6e385dd03d98	48a1123d-4a8b-5d67-ab4c-bef324a24338
+synonym	PARIVX_USI	USI	PARIVX	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	875ffb96-0020-5595-b10e-6a20e3ce414d	48a1123d-4a8b-5d67-ab4c-bef324a24338
+synonym	pt-kjncz397_KidsFirst	KidsFirst	pt-kjncz397	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	4119d5c4-7ead-5bde-8fce-de344c8df895	48a1123d-4a8b-5d67-ab4c-bef324a24338
+synonym	PANDHP_USI	USI	PANDHP	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	ce43d724-0d7d-5635-8d14-92ea120fb0cb	989d853f-e152-577e-802e-435f4acbb67b
+synonym	PAUKPW_PCDC	PCDC	PAUKPW	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	00a2be7a-4cd3-5df9-bb09-32662b40dd92	a3359d2d-a72f-55d7-90f9-2a85a46650c7
+synonym	PAUKPW_USI	USI	PAUKPW	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	da9da0ea-3dc5-5ccd-9af0-f873cac15b1a	a3359d2d-a72f-55d7-90f9-2a85a46650c7
+synonym	PASZXP_USI	USI	PASZXP	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	327db9da-99a7-5a1e-b7e0-2c7f493131a3	81bc1c1a-e6d1-51ad-b181-0befdd6b5d84
+synonym	PALWNW_USI	USI	PALWNW	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	2f8973b8-4277-5c64-81b5-e7d509b250c0	56b8845f-f623-5b34-a69d-2f1414f692d9
+synonym	PAUCAX_USI	USI	PAUCAX	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	08cb39f3-7a0e-5787-8651-db1411b41b8d	a9532a2f-48f2-5833-aee4-c34dd60cb5b3
+synonym	pt-kq3x8ndw_KidsFirst	KidsFirst	pt-kq3x8ndw	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	b0792e58-4395-5797-8f1e-97076ce2a4a1	a9532a2f-48f2-5833-aee4-c34dd60cb5b3
+synonym	PATMYX_PCDC	PCDC	PATMYX	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	2295960b-ffd8-58e4-87a7-9d9516389db6	31e3d478-38ac-53f3-9883-85082c6f4c75
+synonym	PATMYX_USI	USI	PATMYX	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	d53a275a-05b1-5dbe-a091-3411d8715b72	31e3d478-38ac-53f3-9883-85082c6f4c75
+synonym	pt-5jhyh3sk_KidsFirst	KidsFirst	pt-5jhyh3sk	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	7196e024-db68-51ab-a814-63b1f0fc8a9f	31e3d478-38ac-53f3-9883-85082c6f4c75
+synonym	PAMMAU_PCDC	PCDC	PAMMAU	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	bb46ee0b-c5c2-5fa9-82c3-d6a08aa1f650	c47c9ec7-bffa-5178-a152-0c3e3aa26e80
+synonym	PAMMAU_USI	USI	PAMMAU	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	35247c5e-1ebd-523d-828e-0d8dbda0d35b	c47c9ec7-bffa-5178-a152-0c3e3aa26e80
+synonym	pt-x8pvz9dy_KidsFirst	KidsFirst	pt-x8pvz9dy	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	31cb4766-76f3-53b4-b245-1af1c9942c85	c47c9ec7-bffa-5178-a152-0c3e3aa26e80
+synonym	PAVBME_PCDC	PCDC	PAVBME	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	6e0218d6-adf5-50fc-988e-3716272fd64c	6d102d58-344a-56fa-b4b5-aa58615191f0
+synonym	PAVBME_USI	USI	PAVBME	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	efd3c84e-37af-5aff-88cf-aade5f6c37b6	6d102d58-344a-56fa-b4b5-aa58615191f0
+synonym	PAUPMF_USI	USI	PAUPMF	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	0b63b531-c858-5a2e-a530-a8e22459db87	bec8d7fc-e401-5b67-a4aa-0e912efa40dd
+synonym	pt-683hcg1y_KidsFirst	KidsFirst	pt-683hcg1y	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	9141c77b-80b2-5919-a446-a0af8866aed6	bec8d7fc-e401-5b67-a4aa-0e912efa40dd
+synonym	PAUVTZ_USI	USI	PAUVTZ	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	b5fd8b3a-dce7-54c0-95c9-1ecb552f038e	dd64b58f-eb22-5008-a6c7-9e556679ac4e
+synonym	PASIVM_USI	USI	PASIVM	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	6c0fec1d-66bf-5cd7-bb09-999f87b3a59d	47a82c09-84d3-5e4e-97b8-046228e2e182
+synonym	pt-7pxa0xsh_KidsFirst	KidsFirst	pt-7pxa0xsh	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	7d185dfd-3a3b-5e66-9146-f383e8ad56ff	47a82c09-84d3-5e4e-97b8-046228e2e182
+synonym	PAWLCX_USI	USI	PAWLCX	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	e56582f7-0665-5fbe-b751-d2e17f3d511f	dc96d0e2-994a-5095-a4af-ce5f5af38c78
+synonym	PAWBZH_USI	USI	PAWBZH	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	25d14305-e297-5bca-9b7e-b8a6192fdbd9	fc1a8607-4928-598a-9ad0-a5f68e9c63e1
+synonym	PATZPA_USI	USI	PATZPA	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	751109a6-cba3-5c1c-80a5-87f6c5853db3	196ea91a-c79a-5a7e-94ff-f16c857625cd
+synonym	PATRTV_PCDC	PCDC	PATRTV	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	4873ebd5-5239-5042-ba53-4caf848d353b	413444a3-ccc6-5b28-8041-81bc82a3d539
+synonym	PATRTV_USI	USI	PATRTV	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	f78721ba-8b92-516a-ba07-973ee00adb61	413444a3-ccc6-5b28-8041-81bc82a3d539
+synonym	pt-z35y0ycc_KidsFirst	KidsFirst	pt-z35y0ycc	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	582b91da-b8a7-55de-a0d4-624fff8d0237	413444a3-ccc6-5b28-8041-81bc82a3d539
+synonym	PASXYZ_PCDC	PCDC	PASXYZ	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	4b2c9bec-3744-549a-b2fd-4d82d6e83e28	546a56c7-a71c-5214-ae6a-5fef880dd0a3
+synonym	PASXYZ_USI	USI	PASXYZ	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	29596d6a-bb87-5222-b9cb-4a9f107298e5	546a56c7-a71c-5214-ae6a-5fef880dd0a3
+synonym	PAUUVJ_USI	USI	PAUUVJ	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	275d5829-b3b8-5f5f-9218-b3d6f8a672ff	ae57bd71-0fbe-5ba2-856d-7733fdf514f3
+synonym	pt-4bv57vx2_KidsFirst	KidsFirst	pt-4bv57vx2	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	5f1abeca-eb07-5b9c-a52e-3f5a15426919	ae57bd71-0fbe-5ba2-856d-7733fdf514f3
+synonym	PAPNAL_USI	USI	PAPNAL	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	e944156c-d942-5378-8b8d-4dd9be213f2f	5c053938-47b5-53a1-96fb-2723f8a50529
+synonym	PATHNY_USI	USI	PATHNY	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	2e540724-f7b8-5cd5-8e07-fe16e391728b	b455c1b3-b8c3-552f-9113-ff0bbc7d9b89
+synonym	pt-h1754vax_KidsFirst	KidsFirst	pt-h1754vax	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	28edcfe4-2a4b-514c-9d70-e0cd187216d9	b455c1b3-b8c3-552f-9113-ff0bbc7d9b89
+synonym	PAMLJE_PCDC	PCDC	PAMLJE	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	20518fbe-8c92-58b2-89b0-c7feb42eb35b	12338028-6c7d-5449-991c-28d1dc019791
+synonym	PAMLJE_USI	USI	PAMLJE	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	dfb66319-3a33-5038-bd90-58a1c77b14aa	12338028-6c7d-5449-991c-28d1dc019791
+synonym	PATIGD_USI	USI	PATIGD	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	356655dc-a0c6-5fe7-9435-d2ce8db1defa	8fcb578f-85a1-5f4c-b4ee-d8d97366cef9
+synonym	PAUMLA_USI	USI	PAUMLA	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	4e8148ca-ebaf-5c7c-be55-ade3a4bee5c2	8de8986e-4a93-536d-b2dd-009dcf7f4d20
+synonym	pt-s5g89n40_KidsFirst	KidsFirst	pt-s5g89n40	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	300fe080-747e-555f-8251-0c17738e9aeb	8de8986e-4a93-536d-b2dd-009dcf7f4d20
+synonym	PASFZV_PCDC	PCDC	PASFZV	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	0e0f10ed-24ec-5b0b-8d09-b2b13b9080d4	bb296318-52e4-5ead-87c6-607a82665f9a
+synonym	PASFZV_USI	USI	PASFZV	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	c8b76282-271d-595b-ac57-5e1ff1dd66a4	bb296318-52e4-5ead-87c6-607a82665f9a
+synonym	pt-3fcwva4p_KidsFirst	KidsFirst	pt-3fcwva4p	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	4e922d18-ba2a-5ac9-857b-2308b13acf68	bb296318-52e4-5ead-87c6-607a82665f9a
+synonym	PAUPMJ_USI	USI	PAUPMJ	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	16c9671b-8dd2-5934-8ecd-ddf1eba8a913	3a7ea489-44a2-549c-b81c-b56ddda5d625
+synonym	PAUUCM_USI	USI	PAUUCM	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	7a29cdf0-0d2c-582a-a5b3-34f4d315e0d7	96f65605-4f86-5918-af29-b2c218d12ddd
+synonym	PAVPSH_USI	USI	PAVPSH	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	a761771b-51c2-5100-af9f-8536419e7aa5	70c42ee8-eb73-5944-b05e-1e4cc37e6373
+synonym	PASAYC_USI	USI	PASAYC	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	c8d3b94d-3a6c-58fa-8ac5-0376ad2bd1b7	2ad989bf-80d1-50f7-be81-a3a1d6104f33
+synonym	PAVRNH_USI	USI	PAVRNH	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	19036a56-f757-5067-a13e-947fa2fe7449	cbfab248-61bf-5482-a79d-bf6f524961ca
+synonym	pt-zxe2ev6z_KidsFirst	KidsFirst	pt-zxe2ev6z	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	8aecc91b-7232-524b-8035-c85a2198db1f	cbfab248-61bf-5482-a79d-bf6f524961ca
+synonym	PAUBXX_USI	USI	PAUBXX	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	86fcf2b4-b90f-5afd-9841-0d0583bf1cad	6b2323b2-cbd2-5fcf-b265-223572624eb1
+synonym	PAUUTF_PCDC	PCDC	PAUUTF	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	b2ba2c27-45ee-5232-9e50-d726c109f6ba	f36b5ed2-5eb2-51c8-9703-f29ea0395f6d
+synonym	PAUUTF_USI	USI	PAUUTF	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	d4f7d727-7a20-5704-8107-fb33108d7730	f36b5ed2-5eb2-51c8-9703-f29ea0395f6d
+synonym	PAUHVM_USI	USI	PAUHVM	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	390c618a-3f50-5d89-b898-a9156143ab26	f40405a7-77e1-58d3-82f7-0be6621cfb8a
+synonym	PARPDV_USI	USI	PARPDV	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	1bbe02b2-d5e2-5087-bdb4-54e978690567	07e9fbc6-6000-587e-9295-59171747fe6b
+synonym	PAUARR_USI	USI	PAUARR	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	61017ba3-8bdf-5029-96e1-e6967d82b56b	f61e2222-3ecd-59ce-9e8b-b634434d6ea5
+synonym	PATSZM_USI	USI	PATSZM	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	f69c04df-e187-5cb0-8be9-06882547afbc	8f27f048-ef05-5ad3-ada7-4aaf7c99d994
+synonym	PASZFA_USI	USI	PASZFA	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	091770de-d264-5934-847b-89a9348cbf79	8b5397fd-3609-51cf-b6c2-b36b823499f7
+synonym	PANJXS_PCDC	PCDC	PANJXS	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	47c4afba-267e-585d-86a5-ec8ed4030d3b	5c1ba2b6-f69f-5d8f-b329-0e4d5a3ba3ed
+synonym	PANJXS_USI	USI	PANJXS	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	7958edef-29e2-5faf-b014-6494a3139319	5c1ba2b6-f69f-5d8f-b329-0e4d5a3ba3ed
+synonym	PAKHYN_PCDC	PCDC	PAKHYN	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	ed56b239-c999-50dc-8d6b-cb6373464967	fe2b97ce-d697-557b-80ca-8fd70c228a8d
+synonym	PAKHYN_USI	USI	PAKHYN	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	2af84084-bef4-5ffb-a007-96c753536cdb	fe2b97ce-d697-557b-80ca-8fd70c228a8d
+synonym	PAWVVD_USI	USI	PAWVVD	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	3c02861d-e508-5e46-bf66-21e3f5b5f440	f45e97cf-d44e-58a0-8d8d-d5925efd0c32
+synonym	pt-kgb9qtkf_KidsFirst	KidsFirst	pt-kgb9qtkf	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	e3445e42-3a4b-5e38-92e9-7eeb26834bdd	f45e97cf-d44e-58a0-8d8d-d5925efd0c32
+synonym	PAUPGR_USI	USI	PAUPGR	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	42f2705d-df7d-5c97-bf60-2e0ccf5a93f3	173b82fa-8331-549e-b93c-7b7ba2617f10
+synonym	PAUISA_USI	USI	PAUISA	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	f1beeb44-7ec5-5b84-ae01-0c4186b3bddb	0b6415ce-8303-5f18-a896-f24a1d7d12de
+synonym	PAWLYZ_USI	USI	PAWLYZ	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	f7d8b041-17d8-5074-af1c-a64ff84fda15	60ec7ca7-09b5-5aad-88fb-3c05485f21ba
+synonym	pt-0ykepq6d_KidsFirst	KidsFirst	pt-0ykepq6d	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	fc7cba74-903d-56a9-b576-6f7890e92295	60ec7ca7-09b5-5aad-88fb-3c05485f21ba
+synonym	PALCNS_PCDC	PCDC	PALCNS	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	ed560f0f-8adf-5437-a657-8852fdaae82a	254ab0cf-84b1-55be-9835-91ff8d8c746f
+synonym	PALCNS_USI	USI	PALCNS	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	1b896253-1643-59f7-9728-ebd028527e08	254ab0cf-84b1-55be-9835-91ff8d8c746f
+synonym	PASWIH_PCDC	PCDC	PASWIH	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	bb768471-e2cb-58dd-8229-b187e7a74d2b	94ba7f8a-4c71-5bed-8583-b45a22ea39d7
+synonym	PASWIH_USI	USI	PASWIH	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	d6e6c20d-6edb-5fd1-9494-d0e76a22a027	94ba7f8a-4c71-5bed-8583-b45a22ea39d7
+synonym	PATWUJ_PCDC	PCDC	PATWUJ	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	db02bb5c-0a9b-5a06-a56c-ec24e4e15e0f	976e43a3-c82f-5b18-acb1-a31de059c054
+synonym	PATWUJ_USI	USI	PATWUJ	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	daa7bcf2-c8be-52fc-97b1-b7980877b9ff	976e43a3-c82f-5b18-acb1-a31de059c054
+synonym	PASUYA_PCDC	PCDC	PASUYA	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	2ede1ebe-63e8-521c-b940-e637572c44f4	a07f59ff-5b52-58fe-8922-723108670494
+synonym	PASUYA_USI	USI	PASUYA	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	52b0d112-a85b-59de-b632-4fc811ca6b89	a07f59ff-5b52-58fe-8922-723108670494
+synonym	pt-wtfp1r87_KidsFirst	KidsFirst	pt-wtfp1r87	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	b4572a9e-a515-51b3-8e4f-f992bd01fdbd	a07f59ff-5b52-58fe-8922-723108670494
+synonym	PASYFC_PCDC	PCDC	PASYFC	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	884b06a2-32c1-5d74-b61a-5f58774b751d	38ae8733-9dee-53ca-956a-8d0547e3d7f9
+synonym	PASYFC_USI	USI	PASYFC	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	7bc6e2a1-b5b4-5c43-8a06-c3132a056624	38ae8733-9dee-53ca-956a-8d0547e3d7f9
+synonym	PATCNR_USI	USI	PATCNR	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	a516d6ff-6366-5db8-9ae7-28c484a4e45d	04ff57a2-79ef-58d2-a57e-8a0ad87695c1
+synonym	PAUXPX_USI	USI	PAUXPX	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	c107a4e0-bd90-5362-bea2-c17122715bfd	169ba861-da70-56f1-aedd-2616e80d3469
+synonym	pt-jr6j2nc1_KidsFirst	KidsFirst	pt-jr6j2nc1	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	95669f02-6b64-58a5-abc7-1abc273ed811	169ba861-da70-56f1-aedd-2616e80d3469
+synonym	PARFTU_PCDC	PCDC	PARFTU	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	68e19634-7f50-5544-b68d-e51b409fdc43	dc43c246-6022-52a1-8784-13e92809384e
+synonym	PARFTU_USI	USI	PARFTU	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	6d078c96-9390-5704-9fae-55865ef0933c	dc43c246-6022-52a1-8784-13e92809384e
+synonym	pt-k0ab20ea_KidsFirst	KidsFirst	pt-k0ab20ea	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	0f2378fd-b41d-50cc-9704-fa6d87c7ba30	dc43c246-6022-52a1-8784-13e92809384e
+synonym	PAVCGJ_PCDC	PCDC	PAVCGJ	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	d045ac7e-0c3e-5e84-8965-42d31509ed57	d39c38e7-5127-51e7-8c97-5ee41fdd48d9
+synonym	PAVCGJ_USI	USI	PAVCGJ	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	18becbbf-9fa0-5cfc-ae86-77068c961cfe	d39c38e7-5127-51e7-8c97-5ee41fdd48d9
+synonym	PASLZS_PCDC	PCDC	PASLZS	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	feb5d6e7-5e5b-572c-8d0e-74e4079b780d	721d7dd3-d860-56a4-8975-ea59a0a4dbeb
+synonym	PASLZS_USI	USI	PASLZS	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	ce4bcd92-c594-5811-a2e6-0eadea804ea1	721d7dd3-d860-56a4-8975-ea59a0a4dbeb
+synonym	PATUNA_PCDC	PCDC	PATUNA	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	91346bf3-5882-54cd-bac3-9cfe133d2cee	e06214d6-5f21-5f51-9382-447b1f7912ea
+synonym	PATUNA_USI	USI	PATUNA	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	1ce279f1-114a-5177-8bd7-b815e45adebe	e06214d6-5f21-5f51-9382-447b1f7912ea
+synonym	pt-x8vnvp9a_KidsFirst	KidsFirst	pt-x8vnvp9a	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	f836ad3c-28d4-5ebe-8c0d-412bdb5a3857	e06214d6-5f21-5f51-9382-447b1f7912ea
+synonym	PATNYZ_USI	USI	PATNYZ	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	db8b3417-ac4b-54df-9522-a9f2722bed6c	9f347461-c45b-5eca-b596-fa2dc22c7de3
+synonym	PAUXSH_PCDC	PCDC	PAUXSH	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	773555fd-a833-580b-b51e-b71eeea9514b	4ab16208-7f92-564c-ac5f-ecd34d43f915
+synonym	PAUXSH_USI	USI	PAUXSH	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	81e04b68-181a-5642-8c90-09d3eb23de78	4ab16208-7f92-564c-ac5f-ecd34d43f915
+synonym	pt-yhcp873x_KidsFirst	KidsFirst	pt-yhcp873x	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	4cf48bb2-6ac1-56e1-829d-4841294c018f	4ab16208-7f92-564c-ac5f-ecd34d43f915
+synonym	PARWUG_PCDC	PCDC	PARWUG	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	9a8877fd-d807-5a32-8349-386e78cf97c3	6b86ac75-70d2-5d25-afa5-7e74ee9aefcd
+synonym	PARWUG_USI	USI	PARWUG	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	50e17fd4-f966-5ba8-bcb3-7241c5433a0e	6b86ac75-70d2-5d25-afa5-7e74ee9aefcd
+synonym	PAVVTY_USI	USI	PAVVTY	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	16ef7441-771e-5f45-b63e-447b80209817	f778a56b-8caa-5028-8616-a705daed8941
+synonym	PAUKGK_USI	USI	PAUKGK	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	6ea3e3e3-a7be-5d5d-90a1-f4f67d3a626f	b6ab45f8-8913-5c87-b8e6-08aa28031baf
+synonym	PASIKX_PCDC	PCDC	PASIKX	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	a32720b4-91cd-5119-8509-4803783b51f6	55772f7c-800b-513c-a83d-48819f6402d0
+synonym	PASIKX_USI	USI	PASIKX	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	a27ddfc9-fe88-599a-af5d-2b73744437d4	55772f7c-800b-513c-a83d-48819f6402d0
+synonym	PAPEXK_PCDC	PCDC	PAPEXK	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	7adee2a8-9ef7-53a5-b68c-f6e6904c840d	75ddef0b-9037-5d1b-b1c5-13f75bdce1f5
+synonym	PAPEXK_USI	USI	PAPEXK	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	d367448c-07e0-57a1-ab89-b94c2f1c39fa	75ddef0b-9037-5d1b-b1c5-13f75bdce1f5
+synonym	PATMPD_PCDC	PCDC	PATMPD	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	08f04d23-b30e-57e0-9317-2bb85a48595a	448de6d8-8def-56e4-b853-34a205602128
+synonym	PATMPD_USI	USI	PATMPD	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	ba749339-2d09-57ab-becf-3468a894d823	448de6d8-8def-56e4-b853-34a205602128
+synonym	PANAZG_PCDC	PCDC	PANAZG	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	acb3fd23-18e9-512e-93c2-10e7966c185e	af4d12f1-141d-5368-873d-4094a94b33cd
+synonym	PANAZG_USI	USI	PANAZG	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	1813dda5-fa6a-5d4e-b677-df2dfbee7075	af4d12f1-141d-5368-873d-4094a94b33cd
+synonym	PAPYKF_USI	USI	PAPYKF	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	3af05fa9-7b24-5c96-abe0-6a813c9a09a5	62efe8a0-b72d-5b7b-b6a8-20f073372d72
+synonym	PAWVSZ_USI	USI	PAWVSZ	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	d3ff6337-435d-5b0f-ac47-daab0ac63015	39c30cd8-2ebb-52ff-9f39-9c962a66bf19
+synonym	pt-7mpqaxdy_KidsFirst	KidsFirst	pt-7mpqaxdy	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	e19c63b7-9264-5521-b9c9-e5f31c8fd96b	39c30cd8-2ebb-52ff-9f39-9c962a66bf19
+synonym	PAPREK_USI	USI	PAPREK	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	d1dcd68e-500f-56eb-aa95-8d42db7f2125	082141f8-da75-5143-a740-c5d0d7844bd3
+synonym	PAUFIG_PCDC	PCDC	PAUFIG	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	21f97115-f410-538f-ad6b-c64f84fe962a	2dc8284b-fa4d-5c18-a8d0-98111dc9139c
+synonym	PAUFIG_USI	USI	PAUFIG	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	2ab21de1-ffd0-5f94-85a5-ac906478be42	2dc8284b-fa4d-5c18-a8d0-98111dc9139c
+synonym	pt-19qgd8vt_KidsFirst	KidsFirst	pt-19qgd8vt	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	c82b0032-1e03-5129-81a0-41b968a37a5b	2dc8284b-fa4d-5c18-a8d0-98111dc9139c
+synonym	PAVMVP_USI	USI	PAVMVP	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	1b2ce895-2d57-5af9-9e6c-6fd3a96ce66c	71ea979b-5d33-5ebe-bd34-52cfaebf1678
+synonym	pt-v8re1vac_KidsFirst	KidsFirst	pt-v8re1vac	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	c1c378e3-ef49-5e8d-bcfa-b313b212c388	71ea979b-5d33-5ebe-bd34-52cfaebf1678
+synonym	PASSSN_PCDC	PCDC	PASSSN	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	a2ee0c81-f662-5a13-a8ae-645ed69a15b3	189eecc2-3f1a-5261-ad44-64b0ce39bd68
+synonym	PASSSN_USI	USI	PASSSN	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	76b992b1-d492-54c1-886e-9a96b16a041a	189eecc2-3f1a-5261-ad44-64b0ce39bd68
+synonym	PASIWI_PCDC	PCDC	PASIWI	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	ddb32c1f-250b-552c-970e-2f8f7c9ea361	68d11e97-ecf5-5fd4-84c9-49d8062155ab
+synonym	PASIWI_USI	USI	PASIWI	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	bfc604d8-ab13-51f0-a9e1-5b904dbce90c	68d11e97-ecf5-5fd4-84c9-49d8062155ab
+synonym	PATNVW_USI	USI	PATNVW	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	20457cb0-a48b-52cd-8835-46255db6e51e	f1a1d445-54d6-5b91-93c9-4e11d469321d
+synonym	PASWJV_PCDC	PCDC	PASWJV	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	c1953dc8-82b4-51ca-87d4-546ad5b60e67	5e5331de-93e8-56e2-b1b1-3dd83d9da7b0
+synonym	PASWJV_USI	USI	PASWJV	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	139dd030-9e3f-525a-8c54-4cba3c42b7ce	5e5331de-93e8-56e2-b1b1-3dd83d9da7b0
+synonym	pt-7qh6wyj5_KidsFirst	KidsFirst	pt-7qh6wyj5	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	5397dfb0-567c-58b8-81ed-c4971f0481bf	5e5331de-93e8-56e2-b1b1-3dd83d9da7b0
+synonym	PAWPPI_USI	USI	PAWPPI	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	25bc3d66-17cc-5d4a-8668-c8abc8f992c8	6b034e95-f1d5-5c9d-a2e1-9802ed7b50ea
+synonym	PATYWU_PCDC	PCDC	PATYWU	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	40d72ca4-9478-510a-996e-eabc3e601f29	63a9918b-f7cf-5f60-87b1-883f2ac57e29
+synonym	PATYWU_USI	USI	PATYWU	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	a7c5a51d-9925-5ea2-ac6d-272386cd59a6	63a9918b-f7cf-5f60-87b1-883f2ac57e29
+synonym	pt-nj3d1h8k_KidsFirst	KidsFirst	pt-nj3d1h8k	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	a3d20f87-a631-5f9f-864b-466695630425	63a9918b-f7cf-5f60-87b1-883f2ac57e29
+synonym	PASDIL_USI	USI	PASDIL	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	fb3b61c1-1879-5f70-a2b0-bb004702b861	50b742bc-3d39-5b5a-a2b2-4084469496f6
+synonym	PARMKD_PCDC	PCDC	PARMKD	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	33e72195-ca85-5ef5-b058-2a9c5792349f	6b312322-c151-5d3a-9e77-2e3153cff118
+synonym	PARMKD_USI	USI	PARMKD	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	9673be29-8541-5bce-95f5-f0cd7eb5e1ff	6b312322-c151-5d3a-9e77-2e3153cff118
+synonym	PANSXX_USI	USI	PANSXX	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	edefa4ad-69e9-52de-9997-263deef0456d	bd965458-ae60-5587-9d88-da7e45490bb7
+synonym	PASSKI_PCDC	PCDC	PASSKI	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	9ebb1019-a4cb-5067-bac8-937fe9ac8e78	f0d969e3-b86f-5b0f-af33-5ad33f7be566
+synonym	PASSKI_USI	USI	PASSKI	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	0f9d10e1-76e4-5d07-b63e-eb1452059836	f0d969e3-b86f-5b0f-af33-5ad33f7be566
+synonym	PARNJS_USI	USI	PARNJS	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	e4d29d15-5b94-550e-8324-578e261cfca6	a8b74351-b629-5118-a3f2-72e5f61f6db7
+synonym	PASXZU_PCDC	PCDC	PASXZU	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	446bf134-6b3c-5bae-b059-297a44dd3f52	dd3b7da2-0807-5e1c-93f8-deb2ce24c87c
+synonym	PASXZU_USI	USI	PASXZU	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	88b1f57c-973c-5d24-9a4e-44968e6b6a67	dd3b7da2-0807-5e1c-93f8-deb2ce24c87c
+synonym	PASGZC_PCDC	PCDC	PASGZC	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	f2320e49-9b59-5450-8cbd-5bd1316321c2	e3f6bd10-57e2-5120-8dd8-ad01faca76d4
+synonym	PASGZC_USI	USI	PASGZC	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	98622787-6c17-506d-8adb-20dce2d99d02	e3f6bd10-57e2-5120-8dd8-ad01faca76d4
+synonym	PATNGT_PCDC	PCDC	PATNGT	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	f5c4e675-0f4b-5025-a060-4b1b4695324a	0fd98cef-be44-5a0f-9e54-6c2f99a18753
+synonym	PATNGT_USI	USI	PATNGT	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	77eaa864-03da-5658-9cd6-1d60597d791f	0fd98cef-be44-5a0f-9e54-6c2f99a18753
+synonym	pt-sres15cv_KidsFirst	KidsFirst	pt-sres15cv	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	af05af18-fb5f-503a-9b1d-2ced680a5e49	0fd98cef-be44-5a0f-9e54-6c2f99a18753
+synonym	PATKWC_PCDC	PCDC	PATKWC	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	8ac5e018-29f4-5723-8a6c-66c6b3b48f19	64e681b7-c343-548f-b33d-1884aac502b4
+synonym	PATKWC_USI	USI	PATKWC	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	12285d77-3463-5e02-b767-99e644023407	64e681b7-c343-548f-b33d-1884aac502b4
+synonym	PASFYZ_USI	USI	PASFYZ	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	4c4e1bad-08b2-5ee0-810a-6f41b1c07091	dd8d110b-52e5-531d-b4b8-a6349f642d60
+synonym	PAUAHN_USI	USI	PAUAHN	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	1b18da83-f023-5937-bed5-5263eefea6f0	4928e199-1eae-5b2c-a609-d39a9edabd5c
+synonym	PAUWFI_PCDC	PCDC	PAUWFI	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	cd3861bd-e519-5098-847c-fa496b44ba3b	ada3593d-feee-59e8-85c1-f9e79912863d
+synonym	PAUWFI_USI	USI	PAUWFI	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	4a303225-4261-55d7-9e85-513d5a40ab61	ada3593d-feee-59e8-85c1-f9e79912863d
+synonym	pt-j4aqgn3h_KidsFirst	KidsFirst	pt-j4aqgn3h	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	a6f35ebd-9b03-5ee9-9942-458e793c74f3	ada3593d-feee-59e8-85c1-f9e79912863d
+synonym	PAUIFW_USI	USI	PAUIFW	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	c7938c2d-ff0f-5b52-a8bc-2eb99226aa46	83d85620-3573-5382-99b0-db9c3cc77d31
+synonym	PAUPVA_USI	USI	PAUPVA	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	45651071-5815-54f0-be62-cb814b39ee19	128382f9-4572-5332-aa1b-cf510e2c5345
+synonym	PATPXV_PCDC	PCDC	PATPXV	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	ab4b6071-4dbe-5876-b647-dac38f33c35e	3970b8d2-adfb-551c-8523-a3a56c3c0add
+synonym	PATPXV_USI	USI	PATPXV	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	76a901d5-b008-5158-b5cb-c2fe8af5be4d	3970b8d2-adfb-551c-8523-a3a56c3c0add
+synonym	PASCSM_PCDC	PCDC	PASCSM	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	d2861a51-a798-54c4-93d9-e4ecb410348f	d2a1c24d-9aca-5dd1-812c-ac399104fd12
+synonym	PASCSM_USI	USI	PASCSM	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	c845c702-ece7-5911-8b0f-c4d863441593	d2a1c24d-9aca-5dd1-812c-ac399104fd12
+synonym	PALMHC_PCDC	PCDC	PALMHC	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	fd652f6a-2639-5fe4-9d9c-610bd062b7b2	574bf272-75c9-5df5-b382-3bc487dc0489
+synonym	PALMHC_USI	USI	PALMHC	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	65826f43-47cc-5d56-8113-bce349833f42	574bf272-75c9-5df5-b382-3bc487dc0489
+synonym	PAPWFD_USI	USI	PAPWFD	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	6ecfdb49-0b49-5c80-9984-070d3bd1cb4b	152a43b6-c313-537f-8f65-deb492145abf
+synonym	PAUSNP_PCDC	PCDC	PAUSNP	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	88e71297-8f9a-5787-aa5b-863953ebe9dc	d1671c85-7c0d-5f86-8fa1-817ec18bf9ca
+synonym	PAUSNP_USI	USI	PAUSNP	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	7aa60acc-7f32-5066-a5c4-46db1b0fc56f	d1671c85-7c0d-5f86-8fa1-817ec18bf9ca
+synonym	pt-ba5safjq_KidsFirst	KidsFirst	pt-ba5safjq	Kids First IDs	organizational_identifier	https://commonfund.nih.gov/KidsFirst	c0fe79d8-744b-5d72-a62b-94bc1ca25965	d1671c85-7c0d-5f86-8fa1-817ec18bf9ca
+synonym	PAJALV_PCDC	PCDC	PAJALV	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	99faa937-4ca4-5edf-97c7-72fc84050698	20a2c81f-55de-50e5-af9b-13503943987d
+synonym	PAJALV_USI	USI	PAJALV	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	edb2b42f-bd17-532b-b72e-7840142b11cf	20a2c81f-55de-50e5-af9b-13503943987d

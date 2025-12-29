@@ -1,1 +1,1 @@
-type	id	treatment_response_id	response	age_at_response	response_category	response_system	participant.participant_id
+type	id 	treatment_response_id	response	age_at_response	response_category	response_system	participant.id

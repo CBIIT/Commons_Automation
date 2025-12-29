@@ -1,0 +1,9 @@
+type	synonym_id	repository_of_synonym_id	associated_id	domain_description	domain_category	data_location	id	participant.id
+synonym	671301_dbgap_subject_id	dbgap_subject_id	671301	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	a40fdada-026f-5184-a199-5324ebb39dbe	1e4b682b-8365-586b-84da-d68fc90c460e
+synonym	PAMYEF_PCDC	PCDC	PAMYEF	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	3de4fd7a-2423-50fa-adc8-5fcf6cb82708	1e4b682b-8365-586b-84da-d68fc90c460e
+synonym	PAMYEF_USI	USI	PAMYEF	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	94cd2b37-0c2b-51c9-8fb0-786202f68b5f	1e4b682b-8365-586b-84da-d68fc90c460e
+synonym	TARGET-30-PAMYEF_TARGET	TARGET	TARGET-30-PAMYEF	Therapeutically Applicable Research to Generate Effective Treatments	study	https://www.cancer.gov/ccg/research/genome-sequencing/target	e6f7bf89-f2a6-5263-b5cf-9f6b0429d0d5	1e4b682b-8365-586b-84da-d68fc90c460e
+synonym	671337_dbgap_subject_id	dbgap_subject_id	671337	dbGaP-generated person level ID	organizational_identifier	https://www.ncbi.nlm.nih.gov/gap/	8a9af406-2829-546d-a70f-4699949451ae	f924a8ca-1382-5053-8ef6-11df646848ef
+synonym	PASXWX_PCDC	PCDC	PASXWX	Pediatric Cancer Data Commons	organizational_identifier	https://commons.cri.uchicago.edu/pcdc/	93b5c8d4-ae41-5790-9b1a-274be9e3ff88	f924a8ca-1382-5053-8ef6-11df646848ef
+synonym	PASXWX_USI	USI	PASXWX	COG USI	organizational_identifier	https://www.childrensoncologygroup.org/	421f280b-a8c0-554d-b726-2fb3d3b036fe	f924a8ca-1382-5053-8ef6-11df646848ef
+synonym	TARGET-30-PASXWX_TARGET	TARGET	TARGET-30-PASXWX	Therapeutically Applicable Research to Generate Effective Treatments	study	https://www.cancer.gov/ccg/research/genome-sequencing/target	29ce04a9-d4e7-5ca0-94b2-9aacc96e7797	f924a8ca-1382-5053-8ef6-11df646848ef
