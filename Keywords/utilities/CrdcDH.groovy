@@ -70,6 +70,12 @@ import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 import com.kms.katalon.core.configuration.RunConfiguration;
 import java.nio.file.Files;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.ss.usermodel.WorkbookFactory;
+import org.apache.poi.ss.usermodel.Sheet;
+
+
+
 
 
 class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
@@ -377,7 +383,7 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 			'GrantContractNumber-Txtbx'            : 'grant-number',
 			'NCIProgramOfficer-Txtbx'              : 'nci-prog-officer',
 			// below has been removed from UI
-		//	'NciGenProgAdministrator-Txtbx'        : 'nci-genomic-prog-admin'
+			//	'NciGenProgAdministrator-Txtbx'        : 'nci-genomic-prog-admin'
 		]
 
 		fields.each { testObjectId, columnName ->
@@ -552,29 +558,29 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 	@Keyword
 	public static void enterTargetDeliveryAndExpectedPublicationDate() {
 		TimeZone.setDefault(TimeZone.getTimeZone("EDT"))
-		
+
 		//String currentDate = new SimpleDateFormat("mm/dd/yyyy").format(new Date())
 		Thread.sleep(10000)
 		WebUI.takeScreenshot("./OutputFiles/BeforeEnteringData1.png")
-		
+
 		//clearText(findTestObject(ePath+'ExpctdPubliDate-Clndr'))
 		//WebUI.setText(findTestObject(ePath+'ExpctdPubliDate-Clndr'), clearText() + getCurrentDate("MM/dd/yyyy"));
-		
-		
+
+
 		WebUI.takeScreenshot("./OutputFiles/BeforeEnteringData2.png")
 		WebUI.setText(findTestObject('CRDC/SubmissionRequest/Section-D/TragetSubmDelivryDate-TxtBx'), clearText() + "05/12/2026");
-		
+
 		WebUI.setText(findTestObject('CRDC/SubmissionRequest/Section-D/ExpctdPublicationDate-TxtBx'), clearText() + "05/12/2026");
 		//TestObject targetSubDeDate = findTestObject('CRDC/SubmissionRequest/Section-D/TragetSubmDelivryDate-TxtBx');
-		
-//		WebUI.scrollToElement(targetSubDeDate, 10)
-//		WebUI.waitForElementPresent(targetSubDeDate, 10)
-//		WebUI.setText(targetSubDeDate, currentDate, FailureHandling.STOP_ON_FAILURE)
-//		WebUI.takeScreenshot("./OutputFiles/BeforeEnteringData3.png")
-//		TestObject expectedPubData = findTestObject('CRDC/SubmissionRequest/Section-D/ExpctdPublicationDate-TxtBx');
-//		WebUI.scrollToElement(expectedPubData, 10)
-//		WebUI.waitForElementPresent(expectedPubData, 10)
-//		WebUI.setText(expectedPubData, currentDate, FailureHandling.STOP_ON_FAILURE)
+
+		//		WebUI.scrollToElement(targetSubDeDate, 10)
+		//		WebUI.waitForElementPresent(targetSubDeDate, 10)
+		//		WebUI.setText(targetSubDeDate, currentDate, FailureHandling.STOP_ON_FAILURE)
+		//		WebUI.takeScreenshot("./OutputFiles/BeforeEnteringData3.png")
+		//		TestObject expectedPubData = findTestObject('CRDC/SubmissionRequest/Section-D/ExpctdPublicationDate-TxtBx');
+		//		WebUI.scrollToElement(expectedPubData, 10)
+		//		WebUI.waitForElementPresent(expectedPubData, 10)
+		//		WebUI.setText(expectedPubData, currentDate, FailureHandling.STOP_ON_FAILURE)
 	}
 
 
@@ -1072,7 +1078,7 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 
 		TestData testData = findTestData("CRDC/SubmissionRequest/section-d");
 		String currentDate = new SimpleDateFormat("MM/dd/yyyy").format(new Date())
-		
+
 		actual = WebUI.getText(findTestObject(ePath+'TragetSubmDelivryDate-Txt'))
 		expctd = "05/12/2026";
 		KeywordUtil.logInfo("Actual target data submission delivery date is: " + actual +" Expected target data submission delivery date is: "+expctd);
@@ -1447,7 +1453,7 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 			KeywordUtil.markFailed("Exception in verifyDataViewMatchesMetadata(): " + e.getMessage());
 		}
 	}
-// ===============================
+	// ===============================
 	//   FULL MEGA-WRAPPER TEMPLATE
 	//   Paste into your CrdcDH.groovy
 	// ===============================
@@ -2826,6 +2832,5 @@ class CrdcDH extends TestRunner implements Comparator<List<XSSFCell>>{
 		println("\n==========================")
 		println(" VALIDATION COMPLETE ✔")
 		println("==========================\n")
-
-
+	}
 }
