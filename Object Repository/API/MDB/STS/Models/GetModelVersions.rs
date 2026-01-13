@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>ModelNodes</name>
+   <name>GetModelVersions</name>
    <tag></tag>
-   <elementGuidId>fc797b48-a823-4410-97f8-6e9bbaf8f21d</elementGuidId>
+   <elementGuidId>b739779e-ec22-4a96-9db8-5f2c4d804bec</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -114,7 +114,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${GlobalVariable.baseUrl}/model/${GlobalVariable.modelHandle}/version/${GlobalVariable.versionString}/nodes</restUrl>
+   <restUrl>${GlobalVariable.baseUrl}/model/${modelHandle}/versions</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

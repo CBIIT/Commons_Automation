@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>Model</name>
+   <name>GetModelLatestVersion</name>
    <tag></tag>
-   <elementGuidId>80196d4b-0011-4faa-88b2-94ed137a9db2</elementGuidId>
+   <elementGuidId>aa143451-ecd8-437f-bc53-bcb0573f0cf8</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -114,7 +114,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${GlobalVariable.baseUrl}/models/</restUrl>
+   <restUrl>${GlobalVariable.baseUrl}/model/${modelHandle}/latest-version</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
