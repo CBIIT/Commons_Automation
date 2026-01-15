@@ -543,47 +543,6 @@ class MDB_Parity {
 		assert rProps.data instanceof List :
 		"[${modelVersionHandle}] Expected List, got ${rProps.data?.getClass()}"
 
-		//		List<Map> apiProps = normalize((List) rProps.data, { p ->
-		//			[
-		//				model  : modelHandle,
-		//				version: versionString,
-		//				node   : nodeHandle,
-		//				handle : p.handle,
-		//				nanoid : p.nanoid,
-		//				//normalize boolean and desc fields
-		//				is_key      : toBoolOrNull(p.is_key),
-		//				is_strict	: toBoolOrNull(p.is_strict),
-		//				is_nullable : toBoolOrNull(p.is_nullable),
-		//				is_required : toBoolOrNull(p.is_required),
-		//				desc        : normalizeDesc(p.desc)
-		//			]
-		//		}, "API-${modelVersionHandle}")
-		//
-		//		// --- Neo4j ---
-		//		String cypher = getCypherQuery('Data Files/API/MDB/CypherQueries', 'verifyModelNodeProperties')
-		//
-		//		List<Map> neoPropsRaw = fetchFromNeo4j(cypher, [
-		//			modelHandle  : modelHandle,
-		//			versionString: versionString,
-		//			nodeHandle   : nodeHandle
-		//		])
-		//
-		//		List<Map> neoProps = normalize(neoPropsRaw, { r ->
-		//			[
-		//				model       : r.model,
-		//				version     : r.version,
-		//				node        : r.node,
-		//				handle      : r.handle,
-		//				nanoid      : r.nanoid,
-		//				// match the API fields:
-		//				is_key      : toBoolOrNull(r.is_key),
-		//				is_strict	: toBoolOrNull(r.is_strict),
-		//				is_nullable : toBoolOrNull(r.is_nullable),
-		//				is_required : toBoolOrNull(r.is_required),
-		//				desc        : normalizeDesc(r.desc)
-		//			]
-		//		}, "NEO-${modelVersionHandle}")
-
 		List<Map> apiProps = normalizeNodePropertiesFromApi(
 				(List<Map>) rProps.data,
 				modelHandle,
