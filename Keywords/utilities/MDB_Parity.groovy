@@ -8,10 +8,9 @@ import java.net.URLEncoder
 import java.nio.charset.StandardCharsets
 
 /**
- * Generic parity utilities for MDB / STS API vs Neo4j.
+ * Parity utilities for MDB / STS API vs Neo4j.
  *
- * Goal: keep test cases very thin and reuse these methods
- * across multiple endpoints (models, nodes, etc.).
+ * Goal: keep test cases very thin and reuse these methods across multiple endpoints (models, nodes, etc.).
  */
 class MDB_Parity {
 
@@ -26,7 +25,7 @@ class MDB_Parity {
 		def data = API_Functions.parseResponse(response)
 		return [ response: response, data: data ]
 	}
-	
+
 	/**
 	 * Overload fetchAndParse
 	 */
@@ -35,7 +34,7 @@ class MDB_Parity {
 		def data = API_Functions.parseResponse(response)
 		return [ response: response, data: data ]
 	}
-	
+
 	/**
 	 * Basic "list-shaped" API validation.
 	 */
@@ -69,7 +68,7 @@ class MDB_Parity {
 		KeywordUtil.logInfo("Parsed ${label} response:\n" +
 				JsonOutput.prettyPrint(JsonOutput.toJson(data)))
 	}
-	
+
 	/**
 	 * Get Cypher query from Data Files
 	 */
@@ -121,15 +120,15 @@ class MDB_Parity {
 		}
 		return normalized
 	}
-	
+
 	/** 
-	* URLEncoder encodes space as '+', which is for query strings.
-	* Convert '+' to '%20' for URL paths.
-	*/
+	 * URLEncoder encodes space as '+', which is for query strings.
+	 * Convert '+' to '%20' for URL paths.
+	 */
 	static String encodePath(String s) {
 		return URLEncoder.encode(s, StandardCharsets.UTF_8.toString()).replace("+", "%20")
 	}
-	
+
 	/**
 	 * Normalize fields for /properties from API response
 	 */
@@ -150,7 +149,7 @@ class MDB_Parity {
 			]
 		}
 	}
-	
+
 	/**
 	 * Normalize fields for /properties from Neo4j response
 	 */
@@ -171,7 +170,7 @@ class MDB_Parity {
 			]
 		}
 	}
-	
+
 	/**
 	 * Normalize boolean fields for /properties
 	 */
@@ -179,11 +178,11 @@ class MDB_Parity {
 		if (v == null) return null
 		if (v instanceof Boolean) return (Boolean)v
 		def s = v.toString().trim().toLowerCase()
-		if (s in ["true","t","1","yes","y"]) return true
-		if (s in ["false","f","0","no","n"]) return false
+		if (s in ["true", "t", "1", "yes", "y"]) return true
+		if (s in ["false", "f", "0", "no", "n"]) return false
 		return null
 	}
-	
+
 	/**
 	 * Normalize desc field for /properties
 	 */
@@ -191,11 +190,11 @@ class MDB_Parity {
 		if (v == null) return null
 		def s = v.toString().trim()
 		// optional: make "-" and "\-" equivalent
-		if (s in ["\\-","-"]) return "-"
+		if (s in ["\\-", "-"]) return "-"
 		return s
 	}
-	
-	
+
+
 
 	// ========= Neo4j helper =========
 
@@ -267,6 +266,7 @@ class MDB_Parity {
 
 	/**
 	 * Parity check for /models endpoint
+	 * Atomic verification method and also method to run for test case
 	 */
 	static void verifyModelsParity() {
 		// 1) Fetch & parse
@@ -295,7 +295,7 @@ class MDB_Parity {
 
 		// 6) Fetch Neo4j models
 		String cypher = getCypherQuery('Data Files/API/MDB/CypherQueries', 'verifyModels')
-		
+
 		List<Map> neo4jModels = fetchFromNeo4j(cypher, [:])
 
 		// 7) Generic comparison on key fields
@@ -315,16 +315,17 @@ class MDB_Parity {
 
 	/**
 	 * Parity check for Node objects in a specific model version - /nodes endpoint
+	 * Atomic verification method
 	 */
 	static void verifyModelNodesParity(String handle, String version) {
 		KeywordUtil.logInfo("[ModelNodes] Verifying nodes parity for handle='${handle}', version='${version}'")
 
 		// --- 1) Fetch nodes from API ---
 		def result = fetchAndParse(
-			'Object Repository/API/MDB/STS/Models/GetModelNodes',
-			[modelHandle: handle, versionString: version]
-		  )
-		  
+				'Object Repository/API/MDB/STS/Models/GetModelNodes',
+				[modelHandle: handle, versionString: version]
+				)
+
 		ResponseObject response = result.response
 		def data = result.data
 
@@ -347,7 +348,7 @@ class MDB_Parity {
 
 		// 4) Fetch Neo4j nodes
 		String cypher = getCypherQuery('Data Files/API/MDB/CypherQueries', 'verifyModelNodes')
-		
+
 		List<Map> neo4jNodes = Neo4j_Functions.runQuery(cypher, [handle: handle, version: version])
 
 
@@ -367,7 +368,7 @@ class MDB_Parity {
 
 	/**
 	 * For every model/version returned by /v2/models, run nodes parity via verifyModelNodesParity(handle, version) - /nodes endpoint
-	 * Wrapper method for test case
+	 * Wrapper method to run for test case
 	 *
 	 * You can control behavior via:
 	 *  - latestOnly: if true, only tests entries where is_latest_version == true
@@ -422,55 +423,56 @@ class MDB_Parity {
 
 		KeywordUtil.logInfo("[ModelNodes-All] Completed nodes parity for all selected model versions.")
 	}
-	
-	
+
+
 	/**
 	 * For every model returned by /models, verify version parity - /versions endpoint
+	 * Atomic verification method and also method to run for test case
 	 * */
 	static void verifyModelVersionsParityAllHandles() {
 		KeywordUtil.logInfo("[ModelVersions-All] Starting model versions parity across all handles.")
-	
+
 		// 1) Call /v2/models and extract unique handles
 		def resultModels = fetchAndParse('Object Repository/API/MDB/STS/Models/GetModels')
 		ResponseObject respModels = resultModels.response
 		def dataModels = resultModels.data
-	
+
 		validateListResponse(respModels, dataModels, "models", ['handle'])
 		List<Map> models = (List) dataModels
-	
+
 		// Extract unique handles (remove duplicates)
 		Set<String> handles = models.collect { it.handle }
-								   .findAll { it != null && it.toString().trim() != "" }
-								   .toSet()
-	
+		.findAll { it != null && it.toString().trim() != "" }
+		.toSet()
+
 		KeywordUtil.logInfo("[ModelVersions-All] Unique model handles found: ${handles.size()}")
 		KeywordUtil.logInfo("[ModelVersions-All] Handles: " + handles.sort().join(", "))
-	
+
 		if (handles.isEmpty()) {
 			KeywordUtil.markFailedAndStop("[ModelVersions-All] FAILURE: No model handles found from /models")
 		}
-	
+
 		// 2) For each handle, call /model/{handle}/versions and compare vs Neo4j
 		handles.sort().each { String handle ->
 			KeywordUtil.logInfo("[ModelVersions-All] >>> Testing versions for model handle: ${handle}")
-	
+
 			// --- API versions call ---
 			ResponseObject respVersions =
-			API_Functions.sendRequestAndCaptureResponse(
-				'Object Repository/API/MDB/STS/Models/GetModelVersions',
-				[modelHandle: handle]
-			)
-			
+					API_Functions.sendRequestAndCaptureResponse(
+					'Object Repository/API/MDB/STS/Models/GetModelVersions',
+					[modelHandle: handle]
+					)
+
 			def dataVersions = API_Functions.parseResponse(respVersions)
-		
-	
+
+
 			// Expect list of versions (strings or objects depending on API)
 			assert respVersions.getStatusCode() == 200 :
-				"[ModelVersions(${handle})] Expected 200, got ${respVersions.getStatusCode()}"
-	
+			"[ModelVersions(${handle})] Expected 200, got ${respVersions.getStatusCode()}"
+
 			assert dataVersions instanceof List :
-				"[ModelVersions(${handle})] Expected a List from /versions, got: ${dataVersions?.getClass()}"
-	
+			"[ModelVersions(${handle})] Expected a List from /versions, got: ${dataVersions?.getClass()}"
+
 			// Normalize API versions → List<Map> like [[version:'x'], ...]
 			List<Map> apiVersions = normalize((List) dataVersions, { v ->
 				// handle both shapes:
@@ -479,159 +481,209 @@ class MDB_Parity {
 				def ver = (v instanceof Map) ? v.version : v
 				[ version: ver ]
 			}, "API-Versions(${handle})")
-	
+
 			// --- Neo4j versions query ---
 			String cypher = getCypherQuery('Data Files/API/MDB/CypherQueries', 'verifyModelVersions')
-			
+
 			List<Map> neo4jVersions = fetchFromNeo4j(cypher, [handle: handle])
-	
+
 			// Compare
 			compareLists(
-				apiVersions,
-				neo4jVersions,
-				['version'],
-				"ModelVersions(${handle})"
-			)
-	
+					apiVersions,
+					neo4jVersions,
+					['version'],
+					"ModelVersions(${handle})"
+					)
+
 			KeywordUtil.logInfo("[ModelVersions-All] <<< PASSED versions parity for ${handle}")
 		}
-	
+
 		KeywordUtil.logInfo("[ModelVersions-All] Completed model versions parity across all handles.")
 	}
-	
-	
+
+
 	/**
 	 * Verify node properties parity by model, version, and node - /properties endpoint
+	 * Atomic verification method
 	 **/
 	static void verifyNodePropertiesParity(String modelHandle, String versionString, String nodeHandle) {
-		String ctx = "NodeProperties(${modelHandle}:${versionString}:${nodeHandle})"
-		KeywordUtil.logInfo("[${ctx}] Verifying properties parity...")
-	
+		String modelVersionHandle = "NodeProperties(${modelHandle}:${versionString}:${nodeHandle})"
+		KeywordUtil.logInfo("[${modelVersionHandle}] Verifying properties parity...")
+
 		// --- API ---
 		def rProps = fetchAndParse(
-			'Object Repository/API/MDB/STS/Models/GetNodeProperties',
-			[modelHandle: modelHandle, versionString: versionString, nodeHandle: encodePath(nodeHandle)]
-		)
-		
+				'Object Repository/API/MDB/STS/Models/GetNodeProperties',
+				[modelHandle: modelHandle, versionString: versionString, nodeHandle: encodePath(nodeHandle)]
+				)
+
 		int status = rProps.response.getStatusCode()
-		
+
 		// --- if 404 status = node has no properties (valid case) ---
 		if (status == 404) {
-			KeywordUtil.logInfo("[${ctx}] API returned 404 (treating as no properties). Verifying Neo4j is also empty.")
-	
-			String cypher = '''
-			MATCH (n:node { model: $modelHandle, version: $versionString, handle: $nodeHandle })
-			MATCH (n)-[:has_property]->(p:property)
-			RETURN p
-			'''
-	
-			List<Map> neoProps = fetchFromNeo4j(cypher, [
+			KeywordUtil.logInfo("[${modelVersionHandle}] API returned 404 (treating as no properties). Verifying Neo4j is also empty.")
+
+			String cypher404 = getCypherQuery('Data Files/API/MDB/CypherQueries', 'verifyModelNodePropertiesEmpty')
+
+			List<Map> neoProps = fetchFromNeo4j(cypher404, [
 				modelHandle  : modelHandle,
 				versionString: versionString,
 				nodeHandle   : nodeHandle
 			])
-	
+
 			assert neoProps.isEmpty() :
-				"[${ctx}] API returned 404 but Neo4j returned ${neoProps.size()} properties"
-	
+			"[${modelVersionHandle}] API returned 404 but Neo4j returned ${neoProps.size()} properties"
+
 			return
 		}
-	
+
 		// --- Otherwise must be 200 ---
 		assert status == 200 :
-			"[${ctx}] Expected 200, got ${status}"
-	
+		"[${modelVersionHandle}] Expected 200, got ${status}"
+
 		assert rProps.data instanceof List :
-			"[${ctx}] Expected List, got ${rProps.data?.getClass()}"
-	
-		List<Map> apiProps = normalize((List) rProps.data, { p ->
-			[
-				model  : modelHandle,
-				version: versionString,
-				node   : nodeHandle,
-				handle : p.handle,
-				nanoid : p.nanoid
-			]
-		}, "API-${ctx}")
-	
+		"[${modelVersionHandle}] Expected List, got ${rProps.data?.getClass()}"
+
+		//		List<Map> apiProps = normalize((List) rProps.data, { p ->
+		//			[
+		//				model  : modelHandle,
+		//				version: versionString,
+		//				node   : nodeHandle,
+		//				handle : p.handle,
+		//				nanoid : p.nanoid,
+		//				//normalize boolean and desc fields
+		//				is_key      : toBoolOrNull(p.is_key),
+		//				is_strict	: toBoolOrNull(p.is_strict),
+		//				is_nullable : toBoolOrNull(p.is_nullable),
+		//				is_required : toBoolOrNull(p.is_required),
+		//				desc        : normalizeDesc(p.desc)
+		//			]
+		//		}, "API-${modelVersionHandle}")
+		//
+		//		// --- Neo4j ---
+		//		String cypher = getCypherQuery('Data Files/API/MDB/CypherQueries', 'verifyModelNodeProperties')
+		//
+		//		List<Map> neoPropsRaw = fetchFromNeo4j(cypher, [
+		//			modelHandle  : modelHandle,
+		//			versionString: versionString,
+		//			nodeHandle   : nodeHandle
+		//		])
+		//
+		//		List<Map> neoProps = normalize(neoPropsRaw, { r ->
+		//			[
+		//				model       : r.model,
+		//				version     : r.version,
+		//				node        : r.node,
+		//				handle      : r.handle,
+		//				nanoid      : r.nanoid,
+		//				// match the API fields:
+		//				is_key      : toBoolOrNull(r.is_key),
+		//				is_strict	: toBoolOrNull(r.is_strict),
+		//				is_nullable : toBoolOrNull(r.is_nullable),
+		//				is_required : toBoolOrNull(r.is_required),
+		//				desc        : normalizeDesc(r.desc)
+		//			]
+		//		}, "NEO-${modelVersionHandle}")
+
+		List<Map> apiProps = normalizeNodePropertiesFromApi(
+				(List<Map>) rProps.data,
+				modelHandle,
+				versionString,
+				nodeHandle
+				)
+
 		// --- Neo4j ---
 		String cypher = getCypherQuery('Data Files/API/MDB/CypherQueries', 'verifyModelNodeProperties')
 
-		List<Map> neoProps = fetchFromNeo4j(cypher, [
+		List<Map> neoPropsRaw = fetchFromNeo4j(cypher, [
 			modelHandle  : modelHandle,
 			versionString: versionString,
 			nodeHandle   : nodeHandle
 		])
-	
+
+		List<Map> neoProps = normalizeNodePropertiesFromNeo(neoPropsRaw)
+
+		// Optional: stable sort for logs / deterministic output
+		apiProps = normalize(apiProps, { it }, "API-${modelVersionHandle}")
+		neoProps = normalize(neoProps, { it }, "NEO-${modelVersionHandle}")
+
 		compareLists(
-			apiProps,
-			neoProps,
-			['model', 'version', 'node', 'handle', 'nanoid'],
-			ctx
-		)
+				apiProps,
+				neoProps,
+				[
+					'model',
+					'version',
+					'node',
+					'handle',
+					'nanoid',
+					'is_key',
+					'is_strict',
+					'is_nullable',
+					'is_required',
+					'value_domain',
+					'desc'
+				],
+				modelVersionHandle
+				)
 	}
-	
+
 	/**
-	 * Verify node properties parity by model for latest version via verifyNodePropertiesParity(modelHandle, versionString, nodeHandle) - /properties endpoint
+	 * Get latest version for model, get its nodes, and verify properties parity via verifyNodePropertiesParity(modelHandle, versionString, nodeHandle) - /properties endpoint
 	 **/
 	static void verifyModelNodePropertiesParityLatest(String modelHandle) {
 		// latest version
 		def rLatest = fetchAndParse(
-			'Object Repository/API/MDB/STS/Models/GetModelLatestVersion',
-			[modelHandle: modelHandle]
-		)
+				'Object Repository/API/MDB/STS/Models/GetModelLatestVersion',
+				[modelHandle: modelHandle]
+				)
 		assert rLatest.response.getStatusCode() == 200 :
-			"[LatestVersion(${modelHandle})] Expected 200, got ${rLatest.response.getStatusCode()}"
-	
+		"[LatestVersion(${modelHandle})] Expected 200, got ${rLatest.response.getStatusCode()}"
+
 		def latestData = rLatest.data
 		String versionString = (latestData instanceof Map) ? latestData.version?.toString() : latestData?.toString()
 		versionString = versionString?.trim()
 		if (!versionString) KeywordUtil.markFailedAndStop("[LatestVersion(${modelHandle})] Missing version")
-	
-		// nodes
+
+		//Get nodes for model
 		def rNodes = fetchAndParse(
-			'Object Repository/API/MDB/STS/Models/GetModelNodes',
-			[modelHandle: modelHandle, versionString: versionString]
-		)
+				'Object Repository/API/MDB/STS/Models/GetModelNodes',
+				[modelHandle: modelHandle, versionString: versionString]
+				)
 		validateListResponse(rNodes.response, rNodes.data, "nodes", ['handle'])
-	
+
 		List<Map> nodes = (List) rNodes.data
-	
+
 		nodes.each { n ->
 			String nodeHandle = n.handle?.toString()
 			if (!nodeHandle) return
-			verifyNodePropertiesParity(modelHandle, versionString, nodeHandle)
+				verifyNodePropertiesParity(modelHandle, versionString, nodeHandle)
 		}
 	}
-	
+
 	/**
-	 * Verify node properties parity by models via verifyModelNodePropertiesParityLatest(modelHandle) - /properties endpoint
-	 * Wrapper method for test case
+	 * Get models and verify node properties parity via verifyModelNodePropertiesParityLatest(modelHandle) - /properties endpoint
+	 * Wrapper method to run for test case
 	 **/
 	static void verifyAllModelsNodePropertiesParityLatest(List<String> handlesFilter = []) {
 		KeywordUtil.logInfo("[NodeProperties-All] Starting node->properties parity for all models (latest-version). filter=${handlesFilter}")
-	
+
 		def rModels = fetchAndParse('Object Repository/API/MDB/STS/Models/GetModels')
 		validateListResponse(rModels.response, rModels.data, "models", ['handle'])
-	
+
 		List<Map> models = (List) rModels.data
 		Set<String> handles = models.collect { it.handle }
-			.findAll { it != null && it.toString().trim() != "" }
-			.toSet()
-	
+		.findAll { it != null && it.toString().trim() != "" }
+		.toSet()
+
 		if (!handlesFilter.isEmpty()) {
 			handles = handles.findAll { it in handlesFilter }.toSet()
 		}
-	
+
 		handles.sort().each { String h ->
 			KeywordUtil.logInfo("[NodeProperties-All] >>> Model=${h}")
 			verifyModelNodePropertiesParityLatest(h)
 			KeywordUtil.logInfo("[NodeProperties-All] <<< Model=${h} complete")
 		}
-	
+
 		KeywordUtil.logInfo("[NodeProperties-All] Completed.")
 	}
-	
-	
-	
 }
