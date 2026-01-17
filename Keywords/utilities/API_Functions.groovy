@@ -88,6 +88,11 @@ class API_Functions {
 		return response
 	}
 
+	//Overload sendRequestAndCaptureResponse
+	static ResponseObject sendRequestAndCaptureResponse(String objectPath, Map variables) {
+		def testObject = findTestObject(objectPath, variables)
+		return WS.sendRequest(testObject)
+	}
 
 
 	//	// Function to parse JSON response
@@ -154,13 +159,13 @@ class API_Functions {
 					KeywordUtil.markFailedAndStop("No entry with 'source: ccdi-ecDNA' found in the response.")
 				}
 				return ecdnaEntry
-				
+
 			case 'ccdi-IUSCCC':
-			def iuEntry = responseData.find { it.source == 'ccdi-iusccc-pst' }
-			if (iuEntry == null) {
-				KeywordUtil.markFailedAndStop("No entry with 'source: ccdi-IUSCCC' found in the response.")
-			}
-			return iuEntry
+				def iuEntry = responseData.find { it.source == 'ccdi-iusccc-pst' }
+				if (iuEntry == null) {
+					KeywordUtil.markFailedAndStop("No entry with 'source: ccdi-IUSCCC' found in the response.")
+				}
+				return iuEntry
 
 			default:
 				KeywordUtil.markFailedAndStop("ERROR - Check API_Functions.findEntry() -- No entry found for the provided key: ${key}")
@@ -199,10 +204,10 @@ class API_Functions {
 
 	// Function to compare API responses
 	static void compareAPIResponses(def singleNodeData, def AlextractedEntry, def key) {
-		
+
 		KeywordUtil.logInfo("${key} response from individual node - ${singleNodeData}")
 		KeywordUtil.logInfo("${key} entry in AL - ${AlextractedEntry}")
-			
+
 		if (singleNodeData == null) {
 			assert false : "${key} - singleNodeData is null."
 		}
@@ -275,7 +280,7 @@ class API_Functions {
 		}
 
 		//assert isContained : "The ${key} entry does not match the single node data."
-		
+
 		// ADDED: flag extras that appear only in AL (symmetry check)
 		def nodeKeys = (nodeValues.collect { it?.value } as Set) ?: [] as Set
 		def aggKeys  = (aggValues.collect { it?.value } as Set) ?: [] as Set
@@ -284,7 +289,7 @@ class API_Functions {
 			isContained = false
 			KeywordUtil.markWarning("Extra values present only in AL for ${key}: ${extrasInAL}")
 		}
-	
+
 		assert isContained : "The ${key} entry does not match the single node data."
 		KeywordUtil.markPassed("${key} - AL matches node") // ADDED
 	}
