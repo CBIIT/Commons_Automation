@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_API_MDB-STS_ModelVersions</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>38248dae-f7b2-416e-856a-384c9e977221</testCaseGuid>
+</TestCaseEntity>
