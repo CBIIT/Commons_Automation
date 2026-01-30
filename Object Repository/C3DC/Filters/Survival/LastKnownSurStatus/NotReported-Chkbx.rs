@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Last Known Survival Status_Not Reported&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Last Known Survival Status_Not reported&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Last Known Survival Status_Not Reported&quot;]</value>
-      <webElementGuid>8336869e-350c-4a65-b03e-7d91797deb80</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Last Known Survival Status_Not reported&quot;]</value>
+      <webElementGuid>7a14cc40-9da3-45ce-92e2-6046a9585bf9</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

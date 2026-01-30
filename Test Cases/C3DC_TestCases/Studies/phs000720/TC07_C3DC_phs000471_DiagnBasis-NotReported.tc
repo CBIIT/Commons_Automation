@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC07_C3DC_phs000471_DiagnBasis-NotReported</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>bf1d1d73-695b-499b-9993-219647faad45</testCaseGuid>
-</TestCaseEntity>

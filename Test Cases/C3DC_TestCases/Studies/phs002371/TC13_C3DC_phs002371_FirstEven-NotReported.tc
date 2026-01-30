@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC13_C3DC_phs002371_FirstEven-NotReported</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>b6108f96-ef35-4dca-bae9-7a80380cf2e0</testCaseGuid>
-</TestCaseEntity>

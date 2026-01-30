@@ -411,7 +411,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		System.out.println("This is the value of table body: "+GlobalVariable.G_cannine_caseTblBdy)
 
 		//	driver.manage().window().maximize()  commenting to check the error in INS
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(tbl_bdy)));
+		//wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(tbl_bdy)));
 		scrolltoViewjs(driver.findElement(By.xpath(tbl_bdy)))
 		System.out.println("Scrolled into view and ready to click again")
 		clickElement(driver.findElement(By.xpath(tbl_bdy)));
@@ -530,66 +530,66 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 				hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
 			}
 
-//			//******** CCDI function starts here ********
-//		}else if(appKey.equals("CCDI")){
-//			System.out.println ("Control is about to go to case switch ")
-//			switchCCDI = getPageSwitch();
-//			System.out.println ("Control is about to go to the switch for CCDI ")
-//			switchString = "CCDI";
-//			System.out.println ("This is the value of CCDI switch string returned by getcurrentpage function: "+switchCCDI)
-//
-//			columns_count = (colHeader.size())
-//			columns_count=columns_count-1;
-//			System.out.println("Inside CCDI switch case for header data::  " +columns_count)
-//
-//			//If the column header is Study Status or Manifest, ignore it from data collection and ignore from writing it to output file
-//
-//			for(int c=1;c<=columns_count;c++){
-//				if (colHeader.get(c).getAttribute("innerText")!=("Manifest")){
-//					hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
-//				}
-//			}
+			//			//******** CCDI function starts here ********
+			//		}else if(appKey.equals("CCDI")){
+			//			System.out.println ("Control is about to go to case switch ")
+			//			switchCCDI = getPageSwitch();
+			//			System.out.println ("Control is about to go to the switch for CCDI ")
+			//			switchString = "CCDI";
+			//			System.out.println ("This is the value of CCDI switch string returned by getcurrentpage function: "+switchCCDI)
+			//
+			//			columns_count = (colHeader.size())
+			//			columns_count=columns_count-1;
+			//			System.out.println("Inside CCDI switch case for header data::  " +columns_count)
+			//
+			//			//If the column header is Study Status or Manifest, ignore it from data collection and ignore from writing it to output file
+			//
+			//			for(int c=1;c<=columns_count;c++){
+			//				if (colHeader.get(c).getAttribute("innerText")!=("Manifest")){
+			//					hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
+			//				}
+			//			}
 
 			//******** CCDI function starts here ******** edited 12/04/25 - VL
-			} else if (appKey.equals("CCDI")) {
-		    System.out.println("Control is about to go to case switch ")
-		    switchCCDI = getPageSwitch()
-		    System.out.println("Control is about to go to the switch for CCDI ")
-		    switchString = "CCDI"
-		    System.out.println("This is the value of CCDI switch string returned by getcurrentpage function: " + switchCCDI)
-			
+		} else if (appKey.equals("CCDI")) {
+			System.out.println("Control is about to go to case switch ")
+			switchCCDI = getPageSwitch()
+			System.out.println("Control is about to go to the switch for CCDI ")
+			switchString = "CCDI"
+			System.out.println("This is the value of CCDI switch string returned by getcurrentpage function: " + switchCCDI)
+
 			if (isGuidEligibleStudy()) {
-		    WebUI.comment("GUID-enabled study detected → enabling GUID column")
-		    WebUI.click(findTestObject('Object Repository/CCDI/ExplorePage/DisplayedColumns_Ddn'))
-		    WebUI.click(findTestObject('Object Repository/CCDI/ExplorePage/DisplayedColumns_GUID'))
-		    WebUI.waitForElementVisible(findTestObject('Object Repository/CCDI/ExplorePage/Files_ResultsTab_GUIDCol'), 10)
+				WebUI.comment("GUID-enabled study detected → enabling GUID column")
+				WebUI.click(findTestObject('Object Repository/CCDI/ExplorePage/DisplayedColumns_Ddn'))
+				WebUI.click(findTestObject('Object Repository/CCDI/ExplorePage/DisplayedColumns_GUID'))
+				WebUI.waitForElementVisible(findTestObject('Object Repository/CCDI/ExplorePage/Files_ResultsTab_GUIDCol'), 10)
 			}
 
-		    // Re-fetch colHeader here after enabling GUID
+			// Re-fetch colHeader here after enabling GUID
 			colHeader = WebUI.findWebElements(findTestObject('Object Repository/CCDI/ExplorePage/TableHeaders'), 10)
 			int totalHeaders = colHeader.size()   // e.g. 11 when GUID is enabled
 			System.out.println("Total header elements on page AFTER GUID toggle: " + totalHeaders)
-			
+
 			// Checkbox is index 0 → skip it always
 			int startIndex = 1
-			
+
 			// Number of REAL data columns = total minus the checkbox column
 			columns_count = totalHeaders - 1
 			System.out.println("columns_count (real data columns): " + columns_count)
-			
+
 			// Build header string for ONLY real columns
 			hdrdata = ""
-			
+
 			for (int c = startIndex; c < totalHeaders; c++) {
-			    String headerText = colHeader.get(c).getAttribute("innerText").trim()
-			
-			    if (!"Manifest".equals(headerText)) {
-			        hdrdata += headerText + "||"
-			    }
+				String headerText = colHeader.get(c).getAttribute("innerText").trim()
+
+				if (!"Manifest".equals(headerText)) {
+					hdrdata += headerText + "||"
+				}
 			}
-			
+
 			System.out.println("Final header list: " + hdrdata)
-		
+
 
 			//******** C3DC function starts below ********
 		}else if(appKey.equals("C3DC")){
@@ -682,12 +682,12 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 
 		if(appKey.equals("CCDI")) {
 			Utils.changePaginationResultsPerPage100();
-	
+
 			// For Files tab validation for applicable studies, click on GUID column to sort
 			if (isGuidEligibleStudy()) {
-			    WebUI.comment("GUID-enabled study detected → sorting table by GUID")
-			    WebUI.click(findTestObject('Object Repository/CCDI/ExplorePage/Files_ResultsTab_GUIDCol'))
-			    WebUI.delay(1)
+				WebUI.comment("GUID-enabled study detected → sorting table by GUID")
+				WebUI.click(findTestObject('Object Repository/CCDI/ExplorePage/Files_ResultsTab_GUIDCol'))
+				WebUI.delay(1)
 			} else {
 				WebUI.comment("GUID sorting is not needed for this study → no action taken")
 			}
@@ -828,6 +828,14 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 										System.out.println("This is the value of  table  cell:  "+value)
 									}
 								}else if((tbl_main).equals("//*[@id='diagnosis_tab_table']")){
+									tblcol=tblcol;
+									for (int j = 1; j <tblcol; j = j +1) {
+										System.out.println("This is the name of column header:  "+colHeader.get(j).getAttribute("innerText"))
+										String value = ((driver.findElement(By.xpath(tbl_bdy +"/tr[" + i + "]/td[" + (j+1) +"]")).getAttribute("innerText")))
+										data = data + value + "||"
+										System.out.println("This is the value of  table  cell:  "+value)
+									}
+								}else if((tbl_main).equals("//*[@id='genetic_analysis_tab_table']")){
 									tblcol=tblcol+2;
 									for (int j = 1; j <tblcol; j = j +1) {
 										System.out.println("This is the name of column header:  "+colHeader.get(j).getAttribute("innerText"))
@@ -852,7 +860,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 										System.out.println("This is the value of  table  cell:  "+value)
 									}
 								}else if((tbl_main).equals("//*[@id='survival_tab_table']")){
-									tblcol=tblcol;
+									tblcol=tblcol-2;
 									for (int j = 1; j <tblcol; j = j +1) {
 										System.out.println("This is the name of column header:  "+colHeader.get(j).getAttribute("innerText"))
 										String value = ((driver.findElement(By.xpath(tbl_bdy +"/tr[" + i + "]/td[" + (j+1) +"]")).getAttribute("innerText")))
@@ -867,214 +875,211 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 						}
 					}
 
-//					//@@@@@@@@@@@@@@@@ CCDI table data collection starts here  @@@@@@@@@@@@@@@@  added on 8th Sep 2023
-//					if(switchString == "CCDI"){
-//						switch(switchCCDI){
-//							case("/explore"):
-//								System.out.println("Inside CCDI switch case for body data")
-//								int tblcol=GlobalVariable.G_rowcountFiles
-//								System.out.println ("This is the value of tblcol from CCDI body data :"+tblcol)
-//							//*[@id="tableContainer"]
-//								if((tbl_main).equals('//*[@id="participant_tab_table"]')){
-//									System.out.println("Inside CCDI participants switch")
-//									tblcol=tblcol+2;    //8-3=5 leaves out alternate id col   change to 8-2
-//									for (int j = 1; j <=tblcol; j = j +1) {
-//										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
-//										System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
-//										//*[@id="participant_tab_table"]/div[2]/table/tbody/tr[1]/td[3]/p
-//										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/p")).getAttribute("innerText")) +"||")
-//										System.out.println("This is the value of data : "+data)
-//									}
-//								}else if((tbl_main).equals("//*[@id='study_tab_table']")){
-//									System.out.println("Inside CCDI studies switch. This is the value of the tblbody: "+tbl_bdy) //*[@id='study_tab_table']//tbody
-//									tblcol=tblcol+5;
-//									System.out.println("Value of tblcol from the studies section is: "+tblcol)
-//									for (int j = 1; j <=tblcol; j = j +1) {
-//										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
-//										// only for two cols with (top 5) the xpath will not have the /p tag
-//
-//										if(((tbl_main).equals("//*[@id='study_tab_table']")) && (colHeader.get(j).getAttribute("innerText")=="Diagnosis (Top 5)")) {
-//											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
-//											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]")).getAttribute("innerText")) +"||")
-//										}else if(((tbl_main).equals("//*[@id='study_tab_table']")) && (colHeader.get(j).getAttribute("innerText")=="Diagnosis Anatomic Site (Top 5)")) {
-//											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
-//											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]")).getAttribute("innerText")) +"||")
-//										}else if(((tbl_main).equals("//*[@id='study_tab_table']")) && (colHeader.get(j).getAttribute("innerText")=="File Type (Top 5)")) {
-//											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
-//											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]")).getAttribute("innerText")) +"||")
-//										}else if (!colHeader.get(j).getAttribute("innerText").equals("Manifest")){
-//
-//											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
-//											//*[@id="study_tab_table"]//tbody/tr[1]/td[2]/p  -- this is the updated one
-//
-//											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/td[" + (j+1) +"]")).getAttribute("innerText")) +"||")
-//										}
-//										System.out.println("This is the value of data : "+data)
-//									}
-//								}else if((tbl_main).equals("//*[@id='sample_tab_table']")){
-//									System.out.println("Inside CCDI samples tab switch")
-//									tblcol=tblcol-1;
-//									System.out.println("Value of tblcol from the samples section is: "+tblcol)
-//									for (int j = 1; j <=tblcol; j = j +1) {
-//										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
-//										// only for one col the xpath will not have the /p tag
-//										//*[@id="sample_tab_table"]/div[2]/table/tbody/tr[1]/td[6]
-//										if(((tbl_main).equals("//*[@id='sample_tab_table']")) && (colHeader.get(j).getAttribute("innerText")=="Age at Sample Collection (days)")) {
-//											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
-//											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]")).getAttribute("innerText")) +"||")
-//										}else {
-//											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
-//											//*[@id="sample_tab_table"]/div[2]/table/tbody/tr[1]/td[2]/p
-//											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/p")).getAttribute("innerText")) +"||")
-//										}
-//										System.out.println("This is the value of data : "+data)
-//									}
-//								}else if((tbl_main).equals('//*[@id="file_tab_table"]')){
-//									System.out.println("Inside CCDI files tab switch")
-//									tblcol=tblcol+1;
-//									for (int j = 1; j <=tblcol; j = j +1) {
-//										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
-//										//*[@id="file_tab_table"]//tbody/tr[1]/*[2]/*[2]
-//										System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
-//										//data = data + ((driver.findElement(By.xpath(tbl_bdy +"//tr[" + i + "]//td[" + (j+1) +"]/p")).getAttribute("innerText")) +"||")
-//										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]")).getAttribute("innerText")) +"||")
-//										System.out.println("This is the value of data : "+data)
-//									}
-//								}
-//								break;
-//							default:
-//								System.err.println("Check CCDI switch statment for this error")
-//								break;
-//						}
-//					}
-					
+					//					//@@@@@@@@@@@@@@@@ CCDI table data collection starts here  @@@@@@@@@@@@@@@@  added on 8th Sep 2023
+					//					if(switchString == "CCDI"){
+					//						switch(switchCCDI){
+					//							case("/explore"):
+					//								System.out.println("Inside CCDI switch case for body data")
+					//								int tblcol=GlobalVariable.G_rowcountFiles
+					//								System.out.println ("This is the value of tblcol from CCDI body data :"+tblcol)
+					//							//*[@id="tableContainer"]
+					//								if((tbl_main).equals('//*[@id="participant_tab_table"]')){
+					//									System.out.println("Inside CCDI participants switch")
+					//									tblcol=tblcol+2;    //8-3=5 leaves out alternate id col   change to 8-2
+					//									for (int j = 1; j <=tblcol; j = j +1) {
+					//										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
+					//										System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+					//										//*[@id="participant_tab_table"]/div[2]/table/tbody/tr[1]/td[3]/p
+					//										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/p")).getAttribute("innerText")) +"||")
+					//										System.out.println("This is the value of data : "+data)
+					//									}
+					//								}else if((tbl_main).equals("//*[@id='study_tab_table']")){
+					//									System.out.println("Inside CCDI studies switch. This is the value of the tblbody: "+tbl_bdy) //*[@id='study_tab_table']//tbody
+					//									tblcol=tblcol+5;
+					//									System.out.println("Value of tblcol from the studies section is: "+tblcol)
+					//									for (int j = 1; j <=tblcol; j = j +1) {
+					//										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
+					//										// only for two cols with (top 5) the xpath will not have the /p tag
+					//
+					//										if(((tbl_main).equals("//*[@id='study_tab_table']")) && (colHeader.get(j).getAttribute("innerText")=="Diagnosis (Top 5)")) {
+					//											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+					//											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]")).getAttribute("innerText")) +"||")
+					//										}else if(((tbl_main).equals("//*[@id='study_tab_table']")) && (colHeader.get(j).getAttribute("innerText")=="Diagnosis Anatomic Site (Top 5)")) {
+					//											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+					//											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]")).getAttribute("innerText")) +"||")
+					//										}else if(((tbl_main).equals("//*[@id='study_tab_table']")) && (colHeader.get(j).getAttribute("innerText")=="File Type (Top 5)")) {
+					//											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+					//											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]")).getAttribute("innerText")) +"||")
+					//										}else if (!colHeader.get(j).getAttribute("innerText").equals("Manifest")){
+					//
+					//											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+					//											//*[@id="study_tab_table"]//tbody/tr[1]/td[2]/p  -- this is the updated one
+					//
+					//											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/td[" + (j+1) +"]")).getAttribute("innerText")) +"||")
+					//										}
+					//										System.out.println("This is the value of data : "+data)
+					//									}
+					//								}else if((tbl_main).equals("//*[@id='sample_tab_table']")){
+					//									System.out.println("Inside CCDI samples tab switch")
+					//									tblcol=tblcol-1;
+					//									System.out.println("Value of tblcol from the samples section is: "+tblcol)
+					//									for (int j = 1; j <=tblcol; j = j +1) {
+					//										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
+					//										// only for one col the xpath will not have the /p tag
+					//										//*[@id="sample_tab_table"]/div[2]/table/tbody/tr[1]/td[6]
+					//										if(((tbl_main).equals("//*[@id='sample_tab_table']")) && (colHeader.get(j).getAttribute("innerText")=="Age at Sample Collection (days)")) {
+					//											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+					//											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]")).getAttribute("innerText")) +"||")
+					//										}else {
+					//											System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+					//											//*[@id="sample_tab_table"]/div[2]/table/tbody/tr[1]/td[2]/p
+					//											data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/p")).getAttribute("innerText")) +"||")
+					//										}
+					//										System.out.println("This is the value of data : "+data)
+					//									}
+					//								}else if((tbl_main).equals('//*[@id="file_tab_table"]')){
+					//									System.out.println("Inside CCDI files tab switch")
+					//									tblcol=tblcol+1;
+					//									for (int j = 1; j <=tblcol; j = j +1) {
+					//										System.out.println("Value of i is: "+ i +"\nValue of j is: " + j)
+					//										//*[@id="file_tab_table"]//tbody/tr[1]/*[2]/*[2]
+					//										System.out.println("This is the name of column header : "+colHeader.get(j).getAttribute("innerText"))
+					//										//data = data + ((driver.findElement(By.xpath(tbl_bdy +"//tr[" + i + "]//td[" + (j+1) +"]/p")).getAttribute("innerText")) +"||")
+					//										data = data + ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]")).getAttribute("innerText")) +"||")
+					//										System.out.println("This is the value of data : "+data)
+					//									}
+					//								}
+					//								break;
+					//							default:
+					//								System.err.println("Check CCDI switch statment for this error")
+					//								break;
+					//						}
+					//					}
+
 					//@@@@@@@@@@@@@@@@ CCDI table data collection starts here  @@@@@@@@@@@@@@@@  edited 12/04/25 - VL
 					if (switchString == "CCDI") {
 						switch (switchCCDI) {
 							case ("/explore"):
 								System.out.println("Inside CCDI switch case for body data")
-					
-								// IMPORTANT: default tblcol still comes from global, but we will
-								// override it for specific tabs (especially file_tab_table).
+
+							// IMPORTANT: default tblcol still comes from global, but we will
+							// override it for specific tabs (especially file_tab_table).
 								int tblcol = GlobalVariable.G_rowcountFiles
 								System.out.println("This is the value of tblcol from CCDI body data :" + tblcol)
-					
+
 								if ((tbl_main).equals('//*[@id="participant_tab_table"]')) {
 									System.out.println("Inside CCDI participants switch")
 									tblcol = tblcol + 2   // existing logic
 									for (int j = 1; j <= tblcol; j++) {
 										System.out.println("Value of i is: " + i + "\nValue of j is: " + j)
 										System.out.println("This is the name of column header : " + colHeader.get(j).getAttribute("innerText"))
-					
+
 										data = data + (
-											driver.findElement(
+												driver.findElement(
 												By.xpath(tbl_bdy + "/tr[" + i + "]/*[" + (j + 1) + "]/p")
-											).getAttribute("innerText")
-										) + "||"
+												).getAttribute("innerText")
+												) + "||"
 										System.out.println("This is the value of data : " + data)
 									}
-					
 								} else if ((tbl_main).equals("//*[@id='study_tab_table']")) {
 									System.out.println("Inside CCDI studies switch. This is the value of the tblbody: " + tbl_bdy)
 									tblcol = tblcol + 5
 									System.out.println("Value of tblcol from the studies section is: " + tblcol)
-					
+
 									for (int j = 1; j <= tblcol; j++) {
 										System.out.println("Value of i is: " + i + "\nValue of j is: " + j)
-					
+
 										String headerText = colHeader.get(j).getAttribute("innerText")
 										if (((tbl_main).equals("//*[@id='study_tab_table']")) && headerText == "Diagnosis (Top 5)") {
 											System.out.println("This is the name of column header : " + headerText)
 											data = data + (
-												driver.findElement(
+													driver.findElement(
 													By.xpath(tbl_bdy + "/tr[" + i + "]/*[" + (j + 1) + "]")
-												).getAttribute("innerText")
-											) + "||"
+													).getAttribute("innerText")
+													) + "||"
 										} else if (((tbl_main).equals("//*[@id='study_tab_table']")) && headerText == "Diagnosis Anatomic Site (Top 5)") {
 											System.out.println("This is the name of column header : " + headerText)
 											data = data + (
-												driver.findElement(
+													driver.findElement(
 													By.xpath(tbl_bdy + "/tr[" + i + "]/*[" + (j + 1) + "]")
-												).getAttribute("innerText")
-											) + "||"
+													).getAttribute("innerText")
+													) + "||"
 										} else if (((tbl_main).equals("//*[@id='study_tab_table']")) && headerText == "File Type (Top 5)") {
 											System.out.println("This is the name of column header : " + headerText)
 											data = data + (
-												driver.findElement(
+													driver.findElement(
 													By.xpath(tbl_bdy + "/tr[" + i + "]/*[" + (j + 1) + "]")
-												).getAttribute("innerText")
-											) + "||"
+													).getAttribute("innerText")
+													) + "||"
 										} else if (!"Manifest".equals(headerText)) {
 											System.out.println("This is the name of column header : " + headerText)
 											data = data + (
-												driver.findElement(
+													driver.findElement(
 													By.xpath(tbl_bdy + "/tr[" + i + "]/td[" + (j + 1) + "]")
-												).getAttribute("innerText")
-											) + "||"
+													).getAttribute("innerText")
+													) + "||"
 										}
 										System.out.println("This is the value of data : " + data)
 									}
-					
 								} else if ((tbl_main).equals("//*[@id='sample_tab_table']")) {
 									System.out.println("Inside CCDI samples tab switch")
 									tblcol = tblcol - 1
 									System.out.println("Value of tblcol from the samples section is: " + tblcol)
-					
+
 									for (int j = 1; j <= tblcol; j++) {
 										System.out.println("Value of i is: " + i + "\nValue of j is: " + j)
 										String headerText = colHeader.get(j).getAttribute("innerText")
-					
+
 										if (((tbl_main).equals("//*[@id='sample_tab_table']")) && headerText == "Age at Sample Collection (days)") {
 											System.out.println("This is the name of column header : " + headerText)
 											data = data + (
-												driver.findElement(
+													driver.findElement(
 													By.xpath(tbl_bdy + "/tr[" + i + "]/*[" + (j + 1) + "]")
-												).getAttribute("innerText")
-											) + "||"
+													).getAttribute("innerText")
+													) + "||"
 										} else {
 											System.out.println("This is the name of column header : " + headerText)
 											data = data + (
-												driver.findElement(
+													driver.findElement(
 													By.xpath(tbl_bdy + "/tr[" + i + "]/*[" + (j + 1) + "]/p")
-												).getAttribute("innerText")
-											) + "||"
+													).getAttribute("innerText")
+													) + "||"
 										}
 										System.out.println("This is the value of data : " + data)
 									}
-					
 								} else if ((tbl_main).equals('//*[@id="file_tab_table"]')) {
 									System.out.println("Inside CCDI files tab switch")
-					
+
 									// 🔴 KEY FIX: derive tblcol from actual header count (checkbox + N data cols)
 									// colHeader[0] = checkbox
 									int totalHeaders = colHeader.size()  // e.g. 11 when GUID is visible
 									tblcol = totalHeaders - 1            // 10 real data columns: File Name..GUID
 									System.out.println("Value of tblcol from the files section is: " + tblcol)
-					
+
 									// j = 1..tblcol → File Name..GUID (because header index 0 is checkbox)
 									for (int j = 1; j <= tblcol; j++) {
 										System.out.println("Value of i is: " + i + "\nValue of j is: " + j)
 										String headerText = colHeader.get(j).getAttribute("innerText")
 										System.out.println("This is the name of column header : " + headerText)
-					
+
 										// td[1] = checkbox, so shift by +1 for data
 										data = data + (
-											driver.findElement(
+												driver.findElement(
 												By.xpath(tbl_bdy + "/tr[" + i + "]/*[" + (j + 1) + "]")
-											).getAttribute("innerText")
-										) + "||"
-					
+												).getAttribute("innerText")
+												) + "||"
+
 										System.out.println("This is the value of data : " + data)
 									}
 								}
 								break
-					
+
 							default:
 								System.err.println("Check CCDI switch statement for this error")
 								break
 						}
 					}
-					
+
 
 					// @@@@@@@@@@@@@@@@  Canine table data collection starts here @@@@@@@@@@@@@@@@
 					if(switchString == "Canine"){
@@ -2153,7 +2158,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 			if (workbook != null) workbook.close()
 		}
 	}
-	
+
 	/**
 	 * Determines whether the current CCDI page should enable/sort by GUID.
 	 * Returns true when:
@@ -2161,31 +2166,211 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 	 *   - The active filters contain any known GUID-enabled phs accession
 	 */
 	public static boolean isGuidEligibleStudy() {
-	
+
 		// Read tab state
 		String ariaValue = WebUI.getAttribute(
-			findTestObject('Object Repository/CCDI/ExplorePage/Files_ResultsTab'),
-			"aria-selected"
-		)
-	
+				findTestObject('Object Repository/CCDI/ExplorePage/Files_ResultsTab'),
+				"aria-selected"
+				)
+
 		// Read active filters
 		String filterHeaderText = WebUI.getText(
-			findTestObject('Object Repository/CCDI/ExplorePage/Filters/FilterHeader')
-		)
-	
+				findTestObject('Object Repository/CCDI/ExplorePage/Filters/FilterHeader')
+				)
+
 		// List of studies where GUID column behavior is required
 		List<String> guidStudies = [
-			'phs001327', 'phs001228', 'phs001714', 'phs001738',
-			'phs001846', 'phs001878', 'phs002187', 'phs002322',
-			'phs002276', 'phs002620', 'phs00311',  'phs002883'
+			'phs001327',
+			'phs001228',
+			'phs001714',
+			'phs001738',
+			'phs001846',
+			'phs001878',
+			'phs002187',
+			'phs002322',
+			'phs002276',
+			'phs002620',
+			'phs00311',
+			'phs002883'
 		]
-	
+
 		boolean filesTabSelected = "true".equalsIgnoreCase(ariaValue)
-	
+
 		boolean isGuidStudy = guidStudies.any { studyId ->
 			filterHeaderText.contains(studyId)
 		}
-	
+
 		return filesTabSelected && isGuidStudy
 	}
+
+
+	//valentina
+	/**
+	 * Generic dropdown selection by visible option text.
+	 *
+	 * @param option Text visible text to click (exact match after trim)
+	 * @param timeout wait timeout seconds
+	 */
+
+	static void selectTabByDropdown(String optionText, int timeout) {
+
+		TestObject dropdown = findTestObject("C3DC/ResultTabs/More_Tabs-Btn")
+
+		WebUI.scrollToElement(dropdown, 10)
+		WebUI.waitForElementClickable(dropdown, 10)
+		WebUI.click(dropdown)
+
+		//		WebUI.takeScreenshot("Reports/before_select_${optionText}.png")
+
+		TestObject option = byXpath(
+				"//div[@role='presentation']//span[contains(@class,'popover-tab-name') and normalize-space(.)='${optionText}']"
+				)
+
+		WebUI.waitForElementClickable(option, timeout)
+		WebUI.click(option)
+
+		//		WebUI.takeScreenshot("Reports/after_select_${optionText}.png")
+	}
+
+	static TestObject byXpath(String xpath) {
+		TestObject t = new TestObject("dynamic")
+		t.addProperty("xpath", ConditionType.EQUALS, xpath)
+		return t
+	}
+
+	static void openTab(String tabObject, String optionText) {
+
+		try {
+			clickTab(tabObject)
+		}
+		catch (Exception e) {
+			WebUI.comment("selectByText failed, trying select tab by dropdown")
+			selectTabByDropdown(optionText, 5)
+		}
+	}
+
+
+
+	//scroll to element within the facet
+	static void scrollFacetDownUntilVisible(String facetHeaderPath, String targetPath, int timeoutSec) {
+
+		WebDriver driver = DriverFactory.getWebDriver()
+		JavascriptExecutor js = (JavascriptExecutor) driver
+
+		TestObject facetHeaderTo = findTestObject(facetHeaderPath)
+		TestObject targetTo      = findTestObject(targetPath)
+
+		WebUI.waitForElementPresent(facetHeaderTo, timeoutSec)
+		WebElement rawHeaderEl = WebUI.findWebElement(facetHeaderTo, timeoutSec)
+
+		// 1) Normalize to the real accordion header (role=button)
+		WebElement headerEl = (WebElement) js.executeScript("""
+    const el = arguments[0];
+    return el.closest("[role='button']") || el;
+  """, rawHeaderEl)
+
+		// 2) Open facet only if collapsed (avoid toggling closed)
+		String expanded = headerEl.getAttribute("aria-expanded")
+		if (expanded == null || expanded.equalsIgnoreCase("false")) {
+			headerEl.click()
+			WebUI.delay(0.35)
+		}
+
+		// 3) Find the scrollable container inside the facet
+		WebElement scrollContainer = (WebElement) js.executeScript("""
+    const header = arguments[0];
+
+    // Find the facet root
+    let root = header.closest(".MuiAccordion-root");
+    if (!root) {
+      // fallback: walk up a bit if classes differ
+      let p = header.parentElement;
+      for (let i = 0; i < 10 && p; i++) {
+        if ((p.className || "").toString().includes("MuiAccordion")) { root = p; break; }
+        p = p.parentElement;
+      }
+    }
+    if (!root) return null;
+
+    // The expandable region is usually inside MuiCollapse-root
+    const region = root.querySelector(".MuiCollapse-root") || root;
+
+    // Find first actually scrollable element (overflowY auto/scroll and scrollHeight>clientHeight)
+    const all = region.querySelectorAll("*");
+    for (const el of all) {
+      const s = getComputedStyle(el);
+      const oy = s.overflowY;
+      if ((oy === "auto" || oy === "scroll") && el.scrollHeight > el.clientHeight) {
+        return el;
+      }
+    }
+    return null;
+  """, headerEl)
+
+		if (scrollContainer == null) {
+			// Helpful debug so you can see what element we normalized to
+			String dbg = (String) js.executeScript("""
+      const h = arguments[0];
+      const root = h.closest(".MuiAccordion-root");
+      return "headerTag=" + h.tagName + " aria-expanded=" + h.getAttribute("aria-expanded")
+        + " headerText=" + (h.innerText || "").trim().slice(0,60)
+        + " hasAccordionRoot=" + (!!root);
+    """, headerEl)
+
+			WebUI.comment("❌ Scroll container not found. Debug: " + dbg)
+			WebUI.takeScreenshot()
+			assert false : "❌ Cannot find scrollable container inside facet: " + facetHeaderPath
+		}
+
+		// 4) Scroll until target appears
+		long end = System.currentTimeMillis() + timeoutSec * 1000L
+		long lastScrollTop = -1
+		int stuckCount = 0
+
+		while (System.currentTimeMillis() < end) {
+
+			if (WebUI.verifyElementPresent(targetTo, 1, FailureHandling.OPTIONAL)) {
+				return
+			}
+
+			long before = ((Number) js.executeScript("return arguments[0].scrollTop;", scrollContainer)).longValue()
+			long client = ((Number) js.executeScript("return arguments[0].clientHeight;", scrollContainer)).longValue()
+			long height = ((Number) js.executeScript("return arguments[0].scrollHeight;", scrollContainer)).longValue()
+
+			// ✅ scroll more per step (3 screens)
+			js.executeScript(
+					"arguments[0].scrollTop = arguments[0].scrollTop + (arguments[0].clientHeight * 3);",
+					scrollContainer
+					)
+			WebUI.delay(0.25)
+
+			long after = ((Number) js.executeScript("return arguments[0].scrollTop;", scrollContainer)).longValue()
+			println("[FacetScroll] scrollTop " + before + " -> " + after + " (client=" + client + ", scrollHeight=" + height + ")")
+
+			// If no movement, try a "hard" jump and allow React to render
+			if (after == before || after == lastScrollTop) {
+				stuckCount++
+
+				// try forcing render / bottom jump
+				js.executeScript("arguments[0].scrollTop = arguments[0].scrollHeight;", scrollContainer)
+				WebUI.delay(0.4)
+
+				long afterHard = ((Number) js.executeScript("return arguments[0].scrollTop;", scrollContainer)).longValue()
+				println("[FacetScroll] hard jump -> " + afterHard + " (stuckCount=" + stuckCount + ")")
+
+				// only break if stuck multiple times
+				if (stuckCount >= 4) {
+					break
+				}
+			} else {
+				stuckCount = 0
+			}
+
+			lastScrollTop = after
+		}
+	}
 }  //class ends here
+
+
+
+

@@ -1,0 +1,2 @@
+id	study.id	dcf_indexd_guid	file_category	file_description	file_name	file_size	file_type	md5sum	reference_file_id	reference_file_url	type
+89c9a6c6-647e-56d9-9c97-b10f19e0a673	525f594e-b859-582c-bd87-229c0cd3ae8c	9f4b8af3-f1ef-4592-a405-bce19e1a45a4	input source data	Excel spreadsheet (XLSX) file containing input source data	phs002371_CCDI_Study_Manifest_v3.1.0.xlsx	481775	xlsx	4d7808a05ac8373f2d0584a8f08073af	172699c4-a539-487b-86b3-9b7ec2a7dda1	See CCDI Hub at https://ccdi.cancer.gov/explore	reference_file
