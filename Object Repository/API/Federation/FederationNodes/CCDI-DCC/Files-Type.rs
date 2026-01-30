@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>FederationNode-Treehouse_SampleSummary</name>
+   <name>Files-Type</name>
    <tag></tag>
-   <elementGuidId>e97ec32e-8840-49e9-a244-24fc3d90ffdc</elementGuidId>
+   <elementGuidId>47360b80-eb35-4f98-bef0-a9d505cb2506</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -114,7 +114,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://ccdi.treehouse.gi.ucsc.edu/api/v1/sample/summary</restUrl>
+   <restUrl>https://dcc-qa.ccdi.cancer.gov/api/v1/file/by/type/count</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

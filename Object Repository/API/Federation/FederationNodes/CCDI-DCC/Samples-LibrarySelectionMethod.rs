@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>FederationNode-PCDC_UChicago_FileSummary</name>
+   <name>Samples-LibrarySelectionMethod</name>
    <tag></tag>
-   <elementGuidId>88d23ca6-7e18-4d58-9132-cfb2bef7f0e0</elementGuidId>
+   <elementGuidId>c0ad70e9-ec6f-4e38-bb61-e0b436b263f6</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -114,7 +114,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://ccdifederation.pedscommons.org/api/v1/file/summary</restUrl>
+   <restUrl>https://dcc-qa.ccdi.cancer.gov/api/v1/sample/by/library_selection_method/count</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
