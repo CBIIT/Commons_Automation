@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>FederationNode-PCDC_UChicago_SampleSummary</name>
+   <name>Samples-PreservationMethod</name>
    <tag></tag>
-   <elementGuidId>e89eb9a1-f951-4de6-a061-c38867432970</elementGuidId>
+   <elementGuidId>35128c78-f514-4761-b75d-145617b7eb81</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -114,7 +114,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://ccdifederation.pedscommons.org/api/v1/sample/summary</restUrl>
+   <restUrl>https://dcc-qa.ccdi.cancer.gov/api/v1/sample/by/preservation_method/count</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>FederationNode-StJude_SubjectSummary</name>
+   <name>SubjectSummary</name>
    <tag></tag>
-   <elementGuidId>7b88fe9f-de3d-43da-956b-d67871c6592f</elementGuidId>
+   <elementGuidId>bc0d54d6-d9d4-4575-8577-54829813696b</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -114,7 +114,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://ccdi.stjude.cloud/api/v1/subject/summary</restUrl>
+   <restUrl>https://dcc-qa.ccdi.cancer.gov/api/v1/subject/summary</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

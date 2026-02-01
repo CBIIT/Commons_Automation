@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>FederationNode-ecDNA_SubjectSummary</name>
+   <name>Files-Size</name>
    <tag></tag>
-   <elementGuidId>e6ba7774-c52e-4923-94cc-aa5b10ff58d5</elementGuidId>
+   <elementGuidId>2f8d259e-c3be-4e88-b1ef-1372b1408fa9</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -114,7 +114,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://ccdi-ecdna.org/ccdi-federation/api/v1/subject/summary</restUrl>
+   <restUrl>https://dcc-qa.ccdi.cancer.gov/api/v1/file/by/size/count</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>FederationNode-StJude_FileSummary</name>
+   <name>Samples-AnatomicalSites</name>
    <tag></tag>
-   <elementGuidId>66d5f46c-8762-4915-99dd-46de6eac7c17</elementGuidId>
+   <elementGuidId>cf34ba43-95b6-44e7-aec2-1545d8690a85</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -114,7 +114,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://ccdi.stjude.cloud/api/v1/file/summary</restUrl>
+   <restUrl>https://dcc-qa.ccdi.cancer.gov/api/v1/sample/by/anatomical_sites/count</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

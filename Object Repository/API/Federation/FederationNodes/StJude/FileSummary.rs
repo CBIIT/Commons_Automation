@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>FederationNode-KidsFirst_SampleSummary</name>
+   <name>FileSummary</name>
    <tag></tag>
-   <elementGuidId>ad5a91b9-4efa-4d15-8971-7ec50a208f0e</elementGuidId>
+   <elementGuidId>66d5f46c-8762-4915-99dd-46de6eac7c17</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -114,7 +114,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://ccdi.kidsfirstdrc.org/api/v1/sample/summary</restUrl>
+   <restUrl>https://ccdi.stjude.cloud/api/v1/file/summary</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

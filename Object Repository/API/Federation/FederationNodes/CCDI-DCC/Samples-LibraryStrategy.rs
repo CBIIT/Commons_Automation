@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>FederationNode-ecDNA_SampleSummary</name>
+   <name>Samples-LibraryStrategy</name>
    <tag></tag>
-   <elementGuidId>c22ca447-8eb2-45f4-8db4-697c277fd36d</elementGuidId>
+   <elementGuidId>3fd6a00e-062a-42e5-8de5-00d9a75571fb</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -114,7 +114,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://ccdi-ecdna.org/ccdi-federation/api/v1/sample/summary</restUrl>
+   <restUrl>https://dcc-qa.ccdi.cancer.gov/api/v1/sample/by/library_strategy/count</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

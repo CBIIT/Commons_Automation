@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>FederationNode-PCDC_UChicago_SubjectSummary</name>
+   <name>Samples-Diagnosis</name>
    <tag></tag>
-   <elementGuidId>664b6b0b-8bf5-4626-96de-e5548d242d28</elementGuidId>
+   <elementGuidId>3e61d8ea-74dd-42bc-abd0-44f3a5d35643</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -114,7 +114,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://ccdifederation.pedscommons.org/api/v1/subject/summary</restUrl>
+   <restUrl>https://dcc-qa.ccdi.cancer.gov/api/v1/sample/by/diagnosis/count</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

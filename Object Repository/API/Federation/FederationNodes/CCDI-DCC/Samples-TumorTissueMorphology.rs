@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>FederationNode-ecDNA_FileSummary</name>
+   <name>Samples-TumorTissueMorphology</name>
    <tag></tag>
-   <elementGuidId>13a9df93-aef9-45c4-b446-42ff0aa13de0</elementGuidId>
+   <elementGuidId>4b5a4291-ca22-4707-acbe-e5d7faaf5ee4</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -114,7 +114,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://ccdi-ecdna.org/ccdi-federation/api/v1/file/summary</restUrl>
+   <restUrl>https://dcc-qa.ccdi.cancer.gov/api/v1/sample/by/tumor_tissue_morphology/count</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>FederationNode-KidsFirst_FileSummary</name>
+   <name>Samples-SpecimenMolecAnaltype</name>
    <tag></tag>
-   <elementGuidId>4309052b-81d5-46b0-a2cf-83da8109932e</elementGuidId>
+   <elementGuidId>ce73b37a-781e-4bcf-b644-fee84cae9eb8</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -114,7 +114,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://ccdi.kidsfirstdrc.org/api/v1/file/summary</restUrl>
+   <restUrl>https://dcc-qa.ccdi.cancer.gov/api/v1/sample/by/specimen_molecular_analyte_type/count</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>FederationNode-IU_SampleSummary</name>
+   <name>SubjByRace</name>
    <tag></tag>
-   <elementGuidId>7ac1b9ff-00c3-4b3c-9e21-bb676074b132</elementGuidId>
+   <elementGuidId>a02ab606-f94a-4e68-aa8a-53d6680126e6</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -114,7 +114,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://ccdi.ipo.sulab.io/api/v1/sample/summary</restUrl>
+   <restUrl>https://dcc-qa.ccdi.cancer.gov/api/v1/subject/by/race/count</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

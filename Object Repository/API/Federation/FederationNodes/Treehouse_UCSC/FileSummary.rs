@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>FederationNode-IU_FileSummary</name>
+   <name>FileSummary</name>
    <tag></tag>
-   <elementGuidId>15524334-a3ae-481d-9f08-57ef5ee1924f</elementGuidId>
+   <elementGuidId>1e540ecf-622f-4d75-aafe-96806e000ea0</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -114,7 +114,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://ccdi.ipo.sulab.io/api/v1/file/summary</restUrl>
+   <restUrl>https://ccdi.treehouse.gi.ucsc.edu/api/v1/file/summary</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
