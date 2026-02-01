@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>FederationNode-IU_SubjectSummary</name>
+   <name>FileSummary</name>
    <tag></tag>
-   <elementGuidId>31fb7f48-652e-4c37-baca-2a7688082d16</elementGuidId>
+   <elementGuidId>13a9df93-aef9-45c4-b446-42ff0aa13de0</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -114,7 +114,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://ccdi.ipo.sulab.io/api/v1/subject/summary</restUrl>
+   <restUrl>https://ccdi-ecdna.org/ccdi-federation/api/v1/file/summary</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

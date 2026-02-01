@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>FederationNode-Treehouse_FileSummary</name>
+   <name>SubjByAssociatedDiagnoses</name>
    <tag></tag>
-   <elementGuidId>1e540ecf-622f-4d75-aafe-96806e000ea0</elementGuidId>
+   <elementGuidId>a25931b4-6b10-450a-9f95-8e59d2b9277e</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -114,7 +114,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://ccdi.treehouse.gi.ucsc.edu/api/v1/file/summary</restUrl>
+   <restUrl>https://dcc-qa.ccdi.cancer.gov/api/v1/subject/by/associated_diagnoses/count</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
