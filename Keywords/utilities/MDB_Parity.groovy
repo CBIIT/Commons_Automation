@@ -193,6 +193,54 @@ class MDB_Parity {
 		if (s in ["\\-", "-"]) return "-"
 		return s
 	}
+	
+	/**
+	 * Normalize fields for /property/{propHandle}/terms from API response
+	 */
+	static List<Map> normalizePropertyTermsFromApi(List<Map> apiTermsRaw,
+			String model, String version, String nodeHandle, String propHandle) {
+	
+		return (apiTermsRaw ?: []).collect { t ->
+			[
+				model         : model?.toString(),
+				version       : version?.toString(),
+				node          : nodeHandle?.toString(),
+				property      : propHandle?.toString(),
+	
+				// term fields
+				value         : t.value?.toString(),
+				handle        : t.handle?.toString(),
+				origin_name   : t.origin_name?.toString(),
+				origin_version: t.origin_version?.toString(), // stays null if null
+				origin_id     : t.origin_id?.toString(),      // stays null if null
+				nanoid        : t.nanoid?.toString()
+			]
+		}
+	}
+	
+	/**
+	 * Normalize fields for /property/{propHandle}/terms from Neo4j response
+	 * Neo query must RETURN these aliases: model, version, node, property, value, handle, origin_name, origin_version, origin_id, nanoid
+	 */
+	static List<Map> normalizePropertyTermsFromNeo(List<Map> neoRows) {
+		return (neoRows ?: []).collect { r ->
+			[
+				model         : r.model?.toString(),
+				version       : r.version?.toString(),
+				node          : r.node?.toString(),
+				property      : r.property?.toString(),
+	
+				value         : r.value?.toString(),
+				handle        : r.handle?.toString(),
+				origin_name   : r.origin_name?.toString(),
+				origin_version: r.origin_version?.toString(),
+				origin_id     : r.origin_id?.toString(),
+				nanoid        : r.nanoid?.toString()
+			]
+		}
+	}
+	
+	
 
 
 
@@ -645,4 +693,204 @@ class MDB_Parity {
 
 		KeywordUtil.logInfo("[NodeProperties-All] Completed.")
 	}
+	
+	
+	/**
+	 * Verify parity for:
+	 * /v2/model/{modelHandle}/version/{versionString}/node/{nodeHandle}/property/{propHandle}/terms
+	 * Atomic verification method
+	 */
+	static void verifyNodePropertyTermsParity(String modelHandle, String versionString, String nodeHandle, String propHandle) {
+		String ctx = "PropertyTerms(${modelHandle}:${versionString}:${nodeHandle}:${propHandle})"
+		KeywordUtil.logInfo("[${ctx}] Verifying property->terms parity...")
+	
+		// --- API ---
+		def rTerms = fetchAndParse(
+			'Object Repository/API/MDB/STS/Models/GetNodePropertyTerms',
+			[
+				modelHandle  : modelHandle,
+				versionString: versionString,
+				nodeHandle   : encodePath(nodeHandle),
+				propHandle   : encodePath(propHandle)
+			]
+		)
+	
+		int status = rTerms.response.getStatusCode()
+	
+		// If you discover this endpoint returns 404 when no terms exist, keep this pattern.
+		// If it returns 200 with [], this won't trigger and will still work.
+		if (status == 404) {
+			KeywordUtil.logInfo("[${ctx}] API returned 404 (treating as no terms). Verifying Neo4j is also empty.")
+	
+			String cypherEmpty = getCypherQuery('Data Files/API/MDB/CypherQueries', 'verifyModelNodePropertyTermsEmpty')
+	
+			List<Map> neoEmpty = fetchFromNeo4j(cypherEmpty, [
+				modelHandle  : modelHandle,
+				versionString: versionString,
+				nodeHandle   : nodeHandle,
+				propHandle   : propHandle
+			])
+	
+			assert neoEmpty.isEmpty() :
+				"[${ctx}] API returned 404 but Neo4j returned ${neoEmpty.size()} terms"
+	
+			return
+		}
+	
+		assert status == 200 : "[${ctx}] Expected 200, got ${status}"
+		assert rTerms.data instanceof List : "[${ctx}] Expected List, got ${rTerms.data?.getClass()}"
+	
+		List<Map> apiTerms = normalizePropertyTermsFromApi(
+			(List<Map>) rTerms.data,
+			modelHandle, versionString, nodeHandle, propHandle
+		)
+	
+		// --- Neo4j ---
+		String cypher = getCypherQuery('Data Files/API/MDB/CypherQueries', 'verifyModelNodePropertyTerms')
+	
+		List<Map> neoRaw = fetchFromNeo4j(cypher, [
+			modelHandle  : modelHandle,
+			versionString: versionString,
+			nodeHandle   : nodeHandle,
+			propHandle   : propHandle
+		])
+	
+		List<Map> neoTerms = normalizePropertyTermsFromNeo(neoRaw)
+	
+		// Keep logs/sorting consistent
+		apiTerms = normalize(apiTerms, { it }, "API-${ctx}")
+		neoTerms = normalize(neoTerms, { it }, "NEO-${ctx}")
+	
+		// Compare including the fields you want to assert parity on
+		compareLists(
+			apiTerms,
+			neoTerms,
+			[
+				'model','version','node','property',
+				'nanoid','value','handle',
+				'origin_name','origin_version','origin_id'
+			],
+			ctx
+		)
+	}
+	
+	/**
+	 * For a given modelHandle:
+	 * - get latest version
+	 * - get nodes
+	 * - for each node, get properties
+	 * - for each property, verify terms parity
+	 */
+	static void verifyModelNodePropertyTermsParityLatest(String modelHandle) {
+		String ctx = "PropertyTerms-Latest(${modelHandle})"
+		KeywordUtil.logInfo("[${ctx}] Starting...")
+	
+		// --- latest version ---
+		def rLatest = fetchAndParse(
+			'Object Repository/API/MDB/STS/Models/GetModelLatestVersion',
+			[modelHandle: modelHandle]
+		)
+		assert rLatest.response.getStatusCode() == 200 :
+			"[${ctx}] Expected 200 from latest version, got ${rLatest.response.getStatusCode()}"
+	
+		def latestData = rLatest.data
+		String versionString = (latestData instanceof Map) ? latestData.version?.toString() : latestData?.toString()
+		versionString = versionString?.trim()
+		if (!versionString) KeywordUtil.markFailedAndStop("[${ctx}] Missing latest version")
+	
+		KeywordUtil.logInfo("[${ctx}] Latest version = ${versionString}")
+	
+		// --- nodes ---
+		def rNodes = fetchAndParse(
+			'Object Repository/API/MDB/STS/Models/GetModelNodes',
+			[modelHandle: modelHandle, versionString: versionString]
+		)
+	
+		// Some models might legitimately have 0 nodes; if that can happen, replace validateListResponse with a softer check.
+		validateListResponse(rNodes.response, rNodes.data, "nodes", ['handle'])
+		List<Map> nodes = (List) rNodes.data
+	
+		nodes.each { n ->
+			String nodeHandle = n.handle?.toString()
+			if (!nodeHandle) return
+	
+			String nodeCtx = "${ctx}:${nodeHandle}"
+			KeywordUtil.logInfo("[${nodeCtx}] Fetching properties...")
+	
+			// --- properties for node ---
+			def rProps = fetchAndParse(
+				'Object Repository/API/MDB/STS/Models/GetNodeProperties',
+				[
+					modelHandle  : modelHandle,
+					versionString: versionString,
+					nodeHandle   : encodePath(nodeHandle)
+				]
+			)
+	
+			int pStatus = rProps.response.getStatusCode()
+	
+			// Valid: node has no properties
+			if (pStatus == 404) {
+				KeywordUtil.logInfo("[${nodeCtx}] Properties API returned 404 (no properties). Skipping terms.")
+				return
+			}
+	
+			assert pStatus == 200 :
+				"[${nodeCtx}] Expected 200 or 404 from properties, got ${pStatus}"
+	
+			assert rProps.data instanceof List :
+				"[${nodeCtx}] Expected List from properties, got ${rProps.data?.getClass()}"
+	
+			List<Map> props = (List<Map>) rProps.data
+	
+			props.each { p ->
+				String propHandle = p.handle?.toString()
+				if (!propHandle) return
+	
+				// --- terms parity (atomic) ---
+				verifyNodePropertyTermsParity(modelHandle, versionString, nodeHandle, propHandle)
+			}
+		}
+	
+		KeywordUtil.logInfo("[${ctx}] Completed.")
+	}
+	
+	/**
+	 * Get all models and run property->terms parity for each model's latest version.
+	 * Wrapper method to run for test case
+	 */
+	static void verifyAllModelsNodePropertyTermsParityLatest(List<String> handlesFilter = []) {
+		KeywordUtil.logInfo("[PropertyTerms-All] Starting model->node->property->terms parity for all models (latest). filter=${handlesFilter}")
+	
+		def rModels = fetchAndParse('Object Repository/API/MDB/STS/Models/GetModels')
+		validateListResponse(rModels.response, rModels.data, "models", ['handle'])
+	
+		List<Map> models = (List) rModels.data
+	
+		// Only latest entries (since /models returns versions too)
+		models = models.findAll { it.is_latest_version == true }
+	
+		Set<String> handles = models.collect { it.handle }
+			.findAll { it != null && it.toString().trim() != "" }
+			.toSet()
+	
+		if (!handlesFilter.isEmpty()) {
+			handles = handles.findAll { it in handlesFilter }.toSet()
+		}
+	
+		if (handles.isEmpty()) {
+			KeywordUtil.markFailedAndStop("[PropertyTerms-All] No model handles found after filtering.")
+		}
+	
+		handles.sort().each { String h ->
+			KeywordUtil.logInfo("[PropertyTerms-All] >>> Model=${h}")
+			verifyModelNodePropertyTermsParityLatest(h)
+			KeywordUtil.logInfo("[PropertyTerms-All] <<< Model=${h} complete")
+		}
+	
+		KeywordUtil.logInfo("[PropertyTerms-All] Completed.")
+	}
+	
+	
+	
 }

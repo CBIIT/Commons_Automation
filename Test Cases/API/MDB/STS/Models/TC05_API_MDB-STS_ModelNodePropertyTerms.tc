@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_API_MDB-STS_ModelNodePropertyTerms</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a65ad738-585b-4f2a-8d18-8ff92a87d290</testCaseGuid>
+</TestCaseEntity>
