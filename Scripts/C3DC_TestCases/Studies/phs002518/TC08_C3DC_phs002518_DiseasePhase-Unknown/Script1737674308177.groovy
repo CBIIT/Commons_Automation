@@ -30,7 +30,8 @@ CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Study/Study_Facet')
 WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Study/dbGaP_Accession/dbGaP_Accession-Ddn'), 10)
 CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Study/dbGaP_Accession/dbGaP_Accession-Ddn')
 
-WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Study/dbGaP_Accession/phs002518-Chkbx'), 10)
+CustomKeywords.'utilities.TestRunner.scrollFacetDownUntilVisible'('C3DC/Filters/Study/dbGaP_Accession/dbGaP_Accession-Ddn',
+	'C3DC/Filters/Study/dbGaP_Accession/phs002518-Chkbx', 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Study/dbGaP_Accession/phs002518-Chkbx')
 
 WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Diagnosis/Diagnosis-Facet'), 10)

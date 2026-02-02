@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>NeoplsmBen-Chkbx</name>
+   <name>SortByParticipantsId-Colm</name>
    <tag></tag>
-   <elementGuidId>fe0375e7-f3f1-4b7b-8e8f-036860aa8017</elementGuidId>
+   <elementGuidId>8a5cac11-fb0d-4e57-9798-fd22ef99ed7d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Diagnosis_Neoplasm, benign&quot;]</value>
+         <value>//span[text()='Participant ID']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Diagnosis_Neoplasm, benign&quot;]</value>
-      <webElementGuid>84a75a29-31f6-43d1-8aff-0226ae67e18e</webElementGuid>
+      <value>//span[text()='Participant ID']</value>
+      <webElementGuid>ec2f96b2-323f-4c85-b7ae-438b78a1a4c6</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
