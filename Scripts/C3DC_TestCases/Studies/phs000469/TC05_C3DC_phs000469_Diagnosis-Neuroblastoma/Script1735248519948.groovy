@@ -40,8 +40,8 @@ WebUI.delay(2)
 WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Diagnosis/Diagnosis/Diagnosis-Ddn'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Diagnosis/Diagnosis/Diagnosis-Ddn')
 
-WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Diagnosis/Diagnosis/NephroblastomaNOS-Chkbx'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Diagnosis/Diagnosis/NephroblastomaNOS-Chkbx')
+WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Diagnosis/Diagnosis/NeuroblastomaNOS-Chkbx'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Diagnosis/Diagnosis/NeuroblastomaNOS-Chkbx')
 
 //Read Statbar
 CustomKeywords.'utilities.TestRunner.readStatBarC3DC'('C3DC/Statbar/Diagnosis-Count', 'C3DC/Statbar/Participants-Count', 

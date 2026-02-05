@@ -33,6 +33,7 @@ Profile CDS_PROD : This variable holds the location of the input excel file whic
 Profile CDS_QA : This variable holds the location of the input excel file which has the locators to be read from
 Profile CDS_QA2 : This variable holds the location of the input excel file which has the locators to be read from
 Profile CDS_STAGE : This variable holds the location of the input excel file which has the locators to be read from
+Profile CTDC_PROD : This variable holds the location of the input excel file which has the locators to be read from
 Profile CTDC_QA : This variable holds the location of the input excel file which has the locators to be read from
 Profile CTDC_STAGE : This variable holds the location of the input excel file which has the locators to be read from
 Profile ICDC_DEV : This variable holds the location of the input excel file which has the locators to be read from
@@ -66,6 +67,7 @@ Profile CDS_QA2 : This is the path where the browserdriver is stored - for Chrom
 Profile CDS_STAGE : This is the path where the browserdriver is stored - for Chromedriver, Geckodrive, IEdriver etc
 Profile CRDC_QA : This is the path where the browserdriver is stored - for Chromedriver, Geckodrive, IEdriver etc
 Profile CRDC_STAGE : This is the path where the browserdriver is stored - for Chromedriver, Geckodrive, IEdriver etc
+Profile CTDC_PROD : This is the path where the browserdriver is stored - for Chromedriver, Geckodrive, IEdriver etc
 Profile CTDC_QA : This is the path where the browserdriver is stored - for Chromedriver, Geckodrive, IEdriver etc
 Profile CTDC_STAGE : This is the path where the browserdriver is stored - for Chromedriver, Geckodrive, IEdriver etc
 Profile ICDC_DEV : This is the path where the browserdriver is stored - for Chromedriver, Geckodrive, IEdriver etc
@@ -105,6 +107,7 @@ Profile CDS_QA2 : This can be modified to any environment - qa&#47;dev&#47;stagi
 Profile CDS_STAGE : This can be modified to any environment - qa&#47;dev&#47;staging
 Profile CRDC_QA : This can be modified to any environment - qa&#47;dev&#47;staging
 Profile CRDC_STAGE : This can be modified to any environment - qa&#47;dev&#47;staging
+Profile CTDC_PROD : This can be modified to any environment - qa&#47;dev&#47;staging
 Profile CTDC_QA : This can be modified to any environment - qa&#47;dev&#47;staging
 Profile CTDC_STAGE : This can be modified to any environment - qa&#47;dev&#47;staging
 Profile ICDC_DEV : This can be modified to any environment - qa&#47;dev&#47;staging
@@ -147,6 +150,7 @@ Profile CDS_PROD : This variable stores the Neo4J database's server url at runti
 Profile CDS_QA : This variable stores the Neo4J database's server url at runtime
 Profile CDS_QA2 : This variable stores the Neo4J database's server url at runtime
 Profile CDS_STAGE : This variable stores the Neo4J database's server url at runtime
+Profile CTDC_PROD : This variable stores the Neo4J database's server url at runtime
 Profile CTDC_QA : This variable stores the Neo4J database's server url at runtime
 Profile CTDC_STAGE : This variable stores the Neo4J database's server url at runtime
 Profile ICDC_DEV : This variable stores the Neo4J database's server url at runtime
@@ -178,6 +182,7 @@ Profile CDS_PROD : This variable stores the Neo4J database's username at runtime
 Profile CDS_QA : This variable stores the Neo4J database's username at runtime
 Profile CDS_QA2 : This variable stores the Neo4J database's username at runtime
 Profile CDS_STAGE : This variable stores the Neo4J database's username at runtime
+Profile CTDC_PROD : This variable stores the Neo4J database's username at runtime
 Profile CTDC_QA : This variable stores the Neo4J database's username at runtime
 Profile CTDC_STAGE : This variable stores the Neo4J database's username at runtime
 Profile ICDC_DEV : This variable stores the Neo4J database's username at runtime
@@ -210,6 +215,7 @@ Profile CDS_PROD : This variable stores the Neo4J database's password at runtime
 Profile CDS_QA : This variable stores the Neo4J database's password at runtime
 Profile CDS_QA2 : This variable stores the Neo4J database's password at runtime
 Profile CDS_STAGE : This variable stores the Neo4J database's password at runtime
+Profile CTDC_PROD : This variable stores the Neo4J database's password at runtime
 Profile CTDC_QA : This variable stores the Neo4J database's password at runtime
 Profile CTDC_STAGE : This variable stores the Neo4J database's password at runtime
 Profile ICDC_DEV : This variable stores the Neo4J database's password at runtime
@@ -242,6 +248,7 @@ Profile CDS_PROD : This variable stores the path of the output file onto which t
 Profile CDS_QA : This variable stores the path of the output file onto which the data is written from Ne04j
 Profile CDS_QA2 : This variable stores the path of the output file onto which the data is written from Ne04j
 Profile CDS_STAGE : This variable stores the path of the output file onto which the data is written from Ne04j
+Profile CTDC_PROD : This variable stores the path of the output file onto which the data is written from Ne04j
 Profile CTDC_QA : This variable stores the path of the output file onto which the data is written from Ne04j
 Profile CTDC_STAGE : This variable stores the path of the output file onto which the data is written from Ne04j
 Profile ICDC_DEV : This variable stores the path of the output file onto which the data is written from Ne04j
@@ -288,6 +295,7 @@ Profile CDS_PROD : This variable stores at runtime, the Cypher Query from Input 
 Profile CDS_QA : This variable stores at runtime, the Cypher Query from Input Excel, used to fetch data from Neo4J for a specific criteria
 Profile CDS_QA2 : This variable stores at runtime, the Cypher Query from Input Excel, used to fetch data from Neo4J for a specific criteria
 Profile CDS_STAGE : This variable stores at runtime, the Cypher Query from Input Excel, used to fetch data from Neo4J for a specific criteria
+Profile CTDC_PROD : This variable stores at runtime, the Cypher Query from Input Excel, used to fetch data from Neo4J for a specific criteria
 Profile CTDC_QA : This variable stores at runtime, the Cypher Query from Input Excel, used to fetch data from Neo4J for a specific criteria
 Profile CTDC_STAGE : This variable stores at runtime, the Cypher Query from Input Excel, used to fetch data from Neo4J for a specific criteria
 Profile ICDC_DEV : This variable stores at runtime, the Cypher Query from Input Excel, used to fetch data from Neo4J for a specific criteria
@@ -379,6 +387,7 @@ Profile CDS_PROD : This variable holds the value of the filename of the input fi
 Profile CDS_QA : This variable holds the value of the filename of the input file attached to each test case
 Profile CDS_QA2 : This variable holds the value of the filename of the input file attached to each test case
 Profile CDS_STAGE : This variable holds the value of the filename of the input file attached to each test case
+Profile CTDC_PROD : This variable holds the value of the filename of the input file attached to each test case
 Profile CTDC_QA : This variable holds the value of the filename of the input file attached to each test case
 Profile CTDC_STAGE : This variable holds the value of the filename of the input file attached to each test case
 Profile ICDC_DEV : This variable holds the value of the filename of the input file attached to each test case
@@ -415,6 +424,7 @@ Profile CDS_PROD : This contains the name of the element as stored in Katalon's 
 Profile CDS_QA : This contains the name of the element as stored in Katalon's obj rep
 Profile CDS_QA2 : This contains the name of the element as stored in Katalon's obj rep
 Profile CDS_STAGE : This contains the name of the element as stored in Katalon's obj rep
+Profile CTDC_PROD : This contains the name of the element as stored in Katalon's obj rep
 Profile CTDC_QA : This contains the name of the element as stored in Katalon's obj rep
 Profile CTDC_STAGE : This contains the name of the element as stored in Katalon's obj rep
 Profile ICDC_DEV : This contains the name of the element as stored in Katalon's obj rep
@@ -446,6 +456,7 @@ Profile CDS_PROD : This is for Katalon
 Profile CDS_QA : This is for Katalon 
 Profile CDS_QA2 : This is for Katalon 
 Profile CDS_STAGE : This is for Katalon 
+Profile CTDC_PROD : This is for Katalon 
 Profile CTDC_QA : This is for Katalon 
 Profile CTDC_STAGE : This is for Katalon 
 Profile ICDC_DEV : This is for Katalon 
@@ -477,6 +488,7 @@ Profile CDS_PROD : This is the value for Bento
 Profile CDS_QA : This is the value for Bento
 Profile CDS_QA2 : This is the value for Bento
 Profile CDS_STAGE : This is the value for Bento
+Profile CTDC_PROD : This is for the Cases tab and Samples tab which have 12 cols.  There is a separate variable for Files tab which has 10 cols
 Profile CTDC_QA : This is for the Cases tab and Samples tab which have 12 cols.  There is a separate variable for Files tab which has 10 cols
 Profile CTDC_STAGE : This is for the Cases tab and Samples tab which have 12 cols.  There is a separate variable for Files tab which has 10 cols
 Profile ICDC_DEV : This is for the Cases tab and Samples tab which have 12 cols.  There is a separate variable for Files tab which has 10 cols
@@ -506,6 +518,7 @@ Profile C3DC_STAGE : This variable holds the value of Programs count from Stat B
 Profile CCDI_DEV : This variable holds the value of Programs count from Stat Bar in UI
 Profile CCDI_PROD : This variable holds the value of Programs count from Stat Bar in UI
 Profile CCDI_QA : This variable holds the value of Programs count from Stat Bar in UI
+Profile CTDC_PROD : This variable holds the value of Programs count from Stat Bar in UI
 Profile CTDC_QA : This variable holds the value of Programs count from Stat Bar in UI
 Profile CTDC_STAGE : This variable holds the value of Programs count from Stat Bar in UI
 Profile ICDC_PROD : This variable holds the value of Programs count from Stat Bar in UI
@@ -529,6 +542,7 @@ Profile CCDC_QA : This holds the value of stat bar for Studies
 Profile CCDI_DEV : This variable holds the value of Studies count from Stat Bar in UI
 Profile CCDI_PROD : This variable holds the value of Studies count from Stat Bar in UI
 Profile CCDI_QA : This variable holds the value of Studies count from Stat Bar in UI
+Profile CTDC_PROD : This variable holds the value of Studies count from Stat Bar in UI
 Profile CTDC_QA : This variable holds the value of Studies count from Stat Bar in UI
 Profile CTDC_STAGE : This variable holds the value of Studies count from Stat Bar in UI
 Profile ICDC_DEV : This variable holds the value of Studies count from Stat Bar in UI
@@ -557,6 +571,7 @@ Profile CDS_PROD : This variable holds the value of Cases count from Stat Bar in
 Profile CDS_QA : This variable holds the value of Cases count from Stat Bar in UI.
 Profile CDS_QA2 : This variable holds the value of Cases count from Stat Bar in UI.
 Profile CDS_STAGE : This variable holds the value of Cases count from Stat Bar in UI.
+Profile CTDC_PROD : This variable holds the value of Cases count from Stat Bar in UI.
 Profile CTDC_QA : This variable holds the value of Cases count from Stat Bar in UI.
 Profile CTDC_STAGE : This variable holds the value of Cases count from Stat Bar in UI.
 Profile ICDC_DEV : This variable holds the value of Cases count from Stat Bar in UI.
@@ -585,6 +600,7 @@ Profile CDS_PROD : This variable holds the value of Samples count from Stat Bar 
 Profile CDS_QA : This variable holds the value of Samples count from Stat Bar in UI.
 Profile CDS_QA2 : This variable holds the value of Samples count from Stat Bar in UI.
 Profile CDS_STAGE : This variable holds the value of Samples count from Stat Bar in UI.
+Profile CTDC_PROD : This variable holds the value of Samples count from Stat Bar in UI.
 Profile CTDC_QA : This variable holds the value of Samples count from Stat Bar in UI.
 Profile CTDC_STAGE : This variable holds the value of Samples count from Stat Bar in UI.
 Profile ICDC_DEV : This variable holds the value of Samples count from Stat Bar in UI.
@@ -613,6 +629,7 @@ Profile CDS_PROD : This variable holds the value of Files count from Stat Bar in
 Profile CDS_QA : This variable holds the value of Files count from Stat Bar in UI.
 Profile CDS_QA2 : This variable holds the value of Files count from Stat Bar in UI.
 Profile CDS_STAGE : This variable holds the value of Files count from Stat Bar in UI.
+Profile CTDC_PROD : This variable holds the value of Files count from Stat Bar in UI.
 Profile CTDC_QA : This variable holds the value of Files count from Stat Bar in UI.
 Profile CTDC_STAGE : This variable holds the value of Files count from Stat Bar in UI.
 Profile ICDC_DEV : This variable holds the value of Files count from Stat Bar in UI.
@@ -635,6 +652,7 @@ Profile C3DC_STAGE : This global variable holds the value of study files
 Profile CCDI_DEV : This global variable holds the value of study files
 Profile CCDI_PROD : This global variable holds the value of study files
 Profile CCDI_QA : This global variable holds the value of study files
+Profile CTDC_PROD : This global variable holds the value of study files
 Profile CTDC_QA : This global variable holds the value of study files
 Profile CTDC_STAGE : This global variable holds the value of study files
 Profile ICDC_PROD : This global variable holds the value of study files
@@ -686,6 +704,7 @@ Profile CDS_PROD : This variable contains the output tab name for stat bar count
 Profile CDS_QA : This variable contains the output tab name for stat bar counts from the case details page of a specific case ID
 Profile CDS_QA2 : This variable contains the output tab name for stat bar counts from the case details page of a specific case ID
 Profile CDS_STAGE : This variable contains the output tab name for stat bar counts from the case details page of a specific case ID
+Profile CTDC_PROD : This variable contains the output tab name for stat bar counts from the case details page of a specific case ID
 Profile CTDC_QA : This variable contains the output tab name for stat bar counts from the case details page of a specific case ID
 Profile CTDC_STAGE : This variable contains the output tab name for stat bar counts from the case details page of a specific case ID
 Profile ICDC_DEV : This variable contains the output tab name for stat bar counts from the case details page of a specific case ID
@@ -822,6 +841,7 @@ Profile CDS_PROD : This variable contains the current test case name
 Profile CDS_QA : This variable contains the current test case name
 Profile CDS_QA2 : This variable contains the current test case name
 Profile CDS_STAGE : This variable contains the current test case name
+Profile CTDC_PROD : Name of the current test script
 Profile CTDC_QA : Name of the current test script
 Profile CTDC_STAGE : Name of the current test script
 Profile ICDC_PROD : Name of the current test script
@@ -841,6 +861,7 @@ Profile C3DC_STAGE : This flag specifies whether the script needs manifest file 
 Profile CCDI_DEV : This flag specifies whether the script needs manifest file rename or not.
 Profile CCDI_PROD : This flag specifies whether the script needs manifest file rename or not.
 Profile CCDI_QA : This flag specifies whether the script needs manifest file rename or not.
+Profile CTDC_PROD : This flag specifies whether the script needs manifest file rename or not.
 Profile CTDC_QA : This flag specifies whether the script needs manifest file rename or not.
 Profile CTDC_STAGE : This flag specifies whether the script needs manifest file rename or not.
 Profile ICDC_PROD : This flag specifies whether the script needs manifest file rename or not.
@@ -871,6 +892,7 @@ Profile CDS_PROD : This is the value of browser chosen at runtime to execute the
 Profile CDS_QA : This is the value of browser chosen at runtime to execute the test script
 Profile CDS_QA2 : This is the value of browser chosen at runtime to execute the test script
 Profile CDS_STAGE : This is the value of browser chosen at runtime to execute the test script
+Profile CTDC_PROD : This is the value of browser chosen at runtime to execute the test script
 Profile CTDC_QA : This is the value of browser chosen at runtime to execute the test script
 Profile CTDC_STAGE : This is the value of browser chosen at runtime to execute the test script
 Profile ICDC_PROD : This is the value of browser chosen at runtime to execute the test script
@@ -890,6 +912,7 @@ Profile C3DC_STAGE : Path where manifest is saved
 Profile CCDI_DEV : Path where manifest is saved
 Profile CCDI_PROD : Path where manifest is saved
 Profile CCDI_QA : Path where manifest is saved
+Profile CTDC_PROD : Path where manifest is saved
 Profile CTDC_QA : Path where manifest is saved
 Profile CTDC_STAGE : Path where manifest is saved
 Profile ICDC_PROD : Path where manifest is saved
@@ -909,6 +932,7 @@ Profile C3DC_STAGE : This contains the name of the recent manifest with timestam
 Profile CCDI_DEV : This contains the name of the recent manifest with timestamp which is to be renamed
 Profile CCDI_PROD : This contains the name of the recent manifest with timestamp which is to be renamed
 Profile CCDI_QA : This contains the name of the recent manifest with timestamp which is to be renamed
+Profile CTDC_PROD : This contains the name of the recent manifest with timestamp which is to be renamed
 Profile CTDC_QA : This contains the name of the recent manifest with timestamp which is to be renamed
 Profile CTDC_STAGE : This contains the name of the recent manifest with timestamp which is to be renamed
 Profile ICDC_PROD : This contains the name of the recent manifest with timestamp which is to be renamed
@@ -981,6 +1005,7 @@ Profile C3DC_STAGE : This variable holds the xpath of table which is to be read 
 Profile CCDI_DEV : This variable holds the xpath of table which is to be read only for specific columns
 Profile CCDI_PROD : This variable holds the xpath of table which is to be read only for specific columns
 Profile CCDI_QA : This variable holds the xpath of table which is to be read only for specific columns
+Profile CTDC_PROD : This variable holds the xpath of table which is to be read only for specific columns
 Profile CTDC_QA : This variable holds the xpath of table which is to be read only for specific columns
 Profile CTDC_STAGE : This variable holds the xpath of table which is to be read only for specific columns
 Profile ICDC_DEV : This variable holds the xpath of table which is to be read only for specific columns
@@ -1001,6 +1026,7 @@ Profile C3DC_STAGE : This variable contains the xpath of table body to be read b
 Profile CCDI_DEV : This variable contains the xpath of table body to be read by chosen column headers
 Profile CCDI_PROD : This variable contains the xpath of table body to be read by chosen column headers
 Profile CCDI_QA : This variable contains the xpath of table body to be read by chosen column headers
+Profile CTDC_PROD : This variable contains the xpath of table body to be read by chosen column headers
 Profile CTDC_QA : This variable contains the xpath of table body to be read by chosen column headers
 Profile CTDC_STAGE : This variable contains the xpath of table body to be read by chosen column headers
 Profile ICDC_PROD : This variable contains the xpath of table body to be read by chosen column headers
@@ -1034,6 +1060,7 @@ Profile CDS_PROD : This is the variable holding the filename and full path of th
 Profile CDS_QA : This is the variable holding the filename and full path of the converted .xls file
 Profile CDS_QA2 : This is the variable holding the filename and full path of the converted .xls file
 Profile CDS_STAGE : This is the variable holding the filename and full path of the converted .xls file
+Profile CTDC_PROD : this holds the file name after csv to xls conversion of the downloaded manifest
 Profile CTDC_QA : this holds the file name after csv to xls conversion of the downloaded manifest
 Profile CTDC_STAGE : this holds the file name after csv to xls conversion of the downloaded manifest
 Profile ICDC_PROD : this holds the file name after csv to xls conversion of the downloaded manifest
@@ -1053,6 +1080,7 @@ Profile C3DC_STAGE : This variable holds the full path and filename of a manifes
 Profile CCDI_DEV : This variable holds the full path and filename of a manifest convereted from xls to xlsx
 Profile CCDI_PROD : This variable holds the full path and filename of a manifest convereted from xls to xlsx
 Profile CCDI_QA : This variable holds the full path and filename of a manifest convereted from xls to xlsx
+Profile CTDC_PROD : This variable holds the full path and filename of a manifest convereted from xls to xlsx
 Profile CTDC_QA : This variable holds the full path and filename of a manifest convereted from xls to xlsx
 Profile CTDC_STAGE : This variable holds the full path and filename of a manifest convereted from xls to xlsx
 Profile ICDC_PROD : This variable holds the full path and filename of a manifest convereted from xls to xlsx
@@ -1072,6 +1100,7 @@ Profile C3DC_STAGE : dummy variable added due toINS profile
 Profile CCDI_DEV : dummy variable added due toINS profile
 Profile CCDI_PROD : dummy variable added due toINS profile
 Profile CCDI_QA : dummy variable added due toINS profile
+Profile CTDC_PROD : dummy variable added due toINS profile
 Profile CTDC_QA : dummy variable added due toINS profile
 Profile CTDC_STAGE : dummy variable added due toINS profile
 Profile ICDC_STAGE : dummy variable added due toINS profile

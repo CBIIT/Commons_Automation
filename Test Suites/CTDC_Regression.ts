@@ -26,13 +26,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>a87f1abe-be57-4f42-96f3-7bcce3ca8da9</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CTDC_TestCases/AnatomCollecSite/TC03_CTDC_AnatomCollecSite-LymphNode</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>3ae7934c-9445-4739-a327-078936b67483</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

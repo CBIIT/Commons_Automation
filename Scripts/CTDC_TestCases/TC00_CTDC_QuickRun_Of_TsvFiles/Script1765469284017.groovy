@@ -37,11 +37,11 @@ import com.kms.katalon.core.util.KeywordUtil
 import java.nio.file.Paths
 
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC01_CTDC_AnatomCollecSite-AbdomWall.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC02_CTDC_CollectTimepoint-BaselineFresh.xlsx')
 
 //CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py','TsvDataParticipants')
-CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py','TsvDataBiospecimens')
-//CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py','TsvDataFiles')
+//CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py','TsvDataBiospecimens')
+CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py','TsvDataFiles')
 
-CustomKeywords.'utilities.PythonReader.readFileQuickRun'('Statbar.py','')
+//CustomKeywords.'utilities.PythonReader.readFileQuickRun'('Statbar.py','')
 
