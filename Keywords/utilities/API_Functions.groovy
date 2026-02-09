@@ -88,6 +88,11 @@ class API_Functions {
 		return response
 	}
 
+	//Overload sendRequestAndCaptureResponse
+	static ResponseObject sendRequestAndCaptureResponse(String objectPath, Map variables) {
+		def testObject = findTestObject(objectPath, variables)
+		return WS.sendRequest(testObject)
+	}
 
 
 	//	// Function to parse JSON response
@@ -154,13 +159,20 @@ class API_Functions {
 					KeywordUtil.markFailedAndStop("No entry with 'source: ccdi-ecDNA' found in the response.")
 				}
 				return ecdnaEntry
-				
+
 			case 'ccdi-IUSCCC':
-			def iuEntry = responseData.find { it.source == 'ccdi-iusccc-pst' }
-			if (iuEntry == null) {
-				KeywordUtil.markFailedAndStop("No entry with 'source: ccdi-IUSCCC' found in the response.")
-			}
-			return iuEntry
+				def iuEntry = responseData.find { it.source == 'ccdi-iusccc-pst' } // source name was changed after test cases were created
+				if (iuEntry == null) {
+					KeywordUtil.markFailedAndStop("No entry with 'source: ccdi-IUSCCC' found in the response.")
+				}
+				return iuEntry
+
+			case 'CCDI-DCC':
+				def CcdiDccEntry = responseData.find { it.source == 'CCDI-DCC' }
+				if (CcdiDccEntry == null) {
+					KeywordUtil.markFailedAndStop("No entry with 'source: CCDI-DCC' found in the response.")
+				}
+				return CcdiDccEntry
 
 			default:
 				KeywordUtil.markFailedAndStop("ERROR - Check API_Functions.findEntry() -- No entry found for the provided key: ${key}")
@@ -199,10 +211,10 @@ class API_Functions {
 
 	// Function to compare API responses
 	static void compareAPIResponses(def singleNodeData, def AlextractedEntry, def key) {
-		
+
 		KeywordUtil.logInfo("${key} response from individual node - ${singleNodeData}")
 		KeywordUtil.logInfo("${key} entry in AL - ${AlextractedEntry}")
-			
+
 		if (singleNodeData == null) {
 			assert false : "${key} - singleNodeData is null."
 		}
@@ -275,7 +287,7 @@ class API_Functions {
 		}
 
 		//assert isContained : "The ${key} entry does not match the single node data."
-		
+
 		// ADDED: flag extras that appear only in AL (symmetry check)
 		def nodeKeys = (nodeValues.collect { it?.value } as Set) ?: [] as Set
 		def aggKeys  = (aggValues.collect { it?.value } as Set) ?: [] as Set
@@ -284,7 +296,7 @@ class API_Functions {
 			isContained = false
 			KeywordUtil.markWarning("Extra values present only in AL for ${key}: ${extrasInAL}")
 		}
-	
+
 		assert isContained : "The ${key} entry does not match the single node data."
 		KeywordUtil.markPassed("${key} - AL matches node") // ADDED
 	}
@@ -356,4 +368,51 @@ class API_Functions {
 		}
 		return request
 	}
+	
+	// Map for Federation nodes - Add new Federation nodes here
+    // Key = Folder Name in Object Repository, Value = Key in the AL JSON
+    public static final Map<String, String> FEDERATION_NODES = [
+        'KidsFirst'      : 'KidsFirst',
+        'StJude'         : 'StJude',
+        'PCDC_UChicago'  : 'PCDC',
+        'Treehouse_UCSC' : 'Treehouse',
+        'ecDNA'          : 'ccdi-ecDNA',
+        'IUSCCC'         : 'ccdi-IUSCCC',
+        'CCDI-DCC'       : 'CCDI-DCC'
+    ]
+
+    /**
+     * Federation nodes vs Aggregation Layer comparison for counts - Master Method
+     * @param nodeEndpoint e.g., 'Samples-PreservationMethod' (TestObject name for the Federation node endpoint being tested)
+     * @param aggLayerEndpoint e.g., 'AL_SampleCounts_by_PreservationMethod' (TestObject name for the AL endpoint being tested)
+     */
+    public static void verifyFederationNodesVersusAggLayerCounts(String nodeEndpoint, String aggLayerEndpoint) {
+        
+		// Get AL response
+        String aggLayerPath = "Object Repository/API/Federation/AggregationLayer/${aggLayerEndpoint}"
+        ResponseObject responseAggLayer = sendRequestAndCaptureResponse(aggLayerPath)
+        def dataAggLayer = parseResponse(responseAggLayer)
+
+        // Iterate through list of nodes
+        FEDERATION_NODES.each { folderName, jsonKey ->
+            
+            // Dynamically build the path based on the folder and the specific endpoint
+            String nodePath = "Object Repository/API/Federation/FederationNodes/${folderName}/${nodeEndpoint}"
+            
+            KeywordUtil.logInfo("Testing Node: ${jsonKey} at path: ${nodePath}")
+
+            try {
+				// Get node response and also extract the individual node entry from the AL response
+                ResponseObject resp = sendRequestAndCaptureResponse(nodePath)
+                def dataNode = parseResponse(resp)
+                def aggEntry = findEntry(dataAggLayer, jsonKey)
+
+                compareAPIResponses(dataNode, aggEntry, jsonKey)
+                KeywordUtil.markPassed("Verified ${jsonKey}")
+            } catch (Exception e) {
+                KeywordUtil.markFailed("Failed validation for ${jsonKey}: " + e.message)
+            }
+        }
+    }
+	
 }
