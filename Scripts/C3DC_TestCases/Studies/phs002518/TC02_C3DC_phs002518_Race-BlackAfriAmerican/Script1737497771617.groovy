@@ -30,8 +30,13 @@ CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Study/Study_Facet')
 WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Study/dbGaP_Accession/dbGaP_Accession-Ddn'), 10)
 CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Study/dbGaP_Accession/dbGaP_Accession-Ddn')
 
-WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Study/dbGaP_Accession/phs002518-Chkbx'), 10)
+CustomKeywords.'utilities.TestRunner.scrollFacetDownUntilVisible'('C3DC/Filters/Study/dbGaP_Accession/dbGaP_Accession-Ddn',
+	'C3DC/Filters/Study/dbGaP_Accession/phs002518-Chkbx', 5)
+WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Study/dbGaP_Accession/phs002518-Chkbx'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Study/dbGaP_Accession/phs002518-Chkbx')
+
+WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Demographics/Demographics_Facet'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Demographics/Demographics_Facet')
 
 WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Demographics/Race/Race_Ddn'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Demographics/Race/Race_Ddn')
@@ -58,34 +63,39 @@ CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_Sta
 	'TsvDataParticipants', GlobalVariable.G_QueryParticipantsTab)
 
 //clicking the Diagnosis tab
-WebUI.waitForElementPresent(findTestObject('C3DC/ResultTabs/Diagnosis-Tab'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/ResultTabs/Diagnosis-Tab')
+CustomKeywords.'utilities.TestRunner.openTab'('C3DC/ResultTabs/Diagnosis-Tab', 'Diagnosis')
 CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_StatBar_Participants, 'C3DC/ResultTabs/Diagnosis-Tbl',
 	'C3DC/ResultTabs/Diagnosis-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameDiagnosis,
 	'TsvDataDiagnosis', GlobalVariable.G_QueryDiagnosisTab)
 
+////clicking the Genetic Analysis tab
+//CustomKeywords.'utilities.TestRunner.openTab'('C3DC/ResultTabs/GeneticAnalysis-Tab','Genetic Analysis')
+//CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/ResultTabs/SortByGeneticAnalysisID-Colm')
+//CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_StatBar_Participants, 'C3DC/ResultTabs/GeneticAnalysis-Tbl',
+//	'C3DC/ResultTabs/GeneticAnalysis-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameGeneticAnalysis,
+//	'TsvDataGeneticAnalysis', GlobalVariable.G_QueryGeneticAnalysisTab)
 
-////clicking the Treatment tab - Sorting issue to be fixed
-//WebUI.waitForElementPresent(findTestObject('C3DC/ResultTabs/Treatment-Tab'), 5)
-//CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/ResultTabs/Treatment-Tab')
-//CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/ResultTabs/SortByTreatmentID-Colm')
-//CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_StatBar_Participants, 'C3DC/ResultTabs/Treatment-Tbl',
-//	'C3DC/ResultTabs/Treatment-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameTreatment,
-//	'TsvDataTreatment', GlobalVariable.G_QueryDiagnosisTab)
+////clicking the Treatment tab - This study does not have treatment data
+CustomKeywords.'utilities.TestRunner.openTab'('C3DC/ResultTabs/Treatment-Tab', 'Treatment')
+CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/ResultTabs/SortByTreatmentID-Colm')
+CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_StatBar_Participants, 'C3DC/ResultTabs/Treatment-Tbl',
+	'C3DC/ResultTabs/Treatment-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameTreatment,
+	'TsvDataTreatment', GlobalVariable.G_QueryTreatmentTab)
 
 ////clicking the Treatment Response tab -This study does not have treatment response data
-//WebUI.waitForElementPresent(findTestObject('C3DC/ResultTabs/TreatmentResp-Tab'), 5)
-//CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/ResultTabs/TreatmentResp-Tab')
+//CustomKeywords.'utilities.TestRunner.openTab'('C3DC/ResultTabs/TreatmentResp-Tab', 'Treatment Response')
+//CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/ResultTabs/SortBySurvivalID-Colm')
 //CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_StatBar_Participants, 'C3DC/ResultTabs/TreatmentResp-Tbl',
 //	'C3DC/ResultTabs/TreatmentResp-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameTrtmntResp,
-//	'TsvDataTreatmntResp', GlobalVariable.G_QueryDiagnosisTab)
+//	'TsvDataTreatmntResp', GlobalVariable.G_QueryTrtmntRespTab)
 
 //clicking the Survival tab
-WebUI.waitForElementPresent(findTestObject('C3DC/ResultTabs/Survival-Tab'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/ResultTabs/Survival-Tab')
+CustomKeywords.'utilities.TestRunner.openTab'('C3DC/ResultTabs/Survival-Tab', 'Survival')
+CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/ResultTabs/SortBySurvivalID-Colm')
 CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_StatBar_Participants, 'C3DC/ResultTabs/Survival-Tbl',
 	'C3DC/ResultTabs/Survival-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameSurvival,
 	'TsvDataSurvival', GlobalVariable.G_QuerySurvivalTab)
+
  
 WebUI.closeBrowser()
 

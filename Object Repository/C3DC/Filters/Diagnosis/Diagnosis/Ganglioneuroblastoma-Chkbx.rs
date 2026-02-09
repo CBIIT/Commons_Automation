@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Diagnosis_9490/3 : Ganglioneuroblastoma&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Diagnosis_Ganglioneuroblastoma&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Diagnosis_9490/3 : Ganglioneuroblastoma&quot;]</value>
-      <webElementGuid>2c49ee17-807c-45df-92b0-7f07b0deb19a</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Diagnosis_Ganglioneuroblastoma&quot;]</value>
+      <webElementGuid>2ac7ff37-9d41-4db8-9509-accf7355565a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

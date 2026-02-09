@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC04_C3DC_phs000463_Diagnosis-AcuteBip</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>51a90586-f03e-4dba-ba69-50c61f21ca04</testCaseGuid>
-</TestCaseEntity>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Diagnosis_8041/3 : Small cell carcinoma, NOS&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Diagnosis_Small cell carcinoma, NOS&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Diagnosis_8041/3 : Small cell carcinoma, NOS&quot;]</value>
-      <webElementGuid>5ceafa2c-278f-43fe-a7a1-4515b909710e</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Diagnosis_Small cell carcinoma, NOS&quot;]</value>
+      <webElementGuid>c03e3d1b-0848-45b4-b444-20af807090db</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

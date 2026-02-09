@@ -45,6 +45,20 @@ elif result_tab in ("TsvDataDiagnosis"):
     Utils.write_to_excel(output_excel, "TsvDataDiagnosis", result_df_diagnosis)
     # Print output data
     print(f'Diagnosis data successfully written to: {output_excel}')
+    
+elif result_tab in ("TsvDataGeneticAnalysis"):
+    # Get participants query from excel
+    geneticanalysis_query = Utils.get_value_from_excel('GeneticAnalysisTab')
+    print(f'This is Genetic Analysis tab query fitched from input excel:\n{geneticanalysis_query}')
+    # Executing query with dataframe and storing result
+    result_df_geneticanalysis = Utils.df_run_query(geneticanalysis_query)   
+    # Specify the output excel path
+    output_excel = os.path.join(os.path.dirname(os.path.abspath(__file__)), Utils.get_output_file_path, Utils.get_value_from_excel('TsvExcel'))
+    # Write the result DataFrame to an Excel file
+    Utils.write_to_excel(output_excel, "TsvDataGeneticAnalysis", result_df_geneticanalysis)
+    # Print output data
+    print(f'Genetic Analysis data successfully written to: {output_excel}')
+    
 
 elif result_tab in ("TsvDataTreatment"):
     # Get participants query from excel
@@ -61,7 +75,7 @@ elif result_tab in ("TsvDataTreatment"):
 
 elif result_tab in ("TsvDataTreatmentResp"):
     # Get participants query from excel
-    treatment_resp_query = Utils.get_value_from_excel('TsvDataTreatmentResp')
+    treatment_resp_query = Utils.get_value_from_excel('TreatmentRespTab')
     print(f'This is Treatment Response tab query fitched from input excel:\n{treatment_resp_query}')
     # Executing query with dataframe and storing result
     result_df_treatment_resp = Utils.df_run_query(treatment_resp_query)   

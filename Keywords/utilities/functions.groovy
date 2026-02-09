@@ -314,10 +314,10 @@ class functions extends TestRunner implements Comparator<List<XSSFCell>>{
 		writeToExcel(webSheetName);
 		System.out.println("Webdata written to excel successfully")
 	}//ReadCasesTableKatalon function ends
-	
-	
-	
-	
+
+
+
+
 	/**
 	 * The function is used to login to CRDC application.
 	 */
