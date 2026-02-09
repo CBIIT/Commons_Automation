@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Diagnosis_8000/0 : Neoplasm, benign&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Diagnosis_Neoplasm, benign&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Diagnosis_8000/0 : Neoplasm, benign&quot;]</value>
-      <webElementGuid>d8c6017f-7ed5-4ef0-9cc6-79404acd10f7</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Diagnosis_Neoplasm, benign&quot;]</value>
+      <webElementGuid>84a75a29-31f6-43d1-8aff-0226ae67e18e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

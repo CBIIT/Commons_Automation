@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>GeneticAnalysis-TblHdr</name>
+   <tag></tag>
+   <elementGuidId>cec84e6b-b0e2-4b41-86bb-2968c78300b3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id='genetic_analysis_tab_table']//thead</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id='genetic_analysis_tab_table']//thead</value>
+      <webElementGuid>4c742dba-2ea7-4f83-bbee-0600f4d0badb</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,70 @@
+type	id	participant_id	race	sex_at_birth	consent_group.id
+participant	6f81f4c5-c48b-588e-9d57-d38f8503ada5	HTA4_1018	White	Male	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	4676ff07-8ab2-5668-99c5-c7f85bb15ac2	HTA4_5	Not Reported	Female	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	3c3c4bbc-ab64-551c-853a-cf7e893f727e	HTA4_30	Not Reported	Not Reported	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	95323991-9634-5436-b54e-77b1e5eef760	HTA4_1005	White	Male	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	6cde857a-d58a-5d9b-92c5-031f1a7dbaf5	HTA4_1006	White	Female	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	4847f15b-29e3-5b67-9537-5eca6014cbf2	HTA4_2013	Not Reported	Not Reported	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	be761de3-db8f-5bc7-a045-0c89cea89fc7	HTA4_9	Not Reported	Male	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	89b3a063-c540-5599-8506-9cc395e2631e	HTA4_1	Not Reported	Female	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	515da299-9f66-5090-9d20-fe47c3657d09	HTA4_1021	Asian	Female	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	c0d7bb84-168e-5df8-9603-e50be9bffb73	HTA4_7	Not Reported	Male	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	42381577-a629-58ae-918c-bc508e90cc70	HTA4_18	Not Reported	Female	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	200ccbaf-7add-5c21-b8dd-a8fbb36a36c6	HTA4_2015	Not Reported	Not Reported	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	1ffe9b4e-ab62-527d-ad36-8e702f10f6b0	HTA4_1004	White	Female	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	4a89b53d-9aeb-5cff-8eb3-2e2e788dc351	HTA4_1020	White	Female	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	beaa7a2b-3eb9-568f-8791-1b902c4a376c	HTA4_2009	Not Reported	Not Reported	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	336340dc-b852-5ac4-8999-f37b6aef7336	HTA4_11	Not Reported	Male	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	74235ed1-f8e3-5321-9d97-08d5895f62d3	HTA4_1001	Not Reported	Female	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	31690a4c-7425-558b-a24f-378788f86df1	HTA4_1023	White	Female	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	72ff88ac-eefb-53a1-8fc2-5973e70a116d	HTA4_1010	White	Female	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	58e58e59-b076-5e71-922e-3b938378aa1a	HTA4_29	Not Reported	Not Reported	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	b61586c3-943f-51c1-b9e2-ce65e376c98c	HTA4_28	Not Reported	Not Reported	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	24052c65-1d70-5248-bd5d-f51f8178f830	HTA4_1017	White	Female	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	e0488340-cefc-5790-bd05-40c6bfa8714f	HTA4_14	Not Reported	Male	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	edd77b79-5ba0-5626-ae24-b9510061d183	HTA4_21	Not Reported	Female	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	a5f33fa8-b4de-52e2-8c33-ab3d87b9d683	HTA4_2008	Not Reported	Not Reported	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	b8a83675-e2fe-5832-bcf6-f1343caa64a5	HTA4_12	Not Reported	Female	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	52bc506b-1091-52ed-a00e-c51dfc328934	HTA4_1016	White	Male	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	0ea8038e-6e2b-593d-b1c4-2f1a79b2269a	HTA4_1013	Asian;Hispanic or Latino	Male	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	ee07daa4-3dff-53df-8d20-f2a1585aacf5	HTA4_6	Not Reported	Female	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	16f7e59a-77e3-564f-a62b-2402f8bbb3c3	HTA4_19	Not Reported	Female	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	95ade1c7-2301-5609-9c9a-bc878bea9de2	HTA4_2005	Not Reported	Not Reported	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	7a3b46af-b4a4-59f5-a020-3b962fe1e262	HTA4_17	Not Reported	Male	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	41060e0e-34a4-5223-b19c-e5eea9602382	HTA4_2010	Not Reported	Not Reported	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	1f8913a9-31a1-5d10-904a-3bb41a6c3561	HTA4_1011	Asian	Female	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	3dfd70df-5fcb-5ce2-ba86-6ce2b728098e	HTA4_16	Not Reported	Male	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	62cc11f4-374e-57b5-ab35-db555ba77e4b	HTA4_10	Not Reported	Female	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	ae317227-60ff-5959-bbdb-59f8b571f109	HTA4_2012	Not Reported	Not Reported	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	bf0a444c-680c-5ea4-9a26-1f99fd4e81e7	HTA4_22	Not Reported	Male	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	4f232fe0-4c65-5479-8dda-c93776e3a750	HTA4_26	Not Reported	Not Reported	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	f8754030-1009-5bb0-a541-763d07cd40c8	HTA4_1015	White	Female	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	e6c76dd4-1e41-52ae-aa19-65cf9b551760	HTA4_15	Not Reported	Male	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	d9fce894-2951-518c-8e04-750fe1d1937f	HTA4_8	Not Reported	Male	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	a36d00f1-4a10-5783-8c8a-874284e8fbd9	HTA4_2	Not Reported	Female	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	9f9a24cc-2bb7-5f31-bad3-2f3704b7189a	HTA4_2003	Not Reported	Not Reported	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	c5b0b764-d282-5b61-8711-7a1cc314d1b4	HTA4_27	Not Reported	Not Reported	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	669eb35c-29a4-55a9-ab2b-8f32b7819aaa	HTA4_2001	Not Reported	Not Reported	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	86e7af07-2773-55b9-9fb8-6cf55d9e55c5	HTA4_24	Not Reported	Female	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	0b45918b-fa95-5fa9-a652-87422fc70569	HTA4_1022	Black or African American	Male	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	3b61a336-920c-5beb-9721-46271716a699	HTA4_1012	Black or African American	Male	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	797c8d1a-4730-565a-b62b-4dfac4f0a3a5	HTA4_1014	White	Female	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	65cf7044-8ea2-51d9-9bc2-9dbdd99ddae4	HTA4_1019	White	Male	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	db24c71d-185f-5b20-b861-f62232e5d849	HTA4_13	Not Reported	Female	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	17335aaf-d6a8-5693-b291-7ea99c804211	HTA4_4	Not Reported	Female	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	5436cb7b-490b-544f-bbbd-9f6ab4922b15	HTA4_2016	Not Reported	Not Reported	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	b6301eb2-633a-502f-bf91-ea52620633e5	HTA4_1002	White	Female	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	edc30067-0682-5298-9e12-1ba262e6558c	HTA4_1007	Black or African American	Male	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	2909f438-b3ce-5718-b52f-60478290b0c0	HTA4_1009	Black or African American	Female	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	a0aad21d-c20d-53b0-bc53-16dac7bea9d6	HTA4_20	Not Reported	Female	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	6e9127be-9261-53fb-9c60-7d4eadd24732	HTA4_25	Not Reported	Female	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	2281c55d-22ad-5eaa-8f8e-9d3d2a957008	HTA4_2011	Not Reported	Not Reported	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	444a3d64-362b-5309-b80c-ba6a68025aa3	HTA4_2004	Not Reported	Not Reported	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	cfb2cf03-6dcf-5452-aed3-6dc36cdc3636	HTA4_2007	Not Reported	Not Reported	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	5c2ecd15-e22d-52d4-a880-c531002e9f39	HTA4_2002	Not Reported	Not Reported	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	386d07bb-4bff-5724-8ebd-8fecfd4da3fb	HTA4_1003	Not Reported	Female	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	9d820109-e659-5ea5-8ece-d488008b29bc	HTA4_3	Not Reported	Female	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	aafbfa18-7223-5aba-9671-02d006692999	HTA4_2014	Not Reported	Not Reported	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	68e5cdaa-864f-528c-b348-08127693c49c	HTA4_23	Not Reported	Female	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	4b025a6e-876b-511e-bad8-a42f1d6e07a7	HTA4_2006	Not Reported	Not Reported	ff12d60e-9d80-553c-ba1e-fba3ef753d92
+participant	bf0701bb-d761-5b1c-a00e-ac0a34e6eb15	HTA4_1008	White	Female	ff12d60e-9d80-553c-ba1e-fba3ef753d92

@@ -37,11 +37,13 @@ import com.kms.katalon.core.util.KeywordUtil
 import java.nio.file.Paths
 
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC01_C3DC_phs002790_SexAtBirth-Male.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC01_C3DC_phs003519_SexAtBirth-Female.xlsx')
 
 CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py','TsvDataStudies')
 CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py','TsvDataParticipants')
 CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py','TsvDataDiagnosis')
-CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py', 'TsvDataStudies')
-
+////CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py', 'TsvDataGeneticAnalysis')
+////CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py', 'TsvDataTreatment')
+//CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py', 'TsvDataTreatmentResp')
+//CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py', 'TsvDataSurvival')
 

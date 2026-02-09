@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Diagnosis_8960/3 : Nephroblastoma, NOS&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Diagnosis_Nephroblastoma, NOS&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Diagnosis_8960/3 : Nephroblastoma, NOS&quot;]</value>
-      <webElementGuid>9ce84713-3695-4290-b860-191101a9ab7a</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Diagnosis_Nephroblastoma, NOS&quot;]</value>
+      <webElementGuid>bc7d8f0c-faa6-4883-936b-166e5a04ecf5</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

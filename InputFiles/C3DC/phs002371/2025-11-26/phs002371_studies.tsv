@@ -1,0 +1,2 @@
+type	id	study_id	dbgap_accession	study_name	study_description	external_url	study_status
+study	525f594e-b859-582c-bd87-229c0cd3ae8c	phs002371	phs002371	Human Tumor Atlas Network (HTAN)	<p>An NCI-funded Cancer Moonshot initiative to construct 3-dimensional atlases of the dynamic cellular, morphological, and molecular features of human cancers as they evolve from precancerous lesions to advanced disease.</p>	https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002371	Completed

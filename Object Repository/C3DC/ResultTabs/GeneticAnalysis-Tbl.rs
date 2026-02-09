@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>GeneticAnalysis-Tbl</name>
+   <tag></tag>
+   <elementGuidId>897323bd-11b0-439e-9407-a0df3aebb3b6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id='genetic_analysis_tab_table']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id='genetic_analysis_tab_table']</value>
+      <webElementGuid>37b65f16-1645-4c88-931c-f4d47ed30d07</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

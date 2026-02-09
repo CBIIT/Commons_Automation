@@ -19,6 +19,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//button[@index='2' and @role='tab']</value>
-      <webElementGuid>c193b4e7-7a81-432e-a97f-4f46aa161718</webElementGuid>
+      <webElementGuid>d0a3def0-1545-449c-9547-3ce93cb3e5a0</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
