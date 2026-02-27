@@ -4,5 +4,6 @@
    <name>TC01_ICDC_COTC021_StudyType-ClinicalTrial</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>be2eb5a6-7c3d-42ec-8d09-e41d15ab1879</testCaseGuid>
 </TestCaseEntity>
