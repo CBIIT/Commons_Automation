@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC08_ICDC_COTC021_Sex-Female</name>
+   <name>TC55_ICDC_COTC021_FileFormat-RCC</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>cf415454-4b36-4c90-922b-f0d49d1e7bf0</testCaseGuid>
+   <testCaseGuid>21e01720-90fb-4457-91e9-a63a24c7392a</testCaseGuid>
 </TestCaseEntity>
