@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC16_ICDC_COTC022_FileType-NanoStrIOAnalysFile</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d8323c7f-8ece-42ae-8e9e-d7caf46a745b</testCaseGuid>
+</TestCaseEntity>
