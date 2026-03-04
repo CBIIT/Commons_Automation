@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC01_ICDC_COTC021_StudyType-ClinicalTrial</name>
+   <name>TC16_ICDC_COTC022_FileType-NanoStrIOAnalysFile</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>be2eb5a6-7c3d-42ec-8d09-e41d15ab1879</testCaseGuid>
+   <testCaseGuid>d8323c7f-8ece-42ae-8e9e-d7caf46a745b</testCaseGuid>
 </TestCaseEntity>

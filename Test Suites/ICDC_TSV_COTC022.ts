@@ -26,13 +26,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>92622281-862d-48f5-b01c-a1b2e0ca7f58</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Canine_TestCases/Studies/COTCO22/TC03_ICDC_COTC022_Biobank-NotApplicable</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>396490c5-cfb3-4dcd-a79e-b014a17ac12a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -114,6 +107,20 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Canine_TestCases/Studies/COTCO22/TC15_ICDC_COTC022_FileFormat-xlsx</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cca73134-0a4b-41bc-9d9a-bc1753dd90f9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Canine_TestCases/Studies/COTCO22/TC16_ICDC_COTC022_FileType-NanoStrIOAnalysFile</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c01c3a5a-84e1-4ad9-bd47-55ba91e2dfc4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Canine_TestCases/Studies/COTCO22/TC17_ICDC_COTC022_FileFormat-RCC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
