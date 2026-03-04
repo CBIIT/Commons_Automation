@@ -375,4 +375,18 @@
       <testCaseId>Test Cases/Canine_TestCases/Studies/COTCO21/TC53_ICDC_COTC021_FileFormat-fastq</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>18b7530e-30e8-4c1c-930f-d81d862ccd90</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Canine_TestCases/Studies/COTCO21/TC55_ICDC_COTC021_FileFormat-RCC</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b27cee65-9dad-47e1-b23d-a1c14d16e915</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Canine_TestCases/Studies/COTCO21/TC54_ICDC_COTC021_FileType-NanoStrIOAnalysisFile</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC01_ICDC_COTC021_StudyType-ClinicalTrial</name>
+   <name>TC17_ICDC_COTC022_FileFormat-RCC</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>be2eb5a6-7c3d-42ec-8d09-e41d15ab1879</testCaseGuid>
+   <testCaseGuid>91d32663-e6cf-4ff6-b0ad-4b64a7e9d13f</testCaseGuid>
 </TestCaseEntity>

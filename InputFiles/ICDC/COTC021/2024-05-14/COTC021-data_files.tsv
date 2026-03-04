@@ -185,3 +185,74 @@ file	52_2317_tumor_S56_R1_001.fastq.gz	b26e953b-77ad-5bea-9628-b71b52a0f92b	8224
 file	52_2317_tumor_S56_R2_001.fastq.gz	aad461e9-39d1-55be-96de-64f92cf5fc42	873079326	4452225225ebb819b6a6cc9c3dc48c3e	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/COTC021/52_2317_tumor_S56_R2_001.fastq.gz	gz	['Open']	COTC021-2317-T	RNA Sequence File	RNA-Seq: Primary Tumor
 file	47_2321_tumor_S39_R1_001.fastq.gz	e6ab3dff-0166-51b9-b091-f55d86806052	758671402	a53e4d7a3895ea2f259235534d0048a7	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/COTC021/47_2321_tumor_S39_R1_001.fastq.gz	gz	['Open']	COTC021-2321-T	RNA Sequence File	RNA-Seq: Primary Tumor
 file	47_2321_tumor_S39_R2_001.fastq.gz	adbaf105-0814-5ae5-93f8-e5b22fb83ebb	807211858	5a7e8bb25eff5830cf02c78adc6c6dcd	uploaded	s3://nci-cbiit-caninedatacommons-file/Final/COTC021/47_2321_tumor_S39_R2_001.fastq.gz	gz	['Open']	COTC021-2321-T	RNA Sequence File	RNA-Seq: Primary Tumor
+file	COTC021-0621-M-F-Lung.RCC	009fb9f1-ec8a-5f1e-8888-13f3973814ca	31391	3e97f6b457875f0a56caeb6205d4d1b7			RCC		COTC021-0621-M-F-Lung	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-0814-T-F-A.RCC	02158ab7-fb80-500d-b2cb-8146e816106d	31328	ea6731b52790906d640a3eeac7dfb944			RCC		COTC021-0814-T-F-A	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-0601-M-F-Kidney 8.RCC	0396681a-1d7a-5e80-9a3a-cc993732d53b	31303	bf4b9a28dadc333e10103226ac0f6c48			RCC		COTC021-0601-M-F-Kidney 8	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-0103-M-F-Skin.RCC	05ff3a2a-0fe7-5bdb-8914-7c456ef42d23	31527	d526add3466a0e447372f045a80b94d6			RCC		COTC021-0103-M-F-Skin	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-2312-M-S-Kidney.RCC	0ad06f69-2bf6-545f-b2b4-27601b4adc89	31494	ed7f27a2e3456a6053ccd88eafc55e8e			RCC		COTC021-2312-M-S-Kidney	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-2312-T.RCC	0ec29314-b24d-5935-a183-9f81f8af4308	31447	0479b35c04ba25d4bf21e2abc3579b38			RCC		COTC021-2312-T	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-1904-M-F-Lung.RCC	1002a82c-ee83-581d-8f85-26bdcec53abc	31657	2374f44453a70b8b2a2b55d24b2cb859			RCC		COTC021-1904-M-F-Lung	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-0601-M-F-Kidney 7.RCC	10ee000b-b371-580c-8851-bdd33e848ad3	31129	1bd81c940ffd7a8b184fb5e9ce57757b			RCC		COTC021-0601-M-F-Kidney 7	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-0301-M-F-SubLumbar.RCC	16ae154f-61a7-5f2d-a167-d03160ee269c	31512	ce1abca1323e2b301d372b5dbe4f3c1d			RCC		COTC021-0301-M-F-SubLumbar	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-0908-M-F-L4.RCC	1a1b0818-bd2a-581d-a415-00d4c1b3c077	31610	509315020cb850785f5ac0ae126d6e2e			RCC		COTC021-0908-M-F-L4	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-1015-M-F-Lung 3.RCC	1a2fc104-413b-5fe5-bd70-9e75485d3e38	31740	f501780eab52bf1c079830a043878632			RCC		COTC021-1015-M-F-Lung 3	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-0817-M-S-Lung.RCC	25e02ccb-57fe-5991-ad49-2d002f5baee1	31554	9e916483371dd27d317d6af5299ae172			RCC		COTC021-0817-M-S-Lung	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-0103-M-F-Kidney.RCC	2dbe82a3-dbcc-5408-a767-c3668984bb46	31506	e58c7b9150c4fd8b1da17bf25b39c807			RCC		COTC021-0103-M-F-Kidney	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-1913-M-F-Lung.RCC	35f88321-f001-58f1-beb4-2c0735ce028c	30306	4d7ee072545a0f5d3d0129b8e23ca644			RCC		COTC021-1913-M-F-Lung	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-0817-T-F-B.RCC	36c3b10d-d4da-5339-a4d5-34f75086f0bd	30843	49108685531a93e636fddb6cd4290441			RCC		COTC021-0817-T-F-B	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-1015-M-F-Spleen 2.RCC	3831d37e-4589-558b-93f2-89af2cb6317e	31640	a6e0fc69d4c9662818fcc9374ed07ca7			RCC		COTC021-1015-M-F-Spleen 2	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-2317-M-F-Spine.RCC	3b71d159-d7f9-55ab-942b-b81c8f9ab53f	31675	7496f9b3d6b7c75089cf51fb8a87ae28			RCC		COTC021-2317-M-F-Spine	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-0814-M-F-Rib.RCC	3be19020-40fb-54bc-937f-9c9941ef267a	31208	dc84489e1d2bc84501588396ae0b20c8			RCC		COTC021-0814-M-F-Rib	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-1417-M-F-Spine 7L.RCC	3c4f22cd-0034-5245-9c1e-8b3a2896e9d7	31379	2861eaca7bc37bf424843f0342d9208e			RCC		COTC021-1417-M-F-Spine 7L	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-0213-T.RCC	3e2accc4-7941-503f-95ed-4622a9e42f23	31413	6b8def9d6efcb8ab88e948d1c7cd2bdd			RCC		COTC021-0213-T	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-0327-M-F-Lymph Node 1.RCC	3e901a6c-0679-5629-8983-530b18a9f0bf	31797	f691d952c36a434a66d84bb4b0991115			RCC		COTC021-0327-M-F-Lymph Node 1	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-0103-M-F-Lung-3.RCC	3f1794d2-6b52-5fc7-b7a3-4b94ccb1b49b	31410	fe8b22c57a52d5317b8d0faa13afe29f			RCC		COTC021-0103-M-F-Lung-3	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-0809-M-S-Kidney.RCC	404ccee6-f677-5361-9486-d58343b11356	31536	126b6d4ee60edf04625a34aef173099f			RCC		COTC021-0809-M-S-Kidney	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-0817-T.RCC	409bd28d-3061-5315-b390-2f560c65175f	31534	ed51fc7d0e2a780ecbe7ef2a53d08b60			RCC		COTC021-0817-T	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-0327-T.RCC	41b3629e-69e4-55f1-a568-218ba8ed8cdb	31466	386103fab20264ed5d62392674db636c			RCC		COTC021-0327-T	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-1417-M-F-Spine 7R.RCC	4ba8c7a6-c9af-5867-9403-32ce32bb6956	31370	58febd740cea854b3502ba36f95719dc			RCC		COTC021-1417-M-F-Spine 7R	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-0103-M-F-Brain.RCC	51ebc265-35e7-51a9-ad86-9434e0eb04b2	30890	1fa0f9dcab395514612c6c4b32234bf6			RCC		COTC021-0103-M-F-Brain	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-0809-M-F-Oral.RCC	5b0f5b4c-cf34-5580-924d-c5409902031a	31122	9e5ba9f83124be4f6864e28db230a307			RCC		COTC021-0809-M-F-Oral	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-0213-M-F-Kidney.RCC	5c03d9e2-ccb4-5b6e-8526-e67a39675166	31359	58a873d11cb4edcd6cea1df91b118f1a			RCC		COTC021-0213-M-F-Kidney	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-0201-M-F-Lung.RCC	60f49a7c-acdb-58cd-b030-7076a878b88b	31449	aef51efea05c9f3e1e72db39bb17205e			RCC		COTC021-0201-M-F-Lung-3	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-0814-M-S-Spine.RCC	642aac9d-bacc-5a46-8182-a30eca6e7452	31677	c10da31d6d40b8f7d6af9f9ceae9914e			RCC		COTC021-0814-M-S-Spine	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-0103-M-F-Liver.RCC	6a827e54-e890-5e64-97c5-4e8f900817c3	31456	1c5ad2ce987a5c3ee906692401b2848d			RCC		COTC021-0103-M-F-Liver	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-0103-M-F-Lung-2.RCC	6b18ce5f-6836-50c8-8fd8-d344afb73c58	31542	814be68133c7cef3224691ba68c7e227			RCC		COTC021-0103-M-F-Lung-2	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-0621-M-F-Heart.RCC	735fc878-2633-510e-afeb-9c0de76e8cee	31011	fdec71920a84099cf9efedea4bbe2ac5			RCC		COTC021-0621-M-F-Heart	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-0709-M-F-Lung.RCC	791ded5f-92a9-5ba7-8190-82e6d54f40fb	31591	91a64d2e19fbb057d87b33c1b71526ca			RCC		COTC021-0709-M-F-Lung	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-0817-M-F-Lung.RCC	82353624-308f-514d-b473-561f68910fc5	31481	8a3f4c7b12fb4aca99612fe92c6f73ce			RCC		COTC021-0817-M-F-Lung	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-2205-M-F-Lung.RCC	82d19120-60a0-53c4-9671-27b4a7f11e2c	31786	b78c70c406969d2fffeb01a7c45eb26d			RCC		COTC021-2205-M-F-Lung	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-1015-M-F-Skin.RCC	8c9525ca-4ac0-5cfb-a548-5a7f6f938b02	31725	62834486a3d3c7bb9bef3e8c89905853			RCC		COTC021-1015-M-F-Skin	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-1015-M-F-Heart.RCC	8f32ad94-7e3c-5984-902b-a49f1eceec43	31618	ad7f6b0c9e4bf4d05656e79bc35537fe			RCC		COTC021-1015-M-F-Heart	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-0301-M-F-Mesentary.RCC	a2cb590b-4587-5d9c-a15f-cd00e6eed255	31275	334765f56237e3db8ae6b30ee06cad33			RCC		COTC021-0301-M-F-Mesentary	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-0301-M-F-Lung.RCC	a4c658ac-c28f-5fc5-a40e-911f7f046307	31466	33fef06e49ada12401686966d5ca8dd9			RCC		COTC021-0301-M-F-Lung	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-2205-M-F-Pancreas.RCC	aab0923d-d944-5627-94f5-75d04b83927e	31678	85d69523490378eaff0f617b6646512b			RCC		COTC021-2205-M-F-Pancreas	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-2312-M-S-Rib.RCC	ae6c86e1-748e-5c12-a757-0ce65591704d	31209	a495519885375cd6ac11490a3b07e1c9			RCC		COTC021-2312-M-S-Rib	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-0809-T.RCC	ae8140d2-4530-54d2-8099-20a137c49ddb	31452	be96b107bda8c0d963dcf6eb42db84d5			RCC		COTC021-0809-T	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-0213-M-S-Abd Mass-2.RCC	b437e06f-804c-5c03-8281-610e4b9fff35	31495	d94a1e8e778e8bc4083a3d2d0b5a6270			RCC		COTC021-0213-M-S-Abd Mass-2	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-2312-M-F-Thoracic wall.RCC	be13c85f-4a28-5b03-9925-ed257d9035fa	31691	1c6d511e67535e63ff16ec1277226d53			RCC		COTC021-2312-M-F-Thoracic wall	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-0327-M-F-Lymph Node 3.RCC	bfbddf30-874a-535c-ae9b-c5094682a036	30600	3ce5eeea2b213db358b338ec770e2959			RCC		COTC021-0327-M-F-Lymph Node 3	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-1015-M-F-Lung 2.RCC	c0a7724b-f892-54da-b047-c0b3789c5dd5	31677	0c75b019bc4a66040352f2dc40fa2544			RCC		COTC021-1015-M-F-Lung 2	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-0301-M-F-Liver.RCC	c3336f4d-15fd-5da2-93da-d1a7f605e9aa	31639	c01dc9ac0d382c4e1fab5330b49c2950			RCC		COTC021-0301-M-F-Liver	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-0327-M-S-Kidney.RCC	c650eb79-b35a-594f-a87d-cb911d936486	31616	4f6d8410cabc06fdf993da9df7ff8920			RCC		COTC021-0327-M-S-Kidney	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-1417-T-F-B.RCC	c746206b-e0a4-5d6d-8253-7b14926caeb7	30851	c9cf8417913984eff3cd17970db0df8d			RCC		COTC021-1417-T-F-B	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-1915-M-F-Bone.RCC	cb9ff79b-e7b2-5057-81ec-62e1391944ec	31145	6c3ee25fbae38aadc72350909f59401c			RCC		COTC021-1915-M-F-Bone	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-0201-T-F-B.RCC	cc6012fb-b63e-5baf-a0fc-ed5f18f44a73	30907	86c9857a1382f1325cfa7fb29cc4d8a7			RCC		COTC021-0201-T-F-B	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-1015-M-F-Spleen 1.RCC	cc7935cc-7fc0-5ed1-b6b4-d8dedd755798	31732	39dd392a80657d22afb65429aefb973a			RCC		COTC021-1015-M-F-Spleen 1	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-0811-M-F-Lung.RCC	cdafa304-7697-58cd-bffd-56cc588d0bc0	30835	ecf035e8526f95624eceafc0398e6ea3			RCC		COTC021-0811-M-F-Lung	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-0621-M-F-Liver.RCC	cf664986-bdb6-5247-9ede-51b1ec173dbd	30982	577ea977091ec93162e3825777d53979			RCC		COTC021-0621-M-F-Liver	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-1015-M-F-Spleen 3.RCC	d1caf1ac-77bc-52da-aea8-8fc9fe1579ae	31618	d455463430eb4b84c8fff3cca9ff9e05			RCC		COTC021-1015-M-F-Spleen 3	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-0301-M-F-Kidney.RCC	d3613e1c-e29e-5d21-99b5-cbc6e086474f	31790	d948b69a073d7319588a557ed572597f			RCC		COTC021-0301-M-F-Kidney	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-0908-T-F-B.RCC	dd5e6665-c094-5152-9e8c-0e745c2fcec0	30763	c794d392ca54a6851851ea730b3c41d6			RCC		COTC021-0908-T-F-B	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-1020-M-F-Kidney.RCC	e1922a56-3b0a-57dd-991a-250de7d28298	31370	7070903ab7b31e6270172f01e554800f			RCC		COTC021-1020-M-F-Kidney	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-0809-M-F-Lung.RCC	e70cc095-1572-55c2-a506-46311597076c	30754	45c0f3abfc94b500eec1754ec278ce91			RCC		COTC021-0809-M-F-Lung	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-1417-M-F-Spine 6.RCC	ea812b63-2a3d-551c-b8e9-d6de39bf7f4e	31469	d963a35978e7cb595cffb6dbbc3b4b97			RCC		COTC021-1417-M-F-Spine 6	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-0213-M-F-Abd Mass 1.RCC	ecb2cc76-a913-5dd1-a76e-355be82e55b5	31195	3adcef085c112d08a92ed94463160b6f			RCC		COTC021-0213-M-F-Abd Mass 1	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-1015-T-F-B.RCC	eea0d7b5-10ad-51df-8254-081d7ce5c91d	31484	43ca2d8dacdeba026e87273527b816c8			RCC		COTC021-1015-T-F-B	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-0731-M-F-Liver.RCC	f0ddab38-75da-58ed-8c37-e4c5cedcf044	31724	348268953da37a9844a84af91c1d3bbf			RCC		COTC021-0731-M-F-Liver	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-2205-M-F-Liver.RCC	f2f7acb7-8cd0-593e-911e-0a76fabe9cd5	31782	99fc84489081b4c9b603b080ccbdadc3			RCC		COTC021-2205-M-F-Liver	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-0301-T-F-B.RCC	f34c13ea-952a-53b4-9e31-0c7376c24da4	31036	5a016b087de94a7ed0f61e56d294866b			RCC		COTC021-0301-T-F-B	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-0621-M-F-Kidney.RCC	f6b0cfb0-66f5-52e4-86be-e07d6677fd7e	31187	6040c355d9c1e938dca4bbf3ebcd223c			RCC		COTC021-0621-M-F-Kidney	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-0621-M-F-Lymph Node.RCC	f8312d1e-f255-5e93-b05a-f37f92c04cdd	31454	89ed8936a7617f3b0c7127fd6e0dcfe9			RCC		COTC021-0621-M-F-Lymph Node	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-0709-M-F-Bone.RCC	fb1a5d42-7ab1-5174-a267-737a825d8bb3	31180	e43a96b1e1eb6a1867ec9e57c6251c88			RCC		COTC021-0709-M-F-Bone	NanoString nCounter Canine IO Analysis File	Nanostring
+file	COTC021-1912-M-F-Lung.RCC	fd81c7d8-9bea-5ca2-b30b-508e56ec4f8a	31238	bfaba2a39cca88a022d668559a1e42df			RCC		COTC021-1912-M-F-Lung	NanoString nCounter Canine IO Analysis File	Nanostring
