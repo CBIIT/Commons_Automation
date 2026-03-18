@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC08_API_MDB-STS_ModelNodePropertyTerms_CDS</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>52d8e125-2071-4eb4-b630-7da5644452a3</testCaseGuid>
+</TestCaseEntity>
