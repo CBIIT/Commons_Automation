@@ -1192,7 +1192,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 										System.out.println("This is the value of  table  cell:  "+value)
 									}
 								}else if((tbl_main).equals('//*[@id="file_tab_table"]')){
-									tblcol=tblcol+2;
+									tblcol=tblcol+3;
 									for (int j = 1; j <tblcol; j = j +1) {
 										if((colHeader.get(j).getAttribute("innerText"))!="Access") {
 											System.out.println("This is the name of column header:  "+colHeader.get(j).getAttribute("innerText"))

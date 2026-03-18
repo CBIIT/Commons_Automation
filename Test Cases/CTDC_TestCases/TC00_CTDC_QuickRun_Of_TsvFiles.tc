@@ -4,5 +4,6 @@
    <name>TC00_CTDC_QuickRun_Of_TsvFiles</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>f4fdd9be-e3e1-4bf2-8523-73f2b7192ed4</testCaseGuid>
 </TestCaseEntity>
