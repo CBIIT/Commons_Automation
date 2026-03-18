@@ -86,7 +86,7 @@ class Neo4j_Functions {
 
 			KeywordUtil.logInfo("[Neo4j_Functions] Query returned ${rows.size()} row(s).")
 		} catch (Exception e) {
-			KeywordUtil.logError("[Neo4j_Functions] Error executing Neo4j query: ${e.message}")
+			KeywordUtil.markError("[Neo4j_Functions] Error executing Neo4j query: ${e.message}")
 			// Optionally rethrow if you want tests to fail on connection issues:
 			// throw e
 		} finally {

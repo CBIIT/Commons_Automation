@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_API_MDB-STS_ModelNodePropertyTerms_C3DC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0e5a3e88-af14-407d-9f6f-748c3860dcc0</testCaseGuid>
+</TestCaseEntity>

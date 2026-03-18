@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC05_API_MDB-STS_ModelNodePropertyTerms</name>
+   <name>TC06_API_MDB-STS_ModelNodePropertyTerms_CCDI</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
