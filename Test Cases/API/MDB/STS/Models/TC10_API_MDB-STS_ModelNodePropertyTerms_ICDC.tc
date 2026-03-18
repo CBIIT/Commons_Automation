@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC10_API_MDB-STS_ModelNodePropertyTerms_ICDC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9890245e-16f4-40c7-adf8-2906b9b8e901</testCaseGuid>
+</TestCaseEntity>

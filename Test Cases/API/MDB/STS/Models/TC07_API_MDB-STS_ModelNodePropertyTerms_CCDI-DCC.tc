@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC07_API_MDB-STS_ModelNodePropertyTerms_CCDI-DCC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ae6dd9c5-297c-456f-acf7-57b9cdeaa963</testCaseGuid>
+</TestCaseEntity>
