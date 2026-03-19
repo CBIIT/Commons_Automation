@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Neo4j parity for GET /v2/model/{modelHandle}/version/{versionString}/node/{nodeHandle}</description>
+   <name>TC13_API_MDB-STS_ModelSingleNode</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a1b2c3d4-e5f6-4789-a012-345678abcdef</testCaseGuid>
+</TestCaseEntity>
