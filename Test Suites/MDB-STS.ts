@@ -19,6 +19,20 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>f8a4b2c1-6e3c-4f9d-b7c2-1d0e9f8a7b6c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/API/MDB/STS/Models/TC12_API_MDB-STS_ModelLatestVersion</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>69d80c1c-6919-474e-8ebd-73a6fb6b5323</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/API/MDB/STS/Tags/TC01_API_MDB-STS_Tags</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>b23b2307-dba1-438f-8cb1-951bc9bc268c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -30,6 +44,20 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/API/MDB/STS/Models/TC02_API_MDB-STS_ModelNodes</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c9e8d7f6-a5b4-4321-0fed-cba987654321</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/API/MDB/STS/Models/TC13_API_MDB-STS_ModelSingleNode</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d0e1f2a3-b4c5-4678-d901-23456789abcd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/API/MDB/STS/Models/TC14_API_MDB-STS_ModelNodeSingleProperty</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -79,6 +107,13 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/API/MDB/STS/Models/TC10_API_MDB-STS_ModelNodePropertyTerms_ICDC</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>11d5c9b3-91c7-4635-9976-11a78913cf0a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/API/MDB/STS/Models/TC11_API_MDB-STS_ModelNodePropertyTerms_PSDC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
