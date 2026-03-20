@@ -6,6 +6,8 @@ import groovy.json.JsonOutput
 import com.kms.katalon.core.testdata.TestDataFactory
 import java.net.URLEncoder
 import java.nio.charset.StandardCharsets
+import java.util.Collections
+import java.util.Random
 
 /**
  * Parity utilities for MDB / STS API vs Neo4j.
@@ -13,6 +15,15 @@ import java.nio.charset.StandardCharsets
  * Goal: keep test cases very thin and reuse these methods across multiple endpoints (models, nodes, etc.).
  */
 class MDB_Parity {
+
+	/**
+	 * Handles that may appear in GET /models with no row where {@code is_latest_version} is true
+	 * (known catalog/data issue). Excluded from the "every handle must have a latest row" assertion
+	 * and from GET /model/{handle}/latest-version comparison in
+	 * {@link #verifyModelLatestVersionAgainstModelsList}.
+	 */
+	private static final Set<String> MODEL_HANDLES_EXEMPT_FROM_LATEST_ROW_CHECK =
+			['CRDCSubmission'] as Set
 
 	// ========= Generic API helpers =========
 
@@ -67,6 +78,36 @@ class MDB_Parity {
 		KeywordUtil.logInfo("Raw ${label} response:\n" + response.getResponseBodyContent())
 		KeywordUtil.logInfo("Parsed ${label} response:\n" +
 				JsonOutput.prettyPrint(JsonOutput.toJson(data)))
+	}
+
+	/**
+	 * Log response with truncated raw body and a small parsed sample (avoids huge logs / IDE crashes on large lists e.g. /tags).
+	 *
+	 * @param maxRawChars max characters of raw response body to print
+	 * @param maxParsedItems for List data, max leading items to pretty-print
+	 */
+	static void logResponseSnippet(String label, ResponseObject response, def data,
+			int maxRawChars = 4000, int maxParsedItems = 5) {
+		String raw = response.getResponseBodyContent() ?: ""
+		int rawLen = raw.length()
+		String rawOut = (rawLen <= maxRawChars) ? raw :
+			(raw.substring(0, maxRawChars) + "\n... [truncated raw body: showing first " + maxRawChars + " of " + rawLen + " chars]")
+		KeywordUtil.logInfo("Raw ${label} response (snippet, HTTP " + response.getStatusCode() + "):\n" + rawOut)
+
+		if (data instanceof List) {
+			List list = (List) data
+			int n = list.size()
+			int takeN = Math.min(maxParsedItems, n)
+			List head = takeN > 0 ? new ArrayList(list.subList(0, takeN)) : []
+			KeywordUtil.logInfo("Parsed ${label}: list size=" + n + ", showing first " + takeN + " item(s):\n" +
+					JsonOutput.prettyPrint(JsonOutput.toJson(head)))
+		} else {
+			String pretty = JsonOutput.prettyPrint(JsonOutput.toJson(data))
+			if (pretty.length() > maxRawChars) {
+				pretty = pretty.substring(0, maxRawChars) + "\n... [truncated parsed preview]"
+			}
+			KeywordUtil.logInfo("Parsed ${label} (snippet):\n" + pretty)
+		}
 	}
 
 	/**
@@ -193,7 +234,47 @@ class MDB_Parity {
 		if (s in ["\\-", "-"]) return "-"
 		return s
 	}
-	
+
+	/**
+	 * Normalize Tag.value from API or Neo4j for parity (OpenAPI allows string or boolean).
+	 */
+	static String normalizeTagScalar(def v) {
+		if (v == null) return null
+		if (v instanceof Boolean) return v.toString()
+		return v.toString()
+	}
+
+	/**
+	 * Normalize a Model map from GET /models or GET /model/{handle}/latest-version for API↔API comparison.
+	 * Omits {@code type} (serialization discriminator). Null and blank {@code repository} normalize to null.
+	 */
+	static Map normalizeModelRowForLatestCompare(Map m) {
+		if (m == null) return [:]
+		String repoRaw = m.repository != null ? m.repository.toString().trim() : null
+		String nameRaw = m.name != null ? m.name.toString().trim() : null
+		return [
+			handle             : m.handle?.toString()?.trim(),
+			version            : m.version?.toString()?.trim(),
+			nanoid             : m.nanoid?.toString()?.trim(),
+			name               : (nameRaw == null || nameRaw.isEmpty()) ? null : nameRaw,
+			repository         : (repoRaw == null || repoRaw.isEmpty()) ? null : repoRaw,
+			is_latest_version  : toBoolOrNull(m.is_latest_version)
+		]
+	}
+
+	/**
+	 * Normalize a Node map from GET .../nodes, GET .../node/{nodeHandle}, or Neo4j node rows for parity ({@code model}, {@code handle}, {@code version}, {@code nanoid}).
+	 */
+	static Map normalizeModelNodeTuple(Map node) {
+		if (node == null) return [:]
+		return [
+			model  : node.model?.toString(),
+			handle : node.handle?.toString(),
+			version: node.version?.toString(),
+			nanoid : node.nanoid?.toString()
+		]
+	}
+
 	/**
 	 * Normalize fields for /property/{propHandle}/terms from API response
 	 */
@@ -360,6 +441,127 @@ class MDB_Parity {
 				)
 	}
 
+	/**
+	 * API consistency only: each model row with {@code is_latest_version == true} must match
+	 * {@code GET /model/{handle}/latest-version} on comparable fields. DB truth for flags remains
+	 * {@link #verifyModelsParity}.
+	 * <p>Handles in {@link #MODEL_HANDLES_EXEMPT_FROM_LATEST_ROW_CHECK} skip the requirement that a
+	 * latest row exists (known data exceptions).
+	 */
+	static void verifyModelLatestVersionAgainstModelsList() {
+		KeywordUtil.logInfo('[LatestVersion] Verifying /model/{handle}/latest-version vs /models (is_latest_version rows)')
+
+		def result = fetchAndParse('Object Repository/API/MDB/STS/Models/GetModels')
+		ResponseObject response = result.response
+		def data = result.data
+
+		validateListResponse(response, data, 'models', ['handle', 'version'])
+
+		validateLatestVersionUniqueness((List) data, 'handle', 'is_latest_version')
+
+		List<Map> models = (List<Map>) data
+		Set<String> allHandles = models.collect { it.handle?.toString()?.trim() }
+				.findAll { it != null && !it.isEmpty() }
+				.toSet()
+
+		Map<String, Map> latestByHandle = [:]
+		models.each { Map row ->
+			if (row.is_latest_version != true) return
+			String h = row.handle?.toString()?.trim()
+			if (!h) return
+			if (latestByHandle.containsKey(h)) {
+				KeywordUtil.markFailedAndStop("[LatestVersion] Duplicate is_latest_version=true for handle '${h}'")
+			}
+			latestByHandle[h] = row
+		}
+
+		Set<String> exemptPresent = MODEL_HANDLES_EXEMPT_FROM_LATEST_ROW_CHECK.findAll { it in allHandles }.toSet()
+		if (!exemptPresent.isEmpty()) {
+			KeywordUtil.logInfo('[LatestVersion] Exempt from is_latest_version=true requirement (known data): ' +
+					exemptPresent.sort().join(', '))
+		}
+
+		Set<String> handlesRequiringLatest = allHandles - MODEL_HANDLES_EXEMPT_FROM_LATEST_ROW_CHECK
+		Set<String> missingLatest = handlesRequiringLatest - latestByHandle.keySet()
+		if (!missingLatest.isEmpty()) {
+			KeywordUtil.markFailedAndStop(
+					"[LatestVersion] These handles have no row with is_latest_version=true: " +
+					missingLatest.sort().join(', '))
+		}
+
+		latestByHandle.keySet().sort().each { String handle ->
+			def rLatest = fetchAndParse(
+					'Object Repository/API/MDB/STS/Models/GetModelLatestVersion',
+					[modelHandle: handle]
+					)
+			int code = rLatest.response.getStatusCode()
+			assert code == 200 :
+					"[LatestVersion(${handle})] Expected HTTP 200, got ${code}"
+
+			def body = rLatest.data
+			assert body instanceof Map :
+					"[LatestVersion(${handle})] Expected JSON object, got ${body?.getClass()}"
+
+			Map expected = normalizeModelRowForLatestCompare(latestByHandle[handle] as Map)
+			Map actual = normalizeModelRowForLatestCompare((Map) body)
+
+			if (expected != actual) {
+				KeywordUtil.logInfo("[LatestVersion(${handle})] Mismatch.\nExpected:\n" +
+						JsonOutput.prettyPrint(JsonOutput.toJson(expected)) +
+						"\nActual:\n" +
+						JsonOutput.prettyPrint(JsonOutput.toJson(actual)))
+				KeywordUtil.markFailedAndStop("[LatestVersion(${handle})] /latest-version does not match /models latest row")
+			}
+			String ver = expected.version?.toString() ?: '(unknown)'
+			KeywordUtil.logInfo("[LatestVersion(${handle})] OK — matches /models latest row (version ${ver})")
+		}
+
+		KeywordUtil.logInfo("[LatestVersion] All ${latestByHandle.size()} handle(s) passed.")
+	}
+
+	/**
+	 * Parity check for /tags/ endpoint vs Neo4j :tag nodes (key, value, nanoid).
+	 * Cypher key {@code verifyTags} in {@code Data Files/API/MDB/CypherQueries} — if parity fails, confirm
+	 * schema in Neo4j Browser: {@code CALL db.labels()}, {@code MATCH (t:tag) RETURN t LIMIT 1}.
+	 */
+	static void verifyTagsParity() {
+		KeywordUtil.logInfo("[Tags] Verifying /tags/ parity (API vs Neo4j)")
+
+		def result = fetchAndParse('Object Repository/API/MDB/STS/Tags/GetTags')
+		ResponseObject response = result.response
+		def data = result.data
+
+		validateListResponse(response, data, "tags", ['key', 'value', 'nanoid'])
+
+		logResponseSnippet("/tags", response, data)
+
+		List<Map> apiTags = normalize((List) data, { tag ->
+			[
+				key   : tag.key?.toString(),
+				value : normalizeTagScalar(tag.value),
+				nanoid: tag.nanoid?.toString()
+			]
+		}, "API-Tags")
+
+		String cypher = getCypherQuery('Data Files/API/MDB/CypherQueries', 'verifyTags')
+		List<Map> neoRows = fetchFromNeo4j(cypher, [:])
+
+		List<Map> neoTags = normalize((List) neoRows, { r ->
+			[
+				key   : r.key?.toString(),
+				value : normalizeTagScalar(r.value),
+				nanoid: r.nanoid?.toString()
+			]
+		}, "NEO-Tags")
+
+		compareLists(
+				apiTags,
+				neoTags,
+				['key', 'value', 'nanoid'],
+				"Tags"
+				)
+	}
+
 
 	/**
 	 * Parity check for Node objects in a specific model version - /nodes endpoint
@@ -383,22 +585,14 @@ class MDB_Parity {
 
 		logResponse("/model/${handle}/version/${version}/nodes", response, data)
 
-		// 3) Normalize API nodes
-		// Using Node schema: model, handle, version, nanoid
-		List<Map> apiNodes = normalize((List) data, { node ->
-			[
-				model  : node.model,     // model handle
-				handle : node.handle,
-				version: node.version,
-				nanoid : node.nanoid
-			]
-		}, "API-Nodes")
+		// 3) Normalize API nodes (model, handle, version, nanoid)
+		List<Map> apiNodes = normalize((List) data, { normalizeModelNodeTuple(it as Map) }, "API-Nodes")
 
 		// 4) Fetch Neo4j nodes
 		String cypher = getCypherQuery('Data Files/API/MDB/CypherQueries', 'verifyModelNodes')
 
-		List<Map> neo4jNodes = Neo4j_Functions.runQuery(cypher, [handle: handle, version: version])
-
+		List<Map> neoRaw = Neo4j_Functions.runQuery(cypher, [handle: handle, version: version])
+		List<Map> neo4jNodes = normalize((List) neoRaw, { normalizeModelNodeTuple(it as Map) }, "NEO-Nodes")
 
 		// 5) Compare by Node identity fields
 		compareLists(
@@ -472,6 +666,302 @@ class MDB_Parity {
 		KeywordUtil.logInfo("[ModelNodes-All] Completed nodes parity for all selected model versions.")
 	}
 
+	/**
+	 * Parity for {@code GET /model/.../version/.../node/...} (single node) vs Neo4j — same tuple as {@link #verifyModelNodesParity}.
+	 */
+	static void verifyModelNodeParity(String modelHandle, String versionString, String nodeHandle) {
+		String ctx = "ModelSingleNode(${modelHandle}:${versionString}:${nodeHandle})"
+		KeywordUtil.logInfo("[${ctx}] Verifying single-node API vs Neo4j")
+
+		def r = fetchAndParse(
+				'Object Repository/API/MDB/STS/Models/GetModelNode',
+				[
+					modelHandle  : modelHandle,
+					versionString: versionString,
+					nodeHandle   : encodePath(nodeHandle)
+				]
+				)
+
+		int code = r.response.getStatusCode()
+		assert code == 200 : "[${ctx}] Expected HTTP 200, got ${code}"
+
+		assert r.data instanceof Map : "[${ctx}] Expected JSON object for single node, got ${r.data?.getClass()}"
+
+		List<Map> apiList = [normalizeModelNodeTuple((Map) r.data)]
+
+		String cypher = getCypherQuery('Data Files/API/MDB/CypherQueries', 'verifyModelNode')
+		List<Map> neoRaw = fetchFromNeo4j(cypher, [
+			modelHandle  : modelHandle,
+			versionString: versionString,
+			nodeHandle   : nodeHandle
+		])
+		List<Map> neoList = normalize((List) neoRaw, { normalizeModelNodeTuple(it as Map) }, "NEO-${ctx}")
+
+		compareLists(
+				apiList,
+				neoList,
+				['model', 'handle', 'version', 'nanoid'],
+				ctx
+				)
+	}
+
+	/**
+	 * Limit N items from {@code items} for quicker runs. When {@code maxItems} <= 0, returns a copy of the full list.
+	 * When {@code useRandom} is false, sorts by {@code sortField} for stable "first N".
+	 */
+	private static List<Map> limitMapSample(List<Map> items, int maxItems, String sortField, boolean useRandom, Long randomSeed,
+			String logTag) {
+		if (items == null || items.isEmpty()) {
+			return items ?: []
+		}
+		List<Map> work = new ArrayList<>(items)
+		if (maxItems <= 0 || work.size() <= maxItems) {
+			return work
+		}
+		if (useRandom) {
+			Random rnd = (randomSeed != null) ? new Random(randomSeed) : new Random()
+			Collections.shuffle(work, rnd)
+		} else {
+			work.sort { a, b -> (a[sortField]?.toString() ?: '') <=> (b[sortField]?.toString() ?: '') }
+		}
+		List<Map> sliced = work.subList(0, maxItems)
+		KeywordUtil.logInfo("[${logTag}] Sampled ${sliced.size()} of ${items.size()} (random=${useRandom})")
+		return new ArrayList<>(sliced)
+	}
+
+	/**
+	 * For each selected model version, list nodes via {@code /nodes}, then verify each node's single-node GET vs Neo4j.
+	 * Parameters match {@link #verifyAllModelNodesParity}: {@code latestOnly}, {@code handlesFilter}.
+	 * (No sampling caps — full node walk; use {@link #verifyAllModelSinglePropertyParity} constants for long-running smoke cuts.)
+	 */
+	static void verifyAllModelSingleNodeParity(boolean latestOnly = true, List<String> handlesFilter = []) {
+		KeywordUtil.logInfo("[ModelSingleNode-All] Starting single-node parity. latestOnly=${latestOnly}, handlesFilter=${handlesFilter}")
+
+		def result = fetchAndParse('Object Repository/API/MDB/STS/Models/GetModels')
+		ResponseObject response = result.response
+		def data = result.data
+
+		validateListResponse(response, data, 'models', ['handle', 'version'])
+		logResponse('/models (for single-node parity)', response, data)
+
+		List<Map> models = (List<Map>) data
+
+		if (!handlesFilter.isEmpty()) {
+			models = models.findAll { m -> m.handle in handlesFilter }
+			KeywordUtil.logInfo("[ModelSingleNode-All] After handlesFilter, model entries: ${models.size()}")
+		}
+
+		if (latestOnly) {
+			models = models.findAll { m -> m.is_latest_version == true }
+			KeywordUtil.logInfo("[ModelSingleNode-All] After latestOnly filter, model entries: ${models.size()}")
+		}
+
+		if (models.isEmpty()) {
+			KeywordUtil.markFailedAndStop('[ModelSingleNode-All] No model entries after filtering.')
+		}
+
+		String summary = models.collect { m -> "${m.handle}:${m.version}" }.join(', ')
+		KeywordUtil.logInfo("[ModelSingleNode-All] Model versions to test:\n${summary}")
+
+		models.each { m ->
+			String handle = m.handle?.toString()
+			String version = m.version?.toString()
+			KeywordUtil.logInfo("[ModelSingleNode-All] >>> ${handle}:${version}")
+
+			def rNodes = fetchAndParse(
+					'Object Repository/API/MDB/STS/Models/GetModelNodes',
+					[modelHandle: handle, versionString: version]
+					)
+			validateListResponse(rNodes.response, rNodes.data, 'nodes', ['handle'])
+
+			List<Map> nodes = (List<Map>) rNodes.data
+			nodes.each { n ->
+				String nh = n.handle?.toString()?.trim()
+				if (!nh) return
+				verifyModelNodeParity(handle, version, nh)
+			}
+
+			KeywordUtil.logInfo("[ModelSingleNode-All] <<< ${handle}:${version} (${nodes.size()} node(s))")
+		}
+
+		KeywordUtil.logInfo('[ModelSingleNode-All] Completed.')
+	}
+
+	/** Field list aligned with {@link #verifyNodePropertiesParity} / {@link #normalizeNodePropertiesFromApi}. */
+	private static final List<String> NODE_PROPERTY_PARITY_KEY_FIELDS = [
+		'model',
+		'version',
+		'node',
+		'handle',
+		'nanoid',
+		'is_key',
+		'is_strict',
+		'is_nullable',
+		'is_required',
+		'value_domain',
+		'desc'
+	]
+
+	/**
+	 * Parity for {@code GET .../node/.../property/...} (single property) vs Neo4j — same fields as {@link #verifyNodePropertiesParity}.
+	 * API 404 is valid when Neo4j returns no row for that property.
+	 */
+	static void verifySingleNodePropertyParity(String modelHandle, String versionString, String nodeHandle, String propHandle) {
+		String ctx = "NodeSingleProperty(${modelHandle}:${versionString}:${nodeHandle}:${propHandle})"
+		KeywordUtil.logInfo("[${ctx}] Verifying single-property GET vs Neo4j")
+
+		def r = fetchAndParse(
+				'Object Repository/API/MDB/STS/Models/GetNodeProperty',
+				[
+					modelHandle  : modelHandle,
+					versionString: versionString,
+					nodeHandle   : encodePath(nodeHandle),
+					propHandle   : encodePath(propHandle)
+				]
+				)
+
+		int status = r.response.getStatusCode()
+
+		String cypher = getCypherQuery('Data Files/API/MDB/CypherQueries', 'verifyModelNodeProperty')
+		List<Map> neoRaw = fetchFromNeo4j(cypher, [
+			modelHandle  : modelHandle,
+			versionString: versionString,
+			nodeHandle   : nodeHandle,
+			propHandle   : propHandle
+		])
+
+		if (status == 404) {
+			assert neoRaw.isEmpty() :
+					"[${ctx}] API returned 404 but Neo4j returned ${neoRaw.size()} row(s)"
+			KeywordUtil.logInfo("[${ctx}] API 404 and Neo4j empty — OK")
+			return
+		}
+
+		assert status == 200 : "[${ctx}] Expected HTTP 200 or 404, got ${status}"
+
+		def body = r.data
+		Map propMap = null
+		if (body instanceof Map) {
+			propMap = (Map) body
+		} else if (body instanceof List && !((List) body).isEmpty() && ((List) body)[0] instanceof Map) {
+			propMap = (Map) ((List) body)[0]
+		}
+		assert propMap != null :
+				"[${ctx}] Expected JSON object (or single-element array of object), got ${body?.getClass()}"
+
+		List<Map> apiProps = normalizeNodePropertiesFromApi(
+				[propMap],
+				modelHandle,
+				versionString,
+				nodeHandle
+				)
+		List<Map> neoProps = normalizeNodePropertiesFromNeo(neoRaw)
+
+		apiProps = normalize(apiProps, { it }, "API-${ctx}")
+		neoProps = normalize(neoProps, { it }, "NEO-${ctx}")
+
+		compareLists(
+				apiProps,
+				neoProps,
+				NODE_PROPERTY_PARITY_KEY_FIELDS,
+				ctx
+				)
+	}
+
+	/**
+	 * For each node with a non-empty {@code /properties} list, verify every property against
+	 * {@code GET .../property/{propHandle}} vs Neo4j. Skips nodes where {@code /properties} returns 404.
+	 * Uses the same {@code latestOnly} and {@code handlesFilter} meaning as {@link #verifyAllModelSingleNodeParity}.
+	 * <p>
+	 * Optional smoke tuning (TC14): {@code maxNodesPerVersion}, {@code maxPropertiesPerNode} (each >0 caps counts),
+	 * {@code sampleRandomNodes} / {@code sampleRandomProperties} with {@code randomSeed} for reproducible random subsets.
+	 */
+	static void verifyAllModelSinglePropertyParity(boolean latestOnly = true, List<String> handlesFilter = [],
+			int maxNodesPerVersion = 0, int maxPropertiesPerNode = 0,
+			boolean sampleRandomNodes = false, boolean sampleRandomProperties = false, Long randomSeed = null) {
+		KeywordUtil.logInfo("[ModelSingleProperty-All] Starting single-property parity. latestOnly=${latestOnly}, handlesFilter=${handlesFilter}, maxNodesPerVersion=${maxNodesPerVersion}, maxPropertiesPerNode=${maxPropertiesPerNode}, sampleRandomNodes=${sampleRandomNodes}, sampleRandomProperties=${sampleRandomProperties}, randomSeed=${randomSeed}")
+
+		def result = fetchAndParse('Object Repository/API/MDB/STS/Models/GetModels')
+		ResponseObject response = result.response
+		def data = result.data
+
+		validateListResponse(response, data, 'models', ['handle', 'version'])
+		logResponse('/models (for single-property parity)', response, data)
+
+		List<Map> models = (List<Map>) data
+
+		if (!handlesFilter.isEmpty()) {
+			models = models.findAll { m -> m.handle in handlesFilter }
+			KeywordUtil.logInfo("[ModelSingleProperty-All] After handlesFilter, model entries: ${models.size()}")
+		}
+
+		if (latestOnly) {
+			models = models.findAll { m -> m.is_latest_version == true }
+			KeywordUtil.logInfo("[ModelSingleProperty-All] After latestOnly filter, model entries: ${models.size()}")
+		}
+
+		if (models.isEmpty()) {
+			KeywordUtil.markFailedAndStop('[ModelSingleProperty-All] No model entries after filtering.')
+		}
+
+		String summary = models.collect { m -> "${m.handle}:${m.version}" }.join(', ')
+		KeywordUtil.logInfo("[ModelSingleProperty-All] Model versions to test:\n${summary}")
+
+		models.each { m ->
+			String handle = m.handle?.toString()
+			String version = m.version?.toString()
+			KeywordUtil.logInfo("[ModelSingleProperty-All] >>> ${handle}:${version}")
+
+			def rNodes = fetchAndParse(
+					'Object Repository/API/MDB/STS/Models/GetModelNodes',
+					[modelHandle: handle, versionString: version]
+					)
+			validateListResponse(rNodes.response, rNodes.data, 'nodes', ['handle'])
+
+			List<Map> nodes = (List<Map>) rNodes.data
+			Long nodeSeedMix = (randomSeed != null) ? (Long) (randomSeed.longValue() ^ ((long) handle.hashCode() << 17) ^ ((long) version.hashCode())) : null
+			List<Map> nodesToTest = limitMapSample(nodes, maxNodesPerVersion, 'handle', sampleRandomNodes,
+					sampleRandomNodes ? nodeSeedMix : randomSeed,
+					"ModelSingleProperty-All ${handle}:${version} nodes")
+			nodesToTest.each { n ->
+				String nh = n.handle?.toString()?.trim()
+				if (!nh) return
+
+				def rProps = fetchAndParse(
+						'Object Repository/API/MDB/STS/Models/GetNodeProperties',
+						[
+							modelHandle  : handle,
+							versionString: version,
+							nodeHandle   : encodePath(nh)
+						]
+						)
+				int pStat = rProps.response.getStatusCode()
+				if (pStat == 404) {
+					KeywordUtil.logInfo("[ModelSingleProperty-All] ${handle}:${version}:${nh} /properties 404 — skip node")
+					return
+				}
+
+				assert pStat == 200 :
+						"[ModelSingleProperty-All] ${handle}:${version}:${nh} Expected 200 or 404 from /properties, got ${pStat}"
+				assert rProps.data instanceof List :
+						"[ModelSingleProperty-All] ${handle}:${version}:${nh} Expected List from /properties"
+
+				List<Map> props = (List<Map>) rProps.data
+				Long propSeedMix = (randomSeed != null) ? (Long) (randomSeed.longValue() ^ ((long) nh.hashCode())) : null
+				List<Map> propsToTest = limitMapSample(props, maxPropertiesPerNode, 'handle', sampleRandomProperties, propSeedMix,
+						"ModelSingleProperty-All ${handle}:${version}:${nh} props")
+				propsToTest.each { p ->
+					String ph = p.handle?.toString()?.trim()
+					if (!ph) return
+					verifySingleNodePropertyParity(handle, version, nh, ph)
+				}
+			}
+
+			KeywordUtil.logInfo("[ModelSingleProperty-All] <<< ${handle}:${version}")
+		}
+
+		KeywordUtil.logInfo('[ModelSingleProperty-All] Completed.')
+	}
 
 	/**
 	 * For every model returned by /models, verify version parity - /versions endpoint
@@ -616,19 +1106,7 @@ class MDB_Parity {
 		compareLists(
 				apiProps,
 				neoProps,
-				[
-					'model',
-					'version',
-					'node',
-					'handle',
-					'nanoid',
-					'is_key',
-					'is_strict',
-					'is_nullable',
-					'is_required',
-					'value_domain',
-					'desc'
-				],
+				NODE_PROPERTY_PARITY_KEY_FIELDS,
 				modelVersionHandle
 				)
 	}

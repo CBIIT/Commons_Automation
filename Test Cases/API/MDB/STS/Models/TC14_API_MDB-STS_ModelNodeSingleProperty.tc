@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Neo4j parity for GET /v2/model/.../node/.../property/{propHandle}</description>
+   <name>TC14_API_MDB-STS_ModelNodeSingleProperty</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b2c3d4e5-f6a7-4890-b123-456789abcdef</testCaseGuid>
+</TestCaseEntity>
