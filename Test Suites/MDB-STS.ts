@@ -12,27 +12,6 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>141b2455-a5d2-415e-94c0-5265f124fdb6</testSuiteGuid>
    <testCaseLink>
-      <guid>392991d4-44f9-462e-9586-3563562e59cb</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/API/MDB/STS/Models/TC01_API_MDB-STS_Models</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>f8a4b2c1-6e3c-4f9d-b7c2-1d0e9f8a7b6c</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/API/MDB/STS/Models/TC12_API_MDB-STS_ModelLatestVersion</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>69d80c1c-6919-474e-8ebd-73a6fb6b5323</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/API/MDB/STS/Tags/TC01_API_MDB-STS_Tags</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>b23b2307-dba1-438f-8cb1-951bc9bc268c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -44,6 +23,20 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/API/MDB/STS/Models/TC02_API_MDB-STS_ModelNodes</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>392991d4-44f9-462e-9586-3563562e59cb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/API/MDB/STS/Models/TC01_API_MDB-STS_Models</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f8a4b2c1-6e3c-4f9d-b7c2-1d0e9f8a7b6c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/API/MDB/STS/Models/TC12_API_MDB-STS_ModelLatestVersion</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -114,6 +107,27 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/API/MDB/STS/Models/TC11_API_MDB-STS_ModelNodePropertyTerms_PSDC</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>69d80c1c-6919-474e-8ebd-73a6fb6b5323</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/API/MDB/STS/Tags/TC01_API_MDB-STS_Tags</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b37433a2-a298-4624-bcf4-0ebd0ee3e493</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/API/MDB/STS/Tags/TC02_API_MDB-STS_TagValues</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9a8b7c6d-5e4f-4321-8012-3456789abcde</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/API/MDB/STS/Tags/TC03_API_MDB-STS_TagKeyValueEntities</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
