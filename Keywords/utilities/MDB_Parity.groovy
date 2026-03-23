@@ -213,6 +213,140 @@ class MDB_Parity {
 	}
 
 	/**
+	 * True if a {@code GET /tag/{key}/{value}/entities} list item should be compared as a {@code Property}
+	 * (OpenAPI discriminator {@code type}, or legacy rows with required Property fields).
+	 */
+	private static boolean isTaggedPropertyApiRow(Map m) {
+		if (m == null) return false
+		String t = m.type?.toString()
+		if (t != null && !t.trim().isEmpty()) {
+			return 'Property'.equalsIgnoreCase(t.trim())
+		}
+		return m.value_domain != null && m.nanoid != null
+	}
+
+	/**
+	 * Normalize Property-shaped rows from the tag-entities API (already filtered to Property items).
+	 * Omits API discriminator {@code type} from the parity map.
+	 */
+	static List<Map> normalizeTaggedPropertyRowsFromApi(List<Map> rows) {
+		return (rows ?: []).collect { Map p ->
+			[
+				model       : p.model?.toString(),
+				version     : p.version?.toString(),
+				handle      : p.handle?.toString(),
+				nanoid      : p.nanoid?.toString(),
+				is_key      : toBoolOrNull(p.is_key),
+				is_strict   : toBoolOrNull(p.is_strict),
+				is_nullable : toBoolOrNull(p.is_nullable),
+				is_required : toBoolOrNull(p.is_required),
+				value_domain: p.value_domain?.toString(),
+				item_domain : p.item_domain?.toString(),
+				units       : p.units?.toString(),
+				pattern     : p.pattern?.toString(),
+				desc        : normalizeDesc(p.desc),
+			]
+		}
+	}
+
+	/**
+	 * From a mixed tag-entities API list, keep Property rows only and normalize (legacy helper).
+	 */
+	static List<Map> normalizeTaggedEntitiesFromApi(List apiRows) {
+		List<Map> only = (apiRows ?: []).findAll { it instanceof Map && isTaggedPropertyApiRow((Map) it) }.collect { (Map) it }
+		return normalizeTaggedPropertyRowsFromApi(only)
+	}
+
+	/**
+	 * Normalize rows from Cypher key {@code verifyTagKeyValueEntities} (Property entities linked via {@code has_tag}).
+	 */
+	static List<Map> normalizeTaggedEntitiesFromNeo(List<Map> neoRows) {
+		return (neoRows ?: []).collect { r ->
+			[
+				model       : r.model?.toString(),
+				version     : r.version?.toString(),
+				handle      : r.handle?.toString(),
+				nanoid      : r.nanoid?.toString(),
+				is_key      : toBoolOrNull(r.is_key),
+				is_strict   : toBoolOrNull(r.is_strict),
+				is_nullable : toBoolOrNull(r.is_nullable),
+				is_required : toBoolOrNull(r.is_required),
+				value_domain: r.value_domain?.toString(),
+				item_domain : r.item_domain?.toString(),
+				units       : r.units?.toString(),
+				pattern     : r.pattern?.toString(),
+				desc        : normalizeDesc(r.desc),
+			]
+		}
+	}
+
+	/** Tag-entities API / Neo4j rows for {@code type: Node} (same tuple as {@link #normalizeModelNodeTuple}). */
+	static List<Map> normalizeTaggedNodeRowsFromApi(List<Map> rows) {
+		return (rows ?: []).collect { normalizeModelNodeTuple(it as Map) }
+	}
+
+	static List<Map> normalizeTaggedNodeRowsFromNeo(List<Map> neoRows) {
+		return (neoRows ?: []).collect { normalizeModelNodeTuple(it as Map) }
+	}
+
+	/** Tag-entities API / Neo4j rows for {@code type: Term}. */
+	static List<Map> normalizeTaggedTermRowsFromApi(List<Map> rows) {
+		return (rows ?: []).collect { t ->
+			[
+				value         : t.value?.toString(),
+				origin_name   : t.origin_name?.toString(),
+				handle        : t.handle?.toString(),
+				origin_version: t.origin_version?.toString(),
+				origin_id     : t.origin_id?.toString(),
+				nanoid        : t.nanoid?.toString(),
+			]
+		}
+	}
+
+	static List<Map> normalizeTaggedTermRowsFromNeo(List<Map> neoRows) {
+		return (neoRows ?: []).collect { r ->
+			[
+				value         : r.value?.toString(),
+				origin_name   : r.origin_name?.toString(),
+				handle        : r.handle?.toString(),
+				origin_version: r.origin_version?.toString(),
+				origin_id     : r.origin_id?.toString(),
+				nanoid        : r.nanoid?.toString(),
+			]
+		}
+	}
+
+	/** Tag-entities API / Neo4j rows for {@code type: Concept}. */
+	static List<Map> normalizeTaggedConceptRowsFromApi(List<Map> rows) {
+		return (rows ?: []).collect { c ->
+			[
+				handle : c.handle?.toString(),
+				version: c.version?.toString(),
+				nanoid : c.nanoid?.toString(),
+			]
+		}
+	}
+
+	static List<Map> normalizeTaggedConceptRowsFromNeo(List<Map> neoRows) {
+		return (neoRows ?: []).collect { r ->
+			[
+				handle : r.handle?.toString(),
+				version: r.version?.toString(),
+				nanoid : r.nanoid?.toString(),
+			]
+		}
+	}
+
+	/** Tag-entities API / Neo4j rows for {@code type: Relationship} (same fields as Node). */
+	static List<Map> normalizeTaggedRelationshipRowsFromApi(List<Map> rows) {
+		return (rows ?: []).collect { normalizeModelNodeTuple(it as Map) }
+	}
+
+	static List<Map> normalizeTaggedRelationshipRowsFromNeo(List<Map> neoRows) {
+		return (neoRows ?: []).collect { normalizeModelNodeTuple(it as Map) }
+	}
+
+	/**
 	 * Normalize boolean fields for /properties
 	 */
 	static Boolean toBoolOrNull(def v) {
@@ -562,6 +696,316 @@ class MDB_Parity {
 				)
 	}
 
+	/**
+	 * Parity for {@code GET /tag/{key}/values} vs Neo4j distinct {@code value}s for that key.
+	 * The API returns a JSON array of <strong>scalar</strong> values (e.g. strings) per OpenAPI — not {@code Tag} objects.
+	 * If the API returns objects with a {@code value} field instead, that is accepted; comparison uses {@code value} only
+	 * (aligned with {@code RETURN DISTINCT t.value} in Cypher key {@code verifyTagValues}).
+	 * Does not exercise skip/limit (covered by the spec test framework).
+	 */
+	static void verifyTagValuesParity(String tagKey) {
+		String keyRaw = tagKey?.toString()?.trim()
+		assert keyRaw :
+				"verifyTagValuesParity: tagKey must be non-empty"
+
+		String encodedKey = encodePath(keyRaw)
+		String ctx = "TagValues(${keyRaw})"
+		KeywordUtil.logInfo("[${ctx}] Verifying /tag/{key}/values parity (API vs Neo4j)")
+
+		def result = fetchAndParse(
+				'Object Repository/API/MDB/STS/Tags/GetTagValues',
+				[tagKey: encodedKey]
+				)
+		ResponseObject response = result.response
+		def data = result.data
+
+		assert response.getStatusCode() == 200 :
+				"[${ctx}] Expected HTTP 200, got ${response.getStatusCode()}"
+
+		assert data instanceof List :
+				"[${ctx}] Expected a List, got: ${data?.getClass()}"
+
+		logResponseSnippet("/tag/${keyRaw}/values", response, data)
+
+		List raw = (List) data
+		List<Map> apiRows
+		if (raw.isEmpty()) {
+			apiRows = []
+		} else if (raw[0] instanceof Map) {
+			apiRows = normalize(raw, { row ->
+				Map m = (Map) row
+				[ value: normalizeTagScalar(m.value) ]
+			}, "API-${ctx}")
+		} else {
+			// Typical: JSON array of strings (or booleans / numbers)
+			apiRows = normalize(raw, { item ->
+				[ value: normalizeTagScalar(item) ]
+			}, "API-${ctx}")
+		}
+
+		String cypher = getCypherQuery('Data Files/API/MDB/CypherQueries', 'verifyTagValues')
+		List<Map> neoRaw = fetchFromNeo4j(cypher, [key: keyRaw])
+
+		List<Map> neoRows = normalize((List) neoRaw, { r ->
+			[ value: normalizeTagScalar((r as Map).value) ]
+		}, "NEO-${ctx}")
+
+		compareLists(
+				apiRows,
+				neoRows,
+				['value'],
+				ctx
+				)
+	}
+
+	/**
+	 * For each distinct tag {@code key} from {@code GET /tags}, run {@link #verifyTagValuesParity(String)}.
+	 */
+	static void verifyAllDistinctTagKeysValuesParity() {
+		KeywordUtil.logInfo('[TagValues-All] Starting /tag/{key}/values parity for all distinct keys from /tags')
+
+		def result = fetchAndParse('Object Repository/API/MDB/STS/Tags/GetTags')
+		ResponseObject response = result.response
+		def data = result.data
+
+		validateListResponse(response, data, 'tags', ['key', 'value', 'nanoid'])
+		logResponseSnippet('/tags (for distinct keys)', response, data)
+
+		List<Map> tags = (List<Map>) data
+		Set<String> keys = tags.collect { it.key?.toString()?.trim() }
+				.findAll { it != null && !it.isEmpty() }
+				.toSet()
+
+		KeywordUtil.logInfo("[TagValues-All] Distinct tag keys: ${keys.size()}")
+
+		if (keys.isEmpty()) {
+			KeywordUtil.markFailedAndStop('[TagValues-All] No tag keys found from /tags')
+		}
+
+		keys.sort().each { String k ->
+			KeywordUtil.logInfo("[TagValues-All] >>> key='${k}'")
+			verifyTagValuesParity(k)
+			KeywordUtil.logInfo("[TagValues-All] <<< key='${k}' OK")
+		}
+
+		KeywordUtil.logInfo('[TagValues-All] Completed.')
+	}
+
+	private static String getCypherKeyForTagEntityType(String entType) {
+		switch (entType) {
+			case 'Property': return 'verifyTagKeyValueEntities'
+			case 'Node': return 'verifyTagKeyValueEntitiesNode'
+			case 'Term': return 'verifyTagKeyValueEntitiesTerm'
+			case 'Concept': return 'verifyTagKeyValueEntitiesConcept'
+			case 'Relationship': return 'verifyTagKeyValueEntitiesRelationship'
+			default:
+				throw new IllegalArgumentException("Unknown tag entity type: ${entType}")
+		}
+	}
+
+	private static List<String> tagEntityParityKeyFields(String entType) {
+		switch (entType) {
+			case 'Property': return TAGGED_ENTITY_PARITY_KEY_FIELDS
+			case 'Node': return TAGGED_NODE_PARITY_KEY_FIELDS
+			case 'Term': return TAGGED_TERM_PARITY_KEY_FIELDS
+			case 'Concept': return TAGGED_CONCEPT_PARITY_KEY_FIELDS
+			case 'Relationship': return TAGGED_RELATIONSHIP_PARITY_KEY_FIELDS
+			default:
+				throw new IllegalArgumentException("Unknown tag entity type: ${entType}")
+		}
+	}
+
+	private static List<Map> normalizeTaggedApiRowsByType(String entType, List<Map> rows) {
+		switch (entType) {
+			case 'Property': return normalizeTaggedPropertyRowsFromApi(rows)
+			case 'Node': return normalizeTaggedNodeRowsFromApi(rows)
+			case 'Term': return normalizeTaggedTermRowsFromApi(rows)
+			case 'Concept': return normalizeTaggedConceptRowsFromApi(rows)
+			case 'Relationship': return normalizeTaggedRelationshipRowsFromApi(rows)
+			default:
+				throw new IllegalArgumentException("Unknown tag entity type: ${entType}")
+		}
+	}
+
+	private static List<Map> normalizeTaggedNeoRowsByType(String entType, List<Map> rows) {
+		switch (entType) {
+			case 'Property': return normalizeTaggedEntitiesFromNeo(rows)
+			case 'Node': return normalizeTaggedNodeRowsFromNeo(rows)
+			case 'Term': return normalizeTaggedTermRowsFromNeo(rows)
+			case 'Concept': return normalizeTaggedConceptRowsFromNeo(rows)
+			case 'Relationship': return normalizeTaggedRelationshipRowsFromNeo(rows)
+			default:
+				throw new IllegalArgumentException("Unknown tag entity type: ${entType}")
+		}
+	}
+
+	/**
+	 * Resolves OpenAPI {@code type} for {@code /tag/.../entities} items; fails on unknown types.
+	 * If {@code type} is absent, only Property-shaped rows (legacy) are accepted via {@link #isTaggedPropertyApiRow}.
+	 */
+	private static String canonicalTagEntityTypeForTagEntities(Map m, String ctx) {
+		String t = m?.type?.toString()?.trim()
+		if (t) {
+			for (String k : TAG_API_ENTITY_TYPES) {
+				if (k.equalsIgnoreCase(t)) {
+					return k
+				}
+			}
+			assert false :
+					"[${ctx}] Unsupported tag entity type '${t}' (expected one of ${TAG_API_ENTITY_TYPES})"
+			throw new IllegalStateException("unreachable: ${ctx}")
+		}
+		if (isTaggedPropertyApiRow(m)) {
+			return 'Property'
+		}
+		assert false :
+				"[${ctx}] Missing or ambiguous type discriminator for tag entity (expected type or Property-shaped row)"
+		throw new IllegalStateException("unreachable: ${ctx}")
+	}
+
+	private static void assertAllTagEntityTypesNeoEmpty(String ctx, Map params) {
+		for (String entType : TAG_API_ENTITY_TYPES) {
+			String ck = getCypherKeyForTagEntityType(entType)
+			String cypher = getCypherQuery('Data Files/API/MDB/CypherQueries', ck)
+			List<Map> neo = fetchFromNeo4j(cypher, params)
+			assert neo.isEmpty() :
+					"[${ctx}] Expected all Neo4j tag-entity buckets empty for this tag, but ${ck} returned ${neo.size()} row(s)"
+		}
+	}
+
+	/**
+	 * Parity for {@code GET /tag/{key}/{value}/entities} vs Neo4j: partitions API items by OpenAPI {@code type}
+	 * ({@code Property}, {@code Node}, {@code Term}, {@code Concept}, {@code Relationship}) and compares each bucket
+	 * to a type-specific {@code has_tag} Cypher query.
+	 * Does not exercise {@code skip}/{@code limit} (covered by the spec test framework).
+	 * <p>
+	 * HTTP 404 or empty API list is accepted only when every Neo4j bucket for this tag is empty.
+	 */
+	static void verifyTagKeyValueEntitiesParity(String tagKey, String tagValue) {
+		String keyRaw = tagKey?.toString()?.trim()
+		String valRaw = tagValue?.toString()?.trim()
+		assert keyRaw :
+				"verifyTagKeyValueEntitiesParity: tagKey must be non-empty"
+		assert valRaw :
+				"verifyTagKeyValueEntitiesParity: tagValue must be non-empty"
+
+		String encKey = encodePath(keyRaw)
+		String encVal = encodePath(valRaw)
+		String ctx = "TagEntities(${keyRaw},${valRaw})"
+		Map params = [key: keyRaw, value: valRaw]
+		KeywordUtil.logInfo("[${ctx}] Verifying /tag/{key}/{value}/entities parity (API vs Neo4j, by entity type)")
+
+		def result = fetchAndParse(
+				'Object Repository/API/MDB/STS/Tags/GetTagKeyValueEntities',
+				[tagKey: encKey, tagValue: encVal]
+				)
+		ResponseObject response = result.response
+		def data = result.data
+
+		int status = response.getStatusCode()
+		if (status == 404) {
+			assertAllTagEntityTypesNeoEmpty(ctx, params)
+			KeywordUtil.logInfo("[${ctx}] API 404 and all Neo4j buckets empty — OK")
+			return
+		}
+
+		assert status == 200 :
+				"[${ctx}] Expected HTTP 200 or 404, got ${status}"
+
+		assert data instanceof List :
+				"[${ctx}] Expected a List, got: ${data?.getClass()}"
+
+		logResponseSnippet("/tag/${keyRaw}/${valRaw}/entities", response, data)
+
+		List rawList = (List) data
+		if (rawList.isEmpty()) {
+			assertAllTagEntityTypesNeoEmpty(ctx, params)
+			KeywordUtil.logInfo("[${ctx}] API returned empty list and all Neo4j buckets empty — OK")
+			return
+		}
+
+		Map<String, List<Map>> byType = [:]
+		for (def item : rawList) {
+			assert item instanceof Map :
+					"[${ctx}] Expected each entity to be a JSON object, got ${item?.getClass()}"
+			Map m = (Map) item
+			String ent = canonicalTagEntityTypeForTagEntities(m, ctx)
+			if (!byType.containsKey(ent)) {
+				byType[ent] = []
+			}
+			byType[ent] << m
+		}
+
+		for (String entType : TAG_API_ENTITY_TYPES) {
+			String ck = getCypherKeyForTagEntityType(entType)
+			String cypher = getCypherQuery('Data Files/API/MDB/CypherQueries', ck)
+			List<Map> neoRaw = fetchFromNeo4j(cypher, params)
+			List<Map> apiRows = byType[entType] ?: []
+			List<Map> apiNorm = normalizeTaggedApiRowsByType(entType, apiRows)
+			List<Map> neoNorm = normalizeTaggedNeoRowsByType(entType, neoRaw)
+
+			apiNorm = normalize(apiNorm, { it }, "API-${ctx}-${entType}")
+			neoNorm = normalize(neoNorm, { it }, "NEO-${ctx}-${entType}")
+
+			compareLists(
+					apiNorm,
+					neoNorm,
+					tagEntityParityKeyFields(entType),
+					"${ctx}[${entType}]"
+					)
+		}
+	}
+
+	/**
+	 * From {@code GET /tags}, take distinct {@code (key, value)} pairs in lexicographic order, cap at {@code maxPairs},
+	 * and run {@link #verifyTagKeyValueEntitiesParity(String, String)} for each. Use a small cap to avoid huge runtime
+	 * (tag cardinality can be very large).
+	 */
+	static void verifyFirstNDistinctTagKeyValuePairsParity(int maxPairs) {
+		assert maxPairs > 0 :
+				"verifyFirstNDistinctTagKeyValuePairsParity: maxPairs must be > 0"
+
+		KeywordUtil.logInfo("[TagEntities-FirstN] Distinct (key,value) parity, maxPairs=${maxPairs}")
+
+		def result = fetchAndParse('Object Repository/API/MDB/STS/Tags/GetTags')
+		ResponseObject response = result.response
+		def data = result.data
+
+		validateListResponse(response, data, 'tags', ['key', 'value', 'nanoid'])
+		logResponseSnippet('/tags (for distinct pairs)', response, data)
+
+		List<Map> tags = (List<Map>) data
+		List<List<String>> pairs = tags.collect { t ->
+			[
+				t.key?.toString()?.trim(),
+				normalizeTagScalar(t.value)
+			]
+		}.findAll { it[0] && it[1] != null }
+				.collect { [it[0], it[1].toString()] }
+				.unique()
+				.sort { a, b ->
+					int c = (a[0] <=> b[0])
+					c != 0 ? c : (a[1] <=> b[1])
+				}
+
+		KeywordUtil.logInfo("[TagEntities-FirstN] Distinct (key,value) pairs: ${pairs.size()}")
+
+		if (pairs.isEmpty()) {
+			KeywordUtil.markFailedAndStop('[TagEntities-FirstN] No tag pairs found from /tags')
+		}
+
+		int n = Math.min(maxPairs, pairs.size())
+		for (int i = 0; i < n; i++) {
+			String k = pairs[i][0]
+			String v = pairs[i][1]
+			KeywordUtil.logInfo("[TagEntities-FirstN] >>> pair ${i + 1}/${n}: key='${k}', value='${v}'")
+			verifyTagKeyValueEntitiesParity(k, v)
+			KeywordUtil.logInfo("[TagEntities-FirstN] <<< pair OK")
+		}
+
+		KeywordUtil.logInfo('[TagEntities-FirstN] Completed.')
+	}
+
 
 	/**
 	 * Parity check for Node objects in a specific model version - /nodes endpoint
@@ -800,6 +1244,64 @@ class MDB_Parity {
 		'is_required',
 		'value_domain',
 		'desc'
+	]
+
+	/**
+	 * Field list for {@code GET /tag/{key}/{value}/entities} Property rows vs Neo4j {@code verifyTagKeyValueEntities}.
+	 * Omits API-only discriminator {@code type} from the parity map.
+	 */
+	private static final List<String> TAGGED_ENTITY_PARITY_KEY_FIELDS = [
+		'model',
+		'version',
+		'handle',
+		'nanoid',
+		'is_key',
+		'is_strict',
+		'is_nullable',
+		'is_required',
+		'value_domain',
+		'item_domain',
+		'units',
+		'pattern',
+		'desc'
+	]
+
+	/** OpenAPI {@code anyOf} order for {@code GET /tag/{key}/{value}/entities} items. */
+	private static final List<String> TAG_API_ENTITY_TYPES = [
+		'Property',
+		'Node',
+		'Term',
+		'Concept',
+		'Relationship'
+	]
+
+	private static final List<String> TAGGED_NODE_PARITY_KEY_FIELDS = [
+		'model',
+		'handle',
+		'version',
+		'nanoid'
+	]
+
+	private static final List<String> TAGGED_TERM_PARITY_KEY_FIELDS = [
+		'value',
+		'origin_name',
+		'handle',
+		'origin_version',
+		'origin_id',
+		'nanoid'
+	]
+
+	private static final List<String> TAGGED_CONCEPT_PARITY_KEY_FIELDS = [
+		'handle',
+		'version',
+		'nanoid'
+	]
+
+	private static final List<String> TAGGED_RELATIONSHIP_PARITY_KEY_FIELDS = [
+		'model',
+		'handle',
+		'version',
+		'nanoid'
 	]
 
 	/**

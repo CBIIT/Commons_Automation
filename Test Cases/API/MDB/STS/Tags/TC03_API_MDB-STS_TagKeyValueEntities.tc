@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Parity: GET /tag/{key}/{value}/entities vs Neo4j (Property rows; smoke pair from OpenAPI spec tests)</description>
+   <name>TC03_API_MDB-STS_TagKeyValueEntities</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c1d2e3f4-a5b6-4789-8bcd-ef0123456789</testCaseGuid>
+</TestCaseEntity>
