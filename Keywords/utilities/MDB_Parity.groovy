@@ -505,6 +505,11 @@ class MDB_Parity {
 		KeywordUtil.logInfo("[${contextLabel}] API tuple set size:   ${apiSet.size()}")
 		KeywordUtil.logInfo("[${contextLabel}] Neo4j tuple set size: ${neo4jSet.size()}")
 
+		if (apiSet.size() >= 10_000) {
+			KeywordUtil.logInfo("[${contextLabel}] Parity check in progress (comparing large tuple sets, ~${apiSet.size()} entries). " +
+					"This step may take 10 minutes or longer with no further log output — do not stop the test; it is not necessarily hung.")
+		}
+
 		def onlyInApi   = apiSet - neo4jSet
 		def onlyInNeo4j = neo4jSet - apiSet
 
