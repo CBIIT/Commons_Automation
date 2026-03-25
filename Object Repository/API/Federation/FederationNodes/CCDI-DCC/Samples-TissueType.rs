@@ -114,7 +114,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://dcc-stage.ccdi.cancer.gov/api/v1/sample/by/tissue_type/count</restUrl>
+   <restUrl>https://dcc.ccdi.cancer.gov/api/v1/sample/by/tissue_type/count</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
