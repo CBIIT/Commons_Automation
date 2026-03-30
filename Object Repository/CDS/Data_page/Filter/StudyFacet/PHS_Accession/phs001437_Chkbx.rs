@@ -9,8 +9,13 @@
          <key>BASIC</key>
          <value>//*[@id=&quot;checkbox_PHS Accession_phs001437&quot;]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -18,6 +23,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;checkbox_PHS Accession_phs001437&quot;]</value>
-      <webElementGuid>74120f22-4ea5-4363-a5bf-71d7fc38cd48</webElementGuid>
+      <webElementGuid>56d0506f-2b9a-4821-bca7-c06439887ef4</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
