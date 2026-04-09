@@ -94,7 +94,6 @@ Profile BENTO_QA : This can be modified to any environment - qa&#47;dev&#47;stag
 Profile C3DC_PROD : This can be modified to any environment - qa&#47;dev&#47;staging
 Profile C3DC_QA : This can be modified to any environment - qa&#47;dev&#47;staging
 Profile C3DC_STAGE : This can be modified to any environment - qa&#47;dev&#47;staging
-Profile CCDC_QA : This can be modified to any environment - qa&#47;dev&#47;staging
 Profile CCDI_DEV : This can be modified to any environment - qa&#47;dev&#47;staging
 Profile CCDI_PROD : This can be modified to any environment - qa&#47;dev&#47;staging
 Profile CCDI_QA : This can be modified to any environment - qa&#47;dev&#47;staging
@@ -138,7 +137,6 @@ Profile BENTO_QA : This variable stores the Neo4J database's server url at runti
 Profile C3DC_PROD : This variable stores the Neo4J database's server url at runtime
 Profile C3DC_QA : This variable stores the Neo4J database's server url at runtime
 Profile C3DC_STAGE : This variable stores the Neo4J database's server url at runtime
-Profile CCDC_QA : This variable stores the Neo4J database's server url at runtime
 Profile CCDI_DEV : This variable stores the Neo4J database's server url at runtime
 Profile CCDI_PROD : This variable stores the Neo4J database's server url at runtime
 Profile CCDI_QA : This variable stores the Neo4J database's server url at runtime
@@ -169,7 +167,6 @@ Profile BENTO_QA : This variable stores the Neo4J database's username at runtime
 Profile C3DC_PROD : This variable stores the Neo4J database's username at runtime
 Profile C3DC_QA : This variable stores the Neo4J database's username at runtime
 Profile C3DC_STAGE : This variable stores the Neo4J database's username at runtime
-Profile CCDC_QA : This variable stores the Neo4J database's username at runtime
 Profile CCDI_DEV : This variable stores the Neo4J database's username at runtime
 Profile CCDI_PROD : This variable stores the Neo4J database's username at runtime
 Profile CCDI_QA : This variable stores the Neo4J database's username at runtime
@@ -201,7 +198,6 @@ Profile BENTO_QA : This variable stores the Neo4J database's password at runtime
 Profile C3DC_PROD : This variable stores the Neo4J database's password at runtime
 Profile C3DC_QA : This variable stores the Neo4J database's password at runtime
 Profile C3DC_STAGE : This variable stores the Neo4J database's password at runtime
-Profile CCDC_QA : This variable stores the Neo4J database's password at runtime
 Profile CCDI_DEV : This variable stores the Neo4J database's password at runtime
 Profile CCDI_PROD : This variable stores the Neo4J database's password at runtime
 Profile CCDI_QA : This variable stores the Neo4J database's password at runtime
@@ -233,7 +229,6 @@ Profile BENTO_QA : This variable stores the path of the output file onto which t
 Profile C3DC_PROD : This variable stores the path of the output file onto which the data is written from Ne04j
 Profile C3DC_QA : This variable stores the path of the output file onto which the data is written from Ne04j
 Profile C3DC_STAGE : This variable stores the path of the output file onto which the data is written from Ne04j
-Profile CCDC_QA : This variable stores the path of the output file onto which the data is written from Ne04j
 Profile CCDI_DEV : This variable stores the path of the output file onto which the data is written from Ne04j
 Profile CCDI_PROD : This variable stores the path of the output file onto which the data is written from Ne04j
 Profile CCDI_QA : This variable stores the path of the output file onto which the data is written from Ne04j
@@ -279,7 +274,6 @@ Profile BENTO_QA : This variable stores at runtime, the Cypher Query from Input 
 Profile C3DC_PROD : This variable stores at runtime, the Cypher Query from Input Excel, used to fetch data from Neo4J for a specific criteria
 Profile C3DC_QA : This variable stores at runtime, the Cypher Query from Input Excel, used to fetch data from Neo4J for a specific criteria
 Profile C3DC_STAGE : This variable stores at runtime, the Cypher Query from Input Excel, used to fetch data from Neo4J for a specific criteria
-Profile CCDC_QA : This variable stores at runtime, the Cypher Query from Input Excel, used to fetch data from Neo4J for a specific criteria
 Profile CCDI_DEV : This variable stores at runtime, the Cypher Query from Input Excel, used to fetch data from Neo4J for a specific criteria
 Profile CCDI_PROD : This variable stores at runtime, the Cypher Query from Input Excel, used to fetch data from Neo4J for a specific criteria
 Profile CCDI_QA : This variable stores at runtime, the Cypher Query from Input Excel, used to fetch data from Neo4J for a specific criteria
@@ -370,7 +364,6 @@ Profile BENTO_QA : This variable holds the value of the filename of the input fi
 Profile C3DC_PROD : This variable holds the value of the filename of the input file attached to each test case
 Profile C3DC_QA : This variable holds the value of the filename of the input file attached to each test case
 Profile C3DC_STAGE : This variable holds the value of the filename of the input file attached to each test case
-Profile CCDC_QA : This variable holds the value of the filename of the input file attached to each test case
 Profile CCDI_DEV : This variable holds the value of the filename of the input file attached to each test case
 Profile CCDI_PROD : This variable holds the value of the filename of the input file attached to each test case
 Profile CCDI_QA : This variable holds the value of the filename of the input file attached to each test case
@@ -406,7 +399,6 @@ Profile BENTO_QA : This contains the name of the element as stored in Katalon's 
 Profile C3DC_PROD : This contains the name of the element as stored in Katalon's obj rep
 Profile C3DC_QA : This contains the name of the element as stored in Katalon's obj rep
 Profile C3DC_STAGE : This contains the name of the element as stored in Katalon's obj rep
-Profile CCDC_QA : This contains the name of the element as stored in Katalon's obj rep
 Profile CCDI_DEV : This contains the name of the element as stored in Katalon's obj rep
 Profile CCDI_PROD : This contains the name of the element as stored in Katalon's obj rep
 Profile CCDI_QA : This contains the name of the element as stored in Katalon's obj rep
@@ -437,7 +429,6 @@ Profile BENTO_QA : This is for Katalon
 Profile C3DC_PROD : This is for Katalon 
 Profile C3DC_QA : This is for Katalon 
 Profile C3DC_STAGE : This is for Katalon 
-Profile CCDC_QA : This is for Katalon 
 Profile CCDI_DEV : This is for Katalon 
 Profile CCDI_PROD : This is for Katalon 
 Profile CCDI_QA : This is for Katalon 
@@ -468,7 +459,6 @@ Profile BENTO_QA : This is the value for Bento
 Profile C3DC_PROD : This is for the Cases tab and Samples tab which have 12 cols.  There is a separate variable for Files tab which has 10 cols
 Profile C3DC_QA : This is for the Cases tab and Samples tab which have 12 cols.  There is a separate variable for Files tab which has 10 cols
 Profile C3DC_STAGE : This is for the Cases tab and Samples tab which have 12 cols.  There is a separate variable for Files tab which has 10 cols
-Profile CCDC_QA : This is the value for Bento
 Profile CCDI_DEV : This is for the Cases tab and Samples tab which have 12 cols.  There is a separate variable for Files tab which has 10 cols
 Profile CCDI_PROD : This is for the Cases tab and Samples tab which have 12 cols.  There is a separate variable for Files tab which has 10 cols
 Profile CCDI_QA : This is for the Cases tab and Samples tab which have 12 cols.  There is a separate variable for Files tab which has 10 cols
@@ -525,7 +515,6 @@ Profile BENTO_QA : This holds the value of stat bar for Studies
 Profile C3DC_PROD : This variable holds the value of Studies count from Stat Bar in UI
 Profile C3DC_QA : This variable holds the value of Studies count from Stat Bar in UI
 Profile C3DC_STAGE : This variable holds the value of Studies count from Stat Bar in UI
-Profile CCDC_QA : This holds the value of stat bar for Studies
 Profile CCDI_DEV : This variable holds the value of Studies count from Stat Bar in UI
 Profile CCDI_PROD : This variable holds the value of Studies count from Stat Bar in UI
 Profile CCDI_QA : This variable holds the value of Studies count from Stat Bar in UI
@@ -548,7 +537,6 @@ Profile BENTO_QA : This variable holds the value of Cases count from Stat Bar in
 Profile C3DC_PROD : This variable holds the value of Cases count from Stat Bar in UI.
 Profile C3DC_QA : This variable holds the value of Cases count from Stat Bar in UI.
 Profile C3DC_STAGE : This variable holds the value of Cases count from Stat Bar in UI.
-Profile CCDC_QA : This variable holds the value of Cases count from Stat Bar in UI.
 Profile CCDI_DEV : This variable holds the value of Cases count from Stat Bar in UI.
 Profile CCDI_PROD : This variable holds the value of Cases count from Stat Bar in UI.
 Profile CCDI_QA : This variable holds the value of Cases count from Stat Bar in UI.
@@ -576,7 +564,6 @@ Profile BENTO_QA : This variable holds the value of Samples count from Stat Bar 
 Profile C3DC_PROD : This variable holds the value of Samples count from Stat Bar in UI.
 Profile C3DC_QA : This variable holds the value of Samples count from Stat Bar in UI.
 Profile C3DC_STAGE : This variable holds the value of Samples count from Stat Bar in UI.
-Profile CCDC_QA : This variable holds the value of Samples count from Stat Bar in UI.
 Profile CCDI_DEV : This variable holds the value of Samples count from Stat Bar in UI.
 Profile CCDI_PROD : This variable holds the value of Samples count from Stat Bar in UI.
 Profile CCDI_QA : This variable holds the value of Samples count from Stat Bar in UI.
@@ -604,7 +591,6 @@ Profile BENTO_QA : This variable holds the value of Files count from Stat Bar in
 Profile C3DC_PROD : This variable holds the value of Files count from Stat Bar in UI.
 Profile C3DC_QA : This variable holds the value of Files count from Stat Bar in UI.
 Profile C3DC_STAGE : This variable holds the value of Files count from Stat Bar in UI.
-Profile CCDC_QA : This variable holds the value of Files count from Stat Bar in UI.
 Profile CCDI_DEV : This variable holds the value of Files count from Stat Bar in UI.
 Profile CCDI_PROD : This variable holds the value of Files count from Stat Bar in UI.
 Profile CCDI_QA : This variable holds the value of Files count from Stat Bar in UI.
@@ -653,7 +639,6 @@ Profile BENTO_DEV : This is the count from case details table
 Profile BENTO_PERF : This is the count from case details table
 Profile BENTO_PROD : This is the count from case details table
 Profile BENTO_QA : This is the count from case details table
-Profile CCDC_QA : This is the count from case details table
 Profile CDS_DEV : This is the count from case details table
 Profile CDS_PROD : This is the count from case details table
 Profile CDS_QA : This is the count from case details table
@@ -677,7 +662,6 @@ Profile BENTO_QA : This variable contains the output tab name for stat bar count
 Profile C3DC_PROD : This variable contains the output tab name for stat bar counts from the case details page of a specific case ID
 Profile C3DC_QA : This variable contains the output tab name for stat bar counts from the case details page of a specific case ID
 Profile C3DC_STAGE : This variable contains the output tab name for stat bar counts from the case details page of a specific case ID
-Profile CCDC_QA : This variable contains the output tab name for stat bar counts from the case details page of a specific case ID
 Profile CCDI_DEV : This variable contains the output tab name for stat bar counts from the case details page of a specific case ID
 Profile CCDI_PROD : This variable contains the output tab name for stat bar counts from the case details page of a specific case ID
 Profile CCDI_QA : This variable contains the output tab name for stat bar counts from the case details page of a specific case ID
@@ -709,7 +693,6 @@ Profile BENTO_DEV : This variable contains the neo4j query to fetch case detail 
 Profile BENTO_PERF : This variable contains the neo4j query to fetch case detail level stat data
 Profile BENTO_PROD : This variable contains the neo4j query to fetch case detail level stat data
 Profile BENTO_QA : This variable contains the neo4j query to fetch case detail level stat data
-Profile CCDC_QA : This variable contains the neo4j query to fetch case detail level stat data
 Profile CDS_DEV : This variable contains the neo4j query to fetch case detail level stat data
 Profile CDS_PROD : This variable contains the neo4j query to fetch case detail level stat data
 Profile CDS_QA : This variable contains the neo4j query to fetch case detail level stat data
@@ -813,7 +796,6 @@ Profile BENTO_QA : This variable contains the current test case name
 Profile C3DC_PROD : Name of the current test script
 Profile C3DC_QA : Name of the current test script
 Profile C3DC_STAGE : Name of the current test script
-Profile CCDC_QA : This variable contains the current test case name
 Profile CCDI_DEV : Name of the current test script
 Profile CCDI_PROD : Name of the current test script
 Profile CCDI_QA : Name of the current test script
@@ -862,7 +844,6 @@ Profile BENTO_QA : This is the value of browser chosen at runtime to execute the
 Profile C3DC_PROD : This is the value of browser chosen at runtime to execute the test script
 Profile C3DC_QA : This is the value of browser chosen at runtime to execute the test script
 Profile C3DC_STAGE : This is the value of browser chosen at runtime to execute the test script
-Profile CCDC_QA : This is the value of browser chosen at runtime to execute the test script
 Profile CCDI_DEV : This is the value of browser chosen at runtime to execute the test script
 Profile CCDI_PROD : This is the value of browser chosen at runtime to execute the test script
 Profile CCDI_QA : This is the value of browser chosen at runtime to execute the test script
@@ -954,7 +935,6 @@ Profile INS_STAGE : This contains the name of the recent manifest with timestamp
      * <p>Profile BENTO_CDK : contains the renamed manifest file's full path + name with csv extension
 Profile BENTO_DEV : contains the renamed manifest file's full path + name with csv extension
 Profile BENTO_QA : contains the renamed manifest file's full path + name with csv extension
-Profile CCDC_QA : contains the renamed manifest file's full path + name with csv extension
 Profile CDS_DEV : contains the renamed manifest file's full path + name with csv extension
 Profile CDS_PROD : contains the renamed manifest file's full path + name with csv extension
 Profile CDS_QA : contains the renamed manifest file's full path + name with csv extension
@@ -1025,7 +1005,6 @@ Profile BENTO_QA : This is the variable holding the filename and full path of th
 Profile C3DC_PROD : this holds the file name after csv to xls conversion of the downloaded manifest
 Profile C3DC_QA : this holds the file name after csv to xls conversion of the downloaded manifest
 Profile C3DC_STAGE : this holds the file name after csv to xls conversion of the downloaded manifest
-Profile CCDC_QA : This is the variable holding the filename and full path of the converted .xls file
 Profile CCDI_DEV : this holds the file name after csv to xls conversion of the downloaded manifest
 Profile CCDI_PROD : this holds the file name after csv to xls conversion of the downloaded manifest
 Profile CCDI_QA : this holds the file name after csv to xls conversion of the downloaded manifest
@@ -1126,7 +1105,6 @@ Profile BENTO_DEV : This holds the value of stat bar for assays
 Profile BENTO_PERF : This holds the value of stat bar for assays
 Profile BENTO_PROD : This holds the value of stat bar for assays
 Profile BENTO_QA : This holds the value of stat bar for assays
-Profile CCDC_QA : This holds the value of stat bar for assays
 Profile CDS_DEV : This holds the value of stat bar for assays
 Profile CDS_PROD : This holds the value of stat bar for assays
 Profile CDS_QA : This holds the value of stat bar for assays
@@ -1141,7 +1119,6 @@ Profile BENTO_DEV : This holds the value of stat bar for arms
 Profile BENTO_PERF : This holds the value of stat bar for arms
 Profile BENTO_PROD : This holds the value of stat bar for arms
 Profile BENTO_QA : This holds the value of stat bar for arms
-Profile CCDC_QA : This holds the value of stat bar for arms
 Profile CDS_DEV : This holds the value of stat bar for arms
 Profile CDS_PROD : This holds the value of stat bar for arms
 Profile CDS_QA : This holds the value of stat bar for arms
@@ -1161,7 +1138,6 @@ Profile BENTO_DEV : This is the value of the sheet name in the downloaded and re
 Profile BENTO_PERF : This is the value of the sheet name in the downloaded and renamed Manifest file converted to xls format
 Profile BENTO_PROD : This is the value of the sheet name in the downloaded and renamed Manifest file converted to xls format
 Profile BENTO_QA : This is the value of the sheet name in the downloaded and renamed Manifest file converted to xls format
-Profile CCDC_QA : This is the value of the sheet name in the downloaded and renamed Manifest file converted to xls format
 Profile CDS_DEV : This is the value of the sheet name in the downloaded and renamed Manifest file converted to xls format
 Profile CDS_PROD : This is the value of the sheet name in the downloaded and renamed Manifest file converted to xls format
 Profile CDS_QA : This is the value of the sheet name in the downloaded and renamed Manifest file converted to xls format
@@ -1176,7 +1152,6 @@ Profile BENTO_DEV : This is the variable holding the filename and full path of t
 Profile BENTO_PERF : This is the variable holding the filename and full path of the converted .xlsx file
 Profile BENTO_PROD : This is the variable holding the filename and full path of the converted .xlsx file
 Profile BENTO_QA : This is the variable holding the filename and full path of the converted .xlsx file
-Profile CCDC_QA : This is the variable holding the filename and full path of the converted .xlsx file
 Profile CDS_DEV : This is the variable holding the filename and full path of the converted .xlsx file
 Profile CDS_PROD : This is the variable holding the filename and full path of the converted .xlsx file
 Profile CDS_QA : This is the variable holding the filename and full path of the converted .xlsx file
@@ -1188,16 +1163,14 @@ Profile CDS_STAGE : This is the variable holding the filename and full path of t
     /**
      * <p>Profile BENTO_CDK : This is the value of the app username
 Profile BENTO_DEV : This is the value of the app username
-Profile BENTO_QA : This is the value of the app username
-Profile CCDC_QA : This is the value of the app username</p>
+Profile BENTO_QA : This is the value of the app username</p>
      */
     public static Object G_AppUserName
      
     /**
      * <p>Profile BENTO_CDK : This is the value of the app password
 Profile BENTO_DEV : This is the value of the app password
-Profile BENTO_QA : This is the value of the app password
-Profile CCDC_QA : This is the value of the app password</p>
+Profile BENTO_QA : This is the value of the app password</p>
      */
     public static Object G_AppPassword
      
@@ -1426,6 +1399,206 @@ Profile BENTO_PROD : contains the renamed manifest file's full path + name with 
      * <p></p>
      */
     public static Object G_QueryTreatmentTab
+     
+    /**
+     * <p></p>
+     */
+    public static Object baseUrl
+     
+    /**
+     * <p></p>
+     */
+    public static Object ResourceKey
+     
+    /**
+     * <p></p>
+     */
+    public static Object DtstSummaryKey
+     
+    /**
+     * <p></p>
+     */
+    public static Object ResFilter
+     
+    /**
+     * <p></p>
+     */
+    public static Object initSummCnt
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_GrantInfo
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_dbgapID
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_caseEthn
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_caseRace
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_caseAge
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_caseSex
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_DtstName
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_DtstDesc
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_resCode
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_casesCnt
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_Grant
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_DtstScope
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_POC
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_POCemail
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_PubIn
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_samplesCnt
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_caseDisDiag
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_caseGender
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_cTumorSite
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_caseTrtmtAdmn
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_caseTrtmtOutcm
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_sampleAssMeth
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_sampleAnalType
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_sampleAnatSite
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_sampleCompType
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_sampleIsNml
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_sampleIsXeno
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_RsrcName
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_DtstSummCnt
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_FilterType
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_Splzation
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_dUpdateDate
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_VisTools
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_AnalTools
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_dContType
      
     /**
      * <p></p>
@@ -1764,6 +1937,46 @@ Profile CRDC_STAGE : This holds CRDC UI element value and used accross CRDC func
             G_QueryGeneticAnalysisTab = selectedVariables['G_QueryGeneticAnalysisTab']
             G_QueryTrtmntRespTab = selectedVariables['G_QueryTrtmntRespTab']
             G_QueryTreatmentTab = selectedVariables['G_QueryTreatmentTab']
+            baseUrl = selectedVariables['baseUrl']
+            ResourceKey = selectedVariables['ResourceKey']
+            DtstSummaryKey = selectedVariables['DtstSummaryKey']
+            ResFilter = selectedVariables['ResFilter']
+            initSummCnt = selectedVariables['initSummCnt']
+            G_GrantInfo = selectedVariables['G_GrantInfo']
+            G_dbgapID = selectedVariables['G_dbgapID']
+            G_caseEthn = selectedVariables['G_caseEthn']
+            G_caseRace = selectedVariables['G_caseRace']
+            G_caseAge = selectedVariables['G_caseAge']
+            G_caseSex = selectedVariables['G_caseSex']
+            G_DtstName = selectedVariables['G_DtstName']
+            G_DtstDesc = selectedVariables['G_DtstDesc']
+            G_resCode = selectedVariables['G_resCode']
+            G_casesCnt = selectedVariables['G_casesCnt']
+            G_Grant = selectedVariables['G_Grant']
+            G_DtstScope = selectedVariables['G_DtstScope']
+            G_POC = selectedVariables['G_POC']
+            G_POCemail = selectedVariables['G_POCemail']
+            G_PubIn = selectedVariables['G_PubIn']
+            G_samplesCnt = selectedVariables['G_samplesCnt']
+            G_caseDisDiag = selectedVariables['G_caseDisDiag']
+            G_caseGender = selectedVariables['G_caseGender']
+            G_cTumorSite = selectedVariables['G_cTumorSite']
+            G_caseTrtmtAdmn = selectedVariables['G_caseTrtmtAdmn']
+            G_caseTrtmtOutcm = selectedVariables['G_caseTrtmtOutcm']
+            G_sampleAssMeth = selectedVariables['G_sampleAssMeth']
+            G_sampleAnalType = selectedVariables['G_sampleAnalType']
+            G_sampleAnatSite = selectedVariables['G_sampleAnatSite']
+            G_sampleCompType = selectedVariables['G_sampleCompType']
+            G_sampleIsNml = selectedVariables['G_sampleIsNml']
+            G_sampleIsXeno = selectedVariables['G_sampleIsXeno']
+            G_RsrcName = selectedVariables['G_RsrcName']
+            G_DtstSummCnt = selectedVariables['G_DtstSummCnt']
+            G_FilterType = selectedVariables['G_FilterType']
+            G_Splzation = selectedVariables['G_Splzation']
+            G_dUpdateDate = selectedVariables['G_dUpdateDate']
+            G_VisTools = selectedVariables['G_VisTools']
+            G_AnalTools = selectedVariables['G_AnalTools']
+            G_dContType = selectedVariables['G_dContType']
             G_ProjPath = selectedVariables['G_ProjPath']
             G_StatBar_DisSite = selectedVariables['G_StatBar_DisSite']
             userEmail = selectedVariables['userEmail']

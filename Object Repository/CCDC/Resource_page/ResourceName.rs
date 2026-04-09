@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;root&quot;]/div[3]/div/div[2]/div[1]</value>
+         <value>//*[@class='prDetailHeaderLabel']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;root&quot;]/div[3]/div/div[2]/div[1]</value>
-      <webElementGuid>068a14d5-2119-4db6-9988-be1e23636406</webElementGuid>
+      <value>//*[@class='prDetailHeaderLabel']</value>
+      <webElementGuid>66d6fbb2-0b56-4fea-ab7d-a94c8e3d7685</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

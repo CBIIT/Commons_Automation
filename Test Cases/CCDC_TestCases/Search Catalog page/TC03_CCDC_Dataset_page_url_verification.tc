@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC01_CCDC_Dataset_page_basic_verification</name>
+   <name>TC03_CCDC_Dataset_page_url_verification</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>eabf68c5-37c2-4fcc-a983-581cf8734b03</testCaseGuid>
+   <testCaseGuid>5e5f4c53-8269-4b7d-8667-ea17194fcf1e</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>
       <id>df4f31e4-dd03-4199-990f-f07b4510b897</id>
@@ -19,51 +19,51 @@
       <testDataLinkId>df4f31e4-dd03-4199-990f-f07b4510b897</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>suffixUrl</value>
-      <variableId>1e19073c-8f9b-41fd-8e89-53000271466e</variableId>
+      <variableId>e74c2583-3de8-495a-9f54-1a312f149115</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId>df4f31e4-dd03-4199-990f-f07b4510b897</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>DatasetName</value>
-      <variableId>f20f499a-a644-47ea-b889-5c2b1b662c0d</variableId>
+      <variableId>224f01ab-ba09-4649-8baf-7111001a7bca</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId>df4f31e4-dd03-4199-990f-f07b4510b897</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>ResourceCode</value>
-      <variableId>f66100f9-9b88-4d1e-8291-0d3f78791a5e</variableId>
+      <variableId>50704350-a24d-46b9-be49-d3f8ab0d3176</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId>df4f31e4-dd03-4199-990f-f07b4510b897</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>ResourceCode</value>
-      <variableId>ff121e25-75ff-4fdc-ab30-e6875ae4e68a</variableId>
+      <variableId>6f475f2b-57e6-4f3f-9739-1857cb9e085d</variableId>
    </variableLinks>
    <variable>
       <defaultValue>findTestData('CCDC_Dataset_Core_Additional').getValue('suffixUrl', 1)</defaultValue>
       <description></description>
-      <id>1e19073c-8f9b-41fd-8e89-53000271466e</id>
+      <id>e74c2583-3de8-495a-9f54-1a312f149115</id>
       <masked>false</masked>
       <name>sUrl</name>
    </variable>
    <variable>
       <defaultValue>findTestData('CCDC_Dataset_Core_Additional').getValue('DatasetName', 1)</defaultValue>
       <description></description>
-      <id>f20f499a-a644-47ea-b889-5c2b1b662c0d</id>
+      <id>224f01ab-ba09-4649-8baf-7111001a7bca</id>
       <masked>false</masked>
       <name>ipDtstName</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('CCDC_Dataset_Core_Additional').getValue('DataResourceCode', 1)</defaultValue>
+      <defaultValue>findTestData('CCDC_Dataset_Core_Additional').getValue('ResourceCode', 1)</defaultValue>
       <description></description>
-      <id>f66100f9-9b88-4d1e-8291-0d3f78791a5e</id>
+      <id>50704350-a24d-46b9-be49-d3f8ab0d3176</id>
       <masked>false</masked>
       <name>ipResrcCode</name>
    </variable>
    <variable>
       <defaultValue>findTestData('CCDC_Dataset_Core_Additional').getValue('DatasetScope', 1)</defaultValue>
       <description></description>
-      <id>ff121e25-75ff-4fdc-ab30-e6875ae4e68a</id>
+      <id>6f475f2b-57e6-4f3f-9739-1857cb9e085d</id>
       <masked>false</masked>
       <name>ipDtstScope</name>
    </variable>

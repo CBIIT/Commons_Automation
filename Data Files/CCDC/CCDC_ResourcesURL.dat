@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>CCDC_Dataset_Core_Additional</name>
+   <name>CCDC_ResourcesURL</name>
    <tag></tag>
    <connectionProperties/>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>7e42226b-a1ea-4678-9d4b-5ddc64d3bfb4</dataFileGUID>
-   <dataSourceUrl>InputFiles/CCDC/CCDC_Datasets_20260406.xlsx</dataSourceUrl>
+   <dataFileGUID>ba1e22e7-995f-49a1-a676-eb5192ee1edc</dataFileGUID>
+   <dataSourceUrl>InputFiles/CCDC/CCDC_Resources_20260406.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>

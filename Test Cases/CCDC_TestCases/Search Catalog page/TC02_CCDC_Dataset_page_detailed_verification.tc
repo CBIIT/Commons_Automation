@@ -4,6 +4,7 @@
    <name>TC02_CCDC_Dataset_page_detailed_verification</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>0f120470-320c-499f-b490-ca455cc68b3b</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>
