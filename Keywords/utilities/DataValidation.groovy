@@ -56,7 +56,12 @@ import utilities.TestRunner as webUIHelper
 public class DataValidation {
 
 	public static WebDriver driver
-
+	
+	
+	@Keyword
+	public static String givexpath(String objectId) {
+		return findTestObject(objectId).findPropertyValue("xpath")
+	}
 
 	@Keyword
 	public static initDriver() {
@@ -149,7 +154,7 @@ public class DataValidation {
 		WebDriverWait wait = new WebDriverWait(driver,10);
 
 
-		String xp = webUIHelper.givexpath(webElem);
+		String xp = givexpath(webElem);
 
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 
