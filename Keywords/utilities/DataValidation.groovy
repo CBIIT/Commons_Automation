@@ -53,7 +53,7 @@ import org.openqa.selenium.Cookie as Cookie
 import utilities.TestRunner as webUIHelper
 
 
-public class DataValidation extends TestRunner{
+public class DataValidation {
 
 	public static WebDriver driver
 
