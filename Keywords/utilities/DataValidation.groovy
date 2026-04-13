@@ -149,7 +149,7 @@ public class DataValidation {
 		WebDriverWait wait = new WebDriverWait(driver,10);
 
 
-		String xp = givexpath(webElem);
+		String xp = webUIHelper.givexpath(webElem);
 
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 
