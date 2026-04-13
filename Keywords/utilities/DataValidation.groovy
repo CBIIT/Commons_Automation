@@ -270,7 +270,7 @@ public class DataValidation extends TestRunner{
 		links.addAll(ResourceLinks)
 		links.addAll(ResourceHeaderLinks)
 		links.addAll(AddDataLabeLinks)
-		
+
 		List<String> allURLs= new ArrayList<String>();
 
 		for (WebElement link : links) {
