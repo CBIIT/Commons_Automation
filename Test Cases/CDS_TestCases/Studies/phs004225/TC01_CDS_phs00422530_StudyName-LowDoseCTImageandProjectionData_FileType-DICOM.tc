@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CDS_phs00422530_StudyName-LowDoseCTImageandProjectionData_FileType-DICOM</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0931bf15-39c0-4e7b-b06e-f00fad4ccc9b</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CDS_phs00422512_StudyName-GammaKnifeHippocampal_ExperimentalStrategy-Radiological_Sex-Unknown</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8dcd190f-0cb6-454f-becd-95e2475cefba</testCaseGuid>
+</TestCaseEntity>

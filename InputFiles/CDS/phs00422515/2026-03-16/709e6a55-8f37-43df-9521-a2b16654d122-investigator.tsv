@@ -1,0 +1,3 @@
+type	investigator_id	email	first_name	last_name	middle_name	role_or_affiliation	role_or_affiliation_concept_code	study.study_id
+investigator	phs004225_ASMohamed@mdanderson.org	ASMohamed@mdanderson.org	Abdallah	Mohamed		Principal Investigator	C19924	phs004225_HNSCC-3DCT-RT
+investigator	phs004225_grossber@ohsu.edu	grossber@ohsu.edu	Aaron	Grossberg		Principal Investigator	C19924	phs004225_HNSCC-3DCT-RT

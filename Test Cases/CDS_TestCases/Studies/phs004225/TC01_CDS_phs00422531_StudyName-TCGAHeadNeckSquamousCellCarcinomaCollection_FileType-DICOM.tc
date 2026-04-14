@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CDS_phs00422531_StudyName-TCGAHeadNeckSquamousCellCarcinomaCollection_FileType-DICOM</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d060e6dc-da5c-47f1-96f6-8885d863f05e</testCaseGuid>
+</TestCaseEntity>

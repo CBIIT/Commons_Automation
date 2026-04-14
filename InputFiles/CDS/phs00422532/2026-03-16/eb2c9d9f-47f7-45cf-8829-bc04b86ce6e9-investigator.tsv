@@ -1,0 +1,3 @@
+type	investigator_id	email	first_name	last_name	middle_name	role_or_affiliation	role_or_affiliation_concept_code	study.study_id
+investigator	phs004225_nameeta.shah@gmail.com	nameeta.shah@gmail.com	Nameeta	Shah		Principal Investigator	C19924	phs004225_IvyGAP
+investigator	phs004225_rbpuchalski@gmail.com	rbpuchalski@gmail.com	Ralph	Puchalski	B.	Principal Investigator	C19924	phs004225_IvyGAP

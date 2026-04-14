@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CDS_phs00422526_StudyName-HeadNeckCetuximab_FileType-DICOM</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ffc4eca5-e8be-46c5-946c-17c0d7366fcc</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CDS_phs0042252_StudyName-AAPMRTMAC_FileType-DICOM</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b7b846ed-d6a5-4d6a-9f73-71a283f1d038</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CDS_phs0042257_StudyName-BrainTumorRecurrenceGammaKnife_FileType-DICOM</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b1639545-7c8f-49b5-bec2-796308dd489f</testCaseGuid>
+</TestCaseEntity>

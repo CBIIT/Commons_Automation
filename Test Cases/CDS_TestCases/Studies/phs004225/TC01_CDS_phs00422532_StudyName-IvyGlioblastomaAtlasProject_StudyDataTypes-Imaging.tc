@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CDS_phs00422532_StudyName-IvyGlioblastomaAtlasProject_StudyDataTypes-Imaging</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>152b5c59-f6d3-4b66-82b1-3b9d8ffb4b31</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CDS_phs00422515_StudyName-Headandnecksquamouscellcarcinoma_ExperimentalStrategy-Radiological</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5b0ed250-456d-496c-8f0a-1ab9bef19007</testCaseGuid>
+</TestCaseEntity>

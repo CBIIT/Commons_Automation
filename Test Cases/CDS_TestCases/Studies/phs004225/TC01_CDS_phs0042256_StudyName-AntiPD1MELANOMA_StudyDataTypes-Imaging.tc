@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CDS_phs0042256_StudyName-AntiPD1MELANOMA_StudyDataTypes-Imaging</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2d911be4-a295-4a7e-b859-51481c11030c</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CDS_phs00422527_StudyName-RioHortegaGBMdataset_Sex-Unknown</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3c81ff6c-b7c7-42d6-8cf5-37c8b3b8e287</testCaseGuid>
+</TestCaseEntity>
