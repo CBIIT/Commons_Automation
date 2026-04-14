@@ -1,0 +1,3 @@
+type	investigator_id	email	first_name	last_name	middle_name	role_or_affiliation	role_or_affiliation_concept_code	study.study_id
+investigator	phs004225_kathleen@mcw.edu	kathleen@mcw.edu	Kathleen	Schmainda		Principal Investigator	C19924	phs004225_Brain-Tumor-Progression
+investigator	phs004225_mprah@mcw.edu	mprah@mcw.edu	Melissa	Prah		Principal Investigator	C19924	phs004225_Brain-Tumor-Progression

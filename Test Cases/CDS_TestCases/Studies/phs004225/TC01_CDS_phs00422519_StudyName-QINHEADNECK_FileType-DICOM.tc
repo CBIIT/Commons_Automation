@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CDS_phs00422519_StudyName-QINHEADNECK_FileType-DICOM</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e1bd438a-45af-4994-8dad-f1d2be50508b</testCaseGuid>
+</TestCaseEntity>

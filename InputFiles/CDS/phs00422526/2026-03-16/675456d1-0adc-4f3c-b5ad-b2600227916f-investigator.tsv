@@ -1,0 +1,2 @@
+type	investigator_id	email	first_name	last_name	middle_name	role_or_affiliation	role_or_affiliation_concept_code	study.study_id
+investigator	phs004225_wbosch@radonc.wustl.edu	wbosch@radonc.wustl.edu	Walter	Bosch		Principal Investigator	C19924	phs004225_Head-Neck Cetuximab

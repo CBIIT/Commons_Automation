@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CDS_phs00422535_StudyName-HeadNeckPETCT_FileType-DICOM</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b69a8604-546c-4797-b99e-078720c2a8c5</testCaseGuid>
+</TestCaseEntity>

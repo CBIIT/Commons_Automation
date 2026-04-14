@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CDS_phs00422514_StudyName-GliomaImageSegmentationforRadiotherapy_Sex-Unknown</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6dbf6ad4-477f-40a1-8077-de3d159c7a3b</testCaseGuid>
+</TestCaseEntity>

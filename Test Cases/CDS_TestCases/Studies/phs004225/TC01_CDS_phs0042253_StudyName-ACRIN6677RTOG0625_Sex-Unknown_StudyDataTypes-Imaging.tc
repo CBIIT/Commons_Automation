@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CDS_phs0042253_StudyName-ACRIN6677RTOG0625_Sex-Unknown_StudyDataTypes-Imaging</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4b105efc-e611-4ec4-9b0c-064abe0d15b9</testCaseGuid>
+</TestCaseEntity>

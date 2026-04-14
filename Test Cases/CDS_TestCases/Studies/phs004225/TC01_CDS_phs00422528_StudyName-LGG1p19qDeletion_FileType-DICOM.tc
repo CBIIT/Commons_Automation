@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CDS_phs00422528_StudyName-LGG1p19qDeletion_FileType-DICOM</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cf0ca911-c8e4-42d7-96bb-186a0091af8d</testCaseGuid>
+</TestCaseEntity>

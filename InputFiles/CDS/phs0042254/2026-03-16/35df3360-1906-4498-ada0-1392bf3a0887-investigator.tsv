@@ -1,0 +1,4 @@
+type	investigator_id	email	first_name	last_name	middle_name	role_or_affiliation	role_or_affiliation_concept_code	study.study_id
+investigator	phs004225_kinahan@uw.edu	kinahan@uw.edu	Paul	Kinahan		Principal Investigator	C19924	phs004225_ACRIN-FMISO-Brain
+investigator	phs004225_lcoombs@acr.org	lcoombs@acr.org	Laura	Coombs		Principal Investigator	C19924	phs004225_ACRIN-FMISO-Brain
+investigator	phs004225_muzi@uw.edu	muzi@uw.edu	Mark	Muzi		Principal Investigator	C19924	phs004225_ACRIN-FMISO-Brain
