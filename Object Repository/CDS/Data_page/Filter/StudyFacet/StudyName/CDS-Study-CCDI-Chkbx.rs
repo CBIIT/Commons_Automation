@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Study Name_Childhood Cancer Data Initiative (CCDI): Free the Data: Open Sharing of Comprehensive Genomic Childhood Cancer Datasets (Kansas)&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Study Name_A whole-body FDG-PET/CT dataset with manually annotated tumor lesions&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Study Name_Childhood Cancer Data Initiative (CCDI): Free the Data: Open Sharing of Comprehensive Genomic Childhood Cancer Datasets (Kansas)&quot;]</value>
-      <webElementGuid>6ca5a453-a1c4-4bb1-89b3-0aef0717bc21</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Study Name_A whole-body FDG-PET/CT dataset with manually annotated tumor lesions&quot;]</value>
+      <webElementGuid>6869a703-4f09-4f44-b813-fe9f01d7f3cd</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

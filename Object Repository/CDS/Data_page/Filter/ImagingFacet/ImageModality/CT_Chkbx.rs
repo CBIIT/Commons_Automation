@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ImageModality-Ddn</name>
+   <name>CT_Chkbx</name>
    <tag></tag>
-   <elementGuidId>88232a0b-c7db-40a9-bf5a-c9886f66ccf6</elementGuidId>
+   <elementGuidId>49da4a0b-493d-4312-8ee0-285f840d7c83</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;Image Modality&quot;]/div[2]</value>
+         <value>//*[@id=&quot;checkbox_Image Modality_CT&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;Image Modality&quot;]/div[2]</value>
-      <webElementGuid>11199fa7-386a-4696-bb04-221af0d06f7f</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Image Modality_CT&quot;]</value>
+      <webElementGuid>a7017596-90c2-486c-84d2-ec3d98f781db</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

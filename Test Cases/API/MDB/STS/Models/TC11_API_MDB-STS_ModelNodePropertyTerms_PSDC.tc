@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC11_API_MDB-STS_ModelNodePropertyTerms_PSDC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>827d2834-ff0f-40d3-8091-e656ca7420ef</testCaseGuid>
+</TestCaseEntity>
