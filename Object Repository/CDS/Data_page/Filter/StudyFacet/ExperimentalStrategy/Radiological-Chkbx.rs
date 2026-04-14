@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>CDS-Study-CCDI-Chkbx</name>
+   <name>Radiological-Chkbx</name>
    <tag></tag>
-   <elementGuidId>3e768032-7f90-4850-9f59-1dead3c0ead5</elementGuidId>
+   <elementGuidId>a3ab51bd-17cc-445d-9736-cef6a1e31670</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Study Name_A whole-body FDG-PET/CT dataset with manually annotated tumor lesions&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Experimental Strategy_Radiological&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Study Name_A whole-body FDG-PET/CT dataset with manually annotated tumor lesions&quot;]</value>
-      <webElementGuid>6869a703-4f09-4f44-b813-fe9f01d7f3cd</webElementGuid>
+      <value>//*[@id=&quot;checkbox_Experimental Strategy_Radiological&quot;]</value>
+      <webElementGuid>639d0389-f7db-4b7d-99d7-2bee52ce490b</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
