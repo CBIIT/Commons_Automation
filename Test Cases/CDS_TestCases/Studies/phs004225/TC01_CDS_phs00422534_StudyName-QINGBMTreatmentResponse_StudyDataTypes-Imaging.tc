@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CDS_phs00422534_StudyName-QINGBMTreatmentResponse_StudyDataTypes-Imaging</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a4edda2e-f3b4-4c74-a492-141625994040</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CDS_phs00422518_StudyName-TCGALowGradeGliomaCollection_StudyDataTypes-Imaging</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4414cc19-558d-465c-aab8-93d0d9b15d9c</testCaseGuid>
+</TestCaseEntity>

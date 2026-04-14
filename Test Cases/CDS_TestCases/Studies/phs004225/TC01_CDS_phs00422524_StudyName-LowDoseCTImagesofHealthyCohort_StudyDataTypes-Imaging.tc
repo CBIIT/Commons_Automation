@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CDS_phs00422524_StudyName-LowDoseCTImagesofHealthyCohort_StudyDataTypes-Imaging</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>037a4dcc-ecd1-46df-81ac-7db81295a031</testCaseGuid>
+</TestCaseEntity>

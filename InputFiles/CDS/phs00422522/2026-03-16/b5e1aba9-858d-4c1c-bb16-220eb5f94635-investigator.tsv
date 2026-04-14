@@ -1,0 +1,2 @@
+type	investigator_id	email	first_name	last_name	middle_name	role_or_affiliation	role_or_affiliation_concept_code	study.study_id
+investigator	phs004225_hmelhalawani@mdanderson.org	hmelhalawani@mdanderson.org	Hesham	Elhalawani		Principal Investigator	C19924	phs004225_HNSCC

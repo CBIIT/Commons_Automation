@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CDS_phs00422510_StudyName-ComputedTomographyImagesfromLargeHeadandNeckCohort_ExperimentalStrategy-Radiological</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7e2335ff-e073-4eaf-95c2-851e2bc49a0a</testCaseGuid>
+</TestCaseEntity>

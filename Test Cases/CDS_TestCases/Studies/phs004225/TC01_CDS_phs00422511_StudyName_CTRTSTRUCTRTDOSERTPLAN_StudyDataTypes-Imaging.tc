@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CDS_phs00422511_StudyName_CTRTSTRUCTRTDOSERTPLAN_StudyDataTypes-Imaging</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f9b24c0b-4877-408b-8add-7a921f4620fc</testCaseGuid>
+</TestCaseEntity>

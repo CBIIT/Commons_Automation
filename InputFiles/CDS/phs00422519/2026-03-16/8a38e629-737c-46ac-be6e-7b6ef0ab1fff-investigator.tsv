@@ -1,0 +1,3 @@
+type	investigator_id	email	first_name	last_name	middle_name	role_or_affiliation	role_or_affiliation_concept_code	study.study_id
+investigator	phs004225_bartley-brown@uiowa.edu	bartley-brown@uiowa.edu	Bartley	Brown		Principal Investigator	C19924	phs004225_QIN-HEADNECK
+investigator	phs004225_john-buatti@uiowa.edu	john-buatti@uiowa.edu	John	Buatti		Principal Investigator	C19924	phs004225_QIN-HEADNECK

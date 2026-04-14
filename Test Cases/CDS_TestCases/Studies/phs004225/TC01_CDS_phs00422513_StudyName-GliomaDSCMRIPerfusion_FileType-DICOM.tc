@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CDS_phs00422513_StudyName-GliomaDSCMRIPerfusion_FileType-DICOM</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6c340222-7638-48d8-bd67-33e9efd131d7</testCaseGuid>
+</TestCaseEntity>

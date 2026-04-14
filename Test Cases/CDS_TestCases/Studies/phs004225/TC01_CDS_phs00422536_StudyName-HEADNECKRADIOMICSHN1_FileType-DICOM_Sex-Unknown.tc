@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CDS_phs00422536_StudyName-HEADNECKRADIOMICSHN1_FileType-DICOM_Sex-Unknown</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cd231405-7aa4-4510-b7ba-8d46c215af90</testCaseGuid>
+</TestCaseEntity>

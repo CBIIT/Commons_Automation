@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_CDS_phs0042254_StudyName-ACRIN6684_ExperimentalStrategy-Radiological</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>05f97f85-3d00-4648-a224-f3896c8dc3ac</testCaseGuid>
+</TestCaseEntity>
