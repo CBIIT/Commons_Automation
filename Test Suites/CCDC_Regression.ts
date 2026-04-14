@@ -15,6 +15,13 @@
       <guid>4ab29519-b80c-4ef8-935f-c5cd9c37a765</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
+      <iterationNameVariable>
+         <defaultValue>findTestData('CCDC/CCDC_participResources').getValue('RResourceType', 1)</defaultValue>
+         <description></description>
+         <id>8289cb25-fb84-4702-9abb-6465586d4a14</id>
+         <masked>false</masked>
+         <name>ipResourceType</name>
+      </iterationNameVariable>
       <testCaseId>Test Cases/CCDC_TestCases/Participating Resources page/TC01_CCDC_Resource_page_basic_verification</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -62,45 +69,11 @@
          <value>PointOfContact</value>
          <variableId>8bedeae0-e5d2-4a68-8d71-d0f1b54f0a1f</variableId>
       </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>8581787b-17c4-4f60-9866-4227ed754ded</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/CCDC_TestCases/Search Catalog page/TC01_CCDC_Dataset_page_basic_verification</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>fe4fa575-4967-4dc4-9e5f-2a2b2b8d33a5</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/CCDC_Datasets</testDataId>
-      </testDataLink>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>fe4fa575-4967-4dc4-9e5f-2a2b2b8d33a5</testDataLinkId>
+         <testDataLinkId>830590f9-5f44-46d9-92b2-9f6a2a3c733f</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>suffixUrl</value>
-         <variableId>1e19073c-8f9b-41fd-8e89-53000271466e</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>fe4fa575-4967-4dc4-9e5f-2a2b2b8d33a5</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>DatasetName</value>
-         <variableId>f20f499a-a644-47ea-b889-5c2b1b662c0d</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>fe4fa575-4967-4dc4-9e5f-2a2b2b8d33a5</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>DataResourceCode</value>
-         <variableId>f66100f9-9b88-4d1e-8291-0d3f78791a5e</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>fe4fa575-4967-4dc4-9e5f-2a2b2b8d33a5</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>DatasetScope</value>
-         <variableId>ff121e25-75ff-4fdc-ab30-e6875ae4e68a</variableId>
+         <value>ResourceType</value>
+         <variableId>8289cb25-fb84-4702-9abb-6465586d4a14</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

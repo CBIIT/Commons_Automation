@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;root&quot;]/div[3]/div/div[2]/div[1]</value>
+         <value>//*[@class=&quot;datasetDetailHeaderLabel&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;root&quot;]/div[3]/div/div[2]/div[1]</value>
-      <webElementGuid>467aa386-df2e-480c-a5f3-065c81239e9c</webElementGuid>
+      <value>//*[@class=&quot;datasetDetailHeaderLabel&quot;]</value>
+      <webElementGuid>b74149fe-384d-4f7e-b7ee-071607870735</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

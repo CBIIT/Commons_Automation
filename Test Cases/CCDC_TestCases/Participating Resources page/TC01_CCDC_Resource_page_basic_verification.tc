@@ -4,6 +4,7 @@
    <name>TC01_CCDC_Resource_page_basic_verification</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>b7d0ba23-166e-446e-b14f-7ea8f823643c</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>
@@ -45,6 +46,12 @@
       <variableId>278c2b61-b5ad-4c09-93f9-e4ddf7807135</variableId>
    </variableLinks>
    <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8289cb25-fb84-4702-9abb-6465586d4a14</variableId>
+   </variableLinks>
+   <variableLinks>
       <testDataLinkId>df4f31e4-dd03-4199-990f-f07b4510b897</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>FilterType</value>
@@ -84,6 +91,13 @@
       <id>278c2b61-b5ad-4c09-93f9-e4ddf7807135</id>
       <masked>false</masked>
       <name>ipDtstSummCnt</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CCDC/CCDC_participResources').getValue('RResourceType', 1)</defaultValue>
+      <description></description>
+      <id>8289cb25-fb84-4702-9abb-6465586d4a14</id>
+      <masked>false</masked>
+      <name>ipResourceType</name>
    </variable>
    <variable>
       <defaultValue>findTestData('CCDC/CCDC_participResources').getValue('FilterType', 1)</defaultValue>

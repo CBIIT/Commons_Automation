@@ -4,6 +4,7 @@
    <name>TC01_CCDC_Dataset_page_basic_verification</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>eabf68c5-37c2-4fcc-a983-581cf8734b03</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>
