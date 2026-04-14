@@ -56,8 +56,8 @@ import utilities.TestRunner as webUIHelper
 public class DataValidation {
 
 	public static WebDriver driver
-	
-	
+
+
 	@Keyword
 	public static String givexpath(String objectId) {
 		return findTestObject(objectId).findPropertyValue("xpath")
