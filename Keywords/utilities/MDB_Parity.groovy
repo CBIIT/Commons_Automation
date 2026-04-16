@@ -17,10 +17,10 @@ import java.util.Random
 class MDB_Parity {
 
 	/**
-	 * Handles that may appear in GET /models with no row where {@code is_latest_version} is true
+	 * Handles that may appear in GET /models with no row where is_latest_version is true
 	 * (known catalog/data issue). Excluded from the "every handle must have a latest row" assertion
 	 * and from GET /model/{handle}/latest-version comparison in
-	 * {@link #verifyModelLatestVersionAgainstModelsList}.
+	 * verifyModelLatestVersionAgainstModelsList.
 	 */
 	private static final Set<String> MODEL_HANDLES_EXEMPT_FROM_LATEST_ROW_CHECK =
 			['CRDCSubmission'] as Set
@@ -82,9 +82,8 @@ class MDB_Parity {
 
 	/**
 	 * Log response with truncated raw body and a small parsed sample (avoids huge logs / IDE crashes on large lists e.g. /tags).
-	 *
-	 * @param maxRawChars max characters of raw response body to print
-	 * @param maxParsedItems for List data, max leading items to pretty-print
+	 * maxRawChars: max characters of raw response body to print.
+	 * maxParsedItems: for List data, max leading items to pretty-print.
 	 */
 	static void logResponseSnippet(String label, ResponseObject response, def data,
 			int maxRawChars = 4000, int maxParsedItems = 5) {
@@ -213,8 +212,8 @@ class MDB_Parity {
 	}
 
 	/**
-	 * True if a {@code GET /tag/{key}/{value}/entities} list item should be compared as a {@code Property}
-	 * (OpenAPI discriminator {@code type}, or legacy rows with required Property fields).
+	 * True if a GET /tag/(key)/(value)/entities list item should be compared as a Property
+	 * (OpenAPI discriminator type, or legacy rows with required Property fields).
 	 */
 	private static boolean isTaggedPropertyApiRow(Map m) {
 		if (m == null) return false
@@ -227,7 +226,7 @@ class MDB_Parity {
 
 	/**
 	 * Normalize Property-shaped rows from the tag-entities API (already filtered to Property items).
-	 * Omits API discriminator {@code type} from the parity map.
+	 * Omits API discriminator type from the parity map.
 	 */
 	static List<Map> normalizeTaggedPropertyRowsFromApi(List<Map> rows) {
 		return (rows ?: []).collect { Map p ->
@@ -258,7 +257,7 @@ class MDB_Parity {
 	}
 
 	/**
-	 * Normalize rows from Cypher key {@code verifyTagKeyValueEntities} (Property entities linked via {@code has_tag}).
+	 * Normalize rows from Cypher key verifyTagKeyValueEntities (Property entities linked via has_tag).
 	 */
 	static List<Map> normalizeTaggedEntitiesFromNeo(List<Map> neoRows) {
 		return (neoRows ?: []).collect { r ->
@@ -280,7 +279,7 @@ class MDB_Parity {
 		}
 	}
 
-	/** Tag-entities API / Neo4j rows for {@code type: Node} (same tuple as {@link #normalizeModelNodeTuple}). */
+	/** Tag-entities API / Neo4j rows for type Node (same tuple as normalizeModelNodeTuple). */
 	static List<Map> normalizeTaggedNodeRowsFromApi(List<Map> rows) {
 		return (rows ?: []).collect { normalizeModelNodeTuple(it as Map) }
 	}
@@ -289,7 +288,7 @@ class MDB_Parity {
 		return (neoRows ?: []).collect { normalizeModelNodeTuple(it as Map) }
 	}
 
-	/** Tag-entities API / Neo4j rows for {@code type: Term}. */
+	/** Tag-entities API / Neo4j rows for type Term. */
 	static List<Map> normalizeTaggedTermRowsFromApi(List<Map> rows) {
 		return (rows ?: []).collect { t ->
 			[
@@ -316,7 +315,7 @@ class MDB_Parity {
 		}
 	}
 
-	/** Tag-entities API / Neo4j rows for {@code type: Concept}. */
+	/** Tag-entities API / Neo4j rows for type Concept. */
 	static List<Map> normalizeTaggedConceptRowsFromApi(List<Map> rows) {
 		return (rows ?: []).collect { c ->
 			[
@@ -337,7 +336,7 @@ class MDB_Parity {
 		}
 	}
 
-	/** Tag-entities API / Neo4j rows for {@code type: Relationship} (same fields as Node). */
+	/** Tag-entities API / Neo4j rows for type Relationship (same fields as Node). */
 	static List<Map> normalizeTaggedRelationshipRowsFromApi(List<Map> rows) {
 		return (rows ?: []).collect { normalizeModelNodeTuple(it as Map) }
 	}
@@ -380,7 +379,7 @@ class MDB_Parity {
 
 	/**
 	 * Normalize a Model map from GET /models or GET /model/{handle}/latest-version for API↔API comparison.
-	 * Omits {@code type} (serialization discriminator). Null and blank {@code repository} normalize to null.
+	 * Omits type (serialization discriminator). Null and blank repository normalize to null.
 	 */
 	static Map normalizeModelRowForLatestCompare(Map m) {
 		if (m == null) return [:]
@@ -397,7 +396,7 @@ class MDB_Parity {
 	}
 
 	/**
-	 * Normalize a Node map from GET .../nodes, GET .../node/{nodeHandle}, or Neo4j node rows for parity ({@code model}, {@code handle}, {@code version}, {@code nanoid}).
+	 * Normalize a Node map from GET .../nodes, GET .../node/{nodeHandle}, or Neo4j node rows for parity (model, handle, version, nanoid).
 	 */
 	static Map normalizeModelNodeTuple(Map node) {
 		if (node == null) return [:]
@@ -581,10 +580,10 @@ class MDB_Parity {
 	}
 
 	/**
-	 * API consistency only: each model row with {@code is_latest_version == true} must match
-	 * {@code GET /model/{handle}/latest-version} on comparable fields. DB truth for flags remains
-	 * {@link #verifyModelsParity}.
-	 * <p>Handles in {@link #MODEL_HANDLES_EXEMPT_FROM_LATEST_ROW_CHECK} skip the requirement that a
+	 * API consistency only: each model row with is_latest_version == true must match
+	 * GET /model/{handle}/latest-version on comparable fields. DB truth for flags remains
+	 * verifyModelsParity.
+	 * Handles in MODEL_HANDLES_EXEMPT_FROM_LATEST_ROW_CHECK skip the requirement that a
 	 * latest row exists (known data exceptions).
 	 */
 	static void verifyModelLatestVersionAgainstModelsList() {
@@ -660,8 +659,8 @@ class MDB_Parity {
 
 	/**
 	 * Parity check for /tags/ endpoint vs Neo4j :tag nodes (key, value, nanoid).
-	 * Cypher key {@code verifyTags} in {@code Data Files/API/MDB/CypherQueries} — if parity fails, confirm
-	 * schema in Neo4j Browser: {@code CALL db.labels()}, {@code MATCH (t:tag) RETURN t LIMIT 1}.
+	 * Cypher key verifyTags in Data Files/API/MDB/CypherQueries — if parity fails, confirm
+	 * schema in Neo4j Browser: CALL db.labels(), MATCH (t:tag) RETURN t LIMIT 1.
 	 */
 	static void verifyTagsParity() {
 		KeywordUtil.logInfo("[Tags] Verifying /tags/ parity (API vs Neo4j)")
@@ -702,10 +701,10 @@ class MDB_Parity {
 	}
 
 	/**
-	 * Parity for {@code GET /tag/{key}/values} vs Neo4j distinct {@code value}s for that key.
-	 * The API returns a JSON array of <strong>scalar</strong> values (e.g. strings) per OpenAPI — not {@code Tag} objects.
-	 * If the API returns objects with a {@code value} field instead, that is accepted; comparison uses {@code value} only
-	 * (aligned with {@code RETURN DISTINCT t.value} in Cypher key {@code verifyTagValues}).
+	 * Parity for GET /tag/(key)/values vs Neo4j distinct value field for that key.
+	 * The API returns a JSON array of scalar values (e.g. strings) per OpenAPI — not Tag objects.
+	 * If the API returns objects with a value field instead, that is accepted; comparison uses value only
+	 * (aligned with RETURN DISTINCT t.value in Cypher key verifyTagValues).
 	 * Does not exercise skip/limit (covered by the spec test framework).
 	 */
 	static void verifyTagValuesParity(String tagKey) {
@@ -764,7 +763,7 @@ class MDB_Parity {
 	}
 
 	/**
-	 * For each distinct tag {@code key} from {@code GET /tags}, run {@link #verifyTagValuesParity(String)}.
+	 * For each distinct tag key from GET /tags, run verifyTagValuesParity.
 	 */
 	static void verifyAllDistinctTagKeysValuesParity() {
 		KeywordUtil.logInfo('[TagValues-All] Starting /tag/{key}/values parity for all distinct keys from /tags')
@@ -845,8 +844,8 @@ class MDB_Parity {
 	}
 
 	/**
-	 * Resolves OpenAPI {@code type} for {@code /tag/.../entities} items; fails on unknown types.
-	 * If {@code type} is absent, only Property-shaped rows (legacy) are accepted via {@link #isTaggedPropertyApiRow}.
+	 * Resolves OpenAPI type for /tag/.../entities items; fails on unknown types.
+	 * If type is absent, only Property-shaped rows (legacy) are accepted via isTaggedPropertyApiRow.
 	 */
 	private static String canonicalTagEntityTypeForTagEntities(Map m, String ctx) {
 		String t = m?.type?.toString()?.trim()
@@ -879,11 +878,11 @@ class MDB_Parity {
 	}
 
 	/**
-	 * Parity for {@code GET /tag/{key}/{value}/entities} vs Neo4j: partitions API items by OpenAPI {@code type}
-	 * ({@code Property}, {@code Node}, {@code Term}, {@code Concept}, {@code Relationship}) and compares each bucket
-	 * to a type-specific {@code has_tag} Cypher query.
-	 * Does not exercise {@code skip}/{@code limit} (covered by the spec test framework).
-	 * <p>
+	 * Parity for GET /tag/(key)/(value)/entities vs Neo4j: partitions API items by OpenAPI type
+	 * (Property, Node, Term, Concept, Relationship) and compares each bucket
+	 * to a type-specific has_tag Cypher query.
+	 * Does not exercise skip/limit (covered by the spec test framework).
+	 *
 	 * HTTP 404 or empty API list is accepted only when every Neo4j bucket for this tag is empty.
 	 */
 	static void verifyTagKeyValueEntitiesParity(String tagKey, String tagValue) {
@@ -962,8 +961,8 @@ class MDB_Parity {
 	}
 
 	/**
-	 * From {@code GET /tags}, take distinct {@code (key, value)} pairs in lexicographic order, cap at {@code maxPairs},
-	 * and run {@link #verifyTagKeyValueEntitiesParity(String, String)} for each. Use a small cap to avoid huge runtime
+	 * From GET /tags, take distinct (key, value) pairs in lexicographic order, cap at maxPairs,
+	 * and run verifyTagKeyValueEntitiesParity for each. Use a small cap to avoid huge runtime
 	 * (tag cardinality can be very large).
 	 */
 	static void verifyFirstNDistinctTagKeyValuePairsParity(int maxPairs) {
@@ -1057,12 +1056,48 @@ class MDB_Parity {
 				)
 	}
 
+	// latestOnly: one row per handle from is_latest_version on /models, or version from GET /latest-version
+	private static List<Map> resolveModelsForLatestParity(List<Map> filteredModels, boolean latestOnly, String logPrefix) {
+		if (filteredModels == null || filteredModels.isEmpty()) {
+			return filteredModels ?: []
+		}
+		if (!latestOnly) {
+			return filteredModels
+		}
+		Set<String> distinctHandles = filteredModels.collect { it.handle?.toString()?.trim() }
+				.findAll { it != null && !it.isEmpty() }
+				.toSet()
+		List<Map> out = []
+		distinctHandles.sort().each { String h ->
+			List<Map> rowsForH = filteredModels.findAll { (it.handle?.toString()?.trim() ?: '') == h }
+			Map latestRow = rowsForH.find { it.is_latest_version == true }
+			if (latestRow != null) {
+				out.add(latestRow)
+			} else {
+				KeywordUtil.logInfo("[${logPrefix}] No is_latest_version=true for handle '${h}' in /models; resolving via GET /latest-version")
+				def rLatest = fetchAndParse('Object Repository/API/MDB/STS/Models/GetModelLatestVersion', [modelHandle: h])
+				int code = rLatest.response.getStatusCode()
+				if (code != 200) {
+					KeywordUtil.markFailedAndStop("[${logPrefix}] Cannot resolve latest for handle '${h}': /latest-version HTTP ${code}")
+				}
+				def body = rLatest.data
+				String ver = (body instanceof Map) ? body.version?.toString()?.trim() : body?.toString()?.trim()
+				if (!ver) {
+					KeywordUtil.markFailedAndStop("[${logPrefix}] Cannot resolve latest for handle '${h}': missing version in /latest-version response")
+				}
+				out.add([handle: h, version: ver] as Map)
+			}
+		}
+		KeywordUtil.logInfo("[${logPrefix}] After latestOnly resolution, model entries: ${out.size()}")
+		return out
+	}
+
 	/**
 	 * For every model/version returned by /v2/models, run nodes parity via verifyModelNodesParity(handle, version) - /nodes endpoint
 	 * Wrapper method to run for test case
 	 *
 	 * You can control behavior via:
-	 *  - latestOnly: if true, only tests entries where is_latest_version == true
+	 *  - latestOnly: if true, one (handle,version) per model; prefers is_latest_version on /models, else GET /latest-version
 	 *  - handlesFilter: if non-empty, only test models with handles in this list, otherwise tests all models
 	 */
 	static void verifyAllModelNodesParity(boolean latestOnly = true, List<String> handlesFilter = []) {
@@ -1085,11 +1120,8 @@ class MDB_Parity {
 			KeywordUtil.logInfo("[ModelNodes-All] After handlesFilter, model entries: ${models.size()}")
 		}
 
-		// 3) Optionally restrict to latest versions only
-		if (latestOnly) {
-			models = models.findAll { m -> m.is_latest_version == true }
-			KeywordUtil.logInfo("[ModelNodes-All] After latestOnly filter, model entries: ${models.size()}")
-		}
+		// 3) Optionally restrict to latest versions only (flag on /models, else /latest-version)
+		models = resolveModelsForLatestParity(models, latestOnly, "ModelNodes-All")
 
 		if (models.isEmpty()) {
 			KeywordUtil.markFailedAndStop(
@@ -1116,7 +1148,7 @@ class MDB_Parity {
 	}
 
 	/**
-	 * Parity for {@code GET /model/.../version/.../node/...} (single node) vs Neo4j — same tuple as {@link #verifyModelNodesParity}.
+	 * Parity for GET .../model/.../version/.../node/... (single node) vs Neo4j — same tuple as verifyModelNodesParity.
 	 */
 	static void verifyModelNodeParity(String modelHandle, String versionString, String nodeHandle) {
 		String ctx = "ModelSingleNode(${modelHandle}:${versionString}:${nodeHandle})"
@@ -1155,8 +1187,8 @@ class MDB_Parity {
 	}
 
 	/**
-	 * Limit N items from {@code items} for quicker runs. When {@code maxItems} <= 0, returns a copy of the full list.
-	 * When {@code useRandom} is false, sorts by {@code sortField} for stable "first N".
+	 * Limit N items from items for quicker runs. When maxItems <= 0, returns a copy of the full list.
+	 * When useRandom is false, sorts by sortField for stable "first N".
 	 */
 	private static List<Map> limitMapSample(List<Map> items, int maxItems, String sortField, boolean useRandom, Long randomSeed,
 			String logTag) {
@@ -1179,9 +1211,9 @@ class MDB_Parity {
 	}
 
 	/**
-	 * For each selected model version, list nodes via {@code /nodes}, then verify each node's single-node GET vs Neo4j.
-	 * Parameters match {@link #verifyAllModelNodesParity}: {@code latestOnly}, {@code handlesFilter}.
-	 * (No sampling caps — full node walk; use {@link #verifyAllModelSinglePropertyParity} constants for long-running smoke cuts.)
+	 * For each selected model version, list nodes via /nodes, then verify each node's single-node GET vs Neo4j.
+	 * Parameters match verifyAllModelNodesParity: latestOnly, handlesFilter.
+	 * (No sampling caps — full node walk; use verifyAllModelSinglePropertyParity constants for long-running smoke cuts.)
 	 */
 	static void verifyAllModelSingleNodeParity(boolean latestOnly = true, List<String> handlesFilter = []) {
 		KeywordUtil.logInfo("[ModelSingleNode-All] Starting single-node parity. latestOnly=${latestOnly}, handlesFilter=${handlesFilter}")
@@ -1200,10 +1232,7 @@ class MDB_Parity {
 			KeywordUtil.logInfo("[ModelSingleNode-All] After handlesFilter, model entries: ${models.size()}")
 		}
 
-		if (latestOnly) {
-			models = models.findAll { m -> m.is_latest_version == true }
-			KeywordUtil.logInfo("[ModelSingleNode-All] After latestOnly filter, model entries: ${models.size()}")
-		}
+		models = resolveModelsForLatestParity(models, latestOnly, "ModelSingleNode-All")
 
 		if (models.isEmpty()) {
 			KeywordUtil.markFailedAndStop('[ModelSingleNode-All] No model entries after filtering.')
@@ -1236,7 +1265,7 @@ class MDB_Parity {
 		KeywordUtil.logInfo('[ModelSingleNode-All] Completed.')
 	}
 
-	/** Field list aligned with {@link #verifyNodePropertiesParity} / {@link #normalizeNodePropertiesFromApi}. */
+	/** Field list aligned with verifyNodePropertiesParity / normalizeNodePropertiesFromApi. */
 	private static final List<String> NODE_PROPERTY_PARITY_KEY_FIELDS = [
 		'model',
 		'version',
@@ -1252,8 +1281,8 @@ class MDB_Parity {
 	]
 
 	/**
-	 * Field list for {@code GET /tag/{key}/{value}/entities} Property rows vs Neo4j {@code verifyTagKeyValueEntities}.
-	 * Omits API-only discriminator {@code type} from the parity map.
+	 * Field list for GET /tag/(key)/(value)/entities Property rows vs Neo4j verifyTagKeyValueEntities.
+	 * Omits API-only discriminator type from the parity map.
 	 */
 	private static final List<String> TAGGED_ENTITY_PARITY_KEY_FIELDS = [
 		'model',
@@ -1271,7 +1300,7 @@ class MDB_Parity {
 		'desc'
 	]
 
-	/** OpenAPI {@code anyOf} order for {@code GET /tag/{key}/{value}/entities} items. */
+	/** OpenAPI anyOf order for GET /tag/(key)/(value)/entities items. */
 	private static final List<String> TAG_API_ENTITY_TYPES = [
 		'Property',
 		'Node',
@@ -1310,7 +1339,7 @@ class MDB_Parity {
 	]
 
 	/**
-	 * Parity for {@code GET .../node/.../property/...} (single property) vs Neo4j — same fields as {@link #verifyNodePropertiesParity}.
+	 * Parity for GET .../node/.../property/... (single property) vs Neo4j — same fields as verifyNodePropertiesParity.
 	 * API 404 is valid when Neo4j returns no row for that property.
 	 */
 	static void verifySingleNodePropertyParity(String modelHandle, String versionString, String nodeHandle, String propHandle) {
@@ -1376,12 +1405,12 @@ class MDB_Parity {
 	}
 
 	/**
-	 * For each node with a non-empty {@code /properties} list, verify every property against
-	 * {@code GET .../property/{propHandle}} vs Neo4j. Skips nodes where {@code /properties} returns 404.
-	 * Uses the same {@code latestOnly} and {@code handlesFilter} meaning as {@link #verifyAllModelSingleNodeParity}.
-	 * <p>
-	 * Optional smoke tuning (TC14): {@code maxNodesPerVersion}, {@code maxPropertiesPerNode} (each >0 caps counts),
-	 * {@code sampleRandomNodes} / {@code sampleRandomProperties} with {@code randomSeed} for reproducible random subsets.
+	 * For each node with a non-empty /properties list, verify every property against
+	 * GET .../property/(propHandle) vs Neo4j. Skips nodes where /properties returns 404.
+	 * Uses the same latestOnly and handlesFilter meaning as verifyAllModelSingleNodeParity.
+	 *
+	 * Optional smoke tuning (TC14): maxNodesPerVersion, maxPropertiesPerNode (each >0 caps counts),
+	 * sampleRandomNodes / sampleRandomProperties with randomSeed for reproducible random subsets.
 	 */
 	static void verifyAllModelSinglePropertyParity(boolean latestOnly = true, List<String> handlesFilter = [],
 			int maxNodesPerVersion = 0, int maxPropertiesPerNode = 0,
@@ -1402,10 +1431,7 @@ class MDB_Parity {
 			KeywordUtil.logInfo("[ModelSingleProperty-All] After handlesFilter, model entries: ${models.size()}")
 		}
 
-		if (latestOnly) {
-			models = models.findAll { m -> m.is_latest_version == true }
-			KeywordUtil.logInfo("[ModelSingleProperty-All] After latestOnly filter, model entries: ${models.size()}")
-		}
+		models = resolveModelsForLatestParity(models, latestOnly, "ModelSingleProperty-All")
 
 		if (models.isEmpty()) {
 			KeywordUtil.markFailedAndStop('[ModelSingleProperty-All] No model entries after filtering.')
@@ -1852,9 +1878,6 @@ class MDB_Parity {
 	
 		List<Map> models = (List) rModels.data
 	
-		// Only latest entries (since /models returns versions too)
-		models = models.findAll { it.is_latest_version == true }
-	
 		Set<String> handles = models.collect { it.handle }
 			.findAll { it != null && it.toString().trim() != "" }
 			.toSet()
@@ -1868,6 +1891,12 @@ class MDB_Parity {
 		}
 	
 		handles.sort().each { String h ->
+			boolean hasLatestFlag = models.any { m ->
+				m.handle?.toString()?.trim() == h && m.is_latest_version == true
+			}
+			if (!hasLatestFlag) {
+				KeywordUtil.logInfo("[PropertyTerms-All] Handle '${h}' has no is_latest_version=true row in /models; proceeding using GET /latest-version (via verifyModelNodePropertyTermsParityLatest)")
+			}
 			KeywordUtil.logInfo("[PropertyTerms-All] >>> Model=${h}")
 			verifyModelNodePropertyTermsParityLatest(h)
 			KeywordUtil.logInfo("[PropertyTerms-All] <<< Model=${h} complete")
