@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>caNanoLab Data QA Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 24px; }
+        h1 { font-size: 1.35rem; }
+        h2 { font-size: 1.1rem; margin-top: 28px; margin-bottom: 10px; }
+        .meta { color: #444; margin-bottom: 20px; line-height: 1.6; }
+        table { border-collapse: collapse; width: 100%; max-width: 1100px; margin-bottom: 8px; }
+        th, td { border: 1px solid #ccc; padding: 8px 10px; text-align: center; }
+        th { background: #333; color: #fff; }
+        td.pass { background: #d4edda; font-weight: 600; }
+        td.fail { background: #f8d7da; font-weight: 600; }
+        tr.section-fail td:not(.pass):not(.fail) { background: #fff8f8; }
+        .summary { margin-top: 20px; font-size: 1.1rem; }
+        .summary.pass { color: #155724; }
+        .summary.fail { color: #721c24; }
+    </style>
+</head>
+<body>
+    <h1>caNanoLab Data — count QA report</h1>
+    <div class="meta">
+        <div><strong>Generated:</strong> 2026-04-17 16:12:14 UTC</div>
+        <div><strong>URL:</strong> https://general-stage.datacommons.cancer.gov/#/data</div>
+        <div><strong>PHS ACCESSION:</strong> 10.17917</div>
+        <div><strong>Study:</strong> caNanoLab Data</div>
+        <div><strong>Scenario 2:</strong> Cancer Nanotechnology + CPMV-S100A9 Production</div>
+        <div><strong>Scenario 3:</strong> Uncheck CPMV-S100A9 Production; Protocol Type → Endotoxin</div>
+        <div><strong>Scenario 4:</strong> Uncheck Endotoxin; DOI → 10.17917/0165-RC67; expect Participants / Samples / Files / Protocols = 0 / 0 / 1 / 1</div>
+        <div><strong>Scenario 5:</strong> Uncheck 10.17917/0165-RC67; Publication Title → 3D In Vitro Model (R)evolution: Unveiling Tumor-Stroma Interactions; expect 0 / 1 / 5 / 0 (Participants / Samples / Files / Protocols)</div>
+        <div><strong>Scenario 6:</strong> Uncheck publication title; Nanomaterial Entity → aptamer; expect 0 / 4 / 24 / 0 (Participants / Samples / Files / Protocols)</div>
+        <div><strong>Scenario 7:</strong> Uncheck aptamer; Functionalizing Entity → Antibody; expect 0 / 9 / 60 / 0 (Participants / Samples / Files / Protocols)</div>
+        <div><strong>Scenario 8:</strong> Uncheck Antibody; Characterization Type → clinical trial (&#x27;Clinical trial&#x27; in UI); expect 0 / 8 / 45 / 0 (Participants / Samples / Files / Protocols)</div>
+        <div><strong>Scenario 9:</strong> Uncheck clinical trial; Characterization Name → Anti-Tumor Efficacy In Vivo; expect 0 / 5 / 25 / 0 (Participants / Samples / Files / Protocols)</div>
+    </div>
+    <h2>Study: caNanoLab Data</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Entity</th>
+                <th>Base file</th>
+                <th>Tab count</th>
+                <th>Table total</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Samples</td>
+                <td>1672</td>
+                <td>1672</td>
+                <td>1672</td>
+                <td class="pass">PASS</td>
+            </tr>
+            <tr>
+                <td>Files</td>
+                <td>8392</td>
+                <td>8392</td>
+                <td>8392</td>
+                <td class="pass">PASS</td>
+            </tr>
+            <tr>
+                <td>Protocols</td>
+                <td>359</td>
+                <td>359</td>
+                <td>359</td>
+                <td class="pass">PASS</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>Cancer Nanotechnology + CPMV-S100A9 Production</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Entity</th>
+                <th>Base file</th>
+                <th>Tab count</th>
+                <th>Table total</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Participants</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="pass">PASS</td>
+            </tr>
+            <tr>
+                <td>Samples</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+                <td class="pass">PASS</td>
+            </tr>
+            <tr>
+                <td>Files</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+                <td class="pass">PASS</td>
+            </tr>
+            <tr>
+                <td>Protocols</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+                <td class="pass">PASS</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>Cancer Nanotechnology + Endotoxin (after unchecking CPMV)</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Entity</th>
+                <th>Base file</th>
+                <th>Tab count</th>
+                <th>Table total</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Participants</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="pass">PASS</td>
+            </tr>
+            <tr>
+                <td>Samples</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="pass">PASS</td>
+            </tr>
+            <tr>
+                <td>Files</td>
+                <td>10</td>
+                <td>10</td>
+                <td>10</td>
+                <td class="pass">PASS</td>
+            </tr>
+            <tr>
+                <td>Protocols</td>
+                <td>20</td>
+                <td>20</td>
+                <td>20</td>
+                <td class="pass">PASS</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>Cancer Nanotechnology + DOI → 10.17917/0165-RC67 (after uncheck Endotoxin)</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Entity</th>
+                <th>Base file</th>
+                <th>Tab count</th>
+                <th>Table total</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Participants</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="pass">PASS</td>
+            </tr>
+            <tr>
+                <td>Samples</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="pass">PASS</td>
+            </tr>
+            <tr>
+                <td>Files</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+                <td class="pass">PASS</td>
+            </tr>
+            <tr>
+                <td>Protocols</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+                <td class="pass">PASS</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>Cancer Nanotechnology + Publication Title (after uncheck 10.17917/0165-RC67)</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Entity</th>
+                <th>Base file</th>
+                <th>Tab count</th>
+                <th>Table total</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Participants</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="pass">PASS</td>
+            </tr>
+            <tr>
+                <td>Samples</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+                <td class="pass">PASS</td>
+            </tr>
+            <tr>
+                <td>Files</td>
+                <td>5</td>
+                <td>5</td>
+                <td>5</td>
+                <td class="pass">PASS</td>
+            </tr>
+            <tr>
+                <td>Protocols</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="pass">PASS</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>Cancer Nanotechnology + Nanomaterial Entity → aptamer (after uncheck publication title)</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Entity</th>
+                <th>Base file</th>
+                <th>Tab count</th>
+                <th>Table total</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Participants</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="pass">PASS</td>
+            </tr>
+            <tr>
+                <td>Samples</td>
+                <td>4</td>
+                <td>4</td>
+                <td>4</td>
+                <td class="pass">PASS</td>
+            </tr>
+            <tr>
+                <td>Files</td>
+                <td>24</td>
+                <td>24</td>
+                <td>24</td>
+                <td class="pass">PASS</td>
+            </tr>
+            <tr>
+                <td>Protocols</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="pass">PASS</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>Cancer Nanotechnology + Functionalizing Entity → Antibody (after uncheck aptamer)</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Entity</th>
+                <th>Base file</th>
+                <th>Tab count</th>
+                <th>Table total</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Participants</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="pass">PASS</td>
+            </tr>
+            <tr>
+                <td>Samples</td>
+                <td>9</td>
+                <td>9</td>
+                <td>9</td>
+                <td class="pass">PASS</td>
+            </tr>
+            <tr>
+                <td>Files</td>
+                <td>60</td>
+                <td>60</td>
+                <td>60</td>
+                <td class="pass">PASS</td>
+            </tr>
+            <tr>
+                <td>Protocols</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="pass">PASS</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>Cancer Nanotechnology + Characterization Type → Clinical trial (after uncheck Antibody)</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Entity</th>
+                <th>Base file</th>
+                <th>Tab count</th>
+                <th>Table total</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Participants</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="pass">PASS</td>
+            </tr>
+            <tr>
+                <td>Samples</td>
+                <td>8</td>
+                <td>8</td>
+                <td>8</td>
+                <td class="pass">PASS</td>
+            </tr>
+            <tr>
+                <td>Files</td>
+                <td>45</td>
+                <td>45</td>
+                <td>45</td>
+                <td class="pass">PASS</td>
+            </tr>
+            <tr>
+                <td>Protocols</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="pass">PASS</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>Cancer Nanotechnology + Characterization Name → Anti-Tumor Efficacy In Vivo (after uncheck clinical trial)</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Entity</th>
+                <th>Base file</th>
+                <th>Tab count</th>
+                <th>Table total</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Participants</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="pass">PASS</td>
+            </tr>
+            <tr>
+                <td>Samples</td>
+                <td>5</td>
+                <td>5</td>
+                <td>5</td>
+                <td class="pass">PASS</td>
+            </tr>
+            <tr>
+                <td>Files</td>
+                <td>25</td>
+                <td>25</td>
+                <td>25</td>
+                <td class="pass">PASS</td>
+            </tr>
+            <tr>
+                <td>Protocols</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="pass">PASS</td>
+            </tr>
+        </tbody>
+    </table>
+    <p class="summary pass"><strong>Overall: PASS</strong></p>
+</body>
+</html>

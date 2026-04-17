@@ -65,7 +65,8 @@ Profile CDS_QA : This is the path where the browserdriver is stored - for Chrome
 Profile CDS_QA2 : This is the path where the browserdriver is stored - for Chromedriver, Geckodrive, IEdriver etc
 Profile CDS_STAGE : This is the path where the browserdriver is stored - for Chromedriver, Geckodrive, IEdriver etc
 Profile CRDC_QA : This is the path where the browserdriver is stored - for Chromedriver, Geckodrive, IEdriver etc
-Profile CRDC_STAGE : This is the path where the browserdriver is stored - for Chromedriver, Geckodrive, IEdriver etc
+Profile CRDC_QA2 : This is the path where the browserdriver is stored - for Chromedriver, Geckodrive, IEdriver etc
+Profile CRDC_Stage : This is the path where the browserdriver is stored - for Chromedriver, Geckodrive, IEdriver etc
 Profile CTDC_QA : This is the path where the browserdriver is stored - for Chromedriver, Geckodrive, IEdriver etc
 Profile CTDC_STAGE : This is the path where the browserdriver is stored - for Chromedriver, Geckodrive, IEdriver etc
 Profile ICDC_DEV : This is the path where the browserdriver is stored - for Chromedriver, Geckodrive, IEdriver etc
@@ -80,7 +81,8 @@ Profile INS_STAGE : This is the path where the browserdriver is stored - for Chr
      
     /**
      * <p>Profile CRDC_QA : Browser
-Profile CRDC_STAGE : Browser</p>
+Profile CRDC_QA2 : Browser
+Profile CRDC_Stage : Browser</p>
      */
     public static Object G_Browser
      
@@ -104,7 +106,8 @@ Profile CDS_QA : This can be modified to any environment - qa&#47;dev&#47;stagin
 Profile CDS_QA2 : This can be modified to any environment - qa&#47;dev&#47;staging
 Profile CDS_STAGE : This can be modified to any environment - qa&#47;dev&#47;staging
 Profile CRDC_QA : This can be modified to any environment - qa&#47;dev&#47;staging
-Profile CRDC_STAGE : This can be modified to any environment - qa&#47;dev&#47;staging
+Profile CRDC_QA2 : This can be modified to any environment - qa&#47;dev&#47;staging
+Profile CRDC_Stage : This can be modified to any environment - qa&#47;dev&#47;staging
 Profile CTDC_QA : This can be modified to any environment - qa&#47;dev&#47;staging
 Profile CTDC_STAGE : This can be modified to any environment - qa&#47;dev&#47;staging
 Profile ICDC_DEV : This can be modified to any environment - qa&#47;dev&#47;staging
@@ -1410,26 +1413,6 @@ Profile BENTO_PROD : contains the renamed manifest file's full path + name with 
     /**
      * <p></p>
      */
-    public static Object G_WebTabnameGeneticAnalysis
-     
-    /**
-     * <p></p>
-     */
-    public static Object G_QueryGeneticAnalysisTab
-     
-    /**
-     * <p></p>
-     */
-    public static Object G_QueryTrtmntRespTab
-     
-    /**
-     * <p></p>
-     */
-    public static Object G_QueryTreatmentTab
-     
-    /**
-     * <p></p>
-     */
     public static Object G_ProjPath
      
     /**
@@ -1439,19 +1422,22 @@ Profile BENTO_PROD : contains the renamed manifest file's full path + name with 
      
     /**
      * <p>Profile CRDC_QA : User email to login to CRDC application
-Profile CRDC_STAGE : User email to login to CRDC application</p>
+Profile CRDC_QA2 : User email to login to CRDC application
+Profile CRDC_Stage : User email to login to CRDC application</p>
      */
     public static Object userEmail
      
     /**
      * <p>Profile CRDC_QA : User password to login to CRDC application
-Profile CRDC_STAGE : User password to login to CRDC application</p>
+Profile CRDC_QA2 : User password to login to CRDC application
+Profile CRDC_Stage : User password to login to CRDC application</p>
      */
     public static Object userPassword
      
     /**
      * <p>Profile CRDC_QA : This holds CRDC UI element value and used accross CRDC functions
-Profile CRDC_STAGE : This holds CRDC UI element value and used accross CRDC functions</p>
+Profile CRDC_QA2 : This holds CRDC UI element value and used accross CRDC functions
+Profile CRDC_Stage : This holds CRDC UI element value and used accross CRDC functions</p>
      */
     public static Object CrdcUiElement
      
@@ -1524,6 +1510,61 @@ Profile CRDC_STAGE : This holds CRDC UI element value and used accross CRDC func
      * <p></p>
      */
     public static Object SubmitterSecret
+     
+    /**
+     * <p></p>
+     */
+    public static Object UserEmail
+     
+    /**
+     * <p></p>
+     */
+    public static Object UserPassword
+     
+    /**
+     * <p></p>
+     */
+    public static Object UserSecret
+     
+    /**
+     * <p></p>
+     */
+    public static Object MasterEmail
+     
+    /**
+     * <p></p>
+     */
+    public static Object MasterPassword
+     
+    /**
+     * <p></p>
+     */
+    public static Object MasterSecret
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_MongoUri
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_MongoDatabase
+     
+    /**
+     * <p></p>
+     */
+    public static Object G_MongoCollection
+     
+    /**
+     * <p></p>
+     */
+    public static Object ApiUrl
+     
+    /**
+     * <p></p>
+     */
+    public static Object SubmitterApiToken
      
     /**
      * <p></p>
@@ -1760,10 +1801,6 @@ Profile CRDC_STAGE : This holds CRDC UI element value and used accross CRDC func
             G_CypherTabnameSurvival = selectedVariables['G_CypherTabnameSurvival']
             G_QuerySurvivalTab = selectedVariables['G_QuerySurvivalTab']
             G_WebTabnameTrtmntResp = selectedVariables['G_WebTabnameTrtmntResp']
-            G_WebTabnameGeneticAnalysis = selectedVariables['G_WebTabnameGeneticAnalysis']
-            G_QueryGeneticAnalysisTab = selectedVariables['G_QueryGeneticAnalysisTab']
-            G_QueryTrtmntRespTab = selectedVariables['G_QueryTrtmntRespTab']
-            G_QueryTreatmentTab = selectedVariables['G_QueryTreatmentTab']
             G_ProjPath = selectedVariables['G_ProjPath']
             G_StatBar_DisSite = selectedVariables['G_StatBar_DisSite']
             userEmail = selectedVariables['userEmail']
@@ -1783,6 +1820,17 @@ Profile CRDC_STAGE : This holds CRDC UI element value and used accross CRDC func
             SubmitterEmail = selectedVariables['SubmitterEmail']
             SubmitterPassword = selectedVariables['SubmitterPassword']
             SubmitterSecret = selectedVariables['SubmitterSecret']
+            UserEmail = selectedVariables['UserEmail']
+            UserPassword = selectedVariables['UserPassword']
+            UserSecret = selectedVariables['UserSecret']
+            MasterEmail = selectedVariables['MasterEmail']
+            MasterPassword = selectedVariables['MasterPassword']
+            MasterSecret = selectedVariables['MasterSecret']
+            G_MongoUri = selectedVariables['G_MongoUri']
+            G_MongoDatabase = selectedVariables['G_MongoDatabase']
+            G_MongoCollection = selectedVariables['G_MongoCollection']
+            ApiUrl = selectedVariables['ApiUrl']
+            SubmitterApiToken = selectedVariables['SubmitterApiToken']
             G_WebTabnameBiospecimens = selectedVariables['G_WebTabnameBiospecimens']
             G_WebTabnameProjects = selectedVariables['G_WebTabnameProjects']
             G_CypherTabnameProjects = selectedVariables['G_CypherTabnameProjects']
