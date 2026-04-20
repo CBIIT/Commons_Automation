@@ -1786,6 +1786,35 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 
 
 	/**
+	 * Scroll down inside the Study Name facet list (virtualized rows) so the study checkbox can mount in the DOM.
+	 */
+	@Keyword
+	public static void ScrollToStudyName() {
+		JavascriptExecutor js = (JavascriptExecutor) DriverFactory.getWebDriver()
+		js.executeScript(
+				'var header = document.getElementById("Study Name");' +
+				'if (!header) return;' +
+				'var headerRect = header.getBoundingClientRect();' +
+				'var best = null, bestOverflow = 0;' +
+				'var all = document.querySelectorAll("*");' +
+				'for (var i = 0; i < all.length; i++) {' +
+				'  var n = all[i];' +
+				'  var cs = window.getComputedStyle(n);' +
+				'  if ((cs.overflowY !== "auto" && cs.overflowY !== "scroll") || n.scrollHeight <= n.clientHeight + 1) continue;' +
+				'  var r = n.getBoundingClientRect();' +
+				'  if (r.top < headerRect.bottom - 8 || r.left > 420 || r.width < 100 || r.height < 50) continue;' +
+				'  var o = n.scrollHeight - n.clientHeight;' +
+				'  if (o > bestOverflow) { bestOverflow = o; best = n; }' +
+				'}' +
+				'if (!best) return;' +
+				'var step = Math.max(80, Math.floor(best.clientHeight * 0.9));' +
+				'for (var j = 0; j < 5; j++) { best.scrollTop = Math.min(best.scrollTop + step, best.scrollHeight); }'
+				)
+		Thread.sleep(500)
+	}
+
+
+	/**
 	 * This method scrolls to a particular element
 	 * @param elem
 	 */

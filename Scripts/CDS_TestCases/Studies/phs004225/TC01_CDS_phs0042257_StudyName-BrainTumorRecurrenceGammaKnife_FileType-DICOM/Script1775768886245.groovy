@@ -39,7 +39,7 @@ WebUI.waitForElementPresent(findTestObject('CDS/Data_page/Filter/StudyFacet/Stud
 CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/Data_page/Filter/StudyFacet/StudyName/StudyName_Ddn')
 
 //Clicking Study Name checkbox
-CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/Data_page/Filter/StudyFacet/StudyName/CDS-Study-Brain Tumor Recurrence Prediction after Gamma Knife Radiotherapy from MRI and Related DICOM-RT-Chkbx')
+CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/Data_page/Filter/StudyFacet/StudyName/CDS-Study-BrainTumorRecurrenceGammaKnife-Chkbx')
 
 //Clicking FileType dropdown
 WebUI.waitForElementPresent(findTestObject('CDS/Data_page/Filter/FilesFacet/FileType/FileType_Ddn'),5)

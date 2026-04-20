@@ -1,11 +1,9 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
-import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 import internal.GlobalVariable as GlobalVariable
 
-import org.openqa.selenium.JavascriptExecutor
 
 /*This test script:
  - Opens the browser of choice: Chrome, Firefox or Edge
@@ -41,30 +39,10 @@ WebUI.waitForElementPresent(findTestObject('CDS/Data_page/Filter/StudyFacet/Stud
 CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/Data_page/Filter/StudyFacet/StudyName/StudyName_Ddn')
 
 // Scroll down inside the Study Name facet list (virtualized rows) so the study checkbox can mount in the DOM
-JavascriptExecutor js = (JavascriptExecutor) DriverFactory.getWebDriver()
-js.executeScript(
-		'var header = document.getElementById("Study Name");' +
-		'if (!header) return;' +
-		'var headerRect = header.getBoundingClientRect();' +
-		'var best = null, bestOverflow = 0;' +
-		'var all = document.querySelectorAll("*");' +
-		'for (var i = 0; i < all.length; i++) {' +
-		'  var n = all[i];' +
-		'  var cs = window.getComputedStyle(n);' +
-		'  if ((cs.overflowY !== "auto" && cs.overflowY !== "scroll") || n.scrollHeight <= n.clientHeight + 1) continue;' +
-		'  var r = n.getBoundingClientRect();' +
-		'  if (r.top < headerRect.bottom - 8 || r.left > 420 || r.width < 100 || r.height < 50) continue;' +
-		'  var o = n.scrollHeight - n.clientHeight;' +
-		'  if (o > bestOverflow) { bestOverflow = o; best = n; }' +
-		'}' +
-		'if (!best) return;' +
-		'var step = Math.max(80, Math.floor(best.clientHeight * 0.9));' +
-		'for (var j = 0; j < 5; j++) { best.scrollTop = Math.min(best.scrollTop + step, best.scrollHeight); }'
-		)
-Thread.sleep(500)
+CustomKeywords.'utilities.TestRunner.ScrollToStudyName'()
 
 //Clicking Study Name checkbox
-CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/Data_page/Filter/StudyFacet/StudyName/CDS-Study-Head-Neck Cetuximab-Chkbx')
+CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/Data_page/Filter/StudyFacet/StudyName/CDS-Study-HeadNeckCetuximab-Chkbx')
 
 //Clicking FileType dropdown
 WebUI.waitForElementPresent(findTestObject('CDS/Data_page/Filter/FilesFacet/FileType/FileType_Ddn'),5)
