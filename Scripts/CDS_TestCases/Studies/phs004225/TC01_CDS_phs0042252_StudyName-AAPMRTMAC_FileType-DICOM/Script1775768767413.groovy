@@ -39,7 +39,7 @@ WebUI.waitForElementPresent(findTestObject('CDS/Data_page/Filter/StudyFacet/Stud
 CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/Data_page/Filter/StudyFacet/StudyName/StudyName_Ddn')
 
 //Clicking Study Name checkbox
-CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/Data_page/Filter/StudyFacet/StudyName/CDS-Study-AAPM RT-MAC Grand Challenge 2019-Chkbx')
+CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/Data_page/Filter/StudyFacet/StudyName/CDS-Study-AAPMRTMAC-Chkbx')
 
 //Clicking FileType dropdown
 WebUI.waitForElementPresent(findTestObject('CDS/Data_page/Filter/FilesFacet/FileType/FileType_Ddn'),5)

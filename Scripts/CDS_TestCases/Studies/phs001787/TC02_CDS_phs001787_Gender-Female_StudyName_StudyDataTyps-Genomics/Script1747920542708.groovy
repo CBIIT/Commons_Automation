@@ -37,8 +37,6 @@ CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/Data_page/Filter/Stud
 //Clicking Study Name dropdown
 WebUI.waitForElementPresent(findTestObject('CDS/Data_page/Filter/StudyFacet/StudyName/StudyName_Ddn'),5)
 CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/Data_page/Filter/StudyFacet/StudyName/StudyName_Ddn')
-
-WebUI.waitForElementPresent(findTestObject('CDS/Data_page/Filter/StudyFacet/StudyName/CDS-Study-DiscOfColrCancrSuscpGensInHghRskFam-Chkbx'),5)
 CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/Data_page/Filter/StudyFacet/StudyName/CDS-Study-DiscOfColrCancrSuscpGensInHghRskFam-Chkbx')
 
 //Clicking Study Data Types dropdown
