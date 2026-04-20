@@ -47,7 +47,7 @@ if sys.platform == "win32" and hasattr(sys.stdout, "reconfigure"):
 # -----------------------------------
 # CONFIG
 # -----------------------------------
-_DEFAULT_DATA_COMMONS_URL = "https://general-qa2.datacommons.cancer.gov/#/data"
+_DEFAULT_DATA_COMMONS_URL = "https://general-stage.datacommons.cancer.gov/#/data"
 
 REPORT_PATH = "GC_CCDI_updates_Report.html"
 
@@ -585,7 +585,7 @@ def run() -> None:
     results: list[dict] = []
 
     with sync_playwright() as p:
-        browser = p.chromium.launch(channel="chrome", headless=False)
+        browser = p.chromium.launch(channel="chrome", headless=True)
         page = browser.new_page()
         try:
             page.goto(url, timeout=120_000, wait_until="domcontentloaded")
