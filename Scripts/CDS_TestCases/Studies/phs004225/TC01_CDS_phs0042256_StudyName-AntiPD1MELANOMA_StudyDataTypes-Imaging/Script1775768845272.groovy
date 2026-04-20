@@ -39,7 +39,7 @@ WebUI.waitForElementPresent(findTestObject('CDS/Data_page/Filter/StudyFacet/Stud
 CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/Data_page/Filter/StudyFacet/StudyName/StudyName_Ddn')
 
 //Clicking Study Name checkbox
-CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/Data_page/Filter/StudyFacet/StudyName/CDS-Study-Anti-PD-1 Immunotherapy Melanoma-Chkbx')
+CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/Data_page/Filter/StudyFacet/StudyName/CDS-Study-AntiPD1MELANOMA-Chkbx')
 
 //Clicking Study Data Types dropdown
 WebUI.waitForElementPresent(findTestObject('CDS/Data_page/Filter/StudyFacet/StudyDataTypes/StudyDataTypes_Ddn'),5)

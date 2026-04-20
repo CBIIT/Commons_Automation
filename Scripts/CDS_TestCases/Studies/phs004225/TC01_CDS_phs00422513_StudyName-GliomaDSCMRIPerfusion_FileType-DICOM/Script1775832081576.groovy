@@ -39,7 +39,7 @@ WebUI.waitForElementPresent(findTestObject('CDS/Data_page/Filter/StudyFacet/Stud
 CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/Data_page/Filter/StudyFacet/StudyName/StudyName_Ddn')
 
 //Clicking Study Name checkbox
-CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/Data_page/Filter/StudyFacet/StudyName/CDS-Study-Glioma DSC-MRI Perfusion Data with Standard Imaging and ROIs-Chkbx')
+CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('CDS/Data_page/Filter/StudyFacet/StudyName/CDS-Study-GliomaDSCMRIPerfusion-Chkbx')
 
 //Clicking File Type dropdown
 WebUI.waitForElementPresent(findTestObject('CDS/Data_page/Filter/FilesFacet/FileType/FileType_Ddn'),5)
