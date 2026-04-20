@@ -25,3 +25,4 @@ CustomKeywords.'utilities.PythonReader.readFileQuickRun'('GC_phs004225.py','')
 
 CustomKeywords.'utilities.PythonReader.readFileQuickRun'('GC_kidsfirst_Pgm.py','')
 CustomKeywords.'utilities.PythonReader.readFileQuickRun'('caNanoLabData_10.17917.py','')
+CustomKeywords.'utilities.PythonReader.readFileQuickRun'('GC_CCDI_updates.py','')
