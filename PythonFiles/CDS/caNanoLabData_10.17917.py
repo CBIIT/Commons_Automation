@@ -12,6 +12,8 @@ Set **CANANOLAB_DATA_COMMONS_URL** to override the portal URL (default: general-
 Study Name uses a popover checklist; CN subfacets use in-sidebar accordions. HTML report: nine sections.
 """
 
+from __future__ import annotations
+
 from playwright.sync_api import (
     Locator,
     sync_playwright,
@@ -29,7 +31,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from cds_playwright_launch import chromium_launch_kwargs
+from cds_playwright_launch import chromium_launch_kwargs, launch_chromium
 
 if sys.platform == "win32" and hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -2127,7 +2129,7 @@ def run() -> None:
     with sync_playwright() as p:
         _launch = chromium_launch_kwargs()
         print(f"⚙️  Playwright launch → {_launch}")
-        browser = p.chromium.launch(**_launch)
+        browser = launch_chromium(p.chromium, **_launch)
         page = browser.new_page()
         try:
             page.goto(url, timeout=120_000)

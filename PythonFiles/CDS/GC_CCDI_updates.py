@@ -40,7 +40,7 @@ from playwright.sync_api import (
     TimeoutError as PlaywrightTimeoutError,
 )
 
-from cds_playwright_launch import chromium_launch_kwargs
+from cds_playwright_launch import chromium_launch_kwargs, launch_chromium
 
 if sys.platform == "win32" and hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -589,7 +589,7 @@ def run() -> None:
     with sync_playwright() as p:
         _launch = chromium_launch_kwargs()
         print(f"⚙️  Playwright launch → {_launch}")
-        browser = p.chromium.launch(**_launch)
+        browser = launch_chromium(p.chromium, **_launch)
         page = browser.new_page()
         try:
             page.goto(url, timeout=120_000, wait_until="domcontentloaded")

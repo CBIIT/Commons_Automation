@@ -7,7 +7,11 @@ import time
 
 import pandas as pd
 
-from cds_playwright_launch import chromium_launch_kwargs, is_jenkins_environment
+from cds_playwright_launch import (
+    chromium_launch_kwargs,
+    is_jenkins_environment,
+    launch_chromium,
+)
 
 if sys.platform == "win32" and hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -217,7 +221,7 @@ with sync_playwright() as p:
 
     _launch = chromium_launch_kwargs()
     print(f"⚙️  Playwright launch → {_launch}")
-    browser = p.chromium.launch(**_launch)
+    browser = launch_chromium(p.chromium, **_launch)
     page = browser.new_page()
 
     try:

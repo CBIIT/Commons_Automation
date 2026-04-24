@@ -8,11 +8,16 @@ Shared Playwright **chromium.launch** options for CDS scripts.
 
 Set ``PLAYWRIGHT_CHANNEL_CHROME=1`` on an agent that only has Chrome installed (no
 ``playwright install chromium``).
+
+On first launch, if bundled Chromium is missing, ``launch_chromium`` runs
+``python -m playwright install chromium`` once and retries (needs outbound network on
+the agent unless browsers are pre-cached).
 """
 
 from __future__ import annotations
 
 import os
+import subprocess
 import sys
 from typing import Any
 
@@ -69,3 +74,46 @@ def chromium_launch_kwargs() -> dict[str, Any]:
         kw["args"] = existing
 
     return kw
+
+
+def _browser_missing_message(exc: BaseException) -> bool:
+    m = str(exc).lower()
+    return any(
+        s in m
+        for s in (
+            "executable doesn't exist",
+            "browser has not been found",
+            "playwright install",
+            "could not find chrome",
+        )
+    )
+
+
+def launch_chromium(chromium_browser_type: Any, **kwargs: Any) -> Any:
+    """
+    Call ``chromium_browser_type.launch(**kwargs)`` (pass ``p.chromium`` from sync_playwright).
+
+    If bundled Chromium is missing (typical fresh CI image), runs
+    ``python -m playwright install chromium`` once and retries.
+    """
+    try:
+        return chromium_browser_type.launch(**kwargs)
+    except Exception as e:
+        if not _browser_missing_message(e):
+            raise
+        print(
+            "⚙️  Playwright Chromium missing for this interpreter; "
+            "running: python -m playwright install chromium",
+            flush=True,
+        )
+        proc = subprocess.run(
+            [sys.executable, "-m", "playwright", "install", "chromium"],
+            check=False,
+        )
+        if proc.returncode != 0:
+            raise RuntimeError(
+                f"playwright install chromium exited with {proc.returncode}. "
+                "Pre-install browsers in the Jenkins image or pipeline, or set "
+                "PLAYWRIGHT_CHANNEL_CHROME=1 if only Google Chrome is available."
+            ) from e
+        return chromium_browser_type.launch(**kwargs)
