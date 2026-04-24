@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC16_API_Federation_SamplesCountByDiagnosisCategory</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>90defd92-d3ad-4eaa-847f-107ae7e63890</testCaseGuid>
-</TestCaseEntity>

@@ -15,7 +15,7 @@
       <guid>dd344345-b07a-455b-867a-f558acd5f9a4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/API/Federation/Enum_Verification/File/TC01_EnumVerification_AL-FileCountsByType</testCaseId>
+      <testCaseId>Test Cases/API/Federation/Enum_Verification/File/TC01_EnumVerification_AL-FileByType</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
