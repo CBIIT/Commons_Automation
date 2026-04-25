@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC09_EnumVerification_AL-SampleByAnatomicalSites</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fa54186b-4292-47ce-b0e2-c2a0c142257b</testCaseGuid>
+</TestCaseEntity>

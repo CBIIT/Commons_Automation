@@ -80,19 +80,68 @@ public class APIValidationFunctions {
 //	}
 	
 	/**
+	 * True if at least one federation source has a non-empty JSON values array.
+	 * Uses get('values') so the key is not confused with Map.values().
+	 */
+	private static boolean hasAtLeastOneNonEmptyValues(List<Map> responseData) {
+		if (responseData == null || responseData.isEmpty()) {
+			return false
+		}
+		return responseData.any { Map s ->
+			def v = s?.get('values')
+			(v instanceof Collection) && !((Collection) v).isEmpty()
+		}
+	}
+
+	/**
+	 * If no source returned value buckets to validate, log per-source status, mark the test failed, and return true (caller should return).
+	 */
+	private static boolean abortIfNoEnumValuesToValidate(List<Map> responseData) {
+		if (hasAtLeastOneNonEmptyValues(responseData)) {
+			return false
+		}
+		KeywordUtil.markWarning("No source returned a non-empty 'values' list; per-source status:")
+		if (responseData != null) {
+			responseData.each { Map s ->
+				String name = s?.get('source')?.toString() ?: '?'
+				def v = s?.get('values')
+				def err = s?.get('errors')
+				String status
+				if (v instanceof Collection && !((Collection) v).isEmpty()) {
+					status = "has values"
+				} else if (err) {
+					status = "errors only"
+				} else {
+					status = (v == null) ? "no 'values' key" : "empty 'values'"
+				}
+				KeywordUtil.logInfo("  - ${name}: ${status}")
+			}
+		}
+		KeywordUtil.markFailed("No source returned a non-empty 'values' list; cannot validate allowed enums (all sources returned errors or empty values).")
+		return true
+	}
+
+	/**
 	 * Validates that the response data contains only the allowed values.
 	 *
 	 * @param responseData  The response data to validate (a List of Maps or JSON).
 	 * @param allowedValues The allowed enum values (a List of Strings).
 	 */
 	static void validateAllowedEnums(List<Map> responseData, List<String> allowedValues) {
+    if (abortIfNoEnumValuesToValidate(responseData)) {
+        return
+    }
+
     boolean hasErrors = false
 
     responseData.each { sourceData ->
         String sourceName = sourceData.source
-        List<Map> valuesList = sourceData.values
+        def valuesList = sourceData.get('values')
+        if (valuesList == null || !(valuesList instanceof Collection) || ((Collection) valuesList).isEmpty()) {
+            return
+        }
 
-        valuesList.each { valueData ->
+        ((Collection) valuesList).each { valueData ->
             String rawValue = valueData.value
             List<String> valuesToCheck = rawValue.split(',').collect { it.trim() }
 
@@ -127,13 +176,20 @@ public class APIValidationFunctions {
 	
 	// Overload with Set<String> (semicolon-separated values for Sample anatomical_sites)
 	static void validateAllowedEnums(List<Map> responseData, Set<String> allowedValuesSet) {
+	    if (abortIfNoEnumValuesToValidate(responseData)) {
+	        return
+	    }
+
 	    boolean hasErrors = false
 	
 	    responseData.each { sourceData ->
 	        String sourceName = sourceData.source
-	        List<Map> valuesList = sourceData.values
+	        def valuesList = sourceData.get('values')
+	        if (valuesList == null || !(valuesList instanceof Collection) || ((Collection) valuesList).isEmpty()) {
+	            return
+	        }
 	
-	        valuesList.each { valueData ->
+	        ((Collection) valuesList).each { valueData ->
 	            String rawValue = valueData.value
 	            List<String> valuesToCheck = rawValue.split(';').collect { it.trim() }
 	
