@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC11_EnumVerification_AL-SampleByDiagnosisCategory</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>835f502d-e514-4af3-b38a-efd65b6318cc</testCaseGuid>
+</TestCaseEntity>
