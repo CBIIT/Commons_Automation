@@ -315,7 +315,7 @@ def locate_filter_checkbox(scope: Locator, label_text: str) -> Locator | None:
 
 def _ensure_filter_checkbox_unchecked(page, scope: Locator, cb: Locator, label: str) -> None:
     """Counterpart to _ensure_filter_checkbox_checked for MUI hidden inputs."""
-    cb.scroll_into_view_if_needed()
+    _scroll_into_view_resilient(cb)
     time.sleep(0.12)
     try:
         if not cb.is_checked():
@@ -363,7 +363,7 @@ def _ensure_filter_checkbox_checked(page, scope: Locator, cb: Locator, label: st
     MUI often uses aria-hidden native inputs; Playwright check() may not flip visible state.
     Fall back to label / FormControlLabel / list row / typography click.
     """
-    cb.scroll_into_view_if_needed()
+    _scroll_into_view_resilient(cb)
     time.sleep(0.12)
     try:
         if cb.is_checked():
@@ -438,7 +438,7 @@ def toggle_facet_checkbox_by_input_id(
     try:
         if inp.count() == 0:
             return False
-        inp.first.scroll_into_view_if_needed()
+        _scroll_into_view_resilient(inp.first)
         time.sleep(0.15)
         try:
             if inp.first.is_checked() == want_checked:
@@ -583,7 +583,7 @@ def _collapse_accordion_summary_if_expanded(summ: Locator) -> bool:
     try:
         if summ.get_attribute("aria-expanded") != "true":
             return False
-        summ.scroll_into_view_if_needed()
+        _scroll_into_view_resilient(summ)
         time.sleep(0.12)
         summ.click(force=True)
         time.sleep(0.4)
@@ -877,7 +877,7 @@ def expand_sidebar_facet_header(
     Set allow_nanomaterial_entity=True only when intentionally opening that facet.
     """
     header.wait_for(state="visible", timeout=15000)
-    header.scroll_into_view_if_needed()
+    _scroll_into_view_resilient(header)
     if not allow_nanomaterial_entity and _facet_header_targets_nanomaterial_entity(
         header
     ):
@@ -1044,6 +1044,26 @@ def resolve_filter_list_scope_prefer_accordion(page, facet_header: Locator) -> L
     return resolve_filter_list_scope(page, facet_header)
 
 
+def _scroll_into_view_resilient(locator: Locator) -> bool:
+    """
+    Scroll into view without Playwright's strict 'element stable' wait used by
+    scroll_into_view_if_needed — that wait often fails on MUI filter rows that
+    re-render while the sidebar scrolls (headless/Jenkins).
+    """
+    try:
+        locator.evaluate(
+            """el => { el.scrollIntoView({ block: 'nearest', inline: 'nearest' }); }"""
+        )
+        return True
+    except PlaywrightError:
+        pass
+    try:
+        locator.scroll_into_view_if_needed(timeout=5_000)
+        return True
+    except PlaywrightError:
+        return False
+
+
 def _scroll_filter_list_down(scope):
     try:
         scope.evaluate(
@@ -1080,7 +1100,7 @@ def _try_check_checkbox_in_scope(scope, label_text: str) -> bool:
     if cb is None:
         return False
     try:
-        cb.scroll_into_view_if_needed()
+        _scroll_into_view_resilient(cb)
         time.sleep(0.15)
         if not cb.is_checked():
             cb.check(force=True)
@@ -1093,51 +1113,60 @@ def _try_mui_typography_filter_row(page, scope, label_text: str) -> bool:
     """
     Select option rows built as MuiTypography body1 <p> (stable substring: MuiTypography-body1).
     Prefer an ancestor row checkbox; else click left of the label like the legacy path.
+    Retries when the row detaches during scroll (common on MUI virtualized lists).
     """
     t = label_text.strip()
     if not t:
         return False
     name_re = re.compile(re.escape(t), re.I)
-
-    paras = scope.locator(
+    typo_sel = (
         "p[class*='MuiTypography-body1'], div[class*='MuiTypography-body1'], "
         "span[class*='MuiTypography-body1']"
-    ).filter(has_text=name_re)
-    if paras.count() == 0:
-        return False
+    )
 
-    target = paras.first
-    target.scroll_into_view_if_needed()
-    time.sleep(0.15)
+    for attempt in range(8):
+        paras = scope.locator(typo_sel).filter(has_text=name_re)
+        if paras.count() == 0:
+            return False
+        target = paras.first
+        _scroll_into_view_resilient(target)
+        time.sleep(0.12 + 0.05 * attempt)
 
-    for ax in (
-        "xpath=ancestor::li[1]",
-        "xpath=ancestor::div[contains(@class,'MuiListItem')][1]",
-        "xpath=ancestor::div[contains(@class,'MuiButtonBase')][1]",
-    ):
         try:
-            host = target.locator(ax)
-            if host.count() == 0:
-                continue
-            inp = host.first.locator("input[type='checkbox']")
-            if inp.count() > 0:
-                if not inp.first.is_checked():
-                    inp.first.check(force=True)
-                return True
-            cb = host.first.get_by_role("checkbox")
-            if cb.count() > 0:
-                if not cb.first.is_checked():
-                    cb.first.check()
-                return True
-        except PlaywrightError:
-            continue
+            for ax in (
+                "xpath=ancestor::li[1]",
+                "xpath=ancestor::div[contains(@class,'MuiListItem')][1]",
+                "xpath=ancestor::div[contains(@class,'MuiButtonBase')][1]",
+            ):
+                try:
+                    host = target.locator(ax)
+                    if host.count() == 0:
+                        continue
+                    inp = host.first.locator("input[type='checkbox']")
+                    if inp.count() > 0:
+                        if not inp.first.is_checked():
+                            inp.first.check(force=True)
+                        return True
+                    cb = host.first.get_by_role("checkbox")
+                    if cb.count() > 0:
+                        if not cb.first.is_checked():
+                            cb.first.check()
+                        return True
+                except PlaywrightError:
+                    continue
 
-    box = target.bounding_box()
-    if box:
-        page.mouse.click(box["x"] - 15, box["y"] + box["height"] / 2)
-        return True
-    target.click()
-    return True
+            box = target.bounding_box()
+            if box:
+                page.mouse.click(box["x"] - 15, box["y"] + box["height"] / 2)
+                return True
+            target.click()
+            return True
+        except PlaywrightError:
+            time.sleep(0.25)
+            _scroll_filter_list_down(scope)
+            time.sleep(0.15)
+            continue
+    return False
 
 
 def _click_mui_typography_filter_row_toggle(page, scope, label_text: str) -> bool:
@@ -1146,21 +1175,30 @@ def _click_mui_typography_filter_row_toggle(page, scope, label_text: str) -> boo
     if not t:
         return False
     name_re = re.compile(re.escape(t), re.I)
-    paras = scope.locator(
+    typo_sel = (
         "p[class*='MuiTypography-body1'], div[class*='MuiTypography-body1'], "
         "span[class*='MuiTypography-body1']"
-    ).filter(has_text=name_re)
-    if paras.count() == 0:
-        return False
-    target = paras.first
-    target.scroll_into_view_if_needed()
-    time.sleep(0.15)
-    box = target.bounding_box()
-    if box:
-        page.mouse.click(box["x"] - 15, box["y"] + box["height"] / 2)
-        return True
-    target.click()
-    return True
+    )
+    for attempt in range(6):
+        paras = scope.locator(typo_sel).filter(has_text=name_re)
+        if paras.count() == 0:
+            return False
+        target = paras.first
+        _scroll_into_view_resilient(target)
+        time.sleep(0.12 + 0.05 * attempt)
+        try:
+            box = target.bounding_box()
+            if box:
+                page.mouse.click(box["x"] - 15, box["y"] + box["height"] / 2)
+                return True
+            target.click()
+            return True
+        except PlaywrightError:
+            time.sleep(0.2)
+            _scroll_filter_list_down(scope)
+            time.sleep(0.12)
+            continue
+    return False
 
 
 def _try_select_filter_row(page, scope, label_text: str) -> bool:
@@ -1183,7 +1221,7 @@ def _toggle_filter_option_paragraph_click(page, option_label, root=None):
             try:
                 r = scope.get_by_role(role, name=name_re)
                 if r.count() > 0:
-                    r.first.scroll_into_view_if_needed()
+                    _scroll_into_view_resilient(r.first)
                     time.sleep(0.2)
                     r.first.click()
                     return True
@@ -1202,7 +1240,7 @@ def _toggle_filter_option_paragraph_click(page, option_label, root=None):
                     continue
                 t = inner.get_by_text(name, exact=True)
                 if t.count() > 0:
-                    t.first.scroll_into_view_if_needed()
+                    _scroll_into_view_resilient(t.first)
                     time.sleep(0.2)
                     t.first.click()
                     return True
@@ -1212,7 +1250,7 @@ def _toggle_filter_option_paragraph_click(page, option_label, root=None):
         typed = scope.locator(typo_row).filter(has_text=name_re)
         if typed.count() > 0:
             study = typed.first
-            study.scroll_into_view_if_needed()
+            _scroll_into_view_resilient(study)
             time.sleep(0.5)
             box = study.bounding_box()
             if box:
@@ -1239,7 +1277,7 @@ def _toggle_filter_option_paragraph_click(page, option_label, root=None):
         else:
             study = study.first
 
-        study.scroll_into_view_if_needed()
+        _scroll_into_view_resilient(study)
         time.sleep(0.5)
         box = study.bounding_box()
         if box:
@@ -1564,7 +1602,7 @@ def open_cancer_nanotech_subfacet(
         raise RuntimeError(
             f"Could not find facet {facet_id_for_error!r} in the {CANCER_NANO_FACET} section."
         ) from e
-    facet_header.scroll_into_view_if_needed()
+    _scroll_into_view_resilient(facet_header)
     expand_sidebar_facet_header(
         page, facet_header, allow_nanomaterial_entity=allow_nanomaterial_entity
     )
