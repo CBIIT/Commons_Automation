@@ -7,6 +7,12 @@ import time
 
 import pandas as pd
 
+from cds_playwright_launch import (
+    chromium_launch_kwargs,
+    is_jenkins_environment,
+    launch_chromium,
+)
+
 if sys.platform == "win32" and hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     sys.stderr.reconfigure(encoding="utf-8", errors="replace")
@@ -31,6 +37,8 @@ print("⚙️  Resolved config (env):")
 print(f"    DATA_COMMONS_URL → {URL}")
 print(f"    GC_PHS004225_EXCEL → {excel_path}")
 print(f"    CI → {os.environ.get('CI', '')!r}")
+print(f"    JENKINS_URL → {os.environ.get('JENKINS_URL', '')!r}")
+print(f"    is_jenkins_environment → {is_jenkins_environment()}")
 print(f"    PLAYWRIGHT_HEADLESS → {os.environ.get('PLAYWRIGHT_HEADLESS', '')!r}")
 print(f"    PLAYWRIGHT_CHANNEL_CHROME → {os.environ.get('PLAYWRIGHT_CHANNEL_CHROME', '')!r}")
 
@@ -206,36 +214,14 @@ def generate_html_report(results, *, page_url: str):
         f.write(html_doc)
 
 
-def _playwright_launch_kwargs() -> dict:
-    """
-    Local Windows: headed Google Chrome. CI (CI=true or PLAYWRIGHT_HEADLESS=1): headless
-    bundled Chromium — run `playwright install chromium` on the agent.
-    Force Chrome channel on CI: PLAYWRIGHT_CHANNEL_CHROME=1 (must be installed on agent).
-    """
-    headless = os.environ.get("PLAYWRIGHT_HEADLESS", "").lower() in (
-        "1",
-        "true",
-        "yes",
-    ) or os.environ.get("CI", "").lower() in ("true", "1")
-    kw: dict = {"headless": headless}
-    force_chrome = os.environ.get("PLAYWRIGHT_CHANNEL_CHROME", "").lower() in (
-        "1",
-        "true",
-        "yes",
-    )
-    if force_chrome or (not headless and sys.platform == "win32"):
-        kw["channel"] = "chrome"
-    return kw
-
-
 # -----------------------------------
 # PLAYWRIGHT
 # -----------------------------------
 with sync_playwright() as p:
 
-    _launch = _playwright_launch_kwargs()
+    _launch = chromium_launch_kwargs()
     print(f"⚙️  Playwright launch → {_launch}")
-    browser = p.chromium.launch(**_launch)
+    browser = launch_chromium(p.chromium, **_launch)
     page = browser.new_page()
 
     try:
