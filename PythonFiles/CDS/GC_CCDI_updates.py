@@ -40,6 +40,8 @@ from playwright.sync_api import (
     TimeoutError as PlaywrightTimeoutError,
 )
 
+from cds_playwright_launch import chromium_launch_kwargs, launch_chromium
+
 if sys.platform == "win32" and hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     sys.stderr.reconfigure(encoding="utf-8", errors="replace")
@@ -47,7 +49,7 @@ if sys.platform == "win32" and hasattr(sys.stdout, "reconfigure"):
 # -----------------------------------
 # CONFIG
 # -----------------------------------
-_DEFAULT_DATA_COMMONS_URL = "https://general-qa2.datacommons.cancer.gov/#/data"
+_DEFAULT_DATA_COMMONS_URL = "https://general-stage.datacommons.cancer.gov/#/data"
 
 REPORT_PATH = "GC_CCDI_updates_Report.html"
 
@@ -585,7 +587,9 @@ def run() -> None:
     results: list[dict] = []
 
     with sync_playwright() as p:
-        browser = p.chromium.launch(channel="chrome", headless=False)
+        _launch = chromium_launch_kwargs()
+        print(f"⚙️  Playwright launch → {_launch}")
+        browser = launch_chromium(p.chromium, **_launch)
         page = browser.new_page()
         try:
             page.goto(url, timeout=120_000, wait_until="domcontentloaded")

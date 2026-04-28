@@ -27,6 +27,8 @@ from playwright.sync_api import (
     TimeoutError as PlaywrightTimeoutError,
 )
 
+from cds_playwright_launch import chromium_launch_kwargs, launch_chromium
+
 if sys.platform == "win32" and hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     sys.stderr.reconfigure(encoding="utf-8", errors="replace")
@@ -47,7 +49,24 @@ def _data_commons_url() -> str:
 
 _SCRIPT_DIR = Path(__file__).resolve().parent
 _REPO_ROOT = _SCRIPT_DIR.parent.parent
-DEFAULT_BASECOUNTS_WORKBOOK = _REPO_ROOT / "InputFiles" / "CDS" / "kidsfirst basecounts.xlsx"
+# Repo file is ``Kidsfirst basecounts.xlsx`` (case); Linux Jenkins is case-sensitive.
+DEFAULT_BASECOUNTS_WORKBOOK = _REPO_ROOT / "InputFiles" / "CDS" / "Kidsfirst basecounts.xlsx"
+_CDS_INPUT_DIR = _REPO_ROOT / "InputFiles" / "CDS"
+
+
+def _find_kidsfirst_basecounts_workbook() -> Path | None:
+    """Match *kidsfirst* + *basecount* in filename (case-insensitive) under InputFiles/CDS."""
+    d = _CDS_INPUT_DIR
+    if not d.is_dir():
+        return None
+    keys = ("kidsfirst", "basecount")
+    for p in sorted(d.iterdir()):
+        if not p.is_file() or p.suffix.lower() != ".xlsx":
+            continue
+        low = p.name.lower()
+        if all(k in low for k in keys):
+            return p
+    return None
 
 # (PHS accession, exact study name as in the Study Name filter list)
 SCENARIOS: list[tuple[str, str]] = [
@@ -95,8 +114,8 @@ def load_expectations_workbook(excel_path: str) -> pd.DataFrame:
     if not path.is_file():
         raise FileNotFoundError(
             f"Base counts Excel not found: {path}\n"
-            f"Place kidsfirst basecounts.xlsx under InputFiles/CDS ({DEFAULT_BASECOUNTS_WORKBOOK}) "
-            "or set env KIDS_FIRST_EXCEL_PATH.\n"
+            f"Place a workbook matching *Kidsfirst*/*basecounts*.xlsx under InputFiles/CDS "
+            f"({DEFAULT_BASECOUNTS_WORKBOOK.parent}) or set env KIDS_FIRST_EXCEL_PATH.\n"
             "Expected columns include: Study Name, Number of Participants, Samples, "
             "Number of Files (and optionally a PHS / PHS ACCESSION column)."
         )
@@ -407,7 +426,14 @@ def _fmt_cell(ui: int, exp: int) -> str:
 
 def run() -> None:
     excel_path = os.environ.get("KIDS_FIRST_EXCEL_PATH", "").strip()
-    workbook = Path(excel_path).expanduser() if excel_path else DEFAULT_BASECOUNTS_WORKBOOK
+    if excel_path:
+        workbook = Path(excel_path).expanduser()
+    else:
+        workbook = DEFAULT_BASECOUNTS_WORKBOOK
+        if not workbook.is_file():
+            alt = _find_kidsfirst_basecounts_workbook()
+            if alt is not None:
+                workbook = alt
     print(f"📎 Loading expectations from Excel: {workbook}")
     df = load_expectations_workbook(str(workbook))
 
@@ -417,7 +443,9 @@ def run() -> None:
     results: list[dict] = []
 
     with sync_playwright() as p:
-        browser = p.chromium.launch(channel="chrome", headless=False)
+        _launch = chromium_launch_kwargs()
+        print(f"⚙️  Playwright launch → {_launch}")
+        browser = launch_chromium(p.chromium, **_launch)
         page = browser.new_page()
         try:
             page.goto(url, timeout=120_000, wait_until="domcontentloaded")

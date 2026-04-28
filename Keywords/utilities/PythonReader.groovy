@@ -37,6 +37,8 @@ public class PythonReader {
 			processBuilder = new ProcessBuilder(binPath, pyPath, queryFilePath, outputFilePath, metaDataFilespath, Utils.RESULT_TAB_NAME);
 
 			processBuilder.redirectErrorStream(true);
+			// Avoid pipe deadlock on Jenkins: piped Python stdout is block-buffered unless unbuffered.
+			processBuilder.environment().put("PYTHONUNBUFFERED", "1");
 			KeywordUtil.logInfo("Executing Python file: " + pythonFileName);
 
 			// Start the process
@@ -92,6 +94,8 @@ public class PythonReader {
 			}
 
 			processBuilder.redirectErrorStream(true);
+			// Avoid pipe deadlock on Jenkins: piped Python stdout is block-buffered unless unbuffered.
+			processBuilder.environment().put("PYTHONUNBUFFERED", "1");
 			KeywordUtil.logInfo("Executing Python file: " + pythonFileName);
 
 			// Start the process
