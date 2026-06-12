@@ -27,6 +27,33 @@ class MDB_Parity {
 
 	// ========= Generic API helpers =========
 
+	private static final String TAGS_ENDPOINT_OBJECT_PATH =
+			'Object Repository/API/MDB/STS/Tags/GetTags'
+	private static final int TAGS_MAX_ATTEMPTS = 5
+	private static final int TAGS_RETRY_STATUS = 502
+
+	/**
+	 * Fetch GET /tags/ with retry on transient HTTP 502 only (known endpoint issue).
+	 * Other statuses are not retried. Returns same shape as fetchAndParse.
+	 */
+	private static Map fetchTagsWithRetry(String contextLabel) {
+		ResponseObject response = null
+		for (int attempt = 1; attempt <= TAGS_MAX_ATTEMPTS; attempt++) {
+			response = API_Functions.sendRequestAndCaptureResponse(TAGS_ENDPOINT_OBJECT_PATH)
+			int status = response.getStatusCode()
+			if (status != TAGS_RETRY_STATUS) {
+				def data = API_Functions.parseResponse(response)
+				return [ response: response, data: data ]
+			}
+			if (attempt < TAGS_MAX_ATTEMPTS) {
+				KeywordUtil.logInfo("[${contextLabel}] GET /tags/ returned ${TAGS_RETRY_STATUS}; " +
+						"retrying (attempt ${attempt}/${TAGS_MAX_ATTEMPTS})")
+			}
+		}
+		def data = API_Functions.parseResponse(response)
+		return [ response: response, data: data ]
+	}
+
 	/**
 	 * Fetch an API endpoint using a Test Object path and parse JSON.
 	 * Relies on API_Functions.sendRequestAndCaptureResponse + parseResponse.
@@ -665,7 +692,7 @@ class MDB_Parity {
 	static void verifyTagsParity() {
 		KeywordUtil.logInfo("[Tags] Verifying /tags/ parity (API vs Neo4j)")
 
-		def result = fetchAndParse('Object Repository/API/MDB/STS/Tags/GetTags')
+		def result = fetchTagsWithRetry('Tags')
 		ResponseObject response = result.response
 		def data = result.data
 
@@ -768,7 +795,7 @@ class MDB_Parity {
 	static void verifyAllDistinctTagKeysValuesParity() {
 		KeywordUtil.logInfo('[TagValues-All] Starting /tag/{key}/values parity for all distinct keys from /tags')
 
-		def result = fetchAndParse('Object Repository/API/MDB/STS/Tags/GetTags')
+		def result = fetchTagsWithRetry('TagValues-All')
 		ResponseObject response = result.response
 		def data = result.data
 
@@ -971,7 +998,7 @@ class MDB_Parity {
 
 		KeywordUtil.logInfo("[TagEntities-FirstN] Distinct (key,value) parity, maxPairs=${maxPairs}")
 
-		def result = fetchAndParse('Object Repository/API/MDB/STS/Tags/GetTags')
+		def result = fetchTagsWithRetry('TagEntities-FirstN')
 		ResponseObject response = result.response
 		def data = result.data
 

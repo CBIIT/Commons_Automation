@@ -1,8 +1,9 @@
 """
-General QA Data Commons — Gabriella Miller / Kids First studies (five PHS + study pairs).
+General QA Data Commons — Gabriella Miller / Kids First studies.
 
-Expected Participants / Samples / Files are read from **kidsfirst basecounts.xlsx** under
-**InputFiles/CDS/** at the Katalon project root (same layout as before).
+Expected Participants / Samples / Files are read from **Kidsfirst basecounts.xlsx** under
+**InputFiles/CDS/** at the Katalon project root. The script iterates every workbook row that
+contains a PHS accession and study name, then compares the UI counts and writes an HTML report.
 
 Override with env **KIDS_FIRST_EXCEL_PATH** to point at another workbook (same layout: PHS
 Accession, Study Name, Participants, Samples, Files).
@@ -68,36 +69,6 @@ def _find_kidsfirst_basecounts_workbook() -> Path | None:
             return p
     return None
 
-# (PHS accession, exact study name as in the Study Name filter list)
-SCENARIOS: list[tuple[str, str]] = [
-    (
-        "phs001228",
-        "Gabriella Miller Kids First (GMKF) Pediatric Research Program in Susceptibility to "
-        "Ewing Sarcoma Based on Germline Risk and Familial History of Cancer",
-    ),
-    (
-        "phs001846",
-        "Gabriella Miller Kids First Pediatric Research Program in Genetics at the "
-        "Intersection of Childhood Cancer and Birth Defects",
-    ),
-    (
-        "phs002187",
-        "Gabriella Miller Kids First Pediatric Research Program in Germline and Somatic "
-        "Variants in Myeloid Malignancies in Children",
-    ),
-    (
-        "phs001714",
-        "Gabriella Miller Kids First Pediatric Research Program: An Integrated Clinical and "
-        "Genomic Analysis of Treatment Failure in Pediatric Osteosarcoma",
-    ),
-    (
-        "phs001738",
-        "Kids First Pediatric Research Study in Familial Predisposition to "
-        "Hematopoietic Malignancies",
-    ),
-]
-
-
 def _find_phs_column(df: pd.DataFrame) -> str | None:
     for c in df.columns:
         if "phs" in str(c).lower():
@@ -109,7 +80,23 @@ def _norm_phs(val: str) -> str:
     return re.sub(r"\s+", "", str(val).strip().lower())
 
 
-def load_expectations_workbook(excel_path: str) -> pd.DataFrame:
+def _find_column(df: pd.DataFrame, *names: str) -> str | None:
+    lower = {str(c).strip().lower(): str(c) for c in df.columns}
+    for n in names:
+        key = n.strip().lower()
+        if key in lower:
+            return lower[key]
+    return None
+
+
+def _int_from_cell(row: pd.Series, column_name: str) -> int:
+    value = row[column_name]
+    if pd.isna(value):
+        raise ValueError(f"Empty cell in column {column_name!r}")
+    return int(float(value))
+
+
+def load_scenarios_from_workbook(excel_path: str) -> list[dict[str, int | str]]:
     path = Path(excel_path)
     if not path.is_file():
         raise FileNotFoundError(
@@ -135,56 +122,60 @@ def load_expectations_workbook(excel_path: str) -> pd.DataFrame:
     df = pd.read_excel(path, engine="openpyxl", header=header_row)
     df.columns = df.columns.map(str).str.strip()
     df = df.loc[:, ~df.columns.str.contains("^Unnamed", na=False)]
-    if "Study Name" not in df.columns:
-        raise RuntimeError("Excel must contain a 'Study Name' column.")
-    df["Study Clean"] = (
-        df["Study Name"].astype(str).str.replace("\n", " ").str.strip()
-    )
-    return df
-
-
-def lookup_expected_counts(
-    df: pd.DataFrame, phs: str, study_display: str
-) -> tuple[int, int, int]:
-    """Return (participants, samples, files) from the workbook for this PHS + study."""
-    study_key = study_display.replace("\n", " ").strip()
-    mask_s = df["Study Clean"].str.strip() == study_key
-    if not mask_s.any():
-        mask_s = df["Study Clean"].str.lower().str.strip() == study_key.lower()
-
+    study_col = _find_column(df, "Study Name")
     phs_col = _find_phs_column(df)
-    if phs_col:
-        mask_p = df[phs_col].map(_norm_phs) == _norm_phs(phs)
-        subset = df.loc[mask_s & mask_p]
-    else:
-        subset = df.loc[mask_s]
+    p_col = _find_column(df, "Number of Participants", "Participants", "# Participants")
+    s_col = _find_column(df, "Samples", "Number of Samples")
+    f_col = _find_column(df, "Number of Files", "Files", "Number of files")
 
-    if subset.empty:
-        raise ValueError(
-            f"No Excel row for PHS={phs!r} and study matching {study_key[:80]!r}…"
+    missing = []
+    if not study_col:
+        missing.append("Study Name")
+    if not phs_col:
+        missing.append("PHS / PHS ACCESSION")
+    if not p_col:
+        missing.append("Number of Participants / Participants")
+    if not s_col:
+        missing.append("Samples / Number of Samples")
+    if not f_col:
+        missing.append("Number of Files / Files")
+    if missing:
+        raise RuntimeError(f"Excel is missing required columns: {', '.join(missing)}")
+
+    scenarios: list[dict[str, int | str]] = []
+    seen: set[tuple[str, str]] = set()
+    for _, row in df.iterrows():
+        raw_study = row[study_col]
+        raw_phs = row[phs_col]
+        if pd.isna(raw_study) and pd.isna(raw_phs):
+            continue
+
+        study = str(raw_study).replace("\n", " ").strip()
+        phs = str(raw_phs).strip()
+        if not study:
+            continue
+        if not phs:
+            raise ValueError(f"Missing PHS accession for study {study!r}")
+
+        key = (_norm_phs(phs), study.lower())
+        if key in seen:
+            raise ValueError(f"Duplicate workbook row for PHS={phs!r}, Study={study!r}")
+        seen.add(key)
+
+        scenarios.append(
+            {
+                "phs": phs,
+                "study": study,
+                "participants": _int_from_cell(row, p_col),
+                "samples": _int_from_cell(row, s_col),
+                "files": _int_from_cell(row, f_col),
+            }
         )
-    if len(subset) > 1:
-        raise ValueError(
-            f"Multiple Excel rows ({len(subset)}) for PHS={phs!r}; "
-            "add or fix a PHS column in the workbook."
-        )
 
-    row = subset.iloc[0]
+    if not scenarios:
+        raise RuntimeError("No usable PHS/study rows were found in the workbook.")
 
-    def _col(*names: str) -> int:
-        for n in names:
-            for c in df.columns:
-                if str(c).strip().lower() == n.lower():
-                    v = row[c]
-                    if pd.isna(v):
-                        raise ValueError(f"Empty cell in column {c!r}")
-                    return int(float(v))
-        raise KeyError(f"Missing column; tried {names!r}")
-
-    p = _col("Number of Participants", "Participants", "# Participants")
-    s = _col("Samples", "Number of Samples")
-    f = _col("Number of Files", "Files", "Number of files")
-    return p, s, f
+    return scenarios
 
 
 # -----------------------------------
@@ -435,7 +426,8 @@ def run() -> None:
             if alt is not None:
                 workbook = alt
     print(f"📎 Loading expectations from Excel: {workbook}")
-    df = load_expectations_workbook(str(workbook))
+    scenarios = load_scenarios_from_workbook(str(workbook))
+    print(f"📘 Loaded {len(scenarios)} workbook rows.")
 
     url = _data_commons_url()
     print(f"🌐 Data Commons URL: {url}")
@@ -456,8 +448,12 @@ def run() -> None:
                 print("ℹ️ networkidle timeout — continuing once DOM is usable.")
             time.sleep(2)
 
-            for phs, study in SCENARIOS:
-                exp_p, exp_s, exp_f = lookup_expected_counts(df, phs, study)
+            for scenario in scenarios:
+                phs = str(scenario["phs"])
+                study = str(scenario["study"])
+                exp_p = int(scenario["participants"])
+                exp_s = int(scenario["samples"])
+                exp_f = int(scenario["files"])
                 apply_phs_filter(page, phs)
                 select_study(page, study)
 
