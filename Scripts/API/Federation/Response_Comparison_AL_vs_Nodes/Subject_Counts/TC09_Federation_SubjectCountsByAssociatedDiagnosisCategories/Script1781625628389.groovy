@@ -1,0 +1,6 @@
+import utilities.API_Functions
+
+API_Functions.verifyFederationNodesVersusAggLayerCounts(
+	'SubjByAssociatedDiagnosisCategories',
+	'AL_SubjectCountsByAssociatedDiagnosisCategories'
+)

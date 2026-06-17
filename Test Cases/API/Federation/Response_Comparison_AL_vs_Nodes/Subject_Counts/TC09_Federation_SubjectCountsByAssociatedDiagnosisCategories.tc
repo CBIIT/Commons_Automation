@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC09_Federation_SubjectCountsByAssociatedDiagnosisCategories</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>76b2a49b-1411-4c5c-a573-ec2b0eee4ba5</testCaseGuid>
+</TestCaseEntity>

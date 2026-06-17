@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>SubjByAssociatedDiagnoses</name>
+   <name>SubjByAssociatedDiagnosisCategories</name>
    <tag></tag>
-   <elementGuidId>a25931b4-6b10-450a-9f95-8e59d2b9277e</elementGuidId>
+   <elementGuidId>c2fe781b-a497-49a1-a1c4-783c2b6d59d3</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -114,7 +114,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://dcc-qa.ccdi.cancer.gov/api/v1/subject/by/associated_diagnoses/count</restUrl>
+   <restUrl>https://ccdi-ecdna.org/ccdi-federation/api/v1/subject/by/associated_diagnosis_categories/count</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
