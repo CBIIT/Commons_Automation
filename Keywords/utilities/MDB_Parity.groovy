@@ -1932,7 +1932,149 @@ class MDB_Parity {
 	
 		KeywordUtil.logInfo("[PropertyTerms-All] Completed.")
 	}
-	
-	
-	
+
+	// ========= EDP parity (/edps, /edp/.../terms) =========
+
+	/** Term identity fields for EDP defining terms and PV terms (same as tagged Term rows). */
+	private static final List<String> EDP_TERM_PARITY_KEY_FIELDS = TAGGED_TERM_PARITY_KEY_FIELDS
+
+	/** Pinned CRDC custom EDP triples (Uberon / OBIB / ICDO value sets). */
+	private static final List<List<String>> CRDC_EDP_TERM_TRIPLES = [
+		['CRDC', 'CRDC0001', '1'],
+		['CRDC', 'CRDC0002', '1'],
+		['CRDC', 'CRDC0003', '3.2'],
+	]
+
+	/**
+	 * Parity for GET /edps/{originName} vs Neo4j terms that specify a value_set.
+	 * Cypher key verifyEdpsByOrigin.
+	 */
+	static void verifyEdpsByOriginParity(String originName) {
+		String originRaw = originName?.toString()?.trim()
+		assert originRaw :
+				"verifyEdpsByOriginParity: originName must be non-empty"
+
+		String encOrigin = encodePath(originRaw)
+		String ctx = "EdpsByOrigin(${originRaw})"
+		KeywordUtil.logInfo("[${ctx}] Verifying /edps/{originName} parity (API vs Neo4j)")
+
+		def result = fetchAndParse(
+				'Object Repository/API/MDB/STS/EDP/GetEdpsByOrigin',
+				[originName: encOrigin]
+				)
+		ResponseObject response = result.response
+		def data = result.data
+
+		validateListResponse(response, data, "edps", ['value', 'origin_name', 'nanoid'])
+		logResponseSnippet("/edps/${originRaw}", response, data)
+
+		List<Map> apiTerms = normalizeTaggedTermRowsFromApi((List<Map>) data)
+		apiTerms = normalize(apiTerms, { it }, "API-${ctx}")
+
+		String cypher = getCypherQuery('Data Files/API/MDB/CypherQueries', 'verifyEdpsByOrigin')
+		List<Map> neoRaw = fetchFromNeo4j(cypher, [origin_name: originRaw])
+		List<Map> neoTerms = normalizeTaggedTermRowsFromNeo(neoRaw)
+		neoTerms = normalize(neoTerms, { it }, "NEO-${ctx}")
+
+		compareLists(
+				apiTerms,
+				neoTerms,
+				EDP_TERM_PARITY_KEY_FIELDS,
+				ctx
+				)
+	}
+
+	/**
+	 * Parity for GET /edp/{originName}/{originId}/{originVersion}/terms vs Neo4j PV terms.
+	 * HTTP 404 or empty API list is accepted only when Neo4j returns no rows (verifyEdpTermsEmpty).
+	 * Cypher key verifyEdpTerms for 200 responses.
+	 */
+	static void verifyEdpTermsParity(String originName, String originId, String originVersion) {
+		String originRaw = originName?.toString()?.trim()
+		String idRaw = originId?.toString()?.trim()
+		String verRaw = originVersion?.toString()?.trim()
+		assert originRaw :
+				"verifyEdpTermsParity: originName must be non-empty"
+		assert idRaw :
+				"verifyEdpTermsParity: originId must be non-empty"
+		assert verRaw :
+				"verifyEdpTermsParity: originVersion must be non-empty"
+
+		String encOrigin = encodePath(originRaw)
+		String encId = encodePath(idRaw)
+		String encVer = encodePath(verRaw)
+		String ctx = "EdpTerms(${originRaw}:${idRaw}:${verRaw})"
+		Map params = [origin_name: originRaw, origin_id: idRaw, origin_version: verRaw]
+		KeywordUtil.logInfo("[${ctx}] Verifying /edp/.../terms parity (API vs Neo4j)")
+
+		def result = fetchAndParse(
+				'Object Repository/API/MDB/STS/EDP/GetEdpTerms',
+				[originName: encOrigin, originId: encId, originVersion: encVer]
+				)
+		ResponseObject response = result.response
+		def data = result.data
+		int status = response.getStatusCode()
+
+		if (status == 404) {
+			String cypherEmpty = getCypherQuery('Data Files/API/MDB/CypherQueries', 'verifyEdpTermsEmpty')
+			List<Map> neoEmpty = fetchFromNeo4j(cypherEmpty, params)
+			assert neoEmpty.isEmpty() :
+					"[${ctx}] API returned 404 but Neo4j returned ${neoEmpty.size()} term(s)"
+			KeywordUtil.logInfo("[${ctx}] API 404 and Neo4j empty — OK")
+			return
+		}
+
+		assert status == 200 :
+				"[${ctx}] Expected HTTP 200 or 404, got ${status}"
+
+		assert data instanceof List :
+				"[${ctx}] Expected a List, got: ${data?.getClass()}"
+
+		logResponseSnippet("/edp/${originRaw}/${idRaw}/${verRaw}/terms", response, data)
+
+		List rawList = (List) data
+		if (rawList.isEmpty()) {
+			String cypherEmpty = getCypherQuery('Data Files/API/MDB/CypherQueries', 'verifyEdpTermsEmpty')
+			List<Map> neoEmpty = fetchFromNeo4j(cypherEmpty, params)
+			assert neoEmpty.isEmpty() :
+					"[${ctx}] API returned empty list but Neo4j returned ${neoEmpty.size()} term(s)"
+			KeywordUtil.logInfo("[${ctx}] API empty and Neo4j empty — OK")
+			return
+		}
+
+		List<Map> apiTerms = normalizeTaggedTermRowsFromApi((List<Map>) rawList)
+		apiTerms = normalize(apiTerms, { it }, "API-${ctx}")
+
+		String cypher = getCypherQuery('Data Files/API/MDB/CypherQueries', 'verifyEdpTerms')
+		List<Map> neoRaw = fetchFromNeo4j(cypher, params)
+		List<Map> neoTerms = normalizeTaggedTermRowsFromNeo(neoRaw)
+		neoTerms = normalize(neoTerms, { it }, "NEO-${ctx}")
+
+		compareLists(
+				apiTerms,
+				neoTerms,
+				EDP_TERM_PARITY_KEY_FIELDS,
+				ctx
+				)
+	}
+
+	/**
+	 * Run verifyEdpTermsParity for the three known CRDC custom EDP triples
+	 * (CRDC0001/1, CRDC0002/1, CRDC0003/3.2).
+	 */
+	static void verifyCrdcEdpTermsParity() {
+		KeywordUtil.logInfo('[EdpTerms-CRDC] Starting CRDC EDP terms parity for pinned triples')
+
+		CRDC_EDP_TERM_TRIPLES.each { List<String> triple ->
+			String origin = triple[0]
+			String id = triple[1]
+			String ver = triple[2]
+			KeywordUtil.logInfo("[EdpTerms-CRDC] >>> ${origin}/${id}/${ver}")
+			verifyEdpTermsParity(origin, id, ver)
+			KeywordUtil.logInfo("[EdpTerms-CRDC] <<< ${origin}/${id}/${ver} OK")
+		}
+
+		KeywordUtil.logInfo('[EdpTerms-CRDC] Completed.')
+	}
+
 }

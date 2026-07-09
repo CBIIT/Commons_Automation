@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Parity: GET /edps/caDSR vs Neo4j defining terms (catalog only)</description>
+   <name>TC03_API_MDB-STS_EdpsByOrigin_caDSR</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ac6fdb7f-0057-4205-b5c5-ce9c00ca23b1</testCaseGuid>
+</TestCaseEntity>
