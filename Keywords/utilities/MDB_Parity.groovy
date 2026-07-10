@@ -1927,7 +1927,6 @@ class MDB_Parity {
 			KeywordUtil.logInfo("[PropertyTerms-All] >>> Model=${h}")
 			verifyModelNodePropertyTermsParityLatest(h)
 			KeywordUtil.logInfo("[PropertyTerms-All] <<< Model=${h} complete")
-			Neo4j_Functions.closeDriver()
 		}
 	
 		KeywordUtil.logInfo("[PropertyTerms-All] Completed.")
