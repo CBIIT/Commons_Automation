@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Parity: GET /edp/CRDC/{id}/{ver}/terms for CRDC0001/0002/0003 vs Neo4j</description>
+   <name>TC02_API_MDB-STS_EdpTerms_CRDC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fe609fdf-9398-41ed-b020-d0f7aabd73cd</testCaseGuid>
+</TestCaseEntity>

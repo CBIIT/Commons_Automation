@@ -51,16 +51,21 @@ class Neo4j_Functions {
 		return driver
 	}
 
+	private static boolean isRetryableConnectionError(Exception e) {
+		String msg = e?.message?.toLowerCase() ?: ''
+		return msg.contains('no routing server') ||
+				msg.contains('no longer available') ||
+				msg.contains('could not perform discovery') ||
+				msg.contains('service unavailable') ||
+				msg.contains('connection reset') ||
+				msg.contains('connection refused')
+	}
+
 	/**
-	 * Run a Cypher query with parameters and return the result as List<Map>.
-	 * Each map is columnName -> value.
+	 * Run Cypher once; throws on failure (no retry).
 	 */
-	static List<Map> runQuery(String cypher, Map params) {
-		KeywordUtil.logInfo("[Neo4j_Functions] Called runQuery with Cypher:\n${cypher}")
-		KeywordUtil.logInfo("[Neo4j_Functions] Params: ${params}")
-
+	private static List<Map> executeQuery(String cypher, Map params) {
 		List<Map> rows = []
-
 		Session session = null
 		try {
 			session = getDriver().session()
@@ -85,17 +90,42 @@ class Neo4j_Functions {
 			}
 
 			KeywordUtil.logInfo("[Neo4j_Functions] Query returned ${rows.size()} row(s).")
-		} catch (Exception e) {
-			KeywordUtil.markError("[Neo4j_Functions] Error executing Neo4j query: ${e.message}")
-			// Optionally rethrow if you want tests to fail on connection issues:
-			// throw e
 		} finally {
 			if (session != null) {
 				session.close()
 			}
 		}
-
 		return rows
+	}
+
+	/**
+	 * Run a Cypher query with parameters and return the result as List<Map>.
+	 * Each map is columnName -> value.
+	 * On transient connection/routing errors, resets the driver and retries once.
+	 */
+	static List<Map> runQuery(String cypher, Map params) {
+		KeywordUtil.logInfo("[Neo4j_Functions] Called runQuery with Cypher:\n${cypher}")
+		KeywordUtil.logInfo("[Neo4j_Functions] Params: ${params}")
+
+		try {
+			return executeQuery(cypher, params)
+		} catch (Exception first) {
+			if (!isRetryableConnectionError(first)) {
+				KeywordUtil.markFailedAndStop(
+						"[Neo4j_Functions] Error executing Neo4j query: ${first.message}")
+			}
+			KeywordUtil.logInfo(
+					"[Neo4j_Functions] Retryable Neo4j error; resetting driver and retrying once: ${first.message}")
+			closeDriver()
+			try {
+				List<Map> rows = executeQuery(cypher, params)
+				KeywordUtil.logInfo("[Neo4j_Functions] Retry succeeded; returned ${rows.size()} row(s).")
+				return rows
+			} catch (Exception second) {
+				KeywordUtil.markFailedAndStop(
+						"[Neo4j_Functions] Neo4j query failed after driver reset/retry: ${second.message}")
+			}
+		}
 	}
 
 	/**

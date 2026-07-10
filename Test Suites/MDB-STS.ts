@@ -130,4 +130,25 @@
       <testCaseId>Test Cases/API/MDB/STS/Tags/TC01_API_MDB-STS_Tags</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>4ee28dec-dcd2-4c60-86f5-a961d199df88</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/API/MDB/STS/EDP/TC01_API_MDB-STS_EdpsByOrigin_CRDC</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6d535eaa-6efb-4651-9861-12b410fbaa93</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/API/MDB/STS/EDP/TC02_API_MDB-STS_EdpTerms_CRDC</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8768d50b-35b3-4cf0-b28f-454a7206afad</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/API/MDB/STS/EDP/TC03_API_MDB-STS_EdpsByOrigin_caDSR</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
