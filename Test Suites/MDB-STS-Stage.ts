@@ -137,4 +137,11 @@
       <testCaseId>Test Cases/API/MDB/STS/EDP/TC03_API_MDB-STS_EdpsByOrigin_caDSR</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>dcb252d7-d631-4605-8b1c-1724031f9f60</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/API/MDB/STS/EDP/TC04_API_MDB-STS_EdpProperties_CRDC</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
