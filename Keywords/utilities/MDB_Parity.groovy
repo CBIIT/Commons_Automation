@@ -2076,4 +2076,100 @@ class MDB_Parity {
 		KeywordUtil.logInfo('[EdpTerms-CRDC] Completed.')
 	}
 
+
+	/**
+	 * Parity for GET /edps/{originName}/{originId}/{originVersion}/properties vs Neo4j.
+	 * Returns Property rows that use the EDP as PV source via has_value_set / specifies_value_set.
+	 * HTTP 404 or empty API list is accepted only when Neo4j returns no rows (verifyEdpPropertiesEmpty).
+	 * Cypher key verifyEdpProperties for 200 non-empty responses.
+	 */
+	static void verifyEdpPropertiesParity(String originName, String originId, String originVersion) {
+		String originRaw = originName?.toString()?.trim()
+		String idRaw = originId?.toString()?.trim()
+		String verRaw = originVersion?.toString()?.trim()
+		assert originRaw :
+				"verifyEdpPropertiesParity: originName must be non-empty"
+		assert idRaw :
+				"verifyEdpPropertiesParity: originId must be non-empty"
+		assert verRaw :
+				"verifyEdpPropertiesParity: originVersion must be non-empty"
+
+		String encOrigin = encodePath(originRaw)
+		String encId = encodePath(idRaw)
+		String encVer = encodePath(verRaw)
+		String ctx = "EdpProperties(${originRaw}:${idRaw}:${verRaw})"
+		Map params = [origin_name: originRaw, origin_id: idRaw, origin_version: verRaw]
+		KeywordUtil.logInfo("[${ctx}] Verifying /edps/.../properties parity (API vs Neo4j)")
+
+		def result = fetchAndParse(
+				'Object Repository/API/MDB/STS/EDP/GetEdpProperties',
+				[originName: encOrigin, originId: encId, originVersion: encVer]
+				)
+		ResponseObject response = result.response
+		def data = result.data
+		int status = response.getStatusCode()
+
+		if (status == 404) {
+			String cypherEmpty = getCypherQuery('Data Files/API/MDB/CypherQueries', 'verifyEdpPropertiesEmpty')
+			List<Map> neoEmpty = fetchFromNeo4j(cypherEmpty, params)
+			assert neoEmpty.isEmpty() :
+					"[${ctx}] API returned 404 but Neo4j returned ${neoEmpty.size()} property row(s)"
+			KeywordUtil.logInfo("[${ctx}] API 404 and Neo4j empty — OK")
+			return
+		}
+
+		assert status == 200 :
+				"[${ctx}] Expected HTTP 200 or 404, got ${status}"
+
+		assert data instanceof List :
+				"[${ctx}] Expected a List, got: ${data?.getClass()}"
+
+		logResponseSnippet("/edps/${originRaw}/${idRaw}/${verRaw}/properties", response, data)
+
+		List rawList = (List) data
+		if (rawList.isEmpty()) {
+			String cypherEmpty = getCypherQuery('Data Files/API/MDB/CypherQueries', 'verifyEdpPropertiesEmpty')
+			List<Map> neoEmpty = fetchFromNeo4j(cypherEmpty, params)
+			assert neoEmpty.isEmpty() :
+					"[${ctx}] API returned empty list but Neo4j returned ${neoEmpty.size()} property row(s)"
+			KeywordUtil.logInfo("[${ctx}] API empty and Neo4j empty — OK")
+			return
+		}
+
+		List<Map> apiProps = normalizeTaggedPropertyRowsFromApi((List<Map>) rawList)
+		apiProps = normalize(apiProps, { it }, "API-${ctx}")
+
+		String cypher = getCypherQuery('Data Files/API/MDB/CypherQueries', 'verifyEdpProperties')
+		List<Map> neoRaw = fetchFromNeo4j(cypher, params)
+		List<Map> neoProps = normalizeTaggedEntitiesFromNeo(neoRaw)
+		neoProps = normalize(neoProps, { it }, "NEO-${ctx}")
+
+		compareLists(
+				apiProps,
+				neoProps,
+				TAGGED_ENTITY_PARITY_KEY_FIELDS,
+				ctx
+				)
+	}
+
+	/**
+	 * Run verifyEdpPropertiesParity for the three known CRDC custom EDP triples
+	 * (CRDC0001/1, CRDC0002/1, CRDC0003/3.2).
+	 */
+	static void verifyCrdcEdpPropertiesParity() {
+		KeywordUtil.logInfo('[EdpProperties-CRDC] Starting CRDC EDP properties parity for pinned triples')
+
+		CRDC_EDP_TERM_TRIPLES.each { List<String> triple ->
+			String origin = triple[0]
+			String id = triple[1]
+			String ver = triple[2]
+			KeywordUtil.logInfo("[EdpProperties-CRDC] >>> ${origin}/${id}/${ver}")
+			verifyEdpPropertiesParity(origin, id, ver)
+			KeywordUtil.logInfo("[EdpProperties-CRDC] <<< ${origin}/${id}/${ver} OK")
+		}
+
+		KeywordUtil.logInfo('[EdpProperties-CRDC] Completed.')
+	}
+
+
 }
