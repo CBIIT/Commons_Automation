@@ -123,4 +123,25 @@
       <testCaseId>Test Cases/Canine_TestCases/Studies/COTCO22/TC17_ICDC_COTC022_FileFormat-RCC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>28edb8a0-a932-4bfe-8c3f-66420de18a41</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Canine_TestCases/Studies/COTCO22/TC18_ICDC_COTC022_FileFormat-bai</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>58d0dcdb-3c0e-41ef-ad5b-7069c4f6f198</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Canine_TestCases/Studies/COTCO22/TC19_ICDC_COTC022_FileFormat-bam</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ef441395-8d2d-4f0f-ba9c-3d13f5e3debf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Canine_TestCases/Studies/COTCO22/TC20_ICDC_COTC022_FileType-DNAMethAnalysisFile</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
