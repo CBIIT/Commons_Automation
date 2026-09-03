@@ -35,7 +35,7 @@ class Neo4j_Functions {
 	// Singleton driver instance
 	private static Driver driver
 
-	/** Initial attempt plus this many driver-reset retries on transient errors. */
+/** Maximum total query attempts (initial try + retries) on transient errors. */
 	private static final int MAX_QUERY_ATTEMPTS = 3
 
 	/** Pause before each retry so NLB/Neo4j can accept a fresh bolt connection. */
