@@ -35,6 +35,12 @@ class Neo4j_Functions {
 	// Singleton driver instance
 	private static Driver driver
 
+/** Maximum total query attempts (initial try + retries) on transient errors. */
+	private static final int MAX_QUERY_ATTEMPTS = 3
+
+	/** Pause before each retry so NLB/Neo4j can accept a fresh bolt connection. */
+	private static final long RETRY_DELAY_MS = 2000L
+
 	/**
 	 * Ensure a Neo4j driver is initialized (lazy init).
 	 */
@@ -51,14 +57,36 @@ class Neo4j_Functions {
 		return driver
 	}
 
-	private static boolean isRetryableConnectionError(Exception e) {
-		String msg = e?.message?.toLowerCase() ?: ''
-		return msg.contains('no routing server') ||
-				msg.contains('no longer available') ||
-				msg.contains('could not perform discovery') ||
-				msg.contains('service unavailable') ||
-				msg.contains('connection reset') ||
-				msg.contains('connection refused')
+	private static boolean isRetryableConnectionError(Throwable t) {
+		while (t != null) {
+			String msg = t.message?.toLowerCase() ?: ''
+			if (msg.contains('no routing server') ||
+					msg.contains('no longer available') ||
+					msg.contains('could not perform discovery') ||
+					msg.contains('service unavailable') ||
+					msg.contains('connection reset') ||
+					msg.contains('connection refused') ||
+					msg.contains('connection to the database failed') ||
+					msg.contains('unable to connect') ||
+					msg.contains('connection closed') ||
+					msg.contains('broken pipe') ||
+					msg.contains('timed out') ||
+					msg.contains('timeout')) {
+				return true
+			}
+			t = t.cause
+		}
+		return false
+	}
+
+	private static void sleepBeforeRetry(int attempt) {
+		try {
+			Thread.sleep(RETRY_DELAY_MS)
+		} catch (InterruptedException ie) {
+			Thread.currentThread().interrupt()
+			KeywordUtil.logInfo(
+					"[Neo4j_Functions] Retry sleep interrupted before attempt ${attempt}; continuing.")
+		}
 	}
 
 	/**
@@ -101,31 +129,37 @@ class Neo4j_Functions {
 	/**
 	 * Run a Cypher query with parameters and return the result as List<Map>.
 	 * Each map is columnName -> value.
-	 * On transient connection/routing errors, resets the driver and retries once.
+	 * On transient connection/routing errors, resets the driver and retries up to MAX_QUERY_ATTEMPTS.
 	 */
 	static List<Map> runQuery(String cypher, Map params) {
 		KeywordUtil.logInfo("[Neo4j_Functions] Called runQuery with Cypher:\n${cypher}")
 		KeywordUtil.logInfo("[Neo4j_Functions] Params: ${params}")
 
-		try {
-			return executeQuery(cypher, params)
-		} catch (Exception first) {
-			if (!isRetryableConnectionError(first)) {
-				KeywordUtil.markFailedAndStop(
-						"[Neo4j_Functions] Error executing Neo4j query: ${first.message}")
-			}
-			KeywordUtil.logInfo(
-					"[Neo4j_Functions] Retryable Neo4j error; resetting driver and retrying once: ${first.message}")
-			closeDriver()
+		Throwable lastError = null
+		for (int attempt = 1; attempt <= MAX_QUERY_ATTEMPTS; attempt++) {
 			try {
 				List<Map> rows = executeQuery(cypher, params)
-				KeywordUtil.logInfo("[Neo4j_Functions] Retry succeeded; returned ${rows.size()} row(s).")
+				if (attempt > 1) {
+					KeywordUtil.logInfo(
+							"[Neo4j_Functions] Retry succeeded on attempt ${attempt}; returned ${rows.size()} row(s).")
+				}
 				return rows
-			} catch (Exception second) {
-				KeywordUtil.markFailedAndStop(
-						"[Neo4j_Functions] Neo4j query failed after driver reset/retry: ${second.message}")
+			} catch (Exception e) {
+				lastError = e
+				boolean canRetry = attempt < MAX_QUERY_ATTEMPTS && isRetryableConnectionError(e)
+				if (!canRetry) {
+					break
+				}
+				KeywordUtil.logInfo(
+						"[Neo4j_Functions] Retryable Neo4j error on attempt ${attempt}/${MAX_QUERY_ATTEMPTS}; " +
+						"resetting driver and retrying: ${e.message}")
+				closeDriver()
+				sleepBeforeRetry(attempt + 1)
 			}
 		}
+
+		KeywordUtil.markFailedAndStop(
+				"[Neo4j_Functions] Neo4j query failed after ${MAX_QUERY_ATTEMPTS} attempt(s): ${lastError?.message}")
 	}
 
 	/**
