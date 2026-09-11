@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC17_ICDC_COTC026_Breed_NeuterStatus_FileFormat</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0e417961-4fe1-460c-aeb4-6d27816aad64</testCaseGuid>
+</TestCaseEntity>

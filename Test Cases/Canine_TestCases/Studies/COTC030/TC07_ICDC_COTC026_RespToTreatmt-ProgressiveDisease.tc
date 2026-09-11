@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC07_ICDC_COTC026_RespToTreatmt-ProgressiveDisease</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a1b35ce7-b49d-4df7-b12e-f2315cbdde90</testCaseGuid>
+</TestCaseEntity>

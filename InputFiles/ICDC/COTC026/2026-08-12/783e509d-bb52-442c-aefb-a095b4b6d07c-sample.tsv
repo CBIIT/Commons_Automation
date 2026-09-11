@@ -1,0 +1,2 @@
+type	sample_id	case.case_id	comment	crdc_id	date_of_sample_collection	general_sample_pathology	length_of_tumor	molecular_subtype	necropsy_sample	percentage_tumor	physical_sample_type	sample_chronology	sample_preservation	sample_site	specific_sample_pathology	summarized_sample_type	tumor_grade	tumor_sample_origin	volume_of_tumor	width_of_tumor
+sample	COTC026-0231-T	COTC026-0231		50bb436d-cea5-46d4-8ed9-3de3c0e0082a		Malignant			No	Not Determined	Tissue	Before Treatment	RNAlater	Bone	Osteosarcoma	Primary Malignant Tumor Tissue	Not Applicable	Primary		

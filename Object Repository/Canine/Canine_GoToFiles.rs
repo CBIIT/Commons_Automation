@@ -7,16 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//span[contains(text(),'GO TO FILES')]//parent::button</value>
+         <value>//a[text()='Go to My Files > ']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//span[contains(text(),'GO TO FILES')]//parent::button</value>
+      <value>//a[text()='Go to My Files > ']</value>
+      <webElementGuid>3a3a0bcf-ee99-46e2-8925-17e319a0c04f</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

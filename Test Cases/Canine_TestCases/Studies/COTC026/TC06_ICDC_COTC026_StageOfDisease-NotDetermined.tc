@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC06_ICDC_COTC026_StageOfDisease-NotDetermined</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bfa9fb65-1a49-4280-970e-084719d12038</testCaseGuid>
+</TestCaseEntity>

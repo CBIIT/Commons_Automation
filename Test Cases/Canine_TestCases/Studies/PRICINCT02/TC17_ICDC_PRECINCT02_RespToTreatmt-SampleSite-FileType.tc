@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC17_ICDC_PRECINCT02_RespToTreatmt-SampleSite-FileType</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7ea37125-0446-4431-9f66-795a9162a0b9</testCaseGuid>
+</TestCaseEntity>

@@ -37,7 +37,7 @@ import com.kms.katalon.core.util.KeywordUtil
 import java.nio.file.Paths
 
 
-CustomKeywords.'utilities.TestRunner.RunKatalon'('TC53_ICDC_COTC021_FileFormat-fastq.xlsx')
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC02_ICDC_COTC026_Breed-SaintBernard.xlsx')
 
 CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py','TsvDataCases')
 CustomKeywords.'utilities.PythonReader.readFileQuickRun'('ResultTabs.py','TsvDataSamples')

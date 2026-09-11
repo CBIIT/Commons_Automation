@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC07_ICDC_PRECINCT02_StageOfDisease-NotDetermined</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1e51b411-06c3-477e-9174-9f538e07e56d</testCaseGuid>
+</TestCaseEntity>

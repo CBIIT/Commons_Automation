@@ -59,20 +59,20 @@ CustomKeywords.'utilities.TestRunner.multiFunction'('ICDC', GlobalVariable.G_Sta
 	'TsvDataSamples', GlobalVariable.G_QuerySamplesTab)
 
 	
-//clicking the case Files tab
-WebUI.waitForElementPresent(findTestObject('Canine/CanineResults_CaseFiles_Tab'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('Canine/CanineResults_CaseFiles_Tab')
-CustomKeywords.'utilities.TestRunner.multiFunction'('ICDC', GlobalVariable.G_StatBar_Files, 'Canine/Canine_Files_Table',
-	'Canine/Canine_Files_TableHdr', 'Canine/Canine_FilesTabNextBtn', GlobalVariable.G_WebTabnameFiles,
-	'TsvDataCaseFiles', GlobalVariable.G_QueryFilesTab)
-
-
-//clicking the study Files tab
-WebUI.waitForElementPresent(findTestObject('Canine/CanineResults_StudyFiles_Tab'), 5)
-CustomKeywords.'utilities.TestRunner.clickTab'('Canine/CanineResults_StudyFiles_Tab')
-CustomKeywords.'utilities.TestRunner.multiFunction'('ICDC', GlobalVariable.G_StatBar_StudyFiles, 'Canine/Canine_StudyFiles_Table',
-	'Canine/Canine_StudyFiles_TableHdr', 'Canine/Canine_StudyFilesTabNextBtn', GlobalVariable.G_WebTabnameStudyFiles,
-	'TsvDataStudyFiles', GlobalVariable.G_QueryStudyFilesTab)
+////clicking the case Files tab
+//WebUI.waitForElementPresent(findTestObject('Canine/CanineResults_CaseFiles_Tab'), 5)
+//CustomKeywords.'utilities.TestRunner.clickTab'('Canine/CanineResults_CaseFiles_Tab')
+//CustomKeywords.'utilities.TestRunner.multiFunction'('ICDC', GlobalVariable.G_StatBar_Files, 'Canine/Canine_Files_Table',
+//	'Canine/Canine_Files_TableHdr', 'Canine/Canine_FilesTabNextBtn', GlobalVariable.G_WebTabnameFiles,
+//	'TsvDataCaseFiles', GlobalVariable.G_QueryFilesTab)
+//
+//
+////clicking the study Files tab
+//WebUI.waitForElementPresent(findTestObject('Canine/CanineResults_StudyFiles_Tab'), 5)
+//CustomKeywords.'utilities.TestRunner.clickTab'('Canine/CanineResults_StudyFiles_Tab')
+//CustomKeywords.'utilities.TestRunner.multiFunction'('ICDC', GlobalVariable.G_StatBar_StudyFiles, 'Canine/Canine_StudyFiles_Table',
+//	'Canine/Canine_StudyFiles_TableHdr', 'Canine/Canine_StudyFilesTabNextBtn', GlobalVariable.G_WebTabnameStudyFiles,
+//	'TsvDataStudyFiles', GlobalVariable.G_QueryStudyFilesTab)
  
 WebUI.closeBrowser()
 

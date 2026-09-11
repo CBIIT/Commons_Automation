@@ -16,13 +16,17 @@ public class GlobalVariable {
      
     /**
      * <p>Profile ICDC_QA : This variable holds the location of the input excel file which has the locators to be read from
-Profile CCDC_QA : This variable holds the location of the input excel file which has the locators to be read from</p>
+Profile CCDC_PROD : This variable holds the location of the input excel file which has the locators to be read from
+Profile CCDC_QA : This variable holds the location of the input excel file which has the locators to be read from
+Profile CCDC_STAGE : This variable holds the location of the input excel file which has the locators to be read from</p>
      */
     public static Object G_InputExcelFileName
      
     /**
      * <p>Profile ICDC_QA : This is the path where the browserdriver is stored - for Chromedriver, Geckodrive, IEdriver etc
-Profile CCDC_QA : This is the path where the browserdriver is stored - for Chromedriver, Geckodrive, IEdriver etc</p>
+Profile CCDC_PROD : This is the path where the browserdriver is stored - for Chromedriver, Geckodrive, IEdriver etc
+Profile CCDC_QA : This is the path where the browserdriver is stored - for Chromedriver, Geckodrive, IEdriver etc
+Profile CCDC_STAGE : This is the path where the browserdriver is stored - for Chromedriver, Geckodrive, IEdriver etc</p>
      */
     public static Object G_BrowserDriverPath
      

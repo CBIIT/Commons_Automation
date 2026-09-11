@@ -4,5 +4,6 @@
    <name>TC13_ICDC_COTC021_FileAssociation-Sample</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>82c00f63-08c1-48c8-856d-79f14bbfcfbe</testCaseGuid>
 </TestCaseEntity>

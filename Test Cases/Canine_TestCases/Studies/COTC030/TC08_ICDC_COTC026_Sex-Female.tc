@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC08_ICDC_COTC026_Sex-Female</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8b739382-9282-4cef-9e4f-0ccccc5b4e2b</testCaseGuid>
+</TestCaseEntity>

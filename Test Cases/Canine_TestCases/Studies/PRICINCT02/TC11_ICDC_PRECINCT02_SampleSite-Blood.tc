@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC11_ICDC_PRECINCT02_SampleSite-Blood</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>be6af651-07cb-4451-ac4c-e144c2cbd9ef</testCaseGuid>
+</TestCaseEntity>

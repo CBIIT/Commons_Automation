@@ -1,0 +1,119 @@
+type	demographic_record_id	breed	case.case_id	neutered_indicator	patient_age_at_enrollment	sex	weight
+demographic	COTC026-0230	Great Pyrenees	COTC026-0230	Yes	8	Male	50
+demographic	COTC026-0231	Mixed Breed	COTC026-0231	Yes	3.4	Male	36.8
+demographic	COTC026-0232	Mastiff	COTC026-0232	Yes	5.4	Male	86.8
+demographic	COTC026-0233	Giant Schnauzer	COTC026-0233	Yes	10.2	Male	41.5
+demographic	COTC026-0234	Greyhound	COTC026-0234	Yes	7.9	Male	40.6
+demographic	COTC026-0235	Mixed Breed	COTC026-0235	Yes	10.1	Female	30.9
+demographic	COTC026-0236	Greyhound	COTC026-0236	Yes	5.9	Male	38.2
+demographic	COTC026-0237	Mixed Breed	COTC026-0237	Yes	4.4	Female	30.5
+demographic	COTC026-0238	Staffordshire Bull Terrier	COTC026-0238	Yes	6.7	Female	40
+demographic	COTC026-0240	Golden Retriever	COTC026-0240	Yes	9.4	Male	37.2
+demographic	COTC026-0241	Alaskan Malamute	COTC026-0241	Yes	8.3	Male	57.1
+demographic	COTC026-0242	Mixed Breed	COTC026-0242	Yes	8.6	Male	26
+demographic	COTC026-0243	Spinone Italiano	COTC026-0243	Yes	11.8	Male	32.5
+demographic	COTC026-0244	Alaskan Malamute	COTC026-0244	Yes	5.4	Male	57
+demographic	COTC026-0245	Border Collie	COTC026-0245	Yes	11.8	Female	28
+demographic	COTC026-0246	Catahoula Hound	COTC026-0246	No	6.8	Male	37.7
+demographic	COTC026-0247	Bernese Mountain Dog	COTC026-0247	Yes	9.8	Male	44.2
+demographic	COTC026-0340	Great Dane	COTC026-0340	Yes	3.1	Male	80.3
+demographic	COTC026-0341	Labrador Retriever	COTC026-0341	Yes	10	Female	39.2
+demographic	COTC026-0342	Mixed Breed	COTC026-0342	Yes	7.1	Male	39.5
+demographic	COTC026-0343	Mixed Breed	COTC026-0343	Yes	5.6	Male	49.3
+demographic	COTC026-0344	Border Collie	COTC026-0344	Yes	7.2	Male	35.3
+demographic	COTC026-0345	Mixed Breed	COTC026-0345	Yes	3.7	Female	52.3
+demographic	COTC026-0346	Doberman Pinscher	COTC026-0346	Yes	6.1	Female	44.5
+demographic	COTC026-0347	Australian Shepherd	COTC026-0347	Yes	8.4	Male	34.9
+demographic	COTC026-0348	Labrador Retriever	COTC026-0348	Yes	2.3	Male	28.2
+demographic	COTC026-0349	Saint Bernard	COTC026-0349	Yes	6.8	Male	58.8
+demographic	COTC026-0350	Golden Retriever	COTC026-0350	Yes	7.6	Male	49
+demographic	COTC026-0415	Labrador Retriever	COTC026-0415	Yes	9.8	Male	41
+demographic	COTC026-0416	Saint Bernard	COTC026-0416	Yes	5.9	Male	60
+demographic	COTC026-0417	Mastiff	COTC026-0417	Yes	8	Male	78.5
+demographic	COTC026-0418	Mixed Breed	COTC026-0418	Yes	5.2	Female	55.5
+demographic	COTC026-0419	Great Pyrenees	COTC026-0419	Yes	3.6	Female	42
+demographic	COTC026-0420	Mixed Breed	COTC026-0420	Yes	7.2	Female	51.5
+demographic	COTC026-0421	Saint Bernard	COTC026-0421	Yes	6.9	Male	55
+demographic	COTC026-0422	Collie	COTC026-0422	Yes	8.1	Female	28.3
+demographic	COTC026-0423	Bulldog	COTC026-0423	Yes	8.8	Male	60
+demographic	COTC026-0424	Greyhound	COTC026-0424	Yes	8.1	Female	31.7
+demographic	COTC026-0425	Labrador Retriever	COTC026-0425	Yes	8	Female	38
+demographic	COTC026-0426	Mixed Breed	COTC026-0426	Yes	10.8	Male	36.8
+demographic	COTC026-0427	Mixed Breed	COTC026-0427	Yes	0.9	Male	28.5
+demographic	COTC026-0428	Golden Retriever	COTC026-0428	Yes	5.4	Female	28.5
+demographic	COTC026-0429	Leonberger	COTC026-0429	Yes	6.2	Female	70.2
+demographic	COTC026-0430	Greyhound	COTC026-0430	Yes	9.3	Male	36.5
+demographic	COTC026-0431	Rottweiler	COTC026-0431	Yes	9.2	Female	46.5
+demographic	COTC026-0432	Greyhound	COTC026-0432	Yes	7.1	Male	35.2
+demographic	COTC026-0530	Scottish Deerhound	COTC026-0530	Yes	9.4	Male	36.3
+demographic	COTC026-0532	Greyhound	COTC026-0532	Yes	8	Male	36.3
+demographic	COTC026-0534	Saint Bernard	COTC026-0534	Yes	5.7	Male	77
+demographic	COTC026-0535	Mastiff	COTC026-0535	Yes	6	Female	61.5
+demographic	COTC026-0536	Mixed Breed	COTC026-0536	Yes	8.9	Male	26.8
+demographic	COTC026-0537	Alaskan Malamute	COTC026-0537	Yes	6.9	Female	43.3
+demographic	COTC026-0538	Golden Retriever	COTC026-0538	Yes	9.1	Female	31.1
+demographic	COTC026-0539	Mixed Breed	COTC026-0539	Yes	9	Male	37.9
+demographic	COTC026-0650	Mixed Breed	COTC026-0650	Yes	11	Female	33.2
+demographic	COTC026-0651	Greyhound	COTC026-0651	Yes	8.9	Female	27.4
+demographic	COTC026-0652	Mixed Breed	COTC026-0652	Yes	6	Male	32.4
+demographic	COTC026-0653	Newfoundland	COTC026-0653	Yes	3	Female	47
+demographic	COTC026-0654	Great Pyrenees	COTC026-0654	Yes	5	Male	64
+demographic	COTC026-0655	Mixed Breed	COTC026-0655	Yes	7.4	Male	29
+demographic	COTC026-0657	Mixed Breed	COTC026-0657	Yes	7.6	Male	37.4
+demographic	COTC026-0820	Greyhound	COTC026-0820	Yes	8	Female	25
+demographic	COTC026-0821	Mixed Breed	COTC026-0821	Yes	9.5	Male	39.2
+demographic	COTC026-0822	Mastiff	COTC026-0822	Yes	4.6	Female	57.2
+demographic	COTC026-0823	Boxer	COTC026-0823	Yes	8.4	Female	38.5
+demographic	COTC026-0824	Labrador Retriever	COTC026-0824	Yes	10.2	Male	32
+demographic	COTC026-0825	Labrador Retriever	COTC026-0825	Yes	7.7	Male	36.5
+demographic	COTC026-0826	Bernese Mountain Dog	COTC026-0826	Yes	8.6	Female	34.5
+demographic	COTC026-0920	Rottweiler	COTC026-0920	Yes	7	Female	45.9
+demographic	COTC026-0921	Labrador Retriever	COTC026-0921	Yes	9.7	Female	37.1
+demographic	COTC026-0922	Doberman Pinscher	COTC026-0922	Yes	8.3	Female	35.4
+demographic	COTC026-0923	Labrador Retriever	COTC026-0923	Yes	6	Female	34.4
+demographic	COTC026-0924	Labrador Retriever	COTC026-0924	Yes	10	Male	37.5
+demographic	COTC026-0925	Bernese Mountain Dog	COTC026-0925	Yes	7	Male	50
+demographic	COTC026-0926	Doberman Pinscher	COTC026-0926	Yes	7	Male	37.9
+demographic	COTC026-0927	German Shepherd Dog	COTC026-0927	Yes	9.8	Male	42.9
+demographic	COTC026-0928	Golden Retriever	COTC026-0928	Yes	9	Male	43.2
+demographic	COTC026-0929	Golden Retriever	COTC026-0929	Yes	7.4	Male	35.8
+demographic	COTC026-0930	American Staffordshire Terrier	COTC026-0930	Yes	11.1	Female	23
+demographic	COTC026-0931	Newfoundland	COTC026-0931	Yes	5.9	Female	62
+demographic	COTC026-0932	Alaskan Malamute	COTC026-0932	Yes	5.9	Female	34.9
+demographic	COTC026-0933	Doberman Pinscher	COTC026-0933	Yes	5.1	Male	38.6
+demographic	COTC026-0934	Mixed Breed	COTC026-0934	Yes	10	Male	26.3
+demographic	COTC026-0935	Mastiff	COTC026-0935	Yes	4	Male	85
+demographic	COTC026-0936	Great Dane	COTC026-0936	Yes	6.6	Female	49.1
+demographic	COTC026-0937	Greyhound	COTC026-0937	Yes	10.7	Female	26
+demographic	COTC026-0938	Mastiff	COTC026-0938	No	6.8	Male	60.6
+demographic	COTC026-0940	Labrador Retriever	COTC026-0940	Yes	11.2	Female	
+demographic	COTC026-1030	Newfoundland	COTC026-1030	Yes	6	Male	72.2
+demographic	COTC026-1031	Great Dane	COTC026-1031	Yes	5	Female	56.6
+demographic	COTC026-1032	Great Pyrenees	COTC026-1032	Yes	6.7	Male	64.2
+demographic	COTC026-1033	Mixed Breed	COTC026-1033	Yes	6	Male	48.6
+demographic	COTC026-1034	Golden Retriever	COTC026-1034	Yes	9.7	Male	39.8
+demographic	COTC026-1035	Mixed Breed	COTC026-1035	Yes	10.7	Female	24.7
+demographic	COTC026-1036	Rottweiler	COTC026-1036	Yes	9.7	Male	40.1
+demographic	COTC026-1037	Golden Retriever	COTC026-1037	No	5.1	Male	34.3
+demographic	COTC026-1038	German Shepherd Dog	COTC026-1038	Yes	8.7	Male	38.8
+demographic	COTC026-1039	Border Collie	COTC026-1039	Yes	11.3	Male	26.8
+demographic	COTC026-1120	Great Dane	COTC026-1120	Yes	4.8	Male	58.2
+demographic	COTC026-1121	Mixed Breed	COTC026-1121	Yes	8.2	Male	29.8
+demographic	COTC026-1122	Mixed Breed	COTC026-1122	Yes	11.2	Male	37.5
+demographic	COTC026-1123	German Shepherd Dog	COTC026-1123	Yes	7.8	Female	40.7
+demographic	COTC026-1124	Golden Retriever	COTC026-1124	No	9	Male	40.2
+demographic	COTC026-1125	Mixed Breed	COTC026-1125	Yes	7.6	Female	41.7
+demographic	COTC026-1126	Mixed Breed	COTC026-1126	Yes	8	Male	43.8
+demographic	COTC026-1127	Doberman Pinscher	COTC026-1127	Yes	8	Female	28.6
+demographic	COTC026-1128	Labrador Retriever	COTC026-1128	Yes	5	Male	31.5
+demographic	COTC026-2020	Labrador Retriever	COTC026-2020	Yes	8.5	Female	44.6
+demographic	COTC026-2021	Mixed Breed	COTC026-2021	Yes	7.5	Female	38.3
+demographic	COTC026-2022	Bloodhound	COTC026-2022	Yes	1.6	Male	36.4
+demographic	COTC026-2023	Greater Swiss Mountain Dog	COTC026-2023	Yes	5.4	Female	42.7
+demographic	COTC026-2024	Newfoundland	COTC026-2024	Yes	8	Male	34.2
+demographic	COTC026-2331	Saint Bernard	COTC026-2331	Yes	7.9	Female	67.9
+demographic	COTC026-2333	Labrador Retriever	COTC026-2333	Yes	3.9	Male	33
+demographic	COTC026-2334	Golden Retriever	COTC026-2334	Yes	9.8	Male	48.2
+demographic	COTC026-2336	Golden Retriever	COTC026-2336	Yes	8.5	Female	28.6
+demographic	COTC026-2337	Saint Bernard	COTC026-2337	Yes	5.5	Female	47
+demographic	COTC026-2338	Doberman Pinscher	COTC026-2338	Yes	7.2	Female	38.6

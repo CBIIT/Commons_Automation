@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC20_ICDC_PRECINCT02_Breed-SamplePath</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>090fdae4-a9ba-43d3-b93a-8e899d1a5fd1</testCaseGuid>
+</TestCaseEntity>

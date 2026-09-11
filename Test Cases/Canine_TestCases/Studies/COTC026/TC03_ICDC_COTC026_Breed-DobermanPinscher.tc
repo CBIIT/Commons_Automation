@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_ICDC_COTC026_Breed-DobermanPinscher</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a287f211-5165-4207-8342-dec04f782fbf</testCaseGuid>
+</TestCaseEntity>

@@ -7,16 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id='table_selected_files']//thead</value>
+         <value>//table/thead</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id='table_selected_files']//thead</value>
+      <value>//table/thead</value>
+      <webElementGuid>cacbcbb0-7fc5-4c0e-b6e5-a73704da7564</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

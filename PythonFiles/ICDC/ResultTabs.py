@@ -58,6 +58,19 @@ elif result_tab in ("TsvDataStudyFiles"):
     Utils.write_to_excel(output_excel, "TsvDataStudyFiles", result_df_studyfiles)
     # Print output data
     print(f'Study Files data successfully written to: {output_excel}')
+ 
+elif result_tab in ("TsvDataFileCart"):
+    # Get participants query from excel
+    filecart_query = Utils.get_value_from_excel('fileCartQuery')
+    print(f'This is File Cart query fetched from input excel:\n{filecart_query}')
+    # Executing query with dataframe and storing result
+    result_df_filecart = Utils.df_run_query(filecart_query)  
+    # Specify the output excel path
+    output_excel = os.path.join(os.path.dirname(os.path.abspath(__file__)), Utils.get_output_file_path, Utils.get_value_from_excel('TsvExcel'))
+    # Write the result DataFrame to an Excel file
+    Utils.write_to_excel(output_excel, "TsvDataFileCart", result_df_filecart)
+    # Print output data
+    print(f'File Cart data successfully written to: {output_excel}') 
 
 else:
     print(f'Check Result tab function. Result tab name in Python: {result_tab}')

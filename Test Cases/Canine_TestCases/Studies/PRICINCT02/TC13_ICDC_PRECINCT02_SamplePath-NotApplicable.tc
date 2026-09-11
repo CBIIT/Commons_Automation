@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC13_ICDC_PRECINCT02_SamplePath-NotApplicable</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0e50c50f-3b02-421c-b079-22e6e980b01d</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_ICDC_PRECINCT02_StudyType-TreatmentStudy</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9f350834-69f2-4615-89e1-52a98948ce27</testCaseGuid>
+</TestCaseEntity>

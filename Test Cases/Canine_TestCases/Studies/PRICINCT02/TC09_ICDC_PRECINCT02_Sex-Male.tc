@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC09_ICDC_PRECINCT02_Sex-Male</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2b32358c-c93a-4418-9ff9-82cbf991d1a7</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_ICDC_COTC026_StudyType-TreatmentStudy</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>544e3fa9-d314-4d9e-a4ab-612be4c50e5e</testCaseGuid>
+</TestCaseEntity>

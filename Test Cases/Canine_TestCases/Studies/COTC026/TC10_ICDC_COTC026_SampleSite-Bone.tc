@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC10_ICDC_COTC026_SampleSite-Bone</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8fbfe6c8-642a-4d5f-998f-7beaad656b5d</testCaseGuid>
+</TestCaseEntity>
