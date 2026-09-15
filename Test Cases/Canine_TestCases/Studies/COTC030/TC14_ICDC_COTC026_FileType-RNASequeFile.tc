@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC14_ICDC_COTC026_FileType-RNASequeFile</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>68c894cb-987e-494f-a87d-a7b6cb4aa3d2</testCaseGuid>
+</TestCaseEntity>

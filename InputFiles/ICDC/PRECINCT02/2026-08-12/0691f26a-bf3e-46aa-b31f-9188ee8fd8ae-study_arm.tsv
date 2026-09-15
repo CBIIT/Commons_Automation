@@ -1,0 +1,9 @@
+type	arm_id	arm	arm_description	study.clinical_study_designation
+study_arm	PRECINCT02-01	PRECINCT02-anti-CD20 antibody (E4-cIgGB)	Arm 1 - Exploratory study of anti-CD20 plus RV1001 (a novel PI3Kdelta inhibitor) in dogs with DLBCL	PRECINCT02
+study_arm	PRECINCT02-02	PRECINCT02-1E4-cIgGB/Doxorubicin/KPT-9274	Arm 2 - Exploratory study of anti-CD20 plus KPT-9274 (non-competitive dual inhibitor of PAK4 and NAMPT) and Doxorubicin in dogs with DLBCL	PRECINCT02
+study_arm	PRECINCT02-03	PRECINCT02-Doxorubicin/1E4-cIgGB/TAK-981	Arm 3 - Biologic Activity of anti-CD20/TAK981 (a SUMO-activating enzyme inhibitor) in Canine Diffuse Large B Cell Lymphoma	PRECINCT02
+study_arm	PRECINCT02-04	PRECINCT02-1E4-cIgGB/Doxorubicin/RV1001	Arm 4 - Exploratory study of Anti CD-20/RV1001  (a novel PI3Kdelta inhibitor)/Doxorubicin in dogs with DLBCL	PRECINCT02
+study_arm	PRECINCT02-05	PRECINCT02-anti-CD20 RV1001/4 KPT-9274/25 Doxorubicin	Arm 5 - Exploratory study of anti-CD20 plus RV1001  (a novel PI3Kdelta inhibitor), KPT-9274 (non-competitive dual inhibitor of PAK4 and NAMPT) and Doxorubicin in dogs with DLBCL	PRECINCT02
+study_arm	PRECINCT02-06	PRECINCT02-anti-CD20 Doxorubicin TAK-981	Arm 6 - Biologic Activity of anti-CD20/TAK981 (a SUMO-activating enzyme inhibitor) in Canine Diffuse Large B Cell Lymphoma	PRECINCT02
+study_arm	PRECINCT02-07a	PRECINCT02-07a-anti-CD20/DOX vs anti-CD20RV1001/KPT-9274/DOX	Arm 7a - 20 mg/kg anti-CD20/DOX vs 20/10 mg/kg anti-CD20 with 7.5 mg/kg RV1001/4 mg/kg KPT-9274	PRECINCT02
+study_arm	PRECINCT02-07b	PRECINCT02-07b-anti-CD20/DOX vs anti-CD20RV1001/KPT-9274/DOX	Arm 7b - 20 mg/kg anti-CD20/DOX vs 20/10 mg/kg anti-CD20 with 7.5 mg/kg RV1001/4 mg/kg KPT-9274	PRECINCT02

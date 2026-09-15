@@ -27,11 +27,18 @@ def get_value_from_excel(rowOrColName):
         if row['TabName'] == rowOrColName:
             return row['TabQuery']
         elif rowOrColName == 'StatQuery':
-            return row['StatQuery']
+            if 'StatQuery' in row.index and pd.notna(row.get('StatQuery')):
+                return row['StatQuery']
+            if 'totalFilesQuery' in row.index and pd.notna(row.get('totalFilesQuery')):
+                return row['totalFilesQuery']
         elif rowOrColName == 'TsvExcel':
             return row['TsvExcel']
         elif rowOrColName == 'WebExcel':
             return row['WebExcel']  
+        elif rowOrColName == 'fileCartQuery':
+            return row['fileCartQuery']
+        elif rowOrColName == 'totalFilesQuery':
+            return row['totalFilesQuery']       
     return None
 
 
@@ -207,4 +214,3 @@ print("\nDataFrame: df_cohort")
 print(df_cohort)
 
 df_run_query = lambda q: ps.sqldf(q, globals())
-

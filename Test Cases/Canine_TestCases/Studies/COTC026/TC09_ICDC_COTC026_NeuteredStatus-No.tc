@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC09_ICDC_COTC026_NeuteredStatus-No</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a26e64b4-4c93-4515-9c6a-bc94ab300ed4</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC13_ICDC_COTC026_FileAssociation-Sample</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a722a912-b2e5-4fe2-b671-5242927d9e88</testCaseGuid>
+</TestCaseEntity>

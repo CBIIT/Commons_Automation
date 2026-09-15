@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_ICDC_PRECINCT02_Breed-Beagle</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ad7509a4-9cbe-49e6-b7a3-902cf51efb63</testCaseGuid>
+</TestCaseEntity>

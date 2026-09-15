@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC19_ICDC_PRECINCT01_RespnseToTreat-NeuteredStatus-FileFormat</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c6083c4d-e174-49f3-a524-a4bfef510d1d</testCaseGuid>
+</TestCaseEntity>

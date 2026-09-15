@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC11_ICDC_COTC026_SampleType-PrimMaligTumTissue</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>24bea01f-3965-45b3-9b22-7ea62d0f154e</testCaseGuid>
+</TestCaseEntity>

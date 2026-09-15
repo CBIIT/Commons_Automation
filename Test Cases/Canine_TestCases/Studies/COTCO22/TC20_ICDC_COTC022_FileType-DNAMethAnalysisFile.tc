@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC20_ICDC_COTC022_FileType-DNAMethAnalysisFile</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>66527185-49ca-4147-ae89-fc2318145233</testCaseGuid>
+</TestCaseEntity>

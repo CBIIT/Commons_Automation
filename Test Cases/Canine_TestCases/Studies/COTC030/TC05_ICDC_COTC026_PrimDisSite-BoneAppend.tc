@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_ICDC_COTC026_PrimDisSite-BoneAppend</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e8727029-cb8b-4fdf-8fe5-eb5b36eaf34a</testCaseGuid>
+</TestCaseEntity>

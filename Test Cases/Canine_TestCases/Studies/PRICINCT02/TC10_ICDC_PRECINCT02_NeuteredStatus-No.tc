@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC10_ICDC_PRECINCT02_NeuteredStatus-No</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>018b4097-f397-4ad0-8e76-35f12a843b83</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_ICDC_PRECINCT02_Breed-GermanShepDog</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dda340d6-d8fa-4816-b981-46aeef290c31</testCaseGuid>
+</TestCaseEntity>

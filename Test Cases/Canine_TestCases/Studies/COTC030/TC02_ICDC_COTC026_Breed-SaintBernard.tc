@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_ICDC_COTC026_Breed-SaintBernard</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>20560681-b22a-4e59-9e37-645374e68098</testCaseGuid>
+</TestCaseEntity>

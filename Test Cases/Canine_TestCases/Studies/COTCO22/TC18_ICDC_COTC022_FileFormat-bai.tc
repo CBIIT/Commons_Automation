@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC18_ICDC_COTC022_FileFormat-bai</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>42b6b2ce-60e3-45e0-bb00-4f22311e4316</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC16_ICDC_PRECINCT02_FileFormat-RCC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5738685d-1fa2-47f5-b082-168e104a3ceb</testCaseGuid>
+</TestCaseEntity>

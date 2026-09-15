@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC14_ICDC_PRECINCT02_FileAssociation-Sample</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6a802754-f525-46c3-b1ed-a4a4fe2d5b4e</testCaseGuid>
+</TestCaseEntity>
