@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC12_ICDC_COTC026_SamplePatho-Osteosacroma</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cb1df134-2545-4aee-9b62-ffcdf6e894a9</testCaseGuid>
+</TestCaseEntity>

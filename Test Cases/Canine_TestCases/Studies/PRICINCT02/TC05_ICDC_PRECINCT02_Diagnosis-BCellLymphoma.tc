@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_ICDC_PRECINCT02_Diagnosis-BCellLymphoma</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6be4c840-6bc0-47e3-9f52-b30928be8325</testCaseGuid>
+</TestCaseEntity>

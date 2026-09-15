@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//span[text()='about']</value>
+         <value>//*[@id = 'navbar-dropdown-about']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//span[text()='about']</value>
-      <webElementGuid>33cadb37-824c-4cda-8e2c-b2ca8cffa8a2</webElementGuid>
+      <value>//*[@id = 'navbar-dropdown-about']</value>
+      <webElementGuid>b1385f85-d2c8-460b-8930-4adf2cf3f8dd</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

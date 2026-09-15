@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC08_ICDC_PRECINCT02_RespToTreatmt-StableDisease</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2ff82484-11a3-4617-abda-05a6bc087b58</testCaseGuid>
+</TestCaseEntity>

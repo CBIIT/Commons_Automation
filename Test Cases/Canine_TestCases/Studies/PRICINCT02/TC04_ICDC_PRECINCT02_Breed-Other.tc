@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_ICDC_PRECINCT02_Breed-Other</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>067e87b8-095c-43b8-8b46-8e8e3b794658</testCaseGuid>
+</TestCaseEntity>

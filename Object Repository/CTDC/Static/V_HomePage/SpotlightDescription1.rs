@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//h2)[1]/following-sibling::div</value>
+         <value>//h2[1]/following-sibling::div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//h2)[1]/following-sibling::div</value>
-      <webElementGuid>898d985a-5179-4a01-9151-54ad65197bc8</webElementGuid>
+      <value>//h2[1]/following-sibling::div</value>
+      <webElementGuid>0046638c-19ef-48d1-a5c6-7ef42dc9d3fa</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

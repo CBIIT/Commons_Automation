@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC15_ICDC_COTC026_FileFormat-fastq</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8986da90-51ee-464c-a2fe-642416483c43</testCaseGuid>
+</TestCaseEntity>

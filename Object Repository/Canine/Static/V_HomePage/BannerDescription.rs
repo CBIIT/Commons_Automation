@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[text()='Integrated Canine Data Commons']/../following-sibling::div[2]</value>
+         <value>//div[text()='Why Canine Cancer data? ICDC studies highlight  the impact of canine research on human cancer research']/../following-sibling::div[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[text()='Integrated Canine Data Commons']/../following-sibling::div[2]</value>
-      <webElementGuid>bb13f0fa-7131-4bdd-9eaf-c00b967db97e</webElementGuid>
+      <value>//div[text()='Why Canine Cancer data? ICDC studies highlight  the impact of canine research on human cancer research']/../following-sibling::div[1]</value>
+      <webElementGuid>0fce64b4-e257-40ad-bb0d-2f21ebcd3cb1</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

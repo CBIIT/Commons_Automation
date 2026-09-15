@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_ICDC_COTC026_Diagnosis-Osteosacroma</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>560b6cef-5d5a-4975-addf-5622d19679e7</testCaseGuid>
+</TestCaseEntity>

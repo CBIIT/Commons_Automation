@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//h1</value>
+         <value>//*[text()='FUELING DISCOVERY: HARNESSING THE POWER OF DATA FROM CANCER STUDIES']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//h1</value>
-      <webElementGuid>67ed2905-4eea-43a0-b6c9-e86cfaaec14d</webElementGuid>
+      <value>//*[text()='FUELING DISCOVERY: HARNESSING THE POWER OF DATA FROM CANCER STUDIES']</value>
+      <webElementGuid>f14634b1-4d1f-48a6-ae19-c2548781e4f2</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

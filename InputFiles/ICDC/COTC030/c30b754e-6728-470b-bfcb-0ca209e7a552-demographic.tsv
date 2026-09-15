@@ -1,0 +1,38 @@
+type	demographic_record_id	additional_breed_detail	breed	case.case_id	date_of_birth	neutered_indicator	patient_age_at_enrollment	sex	weight
+demographic	COTC030-0201	St. Bernard	Saint Bernard	COTC030-0201		Yes	9	Female	52.1
+demographic	COTC030-0202		Great Dane	COTC030-0202		Yes	7	Female	47.4
+demographic	COTC030-0203		Mixed Breed	COTC030-0203		Yes	10	Female	35
+demographic	COTC030-0501		Alaskan Malamute	COTC030-0501		Yes	10	Female	30
+demographic	COTC030-0502	Irish Wolf Hound	Irish Wolfhound	COTC030-0502		Yes	4	Female	57
+demographic	COTC030-0503		Labrador Retriever	COTC030-0503		Yes	10	Male	40
+demographic	COTC030-0504	St. Bernard	Saint Bernard	COTC030-0504		Yes	8	Female	50.1
+demographic	COTC030-0505		Labrador Retriever	COTC030-0505		Yes	10	Female	32.2
+demographic	COTC030-0701		Labrador Retriever	COTC030-0701		Yes	11	Male	41.2
+demographic	COTC030-0702		Rottweiler	COTC030-0702		No	7	Male	47.5
+demographic	COTC030-0703		Rottweiler	COTC030-0703		Yes	7	Male	45.6
+demographic	COTC030-1001		Greyhound	COTC030-1001		Yes	9	Female	27.2
+demographic	COTC030-1003		Greyhound	COTC030-1003		Yes	6	Female	29.1
+demographic	COTC030-1004	Golden Retriever/Poodle	Mixed Breed	COTC030-1004		Yes	8	Male	39.4
+demographic	COTC030-1005		Rottweiler	COTC030-1005		Yes	5	Female	47.8
+demographic	COTC030-1006	Pit Bull Terrier Mix	Mixed Breed	COTC030-1006		Yes	10	Male	40.7
+demographic	COTC030-1007	Labrador Retriever Mix	Mixed Breed	COTC030-1007		Yes	10	Female	27.7
+demographic	COTC030-1009	Irish Wolfhound Mix	Mixed Breed	COTC030-1009		Yes	9	Male	59.3
+demographic	COTC030-1010	Rottweiler Mix	Mixed Breed	COTC030-1010		Yes	11	Male	42.6
+demographic	COTC030-1011		German Shepherd Dog	COTC030-1011		Yes	10	Female	29.3
+demographic	COTC030-1012		Great Pyrenees	COTC030-1012		Yes	10	Female	51.3
+demographic	COTC030-1013	Pit Bull Terrier Mix	Mixed Breed	COTC030-1013		Yes	11	Female	26.4
+demographic	COTC030-1014		Leonberger	COTC030-1014		No	2	Female	50.1
+demographic	COTC030-1015	St. Bernard	Saint Bernard	COTC030-1015		Yes	4	Female	49.5
+demographic	COTC030-1016		Cane Corso	COTC030-1016		Yes	8	Male	62.5
+demographic	COTC030-1017	St. Bernard	Saint Bernard	COTC030-1017		Yes	5	Female	57.8
+demographic	COTC030-1018		Labrador Retriever	COTC030-1018		Yes	9	Female	33.9
+demographic	COTC030-1019	Golden Retriever mix	Mixed Breed	COTC030-1019		Yes	2	Male	39.7
+demographic	COTC030-1021		Great Dane	COTC030-1021		Yes	4	Male	74.6
+demographic	COTC030-1022		Great Dane	COTC030-1022		Yes	7	Male	74
+demographic	COTC030-1023	Rottweiler/Labrador Retriever Mix	Mixed Breed	COTC030-1023		Yes	11	Male	38.4
+demographic	COTC030-1024		Golden Retriever	COTC030-1024		Yes	3	Male	39.7
+demographic	COTC030-1025	Bull Mastiff	Bullmastiff	COTC030-1025		No	8	Female	45.9
+demographic	COTC030-1026		Labrador Retriever	COTC030-1026		Yes	12	Female	38
+demographic	COTC030-1027	Bull Mastiff X	Mixed Breed	COTC030-1027		Yes	8	Female	41.5
+demographic	COTC030-1028	St. Bernard	Saint Bernard	COTC030-1028		Yes	8	Female	46
+demographic	COTC030-1031		Greyhound	COTC030-1031		Yes	8	Male	36.1

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//h2)[1]</value>
+         <value>//h2[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//h2)[1]</value>
-      <webElementGuid>ccc0f4b9-859e-4a35-ac76-5629a1a22aea</webElementGuid>
+      <value>//h2[1]</value>
+      <webElementGuid>da7eb01d-142d-4142-b5f6-d602b39034e2</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC06_ICDC_PRECINCT02_PrimDisSite-LymphNode</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1b714036-6d77-4893-afc8-0d1299f88650</testCaseGuid>
+</TestCaseEntity>

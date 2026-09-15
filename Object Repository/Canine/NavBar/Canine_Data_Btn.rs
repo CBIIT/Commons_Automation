@@ -7,7 +7,11 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'navbar_dropdown_data']</value>
+         <value>//*[@id = 'navbar-dropdown-data']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -16,9 +20,9 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>navbar_dropdown_data</value>
-      <webElementGuid>92c3530d-eab9-4488-8079-e2709a4cd5da</webElementGuid>
+      <value>//*[@id = 'navbar-dropdown-data']</value>
+      <webElementGuid>053bb03b-e988-415a-95de-79b1c26e0798</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

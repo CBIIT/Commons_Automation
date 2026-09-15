@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'navbar_dropdown_resources']</value>
+         <value>//*[@id = 'navbar-dropdown-resources']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>navbar_dropdown_resources</value>
-      <webElementGuid>ae3883f5-8c80-4973-b58f-0f7bded5f15a</webElementGuid>
+      <value>navbar-dropdown-resources</value>
+      <webElementGuid>cb0a125f-2058-4759-986f-aea23eadc72b</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

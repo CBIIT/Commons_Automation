@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC12_ICDC_PRECINCT02_SampleType-PrimMaligTumTissue</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>138ee170-79a8-4ed9-8b10-c471b49d53ef</testCaseGuid>
+</TestCaseEntity>

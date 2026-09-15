@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC16_ICDC_COTC026_Breed_Sex_FileType</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>94875603-09a9-4586-be12-433652292545</testCaseGuid>
+</TestCaseEntity>

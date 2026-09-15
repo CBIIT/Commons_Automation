@@ -62,5 +62,11 @@
          <value>PointOfContact</value>
          <variableId>8bedeae0-e5d2-4a68-8d71-d0f1b54f0a1f</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8289cb25-fb84-4702-9abb-6465586d4a14</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
