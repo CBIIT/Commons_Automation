@@ -194,13 +194,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d08e319b-3b0b-4864-b49f-abe517dfeda3</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/Studies/phs000720/TC02_CDS_phs000720_Sex-Male_FileType-DICOM_PrimDiag_Neoplasm</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>3e411a55-9271-4193-822e-94b75db8dee6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -310,13 +303,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CDS_TestCases/Studies/phs002366/TC05_CDS_phs002366_Sex-Female_PrimDiag_LungCancer_FileType-FASTQ</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>dc2cd15d-4882-4308-8fb8-6a244049f50b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/Studies/phs002599/TC01_CDS_phs002599_SmpTumSta-NSD_SmpType-RNA_LibStr_TargetedCapture</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
