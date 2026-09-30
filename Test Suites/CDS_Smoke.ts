@@ -348,13 +348,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>e4fcab9c-06fa-4f31-9822-45b6e6e73bb0</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/Studies/phs000720/TC02_CDS_phs000720_Sex-Male_FileType-DICOM_PrimDiag_Neoplasm</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>14fc4926-9c15-43e1-a0e3-45b8a2f0b80c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

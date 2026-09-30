@@ -190,55 +190,23 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 						System.out.println("This is the tabname from input excel : "+GlobalVariable.G_inputTabName)
 						break;
 					case("query"):
-						if(GlobalVariable.G_inputTabName=="CasesTab"){
-							GlobalVariable.G_QueryCasesTab = sheetData.get(i).get(j).getStringCellValue()
-							System.out.println("This is the value of cases tab query from switch case : "+GlobalVariable.G_QueryCasesTab)
-						}else if(GlobalVariable.G_inputTabName=="SamplesTab"){
-							GlobalVariable.G_QuerySamplesTab = sheetData.get(i).get(j).getStringCellValue()
-							System.out.println("This is the value of samples tab query from switch case : "+GlobalVariable.G_QuerySamplesTab)
-						}else if(GlobalVariable.G_inputTabName=="FilesTab"){
-							GlobalVariable.G_QueryFilesTab = sheetData.get(i).get(j).getStringCellValue()
-							System.out.println("This is the value of files tab query from switch case : "+GlobalVariable.G_QueryFilesTab)
-						}else if(GlobalVariable.G_inputTabName=="ProgramsTab"){
-							GlobalVariable.G_QueryProgramsTab = sheetData.get(i).get(j).getStringCellValue()
-							System.out.println("This is the value of files tab query from switch case : "+GlobalVariable.G_QueryProgramsTab)
-						}else if(GlobalVariable.G_inputTabName=="ParticipantsTab"){
-							GlobalVariable.G_QueryParticipantsTab = sheetData.get(i).get(j).getStringCellValue()
-							System.out.println("This is the value of Participants tab query from switch case : "+GlobalVariable.G_QueryParticipantsTab)
-						}else if(GlobalVariable.G_inputTabName=="StudyFilesTab"){
-							GlobalVariable.G_QueryStudyFilesTab = sheetData.get(i).get(j).getStringCellValue()
-							System.out.println("This is the value of Study Files tab query from switch case : "+GlobalVariable.G_QueryStudyFilesTab)
-						}else if(GlobalVariable.G_inputTabName=="SubjectsTab"){
-							GlobalVariable.G_GQuerySubjectsTab = sheetData.get(i).get(j).getStringCellValue()
-							System.out.println("This is the value of Study Files tab query from switch case : "+GlobalVariable.G_GQuerySubjectsTab)
-						}else if(GlobalVariable.G_inputTabName=="GrantsTab"){
-							GlobalVariable.G_QueryGrantsTab = sheetData.get(i).get(j).getStringCellValue()
-							System.out.println("This is the value of Projects tab query from switch case : "+GlobalVariable.G_QueryGrantsTab)
-						}else if(GlobalVariable.G_inputTabName=="PublicationsTab"){
-							GlobalVariable.G_QueryPublicationsTab = sheetData.get(i).get(j).getStringCellValue()
-							System.out.println("This is the value of Publications tab query from switch case : "+GlobalVariable.G_QueryPublicationsTab)
-						}else if(GlobalVariable.G_inputTabName=="DatasetsTab"){
-							System.out.println("This is the value of Datasets tab query from switch case : "+GlobalVariable.G_QueryDatasetsTab)
-						}else if(GlobalVariable.G_inputTabName=="ClinicalTrialsTab"){
-							GlobalVariable.G_QueryClinTrialsTab = sheetData.get(i).get(j).getStringCellValue()
-							System.out.println("This is the value of Clinical Trials tab query from switch case : "+GlobalVariable.G_QueryClinTrialsTab)
-						}else if(GlobalVariable.G_inputTabName=="DiagnosisTab"){
-							GlobalVariable.G_QueryDiagnosisTab = sheetData.get(i).get(j).getStringCellValue()
-							System.out.println("This is the value of Diagnosis tab query from switch case : "+GlobalVariable.G_QueryDiagnosisTab)
-						}else if(GlobalVariable.G_inputTabName=="StudiesTab"){
-							GlobalVariable.G_QueryStudiesTab = sheetData.get(i).get(j).getStringCellValue()
-							System.out.println("This is the value of Studies tab query from switch case : "+GlobalVariable.G_QueryStudiesTab)
-						}else if(GlobalVariable.G_inputTabName=="PatentsTab"){
-							GlobalVariable.G_QueryPatentsTab = sheetData.get(i).get(j).getStringCellValue()
-							System.out.println("This is the value of Patents tab query from switch case : "+GlobalVariable.G_QueryPatentsTab)
-						}else if(GlobalVariable.G_inputTabName=="SurvivalTab"){
-							GlobalVariable.G_QuerySurvivalTab = sheetData.get(i).get(j).getStringCellValue()
-							System.out.println("This is the value of Survival tab query from switch case : "+GlobalVariable.G_QuerySurvivalTab)
+						assignTabQuery(sheetData, i, j)
+						break;
+					case("TabQuery"):
+					// CDS input files name this column TabQuery. Other apps keep the query column.
+						if (appKey.equals("CDS")) {
+							assignTabQuery(sheetData, i, j)
+						} else {
+							System.out.println("Error in initializing")
 						}
 						break;
 
 					case ("StatQuery"):  //query for stat bar only
-						GlobalVariable.G_StatQuery= sheetData.get(i).get(j).getStringCellValue()
+					// CDS files repeat StatQuery on later rows and those cells are blank.
+						if (appKey.equals("CDS") && sheetData.get(i).get(j).getStringCellValue().trim().isEmpty()) {
+							break
+						}
+						GlobalVariable.G_StatQuery = sheetData.get(i).get(j).getStringCellValue()
 						break;
 					case ("cartQuery"):  //query for My cart table only
 						GlobalVariable.G_cartQuery= sheetData.get(i).get(j).getStringCellValue()
@@ -276,6 +244,57 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 			}//for loop j ends (column read)
 		}//for loop i ends (row read)
 	} //excelparsingKatalon function ends here
+
+	/**
+	 * Stores the Cypher from the current input row on the global for that tab.
+	 */
+	private static void assignTabQuery(List<List<XSSFCell>> sheetData, int i, int j) {
+		if(GlobalVariable.G_inputTabName=="CasesTab"){
+			GlobalVariable.G_QueryCasesTab = sheetData.get(i).get(j).getStringCellValue()
+			System.out.println("This is the value of cases tab query from switch case : "+GlobalVariable.G_QueryCasesTab)
+		}else if(GlobalVariable.G_inputTabName=="SamplesTab"){
+			GlobalVariable.G_QuerySamplesTab = sheetData.get(i).get(j).getStringCellValue()
+			System.out.println("This is the value of samples tab query from switch case : "+GlobalVariable.G_QuerySamplesTab)
+		}else if(GlobalVariable.G_inputTabName=="FilesTab"){
+			GlobalVariable.G_QueryFilesTab = sheetData.get(i).get(j).getStringCellValue()
+			System.out.println("This is the value of files tab query from switch case : "+GlobalVariable.G_QueryFilesTab)
+		}else if(GlobalVariable.G_inputTabName=="ProgramsTab"){
+			GlobalVariable.G_QueryProgramsTab = sheetData.get(i).get(j).getStringCellValue()
+			System.out.println("This is the value of files tab query from switch case : "+GlobalVariable.G_QueryProgramsTab)
+		}else if(GlobalVariable.G_inputTabName=="ParticipantsTab"){
+			GlobalVariable.G_QueryParticipantsTab = sheetData.get(i).get(j).getStringCellValue()
+			System.out.println("This is the value of Participants tab query from switch case : "+GlobalVariable.G_QueryParticipantsTab)
+		}else if(GlobalVariable.G_inputTabName=="StudyFilesTab"){
+			GlobalVariable.G_QueryStudyFilesTab = sheetData.get(i).get(j).getStringCellValue()
+			System.out.println("This is the value of Study Files tab query from switch case : "+GlobalVariable.G_QueryStudyFilesTab)
+		}else if(GlobalVariable.G_inputTabName=="SubjectsTab"){
+			GlobalVariable.G_GQuerySubjectsTab = sheetData.get(i).get(j).getStringCellValue()
+			System.out.println("This is the value of Study Files tab query from switch case : "+GlobalVariable.G_GQuerySubjectsTab)
+		}else if(GlobalVariable.G_inputTabName=="GrantsTab"){
+			GlobalVariable.G_QueryGrantsTab = sheetData.get(i).get(j).getStringCellValue()
+			System.out.println("This is the value of Projects tab query from switch case : "+GlobalVariable.G_QueryGrantsTab)
+		}else if(GlobalVariable.G_inputTabName=="PublicationsTab"){
+			GlobalVariable.G_QueryPublicationsTab = sheetData.get(i).get(j).getStringCellValue()
+			System.out.println("This is the value of Publications tab query from switch case : "+GlobalVariable.G_QueryPublicationsTab)
+		}else if(GlobalVariable.G_inputTabName=="DatasetsTab"){
+			System.out.println("This is the value of Datasets tab query from switch case : "+GlobalVariable.G_QueryDatasetsTab)
+		}else if(GlobalVariable.G_inputTabName=="ClinicalTrialsTab"){
+			GlobalVariable.G_QueryClinTrialsTab = sheetData.get(i).get(j).getStringCellValue()
+			System.out.println("This is the value of Clinical Trials tab query from switch case : "+GlobalVariable.G_QueryClinTrialsTab)
+		}else if(GlobalVariable.G_inputTabName=="DiagnosisTab"){
+			GlobalVariable.G_QueryDiagnosisTab = sheetData.get(i).get(j).getStringCellValue()
+			System.out.println("This is the value of Diagnosis tab query from switch case : "+GlobalVariable.G_QueryDiagnosisTab)
+		}else if(GlobalVariable.G_inputTabName=="StudiesTab"){
+			GlobalVariable.G_QueryStudiesTab = sheetData.get(i).get(j).getStringCellValue()
+			System.out.println("This is the value of Studies tab query from switch case : "+GlobalVariable.G_QueryStudiesTab)
+		}else if(GlobalVariable.G_inputTabName=="PatentsTab"){
+			GlobalVariable.G_QueryPatentsTab = sheetData.get(i).get(j).getStringCellValue()
+			System.out.println("This is the value of Patents tab query from switch case : "+GlobalVariable.G_QueryPatentsTab)
+		}else if(GlobalVariable.G_inputTabName=="SurvivalTab"){
+			GlobalVariable.G_QuerySurvivalTab = sheetData.get(i).get(j).getStringCellValue()
+			System.out.println("This is the value of Survival tab query from switch case : "+GlobalVariable.G_QuerySurvivalTab)
+		}
+	}
 
 
 	/**This function is used for case detail level automation
@@ -354,9 +373,13 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		if (statValue !=0) {
 			ReadCasesTableKatalon(statVal, tbl,tblHdr, nxtBtn, webdataSheetName)
 
-			//ReadExcel.Neo4j(dbdataSheetName,tabQuery)
-			PythonReader.readFile('ResultTabs.py')
-			PythonReader.readFile('Statbar.py')
+			if (appKey.equals("CDS")) {
+				ReadExcel.Memgraph(dbdataSheetName, tabQuery)
+			} else {
+				//ReadExcel.Neo4j(dbdataSheetName,tabQuery)
+				PythonReader.readFile('ResultTabs.py')
+				PythonReader.readFile('Statbar.py')
+			}
 
 			Utils.compareSheets(webdataSheetName, dbdataSheetName)
 
@@ -727,7 +750,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 										System.out.println("This is the value of  table  cell:  "+value)
 									}
 								}else if((tbl_main).equals('//*[@id="sample_tab_table"]')){
-									tblcol=tblcol-4;
+									tblcol=tblcol-3;
 									for (int j = 1; j <=tblcol; j = j +1) {
 										System.out.println("This is the name of column header:  "+colHeader.get(j).getAttribute("innerText"))
 										String value = ((driver.findElement(By.xpath(tbl_bdy +"/tr" + "[" + i + "]/*[" + (j+1) +"]/*[1]")).getAttribute("innerText")))
@@ -1537,10 +1560,10 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		GlobalVariable.G_StatBar_Studies = driver.findElement(By.xpath(cStuds)).getAttribute('innerHTML');
 		System.out.println("This is the value of Studies count from Stat bar:  "+GlobalVariable.G_StatBar_Studies)
 		Thread.sleep(2000)
-		GlobalVariable.G_StatBar_Participants = driver.findElement(By.xpath(cParticipants)).getAttribute('innerHTML');
+		GlobalVariable.G_StatBar_Participants = driver.findElement(By.xpath(cParticipants)).getAttribute('innerHTML').replace(",", "");
 		System.out.println("This is the value of Particp count from Stat bar:  "+GlobalVariable.G_StatBar_Participants)
 		Thread.sleep(2000)
-		GlobalVariable.G_StatBar_Samples = driver.findElement(By.xpath(cSamples)).getAttribute('innerHTML');
+		GlobalVariable.G_StatBar_Samples = driver.findElement(By.xpath(cSamples)).getAttribute('innerHTML').replace(",", "");
 		System.out.println("This is the value of Samples count from Stat bar:  "+GlobalVariable.G_StatBar_Samples)
 		Thread.sleep(2000)
 		GlobalVariable.G_StatBar_Files = driver.findElement(By.xpath(cFiles)).getAttribute('innerHTML').replace(",", "");

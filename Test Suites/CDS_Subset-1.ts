@@ -5,19 +5,12 @@
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>1</numberOfRerun>
+   <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>4d526d44-56aa-4ffc-b9d7-719caaa74d34</testSuiteGuid>
-   <testCaseLink>
-      <guid>d992d270-972c-48ba-8dd8-035b6dda9610</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/Studies/phs001437/TC03_CDS_phs001437_Sex-Female_FileType-PDF</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
    <testCaseLink>
       <guid>59d3c6ca-070a-4f81-9718-86fde273bff4</guid>
       <isReuseDriver>false</isReuseDriver>

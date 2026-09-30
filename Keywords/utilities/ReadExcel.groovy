@@ -196,6 +196,34 @@ public class ReadExcel {
 		Test1.run(neo4jServer,userName,pwd,statQuery,output,statTabName)  //this is for the stat bar counts
 	}
 
+	/**
+	 * Runs the tab query and the stat-bar query against Memgraph and writes both result sheets.
+	 * Connection values come from the active profile: memgraph_endpoint, memgraph_username, and memgraph_password.
+	 */
+	@Keyword
+	public static void Memgraph(String dbSheetName, String tbQuery) {
+		String query = tbQuery
+		System.out.println("This is the value of tab query from memgraph:"+query)
+		String statQuery = GlobalVariable.G_StatQuery
+		String userName = GlobalVariable.memgraph_username
+		String pwd = GlobalVariable.memgraph_password
+		String output = GlobalVariable.G_ResultPath
+		String memgraphServer = GlobalVariable.memgraph_endpoint
+		String statTabName = GlobalVariable.G_StatTabname
+		String cypherTabName = dbSheetName
+
+		System.out.println("Connection data for Memgraph is: user=" + userName + " output=" + output + " server=" + memgraphServer)
+		System.out.println("This is the value of stat query: "+statQuery)
+		System.out.println("This is the value of output filename: "+output)
+		System.out.println("This is the value of stat TabName: "+statTabName)
+		System.out.println("This is the value of cypher TabName: "+cypherTabName)
+
+		ConnectMemgraph connection = new ConnectMemgraph()
+
+		connection.run(memgraphServer, userName, pwd, query, output, cypherTabName)
+		connection.run(memgraphServer, userName, pwd, statQuery, output, statTabName)
+	}
+
 
 
 	@Keyword
