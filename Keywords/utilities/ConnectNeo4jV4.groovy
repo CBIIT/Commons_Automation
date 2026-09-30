@@ -41,7 +41,7 @@ import com.google.gson.JsonParser;
 
 public   class ConnectNeo4jV4{
 
-	private List<String>  messages = new ArrayList<String>();
+	protected List<String>  messages = new ArrayList<String>();
 
 	public void run(String uri,String user,String password,String cypher,String output,String sheetName){
 
