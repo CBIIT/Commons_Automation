@@ -50,7 +50,7 @@
       <guid>d67636aa-cb07-4c6c-af2a-5cbf3c7585c3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/Studies/phs001524/TC04_CDS_phs001524_RefGenAsbly-GRCh37_PrimDiag-Control_ImageModal-NSD</testCaseId>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs001524/TC04_CDS_phs001524_RefGenAsbly-GRCh37_PrimDiag-Control</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -198,13 +198,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CDS_TestCases/Studies/phs003155/TC03_CDS_phs003155_Platform-Illumina_InstrumentModel-HiSeq2000</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>562228ca-01f2-4a93-81e9-c3ad83814d4e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/Studies/phs003155/TC05_CDS_phs003155_LibraryStrategy-NSD_LibrarySelection-NSD</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
