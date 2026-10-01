@@ -22,7 +22,7 @@
       <guid>e4a59d22-c554-45cf-8bc4-66e8b41e689a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/Studies/phs001524/TC04_CDS_phs001524_RefGenAsbly-GRCh37_PrimDiag-Control_ImageModal-NSD</testCaseId>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs001524/TC04_CDS_phs001524_RefGenAsbly-GRCh37_PrimDiag-Control</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

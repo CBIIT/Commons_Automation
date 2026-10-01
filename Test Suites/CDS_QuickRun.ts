@@ -57,7 +57,7 @@
       <guid>d67636aa-cb07-4c6c-af2a-5cbf3c7585c3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/Studies/phs001524/TC04_CDS_phs001524_RefGenAsbly-GRCh37_PrimDiag-Control_ImageModal-NSD</testCaseId>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs001524/TC04_CDS_phs001524_RefGenAsbly-GRCh37_PrimDiag-Control</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[text()='Explore' and @role='button']</value>
+         <value>//div[text()='Explore Participants' and @role='button']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[text()='Explore' and @role='button']</value>
-      <webElementGuid>d2326816-1edc-411b-a4f8-980856728527</webElementGuid>
+      <value>//div[text()='Explore Participants' and @role='button']</value>
+      <webElementGuid>94fb9fa6-4159-45ce-8e97-7415e9dfbffc</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
