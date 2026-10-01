@@ -373,7 +373,9 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		if (statValue !=0) {
 			ReadCasesTableKatalon(statVal, tbl,tblHdr, nxtBtn, webdataSheetName)
 
-			if (appKey.equals("CDS")) {
+			if (appKey.equals("CDS") || appKey.equals("C3DC")) {
+				// CDS and C3DC read tab + stat queries from Memgraph using
+				// memgraph_endpoint / memgraph_username / memgraph_password on the active profile.
 				ReadExcel.Memgraph(dbdataSheetName, tabQuery)
 			} else {
 				//ReadExcel.Neo4j(dbdataSheetName,tabQuery)
@@ -838,7 +840,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 									tblcol=tblcol-6;
 									for (int j = 0; j <tblcol; j = j +1) {
 										System.out.println("This is the name of column header:  "+colHeader.get(j).getAttribute("innerText"))
-										String value = ((driver.findElement(By.xpath(tbl_bdy +"/tr[" + i + "]/td[" + (j+1) +"]")).getAttribute("innerText")))
+										String value = ((driver.findElement(By.xpath(tbl_bdy +"//tr[" + i + "]//td[" + (j+1) +"]")).getAttribute("innerText")))
 										data = data + value + "||"
 										System.out.println("This is the value of  table  cell:  "+value)
 									}
@@ -846,7 +848,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 									tblcol=tblcol-3;
 									for (int j = 1; j <tblcol; j =j+1) {
 										System.out.println("This is the name of column header:  "+colHeader.get(j).getAttribute("innerText"))
-										String value = ((driver.findElement(By.xpath(tbl_bdy +"/tr[" + i + "]/td[" + (j+1) +"]")).getAttribute("innerText")))
+										String value = ((driver.findElement(By.xpath(tbl_bdy +"//tr[" + i + "]//td[" + (j+1) +"]")).getAttribute("innerText")))
 										data = data + value + "||"
 										System.out.println("This is the value of  table  cell:  "+value)
 									}
@@ -854,7 +856,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 									tblcol=tblcol;
 									for (int j = 1; j <tblcol; j = j +1) {
 										System.out.println("This is the name of column header:  "+colHeader.get(j).getAttribute("innerText"))
-										String value = ((driver.findElement(By.xpath(tbl_bdy +"/tr[" + i + "]/td[" + (j+1) +"]")).getAttribute("innerText")))
+										String value = ((driver.findElement(By.xpath(tbl_bdy +"//tr[" + i + "]//td[" + (j+1) +"]")).getAttribute("innerText")))
 										data = data + value + "||"
 										System.out.println("This is the value of  table  cell:  "+value)
 									}
@@ -862,7 +864,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 									tblcol=tblcol+2;
 									for (int j = 1; j <tblcol; j = j +1) {
 										System.out.println("This is the name of column header:  "+colHeader.get(j).getAttribute("innerText"))
-										String value = ((driver.findElement(By.xpath(tbl_bdy +"/tr[" + i + "]/td[" + (j+1) +"]")).getAttribute("innerText")))
+										String value = ((driver.findElement(By.xpath(tbl_bdy +"//tr[" + i + "]//td[" + (j+1) +"]")).getAttribute("innerText")))
 										data = data + value + "||"
 										System.out.println("This is the value of  table  cell:  "+value)
 									}

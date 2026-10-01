@@ -50,14 +50,6 @@ CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Dat
 WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/DiagnosisFacet/PrimaryDiagnosis/ColorectalCarcinoma_Chkbx'),5)
 CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/DiagnosisFacet/PrimaryDiagnosis/ColorectalCarcinoma_Chkbx')
 
-//Clicking dropdown
-WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/ImagingFacet/ImageModality/ImageModality_Ddn'),5)
-CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/Imaging Facet/ImageModality/ImageModality-Ddn')
-
-//Clicking checkbox
-WebUI.waitForElementPresent(findTestObject('Object Repository/CDS/Data_page/Filter/ImagingFacet/ImageModality/NotSpecifiedInData_Chkbx'),5)
-CustomKeywords.'utilities.TestRunner.clickTabCDSStat'('Object Repository/CDS/Data_page/Filter/Imaging Facet/ImageModality/NotSpecifiedInData_Chkbx')
-
 //Read statbar
 CustomKeywords.'utilities.TestRunner.readStatBarCDS'('Object Repository/CDS/StatBar/CDS_StatBar-Studies',
  'Object Repository/CDS/StatBar/CDS_StatBar-Participants','Object Repository/CDS/StatBar/CDS_StatBar-Samples', 'Object Repository/CDS/StatBar/CDS_StatBar-Files')

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;Sex At Birth&quot;]</value>
+         <value>(//*[@id=&quot;Sex at Birth&quot;])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;Sex At Birth&quot;]</value>
-      <webElementGuid>b39f9691-a3c7-46ff-a5e3-32d1867a1dd5</webElementGuid>
+      <value>(//*[@id=&quot;Sex at Birth&quot;])[1]</value>
+      <webElementGuid>05e05e59-f73a-4a23-9c2f-197478dc82bc</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
