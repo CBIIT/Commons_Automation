@@ -193,6 +193,10 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 						assignTabQuery(sheetData, i, j)
 						break;
 					case("TabQuery"):
+						if (appKey.equals("C3DC")) {
+							assignTabQuery(sheetData, i, j)
+							break
+						}
 					// CDS input files name this column TabQuery. Other apps keep the query column.
 						if (appKey.equals("CDS")) {
 							assignTabQuery(sheetData, i, j)
@@ -204,6 +208,10 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 					case ("StatQuery"):  //query for stat bar only
 					// CDS files repeat StatQuery on later rows and those cells are blank.
 						if (appKey.equals("CDS") && sheetData.get(i).get(j).getStringCellValue().trim().isEmpty()) {
+							break
+						}
+					// C3DC does the same. A blank StatQuery on a later row must not clear the query from the first row.
+						if (appKey.equals("C3DC") && sheetData.get(i).get(j).getStringCellValue().trim().isEmpty()) {
 							break
 						}
 						GlobalVariable.G_StatQuery = sheetData.get(i).get(j).getStringCellValue()
@@ -293,6 +301,12 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		}else if(GlobalVariable.G_inputTabName=="SurvivalTab"){
 			GlobalVariable.G_QuerySurvivalTab = sheetData.get(i).get(j).getStringCellValue()
 			System.out.println("This is the value of Survival tab query from switch case : "+GlobalVariable.G_QuerySurvivalTab)
+		}else if(GlobalVariable.G_inputTabName=="GeneticAnalysisTab"){
+			GlobalVariable.G_QueryGeneticAnalysisTab = sheetData.get(i).get(j).getStringCellValue()
+			System.out.println("This is the value of Genetic Analysis tab query from switch case : "+GlobalVariable.G_QueryGeneticAnalysisTab)
+		}else if(GlobalVariable.G_inputTabName=="TreatmentTab"){
+			GlobalVariable.G_QueryTreatmentTab = sheetData.get(i).get(j).getStringCellValue()
+			System.out.println("This is the value of Treatment tab query from switch case : "+GlobalVariable.G_QueryTreatmentTab)
 		}
 	}
 
@@ -625,13 +639,18 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 			columns_count = columns_count;
 			System.out.println("Inside C3DC switch case for header data:  " + columns_count)
 
-			if((tbl_main).equals("//*[@id='study_tab_table']")){
-				for(int c=0;c<columns_count;c++){
-					hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
+			if((tbl_main).equals("//*[@id='participant_tab_table']")){
+				for(int c=1;c<columns_count;c++){
+					String headerText = colHeader.get(c).getAttribute("innerText").trim()
+					if (!"Available CPI Mapping".equals(headerText)) {
+						hdrdata = hdrdata + headerText + "||"
+					}
 				}
 			}else {
-				for(int c=1;c<columns_count;c++){
-					hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
+				for(int c=0;c<columns_count;c++){
+					if (!"Manifest".equals(colHeader.get(c).getAttribute("innerText"))) {
+						hdrdata = hdrdata + (colHeader.get(c).getAttribute("innerText")) + "||"
+					}
 				}
 			}
 
@@ -719,9 +738,14 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 			counter=10;
 		}
 
+		int pages = 10;
+		if(appKey.equals("C3DC")) {
+			pages = 2;
+		}
+
 		if (statValue !=0) {
 
-			while (counter <= 10) {
+			while (counter <= pages) {
 				wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(GlobalVariable.G_cannine_caseTblBdy)));   //the name is misleading but it is only a placeholder for all the applications
 				scrolltoViewjs(driver.findElement(By.xpath(GlobalVariable.G_cannine_caseTblBdy)))
 				TableBdy =driver.findElement(By.xpath(GlobalVariable.G_cannine_caseTblBdy))
@@ -836,41 +860,50 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 
 								int tblcol=GlobalVariable.G_rowcountFiles
 
-								if((tbl_main).equals("//*[@id='study_tab_table']")){
-									tblcol=tblcol-6;
+								if((tbl_main).equals("//*[@id='participant_tab_table']")){
+									tblcol=tblcol-2;
+									for (int j = 1; j <tblcol; j =j+1) {
+										if((colHeader.get(j).getAttribute("innerText") != "Available CPI Mapping")) {
+											String headerText = colHeader.get(j).getAttribute("innerText").trim()
+											System.out.println("This is the name of column header:  "+headerText)
+											String value = ((driver.findElement(By.xpath(tbl_bdy +"//tr[" + i + "]//td[" + (j+1) +"]")).getAttribute("innerText")))
+											data = data + value + "||"
+											System.out.println("This is the value of  table  cell:  "+value)
+										}
+									}
+								}else if((tbl_main).equals("//*[@id='study_tab_table']")){
+									tblcol=tblcol+5;
+									for (int j = 0; j <tblcol; j = j +1) {
+										String header = colHeader.get(j).getAttribute("innerText")
+										if(!header.equals("Manifest")) {
+											System.out.println("This is the name of column header:  "+colHeader.get(j).getAttribute("innerText"))
+											String value = ((driver.findElement(By.xpath(tbl_bdy +"//tr[" + i + "]//td[" + (j+1) +"]")).getAttribute("innerText")))
+											data = data + value + "||"
+											System.out.println("This is the value of  table  cell:  "+value)
+										}
+									}
+								}else if((tbl_main).equals("//*[@id='diagnosis_tab_table']")){
+									tblcol=tblcol-1;
 									for (int j = 0; j <tblcol; j = j +1) {
 										System.out.println("This is the name of column header:  "+colHeader.get(j).getAttribute("innerText"))
 										String value = ((driver.findElement(By.xpath(tbl_bdy +"//tr[" + i + "]//td[" + (j+1) +"]")).getAttribute("innerText")))
 										data = data + value + "||"
 										System.out.println("This is the value of  table  cell:  "+value)
 									}
-								}else if((tbl_main).equals("//*[@id='participant_tab_table']")){
-									tblcol=tblcol-3;
-									for (int j = 1; j <tblcol; j =j+1) {
-										System.out.println("This is the name of column header:  "+colHeader.get(j).getAttribute("innerText"))
-										String value = ((driver.findElement(By.xpath(tbl_bdy +"//tr[" + i + "]//td[" + (j+1) +"]")).getAttribute("innerText")))
-										data = data + value + "||"
-										System.out.println("This is the value of  table  cell:  "+value)
-									}
-								}else if((tbl_main).equals("//*[@id='diagnosis_tab_table']")){
-									tblcol=tblcol;
-									for (int j = 1; j <tblcol; j = j +1) {
-										System.out.println("This is the name of column header:  "+colHeader.get(j).getAttribute("innerText"))
-										String value = ((driver.findElement(By.xpath(tbl_bdy +"//tr[" + i + "]//td[" + (j+1) +"]")).getAttribute("innerText")))
-										data = data + value + "||"
-										System.out.println("This is the value of  table  cell:  "+value)
-									}
 								}else if((tbl_main).equals("//*[@id='genetic_analysis_tab_table']")){
-									tblcol=tblcol+2;
-									for (int j = 1; j <tblcol; j = j +1) {
-										System.out.println("This is the name of column header:  "+colHeader.get(j).getAttribute("innerText"))
-										String value = ((driver.findElement(By.xpath(tbl_bdy +"//tr[" + i + "]//td[" + (j+1) +"]")).getAttribute("innerText")))
-										data = data + value + "||"
-										System.out.println("This is the value of  table  cell:  "+value)
+									tblcol=tblcol+1;
+									for (int j = 0; j <tblcol; j = j +1) {
+										String header = colHeader.get(j).getAttribute("innerText")
+										if(!header.equals("Manifest")) {
+											System.out.println("This is the name of column header:  "+colHeader.get(j).getAttribute("innerText"))
+											String value = ((driver.findElement(By.xpath(tbl_bdy +"//tr[" + i + "]//td[" + (j+1) +"]")).getAttribute("innerText")))
+											data = data + value + "||"
+											System.out.println("This is the value of  table  cell:  "+value)
+										}
 									}
 								}else if((tbl_main).equals("//*[@id='treatment_tab_table']")){
-									tblcol=tblcol;
-									for (int j = 1; j <tblcol; j = j +1) {
+									tblcol=tblcol-1;
+									for (int j = 0; j <tblcol; j = j +1) {
 										System.out.println("This is the name of column header:  "+colHeader.get(j).getAttribute("innerText"))
 										String value = ((driver.findElement(By.xpath(tbl_bdy +"/tr[" + i + "]/td[" + (j+1) +"]")).getAttribute("innerText")))
 										data = data + value + "||"
@@ -885,8 +918,8 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 										System.out.println("This is the value of  table  cell:  "+value)
 									}
 								}else if((tbl_main).equals("//*[@id='survival_tab_table']")){
-									tblcol=tblcol-2;
-									for (int j = 1; j <tblcol; j = j +1) {
+									tblcol=tblcol-3;
+									for (int j = 0; j <tblcol; j = j +1) {
 										System.out.println("This is the name of column header:  "+colHeader.get(j).getAttribute("innerText"))
 										String value = ((driver.findElement(By.xpath(tbl_bdy +"/tr[" + i + "]/td[" + (j+1) +"]")).getAttribute("innerText")))
 										data = data + value + "||"
@@ -1462,25 +1495,30 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 	 //@param cDiag  - this will be used later when diag is available in stat bar
 	 */
 	@Keyword
-	public void readStatBarC3DC(String cDiag, String cParticip, String cStudies) {
+	public void readStatBarC3DC(String cStudies, String cParticip, String cSamples, String cFiles) {
 		Thread.sleep(5000);
 
-		String xcDiag = givexpath(cDiag)
+		String xcStudies = givexpath(cStudies)
 		String xcParticip = givexpath(cParticip)
-		String xcSamples = givexpath(cStudies)
+		String xcSamp = givexpath(cSamples)
+		String xcFiles = givexpath(cFiles)
+
 
 		System.out.println ("Inside read stat bar function for C3DC");
 
-		Thread.sleep(2000)
-		GlobalVariable.G_StatBar_Diagnosis = driver.findElement(By.xpath(xcDiag)).getAttribute("innerText");
-		System.out.println("This is the value of Diagnosis count from Stat bar: "+GlobalVariable.G_StatBar_Diagnosis)
-		Thread.sleep(2000)
+		Thread.sleep(500)
+		GlobalVariable.G_StatBar_Studies = driver.findElement(By.xpath(xcStudies)).getAttribute("innerText");
+		System.out.println("This is the value of Studies count from Stat bar: "+GlobalVariable.G_StatBar_Studies)
+		Thread.sleep(500)
 		GlobalVariable.G_StatBar_Participants = driver.findElement(By.xpath(xcParticip)).getAttribute("innerText").replace(',','');
 		System.out.println("This is the value of Participants count from Stat bar: "+GlobalVariable.G_StatBar_Participants)
-		Thread.sleep(2000)
-		GlobalVariable.G_StatBar_Studies = driver.findElement(By.xpath(xcSamples)).getAttribute("innerText");
-		System.out.println("This is the value of Studies count from Stat bar: "+GlobalVariable.G_StatBar_Studies)
-		Thread.sleep(2000)
+		Thread.sleep(500)
+		GlobalVariable.G_StatBar_Samples = driver.findElement(By.xpath(xcSamp)).getAttribute("innerText").replace(',','');
+		System.out.println("This is the value of Samples count from Stat bar: "+GlobalVariable.G_StatBar_Samples)
+		Thread.sleep(500)
+		GlobalVariable.G_StatBar_Files = driver.findElement(By.xpath(xcFiles)).getAttribute("innerText").replace(',','');
+		System.out.println("This is the value of Files count from Stat bar: "+GlobalVariable.G_StatBar_Files)
+		Thread.sleep(500)
 	}
 
 
@@ -1680,13 +1718,15 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 			(statData.get(0).get(3).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Files)) ? KeywordUtil.markPassed("Statbar Files count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Files count")
 		}else if (getAppName=='C3DC'){
 
-			System.out.println("This is the value of Diagnoses Count from TSV result: "+statData.get(0).get(0).getStringCellValue())  //add in the query in input file later
+			System.out.println("This is the value of Studies Count from TSV result: "+statData.get(0).get(0).getStringCellValue())  //add in the query in input file later
 			System.out.println("This is the value of Participants Count from TSV result: "+statData.get(0).get(1).getStringCellValue())
-			System.out.println("This is the value of Studies Count from TSV result: "+statData.get(0).get(2).getStringCellValue())
+			System.out.println("This is the value of Samples Count from TSV result: "+statData.get(0).get(2).getStringCellValue())
+			System.out.println("This is the value of Files Count from TSV result: "+statData.get(0).get(3).getStringCellValue())
 
-			(statData.get(0).get(0).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Diagnosis)) ? KeywordUtil.markPassed("Statbar Diagnoses count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Diagnosis count")
+			(statData.get(0).get(0).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Studies)) ? KeywordUtil.markPassed("Statbar Studies count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Studies count")
 			(statData.get(0).get(1).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Participants)) ? KeywordUtil.markPassed("Statbar Participants count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Participants count")
-			(statData.get(0).get(2).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Studies)) ? KeywordUtil.markPassed("Statbar Studies count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Studies count")
+			(statData.get(0).get(2).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Samples)) ? KeywordUtil.markPassed("Statbar Samples count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Samples count")
+			(statData.get(0).get(3).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Files)) ? KeywordUtil.markPassed("Statbar Files count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Files count")
 		}
 	}
 
@@ -2260,30 +2300,137 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 
 	//valentina
 	/**
-	 * Generic dropdown selection by visible option text.
+	 * Opens a C3DC result tab by its label.
+	 * Clicks the tab when it is already on the bar. Opens More only when that tab is hidden.
 	 *
-	 * @param option Text visible text to click (exact match after trim)
-	 * @param timeout wait timeout seconds
+	 * @param optionText tab name, such as Diagnosis or Genetic Analyses
+	 * @param timeout wait timeout in seconds
 	 */
-
+	@Keyword
 	static void selectTabByDropdown(String optionText, int timeout) {
+		WebDriver driver = DriverFactory.getWebDriver()
+		WebDriverWait wait = new WebDriverWait(driver, timeout)
+		WebElement firstTab = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//button[@role='tab']")))
+		scrollIntoView(driver, firstTab)
 
-		TestObject dropdown = findTestObject("C3DC/ResultTabs/More_Tabs-Btn")
+		WebElement visibleTab = findDisplayedResultTab(driver, optionText)
+		if (visibleTab != null) {
+			clickResultTab(driver, visibleTab)
+			return
+		}
 
-		WebUI.scrollToElement(dropdown, 10)
-		WebUI.waitForElementClickable(dropdown, 10)
-		WebUI.click(dropdown)
+		By moreBy = By.xpath("(//button[@role='tab'])[last()]/following::button[contains(@class,'more-button') or starts-with(normalize-space(.), 'More')][1]")
+		WebElement more = wait.until(ExpectedConditions.presenceOfElementLocated(moreBy))
+		scrollIntoView(driver, more)
+		Thread.sleep(400)
+		((JavascriptExecutor) driver).executeScript("arguments[0].click();", more)
 
-		//		WebUI.takeScreenshot("Reports/before_select_${optionText}.png")
+		By menuItem = By.xpath("//div[contains(@class,'popover-list-item')]")
+		wait.until(ExpectedConditions.presenceOfElementLocated(menuItem))
+		long end = System.currentTimeMillis() + (timeout * 1000L)
+		WebElement option = null
+		while (option == null && System.currentTimeMillis() < end) {
+			option = findMoreMenuItem(driver, optionText)
+			if (option == null) {
+				Thread.sleep(250)
+			}
+		}
+		if (option == null) {
+			throw new IllegalStateException("Result tab '" + optionText + "' was not on the bar or in More. Open rows: " + moreMenuNames(driver))
+		}
+		((JavascriptExecutor) driver).executeScript("arguments[0].click();", option)
+	}
 
-		TestObject option = byXpath(
-				"//div[@role='presentation']//span[contains(@class,'popover-tab-name') and normalize-space(.)='${optionText}']"
-				)
+	static String moreMenuNames(WebDriver driver) {
+		List<String> names = new ArrayList<String>()
+		List<WebElement> items = driver.findElements(By.xpath("//span[contains(@class,'popover-tab-name')]"))
+		for (WebElement item : items) {
+			try {
+				names.add(tabText(driver, item))
+			} catch (StaleElementReferenceException e) {
+				names.add("")
+			}
+		}
+		return names.toString()
+	}
 
-		WebUI.waitForElementClickable(option, timeout)
-		WebUI.click(option)
+	static WebElement findMoreMenuItem(WebDriver driver, String optionText) {
+		List<WebElement> items = driver.findElements(By.xpath("//div[contains(@class,'popover-list-item')]"))
+		for (WebElement item : items) {
+			try {
+				List<WebElement> names = item.findElements(By.xpath(".//span[contains(@class,'popover-tab-name')]"))
+				String text = names.isEmpty() ? tabText(driver, item) : tabText(driver, names.get(0))
+				if (resultTabLabelMatches(text, optionText)) {
+					return item
+				}
+			} catch (StaleElementReferenceException e) {
+				continue
+			}
+		}
+		return null
+	}
 
-		//		WebUI.takeScreenshot("Reports/after_select_${optionText}.png")
+	static WebElement findDisplayedResultTab(WebDriver driver, String optionText) {
+		return findDisplayedResultTab(driver, optionText, By.xpath("//button[@role='tab']"))
+	}
+
+	static WebElement findDisplayedResultTab(WebDriver driver, String optionText, By locator) {
+		List<WebElement> tabs = driver.findElements(locator)
+		for (WebElement tab : tabs) {
+			try {
+				if (resultTabLabelMatches(tabText(driver, tab), optionText)) {
+					return tab
+				}
+			} catch (StaleElementReferenceException e) {
+				continue
+			}
+		}
+		return null
+	}
+
+	static String tabText(WebDriver driver, WebElement element) {
+		JavascriptExecutor js = (JavascriptExecutor) driver
+		Object text = js.executeScript("return arguments[0].textContent;", element)
+		return text == null ? "" : text.toString()
+	}
+
+	static boolean resultTabLabelMatches(String raw, String optionText) {
+		String label = raw == null ? "" : raw.replace('\u00A0', ' ').replaceAll("\\s+", " ").trim()
+		String name = optionText == null ? "" : optionText.replace('\u00A0', ' ').replaceAll("\\s+", " ").trim()
+		if (tabLabelPrefixMatches(label, name)) {
+			return true
+		}
+		// The bar stacks a long name on two lines, so textContent is "GeneticAnalyses(461)".
+		String compactLabel = label.replaceAll("\\s+", "")
+		String compactName = name.replaceAll("\\s+", "")
+		return tabLabelPrefixMatches(compactLabel, compactName)
+	}
+
+	static boolean tabLabelPrefixMatches(String label, String name) {
+		if (name == null || name.isEmpty() || label == null) {
+			return false
+		}
+		if (label.equalsIgnoreCase(name)) {
+			return true
+		}
+		if (label.length() <= name.length()) {
+			return false
+		}
+		if (!label.regionMatches(true, 0, name, 0, name.length())) {
+			return false
+		}
+		return !Character.isLetterOrDigit(label.charAt(name.length()))
+	}
+
+	static void scrollIntoView(WebDriver driver, WebElement element) {
+		JavascriptExecutor js = (JavascriptExecutor) driver
+		js.executeScript("arguments[0].scrollIntoView({block: 'center'});", element)
+	}
+
+	static void clickResultTab(WebDriver driver, WebElement tab) {
+		scrollIntoView(driver, tab)
+		JavascriptExecutor js = (JavascriptExecutor) driver
+		js.executeScript("arguments[0].click();", tab)
 	}
 
 	static TestObject byXpath(String xpath) {

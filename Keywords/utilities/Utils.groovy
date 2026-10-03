@@ -278,27 +278,27 @@ public class Utils {
 	public static void compareSheets(String webSheetName, String tsvSheetName) {
 
 		List<List<String>> UIData = new ArrayList<>();
-		List<List<String>> tsvData = new ArrayList<>();
+		List<List<String>> DbData = new ArrayList<>();
 
 		// Initializing files path
 		String UIfilename = GlobalVariable.G_WebExcel.toString();
-		String tsvFilename = GlobalVariable.G_ResultPath.toString();
+		String DbFilename = GlobalVariable.G_ResultPath.toString();
 
-		System.out.println("This is the full UI   file path: " + UIfilename);
-		System.out.println("This is the full TSV  file path: " + tsvFilename);
+		System.out.println("This is the full UI  file path: " + UIfilename);
+		System.out.println("This is the full Db  file path: " + DbFilename);
 
 		// Read UI output excel
 		UIData = ReadExcel.readOutputExcel(UIfilename, webSheetName);
 		Collections.sort(UIData, new TestRunner());
 
 		// Read TSV or DB output excel
-		tsvData = ReadExcel.readOutputExcel(tsvFilename, tsvSheetName);
-		Collections.sort(tsvData, new TestRunner());
+		DbData = ReadExcel.readOutputExcel(DbFilename, tsvSheetName);
+		Collections.sort(DbData, new TestRunner());
 
 		System.out.println("This is the row size of the UIWeb Output data: " + UIData.size());
-		System.out.println("This is the row size of the TSV   Output data: " + tsvData.size());
+		System.out.println("This is the row size of the TSV   Output data: " + DbData.size());
 
-		compareTwoLists(UIData, tsvData);
+		compareTwoLists(UIData, DbData);
 	}
 
 
@@ -395,12 +395,12 @@ public class Utils {
 
 					// And tweak the equality check to allow exact match after cleaning:
 					if (l1Value.equals(l2Value) || l1ValueClean.equals(l2Value) || uiNorm.equals(tsvNorm)) {
-						System.out.println("UI  data cell value is:  " + l1Value + "\nTSV data cell value is:  " + l2Value);
+						System.out.println("UI data cell value is:  " + l1Value + "\nDB data cell value is:  " + l2Value);
 						System.out.println("Content matches for Row: " + l1rowCount + " Col: " + col + " \u2713");
 					} else {
 						System.err.println("*********** DATA MISMATCH ***********");
-						System.err.println("UI  data cell value is:  " + l1Value + "\nTSV data cell value is:  " + l2Value);
-						System.err.println("UI  normalized: " + uiNorm + " | TSV normalized: " + tsvNorm);
+						System.err.println("UI data cell value is:  " + l1Value + "\nDB data cell value is:  " + l2Value);
+						//System.err.println("UI  normalized: " + uiNorm + "\nDB normalized: " + tsvNorm);
 						System.err.println("Content does not match for Row: " + l1rowCount + " Col: " + col + " \u2717");
 						KeywordUtil.markFailed("*********** DATA MISMATCH in compareTwoLists *************");
 					}

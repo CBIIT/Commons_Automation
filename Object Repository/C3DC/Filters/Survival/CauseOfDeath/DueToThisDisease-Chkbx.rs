@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Cause Of Death_Due to this disease&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Cause of Death_Due to this disease&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Cause Of Death_Due to this disease&quot;]</value>
+      <value>//*[@id=&quot;checkbox_Cause of Death_Due to this disease&quot;]</value>
       <webElementGuid>a1c752c4-075b-430d-b36c-623c94ecb838</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

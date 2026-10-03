@@ -203,7 +203,7 @@ public class ReadExcel {
 	@Keyword
 	public static void Memgraph(String dbSheetName, String tbQuery) {
 		String query = tbQuery
-		System.out.println("This is the value of tab query from memgraph:"+query)
+		System.out.println("This is the value of tab query from memgraph:\n"+query)
 		String statQuery = GlobalVariable.G_StatQuery
 		String userName = GlobalVariable.memgraph_username
 		String pwd = GlobalVariable.memgraph_password
@@ -213,7 +213,7 @@ public class ReadExcel {
 		String cypherTabName = dbSheetName
 
 		System.out.println("Connection data for Memgraph is: user=" + userName + " output=" + output + " server=" + memgraphServer)
-		System.out.println("This is the value of stat query: "+statQuery)
+		System.out.println("This is the value of stat query:\n"+statQuery)
 		System.out.println("This is the value of output filename: "+output)
 		System.out.println("This is the value of stat TabName: "+statTabName)
 		System.out.println("This is the value of cypher TabName: "+cypherTabName)

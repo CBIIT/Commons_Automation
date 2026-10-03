@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Anatomic Site_C70.0 : Cerebral meninges&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Diagnosis Anatomic Site_C70.0 : Cerebral meninges&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Anatomic Site_C70.0 : Cerebral meninges&quot;]</value>
+      <value>//*[@id=&quot;checkbox_Diagnosis Anatomic Site_C70.0 : Cerebral meninges&quot;]</value>
       <webElementGuid>e595784b-5c94-4c90-9e55-1b48fad2cd49</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

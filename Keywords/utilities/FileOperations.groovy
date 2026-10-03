@@ -490,8 +490,7 @@ public class FileOperations {
 		XSSFSheet sheet = workbook.getSheetAt(1); //Deletes from sheet index 1, that is the second sheet in the workbook
 		//			HSSFWorkbook workbook = new HSSFWorkbook(fis); // Create an excel workbook from the file system.
 		//			HSSFSheet sheet = workbook.getSheetAt(1);
-		ArrayList<Integer> colsToDelete = new ArrayList<Integer>(){
-					{
+		ArrayList<Integer> colsToDelete = new ArrayList<Integer>(){ {
 						add(5);add(4);add(3)
 					}
 				}; //these index are for manifest excel

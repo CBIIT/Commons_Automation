@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Anatomic Site_C06.0 : Cheek mucosa&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Diagnosis Anatomic Site_C06.0 : Cheek mucosa&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Anatomic Site_C06.0 : Cheek mucosa&quot;]</value>
+      <value>//*[@id=&quot;checkbox_Diagnosis Anatomic Site_C06.0 : Cheek mucosa&quot;]</value>
       <webElementGuid>ef586863-309a-484f-b8f8-662105e7f10f</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

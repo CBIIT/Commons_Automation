@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Tumor classification_Unknown&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Tumor Spatial Extent_Unknown&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Tumor classification_Unknown&quot;]</value>
+      <value>//*[@id=&quot;checkbox_Tumor Spatial Extent_Unknown&quot;]</value>
       <webElementGuid>a37e1e85-3215-49b4-8e1b-7ff2805734f4</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

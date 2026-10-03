@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Anatomic Site_C11.2 : Lateral wall of nasopharynx&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Diagnosis Anatomic Site_C11.2 : Lateral wall of nasopharynx&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Anatomic Site_C11.2 : Lateral wall of nasopharynx&quot;]</value>
+      <value>//*[@id=&quot;checkbox_Diagnosis Anatomic Site_C11.2 : Lateral wall of nasopharynx&quot;]</value>
       <webElementGuid>9a22a05b-1798-4b2f-8ce8-19410ae80a40</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

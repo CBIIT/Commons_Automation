@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Anatomic site_C30.0 : Nasal cavity&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Sample Anatomic Site_C30.0 : Nasal cavity&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Anatomic site_C30.0 : Nasal cavity&quot;]</value>
+      <value>//*[@id=&quot;checkbox_Sample Anatomic Site_C30.0 : Nasal cavity&quot;]</value>
       <webElementGuid>4299316f-e506-4011-806c-a865f407bcda</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Studies-Count</name>
+   <name>Files-Count</name>
    <tag></tag>
-   <elementGuidId>1aa13341-61f8-42b0-aeff-1ceb7a2a0b7c</elementGuidId>
+   <elementGuidId>9ad05ca8-4998-437c-b761-c32b4bfb056c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;statsbar_count_1&quot;]</value>
+         <value>//*[@id=&quot;statsbar_count_4&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;statsbar_count_1&quot;]</value>
-      <webElementGuid>e8c3feeb-eb85-4a45-8701-2fd548903c11</webElementGuid>
+      <value>//*[@id=&quot;statsbar_count_4&quot;]</value>
+      <webElementGuid>b236aa23-c9d2-4f88-bd87-3fef07779089</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

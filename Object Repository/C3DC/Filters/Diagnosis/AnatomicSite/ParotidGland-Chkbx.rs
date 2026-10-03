@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Anatomic Site_C07.9 : Parotid gland&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Diagnosis Anatomic Site_C07.9 : Parotid gland&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Anatomic Site_C07.9 : Parotid gland&quot;]</value>
+      <value>//*[@id=&quot;checkbox_Diagnosis Anatomic Site_C07.9 : Parotid gland&quot;]</value>
       <webElementGuid>2d6a23bf-4b47-4586-b76a-97952ed094a0</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
