@@ -307,6 +307,9 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		}else if(GlobalVariable.G_inputTabName=="TreatmentTab"){
 			GlobalVariable.G_QueryTreatmentTab = sheetData.get(i).get(j).getStringCellValue()
 			System.out.println("This is the value of Treatment tab query from switch case : "+GlobalVariable.G_QueryTreatmentTab)
+		}else if(GlobalVariable.G_inputTabName=="TreatmentRespTab"){
+			GlobalVariable.G_QueryTrtmntRespTab = sheetData.get(i).get(j).getStringCellValue()
+			System.out.println("This is the value of Treatment Response tab query from switch case : "+GlobalVariable.G_QueryTrtmntRespTab)
 		}
 	}
 
@@ -397,7 +400,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 				PythonReader.readFile('Statbar.py')
 			}
 
-			Utils.compareSheets(webdataSheetName, dbdataSheetName)
+			Utils.compareSheetsByRow(webdataSheetName, dbdataSheetName)
 
 			System.out.println("Control is before validate stat bar function from multifunction")
 			validateStatBar(appName)
@@ -919,6 +922,14 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 									}
 								}else if((tbl_main).equals("//*[@id='survival_tab_table']")){
 									tblcol=tblcol-3;
+									for (int j = 0; j <tblcol; j = j +1) {
+										System.out.println("This is the name of column header:  "+colHeader.get(j).getAttribute("innerText"))
+										String value = ((driver.findElement(By.xpath(tbl_bdy +"/tr[" + i + "]/td[" + (j+1) +"]")).getAttribute("innerText")))
+										data = data + value + "||"
+										System.out.println("This is the value of  table  cell:  "+value)
+									}
+								}else if((tbl_main).equals("//*[@id='sample_tab_table']")){
+									tblcol=tblcol-1;
 									for (int j = 0; j <tblcol; j = j +1) {
 										System.out.println("This is the name of column header:  "+colHeader.get(j).getAttribute("innerText"))
 										String value = ((driver.findElement(By.xpath(tbl_bdy +"/tr[" + i + "]/td[" + (j+1) +"]")).getAttribute("innerText")))
@@ -2201,7 +2212,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		}
 
 		writeDataToExcel(uiDataRows);
-		Utils.compareSheets("WebDatasets","TsvDatasets");
+		Utils.compareSheetsByRow("WebDatasets","TsvDatasets");
 	}
 
 
@@ -2307,7 +2318,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 	 * @param timeout wait timeout in seconds
 	 */
 	@Keyword
-	static void selectTabByDropdown(String optionText, int timeout) {
+	static void selectTab(String optionText, int timeout) {
 		WebDriver driver = DriverFactory.getWebDriver()
 		WebDriverWait wait = new WebDriverWait(driver, timeout)
 		WebElement firstTab = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//button[@role='tab']")))
