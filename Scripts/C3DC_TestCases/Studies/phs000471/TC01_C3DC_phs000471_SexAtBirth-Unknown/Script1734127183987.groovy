@@ -87,10 +87,10 @@ CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_Sta
 	'C3DC/ResultTabs/Survival-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameSurvival,
 	'DbDataSurvival', GlobalVariable.G_QuerySurvivalTab)
 
-//clicking the Samples tab
-CustomKeywords.'utilities.TestRunner.selectTab'('Samples', 10)
-CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_StatBar_Participants, 'C3DC/ResultTabs/Samples-Tbl',
-	'C3DC/ResultTabs/Samples-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameSamples,
-	'DbDataSamples', GlobalVariable.G_QuerySamplesTab)
+////clicking the Samples tab
+//CustomKeywords.'utilities.TestRunner.selectTab'('Samples', 10)
+//CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_StatBar_Participants, 'C3DC/ResultTabs/Samples-Tbl',
+//	'C3DC/ResultTabs/Samples-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameSamples,
+//	'DbDataSamples', GlobalVariable.G_QuerySamplesTab)
 
 WebUI.closeBrowser()

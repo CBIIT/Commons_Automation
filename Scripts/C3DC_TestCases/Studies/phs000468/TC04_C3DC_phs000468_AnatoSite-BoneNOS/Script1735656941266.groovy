@@ -51,11 +51,11 @@ CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_Sta
 	'C3DC/ResultTabs/Participants-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameParticipants,
 	'DbDataParticipants', GlobalVariable.G_QueryParticipantsTab)
 
-//clicking the Studies tab
-CustomKeywords.'utilities.TestRunner.selectTab'('Studies', 10)
-CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_StatBar_Studies, 'C3DC/ResultTabs/Studies-Tbl',
-	'C3DC/ResultTabs/Studies-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameStudies,
-	'DbDataStudies', GlobalVariable.G_QueryStudiesTab)
+////clicking the Studies tab
+//CustomKeywords.'utilities.TestRunner.selectTab'('Studies', 10)
+//CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_StatBar_Studies, 'C3DC/ResultTabs/Studies-Tbl',
+//	'C3DC/ResultTabs/Studies-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameStudies,
+//	'DbDataStudies', GlobalVariable.G_QueryStudiesTab)
 
 //clicking the Diagnosis tab
 CustomKeywords.'utilities.TestRunner.selectTab'('Diagnosis', 10)

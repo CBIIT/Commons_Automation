@@ -1607,16 +1607,16 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 		String cSamples = givexpath(cdsSamples)
 		String cFiles = givexpath(cdsFiles)
 
-		Thread.sleep(2000)
+		Thread.sleep(1000)
 		GlobalVariable.G_StatBar_Studies = driver.findElement(By.xpath(cStuds)).getAttribute('innerHTML');
 		System.out.println("This is the value of Studies count from Stat bar:  "+GlobalVariable.G_StatBar_Studies)
-		Thread.sleep(2000)
+		Thread.sleep(1000)
 		GlobalVariable.G_StatBar_Participants = driver.findElement(By.xpath(cParticipants)).getAttribute('innerHTML').replace(",", "");
 		System.out.println("This is the value of Particp count from Stat bar:  "+GlobalVariable.G_StatBar_Participants)
-		Thread.sleep(2000)
+		Thread.sleep(1000)
 		GlobalVariable.G_StatBar_Samples = driver.findElement(By.xpath(cSamples)).getAttribute('innerHTML').replace(",", "");
 		System.out.println("This is the value of Samples count from Stat bar:  "+GlobalVariable.G_StatBar_Samples)
-		Thread.sleep(2000)
+		Thread.sleep(1000)
 		GlobalVariable.G_StatBar_Files = driver.findElement(By.xpath(cFiles)).getAttribute('innerHTML').replace(",", "");
 		System.out.println("This is the value  of Files  count from Stat bar:  "+GlobalVariable.G_StatBar_Files)
 	}
@@ -1707,10 +1707,10 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 			(statData.get(0).get(5).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Files)) ? KeywordUtil.markPassed("Statbar Files count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Files count")
 		}else if (getAppName=='CDS'){
 
-			System.out.println("This is the value of Studies Count from TSV result:  "+statData.get(0).get(0).getStringCellValue())  //add in the query in input file later
-			System.out.println("This is the value of Partici Count from TSV result:  "+statData.get(0).get(1).getStringCellValue())
-			System.out.println("This is the value of Samples Count from TSV result:  "+statData.get(0).get(2).getStringCellValue())
-			System.out.println("This is the value of Files   Count from TSV result:  "+statData.get(0).get(3).getStringCellValue())
+			System.out.println("This is the value of Studies Count from DB result:  "+statData.get(0).get(0).getStringCellValue())  //add in the query in input file later
+			System.out.println("This is the value of Partici Count from DB result:  "+statData.get(0).get(1).getStringCellValue())
+			System.out.println("This is the value of Samples Count from DB result:  "+statData.get(0).get(2).getStringCellValue())
+			System.out.println("This is the value of Files   Count from DB result:  "+statData.get(0).get(3).getStringCellValue())
 
 			(statData.get(0).get(0).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Studies)) ? KeywordUtil.markPassed("Statbar Studies count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Studies count")
 			(statData.get(0).get(1).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Participants)) ? KeywordUtil.markPassed("Statbar Participants count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Participants count")
@@ -1718,10 +1718,10 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 			(statData.get(0).get(3).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Files)) ? KeywordUtil.markPassed("Statbar Files count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Files count")
 		}else if (getAppName=='CCDI'){
 
-			System.out.println("This is the value of Studies Count from TSV result: "+statData.get(0).get(0).getStringCellValue())  //add in the query in input file later
-			System.out.println("This is the value of Participants Count from TSV result: "+statData.get(0).get(1).getStringCellValue())
+			System.out.println("This is the value of Studies Count from DB result: "+statData.get(0).get(0).getStringCellValue())  //add in the query in input file later
+			System.out.println("This is the value of Participants Count from DB result: "+statData.get(0).get(1).getStringCellValue())
 			System.out.println("This is the value of Samples Count from TSV result: "+statData.get(0).get(2).getStringCellValue())
-			System.out.println("This is the value of Files Count from TSV result: "+statData.get(0).get(3).getStringCellValue())
+			System.out.println("This is the value of Files Count from DB result: "+statData.get(0).get(3).getStringCellValue())
 
 			(statData.get(0).get(0).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Studies)) ? KeywordUtil.markPassed("Statbar Studies count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Studies count")
 			(statData.get(0).get(1).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Participants)) ? KeywordUtil.markPassed("Statbar Participants count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Participants count")
@@ -1729,10 +1729,10 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 			(statData.get(0).get(3).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Files)) ? KeywordUtil.markPassed("Statbar Files count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Files count")
 		}else if (getAppName=='C3DC'){
 
-			System.out.println("This is the value of Studies Count from TSV result: "+statData.get(0).get(0).getStringCellValue())  //add in the query in input file later
-			System.out.println("This is the value of Participants Count from TSV result: "+statData.get(0).get(1).getStringCellValue())
-			System.out.println("This is the value of Samples Count from TSV result: "+statData.get(0).get(2).getStringCellValue())
-			System.out.println("This is the value of Files Count from TSV result: "+statData.get(0).get(3).getStringCellValue())
+			System.out.println("This is the value of Studies Count from DB result: "+statData.get(0).get(0).getStringCellValue())  //add in the query in input file later
+			System.out.println("This is the value of Participants Count from DB result: "+statData.get(0).get(1).getStringCellValue())
+			System.out.println("This is the value of Samples Count from DB result: "+statData.get(0).get(2).getStringCellValue())
+			System.out.println("This is the value of Files Count from DB result: "+statData.get(0).get(3).getStringCellValue())
 
 			(statData.get(0).get(0).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Studies)) ? KeywordUtil.markPassed("Statbar Studies count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Studies count")
 			(statData.get(0).get(1).getStringCellValue().contentEquals(GlobalVariable.G_StatBar_Participants)) ? KeywordUtil.markPassed("Statbar Participants count matches"): KeywordUtil.markFailed("Mismatch in Stat Bar Participants count")

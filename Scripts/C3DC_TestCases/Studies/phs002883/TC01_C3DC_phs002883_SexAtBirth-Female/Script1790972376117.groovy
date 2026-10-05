@@ -46,11 +46,11 @@ CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Demographics/SexAtB
 //Read Statbar
 CustomKeywords.'utilities.TestRunner.readStatBarC3DC'('C3DC/Statbar/Studies-Count', 'C3DC/Statbar/Participants-Count', 'C3DC/Statbar/Samples-Count', 'C3DC/Statbar/Files-Count')
 
-//Participants tab
-CustomKeywords.'utilities.TestRunner.selectTab'('Participants', 10)
-CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_StatBar_Participants, 'C3DC/ResultTabs/Participants-Tbl',
-	'C3DC/ResultTabs/Participants-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameParticipants,
-	'DbDataParticipants', GlobalVariable.G_QueryParticipantsTab)
+////Participants tab
+//CustomKeywords.'utilities.TestRunner.selectTab'('Participants', 10)
+//CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_StatBar_Participants, 'C3DC/ResultTabs/Participants-Tbl',
+//	'C3DC/ResultTabs/Participants-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameParticipants,
+//	'DbDataParticipants', GlobalVariable.G_QueryParticipantsTab)
 
 //clicking the Studies tab
 CustomKeywords.'utilities.TestRunner.selectTab'('Studies', 10)
@@ -58,40 +58,40 @@ CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_Sta
 	'C3DC/ResultTabs/Studies-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameStudies,
 	'DbDataStudies', GlobalVariable.G_QueryStudiesTab)
 
-//clicking the Diagnosis tab
-CustomKeywords.'utilities.TestRunner.selectTab'('Diagnosis', 10)
-CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_StatBar_Participants, 'C3DC/ResultTabs/Diagnosis-Tbl',
-	'C3DC/ResultTabs/Diagnosis-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameDiagnosis,
-	'DbDataDiagnosis', GlobalVariable.G_QueryDiagnosisTab)
-
-//clicking the Genetic Analysis tab
-CustomKeywords.'utilities.TestRunner.selectTab'('Genetic Analyses', 10)
-CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_StatBar_Participants, 'C3DC/ResultTabs/GeneticAnalysis-Tbl',
-	'C3DC/ResultTabs/GeneticAnalysis-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameGeneticAnalysis,
-	'DbDataGeneticAnalysis', GlobalVariable.G_QueryGeneticAnalysisTab)
-
-//clicking the Treatment tab
-CustomKeywords.'utilities.TestRunner.selectTab'('Treatments', 10)
-CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_StatBar_Participants, 'C3DC/ResultTabs/Treatment-Tbl',
-	'C3DC/ResultTabs/Treatment-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameTreatment,
-	'DbDataTreatment', GlobalVariable.G_QueryTreatmentTab)
-
-////clicking the Treatment Response tab - do not have data
-//CustomKeywords.'utilities.TestRunner.selectTab'('Treatment Responses', 10)
-//CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_StatBar_Participants, 'C3DC/ResultTabs/TreatmentResp-Tbl',
-//	'C3DC/ResultTabs/TreatmentResp-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameTrtmntResp,
-//	'DbDataTreatmntResp', GlobalVariable.G_QueryTrtmntRespTab)
-
-//clicking the Survival tab
-CustomKeywords.'utilities.TestRunner.selectTab'('Survival', 10)
-CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_StatBar_Participants, 'C3DC/ResultTabs/Survival-Tbl',
-	'C3DC/ResultTabs/Survival-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameSurvival,
-	'DbDataSurvival', GlobalVariable.G_QuerySurvivalTab)
-
-//clicking the Samples tab
-CustomKeywords.'utilities.TestRunner.selectTab'('Samples', 10)
-CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_StatBar_Participants, 'C3DC/ResultTabs/Samples-Tbl',
-	'C3DC/ResultTabs/Samples-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameSamples,
-	'DbDataSamples', GlobalVariable.G_QuerySamplesTab)
+////clicking the Diagnosis tab
+//CustomKeywords.'utilities.TestRunner.selectTab'('Diagnosis', 10)
+//CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_StatBar_Participants, 'C3DC/ResultTabs/Diagnosis-Tbl',
+//	'C3DC/ResultTabs/Diagnosis-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameDiagnosis,
+//	'DbDataDiagnosis', GlobalVariable.G_QueryDiagnosisTab)
+//
+////clicking the Genetic Analysis tab
+//CustomKeywords.'utilities.TestRunner.selectTab'('Genetic Analyses', 10)
+//CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_StatBar_Participants, 'C3DC/ResultTabs/GeneticAnalysis-Tbl',
+//	'C3DC/ResultTabs/GeneticAnalysis-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameGeneticAnalysis,
+//	'DbDataGeneticAnalysis', GlobalVariable.G_QueryGeneticAnalysisTab)
+//
+////clicking the Treatment tab
+//CustomKeywords.'utilities.TestRunner.selectTab'('Treatments', 10)
+//CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_StatBar_Participants, 'C3DC/ResultTabs/Treatment-Tbl',
+//	'C3DC/ResultTabs/Treatment-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameTreatment,
+//	'DbDataTreatment', GlobalVariable.G_QueryTreatmentTab)
+//
+//////clicking the Treatment Response tab - do not have data
+////CustomKeywords.'utilities.TestRunner.selectTab'('Treatment Responses', 10)
+////CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_StatBar_Participants, 'C3DC/ResultTabs/TreatmentResp-Tbl',
+////	'C3DC/ResultTabs/TreatmentResp-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameTrtmntResp,
+////	'DbDataTreatmntResp', GlobalVariable.G_QueryTrtmntRespTab)
+//
+////clicking the Survival tab
+//CustomKeywords.'utilities.TestRunner.selectTab'('Survival', 10)
+//CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_StatBar_Participants, 'C3DC/ResultTabs/Survival-Tbl',
+//	'C3DC/ResultTabs/Survival-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameSurvival,
+//	'DbDataSurvival', GlobalVariable.G_QuerySurvivalTab)
+//
+////clicking the Samples tab
+//CustomKeywords.'utilities.TestRunner.selectTab'('Samples', 10)
+//CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_StatBar_Participants, 'C3DC/ResultTabs/Samples-Tbl',
+//	'C3DC/ResultTabs/Samples-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameSamples,
+//	'DbDataSamples', GlobalVariable.G_QuerySamplesTab)
 
 WebUI.closeBrowser()

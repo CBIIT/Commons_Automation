@@ -323,44 +323,43 @@ public class Utils {
 	 * Replaced by compareSheetsByRow, which sorts each whole row and is used for every AppKey.
 	 * compareSheets sorted by the first column only. compareSheetsC3DC did the whole-row sort for C3DC only.
 	 *
-	@Keyword
-	public static void compareSheets(String webSheetName, String tsvSheetName) {
-		List<List<String>> UIData = new ArrayList<>();
-		List<List<String>> DbData = new ArrayList<>();
-		String UIfilename = GlobalVariable.G_WebExcel.toString();
-		String DbFilename = GlobalVariable.G_ResultPath.toString();
-		System.out.println("This is the full UI  file path: " + UIfilename);
-		System.out.println("This is the full Db  file path: " + DbFilename);
-		UIData = ReadExcel.readOutputExcel(UIfilename, webSheetName);
-		Collections.sort(UIData, new TestRunner());
-		DbData = ReadExcel.readOutputExcel(DbFilename, tsvSheetName);
-		Collections.sort(DbData, new TestRunner());
-		System.out.println("This is the row size of the UIWeb Output data: " + UIData.size());
-		System.out.println("This is the row size of the TSV   Output data: " + DbData.size());
-		compareTwoLists(UIData, DbData);
-	}
-
-	@Keyword
-	public static void compareSheetsC3DC(String webSheetName, String tsvSheetName) {
-		if (!"C3DC".equals(GlobalVariable.AppKey?.toString())) {
-			System.out.println("compareSheetsC3DC skipped because AppKey is " + GlobalVariable.AppKey)
-			return
-		}
-		List<List<String>> UIData = new ArrayList<>();
-		List<List<String>> DbData = new ArrayList<>();
-		String UIfilename = GlobalVariable.G_WebExcel.toString();
-		String DbFilename = GlobalVariable.G_ResultPath.toString();
-		System.out.println("C3DC compare. UI file path: " + UIfilename);
-		System.out.println("C3DC compare. Db file path: " + DbFilename);
-		UIData = ReadExcel.readOutputExcel(UIfilename, webSheetName);
-		DbData = ReadExcel.readOutputExcel(DbFilename, tsvSheetName);
-		Collections.sort(UIData, C3DC_ROW_ORDER);
-		Collections.sort(DbData, C3DC_ROW_ORDER);
-		System.out.println("This is the row size of the UIWeb Output data: " + UIData.size());
-		System.out.println("This is the row size of the TSV   Output data: " + DbData.size());
-		compareTwoLists(UIData, DbData);
-	}
-	*/
+	 @Keyword
+	 public static void compareSheets(String webSheetName, String tsvSheetName) {
+	 List<List<String>> UIData = new ArrayList<>();
+	 List<List<String>> DbData = new ArrayList<>();
+	 String UIfilename = GlobalVariable.G_WebExcel.toString();
+	 String DbFilename = GlobalVariable.G_ResultPath.toString();
+	 System.out.println("This is the full UI  file path: " + UIfilename);
+	 System.out.println("This is the full Db  file path: " + DbFilename);
+	 UIData = ReadExcel.readOutputExcel(UIfilename, webSheetName);
+	 Collections.sort(UIData, new TestRunner());
+	 DbData = ReadExcel.readOutputExcel(DbFilename, tsvSheetName);
+	 Collections.sort(DbData, new TestRunner());
+	 System.out.println("This is the row size of the UIWeb Output data: " + UIData.size());
+	 System.out.println("This is the row size of the TSV   Output data: " + DbData.size());
+	 compareTwoLists(UIData, DbData);
+	 }
+	 @Keyword
+	 public static void compareSheetsC3DC(String webSheetName, String tsvSheetName) {
+	 if (!"C3DC".equals(GlobalVariable.AppKey?.toString())) {
+	 System.out.println("compareSheetsC3DC skipped because AppKey is " + GlobalVariable.AppKey)
+	 return
+	 }
+	 List<List<String>> UIData = new ArrayList<>();
+	 List<List<String>> DbData = new ArrayList<>();
+	 String UIfilename = GlobalVariable.G_WebExcel.toString();
+	 String DbFilename = GlobalVariable.G_ResultPath.toString();
+	 System.out.println("C3DC compare. UI file path: " + UIfilename);
+	 System.out.println("C3DC compare. Db file path: " + DbFilename);
+	 UIData = ReadExcel.readOutputExcel(UIfilename, webSheetName);
+	 DbData = ReadExcel.readOutputExcel(DbFilename, tsvSheetName);
+	 Collections.sort(UIData, C3DC_ROW_ORDER);
+	 Collections.sort(DbData, C3DC_ROW_ORDER);
+	 System.out.println("This is the row size of the UIWeb Output data: " + UIData.size());
+	 System.out.println("This is the row size of the TSV   Output data: " + DbData.size());
+	 compareTwoLists(UIData, DbData);
+	 }
+	 */
 
 
 

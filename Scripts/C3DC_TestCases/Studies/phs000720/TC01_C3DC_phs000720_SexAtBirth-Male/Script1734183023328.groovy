@@ -45,6 +45,53 @@ CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Demographics/SexAtB
 //Read Statbar
 CustomKeywords.'utilities.TestRunner.readStatBarC3DC'('C3DC/Statbar/Studies-Count', 'C3DC/Statbar/Participants-Count', 'C3DC/Statbar/Samples-Count', 'C3DC/Statbar/Files-Count')
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//This is a data problem, not an automation-query problem. The query is counting file nodes, and that count of 2,501 is correct.
+
+//The stat bar counts files the way the backend index does: one file per dcf_indexd_guid. For Male participants in phs000720, 232 different Open FASTQ files were loaded with the same GUID
+// dg.4DFC/a9c9e5ab-5e50-4a54-a972-1fc2bce0f054. The index collapses those 232 nodes into 1 file, so the page shows 2,270.
+//Yes, this is a real issue, and the test is right to fail. Do not change the query to make it pass.
+
+//The page shows 2,270 because the backend file index keeps one record per dcf_indexd_guid. In phs000720, 232 different Open FASTQ files were loaded with the same GUID, so the stat bar counts them as 1 file. The query counts the 2,501 file nodes, which is the real file count.
+
+//Report that as a data defect: those 232 FASTQ files share 
+//dg.4DFC/a9c9e5ab-5e50-4a54-a972-1fc2bce0f054. Leave TC01_C3DC_phs000720_SexAtBirth-Male failing until that GUID is corrected. After the reload, the stat bar should show 2,501 and this case should pass without a query change.
+//dg.4DFC/a9c9e5ab-5e50-4a54-a972-1fc2bce0f054
+
+
+
+
+
+
+
+
+
+
+
+
+
 //Participants tab
 CustomKeywords.'utilities.TestRunner.selectTab'('Participants', 10)
 CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_StatBar_Participants, 'C3DC/ResultTabs/Participants-Tbl',
