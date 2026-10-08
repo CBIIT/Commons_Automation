@@ -642,7 +642,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 			columns_count = columns_count;
 			System.out.println("Inside C3DC switch case for header data:  " + columns_count)
 
-			if((tbl_main).equals("//*[@id='participant_tab_table']")){
+			if((tbl_main).equals("//*[@id='participant_tab_table']") || (tbl_main).equals("//*[@id='file_tab_table']")){
 				for(int c=1;c<columns_count;c++){
 					String headerText = colHeader.get(c).getAttribute("innerText").trim()
 					if (!"Available CPI Mapping".equals(headerText)) {
@@ -931,6 +931,14 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 								}else if((tbl_main).equals("//*[@id='sample_tab_table']")){
 									tblcol=tblcol-1;
 									for (int j = 0; j <tblcol; j = j +1) {
+										System.out.println("This is the name of column header:  "+colHeader.get(j).getAttribute("innerText"))
+										String value = ((driver.findElement(By.xpath(tbl_bdy +"/tr[" + i + "]/td[" + (j+1) +"]")).getAttribute("innerText")))
+										data = data + value + "||"
+										System.out.println("This is the value of  table  cell:  "+value)
+									}
+								}else if((tbl_main).equals("//*[@id='file_tab_table']")){
+									tblcol=tblcol+2;
+									for (int j = 1; j <tblcol; j =j+1) {
 										System.out.println("This is the name of column header:  "+colHeader.get(j).getAttribute("innerText"))
 										String value = ((driver.findElement(By.xpath(tbl_bdy +"/tr[" + i + "]/td[" + (j+1) +"]")).getAttribute("innerText")))
 										data = data + value + "||"
@@ -2319,6 +2327,7 @@ public class TestRunner implements Comparator<List<XSSFCell>>{
 	 */
 	@Keyword
 	static void selectTab(String optionText, int timeout) {
+
 		WebDriver driver = DriverFactory.getWebDriver()
 		WebDriverWait wait = new WebDriverWait(driver, timeout)
 		WebElement firstTab = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//button[@role='tab']")))

@@ -93,4 +93,12 @@ CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_Sta
 //	'C3DC/ResultTabs/Samples-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameSamples,
 //	'DbDataSamples', GlobalVariable.G_QuerySamplesTab)
 
+
+////clicking the Files tab
+//WebUI.waitForElementPresent(findTestObject('C3DC/Navbar/ExploreFiles-Tab'), 5)
+//CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Navbar/ExploreFiles-Tab')
+//CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_StatBar_Files, 'C3DC/ResultTabs/Files-Tbl',
+//	'C3DC/ResultTabs/Files-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameFiles,
+//	'DbDataFiles', GlobalVariable.G_QueryFilesTab)
+
 WebUI.closeBrowser()

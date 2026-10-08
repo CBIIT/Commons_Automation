@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Files-Tbl</name>
+   <tag></tag>
+   <elementGuidId>57d543e6-d994-49f1-9e79-e4e5cd46253e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id='file_tab_table']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id='file_tab_table']</value>
+      <webElementGuid>a0a76481-4f40-4de8-bb8d-bdf2822c6ca0</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

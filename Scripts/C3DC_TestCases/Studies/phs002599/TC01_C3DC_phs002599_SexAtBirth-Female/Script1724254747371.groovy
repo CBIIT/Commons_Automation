@@ -34,6 +34,9 @@ CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Study/dbGaP_Accessi
 WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Study/dbGaP_Accession/phs002599-Chkbx'), 10)
 CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Study/dbGaP_Accession/phs002599-Chkbx')
 
+WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Demographics/Demographics_Facet'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Demographics/Demographics_Facet')
+
 WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Demographics/SexAtBirth/SexAtBirth-Ddn'), 5)
 CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Demographics/SexAtBirth/SexAtBirth-Ddn')
 
@@ -67,11 +70,11 @@ CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_Sta
 //	'C3DC/ResultTabs/GeneticAnalysis-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameGeneticAnalysis,
 //	'DbDataGeneticAnalysis', GlobalVariable.G_QueryGeneticAnalysisTab)
 
-//clicking the Treatment tab
-CustomKeywords.'utilities.TestRunner.selectTab'('Treatments', 10)
-CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_StatBar_Participants, 'C3DC/ResultTabs/Treatment-Tbl',
-	'C3DC/ResultTabs/Treatment-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameTreatment,
-	'DbDataTreatment', GlobalVariable.G_QueryTreatmentTab)
+////clicking the Treatment tab
+//CustomKeywords.'utilities.TestRunner.selectTab'('Treatments', 10)
+//CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_StatBar_Participants, 'C3DC/ResultTabs/Treatment-Tbl',
+//	'C3DC/ResultTabs/Treatment-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameTreatment,
+//	'DbDataTreatment', GlobalVariable.G_QueryTreatmentTab)
 
 ////clicking the Treatment Response tab - do not have data
 //CustomKeywords.'utilities.TestRunner.selectTab'('Treatment Responses', 10)
@@ -90,5 +93,13 @@ CustomKeywords.'utilities.TestRunner.selectTab'('Samples', 10)
 CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_StatBar_Participants, 'C3DC/ResultTabs/Samples-Tbl',
 	'C3DC/ResultTabs/Samples-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameSamples,
 	'DbDataSamples', GlobalVariable.G_QuerySamplesTab)
+
+
+////clicking the Files tab
+//WebUI.waitForElementPresent(findTestObject('C3DC/Navbar/ExploreFiles-Tab'), 5)
+//CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Navbar/ExploreFiles-Tab')
+//CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_StatBar_Files, 'C3DC/ResultTabs/Files-Tbl',
+//	'C3DC/ResultTabs/Files-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameFiles,
+//	'DbDataFiles', GlobalVariable.G_QueryFilesTab)
 
 WebUI.closeBrowser()
