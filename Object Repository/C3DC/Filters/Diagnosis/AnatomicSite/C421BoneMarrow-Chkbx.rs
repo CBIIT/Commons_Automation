@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Anatomic Site_C42.1 : Bone marrow&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Diagnosis Anatomic Site_C42.1 : Bone marrow&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Anatomic Site_C42.1 : Bone marrow&quot;]</value>
+      <value>//*[@id=&quot;checkbox_Diagnosis Anatomic Site_C42.1 : Bone marrow&quot;]</value>
       <webElementGuid>996c1c2d-9910-438b-b99d-1db175e69849</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

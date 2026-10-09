@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Study Short Title_TARGET Neuroblastoma&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Study Name_Molecular Characterization Initiative&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Study Short Title_TARGET Neuroblastoma&quot;]</value>
+      <value>//*[@id=&quot;checkbox_Study Name_Molecular Characterization Initiative&quot;]</value>
       <webElementGuid>e8ba3546-8b46-48fe-ba33-62d74265a4f3</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

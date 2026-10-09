@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Anatomic Site_C10.9 : Oropharynx, NOS&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Diagnosis Anatomic Site_C10.9 : Oropharynx, NOS&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Anatomic Site_C10.9 : Oropharynx, NOS&quot;]</value>
+      <value>//*[@id=&quot;checkbox_Diagnosis Anatomic Site_C10.9 : Oropharynx, NOS&quot;]</value>
       <webElementGuid>44e7fdc6-4b3e-41c9-a523-24cff33aad5e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

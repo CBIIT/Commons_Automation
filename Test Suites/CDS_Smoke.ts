@@ -491,7 +491,7 @@
       <guid>531342cf-3f9d-4914-a059-8424ace1da04</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/Studies/phs002677/TC04_CDS_phs002677_Sex-NSD_PrimDiag_NA_FileType-TSV</testCaseId>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs002677/TC04_CDS_phs002677_Sex-NA_PrimDiag_NA_FileType-TSV</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

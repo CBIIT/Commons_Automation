@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_dbGaP ACCESSION_phs002371&quot;]</value>
+         <value>//*[@id=&quot;checkbox_dbGaP Accession_phs002371&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_dbGaP ACCESSION_phs002371&quot;]</value>
+      <value>//*[@id=&quot;checkbox_dbGaP Accession_phs002371&quot;]</value>
       <webElementGuid>243c5551-79b9-496f-b05a-6bc6823dc443</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

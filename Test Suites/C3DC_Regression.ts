@@ -12,626 +12,752 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>69e442de-f9c2-4c23-8ed1-f2ba29d6d16b</testSuiteGuid>
    <testCaseLink>
-      <guid>2dfcce75-a06d-4687-b2cd-4a0e56db17a4</guid>
+      <guid>3157e16f-c932-4091-a6fa-18d6b7b90bf4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000463/TC10_C3DC_phs000463_FirstEvent-Relapse</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>86217783-9d96-4ea1-bdae-7810d8e06a61</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000463/TC08_C3DC_phs000463_LastKnSurStats-Unknown</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>edaf62aa-530d-4a4f-b1e6-aab2d27b1565</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000463/TC07_C3DC_phs000463_DiseasePhase-InitialDiag</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a08f4172-dec9-46ca-90d7-7add765981e1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000463/TC02_C3DC_phs000463_Race-Asian</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4054f5ea-da57-44cb-97ac-0a1c77fcea4f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000463/TC06_C3DC_phs000463_DiagnBasis-Clinical</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>aa890a67-5869-4b08-b56e-c8cabfd2c217</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000463/TC01_C3DC_phs000463_SexAtBirth-Female</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dcd7f946-ce1c-4362-8416-629b191c02f6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000463/TC05_C3DC_phs000463_DiagnClasfSystem-ICD-O-3</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1b4718c2-4164-4db6-9c3c-2d44d7346e61</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000466/TC05_C3DC_phs000466_Diagnosis-89643ClearSarcKidney</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>3bff3bb7-163e-45f7-b129-0f25229a0247</guid>
+      <guid>fc62a1eb-45fc-49a5-b662-9650a50c9ded</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000466/TC09_C3DC_phs000466_LastKnownSurStatus-Dead</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>775e446c-57af-4d0b-935e-533a04eb97b8</guid>
+      <guid>8e844d0b-068a-432a-88e2-8370b6e7c075</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000466/TC10_C3DC_phs000466_CauseOfDeath-NotApplicable</testCaseId>
+      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000466/TC04_C3DC_phs000466_AnatomicSite-Kidney</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>c8f15e31-b9ee-4677-a37f-8debfd0aa1ae</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000466/TC04_C3DC_phs000466_AnatomicSite-C649KidneyNOS</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>2ec082a5-5ee9-4684-88c7-911561089c9d</guid>
+      <guid>3579da6a-91d1-4c05-9952-e17705752d71</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000466/TC08_C3DC_phs000466_DiseasePhase-InitialDiag</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>7f8c375e-d486-4c3a-abe3-f246cc7d64d4</guid>
+      <guid>7a184cbe-0d42-4e1d-8545-2ec95cfab6ac</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000466/TC07_C3DC_phs000466_DiagnBasis-NotReported</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>7fad9c30-6425-40ea-b395-4a2453e1b26e</guid>
+      <guid>b91a0cd2-f406-4197-add9-4d07c87471b7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000466/TC06_C3DC_phs000466_DiagnClasfSystem-ICD-O-3</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>b29cefe5-2e04-42b8-9c52-c73ee98ab76e</guid>
+      <guid>632f2ca0-63d8-4e40-a843-84e43470e2f3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000466/TC01_C3DC_phs000466_SexAtBirth-Male</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>60c54e85-8fa3-4f61-a586-50851e161d19</guid>
+      <guid>0a44ae9d-964f-4a99-8f0a-2716081d019b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000466/TC02_C3DC_phs000466_Race-BlackAfriAmerican</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>3377b275-9d0d-469f-94aa-d2ca43901652</guid>
+      <guid>67ea83ec-aff4-434e-a793-f09ea3cb445a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000466/TC11_C3DC_phs000466_FirstEvent-Relapse</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>da7eb574-77a4-43ff-a52e-fa1dcdd83aa2</guid>
+      <guid>36c89ac8-458c-438e-bf94-5aadc86a6838</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000466/TC03_C3DC_phs000466_Race-HispOrLatino</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>33343087-21a8-48f7-a900-96835071ad5d</guid>
+      <guid>1b4200e9-b66f-4005-9e91-e04830ee1aa6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000467/TC02_C3DC_phs000467_Race-BlackAfriAmerican</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>43153223-ebd1-4068-a123-8dccba98332b</guid>
+      <guid>b090d0c3-f3a8-4fd2-a844-10f3bd9b8ee0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000467/TC04_C3DC_phs000467_AnatoSite-Liver</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>3bc8205c-4f6f-4f7e-b71a-1c632a313fdd</guid>
+      <guid>575978f6-a8bd-4a07-84e2-7a92755ab757</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000467/TC05_C3DC_phs000467_Diagnosis-Ganglioneuroblastoma</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>a284f4cb-d97e-4aa2-a32f-5c1b5c50aefc</guid>
+      <guid>1ce61fea-0103-447c-8658-1f580fba9cdc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000467/TC07_C3DC_phs000467_DiagnBasis-NotReported</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>931eb2e5-a4a9-4a51-822b-f7c3af81dbd6</guid>
+      <guid>f10a2b6d-204f-415d-8453-1a5b702cb3f5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000467/TC01_C3DC_phs000467_SexAtBirth-Male</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>e45a4462-e0e8-4688-b263-c6e987db46da</guid>
+      <guid>3860e30e-2536-4ebb-97ec-241583aed0ed</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000467/TC09_C3DC_phs000467_LastKnownSurStatus-Dead</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>a355b15f-bfb7-4df9-9855-09d982d5e352</guid>
+      <guid>9b4cffac-8343-4448-95ca-e5d6c68fb0e7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000467/TC03_C3DC_phs000467_Race-HispOrLatino</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>809f0fbf-a699-4869-b795-ebaa55415f65</guid>
+      <guid>695b7980-8bb1-4d8d-95d6-372403cfa095</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000467/TC10_C3DC_phs000467_CauseOfDeath-NotReported</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>f70b3eac-9d4b-4e5c-a549-33546af8b213</guid>
+      <guid>2bac23dc-9f7b-40d3-8c82-cfdcab1446c4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000467/TC06_C3DC_phs000467_DiagnClasfSystem-ICD-O-3</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>ab333037-c28e-456a-accd-6b8f2a936790</guid>
+      <guid>99b65581-8c5c-4a57-ab7a-528ca4e63249</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000467/TC08_C3DC_phs000467_DiseasePhase-InitialDiag</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>75ce4601-73aa-4950-92f3-47f837ff1ff0</guid>
+      <guid>eca62ca2-9709-4c2c-ab3d-d69f971196fc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000467/TC11_C3DC_phs000467_FirstEvent-NotReported</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>78295cd1-f204-46cd-94a5-05a27b7a1d93</guid>
+      <guid>b7bfc680-fe87-4864-915d-d2c7748041a0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000468/TC02_C3DC_phs000468_Race-BlackAfriAmerican</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>e255d6ea-4be6-40de-8a93-879cfd9a9476</guid>
+      <guid>f4831cad-1d9e-4d98-903b-c1918d8bbf2d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000468/TC09_C3DC_phs000468_LastKnSurStatus-NotReported</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>6786d888-6010-4301-911e-0e963bc8ef3a</guid>
+      <guid>4a072fe0-a6e5-4436-a314-9b1f8fe27bb5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000468/TC07_C3DC_phs000468_DiagnBasis-NotReported</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>cf2e9e37-a549-4cfc-b193-aa9b71f101f7</guid>
+      <guid>dbcd67d0-1bf0-4b53-ad62-8bf0d6573184</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000468/TC10_C3DC_phs000468_CauseOfDeath-NotReported</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>afcd328d-8239-46ec-b5d1-0968ccc29545</guid>
+      <guid>e7c312f7-1134-441b-8ea8-392aa16bd9d4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000468/TC11_C3DC_phs000468_FirstEvent-Death</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>7f258cc3-7f0b-40b1-a6e3-73c8a3154346</guid>
+      <guid>258bca9a-c46b-4111-9b10-d7235eab90f6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000468/TC01_C3DC_phs000468_SexAtBirth-Male</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>758f23b5-3c29-4174-9a0a-2e404bf45501</guid>
+      <guid>33ce8490-fada-4362-ba47-81c2c3f54864</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000468/TC03_C3DC_phs000468_Race-HispOrLatino</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>5d511024-d424-4477-93e0-82a88c8c51c3</guid>
+      <guid>7d465e1a-d264-4a2c-8437-4780a88f8a99</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000468/TC05_C3DC_phs000468_Diagnosis-OsteosarNOS</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>22e5665b-1418-4568-a3ff-f0a8285d0dd7</guid>
+      <guid>5bed3893-1c82-46c0-96fb-250a861fc13e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000468/TC04_C3DC_phs000468_AnatoSite-BoneNOS</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>da09aeae-8084-4c43-b4d1-8848350d362d</guid>
+      <guid>dbfa4907-dd58-441b-bd13-45924c8f5367</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000468/TC08_C3DC_phs000468_DiseasePhase-InitialDiag</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>b30696d9-9f20-4066-ae62-ef24977620ff</guid>
+      <guid>991a4692-be3e-435f-81c5-0067cc4c283a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000468/TC06_C3DC_phs000468_DiagnClasfSystem-ICD-O-3</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>4a179886-c759-49bb-9fd7-7eafc63e9808</guid>
+      <guid>5741d56d-35df-4663-93de-7bae690a0c8d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000469/TC11_C3DC_phs000469_FirstEvent-Relapse</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>274210fa-0f77-442c-9668-e68d8906adad</guid>
+      <guid>87c56707-d735-418e-b732-bfed92fec4c9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000469/TC05_C3DC_phs000469_Diagnosis-Neuroblastoma</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d0cb2446-ddff-4bb2-bc0f-1016922d0a8f</guid>
+      <guid>6b74f18a-ef35-40a1-a3ca-e46d89577247</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000469/TC04_C3DC_phs000469_AnatoSite-AdreGlndNOS</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>bfe50a8f-0519-43e3-ad05-b1701a408ac2</guid>
+      <guid>dd0b1cbd-b068-40cf-9d9a-6fd6ddd8b5e0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000469/TC01_C3DC_phs000469_SexAtBirth-Male</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>36b9645a-4ede-4a76-a22a-abd4f1ca815b</guid>
+      <guid>691ea9be-16a9-4cbd-931c-c9c4d6575c3a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000469/TC02_C3DC_phs000469_Race-White</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>7bc36078-6e29-4b97-a546-b8a69cf424b7</guid>
+      <guid>6fb9505f-f798-4069-9b3a-11951a1d13be</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000469/TC07_C3DC_phs000469_DiagnBasis-NotReported</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>76dbf0b5-2f7a-4aee-9de2-620556abfb9b</guid>
+      <guid>28b996c3-193d-4d3e-9c18-cd70fac0ba1f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000469/TC06_C3DC_phs000469_DiagnClasfSystem-ICD-O-3</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>b276b950-d01a-4f56-af49-133cd3a47091</guid>
+      <guid>49c35a59-499b-452d-b0fa-18cd385ebe5b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000469/TC09_C3DC_phs000469_LastKnownSurStatus-Dead</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>8c2139dd-5f60-4716-aca7-455046695894</guid>
+      <guid>8ae5947b-07b1-485a-8cf2-83f81641be75</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000469/TC08_C3DC_phs000469_DiseasePhase-InitialDiag</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>ed42f905-d34e-44d4-b827-11a61133869f</guid>
+      <guid>0471d245-3a2f-4948-8ebe-124e13f171bb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000469/TC10_C3DC_phs000469_CauseOfDeath-NotReported</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d85ea224-e1d5-4e41-ae18-45fc792f86dc</guid>
+      <guid>22c75845-3121-4440-9ef7-c3af3ea1591b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000470/TC09_C3DC_phs000470_LastKnownSurStatus-Dead</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d12b709b-38ef-4b67-907e-0edb13552f81</guid>
+      <guid>6691d7c5-0f60-405e-9cc9-4b079b966296</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000470/TC07_C3DC_phs000470_DiagnBasis-NotReported</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>eb4fadaf-062f-48e7-babf-3c51beb0b012</guid>
+      <guid>5ca4c5bc-ef8f-4009-a52f-f107c2b6200b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000470/TC04_C3DC_phs000470_AnatomicSite-C649KidneyNOS</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>eaf19ec2-195f-41fc-8ff7-07728796214a</guid>
+      <guid>80a57365-f848-4ff2-885e-007636e0d395</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000470/TC10_C3DC_phs000470_CauseOfDeath-DueToThisDisease</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>683f0ef8-e175-47c1-8964-1b9182d74f4b</guid>
+      <guid>c78e21a7-6382-47fd-8796-99a3ba43169e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000470/TC02_C3DC_phs000470_Race-BlackAfriAmerican</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>4380dff7-92bb-4f46-b37f-8e0d4a2d538e</guid>
+      <guid>304bdbb9-53af-4565-ad40-60becf9916f5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000470/TC08_C3DC_phs000470_DiseasePhase-InitialDiag</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>a8f3bba2-f96c-4fa0-b6be-55cef6ceeead</guid>
+      <guid>7b12a20b-c879-4c51-889a-44fb8e14b469</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000470/TC11_C3DC_phs000470_FirstEvent-Death</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>78d39482-d803-4ed7-9223-b5420f40dbf1</guid>
+      <guid>9e7513d1-b529-4168-bf21-d587f8bda1aa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000470/TC03_C3DC_phs000470_Race-HispOrLatino</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>dce099e7-0a44-4ff8-8b27-ee500e608db2</guid>
+      <guid>93930fd8-9296-43e4-a65a-8a0ca745f637</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000470/TC06_C3DC_phs000470_DiagnClasfSystem-ICD-O-3</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>8e43d13f-1ff5-494c-b886-e4436872b573</guid>
+      <guid>eaccfdc6-19be-47e7-993c-b8dd5479269a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000470/TC05_C3DC_phs000470_Diagnosis-RhabdoidTumNOS</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>1d6756cf-efb8-498e-9bf0-73600069e54f</guid>
+      <guid>5ee8b473-c846-4200-87f9-41aee9f55928</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000470/TC01_C3DC_phs000470_SexAtBirth-Male</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>bbdc68e8-6a55-4b37-9e76-80a4e2168947</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000471/TC04_C3DC_phs000471_AnatomicSite-C649KidneyNOS</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>2a040019-be6a-477b-b21b-b409968a78f1</guid>
+      <guid>770481e8-df94-4f0a-b258-e2c3388fc2ec</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000471/TC11_C3DC_phs000471_FirstEvent-Progression</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d0d6e219-16f1-4cea-85b2-be54b69a1a9d</guid>
+      <guid>1520f0e7-16ac-45c6-b9d2-9e604a597896</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000471/TC10_C3DC_phs000471_CauseOfDeath-DueToOtherCause</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>3486e4ca-f597-45f0-989d-33b916662b9b</guid>
+      <guid>a58f60f7-59eb-49bc-98cf-ae5a5b3488ac</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000471/TC01_C3DC_phs000471_SexAtBirth-Unknown</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>78362c34-cfb6-4860-924f-eaa3e8f390e0</guid>
+      <guid>ea991d12-5847-4406-b867-33115c43cb29</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000471/TC09_C3DC_phs000471_LastKnownSurStatus-Dead</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>912479dd-8922-4feb-b73a-d1173a35dc3d</guid>
+      <guid>a08e9270-0516-42dd-8fa9-657920afc5fa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000471/TC02_C3DC_phs000471_Race-Unknown</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>46866cde-8a51-41bb-8a68-ccb9a2413a53</guid>
+      <guid>b6b221be-a137-492d-8bd8-31c4cf19711c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000471/TC03_C3DC_phs000471_Race-HispOrLatino</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>1952b663-e093-4206-906d-2160f4300c5b</guid>
+      <guid>66f69883-ec72-4580-9bab-b99a59cc72bf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000471/TC06_C3DC_phs000471_DiagnClasfSystem-ICD-O-3</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>9b42b3e9-7bdd-48a1-be27-02c199643d94</guid>
+      <guid>46954fed-64db-4a8f-a951-54e0b0e420cf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000471/TC07_C3DC_phs000471_DiagnBasis-NotReported</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>89613c03-6408-467c-bf2c-7efbe5ba4e1e</guid>
+      <guid>b136e8e5-6d2c-423a-9249-e94a07f01cd0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000471/TC05_C3DC_phs000471_Diagnosis-NephroblastomaNOS</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>3b9919a0-edbb-4313-b61b-82910ef49836</guid>
+      <guid>d6ee612a-67c3-45c8-a4db-6cde5d7196d6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000471/TC08_C3DC_phs000471_DiseasePhase-InitialDiag</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>b41d9b4c-44ff-48a5-8091-41f584911368</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000720/TC04_C3DC_phs000720_AnatomicSite-C060CheekMucosa</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>1d845d7e-3a76-4ed6-b186-d88fe4c49d17</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000720/TC02_C3DC_phs000720_Race-AmerIndAlaskaNative</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>bcbb033b-4ab5-4598-990d-7d94d309ec7d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000720/TC11_C3DC_phs000720_FirstEvent-NotReported</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>5280b64b-cd08-43e6-bb05-e013d72cf70e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000720/TC01_C3DC_phs000720_SexAtBirth-Male</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>e0565f1f-38c1-4255-af55-45da15394720</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000720/TC10_C3DC_phs000720_CauseOfDeath-NotReported</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>fa1298fd-a4ca-4658-a0c6-ef8b7c20d630</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000720/TC09_C3DC_phs000720_LastKnownSurStatus-NotReported</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>69ed4348-13bd-4ccf-9e3c-1eda31b86e02</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000720/TC03_C3DC_phs000720_Race-Asian</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>89f37243-bd03-4a43-a0a7-b23ccbe674fd</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000720/TC06_C3DC_phs000720_DiagnClasfSystem-ICD-O-3</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>9afeae7d-a721-43fc-a49f-f195b119083b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000720/TC07_C3DC_phs000720_DiagnBasis-Clinical</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>f2c527fb-966c-4952-b991-28574e622eaa</guid>
+      <guid>62bf4724-421e-44b2-ab9f-4cabd710c71c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000720/TC05_C3DC_phs000720_Diagnosis-SacromaNOS</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>073f5ee2-5958-4455-b6a1-addb51fc092b</guid>
+      <guid>2cf07b95-a6f4-4af0-89f8-2043d0d90540</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000720/TC06_C3DC_phs000720_DiagnClasfSystem-ICD-O-3</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2c6d3608-2786-47db-b245-b1a5889aae69</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000720/TC02_C3DC_phs000720_Race-AmerIndAlaskaNative</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f173d4ba-1dc3-400e-b857-61166a8aa110</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000720/TC07_C3DC_phs000720_DiagnBasis-Clinical</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7f3cdbd7-f10d-4f2a-9e2d-5b8d4990dcce</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000720/TC01_C3DC_phs000720_SexAtBirth-Male</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>89f71dd9-c8c5-4774-aa5e-a3fbcd380266</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000720/TC08_C3DC_phs000720_DiseasePhase-Relapse</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>479ab3c2-b9c7-4c2e-a9d4-262ab3c38dda</guid>
+      <guid>e7f2d691-ea73-436c-a79e-adaeada0422b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000720/TC10_C3DC_phs000720_CauseOfDeath-NotReported</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b6575617-f4dd-413c-ae95-683322624c7e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000720/TC09_C3DC_phs000720_LastKnownSurStatus-NotReported</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5da3542e-5050-40b1-bb45-e813b78d7f66</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000720/TC03_C3DC_phs000720_Race-Asian</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3cdcb5a9-dfbc-4aa8-8a46-43b874e3a25e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000720/TC11_C3DC_phs000720_FirstEvent-NotReported</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6f63b15e-c232-41cc-aa73-a089ebd17cc2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs000720/TC04_C3DC_phs000720_AnatomicSite-C060CheekMucosa</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9d18d570-a184-49e6-a38b-4843cad75679</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs001437/TC11_C3DC_phs001437_LastKnSurStatus-Unknown</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>e9a9f9a6-5468-4b2c-9cf1-5826c39620d9</guid>
+      <guid>e4e8399e-f42a-462f-a9cf-1098b236ff32</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs001437/TC13_C3DC_phs001437_FirstEven-NotReported</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>071a7e5f-56f3-4fb0-ba3b-31dc032d9515</guid>
+      <guid>4a6837f7-ef86-4f4f-8b80-84a034546b2a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs001437/TC07_C3DC_phs001437_DiagnBasis-Unknown</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>8cbc9e50-2c0f-40d3-ae21-824bbbd7d58c</guid>
+      <guid>0abbe3f6-e2cd-4e8b-8f6d-6e69be4b5f14</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs001437/TC10_C3DC_phs001437_TrtmntAgent-Carboplatin</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>f167c1a8-f3a4-4631-b04c-ce5b22411fb0</guid>
+      <guid>3b91e866-6463-4a87-84fe-d3bc5db74b61</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs001437/TC01_C3DC_phs001437_SexAtBirth-Unknown</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>86ad2f04-4491-406b-9a49-7fb88b565233</guid>
+      <guid>d712a598-d629-4f7b-ad17-ab1099135b95</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs001437/TC09_C3DC_phs001437_TrtmntType-Chemotherapy</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>dece9fb8-9623-40c5-b40d-82356bb90b5c</guid>
+      <guid>0ef1bf39-e765-42a5-be6a-a59cb8dfb054</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs001437/TC02_C3DC_phs001437_SexAtBirth-Female</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>2cd531e0-1873-4e65-a9b0-73d8a12f70c7</guid>
+      <guid>5f827669-ef7b-4b83-857a-6ee9b5635eb3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs001437/TC04_C3DC_phs001437_AnatoSite-Liver</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>5d1580ac-8087-4409-ac44-574b9766d033</guid>
+      <guid>e5928513-62a9-48db-82db-7f31048e93e3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs001437/TC12_C3DC_phs001437_CauseOfDeath-NotReported</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>8b0cc1a7-9f30-4518-aaa9-83e9159b4049</guid>
+      <guid>ba720aaa-ae59-4f8d-8ddc-6b4cac804bfc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs001437/TC03_C3DC_phs001437_Race-Asian</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>7b44a12f-76d6-4ff0-8f7e-69fd67a1561f</guid>
+      <guid>a6449993-b3d1-4814-864e-d8ea43484835</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs001437/TC08_C3DC_phs001437_DiseasePhase-Unknown</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>3045744c-9120-4454-a6f4-d1fd40f217e3</guid>
+      <guid>51986b31-db30-4558-a8c0-6ea8bc1a588c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs001437/TC05_C3DC_phs001437_Diagnosis-RhabTumorNOS</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>394871b8-1773-4753-8ce1-be39e57fe0ae</guid>
+      <guid>242fdb43-e761-42e2-83bc-fbfac9164f6d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/C3DC_TestCases/Studies/phs001437/TC06_C3DC_phs001437_DiagnClasfSystem-ICD-O-3</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c671c7e6-18e5-4927-b9d8-f49a5f2c34f3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs002371/TC12_C3DC_phs002371_CauseOfDeath-Unknown</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8b769464-c4bf-47c9-8941-7c493887cbf8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs002371/TC04_C3DC_phs002371_AnatomicSite-Blood</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c2524504-47b9-4189-b63c-8f15631adaf7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs002371/TC09_C3DC_phs002371_TrtmntType-Chemotherapy</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>62ede9f4-2bbe-45e2-a637-801802b81129</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs002371/TC10_C3DC_phs002371_TrtmntAgent-Unknown</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>069599cc-df1c-4213-bc34-36b53016087f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs002371/TC11_C3DC_phs002371_LastKnSurStatus-Alive</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>18423855-b5a8-4685-85c8-b14bfec255d3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs002371/TC13_C3DC_phs002371_FirstEven-Unknown</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>05de30d3-4170-4dc1-9d91-2917c6213c78</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs002371/TC06_C3DC_phs002371_DiagnClasfSystem-ICD-O-3</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>75fa435d-02ce-4567-a247-6d5f81b929c2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs002371/TC01_C3DC_phs002371_SexAtBirth-Male</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6bcb4027-02a2-4c13-875d-34494ab87d4c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs002371/TC07_C3DC_phs002371_DiagnBasis-Clinical</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>124b4b75-aaac-487e-a642-6c3f88de2b9c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs002371/TC02_C3DC_phs002371_SexAtBirth-Female</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d3db0e41-642d-4d9d-a6da-5266635f927d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs002371/TC03_C3DC_phs002371_Race-NotReported</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3653a7a0-45da-4787-b6c3-adadab9e2b7b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs002371/TC08_C3DC_phs002371_DiseasePhase-Unknown</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b3bf61cb-31c7-4f61-81fa-6ebb76597d4c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/C3DC_TestCases/Studies/phs002371/TC05_C3DC_phs002371_Diagnosis-AcuteLeukemiaNOS</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
