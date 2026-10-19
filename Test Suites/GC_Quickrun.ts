@@ -12,10 +12,10 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>1a1894ec-d471-409e-9c1a-52f98d401908</testSuiteGuid>
    <testCaseLink>
-      <guid>1671756a-7268-44d7-bf0e-3135324ad9cc</guid>
+      <guid>e79feef1-a2f1-43af-a068-1979d687508a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CDS_TestCases/Studies/GC_QuickRunupdates</testCaseId>
+      <testCaseId>Test Cases/CDS_TestCases/Studies/phs000720/TC02_CDS_phs000720_Sex_Male</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
