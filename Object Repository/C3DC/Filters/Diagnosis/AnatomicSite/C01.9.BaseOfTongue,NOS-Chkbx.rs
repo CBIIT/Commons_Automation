@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Anatomic Site_C01.9 : Base of tongue, NOS&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Diagnosis Anatomic Site_C01.9 : Base of tongue, NOS&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Anatomic Site_C01.9 : Base of tongue, NOS&quot;]</value>
+      <value>//*[@id=&quot;checkbox_Diagnosis Anatomic Site_C01.9 : Base of tongue, NOS&quot;]</value>
       <webElementGuid>7bc714ba-dd64-4cdf-b320-dec79887c250</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

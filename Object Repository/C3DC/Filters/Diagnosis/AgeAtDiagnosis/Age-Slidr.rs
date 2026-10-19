@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Race_Asian&quot;]</value>
+         <value>//*[@id=&quot;Age at Diagnosis (Days)&quot;]/following::*[@role='slider'][1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Race_Asian&quot;]</value>
+      <value>//*[@id=&quot;Age at Diagnosis (Days)&quot;]/following::*[@role='slider'][1]</value>
       <webElementGuid>8e278627-762b-4ee9-94ff-87db457cb661</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Anatomic site_C48.0 : Retroperitoneum&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Sample Anatomic Site_C48.0 : Retroperitoneum&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Anatomic site_C48.0 : Retroperitoneum&quot;]</value>
+      <value>//*[@id=&quot;checkbox_Sample Anatomic Site_C48.0 : Retroperitoneum&quot;]</value>
       <webElementGuid>14901c29-768a-461d-ae2b-ca4acc2c2fdf</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

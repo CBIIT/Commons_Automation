@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Anatomic Site_C22 : LIVER AND INTRAHEPATIC BILE DUCTS&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Diagnosis Anatomic Site_C22 : LIVER AND INTRAHEPATIC BILE DUCTS&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Anatomic Site_C22 : LIVER AND INTRAHEPATIC BILE DUCTS&quot;]</value>
+      <value>//*[@id=&quot;checkbox_Diagnosis Anatomic Site_C22 : LIVER AND INTRAHEPATIC BILE DUCTS&quot;]</value>
       <webElementGuid>1d09e1f3-f60b-457f-b1e2-4810de6e55ca</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

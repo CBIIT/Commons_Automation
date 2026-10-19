@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Anatomic Site_C64.9 : Kidney, NOS&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Diagnosis Anatomic Site_C64.9 : Kidney, NOS&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Anatomic Site_C64.9 : Kidney, NOS&quot;]</value>
+      <value>//*[@id=&quot;checkbox_Diagnosis Anatomic Site_C64.9 : Kidney, NOS&quot;]</value>
       <webElementGuid>25c0d338-d027-426f-b122-5df00435731e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//button[@class ='MuiButtonBase-root-17738 MuiButton-root-17741 MuiButton-text-17743 more-button']</value>
+         <value>//button[contains(@class,'more-button')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//button[@class ='MuiButtonBase-root-17738 MuiButton-root-17741 MuiButton-text-17743 more-button']</value>
+      <value>//button[contains(@class,'more-button')]</value>
       <webElementGuid>9a7686e9-2671-4ca3-a8d1-3465c9a4a3c8</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

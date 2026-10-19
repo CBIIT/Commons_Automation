@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Tumor classification_Metastatic&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Tumor Spatial Extent_Metastatic&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,7 +20,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Tumor classification_Metastatic&quot;]</value>
+      <value>//*[@id=&quot;checkbox_Tumor Spatial Extent_Metastatic&quot;]</value>
       <webElementGuid>15c239b1-7e57-4b99-a9ea-920fd0463dba</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

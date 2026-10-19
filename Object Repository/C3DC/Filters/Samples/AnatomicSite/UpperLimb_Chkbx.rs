@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Anatomic site_C76.4 : Upper limb, NOS&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Sample Anatomic Site_C76.4 : Upper limb, NOS&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Anatomic site_C76.4 : Upper limb, NOS&quot;]</value>
+      <value>//*[@id=&quot;checkbox_Sample Anatomic Site_C76.4 : Upper limb, NOS&quot;]</value>
       <webElementGuid>a2d600aa-7428-44c5-a6bf-977110dee6e9</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

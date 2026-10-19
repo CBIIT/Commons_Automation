@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Anatomic site_C80 : UNKNOWN PRIMARY SITE&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Sample Anatomic Site_C80 : UNKNOWN PRIMARY SITE&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Anatomic site_C80 : UNKNOWN PRIMARY SITE&quot;]</value>
+      <value>//*[@id=&quot;checkbox_Sample Anatomic Site_C80 : UNKNOWN PRIMARY SITE&quot;]</value>
       <webElementGuid>4839cb03-61fc-4b6b-8d74-596c84b179da</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

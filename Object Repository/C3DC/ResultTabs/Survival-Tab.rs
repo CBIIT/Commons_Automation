@@ -34,7 +34,7 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <type>Main</type>
-      <value>//button[@index='5' and @role='tab']</value>
+      <value>//button[@index='6' and @role='tab']</value>
       <webElementGuid>1481c8fd-17ff-45f6-b6c9-38037166a504</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

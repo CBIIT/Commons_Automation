@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Anatomic Site_C47.9 : Autonomic nervous system, NOS&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Diagnosis Anatomic Site_C47.9 : Autonomic nervous system, NOS&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Anatomic Site_C47.9 : Autonomic nervous system, NOS&quot;]</value>
+      <value>//*[@id=&quot;checkbox_Diagnosis Anatomic Site_C47.9 : Autonomic nervous system, NOS&quot;]</value>
       <webElementGuid>4964aa80-585f-4405-9ace-f82d13097e66</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Anatomic Site_C05.0 : Hard palate&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Diagnosis Anatomic Site_C05.0 : Hard palate&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Anatomic Site_C05.0 : Hard palate&quot;]</value>
+      <value>//*[@id=&quot;checkbox_Diagnosis Anatomic Site_C05.0 : Hard palate&quot;]</value>
       <webElementGuid>5d5eeba5-7c61-40c3-9b8e-86f827237db1</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

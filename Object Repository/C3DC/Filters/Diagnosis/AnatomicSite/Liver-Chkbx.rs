@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Anatomic Site_C22.0 : Liver&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Diagnosis Anatomic Site_C22.0 : Liver&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Anatomic Site_C22.0 : Liver&quot;]</value>
+      <value>//*[@id=&quot;checkbox_Diagnosis Anatomic Site_C22.0 : Liver&quot;]</value>
       <webElementGuid>2561c52d-58ef-4b9b-9991-49048a1c5e71</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

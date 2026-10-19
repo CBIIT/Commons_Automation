@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Samples-Tbl</name>
+   <tag></tag>
+   <elementGuidId>19ac6731-a5f5-46dd-ad4c-8ee47c686769</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id='sample_tab_table']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id='sample_tab_table']</value>
+      <webElementGuid>43caaccf-52df-4143-8f70-49a9bd5876ce</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

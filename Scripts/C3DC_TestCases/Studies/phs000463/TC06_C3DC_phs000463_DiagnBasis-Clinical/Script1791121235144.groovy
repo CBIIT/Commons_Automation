@@ -1,0 +1,106 @@
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword
+
+import internal.GlobalVariable as GlobalVariable
+
+/*This test script:
+ - Opens the browser of choice: Chrome, Firefox or Edge
+ - Driver opened by Katalon is used in Selenium.
+ - Takes the Query from input excel and fetches data from Neo4j database.
+   Saves the results from neo4j and application in the same name mentioned in the input excel.
+ - Clicks on the Cases button in the Navbar of ICDC's homepage.
+ - Clicks on the Filter 'Breed' from left pane
+ - Selects the specific check box from 'Breed' filter.
+ - Reads the results displayed for the selected filter (from all the pages in UI) and saves in the excel mentioned in Input file
+ - Reads Neo4j DB using the query from Input file and saves the data in the excel mentioned in Input file
+ - Reads Neo4j excel and Webdata excel as lists and compares the data.
+ */
+WebUI.closeBrowser()
+
+CustomKeywords.'utilities.TestRunner.RunKatalon'('TC06_C3DC_phs000463_DiagnBasis-Clinical.xlsx')
+CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/HomePage/WarningBan_Continue_Btn')
+
+WebUI.waitForElementPresent(findTestObject('C3DC/Navbar/Explore-Tab'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Navbar/Explore-Tab')
+
+WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Study/Study_Facet'), 10)
+CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Study/Study_Facet')
+
+WebUI.delay(2)
+WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Study/dbGaP_Accession/dbGaP_Accession-Ddn'), 10)
+CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Study/dbGaP_Accession/dbGaP_Accession-Ddn')
+
+WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Study/dbGaP_Accession/phs000463-Chkbx'), 10)
+CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Study/dbGaP_Accession/phs000463-Chkbx')
+
+WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Diagnosis/Diagnosis-Facet'), 10)
+CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Diagnosis/Diagnosis-Facet')
+
+WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Diagnosis/DiagnosisBasis/DiagosisBasis-Ddn'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Diagnosis/DiagnosisBasis/DiagosisBasis-Ddn')
+
+WebUI.waitForElementPresent(findTestObject('C3DC/Filters/Diagnosis/DiagnosisBasis/Clinical-Chkbx'), 5)
+CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Filters/Diagnosis/DiagnosisBasis/Clinical-Chkbx')
+
+//Read Statbar
+CustomKeywords.'utilities.TestRunner.readStatBarC3DC'('C3DC/Statbar/Studies-Count', 'C3DC/Statbar/Participants-Count', 'C3DC/Statbar/Samples-Count', 'C3DC/Statbar/Files-Count')
+
+//Participants tab
+CustomKeywords.'utilities.TestRunner.selectTab'('Participants', 10)
+CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_StatBar_Participants, 'C3DC/ResultTabs/Participants-Tbl',
+	'C3DC/ResultTabs/Participants-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameParticipants,
+	'DbDataParticipants', GlobalVariable.G_QueryParticipantsTab)
+
+
+//clicking the Studies tab (query needs to be fixed for Top 5 values)
+CustomKeywords.'utilities.TestRunner.selectTab'('Studies', 10)
+CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_StatBar_Studies, 'C3DC/ResultTabs/Studies-Tbl',
+	'C3DC/ResultTabs/Studies-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameStudies,
+	'DbDataStudies', GlobalVariable.G_QueryStudiesTab)
+
+//clicking the Diagnosis tab
+CustomKeywords.'utilities.TestRunner.selectTab'('Diagnosis', 10)
+CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_StatBar_Participants, 'C3DC/ResultTabs/Diagnosis-Tbl',
+	'C3DC/ResultTabs/Diagnosis-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameDiagnosis,
+	'DbDataDiagnosis', GlobalVariable.G_QueryDiagnosisTab)
+
+////clicking the Genetic Analysis tab.Has no data
+//CustomKeywords.'utilities.TestRunner.selectTab'('Genetic Analyses', 10)
+//CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_StatBar_Participants, 'C3DC/ResultTabs/GeneticAnalysis-Tbl',
+//	'C3DC/ResultTabs/GeneticAnalysis-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameGeneticAnalysis,
+//	'DbDataGeneticAnalysis', GlobalVariable.G_QueryGeneticAnalysisTab)
+
+////clicking the Treatment tab - This study does not have treatment data 
+//CustomKeywords.'utilities.TestRunner.selectTab'('Treatments', 10)
+//CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_StatBar_Participants, 'C3DC/ResultTabs/Treatment-Tbl',
+//	'C3DC/ResultTabs/Treatment-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameTreatment,
+//	'DbDataTreatment', GlobalVariable.G_QueryTreatmentTab)
+
+////clicking the Treatment Response tab -This study does not have treatment response data
+//CustomKeywords.'utilities.TestRunner.selectTab'('Treatment Responses', 10)
+//CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_StatBar_Participants, 'C3DC/ResultTabs/TreatmentResp-Tbl',
+//	'C3DC/ResultTabs/TreatmentResp-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameTrtmntResp,
+//	'DbDataTreatmntResp', GlobalVariable.G_QueryTrtmntRespTab)
+
+//clicking the Survival tab
+CustomKeywords.'utilities.TestRunner.selectTab'('Survival', 10)
+CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_StatBar_Participants, 'C3DC/ResultTabs/Survival-Tbl',
+	'C3DC/ResultTabs/Survival-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameSurvival,
+	'DbDataSurvival', GlobalVariable.G_QuerySurvivalTab)
+
+////clicking the Samples tab - no data for this tab
+//CustomKeywords.'utilities.TestRunner.selectTab'('Samples', 10)
+//CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_StatBar_Participants, 'C3DC/ResultTabs/Samples-Tbl',
+//	'C3DC/ResultTabs/Samples-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameSamples,
+//	'DbDataSamples', GlobalVariable.G_QuerySamplesTab)
+
+
+////clicking the Files tab
+//WebUI.waitForElementPresent(findTestObject('C3DC/Navbar/ExploreFiles-Tab'), 5)
+//CustomKeywords.'utilities.TestRunner.clickTab'('C3DC/Navbar/ExploreFiles-Tab')
+//CustomKeywords.'utilities.TestRunner.multiFunction'('C3DC', GlobalVariable.G_StatBar_Files, 'C3DC/ResultTabs/Files-Tbl',
+//	'C3DC/ResultTabs/Files-TblHdr', 'C3DC/ResultTabs/All_Tabs_Next-Btn', GlobalVariable.G_WebTabnameFiles,
+//	'DbDataFiles', GlobalVariable.G_QueryFilesTab)
+
+WebUI.closeBrowser()

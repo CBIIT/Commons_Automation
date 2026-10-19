@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Samples-TblHdr</name>
+   <tag></tag>
+   <elementGuidId>69dc9558-cb74-40ce-a904-ea64d11d9790</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;sample_tab_table&quot;]//table/thead</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;sample_tab_table&quot;]//table/thead</value>
+      <webElementGuid>265e3f0e-b4eb-4874-9675-ebddce3d6c89</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

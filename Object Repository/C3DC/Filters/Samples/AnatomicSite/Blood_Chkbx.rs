@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Anatomic site_Blood&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Sample Anatomic Site_Blood&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,7 +20,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Anatomic site_Blood&quot;]</value>
+      <value>//*[@id=&quot;checkbox_Sample Anatomic Site_Blood&quot;]</value>
       <webElementGuid>8165d81b-1a84-41cf-945e-187ed3f78903</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

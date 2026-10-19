@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;checkbox_Anatomic site_Not Reported&quot;]</value>
+         <value>//*[@id=&quot;checkbox_Sample Anatomic Site_Not Reported&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;checkbox_Anatomic site_Not Reported&quot;]</value>
+      <value>//*[@id=&quot;checkbox_Sample Anatomic Site_Not Reported&quot;]</value>
       <webElementGuid>9a76e352-86bf-4464-b3fd-47389bdf29f5</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

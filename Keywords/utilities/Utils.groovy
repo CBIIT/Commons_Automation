@@ -13,6 +13,7 @@ import com.kms.katalon.core.util.KeywordUtil;
 import internal.GlobalVariable
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.CellType;
+import org.apache.poi.ss.usermodel.DataFormatter;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
@@ -269,37 +270,96 @@ public class Utils {
 
 	//@@@@@@@@@@@@@@@ SOHIL's Code @@@@@@@@@@@@@@@@@@@@
 	/**
-	 * This function compares two sheet. Other functions are called in this function
-	 * To perform the entire action
-	 * @param webSheetName
-	 * @param neoSheetName
+	 * Compares the UI sheet with the DB sheet for every project.
+	 * Each whole row is sorted together, using the columns from left to right
+	 * only to decide which record comes first. Cells on a row stay on that row.
 	 */
 	@Keyword
-	public static void compareSheets(String webSheetName, String tsvSheetName) {
-
+	public static void compareSheetsByRow(String webSheetName, String tsvSheetName) {
 		List<List<String>> UIData = new ArrayList<>();
-		List<List<String>> tsvData = new ArrayList<>();
+		List<List<String>> DbData = new ArrayList<>();
 
-		// Initializing files path
 		String UIfilename = GlobalVariable.G_WebExcel.toString();
-		String tsvFilename = GlobalVariable.G_ResultPath.toString();
+		String DbFilename = GlobalVariable.G_ResultPath.toString();
 
-		System.out.println("This is the full UI   file path: " + UIfilename);
-		System.out.println("This is the full TSV  file path: " + tsvFilename);
+		System.out.println("compareSheetsByRow. UI file path: " + UIfilename);
+		System.out.println("compareSheetsByRow. Db file path: " + DbFilename);
 
-		// Read UI output excel
 		UIData = ReadExcel.readOutputExcel(UIfilename, webSheetName);
-		Collections.sort(UIData, new TestRunner());
-
-		// Read TSV or DB output excel
-		tsvData = ReadExcel.readOutputExcel(tsvFilename, tsvSheetName);
-		Collections.sort(tsvData, new TestRunner());
+		DbData = ReadExcel.readOutputExcel(DbFilename, tsvSheetName);
+		Collections.sort(UIData, ROW_ORDER);
+		Collections.sort(DbData, ROW_ORDER);
 
 		System.out.println("This is the row size of the UIWeb Output data: " + UIData.size());
-		System.out.println("This is the row size of the TSV   Output data: " + tsvData.size());
+		System.out.println("This is the row size of the TSV   Output data: " + DbData.size());
 
-		compareTwoLists(UIData, tsvData);
+		compareTwoLists(UIData, DbData);
 	}
+
+	private static final DataFormatter ROW_CELL_FORMAT = new DataFormatter();
+
+	private static final Comparator ROW_ORDER = { List left, List right ->
+		int width = Math.min(left.size(), right.size())
+		for (int i = 0; i < width; i++) {
+			int cmp = rowCellText(left.get(i)).compareTo(rowCellText(right.get(i)))
+			if (cmp != 0) {
+				return cmp
+			}
+		}
+		return Integer.compare(left.size(), right.size())
+	} as Comparator
+
+	private static String rowCellText(Object cell) {
+		if (cell == null) {
+			return ""
+		}
+		if (cell instanceof XSSFCell) {
+			return ROW_CELL_FORMAT.formatCellValue((XSSFCell) cell)
+		}
+		return cell.toString()
+	}
+
+	/*
+	 * Replaced by compareSheetsByRow, which sorts each whole row and is used for every AppKey.
+	 * compareSheets sorted by the first column only. compareSheetsC3DC did the whole-row sort for C3DC only.
+	 *
+	 @Keyword
+	 public static void compareSheets(String webSheetName, String tsvSheetName) {
+	 List<List<String>> UIData = new ArrayList<>();
+	 List<List<String>> DbData = new ArrayList<>();
+	 String UIfilename = GlobalVariable.G_WebExcel.toString();
+	 String DbFilename = GlobalVariable.G_ResultPath.toString();
+	 System.out.println("This is the full UI  file path: " + UIfilename);
+	 System.out.println("This is the full Db  file path: " + DbFilename);
+	 UIData = ReadExcel.readOutputExcel(UIfilename, webSheetName);
+	 Collections.sort(UIData, new TestRunner());
+	 DbData = ReadExcel.readOutputExcel(DbFilename, tsvSheetName);
+	 Collections.sort(DbData, new TestRunner());
+	 System.out.println("This is the row size of the UIWeb Output data: " + UIData.size());
+	 System.out.println("This is the row size of the TSV   Output data: " + DbData.size());
+	 compareTwoLists(UIData, DbData);
+	 }
+	 @Keyword
+	 public static void compareSheetsC3DC(String webSheetName, String tsvSheetName) {
+	 if (!"C3DC".equals(GlobalVariable.AppKey?.toString())) {
+	 System.out.println("compareSheetsC3DC skipped because AppKey is " + GlobalVariable.AppKey)
+	 return
+	 }
+	 List<List<String>> UIData = new ArrayList<>();
+	 List<List<String>> DbData = new ArrayList<>();
+	 String UIfilename = GlobalVariable.G_WebExcel.toString();
+	 String DbFilename = GlobalVariable.G_ResultPath.toString();
+	 System.out.println("C3DC compare. UI file path: " + UIfilename);
+	 System.out.println("C3DC compare. Db file path: " + DbFilename);
+	 UIData = ReadExcel.readOutputExcel(UIfilename, webSheetName);
+	 DbData = ReadExcel.readOutputExcel(DbFilename, tsvSheetName);
+	 Collections.sort(UIData, C3DC_ROW_ORDER);
+	 Collections.sort(DbData, C3DC_ROW_ORDER);
+	 System.out.println("This is the row size of the UIWeb Output data: " + UIData.size());
+	 System.out.println("This is the row size of the TSV   Output data: " + DbData.size());
+	 compareTwoLists(UIData, DbData);
+	 }
+	 */
 
 
 
@@ -395,12 +455,12 @@ public class Utils {
 
 					// And tweak the equality check to allow exact match after cleaning:
 					if (l1Value.equals(l2Value) || l1ValueClean.equals(l2Value) || uiNorm.equals(tsvNorm)) {
-						System.out.println("UI  data cell value is:  " + l1Value + "\nTSV data cell value is:  " + l2Value);
+						System.out.println("UI data cell value is:  " + l1Value + "\nDB data cell value is:  " + l2Value);
 						System.out.println("Content matches for Row: " + l1rowCount + " Col: " + col + " \u2713");
 					} else {
 						System.err.println("*********** DATA MISMATCH ***********");
-						System.err.println("UI  data cell value is:  " + l1Value + "\nTSV data cell value is:  " + l2Value);
-						System.err.println("UI  normalized: " + uiNorm + " | TSV normalized: " + tsvNorm);
+						System.err.println("UI data cell value is:  " + l1Value + "\nDB data cell value is:  " + l2Value);
+						//System.err.println("UI  normalized: " + uiNorm + "\nDB normalized: " + tsvNorm);
 						System.err.println("Content does not match for Row: " + l1rowCount + " Col: " + col + " \u2717");
 						KeywordUtil.markFailed("*********** DATA MISMATCH in compareTwoLists *************");
 					}

@@ -174,6 +174,8 @@ public   class ConnectNeo4jV4{
 						
 						}
 						strM = strM.replace("\\\"", "\"")
+						// Gson toString() leaves a newline as the two characters \ and n.
+						strM = strM.replace("\\n", "\n")
 						
 						 
 						
