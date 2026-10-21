@@ -8,7 +8,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.util.concurrent.TimeUnit;
+import java.time.Duration
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.firefox.ProfilesIni;
@@ -111,7 +111,7 @@ public class FileCart extends TestRunner implements Comparator<List<XSSFCell>>{
 		driver = CustomBrowserDriver.createWebDriver();
 		TestRunner.driver = driver;
 		System.out.println("This is the driver from ICDC case details keyword : "+driver)
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		excelparsing(sheetData_K,driver);
 		System.out.println("This is the value of sheetdata array from create driver function : "+sheetData_K)
 	}
@@ -418,7 +418,7 @@ public class FileCart extends TestRunner implements Comparator<List<XSSFCell>>{
 			String webSheetName
 	) throws IOException {
 
-		WebDriverWait wait = new WebDriverWait(driver, 30)
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30))
 
 		List<String> wTableHdrData = new ArrayList<String>()
 		List<String> wTableBodyData = new ArrayList<String>()

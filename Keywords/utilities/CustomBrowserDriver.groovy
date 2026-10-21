@@ -24,6 +24,9 @@ import org.openqa.selenium.edge.EdgeDriver
 import org.openqa.selenium.firefox.FirefoxDriver
 import org.openqa.selenium.ie.InternetExplorerDriver
 import com.kms.katalon.core.webui.driver.DriverFactory
+import com.kms.katalon.core.webui.driver.chrome.ChromeDriverUtil
+import com.kms.katalon.core.webui.driver.edge.EdgeDriverUtil
+import com.kms.katalon.core.webui.driver.firefox.FirefoxDriverUtil
 import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.firefox.ProfilesIni;
 import org.openqa.selenium.firefox.FirefoxOptions;
@@ -48,6 +51,21 @@ public class CustomBrowserDriver {
 	}
 
 	/**
+	 * Katalon 10 removed DriverFactory.getChromeDriverPath, getGeckoDriverPath, and getEdgeDriverPath.
+	 * The replacement utils return a path when one is configured. When they do not, leave the
+	 * property unset so Selenium Manager resolves a driver that matches the installed browser.
+	 */
+	private static void applyDriverPath(String propertyKey, String driverPath) {
+		if (driverPath != null && !driverPath.trim().isEmpty()) {
+			System.setProperty(propertyKey, driverPath)
+			System.out.println("Driver path for " + propertyKey + ": " + driverPath)
+		} else {
+			System.clearProperty(propertyKey)
+			System.out.println("No configured path for " + propertyKey + ". Selenium Manager will resolve the driver.")
+		}
+	}
+
+	/**
 	 * This method is used to instantiate a new driver based 
 	 * on the user input from Profile
 	 * @return
@@ -60,7 +78,7 @@ public class CustomBrowserDriver {
 		switch (getExecutedBrowser()) {
 
 			case 'CHROME_DRIVER':
-				System.setProperty("webdriver.chrome.driver", DriverFactory.getChromeDriverPath())
+				applyDriverPath("webdriver.chrome.driver", ChromeDriverUtil.getChromeDriverPath())
 				ChromeOptions options = new ChromeOptions()
 				Map<String, Object> chromePrefs = new HashMap<String, Object>()
 				chromePrefs.put("download.prompt_for_download", false)
@@ -73,7 +91,7 @@ public class CustomBrowserDriver {
 				break;
 
 			case 'HEADLESS_DRIVER':  //This is for headless Chrome driver
-				System.setProperty("webdriver.chrome.driver", DriverFactory.getChromeDriverPath())
+				applyDriverPath("webdriver.chrome.driver", ChromeDriverUtil.getChromeDriverPath())
 				ChromeOptions options = new ChromeOptions();
 				options.addArguments("--headless");
 				options.addArguments("--disable-dev-shm-usage");
@@ -95,7 +113,7 @@ public class CustomBrowserDriver {
 				break;
 
 			case 'FIREFOX_DRIVER':
-				System.setProperty("webdriver.gecko.driver", DriverFactory.getGeckoDriverPath())
+				applyDriverPath("webdriver.gecko.driver", FirefoxDriverUtil.getDriverPath())
 				FirefoxProfile profile = new FirefoxProfile();
 				FirefoxOptions opt = new FirefoxOptions();
 				opt.setProfile(profile);
@@ -105,7 +123,7 @@ public class CustomBrowserDriver {
 				break;
 
 			case 'FIREFOX_HEADLESS_DRIVER':
-				System.setProperty("webdriver.gecko.driver", DriverFactory.getGeckoDriverPath())
+				applyDriverPath("webdriver.gecko.driver", FirefoxDriverUtil.getDriverPath())
 				FirefoxOptions ffoptions = new FirefoxOptions();
 				DesiredCapabilities desiredCap = DesiredCapabilities.firefox();
 				desiredCap.setCapability("headless", true);
@@ -125,9 +143,9 @@ public class CustomBrowserDriver {
 				break;
 
 			case 'EDGE_DRIVER':
-				String edgeDriverPath = DriverFactory.getEdgeDriverPath()
+				String edgeDriverPath = EdgeDriverUtil.getEdgeChromiumDriverPath()
 				WebUI.comment(">>> edgeDriverPath=${edgeDriverPath}")
-				System.setProperty("webdriver.edge.driver", edgeDriverPath)
+				applyDriverPath("webdriver.edge.driver", edgeDriverPath)
 				drv  = new EdgeDriver()
 				DriverFactory.changeWebDriver(drv)
 				System.out.println("This is the value of dr from createwebdriver : "+drv)
