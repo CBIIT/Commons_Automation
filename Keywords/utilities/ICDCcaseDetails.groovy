@@ -5,7 +5,7 @@ import java.awt.AWTException;
 import java.awt.Robot;
 import java.awt.event.KeyEvent;
 import java.io.IOException;
-import java.util.concurrent.TimeUnit;
+import java.time.Duration
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.firefox.ProfilesIni;
@@ -106,7 +106,7 @@ public class ICDCcaseDetails extends TestRunner implements Comparator<List<XSSFC
 		KeywordUtil.markPassed("Data loaded from input file for the test case. " )
 		driver = CustomBrowserDriver.createWebDriver();
 		System.out.println("This is the driver from ICDC case details keyword : "+driver)
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		excelparsing(sheetData_K,driver);
 		System.out.println("This is the value of sheetdata array from create driver function : "+sheetData_K)
 	}
@@ -285,7 +285,7 @@ public class ICDCcaseDetails extends TestRunner implements Comparator<List<XSSFC
 	public static void readCDInfo(String infoType, String webdataSheetName) throws IOException {
 
 
-		WebDriverWait wait = new WebDriverWait(driver,30);
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		int j
 
 
@@ -408,7 +408,7 @@ public class ICDCcaseDetails extends TestRunner implements Comparator<List<XSSFC
 		WebElement nxtBtn
 		WebElement resultTab
 
-		WebDriverWait wait = new WebDriverWait(driver,30);
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 
 
 		List<String> webData = new ArrayList<String>();  //this is not used
