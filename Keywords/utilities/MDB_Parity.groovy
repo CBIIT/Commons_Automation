@@ -1937,11 +1937,12 @@ class MDB_Parity {
 	/** Term identity fields for EDP defining terms and PV terms (same as tagged Term rows). */
 	private static final List<String> EDP_TERM_PARITY_KEY_FIELDS = TAGGED_TERM_PARITY_KEY_FIELDS
 
-	/** Pinned CRDC custom EDP triples (Uberon / OBIB / ICDO value sets). */
+	/** Pinned CRDC custom EDP triples (Uberon / OBIB / ICDO / study names). */
 	private static final List<List<String>> CRDC_EDP_TERM_TRIPLES = [
 		['CRDC', 'CRDC0001', '1'],
 		['CRDC', 'CRDC0002', '1'],
 		['CRDC', 'CRDC0003', '3.2'],
+		['CRDC', 'CRDC0008', '1'],
 	]
 
 	/**
@@ -2058,8 +2059,8 @@ class MDB_Parity {
 	}
 
 	/**
-	 * Run verifyEdpTermsParity for the three known CRDC custom EDP triples
-	 * (CRDC0001/1, CRDC0002/1, CRDC0003/3.2).
+	 * Run verifyEdpTermsParity for the known CRDC custom EDP triples
+	 * (CRDC0001/1, CRDC0002/1, CRDC0003/3.2, CRDC0008/1).
 	 */
 	static void verifyCrdcEdpTermsParity() {
 		KeywordUtil.logInfo('[EdpTerms-CRDC] Starting CRDC EDP terms parity for pinned triples')
@@ -2153,8 +2154,8 @@ class MDB_Parity {
 	}
 
 	/**
-	 * Run verifyEdpPropertiesParity for the three known CRDC custom EDP triples
-	 * (CRDC0001/1, CRDC0002/1, CRDC0003/3.2).
+	 * Run verifyEdpPropertiesParity for the known CRDC custom EDP triples
+	 * (CRDC0001/1, CRDC0002/1, CRDC0003/3.2, CRDC0008/1).
 	 */
 	static void verifyCrdcEdpPropertiesParity() {
 		KeywordUtil.logInfo('[EdpProperties-CRDC] Starting CRDC EDP properties parity for pinned triples')
