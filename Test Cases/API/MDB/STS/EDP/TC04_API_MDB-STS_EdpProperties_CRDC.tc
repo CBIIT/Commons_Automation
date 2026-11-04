@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Parity: GET /edps/CRDC/{id}/{ver}/properties for CRDC0001/0002/0003 vs Neo4j</description>
+   <description>Parity: GET /edps/CRDC/{id}/{ver}/properties for CRDC0001/0002/0003/0008 vs Neo4j</description>
    <name>TC04_API_MDB-STS_EdpProperties_CRDC</name>
    <tag></tag>
    <comment></comment>
