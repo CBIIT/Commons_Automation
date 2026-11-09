@@ -33,7 +33,7 @@ import java.awt.AWTException;
 import java.awt.Robot;
 import java.awt.event.KeyEvent;
 import java.io.IOException;
-import java.util.concurrent.TimeUnit;
+import java.time.Duration
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.firefox.ProfilesIni;
@@ -125,7 +125,7 @@ class functions extends TestRunner implements Comparator<List<XSSFCell>>{
 		WebElement nxtBtn
 		WebElement resultTab
 
-		WebDriverWait wait = new WebDriverWait(driver,30);
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		int statValue = convStringtoInt(statVal1);
 		System.out.println("This is the passed value of stat for this run: "+statValue)
 

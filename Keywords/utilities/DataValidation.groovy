@@ -5,7 +5,7 @@ import java.awt.AWTException;
 import java.awt.Robot;
 import java.awt.event.KeyEvent;
 import java.io.IOException;
-import java.util.concurrent.TimeUnit;
+import java.time.Duration
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.firefox.ProfilesIni;
@@ -151,7 +151,7 @@ public class DataValidation {
 	@Keyword
 	public static CCDCreadInfo(WebDriver driver, String webElem, String ipElem, String globalV, String ElemLabel) throws IOException {
 
-		WebDriverWait wait = new WebDriverWait(driver,10);
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
 
 		String xp = givexpath(webElem);
