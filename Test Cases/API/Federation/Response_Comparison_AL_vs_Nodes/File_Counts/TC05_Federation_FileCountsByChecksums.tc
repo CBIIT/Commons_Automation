@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>MANUAL RUN ONLY - not part of API-Federation_Regression. This test is very heavy: /file/by/checksums/count returns one entry per distinct checksum (KidsFirst alone returned about 1.16 million values, roughly 61 MB of JSON). Each run prints and logs that body several times, which can slow Katalon Studio significantly. Run it on its own when needed, ideally in console mode.</description>
+   <name>TC05_Federation_FileCountsByChecksums</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3f3ff87c-3439-4523-ac8c-1fa38855e0c7</testCaseGuid>
+</TestCaseEntity>
