@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_Federation_FileCountsByDepositions</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>60662576-b06c-49ba-99b2-7752f2d3442c</testCaseGuid>
+</TestCaseEntity>
