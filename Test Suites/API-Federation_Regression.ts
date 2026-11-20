@@ -180,6 +180,27 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>7acb60dc-e864-479c-b684-dd54a28607eb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/API/Federation/Response_Comparison_AL_vs_Nodes/File_Counts/TC03_Federation_FileCountsByDescription</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7a675b89-2d6d-4c5d-a851-763e6ff117e7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/API/Federation/Response_Comparison_AL_vs_Nodes/File_Counts/TC04_Federation_FileCountsByDepositions</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c13a4b14-f456-492b-a379-25e22789c019</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/API/Federation/Response_Comparison_AL_vs_Nodes/File_Counts/TC05_Federation_FileCountsByChecksums</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>e1277d25-e81d-4146-a2d8-7cf874f6bfe1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

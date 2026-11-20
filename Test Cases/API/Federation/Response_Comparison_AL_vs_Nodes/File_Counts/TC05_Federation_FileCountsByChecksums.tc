@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_Federation_FileCountsByChecksums</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3f3ff87c-3439-4523-ac8c-1fa38855e0c7</testCaseGuid>
+</TestCaseEntity>
